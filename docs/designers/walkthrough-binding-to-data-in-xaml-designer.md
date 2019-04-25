@@ -13,17 +13,17 @@ manager: jillfra
 ms.workload:
 - uwp
 ms.openlocfilehash: 0c0d13603a2575a826a53bf145fd1f0218571243
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62892853"
 ---
 # <a name="walkthrough-bind-to-data-in-xaml-designer"></a>연습: XAML 디자이너에서 데이터에 바인딩
 
 XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바인딩 속성을 설정할 수 있습니다. 이 연습의 예제에서는 데이터를 컨트롤에 바인딩하는 방법을 보여줍니다. 특히 이 연습에서는 `ItemCount`라는 [DependencyProperty](/uwp/api/Windows.UI.Xaml.DependencyProperty)가 포함된 간단한 쇼핑 카트 클래스를 만든 다음, [TextBlock](/uwp/api/Windows.UI.Xaml.Controls.TextBlock) 컨트롤의 **Text** 속성에 `ItemCount` 속성을 바인딩하는 방법을 보여 줍니다.
 
-## <a name="to-create-a-class-to-use-as-a-data-source"></a>데이터 원본으로 사용할 클래스를 만들려면
+## <a name="to-create-a-class-to-use-as-a-data-source"></a>데이터 소스로 사용할 클래스를 만들려면
 
 1. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 차례로 선택합니다.
 
@@ -31,7 +31,7 @@ XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바
 
 1. **BindingTest** 프로젝트 이름을 지정한 다음 **확인** 단추를 선택합니다.
 
-1. **MainWindow.xaml.cs**(또는 **MainWindow.xaml.vb**) 파일을 열고 다음 코드를 추가합니다. C#에서 `BindingTest` 네임스페이스에(파일의 마지막 닫는 괄호 앞에) 코드를 추가합니다. Visual Basic에서, 새 클래스를 추가합니다.
+1. **MainWindow.xaml.cs**(또는 **MainWindow.xaml.vb**) 파일을 열고 다음 코드를 추가합니다. C#에서는 `BindingTest` 네임스페이스에 코드를 추가합니다(파일의 마지막 닫는 괄호 앞에 추가). Visual Basic에서는 새 클래스를 추가합니다.
 
    ```csharp
    public class ShoppingCart : DependencyObject
@@ -85,7 +85,7 @@ XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바
 
 1. **도구 상자**에서, `TextBlock` 컨트롤을 선택하여 양식에 추가합니다.
 
-1. `TextBlock` 컨트롤을 선택하고, [속성] 창에서 **Text** 속성의 오른쪽에 속성 마커를 선택한 다음, **데이터 바인딩 만들기**를 선택합니다. (속성 표식은 작은 상자처럼 보입니다.)
+1. `TextBlock` 컨트롤을 선택하고, [속성] 창에서 **Text** 속성의 오른쪽에 속성 마커를 선택한 다음, **데이터 바인딩 만들기**를 선택합니다. 속성 표식은 작은 상자 모양입니다.
 
 1. [데이터 바인딩 만들기] 대화 상자의 **경로** 상자에서 **ItemCount : (int32)** 속성을 선택한 다음 **확인** 단추를 선택합니다.
 

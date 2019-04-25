@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a7c1bcb041101cf90957d02991ab1619d47051b5
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 88bd7571179d7841cc239052b7bf9f410761174c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62956455"
 ---
 # <a name="references-page-project-designer-visual-basic"></a>참조 페이지, 프로젝트 디자이너(Visual Basic)
 
@@ -82,11 +82,11 @@ ms.locfileid: "56335132"
 
  네임스페이스 목록에서 사용자가 지정한 네임스페이스를 선택하고, **가져온 네임스페이스** 상자에서 해당 네임스페이스를 대체할 이름을 입력하고 나서, 이 단추를 클릭하여 새 네임스페이스로 변경합니다. 이 단추는 선택된 네임스페이스가 **사용자 가져오기 추가** 단추를 사용하여 목록에 추가한 네임스페이스인 경우에만 활성화됩니다. 다음을 추가할 수 있습니다.
 
--   클래스 또는 네임스페이스(예: <xref:System.Math?displayProperty=fullName>).
+- 클래스 또는 네임스페이스(예: <xref:System.Math?displayProperty=fullName>).
 
--   별칭이 지정된 가져오기(예: `VB=Microsoft.VisualBasic`).
+- 별칭이 지정된 가져오기(예: `VB=Microsoft.VisualBasic`).
 
--   XML 네임스페이스(예: `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`).
+- XML 네임스페이스(예: `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`).
 
 ## <a name="see-also"></a>참고 항목
 

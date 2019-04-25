@@ -8,12 +8,12 @@ ms.assetid: bd7ad36c-54cb-4d2a-9aea-9d10ad98d7ba
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 487af3eb2a2cce1c68a94b996f371ab1c491e4c5
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 517d4e0558aeca1518316520191ae6c662b41a9e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58416329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950739"
 ---
 # <a name="how-to-create-a-diagnostic-data-adapter"></a>방법: 진단 데이터 어댑터 만들기
 
@@ -54,19 +54,19 @@ Microsoft Test Manager 또는 Visual Studio를 사용하여 테스트 설정을 
 
 2. 어셈블리 **Microsoft.VisualStudio.QualityTools.ExecutionCommon**을 추가합니다.
 
-   1.  **솔루션 탐색기**에서 **참조**를 마우스 오른쪽 단추로 클릭하고, **참조 추가** 명령을 선택합니다.
+   1. **솔루션 탐색기**에서 **참조**를 마우스 오른쪽 단추로 클릭하고, **참조 추가** 명령을 선택합니다.
 
-   2.  **.NET**를 선택하고 **Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll**을 찾습니다.
+   2. **.NET**를 선택하고 **Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll**을 찾습니다.
 
-   3.  **확인**을 선택합니다.
+   3. **확인**을 선택합니다.
 
 3. 어셈블리 **Microsoft.VisualStudio.QualityTools.Common**을 추가합니다.
 
-   1.  **솔루션 탐색기**에서 **참조**를 마우스 오른쪽 단추로 클릭하고, **참조 추가** 명령을 선택합니다.
+   1. **솔루션 탐색기**에서 **참조**를 마우스 오른쪽 단추로 클릭하고, **참조 추가** 명령을 선택합니다.
 
-   2.  **/.NET**를 선택하고 **Microsoft.VisualStudio.QualityTools.Common.dll**을 찾습니다.
+   2. **/.NET**를 선택하고 **Microsoft.VisualStudio.QualityTools.Common.dll**을 찾습니다.
 
-   3.  **확인**을 선택합니다.
+   3. **확인**을 선택합니다.
 
 4. 다음 `using` 문을 클래스 파일에 추가합니다.
 

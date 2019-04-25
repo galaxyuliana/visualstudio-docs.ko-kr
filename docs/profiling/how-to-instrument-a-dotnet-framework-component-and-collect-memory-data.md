@@ -8,19 +8,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: b49f87013671d459c0cd5843b9ecb4c4a0b3ae74
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 06fd67a62e37b3e498272fcc629b479b50c42944
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436748"
 ---
 # <a name="how-to-instrument-a-stand-alone-net-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line"></a>방법: 명령줄에서 프로파일러를 사용하여 독립 실행형 .NET Framework 구성 요소 계측 및 메모리 데이터 수집
 이 문서에서는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구를 사용하여 .exe 또는 .dll 파일과 같은 독립 실행형 애플리케이션의 .NET Framework 구성 요소를 계측하고 프로파일러를 사용하여 메모리 정보를 수집하는 방법을 설명합니다.
 
 > [!NOTE]
->  프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
-
+> 프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
 
  계측 방법을 사용하여 .NET Framework 구성 요소에서 메모리 데이터를 수집하려면 [VSInstr.exe](../profiling/vsinstr.md) 도구를 사용하여 구성 요소의 계측된 버전을 생성하고 [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) 도구를 사용하여 프로파일링 환경 변수를 초기화합니다. 그런 다음 *VSPerfCmd.exe* 도구를 사용하여 프로파일러를 시작합니다.
 
@@ -40,7 +39,7 @@ ms.locfileid: "56604641"
 
     **VSPerfClrEnv** {**/tracegc** &#124; **/tracegclife**}
 
-   -   **/tracegc** 및 **/tracegclife** 옵션은 환경 변수를 초기화하여 메모리 할당 데이터만 수집하거나, 메모리 할당 및 개체 수명 데이터를 둘 다 수집합니다.
+   - **/tracegc** 및 **/tracegclife** 옵션은 환경 변수를 초기화하여 메모리 할당 데이터만 수집하거나, 메모리 할당 및 개체 수명 데이터를 둘 다 수집합니다.
 
        |옵션|설명|
        |------------|-----------------|
@@ -67,7 +66,6 @@ ms.locfileid: "56604641"
    | [/counter](../profiling/counter.md) **:** `Config` | 구성에 지정된 프로세서 성능 카운터에서 정보를 수집합니다. 카운터 정보는 각 프로파일링 이벤트에서 수집되는 데이터에 추가됩니다. |
    | [events](../profiling/events-vsperfcmd.md) **:** `Config` | 프로파일링 중에 수집할 ETW(Windows용 이벤트 추적) 이벤트를 지정합니다. ETW 이벤트는 별도의 파일(.*etl*)로 수집됩니다. |
 
-
 5. 명령 프롬프트 창에서 대상 애플리케이션을 시작합니다.
 
 ## <a name="control-data-collection"></a>데이터 수집 제어
@@ -75,7 +73,7 @@ ms.locfileid: "56604641"
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면
 
--   **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
+- **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
 
     |옵션|설명|
     |------------|-----------------|
@@ -88,13 +86,13 @@ ms.locfileid: "56604641"
 
 #### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면
 
-1.  대상 애플리케이션을 닫습니다.
+1. 대상 애플리케이션을 닫습니다.
 
-2.  프로파일러를 종료합니다. 유형:
+2. 프로파일러를 종료합니다. 유형:
 
      **VSPerfCmd /shutdown**
 
-3.  (선택 사항) 프로파일링 환경 변수를 지웁니다. 유형:
+3. (선택 사항) 프로파일링 환경 변수를 지웁니다. 유형:
 
      **VSPerfCmd /off**
 

@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 988bc52cbf163c4b7e0f4c8d821a769f21df0413
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e4675977872057010e4279f88739981505bf73e9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55938204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946873"
 ---
 # <a name="how-to-set-multiple-startup-projects"></a>방법: 여러 시작 프로젝트 설정
 
@@ -23,13 +23,13 @@ Visual Studio에서는 디버거를 시작할 때 둘 이상의 프로젝트를 
 
 ## <a name="to-set-multiple-startup-projects"></a>여러 시작 프로젝트를 설정하려면
 
-1.  **솔루션 탐색기**에서 솔루션(최상위 노드)을 선택합니다.
+1. **솔루션 탐색기**에서 솔루션(최상위 노드)을 선택합니다.
 
-2.  솔루션 노드의 상황에 맞는(마우스 오른쪽 단추 클릭) 메뉴를 선택하고 **속성**을 선택합니다. **솔루션 속성 페이지** 대화 상자가 나타납니다.
+2. 솔루션 노드의 상황에 맞는(마우스 오른쪽 단추 클릭) 메뉴를 선택하고 **속성**을 선택합니다. **솔루션 속성 페이지** 대화 상자가 나타납니다.
 
-3.  **공용 속성** 노드를 확장하고 **시작 프로젝트**를 선택합니다.
+3. **공용 속성** 노드를 확장하고 **시작 프로젝트**를 선택합니다.
 
-4.  **여러 시작 프로젝트** 옵션을 선택하고 적절한 작업을 설정합니다.
+4. **여러 시작 프로젝트** 옵션을 선택하고 적절한 작업을 설정합니다.
 
 ## <a name="see-also"></a>참고 항목
 

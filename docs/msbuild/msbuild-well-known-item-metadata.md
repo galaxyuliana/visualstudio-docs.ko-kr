@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4a4c87d9dd6200fdd386db750a97e8f0866597d2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62963938"
 ---
 # <a name="msbuild-well-known-item-metadata"></a>MSBuild 잘 알려진 항목 메타데이터
 다음 표에서는 만들어질 때 모든 항목에 할당된 메타데이터에 대해 설명합니다. 각 예제에서 프로젝트에 파일 *C:\MyProject\Source\Program.cs*를 포함하는 데 다음과 같은 항목 선언이 사용되었습니다.

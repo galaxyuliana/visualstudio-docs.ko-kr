@@ -18,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6fe0f5be0dfaf9f35f390c78633f41711f6bcbc9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 957e9e4b51dbca2f27e042b185b6dd071791cfad
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62968599"
 ---
 # <a name="compile-page-project-designer-visual-basic"></a>프로젝트 디자이너, 컴파일 페이지(Visual Basic)
 
@@ -70,11 +70,11 @@ ms.locfileid: "55913043"
 
  **Option strict** 엄격한 형식 의미 체계를 적용할지 여부를 지정합니다. **Option Strict**가 **On**으로 지정되면 다음과 같은 조건에서 컴파일 시간 오류가 발생합니다.
 
--   암시적 축소 변환
+- 암시적 축소 변환
 
--   런타임에 바인딩
+- 런타임에 바인딩
 
--   `Object` 유형으로 이어지는 암시적 형식 지정
+- `Object` 유형으로 이어지는 암시적 형식 지정
 
 암시적 축소 변환 오류는 축소 변환인 암시적 데이터 형식 변환이 있을 경우 발생합니다. 자세한 내용은 [Option Strict 문](/dotnet/visual-basic/language-reference/statements/option-strict-statement), [암시적 변환과 명시적 변환](/dotnet/visual-basic/programming-guide/language-features/data-types/implicit-and-explicit-conversions) 및 [확대 변환과 축소 변환](/dotnet/visual-basic/programming-guide/language-features/data-types/widening-and-narrowing-conversions)을 참조하세요.
 
@@ -91,11 +91,11 @@ ms.locfileid: "55913043"
 **Option Strict 개별 경고입니다.**
 **컴파일 페이지**의 **경고 구성** 섹션에 `Option Strict`가 켜져 있을 때 컴파일 시간 오류가 발생하는 세 가지 조건에 해당하는 설정이 있습니다. 이러한 설정은 다음과 같습니다.
 
--   **암시적 변환**
+- **암시적 변환**
 
--   **런타임에 바인딩; 호출이 실패할 수 있음**
+- **런타임에 바인딩; 호출이 실패할 수 있음**
 
--   **암시적 형식; 개체로 간주**
+- **암시적 형식; 개체로 간주**
 
 **Option Strict**를 **On**으로 설정하는 경우 이러한 세 가지 경고 구성 설정은 모두 **Error**로 설정됩니다. **Option Strict**를 **Off**로 설정하는 경우 세 가지 설정은 모두 **None**으로 설정됩니다.
 
@@ -127,11 +127,11 @@ ms.locfileid: "55913043"
 
 이 확인란은 다음 조건을 충족하는 경우에만 사용할 수 있습니다.
 
--   **컴파일 페이지**에서 **대상 CPU** 목록이 **임의 CPU**로 설정됩니다.
+- **컴파일 페이지**에서 **대상 CPU** 목록이 **임의 CPU**로 설정됩니다.
 
--   **애플리케이션 페이지**에서 **애플리케이션 형식** 목록이 프로젝트가 애플리케이션임을 지정합니다.
+- **애플리케이션 페이지**에서 **애플리케이션 형식** 목록이 프로젝트가 애플리케이션임을 지정합니다.
 
--   **애플리케이션 페이지**에서 **대상 프레임워크** 목록이 .NET Framework 4.5로 지정됩니다.
+- **애플리케이션 페이지**에서 **대상 프레임워크** 목록이 .NET Framework 4.5로 지정됩니다.
 
 **경고 구성** 이 표에는 빌드 조건과 각각의 **None**, **Warning** 또는 **Error**의 해당 알림 수준이 나열되어 있습니다.
 
@@ -158,7 +158,6 @@ ms.locfileid: "55913043"
 **빌드 이벤트** **빌드 이벤트** 대화 상자에 액세스하려면 이 단추를 클릭합니다. 이 대화 상자를 사용하여 프로젝트에 대한 빌드 전 및 빌드 후 구성 지침을 지정할 수 있습니다. 이 대화 상자는 Visual Basic 프로젝트에만 적용됩니다. 자세한 내용은 [빌드 이벤트 대화 상자(Visual Basic)](../../ide/reference/build-events-dialog-box-visual-basic.md)를 참조하세요.
 
 **고급 컴파일 옵션** **AdvancedCompiler 설정** 대화 상자에 액세스하려면 이 단추를 클릭합니다. **AdvancedCompiler 설정** 대화 상자를 사용하여 프로젝트의 고급 빌드 구성 속성을 지정합니다. 이 대화 상자는 Visual Basic 프로젝트에만 적용됩니다. 자세한 내용은 [고급 컴파일러 설정 대화 상자(Visual Basic)](../../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)를 참조하세요.
-
 
 ## <a name="see-also"></a>참고 항목
 

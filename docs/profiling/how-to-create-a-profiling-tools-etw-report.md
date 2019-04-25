@@ -8,18 +8,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 310c43ea4dbdf1f50a76b574ec52baa589769034
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 1208080a13c807b95e1a279606568324cab2b8cd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439134"
 ---
 # <a name="how-to-create-a-profiling-tools-etw-report"></a>방법: 프로파일링 도구 ETW 보고서 만들기
 ETW(Windows용 이벤트 추적) 보고서에는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구의 성능 세션에서 기록된 ETW 이벤트가 나열됩니다. ETW 데이터는 이진(.*etl*) 파일에 수집됩니다. 이 보고서에 대한 자세한 내용은 [ETW(Windows용 이벤트 추적) 보고서](../profiling/event-tracing-for-windows-etw-report.md)를 참조하세요.
 
 > [!NOTE]
->  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]용 인터페이스에는 ETW 보고서를 표시할 수 없습니다.
+> [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]용 인터페이스에는 ETW 보고서를 표시할 수 없습니다.
 
 - [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]용 인터페이스를 사용하여 ETW 데이터를 수집하는 방법에 대한 자세한 내용은 [방법: ETW(Windows용 이벤트 추적) 데이터 수집](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)을 참조하세요.
 
@@ -29,7 +29,7 @@ ETW(Windows용 이벤트 추적) 보고서에는 [!INCLUDE[vsprvs](../code-quali
 
 ### <a name="to-generate-an-etw-report"></a>ETW 보고서를 생성하려면
 
--   **명령 프롬프트** 창에서 다음 명령줄을 입력합니다.
+- **명령 프롬프트** 창에서 다음 명령줄을 입력합니다.
 
      *ToolsPath* **VSPerfReport** *VSPFile*  **/Summary:ETW [/Xml]**
 

@@ -12,11 +12,11 @@ ms.workload:
 - python
 - data-science
 ms.openlocfilehash: b41ed3901cd4ad18a1b52ddbdc7ee6fd82cb5380
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62962262"
 ---
 # <a name="tutorial-get-started-with-the-django-web-framework-in-visual-studio"></a>자습서: Visual Studio에서 Django 웹 프레임워크 시작
 

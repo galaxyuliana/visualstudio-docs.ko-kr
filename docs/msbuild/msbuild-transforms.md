@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d2fe127a98236c321db9d1e7450ab006e09badba
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 3be16c2ccbd7cfe5d26507037e4238870e59d83b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63414692"
 ---
 # <a name="msbuild-transforms"></a>MSBuild 변환
 변환은 항목 목록 간의 일대일 변환입니다. 변환을 수행하면 프로젝트가 항목 목록을 변환할 수 있을 뿐만 아니라, 대상이 입력과 출력 간의 직접 매핑을 식별할 수 있습니다. 이 항목에서는 변환 및 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에서 변환을 사용하여 보다 효율적으로 프로젝트를 빌드하는 방법을 설명합니다.
@@ -33,7 +33,7 @@ ms.locfileid: "56627261"
 예를 들어 @(RESXFile) 항목 목록의 항목이 *Form1.resx*, *Form2.resx* 및 *Form3.resx*인 경우 변환 목록의 출력은  *Form1.resources*, *Form2.resources* 및 *Form3.resources*가 됩니다.
 
 > [!NOTE]
->  표준 항목 목록에 구분 기호를 지정한 것과 동일한 방식으로 변환된 항목 목록에 사용자 지정 구분 기호를 지정할 수 있습니다. 예를 들어 기본 세미콜론(;) 대신 쉼표(,)를 사용하여 변환된 항목 목록을 구분하려면 `@(RESXFile->'Toolset\%(filename)%(extension)', ',')` XML을 사용합니다.
+> 표준 항목 목록에 구분 기호를 지정한 것과 동일한 방식으로 변환된 항목 목록에 사용자 지정 구분 기호를 지정할 수 있습니다. 예를 들어 기본 세미콜론(;) 대신 쉼표(,)를 사용하여 변환된 항목 목록을 구분하려면 `@(RESXFile->'Toolset\%(filename)%(extension)', ',')` XML을 사용합니다.
 
 ## <a name="use-multiple-modifiers"></a>여러 한정자 사용
  변환 식은 순서에 관계 없이 결합되고 반복될 수 있는 여러 개의 한정자를 포함할 수 있습니다. 다음 예제에서는 파일을 포함하는 디렉터리의 이름을 변경하지만 파일의 원래 이름 및 파일 이름 확장명을 유지합니다.

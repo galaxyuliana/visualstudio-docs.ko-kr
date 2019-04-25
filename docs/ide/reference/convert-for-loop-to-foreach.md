@@ -10,11 +10,11 @@ dev_langs:
 ms.workload:
 - dotnet
 ms.openlocfilehash: fc14a07557b3ae46a84f506bc0fa9007efface63
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55921306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62811897"
 ---
 # <a name="refactoring-to-convert-between-a-for-loop-and-a-foreach-statement"></a>for 루프와 foreach 문 사이를 변환하는 리팩터링
 

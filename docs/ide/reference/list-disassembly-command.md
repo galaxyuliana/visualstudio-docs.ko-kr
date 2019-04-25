@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 71a1be7841cb25cebafe951419006bb8b635093c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970163"
 ---
 # <a name="list-disassembly-command"></a>디스어셈블리 목록 표시 명령
 디버그 프로세스를 시작하고 오류 처리 방식을 지정할 수 있습니다.
@@ -58,7 +58,7 @@ Debug.ListDisassembly [/count:number] [/endaddress:expression]
 
  선택 사항입니다. 소스 코드와 연결된 줄 번호를 볼 수 있도록 합니다. /source 스위치는 /linenumbers 스위치를 사용하는 `yes`의 값이 있어야 합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```cmd
 >Debug.ListDisassembly

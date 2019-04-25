@@ -19,12 +19,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3411d3e9960235f7fbd948e82cf9498377746b7d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 862f2ca7da96e7d084d2af7bfa53a5640bed22d8
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55938763"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950534"
 ---
 # <a name="signing-page-project-designer"></a>프로젝트 디자이너, 서명 페이지
 **프로젝트 디자이너**의 **서명** 페이지를 사용하여 애플리케이션 및 배포 매니페스트에 서명하고 어셈블리에도 서명합니다(강력한 이름 서명).
@@ -93,7 +93,6 @@ ms.locfileid: "55938763"
 
 > [!NOTE]
 > 어셈블리에 서명할 때 항상 개인 키에 액세스할 수 있는 것은 아닙니다. 예를 들어 조직에 개발자가 일상적으로 액세스할 수 없는 엄격하게 보호된 키 쌍이 있을 수 있습니다. 공개 키를 사용할 수 있지만 개인 키에 대한 액세스는 몇몇 개인으로 제한됩니다. 이 경우 *지연* 또는 *일부 서명*을 통해 공개 키를 제공하여 어셈블리가 전달될 때까지 개인 키 추가를 연기할 수 있습니다.
-
 
 ## <a name="see-also"></a>참고 항목
 

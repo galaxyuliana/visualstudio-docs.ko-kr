@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: be1c3b972397246823512f67e6fe2a0e2ecabbd5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62830035"
 ---
 # <a name="modules-view---instrumentation-data"></a>모듈 뷰 - 계측 데이터
 모듈 뷰에는 프로파일링 데이터에 포함되었던 모듈별로 그룹화된 성능 데이터가 표시됩니다. 모듈의 함수는 모듈 노드 아래에 나열됩니다.

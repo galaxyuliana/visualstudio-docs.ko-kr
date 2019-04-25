@@ -11,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 3c583ee2dd652a81410a756a5297e570afb20f76
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.openlocfilehash: 9f4c165f3e882cea71ee4aaff9f2358c27ce6a2b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62957279"
 ---
 # <a name="step-4-use-the-full-flask-web-project-template"></a>4단계: 전체 Flask 웹 프로젝트 템플릿 사용
 
@@ -169,6 +169,7 @@ Jade를 사용하도록 설정하려면 먼저 프로젝트 템플릿은 *requir
 ```python
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 ```
+
 *템플릿* 폴더에는 *.html* 템플릿 대신 *.jade* 파일이 있고, *views.py*의 보기는 `flask.render_template`에 대한 호출에서 이러한 파일을 참조합니다. 그렇지 않은 경우 보기 코드는 동일합니다.
 
 *.jade* 파일 중 하나를 열면 템플릿의 보다 간결한 표현을 확인할 수 있습니다. 예를 들어, 다음은 "Flask/Jade 웹 프로젝트" 템플릿으로 만들어진 *templates/layout.jade*의 내용입니다.
@@ -229,7 +230,7 @@ Jinja 및 Jade 구문 모두를 원하는 대로 실험해 보고 어떤 것이 
 ## <a name="next-steps"></a>다음 단계
 
 > [!div class="nextstepaction"]
-> [설문 조사 Flask 웹 프로젝트 템플릿](learn-flask-visual-studio-step-05-polls-flask-web-project-template.md)
+> [설문조사 Flask 웹 프로젝트 템플릿](learn-flask-visual-studio-step-05-polls-flask-web-project-template.md)
 
 ## <a name="go-deeper"></a>자세히 알아보기
 

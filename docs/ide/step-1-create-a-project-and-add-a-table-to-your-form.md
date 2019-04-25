@@ -10,12 +10,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0f1c651c27fac6036aa2abcbd3e86b5f46cc9f02
-ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
+ms.openlocfilehash: 0bac96a61a5c071a01f1584911ba41cd84e87da7
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58647494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979560"
 ---
 # <a name="step-1-create-a-project-and-add-a-table-to-your-form"></a>1단계: 프로젝트 만들기 및 양식에 테이블 추가
 
@@ -47,9 +47,9 @@ ms.locfileid: "58647494"
 
 4. **속성** 창에서 다음 폼 속성을 설정합니다.
 
-   1.  폼의 **Text** 속성을 **Form1**에서 **일치 게임**으로 변경합니다. 이 텍스트는 게임 창 위쪽에 표시됩니다.
+   1. 폼의 **Text** 속성을 **Form1**에서 **일치 게임**으로 변경합니다. 이 텍스트는 게임 창 위쪽에 표시됩니다.
 
-   2.  이 폼의 크기를 550*400픽셀로 설정합니다. 이렇게 하려면 **Size** 속성을 **550, 550**으로 설정하거나, IDE(통합 개발 환경)의 오른쪽 아래 모퉁이에 표시되는 크기가 원하는 크기가 될 때까지 폼의 모퉁이를 끌면 됩니다.
+   2. 이 폼의 크기를 550*400픽셀로 설정합니다. 이렇게 하려면 **Size** 속성을 **550, 550**으로 설정하거나, IDE(통합 개발 환경)의 오른쪽 아래 모퉁이에 표시되는 크기가 원하는 크기가 될 때까지 폼의 모퉁이를 끌면 됩니다.
 
 5. IDE의 왼쪽에 있는 **도구 상자** 탭을 선택하여 도구 상자를 표시합니다.
 
@@ -76,19 +76,19 @@ ms.locfileid: "58647494"
 
     TableLayoutPanel이 선택된 상태에서 도구 상자를 열고 **공용 컨트롤** 범주에 있는 <xref:System.Windows.Forms.Label> 컨트롤을 TableLayoutPanel의 왼쪽 위 셀에 추가합니다. 이제 IDE에서 레이블 컨트롤이 선택되어 있어야 합니다. 여기에 다음 속성을 설정합니다.
 
-   1.  레이블의 **BackColor** 속성이 **CornflowerBlue**로 설정되어 있는지 확인합니다.
+   1. 레이블의 **BackColor** 속성이 **CornflowerBlue**로 설정되어 있는지 확인합니다.
 
-   2.  **AutoSize** 속성을 **False**로 설정합니다.
+   2. **AutoSize** 속성을 **False**로 설정합니다.
 
-   3.  **Dock** 속성을 **Fill**로 설정합니다.
+   3. **Dock** 속성을 **Fill**로 설정합니다.
 
-   4.  속성 옆에 있는 드롭다운 단추를 선택한 다음, 가운데 단추를 선택하여 **TextAlign** 속성을 **MiddleCenter**로 설정합니다. 이렇게 하면 셀의 중앙에 아이콘이 나타납니다.
+   4. 속성 옆에 있는 드롭다운 단추를 선택한 다음, 가운데 단추를 선택하여 **TextAlign** 속성을 **MiddleCenter**로 설정합니다. 이렇게 하면 셀의 중앙에 아이콘이 나타납니다.
 
-   5.  **Font** 속성을 선택합니다. 그러면 줄임표(**...**) 단추가 나타납니다.
+   5. **Font** 속성을 선택합니다. 그러면 줄임표(**...**) 단추가 나타납니다.
 
-   6.  줄임표 단추를 선택하고 **글꼴** 값을 **Webdings**로, **글꼴 스타일**에 **굵게**, **크기**에 **48**을 각각 설정합니다.
+   6. 줄임표 단추를 선택하고 **글꼴** 값을 **Webdings**로, **글꼴 스타일**에 **굵게**, **크기**에 **48**을 각각 설정합니다.
 
-   7.  레이블의 **Text** 속성을 문자 **c**로 설정합니다.
+   7. 레이블의 **Text** 속성을 문자 **c**로 설정합니다.
 
         이제 TableLayoutPanel의 왼쪽 위 셀에는 파란색 배경의 가운데에 검은색 상자가 포함됩니다.
 
@@ -106,6 +106,6 @@ ms.locfileid: "58647494"
 
 ## <a name="to-continue-or-review"></a>계속하거나 검토하려면
 
--   다음 자습서 단계로 이동하려면 [2단계: 임의의 개체 및 아이콘 목록 추가](../ide/step-2-add-a-random-object-and-a-list-of-icons.md)를 참조하세요.
+- 다음 자습서 단계로 이동하려면 [2단계: 임의의 개체 및 아이콘 목록 추가](../ide/step-2-add-a-random-object-and-a-list-of-icons.md)를 참조하세요.
 
--   개요 항목으로 돌아가려면 [자습서 3: 맞추기 게임 만들기](../ide/tutorial-3-create-a-matching-game.md)를 참조하세요.
+- 개요 항목으로 돌아가려면 [자습서 3: 맞추기 게임 만들기](../ide/tutorial-3-create-a-matching-game.md)를 참조하세요.

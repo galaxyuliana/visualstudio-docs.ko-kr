@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: video
-ms.openlocfilehash: 59ee47f8971278e1be9714e8ee4e70911f612d52
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 8b67296dc4ad77977ce6ba0399e9d9b4207e2c7f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62938195"
 ---
 # <a name="include-a-nuget-package-in-your-project"></a>프로젝트에 NuGet 패키지 포함
 
@@ -77,9 +77,9 @@ using Newtonsoft.Json;
 
 ![패키지 메뉴](media/nuget-walkthrough-PackagesMenu.png)
 
-*   **패키지 추가** - 프로젝트에 패키지를 더 추가하기 위한 창을 엽니다.
-*   **업데이트** - 각 패키지에 대해 소스 서버를 확인하고 모든 최신 버전을 다운로드합니다.
-*   **복원** - 기존 패키지를 최신 버전으로 업데이트하지 않고 모든 누락된 패키지를 다운로드합니다.
+* **패키지 추가** - 프로젝트에 패키지를 더 추가하기 위한 창을 엽니다.
+* **업데이트** - 각 패키지에 대해 소스 서버를 확인하고 모든 최신 버전을 다운로드합니다.
+* **복원** - 기존 패키지를 최신 버전으로 업데이트하지 않고 모든 누락된 패키지를 다운로드합니다.
 
 업데이트 및 복원 옵션은 솔루션 수준에서도 사용 가능하며, 솔루션 내의 모든 프로젝트에 영향을 줍니다.
 
@@ -87,9 +87,9 @@ using Newtonsoft.Json;
 
 ![패키지 메뉴](media/nuget-walkthrough-PackageMenu.png)
 
-*   **버전 번호** - 버전 번호는 비활성화된 메뉴 항목이며, 정보 제공 용도로만 표시됩니다.
-*   **업데이트** - 소스 서버를 확인하고 새 버전(있는 경우)을 다운로드합니다.
-*   **제거** - 이 프로젝트에서 패키지를 제거하고 프로젝트의 참조에서 관련 어셈블리를 제거합니다.
+* **버전 번호** - 버전 번호는 비활성화된 메뉴 항목이며, 정보 제공 용도로만 표시됩니다.
+* **업데이트** - 소스 서버를 확인하고 새 버전(있는 경우)을 다운로드합니다.
+* **제거** - 이 프로젝트에서 패키지를 제거하고 프로젝트의 참조에서 관련 어셈블리를 제거합니다.
 
 ## <a name="adding-package-sources"></a>패키지 소스 추가하기
 

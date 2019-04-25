@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: deb2ce5eba108127dce82bab77fe7ed4fb78fb14
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55947044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970129"
 ---
 # <a name="lcid-devenvexe"></a>/LCID (devenv.exe)
 
@@ -61,7 +61,7 @@ IDE를 로드하고 환경에 대한 기본 자연 언어를 설정합니다. �
 |한국어|1042|
 |스페인어|3082|
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 이 예에서는 영어 리소스 문자열을 사용하는 IDE를 로드합니다.
 

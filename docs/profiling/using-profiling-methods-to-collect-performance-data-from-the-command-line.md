@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a59e05932b9e2e20f06a02614f8153b665b8fd51
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 3a6350c16da79bc102f85a382ce57aa6924bb2c4
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56624492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62831445"
 ---
 # <a name="use-profiling-methods-to-collect-performance-data-from-the-command-line"></a>명령줄에서 프로파일링 방법을 사용하여 성능 데이터 수집
 프로파일링하는 애플리케이션의 유형, 사용하려는 프로파일링 방법, 그리고 대상 애플리케이션이 네이티브 코드로 작성되었는지 아니면 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 코드로 작성되었는지에 따라 선택하는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구 및 옵션이 달라집니다.
@@ -37,17 +37,17 @@ ms.locfileid: "56624492"
 
  **대상 애플리케이션 유형**
 
--   [.NET Framework 독립 실행형 구성 요소](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md)
+- [.NET Framework 독립 실행형 구성 요소](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md)
 
--   [기본 독립 실행형 구성 요소](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)
+- [기본 독립 실행형 구성 요소](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)
 
--   [정적으로 컴파일된 ASP.NET 웹 애플리케이션](../profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md)
+- [정적으로 컴파일된 ASP.NET 웹 애플리케이션](../profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md)
 
--   [동적으로 컴파일된 ASP.NET 웹 애플리케이션](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)
+- [동적으로 컴파일된 ASP.NET 웹 애플리케이션](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md)
 
--   [.NET 서비스](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
+- [.NET 서비스](../profiling/how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
 
--   [기본 서비스](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
+- [기본 서비스](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
 
 ## <a name="use-net-memory-methods-to-collect-memory-allocation-and-object-lifetime-data"></a>.NET 메모리 방법을 사용하여 메모리 할당 및 개체 수명 데이터 수집
  프로파일링 도구의 .NET 메모리 방법을 사용하면 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]의 개체 수명에 대한 정보 및 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 메모리 할당 데이터를 수집할 수 있습니다.

@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - data-science
 ms.openlocfilehash: 98dcbaaeb6f330cda3a14cf8c32afe403b50aa85
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55933953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62939281"
 ---
 # <a name="debug-r-in-visual-studio"></a>Visual Studio에서 R 디버그
 
@@ -56,7 +56,7 @@ add <- function(x, y) {
 | 명령 | 설명 |
 | --- | --- |
 | n | 다음: 코드 파일에서 다음 문을 실행합니다(단위 실행과 같음). |
-| s | 한 단계씩 코드 실행: 코드 파일에서 다음 문을 실행하여 다음 문이 함수 호출인 경우 함수 범위로 한 단계씩 코드를 실행합니다. |
+| 초 | 한 단계씩 코드 실행: 코드 파일에서 다음 문을 실행하여 다음 문이 함수 호출인 경우 함수 범위로 한 단계씩 코드를 실행합니다. |
 | f | 마침: 현재 함수 범위의 나머지를 실행하고 호출자로 돌아갑니다(단계 출력과 같음). |
 | c, cont | 계속: 프로그램을 다음 중단점까지 실행합니다. |
 | Q | 끝내기: 디버깅 세션을 종료합니다. |

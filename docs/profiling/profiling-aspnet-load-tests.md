@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - aspnet
 ms.openlocfilehash: e78aa662d8bd90f3b2d11766d3a43f42dc1bbccf
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62994970"
 ---
 # <a name="profile-aspnet-load-tests"></a>ASP.NET 부하 테스트 프로파일링
 ASP.NET 웹 사이트 프로젝트에 대해 실행하는 자동화된 [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] 웹 테스트에서 프로파일링 데이터를 수집할 수 있습니다. 샘플링 및 계층 상호 작용 데이터를 수집할 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.

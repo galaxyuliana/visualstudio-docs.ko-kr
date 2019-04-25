@@ -12,12 +12,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 690fe29373e80d9dfc560a616d0e914731d9b6cf
-ms.sourcegitcommit: 0a2fdc23faee77187e10a1c19665ba5a1ac68e72
+ms.openlocfilehash: 3ba5cdf7ba627bc1d6a75368d90da5ce8a726a5e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "59477528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62973221"
 ---
 # <a name="repair-visual-studio"></a>Visual Studio 복구
 
@@ -74,7 +74,6 @@ ms.locfileid: "59477528"
    > **복구** 옵션은 Visual Studio의 설치된 인스턴스에만 나타납니다. **복구** 옵션이 표시되지 않으면 Visual Studio 설치 관리자에 “설치됨”이 아닌 “사용 가능”으로 나열된 버전에서 **자세히**를 선택한 것일 수 있습니다.
 
 ::: moniker-end
-
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

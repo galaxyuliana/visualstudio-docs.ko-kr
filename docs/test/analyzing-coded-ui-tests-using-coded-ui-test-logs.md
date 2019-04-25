@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 85be4e713a4cf2581200da7589a1001e6510459d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a5ce4f298039d6d86f8c4855d1f139b6be1d1175
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55948552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822738"
 ---
 # <a name="analyzing-coded-ui-tests-using-coded-ui-test-logs"></a>코딩된 UI 테스트 로그를 사용하여 코딩된 UI 테스트 분석
 
@@ -60,18 +60,18 @@ ms.locfileid: "55948552"
 
 현재 위치에서 *QTAgent32.exe.config* 파일을 적절하게 수정한 코딩된 UI 테스트를 실행하는 경우 **테스트 탐색기** 결과에 출력 링크가 표시됩니다. 로그 파일은 테스트에 실패한 경우뿐만 아니라 추적 수준이 “verbose”로 설정되었을 때 성공한 테스트의 경우에도 생성됩니다.
 
-1.  **테스트** 메뉴에서 **창**을 선택한 다음, **테스트 탐색기**를 선택합니다.
+1. **테스트** 메뉴에서 **창**을 선택한 다음, **테스트 탐색기**를 선택합니다.
 
-2.  **빌드** 메뉴에서 **솔루션 빌드**를 선택합니다.
+2. **빌드** 메뉴에서 **솔루션 빌드**를 선택합니다.
 
-3.  **테스트 탐색기**에서 실행하려는 코딩된 UI 테스트를 선택하고 해당 테스트의 바로 가기 메뉴를 연 다음, **선택한 테스트 실행**을 선택합니다.
+3. **테스트 탐색기**에서 실행하려는 코딩된 UI 테스트를 선택하고 해당 테스트의 바로 가기 메뉴를 연 다음, **선택한 테스트 실행**을 선택합니다.
 
      자동화된 테스트가 실행되고 성공 또는 실패 여부를 나타냅니다.
 
     > [!TIP]
     > **테스트 탐색기**를 보려면 **테스트** > **Windows**를 선택한 다음, **테스트 탐색기**를 선택합니다.
 
-4.  **테스트 탐색기** 결과에서 **출력** 링크를 선택합니다.
+4. **테스트 탐색기** 결과에서 **출력** 링크를 선택합니다.
 
      ![테스트 탐색기의 출력 링크](../test/media/cuit_htmlactionlog1.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "55948552"
 
      ![코딩된 UI 테스트의 결과 및 출력 링크](../test/media/cuit_htmlactionlog2.png)
 
-5.  *UITestActionLog.html* 링크를 선택합니다.
+5. *UITestActionLog.html* 링크를 선택합니다.
 
      웹 브라우저에 로그가 표시됩니다.
 

@@ -7,22 +7,22 @@ manager: jillfra
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: f5ab27f8f10cb7221ce85bd29df13e446253b8a8
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 14f2b1e5267bd5c9ce35375c6cf6438406aa3e80
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58324911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970355"
 ---
 # <a name="use-the-microsoft-unit-testing-framework-for-c-in-visual-studio"></a>Visual Studio에서 Microsoft Unit Testing Framework for C++ 사용
 
 Microsoft Unit Testing Framework for C++는 **C++를 통한 데스크톱 개발** 워크로드에 기본적으로 포함됩니다.
 
-##  <a name="separate_project"></a>별도 프로젝트에서 단위 테스트를 작성하려면
+## <a name="separate_project"></a>별도 프로젝트에서 단위 테스트를 작성하려면
 
 일반적으로 테스트하려는 코드와 동일한 솔루션에 있는 자체 프로젝트에서 테스트 코드를 실행합니다. 새 테스트 프로젝트를 설정 및 구성하려면 [C/C++용 단위 테스트 작성](writing-unit-tests-for-c-cpp.md)을 참조하세요.
 
-##  <a name="same_project"></a> 같은 프로젝트에서 단위 테스트를 작성하려면
+## <a name="same_project"></a> 같은 프로젝트에서 단위 테스트를 작성하려면
 
 DLL에서 내보내지 않은 함수 테스트 등, 일부 경우에는 테스트하는 프로그램과 동일한 프로젝트에서 테스트를 만들어야 합니다. 같은 프로젝트에서 단위 테스트를 작성하려면
 
@@ -32,16 +32,14 @@ DLL에서 내보내지 않은 함수 테스트 등, 일부 경우에는 테스�
 
    2. 다음 행에서 아래쪽 화살표를 클릭하고 **\<Edit>** 를 선택합니다.
 
-
       | 디렉터리 | 속성 |
       |-| - |
       | **포함 디렉터리** | **$(VCInstallDir)UnitTest\include;$(IncludePath)** |
       | **라이브러리 디렉터리** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)** |
 
-
 2. C++ 단위 테스트 파일 추가:
 
-   -   **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **추가** > **새 항목** > **C++ 단위 테스트**를 선택합니다.
+   - **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **추가** > **새 항목** > **C++ 단위 테스트**를 선택합니다.
 
 ## <a name="write-the-tests"></a>테스트 작성
 

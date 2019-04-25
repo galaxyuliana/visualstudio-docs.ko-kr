@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3d9dd845a69243cd8bedb095c63f75670f39afff
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62830173"
 ---
 # <a name="fileclassifier-task"></a>FileClassifier 작업
 <xref:Microsoft.Build.Tasks.Windows.FileClassifier> 작업은 소스 리소스 집합을 어셈블리에 포함될 항목으로 분류합니다. 리소스를 지역화할 수 없는 경우 주 애플리케이션 어셈블리에 포함되고, 그렇지 않으면 위성 어셈블리에 포함합니다.

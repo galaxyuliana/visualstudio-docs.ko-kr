@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 02c5693a2edca0d81e21e73215e00f25aae939eb
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c79dfa33af5e0e80db682f272c5673856dbbcd8d
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62840384"
 ---
 # <a name="how-to-use-reserved-xml-characters-in-project-files"></a>방법: 프로젝트 파일에서 예약된 XML 문자 사용
 프로젝트 파일을 작성할 경우 속성 값이나 작업 매개 변수 값 등에서 예약된 XML 문자를 사용해야 합니다. 그러나 프로젝트 파일을 구문 분석할 수 있도록 일부 예약된 문자를 명명된 엔터티로 바꿔야 합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "56603873"
 
 #### <a name="to-use-double-quotes-in-a-project-file"></a>프로젝트 파일에서 큰따옴표를 사용하려면
 
--   큰따옴표를 해당 명명된 엔터티 &amp;quot;로 바꿉니다. 예를 들어 `EXEFile` 항목 목록 주위에 큰따옴표를 배치하려면 다음을 입력합니다.
+- 큰따옴표를 해당 명명된 엔터티 &amp;quot;로 바꿉니다. 예를 들어 `EXEFile` 항목 목록 주위에 큰따옴표를 배치하려면 다음을 입력합니다.
 
     ```xml
     <Message Text="The output file is &quot;@(EXEFile)&quot;."/>

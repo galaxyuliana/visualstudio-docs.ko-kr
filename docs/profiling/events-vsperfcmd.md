@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: aff97e69b3dea8de9e13c351aa199bc81bdf733c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 62d4e2431ab2dbc2ca74944ac1717fe6c3169287
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440104"
 ---
 # <a name="events-vsperfcmd"></a>이벤트(VSPerfCmd)
 *VSPerfCmd.exe* **Events** 옵션은 ETW(Windows용 이벤트 추적) 로깅을 제어합니다. ETW 데이터는 프로파일러 데이터 파일에서 분리된 .etl 파일에 저장됩니다. [VSPerfReport](../profiling/vsperfreport.md) /summary:etw 명령을 사용하여 보고서에서 데이터를 볼 수 있습니다.
@@ -62,14 +62,14 @@ VSPerfCmd.exe /events {On|Off} {Guid|ProviderName} [,Flags[,Level]
 ## <a name="remarks"></a>주의
 
 > [!NOTE]
->  CLR ETW 이벤트를 활성화하면 추가 시작 데이터도 추적 뷰 보고서에 수집됩니다. 시작 이벤트를 보고서 표시에서 제외하려면 다음 명령을 사용합니다.
+> CLR ETW 이벤트를 활성화하면 추가 시작 데이터도 추적 뷰 보고서에 수집됩니다. 시작 이벤트를 보고서 표시에서 제외하려면 다음 명령을 사용합니다.
 
 ```cmd
 C:\<path>VSPerfCmd -events on, \".NET Common Language Runtime\", 0x7fffffff, 5
 ```
 
 > [!IMPORTANT]
->  시작 이벤트를 제외하지 않는 경우 이러한 이벤트는 MOF(Managed Object Format) 파일에 나열되지 않으므로 보고서에 GUID로 표시됩니다. 자세한 내용은 Microsoft 웹 사이트의 다음 페이지를 참조하세요. [샘플 MOF(Managed Object Format) 파일](http://go.microsoft.com/fwlink/?linkid=37118)
+> 시작 이벤트를 제외하지 않는 경우 이러한 이벤트는 MOF(Managed Object Format) 파일에 나열되지 않으므로 보고서에 GUID로 표시됩니다. 자세한 내용은 Microsoft 웹 사이트의 다음 페이지를 참조하세요. [샘플 MOF(Managed Object Format) 파일](http://go.microsoft.com/fwlink/?linkid=37118)
 
 ## <a name="see-also"></a>참고 항목
 - [VSPerfCmd](../profiling/vsperfcmd.md)

@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 02/15/2018
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
-ms.openlocfilehash: 17067e9b19a36f198a6653f0c354e6ce3004eaeb
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: ca216f3f2a65e1c17e2ab8cc1ca17f6f707afb79
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62938470"
 ---
 # <a name="set-up-a-git-repository"></a>Git 리포지토리 설정
 
@@ -44,7 +44,7 @@ Git 리포지토리를 설정하려면 다음 단계를 수행하세요.
 
 기존 프로젝트가 버전 제어에 아직 _존재하지 않는_ 경우 다음 단계를 사용해 Git에서 이를 설정합니다.
 
-1.  Mac용 Visual Studio의 Solution Pad에서 솔루션 이름을 선택합니다.
+1. Mac용 Visual Studio의 Solution Pad에서 솔루션 이름을 선택합니다.
 
 2. 메뉴 모음에서 **버전 제어 > 버전 제어에서 게시**를 선택하여 **리포지토리 선택** 대화 상자를 표시합니다.
 

@@ -8,16 +8,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a59559f6d870a6291a00c74ff2be5737123fe076
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4c763e24ae79591f4c9779421da9e41cf8f710e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600516"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62968121"
 ---
 # <a name="profiling-tools-usage-rules"></a>프로파일링 도구 사용 규칙
 프로파일링 도구 사용 범주의 성능 규칙은 프로파일러를 사용하여 데이터를 가장 효율적으로 수집하기 위한 지침을 제공합니다.
-
 
 | | |
 | - | - |

@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
-ms.openlocfilehash: ef208a9f74c1c8ee1ccb6df2c1e54917cd354be3
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: 428c5ceb878d2ec0f4185ad70772672733fda517
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62971453"
 ---
 # <a name="uninstalling-visual-studio-for-mac"></a>Mac용 Visual Studio 제거
 
@@ -48,12 +48,14 @@ Mac용 Visual Studio 및 머신의 모든 구성 요소를 제거하는 데 사�
     ```bash
     cd /location/of/file
     ```
+
 3. 스크립트를 실행 가능으로 설정하고 **sudo**로 실행합니다.
 
     ```bash
     chmod +x ./uninstall-vsmac.sh
     sudo ./uninstall-vsmac.sh
     ```
+
 4. 마지막으로 제거 스크립트를 삭제합니다.
 
 ### <a name="net-core-script"></a>.NET Core 스크립트
@@ -68,12 +70,14 @@ Mac용 Visual Studio 및 머신의 모든 구성 요소를 제거하는 데 사�
     ```bash
     cd /location/of/file
     ```
+
 3. 스크립트를 실행 가능으로 설정하고 **sudo**로 실행합니다.
 
     ```bash
     chmod +x ./dotnet-uninstall-pkgs.sh
     sudo ./dotnet-uninstall-pkgs.sh
     ```
+
 4. 마지막으로 .NET Core 제거 스크립트를 삭제합니다.
 
 ## <a name="uninstall-visual-studio-for-mac"></a>Mac용 Visual Studio 제거
@@ -104,7 +108,6 @@ rm -rf ~/Library/Application\ Support/VisualStudio/8.0/LocalInstall/Addins/
 ```bash
 rm -rf ~/Library/Developer/Xamarin
 ```
-
 
 ## <a name="uninstall-mono-sdk-mdk"></a>Mono SDK(MDK) 제거
 
@@ -195,10 +198,10 @@ sudo /Library/Frameworks/Xamarin.Interactive.framework/Versions/Current/uninstal
 
 이전 버전의 경우 다음 아티팩트를 수동으로 제거해야 합니다.
 
-* 통합 문서 앱 삭제 `"/Applications/Xamarin Workbooks.app"`
-* 검사기 앱 삭제 `"Applications/Xamarin Inspector.app"`
-* 추가 기능 삭제: `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Interactive"` 및 `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Inspector"`
-* 여기서 검사기 및 지원 파일 삭제: `/Library/Frameworks/Xamarin.Interactive.framework` 및 `/Library/Frameworks/Xamarin.Inspector.framework`
+* `"/Applications/Xamarin Workbooks.app"`에서 Workbooks 앱 삭제
+* `"Applications/Xamarin Inspector.app"`에서 Inspector 앱 삭제
+* `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Interactive"` 및 `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Inspector"` 추가 기능 삭제
+* `/Library/Frameworks/Xamarin.Interactive.framework` 및 `/Library/Frameworks/Xamarin.Inspector.framework`에서 Inspector 및 지원 파일 삭제
 
 ## <a name="uninstall-the-xamarin-profiler"></a>Xamarin Profiler 제거
 

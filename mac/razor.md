@@ -8,11 +8,11 @@ ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: F898CB6E-05ED-44CD-8DB6-427B2592CCC6
 ms.openlocfilehash: f4c572fffb819affbbe74f05b95e270f8bbaa285
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51293397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62936948"
 ---
 # <a name="razor-support"></a>Razor 지원
 
@@ -22,7 +22,7 @@ Mac용 Visual Studio는 IntelliSense 및 *.cshtml* 파일에서 구문 강조 �
 
 ## <a name="getting-started-with-razor-in-visual-studio-for-mac"></a>Mac용 Visual Studio에서 Razor 시작
 
-Mac용 Visual Studio의 Razor를 시작할 때는 ASP.NET Core와 ASP.NET Core MVC의 Razor 페이지를 고려해야 합니다. 두 옵션에 대한 자습서와 자세한 정보를 보려면 아래 가이드 중 하나를 참조하세요.
+Mac용 Visual Studio에서 Razor를 시작할 때는 고려해야 할 두 가지 옵션이 있습니다. ASP.NET Core 및 ASP.NET Core MVC의 Razor Pages. 두 옵션에 대한 자습서와 자세한 정보를 보려면 아래 가이드 중 하나를 참조하세요.
 
 - [Mac용 Visual Studio를 사용하여 macOS에서 ASP.NET Core의 Razor 페이지 시작](/aspnet/core/tutorials/razor-pages-mac/razor-pages-start?view=aspnetcore-2.1)
 - [ASP.NET Core MVC 및 Mac용 Visual Studio 시작](/aspnet/core/tutorials/first-mvc-app-mac/start-mvc?view=aspnetcore-2.1)

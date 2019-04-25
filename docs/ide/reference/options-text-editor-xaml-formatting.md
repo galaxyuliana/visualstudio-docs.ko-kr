@@ -29,12 +29,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: f92dc12dfb9e9f8fb1ec3d3910edf7102342f69b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3ed364d9c8995a93acb0de8002bafefd603c2d71
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55920394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969256"
 ---
 # <a name="options-text-editor-xaml-formatting"></a>옵션, 텍스트 편집기, XAML, 서식
 
@@ -44,13 +44,13 @@ ms.locfileid: "55920394"
 
 다음 이벤트가 검색되면 자동 서식 지정이 실행될 수 있습니다.
 
--   끝 태그 또는 단순 태그의 완료.
+- 끝 태그 또는 단순 태그의 완료.
 
--   시작 태그의 완료.
+- 시작 태그의 완료.
 
--   클립보드에서 붙여넣기.
+- 클립보드에서 붙여넣기.
 
--   서식 키보드 명령.
+- 서식 키보드 명령.
 
 자동 서식 지정을 일으키는 이벤트를 지정할 수 있습니다.
 
@@ -146,7 +146,6 @@ Width="75">Hello</Button>
 
 ```xml
 <Grid>
-
 
 <Button Name="button1">Hello</Button>
 

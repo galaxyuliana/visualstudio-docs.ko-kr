@@ -10,12 +10,12 @@ ms.assetid: e61c49f3-3161-45b1-9220-08b5459065a2
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4d835660995e92df1f6aca94ae9b9b3ccebb5d87
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ed1bd922b390d5b6e90c68b08683e1b9bdb46f32
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62821250"
 ---
 # <a name="how-to-view-web-page-response-time-in-a-load-test-using-the-load-test-analyzer"></a>방법: 부하 테스트 분석기를 사용하여 부하 테스트의 웹 페이지 응답 시간 보기
 
@@ -25,15 +25,15 @@ ms.locfileid: "55970766"
 
 부하 테스트의 스트레스 환경에서 웹 성능 테스트를 실행하면 각 페이지에서 다음과 같은 정보를 분석할 수 있습니다.
 
--   페이지의 평균 응답 시간
+- 페이지의 평균 응답 시간
 
--   테스트 반복 중 페이지의 응답 시간 목표를 달성한 백분율
+- 테스트 반복 중 페이지의 응답 시간 목표를 달성한 백분율
 
--   **부하 테스트 분석기**의 테이블 보기 또는 그래프 보기를 사용하여 웹 페이지 응답 시간을 분석할 수 있습니다.
+- **부하 테스트 분석기**의 테이블 보기 또는 그래프 보기를 사용하여 웹 페이지 응답 시간을 분석할 수 있습니다.
 
--   테이블 뷰의 웹 페이지 응답 시간 분석
+- 테이블 뷰의 웹 페이지 응답 시간 분석
 
--   그래프 뷰의 웹 페이지 응답 시간 분석
+- 그래프 뷰의 웹 페이지 응답 시간 분석
 
 ## <a name="view-response-time-data-in-a-table"></a>테이블의 응답 시간 데이터 보기
 

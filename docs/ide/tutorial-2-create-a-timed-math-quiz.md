@@ -8,24 +8,24 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c93ddfc85e318a2095f757c6131b151a5414c884
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 4ececa58d04ea7cfebe6178faae724038e353f06
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55956937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62821628"
 ---
 # <a name="tutorial-2-create-a-timed-math-quiz"></a>자습서 2: 시간이 지정된 수학 퀴즈 만들기
 
 이 자습서에서는 퀴즈를 푸는 사람이 지정된 시간 내에 네 가지 난수 산술 문제에 대답해야 하는 퀴즈를 빌드합니다. 다음과 같은 작업을 수행하는 방법을 살펴봅니다.
 
--   <xref:System.Random> 클래스를 사용하여 난수를 생성합니다.
+- <xref:System.Random> 클래스를 사용하여 난수를 생성합니다.
 
--   <xref:System.Windows.Forms.Timer> 컨트롤을 사용하여 이벤트가 특정 시간에 발생하도록 이벤트를 트리거합니다.
+- <xref:System.Windows.Forms.Timer> 컨트롤을 사용하여 이벤트가 특정 시간에 발생하도록 이벤트를 트리거합니다.
 
--   `if else` 문을 사용하여 프로그램 흐름을 제어합니다.
+- `if else` 문을 사용하여 프로그램 흐름을 제어합니다.
 
--   코드에서 기본 산술 연산을 수행합니다.
+- 코드에서 기본 산술 연산을 수행합니다.
 
 자습서를 완료하면 숫자가 다른 것을 제외하고 퀴즈가 다음 그림과 같이 만들어집니다.
 

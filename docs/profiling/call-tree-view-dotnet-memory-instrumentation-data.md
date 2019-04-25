@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: c7a67d4763337af4b3d75217ce6278951c07bc48
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56617173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950308"
 ---
 # <a name="call-tree-view---net-memory-instrumentation-data"></a>호출 트리 뷰 - .NET 메모리 계측 데이터
 계측 방법을 사용하여 수집된 .NET 메모리 할당 프로파일링 데이터의 호출 트리 뷰는 프로파일링된 애플리케이션에서 이동한 함수 실행 경로를 표시합니다. 트리의 루트는 애플리케이션이나 구성 요소에 대한 진입점입니다. 각 함수 노드는 호출한 모든 함수 및 .NET 메모리와 함수에 대한 타이밍 데이터를 나열합니다.

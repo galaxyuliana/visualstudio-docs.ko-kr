@@ -9,12 +9,12 @@ ms.assetid: a8a0b97e-8040-4711-85ab-36548b130ed2
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8b7af7b566e874941e72ae3a905ab2c1b58c89ff
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b979da03c0ea5378684ff12bc86d4fb59eef9180
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979457"
 ---
 # <a name="how-to-add-context-parameters-to-a-load-test-run-setting"></a>방법: 부하 테스트 실행 설정에 컨텍스트 매개 변수 추가
 
@@ -52,11 +52,11 @@ ms.locfileid: "55907908"
 
 ## <a name="to-add-a-context-parameter-to-a-run-setting"></a>컨텍스트 매개 변수를 실행 설정에 추가하려면
 
-1.  부하 테스트를 엽니다.
+1. 부하 테스트를 엽니다.
 
-2.  부하 테스트 편집기에서 부하 테스트 트리의 **실행 설정** 폴더를 확장합니다.
+2. 부하 테스트 편집기에서 부하 테스트 트리의 **실행 설정** 폴더를 확장합니다.
 
-3.  컨텍스트 매개 변수를 추가할 특정 실행 설정을 마우스 오른쪽 단추로 클릭하고 **컨텍스트 매개 변수 추가**를 선택합니다.
+3. 컨텍스트 매개 변수를 추가할 특정 실행 설정을 마우스 오른쪽 단추로 클릭하고 **컨텍스트 매개 변수 추가**를 선택합니다.
 
      새 컨텍스트 매개 변수가 부하 테스트 트리의 **실행 설정** 폴더에 있는 **컨텍스트 매개 변수** 폴더에 추가됩니다.
 
@@ -64,11 +64,11 @@ ms.locfileid: "55907908"
 
      실행 설정에 이미 **컨텍스트 매개 변수** 폴더가 있는 경우 이 폴더를 마우스 오른쪽 단추로 클릭하고 **컨텍스트 매개 변수 추가**를 선택합니다.
 
-4.  **속성** 창에서 **Name** 값을 적절한 값(예: WebServer1)으로 변경합니다. **속성** 창에서 **Value**을 사용할 매개 변수(예: `http://CorporateStagingWebServer`)로 변경합니다.
+4. **속성** 창에서 **Name** 값을 적절한 값(예: WebServer1)으로 변경합니다. **속성** 창에서 **Value**을 사용할 매개 변수(예: `http://CorporateStagingWebServer`)로 변경합니다.
 
-5.  (선택 사항) **Value** 속성에 다른 문자열(예: `http://CorporateProductionWebServer`)을 사용하여 3-5단계를 반복합니다.
+5. (선택 사항) **Value** 속성에 다른 문자열(예: `http://CorporateProductionWebServer`)을 사용하여 3-5단계를 반복합니다.
 
-6.  활성 상태로 설정할 실행 설정을 선택합니다. 실행 설정에 대한 바로 가기 메뉴를 열고 **활성 상태로 설정**을 선택합니다.
+6. 활성 상태로 설정할 실행 설정을 선택합니다. 실행 설정에 대한 바로 가기 메뉴를 열고 **활성 상태로 설정**을 선택합니다.
 
 ## <a name="see-also"></a>참고 항목
 

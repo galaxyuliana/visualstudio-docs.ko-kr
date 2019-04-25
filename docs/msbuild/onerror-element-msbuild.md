@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ff783c76595e1cc79d2520a4e27f5afa01b0a978
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62964068"
 ---
 # <a name="onerror-element-msbuild"></a>OnError 요소(MSBuild)
 `ContinueOnError` 특성이 실패한 태스크의 `false`인 경우 하나 이상의 대상이 실행되도록 합니다.

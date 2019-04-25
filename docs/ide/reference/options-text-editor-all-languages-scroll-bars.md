@@ -33,11 +33,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a753574e883872780446929f7c2349b0d726c71a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55925958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817586"
 ---
 # <a name="options-text-editor-all-languages-scroll-bars"></a>옵션, 텍스트 편집기, 모든 언어, 스크롤 막대
 이 대화 상자에서는 코드 편집기 스크롤 막대의 기본 동작을 변경할 수 있습니다. 이러한 옵션을 표시하려면 **도구** 메뉴에서 **옵션**을 선택합니다. **텍스트 편집기** 폴더 내에서 **모든 언어** 하위 폴더를 확장한 다음, **스크롤 막대**를 선택합니다.
@@ -59,7 +59,7 @@ ms.locfileid: "55925958"
 
 세로 스크롤 막대에 다음 주석을 표시할지 여부를 선택합니다.
 
-- 변경됨
+- 변경 내용
 - 표시
 - 오류
 - 캐럿 위치

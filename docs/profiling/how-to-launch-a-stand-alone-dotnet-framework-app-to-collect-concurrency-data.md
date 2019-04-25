@@ -8,18 +8,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 2f2c146398e6ec3d8fba7f3bf0922c0050eddb4d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 47b004c5f7d127c78e4fd6f7c00b34c502d07f18
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386739"
 ---
 # <a name="how-to-launch-a-stand-alone-net-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line"></a>방법: 명령줄을 통해 프로파일러와 함께 독립 실행형 .NET Framework 애플리케이션을 시작하여 동시성 데이터 수집
 이 항목은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구를 사용하여 .NET Framework 독립 실행형(클라이언트) 애플리케이션을 시작하고 프로세스 및 스레드 동시성 데이터를 수집하는 방법을 설명합니다.
 
 > [!NOTE]
->  프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
+> 프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
 
  프로파일러가 애플리케이션에 연결되면 데이터 수집을 일시 중지하고 다시 시작할 수 있습니다. 프로파일링 세션을 종료하려면 프로파일러가 애플리케이션에 연결되어 있으면 안 되고 프로파일러가 명시적으로 종료되어야 합니다.
 
@@ -36,13 +36,11 @@ ms.locfileid: "56640989"
 
    - [/start](../profiling/start.md) 옵션은 프로파일러를 초기화합니다.
 
-
      | | |
      |-------------------------------------| - |
      | **/start:concurrency** | 리소스 경합 및 스레드 실행 데이터를 모두 수집할 수 있습니다. |
      | **/start:concurrency,resourceonly** | 리소스 경합 데이터만 수집할 수 있습니다. |
      | **/start:concurrency,threadonly** | 스레드 실행 데이터만 수집할 수 있습니다. |
-
 
    - **/start**에는 [/output](../profiling/output.md)**:**`OutputFile` 옵션이 필요합니다. `OutputFile`은 프로파일링 데이터(.vsp) 파일의 이름과 위치를 지정합니다.
 
@@ -55,7 +53,6 @@ ms.locfileid: "56640989"
    | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | 프로파일링 중에 수집할 Windows 성능 카운터를 지정합니다. |
    | [/automark](../profiling/automark.md) **:** `Interval` | **/wincounter**와 함께 사용해야 합니다. Windows 성능 카운터 수집 이벤트 사이에 경과하는 시간(밀리초)을 지정합니다. 기본값은 500ms입니다. |
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | 프로파일링 중에 수집할 ETW(Windows용 이벤트 추적) 이벤트를 지정합니다. ETW 이벤트는 별도의 파일(.*etl*)로 수집됩니다. |
-
 
 3. 대상 애플리케이션을 시작합니다. 유형:
 
@@ -74,7 +71,7 @@ ms.locfileid: "56640989"
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면
 
-1.  *VSPerfCmd.exe* 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
+1. *VSPerfCmd.exe* 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
 
     |옵션|설명|
     |------------|-----------------|
@@ -87,15 +84,15 @@ ms.locfileid: "56640989"
 
 #### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면
 
-1.  대상 애플리케이션에서 프로파일러를 분리하려면 다음 중 하나를 수행합니다.
+1. 대상 애플리케이션에서 프로파일러를 분리하려면 다음 중 하나를 수행합니다.
 
-    -   대상 애플리케이션을 닫습니다.
+    - 대상 애플리케이션을 닫습니다.
 
          또는
 
-    -   **VSPerfCmd /detach** 입력
+    - **VSPerfCmd /detach** 입력
 
-2.  프로파일러 종료
+2. 프로파일러 종료
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 

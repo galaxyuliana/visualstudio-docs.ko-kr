@@ -6,17 +6,17 @@ ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
 ms.openlocfilehash: 7f130f5dec77e0a1965c68cf71e642fdb636832f
-ms.sourcegitcommit: 0a8ac5f2a685270d9ca79bb39d26fd90099bfa29
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51296179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62983358"
 ---
 # <a name="understanding-build-configurations"></a>빌드 구성 이해
 
 ## <a name="project-build-configurations"></a>프로젝트 빌드 구성
 
-프로젝트에는 대체로 여러 개의 구성이 있으며, 구성 간에 전환하면 빌드 시 다른 출력을 생성할 수 있습니다. 예를 들어, 디버그 구성은 디버깅 기호를 출력하므로 디버거가 충돌한 응용 프로그램의 스택 추적에서 함수 이름, 매개 변수 또는 변수를 확인할 수 있습니다. 이 추가 정보는 개발 중에 유용하지만 파일 크기를 확장하므로 배포에 적합하지 않습니다.
+프로젝트에는 대체로 여러 개의 구성이 있으며, 구성 간에 전환하면 빌드 시 다른 출력을 생성할 수 있습니다. 예를 들어, 디버그 구성은 디버깅 기호를 출력하므로 디버거가 충돌한 애플리케이션의 스택 추적에서 함수 이름, 매개 변수 또는 변수를 확인할 수 있습니다. 이 추가 정보는 개발 중에 유용하지만 파일 크기를 확장하므로 배포에 적합하지 않습니다.
 
 각 플랫폼에 해당 빌드에 대한 특정 구성이 있습니다.
 
@@ -44,7 +44,7 @@ Mac용 Visual Studio에서는 시작 프로젝트를 설정하는 대신 _실행
 
 Android 프로젝트에 대한 실행 구성을 사용하면 프로젝트를 실행하거나 디버그할 때 시작할 작업, 서비스 또는 브로드캐스트 수신기를 지정할 수 있습니다. 내재된 추가 데이터를 전달하고 의도 플래그를 설정하여 다른 시작 조건에서 사용 중인 구성 요소를 테스트할 수 있습니다.
 
-`MainLauncher` 이외의 작업을 물리적 장치에서 디버그하려면 작업 특성에 `Exported=true`가 추가되어야 하거나 의도 필터가 정의되어 있어야 합니다.
+`MainLauncher` 이외의 작업을 물리적 디바이스에서 디버그하려면 작업 특성에 `Exported=true`가 추가되어야 하거나 의도 필터가 정의되어 있어야 합니다.
 
 ## <a name="examples-of-data-that-might-be-included-in-run-configurations"></a>실행 구성에 포함될 수 있는 데이터의 예
 

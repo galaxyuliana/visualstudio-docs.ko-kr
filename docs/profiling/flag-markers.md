@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ccc0c7aa3386e906ad13331a596953db70240701
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969965"
 ---
 # <a name="flag-markers"></a>플래그 표식
 플래그 마커는 응용 프로그램에서 특정 시점에 발생한 항목을 나타냅니다. 플래그는 여러 종류의 애플리케이션 이벤트를 나타낼 수 있습니다. 예를 들어 특정 작업 항목이 예약되었거나 예외가 throw될 때 플래그가 표시될 수 있습니다. 작업 병렬 라이브러리와 같은 런타임도 플래그를 생성할 수 있습니다.

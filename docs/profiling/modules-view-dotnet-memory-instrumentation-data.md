@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: cb3117ff480e124aab6333eaed612c0438ed3911
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62830048"
 ---
 # <a name="modules-view---net-memory-instrumentation-data"></a>모듈 뷰 - .NET 메모리 계측 데이터
 계측 방법을 사용하여 수집되는 .NET 메모리 할당 데이터의 모듈 뷰에서는 프로파일링 실행에서 실행된 모듈을 기준으로 메모리 및 타이밍 데이터를 그룹화합니다. 모듈의 함수에 대한 프로파일링 데이터는 모듈 노드 아래에 나열됩니다.
