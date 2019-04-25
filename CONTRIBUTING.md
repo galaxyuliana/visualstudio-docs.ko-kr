@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 1a53d6fed4b2900aa730f4a5c2e04d528b42d1b9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62419845"
+---
 # <a name="contribute-to-visual-studio-documentation"></a>Visual Studio 설명서에 기여
 
 시간을 내어 Visual Studio 문서에 기여해 주셔서 감사합니다.

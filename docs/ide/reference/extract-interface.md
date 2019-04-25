@@ -12,12 +12,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: cdead60fbde711ac9b219a6bbcb635e329d51a0a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 261ddf457ad117812be9971b630c2fcd3b75b550
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57983203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62791236"
 ---
 # <a name="extract-an-interface-refactoring"></a>인터페이스 추출 리팩터링
 
@@ -58,13 +58,11 @@ ms.locfileid: "57983203"
 
    ![인터페이스 추출](media/extractinterface-dialog-same-file.png)
 
-
    | 필드 | 설명 |
    | - | - |
    | **새 인터페이스 이름** | 만들려는 인터페이스의 이름입니다. 이름은 기본적으로 I*ClassName*으로 설정됩니다. 여기서 *ClassName*은 위에서 선택한 클래스의 이름입니다. |
    | **새 파일 이름** | 인터페이스를 포함할 생성된 파일의 이름입니다. 인터페이스 이름과 마찬가지로 이 름은 기본적으로 I*ClassName*으로 설정됩니다. 여기서 *ClassName*은 위에서 선택한 클래스의 이름입니다. **현재 파일에 추가** 옵션을 선택할 수도 있습니다. |
    | **인터페이스를 구성할 공용 멤버 선택** | 인터페이스로 추출할 항목입니다. 원하는 만큼 선택할 수 있습니다. |
-
 
 4. **확인**을 선택합니다.
 
@@ -73,15 +71,13 @@ ms.locfileid: "57983203"
    - C#: 
 
       ![결과 클래스 - C#](media/extractinterface-class-cs.png)
-      
-      
+
       ![결과 인터페이스 - C#](media/extractinterface-interface-cs.png)
 
    - Visual Basic:
 
       ![결과 클래스 - Visual Basic](media/extractinterface-class-vb.png)
-      
-      
+
       ![결과 인터페이스 - Visual Basic](media/extractinterface-interface-vb.png)
 
 ## <a name="see-also"></a>참고 항목

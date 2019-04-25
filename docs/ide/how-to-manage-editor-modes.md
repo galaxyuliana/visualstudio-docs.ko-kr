@@ -24,12 +24,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b441543079ab3369beddcd95999809e075b3bb2b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 57987b67a2fa081ebaa577f10de478b5fd250aca
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62429784"
 ---
 # <a name="how-to-manage-editor-modes"></a>방법: 편집기 모드 관리
 
@@ -42,21 +42,21 @@ Visual Studio 코드 편집기를 다양한 표시 모드로 표시할 수 있�
 
 **전체 화면** 모드를 사용하도록 설정하여 모든 도구 창을 숨기고 문서 창만 보도록 선택할 수 있습니다.
 
--   **Alt**+**Shift**+**Enter**를 눌러 **전체 화면** 모드를 시작하거나 종료합니다.
+- **Alt**+**Shift**+**Enter**를 눌러 **전체 화면** 모드를 시작하거나 종료합니다.
 
      -- 또는 --
 
--   **명령** 창에서 `View.Fullscreen` 명령을 실행합니다.
+- **명령** 창에서 `View.Fullscreen` 명령을 실행합니다.
 
 ## <a name="enable-virtual-space-mode"></a>가상 공간 모드 활성화
 
 **가상 공간** 모드에서 각 코드 줄 끝에 공간이 삽입됩니다. 코드 옆의 일정한 지점에 주석을 배치하려면 이 옵션을 선택합니다.
 
-1.  **도구** 메뉴에서 **옵션**을 선택합니다.
+1. **도구** 메뉴에서 **옵션**을 선택합니다.
 
-2.  **텍스트 편집기** 폴더를 확장하고 **모든 언어**를 선택하여 이 옵션을 전역으로 설정하거나 특정 언어 폴더를 선택합니다. 예를 들어 Visual Basic에서 줄 번호만 켜려면 **기본** > **텍스트 편집기** 노드를 선택합니다.
+2. **텍스트 편집기** 폴더를 확장하고 **모든 언어**를 선택하여 이 옵션을 전역으로 설정하거나 특정 언어 폴더를 선택합니다. 예를 들어 Visual Basic에서 줄 번호만 켜려면 **기본** > **텍스트 편집기** 노드를 선택합니다.
 
-3.  **일반** 옵션을 선택하고 **설정**에서 **가상 공간 사용**을 선택합니다.
+3. **일반** 옵션을 선택하고 **설정**에서 **가상 공간 사용**을 선택합니다.
 
     > [!NOTE]
     > **가상 공간**은 **열 선택** 모드에서 사용할 수 있습니다. **가상 공간** 모드가 사용하도록 설정되지 않으면 삽입 지점이 한 줄 끝에서 바로 다음 줄의 첫 번째 문자로 이동합니다.

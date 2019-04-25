@@ -12,11 +12,11 @@ ms.workload:
 - data-science
 - azure
 ms.openlocfilehash: 7ffe0de939eba8af38c132fc3de5c96a9499e3f0
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62535993"
 ---
 # <a name="how-to-set-up-a-python-environment-on-azure-app-service-windows"></a>Azure App Service에서 Python 환경을 설정하는 방법(Windows)
 
@@ -151,8 +151,8 @@ FastCGI는 요청 수준에서 작동하는 인터페이스입니다. IIS는 들
 여기서 정의된 `<appSettings>`는 앱에서 환경 변수로 사용할 수 있습니다.
 
 - `PYTHONPATH`의 값은 자유롭게 확장될 수 있지만 해당 앱의 루트를 포함해야 합니다.
-- `WSGI_HANDLER` 해당 앱에서 가져올 수 있는 WSGI 앱을 가리켜야 합니다.
-- `WSGI_LOG` 선택 사항이지만 앱 디버깅을 위해 권장됩니다.
+- `WSGI_HANDLER`는 해당 앱에서 가져올 수 있는 WSGI 앱을 가리켜야 합니다.
+- `WSGI_LOG`는 선택 사항이지만 앱 디버깅을 위해 권장됩니다.
 
 [Azure에 게시](publishing-python-web-applications-to-azure-from-visual-studio.md)를 참조하여 Bottle, Flask 및 Django 웹앱을 위한 *web.config* 콘텐츠에 대한 추가 정보를 확인하세요.
 

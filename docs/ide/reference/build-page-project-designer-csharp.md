@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 330c8bb033a167b03f62cf4fda95a58ea08ccd92
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: f9aa586f5036c4aa2c321f2dda8333ad4342e165
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62791671"
 ---
 # <a name="build-page-project-designer-c"></a>프로젝트 디자이너, 빌드 페이지(C#)
 **프로젝트 디자이너**의 **빌드** 페이지를 사용하여 프로젝트의 빌드 구성 속성을 지정합니다. 이 페이지는 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 프로젝트에만 적용됩니다.
@@ -56,12 +56,11 @@ ms.locfileid: "55922149"
 
 이 확인란은 다음 조건을 충족하는 경우에만 사용할 수 있습니다.
 
--   **빌드 페이지**에서 **플랫폼 대상** 목록이 **임의 CPU**로 설정되어 있습니다.
+- **빌드 페이지**에서 **플랫폼 대상** 목록이 **임의 CPU**로 설정되어 있습니다.
 
--   **애플리케이션 페이지**에서 **출력 형식** 목록의 프로젝트가 애플리케이션으로 지정됩니다.
+- **애플리케이션 페이지**에서 **출력 형식** 목록의 프로젝트가 애플리케이션으로 지정됩니다.
 
--   **애플리케이션 페이지**에서 **대상 프레임워크** 목록이 .NET Framework 4.5로 지정됩니다.
-
+- **애플리케이션 페이지**에서 **대상 프레임워크** 목록이 .NET Framework 4.5로 지정됩니다.
 
 **안전하지 않은 코드 허용** 컴파일에 [unsafe](/dotnet/csharp/language-reference/keywords/unsafe) 키워드를 사용하는 코드를 허용합니다. 자세한 내용은 [/unsafe(C# 컴파일러 옵션)](/dotnet/csharp/language-reference/compiler-options/unsafe-compiler-option)를 참조하세요.
 
@@ -83,7 +82,7 @@ ms.locfileid: "55922149"
 
 **모두** 모든 경고를 오류로 처리합니다.
 
-## <a name="output"></a>출력
+## <a name="output"></a>Output
 다음 설정은 빌드 프로세스에 대한 출력 옵션을 구성하는 데 사용됩니다.
 
 **출력 경로** 프로젝트 구성에 사용할 출력 파일의 위치를 지정합니다. 이 상자에 빌드 출력의 경로를 입력하거나 **찾아보기** 단추를 선택하여 경로를 지정합니다. 경로는 상대 경로입니다. 절대 경로를 입력하면 상대 경로로 저장됩니다. 기본 경로는 bin\Debug 또는 bin\Release\\입니다.

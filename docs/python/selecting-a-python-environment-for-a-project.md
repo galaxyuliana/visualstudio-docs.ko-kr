@@ -11,11 +11,11 @@ ms.workload:
 - python
 - data-science
 ms.openlocfilehash: 9d7736365e8e2bb371a71580492401bb2660fcc3
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62429717"
 ---
 # <a name="how-to-select-a-python-environment-for-a-project"></a>프로젝트에 대한 Python 인터프리터 선택하는 방법
 
@@ -169,7 +169,7 @@ Conda 패키지 관리자는 일반적으로 `https://repo.continuum.io/pkgs/`�
 또한 Visual Studio에서는 현재 conda 환경에 패키지를 설치하기 위한 `conda` 사용을 지원하지 않음에 유의하세요. 대신 명령줄에서 `conda`를 사용합니다.
 
 > [!Tip]
-> pip에서 패키지 설치에 실패하는 일반적인 상황은 패키지가 *\*.pyd* 파일에 기본 구성 요소에 대한 소스 코드를 포함하는 경우입니다. 필요한 Visual Studio 버전이 설치되어 있지 않으면 pip에서 해당 구성 요소를 컴파일할 수 없습니다. 이 경우 표시되는 오류 메시지는 **오류: vcvarsall.bat를 찾을 수 없음**입니다. `easy_install` 대체로 미리 컴파일된 이진 파일을 다운로드할 수 있으며, [https://aka.ms/VCPython27](https://aka.ms/VCPython27)에서 이전 버전의 Python에 적합한 컴파일러를 다운로드할 수 있습니다. 자세한 내용은 Python 도구 팀 블로그에서 ["vcvarsallbat을 찾을 수 없는" 어려움을 해결하는 방법](https://devblogs.microsoft.com/python/unable-to-find-vcvarsall-bat/)(영문)을 참조하세요.
+> pip에서 패키지 설치에 실패하는 일반적인 상황은 패키지가 *\*.pyd* 파일에 기본 구성 요소에 대한 소스 코드를 포함하는 경우입니다. 필요한 Visual Studio 버전이 설치되어 있지 않으면 pip에서 해당 구성 요소를 컴파일할 수 없습니다. 이 경우 표시되는 오류 메시지는 **오류: vcvarsall.bat를 찾을 수 없음**입니다. 대체로 `easy_install`은 미리 컴파일된 이진 파일을 다운로드할 수 있으며, [https://aka.ms/VCPython27](https://aka.ms/VCPython27)에서 이전 버전의 Python에 적합한 컴파일러를 다운로드할 수 있습니다. 자세한 내용은 Python 도구 팀 블로그에서 ["vcvarsallbat을 찾을 수 없는" 어려움을 해결하는 방법](https://devblogs.microsoft.com/python/unable-to-find-vcvarsall-bat/)(영문)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

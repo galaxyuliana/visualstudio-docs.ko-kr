@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 40a8ea93075294bb4419cfe4178965a8a4808cfc
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 373a70c3a33258be6b9f618fa190fde4b9b80b0e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62547821"
 ---
 # <a name="how-to-build-to-a-common-output-directory"></a>방법: 공통 출력 디렉터리로 빌드
 
@@ -26,13 +26,13 @@ ms.locfileid: "55949710"
 
 ## <a name="to-place-all-solution-outputs-in-a-common-directory"></a>모든 솔루션 출력을 공용 디렉터리에 배치하려면
 
-1.  솔루션에서 한 프로젝트를 클릭합니다.
+1. 솔루션에서 한 프로젝트를 클릭합니다.
 
-2.  **프로젝트** 메뉴에서 **속성**을 클릭합니다.
+2. **프로젝트** 메뉴에서 **속성**을 클릭합니다.
 
-3.  프로젝트의 유형에 따라 **컴파일** 탭 또는 **빌드** 탭을 클릭하고 **출력 경로**를 솔루션에 있는 모든 프로젝트에 사용할 폴더로 설정합니다.
+3. 프로젝트의 유형에 따라 **컴파일** 탭 또는 **빌드** 탭을 클릭하고 **출력 경로**를 솔루션에 있는 모든 프로젝트에 사용할 폴더로 설정합니다.
 
-4.  솔루션의 모든 프로젝트에 대해 1-3단계를 반복합니다.
+4. 솔루션의 모든 프로젝트에 대해 1-3단계를 반복합니다.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -17,12 +17,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1dc65b29bafd67fa8265feb75b533d66504d33c8
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: e166e28af02e3e9497b94cdf75a05bd9bf534629
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57222063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62428651"
 ---
 # <a name="identify-and-customize-keyboard-shortcuts-in-visual-studio"></a>Visual Studio에서 바로 가기 키 식별 및 사용자 지정
 
@@ -134,7 +134,7 @@ Visual Studio 명령에 대한 바로 가기 키를 확인하고, 해당 바로 
 
 5. **다음** 단추를 선택합니다.
 
-6.  **어느 설정을 가져오시겠습니까?** 아래에서 **모든 설정** 확인란의 선택을 취소하고 **옵션** 및 **환경**을 차례로 확장합니다.
+6. **어느 설정을 가져오시겠습니까?** 아래에서 **모든 설정** 확인란의 선택을 취소하고 **옵션** 및 **환경**을 차례로 확장합니다.
 
 7. **키보드** 확인란을 선택하고 **마침** 단추를 선택합니다.
 

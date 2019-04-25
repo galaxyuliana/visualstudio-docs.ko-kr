@@ -11,12 +11,12 @@ caps.latest.revision: 56
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ed5232ed8f0033e5953f14b8e4a9aa08abcb316c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: d36b2cb0c4e8e7ddf9016302c9efcfae0710097c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54805658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62568358"
 ---
 # <a name="overview-of-domain-specific-language-tools"></a>도메인별 언어 도구 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,13 +25,13 @@ ms.locfileid: "54805658"
   
  DSL 도구에 포함된 도구는 다음과 같습니다.  
   
--   도메인 특정 언어 개발을 시작하는 데 도움이 되는 여러 솔루션 템플릿을 사용하는 프로젝트 마법사.  
+- 도메인 특정 언어 개발을 시작하는 데 도움이 되는 여러 솔루션 템플릿을 사용하는 프로젝트 마법사.  
   
--   도메인 특정 언어 정의를 만들고 편집하는 데 사용되는 그래픽 디자이너.  
+- 도메인 특정 언어 정의를 만들고 편집하는 데 사용되는 그래픽 디자이너.  
   
--   도메인 특정 언어 정의가 잘 구성되어 있는지 확인하고 문제가 있을 경우 오류와 경고를 표시하는 유효성 검사 엔진.  
+- 도메인 특정 언어 정의가 잘 구성되어 있는지 확인하고 문제가 있을 경우 오류와 경고를 표시하는 유효성 검사 엔진.  
   
--   도메인 특정 언어 정의를 입력으로 사용하고 소스 코드를 출력으로 생성하는 코드 생성기.  
+- 도메인 특정 언어 정의를 입력으로 사용하고 소스 코드를 출력으로 생성하는 코드 생성기.  
   
 ## <a name="the-dsl-tools-solution"></a>DSL 도구 솔루션  
  도메인 특정 디자이너 마법사는 다음과 같은 솔루션 템플릿을 제공합니다.  

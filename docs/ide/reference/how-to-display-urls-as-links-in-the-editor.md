@@ -12,36 +12,36 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7d05dd3a6c6797bbd563a45e93df76ec16f1e36b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 250f222dcc3f2645c53a97416cc379a3066c45ac
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62789607"
 ---
 # <a name="how-to-display-urls-as-links-in-the-editor"></a>방법: 편집기에서 URL을 링크로 표시
 
 코드 편집기에서 코드의 URL(Uniform Resource Locator)을 활성 링크로 포함하도록 선택할 수 있습니다. 이 기능을 사용할 경우 URL은 다음과 같습니다.
 
--   밑줄이 표시됩니다.
+- 밑줄이 표시됩니다.
 
--   마우스로 가리키면 **도구 설명**을 표시합니다.
+- 마우스로 가리키면 **도구 설명**을 표시합니다.
 
--   링크를 **Ctrl**+**클릭**(Ctrl 키를 누른 채 클릭)할 때 표시되는 웹 사이트를 열어 보세요. 기본적으로 웹 사이트는 내부 웹 브라우저에 표시됩니다.
+- 링크를 **Ctrl**+**클릭**(Ctrl 키를 누른 채 클릭)할 때 표시되는 웹 사이트를 열어 보세요. 기본적으로 웹 사이트는 내부 웹 브라우저에 표시됩니다.
 
 ## <a name="display-urls-as-links"></a>URL을 링크로 표시
 
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.
 
-2.  **텍스트 편집기**를 클릭합니다.
+2. **텍스트 편집기**를 클릭합니다.
 
-3.  하나의 언어에 대한 옵션만 변경하려면 해당 언어의 폴더를 확장하고 **일반**을 선택합니다.
+3. 하나의 언어에 대한 옵션만 변경하려면 해당 언어의 폴더를 확장하고 **일반**을 선택합니다.
 
      또는
 
      모든 언어에 대한 옵션을 변경하려면 **모든 언어** 폴더를 확장하고 **일반**을 선택합니다.
 
-4.  **표시** 아래에서 **한 번 클릭으로 URL 탐색**을 선택합니다.
+4. **표시** 아래에서 **한 번 클릭으로 URL 탐색**을 선택합니다.
 
 ## <a name="see-also"></a>참고 항목
 

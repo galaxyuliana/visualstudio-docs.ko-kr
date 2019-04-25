@@ -9,12 +9,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/11/2017
 ms.author: ghogen
-ms.openlocfilehash: b8930d288b5f37d59f3c14657aee045a6a95fb96
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 853920ac30b6e779c94bf82aa6c655bf81146d2e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55948097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62555315"
 ---
 # <a name="configuring-your-azure-project-in-visual-studio-to-use-multiple-service-configurations"></a>여러 서비스 구성을 사용하여 Visual Studio에서 Azure 프로젝트 구성
 
@@ -28,7 +28,6 @@ Visual Studio의 Azure 클라우드 서비스 프로젝트에는 `ServiceDefinit
 ![VS_Solution_Explorer_Roles_Properties](./media/vs-azure-tools-multiple-services-project-configurations/IC784076.png)
 
 서비스 정의 및 서비스 구성 파일의 기본 스키마에 대한 자세한 내용은 [.csdef XML 스키마](/azure/cloud-services/schema-csdef-file) 및 [.cscfg XML 스키마](/azure/cloud-services/schema-cscfg-file) 문서를 참조하세요. 서비스 구성에 대한 자세한 내용은 [Cloud Services 구성 방법](/azure/cloud-services/cloud-services-how-to-configure-portal)을 참조하세요.
-
 
 ## <a name="configuration-page"></a>구성 페이지
 

@@ -7,18 +7,16 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: aee7faef7b33c8dd87a056077991a915df9b64a0
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 188b1f8e96dca3ba76a9334f04156a1e30ededa9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62582607"
 ---
 # <a name="configure-a-c-project-for-intellisense"></a>IntelliSense에 대한 C++ 프로젝트 구성
 
 IntelliSense가 제대로 작동하도록 C++ 프로젝트를 수동으로 구성해야 하는 경우도 있습니다. MSBuild 프로젝트(.vcxproj 파일 기반)의 경우 프로젝트 속성에서 설정을 조정할 수 있습니다. 비 MSBuild 프로젝트의 경우 프로젝트의 루트 디렉터리에 있는 CppProperties.json 파일에서 설정을 조정합니다. IntelliSense가 매크로 정의를 이해할 수 있도록 힌트 파일을 만들어야 하는 경우도 있습니다. Visual Studio IDE는 IntelliSense 문제를 식별하고 수정하는 데 도움이 됩니다.
-
-
 
 ## <a name="single-file-intellisense"></a>단일 파일 IntelliSense
 

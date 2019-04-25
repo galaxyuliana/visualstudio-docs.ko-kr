@@ -4,17 +4,19 @@ description: Azure 프로젝트를 Visual Studio에서 현재 버전의 Azure �
 author: ghogen
 manager: jillfra
 assetId: 1d64070a-078d-468a-87f4-e6715de6475f
+ms.prod: visual-studio-dev14
+ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/18/2016
 ms.author: ghogen
 ms.openlocfilehash: e007e7a3f3e8ddeb62167a04debfe879dad1778c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62427964"
 ---
 # <a name="how-to-upgrade-projects-to-the-current-version-of-the-azure-tools-for-visual-studio"></a>프로젝트를 현재 버전의 Visual Studio 용 Azure 도구로 업그레이드하는 방법
 ## <a name="overview"></a>개요
@@ -32,13 +34,13 @@ Azure 도구의 현재 릴리스 (또는 1.6 이후 버전인 이전 릴리스)�
 
 > [!IMPORTANT]
 > F# 프로젝트의 경우 Azure 어셈블리에 대한 참조를 수동으로 업데이트하여 어셈블리의 최신 버전을 참조할 수 있도록 해야 합니다.
->
->
+> 
+> 
 
 ### <a name="how-to-upgrade-an-azure-project-to-the-current-release"></a>Azure 프로젝트를 현재 릴리스로 업그레이드하는 방법
 1. 업그레이드된 프로젝트에 대해 사용하려는 Visual Studio의 설치에 Azure 도구의 현재 버전을 설치하고 업그레이드할 프로젝트를 엽니다. 1.6 이전 (2011년 11월)의 Azure 도구 릴리스로 프로젝트를 만든 경우 프로젝트는 현재 버전으로 자동으로 업그레이드됩니다. 2011년 11월 릴리스를 사용하여 프로젝트를 만들고 해당 릴리스가 여전히 설치되어 있는 경우 프로젝트는 해당 릴리스에서 열립니다.
 2. 솔루션 탐색기에서 프로젝트 노드에 대한 바로 가기 메뉴를 열고 **속성**을 선택한 다음, 나타나는 대화 상자의 **애플리케이션** 탭을 선택합니다.
-
+   
     **애플리케이션** 탭은 프로젝트와 연결된 도구 버전을 표시합니다. Azure 도구의 현재 버전이 표시된 경우 프로젝트가 이미 업그레이드된 것입니다. 탭에 표시된 것보다 보다 최신 버전의 도구를 설치한 경우 **업그레이드** 단추가 나타납니다.
 3. **업그레이드** 단추를 선택하여 도구의 현재 버전에 프로젝트를 업그레이드합니다.
 4. 프로젝트를 빌드한 후 API 변경으로 인해 발생하는 오류를 해결합니다. 새 버전에 대한 코드를 수정하는 방법에 대한 자세한 내용은 특정 API에 대한 설명서를 참조하세요.

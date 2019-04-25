@@ -14,12 +14,12 @@ ms.assetid: 326b6c3c-5378-452b-8ca3-ba5a06ab3d41
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7cc4cc2af5fb78c181be94863176914c17481e95
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 66789cdf50c06648b2d973d9c62a14c113aeaa0e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62785937"
 ---
 # <a name="load-test-results-summary-overview"></a>부하 테스트 결과 요약 개요
 
@@ -107,9 +107,9 @@ ms.locfileid: "55928728"
 
 백분위수 값은 다음 트랜잭션 정보를 나타냅니다.
 
--   총 트랜잭션의 90%가 \<time>초 미만으로 완료되었습니다.
+- 총 트랜잭션의 90%가 \<time>초 미만으로 완료되었습니다.
 
--   총 트랜잭션의 95%가 \<time>초 미만으로 완료되었습니다.
+- 총 트랜잭션의 95%가 \<time>초 미만으로 완료되었습니다.
 
 ## <a name="system-under-test-resources"></a>리소스 테스트 대상 시스템
 

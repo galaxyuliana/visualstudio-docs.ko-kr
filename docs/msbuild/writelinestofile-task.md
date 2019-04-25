@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 8cfe294e94acce70f48b96265b3edc491b37e668
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56653877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62777895"
 ---
 # <a name="writelinestofile-task"></a>WriteLinesToFile 작업
 지정된 항목의 경로를 지정된 텍스트 파일에 씁니다.

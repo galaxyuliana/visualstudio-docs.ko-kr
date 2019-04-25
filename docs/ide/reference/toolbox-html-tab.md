@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 420a65fb8b91495c5fbba228e190b5589019c99f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55926777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62576976"
 ---
 # <a name="toolbox-html-tab"></a>도구 상자, HTML 탭
 
@@ -50,7 +50,7 @@ ms.locfileid: "55926777"
 
 **Input (Reset)**
 
-![HTMLpageResetButton 스크린샷](../../ide/reference/media/vxreset.gif)
+![HTMLpageResetButton 스크린 샷](../../ide/reference/media/vxreset.gif)
 
 `type="reset"`의 `input` 요소를 삽입합니다. 표시되는 텍스트를 변경하려면 `name` 속성을 편집합니다. 기본적으로 `id="Reset1"`은 첫 번째 다시 설정 단추로 삽입되고, `id="Reset2"`는 두 번째 다시 설정 단추로 삽입되는 식으로 항목이 삽입됩니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "55926777"
 
 **Input (Submit)**
 
-![HTMLpageToolbarSubmitButton 스크린샷](../../ide/reference/media/vxsubmit.gif)
+![HTMLpageToolbarSubmitButton 스크린 샷](../../ide/reference/media/vxsubmit.gif)
 
 `type="submit"`의 `input` 요소를 삽입합니다. 표시되는 텍스트를 변경하려면 `name` 속성을 편집합니다. 기본적으로 `id="Submit1"`은 첫 번째 제출 단추로 삽입되고, `id="Submit2"`는 두 번째 제출 단추로 삽입되는 식으로 항목이 삽입됩니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "55926777"
 
 **Input (Text)**
 
-![HTMLpageToolbarTextField 스크린샷](../../ide/reference/media/vxtextfield.gif)
+![HTMLpageToolbarTextField 스크린 샷](../../ide/reference/media/vxtextfield.gif)
 
 `type="text"`의 `input` 요소를 문서에 삽입합니다. 표시되는 기본 텍스트를 변경하려면 `value` 특성을 편집합니다. 기본적으로 `id="Text1"`은 첫 번째 텍스트 필드로 삽입되고, `id="Text2"`는 두 번째 텍스트 필드로 삽입되는 식으로 항목이 삽입됩니다.
 
@@ -131,7 +131,7 @@ ms.locfileid: "55926777"
 
 **Input (Radio)**
 
-![VisualStudioHTMLpageRadioButton 스크린샷](../../ide/reference/media/vxradio.gif)
+![VisualStudioHTMLpageRadioButton 스크린 샷](../../ide/reference/media/vxradio.gif)
 
 `type="radio"`의 `input` 요소를 삽입합니다. 표시되는 텍스트를 변경하려면 `name` 속성을 편집합니다. 기본적으로 `id="Radio1"`은 첫 번째 라디오 단추로 삽입되고, `id="Radio2"`는 두 번째 라디오 단추로 삽입되는 식으로 항목이 삽입됩니다.
 
@@ -170,7 +170,7 @@ ms.locfileid: "55926777"
 
 **Table**
 
-![HTMLpageToolbarTable 스크린샷](../../ide/reference/media/vxtable.gif)
+![HTMLpageToolbarTable 스크린 샷](../../ide/reference/media/vxtable.gif)
 
 `table` 요소를 삽입합니다.
 
@@ -208,7 +208,7 @@ size 속성 값을 늘려 여러 줄 `select` 요소를 만들 수 있습니다.
 
 **Horizontal Rule**
 
-![HTML 페이지 가로줄 항목](../../ide/reference/media/vxhorizontal.gif)
+![HTML 페이지 단락 구분선 항목](../../ide/reference/media/vxhorizontal.gif)
 
 `hr` 요소를 삽입합니다. 줄 두께를 늘리려면 `size` 특성을 편집합니다.
 

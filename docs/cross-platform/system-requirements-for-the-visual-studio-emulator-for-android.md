@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1c34bd47dc3909fd165db265eb5a5a79920a03f9
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 4e5f7f21206953b8d99306a9b1da6935604c88b8
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57869072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62815478"
 ---
 # <a name="system-requirements-for-the-visual-studio-emulator-for-android"></a>Android용 Visual Studio 에뮬레이터에 대한 시스템 요구 사항
 
@@ -26,7 +26,7 @@ Android용 Visual Studio 에뮬레이터는 Windows 8 이상 버전의 가상화
 > [!IMPORTANT]
 > 에뮬레이터에 대한 설치 프로그램은 Android용 Visual Studio 에뮬레이터를 실행하기 위한 필수 조건을 확인합니다. 필수 조건이 없는 경우 경고가 표시되지만 이러한 필수 조건을 필수로 요구하지는 않습니다.
 
-##  <a name="Checklist"></a> 빠른 검사 목록
+## <a name="Checklist"></a> 빠른 검사 목록
 
 다음은 Android용 Visual Studio 에뮬레이터를 실행하기 위한 요구 사항의 빠른 검사 목록입니다. 자세한 내용은 이 항목의 후속 섹션을 참조하세요.
 
@@ -50,11 +50,11 @@ Hyper-V 요구 사항
 
 - BIOS에서 다음 기능을 지원해야 합니다.
 
-  -   하드웨어 지원 가상화
+  - 하드웨어 지원 가상화
 
-  -   SLAT(두 번째 수준 주소 변환)
+  - SLAT(두 번째 수준 주소 변환)
 
-  -   하드웨어 기반 DEP(데이터 실행 방지)
+  - 하드웨어 기반 DEP(데이터 실행 방지)
 
 - Windows에서 Hyper-V가 활성화되어 실행 중이어야 합니다.
 

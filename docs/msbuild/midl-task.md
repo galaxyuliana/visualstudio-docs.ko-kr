@@ -26,12 +26,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0cb6698ac7652eab416523418458fa0c8b820097
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 301ca4ee88368b9134bbbcd2dc41435590becaed
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56618161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817573"
 ---
 # <a name="midl-task"></a>MIDL 작업
 MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*를 래핑합니다. 자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)를 참조하세요.
@@ -39,7 +39,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 ## <a name="parameters"></a>매개 변수
  다음에서는 **MIDL** 작업의 매개 변수에 대해 설명합니다. 대부분의 작업 매개 변수 및 몇 가지 매개 변수 집합은 명령줄 옵션에 해당합니다.
 
--   **AdditionalIncludeDirectories**
+- **AdditionalIncludeDirectories**
 
      선택적 **String[]** 매개 변수입니다.
 
@@ -47,7 +47,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/I** 옵션을 참조하세요.
 
--   **AdditionalOptions**
+- **AdditionalOptions**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -55,7 +55,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)를 참조하세요.
 
--   **ApplicationConfigurationMode**
+- **ApplicationConfigurationMode**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -63,7 +63,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/app_config** 옵션을 참조하세요.
 
--   **ClientStubFile**
+- **ClientStubFile**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -71,7 +71,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/cstub** 옵션을 참조하세요. 이 표의 **ServerStubFile** 매개 변수도 참조하세요.
 
--   **CPreprocessOptions**
+- **CPreprocessOptions**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -79,7 +79,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/cpp_opt** 옵션을 참조하세요.
 
--   **DefaultCharType**
+- **DefaultCharType**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -95,7 +95,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/char** 옵션을 참조하세요.
 
--   **DllDataFileName**
+- **DllDataFileName**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -103,7 +103,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/dlldata** 옵션을 참조하세요.
 
--   **EnableErrorChecks**
+- **EnableErrorChecks**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -119,7 +119,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/error** 옵션을 참조하세요.
 
--   **ErrorCheckAllocations**
+- **ErrorCheckAllocations**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -127,7 +127,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/error allocation** 옵션을 참조하세요.
 
--   **ErrorCheckBounds**
+- **ErrorCheckBounds**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -135,7 +135,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/error bounds_check** 옵션을 참조하세요.
 
--   **ErrorCheckEnumRange**
+- **ErrorCheckEnumRange**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -143,7 +143,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 *midl.exe*에 대한 명령줄 도움말(**/?**)에서 **/error enum** 옵션을 참조하세요.
 
--   **ErrorCheckRefPointers**
+- **ErrorCheckRefPointers**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -151,7 +151,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/error ref** 옵션을 참조하세요.
 
--   **ErrorCheckStubData**
+- **ErrorCheckStubData**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -159,7 +159,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/error stub_data** 옵션을 참조하세요.
 
--   **GenerateClientFiles**
+- **GenerateClientFiles**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -174,7 +174,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/client** 옵션을 참조하세요.
 
--   **GenerateServerFiles**
+- **GenerateServerFiles**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -189,7 +189,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/server** 옵션을 참조하세요.
 
--   **GenerateStublessProxies**
+- **GenerateStublessProxies**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -197,7 +197,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/Oicf** 옵션을 참조하세요.
 
--   **GenerateTypeLibrary**
+- **GenerateTypeLibrary**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -205,7 +205,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/notlb** 옵션을 참조하세요.
 
--   **HeaderFileName**
+- **HeaderFileName**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -213,7 +213,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/h** 또는 **/header** 옵션을 참조하세요.
 
--   **IgnoreStandardIncludePath**
+- **IgnoreStandardIncludePath**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -221,7 +221,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/no_def_idir** 옵션을 참조하세요.
 
--   **InterfaceIdentifierFileName**
+- **InterfaceIdentifierFileName**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -229,7 +229,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/iid** 옵션을 참조하세요.
 
--   **LocaleID**
+- **LocaleID**
 
      선택적 **int** 매개 변수입니다.
 
@@ -237,7 +237,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/lcid** 옵션을 참조하세요. [로캘 식별자](https://docs.microsoft.com/windows/desktop/intl/locale-identifiers)도 참조하세요.
 
--   **MkTypLibCompatible**
+- **MkTypLibCompatible**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -245,7 +245,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/mktyplib203** 옵션을 참조하세요. MSDN 웹 사이트에서 [ODL 파일 구문](/previous-versions/windows/desktop/automat/odl-file-syntax)도 참조하세요.
 
--   **OutputDirectory**
+- **OutputDirectory**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -253,7 +253,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/out** 옵션을 참조하세요.
 
--   **PreprocessorDefinitions**
+- **PreprocessorDefinitions**
 
      선택적 **String[]** 매개 변수입니다.
 
@@ -261,7 +261,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/D** 옵션을 참조하세요. 이 표의 **UndefinePreprocessorDefinitions** 매개 변수도 참조하세요.
 
--   **ProxyFileName**
+- **ProxyFileName**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -269,7 +269,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/proxy** 옵션을 참조하세요.
 
--   **RedirectOutputAndErrors**
+- **RedirectOutputAndErrors**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -277,7 +277,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/o** 옵션을 참조하세요.
 
--   **ServerStubFile**
+- **ServerStubFile**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -285,13 +285,13 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/sstub** 옵션을 참조하세요. 이 표의 **ClientStubFile** 매개 변수도 참조하세요.
 
--   **Source**
+- **Source**
 
      필수 `ITaskItem[]` 매개 변수입니다.
 
      공백으로 구분된 소스 파일 목록을 지정합니다.
 
--   **StructMemberAlignment**
+- **StructMemberAlignment**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -309,7 +309,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/Zp** 옵션을 참조하세요. **/Zp** 옵션은 **/pack** 옵션 및 이전의 **/align** 옵션과 동일합니다.
 
--   **SuppressCompilerWarnings**
+- **SuppressCompilerWarnings**
 
      선택적 **Boolean** 매개 변수입니다.
 
@@ -317,7 +317,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/no_warn** 옵션을 참조하세요.
 
--   **SuppressStartupBanner**
+- **SuppressStartupBanner**
 
      선택적 `Boolean` 매개 변수입니다.
 
@@ -325,7 +325,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/nologo** 옵션을 참조하세요.
 
--   **TargetEnvironment**
+- **TargetEnvironment**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -342,13 +342,13 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/env** 옵션을 참조하세요.
 
--   **TrackerLogDirectory**
+- **TrackerLogDirectory**
 
      선택적 `String` 매개 변수입니다.
 
      이 작업에 대한 추적 로그를 저장할 중간 디렉터리를 지정합니다.
 
--   **TypeLibFormat**
+- **TypeLibFormat**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -363,7 +363,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/newtlb** 및 **/oldtlb** 옵션을 참조하세요.
 
--   **TypeLibraryName**
+- **TypeLibraryName**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -371,7 +371,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/tlb** 옵션을 참조하세요.
 
--   **UndefinePreprocessorDefinitions**
+- **UndefinePreprocessorDefinitions**
 
      선택적 **String[]** 매개 변수입니다.
 
@@ -379,7 +379,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/U** 옵션을 참조하세요. 이 표의 **PreprocessorDefinitions** 매개 변수도 참조하세요.
 
--   **ValidateAllParameters**
+- **ValidateAllParameters**
 
      선택적 `Boolean` 매개 변수입니다.
 
@@ -387,7 +387,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/robust** 및 **/no_robust** 옵션을 참조하세요.
 
--   **WarnAsError**
+- **WarnAsError**
 
      선택적 `Boolean` 매개 변수입니다.
 
@@ -397,7 +397,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 *midl.exe*�
 
      자세한 내용은 [MIDL 명령줄 참조](https://docs.microsoft.com/windows/desktop/Midl/midl-command-line-reference)에서 **/WX** 옵션을 참조하세요. 이 표의 **WarningLevel** 매개 변수도 참조하세요.
 
--   **WarningLevel**
+- **WarningLevel**
 
      선택적 **문자열** 매개 변수입니다.
 

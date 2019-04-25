@@ -12,11 +12,11 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.openlocfilehash: 2bb6de32188abb11e0286c200383bdb1e8fb12f7
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62549213"
 ---
 # <a name="how-to-unlock-visual-studio"></a>방법: Visual Studio 잠금 해제
 

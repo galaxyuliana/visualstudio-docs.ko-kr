@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: ec1847f30f5c04bd32ddea85ff95a0808daa8aa7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817822"
 ---
 # <a name="options-text-editor-c-code-style-formatting"></a>옵션, 텍스트 편집기, C#, 코드 스타일, 서식 지정
 
@@ -50,8 +50,8 @@ ms.locfileid: "55934382"
 |레이블|설명|해당 EditorConfig 및 도구 > 옵션 규칙|
 |-----------|-----------------|-----------------|-----------------|
 |**모든 C# 서식 규칙 적용(들여쓰기, 줄 바꿈, 간격)**|**문서 서식** 명령은 항상 서식 지정 문제를 수정합니다. 이 설정은 변경할 수 없습니다.| [핵심 EditorConfig 옵션](../../ide/create-portable-custom-editor-options.md)<br/>[.NET EditorConfig 서식 지정 옵션](../../ide/editorconfig-code-style-settings-reference.md#formatting-conventions)<br/><br/>**도구** > **옵션** > **텍스트 편집기** > **C#** > **서식 지정** > [**들여쓰기** 또는 **새 줄** 또는 **간격** 또는 **래핑**]|
-|**서식을 지정하는 동안 추가 코드 정리 수행**|이 옵션을 선택하면 **Edit.FormatDocument** 명령 아래에 지정된 규칙에 대한 수정 사항을 적용합니다.| N/A |
-|**불필요한 Using 제거**|이 옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 불필요한 `using` 지시문을 제거합니다.| N/A |
+|**서식을 지정하는 동안 추가 코드 정리 수행**|이 옵션을 선택하면 **Edit.FormatDocument** 명령 아래에 지정된 규칙에 대한 수정 사항을 적용합니다.| 해당 없음 |
+|**불필요한 Using 제거**|이 옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 불필요한 `using` 지시문을 제거합니다.| 해당 없음 |
 |**using 정렬**|이 옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 `using` 지시문을 정렬합니다.| dotnet_sort_system_directives_first<br/><br/>**도구** > **옵션** > **텍스트 편집기** > **C#** > **고급** > **using 정렬 시 먼저 'System' 지시문 정렬** |
 |**단일 줄 제어문에 대해 중괄호 추가/제거**|옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 단일 줄 제어문에서 중괄호를 추가하거나 제거합니다.| csharp_prefer_braces<br/><br/>**도구** > **옵션** > **텍스트 편집기** > **C#** > **코드 스타일** > **코드 블록 기본 설정** > **중괄호 기본 사용** |
 |**내게 필요한 옵션 한정자 추가**|옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 누락된 내게 필요한 옵션 한정자를 추가합니다.| dotnet_style_require_accessibility_modifiers |
@@ -63,8 +63,8 @@ ms.locfileid: "55934382"
 |**개체/컬렉션 초기화 기본 설정 적용**|옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 가능한 경우 개체 및 컬렉션 이니셜라이저를 사용합니다.| dotnet_style_object_initializer<br/>dotnet_style_collection_initializer<br/><br/>**도구** > **옵션** > **텍스트 편집기** > **C#** > **코드 스타일** > **식 기본 설정** > **개체 이니셜라이저 기본 사용** 또는 **컬렉션 이니셜라이저 기본 사용** |
 |**'this.' 한정자 기본 설정 적용**|이 옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 `this.` 기본 설정을 적용합니다.| [this. 한정자 EditorConfig 옵션](../../ide/editorconfig-code-style-settings-reference.md#this_and_me)<br/><br/>**도구** > **옵션** > **텍스트 편집기** > **C#** > **코드 스타일** > **'this.' 기본 설정** |
 |**가능한 경우 전용 필드를 읽기 전용으로 만들기**|옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 가능한 경우 전용 필드를 `readonly`로 만듭니다.| dotnet_style_readonly_field<br/><br/>**도구** > **옵션** > **텍스트 편집기** > **C#** > **코드 스타일** > **필드 기본 설정** > **읽기 전용 기본 사용** |
-|**불필요한 캐스트 제거**|이 옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 불필요한 캐스트를 제거합니다.| N/A |
-|**사용하지 않는 변수 제거**|이 옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 사용하지 않는 변수를 제거합니다.| N/A |
+|**불필요한 캐스트 제거**|이 옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 불필요한 캐스트를 제거합니다.| 해당 없음 |
+|**사용하지 않는 변수 제거**|이 옵션을 선택하면 **Edit.FormatDocument**를 트리거할 때 사용하지 않는 변수를 제거합니다.| 해당 없음 |
 
 ![Visual Studio에서 C#에 대한 코드 정리 설정](media/format-document-settings.png)
 

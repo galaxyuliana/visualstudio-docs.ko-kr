@@ -8,17 +8,17 @@ ms.topic: conceptual
 ms.workload:
 - multiple
 ms.openlocfilehash: a2970c0086ec18789347eebdea752487be18ce7d
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56842772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62548407"
 ---
 # <a name="view-recent-job-performance-and-details"></a>최근 작업 성능 및 세부 정보 보기
 
 작업을 제출하면 작업 목록을 보고 해당 상태, 기간 등을 확인할 수 있습니다.
 
-1. **서버 탐색기**에서 특정 계산 컨텍스트를 확장합니다.
+1. **서버 탐색기**에서 특정 컴퓨팅 컨텍스트를 확장합니다.
 2. **작업**을 두 번 클릭합니다.
 3. 해당 컴퓨팅 컨텍스트에 제출된 작업 목록을 확인합니다.
 4. 목록에서 특정 **작업**을 선택하여 세부 정보를 봅니다.

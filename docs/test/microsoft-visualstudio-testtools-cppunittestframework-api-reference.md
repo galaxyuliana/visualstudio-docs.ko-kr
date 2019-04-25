@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: mikeblome
-ms.openlocfilehash: 926b2c35d64ebac060f026dbc212874f261719de
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 045f205ff5450b09d4ec4e76e14493a988bae375
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62784084"
 ---
 # <a name="microsoftvisualstudiotesttoolscppunittestframework-api-reference"></a>Microsoft.VisualStudio.TestTools.CppUnitTestFramework API 참조
 
@@ -24,18 +24,18 @@ ms.locfileid: "55922162"
 
 헤더 및 라이브러리 경로는 기본 테스트 프로젝트에서 자동으로 구성됩니다.
 
-##  <a name="In_this_topic"></a> 항목 내용
+## <a name="In_this_topic"></a> 항목 내용
  [CppUnitTest.h](#cppUnitTest_h)
 
 - [테스트 클래스와 메서드 만들기](#create_test_classes_and_methods)
 
 - [초기화 및 정리](#Initialize_and_cleanup)
 
-  -   [테스트 메서드](#test_methods)
+  - [테스트 메서드](#test_methods)
 
-  -   [테스트 클래스](#test_classes)
+  - [테스트 클래스](#test_classes)
 
-  -   [테스트 모듈](#test_modules)
+  - [테스트 모듈](#test_modules)
 
 - [테스트 특성 만들기](#create_test_attributes)
 
@@ -51,37 +51,37 @@ ms.locfileid: "55922162"
 
   - [일반 어설션](#general_asserts)
 
-    -   [AreEqual](#general_are_equal)
+    - [AreEqual](#general_are_equal)
 
-    -   [AreNotEqual](#general_are_not_equal)
+    - [AreNotEqual](#general_are_not_equal)
 
-    -   [AreSame](#general_are_same)
+    - [AreSame](#general_are_same)
 
-    -   [AreNotSame](#general_are_not_same)
+    - [AreNotSame](#general_are_not_same)
 
-    -   [IsNull](#general_is_null)
+    - [IsNull](#general_is_null)
 
-    -   [IsNotNull](#general_is_not_null)
+    - [IsNotNull](#general_is_not_null)
 
-    -   [IsTrue](#general_is_True)
+    - [IsTrue](#general_is_True)
 
-    -   [IsFalse](#general_is_false)
+    - [IsFalse](#general_is_false)
 
-    -   [Fail](#general_Fail)
+    - [Fail](#general_Fail)
 
   - [Windows 런타임 어설션](#winrt_asserts)
 
-    -   [AreEqual](#winrt_are_equal)
+    - [AreEqual](#winrt_are_equal)
 
-    -   [AreSame](#winrt_are_same)
+    - [AreSame](#winrt_are_same)
 
-    -   [AreNotEqual](#winrt_are_not_equal)
+    - [AreNotEqual](#winrt_are_not_equal)
 
-    -   [AreNotSame](#winrt_are_not_same)
+    - [AreNotSame](#winrt_are_not_same)
 
-    -   [IsNull](#winrt_is_null)
+    - [IsNull](#winrt_is_null)
 
-    -   [IsNotNull](#winrt_is_not_null)
+    - [IsNotNull](#winrt_is_not_null)
 
   - [예외 어설션](#exception_asserts)
 
@@ -95,9 +95,9 @@ ms.locfileid: "55922162"
 
   - [사용 예제](#example)
 
-##  <a name="cppUnitTest_h"></a> CppUnitTest.h
+## <a name="cppUnitTest_h"></a> CppUnitTest.h
 
-###  <a name="create_test_classes_and_methods"></a> 테스트 클래스와 메서드 만들기
+### <a name="create_test_classes_and_methods"></a> 테스트 클래스와 메서드 만들기
 
 ```cpp
 TEST_CLASS(className)
@@ -114,9 +114,9 @@ TEST_METHOD(methodName)
 
  *methodName*을 테스트 메서드로 정의합니다. 메서드의 클래스 범위에서 `TEST_METHOD`를 선언해야 합니다.
 
-###  <a name="Initialize_and_cleanup"></a> 초기화 및 정리
+### <a name="Initialize_and_cleanup"></a> 초기화 및 정리
 
-####  <a name="test_methods"></a> 테스트 메서드
+#### <a name="test_methods"></a> 테스트 메서드
 
 ```cpp
 TEST_METHOD_INITIALIZE(methodName)
@@ -136,7 +136,7 @@ TEST_METHOD_CLEANUP(methodName)
 
  각 테스트 메서드를 실행한 후에 실행되는 메서드로 *methodName*을 정의합니다. `TEST_METHOD_CLEANUP`는 테스트 클래스에서 한 번만 정의할 수 있으며 테스트 클래스의 범위에서 정의해야 합니다.
 
-####  <a name="test_classes"></a> 테스트 클래스
+#### <a name="test_classes"></a> 테스트 클래스
 
 ```cpp
 TEST_CLASS_INITIALIZE(methodName)
@@ -156,7 +156,7 @@ TEST_CLASS_CLEANUP(methodName)
 
  각 테스트 클래스를 만든 후에 실행되는 메서드로 *methodName*을 정의합니다. `TEST_CLASS_CLEANUP`은 테스트 클래스에서 한 번만 정의할 수 있으며 테스트 클래스의 범위에서 정의해야 합니다.
 
-####  <a name="test_modules"></a> 테스트 모듈
+#### <a name="test_modules"></a> 테스트 모듈
 
 ```cpp
 TEST_MODULE_INITIALIZE(methodName)
@@ -173,9 +173,9 @@ TEST_MODULE_CLEANUP(methodName)
 
  모듈을 언로드할 때 실행되는 메서드 *methodName*을 정의합니다. `TEST_MODULE_CLEANUP`은 테스트 모듈에서 한 번만 정의할 수 있으며 네임스페이스 범위에서 선언해야 합니다.
 
-###  <a name="create_test_attributes"></a> 테스트 특성 만들기
+### <a name="create_test_attributes"></a> 테스트 특성 만들기
 
-####  <a name="test_method_attributes"></a> 테스트 메서드 특성
+#### <a name="test_method_attributes"></a> 테스트 메서드 특성
 
 ```cpp
 BEGIN_TEST_METHOD_ATTRIBUTE(testMethodName)
@@ -188,7 +188,7 @@ END_TEST_METHOD_ATTRIBUTE()
 
  `TEST_METHOD_ATTRIBUTE` 매크로는 이름 *attributeName* 및 값 *attributeValue*를 사용하여 특성을 정의합니다.
 
-####  <a name="test_class_attributes"></a> 테스트 클래스 특성
+#### <a name="test_class_attributes"></a> 테스트 클래스 특성
 
 ```cpp
 BEGIN_TEST_CLASS_ATTRIBUTE(testClassName)
@@ -201,7 +201,7 @@ END_TEST_CLASS_ATTRIBUTE()
 
  `TEST_CLASS_ATTRIBUTE` 매크로는 이름 *attributeName* 및 값 *attributeValue*를 사용하여 특성을 정의합니다.
 
-####  <a name="test_module_attributes"></a> 테스트 모듈 특성
+#### <a name="test_module_attributes"></a> 테스트 모듈 특성
 
 ```cpp
 BEGIN_TEST_MODULE_ATTRIBUTE(testModuleName)
@@ -214,7 +214,7 @@ END_TEST_MODULE_ATTRIBUTE()
 
  `TEST_MODULE_ATTRIBUTE` 매크로는 이름 *attributeName* 및 값 *attributeValue*를 사용하여 특성을 정의합니다.
 
-####  <a name="pre_defined_attributes"></a> 미리 정의된 특성
+#### <a name="pre_defined_attributes"></a> 미리 정의된 특성
  위에서 설명한 매크로 `TEST_METHOD_ATTRIBUTE`, `TEST_CLASS_ATTRIBUTE` 또는 `TEST_MODULE_ATTRIBUTE` 매크로를 이러한 미리 정의된 특성 매크로로 대체할 수 있습니다.
 
 ```cpp
@@ -247,11 +247,11 @@ TEST_IGNORE()
 
  이름 `Ignore` 및 특성 값 `true`를 사용하여 특성을 정의합니다.
 
-##  <a name="cppUnitTestAssert_h"></a> CppUnitTestAssert.h
+## <a name="cppUnitTestAssert_h"></a> CppUnitTestAssert.h
 
-###  <a name="general_asserts"></a> 일반 어설션
+### <a name="general_asserts"></a> 일반 어설션
 
-####  <a name="general_are_equal"></a> AreEqual
+#### <a name="general_are_equal"></a> AreEqual
  두 개체가 같은지 확인합니다.
 
 ```cpp
@@ -307,7 +307,7 @@ static void Assert::AreEqual(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_are_not_equal"></a> AreNotEqual
+#### <a name="general_are_not_equal"></a> AreNotEqual
  두 double이 같지 않은지 확인합니다.
 
 ```cpp
@@ -363,7 +363,7 @@ static void Assert::AreNotEqual(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_are_same"></a> AreSame
+#### <a name="general_are_same"></a> AreSame
  두 참조가 같은 개체 인스턴스(ID)를 참조하는지 확인합니다.
 
 ```cpp
@@ -375,7 +375,7 @@ static void Assert::AreSame(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_are_not_same"></a> AreNotSame
+#### <a name="general_are_not_same"></a> AreNotSame
  두 참조가 같은 개체 인스턴스(ID)를 참조하지 않는지 확인합니다.
 
 ```cpp
@@ -387,7 +387,7 @@ static void Assert::AreNotSame (
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_is_null"></a> IsNull
+#### <a name="general_is_null"></a> IsNull
  포인터가 NULL인지 확인합니다.
 
 ```cpp
@@ -398,7 +398,7 @@ static void Assert::IsNull(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_is_not_null"></a> IsNotNull
+#### <a name="general_is_not_null"></a> IsNotNull
  포인터가 NULL이 아닌지 확인합니다.
 
 ```cpp
@@ -409,7 +409,7 @@ static void Assert::IsNotNull(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_is_True"></a> IsTrue
+#### <a name="general_is_True"></a> IsTrue
  조건이 true인지 확인합니다.
 
 ```cpp
@@ -419,7 +419,7 @@ static void Assert::IsTrue(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_is_false"></a> IsFalse
+#### <a name="general_is_false"></a> IsFalse
  조건이 false인지 확인합니다.
 
 ```cpp
@@ -429,7 +429,7 @@ static void Assert::IsFalse(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-####  <a name="general_Fail"></a> Fail
+#### <a name="general_Fail"></a> Fail
  테스트 사례가 실패한 것으로 강제 지정합니다.
 
 ```cpp
@@ -438,9 +438,9 @@ static void Assert::Fail(
     const __LineInfo* pLineInfo = NULL)
 ```
 
-###  <a name="winrt_asserts"></a> Windows 런타임 어설션
+### <a name="winrt_asserts"></a> Windows 런타임 어설션
 
-####  <a name="winrt_are_equal"></a> AreEqual
+#### <a name="winrt_are_equal"></a> AreEqual
  두 Windows 런타임 포인터가 같은지 확인합니다.
 
 ```cpp
@@ -463,7 +463,7 @@ static void Assert::AreEqual(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_are_same"></a> AreSame
+#### <a name="winrt_are_same"></a> AreSame
  두 Windows 런타임 참조가 같은 개체를 참조하는지 확인합니다.
 
 ```cpp
@@ -475,7 +475,7 @@ static void Assert::AreSame(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_are_not_equal"></a> AreNotEqual
+#### <a name="winrt_are_not_equal"></a> AreNotEqual
  두 Windows 런타임 포인터가 같지 않은지 확인합니다.
 
 ```cpp
@@ -498,7 +498,7 @@ static void Assert::AreNotEqual(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_are_not_same"></a> AreNotSame
+#### <a name="winrt_are_not_same"></a> AreNotSame
  두 Windows 런타임 참조가 같은 개체를 참조하지 않는지 확인합니다.
 
 ```cpp
@@ -510,7 +510,7 @@ static void Assert::AreNotSame(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_is_null"></a> IsNull
+#### <a name="winrt_is_null"></a> IsNull
  Windows 런타임 포인터가 nullptr인지 확인합니다.
 
 ```cpp
@@ -521,7 +521,7 @@ static void Assert::IsNull(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-####  <a name="winrt_is_not_null"></a> IsNotNull
+#### <a name="winrt_is_not_null"></a> IsNotNull
  Windows 런타임 포인터가 nullptr이 아닌지 확인합니다.
 
 ```cpp
@@ -532,9 +532,9 @@ static void Assert::IsNotNull(
     const __LineInfo* pLineInfo= nullptr)
 ```
 
-###  <a name="exception_asserts"></a> 예외 어설션
+### <a name="exception_asserts"></a> 예외 어설션
 
-####  <a name="expect_exception"></a> EXPECTEXCEPTION
+#### <a name="expect_exception"></a> EXPECTEXCEPTION
  함수에서 예외가 발생하는지 확인합니다.
 
 ```cpp
@@ -555,12 +555,12 @@ template<typename _EXPECTEDEXCEPTION, typename _RETURNTYPE>
     const __LineInfo* pLineInfo = NULL)
 ```
 
-##  <a name="cppunittestlogger_h"></a> CppUnitTestLogger.h
+## <a name="cppunittestlogger_h"></a> CppUnitTestLogger.h
 
-###  <a name="logger"></a> Logger
+### <a name="logger"></a> Logger
  Logger 클래스는 **출력 창**에 작성하는 정적 메서드를 포함합니다.
 
-###  <a name="write_message"></a> 메시지 작성
+### <a name="write_message"></a> 메시지 작성
 **출력 창**에 문자열 작성
 
 ```cpp

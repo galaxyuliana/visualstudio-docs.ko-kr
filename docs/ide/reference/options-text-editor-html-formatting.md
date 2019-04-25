@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f90e6c4bb3759adb46bf827580cc94dc4a8ed71f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 69a8d3f1b84bd59cec9e13bf50eb8eaa46795cdf
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55927180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62779021"
 ---
 # <a name="options-text-editor-html-web-forms-formatting"></a>옵션, 텍스트 편집기, HTML(Web Forms), 서식 지정
 
@@ -41,7 +41,6 @@ ms.locfileid: "55927180"
 |**소문자**|요소 이름을 소문자로 변경합니다.|
 |**어셈블리 정의**|요소가 해당 클래스 형식에 정의된 방식에 따라 대/소문자로 변경 여부가 결정됩니다.|
 
-
 **클라이언트 태그, 클라이언트 특성**
 
 이 옵션을 사용하면 자동 서식을 통해 HTML 특성 및 속성의 이름을 대문자 또는 소문자로 변경할지 또는 입력된 대로 유지할지 여부를 지정할 수 있습니다.
@@ -51,7 +50,6 @@ ms.locfileid: "55927180"
 |**입력한 대로**|특성 대/소문자가 사용자가 입력한 대로 유지됩니다.|
 |**대문자**|특성 이름을 대문자로 변경합니다.|
 |**소문자**|특성 이름을 소문자로 변경합니다.|
-
 
 ## <a name="automatic-formatting-options"></a>자동 서식 옵션
 
@@ -65,7 +63,6 @@ ms.locfileid: "55927180"
 - **입력할 때 특성 값 따옴표 삽입**
 
    이 옵션을 선택하면 입력 시 편집기에서 자동으로 특성 앞뒤에 따옴표를 추가합니다(예: ID="Select1"). 태그에 따옴표를 수동으로 삽입하려면 이 옵션의 선택을 취소합니다.
-
 
    > [!NOTE]
    > 이 옵션의 선택 여부와 관계없이 태그에 이미 있는 따옴표는 유지되며 제거되지 않습니다.

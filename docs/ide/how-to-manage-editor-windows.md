@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 90c762e07ac57da0b9abf41c8eb99cdcdbb57922
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: be0c11509dc72baf8ab34cf2ef850fec352a9877
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62429017"
 ---
 # <a name="how-to-manage-editor-windows"></a>방법: 편집기 창 관리
 
@@ -33,9 +33,9 @@ ms.locfileid: "55949267"
 
 ### <a name="to-split-a-pane"></a>창을 분할하려면
 
-1.  편집기 창 안을 클릭하여 포커스를 지정합니다.
+1. 편집기 창 안을 클릭하여 포커스를 지정합니다.
 
-2.  **창** 메뉴에서 **분할**을 선택합니다.
+2. **창** 메뉴에서 **분할**을 선택합니다.
 
      편집 영역이 분할 막대로 구분된 두 개 창으로 나뉩니다. 이 창을 독립적으로 스크롤하여 활성 문서의 다른 부분을 동시에 보고 편집할 수 있습니다. 하나의 창에서 변경한 내용은 다른 창에 반영됩니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "55949267"
 
 ### <a name="to-return-to-single-pane-view"></a>단일 창 보기로 돌아가려면
 
--   **창** 메뉴에서 **분할 제거**를 선택합니다.
+- **창** 메뉴에서 **분할 제거**를 선택합니다.
 
 ## <a name="create-new-windows"></a>새 창 만들기
 

@@ -17,12 +17,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 18239c01707e63acaf7602ec77dad3bc6b42a884
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 5933d89e38d040b088879f10911f2f1fff049aab
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62547693"
 ---
 # <a name="how-to-move-around-in-the-visual-studio-ide"></a>방법: Visual Studio IDE에서 이동
 
@@ -43,9 +43,9 @@ Visual Studio의 거의 모든 메뉴 명령에는 바로 가기 키가 있습�
 
 ### <a name="to-move-through-open-files-in-order-of-use"></a>사용한 순서대로 열려 있는 파일 간을 이동하려면
 
--   가장 최근에 액세스한 순서대로 열려 있는 문서를 활성화하려면 **Ctrl**+**-** 을 누릅니다.
+- 가장 최근에 액세스한 순서대로 열려 있는 문서를 활성화하려면 **Ctrl**+**-** 을 누릅니다.
 
--   역순으로 열려 있는 문서를 활성화하려면 **Ctrl**+**Shift**+**-** 를 누릅니다.
+- 역순으로 열려 있는 문서를 활성화하려면 **Ctrl**+**Shift**+**-** 를 누릅니다.
 
     > [!NOTE]
     > **뒤로 탐색** 및 **앞으로 탐색**은 **보기** 메뉴에서도 찾을 수 있습니다.
@@ -63,20 +63,20 @@ Visual Studio의 거의 모든 메뉴 명령에는 바로 가기 키가 있습�
 
 ### <a name="to-switch-to-specific-files-in-the-editor"></a>편집기에서 특정 파일로 전환하려면
 
--   **Ctrl**+**Tab**을 눌러 **IDE 탐색기**를 표시합니다. **Ctrl** 키를 누른 상태에서 전환하려는 파일을 선택할 때까지 **Tab** 키를 반복해서 누릅니다.
+- **Ctrl**+**Tab**을 눌러 **IDE 탐색기**를 표시합니다. **Ctrl** 키를 누른 상태에서 전환하려는 파일을 선택할 때까지 **Tab** 키를 반복해서 누릅니다.
 
     > [!TIP]
     > **활성 파일** 목록을 이동하는 순서를 반대로 하려면 **Ctrl**+**Shift** 키를 누른 상태에서 **Tab** 키를 누릅니다.
 
     \- 또는 -
 
--   편집기의 오른쪽 위에서 **활성 파일** 단추를 선택한 다음 전환할 목록에서 파일을 선택합니다.
+- 편집기의 오른쪽 위에서 **활성 파일** 단추를 선택한 다음 전환할 목록에서 파일을 선택합니다.
 
     \- 또는 -
 
--   메뉴 모음에서 **창** > **창**을 선택합니다.
+- 메뉴 모음에서 **창** > **창**을 선택합니다.
 
--   목록에서 보려는 파일을 선택한 다음 **활성화**를 선택합니다.
+- 목록에서 보려는 파일을 선택한 다음 **활성화**를 선택합니다.
 
 ## <a name="navigate-among-tool-windows-in-the-ide"></a>IDE에서 도구 창 탐색
 
@@ -87,7 +87,7 @@ Visual Studio의 거의 모든 메뉴 명령에는 바로 가기 키가 있습�
 
 ### <a name="to-switch-to-a-specific-tool-window-in-the-ide"></a>IDE에서 특정 도구 창으로 전환하려면
 
--   **Alt**+**F7**을 눌러 **IDE 탐색기**를 표시합니다. **Alt** 키를 누른 상태에서 전환하려는 창을 선택할 때까지 **F7** 키를 반복해서 누릅니다.
+- **Alt**+**F7**을 눌러 **IDE 탐색기**를 표시합니다. **Alt** 키를 누른 상태에서 전환하려는 창을 선택할 때까지 **F7** 키를 반복해서 누릅니다.
 
     > [!TIP]
     > **활성 도구 창** 목록을 이동하는 순서를 반대로 하려면 **Shift**+**Alt** 키를 누른 상태에서 **F7** 키를 누릅니다.

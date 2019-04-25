@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 70d86074dabc4365d1d0336f191beada215f4dc1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 3cc0cdb635c90275289f96c55ae68976ffc5edc9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62569682"
 ---
 # <a name="compare-properties-and-items"></a>속성 및 항목 비교하기
 MSBuild 속성 및 항목은 둘 다 작업에 정보를 전달하고, 조건을 확인한 다음 프로젝트 파일 전체에서 참조할 수 있는 값을 저장하는 데 사용됩니다.
@@ -40,7 +40,7 @@ MSBuild 속성은 문자열 값이 하나만 있는 이름-값 쌍이므로 보�
 </PropertyGroup>
 ```
 
-`BuildDependsOn` 속성은 일반적으로 대상 `DependsOnTargets` 특성의 인수로 사용되며, 해당 특성을 효과적으로 항목 목록으로 변환합니다. 대상을 추가하거나 대상 실행 순서를 변경하기 위해 이 속성을 재정의할 수 있습니다. 예를 들어 개체에 적용된
+`BuildDependsOn` 속성은 일반적으로 대상 `DependsOnTargets` 특성의 인수로 사용되며, 해당 특성을 효과적으로 항목 목록으로 변환합니다. 대상을 추가하거나 대상 실행 순서를 변경하기 위해 이 속성을 재정의할 수 있습니다. 예를 들면 다음과 같습니다.
 
 ```xml
 <PropertyGroup>
@@ -86,7 +86,6 @@ OutputDir 항목 종류에는 "KeyFiles\\;Certificates\\" 값을 가진 `Include
 - 항목 정의가 표시되는 순서대로 정의되고 수정됩니다.
 
 - 항목이 표시되는 순서대로 정의되고 수정됩니다.
-
 
 빌드 실행 단계 중 대상 내에 정의된 속성 및 항목은 표시되는 순서대로 단일 단계에서 함께 평가됩니다.
 

@@ -1,19 +1,21 @@
 ---
 title: Azure Cloud Services 및 가상 머신에 대한 진단 설정 | Microsoft Docs
 description: Visual Studio에서 Azure Cloud Services 및 VM(가상 머신) 디버깅을 위해 진단을 설정하는 방법을 설명합니다.
-author: ghogen
+author: mikejo5000
 manager: jillfra
 ms.assetid: e70cd7b4-6298-43aa-adea-6fd618414c26
 ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 06/28/2018
 ms.author: mikejo
-ms.openlocfilehash: 0dbeccece261a347a2de5218910eddca8b2d715c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.prod: visual-studio-dev14
+ms.technology: vs-azure
+ms.openlocfilehash: 45e0eca12ecde6c6ede2e290f109ef04ce2035ff
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62556422"
 ---
 # <a name="set-up-diagnostics-for-azure-cloud-services-and-virtual-machines"></a>Azure Cloud Services 및 Virtual Machines에 대한 진단 설정
 Azure 클라우드 서비스 또는 가상 머신 문제를 해결해야 하는 경우 Visual Studio를 사용하여 Azure Diagnostics를 보다 쉽게 설정할 수 있습니다. 진단은 클라우드 서비스를 실행하는 가상 머신 및 가상 머신 인스턴스에서 시스템 데이터와 로깅 데이터를 캡처합니다. 진단 데이터는 사용자가 선택한 저장소 계정으로 전송됩니다. Azure의 진단 로깅에 대한 자세한 내용은 [Azure App Service에서 웹앱에 대해 진단 로깅 사용](/azure/app-service/web-sites-enable-diagnostic-log)을 참조하세요.
@@ -154,6 +156,7 @@ Azure SDK 2.5를 사용 중이고 사용자 지정 데이터 원본을 지정하
    <DataSource name="CustomDataSource!*" />
 </WindowsEventLog>
 ```
+
 ### <a name="performance-counters"></a>성능 카운터
 성능 카운터 정보는 시스템 병목 지점을 찾고 시스템 및 애플리케이션 성능을 미세하게 조정하는 데 도움이 될 수 있습니다. 자세한 내용은 [Azure 애플리케이션에서 성능 카운터 만들기 및 사용](https://msdn.microsoft.com/library/azure/hh411542.aspx)을 참조하세요. 성능 카운터를 캡처하려면 **성능 카운터 전송 사용** 확인란을 선택합니다. 저장소 계정으로의 이벤트 로그 전송 간격을 늘리거나 줄이려면 변경 된 **전송 기간(분)** 값을 변경합니다. 추적하려는 성능 카운터에 대한 확인란을 선택 합니다.
 

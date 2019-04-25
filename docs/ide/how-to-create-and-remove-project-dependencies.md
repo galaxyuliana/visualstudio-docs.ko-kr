@@ -17,12 +17,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 476e72e50ac796412fbeef1c180a3340764fb121
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 14c31acc336818a8846d2ddf7981f64e045f68e8
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62824193"
 ---
 # <a name="how-to-create-and-remove-project-dependencies"></a>방법: 프로젝트 종속성 만들기 및 제거
 
@@ -47,18 +47,18 @@ ms.locfileid: "55907662"
 
 ## <a name="to-remove-dependencies-from-projects"></a>프로젝트에서 종속성을 제거하려면
 
-1.  **솔루션 탐색기**에서 프로젝트를 선택합니다.
+1. **솔루션 탐색기**에서 프로젝트를 선택합니다.
 
-2.  **프로젝트** 메뉴에서 **프로젝트 종속성**을 선택합니다.
+2. **프로젝트** 메뉴에서 **프로젝트 종속성**을 선택합니다.
 
      **프로젝트 종속성** 대화 상자가 열립니다.
 
     > [!NOTE]
     > **프로젝트 종속성** 옵션은 프로젝트가 두 개 이상 포함된 솔루션에서만 사용할 수 있습니다.
 
-3.  **종속성** 탭의 **프로젝트** 드롭다운 메뉴에서 프로젝트를 선택합니다.
+3. **종속성** 탭의 **프로젝트** 드롭다운 메뉴에서 프로젝트를 선택합니다.
 
-4.  **다음에 종속** 필드에서 더 이상 이 프로젝트의 종속성이 아닌 모든 다른 프로젝트 옆의 확인란을 선택 취소합니다.
+4. **다음에 종속** 필드에서 더 이상 이 프로젝트의 종속성이 아닌 모든 다른 프로젝트 옆의 확인란을 선택 취소합니다.
 
 ## <a name="see-also"></a>참고 항목
 

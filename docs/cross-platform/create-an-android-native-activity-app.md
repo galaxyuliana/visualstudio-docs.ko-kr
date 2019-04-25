@@ -12,12 +12,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: fbe0942226e44e5ca2908f7c13f34595bef34887
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: ac2f040addb4c387afe0b325fe53b6a9c289f33a
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58069699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62819625"
 ---
 # <a name="create-an-android-native-activity-app"></a>Android Native Activity 앱 만들기
 
@@ -25,7 +25,7 @@ ms.locfileid: "58069699"
 
 ## <a name="requirements"></a>요구 사항
 
-Android Native Activity 앱을 만들기 전에 모든 시스템 요구 사항을 충족하고 Visual Studio 2015의 Visual C++ 모바일 개발 옵션을 설치했는지 확인해야 합니다. 자세한 내용은 [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. 필요한 타사 도구 및 SDK가 설치에 포함되어 있고 Android용 Microsoft Visual Studio 에뮬레이터가 설치되어 있는지 확인합니다.
+Android Native Activity 앱을 만들기 전에 모든 시스템 요구 사항을 충족하고 Visual Studio 2015의 Visual C++ 모바일 개발 옵션을 설치했는지 확인해야 합니다. 자세한 내용은 [플랫폼 간 모바일 개발용 Visual C++ 설치](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)를 참조하세요. 필요한 타사 도구 및 SDK가 설치에 포함되어 있고 Android용 Microsoft Visual Studio 에뮬레이터가 설치되어 있는지 확인합니다.
 
 ## <a name="create-a-new-native-activity-project"></a>새 Native Activity 프로젝트 만들기
 
@@ -45,9 +45,9 @@ Android Native Activity 앱을 만들기 전에 모든 시스템 요구 사항�
 
    새 Android Native Activity 앱 솔루션에는 다음 두 프로젝트가 포함되어 있습니다.
 
--   `MyAndroidApp.NativeActivity`에는 앱을 Android에서 Native Activity로 실행하기 위한 참조 및 글루 코드가 포함되어 있습니다. 글루 코드의 진입점 구현은 *main.cpp*에 있습니다. 미리 컴파일된 헤더는 *pch.h*에 있습니다. 이 Native Activity 앱 프로젝트는 공유 라이브러리 *.so* 파일로 컴파일되며 패키징 프로젝트에서 이 라이브러리를 선택합니다.
+- `MyAndroidApp.NativeActivity`에는 앱을 Android에서 Native Activity로 실행하기 위한 참조 및 글루 코드가 포함되어 있습니다. 글루 코드의 진입점 구현은 *main.cpp*에 있습니다. 미리 컴파일된 헤더는 *pch.h*에 있습니다. 이 Native Activity 앱 프로젝트는 공유 라이브러리 *.so* 파일로 컴파일되며 패키징 프로젝트에서 이 라이브러리를 선택합니다.
 
--   `MyAndroidApp.Packaging`은 Android 디바이스 또는 에뮬레이터에서 배포하기 위한 *.apk* 파일을 만듭니다. 이 프로젝트에는 리소스와 매니페스트 속성을 설정하는 *AndroidManifest.xml* 파일이 포함되어 있습니다. Ant 빌드 프로세스를 제어하는 *build.xml* 파일도 포함되어 있습니다. 이 프로젝트는 기본적으로 시작 프로젝트로 설정되므로 Visual Studio에서 직접 배포 및 실행할 수 있습니다.
+- `MyAndroidApp.Packaging`은 Android 디바이스 또는 에뮬레이터에서 배포하기 위한 *.apk* 파일을 만듭니다. 이 프로젝트에는 리소스와 매니페스트 속성을 설정하는 *AndroidManifest.xml* 파일이 포함되어 있습니다. Ant 빌드 프로세스를 제어하는 *build.xml* 파일도 포함되어 있습니다. 이 프로젝트는 기본적으로 시작 프로젝트로 설정되므로 Visual Studio에서 직접 배포 및 실행할 수 있습니다.
 
 ## <a name="build-and-run-the-default-android-native-activity-app"></a>기본 Android Native Activity 앱 빌드 및 실행
 
@@ -55,21 +55,21 @@ Android Native Activity 앱을 만들기 전에 모든 시스템 요구 사항�
 
 ## <a name="to-build-and-run-the-default-native-activity-app"></a>기본 NativeActivity 앱을 빌드하고 실행하려면
 
-1.  아직 선택하지 않은 경우 **솔루션 플랫폼** 드롭다운 목록에서 **x86** 을 선택합니다.
+1. 아직 선택하지 않은 경우 **솔루션 플랫폼** 드롭다운 목록에서 **x86** 을 선택합니다.
 
      ![솔루션 플랫폼 드롭다운 x86 선택](../cross-platform/media/cppmdd_rc_na_solution_x86.png "CPPMDD_RC_NA_Solution_x86")
 
      **솔루션 플랫폼** 목록이 표시되지 않으면 **단추 추가/제거** 목록에서 **솔루션 플랫폼**을 선택한 후 플랫폼을 선택합니다.
 
-2.  메뉴 모음에서 **빌드** > **솔루션 빌드**를 선택합니다.
+2. 메뉴 모음에서 **빌드** > **솔루션 빌드**를 선택합니다.
 
      출력 창에 솔루션의 두 프로젝트에 대한 빌드 프로세스 출력이 표시됩니다.
 
-3.  배포 대상으로 VS 에뮬레이터 Android Phone(x86) 프로필 중 하나를 선택합니다.
+3. 배포 대상으로 VS 에뮬레이터 Android Phone(x86) 프로필 중 하나를 선택합니다.
 
      다른 에뮬레이터를 설치했거나 Android 디바이스를 연결한 경우 배포 대상 드롭다운 목록에서 선택할 수 있습니다.
 
-4.  **F5** 키를 눌러 디버깅을 시작하거나 Shift+F5를 눌러 디버깅하지 않고 시작합니다.
+4. **F5** 키를 눌러 디버깅을 시작하거나 Shift+F5를 눌러 디버깅하지 않고 시작합니다.
 
      다음은 Visual Studio Emulator for Android에서 기본 앱이 나타나는 모양입니다.
 
@@ -77,6 +77,6 @@ Android Native Activity 앱을 만들기 전에 모든 시스템 요구 사항�
 
      에뮬레이터가 시작됩니다. 코드를 로드하고 배포하는 데 몇 초 정도 걸릴 수 있습니다. 앱이 시작되면 중단점을 설정하고 디버거를 사용하여 코드를 단계별로 실행하고 지역을 검토하고 값을 조사할 수 있습니다.
 
-5.  **Shift**+**F5**를 눌러 디버깅을 중지합니다.
+5. **Shift**+**F5**를 눌러 디버깅을 중지합니다.
 
      에뮬레이터는 별도의 프로세스로 계속 실행됩니다. 코드를 편집 및 컴파일하여 동일한 에뮬레이터에 여러 번 배포할 수 있습니다.

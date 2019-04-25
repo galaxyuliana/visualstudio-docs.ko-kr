@@ -19,12 +19,12 @@ caps.latest.revision: 108
 author: kraigb
 ms.author: kraigb
 manager: jillfra
-ms.openlocfilehash: bdb3973502d57ef326d0e13b1ddc43d0e9c89c87
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 0554302f408547ea08c886bc3b458efdf7ddd412
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654700"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60046602"
 ---
 # <a name="porting-migrating-and-upgrading-visual-studio-projects"></a>Porting, Migrating, and Upgrading Visual Studio Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ Visual Studio에 대한 최신 설명서는 [프로젝트 마이그레이션 및
 
  [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] 을 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)],[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 또는 Visual Studio 2010 SP1과 함께 사용할 경우 모든 버전에서 프로젝트와 파일을 만들고 수정할 수 있습니다. 특정 버전에서 지원되지 않는 기능을 추가하지 않는 한 버전 간에 프로젝트와 파일을 이동할 수 있습니다.
 
-##  <a name="project"></a> 프로젝트
+## <a name="project"></a> 프로젝트
  다음 목록에서는 [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] 또는 Visual Studio 2010 SP1에서 만든 프로젝트에 대한 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 및 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 의 지원에 대해 설명합니다. 이 목록을 참고하여 [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)], [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 또는 Visual Studio 2010 SP1에서 프로젝트를 “현재 상태 그대로” 열 수 있는지 또는 호환성을 유지하도록 프로젝트를 수정해야 할지 결정할 수 있습니다.
 
 |프로젝트 형식|호환성|
@@ -66,7 +66,7 @@ Visual Studio에 대한 최신 설명서는 [프로젝트 마이그레이션 및
 |SketchFlow|Visual Studio에서 WPF 4.5/Silverlight 5로 프로젝트를 업그레이드하도록 허용하면 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 및 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]에서 프로젝트를 열 수 있습니다.|
 |[!INCLUDE[ssKatmai_exp](../includes/sskatmai-exp-md.md)] 데이터베이스|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 프로젝트를 열 수 있습니다. 이전 버전의 SQL Server에서 만든 데이터베이스 파일(.mdf)이 있을 경우 SQL Server Express LocalDB에서 이 데이터베이스 파일을 사용하려면 먼저 [!INCLUDE[sql_Denali_long](../includes/sql-denali-long-md.md)] 로 업그레이드해야 합니다. 하지만 데이터베이스가 더 이상 이전 버전의 SQL Server와 호환되지 않습니다. 업그레이드하지 않으면 같은 컴퓨터에 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 를 설치 및 사용하여 [!INCLUDE[ssKatmai_exp](../includes/sskatmai-exp-md.md)] 의 데이터베이스를 계속 사용할 수 있습니다. 자세한 내용은 [.mdf 파일 업그레이드](../data-tools/upgrade-dot-mdf-files.md)를 참조하세요.|
 |[!INCLUDE[sskatmai_r2](../includes/sskatmai-r2-md.md)] Express|[!INCLUDE[sskatmai_r2](../includes/sskatmai-r2-md.md)] , [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]또는 Visual Studio 2010 SP1을 실행하는 컴퓨터에 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]Express가 설치되어 있으면 세 버전 모두에서 프로젝트를 열 수 있습니다.|
-|SQL Server 보고서 프로젝트|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 및 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 프로젝트를 열 수 있습니다. 로컬 모드에서만(즉, SQL Server에 연결되어 있지 않은 경우) [!INCLUDE[vs2010](../includes/vs2010-md.md)]의 뷰어와 연결된 컨트롤에 대해 디자인 타임 환경을 가져올 수 없습니다. 하지만 프로젝트는 런타임에 올바르게 작동합니다. **주의:** [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 특정 기능을 추가할 경우 보고서 스키마가 자동으로 업그레이드되며 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 더 이상 프로젝트를 열 수 없습니다.|
+|SQL Server 보고서 프로젝트|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 및 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 프로젝트를 열 수 있습니다. 로컬 모드에서만(즉, SQL Server에 연결되어 있지 않은 경우) [!INCLUDE[vs2010](../includes/vs2010-md.md)]의 뷰어와 연결된 컨트롤에 대해 디자인 타임 환경을 가져올 수 없습니다. 하지만 프로젝트는 런타임에 올바르게 작동합니다. **주의:**  [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 특정 기능을 추가할 경우 보고서 스키마가 자동으로 업그레이드되며 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 더 이상 프로젝트를 열 수 없습니다.|
 |단위 테스트|[!INCLUDE[TCMext](../includes/tcmext-md.md)] , [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]및 Visual Studio 2010 SP1에서 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]를 사용하여 이러한 버전에서 만든 테스트를 열 수 있습니다.|
 |Visual C++|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 을 사용하여 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 또는 Visual Studio 2010 SP1에서 만든 C++ 프로젝트를 열 수 있습니다. [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 빌드 환경을 사용하여 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 만든 프로젝트를 빌드하려면 같은 컴퓨터에 두 버전의 Visual Studio가 모두 설치되어 있어야 합니다. 자세한 내용은 [방법: Visual C++ 프로젝트를 Visual Studio 2015로 업그레이드](../porting/how-to-upgrade-visual-cpp-projects-to-visual-studio-2015.md) 및 [Visual C++ 포팅 및 업그레이드 가이드](http://msdn.microsoft.com/library/f5fbcc3d-aa72-41a6-ad9a-a706af2166fb)를 참조하세요.|
 |Visual Studio 2010 웹|Visual Studio에서 프로젝트를 자동으로 업그레이드하도록 허용하면 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 프로젝트를 열 수 있습니다.|
@@ -74,7 +74,7 @@ Visual Studio에 대한 최신 설명서는 [프로젝트 마이그레이션 및
 |Visual Studio 2010 Visual Database Tools|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 이 프로젝트를 열 수 있습니다.|
 |Visual Studio Lab Management|[!INCLUDE[TCMext](../includes/tcmext-md.md)], [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1을 사용하여 이러한 버전에서 만든 환경을 열 수 있습니다. 그러나 환경을 만들기 전에 Microsoft Test Manager 버전이 Team Foundation Server 버전과 일치해야 합니다.|
 |Visual Studio 매크로|이 프로젝트는 해당 프로젝트 형식을 지원하지 않으므로 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 에서 열 수 없습니다.|
-|Visual Studio SDK/VSIX|Visual Studio SDK 프로젝트를 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]으로 업그레이드 한 후에는 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 열 수 없습니다. 자세한 내용은 [방법: 확장성 프로젝트를 Visual Studio 2015로 마이그레이션](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md) 페이지를 참조하세요.|
+|Visual Studio SDK/VSIX|Visual Studio SDK 프로젝트를 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]으로 업그레이드 한 후에는 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 열 수 없습니다. 자세한 내용은 [방법: Visual Studio 2015로 확장성 프로젝트 마이그레이션](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md)을 참조하세요.|
 |Visual Studio용 Microsoft Azure 도구|Visual Studio용 Microsoft Azure 도구 버전 2.1을 사용하는 경우 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 프로젝트를 열 수 있습니다. 프로젝트 대상이 이전 버전일 경우 Visual Studio에서 프로젝트를 버전 2.1로 업그레이드하도록 허용하면 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 프로젝트를 열 수 있습니다.|
 |Windows Communication Foundation, Windows Presentation Foundation|[!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)], [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]및 Visual Studio 2010 SP1에서 이 프로젝트를 열 수 있습니다.|
 |Windows Mobile|이 프로젝트는 해당 프로젝트 형식을 지원하지 않으므로 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 에서 열 수 없습니다.|
@@ -89,7 +89,7 @@ Visual Studio에 대한 최신 설명서는 [프로젝트 마이그레이션 및
 
 - [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] 또는 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 에서 지원하지 않는 프로젝트나 연결된 Visual Studio 버전이 설치되지 않은 프로젝트를 열려고 하면 프로젝트 형식이 지원되지 않는다는 메시지가 표시되고 **지원되지 않는 프로젝트** 아래 **프로젝트 및 솔루션 변경 내용 검토**대화 상자에 프로젝트 형식이 나열될 수 있습니다. 이 문제를 해결하려면 Windows **제어판**에서 프로그램 및 기능 페이지를 열고 **Visual Studio**를 선택한 다음 **변경**, **복구**를 차례로 선택합니다. 그러면 누락된 버전을 설치할 수 있습니다.
 
-- [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]에서 데스크톱 응용 프로그램에 대한 프로젝트를 열려고 하면 오류가 발생하고 "이 버전의 Visual Studio에서는 [!INCLUDE[win81](../includes/win81-md.md)] 앱만 지원합니다." 또는 "이 프로젝트는 현재 버전의 Visual Studio와 호환되지 않습니다."와 같은 메시지 중 하나가 표시됩니다. [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]는 Windows 8.1용으로 설계된 Windows 스토어 앱을 개발하고 테스팅하며 배포하는 것으로 제한됩니다. 데스크톱 응용 프로그램 프로젝트를 열려면 해당 프로젝트 형식을 지원하는 Visual Studio의 버전을 사용해야 합니다.
+- [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]에서 데스크톱 앱의 프로젝트를 열려고 하면 오류가 발생하고 다음 메시지 중 하나가 표시됩니다. "이 버전의 Visual Studio는 [!INCLUDE[win81](../includes/win81-md.md)] 앱만 지원합니다." 또는 "이 프로젝트는 현재 버전의 Visual Studio와 호환되지 않습니다." [!INCLUDE[vs_dev12_expwin](../includes/vs-dev12-expwin-md.md)]는 Windows 8.1용으로 설계된 Windows 스토어 앱을 개발하고 테스팅하며 배포하는 것으로 제한됩니다. 데스크톱 응용 프로그램 프로젝트를 열려면 해당 프로젝트 형식을 지원하는 Visual Studio의 버전을 사용해야 합니다.
 
    Visual Studio 버전에 대한 자세한 내용은 [Microsoft Visual Studio 제품](https://visualstudio.microsoft.com/products/)을 참조하세요.
 
@@ -101,7 +101,7 @@ Visual Studio에 대한 최신 설명서는 [프로젝트 마이그레이션 및
 
   추가 문제 해결 방법을 보려면 [Visual Studio 2013 호환성](http://support.microsoft.com/kb/2863286) KB 문서를 참조하세요.
 
-##  <a name="file"></a> 파일
+## <a name="file"></a> 파일
  다음 목록은 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 에서 각 파일 형식을 지원하는지 여부, [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 및 Visual Studio 2010 SP1에서 파일을 열 수 있는지 여부 및 호환성을 유지하기 위해 수정해야 하는지 여부를 보여줍니다.
 
 |파일 형식|호환성|
@@ -121,7 +121,7 @@ Visual Studio에 대한 최신 설명서는 [프로젝트 마이그레이션 및
 |[!INCLUDE[vs2010](../includes/vs2010-md.md)]의 IntelliTrace 로그 파일|[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]및 Visual Studio 2010 SP1에서 이러한 파일을 열 수 있습니다.|
 |JavaScript 메모리 분석기(.diagsession) 파일|이전 버전의 Visual Studio로 만든 파일은 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]에서 볼 수 있습니다. 그러나 수집한 정보에 따라 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 에서 만든 파일이 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 또는 Visual Studio 2010 SP1에서 열리지 않을 수 있습니다.|
 
-##  <a name="integration"></a> 통합 자산
+## <a name="integration"></a> 통합 자산
  여러 버전의 Visual Studio Team Foundation Server의 클라이언트와 서버를 사용하는 경우 호환성 문제가 발생할 수 있습니다.
 
 |통합의 종류|호환성|

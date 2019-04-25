@@ -10,12 +10,12 @@ ms.assetid: 8e03bee5-ab7b-4b40-9497-9dbe91ccb90e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bb5227c4b5f771747a43a7f0f12e0125b125604e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: e19e1cb4f9b49c40923d96b177ceb4d6c31b746f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55943378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62783346"
 ---
 # <a name="edit-think-times-to-simulate-website-human-interaction-delays-in-load-tests-scenarios"></a>부하 테스트 시나리오에서 인지 시간을 편집하여 웹 사이트 사용자 상호 작용 지연 시뮬레이트
 
@@ -48,13 +48,13 @@ ms.locfileid: "55943378"
 
 ### <a name="to-change-a-think-profile-in-a-load-test-scenario"></a>부하 테스트 시나리오에서 인지 시간 프로필을 변경하려면
 
-1.  웹 성능 및 부하 테스트 프로젝트에서 부하 테스트를 엽니다.
+1. 웹 성능 및 부하 테스트 프로젝트에서 부하 테스트를 엽니다.
 
-2.  **부하 테스트 편집기**에서 **인지 시간 프로필**을 변경하려는 시나리오 노드를 선택합니다. **속성** 창에 **인지 시간 프로필**이 표시됩니다. **F4** 키를 눌러 **속성** 창을 표시합니다.
+2. **부하 테스트 편집기**에서 **인지 시간 프로필**을 변경하려는 시나리오 노드를 선택합니다. **속성** 창에 **인지 시간 프로필**이 표시됩니다. **F4** 키를 눌러 **속성** 창을 표시합니다.
 
-3.  **속성** 창에서 **인지 시간 프로필** 속성을 변경합니다.
+3. **속성** 창에서 **인지 시간 프로필** 속성을 변경합니다.
 
-4.  속성 변경을 마친 다음, **파일** 메뉴에서 **저장**을 선택합니다. 그러면 새 인지 시간 프로필로 부하 테스트를 실행할 수 있습니다.
+4. 속성 변경을 마친 다음, **파일** 메뉴에서 **저장**을 선택합니다. 그러면 새 인지 시간 프로필로 부하 테스트를 실행할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

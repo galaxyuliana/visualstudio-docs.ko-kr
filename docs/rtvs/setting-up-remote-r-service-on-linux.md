@@ -9,12 +9,12 @@ ms.reviewer: karthiknadig
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 3fd7f8be7b2de02fb89c9eec3ea7859241beb0f2
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c4d65388db0ef90f807ec85b8c9216d717c2b571
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55945822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62809559"
 ---
 # <a name="remote-r-service-for-linux"></a>Linux용 원격 R 서비스
 
@@ -166,5 +166,6 @@ Linux용 원격 R 서비스는 현재 rtvs-daemon으로 패키지됩니다. Ubun
     ```bash
     az container create --image myimage:latest --name myaz-container --resource-group myaz-container-res --ip-address public --port 5444 --cpu 2 --memory 4 --command-line "rtvsd"
     ```
+
 1. `az container list` 명령을 사용하여 상태를 확인합니다. `provisioningState`: `Succeeded`를 찾습니다.
 1. 프로비전에 성공하는 경우 이제 컨테이너에 연결할 수 있습니다. `ipAddress` 필드에서 공용 IP 주소를 찾습니다. 여기서는 Docker 파일의 자격 증명을 사용하여 RTVS의 컨테이너에 연결합니다.

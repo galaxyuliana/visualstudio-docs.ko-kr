@@ -4,17 +4,19 @@ description: 서비스 구성 및 프로필 구성 파일로 작업하는 방법
 author: ghogen
 manager: jillfra
 assetId: 7da8c551-fb06-4057-b5c7-c77f4b39d803
+ms.prod: visual-studio-dev14
+ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/11/2017
 ms.author: ghogen
 ms.openlocfilehash: 353b98ae0ab186a4ff665566a8f3b7600db66274
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62569035"
 ---
 # <a name="how-to-manage-service-configurations-and-profiles"></a>서비스 구성 및 프로필을 관리하는 방법
 ## <a name="overview"></a>개요
@@ -31,28 +33,28 @@ ms.locfileid: "55919354"
 
 ### <a name="to-add-a-service-configuration"></a>서비스 구성을 추가하려면
 1. 솔루션 탐색기에서 Azure 프로젝트에 대한 바로 가기 메뉴를 열고 **구성 관리**를 선택합니다.
-
+   
     **서비스 구성 관리** 대화 상자가 나타납니다.
 2. 서비스 구성을 추가하려면, 기존 구성의 복사본을 만들어야 합니다. 이렇게 하려면 이름 목록에서 복사할 구성을 선택한 다음 **복사본 만들기**를 선택합니다.
 3. (선택 사항)서비스 구성에 다른 이름을 지정하려면 이름 목록에서 새 서비스 구성을 선택한 다음 **이름 바꾸기**를 선택합니다. **이름** 텍스트 상자에 이 서비스 구성에 사용할 이름을 입력한 다음 **확인**을 선택합니다.
-
+   
     솔루션 탐색기에서 ServiceConfiguration.[새 이름].cscfg라는 새 서비스 구성 파일이 Azure 프로젝트에 추가됩니다.
 
 ### <a name="to-delete-a-service-configuration"></a>서비스 구성을 삭제하려면
 1. 솔루션 탐색기에서 Azure 프로젝트에 대한 바로 가기 메뉴를 열고 **구성 관리**를 선택합니다.
-
+   
     **서비스 구성 관리** 대화 상자가 나타납니다.
 2. 서비스 구성을 삭제하려면 **이름** 목록에서 삭제할 구성을 선택한 다음 **제거**를 선택합니다. 이 구성을 삭제할 것인지를 확인하는 대화 상자가 나타납니다.
 3. **삭제**를 선택합니다.
-
+   
      솔루션 탐색기에서 서비스 구성 파일은 Azure 프로젝트에서 제거됩니다.
 
 ### <a name="to-rename-a-service-configuration"></a>서비스 구성의 이름을 변경하려면
 1. 솔루션 탐색기에서 Azure 프로젝트에 대한 바로 가기 메뉴를 열고 **구성 관리**를 선택합니다.
-
+   
     **서비스 구성 관리** 대화 상자가 나타납니다.
 2. 서비스 구성의 이름을 변경하려면 **이름** 목록에서 새 서비스 구성을 선택한 다음 **이름 바꾸기**를 선택합니다. **이름** 텍스트 상자에 이 서비스 구성에 사용할 이름을 입력한 다음 **확인**을 선택합니다.
-
+   
     솔루션 탐색기의 Azure 프로젝트에서 서비스 구성 파일의 이름이 변경됩니다.
 
 ### <a name="to-change-a-service-configuration"></a>서비스 구성을 변경하려면
@@ -66,16 +68,16 @@ ms.locfileid: "55919354"
 ### <a name="to-add-a-profile"></a>프로필을 추가하려면
 1. Azure 프로젝트의 바로 가기 메뉴를 열고 **게시**를 클릭합니다.
 2. 다음 그림과 같이 **대상 프로필** 목록 옆 **프로필 저장** 단추를 선택합니다. 이렇게 하면 프로필이 만들어 집니다.
-
+   
     ![새 프로필 만들기](./media/vs-azure-tools-service-configurations-and-profiles-how-to-manage/create-new-profile.png)
 3. 프로필을 만든 후 **대상 프로필** 목록에서 **<관리...>** 를 선택합니다.
-
+   
     다음 그림과 같이 **프로필 관리** 대화 상자가 나타납니다.
-
+   
     ![프로필 관리 대화 상자](./media/vs-azure-tools-service-configurations-and-profiles-how-to-manage/manage-profiles.png)
 4. **이름** 목록에서 프로필을 선택한 다음 **복사본 만들기**를 선택합니다.
 5. **닫기** 단추를 선택합니다.
-
+   
     새 프로필이 대상 프로필 목록에 나타납니다.
 6. **대상 프로필** 목록에서 방금 만든 프로필을 선택합니다. 게시 마법사 설정은 선택한 프로필의 선택 항목으로 채워집니다.
 7. **이전** 및 **다음** 단추를 선택하여 게시 마법사의 각 페이지를 표시한 다음 이 프로필에 대한 설정을 사용자 지정합니다. 자세한 내용은 [Azure 애플리케이션 게시 마법사](http://go.microsoft.com/fwlink/p/?LinkID=623085)를 참조하세요.

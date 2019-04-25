@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5bebc8581ead00eeb6b28c2c45f4dcfe991a9e1a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3dfaa1fb344f11817cc67a074580c726f3d23036
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62429189"
 ---
 # <a name="test-a-large-application-with-multiple-ui-maps"></a>여러 UI 맵이 포함된 대형 애플리케이션 테스트
 
@@ -42,9 +42,9 @@ UI 맵 파일을 여러 개 사용하면 다음과 같은 이점을 얻을 수 �
 ## <a name="do-you-need-multiple-ui-maps"></a>여러 UI 맵이 필요하나요?
  각각 다음과 같은 유형의 상황에서 UI 맵을 여러 개 만드세요.
 
--   여러 복합 UI 컨트롤의 복잡한 집합이 함께 논리 연산을 수행(예: 웹 사이트의 등록 페이지 또는 쇼핑 카트의 구매 페이지)
+- 여러 복합 UI 컨트롤의 복잡한 집합이 함께 논리 연산을 수행(예: 웹 사이트의 등록 페이지 또는 쇼핑 카트의 구매 페이지)
 
--   애플리케이션의 다양한 지점에서 액세스되는 독립 컨트롤 집합(예: 여러 작업 페이지가 있는 마법사) 마법사의 각 페이지가 특히 더 복잡한 경우 각 페이지에 대한 개별 UI 맵을 만들 수 있습니다.
+- 애플리케이션의 다양한 지점에서 액세스되는 독립 컨트롤 집합(예: 여러 작업 페이지가 있는 마법사) 마법사의 각 페이지가 특히 더 복잡한 경우 각 페이지에 대한 개별 UI 맵을 만들 수 있습니다.
 
 ## <a name="add-multiple-ui-maps"></a>여러 UI 맵 추가
 
@@ -79,7 +79,7 @@ UI 맵 파일을 여러 개 사용하면 다음과 같은 이점을 얻을 수 �
 
    이러한 영향을 최소화하려면 `CopyFrom()` 메서드를 사용하여 해당 UI 맵의 새 최상위 창이 주 최상위 창과 동일한지 확인할 수 있습니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 예제는 다양한 UI 맵에서 생성된 클래스로 표현되는 각 구성 요소 및 해당 자식 컨트롤에 액세스할 수 있는 유틸리티 클래스의 일부입니다.
 

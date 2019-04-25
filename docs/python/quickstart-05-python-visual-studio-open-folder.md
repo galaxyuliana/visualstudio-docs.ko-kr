@@ -12,11 +12,11 @@ ms.workload:
 - data-science
 monikerRange: '>= vs-2019'
 ms.openlocfilehash: ab234d9482cf9cbab49c15167ea45aff9ac2c7e6
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62431160"
 ---
 # <a name="quickstart-open-and-run-python-code-in-a-folder"></a>빠른 시작: 폴더에서 Python 코드 열기 및 실행
 
@@ -111,6 +111,6 @@ ms.locfileid: "59366122"
 
 ## <a name="see-also"></a>참고 항목
 
-- [빠른 시작: 기존 코드에서 Python 프로젝트를 만들기](quickstart-01-python-in-visual-studio-project-from-existing-code.md)
+- [빠른 시작: 기존 코드에서 Python 프로젝트 만들기](quickstart-01-python-in-visual-studio-project-from-existing-code.md)
 - [빠른 시작: 리포지토리에서 Python 프로젝트를 만들기](quickstart-03-python-in-visual-studio-project-from-repository.md)
 - [기존 Python 인터프리터 수동 식별](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)

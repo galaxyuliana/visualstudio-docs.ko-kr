@@ -12,11 +12,11 @@ ms.author: mikejo
 manager: jillfra
 monikerRange: '>= vs-2019'
 ms.openlocfilehash: 3000510c6bb6079629a3df05909417593569c932
-ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59232264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62553257"
 ---
 # <a name="javascript-and-typescript-in-visual-studio-2019"></a>Visual Studio 2019의 JavaScript 및 TypeScript
 
@@ -24,7 +24,7 @@ ms.locfileid: "59232264"
 
 Visual Studio 2019는 JavaScript를 직접 사용할 뿐 아니라 특히 대규모로 프로젝트를 개발하는 경우 생산성과 효율성이 더 높은 JavaScript 개별 환경을 제공하도록 개발된 [TypeScript 프로그래밍 언어](http://www.typescriptlang.org)를 사용하는 JavaScript 개발을 위한 풍부한 지원을 제공합니다. Visual Studio에서 다양한 애플리케이션 형식 및 서비스의 JavaScript 또는 TypeScript 코드를 작성할 수 있습니다.
 
-## <a name="javascript-language-service"></a>JavaScript Language Service
+## <a name="javascript-language-service"></a>JavaScript 언어 서비스
 
 Visual Studio 2019의 JavaScript 환경은 TypeScript 지원을 제공하는 동일한 엔진으로 구동됩니다. 이 덕분에 향상된 기능 지원, 다양성 및 통합 기능을 즉시 사용할 수 있습니다.
 

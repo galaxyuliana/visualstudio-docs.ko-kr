@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 67aba8d93514618fc09abe933cfd28023136a4d6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62790917"
 ---
 # <a name="build-devenvexe"></a>/Build (devenv.exe)
 
@@ -65,7 +65,7 @@ devenv SolutionName /Build [SolnConfigName [/Project ProjName [/ProjectConfig Pr
 
 - **잘못된 프로젝트 구성**이라는 오류 메시지가 표시되면 솔루션 플랫폼 또는 프로젝트 플랫폼(예: `Debug|Win32`)을 지정했는지 확인합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 명령은 `MySolution` 내에 있는 `Debug` 프로젝트 빌드 구성을 사용하여 `CSharpWinApp` 프로젝트를 빌드합니다.
 

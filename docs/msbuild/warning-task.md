@@ -18,19 +18,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 729f09f680969cb6a6653109f57d382cd7238557
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: afbf7dd2f8ae42cd21ee7c9d006d9f503d2d3bf9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62779093"
 ---
 # <a name="warning-task"></a>Warning 작업
 평가된 조건부 문에 따라 빌드 중에 경고를 로깅합니다.
 
 ## <a name="parameters"></a>매개 변수
  다음 표에서는 `Warning` 작업의 매개 변수에 대해 설명합니다.
-
 
 | 매개 변수 | 설명 |
 |---------------| - |
