@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c194531c5436549efa06ca93e987e55739276926
-ms.sourcegitcommit: d78821f8c353e0102b1554719f549f32dffac71b
+ms.openlocfilehash: e476876234c31009d219af30fbe3c9d1e55f3d96
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "58515209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443599"
 ---
 # <a name="msbuild-properties"></a>MSBuild 속성
 빌드를 구성하는 데 사용될 수 있는 이름/값 쌍인 속성은 작업에 값을 전달하고, 조건을 평가하고, 프로젝트 파일 전체에서 참조할 값을 저장하는 데 유용합니다.
@@ -54,7 +54,7 @@ ms.locfileid: "58515209"
  생성된 도구 내에서 환경 변수의 현재 값을 가져오려면 [속성 함수](../msbuild/property-functions.md) System.Environment.GetEnvironmentVariable을 사용합니다. 그러나 작업 매개 변수 <xref:Microsoft.Build.Utilities.ToolTask.EnvironmentVariables%2A>를 사용하는 메서드가 좋습니다. 이 문자열 배열에 설정된 환경 속성은 시스템 환경 변수에 영향을 주지 않고 생성된 도구에 전달할 수 있습니다.
 
 > [!TIP]
->  모든 환경 변수가 읽어들여져 초기 속성이 되는 것은 아닙니다. "386"와 같은 유효한 MSBuild 속성 이름이 아닌 모든 환경 변수는 무시됩니다.
+> 모든 환경 변수가 읽어들여져 초기 속성이 되는 것은 아닙니다. "386"와 같은 유효한 MSBuild 속성 이름이 아닌 모든 환경 변수는 무시됩니다.
 
  자세한 내용은 [방법: 빌드 시 환경 변수 사용](../msbuild/how-to-use-environment-variables-in-a-build.md)을 참조하세요.
 
@@ -108,11 +108,11 @@ msbuild.exe MyProj.proj -p:Configuration=DEBUG
 ## <a name="create-properties-during-execution"></a>실행 중에 속성 만들기
  `Target` 요소 외부에 배치되는 속성의 경우 빌드의 평가 단계에서 값이 할당됩니다. 후속 실행 단계 중에 다음과 같이 속성을 만들거나 수정할 수 있습니다.
 
--   모든 작업에서 속성을 내보낼 수 있습니다. 속성을 내보내려면 [Task](../msbuild/task-element-msbuild.md) 요소에 `PropertyName` 특성이 포함된 자식 [Output](../msbuild/output-element-msbuild.md) 요소가 있어야 합니다.
+- 모든 작업에서 속성을 내보낼 수 있습니다. 속성을 내보내려면 [Task](../msbuild/task-element-msbuild.md) 요소에 `PropertyName` 특성이 포함된 자식 [Output](../msbuild/output-element-msbuild.md) 요소가 있어야 합니다.
 
--   [CreateProperty](../msbuild/createproperty-task.md) 작업에서 속성을 내보낼 수 있습니다. 이러한 사용법은 더 이상 사용되지 않습니다.
+- [CreateProperty](../msbuild/createproperty-task.md) 작업에서 속성을 내보낼 수 있습니다. 이러한 사용법은 더 이상 사용되지 않습니다.
 
--   .NET Framework 3.5부터는 `Target` 요소가 속성 선언이 들어 있을 수 있는 `PropertyGroup` 요소를 포함할 수 있습니다.
+- .NET Framework 3.5부터는 `Target` 요소가 속성 선언이 들어 있을 수 있는 `PropertyGroup` 요소를 포함할 수 있습니다.
 
 ## <a name="store-xml-in-properties"></a>속성에 XML 저장
  속성은 작업에 값을 전달하거나 로깅 정보를 표시하는 데 사용할 수 있는 임의의 XML을 포함할 수 있습니다. 다음 예제에서는 XML 및 기타 속성 참조를 포함하는 값이 있는 `ConfigTemplate` 속성을 보여 줍니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]는 개별 속성값을 사용하여 속성 참조를 바꿉니다. 속성값은 나타나는 순서대로 할당됩니다. 따라서 이 예제의 경우 `$(MySupportedVersion)`, `$(MyRequiredVersion)`, `$(MySafeMode)`가 이미 정의되어 있어야 합니다.

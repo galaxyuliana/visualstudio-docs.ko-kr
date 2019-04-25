@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - uwp
 ms.openlocfilehash: edb657779e8c404032d71061132816a2a30c83c9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62893456"
 ---
 # <a name="insert-controls-and-modify-their-behavior-in-xaml-designer"></a>XAML 디자이너 에서 컨트롤을 삽입하고 해당 동작을 수정
 

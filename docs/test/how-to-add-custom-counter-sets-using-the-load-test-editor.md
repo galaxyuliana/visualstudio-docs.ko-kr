@@ -10,12 +10,12 @@ ms.assetid: 499aca80-1069-408d-ac68-326da6a50645
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8390808a8174d0abb2dec96beddb473a4fbc0e0b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 40ce0d5d4c1988e40a7b7530b61fcfbaa1f7131d
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55932705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950291"
 ---
 # <a name="how-to-add-custom-counter-sets-using-the-load-test-editor"></a>방법: 부하 테스트 편집기를 사용하여 사용자 지정 카운터 집합 추가
 
@@ -32,16 +32,16 @@ ms.locfileid: "55932705"
 
 ## <a name="to-add-a-custom-counter-set-to-a-load-test"></a>부하 테스트에 사용자 지정 카운터 집합을 추가하려면
 
-1.  부하 테스트를 엽니다.
+1. 부하 테스트를 엽니다.
 
-2.  **카운터 집합** 노드를 확장합니다. 부하 테스트에 추가된 모든 카운터 집합을 볼 수 있습니다.
+2. **카운터 집합** 노드를 확장합니다. 부하 테스트에 추가된 모든 카운터 집합을 볼 수 있습니다.
 
-3.  **카운터 집합** 노드를 마우스 오른쪽 단추로 클릭하고 **사용자 지정 카운터 집합 추가**를 선택합니다.
+3. **카운터 집합** 노드를 마우스 오른쪽 단추로 클릭하고 **사용자 지정 카운터 집합 추가**를 선택합니다.
 
     > [!NOTE]
     > 카운터 집합에 **Custom1** 등의 기본 이름이 지정됩니다. **속성** 창을 사용하여 이 이름을 변경할 수 있습니다. **F4** 키를 눌러 **속성** 창을 표시합니다.
 
-4.  사용자 지정 카운터 집합에 카운터를 추가하려면 새 카운터 집합을 마우스 오른쪽 단추로 클릭하고 **카운터 추가**를 선택합니다. 카운터를 추가하는 방법에 대한 자세한 내용은 [방법: 카운터 집합에 카운터 추가](../test/how-to-add-counters-to-counter-sets-using-the-load-test-editor.md)를 참조하세요.
+4. 사용자 지정 카운터 집합에 카운터를 추가하려면 새 카운터 집합을 마우스 오른쪽 단추로 클릭하고 **카운터 추가**를 선택합니다. 카운터를 추가하는 방법에 대한 자세한 내용은 [방법: 카운터 집합에 카운터 추가](../test/how-to-add-counters-to-counter-sets-using-the-load-test-editor.md)를 참조하세요.
 
     > [!NOTE]
     > 기존 카운터 집합을 마우스 오른쪽 단추로 클릭하고 복사를 선택한 다음 카운터 집합 노드에 붙여 넣어 사용자 지정 카운터 집합을 추가할 수도 있습니다. 필요하지 않은 카운터가 추가로 복사된 경우 이를 삭제할 수 있습니다. **속성** 창을 사용하여 새 카운터 집합의 이름을 변경할 수 있습니다.

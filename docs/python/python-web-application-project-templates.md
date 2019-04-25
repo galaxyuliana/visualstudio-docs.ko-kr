@@ -11,11 +11,11 @@ ms.workload:
 - python
 - data-science
 ms.openlocfilehash: 952c4d9ab82275ff7b1550a3704e89b93c6260a3
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62954829"
 ---
 # <a name="python-web-application-project-templates"></a>Python 웹 애플리케이션 프로젝트 템플릿
 
@@ -98,7 +98,7 @@ Microsoft Azure Cloud Services는 *requirements.txt* 파일을 *지원합니다*
 - **환경**: 환경 변수를 지정하는 줄 바꿈 문자로 구분된 \<NAME>=\<VALUE> 쌍 목록입니다. 이러한 변수는 포트 번호 및 검색 경로 등 환경을 수정할 수 있는 모든 속성 뒤에 설정되므로 이러한 값을 덮어쓸 수 있습니다.
 
 MSBuild 구문으로 모든 프로젝트 속성 또는 환경 변수를 지정할 수 있습니다. 예를 들면 `$(StartupFile) --port $(SERVER_PORT)`입니다.
-`$(StartupFile)` 시작 파일에 대한 상대 경로이며 `{StartupModule}`은 시작 파일의 가져올 수 있는 이름입니다. `$(SERVER_HOST)` 및 `$(SERVER_PORT)`는 **시작 URL** 및 **포트 번호** 속성으로 자동으로 설정되거나 **환경** 속성으로 설정되는 일반 환경 변수입니다.
+`$(StartupFile)`은 시작 파일에 대한 상대 경로이며 `{StartupModule}`은 시작 파일의 가져올 수 있는 이름입니다. `$(SERVER_HOST)` 및 `$(SERVER_PORT)`는 **시작 URL** 및 **포트 번호** 속성으로 자동으로 설정되거나 **환경** 속성으로 설정되는 일반 환경 변수입니다.
 
 > [!Note]
 > **서버 실행 명령**의 값은 **디버그** > **서버 시작** 명령이나 **Ctrl**+**F5**에 사용되며 **서버 디버그 명령** 그룹의 값은 **디버그** > **서버 디버그 시작** 명령이나 **F5**에 사용됩니다.

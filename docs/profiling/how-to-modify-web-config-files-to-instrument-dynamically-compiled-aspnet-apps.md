@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: 925112de25a127d4664bb66d602ca137ad624f70
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 257d6142fd53914a15e8503121cab1215182ec04
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56616692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422932"
 ---
 # <a name="how-to-modify-webconfig-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications"></a>방법: 계측할 web.config 파일 수정 및 동적으로 컴파일된 ASP.NET 웹 애플리케이션 프로파일링
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 계측 방법을 사용하여 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션에서 세부 타이밍 데이터, .NET 메모리 할당 데이터 및 .NET 개체 수명 데이터를 수집할 수 있습니다.
@@ -21,7 +21,7 @@ ms.locfileid: "56616692"
  이 항목에서는 *web.config* 구성 파일을 수정하여 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션의 계측 및 프로파일링을 사용하도록 설정하는 방법을 설명합니다.
 
 > [!NOTE]
->  샘플링 프로파일링 방법을 사용할 경우 또는 미리 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 모듈을 계측하고자 할 경우 *web.config* 파일을 수정할 필요가 없습니다.
+> 샘플링 프로파일링 방법을 사용할 경우 또는 미리 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 모듈을 계측하고자 할 경우 *web.config* 파일을 수정할 필요가 없습니다.
 
  *web.config* 파일의 루트는 **configuration** 요소입니다. 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션을 계측 및 프로파일링하려면 다음 요소를 추가하거나 수정해야 합니다.
 
@@ -45,11 +45,9 @@ ms.locfileid: "56616692"
 
 3. 다음 특성 이름 및 값을 **assemblyBinding** 요소에 추가합니다.
 
-
    | 특성 이름 | 특성 값 |
    |----------------|--------------------------------------|
    | **Xmlns** | **urn:schemas-microsoft-com:asm.v1** |
-
 
 4. **dependentAssembly** 요소를 **assemblyBinding** 요소의 자식 요소로 추가합니다.
 
@@ -59,13 +57,11 @@ ms.locfileid: "56616692"
 
 6. 다음 특성 이름 및 값을 **assemblyIdentity** 요소에 추가합니다.
 
-
    | 특성 이름 | 특성 값 |
    |--------------------| - |
    | **name** | **Microsoft.VisualStudio.Enterprise.ASPNetHelper** |
    | **PublicKeyToken** | **b03f5f7f11d50a3a** |
    | **culture** | **Neutral** |
-
 
 7. **codeBase** 요소를 **dependentAssembly** 요소의 자식으로 추가합니다.
 
@@ -100,15 +96,15 @@ ms.locfileid: "56616692"
 
 ### <a name="to-add-the-profiler-post-process-step-to-the-configurationsystemwebcompilation-element"></a>프로파일러 사후 처리 단계를 configuration/system.web/compilation 요소에 추가하려면
 
-1.  필요한 경우 **system.web** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.
+1. 필요한 경우 **system.web** 요소를 **configuration** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.
 
      **system.web** 요소에는 특성이 없습니다. **configuration** 요소에는 하나의 **system.web** 자식 요소만 포함될 수 있습니다.
 
-2.  필요한 경우 **compilation** 요소를 **system.web** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.
+2. 필요한 경우 **compilation** 요소를 **system.web** 요소의 자식 요소로 추가하고, 그렇지 않으면 다음 단계로 이동합니다.
 
      **system.web** 요소에는 하나의 **compilation** 자식 요소만 포함될 수 있습니다.
 
-3.  **compilation** 요소에서 기존 특성을 제거하고 다음 특성 이름 및 값을 추가합니다.
+3. **compilation** 요소에서 기존 특성을 제거하고 다음 특성 이름 및 값을 추가합니다.
 
     |특성 이름|특성 값|
     |--------------------|---------------------|
@@ -140,12 +136,10 @@ ms.locfileid: "56616692"
 
 3. 다음 특성 이름 및 값을 **add** 요소에 추가합니다.
 
-
    | 특성 이름 | 특성 값 |
    |----------------| - |
    | **key** | **Microsoft.VisualStudio.Enterprise.AspNetHelper.VsInstrLocation** |
    | **value** | `PerformanceToolsFolder` **\VSInstr.Exe** |
-
 
 4. 또 다른 **add** 요소를 **appSettings** 요소의 자식으로 추가합니다.
 
@@ -157,7 +151,6 @@ ms.locfileid: "56616692"
    |**value**|`PerformanceToolsFolder`|
 
     `PerformanceToolsFolder`는 프로파일러 실행 파일의 경로입니다. 프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.
-
 
 ```xml
     <configuration>

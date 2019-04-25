@@ -9,12 +9,12 @@ ms.assetid: 17fcafce-76f9-4411-9389-6e5376eab236
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a03d16f74623d935e8f4f09b0f397672ad226487
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6df80340f57ba40597af67d57ba1bda3da778f4b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55932410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62949957"
 ---
 # <a name="how-to-create-custom-graphs-in-load-test-results"></a>방법: 부하 테스트 결과에서 사용자 지정 그래프 만들기
 
@@ -26,7 +26,7 @@ ms.locfileid: "55932410"
 
 ## <a name="to-create-a-custom-load-test-results-graph"></a>사용자 지정 부하 테스트 결과 그래프를 만들려면
 
-1.  **부하 테스트** 도구 모음에서 **새 그래프 추가**를 선택합니다.
+1. **부하 테스트** 도구 모음에서 **새 그래프 추가**를 선택합니다.
 
      \- 또는 -
 
@@ -34,11 +34,11 @@ ms.locfileid: "55932410"
 
      **그래프 이름 입력** 대화 상자가 표시됩니다.
 
-2.  **그래프 이름**에 그래프의 이름을 입력하고 **확인**을 선택합니다.
+2. **그래프 이름**에 그래프의 이름을 입력하고 **확인**을 선택합니다.
 
      새 그래프가 **부하 테스트 분석기**에 표시됩니다. 새 그래프는 현재 선택된 그래프 패널에 나타나며 이전에 해당 패널에 표시되었던 그래프를 대체합니다.
 
-3.  카운터를 추가하여 새 그래프를 사용자 지정합니다. 자세한 내용은 [방법: 그래프에서 카운터 추가 및 삭제](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)를 참조하세요.
+3. 카운터를 추가하여 새 그래프를 사용자 지정합니다. 자세한 내용은 [방법: 그래프에서 카운터 추가 및 삭제](../test/how-to-add-and-delete-counters-on-graphs-in-load-test-results.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -11,11 +11,11 @@ ms.workload:
 - python
 - data-science
 ms.openlocfilehash: 578f73aabfb8b5a4c8336c8611f634b8947c8885
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62785086"
 ---
 # <a name="python-environments-window-tabs-reference"></a>Python 환경 창 탭 참조
 
@@ -88,7 +88,7 @@ ms.locfileid: "59366525"
 
 ## <a name="packages-tab"></a>패키지 탭
 
-*또한 이전 버전에서 “pip”로 레이블이 지정됩니다.*
+또한 이전 버전에서 “pip”로 레이블이 지정됩니다.
 
 환경에 설치된 패키지는 PIP(**패키지(PyPI)** 탭) 또는 Conda(**패키지(Conda)** 탭, Visual Studio 2017 버전 15.7 이상의 Conda 환경인 경우)를 사용하여 관리합니다. 이러한 탭에서는 종속성을 포함하여 새 패키지를 검색하고 설치할 수도 있습니다.
 

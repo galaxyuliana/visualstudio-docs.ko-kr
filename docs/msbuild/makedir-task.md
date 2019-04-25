@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 89bfc33aaf4b3f80ee6b80a93ad6b71dd3786599
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62855934"
 ---
 # <a name="makedir-task"></a>MakeDir 작업
 디렉터리 및 부모 디렉터리(필요한 경우)를 만듭니다.
@@ -33,7 +33,7 @@ ms.locfileid: "56627066"
 
 |매개 변수|설명|
 |---------------|-----------------|
-|`Directories`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 만들려는 디렉터리의 집합입니다.|
+|`Directories`|필수 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 만들 디렉터리 세트입니다.|
 |`DirectoriesCreated`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 이 작업에 의해 만들어진 디렉터리입니다. 일부 디렉터리를 만들 수 없는 경우 `Directories` 매개 변수에 전달된 항목을 모두 포함하지 않을 수 있습니다.|
 
 ## <a name="remarks"></a>주의

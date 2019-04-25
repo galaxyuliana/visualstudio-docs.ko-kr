@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a87013ff3a1911caa667f7ba431e408fc87a98f4
-ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "59584482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63004629"
 ---
 # <a name="msbuild-special-characters"></a>MSBuild 특수 문자
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]는 특정 컨텍스트에서 특별한 용도로 사용할 일부 문자를 예약합니다. 예약된 컨텍스트에서 문자 그대로 사용하려는 경우 이러한 문자를 이스케이프 처리해야 합니다. 예를 들어 별표는 항목 정의의 `Include` 및 `Exclude` 특성 및 `CreateItem`에 대한 호출에서만 특별한 의미를 가집니다. 별표를 해당 컨텍스트 중 하나에서 별표로 표시하려면 이스케이프 처리해야 합니다. 모든 다른 컨텍스트에서 별표를 표시하려는 곳에 입력합니다.

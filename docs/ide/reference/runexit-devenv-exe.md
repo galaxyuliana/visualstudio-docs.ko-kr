@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3fa010e72267dadfb1974f7ce8be3b6b9a3e1cff
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935049"
 ---
 # <a name="runexit-devenvexe"></a>/RunExit(devenv.exe)
 
@@ -51,7 +51,7 @@ devenv /RunExit {SolutionName|ProjectName} [/Out OutputFilename]
 
 - 오류를 포함한 요약 정보는 **명령** 창 또는 `/Out` 스위치로 지정된 로그 파일에 표시할 수 있습니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 이 예제에서는 활성 배포 구성을 사용하여 최소화된 IDE에서 `MySolution` 솔루션을 실행한 다음 IDE를 닫습니다.
 

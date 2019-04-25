@@ -12,12 +12,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: abe8be0804877b4836a766f2c4fec37321534b5f
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.openlocfilehash: 342d3288d647018af7faf42ab3e669bb8a62594f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62793159"
 ---
 # <a name="accessibility-features-of-visual-studio"></a>Visual Studio의 접근성 기능
 
@@ -26,15 +26,15 @@ ms.locfileid: "56318591"
 
 장애가 있는 사용자는 Windows의 내게 필요한 기능 및 유틸리티 이외에 다음 기능을 사용하면 Visual Studio에 더욱 쉽게 액세스할 수 있습니다.
 
--   도구 모음 단추 및 텍스트 확대
+- 도구 모음 단추 및 텍스트 확대
 
--   편집기의 텍스트 크기 옵션
+- 편집기의 텍스트 크기 옵션
 
--   편집기의 색 사용자 지정
+- 편집기의 색 사용자 지정
 
--   바로 가기 키 사용자 지정
+- 바로 가기 키 사용자 지정
 
--   메서드 및 매개 변수의 자동 완성
+- 메서드 및 매개 변수의 자동 완성
 
 > [!NOTE]
 > 이 토픽은 Windows의 Visual Studio에 적용됩니다. Mac용 Visual Studio는 [Mac용 Visual Studio의 접근성](/visualstudio/mac/accessibility)을 참조하세요.
@@ -44,15 +44,15 @@ ms.locfileid: "56318591"
 
 자세한 내용은 다음 항목을 참조하세요.
 
--   [방법: IDE 접근성 옵션 설정](../../ide/reference/how-to-set-ide-accessibility-options.md)
+- [방법: IDE 접근성 옵션 설정](../../ide/reference/how-to-set-ide-accessibility-options.md)
 
--   [방법: 단독으로 키보드 사용](../../ide/reference/how-to-use-the-keyboard-exclusively.md)
+- [방법: 단독으로 키보드 사용](../../ide/reference/how-to-use-the-keyboard-exclusively.md)
 
--   [기본 바로 가기 키](../../ide/default-keyboard-shortcuts-in-visual-studio.md)
+- [기본 바로 가기 키](../../ide/default-keyboard-shortcuts-in-visual-studio.md)
 
--   [접근성 팁과 요령](../../ide/reference/accessibility-tips-and-tricks.md)
+- [접근성 팁과 요령](../../ide/reference/accessibility-tips-and-tricks.md)
 
--   [방법: 글꼴 및 색 변경](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
+- [방법: 글꼴 및 색 변경](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
 
 ## <a name="see-also"></a>참고 항목
 

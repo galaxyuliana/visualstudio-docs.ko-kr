@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5756047dc88dc01e044787cd5e3a71456e3e85c9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 0d7640b4f846dd4fa5a9f8b16ead7019ca3ba821
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56625012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430932"
 ---
 # <a name="markprofile"></a>MarkProfile
 `MarkProfile` 메서드는 .*vsp* 파일에 프로필 표시를 삽입합니다. 해당 표시를 삽입하려면 `MarkProfile` 함수를 포함하는 스레드에 대한 프로파일링이 ON이어야 합니다.
@@ -52,7 +52,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );
  표시 및 주석을 Mark 명령 또는 API 함수(CommentMarkAtProfile, CommentMarkProfile 또는 MarkProfile)를 사용하여 삽입한 경우 표시 프로필 함수를 포함하는 스레드의 프로파일링 상태는 ON입니다.
 
 > [!IMPORTANT]
->  MarkProfile 메서드는 계측 프로파일링에서만 사용해야 합니다.
+> MarkProfile 메서드는 계측 프로파일링에서만 사용해야 합니다.
 
 ## <a name="net-framework-equivalent"></a>.NET Framework의 해당 값
  *Microsoft.VisualStudio.Profiler.dll*

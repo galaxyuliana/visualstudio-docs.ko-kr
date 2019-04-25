@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 277463ad717331980988f87cb070815e644a71ab
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63003651"
 ---
 # <a name="generatebootstrapper-task"></a>GenerateBootstrapper 작업
 애플리케이션과 해당 필수 조건을 검색, 다운로드, 설치할 수 있는 자동화된 방법을 제공합니다. 이 작업은 애플리케이션을 구성하는 모든 구성 요소에 대한 개별 설치 관리자를 통합하는 단일 설치 관리자로 사용됩니다.

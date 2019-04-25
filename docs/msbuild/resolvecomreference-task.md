@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 86155da1a14516992841aa5e19de2606eb09fbd8
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 123aa52b5062d8ac083f054074df2c65ba77f80d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431292"
 ---
 # <a name="resolvecomreference-task"></a>ResolveComReference 작업
 하나 이상의 형식 라이브러리 이름 또는 *.tlb* 파일 목록을 가져온 후 해당 형식 라이브러리를 디스크의 위치로 확인합니다.
@@ -70,7 +70,7 @@ ms.locfileid: "56639065"
 |`WrapperTool`|선택적 항목 메타데이터입니다.<br /><br /> 이 형식 라이브러리의 어셈블리 래퍼를 생성하는 데 사용되는 래퍼 도구를 지정합니다. 이 항목 메타데이터를 지정하지 않으면 작업에서 기본 래퍼 도구 “tlbimp”가 사용됩니다. 사용 가능한 typelib(대/소문자 구분)는 다음과 같습니다.<br /><br /> -   `Primary`: COM 구성 요소에 대한 이미 생성된 주 interop 어셈블리를 사용하려면 이 래퍼 도구를 사용합니다. 이 래퍼 도구를 사용할 경우 래퍼 출력 디렉터리를 지정하지 마세요. 지정하면 작업이 실패합니다.<br />-   `TLBImp`: COM 구성 요소에 대한 interop 어셈블리를 생성하려면 이 래퍼 도구를 사용합니다.<br />-   `AXImp`: ActiveX 컨트롤에 대한 interop 어셈블리를 생성하려면 이 래퍼 도구를 사용합니다.|
 
 > [!NOTE]
->  형식 라이브러리를 고유하게 식별하기 위해 더 많은 정보를 제공할수록 작업이 디스크에서 올바른 파일로 확인될 가능성이 커집니다.
+> 형식 라이브러리를 고유하게 식별하기 위해 더 많은 정보를 제공할수록 작업이 디스크에서 올바른 파일로 확인될 가능성이 커집니다.
 
 ## <a name="remarks"></a>주의
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [Task 기본 클래스](../msbuild/task-base-class.md)를 참조하세요.

@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 10f314f0b587c438c6691a6d7fe5d9d108d06479
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 8b156de17c1f2ee43ccc215cf3723e14acd3c36b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56654011"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63405811"
 ---
 # <a name="create-portable-profiling-data-files-from-the-command-line"></a>명령줄에서 이식 가능한 프로파일링 데이터 파일 만들기
 프로파일링 데이터를 더 쉽게 공유하기 위해 [VSPerfReport](../profiling/vsperfreport.md) 명령줄 도구를 사용하여 프로파일링 실행에 대한 기호를 .*vsp* 파일로 포함할 수 있습니다.
@@ -21,11 +21,11 @@ ms.locfileid: "56654011"
  또한 더 작고 IDE에서 로드하는 데 더 빠른 미리 분석된 프로파일링 데이터(.*vsps*) 파일을 만들 수도 있습니다.
 
 > [!NOTE]
->  기호(.*pdb*) 파일을 **VSPerfReport**에 사용할 수 있는지 확인합니다. 자세한 내용은 [방법: 명령줄에서 기호 파일 위치 지정](../profiling/how-to-specify-symbol-file-locations-from-the-command-line.md)을 참조하세요.
+> 기호(.*pdb*) 파일을 **VSPerfReport**에 사용할 수 있는지 확인합니다. 자세한 내용은 [방법: 명령줄에서 기호 파일 위치 지정](../profiling/how-to-specify-symbol-file-locations-from-the-command-line.md)을 참조하세요.
 >
->  **VSReport** 경로에 대한 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.
+> **VSReport** 경로에 대한 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.
 >
->  .*vsps* 파일에서 프로파일링 데이터를 필터링할 수 없습니다.
+> .*vsps* 파일에서 프로파일링 데이터를 필터링할 수 없습니다.
 
 ### <a name="to-embed-the-symbols-for-a-profiling-run-into-a-profiling-data-vsp-file"></a>프로파일링 실행에 대한 기호를 프로파일링 데이터(.*vsp*) 파일에 포함하려면
 

@@ -5,11 +5,11 @@ ms.topic: include
 author: eross-msft
 ms.author: lizross
 ms.openlocfilehash: 31b4021feb2b33babff123a56436d3a57d3e9f13
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957655"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62582013"
 ---
 > [!NOTE]
 > 개인 데이터를 보거나 삭제하려면 [GDPR에 대한 Windows 데이터 주체 요청](/microsoft-365/compliance/gdpr-dsr-windows)에서 Microsoft의 지침을 살펴보세요. GDPR에 대한 일반 정보를 찾고 있는 경우 [서비스 신뢰 포털](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)의 GDPR 섹션을 참조하세요.

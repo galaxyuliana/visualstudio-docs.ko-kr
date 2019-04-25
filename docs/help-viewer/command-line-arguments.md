@@ -8,24 +8,24 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1c79f70129a21ab28c653ecfbef5e00a8050d9b0
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.openlocfilehash: 6a310a1b92d5e4558e097cf82501960bf6a9a535
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62824695"
 ---
 # <a name="command-line-arguments-for-the-help-content-manager"></a>도움말 콘텐츠 관리자에 대한 명령줄 인수
 
 도움말 콘텐츠 관리자(*HlpCtntMgr.exe*)의 명령줄 인수를 사용하여 로컬 도움말 콘텐츠를 배포하고 관리하는 방법을 지정할 수 있습니다. 관리자 권한으로 이 명령줄 도구에 대한 스크립트를 실행해야 하며 이러한 스크립트를 서비스로 실행할 수는 없습니다. 이 도구를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
--   디스크 또는 클라우드에서 로컬 도움말 콘텐츠를 추가하거나 업데이트합니다.
+- 디스크 또는 클라우드에서 로컬 도움말 콘텐츠를 추가하거나 업데이트합니다.
 
--   로컬 도움말 콘텐츠를 제거합니다.
+- 로컬 도움말 콘텐츠를 제거합니다.
 
--   로컬 도움말 콘텐츠 저장소를 이동합니다.
+- 로컬 도움말 콘텐츠 저장소를 이동합니다.
 
--   로컬 도움말 콘텐츠를 자동으로 추가, 업데이트, 제거 또는 이동합니다.
+- 로컬 도움말 콘텐츠를 자동으로 추가, 업데이트, 제거 또는 이동합니다.
 
 구문:
 

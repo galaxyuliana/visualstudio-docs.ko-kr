@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 8dcecdaa206964e6c8a5aebcadc958fe2c1ee1e5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55953193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946858"
 ---
 # <a name="list-source-command"></a>소스 목록 표시 명령
 소스 코드의 지정된 줄을 표시합니다.
@@ -52,7 +52,7 @@ Debug.ListSource [/Count:number] [/Current] [/File:filename]
 
  선택 사항입니다. 줄 번호를 표시할지 여부를 지정합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
  이 예제에서는 줄 번호를 표시하여 Form1.vb 파일의 줄 4 소스 코드를 나열합니다.
 
 ```

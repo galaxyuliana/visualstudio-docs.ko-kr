@@ -14,18 +14,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 936d2bfe4eecd3e36553cef7c5779f201e190619
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 049e1163f54dfcdfe2338faa59ae8c37c3114fa7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422046"
 ---
 # <a name="use-the-profiling-tools-from-the-command-line"></a>명령줄에서 프로파일링 도구 사용
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구의 명령줄 도구를 사용하면 명령 프롬프트에서 애플리케이션을 프로파일링하고 배치 파일 및 스크립팅을 통해 프로파일링을 자동화할 수 있습니다. 또한 명령 프롬프트에서 보고서 파일을 생성할 수 있습니다. 간단한 독립 실행형 프로파일러를 사용하여 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]가 설치되어 있지 않은 컴퓨터에서 데이터를 수집할 수 있습니다.
 
 > [!NOTE]
->  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. 또한 UWP 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.
+> Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. 또한 UWP 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.
 
 ## <a name="common-tasks"></a>일반 작업
 
