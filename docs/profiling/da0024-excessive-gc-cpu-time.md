@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ff97af6b45242a884d7067f74f486c13356f8d8b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 4ecd968c5be30e50550fb29a5c44cb7065630a63
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56625402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442346"
 ---
 # <a name="da0024-excessive-gc-cpu-time"></a>DA0024: GC CPU 시간이 너무 깁니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "56625402"
  프로파일링 중에 수집되는 시스템 성능 데이터가 가비지 수집에 걸린 시간이 총 애플리케이션 처리 시간에 비해 너무 클 경우 이 규칙이 실행됩니다.
 
 > [!NOTE]
->  가비지 수집에 걸린 시간이 길지만 총 애플리케이션 처리 시간에 비해 과도하지 않으면 [DA0023: GC CPU 시간이 깁니다.](../profiling/da0023-high-gc-cpu-time.md) 경고가 이 규칙 대신 실행됩니다.
+> 가비지 수집에 걸린 시간이 길지만 총 애플리케이션 처리 시간에 비해 과도하지 않으면 [DA0023: GC CPU 시간이 깁니다.](../profiling/da0023-high-gc-cpu-time.md) 경고가 이 규칙 대신 실행됩니다.
 
 ## <a name="how-to-investigate-a-warning"></a>경고를 조사하는 방법
  [오류 목록] 창에서 메시지를 두 번 클릭하여 프로파일링 데이터의 [표시 뷰](../profiling/marks-view.md)로 이동합니다. **.NET CLR Memory\\% Time in GC** 열을 찾습니다. 다른 단계보다 관리되는 메모리 가비지 수집의 오버헤드가 더 큰 특정 프로그램 실행 단계가 있는지 확인합니다. % Time in GC 값을 **# of Gen 0 Collections**, **# of Gen 1 Collections**, **# of Gen 2 Collections** 값에서 보고된 가비지 수집 비율에 비교합니다.

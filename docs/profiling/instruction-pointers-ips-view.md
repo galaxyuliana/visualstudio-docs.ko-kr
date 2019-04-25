@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3a9208a274c9dc50226452bbe9d2235d8dbf9b42
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62995362"
 ---
 # <a name="instruction-pointers-ips-view"></a>IP(명령 포인터) 뷰
 명령 포인터 뷰를 사용하면 샘플링 프로파일링 중 실행되는 특정 명령을 확인할 수 있습니다.

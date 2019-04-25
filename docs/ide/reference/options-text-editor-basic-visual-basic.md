@@ -18,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8a7ea9c2efd6a204932e24de0ef250ba143b8b34
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: aa331fea595c2143dd3ab47aa562fbd61277f81f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55925464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817790"
 ---
 # <a name="options-text-editor-basic-visual-basic-advanced"></a>옵션, 텍스트 편집기, 기본(Visual Basic), 고급
 **옵션**(**도구** 메뉴), **텍스트 편집기**의 **Basic** 폴더에 있는 **VB 관련** 속성 페이지 대화 상자에는 다음 속성이 포함되어 있습니다.
@@ -50,7 +50,6 @@ ms.locfileid: "55925464"
    이러한 옵션을 선택한 경우 [빠른 작업](../quick-actions.md)을 사용하여 NuGet 패키지를 설치하고 참조되지 않은 형식에 대한 `using` 지시문을 추가할 수 있습니다.
 
    ![Visual Studio의 NuGet 패키지 설치 빠른 작업](media/nuget-lightbulb.png)
-
 
 ## <a name="highlighting"></a>강조 표시
 
@@ -82,19 +81,19 @@ ms.locfileid: "55925464"
 
 **코드 서식 다시 적용** 텍스트 편집기는 코드 서식을 적절하게 다시 지정합니다. 이 옵션을 선택하면 코드 편집기는 다음을 수행합니다.
 
--   올바른 탭 위치에 코드 정렬
+- 올바른 탭 위치에 코드 정렬
 
--   키워드, 변수 및 개체를 올바른 대소문자로 다시 지정
+- 키워드, 변수 및 개체를 올바른 대소문자로 다시 지정
 
--   `If...Then` 문에 누락된 `Then` 추가
+- `If...Then` 문에 누락된 `Then` 추가
 
--   함수 호출에 괄호를 추가합니다.
+- 함수 호출에 괄호를 추가합니다.
 
--   문자열에 누락된 끝 따옴표 추가
+- 문자열에 누락된 끝 따옴표 추가
 
--   지수 표기법 서식 다시 지정
+- 지수 표기법 서식 다시 지정
 
--   날짜 서식 다시 지정
+- 날짜 서식 다시 지정
 
 **맺음 구문 자동 삽입**
 

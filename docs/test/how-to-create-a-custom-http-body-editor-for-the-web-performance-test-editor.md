@@ -8,12 +8,12 @@ ms.assetid: a0b2d8ff-3e2a-487e-9172-90047174f336
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8eef7dd68ba29f4a0100dfe5207c0b6179a76410
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 2a90d0e02d5ae3ce3ce2e91d4d152244b06fd049
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950269"
 ---
 # <a name="how-to-create-a-custom-http-body-editor-for-the-web-performance-test-editor"></a>방법: 웹 성능 테스트 편집기에 대한 사용자 지정 HTTP 본문 편집기 만들기
 
@@ -23,9 +23,9 @@ SOAP, REST, asmx, wcf, RIA 및 기타 웹 서비스 요청 형식과 같은 웹 
 
 다음 종류의 편집기를 구현할 수 있습니다.
 
--   **문자열 콘텐츠 편집기** 이 편집기는 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> 인터페이스를 사용하여 구현합니다.
+- **문자열 콘텐츠 편집기** 이 편집기는 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> 인터페이스를 사용하여 구현합니다.
 
--   **이진 콘텐츠 편집기** 이 편집기는 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> 인터페이스를 사용하여 구현합니다.
+- **이진 콘텐츠 편집기** 이 편집기는 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> 인터페이스를 사용하여 구현합니다.
 
 이러한 인터페이스는 <xref:Microsoft.VisualStudio.TestTools.WebTesting> 네임스페이스에 포함되어 있습니다.
 
@@ -210,7 +210,7 @@ messageEditorControl 인스턴스는 <xref:Microsoft.VisualStudio.TestTools.WebT
 
 ### <a name="to-add-the-ibinaryhttpbodyeditorplugin-to-the-class"></a>클래스에 IBinaryHttpBodyEditorPlugin을 추가하려면
 
--   이전 절차에서 추가한 XmlMessageEditor 클래스 아래에 다음 코드를 작성하거나 복사하여 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> 인터페이스의 Msbin1MessageEditor 클래스를 인스턴스화하고 필요한 메서드를 구현합니다.
+- 이전 절차에서 추가한 XmlMessageEditor 클래스 아래에 다음 코드를 작성하거나 복사하여 <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> 인터페이스의 Msbin1MessageEditor 클래스를 인스턴스화하고 필요한 메서드를 구현합니다.
 
     ```csharp
     /// <summary>

@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 0f6d8249503ed775d584c913d685ae35473134be
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950650"
 ---
 # <a name="showwebbrowser-command"></a>웹 브라우저 표시 명령
 
@@ -47,7 +47,7 @@ View.ShowWebBrowser URL [/new][/ext]
 ## <a name="remarks"></a>주의
  **ShowWebBrowser** 명령의 별칭은 **navigate** 또는 **nav**입니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
  다음 예제에서는 IDE 외부의 웹 브라우저에서 Microsoft Docs 홈페이지를 표시합니다. 웹 브라우저의 인스턴스가 이미 열린 경우 이 인스턴스가 사용되고, 그렇지 않으면 새 인스턴스가 시작됩니다.
 
 ```cmd

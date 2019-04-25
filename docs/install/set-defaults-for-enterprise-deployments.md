@@ -19,11 +19,11 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.openlocfilehash: be29a8eff4e36df04721e8f946b9b2b0ebae3145
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945016"
 ---
 # <a name="set-defaults-for-enterprise-deployments-of-visual-studio"></a>Visual Studio의 엔터프라이즈 배포에 대한 기본값 설정
 
@@ -41,7 +41,7 @@ Visual Studio의 배포에 영향을 주는 레지스트리 정책을 설정할 
 
 1. `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`
 2. `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`
-3. `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\Setup` (64비트 운영 체제)
+3. `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\Setup`(64비트 운영 체제)
 
 > [!IMPORTANT]
 > `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup` 키를 설정하지 않은 대신 다른 키 중에 하나를 설치한 경우 64비트 운영 체제에서 다를 키를 둘 다 설정해야 합니다. 이 문제는 향후 제품 업데이트에서 해결됩니다.
@@ -50,7 +50,7 @@ Visual Studio의 배포에 영향을 주는 레지스트리 정책을 설정할 
 
 다음 레지스트리 값을 설정할 수 있습니다.
 
-| **name** | **형식** | **기본값** | **설명** |
+| **이름** | **Type** | **기본** | **설명** |
 | -------- | -------- | ----------- | --------------- |
 | `CachePath` | `REG_SZ` 또는 `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | 패키지가 매니페스트되고 필요한 경우 페이로드가 저장되는 디렉터리입니다. 자세한 내용은 [패키지 캐시를 사용하지 않도록 설정 또는 이동](disable-or-move-the-package-cache.md) 페이지를 참조하세요. |
 | `KeepDownloadedPayloads` | `REG_DWORD` | 1 | 설치된 후에도 패키지 페이로드를 유지합니다. 언제든지 값을 변경할 수 있습니다. 정책을 사용하지 않도록 설정하면 복구하거나 수정하는 인스턴스에 대한 캐시된 패키지 페이로드가 모두 제거됩니다. 자세한 내용은 [패키지 캐시를 사용하지 않도록 설정 또는 이동](disable-or-move-the-package-cache.md) 페이지를 참조하세요. |

@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 80f7c2d941852303771df1998a21c076265fdb93
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c1f725c239df2ffc9683676c4c20a86ce12f873e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55929494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969022"
 ---
 # <a name="property-pages-javascript"></a>속성 페이지, JavaScript
 **속성 페이지**는 프로젝트 설정에 대한 액세스를 제공합니다. **속성 페이지**에 표시되는 페이지를 사용하여 프로젝트 속성을 변경할 수 있습니다.
@@ -49,7 +49,6 @@ ms.locfileid: "55929494"
 > [!NOTE]
 > 일부 옵션은 UWP 앱에서만 사용할 수 있습니다.
 
-
  **출력 경로**
 
  프로젝트 구성에 대한 출력 파일의 위치를 지정합니다. 상대 경로입니다. 절대 경로를 입력하면 프로젝트에 절대 경로가 저장됩니다. 기본 경로는 bin\Debug입니다.
@@ -66,16 +65,15 @@ ms.locfileid: "55929494"
 > [!NOTE]
 > 일부 옵션은 UWP 앱에서만 사용할 수 있습니다.
 
-
  **실행할 디버거**
 
  디버거에 대한 기본 호스트를 지정합니다.
 
--   Visual Studio 호스트 컴퓨터에서 애플리케이션을 시작하려면 **로컬 컴퓨터**를 선택합니다. 자세한 내용은 [로컬 컴퓨터에서 Windows 스토어 앱 실행](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)을 참조하세요.
+- Visual Studio 호스트 컴퓨터에서 애플리케이션을 시작하려면 **로컬 컴퓨터**를 선택합니다. 자세한 내용은 [로컬 컴퓨터에서 Windows 스토어 앱 실행](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)을 참조하세요.
 
--   시뮬레이터에서 애플리케이션을 시작하려면 **시뮬레이터**를 선택합니다. 자세한 내용은 [시뮬레이터에서 Windows 스토어 앱 실행](../../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하세요.
+- 시뮬레이터에서 애플리케이션을 시작하려면 **시뮬레이터**를 선택합니다. 자세한 내용은 [시뮬레이터에서 Windows 스토어 앱 실행](../../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하세요.
 
--   원격 컴퓨터에서 애플리케이션을 시작하려면 **원격 컴퓨터**를 선택합니다. 원격 디버깅에 대한 자세한 내용은 [원격 컴퓨터에서 Windows 스토어 앱 실행](../../debugger/run-windows-store-apps-on-a-remote-machine.md)을 참조하세요.
+- 원격 컴퓨터에서 애플리케이션을 시작하려면 **원격 컴퓨터**를 선택합니다. 원격 디버깅에 대한 자세한 내용은 [원격 컴퓨터에서 Windows 스토어 앱 실행](../../debugger/run-windows-store-apps-on-a-remote-machine.md)을 참조하세요.
 
 **애플리케이션 시작**
 

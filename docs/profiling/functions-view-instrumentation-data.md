@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 34585e212acfd52186e12e8b38293178cc77c585
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969695"
 ---
 # <a name="functions-view---instrumentation-data"></a>함수 뷰 - 계측 데이터
 함수 보고서 뷰는 함수 이름별로 프로파일링 데이터를 나열합니다.

@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 20f5a8b3400ab70db9988fcb38bdc26e15307d36
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: abfe762b354d11297aa4d0c574b8f0e0a081d349
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438003"
 ---
 # <a name="debug-a-javascript-or-typescript-app-in-visual-studio"></a>Visual Studio에서 JavaScript 또는 TypeScript 앱 디버그
 
@@ -62,8 +62,10 @@ Visual Studio에서 디버거를 연결하고 클라이언트 쪽 코드에서 �
     이 명령은 디버깅 사용이 설정된 상태로 크롬을 시작합니다.
 
     ::: moniker range=">=vs-2019"
+
     > [!NOTE]
     > **디버그** 도구 모음에서 **브라우저 선택...** >을 선택하고, **추가**를 선택한 다음, **인수** 필드에서 플래그를 설정하여 브라우저 시작 시 `--remote-debugging-port` 플래그를 설정할 수도 있습니다. **디버깅 포함 Chrome**과 같은 친숙한 다른 브라우저 이름을 사용하세요. 자세한 내용은 [릴리스 정보](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview#browser-cli-params-support)를 참조하세요.
+
     ::: moniker-end
 
 3. Visual Studio로 전환하고 소스 코드에 중단점을 설정합니다. (`return` 문 또는 `var` 선언과 같은 중단점을 허용하는 코드 줄에 중단점을 설정합니다).

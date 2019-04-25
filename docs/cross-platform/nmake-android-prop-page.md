@@ -19,11 +19,11 @@ f1_keywords:
 ms.workload:
 - xplat-cplusplus
 ms.openlocfilehash: ba13da583e5ea5dd6cc625e165902bbf6c408f28
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54949236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62815716"
 ---
 # <a name="nmake-properties-android-c"></a>NMake 속성(Android C++)
 
@@ -32,7 +32,7 @@ ms.locfileid: "54949236"
 빌드 명령줄 | '빌드' 명령을 실행할 명령줄을 지정합니다.
 모두 다시 빌드 명령줄 | '모두 다시 빌드' 명령을 실행할 명령줄을 지정합니다.
 정리 명령줄 | '정리' 명령을 실행할 명령줄을 지정합니다.
-출력 | 생성할 출력 파일을 지정합니다.
+Output | 생성할 출력 파일을 지정합니다.
 전처리기 정의 | 원본 파일에서 사용하는 전처리기 정의를 지정합니다.
 포함 검색 경로 | 포함 파일을 확인하는 데 사용할 포함 검색 경로를 지정합니다.
 강제 포함 | 강제 포함 파일을 지정합니다.

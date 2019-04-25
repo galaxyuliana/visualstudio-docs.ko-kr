@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: cf9a990be3f5e87180967a4f9f274ec79fbc357e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55943339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946884"
 ---
 # <a name="how-to-substitute-parameters-in-a-template"></a>방법: 템플릿 매개 변수 대체
 

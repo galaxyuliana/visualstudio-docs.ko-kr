@@ -8,30 +8,30 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ad05083fa8cb1310e9be0b0dabb8333cb840a466
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 46ce6f92acb7ed6e92af07729a14720d3a8421a8
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55941493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62821817"
 ---
 # <a name="tutorial-1-create-a-picture-viewer"></a>자습서 1: 사진 뷰어 만들기
 
 이 자습서에서는 파일에서 그림을 로드하여 창에 표시하는 프로그램을 빌드합니다. 또한 **Windows Forms 디자이너**를 사용하여 단추와 그림 상자 같은 컨트롤을 양식에 끌어오고, 해당 속성을 설정하고, 컨테이너를 사용하여 양식의 크기를 자연스럽게 조정하는 방법을 알아봅니다. 코드 작성을 시작합니다. 여기에서는 다음과 같은 작업을 수행하는 방법에 대해 배우게 됩니다.
 
--   새 프로젝트를 만듭니다.
+- 새 프로젝트를 만듭니다.
 
--   애플리케이션을 테스트(디버깅)합니다.
+- 애플리케이션을 테스트(디버깅)합니다.
 
--   확인란과 단추 같은 기본 컨트롤을 폼에 추가합니다.
+- 확인란과 단추 같은 기본 컨트롤을 폼에 추가합니다.
 
--   레이아웃을 사용하여 폼에 컨트롤을 배치합니다.
+- 레이아웃을 사용하여 폼에 컨트롤을 배치합니다.
 
--   폼에 **파일 열기** 및 **색** 대화 상자를 추가합니다.
+- 폼에 **파일 열기** 및 **색** 대화 상자를 추가합니다.
 
--   IntelliSense 및 코드 조각을 사용하여 코드를 작성합니다.
+- IntelliSense 및 코드 조각을 사용하여 코드를 작성합니다.
 
--   이벤트 처리기 메서드를 작성합니다.
+- 이벤트 처리기 메서드를 작성합니다.
 
 작업이 완료되면 프로그램은 다음 그림과 같습니다.
 

@@ -16,11 +16,11 @@ ms.workload:
 - multiple
 monikerRange: vs-2017
 ms.openlocfilehash: a67e909dc43f17e12dd63b7a8a3b2e8a4afacc5e
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58789876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969048"
 ---
 # <a name="quick-launch-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 빠른 실행
 

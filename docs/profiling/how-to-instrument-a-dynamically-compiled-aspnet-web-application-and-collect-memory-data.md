@@ -8,18 +8,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: d3e3b1d646b16a50251c97d3268faaa4775d4664
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 172f4a367aa520ebd0fac62d25007713c47e5801
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56638746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386271"
 ---
 # <a name="how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line"></a>방법: 프로파일러 명령줄을 통해 동적으로 컴파일된 ASP.NET 웹 애플리케이션 계측 및 메모리 데이터 수집
 이 항목에서는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구의 명령줄 도구를 사용하여 계측 프로파일링 방법으로 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 애플리케이션에 대한 자세한 .NET 메모리 할당 및 개체 수명 데이터를 수집하는 방법을 설명합니다.
 
 > [!NOTE]
->  프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
+> 프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
 
  [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션에서 성능 데이터를 수집하려면 [VSInstr.exe](../profiling/vsinstr.md) 도구를 통해 동적으로 컴파일된 애플리케이션 파일을 계측하도록 대상 애플리케이션의 *web.config* 파일을 수정합니다. 적절한 환경 변수를 설정하여 .NET 메모리 프로파일링을 사용하도록 설정하고 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션을 호스팅하는 서버를 구성하려면 [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) 도구를 사용한 다음, 컴퓨터를 다시 시작합니다.
 
@@ -31,11 +31,11 @@ ms.locfileid: "56638746"
 
 #### <a name="to-configure-the-aspnet-web-application-and-the-web-server"></a>ASP.NET 웹 애플리케이션 및 웹 서버를 구성하려면
 
-1.  대상 애플리케이션의 *web.config* 파일을 수정합니다. [방법: 계측할 web.config 파일 수정 및 동적으로 컴파일된 ASP.NET 웹 애플리케이션 프로파일링](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md)을 참조하세요.
+1. 대상 애플리케이션의 *web.config* 파일을 수정합니다. [방법: 계측할 web.config 파일 수정 및 동적으로 컴파일된 ASP.NET 웹 애플리케이션 프로파일링](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md)을 참조하세요.
 
-2.  웹 애플리케이션을 호스팅하는 컴퓨터에서 명령 프롬프트 창을 엽니다.
+2. 웹 애플리케이션을 호스팅하는 컴퓨터에서 명령 프롬프트 창을 엽니다.
 
-3.  프로파일링 환경 변수를 초기화합니다. 유형:
+3. 프로파일링 환경 변수를 초기화합니다. 유형:
 
      **VSPerfClrEnv /globaltracegc**
 
@@ -43,11 +43,11 @@ ms.locfileid: "56638746"
 
      **VSPerfClrEnv /globaltracegclife**
 
-    -   **/globaltracegc**는 메모리 할당 데이터를 수집하도록 설정합니다.
+    - **/globaltracegc**는 메모리 할당 데이터를 수집하도록 설정합니다.
 
-    -   **/globaltracegclife**는 메모리 할당 데이터 및 개체 수명 데이터를 수집하도록 설정합니다.
+    - **/globaltracegclife**는 메모리 할당 데이터 및 개체 수명 데이터를 수집하도록 설정합니다.
 
-4.  컴퓨터를 다시 시작합니다.
+4. 컴퓨터를 다시 시작합니다.
 
 ## <a name="run-the-profiling-session"></a>프로파일링 세션 실행
 
@@ -64,7 +64,7 @@ ms.locfileid: "56638746"
      **/start:trace** 옵션과 다음 옵션을 함께 사용할 수 있습니다.
 
    > [!NOTE]
-   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 애플리케이션에 필요합니다.
+   > **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 애플리케이션에 필요합니다.
 
    | 옵션 | 설명 |
    | - | - |
@@ -76,7 +76,6 @@ ms.locfileid: "56638746"
    | [/automark](../profiling/automark.md) **:** `Interval` | **/wincounter**와 함께 사용해야 합니다. Windows 성능 카운터 수집 이벤트 사이에 경과하는 시간(밀리초)을 지정합니다. 기본값은 500ms입니다. |
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | 프로파일링 중에 수집할 ETW(Windows용 이벤트 추적) 이벤트를 지정합니다. ETW 이벤트는 별도의 파일(.*etl*)로 수집됩니다. |
 
-
 2. 일반적인 방법으로 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션을 시작합니다.
 
 ## <a name="control-data-collection"></a>데이터 수집 제어
@@ -84,7 +83,7 @@ ms.locfileid: "56638746"
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면
 
--   다음 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
+- 다음 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
 
     |옵션|설명|
     |------------|-----------------|
@@ -92,7 +91,7 @@ ms.locfileid: "56638746"
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|프로세스 ID(`PID`)로 지정된 프로세스에 대한 데이터 수집을 시작(**/processon**) 또는 중지(**/processoff**)합니다.|
     |[/threadon](../profiling/threadon-and-threadoff.md) **:** `TID` [/threadoff](../profiling/threadon-and-threadoff.md) **:** `TID`|스레드 ID(`TID`)로 지정된 스레드에 대한 데이터 수집을 시작(**/threadon**) 또는 중지(**/threadoff**)합니다.|
 
--   **VSPerfCmd.exe**[/mark](../profiling/mark.md) 옵션을 사용하여 프로파일링 표시를 데이터 파일에 삽입할 수 있습니다. **/mark** 명령은 식별자, 타임스탬프 및 선택적 사용자 정의 텍스트 문자열을 추가합니다. 표식을 사용하여 프로파일러 보고서 및 데이터 뷰에서 데이터를 필터링할 수 있습니다.
+- **VSPerfCmd.exe**[/mark](../profiling/mark.md) 옵션을 사용하여 프로파일링 표시를 데이터 파일에 삽입할 수 있습니다. **/mark** 명령은 식별자, 타임스탬프 및 선택적 사용자 정의 텍스트 문자열을 추가합니다. 표식을 사용하여 프로파일러 보고서 및 데이터 뷰에서 데이터를 필터링할 수 있습니다.
 
 ## <a name="end-the-profiling-session"></a>프로파일링 세션 종료
  프로파일링 세션을 종료하려면 대상 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션을 닫고, IIS(인터넷 정보 서비스)를 중지하여 프로파일링된 프로세스를 중지하고, 프로파일러를 종료합니다. 그런 다음, IIS를 다시 시작합니다.
@@ -118,13 +117,13 @@ ms.locfileid: "56638746"
 
 #### <a name="to-restore-the-application-and-computer-configuration"></a>애플리케이션 및 컴퓨터 구성을 복원하려면
 
-1.  *web.config* 파일을 원본 파일의 복사본으로 바꿉니다.
+1. *web.config* 파일을 원본 파일의 복사본으로 바꿉니다.
 
-2.  (선택 사항) 프로파일링 환경 변수를 지웁니다. 유형:
+2. (선택 사항) 프로파일링 환경 변수를 지웁니다. 유형:
 
      **VSPerfCmd /globaloff**
 
-3.  컴퓨터를 다시 시작합니다.
+3. 컴퓨터를 다시 시작합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [ASP.NET 웹 애플리케이션 프로파일링](../profiling/command-line-profiling-of-aspnet-web-applications.md)

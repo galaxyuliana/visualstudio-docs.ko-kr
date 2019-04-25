@@ -8,12 +8,12 @@ ms.author: kraigb
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 9b31859d677ab69108ad5e2681890a8c4a88f854
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 0263afa4eeb9094802fe6272380b6b53106da4a2
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55911211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62810191"
 ---
 # <a name="set-up-remote-workspaces"></a>원격 작업 영역 설정
 
@@ -96,14 +96,19 @@ SSL 인증서를 Windows에서 수동으로 설치해야 합니다. 다음 지�
 
 1. Linux 머신에 SSH 또는 로그인합니다.
 2. `ssl-cert` 패키지를 설치합니다.
+
     ```sh
     sudo apt-get install ssl-cert
     ```
+
 3. `make-ssl-cert`를 실행하여 기본 자체 서명된 SSL 인증서를 생성합니다.
+
     ```sh
     sudo make-ssl-cert generate-default-snakeoil --force-overwrite
     ```
+
 4. 생성된 키와 PEM 파일을 PFX로 변환합니다. 생성된 PFX는 홈 폴더에 있어야 합니다.
+
     ```sh
     openssl pkcs12 -export -out ~/ssl-cert-snakeoil.pfx -inkey /etc/ssl/private/ssl-cert-snakeoil.key -in /etc/ssl/certs/ssl-cert-snakeoil.pem -password pass:SnakeOil
     ```

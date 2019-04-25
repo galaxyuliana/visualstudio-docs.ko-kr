@@ -8,26 +8,26 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 799f5bfaad3433bebeca54367c91fefc34e05a21
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 151b9be68b82f2b9fdcb20cd105890914333a2b6
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62821530"
 ---
 # <a name="tutorial-3-create-a-matching-game"></a>자습서 3: 맞추기 게임 만들기
 
 이 자습서에서는 플레이어가 숨겨진 아이콘의 쌍을 찾는 일치 게임을 빌드합니다. 다음과 같은 작업을 수행하는 방법을 살펴봅니다.
 
--   아이콘과 같은 개체를 <xref:System.Collections.Generic.List%601> 개체에 저장합니다.
+- 아이콘과 같은 개체를 <xref:System.Collections.Generic.List%601> 개체에 저장합니다.
 
--   Visual C#의 `foreach` 루프 또는 Visual Basic의 `For Each` 루프를 사용하여 목록의 개체를 반복합니다.
+- Visual C#의 `foreach` 루프 또는 Visual Basic의 `For Each` 루프를 사용하여 목록의 개체를 반복합니다.
 
--   참조 변수를 사용하여 폼 상태를 추적합니다.
+- 참조 변수를 사용하여 폼 상태를 추적합니다.
 
--   여러 개체에 사용할 수 있는 이벤트에 응답하는 이벤트 처리기를 빌드합니다.
+- 여러 개체에 사용할 수 있는 이벤트에 응답하는 이벤트 처리기를 빌드합니다.
 
--   시작된 후 카운트다운을 실시하고 단 한 번만 이벤트를 발생시키는 타이머를 만듭니다.
+- 시작된 후 카운트다운을 실시하고 단 한 번만 이벤트를 발생시키는 타이머를 만듭니다.
 
 이 자습서를 마치면 프로그램은 다음 그림과 같습니다.
 

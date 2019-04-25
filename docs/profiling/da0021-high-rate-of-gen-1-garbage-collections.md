@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: cd10bd9eb834a3ca41fce38baf11e36b13fe0734
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62936424"
 ---
 # <a name="da0021-high-rate-of-gen-1-garbage-collections"></a>DA0021: Gen 1 가비지 수집의 비율이 높습니다.
 

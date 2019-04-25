@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 25886ad4f7c31ea02c8dab2d45d8709a362a5a69
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969994"
 ---
 # <a name="execution-profile-report"></a>실행 프로필 보고서
 실행 프로필 보고서는 전통적인 샘플링 프로필입니다. 논리 코어에서 스레드가 실행 중인 기간에 거의 밀리초마다 샘플이 수집되고 동시성 시각화에서는 누적된 샘플 스택 집합의 데이터를 정렬하여 일반적인 호출 트리를 빌드합니다. 현재 시간 범위와 숨겨진 스레드 및 적용될 수 있는 다음과 같은 필터가 이 테이블의 데이터에 영향을 미칠 수 있습니다.

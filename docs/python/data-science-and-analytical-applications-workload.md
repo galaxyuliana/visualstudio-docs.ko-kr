@@ -10,11 +10,11 @@ ms.workload:
 - python
 - data-science
 ms.openlocfilehash: dbebf486680375622e6dc313a71e82f541107fc8
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62958394"
 ---
 # <a name="install-data-science-support-in-visual-studio"></a>Visual Studio에서 데이터 과학 지원 설치
 
@@ -22,13 +22,13 @@ Visual Studio 설치 관리자를 통해 선택하고 설치한 데이터 과학
 
 ::: moniker range="vs-2017"
 - [Python 및 Anaconda](../python/overview-of-python-tools-for-visual-studio.md)
-- [F# 및 .NET Framework](/dotnet/fsharp/)
+- [.NET 프레임워크로 F#](/dotnet/fsharp/)
 - [R 및 Microsoft R Client](../rtvs/index.md)
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 - [Python](../python/overview-of-python-tools-for-visual-studio.md)
-- [F# 및 .NET Framework](/dotnet/fsharp/)
+- [.NET 프레임워크로 F#](/dotnet/fsharp/)
 ::: moniker-end
 
 ![Visual Studio 설치 관리자의 데이터 과학 및 분석 애플리케이션 워크로드](media/workload/data-science-workload.png)
@@ -111,4 +111,4 @@ Python용 Azure SDK를 사용하면 Windows, Mac 및 Linux에서 실행되는 �
 Azure Notebooks(현재 미리 보기 상태)는 Microsoft Azure의 클라우드에서 실행되는 Jupyter 노트북에 대한 무료 온라인 액세스를 제공합니다. 서비스는 시작하기 위해 Python, R 및 F#에서 샘플 전자 필기장을 포함합니다. [notebooks.azure.com](https://notebooks.azure.com/)을 방문해 보세요.
 
 <!--Note link on the image because this one is large -->
-[![R 샘플에 대한 소개가 있는 Azure Notebooks 스크린샷](media/workload/data-science-workload-notebooks.png)](media/workload/data-science-workload-notebooks.png#lightbox)
+[![R 샘플에 대한 소개가 있는 Azure Notebooks의 스크린샷](media/workload/data-science-workload-notebooks.png)](media/workload/data-science-workload-notebooks.png#lightbox)

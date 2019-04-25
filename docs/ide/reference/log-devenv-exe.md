@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4b2e11cb36176aec94528019cdd19bb5fa86c92b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946806"
 ---
 # <a name="log-devenvexe"></a>/Log(devenv.exe)
 
@@ -45,7 +45,7 @@ devenv /Log NameOfLogFile
 
 `/Log` 스위치를 사용하여 연 Visual Studio의 모든 인스턴스에 대한 로그만 작성됩니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 이 예제는 사용자 홈 디렉터리에 있는 `MyVSLog.xml` 파일에 로깅을 전달합니다.
 

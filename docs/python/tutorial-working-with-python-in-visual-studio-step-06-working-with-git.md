@@ -12,11 +12,11 @@ ms.workload:
 - python
 - data-science
 ms.openlocfilehash: 8d71f9e145d78d1d1bf7f6e9bb132e9fc084afd0
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62810500"
 ---
 # <a name="step-6-work-with-git"></a>6단계: Git 작업
 
@@ -74,4 +74,4 @@ Visual Studio의 Python에 대한 이 자습서 완료를 축하합니다. 이 �
 - [Python용 C++ 확장 만들기](working-with-c-cpp-python-in-visual-studio.md)
 - [Azure App Service에 게시](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - [프로파일링](profiling-python-code-in-visual-studio.md)
-- [단위 테스트](unit-testing-python-in-visual-studio.md)
+- [유닛 테스트](unit-testing-python-in-visual-studio.md)

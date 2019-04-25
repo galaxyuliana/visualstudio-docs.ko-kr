@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: dd28e0f2455e1a6ed866d879ec347082e9302c3a
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.openlocfilehash: e16261020a737651fc79c3fb3eb1da6a539cee34
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58790435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62777264"
 ---
 # <a name="analyze-energy-use-in-uwp-apps"></a>UWP 앱의 에너지 사용 분석
 
@@ -88,18 +88,18 @@ if (performance && performance.mark) {
 
 ## <a name="collect-energy-profile-data-for-your-app"></a>앱의 에너지 프로파일 데이터 수집
 
-1.  **디버그** 메뉴에서 **디버그하지 않고 진단 시작**을 선택합니다.
+1. **디버그** 메뉴에서 **디버그하지 않고 진단 시작**을 선택합니다.
 
      ![진단 허브에서 에너지 소비 선택](../profiling/media/energyprof_diagnosticshub.png "ENERGYPROF_DiagnosticsHub")
 
-2.  **에너지 소비** 를 선택한 다음 **시작**을 선택합니다.
+2. **에너지 소비** 를 선택한 다음 **시작**을 선택합니다.
 
     > [!NOTE]
     > **에너지 소비** 프로파일러를 시작하면 *VsEtwCollector.exe* 실행 권한을 요청하는 **사용자 계정 제어** 창이 나타날 수 있습니다. **예**를 선택합니다.
 
-3.  데이터를 수집하려면 앱을 실행합니다.
+3. 데이터를 수집하려면 앱을 실행합니다.
 
-4.  프로파일링을 중지하려면 Visual Studio로 다시 전환하고(Alt + Tab) 진단 허브 페이지에서 **수집 중지** 를 선택합니다.
+4. 프로파일링을 중지하려면 Visual Studio로 다시 전환하고(Alt + Tab) 진단 허브 페이지에서 **수집 중지** 를 선택합니다.
 
      ![데이터 수집 중지](../profiling/media/xamlprof_stopcollection.png "XAMLProf_StopCollection")
 

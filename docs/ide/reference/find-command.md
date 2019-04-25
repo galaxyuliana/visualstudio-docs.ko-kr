@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9cd4a50ebf4c27213d288cbab33647931c4a399d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55953063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62790276"
 ---
 # <a name="find-command"></a>찾기 명령
 **찾기 및 바꾸기** 창의 **파일에서 바꾸기** 탭에서 사용할 수 있는 옵션의 하위 집합을 사용하여 파일을 검색합니다.
@@ -58,7 +58,7 @@ Edit.Find findwhat [/case] [/doc | /proc | /open | /sel]
 
  /word 또는 /w 선택 사항입니다. 전체 단어만을 검색합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
  이 예제에서는 코드의 현재 선택된 섹션에서 "somestring"이라는 단어에 대해 대/소문자 구분 검색을 수행합니다.
 
 ```cmd

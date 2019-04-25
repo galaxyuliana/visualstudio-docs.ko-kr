@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c38ebb717b351bacdb5704b72af25320fd98763c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 8674f0c8ed833ac8db80f30f616aa8b0dbf4cf9f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977183"
 ---
 # <a name="how-to-use-the-same-target-in-multiple-project-files"></a>방법: 여러 프로젝트 파일에서 동일한 대상 사용
 여러 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트 파일을 만들었으면 다른 프로젝트 파일에서 동일한 작업 및 대상을 사용해야 할 수 있다는 사실을 알게 되었을 것입니다. 모든 프로젝트 파일에 이러한 작업이나 대상에 대한 완전한 설명을 포함하는 대신, 대상을 별도 프로젝트 파일에 저장한 다음, 해당 대상을 사용해야 하나ㅡㄴ 다른 프로젝트로 해당 프로젝트를 가져올 수 있습니다.
@@ -26,13 +26,13 @@ ms.locfileid: "56614118"
 
 #### <a name="to-import-a-project"></a>프로젝트를 가져오려면
 
-1.  가져온 프로젝트의 속성 및 항목에 대한 매개 변수로 사용되는 모든 속성 및 항목을 가져오기 프로젝트 파일에 정의합니다.
+1. 가져온 프로젝트의 속성 및 항목에 대한 매개 변수로 사용되는 모든 속성 및 항목을 가져오기 프로젝트 파일에 정의합니다.
 
-2.  `Import` 요소를 사용하여 프로젝트를 가져옵니다. 예:
+2. `Import` 요소를 사용하여 프로젝트를 가져옵니다. 예:
 
      `<Import Project="MyCommon.targets"/>`
 
-3.  `Import` 요소 다음에, 가져온 프로젝트의 속성 및 항목의 기본 정의를 재정의해야 하는 모든 속성 및 항목을 프로젝트 파일에 정의합니다.
+3. `Import` 요소 다음에, 가져온 프로젝트의 속성 및 항목의 기본 정의를 재정의해야 하는 모든 속성 및 항목을 프로젝트 파일에 정의합니다.
 
 ## <a name="order-of-evaluation"></a>계산 순서
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]가 `Import` 요소에 도달하면 가져온 프로젝트는 `Import` 요소의 해당 위치에 있는 가져오기 프로젝트에 효과적으로 삽입됩니다. 따라서 `Import` 요소의 위치는 속성 및 항목의 값에 영향을 줄 수 있습니다. 가져온 프로젝트에 의해 설정된 속성 및 항목과 가져온 프로젝트가 사용하는 속성 및 항목을 이해하는 것이 중요합니다.
@@ -74,11 +74,11 @@ ms.locfileid: "56614118"
 
 #### <a name="use-the-following-approach-when-importing-projects"></a>프로젝트를 가져올 때 다음 방법 사용
 
-1.  가져온 프로젝트의 속성 및 항목에 대한 매개 변수로 사용되는 모든 속성 및 항목을 프로젝트 파일에 정의합니다.
+1. 가져온 프로젝트의 속성 및 항목에 대한 매개 변수로 사용되는 모든 속성 및 항목을 프로젝트 파일에 정의합니다.
 
-2.  프로젝트를 가져옵니다.
+2. 프로젝트를 가져옵니다.
 
-3.  가져온 프로젝트의 속성 및 항목의 기본 정의를 재정의해야 하는 모든 속성 및 항목을 프로젝트 파일에 정의합니다.
+3. 가져온 프로젝트의 속성 및 항목의 기본 정의를 재정의해야 하는 모든 속성 및 항목을 프로젝트 파일에 정의합니다.
 
 ## <a name="example"></a>예제
  다음 코드 예제에서는 두 번째 코드 예제에서 가져오는 *MyCommon.targets* 파일을 보여 줍니다. *.targets* 파일은 가져오기 프로젝트의 속성을 평가하여 빌드를 구성합니다.

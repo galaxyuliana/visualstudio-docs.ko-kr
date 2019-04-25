@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 07212350ab95c3f9ee3d00fb2ac33768964555e8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 8721d85c7fb3aba513a15fe276adbb2b17496351
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62990496"
 ---
 # <a name="troubleshoot-code-coverage"></a>코드 검사 문제 해결
 
@@ -22,7 +22,7 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
 
 **테스트** 메뉴의 **코드 검사 분석** 명령을 선택하고 빌드 및 테스트가 성공적으로 실행될 경우 **코드 검사** 창에 결과 목록이 표시됩니다. 자세한 내용을 보려면 항목을 확장해야 합니다.
 
-![색 지정이 사용된 코드 검사 결과](../test/media/codecoverage1.png)
+![강조 표시된 코드 검사 결과](../test/media/codecoverage1.png)
 
 자세한 내용은 [코드 검사를 사용하여 테스트할 코드 범위 결정](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)을 참조하세요.
 
@@ -43,9 +43,9 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
 
 테스트를 수정하고 다시 실행하면 이전 실행의 코드 강조를 포함한 이전 코드 검사 결과가 계속 표시될 수 있습니다.
 
-1.  코드 검사 분석을 실행합니다.
+1. 코드 검사 분석을 실행합니다.
 
-2.  **코드 분석 결과** 창에서 최근 결과 집합을 선택했는지 확인합니다.
+2. **코드 분석 결과** 창에서 최근 결과 집합을 선택했는지 확인합니다.
 
 ### <a name="pdb-symbol-files-are-unavailable"></a>.pdb(기호) 파일을 사용할 수 없습니다
 
@@ -91,17 +91,17 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
 
 해결&mdash;두 가지 유형의 오류가 있습니다.
 
--   **XML 오류**
+- **XML 오류**
 
      Visual Studio XML 편집기에서 *.runsettings* 파일을 엽니다. 오류 표시를 찾습니다.
 
--   **정규식 오류**
+- **정규식 오류**
 
      파일의 각 문자열은 정규식입니다. 오류별로 정규식 오류를 검토하고 특히 다음 항목이 있는지 찾아봅니다.
 
-    -   짝이 맞지 않는 괄호 (...) 또는 이스케이프되지 않은 괄호 \\(...\\). 검색 문자열에서 괄호를 일치시키려면 이스케이프 처리해야 합니다. 예를 들어 함수를 일치시키려면 `.*MyFunction\(double\)`을 사용합니다.
+    - 짝이 맞지 않는 괄호 (...) 또는 이스케이프되지 않은 괄호 \\(...\\). 검색 문자열에서 괄호를 일치시키려면 이스케이프 처리해야 합니다. 예를 들어 함수를 일치시키려면 `.*MyFunction\(double\)`을 사용합니다.
 
-    -   식의 시작 부분의 별표 또는 더하기 문자열을 일치시키려면 점과 별표, `.*`를 사용합니다.
+    - 식의 시작 부분의 별표 또는 더하기 문자열을 일치시키려면 점과 별표, `.*`를 사용합니다.
 
 ### <a name="custom-runsettings-file-with-incorrect-exclusions"></a>제외를 잘못 지정한 사용자 지정 .runsettings 파일
 

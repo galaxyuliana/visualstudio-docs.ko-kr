@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 339f6477395bf8d91618298bc1618132d76b3794
-ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58647182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945117"
 ---
 # <a name="options-dialog-box-environment--tabs-and-windows"></a>옵션 대화 상자: 환경 \> 탭 및 창
 

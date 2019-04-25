@@ -15,12 +15,12 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3f26dc7fd69c5190f5ba56985ef2509ddbf87866
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c39518c03d1a599dbe9eecac3d609343b7394313
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55919913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822603"
 ---
 # <a name="code-a-custom-validation-rule-for-a-web-performance-test"></a>웹 성능 테스트에 대한 사용자 지정 유효성 검사 규칙 코딩
 
@@ -33,30 +33,30 @@ ms.locfileid: "55919913"
 
 ## <a name="to-create-custom-validation-rules"></a>사용자 지정 유효성 검사 규칙을 만들려면
 
-1.  웹 성능 테스트를 포함하는 테스트 프로젝트를 엽니다.
+1. 웹 성능 테스트를 포함하는 테스트 프로젝트를 엽니다.
 
-2.  (선택 항목) 유효성 검사 규칙을 저장할 별도의 클래스 라이브러리 프로젝트를 만듭니다.
+2. (선택 항목) 유효성 검사 규칙을 저장할 별도의 클래스 라이브러리 프로젝트를 만듭니다.
 
     > [!IMPORTANT]
     > 테스트가 포함되어 있는 프로젝트에 클래스를 만들 수 있습니다. 그러나 규칙을 다시 사용하려면 규칙을 저장할 별도의 클래스 라이브러리 프로젝트를 만드는 것이 좋습니다. 별도의 프로젝트를 만드는 경우 이 절차의 선택 항목 단계를 수행해야 합니다.
 
-3.  (선택 항목) 클래스 라이브러리 프로젝트에서 Microsoft.VisualStudio.QualityTools.WebTestFramework DLL에 대한 참조를 추가합니다.
+3. (선택 항목) 클래스 라이브러리 프로젝트에서 Microsoft.VisualStudio.QualityTools.WebTestFramework DLL에 대한 참조를 추가합니다.
 
-4.  <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule> 클래스에서 파생되는 클래스를 만듭니다. <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule.Validate*> 및 <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule.RuleName*> 멤버를 구현합니다.
+4. <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule> 클래스에서 파생되는 클래스를 만듭니다. <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule.Validate*> 및 <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule.RuleName*> 멤버를 구현합니다.
 
-5.  (선택 항목) 새 클래스 라이브러리 프로젝트를 빌드합니다.
+5. (선택 항목) 새 클래스 라이브러리 프로젝트를 빌드합니다.
 
-6.  (선택 항목) 테스트 프로젝트에서 사용자 지정 유효성 검사 규칙을 포함하는 클래스 라이브러리 프로젝트에 대한 참조를 추가합니다.
+6. (선택 항목) 테스트 프로젝트에서 사용자 지정 유효성 검사 규칙을 포함하는 클래스 라이브러리 프로젝트에 대한 참조를 추가합니다.
 
-7.  테스트 프로젝트에서 웹 성능 테스트를 **웹 성능 테스트 편집기**에서 엽니다.
+7. 테스트 프로젝트에서 웹 성능 테스트를 **웹 성능 테스트 편집기**에서 엽니다.
 
-8.  웹 성능 테스트 요청에 사용자 지정 유효성 검사 규칙을 추가하려면 요청을 마우스 오른쪽 단추로 클릭하고 **유효성 검사 규칙 추가**를 선택합니다.
+8. 웹 성능 테스트 요청에 사용자 지정 유효성 검사 규칙을 추가하려면 요청을 마우스 오른쪽 단추로 클릭하고 **유효성 검사 규칙 추가**를 선택합니다.
 
      **유효성 검사 규칙 추가** 대화 상자가 나타납니다. **규칙 선택** 목록에 미리 정의된 유효성 검사 규칙과 함께 사용자 지정 유효성 검사 규칙이 표시됩니다. 사용자 지정 유효성 검사 규칙을 선택한 다음, **확인**을 선택합니다.
 
 9. 웹 성능 테스트를 실행합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 코드에서는 사용자 지정 유효성 검사 규칙의 구현을 보여 줍니다. 이 유효성 검사 규칙은 미리 정의된 필요한 태그 유효성 검사 규칙의 동작을 모방합니다. 이 예제를 출발점으로 삼아 사용자 지정 유효성 검사 규칙을 직접 만들 수 있습니다.
 

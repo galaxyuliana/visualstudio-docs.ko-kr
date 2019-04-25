@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 8af9195c0e9b36f804e16bd8903cfcfcd094032d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56633891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822861"
 ---
 # <a name="vsinstr"></a>VSInstr
 VSInstr 도구는 이진 파일을 계측하는 데 사용됩니다. 다음 구문을 사용하여 이 도구를 호출합니다.

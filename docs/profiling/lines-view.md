@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 905979e0bc563e7525f1385a484e9b44b523a1f9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: dbfb1780cfb8a64ebe20fc45f02992e60d7bb201
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63000087"
 ---
 # <a name="lines-view"></a>줄 뷰
 줄 뷰는 샘플링 방법을 사용하여 수집한 프로파일러 데이터에만 사용할 수 있습니다. 이 뷰는 계측을 사용하여 수집한 데이터에 사용할 수 없습니다.
@@ -30,17 +30,17 @@ ms.locfileid: "56613988"
 
  문은 다음에 의해 식별됩니다.
 
--   함수 문이 포함된 소스 파일.
+- 함수 문이 포함된 소스 파일.
 
--   문이 포함된 함수.
+- 문이 포함된 함수.
 
--   문이 시작되는 소스 줄.
+- 문이 시작되는 소스 줄.
 
--   문이 시작되는 소스 줄의 문자.
+- 문이 시작되는 소스 줄의 문자.
 
--   문이 끝나는 소스 줄.
+- 문이 끝나는 소스 줄.
 
--   문이 끝나는 소스 줄의 문자.
+- 문이 끝나는 소스 줄의 문자.
 
 ## <a name="see-also"></a>참고 항목
 - [줄 뷰](../profiling/lines-view-sampling-data.md)

@@ -7,12 +7,12 @@ ms.date: 05/06/2018
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
-ms.openlocfilehash: eaf6f82cdc40b174dcd1ca8deb12c412fe675d70
-ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
+ms.openlocfilehash: 8ceee693ee7b20e7045aa8bca4b895a0df383c80
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58568375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62933517"
 ---
 # <a name="introduction-to-azure-functions"></a>Azure Functions 소개
 
@@ -149,9 +149,7 @@ local.settings.json에서 추가한 모든 설정은 Azure의 함수 앱에도 �
     - Http POST CRUD
     - 매개 변수가 있는 http 트리거
 
-
 - **Timer** - 미리 정의된 일정에 따라 정리 또는 기타 일괄 처리 작업을 실행합니다. 이 템플릿에는 이름과 일정 등 두 필드가 있고 6개 필드 CRON 식입니다. 자세한 내용은 [Azure functions 문서의 Timer 부분](/azure/azure-functions/functions-create-scheduled-function)을 참조하세요.
-
 
 - **Queue Trigger** – Azure Storage 큐에 도착하면 메시지에 응답하는 함수입니다. 함수 이름 외에도 이 템플릿은 **경로**(메시지를 읽을 큐의 이름)와 스토리지 계정 **연결**(스토리지 계정 연결 문자열을 포함하는 앱 설정의 이름)을 사용합니다. 자세한 내용은 [Azure 함수 문서의 큐 스토리지 부분](/azure/azure-functions/functions-create-storage-queue-triggered-function)을 참조하세요.
 

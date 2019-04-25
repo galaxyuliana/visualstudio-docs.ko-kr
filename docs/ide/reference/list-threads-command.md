@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 44c66eab323f42ba3aa5392fed657e3afd3a6e5c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55947018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946832"
 ---
 # <a name="list-threads-command"></a>스레드 목록 표시 명령
 현재 프로그램의 스레드 목록을 표시합니다.
@@ -38,7 +38,7 @@ Debug.ListThreads [index]
 ## <a name="remarks"></a>주의
  지정하는 경우 `index` 인수는 현재 스레드로 지정된 스레드를 표시합니다. 별표(*)는 현재 스레드 옆에 있는 목록에 표시됩니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```
 >Debug.ListThreads

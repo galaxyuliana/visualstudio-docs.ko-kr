@@ -12,12 +12,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: 990f14d76eabbf1b7ef252234a8625c66ffcdcba
-ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
+ms.openlocfilehash: 1bc67385a69f7f96288074afd4c7e5f9cefe8805
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58897584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62818502"
 ---
 # <a name="install-and-configure-tools-to-build-using-ios"></a>iOS를 사용하여 빌드할 도구 설치 및 구성
 
@@ -66,13 +66,13 @@ iOS를 사용하여 빌드하는 도구를 설치한 경우 Visual Studio 및 Ma
 
    `sudo npm install -g npm@latest`
 
-##  <a name="Install"></a> iOS용 원격 에이전트 설치
+## <a name="Install"></a> iOS용 원격 에이전트 설치
 
 플랫폼 간 모바일 개발용 Visual C++를 설치하는 경우 Visual Studio는 Mac에서 실행되는 원격 에이전트인 [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988)와 통신하여 파일을 전송하고, iOS 앱을 빌드 및 실행하고, 디버깅 명령을 보낼 수 있습니다.
 
 원격 에이전트를 설치하기 전에 [필수 조건](#prerequisites)을 충족하고 [플랫폼 간 모바일 개발용 Visual C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#install-the-tools)를 설치했는지 확인합니다.
 
-###  <a name="DownloadInstall"></a> 원격 에이전트를 다운로드하여 설치하려면
+### <a name="DownloadInstall"></a> 원격 에이전트를 다운로드하여 설치하려면
 
 - Mac의 터미널 앱에서 다음 명령을 입력합니다.
 
@@ -87,11 +87,11 @@ iOS를 사용하여 빌드하는 도구를 설치한 경우 Visual Studio 및 Ma
 
 Visual Studio를 새 버전으로 업데이트하는 경우 현재 원격 에이전트 버전도 업데이트해야 합니다. 원격 에이전트를 업데이트하려면 원격 에이전트 다운로드 및 설치 단계를 반복합니다.
 
-##  <a name="Start"></a> 원격 에이전트 시작
+## <a name="Start"></a> 원격 에이전트 시작
 
 Visual Studio에서 iOS 코드를 빌드 및 실행하려면 원격 에이전트가 실행되고 있어야 합니다. Visual Studio가 원격 에이전트와 쌍으로 연결되어야 통신할 수 있습니다. 기본적으로 원격 에이전트는 Visual Studio와 쌍으로 연결되기 위해 PIN이 필요한 보안된 연결 모드로 실행됩니다.
 
-###  <a name="RemoteAgentStartServer"></a> 원격 에이전트를 시작하려면
+### <a name="RemoteAgentStartServer"></a> 원격 에이전트를 시작하려면
 
 - Mac의 터미널 앱에서 다음 명령을 입력합니다.
 
@@ -127,7 +127,7 @@ Visual Studio에서 호스트 이름을 사용하여 원격 에이전트를 구�
 
 - vcremote가 실행되는 터미널 창에서 **Ctr**+**C**를 입력합니다.
 
-##  <a name="ConfigureVS"></a> Visual Studio에서 원격 에이전트 구성
+## <a name="ConfigureVS"></a> Visual Studio에서 원격 에이전트 구성
 
 Visual Studio에서 원격 에이전트에 연결하려면 Visual Studio 옵션에서 원격 구성을 지정해야 합니다.
 
@@ -164,7 +164,7 @@ Visual Studio에서 원격 에이전트에 연결하려면 Visual Studio 옵션�
 
 Visual Studio는 사용할 때마다 동일한 정보를 사용하여 Mac의 원격 에이전트에 연결합니다. Mac에서 새 보안 인증서를 생성하거나 해당 호스트 이름 또는 IP 주소가 변경되지 않는 한 Visual Studio를 원격 에이전트와 쌍으로 다시 연결할 필요가 없습니다.
 
-##  <a name="GeneratePIN"></a> Generate a new security PIN
+## <a name="GeneratePIN"></a> Generate a new security PIN
 
 원격 에이전트를 처음 시작하는 경우 생성된 PIN은 제한된 시간(기본적으로 10분) 동안만 유효합니다. 시간이 만료되기 전에 Visual Studio를 원격 에이전트와 쌍으로 연결하지 않으면 새 PIN을 생성해야 합니다.
 
@@ -178,7 +178,7 @@ Visual Studio는 사용할 때마다 동일한 정보를 사용하여 Mac의 원
 
    원격 에이전트가 새 임시 PIN을 생성합니다. 새 PIN을 사용하여 Visual Studio를 쌍으로 연결하려면 [Visual Studio에서 원격 에이전트 구성](#ConfigureVS)의 단계를 반복합니다.
 
-##  <a name="GenerateCert"></a> 새 서버 인증서 생성
+## <a name="GenerateCert"></a> 새 서버 인증서 생성
 
 보안을 위해, Visual Studio를 원격 에이전트와 연결하는 서버 인증서는 Mac의 IP 주소 또는 호스트 이름에 연결되어 있습니다. 이러한 값이 변경되면 새 서버 인증서를 생성한 후 Visual Studio를 새 값으로 다시 구성해야 합니다.
 
@@ -200,9 +200,9 @@ Visual Studio는 사용할 때마다 동일한 정보를 사용하여 Mac의 원
 
 1. 새 PIN을 사용하여 Visual Studio를 쌍으로 연결하려면 [Visual Studio에서 원격 에이전트 구성](#ConfigureVS)의 단계를 반복합니다.
 
-##  <a name="ConfigureMac"></a> Configure the remote agent on the Mac
+## <a name="ConfigureMac"></a> Configure the remote agent on the Mac
 
-다양한 명령줄 옵션을 사용하여 원격 에이전트를 구성할 수 있습니다. 예를 들어 빌드 요청을 수신할 포트와 파일 시스템에 유지할 최대 빌드 수를 지정할 수 있습니다. 기본적으로 해당 제한은 10개 빌드입니다. 원격 에이전트는 종료 시 최댓값을 초과하는 빌드를 제거합니다.
+다양한 명령줄 옵션을 사용하여 원격 에이전트를 구성할 수 있습니다. 예를 들어 빌드 요청을 수신할 포트와 파일 시스템에 유지할 최대 빌드 수를 지정할 수 있습니다. 기본적으로 해당 제한은 10개 빌드입니다. 원격 에이전트는 종료 시 최대값을 초과하는 빌드를 제거합니다.
 
 #### <a name="to-configure-the-remote-agent"></a>원격 에이전트를 구성하려면
 

@@ -8,18 +8,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7815f3b8788ac2fd3eaece89d6e2dbeeb49426d2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: bf6bc8ae841ad8ba0d3fd376176bdff2332fb958
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431999"
 ---
 # <a name="pf"></a>PF
 *VSPerfCmd.exe* **PF** 옵션은 페이지 폴트로 샘플링되는 프로파일링 이벤트를 설정하고 경우에 따라 샘플링 간격의 페이지 폴트 수를 기본값 10에서 변경합니다.
 
 > [!NOTE]
->  **PF**는 64비트 시스템에서 사용할 수 없습니다.
+> **PF**는 64비트 시스템에서 사용할 수 없습니다.
 
 **PF**는 **Launch** 또는 **Attach** 옵션도 포함하는 명령줄에서만 사용할 수 있습니다.
 

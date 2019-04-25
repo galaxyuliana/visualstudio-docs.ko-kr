@@ -6,11 +6,11 @@ ms.author: crdun
 ms.date: 04/02/2019
 ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
 ms.openlocfilehash: ae69c71b3b70e950bc0b58b1c34335f3a52529df
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62983610"
 ---
 # <a name="creating-new-projects-and-solutions"></a>새 프로젝트 및 솔루션 만들기
 

@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f074bf7b5c7077b1c4808d7d3035be0c6366d526
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62842486"
 ---
 # <a name="msbuild-glossary"></a>MSBuild 용어
 이러한 용어는 Microsoft Build Engine(MSBuild) 및 해당 구성 요소를 설명하는 데 사용됩니다.
@@ -71,7 +71,7 @@ ms.locfileid: "56642718"
 
  속성, 함수 - 속성 함수는 MSBuild 스크립트를 평가하는 데 사용할 수 있는 시스템 속성 또는 메서드입니다. 속성 메서드를 사용하면 시스템 시간을 읽고 문자열을 비교하며 정규식을 일치시키고 다른 작업을 수행할 수 있습니다. 자세한 내용은 [속성 함수](../msbuild/property-functions.md)를 참조하세요.
 
- 중첩된 속성 함수 - 속성 함수를 결합하여 보다 복잡한 함수를 만들 수 있습니다. 예를 들어 개체에 적용된
+ 중첩된 속성 함수 - 속성 함수를 결합하여 보다 복잡한 함수를 만들 수 있습니다. 예를 들면 다음과 같습니다.
 
  `$([MSBuild]::BitwiseAnd(32,   $([System.IO.File]::GetAttributes(tempFile))))`
 

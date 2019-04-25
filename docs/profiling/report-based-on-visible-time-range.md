@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fd4758f5484089e58f50462300f48f76f1538381
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63002338"
 ---
 # <a name="report-based-on-visible-time-range"></a>표시되는 시간 범위를 기반으로 하는 보고서
 프로필 뷰는 현재 표시된 시간 범위 및 채널을 기반으로 하는 보고서를 표시합니다. 다른 데이터 하위 집합에 대한 세부 정보를 보려면 범례에서 항목을 클릭합니다.

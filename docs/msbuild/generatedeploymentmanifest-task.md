@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cb06b656b107dce623ea75df162b20a1ea34b401
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: f8a2f4810c8a485d6b9013f658e221db39d8071f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63003352"
 ---
 # <a name="generatedeploymentmanifest-task"></a>GenerateDeploymentManifest 작업
 
@@ -31,7 +31,6 @@ ms.locfileid: "56610322"
 ## <a name="parameters"></a>매개 변수
 
 다음 표에서는 `GenerateDeploymentManifest` 작업의 매개 변수에 대해 설명합니다.
-
 
 | 매개 변수 | 설명 |
 |--------------------------| - |
