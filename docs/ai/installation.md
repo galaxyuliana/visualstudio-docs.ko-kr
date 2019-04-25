@@ -9,12 +9,12 @@ ms.date: 11/13/2017
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 7fe18719e55a59abfcbde35195ed499fe9882c6c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 623aa21e94ff25b8190bae82ca836ed16f64bcaa
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62548451"
 ---
 # <a name="installation"></a>설치
 
@@ -87,6 +87,7 @@ Python은 심층 학습 애플리케이션의 기본 프로그래밍 언어입�
 이제 Python 3.5가 제대로 설치되었는지 확인하고 터미널에서 다음 명령을 실행하여 pip를 최신 버전으로 업그레이드합니다.
 
 - **Windows**
+
     ```cmd
     C:\Users\test>python -V
     Python 3.5.4
@@ -98,6 +99,7 @@ Python은 심층 학습 애플리케이션의 기본 프로그래밍 언어입�
     ```
 
 - **macOS**
+
     ```bash
     MyMac:~ test$ python3.5 -V
     Python 3.5.4
@@ -159,10 +161,13 @@ CNTK Python 패키지를 설치하려면 [CNTK를 설치하는 방법](https://d
 MXNet을 설치하려면 터미널에서 다음 명령을 실행합니다.
 
 - GPU 사용
+
     ```bash
     pip3.5 install mxnet-cu80==0.12.0
     ```
+
 - GPU 사용 안 함
+
     ```bash
     pip3.5 install mxnet==0.12.0
     ```

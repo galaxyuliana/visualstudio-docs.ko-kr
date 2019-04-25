@@ -20,12 +20,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8bde65506a9005459f1102cd6181e0fa346ec26a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 6ec5b5210c37e6beaa71cecb6894ec5b72d96060
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55912705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62540917"
 ---
 # <a name="miscellaneous-files"></a>기타 파일
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 편집기를 사용하여 프로젝트 또는 솔루션의 파일에 대해 개별적으로 작업할 수 있습니다. 솔루션이 열려 있는 동안 솔루션 또는 프로젝트에 추가하지 않고 파일을 열고 수정할 수 있습니다. 컨테이너에서 개별적으로 작업하려는 파일을 기타 파일이라고 합니다. 기타 파일은 솔루션 및 프로젝트 외부에 있고, 빌드에 포함되지 않으며, 소스 제어 솔루션에 포함할 수 없습니다.
@@ -40,7 +40,6 @@ ms.locfileid: "55912705"
 
 > [!NOTE]
 > 기타 파일 폴더에 나타나지 않는 일부 파일은 IDE 내에서 수정할 수 없는 파일(예: .zip 파일, .doc 파일)입니다. IDE는 외부 편집기를 통해서만 수정할 수 있는 파일을 추적하지 않습니다.
-
 
 ## <a name="commands-available-in-the-ide"></a>IDE에서 사용할 수 있는 명령
  메뉴, 도구 모음 및 포함된 명령은 여는 파일의 형식에 따라 변경됩니다. 예를 들어 텍스트 파일을 여는 경우 텍스트 편집기 도구 모음이 나타나고 해당 명령을 사용할 수 있습니다. XML 스키마 파일을 여는 경우 XML 스키마 도구 모음이 나타납니다. XML 스키마를 편집하는 동안 텍스트 편집기 도구 모음의 명령(또는 도구 모음 자체)은 사용할 수 없습니다. XML 스키마는 활성 창이므로 현재 선택 영역 컨텍스트가 있습니다. 프로젝트 파일과 기타 파일 간에 전환하는 경우 모든 프로젝트 관련 명령이 사라지고 기타 파일과 직접 관련된 명령만 나타납니다.

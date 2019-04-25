@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 78fe110ee6abf70d091f9d7c1f67b56608f82c27
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 742b2b1660b5a1776edca0a4b64c56222cd1c163
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57982989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62777641"
 ---
 # <a name="xsd-task"></a>XSD 작업
 소스에서 스키마 또는 클래스 파일을 생성하는 XML 스키마 정의 도구(*xsd.exe*)를 래핑합니다.
@@ -36,13 +36,13 @@ ms.locfileid: "57982989"
 ## <a name="parameters"></a>매개 변수
  다음 표에서는 **XSD** 작업의 매개 변수에 대해 설명합니다.
 
--   **AdditionalOptions**
+- **AdditionalOptions**
 
      선택적 **문자열** 매개 변수입니다.
 
      명령줄에 지정된 것처럼 옵션 목록입니다. 예: /\<option1> /\<option2> /\<option#>. 이 매개 변수를 사용하여 다른 **XSD** 작업 매개 변수로 표현되지 않는 옵션을 지정합니다.
 
--   **GenerateFromSchema**
+- **GenerateFromSchema**
 
      선택적 **문자열** 매개 변수입니다.
 
@@ -50,11 +50,11 @@ ms.locfileid: "57982989"
 
      각각 XSD 옵션에 해당하는 다음 값 중 하나를 지정합니다.
 
-    -   **클래스** - **/classes**
+    - **클래스** - **/classes**
 
-    -   **데이터 세트** - **/dataset**
+    - **데이터 세트** - **/dataset**
 
--   **언어**
+- **언어**
 
      선택적 **String** 매개 변수입니다.
 
@@ -62,25 +62,25 @@ ms.locfileid: "57982989"
 
      **CS**(C#, 기본값), **VB**(Visual Basic) 또는 **JS**(JScript) 중에서 선택합니다. `System.CodeDom.Compiler.CodeDomProvider Class`를 구현하는 클래스의 정규화된 이름을 지정할 수도 있습니다.
 
--   **Namespace**
+- **Namespace**
 
      선택적 **문자열** 매개 변수입니다.
 
      생성된 형식에 대한 런타임 네임스페이스를 지정합니다.
 
--   **Sources**
+- **Sources**
 
      필수 `ITaskItem[]` 매개 변수입니다.
 
      작업에서 사용하고 내보낼 수 있는 MSBuild 소스 파일 항목의 배열을 정의합니다.
 
--   **SuppressStartupBanner**
+- **SuppressStartupBanner**
 
      선택적 **Boolean** 매개 변수입니다.
 
      `true`인 경우 작업을 시작할 때 저작권과 버전 번호 메시지가 표시되지 않도록 합니다.
 
--   **TrackerLogDirectory**
+- **TrackerLogDirectory**
 
      선택적 **문자열** 매개 변수입니다.
 

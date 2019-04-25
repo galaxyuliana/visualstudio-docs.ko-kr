@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ea96fe521afe713b1eafd59390047bfdb427f6fe
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62553229"
 ---
 # <a name="copy-selection"></a>선택 영역 복사
 보고서 탭에서 전체 호출 스택을 복사하려면 **복사**를 클릭합니다. 그런 다음 해당 작업을 지원하는 임의의 프로그램에서 호출 스택을 붙여넣을 수 있습니다.

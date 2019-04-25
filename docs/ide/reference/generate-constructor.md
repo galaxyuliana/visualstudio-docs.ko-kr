@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: aa3d347c08ee73054d4b229d7d2598331e44c1d7
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: faef5f2420f4abd30ecec9151212b8a731736886
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55941376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62795214"
 ---
 # <a name="generate-a-constructor-in-visual-studio"></a>Visual Studio에서 생성자 생성
 
@@ -30,11 +30,11 @@ ms.locfileid: "55941376"
 
 **방법:** 여러 가지 방법으로 생성자를 생성할 수 있습니다.
 
-   - [생성자 생성 및 멤버 선택](#pick)
-   - [선택한 필드에서 생성자 생성](#selection)
-   - [새 사용에서 생성자 생성](#usage)
-   - [기존 생성자에 매개 변수 추가](#addparameter)
-   - [생성자 매개 변수에서 필드/속성 만들기 및 초기화](#create)
+- [생성자 생성 및 멤버 선택](#pick)
+- [선택한 필드에서 생성자 생성](#selection)
+- [새 사용에서 생성자 생성](#usage)
+- [기존 생성자에 매개 변수 추가](#addparameter)
+- [생성자 매개 변수에서 필드/속성 만들기 및 초기화](#create)
 
 ## <a id = "pick"></a> 생성자 생성 및 멤버 선택(C#만 해당)
 

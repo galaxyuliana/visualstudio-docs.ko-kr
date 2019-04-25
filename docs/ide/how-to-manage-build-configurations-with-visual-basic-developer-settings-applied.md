@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9f4f1ef20a376c0f77f8ecbbea87ad9769870d60
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 7ee2ecb5e501390dfc82d895bf6a81706f4297a4
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62430297"
 ---
 # <a name="how-to-manage-build-configurations-with-visual-basic-developer-settings-applied"></a>방법: Visual Basic 개발자 설정을 적용하여 빌드 구성 관리
 
@@ -29,16 +29,16 @@ ms.locfileid: "55949294"
 
 기본적으로 Visual Basic 개발자 설정은 [프로젝트 디자이너](../ide/reference/application-page-project-designer-visual-basic.md)의 **구성** 및 **플랫폼** 목록과 **구성 관리자** 대화 상자를 여는 옵션을 숨깁니다.
 
-1.  **도구** 메뉴에서 **옵션**을 클릭합니다.
+1. **도구** 메뉴에서 **옵션**을 클릭합니다.
 
-2.  **프로젝트 및 솔루션**을 확장하고 **일반**을 클릭합니다.
+2. **프로젝트 및 솔루션**을 확장하고 **일반**을 클릭합니다.
 
     > [!NOTE]
     > **일반** 노드는 **모든 설정 표시** 옵션이 선택 취소된 경우에도 표시됩니다. 모든 옵션을 사용 가능하게 표시하려면 **모든 설정 표시**를 클릭합니다.
 
-3.  **고급 빌드 구성 표시**를 클릭합니다.
+3. **고급 빌드 구성 표시**를 클릭합니다.
 
-4.  **확인**을 클릭합니다.
+4. **확인**을 클릭합니다.
 
      이제 **빌드** 메뉴에서 **구성 관리자**를 사용할 수 있고 **구성** 및 **플랫폼** 목록이 **프로젝트 디자이너**에 표시됩니다.
 

@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 37326bbe44eed15a562f0d28c01eac02973a2487
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62789260"
 ---
 # <a name="useenv-devenvexe"></a>/UseEnv(devenv.exe)
 
@@ -58,7 +58,7 @@ devenv /UseEnv {SolutionName|ProjectName}
 
 이 스위치로 프로젝트 이름을 지정하면 프로젝트의 부모 솔루션 내에 있는 모든 프로젝트의 환경 변수가 표시됩니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 예제에서는 Visual Studio를 시작하고 환경 변수를 `MySolution` 솔루션의 속성 페이지에 로드합니다.
 

@@ -4,17 +4,19 @@ description: Visure Studio에서 Azure 서버 탐색기 (VM) 만들기 및 관�
 author: ghogen
 manager: jillfra
 assetId: eb3afde6-ba90-4308-9ac1-3cc29da4ede0
+ms.prod: visual-studio-dev14
+ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/31/2017
 ms.author: ghogen
 ms.openlocfilehash: e4f8f72dcc19ebe721e79c7b5268fd73d2cc469e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55930833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62427034"
 ---
 # <a name="accessing-azure-virtual-machines-from-server-explorer"></a>서버 탐색기에서 Azure Virtual Machines에 액세스
 
@@ -33,7 +35,7 @@ Azure에서 호스팅되는 가상 머신이 있는 경우 서버 탐색기에�
    | 상태 |값은 시작, 시작됨, 중지, 중지됨 및 상태 검색을 포함합니다. 상태 검색이 나타나면 현재 상태는 알 수 없습니다. 이 속성의 값은 [Azure Portal](http://go.microsoft.com/fwlink/p/?LinkID=525040)에서 사용된 값과 다릅니다. |
    | 구독 ID |Azure 계정에 대한 구독 ID 구독에 대한 속성을 확인하여 [Azure Portal](http://go.microsoft.com/fwlink/p/?LinkID=525040)에 대한 이 정보를 표시할 수 있습니다. |
 2. 엔드포인트 노드를 선택한 다음 **속성** 창을 확인합니다.
-3. 다음 테이블은 사용 가능하지만 읽기 전용인 엔드포인트 속성을 설명합니다. 가상 머신에 대해 엔드포인트를 추가하거나 편집하려면 [Azure Portal](http://go.microsoft.com/fwlink/p/?LinkID=525040)을 사용합니다.
+3. 다음 테이블은 사용 가능하지만 읽기 전용인 엔드포인트 속성을 설명합니다. 가상 머신에 대해 엔드포인트를 추가하거나 편집하려면 [Azure Portal](http://go.microsoft.com/fwlink/p/?LinkID=525040)을 사용합니다. 
 
    | 속성 | 설명 |
    | --- | --- |

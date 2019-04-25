@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 09d58e682424e09f0e8d5c37c1c6e0b8839495d4
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62422087"
+---
 # <a name="visual-studio-documentation"></a>Visual Studio 설명서
 
 환영합니다. 이 리포지토리는 Visual Studio 기술 문서의 원본 파일을 포함합니다. 항목은 [docs.microsoft.com](https://docs.microsoft.com/visualstudio)에 게시됩니다.

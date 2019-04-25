@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 5366e33da9af7a845a7f5e5a5e3a901b7d091fa3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9685d1621f0e81adbbb034c250974b7bc9b36993
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55947344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822763"
 ---
 # <a name="code-generation-compilation-and-naming-conventions-in-microsoft-fakes"></a>Microsoft Fakes의 코드 생성, 컴파일 및 명명 규칙
 
@@ -20,8 +20,8 @@ ms.locfileid: "55947344"
 
 **요구 사항**
 
--   Visual Studio Enterprise
--   .NET Framework 프로젝트
+- Visual Studio Enterprise
+- .NET Framework 프로젝트
 
 > [!NOTE]
 > .NET Standard 프로젝트는 지원되지 않습니다.
@@ -62,23 +62,23 @@ ms.locfileid: "55947344"
 
 필터 문자열은 간단한 문법을 사용하여 일치를 수행하는 방법을 정의합니다.
 
--   필터는 기본적으로 대/소문자를 구분하지 않으며 부분 문자열 일치를 수행합니다.
+- 필터는 기본적으로 대/소문자를 구분하지 않으며 부분 문자열 일치를 수행합니다.
 
      `el`은 "hello"와 일치합니다.
 
--   필터의 끝에 `!`를 추가하여 정확하게 대/소문자를 구분하여 일치하도록 합니다.
+- 필터의 끝에 `!`를 추가하여 정확하게 대/소문자를 구분하여 일치하도록 합니다.
 
      `el!`은 "hello"와 일치하지 않습니다.
 
      `hello!`은 "hello"와 일치합니다.
 
--   필터의 끝에 `*`를 추가하여 문자열의 접두사가 일치하도록 합니다.
+- 필터의 끝에 `*`를 추가하여 문자열의 접두사가 일치하도록 합니다.
 
      `el*`은 "hello"와 일치하지 않습니다.
 
      `he*`는 "hello"와 일치합니다.
 
--   세미콜론으로 구분된 목록의 여러 필터는 분리로 결합됩니다.
+- 세미콜론으로 구분된 목록의 여러 필터는 분리로 결합됩니다.
 
      `el;wo`는 "hello" 및 "world"와 일치합니다.
 
@@ -114,9 +114,9 @@ Fakes 코드 생성기는 생성된 Fakes 어셈블리에 표시되는 형식에
 
  shim된 어셈블리에 강력한 이름을 지정하고 어셈블리의 내부 형식에 액세스하려는 경우:
 
--   테스트 어셈블리와 Fakes 어셈블리에 모두 강력한 이름을 지정해야 합니다.
+- 테스트 어셈블리와 Fakes 어셈블리에 모두 강력한 이름을 지정해야 합니다.
 
--   테스트 및 Fakes 어셈블리의 공용 키를 shim된 어셈블리의 **InternalsVisibleToAttribute** 특성에 추가합니다. 다음은 shim된 어셈블리에 강력한 이름을 지정할 경우 shim된 어셈블리 코드의 예제 특성이 표시되는 모양입니다.
+- 테스트 및 Fakes 어셈블리의 공용 키를 shim된 어셈블리의 **InternalsVisibleToAttribute** 특성에 추가합니다. 다음은 shim된 어셈블리에 강력한 이름을 지정할 경우 shim된 어셈블리 코드의 예제 특성이 표시되는 모양입니다.
 
     ```csharp
     // FileSystem\AssemblyInfo.cs
@@ -161,19 +161,19 @@ Fakes 어셈블리를 컴파일하면 빌드 시간이 현저하게 길어질 �
 
 단위 테스트 프로젝트에서 프로젝트 폴더의 FakesAssemblies 아래에 배치된 컴파일된 Fakes 어셈블리에 대한 참조를 추가합니다.
 
-1.  테스트 프로젝트와 일치하는 .NET 런타임 버전을 사용하여 새 클래스 라이브러리를 만듭니다. 이 라이브러리를 Fakes.Prebuild라고 하겠습니다. 프로젝트에서 필요 없는 *class1.cs* 파일을 제거합니다.
+1. 테스트 프로젝트와 일치하는 .NET 런타임 버전을 사용하여 새 클래스 라이브러리를 만듭니다. 이 라이브러리를 Fakes.Prebuild라고 하겠습니다. 프로젝트에서 필요 없는 *class1.cs* 파일을 제거합니다.
 
-2.  Fakes가 필요한 모든 시스템 및 타사 어셈블리에 대한 참조를 추가합니다.
+2. Fakes가 필요한 모든 시스템 및 타사 어셈블리에 대한 참조를 추가합니다.
 
-3.  각 어셈블리에 대한 *.fakes* 파일을 추가하고 빌드합니다.
+3. 각 어셈블리에 대한 *.fakes* 파일을 추가하고 빌드합니다.
 
-4.  테스트 프로젝트에서 다음을 수행합니다.
+4. 테스트 프로젝트에서 다음을 수행합니다.
 
-    -   Fakes 런타임 DLL에 대한 참조가 있는지 확인합니다.
+    - Fakes 런타임 DLL에 대한 참조가 있는지 확인합니다.
 
          *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PublicAssemblies\Microsoft.QualityTools.Testing.Fakes.dll*
 
-    -   Fakes를 만든 각 어셈블리에 대해 프로젝트의 *Fakes.Prebuild\FakesAssemblies* 폴더에서 해당 DLL 파일에 대한 참조를 추가합니다.
+    - Fakes를 만든 각 어셈블리에 대해 프로젝트의 *Fakes.Prebuild\FakesAssemblies* 폴더에서 해당 DLL 파일에 대한 참조를 추가합니다.
 
 ### <a name="avoid-assembly-name-clashing"></a>어셈블리 이름 충돌 방지
 
@@ -233,7 +233,7 @@ attribute of the Assembly element in the .fakes:
 
   getter 또는 setter 속성과 같은 **특수 메서드 이름**은 다음 표에 설명된 대로 처리됩니다.
 
-|메서드 특성...|예|추가되는 메서드 이름|
+|메서드 특성...|예제|추가되는 메서드 이름|
 |-|-|-|
 |**생성자**|`.ctor`|`Constructor`|
 |정적 **생성자**|`.cctor`|`StaticConstructor`|
@@ -270,9 +270,9 @@ attribute of the Assembly element in the .fakes:
 
 다음 규칙은 재귀적으로 적용됩니다.
 
--   Fakes는 C#을 사용하여 Fakes 어셈블리를 생성하므로 잘못된 C# 토큰을 생성하는 모든 문자는 "_"(밑줄)로 이스케이프됩니다.
+- Fakes는 C#을 사용하여 Fakes 어셈블리를 생성하므로 잘못된 C# 토큰을 생성하는 모든 문자는 "_"(밑줄)로 이스케이프됩니다.
 
--   결과 이름이 선언 형식의 멤버와 충돌하는 경우 01부터 시작하는 두 자리 카운터를 추가하여 번호 매기기 구성표를 사용합니다.
+- 결과 이름이 선언 형식의 멤버와 충돌하는 경우 01부터 시작하는 두 자리 카운터를 추가하여 번호 매기기 구성표를 사용합니다.
 
 ## <a name="see-also"></a>참고 항목
 

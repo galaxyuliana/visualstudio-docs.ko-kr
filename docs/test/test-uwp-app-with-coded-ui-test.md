@@ -10,12 +10,12 @@ dev_langs:
 - VB
 ms.workload:
 - uwp
-ms.openlocfilehash: 11fc95978690e98d496f539d4e98acf58104be3b
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: d50972ccb68ba43e8ebefa0d69fdfff8f7fc5be4
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58416125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62430266"
 ---
 # <a name="create-a-coded-ui-test-to-test-a-uwp-app"></a>UWP 앱을 테스트하기 위한 코딩된 UI 테스트 만들기
 
@@ -136,6 +136,7 @@ ms.locfileid: "58416125"
         Assert.AreEqual(Me.AssertMethod1ExpectedValues.UITextBoxEditText, uITextBoxEdit.Text, "Textbox value is unexpected.")
     End Sub
     ```
+
 1. 그런 다음, 테스트할 UWP [앱](#create-a-uwp-app-to-test)의 **AutomationId**를 가져와야 합니다. Windows **시작** 메뉴를 열어 앱의 타일을 확인합니다. 그런 다음, **코딩된 UI 테스트 빌더** 대화 상자에서 십자선 도구 ![대상 아이콘](media/target-icon.png)을 앱의 타일로 끕니다. 파란색 상자가 타일을 둘러싸면 마우스를 놓습니다.
 
    ![십자선 도구](media/cross-hair-tool.png)

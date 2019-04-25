@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: b21e9b1735f7d6e631d25cecb2923662625400c0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 2026767778f1e060ccff4a05af2649a40c1d984f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62810258"
 ---
 # <a name="quickstart-analyze-cpu-usage-data-in-visual-studio-aspnet"></a>빠른 시작: Visual Studio에서 CPU 사용량 데이터(ASP.NET) 분석
 
@@ -153,30 +153,30 @@ Windows 8 이상에서는 디버거(**진단 도구** 창)를 포함한 프로�
     }
     ```
 
-##  <a name="step-1-collect-profiling-data"></a>1단계: 프로파일링 데이터 수집
+## <a name="step-1-collect-profiling-data"></a>1단계: 프로파일링 데이터 수집
 
-1.  먼저 `Simple` 생성자의 이 코드 줄에서 앱에 중단점을 설정합니다.
+1. 먼저 `Simple` 생성자의 이 코드 줄에서 앱에 중단점을 설정합니다.
 
     `for (int i = 0; i < 200; i++)`
 
     코드 줄의 왼쪽 여백을 클릭하여 중단점을 설정합니다.
 
-1.  다음으로 `Simple` 생성자 끝의 닫는 중괄호에서 두 번째 중단점을 설정합니다.
+1. 다음으로 `Simple` 생성자 끝의 닫는 중괄호에서 두 번째 중단점을 설정합니다.
 
      ![프로파일링을 위한 중단점 설정](../profiling/media/quickstart-cpu-usage-breakpoints-aspnet.png)
 
     > [!TIP]
     > 두 개의 중단점을 설정하여, 분석하려는 코드 부분으로 데이터 수집을 제한할 수 있습니다.
 
-1.  사용자가 닫지 않았다면 **진단 도구** 창이 이미 표시되어 있을 것입니다. 창을 다시 표시하려면 **디버그** > **Windows** > **진단 도구 표시**를 클릭합니다.
+1. 사용자가 닫지 않았다면 **진단 도구** 창이 이미 표시되어 있을 것입니다. 창을 다시 표시하려면 **디버그** > **Windows** > **진단 도구 표시**를 클릭합니다.
 
-1.  **디버그** > **디버깅 시작**을 클릭합니다(또는 도구 모음의 **시작** 또는 **F5** 키 누름).
+1. **디버그** > **디버깅 시작**을 클릭합니다(또는 도구 모음의 **시작** 또는 **F5** 키 누름).
 
-1.  앱 로드가 완료되면 앱 페이지 상단의 **About** 링크를 클릭하여 새 코드 실행을 시작합니다.
+1. 앱 로드가 완료되면 앱 페이지 상단의 **About** 링크를 클릭하여 새 코드 실행을 시작합니다.
 
-1.  진단 도구의 **요약** 보기가 표시되는 것을 확인합니다.
+1. 진단 도구의 **요약** 보기가 표시되는 것을 확인합니다.
 
-1.  디버거가 일시 중지되면 **CPU 프로필 기록**을 선택한 다음 **CPU 사용량** 탭을 열어 CPU 사용량 데이터 수집을 사용하도록 설정합니다.
+1. 디버거가 일시 중지되면 **CPU 프로필 기록**을 선택한 다음 **CPU 사용량** 탭을 열어 CPU 사용량 데이터 수집을 사용하도록 설정합니다.
 
      ![진단 도구에서 CPU 프로파일을 사용하도록 설정](../profiling/media/quickstart-cpu-usage-summary.png)
 
@@ -184,7 +184,7 @@ Windows 8 이상에서는 디버거(**진단 도구** 창)를 포함한 프로�
 
      **CPU 프로필 기록**을 선택하면 Visual Studio가 함수와 함수 실행 소요 시간을 기록하기 시작하며 샘플링 세션의 특정 부분에 초점을 맞출 수 있는 타임라인 그래프도 제공합니다. 애플리케이션이 중단점에서 중단되었을 때 이 수집 데이터를 보기만 하면 됩니다.
 
-6.  두 번째 중단점까지 앱을 실행하려면 F5 키를 누릅니다.
+6. 두 번째 중단점까지 앱을 실행하려면 F5 키를 누릅니다.
 
      이제 구체적으로 두 개의 중단점 사이에서 실행되는 코드 영역에 대한 애플리케이션의 성능 데이터가 제공됩니다.
 
