@@ -13,12 +13,12 @@ author: bowdenk7
 ms.author: wilkelly
 manager: jillfra
 monikerRange: vs-2017
-ms.openlocfilehash: 88de2703db119f4124eb02658efb327df2ae899f
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.openlocfilehash: 58de705d90567723f98bfb472f808da7101a624e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58790474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62553378"
 ---
 # <a name="javascript-in-visual-studio-2017"></a>Visual Studio 2017의 JavaScript
 
@@ -52,14 +52,14 @@ JavaScript 파일을 컴파일하려면 `tsconfig.json` 파일을 추가하고 �
 
 tsconfig 파일에 대한 필수 설정은 다음과 같습니다.
 
- - `allowJs`: JavaScript 파일이 인식되려면 이 값을 `true`로 설정해야 합니다. 기본값은 `false`입니다. TypeScript는 JavaScript로 컴파일되고 컴파일러는 방금 컴파일한 파일을 포함하지 않아야 하기 때문입니다.
- - `outDir`: 내보낸 JavaScript 파일이 검색된 후 프로젝트에 포함되지 않도록 하려면 이 값을 프로젝트에 포함되지 않은 위치로 설정해야 합니다(`exclude` 참조).
- - `module`: 모듈을 사용할 경우 이 설정은 내보낸 코드에서 사용해야 하는 모듈 형식을 컴파일러에 알립니다(예: Browserify와 같은 노드 또는 번들러의 경우 `commonjs`).
- - `exclude`: 이 설정은 프로젝트에 포함하지 않을 폴더를 나타냅니다.
- 출력 위치 및 `node_modules` 또는 `temp`와 같은 프로젝트 이외 폴더를 이 설정에 추가해야 합니다.
- - `enableAutoDiscovery`: 이 설정을 통해 이전에 설명한 대로 정의 파일을 자동으로 검색 및 다운로드할 수 있습니다.
- - `compileOnSave`: 이 설정은 언제든 소스 파일이 Visual Studio에서 저장되면 다시 컴파일해야 하는 경우 컴파일러에 알립니다.
- - `typeAcquisition`: 이 설정 세트를 통해 자동 형식 인식의 동작([이 섹션](/visualstudio/ide/javascript-intellisense#Auto)에서 자세히 설명)을 제어합니다.
+- `allowJs`: JavaScript 파일이 인식되려면 이 값을 `true`로 설정해야 합니다. 기본값은 `false`입니다. TypeScript는 JavaScript로 컴파일되고 컴파일러는 방금 컴파일한 파일을 포함하지 않아야 하기 때문입니다.
+- `outDir`: 내보낸 JavaScript 파일이 검색된 후 프로젝트에 포함되지 않도록 하려면 이 값을 프로젝트에 포함되지 않은 위치로 설정해야 합니다(`exclude` 참조).
+- `module`: 모듈을 사용할 경우 이 설정은 내보낸 코드에서 사용해야 하는 모듈 형식을 컴파일러에 알립니다(예: Browserify와 같은 노드 또는 번들러의 경우 `commonjs`).
+- `exclude`: 이 설정은 프로젝트에 포함하지 않을 폴더를 나타냅니다.
+출력 위치 및 `node_modules` 또는 `temp`와 같은 프로젝트 이외 폴더를 이 설정에 추가해야 합니다.
+- `enableAutoDiscovery`: 이 설정을 통해 이전에 설명한 대로 정의 파일을 자동으로 검색 및 다운로드할 수 있습니다.
+- `compileOnSave`: 이 설정은 언제든 소스 파일이 Visual Studio에서 저장되면 다시 컴파일해야 하는 경우 컴파일러에 알립니다.
+- `typeAcquisition`: 이 설정 세트를 통해 자동 형식 인식의 동작([이 섹션](/visualstudio/ide/javascript-intellisense#Auto)에서 자세히 설명)을 제어합니다.
 
 JavaScript 파일을 CommonJS 모듈로 변환하고 `./out` 폴더에 두려면 다음 `tsconfig.json` 파일을 사용할 수 있습니다.
 

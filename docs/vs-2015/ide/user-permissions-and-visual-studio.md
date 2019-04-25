@@ -14,12 +14,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d37e20154b3471e26f170c8437369493764935fc
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 6e30fd7500c0f9dd216b630ea79ebfb79c964fab
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54775874"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60101888"
 ---
 # <a name="user-permissions-and-visual-studio"></a>사용자 권한 및 Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,19 +56,19 @@ ms.locfileid: "54775874"
 
 #### <a name="to-run-visual-studio-with-administrative-permissions-on-includewin8includeswin8-mdmd-includewin81includeswin81-mdmd-includewinserver8includeswinserver8-mdmd-or-includewinblueserver2includeswinblue-server-2-mdmd"></a>[!INCLUDE[win8](../includes/win8-md.md)], [!INCLUDE[win81](../includes/win81-md.md)], [!INCLUDE[winserver8](../includes/winserver8-md.md)] 또는 [!INCLUDE[winblue_server_2](../includes/winblue-server-2-md.md)]에서 관리자 권한으로 Visual Studio를 실행하려면
 
-1.  **시작** 화면에서 **Visual Studio**를 입력합니다. 설치된 Visual Studio의 버전이 표시되어야 합니다.
+1. **시작** 화면에서 **Visual Studio**를 입력합니다. 설치된 Visual Studio의 버전이 표시되어야 합니다.
 
-2.  시작할 Visual Studio의 버전을 선택한 후 바로 가기 메뉴를 표시합니다(화면 맨 아래에 표시). **관리자 권한으로 실행**을 선택합니다.
+2. 시작할 Visual Studio의 버전을 선택한 후 바로 가기 메뉴를 표시합니다(화면 맨 아래에 표시). **관리자 권한으로 실행**을 선택합니다.
 
      Visual Studio가 시작되면 제목 표시줄의 제품 이름 뒤에 **(관리자)** 가 나타납니다.
 
 #### <a name="to-run-visual-studio-with-administrative-permissions-on-includewin7includeswin7-mdmd-or-includewinsvr08r2includeswinsvr08-r2-mdmd"></a>[!INCLUDE[win7](../includes/win7-md.md)] 또는 [!INCLUDE[winsvr08_r2](../includes/winsvr08-r2-md.md)]에서 관리자 권한으로 Visual Studio를 실행하려면
 
-1.  **시작** 메뉴에서 **모든 프로그램**을 선택합니다.
+1. **시작** 메뉴에서 **모든 프로그램**을 선택합니다.
 
-2.  **Microsoft Visual Studio** *버전* 폴더에서 **Visual Studio** *버전*을 선택하고 바로 가기 메뉴를 연 다음 **관리자 권한으로 실행**을 선택합니다.
+2. **Microsoft Visual Studio** *버전* 폴더에서 **Visual Studio** *버전*을 선택하고 바로 가기 메뉴를 연 다음 **관리자 권한으로 실행**을 선택합니다.
 
      Visual Studio가 시작되면 제목 표시줄의 제품 이름 뒤에 **(관리자)** 가 나타납니다.
 
 ## <a name="see-also"></a>참고 항목
- [포팅, 마이그레이션 및 Visual Studio 프로젝트를 업그레이드](../porting/porting-migrating-and-upgrading-visual-studio-projects.md) [Visual Studio 2015 설치](../install/install-visual-studio-2015.md)
+ [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/porting-migrating-and-upgrading-visual-studio-projects.md) [Visual Studio 2015 설치](../install/install-visual-studio-2015.md)
