@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b23a676e4028e8f06f26ccc985ca22b85f56ac95
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 8d1a15765bff6d391afc7395be03172bf5d5fc32
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975101"
 ---
 # <a name="how-to-view-inheritance-between-types-in-class-designer"></a>방법: 클래스 디자이너에서 형식 간의 상속 보기
 
@@ -27,9 +27,9 @@ ms.locfileid: "55907852"
 
 ## <a name="to-find-the-base-type"></a>기본 형식을 찾으려면
 
-1.  클래스 다이어그램에서 기본 클래스 또는 인터페이스를 확인할 형식을 클릭합니다.
+1. 클래스 다이어그램에서 기본 클래스 또는 인터페이스를 확인할 형식을 클릭합니다.
 
-2.  **클래스 다이어그램** 메뉴에서 **기본 클래스 표시** 또는 **기본 인터페이스 표시**를 선택합니다.
+2. **클래스 다이어그램** 메뉴에서 **기본 클래스 표시** 또는 **기본 인터페이스 표시**를 선택합니다.
 
      형식의 기본 클래스 또는 인터페이스가 다이어그램에서 선택된 상태로 표시됩니다. 이제 숨겨진 상속 선이 두 모양 간에 표시됩니다.
 
@@ -37,9 +37,9 @@ ms.locfileid: "55907852"
 
 ## <a name="to-find-the-derived-types"></a>파생 형식을 찾으려면
 
-1.  클래스 다이어그램에서 파생 클래스 또는 인터페이스를 확인할 형식을 클릭합니다.
+1. 클래스 다이어그램에서 파생 클래스 또는 인터페이스를 확인할 형식을 클릭합니다.
 
-2.  **클래스 다이어그램** 메뉴에서 **파생 클래스 표시** 또는 **파생 인터페이스 표시**를 선택합니다.
+2. **클래스 다이어그램** 메뉴에서 **파생 클래스 표시** 또는 **파생 인터페이스 표시**를 선택합니다.
 
      형식의 파생 클래스 또는 인터페이스가 다이어그램에 표시됩니다. 이제 숨겨진 상속 선이 모양 간에 표시됩니다.
 

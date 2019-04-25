@@ -10,18 +10,28 @@ manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 05551799a0f97178c5a52d7468f6c6abb505e4c3
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.openlocfilehash: f81ca0d5c41f08174adfc891055939414e1bfe6f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62953961"
 ---
 # <a name="quickstart-create-your-first-python-web-app-using-visual-studio"></a>빠른 시작: Visual Studio를 사용하여 첫 번째 Python 웹앱 만들기
 
 Python IDE인 Visual Studio에 대한 5~10분 분량의 소개에서는 Flask 프레임워크에 따라 간단한 Python 웹 애플리케이션을 만듭니다. Visual Studio의 기본 기능에 대해 알 수 있는 불연속 단계를 통해 프로젝트를 만듭니다.
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)로 이동하여 체험용으로 설치합니다. 설치 관리자에서 **Python 개발** 워크로드를 선택하도록 합니다.
+::: moniker range="vs-2017"
+
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 페이지로 이동하여 체험용으로 설치합니다. 설치 관리자에서 **Python 개발** 워크로드를 선택하도록 합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하여 체험용으로 설치합니다. 설치 관리자에서 **Python 개발** 워크로드를 선택하도록 합니다.
+
+::: moniker-end
 
 ## <a name="create-the-project"></a>프로젝트를 만듭니다.
 
@@ -69,7 +79,7 @@ Python IDE인 Visual Studio에 대한 5~10분 분량의 소개에서는 Flask �
 
 **대답**: 일반적으로 Python 애플리케이션은 폴더 및 파일만 사용하여 정의되지만 애플리케이션이 커질수록 이 간단한 구조는 복잡해질 수 있으며 자동 생성된 파일, 웹 애플리케이션용 JavaScript 등을 포함할 수 있습니다. Visual Studio 프로젝트는 이러한 복잡성을 관리하는 데 도움이 됩니다. 프로젝트(*.pyproj* 파일)는 프로젝트와 관련된 모든 소스 및 콘텐츠 파일을 식별하며 각 파일에 대한 빌드 정보를 포함하고 소스 제어 시스템과 통합할 정보를 유지 관리하며 애플리케이션을 논리 구성 요소로 구성하는 데 도움을 줍니다.
 
-**질문: 솔루션 탐색기에 표시된 “솔루션”이란?**
+**질문: 솔루션 탐색기에 표시된 "솔루션"이란?**
 
 **대답**: Visual Studio 솔루션은 하나 이상의 관련 프로젝트를 그룹으로 관리할 수 있는 컨테이너이고, 프로젝트에 특정되지 않는 구성 설정을 저장합니다. 솔루션의 프로젝트는 어떤 프로젝트(Python 앱)를 실행하면 두 번째 프로젝트(예: Python 앱에서 사용하는 C++ 확장)를 자동으로 빌드하는 방식으로 서로 참조할 수도 있습니다.
 

@@ -1,27 +1,31 @@
 ---
 title: Publish-WebApplicationVM | Microsoft Docs
 description: 가상 머신에 웹 애플리케이션을 배포하는 방법을 알아봅니다. 없는 경우 이 스크립트는 Azure 구독에 필요한 리소스를 만듭니다.
+services: visual-studio-online
 author: ghogen
-manager: jillfra
+manager: douge
 assetId: de4cec95-f73f-44d9-babd-9f47f2633cdb
+ms.prod: visual-studio-dev15
+ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 11/11/2016
-ms.author: ghogen
+origin.date: 11/11/2016
+ms.date: 09/10/2018
+ms.author: v-junlch
 ms.openlocfilehash: 8b4b7a05de87ab8b70046b51fe9f256f05d3aee5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55948062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62572287"
 ---
 # <a name="publish-webapplicationvm-windows-powershell-script"></a>Publish-WebApplicationVM (Windows PowerShell 스크립트)
 가상 머신에 웹 애플리케이션을 배포합니다. 없는 경우 스크립트는 Azure 구독에 필요한 리소스를 만듭니다.
 
 ```
 Publish-WebApplicationVM
-–Configuration <configuration>
+-Configuration <configuration>
 -SubscriptionName <subscriptionName>
 -WebDeployPackage <packageName>
 -VMPassword @{Name = "name"; Password = "password")
@@ -118,7 +122,7 @@ JSON 구성 파일은 배포될 내용의 세부 정보를 지정합니다. 프�
         "cloudService": {
             "name": "myvmname",
             "affinityGroup": "",
-            "location": "West US",
+            "location": "China North",
             "virtualNetwork": "",
             "subnet": "",
             "availabilitySet": "",
@@ -180,3 +184,6 @@ JSON 구성 파일은 배포될 내용의 세부 정보를 지정합니다. 프�
 ```
 
 프로비전한 내용을 변경하도록 JSON 구성 파일을 편집할 수 있습니다. 가상 머신 및 클라우드 서비스는 필요하지만 데이터베이스 섹션은 선택 사항입니다.
+
+
+<!-- Update_Description: update metedata properties -->

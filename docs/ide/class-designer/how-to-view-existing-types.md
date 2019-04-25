@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: caeab08d6032bd8c88d35a62da56e3dc8015da9a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ef2882fec8d213c38a2e125d4e3f0c3f22d1d581
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55923907"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975166"
 ---
 # <a name="how-to-view-existing-types-in-class-designer"></a>방법: 클래스 디자이너에서 기존 형식 보기
 
@@ -31,9 +31,9 @@ ms.locfileid: "55923907"
 
 ## <a name="to-see-types-in-a-project-on-a-class-diagram"></a>클래스 다이어그램에서 프로젝트의 형식을 보려면
 
-1.  **솔루션 탐색기**의 프로젝트에서 기존 클래스 다이어그램(.cd) 파일을 엽니다. 또는 클래스 다이어그램이 없으면 프로젝트에 새 클래스 다이어그램을 추가합니다. [방법: 프로젝트에 클래스 다이어그램 추가](how-to-add-class-diagrams-to-projects.md)를 참조하세요.
+1. **솔루션 탐색기**의 프로젝트에서 기존 클래스 다이어그램(.cd) 파일을 엽니다. 또는 클래스 다이어그램이 없으면 프로젝트에 새 클래스 다이어그램을 추가합니다. [방법: 프로젝트에 클래스 다이어그램 추가](how-to-add-class-diagrams-to-projects.md)를 참조하세요.
 
-2.  **솔루션 탐색기**의 프로젝트에서 소스 코드 파일을 클래스 다이어그램으로 끌어 놓습니다.
+2. **솔루션 탐색기**의 프로젝트에서 소스 코드 파일을 클래스 다이어그램으로 끌어 놓습니다.
 
     > [!NOTE]
     > 여러 앱 간에 코드를 공유하는 프로젝트가 솔루션에 포함되어 있는 경우 다음 소스에서만 파일이나 코드를 클래스 다이어그램으로 끌어 올 수 있습니다.

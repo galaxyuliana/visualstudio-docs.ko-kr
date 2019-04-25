@@ -7,12 +7,12 @@ ms.author: mblome
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 31de4178d5d6ab2e1798c0b881ceb0fcb6fb2366
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: ed4d024b7d10f4432c6a2326f07bb068075971f7
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56954217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970530"
 ---
 # <a name="how-to-use-boosttest-for-c-in-visual-studio"></a>Visual Studio에서 Boost.Test for C++를 사용하는 방법
 
@@ -73,6 +73,7 @@ Visual Studio 2017 버전 15.5에서는 미리 구성된 테스트 프로젝트 
         <VcpkgEnabled>true</VcpkgEnabled>
     </PropertyGroup>
     ```
+
    c. *\*.vcxproj* 파일을 저장하고 닫은 다음, 프로젝트를 다시 로드합니다.
 
    d. **속성 페이지**를 열려면 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.

@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 835891689d376d06bda31b050394ae4e61315a8f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55956157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970398"
 ---
 # <a name="deploy-devenvexe"></a>/Deploy (devenv.exe)
 
@@ -60,7 +60,7 @@ devenv SolutionName /Deploy [SolnConfigName [/Project ProjName [/ProjectConfig P
 
 오류를 포함한 빌드에 대한 요약 정보는 **명령** 창 또는 [/Out](out-devenv-exe.md) 스위치로 지정된 로그 파일에 표시할 수 있습니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 이 예제에서는 `MySolution` 내에 있는 `Release` 프로젝트 빌드 구성을 사용하여 `CSharpWinApp` 프로젝트를 배포합니다.
 

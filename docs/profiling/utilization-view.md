@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 926c67261f91aa8787d9be4a33dadbd3a890c568
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62823528"
 ---
 # <a name="utilization-view"></a>사용률 뷰
 **사용률 뷰**에는 현재 프로세스에 사용되는 CPU, GPU 및 기타 시스템 리소스에 대한 정보가 표시됩니다(**분석** > **동시성 시각화 도우미**를 선택하여 동시성 시각화 도우미 시작). 이 뷰에서는 분석된 프로세스, 유휴 프로세스, 시스템 프로세스 및 시스템에서 실행되고 있는 기타 프로세스의 시간별 평균 코어 사용률을 보여 줍니다. 지정된 시간에 활성 상태인 특정 코어는 표시되지 않습니다. 예를 들어 특정 시간 동안 두 개의 코어가 각각 50% 용량으로 실행되는 경우 이 뷰에서는 하나의 논리 코어가 사용되고 있는 것으로 표시됩니다. 이 뷰는 프로파일링 시간을 짧은 시간 세그먼트 여러 개로 구분하는 방식으로 생성됩니다. 각 세그먼트에 대해 그래프에는 해당 간격 동안 논리 코어에서 실행 중인 프로세스 스레드의 평균 수가 그려집니다.

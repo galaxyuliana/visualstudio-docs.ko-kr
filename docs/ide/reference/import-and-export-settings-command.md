@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b9be5826edf0d7220d30ce5c4a99f333c2ab8b67
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55947226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62953220"
 ---
 # <a name="import-and-export-settings-command"></a>설정 가져오기 및 내보내기 명령
 
@@ -48,7 +48,7 @@ Tools.ImportandExportSettings [/export:filename | /import:filename | /reset]
 
 스위치 없이 이 명령을 실행하면 **설정 가져오기 및 내보내기** 마법사가 열립니다. 자세한 내용은 [설정 동기화](../synchronized-settings-in-visual-studio.md) 및 [환경 설정](../environment-settings.md)을 참조하세요.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 명령은 현재 설정을 `MyFile.vssettings` 파일로 내보냅니다.
 

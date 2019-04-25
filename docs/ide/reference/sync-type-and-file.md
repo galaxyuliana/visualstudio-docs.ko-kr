@@ -11,11 +11,11 @@ dev_langs:
 ms.workload:
 - dotnet
 ms.openlocfilehash: 90783dcd609094659517d994c3a4d4e0610b7735
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55940271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945179"
 ---
 # <a name="sync-a-type-to-a-filename-or-a-filename-to-a-type-refactoring"></a>형식을 파일 이름에 동기화 또는 파일 이름을 형식 리팩터링에 동기화
 

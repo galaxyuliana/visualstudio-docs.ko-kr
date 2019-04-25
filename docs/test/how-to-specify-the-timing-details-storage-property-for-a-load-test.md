@@ -9,12 +9,12 @@ ms.assetid: 867a9c21-0909-4963-bc02-d41e9393008c
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 94d996dbd069c258522418b9ca0be14bf54df156
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ec6ca0e39a7816d99377bc13e1274cbc96a663ea
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55948695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970643"
 ---
 # <a name="how-to-specify-the-timing-details-storage-property-for-a-load-test-run-setting"></a>방법: 부하 테스트 실행 설정에 대한 타이밍 정보 스토리지 속성 지정
 
@@ -43,19 +43,19 @@ ms.locfileid: "55948695"
 
   타이밍 정보 데이터는 테스트 실행 중에 *LoadTestItemResults.dat* 파일에 저장되며, 부하 테스트가 완료된 후에는 컨트롤러로 보내집니다. 오랜 시간 동안 실행되는 부하 테스트의 경우에는 파일 크기가 큽니다. 따라서 에이전트 컴퓨터에 디스크 공간이 충분하지 않으면 문제가 발생합니다.
 
-  이전 버전의 Visual Studio 부하 테스트에서 프로젝트를 업그레이드할 경우 다음 절차를 수행하여 전체 정보 컬렉션을 사용하도록 설정합니다.
+  이전 버전의 Visual Studio 부하 테스트에서 프로젝트를 업그레이드할 경우 다음 절차를 수행하여 전체 정보 수집을 사용하도록 설정합니다.
 
 ## <a name="to-configure-the-timing-details-storage-property-in-a-load-test"></a>부하 테스트에서 타이밍 정보 저장소 속성을 구성하려면
 
-1.  부하 테스트 편집기에서 부하 테스트를 엽니다.
+1. 부하 테스트 편집기에서 부하 테스트를 엽니다.
 
-2.  부하 테스트에서 **실행 설정** 노드를 확장합니다.
+2. 부하 테스트에서 **실행 설정** 노드를 확장합니다.
 
-3.  구성할 실행 설정(예: **Run Settings1[Active]**)을 선택합니다.
+3. 구성할 실행 설정(예: **Run Settings1[Active]**)을 선택합니다.
 
-4.  **속성** 창을 엽니다. **보기** 메뉴에서 **속성 창**을 선택합니다.
+4. **속성** 창을 엽니다. **보기** 메뉴에서 **속성 창**을 선택합니다.
 
-5.  **결과** 범주에서 **타이밍 정보 스토리지** 속성을 선택하고 **모든 개인 정보**를 선택합니다.
+5. **결과** 범주에서 **타이밍 정보 스토리지** 속성을 선택하고 **모든 개인 정보**를 선택합니다.
 
      **타이밍 정보 스토리지** 속성에 대해 **모든 개인 정보** 설정을 구성하면 부하 테스트를 실행하고 **가상 사용자 작업 차트**를 볼 수 있습니다. 자세한 내용은 [방법: 부하 테스트 중에 가상 사용자가 수행하는 작업 분석](../test/how-to-analyze-virtual-user-activity-during-a-load-test.md)을 참조하세요.
 

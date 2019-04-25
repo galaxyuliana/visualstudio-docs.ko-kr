@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 03b11b478ef441dc7a09902a7185bfdf45e20dc3
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 48ac65ef8fb7a67783a3c9c5a9652accf86821fc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57868952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979837"
 ---
 # <a name="specify-the-path-to-profiling-tools-command-line-tools"></a>프로파일링 도구 명령줄 도구의 경로 지정
 
@@ -34,21 +34,21 @@ ms.locfileid: "57868952"
 64비트 컴퓨터에서 프로파일링된 응용 프로그램의 대상 플랫폼에 따라 경로를 지정합니다.
 
 ::: moniker range=">=vs-2019"
--   32비트 애플리케이션의 경우 기본 프로파일러 도구 디렉터리는 다음과 같습니다.
+- 32비트 애플리케이션의 경우 기본 프로파일러 도구 디렉터리는 다음과 같습니다.
 
      (네이티브) *Microsoft Visual Studio\2019\Team Tools\Performance Tools\PerfSDK* (관리) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools*
 
--   64비트 애플리케이션의 경우 기본 프로파일러 도구가 위치한 디렉터리는 다음과 같습니다.
+- 64비트 애플리케이션의 경우 기본 프로파일러 도구가 위치한 디렉터리는 다음과 같습니다.
 
      (네이티브) *Microsoft Visual Studio\2019\Team Tools\Performance Tools\x64\PerfSDK* (관리) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*
 ::: moniker-end
 
 ::: moniker range="vs-2017"
--   32비트 애플리케이션의 경우 기본 프로파일러 도구 디렉터리는 다음과 같습니다.
+- 32비트 애플리케이션의 경우 기본 프로파일러 도구 디렉터리는 다음과 같습니다.
 
      (네이티브) *Microsoft Visual Studio\2017\Team Tools\Performance Tools\PerfSDK* (관리) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools*
 
--   64비트 애플리케이션의 경우 기본 프로파일러 도구가 위치한 디렉터리는 다음과 같습니다.
+- 64비트 애플리케이션의 경우 기본 프로파일러 도구가 위치한 디렉터리는 다음과 같습니다.
 
      (네이티브) *Microsoft Visual Studio\2017\Team Tools\Performance Tools\x64\PerfSDK* (관리) *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*
 ::: moniker-end

@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 16dbcbecece0e8ec38e3f38391ca5063e2e3d36c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975010"
 ---
 # <a name="work-with-visual-c-code-in-class-designer"></a>클래스 디자이너에서 Visual C++ 코드 사용
 

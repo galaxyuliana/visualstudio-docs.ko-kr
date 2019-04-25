@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a4aa53efb690faa0d31a35b9b19d0d5ee9781352
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 803129ea758a6648c0caa8303e1d191c0e8a74f5
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55940010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62844386"
 ---
 # <a name="how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps"></a>방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기
 
@@ -21,31 +21,31 @@ ms.locfileid: "55940010"
 
 이 문서는 다음 활동을 보여 줍니다.
 
--   이미지 콘텐츠 파이프라인에서 처리할 소스 이미지 구성.
+- 이미지 콘텐츠 파이프라인에서 처리할 소스 이미지 구성.
 
--   Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 생성하도록 이미지 콘텐츠 파이프라인 구성.
+- Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 생성하도록 이미지 콘텐츠 파이프라인 구성.
 
-    -   블록 압축 *.dds* 파일을 생성합니다.
+    - 블록 압축 *.dds* 파일을 생성합니다.
 
-    -   미리 곱한 알파를 생성합니다.
+    - 미리 곱한 알파를 생성합니다.
 
-    -   MIP 맵 생성을 사용하지 않도록 설정합니다.
+    - MIP 맵 생성을 사용하지 않도록 설정합니다.
 
 ## <a name="rendering-conventions-in-direct2d"></a>Direct2D의 렌더링 규칙
 
 Direct2D의 컨텍스트에서 사용되는 질감은 이러한 Direct2D 내부 렌더링 규칙을 따릅니다.
 
--   Direct2D는 미리 곱한 알파를 사용하여 투명도 및 반투명도를 구현합니다. 질감에 투명도 또는 반투명도를 사용하지 않는 경우에도 Direct2D에서 사용되는 질감은 미리 곱한 알파를 포함해야 합니다. 미리 곱한 알파에 대한 자세한 내용은 [방법: 미리 증가된 알파를 사용하는 질감 내보내기](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)를 참조하세요.
+- Direct2D는 미리 곱한 알파를 사용하여 투명도 및 반투명도를 구현합니다. 질감에 투명도 또는 반투명도를 사용하지 않는 경우에도 Direct2D에서 사용되는 질감은 미리 곱한 알파를 포함해야 합니다. 미리 곱한 알파에 대한 자세한 내용은 [방법: 미리 증가된 알파를 사용하는 질감 내보내기](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)를 참조하세요.
 
--   다음 블록 압축 형식 중 하나를 사용하여 질감을 *.dds* 형식으로 제공해야 합니다.
+- 다음 블록 압축 형식 중 하나를 사용하여 질감을 *.dds* 형식으로 제공해야 합니다.
 
-    -   BC1_UNORM 압축
+    - BC1_UNORM 압축
 
-    -   BC2_UNORM 압축
+    - BC2_UNORM 압축
 
-    -   BC3_UNORM 압축
+    - BC3_UNORM 압축
 
--   MIP 맵은 지원되지 않습니다.
+- MIP 맵은 지원되지 않습니다.
 
 ### <a name="to-create-a-texture-thats-compatible-with-direct2d-rendering-conventions"></a>Direct2D 렌더링 규칙에 부합되는 질감을 만들려면
 

@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 07/13/2017
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
-ms.openlocfilehash: 7544d3aa72bb981a35b3c7fc63db3f397f8f26dd
-ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
+ms.openlocfilehash: ae4d824a4746889447650efdb4dada061b7c712b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58568405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62933232"
 ---
 # <a name="getting-started-with-aspnet-core"></a>ASP.NET Core 시작
 
@@ -63,6 +63,7 @@ public static void Main(string[] args)
     host.Run();
 }
 ```
+
 ASP.NET Core 앱이 [`WebHostBuilder`](/aspnet/core/fundamentals/hosting) 인스턴스를 통해 호스트를 구성 및 시작하여 main 메서드에서 웹 서버를 만듭니다. 이 작성기는 호스트를 구성할 수 있는 메서드를 제공합니다. 템플릿 앱에서는 다음과 같은 구성이 사용됩니다.
 
 * `UseKestrel`: 앱에서 Kestrel 서버를 사용하도록 지정합니다.
@@ -104,8 +105,8 @@ public class Startup
 
 시작 클래스는 항상 다음 규칙을 따라야 합니다.
 
- - 항상 public이어야 합니다.
- - 두 개의 public 메서드 `ConfigureServices` 및 `Configure`가 포함되어야 합니다.
+- 항상 public이어야 합니다.
+- 두 개의 public 메서드 `ConfigureServices` 및 `Configure`가 포함되어야 합니다.
 
 `ConfigureServices` 메서드는 앱에서 사용될 서비스를 정의합니다.
 
@@ -218,7 +219,6 @@ MVC 사용 방법에 대한 자세한 내용은 [ASP.NET Core MVC 개요](/aspne
 9. `xxxx`를 올바른 포트로 바꿔 `http://localhost:xxxx/HelloWorld/Xamarin?name=Amy`로 이동하면 다음이 같이 표시됩니다.
 
     ![인수를 사용하여 브라우저에서 앱 실행](media/asp-net-core-image10.png)
-
 
 ## <a name="troubleshooting"></a>문제 해결
 

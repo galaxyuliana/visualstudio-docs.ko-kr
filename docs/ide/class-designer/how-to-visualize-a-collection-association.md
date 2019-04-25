@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e734b84bb8c386c60f3fef9061d74b8b31277cec
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 09c23b59711a95f0729555acfd0203160bd9995d
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975075"
 ---
 # <a name="how-to-visualize-a-collection-association-in-class-designer"></a>방법: 클래스 디자이너에서 컬렉션 연결 시각화
 
@@ -28,11 +28,11 @@ ms.locfileid: "55910951"
 
 ## <a name="to-create-a-collection-association"></a>컬렉션 형식 연결을 만들려면
 
-1.  코드에서 해당 형식이 강력한 형식의 컬렉션인 속성 또는 필드를 만듭니다.
+1. 코드에서 해당 형식이 강력한 형식의 컬렉션인 속성 또는 필드를 만듭니다.
 
-2.  클래스 다이어그램에서 속성 및 필드가 표시되도록 클래스를 확장합니다.
+2. 클래스 다이어그램에서 속성 및 필드가 표시되도록 클래스를 확장합니다.
 
-3.  클래스에서 필드나 속성을 마우스 오른쪽 단추로 클릭하고 **컬렉션 형식 연결로 표시**를 선택합니다.
+3. 클래스에서 필드나 속성을 마우스 오른쪽 단추로 클릭하고 **컬렉션 형식 연결로 표시**를 선택합니다.
 
 속성 또는 필드가 수집된 형식과 연결된 형식 연결 선으로 표시됩니다.
 

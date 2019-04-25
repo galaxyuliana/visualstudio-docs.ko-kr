@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: be5f748f4baa102bda16752904347954f97fea27
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62980202"
 ---
 # <a name="startprofile"></a>StartProfile
 `StartProfile` 함수는 지정된 프로파일링 수준에 대한 카운터를 1(on)로 설정합니다.

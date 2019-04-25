@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c1d4c2c81583015aca39f00cc20a6286297476cc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: c105f5176948271c832330f01d0d03d270e69a97
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56625168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62995314"
 ---
 # <a name="launch"></a>Launch
 **Launch** 옵션은 샘플링 방법을 사용하여 프로파일러를 시작하고 지정된 애플리케이션도 시작합니다.
@@ -54,15 +54,15 @@ VSPerfCmd.exe /Launch:AppName [Options]
 
  **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[**:**`Events`]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]**GC**[:**allocation**&#124;**lifetime**] 샘플링 간격의 수와 종류를 지정합니다.
 
--   **Timer** - 모든 `Cycles` 무중단 프로세서 클록 주기를 샘플링합니다. `Cycles`를 지정하지 않은 경우 10,000,000 주기가 사용됩니다.
+- **Timer** - 모든 `Cycles` 무중단 프로세서 클록 주기를 샘플링합니다. `Cycles`를 지정하지 않은 경우 10,000,000 주기가 사용됩니다.
 
--   **PF** - 모든 `Events` 페이지 폴트를 샘플링합니다. `Events`가 지정되지 않은 경우 10 페이지 폴트가 사용됩니다.
+- **PF** - 모든 `Events` 페이지 폴트를 샘플링합니다. `Events`가 지정되지 않은 경우 10 페이지 폴트가 사용됩니다.
 
--   **Sys** - 운영 체제에 대한 모든 `Events` 호출을 샘플링합니다. `Events`가 지정되지 않은 경우 10 시스템 호출이 사용됩니다.
+- **Sys** - 운영 체제에 대한 모든 `Events` 호출을 샘플링합니다. `Events`가 지정되지 않은 경우 10 시스템 호출이 사용됩니다.
 
--   **Counter** - `Name`에서 지정된 CPU 성능 카운터의 모든 `Reload` 수를 샘플링합니다. 필요에 따라 `FriendlyName`은 프로파일러 보고서의 열 헤더로 사용할 문자열을 지정할 수 있습니다.
+- **Counter** - `Name`에서 지정된 CPU 성능 카운터의 모든 `Reload` 수를 샘플링합니다. 필요에 따라 `FriendlyName`은 프로파일러 보고서의 열 헤더로 사용할 문자열을 지정할 수 있습니다.
 
--   **GC** - .NET 메모리 데이터를 수집합니다. 기본적으로(**allocation**) 모든 메모리 할당 이벤트에서 데이터가 수집됩니다. **lifetime** 매개변수가 지정되면 데이터는 각 가비지 컬렉션 이벤트에서도 수집됩니다.
+- **GC** - .NET 메모리 데이터를 수집합니다. 기본적으로(**allocation**) 모든 메모리 할당 이벤트에서 데이터가 수집됩니다. **lifetime** 매개변수가 지정되면 데이터는 각 가비지 컬렉션 이벤트에서도 수집됩니다.
 
 ## <a name="example"></a>예제
  이 예제에서는 애플리케이션을 시작하는 **Launch**의 사용을 보여 줍니다.

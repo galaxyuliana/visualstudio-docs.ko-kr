@@ -26,11 +26,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 51534979a96e0fb924d164dd1cc8d2fcc7bab04a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817262"
 ---
 # <a name="lib-task"></a>LIB 작업
 Microsoft 32비트 라이브러리 관리자 도구인 *lib.exe*를 래핑합니다. 라이브러리 관리자는 COFF(공용 개체 파일 형식) 개체 파일의 라이브러리를 만들고 관리합니다. 또한 라이브러리 관리자를 사용하여 내보내기 파일을 만들고 내보낸 정의를 참조하는 라이브러리를 가져올 수 있습니다. 자세한 내용은 [LIB 참조](/cpp/build/reference/lib-reference) 및 [LIB 실행](/cpp/build/reference/running-lib)을 참조하세요.

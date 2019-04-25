@@ -11,12 +11,12 @@ ms.assetid: 47f981d9-3038-45cc-a486-82b9daf9a9a1
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ed7c90e292b2ed77eeae4096e967f10068664659
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 4da3fc51593cc877e09ca6f46db70303186b293e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62783837"
 ---
 # <a name="edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario"></a>테스트 조합을 편집하여 부하 테스트 시나리오의 웹 브라우저 형식 지정
 
@@ -34,34 +34,34 @@ ms.locfileid: "55955560"
 
 ### <a name="to-add-new-browsers-to-a-scenario"></a>시나리오에 새 브라우저를 추가하려면
 
-1.  시나리오의 브라우저 조합을 지정하는 단계에서 **추가**를 선택합니다.
+1. 시나리오의 브라우저 조합을 지정하는 단계에서 **추가**를 선택합니다.
 
      표에 새 브라우저 항목이 추가됩니다.
 
     > [!NOTE]
     > **브라우저 조합 편집** 대화 상자를 표시하려면 기존 시나리오를 마우스 오른쪽 단추로 클릭한 다음, **브라우저 조합 편집**을 선택합니다.
 
-2.  **브라우저 형식** 열에서 새 항목에 대한 화살표 단추를 선택하고 원하는 브라우저 형식을 선택합니다.
+2. **브라우저 형식** 열에서 새 항목에 대한 화살표 단추를 선택하고 원하는 브라우저 형식을 선택합니다.
 
-3.  (선택 사항) 목록 컨트롤을 조정하여 테스트 분포를 조정합니다.
+3. (선택 사항) 목록 컨트롤을 조정하여 테스트 분포를 조정합니다.
 
-4.  브라우저 추가를 마쳤으면 **확인**을 선택합니다.
+4. 브라우저 추가를 마쳤으면 **확인**을 선택합니다.
 
-##  <a name="remove-browsers-from-a-scenario"></a>시나리오에서 브라우저 제거
+## <a name="remove-browsers-from-a-scenario"></a>시나리오에서 브라우저 제거
 
 ### <a name="to-remove-browsers-from-a-scenario"></a>시나리오에서 브라우저를 제거하려면
 
-1.  부하 테스트를 엽니다.
+1. 부하 테스트를 엽니다.
 
-2.  브라우저를 제거할 시나리오를 마우스 오른쪽 단추로 클릭하고 **브라우저 조합 편집**을 선택합니다.
+2. 브라우저를 제거할 시나리오를 마우스 오른쪽 단추로 클릭하고 **브라우저 조합 편집**을 선택합니다.
 
      **브라우저 조합 편집** 대화 상자가 표시됩니다.
 
-3.  눈금에서 브라우저를 선택한 다음, **제거**를 선택합니다.
+3. 눈금에서 브라우저를 선택한 다음, **제거**를 선택합니다.
 
-4.  (선택 사항) 목록 컨트롤을 조정하여 테스트 분포를 조정합니다.
+4. (선택 사항) 목록 컨트롤을 조정하여 테스트 분포를 조정합니다.
 
-5.  브라우저 제거를 마쳤으면 **확인**을 선택합니다.
+5. 브라우저 제거를 마쳤으면 **확인**을 선택합니다.
 
 ## <a name="about-the-mix-control"></a>조합 제어 정보
 

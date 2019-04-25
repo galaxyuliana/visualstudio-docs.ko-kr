@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 10db157aa5c75f1fde083ac12cd19fd1b02e91ec
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: cc1ee144b10360b899fa04c3cd0782e4b4fdfcfe
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56636387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970824"
 ---
 # <a name="resolveassemblyreference-task"></a>ResolveAssemblyReference 작업
 두 번째 및 `n`번째 순서 종속성을 비롯하여 지정한 어셈블리에 종속되는 모든 어셈블리를 확인합니다.
@@ -81,25 +81,25 @@ ms.locfileid: "56636387"
 ## <a name="warnings"></a>경고
  다음 경고가 기록됩니다.
 
--   `ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects`
+- `ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects`
 
--   `ResolveAssemblyReference.SuggestedRedirects`
+- `ResolveAssemblyReference.SuggestedRedirects`
 
--   `ResolveAssemblyReference.FoundConflicts`
+- `ResolveAssemblyReference.FoundConflicts`
 
--   `ResolveAssemblyReference.AssemblyFoldersExSearchLocations`
+- `ResolveAssemblyReference.AssemblyFoldersExSearchLocations`
 
--   `ResolveAssemblyReference.UnifiedPrimaryReference`
+- `ResolveAssemblyReference.UnifiedPrimaryReference`
 
--   `ResolveAssemblyReference.PrimaryReference`
+- `ResolveAssemblyReference.PrimaryReference`
 
--   `ResolveAssemblyReference.UnifiedDependency`
+- `ResolveAssemblyReference.UnifiedDependency`
 
--   `ResolveAssemblyReference.UnificationByAutoUnify`
+- `ResolveAssemblyReference.UnificationByAutoUnify`
 
--   `ResolveAssemblyReference.UnificationByAppConfig`
+- `ResolveAssemblyReference.UnificationByAppConfig`
 
--   `ResolveAssemblyReference.UnificationByFrameworkRetarget`
+- `ResolveAssemblyReference.UnificationByFrameworkRetarget`
 
 ## <a name="remarks"></a>주의
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.

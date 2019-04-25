@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 71411ed03906e13ae666a12a67fbdb499d737b5f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: fe78b2473fc58166edb124924673ff0c49ba92a4
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936137"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945494"
 ---
 # <a name="security-page-project-designer"></a>프로젝트 디자이너, 보안 페이지
 
@@ -34,7 +34,6 @@ ms.locfileid: "55936137"
 
 > [!NOTE]
 > **게시** 마법사를 사용하여 애플리케이션을 게시하면 이 옵션은 자동으로 사용됩니다.
-
 
  이 옵션을 선택하는 경우 다음 두 개의 라디오 단추 중 하나를 선택할 수 있습니다. **완전 신뢰 애플리케이션** 또는 **부분 신뢰 애플리케이션**
 
