@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e6a6d31d15f7f7ed533d73683a3c12d152bd7046
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62552904"
 ---
 # <a name="create-profiler-reports-from-the-command-line"></a>명령줄에서 프로파일러 보고서 만들기
 **VSPerfReport** 명령줄 도구를 통해 프로파일링 데이터(.*vsp*) 파일에서 .*xml* 또는 쉼표로 구분된 값(.*csv*) 보고서를 만들 수 있습니다. VSPerfReport 보고서 유형은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에 대한 인터페이스의 테이블 기반 뷰와 일치합니다. 코드만 표시하고 프로파일링 데이터 파일의 세그먼트만 표시하도록 보고서를 필터링할 수 있습니다. 자세한 내용은 [VSPerfReport](../profiling/vsperfreport.md)를 참조하세요.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3544ca6c5f9dfe5326f51bb565ff012b654dc263
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56601760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62553138"
 ---
 # <a name="cores-view-logical-cores"></a>코어 뷰 논리 코어
 각 채널 이름은 프로파일링된 시스템에 존재하는 논리 코어 중 하나를 나타냅니다. 명명은 0에서 논리 코어의 총 수까지 셉니다. 예를 들어 4코어 시스템은 논리 코어 0에서 논리 코어 3까지 셉니다.

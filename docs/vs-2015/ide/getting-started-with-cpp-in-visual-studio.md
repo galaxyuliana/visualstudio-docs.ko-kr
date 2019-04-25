@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 264fcea4b04b1777a455199789ed1bb9c3757f7c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ae373742c114129c99e7b3444393e12c6c4dd8dd
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758244"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60057825"
 ---
 # <a name="getting-started-with-c-in-visual-studio"></a>Visual Studio에서 C++ 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "54758244"
 
  [앱 릴리스 버전 빌드](../ide/getting-started-with-cpp-in-visual-studio.md#BKMK_BuildRelease)
 
-##  <a name="BKMK_Configure"></a> Visual Studio에 로그인
+## <a name="BKMK_Configure"></a> Visual Studio에 로그인
  Visual Studio를 처음 시작하는 경우 Live 또는 Outlook 같은 Microsoft 계정을 사용하여 로그인할 수 있는 옵션이 제공됩니다. 로그인하면 모든 디바이스 간에 설정을 동기화할 수 있습니다. 자세한 내용은 [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)을 참조하세요.
 
  그림 1: Visual Studio IDE
@@ -42,7 +42,7 @@ ms.locfileid: "54758244"
 
  Visual Studio를 열면 IDE의 세 가지 기본 부분인 도구 창, 메뉴 및 도구 모음, 주 창 공간을 확인할 수 있습니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 앱 창 왼쪽과 오른쪽에 도킹되어 있습니다. 애플리케이션 창의 가운데에는 **시작 페이지**가 있습니다. 솔루션 또는 프로젝트를 열면 편집기와 디자이너가 이 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
 
-##  <a name="BKMK_CreateApp"></a> 간단한 애플리케이션 만들기
+## <a name="BKMK_CreateApp"></a> 간단한 애플리케이션 만들기
  Visual Studio에서 앱을 만들 때 먼저 프로젝트와 솔루션을 만들어야 합니다. 이 예제에서는 Windows 콘솔 애플리케이션을 만듭니다.
 
 #### <a name="to-create-a-console-app"></a>콘솔 앱을 만들려면
@@ -65,12 +65,12 @@ ms.locfileid: "54758244"
 
    ![솔루션 탐색기의 솔루션 파일](../ide/media/c-ide-solutioncontents.png "C++IDE_SolutionContents")
 
-##  <a name="BKMK_AddCode"></a> 애플리케이션에 코드 추가
+## <a name="BKMK_AddCode"></a> 애플리케이션에 코드 추가
  다음으로 콘솔 창에 "Hello"를 표시하는 코드를 추가합니다.
 
 #### <a name="to-display-hello-in-the-console-window"></a>콘솔 창에 "Hello"를 표시하려면
 
-1.  GreetingsConsoleApp.cpp 파일에서 `return 0;` 줄 앞에 빈 줄을 입력하고 다음 코드를 입력합니다.
+1. GreetingsConsoleApp.cpp 파일에서 `return 0;` 줄 앞에 빈 줄을 입력하고 다음 코드를 입력합니다.
 
     ```
     cout << "Hello\n";
@@ -84,7 +84,7 @@ ms.locfileid: "54758244"
 
      [count](http://msdn.microsoft.com/library/d87db6c3-e4e1-4d09-9ec5-458f55018257)는 \<iostream\> 헤더 파일에 포함되어 있습니다.
 
-2.  Iostream 헤더를 포함하려면 `#include "stdafx.h"`뒤에 다음 코드를 입력합니다.
+2. Iostream 헤더를 포함하려면 `#include "stdafx.h"`뒤에 다음 코드를 입력합니다.
 
     ```
     #include \<iostream\>
@@ -95,16 +95,16 @@ ms.locfileid: "54758244"
 
      `cout` 아래의 빨간색 물결선은 오류를 해결하면 사라집니다.
 
-3.  파일의 변경 내용을 저장합니다.
+3. 파일의 변경 내용을 저장합니다.
 
      ![cout 오류 수정 코드](../ide/media/c-ide-coutfix.png "C++IDE_CoutFix")
 
-##  <a name="BKMK_DebugTest"></a> 애플리케이션 디버그 및 테스트
+## <a name="BKMK_DebugTest"></a> 애플리케이션 디버그 및 테스트
  GreetingsConsoleApp을 디버그하여 단어 "Hello"가 콘솔 창에 표시되는지 여부를 확인할 수 있습니다.
 
 #### <a name="to-debug-the-application"></a>애플리케이션을 디버그하려면
 
--   디버거를 시작합니다.
+- 디버거를 시작합니다.
 
      ![디버그 메뉴의 디버깅 시작 명령](../ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")
 
@@ -128,7 +128,7 @@ ms.locfileid: "54758244"
 
    자세한 내용은 [콘솔 프로젝트](../debugger/debugging-preparation-console-projects.md)를 참조하세요.
 
-##  <a name="BKMK_BuildRelease"></a> 앱 릴리스 버전 빌드
+## <a name="BKMK_BuildRelease"></a> 앱 릴리스 버전 빌드
  모든 것이 작동하는 것을 확인했으므로 애플리케이션의 릴리스 빌드를 준비할 수 있습니다.
 
 #### <a name="to-clean-the-solution-files-and-build-a-release-version"></a>솔루션 파일을 정리하고 릴리스 버전을 빌드하려면
@@ -148,4 +148,4 @@ ms.locfileid: "54758244"
    이 연습을 완료한 것을 축하 드립니다! 더 많은 예제를 탐색하려는 경우 [Visual Studio 샘플](../ide/visual-studio-samples.md)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [연습: 간단한 응용 프로그램 만들기](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md) [생산성 팁](../ide/productivity-tips-for-visual-studio.md) [Visual Studio 샘플](../ide/visual-studio-samples.md) [Visual Studio를 사용 하 여 개발 시작](../ide/get-started-developing-with-visual-studio.md)
+ [연습: 간단한 애플리케이션 만들기](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md) [생산성 팁](../ide/productivity-tips-for-visual-studio.md) [Visual Studio 샘플](../ide/visual-studio-samples.md) [Visual Studio를 사용한 개발 시작](../ide/get-started-developing-with-visual-studio.md)
