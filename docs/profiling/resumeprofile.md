@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7e0d9db4660936629c1e9dd6a5b7ff9704a7e7e8
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56636478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62814100"
 ---
 # <a name="resumeprofile"></a>ResumeProfile
 `ResumeProfile` 메서드는 지정된 프로파일링 수준에 대한 Suspend/Resume 카운터를 감소시킵니다.

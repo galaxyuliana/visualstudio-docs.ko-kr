@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 92763e352d04d5aa3e88a68bad7adfcd05897027
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945416"
 ---
 # <a name="cvisenabled-function"></a>CvIsEnabled 함수
 세션에서 지정된 ETW 공급자를 사용하도록 설정했는지 확인합니다.

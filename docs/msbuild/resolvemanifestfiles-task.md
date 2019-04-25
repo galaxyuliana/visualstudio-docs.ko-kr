@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: cebb7c2449657112f3f13abc6c4589cba4f7ceb4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970785"
 ---
 # <a name="resolvemanifestfiles-task"></a>ResolveManifestFiles 작업
 빌드 프로세스에서 빌드된 항목, 종속성, 위성, 콘텐츠, 디버그 기호 및 설명서 등의 항목을 확인합니다.

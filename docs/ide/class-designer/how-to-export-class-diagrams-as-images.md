@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 06c0b46c1c9fbb8aef5a2e31e42a02fe6a0db494
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3fb8f735478da16989830a1a68c239b9a2a98496
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975205"
 ---
 # <a name="how-to-export-class-diagrams-as-images"></a>방법: 클래스 다이어그램을 이미지로 내보내기
 
@@ -25,15 +25,15 @@ ms.locfileid: "55910536"
 
 ## <a name="export-a-diagram"></a>다이어그램 내보내기
 
-1.  클래스 다이어그램(*.cd*) 파일을 엽니다.
+1. 클래스 다이어그램(*.cd*) 파일을 엽니다.
 
-2.  **클래스 다이어그램** 메뉴 또는 다이어그램 화면 바로 가기 메뉴에서 **다이어그램을 이미지로 내보내기**를 선택합니다.
+2. **클래스 다이어그램** 메뉴 또는 다이어그램 화면 바로 가기 메뉴에서 **다이어그램을 이미지로 내보내기**를 선택합니다.
 
-3.  다이어그램을 선택합니다.
+3. 다이어그램을 선택합니다.
 
-4.  원하는 형식을 선택합니다.
+4. 원하는 형식을 선택합니다.
 
-5.  **내보내기**를 선택하여 내보내기를 마칩니다.
+5. **내보내기**를 선택하여 내보내기를 마칩니다.
 
 다른 문서에서 연결된 내보낸 이미지를 자동으로 업데이트하려면 Visual Studio에서 다이어그램을 다시 내보냅니다.
 

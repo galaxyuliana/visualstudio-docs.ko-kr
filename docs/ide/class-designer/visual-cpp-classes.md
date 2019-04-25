@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: aea3dd9c4821b3c06839c746111c131eedcfa455
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: b8312e0db76dd3ce064172116aecd82daab56e90
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975049"
 ---
 # <a name="visual-c-classes-in-class-designer"></a>클래스 디자이너의 Visual C++ 클래스
 
@@ -128,7 +128,6 @@ typedef struct
 ## <a name="template-classes"></a>템플릿 클래스
 
 **클래스 디자이너**는 템플릿 클래스의 시각화를 지원합니다. 중첩된 선언도 지원합니다. 다음 표는 몇 가지 일반적인 선언을 보여 줍니다.
-
 
 | Code 요소 | 클래스 디자이너 보기 |
 | - | - |

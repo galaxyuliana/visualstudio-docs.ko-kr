@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 352651be28f178272caaad9a01070dc9d7357d79
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62823467"
 ---
 # <a name="visible-timeline-profile"></a>표시되는 타임라인 프로필
 스레드 차단 뷰의 표시되는 시간 표시 막대 프로필은 통계 정보 및 보고서에 대한 링크를 제공합니다. 확대/축소하거나, 가로로 스크롤하거나, 채널을 숨기거나 표시할 때는 현재 뷰에 포함된 항목을 반영하여 활성 범례의 번호가 변경됩니다. 범례에서 항목에 대한 보고서를 보려면 항목을 클릭합니다.

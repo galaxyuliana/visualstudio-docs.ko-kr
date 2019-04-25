@@ -14,12 +14,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: b64972f2bf2ef0bb34722f717f7ddf8bf032349d
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: d1fcb7b139e374f49df84fe17b8e12ea6aa6b625
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62965935"
 ---
 # <a name="tutorial-create-a-simple-application-with-visual-basic"></a>자습서: Visual Basic으로 간단한 애플리케이션 만들기
 
@@ -27,7 +27,7 @@ ms.locfileid: "58857407"
 
 ::: moniker range="vs-2017"
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 페이지로 이동하여 체험용으로 설치합니다.
 
 ::: moniker-end
 
@@ -116,7 +116,7 @@ MainWindow에 보다 구체적인 이름을 지정하겠습니다.
 
 ### <a name="add-a-textblock-control"></a>TextBlock 컨트롤 추가
 
-1.  **Ctrl**+**Q**를 입력하여 검색 상자를 활성화하고 **도구 상자**를 입력합니다. 결과 목록에서 **보기 > 도구 상자**를 선택합니다.
+1. **Ctrl**+**Q**를 입력하여 검색 상자를 활성화하고 **도구 상자**를 입력합니다. 결과 목록에서 **보기 > 도구 상자**를 선택합니다.
 
 2. **도구 상자**에서 **공용 WPF 컨트롤** 노드를 확장하여 TextBlock 컨트롤을 봅니다.
 

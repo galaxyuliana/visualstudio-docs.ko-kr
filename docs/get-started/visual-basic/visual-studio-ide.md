@@ -11,12 +11,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: aa242fc8908ec7d07728b706c12f581e5f02548d
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.openlocfilehash: 38cf992612126e8d24f05b23efd8af7fff4b4a74
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58790682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966688"
 ---
 # <a name="welcome-to-the-visual-studio-ide--visual-basic"></a>Visual Studio IDE 시작 | Visual Basic
 
@@ -197,7 +197,7 @@ Visual Studio는 Windows 및 Mac에서 사용할 수 있습니다. [Mac용 Visua
 
 ::: moniker range="vs-2017"
 
-시작하려면 [Visual Studio를 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)하여 시스템에 설치합니다. 모듈식 설치 관리자를 사용하면 선호하는 프로그래밍 언어 또는 플랫폼에 필요한 기능 그룹인 *워크로드*를 선택하여 설치할 수 있습니다. [프로그램 생성](#create-a-program) 단계를 수행하려면 설치 중에 **.NET Core 플랫폼 간 개발** 워크로드를 선택해야 합니다.
+시작하려면 [Visual Studio를 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)하여 시스템에 설치합니다. 모듈식 설치 관리자를 사용하면 선호하는 프로그래밍 언어 또는 플랫폼에 필요한 기능 그룹인 *워크로드*를 선택하여 설치할 수 있습니다. [프로그램 생성](#create-a-program) 단계를 수행하려면 설치 중에 **.NET Core 플랫폼 간 개발** 워크로드를 선택해야 합니다.
 
 ::: moniker-end
 
