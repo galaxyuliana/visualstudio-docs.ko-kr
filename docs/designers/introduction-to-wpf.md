@@ -11,12 +11,12 @@ dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: bc943fe059850b024a5067d36bcc14d258ca5565
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: d15f0e8e5c5cbdac5a130804977adf90385adfe1
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62893925"
 ---
 # <a name="wpf-overview"></a>WPF 개요
 
@@ -44,7 +44,7 @@ WPF를 사용하면 ASP.NET 개발자에게 익숙한 환경인 *태그* 및 *�
 
 - WPF 애플리케이션에 대한[전역화 및 지역화](/dotnet/framework/wpf/advanced/wpf-globalization-and-localization-overview) 가 간소화됩니다.
 
-### <a name="markup"></a>마크업
+### <a name="markup"></a>태그
 
 XAML은 선언적으로 애플리케이션의 모양을 구현하는 XML 기반 태그 언어입니다. 일반적으로 창, 대화 상자, 페이지 및 사용자 정의 컨트롤을 만들고 컨트롤, 도형 및 그래픽으로 채우는 데 사용됩니다.
 
@@ -224,9 +224,9 @@ End Namespace
 
 대부분의 애플리케이션은 데이터를 보고 편집할 수 있는 수단을 사용자에게 제공하기 위해 생성됩니다. WPF 애플리케이션의 경우 데이터를 저장 및 액세스하는 작업이 SQL Server 및 ADO .NET과 같은 기술에 의해 이미 제공됩니다. 데이터에 액세스하고 애플리케이션의 관리되는 개체에 로드한 후 WPF 애플리케이션에 대한 힘든 작업이 시작됩니다. 기본적으로 다음 두 가지가 포함됩니다.
 
-1.  관리되는 개체에서 데이터를 표시 및 편집할 수 있는 컨트롤로 데이터 복사
+1. 관리되는 개체에서 데이터를 표시 및 편집할 수 있는 컨트롤로 데이터 복사
 
-2.  컨트롤을 사용한 데이터 변경 내용이 관리되는 개체에 다시 복사되는지 확인
+2. 컨트롤을 사용한 데이터 변경 내용이 관리되는 개체에 다시 복사되는지 확인
 
 애플리케이션 개발을 간소화하기 위해 WPF는 이러한 단계를 자동으로 수행하는 데이터 바인딩 엔진을 제공합니다. 데이터 바인딩 엔진의 핵심 단위는 <xref:System.Windows.Data.Binding> 클래스로, 컨트롤(바인딩 대상)을 데이터 개체(바인딩 소스)에 바인딩하는 작업을 수행합니다. 이 관계는 다음 그림에 나와 있습니다.
 
@@ -575,11 +575,11 @@ WPF 컨트롤의 기본 사용자 인터페이스는 일반적으로 다른 컨�
 
 이 예제에서는 `Window.Resources` 속성 요소를 사용하여 배경색 리소스를 구현합니다. 이 리소스는 <xref:System.Windows.Window>의 모든 자식에서 사용할 수 있습니다. 다음을 포함하여 다양한 리소스 범위가 있습니다(확인되는 순서대로 나열됨).
 
-1.  개별 컨트롤(상속된 <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> 속성 사용)
+1. 개별 컨트롤(상속된 <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> 속성 사용)
 
-2.  <xref:System.Windows.Window> 또는 <xref:System.Windows.Controls.Page> (또한 상속된 <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> 속성 사용)
+2. <xref:System.Windows.Window> 또는 <xref:System.Windows.Controls.Page> (또한 상속된 <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> 속성 사용)
 
-3.  <xref:System.Windows.Application> ( <xref:System.Windows.Application.Resources%2A?displayProperty=fullName> 속성 사용)
+3. <xref:System.Windows.Application> ( <xref:System.Windows.Application.Resources%2A?displayProperty=fullName> 속성 사용)
 
 다양한 범위는 리소스를 정의 및 공유하는 방법과 관련해서 유연성을 제공합니다.
 

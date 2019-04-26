@@ -16,19 +16,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b7ddede6870a982520b87cf8ec497788b4731244
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ef3baf383a01523cb173d6aeb1f7231680e892ce
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62778389"
 ---
 # <a name="createcsharpmanifestresourcename-task"></a>CreateCSharpManifestResourceName 작업
 지정된 *.resx* 파일 이름 또는 기타 리소스에서 [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] 스타일 매니페스트 이름을 만듭니다.
 
 ## <a name="parameters"></a>매개 변수
  다음 표에서는 [CreateCSharpManifestResourceName 작업](../msbuild/createcsharpmanifestresourcename-task.md)의 매개 변수에 대해 설명합니다.
-
 
 | 매개 변수 | 설명 |
 | - | - |

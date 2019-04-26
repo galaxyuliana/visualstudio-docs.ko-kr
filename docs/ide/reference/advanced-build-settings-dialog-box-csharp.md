@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: a668e64f6b8a10cf22e08575ca9c2df385131666
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d42087b023718cd31528a2e5d60e2a43e34097c4
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55930465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62792220"
 ---
 # <a name="advanced-build-settings-dialog-box-c"></a>고급 빌드 설정 대화 상자(C#)
 
@@ -55,7 +55,7 @@ Microsoft에 컴파일러 오류를 보고할지 여부를 지정합니다. **pr
 
 mscorlib.dll을 프로그램으로 가져와 전체 <xref:System> 네임스페이스를 정의할지 여부를 지정합니다. 고유한 <xref:System> 네임스페이스 및 개체를 정의하거나 만들려면 이 상자를 선택합니다. 자세한 내용은 [/nostdlib(C# 컴파일러 옵션)](/dotnet/csharp/language-reference/compiler-options/nostdlib-compiler-option)를 참조하세요.
 
-## <a name="output"></a>출력
+## <a name="output"></a>Output
 
 다음 옵션을 사용하여 고급 출력 옵션을 지정할 수 있습니다.
 
@@ -75,7 +75,7 @@ mscorlib.dll을 프로그램으로 가져와 전체 <xref:System> 네임스페�
 
    디버거에서 프로그램이 시작되는 경우 소스 코드 디버깅이 가능하지만, 실행 중인 프로그램이 디버거에 연결되는 경우 어셈블러만 표시됩니다.
 
--  **portable**
+- **portable**
 
    플랫폼과 관련되지 않은 이식 가능한 기호 파일인 .PDB 파일을 생성합니다. 이 파일은 기본 실행 파일의 콘텐츠 및 해당 콘텐츠 생성 방식에 대한 정보를 특히 디버거와 같은 다른 도구에 제공합니다. 자세한 내용은 [Portable PDB](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/portable_pdb.md)(이식 가능한 PDB)를 참조하세요.
 
