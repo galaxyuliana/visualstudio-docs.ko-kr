@@ -14,12 +14,12 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f5c1a065d30f3925ba5c567d562d0138de8c5953
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: a6f1c524b879d5d5476491a8979d86449f3d43c0
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57869278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63002494"
 ---
 # <a name="generate-and-run-a-coded-web-performance-test"></a>코딩된 웹 성능 테스트 생성 및 실행
 
@@ -29,13 +29,13 @@ ms.locfileid: "57869278"
 
 ## <a name="generate-a-coded-web-performance-test"></a>코딩된 웹 성능 테스트 생성
 
-1.  웹 성능 테스트를 만들지 않은 경우 [웹 성능 테스트 기록](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project)을 참조하세요.
+1. 웹 성능 테스트를 만들지 않은 경우 [웹 성능 테스트 기록](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-web-performance-and-load-test-project)을 참조하세요.
 
-2.  코딩된 테스트를 생성합니다.
+2. 코딩된 테스트를 생성합니다.
 
      ![코딩된 웹 성능 테스트 생성](../test/media/web_test_coded_generate.png)
 
-3.  테스트 이름을 지정합니다.
+3. 테스트 이름을 지정합니다.
 
      ![코딩된 웹 성능 테스트의 이름 입력](../test/media/web_test_coded_generate_nametest.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "57869278"
 
      C#의 GetRequestEnumerator() 메서드 또는 Visual Basic의 Run() 메서드에 기록된 테스트에 있는 각 유효성 검사 규칙 및 웹 요청이 포함된다는 것을 코드에서 볼 수 있습니다.
 
-4.  몇 가지 간단한 코드를 추가하는 방법을 보여주기 위해, 메서드 끝부분으로 스크롤하고 마지막 웹 요청에 대한 코드 뒤에서 다음 코드를 추가합니다.
+4. 몇 가지 간단한 코드를 추가하는 방법을 보여주기 위해, 메서드 끝부분으로 스크롤하고 마지막 웹 요청에 대한 코드 뒤에서 다음 코드를 추가합니다.
 
     ```c#
     if (DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
@@ -72,9 +72,9 @@ ms.locfileid: "57869278"
     End If
     ```
 
-5.  사용자 지정 코드가 컴파일되는지 확인하려면 솔루션을 빌드합니다.
+5. 사용자 지정 코드가 컴파일되는지 확인하려면 솔루션을 빌드합니다.
 
-6.  테스트를 실행합니다.
+6. 테스트를 실행합니다.
 
      ![코딩된 웹 성능 테스트 실행](../test/media/web_test_coded_generate_run.png)
 

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2df391440e8fe175b86a37cd02d0aec8fee372e6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: e16b11d2c54c500bc2b4e7d52e0bc5a46492ab5e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446563"
 ---
 # <a name="how-to-exclude-files-from-the-build"></a>방법: 빌드에서 파일 제외
 프로젝트 파일에서 와일드카드를 사용하여 모든 파일을 하나의 디렉터리 또는 중첩된 디렉터리 집합에 빌드의 입력으로 포함할 수 있습니다. 그러나 해당 디렉터리 또는 중첩된 디렉터리 집합 중 하나의 디렉터리에 빌드의 입력으로 포함하지 않으려는 하나의 파일이 있을 수 있습니다. 입력 목록에서 해당 파일 또는 디렉터리를 명시적으로 제외할 수 있습니다. 특정 조건에서만 포함하려는 파일이 프로젝트에 있을 수도 있습니다. 파일을 빌드에 포함할 조건을 명시적으로 선언할 수 있습니다.
@@ -36,7 +36,7 @@ ms.locfileid: "56603172"
 
 #### <a name="to-include-all-cs-or-vb-files-except-form2"></a>*Form2*를 제외한 모든 *.cs* 또는 *.vb* 파일을 포함하려면
 
--   다음 `Include` 및 `Exclude` 특성 중 하나를 사용합니다.
+- 다음 `Include` 및 `Exclude` 특성 중 하나를 사용합니다.
 
     ```xml
     <CSFile Include="*.cs" Exclude="Form2.cs"/>
@@ -50,7 +50,7 @@ ms.locfileid: "56603172"
 
 #### <a name="to-include-all-cs-or-vb-files-except-form2-and-form3"></a>*Form2* 및 *Form3*을 제외한 모든 *.cs* 또는 *.vb* 파일을 포함하려면
 
--   다음 `Include` 및 `Exclude` 특성 중 하나를 사용합니다.
+- 다음 `Include` 및 `Exclude` 특성 중 하나를 사용합니다.
 
     ```xml
     <CSFile Include="*.cs" Exclude="Form2.cs;Form3.cs"/>
@@ -64,7 +64,7 @@ ms.locfileid: "56603172"
 
 #### <a name="to-include-all-jpg-files-in-subdirectories-of-the-images-directory-except-those-in-the-version2-directory"></a>*Version2* 디렉터리에서 해당 항목을 제외한 모든 *.jpg* 파일을 *Images* 디렉터리의 하위 디렉터리에 포함하려면
 
--   다음 `Include` 및 `Exclude` 특성을 사용합니다.
+- 다음 `Include` 및 `Exclude` 특성을 사용합니다.
 
     ```xml
     <JPGFile
@@ -73,14 +73,14 @@ ms.locfileid: "56603172"
     ```
 
     > [!NOTE]
-    >  두 특성의 경로를 모두 지정해야 합니다. `Include` 특성에서 파일 위치를 지정할 때 절대 경로를 사용하는 경우 `Exclude` 특성에서도 절대 경로를 사용해야 하고, `Include` 특성에서 상대 경로를 사용하는 경우 `Exclude` 특성에서도 상대 경로를 사용해야 합니다.
+    > 두 특성의 경로를 모두 지정해야 합니다. `Include` 특성에서 파일 위치를 지정할 때 절대 경로를 사용하는 경우 `Exclude` 특성에서도 절대 경로를 사용해야 하고, `Include` 특성에서 상대 경로를 사용하는 경우 `Exclude` 특성에서도 상대 경로를 사용해야 합니다.
 
 ## <a name="use-conditions-to-exclude-a-file-or-directory-from-the-inputs-for-a-build"></a>조건을 사용하여 빌드의 입력에서 파일 또는 디렉터리 제외
  예를 들어 디버그 빌드에 포함하지만 릴리스 빌드에는 포함하지 않으려는 항목이 있는 경우 `Condition` 특성을 사용하여 항목을 포함할 조건을 지정할 수 있습니다.
 
 #### <a name="to-include-the-file-formulavb-only-in-release-builds"></a>*Formula.vb* 파일을 릴리스 빌드에만 포함하려면
 
--   다음과 같이 `Condition` 특성을 사용합니다.
+- 다음과 같이 `Condition` 특성을 사용합니다.
 
     ```xml
     <Compile
@@ -100,7 +100,7 @@ ms.locfileid: "56603172"
     </PropertyGroup>
 
     <ItemGroup>
-        <CSFile Include="*.cs Exclude="Form2.cs"/>
+        <CSFile Include="*.cs" Exclude="Form2.cs"/>
 
         <Reference Include="System.dll"/>
         <Reference Include="System.Data.dll"/>

@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: 볼륨 라이선스 서비스 센터 관리자 마이그레이션 FAQ
 searchscope: VS Subscription
 ms.openlocfilehash: 43b5ff7aeddf5ba1d938709e9f395f50395d0f3d
-ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58897662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62427977"
 ---
 # <a name="visual-studio-subscriptions-administration-migration"></a>Visual Studio 구독 관리 마이그레이션
 
@@ -21,7 +21,7 @@ ms.locfileid: "58897662"
 > [!Note]
 > 이 마이그레이션은 MPSA 고객에게 영향을 주지 않습니다.
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="why-is-it-changing"></a>이렇게 변경되는 이유는 무엇인가요?
 새 포털에서는 Visual Studio 구독 관리의 환경을 최적화하고 구매 방법에 관계없이 Visual Studio 구독을 관리하는 단일 환경을 만듭니다. 새 포털에는 미래를 위해 우리를 배치하고 Azure AD를 사용할 수 있는 새 플랫폼이 있습니다. 또한 보다 쉽게 이동하고 사용할 수 있는 업데이트된 사용자 인터페이스가 있어 관리자 효율성을 향상시킵니다.
@@ -106,8 +106,8 @@ ms.locfileid: "58897662"
 
 - Visual Studio 구독 및 관리 [지원](https://visualstudio.microsoft.com/subscriptions/support/)
 
-- [PCN을 찾는 방법](find-pcn.md)
+- [PCN 찾는 방법](find-pcn.md)
 
-- [기본 또는 알림 연락처를 찾는 방법](find-primary-contact.md)
+- [기본 또는 알림 연락처 찾는 방법](find-primary-contact.md)
 
-- 관리자 관리 및 조직 온보딩을 위한 [동영상](https://www.youtube.com/watch?v=ZmnywYGSFMg&list=PLReL099Y5nRfDyvvwzNDBaZe7qTxmuM2T&index=1&t=0s)
+- 관리자 관리 및 조직 온보딩을 위한 [비디오](https://www.youtube.com/watch?v=ZmnywYGSFMg&list=PLReL099Y5nRfDyvvwzNDBaZe7qTxmuM2T&index=1&t=0s)

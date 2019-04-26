@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c5e3881bc346c5074c7fd4277708a16e22d4acd7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 8d396d56aea8be3724078223261a3b6eb8835692
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445372"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Visual Studio 통합(MSBuild)
 Visual Studio는 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 를 호스팅하여 관리되는 프로젝트를 로드하고 빌드합니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 에서 프로젝트를 관리하므로 프로젝트가 다른 도구에서 작성되어 사용자 지정된 빌드 프로세스를 가지더라도 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 형식의 프로젝트는 대부분 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 사용될 수 있습니다.
@@ -63,7 +63,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ```
 
 > [!NOTE]
->  일부 항목 형식 이름은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에 대해 고유하지만 이 드롭다운에는 나열되어 있지 않습니다.
+> 일부 항목 형식 이름은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에 대해 고유하지만 이 드롭다운에는 나열되어 있지 않습니다.
 
 ## <a name="in-process-compilers"></a>In-Process 컴파일러
  가능한 경우 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에서는 성능 향상을 위해 in-process 버전의 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 컴파일러를 사용하려고 시도합니다. [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]에는 적용되지 않습니다. 이러한 시도는 다음 조건이 충족되어야 제대로 작동합니다.
@@ -75,13 +75,13 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## <a name="design-time-intellisense"></a>디자인 타임 IntelliSense
  빌드에서 출력 어셈블리를 생성하기 전에 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에서 IntelliSense 지원을 받으려면 다음 조건이 충족되어야 합니다.
 
--   `Compile`이라는 대상이 있어야 합니다.
+- `Compile`이라는 대상이 있어야 합니다.
 
--   `Compile` 대상 또는 해당 종속 대상 중 하나는 프로젝트에 대해 `Csc` 또는 `Vbc`와 같은 컴파일러 작업을 호출해야 합니다.
+- `Compile` 대상 또는 해당 종속 대상 중 하나는 프로젝트에 대해 `Csc` 또는 `Vbc`와 같은 컴파일러 작업을 호출해야 합니다.
 
--   `Compile` 대상 또는 해당 종속 대상 중 하나를 통해 컴파일러가 IntelliSense에 필요한 모든 매개 변수, 특히 모든 참조를 받도록 해야 합니다.
+- `Compile` 대상 또는 해당 종속 대상 중 하나를 통해 컴파일러가 IntelliSense에 필요한 모든 매개 변수, 특히 모든 참조를 받도록 해야 합니다.
 
--   [In-Process 컴파일러](#in-process-compilers) 섹션에 나열된 조건이 충족되어야 합니다.
+- [In-Process 컴파일러](#in-process-compilers) 섹션에 나열된 조건이 충족되어야 합니다.
 
 ## <a name="build-solutions"></a>솔루션 빌드
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]내에서 솔루션 파일 및 프로젝트 빌드 순서는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 자체에서 제어합니다. 명령줄에서 *msbuild.exe*를 사용하여 솔루션을 빌드할 때 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에서는 솔루션 파일을 구문 분석하고 프로젝트 빌드 순서를 정합니다. 두 경우 모두 프로젝트는 종속성 순서에 따라 개별적으로 빌드되며 프로젝트 간 참조는 검색되지 않습니다. 이와 대조적으로 *msbuild.exe*를 사용하여 개별 프로젝트를 빌드하면 프로젝트 간 참조가 검색됩니다.
@@ -126,22 +126,22 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## <a name="design-time-target-execution"></a>디자인 타임 대상 실행
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에서는 프로젝트를 로드할 때 특정 이름의 대상을 실행하려고 시도합니다. 이러한 대상에는 `Compile`, `ResolveAssemblyReferences`, `ResolveCOMReferences`, `GetFrameworkPaths` 및 `CopyRunEnvironmentFiles`가 있습니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에서는 이러한 대상을 실행하여 컴파일러가 IntelliSense를 제공하도록 초기화되거나, 디버거가 초기화되거나, 솔루션 탐색기에 표시된 참조가 확인될 수 있도록 할 수 있습니다. 이러한 대상이 없어도 프로젝트를 제대로 로드하고 빌드할 수는 있지만 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에서 디자인 타임 환경이 완전하게 작동하지 않습니다.
 
-##  <a name="edit-project-files-in-visual-studio"></a>Visual Studio에서 프로젝트 파일 편집
+## <a name="edit-project-files-in-visual-studio"></a>Visual Studio에서 프로젝트 파일 편집
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트를 직접 편집하려면 Visual Studio XML 편집기에서 프로젝트 파일을 열 수 있습니다.
 
 #### <a name="to-unload-and-edit-a-project-file-in-visual-studio"></a>Visual Studio에서 프로젝트 파일을 언로드 및 편집하려면
 
-1.  **솔루션 탐색기**에서 프로젝트의 바로 가기 메뉴를 열고 **프로젝트 언로드**를 선택합니다.
+1. **솔루션 탐색기**에서 프로젝트의 바로 가기 메뉴를 열고 **프로젝트 언로드**를 선택합니다.
 
      해당 프로젝트가 **(사용할 수 없음)** 으로 표시됩니다.
 
-2.  **솔루션 탐색기**에서 사용할 수 없는 프로젝트의 바로 가기 메뉴를 열고 **편집 \<프로젝트 파일>** 을 선택합니다.
+2. **솔루션 탐색기**에서 사용할 수 없는 프로젝트의 바로 가기 메뉴를 열고 **편집 \<프로젝트 파일>** 을 선택합니다.
 
      해당 프로젝트 파일이 Visual Studio XML 편집기에 열립니다.
 
-3.  프로젝트 파일을 편집 및 저장한 후 닫습니다.
+3. 프로젝트 파일을 편집 및 저장한 후 닫습니다.
 
-4.  **솔루션 탐색기**에서 사용할 수 없는 프로젝트의 바로 가기 메뉴를 열고 **프로젝트 다시 로드**를 선택합니다.
+4. **솔루션 탐색기**에서 사용할 수 없는 프로젝트의 바로 가기 메뉴를 열고 **프로젝트 다시 로드**를 선택합니다.
 
 ## <a name="intellisense-and-validation"></a>IntelliSense 및 유효성 검사
  XML 편집기를 사용하여 프로젝트 파일을 편집할 경우 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 스키마 파일에서 IntelliSense 및 유효성 검사를 실행합니다. 이러한 스키마 파일은 *\<Visual Studio 설치 디렉터리>\Xml\Schemas\1033\MSBuild*에 있는 스키마 캐시에 설치됩니다.

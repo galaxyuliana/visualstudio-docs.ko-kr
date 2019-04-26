@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bb176f09fca04d177ef79d64a6061835669efbe6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 826031c2030c2ed8662ff98517a36c1a7ade3cde
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386645"
 ---
 # <a name="how-to-limit-instrumentation-to-specific-functions"></a>방법: 특정 함수로 계측 제한
 **성능 세션**의 **고급** 페이지 또는 대상 이진 속성 페이지에서 옵션을 설정하여 계측 및 데이터 수집을 하나 이상의 함수로 제한할 수 있습니다.
@@ -27,7 +27,7 @@ ms.locfileid: "56620514"
   계측 프로파일링 방법을 선택할 경우에만 이 방식으로 데이터 수집을 제한할 수 있습니다.
 
 > [!NOTE]
->  **성능 세션** 속성 페이지의 **고급** 페이지를 사용하여 프로파일링 도구 [VSInstr](../profiling/vsinstr.md) 명령줄 계측 도구에 사용할 수 있는 기타 옵션을 설정할 수도 있습니다.
+> **성능 세션** 속성 페이지의 **고급** 페이지를 사용하여 프로파일링 도구 [VSInstr](../profiling/vsinstr.md) 명령줄 계측 도구에 사용할 수 있는 기타 옵션을 설정할 수도 있습니다.
 
 ### <a name="to-limit-instrumentation-to-specific-functions-in-a-performance-session"></a>성능 세션의 특정 함수로 계측을 제한하려면
 
@@ -44,7 +44,7 @@ ms.locfileid: "56620514"
     `FuncSpec`는 네임스페이스 및 함수 이름입니다. 형식은 `Namespace`**::**`FunctionName`입니다. 세미콜론을 사용하여 여러 함수를 구분합니다. 별표(\*)를 사용하여 하나 이상의 문자에 대한 와일드 카드를 지정합니다. 예를 들어 **/include:MyNS::\\***는 MyNS 네임스페이스에 있는 모든 함수를 지정합니다.
 
    > [!NOTE]
-   >  이진 파일의 함수를 나열하려면 프로파일링 도구 설치 디렉터리([명령줄 도구 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md) 참조)에서 명령 프롬프트 창을 연 다음, **vsinstr /DumpFuncs**를 입력합니다.
+   > 이진 파일의 함수를 나열하려면 프로파일링 도구 설치 디렉터리([명령줄 도구 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md) 참조)에서 명령 프롬프트 창을 연 다음, **vsinstr /DumpFuncs**를 입력합니다.
 
 ### <a name="to-limit-instrumentation-to-specific-functions-in-a-binary"></a>이진 파일의 특정 함수로 계측을 제한하려면
 
@@ -63,7 +63,7 @@ ms.locfileid: "56620514"
     `FuncSpec`는 네임스페이스 및 함수 이름입니다. 형식은 `Namespace`**::**`FunctionName`입니다. 세미콜론을 사용하여 여러 함수를 구분합니다. 별표(\*)를 사용하여 하나 이상의 문자에 대한 와일드 카드를 지정합니다. 예를 들어 **/include:MyNS::\\***는 MyNS 네임스페이스에 있는 모든 함수를 지정합니다.
 
    > [!NOTE]
-   >  이진 파일의 함수를 나열하려면 프로파일링 도구 설치 디렉터리([명령줄 도구 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md) 참조)에서 명령 프롬프트 창을 연 다음, **vsinstr /DumpFuncs**를 입력합니다.
+   > 이진 파일의 함수를 나열하려면 프로파일링 도구 설치 디렉터리([명령줄 도구 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md) 참조)에서 명령 프롬프트 창을 연 다음, **vsinstr /DumpFuncs**를 입력합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [데이터 수집 제어](../profiling/controlling-data-collection.md)

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 370e19757890d6d9f56fad4e7b89b2197e515d9c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62999662"
 ---
 # <a name="timeline-caret"></a>타임라인 캐럿
 실행 중인 스레드 세그먼트의 타임라인에서 한 지점을 선택하면 타임라인 캐럿이 위에 표시됩니다. 현재 스택 탭에 표시되는 호출 스택은 세그먼트를 클릭한위치와 시간상 가장 가까운 스택입니다. 캐럿은 호출 스택을 연결하는 데 사용됩니다. 호출 스택은 샘플링된 시간과 함께 **현재** 탭 아래에 표시됩니다. 캐럿에는 호출 스택의 정확한 위치(사용자가 선택한 위치와 가장 가까운 호출 스택)가 표시됩니다.

@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: Visual Studio 구독에 포함된 혜택 알아보기
 searchscope: VS Subscription
 ms.openlocfilehash: c7616bc468aad5b4753fb3a05652f976bae6299b
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56839710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62427795"
 ---
 # <a name="benefits-included-in-your-visual-studio-subscription"></a>Visual Studio 구독에 포함된 혜택
 
@@ -32,7 +32,7 @@ Visual Studio 구독은 Windows, iOS, Android, Linux 등을 비롯한 기본 플
 - Microsoft Virtual Academy의 SQL Server용 데이터베이스 솔루션 디자인
 - LinkedIn Learning에서는 뛰어난 업무 성과에 필요한 인력, 정보 및 기술에 액세스할 수 있습니다.
 
-## <a name="support"></a>Support(지원)
+## <a name="support"></a>고객 지원팀
 Visual Studio 구독자는 궁금한 점이 있거나 기술 지원이 필요한 경우 다양한 유형의 지원에 액세스할 수도 있습니다.
 - 유료 구독에는 개발/테스트 환경에서 실행되는 도구 및 애플리케이션으로 문제를 해결하기 위한 전문 기술 지원 인시던트 액세스가 포함됩니다.
 - 기술 문서 또는 제품 정보가 필요한 경우  Concierge Chat 서비스에서 즉각적인 도움을 받을 수 있습니다.

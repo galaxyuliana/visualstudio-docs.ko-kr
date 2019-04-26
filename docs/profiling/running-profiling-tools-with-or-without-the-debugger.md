@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 63215d6350a4922ed416c8c48f006cd23c9e0728
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 273dc6770f2928ed65d6a473b7f1986bc353687e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58323726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62999410"
 ---
 # <a name="run-profiling-tools-with-or-without-the-debugger"></a>디버거를 사용하거나 사용하지 않고 프로파일링 도구 실행
 
@@ -33,7 +33,7 @@ Visual Studio는 성능 측정 및 프로파일링 도구 중에서 선택할 �
 - 디버거 자체는 예외 및 모듈 로드 이벤트 가로채기와 같은 필요한 디버거 작업을 수행하므로 성능 시간을 변경합니다.
 - **성능 프로파일러** 도구의 릴리스 빌드 성능 번호가 가장 정밀하고 정확합니다. 디버거 통합 도구 결과는 다른 디버깅 관련 측정과 비교할 때 가장 유용합니다.
 
-##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> 디버깅하는 동안 프로파일링 데이터 수집
+## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> 디버깅하는 동안 프로파일링 데이터 수집
 
 **디버깅** > **디버깅 시작** 또는 **F5**를 눌러 Visual Studio에서 디버깅을 시작하면 기본적으로 **진단 도구** 창이 나타납니다. 수동으로 열려면 **디버그** > **Windows** > **진단 도구 표시**를 선택합니다. **진단 도구**에는 이벤트, 프로세스 메모리 및 CPU 사용량에 대한 정보가 표시됩니다.
 

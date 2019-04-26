@@ -8,19 +8,19 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 68250d8767910106ab7e6a3c3239beeb292bdfd8
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ef65019223ba1978ea31fbdb9020993a166da89b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422193"
 ---
 # <a name="troubleshoot-performance-tools-issues"></a>성능 도구 문제 해결
 프로파일링 도구를 사용할 때는 다음 문제 중 하나가 발생할 수 있습니다.
 
--   [프로파일링 도구에서 데이터가 수집되지 않음](#no-data-is-collected-by-the-profiling-tools)
+- [프로파일링 도구에서 데이터가 수집되지 않음](#no-data-is-collected-by-the-profiling-tools)
 
--   [성능 뷰 및 보고서에서 함수 이름에 숫자가 표시됨](#performance-views-and-reports-display-numbers-for-function-names)
+- [성능 뷰 및 보고서에서 함수 이름에 숫자가 표시됨](#performance-views-and-reports-display-numbers-for-function-names)
 
 ## <a name="no-data-is-collected-by-the-profiling-tools"></a>프로파일링 도구에서 데이터가 수집되지 않음
  애플리케이션을 프로파일링한 후에 프로파일링 데이터(.*vsp*) 파일이 생성되지 않으며 **출력** 창이나 명령 창에 다음 경고가 표시됩니다.
@@ -29,7 +29,7 @@ ms.locfileid: "56620813"
 
  이 문제는 여러 가지 원인으로 인해 발생할 수 있습니다.
 
--   샘플링 또는 .NET 메모리 방법을 사용하여 프로파일링된 프로세스가 자식 프로세서를 시작했으며, 자식 프로세스가 애플리케이션 작업을 수행하는 프로세스가 되었습니다. 예를 들어 일부 애플리케이션은 명령줄을 읽어 Windows 애플리케이션으로 시작되었는지 아니면 명령줄 애플리케이션으로 시작되었는지를 확인합니다. Windows 애플리케이션이 요청된 경우 원래 프로세스는 Windows 애플리케이션으로 구성된 새 프로세스를 시작하며 원래 프로세스는 종료됩니다. 프로파일링 도구는 자식 프로세스에 대한 데이터를 자동으로 수집하지 않으므로 데이터는 수집되지 않습니다.
+- 샘플링 또는 .NET 메모리 방법을 사용하여 프로파일링된 프로세스가 자식 프로세서를 시작했으며, 자식 프로세스가 애플리케이션 작업을 수행하는 프로세스가 되었습니다. 예를 들어 일부 애플리케이션은 명령줄을 읽어 Windows 애플리케이션으로 시작되었는지 아니면 명령줄 애플리케이션으로 시작되었는지를 확인합니다. Windows 애플리케이션이 요청된 경우 원래 프로세스는 Windows 애플리케이션으로 구성된 새 프로세스를 시작하며 원래 프로세스는 종료됩니다. 프로파일링 도구는 자식 프로세스에 대한 데이터를 자동으로 수집하지 않으므로 데이터는 수집되지 않습니다.
 
      이러한 상황에서 프로파일링 데이터를 수집하려면 애플리케이션을 프로파일러와 함께 시작하는 대신 자식 프로세스에 프로파일러를 연결합니다. 자세한 내용은 [방법: 실행 중인 프로세스에 성능 도구 연결 및 분리](../profiling/how-to-attach-and-detach-performance-tools-to-running-processes.md) 및 [연결(VSPerfCmd)](../profiling/attach.md)을 참조하세요.
 
@@ -40,9 +40,9 @@ ms.locfileid: "56620813"
 
  두 가지 방법 중 하나로 문제를 해결할 수 있습니다.
 
--   .*pdb* 파일을 찾아 애플리케이션 파일과 같은 디렉터리에 저장합니다.
+- .*pdb* 파일을 찾아 애플리케이션 파일과 같은 디렉터리에 저장합니다.
 
--   프로파일링 데이터(.*vsp*) 파일에 기호 정보를 포함합니다. 자세한 내용은 [성능 데이터 파일을 사용하여 기호 정보 저장](../profiling/saving-symbol-information-with-performance-data-files.md)을 참조하세요.
+- 프로파일링 데이터(.*vsp*) 파일에 기호 정보를 포함합니다. 자세한 내용은 [성능 데이터 파일을 사용하여 기호 정보 저장](../profiling/saving-symbol-information-with-performance-data-files.md)을 참조하세요.
 
 > [!NOTE]
->  분석 엔진이 정상적으로 작동하려면 .*pdb* 파일의 버전이 컴파일된 애플리케이션과 같아야 합니다. 이전 또는 이후 애플리케이션 파일 빌드의 .*pdb* 파일은 사용할 수 없습니다.
+> 분석 엔진이 정상적으로 작동하려면 .*pdb* 파일의 버전이 컴파일된 애플리케이션과 같아야 합니다. 이전 또는 이후 애플리케이션 파일 빌드의 .*pdb* 파일은 사용할 수 없습니다.

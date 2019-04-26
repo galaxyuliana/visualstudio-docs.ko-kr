@@ -20,16 +20,16 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 20c1207051fbd8a2c4857a277868145795e14224
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 27315682c26769ea5c529ceb21c99458c86f0220
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56626520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63385810"
 ---
 # <a name="bscmake-task"></a>BscMake 작업
 > [!IMPORTANT]
->  BscMake는 더 이상 Visual Studio IDE에서 사용되지 않습니다. Visual Studio 2008부터 찾아보기 정보는 *Solution* 폴더의 *.sdf* 파일에 자동으로 저장됩니다.
+> BscMake는 더 이상 Visual Studio IDE에서 사용되지 않습니다. Visual Studio 2008부터 찾아보기 정보는 *Solution* 폴더의 *.sdf* 파일에 자동으로 저장됩니다.
 
  Microsoft Browse Information Maintenance Utility 도구(*bscmake.exe*)를 래핑합니다.  *bscmake.exe* 도구는 컴파일하는 동안 만들어진 소스 브라우저 파일(*.sbr*)에서 찾아보기 정보 파일(*.bsc*)을 빌드합니다. **개체 브라우저**를 사용하여 *.bsc* 파일을 볼 수 있습니다. 자세한 내용은 [BSCMAKE 참조](/cpp/build/reference/bscmake-reference)를 참조하세요.
 

@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 66feaa25b9910a48e192e80798e50d80d861fb08
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c1acd55ad9ea2d671730a656a673fd1f2ca3aa19
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55940609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430879"
 ---
 # <a name="specify-custom-build-events-in-visual-studio"></a>Visual Studio에서 사용자 지정 빌드 이벤트 지정
 
@@ -24,11 +24,11 @@ ms.locfileid: "55940609"
 
  사용 중인 프로그래밍 언어에 대한 자세한 내용은 다음 항목을 참조하세요.
 
--   Visual Basic--[방법: 빌드 이벤트 지정(Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md).
+- Visual Basic--[방법: 빌드 이벤트 지정(Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md).
 
--   C# 및 F#--[방법: 빌드 이벤트 지정(C#)](../ide/how-to-specify-build-events-csharp.md).
+- C# 및 F#--[방법: 빌드 이벤트 지정(C#)](../ide/how-to-specify-build-events-csharp.md).
 
--   Visual C++--[빌드 이벤트 지정](/cpp/ide/specifying-build-events).
+- Visual C++--[빌드 이벤트 지정](/cpp/ide/specifying-build-events).
 
 ## <a name="syntax"></a>구문
 
@@ -53,7 +53,7 @@ ms.locfileid: "55940609"
    예: `for %I in (*.txt *.doc *.html) do copy %I c:\`*mydirectory*`\`
 
   > [!NOTE]
-  >  위 코드의 `%I`는 배치 스크립트에서 `%%I`여야 합니다.
+  > 위 코드의 `%I`는 배치 스크립트에서 `%%I`여야 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

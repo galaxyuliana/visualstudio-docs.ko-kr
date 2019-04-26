@@ -9,12 +9,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bcb24742a4387a84bba0b52763cdb559280c24c4
-ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.openlocfilehash: 34efc198b1237028c84e86e8cb34db9270b6d646
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59232777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426657"
 ---
 # <a name="measure-memory-usage-in-visual-studio"></a>Visual Studio에서 메모리 사용량 측정
 
@@ -41,48 +41,48 @@ ms.locfileid: "59232777"
 
 ## <a name="collect-memory-usage-data"></a>메모리 사용량 데이터 수집
 
-1.  Visual Studio에서 디버그할 프로젝트를 열고 메모리 사용량 검사를 시작할 지점에서 앱에 중단점을 설정합니다.
+1. Visual Studio에서 디버그할 프로젝트를 열고 메모리 사용량 검사를 시작할 지점에서 앱에 중단점을 설정합니다.
 
     메모리 문제가 의심되는 영역이 있는 경우 메모리 문제가 발생하기 전에 첫 번째 중단점을 설정합니다.
 
     > [!TIP]
-    >  앱이 메모리를 자주 할당 및 할당 취소하는 경우 관심 있는 작업의 메모리 프로필을 캡처하는 것이 어려울 수 있으므로, 작업의 시작 및 끝에 중단점을 설정하거나 작업을 단계별로 실행하여 메모리가 변경된 정확한 지점을 찾습니다.
+    > 앱이 메모리를 자주 할당 및 할당 취소하는 경우 관심 있는 작업의 메모리 프로필을 캡처하는 것이 어려울 수 있으므로, 작업의 시작 및 끝에 중단점을 설정하거나 작업을 단계별로 실행하여 메모리가 변경된 정확한 지점을 찾습니다.
 
-2.  의심되는 메모리 문제가 발생한 후 또는 분석할 함수 또는 코드 영역 끝에 두 번째 중단점을 설정합니다.
+2. 의심되는 메모리 문제가 발생한 후 또는 분석할 함수 또는 코드 영역 끝에 두 번째 중단점을 설정합니다.
 
-3.  끄지 않았다면 **진단 도구** 가 자동으로 나타납니다. 창을 다시 표시하려면 **디버그** > **Windows** > **진단 도구 표시**를 클릭합니다.
+3. 끄지 않았다면 **진단 도구** 가 자동으로 나타납니다. 창을 다시 표시하려면 **디버그** > **Windows** > **진단 도구 표시**를 클릭합니다.
 
-4.  도구 모음의 **도구 선택** 설정에서 **메모리 사용량**을 선택합니다.
+4. 도구 모음의 **도구 선택** 설정에서 **메모리 사용량**을 선택합니다.
 
      ![진단 도구 표시](../profiling/media/diag-tools-select-tool-2.png "DiagToolsSelectTool")
 
-5.  **디버그/디버깅 시작**을 클릭합니다(또는 도구 모음에서 **시작** 또는 **F5** 누름).
+5. **디버그/디버깅 시작**을 클릭합니다(또는 도구 모음에서 **시작** 또는 **F5** 누름).
 
      앱 로드가 완료되면 진단 도구의 요약 보기가 나타납니다.
 
      ![진단 도구 요약 탭](../profiling/media/diag-tools-summary-tab-2.png "DiagToolsSummaryTab")
 
      > [!NOTE]
-     >  메모리 데이터를 수집할 경우 네이티브 또는 혼합 모드 앱의 디버깅 성능에 영향을 줄 수 있으므로 메모리 스냅숏은 기본적으로 사용되지 않습니다. 네이티브 또는 혼합 모드 앱에서 스냅숏을 사용하도록 설정하려면 디버깅 세션을 시작합니다(바로 가기 키: **F5**). **진단 도구** 창이 나타나면 **메모리 사용량** 탭을 선택한 다음, **힙 프로파일링**을 선택합니다.
+     > 메모리 데이터를 수집할 경우 네이티브 또는 혼합 모드 앱의 디버깅 성능에 영향을 줄 수 있으므로 메모리 스냅숏은 기본적으로 사용되지 않습니다. 네이티브 또는 혼합 모드 앱에서 스냅숏을 사용하도록 설정하려면 디버깅 세션을 시작합니다(바로 가기 키: **F5**). **진단 도구** 창이 나타나면 **메모리 사용량** 탭을 선택한 다음, **힙 프로파일링**을 선택합니다.
      >
      >  ![스냅숏 사용](../profiling/media/dbgdiag_mem_mixedtoolbar_enablesnapshot.png "DBGDIAG_MEM_MixedToolbar_EnableSnapshot")
      >
      >  중지(바로 가기 키: **Shift**+**F5**) 및 디버깅을 다시 시작합니다.
 
-6.  디버깅 세션의 시작 부분에 스냅숏을 만들려면 **메모리 사용량** 요약 도구 모음에서 **스냅숏 만들기**를 선택합니다. (이는 여기에 중단점을 설정하는 데도 도움이 될 수 있습니다.)
+6. 디버깅 세션의 시작 부분에 스냅숏을 만들려면 **메모리 사용량** 요약 도구 모음에서 **스냅숏 만들기**를 선택합니다. (이는 여기에 중단점을 설정하는 데도 도움이 될 수 있습니다.)
 
     ![스냅숏 만들기](../profiling/media/dbgdiag_mem_mixedtoolbar_takesnapshot.png "DBGDIAG_MEM_MixedToolbar_TakeSnapshot")
 
      > [!TIP]
-     >  메모리 비교 기준을 만들려면 디버깅 세션을 시작할 때 스냅숏을 만드는 것이 좋습니다.
+     > 메모리 비교 기준을 만들려면 디버깅 세션을 시작할 때 스냅숏을 만드는 것이 좋습니다.
 
-6.  첫 번째 중단점이 발생할 시나리오를 실행합니다.
+6. 첫 번째 중단점이 발생할 시나리오를 실행합니다.
 
-7.  디버거가 첫 번째 중단점에서 일시 중지하는 동안 **메모리 사용량** 요약 도구 모음에서 **스냅숏 만들기**를 선택합니다.
+7. 디버거가 첫 번째 중단점에서 일시 중지하는 동안 **메모리 사용량** 요약 도구 모음에서 **스냅숏 만들기**를 선택합니다.
 
-8.  두 번째 중단점까지 앱을 실행하려면 **F5** 키를 누릅니다.
+8. 두 번째 중단점까지 앱을 실행하려면 **F5** 키를 누릅니다.
 
-9.  이제 다른 스냅숏을 만듭니다.
+9. 이제 다른 스냅숏을 만듭니다.
 
      이 시점에서 데이터 분석을 시작할 수 있습니다.
 
@@ -93,9 +93,9 @@ ms.locfileid: "59232777"
 
  열의 이름은 프로젝트 속성에서 선택한 디버깅 모드(.NET, 네이티브 또는 혼합(.NET 및 네이티브))에 따라 달라집니다.
 
--   **개체(차이)** 및 **할당(차이)** 열에는 스냅숏을 만들 때 .NET 및 네이티브 메모리의 개체 수가 표시됩니다.
+- **개체(차이)** 및 **할당(차이)** 열에는 스냅숏을 만들 때 .NET 및 네이티브 메모리의 개체 수가 표시됩니다.
 
--   **힙 크기(차이)** 열에는 .NET 및 네이티브 힙의 바이트 수가 표시됩니다.
+- **힙 크기(차이)** 열에는 .NET 및 네이티브 힙의 바이트 수가 표시됩니다.
 
 여러 스냅숏을 만든 경우 요약 테이블의 셀에 행 스냅숏과 이전 스냅숏 간의 값 변경 내용이 포함됩니다.
 
@@ -136,13 +136,13 @@ ms.locfileid: "59232777"
 
  **형식 뷰** 에는 스냅숏의 형식 수와 크기가 표시됩니다.
 
--   선택한 형식의 인스턴스 아이콘(![개체 형식 열의 인스턴스 아이콘](../profiling/media/dbg_mma_instancesicon.png "DBG_MMA_InstancesIcon"))을 선택하여 스냅숏에서 선택한 형식의 개체에 대한 정보를 표시합니다.
+- 선택한 형식의 인스턴스 아이콘(![개체 형식 열의 인스턴스 아이콘](../profiling/media/dbg_mma_instancesicon.png "DBG_MMA_InstancesIcon"))을 선택하여 스냅숏에서 선택한 형식의 개체에 대한 정보를 표시합니다.
 
      **인스턴스** 뷰에는 선택한 형식의 각 인스턴스가 표시됩니다. 인스턴스를 선택하면 **할당 호출 스택** 창에 인스턴스를 만든 호출 스택이 표시됩니다.
 
      ![인스턴스 뷰](../profiling/media/dbgdiag_mem_native_instances.png "DBGDIAG_MEM_Native_Instances")
 
--   **뷰 모드** 에서 **스택 뷰** 를 선택하여 선택한 형식에 대한 할당 스택을 확인합니다.
+- **뷰 모드** 에서 **스택 뷰** 를 선택하여 선택한 형식에 대한 할당 스택을 확인합니다.
 
      ![스택 뷰](../profiling/media/dbgdiag_mem_native_stacksview.png "DBGDIAG_MEM_Native_Instances")
 
@@ -162,7 +162,7 @@ ms.locfileid: "59232777"
 
 ## <a name="blogs-and-videos"></a>블로그 및 동영상
 
-[디버그하는 동안 CPU와 메모리 분석](https://devblogs.microsoft.com/visualstudio/analyze-cpu-memory-while-debugging/)
+[디버깅하는 동안 CPU와 메모리 분석](https://devblogs.microsoft.com/visualstudio/analyze-cpu-memory-while-debugging/)
 
 [Visual C++ 블로그: Visual C++ 2015의 메모리 프로파일링](https://devblogs.microsoft.com/cppblog/memory-profiling-in-visual-c-2015/)
 
@@ -171,4 +171,4 @@ ms.locfileid: "59232777"
 이 자습서에서는 메모리 사용량 데이터를 수집하고 분석하는 방법을 배웠습니다. 이미 [프로파일러 둘러보기](../profiling/profiling-feature-tour.md)를 완료한 경우 앱에서 CPU 사용량을 분석하는 방법을 빠르게 확인하는 것이 좋습니다.
 
 > [!div class="nextstepaction"]
-> [CPU 사용량 분석](../profiling/beginners-guide-to-performance-profiling.md)
+> [CPU 사용 분석](../profiling/beginners-guide-to-performance-profiling.md)

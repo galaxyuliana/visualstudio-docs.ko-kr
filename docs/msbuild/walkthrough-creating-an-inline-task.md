@@ -11,48 +11,48 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cad3d554ff62c3d9a3d295efbf10fde403176b94
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 322c8d4b766619a6404a315fb83298bf5416fba4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445330"
 ---
 # <a name="walkthrough-create-an-inline-task"></a>연습: 인라인 작업 만들기
 MSBuild 작업은 일반적으로 <xref:Microsoft.Build.Framework.ITask> 인터페이스를 구현하는 클래스를 컴파일하여 생성됩니다. .NET Framework 버전 4부터 프로젝트 파일에서 인라인으로 작업을 만들 수 있습니다. 작업을 호스트할 별도의 어셈블리를 만들 필요가 없습니다. 자세한 내용은 [인라인 작업](../msbuild/msbuild-inline-tasks.md)을 참조하세요.
 
  이 연습에서는 이러한 인라인 작업을 만들고 실행하는 방법을 보여 줍니다.
 
--   입력 또는 출력 매개 변수가 없는 작업입니다.
+- 입력 또는 출력 매개 변수가 없는 작업입니다.
 
--   입력 매개 변수는 1개 있고 출력 매개 변수는 없는 작업입니다.
+- 입력 매개 변수는 1개 있고 출력 매개 변수는 없는 작업입니다.
 
--   2개의 입력 매개 변수와 MSBuild 속성을 반환하는 1개의 출력 매개 변수가 있는 작업입니다.
+- 2개의 입력 매개 변수와 MSBuild 속성을 반환하는 1개의 출력 매개 변수가 있는 작업입니다.
 
--   2개의 입력 매개 변수와 MSBuild 항목을 반환하는 1개의 출력 매개 변수가 있는 작업입니다.
+- 2개의 입력 매개 변수와 MSBuild 항목을 반환하는 1개의 출력 매개 변수가 있는 작업입니다.
 
 작업을 만들고 실행하려면 다음과 같이 Visual Studio와 **Visual Studio 명령 프롬프트 창**을 사용합니다.
 
-1.   Visual Studio를 사용하여 MSBuild 프로젝트 파일을 만듭니다.
+1. Visual Studio를 사용하여 MSBuild 프로젝트 파일을 만듭니다.
 
-2.   Visual Studio에서 프로젝트 파일을 수정하여 인라인 작업을 만듭니다.
+2. Visual Studio에서 프로젝트 파일을 수정하여 인라인 작업을 만듭니다.
 
-3.   **명령 프롬프트 창**을 사용하여 프로젝트를 빌드하고 결과를 검토합니다.
+3. **명령 프롬프트 창**을 사용하여 프로젝트를 빌드하고 결과를 검토합니다.
 
 ## <a name="create-and-modify-an-msbuild-project"></a>MSBuild 프로젝트 만들기 및 수정
  Visual Studio 프로젝트 시스템은 MSBuild를 기반으로 합니다. 따라서 Visual Studio를 사용하여 MSBuild 프로젝트 파일을 만들 수 있습니다. 이 섹션에서는 Visual C# 프로젝트 파일을 만듭니다. (대신 Visual Basic 프로젝트 파일을 만들 수 있습니다. 이 연습의 컨텍스트에서는 두 프로젝트 파일 간에 별 차이가 없습니다.
 
 #### <a name="to-create-and-modify-a-project-file"></a>프로젝트 파일을 만들고 수정하려면
 
-1.  Visual Studio의 **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.
+1. Visual Studio의 **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.
 
-2.  **새 프로젝트** 대화 상자에서 **Visual C#** 프로젝트 형식을 선택하고 **Windows Forms 애플리케이션** 템플릿을 선택합니다. **이름** 상자에 `InlineTasks`을 입력합니다. 솔루션의 **위치**를 *D:\\*와 같이 입력합니다. **솔루션용 디렉터리 만들기**가 선택되어 있고, **소스 제어에 추가**가 선택 취소되어 있고, **솔루션 이름**이 **InlineTasks**인지 확인합니다.
+2. **새 프로젝트** 대화 상자에서 **Visual C#** 프로젝트 형식을 선택하고 **Windows Forms 애플리케이션** 템플릿을 선택합니다. **이름** 상자에 `InlineTasks`을 입력합니다. 솔루션의 **위치**를 *D:\\*와 같이 입력합니다. **솔루션용 디렉터리 만들기**가 선택되어 있고, **소스 제어에 추가**가 선택 취소되어 있고, **솔루션 이름**이 **InlineTasks**인지 확인합니다.
 
-3.  **확인**을 클릭하여 프로젝트 파일을 만듭니다.
+3. **확인**을 클릭하여 프로젝트 파일을 만듭니다.
 
-3.  **솔루션 탐색기**에서 **InlineTasks** 프로젝트 노드를 마우스 오른쪽 단추로 클릭한 다음, **프로젝트 언로드**를 클릭합니다.
+3. **솔루션 탐색기**에서 **InlineTasks** 프로젝트 노드를 마우스 오른쪽 단추로 클릭한 다음, **프로젝트 언로드**를 클릭합니다.
 
-4.  프로젝트 노드를 다시 마우스 오른쪽 단추로 클릭하고 **InlineTasks.csproj 편집**을 클릭합니다.
+4. 프로젝트 노드를 다시 마우스 오른쪽 단추로 클릭하고 **InlineTasks.csproj 편집**을 클릭합니다.
 
      프로젝트 파일이 코드 편집기에 나타납니다.
 
@@ -103,7 +103,7 @@ MSBuild 작업은 일반적으로 <xref:Microsoft.Build.Framework.ITask> 인터�
     `Hello, world!`
 
    > [!NOTE]
-   >  hello 메시지가 표시되지 않으면 프로젝트 파일을 다시 저장해 보고 Hello 작업을 실행하세요.
+   > hello 메시지가 표시되지 않으면 프로젝트 파일을 다시 저장해 보고 Hello 작업을 실행하세요.
 
    코드 편집기와 **명령 프롬프트 창**을 오가면서 프로젝트 파일을 변경하고 결과를 빠르게 확인할 수 있습니다.
 

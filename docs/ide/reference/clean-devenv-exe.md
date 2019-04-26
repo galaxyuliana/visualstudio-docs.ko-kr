@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 810f05b0838f27004bee983dc0acf7a3009e22a0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62573094"
 ---
 # <a name="clean-devenvexe"></a>/Clean (devenv.exe)
 
@@ -62,7 +62,7 @@ devenv SolutionName /Clean [Config [/Project ProjName [/ProjectConfig ProjConfig
 
 `/Project` 스위치가 지정되지 않으면 *FileName*이 프로젝트 파일로 지정된 경우에도 솔루션의 모든 프로젝트에서 정리 작업이 수행됩니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 첫 번째 예제는 솔루션 파일에 지정된 기본 구성을 사용하여 `MySolution` 솔루션을 정리합니다.
 

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bc304a90f9d51611ad2455c130e589aa0204cdc5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 5499ff9451d3068cdef0e32dee45a6f6c7f63c71
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425486"
 ---
 # <a name="da0017-high-rates-of-paging-active-memory-to-disk"></a>DA0017: 활성 메모리를 디스크에 페이징하는 비율이 높습니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "56620488"
 ## <a name="rule-description"></a>규칙 설명
 
 > [!NOTE]
->  활성 메모리의 페이징 수준이 상당한 양에 도달하면 이 규칙이 실행됩니다. 페이징하는 수준이 매우 높으면 경고 규칙 [DA0014: 활성 메모리를 디스크에 페이징하는 비율이 매우 높습니다.](../profiling/da0014-extremely-high-rates-of-paging-active-memory-to-disk.md)가 발생합니다.
+> 활성 메모리의 페이징 수준이 상당한 양에 도달하면 이 규칙이 실행됩니다. 페이징하는 수준이 매우 높으면 경고 규칙 [DA0014: 활성 메모리를 디스크에 페이징하는 비율이 매우 높습니다.](../profiling/da0014-extremely-high-rates-of-paging-active-memory-to-disk.md)가 발생합니다.
 
  디스크에 대한 지나친 페이징의 원인은 실제 메모리가 부족하기 때문일 수 있습니다. 페이징 파일이 있는 실제 디스크가 페이징 작업에 주로 사용된다면 같은 디스크에 대한 다른 애플리케이션 기반 디스크 작업이 느려질 수 있습니다.
 
