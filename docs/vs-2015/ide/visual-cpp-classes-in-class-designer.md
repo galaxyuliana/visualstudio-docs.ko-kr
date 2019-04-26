@@ -13,12 +13,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 04392545b5b5c352a35b9a3d523f0c6ff5d98b01
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: c1fb81261f52fa5aaf73c30579332779ae5bfa17
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54787078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443176"
 ---
 # <a name="visual-c-classes-in-class-designer"></a>클래스 디자이너의 Visual C++ 클래스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "54787078"
 클래스 디자이너는 C++ 클래스를 지원하며, C++ 클래스가 여러 상속 관계를 포함한다는 점을 제외하고 Visual Basic 및 Visual C# 클래스 모양과 동일한 방식으로 네이티브 C++ 클래스를 시각화합니다. 클래스 모양을 확장하여 추가 필드와 메서드를 클래스에 표시하거나 축소하여 공간을 절약할 수 있습니다.  
   
 > [!NOTE]
->  클래스 디자이너는 공용 구조체(해당 데이터 멤버 중 가장 큰 데이터 멤버에 필요한 만큼만 메모리가 할당되는 특수한 클래스 형식)를 지원하지 않습니다.  
+> 클래스 디자이너는 공용 구조체(해당 데이터 멤버 중 가장 큰 데이터 멤버에 필요한 만큼만 메모리가 할당되는 특수한 클래스 형식)를 지원하지 않습니다.  
   
 ## <a name="simple-inheritance"></a>단순 상속  
  둘 이상의 클래스를 클래스 다이어그램으로 끌면 클래스에는 클래스 상속 관계가 설정되고 화살표가 클래스를 연결합니다. 화살표는 기본 클래스의 방향을 가리킵니다. 예를 들어 다음 클래스가 클래스 다이어그램에 표시되면 화살표는 B에서 A를 가리키도록 클래스를 연결합니다.  
@@ -52,7 +52,7 @@ class Penguin : public Bird, public Swimmer {};
  클래스 모양을 마우스 오른쪽 단추로 클릭한 다음 **기본 클래스 표시**를 클릭하면 선택한 클래스에 대한 기본 클래스가 표시됩니다.  
   
 > [!NOTE]
->  C++ 코드에는 **파생 클래스 표시** 명령이 지원되지 않습니다. 클래스 뷰로 이동하여 형식 노드를 확장하고 **파생 형식** 하위 폴더를 확장한 후 해당 형식을 클래스 다이어그램으로 끌어 파생 클래스를 표시할 수 있습니다.  
+> C++ 코드에는 **파생 클래스 표시** 명령이 지원되지 않습니다. 클래스 뷰로 이동하여 형식 노드를 확장하고 **파생 형식** 하위 폴더를 확장한 후 해당 형식을 클래스 다이어그램으로 끌어 파생 클래스를 표시할 수 있습니다.  
   
  다중 클래스 상속에 대한 자세한 내용은 [(NOTINBUILD) 다중 상속](http://msdn.microsoft.com/3b74185e-2beb-4e29-8684-441e51d2a2ca) 및 [다중 기본 클래스](http://msdn.microsoft.com/library/a30c69fe-401c-4a87-96a0-e0da70c7c740)를 참조하세요.  
   

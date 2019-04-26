@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2aa44ee0d7d4a1b9965e653ac089c4c5dd78821b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 6b9adb5a0a47c1ee98e0e390cfaf8b3a6dc78146
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433789"
 ---
 # <a name="attach"></a>연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ VSPerfCmd.exe **Attach** 옵션은 PID(프로세스 ID)로 지정된 실행 중�
  **Attach** 옵션을 사용하려면 Start 옵션에서 **Sample** 메서드를 지정해야 합니다.  
   
 > [!NOTE]
->  **Start** 옵션이 **Crosssession** 옵션으로 지정된 경우 **VSPerfCmd/Attach** 또는 **VSPerfCmd/Detach**에 대한 모든 호출은 **Crosssession**을 지정해야 합니다.  
+> **Start** 옵션이 **Crosssession** 옵션으로 지정된 경우 **VSPerfCmd/Attach** 또는 **VSPerfCmd/Detach**에 대한 모든 호출은 **Crosssession**을 지정해야 합니다.  
   
 ## <a name="syntax"></a>구문  
   

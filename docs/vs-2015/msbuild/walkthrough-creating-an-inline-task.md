@@ -12,12 +12,12 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 77f57eeda2f193170f4cd4f8b09d92989962e7fd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: ad081a4d6954d402aa295a94edae3f5bdf50ef4c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445625"
 ---
 # <a name="walkthrough-creating-an-inline-task"></a>연습: 인라인 작업 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,7 +104,7 @@ MSBuild 작업은 일반적으로 <xref:Microsoft.Build.Framework.ITask> 인터�
     `Hello, world!`  
   
    > [!NOTE]
-   >  hello 메시지가 표시되지 않으면 프로젝트 파일을 다시 저장해 보고 Hello 작업을 실행하세요.  
+   > hello 메시지가 표시되지 않으면 프로젝트 파일을 다시 저장해 보고 Hello 작업을 실행하세요.  
   
    코드 편집기와 **명령 프롬프트 창**을 오가면서 프로젝트 파일을 변경하고 결과를 빠르게 확인할 수 있습니다.  
   

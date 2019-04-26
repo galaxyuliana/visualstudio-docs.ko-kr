@@ -16,12 +16,12 @@ caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 98670f99779804cec87bc4afc03ab7d126024378
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 47f0567b07f12d17d721881c98c670ad74800190
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419749"
 ---
 # <a name="toolbox"></a>도구 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60105619"
  **도구 상자**에는 작업 중인 파일 형식에 적합한 항목만 표시됩니다. 도구 상자 내에서 검색하여 표시되는 항목을 추가로 필터링할 수 있습니다. 프로젝트에 클라이언트 프로필에서 지원되지 않는 컨트롤이 필요한 경우 프로젝트 속성을 편집하여 전체 프레임워크를 대상으로 하도록 프로젝트를 설정할 수 있습니다.  
   
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="help-on-toolbox-tabs"></a>도구 상자 탭에 대한 도움말  
  다음 문서에서는 특정 **도구 상자** 탭에 대한 추가 정보를 제공합니다.  

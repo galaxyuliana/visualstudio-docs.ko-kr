@@ -19,12 +19,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ae91a057dc983044caa9544030571a8be34deef7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 8d1991ad3b99e3ab46e6ebea527ff839ef960ac7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441118"
 ---
 # <a name="accessibility-products-and-services-from-microsoft"></a>Microsoft의 내게 필요한 옵션 제품 및 서비스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽�
 - [자세한 내용](../../ide/reference/accessibility-products-and-services-from-microsoft.md#moreinfo)  
   
 > [!NOTE]
->  이 섹션의 정보는 미국에서 Microsoft 제품 사용 허가를 받은 사용자에게만 적용될 수 있습니다. 미국 이외의 지역에서 이 제품을 구입한 경우 소프트웨어 패키지와 함께 제공된 Microsoft 자회사 정보 카드를 사용하거나 [Microsoft 접근성 웹 사이트](http://go.microsoft.com/fwlink/?LinkId=8431) 를 방문하여 Microsoft 지원 서비스 전화 번호와 주소를 볼 수 있습니다. 자회사에 연락하여 이 섹션에서 설명하는 제품 및 서비스 유형이 해당 지역에서 제공되는지 확인할 수 있습니다. 내게 필요한 옵션에 대한 정보는 일본어, 프랑스어 등 다른 언어로도 제공됩니다.  
+> 이 섹션의 정보는 미국에서 Microsoft 제품 사용 허가를 받은 사용자에게만 적용될 수 있습니다. 미국 이외의 지역에서 이 제품을 구입한 경우 소프트웨어 패키지와 함께 제공된 Microsoft 자회사 정보 카드를 사용하거나 [Microsoft 접근성 웹 사이트](http://go.microsoft.com/fwlink/?LinkId=8431) 를 방문하여 Microsoft 지원 서비스 전화 번호와 주소를 볼 수 있습니다. 자회사에 연락하여 이 섹션에서 설명하는 제품 및 서비스 유형이 해당 지역에서 제공되는지 확인할 수 있습니다. 내게 필요한 옵션에 대한 정보는 일본어, 프랑스어 등 다른 언어로도 제공됩니다.  
   
 ## <a name="windows"></a> Windows의 접근성 기능  
  Windows 운영 체제에는 키보드 입력 또는 마우스를 사용하는 데 어려움이 있거나 시력 또는 청각 장애가 있는 사용자에게 유용한 여러 접근성 기능이 기본 제공됩니다. 해당 기능은 설치 중에 설치됩니다. 이러한 기능에 대한 자세한 내용은 Windows 도움말 및 [Microsoft 접근성 웹 사이트](http://go.microsoft.com/fwlink/?LinkId=8431)를 참조하세요.  

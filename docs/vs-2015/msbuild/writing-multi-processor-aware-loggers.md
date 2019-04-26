@@ -13,12 +13,12 @@ caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ec8cefeaf005c17ecb09d109c161b5cbae3dc03a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 0d2eaf41ac66cd1bdf680145bef43b17cc29a505
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425876"
 ---
 # <a name="writing-multi-processor-aware-loggers"></a>다중 프로세서 인식 로거 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,7 +81,7 @@ msbuild.exe myproj.proj/distributedlogger:XMLCentralLogger,MyLogger,Version=1.0.
 ```  
   
 > [!NOTE]
->  별표(*)는 `/dl` 스위치에서 두 개의 로거 이름을 구분해야 합니다.  
+> 별표(*)는 `/dl` 스위치에서 두 개의 로거 이름을 구분해야 합니다.  
   
  ConfigurableForwardingLogger를 사용하는 것은 일반 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 로거 대신 ConfigurableForwardingLogger 로거를 연결하고 매개 변수로 ConfigurableForwardingLogger에서 중앙 노드에 전달하려는 이벤트를 지정하는 것을 제외하고 다른 로거를 사용하는 것과 비슷합니다([빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)에 설명된 대로).  
   

@@ -18,12 +18,12 @@ caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d91263dc0f66c048e308505e461c8b1536b77a06
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 7fd6d8c63d8b0b56af20ac1211802524336d06bc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437572"
 ---
 # <a name="creating-solutions-and-projects"></a>Creating Solutions and Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "60109818"
 프로젝트는 애플리케이션 빌드에 필요한 모든 항목에 대한 논리적 컨테이너입니다. 주 메뉴에서 **파일 &#124; 새로 만들기 &#124; 프로젝트**를 선택하여 프로젝트를 만드는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 프로젝트가 포함될 솔루션을 만듭니다. 그런 다음 필요한 경우 새 프로젝트나 기존 프로젝트를 솔루션에 더 추가할 수 있습니다. 기존 코드 파일에서 프로젝트를 만들 수 있으며 작업을 마쳤을 때 삭제될 임시 프로젝트(.NET만 해당)를 만들 수 있습니다.  
   
 > [!NOTE]
->  이 항목의 설명은 Visual Studio Community 버전을 기반으로 합니다. 표시되는 대화 상자 및 메뉴 명령은 설정 또는 Visual Studio 버전에 따라 여기에 설명된 내용과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 이 항목의 설명은 Visual Studio Community 버전을 기반으로 합니다. 표시되는 대화 상자 및 메뉴 명령은 설정 또는 Visual Studio 버전에 따라 여기에 설명된 내용과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="create-a-project-from-an-installed-project-template"></a>설치된 프로젝트 템플릿에서 프로젝트 만들기  
  주 메뉴에서 **파일 &#124; 새로 만들기 &#124; 프로젝트**를 선택하여 새 프로젝트 대화 상자를 표시합니다. **설치됨 &#124; 템플릿** 아래 왼쪽 창에서 프로그래밍 언어 및 플랫폼이나 기술을 선택한 다음 가운데 창의 사용 가능한 템플릿에서 선택합니다.  
@@ -42,7 +42,7 @@ ms.locfileid: "60109818"
  느슨한 소스 파일 컬렉션이 있는 경우 파일을 포함하는 프로젝트를 쉽게 만들 수 있습니다. **파일 &#124; 새로 만들기 &#124; 기존 코드의 프로젝트**를 선택하여 **기존 코드 파일에서 프로젝트 만들기 마법사**를 시작하고 프롬프트를 따릅니다.  
   
 > [!TIP]
->  이 옵션은 상대적으로 간단한 파일 컬렉션에 적합합니다.  
+> 이 옵션은 상대적으로 간단한 파일 컬렉션에 적합합니다.  
   
 ## <a name="create-a-temporary-project-c-and-visual-basic"></a>임시 프로젝트 만들기(C# 및 Visual Basic)  
  임시 프로젝트로 작업하면 디스크 위치를 지정하지 않아도 .NET 프로젝트를 만들고 사용할 수 있습니다. 프로젝트를 만들 때 프로젝트 형식 및 템플릿을 선택하고 **새 프로젝트** 대화 상자에서 이름을 지정하면 됩니다. 임시 프로젝트로 작업하는 동안 언제든지 프로젝트를 저장하거나 삭제할 수 있습니다.  
@@ -83,7 +83,7 @@ ms.locfileid: "60109818"
  솔루션을 영구적으로 삭제할 수 있으나 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 사용하여 삭제하지는 않습니다. 솔루션을 삭제하기 전에 다른 솔루션에서 다시 사용할 수도 있는 프로젝트를 모두 이동합니다. 그런 다음 파일 탐색기를 사용하여 .sln 및 .suo 솔루션 파일이 포함된 디렉터리를 삭제합니다.  
   
 > [!NOTE]
->  .suo 파일은 파일 탐색기의 기본 설정으로는 표시되지 않는 숨김 파일입니다.  
+> .suo 파일은 파일 탐색기의 기본 설정으로는 표시되지 않는 숨김 파일입니다.  
   
 ##### <a name="to-delete-a-solution"></a>솔루션을 삭제하려면  
   

@@ -12,12 +12,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 15dcdbec1407dc646e26f7419e2dd80cec869725
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 1c2134c38a3910a5dd1308990b0788002a7ded2d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54752264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441906"
 ---
 # <a name="nameprofile"></a>NameProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,7 +84,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
  현재 이외의 프로세스 또는 스레드를 지정하는 경우 이름을 지정하기 전에 초기화되었고 실행이 시작되었는지 확인해야 합니다. 그렇지 않으면 NameProfile 메서드가 실패합니다.  
   
 > [!IMPORTANT]
->  CreateProcess() 및 CreateThread() API 함수는 스레드 또는 프로세스가 초기화되기 전에 반환할 수 있습니다.  
+> CreateProcess() 및 CreateThread() API 함수는 스레드 또는 프로세스가 초기화되기 전에 반환할 수 있습니다.  
   
 ## <a name="net-framework-equivalent"></a>.NET Framework의 해당 값  
  Microsoft.VisualStudio.Profiler.dll  
@@ -97,7 +97,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
 |**라이브러리**|VSPerf.lib 사용|  
 |**유니코드**|`NameProfileW`(유니코드) 및 `NameProfileA`(ANSI)로 구현됐습니다.|  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 코드에서는 NameProfile 함수 호출을 보여 줍니다. 예제에서는 코드에서 ANSI 사용 함수를 호출할지 여부를 결정하도록 Win32 문자열 매크로 및 ANSI에 대한 컴파일러 설정의 사용을 가정합니다.  
   
 ```  

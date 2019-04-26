@@ -19,12 +19,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a39a2ef42463bd781f6bb8a24e3cfbc10b937b90
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 74c08f7ee338a38267ba0b259fbd8cb207b64d71
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432318"
 ---
 # <a name="identifying-and-customizing-keyboard-shortcuts-in-visual-studio"></a>Visual Studio에서 바로 가기 키 식별 및 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ Visual Studio 명령에 대한 바로 가기 키를 확인하고, 해당 바로 
   바로 가기가 전역 컨텍스트의 명령에 할당되었고 기타 컨텍스트가 없는 경우, 해당 바로 가기는 항상 해당 명령을 호출합니다. 하지만 바로 가기가 전역 컨텍스트에서 한 명령에 할당되고 특정 컨텍스트에서는 다른 명령에 할당될 수도 있습니다. 특정 컨텍스트에서 이러한 바로 가기를 사용하는 경우, 바로 가기는 전역 컨텍스트가 아닌 특정 컨텍스트의 명령을 호출합니다.
 
 > [!NOTE]
->  사용자 설정 및 Visual Studio 버전에 따라 메뉴 명령과 대화 상자에 표시되는 옵션의 이름 및 위치가 변경될 수 있습니다. 이 항목에서는 **일반 개발 설정**을 기반으로 합니다.
+> 사용자 설정 및 Visual Studio 버전에 따라 메뉴 명령과 대화 상자에 표시되는 옵션의 이름 및 위치가 변경될 수 있습니다. 이 항목에서는 **일반 개발 설정**을 기반으로 합니다.
 
 ## <a name="bkmk_identify"></a>바로 가기 키 식별
 
@@ -91,12 +91,12 @@ Visual Studio 명령에 대한 바로 가기 키를 확인하고, 해당 바로 
      예를 들어, 모든 컨텍스트에서 바로 가기가 동작하도록 하려면 **전역**을 선택할 수 있습니다. 다른 편집기에 전역으로 매핑되어 있지 않은 모든 바로 가기를 사용할 수 있습니다. 그렇지 않으면 편집기에서 바로 가기를 무시합니다.
 
     > [!NOTE]
-    >  Print Screen/Sys Rq 키, Scroll Lock 키, Pause/Break 키, Tab 키, Caps Lock 키, Insert 키, Home 키, End 키, Page Up 키, Page Down 키, Windows 로고 키, 애플리케이션 키, 모든 화살표 키, Enter 키, 숫자 키패드의 Num Lock 키, Del 키, Clear 키, Ctrl+Alt+Delete 키 등은 **전역** 바로 가기 키의 일부로 할당할 수 없습니다.
+    > Print Screen/Sys Rq 키, Scroll Lock 키, Pause/Break 키, Tab 키, Caps Lock 키, Insert 키, Home 키, End 키, Page Up 키, Page Down 키, Windows 로고 키, 애플리케이션 키, 모든 화살표 키, Enter 키, 숫자 키패드의 Num Lock 키, Del 키, Clear 키, Ctrl+Alt+Delete 키 등은 **전역** 바로 가기 키의 일부로 할당할 수 없습니다.
 
 6. **바로 가기 키 누르기** 상자에 사용하려는 바로 가기를 입력합니다.
 
     > [!NOTE]
-    >  Alt 키, Ctrl 키 또는 둘 다와 함께 문자를 조합하여 바로 가기를 만들 수 있습니다. 또한 Alt 키, Ctrl 키 또는 둘 다와 함께 Shift 키 및 문자를 조합하여 바로 가기를 만들 수 있습니다.
+    > Alt 키, Ctrl 키 또는 둘 다와 함께 문자를 조합하여 바로 가기를 만들 수 있습니다. 또한 Alt 키, Ctrl 키 또는 둘 다와 함께 Shift 키 및 문자를 조합하여 바로 가기를 만들 수 있습니다.
 
      다른 명령에 이미 할당된 바로 가기의 경우 **이 바로 가기 키를 사용하는 명령** 상자에 나타납니다. 이 경우, 다른 바로 가기를 넣어 보기 전에 백스페이스 키를 선택하여 해당 바로 가기를 삭제하십시오.
 
@@ -105,7 +105,7 @@ Visual Studio 명령에 대한 바로 가기 키를 확인하고, 해당 바로 
 7. **할당** 단추를 선택합니다.
 
     > [!NOTE]
-    >  명령에 다른 바로 가기를 지정하는 경우 **할당** 단추를 클릭한 다음 **취소** 단추를 선택하면 대화 상자가 닫히지만 변경 사항은 취소되지 않습니다.
+    > 명령에 다른 바로 가기를 지정하는 경우 **할당** 단추를 클릭한 다음 **취소** 단추를 선택하면 대화 상자가 닫히지만 변경 사항은 취소되지 않습니다.
 
 ## <a name="bkmk_transfer"></a>사용자 지정 바로 가기 키 공유
  사용자 지정 바로 가기 키를 파일로 내보낸 다음 데이터를 가져올 수 있도록 다른 사용자에게 이 파일을 제공하여 공유할 수 있습니다.

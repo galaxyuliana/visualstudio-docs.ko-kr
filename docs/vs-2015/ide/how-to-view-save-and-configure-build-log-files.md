@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 496fcdf28f8ce9b0809988949d435c064734b508
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 7bd8bae0213755b11c145c4bef9c312fe3990c4d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60053571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432325"
 ---
 # <a name="how-to-view-save-and-configure-build-log-files"></a>방법: 빌드 로그 파일 보기, 저장 및 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ Visual Studio IDE에서 프로젝트를 빌드한 후에 **출력** 창에서 �
      자세한 내용은 [옵션 대화 상자, 프로젝트 및 솔루션, 빌드 및 실행](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md) 및 <xref:Microsoft.Build.Framework.LoggerVerbosity>를 참조하세요.  
   
     > [!IMPORTANT]
-    >  **출력** 창(모든 프로젝트) 및 *ProjectName*.txt 파일(C++ 프로젝트에만 해당)에 적용할 변경 내용에 대한 프로젝트를 다시 작성해야 합니다.  
+    > **출력** 창(모든 프로젝트) 및 *ProjectName*.txt 파일(C++ 프로젝트에만 해당)에 적용할 변경 내용에 대한 프로젝트를 다시 작성해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md)   

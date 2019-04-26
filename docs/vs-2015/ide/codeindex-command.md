@@ -13,12 +13,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 624a2a735032342d4eb47e2393ecae3ea3247891
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: f9fa341b781028db1836e963c99ae5069ce8fe18
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54797296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433604"
 ---
 # <a name="codeindex-command"></a>CodeIndex 명령
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "54797296"
  **CodeIndex** 명령을 사용하려면 **Team Foundation Administrators** 보안 그룹의 멤버여야 합니다. [Team Foundation Server에 대한 사용 권한 참조](http://msdn.microsoft.com/library/39997de5-b7fb-4777-b779-07de0543abe6)를 참조하세요.  
   
 > [!NOTE]
->  관리자 자격 증명으로 로그온한 경우에도 이 명령을 실행하려면 관리자 권한 명령 프롬프트 창을 열어야 합니다. 또한 Team Foundation의 애플리케이션 계층에서 이 명령을 실행해야 합니다.  
+> 관리자 자격 증명으로 로그온한 경우에도 이 명령을 실행하려면 관리자 권한 명령 프롬프트 창을 열어야 합니다. 또한 Team Foundation의 애플리케이션 계층에서 이 명령을 실행해야 합니다.  
   
 ## <a name="syntax"></a>구문  
   
@@ -62,7 +62,7 @@ TFSConfig CodeIndex /indexingStatus | /setIndexing:[ on | off | keepupOnly ] | /
 ## <a name="examples"></a>예제  
   
 > [!NOTE]
->  용례에 사용된 회사, 기관, 제품, 도메인 이름, 메일 주소, 로고, 사람, 장소 및 이벤트는 실제 데이터가 아닙니다.  어떠한 실제 회사, 기관, 제품, 도메인 이름, 전자 메일 주소, 로고, 사람, 장소 또는 이벤트와도 연관시킬 의도가 없으며 그렇게 유추해서도 안 됩니다.  
+> 용례에 사용된 회사, 기관, 제품, 도메인 이름, 메일 주소, 로고, 사람, 장소 및 이벤트는 실제 데이터가 아닙니다.  어떠한 실제 회사, 기관, 제품, 도메인 이름, 전자 메일 주소, 로고, 사람, 장소 또는 이벤트와도 연관시킬 의도가 없으며 그렇게 유추해서도 안 됩니다.  
   
  코드 인덱싱 상태 및 구성을 보려면  
   

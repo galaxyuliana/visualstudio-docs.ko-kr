@@ -23,12 +23,12 @@ caps.latest.revision: 55
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e344fa63a9778d0db45ceeb0e313faa4c6448241
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: e4ac17ba5bc828e7974ced9519728aa5de15db94
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60057098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424532"
 ---
 # <a name="managing-references-in-a-project"></a>프로젝트의 참조 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,10 +68,10 @@ ms.locfileid: "60057098"
 2. 지원되지 않는 확장 SDK를 소유한 공급업체의 사이트로 이동하여 프로젝트의 대상 플랫폼 버전과 호환되는 종속성으로 확장 SDK 버전을 설치합니다.  
   
     > [!NOTE]
-    >  다른 확장 SDK에 대한 종속성이 있는 확장 SDK에서 Visual Studio를 다시 시작할지 여부를 확인하려면 새 C# Windows 스토어 프로젝트를 만들고 해당 프로젝트를 마우스 오른쪽 단추를 클릭한 후 **참조 추가**를 선택하여 **Windows** 탭의 **확장** 하위 탭으로 이동한 후 확장 SDK를 선택하고 **참조 관리자**의 오른쪽 창을 확인합니다. 종속성이 있는 경우 나열됩니다.  
+    > 다른 확장 SDK에 대한 종속성이 있는 확장 SDK에서 Visual Studio를 다시 시작할지 여부를 확인하려면 새 C# Windows 스토어 프로젝트를 만들고 해당 프로젝트를 마우스 오른쪽 단추를 클릭한 후 **참조 추가**를 선택하여 **Windows** 탭의 **확장** 하위 탭으로 이동한 후 확장 SDK를 선택하고 **참조 관리자**의 오른쪽 창을 확인합니다. 종속성이 있는 경우 나열됩니다.  
   
     > [!IMPORTANT]
-    >  프로젝트가 Windows 10을 대상으로 하고 이전에 설치된 확장 SDK가 Microsoft Visual C++ 런타임 패키지에 종속된 경우 Windows 10과 호환되는 Microsoft Visual C++ 런타임 패키지의 버전은 v14.0이고 Visual Studio 2015와 함께 설치됩니다.  
+    > 프로젝트가 Windows 10을 대상으로 하고 이전에 설치된 확장 SDK가 Microsoft Visual C++ 런타임 패키지에 종속된 경우 Windows 10과 호환되는 Microsoft Visual C++ 런타임 패키지의 버전은 v14.0이고 Visual Studio 2015와 함께 설치됩니다.  
   
 3. 이전에 설치한 확장 SDK가 다른 확장 SDK에 종속된 경우 종속성을 소유한 공급업체의 사이트로 이동하여 프로젝트의 대상 플랫폼 버전과 호환되는 종속성 버전을 설치합니다.  
   
@@ -89,9 +89,9 @@ ms.locfileid: "60057098"
 - 같은 솔루션에 있는 다른 프로젝트 디렉터리. 이러한 어셈블리는 **프로젝트** 탭에서 찾을 수 있습니다.  
   
 > [!NOTE]
->  모든 프로젝트에는 mscorlib에 대한 암시적 참조가 포함되어 있습니다. Visual Basic 프로젝트에는 `Microsoft.VisualBasic`에 대한 암시적 참조가 포함되어 있습니다.  
+> 모든 프로젝트에는 mscorlib에 대한 암시적 참조가 포함되어 있습니다. Visual Basic 프로젝트에는 `Microsoft.VisualBasic`에 대한 암시적 참조가 포함되어 있습니다.  
 >   
->  Visual Studio에서는 `System.Core`가 참조 목록에서 제거된 경우를 포함한 모든 프로젝트에 `System.Core` 에 대한 암시적 참조가 포함되어 있습니다.  
+> Visual Studio에서는 `System.Core`가 참조 목록에서 제거된 경우를 포함한 모든 프로젝트에 `System.Core` 에 대한 암시적 참조가 포함되어 있습니다.  
   
 ## <a name="references-to-shared-components-at-run-time"></a>런타임의 공유 구성 요소에 대한 참조  
  런타임에 구성 요소는 프로젝트의 출력 경로 또는 GAC( [Global Assembly Cache](http://msdn.microsoft.com/library/cf5eacd0-d3ec-4879-b6da-5fd5e4372202) )에 있어야 합니다. 프로젝트에 이러한 위치 중 하나에 없는 개체에 대한 참조가 포함되어 있는 경우 프로젝트를 빌드할 때 프로젝트의 출력 경로에 대한 참조를 복사해야 합니다. <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> 속성은 복사본을 만들 수 있는지 여부를 나타냅니다. 값이 **True**이면 프로젝트를 빌드할 때 참조가 프로젝트 디렉터리에 복사됩니다. 값이 **False**이면 참조가 복사되지 않습니다.  
@@ -111,7 +111,7 @@ ms.locfileid: "60057098"
  어셈블리를 생성하는 프로젝트를 사용하는 경우에는 프로젝트를 참조하고 파일 참조(아래 참조)를 사용하지 말아야 합니다. 프로젝트 간 참조의 이점은 빌드 시스템에서 프로젝트 간의 종속성을 만들 수 있다는 점입니다. 참조하는 프로젝트가 마지막으로 빌드된 이후 변경된 경우 종속 프로젝트가 빌드됩니다. 파일 참조는 빌드 종속성을 만들지 않습니다. 따라서 종속 프로젝트를 빌드하지 않고 참조되는 프로젝트를 빌드할 수 있으며 해당 참조가 더 이상 사용되지 않습니다. (즉, 프로젝트가 이전에 빌드된 프로젝트 버전을 참조할 수 있습니다.) 그러면 bin 디렉터리에 여러 버전의 단일 DLL이 필요하게 되는데 이것은 불가능합니다. 이러한 충돌이 발생하면 [경고: 프로젝트 '프로젝트'의 종속성 '파일'을 실행 디렉터리에 복사할 수 없습니다. 그러면 참조 ‘파일'을 덮어쓰기 때문입니다.](../misc/warning-the-dependency-file-in-project-project-cannot-be-copied.md)와 같은 메시지가 표시됩니다. 자세한 내용은 [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md) 및 [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md)를 참조하세요.  
   
 > [!NOTE]
->  한 프로젝트의 대상 .NET Framework 버전이 버전 4.5이고 다른 프로젝트의 대상 버전이 버전 2, 3, 3.5 또는 4.0인 경우 프로젝트 간 참조 대신 파일 참조가 만들어집니다.  
+> 한 프로젝트의 대상 .NET Framework 버전이 버전 4.5이고 다른 프로젝트의 대상 버전이 버전 2, 3, 3.5 또는 4.0인 경우 프로젝트 간 참조 대신 파일 참조가 만들어집니다.  
   
 ## <a name="file-references"></a>파일 참조  
  파일 참조는 Visual Studio 프로젝트의 컨텍스트 외부에서 어셈블리에 대한 직접 참조로서, **참조 관리자** 의 **찾아보기**탭을 사용하여 만들 수 있습니다. 어셈블리나 구성 요소는 있고 출력으로서 작성하는 프로젝트는 없는 경우 파일 참조를 사용하세요.  

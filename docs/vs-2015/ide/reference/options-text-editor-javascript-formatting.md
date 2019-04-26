@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 81532137b98b415a598a2770b19c3df8ce14f135
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59666470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433650"
 ---
 # <a name="options-text-editor-javascript-formatting"></a>옵션, 텍스트 편집기, JavaScript, 서식
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
