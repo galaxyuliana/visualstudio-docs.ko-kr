@@ -15,12 +15,12 @@ caps.latest.revision: 68
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d2484d0fc921d8a5bb42c8e89306a57c3ab6c11d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 4c4e034659298cfa4aa67023767bd4c90ac745c9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433759"
 ---
 # <a name="application-page-project-designer-visual-basic"></a>Application Page, Project Designer (Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "59670383"
  **루트 네임스페이스**의 선택을 취소하는 경우 코드에서 프로젝트의 네임스페이스 구조를 지정할 수 있습니다.  
   
 > [!NOTE]
->  [Namespace 문](http://msdn.microsoft.com/library/a31fbd95-9ace-4c3d-bbb1-51222a2272b2)에 Global 키워드를 사용하는 경우 프로젝트의 루트 네임스페이스 외부에서 네임스페이스를 정의할 수 있습니다. **루트 네임스페이스**의 선택을 취소하면 `Global`이 최상위 네임스페이스가 되므로 `Namespace` 문에 `Global` 키워드가 필요하지 않습니다. 자세한 내용은 [Visual Basic의 네임스페이스](http://msdn.microsoft.com/library/cffac744-ab8c-4f1f-ba50-732c22ab4b88)에서 "Namespace 문의 Global 키워드"를 참조하세요.  
+> [Namespace 문](http://msdn.microsoft.com/library/a31fbd95-9ace-4c3d-bbb1-51222a2272b2)에 Global 키워드를 사용하는 경우 프로젝트의 루트 네임스페이스 외부에서 네임스페이스를 정의할 수 있습니다. **루트 네임스페이스**의 선택을 취소하면 `Global`이 최상위 네임스페이스가 되므로 `Namespace` 문에 `Global` 키워드가 필요하지 않습니다. 자세한 내용은 [Visual Basic의 네임스페이스](http://msdn.microsoft.com/library/cffac744-ab8c-4f1f-ba50-732c22ab4b88)에서 "Namespace 문의 Global 키워드"를 참조하세요.  
   
  코드에서 네임스페이스를 만드는 방법에 대한 자세한 내용은 [Namespace 문](http://msdn.microsoft.com/library/a31fbd95-9ace-4c3d-bbb1-51222a2272b2)을 참조하세요.  
   
@@ -57,7 +57,7 @@ ms.locfileid: "59670383"
  기본값은 **새 프로젝트** 대화 상자에서 지정한 대상 프레임워크와 일치합니다.  
   
 > [!NOTE]
->  대화 상자를 처음 열면 [필수 조건 대화 상자](../../ide/reference/prerequisites-dialog-box.md)에 나열된 필수 조건 패키지가 자동으로 설정됩니다. 이후에 프로젝트의 대상 프레임워크를 변경하는 경우 새 대상 프레임워크에 맞도록 필수 조건을 수동으로 지정해야 합니다.  
+> 대화 상자를 처음 열면 [필수 조건 대화 상자](../../ide/reference/prerequisites-dialog-box.md)에 나열된 필수 조건 패키지가 자동으로 설정됩니다. 이후에 프로젝트의 대상 프레임워크를 변경하는 경우 새 대상 프레임워크에 맞도록 필수 조건을 수동으로 지정해야 합니다.  
   
  자세한 내용은 [방법: 대상 .NET Framework 버전 지정](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) 및 [Visual Studio 멀티 타기팅 개요](../../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.  
   
@@ -69,7 +69,7 @@ ms.locfileid: "59670383"
  **WinMD 파일** 옵션을 지정하는 경우 유형을 Windows 런타임 프로그래밍 언어로 프로젝션할 수 있습니다. 프로젝트의 출력을 WinMD 파일로 패키징하면 여러 언어로 애플리케이션을 코딩한 후 모두 동일한 언어로 작성한 것처럼 코드가 상호 운용되도록 할 수 있습니다. [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] 앱을 포함하여 Windows 런타임 라이브러리를 대상으로 하는 솔루션에 대해 **WinMD 파일** 옵션을 사용할 수 있습니다. 자세한 내용은[C# 및 Visual Basic으로 Windows 런타임 구성 요소 만들기](http://go.microsoft.com/fwlink/?LinkId=231895)를 참조하세요.  
   
 > [!NOTE]
->  Windows 런타임은 어떤 언어에서 사용하든 네이티브 개체로 나타나도록 유형을 프로젝션할 수 있습니다. 예를 들어 Windows 런타임과 상호 작용하는 JavaScript 애플리케이션에서는 JavaScript 개체 집합으로 사용되고, C# 애플리케이션에서는 라이브러리가 .NET 개체 컬렉션으로 사용됩니다. 프로젝트의 출력을 WinMD 파일로 패키징하면 Windows 런타임에서 사용되는 것과 동일한 기술을 이용할 수 있습니다.  
+> Windows 런타임은 어떤 언어에서 사용하든 네이티브 개체로 나타나도록 유형을 프로젝션할 수 있습니다. 예를 들어 Windows 런타임과 상호 작용하는 JavaScript 애플리케이션에서는 JavaScript 개체 집합으로 사용되고, C# 애플리케이션에서는 라이브러리가 .NET 개체 컬렉션으로 사용됩니다. 프로젝트의 출력을 WinMD 파일로 패키징하면 Windows 런타임에서 사용되는 것과 동일한 기술을 이용할 수 있습니다.  
   
  **애플리케이션 종류** 속성에 대한 자세한 내용은 [/target(Visual Basic)](http://msdn.microsoft.com/library/e0954147-548b-461f-9c4b-a8f88845616c)을 참조하세요. 프로그래밍 방식으로 해당 속성에 액세스하는 방법에 대한 자세한 내용은 <xref:VSLangProj.ProjectProperties.OutputType%2A>을 참조하세요.  
   

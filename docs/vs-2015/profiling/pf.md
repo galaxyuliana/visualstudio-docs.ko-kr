@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3d4895da5247cbfba2263b3b298850086ed16c9b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 243d5fada7342bc05d8768a7e33cca6f55e309ef
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54761445"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442460"
 ---
 # <a name="pf"></a>PF
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "54761445"
 VSPerfCmd.exe **PF** 옵션은 페이지 폴트로 샘플링되는 프로파일링 이벤트를 설정하고 경우에 따라 샘플링 간격의 페이지 폴트 수를 기본값 10에서 변경합니다.  
   
 > [!NOTE]
->  PF는 64비트 시스템에서 사용할 수 없습니다.  
+> PF는 64비트 시스템에서 사용할 수 없습니다.  
   
  **PF**는 64비트 컴퓨터에서 지원되지 않습니다. **PF**는 **Launch** 또는 **Attach** 옵션도 포함하는 명령줄에만 사용할 수 있습니다.  
   
@@ -64,7 +64,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
  **GC**[**:**{**Allocation**&#124;**Lifetime**}]  
  .NET 메모리 데이터를 수집합니다. 기본적으로(**Allocation**) 모든 메모리 할당 이벤트에서 데이터가 수집됩니다. **Lifetime** 매개변수가 지정되면 데이터는 각 가비지 컬렉션 이벤트에서도 수집됩니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제는 프로파일링 샘플 이벤트를 페이지 폴트로 설정하고 샘플링 간격을 20 페이지 폴트로 설정하는 방법을 보여 줍니다.  
   
 ```  

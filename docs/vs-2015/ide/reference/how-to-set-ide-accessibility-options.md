@@ -11,12 +11,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 18f03e2bd37d8275685f34a65c9ab96740ed80a3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: dbd746a52084d2a2fc90a0c6890e20687fe7ee26
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60051624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63405635"
 ---
 # <a name="how-to-set-ide-accessibility-options"></a>방법: IDE 내게 필요한 옵션 설정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60051624"
  또한 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서는 가장 자주 입력되는 문자의 접근성을 높이는 Dvorak 키보드 레이아웃을 지원합니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서 제공되는 기본 바로 가기 키를 사용자 지정할 수도 있습니다. 자세한 내용은 [바로 가기 키 식별 및 사용자 지정](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)을 참조하세요.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="editors-dialogs-and-tool-windows"></a>편집기, 대화 상자 및 도구 창  
  기본적으로 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]의 대화 상자와 도구 창에서는 운영 체제와 같은 글꼴 크기 및 색을 사용합니다. IDE, 대화 상자, 도구 모음 및 도구 창의 프레임에 대한 색 설정은 색 테마인 밝은 테마 또는 어두운 테마에 따라 결정됩니다. [옵션 대화 상자, 환경, 일반](../../ide/reference/general-environment-options-dialog-box.md)에서 현재 색 테마를 변경할 수 있습니다.  
@@ -63,7 +63,7 @@ ms.locfileid: "60051624"
 6. **크기**에서 새 글꼴 크기를 선택합니다.  
   
     > [!NOTE]
-    >  텍스트 기반 도구 창 및 편집기의 텍스트 크기를 다시 설정하려면 **기본값 사용**을 선택합니다.  
+    > 텍스트 기반 도구 창 및 편집기의 텍스트 크기를 다시 설정하려면 **기본값 사용**을 선택합니다.  
   
 7. **확인**을 선택합니다.  
   
@@ -71,7 +71,7 @@ ms.locfileid: "60051624"
  편집기에서 텍스트, 여백 표시기, 공백 및 코드 요소의 기본색을 변경할 수도 있습니다.  
   
 > [!NOTE]
->  운영 체제의 모든 애플리케이션 창에 고대비 색을 사용하려면 왼쪽 <strong>ALT+</strong>왼쪽 **SHIFT+PRINT SCREEN**을 누릅니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]가 열릴 경우 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 닫았다 열면 고대비 색이 완전히 구현됩니다.  
+> 운영 체제의 모든 애플리케이션 창에 고대비 색을 사용하려면 왼쪽 <strong>ALT+</strong>왼쪽 **SHIFT+PRINT SCREEN**을 누릅니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]가 열릴 경우 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 닫았다 열면 고대비 색이 완전히 구현됩니다.  
   
 ##### <a name="to-change-the-color-of-items-in-the-editor"></a>편집기에서 항목의 색을 변경하려면  
   
