@@ -14,12 +14,12 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 928e77c5c28b76570525b8ea9037cd0d0cef7f99
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: a3925fcac62dfee9f448bd826dc7948f8b08d498
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62944084"
 ---
 # <a name="tutorial-open-a-project-from-a-repo"></a>자습서: 리포지토리에서 프로젝트 열기
 
@@ -27,7 +27,7 @@ ms.locfileid: "58857569"
 
 ::: moniker range="vs-2017"
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 페이지로 이동하여 체험용으로 설치합니다.
 
 ::: moniker-end
 
@@ -53,7 +53,7 @@ ms.locfileid: "58857569"
 
     ![로컬 Git 리포지토리 섹션에서 복제 선택](./media/open-proj-repo-local-git-repo-clone.png)
 
-1. 복제할 Git 리포지토리의 URL 입력 상자에서 리포지토리의 URL을 입력하거나 붙여넣고 **Enter** 키를 누릅니다.**** (GitHub에 로그인하라는 메시지가 표시될 수 있습니다. 이 경우 GitHub에 로그인합니다.)
+1. ***복제할 Git 리포지토리의 URL 입력*** 상자에서 리포지토리의 URL을 입력하거나 붙여넣고 **Enter** 키를 누릅니다. (GitHub에 로그인하라는 메시지가 표시될 수 있습니다. 이 경우 GitHub에 로그인합니다.)
 
    Visual Studio가 리포지토리를 복제한 후에는 팀 탐색기가 닫히고 솔루션 탐색기가 열립니다. *Click on Solutions and Folders above to view a list of Solutions*(위에서 솔루션 목록을 표시할 솔루션 및 폴더를 클릭하세요.) 메시지가 표시됩니다. **솔루션 및 폴더**를 선택합니다.
 
@@ -185,5 +185,5 @@ Visual Studio로 코딩할 준비가 되면 다음 언어별 자습서를 자세
 
 ## <a name="see-also"></a>참고 항목
 
-- [Azure DevOps Services: Azure Repos 및 Visual Studio 시작](/azure/devops/repos/git/gitquickstart/)
-- [Microsoft Learn: Azure DevOps 시작](/learn/modules/get-started-with-devops/)
+- [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)(Azure DevOps Services: Azure Repos 및 Visual Studio 시작하기)
+- [Microsoft Learn: Azure DevOps 시작하기](/learn/modules/get-started-with-devops/)
