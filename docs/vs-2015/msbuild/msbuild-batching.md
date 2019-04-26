@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 823b853363e3044383da4673d7e88a96d9e5ea6a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: d96330c01ab340d4db67694f358717a2dae0bce3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439370"
 ---
 # <a name="msbuild-batching"></a>MSBuild 일괄 처리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "59664338"
  작업 특성 중 하나에서 %(*ItemMetaDataName*) 표기법을 사용하여 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]가 작업에서 일괄 처리를 수행하도록 지정합니다. 다음 예제에서는 `Example` 항목 목록을 `Color` 항목 메타데이터 값에 기반한 일괄 처리로 분할하고 일괄 처리 각각을 `MyTask` 작업에 개별적으로 전달합니다.  
   
 > [!NOTE]
->  작업 특성의 다른 위치에서 항목 목록을 참조하지 않거나 메타데이터 이름이 모호할 수 있는 경우 %(*ItemCollection.ItemMetaDataName*) 표기법을 사용하여 일괄 처리에 사용할 항목 메타데이터 값을 정규화할 수 있습니다.  
+> 작업 특성의 다른 위치에서 항목 목록을 참조하지 않거나 메타데이터 이름이 모호할 수 있는 경우 %(*ItemCollection.ItemMetaDataName*) 표기법을 사용하여 일괄 처리에 사용할 항목 메타데이터 값을 정규화할 수 있습니다.  
   
 ```  
 <Project  
