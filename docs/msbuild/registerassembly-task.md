@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7d9ebe23cab26d6a90e16623917b61d261ed12f5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56636114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974646"
 ---
 # <a name="registerassembly-task"></a>RegisterAssembly 작업
 지정된 어셈블리 내의 메타데이터를 읽고 필요한 엔트리를 레지스트리에 추가할 수 있습니다. 이렇게 하면 COM 클라이언트에서 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 클래스를 투명하게 만들 수 있습니다. 이 작업의 동작은 [Regasm.exe(어셈블리 등록 도구)](/dotnet/framework/tools/regasm-exe-assembly-registration-tool)의 동작과 비슷하지만 같지는 않습니다.

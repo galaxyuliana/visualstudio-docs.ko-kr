@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 2d99d6ccfb7b5a310726fdb1cf2dbfebd6591bef
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55942299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62989849"
 ---
 # <a name="setting-language-specific-editor-options"></a>언어별 편집기 옵션 설정
 

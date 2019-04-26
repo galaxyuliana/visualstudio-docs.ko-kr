@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 955968137e1f8d2ba1322f5ccf9be2eac6196580
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55940258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62845824"
 ---
 # <a name="direct-selection-tool-modifier-keys-in-blend"></a>Blend의 직접 선택 도구 보조 키
 다음 표에는 **직접 선택** 도구 ![직접 선택 도구](../designers/media/6dd6571f-c116-451d-8dd2-1f88b8406362.png)를 사용하여 기존 경로의 모양을 수정하는 데 사용할 수 있는 바로 가기가 나와 있습니다. 기존 패스에서 점을 추가 또는 제거하거나 두 개의 기존 패스를 조인하려면 **펜** 도구를 사용합니다.

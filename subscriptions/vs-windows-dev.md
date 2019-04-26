@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Windows 개발자 계정에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 25f948a0a855655da45b8c11fd955a06d14e5cf7
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: a497db64345cffe4f87e768a83816489ebd4c21a
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62978721"
 ---
 # <a name="windows-developer-account-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Windows 개발자 계정
 
@@ -58,12 +58,10 @@ Windows 개발자 계정을 사용하려면 기존 계정을 사용하여 계정
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음                                            |  해당 없음|
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-<sup>1</sup> *포함:  NFR(전매 금지), FTE, VSIP(Visual Studio 업계 파트너), BizSpark, MCT 소프트웨어 및 서비스 개발자. 제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services
-
+<sup>1</sup> *포함:  NFR(전매 금지), FTE, VSIP(Visual Studio 업계 파트너), BizSpark, MCT 소프트웨어 및 서비스 개발자. 제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services*
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
-
 
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
 

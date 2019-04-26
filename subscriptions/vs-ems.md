@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Enterprise Mobility + Security 혜택에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 917f4e6c2b80c2cb0b154d58effd8016f54740c3
-ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.openlocfilehash: d670db0d083c4b8f32f970c790859a7c82e5dff1
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59232660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62948923"
 ---
 # <a name="enterprise-mobility--security-ems-in-visual-studio-subscriptions"></a>Visual Studio의 EMS(Enterprise Mobility + Security)
 
@@ -37,7 +37,7 @@ EMS를 사용하려면 기존 계정을 사용하여 계정을 설정하거나 �
 
 4. 사용자 ID와 암호를 만듭니다.  **내 계정 만들기**를 클릭하여 계속합니다.
    > [!div class="mx-imgBorder"]
-   > ![EMS 혜택 사용자 ID 만들기](_img/vs-ems/vs-ems-userID-cropped.png)
+   > ![EMS 혜택 UserID 만들기](_img/vs-ems/vs-ems-userID-cropped.png)
 
 5. 그런 다음 전화 또는 문자 메시지로 인증 코드를 받을 전화 번호를 입력합니다.  코드를 입력하고 **다음**을 클릭합니다.
    > [!div class="mx-imgBorder"]
@@ -64,15 +64,13 @@ EMS를 사용하려면 기존 계정을 사용하여 계정을 설정하거나 �
 
 <sup>2</sup> *제외: Microsoft 파트너 네트워크(Professional)*
 
-
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
-
 
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
 
 ## <a name="support-resources"></a>지원 리소스
--  EMS와 관련하여 도움이 필요하세요?  온라인 [EMS 설명서](/enterprise-mobility-security/)를 확인하세요.
--  EMS의 구성 요소를 사용하는 기술 지원은 [EMS 지원 FAQ](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-support-faq)를 방문하여 질문에 대한 적합한 지원을 찾습니다.
--  Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
--  Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+- EMS와 관련하여 도움이 필요하세요?  온라인 [EMS 설명서](/enterprise-mobility-security/)를 확인하세요.
+- EMS의 구성 요소를 사용하는 기술 지원은 [EMS 지원 FAQ](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-support-faq)를 방문하여 질문에 대한 적합한 지원을 찾습니다.
+- Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
+- Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.

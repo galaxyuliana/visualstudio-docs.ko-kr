@@ -12,11 +12,11 @@ ms.workload:
 - data-science
 - azure
 ms.openlocfilehash: 551cff18849f0e8ad9fcd6f2c1e08561291b177f
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62957375"
 ---
 # <a name="configure-python-web-apps-for-iis"></a>IIS용 Python 웹앱 구성
 
@@ -100,8 +100,8 @@ FastCGI는 요청 수준에서 작동하는 인터페이스입니다. IIS는 들
     이러한 `<appSettings>` 값은 앱에서 환경 변수로 사용할 수 있습니다.
 
     - `PYTHONPATH`의 값은 자유롭게 확장될 수 있지만 해당 앱의 루트를 포함해야 합니다.
-    - `WSGI_HANDLER` 해당 앱에서 가져올 수 있는 WSGI 앱을 가리켜야 합니다.
-    - `WSGI_LOG` 선택 사항이지만 앱 디버깅을 위해 권장됩니다.
+    - `WSGI_HANDLER`는 해당 앱에서 가져올 수 있는 WSGI 앱을 가리켜야 합니다.
+    - `WSGI_LOG`는 선택 사항이지만 앱 디버깅을 위해 권장됩니다.
 
 1. *web.config*의 `WSGI_HANDLER` 항목을 사용 중인 프레임워크에 적합하게 설정합니다.
 

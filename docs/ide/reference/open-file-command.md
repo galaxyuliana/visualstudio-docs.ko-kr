@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b76db52534f4c264e065152548d49f9773863a29
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62995236"
 ---
 # <a name="open-file-command"></a>파일 열기 명령
 
@@ -55,7 +55,7 @@ File.OpenFile filename [/e:editorname]
 
 경로를 입력하여 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 이 예제에서는 소스 코드 편집기에서 스타일 파일을 "Test1.css"를 엽니다.
 

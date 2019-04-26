@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9d6707d2e9ed8e001762939cb08ffee58f1c1cdc
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55930521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950907"
 ---
 # <a name="new-file-command"></a>새 파일 명령
 새 파일을 만들고 엽니다. 파일은 기타 파일 폴더 아래에 나타납니다.
@@ -61,7 +61,7 @@ File.NewFile [filename] [/t:templatename] [/editor:editorname]
 /e:"Source Code (text) Editor"
 ```
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
  이 예제에서는 “test1.htm”이라는 새 웹 페이지를 만들고 소스 코드 편집기에서 엽니다.
 
 ```cmd

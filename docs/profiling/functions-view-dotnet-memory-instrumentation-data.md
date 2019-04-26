@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: a0699d74f67b3e43b65ab79d29acd4fb4e953666
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969727"
 ---
 # <a name="functions-view---net-memory-instrumentation-data"></a>함수 뷰 - .NET 메모리 계측 데이터
 계측 방법을 사용하여 수집된 .NET 메모리 할당 프로파일링 데이터의 함수 뷰는 프로파일링 실행 중 메모리를 할당한 함수를 나열합니다. 함수 행은 할당의 크기와 수 및 함수에 대한 타이밍 데이터를 보고합니다.

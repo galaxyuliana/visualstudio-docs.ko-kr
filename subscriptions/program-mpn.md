@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 제공되는 구독, 적용되는 규칙 및 MPN에서 제공되는 구독의 수에 대한 세부 정보입니다.
 searchscope: VS Subscription
-ms.openlocfilehash: b9445b3b990698b273145ab8791e03ee6690570b
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: c7e58cd53ccbab31e90f2fc73a07b1011473777e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945403"
 ---
 # <a name="visual-studio-subscriptions-offered-to-partners-in-the-microsoft-partner-network-mpn"></a>MPN(Microsoft 파트너 네트워크)의 파트너에게 제공된 Visual Studio 구독 관리
 역량을 구하거나 MPN에서 Action Pack을 구매하는 파트너는 Visual Studio 구독을 사용할 자격이 있습니다. 이러한 구독은 사용자별로 라이선스가 발급되며 파트너 회사에 근무하는 특정 지명 사용자에게 할당된 경우만 유효합니다.
@@ -43,7 +43,6 @@ ms.locfileid: "56843167"
 | 실버 역량만 있는 파트너에 대한 최대 혜택                   | 하나 이상의 골드 역량 있는 파트너에 대한 최대 혜택               |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | 국가당 25개 Visual Studio Enterprise 구독 및 전세계 75개 구독          | 국가당 50개 Visual Studio Enterprise 구독 및 전세계 150개 구독         |
-
 
 ## <a name="subscriptions-for-partners-purchasing-the-action-pack"></a>Action Pack을 구매하는 파트너에 대한 구독
 역량이 있는 파트너는 Action Pack을 구매할 자격이 안 됩니다. 파트너당 하나의 Action Pack만 구매할 수 있습니다.

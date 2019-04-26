@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f9ae8f5cfeb3e5bcaf223e84f25007ebea646da2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967848"
 ---
 # <a name="stopprofile"></a>StopProfile
 `StopProfile` 함수는 지정된 프로파일링 수준에 대한 카운터를 0(off)으로 설정합니다.

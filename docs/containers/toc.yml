@@ -1,37 +1,30 @@
-items:
 - name: Visual Studio 컨테이너 도구
   href: index.yml
-  items:
-  - name: 개요
-    href: overview.md
-  - name: 빠른 시작
-    items:
-    - name: Visual Studio의 컨테이너 도구
-      href: container-tools.md
-    expanded: true
-  - name: 자습서
-    items:
-    - name: 자습서 - Docker Compose를 사용한 다중 컨테이너 앱
-      href: tutorial-multicontainer.md
-    - name: 자습서 - Visual Studio의 Kubernetes
-      href: tutorial-kubernetes-tools.md
-    expanded: true
-  - name: 방법
-    items:
-    - name: 로컬 Docker 컨테이너에서 앱 디버그
-      href: edit-and-refresh.md
-    - name: 컨테이너 레지스트리에 배포
-      href: hosting-web-apps-in-docker.md
-    - name: Azure App Service에 배포
-      href: deploy-app-service.md
-    - name: 컨테이너 도구 구성
-      href: container-tools-configure.md
-  - name: 문제 해결
-    href: troubleshooting-docker-errors.md
   expanded: true
-ms.openlocfilehash: e667c577f9cf618139246145ff08edc9233903f3
-ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "59537691"
+  items:
+    - name: 개요
+      href: overview.md
+    - name: 빠른 시작
+      expanded: true
+      items:
+        - name: Visual Studio의 컨테이너 도구
+          href: container-tools.md
+    - name: 자습서
+      expanded: true
+      items:
+        - name: 자습서 - Docker Compose를 사용한 다중 컨테이너 앱
+          href: tutorial-multicontainer.md
+        - name: 자습서 - Visual Studio의 Kubernetes
+          href: tutorial-kubernetes-tools.md
+    - name: 방법
+      items:
+        - name: 로컬 Docker 컨테이너에서 앱 디버그
+          href: edit-and-refresh.md
+        - name: 컨테이너 레지스트리에 배포
+          href: hosting-web-apps-in-docker.md
+        - name: Azure App Service에 배포
+          href: deploy-app-service.md
+        - name: 컨테이너 도구 구성
+          href: container-tools-configure.md
+    - name: 문제 해결
+      href: troubleshooting-docker-errors.md

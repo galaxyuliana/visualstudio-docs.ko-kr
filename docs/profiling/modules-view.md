@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 89b3e7492e0f5155dd1c36f0140f6a1ad11db027
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56632903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62829972"
 ---
 # <a name="modules-view"></a>모듈 뷰
 모듈 뷰는 프로파일링 데이터의 모듈을 나열합니다. 각 모듈은 계층 트리의 루트 노드입니다. 모듈의 프로파일링된 함수는 모듈 노드 아래에 나열됩니다. 프로파일링 데이터가 샘플링 방법을 사용하여 수집된 경우 줄 정보는 함수 노드 아래에 나열되고 명령 포인터 데이터는 줄 노드 아래에 나열됩니다.

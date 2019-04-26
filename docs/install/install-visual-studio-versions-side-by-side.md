@@ -12,11 +12,11 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: 123f01b2e4545545a380f5a37adcdaf883bc9e91
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974724"
 ---
 # <a name="install-visual-studio-versions-side-by-side"></a>Visual Studio 버전 side-by-side 설치
 
@@ -58,10 +58,10 @@ Visual Basic, Visual C# 및 Visual F# 프로젝트는 **프로젝트 디자이�
 
 | 언어 | 항목 |
 |--------------|-----------|
-| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2017) |
+| Visual Basic | [프로젝트 디자이너, 애플리케이션 페이지(Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2017) |
 | Visual C# | [프로젝트 디자이너, 애플리케이션 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2017) |
-| Visual F# | [Visual F#을 사용하여 Visual Studio에서 개발](../ide/fsharp-visual-studio.md?view=vs-2017) |
-|C++ | [방법: 대상 프레임워크 및 플랫폼 도구 집합 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
+| Visual F# | [Visual Studio에서 Visual F#을 사용하여 개발](../ide/fsharp-visual-studio.md?view=vs-2017) |
+|C++ | [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -69,7 +69,7 @@ Visual Basic, Visual C# 및 Visual F# 프로젝트는 **프로젝트 디자이�
 
 * [Visual Studio 설치](install-visual-studio.md?view=vs-2017)
 * [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017)
-* [C/C++ 격리된 애플리케이션 및 Side-by-Side 어셈블리 빌드](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
+* [C/C++ 격리된 애플리케이션 및 side-by-side 어셈블리 빌드](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
 ::: moniker-end
 
@@ -77,10 +77,10 @@ Visual Basic, Visual C# 및 Visual F# 프로젝트는 **프로젝트 디자이�
 
 | 언어 | 항목 |
 |--------------|-----------|
-| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md) |
+| Visual Basic | [프로젝트 디자이너, 애플리케이션 페이지(Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md) |
 | Visual C# | [프로젝트 디자이너, 애플리케이션 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md) |
-| Visual F# | [Visual F#을 사용하여 Visual Studio에서 개발](../ide/fsharp-visual-studio.md) |
-| C++ | [방법: 대상 프레임워크 및 플랫폼 도구 집합 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
+| Visual F# | [Visual Studio에서 Visual F#을 사용하여 개발](../ide/fsharp-visual-studio.md) |
+| C++ | [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
@@ -88,6 +88,6 @@ Visual Basic, Visual C# 및 Visual F# 프로젝트는 **프로젝트 디자이�
 
 * [Visual Studio 설치](install-visual-studio.md)
 * [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
-* [C/C++ 격리된 애플리케이션 및 Side-by-Side 어셈블리 빌드](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
+* [C/C++ 격리된 애플리케이션 및 side-by-side 어셈블리 빌드](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
 ::: moniker-end

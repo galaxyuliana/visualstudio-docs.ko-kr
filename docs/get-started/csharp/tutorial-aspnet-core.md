@@ -16,12 +16,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: 11f2849a2cf36564104d3250bdbad66ac69a0b40
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: 191be9ea5433351f6f89366cc2240d8b0801e54b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62972097"
 ---
 # <a name="tutorial-get-started-with-c-and-aspnet-core-in-visual-studio"></a>자습서: Visual Studio에서 C# 및 ASP.NET Core 시작
 
@@ -33,7 +33,7 @@ Visual Studio를 사용하여 ASP.NET Core로 C#을 개발하기 위한 이 자�
 
 ::: moniker range="vs-2017"
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 페이지로 이동하여 체험용으로 설치합니다.
 
 ::: moniker-end
 
@@ -222,6 +222,7 @@ Visual Studio를 이미 설치한 경우 최신 릴리스를 실행하고 있는
      Message = String.Format("Your directory is {0}.", directory);
      }
     ```
+
 1. **환경** 및 **문자열** 아래에 두 개의 물결선 밑줄이 표시됩니다. 이러한 형식은 범위에 없으므로 물결선 밑줄이 표시됩니다.
 
    ![OnGet 메서드에 물결선 밑줄로 표시된 오류](media/csharp-aspnet-razor-add-new-on-get-method.png)
@@ -263,7 +264,7 @@ Visual Studio는 개발자를 위한 통합 개발 생산성 도구입니다. �
 축하합니다. 이 자습서를 마쳤습니다. C#, ASP.NET Core 및 Visual Studio IDE를 이해하는 데 도움이 되었기를 바랍니다. C# 및 ASP.NET을 사용하여 웹앱 또는 웹 사이트를 만드는 방법에 대한 자세한 내용은 다음 자습서를 계속 진행합니다.
 
 > [!div class="nextstepaction"]
-> [ASP.NET Core를 사용하여 Razor 페이지 웹앱 만들기](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)
+> [ASP.NET Core를 사용하여 Razor 페이지 웹앱 만들기](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

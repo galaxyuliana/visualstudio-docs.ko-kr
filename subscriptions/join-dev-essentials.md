@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: Visual Studio Dev Essentials 및 등록 방법에 대해 알아봅니다.
 searchscope: VS Subscription
 ms.openlocfilehash: 3f193d2f1d2f2f1f031773dcde3b2a209f8eebb7
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62833987"
 ---
 # <a name="how-to-join-visual-studio-dev-essentials"></a>Visual Studio Dev Essentials에 가입하는 방법
 

@@ -8,11 +8,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 857cb1757919925c8ca28e3b07904450b1264277
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975750"
 ---
 # <a name="adding-references-using-nuget-versus-an-extension-sdk"></a>NuGet을 사용한 참조 추가와 확장 SDK를 사용한 참조 추가
 
@@ -50,9 +50,9 @@ NuGet 또는 SDK(소프트웨어 개발 키트) 중 하나를 사용하여 Visua
 | 메커니즘에서 비참조 파일을 배포합니다(예: [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 앱 테스트를 실행할 테스트 프레임워크 배포). | Y | *\redist* 폴더에 파일을 넣는 경우 파일이 자동으로 배포됩니다. | Y | |
 | 메커니즘에서 플랫폼 SDK를 Visual Studio IDE에 자동으로 추가합니다. | Y | [!INCLUDE[win8](../debugger/includes/win8_md.md)] SDK 또는 Windows Phone SDK를 특정 위치에 특정 레이아웃으로 넣는 경우 SDK가 모든 Visual Studio 기능과 자동으로 통합됩니다. | N | |
 | 메커니즘에서 클린 개발자 컴퓨터를 지원합니다. 즉, 설치할 필요가 없으며 소스 코드 제어에서 간단하게 검색할 수 있습니다. | N | SDK를 참조하기 때문에 솔루션과 SDK를 별도로 체크 인해야 합니다. MSBuild가 SDK를 반복하는, 레지스트리가 아닌 두 개의 기본 위치에서 SDK를 체크 인할 수 있습니다(자세한 내용은 [소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md) 참조). 또는 사용자 지정 위치가 SDK로 구성된 경우 프로젝트 파일에서 다음 코드를 지정할 수 있습니다.<br /><br />`<PropertyGroup>`<br />&nbsp;&nbsp;`<SDKReferenceDirectoryRoot>`<br />&nbsp;&nbsp;`C:\MySDKs`<br />&nbsp;&nbsp;`</SDKReferenceDirectoryRoot>`<br />`</PropertyGroup>`<br /><br /> 그런 다음 해당 위치에 SDK를 체크 인합니다. | Y | 솔루션을 체크 아웃하면 Visual Studio에서 즉시 파일을 인식하고 작업을 수행합니다. |
-| 기존의 대규모 패키지 작성자 커뮤니티에 연결할 수 있습니다. | N/A | 커뮤니티는 새로운 기능입니다. | Y | |
-| 기존의 대규모 패키지 소비자 커뮤니티에 연결할 수 있습니다. | N/A | 커뮤니티는 새로운 기능입니다. | Y | |
-| 파트너 에코시스템(사용자 지정 갤러리, 리포지토리 등)에 연결할 수 있습니다. | N/A | 사용 가능한 리포지토리로는 Visual Studio Marketplace, Microsoft 다운로드 센터, [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)] 등이 있습니다. | Y | |
+| 기존의 대규모 패키지 작성자 커뮤니티에 연결할 수 있습니다. | 해당 없음 | 커뮤니티는 새로운 기능입니다. | Y | |
+| 기존의 대규모 패키지 소비자 커뮤니티에 연결할 수 있습니다. | 해당 없음 | 커뮤니티는 새로운 기능입니다. | Y | |
+| 파트너 에코시스템(사용자 지정 갤러리, 리포지토리 등)에 연결할 수 있습니다. | 해당 없음 | 사용 가능한 리포지토리로는 Visual Studio Marketplace, Microsoft 다운로드 센터, [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)] 등이 있습니다. | Y | |
 | 패키지 생성 및 사용 둘 다를 위해 메커니즘이 연속 통합 빌드 서버와 통합됩니다. | Y | SDK에서 명령줄을 통해 체크 인된 위치(SDKReferenceDirectoryRoot 속성)를 MSBuild에 전달해야 합니다. | Y | |
 | 메커니즘에서 안정적인 패키지 버전과 시험판 패키지 버전을 둘 다 지원합니다. | Y | SDK에서 여러 버전에 대한 참조 추가를 지원합니다. | Y | |
 | 메커니즘에서 설치된 패키지에 대한 자동 업데이트를 지원합니다. | Y | VSIX 또는 Visual Studio 자동 업데이트의 일부로 제공된 경우 SDK에서 자동 알림을 제공합니다. | Y | |
@@ -60,7 +60,7 @@ NuGet 또는 SDK(소프트웨어 개발 키트) 중 하나를 사용하여 Visua
 | 패키지를 버전 제어에 체크 인할 수 있습니다. | Y | 문서 노드 외부에서 아무것도 체크 인할 수 없으므로 확장 SDK를 체크 인하지 못할 수도 있습니다. 확장 SDK의 크기가 클 수 있습니다. | Y | |
 | PowerShell 인터페이스를 사용하여 패키지를 만들고 사용할 수 있습니다. | Y(사용), N(만들기) | SDK를 만들기 위한 도구가 없습니다. 사용하려면 명령줄에서 MSBuild를 실행합니다. | Y | |
 | 디버깅 지원을 위해 기호 패키지를 사용할 수 있습니다. | Y | SDK에 *.pdb* 파일을 넣으면 파일이 자동으로 선택됩니다. | Y | |
-| 메커니즘에서 패키지 관리자 자동 업데이트를 지원합니다. | N/A | SDK가 MSBuild로 수정됩니다. | Y | |
+| 메커니즘에서 패키지 관리자 자동 업데이트를 지원합니다. | 해당 없음 | SDK가 MSBuild로 수정됩니다. | Y | |
 | 메커니즘에서 경량 매니페스트 형식을 지원합니다. | Y | *SDKManifest.xml*에서 많은 특성을 지원하지만 일반적으로 작은 하위 집합만 있으면 됩니다. | Y | |
 | 모든 Visual Studio 버전에 메커니즘을 사용할 수 있습니다. | Y | SDK가 모든 Visual Studio 버전을 지원합니다. | Y | NuGet이 모든 Visual Studio 버전을 지원합니다. |
 | 모든 프로젝트 형식에 메커니즘을 사용할 수 있습니다. | N | SDK에서 [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)]부터 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 앱을 지원합니다. | N | 허용된 프로젝트 목록을 검토할 수 있습니다. |

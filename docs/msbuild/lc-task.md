@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fa9a210b61a1ba28d2dca2f81184b3d20a91ff7f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56638703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817501"
 ---
 # <a name="lc-task"></a>LC 작업
 *.licx* 파일에서 *.license* 파일을 생성하는 *LC.exe*를 래핑합니다. *LC.exe*에 대한 자세한 내용은 [Lc.exe(라이선스 컴파일러)](/dotnet/framework/tools/lc-exe-license-compiler)를 참조하세요.

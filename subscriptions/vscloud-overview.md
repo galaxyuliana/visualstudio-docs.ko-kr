@@ -7,15 +7,14 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 장기 계약 없이 월간 또는 연간 기준으로 Visual Studio Professional 또는 Visual Studio Enterprise를 임대합니다.
 searchscope: VS Subscription
-ms.openlocfilehash: eb9d7034a18d8be6fd4c20ddde1c3708cc206fa0
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: 0f20db92099dfadadf710e9f3da24846b10406ac
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62978905"
 ---
 # <a name="buy-visual-studio-professional-and-visual-studio-enterprise-cloud-subscriptions"></a>Visual Studio Enterprise 및 Visual Studio Professional 클라우드 구독 구입
-
 
 [Visual Studio Marketplace](https://marketplace.visualstudio.com)에서 Visual Studio Professional 및 Visual Studio Enterprise [구독](https://visualstudio.microsoft.com/subscriptions/)을 구입할 수 있습니다. 이를 **“클라우드 구독”** 이라고 합니다.
 
@@ -65,12 +64,12 @@ Azure 구독에 대한 [소유자 및 기여자 액세스 권한](https://na01.s
 
 ## <a name="manage-subscriptions"></a>구매한 클라우드 구독 갱신 취소
 
-*   구매한 구독의 수를 변경하려면 다음을 수행합니다.
+* 구매한 구독의 수를 변경하려면 다음을 수행합니다.
 
 > [!div class="mx-imgBorder"]
 > ![구독 변경](_img/buy-vs-subscriptions/manage-subscriptions.png)
 
-*   이러한 구독을 취소하려면 구독 수를 0으로 줄입니다. 다음 청구 기간의 시작 시(월별 클라우드 구독의 경우 첫 번째 다음 달 및 연간 클라우드 구독의 경우 12개월 후)에 갱신되지 않습니다.
+* 이러한 구독을 취소하려면 구독 수를 0으로 줄입니다. 다음 청구 기간의 시작 시(월별 클라우드 구독의 경우 첫 번째 다음 달 및 연간 클라우드 구독의 경우 12개월 후)에 갱신되지 않습니다.
 
 ## <a name="buy-cloud-subscriptions-now"></a>지금 클라우드 구독 구입
 

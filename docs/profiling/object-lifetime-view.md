@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b0819a4d9e1438b300daa68db4208bfe5908d800
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62794351"
 ---
 # <a name="object-lifetime-view"></a>개체 수명 뷰
 개체 수명 뷰는 **성능 세션** 속성 페이지에서 **.NET 개체 수명 데이터도 수집**이 선택된 경우 사용 가능합니다.

@@ -9,12 +9,12 @@ author: sayedihashimi
 ms.author: sayedha
 manager: unniravindranathan
 ms.prod: visual-studio-mac
-ms.openlocfilehash: c59e19434edcb19982fa72d3ddc96d7cb6a870a8
-ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
+ms.openlocfilehash: 9fbcdb0bd9b9bab2afc69a8896cc00bedb98998b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58568135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62991505"
 ---
 # <a name="publish-a-web-app-to-a-folder-using-visual-studio-for-mac"></a>Mac용 Visual Studio를 사용하여 폴더에 웹앱 게시
 
@@ -22,8 +22,8 @@ ms.locfileid: "58568135"
 
 ## <a name="prerequisites"></a>전제 조건
 
- - ASP.NET Core가 사용하도록 설정된 상태로 설치된 [Mac용 Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2017).
- - ASP.NET Core 프로젝트 아직 프로젝트가 없는 경우 [새 프로젝트를 만들 수 있습니다](https://docs.microsoft.com/visualstudio/mac/create-new-projects?view=vsmac-2017).
+- ASP.NET Core가 사용하도록 설정된 상태로 설치된 [Mac용 Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2017).
+- ASP.NET Core 프로젝트 아직 프로젝트가 없는 경우 [새 프로젝트를 만들 수 있습니다](https://docs.microsoft.com/visualstudio/mac/create-new-projects?view=vsmac-2017).
 
 ## <a name="publish-to-folder"></a>폴더에 게시
 

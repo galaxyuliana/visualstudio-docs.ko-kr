@@ -9,20 +9,20 @@ ms.assetid: 1118c604-4b1b-4b21-a04e-45995b676fa8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c5ca8c45d48776405b5c0602c44de368cd2899ca
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 3287bef750f25f3eb0b816488779d42d4505d8b9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58416359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950057"
 ---
 # <a name="how-to-create-a-visual-studio-add-in-for-the-web-performance-test-results-viewer"></a>방법: 웹 성능 테스트 결과 뷰어에 대한 Visual Studio 추가 기능 만들기
 
 다음 네임스페이스를 사용하여 **웹 성능 테스트 결과 뷰어**의 UI를 확장할 수 있습니다.
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting>
 
--   <xref:Microsoft.VisualStudio.TestTools.WebTesting>
+- <xref:Microsoft.VisualStudio.TestTools.WebTesting>
 
 또한 *%ProgramFiles(x86)%\Microsoft Visual Studio\\\<version>\Enterprise\Common7\IDE\PrivateAssemblies* 폴더에 있는 LoadTestPackage DLL에 대한 참조를 추가해야 합니다.
 
@@ -109,31 +109,31 @@ ms.locfileid: "58416359"
 
 ### <a name="to-create-a-control-to-be-used-in-the-web-test-results-viewer"></a>웹 테스트 결과 뷰어에 사용할 컨트롤을 만들려면
 
-1.  **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고, **추가**를 선택한 다음, **새 프로젝트**를 선택합니다.
+1. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고, **추가**를 선택한 다음, **새 프로젝트**를 선택합니다.
 
 2. 새 **Windows Forms 컨트롤 라이브러리** 프로젝트를 만듭니다.
 
-3.  **도구 상자**에서 <xref:System.Windows.Forms.DataGridView>를 userControl1의 화면으로 끌어옵니다.
+3. **도구 상자**에서 <xref:System.Windows.Forms.DataGridView>를 userControl1의 화면으로 끌어옵니다.
 
 4. <xref:System.Windows.Forms.DataGridView>의 오른쪽 위 모퉁이에서 작업 태그 문자 모양(![스마트 태그 문자 모양](../test/media/vs_winformsmttagglyph.gif))을 클릭합니다.
 
-    1.  **부모 컨테이너에서 도킹**을 선택합니다.
+    1. **부모 컨테이너에서 도킹**을 선택합니다.
 
-    2.  **추가 사용**, **편집 사용**, **삭제 사용** 및 **열 다시 정렬 사용** 확인란의 선택을 취소합니다.
+    2. **추가 사용**, **편집 사용**, **삭제 사용** 및 **열 다시 정렬 사용** 확인란의 선택을 취소합니다.
 
-    3.  **열 추가**를 선택합니다.
+    3. **열 추가**를 선택합니다.
 
          **열 추가** 대화 상자가 표시됩니다.
 
-    4.  **형식** 드롭다운 목록에서 **DataGridViewTextBoxColumn**을 선택합니다.
+    4. **형식** 드롭다운 목록에서 **DataGridViewTextBoxColumn**을 선택합니다.
 
-    5.  **머리글 텍스트**의 "Column1" 텍스트를 지웁니다.
+    5. **머리글 텍스트**의 "Column1" 텍스트를 지웁니다.
 
-    6.  **추가**를 선택합니다.
+    6. **추가**를 선택합니다.
 
-    7.  **닫기**를 선택합니다.
+    7. **닫기**를 선택합니다.
 
-5.  **속성** 창에서 <xref:System.Windows.Forms.DataGridView>의 **(이름)** 속성을 **resultControlDataGridView**로 변경합니다.
+5. **속성** 창에서 <xref:System.Windows.Forms.DataGridView>의 **(이름)** 속성을 **resultControlDataGridView**로 변경합니다.
 
 6. 디자인 화면을 마우스 오른쪽 단추로 클릭하고 **코드 보기**를 선택합니다.
 
@@ -158,21 +158,21 @@ ms.locfileid: "58416359"
 
 ## <a name="add-code-to-the-webperftestresultsvieweraddin"></a>WebPerfTestResultsViewerAddin에 코드 추가
 
-1.  **솔루션 탐색기**에서 WebPerfTestResultsViewerAddin 프로젝트의 **참조** 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
+1. **솔루션 탐색기**에서 WebPerfTestResultsViewerAddin 프로젝트의 **참조** 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
 
-2.  **참조 추가** 대화 상자에서 **.NET** 탭을 선택합니다.
+2. **참조 추가** 대화 상자에서 **.NET** 탭을 선택합니다.
 
-3.  아래로 스크롤하여 **Microsoft.VisualStudio.QualityTools.WebTestFramework** 및 **System.Windows.Forms**를 선택합니다.
+3. 아래로 스크롤하여 **Microsoft.VisualStudio.QualityTools.WebTestFramework** 및 **System.Windows.Forms**를 선택합니다.
 
-4.  **확인**을 선택합니다.
+4. **확인**을 선택합니다.
 
-5.  **참조** 노드를 다시 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
+5. **참조** 노드를 다시 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
 
-6.  **참조 추가** 대화 상자에서 **찾아보기** 탭을 선택합니다.
+6. **참조 추가** 대화 상자에서 **찾아보기** 탭을 선택합니다.
 
-7.  **찾는 위치**의 드롭다운을 선택하고, *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies*로 이동하고, *Microsoft.VisualStudio.QualityTools.LoadTestPackage.dll* 파일을 선택합니다.
+7. **찾는 위치**의 드롭다운을 선택하고, *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies*로 이동하고, *Microsoft.VisualStudio.QualityTools.LoadTestPackage.dll* 파일을 선택합니다.
 
-8.  **확인**을 선택합니다.
+8. **확인**을 선택합니다.
 
 9. WebPerfTestResultsViewerAddin 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
 
@@ -254,28 +254,28 @@ ms.locfileid: "58416359"
 
 ## <a name="add-code-to-the-webperftestresultsviewercontrol"></a>WebPerfTestResultsViewerControl에 코드 추가
 
-1.  **솔루션 탐색기**에서 WebPerfTestResultsViewerControl 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
+1. **솔루션 탐색기**에서 WebPerfTestResultsViewerControl 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
-2.  **애플리케이션** 탭을 선택한 다음, **대상 프레임워크** 드롭다운 목록을 선택하고, **.NET Framework 4**를 선택하고, **속성**을 닫습니다.
+2. **애플리케이션** 탭을 선택한 다음, **대상 프레임워크** 드롭다운 목록을 선택하고, **.NET Framework 4**를 선택하고, **속성**을 닫습니다.
 
      이 단계는 **웹 성능 테스트 결과 뷰어**를 확장하는 데 필요한 DLL 참조를 지원하는 데 필요합니다.
 
-3.  **솔루션 탐색기**에서 WebPerfTestResultsViewerControl 프로젝트의 **참조** 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
+3. **솔루션 탐색기**에서 WebPerfTestResultsViewerControl 프로젝트의 **참조** 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
 
-4.  **참조 추가** 대화 상자에서 **.NET** 탭을 클릭합니다.
+4. **참조 추가** 대화 상자에서 **.NET** 탭을 클릭합니다.
 
-5.  아래로 스크롤하여 **Microsoft.VisualStudio.QualityTools.WebTestFramework**를 선택합니다.
+5. 아래로 스크롤하여 **Microsoft.VisualStudio.QualityTools.WebTestFramework**를 선택합니다.
 
-6.  **확인**을 선택합니다.
+6. **확인**을 선택합니다.
 
-7.  *UserControl1.cs* 파일에 다음 Using 문을 추가합니다.
+7. *UserControl1.cs* 파일에 다음 Using 문을 추가합니다.
 
     ```csharp
     using Microsoft.VisualStudio.TestTools.WebTesting;
     using Microsoft.VisualStudio.TestTools.WebTesting.Rules;
     ```
 
-8.  *Connect.cs* 파일에 WebPerfTestResultsViewerAddin의 WebTestResultViewer_SelectedChanged 메서드에서 호출되어 WebTestRequestResult를 전달받는 Update 메서드를 추가합니다. Update 메서드는 WebTestRequestResult에서 전달 받은 다양한 속성으로 DataGridView를 채웁니다.
+8. *Connect.cs* 파일에 WebPerfTestResultsViewerAddin의 WebTestResultViewer_SelectedChanged 메서드에서 호출되어 WebTestRequestResult를 전달받는 Update 메서드를 추가합니다. Update 메서드는 WebTestRequestResult에서 전달 받은 다양한 속성으로 DataGridView를 채웁니다.
 
     ```csharp
     public void Update(WebTestRequestResult WebTestResults)
@@ -304,27 +304,27 @@ ms.locfileid: "58416359"
 
 ### <a name="to-build-the-solution"></a>솔루션을 빌드하려면
 
--   **빌드** 메뉴에서 **솔루션 빌드**를 선택합니다.
+- **빌드** 메뉴에서 **솔루션 빌드**를 선택합니다.
 
 ## <a name="register-the-webperftestresultsvieweraddin-add-in"></a>WebPerfTestResultsViewerAddin 추가 기능 등록
 
 ### <a name="to-register-the-add-in-using-the-add-in-manager"></a>추가 기능 관리자를 사용하여 추가 기능을 등록하려면
 
-1.  **도구** 메뉴에서 **추가 기능 관리자**를 선택합니다.
+1. **도구** 메뉴에서 **추가 기능 관리자**를 선택합니다.
 
-2.  **추가 기능 관리자** 대화 상자가 표시됩니다.
+2. **추가 기능 관리자** 대화 상자가 표시됩니다.
 
-3.  **사용 가능한 추가 기능** 열에서 WebPerfTestResultsViewerAddin 추가 기능의 확인란을 선택하고 **시작** 및 **명령줄** 열 아래에 있는 확인란의 선택을 취소합니다.
+3. **사용 가능한 추가 기능** 열에서 WebPerfTestResultsViewerAddin 추가 기능의 확인란을 선택하고 **시작** 및 **명령줄** 열 아래에 있는 확인란의 선택을 취소합니다.
 
-4.  **확인**을 선택합니다.
+4. **확인**을 선택합니다.
 
 ## <a name="run-the-web-performance-test-using-the-build-the-webperftestresultsvieweraddin-add-in"></a>WebPerfTestResultsViewerAddin 빌드 추가 기능을 사용하여 웹 성능 테스트 실행
 
 ### <a name="to-run-the-new-vs-add-in-for-the-web-test-results-viewer"></a>웹 테스트 결과 뷰어에 대해 새 VS 추가 기능을 실행하려면
 
-1.  웹 성능 테스트를 실행하면 **웹 성능 테스트 결과 뷰어**에 WebPerfTestResultsViewerAddin 추가 기능에 해당하는 새 탭이 샘플이라는 제목으로 표시됩니다.
+1. 웹 성능 테스트를 실행하면 **웹 성능 테스트 결과 뷰어**에 WebPerfTestResultsViewerAddin 추가 기능에 해당하는 새 탭이 샘플이라는 제목으로 표시됩니다.
 
-2.  이 탭을 선택하여 DataGridView에 표시된 속성을 확인합니다.
+2. 이 탭을 선택하여 DataGridView에 표시된 속성을 확인합니다.
 
 ## <a name="net-framework-security"></a>.NET Framework 보안
 
@@ -336,9 +336,9 @@ ms.locfileid: "58416359"
 
  추가 기능 보안에 대한 옵션 페이지의 설정은 다음과 같습니다.
 
--   **추가 기능 구성 요소 로드 허용.** 기본으로 선택됩니다. 이 옵션을 선택하면 Visual Studio에서 추가 기능을 로드할 수 있습니다. 이 옵션을 선택하지 않으면 추가 기능이 Visual Studio에서 로드되지 않습니다.
+- **추가 기능 구성 요소 로드 허용.** 기본으로 선택됩니다. 이 옵션을 선택하면 Visual Studio에서 추가 기능을 로드할 수 있습니다. 이 옵션을 선택하지 않으면 추가 기능이 Visual Studio에서 로드되지 않습니다.
 
--   **URL에서 추가 기능 구성 요소 로드 허용.** 기본적으로 선택되지 않습니다. 이 옵션을 선택하면 외부 웹 사이트에서 추가 기능을 로드할 수 있습니다. 이 옵션을 선택하지 않으면 원격 추가 기능이 Visual Studio에서 로드되지 않습니다. 다른 원인으로 인해 추가 기능을 로드할 수 없으면 웹에서도 이를 로드할 수 없습니다. 이 설정은 추가 기능 DLL의 로드만 제어합니다. *.Addin* 등록 파일은 항상 로컬 시스템에 있어야 합니다.
+- **URL에서 추가 기능 구성 요소 로드 허용.** 기본적으로 선택되지 않습니다. 이 옵션을 선택하면 외부 웹 사이트에서 추가 기능을 로드할 수 있습니다. 이 옵션을 선택하지 않으면 원격 추가 기능이 Visual Studio에서 로드되지 않습니다. 다른 원인으로 인해 추가 기능을 로드할 수 없으면 웹에서도 이를 로드할 수 없습니다. 이 설정은 추가 기능 DLL의 로드만 제어합니다. *.Addin* 등록 파일은 항상 로컬 시스템에 있어야 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

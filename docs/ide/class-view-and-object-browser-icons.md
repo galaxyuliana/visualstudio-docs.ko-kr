@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9814b03d0a8cd8733c9fd48b4e49c2cf306a8a44
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976184"
 ---
 # <a name="class-view-and-object-browser-icons"></a>클래스 뷰 및 개체 브라우저 아이콘
 
@@ -37,8 +37,8 @@ ms.locfileid: "55931899"
 |![열거 기호](../ide/media/vxenum_icon.gif)|Enum|![상수 아이콘](../ide/media/vxconstant_icon.gif)|상수|
 |![형식 정의 기호](../ide/media/vxtypedef_icon.gif)|TypeDef|![항목 열거 기호](../ide/media/vxenumitem_icon.gif)|항목 열거|
 |![Visual Studio 모듈 기호](../ide/media/vxmodule_icon.gif)|Module|![맵 항목 기호](../ide/media/vxmapitem_icon.gif)|맵 항목|
-|![확장명 메서드 기호](../ide/media/extensionmethod.gif)|확장 메서드|![선언 기호](../ide/media/vxmethod_icon.gif)|외부 선언|
-|![대리자 기호](../ide/media/vxdelegate_icon.gif)|대리자|![클래스 뷰 및 개체 브라우저의 오류 아이콘](../ide/media/erroricon.gif)|Error|
+|![확장 메서드 기호](../ide/media/extensionmethod.gif)|확장 메서드|![선언 기호](../ide/media/vxmethod_icon.gif)|외부 선언|
+|![대리자 기호](../ide/media/vxdelegate_icon.gif)|대리자|![클래스 뷰 및 개체 브라우저의 오류 아이콘](../ide/media/erroricon.gif)|오류|
 |![예외 기호](../ide/media/vxexception_icon.gif)|예외|![템플릿 기호](../ide/media/vxtemplate_icon.gif)|템플릿|
 |![맵 기호](../ide/media/vxmap_icon.gif)|맵|![오류 느낌표 기호](../ide/media/vxerror_icon.gif)|알 수 없음|
 |![형식 전달 기호](../ide/media/ob_type_forward.gif)|형식 전달|||

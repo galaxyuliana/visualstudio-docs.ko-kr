@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cfad5fbf5e6a4105926fe0293093749b4cecaf57
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: a64d6e46a674ad068c2a90eaf6b011a038d2e46e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976204"
 ---
 # <a name="walkthrough-using-a-configuration-file-to-define-a-data-source"></a>연습: 구성 파일을 사용하여 데이터 원본 정의
 
@@ -52,7 +52,7 @@ ms.locfileid: "55935435"
 
 3. **애플리케이션 구성 파일** 템플릿을 선택하고 **추가**를 클릭합니다.
 
-##  <a name="define-a-custom-configuration-section"></a>사용자 지정 구성 섹션 정의
+## <a name="define-a-custom-configuration-section"></a>사용자 지정 구성 섹션 정의
 
 *app.config* 파일을 검토합니다. XML 선언과 루트 요소는 반드시 포함되어야 합니다.
 

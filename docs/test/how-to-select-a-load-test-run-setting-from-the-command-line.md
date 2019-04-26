@@ -9,12 +9,12 @@ ms.assetid: 175d1d58-f09a-4449-b132-a29a394a7c8e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e022eec099682581f244ad426500a512c63035d4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 466ea9a7e0b877af55219be497eefde963e80853
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62949905"
 ---
 # <a name="how-to-select-a-load-test-run-setting-to-use-from-the-command-line"></a>방법: 명령줄에서 사용할 부하 테스트 실행 설정 선택
 
@@ -26,11 +26,11 @@ ms.locfileid: "55936163"
 
 ## <a name="to-change-the-run-setting-from-the-command-line"></a>명령줄에서 실행 설정을 변경하려면
 
-1.  명령줄에서 다른 실행 설정을 사용하여 컨텍스트 매개 변수 전략을 활용하려면 다음 명령을 사용합니다.
+1. 명령줄에서 다른 실행 설정을 사용하여 컨텍스트 매개 변수 전략을 활용하려면 다음 명령을 사용합니다.
 
     `Set Test.UseRunSetting= CorporateStagingWebServer`
 
-2.  mstest를 사용하여 부하 테스트 실행
+2. mstest를 사용하여 부하 테스트 실행
 
     `mstest /testcontainer:loadtest1.loadtest`
 

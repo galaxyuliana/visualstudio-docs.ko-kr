@@ -10,12 +10,12 @@ ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3f1172cff8abc53867f4a13cacdf16fe2d1f065e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 3fd640a79a81e2306c8abd1c3c5279b1fc8f335f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950139"
 ---
 # <a name="how-to-create-a-web-service-test"></a>방법: 웹 서비스 테스트 만들기
 
@@ -31,21 +31,21 @@ Visual Studio Enterprise
 
 ## <a name="to-test-a-web-service"></a>웹 서비스를 테스트하려면
 
-1.  새 웹 성능 테스트를 만듭니다. 브라우저가 열리면 바로 **중지**를 선택합니다.
+1. 새 웹 성능 테스트를 만듭니다. 브라우저가 열리면 바로 **중지**를 선택합니다.
 
-2.  **웹 성능 테스트 편집기**에서 웹 성능 테스트를 마우스 오른쪽 단추로 클릭한 다음, **웹 서비스 요청 추가**를 선택합니다.
+2. **웹 성능 테스트 편집기**에서 웹 성능 테스트를 마우스 오른쪽 단추로 클릭한 다음, **웹 서비스 요청 추가**를 선택합니다.
 
-3.  새 요청의 **Url** 속성에 **http://localhost/storecsvs/InstantOrder.asmx**와 같은 웹 서비스 이름을 입력합니다.
+3. 새 요청의 **Url** 속성에 **http://localhost/storecsvs/InstantOrder.asmx**와 같은 웹 서비스 이름을 입력합니다.
 
-4.  별도의 브라우저 세션을 열고 **주소** 도구 모음에 *.asmx* 페이지의 URL을 입력합니다. 테스트할 방법을 선택하고 SOAP 메시지를 검사합니다. SOAP 메시지에 `SOAPAction`이 있습니다.
+4. 별도의 브라우저 세션을 열고 **주소** 도구 모음에 *.asmx* 페이지의 URL을 입력합니다. 테스트할 방법을 선택하고 SOAP 메시지를 검사합니다. SOAP 메시지에 `SOAPAction`이 있습니다.
 
-5.  **웹 성능 테스트 편집기**에서 요청을 마우스 오른쪽 단추로 클릭한 다음, **머리글 추가**를 선택하여 새 머리글을 추가합니다. **이름** 속성에 `SOAPAction`을 입력합니다. **값** 속성에 `SOAPAction`에 표시되는 `"http://tempuri.org/CheckStatus"`와 같은 값을 입력합니다.
+5. **웹 성능 테스트 편집기**에서 요청을 마우스 오른쪽 단추로 클릭한 다음, **머리글 추가**를 선택하여 새 머리글을 추가합니다. **이름** 속성에 `SOAPAction`을 입력합니다. **값** 속성에 `SOAPAction`에 표시되는 `"http://tempuri.org/CheckStatus"`와 같은 값을 입력합니다.
 
-6.  편집기에서 URL 노드를 확장한 다음, **문자열 본문** 노드를 선택하고 **콘텐츠 형식** 속성에 `text/xml` 값을 입력합니다.
+6. 편집기에서 URL 노드를 확장한 다음, **문자열 본문** 노드를 선택하고 **콘텐츠 형식** 속성에 `text/xml` 값을 입력합니다.
 
-7.  4단계의 브라우저로 돌아가서 웹 서비스 설명 페이지에서 SOAP 요청의 XML 부분을 선택하여 클립보드에 복사합니다.
+7. 4단계의 브라우저로 돌아가서 웹 서비스 설명 페이지에서 SOAP 요청의 XML 부분을 선택하여 클립보드에 복사합니다.
 
-8.  XML 내용은 다음 예제와 비슷합니다.
+8. XML 내용은 다음 예제와 비슷합니다.
 
      ```xml
      <?xml version="1.0" encoding="utf-8"?>
