@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 43844fc1e8ffed9853f287f82e79d9859b774755
-ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
+ms.openlocfilehash: 54288f345276a019bf8fd6987a9e138c53c8a9e2
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58897688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62569882"
 ---
 # <a name="common-msbuild-project-items"></a>일반적인 MSBuild 프로젝트 항목
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에서 항목은 하나 이상의 파일에 대한 명명된 참조입니다. 항목에는 파일 이름, 경로 및 버전 번호와 같은 메타데이터가 포함됩니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]의 모든 프로젝트 형식에는 공통된 여러 항목이 있습니다. 이러한 항목은 *Microsoft.Build.CommonTypes.xsd* 파일에 정의되어 있습니다.
@@ -81,7 +81,6 @@ ms.locfileid: "58897688"
 ### <a name="compile"></a>Compile
  컴파일러에 대한 소스 파일을 나타냅니다.
 
-
 | 항목 메타데이터 이름 | 설명 |
 |-----------------------| - |
 | DependentUpon | 선택적 문자열입니다. 올바르게 컴파일하기 위해 이 파일이 의존하는 파일을 지정합니다. |
@@ -92,7 +91,6 @@ ms.locfileid: "58897688"
 
 ### <a name="embeddedresource"></a>EmbeddedResource
  생성된 어셈블리에 포함될 리소스를 나타냅니다.
-
 
 | 항목 메타데이터 이름 | 설명 |
 |-----------------------| - |
@@ -108,7 +106,6 @@ ms.locfileid: "58897688"
 ### <a name="content"></a>콘텐츠
  프로젝트로 컴파일되지 않지만 프로젝트에 포함되거나 함께 게시될 수 있는 파일을 나타냅니다.
 
-
 | 항목 메타데이터 이름 | 설명 |
 |-----------------------| - |
 | DependentUpon | 선택적 문자열입니다. 올바르게 컴파일하기 위해 이 파일이 의존하는 파일을 지정합니다. |
@@ -123,7 +120,6 @@ ms.locfileid: "58897688"
 
 ### <a name="none"></a>없음
  빌드 프로세스에서 역할이 없는 파일을 나타냅니다.
-
 
 | 항목 메타데이터 이름 | 설명 |
 |-----------------------| - |

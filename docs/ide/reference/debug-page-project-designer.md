@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a49b2c77833538cb983f776a2f54ad332fb87f59
-ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "59504408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62968186"
 ---
 # <a name="debug-page-project-designer"></a>프로젝트 디자이너, 디버그 페이지
 
@@ -67,7 +67,7 @@ ms.locfileid: "59504408"
 
 이 텍스트 상자에 프로젝트를 시작할 디렉터리를 입력합니다. 또는 찾아보기 단추(**...**)를 클릭하여 디렉터리를 선택합니다.
 
-**원격 머신 사용**
+**원격 컴퓨터 사용**
 
 원격 컴퓨터에서 애플리케이션을 디버깅하려면 이 확인란을 선택하고 텍스트 상자에 원격 컴퓨터에 대한 경로를 입력합니다.
 
@@ -85,6 +85,6 @@ Visual Basic 애플리케이션에서 SQL 프로시저의 디버깅을 사용하
 
 - [디버거 소개](../../debugger/debugger-feature-tour.md)
 - [C# 디버그 구성에 대한 프로젝트 설정](../../debugger/project-settings-for-csharp-debug-configurations.md)
-- [Project Settings for a Visual Basic Debug Configuration](../../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
+- [Visual Basic 디버그 구성에 대한 프로젝트 설정](../../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
 - [방법: 제한된 권한으로 ClickOnce 애플리케이션 디버그](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
 - [방법: 구성 만들기 및 편집](../../ide/how-to-create-and-edit-configurations.md)

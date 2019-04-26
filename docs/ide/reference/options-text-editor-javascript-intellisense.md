@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ff36bf74249ec5266218060eedb879e4d796625c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 04ef05c5823c6a07fb6f93d82ddae55830e0e3ac
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55938698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62778577"
 ---
 # <a name="options-text-editor-javascript-intellisense"></a>옵션, 텍스트 편집기, JavaScript, IntelliSense
 **옵션** 대화 상자의 **IntelliSense** 페이지를 사용하여 JavaScript용 IntelliSense의 동작에 영향을 주는 설정을 수정합니다. 메뉴 모음에서 **도구** > **옵션**을 선택한 다음, **텍스트 편집기** > **JavaScript** > **IntelliSense**를 차례로 확장하여 **IntelliSense**에 액세스할 수 있습니다.
@@ -59,7 +59,6 @@ ms.locfileid: "55938698"
 > [!CAUTION]
 > 하나의 개체가 두 개 이상의 암시적 참조에서 조건 없이 정의된 경우, 이 목록의 마지막 참조가 개체 정의에 사용됩니다.
 
-
 **그룹에 참조 추가**
 
 이 옵션은 해당하는 파일을 찾아 IntelliSense .js 파일을 추가하는 방법을 제공합니다.
@@ -70,8 +69,6 @@ ms.locfileid: "55938698"
 
 > [!NOTE]
 > 웹 프로젝트의 경우 프로젝트에서 참조된 원격 파일이 기본적으로 다운로드됩니다.
-
-
 
 ## <a name="see-also"></a>참고 항목
 

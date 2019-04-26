@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5e531c0a4b2f5eca69675c7347fc275697eba7e1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: e0d4cdfd393961566a0aef0c649e6ff788fdc8ac
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63403608"
 ---
 # <a name="nameprofile"></a>NameProfile
 `NameProfile` 함수는 지정된 프로세스 또는 스레드에 문자열을 할당합니다.
@@ -81,7 +81,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
  현재 이외의 프로세스 또는 스레드를 지정하는 경우 이름을 지정하기 전에 초기화되었고 실행이 시작되었는지 확인해야 합니다. 그렇지 않으면 NameProfile 메서드가 실패합니다.
 
 > [!IMPORTANT]
->  CreateProcess() 및 CreateThread() API 함수는 스레드 또는 프로세스가 초기화되기 전에 반환할 수 있습니다.
+> CreateProcess() 및 CreateThread() API 함수는 스레드 또는 프로세스가 초기화되기 전에 반환할 수 있습니다.
 
 ## <a name="net-framework-equivalent"></a>.NET Framework의 해당 값
  *Microsoft.VisualStudio.Profiler.dll*

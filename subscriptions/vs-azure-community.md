@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 Azure 커뮤니티 혜택에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 78c6954cd6dbbee48a3754d7d58eaa34b2e17158
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 154c0164f5126fc38d0e0af5ec5703faacb9f94f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56842106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62948323"
 ---
 # <a name="azure-community"></a>Azure 커뮤니티
 
@@ -28,8 +28,6 @@ Azure 커뮤니티를 통해 선택 지원 포럼 내에서 Azure 팀의 직접�
 | [Azure 관리 포털](https://social.msdn.microsoft.com/Forums/home?forum=windowsazuremanagement&filter=alltypes&sort=lastpostdesc)               | [Azure Backup](https://social.msdn.microsoft.com/forums/home?forum=windowsazureonlinebackup&filter=alltypes&sort=lastpostdesc)                                       | [Azure Stack](https://social.msdn.microsoft.com/forums/home?forum=AzureStack&filter=alltypes&sort=lastpostdesc)                          |
 | [Azure Virtual Machines](https://social.msdn.microsoft.com/Forums/home?forum=WAVirtualMachinesforWindows&filter=alltypes&sort=lastpostdesc)                | [Azure Site Recovery](https://social.msdn.microsoft.com/forums/home?forum=hypervrecovmgr&filter=alltypes&sort=lastpostdesc)                                | [Azure Marketplace](https://social.msdn.microsoft.com/forums/home?forum=DataMarket&filter=alltypes&sort=lastpostdesc)                    |
 
-
-
 ## <a name="activation-steps"></a>활성화 단계
 Azure 커뮤니티를 시작하는 것은 간단합니다.
 1. [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)에 로그인합니다.
@@ -42,13 +40,12 @@ Azure 커뮤니티를 시작하는 것은 간단합니다.
     > [!div class="mx-imgBorder"]
     > ![Azure 커뮤니티 포럼](_img/vs-azure-community/vs-azure-community-forums.png)
 
-4.  포럼에서 주제 및 응답을 보거나, 질문에 대한 답변을 검색하거나, 새 질문을 게시할 수 있습니다.
+4. 포럼에서 주제 및 응답을 보거나, 질문에 대한 답변을 검색하거나, 새 질문을 게시할 수 있습니다.
     > [!div class="mx-imgBorder"]
     > ![Azure 커뮤니티 예](_img/vs-azure-community/vs-azure-community-example.png)
 
 ## <a name="eligibility"></a>자격
 Azure 커뮤니티 혜택의 제공 여부는 구독 수준에 따르며 아래와 같습니다.
-
 
 |                                          구독 수준                                           |     채널      |    이점    | 갱신 가능? |
 |-------------------------------------------------------------------------------------------------------|-------------------|---------------|------------|
@@ -57,7 +54,7 @@ Azure 커뮤니티 혜택의 제공 여부는 구독 수준에 따르며 아래�
 |                              Visual Studio Test Professional(표준)                               |    VL, 일반 정품     |   1년    |    예     |
 |                                       MSDN 플랫폼(표준)                                       |    VL, 일반 정품     |   1년    |    예     |
 | Visual Studio Enterprise(월간 클라우드) Visual Studio Professional(월간 클라우드) NFR<sup>1</sup> |        모두        | 사용할 수 없음 |     아니요     |
-|                                     Visual Studio Dev Essentials                                      |        N/A        | 사용할 수 없음 |     아니요     |
+|                                     Visual Studio Dev Essentials                                      |        해당 없음        | 사용할 수 없음 |     아니요     |
 |                                                                                                       |                   |               |            |
 
 <sup>1</sup> 포함:‘NFR(전매금지), Microsoft FTE, MVP(Most Valuable Professional), RD(Regional Director), VSIP(Visual Studio Industry Partner), BizSpark, Imagine, MCT(Microsoft Certified Trainer)’
@@ -65,11 +62,10 @@ Azure 커뮤니티 혜택의 제공 여부는 구독 수준에 따르며 아래�
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
 
-
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
 
 ## <a name="support-resources"></a>지원 리소스
--  다른 Azure 커뮤니티 리소스를 보려면 Azure 커뮤니티 [지원 페이지](https://azure.microsoft.com/support/forums/)를 방문하세요.
--  [Azure 설명서](/azure/)
--  Visual Studio 구독의 판매, 구독, 계정 및 요금 청구에 대한 지원이 필요하세요?  Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
--  Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+- 다른 Azure 커뮤니티 리소스를 보려면 Azure 커뮤니티 [지원 페이지](https://azure.microsoft.com/support/forums/)를 방문하세요.
+- [Azure 설명서](/azure/)
+- Visual Studio 구독의 판매, 구독, 계정 및 요금 청구에 대한 지원이 필요하세요?  Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
+- Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.

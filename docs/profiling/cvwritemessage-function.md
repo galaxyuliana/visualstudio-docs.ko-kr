@@ -27,11 +27,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ea9fd21c346a61939683ee05e3cb9ef3123cc03d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62936662"
 ---
 # <a name="cvwritemessage-function"></a>CvWriteMessage 함수
 동시성 시각화 도우미 추적 파일에 메시지를 씁니다.

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 59a637a530bfabe784aae2c1fab622e2c2380667
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: e78ce202c04b8b2af60a7b3d09b149c7e02f2e50
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977356"
 ---
 # <a name="how-to-build-incrementally"></a>방법: 증분 방식으로 빌드
 큰 프로젝트를 빌드할 경우 최신 상태에 있는 이전에 빌드된 구성 요소를 다시 빌드하지 않는 것이 중요합니다. 매번 모든 대상이 빌드되면 각 빌드를 완료하는 데 시간이 오래 걸릴 수 있습니다. 증분 빌드(이전에 빌드되지 않은 대상만 또는 오래된 대상이 다시 빌드되는 빌드)를 사용하도록 설정하기 위해 [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)])에서는 입력 파일의 타임스탬프를 출력 파일의 타임스탬프와 비교하고 대상을 건너뛰거나, 빌드하거나, 부분적으로 다시 빌드할지 결정할 수 있습니다. 하지만 입력과 출력 간에는 일대일 매핑이 있어야 합니다. 변환을 사용하여 대상이 이 직접 매핑을 식별하도록 할 수 있습니다. 변환에 대한 자세한 내용은 [변환](../msbuild/msbuild-transforms.md)을 참조하세요.
@@ -61,7 +61,6 @@ ms.locfileid: "56621333"
 - `GenerateContentFiles`: *.txt* 파일을 *.content* 파일로 변환합니다.
 
 - `BuildHelp`: *.content* 파일 및 XML 메타데이터 파일을 결합하여 최종 *.help* 파일을 빌드합니다.
-
 
 프로젝트는 변환을 사용하여 `GenerateContentFiles` 작업에서 입력과 출력 간의 일대일 매핑을 만듭니다. 자세한 내용은 [변환](../msbuild/msbuild-transforms.md)을 참조하세요. 또한 `Output` 요소는 자동으로 `GenerateContentFiles` 작업의 출력을 `BuildHelp` 작업의 입력으로 사용하도록 설정됩니다.
 

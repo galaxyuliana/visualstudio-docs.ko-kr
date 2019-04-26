@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6bf47871b8b1c2e6f8e4f67bf26ba5f73ca078c7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56625376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970020"
 ---
 # <a name="net-framework-usage-performance-rules"></a>.NET Framework 사용 성능 규칙
 .NET Framework 사용 범주의 성능 규칙은 최적화할 수 있는 특정 방법을 확인하고 성능 문제가 있는지 조사할 수 있는 가비지 수집 및 잠금 경합과 같은 더 일반적인 사용 패턴도 확인합니다.

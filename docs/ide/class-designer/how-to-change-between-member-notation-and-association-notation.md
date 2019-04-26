@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0138ec1e2a36ce20b80982103ec408077502993a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 4ff63e6cca9deebbfcfa5960b41d85f9425f7a73
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975502"
 ---
 # <a name="how-to-change-between-member-notation-and-association-notation-in-class-designer"></a>방법: 클래스 디자이너에서 멤버 표시와 연결 표시 간 변경
 
@@ -29,9 +29,9 @@ ms.locfileid: "55913826"
 
 ## <a name="to-change-member-notation-to-association-notation"></a>멤버 표기법을 연결 표기법으로 변경하려면
 
-1.  솔루션 탐색기의 프로젝트 노드에서 클래스 다이어그램(.cd) 파일을 엽니다.
+1. 솔루션 탐색기의 프로젝트 노드에서 클래스 다이어그램(.cd) 파일을 엽니다.
 
-2.  클래스 다이어그램의 형식 도형에서 해당 연결을 나타내는 멤버 속성 또는 필드를 마우스 오른쪽 단추로 클릭하고 **형식 연결로 표시**를 선택합니다.
+2. 클래스 다이어그램의 형식 도형에서 해당 연결을 나타내는 멤버 속성 또는 필드를 마우스 오른쪽 단추로 클릭하고 **형식 연결로 표시**를 선택합니다.
 
     > [!TIP]
     > 형식 도형에 속성 또는 필드가 표시되지 않는 경우 도형의 구획이 축소된 상태일 수 있습니다. 형식 도형을 확장하려면 구획 이름을 두 번 클릭하거나 형식 도형을 마우스 오른쪽 단추로 클릭하고 **확장**을 선택합니다.

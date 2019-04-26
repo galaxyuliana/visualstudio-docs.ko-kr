@@ -7,15 +7,14 @@ ms.date: 04/18/2018
 ms.topic: conceptual
 description: manage.visualstudio.com 또는 VLSC에서 구독 할당을 구독자에게 다시 보내는 방법 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: 298d14f0e838cafd6cdf711fba53361a368d6b66
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 12348428304892d4a4bc248d94bb5d0b484c7684
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62951228"
 ---
 # <a name="how-to-resend-subscription-assignment-emails-in-the-visual-studio-subscription-management-portal"></a>Visual Studio 구독 관리 포털에서 구독 할당 이메일을 다시 보내는 방법
-
 
 manage.visualstudio.com 포털 내에서 할당 전자 메일을 다시 보내는 프로세스는 매우 간단합니다.
 
@@ -23,7 +22,6 @@ manage.visualstudio.com 포털 내에서 할당 전자 메일을 다시 보내�
 2. **필터** 탭을 사용하여 할당 전자 메일을 다시 보낼 구독자를 검색합니다. 필터링에 대한 자세한 내용은 [구독 검색](search-license.md)을 참조하세요.
 3. 구독자를 클릭합니다.  Ctrl+클릭 또는 Shift+클릭을 사용하여 여러 구독자를 선택할 수 있습니다.
 4. 검색 결과의 맨 위에서 **다시 보내기**를 클릭합니다.
-
 
 > [!NOTE]
 > - 구독이 새로 할당되면 할당 전자 메일이 자동으로 생성됩니다. 위의 내용은 사용자가 새 할당 전자 메일 알림을 요청하거나 어떤 이유로든 알림이 전송되지 않은 경우에만 필요합니다.

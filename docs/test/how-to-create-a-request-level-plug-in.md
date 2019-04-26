@@ -9,12 +9,12 @@ ms.assetid: d0b5b23c-7e94-4637-be6c-2620a5442d46
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6aec2dfe707fb7c7cbae6a3220cedade47e0c0c5
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: fc1d609bab25b6a8e0dd573807aa02fefbe87a71
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950178"
 ---
 # <a name="how-to-create-a-request-level-plug-in"></a>방법: 요청 수준 플러그 인 만들기
 
@@ -30,23 +30,23 @@ ms.locfileid: "58415553"
 
 ## <a name="to-create-a-request-level-plug-in"></a>요청 수준 플러그 인을 만들려면
 
-1.  **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가**를 선택한 다음, **새 프로젝트**를 선택합니다.
+1. **솔루션 탐색기**에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가**를 선택한 다음, **새 프로젝트**를 선택합니다.
 
 2. 새 **클래스 라이브러리** 프로젝트를 만듭니다.
 
-3.  **솔루션 탐색기**의 새 클래스 라이브러리에서 **References** 폴더를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
+3. **솔루션 탐색기**의 새 클래스 라이브러리에서 **References** 폴더를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
 
      **참조 추가** 대화 상자가 표시됩니다.
 
-4.  **.NET** 탭을 선택하고 아래로 스크롤하여 **Microsoft.VisualStudio.QualityTools.WebTestFramework**를 선택한 다음, **확인**을 선택합니다.
+4. **.NET** 탭을 선택하고 아래로 스크롤하여 **Microsoft.VisualStudio.QualityTools.WebTestFramework**를 선택한 다음, **확인**을 선택합니다.
 
      **Microsoft.VisualStudio.QualityTools.WebTestFramework**에 대한 참조가 **솔루션 탐색기**의 **Reference** 폴더에 추가됩니다.
 
-5.  **솔루션 탐색기**에서 웹 성능 테스트 요청 테스트 플러그 인을 추가할 부하 테스트를 포함하는 웹 성능 및 부하 테스트 프로젝트의 최상위 노드를 마우스 오른쪽 단추로 클릭합니다. **참조 추가**를 선택합니다.
+5. **솔루션 탐색기**에서 웹 성능 테스트 요청 테스트 플러그 인을 추가할 부하 테스트를 포함하는 웹 성능 및 부하 테스트 프로젝트의 최상위 노드를 마우스 오른쪽 단추로 클릭합니다. **참조 추가**를 선택합니다.
 
      **참조 추가 대화 상자가 표시됩니다**.
 
-6.  **프로젝트** 탭을 선택하고, **클래스 라이브러리 프로젝트**를 선택한 다음, **확인**을 선택합니다.
+6. **프로젝트** 탭을 선택하고, **클래스 라이브러리 프로젝트**를 선택한 다음, **확인**을 선택합니다.
 
 7. **코드 편집기**에서 플러그 인의 코드를 작성합니다. 먼저 <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin>에서 파생되는 새 공용 클래스를 만듭니다.
 

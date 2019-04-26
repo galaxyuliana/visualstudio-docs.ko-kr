@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: MPSA(Microsoft 제품 및 서비스 계약)에서 Visual Studio 구독
 searchscope: VS Subscription
 ms.openlocfilehash: cf0a6c0c7f09cefa70edd0af1dcedf46afdf81bf
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953809"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63002316"
 ---
 # <a name="visual-studio-subscriptions-in-a-microsoft-products-and-services-agreement-mpsa"></a>MPSA(Microsoft 제품 및 서비스 계약)에서 Visual Studio 구독
 

@@ -7,12 +7,12 @@ ms.date: 03/15/2018
 ms.topic: conceptual
 description: 고객에 대한 Visual Studio 클라우드 구독 구입 및 관리 방법에 대한 클라우드 솔루션 공급자에 대한 정보입니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 59d61e687c061fffd2cc0a2b537364ca8b966271
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 6f5c760ad67fb92367f971b973f3af0ed6d41785
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58323583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62978512"
 ---
 # <a name="buy-and-manage-visual-studio-cloud-subscriptions-for-your-customers"></a>고객에 대한 Visual Studio 클라우드 구독 구입 및 관리
 
@@ -20,10 +20,8 @@ ms.locfileid: "58323583"
 
 [클라우드 구독 옵션 비교](https://visualstudio.microsoft.com/vs/pricing)
 
-
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
-
 
 ## <a name="prerequisites"></a>전제 조건
 
@@ -84,7 +82,6 @@ CSP 파트너에 대한 Visual Studio 가격 책정을 보려면 [파트너 센�
 |-------------------|------------------------|---------------------------------------|-------------------------------------------------|
 | Visual Studio     | Enterprise             |  구독                         | Visual Studio Enterprise 월간 구독   |
 | Visual Studio     | Professional           |  구독                         | Visual Studio Professional 월간 구독 |
-
 
 매월 각 Visual Studio 구독을 구입하는(지정된 고객에 대해) 6번째 단위에 5% 할인을 제공합니다. 이러한 이유로 각 구독 옵션에 대해 두 개의 행이 표시됩니다. 한 행은 단위 1-5까지 기본 가격으로 해석해야 하는 “최소 값” 0을 표시합니다. 두 번째 행은 단위 6 이상에 적용되는 5% 할인 가격인 "최소 값" 5를 표시합니다.
 

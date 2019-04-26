@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 669d239aa7c26a99774ce12cdd3e1b43c5d7ccb7
-ms.sourcegitcommit: 40393347a36779230d128f2355a911632a8d458e
+ms.openlocfilehash: 41619e780d02f20fc21bd2b51cc0b0a3eede90fd
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58866720"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62951500"
 ---
 # <a id="top"> </a> Azure의 Visual Studio 이미지
 
@@ -77,13 +77,13 @@ Azure를 처음 사용하는 경우 [체험 Azure 계정을 만드세요](https:
 
 Azure는 전체 범위의 가상 머신 크기를 제공합니다. Visual Studio는 강력한 다중 스레드 애플리케이션이므로 최소한 프로세서 2개와 7GB 메모리가 포함된 VM 크기를 선택하는 것이 좋습니다. Visual Studio 이미지에 권장되는 VM 크기는 다음과 같습니다.
 
-   * Standard_D2_v3
-   * Standard_D2s_v3
-   * Standard_D4_v3
-   * Standard_D4s_v3
-   * Standard_D2_v2
-   * Standard_D2S_v2
-   * Standard_D3_v2
+* Standard_D2_v3
+* Standard_D2s_v3
+* Standard_D4_v3
+* Standard_D4s_v3
+* Standard_D2_v2
+* Standard_D2S_v2
+* Standard_D3_v2
 
 최신 머신 크기에 대한 자세한 내용은 [Azure의 Windows 가상 머신 크기](/azure/virtual-machines/windows/sizes)를 참조하세요.
 
@@ -122,4 +122,4 @@ Visual Studio는 Azure의 “사용자 라이선스 필요” 모델을 따릅�
 이제 사전 구성된 Visual Studio 이미지에 대해 살펴보았으며, 다음 단계에서는 새 VM을 만들겠습니다.
 
 * [Azure Portal을 통해 VM 만들기](/azure/virtual-machines/windows/quick-create-portal)
-* [Windows Virtual Machines 개요](/azure/virtual-machines/windows/overview)
+* [Windows 가상 머신 개요](/azure/virtual-machines/windows/overview)

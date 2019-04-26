@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f2385d359387090d0430fbea182fcef738b454a7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: d737ecf51b6726bf46a525104c99f8ac61569964
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977290"
 ---
 # <a name="how-to-clean-a-build"></a>방법: 빌드 정리
 빌드를 정리할 때 프로젝트 및 구성 요소 파일을 그대로 두고 모든 중간 파일과 출력 파일이 삭제됩니다. 그런 다음 프로젝트 및 구성 요소 파일에서 중간 파일과 출력 파일의 새 인스턴스를 빌드할 수 있습니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]를 통해 제공되는 일반 작업 라이브러리에는 시스템 명령을 실행하는 데 사용할 수 있는 [Exec](../msbuild/exec-task.md) 작업이 포함됩니다. 작업의 라이브러리에 자세한 내용은 [작업 참조](../msbuild/msbuild-task-reference.md)를 참조하세요.
@@ -28,11 +28,11 @@ ms.locfileid: "56603276"
 
 #### <a name="to-create-a-directory-for-output-items"></a>출력 항목에 대한 디렉터리를 만들려면
 
-1.  `Property` 요소를 사용하여 디렉터리의 위치 및 이름을 정의합니다. 예를 들어 프로젝트 및 원본 파일이 포함된 디렉터리에 *BuiltApp*이라는 디렉터리를 만듭니다.
+1. `Property` 요소를 사용하여 디렉터리의 위치 및 이름을 정의합니다. 예를 들어 프로젝트 및 원본 파일이 포함된 디렉터리에 *BuiltApp*이라는 디렉터리를 만듭니다.
 
      `<builtdir>BuiltApp</builtdir>`
 
-2.  디렉터리가 없는 경우 [MakeDir](../msbuild/makedir-task.md) 작업을 사용하여 디렉터리를 만듭니다. 예:
+2. 디렉터리가 없는 경우 [MakeDir](../msbuild/makedir-task.md) 작업을 사용하여 디렉터리를 만듭니다. 예:
 
      ```xml
      <MakeDir Directories = "$(builtdir)"
@@ -44,7 +44,7 @@ ms.locfileid: "56603276"
 
 #### <a name="to-remove-a-directory-and-all-files-contained-in-the-directory"></a>디렉터리에 포함된 디렉터리 및 모든 파일을 제거하려면
 
--   `RemoveDir` 작업을 사용하여 디렉터리를 제거합니다. 예:
+- `RemoveDir` 작업을 사용하여 디렉터리를 제거합니다. 예:
 
      `<RemoveDir Directories="$(builtdir)" />`
 
