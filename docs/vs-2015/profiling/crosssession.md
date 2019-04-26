@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 05e1f2360b3257e44fde1af8be3554dd7fd95115
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54790341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62537184"
 ---
 # <a name="crosssession"></a>CrossSession
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ VSPerfCmd.exe /Start:Method /CrossSession [Options]
  **Detach**[**:**_PID_[,_PID_]]  
  지정된 프로세스의 프로파일링을 중지합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서 **CrossSession** 옵션은 다른 콘솔 세션에서 시작된 애플리케이션에 연결하는 데 사용됩니다.  
   
 ```  
