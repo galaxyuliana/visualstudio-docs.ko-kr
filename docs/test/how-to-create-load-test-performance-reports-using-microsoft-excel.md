@@ -9,12 +9,12 @@ ms.assetid: b87fb196-9973-4512-a924-088788def4ea
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: fb820ccc72e0070f947e362def1da137d19d8494
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1c884fd11c4c633164ed3283ca8d2830729e9250
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950161"
 ---
 # <a name="how-to-create-load-test-performance-reports-using-microsoft-excel"></a>방법: Microsoft Excel을 사용하여 부하 테스트 성능 보고서 만들기
 
@@ -24,9 +24,9 @@ ms.locfileid: "55955598"
 
 다음과 같은 두 가지 유형의 부하 테스트 보고서를 사용할 수 있습니다.
 
--   **비교 실행** 테이블과 가로 막대형 차트를 사용하여 두 부하 테스트 결과의 데이터를 비교하는 보고서 집합을 만듭니다.
+- **비교 실행** 테이블과 가로 막대형 차트를 사용하여 두 부하 테스트 결과의 데이터를 비교하는 보고서 집합을 만듭니다.
 
--   **추세** 둘 이상의 부하 테스트 결과에 대한 추세 분석을 생성할 수 있습니다. 결과는 꺾은선형 차트를 사용하여 표시되지만, 데이터는 피벗 테이블에서 사용할 수 있습니다.
+- **추세** 둘 이상의 부하 테스트 결과에 대한 추세 분석을 생성할 수 있습니다. 결과는 꺾은선형 차트를 사용하여 표시되지만, 데이터는 피벗 테이블에서 사용할 수 있습니다.
 
 > [!TIP]
 > 요약 뷰 및 그래프 뷰 및 테이블 뷰에서 데이터를 복사하여 붙여넣는 방법으로 Microsoft Word 보고서를 수동으로 만들 수도 있습니다. [방법: Microsoft Word를 사용하여 수동으로 부하 테스트 성능 보고서 만들기](../test/how-to-manually-create-a-load-test-performance-report-using-microsoft-word.md)를 참조하세요.

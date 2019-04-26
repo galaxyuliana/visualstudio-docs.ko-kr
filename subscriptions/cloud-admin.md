@@ -7,12 +7,12 @@ ms.date: 03/28/2018
 ms.topic: conceptual
 description: 클라우드 구독에 대한 관리자 설정
 searchscope: VS Subscription
-ms.openlocfilehash: fafac6b36c2abd34f47d4321155d123ce7cecd90
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 34479c21ec3cb0672b8d2354595c971b062bba56
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945824"
 ---
 # <a name="set-up-administrators-for-visual-studio-cloud-subscriptions"></a>Visual Studio 클라우드 구독에 대한 관리자 설정
 
@@ -45,7 +45,6 @@ Visual Studio 클라우드 구독을 구매하는 경우 구매하는 데 사용
 사용자가 지정한 구독자는 페이지의 가운데에 표시되며 구독자의 역할은 "사용자 액세스 관리자"로 표시됩니다.
 
 새 관리자는 지금 [관리 포털](https://manage.visualstudio.com)에 로그인하여 페이지의 왼쪽 상단 모서리에 있는 목록에서 클라우드 구독을 구매하는 데 사용된 동일한 Azure 구독을 선택하고 이러한 구독을 관리하기 시작합니다.
-
 
 > [!NOTE]
 > 관리자로 설정하지 않은 클라우드 구독을 편집할 수 있는 액세스 권한이 사용자에게 있는 경우에는 사용자는 기본 Azure 구독에서 구독을 관리할 수 있는 역할을 가질 수 있습니다. 해당 역할에는 소유자, 기여자, 서비스 관리자 또는 공동 관리자가 포함됩니다. 자세한 내용은 [청구 관리자 추가](/azure/devops/organizations/billing/add-backup-billing-managers?view=vsts)를 참조하세요.

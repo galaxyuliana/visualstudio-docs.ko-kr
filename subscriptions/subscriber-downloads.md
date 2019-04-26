@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Microsoft 제품을 찾고 다운로드하는 방법을 알아봅니다.
 searchscope: VS Subscription
 ms.openlocfilehash: 5aec4ca179f5adc77a01538807ae3498c69964ae
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62953733"
 ---
 # <a name="using-subscriber-downloads-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 구독자 다운로드 사용
 구독자 혜택의 일환으로 다양한 소프트웨어 다운로드에 액세스할 수 있습니다.

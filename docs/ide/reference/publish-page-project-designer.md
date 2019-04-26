@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 00202ab13001a56d472027d538bc5560f936ef93
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 731ed637c8c728f51dd318e6c06b980e512b7d57
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55909351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62968892"
 ---
 # <a name="publish-page-project-designer"></a>프로젝트 디자이너, 게시 페이지
 **프로젝트 디자이너** 의 **게시** 페이지를 통해 ClickOnce 배포를 위한 속성을 구성합니다.
@@ -26,7 +26,6 @@ ms.locfileid: "55909351"
 
 > [!NOTE]
 > 여기에 설명된 ClickOnce 속성 중 일부는 **빌드** 메뉴에서 또는 이 페이지의 **PublishWizard** 단추를 클릭하여 사용할 수 있는 **PublishWizard**에서도 설정할 수 있습니다.
-
 
 ## <a name="uielement-list"></a>UI 요소 목록
  **게시 폴더 위치**

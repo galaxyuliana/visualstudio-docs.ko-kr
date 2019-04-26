@@ -7,17 +7,16 @@ ms.date: 04/03/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Visual Studio IDE를 다운로드하고 설치하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: e2ac206e85d43cff897ff97b42b4b8fccaeec906
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.openlocfilehash: af721e567e451c50533d0e476ec01acfa4022a53
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420805"
 ---
 # <a name="using-the-visual-studio-2019-benefit"></a>Visual Studio 2019 혜택 사용
 
 Visual Studio 구독자는 Visual Studio IDE에 액세스할 수 있습니다.  특정 버전은 구독 수준에 따라 다릅니다.  혜택은 구독자 포털의 [혜택](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) 페이지에 있는 도구 범주에서 타일로 표시됩니다.
-
 
 ## <a name="activation-steps"></a>활성화 단계
 
@@ -56,8 +55,10 @@ IDE를 다운로드하려면
 14. Visual Studio가 열립니다. Visual Studio를 사용할 준비가 되었습니다!
 
     ::: moniker range="vs-2017"
+
     > [!div class="mx-imgBorder"]
     > ![Visual Studio Enterprise 사용 시작](_img/vs-ide-experience/vs-ide-start-cropped.png)
+
     ::: moniker-end
 
 ## <a name="eligibility"></a>자격
@@ -75,12 +76,10 @@ IDE를 다운로드하려면
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
 
-
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
 
-
 ## <a name="support-resources"></a>지원 리소스
--  Visual Studio IDE와 관련하여 도움이 필요하면 다음 리소스를 확인하세요.
+- Visual Studio IDE와 관련하여 도움이 필요하면 다음 리소스를 확인하세요.
     - 기술 지원: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
-    - [설명서](/visualstudio/)
--  Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
+    - [문서](/visualstudio/)
+- Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.

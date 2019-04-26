@@ -12,35 +12,35 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c890ac9dbd3b542a400fc2a5b6db7ee2eb8f5db2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 69cbef53bcca74cceba4f9409b578fca45a58806
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970072"
 ---
 # <a name="disk-operations-report-threads-view"></a>디스크 작업 보고서(스레드 뷰)
 디스크 작업 보고서에는 디스크 채널의 디스크 I/O 작업이 표시됩니다.
 
  현재 표시되는 기간에 프로파일링 중인 프로세스를 대신해서 발생하는 각 디스크 액세스에 대해서는 다음 정보가 보고됩니다.
 
--   디스크 액세스를 수행한 프로세스의 이름 및 PID
+- 디스크 액세스를 수행한 프로세스의 이름 및 PID
 
--   디스크에 액세스한 스레드의 ID
+- 디스크에 액세스한 스레드의 ID
 
--   액세스된 파일의 이름
+- 액세스된 파일의 이름
 
--   파일당 읽기 횟수
+- 파일당 읽기 횟수
 
--   읽은 바이트 수
+- 읽은 바이트 수
 
--   읽기 대기 시간(밀리초)
+- 읽기 대기 시간(밀리초)
 
--   쓰기 횟수
+- 쓰기 횟수
 
--   기록한 바이트 수
+- 기록한 바이트 수
 
--   쓰기 대기 시간(밀리초)
+- 쓰기 대기 시간(밀리초)
 
 ## <a name="see-also"></a>참고 항목
 - [스레드 뷰](../profiling/threads-view-parallel-performance.md)

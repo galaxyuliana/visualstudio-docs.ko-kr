@@ -15,19 +15,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8e4cb02cdaf2827ac5c892c7565f446d8f84257c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 061d78a1e6415d6e7386fdc4de76aa1dd8ddd6d6
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62938917"
 ---
 # <a name="tooltaskextension-base-class"></a>ToolTaskExtension 기본 클래스
 많은 작업은 <xref:Microsoft.Build.Utilities.Task> 클래스에서 상속되는 <xref:Microsoft.Build.Utilities.ToolTask> 클래스에서 상속되는 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 클래스에서 상속됩니다. 이 상속 체인은 매개 변수에서 파생되는 작업에 해당 매개 변수 몇 개를 추가합니다. 이러한 매개 변수가 이 문서에 나열되어 있습니다.
 
 ## <a name="parameters"></a>매개 변수
  다음 표에서는 기본 클래스의 매개 변수에 대해 설명합니다.
-
 
 | 매개 변수 | 설명 |
 | - | - |

@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f9f5586fee54a3e50f9485b520e092255e57359c
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.openlocfilehash: d6202a8287232c0226104be59bdab6a15fd00d95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62785452"
 ---
 # <a name="create-a-data-driven-coded-ui-test"></a>데이터 기반의 코딩된 UI 테스트 만들기
 
@@ -98,11 +98,11 @@ ms.locfileid: "56796662"
 
 ### <a name="step-2---create-a-data-set"></a>2단계 - 데이터 집합 만들기
 
-1.  dataDrivenSample 프로젝트 *data.csv*에 텍스트 파일을 추가합니다.
+1. dataDrivenSample 프로젝트 *data.csv*에 텍스트 파일을 추가합니다.
 
      ![프로젝트에 쉼표로 구분된 값 파일 추가](../test/media/cuit_datadriven_addcsvfile.png)
 
-2.  다음 데이터를 사용하여 *.csv* 파일을 채웁니다.
+2. 다음 데이터를 사용하여 *.csv* 파일을 채웁니다.
 
     |Num1|Num2|Sum|
     |-|-|-|
@@ -114,9 +114,9 @@ ms.locfileid: "56796662"
 
      ![데이터로 .csv 파일 채우기](../test/media/cuit_datadriven_adddatatocsvfile.png)
 
-3.  *.csv* 파일은 올바른 인코딩을 사용하여 저장되어야 합니다. **파일** 메뉴에서 **고급 저장 옵션**을 선택하고 인코딩으로 **유니코드(시그니처 없는 UTF-8) - 코드 페이지 65001**을 선택합니다.
+3. *.csv* 파일은 올바른 인코딩을 사용하여 저장되어야 합니다. **파일** 메뉴에서 **고급 저장 옵션**을 선택하고 인코딩으로 **유니코드(시그니처 없는 UTF-8) - 코드 페이지 65001**을 선택합니다.
 
-4.  *.csv* 파일은 출력 디렉터리에 복사해야 하며 그렇지 않으면 테스트를 실행할 수 없습니다. **속성** 창에서 해당 파일을 복사합니다.
+4. *.csv* 파일은 출력 디렉터리에 복사해야 하며 그렇지 않으면 테스트를 실행할 수 없습니다. **속성** 창에서 해당 파일을 복사합니다.
 
      ![.csv 파일 배포](../test/media/cuit_datadriven_deploycsvfile.png)
 
@@ -124,7 +124,7 @@ ms.locfileid: "56796662"
 
 ### <a name="step-3---add-data-source-binding"></a>3단계 - 데이터 소스 바인딩 추가
 
-1.  데이터 소스를 바인딩하려면 테스트 메서드 바로 위에 있는 기존 `DataSource` 특성 내에 `[TestMethod]` 특성을 추가합니다.
+1. 데이터 소스를 바인딩하려면 테스트 메서드 바로 위에 있는 기존 `DataSource` 특성 내에 `[TestMethod]` 특성을 추가합니다.
 
     ```csharp
     [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("data.csv"), TestMethod]
@@ -140,7 +140,7 @@ ms.locfileid: "56796662"
     > [!TIP]
     > XML, SQL Express, Excel 등의 다른 데이터 소스 형식을 사용하는 샘플은 Q & A 섹션의 [데이터 소스 특성 샘플](#CreateDataDrivenCUIT_QA_DataSourceAttributes)을 참조하세요.
 
-2.  테스트를 실행합니다.
+2. 테스트를 실행합니다.
 
      테스트는 3회 반복 실행됩니다. 바인딩된 데이터 소스에 데이터 행 3개가 포함되어 있기 때문입니다. 그러나 테스트는 상수 매개 변수 값을 여전히 사용하고 있어 매번 1+2와 해당 합인 3을 추가하는 것도 확인할 수 있습니다.
 
@@ -179,19 +179,19 @@ ms.locfileid: "56796662"
 
      데이터를 코딩할 검색 속성을 확인하려면 코딩된 UI 테스트 편집기를 사용합니다.
 
-    -   *UIMap.uitest* 파일을 엽니다.
+    - *UIMap.uitest* 파일을 엽니다.
 
          ![코딩된 UI 테스트 편집기 열기](../test/media/cuit_datadriven_opentesteditor.png)
 
-    -   UI 작업을 선택하고 해당 UI 컨트롤 매핑을 관찰하여 매핑과 그에 해당하는 `this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button` 등의 코드를 살펴봅니다.
+    - UI 작업을 선택하고 해당 UI 컨트롤 매핑을 관찰하여 매핑과 그에 해당하는 `this.UIMap.UICalculatorWindow.UIItemWindow.UIItem1Button` 등의 코드를 살펴봅니다.
 
          ![코딩에 도움을 받으려면 코딩된 UI 테스트 편집기 사용](../test/media/cuit_datadriven_testeditor.png)
 
-    -   **속성** 창에서 **검색 속성**을 엽니다. 검색 속성 **Name** 값은 코드에서 데이터 소스를 사용하여 조작하는 항목입니다. 예를 들어 `SearchProperties`에는 다음과 같이 각 데이터 행의 첫 번째 열 값이 할당됩니다. `UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();`. 이 테스트는 3회 반복하는 동안 검색 속성의 **Name** 값을 3, 5, 6의 순서로 변경합니다.
+    - **속성** 창에서 **검색 속성**을 엽니다. 검색 속성 **Name** 값은 코드에서 데이터 소스를 사용하여 조작하는 항목입니다. 예를 들어 `SearchProperties`에는 다음과 같이 각 데이터 행의 첫 번째 열 값이 할당됩니다. `UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();`. 이 테스트는 3회 반복하는 동안 검색 속성의 **Name** 값을 3, 5, 6의 순서로 변경합니다.
 
          ![코딩에 도움을 받으려면 검색 속성 사용](../test/media/cuit_datadriven_searchproperties.png)
 
-3.  솔루션을 저장합니다.
+3. 솔루션을 저장합니다.
 
 ### <a name="step-5---run-the-data-driven-test"></a>5단계 – 데이터 기반 테스트 실행
 
@@ -207,23 +207,23 @@ ms.locfileid: "56796662"
 
 **데이터 소스 형식 및 특성**
 
--   CSV
+- CSV
 
      `[DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\data.csv", "data#csv", DataAccessMethod.Sequential), DeploymentItem("data.csv"), TestMethod]`
 
--   Excel
+- Excel
 
      `DataSource("System.Data.Odbc", "Dsn=ExcelFiles;Driver={Microsoft Excel Driver (*.xls)};dbq=|DataDirectory|\\Data.xls;defaultdir=.;driverid=790;maxbuffersize=2048;pagetimeout=5;readonly=true", "Sheet1$", DataAccessMethod.Sequential), DeploymentItem("Sheet1.xls"), TestMethod]`
 
--   Team Foundation Server의 테스트 사례
+- Team Foundation Server의 테스트 사례
 
      `[DataSource("Microsoft.VisualStudio.TestTools.DataSource.TestCase", "http://vlm13261329:8080/tfs/DefaultCollection;Agile", "30", DataAccessMethod.Sequential), TestMethod]`
 
--   XML
+- XML
 
      `[DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", "|DataDirectory|\\data.xml", "Iterations", DataAccessMethod.Sequential), DeploymentItem("data.xml"), TestMethod]`
 
--   SQL Express
+- SQL Express
 
      `[DataSource("System.Data.SqlClient", "Data Source=.\\sqlexpress;Initial Catalog=tempdb;Integrated Security=True", "Data", DataAccessMethod.Sequential), TestMethod]`
 

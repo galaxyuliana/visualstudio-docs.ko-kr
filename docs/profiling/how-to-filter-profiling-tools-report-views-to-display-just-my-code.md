@@ -8,11 +8,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b11d3c177f880894a2f47abd8e80e7796c7923ef
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56624336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62973951"
 ---
 # <a name="how-to-filter-profiling-tools-report-views-to-display-just-my-code"></a>방법: 내 코드만 표시하도록 프로파일링 도구 보고서 보기 필터링
 

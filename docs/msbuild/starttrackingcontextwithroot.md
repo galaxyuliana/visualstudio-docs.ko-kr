@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 53f2c1ebd5896eaa8a4b9d5ff4e5cb7856a1f8e2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56690491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62939107"
 ---
 # <a name="starttrackingcontextwithroot"></a>StartTrackingContextWithRoot
 루트 마커를 지정하는 지시 파일을 사용하여 추적 컨텍스트를 시작합니다.

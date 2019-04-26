@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: Visual Studio 구독에 포함된 전문가 개발 혜택
 searchscope: VS Subscription
 ms.openlocfilehash: d63fd098c003f606a1d88aec55157e554620b20b
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007705"
 ---
 # <a name="professional-development-benefits-available-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 사용할 수 있는 전문가 개발 혜택
 
@@ -26,4 +26,4 @@ ms.locfileid: "59018365"
 - [Opsgility](vs-opsgility.md)
 - [Pluralsight](vs-pluralsight.md)
 - [MSDN Magazine](vs-msdn.md)
-- [LinkedIn Learning](vs-linkedin-learning.md)
+- [LinkedIn 학습](vs-linkedin-learning.md)

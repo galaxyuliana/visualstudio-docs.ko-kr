@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: 관리 포털로 마이그레이션한 후 Visual Studio 구독에 대한 조직에 성공적으로 등록하는 방법을 알아봅니다.
 searchscope: VS Subscription
 ms.openlocfilehash: 3b12f5ad2d4f83759c6247f3498eb3da9d376991
-ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58897610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63008267"
 ---
 # <a name="onboard-to-the-visual-studio-subscriptions-administration-portal-after-your-organization-is-migrated"></a>조직이 마이그레이션된 후 Visual Studio 구독 관리 포털에 등록
 

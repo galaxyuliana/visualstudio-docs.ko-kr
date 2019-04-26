@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 915a46a1f201dab55edb0b0b091c003d6b449049
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 1e59e1bd618cfeb28b93d073997ef451357ee8d0
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57873456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62830794"
 ---
 # <a name="analyze-memory-usage-without-the-debugger"></a>디버거 없이 메모리 사용량 분석
 
@@ -56,13 +56,13 @@ ms.locfileid: "57873456"
 
 스냅숏을 수집하려면 메모리 데이터를 캡처할 때 **스냅숏 만들기**를 선택합니다.
 
-###  <a name="BKMK_Close_a_monitoring_session"></a> 진단 세션 닫기
+### <a name="BKMK_Close_a_monitoring_session"></a> 진단 세션 닫기
 
 보고서를 생성하지 않고 모니터링 세션을 중지하려면 진단 창을 닫기만 하면 됩니다. 스냅숏 수집을 완료하거나 스냅숏을 만들 때 보고서를 생성하려면 **컬렉션 중지**를 선택합니다.
 
 ![컬렉션 중지](../profiling/media/memuse__stopcollection.png "컬렉션 중지")
 
-##  <a name="memory-usage-reports"></a>메모리 사용량 보고서
+## <a name="memory-usage-reports"></a>메모리 사용량 보고서
 
 데이터 수집을 중지하면 **메모리 사용량** 도구가 앱을 중지하고 **메모리 사용량** 개요 보고서를 표시합니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "57873456"
 
 - **참조 형식** 또는 **참조 개체** 트리는 선택한 형식 또는 인스턴스가 참조하는 개체를 보여줍니다.
 
-###  <a name="BKMK_Report_tree_filters_"></a> 보고서 트리 필터
+### <a name="BKMK_Report_tree_filters_"></a> 보고서 트리 필터
 
 앱의 많은 형식은 앱 개발자에게 그리 흥미롭지 않습니다. 스냅숏 보고서 필터는 **관리되는 힙** 및 **루트 경로** 트리에서 이러한 유형의 대부분을 숨길 수 있습니다.
 
@@ -123,7 +123,7 @@ ms.locfileid: "57873456"
 
 두 링크 모두 동일한 보고서를 엽니다. **관리되는 힙** 트리의 시작 정렬 순서만 다릅니다. 크기 링크는 **포함 크기(바이트)** 열을 기준으로 보고서를 정렬합니다. 개체 링크는 **개수** 열을 기준으로 보고서를 정렬합니다. 보고서를 연 후 정렬 열이나 순서를 변경할 수 있습니다.
 
-###  <a name="BKMK_Managed_Heap_tree__Snapshot_details_"></a> 관리되는 힙 트리(스냅숏 정보 보고서)
+### <a name="BKMK_Managed_Heap_tree__Snapshot_details_"></a> 관리되는 힙 트리(스냅숏 정보 보고서)
  **관리되는 힙** 트리에는 메모리에 보관된 개체의 형식이 나열됩니다. 유형 이름을 확장하여 가장 큰 유형의 인스턴스 10개를 크기별로 정렬해서 봅니다. 형식 또는 인스턴스를 선택하여 선택한 항목에 대한 **루트 경로** 및 **참조 개체** 트리를 표시합니다.
 
  ![관리되는 힙 트리](../profiling/media/memuse__snapshotdetails_managedheaptree.png "관리되는 힙 트리")
@@ -138,14 +138,14 @@ ms.locfileid: "57873456"
 |**포함 크기(바이트)**|포함된 개체 크기를 비롯한 유형의 인스턴스 크기 또는 단일 인스턴스 크기입니다.|
 |**모듈**|개체를 포함하는 모듈입니다.|
 
-###  <a name="BKMK_Paths_to_Root_tree__Snapshot_details_"></a> 루트 경로 트리(스냅숏 정보 보고서)
+### <a name="BKMK_Paths_to_Root_tree__Snapshot_details_"></a> 루트 경로 트리(스냅숏 정보 보고서)
 **루트 경로 트리**는 형식 또는 인스턴스를 참조하는 개체의 체인을 보여줍니다. .NET Framework 가비지 수집기는 개체에 대한 모든 참조가 해제된 경우에만 개체에 대한 메모리를 정리합니다.
 
 **루트 경로** 트리의 유형인 경우 해당 유형에 대한 참조를 보관하는 개체 수가 **참조 개수** 열에 나타납니다.
 
 ![유형에 대한 루트 경로 트리](../profiling/media/memuse_snapshotdetails_type_pathstoroottree.png "유형에 대한 루트 경로 트리")
 
-###  <a name="BKMK_Referenced_Objects_tree__Snapshot_details_"></a> 참조된 형식 또는 참조된 개체 트리(스냅숏 정보 보고서)
+### <a name="BKMK_Referenced_Objects_tree__Snapshot_details_"></a> 참조된 형식 또는 참조된 개체 트리(스냅숏 정보 보고서)
 **참조 형식** 또는 **참조 개체** 트리는 선택한 형식 또는 인스턴스가 참조하는 개체를 보여줍니다.
 
 ![인스턴스에 대한 참조 개체 트리](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "인스턴스에 대한 참조 개체 트리")
@@ -168,7 +168,7 @@ ms.locfileid: "57873456"
 
  ![스냅숏 창의 차이 보고서에 대한 링크](../profiling/media/memuse_snapshotview_snapshotdifflinks.png "스냅숏 창의 차이 보고서에 대한 링크")
 
-###  <a name="BKMK_Managed_Heap_tree__Snapshot_diff_"></a> 관리되는 힙 트리(스냅숏 차이 보고서)
+### <a name="BKMK_Managed_Heap_tree__Snapshot_diff_"></a> 관리되는 힙 트리(스냅숏 차이 보고서)
 
  **관리되는 힙** 트리에는 메모리에 보관된 개체의 형식이 나열됩니다. 유형에서 가장 큰 인스턴스 10개를 크기별로 정렬해서 볼 수 있도록 유형 이름을 확장할 수 있습니다. 형식 또는 인스턴스를 선택하여 선택한 항목에 대한 **루트 경로** 및 **참조 개체** 트리를 표시합니다.
 
@@ -187,7 +187,7 @@ ms.locfileid: "57873456"
 |**포함 크기 차이(바이트)**|유형의 경우 개체의 개체 크기를 비롯한 기본 스냅숏과 이전 스냅숏 간 모든 인스턴스 유형의 크기 차이입니다. 인스턴스의 경우 이 필드는 비어 있습니다.|
 |**모듈**|개체를 포함하는 모듈입니다.|
 
-###  <a name="BKMK_Paths_to_Root_tree__Snapshot_diff_"></a> 루트 경로 트리(스냅숏 차이 보고서)
+### <a name="BKMK_Paths_to_Root_tree__Snapshot_diff_"></a> 루트 경로 트리(스냅숏 차이 보고서)
 
 **루트 경로 트리**는 형식 또는 인스턴스를 참조하는 개체의 체인을 보여줍니다. .NET Framework 가비지 수집기는 개체에 대한 모든 참조가 해제된 경우에만 개체에 대한 메모리를 정리합니다.
 
@@ -195,7 +195,7 @@ ms.locfileid: "57873456"
 
  ![차이 보고서의 루트 경로 트리](../profiling/media/memuse_snapshotdiff_pathstoroot_instance_all.png "차이 보고서의 루트 경로 트리")
 
-###  <a name="BKMK_Referenced_Objects_tree__Snapshot_diff_"></a> 참조 형식 또는 참조 개체 트리(스냅숏 차이 보고서)
+### <a name="BKMK_Referenced_Objects_tree__Snapshot_diff_"></a> 참조 형식 또는 참조 개체 트리(스냅숏 차이 보고서)
 
 **참조 형식** 또는 **참조 개체** 트리는 선택한 형식 또는 인스턴스가 참조하는 개체를 보여줍니다.
 

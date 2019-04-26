@@ -7,12 +7,12 @@ ms.date: 03/24/2019
 ms.topic: conceptual
 description: 관리 포털에서 할당된 최대 구독 수를 보는 방법 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: cdeddc7bbd62c88096e61753351f3609197d3c72
-ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
+ms.openlocfilehash: c263c610b140d3662cb17ba9f2c3d3f1a1907ab7
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58572755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62965433"
 ---
 # <a name="using-the-maximum-usage-feature-to-track-the-number-of-assigned-subscriptions"></a>최대 사용량 기능을 사용하여 할당된 구독 수 추적
 
@@ -32,7 +32,7 @@ Visual Studio 구독 관리 포털의 새로운 기능을 사용하면 구매 �
     > [!div class="mx-imgBorder"]
     > ![최대 사용량 요약](_img/maximum-usage/maximum-usage-summary.png)
 
-4.  규약 기간 동안 할당된 구독의 최대 수를 보려면 **전체 기간** 탭을 클릭합니다.
+4. 규약 기간 동안 할당된 구독의 최대 수를 보려면 **전체 기간** 탭을 클릭합니다.
 
 ## <a name="viewing-assignment-history"></a>할당 기록 보기
 

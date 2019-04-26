@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ef9759c5a422a0b67cdb9e8f7dde565b732958dd
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62973658"
 ---
 # <a name="exec-task"></a>Exec 작업
 지정된 인수를 사용하여 지정한 프로그램 또는 명령을 실행합니다.

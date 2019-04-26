@@ -8,12 +8,12 @@ ms.assetid: 6fe13be1-aeb5-4927-9bff-35950e194da9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e86f026ec4d4133635ba5cf9d6c37970abe6e139
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: e49fbb3411aee98fce5899c522b9743b3f2afa33
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950256"
 ---
 # <a name="how-to-create-a-recorder-plug-in"></a>방법: 레코더 플러그 인 만들기
 
@@ -33,20 +33,20 @@ ms.locfileid: "58415903"
 
 ### <a name="to-create-a-recorder-plug-in"></a>레코더 플러그 인을 만들려면
 
-1.  레코더 플러그 인을 만들려는 웹 성능 테스트가 포함된 웹 성능 및 부하 테스트 프로젝트가 들어 있는 솔루션을 엽니다.
+1. 레코더 플러그 인을 만들려는 웹 성능 테스트가 포함된 웹 성능 및 부하 테스트 프로젝트가 들어 있는 솔루션을 엽니다.
 
-2.  새 **클래스 라이브러리** 프로젝트를 솔루션에 추가합니다.
+2. 새 **클래스 라이브러리** 프로젝트를 솔루션에 추가합니다.
 
-3.  **솔루션 탐색기**의 새 클래스 라이브러리 프로젝트 폴더에서 **References** 폴더를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
+3. **솔루션 탐색기**의 새 클래스 라이브러리 프로젝트 폴더에서 **References** 폴더를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
 
     > [!TIP]
     > 새 클래스 라이브러리 프로젝트 폴더의 예는 **RecorderPlugins**입니다.
 
      **참조 추가** 대화 상자가 표시됩니다.
 
-4.  **.NET** 탭을 선택합니다.
+4. **.NET** 탭을 선택합니다.
 
-5.  아래로 스크롤하여 **Microsoft.VisualStudio.QualityTools.WebTestFramework**를 선택한 다음, **확인**을 선택합니다.
+5. 아래로 스크롤하여 **Microsoft.VisualStudio.QualityTools.WebTestFramework**를 선택한 다음, **확인**을 선택합니다.
 
      **Microsoft.VisualStudio.QualityTools.WebTestFramework**가 **솔루션 탐색기**의 **References** 폴더에 추가됩니다.
 
@@ -88,11 +88,11 @@ ms.locfileid: "58415903"
 
 ### <a name="execute-the-recorder-plug-in"></a>레코더 플러그 인 실행
 
-1.  새 웹 성능 테스트를 만듭니다.
+1. 새 웹 성능 테스트를 만듭니다.
 
      **WebTestRecordPlugins 사용** 대화 상자가 나타납니다.
 
-2.  레코더 플러그 인의 확인란을 선택하고 **확인**을 선택합니다.
+2. 레코더 플러그 인의 확인란을 선택하고 **확인**을 선택합니다.
 
      웹 성능 테스트의 기록이 완료된 후 새 레코더 플러그 인이 실행됩니다.
 

@@ -12,12 +12,12 @@ ms.assetid: 27806972-1b15-4388-833d-6d0632816f1f
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9d1fd2a1adcc339cb3b1d6f0aabc7db5a86973ab
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: 71686e160fd808b2df3d399b50206bed2a6869e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979268"
 ---
 # <a name="how-to-create-a-load-test-plug-in"></a>방법: 부하 테스트 플러그 인 만들기
 
@@ -28,7 +28,9 @@ ms.locfileid: "58415852"
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
+<!-- markdownlint-disable MD003 MD020 -->
 ## <a name="to-create-a-load-test-plug-in-in-c"></a>C#에 부하 테스트 플러그 인을 만들려면
+<!-- markdownlint-enable MD003 MD020 -->
 
 1. 웹 성능 테스트가 포함된 웹 성능 및 부하 테스트 프로젝트를 엽니다.
 
@@ -94,7 +96,6 @@ ms.locfileid: "58415852"
 > [!NOTE]
 > 다음 코드를 실행하려면 System.Windows.Forms에 대한 참조를 추가해야 합니다.
 
-
 ```csharp
 using System;
 using Microsoft.VisualStudio.TestTools.LoadTesting;
@@ -140,21 +141,21 @@ namespace LoadTestPluginTest
 
 부하 테스트와 함께 사용자 지정 코드를 실행하도록 부하 테스트 플러그 인에서 처리할 수 있는 여덟 개의 이벤트가 부하 테스트와 연결되어 있습니다. 다음은 부하 테스트 실행의 여러 기간에 대한 액세스를 제공하는 이벤트 목록입니다.
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.LoadTestStarting>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.LoadTestStarting>
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.LoadTestFinished>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.LoadTestFinished>
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.LoadTestWarmupComplete>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.LoadTestWarmupComplete>
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.TestStarting>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.TestStarting>
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.TestFinished>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.TestFinished>
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.ThresholdExceeded>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.ThresholdExceeded>
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.Heartbeat>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.Heartbeat>
 
--   <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.LoadTestAborted>
+- <xref:Microsoft.VisualStudio.TestTools.LoadTesting.LoadTest.LoadTestAborted>
 
 ## <a name="see-also"></a>참고 항목
 
