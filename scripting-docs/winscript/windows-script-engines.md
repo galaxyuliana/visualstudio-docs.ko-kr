@@ -13,12 +13,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 3434e9baaeb483e60087aec1b8536108c8af4471
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 1acbc364e9ee2a5a4911564eb6d2c7d4c34de458
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416001"
 ---
 # <a name="windows-script-engines"></a>Windows 스크립트 엔진
 Microsoft Windows 스크립트 엔진을 구현하려면 다음 인터페이스를 지원하는 OLE COM 개체를 만듭니다.  
@@ -31,7 +31,7 @@ Microsoft Windows 스크립트 엔진을 구현하려면 다음 인터페이스�
 |IPersist*|지속성 지원을 제공합니다. [IActiveScriptParse](../winscript/reference/iactivescriptparse.md)가 구현되지 않은 경우 다음 인터페이스 중 하나 이상을 구현해야 합니다.<br /><br /> IPersistStorage: OBJECT 태그의 DATA={url} 특성 지원을 제공합니다.<br /><br /> IPersistStreamInit: OBJECT 태그의 DATA="string-encoded byte stream" 특성 외에도 `IPersistStorage`와 동일한 지원을 제공합니다.<br /><br /> IPersistPropertyBag: OBJECT 태그의 PARAM= 특성에 대한 지원을 제공합니다.|  
   
 > [!NOTE]
->  `IPersist*`를 통해 스크립트 상태를 저장하거나 복원하기 위해 스크립팅 엔진을 전혀 호출하지 않을 수 있습니다. 대신, [IActiveScriptParse](../winscript/reference/iactivescriptparse.md)는 [IActiveScriptParse::InitNew](../winscript/reference/iactivescriptparse-initnew.md)를 호출하여 빈 스크립트를 작성하는 데 사용하고, [IActiveScriptParse::AddScriptlet](../winscript/reference/iactivescriptparse-addscriptlet.md)를 사용하여 scriptlet을 이벤트에 추가하고 연결한 다음 [IActiveScriptParse::ParseScriptText](../winscript/reference/iactivescriptparse-parsescripttext.md)로 일반 코드를 추가합니다. 그런데도 다른 호스트 애플리케이션에서 사용할 수 있으므로 스크립팅 엔진에서 하나 이상의 `IPersist*` 인터페이스(`IPersistStreamInit`가 선호됨)를 완벽하게 구현해야 합니다.  
+> `IPersist*`를 통해 스크립트 상태를 저장하거나 복원하기 위해 스크립팅 엔진을 전혀 호출하지 않을 수 있습니다. 대신, [IActiveScriptParse](../winscript/reference/iactivescriptparse.md)는 [IActiveScriptParse::InitNew](../winscript/reference/iactivescriptparse-initnew.md)를 호출하여 빈 스크립트를 작성하는 데 사용하고, [IActiveScriptParse::AddScriptlet](../winscript/reference/iactivescriptparse-addscriptlet.md)를 사용하여 scriptlet을 이벤트에 추가하고 연결한 다음 [IActiveScriptParse::ParseScriptText](../winscript/reference/iactivescriptparse-parsescripttext.md)로 일반 코드를 추가합니다. 그런데도 다른 호스트 애플리케이션에서 사용할 수 있으므로 스크립팅 엔진에서 하나 이상의 `IPersist*` 인터페이스(`IPersistStreamInit`가 선호됨)를 완벽하게 구현해야 합니다.  
   
  다음 섹션에서는 Windows 스크립팅 엔진 구현에 대해 자세히 설명합니다.  
   

@@ -18,19 +18,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2b3a8b210c91019b2b7285288c7826f4983dfed6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 23c691730e50cc8d34eddbb60da6d7d671a85dfc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437848"
 ---
 # <a name="msbuild-task"></a>MSBuild 작업
 다른 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트에서 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트를 빌드합니다.
 
 ## <a name="parameters"></a>매개 변수
  다음 표에서는 `MSBuild` 작업의 매개 변수에 대해 설명합니다.
-
 
 | 매개 변수 | 설명 |
 |-----------------------------------| - |
@@ -66,7 +65,7 @@ ms.locfileid: "56627326"
  그러나 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5에서는 두 가지 새 예약된 메타데이터 항목인 Properties와 AdditionalProperties가 제공됩니다. 이러한 항목을 사용하면 [MSBuild 작업](../msbuild/msbuild-task.md)을 통해 빌드 중인 각 프로젝트에 대해 서로 다른 속성을 유동적으로 전달할 수 있습니다.
 
 > [!NOTE]
->  이러한 새 메타데이터 항목은 [MSBuild 작업](../msbuild/msbuild-task.md)의 Projects 특성에 전달된 항목에만 적용됩니다.
+> 이러한 새 메타데이터 항목은 [MSBuild 작업](../msbuild/msbuild-task.md)의 Projects 특성에 전달된 항목에만 적용됩니다.
 
 ## <a name="multi-processor-build-benefits"></a>다중 프로세서 빌드의 이점
  이러한 새 메타데이터를 사용하는 경우의 주요 이점 중 하나는 다중 프로세서 시스템에서 병렬로 프로젝트를 빌드할 때 제공됩니다. 메타데이터를 사용하면 일괄 처리 또는 조건부 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 작업을 수행하지 않고도 모든 프로젝트를 단일 [MSBuild 작업](../msbuild/msbuild-task.md) 호출에 통합할 수 있습니다. 그리고 단일 [MSBuild 작업](../msbuild/msbuild-task.md)만 호출하면 Projects 특성에 나열된 모든 프로젝트가 병렬로 빌드됩니다. 단, `BuildInParallel=true` 특성이 [MSBuild 작업](../msbuild/msbuild-task.md)에 있어야 합니다. 자세한 내용은 [병렬로 여러 프로젝트 빌드](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)를 참조하세요.
@@ -75,7 +74,7 @@ ms.locfileid: "56627326"
  일반적인 시나리오는 빌드 구성만 다르게 적용하여 [MSBuild 작업](../msbuild/msbuild-task.md)을 통해 여러 솔루션 파일을 빌드하는 것입니다. 예를 들어 a1 솔루션은 디버그 구성을 사용하여 빌드하고 a2 솔루션은 릴리스 구성을 사용하여 빌드할 수 있습니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0에서 이 프로젝트 파일은 다음과 같이 표시됩니다.
 
 > [!NOTE]
->  다음 예제에서 “...”는 추가 솔루션 파일을 나타냅니다.
+> 다음 예제에서 “...”는 추가 솔루션 파일을 나타냅니다.
 
 ### <a name="aproj"></a>a.proj
 

@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bed026b76ae99509dd2abb77b11b46c14b1d3aae
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d7f9edfb6b0c10a37aade6a9d37a5689e587890d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438115"
 ---
 # <a name="command-window"></a>명령 창
 **명령** 창은 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE(통합 개발 환경)에서 직접 명령 또는 별칭을 실행하는 데 사용됩니다. 메뉴 명령 및 메뉴에 나타나지 않는 명령을 둘 다 실행할 수 있습니다. **명령** 창을 표시하려면 **보기** 메뉴에서 **다른 창**을 선택하고 **명령 창**을 선택합니다.
@@ -44,7 +44,7 @@ ms.locfileid: "55928753"
 ## <a name="entering-commands"></a>명령 입력
  보다 큼 기호(`>`)는 명령 창의 왼쪽 가장자리에 새 줄 프롬프트로 표시됩니다. 위쪽 화살표 및 아래쪽 화살표 키를 사용해서 이전에 실행된 명령을 스크롤합니다.
 
-|작업|솔루션|예|
+|작업|솔루션|예제|
 |----------|--------------|-------------|
 |식을 계산합니다.|식 앞에 물음표(`?`)를 추가합니다.|`? myvar`|
 |직접 실행 창으로 전환합니다.|`immed`를 보다 큼 기호(>) 없이 창에 입력합니다.|`immed`|
@@ -60,7 +60,6 @@ ms.locfileid: "55928753"
 
 > [!TIP]
 > 명령으로 스크롤하고, 명령의 전부 또는 일부를 강조 표시하고 나서, Enter 키를 눌러 이전 명령의 전부 또는 일부를 입력 줄로 복사할 수 있습니다.
-
 
 ## <a name="mark-mode"></a>표시 모드
  **명령** 창에서 이전 줄을 클릭하면 자동으로 표시 모드로 전환됩니다. 이 모드에서는 텍스트 편집기를 사용하는 것처럼 이전 명령의 텍스트를 선택, 편집 및 복사하고 현재 줄에 붙여넣을 수 있습니다.
@@ -81,16 +80,16 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 
  이 예제에서,
 
--   `Edit.ReplaceInFiles`는 명령입니다.
+- `Edit.ReplaceInFiles`는 명령입니다.
 
--   `/case` 및 `/pattern:regex`는 스위치입니다(앞에 슬래시[/] 문자가 추가됨).
+- `/case` 및 `/pattern:regex`는 스위치입니다(앞에 슬래시[/] 문자가 추가됨).
 
--   `regex`는 `/pattern` 스위치의 값이고, `/case` 스위치에는 값이 없습니다.
+- `regex`는 `/pattern` 스위치의 값이고, `/case` 스위치에는 값이 없습니다.
 
--   `var[1-3]+` 및 `oldpar`은 매개 변수입니다.
+- `var[1-3]+` 및 `oldpar`은 매개 변수입니다.
 
     > [!NOTE]
-    >  공백이 포함된 명령, 매개 변수, 스위치 또는 값에는 양쪽에 큰따옴표가 있어야 합니다.
+    > 공백이 포함된 명령, 매개 변수, 스위치 또는 값에는 양쪽에 큰따옴표가 있어야 합니다.
 
 스위치 및 매개 변수의 위치는 명령줄에서 자유롭게 서로 바꿀 수 있습니다. 단, 스위치와 매개 변수가 특정 순서로 사용되어야 하는 [셸](../../ide/reference/shell-command.md) 명령은 예외입니다.
 
@@ -99,7 +98,7 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 짧은 형식 스위치를 그룹으로 결합하고 값을 지정하면 해당 값이 모든 스위치에 적용됩니다. 예를 들어 `/pgm:123`은 `/p:123 /g:123 /m:123`과 같습니다. 그룹에 있는 스위치가 값을 허용하지 않으면 오류가 발생합니다.
 
 ## <a name="escape-characters"></a>이스케이프 문자
- 명령줄의 캐럿(^) 문자는 캐럿 바로 뒤의 문자가 제어 문자가 아닌 문자 그대로 해석된다는 것을 의미합니다. 이스케이프 문자는 매개 변수 또는 스위치 값에 곧은 큰따옴표("), 공백, 선행 슬래시, 캐럿 등 또는 리터럴 문자를 포함하기 위해 사용할 수 있습니다(스위치 이름 제외). 예를 들어 개체에 적용된
+ 명령줄의 캐럿(^) 문자는 캐럿 바로 뒤의 문자가 제어 문자가 아닌 문자 그대로 해석된다는 것을 의미합니다. 이스케이프 문자는 매개 변수 또는 스위치 값에 곧은 큰따옴표("), 공백, 선행 슬래시, 캐럿 등 또는 리터럴 문자를 포함하기 위해 사용할 수 있습니다(스위치 이름 제외). 예를 들면 다음과 같습니다.
 
 ```cmd
 >Edit.Find ^^t /regex

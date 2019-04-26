@@ -11,11 +11,11 @@ ms.workload:
 - python
 - data-science
 ms.openlocfilehash: e16612287d1efa76b206de50c6af9f18edab7c8a
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63002887"
 ---
 # <a name="set-up-unit-testing-for-python-code"></a>Python 코드에 대해 유닛 테스트 설정
 

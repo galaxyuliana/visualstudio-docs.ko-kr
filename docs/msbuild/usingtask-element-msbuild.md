@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7b97999b7a6aa56dc9be17d853c306c71a5ff290
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 36e310688b8305b2d5986a1b29d34895f02bc4d7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411000"
 ---
 # <a name="usingtask-element-msbuild"></a>UsingTask 요소(MSBuild)
 [Task](../msbuild/task-element-msbuild.md) 요소에서 참조하는 작업을 작업의 구현이 포함된 어셈블리에 매핑합니다.
@@ -69,7 +69,7 @@ ms.locfileid: "56645747"
  환경 변수, 명령줄 속성, 프로젝트 수준 속성 및 프로젝트 수준 항목은 직접 또는 가져온 프로젝트 파일을 통해 프로젝트 파일에 포함된 `UsingTask` 요소에서 참조할 수 있습니다. 자세한 내용은 [작업](../msbuild/msbuild-tasks.md)을 참조하세요.
 
 > [!NOTE]
->  MSBuild 엔진을 통해 전역으로 등록된 *.tasks* 파일 중 하나에서 `UsingTask` 요소를 가져오는 경우 프로젝트 수준 속성 또는 항목에는 의미가 없습니다. 프로젝트 수준 값은 MSBuild에 대해 전역이 아닙니다.
+> MSBuild 엔진을 통해 전역으로 등록된 *.tasks* 파일 중 하나에서 `UsingTask` 요소를 가져오는 경우 프로젝트 수준 속성 또는 항목에는 의미가 없습니다. 프로젝트 수준 값은 MSBuild에 대해 전역이 아닙니다.
 
  MSBuild 4.0에서는 작업 사용을 *.overridetask* 파일에서 로드할 수 있습니다.
 

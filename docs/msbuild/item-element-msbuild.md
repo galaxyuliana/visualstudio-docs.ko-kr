@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 36824d78b2a4da68586b4ff3b39046bff936ff7f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 8d94058f1f14f1da644cff672d73cd77e0840c68
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643771"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63006805"
 ---
 # <a name="item-element-msbuild"></a>Item 요소(MSBuild)
 사용자 정의 항목 및 해당 메타데이터를 포함합니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트에서 사용되는 모든 항목은 `ItemGroup` 요소의 자식으로 지정해야 합니다.
@@ -107,6 +107,7 @@ MSBuild 15.1 이상에서는 현재 특성 목록과 충돌하지 않는 이름�
     </CSFile>
 </ItemGroup>
 ```
+
 다음 코드 예제에서는 `Update` 특성을 사용하여 GLOB를 통해 포함된 *somefile.cs* 파일에서 메타데이터를 수정하는 방법을 보여줍니다. Visual Studio 2017 이상 버전의 .NET Core 프로젝트에만 사용할 수 있습니다.
 
 ```xml

@@ -9,18 +9,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: e82e17a01e6cbfce82e270e25de16ee788a14878
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: b6caca91849727fa21fec0401c776e4c80f9a6b3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439531"
 ---
 # <a name="how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-memory-data-by-using-the-command-line"></a>방법: 명령줄을 통해 ASP.NET 웹 애플리케이션에 프로파일러를 연결하여 메모리 데이터 수집
 이 문서에서는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구를 사용하여 프로파일러를 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션에 연결하고 .NET Framework 메모리 할당의 수와 크기에 대한 데이터를 수집하는 방법을 설명합니다. .NET Framework 메모리 개체의 수명에 대한 데이터를 수집할 수도 있습니다.
 
 > [!NOTE]
->  프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
+> 프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
 
  [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션에서 성능 데이터를 수집하려면 [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) 도구를 사용해서 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션을 호스팅하는 컴퓨터에서 적합한 환경 변수를 초기화해야 합니다. 그런 다음 컴퓨터를 다시 시작해서 프로파일링용으로 웹 서버를 구성해야 합니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "56614209"
 
     **VSPerfClrEnv** {**/globalsamplegc** &#124; **/globalsamplegclife**} [**/samplelineoff**]
 
-   -   옵션 **/globalsamplegc** 및 **/globalsamplegclife**는 수집할 메모리 데이터의 유형을 지정합니다.
+   - 옵션 **/globalsamplegc** 및 **/globalsamplegclife**는 수집할 메모리 데이터의 유형을 지정합니다.
 
         다음 옵션 중 하나만 지정합니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "56614209"
        |**/globalsamplegc**|메모리 할당 데이터를 수집하도록 합니다.|
        |**/globalsamplegclife**|메모리 할당 데이터 및 개체 수명 데이터를 둘 다 수집하도록 합니다.|
 
-   -   옵션 **/samplelineoff**를 선택하면 수집된 데이터를 특정 소스 코드 줄에 할당하는 기능이 사용하지 않도록 설정됩니다. 이 옵션을 지정하면 데이터가 함수 수준에서 할당됩니다.
+   - 옵션 **/samplelineoff**를 선택하면 수집된 데이터를 특정 소스 코드 줄에 할당하는 기능이 사용하지 않도록 설정됩니다. 이 옵션을 지정하면 데이터가 함수 수준에서 할당됩니다.
 
 3. 컴퓨터를 다시 시작하여 새 환경 구성을 설정합니다.
 
@@ -64,7 +64,7 @@ ms.locfileid: "56614209"
      **/start:sample** 옵션과 다음 옵션을 함께 사용할 수 있습니다.
 
    > [!NOTE]
-   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 애플리케이션에 필요합니다.
+   > **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 애플리케이션에 필요합니다.
 
    | 옵션 | 설명 |
    | - | - |
@@ -74,7 +74,6 @@ ms.locfileid: "56614209"
    | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | 프로파일링 중에 수집할 Windows 성능 카운터를 지정합니다. |
    | [/automark](../profiling/automark.md) **:** `Interval` | **/wincounter**와 함께 사용해야 합니다. Windows 성능 카운터 수집 이벤트 사이에 경과하는 시간(밀리초)을 지정합니다. 기본값은 500ms입니다. |
    | [/events](../profiling/events-vsperfcmd.md) **:** `Config` | 프로파일링 중에 수집할 ETW(Windows용 이벤트 추적) 이벤트를 지정합니다. ETW 이벤트는 별도의 파일(.etl)로 수집됩니다. |
-
 
 6. 일반적인 방법으로 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션을 시작합니다.
 
@@ -91,7 +90,7 @@ ms.locfileid: "56614209"
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면
 
--   **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
+- **VSPerfCmd** 옵션의 다음 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
 
     |옵션|설명|
     |------------|-----------------|

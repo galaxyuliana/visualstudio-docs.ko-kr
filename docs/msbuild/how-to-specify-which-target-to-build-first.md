@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bfca12367bf675fdadd7bc84bc616e0d5e0b6b7d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 28a533fff657e9e6cf426124bf65068f15190e7a
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62997370"
 ---
 # <a name="how-to-specify-which-target-to-build-first"></a>방법: 먼저 빌드할 대상 지정
 프로젝트 파일에는 프로젝트 빌드 방식을 정의하는 하나 이상의 `Target` 요소가 포함됩니다. 프로젝트 파일에 `DefaultTargets` 특성, `InitialTargets` 특성이 포함되거나 대상이 명령줄에서 **-target** 스위치를 사용하여 지정된 경우가 아니면 [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]) 엔진은 발견한 첫 번째 프로젝트 및 모든 종속성을 빌드합니다.
@@ -35,7 +35,7 @@ ms.locfileid: "56603432"
 
 #### <a name="to-specify-more-than-one-initial-target"></a>두 개 이상의 초기 대상을 지정하려면
 
--   `Project` 요소의 `InitialTargets` 특성에서 세미콜론으로 구분된 초기 대상을 나열합니다. 예를 들어 `Clean` 대상 및 `Compile` 대상을 차례로 실행하려면 다음을 실행합니다.
+- `Project` 요소의 `InitialTargets` 특성에서 세미콜론으로 구분된 초기 대상을 나열합니다. 예를 들어 `Clean` 대상 및 `Compile` 대상을 차례로 실행하려면 다음을 실행합니다.
 
      `<Project InitialTargets="Clean;Compile">`
 
@@ -52,23 +52,22 @@ ms.locfileid: "56603432"
 
 #### <a name="to-specify-more-than-one-default-target"></a>두 개 이상의 기본 대상을 지정하려면
 
--   `Project` 요소의 `DefaultTargets` 특성에서 세미콜론으로 구분된 기본 대상을 나열합니다. 예를 들어 `Clean` 대상 및 `Compile` 대상을 차례로 실행하려면 다음을 실행합니다.
+- `Project` 요소의 `DefaultTargets` 특성에서 세미콜론으로 구분된 기본 대상을 나열합니다. 예를 들어 `Clean` 대상 및 `Compile` 대상을 차례로 실행하려면 다음을 실행합니다.
 
      `<Project DefaultTargets="Clean;Compile">`
 
 ## <a name="use-the--target-switch"></a>-target 스위치 사용
  기본 대상이 프로젝트 파일에 정의되어 있지 않거나 기본 대상을 사용하지 않으려는 경우 명령줄 스위치 **-target**을 사용하여 다른 대상을 지정할 수 있습니다. `DefaultTargets` 특성으로 지정된 대상 대신 **-target** 스위치를 사용하여 지정된 하나 이상의 대상이 실행됩니다. `InitialTargets` 특성에 지정된 대상이 항상 먼저 실행됩니다.
 
-
 #### <a name="to-use-a-target-other-than-the-default-target-first"></a>기본 대상 이외의 대상을 먼저 사용하려면
 
--   **-target** 명령줄 스위치를 사용하여 대상을 첫 번째 대상으로 지정합니다. 예:
+- **-target** 명령줄 스위치를 사용하여 대상을 첫 번째 대상으로 지정합니다. 예:
 
      `msbuild file.proj -target:Clean`
 
 #### <a name="to-use-several-targets-other-than-the-default-targets-first"></a>기본 대상 이외의 여러 대상을 먼저 사용하려면
 
--   **-target** 명령줄 스위치를 사용하여 세미콜론 또는 쉼표로 구분된 대상을 나열합니다. 예:
+- **-target** 명령줄 스위치를 사용하여 세미콜론 또는 쉼표로 구분된 대상을 나열합니다. 예:
 
      `msbuild <file name>.proj -t:Clean;Compile`
 

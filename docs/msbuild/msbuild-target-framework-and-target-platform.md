@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: da54bae8c1a688e4708a71476e6654132708a511
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 3ff626078296c61d5f2588434942d4016cba0c1e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63004625"
 ---
 # <a name="msbuild-target-framework-and-target-platform"></a>MSBuild 대상 프레임워크 및 대상 플랫폼
 프로젝트는 특정 버전의 .NET Framework인 *대상 프레임워크* 및 특정 소프트웨어 아키텍처인 *대상 플랫폼*에서 실행되도록 빌드할 수 있습니다.  예를 들어 802x86 프로세서 제품군(“x86”)과 호환되는 32비트 플랫폼의 .NET Framework 2.0에서 실행되도록 애플리케이션을 대상으로 지정할 수 있습니다. 대상 프레임워크와 대상 플랫폼의 조합을 *대상 컨텍스트*라고 합니다.
@@ -59,13 +59,13 @@ ms.locfileid: "56607475"
 ```
 
 ## <a name="target-platform"></a>대상 플랫폼
- *플랫폼*은 하드웨어 및 특정 런타임 환경을 정의하는 소프트웨어의 조합입니다. 예를 들어 개체에 적용된
+ *플랫폼*은 하드웨어 및 특정 런타임 환경을 정의하는 소프트웨어의 조합입니다. 예를 들면 다음과 같습니다.
 
--   `x86`은 Intel 80x86 프로세서 또는 이와 동등한 프로세서에서 실행되는 32비트 Windows 운영 체제를 지정합니다.
+- `x86`은 Intel 80x86 프로세서 또는 이와 동등한 프로세서에서 실행되는 32비트 Windows 운영 체제를 지정합니다.
 
--   `x64`은 Intel x64 프로세서 또는 이와 동등한 프로세서에서 실행되는 64비트 Windows 운영 체제를 지정합니다.
+- `x64`은 Intel x64 프로세서 또는 이와 동등한 프로세서에서 실행되는 64비트 Windows 운영 체제를 지정합니다.
 
--   `Xbox`는 Microsoft Xbox 360 플랫폼을 지정합니다.
+- `Xbox`는 Microsoft Xbox 360 플랫폼을 지정합니다.
 
 *대상 플랫폼*은 빌드할 프로젝트의 실행 기반이 되는 특정 플랫폼입니다. 대상 플랫폼은 프로젝트 파일의 `PlatformTarget`빌드 속성에서 지정됩니다. IDE에서 프로젝트 속성 페이지 또는 **구성 관리자**를 사용하여 대상 플랫폼을 변경할 수 있습니다.
 

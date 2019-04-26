@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ff9aa4cdc2e3a406b21aeccf5538bcbfdd6b4249
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56606318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63006794"
 ---
 # <a name="item-metadata-in-target-batching"></a>대상 일괄 처리의 항목 메타데이터
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에는 빌드 대상의 입력 및 출력에 대한 종속성 분석을 수행하는 기능이 있습니다. 대상의 입력 또는 출력이 최신 상태인지를 확인한 경우 대상을 건너뛰고 빌드를 계속합니다. `Target` 요소는 `Inputs` 및 `Outputs` 특성을 사용하여 종속성을 분석하는 동안 검사할 항목을 지정합니다.

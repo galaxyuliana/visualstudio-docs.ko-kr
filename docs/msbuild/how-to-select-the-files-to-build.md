@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9942c680f93614a84da3502de4b3a26a08576fb7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 7f8f582a0148f5fddd88393e008593d9ad9a05ce
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386183"
 ---
 # <a name="how-to-select-the-files-to-build"></a>방법: 빌드할 파일 선택
 여러 파일이 포함된 프로젝트를 빌드할 경우 각 파일을 프로젝트 파일에 개별적으로 나열하거나, 와일드카드를 사용하여 모든 파일을 하나의 디렉터리 또는 중첩된 디렉터리 집합에 포함할 수 있습니다.
@@ -42,7 +42,7 @@ ms.locfileid: "56610543"
 
 #### <a name="to-declare-multiple-items"></a>여러 항목을 선언하려면
 
--   다음과 비슷한 `Include` 특성을 사용합니다.
+- 다음과 비슷한 `Include` 특성을 사용합니다.
 
     `<CSFile Include="form1.cs;form2.cs"/>`
 
@@ -97,7 +97,7 @@ ms.locfileid: "56610543"
     `<VBC Sources="@(VBFile)">...</VBC>`
 
 > [!NOTE]
->  항목과 함께 와일드카드를 사용해서 빌드의 입력을 지정해야 합니다. 입력을 지정하는 데 [Csc](../msbuild/csc-task.md) 또는 [Vbc](../msbuild/vbc-task.md)와 같은 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 작업의 `Sources` 특성을 사용할 수는 없습니다. 다음 예제는 프로젝트 파일에서 유효하지 않습니다.
+> 항목과 함께 와일드카드를 사용해서 빌드의 입력을 지정해야 합니다. 입력을 지정하는 데 [Csc](../msbuild/csc-task.md) 또는 [Vbc](../msbuild/vbc-task.md)와 같은 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 작업의 `Sources` 특성을 사용할 수는 없습니다. 다음 예제는 프로젝트 파일에서 유효하지 않습니다.
 >
 > `<CSC Sources="*.cs">...</CSC>`
 

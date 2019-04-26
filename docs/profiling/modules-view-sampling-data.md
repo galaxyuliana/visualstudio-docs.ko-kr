@@ -11,18 +11,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 16875b7f12512c70def4b737d64323fd32d772b6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 359d36ed7eb74394e63af39cdbc9986b02385f8d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56609685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63403615"
 ---
 # <a name="modules-view---sampling-data"></a>모듈 뷰 - 샘플링 데이터
 샘플링 데이터의 모듈 뷰에는 프로파일링 데이터에서 샘플링된 모듈별로 그룹화된 성능 데이터가 표시됩니다. 각 모듈은 계층 트리의 루트입니다. 모듈의 샘플링된 함수는 모듈 노드 아래에 나열됩니다.
 
 > [!NOTE]
->  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. 또한 UWP 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.
+> Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. 또한 UWP 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.
 
  샘플을 수집할 때 함수가 실행 중이었다면, 즉 함수가 호출 스택 맨 위에 있었다면 실행 중이었던 소스 줄 및 명령 주소가 함수 노드 아래에 나열됩니다. 소스 줄이나 명령을 실행할 때는 해당 줄 또는 명령 포인터에 대한 데이터가 수집되므로, 줄 데이터 및 명령 데이터에 대한 포괄 값과 전용 값은 항상 동일합니다.
 

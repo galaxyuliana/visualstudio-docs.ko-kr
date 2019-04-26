@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3c8ceb1b6360fb45c3894823bbbf817057f16d99
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: fa265a3b7ebde80f7398f0c5972d5265533890f0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56609933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433467"
 ---
 # <a name="how-to-specify-symbol-file-locations-from-the-command-line"></a>방법: 명령줄에서 기호 파일 위치 지정
 함수 이름, 줄 번호 등의 기호 정보를 표시하려면 VSPerfReport 명령줄 도구가 프로파일링된 구성 요소 및 Windows 시스템 파일의 기호 파일(.*pdb*)에 액세스할 수 있어야 합니다. 기호 파일은 구성 요소가 컴파일될 때 만들어집니다. 자세한 내용은 [VSPerfReport](../profiling/vsperfreport.md)를 참조하세요. VSPerfReport는 다음 위치에서 기호 파일을 자동으로 검색합니다.
@@ -35,7 +35,7 @@ ms.locfileid: "56609933"
   이러한 방법을 둘 다 사용할 수도 있습니다.
 
 > [!NOTE]
->  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]가 로컬 컴퓨터에 설치될 경우 Windows 기호 파일의 위치가 이미 지정되었을 수 있습니다. 자세한 내용은 [방법: Windows 기호 정보 참조](../profiling/how-to-reference-windows-symbol-information.md)를 참조하세요. 이 항목의 뒷 부분에 설명된 대로 위치 및 서버를 사용하도록 VSPerfReport를 구성해야 합니다.
+> [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]가 로컬 컴퓨터에 설치될 경우 Windows 기호 파일의 위치가 이미 지정되었을 수 있습니다. 자세한 내용은 [방법: Windows 기호 정보 참조](../profiling/how-to-reference-windows-symbol-information.md)를 참조하세요. 이 항목의 뒷 부분에 설명된 대로 위치 및 서버를 사용하도록 VSPerfReport를 구성해야 합니다.
 
 ## <a name="specify-windows-symbol-files"></a>Windows 기호 파일 지정
 

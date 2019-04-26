@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 0e2ff32a4eb2218a8b3d09188c787156e484147f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62996695"
 ---
 # <a name="resumetracking"></a>ResumeTracking
 현재 컨텍스트에서 추적을 다시 시작합니다.

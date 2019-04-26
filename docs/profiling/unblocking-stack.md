@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 23e790f37ba88498d5ac0ae03dd9ce7ae074f451
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63004412"
 ---
 # <a name="unblock-stack"></a>스택 차단 해제
 현재 선택된 스레드 요소가 현재 프로세스의 다른 스레드에 의해 차단이 해제된 후 나중에 실행되기 시작한 차단된 세그먼트를 나타내는 경우, 차단 해제를 수행한 스레드의 호출 스택이 이 탭에 표시됩니다.

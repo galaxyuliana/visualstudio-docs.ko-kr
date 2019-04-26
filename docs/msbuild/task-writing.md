@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fdeab63dffaf7884484f46fbfe9eac2002514e52
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: de860c8d177a12d8283ae4f3a9b0f36dab1cc96d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440010"
 ---
 # <a name="task-writing"></a>작업 작성
 작업은 빌드 프로세스 동안 실행되는 코드를 제공합니다. 작업은 대상에 포함되어 있습니다. 일반적인 작업의 라이브러리는 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에 포함되어 있으며 사용자 고유의 작업을 만들 수도 있습니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에 포함된 작업의 라이브러리에 대한 자세한 내용은 [작업 참조](../msbuild/msbuild-task-reference.md)를 참조하세요.
@@ -27,9 +27,9 @@ ms.locfileid: "56629926"
 
  작업을 구현할 때 다음 두 가지 방법을 사용할 수 있습니다.
 
--   <xref:Microsoft.Build.Framework.ITask> 인터페이스를 직접 구현합니다.
+- <xref:Microsoft.Build.Framework.ITask> 인터페이스를 직접 구현합니다.
 
--   도우미 클래스 <xref:Microsoft.Build.Utilities.Task>에서 클래스를 파생합니다. 이 클래스는 *Microsoft.Build.Utilities.dll* 어셈블리에서 정의됩니다. 작업은 ITask를 구현하고 일부 ITask 멤버의 기본 구현을 제공합니다. 또한 로깅이 쉽습니다.
+- 도우미 클래스 <xref:Microsoft.Build.Utilities.Task>에서 클래스를 파생합니다. 이 클래스는 *Microsoft.Build.Utilities.dll* 어셈블리에서 정의됩니다. 작업은 ITask를 구현하고 일부 ITask 멤버의 기본 구현을 제공합니다. 또한 로깅이 쉽습니다.
 
 두 경우 모두 작업이 실행될 때 호출되는 방법인 `Execute`라는 메서드를 클래스에 추가해야 합니다. 이 메서드는 매개 변수를 사용하지 않으며 `Boolean` 값을 반환합니다. 작업이 성공하는 경우 `true`, 실패하는 경우 `false`를 반환합니다. 다음 예제는 아무 작업도 수행하지 않고 `true`를 반환하는 작업을 보여 줍니다.
 
@@ -97,7 +97,7 @@ namespace MyTasks
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 파일 *Microsoft.Common.Tasks*는 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]와 함께 제공된 모든 작업을 등록하는 `UsingTask` 요소의 목록을 포함하는 프로젝트 파일입니다. 이 파일은 모든 프로젝트를 빌드할 때 자동으로 포함됩니다. *Microsoft.Common.Tasks*에 등록된 작업이 현재 프로젝트 파일에도 등록된 경우 현재 프로젝트 파일이 우선 순위를 가집니다. 즉, 동일한 이름을 가진 고유 작업으로 기본 작업을 재정의할 수 있습니다.
 
 > [!TIP]
->  *Microsoft.Common.Tasks*의 내용을 확인하여 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]와 함께 제공되는 작업의 목록을 볼 수 있습니다.
+> *Microsoft.Common.Tasks*의 내용을 확인하여 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]와 함께 제공되는 작업의 목록을 볼 수 있습니다.
 
 ## <a name="raise-events-from-a-task"></a>작업에서 이벤트 발생
  작업이 <xref:Microsoft.Build.Utilities.Task> 도우미 클래스에서 파생되는 경우 <xref:Microsoft.Build.Utilities.Task> 클래스의 다음 도우미 클래스 중 하나를 사용하여 모든 등록된 로커로 발견되고 등록되는 이벤트를 발생시킬 수 있습니다.

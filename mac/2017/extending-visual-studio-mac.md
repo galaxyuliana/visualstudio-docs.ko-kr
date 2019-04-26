@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 04/14/2017
 ms.technology: vs-ide-sdk
 ms.assetid: D5245AB0-8404-426B-B538-F49125E672B2
-ms.openlocfilehash: 8212039cd4f83cd9ea2b53a1050f32ed5dbad367
-ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
+ms.openlocfilehash: 3465ef29ca732cd26c03919082052d8b26a83ba1
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58568595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62998215"
 ---
 # <a name="extending-visual-studio-for-mac"></a>Mac용 Visual Studio 확장
 
@@ -81,10 +81,10 @@ Mac용 Visual Studio에서 확장 패키지를 빌드하려면 Mac용 Visual Stu
 
 확장 노드에는 연결되는 확장 지점(이 경우 `/MonoDevelop/Ide/Commands/Edit`)을 지정하는 경로 특성이 있습니다. 또한 명령에 대한 부모 노드로 동작합니다. 명령 노드에는 다음과 같은 특성이 있습니다.
 
-*   **id** - 이 명령의 식별자를 지정합니다. 명령 식별자는 열거형 멤버로 선언되어야 하며 Commands를 CommandItems에 연결하는 데 사용됩니다.
-*   **_label** - 메뉴에 표시할 텍스트입니다.
-*   **_description** - 도구 모음 단추에 대한 도구 설명으로 표시할 텍스트입니다.
-*   **defaultHandler** - 명령을 구동하는 `CommandHandler` 클래스를 지정합니다.
+* **id** - 이 명령의 식별자를 지정합니다. 명령 식별자는 열거형 멤버로 선언되어야 하며 Commands를 CommandItems에 연결하는 데 사용됩니다.
+* **_label** - 메뉴에 표시할 텍스트입니다.
+* **_description** - 도구 모음 단추에 대한 도구 설명으로 표시할 텍스트입니다.
+* **defaultHandler** - 명령을 구동하는 `CommandHandler` 클래스를 지정합니다.
 
 <!--To invoke the command from the Edit Menu, the walkthrough creates a CommandItem extension that plugs into the `/MonoDevelop/Ide/MainMenu/Edit` extension point:-->
 
@@ -137,27 +137,27 @@ public enum DateInserterCommands
 
 개발에 사용할 수 있는 영역의 범위에 대한 자세한 내용은 [확장 트리 참조](http://monodevelop.com/Developers/Articles/Extension_Tree_Reference) 및 [API 개요](http://monodevelop.com/Developers/Articles/API_Overview)를 참조하세요. 고급 확장 패키지를 빌드하는 경우 [개발자 문서](http://monodevelop.com/Developers/Articles)도 참조하세요. 다음은 사용자 지정이 가능한 영역의 부분 목록입니다.
 
-*   패드
-*   키 바인딩 구성표
-*   정책
-*   코드 포맷터
-*   프로젝트 파일 형식
-*   기본 설정 패널
-*   옵션 패널
-*   디버거 프로토콜
-*   디버거 시각화 도우미
-*   작업 영역 레이아웃
-*   Solution Pad 트리 노드
-*   소스 편집기 여백
-*   단위 테스트 엔진
-*   코드 생성기
-*   코드 조각
-*   대상 프레임워크
-*   대상 런타임
-*   VCS 백 엔드
-*   리팩터링
-*   실행 처리기
-*   구문 강조
+* 패드
+* 키 바인딩 구성표
+* 정책
+* 코드 포맷터
+* 프로젝트 파일 형식
+* 기본 설정 패널
+* 옵션 패널
+* 디버거 프로토콜
+* 디버거 시각화 도우미
+* 작업 영역 레이아웃
+* Solution Pad 트리 노드
+* 소스 편집기 여백
+* 단위 테스트 엔진
+* 코드 생성기
+* 코드 조각
+* 대상 프레임워크
+* 대상 런타임
+* VCS 백 엔드
+* 리팩터링
+* 실행 처리기
+* 구문 강조
 
 ## <a name="additional-information"></a>추가 정보
 

@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: VLSC 관리자에게 제공된 온보딩 통신의 예제
 searchscope: VS Subscription
 ms.openlocfilehash: 2f2b376ca3a7de91f67d45f7a138dbefd6b65988
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56844323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62427955"
 ---
 # <a name="onboarding-email-communications-for-administrators"></a>관리자용 온보딩 이메일 통신
 

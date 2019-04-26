@@ -8,26 +8,26 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 18e90e44da8b36dbc4824817c7f13bbe423a2c12
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: d6600444d5fb991bce0500c587cb66b9baefdd22
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386058"
 ---
 # <a name="how-to-launch-a-stand-alone-net-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line"></a>방법: 명령줄을 통해 프로파일러와 함께 독립 실행형 .NET Framework 애플리케이션을 시작하여 메모리 데이터 수집
 이 항목은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구를 사용하여 .NET Framework 독립 실행형(클라이언트) 애플리케이션을 시작하고 메모리 데이터를 수집하는 방법을 설명합니다.
 
  프로파일링 세션은 다음과 같은 세 부분으로 구성됩니다.
 
--   프로파일러를 사용하여 애플리케이션 시작
+- 프로파일러를 사용하여 애플리케이션 시작
 
--   프로파일링 데이터 수집
+- 프로파일링 데이터 수집
 
--   프로파일링 세션 종료
+- 프로파일링 세션 종료
 
 > [!NOTE]
->  프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
+> 프로파일링 도구에 대한 경로를 가져오려면 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다.
 
 ## <a name="start-the-application-with-the-profiler"></a>프로파일러를 사용하여 애플리케이션 시작
  프로파일러를 사용하여 대상 애플리케이션을 시작하려면 **VSPerfCmd.exe/start** 및 **/launch** 옵션을 사용하여 프로파일러를 초기화하고 애플리케이션을 시작합니다. **/start** 및 **/launch**와 해당 개별 옵션을 하나의 명령줄에서 지정할 수 있습니다.
@@ -52,7 +52,6 @@ ms.locfileid: "56614183"
    | - | - |
    | [/wincounter](../profiling/wincounter.md) **:** `WinCounterPath` | 프로파일링 중에 수집할 Windows 성능 카운터를 지정합니다. |
    | [/automark](../profiling/automark.md) **:** `Interval` | **/wincounter**와 함께 사용해야 합니다. Windows 성능 카운터 수집 이벤트 사이에 경과하는 시간(밀리초)을 지정합니다. 기본값은 500ms입니다. |
-
 
 3. 대상 애플리케이션을 시작합니다. 유형:
 
@@ -79,7 +78,7 @@ ms.locfileid: "56614183"
 
 #### <a name="to-start-and-stop-data-collection"></a>데이터 수집을 시작 및 중지하려면
 
--   다음 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
+- 다음 옵션 쌍을 사용하여 데이터 수집을 시작 및 중지합니다. 각 옵션을 개별 명령줄에서 지정합니다. 데이터 수집을 여러 번 켜고 끌 수 있습니다.
 
     |옵션|설명|
     |------------|-----------------|
@@ -87,22 +86,22 @@ ms.locfileid: "56614183"
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [processoff](../profiling/processon-and-processoff.md) **:** `PID`|프로세스 ID(`PID`)로 지정된 프로세스에 대한 데이터 수집을 시작(**/processon**) 또는 중지(**/processoff**)합니다.|
     |[/attach](../profiling/attach.md) **:** `PID` [/detach](../profiling/detach.md)|**/attach**는 `PID`(프로세스 ID)로 지정된 프로세스에 대한 데이터 수집을 시작합니다. **/detach**는 모든 프로세스에 대한 데이터 수집을 중지합니다.|
 
--   **VSPerfCmd.exe**[/mark](../profiling/mark.md) 옵션을 사용하여 프로파일링 표시를 데이터 파일에 삽입할 수 있습니다. **/mark** 명령은 식별자, 타임스탬프 및 선택적 사용자 정의 텍스트 문자열을 추가합니다. 데이터 필터링에 표시를 사용할 수 있습니다.
+- **VSPerfCmd.exe**[/mark](../profiling/mark.md) 옵션을 사용하여 프로파일링 표시를 데이터 파일에 삽입할 수 있습니다. **/mark** 명령은 식별자, 타임스탬프 및 선택적 사용자 정의 텍스트 문자열을 추가합니다. 데이터 필터링에 표시를 사용할 수 있습니다.
 
 ## <a name="end-the-profiling-session"></a>프로파일링 세션 종료
  프로파일링 세션을 종료하려면 프로파일러가 모든 프로파일링된 프로세스에서 분리되어야 하고 프로파일러가 명시적으로 종료되어야 합니다. 애플리케이션을 닫거나 **VSPerfCmd /detach** 옵션을 호출하여 샘플링 방법으로 프로파일링된 애플리케이션에서 프로파일러를 분리할 수 있습니다. 그러고 나서 **VSPerfCmd /shutdown** 옵션을 호출하여 프로파일러를 끄고 프로파일링 데이터 파일을 닫습니다. **VSPerfClrEnv /off** 명령은 프로파일링 환경 변수를 지웁니다.
 
 #### <a name="to-end-a-profiling-session"></a>프로파일링 세션을 종료하려면
 
-1.  대상 애플리케이션에서 프로파일러를 분리하려면 다음 단계 중 하나를 수행합니다.
+1. 대상 애플리케이션에서 프로파일러를 분리하려면 다음 단계 중 하나를 수행합니다.
 
-    -   대상 애플리케이션을 닫습니다.
+    - 대상 애플리케이션을 닫습니다.
 
          또는
 
-    -   **VSPerfCmd /detach** 입력
+    - **VSPerfCmd /detach** 입력
 
-2.  프로파일러를 종료합니다. 유형:
+2. 프로파일러를 종료합니다. 유형:
 
      **VSPerfCmd**  [/shutdown](../profiling/shutdown.md)
 
