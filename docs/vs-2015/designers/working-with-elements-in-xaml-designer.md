@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c5a6e0ae31068144cb7de5ff83ac562db8f833d9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 1063a94ad2ff08942ec191e9162b4b2d506bb048
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63403453"
 ---
 # <a name="working-with-elements-in-xaml-designer"></a>Working with elements in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -94,7 +94,7 @@ ms.locfileid: "60045142"
      여백 표시기를 열고 반대쪽 여백이 설정되어 있지 않으면 반대쪽 여백이 아트 보드의 요소 위치에 따라 올바른 값으로 설정됩니다. **Left** 및 **Right** 여백과 같은 반대쪽 여백에는 항상 하나 이상의 속성이 설정됩니다.  
   
     > [!IMPORTANT]
-    >  <xref:Windows.UI.Xaml.Controls.Canvas>와 같은 레이아웃 컨테이너 안에 배치된 요소에는 여백 표시기가 없습니다. <xref:Windows.UI.Xaml.Controls.StackPanel> 안에 배치된 요소에는 `StackPanel`의 방향에 따라 왼쪽 및 오른쪽 여백이나 위쪽 및 아래쪽 여백에 대한 여백 표시기가 있습니다.  
+    > <xref:Windows.UI.Xaml.Controls.Canvas>와 같은 레이아웃 컨테이너 안에 배치된 요소에는 여백 표시기가 없습니다. <xref:Windows.UI.Xaml.Controls.StackPanel> 안에 배치된 요소에는 `StackPanel`의 방향에 따라 왼쪽 및 오른쪽 여백이나 위쪽 및 아래쪽 여백에 대한 여백 표시기가 있습니다.  
   
 ## <a name="grouping-and-ungrouping-elements"></a>요소 그룹화 및 그룹 해제  
  XAML 디자이너에서 둘 이상의 요소를 그룹화하면 새로운 레이아웃 컨테이너가 만들어지고 이 컨테이너에 해당 요소가 배치됩니다. 레이아웃 컨테이너에 둘 이상의 요소를 함께 배치하면 해당 그룹의 요소가 한 요소인 것처럼 쉽게 그룹을 선택하고 이동하며 변형할 수 있습니다. 그룹화는 탐색 요소를 구성하는 단추와 같이 특정 방법으로 서로 관련된 요소를 식별하는 데 유용합니다. 요소의 그룹을 해제할 때는 요소가 들어 있는 레이아웃 컨테이너만 삭제하면 됩니다.  
@@ -106,7 +106,7 @@ ms.locfileid: "60045142"
 2. 선택한 요소를 마우스 오른쪽 단추로 클릭하고, **그룹으로 묶기**를 가리킨 다음, 그룹을 배치할 레이아웃 컨테이너의 형식을 클릭합니다.  
   
     > [!TIP]
-    >  <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border> 또는 <xref:Windows.UI.Xaml.Controls.ScrollViewer>를 선택하여 요소를 그룹화하는 경우 새로운 <xref:Windows.UI.Xaml.Controls.Grid> 패널 내에서 <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border> 또는 <xref:Windows.UI.Xaml.Controls.ScrollViewer> 요소 내에 요소가 배치됩니다. 이러한 레이아웃 컨테이너 중 하나에서 요소의 그룹을 해제하면 <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border> 또는 <xref:Windows.UI.Xaml.Controls.ScrollViewer>만 삭제되고 <xref:Windows.UI.Xaml.Controls.Grid> 패널은 그대로 유지됩니다. `Grid` 패널을 삭제하려면 요소의 그룹을 다시 해제합니다.  
+    > <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border> 또는 <xref:Windows.UI.Xaml.Controls.ScrollViewer>를 선택하여 요소를 그룹화하는 경우 새로운 <xref:Windows.UI.Xaml.Controls.Grid> 패널 내에서 <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border> 또는 <xref:Windows.UI.Xaml.Controls.ScrollViewer> 요소 내에 요소가 배치됩니다. 이러한 레이아웃 컨테이너 중 하나에서 요소의 그룹을 해제하면 <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border> 또는 <xref:Windows.UI.Xaml.Controls.ScrollViewer>만 삭제되고 <xref:Windows.UI.Xaml.Controls.Grid> 패널은 그대로 유지됩니다. `Grid` 패널을 삭제하려면 요소의 그룹을 다시 해제합니다.  
   
 #### <a name="to-ungroup-elements-and-delete-the-layout"></a>요소의 그룹을 해제하고 레이아웃을 삭제하려면  
   
