@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에서 제공하는 CloudPilot 혜택 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: 5368bc386b7ee4ff1fa709fcc038ddb7a7a0c13d
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: f251073337c862e0d96fb3550b163da29ce8f42e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56842561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62948429"
 ---
 # <a name="the-cloudpilot-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 CloudPilot 혜택
 
@@ -44,18 +44,17 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
    > [!NOTE]
    > CloudPilot 활성화 혜택은 조직당 10회로 제한되며, Visual Studio Enterprise 또는 Visual Studio Professional 구독 조합에서 사용할 수 있습니다.  조직에서 활성화 10회를 모두 사용한 경우 CloudPilot 혜택을 활성화할 수 없으며 UnifyCloud로부터 추가 정보가 담긴 이메일을 받게 됩니다.
 
- 0. 다음으로, CloudPilot을 숙지할 수 있도록 디자인된 제품 페이지가 표시됩니다.  오른쪽 위 모서리에서 **CloudPilot으로 이동**을 클릭하여 CloudPilot 포털로 이동합니다.
+0. 다음으로, CloudPilot을 숙지할 수 있도록 디자인된 제품 페이지가 표시됩니다.  오른쪽 위 모서리에서 **CloudPilot으로 이동**을 클릭하여 CloudPilot 포털로 이동합니다.
 
     > [!div class="mx-imgBorder"]
     > ![CloudPilot 제품 페이지](_img/vs-cloudpilot/vs-cloudpilot-navigate.png)
 
-0.  정말 간단하죠.  CloudPilot 포털이 보이고, CloudPilot 구독을 사용하여 애플리케이션을 Microsoft Azure로 이동할 준비가 완료됩니다.
+0. 정말 간단하죠.  CloudPilot 포털이 보이고, CloudPilot 구독을 사용하여 애플리케이션을 Microsoft Azure로 이동할 준비가 완료됩니다.
 
-0.  계정이 만들어지는 즉시, UnifyCloud VSS 고객 지원팀으로부터 계정이 만들어졌다는 확인 이메일을 받게 됩니다.
+0. 계정이 만들어지는 즉시, UnifyCloud VSS 고객 지원팀으로부터 계정이 만들어졌다는 확인 이메일을 받게 됩니다.
 
     > [!div class="mx-imgBorder"]
     > ![CloudPilot 확인 이메일](_img/vs-cloudpilot/vs-cloudpilot-email.png)
-
 
 ## <a name="eligibility"></a>자격
 
@@ -63,31 +62,27 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, | 라이선스 2개, 90일, 무제한 검사       |  아니요.  새 구독자만 사용할 수 있음          |
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 라이선스 1개, 30일, 검사 일회                                                            |  아니요.  새 구독자만 사용할 수 있음           |
-| Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용할 수 없음                                             |  N/A           |
-| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              |  N/A          |
-| Visual Studio Dev Essentials | N/A  | 사용할 수 없음 | N/A |
-| Visual Studio Enterprise(Standard)  | NFR<sup>1</sup> |사용할 수 없음  | N/A |
+| Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용할 수 없음                                             |  해당 없음           |
+| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              |  해당 없음          |
+| Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 | 해당 없음 |
+| Visual Studio Enterprise(Standard)  | NFR<sup>1</sup> |사용할 수 없음  | 해당 없음 |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
 
-
-
 <sup>1</sup> 포함:‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
-
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
 
-
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
 
 ## <a name="support-resources"></a>지원 리소스
--  CloudPilot 사용과 관련하여 도움이 필요하세요?  다음 리소스를 확인하세요.
+- CloudPilot 사용과 관련하여 도움이 필요하세요?  다음 리소스를 확인하세요.
     - UnifyCloud 제품에 대한 질문은 [UnifyCloud에 문의](https://www.unifycloud.com/contacts/)하세요.
     - [CloudPilot 사용자 설명서](https://www.cloudatlasinc.com/cloudpilot/doc/CloudPilot-User-Manual.pdf )
     - [지원 요청 제출](https://support.datacamp.com/hc/requests/new)
 
--  Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
--  Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+- Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
+- Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

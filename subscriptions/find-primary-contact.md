@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: Visual Studio 구독 - 기본 연락처 찾기
 searchscope: VS Subscription
 ms.openlocfilehash: 46f36348c9275b47b885d9a7179885b4450502bd
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945958"
 ---
 # <a name="locating-the-primary-contact-associated-with-visual-studio-subscriptions"></a>Visual Studio 구독에 연결된 기본 연락처 찾기
 

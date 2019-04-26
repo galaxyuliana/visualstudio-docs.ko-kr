@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9a1e8118faa743398271fb282a2603aab5fcd76b
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950655"
 ---
 # <a name="nosplash-devenvexe"></a>/NoSplash(devenv.exe)
 
@@ -45,7 +45,7 @@ devenv /NoSplash [File1[ FileN]...]
 
 `/NoSplash` 스위치는 [/Run](run-devenv-exe.md) 또는 [/DebugExe](debugexe-devenv-exe.md) 같은 다른 스위치와 결합할 수 있습니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 세 가지 예제는 모두 시작 화면을 표시하지 않고 IDE를 엽니다. 두 번째 예제도 지정된 솔루션을 컴파일하고 빌드된 실행 파일을 실행합니다. 세 번째 예제는 IDE에서 디버그할 지정된 실행 파일을 엽니다.
 

@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 Power BI Pro 구독에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 176ce1d13faad7143da591f4f04f9feee1b5b2a0
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: bb13ad93095a5a4d0e7c94ae24889220477feb0a
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62948821"
 ---
 # <a name="power-bi-pro-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Power BI Pro
 
@@ -37,16 +37,13 @@ Power BI Pro를 사용하려면 기존 계정을 사용하여 계정을 설정�
    > [!div class="mx-imgBorder"]
    > ![Power BI Pro 혜택 계정 만들기](_img/vs-pbi/vs-pbi-create-account-cropped.png)
 
-
 5. 다음으로 사용자 ID와 암호를 만듭니다.  계정이 이미 있고 새 계정을 만드는 경우 기존 계정에서 사용한 것과 다른 회사 이름을 제공해야 합니다.  **내 계정 만들기**를 클릭합니다.
    > [!div class="mx-imgBorder"]
    > ![Power BI Pro 혜택 UserID 만들기](_img/vs-pbi/vs-pbi-create-user-id-cropped.png)
 
-
 6. 실제 사용자가 계정을 만들고 있는지 확인하기 위해 확인 코드를 입력하도록 요청합니다.  전화 번호를 입력하고 전화 또는 문자 메시지를 통해 코드를 받을지 여부를 선택합니다.  **내게 문자 메시지 보내기** 또는 **내게 전화 걸기**를 클릭합니다.
    > [!div class="mx-imgBorder"]
    > ![Power BI Pro 혜택 본인 인증 필요](_img/vs-pbi/vs-pbi-robot1-cropped.png)
-
 
 7. 받은 코드를 입력하고 **다음**을 클릭합니다.
    > [!div class="mx-imgBorder"]
@@ -55,7 +52,6 @@ Power BI Pro를 사용하려면 기존 계정을 사용하여 계정을 설정�
 8. 연락처 정보를 제공하고 **다음**을 클릭합니다.
    > [!div class="mx-imgBorder"]
    > ![Power BI Pro 혜택 연락처 정보](_img/vs-pbi/vs-pbi-contact-cropped.png)
-
 
 9. 다음 페이지에서 Power BI Pro 개발자(MSDN) 구독의 가격이 $0.00임을 확인할 수 있습니다.  **다음**을 클릭합니다.
 
@@ -66,7 +62,6 @@ Power BI Pro를 사용하려면 기존 계정을 사용하여 계정을 설정�
 11. 다음 페이지에서 Power BI Pro 사용을 시작하도록 완전히 설정되었는지 확인합니다.  이 페이지에는 로그인 페이지에 대한 링크가 제공됩니다.  로그인 페이지에 대한 링크 및 사용자 ID를 기록해 두는 것이 좋습니다.  (또한 계정을 설정할 때 제공한 주소로 환영 전자 메일을 받게 됩니다.)  자동화된 [Office 365 길잡이] 창도 표시되며, 질문이 있을 경우 사용할 수 있습니다.  **시작합니다.** 를 클릭하여 계속합니다.
     > [!div class="mx-imgBorder"]
     > ![Power BI Pro를 혜택 설정 완료](_img/vs-pbi/vs-pbi-all-set-cropped.png)
-
 
 12. 이제 Power BI Pro 계정이 설정되었으므로 사용자와 도메인을 관리하고, Office 소프트웨어를 설치하며, Office 365에 대해 알아볼 수 있는 Office 365 관리 센터가 표시됩니다.  정말 간단하죠.  이제 사용할 준비가 되었습니다.
 
@@ -86,9 +81,7 @@ Power BI Pro를 사용하려면 기존 계정을 사용하여 계정을 설정�
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
 
-
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
-
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 ### <a name="q--if-the-benefit-is-free-why-do-i-have-to-supply-a-credit-card-number"></a>Q:  혜택이 무료인데 왜 신용 카드 번호를 입력해야 하나요?
@@ -103,27 +96,26 @@ A:  예. 프로덕션 환경에서 혜택을 사용할 수 있고 두 가지 중
 
 ### <a name="q--when-i-try-to-activate-power-bi-pro-i-get-a-message-you-already-have-an-account-through-work--can-i-still-use-the-benefit"></a>Q:  Power BI Pro를 활성화하려고 하면 "이미 작업을 통해 계정이 있습니다."라는 메시지가 나타납니다.  혜택을 계속 사용할 수 있나요?
 A:  예.  메시지는 관리자가 아닌 활성 Office 365 테넌트가 이미 있는 도메인에 로그온했음을 나타냅니다.  테넌트에 Power BI Pro를 추가하려면 해당 테넌트의 관리자여야 합니다.  이 문제를 해결하려면 다음 단계에 따라 고유한 테넌트를 만듭니다.
-1.  작업을 통해 이미 계정이 있다는 메시지가 표시되면 **새 계정 만들기**를 클릭합니다.
+1. 작업을 통해 이미 계정이 있다는 메시지가 표시되면 **새 계정 만들기**를 클릭합니다.
 
-2.  다음 화면에서 연락처 정보를 제공하고 **다음**을 클릭합니다.
+2. 다음 화면에서 연락처 정보를 제공하고 **다음**을 클릭합니다.
 
-3.  사용자 ID와 암호를 만듭니다.  무료 제공을 이용하려면 **.onmicrosoft.com**을 도메인으로 선택합니다. **내 계정 만들기**를 클릭합니다.
+3. 사용자 ID와 암호를 만듭니다.  무료 제공을 이용하려면 **.onmicrosoft.com**을 도메인으로 선택합니다. **내 계정 만들기**를 클릭합니다.
     > [!div class="mx-imgBorder"]
     > ![Power BI Pro 혜택 개인 테넌트 userID 만들기](_img/vs-pbi/vs-pbi-work-userid.png)
 
-4.  프로세스의 나머지 단계는 6단계로 시작하는 문서의 본문에 나열된 단계와 동일합니다.
-
+4. 프로세스의 나머지 단계는 6단계로 시작하는 문서의 본문에 나열된 단계와 동일합니다.
 
 ### <a name="q--im-on-a-government-tenant--can-i-use-the-benefit"></a>Q:  저는 정부 테넌트에 있습니다.  혜택을 사용할 수 있나요?
 A:  아니요.  Power BI Pro 혜택은 정부 테넌트에는 추가할 수 없습니다.
 
 ## <a name="support-resources"></a>지원 리소스
--  Power BI Pro와 관련하여 도움이 필요하세요?
+- Power BI Pro와 관련하여 도움이 필요하세요?
     - [온라인 설명서](/power-bi/)를 확인하세요.
     - 가입하는 데 문제가 있나요?  [Power BI에 개인으로 가입](/power-bi/service-self-service-signup-for-power-bi)을 확인하세요.
     - 주요 문제를 살펴보거나, 커뮤니티에서 도움을 받거나 [지원 페이지](https://powerbi.microsoft.com/support/)에서 지원 티켓을 제출하세요.
--  Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
--  Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+- Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
+- Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Pro 혜택을 활성화 하려면 [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)를 방문하세요.
