@@ -8,12 +8,13 @@ ms.author: kraigb
 manager: jillfra
 ms.workload:
 - data-science
-ms.openlocfilehash: 676b46c87fe9b6af6e0e1baed0ff5fcdc7e68b6e
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+monikerRange: vs-2017
+ms.openlocfilehash: 4b505b1a8669c0eff14e7afcdb88275cd1502f95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57873651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62581247"
 ---
 # <a name="how-to-install-r-tools-for-visual-studio"></a>Visual Studio용 R 도구를 설치하는 방법
 
@@ -29,7 +30,7 @@ ms.locfileid: "57873651"
 
 ## <a name="supported-versions-of-visual-studio"></a>지원되는 Visual Studio 버전
 
-RTVS(Visual Studio용 R 도구)는 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 및 [Visual Studio 2015 업데이트 3 이상](http://go.microsoft.com/fwlink/?LinkId=691129)(직접 다운로드)의 Community(무료), Professional 및 Enterprise 버전이 있는 Windows에서 지원됩니다.
+RTVS(Visual Studio용 R 도구)는 [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 및 [Visual Studio 2015 업데이트 3 이상](http://go.microsoft.com/fwlink/?LinkId=691129)(직접 다운로드)의 Community(무료), Professional 및 Enterprise 버전이 있는 Windows에서 지원됩니다.
 
 RTVS는 현재 Mac용 Visual Studio에서 지원되지 않습니다.
 

@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4f6486fc204942553a58e437d56fc7d0ffee548b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 40ebd26b4732399ac53ba1796fcb3c05bf370599
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56630394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425481"
 ---
 # <a name="da0014-extremely-high-rates-of-paging-active-memory-to-disk"></a>DA0014: 활성 메모리를 디스크에 페이징하는 비율이 매우 높습니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "56630394"
  대량 페이징 작업에서는 빈번하게 페이지를 디스크에서 읽고 디스크에 씁니다. 예를 들어 Pages Output/sec 수는 Page Writes/sec 수보다 훨씬 더 큰 경우가 많습니다. Pages Output/sec에는 시스템 파일 캐시의 변경된 데이터 페이지가 포함되기 때문입니다. 그러나 어떤 프로세스가 페이징을 직접 처리하는지 확인하는 것이 쉽지 않을 수도 있습니다.
 
 > [!NOTE]
->  활성 메모리의 페이징 수준이 매우 높은 비율에 도달하면 이 규칙이 실행됩니다. 페이징 수준이 높지만 지나치지 않으면 대신 정보 규칙 [DA0017: 활성 메모리를 디스크에 페이징하는 비율이 매우 높습니다.](../profiling/da0017-high-rates-of-paging-active-memory-to-disk.md)가 발생합니다.
+> 활성 메모리의 페이징 수준이 매우 높은 비율에 도달하면 이 규칙이 실행됩니다. 페이징 수준이 높지만 지나치지 않으면 대신 정보 규칙 [DA0017: 활성 메모리를 디스크에 페이징하는 비율이 매우 높습니다.](../profiling/da0017-high-rates-of-paging-active-memory-to-disk.md)가 발생합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  [오류 목록] 창에서 메시지를 두 번 클릭하여 [표시](../profiling/marks-view.md) 뷰로 이동합니다. **Memory\Pages/sec** 열을 찾습니다. 다른 단계보다 페이징 IO 활동이 더 빈번한 특정 프로그램 실행 단계가 있는지 확인합니다.

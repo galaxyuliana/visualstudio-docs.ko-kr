@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 61b9cb5bfc1b310bf7947c51fa3ba718db824fce
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 5b1b6817b31272bf01c92e77ff5b04dfff35f6ad
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57868213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428122"
 ---
 # <a name="walkthrough-using-profiler-apis"></a>연습: 프로파일러 API 사용
 
@@ -39,8 +39,6 @@ ms.locfileid: "57868213"
 
  관리되는 코드의 경우 프로파일러 API는 *Microsoft.VisualStudio.Profiler.dll*에 있습니다. 이 DLL은 *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* 디렉터리에 있습니다. 64비트 앱의 경우 폴더는 *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*입니다. 자세한 내용은 <xref:Microsoft.VisualStudio.Profiler>을 참조하세요.
 
-
-
 ## <a name="prerequisites"></a>전제 조건
  이 연습에서는 사용자가 선택한 개발 환경이 디버깅 및 샘플링을 지원하도록 구성되었다고 가정합니다. 다음 항목에서는 이러한 필수 구성 요소의 개요를 제공합니다.
 
@@ -62,12 +60,12 @@ DataCollection.CurrentId);
 
 #### <a name="to-create-the-code-to-profile"></a>프로파일링할 코드를 만들려면
 
-1.  Visual Studio에서 새 C# 프로젝트를 만들거나 기본 설정에 따라 명령줄 빌드를 사용합니다.
+1. Visual Studio에서 새 C# 프로젝트를 만들거나 기본 설정에 따라 명령줄 빌드를 사용합니다.
 
     > [!NOTE]
-    >  빌드는 *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* 디렉터리에 있는 *Microsoft.VisualStudio.Profiler.dll* 라이브러리를 참조해야 합니다.
+    > 빌드는 *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* 디렉터리에 있는 *Microsoft.VisualStudio.Profiler.dll* 라이브러리를 참조해야 합니다.
 
-2.  다음 코드를 복사하여 프로젝트에 붙여넣습니다.
+2. 다음 코드를 복사하여 프로젝트에 붙여넣습니다.
 
     ```csharp
     using System;
@@ -150,23 +148,23 @@ DataCollection.CurrentId);
 
 #### <a name="to-collect-and-view-data-at-the-command-line"></a>명령줄에서 데이터를 수집하고 보려면
 
-1.  이 연습 앞부분의 "프로파일링할 코드 만들기" 절차에서 만든 샘플 코드의 디버그 버전을 컴파일합니다.
+1. 이 연습 앞부분의 "프로파일링할 코드 만들기" 절차에서 만든 샘플 코드의 디버그 버전을 컴파일합니다.
 
-2.  관리되는 애플리케이션을 프로파일링하려면 다음 명령을 입력하여 적절한 환경 변수를 설정합니다.
+2. 관리되는 애플리케이션을 프로파일링하려면 다음 명령을 입력하여 적절한 환경 변수를 설정합니다.
 
      **VsPerfCLREnv /traceon**
 
-3.  다음 명령을 입력합니다. **VSInstr \<filename>.exe**
+3. 다음 명령을 입력합니다. **VSInstr \<filename>.exe**
 
-4.  다음 명령을 입력합니다. **VSPerfCmd /start:trace /output:\<filename>.vsp**
+4. 다음 명령을 입력합니다. **VSPerfCmd /start:trace /output:\<filename>.vsp**
 
-5.  다음 명령을 입력합니다. **VSPerfCmd /globaloff**
+5. 다음 명령을 입력합니다. **VSPerfCmd /globaloff**
 
-6.  프로그램을 실행합니다.
+6. 프로그램을 실행합니다.
 
-7.  다음 명령을 입력합니다. **VSPerfCmd /shutdown**
+7. 다음 명령을 입력합니다. **VSPerfCmd /shutdown**
 
-8.  다음 명령을 입력합니다. **VSPerfReport /calltrace:\<filename>.vsp**
+8. 다음 명령을 입력합니다. **VSPerfReport /calltrace:\<filename>.vsp**
 
      결과 성능 데이터와 함께 현재 디렉터리에 .*csv* 파일이 만들어집니다.
 

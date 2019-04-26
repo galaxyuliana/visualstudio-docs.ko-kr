@@ -8,30 +8,30 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3985d8a11118097a4d1d97b95340702d1ed23209
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 60770dfa64c1a648d2a7ae56b38d66fe39e46183
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445744"
 ---
 # <a name="msbuild-multitargeting-overview"></a>MSBuild 멀티 타기팅 개요
 MSBuild를 사용하면 .NET Framework의 여러 버전 중 하나 및 여러 시스템 플랫폼 중 하나에서 실행되는 애플리케이션을 컴파일할 수 있습니다. 예를 들어 32비트 플랫폼의 .NET Framework 2.0에서 실행되도록 애플리케이션을 컴파일하고 동일한 애플리케이션을 64비트 플랫폼의 .NET Framework 4.5에서 실행되도록 컴파일할 수 있습니다.
 
 > [!IMPORTANT]
->  이름이 “멀티 타기팅”이지만 프로젝트는 한 번에 하나의 프레임워크만, 그리고 하나의 플랫폼만 대상으로 지정할 수 있습니다.
+> 이름이 “멀티 타기팅”이지만 프로젝트는 한 번에 하나의 프레임워크만, 그리고 하나의 플랫폼만 대상으로 지정할 수 있습니다.
 
  MSBuild 대상 지정의 몇 가지 기능은 다음과 같습니다.
 
--   .NET Framework의 이전 버전(예: 2.0, 3.5 또는 4)을 대상으로 하는 애플리케이션을 개발할 수 있습니다.
+- .NET Framework의 이전 버전(예: 2.0, 3.5 또는 4)을 대상으로 하는 애플리케이션을 개발할 수 있습니다.
 
--   .NET Framework 외에 Silverlight 프레임워크 등의 다른 프레임워크를 대상으로 지정할 수 있습니다.
+- .NET Framework 외에 Silverlight 프레임워크 등의 다른 프레임워크를 대상으로 지정할 수 있습니다.
 
--   대상 프레임워크의 미리 정의된 하위 집합인 *프레임워크 프로필*을 대상으로 지정할 수 있습니다.
+- 대상 프레임워크의 미리 정의된 하위 집합인 *프레임워크 프로필*을 대상으로 지정할 수 있습니다.
 
--   현재 버전의 .NET Framework용 서비스 팩이 릴리스될 경우 해당 서비스 팩을 대상으로 지정할 수 있습니다.
+- 현재 버전의 .NET Framework용 서비스 팩이 릴리스될 경우 해당 서비스 팩을 대상으로 지정할 수 있습니다.
 
--   MSBuild 대상 지정은 대상 프레임워크 및 플랫폼에서 사용 가능한 기능만 애플리케이션에서 사용되도록 합니다.
+- MSBuild 대상 지정은 대상 프레임워크 및 플랫폼에서 사용 가능한 기능만 애플리케이션에서 사용되도록 합니다.
 
 ## <a name="target-framework-and-platform"></a>대상 프레임워크 및 플랫폼
  *대상 프레임워크*는 프로젝트가 실행되도록 기본 제공되는 .NET Framework의 버전이고 *대상 플랫폼*은 프로젝트가 실행되도록 기본 제공되는 시스템 플랫폼입니다.  예를 들어 802x86 프로세서 제품군(x86)과 호환되는 32비트 플랫폼에서 실행할 .NET Framework 2.0 애플리케이션을 대상으로 지정할 수 있습니다. 대상 프레임워크와 대상 플랫폼의 조합을 *대상 컨텍스트*라고 합니다. 자세한 내용은 [대상 프레임워크 및 대상 플랫폼](../msbuild/msbuild-target-framework-and-target-platform.md)을 참조하세요.

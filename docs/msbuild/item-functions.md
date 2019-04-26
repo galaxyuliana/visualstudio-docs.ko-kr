@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: d01de837deb5141b4b0bdbb7bebcb50412826b1f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56617160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007011"
 ---
 # <a name="item-functions"></a>항목 함수
 MSBuild 4.0부터 작업 및 대상의 코드는 프로젝트의 항목에 대한 정보를 얻기 위해 item 함수를 호출할 수 있습니다. 이러한 함수를 사용하면 Distinct() 항목을 간편하게 가져올 수 있으며 항목을 반복하는 방식보다 속도도 더 빠릅니다.
@@ -56,7 +56,7 @@ MSBuild 4.0부터 작업 및 대상의 코드는 프로젝트의 항목에 대�
 |`Count`|`@(MyItem->Count())`|항목 수를 반환합니다.|
 |`DirectoryName`|`@(MyItem->DirectoryName())`|각 항목에 대한 해당 `Path.DirectoryName`을 반환합니다.|
 |`Distinct`|`@(MyItem->Distinct())`|고유한 `Include` 값이 있는 항목을 반환합니다. 메타데이터는 무시됩니다. 비교 시 대/소문자가 구분되지 않습니다.|
-|`DistinctWithCase`|`@(MyItem->DistinctWithCase())`|고유한 `itemspec` 값이 있는 항목을 반환합니다. 메타데이터는 무시됩니다. 비교 시 대/소문자가 구분됩니다.|
+|`DistinctWithCase`|`@(MyItem->DistinctWithCase())`|고유한 `itemspec` 값이 있는 항목을 반환합니다. 메타데이터는 무시됩니다. 대/소문자를 구분하고 비교합니다.|
 |`Reverse`|`@(MyItem->Reverse())`|항목을 역순으로 반환합니다.|
 |`AnyHaveMetadataValue`|`@(MyItem->AnyHaveMetadataValue("MetadataName", "MetadataValue"))`|모든 항목에 지정된 메타데이터 이름 및 값이 있는지 여부를 나타내도록 `boolean`을 반환합니다. 비교 시 대/소문자가 구분되지 않습니다.|
 |`ClearMetadata`|`@(MyItem->ClearMetadata())`|해당 메타데이터가 지워진 항목을 반환합니다. `itemspec`만 유지됩니다.|

@@ -18,18 +18,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a33b8a3f7cfe9dea56ca7abc0f2e82506e3edef1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 369bad5a66ac4a3c41a1a3e22941b11ef27902d2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63385910"
 ---
 # <a name="createitem-task"></a>CreateItem 작업
 항목 컬렉션을 입력 항목으로 채웁니다. 이를 통해 한 목록의 항목을 다른 목록으로 복사할 수 있습니다.
 
 > [!NOTE]
->  이 작업은 더 이상 사용되지 않습니다. .NET Framework 3.5부터 항목 그룹은 [Target](../msbuild/target-element-msbuild.md) 요소 내에 배치될 수 있습니다. 자세한 내용은 [항목](../msbuild/msbuild-items.md)을 참조하세요.
+> 이 작업은 더 이상 사용되지 않습니다. .NET Framework 3.5부터 항목 그룹은 [Target](../msbuild/target-element-msbuild.md) 요소 내에 배치될 수 있습니다. 자세한 내용은 [항목](../msbuild/msbuild-items.md)을 참조하세요.
 
 ## <a name="attributes"></a>특성
  다음 표에서는 `CreateItem` 작업의 매개 변수에 대해 설명합니다.

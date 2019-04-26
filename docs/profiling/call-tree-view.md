@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6acba17aca08b233dd80b7eb7ea9e385d907ffb5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 0c28ef62629011b222ae1a846c04cbf4cdff17d3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440254"
 ---
 # <a name="call-tree-view"></a>호출 트리 뷰
 호출 트리 뷰에는 프로파일링 된 애플리케이션에서 이동한 함수 실행 경로가 표시됩니다. 트리의 루트는 애플리케이션 또는 구성 요소에 대한 진입점입니다. 각 함수 노드에는 호출한 모든 함수 및 이러한 함수 호출에 대한 성능 데이터가 나열됩니다.
@@ -36,7 +36,7 @@ ms.locfileid: "56627040"
  제공되는 데이터 양을 제한하여 노이즈 감소를 위한 호출 트리 뷰를 구성할 수 있습니다. 노이즈 감소를 사용하면 뷰에서 성능 문제가 더 두드러집니다. 성능 문제를 쉽게 구분할 수 있을 때 분석이 더 쉽습니다. 자세한 내용은 [방법: 보고서 보기에서 노이즈 감소 구성](../profiling/how-to-configure-noise-reduction-in-report-views.md)을 참조하세요.
 
 > [!NOTE]
->  노이즈 감소가 활성화된 경고를 표시하도록 구성된 경우 알림 표시줄이 보고서에 표시됩니다.
+> 노이즈 감소가 활성화된 경고를 표시하도록 구성된 경우 알림 표시줄이 보고서에 표시됩니다.
 
  호출 트리 뷰에서 열의 정의에 대한 자세한 내용은 다음을 참조하세요.
 

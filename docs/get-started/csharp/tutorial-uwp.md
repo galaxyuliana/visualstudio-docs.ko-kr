@@ -14,19 +14,19 @@ dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: 0257b29d327610b6b301d3c368e727a0912ab691
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: a2a65534cda2571c36bb0c2caa16bf2f3394a804
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435049"
 ---
 # <a name="tutorial-create-your-first-universal-windows-platform-application-in-visual-studio-with-xaml-and-c35"></a>자습서: XAML 및 C&#35를 사용하여 Visual Studio에서 첫 번째 유니버설 Windows 플랫폼 애플리케이션 만들기
 
 Visual Studio IDE(통합 개발 환경)에 대한 이 소개에서는 모든 Windows 10 디바이스에서 실행되는 “Hello World” 앱을 만듭니다. 이렇게 하려면 UWP(유니버설 Windows 플랫폼) 프로젝트 템플릿, XAML(Extensible Application Markup Language) 및 C# 프로그래밍 언어를 사용합니다.
 
 ::: moniker range="vs-2017"
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 페이지로 이동하여 체험용으로 설치합니다.
 ::: moniker-end
 ::: moniker range="vs-2019"
 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하여 체험용으로 설치합니다.
@@ -46,7 +46,7 @@ Visual Studio IDE(통합 개발 환경)에 대한 이 소개에서는 모든 Win
    ![Visual Studio IDE의 새 프로젝트 대화 상자의 Windows 유니버설 프로젝트 템플릿](media/new-project-csharp-uwp-helloworld.png)
 
    > [!NOTE]
-   > **빈 앱(유니버설 Windows)** 프로젝트 템플릿이 표시되지 않으면 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기** 링크를 클릭합니다.<br><br>![새 프로젝트 대화 상자에서 Visual Studio 설치 관리자 열기 링크를 클릭합니다.](../../ide/media/vb-open-visual-studio-installer-hello-world.png)<br><br>Visual Studio 설치 관리자가 시작됩니다. **유니버설 Windows 플랫폼 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.<br><br>![Visual Studio 설치 관리자에서 유니버설 Windows 플랫폼 개발 워크로드](media/uwp-dev-workload.png)
+   > **빈 앱(유니버설 Windows)** 프로젝트 템플릿이 표시되지 않으면 **새 프로젝트** 대화 상자의 왼쪽 창에서 **Visual Studio 설치 관리자 열기** 링크를 클릭합니다.<br><br>![새 프로젝트 대화 상자에서 Visual Studio 설치 관리자 열기 링크 클릭](../../ide/media/vb-open-visual-studio-installer-hello-world.png)<br><br>Visual Studio 설치 관리자가 시작됩니다. **유니버설 Windows 플랫폼 개발** 워크로드를 선택한 다음, **수정**을 선택합니다.<br><br>![Visual Studio 설치 관리자에서 유니버설 Windows 플랫폼 개발 워크로드](media/uwp-dev-workload.png)
 
 1. **새 유니버설 Windows 플랫폼 프로젝트** 대화 상자에서 기본 **대상 버전** 및 **최소 버전** 설정에 동의합니다.
 
@@ -70,7 +70,7 @@ Visual Studio IDE(통합 개발 환경)에 대한 이 소개에서는 모든 Win
 
    > [!NOTE]
    > 처음으로 Visual Studio를 사용하여 UWP 앱을 만든 경우 **설정** 대화 상자가 나타날 수 있습니다. **개발자 모드**를 선택한 다음, **예**를 선택합니다.<br><br>
-   ![UWP 설정 대화 상자에서 개발자 모드를 사용하도록 설정](media/enable-developer-mode.png)<br><br>Visual Studio는 사용자용 추가 개발자 모드 패키지를 설치합니다. 패키지 설치가 완료되면 **설정** 대화 상자를 닫습니다.
+   > ![UWP 설정 대화 상자에서 개발자 모드를 사용하도록 설정](media/enable-developer-mode.png)<br><br>Visual Studio는 사용자용 추가 개발자 모드 패키지를 설치합니다. 패키지 설치가 완료되면 **설정** 대화 상자를 닫습니다.
 
 ## <a name="create-the-application"></a>애플리케이션 만들기
 

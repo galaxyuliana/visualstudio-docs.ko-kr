@@ -15,12 +15,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 5de7976af32601b6df188162aef0e129789a5147
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: 5ea7b0c934dfeeee6825c558868388a65a8bdcd2
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62997454"
 ---
 # <a name="troubleshoot-visual-studio-installation-and-upgrade-issues"></a>Visual Studio 설치 및 업그레이드 문제 해결
 
@@ -62,7 +62,7 @@ Visual Studio 설치 관리자 부트스트래퍼는 나머지 Visual Studio 설
 
 1. Visual Studio 설치 관리자를 닫습니다.
 2. Visual Studio 설치 관리자 디렉터리를 삭제합니다. 일반적으로 디렉터리는 `C:\Program Files (x86)\Microsoft Visual Studio\Installer`입니다.
-3. Visual Studio 설치 관리자 부트스트래퍼를 실행합니다. Downloads 폴더에서 `vs_[Visual Studio edition]__*.exe` 패턴을 따르는 파일 이름을 사용하는 부트스트래퍼를 찾을 수 있습니다. 해당 애플리케이션을 찾을 수 없으면 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하고 해당 버전의 Visual Studio에 대한 **다운로드**를 클릭하여 부트스트래퍼를 다운로드할 수 있습니다. 그런 다음, 실행 파일을 실행하여 설치 메타데이터를 다시 설정합니다.
+3. Visual Studio 설치 관리자 부트스트래퍼를 실행합니다. Downloads 폴더에서 `vs_[Visual Studio edition]__*.exe` 패턴을 따르는 파일 이름을 사용하는 부트스트래퍼를 찾을 수 있습니다. 해당 애플리케이션을 찾을 수 없으면 [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 페이지로 이동하고 해당 버전의 Visual Studio에 대한 **다운로드**를 클릭하여 부트스트래퍼를 다운로드할 수 있습니다. 그런 다음, 실행 파일을 실행하여 설치 메타데이터를 다시 설정합니다.
 4. Visual Studio를 다시 설치하거나 업데이트해 보세요. 설치 관리자가 계속 실패하면 다음 단계로 이동합니다.
 
 ::: moniker-end
@@ -84,7 +84,7 @@ Visual Studio 설치 관리자 부트스트래퍼는 나머지 Visual Studio 설
 
 1. 설치 로그를 수집합니다. 자세한 내용은 [Visual Studio 설치 로그를 가져오는 방법](#how-to-get-visual-studio-installation-logs)을 참조하세요.
 2. Visual Studio 설치 관리자를 열고 **문제 보고**를 클릭하여 Visual Studio 피드백 도구를 엽니다.
-![[피드백 제공] 단추를 탭하여 피드백 도구를 열 수 있습니다.](media/report-a-problem.png)
+![[피드백 제공] 단추를 탭하여 피드백 도구를 열 수 있음](media/report-a-problem.png)
 3. 문제 보고서의 제목을 지정하고 관련 세부 정보를 제공합니다. **다음**을 클릭하여 **첨부 파일** 섹션으로 이동하고 생성된 로그 파일을 첨부합니다. 일반적으로 파일은 `%TEMP%\vslogs.zip`에 있습니다.
 4. **다음**을 클릭하여 문제 보고서를 검토하고 **제출**을 클릭합니다.
 
@@ -94,7 +94,7 @@ Visual Studio 설치 관리자 부트스트래퍼는 나머지 Visual Studio 설
 
 1. 설치 로그를 수집합니다. 자세한 내용은 [Visual Studio 설치 로그를 가져오는 방법](#how-to-get-visual-studio-installation-logs)을 참조하세요.
 2. Visual Studio 설치 관리자를 열고 **문제 보고**를 클릭하여 Visual Studio 피드백 도구를 엽니다.
-![[피드백 제공] 단추를 탭하여 피드백 도구를 열 수 있습니다.](media/vs-2019/vs-installer-report-problem.png)
+![[피드백 제공] 단추를 탭하여 피드백 도구를 열 수 있음](media/vs-2019/vs-installer-report-problem.png)
 3. 문제 보고서의 제목을 지정하고 관련 세부 정보를 제공합니다. **다음**을 클릭하여 **첨부 파일** 섹션으로 이동하고 생성된 로그 파일을 첨부합니다. 일반적으로 파일은 `%TEMP%\vslogs.zip`에 있습니다.
 4. **다음**을 클릭하여 문제 보고서를 검토하고 **제출**을 클릭합니다.
 
