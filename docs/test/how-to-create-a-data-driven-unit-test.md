@@ -14,12 +14,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: dc5c4b68b5713ba8831d840decea7f2ea25704f4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 58b7348a1bd46b426339effbe259e6f5058c769b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979242"
 ---
 # <a name="how-to-create-a-data-driven-unit-test"></a>방법: 데이터 기반 단위 테스트 만들기
 
@@ -27,27 +27,27 @@ ms.locfileid: "55931444"
 
 데이터 기반 단위 테스트를 만드는 단계는 다음과 같습니다.
 
-1.  테스트 메서드에서 사용할 값이 포함된 데이터 소스를 만듭니다. 테스트를 실행할 컴퓨터에 등록된 모든 형식을 데이터 소스로 사용할 수 있습니다.
+1. 테스트 메서드에서 사용할 값이 포함된 데이터 소스를 만듭니다. 테스트를 실행할 컴퓨터에 등록된 모든 형식을 데이터 소스로 사용할 수 있습니다.
 
-2.  private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> 필드 및 public `TestContext` 속성을 테스트 클래스에 추가합니다.
+2. private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> 필드 및 public `TestContext` 속성을 테스트 클래스에 추가합니다.
 
-3.  단위 테스트 메서드를 만들고 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> 특성을 메서드에 추가합니다.
+3. 단위 테스트 메서드를 만들고 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> 특성을 메서드에 추가합니다.
 
-4.  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> 인덱서 속성을 사용하여 테스트에서 사용할 값을 검색합니다.
+4. <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow%2A> 인덱서 속성을 사용하여 테스트에서 사용할 값을 검색합니다.
 
 ## <a name="the-method-under-test"></a>테스트 중인 메서드
 
 예를 들어 다음이 있다고 가정해 보세요.
 
-1.  다양한 형식의 계좌에 대한 트랜잭션을 수락하고 처리하는 `MyBank` 솔루션.
+1. 다양한 형식의 계좌에 대한 트랜잭션을 수락하고 처리하는 `MyBank` 솔루션.
 
-2.  계좌에 대한 트랜잭션을 관리하는 `MyBank`의 `BankDb` 프로젝트.
+2. 계좌에 대한 트랜잭션을 관리하는 `MyBank`의 `BankDb` 프로젝트.
 
-3.  모든 트랜잭션이 은행에 이로운지 확인하기 위해 수학적 함수를 실행하는 `DbBank` 프로젝트의 `Maths` 클래스.
+3. 모든 트랜잭션이 은행에 이로운지 확인하기 위해 수학적 함수를 실행하는 `DbBank` 프로젝트의 `Maths` 클래스.
 
-4.  `BankDb` 구성 요소의 동작을 테스트하기 위한 `BankDbTests` 단위 테스트 프로젝트.
+4. `BankDb` 구성 요소의 동작을 테스트하기 위한 `BankDbTests` 단위 테스트 프로젝트.
 
-5.  `Maths` 클래스의 동작을 확인하기 위한 `MathsTests` 단위 테스트 클래스.
+5. `Maths` 클래스의 동작을 확인하기 위한 `MathsTests` 단위 테스트 클래스.
 
 루프를 사용하여 두 개의 정수를 더하는 `Maths`의 메서드를 테스트하게 됩니다.
 

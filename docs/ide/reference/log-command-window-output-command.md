@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 588c5e39f8b6b6a89de1636bd45036b21d392d33
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 24c72b0c5aeb510186728d66e51935c337547adf
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55930534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946845"
 ---
 # <a name="log-command-window-output-command"></a>명령 창 출력 로그 명령
 **명령** 창의 모든 입력 및 출력을 파일로 복사합니다.
@@ -36,7 +36,6 @@ Tools.LogCommandWindowOutput [filename] [/on|/off] [/overwrite]
 
 > [!TIP]
 > 로그 파일이 저장되는 위치를 변경하려면 경로에 공백이 있는 경우 따옴표로 묶인 파일의 전체 경로를 입력합니다.
-
 
 ## <a name="switches"></a>스위치
  /on

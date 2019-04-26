@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 16a73ac066ff0b61570f0ed918308cf8874121d7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62996524"
 ---
 # <a name="setenv-task"></a>SetEnv 작업
 지정된 환경 변수의 값을 설정하거나 삭제합니다.

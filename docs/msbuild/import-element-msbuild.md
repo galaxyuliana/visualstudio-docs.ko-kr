@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b4c7df0cf9e837e27e8f572bb50d5e3395b3424a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: ec4e48bdd1a7f8701f46ed84296f7aad4490d08a
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977397"
 ---
 # <a name="import-element-msbuild"></a>Import 요소(MSBuild)
 한 프로젝트 파일의 내용을 다른 프로젝트 파일로 가져옵니다.
@@ -69,7 +69,6 @@ ms.locfileid: "56629913"
  가져온 프로젝트에 `DefaultTargets` 특성이 없는 경우 가져온 프로젝트는 가져온 순서대로 검사되며, 처음 검색된 `DefaultTargets` 특성의 값이 사용됩니다. 예를 들어 ProjectA가 ProjectB와 ProjectC를 순서대로 가져오고 ProjectB가 ProjectD를 가져오는 경우에 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 는 먼저 ProjectA에 지정된 `DefaultTargets` 를 검색한 다음 ProjectB, ProjectD, 마지막으로 ProjectC를 검색합니다.
 
  가져온 프로젝트의 스키마는 표준 프로젝트의 스키마와 동일합니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 는 가져온 프로젝트를 빌드할 수는 있지만 그럴 가능성은 매우 낮습니다. 일반적으로 가져온 프로젝트에는 설정할 속성 또는 대상을 실행할 순서에 대한 정보가 포함되어 있지 않기 때문입니다. 가져온 프로젝트는 그것을 가져온 상위 프로젝트에 의존하여 해당 정보를 제공합니다.
-
 
 ## <a name="wildcards"></a>와일드카드
  .NET Framework 4에서는 MSBuild가 Project 특성에 와일드카드를 사용하도록 허용합니다. 와일드카드가 있으면 발견되는 모든 일치 항목이 정렬되고(재현 가능성을 위해), 마치 해당 순서가 명시적으로 설정된 것처럼 순서대로 가져오기가 수행됩니다.

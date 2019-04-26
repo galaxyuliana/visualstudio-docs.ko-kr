@@ -7,12 +7,12 @@ ms.date: 10/03/2017
 ms.topic: conceptual
 description: Visual Studio 구독에서 제품 키를 얻고 관리하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 9a1163aecab9f9330f1464704d0aa97018e51d6b
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: 74d13602dd27669233cd40ebdd2f5e165c09079a
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56953903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977728"
 ---
 # <a name="using-product-keys-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 제품 키 사용
 
@@ -53,7 +53,6 @@ MPN, BizSpark, MCT 소프트웨어 및 서비스 및 MCT를 통해 제공되는 
 
 제품에 따라 다양한 키 유형을 사용할 수 있습니다.
 
-
 ### <a name="product-key-types"></a>제품 키 유형
 
 |    키 유형           |    설명                                                                                                                                                                                                           |
@@ -74,7 +73,6 @@ MPN, BizSpark, MCT 소프트웨어 및 서비스 및 MCT를 통해 제공되는 
 
 ### <a name="claiming-product-keys"></a>제품 키 요청
 활성 구독이 있는 구독자만 제품을 다운로드하고 제품 키를 요청할 수 있습니다.  구독이 활성화되어 있는 동안 [제품 키](https://my.visualstudio.com/productkeys) 페이지에서 요청한 키를 내보낼 수 있습니다.
-
 
 제품 키를 요청하려면
 1. Visual Studio 구독에 로그인합니다.  제품을 다운로드하거나 제품 키를 요청하려면 로그인해야 합니다.

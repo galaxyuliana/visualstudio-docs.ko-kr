@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 50c5aed4f12cc5bef9bc50c2a41009de4e6ad811
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969903"
 ---
 # <a name="export-button-concurrency-visualizer"></a>내보내기 단추(동시성 시각화 도우미)
 **내보내기** 단추를 통해 사용자 고유의 레코드 또는 Microsoft Excel과 같은 다른 도구와 함께 사용하기 위해 .*csv* 파일로 호출 스택을 내보낼 수 있습니다.

@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - uwp
 ms.openlocfilehash: 8ef1c82e18b99383f61ccbad298102b4db1fcb24
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62896994"
 ---
 # <a name="insert-images-videos-and-audio-clips-in-xaml-designer"></a>XAML 디자이너에서 이미지, 동영상 및 오디오 클립 삽입
 이미지, 비디오 및 오디오 클립은 앱에 시각적 효과를 추가합니다.
