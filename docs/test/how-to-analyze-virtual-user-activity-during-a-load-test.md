@@ -8,12 +8,12 @@ ms.assetid: 8bda19b3-91c1-4daf-b6c7-09108bddadff
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 384e742a4d9e61133f2f3b2cdcf713057704317a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: dadc35d09ad70986f728104396502f13a06c0995
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55917495"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979421"
 ---
 # <a name="how-to-analyze-what-virtual-users-are-doing-during-a-load-test-using-the-virtual-user-activity-chart"></a>방법: 가상 사용자 작업 차트를 사용하여 부하 테스트 중에 가상 사용자가 수행하는 작업 분석
 
@@ -25,9 +25,9 @@ ms.locfileid: "55917495"
 
 ## <a name="to-view-the-virtual-user-activity-chart-in-your-load-test-results"></a>부하 테스트 결과에서 가상 사용자 동작 차트를 보려면
 
-1.  가상 사용자 데이터를 보려면 부하 테스트와 연결된 **타이밍 정보 스토리지** 속성에 대한 **모든 개인 정보** 설정을 구성해야 합니다. 그런 다음 부하 테스트를 실행합니다.
+1. 가상 사용자 데이터를 보려면 부하 테스트와 연결된 **타이밍 정보 스토리지** 속성에 대한 **모든 개인 정보** 설정을 구성해야 합니다. 그런 다음 부하 테스트를 실행합니다.
 
-2.  부하 테스트를 실행하면 테스트 결과 요약 페이지가 표시됩니다. 도구 모음에서 **사용자 정보** 단추를 선택합니다.
+2. 부하 테스트를 실행하면 테스트 결과 요약 페이지가 표시됩니다. 도구 모음에서 **사용자 정보** 단추를 선택합니다.
 
      또는
 

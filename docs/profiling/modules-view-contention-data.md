@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f9d3cf030ca0e996365963e5dad419b19ff67596
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62830065"
 ---
 # <a name="modules-view---contention-data"></a>모듈 뷰 - 경합 데이터
 경합 데이터의 모듈 뷰에는 프로파일링 데이터에서 샘플링된 모듈별로 그룹화된 동시성 데이터가 표시됩니다. 각 모듈은 계층 트리의 루트입니다. 경합 이벤트가 발생한 모듈의 함수는 모듈 노드 아래에 나열됩니다.

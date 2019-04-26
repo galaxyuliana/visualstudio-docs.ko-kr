@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b6798af3630f81aa50eaae05b23b6844dcba1f38
-ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58897727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62973539"
 ---
 # <a name="use-ui-automation-to-test-your-code"></a>UI 자동화를 사용하여 코드 테스트
 
@@ -402,7 +402,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
 UI 컨트롤 관련 속성 값을 얻고 설정하기 위해 컨트롤의 속성 값을 직접 얻거나 설정할 수 있습니다. 또는 얻거나 설정하려는 특성 속성의 이름과 함께 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A?displayProperty=fullName> 및 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A?displayProperty=fullName> 메서드를 사용할 수 있습니다.
 
-<xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> 적절한 <xref:System.Type>으로 캐스팅할 수 있는 개체를 반환합니다. <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A> 속성의 값에 대해 개체를 수락합니다.
+<xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A>는 적절한 <xref:System.Type>으로 캐스팅할 수 있는 개체를 반환합니다. <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A>는 속성의 값에 대해 개체를 수락합니다.
 
 ### <a name="to-get-or-set-properties-from-ui-test-controls-directly"></a>UI 테스트 컨트롤에서 속성을 직접 얻거나 설정하려면
 
@@ -419,7 +419,7 @@ UI 컨트롤 관련 속성 값을 얻고 설정하기 위해 컨트롤의 속성
 
 - 얻으려는 컨트롤의 속성을 지정하려면 각 컨트롤에 있는 `PropertyNames` 클래스의 적절한 문자열을 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A>에 대한 매개 변수로 사용합니다.
 
-- <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> 적절한 데이터 형식을 반환하지만 이 반환 값은 <xref:System.Object>로 캐스팅됩니다. 그런 다음 반환 <xref:System.Object>는 적절한 형식으로 캐스팅되어야 합니다.
+- <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A>는 적절한 데이터 형식을 반환하지만 이 반환 값은 <xref:System.Object>로 캐스팅됩니다. 그런 다음 반환 <xref:System.Object>는 적절한 형식으로 캐스팅되어야 합니다.
 
      예제:
 

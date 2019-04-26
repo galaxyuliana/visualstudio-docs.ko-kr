@@ -9,12 +9,12 @@ ms.assetid: d1c10fb9-cfeb-4e7f-9991-2d1e1103699e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d8971546c0f51dc759731a90569d3f7dc3f0e142
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 5e25e9c5c92d32f2b68d8ce4b967fbf191e78554
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58069946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976211"
 ---
 # <a name="walkthrough-using-the-virtual-user-activity-chart-to-isolate-issues"></a>연습: 가상 사용자 작업 차트를 사용하여 문제 격리
 
@@ -26,19 +26,19 @@ ms.locfileid: "58069946"
 
 ## <a name="prerequisites"></a>전제 조건
 
--   Visual Studio Enterprise
+- Visual Studio Enterprise
 
--   다음의 절차를 완료합니다.
+- 다음의 절차를 완료합니다.
 
-    -   [웹 성능 테스트 기록 및 실행](/azure/devops/test/load-test/run-performance-tests-app-before-release#recordtests)
+    - [웹 성능 테스트 기록 및 실행](/azure/devops/test/load-test/run-performance-tests-app-before-release#recordtests)
 
-    -   [부하 테스트 만들기 및 실행](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-load-test)
+    - [부하 테스트 만들기 및 실행](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-load-test)
 
 ## <a name="open-the-colorwebapp-solution-created-in-the-previous-walkthroughs"></a>이전 연습에서 만든 ColorWebApp 솔루션 열기
 
-1.  Visual Studio를 엽니다.
+1. Visual Studio를 엽니다.
 
-2.  *LoadTest1.loadtest*가 포함된 **ColorWebApp** 솔루션을 엽니다. 이 부하 테스트는 이 항목의 시작 부분에서 사전 요구 사항 단원에 나열된 세 가지 연습의 단계를 수행하면 나오는 결과입니다.
+2. *LoadTest1.loadtest*가 포함된 **ColorWebApp** 솔루션을 엽니다. 이 부하 테스트는 이 항목의 시작 부분에서 사전 요구 사항 단원에 나열된 세 가지 연습의 단계를 수행하면 나오는 결과입니다.
 
      이 연습의 나머지 단계에서는 ColorWebApp라는 웹 애플리케이션, *ColorWebAppTest.webtest*라는 웹 성능 테스트 및 *LoadTest1.loadtest*라는 부하 테스트가 있다고 가정합니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "58069946"
 
 부하 테스트를 실행하여 가상 사용자 동작 데이터를 수집합니다.
 
--   **부하 테스트 편집기**의 도구 모음에서 **실행** 단추를 선택합니다. LoadTest1 실행이 시작됩니다.
+- **부하 테스트 편집기**의 도구 모음에서 **실행** 단추를 선택합니다. LoadTest1 실행이 시작됩니다.
 
 ## <a name="isolate-issues-in-the-virtual-user-activity-chart"></a>가상 사용자 작업 차트에서 문제 격리
 
@@ -54,11 +54,11 @@ ms.locfileid: "58069946"
 
 ### <a name="to-use-the-virtual-user-activity-chart-in-your-load-test-results"></a>부하 테스트 결과에서 가상 사용자 동작 차트를 사용하려면
 
-1.  부하 테스트 실행이 완료되면 부하 테스트 결과에 대한 **요약** 페이지가 **부하 테스트 분석기**에 표시됩니다. 도구 모음에서 **그래프** 단추를 선택합니다.
+1. 부하 테스트 실행이 완료되면 부하 테스트 결과에 대한 **요약** 페이지가 **부하 테스트 분석기**에 표시됩니다. 도구 모음에서 **그래프** 단추를 선택합니다.
 
      그래프 뷰가 표시됩니다.
 
-2.  **페이지 응답 시간** 그래프에서 임계값 위반 아이콘 중 하나의 근처를 마우스 오른쪽 단추로 클릭하고 **사용자 정보로 이동**을 선택합니다.
+2. **페이지 응답 시간** 그래프에서 임계값 위반 아이콘 중 하나의 근처를 마우스 오른쪽 단추로 클릭하고 **사용자 정보로 이동**을 선택합니다.
 
     > [!NOTE]
     > **부하 테스트 편집기** 도구 모음에서 **세부 정보** 단추를 사용하여 사용자 작업 차트를 열 수도 있습니다. 그러나 **사용자 정보로 이동** 옵션을 사용하는 경우 **가상 사용자 작업 차트**가 그래프에서 마우스 오른쪽 단추를 클릭한 테스트 부분으로 자동 확대됩니다.
@@ -67,37 +67,37 @@ ms.locfileid: "58069946"
 
      Y축의 가로 그림은 개별 가상 사용자를 나타냅니다. X축에는 부하 테스트 실행에 대한 시간 표시 막대가 표시됩니다.
 
-3.  **가상 사용자 동작 차트** 아래의 **특정 기간 확대** 도구에서 왼쪽 슬라이더와 오른쪽 슬라이더를 임계값 위반 아이콘에 가까워질 때까지 조정합니다. 그러면 **가상 사용자 동작 차트**에서 시간 범위가 변경됩니다.
+3. **가상 사용자 동작 차트** 아래의 **특정 기간 확대** 도구에서 왼쪽 슬라이더와 오른쪽 슬라이더를 임계값 위반 아이콘에 가까워질 때까지 조정합니다. 그러면 **가상 사용자 동작 차트**에서 시간 범위가 변경됩니다.
 
-4.  **정보 범례**에서 **(오류 강조 표시)** 에 대한 확인란을 선택합니다. 임계값 위반을 유발한 가상 사용자가 강조 표시됩니다.
+4. **정보 범례**에서 **(오류 강조 표시)** 에 대한 확인란을 선택합니다. 임계값 위반을 유발한 가상 사용자가 강조 표시됩니다.
 
-5.  **필터 결과** 창에서 **성공적인 결과 표시** 및 **HttpError**에 대한 확인란의 선택을 취소하고 **ValidationRuleError** 확인란은 선택된 채로 둡니다.
+5. **필터 결과** 창에서 **성공적인 결과 표시** 및 **HttpError**에 대한 확인란의 선택을 취소하고 **ValidationRuleError** 확인란은 선택된 채로 둡니다.
 
      **가상 사용자 작업 차트**에는 이전 연습에서 구성한 임계값 위반에 의해 지정된 대로 *Red.aspx* 페이지에서 4초 이상 소요한 가상 사용자만 표시됩니다.
 
-6.  임계값 위반에 대한 유효성 검사 규칙 오류를 포함하는 가상 사용자를 나타내는 가로줄 위에 마우스 포인터를 둡니다.
+6. 임계값 위반에 대한 유효성 검사 규칙 오류를 포함하는 가상 사용자를 나타내는 가로줄 위에 마우스 포인터를 둡니다.
 
-7.  다음 정보와 함께 도구 설명이 표시됩니다.
+7. 다음 정보와 함께 도구 설명이 표시됩니다.
 
-    -   **사용자 ID**
+    - **사용자 ID**
 
-    -   **시나리오**
+    - **시나리오**
 
-    -   **테스트**
+    - **테스트**
 
-    -   **결과**
+    - **결과**
 
-    -   **Network**
+    - **Network**
 
-    -   **시작 시간**
+    - **시작 시간**
 
-    -   **기간**
+    - **기간**
 
-    -   **에이전트**
+    - **에이전트**
 
-    -   **테스트 로그**
+    - **테스트 로그**
 
-8.  **테스트 로그**는 링크입니다. **테스트 로그** 링크를 선택합니다.
+8. **테스트 로그**는 링크입니다. **테스트 로그** 링크를 선택합니다.
 
 9. 로그에 연결된 ColorWebTest 웹 성능 테스트가 **웹 성능 테스트 결과 뷰어**에서 열립니다. 그러면 임계값 위반이 발생한 위치를 격리할 수 있습니다.
 

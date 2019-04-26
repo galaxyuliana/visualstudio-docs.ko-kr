@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 656e491e683c7ec2de23ea7e49938e833af3a295
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945736"
 ---
 # <a name="setthreadcount"></a>SetThreadCount
 전역 스레드 개수를 설정하고 해당 개수를 현재 스레드에 할당합니다.

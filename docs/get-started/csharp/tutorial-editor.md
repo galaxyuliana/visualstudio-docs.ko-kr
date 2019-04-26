@@ -12,19 +12,30 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: e828d5eaf090aa47e82ed41cf5c6acb9301dd142
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.openlocfilehash: 5abd287533f2489346b41cdbae5526ed946aa746
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58323346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62971071"
 ---
 # <a name="learn-to-use-the-code-editor"></a>코드 편집기를 사용하는 방법 알아보기
 
 Visual Studio의 코드편집기에 대한 이 10분 소개에서 코드를 파일에 추가하여 Visual Studio에서 코드를 보다 쉽게 작성, 탐색 및 이해하는 몇 가지 방법을 살펴봅니다.
 
+::: moniker range="vs-2017"
+
 > [!TIP]
-> 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+> 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 페이지로 이동하여 체험용으로 설치합니다.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+> [!TIP]
+> 아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하여 체험용으로 설치합니다.
+
+::: moniker-end
 
 이 문서에서는 이미 C#에 친숙하다고 가정합니다. 그렇지 않은 경우 먼저 [Visual Studio에서 C# 및 ASP.NET Core 시작하기](tutorial-aspnet-core.md)와 같은 자습서를 살펴보는 것이 좋습니다.
 

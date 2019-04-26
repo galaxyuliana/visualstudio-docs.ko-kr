@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3c87339e26e5b08fbcbdcde94d43c9f0009e1a22
-ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59232420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975653"
 ---
 # <a name="add-visual-studio-editor-support-for-other-languages"></a>다른 언어에 대한 Visual Studio 편집기 지원 추가
 
@@ -90,4 +90,4 @@ TextMate 문법을 만드는 방법에 대한 자세한 내용은 [TextMate – 
 ## <a name="see-also"></a>참고 항목
 
 - [연습: 코드 조각 만들기](../ide/walkthrough-creating-a-code-snippet.md)
-- [연습: 문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)
+- [연습: 명령문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)

@@ -5,12 +5,12 @@ author: therealjohn
 ms.author: johmil
 ms.date: 04/02/2019
 ms.assetid: 83FDD7A3-5D16-4B4B-9080-078E3FB5C623
-ms.openlocfilehash: 8d2cff0f2366a1f59dc70db7fd36415e853e1d2e
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: 56050de063dcbc86bfa469ee9f466a8e87bba973
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966021"
 ---
 # <a name="using-visual-studio-for-mac-tools-for-unity"></a>Mac용 Visual Studio Tools for Unity 사용
 
@@ -102,7 +102,6 @@ Mac용 Visual Studio로 Unity 프로젝트를 디버그할 수 있습니다.
    ![Unity에서 Play([플레이]) 클릭](media/using-vsmac-tools-unity-image6.png)
 
 3. Visual Studio에 연결된 Unity 편집기에서 게임을 실행하면 중단점에 도달할 때 게임 실행이 일시 중지되고 게임이 중단점에 도달한 코드 줄이 Mac용 Visual Studio에 표시됩니다.
-
 
 ### <a name="start-debugging-in-a-single-step"></a>단일 단계에서 디버깅 시작
 

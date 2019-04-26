@@ -8,12 +8,12 @@ ms.author: karann
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9d92c266b0504f021328175d436216d9c86a6032
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d3ae795b464d8a693371b1ebb9238a897debbf02
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62892625"
 ---
 # <a name="xaml-errors-and-warnings"></a>XAML 오류 및 경고
 
@@ -31,7 +31,6 @@ XAML을 작성하면 Visual Studio에서는 입력한 코드를 분석합니다.
 
 > [!Note]
 > 일부 오류 또는 경고에는 해당 코드가 포함됩니다. 이러한 오류는 일반적으로 XAML 디자이너 오류입니다.
-
 
 ## <a name="suppress-xaml-designer-errors"></a>XAML 디자이너 오류 표시 안 함
 

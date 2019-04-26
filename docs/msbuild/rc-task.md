@@ -23,11 +23,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a69649a7babacb0fe08b483380214f17f2e582f8
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974659"
 ---
 # <a name="rc-task"></a>RC 작업
 Microsoft Windows 리소스 컴파일러 도구, *rc.exe*를 래핑합니다. **RC** 작업은 커서, 아이콘, 비트맵, 대화 상자 및 글꼴과 같은 리소스를 리소스(*.res*) 파일로 컴파일합니다. 자세한 내용은 [리소스 컴파일러](https://docs.microsoft.com/windows/desktop/menurc/resource-compiler)를 참조하세요.

@@ -8,26 +8,26 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 45944afe3c5ebd1baa307f6063b021c09fd6bfa6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 1be8af11dd9b03b8c63d34b60e6af3c3c8147b48
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62894187"
 ---
 # <a name="how-to-create-a-basic-3d-model"></a>방법: 기본 3D 모델 만들기
 
 이 문서에서는 모델 편집기를 사용하여 기본 3D 모델을 만드는 방법을 설명합니다. 다음과 같은 작업을 설명합니다.
 
--   장면에 개체 추가
+- 장면에 개체 추가
 
--   면 및 가장자리 선택
+- 면 및 가장자리 선택
 
--   선택 영역 변환
+- 선택 영역 변환
 
--   **면 나누기** 및 **면 돌출** 도구 사용
+- **면 나누기** 및 **면 돌출** 도구 사용
 
--   **삼각 측량** 명령 사용
+- **삼각 측량** 명령 사용
 
 ## <a name="create-a-basic-3d-model"></a>기본 3D 모델 만들기
  모델 편집기를 사용하여 게임 또는 앱에 사용할 3D 모델 및 장면을 만들고 수정할 수 있습니다. 다음 단계에서는 모델 편집기를 사용하여 집의 단순 3D 모델을 만드는 방법을 보여줍니다. 단순 모델은 계속 생성 중인 최종 아트 자산의 대체물로, 충돌 탐지를 위한 메시로, 표현하는 개체가 너무 멀어 자세한 렌더링을 사용할 수 없을 때 덜 자세한 모델로 사용할 수 있습니다.

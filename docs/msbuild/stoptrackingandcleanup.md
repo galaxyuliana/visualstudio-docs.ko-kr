@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 56f4fb82ab0e9792cadbeeea05499744e4c8ce46
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62939025"
 ---
 # <a name="stoptrackingandcleanup"></a>StopTrackingAndCleanup
 모든 추적을 중지하고 추적 세션에 사용된 메모리를 해제합니다.

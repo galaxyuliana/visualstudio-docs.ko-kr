@@ -13,12 +13,12 @@ dev_langs:
 - vb
 ms.workload:
 - multiple
-ms.openlocfilehash: 511305bd335bfb982590db2c52c35fabbfc7b841
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: 4619a56bfe052a1fb191af8edfd1cef8b376617b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976817"
 ---
 # <a name="create-a-windows-forms-app-in-visual-studio-with-visual-basic"></a>Visual Studio에서 Visual Basic을 사용하여 Windows Forms 앱 만들기
 
@@ -26,7 +26,7 @@ Visual Studio IDE(통합 개발 환경)에 대한 이 짧은 소개에서는 Win
 
 ::: moniker range="vs-2017"
 
-아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지로 이동하여 체험용으로 설치합니다.
+아직 Visual Studio를 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 페이지로 이동하여 체험용으로 설치합니다.
 
 ::: moniker-end
 
@@ -155,4 +155,4 @@ Visual Basic 프로젝트 템플릿을 선택하고 파일 이름을 지정한 �
 ## <a name="see-also"></a>참고 항목
 
 * [빠른 시작: Visual Studio에서 Visual Basic을 사용하여 콘솔 앱 만들기](quickstart-visual-basic-console.md)
-* [Visual Basic IntelliSense에 대한 자세한 정보](visual-basic-specific-intellisense.md)
+* [Visual Basic IntelliSense에 대한 자세한 내용](visual-basic-specific-intellisense.md)

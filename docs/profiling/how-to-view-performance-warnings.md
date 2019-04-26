@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 55c699f7d3bc1a74383da5eef481ee080c6d85e1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62996152"
 ---
 # <a name="how-to-view-performance-warnings"></a>방법: 성능 경고 보기
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구의 성능 경고는 프로파일링된 애플리케이션에서 프로그램 실행 속도를 저하시킬 수 있는 문제를 나타냅니다. 또한 경고는 보다 유용한 데이터를 수집하기 위해 수집 방법을 변경해야 할 수 있음을 나타낼 수도 있습니다. 성능 경고는 프로파일링 세션에서 자동으로 생성되며 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE에서 프로파일링 데이터 파일을 열 때 **오류 목록** 창에 표시됩니다.

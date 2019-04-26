@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: febf742ca7a54a14d8de59c251bb8783cf76370a
-ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
+ms.openlocfilehash: 3965fdaa085d609fd87bf070e9a38aa2079cc9b5
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58567882"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62899182"
 ---
 # <a name="publish-an-application-to-azure-app-service-by-importing-publish-settings-in-visual-studio"></a>Visual Studio에서 게시 설정을 가져와서 Azure App Service에 애플리케이션 게시
 
@@ -100,6 +100,7 @@ ms.locfileid: "58567882"
       </publishProfile>
     </publishData>
     ```
+
     일반적으로 이전 *.publishsettings 파일은 Visual Studio에서 사용할 수 있는 두 개의 게시 프로필을 포함합니다(웹 배포를 사용하여 배포하는 것 하나, FTP를 사용하여 배포하는 것 하나). 위의 코드는 웹 배포 프로필을 보여줍니다. 나중에 프로필을 가져올 때 두 프로필을 모두 가져옵니다.
 
 ## <a name="import-the-publish-settings-in-visual-studio-and-deploy"></a>Visual Studio에서 게시 설정 가져오기 및 배포

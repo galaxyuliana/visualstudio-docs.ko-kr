@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 05266a6f1b5ee0be22e2edc8df1c03b720844f4f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55924125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62968082"
 ---
 # <a name="debugexe-devenvexe"></a>/DebugExe(devenv.exe)
 
@@ -40,7 +40,7 @@ devenv /DebugExe ExecutableFile
 
 *ExecutableFile* 매개 변수 다음에 나오는 모든 문자열은 해당 파일에 인수로 전달됩니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 다음 예제는 디버깅을 위해 `MyApplication.exe` 파일을 엽니다.
 

@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 822ce0a2f0e8632706a4a1551cc53aafb23563ed
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 2e397d587032bb6a8c125d38c10000e6a496c2d2
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57983035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62973021"
 ---
 # <a name="use-different-web-browsers-with-coded-ui-tests"></a>코딩된 UI 테스트에 다른 웹 브라우저 사용
 
@@ -24,13 +24,13 @@ ms.locfileid: "57983035"
 
 ## <a name="whats-supported-across-all-web-browsers"></a>모든 웹 브라우저에 어떤 기능이 지원됩니까?
 
--   속성, 검색, 재생 대기자 등 [기능 제어를 위한 사용자 지정 코드를 추가](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/)합니다.
+- 속성, 검색, 재생 대기자 등 [기능 제어를 위한 사용자 지정 코드를 추가](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/)합니다.
 
--   팝업 및 대화 상자
+- 팝업 및 대화 상자
 
--   [반환 형식이 없는 기본 JavaScript 실행](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
+- [반환 형식이 없는 기본 JavaScript 실행](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
 
--   검색 복원력(스마트 매치 사용) 및 [성능 향상](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
+- 검색 복원력(스마트 매치 사용) 및 [성능 향상](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
 
 ## <a name="why-should-i-use-coded-ui-tests-across-multiple-web-browser-types"></a>여러 웹 브라우저 형식에 코딩된 UI 테스트를 사용해야 하는 이유는 무엇입니까?
 
@@ -78,17 +78,17 @@ ms.locfileid: "57983035"
 
 웹 애플리케이션을 디버깅하려면 다음 구성 옵션을 완료해야 합니다.
 
-1.  내 코드만 사용:
+1. 내 코드만 사용:
 
-    1.  **도구** 메뉴에서 **옵션**을 선택한 다음 **디버깅**을 선택합니다.
+    1. **도구** 메뉴에서 **옵션**을 선택한 다음 **디버깅**을 선택합니다.
 
-    2.  **내 코드만 사용**을 선택합니다.
+    2. **내 코드만 사용**을 선택합니다.
 
-2.  CLR 예외 사용 안 함:
+2. CLR 예외 사용 안 함:
 
-    1.  **디버그** 메뉴에서 **예외**를 선택합니다.
+    1. **디버그** 메뉴에서 **예외**를 선택합니다.
 
-    2.  **공용 언어 런타임 예외**에 대해 **사용자가 처리하지 않음**을 선택 취소합니다.
+    2. **공용 언어 런타임 예외**에 대해 **사용자가 처리하지 않음**을 선택 취소합니다.
 
 코딩된 UI 테스트에서 `BrowserWindow.CurrentBrowser`을 변경할 옵션이 표시되지 않는 경우 다양한 웹 브라우저를 사용하여 코딩된 UI 테스트를 지원하지 않는 Visual Studio 버전을 사용하는 중일 수 있습니다. 코딩된 UI 테스트를 사용하려면 Visual Studio Enterprise edition을 사용해야 합니다.
 

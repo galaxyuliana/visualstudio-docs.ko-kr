@@ -7,12 +7,12 @@ ms.date: 01/02/2018
 ms.topic: conceptual
 description: 별칭 또는 대화명을 사용하는 경우 로그인에 실패할 수 있습니다.
 searchscope: VS Subscription
-ms.openlocfilehash: f0b18aca4c6188c23998c8a87f86359895198b95
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: ac3f9df365e0b7924b615c2ae8cbb70d93d04948
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58195153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946180"
 ---
 # <a name="signing-in-to-visual-studio-subscriptions-may-fail-when-using-aliases"></a>별칭을 사용하여 Visual Studio 구독에 로그인하지 못할 수 있음
 
@@ -51,7 +51,6 @@ ms.locfileid: "58195153"
     > [!div class="mx-imgBorder"]
     > ![구독 메뉴](_img//vlsc/vlsc-subscriptions.png)
 
-
 3. Visual Studio 구독에 연결된 **계약 번호**를 클릭합니다.
 
     > [!div class="mx-imgBorder"]
@@ -82,21 +81,23 @@ ms.locfileid: "58195153"
 
 시작 전자 메일이 구독자에 성공적으로 도달하지 않으므로 아래 메시지를 복사하여 전자 메일에 붙여넣고 구독자에게 보냅니다. %WORD%를 각 구독자에 대한 적절한 정보로 바꿉니다.
 
------------ 아래 복사(Ctrl+C) -----------
+```
+----------- Copy Below (Ctrl+C) -----------
 
-안녕하세요 %SUBSCRIBER NAME% 님,
+Hello %SUBSCRIBER NAME%
 
-Visual Studio 구독이 할당되었습니다. [https://my.visualstudio.com](https://my.visualstudio.com) 을 방문하고 %DIRECTORY ADDRESS% 주소로 로그인하여 구독을 활성화하고 액세스하세요.
+You have been assigned a Visual Studio subscription. Please visit https://my.visualstudio.com, and log in with your %DIRECTORY ADDRESS% address to activate and access your subscription.
 
-문제가 있는 경우 지원 팀(https://visualstudio.microsoft.com/subscriptions/support/))에 문의하세요.
+If you’re having trouble, please contact the support team (https://visualstudio.microsoft.com/subscriptions/support/).
 
-페이지 아래쪽에서 다음을 선택합니다.
-   - 계정, 구독 및 청구 지원
-   - 문제에서 구독 로그인 지원 선택
-   - 적절한 국가 선택
-   - 원하는 보조 지원 옵션 선택
+At the bottom of the page, select the following:
+   - Accounts, Subscriptions, and Billing Support
+   - From Issue, choose Subscription sign in support
+   - Choose the appropriate Country
+   - Select the desired Assisted Support option
 
------------ 복사 끝 -----------
+----------- End Copy -----------
+```
 
 ## <a name="defining-a-work-or-school-account-as-a-personal-account"></a>회사 또는 학교 계정을 개인 계정으로 정의
 
@@ -127,35 +128,37 @@ Visual Studio 구독이 할당되었습니다. [https://my.visualstudio.com](htt
 
 위에 설명된 시나리오에서 구독자는 “시작 전자 메일”을 받지만 별칭 지정으로 인해 로그인할 수 없습니다.  아래 텍스트를 사용하여 위 단계에 대해 구독자에게 알리고 필요한 경우 지원 옵션을 권장할 수 있습니다.  %WORD%를 각 구독자에 대한 적절한 정보로 바꿉니다.
 
------------ 아래 복사(Ctrl+C) -----------
+```
+----------- Copy Below (Ctrl+C) -----------
 
-안녕하세요 %SUBSCRIBER NAME% 님,
+Hello %SUBSCRIBER NAME%
 
-Visual Studio 구독이 할당되었고 시작 이메일을 기반으로 https://my.visualstudio.com 에 로그인하도록 지시되었을 수 있습니다.  이는 혜택을 이용하기 위한 올바른 웹 사이트이지만 조직에서는 사이트에 액세스하기 전에 몇 가지 추가 단계를 수행해야 합니다.  회사 전자 메일 주소에 연결된 “Microsoft 계정”을 만드는 데 도움이 되는 아래 지침을 따르세요.  이러한 단계가 완료되면 전자 메일 주소를 사용하여 구독 혜택에 액세스합니다.
-1. [https://my.visualstudio.com](https://my.visualstudio.com) 을 방문해 보세요.
+You have been assigned a Visual Studio subscription, and may have been directed to log into https://my.visualstudio.com based on your Welcome email.  While this is the correct website for consuming benefits, our organization requires you to take a few extra steps before you can access the site.  Please follow the below instructions to help you create a “Microsoft Account” that is tied to our corporate email address.  Once these steps are completed, you will use your email address to access the Subscription benefits.
+1. Visit https://my.visualstudio.com
 
-2. 오른쪽에서 [새 Microsoft 계정 만들기]를 클릭합니다.
+2. Click Create new Microsoft Account on the right hand side
 
-3. 폼을 완료합니다.
-   - someone@example.com 상자에서 회사 전자 메일 주소를 사용합니다.
-   - 암호를 입력합니다.
-   - 프로모션 기본 설정을 선택합니다.
-   - 다음을 클릭합니다.
+3. Complete the Form:
+   - Use your corporate email address in the someone@example.com box
+   - Enter a password
+   - Select your promotional preference
+   - Click Next
 
-4. 계정 유효성 검사 단계를 완료합니다.
+4. Complete the account validation steps
 
-5. 필요한 경우 Visual Studio 프로필을 완료합니다.
+5. If necessary, complete the Visual Studio profile
 
-6. 이제 혜택을 확인해야 합니다.
+6. You should now see your benefits
 
-참고:  나중에 https://my.visualstudio.com을 방문하면 사용할 계정을 선택하라는 메시지가 표시될 수 있습니다(예: “회사 또는 학교 계정” 또는 “개인 계정”).  위의 단계를 수행한 후 “개인 계정” 옵션을 활용해야 합니다.
+Note:  When visiting https://my.visualstudio.com in the future, you may be prompted to select which account you’d like to use (e.g. “Work or School Account” or “Personal Account”).  After following the steps above, you will need to leverage the “Personal Account” option.
 
-문제가 있는 경우 지원 팀(https://visualstudio.microsoft.com/subscriptions/support/))에 문의하세요.
+If you’re having trouble, please contact the support team (https://visualstudio.microsoft.com/subscriptions/support/).
 
-페이지 아래쪽에서 다음을 선택합니다.
-   - 계정, 구독 및 청구 지원
-   - 문제에서 구독 로그인 지원 선택
-   - 적절한 국가 선택
-   - 원하는 보조 지원 옵션 선택
+At the bottom of the page, select the following:
+   - Accounts, Subscriptions, and Billing Support
+   - From Issue, choose Subscription sign in support
+   - Choose the appropriate Country
+   - Select the desired Assisted Support option
 
------------ 복사 끝 -----------
+----------- End Copy -----------
+```

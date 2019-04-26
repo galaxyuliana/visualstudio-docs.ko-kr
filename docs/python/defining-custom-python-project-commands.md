@@ -11,11 +11,11 @@ ms.workload:
 - python
 - data-science
 ms.openlocfilehash: ec53a67980866ed6422fae5764bbf6a9313ef91e
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366720"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62957710"
 ---
 # <a name="define-custom-commands-for-python-projects"></a>Python 프로젝트에 대한 사용자 지정 명령 정의
 
@@ -379,7 +379,7 @@ Visual Studio가 해당 경고에서 올바른 정보를 추출하고 이를 **�
 - 필수 `Target` 특성이 비어 있습니다.
 - 필수 `TargetType` 특성이 비어 있거나 인식되지 않는 값을 포함합니다.
 - 필수 `ExecuteIn` 특성이 비어 있거나 인식되지 않는 값을 포함합니다.
-- `ErrorRegex` 또는 `WarningRegex`는 `ExecuteIn="output"` 설정 없이 지정됩니다.
+- `ErrorRegex` 또는 `WarningRegex`는 설정 `ExecuteIn="output"` 없이 지정됩니다.
 - 요소에 인식되지 않는 특성이 존재합니다. `Arguments` 대신 `Argumnets`(철자 틀림)를 사용했을 수 있습니다.
 
 정의되지 않은 특성을 참조하면 특성 값이 비어 있을 수 있습니다. 예를 들어 토큰 `$(StartupFile)`을 사용하지만 프로젝트에 시작 파일이 정의되어 있지 않으면 토큰이 빈 문자열로 확인됩니다. 그러한 경우 기본값을 정의하는 것이 좋습니다. 예를 들어 Bottle, Flask 및 Django 프로젝트 템플릿에 정의된 **Run server** 및 **Run debug server** 명령은 프로젝트 속성에 서버 시작 파일을 다른 방법으로 지정하지 않은 한 기본적으로 *manage.py*로 지정됩니다.

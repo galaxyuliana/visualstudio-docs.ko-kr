@@ -10,11 +10,11 @@ dev_langs:
 ms.workload:
 - dotnet
 ms.openlocfilehash: 2708bca578b613fac77e9b8ce77b1b2aff8f0945
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62968156"
 ---
 # <a name="refactoring-to-replace-var-with-an-explicit-type"></a>var을 명시적 형식으로 바꾸도록 리팩터링
 

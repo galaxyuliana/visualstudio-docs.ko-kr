@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e66c8b597e999f1eab3a52c663537ee94fe4f40a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817442"
 ---
 # <a name="msbuild-advanced-concepts"></a>MSBuild 고급 개념
 이 섹션의 문서에서는 MSBuild를 사용하여 실행되는 빌드를 개선하기 위해 고급 기술을 사용하는 방법에 대해 설명합니다.

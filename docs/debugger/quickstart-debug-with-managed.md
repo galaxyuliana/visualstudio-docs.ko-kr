@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: a5e39778a2d503470629f6c8b7c9243b9dc69cf3
-ms.sourcegitcommit: 7eb85d296146186e7a39a17f628866817858ffb0
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "59504083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62903829"
 ---
 # <a name="quickstart-debug-with-c-or-visual-basic-using-the-visual-studio-debugger"></a>빠른 시작: Visual Studio 디버거를 사용하여 C# 또는 Visual Basic으로 디버그
 

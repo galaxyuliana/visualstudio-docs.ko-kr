@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 39b220ddc42857040a51b2308c6d4a83d931de09
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: ad54dc716e02eabcc064d87213d01491f43eae82
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62975523"
 ---
 # <a name="how-to-add-comments-to-class-diagrams"></a>방법: 클래스 다이어그램에 설명 추가
 
@@ -31,9 +31,9 @@ ms.locfileid: "55970545"
 
 ## <a name="to-add-a-comment"></a>주석을 추가하려면
 
-1.  **클래스 디자이너 도구 상자**에서 클래스 다이어그램으로 주석을 끕니다.
+1. **클래스 디자이너 도구 상자**에서 클래스 다이어그램으로 주석을 끕니다.
 
-2.  다이어그램에서 새 주석 도형을 클릭하고 원하는 텍스트를 입력합니다.
+2. 다이어그램에서 새 주석 도형을 클릭하고 원하는 텍스트를 입력합니다.
 
 ## <a name="see-also"></a>참고 항목
 

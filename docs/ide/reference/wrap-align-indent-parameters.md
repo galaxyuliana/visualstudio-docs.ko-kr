@@ -11,11 +11,11 @@ dev_langs:
 ms.workload:
 - dotnet
 ms.openlocfilehash: 9c17d5c9d6874c836954941e1fccd8ce9d9f2e3a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58149265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62789069"
 ---
 # <a name="wrap-indent-and-align-parameters"></a>래핑, 들여쓰기 및 매개 변수 정렬
 

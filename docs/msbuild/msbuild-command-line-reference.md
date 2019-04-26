@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 88a2aaf448362c8e35156f39d86236e66deed571
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62931337"
 ---
 # <a name="msbuild-command-line-reference"></a>MSBuild 명령줄 참조
 *MSBuild.exe*를 사용하여 프로젝트 또는 솔루션 파일을 빌드할 경우 여러 스위치를 포함하여 프로세스의 다양한 측면을 지정할 수 있습니다.
@@ -43,7 +43,7 @@ MSBuild.exe [Switches] [ProjectFile]
 
 ## <a name="switches"></a>스위치
 
-|전환|약식|설명|
+|스위치|약식|설명|
 |------------|----------------|-----------------|
 |-help|/? 또는 -h|사용법 정보를 표시합니다. 다음 명령을 예로 들 수 있습니다.<br /><br /> `msbuild.exe -?`|
 |-detailedsummary|-ds|빌드된 구성과 노드에 대한 해당 구성의 예약 상태와 관련된 자세한 정보를 빌드 로그 끝에 표시합니다.|
@@ -64,7 +64,7 @@ MSBuild.exe [Switches] [ProjectFile]
 
 ### <a name="switches-for-loggers"></a>로거 스위치
 
-|전환|약식|설명|
+|스위치|약식|설명|
 |------------|----------------|-----------------|
 |-consoleloggerparameters:<br /><br /> `parameters`|-clp:`parameters`|지정한 매개 변수를 콘솔 로거에 전달하면 콘솔 창에 빌드 정보가 표시됩니다. 다음 매개 변수를 지정할 수 있습니다.<br /><br /> -   **PerformanceSummary**. 작업, 대상 및 프로젝트에 소요된 시간을 표시합니다.<br />-   **Summary**. 끝에 오류 및 경고 요약을 표시합니다.<br />-   **NoSummary**. 끝에 오류 및 경고 요약을 표시하지 않습니다.<br />-   **ErrorsOnly**. 오류만 표시합니다.<br />-   **WarningsOnly**. 경고만 표시합니다.<br />-   **NoItemAndPropertyList**. 자세한 정도를 `diagnostic`으로 설정한 경우 각 프로젝트 빌드의 시작 부분에 표시될 항목 및 속성 목록을 표시하지 않습니다.<br />-   **ShowCommandLine**. `TaskCommandLineEvent` 메시지를 표시합니다.<br />-   **ShowTimestamp**. 원하는 메시지에 접두사로 타임스탬프를 표시합니다.<br />-   **ShowEventId**. 각각 시작된 이벤트, 완료된 이벤트 및 메시지에 대한 이벤트 ID를 표시합니다.<br />-   **ForceNoAlign**. 텍스트를 콘솔 버퍼 크기에 맞추지 않습니다.<br />-   **DisableConsoleColor**. 모든 로깅 메시지에 기본 콘솔 색을 사용합니다.<br />-   **DisableMPLogging**. 다중 프로세서가 아닌 모드에서 실행할 때 출력의 다중 프로세서 로깅 스타일을 사용하지 않습니다.<br />-   **EnableMPLogging**. 다중 프로세서가 아닌 모드에서 실행할 때도 다중 프로세서 로깅 스타일을 사용합니다. 이 로깅 스타일은 기본적으로 설정되어 있습니다.<br />-   **Verbosity**. 이 로거에 대한 **-verbosity** 설정을 재정의합니다.<br /><br /> 다음 예제에서와 같이 여러 매개 변수는 세미콜론이나 쉼표로 구분합니다.<br /><br /> `-consoleloggerparameters:PerformanceSummary;NoSummary -verbosity:minimal`|
 |-distributedFileLogger|-dfl|MSBuild 노드의 빌드 출력을 자체 파일에 로깅합니다. 이러한 파일의 초기 위치는 현재 디렉터리입니다. 기본적으로 파일 이름은 *MSBuild\<NodeId>.log*입니다. **-fileLoggerParameters** 스위치를 사용하여 파일 위치 및 fileLogger의 기타 매개 변수를 지정할 수 있습니다.<br /><br /> **-fileLoggerParameters** 스위치를 사용하여 로그 파일 이름을 지정하는 경우 분산된 로거는 각 노드의 로그 파일을 만들 때 해당 이름을 템플릿으로 사용하고 해당 이름에 노드 ID를 추가합니다.|

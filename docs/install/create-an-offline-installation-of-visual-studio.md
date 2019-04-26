@@ -1,7 +1,7 @@
 ---
 title: 오프라인 설치 만들기
 description: 불안정한 인터넷 연결 또는 낮은 대역폭이 있는 경우 Visual Studio를 오프라인으로 설치하는 방법에 알아봅니다.
-ms.date: 03/28/2019
+ms.date: 04/16/2019
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -16,18 +16,18 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 2b813d92188a2b4e33b87a1391c7ebbea63292f6
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: f6e7c09eee52bd2ac48ccf5c51da59066ca72288
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974106"
 ---
 # <a name="create-an-offline-installation-of-visual-studio"></a>Visual Studio의 오프라인 설치 만들기
 
 ::: moniker range="vs-2017"
 
-Visual Studio 2017은 다양한 네트워크 및 컴퓨터 구성에서 제대로 작동하도록 설계되었습니다. 가능한 한 [Visual Studio 웹 설치 관리자](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)를 사용하는 것이 좋습니다. &mdash;이 파일은 작은 파일이며 최신 수정 사항 및 기능을 최신 상태로 유지할 수 있습니다&mdash;.
+Visual Studio 2017은 다양한 네트워크 및 컴퓨터 구성에서 제대로 작동하도록 설계되었습니다. 가능한 한 [Visual Studio 웹 설치 관리자](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)를 사용하는 것이 좋습니다. &mdash;이 파일은 작은 파일이며 최신 수정 사항 및 기능을 최신 상태로 유지할 수 있습니다&mdash;.
 
 ::: moniker-end
 
@@ -184,4 +184,4 @@ c:\vslayout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDeskto
 - [Visual Studio의 네트워크 설치 만들기](../install/create-a-network-installation-of-visual-studio.md)
 - [Visual Studio 오프라인 설치에 필요한 인증서 설치](../install/install-certificates-for-visual-studio-offline.md)
 - [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
-- [Visual Studio 워크로드 및 구성 요소 ID](workload-and-component-ids.md)
+- [Visual Studio 작업 및 구성 요소 ID](workload-and-component-ids.md)

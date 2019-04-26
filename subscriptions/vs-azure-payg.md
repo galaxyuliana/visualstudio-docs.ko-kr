@@ -7,12 +7,12 @@ ms.date: 10/03/2017
 ms.topic: conceptual
 description: Azure 종량제(Pay-As-You-Go) 계정을 설정하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: a5d6c0c609ddd87e29e7870792cbb558a756be6d
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 275088d1683c740e51caccb2ad4500dcc2885752
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62948283"
 ---
 # <a name="setting-up-an-azure-devtest-pay-as-you-go-subscription"></a>Azure 개발/테스트 종량제 구독 설정
 클라우드에서 팀과 공동으로 작업해 보세요.  여러 개발 및 테스트 종량제(PAYG, Pay-As-You-Go) 구독을 만들면 다른 구독자와 공동 작업을 가능하게 하는 한편 팀과 환경 간의 격리를 제공합니다.  Azure에서 구독 소프트웨어의 개발/테스트 및 클라우드 사용권에 대한 시간당 요금이 독점적으로 할인됩니다.
@@ -31,11 +31,9 @@ ms.locfileid: "56843911"
    > [!div class="mx-imgBorder"]
    > ![Azure 종량제 등록](_img/vs-azure-payg/vs-azure-payg-identity-cropped.png)
 
-
 5. 다음으로 계정에 대한 청구 정보를 제공하고 **다음**을 클릭합니다.  (모든 Azure 구매에 대해 청구되는 신용 카드에 대한 정보입니다.)
    > [!div class="mx-imgBorder"]
    > ![Azure 종량제 결제](_img/vs-azure-payg/vs-azure-payg-payment-cropped.png)
-
 
 6. 계약 섹션에서 확인란을 클릭하여 구독 계약에 동의하고 세부 정보 및 개인정보처리방침을 수락한 다음 **구매**를 클릭합니다.
 

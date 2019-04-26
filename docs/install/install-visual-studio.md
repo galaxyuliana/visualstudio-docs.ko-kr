@@ -2,7 +2,7 @@
 title: Visual Studio 설치
 titleSuffix: ''
 description: Visual Studio를 설치하는 방법을 단계별로 알아봅니다.
-ms.date: 03/30/2019
+ms.date: 04/16/2019
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -20,12 +20,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: b45778cfbf34a6703de365bcf2a85be994a05173
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: 0d4ad3767e8ee6076f45deefa5c532b62175520f
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974944"
 ---
 # <a name="install-visual-studio"></a>Visual Studio 설치
 
@@ -105,7 +105,7 @@ Visual Studio 2019와 함께 이전 버전의 Visual Studio를 실행하는 방�
 ::: moniker range="vs-2017"
 
  > [!div class="button"]
- > [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+ > [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
 
 ::: moniker-end
 
@@ -182,7 +182,6 @@ Workloads 기능을 사용하여 Visual Studio 설치를 사용자 지정하지 
   ![Visual Studio 2019 - 개별 구성 요소 설치](media/vs-2019/vs-installer-individual-components.png "Visual Studio 개별 구성 요소 설치")
 
 ::: moniker-end
-
 
 ## <a name="step-6---install-language-packs-optional"></a>6단계 - 언어 팩 설치(선택 사항)
 

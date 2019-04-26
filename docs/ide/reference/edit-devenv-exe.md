@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 26433d62a68b28450a56eee1282376733acfe55c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55911912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838804"
 ---
 # <a name="edit-devenvexe"></a>/Edit (devenv.exe)
 
@@ -45,7 +45,7 @@ devenv /Edit [File1[ FileN]...]
 
 기존 Visual Studio 인스턴스가 모달 상태인 경우 Visual Studio가 모달 상태를 종료하면 파일이 기존 인스턴스에서 열립니다. 예를 들어 이 경우는 [[옵션] 대화 상자](../../ide/reference/options-dialog-box-visual-studio.md)가 열릴 때 발생할 수 있습니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 첫 번째 예제에서는 기존 Visual Studio 인스턴스에서 `MyFile.cs` 파일을 엽니다. Visual Studio 인스턴스가 없으면 파일이 새 인스턴스에서 열립니다. 두 번째 예제는 단 하나의 파일이 아니라 3개 파일을 여는 것을 제외하고는 유사합니다.
 

@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 55272f5d30602d03d0f3bb7e2ac16e9a709cafdf
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55912406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970059"
 ---
 # <a name="list-call-stack-command"></a>호출 스택 목록 표시 명령
 현재 호출 스택을 표시합니다.
@@ -100,7 +100,7 @@ kb 2
 
  현재 스택 프레임을 두 번째 프레임으로 설정할 수 있습니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```cmd
 >Debug.CallStack /Count:4 /ShowTypes:yes

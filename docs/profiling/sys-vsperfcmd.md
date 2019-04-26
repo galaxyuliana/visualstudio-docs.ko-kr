@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5f0a63cfca8e06d999c585793fabdce627d4896d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62968043"
 ---
 # <a name="sys-vsperfcmd"></a>Sys(VSPerfCmd)
 *VSPerfCmd.exe***Sys** 옵션은 시스템 호출 이벤트(프로파일링된 애플리케이션에서 운영 체제로 함수 호출)로 샘플링되는 프로파일링 이벤트를 설정하고 필요에 따라 기본값 10의 샘플링 간격에서 시스템 호출 수를 변경합니다.

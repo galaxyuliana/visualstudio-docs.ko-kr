@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: cb1521623880712211ea04e5c572c7cf4bd85133
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62960162"
 ---
 # <a name="zoom-control-threads-view"></a>확대/축소 컨트롤(스레드 뷰)
 확대/축소 컨트롤은 특정 관심 영역을 중점적으로 확인하기 위해 시간 표시 막대를 확대/축소하는 데 사용할 수 있는 슬라이더입니다. 이 컨트롤은 시간 표시 막대 뷰의 가운데를 확대하므로, 확대하기 전에 관심 영역을 가운데에 맞춰야 합니다.

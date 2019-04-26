@@ -9,13 +9,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4da08c2a7fed28b7f4ca75770682673bf58e30c3
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56316082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62951076"
 ---
-# <a name="overview-suggest-a-feature"></a>Overview: ADO.NET Data Services 기능 제안
+# <a name="overview-suggest-a-feature"></a>개요: 기능 제안
 
 [Visual Studio 개발자 커뮤니티](https://developercommunity.visualstudio.com)에서는 문제를 보고하는 현재 기능과 더불어 기능을 제안하기 위한 새로운 환경이 도입되었습니다. 이는 Visual Studio의 엔지니어링 워크플로에 직접 참여할 수 있는 새로운 방법입니다.
 

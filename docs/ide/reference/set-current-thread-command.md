@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 88ede32645c9fc761c476e9f4d45ddf11a7577a3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55970740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62934621"
 ---
 # <a name="set-current-thread-command"></a>현재 스레드 설정 명령
 지정한 스레드를 현재 스레드로 설정합니다.
@@ -34,7 +34,7 @@ Debug.SetCurrentThread index
 
  필수 요소. 해당 인덱스로 스레드를 선택합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 ```
 >Debug.SetCurrentThread 1

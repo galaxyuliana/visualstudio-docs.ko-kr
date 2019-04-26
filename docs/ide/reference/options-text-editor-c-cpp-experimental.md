@@ -12,11 +12,11 @@ manager: wpickett
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 088359aeabc45966aed927693ecbab75751eca2a
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58789993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817925"
 ---
 # <a name="options-text-editor-cc-experimental"></a>옵션, 텍스트 편집기, C/C++, 실험적
 
