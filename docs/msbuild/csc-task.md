@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a505194a71058d791b7d67d74cd203c43298d684
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62778415"
 ---
 # <a name="csc-task"></a>Csc 작업
 *csc.exe*를 래핑하고 실행(*.exe* 파일), 동적 연결 라이브러리(*.dll* 파일) 또는 코드 모듈(*.netmodule* 파일)을 생성합니다. *csc.exe*에 대한 자세한 내용은 [C# 컴파일러 옵션](/dotnet/csharp/language-reference/compiler-options/index)을 참조하세요.

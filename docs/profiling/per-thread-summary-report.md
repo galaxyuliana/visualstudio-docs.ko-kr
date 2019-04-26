@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 1ab5e88db9f539dd79482044ab3834b27a6b1747
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56630498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62794328"
 ---
 # <a name="per-thread-summary-report"></a>스레드별 요약 보고서
 이 막대 그래프는 현재 표시되는 시간 범위 중 각 작업 범주에서 숨겨진 각 스레드가 소비하는 시간의 비율을 표시합니다. "실행"은 스레드가 실행되고 있음을 의미하며 다른 모든 범주는 스레드가 대기 중임을 의미합니다.

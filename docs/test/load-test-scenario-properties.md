@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 86ed8346a27a02eb7e04c1f7a9fa361b0e03431a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62785958"
 ---
 # <a name="load-test-scenario-properties"></a>부하 테스트 시나리오 속성
 
@@ -28,7 +28,7 @@ ms.locfileid: "55935071"
 |-|----------------|
 |**이름**|시나리오의 이름입니다.|
 
-## <a name="mix"></a>목록
+## <a name="mix"></a>조합
 
 |속성|정의|
 |-|----------------|

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 635f767f97ea3d237aeff843e99735eccae31efc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62831386"
 ---
 # <a name="markerserieswritealert-method"></a>marker_series::write_alert 메서드
 동시성 시각화 도우미 추적 파일에 경고를 씁니다.
