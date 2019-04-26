@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: eae720bdd904c7b904c906022cea700512167617
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54799634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62434230"
 ---
 # <a name="globalon-and-globaloff"></a>GlobalOn 및 GlobalOff
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,7 +66,7 @@ VSPerfCmd.exe {Launch:AppName|Attach:PID} /{GlobalOff|GlobalOn}[Options]
  {**ThreadOff**&#124;**ThreadOn**}**:**`TID`  
  지정된 프로세스에 대한 프로파일링을 중지 또는 시작합니다(계측 방법만 해당).  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제에서는 애플리케이션 시작 및 종료에 대한 프로파일링 데이터가 수집되지 않도록 하기 위해 **GlobalOff** 및 **GlobalOn** 옵션이 사용됩니다.  
   
 ```  
