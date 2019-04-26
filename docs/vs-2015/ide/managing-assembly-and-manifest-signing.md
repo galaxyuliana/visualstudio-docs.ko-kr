@@ -14,12 +14,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 63a2e1b98baa61ef0a83c1de65653dd2e57a8b2c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: d3f842d45df1525cb3f736019eeec52dd65b67aa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54755466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443743"
 ---
 # <a name="managing-assembly-and-manifest-signing"></a>어셈블리 및 매니페스트 서명 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ ms.locfileid: "54755466"
  키 파일을 지정합니다. 새 키 파일을 만들도록 선택하면 새 키 파일은 항상 .pfx 형식으로 만들어집니다. 새 파일의 이름 및 암호가 필요합니다.  
   
 > [!WARNING]
->  다른 사용자가 사용하지 못하도록 키 파일을 항상 암호로 보호해야 합니다. 공급자 또는 인증서 저장소를 사용하여 키를 보호할 수도 있습니다.  
+> 다른 사용자가 사용하지 못하도록 키 파일을 항상 암호로 보호해야 합니다. 공급자 또는 인증서 저장소를 사용하여 키를 보호할 수도 있습니다.  
   
  이미 만든 키를 가리킬 수도 있습니다. 키 만들기에 대한 자세한 내용은 [방법: 공개/개인 키 쌍 만들기](http://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114)를 참조하세요.  
   

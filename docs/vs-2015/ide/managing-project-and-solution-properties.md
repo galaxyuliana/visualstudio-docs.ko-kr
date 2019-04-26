@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f3e9ff4acbfd6df1980a3882311b3d3c4611e064
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: dd20552a72775723c4ad006708ce1fb7f18d4181
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424626"
 ---
 # <a name="managing-project-and-solution-properties"></a>프로젝트 및 솔루션 속성 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "54758123"
  ![솔루션 탐색기 트리의 속성 노드](../ide/media/vs2015-props-se.png "VS2015_Props_SE")  
   
 > [!TIP]
->  솔루션에는 몇 가지 속성이 있으며 프로젝트 항목도 마찬가지입니다. 이러한 속성은 **프로젝트 디자이너**가 아니라 [속성 창](../ide/reference/properties-window.md)에서 액세스합니다.  
+> 솔루션에는 몇 가지 속성이 있으며 프로젝트 항목도 마찬가지입니다. 이러한 속성은 **프로젝트 디자이너**가 아니라 [속성 창](../ide/reference/properties-window.md)에서 액세스합니다.  
   
 ## <a name="project-properties"></a>프로젝트 속성  
  프로젝트 속성은 그룹으로 구성되어 있으며, 각 그룹에 해당 속성 페이지가 있고 언어 및 프로젝트 형식마다 페이지가 다를 수 있습니다.  

@@ -15,12 +15,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7387f2bc55d00695e85df3b023914e8d6fe9696d
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: afee2c56a7f29d50f46c7cbb734bc0297223845c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54768087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446695"
 ---
 # <a name="vsperfclrenv"></a>VSPerfCLREnv
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,12 +34,12 @@ VsPerfCLREnv [/option]
  선택하는 옵션은 세 가지 프로파일링 유형(샘플링, 계측, 전역) 중 사용하는 유형에 따라 달라집니다. 프로파일링 데이터에 계층 상호 작용 데이터를 포함하려면 별도의 옵션이 필요합니다. 다음 표에는 각 옵션의 구문에 대한 설명이 나와 있습니다.  
   
 > [!NOTE]
->  프로파일링을 완료한 후에는 **/off** 또는 **/globaloff** 옵션을 포함해 **VSPerfCLREnv**를 실행하여 프로파일링에 필요한 환경 변수를 삭제합니다. 자세한 내용은 이 문서에 나와 있는 환경 설정 삭제를 위한 VSPerfCLREnv 옵션을 참조하세요.  
+> 프로파일링을 완료한 후에는 **/off** 또는 **/globaloff** 옵션을 포함해 **VSPerfCLREnv**를 실행하여 프로파일링에 필요한 환경 변수를 삭제합니다. 자세한 내용은 이 문서에 나와 있는 환경 설정 삭제를 위한 VSPerfCLREnv 옵션을 참조하세요.  
   
  **계층 상호 작용 데이터를 포함하기 위한 VSPerfCLREnv 옵션**  
   
 > [!WARNING]
->  [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] 또는 [!INCLUDE[vs_pro_current_short](../includes/vs-pro-current-short-md.md)]를 사용하여 계층 상호 작용 프로파일링을 수집할 수 있습니다. 그러나 계층 상호 작용 프로파일링 데이터는 [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] 및 [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]에서만 볼 수 있습니다.  
+> [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] 또는 [!INCLUDE[vs_pro_current_short](../includes/vs-pro-current-short-md.md)]를 사용하여 계층 상호 작용 프로파일링을 수집할 수 있습니다. 그러나 계층 상호 작용 프로파일링 데이터는 [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] 및 [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]에서만 볼 수 있습니다.  
   
  계층 상호 작용 프로파일링에서는 다층 계층 애플리케이션의 ADO.NET 쿼리에 대한 추가 정보를 제공합니다. 동기 함수 호출에 대해서만 데이터가 수집됩니다. 원하는 프로파일링 방법을 사용하여 상호 작용 데이터를 프로파일링 실행에 추가할 수 있습니다.  
   

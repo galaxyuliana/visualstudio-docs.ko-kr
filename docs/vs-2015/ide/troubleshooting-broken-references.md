@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ed23ea566bb27eaa8a315473fdf5345764ad5384
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 45a3f55e826133ce0fd55764e216824810ae45c4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443268"
 ---
 # <a name="troubleshooting-broken-references"></a>Troubleshooting Broken References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ ms.locfileid: "60113952"
   이러한 문제에 대한 해결 방법은 다음과 같습니다.  
   
 > [!NOTE]
->  어셈블리의 파일이 프로젝트 파일의 절대 경로를 사용하여 참조됩니다. 따라서 복수 개발자 환경에서 작업하는 사용자는 로컬 환경에서 참조되는 어셈블리를 놓치고 있을 수 있습니다. 이 오류를 피하려면 이러한 경우에 프로젝트 간 참조를 추가하는 것이 좋습니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) 및 [어셈블리를 사용한 프로그래밍](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)을 참조하세요.  
+> 어셈블리의 파일이 프로젝트 파일의 절대 경로를 사용하여 참조됩니다. 따라서 복수 개발자 환경에서 작업하는 사용자는 로컬 환경에서 참조되는 어셈블리를 놓치고 있을 수 있습니다. 이 오류를 피하려면 이러한 경우에 프로젝트 간 참조를 추가하는 것이 좋습니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) 및 [어셈블리를 사용한 프로그래밍](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)을 참조하세요.  
   
 ## <a name="reference-path-is-incorrect"></a>참조 경로가 잘못됨  
  프로젝트가 여러 컴퓨터에서 공유될 경우 구성 요소가 각 컴퓨터에서 서로 다른 디렉터리에 있으면 일부 참조를 찾지 못할 수 있습니다. 참조는 구성 요소 파일 이름으로 저장됩니다(예: MyComponent). 참조가 프로젝트에 추가되면 구성 요소 파일의 폴더 위치(예: C:\MyComponents\\)가 **ReferencePath** 프로젝트 속성에 추가됩니다.  
@@ -50,7 +50,7 @@ ms.locfileid: "60113952"
  이 문제를 해결하려면 끊어진 참조를 삭제하고 나서 [참조 추가] 대화 상자를 사용하여 바꿀 수 있습니다. 또 다른 해결 방법은 프로젝트의 속성 페이지에서 **참조 경로** 항목을 사용하고 목록에서 폴더를 수정하여 올바른 위치를 가리키는 것입니다. **참조 경로** 속성은 각 컴퓨터에서 사용자별로 유지됩니다. 따라서 참조 경로를 수정해도 프로젝트의 다른 사용자에게 영향을 미치지 않습니다.  
   
 > [!TIP]
->  프로젝트 간 참조에는 이러한 문제가 없습니다. 이런 이유로, 가능한 경우 파일 참조 대신 프로젝트 간 참조를 사용하세요.  
+> 프로젝트 간 참조에는 이러한 문제가 없습니다. 이런 이유로, 가능한 경우 파일 참조 대신 프로젝트 간 참조를 사용하세요.  
   
 #### <a name="to-fix-a-broken-project-reference-by-correcting-the-reference-path"></a>참조 경로를 수정하여 끊어진 프로젝트 문제를 해결하려면  
   

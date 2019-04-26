@@ -16,12 +16,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d42495542f96a4ae4918d9d6477f0877979871d2
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 10280b60c4ae929fce9a0ce563fb1d7cac3fd5f8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441350"
 ---
 # <a name="options-text-editor-file-extension"></a>옵션, 텍스트 편집기, 파일 확장명
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "59655896"
  “인코딩 사용” 옵션을 선택하면 해당 형식의 문서를 열 때마다 해당 문서에 대한 인코딩 체계를 선택할 수 있는 대화 상자가 표시됩니다. 다양한 플랫폼에서 또는 다양한 대상 언어로 사용할 프로젝트 문서 버전을 준비 중이라면 이 대화 상자가 유용할 수 있습니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="uielement-list"></a>UI 요소 목록  
  **확장**  

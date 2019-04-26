@@ -17,12 +17,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0b0587f6c1c5d7577d8fddffb73db31f09248fae
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: a5d7339ac0e79ac318dcf3913be97bec6847ec69
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430538"
 ---
 # <a name="how-to-manage-build-configurations-with-visual-basic-developer-settings-applied"></a>방법: Visual Basic 개발자 설정을 적용하여 빌드 구성 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60075651"
 2. **프로젝트 및 솔루션**을 확장하고 **일반**을 클릭합니다.  
   
     > [!NOTE]
-    >  **일반** 노드는 **모든 설정 표시** 옵션이 선택 취소된 경우에도 표시됩니다. 모든 옵션을 사용 가능하게 표시하려면 **모든 설정 표시**를 클릭합니다.  
+    > **일반** 노드는 **모든 설정 표시** 옵션이 선택 취소된 경우에도 표시됩니다. 모든 옵션을 사용 가능하게 표시하려면 **모든 설정 표시**를 클릭합니다.  
   
 3. **고급 빌드 구성 표시**를 클릭합니다.  
   

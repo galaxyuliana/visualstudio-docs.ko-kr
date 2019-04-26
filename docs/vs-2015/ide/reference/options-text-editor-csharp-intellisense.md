@@ -19,12 +19,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9d1c5638745529a4c9abdf0a27e0c96d486fb9cf
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 4e5ca0c60511ee9537041f3a41f44a0e1f55b5a2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441360"
 ---
 # <a name="options-text-editor-c-intellisense"></a>옵션, 텍스트 편집기, C#, IntelliSense
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "59669161"
 **IntelliSense** 속성 페이지를 사용하여 Visual C#용 IntelliSense의 동작에 영향을 주는 설정을 수정합니다. **도구** 메뉴에서 **옵션**을 클릭하고, **텍스트 편집기** 폴더에서 **C#** 을 클릭하고 나서, **IntelliSense**를 클릭하여 **IntelliSense** 속성 페이지에 액세스할 수 있습니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  **IntelliSense** 속성 페이지에는 다음 속성이 포함되어 있습니다.  
   

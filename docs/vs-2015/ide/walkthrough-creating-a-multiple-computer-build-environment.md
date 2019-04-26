@@ -12,12 +12,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 40e2e4f3882a6bd3b3f7ce9b70aec45f244377d1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: f0967f50c9dce325ff1595fec9d50138aa0a8d74
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438135"
 ---
 # <a name="walkthrough-creating-a-multiple-computer-build-environment"></a>연습: 여러 컴퓨터 빌드 환경 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,7 +93,7 @@ ms.locfileid: "60044305"
   Program Files 폴더의 이름은 설치된 운영 체제에 따라 달라집니다. x86 컴퓨터에서는 이름이 \Program Files\이고, \\x64 컴퓨터에서는 이름이 \Program Files (x86)\입니다\\. 시스템 아키텍처에 관계없이 이 연습에서는 Program Files 폴더를 %ProgramFiles%로 나타냅니다.  
   
 > [!NOTE]
->  빌드 컴퓨터에서는 모든 관련 파일이 동일한 드라이브에 있어야 하지만 해당 드라이브의 드라이브 문자는 호스트 컴퓨터에서 Visual Studio가 설치된 드라이브의 드라이브 문자와 다를 수 있습니다. 어떤 경우이든 이 문서의 뒷부분에 설명된 것처럼 레지스트리 항목을 만들 때는 파일의 위치를 감안해야 합니다.  
+> 빌드 컴퓨터에서는 모든 관련 파일이 동일한 드라이브에 있어야 하지만 해당 드라이브의 드라이브 문자는 호스트 컴퓨터에서 Visual Studio가 설치된 드라이브의 드라이브 문자와 다를 수 있습니다. 어떤 경우이든 이 문서의 뒷부분에 설명된 것처럼 레지스트리 항목을 만들 때는 파일의 위치를 감안해야 합니다.  
   
 #### <a name="to-copy-the-windows-sdk-files-to-the-build-computer"></a>Windows SDK 파일을 빌드 컴퓨터로 복사하려면  
   
@@ -223,7 +223,7 @@ ms.locfileid: "60044305"
 1. 레지스트리 항목의 부모 폴더를 식별합니다. 모든 레지스트리 항목이 동일한 부모 키 아래에 생성됩니다. x86 컴퓨터에서는 부모 키가 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\입니다. x64 컴퓨터에서는 부모 키가 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\입니다. 시스템 아키텍처에 관계없이 이 연습에서는 부모 키를 %RegistryRoot%로 나타냅니다.  
   
    > [!NOTE]
-   >  호스트 컴퓨터의 아키텍처가 빌드 컴퓨터의 아키텍처와 다를 경우 각 컴퓨터에서 적절한 부모 키를 사용해야 합니다. 이는 내보내기 프로세스를 자동화하는 경우 특히 중요합니다.  
+   > 호스트 컴퓨터의 아키텍처가 빌드 컴퓨터의 아키텍처와 다를 경우 각 컴퓨터에서 적절한 부모 키를 사용해야 합니다. 이는 내보내기 프로세스를 자동화하는 경우 특히 중요합니다.  
    >   
    >  또한 호스트 컴퓨터에서 사용하고 있는 것과 다른 드라이브 문자를 빌드 컴퓨터에서 사용하고 있는 경우 레지스트리 항목의 값이 일치하도록 변경해야 합니다.  
   
@@ -334,7 +334,7 @@ ms.locfileid: "60044305"
      **gacutil -i \<file>**  
   
     > [!NOTE]
-    >  어셈블리가 GAC에 완전히 설치되려면 다시 부팅해야 할 수도 있습니다.  
+    > 어셈블리가 GAC에 완전히 설치되려면 다시 부팅해야 할 수도 있습니다.  
   
 ## <a name="BuildingProjects"></a> 프로젝트 빌드  
  [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 프로젝트 및 솔루션은 Team Foundation Build를 사용하거나 명령줄에서 빌드할 수 있습니다. Team Foundation Build를 사용하여 프로젝트를 빌드하면 시스템 아키텍처에 해당하는 MSBuild 실행 파일이 호출됩니다.  명령줄에서는 32비트 MSBuild 또는 64비트 MSBuild를 사용할 수 있으며, PATH 환경 변수를 설정하거나 아키텍처별 MSBuild 실행 파일을 직접 호출하여 MSBuild의 아키텍처를 선택할 수 있습니다.  
@@ -346,17 +346,17 @@ ms.locfileid: "60044305"
  명령줄에서 MSBuild를 사용하는 방법에 대한 자세한 내용은 [명령줄 참조](../msbuild/msbuild-command-line-reference.md)를 참조하세요.  
   
 > [!NOTE]
->  [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 프로젝트를 빌드하려면 "v110" 플랫폼 도구 집합을 사용해야 합니다. [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 프로젝트 파일을 편집하지 않으려는 경우 이 명령줄 인수를 사용하여 플랫폼 도구 집합을 설정할 수 있습니다.  
+> [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 프로젝트를 빌드하려면 "v110" 플랫폼 도구 집합을 사용해야 합니다. [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 프로젝트 파일을 편집하지 않으려는 경우 이 명령줄 인수를 사용하여 플랫폼 도구 집합을 설정할 수 있습니다.  
 >   
->  **msbuild** *solution.sln* **/p:PlatformToolset=v110**  
+> **msbuild** *solution.sln* **/p:PlatformToolset=v110**  
   
 ## <a name="CreatingForSourceControl"></a> 소스 컨트롤로 체크 인할 수 있도록 빌드 환경 만들기  
  다양한 컴퓨터에 배포할 수 있고 파일을 GAC화하거나 레지스트리 설정을 수정할 필요가 없는 빌드 환경을 만들 수 있습니다. 다음 단계는 이 작업을 수행하는 한 방법일 뿐입니다. 빌드 환경의 고유한 특성에 맞게 이러한 단계를 조정하십시오.  
   
 > [!NOTE]
->  빌드하는 동안 tracker.exe가 오류를 throw하지 않도록 증분 빌드가 사용되지 않도록 설정해야 합니다. 증분 빌드가 사용되지 않도록 설정하려면 다음 빌드 매개 변수를 설정하십시오.  
+> 빌드하는 동안 tracker.exe가 오류를 throw하지 않도록 증분 빌드가 사용되지 않도록 설정해야 합니다. 증분 빌드가 사용되지 않도록 설정하려면 다음 빌드 매개 변수를 설정하십시오.  
 >   
->  **msbuild** *solution.sln* **/p:TrackFileAccess=false**  
+> **msbuild** *solution.sln* **/p:TrackFileAccess=false**  
   
 #### <a name="to-create-a-build-environment-that-can-be-checked-into-source-control"></a>소스 컨트롤로 체크 인할 수 있는 빌드 환경을 만들려면  
   

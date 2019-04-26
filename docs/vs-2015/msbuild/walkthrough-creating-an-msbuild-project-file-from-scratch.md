@@ -11,12 +11,12 @@ caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5c2082e4f2c67696f057ea8fc779bfaf391e0af1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: a77c390dd0934b0f02320080765765163a8afb93
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445606"
 ---
 # <a name="walkthrough-creating-an-msbuild-project-file-from-scratch"></a>연습: 처음부터 새로 MSBuild 프로젝트 파일 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -151,11 +151,11 @@ ms.locfileid: "60096584"
  Build 대상의 작업은 순차적으로 실행됩니다. 이 경우 Visual C# 컴파일러 `Csc` 작업이 유일한 작업입니다. 이 작업에는 컴파일할 소스 파일 목록이 필요하며, 이는 `Compile` 항목 값으로 제공됩니다. `Compile` 항목은 하나의 소스 파일 Helloworld.cs만 참조합니다.  
   
 > [!NOTE]
->  다음과 같이 항목 요소에 별표 와일드카드 문자(*)를 사용하여 파일 이름 확장명이 .cs인 모든 파일을 참조할 수 있습니다.  
+> 다음과 같이 항목 요소에 별표 와일드카드 문자(*)를 사용하여 파일 이름 확장명이 .cs인 모든 파일을 참조할 수 있습니다.  
 >   
->  `<Compile Include="*.cs" />`  
+> `<Compile Include="*.cs" />`  
 >   
->  그러나 소스 파일이 추가되거나 삭제될 경우 디버깅 및 선택적 대상화가 어려워지므로 와일드카드 문자는 사용하지 않는 것이 좋습니다.  
+> 그러나 소스 파일이 추가되거나 삭제될 경우 디버깅 및 선택적 대상화가 어려워지므로 와일드카드 문자는 사용하지 않는 것이 좋습니다.  
   
 ## <a name="extending-the-path-to-include-msbuild"></a>MSBuild를 포함하도록 경로 확장  
  MSBuild에 액세스하려면 먼저 .NET Framework 폴더를 포함하도록 PATH 환경 변수를 확장해야 합니다.  
@@ -182,9 +182,9 @@ ms.locfileid: "60096584"
      **Hello, world!** 메시지가 표시됩니다.  
   
 > [!NOTE]
->  자세한 정도를 높여 빌드에 대한 자세한 정보를 볼 수 있습니다. 자세한 정도를 "자세히"로 설정하려면 명령 프롬프트에서 다음 명령 중 하나를 입력합니다.  
+> 자세한 정도를 높여 빌드에 대한 자세한 정보를 볼 수 있습니다. 자세한 정도를 "자세히"로 설정하려면 명령 프롬프트에서 다음 명령 중 하나를 입력합니다.  
 >   
->  **msbuild helloworld.csproj /t:Build /verbosity:detailed**  
+> **msbuild helloworld.csproj /t:Build /verbosity:detailed**  
   
 ## <a name="adding-build-properties"></a>빌드 속성 추가  
  프로젝트 파일에 빌드 속성을 추가하여 빌드에 대한 제어를 강화할 수 있습니다. 이제 다음 속성을 추가합니다.  
@@ -243,17 +243,17 @@ ms.locfileid: "60096584"
 ```  
   
 > [!NOTE]
->  `OutputPath` 요소에 백슬래시(\\) 경로 구분 기호를 지정할 때는 `Csc` 작업의 `OutputAssembly` 특성에 해당 기호를 추가하는 대신 폴더 이름의 끝에 기호를 추가하는 것이 좋습니다. 따라서  
+> `OutputPath` 요소에 백슬래시(\\) 경로 구분 기호를 지정할 때는 `Csc` 작업의 `OutputAssembly` 특성에 해당 기호를 추가하는 대신 폴더 이름의 끝에 기호를 추가하는 것이 좋습니다. 따라서  
 >   
->  `<OutputPath>Bin\</OutputPath>`  
+> `<OutputPath>Bin\</OutputPath>`  
 >   
->  `OutputAssembly=="$(OutputPath)$(AssemblyName).exe" />`  
+> `OutputAssembly=="$(OutputPath)$(AssemblyName).exe" />`  
 >   
->  가 아래보다 좋습니다.  
+> 가 아래보다 좋습니다.  
 >   
->  `<OutputPath>Bin</OutputPath>`  
+> `<OutputPath>Bin</OutputPath>`  
 >   
->  `OutputAssembly=="$(OutputPath)\$(AssemblyName).exe" />`  
+> `OutputAssembly=="$(OutputPath)\$(AssemblyName).exe" />`  
   
 ## <a name="testing-the-build-properties"></a>빌드 속성 테스트  
  이제 출력 폴더 및 애플리케이션 이름을 지정하기 위해 빌드 속성을 사용한 프로젝트 파일을 사용하여 애플리케이션을 빌드할 수 있습니다.  

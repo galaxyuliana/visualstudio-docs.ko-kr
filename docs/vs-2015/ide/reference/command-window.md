@@ -17,12 +17,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3c83ebc4b2a58976f8848f4576d8b30ad7778db2
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 491d6c044b22a89e8ea61a78d5dd70e0a348b893
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441445"
 ---
 # <a name="command-window"></a>명령 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -62,7 +62,7 @@ ms.locfileid: "59650436"
 |창을 아래로 스크롤합니다.|명령 창 콘텐츠|아래쪽 화살표 또는 CTRL+아래쪽 화살표|  
   
 > [!TIP]
->  명령으로 스크롤하고, 명령의 전부 또는 일부를 강조 표시하고 나서, Enter 키를 눌러 이전 명령의 전부 또는 일부를 입력 줄로 복사할 수 있습니다.  
+> 명령으로 스크롤하고, 명령의 전부 또는 일부를 강조 표시하고 나서, Enter 키를 눌러 이전 명령의 전부 또는 일부를 입력 줄로 복사할 수 있습니다.  
   
 ## <a name="mark-mode"></a>표시 모드  
  **명령** 창에서 이전 줄을 클릭하면 자동으로 표시 모드로 전환됩니다. 이 모드에서는 텍스트 편집기를 사용하는 것처럼 이전 명령의 텍스트를 선택, 편집 및 복사하고 현재 줄에 붙여넣을 수 있습니다.  
@@ -104,7 +104,7 @@ Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar
 - `var[1-3]+` 및 `oldpar`은 매개 변수입니다.  
   
   > [!NOTE]
-  >  공백이 포함된 명령, 매개 변수, 스위치 또는 값에는 양쪽에 큰따옴표가 있어야 합니다.  
+  > 공백이 포함된 명령, 매개 변수, 스위치 또는 값에는 양쪽에 큰따옴표가 있어야 합니다.  
   
   스위치 및 매개 변수의 위치는 명령줄에서 자유롭게 서로 바꿀 수 있습니다. 단, 스위치와 매개 변수가 특정 순서로 사용되어야 하는 [셸](../../ide/reference/shell-command.md) 명령은 예외입니다.  
   

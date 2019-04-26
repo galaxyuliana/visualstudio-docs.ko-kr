@@ -12,12 +12,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 100e303df62a1ca9855b891915e43f1fe020555e
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 28535db3e129029d6767ac969d121ee4cbb1aec5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54802342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416541"
 ---
 # <a name="commentmarkprofile"></a>CommentMarkProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,7 +60,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
  프로필 표시는 범위 내에서 전역입니다. 예를 들어 한 스레드에 삽입된 프로필 표시를 사용하여 .vsp 파일의 스레드에 있는 데이터 세그먼트의 시작이나 끝을 표시할 수 있습니다.  
   
 > [!IMPORTANT]
->  CommentMarkProfile 메서드는 계측에서만 사용할 수 있습니다.  
+> CommentMarkProfile 메서드는 계측에서만 사용할 수 있습니다.  
   
 ## <a name="net-framework-equivalent"></a>.NET Framework의 해당 값  
  Microsoft.VisualStudio.Profiler.dll  
@@ -73,7 +73,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
 |**라이브러리**|VSPerf.lib 사용|  
 |**유니코드**|`CommentMarkProfileW`(유니코드) 및 `CommentMarkProfileA`(ANSI)로 구현됐습니다.|  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 코드에서는 CommentMarkProfile 함수 호출을 보여 줍니다. 예제에서는 코드에서 [!INCLUDE[vcpransi](../includes/vcpransi-md.md)] 함수 호출을 호출할지 여부를 결정하도록 Win32 문자열 매크로 및 Unicode 컴파일러 설정의 사용을 가정합니다.  
   
 ```  

@@ -16,12 +16,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8c2ad1e97302a822bacc2fbbc983002626adb78a
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 67eb54d06297458915edfe34718948b085c6e86b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416828"
 ---
 # <a name="how-to-find-topics-in-the-index"></a>방법: 색인에서 항목 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "54758171"
       탭의 위쪽에서 필터 단추를 선택하면 지정한 텍스트가 포함된 모든 항목을 표시하거나 지정한 텍스트로 시작하는 항목만 표시할 수 있습니다.  
   
      > [!NOTE]
-     >  필터 단추가 테두리가 있는 어두운 배경에 표시되는 경우 항목에 지정한 텍스트가 포함되어 있어야 합니다. 배경과 테두리가 표시되지 않는 경우 항목이 지정한 텍스트로 시작해야 합니다.  
+     > 필터 단추가 테두리가 있는 어두운 배경에 표시되는 경우 항목에 지정한 텍스트가 포함되어 있어야 합니다. 배경과 테두리가 표시되지 않는 경우 항목이 지정한 텍스트로 시작해야 합니다.  
   
    - 색인을 스크롤하고 키워드를 선택합니다.  
   

@@ -14,12 +14,12 @@ caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 862e89ad775d28669ed21e3fe2d292aefb363a91
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 15a6eeea6ebf75513419cc763b2e29a6b6264391
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436801"
 ---
 # <a name="item-metadata-in-task-batching"></a>작업 일괄 처리의 항목 메타데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,7 +86,7 @@ ms.locfileid: "59668195"
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 여러 항목 목록을 동일한 메타데이터에 따라 일괄 처리로 나눌 수 있습니다. 이렇게 하면 쉽게 여러 다른 항목 목록을 일괄 처리로 나누어 여러 어셈블리를 빌드할 수 있습니다. 예를 들어 .cs 파일의 항목 목록을 애플리케이션 일괄 처리 및 어셈블리 일괄 처리로 나누고, 리소스 파일의 항목 목록을 애플리케이션 일괄 처리 및 어셈블리 일괄 처리로 나눌 수 있습니다. 그런 후 일괄 처리를 사용하여 이러한 항목 목록을 하나의 작업에 전달하고 애플리케이션 및 어셈블리를 둘 다 빌드할 수 있습니다.  
   
 > [!NOTE]
->  작업에 전달되는 항목 목록에 참조된 메타데이터가 있는 항목이 없으면 해당 항목 목록의 모든 항목이 모든 일괄 처리로 전달됩니다.  
+> 작업에 전달되는 항목 목록에 참조된 메타데이터가 있는 항목이 없으면 해당 항목 목록의 모든 항목이 모든 일괄 처리로 전달됩니다.  
   
  다음 예제에서는 여러 항목 목록을 항목 메타데이터에 따라 일괄 처리로 나누는 방법을 보여 줍니다. `ExampColl` 및 `ExampColl2` 항목 목록은 `Number` 항목 메타데이터에 따라 세 개의 일괄 처리로 나뉩니다. `Text` 특성에 `%(Number)`가 있으면 일괄 처리가 수행되어야 한다는 알림이 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에 제공됩니다. `ExampColl` 및 `ExampColl2` 항목 목록은 `Number` 메타데이터에 따라 세 개의 일괄 처리로 나뉘고 각 일괄 처리가 작업에 따로 전달됩니다.  
   

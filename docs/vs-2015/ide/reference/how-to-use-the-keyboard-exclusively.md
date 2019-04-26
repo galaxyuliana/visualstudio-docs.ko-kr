@@ -16,12 +16,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b109be00f7b165a131244ed1ddb886739bcdce55
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: e7a3d731939f7497faa9c767e02e404c5ac75518
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60051585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63405922"
 ---
 # <a name="how-to-use-the-keyboard-exclusively"></a>방법: 단독으로 키보드 사용
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60051585"
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서는 IDE(통합 개발 환경) 내에서 쉽게 탐색 및 코딩할 수 있도록 하는 다양한 기본 바로 가기 키 조합을 제공합니다. Visual Studio에서 사용되는 바로 가기 키의 전체 목록은 [기본 바로 가기 키](../../ide/default-keyboard-shortcuts-in-visual-studio.md)를 참조하세요. 다른 Microsoft 제품에 사용 가능한 바로 가기 키에 대한 자세한 내용은 [http://www.microsoft.com/enable/products/keyboard.aspx](http://go.microsoft.com/fwlink/?LinkID=40400)을 참조하세요.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="toolbox-controls"></a>도구 상자 컨트롤  
  키보드를 사용하여 도구 상자의 컨트롤을 폼 또는 디자이너에 추가할 수 있습니다.  

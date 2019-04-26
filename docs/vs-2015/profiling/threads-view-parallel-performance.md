@@ -13,12 +13,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e2fd0e329e6cf3434348fba1d3282921ee8c1f57
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0d685dc39f5e07840a5995f7fe67988840c3f50a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441664"
 ---
 # <a name="threads-view-parallel-performance"></a>스레드 뷰(병렬 성능)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -97,7 +97,7 @@ ms.locfileid: "60114797"
  실행 세그먼트에서 특정 지점을 선택하면 Concurrency 시각화는 관련 호출 스택에서 해당 시점을 찾은 다음 실행 세그먼트의 선택한 지점 위에 검은색 캐럿을 표시하고 **현재 스택** 탭에는 호출 스택 자체를 표시합니다. 실행 세그먼트에서 여러 지점을 선택할 수 있습니다.  
   
 > [!NOTE]
->  Concurrency 시각화는 실행 세그먼트에서 선택한 지점을 확인하지 못할 수도 있습니다. 일반적으로는 세그먼트의 기간이 1밀리초보다 짧은 경우 이러한 현상이 발생합니다.  
+> Concurrency 시각화는 실행 세그먼트에서 선택한 지점을 확인하지 못할 수도 있습니다. 일반적으로는 세그먼트의 기간이 1밀리초보다 짧은 경우 이러한 현상이 발생합니다.  
   
  현재 선택한 시간 범위에서 사용하도록 설정된(숨겨지지 않은) 모든 스레드의 실행 프로필을 가져오려면 활성 범례에서 **실행** 단추를 선택합니다.  
   

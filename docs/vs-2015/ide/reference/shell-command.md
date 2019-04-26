@@ -19,12 +19,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e901e5b34fb807a17cfc5143decc3a63b75194d7
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 9a85b8ef5dd99da6c82c9f63da31bec783a7c9a7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438015"
 ---
 # <a name="shell-command"></a>셸 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -60,7 +60,7 @@ Tools.Shell [/command] [/output] [/dir:folder] path [args]
  미리 정의된 별칭 `Shell`을 `Tools.Shell` 대신 사용할 수 있습니다.  
   
 > [!CAUTION]
->  `path` 인수가 디렉터리 경로와 파일 이름을 제공하면 다음과 같이 전체 경로 이름을 리터럴 따옴표(""")로 묶어야 합니다.  
+> `path` 인수가 디렉터리 경로와 파일 이름을 제공하면 다음과 같이 전체 경로 이름을 리터럴 따옴표(""")로 묶어야 합니다.  
   
 ```  
 Tools.Shell """C:\Program Files\SomeFile.exe"""  
@@ -73,7 +73,7 @@ Tools.Shell """C:\Program Files\SomeFile.exe"""
 ```  
   
 > [!CAUTION]
->  리터럴 따옴표(""")로 경로 문자열을 묶지 않으면 Windows는 첫 번째 공백까지의 문자열 부분만 사용합니다. 예를 들어 위의 경로 문자열이 제대로 인용되지 않으면 Windows는 C:\ 루트 디렉터리에 있는 "Program"이라는 파일을 찾습니다. C:\Program.exe 실행 파일을 실제로 사용할 수 있는 경우 Windows는 불법적 인 변조로 설치한 경우 조차도 원하는 "c:\Program Files\SomeFile.exe" 프로그램 대신 해당 프로그램을 실행하려고 시도합니다.  
+> 리터럴 따옴표(""")로 경로 문자열을 묶지 않으면 Windows는 첫 번째 공백까지의 문자열 부분만 사용합니다. 예를 들어 위의 경로 문자열이 제대로 인용되지 않으면 Windows는 C:\ 루트 디렉터리에 있는 "Program"이라는 파일을 찾습니다. C:\Program.exe 실행 파일을 실제로 사용할 수 있는 경우 Windows는 불법적 인 변조로 설치한 경우 조차도 원하는 "c:\Program Files\SomeFile.exe" 프로그램 대신 해당 프로그램을 실행하려고 시도합니다.  
   
 ## <a name="example"></a>예제  
  다음 명령은 xcopy.exe를 사용하여 `MyText.txt` 파일을 `Text` 폴더에 복사합니다. xcopy.exe 출력은 **명령 창** 및 **출력** 창 모두에 표시됩니다.  

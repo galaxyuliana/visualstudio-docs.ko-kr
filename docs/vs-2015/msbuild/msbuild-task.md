@@ -19,12 +19,12 @@ caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 70bebfab781ceb1d608d13a8afad24ee06cb9c28
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: d2349c21d55c20bcb3bcd50ab96f383a9afcc00b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426106"
 ---
 # <a name="msbuild-task"></a>MSBuild 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ ms.locfileid: "59656741"
  그러나 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 3.5에서는 두 가지 새 예약된 메타데이터 항목인 Properties와 AdditionalProperties가 제공됩니다. 이러한 항목을 사용하면 [MSBuild 작업](../msbuild/msbuild-task.md)을 통해 빌드 중인 각 프로젝트에 대해 서로 다른 속성을 유동적으로 전달할 수 있습니다.  
   
 > [!NOTE]
->  이러한 새 메타데이터 항목은 [MSBuild 작업](../msbuild/msbuild-task.md)의 Projects 특성에 전달된 항목에만 적용됩니다.  
+> 이러한 새 메타데이터 항목은 [MSBuild 작업](../msbuild/msbuild-task.md)의 Projects 특성에 전달된 항목에만 적용됩니다.  
   
 ## <a name="multi-processor-build-benefits"></a>다중 프로세서 빌드의 이점  
  이러한 새 메타데이터를 사용하는 경우의 주요 이점 중 하나는 다중 프로세서 시스템에서 병렬로 프로젝트를 빌드할 때 제공됩니다. 메타데이터를 사용하면 일괄 처리 또는 조건부 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 작업을 수행하지 않고도 모든 프로젝트를 단일 [MSBuild 작업](../msbuild/msbuild-task.md)에 통합할 수 있습니다. 그리고 단일 [MSBuild 작업](../msbuild/msbuild-task.md)만 호출하면 Projects 특성에 나열된 모든 프로젝트가 병렬로 빌드됩니다. 단, `BuildInParallel=true` 특성이 [MSBuild 작업](../msbuild/msbuild-task.md)에 있어야 합니다. 자세한 내용은 [병렬로 여러 프로젝트 빌드](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)를 참조하세요.  
@@ -77,7 +77,7 @@ ms.locfileid: "59656741"
  일반적으로는 빌드 구성만 다르게 적용하여 [MSBuild 작업](../msbuild/msbuild-task.md)을 통해 여러 솔루션 파일을 빌드합니다. 예를 들어 a1 솔루션은 디버그 구성을 사용하여 빌드하고 a2 솔루션은 릴리스 구성을 사용하여 빌드할 수 있습니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 2.0에서 이 프로젝트 파일은 다음과 같이 표시됩니다.  
   
 > [!NOTE]
->  다음 예제에서 "..."는 추가 솔루션 파일을 나타냅니다.  
+> 다음 예제에서 "..."는 추가 솔루션 파일을 나타냅니다.  
   
 ### <a name="aproj"></a>a.proj  
   

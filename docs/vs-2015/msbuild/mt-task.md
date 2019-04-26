@@ -25,12 +25,12 @@ caps.latest.revision: 9
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 93fd3bcff6fa16a4fb28521c58ff2caad6edafbb
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: efbdccf4d5774322b42a517831b22186103347b1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59667913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430897"
 ---
 # <a name="mt-task"></a>MT 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ Microsoft 매니페스트 도구, mt.exe를 래핑합니다. 자세한 내용은
  다음 표에서는 **MT** 작업의 매개 변수에 대해 설명합니다. 대부분의 작업 매개 변수 및 몇 가지 매개 변수 집합은 명령줄 옵션에 해당합니다.  
   
 > [!NOTE]
->  mt.exe 설명서는 명령줄 옵션에 대한 접두사로 하이픈(**-**)을 사용하지만 이 항목에서는 슬래시(**/**)를 사용합니다. 두 접두사 중 하나를 사용할 수 있습니다.  
+> mt.exe 설명서는 명령줄 옵션에 대한 접두사로 하이픈(**-**)을 사용하지만 이 항목에서는 슬래시(**/**)를 사용합니다. 두 접두사 중 하나를 사용할 수 있습니다.  
   
 |매개 변수|설명|  
 |---------------|-----------------|  

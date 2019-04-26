@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 35fa2825d9fbb4b6a34d813c812bde1bc465f14f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: d7add45e5dc2aac66eaf023eabcf2a1f7cdf189e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416840"
 ---
 # <a name="how-to-customize-search-results"></a>방법: 검색 결과 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60108388"
  영어 이외의 언어로 작성된 콘텐츠가 설명서에 포함된 경우도 있습니다. 검색 결과의 범위를 특정 언어의 콘텐츠로 좁힐 수 있습니다. 검색 쿼리와 일치하는 영어 콘텐츠를 포함할 수도 있습니다.  
   
 > [!WARNING]
->  이 기능은 설치된 콘텐츠의 기본 언어가 영어가 아닌 경우에만 사용할 수 있습니다.  
+> 이 기능은 설치된 콘텐츠의 기본 언어가 영어가 아닌 경우에만 사용할 수 있습니다.  
   
 #### <a name="to-include-english-content-alongside-content-in-another-language"></a>다른 언어의 콘텐츠와 함께 영어 콘텐츠를 포함하려면  
   

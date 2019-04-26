@@ -14,12 +14,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6e30fd7500c0f9dd216b630ea79ebfb79c964fab
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0d8ba826e332141a3ee53a70185f0e8e18e465f4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443215"
 ---
 # <a name="user-permissions-and-visual-studio"></a>사용자 권한 및 Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "60101888"
 보안을 위해 가급적 일반 사용자로 Visual Studio를 실행해야 합니다.
 
 > [!WARNING]
->  신뢰할 수 있는 사람이나 신뢰할 수 있는 위치에서 제공되지 않는 Visual Studio 솔루션은 컴파일하거나 실행하거나 디버깅하지 마십시오.
+> 신뢰할 수 있는 사람이나 신뢰할 수 있는 위치에서 제공되지 않는 Visual Studio 솔루션은 컴파일하거나 실행하거나 디버깅하지 마십시오.
 
  Visual Studio IDE에서는 일반 사용자로 거의 모든 작업을 할 수 있지만 다음 작업을 완료하려면 관리자 권한이 필요합니다.
 

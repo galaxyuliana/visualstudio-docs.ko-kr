@@ -14,12 +14,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3fc21eb85c46d74fabc777147b14575babd9be8b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 861ce1cf40dd5c56c043399387ef51fa3b4efee2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412253"
 ---
 # <a name="keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer"></a>클래스 다이어그램 및 클래스 세부 내용 창의 키보드 및 마우스 바로 가기(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,7 +92,7 @@ ms.locfileid: "60113016"
 ## <a name="KeyboardClassDetails"></a> 클래스 세부 내용 창에서 키보드 사용  
   
 > [!NOTE]
->  다음 키 바인딩은 코드 입력 환경을 모방하기 위해 특별히 선택되었습니다.  
+> 다음 키 바인딩은 코드 입력 환경을 모방하기 위해 특별히 선택되었습니다.  
   
  다음 키를 사용하여 클래스 세부 내용 창을 탐색합니다.  
   

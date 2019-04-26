@@ -12,12 +12,12 @@ caps.latest.revision: 26
 author: mikeblome
 ms.author: mblome
 manager: jillfra
-ms.openlocfilehash: 5b0153560173cf8b10ab5e20ebffd47d40baf735
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 198a848f953881af5a7ac4b042c74b368d202d06
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425895"
 ---
 # <a name="how-to-upgrade-visual-c-projects-to-visual-studio-2015"></a>방법: Visual C++ 프로젝트를 Visual Studio 2015로 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ Visual Studio 2017에 대한 최신 설명서는 [Visual C++ 포팅 및 업그�
     - 이 항목의 뒷부분에서 설명하는 사항을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 변경하도록 허용하여 프로젝트를 업데이트할 수 있습니다. 솔루션에 Visual C++ 프로젝트가 두 개 이상 있을 경우 이를 모두 업데이트해야 합니다.
 
         > [!NOTE]
-        >  프롬프트 메시지가 처음 나타날 때 업데이트를 거부할 경우 **프로젝트** 메뉴에서 **VC++ 프로젝트 업데이트** 를 선택하여 나중에 프로젝트를 업데이트할 수 있습니다. 명령이 나타나지 않으면 업데이트할 필요가 없습니다.
+        > 프롬프트 메시지가 처음 나타날 때 업데이트를 거부할 경우 **프로젝트** 메뉴에서 **VC++ 프로젝트 업데이트** 를 선택하여 나중에 프로젝트를 업데이트할 수 있습니다. 명령이 나타나지 않으면 업데이트할 필요가 없습니다.
 
 ## <a name="upgrading-a-visual-c-project"></a>Visual C++ 프로젝트 업그레이드
  [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] 에서 프로젝트를 자동으로 업데이트하도록 허용할 경우 다음과 같이 변경됩니다.

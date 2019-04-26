@@ -12,12 +12,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c01514a1f3a27c5e155bd9c3c5e0dc72e6dec0fe
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: cc0a254f13c4689dd6526646ddd2ff30b6094411
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432993"
 ---
 # <a name="options-text-editor-javascript-intellisense"></a>옵션, 텍스트 편집기, JavaScript, IntelliSense
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "59650579"
  이 확인란을 선택하면 JavaScript 파일이 프로젝트의 컨텍스트 외부에 열려 있는 경우 Visual Studio에서는 IntelliSense 정보를 제공할 목적으로 파일에서 참조하는 원격 JavaScript 파일을 다운로드합니다. 이 옵션을 선택하는 경우 JavaScript 파일에 참조로 파일을 포함하면 해당 파일이 다운로드됩니다.  
   
 > [!NOTE]
->  웹 프로젝트의 경우 프로젝트에서 참조된 원격 파일이 기본적으로 다운로드됩니다.  
+> 웹 프로젝트의 경우 프로젝트에서 참조된 원격 파일이 기본적으로 다운로드됩니다.  
   
 ## <a name="statement-completion"></a>문 완성  
  이러한 옵션을 사용하여 IntelliSense 문 완성 동작을 변경할 수 있습니다.  
@@ -74,7 +74,7 @@ ms.locfileid: "59650579"
   이 옵션은 언어 서비스 컨텍스트에 로드되는 파일의 순서를 지정합니다. **제거**, **위로 이동**및 **아래로 이동** 단추를 사용하여 이 순서를 구성할 수 있습니다. IntelliSense가 제대로 작동하려면 다른 파일에 종속된 파일은 다른 파일 뒤에 로드해야 합니다.  
   
 > [!CAUTION]
->  하나의 개체가 두 개 이상의 암시적 참조에서 조건 없이 정의된 경우, 이 목록의 마지막 참조가 개체 정의에 사용됩니다.  
+> 하나의 개체가 두 개 이상의 암시적 참조에서 조건 없이 정의된 경우, 이 목록의 마지막 참조가 개체 정의에 사용됩니다.  
   
  **그룹에 참조 추가**  
  이 옵션은 해당하는 파일을 찾아 IntelliSense .js 파일을 추가하는 방법을 제공합니다.  

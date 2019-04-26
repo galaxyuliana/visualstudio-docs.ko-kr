@@ -11,12 +11,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c599419d40dc1de2fa2e4ff4b41dd50f762f57fa
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 3be6d5d732e5cbb2050c68ac8c7db722c3f709f2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428101"
 ---
 # <a name="saving-and-exporting-performance-tools-data"></a>성능 도구 데이터 저장 및 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,13 +44,13 @@ ms.locfileid: "60073789"
   
 4. **분석 데이터 저장** 대화 상자에서 디렉터리를 지정하고 파일 이름을 입력합니다.  
   
-5.  **저장**을 클릭합니다.  
+5. **저장**을 클릭합니다.  
   
 ## <a name="how-to-export-profiling-tools-reports-to-an-xml-or-csv-file"></a>방법: 프로파일링 도구 보고서를 .Xml 또는 .Csv 파일로 내보내기  
  .vsp 파일 도는 .vsps 프로파일링 데이터 파일에서 하나 이상의 보고서 뷰를 쉼표로 분리된 파일 또는 XML 파일로 내보낼 수 있습니다. 내보내기 전에 보고서 뷰 창에서 데이터를 필터링하거나 **성능 탐색기** 창에서 전체 데이터 파일의 보고서 뷰를 내보낼 수 있습니다.  
   
 > [!NOTE]
->  보고서 뷰 창에서 선택한 행을 복사하여 탭으로 구분된 값으로 붙여 넣을 수도 있습니다.  
+> 보고서 뷰 창에서 선택한 행을 복사하여 탭으로 구분된 값으로 붙여 넣을 수도 있습니다.  
   
 #### <a name="to-export-performance-reports-from-the-performance-explorer-window"></a>성능 탐색기 창에서 성능 보고서를 내보내려면  
   

@@ -9,12 +9,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9dda948921c702367859afe32ad75a7998460587
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: dce20d3e1833659ebfec2e84e6bff7f86dff844e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438441"
 ---
 # <a name="how-to-create-a-basic-texture-shader"></a>방법: 기본 질감 셰이더 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ ms.locfileid: "60048569"
    다음 그림은 정육면체에 적용된 셰이더의 완료된 셰이더 그래프 및 미리 보기를 보여 줍니다.  
   
 > [!NOTE]
->  이 그림에서 평면을 미리 보기 셰이프로 사용되고 셰이더의 효과를 더욱 효과적으로 표시하기 위해 질감이 지정되었습니다.  
+> 이 그림에서 평면을 미리 보기 셰이프로 사용되고 셰이더의 효과를 더욱 효과적으로 표시하기 위해 질감이 지정되었습니다.  
   
  ![셰이더 그래프 및 효과 미리 보기](../designers/media/digit-texture-effect.png "Digit-Texture-Effect")  
   

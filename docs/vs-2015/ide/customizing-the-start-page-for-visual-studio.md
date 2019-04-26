@@ -17,12 +17,12 @@ caps.latest.revision: 48
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: fd47441a0e9b1c97851aa8a6acac712c51a4493a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: c5897c6ffc2b4530ce74b29114c84cd3556f25cd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437563"
 ---
 # <a name="customizing-the-start-page-for-visual-studio"></a>Visual Studio 시작 페이지 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ Visual Studio의 시작 페이지를 사용자 지정할 수 있는 기본 방�
     - [Visual Studio Marketplace](https://marketplace.visualstudio.com/), 다른 웹 사이트 또는 로컬 인트라넷의 페이지에서 설치할 수 있습니다.
 
         > [!NOTE]
-        >  이전 버전의 Visual Studio를 대상으로 한 페이지가 필요한 경우 Visual Studio SDK를 사용하여 페이지를 업그레이드할 수 있습니다. [방법: Visual Studio 사용자 지정 시작 페이지 업그레이드](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md)를 참조하세요.
+        > 이전 버전의 Visual Studio를 대상으로 한 페이지가 필요한 경우 Visual Studio SDK를 사용하여 페이지를 업그레이드할 수 있습니다. [방법: Visual Studio 사용자 지정 시작 페이지 업그레이드](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md)를 참조하세요.
 
          사용자 지정 시작 페이지를 포함하는 .vsix 파일을 열거나 시작 페이지 파일을 컴퓨터의 **%USERPROFILE% \My Documents\Visual Studio 2015\StartPages** 폴더에 복사하여 붙여넣습니다.
 
@@ -59,7 +59,7 @@ Visual Studio의 시작 페이지를 사용자 지정할 수 있는 기본 방�
 4. **시작 페이지 사용자 지정** 목록에서 원하는 페이지를 선택합니다.
 
 > [!NOTE]
->  사용자 지정 시작 페이지에 오류가 있어 Visual Studio에 충돌이 발생하면 안전 모드에서 Visual Studio를 시작한 다음 기본 시작 페이지를 사용하도록 설정할 수 있습니다. [/SafeMode(devenv.exe)](../ide/reference/safemode-devenv-exe.md)를 참조하세요.
+> 사용자 지정 시작 페이지에 오류가 있어 Visual Studio에 충돌이 발생하면 안전 모드에서 Visual Studio를 시작한 다음 기본 시작 페이지를 사용하도록 설정할 수 있습니다. [/SafeMode(devenv.exe)](../ide/reference/safemode-devenv-exe.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
  [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3) [고유한 시작 페이지 만들기](../misc/creating-your-own-start-page.md)

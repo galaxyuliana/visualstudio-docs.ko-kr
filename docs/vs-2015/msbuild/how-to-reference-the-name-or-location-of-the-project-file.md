@@ -17,12 +17,12 @@ caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6e9493050e5deb2e25cf526d2464214399b10a7c
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: eae8a32d4587b71f238c023d08a1328ce83ba37d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431386"
 ---
 # <a name="how-to-reference-the-name-or-location-of-the-project-file"></a>방법: 프로젝트 파일의 이름 또는 위치 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "59670370"
   예약된 속성 사용의 장점은 프로젝트 파일 이름에 대한 모든 변경 내용이 자동으로 통합된다는 점입니다. 다음에 프로젝트를 빌드할 때 출력 파일에 새 이름이 포함되고 직접 추가 작업을 할 필요가 없습니다.  
   
 > [!NOTE]
->  프로젝트 파일에서 예약된 속성을 다시 정의할 수 없습니다.  
+> 프로젝트 파일에서 예약된 속성을 다시 정의할 수 없습니다.  
   
 ## <a name="example"></a>예제  
  다음 예제 프로젝트 파일은 출력의 이름을 지정하기 위해 프로젝트 이름을 예약된 속성으로 참조합니다.  

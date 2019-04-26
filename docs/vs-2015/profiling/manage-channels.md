@@ -13,12 +13,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 61b20ea728cd0b714ba61dfa7aef1893a91cfaca
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 894378d6648139b7ec2b587eb0066a5725af7a71
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443731"
 ---
 # <a name="manage-channels"></a>채널 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "54758376"
  채널을 숨기려면 이 컨트롤을 선택합니다. 예를 들어 스레드가 관리되는 프로세스의 수명 주기 동안 100% 동기화된 경우 다른 스레드를 분석할 때 이를 숨길 수 있습니다.  
   
 > [!NOTE]
->  스레드를 숨기면 이 스레드는 활성 범례 및 프로필 보고서에 표시되는 계산 시간에서도 제거됩니다.  
+> 스레드를 숨기면 이 스레드는 활성 범례 및 프로필 보고서에 표시되는 계산 시간에서도 제거됩니다.  
   
 ## <a name="show-all-channels"></a>모든 채널 표시  
  하나 이상의 채널을 숨기면 이 컨트롤이 활성화됩니다. 이 컨트롤을 선택하면 숨겨진 모든 요소가 표시되고 시간 계산에 반환됩니다.  

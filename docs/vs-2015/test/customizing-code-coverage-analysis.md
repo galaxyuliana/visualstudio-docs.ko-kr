@@ -8,12 +8,12 @@ ms.assetid: f6337c35-acae-4c5f-b5d9-ac5ff687ef18
 caps.latest.revision: 18
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 70e74c1c4d5b8cc93f4afaeebc74f5fc0579a692
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 404192923d25e3eccc0bb40064569bec3e6c6cec
+ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54768036"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "60059255"
 ---
 # <a name="customizing-code-coverage-analysis"></a>코드 검사 분석 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,7 +72,7 @@ ms.locfileid: "54768036"
 >  기호 확인은 어셈블리가 많은 원격 파일 위치를 사용할 경우 특히 오래 걸릴 수 있습니다. 따라서 원격 .pdb 파일을 이진(.dll 및.exe) 파일과 같은 로컬 위치에 복사하는 것이 좋습니다.  
   
 ### <a name="excluding-and-including"></a>제외 및 포함  
- 코드 검사 분석에서 지정한 어셈블리를 제외할 수 있습니다. 예:  
+ 코드 검사 분석에서 지정한 어셈블리를 제외할 수 있습니다. 예를 들어:  
   
 ```minterastlib  
 <ModulePaths>  
@@ -115,7 +115,7 @@ ms.locfileid: "54768036"
   
    모든 일치 항목은 대소문자를 구분하지 않습니다.  
   
-   예:  
+   예를 들어:  
   
 ```xml  
 <ModulePaths>  
@@ -153,7 +153,7 @@ ms.locfileid: "54768036"
   
   **함수 이름 일치**  
   
-  정규식은 네임스페이스, 클래스 이름, 메서드 이름, 매개 변수 목록을 포함한 함수의 정규화된 이름과 일치해야 합니다. 예를 들어 개체에 적용된  
+  정규식은 네임스페이스, 클래스 이름, 메서드 이름, 매개 변수 목록을 포함한 함수의 정규화된 이름과 일치해야 합니다. 예를 들면 다음과 같습니다.  
   
 - C# 또는 Visual Basic의 경우: `Fabrikam.Math.LocalMath.SquareRoot(double)`입니다.  
   
@@ -183,11 +183,11 @@ ms.locfileid: "54768036"
 ### <a name="to-customize-run-settings-in-a-command-line-test"></a>명령줄 테스트에서 실행 설정을 사용자 지정하려면  
  명령줄에서 테스트를 실행하려면 vstest.console.exe를 사용합니다. 설정 파일은 이 유틸리티의 매개 변수입니다. 자세한 내용은 [명령줄에서 VSTest.console 사용](http://msdn.microsoft.com/library/852812d8-b3bb-407e-bc43-04d511fcb27a)을 참조하세요.  
   
-1.  Visual Studio 개발자 명령 프롬프트를 시작합니다.  
+1. Visual Studio 개발자 명령 프롬프트를 시작합니다.  
   
      Windows의 **시작** 메뉴에서 **모든 프로그램**, **Microsoft Visual Studio**, **Visual Studio Tools**, **개발자 명령 프롬프트**를 차례로 선택합니다.  
   
-2.  실행:  
+2. 실행:  
   
      `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage /Settings:CodeCoverage.runsettings`  
   
@@ -202,13 +202,13 @@ ms.locfileid: "54768036"
   
 3. **프로세스** 페이지에서 **자동화된 테스트**, **테스트 소스**, **실행 설정**을 확장합니다. **.runsettings** 파일을 선택합니다.  
   
-   - <em>하지만 **테스트 소스** 대신 **테스트 어셈블리</em>* 가 나타납니다. **실행 설정** 필드를 설정하려고 하면 .testsettings 파일만 선택할 수 있습니다.*  
+   - <em>하지만 **테스트 소스** 대신 **테스트 어셈블리</em>* 가 나타납니다. 실행 설정** 필드를 설정하려고 하면 .testsettings 파일만 선택할 수 있습니다.*  
   
       **자동화된 테스트**에서 **테스트 어셈블리**를 선택한 다음 줄 끝에서 **[...]** 를 선택합니다. **테스트 실행 추가/편집** 대화 상자에서 **Test Runner**를 **Visual Studio Test Runner**로 설정합니다.  
   
    빌드 보고서의 요약 섹션에 결과가 표시됩니다.  
   
-##  <a name="sample"></a> 샘플 .runsettings 파일  
+## <a name="sample"></a> 샘플 .runsettings 파일  
  이 코드를 복사하고 자신의 필요에 따라 편집합니다. 이 파일은 기본 .runsettings 파일입니다.  
   
  (.runsettings 파일의 다른 용도에 대해서는 [.runsettings 파일을 사용하여 단위 테스트 구성](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)을 참조하세요.)  

@@ -12,12 +12,12 @@ caps.latest.revision: 44
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: deabd34896b327f7cbbb35c7af75f5810dcfbf17
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 26e059d4fdc8eadd422924dd6bbda6f7c945ccfb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433035"
 ---
 # <a name="how-to-create-and-run-an-unattended-installation-of-visual-studio"></a>How to: Create and Run an Unattended Installation of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "60040548"
      [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 대한 설치 애플리케이션의 네트워크 경로는 \\\\*ServerName*\IDEinstall\\*Product*.exe와 유사합니다.
 
     > [!NOTE]
-    >  경로 및 파일 이름 조합이 260자를 초과하면 설치가 실패할 수 있습니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 경로의 최대 길이는 221자입니다.  로컬 경로 이름은 70자를 초과하면 안 되고 네트워크 경로 이름은 39자를 초과하면 안 됩니다.
+    > 경로 및 파일 이름 조합이 260자를 초과하면 설치가 실패할 수 있습니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 경로의 최대 길이는 221자입니다.  로컬 경로 이름은 70자를 초과하면 안 되고 네트워크 경로 이름은 39자를 초과하면 안 됩니다.
 
      또한 경로의 폴더 이름에 공백이 포함(예: "\\\\*ServerName*\IDE install" 또는 \\\\*ServerName*\Visual Studio\\)된 경우 설치가 실패할 수 있습니다.
 
@@ -46,16 +46,16 @@ ms.locfileid: "60040548"
  무인 모드로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 를 배포하려면 AdminDeployment.xml 파일을 수정해야 합니다. 이렇게 하려면 먼저 `/CreateAdminFile` *\<file location>* 명령줄 매개 변수를 사용하여 AdminDeployment.xml 파일을 만들어야 합니다. 그런 다음 이 파일을 사용하여 네트워크에 Visual Studio의 배포를 푸시하거나 *Drive*:\IDEinstall\packages 디렉터리에 해당 파일을 복사한 경우 끌어와서 설치할 수 있습니다. AdminDeployment.xml 파일은 운영 체제, 아키텍처, Visual Studio 버전 또는 운영 체제 언어에 고유하지 않습니다.
 
 > [!CAUTION]
->  AdminDeployment.xml 파일에서 선택된 것으로 나열된 항목이 설치되지 않는 경우도 있습니다. 이 문제를 해결하려면 "선택됨="yes""로 표시된 항목을 AdminDeployment.xml 파일의 **끝** 에 배치합니다.
+> AdminDeployment.xml 파일에서 선택된 것으로 나열된 항목이 설치되지 않는 경우도 있습니다. 이 문제를 해결하려면 "선택됨="yes""로 표시된 항목을 AdminDeployment.xml 파일의 **끝** 에 배치합니다.
 >
->  항목의 선택적 종속성을 설치하지 않으려는 경우 부모를 먼저 선택한 후 다음 스크린샷에 표시된 대로 부모 뒤의 선택적 종속성을 선택 취소해야 합니다.
+> 항목의 선택적 종속성을 설치하지 않으려는 경우 부모를 먼저 선택한 후 다음 스크린샷에 표시된 대로 부모 뒤의 선택적 종속성을 선택 취소해야 합니다.
 >
->  ![AdminDeployment.xml 파일의 끝에 있는 설치 항목](../install/media/vs2015-install-endoffileadmindeploy.PNG "vs2015_Install_EndOfFileAdminDeploy")
+> ![AdminDeployment.xml 파일의 끝에 있는 설치 항목](../install/media/vs2015-install-endoffileadmindeploy.PNG "vs2015_Install_EndOfFileAdminDeploy")
 >
->  이 작업을 수행하는 또 다른 방법은 단순히 부모의 선택적 자식을 생략하는 것입니다. 즉, "선택됨="no"" 항목을 포함하지 마세요. 하지만 "선택됨="yes"" 항목은 모두 AdminDeployment.xml 파일의 끝에 배치해야 합니다.
+> 이 작업을 수행하는 또 다른 방법은 단순히 부모의 선택적 자식을 생략하는 것입니다. 즉, "선택됨="no"" 항목을 포함하지 마세요. 하지만 "선택됨="yes"" 항목은 모두 AdminDeployment.xml 파일의 끝에 배치해야 합니다.
 
 > [!IMPORTANT]
->  설치하는 동안 컴퓨터가 한 번 이상 자동으로 다시 시작될 수 있습니다. 다시 시작한 후, 컴퓨터를 다시 시작하기 전에 설치를 수행하기 위해 로그온했던 사용자 계정으로 다시 로그인해야 합니다. 무인 설치를 실행하기 전에 필수 조건을 설치하여 자동으로 다시 시작되지 않게 할 수 있습니다. 자세한 내용은 [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)에서 “설치 중 다시 시작 방지” 섹션을 참조하세요.
+> 설치하는 동안 컴퓨터가 한 번 이상 자동으로 다시 시작될 수 있습니다. 다시 시작한 후, 컴퓨터를 다시 시작하기 전에 설치를 수행하기 위해 로그온했던 사용자 계정으로 다시 로그인해야 합니다. 무인 설치를 실행하기 전에 필수 조건을 설치하여 자동으로 다시 시작되지 않게 할 수 있습니다. 자세한 내용은 [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md)에서 “설치 중 다시 시작 방지” 섹션을 참조하세요.
 
  AdminDeployment 파일 스키마에는 다음 요소가 포함되어 있습니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "60040548"
 |BundleCustomizations|NoCacheOnlyMode|예&#124;기본값|패키지 캐시 미리 채우기를 방지합니다.|
 
 > [!WARNING]
->  선택 가능한 항목이 숨겨진 경우에도 설치 애플리케이션이 선택함 상태를 적용합니다. 예를 들어 선택 가능한 항목을 항상 설치하려는 경우 이 항목을 숨기고 선택함 상태로 표시할 수 있습니다.
+> 선택 가능한 항목이 숨겨진 경우에도 설치 애플리케이션이 선택함 상태를 적용합니다. 예를 들어 선택 가능한 항목을 항상 설치하려는 경우 이 항목을 숨기고 선택함 상태로 표시할 수 있습니다.
 
 #### <a name="to-create-an-unattended-installation-of-visual-studio"></a>Visual Studio의 무인 설치를 만들려면
 
@@ -100,7 +100,7 @@ ms.locfileid: "60040548"
  **제어판** 을 열고 설치 애플리케이션을 다시 실행하면 Visual Studio의 기능을 수정하고 프로그래밍 언어를 제거하고 Visual Studio를 복구하거나 제거할 수 있습니다.
 
 > [!NOTE]
->  유지 관리 모드를 사용하려면 로컬 컴퓨터에서 관리자 자격 증명이 있어야 합니다.
+> 유지 관리 모드를 사용하려면 로컬 컴퓨터에서 관리자 자격 증명이 있어야 합니다.
 
 #### <a name="to-maintain-an-installation-on-a-client-computer"></a>클라이언트 컴퓨터에서 설치를 유지 관리하려면
 

@@ -13,12 +13,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c420c4546a836d1440bdb150eba1319ad6218622
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 4de5eebdf9c1f4f66d26b29d194b57172e9af3be
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426993"
 ---
 # <a name="building-multiple-projects-in-parallel-with-msbuild"></a>MSBuild를 사용하여 병렬로 여러 프로젝트 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60050248"
 - MSBuild 작업에서 <xref:Microsoft.Build.Tasks.MSBuild.BuildInParallel%2A> 작업 매개 변수.  
   
 > [!NOTE]
->  명령줄의 **/verbosity**(**/v**) 스위치는 빌드 성능에 영향을 줄 수도 있습니다. 빌드 로그 정보의 자세한 정도는 문제 해결을 위해 사용되는 자세히 또는 진단으로 설정되어 있는 경우 빌드 성능이 저하될 수 있습니다. 자세한 내용은 [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md) 및 [명령줄 참조](../msbuild/msbuild-command-line-reference.md)를 참조하세요.  
+> 명령줄의 **/verbosity**(**/v**) 스위치는 빌드 성능에 영향을 줄 수도 있습니다. 빌드 로그 정보의 자세한 정도는 문제 해결을 위해 사용되는 자세히 또는 진단으로 설정되어 있는 경우 빌드 성능이 저하될 수 있습니다. 자세한 내용은 [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md) 및 [명령줄 참조](../msbuild/msbuild-command-line-reference.md)를 참조하세요.  
   
 ## <a name="maxcpucount-switch"></a>/maxcpucount 스위치  
  시간을 줄이기 위해 `/maxcpucount` 스위치 또는 `/m`을 사용하는 경우 MSBuild는 병렬로 실행될 수 있는 MSBuild.exe 프로세스를 지정된 수만큼 생성할 수 있습니다. 이러한 프로세스는 "작업자 프로세스"라고도 합니다. 각 작업자 프로세스는 사용 가능한 다른 프로세스가 다른 프로젝트를 빌드할 때 동시에 별도의 코어 또는 프로세서(사용 가능한 경우)를 사용하여 프로젝트를 빌드합니다. 예를 들어, 해당 스위치의 값을 "4"로 설정하면 MSBuild에서 4개의 작업자 프로세스를 만들어 프로젝트를 빌드할 수 있습니다.  

@@ -9,12 +9,12 @@ caps.latest.revision: 28
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: c4d1e6436d8f0fdeb80ad0e0c8a2631ba338d50c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 35c81dd879866d6a707e58add4a4fa94a254a918
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069902"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433024"
 ---
 # <a name="how-to-upgrade-from-a-trial-edition-of-visual-studio"></a>방법: Visual Studio Trial Edition에서 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60069902"
  예를 들어 [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]을 다운로드하여 10일 동안 사용한 후 등록하면 추가로 80일 동안 사용할 수 있습니다. 90일 후 제품을 계속 사용하려면 유효한 제품 키를 제공하거나 MSDN 구독이나 Visual Studio Online 구독과 연결된 Microsoft 계정 또는 조직 계정을 사용하여 Visual Studio에 로그인해야 합니다. 제품 키를 찾거나 얻는 방법에 대한 자세한 내용은 [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md) 및 [Visual Studio 구입 방법](http://www.visualstudio.com/products/how-to-buy-vs)을 참조하세요.
 
 > [!IMPORTANT]
->  Visual Studio Express Edition의 릴리스 버전에 대한 평가 기간 역시 30일입니다. Visual Studio Express Edition의 평가 기간을 영구히 확장하려면 Visual Studio에 로그인하거나 제품을 등록합니다.
+> Visual Studio Express Edition의 릴리스 버전에 대한 평가 기간 역시 30일입니다. Visual Studio Express Edition의 평가 기간을 영구히 확장하려면 Visual Studio에 로그인하거나 제품을 등록합니다.
 
  업그레이드하기 전에 Microsoft 웹 사이트에서 [Visual Studio 및 MSDN 라이선스 백서](http://www.microsoft.com/download/details.aspx?id=13350)를 다운로드하여 검토하는 것이 좋습니다. 추가로 도움이 필요한 경우 [Visual Studio 지원](http://support.microsoft.com/ph/1117/en-us)을 참조하세요.
 
@@ -41,7 +41,7 @@ ms.locfileid: "60069902"
 4. 유효한 제품 키를 입력한 다음, **적용** 단추를 선택합니다.
 
     > [!NOTE]
-    >  모든 Visual Studio 버전의 등록 및 잠금 해제에는 인터넷 액세스가 필요합니다. 그러나 Visual Studio 등록 후에 인터넷 연결은 선택 사항입니다.
+    > 모든 Visual Studio 버전의 등록 및 잠금 해제에는 인터넷 액세스가 필요합니다. 그러나 Visual Studio 등록 후에 인터넷 연결은 선택 사항입니다.
 
 ## <a name="see-also"></a>참고 항목
  [Visual Studio 설치](../install/install-visual-studio-2015.md) [Visual Studio에 로그인](../ide/signing-in-to-visual-studio.md) [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md) [Team Foundation Server의 제품 키 찾기 또는 변경](http://msdn.microsoft.com/library/64f29927-b520-4c9f-b633-bcb527e562cd) [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

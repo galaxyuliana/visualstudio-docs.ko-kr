@@ -11,12 +11,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b2e1fd8e54d34d8998158781c9de67d2e3a8cf01
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 03288cdfce66527fb48a16891e745765a72615f4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439267"
 ---
 # <a name="how-to-change-the-build-output-directory"></a>방법: 빌드 출력 디렉터리 변경
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "60104867"
 프로젝트에서 생성된 구성별로(디버그, 릴리스 또는 둘 다) 출력의 위치를 지정할 수 있습니다.  
   
 > [!NOTE]
->  **설치** 프로젝트가 있는 경우 이 문서 끝의 참고 사항을 참조하세요.  
+> **설치** 프로젝트가 있는 경우 이 문서 끝의 참고 사항을 참조하세요.  
   
 ## <a name="changing-the-build-output-directory"></a>빌드 출력 디렉터리 변경  
   
@@ -39,7 +39,7 @@ ms.locfileid: "60104867"
      출력 경로 항목(Visual Basic의 경우**빌드 출력 경로** , Visual C++의 경우 **출력 디렉터리** , JavaScript 및 C#의 경우 **출력 경로** )을 찾습니다. 프로젝트 디렉터리를 기준으로 새 빌드 출력 디렉터리를 지정합니다.  
   
 > [!NOTE]
->  설치 프로젝트의 **출력 파일 이름** 상자는 프로젝트 파일의 위치는 변경하지 않고 Setup.exe 파일의 위치만 변경합니다. 자세한 내용은 **배포 프로젝트 속성 대화 상자, 구성 속성, 빌드**를 참조하세요.  
+> 설치 프로젝트의 **출력 파일 이름** 상자는 프로젝트 파일의 위치는 변경하지 않고 Setup.exe 파일의 위치만 변경합니다. 자세한 내용은 **배포 프로젝트 속성 대화 상자, 구성 속성, 빌드**를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 디자이너, 빌드 페이지(C#)](../ide/reference/build-page-project-designer-csharp.md)   

@@ -19,12 +19,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: dc65715c2e0bc1e6e36e86c1ce8e3cd1b4c81058
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 081899efb202917f1ebeac97a58dd89cf5a04f53
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444391"
 ---
 # <a name="signfile-task"></a>SignFile 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "59660348"
  SHA-256 인증서는 .NET 4.5 이상이 설치된 컴퓨터에서만 사용할 수 있습니다.  
   
 > [!WARNING]
->  Visual Studio 2013 업데이트 3부터는 이 작업에 새 시그니처가 포함되어 파일의 대상 프레임워크 버전을 지정할 수 있습니다. MSBuild 프로세스에서는 대상 프레임워크가 .NET 4.5 이상일 때만 SHA-256 해시를 사용하므로 가능하면 항상 새 시그니처를 사용하는 것이 좋습니다. 대상 프레임워크가 .NET 4.0 이하이면 SHA-256 해시는 사용되지 않습니다.  
+> Visual Studio 2013 업데이트 3부터는 이 작업에 새 시그니처가 포함되어 파일의 대상 프레임워크 버전을 지정할 수 있습니다. MSBuild 프로세스에서는 대상 프레임워크가 .NET 4.5 이상일 때만 SHA-256 해시를 사용하므로 가능하면 항상 새 시그니처를 사용하는 것이 좋습니다. 대상 프레임워크가 .NET 4.0 이하이면 SHA-256 해시는 사용되지 않습니다.  
   
 |매개 변수|설명|  
 |---------------|-----------------|  
@@ -70,7 +70,7 @@ ms.locfileid: "59660348"
 ```  
   
 > [!NOTE]
->  인증서 지문은 인증서의 SHA-1 해시입니다. 자세한 내용은 [신뢰할 수 있는 루트 CA 인증서의 SHA-1 해시 얻기](http://msdn.microsoft.com/dd641990-9a88-4228-a245-017797131a87)를 참조하세요.  
+> 인증서 지문은 인증서의 SHA-1 해시입니다. 자세한 내용은 [신뢰할 수 있는 루트 CA 인증서의 SHA-1 해시 얻기](http://msdn.microsoft.com/dd641990-9a88-4228-a245-017797131a87)를 참조하세요.  
   
 ## <a name="example"></a>예제  
  다음 예제에서는 `Exec` 작업을 통해 `FilesToSign` 속성으로 지정된 인증서를 사용하여 `Certificate` 항목 컬렉션에 지정된 파일에 서명을 합니다. 이 방법으로 빌드 프로세스 중에 Windows Installer 파일에 서명을 할 수 있습니다.  

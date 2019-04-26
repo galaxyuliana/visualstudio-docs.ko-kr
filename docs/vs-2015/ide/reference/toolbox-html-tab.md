@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6c0603bd820990789af0d9bbca147acd7004e1a1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 35c5b1275ced5eb7f2fee85c0592be2b5ed94533
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419754"
 ---
 # <a name="toolbox-html-tab"></a>도구 상자, HTML 탭
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "60097533"
 <input id="Button1" type="button" value="Button" name="Button1">  
 ```  
   
- 자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de), [HtmlInputButton 서버 컨트롤 선언 구문](http://msdn.microsoft.com/99ccf7fb-7e2a-4ba1-bcd9-981b619a16aa), [NIB: 방법: 스크립트 만들기 및 이벤트 처리기 편집](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [단추 웹 서버 컨트롤 콘텐츠 맵](http://msdn.microsoft.com/library/66b3ce28-3b93-4f0a-951f-42fb5bb5fddf), <xref:System.Web.UI.HtmlControls.HtmlInputButton>, <xref:System.Web.UI.HtmlControls.HtmlButton> 및 <xref:System.Web.UI.WebControls.Button>을 참조하세요.  
+ 자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de), [HtmlInputButton 서버 컨트롤 선언 구문](http://msdn.microsoft.com/99ccf7fb-7e2a-4ba1-bcd9-981b619a16aa), [NIB: How to: Create Scripts and Edit Event Handlers](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d)(NIB: 방법: 스크립트 만들기 및 이벤트 처리기 편집), [Button Web Server Controls Content Map](http://msdn.microsoft.com/library/66b3ce28-3b93-4f0a-951f-42fb5bb5fddf)(Button 웹 서버 컨트롤 콘텐츠 맵), <xref:System.Web.UI.HtmlControls.HtmlInputButton>, <xref:System.Web.UI.HtmlControls.HtmlButton> 및 <xref:System.Web.UI.WebControls.Button>을 참조하세요.  
   
  **Input (Reset)**  
  ![HTMLpageResetButton 스크린샷](../../ide/reference/media/vxreset.gif "vxReset")  
@@ -96,7 +96,7 @@ ms.locfileid: "60097533"
  자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de), [HtmlInputText 서버 컨트롤 선언 구문](http://msdn.microsoft.com/87060d90-a11c-434d-9fc9-b03a8487041e), [TextBox 웹 서버 컨트롤 개요](http://msdn.microsoft.com/library/ab354bc1-f23a-48fc-93d8-d4d7c1b7396f), <xref:System.Web.UI.HtmlControls.HtmlInputText> 및 <xref:System.Web.UI.WebControls.TextBox>을 참조하세요.  
   
 > [!IMPORTANT]
->  모든 사용자 입력의 유효성을 검사하는 것이 좋습니다. 자세한 내용은 [ASP.NET 웹 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461)를 참조하세요.  
+> 모든 사용자 입력의 유효성을 검사하는 것이 좋습니다. 자세한 내용은 [ASP.NET 웹 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461)를 참조하세요.  
   
  **Input (File)**  
  ![HTML 페이지 파일 필드](../../ide/reference/media/vxfilefield.gif "vxFilefield")  
@@ -112,7 +112,7 @@ ms.locfileid: "60097533"
  자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de), [HtmlInputFile 서버 컨트롤 선언 구문](http://msdn.microsoft.com/a817b4a0-056f-4c17-a696-b9fdcde43db6) 및 <xref:System.Web.UI.HtmlControls.HtmlInputFile>을 참조하세요.  
   
 > [!IMPORTANT]
->  모든 사용자 입력의 유효성을 검사하는 것이 좋습니다. 자세한 내용은 [ASP.NET 웹 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461)를 참조하세요.  
+> 모든 사용자 입력의 유효성을 검사하는 것이 좋습니다. 자세한 내용은 [ASP.NET 웹 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461)를 참조하세요.  
   
  **Input (Password)**  
  ![Visual Studio 암호 필드](../../ide/reference/media/vxpassword.gif "vxPassword")  
@@ -125,10 +125,10 @@ ms.locfileid: "60097533"
 <input id="Password1" type="password" name="Password1">  
 ```  
   
- 자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de), [HtmlInputPassword 서버 컨트롤 선언 구문](http://msdn.microsoft.com/df703dd0-1624-4e5a-a547-c97f2f331b9f), [방법: 암호 항목에 대한 TextBox 웹 서버 컨트롤 설정](http://msdn.microsoft.com/library/5b5069f3-64a1-435a-aee6-da263f4e6310) 및 [연습: Web Forms 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/7141d6ba-34f3-410b-b5cd-2102a24cb436)를 참조하세요.  
+ 자세한 내용은 [HTML Input 컨트롤](http://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de), [HtmlInputPassword 서버 컨트롤 선언 구문](http://msdn.microsoft.com/df703dd0-1624-4e5a-a547-c97f2f331b9f), [방법: 암호 입력란으로 TextBox 웹 서버 컨트롤 설정](http://msdn.microsoft.com/library/5b5069f3-64a1-435a-aee6-da263f4e6310) 및 [연습: Web Forms 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/7141d6ba-34f3-410b-b5cd-2102a24cb436)를 참조하세요.  
   
 > [!IMPORTANT]
->  애플리케이션에서 사용자 이름과 암호를 전송할 경우 SSL(Secure Sockets Layer)을 사용하여 전송을 암호화하도록 웹 사이트를 구성해야 합니다. 자세한 내용은 [IIS Operations Guide](http://go.microsoft.com/fwlink/?linkid=47856)(IIS 작업 가이드)에서 "Securing Connections with SSL(SSL을 사용하여 연결 보호)"을 참조하세요. 또한 모든 사용자 입력의 유효성을 검사하는 것이 좋습니다. 자세한 내용은 [ASP.NET 웹 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461)를 참조하세요.  
+> 애플리케이션에서 사용자 이름과 암호를 전송할 경우 SSL(Secure Sockets Layer)을 사용하여 전송을 암호화하도록 웹 사이트를 구성해야 합니다. 자세한 내용은 [IIS Operations Guide](http://go.microsoft.com/fwlink/?linkid=47856)(IIS 작업 가이드)에서 "Securing Connections with SSL(SSL을 사용하여 연결 보호)"을 참조하세요. 또한 모든 사용자 입력의 유효성을 검사하는 것이 좋습니다. 자세한 내용은 [ASP.NET 웹 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461)를 참조하세요.  
   
  **Input (Check box)**  
  ![HTML 웹 페이지 도구 상자 확인란 옵션](../../ide/reference/media/vxcheckbox.gif "vxCheckbox")  
@@ -183,7 +183,7 @@ ms.locfileid: "60097533"
  자세한 내용은 [HtmlTextArea 서버 컨트롤 선언 구문](http://msdn.microsoft.com/5a103ffa-235b-4452-ba2b-a4fb8ba8cb87), <xref:System.Web.UI.HtmlControls.HtmlTextArea> 및 <xref:System.Web.UI.WebControls.TextBox>를 참조하세요.  
   
 > [!IMPORTANT]
->  모든 사용자 입력의 유효성을 검사하는 것이 좋습니다. 자세한 내용은 [ASP.NET 웹 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461)를 참조하세요.  
+> 모든 사용자 입력의 유효성을 검사하는 것이 좋습니다. 자세한 내용은 [ASP.NET 웹 페이지에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461)를 참조하세요.  
   
  **Table**  
  ![HTMLpageToolbarTable 스크린샷](../../ide/reference/media/vxtable.gif "vxTable")  
@@ -224,7 +224,7 @@ ms.locfileid: "60097533"
   
  size 속성 값을 늘려 여러 줄 `select` 요소를 만들 수 있습니다.  
   
- 자세한 내용은 [HtmlSelect 서버 컨트롤 선언 구문](http://msdn.microsoft.com/ee93bdec-b343-441a-a8ff-56ffcafe9ae5), [NIB: 방법: 스크립트 만들기 및 이벤트 처리기 편집](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [DropDownList 웹 서버 컨트롤 개요](http://msdn.microsoft.com/library/517dd1a4-8df3-4c9f-8c89-1549a1aee608), [ListBox 웹 서버 컨트롤 개요](http://msdn.microsoft.com/library/c08ee025-787a-408d-858e-a4a5fdb61d97), <xref:System.Web.UI.HtmlControls.HtmlSelect> 및 <xref:System.Web.UI.WebControls.DropDownList>를 참조하세요.  
+ 자세한 내용은 [HtmlSelect 서버 컨트롤 선언 구문](http://msdn.microsoft.com/ee93bdec-b343-441a-a8ff-56ffcafe9ae5), [NIB: How to: Create Scripts and Edit Event Handlers](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d)(NIB: 방법: 스크립트 만들기 및 이벤트 처리기 편집), [DropDownList Web Server Control Overview](http://msdn.microsoft.com/library/517dd1a4-8df3-4c9f-8c89-1549a1aee608)(DropDownList 웹 서버 컨트롤 개요), [ListBox Web Server Control Overview](http://msdn.microsoft.com/library/c08ee025-787a-408d-858e-a4a5fdb61d97)(ListBox 웹 서버 컨트롤 개요), <xref:System.Web.UI.HtmlControls.HtmlSelect> 및 <xref:System.Web.UI.WebControls.DropDownList>를 참조하세요.  
   
  **Horizontal Rule**  
  ![HTML 페이지 가로줄 항목](../../ide/reference/media/vxhorizontal.gif "vxHorizontal")  

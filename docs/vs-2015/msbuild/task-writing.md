@@ -13,12 +13,12 @@ caps.latest.revision: 22
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fab26a750dab2a1099280b886342731fe8a4612e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: eaf927b1049709a04d8a883615d1997e9316599e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445393"
 ---
 # <a name="task-writing"></a>작업 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -105,7 +105,7 @@ namespace MyTasks
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 파일 Microsoft.Common.Tasks는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]와(과) 함께 제공된 모든 작업을 등록하는 `UsingTask` 요소의 목록을 포함하는 프로젝트 파일입니다. 이 파일은 모든 프로젝트를 빌드할 때 자동으로 포함됩니다. Microsoft.Common.Tasks에 등록된 작업이 현재 프로젝트 파일에도 등록된 경우 현재 프로젝트 파일이 우선 순위를 가집니다. 즉, 동일한 이름을 가진 고유 작업으로 기본 작업을 재정의할 수 있습니다.  
   
 > [!TIP]
->  Microsoft.Common.Tasks의 내용을 확인하여 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]와(과) 함께 제공되는 작업의 목록을 볼 수 있습니다.  
+> Microsoft.Common.Tasks의 내용을 확인하여 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]와(과) 함께 제공되는 작업의 목록을 볼 수 있습니다.  
   
 ## <a name="raising-events-from-a-task"></a>작업에서 이벤트 발생시키기  
  작업이 <xref:Microsoft.Build.Utilities.Task> 도우미 클래스에서 파생되는 경우 <xref:Microsoft.Build.Utilities.Task> 클래스의 다음 도우미 클래스 중 하나를 사용하여 모든 등록된 로커로 발견되고 등록되는 이벤트를 발생시킬 수 있습니다.  

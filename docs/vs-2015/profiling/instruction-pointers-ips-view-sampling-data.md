@@ -11,12 +11,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b2d4ce3c3a6ba7e49d70b335a85a17a847739962
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 502ab8dbafd12f3b00949b5b52609c4c8c8ddce9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433925"
 ---
 # <a name="instruction-pointers-ips-view---sampling-data"></a>IP(명령 포인터) 뷰 - 샘플링 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "54758494"
 샘플링 데이터의 IP 뷰에는 프로파일링 실행 시 샘플이 수집될 때 직접 실행되고 있던 어셈블리 명령에 대한 성능 데이터가 나열됩니다.  
   
 > [!NOTE]
->  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
+> Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
   
 |열|설명|  
 |------------|-----------------|  

@@ -11,12 +11,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 105e81ed15a540a0c008eb94cb4af49caa099879
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 566cb2e7222aacbf992dc1693d8ce1de102605a3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54803032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434962"
 ---
 # <a name="markprofile"></a>MarkProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );
  표시 및 주석을 Mark 명령 또는 API 함수(CommentMarkAtProfile, CommentMarkProfile 또는 MarkProfile)를 사용하여 삽입한 경우 표시 프로필 함수를 포함하는 스레드의 프로파일링 상태는 ON입니다.  
   
 > [!IMPORTANT]
->  MarkProfile 메서드는 계측 프로파일링에서만 사용해야 합니다.  
+> MarkProfile 메서드는 계측 프로파일링에서만 사용해야 합니다.  
   
 ## <a name="net-framework-equivalent"></a>.NET Framework의 해당 값  
  Microsoft.VisualStudio.Profiler.dll  
@@ -65,7 +65,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );
   
  가져오기 라이브러리: VSPerf.lib  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 코드에서는 MarkProfile 함수를 보여 줍니다.  
   
 ```  

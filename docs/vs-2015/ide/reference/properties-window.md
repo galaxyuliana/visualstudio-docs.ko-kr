@@ -21,12 +21,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: beb0296834986648f47357da50d4022c1f632823
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 582905042938d79a1885279bd19c18f48b49bb84
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438026"
 ---
 # <a name="properties-window"></a>속성 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,25 +58,25 @@ ms.locfileid: "59658788"
  개체에 대한 이벤트를 표시합니다.  
   
 > [!NOTE]
->  이 **속성** 창 도구 모음 컨트롤은 폼 또는 컨트롤 디자이너가 [!INCLUDE[csprcs](../../includes/csprcs-md.md)] 프로젝트의 컨텍스트에서 활성 상태인 경우에만 사용 가능합니다. XAML 파일을 편집할 때 이벤트는 속성 창의 별도 탭에 표시됩니다.  
+> 이 **속성** 창 도구 모음 컨트롤은 폼 또는 컨트롤 디자이너가 [!INCLUDE[csprcs](../../includes/csprcs-md.md)] 프로젝트의 컨텍스트에서 활성 상태인 경우에만 사용 가능합니다. XAML 파일을 편집할 때 이벤트는 속성 창의 별도 탭에 표시됩니다.  
   
  메시지  
  모든 Windows 메시지를 나열합니다. 선택한 클래스에 제공되는 메시지에 지정된 처리기 함수를 추가하거나 삭제할 수 있습니다.  
   
 > [!NOTE]
->  이 **속성** 창 도구 모음 컨트롤은 **클래스 뷰**가 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트의 컨텍스트에서 활성 창인 경우에만 사용 가능합니다.  
+> 이 **속성** 창 도구 모음 컨트롤은 **클래스 뷰**가 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트의 컨텍스트에서 활성 창인 경우에만 사용 가능합니다.  
   
  Overrides  
  선택한 클래스에 대한 모든 가상 함수를 나열하고 재정의 함수를 추가하거나 삭제할 수 있습니다.  
   
 > [!NOTE]
->  이 **속성** 창 도구 모음 컨트롤은 **클래스 뷰**가 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트의 컨텍스트에서 활성 창인 경우에만 사용 가능합니다.  
+> 이 **속성** 창 도구 모음 컨트롤은 **클래스 뷰**가 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트의 컨텍스트에서 활성 창인 경우에만 사용 가능합니다.  
   
  설명 창  
  속성 형식과 속성에 대한 간단한 설명을 표시합니다. 바로 가기 메뉴에서 설명 명령을 사용하여 속성에 대한 설명을 켜고 끌 수 있습니다.  
   
 > [!NOTE]
->  이 **속성** 창 도구 모음 컨트롤은 디자이너에서 XAML 파일을 편집할 경우에 사용할 수 없습니다.  
+> 이 **속성** 창 도구 모음 컨트롤은 디자이너에서 XAML 파일을 편집할 경우에 사용할 수 없습니다.  
   
  썸네일 보기  
  디자이너에서 XAML 파일을 편집할 때 시각적으로 현재 선택한 요소를 보여줍니다.  

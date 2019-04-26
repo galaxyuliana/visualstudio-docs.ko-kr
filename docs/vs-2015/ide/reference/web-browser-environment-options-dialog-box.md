@@ -24,12 +24,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: aba4d37d672d3e544d65f46c6f32062f9b2637eb
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: df33215bab20be8744ed2455ef87f1a037871f95
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419711"
 ---
 # <a name="web-browser-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 웹 브라우저
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,10 +37,10 @@ ms.locfileid: "59663981"
 내부 웹 브라우저 및 Internet Explorer에 대한 옵션을 설정합니다. 이 대화 상자에 액세스하려면 **도구** 메뉴에서 **옵션**을 클릭하고, **환경** 폴더를 확장하고, **웹 브라우저**를 선택합니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 > [!IMPORTANT]
->  웹에서 특정 파일이나 구성 요소를 열면 코드가 컴퓨터에서 실행될 수 있습니다.  
+> 웹에서 특정 파일이나 구성 요소를 열면 코드가 컴퓨터에서 실행될 수 있습니다.  
   
  홈 페이지  
  IDE 웹 브라우저를 열 때 표시되는 페이지를 설정합니다.  
@@ -61,7 +61,7 @@ ms.locfileid: "59663981"
   **인터넷 속성** 대화 상자에서 Internet Explorer에 대한 옵션을 변경하려면 클릭합니다. 이 대화 상자에서 변경한 내용은 내부 웹 브라우저 및 Visual Studio IDE 외부에서(예: [시작] 메뉴에서) 시작된 Internet Explorer 인스턴스에 둘 다 영향을 미칩니다.  
   
 > [!NOTE]
->  다른 외부 웹 브라우저를 사용하여 Internet Explorer의 한 버전인 Visual Studio 내부 웹 브라우저를 바꾸려면 [브라우저 선택] 대화 상자를 사용합니다.  
+> 다른 외부 웹 브라우저를 사용하여 Internet Explorer의 한 버전인 Visual Studio 내부 웹 브라우저를 바꾸려면 [브라우저 선택] 대화 상자를 사용합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)   

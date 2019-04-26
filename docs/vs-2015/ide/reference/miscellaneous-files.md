@@ -21,12 +21,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: aadb6b0212f760ab16efd677e02e1d922ae52e12
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 266db8199160f58c62b7587f55029cff2bb26c29
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441698"
 ---
 # <a name="miscellaneous-files"></a>기타 파일
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "59658496"
  기타 파일 폴더는 파일을 링크로 나타냅니다. 이 폴더는 솔루션에 포함되지 않지만 솔루션을 열 때 폴더에 대한 설정에 따라 솔루션을 마지막으로 닫을 때 열려 있던 기타 파일 중 일부 또는 모두가 다시 열립니다.  
   
 > [!NOTE]
->  기타 파일 폴더에 나타나지 않는 일부 파일은 IDE 내에서 수정할 수 없는 파일(예: .zip 파일, .doc 파일)입니다. IDE는 외부 편집기를 통해서만 수정할 수 있는 파일을 추적하지 않습니다.  
+> 기타 파일 폴더에 나타나지 않는 일부 파일은 IDE 내에서 수정할 수 없는 파일(예: .zip 파일, .doc 파일)입니다. IDE는 외부 편집기를 통해서만 수정할 수 있는 파일을 추적하지 않습니다.  
   
 ## <a name="commands-available-in-the-ide"></a>IDE에서 사용할 수 있는 명령  
  메뉴, 도구 모음 및 포함된 명령은 여는 파일의 형식에 따라 변경됩니다. 예를 들어 텍스트 파일을 여는 경우 텍스트 편집기 도구 모음이 나타나고 해당 명령을 사용할 수 있습니다. XML 스키마 파일을 여는 경우 XML 스키마 도구 모음이 나타납니다. XML 스키마를 편집하는 동안 텍스트 편집기 도구 모음의 명령(또는 도구 모음 자체)은 사용할 수 없습니다. XML 스키마는 활성 창이므로 현재 선택 영역 컨텍스트가 있습니다. 프로젝트 파일과 기타 파일 간에 전환하는 경우 모든 프로젝트 관련 명령이 사라지고 기타 파일과 직접 관련된 명령만 나타납니다.  

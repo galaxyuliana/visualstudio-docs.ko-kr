@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 416baf8988f8d17a336f9fbef1eb0f9d9a72046b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 54d7bac2db7b1fb2a0a9e8b830a13646acd5300d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428275"
 ---
 # <a name="synchronized-settings-in-visual-studio"></a>Visual Studio의 동기화된 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "60109012"
  Express 및 Community 버전을 포함하여 Visual Studio 2015 버전 간에 설정을 동기화할 수 있습니다. Blend 같은 Visual Studio 제품군 제품 간에서도 설정이 동기화됩니다. 그러나 각각의 이러한 제품군 제품에는 Visual Studio와 공유되지않는 자체 설정이 있을 수 있습니다. 예를 들어 컴퓨터 A의 Blend에 관련된 설정이 컴퓨터 B의 Blend와 공유되지만 컴퓨터 A나 B의 Visual Studio와는 공유되지 않습니다.
 
 > [!WARNING]
->  Visual Studio 2013과 Visual Studio 2015 간에 설정이 동기화되지 않습니다. Visual Studio 2015를 처음 열 때 Visual Studio 2013의 설정이 마이그레이션되지만 그 후 Visual Studio 2013으로 다시 마이그레이션할 수 없습니다.
+> Visual Studio 2013과 Visual Studio 2015 간에 설정이 동기화되지 않습니다. Visual Studio 2015를 처음 열 때 Visual Studio 2013의 설정이 마이그레이션되지만 그 후 Visual Studio 2013으로 다시 마이그레이션할 수 없습니다.
 
 ## <a name="see-also"></a>참고 항목
  [IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)

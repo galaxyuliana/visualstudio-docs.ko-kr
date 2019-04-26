@@ -18,12 +18,12 @@ caps.latest.revision: 28
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: ff4faf3fdd6bd4b9398e3448a63e4c6061d79cfb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 503f97d1530f8d22184f42a2452046782a997c18
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433006"
 ---
 # <a name="microsoft-language-interface-packs-lips-and-visual-studio"></a>Microsoft LIP(언어 인터페이스 팩) 및 Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ Windows LIP(언어 인터페이스 팩)를 사용하면 Windows 언어 버전을
  Visual Studio는 통합된 언어 팩을 사용합니다. 이러한 제품의 언어 버전을 두 개 이상 설치하려면 전체 언어 제품을 먼저 설치한 다음 하나 이상의 언어 팩을 설치해야 합니다.
 
 > [!NOTE]
->  Visual Studio는 같은 컴퓨터에서 전체 언어 제품의 다중 언어 버전 설치를 지원하지 않습니다. 하나의 전체 언어 제품을 설치한 후 언어 팩을 사용하여 언어 버전을 추가해야 합니다. 동일한 컴퓨터에 Express Edition의 전체 언어 제품을 여러 개 설치할 수는 있습니다.
+> Visual Studio는 같은 컴퓨터에서 전체 언어 제품의 다중 언어 버전 설치를 지원하지 않습니다. 하나의 전체 언어 제품을 설치한 후 언어 팩을 사용하여 언어 버전을 추가해야 합니다. 동일한 컴퓨터에 Express Edition의 전체 언어 제품을 여러 개 설치할 수는 있습니다.
 
 ### <a name="support-for-code-pages"></a>코드 페이지에 대한 지원
  텍스트가 현재 코드 페이지에 없는 문자를 포함하는 경우 일부 Visual Studio 도구에서는 텍스트가 올바르게 표시되지 않습니다. 대신, 물음표가 나타나거나 텍스트가 손상됩니다. 다음과 같은 도구 또는 영역이 영향을 받습니다.
@@ -76,7 +76,7 @@ Windows LIP(언어 인터페이스 팩)를 사용하면 Windows 언어 버전을
 1. **시작**, **제어판**을 차례로 클릭한 다음, **국가 및 언어 옵션** 또는 [!INCLUDE[win8](../includes/win8-md.md)]의 **지역**을 엽니다.
 
     > [!NOTE]
-    >  이 단계를 수행하려면 컴퓨터의 관리자여야 합니다.
+    > 이 단계를 수행하려면 컴퓨터의 관리자여야 합니다.
 
 2. **고급** 탭을 클릭합니다.
 
@@ -88,7 +88,7 @@ Windows LIP(언어 인터페이스 팩)를 사용하면 Windows 언어 버전을
  동일한 컴퓨터에 여러 언어 버전의 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 설치하는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] UI는 기본적으로 **Microsoft Windows와 같음**으로 설정됩니다. 이 설정은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 운영 체제의 표시 언어로 지정된 언어로 UI 텍스트가 표시됨을 나타냅니다.
 
 > [!NOTE]
->  Visual Studio가 **Microsoft Windows와 같음**을 사용하도록 설정되고 일치하는 Visual Studio 언어 팩이 설치되지 않은 경우 Visual Studio는 첫 번째 Visual Studio 설치의 언어를 사용합니다.
+> Visual Studio가 **Microsoft Windows와 같음**을 사용하도록 설정되고 일치하는 Visual Studio 언어 팩이 설치되지 않은 경우 Visual Studio는 첫 번째 Visual Studio 설치의 언어를 사용합니다.
 
 #### <a name="to-set-the-language-that-is-used-for-the-ui-text-in-visual-studio"></a>Visual Studio에서 UI 텍스트에 사용되는 언어를 설정하려면
 
