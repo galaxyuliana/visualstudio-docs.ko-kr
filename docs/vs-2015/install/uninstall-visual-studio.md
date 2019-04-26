@@ -15,12 +15,12 @@ caps.latest.revision: 9
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: e00ca9212c03d4123259715da157201c06d90f2b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: ed9d33501644c6fa7252dffa758f92c0919653b1
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59667302"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62546904"
 ---
 # <a name="uninstall-visual-studio"></a>Visual Studio 제거
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,12 +39,12 @@ Visual Studio에 대한 최신 설명서는 [Visual Studio 제거](/visualstudio
 
 ## <a name="uninstall-visual-studio-and-all-other-related-files-that-is-to-uninstall-almost-everything"></a>Visual Studio 및 기타 관련된 모든 파일을 제거합니다(거의 모든 것 제거).
 
-1.  Visual Studio .exe 파일(예: “vs_enterprise.exe”)을 찾습니다.
+1. Visual Studio .exe 파일(예: “vs_enterprise.exe”)을 찾습니다.
 
     > [!NOTE]
     > 파일은 “%ProgramData%\Package Cache”의 하위 폴더에 있습니다(예: C:\ProgramData\Package Cache\\{37e19555-e88d-4aed-9d42-82d0784d2b79}\vs_enterprise.exe).
 
-2.  /uninstall /force 명령줄 매개 변수를 사용하여 .exe 파일을 실행합니다.
+2. /uninstall /force 명령줄 매개 변수를 사용하여 .exe 파일을 실행합니다.
 
      예를 들어 ```vs_enterprise.exe /uninstall /force```를 실행하면 Visual Studio 및 기본 설치에 함께 설치된 대부분의 핵심 구성 요소가 제거됩니다. 그러나 Visual Studio 추가 기능 및 확장과 함께 설치될 수 있는 일부 추가 콘텐츠(예: Visual Studio 업데이트 및 기타 선택적 구성 요소)는 제거되지 않습니다.
 
@@ -53,9 +53,9 @@ Visual Studio에 대한 최신 설명서는 [Visual Studio 제거](/visualstudio
 
 ## <a name="uninstall-visual-studio-in-silent-or-passive-modes-that-is-to-uninstall-from-source"></a>Visual Studio를 자동 또는 수동 모드에서 제거(소스에서 제거)
 
-1.  Visual Studio가 설치된 컴퓨터에서 Windows 명령 프롬프트를 엽니다.
+1. Visual Studio가 설치된 컴퓨터에서 Windows 명령 프롬프트를 엽니다.
 
-2.  다음 매개 변수를 입력합니다.
+2. 다음 매개 변수를 입력합니다.
 
      *DVDRoot* \\<Installation File\> \</quiet&#124;/passive> [/norestart]/uninstall
 
