@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - data-science
 ms.openlocfilehash: adcc5ce422cdd06e641408b3506fb751a4c730d1
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56840885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950463"
 ---
 # <a name="r-tools-for-visual-studio-sample-projects"></a>Visual Studio용 R 도구 샘플 프로젝트
 
@@ -81,7 +81,7 @@ Microsoft의 R 배포인 [Microsoft R Open](https://aka.ms/rtvs-r-open)은 [CRAN
 
 ![MKL이 있는 MLS/MRO 및 MKL이 없는 R/MRO 비교](media/samples-speed-comparison.png)
 
-R과 MRO/MLS의 기술적인 비교를 위해 항목에서 [Lixun Zhang의 자세한 설명](http://htmlpreview.github.io/?https://github.com/lixzhang/R-MRO-MRS/blob/master/Introduction_to_MRO_and_MRS.html)을 확인하세요.
+R과 MRO/MLS의 기술적인 비교를 위해 항목에서 [Lixun Zhang의 자세한 설명](http://htmlpreview.github.io/? https://github.com/lixzhang/R-MRO-MRS/blob/master/Introduction_to_MRO_and_MRS.html)을 확인하세요.
 
 다음 그림은 15분 이상의 항공 지연을 예측하는 로지스틱 회귀 모델을 작성하는 데 사용되는 경과된 시간(초)을 비교합니다.  적은 수의 행을 늘릴 때 CRAN R에 사용되는 경과된 시간은 대폭 증가하지만 MLS는 2배 정도씩만 증가합니다. 이 벤치마크에 대한 자세한 내용은 *벤치마크/rxGlm_benchmark.R*을 참조하세요.
 
