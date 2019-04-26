@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 99bbb6ba880ace8b21ae6b6009ee84cffee79485
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56618733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62856038"
 ---
 # <a name="logging-in-msbuild"></a>MSBuild 로그인
 로깅은 빌드의 진행률을 모니터링할 수 있는 방법을 제공합니다. 로깅은 빌드 이벤트, 메시지, 경고 및 오류를 로그 파일에 캡처합니다.

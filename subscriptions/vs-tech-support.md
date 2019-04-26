@@ -7,12 +7,12 @@ ms.date: 2/13/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 기술 지원 혜택을 활성화하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: ab56754f6ef707eb619d7473cb391d415506a396
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 5464157d27833781edbcbe041d17ad5ecab5eebb
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57867105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62811534"
 ---
 # <a name="activate-and-use-the-technical-support-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 기술 지원 혜택 활성화 및 사용
 
@@ -82,7 +82,6 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
    > ![기술 지원 혜택 인시던트 제출 - 계약 추가](_img/vs-tech-support/vs-tech-support-add-contract.png)
 
 4. **액세스 ID**와 **계약 ID**를 입력합니다.  **추가**를 클릭합니다.
-
 
    > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 인시던트 제출 - 계약 ID 추가](_img/vs-tech-support/vs-tech-support-add-contract-id.png)

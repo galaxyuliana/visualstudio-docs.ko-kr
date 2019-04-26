@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: d93071aa62c4d2305b0104ec17e8242bacefa6d1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62994997"
 ---
 # <a name="profile-on-hpc-high-performance-computing-clusters"></a>HPC(고성능 컴퓨팅) 클러스터에서 프로파일링
 
@@ -36,7 +36,7 @@ HPC 컴퓨팅 노드에서 프로파일링하려면 다음을 수행해야 합�
 
 - Visual Studio와 같은 컴퓨터에 Microsoft HPC 팩 2008을 설치합니다. 컴퓨터는 HPC 클러스터의 일부분이 아니어도 됩니다. HPC 팩은 [Microsoft 다운로드 센터](http://go.microsoft.com/fwlink/?LinkID=177414)에서 설치할 수 있습니다.
 
-- [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] 및 독립 실행형 버전의 프로파일링 도구를 HPC 컴퓨터 노드에 설치합니다. [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 및 독립 실행형 프로파일러의 설치 프로그램은 모두 Visual Studio 설치 미디어에 포함되어 있습니다. **참고** [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]를 설치한 후 프로파일링 도구를 설치하기 전에 컴퓨터를 다시 시작해야 합니다.
+- [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] 및 독립 실행형 버전의 프로파일링 도구를 HPC 컴퓨팅 노드에 설치합니다. [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 및 독립 실행형 프로파일러의 설치 프로그램은 모두 Visual Studio 설치 미디어에 포함되어 있습니다. **참고**[!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]를 설치한 후 프로파일링 도구를 설치하기 전에 컴퓨팅을 다시 시작해야 합니다.
 
   활성 HPC 컴퓨팅 노드에 [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] 및 독립 실행형 프로파일링 도구를 설치하고 클러스터 컴퓨터에 대한 프로파일링을 활성화하려면 다음 단계를 수행합니다.
 
@@ -78,7 +78,7 @@ HPC 성능 마법사를 사용하여 HPC 클러스터 및 대상 정보를 지�
 
     - 열린 프로젝트에 없는 실행 파일을 프로파일링하는 경우 **명령줄 인수**에서 프로세스에 전달할 명령줄 인수를 지정할 수 있습니다.
 
-    - **원격 작업 디렉터리**에서 개별 컴퓨터 노드의 프로세스 인스턴스가 사용하는 폴더의 경로를 지정합니다.
+    - **원격 작업 디렉터리**에서 개별 컴퓨팅 노드의 프로세스 인스턴스가 사용하는 폴더의 경로를 지정합니다.
 
     - **배포 위치**에서 HPC 서버가 배포용 이미지를 준비하는 데 사용하는 디렉터리의 경로를 지정합니다.
 

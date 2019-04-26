@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b924cb02f46a0857c21903bed9200ed4ef79b6db
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.openlocfilehash: 0713ae13038991ec65dcbebe350c9085f7d6a94a
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62797936"
 ---
 # <a name="perftips"></a>PerfTips
 Visual Studio 디버거 *PerfTips* 및 디버거 통합 **진단 도구** 는 디버그하는 동안 앱의 성능을 모니터링 및 분석하는 데 도움이 됩니다.
@@ -32,27 +32,27 @@ Visual Studio 디버거 *PerfTips* 및 디버거 통합 **진단 도구** 는 �
 
  ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")
 
--   **중단 이벤트** 타임라인은 디버깅 세션에서 적중된 중단점을 표시합니다. 이벤트를 클릭하여 **디버거** 세부 정보 목록에서 선택합니다.
+- **중단 이벤트** 타임라인은 디버깅 세션에서 적중된 중단점을 표시합니다. 이벤트를 클릭하여 **디버거** 세부 정보 목록에서 선택합니다.
 
--   **CPU 사용률** 그래프는 디버깅 세션에서 모든 프로세서 코어의 CPU 사용 변경 내용을 보여 줍니다.
+- **CPU 사용률** 그래프는 디버깅 세션에서 모든 프로세서 코어의 CPU 사용 변경 내용을 보여 줍니다.
 
--   **디버거** 세부 정보 창의 **이벤트** 목록에는 각 중단 이벤트에 대한 항목이 포함됩니다.
+- **디버거** 세부 정보 창의 **이벤트** 목록에는 각 중단 이벤트에 대한 항목이 포함됩니다.
 
--   중단 이벤트의 **기간** 열에는 이벤트와 이전 중단점 사이의 경과 시간이 표시됩니다.
+- 중단 이벤트의 **기간** 열에는 이벤트와 이전 중단점 사이의 경과 시간이 표시됩니다.
 
 ## <a name="turn-perftips-on-or-off"></a>PerfTips 켜기 또는 끄기
  PerfTips를 사용하거나 사용하지 않도록 설정하려면
 
-1.  **디버그** 메뉴에서 **옵션**을 선택합니다.
+1. **디버그** 메뉴에서 **옵션**을 선택합니다.
 
-2.  **디버깅 중에 경과한 시간 성능 팁 표시**를 선택하거나 선택 취소합니다.
+2. **디버깅 중에 경과한 시간 성능 팁 표시**를 선택하거나 선택 취소합니다.
 
 ## <a name="turn-the-diagnostic-tools-window-on-or-off"></a>진단 도구 창 켜기 또는 끄기
  진단 도구 창을 사용하거나 사용하지 않도록 설정하려면
 
-1.  **디버그** 메뉴에서 **옵션**을 선택합니다.
+1. **디버그** 메뉴에서 **옵션**을 선택합니다.
 
-2.  **디버그하는 동안 진단 도구 사용**을 선택하거나 선택 취소합니다.
+2. **디버그하는 동안 진단 도구 사용**을 선택하거나 선택 취소합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [Visual Studio의 프로파일링](../profiling/index.md)

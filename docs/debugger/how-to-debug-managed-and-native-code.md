@@ -16,11 +16,11 @@ ms.workload:
 - dotnet
 - cplusplus
 ms.openlocfilehash: d1fefda9d8d639bf8d360bbd6b869b75b7dae903
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62847933"
 ---
 # <a name="tutorial-debug-c-and-c-in-the-same-debugging-session"></a>자습서: 동일한 디버깅 세션에서 C# 및 C++ 디버그
 
@@ -50,7 +50,7 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
 ## <a name="create-a-simple-native-dll"></a>간단한 네이티브 DLL 만들기
 
-**DLL 프로젝트용 파일을 만들려면 다음을 수행합니다.**
+**DLL 프로젝트용 파일을 만들려면:**
 
 1. Visual Studio를 열고 프로젝트를 만듭니다.
 
@@ -106,7 +106,7 @@ Visual Studio를 설치했지만 필요한 워크로드가 없는 경우 Visual 
 
 1. **파일** > **모두 저장**을 선택하거나 **Ctrl**+**Shift**+**S**를 눌러 파일을 저장합니다.
 
-**DLL 프로젝트를 구성 및 빌드하려면 다음을 수행합니다.**
+**DLL 프로젝트를 구성 및 빌드합니다.**
 
 1. Visual Studio 도구 모음에서 **디버그** 구성 및 **x86** 또는 **x64** 플랫폼을 선택합니다. 호출 앱이 항상 64비트 모드로 실행되는 .NET Core인 경우 플랫폼으로 **x64**를 선택합니다.
 

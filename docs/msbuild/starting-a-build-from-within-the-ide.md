@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ae3478aef733d106fa075a51edce4af91b404149
-ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "59584339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62939367"
 ---
 # <a name="start-a-build-from-within-the-ide"></a>IDE에서 빌드 시작
 사용자 지정 프로젝트 시스템은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor>를 사용하여 빌드를 시작해야 합니다. 이 문서에서는 이 요구 사항에 대한 이유를 설명하고 프로시저를 간략하게 설명합니다.

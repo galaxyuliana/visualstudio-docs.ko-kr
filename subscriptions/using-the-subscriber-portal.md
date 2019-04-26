@@ -8,11 +8,11 @@ ms.topic: conceptual
 description: Visual Studio 구독 포털에서 사용할 수 있는 이점의 전체 범위에 대해 알아보기
 searchscope: VS Subscription
 ms.openlocfilehash: fcf8d9c9ddd88fd6f00c0b59c92c5e51af7a6ca1
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58323401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62809165"
 ---
 # <a name="using-the-subscriber-portal---myvisualstudiocom"></a>구독자 포털 사용 - my.visualstudio.com
 

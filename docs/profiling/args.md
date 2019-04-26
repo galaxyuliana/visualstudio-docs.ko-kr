@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 036b13a7fea5d64e23e2b7d5ccbd8a7b17f91176
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62777052"
 ---
 # <a name="args"></a>Args
 VSPerfCmd.exe **Args** 옵션은 **Launch** 하위 명령의 대상 애플리케이션에 전달되는 인수 목록을 지정합니다.
