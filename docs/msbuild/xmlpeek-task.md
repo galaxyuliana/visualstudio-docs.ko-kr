@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 19b8273617955092519bf16f0aa5b3fbea86218a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62777823"
 ---
 # <a name="xmlpeek-task"></a>XmlPeek 작업
 XML 파일에서 XPath 쿼리에 의해 지정된 대로 값을 반환합니다.

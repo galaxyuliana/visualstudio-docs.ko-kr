@@ -7,12 +7,12 @@ ms.date: 11/07/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 로그인할 때 발생할 수 있는 문제에 대해 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: 0073ec4193190e56fb5147b5da56898e1a289fd5
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: ebdca1a8b38fd6ecbe895524da9c090be0620894
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56840950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63008059"
 ---
 # <a name="issues-signing-in-to-visual-studio-subscriptions"></a>Visual Studio 구독에 로그인할 때의 문제
 Visual Studio 구독을 사용하려면 먼저 로그인해야 합니다.  구독에 따라 Microsoft 계정(MSA) 또는 AAD(Azure Active Directory) ID로 설정했을 수 있습니다.  이 문서에서는 구독에 로그인하는 동안 발생할 수 있는 몇 가지 문제에 대해 설명합니다.
@@ -55,7 +55,6 @@ Azure AD에서 이메일 도메인을 구성할 때 직장/학교 이메일 주�
 구독 액세스 권한에 영향을 주지 않으려면 다음 기술 중 하나를 사용합니다.
 - 단일 ID 관리 시스템인 MSA 또는 AAD 중 하나를 배포하세요(동시 배포는 안됨).
 - 테넌트를 통해 AAD 및 MSA ID를 연결합니다.
-
 
 ## <a name="next-steps"></a>다음 단계
 - AAD 내에서 [MSA 및 AAD 계정을 연결](/azure/active-directory/b2b/add-users-administrator)하는 방법을 알아봅니다.

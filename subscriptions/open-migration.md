@@ -7,12 +7,12 @@ ms.date: 07/02/2018
 ms.topic: conceptual
 description: Visual Studio 구독 관리 포털에 Open 및 Open License 마이그레이션에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: a2f3ed6db9b8e0ce0dce645bfbbb715b89fe1f04
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 0e3ad14f48aaa461b7c70507cd4501067eacc789
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62821733"
 ---
 # <a name="open-and-open-license-migration-to-the-new-visual-studio-subscriptions-administration-portal"></a>새 Visual Studio 구독 관리 포털에 Open 및 Open License 마이그레이션
 
@@ -38,7 +38,6 @@ ms.locfileid: "56843197"
 
 - 파트너가 고객을 대신하여 구독을 관리하려면 관리 포털에 등록해야 합니다. gain access에 액세스하는 다양한 방법이 아래에 나열되어 있습니다(add-open 프로세스와 유사).
 
-
 ## <a name="existing-partners-adding-a-new-license"></a>기존 파트너에 새 라이선스 추가
 
 이는 [Visual Studio 구독 관리 포털](https://manage.visualstudio.com)에 이미 액세스할 수 있지만, 관리해야 하는 Visual Studio 구독이 포함된 Open Licenses에 대한 주문을 작성하는 파트너에게 적용됩니다.
@@ -48,7 +47,6 @@ ms.locfileid: "56843197"
 - 계약 드롭다운을 선택하고 **+새 Open License** 옵션이 있는 맨 아래로 스크롤합니다.
 
 - 팝업 창에서 파트너는 계약에 있는 인증 번호, 라이선스 번호, 고객 이메일 주소를 입력하고 확인란을 선택한 다음, **제출**을 클릭합니다.
-
 
 > [!NOTE]
 > 고객은 파트너가 Open License에 추가되었음을 알리는 알림 이메일을 받게 됩니다. 파트너의 액세스 권한을 제거하도록 선택할 수 있습니다.
@@ -67,7 +65,6 @@ ms.locfileid: "56843197"
 
 - 그러면 파트너는 해당 Open License에 대한 구독을 관리할 수 있습니다.
 
-
 > [!NOTE]
 > 고객은 파트너가 Open License에 추가되었음을 알리는 알림 이메일을 받게 됩니다. 파트너의 액세스 권한을 제거하도록 선택할 수 있습니다.
 
@@ -80,7 +77,6 @@ ms.locfileid: "56843197"
 - 인식된 사용자가 아니라는 오류를 받습니다.
 
 - 파트너는 **OLP 파트너** 등록 옵션을 선택하고, 주문에 사용되는 인증 번호, 라이선스 번호, 고객 이메일 주소를 입력하고, 확인란을 선택하고, **제출**을 클릭합니다.
-
 
 > [!NOTE]
 > 고객은 파트너가 Open License에 추가되었음을 알리는 알림 이메일을 받게 됩니다. 파트너의 액세스 권한을 제거하도록 선택할 수 있습니다.

@@ -11,11 +11,11 @@ ms.workload:
 - python
 - data-science
 ms.openlocfilehash: bc813868f3284ad81849e3a03d864de65d9f54ed
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59365929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62896898"
 ---
 # <a name="work-with-the-python-interactive-window"></a>Python 대화형 창 작업
 
@@ -27,7 +27,7 @@ Visual Studio에는 선택 가능한 다양한 Python REPL 모드가 있습니�
 
 | REPL | 설명 | 편집 | 디버깅 | 이미지 |
 | --- | --- | --- | --- | --- |
-| 표준 | 기본 REPL, Python에 직접 명령 | 표준 편집(여러 줄 등). | 예. 다음을 통해 `$attach` | 아니요 |
+| 표준 | 기본 REPL, Python에 직접 명령 | 표준 편집(여러 줄 등). | 예, `$attach`를 통해 | 아니요 |
 | 디버그 | 기본 REPL, 디버깅된 Python 프로세스에 명령 | 표준 편집 | 디버깅만 | 아니요 |
 | IPython | REPL이 IPython 백 엔드에 명령 | IPython 명령, Pylab의 편리한 기능 | 아니요 | 예, REPL에서 인라인으로 |
 | Pylab가 없는 IPython | REPL이 IPython 백 엔드에 명령 | 표준 IPython | 아니요 | 예, 별도의 창 |

@@ -7,12 +7,12 @@ ms.date: 03/02/2018
 ms.topic: conceptual
 description: 클라우드 구독에 대한 청구 질문입니다.
 searchscope: VS Subscription
-ms.openlocfilehash: d85b093b8877430c037fdc528abc8264b6c847b9
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: ab02b40926225860536b277b22c3f16768a56731
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62810533"
 ---
 # <a name="visual-studio-cloud-subscriptions-billing-faq"></a>Visual Studio 클라우드 구독 청구 FAQ
 
@@ -108,7 +108,6 @@ A:  예, 대리점이 CSP(클라우드 솔루션 공급자) 프로그램에 참�
 
 * [Visual Studio Professional 월간](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly)
 * [Visual Studio Enterprise 월간](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly)
-
 
 ## <a name="related-resources"></a>관련 참고 자료
 

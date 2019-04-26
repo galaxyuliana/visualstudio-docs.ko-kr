@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: da7b755c5b0ec72a9e1b906bdc1cd27a6dca7c0a
-ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
+ms.openlocfilehash: 2bb6b2d6e7ae3504415f59aeef1fddb8d9f98865
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "59584313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62778103"
 ---
 # <a name="customize-your-build"></a>빌드 사용자 지정
 
@@ -51,6 +51,7 @@ MSBuild 15 이전 버전에서는 솔루션의 프로젝트에 대한 새로운 
     </PropertyGroup>
    </Project>
    ```
+
 3. MSBuild를 실행합니다. 프로젝트의 기존 *Microsoft.Common.props* 및 *Microsoft.Common.targets* 가져오기는 파일을 찾아서 가져옵니다.
 
 ### <a name="search-scope"></a>검색 범위

@@ -173,7 +173,7 @@
           href: initialize-correlation-dialog-box.md
         - name: 'System.Activities 탭, 도구 상자 항목 선택 대화 상자'
           href: system-activities-tab-choose-toolbox-items-dialog-box.md
-        - name: 워크플로 디자이너 셸 기능
+        - name: Workflow Designer 셸 기능
           href: workflow-designer-shell-features.md
         - name: 바로 가기 키
           href: keyboard-shortcuts-in-the-workflow-designer.md
