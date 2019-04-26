@@ -10,12 +10,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 05153b7829281684ff9f27f2b5ac708903982b57
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0e1fc8e9bcb6f70a2665303eb6cac353a3f87bd9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435093"
 ---
 # <a name="how-to-unlock-visual-studio"></a>Visual Studio 잠금을 해제하는 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "60072554"
 2. Microsoft 계정이나 회사 또는 학교 계정에 대한 자격 증명을 입력합니다. Visual Studio에서 해당 계정과 연결된 MSDN 구독 또는 Visual Studio Team Services 구독을 찾습니다.
 
 > [!IMPORTANT]
->  팀 탐색기 도구 창에서 Visual Studio Team Services 계정에 연결하면 Visual Studio에서 연결된 온라인 구독을 자동으로 찾습니다. Visual Studio Team Services 계정에 연결하면 Microsoft와 회사 또는 학교 계정을 사용하여 로그인할 수 있습니다. 해당 사용자 계정에 대한 온라인 구독이 있으면 Visual Studio에서 IDE를 자동으로 잠금 해제합니다.
+> 팀 탐색기 도구 창에서 Visual Studio Team Services 계정에 연결하면 Visual Studio에서 연결된 온라인 구독을 자동으로 찾습니다. Visual Studio Team Services 계정에 연결하면 Microsoft와 회사 또는 학교 계정을 사용하여 로그인할 수 있습니다. 해당 사용자 계정에 대한 온라인 구독이 있으면 Visual Studio에서 IDE를 자동으로 잠금 해제합니다.
 
 ## <a name="to-unlock-visual-studio-with-a-product-key"></a>제품 키를 사용하여 Visual Studio의 잠금을 해제하려면
 
@@ -43,7 +43,7 @@ ms.locfileid: "60072554"
 2. 제공된 입력란에 제품 키를 입력합니다.
 
 > [!TIP]
->  시험판 버전의 Visual Studio에는 제품 키가 없습니다. 시험판 버전을 사용하려면 IDE에 로그인해야 합니다.
+> 시험판 버전의 Visual Studio에는 제품 키가 없습니다. 시험판 버전을 사용하려면 IDE에 로그인해야 합니다.
 
 ## <a name="addressing-license-problem-states"></a>라이선스 문제 상태 해결
 
@@ -63,7 +63,7 @@ ms.locfileid: "60072554"
    자격 증명을 다시 입력하지 않으면 토큰이 부실해집니다. 이 경우 계정 설정 대화 상자에서 토큰이 완전히 만료될 때까지 남은 기간(일)을 표시합니다. 토큰이 만료된 후 위의 다른 방법으로 이 계정 또는 라이선스에 대한 자격 증명을 다시 입력해야 Visual Studio를 계속 사용할 수 있습니다.
 
 > [!IMPORTANT]
->  인터넷 연결이 제한되거나 인터넷에 연결되지 않는 환경에서 오랫동안 Visual Studio를 사용하는 경우 작업이 중단되지 않도록 제품 키를 사용하여 Visual Studio의 잠금을 해제해야 합니다.
+> 인터넷 연결이 제한되거나 인터넷에 연결되지 않는 환경에서 오랫동안 Visual Studio를 사용하는 경우 작업이 중단되지 않도록 제품 키를 사용하여 Visual Studio의 잠금을 해제해야 합니다.
 
 ### <a name="updating-expired-licenses"></a>만료된 라이선스 업데이트
  구독이 완전히 만료되어 Visual Studio 액세스 권한이 더 이상 없으면 다음을 수행해야 합니다.

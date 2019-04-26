@@ -24,12 +24,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e4010d474c2f1ab1997b372fa551e168fe618021
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 0d24556be75547a4944ad1faca47c4545f8812ba
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63410043"
 ---
 # <a name="task-list-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 작업 목록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "59651658"
  이 옵션을 선택하면 **작업 목록**에서 사용자 작업을 삭제할 때마다 삭제를 확인하도록 하는 메시지 상자가 표시됩니다. 이 옵션은 기본적으로 선택됩니다.  
   
 > [!NOTE]
->  작업 주석을 삭제하려면 링크를 사용하여 주석을 찾은 다음 코드에서 이 주석을 제거합니다.  
+> 작업 주석을 삭제하려면 링크를 사용하여 주석을 찾은 다음 코드에서 이 주석을 제거합니다.  
   
  파일 이름만 표시  
  이 옵션을 선택하면 **작업 목록**의 **파일** 열에 전체 경로가 아니라 편집할 파일의 이름만 표시됩니다.  
@@ -53,7 +53,7 @@ ms.locfileid: "59651658"
  토큰의 목록을 표시하고 사용자 지정 토큰을 추가하거나 제거할 수 있게 합니다. 주석 토큰은 Visual C# 및 Visual C++에서 대/소문자를 구분하지만 Visual Basic에서는 그렇지 않습니다.  
   
 > [!NOTE]
->  원하는 토큰을 **토큰 목록**에서 표시된 대로 정확히 입력하지 않으면 **작업 목록**에 주석 작업이 표시되지 않습니다.  
+> 원하는 토큰을 **토큰 목록**에서 표시된 대로 정확히 입력하지 않으면 **작업 목록**에 주석 작업이 표시되지 않습니다.  
   
  우선 순위  
  선택한 토큰을 사용하는 작업의 우선 순위를 설정합니다. 이 토큰으로 시작되는 작업 주석에 **작업 목록**에 지정된 우선 순위가 자동으로 할당됩니다.  
@@ -71,7 +71,7 @@ ms.locfileid: "59651658"
  **이름** 및 **우선 순위** 필드에 입력된 값을 사용하여 기존 토큰을 변경하려면 이 옵션을 클릭합니다.  
   
 > [!NOTE]
->  기본 주석 토큰을 삭제하거나 그 이름을 바꿀 수는 없지만 해당 우선 순위 수준은 변경할 수 있습니다.  
+> 기본 주석 토큰을 삭제하거나 그 이름을 바꿀 수는 없지만 해당 우선 순위 수준은 변경할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [작업 목록 사용](../../ide/using-the-task-list.md)   

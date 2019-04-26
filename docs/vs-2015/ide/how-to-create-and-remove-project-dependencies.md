@@ -18,12 +18,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 26857824cac478936837a125068bd610dfc4c837
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 539b27c914555dad88442fd4d65e1bf8416dae3c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422883"
 ---
 # <a name="how-to-create-and-remove-project-dependencies"></a>방법: 프로젝트 종속성 만들기 및 제거
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60117631"
     **프로젝트 종속성** 대화 상자가 열립니다.  
   
    > [!NOTE]
-   >  **프로젝트 종속성** 옵션은 프로젝트가 두 개 이상 포함된 솔루션에서만 사용할 수 있습니다.  
+   > **프로젝트 종속성** 옵션은 프로젝트가 두 개 이상 포함된 솔루션에서만 사용할 수 있습니다.  
   
 3. **종속성** 탭의 **프로젝트** 드롭다운 메뉴에서 프로젝트를 선택합니다.  
   
@@ -56,7 +56,7 @@ ms.locfileid: "60117631"
      **프로젝트 종속성** 대화 상자가 열립니다.  
   
     > [!NOTE]
-    >  **프로젝트 종속성** 옵션은 프로젝트가 두 개 이상 포함된 솔루션에서만 사용할 수 있습니다.  
+    > **프로젝트 종속성** 옵션은 프로젝트가 두 개 이상 포함된 솔루션에서만 사용할 수 있습니다.  
   
 3. **종속성** 탭의 **프로젝트** 드롭다운 메뉴에서 프로젝트를 선택합니다.  
   

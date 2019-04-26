@@ -9,12 +9,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a16ad46722213a703785d08209d68b3c4ee6b04f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: d9e4fc4dfdff336b9ddcbd04bd031b48a8acc4dd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432611"
 ---
 # <a name="how-to-modify-webconfig-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications"></a>방법: 계측할 Web.Config 파일 수정 및 동적으로 컴파일된 ASP.NET 웹 애플리케이션 프로파일링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "60099595"
  이 항목에서는 web.config 구성 파일을 수정하여 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 애플리케이션의 계측 및 프로파일링을 사용하도록 설정하는 방법을 설명합니다.  
   
 > [!NOTE]
->  샘플링 프로파일링 방법을 사용할 경우 또는 미리 컴파일된 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 모듈을 계측하고자 할 경우 web.config 파일을 수정할 필요가 없습니다.  
+> 샘플링 프로파일링 방법을 사용할 경우 또는 미리 컴파일된 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 모듈을 계측하고자 할 경우 web.config 파일을 수정할 필요가 없습니다.  
   
  web.config 파일의 루트는 **configuration** 요소입니다. 동적으로 컴파일된 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 애플리케이션을 계측 및 프로파일링하려면 다음 요소를 추가하거나 수정해야 합니다.  
   
