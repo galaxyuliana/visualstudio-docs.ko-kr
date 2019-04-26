@@ -11,12 +11,12 @@ caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a9298f57e3b1f4a05effcb82a39e14503c9cbf74
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 7097311c3d1aae718096c3bf74ec04c3e5ea8818
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60090761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433582"
 ---
 # <a name="item-definitions"></a>항목 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60090761"
  ItemDefinitionGroup에 정의된 항목 메타데이터는 기본 메타데이터의 선언일 뿐입니다. 이 메타데이터는 ItemGroup을 사용하여 메타데이터 값을 포함하는 Item을 정의해야만 적용됩니다.  
   
 > [!NOTE]
->  이 항목에 나오는 대부분의 예제에서는 ItemDefinitionGroup 요소는 표시되지만 해당 ItemGroup 정의는 간결성을 위해 생략되어 있습니다.  
+> 이 항목에 나오는 대부분의 예제에서는 ItemDefinitionGroup 요소는 표시되지만 해당 ItemGroup 정의는 간결성을 위해 생략되어 있습니다.  
   
  ItemGroup에 명시적으로 정의된 메타데이터는 ItemDefinitionGroup의 메타데이터보다 우선합니다. ItemDefinitionGroup의 메타데이터는 ItemGroup의 정의되지 않은 메타데이터에만 적용됩니다. 예:  
   
@@ -61,7 +61,7 @@ ms.locfileid: "60090761"
  이 예제에서 기본 메타데이터 "m"은 Item "i"로 명시적으로 정의되지 않으므로 Item "i"에 적용됩니다. 그러나 기본 메타데이터 "n"은 Item "i"로 이미 정의되어 있으므로 Item "i"에 적용되지 않습니다.  
   
 > [!NOTE]
->  XML 요소 및 매개 변수 이름은 대소문자를 구분합니다. 항목 메타데이터 및 ITEM\/속성 이름은 대소문자를 구분하지 않습니다. 따라서 이름에서 대/소문자만 다른 ItemDefinitionGroup 항목은 같은 ItemGroup으로 취급해야 합니다.  
+> XML 요소 및 매개 변수 이름은 대소문자를 구분합니다. 항목 메타데이터 및 ITEM\/속성 이름은 대소문자를 구분하지 않습니다. 따라서 이름에서 대/소문자만 다른 ItemDefinitionGroup 항목은 같은 ItemGroup으로 취급해야 합니다.  
   
 ## <a name="value-sources"></a>값 소스  
  ItemDefinitionGroup에 정의된 메타데이터 값은 다음과 같은 다양한 소스에서 가져올 수 있습니다.  
@@ -83,7 +83,7 @@ ms.locfileid: "60090761"
 - CDATA 섹션 \<\!\[CDATA\[여기에 있는 내용은 구문 분석되지 않음\]\]\>  
   
 > [!NOTE]
->  ItemGroup의 항목 메타데이터는 ItemDefinitionGroup 요소가 ItemGroup 요소보다 먼저 처리되므로 ItemDefinitionGroup 메타데이터 선언에서 사용 가능하지 않습니다.  
+> ItemGroup의 항목 메타데이터는 ItemDefinitionGroup 요소가 ItemGroup 요소보다 먼저 처리되므로 ItemDefinitionGroup 메타데이터 선언에서 사용 가능하지 않습니다.  
   
 ## <a name="additive-and-multiple-definitions"></a>가산 및 다중 정의  
  정의를 추가하거나 여러 ItemDefinitionGroup을 사용할 때는 다음 사항에 유의하세요.  
@@ -128,7 +128,7 @@ ms.locfileid: "60090761"
  이 예제에서는 메타데이터 "m"에 대해 이전에 정의된 값 \(m1\)이 새 값 \(m2\)에 추가되므로 최종 값은 "m1;m2"가 됩니다.  
   
 > [!NOTE]
->  이 작업은 동일한 ItemDefinitionGroup에서도 발생할 수 있습니다.  
+> 이 작업은 동일한 ItemDefinitionGroup에서도 발생할 수 있습니다.  
   
  이전에 정의된 메타데이터를 재정의하면 마지막 사양이 우선적으로 적용됩니다. 다음 예제에서 메타데이터 "m"의 최종 값은 "m1"에서 "m1a"로 이동합니다.  
   
@@ -159,7 +159,7 @@ ms.locfileid: "60090761"
  이 경우에 "Configuration" 속성의 값이 "Debug"인 경우에만 항목 "i"의 기본 메타데이터 "m1"이 포함됩니다.  
   
 > [!NOTE]
->  로컬 메타데이터 참조만 조건에서 지원됩니다.  
+> 로컬 메타데이터 참조만 조건에서 지원됩니다.  
   
  이전 ItemDefinitionGroup에 정의된 메타데이터에 대한 참조는 정의 그룹이 아닌 항목에 로컬입니다. 즉, 참조의 범위는 항목별로 고유합니다. 예:  
   
