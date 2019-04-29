@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 042d6b6c59489abcfbdcdd4dd10055ea4dedfff5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62934336"
 ---
 # <a name="walkthrough-generate-code-by-using-text-templates"></a>연습: 텍스트 템플릿을 사용하여 코드 생성
 

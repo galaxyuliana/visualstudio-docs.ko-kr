@@ -11,11 +11,11 @@ ms.assetid: bb84a79e-cd4c-4a58-8871-2513e7119b6e
 caps.latest.revision: 38
 manager: jillfra
 ms.openlocfilehash: 54026b770a0de7780e950a3e30e649cb67ce1d3b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822551"
 ---
 # <a name="extending-the-toolbox"></a>도구 상자 확장
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구 상자** 에서 IDE의 끌어서 놓기 메커니즘을 통해 편집기 및 디자이너에 기능을 제공하는 개체의 컬렉션을 제공합니다.  

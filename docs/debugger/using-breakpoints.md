@@ -35,11 +35,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3f9150a815f424c0b4a7bfe5f2e92ea7cd424ddb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62902165"
 ---
 # <a name="use-breakpoints-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 중단점을 사용 합니다.
 중단점은 개발자의 도구 상자에서 가장 중요 한 디버깅 기술 중 하나입니다. 디버거가 실행을 일시 중지 하려는 위치에 중단점을 설정 합니다. 예를 들어, 다음 코드 변수의 상태를 보거나 특정 중단점에서 호출 스택을 확인 하는 것이 좋습니다. 코드를 처음으로 디버그하려고 하는 경우 이 문서를 계속 진행하기 전에 먼저 [완전 초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md)을 참조하는 것이 좋습니다.

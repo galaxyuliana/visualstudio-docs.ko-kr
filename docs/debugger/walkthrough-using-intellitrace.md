@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 0ffbe0b8365948dc5a69edca390f308cb55ba5a3
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58323440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62929388"
 ---
 # <a name="view-events-with-intellitrace-in-visual-studio-enterprise-c-visual-basic"></a>Visual Studio Enterprise에서 IntelliTrace 사용 하 여 이벤트를 확인 (C#, Visual Basic)
 
@@ -49,7 +49,7 @@ IntelliTrace 이벤트로만 디버그를 시도할 수 있습니다. IntelliTra
     }
     ```
 
-3. `Console.WriteLine("done");`에서 중단점 설정
+3.  `Console.WriteLine("done");`
 
 ## <a name="start-debugging-and-view-intellitrace-events"></a>디버깅을 시작 하 고 IntelliTrace 이벤트 보기
 
