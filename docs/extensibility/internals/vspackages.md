@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 77ceb38f50e47fe56fdb164ed0ea6330b776db3d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62907931"
 ---
 # <a name="vspackages"></a>VSPackages
 Vspackage는 확장 하는 소프트웨어 모듈의 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] UI 요소, 서비스, 프로젝트, 편집기 및 디자이너를 제공 하 여 통합된 개발 환경 (IDE)입니다.

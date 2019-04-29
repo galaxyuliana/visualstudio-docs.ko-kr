@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 499e6c2b34fcc5261ab8fb3a87a24e2cc0959d8c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62911910"
 ---
 # <a name="extend-the-status-bar"></a>상태 표시줄 확장
 정보를 표시 하는 IDE의 아래쪽에 Visual Studio 상태 표시줄을 사용할 수 있습니다.

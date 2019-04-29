@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 2f361720f45a24e561ab2a886537bda02c73c006
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55923710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62545774"
 ---
 # <a name="ca2102-catch-non-clscompliant-exceptions-in-general-handlers"></a>CA2102: 일반 처리기에서 비 CLSCompliant 예외를 catch하세요.
 
@@ -39,7 +39,7 @@ ms.locfileid: "55923710"
 
 - C#: `catch {}`
 
-- C + +: `catch(...) {}` 또는 `catch(Object^) {}`
+- C++: `catch(...) {}` 또는 `catch(Object^) {}`
 
 처리 되지 않은 비-CLS 규격 예외가 catch 블록에서 이전에 허용 된 권한 제거 되 면 보안 문제가 됩니다. 비 CLS 규격이 아닌 예외를 발견 하지 및 때문에 비-CLS 규격 예외가 throw 되는 악성 메서드는 높은 권한으로 실행 수 없습니다.
 

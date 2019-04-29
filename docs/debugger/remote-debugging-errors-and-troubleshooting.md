@@ -21,11 +21,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4f1b1980df908aa73959c72240d18496597fb310
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60111833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62902779"
 ---
 # <a name="remote-debugging-errors-and-troubleshooting"></a>원격 디버깅 오류 및 문제 해결
 원격으로 디버깅할 때 다음과 같은 오류가 발생할 수 있습니다.

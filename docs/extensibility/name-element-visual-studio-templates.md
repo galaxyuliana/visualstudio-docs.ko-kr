@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 67160258eb445b1a7131898687fa410ac1636f40
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56697691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62433749"
 ---
 # <a name="name-element-visual-studio-templates"></a>Name 요소 (Visual Studio 템플릿)
 에 표시 된 대로 템플릿의 이름을 지정 합니다 **새 프로젝트** 하거나 **새 항목 추가** 대화 상자.

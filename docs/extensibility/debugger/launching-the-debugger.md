@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 7ffe0405b1e07bfb7825607e17088f0f75796197
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62889438"
 ---
 # <a name="launch-the-debugger"></a>디버거를 시작 합니다.
 디버거 시작 메서드 및 해당 적절 한 특성을 사용 하 여 이벤트의 순서를 전송 해야 합니다.

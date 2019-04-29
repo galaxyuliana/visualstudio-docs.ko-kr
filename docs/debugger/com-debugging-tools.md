@@ -22,11 +22,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 181596e7b76dc2288da82e731455710fde0205d8
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54964966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62564745"
 ---
 # <a name="com-debugging-tools"></a>COM 디버깅 도구
 
@@ -40,11 +40,11 @@ MFC 샘플
 
 MFC ActiveX 샘플 OCLIENT 및 SUPERPAD도 응용 프로그램을 테스트하는 데 사용할 수 있습니다. 이 샘플의 소스 코드가 모두 포함되어 있습니다.
 
-### <a name="see-also"></a>참고 항목
+### <a name="see-also"></a>참고자료
 
 - [COM 및 ActiveX 디버깅](../debugger/com-and-activex-debugging.md)
 - [COM 디버깅 도구](../debugger/com-debugging-tools.md)
 - [Visual Studio의 디버깅](../debugger/index.md)
 - [디버거 소개](../debugger/debugger-feature-tour.md)
 - [샘플 OCLIENT: 비주얼을 편집 컨테이너 응용 프로그램을 보여 줍니다.](https://msdn.microsoft.com/library/8cd5c234-9a4e-4934-8f5d-bac189ad92c4)
-- [SUPERPAD 샘플: CEditView를 사용하여 텍스트를 편집하는 비주얼 편집 서버를 보여 줍니다](https://msdn.microsoft.com/library/7b14e975-d986-4e6a-8289-226485cfcb72)
+- [SUPERPAD 샘플: 비주얼 편집 서버 CEditView를 사용 하 여 텍스트를 편집 하는 방법을 보여 줍니다.](https://msdn.microsoft.com/library/7b14e975-d986-4e6a-8289-226485cfcb72)

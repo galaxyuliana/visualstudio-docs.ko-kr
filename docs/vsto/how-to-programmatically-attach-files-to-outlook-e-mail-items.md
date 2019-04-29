@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 707c3bb2b6bec9f8db1744d1f28acd4e90a45a57
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62575626"
 ---
 # <a name="how-to-programmatically-attach-files-to-outlook-email-items"></a>방법: 프로그래밍 방식으로 Outlook 전자 메일 항목에 파일을 첨부
   이 예제에서는 파일을 새 메일 항목에 연결 및 Armando Pinto로 보냅니다. 받는 사람으로 Armando Pinto 사람의 있다고 가정 하는 합니다.

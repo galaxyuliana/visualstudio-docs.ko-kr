@@ -12,13 +12,13 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 5ccdd4cd8bafc4bc4a899ea47d62ec10e578569c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58148206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909308"
 ---
-# <a name="new-project-generation-under-the-hood-part-two"></a>새 프로젝트 생성: 내부적으로 2 부
+# <a name="new-project-generation-under-the-hood-part-two"></a>새 프로젝트 생성: 내부 살펴보기, 2부
 
 [새 프로젝트 생성: 내부적으로 1 부](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) 살펴보았습니다 하는 방법을 **새 프로젝트** 대화 상자가 채워집니다. 선택한를 가정해 보겠습니다를 **Visual C# Windows 응용 프로그램**작성, 합니다 **이름** 및 **위치** 텍스트 상자 및 확인을 클릭된 합니다.
 
@@ -156,5 +156,5 @@ namespace Simple
 
 ## <a name="see-also"></a>참고자료
 
-- [새 프로젝트 생성: 내부적으로 1 부](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
+- [새 프로젝트 생성: 내부 살펴보기, 1부](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md)
 - [MSBuild](../../msbuild/msbuild.md)

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 776ee35e57b62463d47fc6f7fa26133f507f16f9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62854442"
 ---
 # <a name="thunkordinal"></a>THUNK_ORDINAL
 썽크 형식을 지정합니다.
@@ -53,7 +53,7 @@ THUNK_ORDINAL_TRAMP_INCREMENTAL 증분 trampoline 썽크 (trampoline 썽크를 �
 
 THUNK_ORDINAL_TRAMP_BRANCHISLAND 분기 지점 trampoline 썽크 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 열거형의 값에 대 한 호출에서 반환 되는 [idiasymbol:: Get_thunkordinal](../../debugger/debug-interface-access/idiasymbol-get-thunkordinal.md) 메서드.
 
 ## <a name="requirements"></a>요구 사항

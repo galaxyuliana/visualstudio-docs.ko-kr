@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: e6ebdca67dd87f25111ba48c3d9baa346d00e4db
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55923813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566139"
 ---
 # <a name="the-selected-connection-uses-an-unsupported-database-provider"></a>선택한 연결에서 지원되지 않는 데이터베이스 공급자를 사용합니다.
 
@@ -23,7 +23,7 @@ ms.locfileid: "55923813"
 
 이 오류를 해결 하려면 SQL Server에 대 한.NET Framework Data Provider를 사용 하는 데이터 연결의 항목만 추가 합니다 **O/R 디자이너**합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - <xref:System.Data.SqlClient>
 - [O/R 디자이너 메시지](../data-tools/o-r-designer-messages.md)

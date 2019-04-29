@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 63e6d05066d59e14a7036fb8f371c9c20b886df7
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62786630"
 ---
 # <a name="iscriptscriptletsetsimpleeventname"></a>IScriptScriptlet::SetSimpleEventName
 Scriptlet과 연관 된 단순 이벤트 이름을 설정 합니다. 공백을 포함 하지 않는 단일 단어 이름입니다.  

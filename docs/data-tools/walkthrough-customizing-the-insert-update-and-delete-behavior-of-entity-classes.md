@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: e869ae13c9d7ec82cb4d70fb5f3c5fce355691d5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62565409"
 ---
 # <a name="walkthrough-customize-the-insert-update-and-delete-behavior-of-entity-classes"></a>연습: 엔터티 클래스의 삽입, 업데이트 및 삭제 동작 사용자 지정
 

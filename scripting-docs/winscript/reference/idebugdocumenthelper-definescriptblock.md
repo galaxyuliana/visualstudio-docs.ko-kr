@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 2a320e4e43a983ace4decbaa68de0b1a7df7d457
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58144565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62783026"
 ---
 # <a name="idebugdocumenthelperdefinescriptblock"></a>IDebugDocumentHelper::DefineScriptBlock
 도우미 특정 문자 범위 지정 된 스크립트 엔진에서 처리 되는 스크립트 블록을 임을 나타냅니다.  

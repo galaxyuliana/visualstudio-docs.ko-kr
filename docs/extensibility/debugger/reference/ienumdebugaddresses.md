@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ac02ca2f22b95b35cc12a545debf081c4052d520
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62867562"
 ---
 # <a name="ienumdebugaddresses"></a>IEnumDebugAddresses
 이 인터페이스를 구현 하는 개체의 컬렉션을 나타냅니다 합니다 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
@@ -41,7 +41,7 @@ IEnumDebugAdresses : IUnknown
 |------------|-----------------|
 |[다음](../../../extensibility/debugger/reference/ienumdebugaddresses-next.md)|다음 집합을 검색 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 열거형 개체입니다.|
 |[Skip](../../../extensibility/debugger/reference/ienumdebugaddresses-skip.md)|지정된 된 개수의 항목을 건너뜁니다.|
-|[다시 설정](../../../extensibility/debugger/reference/ienumdebugaddresses-reset.md)|첫 번째 항목을 열거를 다시 설정합니다.|
+|[Reset](../../../extensibility/debugger/reference/ienumdebugaddresses-reset.md)|첫 번째 항목을 열거를 다시 설정합니다.|
 |[Clone](../../../extensibility/debugger/reference/ienumdebugaddresses-clone.md)|현재 열거형의 복사본을 검색 합니다.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugaddresses-getcount.md)|열거형 항목을 검색합니다.|
 

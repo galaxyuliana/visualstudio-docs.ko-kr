@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 50cac2607a27443ef5a24ce00f34425ca418c513
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62798415"
 ---
 # <a name="usedcommand-element"></a>UsedCommand 요소
 다른.vsct 파일에 정의 된 명령에 액세스 하기 위해 VSPackage를 사용 하도록 설정 합니다. 예를 들어 VSPackage는 표준을 **복사본** 명령에 정의 된는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 셸을 추가할 수 명령을 메뉴나 도구 모음을 다시 구현 하지 않고도 합니다.
@@ -51,7 +51,7 @@ ms.locfileid: "56689436"
 |[UsedCommands 요소](../extensibility/usedcommands-element.md)|UsedCommand 요소를 그룹화 하 고 기타 UsedCommands 그룹화 합니다.|
 
 ## <a name="remarks"></a>설명
- 명령을 추가 하 여는 `<UsedCommands>` 요소인 VSPackage 알립니다는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 환경 VSPackage의 명령에 필요 합니다. 추가 해야는 `<UsedCommand>` 요소는 패키지에 필요한 모든 명령에 대 한 모든 버전 및 Visual Studio의 구성에 포함 되지 않을 수 있습니다. 예를 들어, Visual c + +에 관련 된 명령을 호출 하는 패키지를 하는 경우 명령이 제공 되지 Visual Web Developer의 사용자에 게 포함 하지 않으면는 `<UsedCommand>` 명령에 대 한 요소입니다.
+ 명령을 추가 하 여는 `<UsedCommands>` 요소인 VSPackage 알립니다는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 환경 VSPackage의 명령에 필요 합니다. 추가 해야는 `<UsedCommand>` 요소는 패키지에 필요한 모든 명령에 대 한 모든 버전 및 Visual Studio의 구성에 포함 되지 않을 수 있습니다. 예를 들어 패키지 visual 특정 명령을 호출 하는 경우 C++를 포함 하지 않으면이 명령은 Visual Web Developer의 사용자에 게 사용할 수 없습니다는 `<UsedCommand>` 명령에 대 한 요소입니다.
 
 ## <a name="example"></a>예제
 

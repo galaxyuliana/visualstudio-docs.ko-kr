@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: eccbf178b3515cd23695d899749beb478e942ff7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62858120"
 ---
 # <a name="support-for-the-navigation-bar-in-a-legacy-language-service"></a>레거시 언어 서비스의 탐색 모음 지원
 편집기 보기의 맨 위에 있는 탐색 모음에서 파일 형식 및 멤버를 표시합니다. 왼쪽된 드롭다운 목록에 표시 됩니다 및 멤버 드롭다운 오른쪽에 표시 됩니다. 사용자가 유형을 선택 하면 형식의 첫 번째 줄에 캐럿 배치 됩니다. 사용자가 멤버를 선택 하면 멤버의 정의에 캐럿 배치 됩니다. 드롭다운 목록 상자 캐럿의 현재 위치를 반영 하도록 업데이트 됩니다.

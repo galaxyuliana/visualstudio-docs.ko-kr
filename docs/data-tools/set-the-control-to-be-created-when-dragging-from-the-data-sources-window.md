@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: f43219cc5329b46cdaba052a9f46709ee0af406f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55933888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62565986"
 ---
 # <a name="set-the-control-to-be-created-when-dragging-from-the-data-sources-window"></a>데이터 소스 창에서 끌어올 때 만들 컨트롤 설정
 
@@ -69,6 +69,6 @@ ms.locfileid: "55933888"
 
      선택 열 이나 속성에 대 한 컨트롤을 만드는 않으려면 **None** 드롭 다운 메뉴에서. 부모 테이블 또는 개체를 디자이너로 끌어 하려고 하지만 특정 열 이나 속성을 포함 하지 않을 경우에 유용 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)

@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4072cef2a47db1177a8ee7b630bd8febccc5e0b6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62898739"
 ---
 # <a name="how-to-debug-a-clickonce-application-with-restricted-permissions"></a>방법: 제한된 권한으로 ClickOnce 애플리케이션 디버그
 개발자는 대부분 완전 신뢰 사용 권한으로 개발 컴퓨터를 실행하므로, ClickOnce 애플리케이션을 디버그할 때 제한된 권한으로 실행하는 최종 사용자에게 표시될 수 있는 것과 동일한 보안 예외가 표시되지 않습니다.

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e020e2f4e1ffae9c0e979f2230ff845b1cda203e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55942702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62536427"
 ---
 # <a name="interop-activity-designer"></a>Interop 활동 디자이너
 
@@ -43,7 +43,7 @@ Visual Basic 프로젝트 대상을 조정할 수 있습니다에서 프로젝�
 
 다음 표는 <xref:System.Activities.Statements.Interop> 속성을 디자이너에서 사용 되는 방법을 설명 합니다. 속성 표에서 또는 워크플로 디자이너 화면에서 이러한 속성을 편집할 수 있습니다.
 
-|속성 이름|필수|용도|
+|속성 이름|필수|사용법|
 |-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|<xref:System.Activities.Statements.Interop> 활동의 이름입니다. 기본값은 **Interop**합니다. 표시 이름에 필요 하지는 않지만 것이 좋습니다 하나를 제공 합니다.|
 |<xref:System.Activities.Statements.Interop.ActivityType%2A>|True|<xref:System.Activities.Statements.Interop> 활동에 포함된 활동의 형식을 지정합니다. 지정된 이 형식은 <xref:System.Workflow.ComponentModel.Activity>에서 파생된 것이어야 합니다.|

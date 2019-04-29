@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: dbc86bb43048b06bc1f7080bc6cb579771138c49
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62854726"
 ---
 # <a name="symtagenum"></a>SymTagEnum
 기호 유형을 지정합니다.
@@ -141,7 +141,7 @@ enum SymTagEnum {
 
 `SymTagHLSLType` 기호 High Level Shader Language 형식임을 나타냅니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 디버그 파일 내에서 모든 기호 식별 태그 기호 형식을 지정 하는 경우
 
 이 열거형의 값에는 호출에서 반환 되는 [idiasymbol:: Get_symtag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md) 메서드.

@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3f5b353986cf77c554b277975fabb1cb755faba3
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554872"
 ---
 # <a name="dia2dump-sample"></a>Dia2dump 샘플
 
@@ -28,7 +28,7 @@ Dia2dump 샘플 Visual Studio와 함께 설치 되 고 솔루션 및 원본 파�
 
 ## <a name="install-the-sample"></a>샘플 설치
 
-샘플 선택 하면 설치 되는 **c + +를 사용한 데스크톱 개발** Visual Studio 설치 관리자에서 워크 로드. Visual Studio를 설치 하 고 특정 워크 로드 및 개별 구성 요소를 선택 하는 방법에 대 한 정보를 참조 하세요 [Visual Studio 설치](../../install/install-visual-studio.md)합니다.
+샘플 선택 하면 설치 되는 **를 사용한 데스크톱 개발 C++**  Visual Studio 설치 관리자에서 워크 로드. Visual Studio를 설치 하 고 특정 워크 로드 및 개별 구성 요소를 선택 하는 방법에 대 한 정보를 참조 하세요 [Visual Studio 설치](../../install/install-visual-studio.md)합니다.
 
 설치 \DIA SDK\Samples\DIA2Dump 라는 하위 디렉터리에서 Visual Studio 설치 디렉터리에는 샘플입니다.
 
@@ -44,7 +44,7 @@ Dia2dump 샘플 Visual Studio와 함께 설치 되 고 솔루션 및 원본 파�
 
 1. 프로젝트의 **속성 페이지** 대화 상자를 엽니다. 자세한 내용은 [프로젝트 속성 작업](/cpp/ide/working-with-project-properties)을 참조하세요.
 
-1. 엽니다는 **구성 속성** > **C/c + +** > **일반** 속성 페이지.
+1. 엽니다는 **구성 속성** > **C /C++** > **일반** 속성 페이지.
 
 1. 에 **Additional Include Directories** 속성을 dropdown 컨트롤을 선택 하 고 선택 **편집**합니다.
 
@@ -74,6 +74,6 @@ Dia2Dump.exe는 msdia 의존*버전*.dll COM 서버를 해당 서비스를 제�
 
 1. Dia2Dump에 선택한 정보만 표시 하기 위해 다른 옵션이 있습니다. 사용 된 `dia2dump -?` 모든 사용 가능한 옵션을 나열 하는 명령입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)

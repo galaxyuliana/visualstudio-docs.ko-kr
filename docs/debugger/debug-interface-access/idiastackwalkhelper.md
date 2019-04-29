@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 0143945a266b9c76fefa10e1823a7c3ce01f85e7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62837838"
 ---
 # <a name="idiastackwalkhelper"></a>IDiaStackWalkHelper
 프로그램 디버그 데이터베이스 (.pdb) 파일을 사용 하 여 스택을 지원 합니다.
@@ -41,11 +41,11 @@ IDiaStackWalkHelper: IUnknown
 |[IDiaStackWalkHelper::searchForReturnAddress](../../debugger/debug-interface-access/idiastackwalkhelper-searchforreturnaddress.md)|가장 가까운 함수 반환 주소를 지정한 스택 프레임을 검색합니다.|
 |[IDiaStackWalkHelper::searchForReturnAddressStart](../../debugger/debug-interface-access/idiastackwalkhelper-searchforreturnaddressstart.md)|또는 지정한 스택 주소 거의 반환 주소를 지정한 스택 프레임을 검색합니다.|
 |[IDiaStackWalkHelper::frameForVA](../../debugger/debug-interface-access/idiastackwalkhelper-frameforva.md)|지정된 된 가상 주소를 포함 하는 스택 프레임을 검색 합니다.|
-|[IDiaStackWalkHelper::symbolForVA](../../debugger/debug-interface-access/idiastackwalkhelper-symbolforva.md)|지정된 된 가상 주소를 포함 하는 기호를 검색 합니다. **참고:** 기호는 형식 이어야 합니다. `SymTagFunctionType` (값을 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 열거형)입니다.|
+|[IDiaStackWalkHelper::symbolForVA](../../debugger/debug-interface-access/idiastackwalkhelper-symbolforva.md)|지정된 된 가상 주소를 포함 하는 기호를 검색 합니다. **참고:**  기호 형식이 같아야 합니다. `SymTagFunctionType` (의 값을 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 열거형)입니다.|
 |[IDiaStackWalkHelper::pdataForVA](../../debugger/debug-interface-access/idiastackwalkhelper-pdataforva.md)|지정 된 가상 주소에 연결 된 PDATA 데이터 블록을 반환 합니다.|
 |[IDiaStackWalkHelper::imageForVA](../../debugger/debug-interface-access/idiastackwalkhelper-imageforva.md)|실행 파일의 시작 가상 주소를 검색 하 고 실행 파일의 메모리 공간에서 가상 주소 위치 지정 된 키를 누릅니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  이 인터페이스는 스택 프레임의 목록을 프로그램 실행 중 생성 된 실행 파일에 대 한 정보를 얻을 DIA 코드에서 호출 됩니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

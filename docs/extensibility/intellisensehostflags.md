@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 882410d68c671a83b13bd14026e5bea4c31cb37e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56683560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62861637"
 ---
 # <a name="intellisensehostflags"></a>IntelliSenseHostFlags
 IntelliSense 호스트 플래그를 지정합니다.
@@ -43,7 +43,7 @@ enum IntellisenseHostFlags
 |`IHF_READONLYCONTEXT`|상황에 맞는 버퍼는 읽기 전용입니다.|
 |`IHF_NOSEPARATESUBJECT`|제목 텍스트가 없습니다. 상황에 맞는 버퍼에 IntelliSense 대상 (의미 `!IHF_READONLYCONTEXT`).|
 |`IHF_SINGLELINESUBJECT`|제목 텍스트는 다중 명령줄 수 없습니다.|
-|`IHF_FORCECOMMITTOCONTEXT`|`CanCommitIntoReadOnlyBuffer`와 같습니다.|
+|`IHF_FORCECOMMITTOCONTEXT`|`CanCommitIntoReadOnlyBuffer`와 동일합니다.|
 |`IHF_OVERTYPE`|겹쳐쓰기 모드에서 주체 또는 상황에 맞는) (에서 편집 해야 합니다.|
 
 ## <a name="requirements"></a>요구 사항

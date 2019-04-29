@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ac6e632927878988f8a3ff86d63fea080a45bd6d
-ms.sourcegitcommit: 01334abf36d7e0774329050d34b3a819979c95a2
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55852990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62850441"
 ---
 # <a name="error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-does-not-have-permission-to-connect-to-this-computer"></a>오류: 원격 컴퓨터의 Microsoft Visual Studio 원격 디버깅 모니터가 이 컴퓨터에 연결할 수 있는 권한이 없습니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "55852990"
 
   - 명령 프롬프트에서 `runas.exe`를 실행합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [원격 디버깅 오류 및 문제 해결](../debugger/remote-debugging-errors-and-troubleshooting.md)
 - [Remote Debugging](../debugger/remote-debugging.md)

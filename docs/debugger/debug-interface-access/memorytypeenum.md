@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 19776c8d4ef72149c575d6835e9265e9cdb33727
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62855121"
 ---
 # <a name="memorytypeenum"></a>MemoryTypeEnum
 메모리 액세스의 형식을 지정 합니다.
@@ -42,7 +42,7 @@ enum MemoryTypeEnum {
 
 `MemTypeAny` 모든 종류의 메모리에 액세스합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 열거형의 값에 전달 되는 [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md) 다양 한 유형의 메모리에 대 한 액세스를 제한 하는 방법이 있습니다.
 
 ## <a name="requirements"></a>요구 사항

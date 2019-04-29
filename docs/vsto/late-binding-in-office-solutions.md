@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 62224006d04e0a1e7447053e868dd9946f00c97e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62583948"
 ---
 # <a name="late-binding-in-office-solutions"></a>Office 솔루션에서 런타임에 바인딩
   Office 응용 프로그램의 개체 모델에서 일부 형식은 런타임에 바인딩 기능을 통해 사용할 수 있는 기능을 제공 합니다. 예를 들어, 일부 메서드 및 속성은 다양 한 유형의 Office 응용 프로그램의 컨텍스트에 따라 개체를 반환할 수 있으며 다른 메서드나 다른 컨텍스트에서 속성 형식도 노출할 수 있습니다.

@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 619e64dc09858b7d29e05804e3c3c353882f90ef
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62561766"
 ---
 # <a name="project-upgrade-options-dialog-box"></a>프로젝트 업그레이드, 옵션 대화 상자
   **프로젝트 업그레이드** 페이지에서 Visual Studio가 개발 컴퓨터에 설치되는 Office 버전을 대상으로 VSTO 추가 기능 프로젝트를 자동으로 변경하는지 여부를 지정합니다.

@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3a888605cfae6b5430782defd198f83988c31870
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56719082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62895956"
 ---
 # <a name="copy-programmatic-capture"></a>복사(프로그램 방식 캡처)
 활성 그래픽 로그(.vsglog) 파일 내용을 새 파일에 복사합니다.
@@ -29,5 +29,5 @@ void Copy(
 #### <a name="parameters"></a>매개 변수
  `szNewVSGLog` 새 그래픽 로그 파일 이름입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  그래픽 정보를 새 파일에 복사하려면 이미 캡처한 일부 그래픽 정보가 있어야 합니다. 그렇지 않으면 아무 것도 실행되지 않습니다.

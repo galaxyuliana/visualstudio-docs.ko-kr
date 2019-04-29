@@ -22,18 +22,18 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7ac2a9817ceae660f42cbed0fdbfb364ddc79c45
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62852054"
 ---
 # <a name="debugging-mixed-mode-applications"></a>혼합 모드 응용 프로그램 디버깅
 혼합 모드 응용 프로그램은 네이티브 코드(C++)와 관리 코드(Visual Basic, Visual C# 또는 C++처럼 공용 언어 런타임에서 실행되는 코드)가 결합된 응용 프로그램입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서는 혼합 모드 응용 프로그램의 디버깅이 대부분 투명하게 이루어지며 단일 모드 응용 프로그램을 디버깅할 때와 크게 다르지 않습니다. 그러나 특별히 몇 가지 사항을 고려해야 합니다.
 
 ## <a name="enable-c-edit-and-continue-in-mixed-mode-debugging"></a>혼합 모드 디버깅에서 C++ 편집하며 계속하기 사용
 
-C + + 용 편집 하며 계속 하기를 사용 하려면 [을 사용 하도록 설정 하 고 편집 하며 계속 하기를 사용 하지 않도록 설정 하는 방법을](../debugger/how-to-enable-and-disable-edit-and-continue.md)합니다.
+편집 하며 계속 하기를 사용 하도록 설정 하려면 C++를 참조 하세요 [편집 하며 계속 하기를 사용 하지 않도록 설정 하는 방법](../debugger/how-to-enable-and-disable-edit-and-continue.md)합니다.
 
 > [!NOTE]
 > Visual Studio 2013에서 C++에 대한 편집하며 계속하기를 사용하려면 레거시 디버깅 엔진으로 되돌려야 합니다. Microsoft Application Lifecycle Management 블로그에서 [Visual Studio 2013에서 관리되는 호환성 모드로 전환](https://devblogs.microsoft.com/devops/switching-to-managed-compatibility-mode-in-visual-studio-2013/)을 참조하세요.

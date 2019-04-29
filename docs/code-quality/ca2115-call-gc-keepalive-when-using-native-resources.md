@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 9a74f6313f90a31d43cf39443b1c44d78f0628f8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55930989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62545191"
 ---
 # <a name="ca2115-call-gckeepalive-when-using-native-resources"></a>CA2115: 네이티브 리소스를 사용하는 경우에는 GC.KeepAlive를 호출하세요.
 
@@ -42,7 +42,7 @@ ms.locfileid: "55930989"
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-이 규칙 위반 문제를 해결 하려면에 대 한 호출을 추가 <xref:System.GC.KeepAlive%2A> 메서드를 현재 인스턴스를 전달 (`this` C# 및 c + +) 인수입니다. 가비지 컬렉션에서 개체 보호 되어야 합니다는 코드의 마지막 줄 다음 호출을 배치 합니다. 호출 직후 <xref:System.GC.KeepAlive%2A>, 개체 다시 비율은 가비지 컬렉션에 대 한 준비를 관리 되는 참조가 없는 가정 합니다.
+이 규칙 위반 문제를 해결 하려면에 대 한 호출을 추가 <xref:System.GC.KeepAlive%2A> 메서드를 현재 인스턴스를 전달 합니다 (`this` 에서 C# 및 C++) 인수로 합니다. 가비지 컬렉션에서 개체 보호 되어야 합니다는 코드의 마지막 줄 다음 호출을 배치 합니다. 호출 직후 <xref:System.GC.KeepAlive%2A>, 개체 다시 비율은 가비지 컬렉션에 대 한 준비를 관리 되는 참조가 없는 가정 합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 

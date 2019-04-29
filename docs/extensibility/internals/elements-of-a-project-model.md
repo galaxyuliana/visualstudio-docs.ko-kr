@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 7e14086ea395ffe65a52f47d0bfaa320fb19bc8f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62910082"
 ---
 # <a name="elements-of-a-project-model"></a>프로젝트 모델의 요소
 모든 프로젝트에서 구현 및 인터페이스 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 기본 구조를 공유 합니다: 프로젝트 형식에 대 한 프로젝트 모델. 개발 하는 VSPackage가 프로젝트 모델의 디자인 관련 결정 사항을 준수 하 고 IDE에서 제공 하는 전역 기능와 함께 작동 하는 개체를 만듭니다. 프로젝트 항목을 유지 하는 방법을 제어할 수 있지만 예를 들어 제어 하지 않으면 파일을 유지 해야 하는 알림입니다. 사용자는 열린 항목에 포커스를 배치 하 고 선택 하는 경우 **저장** 에 **파일** 메뉴에서를 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 메뉴 모음 프로젝트 형식 코드 해야 IDE에서 명령 가로채기, 파일을 보존 및 파일을 더 이상 변경 알림을 IDE에 다시 보냅니다.
@@ -32,7 +32,7 @@ ms.locfileid: "56623101"
 
 - 각 프로젝트는 템플릿 파일 또는 마법사를 통해 새 프로젝트를 만들면 새 프로젝트 파일을 초기화할 수 있어야 합니다.는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] UI입니다. 예를 들어를 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 템플릿 결국.vcproj 파일 항목을 초기화 합니다.
 
-  다음 그림에서는 주 인터페이스, 서비스 및 구성 하는 일반적인 프로젝트 구현 하는 개체를 보여 줍니다. 응용 프로그램 도우미를 사용할 수 있습니다 `HierUtil7`기본 개체 및 다른 프로그래밍 상용구를 만듭니다. 에 대 한 자세한 내용은 합니다 `HierUtil7` 응용 프로그램 도우미 참조 [구현 프로젝트 형식 (c + +)를 사용 하 여 HierUtil7 프로젝트 클래스](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)합니다.
+  다음 그림에서는 주 인터페이스, 서비스 및 구성 하는 일반적인 프로젝트 구현 하는 개체를 보여 줍니다. 응용 프로그램 도우미를 사용할 수 있습니다 `HierUtil7`기본 개체 및 다른 프로그래밍 상용구를 만듭니다. 에 대 한 자세한 내용은 합니다 `HierUtil7` 응용 프로그램 도우미 참조 [프로젝트 유형을 구현 하도록 프로젝트 클래스를 사용 하 여 HierUtil7 (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)합니다.
 
   ![Visual Studio 프로젝트 모델 그래픽](../../extensibility/internals/media/vsprojectmodel.gif "vsProjectModel") 프로젝트 모델
 
@@ -42,7 +42,7 @@ ms.locfileid: "56623101"
 
 ## <a name="see-also"></a>참고자료
 - [검사 목록: 새 프로젝트 형식 만들기](../../extensibility/internals/checklist-creating-new-project-types.md)
-- [HierUtil7 프로젝트 클래스를 사용 하는 프로젝트 형식 (c + +)를 구현 합니다.](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)
+- [프로젝트 유형을 구현 하도록 HierUtil7 프로젝트 클래스를 사용 하 여 (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)
 - [프로젝트 모델 핵심 구성 요소](../../extensibility/internals/project-model-core-components.md)
 - [프로젝트 팩터리를 사용 하 여 프로젝트 인스턴스 만들기](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)
 - [방법: 서비스 가져오기](../../extensibility/how-to-get-a-service.md)

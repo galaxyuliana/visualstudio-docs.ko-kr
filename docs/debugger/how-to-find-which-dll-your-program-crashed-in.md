@@ -23,11 +23,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b7a9421af9e0caf085feb1afb27b53befe837668
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62894049"
 ---
 # <a name="how-to-find-which-dll-your-program-crashed-in-c-c-visual-basic-f"></a>방법: 프로그램에서 충돌이 발생 하는 DLL 찾기 (C#, C++, Visual Basic의 경우 F#)
 

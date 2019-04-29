@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7870fcf644103ec7f048a809e439cb962f63bd07
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62900669"
 ---
 # <a name="ltassemblyidentitygt-element-clickonce-application"></a>&lt;assemblyIdentity&gt; 요소 (ClickOnce 응용 프로그램)
 배포 된 응용 프로그램을 식별 하는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 합니다.
@@ -67,6 +67,6 @@ ms.locfileid: "56635672"
   type="win32" />
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)
 - [\<assemblyIdentity > 요소](../deployment/assemblyidentity-element-clickonce-deployment.md)

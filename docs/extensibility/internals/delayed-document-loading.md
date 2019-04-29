@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 0a3520b2bf1d6111e945f037502a589feed0d80a
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "56335326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909778"
 ---
 # <a name="delayed-document-loading"></a>지연 된 문서 로드
 
@@ -43,7 +43,7 @@ ms.locfileid: "56335326"
 
 - 확장 관리 코드를 사용 하는 경우를 호출 하지 않아야 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.GetDocumentInfo%2A> 것이 확실 하지 않으면 문서 초기화 보류 중 상태가 아니거나 완전히 초기화 될 문서. 메서드는 항상 문서 반환 때문에 필요한 경우 새로 만드는 데이터 개체입니다. 메서드 중 하나를 호출 해야는 아니라는 `IVsRunningDocumentTable4` 인터페이스입니다.
 
-- C + +를 사용 하는 확장 프로그램을 전달 하면 `null` 않으려는 매개 변수에 대 한 합니다.
+- 확장을 사용 하는 경우 C++를 전달할 수 있습니다 `null` 않으려는 매개 변수에 대 한 합니다.
 
 - 다른 속성에 대 한 요청 전에 관련 속성에 대 한 요청 하기 전에 다음 방법 중 하나를 호출 하 여 로드 하는 불필요 한 문서를 방지할 수 있습니다.
 

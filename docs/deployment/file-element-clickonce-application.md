@@ -23,11 +23,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9345f3f094e1c48204892cd40cca71a7e28eba7c
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59657210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62900280"
 ---
 # <a name="ltfilegt-element-clickonce-application"></a>&lt;파일&gt; 요소 (ClickOnce 응용 프로그램)
 다운로드 하 고 응용 프로그램에서 사용 하는 어셈블리 이외의 모든 파일을 식별 합니다.

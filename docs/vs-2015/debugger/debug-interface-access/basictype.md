@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 38de89b9774ac20f67b91e4ba864534122f4cdb0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62580839"
 ---
 # <a name="basictype"></a>BasicType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -58,16 +58,16 @@ enum BasicType { 
  기본 형식은 `void`합니다.  
   
  btChar  
- 기본 형식은 `char` (C/c + + 형식).  
+ 기본 형식은 `char` (C /C++ 형식).  
   
  btWChar  
  기본 형식은 와이드 (유니코드) 문자 (`WCHAR`).  
   
  btInt  
- 기본 형식은 `signed int` (C/c + + 형식).  
+ 기본 형식은 `signed int` (C /C++ 형식).  
   
  btUInt  
- 기본 형식은 `unsigned int` (C/c + + 형식).  
+ 기본 형식은 `unsigned int` (C /C++ 형식).  
   
  btFloat  
  기본 형식은 부동 소수점 숫자로 (`FLOAT`).  
@@ -79,10 +79,10 @@ enum BasicType { 
  기본 형식은 부울 (`BOOL`).  
   
  btLong  
- 기본 형식은 `long int` (C/c + + 형식).  
+ 기본 형식은 `long int` (C /C++ 형식).  
   
  btULong  
- 기본 형식은 `unsigned long int` (C/c + + 형식).  
+ 기본 형식은 `unsigned long int` (C /C++ 형식).  
   
  btCurrency  
  기본 형식은 통화입니다.  

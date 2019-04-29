@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 027181d16024964d5487be2b3eb0b4ca261f98e0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62433610"
 ---
 # <a name="private-galleries"></a>전용 갤러리
 컨트롤, 템플릿 및 게시 하도록 하 여 개발 하는 도구를 공유할 수 있습니다는 *전용 갤러리* 다음과 같은 조직에 대 한 인트라넷에서:

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: fa79f31fd0fc895c67325a32dcbe12a28ff3afc4
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56697067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62876986"
 ---
 # <a name="idebugbreakpointevent2"></a>IDebugBreakpointEvent2
 디버그 엔진 (DE) 프로그램이 중단점에서 중지 되 면 (SDM) 세션 디버그 관리자에 게이 인터페이스를 보냅니다.

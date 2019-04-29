@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 06844e8723cc118d6cc10c44c5c788e48c206684
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62859468"
 ---
 # <a name="properties-window-overview"></a>속성 창 개요
 합니다 **속성** 창을 사용 하 여 windows에서 사용할 수 있는 두 가지 주요 유형에서 선택한 개체에 대 한 속성을 표시 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)입니다. 이러한 두 창의 유형은 다음과 같습니다.

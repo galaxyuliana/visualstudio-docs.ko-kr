@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 7b709012dafe0db3dcc0959908a1e6b4d9e07e21
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62788782"
 ---
 # <a name="get-started-programming-vsto-add-ins"></a>VSTO 추가 기능 프로그래밍 시작
   VSTO 추가 기능을 사용하여 Microsoft Office 응용 프로그램을 자동화하고 응용 프로그램의 기능을 확장할 수 있으며 응용 프로그램의 UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. Visual Studio를 사용 하 여 만들 수 있는 다른 유형의 Office 솔루션에 VSTO 추가 기능을 비교 하는 방법에 대 한 정보를 참조 하세요 [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 35886ea0456426c30c44d5fd8e90399d4a2143ef
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62837942"
 ---
 # <a name="idiastackwalkergetenumframes2"></a>IDiaStackWalker::getEnumFrames2
 특정 플랫폼 형식에 대 한 스택 프레임 열거자를 검색합니다.
@@ -49,7 +49,7 @@ ms.locfileid: "56642757"
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  X86만 스택 프레임 목록을 가져오려면 플랫폼을 호출 합니다 [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md) 메서드.
 
 ## <a name="see-also"></a>참고 항목

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: a792bc7b0c64b7e509e6d426c8b4f33c9f816276
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62908554"
 ---
 # <a name="related-services-and-interfaces-source-control-vspackage"></a>관련 서비스 및 인터페이스(소스 제어 VSPackage)
 이 섹션에서는 소스 제어 VSPackage 관련 인터페이스의 모든를 나열 합니다 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]합니다. 소스 제어 VSPackage 이러한 인터페이스의 일부를 구현 하 고 소스 제어 작업을 위해 다른 사용자를 사용 합니다.

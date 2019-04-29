@@ -12,14 +12,15 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7810889d4af411477573c71aa694d797a90763f3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56720603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62896021"
 ---
 # <a name="graphics-api-and-memory-statistics"></a>그래픽 API 및 메모리 통계
-<!-- VERSIONLESS --> Visual Studio 2017 이상 그래픽 API 통계 및 메모리 통계 도구를 지원 합니다.  이러한 두 도구를 통해 Direct3D API 사용 뿐만 아니라 다양 한 리소스의 GPU 메모리 사용량에서 다양 한 비트 정보를 볼 수 있습니다.
+<!-- VERSIONLESS -->
+Visual Studio 2017 이상 그래픽 API 통계 및 메모리 통계 도구를 지원 합니다.  이러한 두 도구를 통해 Direct3D API 사용 뿐만 아니라 다양 한 리소스의 GPU 메모리 사용량에서 다양 한 비트 정보를 볼 수 있습니다.
 
 ## <a name="graphics-api-statistics"></a>그래픽 API 통계
 Visual Studio 그래픽 진단의 그래픽 API 통계를 사용 하면 모든 적용 된 Direct3D 호출 및 각 호출의 수를 볼 수 있습니다.  창을 보려면를 선택 합니다 **보기 > API 통계** 메뉴 항목입니다.

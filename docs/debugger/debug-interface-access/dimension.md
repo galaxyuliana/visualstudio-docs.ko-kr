@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 97b03f1a3ceb8424cc3e533512f6d0d3e034f791
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554807"
 ---
 # <a name="dimension"></a>크기
 각 FORTRAN 배열에는 차원으로 식별 되는 `SymTagDimension` 기호입니다.

@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: b527f959f093f155d74e2a85a1812d7ccb58d1e7
-ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "59584534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62901250"
 ---
 # <a name="walkthrough-writing-a-visualizer-in-c"></a>연습: C에서 시각화 도우미 작성\#
 이 연습에서는 C#을 사용하여 간단한 시각화 도우미를 작성하는 방법을 보여줍니다. 이 연습에서 만들 시각화 도우미는 Windows Forms 메시지 상자를 사용하여 문자열의 내용을 표시합니다. 이 간단한 문자열 시각화 도우미 자체에서 특히 유용 하지 않습니다. 하지만 다른 데이터 형식에 대 한 유용한 시각화 도우미 만들기 위해 따라야 하는 기본 단계를 보여 줍니다.

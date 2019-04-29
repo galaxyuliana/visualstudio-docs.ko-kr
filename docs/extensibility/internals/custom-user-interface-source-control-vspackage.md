@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 09ab1bb7e44ee2772023a73632ca194796bbb33e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62910070"
 ---
 # <a name="custom-user-interface-source-control-vspackage"></a>사용자 지정 사용자 인터페이스 (소스 제어 VSPackage)
 VSPackage는 해당 메뉴 항목 및 Visual Studio 명령 테이블을 통해 기본 상태로 선언 (*.vsct*) 파일입니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)는 VSPackage가 로드 될 때까지 기본 상태로 메뉴 항목을 표시 합니다. 이후에 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 메뉴 항목을 사용할지 여부를 호출 합니다.

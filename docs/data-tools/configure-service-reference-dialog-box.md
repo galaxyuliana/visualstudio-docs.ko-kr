@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: b622fc77884acde5b81d886628afce9f077e86a8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62567975"
 ---
 # <a name="configure-service-reference-dialog-box"></a>서비스 참조 구성 대화 상자
 
@@ -103,7 +103,7 @@ ms.locfileid: "55955247"
 > [!NOTE]
 > 합니다 **웹 참조 추가** 단추 때만 사용할 수는 **서비스 참조 구성** 에서 대화 상자가 표시 됩니다는 **서비스 참조 추가 대화 상자**합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [방법: 웹 서비스에 참조 추가](how-to-add-update-or-remove-a-wcf-data-service-reference.md)
+- [방법: 웹 서비스에 대 한 참조를 추가 합니다.](how-to-add-update-or-remove-a-wcf-data-service-reference.md)
 - [Windows Communication Foundation 서비스 및 WCF Data Services](../data-tools/configure-service-reference-dialog-box.md)

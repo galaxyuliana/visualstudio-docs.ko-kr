@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: a2c7a993bca55f1224661e15f9a7ecbf0a967e31
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62433424"
 ---
 # <a name="querychangesfunc"></a>QUERYCHANGESFUNC
 이에서 사용 하는 콜백 함수는 [SccQueryChanges](../extensibility/sccquerychanges-function.md) 파일 이름의 컬렉션을 열거 하 고 각 파일의 상태를 확인 하는 작업입니다.

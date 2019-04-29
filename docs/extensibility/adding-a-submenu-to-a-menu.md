@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 7ae0fa20b110f67ac23b7b6013444021dffc468c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60047010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62843867"
 ---
 # <a name="add-a-submenu-to-a-menu"></a>메뉴에 하위 메뉴를 추가 합니다.
 이 연습에서 데모 기반 [Visual Studio 메뉴 모음에 메뉴를 추가](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md) 하위 메뉴를 추가 하는 방법을 표시 하 여 합니다 **TestMenu** 메뉴.

@@ -21,11 +21,11 @@ manager: wpickett
 ms.workload:
 - multiple
 ms.openlocfilehash: 78a8bf94323391d031aaf718f6e3132eb89e1df3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55948032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62560378"
 ---
 # <a name="annotating-function-behavior"></a>함수 동작에 주석 지정
 주석을 추가 하는 것 외에도 [함수 매개 변수 및 반환 값](../code-quality/annotating-function-parameters-and-return-values.md), 전체 함수의 속성 주석을 달 수 있습니다.
@@ -50,7 +50,7 @@ ms.locfileid: "55948032"
 |----------------|-----------------|
 |`_Always_(anno_list)`|`anno_list _On_failure_(anno_list)`와 동일합니다. 즉, 함수 성공 여부에 관계없이 `anno_list`의 주석이 적용됩니다.|
 |`_On_failure_(anno_list)`|함수에 주석을 달기 위해 `_Success_`가 사용될 경우에만 사용하려면 명시적으로 또는 typedef에서 `_Return_type_success_`를 통해 암시적으로 사용합니다 `_On_failure_` 주석이 함수 매개 변수 또는 반환 값에 제공되었으면, `anno_list`(anno)의 각 주석이 `_When_(!expr, anno)`로 코딩된 것처럼 작동합니다. 여기서 `expr`은 필요한 `_Success_` 주석에 대한 매개 변수입니다. 즉, 모든 사후 조건에 대한 `_Success_`의 암시적 적용이 `_On_failure_`에 대해 적용되지 않습니다.|
-|`_Return_type_success_(expr)`|typedef에 적용될 수 있습니다. 해당 형식을 반환하고 명시적으로 `_Success_`를 포함하지 않는 모든 함수가 `_Success_(expr)`를 포함한 것처럼 주석 처리되도록 지정합니다. `_Return_type_success_`는 함수 또는 함수 포인터 typedef에서 사용할 수 없습니다.|
+|`_Return_type_success_(expr)`|typedef에 적용될 수 있습니다. 해당 형식을 반환하고 명시적으로 `_Success_`를 포함하지 않는 모든 함수가 `_Success_(expr)`를 포함한 것처럼 주석을 달도록 지정합니다. `_Return_type_success_`는 함수 또는 함수 포인터 typedef에서 사용할 수 없습니다.|
 |`_Success_(expr)`|`expr`은 값을 생성하는 식입니다. `_Success_` 주석이 함수 선언 또는 정의에 제공된 경우 함수 및 사전 조건의 각 주석(`anno`)은 `_When_(expr, anno)`으로 코딩된 것처럼 작동합니다. `_Success_` 주석은 해당 매개 변수 또는 반환 유형이 아닌 함수에서만 사용할 수 있습니다. 함수에는 최대한 하나의 `_Success_` 주석만 있을 수 있으며, `_When_`, `_At_` 또는 `_Group_`에는 있을 수 없습니다. 자세한 내용은 [를 지정 하 고 여기서는 주석이 적용 됩니다](../code-quality/specifying-when-and-where-an-annotation-applies.md)합니다.|
 
 ## <a name="see-also"></a>참고자료

@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 12ec2ed7dc2a12556fcb6eeeddbe2d0745ae7f72
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566370"
 ---
 # <a name="one-or-more-selected-items-contain-a-data-type-that-is-not-supported-by-the-designer"></a>선택한 항목 중 하나 이상이 디자이너에서 지원되지 않는 데이터 형식을 포함하고 있습니다.
 
@@ -25,7 +25,7 @@ ms.locfileid: "55928520"
 
 2. 뷰를 끌어 **서버 탐색기** 하거나 **데이터베이스 탐색기** 디자이너로 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [O/R 디자이너 메시지](../data-tools/o-r-designer-messages.md)
 - [Visual Studio의 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

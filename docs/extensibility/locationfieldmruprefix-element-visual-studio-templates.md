@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: c8c4c3fa4e64b302c6d1c9d0e393528d46fe072f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62907340"
 ---
 # <a name="locationfieldmruprefix-element-visual-studio-templates"></a>LocationFieldMRUPrefix 요소 (Visual Studio 템플릿)
 가장 최근에 사용한 (MRU) 경로 지정 합니다 **새 프로젝트** 하 고 **새 항목 추가** 대화 상자.

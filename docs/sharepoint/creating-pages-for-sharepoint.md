@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: f58af55b18d7cd6341b779d71da2994875c98a62
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62419891"
 ---
 # <a name="create-pages-for-sharepoint"></a>SharePoint에 대 한 페이지 만들기
   응용 프로그램 페이지, 사이트 페이지, 마스터 페이지 및 SharePoint 사이트에 대 한 페이지 레이아웃을 만들 수 있습니다.

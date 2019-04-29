@@ -17,11 +17,11 @@ ms.topic: reference
 ms.workload:
 - multiple
 ms.openlocfilehash: 44938c5753491521702867398a514f770cf831fb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62793649"
 ---
 # <a name="per-monitor-awareness-support-for-visual-studio-extenders"></a>Visual Studio extender에 대 한 모니터별 인식을 지원
 Visual Studio 2019 이전 버전의 DPI 인식 컨텍스트를 인식 모니터별 DPI 인식 (PMA) 보다는 시스템으로 설정 했습니다. 성능이 저하 된 시각적 개체에서 생성 한 인식 시스템에서에서 실행 중인 Visual Studio를 렌더링 해야 했던 다른 배율 인수 또는 원격을 사용 하 여 모니터 디스플레이 구성을 사용 하 여 컴퓨터에 예를 들어 (다른 때마다 (예: 흐리게 글꼴 또는 아이콘) 환경 Windows 확장)입니다.

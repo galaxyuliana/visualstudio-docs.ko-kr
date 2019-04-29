@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: d3b2a3382fe9ac11f07d7fa9ebc5c1bc094cd526
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56719069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62902506"
 ---
 # <a name="stop-debugging-in-progress-dialog-box"></a>진행하고 있는 디버깅을 중지하고 있습니다... 대화 상자
 이 대화 상자는 디버거가 디버깅 세션을 중지하려고 할 때 세션 중지에 시간이 오래 걸릴 경우에 나타납니다. 일반적으로 디버깅 세션 중지는 매우 빠르게 이루어지므로 이 대화 상자가 나타나지 않습니다. 그러나 경우에 따라 디버깅 중인 모든 프로세스에서 분리하는 데 시간이 추가로 소요됩니다. 세션을 중지하는 데 몇 초 이상 걸리거나 분리 오류가 발생하는 경우 이 대화 상자가 나타납니다. 이러한 현상이 자주 발생하는 경우 내부 문제가 그 원인일 수 있으며 필요하면 기술 지원 서비스에 문의할 수 있습니다.

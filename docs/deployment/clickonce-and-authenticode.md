@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9ebef342338430404f9506779c2b1e5312462178
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62900550"
 ---
 # <a name="clickonce-and-authenticode"></a>ClickOnce 및 Authenticode
 *Authenticode* 는 업계 표준 암호화를 사용하여 응용 프로그램 게시자의 신뢰성을 확인하는 디지털 인증서로 응용 프로그램 코드에 서명하는 Microsoft 기술입니다. 애플리케이션 배포에 Authenticode를 사용하여 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 는 트로이 목마의 위험을 줄입니다. 트로이 목마는 악의적인 제3자가 신뢰할 수 있는 기존의 소스에서 온 적법한 프로그램처럼 속여 표시하는 바이러스 또는 기타 유해 프로그램입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포에 디지털 인증서로 서명하는 것은 어셈블리와 파일이 손상되지 않았음을 확인하기 위한 선택적인 단계입니다.

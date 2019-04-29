@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ea659b847149a6abb2c3a5ba7cc947a59c7ae41c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62842921"
 ---
 # <a name="idebugparsedexpressionevaluatesync"></a>IDebugParsedExpression::EvaluateSync
 이 메서드는 구문 분석 된 식을 계산 하 고 필요에 따라 다른 데이터 형식으로 결과 캐스팅 합니다.
