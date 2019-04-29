@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 052a408d6e92066c14617f46f722d3e603985195
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62943804"
 ---
 # <a name="iremotedebugapplicationevents-interface"></a>IRemoteDebugApplicationEvents 인터페이스
 `IRemoteDebugApplicationEvents` 인터페이스는 디버그 응용 프로그램에서 제공 하는 이벤트 인터페이스입니다. 이 인터페이스는 항상 디버거 스레드 내에서 호출 됩니다.  

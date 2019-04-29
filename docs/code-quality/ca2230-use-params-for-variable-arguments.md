@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b3318a9f5bd65c6b9514519936cc52e037e0c215
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55944990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62541785"
 ---
 # <a name="ca2230-use-params-for-variable-arguments"></a>CA2230: 가변 인수로 params를 사용하세요.
 
@@ -36,7 +36,7 @@ ms.locfileid: "55944990"
 ## <a name="rule-description"></a>규칙 설명
  `VarArgs` 가변 개수의 매개 변수를 사용 하는 특정 메서드 정의 사용 하 여 호출 규칙이 사용 됩니다. 사용 하는 메서드는 `VarArgs` 공용 언어 사양 (CLS) 규격이 아닙니다 호출 규칙 및 프로그래밍 언어에서 액세스할 수 없습니다.
 
- C#에서는 합니다 `VarArgs` 메서드의 매개 변수 목록을 사용 하 여 종료 될 때 호출 규칙이 사용 됩니다는 `__arglist` 키워드입니다. Visual Basic을 지원 하지 않습니다 합니다 `VarArgs` 타원을 사용 하는 관리 되지 않는 코드 에서만에서 사용할 수 있습니다 호출 규칙 및 Visual c + + `...` 표기법입니다.
+ C#에서는 합니다 `VarArgs` 메서드의 매개 변수 목록을 사용 하 여 종료 될 때 호출 규칙이 사용 됩니다는 `__arglist` 키워드입니다. Visual Basic을 지원 하지 않습니다 합니다 `VarArgs` 호출 규칙 및 시각적 개체 C++ 타원을 사용 하는 관리 되지 않는 코드 에서만에서 사용할 수 있습니다 `...` 표기법입니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  C#에서이 규칙 위반을 해결 하려면 사용 합니다 [params](/dotnet/csharp/language-reference/keywords/params) 키워드 대신 `__arglist`합니다.

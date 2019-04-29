@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 704e08524bb9aaf014dbd29e7df7361a7e1bbefe
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967411"
 ---
 # <a name="form-support-in-workflows"></a>워크플로의 폼 지원
   네 가지 유형의 폼 워크플로에서 사용할 수 있습니다: 연결, 시작, 태스크 및 수정 합니다. 이러한 폼 형식 ASPX 양식은 또는 InfoPath 양식에 기반 할 수 있습니다. 수준의 지원 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 다음 표에 설명 된 여러 가지 요인에 따라 다릅니다. 특정 폼을 제공 합니다. 워크플로 양식 유형에 대 한 자세한 내용은 참조 하세요. [워크플로 양식 개요](http://go.microsoft.com/fwlink/?LinkId=185228)합니다.

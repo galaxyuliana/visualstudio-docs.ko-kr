@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fcab7ac3bb2a7983d8500b6f27f910fa33fc1efe
-ms.sourcegitcommit: da73f7a0cf1795d5d400c0897ae3326191435dd0
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "58567843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62929164"
 ---
 # <a name="build-clickonce-applications-from-the-command-line"></a>명령줄에서 ClickOnce 애플리케이션 빌드
 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], 통합된 개발 환경 (IDE)에서 만들어진 경우에 명령줄에서 프로젝트를 빌드할 수 있습니다. 사용 하 여 만든 프로젝트를 다시 작성할 수는 사실 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] 만 있는 다른 컴퓨터에는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 설치 합니다. 이 자동화 된 프로세스를 사용 하 여 빌드를 재현할 수 있습니다, 그리고 예를 들어, 중앙 빌드에서 랩 또는 사용 하 여 고급 스크립팅 기술 자체는 프로젝트 빌드 범위를 벗어납니다.
@@ -33,9 +33,9 @@ ms.locfileid: "58567843"
 
  "대상"은 msbuild 명령을 처리 하는 방법에 표시기. 주요 목표는 "빌드" 대상 및 "게시" 대상입니다. 빌드 대상이 해당 빌드를 선택 하는 IDE에서 명령 (또는 F5 키를 눌러). 프로젝트를 빌드 하려는 경우이 구현 하를 입력 하 여 `msbuild`입니다. 이 명령은 작동 빌드 대상에 의해 생성 된 모든 프로젝트에 대 한 기본 대상 이므로 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]합니다. 즉, 명시적으로 빌드 대상을 지정할 필요가 없습니다. 따라서 입력 `msbuild` 은 입력으로 동일한 작업 `msbuild /target:build`합니다.
 
- `/target:publish` 명령 게시 대상을 호출 하는 MSBuild 지시 합니다. 게시 대상 빌드 대상에 따라 달라 집니다. 이 게시 작업 빌드 작업의 상위 집합 임을 의미 합니다. 예를 들어, Visual Basic 중 하나를 변경한 경우 또는 C# 소스 파일을 해당 어셈블리를 자동으로 다시 빌드됩니다 게시 작업에서.
+ `/target:publish` 명령 게시 대상을 호출 하는 MSBuild 지시 합니다. 게시 대상 빌드 대상에 따라 달라 집니다. 이 게시 작업 빌드 작업의 상위 집합 임을 의미 합니다. 예를 들어, Visual Basic 또는 C# 소스 파일 중 하나를 변경한 경우 게시 작업에서 해당 어셈블리를 자동으로 다시 빌드됩니다.
 
- 전체를 생성 하는 방법은 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 만들려면 Mage.exe 명령줄 도구를 사용 하 여 배포 프로그램 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 매니페스트를 참조 하십시오 [연습: ClickOnce 응용 프로그램을 수동으로 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다.
+ 전체를 생성 하는 방법은 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 만들려면 Mage.exe 명령줄 도구를 사용 하 여 배포 프로그램 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 내용은 매니페스트 [연습: 수동으로 ClickOnce 응용 프로그램을 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다.
 
 ## <a name="create-and-build-a-basic-clickonce-application-with-msbuild"></a>MSBuild 사용 하 여 기본 ClickOnce 응용 프로그램을 만들고 설정 합니다.
 
@@ -164,9 +164,9 @@ msbuild /target:publish /property:BootstrapperEnabled=false
 |`SupportURL`|선택 사항입니다. 지원 사이트와 다른 경우이 URL 옵션을 설정 합니다 `PublishURL`합니다. 예를 들어, 설정할 수 있습니다는 `SupportURL` 회사의 고객 지원 웹 사이트입니다.|
 |`UpdateURL`|선택 사항입니다. 업데이트 위치와 다른 경우이 URL 옵션을 설정 합니다 `InstallURL`합니다. 예를 들어, 설정할 수 있습니다는 `PublishURL` 을 설정 하 고는 FTP 경로 `UpdateURL` 웹 url입니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - <xref:Microsoft.Build.Tasks.GenerateBootstrapper>
 - <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>
 - <xref:Microsoft.Build.Tasks.GenerateDeploymentManifest>
 - [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)
-- [연습: ClickOnce 애플리케이션 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
+- [연습: 수동으로 ClickOnce 응용 프로그램 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)

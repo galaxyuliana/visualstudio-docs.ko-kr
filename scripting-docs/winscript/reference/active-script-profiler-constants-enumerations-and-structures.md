@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 1d39e6feb2cddd0c573368db9bf50b1e77f2e48d
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58154727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62955497"
 ---
 # <a name="active-script-profiler-constants-enumerations-and-structures"></a>액티브 스크립트 프로파일러 상수, 열거형 및 구조체
 액티브 스크립트 Profiler 인터페이스에서는 다음 열거를 사용 합니다.  

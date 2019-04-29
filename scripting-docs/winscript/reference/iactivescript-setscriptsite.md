@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 3fdf5f3ae84d1a991d67170b5f2b02114b91ee05
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935556"
 ---
 # <a name="iactivescriptsetscriptsite"></a>IActiveScript::SetScriptSite
 스크립팅 엔진에 알립니다 합니다 [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md) 인터페이스 사이트 호스트에서 제공 합니다. 다른 전에이 메서드를 호출 [IActiveScript](../../winscript/reference/iactivescript.md) 인터페이스 메서드가 사용 됩니다.  

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 629e35e8756be1dfa6df9f21eda02624b4c363de
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56691321"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62921907"
 ---
 # <a name="idebugcoreserver3"></a>IDebugCoreServer3
 이 인터페이스에서 프로세스가 실행 중인 서버에 대 한 정보에 액세스할 수 있습니다.

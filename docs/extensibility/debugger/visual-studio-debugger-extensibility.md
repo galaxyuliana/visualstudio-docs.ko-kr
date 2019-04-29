@@ -12,14 +12,14 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: df9d1bccb2147d8416555099f3493ceac8c21b4b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62912911"
 ---
 # <a name="visual-studio-debugger-extensibility"></a>Visual Studio 디버거 확장성
-Visual Studio에는 프로그램에서 버그를 추적 하기 위한 강력 하 고 사용 하기 쉬운 도구를 제공 하는 완전 한 대화형 소스 코드 디버거를 포함 합니다. 디버거는 완전히 지원 Visual Basic, C#, C/c + + 및 JavaScript에 있습니다. 그러나 합니다 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], 즉에서 사용할 수 있습니다 합니다 [Microsoft 다운로드 센터](http://go.microsoft.com/fwlink/?LinkId=214453), 같은 다양 한 기능을 사용 하 여 디버거에서 다른 프로그래밍 언어를 지원할 수 있습니다.
+Visual Studio에는 프로그램에서 버그를 추적 하기 위한 강력 하 고 사용 하기 쉬운 도구를 제공 하는 완전 한 대화형 소스 코드 디버거를 포함 합니다. 디버거는 Visual Basic의 경우 전체 지원 C#, C /C++, 및 JavaScript입니다. 그러나 합니다 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], 즉에서 사용할 수 있습니다 합니다 [Microsoft 다운로드 센터](http://go.microsoft.com/fwlink/?LinkId=214453), 같은 다양 한 기능을 사용 하 여 디버거에서 다른 프로그래밍 언어를 지원할 수 있습니다.
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 디버거를 다시 디버깅 중인 언어와 관련 된 디버깅 구성 공용 프런트 엔드 (즉, 사용자 인터페이스)입니다. 지원 하기 위해 필요한 모든 새 언어에 대 한는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 디버거는 디버그 엔진 (DE)와 같은 필요한 백 엔드 구성 요소를 만드는 것입니다. 이 점이 위치는 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] 제공 됩니다.
 

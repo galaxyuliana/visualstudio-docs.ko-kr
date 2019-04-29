@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: b9ddd9fb24aa83a6027d6d705de6a748a96b2e28
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58149300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979112"
 ---
 # <a name="idebugpropertyenumtypeall-interface"></a>IDebugPropertyEnumType_All 인터페이스
 합니다 `IDebugPropertyEnumType` 각 해당 Iid에 필터로 전달 될 수 있도록 인터페이스를 정의 `IDebugProperty::EnumMembers` 적절 한 열거자를 요청 하는 중입니다.  

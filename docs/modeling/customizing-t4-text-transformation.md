@@ -1,5 +1,5 @@
 ---
-title: T4 텍스트 변형 사용자 지정
+title: T4 텍스트 변환 사용자 지정
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 33f7fd14ff62369de66e4934bf9bb2cf6fd83542
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55951555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62994755"
 ---
 # <a name="customize-t4-text-transformation"></a>T4 텍스트 변환 사용자 지정
 

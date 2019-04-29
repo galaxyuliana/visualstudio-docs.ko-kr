@@ -21,11 +21,11 @@ ms.workload:
 - multiple
 monikerRange: vs-2017
 ms.openlocfilehash: 9c6f2eb4be56be8cf5e25c3238a91819df3bc574
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57867621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62901396"
 ---
 # <a name="whats-new-for-the-debugger-in-visual-studio-2017"></a>Visual Studio 2017 디버거의 새로운 기능
 
@@ -70,7 +70,7 @@ ms.locfileid: "57867621"
 
 이러한 새 기능에 대 한 자세한 내용은 참조는 [에 대 한 릴리스 정보 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] ](/visualstudio/releasenotes/vs2017-relnotes)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio의 디버깅](../debugger/index.md)
 - [디버거 소개](../debugger/debugger-feature-tour.md)

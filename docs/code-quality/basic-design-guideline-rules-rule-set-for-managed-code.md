@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: 7c2a9570eeae6d9545bb91f7f1ed0c57df3a9c92
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62571370"
 ---
 # <a name="basic-design-guideline-rules-rule-set-for-managed-code"></a>관리 코드에 대한 기본 디자인 지침 규칙 규칙 집합
 Microsoft 기본 디자인 지침 규칙 규칙 집합 코드를 더 쉽게 이해 하 고 사용 하는 데 집중할 수를 사용할 수 있습니다. 프로젝트에 라이브러리 코드가 있거나 유지 관리 하기 쉬운 코드에 대 한 모범 사례를 적용 하려는 경우이 규칙 집합을 포함 해야 합니다.

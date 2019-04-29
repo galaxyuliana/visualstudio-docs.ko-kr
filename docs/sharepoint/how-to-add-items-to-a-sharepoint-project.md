@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 572b466907fdbe43c5b9f094b74837ca05d1b212
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966954"
 ---
 # <a name="how-to-add-items-to-a-sharepoint-project"></a>방법: SharePoint 프로젝트에 항목 추가
   SharePoint 솔루션에는 하나 이상의 프로젝트에 SharePoint 프로젝트 항목이 여러 개 포함 된 각 포함 됩니다. 열거나 SharePoint 솔루션 만들기 후에 이러한 프로젝트에 신규 또는 기존 항목을 추가할 수 있습니다. 예를 들어, 새 워크플로 프로젝트를 default.aspx 라는 기본 양식에 제공 되지만 새로운 또는 다른 양식으로 바꿀 하거나 다른 ASPX 폼을 추가할 수 있습니다.

@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 92a6e7fc6433f120c053303421feb5e8d58bd1c1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63006197"
 ---
 # <a name="the-precision-is-out-of-range"></a>정밀도가 범위를 벗어납니다.
 함수에 잘못 된 인수를 전달 하려고 **Number.prototype.toPrecision**합니다. 인수 **toPrecision** 1과 21 (포함) 사이 여야 합니다.  

@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 8913d9b26ab79a37e9d6f28a5f3bf1974df15a5f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554458"
 ---
 # <a name="functiontype"></a>FunctionType
 각 고유 함수 서명으로 식별 되는 `SymTagFunctionType` 기호입니다. 각 매개 변수에 사용 하 여 클래스 자식 기호로 식별 되는 `SymTagFunctionArgType` 태그입니다.

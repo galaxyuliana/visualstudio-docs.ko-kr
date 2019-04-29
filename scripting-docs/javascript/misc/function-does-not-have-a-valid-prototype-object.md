@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 413f73a53a6d4f698219139a87c449be4c155831
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60038681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007505"
 ---
 # <a name="function-does-not-have-a-valid-prototype-object"></a>함수에 올바른 프로토타입 개체가 없습니다.
 사용 하려는 **instanceof** 개체는 특정 함수 클래스에서 파생 된 개체를 다시 정의 되지만 결정할 `prototype` 속성으로 `null`, 또는 외부 개체 형식 (모두 유효 하지 않습니다 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 개체). 외부 개체 (예를 들어, Internet Explorer의 문서 또는 창 개체)에서 호스트 개체 모델에서 개체 또는 외부 COM 개체 수 있습니다.  

@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: cdb38bcb8a86900cae7eb596c48b5765bc247eac
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62815089"
 ---
 # <a name="work-with-text-in-documents"></a>문서 텍스트 작업
   이 섹션의 항목에서는 Microsoft Office Word의 개체 모델을 사용하여 Office 프로젝트에서 텍스트 작업을 수행하는 단계별 절차 및 코드 예제를 제공합니다.

@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: f20f61ffc4a6e4105a96b58c3dc73e7154e7c9cd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62929725"
 ---
 # <a name="supported-code-changes-c-and-visual-basic"></a>코드 변경 내용을 지원 (C# 및 Visual Basic)
 편집하며 계속하기에서는 메서드 본문 내의 코드 변경 유형을 대부분 처리합니다. 그러나 메서드 본문 외부의 변경 내용 대부분과 메서드 본문 내의 몇 가지 변경 내용은 디버깅 중에 적용할 수 없습니다. 이러한 지원되지 않는 변경 내용을 적용하려면 디버깅을 중지하고 새로운 버전의 코드로 다시 시작해야 합니다.

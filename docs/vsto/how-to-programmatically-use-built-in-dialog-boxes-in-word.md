@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: f8037e4d91aa7706c7ffd7b9f32778dfeac79488
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62961643"
 ---
 # <a name="how-to-programmatically-use-built-in-dialog-boxes-in-word"></a>방법: 프로그래밍 방식으로 Word에서 기본 제공 대화 상자를 사용 하 여
   Microsoft Office Word에서 작업할 때 사용자 입력에 대 한 대화 상자를 표시 해야 하는 경우가 있습니다. 만들 수 있지만 사용자 고유의에서 노출 되는 word에서 기본 제공 대화 상자를 사용 하는 방법을 사용 하려면 수도 있습니다는 <xref:Microsoft.Office.Interop.Word.Dialogs> 의 컬렉션을 <xref:Microsoft.Office.Interop.Word.Application> 개체입니다. 이 열거형으로 표현 되는 기본 제공 대화 상자에서는 200에 액세스할 수 있습니다.

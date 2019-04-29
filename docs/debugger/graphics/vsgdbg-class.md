@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4051a02de6a046621e62c21b4d2399b5a2703cb8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56714805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62895194"
 ---
 # <a name="vsgdbg-class"></a>VsgDbg 클래스
 그래픽 진단의 앱에서 구성 요소 프로그래밍 방식으로 컨트롤에 대 한 인터페이스를 나타냅니다.
@@ -29,14 +29,14 @@ class VsgDbg;
 
 ### <a name="public-constructors"></a>Public 생성자
 
-|name|설명|
+|이름|설명|
 |----------|-----------------|
 |[VsgDbg::VsgDbg(생성자)](vsgdbg-vsgdbg-constructor.md)|인스턴스를 생성 합니다 `VsgDbg` 클래스 및 필요에 따라 캡처하고 그래픽 정보를 기록 하도록 그래픽 진단의 앱에서 구성 요소를 준비 합니다.|
 |[VsgDbg::~VsgDbg(소멸자)](vsgdbg-tilde-vsgdbg-destructor.md)|인스턴스를 제거 합니다 `VsgDbg` 클래스입니다.|
 
 ### <a name="public-methods"></a>Public 메서드
 
-|name|설명|
+|이름|설명|
 |----------|-----------------|
 |[AddMessage](addmessage.md)|그래픽 진단 HUD(Head-Up Display)에 사용자 지정 메시지를 추가합니다.|
 |[BeginCapture](begincapture.md)|로 끝나는 캡처 간격 시작 `EndCapture`합니다.|
@@ -47,5 +47,5 @@ class VsgDbg;
 |[ToggleHUD](togglehud.md)|그래픽 진단 HUD 오버레이 켜거나 끕니다.|
 |[UnInit](uninit.md)|그래픽 로그 파일을 종료하고 닫고 앱이 그래픽 정보를 기록하는 동안 사용된 리소스를 확보합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  `VsgDbg` 클래스 그래픽 진단 기능을 프로그래밍 방식으로 제어 하는 데 사용할 수 있는 인터페이스를 나타냅니다. 않음 캡처 및 그래픽 정보를 기록 하는 경우에 몇 가지 기능을 사용할 수 있습니다. 여기에 `AddMessage` 멤버 함수 및 `ToggleHUD` 멤버 함수입니다. 다른 멤버 함수를 시작 하거나 활성 그래픽 정보 캡처를 중지 하도록 그래픽 진단의 앱에서 구성 요소를 준비 하거나 앱을 적극적으로 캡처 하 고 그래픽 로그 파일에 그래픽 정보를 기록 하는 동안 호출 되어야 합니다.

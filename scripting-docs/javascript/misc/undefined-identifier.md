@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: ee928a945081d1ac1369a71d11f74f2c5db2b365
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63005916"
 ---
 # <a name="undefined-identifier"></a>식별자가 정의되지 않았습니다.
 식별자를 사용 하려고 하는 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 컴파일러 인식 하지 못합니다. 정의 되지 않은 값을 사용할 때마다 반환 됩니다.  

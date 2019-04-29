@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 7e3a9043215c5242246e54dc3e1eb2e85cd26c91
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56711191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62925895"
 ---
 # <a name="debugger-concepts"></a>디버거 개념
 Visual Studio 디버그 패키지를 빌드하려면 패키지 디자인에 사용 되는 아키텍처 개념을 숙지 해야 합니다.

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 5eebe6382d2aec13996c57ef76aba2e04512463f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909957"
 ---
 # <a name="how-to-identify-symbols-in-a-library"></a>방법: 라이브러리의 기호 식별
 기호 검색 도구는 기호의 계층적 뷰를 표시합니다. 기호는 네임 스페이스, 개체, 클래스, 클래스 멤버 및 다른 언어 요소를 나타냅니다.

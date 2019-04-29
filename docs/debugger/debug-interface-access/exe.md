@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6078f4dae6bc6fb53dfa8b612972e28edd820f72
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56654050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554755"
 ---
 # <a name="exe"></a>Exe
 .exe 또는.dll 파일의 전역 범위를 나타내므로 Exe가 유일한 어휘를 포함 하지 않고 기호 또는 부모 클래스입니다. 하나의 기호는는 `SymTagExe` 파일당 태그입니다. 합니다 [idiasession:: Get_globalscope](../../debugger/debug-interface-access/idiasession-get-globalscope.md) 메서드 기호를 반환 합니다.

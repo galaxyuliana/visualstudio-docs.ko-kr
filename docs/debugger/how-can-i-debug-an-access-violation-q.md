@@ -1,5 +1,5 @@
 ---
-title: C + + 액세스 위반 디버깅 | Microsoft Docs
+title: 디버그는 C++ 액세스 위반 | Microsoft Docs
 ms.custom: seodec18
 ms.date: 02/05/2019
 ms.topic: conceptual
@@ -20,13 +20,13 @@ manager: jillfra
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 2be6c13e2a3c83d31540399dd3387addb08e8686
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56710437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62895132"
 ---
-# <a name="how-can-i-debug-a-c-access-violation"></a>C + + 액세스 위반을 어떻게 디버깅할 수 있습니까?
+# <a name="how-can-i-debug-a-c-access-violation"></a>어떻게 디버깅할 수는 C++ 액세스 위반?
 
 ## <a name="problem-description"></a>문제 설명
 

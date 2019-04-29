@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b1f0761ba750146ce7f8cc52e6992dae689f7779
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976954"
 ---
 # <a name="debug-stepping-options-legacy"></a>단계별 디버깅 옵션(레거시)
 이 항목에서는 [!INCLUDE[wf](../includes/wf-md.md)]에서 동시 활동이 있는 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 응용 프로그램을 디버깅하는 방법에 대해 설명합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  

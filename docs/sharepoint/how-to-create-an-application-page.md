@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: fb5c4d7497525706384ced52caae1ba8e02f3e23
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966772"
 ---
 # <a name="how-to-create-an-application-page"></a>방법: 응용 프로그램 페이지 만들기
   하나 이상의 SharePoint 사이트에 대한 ASP.NET 웹 페이지를 만들 수 있습니다. Sharepoint에서 이러한 페이지는 응용 프로그램 페이지 라고 합니다. 사이트 페이지와 달리 응용 프로그램 페이지는 페이지 뒤에 실행 되는 코드를 포함 합니다. 자세한 내용은 [SharePoint 용 응용 프로그램 페이지를 만들](../sharepoint/creating-application-pages-for-sharepoint.md)합니다.

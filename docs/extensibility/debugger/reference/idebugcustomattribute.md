@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 338f07f26bf4d0471fbf178a369a085d5ef76a08
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62921733"
 ---
 # <a name="idebugcustomattribute"></a>IDebugCustomAttribute
 이 인터페이스는 사용자 지정 특성을 나타내며 이름, 부모 및 특성의 클래스 형식을 제공할 수 있습니다.

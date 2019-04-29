@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: dfd0fb71aaca9cb3de2d7cc6d3b6229042a4e7fa
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62926408"
 ---
 # <a name="create-and-manage-modal-dialog-boxes"></a>모달 대화 상자를 만들고 설정 합니다.
 Visual Studio 내에서 모달 대화 상자를 만들 때 대화 상자의 부모 창 대화 상자 표시 되는 동안 않도록은 다음 대화 상자를 닫은 후 다시 부모 창을 사용 하도록 설정 해야 합니다. 이렇게 하지 않는 경우 오류가 나타날 수 있습니다. *Microsoft Visual Studio 모달 대화 상자가 활성화 되어 있으므로 종료할 수 없습니다. 활성 대화 상자를 닫고 다시 시도하세요.*

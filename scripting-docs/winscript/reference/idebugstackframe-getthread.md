@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 6926347c67895b3860964a559898691dd3e61e6f
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58152722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935062"
 ---
 # <a name="idebugstackframegetthread"></a>IDebugStackFrame::GetThread
 이 스택 프레임과 연결 된 스레드를 반환 합니다.  

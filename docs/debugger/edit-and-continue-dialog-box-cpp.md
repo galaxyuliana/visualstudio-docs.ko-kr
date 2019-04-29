@@ -1,5 +1,5 @@
 ---
-title: 편집 하며 계속 하기 대화 상자 (c + +) | Microsoft Docs
+title: 편집 하며 계속 하기 대화 상자 (C++) | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 6e7183845e9c0b9b50b8feaedf9e6327b06678ad
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56690021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62851426"
 ---
 # <a name="edit-and-continue-dialog-box-c"></a>편집하며 계속하기 대화 상자(C++)
 편집하며 계속하기에서 네이티브 코드에 변경 내용을 적용할 수 없습니다. 일시적인 현상일 수 있습니다. 편집하며 계속하기에서 네이티브 코드 변경 내용을 즉시 적용할 수 없지만 디버깅 세션 중에 이후에 적용할 수 있는 경우가 있습니다(예: 지금 실행되는 프로시저에 대한 현재 호출을 완료한 후). 자세한 내용은 [편집하며 계속하기](../debugger/edit-and-continue.md)를 참조하세요.

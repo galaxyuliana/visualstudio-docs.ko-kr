@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 8dbfc8081f980b7b9e978da782f1627a88a716a3
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55941286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62809410"
 ---
 # <a name="ca1704-identifiers-should-be-spelled-correctly"></a>CA1704: 식별자에는 정확한 철자를 사용해야 합니다.
 
@@ -46,7 +46,7 @@ Microsoft 맞춤법 검사 라이브러리에서 인식 하지 못하는 단어�
 
 - 밑줄 토큰의 끝을 나타냅니다 하 고 제거 됩니다. Hello_world "Hello"를 토큰화 하는 예를 들어, "world"입니다.
 
-- 포함 된 앰퍼샌드 제거 됩니다. 예를 들어 for&mat은 "format"으로 토큰화됩니다.
+- 포함 된 앰퍼샌드 제거 됩니다. 예를 들어, & "format"으로 토큰화 하 게 접지 되도록 합니다.
 
 ## <a name="language"></a>언어
 

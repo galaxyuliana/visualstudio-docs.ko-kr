@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 12dfcdf646d6584890e8f78cbe561a84d6f00752
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56718406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62891638"
 ---
 # <a name="capability-flags"></a>기능 플래그
 SCC_CAP_*xxx* 플래그는 비트 플래그는 소스 제어 플러그 인의 기능을 나타내는 데 사용 합니다. SCC_EXCAP_*xxx* 플래그는 정수 값으로 확인 및 확장 된 기능을 나타내는 플래그를 증분 합니다.

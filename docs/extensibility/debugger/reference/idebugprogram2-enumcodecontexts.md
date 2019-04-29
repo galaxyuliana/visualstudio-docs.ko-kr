@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 77d92a65b77cbec94a6c74852393627af6763bad
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56685393"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62917386"
 ---
 # <a name="idebugprogram2enumcodecontexts"></a>IDebugProgram2::EnumCodeContexts
 소스 파일에서 지정된 된 위치에 대 한 코드 컨텍스트의 목록을 검색합니다.
@@ -51,7 +51,7 @@ int EnumCodeContexts( 
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
 ## <a name="remarks"></a>설명
- 이 방법을 사용 하면 세션 디버그 관리자 (SDM) 또는 IDE에서 코드 위치에 원본 파일 위치를 매핑합니다. 둘 이상의 코드 컨텍스트는 소스 코드 (예: c + + 템플릿)의 여러 요소를 생성 하는 경우 반환 됩니다.
+ 이 방법을 사용 하면 세션 디버그 관리자 (SDM) 또는 IDE에서 코드 위치에 원본 파일 위치를 매핑합니다. 소스 코드의 여러 요소를 생성 하는 경우 둘 이상의 코드 컨텍스트에 반환 됩니다 (예를 들어, C++ 템플릿).
 
 ## <a name="see-also"></a>참고 항목
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

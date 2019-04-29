@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: f35d1b811a017895ca40f3325bd0ac456070184f
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58156088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979229"
 ---
 # <a name="idebugformatter-interface"></a>IDebugFormatter 인터페이스
 언어 또는 IDE에서 VARIANT 값 또는 VARTYPE 형식 및 문자열 간의 변환을 사용자 지정할 수 있도록 합니다.  

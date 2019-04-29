@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 1e46ada7a4e71c5d84cbb28d86f1712bbeca6dce
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56318500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62892059"
 ---
 # <a name="address-dpi-issues"></a>DPI 문제
 장치 수가 증가 "고해상도" 화면을 사용 하 여 전달 됩니다. 이 화면에는 일반적으로 200 개가 넘는 인치 당 픽셀 수 (가) 있습니다. 이러한 컴퓨터에서 응용 프로그램을 사용 하 여 작업 콘텐츠를 장치에 대 한 일반 보기로 거리에 있는 콘텐츠를 표시 하는 요구를 충족 하도록 확장 해야 합니다. 2014 년을 기준으로 기본 고밀도 디스플레이 대 한 대상이 모바일 컴퓨팅 장치 (태블릿, 랩톱 클램쉘 및 휴대폰)입니다.

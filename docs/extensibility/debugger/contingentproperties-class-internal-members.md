@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 60129950c2311cc94b8573de4cd8ae3c46194e75
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704750"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62926000"
 ---
 # <a name="contingentproperties-class---internal-members"></a>ContingentProperties 클래스-내부 멤버
 에 대 한 추가 속성을 포함 한 <xref:System.Threading.Tasks.Task> 개체입니다.

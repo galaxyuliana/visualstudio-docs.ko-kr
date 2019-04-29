@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 89f0fba2f5210cdcf4bb8f17443f948cb9ba1f4e
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58149525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63004864"
 ---
 # <a name="idebugthreadcall-interface"></a>IDebugThreadCall 인터페이스
 합니다 `IDebugThreadCall` 인터페이스는 일반적으로 사용 하 여 크로스 스레드 호출 하는 구성 요소에 의해 구현 됩니다는 `IDebugThread` 마샬링 프로세스 디버그 관리자 (PDM)에서 제공 하는 구현 합니다.  

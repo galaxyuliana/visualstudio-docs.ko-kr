@@ -15,11 +15,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: fb5fb56a011355abb991d6e8da122461045af2b1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54764926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62562859"
 ---
 # <a name="marks-view"></a>표시 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "54764926"
   
  보고서에 미리 채워지는 기본 표시는 프로그램의 시작과 프로그램의 끝을 레이블로 지정합니다.  
   
- 자동으로 생성되는 표시의 Windows 카운터 데이터는 이 뷰에도 표시됩니다. 자세한 내용은 [방법: Windows 카운터 데이터 수집](../profiling/how-to-collect-windows-counter-data.md)을 참조하세요.  
+ 자동으로 생성되는 표시의 Windows 카운터 데이터는 이 뷰에도 표시됩니다. 자세한 내용은 [방법: Windows 카운터 데이터 수집](../profiling/how-to-collect-windows-counter-data.md)합니다.  
   
  두 표시 사이에 필터를 만들려면 표시를 선택하고 마우스 오른쪽 단추로 클릭한 다음 **표시에 대한 필터 추가** 또는 **타임스탬프에 대한 필터 추가**를 클릭합니다.  
   

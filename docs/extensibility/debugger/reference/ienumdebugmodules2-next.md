@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: c417847fc0c601f571e7bad23af07d2393f93f29
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62866909"
 ---
 # <a name="ienumdebugmodules2next"></a>IEnumDebugModules2::Next
 열거형에서 다음 요소 집합을 반환합니다.

@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: cdf4d9657832c2dc1e7691eed5c334e770de5700
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58985763"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976980"
 ---
 # <a name="creating-a-workflow-project"></a>워크플로 프로젝트 만들기
 워크플로, [!INCLUDE[indigo1](../includes/indigo1-md.md)] 워크플로 서비스, 사용자 지정 활동 및 사용자 지정 활동 디자이너는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 템플릿을 사용하여 만들 수 있습니다. 이 단원에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 제공되는 프로젝트 템플릿을 사용하여 라이브러리 및 응용 프로그램을 만드는 방법에 대해 설명합니다.  

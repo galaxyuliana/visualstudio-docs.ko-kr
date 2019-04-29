@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 61b8c3812f90d435da8aaa1e6e3d7a4f4a61e807
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56705991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62926266"
 ---
 # <a name="customparameters-element-visual-studio-templates"></a>CustomParameters 요소 (Visual Studio 템플릿)
 이 마법사에서는 매개 변수 대체를 수행 하는 경우 템플릿 마법사에 전달 되는 사용자 지정 매개 변수를 그룹화 합니다.

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: b42e11974a0522b8f4a6553c5606197915617d38
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62860074"
 ---
 # <a name="language-service-support-for-debugging"></a>디버깅에 대한 언어 서비스 지원
 언어 서비스를 통해 디버거를 지 원하는 기능을 제공할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageDebugInfo> 인터페이스입니다. 이러한 기능은 다음 중단점 유효성 검사 및 식의 목록을 제공 합니다 **자동** 창입니다.

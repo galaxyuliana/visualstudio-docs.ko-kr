@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b73a28e9a3f0fb5a3b5aa618296fe5a44b88cff2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976587"
 ---
 # <a name="transaction-activity-designers"></a>트랜잭션 활동 디자이너
 트랜잭션 활동 디자이너는 보정 및 확인과 같은 트랜잭션 활동을 만들고 구성하는 데 사용됩니다. 이 단원의 항목 및 아래 표의 항목에서는 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 활동 및 템플릿 디자이너의 사용 방법에 대한 지침을 제공합니다.  

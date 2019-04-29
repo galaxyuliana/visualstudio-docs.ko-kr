@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: b5dfbeb3c45e05c93554aae9b17a42c265408bc3
-ms.sourcegitcommit: f17e3afa5c324595afccf15a8a69df8c33b873d5
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58658881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839038"
 ---
 # <a name="visibilityconstraints-element"></a>VisibilityConstraints 요소
 VisibilityConstraints 요소는 정적 도구 모음 및 명령 그룹의 표시 여부를 결정합니다. 표시 여부는 처음에 의해 제어 됩니다는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSPackage를 로드 하지 않고 통합된 개발 환경 (IDE)입니다.

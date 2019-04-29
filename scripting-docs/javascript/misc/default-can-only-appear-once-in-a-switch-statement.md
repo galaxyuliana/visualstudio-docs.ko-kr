@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 24162efcc720d9c0073f8a5799c6278b8d3c8c62
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946357"
 ---
 # <a name="default-can-only-appear-once-in-a-switch-statement"></a>'default'는 'switch' 문에 한 번만 사용할 수 있습니다.
 사용 하려고 합니다 **기본** 문은 switch 문 내에서 두 번 이상. Default case는 switch 문 (제어 이동 사례 임)의 마지막 case 문과 항상.  

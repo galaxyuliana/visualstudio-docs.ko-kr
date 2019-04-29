@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 2b2872ca6496444cbb3878dc39800a8661400a76
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62971799"
 ---
 # <a name="get-started-programming-document-level-customizations-for-word"></a>Word 용 문서 수준 사용자 지정 프로그래밍 시작
   바로 시작 하는 Visual Studio를 사용 하 여 Microsoft Office Word 용 문서 수준 사용자 지정 만들기를 하는 경우 알아야 할 내용을 다음과 같습니다.

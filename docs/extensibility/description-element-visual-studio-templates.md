@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 4f21edd218b815785161e8d68af76b0f6c2594a2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56712049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62912736"
 ---
 # <a name="description-element-visual-studio-templates"></a>Description 요소 (Visual Studio 템플릿)
 표시 된 대로 템플릿의 설명을 지정 합니다 **새 프로젝트** 또는 **새 항목 추가** 대화 상자.

@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 0726ddf0bb0798a5f989e902662ee5b4e26c6801
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: f0bd256f293cefc037a8950bdecd3615fad483f3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58152592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62819572"
 ---
 # <a name="develop-apps-for-the-universal-windows-platform-uwp"></a>UWP(유니버설 Windows 플랫폼)용 앱 개발
 
@@ -38,11 +38,25 @@ Windows 10 Phone, Windows 10 데스크톱 또는 Xbox에서 이 앱을 실행합
 
 필요한 소프트웨어 목록은 다음과 같습니다.
 
+::: moniker range="vs-2017"
+
 - [Windows 10](http://windows.microsoft.com/windows/downloads) - Visual Studio 2017은 Windows 10에서만 UWP 개발을 지원합니다. 자세한 내용은 Visual Studio [플랫폼 대상 지정](/visualstudio/productinfo/vs2017-compatibility-vs) 및 [시스템 요구 사항](/visualstudio/productinfo/vs2017-system-requirements-vs)을 참조하세요.
 
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) - 선택적인 유니버설 Windows 플랫폼 개발 워크로드도 필요합니다.
+- [Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) - 선택적인 유니버설 Windows 플랫폼 개발 워크로드도 필요합니다.
 
      ![UWP 워크로드](media/uwp_workload.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [Windows 10](http://windows.microsoft.com/windows/downloads) - Visual Studio 2019는 Windows 10에서만 UWP 개발을 지원합니다. 자세한 내용은 Visual Studio [플랫폼 대상 지정](/visualstudio/releases/2019/compatibility/) 및 [시스템 요구 사항](/visualstudio/releases/2019/system-requirements/)을 참조하세요.
+
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) - 선택적인 유니버설 Windows 플랫폼 개발 워크로드도 필요합니다.
+
+     ![UWP 워크로드](media/uwp_workload.png)
+
+::: moniker-end
 
 이 소프트웨어를 설치한 후에 개발을 위해 Windows 10 디바이스를 사용하도록 설정해야 합니다. 자세한 내용은 [디바이스를 개발에 사용하도록 설정](/windows/uwp/get-started/enable-your-device-for-development)을 참조하세요. 각 Windows 10 디바이스에 대한 개발자 라이선스는 더 이상 필요하지 않습니다.
 

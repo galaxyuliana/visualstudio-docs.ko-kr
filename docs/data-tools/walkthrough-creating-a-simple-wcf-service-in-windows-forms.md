@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 97bbf8212caf87f28849df15d350811579f22ccd
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58325230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62565359"
 ---
 # <a name="walkthrough-create-a-simple-wcf-service-in-windows-forms"></a>연습: Windows Forms에서 간단한 WCF 서비스 만들기
 
@@ -39,7 +39,7 @@ ms.locfileid: "58325230"
 
 3. 에 **새 프로젝트** 대화 상자에서 합니다 **Visual Basic** 또는 **Visual C#**  노드 선택 **WCF** 뒤**WCF 서비스 라이브러리**합니다.
 
-4. **확인**을 클릭하여 프로젝트를 만듭니다.
+4. **확인**을 클릭해 프로젝트를 만듭니다.
 
    ![WCF 서비스 라이브러리 프로젝트](../data-tools/media/wcf1.png)
 
@@ -117,7 +117,7 @@ ms.locfileid: "58325230"
 
 1. **파일** 메뉴에서 **추가**를 가리킨 다음, **새 프로젝트**를 클릭합니다.
 
-2. 에 **새 프로젝트** 대화 상자에서 **Visual Basic** 또는 **시각적 C#**  노드를 선택 **Windows**를 선택한 다음  **Windows Forms 응용 프로그램**합니다. **확인**을 클릭하여 프로젝트를 엽니다.
+2. 에 **새 프로젝트** 대화 상자에서 합니다 **Visual Basic** 또는 **Visual C#** 노드를 선택 **Windows**를 선택한 후  **Windows Forms 응용 프로그램**합니다. **확인**을 클릭하여 프로젝트를 엽니다.
 
      ![Windows Forms 응용 프로그램 프로젝트](../data-tools/media/wcf7.png)
 
@@ -150,6 +150,6 @@ ms.locfileid: "58325230"
 
      ![결과가 표시된 폼](../data-tools/media/wcf10.png)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

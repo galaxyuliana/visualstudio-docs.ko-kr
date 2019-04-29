@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: fc3b4423b54975c773de743b093f882f1fd9c42c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56697561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62926938"
 ---
 # <a name="callback-functions-implemented-by-the-ide"></a>IDE에 의해 구현 된 콜백 함수
 와 통합 하 고 통합 된 최종 사용자 환경을 제공 하기 위해 최대한 원활 하 게으로 통합된 개발 환경 (IDE) 소스 제어 플러그 인 사용할 수 IDE에 의해 구현 되는 콜백 함수. 플러그 인이 함수를 호출할 수 이러한 정보는 IDE를 전달 하는 소스 제어 작업 중 적절 한 시간 IDE 기본 UI에 포함 된 요소로이 정보를 표시할 수 있습니다. 사용자 이면 플러그 인 사용 자체 UI 보다이 시나리오에서 덜 조각난 된 환경이 있습니다.

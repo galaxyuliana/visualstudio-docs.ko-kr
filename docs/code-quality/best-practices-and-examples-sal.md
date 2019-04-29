@@ -8,11 +8,11 @@ manager: wpickett
 ms.workload:
 - multiple
 ms.openlocfilehash: 28d17301d81ee5b206feb0c3afefba35e50615cd
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55940583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62560035"
 ---
 # <a name="best-practices-and-examples-sal"></a>모범 사례 및 예제(SAL)
 SAL(Source Code Annotation Language)을 최대한 활용하고 몇 가지 일반적인 문제를 방지하는 방법은 다음과 같습니다.
@@ -238,11 +238,11 @@ _Ret_maybenull_ void *MightReturnNullPtr2();
 
 ## <a name="see-also"></a>참고자료
 
-[C/c + + 코드 오류를 줄이기 위한 SAL 주석 사용](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
+[SAL 주석은 C를 줄이기 위해 사용 하 여 /C++ 오류 코드](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 [SAL 이해](../code-quality/understanding-sal.md)
 [함수 매개 변수 및 반환 값에 주석 지정](../code-quality/annotating-function-parameters-and-return-values.md) 
  [함수 동작에 주석 지정](../code-quality/annotating-function-behavior.md)
-[구조체 및 클래스에 주석 지정](../code-quality/annotating-structs-and-classes.md)
+[구조체 및 클래스 주석 달기를 마친](../code-quality/annotating-structs-and-classes.md)
 [잠금 동작에 주석 지정](../code-quality/annotating-locking-behavior.md) 
  [주석 적용 시기 및 위치 지정](../code-quality/specifying-when-and-where-an-annotation-applies.md)
 [내장 함수](../code-quality/intrinsic-functions.md)

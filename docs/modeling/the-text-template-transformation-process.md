@@ -10,11 +10,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 271d9625ba5c41599af6c92504b3f17a166a2ee7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63001379"
 ---
 # <a name="the-text-template-transformation-process"></a>텍스트 템플릿 변환 프로세스
 텍스트 템플릿 변형 프로세스의 입력으로 텍스트 템플릿 파일을 출력으로 새 텍스트 파일을 생성 합니다. 예를 들어 텍스트 템플릿을 사용 하 여 Visual Basic 또는 C# 코드를 생성 하거나 HTML 보고서를 생성할 수 있습니다.
