@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 3218a12add86739c76cd50f82fdda5d845e2b069
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62978769"
 ---
 # <a name="threading-support-in-office"></a>Office의 스레딩 지원
   이 문서에서는 Microsoft Office 개체 모델의 스레딩 지원 되는 방법에 대 한 정보를 제공 합니다. Office 개체 모델은 하지 스레드로부터 안전한 지, 이지만 Office 솔루션에서 여러 스레드를 사용 하 여 작업할 수 있습니다. Office 응용 프로그램은 구성 요소 개체 모델 (COM) 서버. COM 클라이언트가 임의 스레드에서 COM 서버를 호출할 수 있습니다. 스레드로부터 안전 하지 않은 COM 서버에 대 한 COM 하나만 논리 스레드가 언제 든 지 서버에서 실행 되도록 동시 호출을 serialize 하는 메커니즘을 제공 합니다. 이 메커니즘 (STA) 단일 스레드 아파트 모델 이라고 합니다. 호출이 serialize 되므로 서버 사용량이 또는 백그라운드 스레드에서 다른 호출을 처리 하는 동안 호출자 기간 동안 차단 될 수 있습니다.

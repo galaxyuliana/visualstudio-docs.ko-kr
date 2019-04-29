@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 11856141a6c3f5ca186428d67edf10fdbd35787b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60086354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62798389"
 ---
 # <a name="evaluation-tools-for-visual-studio"></a>Visual Studio 용 평가 도구
 ## <a name="craftsmanship-checklist-for-visual-studio"></a>Visual Studio 용 장인 검사 목록

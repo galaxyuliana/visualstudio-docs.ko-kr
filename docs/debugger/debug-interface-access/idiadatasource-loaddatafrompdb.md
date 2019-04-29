@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fb34098f8d69d3c8618c406eff9666d52eace1f2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554146"
 ---
 # <a name="idiadatasourceloaddatafrompdb"></a>IDiaDataSource::loadDataFromPdb
 페이지를 열고 디버그 데이터 원본으로 프로그램 데이터베이스 (.pdb) 파일을 준비 합니다.
@@ -45,7 +45,7 @@ pdbPath
 |E_INVALIDARG|잘못된 매개 변수입니다.|
 |E_UNEXPECTED|데이터 원본에 이미 준비 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 메서드는.pdb 파일에서 직접 디버그 데이터를 로드합니다.
 
 특정 조건에 대해.pdb 파일의 유효성을 검사 하려면 사용 합니다 [idiadatasource:: Loadandvalidatedatafrompdb](../../debugger/debug-interface-access/idiadatasource-loadandvalidatedatafrompdb.md) 메서드.

@@ -27,11 +27,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: e78d20fa0c7d4d0db6db50c2cbb5cde0b79023fb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60086328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62982347"
 ---
 # <a name="visual-studio-tools-for-office-runtime-overview"></a>Visual Studio Tools for Office 런타임 개요
   Visual Studio에서 Microsoft Office 개발자 도구를 사용 하 여 만든 솔루션을 실행 하려면 Visual Studio 2010 Tools for Office 런타임에서 최종 사용자 컴퓨터에 설치 되어야 합니다. 자세한 내용은 [방법: Visual Studio Tools for Office 런타임 재배포 가능 패키지 설치](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)합니다. 두 개의 주요 구성에 Visual Studio 2010 Tools for Office 런타임 구성 됩니다.

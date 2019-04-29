@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 73e48cfb0a30ca71592879c8276ef1be76cb973f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62953143"
 ---
 # <a name="vsct-xml-schema-conditional-attributes"></a>VSCT XML 스키마 조건부 특성
 모든 목록 및 항목에 조건부 특성을 적용할 수 있습니다. 논리 연산자 및 기호 확장 식에는 true 또는 false로 평가합니다. True 이면 연결 된 목록이 나 항목이 결과 출력에 포함 됩니다.
@@ -35,8 +35,8 @@ ms.locfileid: "56680298"
 |(,)|그룹화|
 |!|논리 NOT|
 |\<, >, \<=, >=, ==, !=|관계형 및 같음|
-|및|부울|
-|또는|부울|
+|및|Boolean|
+|또는|Boolean|
 
 ## <a name="examples"></a>예제
 

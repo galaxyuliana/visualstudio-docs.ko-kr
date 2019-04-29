@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: d31da41e3be73f4e2e036841bfc1d96f4476e856
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62912807"
 ---
 # <a name="extend-projects"></a>프로젝트를 확장 합니다.
 프로젝트 및 솔루션은 Visual Studio 코드 및 리소스 파일을 컴파일 및 배포 단위로 구성 하는 방법입니다. 프로젝트에 대 한 자세한 정보를 찾을 수 있습니다 [프로젝트 (Visual Studio SDK)](../extensibility/extending-projects.md)합니다.

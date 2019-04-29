@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: ceaae323c974a1f41b6f5bd2a3ca093ef7c0b2d9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007512"
 ---
 # <a name="javascript-object-expected"></a>JavaScript 개체가 필요합니다.
 비-전달 하려는[!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 필요로 하는 기본 제공 함수에 개체를 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 개체입니다. 다양 한 기본 제공 함수에 정의 된 개체를 필요한 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] (대신 호스트 또는 컨트롤 같은 외부 구성 요소에 정의 된 개체).  

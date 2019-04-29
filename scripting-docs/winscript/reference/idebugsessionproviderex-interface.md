@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: c9bf341adeaeb17c8986b1b30b12f58113aef562
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62978998"
 ---
 # <a name="idebugsessionproviderex-interface"></a>IDebugSessionProviderEx 인터페이스
 디버거가 디버깅 호스트 및 언어에서 시작을 사용 하려면 IDE에서 제공 하는 기본 인터페이스입니다. 실행 중인 응용 프로그램에 대 한 디버그 세션을 설정합니다. 이 인터페이스는 컴퓨터 디버그 관리자에 의해 구현 됩니다.  

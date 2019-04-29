@@ -18,14 +18,14 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: c4943d1305c2f25de4eec9e782949a66827de879
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58144877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62955093"
 ---
 # <a name="iactivescriptaddtypelib"></a>IActiveScript::AddTypeLib
-스크립트에 대 한 네임 스페이스에 형식 라이브러리를 추가합니다. 이 비슷합니다는 `#include` C/c + +에서 지시문입니다. 클래스 정의와 같은 미리 정의 된 항목 집합 수 있도록 `typedefs`와 명명 된 스크립트에 사용할 런타임 환경에 추가할 수 상수입니다.  
+스크립트에 대 한 네임 스페이스에 형식 라이브러리를 추가합니다. 이 비슷합니다는 `#include` c에서 지시문 /C++합니다. 클래스 정의와 같은 미리 정의 된 항목 집합 수 있도록 `typedefs`와 명명 된 스크립트에 사용할 런타임 환경에 추가할 수 상수입니다.  
   
 ## <a name="syntax"></a>구문  
   

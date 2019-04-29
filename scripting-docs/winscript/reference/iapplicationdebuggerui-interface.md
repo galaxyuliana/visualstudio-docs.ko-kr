@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: f138492e5b0a465bb0f101c15457ed1021ab3d5a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62991085"
 ---
 # <a name="iapplicationdebuggerui-interface"></a>IApplicationDebuggerUI 인터페이스
 디버거 통합된 개발 환경 (IDE)에 의해 구현 (외에 `IApplicationDebugger`) 외부 구성 요소 디버거 사용자 인터페이스 (UI)가 더 많이 제어할 수 있도록 합니다.  

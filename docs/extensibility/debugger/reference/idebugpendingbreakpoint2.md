@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 816fad53554675e7f29cef838d4ea24e154dca8c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62871936"
 ---
 # <a name="idebugpendingbreakpoint2"></a>IDebugPendingBreakpoint2
 이 인터페이스는 코드 위치에 바인딩할 준비가 된 중단점을 나타냅니다.
@@ -54,7 +54,7 @@ IDebugPendingBreakpoint2 : IUnknown
 ## <a name="remarks"></a>설명
  `IDebugPendingBreakpoint2` 하나 또는 여러 프로그램에 적용할 수 있는 코드에 중단점을 바인딩할 때 필요한 모든 필요한 정보의 공급자로 생각할 수 있습니다.
 
- 보류 중인 중단점 둘 이상의 바인딩된 중단점을 생성할 될 수 있습니다. 예를 들어, c + + 스타일 템플릿 중단점은 템플릿의 고유한 각 인스턴스에 대 한 바인딩된 중단점을 발생할 수 있습니다.
+ 보류 중인 중단점 둘 이상의 바인딩된 중단점을 생성할 될 수 있습니다. 예를 들어, 중단점을 C++-스타일 템플릿을 해당 템플릿에 고유한 각 인스턴스에 대 한 바인딩된 중단점 발생할 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
  헤더: msdbg.h

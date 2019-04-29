@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 6c65a659f333de282f380b9b6a6e462b40ec6c4d
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58159077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62991322"
 ---
 # <a name="ibindeventhandler-interface"></a>IBindEventHandler 인터페이스
 호출자가 지정 된 이벤트 처리기를 처리 하는 개체를 제공할 수 있습니다.  

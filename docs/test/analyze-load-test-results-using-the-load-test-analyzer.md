@@ -10,12 +10,12 @@ ms.assetid: 8a4ba300-425d-447c-91d9-c53f4345feee
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: de44dde72e339a2afe4caff779e3468ae2b8601e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 197df09d54500e16ca4f904662693bdfc983f7b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55942897"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822805"
 ---
 # <a name="analyze-load-test-results-using-the-load-test-analyzer"></a>부하 테스트 분석기를 사용하여 부하 테스트 결과 분석
 
@@ -25,11 +25,11 @@ ms.locfileid: "55942897"
 
 다음과 같은 방법으로 부하 테스트 결과를 분석합니다.
 
--   부하 테스트 실행 도중 모니터링
+- 부하 테스트 실행 도중 모니터링
 
--   완료된 부하 테스트 분석
+- 완료된 부하 테스트 분석
 
--   이전 부하 테스트의 결과 보기
+- 이전 부하 테스트의 결과 보기
 
 또한 추세 분석을 위해 두 개 이상의 보고서를 비교하는 보고서를 만들어 관련자와 공유할 수 있습니다. [테스트 비교 또는 추세 분석을 위한 부하 테스트 결과 보고](../test/compare-load-test-results.md)를 참조하세요.
 

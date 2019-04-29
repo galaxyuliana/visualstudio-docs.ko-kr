@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: c6e0f6d7fcf9920ddb8861712b7c5f8bf04506fc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56616770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62939417"
 ---
 # <a name="cache-data"></a>데이터 캐시
   오프 라인으로 또는 Microsoft Office Word 또는 Microsoft Office Excel을 열지 않고 데이터를 사용할 수 있도록 문서 수준 사용자 지정 데이터 개체를 캐시할 수 있습니다. 개체를 캐시 하려면 개체의 특정 요구 사항을 충족 하는 데이터 형식이 있어야 합니다. .NET Framework의 많은 일반적인 데이터 형식을 포함 하는 이러한 요구 사항을 충족 <xref:System.String>하십시오 <xref:System.Data.DataSet>, 및 <xref:System.Data.DataTable>합니다.

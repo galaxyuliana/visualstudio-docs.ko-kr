@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 03b96f80a6b595a3f037bd0b08111540fa5b4ca2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982352"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976721"
 ---
 # <a name="themes-workflow-designer-options-dialog-box-legacy"></a>테마, 워크플로 디자이너, 옵션 대화 상자(레거시)
 에 대해 설명 하는 방법을 사용 하 여는 **테마, 워크플로 디자이너, 옵션** 레거시 대화 상자 [!INCLUDE[wfd1](../includes/wfd1-md.md)]합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  

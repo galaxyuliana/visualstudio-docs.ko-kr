@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: d58ad6ff89d8cf41ec60135cfbfe3deac1382f1e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977863"
 ---
 # <a name="one-or-more-properties-in-the-ofs-file-are-not-valid-for-the-message-class-selected"></a>.ofs 파일에 있는 하나 이상의 속성을 선택한 메시지 클래스에 사용할 수 없습니다.
   이 오류 Outlook에서 디자인 한 양식 영역을 가져올 때 나타나지만 양식 영역의 하나 이상의 필드의 마지막 페이지에서 선택 하는 메시지 클래스와 호환 되지 않습니다 합니다 **새 양식 영역** 마법사.

@@ -8,11 +8,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f2961b2cbb65c1b8e3c28f1cac8a28806c0996d2
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55951360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62934313"
 ---
 # <a name="api-reference-for-t4-text-templates"></a>T4 텍스트 템플릿에 대한 API 참조
 

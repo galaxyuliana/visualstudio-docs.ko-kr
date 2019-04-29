@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: e07b9e55ddfff54d0668433137079a38c0ddd296
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007424"
 ---
 # <a name="number-expected"></a>숫자가 필요합니다.
 호출 하려고 합니다 **Number.prototype.toString** 또는 **Number.prototype.valueOf** 아닌 다른 형식의 개체에서 메서드 **번호**. 이 형식의 호출 개체 형식 이어야 합니다 **번호**합니다.  

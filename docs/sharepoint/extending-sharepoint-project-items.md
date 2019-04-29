@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: f60c95418379399196c461e055645ae7c85a473e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967398"
 ---
 # <a name="extend-sharepoint-project-items"></a>SharePoint 프로젝트 항목 확장
   Visual Studio에서 이미 설치 되어 있는 SharePoint 프로젝트 항목 형식에 기능을 추가 하려는 경우 프로젝트 항목 확장을 만듭니다. 예를 들어, 기본 제공 확장을 만들 수 있습니다 **이벤트 수신기** 하거나 **목록 정의** Visual Studio에서 프로젝트 항목 또는 사용자 지정 프로젝트 항목 형식에 대 한 확장을 만들 수 있습니다. 또한 모든 SharePoint 프로젝트 항목 형식에 대 한 확장을 만들 수 있습니다.

@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 433972790310559b19ca5bc2c982c32e699e0e60
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007445"
 ---
 # <a name="object-doesnt-support-this-property-or-method"></a>개체에서 이 속성 또는 메서드를 지원하지 않음
 이 개체에 대해 없는 속성이나 메서드를 지정했습니다. 모든 개체에서 모든 속성과 메서드를 지원하는 것은 아닙니다.  

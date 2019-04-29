@@ -13,11 +13,11 @@ dev_langs:
 ms.workload:
 - dotnet
 ms.openlocfilehash: a1258e0448fe7be9dd7fa0180f52604d877b051d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55953167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62795025"
 ---
 # <a name="generate-a-class-or-type-in-visual-studio"></a>Visual Studio에서 클래스 또는 형식 생성
 
@@ -73,7 +73,7 @@ ms.locfileid: "55953167"
    선택 | 설명
    --- | ---
    액세스 | *기본*, *내부* 또는 *공용* 액세스 권한을 가지도록 형식을 설정합니다.
-   Kind | *클래스* 또는 *구조체*로 설정할 수 있습니다.
+   종류 | *클래스* 또는 *구조체*로 설정할 수 있습니다.
    name | 이를 변경할 수 없으며 이미 입력한 이름이 사용됩니다.
    프로젝트 | 솔루션에 여러 프로젝트가 있는 경우 클래스/구조체를 활성화할 위치를 선택할 수 있습니다.
    파일 이름 | 새 파일을 만들거나 기존 파일에 형식을 추가할 수 있습니다.

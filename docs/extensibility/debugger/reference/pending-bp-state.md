@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 6ab1e9345cf599c4336b202d32fb71a9097fe629
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56688544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62913612"
 ---
 # <a name="pendingbpstate"></a>PENDING_BP_STATE
 보류 중인 중단점 (아직 바인딩되지 않은 중단점)의 상태를 지정 합니다.

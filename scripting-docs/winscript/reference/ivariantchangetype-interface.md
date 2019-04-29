@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 7273b92c591d71834859500da78abe23fe19f194
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58152001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62945652"
 ---
 # <a name="ivariantchangetype-interface"></a>IVariantChangeType 인터페이스
 호출자를를 다른 형식에서 VARIANT 값을 변환할 수 있습니다.  

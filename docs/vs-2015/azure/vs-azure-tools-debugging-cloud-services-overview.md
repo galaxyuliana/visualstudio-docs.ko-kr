@@ -1,21 +1,26 @@
 ---
 title: Azure Cloud Services 디버깅 옵션 | Microsoft Docs
 description: Azure Cloud Services 디버깅
-author: mikejo5000
-manager: jillfra
+services: visual-studio-online
+documentationcenter: n/a
+author: mikejo
+manager: douge
+editor: ''
 ms.assetid: 80755da7-8350-4f5c-97ce-2962beabb36d
-ms.topic: conceptual
-ms.workload: azure-vs
-ms.date: 03/18/2017
-ms.author: mikejo
-ms.prod: visual-studio-dev14
-ms.technology: vs-ide-debug
+ms.service: visual-studio-online
+ms.devlang: multiple
+ms.topic: article
+ms.tgt_pltfrm: multiple
+ms.workload: na
+origin.date: 03/18/2017
+ms.date: 05/11/2018
+ms.author: v-junlch
 ms.openlocfilehash: 3b489b97551e5b5522cb58868b34dee4d9e5fb7b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62963652"
 ---
 # <a name="learn-the-various-ways-to-debug-an-azure-cloud-service"></a>Azure 클라우드 서비스를 디버그하는 다양한 방법을 알아봅니다.
 이 문서에서는 Azure 클라우드 서비스를 디버그하는 다양한 방법에 대한 링크를 제공합니다. 
@@ -31,3 +36,5 @@ Visual Studio에서 클라우드 서비스를 배포할 때 클라우드 서비�
 
 ## <a name="next-steps"></a>다음 단계
 - [Visual Studio에서 Azure 클라우드 서비스 또는 VM 디버깅](./vs-azure-tools-debug-cloud-services-virtual-machines.md) - Azure Cloud Services를 디버그하는 방법을 자세히 알아봅니다.
+
+<!-- Update_Description: update metedata properties -->

@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 902c2d3bf841537808317be8f196f52d23a4a64c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56691633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62805845"
 ---
 # <a name="projectcollection-element-visual-studio-templates"></a>ProjectCollection 요소 (Visual Studio 템플릿)
 다중 프로젝트 템플릿의 구성과 내용을 지정합니다.

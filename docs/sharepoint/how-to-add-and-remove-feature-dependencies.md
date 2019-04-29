@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 9373ed07ec49bd41dad343dc447b4b2026793492
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967008"
 ---
 # <a name="how-to-add-and-remove-feature-dependencies"></a>방법: 기능 종속성 추가 및 제거
   SharePoint 기능 기능이 나 데이터에 대 한 다른 기능에 달라질 수 있습니다. 이러한 경우 기능에 대 한 종속성으로 이러한 다른 기능을 표시할 수 있습니다. 이 이렇게 하면 SharePoint 서버는 기능이 활성화 되기 전에 종속 기능 활성화 되는지를 확인 합니다.

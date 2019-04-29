@@ -1,48 +1,49 @@
 ---
 title: IDebugPort2::GetPortId | Microsoft Docs
-ms.date: 11/04/2016
+ms.date: 11/15/2016
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-sdk
 ms.topic: reference
 f1_keywords:
 - IDebugPort2::GetPortId
 helpviewer_keywords:
 - IDebugPort2::GetPortId
 ms.assetid: 837cb924-c113-4224-aa86-3e02b33dfa70
-author: gregvanl
+caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.workload:
-- vssdk
 ms.openlocfilehash: 0ed27e5bc70a26c19784b3b543da791fdf1ff0bd
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56685627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62842549"
 ---
 # <a name="idebugport2getportid"></a>IDebugPort2::GetPortId
-포트 식별자를 가져옵니다.
+[!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-## <a name="syntax"></a>구문
-
-```cpp
-HRESULT GetPortId( 
-   GUID* pguidPort
-);
-```
-
-```csharp
-int GetPortId( 
-   out Guid pguidPort
-);
-```
-
-#### <a name="parameters"></a>매개 변수
- `pguidPort`
-
- [out] 포트를 식별 하는 GUID를 반환 합니다.
-
-## <a name="return-value"></a>반환 값
- 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
-
-## <a name="see-also"></a>참고 항목
-- [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
+포트 식별자를 가져옵니다.  
+  
+## <a name="syntax"></a>구문  
+  
+```cpp#  
+HRESULT GetPortId(   
+   GUID* pguidPort  
+);  
+```  
+  
+```csharp  
+int GetPortId(   
+   out Guid pguidPort  
+);  
+```  
+  
+#### <a name="parameters"></a>매개 변수  
+ `pguidPort`  
+ [out] 포트를 식별 하는 GUID를 반환 합니다.  
+  
+## <a name="return-value"></a>반환 값  
+ 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
+  
+## <a name="see-also"></a>참고 항목  
+ [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

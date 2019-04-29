@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 31a17fdf51e838405c93efca79d7994cd40ece5c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62978604"
 ---
 # <a name="secure-office-solutions"></a>Office 솔루션 보안
   Office 솔루션에 대 한 보안 모델에서는 여러 가지 기술을: 합니다 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)], Microsoft Office 및 Internet Explorer 제한 된 사이트 영역에 보안 센터. 다음 섹션에서는 다양한 보안 기능의 작동 방식을 설명합니다.

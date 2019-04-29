@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 9be864fdb9468668633322066bbbcf11569e4eb3
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58147906"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822427"
 ---
 # <a name="idebugapplicationnode-interface"></a>IDebugApplicationNode 인터페이스
 합니다 `IDebugApplicationNode` 인터페이스의 기능을 확장 합니다 `IDebugDocumentProvider` 프로젝트 트리 내에서 컨텍스트를 제공 하 여 인터페이스입니다.  
