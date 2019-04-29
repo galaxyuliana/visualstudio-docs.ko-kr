@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 0cf41afa91ce1e77904b99f17ea0321e9bdb12d1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60091722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62889552"
 ---
 # <a name="launch-based-attachment"></a>실행 기반 첨부 파일
 프로그램 실행 기반 첨부 파일은 자동입니다. 프로그램을 호스트 하는 프로세스는 SDM에서 시작 되 면 실행 기반 첨부 파일의 수동 첨부 방법을 비슷한 경로 따릅니다. 정보를 참조 하세요 [프로그램을 연결할](../../extensibility/debugger/attaching-to-the-program.md)합니다.
