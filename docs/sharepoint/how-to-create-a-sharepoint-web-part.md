@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 304e9f29d317a5258467e4ff45248d0dd2066d4f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966811"
 ---
 # <a name="how-to-create-a-sharepoint-web-part"></a>방법: SharePoint 웹 파트 만들기
   만들고 추가 하 여 웹 파트를 사용자 지정할 수 있습니다는 **웹 파트** SharePoint 프로젝트 항목 및 다음 웹 파트 또는 디자이너를 사용 하 여 코드 파일을 편집 합니다. 자세한 내용은 [방법: 디자이너를 사용 하 여 SharePoint 웹 파트를 만들](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)합니다.

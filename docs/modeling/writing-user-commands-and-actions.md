@@ -8,11 +8,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 00da6f72bfafcc62075bc06739e4daec0fe45994
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60038142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62951197"
 ---
 # <a name="writing-user-commands-and-actions"></a>사용자 명령 및 작업 작성
 다이어그램에 명령을 추가하고 끌어서 놓기, 클릭, 두 번 클릭 이벤트와 같은 제스처에 응답하여 DSL을 사용자 지정할 수 있습니다.

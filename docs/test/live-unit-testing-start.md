@@ -9,12 +9,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 59e8206bd1110a06c8b94b71ac9da8253a3a4b25
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
+ms.openlocfilehash: f27e09cd66c05a10648205850a9547d7b191d2de
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58416303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62787584"
 ---
 # <a name="get-started-with-live-unit-testing-in-visual-studio"></a>Visual Studio에서 Live Unit Testing 시작
 
@@ -94,11 +94,11 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
    `StringLibrary`에는 세 가지 정적 메서드가 있습니다.
 
-      - `StartsWithUpper`는 문자열이 대문자로 시작하는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
+   - `StartsWithUpper`는 문자열이 대문자로 시작하는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
 
-      - `StartsWithLower`는 문자열이 소문자로 시작하는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
+   - `StartsWithLower`는 문자열이 소문자로 시작하는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
 
-      - `HasEmbeddedSpaces`는 문자열에 포함된 공백 문자가 있는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
+   - `HasEmbeddedSpaces`는 문자열에 포함된 공백 문자가 있는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
 
 6. 최상위 Visual Studio 메뉴에서 **빌드** > **솔루션 빌드**를 선택합니다. Visual Studio에서 라이브러리가 성공적으로 빌드됩니다.
 
@@ -140,11 +140,11 @@ Visual Studio 솔루션에서 Live Unit Testing을 사용하도록 설정하면 
 
    `StringLibrary`에는 세 가지 정적 메서드가 있습니다.
 
-      - `StartsWithUpper`는 문자열이 대문자로 시작하는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
+   - `StartsWithUpper`는 문자열이 대문자로 시작하는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
 
-      - `StartsWithLower`는 문자열이 소문자로 시작하는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
+   - `StartsWithLower`는 문자열이 소문자로 시작하는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
 
-      - `HasEmbeddedSpaces`는 문자열에 포함된 공백 문자가 있는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
+   - `HasEmbeddedSpaces`는 문자열에 포함된 공백 문자가 있는 경우 `true`를 반환하고 그렇지 않은 경우 `false`를 반환합니다.
 
 6. **솔루션 탐색기**에서 StringLibrary 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다. **애플리케이션** 탭에서 다음 그림과 같이 **루트 네임 스페이스** 텍스트 상자에 있는 텍스트를 삭제합니다. 루트 네임 스페이스는 소스 코드의 [Namespace 문](/dotnet/visual-basic/language-reference/statements/namespace-statement)으로 정의됩니다.
 

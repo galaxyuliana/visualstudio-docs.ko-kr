@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 0c4b19322a15e92adcf2609c479af6b21e2078bd
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58145176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62788143"
 ---
 # <a name="iremotedebugapplicationthreadsetnextstatement"></a>IRemoteDebugApplicationThread::SetNextStatement
 지정 된 프레임의 컨텍스트에서 지정 된 코드 컨텍스트를 최대한 가깝게 계속 강제로 실행 합니다.  

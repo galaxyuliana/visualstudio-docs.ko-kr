@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 6db8989fc6c932723a9b95017854635396b0deda
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977645"
 ---
 # <a name="imachinedebugmanager-interface"></a>IMachineDebugManager 인터페이스
 컴퓨터 디버그 관리자에 게 기본 인터페이스입니다. 이 인터페이스는 비슷합니다는 `IMachineDebugManagerCookie` 인터페이스입니다.  

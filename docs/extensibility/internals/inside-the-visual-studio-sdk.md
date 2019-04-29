@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 078bf457c798c0be9ac56aad1859c6750881922a
-ms.sourcegitcommit: 05d104a14ff357d599ff274f97cd59d464ee4a46
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "57870275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909673"
 ---
 # <a name="inside-the-visual-studio-sdk"></a>Visual Studio SDK 기본 사항
 
@@ -69,7 +69,7 @@ ms.locfileid: "57870275"
 ## <a name="document-windows"></a>문서 창
  문서 창에는 다중 문서 인터페이스 (MDI) 창 프레임이 자식 창이입니다. 문서 창은 텍스트 편집기, 폼 편집기 (라고도 디자이너) 또는 편집 컨트롤을 호스트 하기 일반적으로 사용 되지만 다른 기능 종류를 호스팅할 수도 있습니다. 합니다 **새 파일** 대화 상자에 Visual Studio에서 제공 하는 문서 창의 예입니다.
 
- 대부분의 편집기는 프로그래밍 언어 또는 HTML 페이지, 프레임셋, c + + 파일 또는 헤더 파일과 같은 파일 형식에 적용 됩니다. 템플릿을 선택 하 여 합니다 **새 파일** 대화 상자에서 사용자를 동적으로 만듭니다 문서 창 편집기 템플릿과 사용 하 여 연결 된 파일 형식에 대 한 합니다. 사용자가 기존 파일을 열 때 문서 창이 만들어집니다.
+ 대부분의 편집기는 프로그래밍 언어 또는 프레임을 HTML 페이지와 같은 파일 형식에 특정 C++ 파일 또는 헤더 파일입니다. 템플릿을 선택 하 여 합니다 **새 파일** 대화 상자에서 사용자를 동적으로 만듭니다 문서 창 편집기 템플릿과 사용 하 여 연결 된 파일 형식에 대 한 합니다. 사용자가 기존 파일을 열 때 문서 창이 만들어집니다.
 
  문서 창은 MDI 클라이언트 영역으로 제한 됩니다. 각 문서 창 위쪽에 탭 및 탭 순서 MDI 영역에 열려 있을 수 있는 다른 창에 연결 됩니다. 여러 가로 또는 세로 탭 그룹을 MDI 영역을 분할 하는 옵션을 포함 하는 바로 가기 메뉴를 표시 문서 창의 탭을 마우스 오른쪽 단추로 클릭 합니다. MDI 영역 분할 여러 파일을을 동시에 볼 수 있습니다. 자세한 내용은 [문서 Windows](../../extensibility/internals/document-windows.md)합니다.
 
@@ -87,7 +87,7 @@ ms.locfileid: "57870275"
 
 Visual Studio에서 프로젝트는 개발자가 구성 하 고 소스 코드 및 기타 리소스를 작성 하는 데 사용할 컨테이너를 사용 합니다. 구성, 빌드, 디버그 및 소스 코드를 배포할 수 있습니다. 프로젝트, 웹 서비스 및 데이터베이스 및 기타 리소스에 대 한 참조입니다. Vspackage는 프로젝트 형식, 프로젝트 하위 형식 및 사용자 지정 도구를 제공 하 여 Visual Studio 프로젝트 시스템을 확장할 수 있습니다.
 
-프로젝트 함께 수집할 수도 있습니다는 *솔루션*, 응용 프로그램을 만들기 위해 함께 작동 하는 하나 이상의 프로젝트의 그룹화 합니다. 솔루션에 관련 된 프로젝트 및 상태 정보는 텍스트를 기반으로 두 솔루션 파일에 저장 됩니다 [솔루션 (.sln) 파일](solution-dot-sln-file.md) 및 이진 [솔루션 사용자 옵션 (.suo) 파일](solution-user-options-dot-suo-file.md)합니다. 이러한 파일은 이전 버전의 Visual Basic 및 작업 영역 (.dsw)에 사용 된 그룹 (.vbg) 파일 및 사용자 옵션 (.opt) 파일의 c + + 이전 버전에서 사용 되었던 비슷합니다.
+프로젝트 함께 수집할 수도 있습니다는 *솔루션*, 응용 프로그램을 만들기 위해 함께 작동 하는 하나 이상의 프로젝트의 그룹화 합니다. 솔루션에 관련 된 프로젝트 및 상태 정보는 텍스트를 기반으로 두 솔루션 파일에 저장 됩니다 [솔루션 (.sln) 파일](solution-dot-sln-file.md) 및 이진 [솔루션 사용자 옵션 (.suo) 파일](solution-user-options-dot-suo-file.md)합니다. 이러한 파일은 이전 버전의 Visual Basic의 경우에 사용 된 그룹 (.vbg) 파일 유사 하며 작업 영역 (.dsw) 및 사용자 옵션 (.opt) 파일의 이전 버전에 사용 된 C++입니다.
 
 자세한 내용은 [프로젝트](../../extensibility/internals/projects.md) 하 고 [솔루션](../../extensibility/internals/solutions-overview.md)합니다.
 

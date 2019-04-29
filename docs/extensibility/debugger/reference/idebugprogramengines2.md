@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 1a5ad34904a2f0bf02e5a2221f1ff73093012a41
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62916932"
 ---
 # <a name="idebugprogramengines2"></a>IDebugProgramEngines2
 이 인터페이스는 모든 가능한 있는 디버그 엔진 (DE)이이 프로그램을 디버깅할 수를 지정 하려면 프로그램 노드에서 사용 됩니다.

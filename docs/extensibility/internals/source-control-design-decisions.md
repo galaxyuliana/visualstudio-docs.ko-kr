@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 3e17e5a88b958c1361e7f8b3db70d7599f44f766
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62858992"
 ---
 # <a name="source-control-design-decisions"></a>소스 제어 디자인 결정
 소스 제어를 구현 하는 경우 다음 디자인 결정 사항은 프로젝트에 대 한 고려 되어야 합니다.

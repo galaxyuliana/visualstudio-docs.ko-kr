@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 6f5de8be3463ff0e96d516c8dec592d0aff3cfc7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62981435"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-excel"></a>연습: Excel 용 첫 VSTO 추가 기능에 만들기
   이 소개용 연습에서는 Microsoft Office Excel의 애플리케이션 수준 추가 기능을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 열려 있는 통합 문서에 관계없이 애플리케이션 자체에서 사용할 수 있습니다.

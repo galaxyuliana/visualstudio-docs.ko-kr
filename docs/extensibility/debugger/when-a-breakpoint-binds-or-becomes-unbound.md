@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: e8510ab7005bfe03b68f9b395e40b551332d0885
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62912588"
 ---
 # <a name="when-a-breakpoint-binds-or-becomes-unbound"></a>중단점의 바인딩합니다 때 또는 바인딩되지
 호출 시점에 중단점을 바인딩할 수 없는 경우는 [IDebugPendingBreakpoint2::CanBind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md) 메서드, 바인딩 중단점의 시간을 만들어 시간 다릅니다.

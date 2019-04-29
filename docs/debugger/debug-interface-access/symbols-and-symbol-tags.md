@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6affc24a84ef4d008ece5f95e45a11eb70f33b4e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56653998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62854716"
 ---
 # <a name="symbols-and-symbol-tags"></a>기호 및 기호 태그
 컴파일된 프로그램에 대 한 디버그 정보는 디버그 인터페이스 액세스 (DIA) SDK Api를 사용 하 여 액세스할 수 있는 기호로 프로그램 데이터베이스 (.pdb) 파일에 저장 됩니다. 모든 기호는 [idiasymbol:: Get_symtag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md) 와 [idiasymbol:: Get_symindexid](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md) 속성입니다. 합니다 `symTag` 속성에 정의 된 대로 기호의 종류를 나타내는 합니다 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 열거형입니다. 합니다 `symIndexId` 속성이 `DWORD` 기호의 모든 인스턴스에 대 한 고유 식별자를 포함 하는 값입니다.

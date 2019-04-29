@@ -8,11 +8,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: b01af2aa269cbaddbd84d24827b1a77e97d52d8a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57982807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62818528"
 ---
 # <a name="add-new-connections"></a>새 연결 추가
 
@@ -54,6 +54,6 @@ ms.locfileid: "57982807"
 
 만들 준비가 테스트가 성공 하는 경우는 *데이터 원본*, 있으며 실제로 의미 하는 Visual Studio 용어입니다는 *데이터 모델* 기본 데이터베이스 또는 서비스를 기반으로 하는 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [.NET용 Visual Studio 데이터 도구](../data-tools/visual-studio-data-tools-for-dotnet.md)

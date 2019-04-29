@@ -10,11 +10,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: f5d65ff675329fdc714026ce6fe04ee3bd93086f
-ms.sourcegitcommit: 5af29226aef0a3b4a506b69a08a97cfd21049521
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58268790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62568658"
 ---
 # <a name="create-a-simple-data-application-with-wpf-and-entity-framework-6"></a>WPF 및 Entity Framework 6을 사용하여 간단한 데이터 애플리케이션 만들기
 
@@ -58,7 +58,7 @@ ms.locfileid: "58268790"
 
 ## <a name="create-the-model"></a>모델 만들기
 
-1. 프로젝트 노드를 마우스 오른쪽 단추로 클릭 **솔루션 탐색기** 선택한 **추가** > **새 항목**합니다. 왼쪽된 창에서 아래는 C# 노드를 선택 **데이터** 가운데 창에서 선택 하 고 **ADO.NET Entity Data Model**.
+1. 프로젝트 노드를 마우스 오른쪽 단추로 클릭 **솔루션 탐색기** 선택한 **추가** > **새 항목**합니다. C# 노드를 아래 왼쪽된 창에서 선택 **데이터** 가운데 창에서 선택 하 고 **ADO.NET Entity Data Model**합니다.
 
    ![Entity Framework 모델에 대 한 새 항목](../data-tools/media/raddata-ef-new-project-item.png)
 
@@ -72,7 +72,7 @@ ms.locfileid: "58268790"
 
     ![모델에 대 한 데이터베이스 개체 선택](../data-tools/media/raddata-choose-ef-objects.png)
 
-5. 마법사에서 생성 된 C# Entity Framework 모델을 나타내는 클래스입니다. 클래스는 일반 이전 C# 클래스와 이러한는 어떻게 WPF 사용자 인터페이스에 데이터 바인딩이 있습니다. 합니다 *.edmx* 관계 및 데이터베이스의 개체를 사용 하 여 클래스를 연결 하는 다른 메타 데이터 파일에 설명 합니다. 합니다 *.tt* 파일은 데이터베이스에 변경 내용을 저장 하 고 모델에서 작동 하는 코드를 생성 하는 T4 템플릿입니다. 이러한 모든 파일을 볼 수 있습니다 **솔루션 탐색기** Northwind_model 노드 아래에서:
+5. 마법사는 Entity Framework 모델을 나타내는 C# 클래스를 생성 합니다. 클래스는 이전 일반 C# 클래스가 고 어떻게 WPF 사용자 인터페이스에 데이터 바인딩합니다. 합니다 *.edmx* 관계 및 데이터베이스의 개체를 사용 하 여 클래스를 연결 하는 다른 메타 데이터 파일에 설명 합니다. 합니다 *.tt* 파일은 데이터베이스에 변경 내용을 저장 하 고 모델에서 작동 하는 코드를 생성 하는 T4 템플릿입니다. 이러한 모든 파일을 볼 수 있습니다 **솔루션 탐색기** Northwind_model 노드 아래에서:
 
       ![솔루션 탐색기 EF 모델 파일](../data-tools/media/raddata-solution-explorer-ef-model-files.png)
 
@@ -353,7 +353,7 @@ Visual Studio에서 생성 된 기본 배열을 변경 일부 수동으로 XAML�
 
 Windows Forms 응용 프로그램에서 데이터베이스의 행을 이동 하 고 기본적인 CRUD 작업 수행에 대 한 단추를 사용 하 여을 BindingNavigator 개체를 가져옵니다. WPF는 BindingNavigator를 제공 하지 않습니다 하지만 쉽게 만드세요. 가로 StackPanel 내에서 단추를 사용 하 여 작업을 수행 하 고이 정보를 코드 숨김의 메서드에 바인딩되는 명령 단추를 연결 합니다.
 
-에서는 명령 논리 부분이 있습니다. (1) 명령, (2) 바인딩, (3) 단추 및 코드 숨김에서 명령 처리기 (4).
+명령 논리에서는 부분이 있습니다. (1) 명령, (2) 바인딩, (3) 단추 및 코드 숨김에서 명령 처리기 (4).
 
 ### <a name="add-commands-bindings-and-buttons-in-xaml"></a>XAML에서 명령, 바인딩 및 단추 추가
 
@@ -427,7 +427,7 @@ Windows Forms 응용 프로그램에서 데이터베이스의 행을 이동 하 
 
 디버깅을 시작하려면 **F5** 키를 누릅니다. 고객 및 표의 채워진 주문 데이터가 표시 되어야 하 고 탐색 단추는 예상 대로 작동 해야 합니다. 클릭할 **커밋** 데이터를 입력 한 후 모델에 새 고객 또는 주문과 추가 합니다. 클릭할 **취소** 데이터를 저장 하지 않고 새 고객 또는 새 주문 양식에서 백업할 수 있습니다. 기존 고객 및 주문 입력란에서 직접 편집할 수 있습니다 하 고 해당 변경 내용을 모델에 자동으로 작성 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [.NET용 Visual Studio 데이터 도구](../data-tools/visual-studio-data-tools-for-dotnet.md)
 - [Entity Framework 설명서](/ef/)

@@ -8,80 +8,80 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4cc9b917210acb92b5db436c54c777f9f55f663b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: c89babf7dc9f90b4042d917bf5843a0703628883
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62799477"
 ---
 # <a name="common-control-patterns-for-visual-studio"></a>Visual Studio의 일반 컨트롤 패턴
-##  <a name="BKMK_CommonControls"></a> 공용 컨트롤
+## <a name="BKMK_CommonControls"></a> 공용 컨트롤
 
 ### <a name="overview"></a>개요
 공용 컨트롤은 대부분의 Visual Studio의 사용자 인터페이스를 구성 합니다. Visual Studio 인터페이스에 사용 되는 가장 일반적인 컨트롤을 따라야 합니다 [Windows 데스크톱 상호 작용 지침](/windows/desktop/uxguide/controls)합니다. 이 항목은 Visual Studio에 국한 되며 특별 한 경우 또는 해당 Windows 지침을 확대 하는 세부 정보를 다룹니다.
 
 #### <a name="common-controls-in-this-topic"></a>이 항목의 공용 컨트롤
 
--   [스크롤 막대](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_Scrollbars)
+- [스크롤 막대](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_Scrollbars)
 
--   [입력된 필드](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_InputFields)
+- [입력된 필드](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_InputFields)
 
--   [콤보 상자 및 드롭다운 목록](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ComboBoxesAndDropDowns)
+- [콤보 상자 및 드롭다운 목록](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ComboBoxesAndDropDowns)
 
--   [확인란](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_CheckBoxes)
+- [확인란](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_CheckBoxes)
 
--   [라디오 단추](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_RadioButtons)
+- [라디오 단추](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_RadioButtons)
 
--   [그룹 프레임](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_GroupFrames)
+- [그룹 프레임](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_GroupFrames)
 
--   [텍스트 컨트롤](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TextControls)
+- [텍스트 컨트롤](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TextControls)
 
--   [단추, 하이퍼링크](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ButtonsAndHyperlinks)
+- [단추, 하이퍼링크](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ButtonsAndHyperlinks)
 
--   [트리 뷰](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViews)
+- [트리 뷰](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViews)
 
 #### <a name="visual-style"></a>비주얼 스타일
 가장 먼저 컨트롤의 스타일을 지정 하는 경우를 고려해 야 할 경우 테마 UI에서 컨트롤 사용 여부 컨트롤에서 표준 UI 테마 UI 되며 따라야 [표준 Windows 데스크톱 스타일](/windows/desktop/uxguide/controls), 즉 이러한 다시 템플릿이 아닌 해당 기본 컨트롤 모양이 표시 됩니다.
 
--   **표준 (유틸리티) 대화 상자:** 테마가 적용 되지 않습니다. 템플릿을 다시 만들면 하지 않습니다. 기본 컨트롤 스타일 기본값을 사용 합니다.
+- **표준 (유틸리티) 대화 상자:** 테마가 적용 되지 않습니다. 템플릿을 다시 만들면 하지 않습니다. 기본 컨트롤 스타일 기본값을 사용 합니다.
 
--   **도구 창, 문서 편집기, 디자인 화면 및 테마가 지정 된 대화 상자:** 색 서비스를 사용 하 여 특수화 된 테마가 지정 된 모양을 사용 합니다.
+- **도구 창, 문서 편집기, 디자인 화면 및 테마가 지정 된 대화 상자:** 색 서비스를 사용 하 여 특수화 된 테마가 지정 된 모양을 사용 합니다.
 
-###  <a name="BKMK_Scrollbars"></a> 스크롤 막대
+### <a name="BKMK_Scrollbars"></a> 스크롤 막대
  스크롤 막대 따라야 [Windows의 일반적인 상호 작용 패턴 스크롤 막대](/windows/desktop/Controls/about-scroll-bars) 코드 편집기에서와 같이 콘텐츠 정보를 사용 하 여 보강 하는 것을 하지 않는 한 합니다.
 
-###  <a name="BKMK_InputFields"></a> 입력된 필드
+### <a name="BKMK_InputFields"></a> 입력된 필드
  일반적인 상호 작용이 동작을 수행 합니다 [텍스트 상자에 대 한 Windows 데스크톱 지침](/windows/desktop/uxguide/ctrl-text-boxes)합니다.
 
 #### <a name="visual-style"></a>비주얼 스타일
 
--   입력된 필드 유틸리티 대화 상자에서 스타일을 지정할 수 없습니다. 기본 스타일을 컨트롤에 내장 함수를 사용 합니다.
+- 입력된 필드 유틸리티 대화 상자에서 스타일을 지정할 수 없습니다. 기본 스타일을 컨트롤에 내장 함수를 사용 합니다.
 
--   테마가 지정 된 입력된 필드 테마가 지정 된 대화 상자 및 도구 창에만 사용 해야 합니다.
+- 테마가 지정 된 입력된 필드 테마가 지정 된 대화 상자 및 도구 창에만 사용 해야 합니다.
 
 #### <a name="specialized-interactions"></a>특수 한 상호 작용
 
--   읽기 전용 필드에는 기본 (활성) 전경 하지만 배경이 회색 (비활성) 해야 합니다.
+- 읽기 전용 필드에는 기본 (활성) 전경 하지만 배경이 회색 (비활성) 해야 합니다.
 
--   필드 있어야 하는 데 필요한  **\<필요한 >** 내에서 워터 마크으로 합니다. 드문 경우를 제외 하 고 배경색을 변경 하지 않아야.
+- 필드 있어야 하는 데 필요한  **\<필요한 >** 내에서 워터 마크으로 합니다. 드문 경우를 제외 하 고 배경색을 변경 하지 않아야.
 
--   오류가 유효성 검사: 참조 [Visual Studio의 알림 및 진행률](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md)
+- 오류가 유효성 검사: 참조 [Visual Studio의 알림 및 진행률](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md)
 
--   입력된 필드 표시 된 창의 너비에 맞게 하지도 임의로 경로 같은 긴 필드의 길이 일치 하는 내용에 맞게 크기를 조정 해야 합니다. 길이 제한 횟수 문자는 필드에 허용 하는 것에 대 한 사용자에 게 표시를 수 있습니다.
+- 입력된 필드 표시 된 창의 너비에 맞게 하지도 임의로 경로 같은 긴 필드의 길이 일치 하는 내용에 맞게 크기를 조정 해야 합니다. 길이 제한 횟수 문자는 필드에 허용 하는 것에 대 한 사용자에 게 표시를 수 있습니다.
 
      ![잘못 된 입력된 필드 길이: 이름을 long이 될 것입니다. ](../../extensibility/ux-guidelines/media/0707-01_incorrectinputfieldcontrol.png "0707 01_IncorrectInputFieldControl")<br />잘못 된 입력된 필드 길이: 이름을 long이 될 것입니다.
 
      ![입력된 필드 길이 수정 합니다: 입력된 필드는 예상된 콘텐츠에 대 한 적절 한 너비입니다. ](../../extensibility/ux-guidelines/media/0707-02_correctinputfieldcontrol.png "0707 02_CorrectInputFieldControl")<br />입력된 필드 길이 수정 합니다: 입력된 필드는 예상된 콘텐츠에 대 한 적절 한 너비입니다.
 
-###  <a name="BKMK_ComboBoxesAndDropDowns"></a> 콤보 상자 및 드롭다운 목록
+### <a name="BKMK_ComboBoxesAndDropDowns"></a> 콤보 상자 및 드롭다운 목록
 일반적인 상호 작용이 동작을 수행 합니다 [드롭 다운 목록 및 콤보 상자에 대 한 Windows 데스크톱 지침](/windows/desktop/uxguide/ctrl-drop)합니다.
 
 #### <a name="visual-style"></a>비주얼 스타일
 
--   유틸리티 대화 상자에서 템플릿을 다시 만들면 컨트롤이 없습니다. 기본 스타일을 컨트롤에 내장 함수를 사용 합니다.
+- 유틸리티 대화 상자에서 템플릿을 다시 만들면 컨트롤이 없습니다. 기본 스타일을 컨트롤에 내장 함수를 사용 합니다.
 
--   테마 UI에서 콤보 상자 및 드롭다운 컨트롤에 대 한 표준 테마를 수행합니다.
+- 테마 UI에서 콤보 상자 및 드롭다운 컨트롤에 대 한 표준 테마를 수행합니다.
 
 #### <a name="layout"></a>레이아웃
 콤보 상자 및 드롭다운 표시 된 창의 너비에 맞게 하지도 임의로 경로 같은 긴 필드의 길이 일치 하는 내용에 맞게 조정 합니다.
@@ -90,26 +90,26 @@ ms.locfileid: "56704997"
 
 ![올바른: 드롭다운 번역 성장을 허용 하지 불필요 하 게 긴로 조정 됩니다. ](../../extensibility/ux-guidelines/media/0707-04_correctdropdownlayout.png "0707 04_CorrectDropDownLayout")<br />올바른: 드롭다운 번역 성장을 허용 하지 불필요 하 게 긴로 조정 됩니다.
 
-###  <a name="BKMK_CheckBoxes"></a> 확인란
+### <a name="BKMK_CheckBoxes"></a> 확인란
 일반적인 상호 작용이 동작을 수행 합니다 [확인란에 대 한 Windows 데스크톱 지침](/windows/desktop/uxguide/ctrl-check-boxes)합니다.
 
 #### <a name="visual-style"></a>비주얼 스타일
 
--   유틸리티 대화 상자에서 템플릿을 다시 만들면 컨트롤이 없습니다. 기본 스타일을 컨트롤에 내장 함수를 사용 합니다.
+- 유틸리티 대화 상자에서 템플릿을 다시 만들면 컨트롤이 없습니다. 기본 스타일을 컨트롤에 내장 함수를 사용 합니다.
 
--   테마 UI 확인란 컨트롤에 대 한 표준 테마를 수행합니다.
+- 테마 UI 확인란 컨트롤에 대 한 표준 테마를 수행합니다.
 
 #### <a name="specialized-interactions"></a>특수 한 상호 작용
 
--   확인란 상호 작용 하지 대화 상자를 표시 하거나 다른 영역으로 이동 해야 합니다.
+- 확인란 상호 작용 하지 대화 상자를 표시 하거나 다른 영역으로 이동 해야 합니다.
 
--   확인란 텍스트의 첫 줄 기준선을 맞춥니다.
+- 확인란 텍스트의 첫 줄 기준선을 맞춥니다.
 
      ![잘못 된: 확인란 가운데에 표시 됩니다는 텍스트입니다. ](../../extensibility/ux-guidelines/media/0707-05_incorrectcheckboxalign.png "0707 05_IncorrectCheckBoxAlign")<br />잘못 된: 확인란 가운데에 표시 됩니다는 텍스트입니다.
 
      ![올바른: 확인란 텍스트의 첫 번째 줄을 사용 하 여 정렬 됩니다. ](../../extensibility/ux-guidelines/media/0707-06_correctcheckboxalign.png "0707 06_CorrectCheckBoxAlign")<br />올바른: 확인란 텍스트의 첫 번째 줄을 사용 하 여 정렬 됩니다.
 
-###  <a name="BKMK_RadioButtons"></a> 라디오 단추
+### <a name="BKMK_RadioButtons"></a> 라디오 단추
 일반적인 상호 작용이 동작을 수행 합니다 [라디오 단추에 대 한 Windows 데스크톱 지침](/windows/desktop/uxguide/ctrl-radio-buttons)합니다.
 
 #### <a name="visual-style"></a>비주얼 스타일
@@ -118,7 +118,7 @@ ms.locfileid: "56704997"
 #### <a name="specialized-interactions"></a>특수 한 상호 작용
 긴밀 한 레이아웃에 그룹 구분을 유지 하기 위해 필요한 경우가 아니면 묶어야 라디오 옵션 그룹 틀을 사용 하는 데 필요한 것입니다.
 
-###  <a name="BKMK_GroupFrames"></a> 그룹 프레임
+### <a name="BKMK_GroupFrames"></a> 그룹 프레임
 일반적인 상호 작용이 동작을 수행 합니다 [그룹 프레임에 대 한 Windows 데스크톱 지침](/windows/desktop/uxguide/ctrl-group-boxes)합니다.
 
 #### <a name="visual-style"></a>비주얼 스타일
@@ -126,13 +126,13 @@ ms.locfileid: "56704997"
 
 #### <a name="layout"></a>레이아웃
 
--   긴밀 한 레이아웃에 그룹 구분을 유지 하기 위해 필요한 경우가 아니면 묶어야 라디오 옵션 그룹 틀을 사용 하는 데 필요한 것입니다.
+- 긴밀 한 레이아웃에 그룹 구분을 유지 하기 위해 필요한 경우가 아니면 묶어야 라디오 옵션 그룹 틀을 사용 하는 데 필요한 것입니다.
 
--   단일 컨트롤에 대 한 그룹 프레임을 사용 하지 않습니다.
+- 단일 컨트롤에 대 한 그룹 프레임을 사용 하지 않습니다.
 
--   경우에 따라 그룹 프레임 컨테이너 대신 가로 규칙을 사용 하는 것이 좋습니다.
+- 경우에 따라 그룹 프레임 컨테이너 대신 가로 규칙을 사용 하는 것이 좋습니다.
 
-##  <a name="BKMK_TextControls"></a> 텍스트 컨트롤
+## <a name="BKMK_TextControls"></a> 텍스트 컨트롤
 
 ### <a name="static-text-fields"></a>정적 텍스트 필드
 
@@ -160,19 +160,19 @@ ms.locfileid: "56704997"
 
 대화 상자에서 텍스트에 대 한 핵심 지침:
 
--   입력란, 목록 상자 및 대화 상자에서 unthemed 프레임에 대 한 레이블을 동사를 사용 하 여 시작한 첫 번째 단어 이기는 초기 자본에 콜론으로 끝나야 합니다.
+- 입력란, 목록 상자 및 대화 상자에서 unthemed 프레임에 대 한 레이블을 동사를 사용 하 여 시작한 첫 번째 단어 이기는 초기 자본에 콜론으로 끝나야 합니다.
 
     > 테마가 지정 된 대화 상자에서 텍스트 컨트롤에 따라 [Windows 데스크톱 UX 지침](/windows/desktop/uxguide/top-violations) 도움말 링크에서 물음표를 제외 하 고 종료 문장 부호를 주지 않습니다.
 
--   레이블 옵션 단추 및 확인란에 대해 첫 번째 단어 이기는 초기 자본이 동사를 사용 하 여 시작 하 고 종료 문장 부호 없는.
+- 레이블 옵션 단추 및 확인란에 대해 첫 번째 단어 이기는 초기 자본이 동사를 사용 하 여 시작 하 고 종료 문장 부호 없는.
 
--   단추, 메뉴, 메뉴 항목 및 탭에 대 한 레이블을 경우 초기 대문자 각 단어 (글자를 대문자로)
+- 단추, 메뉴, 메뉴 항목 및 탭에 대 한 레이블을 경우 초기 대문자 각 단어 (글자를 대문자로)
 
--   레이블 용어는 다른 대화 상자에 비슷한 레이블이 일치 해야 합니다.
+- 레이블 용어는 다른 대화 상자에 비슷한 레이블이 일치 해야 합니다.
 
--   가능한 경우 기록기/편집기가 되어 쓰거나 구현에 대 한 개발자에 게 전달 되기 전에 텍스트를 승인 합니다.
+- 가능한 경우 기록기/편집기가 되어 쓰거나 구현에 대 한 개발자에 게 전달 되기 전에 텍스트를 승인 합니다.
 
--   모든 컨트롤에서 특별 한 경우 제외 하 고 레이블이 있으면는 탭에 충분 합니다.
+- 모든 컨트롤에서 특별 한 경우 제외 하 고 레이블이 있으면는 탭에 충분 합니다.
 도우미 텍스트 적절 한 경우 사용 합니다.
 
 ### <a name="helper-text"></a>도우미 텍스트
@@ -181,13 +181,13 @@ ms.locfileid: "56704997"
 
 도우미 텍스트에 대 한 일반적인 위치를 따르고 소개 새 영역에 주의 기울여야 합니다. 도우미 텍스트에 대 한 일반적인 시나리오는:
 
--   복잡 한 대화 상자를 사용 하 여 상호 작용 하는 방법에 대 한 추가 방향 있도록 대화 상자 도우미 텍스트입니다.
+- 복잡 한 대화 상자를 사용 하 여 상호 작용 하는 방법에 대 한 추가 방향 있도록 대화 상자 도우미 텍스트입니다.
 
--   빈 도구 창 또는 대화 상자, 콘텐츠 없음 표시 이유를 설명에 워터 마크 텍스트입니다.
+- 빈 도구 창 또는 대화 상자, 콘텐츠 없음 표시 이유를 설명에 워터 마크 텍스트입니다.
 
--   설명 창 맨 아래에 같은 합니다 **속성 창**합니다.
+- 설명 창 맨 아래에 같은 합니다 **속성 창**합니다.
 
--   시작 하려면 사용자 취해야 할 조치를 설명 하기 위해 빈 편집기에서 텍스트를 워터 마크입니다.
+- 시작 하려면 사용자 취해야 할 조치를 설명 하기 위해 빈 편집기에서 텍스트를 워터 마크입니다.
 
 ### <a name="dialog-helper-text"></a>대화 상자 도우미 텍스트
 
@@ -197,9 +197,9 @@ ms.locfileid: "56704997"
 
 대화 상자는 약간 다른 워터 마크 guidelines에서 활용합니다. 대화 상자가 특히 여러 UI 요소 (레이블, 설명 텍스트, 단추 및 텍스트를 사용 하 여 다른 컨테이너 컨트롤)를 사용 하 여 사용 중인 나타날 수 있기 때문에 워터 마크 진한 회색에서 더 나은 차별화 된 검은색으로 표시 되 면 (VSColor: `ButtonShadow`). 워터 마크 흰색 배경 사용 하 여 목록 상자 같은 컨트롤 안에 표시 되는 일반적으로 (VSColor: `Window`).
 
--   진한 회색으로 표시 되는 텍스트 (VSColor: `ButtonShadow`). 그러나 중간 회색 또는 기타 컬러 나타나면 워터 마크 (VSColor: `ButtonFace`) 백그라운드 및 가독성을 높일 수에 대 한 작업을 처리할 검정 텍스트를 사용 하 여 이동 (VSColor: `WindowText`).
+- 진한 회색으로 표시 되는 텍스트 (VSColor: `ButtonShadow`). 그러나 중간 회색 또는 기타 컬러 나타나면 워터 마크 (VSColor: `ButtonFace`) 백그라운드 및 가독성을 높일 수에 대 한 작업을 처리할 검정 텍스트를 사용 하 여 이동 (VSColor: `WindowText`).
 
--   워터 마크는 가운데 맞춤 또는 왼쪽 맞춤 수 있습니다. 맞춤 결정을 내릴 때 표준 디자인 규칙을 적용 합니다. 백그라운드에서 워터 마크를 선택할 수 없습니다.
+- 워터 마크는 가운데 맞춤 또는 왼쪽 맞춤 수 있습니다. 맞춤 결정을 내릴 때 표준 디자인 규칙을 적용 합니다. 백그라운드에서 워터 마크를 선택할 수 없습니다.
 
 ![워터 마크 텍스트 예제](../../extensibility/ux-guidelines/media/WatermarkTextExample.gif)<br />워터 마크 텍스트 예제
 
@@ -207,13 +207,13 @@ ms.locfileid: "56704997"
 
 동적 텍스트 대화 상자 또는 모덜리스 UI에서 두 가지 방법 중 하나만 사용된 될 수 있습니다: 동적 레이블 또는 동적 콘텐츠입니다.
 
--   동적 레이블:와 같은 요소 및 오른쪽 표에 표시 된 요소에 대 한 속성의 목록을 포함 하는 대화 상자에서 선택한 항목에 대 한 자세한 정보를 제공 하는 설명이 포함 된 패널의 동적 텍스트의 일반적인 용도 것입니다. 속성 표에 대 한 레이블을 왼쪽 항목을 선택 하면 오른쪽 표에 해당 특정 항목에 대 한 정보를 표시 하는 수 있도록 동적 수 있습니다.
+- 동적 레이블:와 같은 요소 및 오른쪽 표에 표시 된 요소에 대 한 속성의 목록을 포함 하는 대화 상자에서 선택한 항목에 대 한 자세한 정보를 제공 하는 설명이 포함 된 패널의 동적 텍스트의 일반적인 용도 것입니다. 속성 표에 대 한 레이블을 왼쪽 항목을 선택 하면 오른쪽 표에 해당 특정 항목에 대 한 정보를 표시 하는 수 있도록 동적 수 있습니다.
 
--   동적 텍스트: 여기서 이렇게에서 하지 일반 정보와 특정 정보를 표시 해야 하지만 조화 주의 해야 하는 경우에 유용할 수 있습니다.
+- 동적 텍스트: 여기서 이렇게에서 하지 일반 정보와 특정 정보를 표시 해야 하지만 조화 주의 해야 하는 경우에 유용할 수 있습니다.
 
 사용자에 게 정보를 복사 하는 기능을 원한다 면 동적 텍스트 읽기 전용 텍스트 필드에 있어야 합니다.
 
-##  <a name="BKMK_ButtonsAndHyperlinks"></a> 단추, 하이퍼링크
+## <a name="BKMK_ButtonsAndHyperlinks"></a> 단추, 하이퍼링크
 
 ### <a name="overview"></a>개요
 단추 및 링크 컨트롤 (하이퍼링크) 따라야 [하이퍼링크에 대 한 기본 Windows 데스크톱 지침](/windows/desktop/uxguide/ctrl-links) 사용의 경우 단어를 조정 하 고 간격입니다.
@@ -223,25 +223,25 @@ ms.locfileid: "56704997"
 
 명령 단추를 사용 하는 경우:
 
--   기본 명령
+- 기본 명령
 
--   보조 명령 된 경우에 입력을 수집 하는 데 사용 되는 windows를 표시 하거나 선택
+- 보조 명령 된 경우에 입력을 수집 하는 데 사용 되는 windows를 표시 하거나 선택
 
--   파괴적 이거나 되돌릴 수 없는 작업
+- 파괴적 이거나 되돌릴 수 없는 작업
 
--   마법사 페이지 흐름 내에서 커밋 단추
+- 마법사 페이지 흐름 내에서 커밋 단추
 
 도구 창의 명령 단추를 방지 하거나 레이블에 대 한 두 개 이상의 단어를 사용 해야 합니다. 링크에는 긴 레이블을 가질 수 있습니다.
 
  링크를 사용 하는 경우:
 
--   다른 창, 문서 또는 웹 페이지에 대 한 탐색
+- 다른 창, 문서 또는 웹 페이지에 대 한 탐색
 
--   긴 레이블 또는 작업의 의도 설명 하는 짧은 문장 해야 하는 상황
+- 긴 레이블 또는 작업의 의도 설명 하는 짧은 문장 해야 하는 상황
 
--   단추는 작업은 파괴적 이거나 되돌릴 수 없는 UI를 압도 긴밀 하 게 공간
+- 단추는 작업은 파괴적 이거나 되돌릴 수 없는 UI를 압도 긴밀 하 게 공간
 
--   취소가 강조 상황에서는 보조 명령 있는 많은 명령
+- 취소가 강조 상황에서는 보조 명령 있는 많은 명령
 
 #### <a name="examples"></a>예제
 ![다음 상태 메시지 정보 표시줄에 사용 된 연결 명령을](../../extensibility/ux-guidelines/media/070703-01_commandlinkinfobar.png "070703 01_CommandLinkInfobar")<br />다음 상태 메시지 정보 표시줄에 사용 된 명령 링크
@@ -274,19 +274,19 @@ Visual Studio에서 대부분의 단추 유틸리티 대화 상자에 나타나�
 
 짧은 줄임표 전용 단추를 사용 하는 경우:
 
--   둘 이상의 긴 경우 **[찾아보기...]**  여러 필드 검색에 대 한 허용 되는 경우와 같은 대화 상자에서 단추입니다. 단기 사용 **[...]**  이 상황에서 만든 액세스 키를 혼동 하지 않으려면 각 단추 (**& 찾아보기** 하 고 **B & 찾아보기** 동일한 대화 상자에서).
+- 둘 이상의 긴 경우 **[찾아보기...]**  여러 필드 검색에 대 한 허용 되는 경우와 같은 대화 상자에서 단추입니다. 단기 사용 **[...]**  이 상황에서 만든 액세스 키를 혼동 하지 않으려면 각 단추 (**& 찾아보기** 하 고 **B & 찾아보기** 동일한 대화 상자에서).
 
--   긴밀 한 대화 상자에서 또는 긴 단추를 적절 한 장소가 없습니다.
+- 긴밀 한 대화 상자에서 또는 긴 단추를 적절 한 장소가 없습니다.
 
--   단추를 표 형태 컨트롤에 표시 합니다.
+- 단추를 표 형태 컨트롤에 표시 합니다.
 
 단추를 사용 하는 것에 대 한 지침:
 
--   액세스 키를 사용 하지 마세요. 키보드를 사용 하 여 액세스 하려면 사용자는 인접 한 컨트롤에서 탭 해야 합니다. 찾아보기 단추 필드를 채우도록 직후 대체 되도록 탭 순서 인지 확인 합니다. 첫 번째 기간 아래 밑줄을 사용 하지 않습니다.
+- 액세스 키를 사용 하지 마세요. 키보드를 사용 하 여 액세스 하려면 사용자는 인접 한 컨트롤에서 탭 해야 합니다. 찾아보기 단추 필드를 채우도록 직후 대체 되도록 탭 순서 인지 확인 합니다. 첫 번째 기간 아래 밑줄을 사용 하지 않습니다.
 
--   활성 MSAA (Microsoft Accessibility)를 설정 **이름을** 속성을 **찾아보기...**  (줄임표) 포함 하므로 화면 판독기 읽기 "찾아보기"가 "점선-점선-점선" 또는 "기간-기간별."로 관리 되는 컨트롤에 대 한이 설정을 의미 합니다 **AccessibleName** 속성.
+- 활성 MSAA (Microsoft Accessibility)를 설정 **이름을** 속성을 **찾아보기...**  (줄임표) 포함 하므로 화면 판독기 읽기 "찾아보기"가 "점선-점선-점선" 또는 "기간-기간별."로 관리 되는 컨트롤에 대 한이 설정을 의미 합니다 **AccessibleName** 속성.
 
--   줄임표를 사용해 서는 안 **[...]**  찾아보기 동작을 제외한 항목에 대 한 단추입니다. 예를 들어, 필요한 경우는 **[새로 만들기...]**  단추 하지만 대화 상자를 다시 디자인 해야 합니다. 그런 다음 텍스트에 대해 충분 한 공간이 없는 합니다.
+- 줄임표를 사용해 서는 안 **[...]**  찾아보기 동작을 제외한 항목에 대 한 단추입니다. 예를 들어, 필요한 경우는 **[새로 만들기...]**  단추 하지만 대화 상자를 다시 디자인 해야 합니다. 그런 다음 텍스트에 대해 충분 한 공간이 없는 합니다.
 
 ##### <a name="sizing-and-spacing"></a>크기 조정 및 간격
 ![[찾아보기...] 크기 조정 단추: 표준 버전은 75 x 23 픽셀, 짧은 버전은 26 x 23 픽셀](../../extensibility/ux-guidelines/media/070703-06_browsesizing.png "070703 06_BrowseSizing")<br />[찾아보기...] 크기 조정 단추
@@ -298,9 +298,9 @@ Visual Studio에서 대부분의 단추 유틸리티 대화 상자에 나타나�
 
 > **참고:** 사용자 (액세스 키가) 이러한 단추를 탭, 따라서 적절 한 순서로 배치 해야 합니다. 지도 `name` 화면 판독기 단추 동작을 올바르게 해석할 수 있도록 소요 되는 작업에 단추의 속성입니다.
 
-| 기능 | 단추 |
+| 함수 | 단추 |
 | --- | --- |
-| 추가 | ![그래픽 "추가" 단추](../../extensibility/ux-guidelines/media/070703-08_buttonadd.png "070703 08_ButtonAdd") |
+| Add | ![그래픽 "추가" 단추](../../extensibility/ux-guidelines/media/070703-08_buttonadd.png "070703 08_ButtonAdd") |
 | 제거 | ![그래픽 "제거" 단추](../../extensibility/ux-guidelines/media/070703-09_buttonremove.png "070703 09_ButtonRemove") |
 | 모든 추가 | ![그래픽 "모두 추가" 단추](../../extensibility/ux-guidelines/media/070703-10_buttonaddall.png "070703 10_ButtonAddAll") |
 | 모두 제거 | ![그래픽 "모두 제거" 단추](../../extensibility/ux-guidelines/media/070703-11_buttonremoveall.png "070703 11_ButtonRemoveAll") |
@@ -321,17 +321,17 @@ Visual Studio에서 대부분의 단추 유틸리티 대화 상자에 나타나�
 
 #### <a name="visual-style"></a>비주얼 스타일
 
--   하이퍼링크는 항상 사용 해야 [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService)합니다. 하이퍼링크 스타일이 없습니다 올바르게, 활성 상태인 경우 빨간색 깜박입니다 또는 방문 후 다른 색으로 표시 합니다.
+- 하이퍼링크는 항상 사용 해야 [The VSColor Service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService)합니다. 하이퍼링크 스타일이 없습니다 올바르게, 활성 상태인 경우 빨간색 깜박입니다 또는 방문 후 다른 색으로 표시 합니다.
 
--   아닌 경우 링크 된 전체 문장 내에서 문장 조각 같은 워터 마크의 상태를 가져가서 컨트롤에서 밑줄을 포함 하지 마십시오.
+- 아닌 경우 링크 된 전체 문장 내에서 문장 조각 같은 워터 마크의 상태를 가져가서 컨트롤에서 밑줄을 포함 하지 마십시오.
 
--   가리키기 밑줄 표시 해서는 안 됩니다. 대신, 링크가 활성화 되어 있음을 사용자에 게 피드백을 약간의 색 변경 하 고 적절 한 링크 커서는입니다.
+- 가리키기 밑줄 표시 해서는 안 됩니다. 대신, 링크가 활성화 되어 있음을 사용자에 게 피드백을 약간의 색 변경 하 고 적절 한 링크 커서는입니다.
 
-##  <a name="BKMK_TreeViews"></a> 트리 뷰
+## <a name="BKMK_TreeViews"></a> 트리 뷰
 
 트리 뷰는 부모-자식 그룹으로 복잡 한 구성 하는 방법을 보여 줍니다.을 제공 합니다. 사용자는 확장 하거나 기본 자식 항목을 표시 하거나 숨기려면 부모 그룹을 축소할 수 있습니다. 추가 작업을 제공 하는 트리 뷰 내에서 각 항목을 선택할 수 있습니다.
 
-###  <a name="BKMK_TreeViewVisualStyle"></a> 트리 보기에 대 한 비주얼 스타일
+### <a name="BKMK_TreeViewVisualStyle"></a> 트리 보기에 대 한 비주얼 스타일
 
 #### <a name="expanders"></a>확장기
 트리 뷰 컨트롤은 Windows 및 Visual Studio를 사용한 확장기 디자인을 따라야 합니다. 각 노드는 expander 컨트롤을 사용 하 여 기본 항목을 표시 하거나 숨깁니다. Expander 컨트롤을 사용 하 여 Windows 및 Visual Studio 내에서 다른 트리 뷰를 발생할 수 있는 사용자에 대 한 일관성을 제공 합니다.
@@ -355,7 +355,7 @@ Visual Studio에서 대부분의 단추 유틸리티 대화 상자에 나타나�
 
 ![내용이 있는 트리 뷰 컨트롤의 한계를 초과 하는 세로 및 가로 스크롤 막대가 모두 표시 됩니다. ](../../extensibility/ux-guidelines/media/070705-4_scrollbars.png "070705 4_Scrollbars")<br />내용이 있는 트리 뷰 컨트롤의 한계를 초과 하는 세로 및 가로 스크롤 막대가 모두 표시 됩니다.
 
-###  <a name="BKMK_TreeViewInteractions"></a> 트리 뷰 상호 작용
+### <a name="BKMK_TreeViewInteractions"></a> 트리 뷰 상호 작용
 
 #### <a name="context-menus"></a>상황에 맞는 메뉴
 트리 뷰 노드에 상황에 맞는 메뉴에서 하위 메뉴 옵션을 표시할 수 있습니다. 일반적으로이 사용자가 항목을 마우스 오른쪽 단추로 클릭 하거나 선택한 항목에 사용 하는 Windows 키보드에서 메뉴 키를 누를 때 발생 합니다. 것이 중요 노드에 포커스를 획득 하 고 선택 합니다. 이렇게 하면 사용자에 속하는 하위 메뉴 항목을 식별 합니다.
@@ -368,23 +368,23 @@ Visual Studio에서 대부분의 단추 유틸리티 대화 상자에 나타나�
 ##### <a name="tree-view-control"></a>트리 뷰 컨트롤
 Visual Studio 트리 컨트롤 일반적인 키보드 탐색을 수행 해야 합니다.
 
--   **위쪽 화살표:** 트리를 이동 하 여 항목을 선택 합니다.
+- **위쪽 화살표:** 트리를 이동 하 여 항목을 선택 합니다.
 
--   **아래쪽 화살표:** 트리 아래로 이동 하 여 항목을 선택 합니다.
+- **아래쪽 화살표:** 트리 아래로 이동 하 여 항목을 선택 합니다.
 
--   **오른쪽 화살표:** 트리에서 노드를 확장 합니다.
+- **오른쪽 화살표:** 트리에서 노드를 확장 합니다.
 
--   **왼쪽된 화살표:** 트리에서 노드를 축소
+- **왼쪽된 화살표:** 트리에서 노드를 축소
 
--   **키를 입력 합니다.** 시작, 로드, 선택한 항목 실행
+- **키를 입력 합니다.** 시작, 로드, 선택한 항목 실행
 
 ##### <a name="trid-tree-view-and-grid-view"></a>Trid (트리 보기 및 그리드 보기)
 Trid 컨트롤은 grid에서 트리 뷰를 포함 하는 복잡 한 컨트롤입니다. 확장, 축소 및 트리를 탐색한 다음 내용을 추가 하 여 트리 뷰로 동일한 키보드 명령을 따라야 합니다.
 
--   **오른쪽 화살표:** 노드를 확장 합니다. 노드가 확장 된 후 지속 되는 가장 가까운 열 오른쪽으로 이동 합니다. 행의 끝에서 탐색 중지 해야 합니다.
+- **오른쪽 화살표:** 노드를 확장 합니다. 노드가 확장 된 후 지속 되는 가장 가까운 열 오른쪽으로 이동 합니다. 행의 끝에서 탐색 중지 해야 합니다.
 
--   **탭:** 오른쪽에 가장 가까운 셀으로 이동합니다.  행의 끝을 탐색 다음 행으로 계속 됩니다.
+- **탭:** 오른쪽에 가장 가까운 셀으로 이동합니다.  행의 끝을 탐색 다음 행으로 계속 됩니다.
 
--   **Shift + Tab:** 왼쪽의 가장 가까운 셀으로 이동합니다.  행의 부분을 탐색 이전 행의 오른쪽에 있는 셀을 계속합니다.
+- **Shift + Tab:** 왼쪽의 가장 가까운 셀으로 이동합니다.  행의 부분을 탐색 이전 행의 오른쪽에 있는 셀을 계속합니다.
 
 ![Visual Studio의 trid 컨트롤](../../extensibility/ux-guidelines/media/070705-6_trid.png "070705 6_Trid")<br />Visual Studio의 trid 컨트롤

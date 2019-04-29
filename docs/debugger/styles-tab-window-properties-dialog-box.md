@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 581ad210e5e8b11fec35e2171f4e8c4b5553baa5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56701864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62929672"
 ---
 # <a name="styles-tab-window-properties-dialog-box"></a>창 속성 대화 상자, 스타일 탭
 사용 합니다 **스타일** 탭을 선택된 된 창에 적용 된 스타일을 표시 합니다. 표시할 합니다 [창 속성 대화 상자](../debugger/window-properties-dialog-box.md), 포커스를 이동 하는 [Windows 보기](../debugger/windows-view.md) 창입니다. 트리에서 창 노드를 선택 하 고 선택 **속성** 에서 합니다 **보기** 메뉴.

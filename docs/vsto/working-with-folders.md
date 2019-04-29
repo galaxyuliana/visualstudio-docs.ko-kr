@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 32dca296ef286e4c892791a1e71cfc765df80f19
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62815499"
 ---
 # <a name="work-with-folders"></a>폴더 작업
   <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> 클래스에는 폴더를 액세스, 작성 및 사용자 지정할 때 사용하는 메서드 및 속성이 포함되어 있습니다.

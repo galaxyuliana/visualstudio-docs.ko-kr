@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 4442143b2766ed3608a852d0f811a6b943fd19df
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007108"
 ---
 # <a name="function-expected"></a>함수가 필요합니다.
 중 하나를 호출 하려고 하거나 합니다 **함수 프로토타입** 되지 않은 개체의 메서드는 `Function` 개체, 함수 호출 컨텍스트의 개체를 사용 합니다. 때문에 다음 코드에서이 오류를 생성 하는 예를 들어 **예제에서는** 함수가 아닙니다.  

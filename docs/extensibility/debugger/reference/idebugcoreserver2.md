@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 1f4f01bb8e86e733bef3940a4772f52b28080628
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56712387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62922089"
 ---
 # <a name="idebugcoreserver2"></a>IDebugCoreServer2
 이 인터페이스는 표시 하 고 네트워크의 컴퓨터에서 서버에서 정보를 얻을 사용 됩니다.

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 3aee42e266e1082228c30ce56ac128e19ef6c576
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909462"
 ---
 # <a name="project-types-architecture"></a>프로젝트 형식 아키텍처
 프로젝트 형식 아키텍처에 대 한 자세한 정보를 포함 하는이 섹션에서는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다.

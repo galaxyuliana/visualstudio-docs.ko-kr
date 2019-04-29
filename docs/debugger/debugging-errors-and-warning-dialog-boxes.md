@@ -22,11 +22,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 69ad1208f9c3e36ff4f73b633efc9de180a09457
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62852099"
 ---
 # <a name="debugging-errors-and-warning-dialog-boxes"></a>디버깅 오류 및 경고 대화 상자
 다음은 응용 프로그램을 디버깅할 때 발생할 수 있는 오류 및 경고 대화 상자입니다.
@@ -57,7 +57,7 @@ ms.locfileid: "56700200"
  [오류: 시스템에 커널 디버거가 사용 중이므로 디버깅을 할 수 없습니다.](../debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md)
 
 ## <a name="related-sections"></a>관련 단원
- [스크립트와 웹 디버깅: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
+ [스크립트 및 웹 디버깅: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
 
  [원격 디버깅 오류](../debugger/remote-debugging-errors-and-troubleshooting.md)
 

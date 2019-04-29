@@ -7,12 +7,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 211e9ca6e5b30d2a2b88f03430090c155ef7627a
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.openlocfilehash: a3518133ef269c76e1689d8d68583a2d6a0d09b1
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62794136"
 ---
 # <a name="create-portable-custom-editor-settings-with-editorconfig"></a>EditorConfig를 사용하여 휴대용, 사용자 지정 편집기 설정 만들기
 
@@ -25,7 +25,7 @@ Visual Studio에서 프로젝트에 EditorConfig 파일을 추가할 때 문서�
 > [!NOTE]
 > 이 토픽은 Windows의 Visual Studio에 적용됩니다. Mac용 Visual Studio는 [Mac용 Visual Studio의 EditorConfig](/visualstudio/mac/editorconfig)를 참조하세요.
 
-## <a name="coding-consistency"></a>코딩 일관성
+## <a name="code-consistency"></a>코드 일관성
 
 EditorConfig 파일의 설정을 사용하면 사용하는 편집기나 IDE에 관계없이 코드베이스에서 들여 쓰기 스타일, 탭 너비, 줄의 끝 문자, 인코딩 등과 같은 일관된 코딩 스타일과 설정을 유지할 수 있습니다. 예를 들어 C#으로 코딩하는 경우 코드베이스에 들여쓰기가 항상 공백 문자 5개로 구성되고, 문서에서 UTF-8 인코딩을 사용하고, 각 줄이 항상 CR/LF로 끝나도록 하는 규칙이 있다면 *.editorconfig* 파일을 해당 규칙에 따라 구성할 수 있습니다.
 
@@ -51,7 +51,7 @@ Visual Studio의 편집기는 다음과 같은 [EditorConfig 속성](http://edit
 
 EditorConfig 편집기 설정은 XML을 제외하고 Visual Studio가 지원하는 모든 언어에서 지원됩니다. 또한 EditorConfig는 C# 및 Visual Basic에 대해 [코드 스타일](../ide/editorconfig-code-style-settings-reference.md) 및 [명명](../ide/editorconfig-naming-conventions.md) 규칙을 지원합니다.
 
-## <a name="adding-and-removing-editorconfig-files"></a>EditorConfig 파일 추가 및 제거
+## <a name="add-and-remove-editorconfig-files"></a>EditorConfig 파일 추가 및 제거
 
 EditorConfig 파일을 프로젝트나 코드베이스에 추가해도 기존 스타일이 새로운 스타일로 변환되지 않습니다. 예를 들어 파일에 탭으로 서식이 지정된 들여쓰기가 있는 경우 공백으로 들여쓰기가 적용되는 EditorConfig 파일을 추가해도 들여쓰기 문자가 공백으로 자동 변환되지 않습니다. 하지만 새로운 코드 줄은 EditorConfig 파일에 따라 서식이 지정됩니다. 또한 문서의 서식을 지정(**편집** > **고급** > **문서 서식** 또는 **Ctrl**+**K**, **Ctrl**+**D**)하는 경우 EditorConfig 파일의 설정이 기존 코드 줄에 적용됩니다.
 
@@ -94,7 +94,7 @@ EditorConfig 파일을 프로젝트나 코드베이스에 추가해도 기존 �
 
 - [IntelliCode 확장](/visualstudio/intellicode/intellicode-visual-studio)을 사용해 보세요. 이 실험적 확장은 기존 코드에서 코드 스타일을 유추한 후 이미 정의된 코드 스타일 기본 설정을 사용하여 비어 있지 않은 *.editorconfig* 파일을 만듭니다.
 
-## <a name="override-editorconfig-settings"></a>EditorConfig 설정 재정의
+## <a name="file-hierarchy-and-precedence"></a>파일 계층 구조 및 우선 순위
 
 파일 계층 구조의 폴더에 *.editorconfig* 파일을 추가하는 경우 해당 설정이 이 수준과 그 아래에 있는 모든 파일에 적용됩니다. 코드베이스의 다른 부분과는 다른 규칙을 사용하는, 특정 프로젝트, 코드베이스 또는 코드베이스 일부에 대한 EditorConfig 설정을 재정의할 수 있습니다. 이는 다른 위치에서 코드를 통합하면서 해당 규칙을 변경하지 않으려는 경우에 유용할 수 있습니다.
 
@@ -109,9 +109,9 @@ EditorConfig 설정의 일부 또는 전부를 재정의하려면 이러한 재�
 root = true
 ```
 
-EditorConfig 파일은 위쪽에서 아래쪽으로 읽으며 가장 가까운 EditorConfig 파일을 마지막으로 읽습니다. 일치하는 EditorConfig 섹션의 규칙이 읽는 순서로 적용되므로, 가까운 파일의 규칙이 우선 적용됩니다.
+EditorConfig 파일은 위쪽에서 아래쪽으로 읽습니다. 동일한 이름의 속성이 여러 개 있는 경우 가장 최근에 발견된 해당 이름의 속성이 우선 적용됩니다.
 
-## <a name="editing-editorconfig-files"></a>EditorConfig 파일 편집
+## <a name="edit-editorconfig-files"></a>EditorConfig 파일 편집
 
 Visual Studio를 통해 IntelliSense 완성 목록을 제공하여 *.editorconfig* 파일을 편집할 수 있습니다.
 
@@ -148,7 +148,7 @@ indent_style = tab
 
 ![Tab 키가 탭 문자 추가](../ide/media/vside_editorconfig_tab.png)
 
-## <a name="troubleshooting-editorconfig-settings"></a>EditorConfig 설정 문제 해결
+## <a name="troubleshoot-editorconfig-settings"></a>EditorConfig 설정 문제 해결
 
 프로젝트 위에 또는 그 이상에 있는 디렉터리 구조의 어디엔가 EditorConfig 파일이 있다면 Visual Studio는 해당 파일의 편집기 설정을 사용자의 편집기에 적용합니다. 이 경우에는 상태 표시줄에서 다음 메시지가 보일 수 있습니다.
 

@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 61e51f6274bc22ed0d34d33f5ff85bfbfbd927bd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62812461"
 ---
 # <a name="how-to-programmatically-open-text-files-as-workbooks"></a>방법: 프로그래밍 방식으로 통합 문서로 텍스트 파일 열기
   통합 문서로 텍스트 파일을 열 수 있습니다. 열려는 텍스트 파일의 이름을 전달 해야 합니다. 시작에 대해 구문 분석 한 파일에 있는 데이터의 열 형식에는 행 수와 같은 여러 가지 선택적 매개 변수를 지정할 수 있습니다.

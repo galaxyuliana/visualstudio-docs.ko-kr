@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: cfe4b81f455f9efb5ee03b9c3db5f189cf19e176
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62869536"
 ---
 # <a name="idebugproperty2getextendedinfo"></a>IDebugProperty2::GetExtendedInfo
 확장 속성에 대 한 정보를 가져옵니다.
@@ -45,7 +45,7 @@ int GetExtendedInfo ( 
 
  `pExtendedInfo`
 
- [out] 반환 된 `VARIANT` (c + +) 또는 개체 (C#) 확장된 속성 정보를 검색 하려면 사용할 수 있는 합니다. 예를 들어이 매개 변수를 반환할 수 있습니다는 `IUnknown` 에 대해 쿼리할 수 있는 인터페이스를 [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md) 인터페이스입니다. 세부 정보에 대 한 설명을 참조 하세요.
+ [out] 반환 된 `VARIANT` (C++) 또는 개체 (C#)는 확장된 속성 정보를 검색할 수입니다. 예를 들어이 매개 변수를 반환할 수 있습니다는 `IUnknown` 에 대해 쿼리할 수 있는 인터페이스를 [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md) 인터페이스입니다. 세부 정보에 대 한 설명을 참조 하세요.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 반환 `S_GETEXTENDEDINFO_NO_EXTENDEDINFO` 검색할 확장된 정보가 없는 경우.

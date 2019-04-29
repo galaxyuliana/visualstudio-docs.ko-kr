@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 72b5c30750486d8078fc44b7d49716eb5e8488e5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007342"
 ---
 # <a name="runtime-activity-designers"></a>런타임 활동 디자이너
 Runtime 활동 디자이너는 워크플로 활동을 지속하고 종료하는 데 사용됩니다. 이 단원의 항목에서는 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 활동 디자이너의 사용 방법에 대한 지침을 제공합니다.  

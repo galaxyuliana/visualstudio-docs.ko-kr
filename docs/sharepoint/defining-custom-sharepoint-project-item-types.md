@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: e5f32abba4c4cbdeab59ed66e38019d913e704e6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62580786"
 ---
 # <a name="define-custom-sharepoint-project-item-types"></a>사용자 지정 SharePoint 프로젝트 항목 형식 정의
   SharePoint 프로젝트 항목의 새 종류를 하려는 경우 새 SharePoint 프로젝트 항목 형식을 정의 합니다. 예를 들어, Visual Studio는 추가 필드 또는 SharePoint 사이트에 사용자 지정 작업에 대 한 SharePoint 프로젝트 항목을 포함 되지 않습니다. 필드, 사용자 지정 작업 또는 다른 유형의 SharePoint 구성 요소를 만들기 위한 SharePoint 프로젝트 항목의 고유한 형식을 정의할 수 있습니다.

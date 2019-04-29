@@ -9,14 +9,14 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3a7bf9830e71abef04348307af4d841e7029afc4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55941480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62820600"
 ---
 # <a name="mixed-minimum-rules-rule-set"></a>혼합 최소 규칙 규칙 집합
-Microsoft 혼합 최소 규칙은 잠재적 보안 허점 및 응용 프로그램 작동 중단을 포함 하 여 공용 언어 런타임을 지 원하는 c + + 프로젝트에서 가장 중요 한 문제에 집중 합니다. 공용 언어 런타임을 지 원하는 c + + 프로젝트에 대해 만든 모든 사용자 지정 규칙 집합에 설정 합니다.이 규칙을 포함 해야 합니다.
+Microsoft 혼합 최소 규칙의 가장 중요 한 문제에 집중 하 C++ 잠재적 보안 허점 및 응용 프로그램 작동 중단을 포함 하 여 공용 언어 런타임을 지 원하는 프로젝트입니다. 이 규칙 집합에 대해 만든 모든 사용자 지정 규칙 집합에 포함 해야 하면 C++ 공용 언어 런타임에서 지 원하는 프로젝트입니다.
 
 |규칙|설명|
 |----------|-----------------|

@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 39669408402a12ce8010865606e2a2ec3929569b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54756394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62537604"
 ---
 # <a name="general-user-interface-elements-visual-studio"></a>일반 사용자 인터페이스 요소(Visual Studio)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,15 +41,15 @@ ms.locfileid: "54756394"
 
  [옵션, 텍스트 편집기, 기본 (Visual Basic)](../../ide/reference/options-text-editor-basic-visual-basic.md) Visual Basic 파일에 대 한 옵션을 지정할 수 있습니다.
 
- [옵션, 텍스트 편집기, C/c + +, 서식 지정](../../ide/reference/options-text-editor-c-cpp-formatting.md) C 또는 c + + 파일에 대 한 서식 옵션을 지정할 수 있습니다.
+ [옵션, 텍스트 편집기, C /C++, 서식 지정](../../ide/reference/options-text-editor-c-cpp-formatting.md) C에 대 한 서식 옵션을 지정할 수 있습니다 또는 C++ 파일입니다.
 
- [옵션, 텍스트 편집기, C/c + +, 고급](../../ide/reference/options-text-editor-c-cpp-advanced.md) C 또는 c + + 파일에 대 한 고급 옵션을 지정할 수 있습니다.
+ [옵션, 텍스트 편집기, C /C++고급](../../ide/reference/options-text-editor-c-cpp-advanced.md) C 용 고급 옵션을 지정할 수 있습니다 또는 C++ 파일입니다.
 
- [옵션, 텍스트 편집기 C#, 서식 지정](../../ide/reference/options-text-editor-csharp-formatting.md) 에 대 한 서식 옵션을 지정할 수 있습니다 C# 파일입니다.
+ [옵션, 텍스트 편집기, C#, 서식](../../ide/reference/options-text-editor-csharp-formatting.md) C# 파일에 대 한 서식 옵션을 지정할 수 있습니다.
 
- [옵션, 텍스트 편집기 C#고급](../../ide/reference/options-text-editor-csharp-advanced.md) 에 대 한 고급 옵션을 지정할 수 있습니다 C# 파일입니다.
+ [옵션, 텍스트 편집기, C#, 고급](../../ide/reference/options-text-editor-csharp-advanced.md) C# 파일에 대 한 고급 옵션을 지정할 수 있습니다.
 
- [옵션, 텍스트 편집기 C#, IntelliSense](../../ide/reference/options-text-editor-csharp-intellisense.md) 에 대 한 IntelliSense 옵션을 지정할 수 있습니다 C# 파일입니다.
+ [옵션, 텍스트 편집기, C#, IntelliSense](../../ide/reference/options-text-editor-csharp-intellisense.md) C# 파일에 대 한 IntelliSense 옵션을 지정할 수 있습니다.
 
  [옵션, 텍스트 편집기, XAML, 서식 지정](../../ide/reference/options-text-editor-xaml-formatting.md) XAML 파일에 대 한 서식 옵션을 지정할 수 있습니다.
 

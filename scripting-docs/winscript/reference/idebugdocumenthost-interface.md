@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 226e2700b471cd34496682d233e57946e124ff3b
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155669"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62939226"
 ---
 # <a name="idebugdocumenthost-interface"></a>IDebugDocumentHost 인터페이스
 구문 색 지정, 디버거 같은 호스트 관련 기능을 노출 합니다. `IDebugDocumentHelper::SetDebugDocumentHost` 메서드 인수로이 인터페이스를 사용 합니다.  

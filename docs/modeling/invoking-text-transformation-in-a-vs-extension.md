@@ -1,5 +1,5 @@
 ---
-title: VS 확장에서 텍스트 변환 호출
+title: VS 확장명에서 텍스트 변형 호출
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
@@ -8,13 +8,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 43f071d73bef7d7b67988ccffb00b7ae7518b916
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55945341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62810569"
 ---
-# <a name="invoking-text-transformation-in-a-vs-extension"></a>VS 확장에서 텍스트 변환 호출
+# <a name="invoking-text-transformation-in-a-vs-extension"></a>VS 확장명에서 텍스트 변형 호출
 메뉴 명령 등 Visual Studio 확장을 작성 하는 경우 또는 [도메인별 언어](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md), 텍스트 템플릿 변환에 텍스트 템플릿 서비스를 사용할 수 있습니다. <xref:Microsoft.VisualStudio.TextTemplating.VSHost.STextTemplating> 서비스를 가져와서 <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>으로 캐스팅합니다.
 
 ## <a name="getting-the-text-templating-service"></a>텍스트 템플릿 서비스 가져오기
@@ -40,7 +40,7 @@ string result = t4.ProcessTemplate(filePath, System.IO.File.ReadAllText(filePath
 
  매개 변수 값을 전달하기 위해 호출 코드에서 값을 `Session` 사전이나 <xref:System.Runtime.Remoting.Messaging.CallContext>에 둘 수 있습니다.
 
- 다음 예제에서는 두 가지 방법을 사용하여 짧은 테스트 템플릿을 변환합니다.
+ 다음 예제에서는 두 가지 방법을 사용하여 짧은 테스트 템플릿을 변형합니다.
 
 ```
 using Microsoft.VisualStudio.TextTemplating;
@@ -137,4 +137,4 @@ Sample text.
 
  Visual Studio 확장을 벗어나는 텍스트를 생성 합니다. 사용자 지정 호스트를 정의합니다. 자세한 내용은 [사용자 지정 호스트를 사용 하 여 텍스트 템플릿 처리](../modeling/processing-text-templates-by-using-a-custom-host.md)합니다.
 
- 나중에 컴파일하고 실행할 수 있는 소스 코드를 생성하려면 `t4.PreprocessTemplate()`의 <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating> 메서드를 호출합니다.
+ 나중에 컴파일하고 실행할 수 있는 소스 코드를 생성하려면 `t4.PreprocessTemplate()` 의 <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>메서드를 호출합니다.

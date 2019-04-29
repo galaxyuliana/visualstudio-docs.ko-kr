@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 025f5366938eb00114b035f0b7992d61433cc181
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62908158"
 ---
 # <a name="validating-breakpoints-in-a-legacy-language-service"></a>레거시 언어 서비스의 중단점 유효성 검사
 중단점 디버거에서 실행 되는 동안 특정 지점에서 프로그램 실행 중지 해야 함을 나타냅니다. 편집기에 중단점의 올바른 위치를 구성 하는 데 대 한 지식은 없는 사용자 소스 파일에서 줄 중단점을 배치 수 있습니다. 디버거를 시작할 때 실행 중인 프로그램에 적절 한 위치에 바인딩됩니다 (보류 중단점 라고 함)은 표시 된 중단점의 모든 나타납니다. 중단점의 유효성을 검사 했는지 한 번에 유효한 코드 위치 표시 합니다. 예를 들어, 메모 중단점 올바르지 소스 코드의 위치에 있는 코드 없이 있기 때문에 합니다. 디버거가 잘못 된 중단점을 해제합니다.

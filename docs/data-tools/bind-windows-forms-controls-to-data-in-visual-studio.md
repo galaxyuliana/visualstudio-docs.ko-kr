@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 6b961af0bf35bb4476f9f336fcf5298bb0bd3651
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55951672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62818772"
 ---
 # <a name="bind-windows-forms-controls-to-data-in-visual-studio"></a>Windows Forms 컨트롤을 Visual Studio의 데이터에 바인딩
 
@@ -80,7 +80,7 @@ Windows Forms에 데이터를 바인딩하여 응용 프로그램의 사용자�
 
 각 컨트롤에 스마트 태그는 또한 note 합니다. 이 태그에만 해당 컨트롤에 적용 되는 사용자 지정 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio의 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [Windows Forms (.NET Framework)의 데이터 바인딩](/dotnet/framework/winforms/windows-forms-data-binding)

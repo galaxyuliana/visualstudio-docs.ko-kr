@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5b109fd995f54ede3aa2c8a6381cb9e6296a6970
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60074975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62847512"
 ---
 # <a name="how-to-specify-debugger-settings"></a>방법: 디버거 설정 지정
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서는 변수 표시 방법, 특정 경고 표시 여부, 중단점 설정 방법, 프로그램 중단이 실행 프로그램에 미치는 영향 등을 포함하여 디버거 작동에 대한 여러 가지 설정을 지정할 수 있습니다. 디버거 설정은 **옵션** 대화 상자에서 지정합니다.

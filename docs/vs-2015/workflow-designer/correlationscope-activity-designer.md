@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 95c8422d53903c3c7b81db9f6ef042c5ea9ff1c1
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58981962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976762"
 ---
 # <a name="correlationscope-activity-designer"></a>CorrelationScope 활동 디자이너
 **CorrelationScope** 활동 디자이너는 만들기 및 구성 하는 데 사용 되는 <xref:System.ServiceModel.Activities.CorrelationScope> 사용 하 여 자식 메시징 활동을 암시적으로 관리 하는 작업을 <xref:System.ServiceModel.Activities.CorrelationHandle> 개체입니다.  

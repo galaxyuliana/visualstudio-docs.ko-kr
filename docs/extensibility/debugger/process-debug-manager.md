@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 9f6a93cc87be2369ba3bc96bf6682caeb4a727c9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56718939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62889174"
 ---
 # <a name="process-debug-manager"></a>프로세스 디버그 관리자
 프로세스 디버그 관리자 (PDM) 프로그램을 관리 하는 Visual Studio의 구성 요소 이며 세션에 사용할 수 있도록 프로세스 디버그 관리자 및 디버그 엔진.

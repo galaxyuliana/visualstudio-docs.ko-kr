@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 9fc2a0774206eac0c9295a425d81555ffdd3cac8
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62561377"
 ---
 # <a name="properties-in-office-projects"></a>Office 프로젝트의 속성
   Visual Studio에서 Office 프로젝트에 사용할 수 있는 몇 가지 중요한 속성이 있습니다. 이러한 속성은 **속성** 창에서 액세스할 수 있습니다.

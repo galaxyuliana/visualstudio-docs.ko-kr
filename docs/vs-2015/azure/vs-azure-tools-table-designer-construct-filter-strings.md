@@ -1,22 +1,24 @@
 ---
 title: 테이블 디자이너에 대한 필터 문자열 생성하기 | Microsoft Docs
 description: 테이블 디자이너에 대한 필터 문자열 생성하기
+services: visual-studio-online
 author: ghogen
-manager: jillfra
+manager: douge
 assetId: a1a10ea1-687a-4ee1-a952-6b24c2fe1a22
-ms.prod: visual-studio-dev14
+ms.prod: visual-studio-dev15
 ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 11/18/2016
-ms.author: ghogen
+origin.date: 11/18/2016
+ms.date: 09/10/2018
+ms.author: v-junlch
 ms.openlocfilehash: ab38ffd1f94e6c8c432d25d8408a0209e4f96e30
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62961926"
 ---
 # <a name="constructing-filter-strings-for-the-table-designer"></a>테이블 디자이너에 대한 필터 문자열 생성하기
 ## <a name="overview"></a>개요
@@ -41,9 +43,9 @@ WCF Data Services는 [개방형 데이터 프로토콜](http://go.microsoft.com/
 
 필터 문자열을 생성할 때 다음의 규칙이 중요합니다.
 
-* 논리 연산자를 사용하여 속성 값을 비교합니다. 참고로 동적 값에 속성을 비교할 수 있으며 식의 한쪽은 상수여야 합니다.
-* 필터 문자열의 모든 부분은 대/소문자를 구분합니다.
-* 상수 값은 유효한 결과를 반환하는 필터에 대한 속성과 동일한 데이터 형식이어야 합니다. 속성 형식에 대한 자세한 내용은 [테이블 서비스 데이터 모델 이해](http://go.microsoft.com/fwlink/p/?LinkId=400448)를 참조하세요.
+- 논리 연산자를 사용하여 속성 값을 비교합니다. 참고로 동적 값에 속성을 비교할 수 있으며 식의 한쪽은 상수여야 합니다.
+- 필터 문자열의 모든 부분은 대/소문자를 구분합니다.
+- 상수 값은 유효한 결과를 반환하는 필터에 대한 속성과 동일한 데이터 형식이어야 합니다. 속성 형식에 대한 자세한 내용은 [테이블 서비스 데이터 모델 이해](http://go.microsoft.com/fwlink/p/?LinkId=400448)를 참조하세요.
 
 ## <a name="filtering-on-string-properties"></a>문자열 속성 필터링
 문자열 속성으로 필터링하는 경우 문자열 상수를 작은따옴표로 묶습니다.
@@ -92,3 +94,5 @@ DateTime 값을 필터링하려면 **datetime** 키워드를 지정하고 그 �
 다음 예제는 CustomerSince 속성이 2008년 7월 10일과 같은 경우 엔터티를 반환합니다.
 
     CustomerSince eq datetime'2008-07-10T00:00:00Z'
+
+<!-- Update_Description: update metedata properties -->

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 74604e0b3446e33962c6a8e69a69bfc400f0e3e2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62916699"
 ---
 # <a name="idebugprogramprovider2"></a>IDebugProgramProvider2
 이 등록된 인터페이스를 사용 하면 세션 디버그 관리자 (SDM)가 "게시"를 통해 프로그램에 대 한 정보를 [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md) 인터페이스입니다.

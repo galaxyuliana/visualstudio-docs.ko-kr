@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 749441e960363fe208e3ad67288180c1935db35f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62860606"
 ---
 # <a name="image-library-viewer"></a>이미지 라이브러리 뷰어
 Visual Studio 이미지 라이브러리 뷰어 도구를 로드 하 고 Visual Studio는 동일한 방식으로 조작할 수 있도록 이미지 매니페스트를 검색할 수 있습니다. 백그라운드, 크기, DPI, 고대비 등 및 기타 설정을 변경할 수 있습니다. 또한 도구는 각 이미지 매니페스트에 대 한 정보를 로드를 표시 하 고 이미지 매니페스트에서 각 이미지에 대 한 소스 정보를 표시 합니다. 이 도구에 유용합니다.

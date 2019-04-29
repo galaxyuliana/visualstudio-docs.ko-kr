@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7a54b95130479a2f8091c3618ac32e48c261e5e0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 9f6ccc0284f89891ff686e456abdcccb1b5296e8
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62821584"
 ---
 # <a name="use-the-task-list"></a>작업 목록 사용
 
@@ -83,6 +83,9 @@ ms.locfileid: "55954703"
 4. **우선 순위** 드롭다운 목록에서 새 토큰의 기본 우선 순위를 선택합니다.
 
 5. **추가**를 선택합니다.
+
+> [!TIP]
+> **추가** 단추는 이름을 입력한 후 사용하도록 설정됩니다. **추가**를 클릭하기 전에 이름을 입력해야 합니다.
 
 ### <a name="c-todo-comments"></a>C++ TODO 주석
 

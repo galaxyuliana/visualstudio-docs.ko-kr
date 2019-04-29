@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 6f3fe14cff05f37ef7ee6f10026fd727696a223f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696053"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62925721"
 ---
 # <a name="get-started-with-debugger-extensibility"></a>디버거 확장성 시작
 합니다 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] 만들고 디버거 구성 요소 내에서 프로그램을 디버그 하는 데 사용자 지정 해야 하는 정보를 제공 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 환경입니다.
@@ -30,7 +30,7 @@ ms.locfileid: "56696053"
 
 - [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)
 
-- C + + 프로그래밍 언어
+- C++ 프로그래밍 언어
 
 - ATL COM
 

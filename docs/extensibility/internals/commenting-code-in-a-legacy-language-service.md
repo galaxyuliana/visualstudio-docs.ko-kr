@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 9c82669ac6d4f32f1525b7e14427ed620a51cfc5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62861587"
 ---
 # <a name="comment-code-in-a-legacy-language-service"></a>레거시 언어 서비스의 코드 주석
 프로그래밍 언어는 일반적으로 주석을 추가 하거나 코드를 주석 처리 하는 수단을 제공 합니다. 주석을 코드에 대 한 추가 정보를 제공 하지만 컴파일 또는 해석 하는 중에 무시 되는 텍스트의 섹션을입니다.

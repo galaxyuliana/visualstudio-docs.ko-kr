@@ -8,11 +8,11 @@ manager: viveis
 ms.workload:
 - vssdk
 ms.openlocfilehash: 011781b434c4d005e473c5f97c60a9269dc5d034
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62952765"
 ---
 # <a name="workspaces"></a>작업 영역
 
@@ -59,7 +59,7 @@ ms.locfileid: "57324236"
 1. 모든 디렉터리 및 작업 영역 루트까지 추가 부모입니다.
 1. "전역 설정"에서 사용자 디렉터리에 있는 합니다.
 
-결과의 인스턴스가 <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings>합니다. 이 개체를 특정 형식에 대 한 설정을 보유 하 고 설정 키 이름으로 저장 쿼리할 수 있습니다 `string`합니다. 합니다 <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings.GetProperty%2A> 메서드 및 <xref:Microsoft.VisualStudio.Workspace.Settings.WorkspaceSettingsExtensions> 확장 메서드는 호출자가 요청 된 설정 값의 형식을 알 수를 예상 합니다. 대부분의 설정 파일으로 유지 됩니다 _.json_ 파일을 여러 호출 사용할지 `string`, `bool`, `int`, 및 해당 형식의 배열입니다. 개체 형식도 지원 됩니다. 이러한 경우에 사용할 수 있습니다 `IWorkspaceSettings` 형식 인수로 자체입니다. 예를 들면,
+결과의 인스턴스가 <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings>합니다. 이 개체를 특정 형식에 대 한 설정을 보유 하 고 설정 키 이름으로 저장 쿼리할 수 있습니다 `string`합니다. 합니다 <xref:Microsoft.VisualStudio.Workspace.Settings.IWorkspaceSettings.GetProperty%2A> 메서드 및 <xref:Microsoft.VisualStudio.Workspace.Settings.WorkspaceSettingsExtensions> 확장 메서드는 호출자가 요청 된 설정 값의 형식을 알 수를 예상 합니다. 대부분의 설정 파일으로 유지 됩니다 _.json_ 파일을 여러 호출 사용할지 `string`, `bool`, `int`, 및 해당 형식의 배열입니다. 개체 형식도 지원 됩니다. 이러한 경우에 사용할 수 있습니다 `IWorkspaceSettings` 형식 인수로 자체입니다. 예를 들어:
 
 ```json
 {

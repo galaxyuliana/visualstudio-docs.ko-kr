@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: b4d13ed44a3704095b95a899a3ec35b806011b71
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62858172"
 ---
 # <a name="source-control"></a>소스 제어
 이 섹션에서는 설명의 통합된 기능으로 소스 제어를 구현 하기 위한 옵션 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 소스 제어 플러그 인 또는 소스 제어 VSPackage 통해.
