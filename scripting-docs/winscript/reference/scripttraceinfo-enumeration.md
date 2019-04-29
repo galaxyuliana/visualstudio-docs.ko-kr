@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 2ed2c6566db8209280be7f102a55c7de8cf85c44
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62840150"
 ---
 # <a name="scripttraceinfo-enumeration"></a>SCRIPTTRACEINFO 열거형
 추적 되는 스크립트 이벤트를 나타냅니다. 에 사용 된 [iactivescriptsitetraceinfo:: Sendscripttraceinfo 메서드](../../winscript/reference/iactivescriptsitetraceinfo-sendscripttraceinfo-method.md)합니다.  

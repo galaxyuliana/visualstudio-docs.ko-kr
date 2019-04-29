@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 6157b4bc3537a4f88feb91d512241451b8324ba7
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56682806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838908"
 ---
 # <a name="visual-studio-sdk-glossary"></a>Visual Studio SDK 용어집
 에 사용 되는 용어에 대 한 정의 제공 하는이 용어는 [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] 설명서.

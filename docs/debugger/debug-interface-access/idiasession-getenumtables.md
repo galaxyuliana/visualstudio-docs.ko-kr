@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 759972fa02c7645ae457e0b715d835b2d717e26f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839175"
 ---
 # <a name="idiasessiongetenumtables"></a>IDiaSession::getEnumTables
 기호 저장소에 포함 된 모든 테이블에 대 한 열거자를 검색 합니다.

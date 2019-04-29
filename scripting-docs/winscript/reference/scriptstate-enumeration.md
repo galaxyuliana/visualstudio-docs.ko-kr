@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: fe6a05c5e73d26a8daa9e46c317422d85d1c40be
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62840163"
 ---
 # <a name="scriptstate-enumeration"></a>SCRIPTSTATE 열거형
 스크립팅 엔진의 상태를 지정 합니다. 이 열거형은에서 사용 합니다 [IActiveScript::GetScriptState](../../winscript/reference/iactivescript-getscriptstate.md) 를 [iactivescript:: Setscriptstate](../../winscript/reference/iactivescript-setscriptstate.md) , 및 [IActiveScriptSite::OnStateChange](../../winscript/reference/iactivescriptsite-onstatechange.md) 메서드.  

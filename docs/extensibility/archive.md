@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 05911005a0ad64687b4381684609c0aecb9005f2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62843620"
 ---
 # <a name="archive"></a>보관 파일
 이 섹션에는 계속 지원 되지만 최신 대체 기술이 있는 Visual Studio 확장성 기술 토론 포함 되어 있습니다.

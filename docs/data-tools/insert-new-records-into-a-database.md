@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: a3fb276b3efb0d437d66d3e38c9e55b45b43e9c6
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566344"
 ---
 # <a name="insert-new-records-into-a-database"></a>데이터베이스에 새 레코드 삽입
 
@@ -84,6 +84,6 @@ Tableadapter에는 응용 프로그램의 요구 사항에 따라 데이터베�
 
 연결 하려는 데이터베이스 뿐만 아니라 원하는 테이블에 삽입을 수행할 수 있는 권한이 있는 사용 권한이 있어야 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)

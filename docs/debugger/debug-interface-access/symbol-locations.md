@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3cc8ed99cad2fb0806c7072b1b2f494aa60e967c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62854770"
 ---
 # <a name="symbol-locations"></a>기호 위치
 대부분의 기호에는 이미지 파일 내에서 정의 된 위치는 있습니다. 값을 사용 하 여 기호 위치를 지정 합니다 [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md) 열거형입니다. 기호 위치에 따라 추가 속성을 지원할 수 있습니다.

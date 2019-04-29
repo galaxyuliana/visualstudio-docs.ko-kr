@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 0ab98719f13ed787947a5e1d8a06d2080718eb0e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62907559"
 ---
 # <a name="what39s-new-in-the-source-control-plug-in-api-version-12"></a>새로운&#39;의 원본 제어 플러그 인 API 버전 1.2
 이 섹션은 원본 제어 플러그 인 API 버전 1.2에서에서 고급 소스 코드 제어 기능을 강조 표시합니다. 다음은 버전 1.2의에서 새로운 기능에 대 한 목록입니다.

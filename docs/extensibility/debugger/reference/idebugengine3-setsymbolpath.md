@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 3799043b82a4e0d0993e7de255f69592c6b89534
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62875274"
 ---
 # <a name="idebugengine3setsymbolpath"></a>IDebugEngine3::SetSymbolPath
 디버깅 기호가 검색 하는 경로 경로 설정 합니다.
@@ -54,7 +54,7 @@ int SetSymbolPath(
 ## <a name="remarks"></a>설명
  문자열 `szSymbolSearchPath` 은 하나 이상의 경로, 기호를 검색할 세미콜론으로 구분 된 목록입니다. 이러한 경로 로컬 경로, 스타일 UNC 경로 또는 URL 수 있습니다. 이러한 경로 서로 다른 유형의 혼합 될 수도 있습니다. 경로가 UNC 경로인 경우 (예를 들어 \\\Symserver\Symbols), 경로 기호 서버에 이며 지정 된 경로에서 캐시 하는 서버에서 기호를 로드할 수 있어야 하는 경우 디버그 엔진을 결정 하는 다음 `szSymbolCachePath`합니다.
 
- 기호 경로는 캐시 위치를 하나 이상 포함할 수도 있습니다. 캐시를 먼저 가장 높은 우선 순위 캐시를 사용 하 여 우선 순위 순서로 나열 되 고 구분 하 여 * 기호. 예를 들면,
+ 기호 경로는 캐시 위치를 하나 이상 포함할 수도 있습니다. 캐시를 먼저 가장 높은 우선 순위 캐시를 사용 하 여 우선 순위 순서로 나열 되 고 구분 하 여 * 기호. 예를 들어:
 
 ```
 \\symbols\symbols;\\someotherserver\symbols;c:\symbols\httpsymbols*http://msdl.microsoft.com

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4e4adb0747ce569bc372daf0d36cfe1719a2ff61
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62830297"
 ---
 # <a name="idiaframedata"></a>IDiaFrameData
 스택 프레임의 세부 정보를 표시합니다.
@@ -45,14 +45,14 @@ IDiaFrameData : IUnknown
 |[IDiaFrameData::get_lengthSavedRegisters](../../debugger/debug-interface-access/idiaframedata-get-lengthsavedregisters.md)|스택에 저장 된 레지스터의 바이트 수를 검색 합니다.|
 |[IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)|현재 함수를 호출 하기 전에 설정 하는 레지스터를 계산 하는 데 사용 되는 프로그램 문자열을 검색 합니다.|
 |[IDiaFrameData::get_systemExceptionHandling](../../debugger/debug-interface-access/idiaframedata-get-systemexceptionhandling.md)|검색 해당 시스템 예외 처리를 나타내는 플래그 적용 됩니다.|
-|[IDiaFrameData::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling.md)|검색 해당 c + + 예외 처리를 나타내는 플래그 적용 됩니다.|
+|[IDiaFrameData::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling.md)|함을 나타내는 플래그를 검색 C++ 예외 처리에 적용 됩니다.|
 |[IDiaFrameData::get_functionStart](../../debugger/debug-interface-access/idiaframedata-get-functionstart.md)|블록 함수의 진입점이 포함 되어 있는지 여부를 나타내는 플래그를 검색 합니다.|
 |[IDiaFrameData::get_allocatesBasePointer](../../debugger/debug-interface-access/idiaframedata-get-allocatesbasepointer.md)|이 주소 범위에서 코드에 대 한 기본 포인터 할당 되는 여부를 나타내는 플래그를 검색 합니다. 이 메서드는 사용 되지 않습니다.|
 |[IDiaFrameData::get_type](../../debugger/debug-interface-access/idiaframedata-get-type.md)|컴파일러 별 프레임 형식을 검색합니다.|
 |[IDiaFrameData::get_functionParent](../../debugger/debug-interface-access/idiaframedata-get-functionparent.md)|검색은 데이터 인터페이스 바깥쪽 함수에 대 한 프레임입니다.|
 |[IDiaFrameData::execute](../../debugger/debug-interface-access/idiaframedata-execute.md)|스택 해제를 수행 하 고 스택 워크 프레임 인터페이스에서 등록의 현재 상태를 반환 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  프레임에 사용할 수 있는 세부 정보는 주소 및 블록 길이 나타내는 주소 범위 내의 실행 지점입니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

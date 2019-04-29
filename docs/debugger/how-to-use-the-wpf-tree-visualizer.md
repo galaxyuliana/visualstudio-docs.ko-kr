@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: da18990620644834192c38c24ced9a25ecb56215
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62906111"
 ---
 # <a name="how-to-use-the-wpf-tree-visualizer"></a>방법: WPF 트리 시각화 도우미 사용
 WPF 트리 시각화 도우미를 사용하여 WPF 개체의 표시 트리를 탐색하고 트리에 포함된 개체의 WPF 종속성 속성을 볼 수 있습니다. 시각적 트리에 대 한 자세한 내용은 참조 하세요. [WPF의 트리](/dotnet/framework/wpf/advanced/trees-in-wpf)합니다. 종속성 속성에 대 한 자세한 내용은 참조 하세요. [종속성 속성 개요](/dotnet/framework/wpf/advanced/dependency-properties-overview)합니다.

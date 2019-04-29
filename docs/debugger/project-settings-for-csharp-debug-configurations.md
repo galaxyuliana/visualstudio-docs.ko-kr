@@ -22,11 +22,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: a5108e195e5df245c72436752316e8ee91781e7d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62904064"
 ---
 # <a name="project-settings-for--c-debug-configurations"></a>C# 디버그 구성을 위한 프로젝트 설정
 
@@ -60,5 +60,5 @@ ms.locfileid: "56680609"
 |**출력** > **출력 경로**|디버깅 작업에서는 일반적으로 *bin\Debug*로 설정합니다.|
 |**고급** 단추|고급 디버깅 옵션에 대 한 자세한 내용은 [고급 빌드 설정 대화 상자 (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md)합니다. 기호에 대 한 이식 가능한 형식 (*.pdb*) 파일은.NET Core 앱에 대 한 최신 크로스 플랫폼 형식입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)

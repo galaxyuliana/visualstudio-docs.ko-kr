@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5b4709a218f6586320e96f79ea8a9f423f537c7f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839656"
 ---
 # <a name="idiapropertystoragereaddword"></a>IDiaPropertyStorage::ReadDWORD
 읽고 `DWORD` 속성 집합의 값입니다.
@@ -43,7 +43,7 @@ HRESULT ReadDWORD ( 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_INVALIDARG` 형식의 속성이 없는 경우 `DWORD`합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  `DWORD` Windows 32 비트 부호 없는 정수로 정의 됩니다.
 
 ## <a name="see-also"></a>참고 항목

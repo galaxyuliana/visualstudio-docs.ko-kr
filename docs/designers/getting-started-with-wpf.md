@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5f07d4e2dc52ff05d67ec18d7f40f1119db582c0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55947453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62894010"
 ---
 # <a name="get-started-with-wpf"></a>WPF 시작
 
@@ -21,7 +21,7 @@ WPF(Windows Presentation Foundation)는 데스크톱 클라이언트 애플리�
 
 ## <a name="where-should-i-start"></a>어디서 시작해야 합니까?
 
-|Subject|문서|
+|제목|문서|
 |-|-|
 |바로 시작...|[연습: 내 첫 WPF 데스크톱 애플리케이션](/dotnet/framework/wpf/getting-started/walkthrough-my-first-wpf-desktop-application)|
 |XAML 디자인 도구 비교...|[Visual Studio 및 Blend for Visual Studio에서 XAML 디자인](../designers/designing-xaml-in-visual-studio.md)|

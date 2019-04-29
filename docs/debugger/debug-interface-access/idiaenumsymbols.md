@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 44be5f88542d867d8baf25fbc3cdd3c060231d7d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62833405"
 ---
 # <a name="idiaenumsymbols"></a>IDiaEnumSymbols
 데이터 원본에 포함 된 다양 한 기호를 열거 합니다.
@@ -41,7 +41,7 @@ IDiaEnumSymbols : IUnknown
 |[IDiaEnumSymbols::Reset](../../debugger/debug-interface-access/idiaenumsymbols-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
 |[IDiaEnumSymbols::Clone](../../debugger/debug-interface-access/idiaenumsymbols-clone.md)|현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 인터페이스는 기호, 예를 들어, 특정 유형별로 그룹화 된 기호를 제공 `SymTagUDT` (사용자 정의 형식) 또는 `SymTagBaseClass`합니다. 주소로 그룹화 기호를 사용 하려면 사용 합니다 [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md) 인터페이스입니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

@@ -22,12 +22,12 @@ ms.assetid: f2146651-e24a-4e24-ade8-8ddee8ff4e43
 author: Joe-Sewell-PreEmptive
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a6e647ae257bfc6517685310f4a77ef398e775be
-ms.sourcegitcommit: 40393347a36779230d128f2355a911632a8d458e
+ms.openlocfilehash: 0a6945713d86c510112992be3fefd2d41280ef14
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58866614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62557717"
 ---
 # <a name="install-dotfuscator-community"></a>Dotfuscator Community 설치
 
@@ -38,7 +38,6 @@ Dotfuscator Community는 Visual Studio의 선택적 구성 요소입니다.
 > Visual Studio 릴리스와 함께 제공된 Dotfuscator Community 버전 외에도 PreEmptive Solutions에서는 웹 사이트에 정기적으로 업데이트된 버전을 제공합니다.
 > Visual Studio에서 설치하는 대신 직접 **최신 버전**을 다운로드하려면 **[여기를 클릭하여 Dotfuscator 다운로드 페이지로 이동][download]** 합니다.
 
-
 ## <a name="within-visual-studio"></a>Visual Studio 내에서
 
 ::: moniker range="vs-2019"
@@ -48,13 +47,13 @@ Visual Studio IDE에서 Dotfuscator Community를 설치할 수 있습니다.
 1. **검색 상자**(Ctrl+Q)에 `dotfuscator`을 입력합니다. <br/> <br/> ![검색 상자](media/install_in_vs19_12.png) <br/> <br/>
 
 2. 표시되는 검색 결과에서 ‘구성 요소’ 제목 아래에 있는 **PreEmptive Protection - Dotfuscator 설치**를 선택합니다.
-  * ‘메뉴’ 제목 아래에 **PreEmptive Protection - Dotfuscator Community**가 대신 표시되면 Dotfuscator Community가 이미 설치되어 있습니다. 해당 옵션을 선택하여 [시작][get-started]합니다.
+   * ‘메뉴’ 제목 아래에 **PreEmptive Protection - Dotfuscator Community**가 대신 표시되면 Dotfuscator Community가 이미 설치되어 있습니다. 해당 옵션을 선택하여 [시작][get-started]합니다.
 
 3. Dotfuscator Community를 설치하도록 미리 구성된 Visual Studio 설치 관리자 창이 시작됩니다.
    > [!NOTE]
    > 계속하려면 관리자 자격 증명을 제공해야 할 수 있습니다. 
 
-4. [Visual Studio 설치 관리자] 창에서 *설치*를 클릭합니다. <br/> <br/> ![[설치] 클릭](media/install_in_vs19_34.png) <br/> <br/>
+4. [Visual Studio 설치 관리자] 창에서 *설치*를 클릭합니다. <br/> <br/> ![설치 클릭](media/install_in_vs19_34.png) <br/> <br/>
 
 ::: moniker-end
 
@@ -71,12 +70,11 @@ Visual Studio IDE에서 Dotfuscator Community를 설치할 수 있습니다.
    > [!NOTE] 
    > 계속하려면 관리자 자격 증명을 제공해야 할 수 있습니다.
 
-4. [Visual Studio 설치 관리자] 창에서 *설치*를 클릭합니다. <br/> <br/> ![[설치] 클릭](media/install_from_vs_345.png) <br/> <br/>
+4. [Visual Studio 설치 관리자] 창에서 *설치*를 클릭합니다. <br/> <br/> ![설치 클릭](media/install_from_vs_345.png) <br/> <br/>
 
 ::: moniker-end
 
 설치가 완료되면 [Dotfuscator Community 사용을 시작][get-started]할 수 있습니다.
-
 
 ## <a name="during-visual-studio-installation"></a>Visual Studio를 설치하는 동안
 

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: da493c3d818cab1cb9a7e0ad82de3ca2fa9ef3ca
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62872012"
 ---
 # <a name="idebugportevents2event"></a>IDebugPortEvents2::Event
 이 메서드를 생성 및 소멸 프로세스 및 포트에서 프로그램을 나타내는 이벤트를 보냅니다.

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 5749875a440a3122a06b81ae9d721e75ded6202c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62862019"
 ---
 # <a name="command-routing-in-vspackages"></a>Vspackage의 명령 라우팅
 명령에서 라우팅되는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 실행 되는 컨텍스트를 기반으로 합니다. 전역 컨텍스트를 초기 컨텍스트 외부에서 라우팅됩니다.

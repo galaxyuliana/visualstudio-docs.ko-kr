@@ -26,14 +26,14 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: d557fc0ec056cac22603338f95920e5c721f67dd
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62564101"
 ---
 # <a name="continuing-execution-after-an-exception"></a>예외 후 실행 계속
-디버거 실행 예외로 인해 중단 될 때 표시 됩니다는 **예외 도우미**, 기본적으로 합니다. 사용 하지 않도록 설정한 경우 합니다 **예외 도우미** 에 **옵션** 대화 상자에서 표시 됩니다는 **예외 도우미** (C# 또는 Visual Basic) 또는  **예외** 대화 상자 (c + +).
+디버거 실행 예외로 인해 중단 될 때 표시 됩니다는 **예외 도우미**, 기본적으로 합니다. 사용 하지 않도록 설정한 경우 합니다 **예외 도우미** 에 **옵션** 대화 상자에서 표시 됩니다는 **예외 도우미** (C# 또는 Visual Basic) 또는  **예외** 대화 상자 (C++).
 
  경우는 **예외 도우미** 나타나면 예외를 발생 시킨 문제를 해결 하는 데 할 수 있습니다.
 

@@ -13,11 +13,11 @@ manager: wpickett
 ms.workload:
 - cplusplus
 ms.openlocfilehash: ab90a2e03aae60f3027b61d1f3358c05f490ebdf
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62825268"
 ---
 # <a name="using-sal-annotations-to-reduce-cc-code-defects"></a>C/C++ 코드 오류를 줄이기 위한 SAL 주석 사용
 SAL은 Microsoft 소스 코드 주석 언어입니다. 소스 코드 주석을 사용 하 여 할 수 있습니다 의도 코드 숨김 명시적입니다. 이러한 주석은 상당히 적은 수의 거짓 긍정 및 거짓 부 정의 사용 하 여 코드를 보다 정확 하 게 분석을 자동화 된 정적 분석 도구에도 사용 하도록 설정 합니다.

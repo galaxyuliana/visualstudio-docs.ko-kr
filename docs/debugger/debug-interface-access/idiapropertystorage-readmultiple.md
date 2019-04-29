@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 0ec66de4feea1a59ca1ef71f48bae49ed5ac2232
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56708812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839539"
 ---
 # <a name="idiapropertystoragereadmultiple"></a>IDiaPropertyStorage::ReadMultiple
 지정한 현재 속성 집합에서 속성을 읽습니다.
@@ -48,7 +48,7 @@ HRESULT ReadMultiple( 
 ## <a name="return-value"></a>반환 값
  성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 속성 중 하나 이상이 없는 경우. 그러지 않으면 오류 코드가 반환됩니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  경우 속성을 찾을 수 없습니다, 해당 항목에는 `rgvar` 배열에는 `VARIANT` 유형의 `VT_EMPTY`합니다.
 
 ## <a name="see-also"></a>참고 항목

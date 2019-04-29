@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: faff61833cb130902efbd64d60a16f74c507a3e2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56627937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62834132"
 ---
 # <a name="locationtype"></a>LocationType
 기호에 포함 된 위치 정보의 종류를 나타냅니다.
@@ -66,7 +66,7 @@ enum LocationType {
 
 `LocTypeMax` 이 열거형의 위치 형식의 수입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 사용할 수 있는 속성을 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 인터페이스 내 이미지 파일에서 기호 위치에 따라 달라 집니다. 자세한 내용은 [기호 위치](../../debugger/debug-interface-access/symbol-locations.md)합니다.
 
 이 열거형의 값에는 호출에서 반환 되는 [idiasymbol:: Get_locationtype](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md) 메서드.

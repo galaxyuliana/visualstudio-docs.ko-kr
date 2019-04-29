@@ -29,16 +29,16 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9434be46f357a97ad01f10ceec184ebe6c52eb43
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56624167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62565549"
 ---
 # <a name="crt-debug-library-use"></a>CRT 디버그 라이브러리 사용
 C 런타임 라이브러리는 디버깅을 폭넓게 지원합니다. CRT 디버그 라이브러리 중 하나를 사용 하려면 사용 하 여 연결 해야 합니다 [디버그](/cpp/build/reference/debug-generate-debug-info) 컴파일하여 **/MDd**를 **/MTd**, 또는 **/LDd**합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  CRT 디버깅의 주요 정의와 매크로는 CRTDBG.h 헤더 파일에 포함되어 있습니다.
 
  CRT 디버그 라이브러리의 함수는 최적화 없이 디버그 정보([/Z7, /Zd, /Zi, /ZI(디버깅 정보 형식)](/cpp/build/reference/z7-zi-zi-debug-information-format))를 사용하여 컴파일됩니다. 일부 함수는 함수에 전달된 매개 변수를 확인하기 위해 어설션을 사용하며 소스 코드를 제공합니다. 이 소스 코드를 사용하면 CRT 함수를 단계적으로 실행하여 원하는 대로 함수가 작동하고 있는지 확인하고 잘못된 매개 변수나 메모리 상태를 검사할 수 있습니다. 일부 CRT 기술은 독점되어 있어서 예외 처리, 부동 소수점 및 다른 몇 가지 루틴에 대한 소스 코드를 제공하지 않습니다.

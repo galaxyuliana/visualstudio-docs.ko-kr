@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: c0ea617a252d60d8e8d5810c42f7331508c28165
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56708981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62890998"
 ---
 # <a name="customize-code-windows-by-using-the-legacy-api"></a>기존 API를 사용 하 여 코드 창을 사용자 지정
 코드 창에는 하나 이상의 텍스트 뷰를 지 원하는 문서 창 개체입니다. 코드 창의 정확한 기능 관련 된 언어 서비스에 따라 달라 집니다. (MDI) 다중 문서 인터페이스 모드로 코드 MDI 자식 프레임입니다.

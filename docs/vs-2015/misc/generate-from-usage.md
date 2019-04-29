@@ -21,11 +21,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 3a4194bb0c4e113ef717a3ac08f63b82acccff35
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982759"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822659"
 ---
 # <a name="generate-from-usage"></a>Generate From Usage
 이 콘텐츠를 움직인 [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)합니다.

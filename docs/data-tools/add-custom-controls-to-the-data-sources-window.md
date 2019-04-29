@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: defc1605d15fcc9ce616212b48faa7674abc87e8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62824670"
 ---
 # <a name="add-custom-controls-to-the-data-sources-window"></a>데이터 소스 창에 사용자 지정 컨트롤 추가
 
@@ -91,6 +91,6 @@ ms.locfileid: "55910170"
     > [!NOTE]
     > 연결 된 컨트롤의 목록에 현재 솔루션 내에서 또는 참조 된 어셈블리에 있는 유일한 컨트롤을 추가할 수 있습니다. (컨트롤 구현 해야 데이터 바인딩 특성 중 하나 앞의 표에서.) 데이터에서 사용할 수 없는 사용자 지정 컨트롤을 바인딩할 합니다 **데이터 원본** 창에서 컨트롤을 끌어 합니다 **도구 상자** 를 디자인 화면으로 끌어에서 바인딩할 항목으로는 **데이터 원본** 컨트롤 창입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)

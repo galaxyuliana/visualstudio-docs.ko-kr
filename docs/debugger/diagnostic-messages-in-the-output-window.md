@@ -27,11 +27,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: bb4493eb55b83b9f76d1a833ba2df359ae9683e8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56682507"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62852135"
 ---
 # <a name="send-messages-to-the-output-window"></a>출력 창으로 메시지 보내기
 
@@ -56,7 +56,7 @@ ms.locfileid: "56682507"
 
 - 종료되는 스레드 정보
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [디버거 보안](../debugger/debugger-security.md)
 - [출력 창](../ide/reference/output-window.md)
 - [추적 및 계측 응용 프로그램](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)

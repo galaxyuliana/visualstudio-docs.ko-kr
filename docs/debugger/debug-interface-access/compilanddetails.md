@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 896832ac3e96e499aa564d5bce44dc06185090de
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56609230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62555249"
 ---
 # <a name="compilanddetails"></a>CompilandDetails
 컴파일 대상 정보 기호를 간에 분할 되는 `SymTagCompiland` 태그 (낮은 세밀도) 및 `SymTagCompilandDetails` 태그 (높은 세밀도). `SymTagCompilandDetails` 추가 기호를 로드 해야 합니다. 그러나 다양 한으로 사용할 수 없는 컴파일 대상에 대 한 정보를 제공 된 `SymTagCompiland` 기호입니다.
@@ -50,7 +50,7 @@ ms.locfileid: "56609230"
 |[IDiaSymbol::get_symIndexId](../../debugger/debug-interface-access/idiasymbol-get-symindexid.md)|`DWORD`|기호 인덱스 ID입니다.|
 |[IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)|`DWORD`|반환 `SymTagCompilandDetails` (중 하나는 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 값).|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  컴파일러는 종종 2 패스 컴파일러; 라는 형태로 제공 일부 컴파일러 버전에서는 각 패스는 별도 프로그램에서 처리 됩니다. 이러한 라고 프런트 엔드 및 백 엔드 컴파일러 각각 따라서 백 엔드 및 프런트 엔드 버전 번호에 대 한 기호 속성을 합니다.
 
 ## <a name="see-also"></a>참고 항목

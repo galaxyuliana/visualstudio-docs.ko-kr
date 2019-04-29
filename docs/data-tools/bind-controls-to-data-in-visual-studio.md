@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 32b392f59fb0ac587730d2aa432ca11d91d5a9ea
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55939764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62824836"
 ---
 # <a name="bind-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 컨트롤 바인딩
 
@@ -32,16 +32,16 @@ ms.locfileid: "55939764"
 
 | 데이터 원본 | **Windows Forms 디자이너**에서의 끌어서 놓기 지원 | **WPF 디자이너**에서의 끌어서 놓기 지원 | **Silverlight 디자이너**에서의 끌어서 놓기 지원 |
 | - | - | - | - |
-| 데이터 집합 | 적용 | 예 | 아니요 |
-| 엔터티 데이터 모델 | 예<sup>1</sup> | 적용 | 적용 |
+| 데이터 집합 | 예 | 예 | 아니요 |
+| 엔터티 데이터 모델 | 예<sup>1</sup> | 예 | 예 |
 | LINQ to SQL 클래스 | No<sup>2</sup> | No<sup>2</sup> | No<sup>2</sup> |
-| [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF 서비스, 웹 서비스 등의 서비스 | 적용 | 예 | 적용 |
-| Object | 적용 | 예 | 적용 |
-| SharePoint | 적용 | 예 | 적용 |
+| [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF 서비스, 웹 서비스 등의 서비스 | 예 | 예 | 예 |
+| 개체 | 예 | 예 | 예 |
+| SharePoint | 예 | 예 | 예 |
 
 1. 사용 하 여 모델을 생성 합니다 **엔터티 데이터 모델** 마법사 다음 해당 개체를 디자이너로 끌어 옵니다.
 
-2. LINQ to SQL 클래스는 **데이터 원본** 창에 표시되지 않습니다. 그러나 LINQ to SQL 클래스에 기반하는 개체 데이터 소스를 새로 만든 다음 해당 개체를 디자이너로 끌어 와 데이터 바인딩된 컨트롤을 만들 수는 있습니다. 자세한 내용은 [연습: 만들기 LINQ to SQL 클래스 (O-r 디자이너)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)합니다.
+2. LINQ to SQL 클래스는 **데이터 원본** 창에 표시되지 않습니다. 그러나 LINQ to SQL 클래스에 기반하는 개체 데이터 소스를 새로 만든 다음 해당 개체를 디자이너로 끌어 와 데이터 바인딩된 컨트롤을 만들 수는 있습니다. 자세한 내용은 [연습: LINQ to SQL 클래스 만들기(O/R 디자이너)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md).
 
 ## <a name="data-sources-window"></a>데이터 소스 창
 
@@ -66,7 +66,7 @@ ms.locfileid: "55939764"
 |UI에 표시 되는 데이터를 필터링 합니다.|[Windows Forms 애플리케이션에서 데이터 필터링 및 정렬](../data-tools/filter-and-sort-data-in-a-windows-forms-application.md)|
 |컨트롤에 대 한 캡션 사용자 지정 합니다.|[Visual Studio에서 데이터 바인딩된 컨트롤에 대한 캡션을 만드는 방식 사용자 지정](../data-tools/customize-how-visual-studio-creates-captions-for-data-bound-controls.md)|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [.NET용 Visual Studio 데이터 도구](../data-tools/visual-studio-data-tools-for-dotnet.md)
 - [Windows Forms 데이터 바인딩](/dotnet/framework/winforms/windows-forms-data-binding)

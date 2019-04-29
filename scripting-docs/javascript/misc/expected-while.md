@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 4ec06ea25a6a6486a444d430e3ef15b888760650
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62433771"
 ---
 # <a name="expected-while"></a>'while'이 필요합니다.
 포함 되지 않은 합니다 `while` 조건이 `do...while` 루프입니다. A **수행** 문에 해당 있어야 `while` 코드 블록의 끝을 테스트 합니다.  

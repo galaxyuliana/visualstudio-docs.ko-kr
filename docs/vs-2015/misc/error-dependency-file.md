@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: ab88824055b890fcc65424d692dd12500d021712
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62823242"
 ---
 # <a name="error-the-dependency-39file39-in-project-39project39-cannot-be-copied-to-the-run-directory-because-it-would-conflict-with-dependency-39file39"></a>오류: 종속성 &#39;파일&#39; 프로젝트에서 &#39;프로젝트&#39; 종속성과 충돌 하므로 실행된 디렉터리에 복사할 수 없습니다 &#39;파일&#39;
 참조 간에 충돌이 존재합니다. 즉, 실행할 애플리케이션의 bin 디렉터리에 파일 이름이 같은 둘 이상의 고유 종속성을 복사하려고 했습니다. 종속성이 모두 기본 참조가 아니므로 실행 디렉터리에서 충돌을 해결할 수 없습니다.  

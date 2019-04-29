@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 327a53a28e5b37d33d44375653c1bffa56c7ddd2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56616094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62829023"
 ---
 # <a name="idialinenumber"></a>IDiaLineNumber
 소스 파일 줄 번호를 이미지 문자의 바이트 블록을 매핑하는 프로세스를 설명 하는 액세스 정보입니다.
@@ -48,7 +48,7 @@ IDiaLineNumber : IUnknown
 |[IDiaLineNumber::get_statement](../../debugger/debug-interface-access/idialinenumber-get-statement.md)|이 줄 정보 프로그램 원본에서 문의 시작 부분을 설명 하는지 나타내는 플래그를 검색 합니다.|
 |[IDiaLineNumber::get_compilandId](../../debugger/debug-interface-access/idialinenumber-get-compilandid.md)|이 줄을 제공한 컴파일 대상에 대 한 고유 식별자를 검색 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 호출 하 여이 인터페이스를 가져올는 [idiaenumlinenumbers:: Item](../../debugger/debug-interface-access/idiaenumlinenumbers-item.md) 하거나 [idiaenumlinenumbers:: Next](../../debugger/debug-interface-access/idiaenumlinenumbers-next.md) 메서드.

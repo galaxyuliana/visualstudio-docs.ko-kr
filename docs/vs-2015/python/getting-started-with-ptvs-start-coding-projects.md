@@ -10,11 +10,11 @@ author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.openlocfilehash: 28622f290d82f86bf3d18cc4f40cfcfc8e953dad
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54781071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62537155"
 ---
 # <a name="getting-started-with-ptvs-start-coding-projects"></a>PTVS 시작: 코딩 시작(프로젝트)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,4 +40,4 @@ PTVS(Python Tools for Visual Studio)는 코드 관리에 도움이 됩니다.
   짧은 [youtube 동영상](https://www.youtube.com/watch?v=KHPoVpL7zHg&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=2)을 통해 이러한 지침을 확인할 수 있습니다. 
  
 ## <a name="see-also"></a>참고 항목 
- [Wiki 설명서](https://github.com/Microsoft/PTVS/wiki/Projects) [PTVS 시작 및 심층 분석 비디오](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)
+ [Wiki 설명서](https://github.com/Microsoft/PTVS/wiki/Projects) [PTVS 시작 및 자세히 알아보기 동영상](https://www.youtube.com/playlist?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)

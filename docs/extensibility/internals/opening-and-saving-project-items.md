@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 7ca83cb6d2913e0c0a91f4a6e874640ae57c7708
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62860009"
 ---
 # <a name="opening-and-saving-project-items"></a>프로젝트 항목 열기 및 저장
 새 프로젝트 형식에 추가 하면을 열고 저장 하는 프로젝트 파일을 관리 해야 합니다는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)입니다. 다음 항목 파일 열기 및 저장 하는 다른 방법에 설명 합니다.
@@ -39,7 +39,7 @@ ms.locfileid: "56602431"
 
  프로젝트 형식에서 파일에 대 한 표준 편집기를 열려면 IDE를 사용 하도록 설정 하는 방법을 지정 하기 위한 단계별 지침을 제공 합니다.
 
-- [방법: 열린 문서에 대 한 편집기 열기](../../extensibility/how-to-open-editors-for-open-documents.md)
+- [방법: 열린 문서의 편집기 열기](../../extensibility/how-to-open-editors-for-open-documents.md)
 
  열려 있는 파일에 대 한 프로젝트별 편집기 열기에 대 한 단계별 지침을 제공 합니다.
 

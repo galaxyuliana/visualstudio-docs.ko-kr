@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 3b20b10a37908e2c9744aeac63bb3eda091da478
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60074494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62826407"
 ---
 # <a name="how-to-add-commands-to-shortcut-menus"></a>방법: 바로 가기 메뉴에 명령 추가
   이 항목에는 VSTO 추가 기능을 사용 하 여 Office 응용 프로그램에서 바로 가기 메뉴에 명령을 추가 하는 방법을 보여 줍니다.

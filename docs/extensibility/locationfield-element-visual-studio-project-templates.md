@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: f55c67fbad80b05431ed13439584d3a94fa88c65
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62856469"
 ---
 # <a name="locationfield-element-visual-studio-project-templates"></a>LocationField 요소 (Visual Studio 프로젝트 템플릿)
 지정 여부는 **위치** 텍스트 상자에 **새 프로젝트** 대화 상자 활성화, 비활성화 또는 프로젝트 템플릿에 대 한 숨겨진 합니다.

@@ -12,11 +12,11 @@ caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 30ec67e1e58e0c546c70ecb87841293161463b1b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62429124"
 ---
 # <a name="project-model-core-components"></a>프로젝트 모델 핵심 구성 요소
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -104,6 +104,6 @@ ms.locfileid: "58980715"
 ## <a name="see-also"></a>참고 항목  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
  [검사 목록: 새 프로젝트 형식 만들기](../../extensibility/internals/checklist-creating-new-project-types.md)   
- [빌드에 없음: HierUtil7 프로젝트 클래스를 사용 하 여 프로젝트 형식 (c + +)를 구현 합니다.](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346)   
+ [빌드에 없음: 프로젝트 유형을 구현 하도록 HierUtil7 프로젝트 클래스를 사용 하 여 (C++)](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346)   
  [기호 검색 도구를 지원합니다.](../../extensibility/internals/supporting-symbol-browsing-tools.md)   
  [프로젝트 모델의 요소](../../extensibility/internals/elements-of-a-project-model.md)

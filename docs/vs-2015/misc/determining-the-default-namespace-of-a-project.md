@@ -10,11 +10,11 @@ ms.assetid: 6d890676-7016-458c-8a6a-95cc0a068612
 caps.latest.revision: 13
 manager: jillfra
 ms.openlocfilehash: 0bc5cba2651f447e36491c641e9b0d05f728e5c7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822586"
 ---
 # <a name="determining-the-default-namespace-of-a-project"></a>프로젝트의 기본 네임스페이스 확인
 에 대 한 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)]이면 합니다 `CustomToolNamespace` 속성은 입력된 파일의 값에 설정 `CustomToolNamespace` 에 전달 된 기본 네임 스페이스 매개 변수 값이 됩니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator.Generate%2A> 메서드. 이 고, 그렇지 합니다 `wszDefaultNamespace` 전달 된 매개 변수가 `Generate` 은 항상 루트 네임 스페이스와 동일 합니다. 네임 스페이스에 대 한 자세한 내용은 참조 하세요. [Namespace 키워드](http://msdn.microsoft.com/library/091a66eb-b10d-4f54-9102-5ac0d4bdb84b)합니다.  

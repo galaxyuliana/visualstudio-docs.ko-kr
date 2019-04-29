@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ff3ed7d23272bad1e047ddca46e20b4710644e30
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62842611"
 ---
 # <a name="idebugpointerfield"></a>IDebugPointerField
 이 인터페이스에 대 한 포인터 형식을 나타냅니다.
@@ -42,7 +42,7 @@ IDebugPointerField : IDebugContainerField
 |[GetDereferencedField](../../../extensibility/debugger/reference/idebugpointerfield-getdereferencedfield.md)|반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 포인터의 대상을 설명 하는 합니다.|
 
 ## <a name="remarks"></a>설명
- C/c + +에 대 한 포인터 배열 표기법을 사용 하 여 사용 하는 경우 컨테이너를 수 있습니다. 예를 들어 `char *pString`하십시오 `pString` 에 대 한 포인터 형식이 `char`합니다. `pString[3]` 컨테이너에 대 한 포인터는 형식이 `char` 해당 컨테이너의 네 번째 요소를 참조 하는 합니다.
+ C에서 /C++에 대 한 포인터 배열 표기법을 사용 하 여 사용 하는 경우 컨테이너가 될 수 있습니다. 예를 들어 `char *pString`하십시오 `pString` 에 대 한 포인터 형식이 `char`합니다. `pString[3]` 컨테이너에 대 한 포인터는 형식이 `char` 해당 컨테이너의 네 번째 요소를 참조 하는 합니다.
 
 ## <a name="requirements"></a>요구 사항
  헤더: sh.h

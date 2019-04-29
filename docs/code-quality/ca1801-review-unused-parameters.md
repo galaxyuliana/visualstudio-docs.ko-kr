@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ee9500938feb893627069e9a83f3052fa84bc224
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55949553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62545513"
 ---
 # <a name="ca1801-review-unused-parameters"></a>CA1801: 사용되지 않은 매개 변수를 검토하세요.
 
@@ -38,11 +38,11 @@ ms.locfileid: "55949553"
 
 - 메서드를 이벤트 처리기로 사용 합니다.
 
-- 사용 하 여 선언 된 메서드를 `abstract` (`MustOverride` Visual Basic에서) 한정자.
+- 사용 하 여 선언 된 메서드를 `abstract` (`MustOverride` Visual basic에서) 한정자.
 
-- 사용 하 여 선언 된 메서드를 `virtual` (`Overridable` Visual Basic에서) 한정자.
+- 사용 하 여 선언 된 메서드를 `virtual` (`Overridable` Visual basic에서) 한정자.
 
-- 사용 하 여 선언 된 메서드를 `override` (`Overrides` Visual Basic에서) 한정자.
+- 사용 하 여 선언 된 메서드를 `override` (`Overrides` Visual basic에서) 한정자.
 
 - 메서드를 사용 하 여 선언 된 `extern` (`Declare` Visual Basic의 문) 한정자.
 

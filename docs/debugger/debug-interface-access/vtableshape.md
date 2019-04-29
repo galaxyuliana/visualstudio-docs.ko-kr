@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: d4a21f07d4fd4fe055ebee4d6c7d5cd1faed0a3b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56616328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62853286"
 ---
 # <a name="vtableshape"></a>VTableShape
 합니다 [VTable](../../debugger/debug-interface-access/vtable.md) 심볼 클래스 자식 구분 기호에는 `SymTagVTableShape` 태그입니다.

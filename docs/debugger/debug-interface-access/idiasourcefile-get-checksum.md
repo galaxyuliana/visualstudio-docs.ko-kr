@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 2dc866cf392d2464756fc4e5cb19bfd02fcdea58
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56693076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838069"
 ---
 # <a name="idiasourcefilegetchecksum"></a>IDiaSourceFile::get_checksum
 체크섬 바이트 수를 검색 합니다.
@@ -39,7 +39,7 @@ HRESULT get_checksum ( 
 
  `pcbData`
 
-[out] 체크섬 바이트 수를 반환합니다. 이 매개 변수는 `NULL`일 수 없습니다.
+[out] 체크섬 바이트 수를 반환합니다. 이 매개 변수 수 없습니다 `NULL`합니다.
 
  `data`
 
@@ -48,7 +48,7 @@ HRESULT get_checksum ( 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  유형의 체크섬 바이트를 생성 하는 데 사용 된 체크섬 알고리즘을 확인 하려면 호출을 [idiasourcefile:: Get_checksumtype](../../debugger/debug-interface-access/idiasourcefile-get-checksumtype.md) 메서드.
 
  체크섬은 체크섬 바이트에 대 한 변경 내용에서 소스 파일의 변경 내용이 반영 하므로 일반적으로 소스 파일의 이미지에서 생성 됩니다. 체크섬 바이트 일치 하지 않는 경우 파일을 고려해 야 하는 다음 파일의 로드 된 이미지에서 생성 된 체크섬을 손상 또는 변조입니다.

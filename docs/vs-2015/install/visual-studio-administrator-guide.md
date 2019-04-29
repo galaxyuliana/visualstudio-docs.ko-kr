@@ -14,11 +14,11 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: 5a84f0a037df92ff31ce66eb6692367ef1d209f6
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62546663"
 ---
 # <a name="visual-studio-administrator-guide"></a>Visual Studio Administrator Guide
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,7 +70,7 @@ Visual Studio에서 최신 설명서를 참조 하세요. 합니다 [Visual Stud
 |항목|설명|  
 |-----------|-----------------|  
 |[방법: Visual Studio의 특정 릴리스 설치](../install/how-to-install-a-specific-release-of-visual-studio.md)|현재 버전의 특정 구성을 설치 하는 방법에 설명 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.|  
-|[방법: 만들기 및 Visual Studio의 무인된 설치 실행](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md)|설치 하는 방법에 설명 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 무인된 모드에서.|  
+|[방법: Visual Studio 무인 설치 만들기 및 실행](../install/how-to-create-and-run-an-unattended-installation-of-visual-studio.md)|설치 하는 방법에 설명 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 무인된 모드에서.|  
 |[방법: Visual Studio를 배포할 때 제품 키를 자동으로 적용](../install/how-to-automatically-apply-product-keys-when-deploying-visual-studio.md)|여러 컴퓨터에 배포할 때 제품 키를 적용 하는 방법에 설명 합니다.|  
 |[도움말 뷰어 관리자 가이드](../ide/help-viewer-administrator-guide.md)|없거나 인터넷에 액세스할 수 없는 네트워크 환경에 대 한 로컬 도움말 설치를 관리 하는 방법에 대 한 정보를 제공 합니다.|  
 |[Visual Studio 설치](../install/install-visual-studio-2015.md)|지침 및 설치 하는 방법을 설명 하는 항목에 대 한 링크가 제공 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.|

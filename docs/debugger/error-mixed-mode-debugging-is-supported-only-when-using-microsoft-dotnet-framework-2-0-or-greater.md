@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: 2fb4d0dfaeb944700757c9ceec222dbd62dab9dd
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62850673"
 ---
 # <a name="error-mixed-mode-debugging-is-supported-only-when-using-microsoft-net-framework-20-or-greater"></a>오류: 혼합 모드 디버깅은 Microsoft .NET Framework 2.0 이상을 사용할 때만 지원됩니다.
 네이티브 코드와 관리 코드가 혼합된 코드를 디버깅하려면 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 버전 2.0, 3.0, 3.5 또는 4가 필요합니다. 이전 버전 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]를 사용한 혼합 모드 디버깅은 지원되지 않습니다.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 03931580f774c29a67771d2251b51825242535c9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62829385"
 ---
 # <a name="idiaenumtablesitem"></a>IDiaEnumTables::Item
 인덱스 또는 이름을 사용 하 여 테이블을 검색합니다.
@@ -43,7 +43,7 @@ HRESULT Item ( 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  문자열 변형 지정 된 경우 문자열 특정 테이블을 이름입니다. 이름에 정의 된 대로 테이블 이름 중 하나 여야 합니다 [상수 (디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/constants-debug-interface-access-sdk.md)합니다.
 
 ## <a name="example"></a>예제

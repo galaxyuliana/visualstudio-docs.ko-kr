@@ -62,11 +62,11 @@ caps.latest.revision: 11
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: f83f421203b25edbbccf767c0661ece709dd63c4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822961"
 ---
 # <a name="edit-and-continue-errors-and-warnings-c"></a>편집하며 계속하기의 오류 및 경고(C#)
 Visual C# 편집하며 계속하기에서 허용되지 않는 코드의 섹션을 편집했습니다.  

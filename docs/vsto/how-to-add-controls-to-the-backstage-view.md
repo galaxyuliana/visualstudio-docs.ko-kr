@@ -21,11 +21,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: c4241464fe8a43af882fbdbad0f898838e8fd897
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62826784"
 ---
 # <a name="how-to-add-controls-to-the-backstage-view"></a>방법: Backstage 보기에 컨트롤 추가
   리본 디자이너를 사용 하 여 컨트롤을 클릭할 때 열리는 메뉴에 추가 하는 **파일** 탭 합니다. 컨트롤에 추가한 응용 프로그램을 실행 하는 경우는 **파일** 라는 그룹 탭이 표시 **추가 기능**합니다.

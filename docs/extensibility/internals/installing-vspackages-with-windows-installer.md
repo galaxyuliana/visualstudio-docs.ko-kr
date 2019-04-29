@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 9cd5f25e1e87ba3db360b328b4f5a245697cba45
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62860283"
 ---
 # <a name="installing-vspackages-with-windows-installer"></a>Windows Installer를 사용하여 VSPackage 설치
 VSPackage에 통합 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 것 이상의 사용자의 컴퓨터에 파일을 복사 해야 합니다. VSPackage의 설치 관리자 VSPackage 및 해당 종속 파일을 설치 및 등록 하며 통합 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. VSPackage에서 아이콘을 표시 하는 등 통합 기능을 활용을 걸릴 수 있습니다는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 화면 및에 대 한 대화 상자를 시작 합니다.
@@ -56,7 +56,7 @@ VSPackage에 통합 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]
 
  관리 코드 프로젝트 형식에 대 한 새 프로젝트 형식 집계를 사용 하는 방법에 설명 합니다.
 
-- [방법: 설치 관리자에 대 한 레지스트리 정보를 생성 합니다.](../../extensibility/internals/how-to-generate-registry-information-for-an-installer.md)
+- [방법: 설치 관리자의 레지스트리 정보 생성](../../extensibility/internals/how-to-generate-registry-information-for-an-installer.md)
 
  RegPkg.exe를 사용 하 여 관리 되는 VSPackage에 대 한 등록 매니페스트를 생성 하는 방법에 설명 합니다.
 

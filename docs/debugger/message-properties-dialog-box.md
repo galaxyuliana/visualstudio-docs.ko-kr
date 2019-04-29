@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 1f590f40e4e3361f4dbeb46a3a9b8758b8ab5075
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56705374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62846117"
 ---
 # <a name="message-properties-dialog-box"></a>메시지 속성 대화 상자
 이 대화 상자를 사용 하 여 특정 메시지에 대해 자세히 알아봅니다. 이 대화 상자를 표시 하려면 포커스를 이동 하는 [메시지 보기](../debugger/messages-view.md) 창입니다. 선택한 메시지 노드 트리에서 선택 **속성** 에서 합니다 **보기** 메뉴.

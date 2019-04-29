@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 0a39ce54d1cb1fb1a3773b4241be35214421f08a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62865679"
 ---
 # <a name="metadatatype"></a>METADATA_TYPE
 이 구조체는 메타 데이터에서 가져온 필드 형식에 대 한 정보를 지정 합니다.
@@ -53,7 +53,7 @@ public struct METADATA_TYPE {
 
  이 형식의 메타 데이터 토큰 ID입니다.
 
- [C + +] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.
+ [C++] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.
 
 ## <a name="remarks"></a>설명
  이 구조체의 공용 구조체의 일부분으로 표시를 [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) 경우 구조체를 `dwKind` 필드를 `TYPE_INFO` 구조로 설정 되어 `TYPE_KIND_METADATA` (의 값을 [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) 열거형)입니다.
