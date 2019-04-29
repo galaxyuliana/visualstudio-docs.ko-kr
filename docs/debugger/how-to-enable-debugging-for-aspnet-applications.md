@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - aspnet
 ms.openlocfilehash: d383c559e605392b01ba2c476fd4ed5ae5d48625
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62848335"
 ---
 # <a name="debug-aspnet-or-aspnet-core-apps-in-visual-studio"></a>Visual Studio에서 ASP.NET 또는 ASP.NET Core 앱 디버그
 
@@ -182,11 +182,11 @@ IIS에 앱을 게시 하는 방법은 여러 가지입니다. 이러한 단계�
 > [!IMPORTANT]
 > 디버그 모드에는 앱의 성능을 크게 줄여 줍니다. 최상의 성능을 위해 설정 `debug="false"` 에 *web.config* 프로덕션 앱을 배포 하거나 성능을 측정 하는 경우에 릴리스 빌드를 지정 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ASP.NET 디버깅: 시스템 요구 사항](aspnet-debugging-system-requirements.md)
 - [방법: 사용자 계정으로 작업자 프로세스 실행](how-to-run-the-worker-process-under-a-user-account.md)
 - [방법: ASP.NET 프로세스의 이름 찾기](how-to-find-the-name-of-the-aspnet-process.md)
 - [배포된 웹 애플리케이션 디버그](debugging-deployed-web-applications.md)
-- [연습: Web Form 디버그](walkthrough-debugging-a-web-form.md)
+- [연습: Web form 디버깅](walkthrough-debugging-a-web-form.md)
 - [방법: ASP.NET 예외 디버그](how-to-debug-aspnet-exceptions.md)
 - [웹 애플리케이션 디버그: 오류 및 문제 해결](debugging-web-applications-errors-and-troubleshooting.md)

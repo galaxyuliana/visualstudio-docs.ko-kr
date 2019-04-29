@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: a494f954f3f670fb796b33a0dbd01e2512ad1d26
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62955731"
 ---
 # <a name="how-to-programmatically-retrieve-a-folder-by-name"></a>방법: 프로그래밍 방식으로 이름으로 폴더 검색
   이 예제에서는 명명 된 사용자 지정 폴더에 대 한 참조를 가져오고 폴더의 콘텐츠를 표시 합니다.

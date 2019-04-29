@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 245fb14b06b5deed5ee652ef394e241bd1191022
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62890686"
 ---
 # <a name="choose-a-debug-engine-implementation-strategy"></a>디버그 엔진 구현 전략 선택
 런타임 아키텍처를 사용 하 여 디버그 엔진 (DE) 구현 전략을 결정 합니다. 디버그 엔진 in-process 디버깅할 프로그램을 만들 수 있습니다. 디버그 엔진 in-process Visual Studio 세션 디버그 관리자 SDM ()를 만듭니다. 또는 디버그 엔진-out-of-process 둘 다에 만듭니다. 다음 지침은 이러한 세 가지 전략 중에서 선택 하는 데 도움이 됩니다.

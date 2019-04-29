@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 6ec548ff629663e647d2d153ff87caa4edb1dd21
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60086080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007141"
 ---
 # <a name="invalid-character-javascript"></a>잘못된 문자입니다.(JavaScript)
 식별자를 구성 하 여 유효한 것으로 인식 되지 문자 (또는 문자)을 사용 하 여 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 컴파일러. 다음 규칙을 사용 하는 유효한 문자:  

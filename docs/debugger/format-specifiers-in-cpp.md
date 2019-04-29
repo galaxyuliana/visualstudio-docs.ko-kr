@@ -1,5 +1,5 @@
 ---
-title: 형식 지정자 (c + +) 디버거에서 | Microsoft Docs
+title: 형식 지정자는 디버거에서 (C++) | Microsoft Docs
 ms.date: 3/11/2019
 ms.topic: conceptual
 f1_keywords:
@@ -25,13 +25,13 @@ manager: jillfra
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 8e6be79bc38e9283493bf5b7428a21c17cf9d3e0
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57870595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62896622"
 ---
-# <a name="format-specifiers-for-c-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 c + +에 대 한 형식 지정자
+# <a name="format-specifiers-for-c-in-the-visual-studio-debugger"></a>형식 지정자에 대 한 C++ Visual Studio 디버거에서
 값이 표시 하는 형식을 변경할 수 있습니다 합니다 **Watch**, **자동**, 및 **지역** 형식 지정자를 사용 하 여 windows.
 
 형식 지정자를 사용할 수도 있습니다는 **직접 실행** 창 합니다 **명령** 창에서 [추적점](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints), 및 소스 창 에서도. 해당 창에 식을 일시 중지 하는 경우 결과에 표시 됩니다는 [DataTip](../debugger/view-data-values-in-data-tips-in-the-code-editor.md)합니다. DataTip 표시는 형식 지정자를 반영합니다.
@@ -62,11 +62,11 @@ int main() {
 ::: moniker-end
 
 ## <a name="BKMK_Visual_Studio_2012_format_specifiers"></a> 형식 지정자
-다음 표에서 Visual Studio에서 사용할 수 있는 형식 지정자를 설명 합니다. 굵게 표시 된 지정자는만 새로운 디버거의 및 지원 되지 않습니다 interop 디버깅을 사용 하 여 C + + /cli CLI입니다.
+다음 표에서 Visual Studio에서 사용할 수 있는 형식 지정자를 설명 합니다. 굵게 표시 된 지정자 사용 하 여 interop 디버깅 하지 않고에 새 디버거를 위해서만 지원 됩니다 C++/CLI입니다.
 
 ::: moniker range=">= vs-2019" 
 
-|지정자|서식|원래 조사식 값|표시되는 값|
+|지정자|형식|원래 조사식 값|표시되는 값|
 |---------------|------------|--------------------------|---------------------|
 |일|10진수 정수|0x00000066|102|
 |o|부호 없는 8진수 정수|0x00000066|000000000146|
@@ -104,7 +104,7 @@ int main() {
 
 ::: moniker range="vs-2017" 
 
-|지정자|서식|원래 조사식 값|표시되는 값|
+|지정자|형식|원래 조사식 값|표시되는 값|
 |---------------|------------|--------------------------|---------------------|
 |일|10진수 정수|0x00000066|102|
 |o|부호 없는 8진수 정수|0x00000066|000000000146|
@@ -138,7 +138,7 @@ int main() {
 ### <a name="BKMK_Size_specifiers_for_pointers_as_arrays_in_Visual_Studio_2012"></a> 배열로 사용되는 포인터에 대한 크기 지정자
 배열로 표시할 개체에 대한 포인터가 있는 경우 다음과 같이 정수 또는 식을 사용하여 배열 요소의 수를 지정할 수 있습니다.
 
-|지정자|서식|원래 조사식 값|표시되는 값|
+|지정자|형식|원래 조사식 값|표시되는 값|
 |---------------|------------|---------------------------|---------------------|
 |n|10진수 또는 **16진수** 정수|pBuffer,[32]<br /><br /> pBuffer,**[0x20]**|`pBuffer` 를 요소가 32개인 배열로 표시합니다.|
 |**[exp]**|정수로 확인되는 유효한 C++ 식입니다.|pBuffer,[bufferSize]|PBuffer를 `bufferSize` 요소의 배열로 표시합니다.|
@@ -147,7 +147,7 @@ int main() {
 ## <a name="BKMK_Format_specifiers_for_interop_debugging_and_C___edit_and_continue"></a> C++/CLI를 사용하는 interop 디버깅의 형식 지정자
 **굵게** 표시된 지정자는 네이티브 및 C++/CLI 코드 디버깅에 대해서만 지원됩니다.
 
-|지정자|서식|원래 조사식 값|표시되는 값|
+|지정자|형식|원래 조사식 값|표시되는 값|
 |---------------|------------|--------------------------|---------------------|
 |**d**<br /><br />**i**|부호 있는 10진수 정수|0xF000F065|-268373915|
 |**u**|부호 없는 10진수 정수|0x0065|101|
@@ -167,10 +167,10 @@ int main() {
 |wm|Windows 메시지 번호|0x0010|WM_CLOSE|
 |!|원시 형식으로 모든 데이터 형식 보기 사용자 지정을 무시 합니다.|\<사용자 지정 표현>|4|
 
-### <a name="BKMK_Format_specifiers_memory_locations_in_interop_debugging_and_C___edit_and_continue"></a> 형식 지정자 메모리 위치 interop 디버깅을 사용 하 여 C + + /cli CLI
+### <a name="BKMK_Format_specifiers_memory_locations_in_interop_debugging_and_C___edit_and_continue"></a> 형식 지정자를 사용 하 여 interop 디버깅의 메모리 위치에 대 한 C++/CLI
 다음 표에 메모리 위치에 사용 되는 형식 지정 기호가 있습니다. 메모리 위치 지정자를 위치로 확인되는 값이나 수식에 사용할 수 있습니다.
 
-|기호|서식|원래 조사식 값|표시되는 값|
+|기호|형식|원래 조사식 값|표시되는 값|
 |------------|------------|--------------------------|---------------------|
 |**ma**|ASCII 문자 64개|0x0012ffac|0x0012ffac .4...0...".0W&.......1W&.0.:W..1...."..1.JO&.1.2.."..1...0y....1|
 |**m**|16바이트 16진수 뒤에 ASCII 문자 16개|0x0012ffac|0x0012ffac B3 34 CB 00 84 30 94 80 FF 22 8A 30 57 26 00 00 .4...0...".0W&amp;.|
@@ -183,6 +183,6 @@ int main() {
 ### <a name="BKMK_Size_specifier_for_pointers_as_arrays_in_interop_debugging_and_C___edit_and_continue"></a> C++/CLI를 사용하는 interop 디버깅에서 배열로 사용되는 포인터의 크기 지정자
 배열로 표시할 개체에 대한 포인터가 있는 경우 다음과 같이 정수를 사용하여 배열 요소의 수를 지정할 수 있습니다.
 
-|지정자|서식|식|표시되는 값|
+|지정자|형식|식|표시되는 값|
 |---------------|------------|----------------|---------------------|
 |n|10진수 정수|pBuffer[32]|`pBuffer`를 32개 요소 배열로 표시합니다.|
