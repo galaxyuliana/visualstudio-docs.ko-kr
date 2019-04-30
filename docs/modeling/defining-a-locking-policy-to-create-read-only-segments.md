@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b38f81b3269d0a456c077023d23861a55ac06a4c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 22eaa971035b4b202ecb76b3f1d29e286516a69b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445837"
 ---
 # <a name="defining-a-locking-policy-to-create-read-only-segments"></a>잠금 정책을 정의하여 읽기 전용 세그먼트 만들기
 Visual Studio Visualization and Modeling SDK의 불변성 API는 프로그램을을 읽을 수 있지만 변경 되지 않도록 도메인 특정 언어 (DSL) 모델의 전체 또는 일부를 잠글 수 있습니다. 이 읽기 전용 옵션이 사용할 수 있습니다, 예를 들어 사용자 동료 들이 주석 달기 및 DSL 모델 검토를 요청할 수 있지만 원래 변경에서 차단할 수 있습니다.
@@ -20,7 +20,7 @@ Visual Studio Visualization and Modeling SDK의 불변성 API는 프로그램을
  또한 DSL 작성자 정의할 수 있습니다는 *잠금 정책을 합니다.* 잠금 정책을 허용, 허용 되지 않음 또는 필수 되는 잠금을 정의 합니다. 예를 들어 DSL에 게시할 때 새 명령을 사용 하 여 확장 하는 타사 개발자가 게 요청할 수 있습니다. 하지만 모델의 지정 된 파트의 읽기 전용 상태를 변경 하지 못하도록 잠금 정책을 사용할 수도 있습니다.
 
 > [!NOTE]
->  잠금 정책의 리플렉션을 사용 하 여 손상 될 수 있습니다. 이 타사 개발자를 위한 명확한 경계를 제공 하지만 강력한 보안을 제공 하지 않습니다.
+> 잠금 정책의 리플렉션을 사용 하 여 손상 될 수 있습니다. 이 타사 개발자를 위한 명확한 경계를 제공 하지만 강력한 보안을 제공 하지 않습니다.
 
  자세한 내용 및 예제는 Visual Studio에서 사용할 수 있습니다 [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db) 웹 사이트입니다.
 

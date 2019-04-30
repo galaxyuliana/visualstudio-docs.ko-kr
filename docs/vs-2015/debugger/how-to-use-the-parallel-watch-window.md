@@ -18,12 +18,12 @@ caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 66e9e5a3f0a46f54346c71d85bad03846c12f937
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b588168b62a9219d0de703a5deb6dbe153df6305
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445094"
 ---
 # <a name="how-to-use-the-parallel-watch-window"></a>방법: 병렬 조사식 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "60050312"
 - 컴퓨터, 프로세스, 타일, 작업 및 스레드를 표시할 수 있는 구성 가능한 열  
   
   > [!TIP]
-  >  열어야 합니다는 **병렬 태스크** 창에서 작업 정보를 표시 하는 **병렬 조사식** 창.  
+  > 열어야 합니다는 **병렬 태스크** 창에서 작업 정보를 표시 하는 **병렬 조사식** 창.  
   
 - 합니다  **\<조사식 추가 >** 열에서 조사할 식을 입력할 수 있습니다.  
   
@@ -90,4 +90,4 @@ ms.locfileid: "60050312"
 ## <a name="see-also"></a>참고 항목  
  [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [방법: GPU 스레드 창 사용](../debugger/how-to-use-the-gpu-threads-window.md)   
- [연습: 디버깅을 C++ AMP 응용 프로그램](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
+ [연습: C++ AMP 애플리케이션 디버깅](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)

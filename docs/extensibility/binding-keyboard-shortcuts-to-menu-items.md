@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7d99ff4013b7cdb16cea8b8c3231709d2e5b0aff
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 8dc28a64d42d2184734142c68aef95cbc3b1d245
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56705861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63410111"
 ---
 # <a name="bind-keyboard-shortcuts-to-menu-items"></a>메뉴 항목에 바로 가기 키 바인딩
 바로 가기 키 사용자 지정 메뉴 명령을 바인딩할 항목을 방금 추가 된 *.vsct* 파일 패키지에 대 한 합니다. 이 항목에서는 바로 가기 키 사용자 지정 단추, 메뉴 항목 또는 도구 모음 명령에 매핑하는 방법 및 기본 편집기에서 키보드 매핑을 적용 하거나 사용자 지정 편집기를 제한 하는 방법을 설명 합니다.
@@ -42,7 +42,7 @@ ms.locfileid: "56705861"
 4. 매핑되지 않은 것을 찾을 때까지 다양 한 키 조합을 시도 합니다.
 
    > [!NOTE]
-   >  바로 가기 키를 사용 하는 **Alt** 메뉴를 열고 하 고 직접 명령을 실행할 수 있습니다. 따라서 합니다 **에서 현재 사용 하는 바로 가기** 포함 하는 바로 가기를 입력 상자를 비워 둘 수 있습니다 **Alt**합니다. 바로 가기 열리지 메뉴 닫아 확인할 수 있습니다 합니다 **옵션** 대화 상자 및 키를 눌러 합니다.
+   > 바로 가기 키를 사용 하는 **Alt** 메뉴를 열고 하 고 직접 명령을 실행할 수 있습니다. 따라서 합니다 **에서 현재 사용 하는 바로 가기** 포함 하는 바로 가기를 입력 상자를 비워 둘 수 있습니다 **Alt**합니다. 바로 가기 열리지 메뉴 닫아 확인할 수 있습니다 합니다 **옵션** 대화 상자 및 키를 눌러 합니다.
 
    다음 절차는 메뉴 명령 사용 하 여 기존 VSPackage를 있다고 가정 합니다. 그렇게 도움이 필요한 경우 잠시 살펴 [메뉴 명령을 사용 하 여 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "56705861"
 2. 빈 `<KeyBindings>` 섹션을 `<Commands>` 아직 제공 되지 경우.
 
    > [!WARNING]
-   >  키 바인딩에 대 한 자세한 내용은 참조 하세요. [Keybinding](../extensibility/keybinding-element.md)합니다.
+   > 키 바인딩에 대 한 자세한 내용은 참조 하세요. [Keybinding](../extensibility/keybinding-element.md)합니다.
 
     에 `<KeyBindings>` 섹션에서 만들기를 `<KeyBinding>` 항목입니다.
 

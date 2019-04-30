@@ -9,12 +9,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a614a90fe6388d9189d2b63e02f9bf63f83f0b7b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: e949dd566a065b266bfdbf8eae36a099fa229ef7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54774180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63403411"
 ---
 # <a name="wpf-data-binding-with-linq-to-xml-overview"></a>LINQ to XML로 WPF 데이터 바인딩 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,12 +56,12 @@ ms.locfileid: "54774180"
   WPF의 데이터 바인딩에 대한 자세한 내용은 [데이터 바인딩(WPF)](http://msdn.microsoft.com/library/90f79b97-17e7-40d1-abf0-3ba600ad1d7e)을 참조하세요.  
   
 ## <a name="dynamic-properties-in-linq-to-xml-classes"></a>LINQ to XML 클래스의 동적 속성  
- 대부분의 LINQ to XML 클래스는 적절한 WPF 동적 데이터 소스로 적합하지 않습니다. 가장 유용한 정보 중 일부 (메서드와 속성이 아니라)을 통해서만 제공 되며 이러한 클래스의 속성 변경 알림을 구현 하지 않습니다. WPF 데이터 바인딩을 지원하기 위해 LINQ to XML에서는 *동적 속성*의 집합을 노출합니다.  
+ 대부분의 LINQ to XML 클래스 적절 한 WPF 동적 데이터 소스로 적합 하지 않습니다. 가장 유용한 정보 중 일부 (메서드와 속성이 아니라)을 통해서만 제공 되며 이러한 클래스의 속성 변경 알림을 구현 하지 않습니다. WPF 데이터 바인딩을 지원하기 위해 LINQ to XML에서는 *동적 속성*의 집합을 노출합니다.  
   
  이러한 동적 속성은 <xref:System.Xml.Linq.XAttribute> 및 <xref:System.Xml.Linq.XElement> 클래스에 있는 기존 메서드 및 속성의 기능과 중복되는 특수 런타임 속성이며, WPF의 동적 데이터 소스로 작동하기 위한 목적으로만 이러한 클래스에 추가됩니다. 이 요구를 충족시키기 위해 이러한 모든 동적 속성은 변경 알림을 구현합니다. 이러한 동적 속성에 대한 자세한 참조 정보는 다음 섹션 [LINQ to XML 동적 속성](../designers/linq-to-xml-dynamic-properties.md)에서 제공됩니다.  
   
 > [!NOTE]
->  <xref:System.Xml.Linq> 네임스페이스의 다양한 클래스에 있는 표준 public 속성 중 상당수를 일회성 데이터 바인딩에 사용할 수 있습니다. 그러나 이 체계에서 원본이나 대상은 동적으로 업데이트되지 않습니다.  
+> <xref:System.Xml.Linq> 네임스페이스의 다양한 클래스에 있는 표준 public 속성 중 상당수를 일회성 데이터 바인딩에 사용할 수 있습니다. 그러나 이 체계에서 원본이나 대상은 동적으로 업데이트되지 않습니다.  
   
 ### <a name="accessing-dynamic-properties"></a>동적 속성 액세스  
  <xref:System.Xml.Linq.XAttribute> 및 <xref:System.Xml.Linq.XElement> 클래스의 동적 속성에는 표준 속성의 경우처럼 액세스할 수 없습니다. 예를 들어, C#과 같은 CLR 규격 언어에서 동적 속성에는 다음과 같은 특징이 있습니다.  

@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: fbcf07b462e280f522741b8329d34c2907f5b454
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8b848bdb4d0b71f5762601204195f0e81a1c2733
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443089"
 ---
 # <a name="how-to-localize-code"></a>방법: 코드 지역화
   지역화 되지 않은 코드는 하드 코드 된 문자열 값을 사용합니다. 호출 하 여 대체 코드 문자열을 지역화 하려면 <xref:System.Web.HttpContext.GetGlobalResourceObject%2A>, 지역화 된 리소스를 참조 하는 메서드는 합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "60066288"
      선택 된 **리소스 파일** 템플릿.
 
     > [!NOTE]
-    >  배포 유형 속성을 사용할 수 있도록 SharePoint 프로젝트 항목에 리소스 파일을 추가 해야 합니다. 이 속성은이 절차의 뒷부분에서 필요 합니다.
+    > 배포 유형 속성을 사용할 수 있도록 SharePoint 프로젝트 항목에 리소스 파일을 추가 해야 합니다. 이 속성은이 절차의 뒷부분에서 필요 합니다.
 
 2. 기본 언어 리소스 파일에 추가 된 원하는 이름을 지정 합니다.는 *.resx* 확장을 같은 *MyAppResources.resx*합니다.
 

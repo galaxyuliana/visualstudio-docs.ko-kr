@@ -13,12 +13,12 @@ caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 19280ccd2564cdbec14a1d74ae8babb9447c05e7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e190360b4441a937e9bfa9fb317f9d07de506040
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447241"
 ---
 # <a name="idiasymbol"></a>IDiaSymbol
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ IDiaSymbol : IUnknown
  다음 표에서의 메서드를 보여 줍니다. `IDiaSymbol`합니다.  
   
 > [!NOTE]
->  기호는 형식 기호에 따라 다음이 방법 중 일부에 대 한 의미 있는 데이터를 반환 합니다. 메서드가 반환 하는 경우 `S_OK`, 해당 메서드는 의미 있는 데이터를 반환 합니다.  
+> 기호는 형식 기호에 따라 다음이 방법 중 일부에 대 한 의미 있는 데이터를 반환 합니다. 메서드가 반환 하는 경우 `S_OK`, 해당 메서드는 의미 있는 데이터를 반환 합니다.  
   
 |메서드|설명|  
 |------------|-----------------|  
@@ -264,7 +264,7 @@ IDiaSymbol : IUnknown
  이 예제에서는 지정된 된 상대 가상 주소에는 함수에 대 한 지역 변수를 표시 하는 방법을 보여 줍니다. 또한 다양 한 종류의 기호 서로 어떻게 관련 되어 있는지 보여 줍니다.  
   
 > [!NOTE]
->  `CDiaBSTR` 래핑하는 클래스를 `BSTR` 인스턴스화 범위를 벗어나면 문자열이 해제를 자동으로 처리 하 고 있습니다.  
+> `CDiaBSTR` 래핑하는 클래스를 `BSTR` 인스턴스화 범위를 벗어나면 문자열이 해제를 자동으로 처리 하 고 있습니다.  
   
 ```cpp#  
 void DumpLocalVars( DWORD rva, IDiaSession *pSession )  

@@ -12,12 +12,12 @@ caps.latest.revision: 76
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8d71c820435ccf5bd131c11bc79844ac157561c7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 438dd372cc2d70ecb8d1d41602751b6ce0cdf821
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446757"
 ---
 # <a name="walkthrough-creating-a-custom-directive-processor"></a>연습: 사용자 지정 지시문 프로세서 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,7 +86,7 @@ End Property
 1. Visual Studio에서 CustomDP라는 C# 또는 Visual Basic 클래스 라이브러리 프로젝트를 만듭니다.  
 
     > [!NOTE]
-    >  둘 이상의 컴퓨터에 지시문 프로세서를 설치하려면 VSIX([!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension) 프로젝트를 사용하고 .pkgdef 파일을 확장에 포함하는 것이 좋습니다. 자세한 내용은 [사용자 지정 지시문 프로세서 배포](../modeling/deploying-a-custom-directive-processor.md)합니다.  
+    > 둘 이상의 컴퓨터에 지시문 프로세서를 설치하려면 VSIX([!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension) 프로젝트를 사용하고 .pkgdef 파일을 확장에 포함하는 것이 좋습니다. 자세한 내용은 [사용자 지정 지시문 프로세서 배포](../modeling/deploying-a-custom-directive-processor.md)합니다.  
 
 2. 다음 어셈블리에 대한 참조를 추가합니다.  
 
@@ -619,7 +619,7 @@ End Property
  텍스트 템플릿에서 지시문을 호출 하기 전에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], 지시문 프로세서에 대 한 레지스트리 키를 추가 해야 합니다.  
 
 > [!NOTE]
->  둘 이상의 컴퓨터에 지시문 프로세서를 설치하려면 어셈블리와 함께 .pkgdef 파일이 포함된 VSIX([!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension)를 정의하는 것이 좋습니다. 자세한 내용은 [사용자 지정 지시문 프로세서 배포](../modeling/deploying-a-custom-directive-processor.md)합니다.  
+> 둘 이상의 컴퓨터에 지시문 프로세서를 설치하려면 어셈블리와 함께 .pkgdef 파일이 포함된 VSIX([!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension)를 정의하는 것이 좋습니다. 자세한 내용은 [사용자 지정 지시문 프로세서 배포](../modeling/deploying-a-custom-directive-processor.md)합니다.  
 
  지시문 프로세서에 대한 키는 다음 위치의 레지스트리에 있습니다.  
 
@@ -636,7 +636,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
  이 단원에서는 사용자 지정 지시문 프로세서에 대한 키를 동일한 위치의 레지스트리에 추가합니다.  
 
 > [!CAUTION]
->  레지스트리를 잘못 편집하면 시스템에 심각한 손상이 발생할 수 있습니다. 따라서 레지스트리를 변경하기 전에 컴퓨터에 있는 중요한 데이터를 백업해야 합니다.  
+> 레지스트리를 잘못 편집하면 시스템에 심각한 손상이 발생할 수 있습니다. 따라서 레지스트리를 변경하기 전에 컴퓨터에 있는 중요한 데이터를 백업해야 합니다.  
 
 #### <a name="to-add-a-registry-key-for-the-directive-processor"></a>지시문 프로세서에 대한 레지스트리 키를 추가하려면  
 
@@ -649,7 +649,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 3. CustomDirectiveProcessor라는 새 키를 추가합니다.  
 
    > [!NOTE]
-   >  이것은 사용자 지정 지시문의 Processor 필드에서 사용할 이름입니다. 이 이름은 지시문의 이름, 지시문 프로세서 클래스의 이름 또는 지시문 프로세서 네임스페이스와 일치하지 않아도 됩니다.  
+   > 이것은 사용자 지정 지시문의 Processor 필드에서 사용할 이름입니다. 이 이름은 지시문의 이름, 지시문 프로세서 클래스의 이름 또는 지시문 프로세서 네임스페이스와 일치하지 않아도 됩니다.  
 
 4. 새 문자열의 이름으로 CustomDP.CustomDirectiveProcessor 값을 가진 Class라는 새 문자열 값을 추가합니다.  
 
@@ -687,7 +687,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 1. 라는 텍스트 파일을 만듭니다 `DocFile.xml` 임의의 텍스트 편집기 (예: 메모장)를 사용 하 여 합니다.  
 
     > [!NOTE]
-    >  원하는 위치에 이 파일을 만들 수 있습니다(예: C:\Test\DocFile.xml).  
+    > 원하는 위치에 이 파일을 만들 수 있습니다(예: C:\Test\DocFile.xml).  
 
 2. 텍스트 파일에 다음을 추가합니다.  
 
@@ -743,7 +743,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 4. TestDP.tt의 내용을 다음 텍스트로 변경합니다.  
 
     > [!NOTE]
-    >  문자열을 대체 해야 <`YOUR PATH>` 을 DocFile.xml 파일의 경로 사용 하 여 합니다.  
+    > 문자열을 대체 해야 <`YOUR PATH>` 을 DocFile.xml 파일의 경로 사용 하 여 합니다.  
 
      텍스트 템플릿의 언어는 지시문 프로세서의 언어와 일치하지 않아도 됩니다.  
 
@@ -830,7 +830,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
     ```  
 
     > [!NOTE]
-    >  이 예제에서 `Processor` 매개 변수의 값은 `CustomDirectiveProcessor`입니다. `Processor` 매개 변수의 값은 프로세서의 레지스트리 키 이름과 일치해야 합니다.  
+    > 이 예제에서 `Processor` 매개 변수의 값은 `CustomDirectiveProcessor`입니다. `Processor` 매개 변수의 값은 프로세서의 레지스트리 키 이름과 일치해야 합니다.  
 
 5. **파일** 메뉴에서 **모두 저장**을 클릭합니다.  
 
@@ -882,7 +882,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 1. TestDP.tt의 코드를 다음 코드로 바꿉니다. HTML이 강조 표시되어 있습니다. 문자열을 대체 해야 `YOUR PATH` 을 DocFile.xml 파일의 경로 사용 하 여 합니다.  
 
     > [!NOTE]
-    >  추가로 \<#와 닫는 #> 태그는 HTML 태그에서 문 코드를 구분 합니다.  
+    > 추가로 \<#와 닫는 #> 태그는 HTML 태그에서 문 코드를 구분 합니다.  
 
     ```csharp  
     <#@ assembly name="System.Xml" #>  

@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 786c71f568bc44eeecdd44dfd91462ad00dda445
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fe706260bcb535f33a14eea2fd174ee37ea1c8aa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388383"
 ---
 # <a name="how-to-expand-and-collapse-spy-trees"></a>방법: Spy++ 트리 확장 및 축소
 확장 및 두 개의 메서드를 사용 하 여 Windows, 프로세스 및 스레드 뷰를 축소할 수 있습니다: 창에서 또는 사용 하 여 아이콘을 클릭 하 여 합니다 **트리** 메뉴. + 및-시각적 개체에서 프록시로 트리에서 아이콘 C++ 프로젝트 창입니다.
@@ -30,7 +30,7 @@ ms.locfileid: "60071189"
 |**축소**|현재 선택된 된 항목을 완전히 축소합니다.|
 
 > [!TIP]
->  프로세스를 확장 하는 경우 프로세스를 소유 하는 모든 스레드가 표시 됩니다. 스레드를 확장 하는 경우를 소유 하 고 모든 windows의 목록이 표시 됩니다.
+> 프로세스를 확장 하는 경우 프로세스를 소유 하는 모든 스레드가 표시 됩니다. 스레드를 확장 하는 경우를 소유 하 고 모든 windows의 목록이 표시 됩니다.
 
 ### <a name="to-expand-or-collapse-spy-trees"></a>또는 Spy + + 트리를 축소 하려면
 

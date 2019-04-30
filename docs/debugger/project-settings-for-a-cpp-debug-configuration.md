@@ -1,5 +1,5 @@
 ---
-title: C + + 디버그 구성에 대 한 프로젝트 설정
+title: 프로젝트 설정에 대 한는 C++ 디버그 구성
 ms.custom: seodec18
 ms.date: 11/26/2018
 ms.topic: reference
@@ -112,18 +112,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 99c81952ee150e185f52edc624663c3cca9a9164
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: fb4f60c9e36b7c8c7a918b2298d7522e7c5d3793
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56722242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63407880"
 ---
 # <a name="project-settings-for-a-c-debug-configuration"></a>C++ 디버그 구성에 대한 프로젝트 설정
-C 또는 Visual c + + 디버그 구성에 대 한 프로젝트 설정을 변경할 수 있습니다 합니다 **속성 페이지** 대화 상자에 설명 된 대로 [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md). 다음 표에서는 **속성 페이지** 대화 상자에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.
+C 또는 시각적 개체에 대 한 프로젝트 설정을 변경할 수 있습니다 C++ 디버그 구성에는 **속성 페이지** 대화 상자에 설명 된 대로 [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md)을 참조하세요. 다음 표에서는 **속성 페이지** 대화 상자에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.
 
 > [!NOTE]
->  디버그 프로젝트 설정은 합니다 **구성 속성/디버깅** 범주의 속성은 다른 c + +로 작성 된 구성 요소 및 UWP 앱에 대 한 합니다. 참조 [디버그 세션 시작 (VB, C#, c + + 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)합니다.
+> 디버그 프로젝트 설정은 합니다 **구성 속성/디버깅** 범주의 속성은 작성 된 구성 요소 및 UWP 앱에 대 한 다른 C++합니다. 참조 [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)합니다.
 
  각 디버그 속성 설정은 자동으로 작성 되며 "사용자별" 파일에 저장 됩니다 (. vcxproj.user) 솔루션을 저장 하는 경우 솔루션에 대 한 합니다.
 
@@ -142,8 +142,8 @@ C 또는 Visual c + + 디버그 구성에 대 한 프로젝트 설정을 변경�
 | **원격 서버 이름**(원격 Windows 디버거) | 응용 프로그램을 디버깅할 다른 컴퓨터의 이름을 지정합니다.<br /><br /> RemoteMachine 빌드 매크로는 이 속성의 값으로 설정됩니다. 자세한 내용은 [빌드 명령 및 속성 매크로](/cpp/ide/common-macros-for-build-commands-and-properties)를 참조하세요. |
 | **연결**(원격 Windows 디버거) | 원격 디버깅을 위해 표준 및 인증 없는 연결 형식 사이를 전환할 수 있습니다. **원격 서버 이름** 상자에 원격 컴퓨터 이름을 지정합니다. 연결 형식에는 다음이 포함됩니다.<br /><br /> -   **Windows 인증을 사용한 원격**<br />-   **인증을 사용하지 않는 원격**<br /><br /> **참고** 인증을 사용하지 않는 원격 디버깅의 경우 원격 컴퓨터가 보안 위반에 취약할 수 있습니다. Windows 인증 모드를 사용하는 것이 더 안전합니다.<br /><br /> 자세한 내용은 [원격 디버깅 설치](../debugger/remote-debugging.md)를 참조하세요. |
 | **HTTP URL**(웹 서비스 디버거 및 웹 브라우저 디버거) | 디버깅하려는 프로젝트가 있는 URL을 지정합니다. |
-| **디버거 형식** | 사용할 디버거 형식을 지정합니다. **네이티브 전용**, **관리 전용**, **GPU 전용**, **혼합**, **자동**(기본값) 또는 **스크립트**를 지정할 수 있습니다.<br /><br /> -   **네이티브 전용**은 비관리 C++ 코드에 사용합니다.<br />-   **관리 전용**은 공용 언어 런타임에서 실행되는 코드(관리 코드)에 사용합니다.<br />-   **혼합**은 관리 코드와 비관리 코드 둘 다에 사용할 수 있는 디버거를 호출합니다.<br />-   **자동**은 컴파일러와 EXE 정보에 따라 디버거 형식을 결정합니다.<br />-   **스크립트**는 스크립트용 디버거를 호출합니다.<br />-   **GPU 전용**은 GPU 디바이스 또는 DirectX 기준 래스터라이저에서 실행되는 C++ AMP 코드에 사용합니다. 참조 [GPU 디버깅 코드](../debugger/debugging-gpu-code.md)합니다. |
-| **환경** (로컬 Windows 디버거 및 원격 Windows 디버거) | 디버깅할 프로그램의 환경 변수를 지정합니다. 표준 환경 변수 구문을 사용 하 여 (예를 들어 `PATH="%SystemRoot%\..."`). 이러한 변수는 **환경 병합** 설정에 따라 시스템 환경과 병합되거나 시스템 환경을 재정의합니다. 설정 열에서을 클릭 하는 "..." 나타납니다. 환경 변수를 편집 하려면 해당 링크를 선택 합니다. |
+| **디버거 형식** | 사용할 디버거 형식을 지정 합니다. **네이티브 전용**, **관리 전용**를 **GPU 전용**를 **혼합**를 **자동** (기본값) 또는 **스크립트**.<br /><br /> -   **네이티브 전용**은 비관리 C++ 코드에 사용합니다.<br />-   **관리 전용**은 공용 언어 런타임에서 실행되는 코드(관리 코드)에 사용합니다.<br />-   **혼합**은 관리 코드와 비관리 코드 둘 다에 사용할 수 있는 디버거를 호출합니다.<br />-   **자동**은 컴파일러와 EXE 정보에 따라 디버거 형식을 결정합니다.<br />-   **스크립트**는 스크립트용 디버거를 호출합니다.<br />-   **GPU 전용**은 GPU 디바이스 또는 DirectX 기준 래스터라이저에서 실행되는 C++ AMP 코드에 사용합니다. 참조 [GPU 디버깅 코드](../debugger/debugging-gpu-code.md)합니다. |
+| **환경** (로컬 Windows 디버거 및 원격 Windows 디버거) | 디버깅할 프로그램의 환경 변수를 지정합니다. 표준 환경 변수 구문을 사용 하 여 (예를 들어 `PATH="%SystemRoot%\..."`). 이러한 변수는 **환경 병합** 설정에 따라 시스템 환경과 병합되거나 시스템 환경을 재정의합니다. 설정 열에서 마우스 왼쪽 단추로 클릭 하는 경우는 "편집...." 표시 됩니다. 환경 변수를 편집 하려면 해당 링크를 선택 합니다. |
 | **환경 병합**(로컬 Windows 디버거) | **환경** 상자에 지정한 변수를 운영 체제에 정의된 환경과 병합할지 여부를 결정합니다. 기본 설정은 예입니다. |
 | **SQL 디버깅**(MPI 클러스터 디버거를 제외한 모든 디버거) | [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 응용 프로그램에서 SQL 프로시저를 디버깅할 수 있습니다. 기본 설정은 아니요입니다. |
 | **디버깅 가속기 형식**(GPU 디버깅만 해당) | 디버깅에 사용할 GPU 장치를 지정합니다. 호환되는 GPU 장치용 장치 드라이버를 설치하면 옵션이 더 추가됩니다. 기본 설정은 **GPU - 소프트웨어 에뮬레이터**입니다. |
@@ -185,9 +185,9 @@ C 또는 Visual c + + 디버그 구성에 대 한 프로젝트 설정을 변경�
 
 외부 프로젝트에 있는 Dll을 디버깅 하려면 참조 [DLL 디버깅 프로젝트](../debugger/debugging-dll-projects.md#vxtskdebuggingdllprojectsexternal)합니다. 사용자 고유의 DLL 프로젝트 디버그 하지 호출 응용 프로그램에 대 한 프로젝트에 대 한 액세스 권한이 하지만 참조 하는 경우 [DLL 프로젝트에서 디버그 하는 방법을](../debugger/how-to-debug-from-a-dll-project.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [네이티브 코드 디버그](../debugger/debugging-native-code.md)
 - [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)
-- [Visual c + + 프로젝트 만들기 및 관리](/cpp/ide/creating-and-managing-visual-cpp-projects)
+- [시각적 개체를 만들고 C++ 프로젝트](/cpp/ide/creating-and-managing-visual-cpp-projects)
 - [/ASSEMBLYDEBUG(DebuggableAttribute 추가)](/cpp/build/reference/assemblydebug-add-debuggableattribute)
 - [빌드 명령 및 속성에 대한 일반 매크로](/cpp/ide/common-macros-for-build-commands-and-properties)

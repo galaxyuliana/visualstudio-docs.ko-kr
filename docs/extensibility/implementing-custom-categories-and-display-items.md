@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 60ad63bd5a6fa3b8cca2a288e1c42b1a2ab326bd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 124b1a1f5e6bbf0f07bf8533940820d4f5ca9247
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418844"
 ---
 # <a name="implement-custom-categories-and-display-items"></a>사용자 지정 범주를 구현 하 고 항목을 표시
 VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 사용자 지정 범주 및 표시 항목을 통해 통합된 개발 환경 (IDE)입니다.
@@ -88,7 +88,7 @@ VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!
   - 각 멤버에 대 한 정보를 표시할 **범주**합니다.
 
   > [!NOTE]
-  >  모든 **범주** 하나 이상 있어야 **표시 항목**합니다.
+  > 모든 **범주** 하나 이상 있어야 **표시 항목**합니다.
 
 - IDE를 사용 하는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> 여러 범주의 합집합을 정의 하는 인터페이스입니다.
 
@@ -120,7 +120,7 @@ VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!
      시스템이 구현 통해 수행할 수 있습니다이 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다. 하지만 주로 지원용 지 속성을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 메서드는에 대 한 글꼴 및 색 정보를 가져오는 데 사용할 수 있습니다 **항목을 표시**합니다. 자세한 내용은 [액세스 글꼴 및 색 설정을 저장](../extensibility/accessing-stored-font-and-color-settings.md)합니다.
 
     > [!NOTE]
-    >  폴링을 통해 얻은 결과가 올바른 데 유용할 수 있습니다 되도록 하려면 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> 캐시 플러시 및 업데이트의 검색 메서드를 호출 하는 데 필요한 경우를 결정 하는 인터페이스를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.
+    > 폴링을 통해 얻은 결과가 올바른 데 유용할 수 있습니다 되도록 하려면 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> 캐시 플러시 및 업데이트의 검색 메서드를 호출 하는 데 필요한 경우를 결정 하는 인터페이스를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.
 
 ## <a name="see-also"></a>참고자료
 

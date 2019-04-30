@@ -14,12 +14,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f5fc99de05ef040db8c4560f9f6623081018a556
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: c7f3f30d08fb62defec5e783da286e968a6b17c9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444424"
 ---
 # <a name="properties-of-elements-on-uml-component-diagrams"></a>UML 구성 요소 다이어그램 요소의 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "58983769"
 UML 구성 요소 다이어그램에서 다이어그램의 각 요소에는 속성이 있습니다. 요소의 속성을 보려면 다이어그램 또는 요소를 마우스 오른쪽 단추로 **UML 모델 탐색기** 을 클릭 한 다음 **속성**합니다. 속성에 표시 된 **속성** 창입니다.  
   
 > [!NOTE]
->  이 항목은 UML 구성 요소 다이어그램 요소의 속성에 대한 것입니다. UML 구성 요소 다이어그램을 읽는 방법에 대 한 자세한 내용은 참조 하세요. [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)를 참조하세요. UML 구성 요소 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다.  
+> 이 항목은 UML 구성 요소 다이어그램 요소의 속성에 대한 것입니다. UML 구성 요소 다이어그램을 읽는 방법에 대 한 자세한 내용은 참조 하세요. [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)를 참조하세요. UML 구성 요소 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다.  
   
 ## <a name="properties-of-elements"></a>요소의 속성  
   

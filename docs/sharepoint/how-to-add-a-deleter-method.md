@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d7a486ea4a448cb30b64631589f003854e8b1b40
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: c9d005ef8bade9f83027c216d875d24aad602449
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418344"
 ---
 # <a name="how-to-add-a-deleter-method"></a>방법: Deleter 메서드 추가
   최종 사용자가 SharePoint 사이트에서 외부 목록에서 모델을 Deleter 메서드를 추가 하 여 데이터 레코드를 삭제할 수 있습니다. 자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.
@@ -58,10 +58,10 @@ ms.locfileid: "56644395"
 5. 코드는 레코드를 삭제 하는 Deleter 메서드를 추가 합니다. 다음 예제에서는 SQL Server에 대 한 AdventureWorks 예제 데이터베이스를 사용 하 여 판매 주문에서 줄 항목을 삭제 합니다.
 
    > [!NOTE]
-   >  이 예제에서 메서드는 두 개의 입력된 매개 변수를 사용합니다.
+   > 이 예제에서 메서드는 두 개의 입력된 매개 변수를 사용합니다.
 
    > [!NOTE]
-   >  값을 `ServerName` 필드 서버의 이름입니다.
+   > 값을 `ServerName` 필드 서버의 이름입니다.
 
     [!code-csharp[SP_BDC#6](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderdetailservice.cs#6)]
     [!code-vb[SP_BDC#6](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb#6)]

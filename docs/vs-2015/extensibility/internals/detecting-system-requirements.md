@@ -11,12 +11,12 @@ ms.assetid: 0ba94acf-bf0b-4bb3-8cca-aaac1b5d6737
 caps.latest.revision: 51
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: cdc69441de852e16adc047465aeec30003fe5170
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 467554b8e50878bcdf1029e4792bbf168a09fa11
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445251"
 ---
 # <a name="detecting-system-requirements"></a>시스템 요구 사항 검색
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ VSPackage는 Visual Studio가 설치 되어 있지 않으면 작동 하지 않�
    "상위" 버전을 설치할 때에 "lower" 버전의 경우 해당 버전에 대 한 레지스트리 키 추가 됩니다. 즉, Enterprise edition이 설치 되어 설치 키 Professional 및 Community 버전 뿐만 아니라 엔터프라이즈에 대 한 1로 설정 됩니다. 따라서 필요한 "최고" 버전에 대해서만 확인 해야 합니다.  
   
 > [!NOTE]
->  레지스트리 편집기의 64 비트 버전에서는 32 비트 키 아래에 표시 됩니다 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\\합니다. Visual Studio 키는 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DevDiv\vs\Servicing 아래\\합니다.  
+> 레지스트리 편집기의 64 비트 버전에서는 32 비트 키 아래에 표시 됩니다 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\\합니다. Visual Studio 키는 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\DevDiv\vs\Servicing 아래\\합니다.  
   
 |제품|Key|  
 |-------------|---------|  

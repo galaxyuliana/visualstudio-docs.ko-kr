@@ -14,12 +14,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7d9b30dd50838eced1299e4aaae6999c8fb9f0e5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c594e3837a4fe2c8b2e5a7b69e5db93377a8dc8d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442319"
 ---
 # <a name="run-windows-phone-apps-in-the-emulator"></a>에뮬레이터에서 Windows Phone 앱 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ Windows Phone 에뮬레이터는 실제 장치 없이 컴퓨터에서 Windows Ph
    선택한 에뮬레이터가 이미 실행 중이면 실행 중인 에뮬레이터에서 앱이 배포되어 시작됩니다. 한 번에 각 에뮬레이터의 인스턴스 하나만 실행할 수 있습니다.  
   
 > [!TIP]
->  에뮬레이터에서 앱을 테스트하는 경우 앱을 빠르게 다시 실행할 수 있도록 디버깅 세션 사이에 에뮬레이터를 열어 둡니다.  
+> 에뮬레이터에서 앱을 테스트하는 경우 앱을 빠르게 다시 실행할 수 있도록 디버깅 세션 사이에 에뮬레이터를 열어 둡니다.  
   
 ### <a name="BKMK_vs"></a> Visual Studio에서 앱 실행  
   

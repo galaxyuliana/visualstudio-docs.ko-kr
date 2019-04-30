@@ -11,12 +11,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4ade2b369cd1c9e0371acacfcd63b06a2d89e58a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 36555d9b00c9aff3f594ae2217afe8434bb41542
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442751"
 ---
 # <a name="how-to-start-spy"></a>방법: Spy++ 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60066710"
  시작 하는 경우 Spy + +, 컴퓨터로 변경, 클릭 수 있는 권한을 묻는 메시지가 표시 되 면 **예**합니다.  
   
 > [!NOTE]
->  Spy + +의 인스턴스 하나만 실행할 수 있습니다. 다른 인스턴스를 실행 하려고 하면 현재 실행 중인 인스턴스는 포커스만 발생 합니다.  
+> Spy + +의 인스턴스 하나만 실행할 수 있습니다. 다른 인스턴스를 실행 하려고 하면 현재 실행 중인 인스턴스는 포커스만 발생 합니다.  
   
 ### <a name="to-start-spy-from-visual-studio"></a>Visual Studio에서 Spy + +를 시작 하려면  
   
@@ -35,7 +35,7 @@ ms.locfileid: "60066710"
      Spy + + 독립적으로 실행을 시작한 후, 때문에 Visual Studio를 닫을 수 있습니다.  
   
     > [!NOTE]
-    >  Spy + +를 사용 하 여 메시지를 기록 하는 경우 운영 체제를 훨씬 더 느리게 수행 될 수 있습니다.  
+    > Spy + +를 사용 하 여 메시지를 기록 하는 경우 운영 체제를 훨씬 더 느리게 수행 될 수 있습니다.  
   
 ### <a name="to-start-spy-at-a-command-prompt"></a>Spy + + 명령 프롬프트에서 시작 하려면  
   

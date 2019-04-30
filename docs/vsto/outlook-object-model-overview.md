@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e329631f0bdeb79a068e4a791158f94cec3904ee
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d2ad5a5424844896541e46d2afbc158320c7e5a3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442406"
 ---
 # <a name="outlook-object-model-overview"></a>Outlook 개체 모델 개요
   Microsoft Office Outlook용 VSTO 추가 기능을 개발하기 위해 Outlook 개체 모델에서 제공하는 개체를 조작할 수 있습니다. Outlook 개체 모델은 사용자 인터페이스의 항목을 나타내는 클래스 및 인터페이스를 제공합니다. 예를 들어 <xref:Microsoft.Office.Interop.Outlook.Application> 개체는 전체 애플리케이션을 나타내고, <xref:Microsoft.Office.Interop.Outlook.Folder> 개체는 메일 메시지 또는 기타 항목이 포함된 폴더를 나타내고, <xref:Microsoft.Office.Interop.Outlook.MailItem> 개체는 메일 메시지를 나타냅니다.
@@ -65,7 +65,7 @@ ms.locfileid: "60061933"
   인스턴스를 가져올는 <xref:Microsoft.Office.Interop.Outlook.Application> 개체, 응용 프로그램 필드를 사용 하 여는 `ThisAddIn` 프로젝트에서 클래스입니다. 자세한 내용은 [프로그램 VSTO 추가 기능](../vsto/programming-vsto-add-ins.md)합니다.
 
 > [!NOTE]
->  Outlook 개체 모델 보호에 의해 차단 되는 메서드와 속성을 사용 하는 경우에 보안 경고를 발생 하지 않도록 하려면 응용 프로그램 필드에서 Outlook 개체를 가져오기는 `ThisAddIn` 클래스입니다. 자세한 내용은 [Office 솔루션에 대 한 특정 보안 고려 사항](../vsto/specific-security-considerations-for-office-solutions.md)합니다.
+> Outlook 개체 모델 보호에 의해 차단 되는 메서드와 속성을 사용 하는 경우에 보안 경고를 발생 하지 않도록 하려면 응용 프로그램 필드에서 Outlook 개체를 가져오기는 `ThisAddIn` 클래스입니다. 자세한 내용은 [Office 솔루션에 대 한 특정 보안 고려 사항](../vsto/specific-security-considerations-for-office-solutions.md)합니다.
 
 ### <a name="explorer-object"></a>개체 탐색기
  <xref:Microsoft.Office.Interop.Outlook.Explorer> 개체는 메일 메시지, 작업 또는 약속과 같은 항목이 포함된 폴더의 내용을 표시하는 창을 나타냅니다. <xref:Microsoft.Office.Interop.Outlook.Explorer> 개체에는 창을 수정하는 데 사용할 수 있는 메서드 및 속성과 창이 변경될 때 발생하는 이벤트가 포함됩니다.

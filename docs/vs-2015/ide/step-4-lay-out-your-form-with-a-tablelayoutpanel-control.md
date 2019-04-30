@@ -9,12 +9,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f4c6b72c521b15c1087b71ddb7241268cf56d64c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5ddd76bab4d007a9476dde75f46f3f2bc77be865
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442526"
 ---
 # <a name="step-4-lay-out-your-form-with-a-tablelayoutpanel-control"></a>4단계: TableLayoutPanel 컨트롤을 사용하여 폼 레이아웃
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "60070253"
 TableLayoutPanel 컨트롤  
   
     > [!NOTE]
-    >  TableLayoutPanel을 추가한 후 제목이 **TableLayoutPanel Tasks**인 창이 폼 안에 표시되면 폼 안쪽 아무 곳이나 선택하여 폼을 닫습니다. 이 창에 대해서는 이 자습서의 뒷부분에서 자세히 설명합니다.  
+    > TableLayoutPanel을 추가한 후 제목이 **TableLayoutPanel Tasks**인 창이 폼 안에 표시되면 폼 안쪽 아무 곳이나 선택하여 폼을 닫습니다. 이 창에 대해서는 이 자습서의 뒷부분에서 자세히 설명합니다.  
   
      도구 상자 탭을 선택할 때 도구 상자가 폼에 맞게 확대되는 방식과 도구 상자 바깥쪽 아무 곳이나 선택한 후 도구 상자가 닫히는 방식을 살펴봅니다. 이 기능이 IDE 자동 숨기기 기능입니다. 창의 오른쪽 위 모퉁이에 있는 압정 아이콘을 선택하여 해당 창에서 자동 숨기기 기능을 사용하거나 사용하지 않도록 설정하고 창을 현재 위치에 고정할 수 있습니다. 압정 아이콘은 다음과 같습니다.  
   
@@ -62,7 +62,7 @@ Fill이 선택된 속성 창
 7. TableLayoutPanel **Dock** 속성을 **Fill**로 설정합니다. 그러면 패널이 전체 폼으로 채워집니다. 폼의 크기를 다시 조정하면 TableLayoutPanel은 도킹된 상태를 유지한 채 폼의 크기에 맞게 자동으로 크기가 조정됩니다.  
   
     > [!NOTE]
-    >  TableLayoutPanel은 Microsoft Office Word의 테이블처럼 작동합니다. 행과 열이 포함되고, 개별 셀은 여러 행 및 열에 걸쳐 있을 수 있습니다. 각 셀에는 단추, 확인란, 레이블 등과 같은 컨트롤이 하나만 있을 수 있습니다. TableLayoutPanel에는 전체 위쪽 행에 걸쳐 있는 하나의 `PictureBox` 컨트롤, 왼쪽 아래 셀에 있는 하나의 `CheckBox` 컨트롤 및 오른쪽 아래 셀에 있는 네 개의 `Button` 컨트롤이 포함되어 있습니다.  
+    > TableLayoutPanel은 Microsoft Office Word의 테이블처럼 작동합니다. 행과 열이 포함되고, 개별 셀은 여러 행 및 열에 걸쳐 있을 수 있습니다. 각 셀에는 단추, 확인란, 레이블 등과 같은 컨트롤이 하나만 있을 수 있습니다. TableLayoutPanel에는 전체 위쪽 행에 걸쳐 있는 하나의 `PictureBox` 컨트롤, 왼쪽 아래 셀에 있는 하나의 `CheckBox` 컨트롤 및 오른쪽 아래 셀에 있는 네 개의 `Button` 컨트롤이 포함되어 있습니다.  
   
 8. 현재 TableLayoutPanel에는 크기가 같은 행과 열이 각각 두 개씩 있는데, 위쪽 행과 오른쪽 열의 크기를 훨씬 더 크게 만들어야 합니다. Windows Forms 디자이너에서 TableLayoutPanel을 선택합니다. 오른쪽 위 모퉁이에 다음과 같은 작은 검정색 삼각형 단추가 있습니다.  
   

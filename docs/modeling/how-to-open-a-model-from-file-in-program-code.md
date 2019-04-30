@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 18956cd3f4fa1a550808577f9e7fec9c9b193b4c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 092af518cc6c6fb1d98025cda54a6a1d491940c9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445130"
 ---
 # <a name="how-to-open-a-model-from-file-in-program-code"></a>방법: 프로그램 코드로 파일에서 모델 열기
 모든 응용 프로그램에서 DSL 모델을 열 수 있습니다.
@@ -31,7 +31,7 @@ ms.locfileid: "60095873"
 3. 프로젝트 속성 창에서에 **응용 프로그램** 탭, 설정 된 **대상 프레임 워크** 필드를 **.NET Framework 4**.
 
 > [!NOTE]
->  선택한 경우에이 작업을 수행 해야 **.NET Framework 4** 프로젝트 만들기 대화 상자에서. 대상 프레임 워크 안 **.NET Framework 4 Client Profile**합니다.
+> 선택한 경우에이 작업을 수행 해야 **.NET Framework 4** 프로젝트 만들기 대화 상자에서. 대상 프레임 워크 안 **.NET Framework 4 Client Profile**합니다.
 
 ## <a name="references"></a>참조
  Visual Studio 응용 프로그램 프로젝트에 대 한 이러한 참조를 추가 해야 합니다.

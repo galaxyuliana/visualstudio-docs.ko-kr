@@ -26,12 +26,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2b40e7814fb809298c71d0078e644c12bd5a9a9e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fda2a10cd559f940ab87e5cc8c26f5b47dbec194
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63384032"
 ---
 # <a name="how-to-debug-com-clients-and-servers-using-rpc-debugging"></a>방법: RPC 디버깅을 사용하여 COM 클라이언트 및 서버 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,10 +49,10 @@ RPC(원격 프로시저 호출) 디버깅을 사용하면 COM 클라이언트/�
 4. **RPC 디버깅** 확인란을 선택합니다.  
   
     > [!NOTE]
-    >  RPC 호출을 디버깅하려면 관리자 또는 고급 사용자 권한이 있어야 합니다.  
+    > RPC 호출을 디버깅하려면 관리자 또는 고급 사용자 권한이 있어야 합니다.  
   
     > [!NOTE]
-    >  Microsoft Windows Vista가 실행되는 원격 서버에서 RPC 단계별 실행을 사용하려면 원격 서버에 네이티브 디버거가 연결되어 있어야 합니다. 그렇지 않으면 RPC 호출이 실패하고 오류 메시지는 표시되지 않습니다. 또는 RPC 호출이 완료되더라도 RPC 호출에 대한 단계별 실행이 작동하지 않습니다.  
+    > Microsoft Windows Vista가 실행되는 원격 서버에서 RPC 단계별 실행을 사용하려면 원격 서버에 네이티브 디버거가 연결되어 있어야 합니다. 그렇지 않으면 RPC 호출이 실패하고 오류 메시지는 표시되지 않습니다. 또는 RPC 호출이 완료되더라도 RPC 호출에 대한 단계별 실행이 작동하지 않습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [COM 서버 및 컨테이너 디버깅](../debugger/com-server-and-container-debugging.md)   

@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 55a27a8d0c5c119870e92bfbf7cff4b85f90cf99
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 84a62fc796243172c9130c8113c4e6d289ed3092
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447020"
 ---
 # <a name="publish-page-project-designer-office-development-in-visual-studio"></a>게시 페이지, 프로젝트 디자이너 (Visual Studio에서 Office 개발)
   **프로젝트 디자이너** 의 **게시** 페이지를 통해 배포를 위한 속성을 구성합니다.
@@ -29,7 +29,7 @@ ms.locfileid: "60103532"
  이 페이지에 액세스하려면 **솔루션 탐색기**에서 프로젝트를 선택한 다음 **프로젝트** 메뉴에서 *Projectname* **속성**을 선택합니다. **게시** 페이지가 표시되지 않으면 **게시** 탭을 선택합니다.
 
 > [!NOTE]
->  게시 위치를 **게시 마법사**에서 설정할 수도 있습니다. 자세한 내용은 [방법: ClickOnce를 사용 하 여 Office 솔루션 게시](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)합니다.
+> 게시 위치를 **게시 마법사**에서 설정할 수도 있습니다. 자세한 내용은 [방법: ClickOnce를 사용 하 여 Office 솔루션 게시](https://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)합니다.
 
 ## <a name="uielement-list"></a>UI 요소 목록
  **폴더 위치 게시 (웹 사이트, ftp 서버 또는 파일 경로)** 필요 합니다.

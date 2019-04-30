@@ -9,12 +9,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 318caec1f96bc0b69a6fe9540231608a8636e107
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 07e5c91038013f51199212a3215490bbfdf34257
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442621"
 ---
 # <a name="step-2-create-a-random-addition-problem"></a>2단계: 난수 더하기 문제 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60099502"
 이 자습서의 2단계에서는 난수 기반 수학 문제를 추가하여 퀴즈를 좀 더 어렵게 만듭니다. 문제를 채우고 카운트다운 타이머를 시작하는 `StartTheQuiz()`라는 메서드도 추가합니다. 이 자습서의 뒷부분에서는 빼기, 곱하기 및 나누기 문제를 추가합니다.  
   
 > [!NOTE]
->  이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
+> 이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
   
 ### <a name="to-create-a-random-addition-problem"></a>난수 더하기 문제를 만들려면  
   
@@ -46,7 +46,7 @@ ms.locfileid: "60099502"
 4. 폼에 두 개의 정수 변수를 추가하고 이름을 **addend1** 및 **addend2**로 지정합니다.  
   
     > [!NOTE]
-    >  정수 변수를 C#에서는 int라고 하고 Visual Basic에서는 Integer라고 합니다. 이러한 종류의 변수는 -2147483648에서 2147483647 사이의 소수가 아닌 양의 정수 또는 음의 정수만 저장할 수 있습니다.  
+    > 정수 변수를 C#에서는 int라고 하고 Visual Basic에서는 Integer라고 합니다. 이러한 종류의 변수는 -2147483648에서 2147483647 사이의 소수가 아닌 양의 정수 또는 음의 정수만 저장할 수 있습니다.  
   
      다음 코드에서처럼 `Random` 개체를 추가할 때와 비슷한 구문을 사용하여 정수 변수를 추가할 수 있습니다.  
   
@@ -66,7 +66,7 @@ Next 메서드
      개체 뒤에 점을 입력하면 IntelliSense에 속성, 메서드, 이벤트 등 개체의 멤버 목록이 표시됩니다.  
   
     > [!NOTE]
-    >  `Next()`를 호출할 때처럼 `Random` 메서드를 `randomizer.Next(50)` 개체와 함께 사용하는 경우 50 미만(0에서 49 사이)의 난수가 반환됩니다. 이 예제에서는 `randomizer.Next(51)`가 호출되었습니다. 50이 아니라 51이 사용된 이유는 두 난수를 더해 0에서 100 사이의 답이 나오도록 하기 위해서입니다. `Next()` 메서드에 50을 전달하면 0에서 49 사이의 숫자가 선택되므로 가능한 가장 큰 답은 100이 아니라 98입니다. 이 메서드의 처음 두 문을 실행하고 나면 두 개의 정수 변수인 `addend1`과 `addend2`에 각각 0에서 50 사이의 난수 값이 들어갑니다. 이 스크린 샷에는 Visual C# 코드가 나와 있지만 Visual Basic에서도 IntelliSense가 동일하게 작동합니다.  
+    > `Next()`를 호출할 때처럼 `Random` 메서드를 `randomizer.Next(50)` 개체와 함께 사용하는 경우 50 미만(0에서 49 사이)의 난수가 반환됩니다. 이 예제에서는 `randomizer.Next(51)`가 호출되었습니다. 50이 아니라 51이 사용된 이유는 두 난수를 더해 0에서 100 사이의 답이 나오도록 하기 위해서입니다. `Next()` 메서드에 50을 전달하면 0에서 49 사이의 숫자가 선택되므로 가능한 가장 큰 답은 100이 아니라 98입니다. 이 메서드의 처음 두 문을 실행하고 나면 두 개의 정수 변수인 `addend1`과 `addend2`에 각각 0에서 50 사이의 난수 값이 들어갑니다. 이 스크린 샷에는 Visual C# 코드가 나와 있지만 Visual Basic에서도 IntelliSense가 동일하게 작동합니다.  
   
      이러한 문을 자세히 살펴봅니다.  
   

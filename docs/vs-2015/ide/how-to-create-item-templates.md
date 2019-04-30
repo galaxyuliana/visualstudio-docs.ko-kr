@@ -14,12 +14,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 587d0a3fb571a0cb5934f56fca1ffa0ad34d3086
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4484ec75cf44fc60c72091fb17cce510efdb9cd4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417043"
 ---
 # <a name="how-to-create-item-templates"></a>방법: 항목 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "60108791"
      템플릿 파일은 .zip 파일에 추가되고 대화 상자에서 지정한 디렉터리에 복사됩니다. 기본 위치는 **..\Users\\<username\>\Documents\Visual Studio \<Version>\My Exported Templates\\** 폴더입니다.  
   
     > [!WARNING]
-    >  Visual Studio의 이전 버전에서 기본 위치는 **..\Users\\<username\>\Documents\Visual Studio \<Version>\Templates\ItemTemplates**입니다.  
+    > Visual Studio의 이전 버전에서 기본 위치는 **..\Users\\<username\>\Documents\Visual Studio \<Version>\Templates\ItemTemplates**입니다.  
   
 ### <a name="to-enable-the-item-template-to-be-used-in-a-store-project"></a>항목 템플릿을 저장소 프로젝트에서 사용할 수 있도록 하려면  
   

@@ -20,12 +20,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ba3ee5d8ee04b4a0f2cd360d6b213c69c6f8d1bc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: cb1747341de65a5f642790410c35eee35620575e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442708"
 ---
 # <a name="how-to-stop-code-changes"></a>방법: 코드 변경 중지
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "58985979"
 편집하며 계속하기에서 코드 변경 내용을 적용하는 동안 작업을 중지할 수 있습니다.  
   
 > [!CAUTION]
->  관리 코드에서 코드 변경을 중지하면 예기치 않은 결과가 발생할 수 있습니다. 관리 코드에 변경 내용을 적용하는 데는 시간이 오래 걸리지 않으므로 관리 코드에서 코드 변경을 중지해야 할 경우는 거의 없습니다.  
+> 관리 코드에서 코드 변경을 중지하면 예기치 않은 결과가 발생할 수 있습니다. 관리 코드에 변경 내용을 적용하는 데는 시간이 오래 걸리지 않으므로 관리 코드에서 코드 변경을 중지해야 할 경우는 거의 없습니다.  
   
 ### <a name="to-stop-applying-code-changes"></a>코드 변경 내용의 적용을 중지하려면  
   

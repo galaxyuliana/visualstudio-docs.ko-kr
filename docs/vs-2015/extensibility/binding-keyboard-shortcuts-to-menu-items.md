@@ -14,12 +14,12 @@ ms.assetid: 19f483b6-4d3e-424e-9d68-dc129c788e47
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c799d2733c4deca07cdcbe087b1b694f9d1725e6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: fb85bc64164acc09aef6464b69e72b7c6cf46d77
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63405634"
 ---
 # <a name="binding-keyboard-shortcuts-to-menu-items"></a>메뉴 항목에 바로 가기 키 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "58984747"
 4. 매핑되지 않은 것을 찾을 때까지 다양 한 키 조합을 시도 합니다.  
   
    > [!NOTE]
-   >  Alt 키를 사용 하는 키보드 바로 가기 메뉴를 열고 하 고 직접 명령을 실행할 수 있습니다. 따라서 합니다 **에서 현재 사용 하는 바로 가기** alt 키를 포함 하는 바로 가기를 입력 상자를 비워 둘 수 있습니다. 바로 가기 열리지 메뉴 닫아 확인할 수 있습니다 합니다 **옵션** 대화 상자 및 키를 눌러 합니다.  
+   > Alt 키를 사용 하는 키보드 바로 가기 메뉴를 열고 하 고 직접 명령을 실행할 수 있습니다. 따라서 합니다 **에서 현재 사용 하는 바로 가기** alt 키를 포함 하는 바로 가기를 입력 상자를 비워 둘 수 있습니다. 바로 가기 열리지 메뉴 닫아 확인할 수 있습니다 합니다 **옵션** 대화 상자 및 키를 눌러 합니다.  
   
    다음 절차는 메뉴 명령 사용 하 여 기존 VSPackage를 있다고 가정 합니다. 그렇게 도움이 필요한 경우 잠시 살펴 [메뉴 명령을 사용 하 여 확장을 만드는](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.  
   
@@ -55,7 +55,7 @@ ms.locfileid: "58984747"
 2. 빈 `<KeyBindings>` 섹션을 `<Commands>` 아직 제공 되지 경우.  
   
    > [!WARNING]
-   >  키 바인딩에 대 한 자세한 내용은 참조 하세요. [Keybinding](../extensibility/keybinding-element.md)합니다.  
+   > 키 바인딩에 대 한 자세한 내용은 참조 하세요. [Keybinding](../extensibility/keybinding-element.md)합니다.  
   
     에 `<KeyBindings>` 섹션에서 만들기를 `<KeyBinding>` 항목입니다.  
   

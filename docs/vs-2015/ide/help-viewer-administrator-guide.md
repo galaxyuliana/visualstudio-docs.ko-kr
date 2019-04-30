@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 51dfdc95748690f43809244dc14ae2662d8aec39
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b00f89b60c7e884bfaf71e971722530b44a78b4e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60086600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445688"
 ---
 # <a name="help-viewer-administrator-guide"></a>도움말 뷰어 관리자 가이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ ms.locfileid: "60086600"
 - 도움말에 대한 기본 원본은 여전히 온라인입니다.  
   
   > [!TIP]
-  >  HKEY_LOCAL_MACHINE\SoftwareHKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\help\UseOnlineHelp 레지스트리 키를 수정하여 도움말에 대한 기본 원본을 변경할 수 있습니다. 자세한 내용은 [도움말 콘텐츠 관리자 재정의](../ide/help-content-manager-overrides.md)를 참조하세요.  
+  > HKEY_LOCAL_MACHINE\SoftwareHKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\help\UseOnlineHelp 레지스트리 키를 수정하여 도움말에 대한 기본 원본을 변경할 수 있습니다. 자세한 내용은 [도움말 콘텐츠 관리자 재정의](../ide/help-content-manager-overrides.md)를 참조하세요.  
   
 - 클라이언트에서 Visual Studio를 처음 시작할 때 기본 도움말 콘텐츠를 설치하라는 메시지가 계속 표시됩니다. HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\14.0\Help\DisableFirstRunHelpSelection 레지스트리 키를 수정하여 이 메시지가 표시되지 않도록 설정할 수 있습니다.  
   
@@ -78,7 +78,7 @@ ms.locfileid: "60086600"
 - 사용자가 로컬 도움말 콘텐츠가 설치된 후 해당 콘텐츠를 업데이트, 추가 또는 설치하려면 관리자 권한을 갖고 있어야 합니다.  
   
   > [!TIP]
-  >  사용자에게 관리자 권한이 없는 경우 도움말 뷰어에서 콘텐츠 관리 탭을 사용하지 않도록 설정하는 것이 좋습니다. 자세한 내용은 [도움말 콘텐츠 관리자 재정의](../ide/help-content-manager-overrides.md)를 참조하세요.  
+  > 사용자에게 관리자 권한이 없는 경우 도움말 뷰어에서 콘텐츠 관리 탭을 사용하지 않도록 설정하는 것이 좋습니다. 자세한 내용은 [도움말 콘텐츠 관리자 재정의](../ide/help-content-manager-overrides.md)를 참조하세요.  
   
   주의 사항:  
   

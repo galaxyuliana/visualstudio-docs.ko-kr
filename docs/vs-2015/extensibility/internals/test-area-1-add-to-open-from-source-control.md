@@ -11,12 +11,12 @@ ms.assetid: 5b3b5b08-5e9b-41be-ac72-c63957faed22
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 71ead1b49c9bcefc193f8e1c896b35a478a771a3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e7b65eae0dcd71c2ad1bb3d72bf08ea90e69036a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441255"
 ---
 # <a name="test-area-1-add-toopen-from-source-control"></a>테스트 영역 1: 소스 제어에서 열기 / 추가
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60064858"
 - 에 대 한 [!INCLUDE[vsvss](../../includes/vsvss-md.md)], 추가 원본의 제어도 제공 됩니다 **파일**, **추가**를 **기존 프로젝트**; 조회에 [!INCLUDE[vsvss](../../includes/vsvss-md.md)] 위치 합니다.  
   
     > [!NOTE]
-    >  이 테스트에서는 로컬 파일을 로컬 IIS (웹 서버)의 경로 사용할 수 있습니다.  
+    > 이 테스트에서는 로컬 파일을 로컬 IIS (웹 서버)의 경로 사용할 수 있습니다.  
   
 ## <a name="expected-behavior"></a>예상된 된 동작  
   

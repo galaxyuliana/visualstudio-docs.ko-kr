@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 936770859d3bdfe81c84245d32ae63346b142a01
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58153749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63009534"
 ---
 # <a name="iactivescripterrordebug-interface"></a>IActiveScriptErrorDebug 인터페이스
 컴파일 타임 오류 및 런타임 예외에 대 한 문서 컨텍스트 정보를 제공 합니다. `IActiveScriptError::QueryInterface` 메서드를 지원 합니다 `IActiveScriptErrorDebug` 인터페이스입니다.  

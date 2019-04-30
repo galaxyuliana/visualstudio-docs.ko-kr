@@ -28,12 +28,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 139e76911825866375a0f524c53dd23b8967f9ed
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8641a677ae36ad5a3c1f0f4344fc5c12b8798d7d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445147"
 ---
 # <a name="map-methods-on-the-call-stack-while-debugging-in-visual-studio"></a>Visual Studio에서 디버깅하는 동안 호출 스택의 맵 메서드
 
@@ -114,7 +114,7 @@ ms.locfileid: "60063168"
  ![호출 스택 코드 맵의 메서드에서 필드 표시](../debugger/media/debuggermap_showfields.png)
 
 > [!NOTE]
->  기본적으로 맵에 항목을 추가하면 클래스, 네임스페이스 및 어셈블리와 같은 부모 그룹 노드도 추가됩니다. 이 유용 하지만, 있습니다 수 맵을 단순하게 유지할 기능을 사용 하 여이 기능을 해제 합니다 **부모 포함** 맵 도구 모음의 단추를 눌러 **CTRL** 항목을 추가할 때.
+> 기본적으로 맵에 항목을 추가하면 클래스, 네임스페이스 및 어셈블리와 같은 부모 그룹 노드도 추가됩니다. 이 유용 하지만, 있습니다 수 맵을 단순하게 유지할 기능을 사용 하 여이 기능을 해제 합니다 **부모 포함** 맵 도구 모음의 단추를 눌러 **CTRL** 항목을 추가할 때.
 
  ![호출 스택 코드 맵의 메서드와 관련된 필드](../debugger/media/debuggermap_showedfields.png)
 

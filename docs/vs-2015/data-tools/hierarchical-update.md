@@ -24,12 +24,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 17eb5c1ca2ad35b7a510c5a70d3ad5c5f741c69d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 666b5acaae84a1b16c1b4bdfeb7cb1b8f4bcfb64
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386003"
 ---
 # <a name="hierarchical-update"></a>계층적 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "60063402"
  집합의 개별 주문 삽입, 업데이트 및 삭제 하는 업데이트를 수행 하는 순서를 설정 합니다. 데이터 집합의 모든 테이블의 수정된 된 모든 데이터를 저장 하려면 필요 합니다. 계층적 업데이트를 사용 하는 경우 삽입 먼저 수행 하는 다음 업데이트 및 삭제 합니다. 합니다 `TableAdapterManager` 제공을 `UpdateOrder` 먼저 업데이트를 수행 하는 집합을 삽입 및 삭제 될 수 있는 속성입니다.  
   
 > [!NOTE]
->  업데이트 순서는 모두 포괄 이해 하는 것이 반드시 합니다. 즉, 업데이트가 수행 된 삽입 및 삭제 데이터 집합의 모든 테이블에 대해 수행 됩니다.  
+> 업데이트 순서는 모두 포괄 이해 하는 것이 반드시 합니다. 즉, 업데이트가 수행 된 삽입 및 삭제 데이터 집합의 모든 테이블에 대해 수행 됩니다.  
   
  설정 하는 `UpdateOrder` 에서 항목을 위로 끌어 놓은 후 속성을를 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) 폼으로 선택는 `TableAdapterManager` 구성 요소 트레이를 설정을 `UpdateOrder` 속성에는 **속성** 창입니다. 자세한 내용은 [방법: 계층적 업데이트를 수행 하는 경우 순서 설정](http://msdn.microsoft.com/library/a0734935-78dd-4c0b-80d7-5e7925789c83)합니다.  
   
@@ -71,7 +71,7 @@ ms.locfileid: "60063402"
  그러나 경우에 따라 백업 복사본에서 데이터 집합을 복원 해야 할 수 있습니다. 이 한 가지 예는 자동 증분 값을 사용 하는 경우에 발생할 수 있습니다. 예를 들어, 저장 작업은 실패, 데이터 집합에서는 자동 증분 값 재설정 되지 않습니다 및 자동 증분 값을 만들려는 데이터 집합을 계속 합니다. 이런 응용 프로그램에서 사용할 수 없는 번호에 간격이 있습니다. 상황에 여기서 문제는이 `TableAdapterManager` 제공을 `BackupDataSetBeforeUpdate` 트랜잭션이 실패할 경우 백업 복사본을 사용 하 여 기존 데이터 집합을 대체 하는 속성입니다.  
   
 > [!NOTE]
->  백업 복사본은 하는 동안 메모리에만 `TableAdapterManager.UpdateAll` 메서드를 실행 합니다. 따라서 있습니다 이므로이 백업 데이터 집합에 프로그래밍 방식으로 액세스할 수 없습니다 원래 데이터 집합을 대체 하거나 범위를 벗어날 즉시는 `TableAdapterManager.UpdateAll` 메서드 실행이 완료 합니다.  
+> 백업 복사본은 하는 동안 메모리에만 `TableAdapterManager.UpdateAll` 메서드를 실행 합니다. 따라서 있습니다 이므로이 백업 데이터 집합에 프로그래밍 방식으로 액세스할 수 없습니다 원래 데이터 집합을 대체 하거나 범위를 벗어날 즉시는 `TableAdapterManager.UpdateAll` 메서드 실행이 완료 합니다.  
   
 ## <a name="modify-the-generated-save-code-to-perform-the-hierarchical-update"></a>생성 된 저장 계층적 업데이트를 수행 하는 코드 수정  
  `TableAdapterManager.UpdateAll` 메서드를 호출한 다음 관련 테이블이 포함된 데이터 집합의 이름을 전달하여 데이터 집합의 관련 데이터 테이블에서 데이터베이스로 변경 내용을 저장합니다. 예를 들어 NorthwindDataset에 포함된 모든 테이블의 업데이트를 백 엔드 데이터베이스로 보내려면 `TableAdapterManager.UpdateAll(NorthwindDataset)` 메서드를 실행합니다.  
@@ -81,7 +81,7 @@ ms.locfileid: "60063402"
  생성된 저장 코드에는 `CustomersBindingSource.EndEdit` 메서드를 호출하는 코드 줄도 포함됩니다. 호출 보다 구체적으로 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 메서드의 첫 번째 <xref:System.Windows.Forms.BindingSource>폼에 추가 된 합니다. 즉,이 코드는만에서 끌어 첫 번째 테이블에 대 한 생성 된 **데이터 원본** 창에서 폼입니다. <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 호출에서는 현재 편집 중인 데이터 바인딩된 컨트롤의 프로세스에 포함된 모든 변경 내용을 커밋합니다. 따라서 데이터 바인딩된 컨트롤에 계속 포커스가 있는 상태에서 **저장** 단추를 클릭하면 실제 저장 전에 해당 컨트롤에서 보류 중인 모든 편집 내용이 커밋됩니다(`TableAdapterManager.UpdateAll` 메서드).  
   
 > [!NOTE]
->  데이터 집합 디자이너만 추가 된 `BindingSource.EndEdit` 폼에 놓은 첫 번째 테이블에 대 한 코드입니다. 그러므로 폼의 각 관련 테이블에 대해 `BindingSource.EndEdit` 메서드를 호출하는 코드 줄을 추가해야 합니다. 이 연습에서는 `OrdersBindingSource.EndEdit` 메서드 호출을 추가해야 합니다.  
+> 데이터 집합 디자이너만 추가 된 `BindingSource.EndEdit` 폼에 놓은 첫 번째 테이블에 대 한 코드입니다. 그러므로 폼의 각 관련 테이블에 대해 `BindingSource.EndEdit` 메서드를 호출하는 코드 줄을 추가해야 합니다. 이 연습에서는 `OrdersBindingSource.EndEdit` 메서드 호출을 추가해야 합니다.  
   
 #### <a name="to-update-the-code-to-commit-changes-to-the-related-tables-before-saving"></a>저장 전에 관련 테이블로 변경 내용을 커밋하도록 코드를 업데이트하려면  
   
@@ -95,7 +95,7 @@ ms.locfileid: "60063402"
    이처럼 데이터를 데이터베이스에 저장하기 전에 관련 자식 테이블에 대해 변경 내용을 커밋해야 할 뿐 아니라 새 자식 레코드를 데이터 집합에 추가하기 전에 새로 만든 부모 레코드도 커밋해야 할 수 있습니다. 다시 말해서 외래 키 제약 조건으로 인해 새 자식 레코드(Orders)를 데이터 집합에 추가할 수 있도록 설정되기 전에 새 부모 레코드(Customer)를 데이터 집합에 추가해야 할 수 있습니다. 자식 `BindingSource.AddingNew` 이벤트를 사용하면 이 작업을 수행할 수 있습니다.  
   
 > [!NOTE]
->  새 부모 레코드를 적용 해야 하는지 여부를 데이터 원본에 바인딩하는 데 사용 되는 컨트롤의 유형에 따라 달라 집니다. 이 연습에서는 개별 컨트롤을 사용 하 여 부모 테이블에 바인딩합니다. 이 새 부모 레코드를 커밋하는 추가 코드가 필요 합니다. 같은 부모 레코드 대신 복잡 한 바인딩 컨트롤에서 표시 된 경우는 <xref:System.Windows.Forms.DataGridView>이 추가 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 부모 레코드가 필요 하지 않을 것에 대 한 호출 합니다. 컨트롤의 기본 데이터 바인딩 기능이 새 레코드 커밋을 처리하기 때문입니다.  
+> 새 부모 레코드를 적용 해야 하는지 여부를 데이터 원본에 바인딩하는 데 사용 되는 컨트롤의 유형에 따라 달라 집니다. 이 연습에서는 개별 컨트롤을 사용 하 여 부모 테이블에 바인딩합니다. 이 새 부모 레코드를 커밋하는 추가 코드가 필요 합니다. 같은 부모 레코드 대신 복잡 한 바인딩 컨트롤에서 표시 된 경우는 <xref:System.Windows.Forms.DataGridView>이 추가 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 부모 레코드가 필요 하지 않을 것에 대 한 호출 합니다. 컨트롤의 기본 데이터 바인딩 기능이 새 레코드 커밋을 처리하기 때문입니다.  
   
 #### <a name="to-add-code-to-commit-parent-records-in-the-dataset-before-adding-new-child-records"></a>새 자식 레코드를 추가하기 전에 데이터 집합에서 부모 레코드를 커밋하는 코드를 추가하려면  
   

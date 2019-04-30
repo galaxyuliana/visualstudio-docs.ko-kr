@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e1de8b942b64de56b93b2fece3f46b23413b6981
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ea3286c2d4ae27afc7422700bd4f745ab28520fa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60038283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63399437"
 ---
 # <a name="debugging-gpu-code"></a>GPU 코드 디버깅
 GPU(그래픽 처리 장치)에서 실행되는 C++ 코드를 디버깅할 수 있습니다. Visual Studio의 GPU 디버깅 지원에는 경합 상태 감지, 프로세스 시작, 프로세스에 연결 및 디버깅 창에 대한 통합이 포함됩니다.
@@ -27,7 +27,7 @@ GPU(그래픽 처리 장치)에서 실행되는 C++ 코드를 디버깅할 수 �
  디버깅은 [!INCLUDE[win7](../debugger/includes/win7_md.md)], [!INCLUDE[win8](../debugger/includes/win8_md.md)], [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)] 및 [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)]에서 지원됩니다. 소프트웨어 에뮬레이터에서 디버깅하는 경우 [!INCLUDE[win8](../debugger/includes/win8_md.md)] 또는 [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)]가 필요합니다. 하드웨어에서 디버깅하는 경우에는 사용 중인 그래픽 카드의 드라이버를 설치해야 합니다. 하드웨어 공급업체에 따라 일부 디버거 기능을 구현하지 않는 경우도 있습니다. 제한 사항에 대해서는 공급업체 설명서를 참조하십시오.
 
 > [!NOTE]
->  Visual Studio에서 GPU 디버깅을 지원하려는 IHV(Independent Hardware Vendor)는 VSD3DDebug 인터페이스를 구현하고 해당 공급업체의 드라이버를 대상으로 하는 DLL을 만들어야 합니다.
+> Visual Studio에서 GPU 디버깅을 지원하려는 IHV(Independent Hardware Vendor)는 VSD3DDebug 인터페이스를 구현하고 해당 공급업체의 드라이버를 대상으로 하는 DLL을 만들어야 합니다.
 
 ## <a name="configuring-gpu-debugging"></a>GPU 디버깅 구성
  디버거는 동일한 응용 프로그램 실행에 포함된 CPU 코드와 GPU 코드 둘 다에서 중단될 수 없습니다. 기본적으로 디버거는 CPU 코드에서 중단됩니다. GPU 코드를 디버깅하려면 다음 두 단계 중 하나를 사용합니다.
@@ -80,6 +80,6 @@ GPU(그래픽 처리 장치)에서 실행되는 C++ 코드를 디버깅할 수 �
  C++ AMP 계산이 Windows TDR(제한 시간 탐지 및 복구)에서 설정된 기본 시간 간격을 초과할 수 있습니다. 이 경우 계산이 취소되고 데이터가 손실됩니다. 자세한 내용은 [Handling TDRs in C++ AMP](http://go.microsoft.com/fwlink/p/?LinkId=249154)를 참조하십시오.
 
 ## <a name="see-also"></a>참고 항목
-- [연습: 디버깅을 C++ AMP 응용 프로그램](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
+- [연습: C++ AMP 애플리케이션 디버깅](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
 - [C++ 디버그 구성에 대한 프로젝트 설정](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Visual Studio에서 GPU 디버깅 시작](http://go.microsoft.com/fwlink/p/?LinkId=255381)

@@ -7,18 +7,18 @@ ms.topic: conceptual
 ms.assetid: 78342ce6-36c8-485b-a5f6-760e7a420a26
 caps.latest.revision: 8
 manager: jillfra
-ms.openlocfilehash: 457b3baf2b291a0ef96bd8bbd748261348a2108d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: abe1013d37db43114f3970f12b1a0d1f08b07a4e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446457"
 ---
 # <a name="how-to-upgrade-a-visual-studio-custom-start-page"></a>방법: Visual Studio 사용자 지정 시작 페이지 업그레이드
 아래 나열된 단계에 따라 Visual Studio 2010 또는 Visual Studio 2012 사용자 지정 시작 페이지를 Visual Studio 2015로 업그레이드할 수 있습니다.
 
 > [!WARNING]
->  이 절차에서 업그레이드된 사용자 지정 시작 페이지는 Visual Studio 갤러리의 [사용자 지정 시작 페이지](http://visualstudiogallery.msdn.microsoft.com/f655a5dc-1a2d-4eca-b774-76c352c03b87) 템플릿을 사용하여 만든 페이지입니다. 시작 페이지에 업그레이드해야 하는 다른 기능이 있을 수도 있습니다.
+> 이 절차에서 업그레이드된 사용자 지정 시작 페이지는 Visual Studio 갤러리의 [사용자 지정 시작 페이지](http://visualstudiogallery.msdn.microsoft.com/f655a5dc-1a2d-4eca-b774-76c352c03b87) 템플릿을 사용하여 만든 페이지입니다. 시작 페이지에 업그레이드해야 하는 다른 기능이 있을 수도 있습니다.
 
 ### <a name="to-upgrade-a-custom-start-page-to-visual-studio-2015"></a>사용자 지정 시작 페이지를 Visual Studio 2015로 업그레이드하려면
 

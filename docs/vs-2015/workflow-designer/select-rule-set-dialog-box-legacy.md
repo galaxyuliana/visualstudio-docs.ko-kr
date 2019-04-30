@@ -13,12 +13,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3b619421c2d1eb9d8c2a4853c7a6ce5c3fbb7ea7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 6b3c2a7e23aba13cbe843c33510a81b66ba2b815
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445417"
 ---
 # <a name="select-rule-set-dialog-box-legacy"></a>규칙 집합 선택 대화 상자(레거시)
 에 대해 설명 하는 방법을 사용 하 여는 **규칙 집합 선택** 레거시 대화 상자 [!INCLUDE[wfd1](../includes/wfd1-md.md)]합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
@@ -39,7 +39,7 @@ ms.locfileid: "58985769"
  만들기 및 규칙 집합을 편집 하는 방법에 대 한 자세한 내용은 참조 하세요. [규칙 집합 편집기 대화 상자 (레거시)](../workflow-designer/rule-set-editor-dialog-box-legacy.md)합니다.  
   
 > [!WARNING]
->  [!INCLUDE[wfd2](../includes/wfd2-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 데 사용되는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]의 규칙 편집기는 멀티 타게팅을 지원하지 않습니다.  
+> [!INCLUDE[wfd2](../includes/wfd2-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 데 사용되는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]의 규칙 편집기는 멀티 타게팅을 지원하지 않습니다.  
   
  조건에 대 한 자세한 내용은 참조 하세요. [워크플로에서 조건 사용](http://go.microsoft.com/fwlink?LinkID=65009)합니다.  
   

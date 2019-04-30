@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 71d22bb6210bb515941ca00ebb8b8655a6c089e0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 90da60cb904ba6e3db2be3805256fcf4eb9122ee
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639923"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444355"
 ---
 # <a name="localize-sharepoint-solutions"></a>SharePoint 솔루션 지역화
 
@@ -31,7 +31,7 @@ ms.locfileid: "56639923"
  솔루션을 지역화 하려면 코드에서 하드 코드 된 문자열을 제거 하 고 리소스 파일에 추상화 합니다. 리소스 파일은는 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]-파일 기반을 *.resx* 확장 합니다. 리소스 파일에는 솔루션에서 사용 되는 문자열의 번역된 된 버전이 포함 되어 있습니다. 자세한 내용은 [응용 프로그램의 리소스](http://go.microsoft.com/fwlink/?LinkID=155844)합니다.
 
 > [!NOTE]
->  SharePoint 솔루션 리소스 파일에 문자열 리소스만 추가 합니다. 리소스 편집기를 사용 하면 문자열이 아닌 리소스를 추가할 수 있습니다, 있지만 문자열이 아닌 리소스는 SharePoint에 배포 하지 않습니다.
+> SharePoint 솔루션 리소스 파일에 문자열 리소스만 추가 합니다. 리소스 편집기를 사용 하면 문자열이 아닌 리소스를 추가할 수 있습니다, 있지만 문자열이 아닌 리소스는 SharePoint에 배포 하지 않습니다.
 
 ## <a name="resource-files"></a>리소스 파일
  리소스 파일의 세 가지 종류가 있습니다: 기본적으로 언어 중립적인 및 언어별 합니다.
@@ -76,7 +76,7 @@ $Resources:String ID
  설정 된 **배포 유형** 각 리소스 파일의 속성 **AppGlobalResource**합니다. 이렇게 하면 리소스 파일은 솔루션의 모든 컨트롤과 ASPX 페이지에서 사용할 수 있는 App_GlobalResources 폴더에 배포 합니다. App_GlobalResources 폴더 C:\inetpub\wwwroot\wss\VirtualDirectories에 위치한\\< 포트 번호\>\App_GlobalResources 합니다.
 
 > [!NOTE]
->  비 전역 리소스 파일을 사용 하는 경우 배포 형식 속성과 기타 SharePoint 관련 속성을 사용 하도록 설정 하려면 프로젝트 항목 폴더로 이동 합니다.
+> 비 전역 리소스 파일을 사용 하는 경우 배포 형식 속성과 기타 SharePoint 관련 속성을 사용 하도록 설정 하려면 프로젝트 항목 폴더로 이동 합니다.
 
  ASPX 태그 리소스 파일은 코드를 지역화 하려면 데도 사용할 수 있습니다. 리소스 ASPX 태그 외에 코드도 지역화를 사용 하는 경우 빌드 작업 속성 설정을 그대로 각 파일의 리소스가 포함 된 리소스로 위성 어셈블리로 컴파일합니다. 그러나 리소스 파일을 사용 하 여 태그만 지역화 하는, 기본 응용 프로그램 어셈블리로 컴파일할에서 파일을 방지 하기 위해 콘텐츠 빌드 작업 필요에 따라 변경할 수 있습니다.
 

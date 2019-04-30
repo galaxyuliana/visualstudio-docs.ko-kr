@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: cc1f87ac6ce94a1ef474388f75b33aa963b19f8d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d54fdce78528f348e99436c3a58d15e1cbe861b7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444276"
 ---
 # <a name="walkthrough-missing-objects-due-to-vertex-shading"></a>연습: 꼭짓점 음영으로 인해 누락된 개체
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +64,7 @@ ms.locfileid: "60046382"
     **그래픽 파이프라인 단계** 창에서 **입력 어셈블러** 단계는 개체가 변환되기 전 개체의 기하 도형을 보여 주며, **꼭지점 셰이더** 단계는 변환된 후의 동일한 개체를 보여 줍니다. 이 시나리오에서는 누락된 개체가 **입력 어셈블러** 단계에서는 표시되지만 **꼭짓점 셰이더** 단계에서는 아무 것도 표시되지 않을 때 해당 개체를 찾았다는 것을 확인했습니다.  
   
    > [!NOTE]
-   >  헐 셰이더, 도메인 셰이더 또는 기하 도형 셰이더 단계와 같은 다른 기하 도형 단계에서 개체를 처리하는 경우, 이러한 단계가 문제의 원인이 될 수 있습니다. 일반적으로 문제는 결과가 표시되지 않거나 예기치 않은 방식으로 표시되는 최초의 단계와 관련이 있습니다.  
+   > 헐 셰이더, 도메인 셰이더 또는 기하 도형 셰이더 단계와 같은 다른 기하 도형 단계에서 개체를 처리하는 경우, 이러한 단계가 문제의 원인이 될 수 있습니다. 일반적으로 문제는 결과가 표시되지 않거나 예기치 않은 방식으로 표시되는 최초의 단계와 관련이 있습니다.  
   
 4. 누락된 개체에 해당하는 그리기 호출에 도달하면 중지합니다. 이 시나리오에서 **그래픽 파이프라인 단계** 창은 기하 도형이 GPU에 만들어졌으나(입력 어셈블러 축소판 그림으로 표시) 꼭지점 셰이더 단계 동안에는 문제가 발생하여 렌더링 대상에 나타나지 않는다는 것(꼭지점 셰이더 축소판 그림으로 표시)을 보여 줍니다.  
   
@@ -107,7 +107,7 @@ ms.locfileid: "60046382"
     ![개체의 상수 버퍼를 설정 하는 코드](../debugger/media/gfx-diag-demo-missing-object-shader-step-7.png "gfx_diag_demo_missing_object_shader_step_7")  
   
    > [!TIP]
-   >  앱을 동시에 디버깅하는 경우 이 위치에 중단점을 설정할 수 있으며 다음 프레임이 렌더링될 때 중단됩니다. `m_marbleConstantBufferData` 의 멤버를 검사하여 상수 버퍼가 채워질 때 `projection` 멤버의 값이 모두 0으로 설정되어 있는지 확인할 수 있습니다.  
+   > 앱을 동시에 디버깅하는 경우 이 위치에 중단점을 설정할 수 있으며 다음 프레임이 렌더링될 때 중단됩니다. `m_marbleConstantBufferData` 의 멤버를 검사하여 상수 버퍼가 채워질 때 `projection` 멤버의 값이 모두 0으로 설정되어 있는지 확인할 수 있습니다.  
   
    상수 버퍼가 채워지는 위치를 발견하고 해당 값을 `m_marbleConstantBufferData` 변수에서 가져온 것인지 확인한 후 다음 단계로 `m_marbleConstantBufferData.projection` 멤버가 모두 0으로 설정된 위치를 확인합니다. **모든 참조 찾기** 를 사용하여 `m_marbleConstantBufferData.projection`값을 변경하는 코드를 빠르게 검색할 수 있습니다.  
   

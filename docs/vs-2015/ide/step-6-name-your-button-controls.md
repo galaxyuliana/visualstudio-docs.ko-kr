@@ -9,12 +9,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 98a7159f750a036ed588fd01761e20a2a23ee84e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 802ff20facead891f05ac4727d1c091d095c50a2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442489"
 ---
 # <a name="step-6-name-your-button-controls"></a>6단계: 단추 컨트롤 이름 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60059970"
 폼에 **pictureBox1**이라는 PictureBox와 **checkBox1**이라는 CheckBox가 각각 하나씩만 있습니다. 이러한 이름은 해당 컨트롤이 추가될 때 IDE에 의해 자동으로 지정되었습니다. 이제 CheckBox 및 PictureBox를 참조하는 코드를 작성하면 이러한 컨트롤은 하나씩만 있기 때문에 코드에서 **pictureBox1** 또는 **checkBox1** 이 무엇을 의미하는지 알 수 있습니다.  
   
 > [!NOTE]
->  Visual Basic에서는 컨트롤 이름의 첫 글자가 기본적으로 대문자이어야 하기 때문에 **PictureBox1**, **CheckBox1**과 같은 식으로 이름이 지정됩니다.  
+> Visual Basic에서는 컨트롤 이름의 첫 글자가 기본적으로 대문자이어야 하기 때문에 **PictureBox1**, **CheckBox1**과 같은 식으로 이름이 지정됩니다.  
   
  그러나 단추의 경우 IDE에 의해 **button1**, **button2**, **button3**및 **button4**로 이름이 지정된 네 개가 폼에 있는데, 현재 이름만으로 어떤 단추가 **닫기** 단추이고 어떤 단추가 **그림 표시** 단추인지 알 수 없습니다. 따라서 보다 자세한 정보를 주는 단추 컨트롤의 이름을 지정하는 것이 좋습니다.  
   
@@ -36,7 +36,7 @@ ms.locfileid: "60059970"
 closeButton 이름이 있는 속성 창  
   
     > [!NOTE]
-    >  단추 이름을 **closeButton**(close와 Button 사이에 공백이 있음)으로 바꾸려고 하면 IDE는 다음과 같은 오류 메시지를 표시합니다. "속성 값이 잘못되었습니다." 공백을 비롯한 일부 문자는 컨트롤 이름에 사용할 수 없습니다.  
+    > 단추 이름을 **closeButton**(close와 Button 사이에 공백이 있음)으로 바꾸려고 하면 IDE는 다음과 같은 오류 메시지를 표시합니다. "속성 값이 잘못되었습니다." 공백을 비롯한 일부 문자는 컨트롤 이름에 사용할 수 없습니다.  
   
 2. 다른 세 단추의 이름을 **backgroundButton**, **clearButton**및 **showButton**으로 바꿉니다. **속성** 창에서 컨트롤 선택기 드롭다운 목록을 선택하면 이름을 확인할 수 있습니다. 새 단추 이름이 표시됩니다.  
   
@@ -53,14 +53,14 @@ Visual C# 코드가 사용된 Form1.cs 탭
      `showButton_Click()`이라는 코드를 보고 있습니다. IDE에서는 **showButton** 단추에 대한 코드 파일을 열면 이를 폼 코드에 추가합니다. 디자인 타임에 폼에서 컨트롤에 대한 코드 파일을 열면, 컨트롤에 대한 코드가 아직 없을 경우 이 코드가 생성됩니다. *메서드*라고 하는 이 코드는 프로그램을 실행하고 컨트롤(이 경우 **사진 표시** 단추)을 선택할 때 실행됩니다.  
   
     > [!NOTE]
-    >  이 자습서에서는 괄호 () 사이에 있는 모든 코드를 제거하여 자동으로 생성되는 Visual Basic 코드를 간단하게 만들었습니다. 이러한 코드는 이 동작이 발생할 때마다 제거할 수 있습니다. 프로그램은 둘 중 한 가지 방식으로 작동합니다. 이 자습서의 나머지 부분에서도 자동으로 생성되는 코드가 있으면 가능한 경우 항상 간단하게 만듭니다.  
+    > 이 자습서에서는 괄호 () 사이에 있는 모든 코드를 제거하여 자동으로 생성되는 Visual Basic 코드를 간단하게 만들었습니다. 이러한 코드는 이 동작이 발생할 때마다 제거할 수 있습니다. 프로그램은 둘 중 한 가지 방식으로 작동합니다. 이 자습서의 나머지 부분에서도 자동으로 생성되는 코드가 있으면 가능한 경우 항상 간단하게 만듭니다.  
   
 5. Windows Forms 디자이너 탭을 다시 선택하고(Visual C#에서는**Form1.cs [디자인]** , Visual Basic에서는 **Form1.vb [디자인]** ) **그림 지우기** 단추용 코드 파일을 열어 폼 코드에 메서드를 만듭니다. 남은 두 단추에 대해 이 작업을 반복합니다. 매번 새 메서드가 폼의 코드 파일에 추가됩니다.  
   
 6. 둘 이상의 메서드를 추가하려면 IDE에서 `checkBox1_CheckedChanged()` 메서드가 추가되도록 Windows Forms 디자이너에서 CheckBox 컨트롤에 대한 코드 파일을 엽니다. 이 메서드는 사용자가 확인란을 선택하거나 선택 취소할 때마다 호출됩니다.  
   
     > [!NOTE]
-    >  프로그램에서 작업할 때 코드 편집기와 Windows Forms 디자이너 사이를 이동하는 경우가 자주 있습니다. IDE를 사용하면 프로젝트 내에서 손쉽게 이동할 수 있습니다. **솔루션 탐색기** 에서 **Form1.cs** (Visual C#) 또는 **Form1.vb** (Visual Basic)를 두 번 클릭하여 Windows Forms 디자이너를 열거나 메뉴 모음에서 **보기**, **디자이너**를 차례로 선택합니다.  
+    > 프로그램에서 작업할 때 코드 편집기와 Windows Forms 디자이너 사이를 이동하는 경우가 자주 있습니다. IDE를 사용하면 프로젝트 내에서 손쉽게 이동할 수 있습니다. **솔루션 탐색기** 에서 **Form1.cs** (Visual C#) 또는 **Form1.vb** (Visual Basic)를 두 번 클릭하여 Windows Forms 디자이너를 열거나 메뉴 모음에서 **보기**, **디자이너**를 차례로 선택합니다.  
   
      다음은 코드 편집기에 표시되는 새 코드입니다.  
   

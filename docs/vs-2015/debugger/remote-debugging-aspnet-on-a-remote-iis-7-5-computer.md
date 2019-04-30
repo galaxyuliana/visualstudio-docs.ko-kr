@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5873033e160a8354db70565606dcb399da13e073
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c43f392cddfd5ea36180d9b2675db82469f86ce0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446083"
 ---
 # <a name="remote-debugging-aspnet-on-a-remote-iis-computer"></a>원격 IIS 컴퓨터의 원격 디버깅 ASP.NET
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ ASP.NET 응용 프로그램의 원격 디버깅을 위해 관리자 권한으로
 1. Visual Studio 컴퓨터의 ASP.NET 프로젝트 디렉터리를 Windows Server 컴퓨터의 로컬 디렉터리( **C:\Publish**라고 함)에 복사합니다. 프로젝트를 수동으로 복사, Xcopy, 웹 배포, Robocopy, Powershell 또는 다른 옵션을 사용할 수 있습니다.
 
     > [!CAUTION]
-    >  코드를 다시 빌드를 변경 하는 경우에 다시 게시 하 고이 단계를 반복 해야 합니다. 원격 컴퓨터에 복사한 실행 파일은 로컬 소스 및 기호와 정확히 일치해야 합니다.
+    > 코드를 다시 빌드를 변경 하는 경우에 다시 게시 하 고이 단계를 반복 해야 합니다. 원격 컴퓨터에 복사한 실행 파일은 로컬 소스 및 기호와 정확히 일치해야 합니다.
 1. web.config 파일에 올바른 버전의 .NET Framework가 표시되는지 확인합니다.  예를 들어 Windows Server 2008 R2에서 기본적으로 설치 된.NET Framework 버전은 4.0.30319 지만, 있지만 만든 ASP.NET 4.5.2 버전입니다. ASP.NET 4.0 앱 Windows Server 컴퓨터에서 실행 되는 경우 버전을 변경 해야 합니다.
   
     ```xml

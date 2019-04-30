@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 965f8d9661d30d23365fe324f7102e15fafec77c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0e455df89a3dfece2c5d4c8cd36a26af816f720a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419470"
 ---
 # <a name="how-to-programmatically-save-documents"></a>방법: 프로그래밍 방식으로 문서 저장
   Microsoft Office Word 문서를 저장 하는 방법은 여러 가지가 있습니다. 문서의 이름을 변경 하지 않고 문서를 저장할 수 있습니다 하거나 새 이름으로 문서를 저장할 수 있습니다.
@@ -54,14 +54,14 @@ ms.locfileid: "60056278"
  새 이름으로 문서를 저장 하려면 SaveAs 메서드를 사용 합니다. 이 방법을 사용할 수는 <xref:Microsoft.Office.Tools.Word.Document> 네이티브 또는 문서 수준 Word 프로젝트에서 호스트 항목 <xref:Microsoft.Office.Interop.Word.Document> Word 프로젝트에는 개체입니다. 이 메서드는 새 파일 이름을 지정 했지만 다른 인수는 선택 사항 필요 합니다.
 
 > [!NOTE]
->  표시 하는 경우는 **SaveAs** 대화 상자 내에 <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> 이벤트 처리기 `ThisDocument` 설정를 *취소* 매개 변수를 **false**, 응용 프로그램 수 예기치 않게 종료. 설정 하는 경우는 *취소할* 매개 변수를 **true**, 자동 저장에 사용할 수 없음을 나타내는 오류 메시지가 나타납니다.
+> 표시 하는 경우는 **SaveAs** 대화 상자 내에 <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> 이벤트 처리기 `ThisDocument` 설정를 *취소* 매개 변수를 **false**, 응용 프로그램 수 예기치 않게 종료. 설정 하는 경우는 *취소할* 매개 변수를 **true**, 자동 저장에 사용할 수 없음을 나타내는 오류 메시지가 나타납니다.
 
 ### <a name="to-save-the-document-associated-with-a-document-level-customization-with-a-new-name"></a>새 이름으로 문서 수준 사용자 지정을 사용 하 여 연결 된 문서를 저장 하려면
 
 1. 호출 된 <xref:Microsoft.Office.Tools.Word.Document.SaveAs%2A> 메서드는 `ThisDocument` 정규화 된 경로 파일 이름을 사용 하 여 프로젝트에서 클래스. 해당 이름의 파일이 폴더에 이미 있으면 자동으로 덮어씁니다. 이 코드 예제를 사용하려면 `ThisDocument` 클래스에서 실행합니다.
 
     > [!NOTE]
-    >  <xref:Microsoft.Office.Tools.Word.Document.SaveAs%2A> 대상 디렉터리가 없는 경우 또는 파일을 저장할 다른 문제가 있는 경우 메서드에서 예외가 throw 됩니다. 사용 하는 것이 좋습니다를 **try... catch** 주위 차단는 <xref:Microsoft.Office.Tools.Word.Document.SaveAs%2A> 메서드 또는 메서드 내에서 호출 합니다.
+    > <xref:Microsoft.Office.Tools.Word.Document.SaveAs%2A> 대상 디렉터리가 없는 경우 또는 파일을 저장할 다른 문제가 있는 경우 메서드에서 예외가 throw 됩니다. 사용 하는 것이 좋습니다를 **try... catch** 주위 차단는 <xref:Microsoft.Office.Tools.Word.Document.SaveAs%2A> 메서드 또는 메서드 내에서 호출 합니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#10)]
      [!code-csharp[Trin_VstcoreWordAutomation#10](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#10)]
@@ -73,7 +73,7 @@ ms.locfileid: "60056278"
      다음 코드 예제에서는 새 이름을 사용 하 여 활성 문서를 저장합니다. 이 코드 예제를 사용하려면 프로젝트의 `ThisDocument` 또는 `ThisAddIn` 클래스에서 실행합니다.
 
     > [!NOTE]
-    >  <xref:Microsoft.Office.Interop.Word._Document.SaveAs%2A> 대상 디렉터리가 없는 경우 또는 파일을 저장할 다른 문제가 있는 경우 메서드에서 예외가 throw 됩니다. 사용 하는 것이 좋습니다를 **try... catch** 주위 차단는 <xref:Microsoft.Office.Interop.Word._Document.SaveAs%2A> 메서드 또는 메서드 내에서 호출 합니다.
+    > <xref:Microsoft.Office.Interop.Word._Document.SaveAs%2A> 대상 디렉터리가 없는 경우 또는 파일을 저장할 다른 문제가 있는 경우 메서드에서 예외가 throw 됩니다. 사용 하는 것이 좋습니다를 **try... catch** 주위 차단는 <xref:Microsoft.Office.Interop.Word._Document.SaveAs%2A> 메서드 또는 메서드 내에서 호출 합니다.
 
      [!code-vb[Trin_VstcoreWordAutomationAddIn#10](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#10)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#10](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#10)]

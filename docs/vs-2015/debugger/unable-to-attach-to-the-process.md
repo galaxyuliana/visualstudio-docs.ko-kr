@@ -16,12 +16,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1e8f3e5b87879d34ab61f0b50e5e4b91e84933b5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c74799daf57ca031c4b3ce6bf76f72e453eeb0b3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446548"
 ---
 # <a name="unable-to-attach-to-the-process"></a>프로세스에 연결할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ ms.locfileid: "60063090"
 6. 에 **네트워크 액세스: 로컬 계정에 대 한 공유 및 보안 모델** 대화 상자에서 로컬 보안 설정을 변경 **클래식**, 클릭 **확인**합니다.  
   
     > [!CAUTION]
-    >  보안 모델을 기본으로 변경하면 원치 않는 사용자가 공유 파일 및 DCOM 구성 요소에 액세스할 수 있습니다. 이와 같이 변경하면 원격 사용자가 Guest가 아닌 로컬 사용자 계정을 사용하여 인증할 수 있습니다. 원격 사용자가 로컬 사용자 이름 및 암호를 맞추면 공유하도록 설정한 모든 폴더나 DCOM 개체에 원격 사용자가 액세스할 수 있습니다. 이러한 보안 모델을 사용하는 경우에는 머신의 모든 사용자 계정이 강력한 암호를 사용하도록 하거나, 디버깅하는 머신과 디버깅되는 머신에 대해 격리된 네트워크 아일랜드를 설정하여 무단 액세스를 방지해야 합니다.  
+    > 보안 모델을 기본으로 변경하면 원치 않는 사용자가 공유 파일 및 DCOM 구성 요소에 액세스할 수 있습니다. 이와 같이 변경하면 원격 사용자가 Guest가 아닌 로컬 사용자 계정을 사용하여 인증할 수 있습니다. 원격 사용자가 로컬 사용자 이름 및 암호를 맞추면 공유하도록 설정한 모든 폴더나 DCOM 개체에 원격 사용자가 액세스할 수 있습니다. 이러한 보안 모델을 사용하는 경우에는 머신의 모든 사용자 계정이 강력한 암호를 사용하도록 하거나, 디버깅하는 머신과 디버깅되는 머신에 대해 격리된 네트워크 아일랜드를 설정하여 무단 액세스를 방지해야 합니다.  
   
 7. 모든 창을 닫습니다.  
   

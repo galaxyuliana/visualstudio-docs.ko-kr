@@ -26,12 +26,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 87e0280534eaf97fefebe54712b0f0b12e14bdac
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 684bf375568b83333ac5e4c9f88eeae00449cd42
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443258"
 ---
 # <a name="understanding-build-configurations"></a>빌드 구성 이해
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60077279"
 다양한 종류의 빌드에서 사용할 솔루션 및 프로젝트 속성에 대한 여러 구성을 저장할 수 있습니다. 구성을 만들거나, 선택하거나, 수정하거나, 삭제하려면 **구성 관리자**를 사용합니다. 구성 관리자를 열려면 메뉴 모음에서 **빌드**, **구성 관리자**를 선택하거나 **빠른 실행** 상자에 **구성**을 입력합니다. **표준** 도구 모음에서 **솔루션 구성** 목록을 사용하여 구성을 선택하거나 **구성 관리자**를 열 수도 있습니다.  
   
 > [!NOTE]
->  도구 모음에서 솔루션 구성 설정을 찾을 수 없고 **구성 관리자**에 액세스할 수 없으면 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 개발 설정을 적용할 수 있습니다. 자세한 내용은 [방법: Visual Basic 개발자 설정 적용 하 여 구성 관리](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md)합니다.  
+> 도구 모음에서 솔루션 구성 설정을 찾을 수 없고 **구성 관리자**에 액세스할 수 없으면 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 개발 설정을 적용할 수 있습니다. 자세한 내용은 [방법: Visual Basic 개발자 설정 적용 하 여 구성 관리](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md)합니다.  
   
  기본적으로 디버그 및 릴리스 구성은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 템플릿을 사용하여 만든 프로젝트에 포함됩니다. 디버그 구성은 앱의 디버깅을 지원하고 릴리스 구성은 배포할 수 있는 앱 버전을 빌드합니다. 자세한 내용은 [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md)을 참조하세요. 사용자 지정 솔루션 구성 및 프로젝트 구성을 만들 수도 있습니다. 자세한 내용은 [방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)을 참조하세요.  
   
@@ -49,9 +49,9 @@ ms.locfileid: "60077279"
  솔루션 구성에서 **프로젝트 컨텍스트** 상자의 각 항목은 솔루션에 있는 프로젝트를 나타냅니다. **활성 솔루션 구성** 및 **활성 솔루션 플랫폼**의 모든 조합에 대해 각 프로젝트가 사용되는 방법을 설정할 수 있습니다. (솔루션 플랫폼에 대한 자세한 내용은 [빌드 플랫폼 이해](../ide/understanding-build-platforms.md)를 참조하세요.)  
   
 > [!NOTE]
->  새 솔루션 구성을 정의하고 **새 프로젝트 구성 만들기** 확인란을 선택하면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 모든 프로젝트에 새 구성이 자동으로 할당됩니다. 마찬가지로, 새 솔루션 플랫폼을 정의하고 **새 프로젝트 플랫폼 만들기** 확인란을 선택하면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 모든 프로젝트에 새 플랫폼이 자동으로 할당됩니다. 또한 새 플랫폼을 대상으로 하는 프로젝트를 추가하면 Visual Studio에서 해당 플랫폼이 솔루션 플랫폼 목록에 추가되고 모든 프로젝트에 할당됩니다.  
+> 새 솔루션 구성을 정의하고 **새 프로젝트 구성 만들기** 확인란을 선택하면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 모든 프로젝트에 새 구성이 자동으로 할당됩니다. 마찬가지로, 새 솔루션 플랫폼을 정의하고 **새 프로젝트 플랫폼 만들기** 확인란을 선택하면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 모든 프로젝트에 새 플랫폼이 자동으로 할당됩니다. 또한 새 플랫폼을 대상으로 하는 프로젝트를 추가하면 Visual Studio에서 해당 플랫폼이 솔루션 플랫폼 목록에 추가되고 모든 프로젝트에 할당됩니다.  
 >   
->  각 프로젝트에 대한 설정은 여전히 수정할 수 있습니다.  
+> 각 프로젝트에 대한 설정은 여전히 수정할 수 있습니다.  
   
  활성 솔루션 구성도 IDE에 컨텍스트를 제공합니다. 예를 들어 프로젝트 작업을 진행 중인데 이 프로젝트가 모바일 디바이스용으로 빌드될 것이라고 구성에 지정되어 있으면, 모바일 디바이스 프로젝트에 사용할 수 있는 항목만 **도구 상자**에 표시됩니다.  
   

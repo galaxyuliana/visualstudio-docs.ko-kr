@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: aff28f0f552bcad6792e4d252a92e45e9a6fd38c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 5505113ee650c6618be5a95bc77244daf90cfcb7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446956"
 ---
 # <a name="idisperrorgetdescription"></a>IDispError::GetDescription
 오류에 대 한 텍스트 설명을 반환합니다.  
@@ -50,7 +50,7 @@ HRESULT GetDescription(
  에 전달 된 로캘 식별자 (LCID) 하 여 지정 된 언어로 된 텍스트가 반환 됩니다 `IDispatchEx::InvokeEx` 오류가 발생 하는 메서드에 대 한 합니다.  
   
 > [!NOTE]
->  이 메서드가 구현되지 않았습니다.  
+> 이 메서드가 구현되지 않았습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDispError 인터페이스](../../winscript/reference/idisperror-interface.md)   

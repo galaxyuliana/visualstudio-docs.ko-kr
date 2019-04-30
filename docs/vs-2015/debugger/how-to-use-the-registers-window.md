@@ -27,12 +27,12 @@ caps.latest.revision: 42
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f622440c5bd0f0d09967eff56479459a4a3bfbb0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 506425f4de218e258ca9a86bfad5154cbda5c223
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445035"
 ---
 # <a name="how-to-use-the-registers-window"></a>방법: 레지스터 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ms.locfileid: "60042877"
  레지스터 및 레지스터 창의 개념에 대 한 높은 수준의 소개를 참조 하세요. [디버깅 기본 사항: 레지스터 창](../debugger/debugging-basics-registers-window.md)합니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ### <a name="to-display-the-registers-window"></a>레지스터 창을 표시하려면  
   
@@ -55,7 +55,7 @@ ms.locfileid: "60042877"
      디버거는 실행 중이거나 중단 모드에 있어야 합니다.  
   
     > [!NOTE]
-    >  스크립트나 SQL 응용 프로그램의 경우에는 레지스터 정보를 사용할 수 없습니다.  
+    > 스크립트나 SQL 응용 프로그램의 경우에는 레지스터 정보를 사용할 수 없습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [디버깅 기본 사항: 레지스터 창](../debugger/debugging-basics-registers-window.md)   

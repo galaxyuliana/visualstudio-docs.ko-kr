@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6e0cc6ee8df5285555760521b415ce8f6679fc2f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 17f8acd38df810d0ea7e5c0da2293a5de31eb281
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446512"
 ---
 # <a name="how-to-create-a-user-control-for-a-sharepoint-application-page-or-web-part"></a>방법: SharePoint 응용 프로그램 페이지 또는 웹 파트에 대 한 사용자 정의 컨트롤 만들기
   SharePoint 솔루션에 대한 사용자 지정 기능을 제공하는 사용자 지정 사용자 정의 컨트롤을 만들 수 있으며, 프로젝트 내에서 해당 기능을 다시 사용할 수 있습니다. 웹 파트 또는 응용 프로그램 페이지에 사용자 정의 컨트롤을 포함하고, 다른 ASP.NET 컨트롤과 SharePoint 컨트롤을 추가하고, 컨트롤에 대한 속성과 메서드를 정의할 수 있습니다. 사용자 정의 컨트롤에 대 한 자세한 내용은 참조 하세요. [웹 파트 또는 응용 프로그램 페이지에 대 한 재사용 가능한 컨트롤을 만들](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md) 하 고 [사용자 컨트롤 및 SharePoint에서 서버 컨트롤](https://blogs.msdn.microsoft.com/kaevans/2011/04/28/user-controls-and-server-controls-in-sharepoint/)합니다.
@@ -40,7 +40,7 @@ ms.locfileid: "60072047"
 5. SharePoint 템플릿의 목록에서 선택 **사용자 정의 컨트롤 (팜 솔루션만 해당)** 합니다.
 
     > [!NOTE]
-    >  사용자 정의 컨트롤은 팜 솔루션에서만 작동합니다.
+    > 사용자 정의 컨트롤은 팜 솔루션에서만 작동합니다.
 
 6. 에 **이름** 상자, 사용자 정의 컨트롤에 대 한 이름을 지정 하 고 선택한 합니다 **추가** 단추입니다.
 

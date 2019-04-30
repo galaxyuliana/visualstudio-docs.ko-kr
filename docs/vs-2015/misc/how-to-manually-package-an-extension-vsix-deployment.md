@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.assetid: d25990e0-e782-4a79-9d9a-1caf3c56c6a2
 caps.latest.revision: 10
 manager: jillfra
-ms.openlocfilehash: 81bf6c5ef975d7ce154c1d8bb987e962dfdf4ec2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0b65fa016d0d2e09a4200004de3f473503604f6e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442879"
 ---
 # <a name="how-to-manually-package-an-extension-vsix-deployment"></a>방법: 수동으로 확장명 패키지 (VSIX 배포)
 배포를 위해 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 확장을 래핑할 VSIX 패키지를 만들 수 있습니다. 패키지를 만드는 방법에는 다음 세 가지가 있습니다.  
@@ -29,7 +29,7 @@ ms.locfileid: "60040743"
  확장을 수동으로 패키지하려면 extension.manifest 파일 및 [Content_Types].xml 파일을 확장 프로젝트에 추가하고 빌드 출력과 함께 압축 파일에 넣은 다음 .vsix 파일 이름 확장명을 갖도록 압축 파일의 이름을 바꿉니다. 패키지할 확장은 [VSIX 스키마](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)에서 지원되는 형식이어야 합니다.  
   
 > [!NOTE]
->  VSIX 패키지에 있는 파일의 이름에 공백을 포함할 수 없습니다 나으로 리소스 URI (Uniform Identifier), 예약 된 문자 아래에 정의 된 [ \[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339)합니다.  
+> VSIX 패키지에 있는 파일의 이름에 공백을 포함할 수 없습니다 나으로 리소스 URI (Uniform Identifier), 예약 된 문자 아래에 정의 된 [ \[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339)합니다.  
   
 #### <a name="to-manually-create-a-vsix-package"></a>VSIX 패키지를 수동으로 만들려면  
   

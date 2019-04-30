@@ -15,12 +15,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 311fdca1d56133d85e7b6daa36fe8e4d3a50d5ad
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5f660a7b457f8ba70439321d3eb619389e50fe97
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445719"
 ---
 # <a name="how-to-add-or-remove-imported-namespaces-visual-basic"></a>방법: 추가 또는 제거 가져온 네임 스페이스 (Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "60065417"
 3. **가져온 네임스페이스** 목록에서 추가할 네임스페이스의 확인란을 선택합니다.  
   
     > [!NOTE]
-    >  가져올 네임스페이스는 참조된 구성 요소에 있어야 합니다. 네임스페이스가 목록에 나타나지 않으면 네임스페이스가 포함된 구성 요소에 참조를 추가해야 합니다. 자세한 내용은 참조 하세요. [NIB 방법: 참조 추가 또는 제거 참조 추가 대화 상자를 사용 하 여](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)입니다.  
+    > 가져올 네임스페이스는 참조된 구성 요소에 있어야 합니다. 네임스페이스가 목록에 나타나지 않으면 네임스페이스가 포함된 구성 요소에 참조를 추가해야 합니다. 자세한 내용은 참조 하세요. [NIB 방법: 참조 추가 또는 제거 참조 추가 대화 상자를 사용 하 여](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)입니다.  
   
 ### <a name="to-remove-an-imported-namespace"></a>가져온 네임스페이스를 제거하려면  
   
@@ -64,7 +64,7 @@ ms.locfileid: "60065417"
 4. **사용자 가져오기 추가** 단추를 클릭하여 **가져온 네임스페이스** 목록에 네임스페이스를 추가합니다.  
   
     > [!NOTE]
-    >  네임스페이스가 이미 목록에 있는 네임스페이스와 일치할 경우 **사용자 가져오기 추가** 단추가 사용하지 않도록 설정됩니다. 하나의 가져오기를 두 번 추가할 수는 없습니다.  
+    > 네임스페이스가 이미 목록에 있는 네임스페이스와 일치할 경우 **사용자 가져오기 추가** 단추가 사용하지 않도록 설정됩니다. 하나의 가져오기를 두 번 추가할 수는 없습니다.  
   
 #### <a name="to-update-a-user-import"></a>사용자 가져오기를 업데이트하려면  
   

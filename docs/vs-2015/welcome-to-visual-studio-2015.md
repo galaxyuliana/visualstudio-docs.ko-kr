@@ -13,12 +13,12 @@ ms.assetid: ba237712-f8c4-4d13-854b-ab4a16afa309
 caps.latest.revision: 128
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 05fd28e6b47d74c28edc491458b73b487d282a45
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a2418df5a831416d74328e4ca926cdf8c3a721e2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60067731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63383422"
 ---
 # <a name="welcome-to-visual-studio-2015"></a>Visual Studio 2015 시작
 [!INCLUDE[vs2017banner](includes/vs2017banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "60067731"
 클라우드를 비롯한 다양한 환경에서 디바이스, 데스크톱 및 웹용으로 유용한 앱을 만드는 데 필요한 모든 기능을 갖춘 Visual Studio를 시작합니다. 단일 IDE에서 iOS, Android 및 Windows용 코드를 작성할 수 있습니다. 유용한 IntelliSense, 쉬운 코드 탐색, 빠른 빌드 및 신속한 배포의 이점을 누려 보세요. Visual Studio를 사용하여 생산성을 높이고 혼자서나 대규모 팀에 속해서 작업을 손쉽게 수행할 수 있습니다.
 
 > [!NOTE]
->  [Visual Studio 2015 업데이트 3](https://www.visualstudio.com/news/releasenotes/vs2015-update3-vs)의 릴리스 정보는 여기를 클릭하세요.
+> [Visual Studio 2015 업데이트 3](https://www.visualstudio.com/news/releasenotes/vs2015-update3-vs)의 릴리스 정보는 여기를 클릭하세요.
 >
->  [Visual Studio 2017](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)의 릴리스 정보를 확인하려면 링크를 클릭하세요.
+> [Visual Studio 2017](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes)의 릴리스 정보를 확인하려면 링크를 클릭하세요.
 
  지금 바로 코딩을 시작하려면 [Visual Studio Community](http://go.microsoft.com/fwlink/?LinkId=517106) 를 무료로 다운로드하세요. 플랫폼 간 개발을 수행하려는 경우에는 선택적 패키지를 설치해야 합니다. ( [여러 가지 Visual Studio 버전](http://www.visualstudio.com/products/compare-visual-studio-products-vs)에서 더욱 다양한 기능을 사용할 수 있습니다.)
 

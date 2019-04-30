@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d2710e529ea558b87527e84865717645116b6b36
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 915a6c6d06380aa67c2c79ce52598668a9b33f18
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069551"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442371"
 ---
 # <a name="get-started-with-domain-specific-languages"></a>도메인 특정 언어 시작
 
@@ -294,7 +294,7 @@ DSL 정의 저장할 각 변경 후 클릭 **모든 템플릿 변환** 에서 **
          예를 들어 이름 설정 **Town**합니다.
 
         > [!NOTE]
-        >  모델의 루트를 제외한 모든 도메인 클래스 하나 이상 포함 관계의 대상 이거나 포함의 대상이 되는 클래스에서 상속 해야 합니다. 이 따라서 자주 포함 관계 도구를 사용 하 여 도메인 클래스를 만드는 편리한 것입니다.
+        > 모델의 루트를 제외한 모든 도메인 클래스 하나 이상 포함 관계의 대상 이거나 포함의 대상이 되는 클래스에서 상속 해야 합니다. 이 따라서 자주 포함 관계 도구를 사용 하 여 도메인 클래스를 만드는 편리한 것입니다.
 
     2. 예를 들어 새 클래스에 도메인 속성을 추가 **이름을**입니다.
 
@@ -305,7 +305,7 @@ DSL 정의 저장할 각 변경 후 클릭 **모든 템플릿 변환** 에서 **
          ![DSL 정의 조각: 패밀리 트리 루트](../modeling/media/familyt_root.png)
 
         > [!NOTE]
-        >  참조 관계는 다른 모델 트리의 한 부분에서 상호 참조를 나타냅니다.
+        > 참조 관계는 다른 모델 트리의 한 부분에서 상호 참조를 나타냅니다.
 
 3. 모델 다이어그램에서 도심지 나타내는 셰이프를 추가 합니다.
 

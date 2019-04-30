@@ -9,12 +9,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1dc742b62fd30c4d5d3e012b2237edcfabd8ed0a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b1e806b5600c0199c1f131ebc3008cc9f8ee1c68
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441998"
 ---
 # <a name="step-1-create-a-windows-forms-application-project"></a>1단계: Windows Forms 애플리케이션 프로젝트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60110026"
 4. 다음 그림에는 지금 Visual Studio 인터페이스에 표시되어야 하는 화면이 나와 있습니다.  
   
     > [!NOTE]
-    >  창 레이아웃은 이 그림과 다를 수 있습니다. 정확한 창 레이아웃은 Visual Studio 버전, 사용 중인 프로그래밍 언어 및 기타 요소에 따라 달라집니다. 그러나 3개 창이 모두 나타나는지 확인해야 합니다.  
+    > 창 레이아웃은 이 그림과 다를 수 있습니다. 정확한 창 레이아웃은 Visual Studio 버전, 사용 중인 프로그래밍 언어 및 기타 요소에 따라 달라집니다. 그러나 3개 창이 모두 나타나는지 확인해야 합니다.  
   
      ![IDE 창](../ide/media/express-ideoverview-visio.png "Express_IDEOverview_Visio")  
 IDE 창  
@@ -57,7 +57,7 @@ IDE 창
     - **속성 창** 이 창에서는 다른 창에서 선택한 항목의 속성을 변경할 수 있습니다. 예를 들어 Form1을 선택하는 경우 **Text** 속성을 설정하여 제목을 변경하고 **Backcolor** 속성을 설정하여 배경색을 변경할 수 있습니다.  
   
     > [!NOTE]
-    >  **솔루션 탐색기**의 가장 위쪽 줄에는 Visual Studio에서 솔루션이 생성되었음을 의미하는 **솔루션 'PictureViewer'(프로젝트 1개)** 가 표시됩니다. 솔루션에 둘 이상의 프로젝트를 포함할 수는 있지만, 지금은 하나의 프로젝트만 포함된 솔루션으로 작업하겠습니다.  
+    > **솔루션 탐색기**의 가장 위쪽 줄에는 Visual Studio에서 솔루션이 생성되었음을 의미하는 **솔루션 'PictureViewer'(프로젝트 1개)** 가 표시됩니다. 솔루션에 둘 이상의 프로젝트를 포함할 수는 있지만, 지금은 하나의 프로젝트만 포함된 솔루션으로 작업하겠습니다.  
   
 6. 메뉴 모음에서 **파일**, **모두 저장**을 차례로 선택합니다.  
   

@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 6b3d9725d72f5213aadc3d9400bef87cecb20ba0
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58159298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63009731"
 ---
 # <a name="iactivescriptauthor-interface"></a>IActiveScriptAuthor 인터페이스
 IntelliSense 및 데이터 정렬 정보를 포함 하 여 서비스 작성을 나타냅니다.  

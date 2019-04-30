@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 4087e77fdd87aaa012e4d09013bb92ae5835bb0d
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: fa831ff511ea507e03ca858b93383ff38ead9039
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58160682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446916"
 ---
 # <a name="idisperrorgethelpinfo"></a>IDispError::GetHelpInfo
 도움말 파일의 경로 가능한 경우 오류를 설명 하는 항목의 컨텍스트 ID를 반환 합니다.  
@@ -57,7 +57,7 @@ HRESULT GetHelpInfo(
  이 메서드는 도움말 파일의 경로 가능한 경우 오류를 설명 하는 항목의 컨텍스트 ID를 반환 합니다.  
   
 > [!NOTE]
->  이 메서드가 구현되지 않았습니다.  
+> 이 메서드가 구현되지 않았습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDispError 인터페이스](../../winscript/reference/idisperror-interface.md)

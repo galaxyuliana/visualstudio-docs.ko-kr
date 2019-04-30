@@ -10,12 +10,12 @@ ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
 caps.latest.revision: 39
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 42d4209c691d052a1715ae9cfbab5b1e576848cd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 71ecff799f0da84ca47456467e190edcf95b0a15
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442293"
 ---
 # <a name="walkthrough-adding-features-to-a-custom-editor"></a>연습: 사용자 지정 편집기에 기능 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ ms.locfileid: "60071436"
     2. 외부 파일 변경 내용에 응답 하려면 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx> 고 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> 편집기의 문서 데이터 개체입니다.  
   
         > [!NOTE]
-        >  호출 `QueryService` 대 <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> 에 대 한 포인터를 가져오려면 `IVsFileChangeEx`합니다.  
+        > 호출 `QueryService` 대 <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> 에 대 한 포인터를 가져오려면 `IVsFileChangeEx`합니다.  
   
 7. 소스 코드 제어를 사용 하 여 문서 편집 이벤트를 조정 합니다. 가상 하드 디스크 파일에 대한 중요 정보를 제공하려면  
   
@@ -138,7 +138,7 @@ ms.locfileid: "60071436"
      <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent>  
   
     > [!NOTE]
-    >  `IOleInPlaceComponent` 인터페이스 OLE 2 메뉴 병합 방지를 사용 합니다.  
+    > `IOleInPlaceComponent` 인터페이스 OLE 2 메뉴 병합 방지를 사용 합니다.  
   
      프로그램 `IOleCommandTarget` 구현을 처리 명령 등 **잘라내기**를 **복사**, 및 **붙여넣기**합니다. 구현 하는 경우 `IOleCommandTarget`에서 정의한 표준 명령을 구현할 수 있는 경우 또는 편집기 자체 명령 메뉴 구조를 정의 하는 고유한.vsct 파일을 필요한 지 여부를 결정 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 일반적으로 편집기 및 IDE의 메뉴를 확장 하며 사용 자신의 도구 모음을 정의 합니다. 그러나 자주 필요는 IDE의 표준 명령 집합을 사용 하는 것 외에도 고유한 특정 명령을 정의 하는 편집기에 대 한 합니다. 이렇게 하려면 편집기 사용 하며 다음.vsct 파일에서 새 명령, 상황에 맞는 메뉴를 최상위 메뉴 및 도구 모음을 정의 하는 일반적인 명령 선언 해야 합니다. 내부 활성화 편집기를 만드는 경우 다음 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> OLE 2 메뉴 병합을 사용 하는 대신.vsct 파일의 편집기에 대 한 메뉴 및 도구 모음을 정의 합니다.  
   
@@ -156,4 +156,4 @@ ms.locfileid: "60071436"
   
 ## <a name="see-also"></a>참고 항목  
  [자동화 모델에 영향을 주는](../extensibility/internals/contributing-to-the-automation-model.md)   
- [방법: 편집기에 대 한 컨텍스트를 제공 합니다.](../extensibility/how-to-provide-context-for-editors.md)
+ [방법: 편집기의 컨텍스트 제공](../extensibility/how-to-provide-context-for-editors.md)

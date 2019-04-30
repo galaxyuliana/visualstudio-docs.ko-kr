@@ -21,12 +21,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 430f2a55f180428c781e7a8cbe1f78d3a0355128
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: e1d9c456c22b4d3003d9435f813a4c3c1dc47881
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54804361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63383381"
 ---
 # <a name="find-in-files"></a>파일에서 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "54804361"
    찾기 작업을 취소하려면 Ctrl+Break를 누릅니다.  
   
 > [!NOTE]
->  찾기 및 바꾸기 도구는 `Hidden` 또는 `System` 특성이 설정된 디렉터리를 검색하지 않습니다.  
+> 찾기 및 바꾸기 도구는 `Hidden` 또는 `System` 특성이 설정된 디렉터리를 검색하지 않습니다.  
   
 ## <a name="find-what"></a>찾을 내용  
  새 텍스트 문자열이나 식을 검색하려면 상자에 지정합니다. 가장 최근에 검색한 20개 문자열 중 하나를 검색하려면 목록을 열고 검색하려는 문자열을 선택합니다. 검색 문자열에 하나 이상의 정규식을 사용하려는 경우 인접한 **식 작성기** 단추를 선택합니다. 자세한 내용은 [Visual Studio에서 정규식 사용](../ide/using-regular-expressions-in-visual-studio.md)을 참조하세요.  
@@ -53,10 +53,10 @@ ms.locfileid: "54804361"
  **찾는 위치** 드롭다운 목록에서 선택한 옵션은 **파일에서 찾기**가 현재 활성 파일에서만 검색하는지 또는 특정 폴더 내에 저장된 모든 파일에서 검색하는지를 결정합니다. 목록에서 검색 범위를 선택하거나 **찾아보기(...)** 단추를 클릭하여 **검색 폴더 선택** 대화 상자를 표시하고 고유한 디렉터리 집합을 입력합니다. **찾는 위치** 상자에 경로를 직접 입력할 수도 있습니다.  
   
 > [!WARNING]
->  **전체 솔루션** 또는 **현재 프로젝트** 옵션을 사용할 경우 프로젝트 및 솔루션 파일이 검색되지 않습니다. 프로젝트 파일을 확인하려는 경우 검색 폴더를 선택합니다.  
+> **전체 솔루션** 또는 **현재 프로젝트** 옵션을 사용할 경우 프로젝트 및 솔루션 파일이 검색되지 않습니다. 프로젝트 파일을 확인하려는 경우 검색 폴더를 선택합니다.  
   
 > [!NOTE]
->  선택한 **찾는 위치** 옵션으로 인해 소스 코드 제어에서 체크 아웃한 파일이 검색되는 경우 로컬 컴퓨터에 다운로드된 파일 버전만 검색됩니다.  
+> 선택한 **찾는 위치** 옵션으로 인해 소스 코드 제어에서 체크 아웃한 파일이 검색되는 경우 로컬 컴퓨터에 다운로드된 파일 버전만 검색됩니다.  
   
 ## <a name="include-subfolders"></a>하위 폴더 포함  
  **찾는 위치** 폴더의 하위 폴더가 검색되도록 지정합니다.  

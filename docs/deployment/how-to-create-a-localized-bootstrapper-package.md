@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a1a6b131e75e61e319a691a0b132bb57b7d0c227
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 856ea1e59a32a64c6a48b52c3ef1dcad9e0bbb80
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406838"
 ---
 # <a name="how-to-create-a-localized-bootstrapper-package"></a>방법: 지역화된 부트스트래퍼 패키지 만들기
 부트스트래퍼 패키지를 만든 후에는 각 로캘에 대해 두 파일, 즉 *eula.rtf*와 같은 소프트웨어 사용 약관 파일과 패키지 매니페스트(*package.xml*)를 추가로 만들어 부트스트래퍼 패키지의 지역화된 버전을 만들 수 있습니다.
@@ -31,7 +31,7 @@ ms.locfileid: "60061491"
 3. *package.xml* 패키지 매니페스트를 만들고 문자열과 문화권을 업데이트한 다음, 새 폴더에 파일을 저장합니다. 대상 언어로 된 Visual Studio 부트스트래퍼를 이미 만든 경우에는 Visual Studio *package.xml* 파일을 복사하여 이 단계에서 수정하면 됩니다.
 
 > [!NOTE]
->  설치 프로젝트를 사용하여 애플리케이션을 배포하는 경우 **지역화** 속성을 변경하여 애플리케이션을 지역화할 수 있습니다.
+> 설치 프로젝트를 사용하여 애플리케이션을 배포하는 경우 **지역화** 속성을 변경하여 애플리케이션을 지역화할 수 있습니다.
 
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 

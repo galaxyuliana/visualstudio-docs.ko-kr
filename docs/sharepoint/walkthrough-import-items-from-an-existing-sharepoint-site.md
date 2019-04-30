@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 89559798e342c8993e523517e5c85fc38e1c0cf8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a2727f0f3a5f2b46c5110a33e63b102f9d26bdaf
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446616"
 ---
 # <a name="walkthrough-import-items-from-an-existing-sharepoint-site"></a>연습: 기존 SharePoint 사이트에서 항목 가져오기
   이 연습에서는 기존 SharePoint 사이트에서 항목을 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다.
@@ -75,7 +75,7 @@ ms.locfileid: "60110876"
  다음으로 SharePoint 항목 및 가져올 하려는 요소를 포함 하는 SharePoint 설치 (.wsp) 파일을 가져올 프로그램 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다. .Wsp 파일이 아직 없는 경우 다음 만들어야 기존 SharePoint 사이트에서 합니다. 예를 들어 기본 SharePoint 사이트를.wsp 파일로 내보냅니다.
 
 > [!IMPORTANT]
->  다음 절차를 수행 하는 런타임 오류가 발생 하는 경우 SharePoint 사이트에 액세스할 수 있는 시스템에서 절차를 수행 해야 합니다.
+> 다음 절차를 수행 하는 런타임 오류가 발생 하는 경우 SharePoint 사이트에 액세스할 수 있는 시스템에서 절차를 수행 해야 합니다.
 
 ### <a name="to-export-an-existing-sharepoint-site"></a>기존 SharePoint 사이트를 내보내려면
 
@@ -117,7 +117,7 @@ ms.locfileid: "60110876"
 6. 에 **새 프로젝트 소스 지정** 페이지를 저장 하는 시스템에서 특정 위치로 이동 하는 *.wsp* 이전에 파일을 선택한를 **다음** 단추입니다.
 
    > [!NOTE]
-   >  선택 하면를 **완료** 에서 사용 가능한 모든 항목이이 페이지에서 단추를 *.wsp* 파일을 가져옵니다.
+   > 선택 하면를 **완료** 에서 사용 가능한 모든 항목이이 페이지에서 단추를 *.wsp* 파일을 가져옵니다.
 
 7. 에 **가져올 항목 선택** 상자에서 모든 제외 하 고 목록에서 확인란의 선택을 취소 **테스트 열**를 선택한 후는 **마침** 단추.
 

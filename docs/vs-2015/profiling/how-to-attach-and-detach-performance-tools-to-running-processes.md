@@ -17,12 +17,12 @@ caps.latest.revision: 35
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 873f4735cd1be2525b8b009dc94787b4eed394ad
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0b8fc664ee47cd34ab984d1ac448b45c2f17c5b0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443715"
 ---
 # <a name="how-to-attach-and-detach-performance-tools-to-running-processes"></a>방법: 실행 중인 프로세스에 성능 도구 연결 및 분리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60095745"
 프로파일러를 사용하여 실행 프로세스에 연결하거나 실행 프로세스에서 분리하여 더 쉽게 성능 데이터를 샘플링하고 수집할 수 있습니다. 이 방법을 사용하면 애플리케이션 로드 시간에 대한 데이터를 수집하지 않거나 특정 상태에 도달한 후 프로세스의 성능을 모니터링하려고 할 때 프로세스를 프로파일링할 수 있습니다.  
   
 > [!NOTE]
->  [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] IDE(통합 개발 환경) 내에서 수행되는 프로세스 연결 및 분리에는 다음 단계가 적용됩니다. 명령줄 도구를 사용하는 방법에 대한 자세한 내용은 [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)을 참조하세요. 서비스를 프로파일링하는 방법에 대한 자세한 내용은 [서비스 프로파일링](../profiling/command-line-profiling-of-services.md)을 참조하세요.  
+> [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] IDE(통합 개발 환경) 내에서 수행되는 프로세스 연결 및 분리에는 다음 단계가 적용됩니다. 명령줄 도구를 사용하는 방법에 대한 자세한 내용은 [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)을 참조하세요. 서비스를 프로파일링하는 방법에 대한 자세한 내용은 [서비스 프로파일링](../profiling/command-line-profiling-of-services.md)을 참조하세요.  
   
  프로파일링할 수 있는 프로세스는 컴퓨터의 관리자가 설정한 사용자 액세스 권한에 따라 결정됩니다. 예를 들어 사용자 계정에 다음에 대한 사용 권한이 있을 수 있습니다.  
   

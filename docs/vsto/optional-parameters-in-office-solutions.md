@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d6baf0c32d087ea804bb8e221745337c73b64114
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: e8684ad4b9429a5499660ef4ad6fdd8133dccaa5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442409"
 ---
 # <a name="optional-parameters-in-office-solutions"></a>Office 솔루션의 선택적 매개 변수
   Microsoft Office 응용 프로그램의 개체 모델에 있는 메서드 중 상당수가 선택적 매개 변수를 허용합니다. Visual Studio에서 Visual Basic을 사용하여 Office 솔루션을 개발하는 경우 없는 매개 변수마다 기본값이 자동으로 사용되기 때문에 선택적 매개 변수의 값을 전달할 필요가 없습니다. 대부분의 경우, Visual C# 프로젝트의 선택적 매개 변수를 생략할 수 있습니다. 그러나 선택적 생략할 수 없습니다 **ref** 의 매개 변수는 `ThisDocument` 문서 수준 Word 프로젝트의 클래스입니다.
@@ -33,7 +33,7 @@ ms.locfileid: "56639270"
  Visual C# 및 Visual Basic 프로젝트의 선택적 매개 변수를 사용 하 여 작업에 대 한 자세한 내용은 참조 하세요. [명명 된 인수 및 선택적 인수 &#40;C&#35; 프로그래밍 가이드&#41; ](/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments) 하 고 [ &#40;Visual Basic&#41;](/dotnet/visual-basic/programming-guide/language-features/procedures/optional-parameters)합니다.
 
 > [!NOTE]
->  이전 버전의 Visual Studio에서는 Visual C# 프로젝트에서 모든 선택적 매개 변수의 값을 전달해야 합니다. 편의를 위해 이러한 프로젝트에는 매개 변수의 기본값을 사용하려고 할 때 선택적 매개 변수에 전달할 수 있는 `missing`이라는 전역 변수가 포함되어 있습니다. Visual Studio에서 Office 용 visual C# 프로젝트 여전히 포함 되어는 `missing` 변수를 일반적으로 않아도에서 Office 솔루션을 개발할 때 사용할 [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)], 선택적으로 메서드를 호출 하는 경우를 제외 하 고 **ref** 매개 변수는 `ThisDocument` Word 용 문서 수준 프로젝트의 클래스입니다.
+> 이전 버전의 Visual Studio에서는 Visual C# 프로젝트에서 모든 선택적 매개 변수의 값을 전달해야 합니다. 편의를 위해 이러한 프로젝트에는 매개 변수의 기본값을 사용하려고 할 때 선택적 매개 변수에 전달할 수 있는 `missing`이라는 전역 변수가 포함되어 있습니다. Visual Studio에서 Office 용 visual C# 프로젝트 여전히 포함 되어는 `missing` 변수를 일반적으로 않아도에서 Office 솔루션을 개발할 때 사용할 [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)], 선택적으로 메서드를 호출 하는 경우를 제외 하 고 **ref** 매개 변수는 `ThisDocument` Word 용 문서 수준 프로젝트의 클래스입니다.
 
 ## <a name="example-in-excel"></a>Excel의 예제
  <xref:Microsoft.Office.Tools.Excel.Worksheet.CheckSpelling%2A> 메서드에는 많은 선택적 매개 변수가 있습니다. 다음 코드 예제와 같이 일부 매개 변수에는 값을 지정하고 다른 매개 변수에는 기본값을 적용할 수 있습니다. 이 예제에는 `Sheet1`이라는 워크시트 클래스가 포함된 문서 수준 프로젝트가 필요합니다.

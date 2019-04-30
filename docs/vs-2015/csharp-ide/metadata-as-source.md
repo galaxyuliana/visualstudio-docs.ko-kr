@@ -15,12 +15,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8d1a4d269b0b7e1afb151bea5bbd97d5ab770d00
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 5883708d0ed32f636c5e229147676cf1545f8a47
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444602"
 ---
 # <a name="metadata-as-source"></a>소스로서의 메타데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "58984820"
 메타데이터를 소스로 사용하면 읽기 전용 버퍼에 C# 소스 코드로 표시되는 메타데이터를 볼 수 있습니다. 이 경우 구현 없이 형식 및 멤버의 선언을 볼 수 있습니다. 프로젝트 또는 솔루션에서 해당 소스 코드를 사용할 수 없는 형식 또는 멤버에 대해 **정의로 이동** 명령을 실행하면 메타데이터를 소스로 볼 수 있습니다.  
   
 > [!NOTE]
->  내부로 표시된 형식 또는 멤버에 대해 **정의로 이동** 명령을 실행하려고 하면 참조하는 어셈블리가 friend인지 여부에 관계없이 IDE(통합 개발 환경)에서 해당 메타데이터를 소스로 표시하지 않습니다.  
+> 내부로 표시된 형식 또는 멤버에 대해 **정의로 이동** 명령을 실행하려고 하면 참조하는 어셈블리가 friend인지 여부에 관계없이 IDE(통합 개발 환경)에서 해당 메타데이터를 소스로 표시하지 않습니다.  
   
  코드 편집기 또는 **코드 정의** 창에서 메타데이터를 소스로 볼 수 있습니다.  
   

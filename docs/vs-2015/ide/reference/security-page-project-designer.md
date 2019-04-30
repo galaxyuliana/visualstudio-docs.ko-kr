@@ -19,12 +19,12 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: cc6c7af3732f2f96ad53651b146898b655b68fdd
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 91b438e8646a215aeed3390e87ce9c20ca923fae
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59647929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441288"
 ---
 # <a name="security-page-project-designer"></a>프로젝트 디자이너, 보안 페이지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "59647929"
  디자인 타임 시 보안 설정을 사용할지를 결정합니다. 이 옵션의 선택을 취소하면 **보안** 페이지의 다른 모든 옵션을 사용할 수 없습니다.  
   
 > [!NOTE]
->  **게시** 마법사를 사용하여 응용 프로그램을 게시하면 이 옵션은 자동으로 사용됩니다.  
+> **게시** 마법사를 사용하여 응용 프로그램을 게시하면 이 옵션은 자동으로 사용됩니다.  
   
  이 옵션을 선택하는 경우 다음 두 개의 라디오 단추 중 하나를 선택할 수 있습니다. **완전 신뢰 애플리케이션** 또는 **부분 신뢰 애플리케이션**  
   

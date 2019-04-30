@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 07586cd9b839a514ebe3a0677fb894a8d6e9c71f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: f5fe9f47fca2b83e0095c67e59c2db54a4a04159
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447049"
 ---
 # <a name="project-solutions"></a>프로젝트 솔루션
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] 에서는 Microsoft Office Project용 VSTO 추가 기능을 만드는 데 사용할 수 있는 프로젝트 템플릿을 제공합니다. VSTO 추가 기능을 사용하여 Project를 자동화하거나 Project 기능을 확장하거나 Project UI(사용자 인터페이스)를 사용자 지정할 수 있습니다.
@@ -32,7 +32,7 @@ ms.locfileid: "56642198"
  [!INCLUDE[appliesto_projallapp](../vsto/includes/appliesto-projallapp-md.md)]
 
 > [!NOTE]
->  Office 환경을 확장 하는 솔루션을 개발 하는 데 관심이 [여러 플랫폼](https://dev.office.com/add-in-availability)? 새 확인해 [Office 추가 기능 모델](https://dev.office.com/docs/add-ins/overview/office-add-ins)합니다. Office 추가 기능의 VSTO 추가 기능 및 솔루션에 비해 작은 사용 공간이 있고 거의 모든 웹 프로그래밍 기술을, HTML5, JavaScript, CSS3, XML 등을 사용 하 여 빌드할 수 있습니다.
+> Office 환경을 확장 하는 솔루션을 개발 하는 데 관심이 [여러 플랫폼](https://dev.office.com/add-in-availability)? 새 확인해 [Office 추가 기능 모델](https://dev.office.com/docs/add-ins/overview/office-add-ins)합니다. Office 추가 기능의 VSTO 추가 기능 및 솔루션에 비해 작은 사용 공간이 있고 거의 모든 웹 프로그래밍 기술을, HTML5, JavaScript, CSS3, XML 등을 사용 하 여 빌드할 수 있습니다.
 
 ## <a name="automate-project-by-using-the-project-object-model"></a>Project 개체 모델을 사용 하 여 프로젝트 자동화
  Project 개체 모델은 Project 자동화에 사용할 수 있는 다양한 형식을 노출합니다. 이러한 형식을 사용하면 프로젝트에서 프로그래밍 방식으로 작업을 만들고 수정하는 등의 일반 작업을 수행하도록 코드를 작성할 수 있습니다.
@@ -47,7 +47,7 @@ ms.locfileid: "56642198"
  VBA 개체 모델 참조의 모든 개체 및 멤버는 Project PIA(주 interop 어셈블리)의 형식 및 멤버에 해당합니다. 예를 들어 달력 VBA 개체 모델 참조에 해당 하는 개체는 `Microsoft.Office.Interop.MSProject.Calendar` 는 Project PIA의 형식입니다. 시각적 개체를 사용 하 여 만든 Project VSTO 추가 기능에 프로젝트에서 사용 하려는 경우 Visual Basic 또는 Visual C#에 대 한이 참조의 VBA 코드를 변환 해야 VBA 개체 모델 참조에서는 대부분의 속성, 메서드 및 이벤트에 대 한 코드 예제에 제공 하지만 Studio입니다.
 
 > [!NOTE]
->  이번에는 Project 주 interop 어셈블리에 대한 참조 설명서가 없습니다.
+> 이번에는 Project 주 interop 어셈블리에 대한 참조 설명서가 없습니다.
 
 ### <a name="infrastructure-types-in-the-project-primary-interop-assembly"></a>Project 주 interop 어셈블리의 인프라 형식
  Project PIA를 사용하는 코드를 작성할 때 VBA 참조에서 설명되지 않은 여러 형식을 알게 될 수 있습니다. 이러한 추가 형식은 Project의 COM 기반 개체 모델의 개체를 관리 코드로 변환할 수 있도록 지원하지만 코드에서 직접 사용하려는 것은 아닙니다.

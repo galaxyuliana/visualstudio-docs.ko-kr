@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 58d5fd0bfe1c8d5f5896d365a7b0ecfdb8da25b3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 71797d3e080ad4fbbb1256914e98bc3a62f9fb01
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415521"
 ---
 # <a name="how-to-access-the-built-in-fonts-and-color-ccheme"></a>방법: 기본 제공 글꼴을 액세스 및 ccheme 색
 Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연결 된 글꼴 및 색 구성표를 있습니다. 이 체계를 통해 액세스할 수 있습니다는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 인터페이스입니다.
@@ -39,7 +39,7 @@ Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연�
      이 GUID는 범주를 고유 하 게 식별 하는 데 사용 됩니다. 이 범주는 IDE의 기본 글꼴 및 색 지정을 재사용합니다.
 
     > [!NOTE]
-    >  사용 하 여 글꼴 및 색 데이터를 검색 하는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 다른 인터페이스를 Vspackage를 사용 하 여이 GUID 기본 제공 정보를 참조 합니다.
+    > 사용 하 여 글꼴 및 색 데이터를 검색 하는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 다른 인터페이스를 Vspackage를 사용 하 여이 GUID 기본 제공 정보를 참조 합니다.
 
 2. 범주 이름 VSPackage의 리소스 내에서 문자열 테이블에 추가 해야 합니다 (*.rc*) 파일을 IDE에서 표시 하는 경우 필요에 따라 지역화 될 수 있도록 합니다.
 

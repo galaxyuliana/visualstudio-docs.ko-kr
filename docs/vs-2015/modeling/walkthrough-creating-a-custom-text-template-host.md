@@ -12,12 +12,12 @@ caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 28f8cd324079a50a20312022ea6daaba843f8564
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1aaff1fa5d31fe22c8a0b079498ffc07a11b9a7e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446738"
 ---
 # <a name="walkthrough-creating-a-custom-text-template-host"></a>연습: 사용자 지정 텍스트 템플릿 호스트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "60100328"
  사용 하려는 경우 사용자 지정 호스트를 작성할 수 있습니다 합니다 *텍스트 템플릿 변환* 기능을 외부 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 또는 사용자 지정 도구에 통합 하려는 경우. 사용자 지정 호스트를 만들려면 <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>에서 상속되는 클래스를 만들어야 합니다. 개별 메서드에 대한 문서를 보려면 <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>를 참조하십시오.  
   
 > [!WARNING]
->  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension 또는 패키지를 작성하는 경우 고유 호스트를 만드는 대신 텍스트 템플릿 서비스를 사용하십시오. 자세한 내용은 [VS 확장에서 텍스트 변환 호출](../modeling/invoking-text-transformation-in-a-vs-extension.md)합니다.  
+> [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension 또는 패키지를 작성하는 경우 고유 호스트를 만드는 대신 텍스트 템플릿 서비스를 사용하십시오. 자세한 내용은 [VS 확장에서 텍스트 변환 호출](../modeling/invoking-text-transformation-in-a-vs-extension.md)합니다.  
   
  이 연습에서 수행할 작업은 다음과 같습니다.  
   
@@ -732,7 +732,7 @@ ms.locfileid: "60100328"
 2. 파일에 다음 코드를 추가합니다.  
   
     > [!NOTE]
-    >  텍스트 템플릿의 프로그래밍 언어는 사용자 지정 호스트의 프로그래밍 언어와 일치하지 않아도 됩니다.  
+    > 텍스트 템플릿의 프로그래밍 언어는 사용자 지정 호스트의 프로그래밍 언어와 일치하지 않아도 됩니다.  
   
     ```csharp  
     Text Template Host Test  
@@ -785,7 +785,7 @@ ms.locfileid: "60100328"
      `<YOUR PATH>CustomHost\bin\Debug\CustomHost.exe`  
   
     > [!NOTE]
-    >  CustomHost.exe 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기** 다음 명령 프롬프트 창에 파일을 끕니다.  
+    > CustomHost.exe 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기** 다음 명령 프롬프트 창에 파일을 끕니다.  
   
 3. 공백을 입력합니다.  
   
@@ -796,7 +796,7 @@ ms.locfileid: "60100328"
      `C:\<YOUR PATH>TestTemplate.tt`  
   
     > [!NOTE]
-    >  TestTemplate.tt 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기** 다음 명령 프롬프트 창에 파일을 끕니다.  
+    > TestTemplate.tt 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기** 다음 명령 프롬프트 창에 파일을 끕니다.  
   
      사용자 지정 호스트 응용 프로그램이 실행되어 텍스트 템플릿 변형 프로세스를 완료합니다.  
   

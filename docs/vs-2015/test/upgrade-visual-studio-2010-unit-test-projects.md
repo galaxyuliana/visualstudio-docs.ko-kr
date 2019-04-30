@@ -8,12 +8,12 @@ ms.assetid: f1502b51-d6db-4894-9fbf-4a5723e4bb1a
 caps.latest.revision: 8
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 63e6be6a6b7c3e739ab590dd9f952fbb5988176b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c66d8ba2f630812b08358fa3557035f58266ef00
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54788641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445914"
 ---
 # <a name="upgrade-visual-studio-2010-unit-test-projects"></a>Visual Studio 2010 단위 테스트 프로젝트 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,13 +23,13 @@ ms.locfileid: "54788641"
  [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에는 단위 테스트를 위해 몇 가지 변경 사항이 적용되었습니다. 이러한 변경 사항으로 인해 이전 버전의 Visual Studio와 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 사이의 호환성 문제를 이해하는 것이 중요합니다. 단위 테스트에 대한 변경 사항 중에서도 중요한 변경 사항은 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에 단위 테스트 프로젝트 템플릿을 포함해서 두 개 이상의 테스트 프로젝트 템플릿이 포함된다는 점입니다. 새로운 단위 테스트가 새로운 단위 테스트 프로젝트 템플릿에 추가되었습니다. 단위 테스트를 코딩된 UI 테스트 프로젝트 템플릿이라는 새로운 테스트 프로젝트 템플릿에 포함할 수도 있습니다. 새 테스트 프로젝트 템플릿에 대한 자세한 내용은 [이전 버전의 Visual Studio에서 테스트 업그레이드](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)를 참조하세요. 새 단위 테스트 프로젝트에는 기본적으로 테스트 설정 파일이 더 이상 포함되지 않습니다. 테스트 설정 파일을 제외함으로써 단위 테스트의 성능이 향상되었습니다. 호환성의 경우, Visual Studio 2010을 사용해서 만든 기존 테스트 프로젝트를 계속 사용할 수 있습니다. 하지만 테스트 설정 파일이 특별히 필요한 경우가 아닌 한 성능을 위해 테스트 프로젝트와 연관된 테스트 설정 파일을 제거하는 것이 좋습니다. 예를 들어 단위 테스트가 분산 환경에서 실행되거나 특정 진단 데이터를 수집해야 할 경우에는 테스트 설정 파일을 보존하도록 선택할 수 있습니다. 새로운 단위 테스트 프로젝트 템플릿 또는 코딩된 UI 테스트 프로젝트 템플릿을 사용할 때 이와 비슷한 요구 사항이 있으면 여기에 테스트 설정 파일을 수동으로 추가할 수도 있습니다.
 
 > [!NOTE]
->  [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 테스트 프로젝트에 있는 기존 단위 테스트는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 및 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 사이에 문제 없이 작동합니다. 단위 테스트가 포함된 Visual Studio 2010 테스트 프로젝트를 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 열거나 그 반대로 할 때 테스트 프로젝트 파일은 변경되지 않습니다.
+> [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 테스트 프로젝트에 있는 기존 단위 테스트는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 및 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 사이에 문제 없이 작동합니다. 단위 테스트가 포함된 Visual Studio 2010 테스트 프로젝트를 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 열거나 그 반대로 할 때 테스트 프로젝트 파일은 변경되지 않습니다.
 
 > [!CAUTION]
->  Visual Studio 2010은 11.0 도구 집합을 대상으로 하는 C++/CLI 프로젝트(즉, Visual Studio 2012에서 만든 프로젝트)를 열 수 없습니다. 이러한 제한은 C++/CLI 단위 테스트 프로젝트 뿐만 아니라 모든 C++/CLI 프로젝트에 적용됩니다.
+> Visual Studio 2010은 11.0 도구 집합을 대상으로 하는 C++/CLI 프로젝트(즉, Visual Studio 2012에서 만든 프로젝트)를 열 수 없습니다. 이러한 제한은 C++/CLI 단위 테스트 프로젝트 뿐만 아니라 모든 C++/CLI 프로젝트에 적용됩니다.
 
 > [!NOTE]
->  명령줄에서 vstest.console.exe를 사용해서 새 단위 테스트를 실행할 수 있습니다. vstest.console.exe 사용에 대한 자세한 내용은 [VSTest.Console.exe 명령줄 옵션](http://msdn.microsoft.com/library/52e1689d-b1a8-4589-bd98-99a55acd0a11)을 참조하거나 도움말 스위치 **vstest.console.exe /?** 를 사용해서 명령을 실행합니다. MStest.exe를 사용해서 기존 단위 테스트를 계속 실행할 수 있습니다. 자세한 내용은 [MSTest를 사용하여 명령줄에서 자동화된 테스트 실행](http://msdn.microsoft.com/library/39b61ad0-0055-44b5-963f-25d8a6b51581) 및 [MSTest.exe 명령줄 옵션](http://msdn.microsoft.com/library/8813ba7f-e790-4e92-9f91-7080508a1c36)을 참조하세요.
+> 명령줄에서 vstest.console.exe를 사용해서 새 단위 테스트를 실행할 수 있습니다. vstest.console.exe 사용에 대한 자세한 내용은 [VSTest.Console.exe 명령줄 옵션](http://msdn.microsoft.com/library/52e1689d-b1a8-4589-bd98-99a55acd0a11)을 참조하거나 도움말 스위치 **vstest.console.exe /?** 를 사용해서 명령을 실행합니다. MStest.exe를 사용해서 기존 단위 테스트를 계속 실행할 수 있습니다. 자세한 내용은 [MSTest를 사용하여 명령줄에서 자동화된 테스트 실행](http://msdn.microsoft.com/library/39b61ad0-0055-44b5-963f-25d8a6b51581) 및 [MSTest.exe 명령줄 옵션](http://msdn.microsoft.com/library/8813ba7f-e790-4e92-9f91-7080508a1c36)을 참조하세요.
 
  또 다른 중요한 변경 사항은 새로운 테스트 탐색기입니다. [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서는 테스트 뷰 창과 같이 이전 버전의 Visual Studio에서 익숙하게 사용하던 일부 테스트 창이 더 이상 사용되지 않습니다. 테스트 탐색기는 소프트웨어 개발 방법에 유닛 테스트를 포함하는 개발자 및 팀을 보다 효과적으로 지원하도록 설계되었습니다. 자세한 내용은 [테스트 탐색기를 사용하여 단위 테스트 실행](../test/run-unit-tests-with-test-explorer.md)을 참조하세요.
 

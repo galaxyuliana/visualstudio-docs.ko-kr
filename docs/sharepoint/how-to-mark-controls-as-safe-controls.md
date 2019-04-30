@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0d2dfe0da64abb9540724c05d13b84715a684af0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 30bb597288c19328bb71ce7b5212200991d7181e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443082"
 ---
 # <a name="how-to-mark-controls-as-safe-controls"></a>방법: 안전한 컨트롤로 표시 컨트롤
   보안을 위해 SharePoint가 없는 웹 컨트롤과 웹 컨트롤 스크립트 삽입에 대해 보호 되는 구분 됩니다. 컨트롤을 보호 하거나 *안전 컨트롤*, 신뢰할 수 없는 사용자가 액세스할 수 있습니다. SharePoint 프로젝트 항목의 또는 안전 컨트롤 항목 속성에 안전 하 게 컨트롤을 표시할 수 있습니다 합니다 **패키지 디자이너** 패키지에 어셈블리를 추가 합니다. 자세한 내용은 다음 항목을 참조하세요.
@@ -27,7 +27,7 @@ ms.locfileid: "60082037"
 - [web.config 파일 설정 변경](http://go.microsoft.com/fwlink/?LinkId=178965) 하 고 [웹 파트 어셈블리를 안전 컨트롤로 등록](http://go.microsoft.com/fwlink/?LinkId=171013)합니다.
 
 > [!IMPORTANT]
->  이러한 프로시저는 설명 목적으로 합니다. 표시 제어 안전 하다는 확신 하는 경우에 안전 합니다.
+> 이러한 프로시저는 설명 목적으로 합니다. 표시 제어 안전 하다는 확신 하는 경우에 안전 합니다.
 
 ## <a name="marking-safe-controls-in-the-safe-control-entries-property"></a>안전 컨트롤 항목 속성에서 안전 컨트롤 표시
 
@@ -94,7 +94,7 @@ ms.locfileid: "60082037"
     |스크립트에 대해 안전|유지 된 **스크립트에 대해 안전** 확인란의 선택을 취소 합니다.|
 
     > [!NOTE]
-    >  **어셈블리 이름** 를 통해 추가 된 어셈블리에 대 한 값을 **고급** 탭을 **패키지 디자이너** 수 없습니다 토큰 일 이어야 합니다는 강력한 이름의 어셈블리. 자세한 내용은 [강력한 이름의 어셈블리 만들기 및 사용](http://go.microsoft.com/fwlink/?LinkId=177513)을 참조하세요.
+    > **어셈블리 이름** 를 통해 추가 된 어셈블리에 대 한 값을 **고급** 탭을 **패키지 디자이너** 수 없습니다 토큰 일 이어야 합니다는 강력한 이름의 어셈블리. 자세한 내용은 [강력한 이름의 어셈블리 만들기 및 사용](http://go.microsoft.com/fwlink/?LinkId=177513)을 참조하세요.
 
 13. 선택 된 **탭** 키 다른 안전 컨트롤 항목을 만들어야 합니다.
 

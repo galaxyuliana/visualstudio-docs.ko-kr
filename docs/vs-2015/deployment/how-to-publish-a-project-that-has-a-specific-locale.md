@@ -21,12 +21,12 @@ caps.latest.revision: 13
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6d5bb4be34a6a476e975c240f8a9d99114b870f0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 76d0b61ba3eb8c0ff995aef4118fe21a83fc94c2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442684"
 ---
 # <a name="how-to-publish-a-project-that-has-a-specific-locale"></a>방법: 특정 로캘이 지정된 프로젝트 게시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "60092918"
 응용 프로그램에 포함된 구성 요소가 서로 다른 로캘을 사용하는 경우를 흔히 볼 수 있습니다. 이러한 시나리오에서는 여러 프로젝트가 포함된 솔루션을 만든 다음 각 로캘에 대해 프로젝트를 별도로 게시합니다. 아래 절차에서는 매크로를 통해 'en' 로캘을 사용하는 솔루션의 첫 번째 프로젝트를 게시하는 방법을 보여줍니다. 'en' 이외의 로캘에 대해 이 절차를 수행하려면 매크로의 `localeString`을 'de' 또는 'de-DE'와 같이 사용 중인 로캘과 일치하도록 설정합니다.  
   
 > [!NOTE]
->  이 매크로를 사용할 때 게시 위치는 올바른 URL 또는 UNC(범용 명명 규칙) 공유여야 합니다. 또한 IIS(인터넷 정보 서비스)가 컴퓨터에 설치되어 있어야 합니다. IIS를 설치하려면 **시작** 메뉴에서 **제어판**을 클릭합니다. **프로그램 추가 또는 제거**를 두 번 클릭합니다. **프로그램 추가 또는 제거**에서 **Windows 구성 요소 추가 또는 제거**를 클릭합니다. **Windows 구성 요소 마법사**에서 **구성 요소** 목록의 **IIS(인터넷 정보 서비스)** 확인란을 선택합니다. 그런 다음, **마침**을 클릭하여 마법사를 닫습니다.  
+> 이 매크로를 사용할 때 게시 위치는 올바른 URL 또는 UNC(범용 명명 규칙) 공유여야 합니다. 또한 IIS(인터넷 정보 서비스)가 컴퓨터에 설치되어 있어야 합니다. IIS를 설치하려면 **시작** 메뉴에서 **제어판**을 클릭합니다. **프로그램 추가 또는 제거**를 두 번 클릭합니다. **프로그램 추가 또는 제거**에서 **Windows 구성 요소 추가 또는 제거**를 클릭합니다. **Windows 구성 요소 마법사**에서 **구성 요소** 목록의 **IIS(인터넷 정보 서비스)** 확인란을 선택합니다. 그런 다음, **마침**을 클릭하여 마법사를 닫습니다.  
   
 ### <a name="to-create-the-publishing-macro"></a>게시 매크로를 만들려면  
   

@@ -1,5 +1,5 @@
 ---
-title: Visual Studio 2017의 디자인에 대 한 새로운 기능
+title: Visual Studio 2017의 디자인에 대한 새로운 기능
 titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -14,13 +14,13 @@ ms.workload:
 - multiple
 monikerRange: vs-2017
 ms.openlocfilehash: fb7ef710d117318d475e32f19b5ca2511b94f8bc
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57869891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386934"
 ---
-# <a name="whats-new-for-design-in-visual-studio-2017"></a>Visual Studio 2017의 디자인에 대 한 새로운 기능
+# <a name="whats-new-for-design-in-visual-studio-2017"></a>Visual Studio 2017의 디자인에 대한 새로운 기능
 
 ## <a name="live-dependency-validation"></a>실시간 종속성 유효성 검사
 

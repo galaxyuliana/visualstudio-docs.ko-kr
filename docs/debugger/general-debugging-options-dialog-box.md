@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 29b730bacd589e7b42b9f87086eda91d9e199622
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 8579504f549cb078fee178127c7396896fce5313
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "59504421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63399409"
 ---
 # <a name="general-debugging-options"></a>일반 디버깅 옵션
 
@@ -85,7 +85,7 @@ Visual Studio 디버거 옵션을 설정 하려면 선택 **도구** > **옵션*
 **소스 링크 지원 사용**: 에 대 한 원본 파일을 다운로드 하도록 Visual Studio 디버거에 지시 *.pdb* 원본 연결 정보를 포함 하는 파일입니다. 소스 링크에 대 한 자세한 내용은 참조는 [소스 링크 사양](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md)합니다.
 
 > [!IMPORTANT]
->  소스 링크는 http 또는 https를 사용 하 여 파일 다운로드 하기 때문에 신뢰할 수 있는지 확인 합니다 *.pdb* 파일입니다.
+> 소스 링크는 http 또는 https를 사용 하 여 파일 다운로드 하기 때문에 신뢰할 수 있는지 확인 합니다 *.pdb* 파일입니다.
 
 - **모든 소스 링크 요청에 대해 Git 자격 증명 관리자 인증으로 대체**:   소스 링크 지원이 활성화 된 경우 소스 링크 요청을 인증 실패 했을 때, Visual Studio는 Git Credential Manager를 호출 합니다.
 

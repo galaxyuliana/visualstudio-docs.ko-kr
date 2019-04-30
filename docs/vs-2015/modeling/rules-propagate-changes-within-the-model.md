@@ -12,12 +12,12 @@ caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 581d6d1f6e5923569f4d98705226d2336978bfc5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 29950be152c140a8315f96f8752b1fa906c3f801
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60067562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442937"
 ---
 # <a name="rules-propagate-changes-within-the-model"></a>규칙으로 모델 내부의 변경 내용 전파
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,7 +73,7 @@ namespace ExampleNamespace
 ```  
 
 > [!NOTE]
->  규칙의 코드는 저장소 내에서 요소의 상태를 변경 해야 즉, 모델 요소, 관계, 모양, 연결선, 다이어그램 또는 해당 속성만 규칙을 변경 해야 합니다. Store 외부의 리소스에 대 한 변경 내용을 전파 하려는 경우 저장소 이벤트를 정의 합니다. 자세한 내용은 참조 하세요. [이벤트 처리기 전파 변경 외부 모델](../modeling/event-handlers-propagate-changes-outside-the-model.md)  
+> 규칙의 코드는 저장소 내에서 요소의 상태를 변경 해야 즉, 모델 요소, 관계, 모양, 연결선, 다이어그램 또는 해당 속성만 규칙을 변경 해야 합니다. Store 외부의 리소스에 대 한 변경 내용을 전파 하려는 경우 저장소 이벤트를 정의 합니다. 자세한 내용은 참조 하세요. [이벤트 처리기 전파 변경 외부 모델](../modeling/event-handlers-propagate-changes-outside-the-model.md)  
 
 ### <a name="to-define-a-rule"></a>규칙을 정의 하려면  
 

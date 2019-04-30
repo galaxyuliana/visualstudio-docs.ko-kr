@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8383e82091ec9cc62f5b08dcc89f1e1e74239030
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fd399bb0d18d4a12493530932705b938a5f6dd67
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63414849"
 ---
 # <a name="customizing-and-extending-a-domain-specific-language"></a>도메인별 언어 사용자 지정 및 확장
 Visual Studio 모델링 및 시각화 SDK (VMSDK)는 모델링 도구를 정의할 수 있습니다 여러 수준을 제공 합니다.
@@ -28,7 +28,7 @@ Visual Studio 모델링 및 시각화 SDK (VMSDK)는 모델링 도구를 정의�
 3. 프로그램 코드를 사용 하 여 모델링 도구를 확장 합니다. VMSDK는 DSL 정의에서 생성된 코드를 사용하여 확장을 쉽게 통합할 수 있도록 설계되었습니다.  자세한 내용은 [도메인 특정 언어에 맞게 코드를 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.
 
 > [!NOTE]
->  DSL 정의 파일을 업데이트 하는 경우 잊지 말고 클릭 **모든 템플릿 변환** 솔루션을 다시 작성 하기 전에 솔루션 탐색기의 도구 모음입니다.
+> DSL 정의 파일을 업데이트 하는 경우 잊지 말고 클릭 **모든 템플릿 변환** 솔루션을 다시 작성 하기 전에 솔루션 탐색기의 도구 모음입니다.
 
 ## <a name="customShapes"></a> 이 섹션에서
 

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 82ada6ac52a9eacbd8ec0dee3940a9231564d79a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: d560cbff64a5134fa58ade4d562cb9fb073af48f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63401529"
 ---
 # <a name="idiasymbolgethassetjump"></a>IDiaSymbol::get_hasSetJump
 함수를 사용 하는 포함 되는지 여부를 지정 하는 플래그를 검색 합니다 [setjmp](/cpp/c-runtime-library/reference/setjmp) 명령 (와 연결를 [longjmp](/cpp/c-runtime-library/reference/longjmp) 명령을 이러한 지역은 C 스타일에 대 한 메서드의 예외 처리).
@@ -39,7 +39,7 @@ HRESULT get_hasSetJump(
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
 ## <a name="requirements"></a>요구 사항
 

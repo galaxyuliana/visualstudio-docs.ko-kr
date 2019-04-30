@@ -33,12 +33,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2d14077ff7547a1b8009ce6621c111174c582a5c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 55ef0a3528afca626c0a1cbf5c10735c9e83fcb4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443869"
 ---
 # <a name="windows-communication-foundation-services-and-wcf-data-services-in-visual-studio"></a>Windows Communication Foundation 서비스 및 Visual Studio의 WCF.NET 데이터 서비스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -137,14 +137,14 @@ Visual Studio는 Windows Communication Foundation (WCF)를 사용 하 여 작업
     ```
 
     > [!NOTE]
-    >  바꿉니다 *ServiceReference* 바꾸고 서비스 참조에 대 한 네임 스페이스를 사용 하 여 *Service1Client* 서비스의 이름입니다.
+    > 바꿉니다 *ServiceReference* 바꾸고 서비스 참조에 대 한 네임 스페이스를 사용 하 여 *Service1Client* 서비스의 이름입니다.
 
 3. 생성자의 오버 로드를 사용 하 여 IntelliSense 목록이 표시 됩니다. 선택 된 `endpointConfigurationName As String` 오버 로드 합니다.
 
 4. 입력 한 다음 오버 로드 `=` *ConfigurationName*여기서 *ConfigurationName* 사용 하려는 끝점의 이름입니다.
 
     > [!NOTE]
-    >  사용 가능한 끝점의 이름을 모르는 경우에 app.config 파일에서 찾을 수 있습니다.
+    > 사용 가능한 끝점의 이름을 모르는 경우에 app.config 파일에서 찾을 수 있습니다.
 
 #### <a name="to-find-the-available-endpoints-for-a-wcf-service"></a>WCF 서비스에 대 한 사용 가능한 끝점을 찾으려면
 
@@ -164,7 +164,7 @@ Visual Studio는 Windows Communication Foundation (WCF)를 사용 하 여 작업
  기본적으로 서비스 참조를 프로젝트에 추가 되 면 메서드를 동기적으로 호출 하 여 구성 됩니다. 설정을 변경 하 여 메서드를 비동기적으로 호출 하려면 동작을 변경할 수는 **서비스 참조 구성** 대화 상자.
 
 > [!NOTE]
->  이 옵션은 서비스별 단위로 설정 됩니다. 서비스에 대 한 하나의 메서드를 비동기적으로 호출 하는 경우 모든 메서드를 비동기적으로 호출 되어야 합니다.
+> 이 옵션은 서비스별 단위로 설정 됩니다. 서비스에 대 한 하나의 메서드를 비동기적으로 호출 하는 경우 모든 메서드를 비동기적으로 호출 되어야 합니다.
 
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]
 

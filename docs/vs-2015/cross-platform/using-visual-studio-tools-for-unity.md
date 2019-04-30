@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: conceptdev
 ms.author: crdun
 manager: jillfra
-ms.openlocfilehash: eed341b5ae43f52e7df35d820012e760166e096f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cd05f5ebad1a07e818e377b90aeb5e137f296cd9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443358"
 ---
 # <a name="using-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -117,7 +117,7 @@ ms.locfileid: "60073431"
      ![이 아이콘은 VSTU가 Unity에 연결되었음을 보여 줍니다.](../cross-platform/media/vstu-connection-connected.png "vstu_connection_connected")  
   
 > [!TIP]
->  플러그 아이콘에 확인 표시가 보이면 Unity 인스턴스에 이미 연결되어 있는 것입니다.  
+> 플러그 아이콘에 확인 표시가 보이면 Unity 인스턴스에 이미 연결되어 있는 것입니다.  
   
  **Unity 인스턴스 선택** 대화 상자는 연결할 수 있는 각 Unity 인스턴스에 대한 일부 정보를 표시합니다.  
   
@@ -136,7 +136,7 @@ ms.locfileid: "60073431"
  이 Unity의 인스턴스에서 통신하는 데 사용하는 UDP 소켓의 포트 번호입니다.  
   
 > [!IMPORTANT]
->  Visual Studio Tools for Unity 및 Unity 인스턴스가 UDP 네트워크 소켓을 통해 통신 중이므로 방화벽이 이를 감지할 수 있습니다. 이 경우 VSTU 및 Unity가 통신할 수 있도록  연결 권한을 부여해야 합니다.  
+> Visual Studio Tools for Unity 및 Unity 인스턴스가 UDP 네트워크 소켓을 통해 통신 중이므로 방화벽이 이를 감지할 수 있습니다. 이 경우 VSTU 및 Unity가 통신할 수 있도록  연결 권한을 부여해야 합니다.  
   
 ### <a name="debugging-your-project-in-a-unity-player"></a> Unity 플레이어에서 프로젝트 디버그  
  Unity 편집기를 실행 중이지 않은 경우 Visual Studio Tools for Unity를 독립 실행형 플레이어에서 실행 중인 Unity 앱으로 직접 연결하거나 플랫폼 특정적인 문제를 디버그할 수 있습니다.  
@@ -154,7 +154,7 @@ ms.locfileid: "60073431"
 - Unity 웹 플레이어의 상황에 맞는 메뉴에서 **릴리스 채널**을 선택하고 **개발** 옵션이 활성화되어 있는지 확인합니다.  
   
   > [!IMPORTANT]
-  >  Unity 4.2 이상 버전에서는 웹 플레이어 상황에 맞는 메뉴에서 **릴리스 채널** 상황에 맞는 메뉴 항목을 사용하려면 상황에 맞는 메뉴를 열 때 **Alt** 키를 누르고 있어야 합니다. 웹 플레이어가 Mac OS X에서 실행 중인 경우 **Option** 키를 대신 누릅니다.  
+  > Unity 4.2 이상 버전에서는 웹 플레이어 상황에 맞는 메뉴에서 **릴리스 채널** 상황에 맞는 메뉴 항목을 사용하려면 상황에 맞는 메뉴를 열 때 **Alt** 키를 누르고 있어야 합니다. 웹 플레이어가 Mac OS X에서 실행 중인 경우 **Option** 키를 대신 누릅니다.  
   
   마지막으로 디버그하려는 Unity 인스턴스에 연결되어 있는지 확인합니다. 그렇게 하는 방법에 대한 내용은 [Unity에 Visual Studio 연결](#connecting-visual-studio-to-unity) 섹션을 참조하세요.  
   
@@ -162,7 +162,7 @@ ms.locfileid: "60073431"
  많은 Unity 개발자가 개발하는 기능을 쉽게 다른 프로젝트와 공유할 수 있도록 코드 구성 요소를 외부 DLL로 작하고 있습니다. Visual Studio Tools for Unity를 통해 Unity 프로젝트에서 이러한 DDL의 코드를 다른 코드와 함께 원활하게 디버그할 수 있습니다.  
   
 > [!NOTE]
->  이때 Visual Studio Tools for Unity는 관리 DLL만 지원합니다. C++에서 작성한 것과 같은 네이티브 코드 DLL의 디버깅은 지원하지 않습니다.  
+> 이때 Visual Studio Tools for Unity는 관리 DLL만 지원합니다. C++에서 작성한 것과 같은 네이티브 코드 DLL의 디버깅은 지원하지 않습니다.  
   
  여기에 설명된 시나리오에서는 사용자에게 소스 코드가 있다고 가정합니다. 즉, 자사 코드를 개발 또는 다시 사용하는 중이거나 타사 라이브러리에 대한 소스 코드가 있으며 이를 Unity 프로젝트에서 DLL로 배포하도록 계획 중이라고 가정합니다. 이 시나리오는 소스 코드가 없는 DLL 디버깅에 대해서는 설명하지 않습니다.  
   

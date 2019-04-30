@@ -16,12 +16,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ee4e0c6fd686398ae89b5c079d6efc1297a19f5d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b23640abec76f04199abe6e64888c641940e7a3f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388338"
 ---
 # <a name="walkthrough-creating-a-code-snippet"></a>연습: 코드 조각 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60109810"
 몇 가지 단계로 코드 조각을 만들 수 있습니다. XML 파일을 만들고, 적절한 요소를 입력하고, 코드를 추가하기만 하면 됩니다. 또한 코드에 참조 및 대체 매개 변수를 추가할 수 있습니다. 코드 조각 관리자(**도구/코드 조각 관리자**)에서 가져오기 단추를 사용하여 Visual Studio 설치에 코드 조각을 추가할 수 있습니다.  
   
 > [!TIP]
->  코드 조각을 보다 쉽게 작성 하는 방법에 대 한 정보를 검색 커뮤니티 도구가 있는 CodePlex 웹 사이트와 같은 [Snippet Editor](http://go.microsoft.com/fwlink/?LinkId=251033)합니다.  
+> 코드 조각을 보다 쉽게 작성 하는 방법에 대 한 정보를 검색 커뮤니티 도구가 있는 CodePlex 웹 사이트와 같은 [Snippet Editor](http://go.microsoft.com/fwlink/?LinkId=251033)합니다.  
   
 ## <a name="snippet-template"></a>코드 조각 템플릿  
  다음은 기본 코드 조각 템플릿입니다.  

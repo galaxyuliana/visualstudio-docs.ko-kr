@@ -8,12 +8,12 @@ ms.assetid: 5161b533-2127-4172-b473-d4ffc76ff05b
 caps.latest.revision: 17
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f45e9c466bcb99dd0fecb00702441d3d97899a52
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4b3c709c2d7a83e4b144232a491dabf205ea46f7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446190"
 ---
 # <a name="quick-start-test-driven-development-with-test-explorer"></a>빠른 시작: 테스트 탐색기를 사용한 테스트 기반 개발
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,10 +62,10 @@ ms.locfileid: "60108986"
    **테스트를 디버그하려면:** 하나 이상의 테스트에 대한 바로 가기 메뉴를 연 다음, **선택한 테스트 디버그**를 선택합니다.  
   
 > [!IMPORTANT]
->  표시되는 결과는 최근 실행에 대한 결과입니다. 결과 색상 막대에는 실행된 테스트에 대한 결과만 표시됩니다. 예를 들어, 여러 테스트를 실행했지만 그 중 일부가 실패하고 성공한 테스트만 실행할 경우 결과 모음에 모두 녹색으로 표시됩니다.  
+> 표시되는 결과는 최근 실행에 대한 결과입니다. 결과 색상 막대에는 실행된 테스트에 대한 결과만 표시됩니다. 예를 들어, 여러 테스트를 실행했지만 그 중 일부가 실패하고 성공한 테스트만 실행할 경우 결과 모음에 모두 녹색으로 표시됩니다.  
   
 > [!NOTE]
->  테스트가 표시되지 않으면 어댑터를 설치하여 테스트 탐색기를 사용 중인 테스트 프레임워크에 연결했는지 확인하십시오. 자세한 내용은 [다른 테스트 프레임 워크를 사용 하 여](/visualstudio/test/getting-started-with-unit-testing#use-a-different-unit-test-framework)입니다.  
+> 테스트가 표시되지 않으면 어댑터를 설치하여 테스트 탐색기를 사용 중인 테스트 프레임워크에 연결했는지 확인하십시오. 자세한 내용은 [다른 테스트 프레임 워크를 사용 하 여](/visualstudio/test/getting-started-with-unit-testing#use-a-different-unit-test-framework)입니다.  
   
 ## <a name="walkthrough"></a> 연습: 단위 테스트를 사용 하 여 메서드 개발  
  이 연습에서는 Microsoft 단위 테스트 프레임워크를 사용하여 C#에서 테스트 메서드를 개발하는 방법을 보여 줍니다. 다른 언어에 맞게 쉽게 조정할 수 있으며 NUnit과 같은 다른 테스트 프레임워크에도 사용할 수 있습니다. 자세한 내용은 [Usa 다른 테스트 프레임 워크](/visualstudio/test/getting-started-with-unit-testing#use-a-different-unit-test-framework)합니다.  
@@ -152,7 +152,7 @@ ms.locfileid: "60108986"
 1. 코드가 모든 경우에 작동한다는 확신을 높이기 위해 보다 광범위한 입력 값 범위를 시도하는 테스트를 추가합니다.  
   
     > [!TIP]
-    >  통과한 기존 테스트를 변경하지 마십시오. 대신에 새 테스트를 추가합니다. 사용자 요구 사항이 변경될 때만 기존 테스트를 변경합니다. 이렇게 하면 코드를 확장할 때 기존 기능이 손실되지 않습니다.  
+    > 통과한 기존 테스트를 변경하지 마십시오. 대신에 새 테스트를 추가합니다. 사용자 요구 사항이 변경될 때만 기존 테스트를 변경합니다. 이렇게 하면 코드를 확장할 때 기존 기능이 손실되지 않습니다.  
   
      테스트 클래스에서 입력 값 범위를 시도하는 다음 테스트를 추가합니다.  
   
@@ -257,7 +257,7 @@ ms.locfileid: "60108986"
 1. 코드를 간소화하되, 테스트를 변경하지 마십시오.  
   
     > [!TIP]
-    >  *리팩터링* 은 코드가 더 잘 수행되도록 하거나 코드를 좀더 쉽게 이해할 수 있도록 하기 위한 변경입니다. 코드의 동작을 변경하기 위한 것이 아니므로 테스트는 변경되지 않습니다.  
+    > *리팩터링* 은 코드가 더 잘 수행되도록 하거나 코드를 좀더 쉽게 이해할 수 있도록 하기 위한 변경입니다. 코드의 동작을 변경하기 위한 것이 아니므로 테스트는 변경되지 않습니다.  
     >   
     >  기능을 확장하는 단계와 별도로 리팩터링 단계를 수행하는 것이 좋습니다. 테스트를 변경되지 않은 상태로 유지하면 리팩터링 중에 실수로 버그가 발생되지 않았다는 확신을 가질 수 있습니다.  
   

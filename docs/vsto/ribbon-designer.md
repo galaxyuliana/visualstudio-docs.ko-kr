@@ -26,12 +26,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8cc47445f9d2024f5d8a83c8f376bc0299b8ea4e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 61c81cef552c18eab5aa737b3460d539abfbdcfc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447004"
 ---
 # <a name="ribbon-designer"></a>리본 디자이너
   리본 디자이너는 시각적 디자인 캔버스입니다. Microsoft Office 응용 프로그램의 리본에 사용자 지정 탭, 그룹 및 컨트롤을 추가 하려면 리본 디자이너를 사용 합니다.
@@ -47,7 +47,7 @@ ms.locfileid: "60103643"
 - [Backstage 보기에 컨트롤 추가](#CustomizingMicrosoftOfficeButton)
 
 > [!NOTE]
->  리본 디자이너를 사용 하 여 수행할 수 없는 작업도 있습니다. 이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 참조 하세요. [리본 개요](../vsto/ribbon-overview.md)합니다.
+> 리본 디자이너를 사용 하 여 수행할 수 없는 작업도 있습니다. 이러한 작업을 수행 하는 방법에 대 한 자세한 내용은 참조 하세요. [리본 개요](../vsto/ribbon-overview.md)합니다.
 
  ![비디오 링크](../vsto/media/playvideo.gif "비디오 링크") 관련된 비디오 데모를 참조 하세요. [어떻게 할까요? Outlook에서 리본을 사용자 지정 리본 디자이너 사용 ](http://go.microsoft.com/fwlink/?LinkID=130312).
 

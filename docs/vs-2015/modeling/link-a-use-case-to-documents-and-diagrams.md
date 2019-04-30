@@ -14,12 +14,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 012ab6828364af155b52bc19d9a83564b2126a6b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ee7657b12741cf65583317ba87bd465e15eb02bb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440974"
 ---
 # <a name="link-a-use-case-to-documents-and-diagrams"></a>문서 및 다이어그램에 사용 사례 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,7 +81,7 @@ ms.locfileid: "60088680"
 3. 선택한 새 아티팩트를 사용 하 여 입력 하거나 URL을 붙여 합니다 **하이퍼링크** 속성입니다.  
   
     > [!NOTE]
-    >  일반적인 작업 영역에서 파일을 선택 하는 파일 경로 제공 하려는 경우 (부터 '\\\\'), 또는 Visual Studio 솔루션 내에 있는 파일입니다. 이렇게 하면 파일 경로가 다른 팀 멤버의 컴퓨터에서 또는 솔루션이 이동된 경우에도 유효한 상태로 유지됩니다. Word 문서와 같은 문서 솔루션에 추가 하려면 솔루션 탐색기에서 솔루션을 마우스 오른쪽 단추로 클릭, 가리킨 **추가** 을 클릭 한 다음 **기존 항목**합니다.  
+    > 일반적인 작업 영역에서 파일을 선택 하는 파일 경로 제공 하려는 경우 (부터 '\\\\'), 또는 Visual Studio 솔루션 내에 있는 파일입니다. 이렇게 하면 파일 경로가 다른 팀 멤버의 컴퓨터에서 또는 솔루션이 이동된 경우에도 유효한 상태로 유지됩니다. Word 문서와 같은 문서 솔루션에 추가 하려면 솔루션 탐색기에서 솔루션을 마우스 오른쪽 단추로 클릭, 가리킨 **추가** 을 클릭 한 다음 **기존 항목**합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [UML 사용 사례 다이어그램: 참조](../modeling/uml-use-case-diagrams-reference.md)   

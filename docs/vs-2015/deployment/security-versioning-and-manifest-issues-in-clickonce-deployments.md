@@ -24,12 +24,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e971271d17c88780ec543ffc12ed4c6ebcc48f23
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a4864d37cb5930075b292ee765bce9b288794019
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444981"
 ---
 # <a name="security-versioning-and-manifest-issues-in-clickonce-deployments"></a>ClickOnce 배포의 보안, 버전 관리 및 매니페스트 문제
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -88,7 +88,7 @@ ms.locfileid: "60043682"
  이동 하거나 응용 프로그램을 복사 하려는 경우 업데이트 해야 합니다 `deploymentProvider` 경로 클라이언트는 실제로 새 위치에서 설치 되도록 합니다. 응용 프로그램을 설치한 경우에 대부분 문제가 됩니다이 경로 업데이트 합니다. 항상 설정 원래 URL을 통해 실행 되는 온라인 응용 프로그램에 대 한는 `deploymentProvider` 선택 사항입니다. 경우 `deploymentProvider` 해당 서비스가 사용 됩니다;이 고, 그렇지 URL 응용 프로그램을 시작 하는 데 사용할 기본 URL로 응용 프로그램 파일을 다운로드 하도록 설정 합니다.  
   
 > [!NOTE]
->  매니페스트를 업데이트 될 때마다 있습니다도 다시 서명 해야 합니다.  
+> 매니페스트를 업데이트 될 때마다 있습니다도 다시 서명 해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 배포 문제 해결](../deployment/troubleshooting-clickonce-deployments.md)   

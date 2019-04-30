@@ -16,18 +16,18 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c9f64e2cebf267e9be1773b37a5827c876961a0d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 8dfde37125b78e2ff8077712321b3a19816582cf
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56609529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387800"
 ---
 # <a name="browse-sharepoint-connections-by-using-server-explorer"></a>서버 탐색기를 사용 하 여 SharePoint 연결 찾아보기
   로컬 SharePoint 연결에서 검색할 수 있습니다 **서버 탐색기**합니다. 이 방법을 사용하면 시스템에서 SharePoint 사이트의 구성 요소를 탐색할 수 있습니다. 목록 정 및 콘텐츠 형식과 같은 SharePoint 사이트 구성 요소 라는 노드에 나타납니다 **SharePoint 연결** 의 트리 뷰에서 **서버 탐색기**합니다. 표시할 **서버 탐색기**, 메뉴 모음에서 **뷰** > **서버 탐색기**합니다. SharePoint 사이트 구성 요소를 표시하는 것 외에도 바로 가기 메뉴의 명령을 사용하여 항목을 제거하거나, 속성을 보거나, 트리 뷰를 새로 고칠 수 있습니다.
 
 > [!IMPORTANT]
->  SharePoint 사이트를 탐색하려면 SharePoint 사이트 컬렉션의 관리자여야 하고 로컬 컴퓨터의 관리자로서 Visual Studio를 실행해야 합니다. 사이트에 표시 되는 고, 그렇지 **서버 탐색기**, 하지만 해당 노드를 확장할 수 없습니다. 사이트 컬렉션의 관리자가 같은지를 확인 하려면 웹 브라우저를 열고에서 사이트를 엽니다는 **사이트 작업** 메뉴 선택 **사이트 사용 권한**를 선택한 후는 **권한: 팀 사이트** 페이지를 선택 합니다 **Site Collection Administrators** 명령을 합니다 **관리** 리본의 그룹. 사이트 컬렉션 관리자는 사용자 이름 텍스트 상자에 표시 됩니다. 경우는 **Site Collection Administrators** 명령이 리본 메뉴의 관리 그룹에 표시 되지 않으면, 사이트 모음에 대해 관리자가 아니라면 및 사이트 관리자에서 적절 한 권한을 받아야 합니다.
+> SharePoint 사이트를 탐색하려면 SharePoint 사이트 컬렉션의 관리자여야 하고 로컬 컴퓨터의 관리자로서 Visual Studio를 실행해야 합니다. 사이트에 표시 되는 고, 그렇지 **서버 탐색기**, 하지만 해당 노드를 확장할 수 없습니다. 사이트 컬렉션의 관리자가 같은지를 확인 하려면 웹 브라우저를 열고에서 사이트를 엽니다는 **사이트 작업** 메뉴 선택 **사이트 사용 권한**를 선택한 후는 **권한: 팀 사이트** 페이지를 선택 합니다 **Site Collection Administrators** 명령을 합니다 **관리** 리본의 그룹. 사이트 컬렉션 관리자는 사용자 이름 텍스트 상자에 표시 됩니다. 경우는 **Site Collection Administrators** 명령이 리본 메뉴의 관리 그룹에 표시 되지 않으면, 사이트 모음에 대해 관리자가 아니라면 및 사이트 관리자에서 적절 한 권한을 받아야 합니다.
 
 ## <a name="server-explorer-nodes"></a>서버 탐색기 노드
  SharePoint 사이트의 모든 구성 요소에서 노드로 표시 되는 **서버 탐색기** 트리 보기 아래에서 **SharePoint 연결**합니다. 기본 SharePoint 사이트에 표시 하는 토론 유형을 나타냅니다는 토론 라는 콘텐츠 형식을 포함 하는 예를 들어 합니다 **토론** SharePoint 사이트의 페이지입니다. 토론 콘텐츠 형식에는 여러 필드가 포함 됩니다. 이러한 필드를 보려면 **서버 탐색기**를 확장 합니다 **ContentTypes** 노드를 차례로 **토론** 노드. 아래에 있는 제목, 본문 및 토론 주제 등의 여러 필드 노드가 됩니다.

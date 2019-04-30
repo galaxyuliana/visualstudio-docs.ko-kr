@@ -28,12 +28,12 @@ caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4d80f8b9a6786d84d645a91dead2ac05a829718b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1277370ca14044755988affc5ccf2bf1fb851a09
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60115070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443204"
 ---
 # <a name="viewing-the-structure-of-code"></a>코드 구조 보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ Visual Studio 프로젝트의 개체 및 멤버, .NET Framework 구성 요소의
  Visual Studio Enterprise가 있는 경우 코드 맵을 사용하여 코드의 구조와 전체 솔루션에서의 해당 종속성을 시각화하고 관심이 있는 코드 부분으로 드릴다운할 수 있습니다. 자세한 내용은 [솔루션 간 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)을 참조하세요.  
   
 > [!NOTE]
->  사용 중인 Visual Studio 버전 및 설정이 IDE의 기능에 영향을 줄 수 있습니다. 이 항목에 설명된 내용과 다를 수 있습니다.  
+> 사용 중인 Visual Studio 버전 및 설정이 IDE의 기능에 영향을 줄 수 있습니다. 이 항목에 설명된 내용과 다를 수 있습니다.  
   
 ## <a name="BKMK_ClassView"></a> 클래스 뷰(Visual Basic, C#, C++)  
  **클래스 뷰**는 **솔루션 탐색기**의 일부로 표시되며, 별도의 창으로 표시됩니다. **클래스 뷰** 창에는 응용 프로그램의 요소가 표시됩니다. 위쪽 창에는 네임스페이스, 형식, 인터페이스, 열거 및 클래스가 표시되고, 아래쪽 창에는 위쪽 창에서 선택한 형식에 속하는 멤버가 표시됩니다. 이 창을 사용하여 소스 코드(또는 요소가 솔루션의 외부에서 정의된 경우 **개체 브라우저**)의 멤버 정의로 이동할 수 있습니다.  

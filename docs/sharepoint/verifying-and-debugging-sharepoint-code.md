@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 7b57e07245631d37594d66ea7907b16efd817b2b
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54869491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63008254"
 ---
 # <a name="verify-and-debug-sharepoint-code"></a>확인 하 고 SharePoint 코드 디버그
 IntelliTrace와 유닛 테스트를 사용하여 SharePoint 솔루션을 보다 쉽게 디버깅하고 솔루션의 각 메서드가 올바르게 작동하도록 할 수 있습니다. Visual Studio에서 SharePoint 프로젝트에 대 한 다른 유형의 프로젝트와 동일한 절차를 수행 하 여 이러한 기능을 사용할 수 있습니다.

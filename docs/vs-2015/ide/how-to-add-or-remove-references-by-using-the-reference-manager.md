@@ -23,12 +23,12 @@ caps.latest.revision: 48
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c7161d8115f8cc99f830293cdf5f957a2264f5a0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8d7d4524f1839179ac253265d95f191caf1c50af
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445680"
 ---
 # <a name="how-to-add-or-remove-references-by-using-the-reference-manager"></a>방법: 참조 추가 또는 제거 참조 관리자를 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,7 +99,7 @@ ms.locfileid: "60041184"
 - 동일한 솔루션에 있는 다른 프로젝트의 출력에 대한 파일 참조를 추가하면 컴파일 오류가 발생할 수 있으므로 이 방법은 사용하지 않는 것이 좋습니다. 대신 **참조 추가** 대화 상자의 **프로젝트** 탭을 사용하여 프로젝트 간 참조를 만듭니다. 이렇게 하면 프로젝트에서 만드는 클래스 라이브러리를 보다 효율적으로 관리할 수 있으므로 개발 팀이 작업하기가 간편해집니다. 자세한 내용은 [끊어진 참조 문제 해결](../ide/troubleshooting-broken-references.md)을 참조하세요.  
   
 - > [!NOTE]
-    >  Visual Studio 2015에서는 한 프로젝트의 대상 .NET Framework 버전이 버전 4.5이고 다른 프로젝트의 대상 버전이 버전 2, 3, 3.5 또는 4.0인 경우 프로젝트 참조 대신 파일 참조가 만들어집니다.  
+    > Visual Studio 2015에서는 한 프로젝트의 대상 .NET Framework 버전이 버전 4.5이고 다른 프로젝트의 대상 버전이 버전 2, 3, 3.5 또는 4.0인 경우 프로젝트 참조 대신 파일 참조가 만들어집니다.  
   
 #### <a name="to-display-an-assembly-in-the-add-reference-dialog-box"></a>참조 추가 대화 상자에서 어셈블리를 표시하려면  
   
@@ -181,7 +181,7 @@ ms.locfileid: "60041184"
  SDK는 Visual Studio에서 단일 구성 요소로 처리하는 파일의 컬렉션입니다. [확장명] 탭에서, **참조 관리자** 대화 상자가 호출된 프로젝트에 적용되는 SDK는 단일 항목으로 나열됩니다. SDK 콘텐츠는 프로젝트에 추가되면 모두 Visual Studio에서 사용되므로 IntelliSense, 도구 상자, 디자이너, 개체 브라우저, 빌드, 배포, 디버깅, 패키지의 SDK 콘텐츠를 활용하기 위해 사용자가 어떠한 추가 작업도 수행할 필요가 없습니다. [확장명] 탭에서 SDK를 표시하는 방법은 [방법: 소프트웨어 개발 키트 만들기](../extensibility/creating-a-software-development-kit.md)를 참조하세요.  
   
 > [!NOTE]
->  프로젝트가 다른 SDK에 종속적인 SDK를 참조하는 경우, Visual Studio에서는 사용자가 수동으로 두 번째 SDK에 대한 참조를 추가하지 않는 한 두 번째 SDK가 사용되지 않습니다. 사용자가 **확장명** 탭에서 SDK를 선택하면, **참조 관리자** 대화 상자를 통해 사용자는 SDK의 이름 및 버전뿐만 아니라 세부 정보 창에서 SDK 종속성의 이름을 나열하여 SDK 종속성을 식별할 수 있습니다. 사용자가 종속성을 알리지 않고 해당 SDK를 추가하는 경우, MSBuild에서는 사용자에게 종속성을 추가하라는 메시지를 표시합니다.  
+> 프로젝트가 다른 SDK에 종속적인 SDK를 참조하는 경우, Visual Studio에서는 사용자가 수동으로 두 번째 SDK에 대한 참조를 추가하지 않는 한 두 번째 SDK가 사용되지 않습니다. 사용자가 **확장명** 탭에서 SDK를 선택하면, **참조 관리자** 대화 상자를 통해 사용자는 SDK의 이름 및 버전뿐만 아니라 세부 정보 창에서 SDK 종속성의 이름을 나열하여 SDK 종속성을 식별할 수 있습니다. 사용자가 종속성을 알리지 않고 해당 SDK를 추가하는 경우, MSBuild에서는 사용자에게 종속성을 추가하라는 메시지를 표시합니다.  
   
  프로젝트 형식이 **확장명**을 지원하지 않으면 **참조 관리자** 대화 상자에 이 탭이 나타나지 않습니다.  
   
@@ -207,7 +207,7 @@ ms.locfileid: "60041184"
     ```  
   
     > [!NOTE]
-    >  이 속성을 추가하면 빌드 실행이 느려질 수 있습니다.  
+    > 이 속성을 추가하면 빌드 실행이 느려질 수 있습니다.  
   
 ## <a name="recent"></a>최근 항목  
  어셈블리, COM, Windows 및 찾아보기 탭 각각은 최근에 프로젝트에 추가된 구성 요소의 목록을 열거하는 최근 항목 탭을 지원합니다.  

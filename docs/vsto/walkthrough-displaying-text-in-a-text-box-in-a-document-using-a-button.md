@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f6a9b62c62b863448bb1333b162c6706c48cd72b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1b5a4152d655dd36eb258ff6b378bf79f87123a8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443833"
 ---
 # <a name="walkthrough-display-text-in-a-text-box-in-a-document-using-a-button"></a>연습: 단추를 사용 하 여 문서에서 텍스트 상자에 텍스트를 표시 합니다.
   이 연습에서는 Microsoft Office Word에 대한 문서 수준 사용자 지정에서 단추 및 텍스트 상자를 사용하는 방법을 보여 줍니다.
@@ -60,7 +60,7 @@ ms.locfileid: "60071761"
 2. **공용 컨트롤** 탭의 **도구 상자**, 끌어를 <xref:Microsoft.Office.Tools.Word.Controls.TextBox> 컨트롤을 문서.
 
    > [!NOTE]
-   >  Word에서는 기본적으로 컨트롤이 텍스트와 인라인으로 놓입니다. 방식으로 컨트롤을 수정할 수 있습니다 및 기본값을 변경 하 여 도형 개체가 삽입 되는 **편집** 탭의 **옵션** Word에서 대화 상자.
+   > Word에서는 기본적으로 컨트롤이 텍스트와 인라인으로 놓입니다. 방식으로 컨트롤을 수정할 수 있습니다 및 기본값을 변경 하 여 도형 개체가 삽입 되는 **편집** 탭의 **옵션** Word에서 대화 상자.
 
 3. **보기** 메뉴에서 **속성 창**을 클릭합니다.
 

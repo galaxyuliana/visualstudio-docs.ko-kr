@@ -18,12 +18,12 @@ caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5b7576faf84b564e1ea10ef9def69819e5c77fa6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e0ef4264629e40380f12fb07623bb9274547713c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441581"
 ---
 # <a name="how-to-specify-which-files-are-published-by-clickonce"></a>방법: ClickOnce를 통해 게시할 파일 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -95,7 +95,7 @@ ms.locfileid: "60046957"
 4. 에 **응용 프로그램 파일** 대화 상자를 선택 합니다 **그룹** 새 그룹에 포함 하려는 파일에 대 한 필드.  
   
     > [!NOTE]
-    >  파일이 있어야 합니다 **빌드 작업** 속성이로 설정 **콘텐츠** 파일 이름에 표시 되기까지 **응용 프로그램 파일** 대화 상자.  
+    > 파일이 있어야 합니다 **빌드 작업** 속성이로 설정 **콘텐츠** 파일 이름에 표시 되기까지 **응용 프로그램 파일** 대화 상자.  
   
 5. 에 **다운로드 그룹** 필드를 선택한  **\<새로 만들기... >** 드롭 다운 목록에서.  
   
@@ -114,7 +114,7 @@ ms.locfileid: "60046957"
 5. 에 **다운로드 그룹** 필드에서 드롭다운 목록에서 그룹을 선택 합니다.  
   
     > [!NOTE]
-    >  변경할 수 없습니다는 **다운로드 그룹** 실행할 응용 프로그램에 필요한 파일에 대 한 합니다.  
+    > 변경할 수 없습니다는 **다운로드 그룹** 실행할 응용 프로그램에 필요한 파일에 대 한 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   

@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 99dbc928834cddade1c434f9d5d5d8e68c40825b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 085d2aff138be1d6beecc5e0895437e92d88da87
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444998"
 ---
 # <a name="walkthrough-highlight-text"></a>연습: 텍스트를 강조 표시
 Managed Extensibility Framework (MEF) 구성 요소 파트를 만들어 편집기로 다양 한 시각 효과 추가할 수 있습니다. 이 연습에서는 텍스트 파일에서 현재 단어의 모든 발생을 강조 표시 하는 방법을 보여 줍니다. 단어 텍스트 파일에서 한 번 이상 발생 하 고 한 번에 캐럿을 배치 하는 경우 모든 강조 표시 됩니다.
@@ -351,7 +351,7 @@ Managed Extensibility Framework (MEF) 구성 요소 파트를 만들어 편집�
  구현 해야 하 태거를 만들려면를 <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>입니다. 이 클래스는 MEF 구성 요소 부분 이므로이 확장을 인식할 수 있도록 올바른 특성을 설정 해야 합니다.
 
 > [!NOTE]
->  MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](/dotnet/framework/mef/index)합니다.
+> MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](/dotnet/framework/mef/index)합니다.
 
 ### <a name="to-create-a-tagger-provider"></a>태거 공급자를 만들려면
 

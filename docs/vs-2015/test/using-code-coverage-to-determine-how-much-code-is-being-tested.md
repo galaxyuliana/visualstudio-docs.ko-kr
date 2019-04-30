@@ -10,12 +10,12 @@ ms.assetid: 800fc739-acd2-4242-84cb-1d83b4d82cf9
 caps.latest.revision: 38
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9af0a3dc7c08a415f320ce3560cdfc23c462d4c7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f539fd0a20bf852b04b5a41aff829cdcf0e52cf3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60087523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445919"
 ---
 # <a name="using-code-coverage-to-determine-how-much-code-is-being-tested"></a>코드 검사를 사용하여 테스트할 코드 범위 결정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "60087523"
 3. 결과에 검사가 낮게 표시되는 경우, 코드에서 실행되지 않은 부분을 확인한 다음 검사할 추가 테스트를 작성합니다. 개발 팀을 일반적으로 약 80%의 코드 검사를 목표로 합니다. 경우에 따라 더 낮은 검사도 허용됩니다. 예를 들어, 일부 코드가 표준 템플릿에서 생성된 경우 낮은 검사가 허용됩니다.  
   
 > [!TIP]
->  정확한 결과를 얻으려면  
+> 정확한 결과를 얻으려면  
 > 
 > - 컴파일러 최적화가 해제되었는지 확인하세요.  
 > 
@@ -240,7 +240,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
 - 제외는 컴파일러 옵션을 설정하거나 `#pragma managed(off)`를 사용하여 관리되지 않는(네이티브) 코드로 컴파일해야 합니다.  
   
 > [!NOTE]
->  C++/CLI 코드에서 함수를 제외하려면 함수에 `[System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverage]` 특성을 적용합니다. C#의 경우에도 동일합니다.  
+> C++/CLI 코드에서 함수를 제외하려면 함수에 `[System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverage]` 특성을 적용합니다. C#의 경우에도 동일합니다.  
   
 ### <a name="including-or-excluding-additional-elements"></a>추가 요소 포함 또는 제외  
  코드 검사 분석은 로드되어 있고 .pdb 파일을 .dll 또는 .exe 파일과 같은 디렉터리에서 사용할 수 있는 어셈블리에서만 수행할 수 있습니다. 따라서 경우에 따라 적절한 .pdb 파일의 사본을 가져와서 포함된 어셈블리 집합을 확장할 수 있습니다.  

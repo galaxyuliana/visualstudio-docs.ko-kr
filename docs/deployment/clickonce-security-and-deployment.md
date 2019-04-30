@@ -17,15 +17,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 29659af4fa05c6556656a0a11f13377119f9df9e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 86c69070a6c954ccf01581690e11237fea4e52c7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612909"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406759"
 ---
 # <a name="clickonce-security-and-deployment"></a>ClickOnce 보안 및 배포
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 게시 및 Visual Basic 및 시각적 개체를 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 C#입니다. Visual c + + 응용 프로그램을 배포 하는 방법에 대 한 내용은 [Visual c + + 응용 프로그램에 대 한 ClickOnce 배포](/cpp/ide/clickonce-deployment-for-visual-cpp-applications)합니다.
+[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 게시 및 Visual Basic 및 Visual C#을 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 합니다. 시각적 개체를 배포 하는 방법은 C++ 응용 프로그램을 참조 하세요 [시각적 개체에 대 한 ClickOnce 배포 C++ 응용 프로그램](/cpp/ide/clickonce-deployment-for-visual-cpp-applications)합니다.
 
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포는 배포에서 세 가지 주요 문제를 극복 합니다.
 
@@ -54,13 +54,13 @@ ms.locfileid: "56612909"
  코드 액세스 보안에 보호 된 리소스에 있는 코드의 액세스를 제한 하는 데 도움이 됩니다. 대부분의 경우에서 사용 권한을 제한 하도록 인터넷 또는 로컬 인트라넷 영역을 선택할 수 있습니다. 사용 합니다 **보안** 페이지에 **ProjectDesigner** 응용 프로그램에 대 한 적절 한 영역을 요청 하려면. 또한 최종 사용자 환경을 에뮬레이트 하려면 제한 된 권한으로 응용 프로그램을 디버깅할 수 있습니다. 자세한 내용은 [ClickOnce 애플리케이션의 코드 액세스 보안](../deployment/code-access-security-for-clickonce-applications.md)을 참조하세요.
 
 ### <a name="clickonce-trust-prompt"></a>ClickOnce 신뢰 프롬프트
- 영역에서 허용 하는 보다 많은 권한을 요청 하는 응용 프로그램을 하는 경우 최종 사용자 신뢰 결정을 내리는 데 묻는 수 있습니다. 최종 사용자는 ClickOnce 응용 프로그램 같은 Windows Forms 응용 프로그램, Windows Presentation Foundation 응용 프로그램, 콘솔 응용 프로그램, XAML 브라우저 응용 프로그램 및 Office 솔루션 실행 하도록 신뢰할 수 있는 경우 결정할 수 있습니다. 자세한 내용은 [방법: ClickOnce 신뢰 프롬프트 동작 구성](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)합니다.
+ 영역에서 허용 하는 보다 많은 권한을 요청 하는 응용 프로그램을 하는 경우 최종 사용자 신뢰 결정을 내리는 데 묻는 수 있습니다. 최종 사용자는 ClickOnce 응용 프로그램 같은 Windows Forms 응용 프로그램, Windows Presentation Foundation 응용 프로그램, 콘솔 응용 프로그램, XAML 브라우저 응용 프로그램 및 Office 솔루션 실행 하도록 신뢰할 수 있는 경우 결정할 수 있습니다. 자세한 내용은 [방법: ClickOnce 신뢰 프롬프트 동작 구성](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)을 참조하세요.
 
 ## <a name="how-clickonce-deployment-works"></a>ClickOnce 배포 작동 방식
  핵심 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 아키텍처는 기반으로 두 개의 XML 매니페스트 파일: 응용 프로그램 매니페스트 및 배포 매니페스트 합니다. 파일을 사용 하 여 ClickOnce 응용 프로그램에서 설치 되어 있는, 업데이트 하는 방법 및 업데이트할 시기에 대해 설명 합니다.
 
-### <a name="publish-clickonce-applications"></a>ClickOnce 애플리케이션 게시
- 응용 프로그램 매니페스트는 응용 프로그램 자체를 설명합니다. 어셈블리, 종속성 및 응용 프로그램, 필요한 권한, 그리고 업데이트 사용할 수 있는 위치를 구성 하는 파일을 포함 합니다. Visual Studio 또는 매니페스트 생성 및 편집 도구에서 게시 마법사를 사용 하 여 응용 프로그램 매니페스트를 작성 하는 응용 프로그램 개발자 (*Mage.exe*)에 [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]합니다. 자세한 내용은 [방법: ClickOnce 응용 프로그램 게시 마법사를 사용 하 여 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)합니다.
+### <a name="publish-clickonce-applications"></a>ClickOnce 응용 프로그램 게시
+ 응용 프로그램 매니페스트는 응용 프로그램 자체를 설명합니다. 어셈블리, 종속성 및 응용 프로그램, 필요한 권한, 그리고 업데이트 사용할 수 있는 위치를 구성 하는 파일을 포함 합니다. Visual Studio 또는 매니페스트 생성 및 편집 도구에서 게시 마법사를 사용 하 여 응용 프로그램 매니페스트를 작성 하는 응용 프로그램 개발자 (*Mage.exe*)에 [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]합니다. 자세한 내용은 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.
 
  배포 매니페스트는 애플리케이션이 배포되는 방법을 기술합니다. 이 응용 프로그램 매니페스트의 위치 및 클라이언트를 실행 해야 하는 응용 프로그램의 버전을 포함 합니다.
 
@@ -75,13 +75,13 @@ ms.locfileid: "56612909"
  응용 프로그램 사용자에 추가할 수 있습니다 **시작** 메뉴 및 합니다 **프로그램 추가 / 제거** 그룹에 **제어판**. 다른 배포 기술과 달리 아무 것도 추가 합니다 **Program Files** 설치에는 폴더 또는 레지스트리 및 관리 권한이 없는 필요
 
 > [!NOTE]
->  에 추가 되 고 응용 프로그램을 방지할 수 이기도 합니다 **시작** 메뉴 및 **프로그램 추가 / 제거** 그룹, 웹 응용 프로그램 처럼 적용 하므로. 자세한 내용은 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)합니다.
+> 에 추가 되 고 응용 프로그램을 방지할 수 이기도 합니다 **시작** 메뉴 및 **프로그램 추가 / 제거** 그룹, 웹 응용 프로그램 처럼 적용 하므로. 자세한 내용은 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)합니다.
 
 ### <a name="update-clickonce-applications"></a>ClickOnce 응용 프로그램 업데이트
  응용 프로그램 개발자가 응용 프로그램의 업데이트 된 버전을 만들 때 새 응용 프로그램 매니페스트를 생성 하며 배포 위치에 파일 복사-일반적으로 형제 폴더로 원래 응용 프로그램 배포. 관리자는 애플리케이션의 새 버전 위치를 가리키도록 배포 매니페스트를 업데이트합니다.
 
 > [!NOTE]
->  합니다 **게시 마법사** 이러한 단계를 수행 하려면 Visual Studio에서 사용할 수 있습니다.
+> 합니다 **게시 마법사** 이러한 단계를 수행 하려면 Visual Studio에서 사용할 수 있습니다.
 
  배포 위치 외에도 배포 매니페스트에는 애플리케이션이 업데이트된 버전을 확인할 수 있는 업데이트 위치(웹 페이지 또는 네트워크 파일 공유)가 포함됩니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] **게시** 속성은 응용 프로그램 업데이트를 확인 하는 시기 및 빈도 지정 하는 데 사용 됩니다. 업데이트 동작은 배포 매니페스트에서 지정할 수 있습니다 또는 이용 하 여 응용 프로그램의 사용자 인터페이스에서 사용자 선택으로 제공할 수 있습니다는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] Api. 또한 **게시** 속성을 사용하여 업데이트를 강제로 수행하거나 이전 버전으로 롤백하도록 지정할 수도 있습니다. 자세한 내용은 [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)을 참조하세요.
 
@@ -94,8 +94,8 @@ ms.locfileid: "56612909"
 |도구|설명|
 |----------|-----------------|
 |[프로젝트 디자이너, 보안 페이지](../ide/reference/security-page-project-designer.md)|응용 프로그램 및 배포 매니페스트에 서명 합니다.|
-|[프로젝트 디자이너, 게시 페이지](../ide/reference/publish-page-project-designer.md)|생성 하 고 Visual Basic 및 시각적 개체에 대 한 응용 프로그램 및 배포 매니페스트를 편집 C# 응용 프로그램입니다.|
-|[*Mage.exe*(매니페스트 생성 및 편집 도구)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)|Visual Basic의 경우 시각적 개체에 대 한 응용 프로그램 및 배포 매니페스트를 생성 C#, 및 Visual c + + 응용 프로그램입니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.<br /><br /> 일괄 처리 스크립트 및 명령 프롬프트에서 실행할 수 있습니다.|
+|[프로젝트 디자이너, 게시 페이지](../ide/reference/publish-page-project-designer.md)|생성 하 고 Visual Basic 및 Visual C# 응용 프로그램에 대 한 응용 프로그램 및 배포 매니페스트를 편집 합니다.|
+|[*Mage.exe*(매니페스트 생성 및 편집 도구)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)|Visual Basic의 경우 시각적 개체에 대 한 응용 프로그램 및 배포 매니페스트를 생성 C#, 및 시각적 C++ 응용 프로그램입니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.<br /><br /> 일괄 처리 스크립트 및 명령 프롬프트에서 실행할 수 있습니다.|
 |[*MageUI.exe*(매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)|생성 하 고 응용 프로그램 및 배포 매니페스트를 편집 합니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.|
 |[GenerateApplicationManifest 작업](../msbuild/generateapplicationmanifest-task.md)|응용 프로그램 매니페스트를 생성합니다.<br /><br /> MSBuild에서 실행할 수 있습니다. 자세한 내용은 [MSBuild 참조](../msbuild/msbuild-reference.md)를 참조하세요.|
 |[GenerateDeploymentManifest 작업](../msbuild/generatedeploymentmanifest-task.md)|배포 매니페스트를 생성합니다.<br /><br /> MSBuild에서 실행할 수 있습니다. 자세한 내용은 [MSBuild 참조](../msbuild/msbuild-reference.md)를 참조하세요.|
@@ -109,7 +109,7 @@ ms.locfileid: "56612909"
 |Internet Explorer|2.0, 3.0, 3.5, 3.5 SP1, 4|
 |Firefox|2.0 SP1, 3.5 SP1, 4|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Windows Vista에서 ClickOnce 배포](../deployment/clickonce-deployment-on-windows-vista.md)
 - [ClickOnce 애플리케이션 게시](../deployment/publishing-clickonce-applications.md)
 - [ClickOnce 애플리케이션 보안](../deployment/securing-clickonce-applications.md)

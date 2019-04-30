@@ -11,12 +11,12 @@ caps.latest.revision: 17
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: c19ba7ea458f7922f5e82e3277b9ab305090a5cb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 57aa9011043ab30e465e03beffe54e6abcc706a8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444586"
 ---
 # <a name="install-visual-c-for-cross-platform-mobile-development"></a>플랫폼 간 모바일 개발용 Visual C++ 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "60113081"
 - 설치 요구 사항은 [Visual Studio 2015 시스템 요구 사항](https://www.visualstudio.com/visual-studio-2015-system-requirements-vs)을 참조하세요.  
   
   > [!IMPORTANT]
-  >  Windows 7 또는 Windows Server 2008 R2를 사용하는 경우 클래식 Windows 애플리케이션용 코드, Android Native Activity 앱 및 라이브러리, iOS용 앱 및 코드 라이브러리를 개발할 수 있지만 Windows 스토어 또는 유니버설 Windows 앱은 개발할 수 없습니다.  
+  > Windows 7 또는 Windows Server 2008 R2를 사용하는 경우 클래식 Windows 애플리케이션용 코드, Android Native Activity 앱 및 라이브러리, iOS용 앱 및 코드 라이브러리를 개발할 수 있지만 Windows 스토어 또는 유니버설 Windows 앱은 개발할 수 없습니다.  
   
   특정 디바이스 플랫폼용 앱을 빌드하려는 경우에는 다음의 몇 가지 요구 사항이 추가로 적용됩니다.  
   
@@ -75,12 +75,12 @@ ms.locfileid: "60113081"
 4. 설치가 완료되면 설치 관리자를 닫고 컴퓨터를 다시 시작합니다. 타사 구성 요소에 대한 일부 설정 작업은 컴퓨터가 다시 시작된 다음에야 적용됩니다.  
   
     > [!IMPORTANT]
-    >  모든 항목을 정상적으로 설치하려면 컴퓨터를 다시 시작해야 합니다.  
+    > 모든 항목을 정상적으로 설치하려면 컴퓨터를 다시 시작해야 합니다.  
   
      Microsoft Visual Studio Emulator for Android 구성 요소가 설치되지 않으면 컴퓨터에서 Hyper-V가 사용하도록 설정되지 않았을 수 있습니다. **Windows 기능 사용/사용 안 함** 제어판 앱을 사용하여 Hyper-V를 사용하도록 설정한 다음 Visual Studio 설치 관리자를 다시 실행하세요.  
   
     > [!NOTE]
-    >  사용 중인 컴퓨터 또는 Windows 버전에서 Hyper-V를 지원하지 않는 경우 Microsoft Visual Studio Emulator for Android 구성 요소를 사용할 수 없습니다. Windows Home Edition에는 Hyper-V 지원이 포함되지 않습니다.  
+    > 사용 중인 컴퓨터 또는 Windows 버전에서 Hyper-V를 지원하지 않는 경우 Microsoft Visual Studio Emulator for Android 구성 요소를 사용할 수 없습니다. Windows Home Edition에는 Hyper-V 지원이 포함되지 않습니다.  
   
 5. Visual Studio를 엽니다. 처음으로 Visual Studio를 실행하는 경우 구성 및 로그인하는 데 약간의 시간이 걸릴 수 있습니다. Visual Studio가 준비되면 **도구** 메뉴에서 **확장 및 업데이트**, **업데이트**를 차례로 선택합니다. 플랫폼 간 모바일 개발용 Visual C++ 또는 Android용 Microsoft Visual Studio 에뮬레이터에 사용할 수 있는 Visual Studio 업데이트가 있는 경우 설치합니다.  
   
@@ -91,7 +91,7 @@ ms.locfileid: "60113081"
  Visual C++ 모바일 개발 옵션을 설치할 때 Visual Studio 설치 관리자를 사용하여 타사 종속성을 하나 이상 설치하지 않는 경우 나중에 [Install the tools](#InstallTheTools)의 단계를 사용하여 설치할 수 있습니다. Visual Studio와 독립적으로 설치하거나 업데이트할 수도 있습니다.  
   
 > [!CAUTION]
->  Java를 제외한 종속성은 원하는 순서대로 설치할 수 있습니다. JDK는 Android SDK를 설치하기 전에 설치하고 구성해야 합니다.  
+> Java를 제외한 종속성은 원하는 순서대로 설치할 수 있습니다. JDK는 Android SDK를 설치하기 전에 설치하고 구성해야 합니다.  
   
  다음 정보에 따라 아래 링크를 통해 종속성을 수동으로 설치할 수 있습니다.  
   

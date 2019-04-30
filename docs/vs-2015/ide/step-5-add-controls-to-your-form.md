@@ -9,12 +9,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3eb3e244fba620913581330c74825140c9dd76d7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e05e8c313e6c2345964386c9c4f08c1bb6f16089
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442551"
 ---
 # <a name="step-5-add-controls-to-your-form"></a>5단계: 폼에 컨트롤 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,14 +37,14 @@ ms.locfileid: "60081582"
 PictureBox 작업  
   
     > [!NOTE]
-    >  TableLayoutPanel에 실수로 잘못된 컨트롤 형식을 추가한 경우 삭제할 수 있습니다. 컨트롤을 마우스 오른쪽 단추로 클릭하고 상황에 맞는 메뉴에서 **삭제**를 선택합니다. 메뉴 모음을 사용하여 폼에서 컨트롤을 제거할 수도 있습니다. 메뉴 모음에서 **편집**, **실행 취소**를 선택하거나 **편집**, **삭제**를 선택합니다.  
+    > TableLayoutPanel에 실수로 잘못된 컨트롤 형식을 추가한 경우 삭제할 수 있습니다. 컨트롤을 마우스 오른쪽 단추로 클릭하고 상황에 맞는 메뉴에서 **삭제**를 선택합니다. 메뉴 모음을 사용하여 폼에서 컨트롤을 제거할 수도 있습니다. 메뉴 모음에서 **편집**, **실행 취소**를 선택하거나 **편집**, **삭제**를 선택합니다.  
   
 5. **부모 컨테이너에서 도킹** 링크를 선택합니다. 이렇게 하면 PictureBox **Dock** 속성이 자동으로 **채우기**로 설정됩니다. 이를 확인하려면 PictureBox 컨트롤을 클릭하여 선택하고 **속성** 창으로 이동하여 **Dock** 속성이 **채우기**로 설정되었는지 확인합니다.  
   
 6. **ColumnSpan** 속성을 변경하여 PictureBox가 두 열에 모두 걸치도록 합니다. PictureBox 컨트롤을 선택하고 **ColumnSpan** 속성을 **2**로 설정합니다. 또한 PictureBox가 비어 있는 경우 빈 프레임을 표시하려면 **BorderStyle** 속성을 **Fixed3D**로 설정합니다.  
   
     > [!NOTE]
-    >  PictureBox의 **ColumnSpan** 속성이 표시되지 않는 경우 PictureBox가 TableLayoutPanel이 아닌 폼에 추가되었을 수 있습니다. 이 문제를 해결하려면 PictureBox를 선택해서 삭제하고, TableLayoutPanel을 선택한 후 새 PictureBox를 추가합니다.  
+    > PictureBox의 **ColumnSpan** 속성이 표시되지 않는 경우 PictureBox가 TableLayoutPanel이 아닌 폼에 추가되었을 수 있습니다. 이 문제를 해결하려면 PictureBox를 선택해서 삭제하고, TableLayoutPanel을 선택한 후 새 PictureBox를 추가합니다.  
   
 7. 폼에서 TableLayoutPanel을 선택한 다음 **CheckBox** 컨트롤을 폼에 추가합니다. 도구 상자에서 **CheckBox** 항목을 두 번 클릭하여 새 CheckBox 컨트롤을 테이블의 사용 가능한 다음 셀에 추가합니다. PictureBox가 TableLayoutPanel의 처음 두 셀을 차지하므로 CheckBox 컨트롤은 왼쪽 아래 셀에 추가됩니다. 다음 그림과 같이 **Text** 속성을 선택하고 단어 **늘이기**를 입력합니다.  
   
@@ -54,7 +54,7 @@ Stretch 속성이 있는 TextBox 컨트롤
 8. 폼에서 TableLayoutPanel을 선택하고 도구 상자에서 TableLayoutPanel 컨트롤이 있는 **컨테이너** 그룹으로 이동한 다음 **FlowLayoutPanel** 항목을 두 번 클릭하여 PictureBox의 마지막 셀(오른쪽 맨 아래)에 새 컨트롤을 추가합니다. 그런 다음 FlowLayoutPanel의 검정색 삼각형 작업 목록에서 **부모 컨테이너에서 도킹**을 선택하거나 FlowLayoutPanel의 **Dock** 속성을 **채우기**로 설정하여 FlowLayoutPanel을 TableLayoutPanel에 도킹합니다.  
   
     > [!NOTE]
-    >  FlowLayoutPanel은 다른 컨트롤을 줄 맞춰 순서대로 정렬하는 컨트롤입니다. FlowLayoutPanel의 크기를 조정하면 공간이 충분한 경우 하나의 행에 모든 컨트롤이 레이아웃됩니다. 그렇지 않은 경우 하나씩 쌓아올리는 방식으로 순서대로 정렬됩니다. FlowLayoutPanel을 사용하여 네 개의 단추를 수용합니다. 단추를 추가할 때 하나씩 쌓아올리는 방식으로 배열되는 경우 단추를 추가하기 전에 FlowLayoutPanel이 선택되었는지 확인하십시오. 위에서 각 셀에는 하나의 컨트롤만 있을 수 있다고 언급했지만 TableLayoutPanel의 오른쪽 아래 셀에는 네 개의 단추 컨트롤이 있습니다. 다른 컨트롤을 포함하는 컨트롤을 셀에 배치할 수 있기 때문입니다. 이러한 유형의 컨트롤을 컨테이너라고 하며, FlowLayoutPanel은 컨테이너입니다.  
+    > FlowLayoutPanel은 다른 컨트롤을 줄 맞춰 순서대로 정렬하는 컨트롤입니다. FlowLayoutPanel의 크기를 조정하면 공간이 충분한 경우 하나의 행에 모든 컨트롤이 레이아웃됩니다. 그렇지 않은 경우 하나씩 쌓아올리는 방식으로 순서대로 정렬됩니다. FlowLayoutPanel을 사용하여 네 개의 단추를 수용합니다. 단추를 추가할 때 하나씩 쌓아올리는 방식으로 배열되는 경우 단추를 추가하기 전에 FlowLayoutPanel이 선택되었는지 확인하십시오. 위에서 각 셀에는 하나의 컨트롤만 있을 수 있다고 언급했지만 TableLayoutPanel의 오른쪽 아래 셀에는 네 개의 단추 컨트롤이 있습니다. 다른 컨트롤을 포함하는 컨트롤을 셀에 배치할 수 있기 때문입니다. 이러한 유형의 컨트롤을 컨테이너라고 하며, FlowLayoutPanel은 컨테이너입니다.  
   
 ### <a name="to-add-buttons"></a>단추를 추가하려면  
   
@@ -63,14 +63,14 @@ Stretch 속성이 있는 TextBox 컨트롤
 2. 일반적으로 도구 상자를 사용하여 다른 단추를 추가하지만 이번에는 **button2**를 선택하고 메뉴 모음에서 **편집**, **복사**를 선택하거나 Ctrl+C를 누릅니다. 메뉴 모음에서 **편집**, **붙여넣기**를 선택하거나 Ctrl+V를 눌러 단추의 복사본을 붙여넣습니다. 다시 한 번 붙여넣습니다. 이제 IDE에서 FlowLayoutPanel에 **button3**과 **button4**를 추가했습니다.  
   
     > [!NOTE]
-    >  모든 컨트롤을 복사하여 붙여넣을 수 있습니다. IDE는 논리적인 방법으로 새 컨트롤의 이름을 지정하고 배치합니다. 컨테이너에 컨트롤을 붙여넣으면 IDE는 이 컨트롤을 배치할 논리적인 다음 공간을 선택합니다.  
+    > 모든 컨트롤을 복사하여 붙여넣을 수 있습니다. IDE는 논리적인 방법으로 새 컨트롤의 이름을 지정하고 배치합니다. 컨테이너에 컨트롤을 붙여넣으면 IDE는 이 컨트롤을 배치할 논리적인 다음 공간을 선택합니다.  
   
 3. 첫 번째 단추를 선택하고 **Text** 속성을 **그림 표시**로 설정합니다. 그런 후 다음 세 단추의 **Text** 속성을 **그림 지우기**, **배경색 설정** 및 **닫기**로 설정합니다.  
   
 4. 다음 단계에서는 단추의 크기를 지정하고 패널의 오른쪽에 정렬되도록 배치합니다. FlowLayoutPanel을 선택하고 **FlowDirection** 속성을 확인합니다. 이 속성을 **RightToLeft**로 변경합니다. 속성을 이렇게 변경하면 즉시 단추가 셀의 오른쪽에 정렬되며 순서가 유지되어 **그림 표시** 단추가 오른쪽에 표시됩니다.  
   
     > [!NOTE]
-    >  단추의 순서가 잘못되어 있는 경우 FlowLayoutPanel에서 단추를 끌어서 원하는 순서대로 다시 배치할 수 있습니다. 단추를 선택하여 왼쪽 또는 오른쪽으로 끌어 놓을 수 있습니다.  
+    > 단추의 순서가 잘못되어 있는 경우 FlowLayoutPanel에서 단추를 끌어서 원하는 순서대로 다시 배치할 수 있습니다. 단추를 선택하여 왼쪽 또는 오른쪽으로 끌어 놓을 수 있습니다.  
   
 5. **닫기** 단추를 클릭하여 선택합니다. Ctrl 키를 누른 채로 다른 세 개의 단추를 선택하여 모든 단추가 선택되도록 합니다. 모든 단추가 선택된 상태로 **속성** 창으로 이동하여 **AutoSize** 속성까지 위로 스크롤합니다. 이 속성은 단추의 모든 텍스트에 맞게 자동으로 단추 크기가 조정되도록 합니다. 이 속성을 **true**로 설정합니다. 이제 단추가 적절한 크기로 조정되고 올바른 순서로 정렬됩니다. 네 개의 단추가 모두 선택되어 있는 동안에는 네 단추의 **AutoSize** 속성을 동시에 변경할 수 있습니다. 다음 그림에서는 네 개의 단추를 보여 줍니다.  
   

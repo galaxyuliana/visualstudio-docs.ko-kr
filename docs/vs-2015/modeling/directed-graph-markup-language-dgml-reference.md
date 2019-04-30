@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9330a41d0888532640774891386011f6b8dbfc24
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0de96057326a9e4b6a64865ef34972d5542aff30
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442993"
 ---
 # <a name="directed-graph-markup-language-dgml-reference"></a>DGML(Directed Graph Markup Language) 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ DGML(Directed Graph Markup Language)은 시각화에 사용되고 복잡성 분�
  일부 버전의 Visual Studio DGML 기능의 하위 집합만 지원를 참조 하세요 [아키텍처 및 모델링 도구에 대 한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)합니다.  
   
 > [!NOTE]
->  .dgml 파일을 편집하는 경우 IntelliSense를 사용하면 각 요소 및 요소 값에 사용할 수 있는 특성을 식별할 수 있습니다. 특성에 색을 지정하려면 "Blue"와 같은 일반적인 색의 이름 또는 "#ffa0b1c3"과 같은 ARGB 16진수 값을 사용합니다. DGML은 WPF(Windows Presentation Foundation) 색 정의 형식의 일부를 사용합니다. 자세한 내용은 [Colors 클래스](http://go.microsoft.com/fwlink/?LinkId=182345)합니다.  
+> .dgml 파일을 편집하는 경우 IntelliSense를 사용하면 각 요소 및 요소 값에 사용할 수 있는 특성을 식별할 수 있습니다. 특성에 색을 지정하려면 "Blue"와 같은 일반적인 색의 이름 또는 "#ffa0b1c3"과 같은 ARGB 16진수 값을 사용합니다. DGML은 WPF(Windows Presentation Foundation) 색 정의 형식의 일부를 사용합니다. 자세한 내용은 [Colors 클래스](http://go.microsoft.com/fwlink/?LinkId=182345)합니다.  
   
 ## <a name="DGML"></a> DGML 구문  
  다음 표에서는 DGML에서 사용되는 요소 종류에 대해 설명합니다.  
@@ -70,7 +70,7 @@ DGML(Directed Graph Markup Language)은 시각화에 사용되고 복잡성 분�
    이 요소는 맵의 노드를 정의하는 `<Node/>` 요소 목록을 포함하는 선택적 요소입니다. 자세한 내용은 `<Node/>` 요소를 참조하십시오.  
   
   > [!NOTE]
-  >  `<Link/>` 요소에서 정의되지 않은 노드를 참조하는 경우 맵에서 `<Node/>` 요소를 자동으로 만듭니다.  
+  > `<Link/>` 요소에서 정의되지 않은 노드를 참조하는 경우 맵에서 `<Node/>` 요소를 자동으로 만듭니다.  
   
    예제:  
   
@@ -151,7 +151,7 @@ DGML(Directed Graph Markup Language)은 시각화에 사용되고 복잡성 분�
    이 요소는 소스 노드를 대상 노드에 연결하는 단일 링크를 정의합니다. 또한 `<Links></Links>` 요소 목록 내에 나타납니다.  
   
   > [!NOTE]
-  >  이 요소가 정의되지 않은 노드를 참조하는 경우 맵 문서에서는 지정된 특성을 포함하는 노드를 자동으로 만듭니다.  
+  > 이 요소가 정의되지 않은 노드를 참조하는 경우 맵 문서에서는 지정된 특성을 포함하는 노드를 자동으로 만듭니다.  
   
    이 요소에는 다음과 같은 특성이 포함되어야 합니다.  
   

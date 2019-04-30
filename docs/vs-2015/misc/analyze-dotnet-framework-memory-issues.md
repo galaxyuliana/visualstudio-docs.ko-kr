@@ -10,12 +10,12 @@ ms.assetid: 43341928-9930-48cf-a57f-ddcc3984b787
 caps.latest.revision: 9
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 75a51cbe851b6566ab210a3c8ae12a9b7c2e0d2b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e78cefa9778e2889130f865e4c61cc8a97014db7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444661"
 ---
 # <a name="analyze-net-framework-memory-issues"></a>.NET Framework 메모리 문제 분석
 관리되는 Visual Studio 메모리 분석기를 사용하여 .NET Framework 코드에서 메모리 누수 및 비효율적인 메모리 사용을 찾습니다. 대상 코드의 최소 .NET Framework 버전은 .NET Framework 4.5입니다.  
@@ -59,7 +59,7 @@ ms.locfileid: "60107660"
  정보를 분석 하는 메모리 분석 도구 *덤프 파일* 힙 정보가 포함 된 합니다. Visual Studio에서 덤프 파일을 만들 수 있습니다 또는 같은 도구를 사용할 수 있습니다 [ProcDump](http://technet.microsoft.com/sysinternals/dd996900.aspx) 에서 [Windows Sysinternals](http://technet.microsoft.com/sysinternals)합니다. 참조 [덤프는 이란 무엇 이며 어떻게 만드나요?](http://blogs.msdn.com/b/debugger/archive/2009/12/30/what-is-a-dump-and-how-do-i-create-one.aspx) Visual Studio 디버거 팀 블로그.  
   
 > [!NOTE]
->  대부분의 도구는 전체 힙 메모리 데이터가 포함되거나 포함되지 않은 덤프 정보를 수집할 수 있습니다. Visual Studio 메모리 분석기는 전체 힙 정보가 필요합니다.  
+> 대부분의 도구는 전체 힙 메모리 데이터가 포함되거나 포함되지 않은 덤프 정보를 수집할 수 있습니다. Visual Studio 메모리 분석기는 전체 힙 정보가 필요합니다.  
   
  **Visual Studio에서 덤프를 수집 하려면**  
   

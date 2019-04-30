@@ -12,12 +12,12 @@ ms.assetid: 27d4bbcf-99b1-498f-8b66-40002e3db0f8
 caps.latest.revision: 47
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 3aa3058c20fe0d5697b56adb72769f5f6962da1e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: caccf8923a8614ceedb7198e218ca2bb14bb7ec0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60086288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444871"
 ---
 # <a name="adding-a-most-recently-used-list-to-a-submenu"></a>하위 메뉴에 가장 최근에 사용한 메뉴 목록 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -199,7 +199,7 @@ ms.locfileid: "60086288"
 2. 에 **TestMenu** 메뉴에서 클릭 **TestCommand 호출**합니다. 이렇게 명령을 선택 되어 있는지 여부를 나타내는 메시지 상자가 표시 됩니다.  
   
     > [!NOTE]
-    >  이 단계는 VSPackage 로드 하 고 올바르게 MRU 목록 표시에 적용 해야 합니다. 이 단계를 건너뛰면 MRU 목록 표시 되지 않습니다.  
+    > 이 단계는 VSPackage 로드 하 고 올바르게 MRU 목록 표시에 적용 해야 합니다. 이 단계를 건너뛰면 MRU 목록 표시 되지 않습니다.  
   
 3. 에 **테스트 메뉴** 메뉴에서 클릭 **하위 메뉴**합니다. 4 개 항목 목록은 구분 기호를 아래 하위 메뉴의 끝에 표시 됩니다. 클릭 하면 **항목 3**, 메시지 상자가 나타나고 "선택한 항목 3" 텍스트를 표시 합니다. (4 개 항목 목록을 표시 되지 않으면 확인 이전 단계의 지침에에서 따르고 있다고 합니다.)  
   

@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d8f02fbff9ed727359adbc5db1b25ee14dbccb3a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 8ac9340ea853a1852d039f05a3ecbb100845ab84
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443548"
 ---
 # <a name="create-application-pages-for-sharepoint"></a>SharePoint 용 응용 프로그램 페이지 만들기
   *응용 프로그램 페이지* SharePoint 웹 사이트에서 사용 하기 위해 설계 된 ASP.NET 웹 페이지입니다. 응용 프로그램 페이지는 ASP.NET 페이지의 특수화 된 형식입니다. 응용 프로그램 페이지 및 표준 ASP.NET 페이지 간의 주요 차이점은 응용 프로그램 페이지는 SharePoint 마스터 페이지를 사용 하 여 병합 되는 콘텐츠를 포함 합니다. 마스터 페이지를는 응용 프로그램 페이지를 사이트에서 다른 페이지와 동일한 모양 및 동작을 공유할 수 있습니다.
@@ -36,7 +36,7 @@ ms.locfileid: "56644447"
  응용 프로그램 페이지는 이러한 작업을 수행할 수 없습니다. 그러나 응용 프로그램 페이지는 가장 적합 한 유형의 사용자 지정 코드를 포함 하도록 페이지를 원하는 경우 만들려면 페이지입니다. 사용자 지정 코드를 사이트 페이지에 추가할 수 있지만 코드 사용자가 SharePoint Designer와 같은 도구를 사용 하 여 페이지를 사용자 지정 실행이 중지 됩니다.
 
 > [!NOTE]
->  Visual Studio에서는 도움이 되는 템플릿은 SharePoint 사이트에 대 한 사이트 페이지를 만듭니다. 자세한 내용은 [SharePoint 페이지 형식](http://go.microsoft.com/fwlink/?LinkID=211584)합니다.
+> Visual Studio에서는 도움이 되는 템플릿은 SharePoint 사이트에 대 한 사이트 페이지를 만듭니다. 자세한 내용은 [SharePoint 페이지 형식](http://go.microsoft.com/fwlink/?LinkID=211584)합니다.
 
 ## <a name="create-an-application-page"></a>응용 프로그램 페이지 만들기
  응용 프로그램 페이지를 만들려면 추가 **응용 프로그램 페이지** SharePoint 프로젝트 항목입니다. 응용 프로그램 페이지를 만들면 Visual Studio 프로젝트에 다음 폴더를 추가 합니다.
@@ -58,7 +58,7 @@ ms.locfileid: "56644447"
  Visual Studio에서 디자이너 뷰를 사용 하 여 응용 프로그램 페이지의 콘텐츠를 디자인 합니다. 이 디자이너는 프로젝트에서 응용 프로그램 페이지를 열면 나타납니다 (두 번 클릭 하거나 바로 가기 메뉴를 열고 다음 **엽니다**)를 선택 합니다 **디자인** 아래쪽의 단추 편집기입니다.
 
 > [!NOTE]
->  페이지를 디자인할 수에 합니다 **원본** 디자이너의 뷰. 합니다 **디자인** 응용 프로그램 페이지 디자이너의 뷰를 사용할 수 없게 됩니다.
+> 페이지를 디자인할 수에 합니다 **원본** 디자이너의 뷰. 합니다 **디자인** 응용 프로그램 페이지 디자이너의 뷰를 사용할 수 없게 됩니다.
 
  Visual Studio의 다른 SharePoint 프로젝트 항목을 디버그할 때 처럼 응용 프로그램 페이지를 디버깅할 수 있습니다. Visual Studio 디버거를 시작 하면 Visual Studio에 SharePoint 사이트가 열립니다.
 

@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0a9a7199e035336b080f8d7b19d6e12eb5fe651b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 95c3f83f67eb2a20b058300abaf96d37ad16687d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56687616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387574"
 ---
 # <a name="introducing-spy"></a>Spy++ 소개
 Spy++에서는 다음 작업을 수행할 수 있습니다.
@@ -37,7 +37,7 @@ Spy++에서는 다음 작업을 수행할 수 있습니다.
   다양한 Spy++ 창에서 마우스 오른쪽 단추를 클릭하면 자주 사용되는 명령의 바로 가기 메뉴를 표시할 수 있습니다. 표시되는 명령은 포인터가 있는 위치에 따라 달라집니다. 예를 들어 창 보기에서 항목을 마우스 오른쪽 단추로 클릭하여 선택한 창이 보이는 경우에 바로 가기 메뉴의 **강조** 를 클릭하면 더 쉽게 찾을 수 있도록 선택한 창의 테두리가 깜빡입니다.
 
 > [!NOTE]
->  그 밖에 유사한 두 가지 유틸리티가 있습니다. Spy++: PView는 프로세스 및 스레드에 대한 상세 정보를 표시하고, DDESPY.EXE는 DDE(동적 데이터 교환) 메시지 모니터링에 사용할 수 있습니다.
+> Spy + +는 두 가지 유틸리티가 있습니다. PView 프로세스 및 스레드 및 DDESPY 하는 방법에 대 한 세부 정보를 표시 합니다. EXE, 데이터 교환 DDE (동적) 메시지를 모니터링할 수 있습니다.
 
 ## <a name="64-bit-operating-systems"></a>64비트 운영 체제
  Spy++의 두 가지 버전이 있습니다. Spy++(spyxx.exe)라는 첫 번째 버전은 32비트 프로세스에서 실행되는 창으로 전송된 메시지를 표시하도록 설계되었습니다. 예를 들어 Visual Studio는 32비트 프로세스로 실행됩니다. 따라서 **솔루션 탐색기**로 전송된 메시지를 표시하는 데 Spy++를 사용할 수 있습니다. Spy + +의이 첫 번째 버전에서 사용할 수 있는 것은 Visual Studio에서 대부분의 빌드에 대 한 기본 구성은 32 비트 프로세스에서 실행 되므로 합니다 **도구** Visual Studio에서 메뉴 경우 [필수 구성 요소 설치](../debugger/how-to-start-spy-increment.md)합니다.
@@ -49,7 +49,7 @@ Spy++에서는 다음 작업을 수행할 수 있습니다.
  명령줄에서 직접 Spy++의 버전 중 하나를 실행할 수 있습니다.
 
 > [!NOTE]
->  Spy++(64비트) 파일 이름은 "amd"를 포함하지만 x64 Windows 운영 체제에서 실행됩니다.
+> Spy++(64비트) 파일 이름은 "amd"를 포함하지만 x64 Windows 운영 체제에서 실행됩니다.
 
 ## <a name="see-also"></a>참고 항목
 - [방법: Spy++ 시작](../debugger/how-to-start-spy-increment.md)

@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: d693113db28acc456625f7c22b671006ed17038b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: eb6651d788979343752fac30c4570d955b53068c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402853"
 ---
 # <a name="edit-data-in-datasets"></a>데이터 세트의 데이터 편집
 모든 데이터베이스의 테이블에서 데이터를 편집할 때 처럼 데이터 테이블의에서 데이터를 편집 합니다. 프로세스는 삽입, 업데이트 및 테이블의 레코드를 삭제 하는 중에 포함할 수 있습니다. 데이터 바인딩된 폼에 있는 사용자가 편집 가능한 필드를 지정할 수 있습니다. 이러한 경우 데이터 바인딩 인프라는 모든 변경 내용 추적 나중에 변경 내용을 데이터베이스로 다시 전송 수 있도록 처리 합니다. 프로그래밍 방식으로 데이터를 편집을 수행한 경우 해당 변경 내용을 다시 데이터베이스에 전송 하려는 개체와 수에 대 한 변경 내용 추적을 수행 하는 메서드를 사용 해야 합니다.
@@ -58,7 +58,7 @@ ms.locfileid: "60096987"
      이 메서드 레코드를 물리적으로 제거 하지 않습니다. 대신, 삭제에 대 한 레코드를 표시합니다.
 
     > [!NOTE]
-    >  count 속성을 표시 하는 경우는 <xref:System.Data.DataRowCollection>, 결과 횟수가 삭제 표시 된 레코드를 포함 합니다. 컬렉션을 반복할 수 있습니다 삭제 용으로 표시 되지 않은 레코드의 정확한 개수를 가져오려면는 <xref:System.Data.DataRow.RowState%2A> 각 레코드의 속성입니다. (삭제 표시 된 레코드를 <xref:System.Data.DataRow.RowState%2A> 의 <xref:System.Data.DataRowState.Deleted>.) 또는 행 상태에 따라 필터링 하는 데이터 집합의 데이터 뷰를 만들 수 있으며 여기에서 count 속성을 가져올 수 있습니다.
+    > count 속성을 표시 하는 경우는 <xref:System.Data.DataRowCollection>, 결과 횟수가 삭제 표시 된 레코드를 포함 합니다. 컬렉션을 반복할 수 있습니다 삭제 용으로 표시 되지 않은 레코드의 정확한 개수를 가져오려면는 <xref:System.Data.DataRow.RowState%2A> 각 레코드의 속성입니다. (삭제 표시 된 레코드를 <xref:System.Data.DataRow.RowState%2A> 의 <xref:System.Data.DataRowState.Deleted>.) 또는 행 상태에 따라 필터링 하는 데이터 집합의 데이터 뷰를 만들 수 있으며 여기에서 count 속성을 가져올 수 있습니다.
 
 다음 예제에서는 호출 하는 방법을 보여 줍니다 합니다 <xref:System.Data.DataRow.Delete%2A> 첫 번째 행을 표시 하는 방법의 `Customers` 테이블 삭제:
 

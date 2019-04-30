@@ -12,12 +12,12 @@ ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 7e97e21b2d08d7398a4372ac31cda63b5cfb9fe9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8e838cb02aa1a620356f96d9e77f1752797ac409
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441247"
 ---
 # <a name="upgrading-projects"></a>프로젝트 업그레이드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ms.locfileid: "60100601"
  관련 된 모든 전역 파일을 업데이트 한 후 각 프로젝트 팩터리 프로젝트를 인스턴스화할 수 있습니다. 프로젝트 지원 되어야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade>합니다. <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgrade.UpgradeProject%2A> 모든 관련 프로젝트 항목 업그레이드 메서드가 호출 됩니다.  
   
 > [!NOTE]
->  <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> 메서드 SVsUpgradeLogger 서비스를 제공 하지 않습니다. 이 서비스를 호출 하 여 얻을 수 있습니다 <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A>합니다.  
+> <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectUpgradeViaFactory.UpgradeProject%2A> 메서드 SVsUpgradeLogger 서비스를 제공 하지 않습니다. 이 서비스를 호출 하 여 얻을 수 있습니다 <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A>합니다.  
   
 ## <a name="best-practices"></a>모범 사례  
  사용 된 <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave> 를 편집 하기 전에 파일을 편집할 수를 저장 하기 전에 저장할 수를 확인 하는 서비스입니다. 이렇게 하면 백업 및 소스 제어에서 프로젝트 파일, 권한 부족 등을 사용 하 여 파일을 처리 하는 업그레이드 구현 합니다.  

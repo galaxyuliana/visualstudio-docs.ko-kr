@@ -11,12 +11,12 @@ ms.assetid: d726a161-7db3-4ef4-b258-9f6a5be68418
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 484aa854a8e0987bf034e829a3acf02d6d637870
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 31d03f12a31953cbc0e20d06820dd49b5f9827e6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441976"
 ---
 # <a name="registering-the-program"></a>프로그램 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ ms.locfileid: "60042656"
      다음 예제에서는 프로그램을 시작 하 고 포트를 사용 하 여 등록 하는 디버그 엔진을 보여 줍니다.  
   
     > [!NOTE]
-    >  시작 하 고 프로세스를 다시 시작 하는 유일한 방법은 아닙니다. 이것이 주로 포트를 사용 하 여 프로그램을 등록 하는 예입니다.  
+    > 시작 하 고 프로세스를 다시 시작 하는 유일한 방법은 아닙니다. 이것이 주로 포트를 사용 하 여 프로그램을 등록 하는 예입니다.  
   
     ```cpp#  
     // This is an IDebugEngineLaunch2 method.  

@@ -12,12 +12,12 @@ ms.assetid: 2a313fe1-4ee1-4f01-af86-382d6c661a8f
 caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e37108ec6b3980daa6d0c8cd381013599cc856b7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: b6da9b1259518f3796968712b11c725a08aa9a01
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443946"
 ---
 # <a name="idebugbinder3getexceptionobjectandtype"></a>IDebugBinder3::GetExceptionObjectAndType
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ int GetExceptionObjectAndType(
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
 > [!NOTE]
->  예외가 있는지 여부를 확인 하려면 반환 하는 값을 확인 `ppException`: 예외가 없으면이 개체와 연결 된 경우 null 값입니다.  
+> 예외가 있는지 여부를 확인 하려면 반환 하는 값을 확인 `ppException`: 예외가 없으면이 개체와 연결 된 경우 null 값입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)

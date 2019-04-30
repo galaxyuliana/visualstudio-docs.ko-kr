@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 70563378ca3599c1e558cd9e359979383e10f78b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: a2ae77a390553fc95c7a29d24eff70fde231b7b0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63410033"
 ---
 # <a name="anatomy-of-a-vsix-package"></a>VSIX 패키지 분석
 VSIX 패키지를 *.vsix* 하나 이상의 Visual Studio 확장 Visual Studio 메타 데이터를 포함 하는 파일 분류 및 확장 설치를 사용 하 여 합니다. 메타 데이터가 포함 된 VSIX 매니페스트의 하며 *[Content_Types].xml* 파일입니다. VSIX 패키지를 하나 이상 포함 될 수도 있습니다 *Extension.vsixlangpack* 있도록 지역화 된 설치 텍스트 파일과 종속성을 설치 하는 추가 VSIX 패키지를 포함할 수 있습니다.
@@ -25,7 +25,7 @@ VSIX 패키지를 *.vsix* 하나 이상의 Visual Studio 확장 Visual Studio �
  VSIX 패키지 형식으로 OPC Open Packaging Conventions () 표준을 따릅니다. 패키지와 함께 이진 파일 및 지원 파일을 포함 한 *[Content_Types].xml* 파일 및 *.vsix* 매니페스트 파일. 하나의 VSIX 패키지는 여러 프로젝트나 자신의 매니페스트는 여러 패키지의 출력을 포함할 수 있습니다.
 
 > [!NOTE]
->  VSIX 패키지에 포함 된 파일의 이름은 공백을 포함할 수 없습니다 나으로 리소스 URI (Uniform Identifier), 예약 된 문자 아래에 정의 된 [ \[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339)합니다.
+> VSIX 패키지에 포함 된 파일의 이름은 공백을 포함할 수 없습니다 나으로 리소스 URI (Uniform Identifier), 예약 된 문자 아래에 정의 된 [ \[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339)합니다.
 
 ## <a name="the-vsix-manifest"></a>VSIX 매니페스트
  VSIX 매니페스트의 확장이 설치 되도록 하 고 다음과 같이 VSX 스키마에 대 한 정보를 포함 합니다. 자세한 내용은 [VSIX 확장 스키마 1.0 참조](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)합니다. VSIX 매니페스트 예제를 참조 하세요. [PackageManifest 요소 (루트 요소, VSX 스키마)](https://msdn.microsoft.com/library/f8ae42ba-775a-4d2b-976a-f556e147f187)합니다.

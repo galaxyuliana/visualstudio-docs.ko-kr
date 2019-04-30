@@ -11,12 +11,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1e99ee6c9570f3bb73bc70f230f31e153a8a0da1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ace8b173eb20b6e628fbb7066ff9010624cca9e9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441955"
 ---
 # <a name="specifying-custom-build-events-in-visual-studio"></a>Visual Studio에서 사용자 지정 빌드 이벤트 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "60054159"
      예: `for %I in (*.txt *.doc *.html) do copy %I c:\`*mydirectory*`\`
 
     > [!NOTE]
-    >  위 코드의 `%I`는 배치 스크립트에서 `%%I`여야 합니다.
+    > 위 코드의 `%I`는 배치 스크립트에서 `%%I`여야 합니다.
 
 ## <a name="see-also"></a>참고 항목
  [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md) [빌드 전 이벤트/빌드 후 이벤트 명령줄 대화 상자](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md) [MSBuild 특수 문자](../msbuild/msbuild-special-characters.md) [연습: 애플리케이션 빌드](../ide/walkthrough-building-an-application.md)

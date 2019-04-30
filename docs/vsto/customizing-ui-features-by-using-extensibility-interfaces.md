@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 041e33f04c3f9d376dbc82839e2256b4000147f6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: d28c9456afdc60b1bddadf759ec3090ba37f2040
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445483"
 ---
 # <a name="customize-ui-features-by-using-extensibility-interfaces"></a>확장성 인터페이스를 사용 하 여 UI 기능 사용자 지정
   Visual Studio의 Office 개발 도구에는 많은 구현 세부 사항을 처리하는 클래스와 디자이너가 제공되며, 이를 사용하여 VSTO 추가 기능에 사용자 지정 작업창, 리본 사용자 지정, Outlook 양식 영역을 만들 수 있습니다. 하지만 특별한 요구 사항이 있는 경우 각각의 기능에 대한 *확장성 인터페이스* 를 직접 구현할 수도 있습니다.
@@ -63,7 +63,7 @@ ms.locfileid: "56622932"
 - `TaskPaneUI` 클래스에서는 작업창의 UI를 제공합니다. `TaskPaneUI` 클래스의 특성은 클래스를 COM에 노출하여 Microsoft Office 응용 프로그램에서 클래스를 검색할 수 있도록 합니다. 이 예제에서 UI는 빈 <xref:System.Windows.Forms.UserControl>이지만 코드를 수정하여 컨트롤을 추가할 수 있습니다.
 
   > [!NOTE]
-  >  `TaskPaneUI` 클래스를 COM에 노출하려면 프로젝트에 대해 **COM interop 등록** 속성도 설정해야 합니다.
+  > `TaskPaneUI` 클래스를 COM에 노출하려면 프로젝트에 대해 **COM interop 등록** 속성도 설정해야 합니다.
 
   [!code-vb[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/VisualBasic/Trin_SimpleExtensibilityInterface/ThisAddIn.vb#1)]
   [!code-csharp[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/CSharp/Trin_SimpleExtensibilityInterface/ThisAddIn.cs#1)]

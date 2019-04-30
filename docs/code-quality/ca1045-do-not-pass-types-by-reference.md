@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1f64a7f7c018863e85900da2b09e018d29da4dfe
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MT
+ms.openlocfilehash: d5174d00593b44d51b5628851039b1d0a37753c5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387491"
 ---
 # <a name="ca1045-do-not-pass-types-by-reference"></a>CA1045: 참조로 형식을 전달하지 마세요.
 
@@ -43,7 +43,7 @@ ms.locfileid: "55922877"
  반환 값은 일반적 이며의 올바른 응용 프로그램을 많이 사용 되지만 `out` 고 `ref` 중간 디자인 및 코딩 기술을 매개 변수가 필요 합니다. 일반 사용자를 대상에는 마스터 작업에 사용자를 사용 해야 합니다.에 대 한 디자인 하는 라이브러리 설계자 `out` 또는 `ref` 매개 변수입니다.
 
 > [!NOTE]
->  매개 변수를 큰 구조를 사용 하 여 작업할 때 이러한 구조를 복사 하는 데 필요한 추가 리소스를 값으로 전달 하는 경우 성능에 영향을 발생할 수 있습니다. 이러한 경우에 사용해 보십시오 `ref` 또는 `out` 매개 변수입니다.
+> 매개 변수를 큰 구조를 사용 하 여 작업할 때 이러한 구조를 복사 하는 데 필요한 추가 리소스를 값으로 전달 하는 경우 성능에 영향을 발생할 수 있습니다. 이러한 경우에 사용해 보십시오 `ref` 또는 `out` 매개 변수입니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  값 형식에서 발생 하는이 규칙 위반 문제를 해결 하려면 메서드 반환 값으로 개체를 반환 해야 합니다. 메서드가 여러 값을 반환 해야 하는 경우 값을 포함 하는 개체의 단일 인스턴스를 반환 하도록 다시 설계 합니다.

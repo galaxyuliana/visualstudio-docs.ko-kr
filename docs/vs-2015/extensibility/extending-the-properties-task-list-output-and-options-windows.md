@@ -15,12 +15,12 @@ ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
 caps.latest.revision: 38
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: b215d969ba7898923e98f063a47132125d82119b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cf42be1e62bfb4895d29a61fcadc221d5c14bec9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443912"
 ---
 # <a name="extending-the-properties-task-list-output-and-options-windows"></a>속성, 작업 목록, 출력 및 옵션 창 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ Visual Studio의 모든 도구 창에 액세스할 수 있습니다. 이 연습�
 1. 라는 프로젝트를 만듭니다 **TodoList** 라는 사용자 지정 도구 창 항목 템플릿을 VSIX 템플릿을 사용 하 여 추가한 **TodoWindow**합니다.  
   
     > [!NOTE]
-    >  도구 창을 사용 하 여 확장을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
+    > 도구 창을 사용 하 여 확장을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
   
 ## <a name="set-up-the-tool-window"></a>도구 창 설정  
  새 ToDo 항목을 목록에 새 항목을 추가 하는 단추 및 목록에 항목을 표시 하는 목록 상자를 입력 하는 입력란을 추가 합니다.  
@@ -43,7 +43,7 @@ Visual Studio의 모든 도구 창에 액세스할 수 있습니다. 이 연습�
 1. TodoWindow.xaml, 단추, 텍스트 상자 및 StackPanel 컨트롤 UserControl에서 삭제 합니다.  
   
     > [!NOTE]
-    >  이 삭제 되지 않습니다 합니다 **button1_Click** 나중에 재사용 하는 이벤트 처리기입니다.  
+    > 이 삭제 되지 않습니다 합니다 **button1_Click** 나중에 재사용 하는 이벤트 처리기입니다.  
   
 2. **모든 WPF 컨트롤** 섹션을 **도구 상자**, 끌어를 **캔버스** 그리드 컨트롤.  
   

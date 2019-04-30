@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c2d06098d1643f4c9b5e64206cdf94362a2c97b4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8697a49c57840d358eeaa597fe984b6671958b09
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446959"
 ---
 # <a name="ribbon-overview"></a>리본 개요
   리본 메뉴 관련된 명령을 쉽게 찾을 수 있도록 구성할 수 있는 방법이 있습니다. 명령은 리본 메뉴에 컨트롤로 나타납니다. 컨트롤은으로 구성 된 *그룹* 응용 프로그램 창 위쪽 가장자리의 가로 스트립을 따라. 관련 그룹은 탭에서 구성됩니다.
@@ -49,7 +49,7 @@ ms.locfileid: "60040148"
 - 사용자 지정 또는 기본 제공 탭에 사용자 지정 그룹을 추가합니다.
 
   > [!NOTE]
-  >  기본 제공 탭 이나 그룹은 Microsoft Office 응용 프로그램의 리본 메뉴에 이미 있습니다. 예를 들어 합니다 **데이터** 탭은 Excel에서 기본 제공 탭 합니다. **연결** 그룹은 기본 제공 그룹에는 **데이터** 탭.
+  > 기본 제공 탭 이나 그룹은 Microsoft Office 응용 프로그램의 리본 메뉴에 이미 있습니다. 예를 들어 합니다 **데이터** 탭은 Excel에서 기본 제공 탭 합니다. **연결** 그룹은 기본 제공 그룹에는 **데이터** 탭.
 
 - 사용자 지정 그룹에 사용자 지정 컨트롤을 추가합니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "60040148"
 - Outlook 용 리본 만들기 *검사기*. 자세한 내용은 [Outlook에 대 한 리본을 사용자 지정](../vsto/customizing-a-ribbon-for-outlook.md)합니다.
 
     > [!NOTE]
-    >  검사기는 사용자가 메일 메시지 만들기와 같은 특정 작업을 수행할 때 열리는 창입니다.
+    > 검사기는 사용자가 메일 메시지 만들기와 같은 특정 작업을 수행할 때 열리는 창입니다.
 
 - 런타임에 표시할 리본 메뉴를 선택 합니다.
 
@@ -106,7 +106,7 @@ ms.locfileid: "60040148"
  런타임에 표시할 리본 메뉴를 선택 하는 `CreateRibbonExtensibilityObject` 메서드에서 `ThisAddin`, `ThisWorkbook`, 또는 `ThisDocument` 클래스 프로젝트 및 리본 메뉴를 표시 하려면 반환 합니다. 다음 예제에서는 명명 된 필드의 값을 확인 `myCondition` 적절 한 리본 메뉴를 반환 합니다.
 
 > [!NOTE]
->  이 예제에 사용 된 구문을 사용 하 여 만든 리본 메뉴를 반환 하면 **리본 (비주얼 디자이너)** 항목. 사용 하 여 만들어진 리본 메뉴를 반환 하는 구문은 **리본 (XML)** 항목은 약간 다릅니다. 반환 하는 방법에 대 한 자세한 내용은 **리본 (XML)** 항목을 참조 하십시오 [리본 XML](../vsto/ribbon-xml.md)합니다.
+> 이 예제에 사용 된 구문을 사용 하 여 만든 리본 메뉴를 반환 하면 **리본 (비주얼 디자이너)** 항목. 사용 하 여 만들어진 리본 메뉴를 반환 하는 구문은 **리본 (XML)** 항목은 약간 다릅니다. 반환 하는 방법에 대 한 자세한 내용은 **리본 (XML)** 항목을 참조 하십시오 [리본 XML](../vsto/ribbon-xml.md)합니다.
 
  다음 코드를 추가합니다.
 

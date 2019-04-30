@@ -10,18 +10,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f6c0d6928236c151e182c90056641432e4706952
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 101bc22cd33b3438e0dc82542c20b1bb103cb617
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418684"
 ---
 # <a name="add-items-to-the-add-new-item-dialog-box"></a>새 항목 추가 대화 상자에 항목 추가
 항목을 추가 하기 위한 프로세스를 **새 항목 추가** 레지스트리 키를 사용 하 여 대화 상자를 시작 합니다. 다음 레지스트리 항목에 표시 된 대로 합니다 **AddItemTemplates** 섹션에서 사용할 수 있는 어떤 항목에 있는 디렉터리의 이름과 경로 포함 합니다 **새 항목 추가** 대화 상자에 배치 됩니다.
 
 > [!NOTE]
->  바로 코드 세그먼트를 다음 테이블에는 레지스트리 항목에 대 한 추가 정보가 있습니다.
+> 바로 코드 세그먼트를 다음 테이블에는 레지스트리 항목에 대 한 추가 정보가 있습니다.
 
  이 섹션에서는 아래에 있는 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0Exp\Projects**합니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "59651301"
 | Val SortPriority | REG_DWORD | 100 ([!INCLUDE[vcprx64](../../extensibility/internals/includes/vcprx64_md.md)]) | 에 표시 된 파일의 트리 노드가 정렬 순서를 결정 합니다 **새 항목 추가** 대화 상자. |
 
 > [!NOTE]
->  Visual C# 및 Visual Basic 프로젝트 형식에 대 한 GUID는 다음과 같습니다.
+> Visual C# 및 Visual Basic 프로젝트 형식에 대 한 GUID는 다음과 같습니다.
 > - [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]: {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}
 > - [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]: {F184B08F-C81C-45F6-A57F-5ABD9991F28F}
 
@@ -53,7 +53,7 @@ ms.locfileid: "59651301"
  그러나 하나에 모든 필요가 없습니다 *.vsdir* 파일입니다. 하나일 수 있습니다 *.vsdir* 디렉터리의 모든 항목에 대 한 파일입니다. 자세한 내용은 [마법사 (.vsz) 파일](../../extensibility/internals/wizard-dot-vsz-file.md) 하 고 [템플릿 디렉터리 설명 (.vsdir) 파일](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)합니다.
 
 > [!NOTE]
->  합니다 *.vsdir* 템플릿 디렉터리의 파일은 선택 사항입니다. 하려는 디렉터리에 프로젝트 요소를 배치 하 고 표시 하는 경우는 **새 항목 추가** 대화 상자에 지정 된 템플릿 디렉터리에 해당 파일을 넣을 수 있습니다 합니다 **TemplatesDir** 문입니다. 파일의 오른쪽 창에 표시 됩니다는 **새 항목 추가** 해당 프로젝트에 대 한 대화 상자. 그러나 파일 또는 아이콘에 대 한 지역화 된 캡션을 표시 하려는 경우 포함 해야 하나 이상의 *.vsdir* 템플릿 디렉터리의 파일입니다.
+> 합니다 *.vsdir* 템플릿 디렉터리의 파일은 선택 사항입니다. 하려는 디렉터리에 프로젝트 요소를 배치 하 고 표시 하는 경우는 **새 항목 추가** 대화 상자에 지정 된 템플릿 디렉터리에 해당 파일을 넣을 수 있습니다 합니다 **TemplatesDir** 문입니다. 파일의 오른쪽 창에 표시 됩니다는 **새 항목 추가** 해당 프로젝트에 대 한 대화 상자. 그러나 파일 또는 아이콘에 대 한 지역화 된 캡션을 표시 하려는 경우 포함 해야 하나 이상의 *.vsdir* 템플릿 디렉터리의 파일입니다.
 
 ## <a name="group-project-items"></a>그룹 프로젝트 항목
  템플릿 그룹의 폴더에 포함 하려는 경우는 **새 항목 추가** 대화 상자의 트리에서 항목으로 템플릿 루트 디렉터리 아래 하위 디렉터리에 있어야 합니다. 경우는 **새 항목 추가** 대화 상자가 사용자에 게 표시 됩니다는 또한 하위 폴더를 참조 및 프로젝트 요소를 선택할 수 있습니다.

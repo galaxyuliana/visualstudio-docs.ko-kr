@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3340c55b99f9d2507bb129eff689cc1b510843f5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e170a5ed703a9bf5aae2e73126de52ecf88e8084
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443514"
 ---
 # <a name="debug-extensions-for-the-sharepoint-tools-in-visual-studio"></a>Visual Studio에서 SharePoint 도구에 대 한 확장명 디버깅
   실험적 인스턴스 또는 일반 인스턴스의 Visual Studio에서 SharePoint 도구 확장을 디버그할 수 있습니다. 확장 동작 문제를 해결 해야 할 경우에 추가 오류 정보를 표시 하 고 Visual Studio SharePoint 명령을 실행 하는 방법을 구성 하려면 레지스트리 값을 수정할 수 있습니다.
@@ -102,7 +102,7 @@ ms.locfileid: "60094400"
 3. 에 **사용 가능한 프로세스** 목록에서 선택 *vssphost.exe*합니다.
 
     > [!NOTE]
-    >  Vssphost.exe 목록에 나타나지 않으면, 경우에 시작 해야 합니다 *vssphost4.exe* 확장이 실행 되는 Visual Studio 인스턴스의 프로세스입니다. 일반적으로 이렇게 하면 Visual studio의 개발 컴퓨터에서 SharePoint 사이트에 연결 하는 작업을 수행 하 여 합니다. 예를 들어, Visual Studio 시작 *vssphost4.exe* 에서 사이트 연결 노드 (사이트 URL을 표시 하는 노드)를 확장 하는 **SharePoint 연결** 에 노드를 **서버 탐색기**  창 또는 같은 특정 SharePoint 프로젝트 항목에 추가 하면 **목록 인스턴스** 또는 **이벤트 수신기** SharePoint 프로젝트 항목입니다.
+    > Vssphost.exe 목록에 나타나지 않으면, 경우에 시작 해야 합니다 *vssphost4.exe* 확장이 실행 되는 Visual Studio 인스턴스의 프로세스입니다. 일반적으로 이렇게 하면 Visual studio의 개발 컴퓨터에서 SharePoint 사이트에 연결 하는 작업을 수행 하 여 합니다. 예를 들어, Visual Studio 시작 *vssphost4.exe* 에서 사이트 연결 노드 (사이트 URL을 표시 하는 노드)를 확장 하는 **SharePoint 연결** 에 노드를 **서버 탐색기**  창 또는 같은 특정 SharePoint 프로젝트 항목에 추가 하면 **목록 인스턴스** 또는 **이벤트 수신기** SharePoint 프로젝트 항목입니다.
 
 4. 선택 된 **연결** 단추입니다.
 

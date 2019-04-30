@@ -19,12 +19,12 @@ caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 048307c6c8117a77a57da6dc20f2615ae82feb0c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e8a2bd058faa2c3ef9d17a82ad08dd3ad28842a8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445632"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Visual Studio 통합(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +64,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ```  
   
 > [!NOTE]
->  일부 항목 형식 이름은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 대해 고유하지만 이 드롭다운에는 나열되어 있지 않습니다.  
+> 일부 항목 형식 이름은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 대해 고유하지만 이 드롭다운에는 나열되어 있지 않습니다.  
   
 ## <a name="in-process-compilers"></a>In-Process 컴파일러  
  가능한 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 성능 향상을 위해 in-process 버전의 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 컴파일러를 사용하려고 시도합니다. [!INCLUDE[csprcs](../includes/csprcs-md.md)]에는 적용되지 않습니다. 이러한 시도는 다음 조건이 충족되어야 제대로 작동합니다.  

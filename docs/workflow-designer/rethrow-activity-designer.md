@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 558ff5a36d172b8cd1fef0b811d1eaa920b90c6d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55913878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63009277"
 ---
 # <a name="rethrow-activity-designer"></a>Rethrow 활동 디자이너
 
@@ -33,7 +33,7 @@ ms.locfileid: "55913878"
 
 다음 표는 <xref:System.Activities.Statements.Rethrow> 속성을 디자이너에서 사용 하는 방법을 설명 합니다.
 
-|속성 이름|필수|용도|
+|속성 이름|필수|사용법|
 |-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|<xref:System.Activities.Statements.Rethrow> 활동의 선택적 이름을 지정합니다. 기본값은 Rethrow입니다.|
 

@@ -24,12 +24,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3d28efe175bb5bf3e5088918375f580d8076cff9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5e1a4eeeaf6cc979fd9ee7c3ea36a900899596a4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447160"
 ---
 # <a name="combine-vba-and-document-level-customizations"></a>VBA 및 문서 수준 사용자 지정 결합
   Microsoft Office Word 또는 Microsoft Office Excel의 문서 수준 사용자 지정의 일부인 문서에서 VBA(Visual Basic for Applications) 코드를 사용할 수 있습니다. 사용자 지정 어셈블리에서 문서의 VBA 코드를 호출하거나, 문서의 VBA 코드에서 사용자 지정 어셈블리의 코드를 호출할 수 있도록 프로젝트를 구성할 수 있습니다.
@@ -69,7 +69,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ```
 
 > [!NOTE]
->  전역을 사용 하는 방법은 `missing` Visual C#, 선택적 매개 변수 대신 변수 참조 [Office 솔루션에서 코드를 작성할](../vsto/writing-code-in-office-solutions.md)합니다.
+> 전역을 사용 하는 방법은 `missing` Visual C#, 선택적 매개 변수 대신 변수 참조 [Office 솔루션에서 코드를 작성할](../vsto/writing-code-in-office-solutions.md)합니다.
 
 ## <a name="call-code-in-document-level-customizations-from-vba"></a>VBA에서 문서 수준 사용자 지정의 코드 호출
  문서의 VBA(Visual Basic for Applications) 코드에서 사용자 지정 어셈블리의 코드를 호출할 수 있도록 Word 또는 Excel의 문서 수준 프로젝트를 구성할 수 있습니다. 이는 다음과 같은 시나리오에서 유용합니다.
@@ -81,7 +81,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
   Visual Studio의 Office 개발 도구는 VSTO 추가 기능에 대해 유사한 기능을 제공합니다. VSTO 추가 기능을 개발하는 경우 다른 Microsoft Office 솔루션에서 VSTO 추가 기능의 코드를 호출할 수 있습니다. 자세한 내용은 [다른 Office 솔루션에서 VSTO 추가 기능의 코드 호출](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)합니다.
 
 > [!NOTE]
->  이 기능은 Word 서식 파일 프로젝트에서 사용할 수 없습니다. 이 기능은 Word 문서, Excel 통합 문서 또는 Excel 서식 파일 프로젝트에서만 사용할 수 있습니다.
+> 이 기능은 Word 서식 파일 프로젝트에서 사용할 수 없습니다. 이 기능은 Word 문서, Excel 통합 문서 또는 Excel 서식 파일 프로젝트에서만 사용할 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
  VBA 코드에서 사용자 지정 어셈블리를 호출할 수 있도록 하기 전에 프로젝트는 다음 요구 사항을 충족해야 합니다.
@@ -120,7 +120,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
   **EnableVbaCallers** 및 **ReferenceAssemblyFromVbaProject** 속성은 디자인 타임에만 **속성** 창에서 사용할 수 있으며 런타임에는 사용할 수 없습니다. 속성을 보려면 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]에서 호스트 항목에 대한 디자이너를 엽니다. 이러한 속성을 설정 하는 경우 Visual Studio에서 수행 하는 특정 작업에 대 한 자세한 내용은 참조 하세요. [호스트 항목 속성에서 수행 하는 작업](#PropertyTasks)합니다.
 
 > [!NOTE]
->  통합 문서나 문서에 VBA 코드가 이미 포함되어 있지 않거나 문서의 VBA 코드를 실행하도록 신뢰할 수 없는 경우 **EnableVbaCallers** 또는 **ReferenceAssemblyFromVbaProject** 속성을 **True**로 설정하면 오류 메시지가 표시됩니다. 그 이유는 이러한 경우 Visual Studio에서 문서의 VBA 프로젝트를 수정할 수 없기 때문입니다.
+> 통합 문서나 문서에 VBA 코드가 이미 포함되어 있지 않거나 문서의 VBA 코드를 실행하도록 신뢰할 수 없는 경우 **EnableVbaCallers** 또는 **ReferenceAssemblyFromVbaProject** 속성을 **True**로 설정하면 오류 메시지가 표시됩니다. 그 이유는 이러한 경우 Visual Studio에서 문서의 VBA 프로젝트를 수정할 수 없기 때문입니다.
 
 ## <a name="use-members-in-vba-code-to-call-into-the-customization-assembly"></a>VBA 코드에서 멤버를 사용 하 여 사용자 지정 어셈블리를 호출 합니다.
  VBA 코드에서 사용자 지정 어셈블리를 호출할 수 있도록 프로젝트를 구성한 후 Visual Studio에서는 다음 멤버를 문서의 VBA 프로젝트에 추가합니다.
@@ -132,7 +132,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
   `CallVSTOAssembly` 속성이나 `GetManagedClass` 메서드를 사용하여 프로젝트의 VBA 코드에 노출한 클래스의 공용 멤버에 액세스할 수 있습니다.
 
 > [!NOTE]
->  솔루션을 개발하고 배포하는 동안 VBA 코드를 추가할 수 있는 문서의 복사본이 몇 가지 있습니다. 자세한 내용은 [VBA를 추가 하기 위한 지침 문서에 코드](#Guidelines)합니다.
+> 솔루션을 개발하고 배포하는 동안 VBA 코드를 추가할 수 있는 문서의 복사본이 몇 가지 있습니다. 자세한 내용은 [VBA를 추가 하기 위한 지침 문서에 코드](#Guidelines)합니다.
 
 ### <a name="use-the-callvstoassembly-property-in-a-visual-basic-project"></a>Visual Basic 프로젝트에서 CallVSTOAssembly 속성 사용
  `CallVSTOAssembly` 속성을 사용하여 호스트 항목 클래스에 추가한 공용 멤버에 액세스할 수 있습니다. 예를 들어 다음 VBA 매크로는 Excel 통합 문서 프로젝트에서 `MyVSTOMethod` 클래스에 정의된 `Sheet1` 라는 메서드를 호출합니다.
@@ -189,7 +189,7 @@ GetManagedClass(pdispInteropObject Object) As Object
  문서가 디자이너에서 열려 있는 동안 문서에 VBA 코드를 추가할 수 없습니다. 먼저 디자이너에서 문서를 닫은 후 Word나 Excel에서 직접 문서를 열어야 합니다.
 
 > [!CAUTION]
->  문서가 열려 있을 때 실행되는 VBA 코드를 추가하면 이 코드로 인해 문서가 손상되거나 디자이너에서 열리지 못하는 경우가 드물게 발생합니다.
+> 문서가 열려 있을 때 실행되는 VBA 코드를 추가하면 이 코드로 인해 문서가 손상되거나 디자이너에서 열리지 못하는 경우가 드물게 발생합니다.
 
 ### <a name="in-the-publish-or-installation-folder"></a>게시 또는 설치 폴더에
  게시 또는 설치 폴더에서 문서에 VBA 코드를 추가하는 것이 적합한 경우도 있습니다. 예를 들어 Visual Studio가 설치되지 않은 컴퓨터에서 다른 개발자가 VBA 코드를 작성하고 테스트하는 경우 이 옵션을 선택할 수 있습니다.
@@ -220,7 +220,7 @@ GetManagedClass(pdispInteropObject Object) As Object
 5. 호스트 항목 클래스에서 **GetAutomationObject** 메서드를 제거합니다.
 
    > [!NOTE]
-   >  Visual Studio에서는 자동으로 **ReferenceAssemblyFromVbaProject** 속성을 다시 **False**로 설정하지 않습니다. **속성** 창을 사용하여 수동으로 이 속성을 **False** 로 설정할 수 있습니다.
+   > Visual Studio에서는 자동으로 **ReferenceAssemblyFromVbaProject** 속성을 다시 **False**로 설정하지 않습니다. **속성** 창을 사용하여 수동으로 이 속성을 **False** 로 설정할 수 있습니다.
 
 ### <a name="referenceassemblyfromvbaproject"></a>ReferenceAssemblyFromVbaProject
  Visual Basic 또는 Visual C# 프로젝트에서 호스트 항목의 **ReferenceAssemblyFromVbaProject** 속성이 **True**로 설정되면 Visual Studio에서는 다음 작업을 수행합니다.

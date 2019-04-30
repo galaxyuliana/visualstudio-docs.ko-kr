@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9ce0be90be111d458229189c2a06624bd726ac05
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 7879ad7cf18c3d09fddbab3923296e0896688af9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447062"
 ---
 # <a name="publish-wizard-office-development-in-visual-studio"></a>게시 마법사 (Visual Studio에서 Office 개발)
   사용 된 **게시 마법사** 솔루션 파일에 지정된 된 위치를 복사 하려면 매니페스트 파일을 만들고 설치 프로그램을 만듭니다.
@@ -46,7 +46,7 @@ ms.locfileid: "56604834"
   게시 위치는 기본적으로 *http://localhost/projectname/* IIS가 설치 되어 있는 경우 또는 않은 경우 publish\ 디렉터리 IIS가 설치 되지 합니다.
 
 > [!NOTE]
->  대상 컴퓨터는 Windows Vista를 실행 하는 경우 더 많은 고려 사항이 있습니다. 로컬 게시 옵션을 사용 하려면 Windows Vista 컴퓨터의 관리자 여야 합니다. 또한 기본 위치는 항상을 *게시\\*  IIS가 설치 되어 있는지 여부에 관계 없이 디렉터리입니다.
+> 대상 컴퓨터는 Windows Vista를 실행 하는 경우 더 많은 고려 사항이 있습니다. 로컬 게시 옵션을 사용 하려면 Windows Vista 컴퓨터의 관리자 여야 합니다. 또한 기본 위치는 항상을 *게시\\*  IIS가 설치 되어 있는지 여부에 관계 없이 디렉터리입니다.
 
 ## <a name="what-is-the-default-installation-path-on-end-user-computers"></a>최종 사용자 컴퓨터의 기본 설치 경로 무엇입니까?
  설치 경로 선택 사항입니다. 원하는 경우 나중에 설치 경로 설정할 수 있습니다. 자세한 내용은 [방법: Office 솔루션의 설치 경로 변경](https://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd)합니다.

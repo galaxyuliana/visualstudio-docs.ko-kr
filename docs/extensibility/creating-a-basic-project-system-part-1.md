@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cb6793855fc4df4080a7f94799cfe2372308a5a0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ced39d928b2d0d02c7008d6b44c934ccd053b09b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63409998"
 ---
 # <a name="create-a-basic-project-system-part-1"></a>1 부 기본 프로젝트 시스템을 만들려면
 Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타 자산을 구성 하는 데 사용할 컨테이너를 사용 합니다. 프로젝트에서 솔루션의 자식으로 표시 합니다 **솔루션 탐색기**합니다. 프로젝트를 사용 하 여 구성, 빌드, 디버그 및 소스 코드를 배포 및 웹 서비스, 데이터베이스 및 기타 리소스에 대 한 참조를 만들 수 있습니다.
@@ -25,7 +25,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
  예를 들어 프로젝트 파일에 정의 된 프로젝트를 *.csproj* Visual C# 프로젝트 파일입니다. 사용자 고유의 프로젝트 파일 이름 확장명을 가진 고유한 프로젝트 형식을 만들 수 있습니다. 프로젝트 형식에 대 한 자세한 내용은 참조 하세요. [프로젝트 형식](../extensibility/internals/project-types.md)합니다.
 
 > [!NOTE]
->  사용자 지정 프로젝트 형식을 사용 하 여 Visual Studio를 확장 하는 경우 좋습니다 활용 하 여 [Visual Studio 프로젝트 시스템](https://github.com/Microsoft/VSProjectSystem) (VSP) 다양 한 프로젝트 시스템을 처음부터 구축 하는 장점이 있는:
+> 사용자 지정 프로젝트 형식을 사용 하 여 Visual Studio를 확장 하는 경우 좋습니다 활용 하 여 [Visual Studio 프로젝트 시스템](https://github.com/Microsoft/VSProjectSystem) (VSP) 다양 한 프로젝트 시스템을 처음부터 구축 하는 장점이 있는:
 >
 > - 쉽게 온 보 딩 합니다.  기본 프로젝트 시스템 에서도 수천 줄의 코드만 필요합니다.  VSP를 활용 하 여 비용을 줄일 수 온 보 딩 몇 번의 클릭을 요구 사항에 맞게 사용자 지정할 준비가 되었습니다. 전에 합니다.
 > - 더 쉽게 유지 관리 합니다.  VSP를 활용 하 여 고유한 시나리오를 유지 관리 하기만 하면 됩니다.  프로젝트 시스템 인프라의 모든 진다는 점을 처리 합니다.
@@ -35,7 +35,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
  이 연습에서는 프로젝트 파일 이름 확장명을 가진 프로젝트 형식을 만드는 방법을 보여 줍니다. *.myproj*합니다. 이 연습에서는 기존 Visual C# 프로젝트 시스템에서 활용합니다.
 
 > [!NOTE]
->  더 많은 예제 확장 프로젝트를 참조 하세요 [VSSDK 샘플](https://aka.ms/vs2015sdksamples)합니다.
+> 더 많은 예제 확장 프로젝트를 참조 하세요 [VSSDK 샘플](https://aka.ms/vs2015sdksamples)합니다.
 
  이 연습에서는 이러한 작업을 수행 하는 방법에 설명 합니다.
 
@@ -101,7 +101,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
    ```
 
    > [!IMPORTANT]
-   >  이 최종 형식으로는 *Program.cs* 코드, 매개 변수는 이후 단계에서 처리 될 대체 합니다. 표시 될 수 있습니다 컴파일 오류를 하지만 한 파일의 **빌드 작업** 됩니다 **콘텐츠**를 구축 하 고 프로젝트를 정상적으로 실행 해야 합니다.
+   > 이 최종 형식으로는 *Program.cs* 코드, 매개 변수는 이후 단계에서 처리 될 대체 합니다. 표시 될 수 있습니다 컴파일 오류를 하지만 한 파일의 **빌드 작업** 됩니다 **콘텐츠**를 구축 하 고 프로젝트를 정상적으로 실행 해야 합니다.
 
 7. 파일을 저장합니다.
 
@@ -110,7 +110,7 @@ Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타
 9. 에 *Projects\SimpleProject* 라는 XML 파일을 추가 하는 폴더 *SimpleProject.myproj*합니다.
 
    > [!NOTE]
-   >  이 형식의 모든 프로젝트의 파일 이름 확장명은 *.myproj*합니다. 변경 하려는 경우 변경 해야 everywhere 연습에서 설명 합니다.
+   > 이 형식의 모든 프로젝트의 파일 이름 확장명은 *.myproj*합니다. 변경 하려는 경우 변경 해야 everywhere 연습에서 설명 합니다.
 
 10. 기존 콘텐츠를 다음 줄을 바꿉니다.
 
@@ -255,7 +255,7 @@ Templates
         ```
 
         > [!IMPORTANT]
-        >  경로 끝에 백슬래시를 잊지 마십시오.
+        > 경로 끝에 백슬래시를 잊지 마십시오.
 
     3. 프로젝트를 다시 로드 합니다.
 

@@ -27,18 +27,18 @@ caps.latest.revision: 41
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2f332ef1a52ae49e51025614745fc1b5c4a44e07
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7b19237b94ed3d53c49f248e22b86d3af8180625
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445058"
 ---
 # <a name="how-to-use-the-modules-window"></a>방법: 모듈 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 참고]
->  SQL 또는 스크립트 디버깅에는 이 기능을 사용할 수 없습니다.  
+> SQL 또는 스크립트 디버깅에는 이 기능을 사용할 수 없습니다.  
   
  합니다 **모듈** 창 각각에 대 한 관련 정보를 표시 및 프로그램에서 사용 되는 Dll와 EXE가 나열 됩니다.  
   

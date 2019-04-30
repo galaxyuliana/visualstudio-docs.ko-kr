@@ -8,12 +8,12 @@ ms.assetid: 11232a83-73ea-46bd-bc0c-46f74f6e3a42
 caps.latest.revision: 35
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 58bfe0a2a6c337081ebb96464a701decb73cc022
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 42db6024353e3b26ddcaf6b5fa838ff791d964f4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445899"
 ---
 # <a name="upgrading-coded-ui-tests-from-visual-studio-2010"></a>Visual Studio 2010에서 코딩된 UI 테스트 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,19 +25,19 @@ ms.locfileid: "60080698"
 - Visual Studio Enterprise
 
 > [!NOTE]
->  Visual Studio에는 둘 이상의 테스트 프로젝트 형식이 있습니다. 코딩된 UI 테스트를 새로 만드는 경우 코딩된 UI 테스트 프로젝트 형식으로 만들어집니다. 자세한 내용은 [이전 버전의 Visual Studio에서 테스트 업그레이드](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)를 참조하세요.
+> Visual Studio에는 둘 이상의 테스트 프로젝트 형식이 있습니다. 코딩된 UI 테스트를 새로 만드는 경우 코딩된 UI 테스트 프로젝트 형식으로 만들어집니다. 자세한 내용은 [이전 버전의 Visual Studio에서 테스트 업그레이드](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)를 참조하세요.
 
 > [!WARNING]
->  코딩된 UI 테스트를 포함하는[!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 테스트 프로젝트는 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 에서 열거나 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 와 함께 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 여는 경우 다시 작성해야 합니다.
+> 코딩된 UI 테스트를 포함하는[!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 테스트 프로젝트는 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 에서 열거나 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 와 함께 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 여는 경우 다시 작성해야 합니다.
 
 > [!WARNING]
->  [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 에서 만들고 단위 테스트만 포함하는 테스트 프로젝트는 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 여는 경우 코딩된 UI 테스트를 추가할 수 없습니다. 마찬가지로 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 만든 단위 테스트 프로젝트에는 코딩된 UI 테스트를 추가할 수 없습니다.
+> [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 에서 만들고 단위 테스트만 포함하는 테스트 프로젝트는 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 여는 경우 코딩된 UI 테스트를 추가할 수 없습니다. 마찬가지로 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 만든 단위 테스트 프로젝트에는 코딩된 UI 테스트를 추가할 수 없습니다.
 
 ## <a name="compatibility-issues-between-visual-studio-2010-and-visual-studio-2012"></a>Visual Studio 2010과 Visual Studio 2012 간의 호환성 문제
  다음 표에서는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 과 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]간에 코딩된 UI 테스트를 마이그레이션하는 경우 주의해야 할 문제에 대해 설명합니다.
 
 > [!CAUTION]
->  솔루션 탐색기에 나타나지 않는 코딩된 UI 테스트 프로젝트의 참조와 관련된 알려진 문제가 있습니다. 자세한 내용은 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 설치 미디어에 포함된 추가 정보 파일을 참조하세요.
+> 솔루션 탐색기에 나타나지 않는 코딩된 UI 테스트 프로젝트의 참조와 관련된 알려진 문제가 있습니다. 자세한 내용은 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 설치 미디어에 포함된 추가 정보 파일을 참조하세요.
 
 |코딩된 UI 기능|문제|솔루션|
 |----------------------------|-----------|--------------|

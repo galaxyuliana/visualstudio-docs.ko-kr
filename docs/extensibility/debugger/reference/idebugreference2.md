@@ -12,18 +12,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d34b7a915f2eb2bd1ddf9440c543d652de8eb892
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: b1096755c1647f976b76ab61be1c24b358d4363d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412636"
 ---
 # <a name="idebugreference2"></a>IDebugReference2
 이 인터페이스는 스택 프레임 속성 또는 다른 일부 속성에 대 한 참조를 나타냅니다.
 
 > [!NOTE]
->  `IDebugReference2` 나중에 사용할 수 있도록 하 고 해당 메서드를 반환할지 모든 용으로 예약 되어 `E_NOTIMPL`입니다.
+> `IDebugReference2` 나중에 사용할 수 있도록 하 고 해당 메서드를 반환할지 모든 용으로 예약 되어 `E_NOTIMPL`입니다.
 
 ## <a name="syntax"></a>구문
 
@@ -57,7 +57,7 @@ IDebugReference2 : IUnknown
 ## <a name="remarks"></a>설명
 
 > [!NOTE]
->  "Property"이이 사용 해야 혼동 하지 해당 클래스의 멤버 변수 의미 하지만 `IDebugReference2` 이러한 엔터티를 나타낼 수 있습니다.
+> "Property"이이 사용 해야 혼동 하지 해당 클래스의 멤버 변수 의미 하지만 `IDebugReference2` 이러한 엔터티를 나타낼 수 있습니다.
 
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 속성을 나타내는 동안 `IDebugReference2` 속성을 일반적으로 디버깅 중인 프로그램의 개체에 대 한 참조에 대 한 참조를 나타냅니다.
 

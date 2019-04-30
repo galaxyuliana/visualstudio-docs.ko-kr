@@ -13,18 +13,18 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 2c67ff6e458f8350ef36a8a454e017b3ce6ea114
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 85704ed9e9a9493ef02e4d4d68a84a2d1623533f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58144929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446854"
 ---
 # <a name="idisperror-interface"></a>IDispError 인터페이스
 자세한 상황별 오류 정보를 제공합니다.  
   
 > [!NOTE]
->  이 인터페이스가 구현 되지 않았습니다.  
+> 이 인터페이스가 구현 되지 않았습니다.  
   
  상속 된 메서드 외에도 `IUnknown`, `IDispError` 인터페이스는 다음 메서드를 노출 합니다.  
   

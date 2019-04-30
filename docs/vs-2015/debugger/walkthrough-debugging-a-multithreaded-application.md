@@ -17,12 +17,12 @@ caps.latest.revision: 42
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: aa74d6ca668203f7b13f11307ac59ef5270aac9b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7d598cc245421aafb05cbf91fe2b7a95e39564a2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444328"
 ---
 # <a name="walkthrough-debugging-a-multithreaded-application"></a>연습: 다중 스레드 응용 프로그램 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -124,7 +124,7 @@ Thread::Sleep(3000);
 2. 로 이동 합니다 **디버그 위치** 도구 모음을 클릭 합니다 **스레드** 목록입니다.  
   
     > [!NOTE]
-    >  세 가지 중요 한 목록을 통해이 도구 모음을 인식할 수 있습니다. **프로세스**, **스레드**, 및 **스택 프레임이**합니다.  
+    > 세 가지 중요 한 목록을 통해이 도구 모음을 인식할 수 있습니다. **프로세스**, **스레드**, 및 **스택 프레임이**합니다.  
   
 3. 목록에 나타나는 스레드 수를 확인합니다.  
   

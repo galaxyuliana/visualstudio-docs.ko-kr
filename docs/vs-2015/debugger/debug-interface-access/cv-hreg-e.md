@@ -13,12 +13,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0b5a8c0ec9d7dfcae3cd97b0018de355ae7748a4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ace9f28c0726a762e0ffe2abcf0538c5a629b06c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443511"
 ---
 # <a name="cvhrege"></a>CV_HREG_e
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60116851"
 대상 레지스터를 지정합니다.  
   
 > [!NOTE]
->  때문에 `CV_HREG_e` 열거형 여기 전체적으로 복제 하려면 너무 크면 축약된 된 버전 참조로 제공 됩니다. 누락 된 항목 기울임꼴로 표시 됩니다. 전체 열거형 cvconst.h 헤더 파일에서 제공 됩니다.  
+> 때문에 `CV_HREG_e` 열거형 여기 전체적으로 복제 하려면 너무 크면 축약된 된 버전 참조로 제공 됩니다. 누락 된 항목 기울임꼴로 표시 됩니다. 전체 열거형 cvconst.h 헤더 파일에서 제공 됩니다.  
   
 ## <a name="syntax"></a>구문  
   

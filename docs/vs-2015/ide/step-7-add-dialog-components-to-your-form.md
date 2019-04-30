@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5c49de0af6cbb02c441489cbfa7b1d8a7b3881df
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 54d2b83fab24aa3c9deabc979782d9b82ea5c482
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442480"
 ---
 # <a name="step-7-add-dialog-components-to-your-form"></a>7단계: 폼에 대화 상자 구성 요소 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60061478"
 1. Windows Forms 디자이너(Form1.cs[디자인] 또는 Form1.vb[디자인])를 선택하고 도구 상자에서 **대화 상자** 그룹을 엽니다.  
   
     > [!NOTE]
-    >  도구 상자의 **대화 상자** 그룹에는 파일을 열거나 닫고, 폴더를 찾아보고, 글꼴과 색을 선택하는 데 사용할 수 있는 많은 유용한 대화 상자를 여는 구성 요소가 있습니다. 이 프로젝트에서 다음과 같은 두 개의 대화 상자 구성 요소를 사용합니다. **OpenFileDialog** 하 고 **ColorDialog**합니다.  
+    > 도구 상자의 **대화 상자** 그룹에는 파일을 열거나 닫고, 폴더를 찾아보고, 글꼴과 색을 선택하는 데 사용할 수 있는 많은 유용한 대화 상자를 여는 구성 요소가 있습니다. 이 프로젝트에서 다음과 같은 두 개의 대화 상자 구성 요소를 사용합니다. **OpenFileDialog** 하 고 **ColorDialog**합니다.  
   
 2. **openFileDialog1**이라는 구성 요소를 폼에 추가하려면 **OpenFileDialog**를 두 번 클릭합니다. **colorDialog1**이라는 구성 요소를 폼에 추가하려면 도구 상자에서 **ColorDialog**를 두 번 클릭합니다. 다음 자습서 단계에서는 이 구성 요소가 사용됩니다. Windows Forms 디자이너의 맨 아래(사진 뷰어 폼 바로 아래)에서 다음 그림과 같이 두 대화 상자 구성 요소 각각에 대한 아이콘이 포함된 영역을 볼 수 있습니다.  
   
@@ -50,7 +50,7 @@ ms.locfileid: "60061478"
          **필터** 속성 설정은 **그림 선택** 파일 대화 상자에 표시되는 파일 형식을 지정합니다.  
   
     > [!NOTE]
-    >  다른 애플리케이션에서 **파일 열기** 대화 상자의 예제를 보려면 메모장이나 그림판을 열고 메뉴 모음에서 **파일**, **열기**를 선택합니다. 맨 아래에 있는 **파일 형식** 드롭다운 목록을 살펴봅니다. 이러한 값은 단순히 **OpenFileDialog** 구성 요소의 **필터** 속성을 사용하여 설정했습니다. 또한 **속성** 창에서 굵게 표시된 **제목** 및 **필터** 속성도 살펴봅니다. IDE에서는 굵은 글꼴을 사용하여 기본값에서 변경된 속성을 표시합니다.  
+    > 다른 애플리케이션에서 **파일 열기** 대화 상자의 예제를 보려면 메모장이나 그림판을 열고 메뉴 모음에서 **파일**, **열기**를 선택합니다. 맨 아래에 있는 **파일 형식** 드롭다운 목록을 살펴봅니다. 이러한 값은 단순히 **OpenFileDialog** 구성 요소의 **필터** 속성을 사용하여 설정했습니다. 또한 **속성** 창에서 굵게 표시된 **제목** 및 **필터** 속성도 살펴봅니다. IDE에서는 굵은 글꼴을 사용하여 기본값에서 변경된 속성을 표시합니다.  
   
 ### <a name="to-continue-or-review"></a>계속하거나 검토하려면  
   

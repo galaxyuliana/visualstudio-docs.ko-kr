@@ -12,12 +12,12 @@ ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
 caps.latest.revision: 31
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: ded1741c9364ca9fa706441b5cfa313ce6e58569
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 3c6c7bb6d149281048d281cb7af13fe51d75ffd5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443890"
 ---
 # <a name="inside-the-visual-studio-sdk"></a>Visual Studio SDK 기본 사항
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -71,7 +71,7 @@ Visual Studio 아키텍처의 일반화 된 보기
 ## <a name="document-windows"></a>문서 창  
  문서 창에는 다중 문서 인터페이스 (MDI) 창 프레임이 자식 창이입니다. 문서 창은 텍스트 편집기, 폼 편집기 (라고도 디자이너) 또는 편집 컨트롤을 호스트 하기 일반적으로 사용 되지만 다른 기능 종류를 호스팅할 수도 있습니다. 합니다 **새 파일** 대화 상자에 Visual Studio에서 제공 하는 문서 창의 예입니다.  
   
- 대부분의 편집기는 프로그래밍 언어 또는 HTML 페이지, 프레임셋, c + + 파일 또는 헤더 파일과 같은 파일 형식에 적용 됩니다. 템플릿을 선택 하 여 합니다 **새 파일** 대화 상자에서 사용자를 동적으로 만듭니다 문서 창 편집기 템플릿과 사용 하 여 연결 된 파일 형식에 대 한 합니다. 사용자가 기존 파일을 열 때 문서 창이 만들어집니다.  
+ 대부분의 편집기는 프로그래밍 언어 또는 프레임을 HTML 페이지와 같은 파일 형식에 특정 C++ 파일 또는 헤더 파일입니다. 템플릿을 선택 하 여 합니다 **새 파일** 대화 상자에서 사용자를 동적으로 만듭니다 문서 창 편집기 템플릿과 사용 하 여 연결 된 파일 형식에 대 한 합니다. 사용자가 기존 파일을 열 때 문서 창이 만들어집니다.  
   
  문서 창은 MDI 클라이언트 영역으로 제한 됩니다. 각 문서 창 위쪽에 탭 및 탭 순서 MDI 영역에 열려 있을 수 있는 다른 창에 연결 됩니다. 여러 가로 또는 세로 탭 그룹을 MDI 영역을 분할 하는 옵션을 포함 하는 바로 가기 메뉴를 표시 문서 창의 탭을 마우스 오른쪽 단추로 클릭 합니다. MDI 영역 분할 여러 파일을을 동시에 볼 수 있습니다. 자세한 내용은 [문서 Windows](../../extensibility/internals/document-windows.md)합니다.  
   
@@ -98,7 +98,7 @@ Visual Studio 아키텍처의 일반화 된 보기
  템플릿에 특정 종류의 응용 프로그램, 컨트롤, 라이브러리 또는 클래스를 작성 하는 데 필요한 기본 파일과 프로젝트 구조에 포함 됩니다. 템플릿 중 하 나와 유사한 소프트웨어를 개발 하려는 경우 템플릿을 기반으로 하는 프로젝트를 만들고 해당 프로젝트에서 파일을 수정 합니다.  
   
 > [!NOTE]
->  이 템플릿 구조에 대 한 지원 되지 않습니다 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트입니다. 만드는 방법에 대 한 자세한 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트 템플릿을 참조 하십시오 [마법사 디자인](http://msdn.microsoft.com/library/a7c0be7e-9297-4fed-83e3-5645c896d56b)합니다.  
+> 이 템플릿 구조에 대 한 지원 되지 않습니다 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트입니다. 만드는 방법에 대 한 자세한 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트 템플릿을 참조 하십시오 [마법사 디자인](http://msdn.microsoft.com/library/a7c0be7e-9297-4fed-83e3-5645c896d56b)합니다.  
   
  자세한 내용은 [추가 프로젝트 및 프로젝트 항목 템플릿](../../extensibility/internals/adding-project-and-project-item-templates.md)합니다.  
   

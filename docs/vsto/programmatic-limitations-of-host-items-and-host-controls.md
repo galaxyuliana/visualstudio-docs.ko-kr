@@ -30,12 +30,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 488551d9b86ec7bd09adadd92d515cac1a53e841
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: d885ba9d32126e0d77828047adbde84d557fd821
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447084"
 ---
 # <a name="programmatic-limitations-of-host-items-and-host-controls"></a>호스트 항목 및 호스트 컨트롤의 프로그래밍 방식으로 제한 사항
   각 호스트 항목 및 호스트 컨트롤은 추가 기능을 통해 해당 네이티브 Microsoft Office Word 또는 Microsoft Office Excel 개체처럼 동작하도록 설계되었습니다. 그러나 런타임에 호스트 항목과 호스트 컨트롤의 동작과 네이티브 Office 개체 간에는 몇 가지 근본적인 차이가 있습니다.
@@ -57,7 +57,7 @@ ms.locfileid: "56596152"
  호스트 컨트롤은 네이티브 <xref:Microsoft.Office.Interop.Word.Document> 또는 <xref:Microsoft.Office.Interop.Excel.Worksheet>에 추가할 수 없습니다.
 
 > [!NOTE]
->  <xref:Microsoft.Office.Tools.Excel.XmlMappedRange>, <xref:Microsoft.Office.Tools.Word.XMLNode>, <xref:Microsoft.Office.Tools.Word.XMLNodes>호스트 컨트롤은 프로그래밍 방식으로 워크시트 또는 문서에 추가할 수 없습니다.
+> <xref:Microsoft.Office.Tools.Excel.XmlMappedRange>, <xref:Microsoft.Office.Tools.Word.XMLNode>, <xref:Microsoft.Office.Tools.Word.XMLNodes>호스트 컨트롤은 프로그래밍 방식으로 워크시트 또는 문서에 추가할 수 없습니다.
 
 ## <a name="understand-type-differences-between-host-items-host-controls-and-native-office-objects"></a>호스트 항목, 호스트 컨트롤과 네이티브 Office 개체 간 형식의 차이점 이해
  각 호스트 항목 및 호스트 컨트롤의 경우 기본 네이티브 Microsoft Office Word 또는 Microsoft Office Excel 개체가 있습니다. 호스트 항목이 나 호스트 컨트롤의 InnerObject 속성을 사용 하 여 기본 개체를 액세스할 수 있습니다. 그러나 해당 호스트 항목이나 호스트 컨트롤에 네이티브 Office 개체를 캐스트하는 방법은 없습니다. 네이티브 Office 개체를 호스트 항목이나 호스트 컨트롤의 형식으로 캐스트하려는 경우 <xref:System.InvalidCastException> 이 throw됩니다.

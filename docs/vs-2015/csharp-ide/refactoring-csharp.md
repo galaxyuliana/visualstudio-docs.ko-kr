@@ -18,12 +18,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ca7a85bf7ace1f9aeb0e47e031cda5f793df2331
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fa8fbfd8837fb35617b79089fffd11ea3b8d2e93
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444538"
 ---
 # <a name="refactoring-c"></a>리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "60046320"
  컴파일러에서 프로그램을 완벽 하 게 이해 되지 않은 경우 리팩터링 엔진에서는 적절 한 모든 참조를 업데이트 하지 않을 수 있습니다 수 경고 대화 상자가 표시 됩니다. 또한이 경고 대화 상자에서 코드를 미리 볼 수 있는 기회를 제공 합니다 **변경 내용 미리 보기** 변경 내용을 커밋하기 전에 대화 상자.  
   
 > [!NOTE]
->  메서드는 구문 오류 (빨간색 물결선 밑줄이 있는 IDE을 나타냄)를 포함 한 다음 리팩터링 엔진은 해당 메서드 내에서 요소에 대 한 참조를 업데이트 되지 않습니다. 아래 예제에서는이 동작을 보여 줍니다.  
+> 메서드는 구문 오류 (빨간색 물결선 밑줄이 있는 IDE을 나타냄)를 포함 한 다음 리팩터링 엔진은 해당 메서드 내에서 요소에 대 한 참조를 업데이트 되지 않습니다. 아래 예제에서는이 동작을 보여 줍니다.  
   
  기본적으로 실행 하는 경우 참조를 미리 보지 않고 리팩터링 작업을 변경 프로그램에 컴파일 오류가 검색 되 고 개발 환경에이 경고 대화 상자가 표시 됩니다.  
   

@@ -23,12 +23,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: eb2f257feaa8faa6acf58c8e8763d15d08a1079e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 7a2531f1cc6352a03acf0b3d6af82c35e47c2743
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387724"
 ---
 # <a name="bdc-model-design-tools-overview"></a>BDC 모델 디자인 도구 개요
   BDC 디자이너를 사용 하 여 비즈니스 데이터 연결 (BDC) 모델을 디자인할 수는 **BDC 메서드 세부 정보** 창 및 **BDC 탐색기**합니다.
@@ -63,13 +63,13 @@ ms.locfileid: "56596570"
  노드를 선택 하 여는 **BDC 탐색기**를 선택 하는 각 노드의 속성에 표시 합니다 **속성** 창. 이러한 속성 중 상당수 모델 파일에 있는 특성에 해당합니다. 맨 위에 있는 검색 상자를 사용 하 여 모델을 검색할 수는 **BDC 탐색기**합니다.
 
 > [!NOTE]
->  합니다 **BDC 탐색기** 식별자, 사용자 지정 속성, 지역화 된 문자열, 연결 그룹, 작업, 필터 설명자, 작업 컨트롤 목록 및 기본 매개 변수 값 표시 되지 않습니다.
+> 합니다 **BDC 탐색기** 식별자, 사용자 지정 속성, 지역화 된 문자열, 연결 그룹, 작업, 필터 설명자, 작업 컨트롤 목록 및 기본 매개 변수 값 표시 되지 않습니다.
 
 ### <a name="define-type-descriptors"></a>형식 설명자를 정의 합니다.
  사용 된 **BDC 탐색기** 형식 설명자를 정의 합니다. BDC 탐색기를 사용 하면 한 번 형식 설명자를 정의 하 고 다음 모델의 다른 위치에서 형식 설명자는 다시 사용할 수 있습니다. 이렇게 하려면 형식 설명자를 복사 하 고 다른 매개 변수를 붙여 넣습니다 또는 형식 설명자입니다.
 
 > [!NOTE]
->  원래 형식 설명자에 대 한 변경 내용을 해당 형식 설명자의 복사본을 주지 않습니다.
+> 원래 형식 설명자에 대 한 변경 내용을 해당 형식 설명자의 복사본을 주지 않습니다.
 
  자세한 내용은 [방법: 매개 변수의 형식 설명자 정의](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)합니다.
 

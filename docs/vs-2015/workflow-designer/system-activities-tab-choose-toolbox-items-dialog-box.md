@@ -12,18 +12,18 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ddeffb8d6421044db0f1e7bb6db63c3fa7e2119e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 29eb905a4852bf521ebee72a498b44edbdcef8df
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445397"
 ---
 # <a name="systemactivities-tab-choose-toolbox-items-dialog-box"></a>System.Activities 탭, 도구 상자 항목 선택 대화 상자
 이 탭에는 **도구 상자 항목 선택** 대화 상자에 목록이 표시 됩니다 [!INCLUDE[wf](../includes/wf-md.md)] 활동, 템플릿 및 항목을 사용할 수 있습니다. 이 목록을 표시 하려면 선택 **도구 상자 항목 선택** 에서 **도구** 메뉴 또는 마우스 오른쪽 단추로 클릭 합니다 **도구 상자** 선택 하 고 **항목 선택**표시할 합니다 **도구 상자 항목 선택** 대화 상자에서 선택한 후 해당 **System.Activities** 탭 합니다. 목록에 기본적으로 System.Activities, System.ServiceModel.Activities 및 System.Activities.Core.Presentation 어셈블리의 워크플로 활동이 포함 그러나만 시스템에서 제공한 표시 하는 활동 및 활동에 표시 되는 다른 어셈블리를 통해 추가 된 **도구 상자** 기본적으로 선택 됩니다. 최근에 추가 된 활동을 자동으로 선택 됩니다 및에 표시 된 **도구 상자** 클릭 하면 **확인** 대화 상자에서. 또한 이러한 항목에는 표시 된 **도구 상자** 활동/항목/템플릿이 있는 네임 스페이스에 해당 하는 새 범주입니다.  
   
 > [!WARNING]
->  워크플로 활동이 없는 어셈블리를 추가하려고 하면 해당 어셈블리에 활동이 없음을 알리는 오류 대화 상자가 표시됩니다.  
+> 워크플로 활동이 없는 어셈블리를 추가하려고 하면 해당 어셈블리에 활동이 없음을 알리는 오류 대화 상자가 표시됩니다.  
   
  이 대화 상자는 프로젝트를 알 수 있으므로 합니다 **System.Activities** 탭 계속 독립 실행형 XAML 또는 워크플로가 아닌 프로젝트 형식에 표시 합니다.  
   

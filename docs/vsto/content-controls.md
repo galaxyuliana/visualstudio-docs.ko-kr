@@ -38,12 +38,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: cca58ec0c9f493cd418cbb5aabca7a8d2c1939b4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4cecbaf834185e66d7d584d58d2abb4dbdf46f9e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445595"
 ---
 # <a name="content-controls"></a>콘텐츠 컨트롤
   콘텐츠 컨트롤은 다음과 같은 기능이 있는 문서와 템플릿을 디자인하는 방법을 제공합니다.
@@ -72,7 +72,7 @@ ms.locfileid: "60062180"
   문서 수준 프로젝트에서는 디자인 타임 또는 런타임에 콘텐츠 컨트롤을 문서에 추가할 수 있습니다. VSTO 추가 기능 프로젝트에서는 런타임에 열려 있는 임의 문서에 콘텐츠 컨트롤을 추가할 수 있습니다. 자세한 내용은 [방법: Word 문서에 콘텐츠 컨트롤 추가](../vsto/how-to-add-content-controls-to-word-documents.md)합니다.
 
 > [!NOTE]
->  Open XML 형식으로 저장 된 문서 에서만에서 콘텐츠 컨트롤을 사용할 수 있습니다. Word 97-2003 문서에 저장 된 문서에 콘텐츠 컨트롤을 사용할 수 없습니다 (*.doc*) 형식입니다.
+> Open XML 형식으로 저장 된 문서 에서만에서 콘텐츠 컨트롤을 사용할 수 있습니다. Word 97-2003 문서에 저장 된 문서에 콘텐츠 컨트롤을 사용할 수 없습니다 (*.doc*) 형식입니다.
 
 ## <a name="types-of-content-controls"></a>콘텐츠 컨트롤 형식
  문서에 추가할 수 있는 9가지 형식의 콘텐츠 컨트롤이 있습니다. 대부분의 콘텐츠 컨트롤은 <xref:Microsoft.Office.Tools.Word> 네임스페이스에 해당 형식이 있습니다. 사용 가능한 콘텐츠 컨트롤 중 하나를 나타낼 수 있는 제네릭 <xref:Microsoft.Office.Tools.Word.ContentControl>을 사용할 수도 있습니다. 각 사용 가능한 콘텐츠 컨트롤을 사용 하는 방법을 보여 주는 연습을 참조 하세요. [연습: 콘텐츠 컨트롤을 사용 하 여 템플릿을 만드는](../vsto/walkthrough-creating-a-template-by-using-content-controls.md)합니다.
@@ -137,7 +137,7 @@ ms.locfileid: "60062180"
   보호하려는 영역이 콘텐츠 컨트롤 안에 없거나 콘텐츠 컨트롤 및 다른 형식의 콘텐츠를 포함하는 영역을 보호하려는 경우 <xref:Microsoft.Office.Tools.Word.GroupContentControl>에 전체 영역을 넣을 수 있습니다. 다른 콘텐츠 컨트롤과 달리 <xref:Microsoft.Office.Tools.Word.GroupContentControl>은 사용자에게 표시되는 UI를 제공하지 않습니다. 사용자가 편집할 수 없는 영역을 정의하는 용도로만 사용됩니다.
 
 > [!NOTE]
->  포함된 콘텐츠 컨트롤을 포함하는 <xref:Microsoft.Office.Tools.Word.GroupContentControl>을 만드는 경우 포함된 콘텐츠 컨트롤은 자동으로 보호되지 않습니다. 사용 해야 합니다 **LockContents** 각 속성이 내용을 편집 하지 못하게 하려면 컨트롤을 포함 합니다.
+> 포함된 콘텐츠 컨트롤을 포함하는 <xref:Microsoft.Office.Tools.Word.GroupContentControl>을 만드는 경우 포함된 콘텐츠 컨트롤은 자동으로 보호되지 않습니다. 사용 해야 합니다 **LockContents** 각 속성이 내용을 편집 하지 못하게 하려면 컨트롤을 포함 합니다.
 
  콘텐츠 컨트롤을 사용 하 여 문서 부분을 보호 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 콘텐츠 컨트롤을 사용 하 여 문서 부분 보호](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md)합니다.
 
@@ -170,7 +170,7 @@ ms.locfileid: "60062180"
  또한 콘텐츠 컨트롤은 컨트롤의 변경 내용이 데이터 소스에 업데이트되는 양방향 데이터 바인딩을 지원합니다. 자세한 내용은 [방법: 호스트 컨트롤의 데이터로 데이터 소스를 업데이트](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)합니다.
 
 > [!NOTE]
->  콘텐츠 컨트롤은 복잡한 데이터 바인딩을 지원하지 않습니다. Windows Forms 데이터 모델을 사용하여 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> 또는 <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>을 데이터 소스에 바인딩하는 경우 사용자가 컨트롤을 클릭하면 단일 값만 표시됩니다. 사용자가 선택할 수 있는 데이터 값 집합에 이러한 컨트롤을 바인딩하려는 경우 사용자 지정 XML 부분의 요소에 해당 컨트롤을 바인딩할 수 있습니다.
+> 콘텐츠 컨트롤은 복잡한 데이터 바인딩을 지원하지 않습니다. Windows Forms 데이터 모델을 사용하여 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> 또는 <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl>을 데이터 소스에 바인딩하는 경우 사용자가 컨트롤을 클릭하면 단일 값만 표시됩니다. 사용자가 선택할 수 있는 데이터 값 집합에 이러한 컨트롤을 바인딩하려는 경우 사용자 지정 XML 부분의 요소에 해당 컨트롤을 바인딩할 수 있습니다.
 
 ### <a name="bind-content-controls-to-custom-xml-parts"></a>사용자 지정 XML 부분에 콘텐츠 컨트롤 바인딩
  문서에 포함된 사용자 지정 XML 부분의 요소에 일부 콘텐츠 컨트롤을 바인딩할 수 있습니다. 사용자 지정 XML 부분에 대 한 자세한 내용은 참조 하세요. [사용자 지정 XML 부분 개요](../vsto/custom-xml-parts-overview.md)합니다.

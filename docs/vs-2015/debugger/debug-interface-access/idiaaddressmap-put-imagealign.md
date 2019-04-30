@@ -13,12 +13,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 833fed131ea99817b78c3834833021a50e3e6d80
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 5e0fa57c38c8451bde84d96ab32bc7980c5e2d8b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442216"
 ---
 # <a name="idiaaddressmapputimagealign"></a>IDiaAddressMap::put_imageAlign
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ HRESULT put_imageAlign ( 
  현재 이미지 맞춤을 호출 하 여 검색할 수는 [idiaaddressmap:: Get_imagealign](../../debugger/debug-interface-access/idiaaddressmap-get-imagealign.md) 메서드.  
   
 > [!NOTE]
->  이미지는이 메서드를 호출할 수에 의해 이미 로드 되었습니다. `put_imageAlign` 메서드는 새 맞춤이 필요 하 고 이미지 이동 되거나 변경 된 경우에 일반적으로 사용 됩니다.  
+> 이미지는이 메서드를 호출할 수에 의해 이미 로드 되었습니다. `put_imageAlign` 메서드는 새 맞춤이 필요 하 고 이미지 이동 되거나 변경 된 경우에 일반적으로 사용 됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)   

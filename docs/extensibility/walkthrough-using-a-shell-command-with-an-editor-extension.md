@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dd3011664cc2261b0213e7ce743167579b2b0786
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d0eade1bf17955bce52ea53b159f23102afb74b8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444924"
 ---
 # <a name="walkthrough-use-a-shell-command-with-an-editor-extension"></a>연습: 편집기 확장에서 셸 명령 사용
 VSPackage에서 편집기 메뉴 명령과 같은 기능을 추가할 수 있습니다. 이 연습에서는 adornment 메뉴 명령을 호출 하 여 편집기에서 텍스트 뷰를 추가 하는 방법을 보여 줍니다.
@@ -52,7 +52,7 @@ VSPackage에서 편집기 메뉴 명령과 같은 기능을 추가할 수 있습
  MEF 구성 요소를 추가 하는 VSPackage에 있으므로 매니페스트에 두 종류의 자산을 지정 해야 합니다.
 
 > [!NOTE]
->  MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](/dotnet/framework/mef/index)합니다.
+> MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](/dotnet/framework/mef/index)합니다.
 
 ### <a name="to-refer-to-the-mef-component-in-the-vspackage-project"></a>VSPackage 프로젝트를 MEF 구성 요소에 대 한 참조
 

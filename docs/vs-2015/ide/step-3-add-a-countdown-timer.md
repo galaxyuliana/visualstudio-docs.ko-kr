@@ -9,12 +9,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f0b98fa4b3182db71567d61569cddf4cfae33ec1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d95708f940bfb12f67903f41d9f030a77877008d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442605"
 ---
 # <a name="step-3-add-a-countdown-timer"></a>3단계: 카운트다운 타이머 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60094824"
 이 자습서의 3단계에서는 퀴즈를 푸는 사람이 퀴즈를 마칠 때까지 남은 시간(초)을 추적하도록 카운트다운 타이머를 추가합니다.  
   
 > [!NOTE]
->  이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
+> 이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
   
 ### <a name="to-add-a-countdown-timer"></a>카운트다운 타이머를 추가하려면  
   
@@ -57,7 +57,7 @@ ms.locfileid: "60094824"
      이제 프로그램에서 결정을 내리도록 지시하는 방법인 `if else` 문을 추가했습니다. `if else` 문은 다음과 같습니다.  
   
     > [!NOTE]
-    >  다음 예제는 이해를 돕기 위한 것일 뿐입니다. 프로젝트에 추가하지 마십시오.  
+    > 다음 예제는 이해를 돕기 위한 것일 뿐입니다. 프로젝트에 추가하지 마십시오.  
   
     ```vb  
     If (something that your program will check) Then  
