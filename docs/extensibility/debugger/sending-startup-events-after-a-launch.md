@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4c9363270593f1d492ec57d119f9a70f8371b0ac
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 2f82ab0b28c1052a0d6a4cb0b2db7e6bbaaba8cc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56685900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420587"
 ---
 # <a name="send-startup-events-after-a-launch"></a>시작 후 시작 이벤트 보내기
 디버그 엔진 (DE) 프로그램에 연결 된 후 디버그 세션에 다시 일련의 시작 이벤트를 보냅니다.
@@ -31,7 +31,7 @@ ms.locfileid: "56685900"
 - 로드 완료 이벤트를 전송한 코드가 로드 및 실행할 준비가 되 면 모든 코드가 실행 되기 전에 합니다.
 
   > [!NOTE]
-  >  이 이벤트가 계속 되 면 전역 변수 초기화 되 고 시작 루틴 실행 됩니다.
+  > 이 이벤트가 계속 되 면 전역 변수 초기화 되 고 시작 루틴 실행 됩니다.
 
 - 가능한 다른 스레드 생성 및 모듈 로드 이벤트입니다.
 

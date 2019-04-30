@@ -18,17 +18,17 @@ caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 835bab46a9537a3a54d0155d9835ab11eaa4c834
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 27090998a7afa6f99da9152e1f5bb7407fed6aa0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63423264"
 ---
 # <a name="clickonce-security-and-deployment"></a>ClickOnce 보안 및 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 게시 및 Visual Basic 및 Visual C#을 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 합니다. Visual c + + 응용 프로그램을 배포 하는 방법에 대 한 내용은 [Visual c + + 응용 프로그램에 대 한 ClickOnce 배포](http://msdn.microsoft.com/library/9988c546-0936-452c-932f-9c76daa42157)합니다.  
+[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 게시 및 Visual Basic 및 Visual C#을 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 합니다. 시각적 개체를 배포 하는 방법은 C++ 응용 프로그램을 참조 하세요 [시각적 개체에 대 한 ClickOnce 배포 C++ 응용 프로그램](http://msdn.microsoft.com/library/9988c546-0936-452c-932f-9c76daa42157)합니다.  
   
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포는 배포에서 세 가지 주요 문제를 극복 합니다.  
   
@@ -78,13 +78,13 @@ ms.locfileid: "58970708"
  응용 프로그램 사용자에 추가할 수 있습니다 **시작** 메뉴 및 합니다 **프로그램 추가 / 제거** 그룹에 **제어판**. 다른 배포 기술과 달리 아무 것도 추가 합니다 **Program Files** 설치에는 폴더 또는 레지스트리 및 관리 권한이 없는 필요  
   
 > [!NOTE]
->  에 추가 되 고 응용 프로그램을 방지할 수 이기도 합니다 **시작** 메뉴 및 **프로그램 추가 / 제거** 그룹, 웹 응용 프로그램 처럼 적용 하므로. 자세한 내용은 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)을 참조하세요.  
+> 에 추가 되 고 응용 프로그램을 방지할 수 이기도 합니다 **시작** 메뉴 및 **프로그램 추가 / 제거** 그룹, 웹 응용 프로그램 처럼 적용 하므로. 자세한 내용은 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)을 참조하세요.  
   
 ### <a name="updating-clickonce-applications"></a>ClickOnce 응용 프로그램 업데이트  
  응용 프로그램 개발자가 응용 프로그램의 업데이트 된 버전을 만들 때 새 응용 프로그램 매니페스트를 생성 하며 배포 위치에 파일 복사-일반적으로 형제 폴더로 원래 응용 프로그램 배포. 관리자는 애플리케이션의 새 버전 위치를 가리키도록 배포 매니페스트를 업데이트합니다.  
   
 > [!NOTE]
->  합니다 **게시 마법사** 이러한 단계를 수행 하려면 Visual Studio에서 사용할 수 있습니다.  
+> 합니다 **게시 마법사** 이러한 단계를 수행 하려면 Visual Studio에서 사용할 수 있습니다.  
   
  배포 위치 외에도 배포 매니페스트에는 애플리케이션이 업데이트된 버전을 확인할 수 있는 업데이트 위치(웹 페이지 또는 네트워크 파일 공유)가 포함됩니다. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] **게시** 속성은 응용 프로그램 업데이트를 확인 하는 시기 및 빈도 지정 하는 데 사용 됩니다. 업데이트 동작은 배포 매니페스트에서 지정할 수 있습니다 또는 이용 하 여 응용 프로그램의 사용자 인터페이스에서 사용자 선택으로 제공할 수 있습니다는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] Api. 또한 **게시** 속성을 사용하여 업데이트를 강제로 수행하거나 이전 버전으로 롤백하도록 지정할 수도 있습니다. 자세한 내용은 [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)을 참조하세요.  
   
@@ -98,7 +98,7 @@ ms.locfileid: "58970708"
 |----------|-----------------|  
 |[프로젝트 디자이너, 보안 페이지](../ide/reference/security-page-project-designer.md)|응용 프로그램 및 배포 매니페스트에 서명 합니다.|  
 |[프로젝트 디자이너, 게시 페이지](../ide/reference/publish-page-project-designer.md)|생성 하 고 Visual Basic 및 Visual C# 응용 프로그램에 대 한 응용 프로그램 및 배포 매니페스트를 편집 합니다.|  
-|[Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)|Visual Basic, Visual C# 및 Visual c + + 응용 프로그램에 대 한 응용 프로그램 및 배포 매니페스트를 생성합니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.<br /><br /> 일괄 처리 스크립트 및 명령 프롬프트에서 실행할 수 있습니다.|  
+|[Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)|Visual Basic의 경우 시각적 개체에 대 한 응용 프로그램 및 배포 매니페스트를 생성 C#, 및 시각적 C++ 응용 프로그램입니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.<br /><br /> 일괄 처리 스크립트 및 명령 프롬프트에서 실행할 수 있습니다.|  
 |[MageUI.exe(매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)|생성 하 고 응용 프로그램 및 배포 매니페스트를 편집 합니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.|  
 |[GenerateApplicationManifest 작업](../msbuild/generateapplicationmanifest-task.md)|응용 프로그램 매니페스트를 생성합니다.<br /><br /> MSBuild에서 실행할 수 있습니다. 자세한 내용은 [MSBuild 참조](../msbuild/msbuild-reference.md)를 참조하세요.|  
 |[GenerateDeploymentManifest 작업](../msbuild/generatedeploymentmanifest-task.md)|배포 매니페스트를 생성합니다.<br /><br /> MSBuild에서 실행할 수 있습니다. 자세한 내용은 [MSBuild 참조](../msbuild/msbuild-reference.md)를 참조하세요.|  

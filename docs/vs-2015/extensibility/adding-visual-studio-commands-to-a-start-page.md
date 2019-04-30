@@ -11,12 +11,12 @@ ms.assetid: a8e2765c-cfb5-47b5-a414-6e48b434e0c2
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 47f752f00e1efe130f029a3cabdd2e3e3bf19449
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 638c9c0f0d024830124445485dcf9991678bd4d7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429008"
 ---
 # <a name="adding-visual-studio-commands-to-a-start-page"></a>시작 페이지에 Visual Studio 명령 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
 ```  
   
 > [!NOTE]
->  `x:` 별칭 XAML 스키마를 참조 하는 모든 명령의 시작 부분에 필요 합니다.  
+> `x:` 별칭 XAML 스키마를 참조 하는 모든 명령의 시작 부분에 필요 합니다.  
   
  값을 설정할 수는 `Command` 속성에서 액세스할 수 있는 모든 명령에는 **명령** 창입니다. 사용 가능한 명령 목록을 참조 하세요 [Visual Studio 명령 별칭](../ide/reference/visual-studio-command-aliases.md)합니다.  
   
@@ -65,7 +65,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
  다른 Visual Studio 명령을 호출 하는 데 사용 되는 동일한 구문을 사용 하 여 등록 된 Vspackage에서 명령을 호출할 수 있습니다. 예를 들어, 설치 된 VSPackage를 추가 하는 경우는 **홈 페이지** 명령을 합니다 **보기** 메뉴 명령을 설정 하 여 호출할 수 있습니다 `CommandParameter` 에 `View.HomePage`합니다.  
   
 > [!NOTE]
->  VSPackage와 사용 하 여 연결된 명령을 호출 하는 경우에 명령이 호출 될 때 패키지 로드 되어야 합니다.  
+> VSPackage와 사용 하 여 연결된 명령을 호출 하는 경우에 명령이 호출 될 때 패키지 로드 되어야 합니다.  
   
 ## <a name="adding-commands-from-assemblies"></a>어셈블리의 명령 추가  
  메뉴 명령과 사용 하 여 연결 되지 않은 VSPackage에서 액세스 코드 또는 어셈블리에서 명령을 호출 하는 어셈블리에 대 한 별칭을 만듭니다 하며 그런 다음 별칭을 호출 합니다.  
@@ -89,7 +89,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
     ```  
   
 > [!NOTE]
->  어셈블리를 복사 하며 다음에 붙여 넣습니다... \\ *Visual Studio 설치 폴더*\Common7\IDE\PrivateAssemblies\ 호출 되기 전에 로드 되었는지 확인 합니다.  
+> 어셈블리를 복사 하며 다음에 붙여 넣습니다... \\ *Visual Studio 설치 폴더*\Common7\IDE\PrivateAssemblies\ 호출 되기 전에 로드 되었는지 확인 합니다.  
   
 ## <a name="adding-commands-with-the-dte-object"></a>DTE 개체를 사용 하 여 명령 추가  
  시작 페이지에서 태그와 코드에서 DTE 개체를 액세스할 수 있습니다.  

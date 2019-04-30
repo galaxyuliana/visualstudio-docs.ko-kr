@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d8dd2e677cae2e54a8dff716aef72f1d6abc6b40
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 2c671467f220e61de5ca9de56a2515a2e4836020
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602808"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418463"
 ---
 # <a name="how-to-create-a-vsct-file"></a>방법: .Vsct 파일 만들기
 
@@ -80,7 +80,7 @@ XML 기반을 만들 수 있습니다 *.vsct* 파일에서 기존 명령 테이�
     이 작업을 만듭니다 *.vsct* XML 명령 테이블 소스 파일이 있습니다. 사용 하 여 파일을 컴파일할 수 있습니다 *Vsct.exe*, VSCT 컴파일러인 것은 다른 *.vsct* 파일입니다.
 
    > [!NOTE]
-   >  가독성을 향상 시킬 수 있습니다 합니다 *.vsct* XML 주석 다시 포맷 하는 파일입니다.
+   > 가독성을 향상 시킬 수 있습니다 합니다 *.vsct* XML 주석 다시 포맷 하는 파일입니다.
 
 <a name="how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file"></a>
 
@@ -90,13 +90,13 @@ XML 기반을 만들 수 있습니다 *.vsct* 파일을 기존 이진 *.cto* 파
 
 ### <a name="to-create-a-vsct-file-from-a-cto-file"></a>.cto 파일에서 .vsct 파일을 만들려면
 
-1.  복사본을 가져옵니다 합니다 *.cto* 파일과 해당 *.ctsym* 파일입니다.
+1. 복사본을 가져옵니다 합니다 *.cto* 파일과 해당 *.ctsym* 파일입니다.
 
-2.  동일한 디렉터리에 파일을 배치 합니다 *vsct.exe* 컴파일러.
+2. 동일한 디렉터리에 파일을 배치 합니다 *vsct.exe* 컴파일러.
 
-3.  Visual Studio 명령 프롬프트에서 포함 된 디렉터리로 이동 합니다 *.cto* 하 고 *.ctsym* 파일입니다.
+3. Visual Studio 명령 프롬프트에서 포함 된 디렉터리로 이동 합니다 *.cto* 하 고 *.ctsym* 파일입니다.
 
-4.  형식
+4. 형식
 
     ```
     vsct.exe <ctofilename>.cto <vsctfilename>.vsct -S<symfilename>.ctsym
@@ -111,9 +111,9 @@ XML 기반을 만들 수 있습니다 *.vsct* 파일을 기존 이진 *.cto* 파
 
 ### <a name="to-add-a-vsct-file-to-project-compilation"></a>프로젝트 컴파일으로.vsct 파일을 추가 하려면
 
-1.  편집기에서 프로젝트 파일을 엽니다. 프로젝트 로드 되 면 먼저 언로드합니다 해야 있습니다.
+1. 편집기에서 프로젝트 파일을 엽니다. 프로젝트 로드 되 면 먼저 언로드합니다 해야 있습니다.
 
-2.  추가 [ItemGroup 요소](../../msbuild/itemgroup-element-msbuild.md) 포함 하는 `VSCTCompile` 요소를 다음 예제에서와 같이 합니다.
+2. 추가 [ItemGroup 요소](../../msbuild/itemgroup-element-msbuild.md) 포함 하는 `VSCTCompile` 요소를 다음 예제에서와 같이 합니다.
 
     ```xml
     <ItemGroup>
@@ -126,7 +126,7 @@ XML 기반을 만들 수 있습니다 *.vsct* 파일을 기존 이진 *.cto* 파
 
      합니다 `ResourceName` 요소는 항상으로 설정 `Menus.ctmenu`합니다.
 
-3.  프로젝트에 포함 된 경우는 *.resx* 파일을 추가 `EmbeddedResource` 포함 하는 요소는 `MergeWithCTO` 다음 예제에서와 같이 요소:
+3. 프로젝트에 포함 된 경우는 *.resx* 파일을 추가 `EmbeddedResource` 포함 하는 요소는 `MergeWithCTO` 다음 예제에서와 같이 요소:
 
     ```xml
     <EmbeddedResource Include="VSPackage.resx">
@@ -138,9 +138,9 @@ XML 기반을 만들 수 있습니다 *.vsct* 파일을 기존 이진 *.cto* 파
 
      이 태그 안에 있어야 합니다 `ItemGroup` 포함된 리소스를 포함 하는 요소입니다.
 
-4.  이름은 일반적으로 패키지 파일을 엽니다  *\<ProjectName\>Package.cs* 하거나  *\<ProjectName\>Package.vb*, 편집기에서.
+4. 이름은 일반적으로 패키지 파일을 엽니다  *\<ProjectName\>Package.cs* 하거나  *\<ProjectName\>Package.vb*, 편집기에서.
 
-5.  추가 된 `ProvideMenuResource` 다음 예제에서와 같이 패키지 클래스에 특성입니다.
+5. 추가 된 `ProvideMenuResource` 다음 예제에서와 같이 패키지 클래스에 특성입니다.
 
     ```csharp
     [ProvideMenuResource("Menus.ctmenu", 1)]

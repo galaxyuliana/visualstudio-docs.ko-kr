@@ -12,12 +12,12 @@ ms.assetid: 1043eb95-4f0d-4861-be21-2a25395b3b3c
 caps.latest.revision: 34
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 303947c2299601e68ae830b13e6b6753c5e0dd79
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 60ae3ad958ca97250ba74ac2c7aada7dddcf91d8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60067926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434790"
 ---
 # <a name="using-visual-studio-interop-assemblies"></a>Visual Studio Interop 어셈블리 사용
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ Visual Studio interop 어셈블리는 Visual Studio 확장성을 제공 하는 C
  기본적으로 <xref:Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure%2A>는 0보다 작은 값을 가진 HRESULT가 전달될 때마다 예외를 발생시킵니다. 이러한 HRESULT가 허용되는 값이며 예외가 발생하지 않아야 하는 경우 값이 테스트된 후에 추가 HRESULT 값을 <xref:Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure%2A>에 전달해야 합니다. 테스트되는 HRESULT가 <xref:Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure%2A>에 명시적으로 전달된 HRESULT 값과 일치하는 경우 예외가 발생하지 않습니다.
 
 > [!NOTE]
->  <xref:Microsoft.VisualStudio.VSConstants> 클래스 일반적인 HRESULT에 대 한 예를 들어 상수를 포함 <xref:Microsoft.VisualStudio.VSConstants.S_OK> 하 고 <xref:Microsoft.VisualStudio.VSConstants.E_NOTIMPL>, 및 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] HRESULT, 예를 들어 <xref:Microsoft.VisualStudio.VSConstants.VS_E_INCOMPATIBLEDOCDATA> 및 <xref:Microsoft.VisualStudio.VSConstants.VS_E_UNSUPPORTEDFORMAT>합니다. 또한 <xref:Microsoft.VisualStudio.VSConstants>는 COM의 SUCCEEDED 및 FAILED 매크로에 해당하는 <xref:Microsoft.VisualStudio.ErrorHandler.Succeeded%2A> 및 <xref:Microsoft.VisualStudio.ErrorHandler.Failed%2A> 메서드를 제공합니다.
+> <xref:Microsoft.VisualStudio.VSConstants> 클래스 일반적인 HRESULT에 대 한 예를 들어 상수를 포함 <xref:Microsoft.VisualStudio.VSConstants.S_OK> 하 고 <xref:Microsoft.VisualStudio.VSConstants.E_NOTIMPL>, 및 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] HRESULT, 예를 들어 <xref:Microsoft.VisualStudio.VSConstants.VS_E_INCOMPATIBLEDOCDATA> 및 <xref:Microsoft.VisualStudio.VSConstants.VS_E_UNSUPPORTEDFORMAT>합니다. 또한 <xref:Microsoft.VisualStudio.VSConstants>는 COM의 SUCCEEDED 및 FAILED 매크로에 해당하는 <xref:Microsoft.VisualStudio.ErrorHandler.Succeeded%2A> 및 <xref:Microsoft.VisualStudio.ErrorHandler.Failed%2A> 메서드를 제공합니다.
 
  예를 들어 <xref:Microsoft.VisualStudio.VSConstants.E_NOTIMPL>은 허용되는 반환 값이지만 0보다 작은 다른 HRESULT는 오류를 나타내는 다음 함수 호출을 고려해 보세요.
 
@@ -48,7 +48,7 @@ Visual Studio interop 어셈블리는 Visual Studio 확장성을 제공 하는 C
  어떤 예외를 발생시켜야 하는지 모르지만 COM에 반환하려는 HRESULT를 알고 있는 경우 <xref:System.Runtime.InteropServices.Marshal.ThrowExceptionForHR%2A> 메서드를 사용하여 적절한 예외를 발생시킬 수 있습니다. 이는 비표준 오류(예: <xref:Microsoft.VisualStudio.VSConstants.VS_E_INCOMPATIBLEDOCDATA>)에도 적용됩니다. <xref:System.Runtime.InteropServices.Marshal.ThrowExceptionForHR%2A>이 전달된 HRESULT를 강력한 형식의 예외에 매핑하려고 합니다. 매핑할 수 없는 경우 대신 일반 COM 예외를 발생시킵니다. 최종 결과로, 관리 코드에서 <xref:System.Runtime.InteropServices.Marshal.ThrowExceptionForHR%2A>에 전달하는 HRESULT가 호출한 COM 함수에 반환됩니다.
 
 > [!NOTE]
->  예외가 발생하면 성능이 저하되며 비정상적인 프로그램 상태를 나타냅니다. 자주 발생하는 상태는 예외를 발생시키는 대신 인라인으로 처리해야 합니다.
+> 예외가 발생하면 성능이 저하되며 비정상적인 프로그램 상태를 나타냅니다. 자주 발생하는 상태는 예외를 발생시키는 대신 인라인으로 처리해야 합니다.
 
 ## <a name="iunknown-parameters-passed-as-type-void"></a>IUnknown 매개 변수 형식 void * *으로 전달
  [Out] 형식으로 정의 된 매개 변수에 검색할 `void **` COM 인터페이스, 있지만로 정의 됩니다 `[``iid_is``]` 에 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] interop 어셈블리 메서드 프로토타입을 합니다.
@@ -56,7 +56,7 @@ Visual Studio interop 어셈블리는 Visual Studio 확장성을 제공 하는 C
  COM 인터페이스를 생성 하는 경우에 따라 프로그램 `IUnknown` 개체 및 COM 인터페이스를 전달 형식으로 `void **`입니다. 이러한 인터페이스는 특히 중요 하기 때문에 변수의로 정의 된 경우 [out]의 IDL에 해당 `IUnknown` 개체가 사용 하 여 참조 횟수가 계산는 `AddRef` 메서드. 메모리 누수 개체가 제대로 처리 되지 않은 경우 발생 합니다.
 
 > [!NOTE]
->  `IUnknown` COM 인터페이스에 의해 생성 되 고 [out] 변수에 반환 개체는 명시적으로 해제 되지 않습니다 하는 경우 메모리 누수가 발생 합니다.
+> `IUnknown` COM 인터페이스에 의해 생성 되 고 [out] 변수에 반환 개체는 명시적으로 해제 되지 않습니다 하는 경우 메모리 누수가 발생 합니다.
 
  이러한 개체를 처리 하는 관리 되는 메서드를 처리 해야 <xref:System.IntPtr> 포인터로 `IUnknown` 개체를 호출 합니다 <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> 개체를 가져오는 방법입니다. 호출자에 게 적합 한 형식에 관계 없이 반환 값을 캐스팅 한 다음 해야 합니다. 개체가 더 이상 필요 하면 호출 <xref:System.Runtime.InteropServices.Marshal.Release%2A> 해제 합니다.
 
@@ -87,7 +87,7 @@ else
 ```
 
 > [!NOTE]
->  다음 방법 전달할 알려져 `IUnknown` 형식으로 포인터를 개체 <xref:System.IntPtr>합니다. 이 섹션에 설명 된 대로 처리 합니다.
+> 다음 방법 전달할 알려져 `IUnknown` 형식으로 포인터를 개체 <xref:System.IntPtr>합니다. 이 섹션에 설명 된 대로 처리 합니다.
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>
 

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7bbcad8902a2c3ce86b1127d9317a3901c655372
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 6df21b974489004a27847e307089b1a65715b076
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63401130"
 ---
 # <a name="idiasymbolgetplatform"></a>IDiaSymbol::get_platform
 컴파일 대상 컴파일된 플랫폼 형식을 검색 합니다.
@@ -39,7 +39,7 @@ HRESULT get_platform ( 
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

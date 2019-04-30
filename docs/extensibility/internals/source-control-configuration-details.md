@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: db9a8abb2b1013a7d11a4013d602e33592beff70
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 59aa3ac36e989b2e2e1af2e36e8360ef53cb8438
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428991"
 ---
 # <a name="source-control-configuration-details"></a>소스 제어 구성 세부 정보
 소스 제어를 구현 하려면 다음을 수행 하 여 편집기나 프로젝트 시스템을 올바르게 구성 해야 합니다.
@@ -41,7 +41,7 @@ ms.locfileid: "60070097"
  프로젝트 또는 편집기 파일을 저장 하기 전에 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A> 또는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A>합니다. 프로젝트 파일에 대 한 프로젝트 파일을 저장 하는 시기는 솔루션에서 이러한 호출은 자동으로 완료할 수 있습니다. 편집기는 하지 않는 한 이러한 호출에 대 한 편집기 구현의 `IVsPersistDocData2` 도우미 함수를 사용 하 여 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SaveDocDataToFile%2A>입니다. 편집기를 구현 하는 경우 `IVsPersistDocData2` 이 이렇게 하면 다음에 대 한 호출에서 `IVsQueryEditQuerySave2::QuerySaveFile` 또는 `IVsQueryEditQuerySave2::QuerySaveFiles` 수행 됩니다.
 
 > [!NOTE]
->  항상 먼저이 호출 하 게-즉, 편집기는 취소를 수신 하는 일을 할 때 한 번에 있습니다.
+> 항상 먼저이 호출 하 게-즉, 편집기는 취소를 수신 하는 일을 할 때 한 번에 있습니다.
 
 ## <a name="request-permission-to-add-remove-or-rename-files-in-the-project"></a>추가, 제거 또는 프로젝트의 파일 이름을 바꿀 수 있는 권한을 요청합니다
  프로젝트 수 추가, 이름 바꾸기 또는 파일이 나 디렉터리를 제거 하기 전에 적절 한 호출 해야 `IVsTrackProjectDocuments2::OnQuery*` 환경에서 권한을 요청 메서드. 권한이 부여 되 면 프로젝트 작업을 완료 하 고 적절 한을 호출 해야 `IVsTrackProjectDocuments2::OnAfter*` 작업이 완료 되는 환경에 알리기 위해 메서드. 프로젝트의 메서드를 호출 해야 합니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> 모든 파일 (예를 들어, 특수 한 파일) 및 부모 파일 뿐만 아니라 인터페이스입니다. 파일 호출은 필수 있지만 디렉터리 호출 선택적입니다. 프로젝트 디렉터리 정보가 있으면 적절 한 호출 해야 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> 메서드 하지만이 정보가 없는 경우 환경 디렉터리 정보를 유추 합니다.

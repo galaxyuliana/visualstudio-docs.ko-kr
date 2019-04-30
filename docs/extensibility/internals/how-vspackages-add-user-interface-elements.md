@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ca4e817ae33d3129259de619e07bf256e6f544bd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b392c962a2ddbed57ca1af934c0ef9d8b5175595
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418408"
 ---
 # <a name="how-vspackages-add-user-interface-elements"></a>Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법
 VSPackage 예제에서는, 메뉴, 도구 모음에 대 한 사용자 인터페이스 (UI) 요소를 추가 하 고 windows를 이용 하 여 Visual Studio 도구를 *.vsct* 파일입니다.
@@ -63,7 +63,7 @@ VSPackage 예제에서는, 메뉴, 도구 모음에 대 한 사용자 인터페�
  최상위 요소는 `Symbols` 섹션은 합니다 [GuidSymbol 요소](../../extensibility/guidsymbol-element.md)합니다. `GuidSymbol` 요소 이름을 IDE에서 패키지 및 해당 구성 요소 파트를 식별 하는 데 사용 되는 Guid에 매핑됩니다.
 
 > [!NOTE]
->  Guid는 Visual Studio 패키지 템플릿을 통해 자동으로 생성 됩니다. 클릭 하 여 고유 GUID를 만들 수도 있습니다 **GUID 만들기** 에 **도구** 메뉴.
+> Guid는 Visual Studio 패키지 템플릿을 통해 자동으로 생성 됩니다. 클릭 하 여 고유 GUID를 만들 수도 있습니다 **GUID 만들기** 에 **도구** 메뉴.
 
  첫 번째 `GuidSymbol` 요소인 `guid<PackageName>Pkg`, 패키지 자체의 GUID입니다. Visual Studio에서 패키지를 로드 하는 데 사용 되는 GUID입니다. 일반적으로 되지 않은 자식 요소입니다.
 

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 699496825e272fc492bac8ef4fe472019b1935d2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2ba64bdcf299f52d0200e1fa66dead11a8824c14
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60083519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429982"
 ---
 # <a name="test-area-1-add-toopen-from-source-control"></a>테스트 영역 1: 소스 제어에서 열기 / 추가
 이 소스 제어 플러그 인 테스트 영역에서는 소스 제어에서 프로젝트 또는 솔루션을 배치 하 고 소스 제어에서 검색 합니다.
@@ -37,7 +37,7 @@ ms.locfileid: "60083519"
 - 에 대 한 [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], 추가 원본의 제어도 제공 됩니다 **파일**, **추가**를 **기존 프로젝트**; 조회에 [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] 위치 합니다.
 
   > [!NOTE]
-  >  이 테스트에서는 로컬 파일을 로컬 IIS (웹 서버)의 경로 사용할 수 있습니다.
+  > 이 테스트에서는 로컬 파일을 로컬 IIS (웹 서버)의 경로 사용할 수 있습니다.
 
 ## <a name="expected-behavior"></a>예상된 된 동작
 

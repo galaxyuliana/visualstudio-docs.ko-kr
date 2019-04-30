@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1e788abb51425e0f2656c10ba860602a36c8aad8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: b2cbf516b5ed999623c05e7f68656199363906bf
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408450"
 ---
 # <a name="api-reference-for-modeling-sdk-for-visual-studio"></a>Visual Studio용 모델링 SDK에 대한 API 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "58985569"
 Visual Studio Visualization and Modeling SDK-도메인별 언어 (DSL) 및 UML 도구 기반이 플랫폼을 제공 합니다.
 
 > [!NOTE]
->  UML 모델링 API에 대 한 자세한 내용은 [UML 모델링 확장성에 대 한 API 참조](../modeling/api-reference-for-uml-modeling-extensibility.md)합니다. 텍스트 변환에 대 한 내용은 [사용자 지정 T4 텍스트 변환](../modeling/customizing-t4-text-transformation.md)합니다.
+> UML 모델링 API에 대 한 자세한 내용은 [UML 모델링 확장성에 대 한 API 참조](../modeling/api-reference-for-uml-modeling-extensibility.md)합니다. 텍스트 변환에 대 한 내용은 [사용자 지정 T4 텍스트 변환](../modeling/customizing-t4-text-transformation.md)합니다.
 
  이 섹션에서는 이름이 "Microsoft.VisualStudio.Modeling"로 시작 하는 네임 스페이스에 대 한 참조 자료를 포함 합니다.
 

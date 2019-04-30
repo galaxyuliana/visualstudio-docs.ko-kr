@@ -17,12 +17,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 76c55d45e279a3fcf6579c77bf7d226c7baf13d2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: adea3666c3f8b8d78c37b32a1a42f7f8b270369c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431164"
 ---
 # <a name="create-lookup-tables-in-windows-forms-applications"></a>Windows Forms 애플리케이션에서 조회 테이블 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "60102980"
 2. 노드를 확장 합니다 **데이터 원본** 부모 테이블 및 모든 해당 열 및 관련된 자식 테이블의 모든 열 표시 될 때까지 창입니다.  
   
     > [!NOTE]
-    >  자식 테이블 노드는 부모 테이블의 확장 가능한 자식 노드로 표시 되는 노드입니다.  
+    > 자식 테이블 노드는 부모 테이블의 확장 가능한 자식 노드로 표시 되는 노드입니다.  
   
 3. 자식 테이블의 놓기 형식을 변경 **세부 정보** 를 선택 하 여 **세부 정보** 자식 테이블의 노드의 컨트롤 목록에서. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.  
   

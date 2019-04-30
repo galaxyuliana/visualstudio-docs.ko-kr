@@ -18,12 +18,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 88f04720610bad5064f7f9d7a43beef2410b045f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 6ceec5e44ade219f069e72f712129a137d70875f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54787468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437531"
 ---
 # <a name="encodings-and-line-breaks"></a>인코딩 및 줄 바꿈
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "54787468"
 Visual Studio에서 **파일/고급 저장 옵션** 설정을 사용하여 원하는 줄 바꿈 문자의 형식을 결정할 수 있습니다. 같은 설정을 사용하여 파일의 인코딩을 변경할 수도 있습니다.  
   
 > [!NOTE]
->  특정 형식의 개발 설정(Visual Basic, F#, 웹 개발)이 있는 경우 메뉴에서 **고급 저장 옵션**을 확인할 수 없습니다. 설정(예: 일반)을 변경하려면 **도구/설정 가져오기 및 내보내기**를 엽니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 특정 형식의 개발 설정(Visual Basic, F#, 웹 개발)이 있는 경우 메뉴에서 **고급 저장 옵션**을 확인할 수 없습니다. 설정(예: 일반)을 변경하려면 **도구/설정 가져오기 및 내보내기**를 엽니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  Visual Studio에서 다음 문자는 줄 바꿈으로 해석됩니다.  
   

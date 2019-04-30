@@ -15,18 +15,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e5c5f6d73f3606813fd9a1954cdc10bb562baf34
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 56ce4766f2afb148bbbc495d151b052de3334a47
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63407726"
 ---
 # <a name="unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor"></a>Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 원격 디버깅 모니터는 제대로에 설정 되지 않은 원격 컴퓨터 또는 원격 컴퓨터에 네트워크 문제 또는 방화벽으로 인해 액세스할 수 없는 때문에이 메시지가 나타날 수 있습니다.
 
 > [!IMPORTANT]
->  제품 버그 때문에이 메시지가 수신 되었다고 생각 되 면 하세요 [이 문제를 보고](../ide/how-to-report-a-problem-with-visual-studio.md) Visual Studio로 합니다. 자세한 도움말이 필요한 경우 [Talk to Us](../ide/talk-to-us.md) 에서 Microsoft에 문의하는 방법을 참조하세요.
+> 제품 버그 때문에이 메시지가 수신 되었다고 생각 되 면 하세요 [이 문제를 보고](../ide/how-to-report-a-problem-with-visual-studio.md) Visual Studio로 합니다. 자세한 도움말이 필요한 경우 [Talk to Us](../ide/talk-to-us.md) 에서 Microsoft에 문의하는 방법을 참조하세요.
 
 ## <a name="specificerrors"></a>자세한 오류 메시지는 무엇입니까?
 

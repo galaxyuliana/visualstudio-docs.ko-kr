@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6be7cad9034f67a00d8f795a5c4f4f9ad45c1abe
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MT
+ms.openlocfilehash: e5dfb9a6489fed2c21d05799e9196c813a224571
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422952"
 ---
 # <a name="t4-assembly-directive"></a>T4 Assembly 지시문
 
@@ -21,7 +21,7 @@ Visual Studio 디자인 타임 텍스트 템플릿에서 `assembly` 지시문 �
  텍스트 템플릿 작성의 일반적인 개요를 참조 하세요 [T4 텍스트 템플릿 쓰기](../modeling/writing-a-t4-text-template.md)합니다.
 
 > [!NOTE]
->  전처리된 런타임 텍스트 템플릿에는 `assembly` 지시문이 필요하지 않습니다. 대신, 필요한 어셈블리를 추가 합니다 **참조가** Visual Studio 프로젝트의 합니다.
+> 전처리된 런타임 텍스트 템플릿에는 `assembly` 지시문이 필요하지 않습니다. 대신, 필요한 어셈블리를 추가 합니다 **참조가** Visual Studio 프로젝트의 합니다.
 
 ## <a name="using-the-assembly-directive"></a>assembly 지시문 사용
  지시문의 구문은 다음과 같습니다.
@@ -82,7 +82,7 @@ Visual Studio 디자인 타임 텍스트 템플릿에서 `assembly` 지시문 �
   </ItemGroup>
 ```
 
- 이제 Visual Studio 및 MSBuild에서 모두 올바르게 변형된 텍스트 템플릿의 프로젝트 속성을 사용할 수 있습니다.
+ 이제 Visual Studio 및 MSBuild에서 모두 올바르게 변환된 텍스트 템플릿의 프로젝트 속성을 사용할 수 있습니다.
 
 ```
 <#@ assembly name="$(myLibFolder)\MyLib.dll" #>

@@ -20,12 +20,12 @@ caps.latest.revision: 27
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: cf3c68d7f70822bbe7b085b92e64bda0b9437dfc
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 3493c487c446bb66e99bf98a7c3f5599599801fd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424142"
 ---
 # <a name="generateapplicationmanifest-task"></a>GenerateApplicationManifest 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,10 +44,10 @@ ms.locfileid: "59660985"
 |`Dependencies`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 생성된 매니페스트에 대한 종속 어셈블리 집합을 정의하는 항목 목록을 지정합니다. 각 항목은 배포 상태 및 종속성 형식을 나타내는 항목 메타데이터를 통해 추가로 설명될 수 있습니다. 자세한 내용은 아래 “항목 메타데이터” 섹션을 참조하세요.|  
 |`Description`|선택적 `String` 매개 변수입니다.<br /><br /> 애플리케이션 및 구성 요소에 대한 설명을 지정합니다.|  
 |`EntryPoint`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 생성된 매니페스트 어셈블리에 대한 진입점을 나타내는 단일 항목을 지정합니다.<br /><br /> [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 매니페스트의 경우 이 매개 변수는 응용 프로그램 실행 시 시작되는 어셈블리를 지정합니다.|  
-|`ErrorReportUrl`|선택적 [String] (<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> ClickOnce 설치의 오류 보고 중에 대화 상자에 표시되는 웹 페이지의 URL을 지정합니다.|  
+|`ErrorReportUrl`|선택적 [String](<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> ClickOnce 설치의 오류 보고 중에 대화 상자에 표시되는 웹 페이지의 URL을 지정합니다.|  
 |`FileAssociations`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> ClickOnce 배포 매니페스트와 연결된 하나 이상의 파일 형식 목록을 지정합니다.<br /><br /> .NET Framework 3.5 이상을 대상으로 할 경우에만 유효한 파일 연결입니다.|  
 |`Files`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 매니페스트에 포함할 파일입니다. 각 파일의 전체 경로를 지정합니다.|  
-|`HostInBrowser`|선택적 [부울] (<!-- TODO: review code entity reference <xref:assetId:///Boolean?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> `true`의 경우 응용 프로그램이 브라우저에서 호스트됩니다(예: WPF 웹 브라우저 응용 프로그램).|  
+|`HostInBrowser`|선택적 [부울](<!-- TODO: review code entity reference <xref:assetId:///Boolean?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> `true`의 경우 응용 프로그램이 브라우저에서 호스트됩니다(예: WPF 웹 브라우저 응용 프로그램).|  
 |`IconFile`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 애플리케이션 아이콘 파일을 나타냅니다. 애플리케이션 아이콘은 생성된 애플리케이션 매니페스트에 표시되고 [시작] 메뉴 및 [프로그램 추가/제거] 대화 상자에 사용됩니다. 이 입력을 지정하지 않으면 기본 아이콘이 사용됩니다. 작업에서 네이티브 매니페스트를 생성할 경우 이 매개 변수가 무시됩니다.|  
 |`InputManifest`|선택적 <xref:Microsoft.Build.Framework.ITaskItem> 매개 변수입니다.<br /><br /> 매니페스트 생성기에 대한 기본으로 사용되는 입력 XML 문서를 나타냅니다. 이를 통해 애플리케이션 보안 또는 사용자 지정 매니페스트 정의와 같은 구조화된 데이터가 출력 매니페스트에 반영될 수 있습니다. XML 문서의 루트 요소는 asmv1 네임스페이스의 어셈블리 노드여야 합니다.|  
 |`IsolatedComReferences`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 매개 변수입니다.<br /><br /> 생성된 매니페스트에서 격리할 COM 구성 요소를 지정합니다. 이 매개 변수는 “등록이 필요 없는 COM” 배포를 위해 COM 구성 요소를 격리하는 기능을 지원합니다. 이 기능은 표준 COM 등록 정의를 사용하여 매니페스트를 자동 생성하는 방식으로 작동합니다. 그러나 이 기능이 제대로 작동하려면 COM 구성 요소가 빌드 컴퓨터에 등록되어야 합니다.|  
@@ -60,12 +60,12 @@ ms.locfileid: "59660985"
 |`Publisher`|선택적 `String` 매개 변수입니다.<br /><br /> 애플리케이션의 게시자를 지정합니다. 이 매개 변수를 지정하지 않으면 이름이 등록된 사용자 또는 생성된 매니페스트의 ID에서 유추됩니다. 이 이름은 시작 메뉴의 폴더 이름에 사용되고 프로그램 추가/제거 대화 상자에 표시되는 이름의 일부입니다.|  
 |`RequiresMinimumFramework35SP1`|선택적 `Boolean` 매개 변수입니다.<br /><br /> True인 경우 애플리케이션에는 .NET Framework 3.5 SP1 이상의 최신 버전이 필요합니다.|  
 |`TargetCulture`|선택적 `String` 매개 변수입니다.<br /><br /> 애플리케이션의 문화권을 식별하고 생성된 매니페스트에 대한 어셈블리 ID의 `Language` 필드를 지정합니다. 이 매개 변수를 지정하지 않으면 애플리케이션은 문화권이 고정되어 있다고 가정합니다.|  
-|`TargetFrameworkMoniker`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> 대상 프레임워크 모니커를 지정합니다.|  
-|`TargetFrameworkProfile`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> 대상 프레임워크 프로필을 지정합니다.|  
-|`TargetFrameworkSubset`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> 대상으로 지정할 .NET Framework 하위 집합의 이름을 지정합니다.|  
-|`TargetFrameworkVersion`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> 프로젝트의 대상 .NET Framework를 지정합니다.|  
+|`TargetFrameworkMoniker`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> 대상 프레임워크 모니커를 지정합니다.|  
+|`TargetFrameworkProfile`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> 대상 프레임워크 프로필을 지정합니다.|  
+|`TargetFrameworkSubset`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> 대상으로 지정할 .NET Framework 하위 집합의 이름을 지정합니다.|  
+|`TargetFrameworkVersion`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> 프로젝트의 대상 .NET Framework를 지정합니다.|  
 |`TrustInfoFile`|선택적 <xref:Microsoft.Build.Framework.ITaskItem> 매개 변수입니다.<br /><br /> 애플리케이션 보안을 지정하는 XML 문서를 나타냅니다. XML 문서의 루트 요소는 asmv2 네임스페이스의 trustInfo 노드여야 합니다. 작업에서 네이티브 매니페스트를 생성할 경우 이 매개 변수가 무시됩니다.|  
-|`UseApplicationTrust`|Optional <!-- TODO: review code entity reference <xref:assetId:///Boolean?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> True인 경우 `Product`, `Publisher` 및 `SupportUrl` 속성은 애플리케이션 매니페스트에 기록됩니다.|  
+|`UseApplicationTrust`|Optional <!-- TODO: review code entity reference <xref:assetId:///Boolean?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> True인 경우 `Product`, `Publisher` 및 `SupportUrl` 속성은 애플리케이션 매니페스트에 기록됩니다.|  
   
 ## <a name="remarks"></a>설명  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.GenerateManifestBase> 클래스의 매개 변수도 상속합니다. Task 클래스의 매개 변수 목록에 대해서는 [Task 기본 클래스](../msbuild/task-base-class.md)를 참조하세요.  
@@ -90,10 +90,10 @@ ms.locfileid: "59660985"
  다음은 단일 프로그램에 대한 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 매니페스트가 생성되는 가장 간단할 수 있는 매니페스트 생성 시나리오를 보여 줍니다. 기본 이름 및 ID는 매니페스트에 대한 어셈블리에서 유추됩니다.  
   
 > [!NOTE]
->  아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 생성합니다.  
+> 아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 생성합니다.  
   
 > [!NOTE]
->  이 어셈블리의 `SignFile` 작업에서 사용되는 `Thumbprint` 속성에 대한 자세한 내용은 [SignFile 작업](../msbuild/signfile-task.md)을 참조하세요.  
+> 이 어셈블리의 `SignFile` 작업에서 사용되는 `Thumbprint` 속성에 대한 자세한 내용은 [SignFile 작업](../msbuild/signfile-task.md)을 참조하세요.  
   
 ```  
 <Project DefaultTargets="Build"  
@@ -143,10 +143,10 @@ ms.locfileid: "59660985"
  이 예제는 매니페스트의 이름 및 ID가 명시적으로 지정된다는 점을 제외하고 이전 예제와 비슷합니다. 또한 이 예제는 설치된 애플리케이션이 아닌 온라인 애플리케이션으로 구성됩니다.  
   
 > [!NOTE]
->  아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 생성합니다.  
+> 아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 생성합니다.  
   
 > [!NOTE]
->  이 어셈블리의 `SignFile` 작업에서 사용되는 `Thumbprint` 속성에 대한 자세한 내용은 [SignFile 작업](../msbuild/signfile-task.md)을 참조하세요.  
+> 이 어셈블리의 `SignFile` 작업에서 사용되는 `Thumbprint` 속성에 대한 자세한 내용은 [SignFile 작업](../msbuild/signfile-task.md)을 참조하세요.  
   
 ```  
 <Project DefaultTargets="Build"  
@@ -201,10 +201,10 @@ ms.locfileid: "59660985"
  이 예제에서는 `GenerateApplicationManifest` 및 `GenerateDeploymentManifest` 작업을 통해 여러 파일 및 어셈블리가 포함된 애플리케이션에 대한 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션 및 배포 매니페스트를 생성합니다.  
   
 > [!NOTE]
->  아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 생성합니다.  
+> 아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 생성합니다.  
   
 > [!NOTE]
->  이 어셈블리의 `SignFile` 작업에서 사용되는 `Thumbprint` 속성에 대한 자세한 내용은 [SignFile 작업](../msbuild/signfile-task.md)을 참조하세요.  
+> 이 어셈블리의 `SignFile` 작업에서 사용되는 `Thumbprint` 속성에 대한 자세한 내용은 [SignFile 작업](../msbuild/signfile-task.md)을 참조하세요.  
   
 ```  
 <Project DefaultTargets="Build"  
@@ -321,7 +321,7 @@ ms.locfileid: "59660985"
  이 예제에서는 Test.exe.manifest를 생성하여 등록이 필요 없는 COM을 활용하는 애플리케이션 XCOPY를 배포 가능하도록 만듭니다.  
   
 > [!NOTE]
->  아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 생성합니다.  
+> 아래 예제에서는 매니페스트 생성 측면에 집합하도록 모든 애플리케이션 이진 파일이 미리 빌드되어 있습니다. 이 예제에서는 완벽하게 작동하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 생성합니다.  
   
 ```  
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  

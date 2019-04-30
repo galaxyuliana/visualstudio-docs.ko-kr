@@ -11,12 +11,12 @@ ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
 caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: cd23fdc3baf4afd6dde50a4310abf1b5c1841fd7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: b54250a54960f346f60c5d668755fb5d28ab376e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430201"
 ---
 # <a name="launching-a-program"></a>프로그램 시작
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,12 +32,12 @@ ms.locfileid: "58984373"
     DE 지정 하지 않으면 포트 로드할 프로그램의 런타임 환경을 사용 하면 되는 프로그램을 시작 하려면 운영 체제를 호출 합니다.  
   
    > [!NOTE]
-   >  프로그램을 실행 하는 DE가 사용 하는 경우 가능성이 동일한 DE는 프로그램에 연결 됩니다.  
+   > 프로그램을 실행 하는 DE가 사용 하는 경우 가능성이 동일한 DE는 프로그램에 연결 됩니다.  
   
 3. 여부는 DE 포트나 시작 프로그램에 따라는 DE 또는 런타임 환경에서 다음 프로그램 설명 또는 노드를 만들고 프로그램이 실행 되는 포트를에 알립니다.  
   
    > [!NOTE]
-   >  프로그램 노드는 디버깅할 수 있는 프로그램의 간단한 표현 하기 때문에 런타임 환경을 프로그램 노드를 만든 것이 좋습니다. 방금를 만들고 프로그램 노드를 등록 하는 전체 DE를 로드 하지 않아도가 됩니다. DE은 실제로 실행 되는 IDE만 없습니다 IDE 중 실행 경우 포트로 프로그램 노드를 추가할 수 있는 구성 요소 필요 합니다.  
+   > 프로그램 노드는 디버깅할 수 있는 프로그램의 간단한 표현 하기 때문에 런타임 환경을 프로그램 노드를 만든 것이 좋습니다. 방금를 만들고 프로그램 노드를 등록 하는 전체 DE를 로드 하지 않아도가 됩니다. DE은 실제로 실행 되는 IDE만 없습니다 IDE 중 실행 경우 포트로 프로그램 노드를 추가할 수 있는 구성 요소 필요 합니다.  
   
    다른 프로그램을 함께 새로 만든된 프로그램 관련 관련 되지 않은, 시작 또는 동일한 IDE에서 디버그 세션 구성에 연결 합니다.  
   

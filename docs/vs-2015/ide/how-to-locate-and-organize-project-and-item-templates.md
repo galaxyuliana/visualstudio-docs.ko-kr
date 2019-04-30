@@ -16,12 +16,12 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1f4788ab9fa23049ded8107fe1d33a9419b79c00
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4b14a374214a605ec718ad60c6942752f3134edd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60091241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416729"
 ---
 # <a name="how-to-locate-and-organize-project-and-item-templates"></a>방법: 찾기 및 프로젝트 구성 및 항목 템플릿
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ Visual Studio에서 인식할 수 있는 위치에 템플릿 파일이 있어야
  **새 프로젝트** 및 **새 항목 추가** 대화 상자의 범주는 설치된 템플릿과 사용자 지정 템플릿 위치에 있는 디렉터리 구조를 반영합니다. 이러한 디렉터리 구조를 수정하여 이해할 수 있는 방식으로 템플릿을 구성할 수 있습니다.  
   
 > [!NOTE]
->  프로그래밍 언어 수준에서 새 범주를 만들 수 없습니다. 새 범주는 각 언어 내에서만 만들어질 수 있습니다.  
+> 프로그래밍 언어 수준에서 새 범주를 만들 수 없습니다. 새 범주는 각 언어 내에서만 만들어질 수 있습니다.  
   
  특정 언어의 설치된 템플릿과 사용자 지정 템플릿의 디렉터리 구조가 서로 같지 않은 경우(즉, 한 폴더에는 없는 디렉터리가 다른 폴더에 있는 경우) **새 프로젝트** 대화 상자에는 모든 범주가 병합되어 나타납니다.  
   

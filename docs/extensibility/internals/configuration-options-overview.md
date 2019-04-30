@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c1ce45aea2f39751822a3dda6f388bd2d8095775
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 791c50e6839190fa3700c335896f24f0714a64bc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415149"
 ---
 # <a name="configuration-options-overview"></a>구성 옵션 개요
 프로젝트에 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 여러 구성을 빌드할 수 있는, 디버깅, 실행 및/또는 배포를 지원할 수 있습니다. 구성에는 명명된 된 집합의 속성, 일반적으로 컴파일러 스위치 및 파일 위치를 사용 하 여 설명 된 빌드 형식입니다. 기본적으로 새 솔루션에는 두 가지 구성이 포함 될 *디버그* 하 고 *릴리스*합니다. 이러한 구성은 특정 솔루션 및/또는 프로젝트 요구 사항에 맞게 수정 또는 해당 기본 설정을 사용 하 여 적용할 수 있습니다. 일부 패키지는 두 가지 방법으로 빌드할 수 있습니다: ActiveX 편집기 또는 내부 구성 요소로 합니다. 그러나 여러 구성을 지원 하기 위해 프로젝트 필요가 없습니다. 사용 가능한 하나의 구성만 있으면 해당 구성은 모든 솔루션 구성에 매핑됩니다.
@@ -36,7 +36,7 @@ ms.locfileid: "56605096"
 |*MyConfig*|N/A|\<MyConfig Win64 settings>|
 
 > [!NOTE]
->  만들 수 없습니다는 *MyConfig* 프로젝트 대상으로 하는 경우가 아니면 Win32 플랫폼을 제외 하는 솔루션 구성은 Win32를 지원 하지 않습니다.
+> 만들 수 없습니다는 *MyConfig* 프로젝트 대상으로 하는 경우가 아니면 Win32 플랫폼을 제외 하는 솔루션 구성은 Win32를 지원 하지 않습니다.
 
  해당 솔루션에를 작성, 실행, 디버깅 하거나 배포 하는 프로젝트 구성의 집합을 선택는 솔루션에 대 한 활성 구성을 변경 합니다. 예를 들어, 활성 솔루션 구성을 변경 하는 경우 *릴리스* 하 *디버그*, 솔루션 내의 모든 프로젝트에 표시 된 프로젝트의 구성을 사용 하 여 자동으로 작성 됩니다는 솔루션의 디버그 구성입니다. 프로젝트의 구성을 라고도 *디버그* 하지 않은 경우 사용자가 수동으로 변경한 내용은 환경의 Configuration Manager에서 합니다.
 

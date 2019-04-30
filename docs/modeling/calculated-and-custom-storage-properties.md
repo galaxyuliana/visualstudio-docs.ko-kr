@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d1a1e161c0559013571a2ceaa775cfe428c1345c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1ca2401333f7678b821b5c6fa68f7953a91996d0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440016"
 ---
 # <a name="calculated-and-custom-storage-properties"></a>계산된 저장소 속성 및 사용자 지정 저장소 속성
 도메인 특정 언어 (DSL)의 모든 도메인 속성에 언어 탐색기에서 다이어그램에 사용자에 게 표시 하 고 프로그램 코드에서 액세스할 수 있습니다. 그러나 속성은 해당 값을 저장 하는 방식에서 다릅니다.
@@ -50,7 +50,7 @@ ms.locfileid: "60060425"
      Dsl\GeneratedCode\DomainClasses.cs 또는 DomainRelationships.cs 열립니다. 강조 표시 된 메서드 호출 위에 주석 가져오기에 대 한 구현을 제공 하 라는*YourProperty*().
 
     > [!NOTE]
-    >  이 파일은 DslDefinition.dsl에서 생성 됩니다. 이 파일을 편집 하는 경우에 변경 내용이 손실 됩니다을 클릭 하면 다음 번 **모든 템플릿 변환**합니다. 대신 별도 파일에 필요한 메서드를 추가 합니다.
+    > 이 파일은 DslDefinition.dsl에서 생성 됩니다. 이 파일을 편집 하는 경우에 변경 내용이 손실 됩니다을 클릭 하면 다음 번 **모든 템플릿 변환**합니다. 대신 별도 파일에 필요한 메서드를 추가 합니다.
 
 6. 만들거나 별도 폴더, 예를 들어 CustomCode 클래스 파일을 엽니다\\*YourDomainClass*. cs 합니다.
 

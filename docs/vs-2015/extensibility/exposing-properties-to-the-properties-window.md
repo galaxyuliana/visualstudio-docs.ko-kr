@@ -12,12 +12,12 @@ ms.assetid: 47f295b5-1ca5-4e7b-bb52-7b926b136622
 caps.latest.revision: 37
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 0b7b9e352c3042e5175b7420a9d4203ca7f59e7f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c28a0520680951920ee19e91f3df098066f432dd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432116"
 ---
 # <a name="exposing-properties-to-the-properties-window"></a>속성 창에 속성 노출
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -177,7 +177,7 @@ ms.locfileid: "60117143"
 10. 확인 상자를 선택 합니다 **MyToolWindow** 창입니다. **IsChecked** 에 **속성** 창으로 변경 **True**합니다. 확인란의 선택을 취소 합니다 **MyToolWindow** 창입니다. **IsChecked** 에 **속성** 창으로 변경 **False**합니다. 값을 변경 **IsChecked** 에 **속성** 창입니다. 확인란 합니다 **MyToolWindow** 창의 내용이 변경 된 새 값과 일치 하도록 합니다.  
   
     > [!NOTE]
-    >  경우에 표시 되는 개체의 삭제 해야 합니다는 **속성** 창, 호출 `OnSelectChange` 사용 하 여는 `null` 선택 컨테이너 첫 번째입니다. 속성 또는 개체를 삭제 한 후 업데이트 된 선택 컨테이너에 변경할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.SelectionContainer.SelectableObjects%2A> 고 <xref:Microsoft.VisualStudio.Shell.SelectionContainer.SelectedObjects%2A> 나열 합니다.  
+    > 경우에 표시 되는 개체의 삭제 해야 합니다는 **속성** 창, 호출 `OnSelectChange` 사용 하 여는 `null` 선택 컨테이너 첫 번째입니다. 속성 또는 개체를 삭제 한 후 업데이트 된 선택 컨테이너에 변경할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.SelectionContainer.SelectableObjects%2A> 고 <xref:Microsoft.VisualStudio.Shell.SelectionContainer.SelectedObjects%2A> 나열 합니다.  
   
 ## <a name="changing-selection-lists"></a>선택 목록 변경  
  이 섹션에서는 기본 속성 클래스에 대 한 선택 목록을 추가 하 고 도구 창 인터페이스를 사용 하 여 선택 목록을 표시 하려면 선택 합니다.  
@@ -261,7 +261,7 @@ ms.locfileid: "60117143"
 6. 확인란을 선택 합니다 **MyToolWindow** 창입니다. **속성** 창에 표시 됩니다는 `Simple` 개체의 속성을 **SomeText** 및 **ReadOnly**합니다. 확인란의 선택을 취소 합니다. 공용 속성 창에 표시 된 **속성** 창입니다.  
   
     > [!NOTE]
-    >  표시 이름 **SomeText** 됩니다 **내 텍스트**합니다.  
+    > 표시 이름 **SomeText** 됩니다 **내 텍스트**합니다.  
   
 ## <a name="best-practice"></a>모범 사례  
  이 연습에서는 <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> 되도록 선택할 수 있는 개체 컬렉션 및 선택한 개체 컬렉션은 동일한 컬렉션에 구현 됩니다. 속성 브라우저 목록에서 선택한 개체에만 표시 됩니다. 더 완전 한 ISelectionContainer 구현 Reference.ToolWindow 샘플을 참조 하세요.  

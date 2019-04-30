@@ -14,12 +14,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7b13931746cc9668ea18ead71babd5140e971818
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 90fb5b1c9a388d64e191915bbcbbe3de65f6aa99
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437633"
 ---
 # <a name="create-xml-documentation-comments-for-javascript-intellisense"></a>JavaScript IntelliSense에 대한 XML 문서 주석 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,14 +29,14 @@ ms.locfileid: "60079281"
  이 항목에서는 XML 문서 주석을 사용 하 여 기본 자습서를 제공 합니다. 와 같은 다른 요소를 사용 하는 방법은 [ \<var >](../ide/var-javascript.md) 하 고 [ \<값 >](../ide/value-javascript.md), 추가 코드 예제에 대 한 참조 및 [XML 문서 주석 ](../ide/xml-documentation-comments-javascript.md). 와 같은 비동기 콜백이 대 한 IntelliSense 정보를 제공 하는 것에 대 한 자세한를 `Promise`를 참조 하세요 [ \<반환 >](../ide/returns-javascript.md)합니다.  
   
 > [!NOTE]
->  참조된 파일, 어셈블리 및 서비스에서만 XML 문서 주석을 사용할 수 있습니다.  
+> 참조된 파일, 어셈블리 및 서비스에서만 XML 문서 주석을 사용할 수 있습니다.  
   
 ### <a name="to-create-xml-documentation-comments-for-a-javascript-function"></a>에 JavaScript 함수에 대 한 XML 문서 주석 만들기  
   
 - 함수에서 추가 [ \<요약 >](../ide/summary-javascript.md)를 [ \<param >](../ide/param-javascript.md), 및 [ \<반환 >](../ide/returns-javascript.md) 요소를 사용 하 여 각 요소 앞에 야 하 고 3 개의 슬래시 (/ / /) 표시 합니다.  
   
     > [!NOTE]
-    >  각 요소는 한 줄에 있어야 합니다.  
+    > 각 요소는 한 줄에 있어야 합니다.  
   
      다음 예제에서는 JavaScript 함수를 보여 줍니다.  
   
@@ -118,7 +118,7 @@ ms.locfileid: "60079281"
 1. OpenAjax MessageBundle 형식으로 문서 주석이 포함 된 XML 파일을 만듭니다.  
   
     > [!IMPORTANT]
-    >  MessageBundle 권장 되는 형식입니다. 이 형식은.winmd 파일 또는 Microsoft Ajax에서 지원 되지 않습니다. 대체를 사용 하 여에 대 한 자세한 `VSDoc` 형식을 참조 하십시오 [ \<loc >](../ide/loc-javascript.md)합니다.  
+    > MessageBundle 권장 되는 형식입니다. 이 형식은.winmd 파일 또는 Microsoft Ajax에서 지원 되지 않습니다. 대체를 사용 하 여에 대 한 자세한 `VSDoc` 형식을 참조 하십시오 [ \<loc >](../ide/loc-javascript.md)합니다.  
   
      다음 예제에서는 지역화 된 IntelliSense 정보를 포함 하는 사이드카 파일의 콘텐츠를 보여 줍니다. 이것이 일본 같은 문화권별 폴더에 있는 XML 파일입니다. 폴더는 포함 된.js 파일을 동일한 위치에 있어야 합니다 `<loc>` 요소입니다. XML 파일의 파일 이름은 일치 해야 합니다 `filename` 에 지정 된 매개 변수는 `<loc>` 요소입니다.  
   

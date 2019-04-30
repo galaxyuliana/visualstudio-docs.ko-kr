@@ -19,12 +19,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ee820bc246e11b722d663ecc6a6037f182bc2c33
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 12cbeca740fd81292109183468a304fc2d3da30c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60053119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439483"
 ---
 # <a name="bind-objects-in-visual-studio"></a>Visual Studio에서 개체 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60053119"
 Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 개체 작업에 대 한 디자인 타임 도구를 제공 합니다. UI 컨트롤에 바인딩할 수 있는 개체에는 데이터베이스에서 데이터를 저장 하려는 경우 Entity Framework를 사용 하 여 클래스 또는 클래스를 생성 하는 것이 좋습니다. 엔터티 Frameworkautogenerates 모든 변경 내용 추적 코드, 즉, 로컬 개체를 변경 하는 DbSet 개체에서 AcceptChanges를 호출 하면 데이터베이스에 자동으로 유지 됩니다.    자세한 내용은 [Entity Framework 설명서](https://ef.readthedocs.org/en/latest/)합니다.
 
 > [!TIP]
->  이 문서에 개체 바인딩 방법 응용 프로그램은 데이터 집합에 따라 이미 있는 경우에 고려 되어야 합니다. 이러한 방법은 데이터 집합을 사용 하 여 이미 익숙한 경우를 처리 하는 데이터가 테이블 형식 및 너무 복잡 하지 않은 또는 너무에 사용할 수 있습니다. DataReader를 사용 하 여 수동으로 데이터 바인딩 없이 UI를 업데이트 하 여 개체에 직접 데이터를 로드 하는 관련 된 훨씬 더 간단 예제를 보려면 [ADO.NET을 사용 하 여 간단한 데이터 응용 프로그램을 만들](../data-tools/create-a-simple-data-application-by-using-adonet.md)합니다.
+> 이 문서에 개체 바인딩 방법 응용 프로그램은 데이터 집합에 따라 이미 있는 경우에 고려 되어야 합니다. 이러한 방법은 데이터 집합을 사용 하 여 이미 익숙한 경우를 처리 하는 데이터가 테이블 형식 및 너무 복잡 하지 않은 또는 너무에 사용할 수 있습니다. DataReader를 사용 하 여 수동으로 데이터 바인딩 없이 UI를 업데이트 하 여 개체에 직접 데이터를 로드 하는 관련 된 훨씬 더 간단 예제를 보려면 [ADO.NET을 사용 하 여 간단한 데이터 응용 프로그램을 만들](../data-tools/create-a-simple-data-application-by-using-adonet.md)합니다.
 
 ## <a name="object-requirements"></a>개체 요구 사항
  Visual Studio의 디자인 도구는 데이터로 작업 하는 사용자 지정 개체에 대 한 유일한 요구 사항은 개체 하나 이상의 공용 속성이 있는 것입니다.
@@ -55,7 +55,7 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
 - 데이터베이스에 다시 개체에서 데이터를 저장합니다.
 
 > [!NOTE]
->  더 잘 이해 하 고이 페이지의 예제에 대 한 컨텍스트를 제공 하기 위해 다음을 완료 하는 것이 좋습니다. [연습: 데이터 개체 (Windows Forms)에 연결할](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다. 이 연습에서는 여기에 설명 된 개체를 만듭니다.
+> 더 잘 이해 하 고이 페이지의 예제에 대 한 컨텍스트를 제공 하기 위해 다음을 완료 하는 것이 좋습니다. [연습: 데이터 개체 (Windows Forms)에 연결할](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다. 이 연습에서는 여기에 설명 된 개체를 만듭니다.
 
 ### <a name="loaddata-into-objects"></a>개체로 Loaddata
  예를 들어 Tableadapter를 사용 하 여 개체에 데이터를 로드 합니다. Tableadapter는 기본적으로 두 가지는 데이터베이스에서 데이터를 인출 하 고 데이터 테이블 채우는 메서드를 사용 하 여 생성 됩니다.
@@ -67,7 +67,7 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
   호출 하는 가장 쉬운 방법은 데이터를 사용 하 여 사용자 지정 개체를 로드 하는 것은 `TableAdapter.GetData` 메서드, 반환 된 데이터 테이블에 있는 행의 컬렉션을 반복 하 고 각 행의 값을 사용 하 여 각 개체를 채웁니다. 만들 수는 `GetData` TableAdapter에 추가 하는 모든 쿼리에 대해 채워진된 데이터 테이블을 반환 하는 메서드입니다.
 
 > [!NOTE]
->  Visual Studio에는 TableAdapter 쿼리 이름을 `Fill` 고 `GetData` 기본적으로 모든 유효한 메서드 이름에 해당 이름을 변경할 수 있지만.
+> Visual Studio에는 TableAdapter 쿼리 이름을 `Fill` 고 `GetData` 기본적으로 모든 유효한 메서드 이름에 해당 이름을 변경할 수 있지만.
 
  다음 예제에서는 데이터 테이블의 행을 반복 하 고 개체를 데이터로 채우는 방법을 보여 줍니다.
 
@@ -82,7 +82,7 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
  자동으로 생성 된 컬렉션의 <xref:System.Windows.Forms.BindingSource> 사용을 <xref:System.ComponentModel.BindingList%601> 해당 형식화 된 컬렉션에 대 한 합니다. 응용 프로그램 추가 기능을 사용 하지 않아도 경우 내에서 컬렉션을 유지할 수는 <xref:System.Windows.Forms.BindingSource>합니다. 자세한 내용은 참조 하세요. 합니다 <xref:System.Windows.Forms.BindingSource.List%2A> 의 속성을 <xref:System.Windows.Forms.BindingSource> 클래스.
 
 > [!NOTE]
->  컬렉션에서의 기본 구현을 제공 하지 않는 하는 기능이 필요한 경우는 <xref:System.ComponentModel.BindingList%601>, 필요에 따라 클래스에 추가할 수 있도록 사용자 지정 컬렉션을 만들어야 합니다.
+> 컬렉션에서의 기본 구현을 제공 하지 않는 하는 기능이 필요한 경우는 <xref:System.ComponentModel.BindingList%601>, 필요에 따라 클래스에 추가할 수 있도록 사용자 지정 컬렉션을 만들어야 합니다.
 
  다음 코드에는 강력한 형식의 컬렉션에 대 한 클래스를 만드는 방법을 보여 줍니다 `Order` 개체:
 
@@ -97,7 +97,7 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
  사용자 지정 컬렉션에 개체를 추가 하는 예제를 참조 하세요. 합니다 `LoadOrders` 의 메서드 [연습: 데이터 개체 (Windows Forms)에 연결할](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다.
 
 > [!NOTE]
->  합니다 `Add` 에서 상속 하는 경우 사용자 지정 컬렉션에 자동으로 메서드는 제공 <xref:System.ComponentModel.BindingList%601>합니다.
+> 합니다 `Add` 에서 상속 하는 경우 사용자 지정 컬렉션에 자동으로 메서드는 제공 <xref:System.ComponentModel.BindingList%601>합니다.
 
  다음 코드에서 형식화 된 컬렉션에 개체를 추가 하는 방법을 보여 줍니다는 <xref:System.Windows.Forms.BindingSource>:
 
@@ -107,7 +107,7 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
  다음 코드에서 상속 되는 형식화 된 컬렉션에 개체를 추가 하는 방법을 보여 줍니다 <xref:System.ComponentModel.BindingList%601>:
 
 > [!NOTE]
->  이 예제는 `Orders` 컬렉션의 속성은는 `Customer` 개체입니다.
+> 이 예제는 `Orders` 컬렉션의 속성은는 `Customer` 개체입니다.
 
  [!code-csharp[VbRaddataConnecting#6](../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataConnecting/CS/Class1.cs#6)]
  [!code-vb[VbRaddataConnecting#6](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConnecting/VB/Class1.vb#6)]
@@ -116,7 +116,7 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
  호출 하 여 컬렉션에서 개체를 제거 합니다 `Remove` 나 `RemoveAt` 메서드 또는 사용자 지정 컬렉션 클래스의 <xref:System.Windows.Forms.BindingSource>합니다.
 
 > [!NOTE]
->  합니다 `Remove` 하 고 `RemoveAt` 에서 상속 하는 경우 사용자 지정 컬렉션에 대 한 메서드가 자동으로 제공 됩니다 <xref:System.ComponentModel.BindingList%601>합니다.
+> 합니다 `Remove` 하 고 `RemoveAt` 에서 상속 하는 경우 사용자 지정 컬렉션에 대 한 메서드가 자동으로 제공 됩니다 <xref:System.ComponentModel.BindingList%601>합니다.
 
  다음 코드를 찾고 형식화 된 컬렉션에서 개체를 제거 하는 방법을 보여 줍니다는 <xref:System.Windows.Forms.BindingSource> 사용 하 여는 <xref:System.Windows.Forms.BindingSource.RemoveAt%2A> 메서드:
 

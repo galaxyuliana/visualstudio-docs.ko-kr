@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5f16385452fa0fa0f4e706da1856185355aa95a5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3d5d9e4cd0baa2343a68a3d86a96110c97b6cbb7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60047191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426810"
 ---
 # <a name="registering-single-file-generators"></a>단일 파일 생성기 등록
 사용자 지정 도구에서 사용할 수 있도록 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 따라서를 등록 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 인스턴스화할 수 있습니다 및 특정 프로젝트 형식에 연결 합니다.
@@ -51,7 +51,7 @@ ms.locfileid: "60047191"
         필수 요소. 이 사용자 지정 도구에서 생성 된 파일에서 형식을 사용할 수 있는 비주얼 디자이너를 수행 하는지 여부를 나타냅니다. 이 매개 변수의 값 (0) 0 비주얼 디자이너에 사용할 수 없는 형식에 대 한 또는 비주얼 디자이너를 사용할 수 있는 형식 (1) 1 있어야 합니다.
 
    > [!NOTE]
-   >  사용자 지정 도구 사용 가능 하도록 사용자 지정 도구는 원하는 각 언어에 대해 별도로 등록 해야 합니다.
+   > 사용자 지정 도구 사용 가능 하도록 사용자 지정 도구는 원하는 각 언어에 대해 별도로 등록 해야 합니다.
 
     예를 들어를 MSDataSetGenerator 자신을 등록 한 번 각 언어에 대 한 합니다.
 

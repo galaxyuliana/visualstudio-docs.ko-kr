@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1be553955abdc42c2a9b4d09ff857e9236b1a002
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6cac959fb4f9c52849e6e121943fd847deb923d0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427395"
 ---
 # <a name="how-to-import-a-master-page-or-theme"></a>방법: 마스터 페이지 또는 테마 가져오기
   제공할 수 있습니다 페이지 SharePoint 사이트에서 일관 된 모양을 만들고 마스터 페이지 및 테마를 사용 하 여. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 이러한 요소에 대 한 템플릿을 제공 하지 않습니다 SharePoint Designer에서 만들고를 다음으로 가져와야 하지만 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. 자세한 내용은 참조 하세요. [문서 블록: 페이지 및 사용자 인터페이스](http://go.microsoft.com/fwlink/?LinkID=182095) Microsoft 웹 사이트입니다.
@@ -48,7 +48,7 @@ ms.locfileid: "60081908"
 8. 마스터 페이지를 추가한 경우 변경 해당 **배포 충돌 해결** 설정을 **자동** 모듈의 속성입니다.
 
     > [!NOTE]
-    >  마스터 페이지의 이름이 기본 마스터 페이지 또는 사용자 지정 마스터 페이지에 표시 된 기존 마스터 페이지의 이름과 같은 경우 오류가 발생할 수 있습니다. 이 문제를 해결 하는 방법에 대 한 정보를 참조 하세요. [연습: 사용자 지정 마스터 페이지 및 사이트 페이지를 이미지로 가져오기](../sharepoint/walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md)합니다.
+    > 마스터 페이지의 이름이 기본 마스터 페이지 또는 사용자 지정 마스터 페이지에 표시 된 기존 마스터 페이지의 이름과 같은 경우 오류가 발생할 수 있습니다. 이 문제를 해결 하는 방법에 대 한 정보를 참조 하세요. [연습: 사용자 지정 마스터 페이지 및 사이트 페이지를 이미지로 가져오기](../sharepoint/walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md)합니다.
 
 9. 모듈을 엽니다 *Elements.xml*합니다.
 
@@ -81,7 +81,7 @@ ms.locfileid: "60081908"
      값이 **웹** 마스터 페이지는 현재 프로젝트에 지정 된 웹 사이트에만 적용 되는 것을 의미 합니다. 값이 **사이트** 마스터 페이지 모든 하위 사이트와 웹 루트를 포함 하는 현재 사이트 컬렉션에 적용 하는 것을 의미 합니다. 다른 값이 적용 되지 않습니다.
 
     > [!NOTE]
-    >  사이트 모음 수준에만 테마를 적용할지, 때문에 설정 하지 않으면 테마의 범위에 아무 것도 아닌 다른 것이 좋습니다 **사이트**합니다. 하위 사이트에 테마를 사용 하는 경우 오류가 발생할 수 있습니다.
+    > 사이트 모음 수준에만 테마를 적용할지, 때문에 설정 하지 않으면 테마의 범위에 아무 것도 아닌 다른 것이 좋습니다 **사이트**합니다. 하위 사이트에 테마를 사용 하는 경우 오류가 발생할 수 있습니다.
 
 12. 메뉴 모음에서 선택 **빌드합니다** > **솔루션 배포**합니다.
 

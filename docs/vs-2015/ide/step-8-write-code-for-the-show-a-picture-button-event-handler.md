@@ -9,12 +9,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a4d0eb491a2dbe0b6fc290cefb665bcb931f8a1a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2f162f827fa1866b5ca241bd9aaae2aadffb56e6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428606"
 ---
 # <a name="step-8-write-code-for-the-show-a-picture-button-event-handler"></a>8단계: 그림 표시 단추 이벤트 처리기를 위한 코드 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ Visual C# 코드
     3. 마침표(`.`)를 입력합니다. 프로그래머들은 마침표를 점으로 지칭하는 경우가 많습니다. **openFileDialog1** 바로 다음에 점을 입력했으므로 모든 **OpenFileDialog** 구성 요소의 속성과 메서드가 포함된 **IntelliSense** 창이 열립니다. 이 속성은 Windows Forms 디자이너에서 선택할 경우 **속성** 창에 표시되는 것과 같습니다. 또한 구성 요소에 대화 상자 열기와 같은 작업을 지시할 수 있는 메서드를 선택할 수도 있습니다.  
   
         > [!NOTE]
-        >  **IntelliSense** 창에는 속성과 메서드가 모두 표시될 수 있습니다. 표시되는 항목을 확인하려면 **IntelliSense** 창의 각 항목 왼쪽에 있는 아이콘을 봅니다. 각 메서드 옆에는 벽돌 그림이, 각 속성 옆에는 렌치(또는 스패너) 그림이 표시됩니다. 또한 각 이벤트 옆에는 번개 모양 아이콘이 표시됩니다. 이러한 그림은 다음과 같습니다.  
+        > **IntelliSense** 창에는 속성과 메서드가 모두 표시될 수 있습니다. 표시되는 항목을 확인하려면 **IntelliSense** 창의 각 항목 왼쪽에 있는 아이콘을 봅니다. 각 메서드 옆에는 벽돌 그림이, 각 속성 옆에는 렌치(또는 스패너) 그림이 표시됩니다. 또한 각 이벤트 옆에는 번개 모양 아이콘이 표시됩니다. 이러한 그림은 다음과 같습니다.  
   
          ![메서드 아이콘](../ide/media/express-iconmethod.png "Express_IconMethod")  
 메서드 아이콘  
@@ -72,21 +72,21 @@ Visual C# 코드
     5. 컨트롤 또는 구성 요소에서 메서드를 사용할 경우(*메서드 호출*이라고 함) 괄호를 추가해야 합니다. `ShowDialog`에서 "g" 바로 뒤에 열기 및 닫기 괄호를 입력하므로 `()` 이제 "openFileDialog1.ShowDialog()"처럼 표시됩니다.  
   
         > [!NOTE]
-        >  메서드는 모든 프로그램에서 중요한 부분이며 이 자습서에는 여러 가지 메서드 사용 방법이 나와 있습니다. **OpenFileDialog** 구성 요소의 `ShowDialog()` 메서드를 호출한 것과 같이 구성 요소의 메서드를 호출하여 작업을 지시할 수 있습니다. 직접 고유의 메서드를 만들어 프로그램에 작업을 지시할 수 있습니다. 사용자가 단추를 선택할 경우 대화 상자와 그림을 열도록 지금 빌드 중인 `showButton_Click()` 메서드가 그 예입니다.  
+        > 메서드는 모든 프로그램에서 중요한 부분이며 이 자습서에는 여러 가지 메서드 사용 방법이 나와 있습니다. **OpenFileDialog** 구성 요소의 `ShowDialog()` 메서드를 호출한 것과 같이 구성 요소의 메서드를 호출하여 작업을 지시할 수 있습니다. 직접 고유의 메서드를 만들어 프로그램에 작업을 지시할 수 있습니다. 사용자가 단추를 선택할 경우 대화 상자와 그림을 열도록 지금 빌드 중인 `showButton_Click()` 메서드가 그 예입니다.  
   
     6. Visual C#의 경우 공백을 추가하고 두 개의 등호(`==`)를 추가합니다. Visual Basic의 경우 공백을 추가하고 하나의 등호(`=`)를 사용합니다. Visual C#과 Visual Basic에서 사용되는 같음 연산자는 다릅니다.  
   
     7. 공백을 하나 더 추가합니다. 그러면 바로 다른 **IntelliSense** 창이 열립니다. `DialogResult` 입력을 시작하고 Tab 키를 선택하여 추가합니다.  
   
         > [!NOTE]
-        >  메서드를 호출하기 위한 코드를 작성할 때 값이 반환되는 경우가 있습니다. 이 경우 **OpenFileDialog** 구성 요소의 `ShowDialog()` 메서드는 DialogResult 값을 반환합니다. DialogResult는 대화 상자에서 수행된 작업을 알려 주는 특수 값입니다. **OpenFileDialog** 구성 요소에서 사용자는 **확인** 또는 **취소**를 선택할 수 있으므로 `ShowDialog()` 메서드는 DialogResult.OK 또는 DialogResult.Cancel을 반환합니다.  
+        > 메서드를 호출하기 위한 코드를 작성할 때 값이 반환되는 경우가 있습니다. 이 경우 **OpenFileDialog** 구성 요소의 `ShowDialog()` 메서드는 DialogResult 값을 반환합니다. DialogResult는 대화 상자에서 수행된 작업을 알려 주는 특수 값입니다. **OpenFileDialog** 구성 요소에서 사용자는 **확인** 또는 **취소**를 선택할 수 있으므로 `ShowDialog()` 메서드는 DialogResult.OK 또는 DialogResult.Cancel을 반환합니다.  
   
     8. 점을 입력하여 DialogResult 값 **IntelliSense** 창을 엽니다. 문자 `O`를 입력하고 Tab 키를 선택하여 **OK**를 삽입합니다.  
   
          `DialogResult`에 대한 자세한 내용은 [DialogResult](http://msdn.microsoft.com/library/system.windows.forms.dialogresult.aspx)를 참조하세요.  
   
         > [!NOTE]
-        >  그러면 첫 번째 코드 줄이 완성됩니다. Visual C#의 경우 다음과 같이 됩니다.  
+        > 그러면 첫 번째 코드 줄이 완성됩니다. Visual C#의 경우 다음과 같이 됩니다.  
         >   
         >  `if (openFileDialog1.ShowDialog() == DialogResult.OK)`  
         >   

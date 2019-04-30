@@ -11,12 +11,12 @@ caps.latest.revision: 63
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f5805483b78798aabc3641c6aa17379370c6a199
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: cab72753016c49b4d959d2224dbfd99f8a0c07bb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433142"
 ---
 # <a name="define-a-menu-command-on-a-modeling-diagram"></a>모델링 다이어그램의 메뉴 명령 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +77,7 @@ Visual Studio에서 UML 다이어그램의 바로 가기 메뉴에 추가 메뉴
 3. 프로젝트에 클래스 파일을 추가하고 해당 콘텐츠를 다음 코드로 설정합니다.  
 
    > [!NOTE]
-   >  네임스페이스, 클래스 이름 및 `Text` 에서 반환되는 값을 원하는 대로 변경합니다.  
+   > 네임스페이스, 클래스 이름 및 `Text` 에서 반환되는 값을 원하는 대로 변경합니다.  
    >   
    >  여러 명령을 정의하는 경우 클래스 이름의 사전순으로 메뉴에 나타납니다.  
 
@@ -222,7 +222,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
 
     - 프로젝트가 두 개 이상 있으면 VSIX 프로젝트가 솔루션의 시작 프로젝트로 설정되었는지 확인합니다.  
 
-    - 솔루션 탐색기의 시작 또는 전용 프로젝트 바로 가기 메뉴에서 **속성**을 선택합니다. 프로젝트 속성 편집기에서 **디버그** 탭을 선택합니다. 시작 외부 프로그램** 필드의 문자열이 보통 다음과 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 전체 경로 이름인지 확인합니다.  
+    - 솔루션 탐색기의 시작 또는 전용 프로젝트 바로 가기 메뉴에서 **속성**을 선택합니다. 프로젝트 속성 편집기에서 **디버그** 탭을 선택합니다. **시작 외부 프로그램** 필드의 문자열이 보통 다음과 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 전체 경로 이름인지 확인합니다.  
 
          `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
 

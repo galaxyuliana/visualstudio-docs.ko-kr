@@ -13,12 +13,12 @@ ms.assetid: dd3e8a6a-b366-433e-a409-b9a9b89da89a
 caps.latest.revision: 23
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a9874379586dd077f857a58800010391da36d19f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7ff078649703eef438ff7f4b14a51e7f7d155231
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428203"
 ---
 # <a name="walkthrough-creating-and-running-unit-tests-for-windows-store-apps"></a>연습: 만들기 및 Windows 스토어 앱 용 단위 테스트를 실행 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60069852"
 Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 응용 프로그램에 대한 단위 테스트 지원이 포함되어 있으며, Visual C#, Visual Basic 및 Visual C++에 대한 단위 테스트 라이브러리 템플릿이 포함되어 있습니다.  
   
 > [!TIP]
->  [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 앱 개발에 대한 자세한 내용은 [Windows 스토어 앱 시작하기](http://go.microsoft.com/fwlink/?LinkID=241410)를 참조하세요.  
+> [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 앱 개발에 대한 자세한 내용은 [Windows 스토어 앱 시작하기](http://go.microsoft.com/fwlink/?LinkID=241410)를 참조하세요.  
   
  Visual Studio는 다음과 같은 유닛 테스트 기능을 제공합니다.  
   
@@ -54,7 +54,7 @@ Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-a
 2. 템플릿에서 단위 테스트를 만들 프로그래밍 언어를 선택하고 연결된 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 단위 테스트 라이브러리를 선택합니다. 예를 들면 **Visual C#** 를 선택하고 **Windows 스토어**를 선택한 다음 **단위 테스트 라이브러리(Windows 스토어 응용 프로그램)** 를 선택합니다.  
   
     > [!NOTE]
-    >  Visual Studio에는 Visual C#, Visual Basic 및 Visual C++에 대한 단위 테스트 라이브러리 템플릿이 포함되어 있습니다.  
+    > Visual Studio에는 Visual C#, Visual Basic 및 Visual C++에 대한 단위 테스트 라이브러리 템플릿이 포함되어 있습니다.  
   
 3. (선택 사항) **이름** 텍스트 상자에 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)]단위 테스트 프로젝트에 사용할 이름을 입력합니다.  
   
@@ -84,7 +84,7 @@ Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-a
 3. **기능**의 목록에서 단위 테스트와 테스트하는 코드에 필요한 기능을 선택합니다. 예를 들어, 단위 테스트에 필요하고 테스트하려는 코드에 인터넷 액세스 기능이 있어야 하는 경우 **인터넷** 확인란을 선택합니다.  
   
     > [!NOTE]
-    >  선택하는 기능에는 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 단위 테스트가 제대로 작동하는 데 필요한 기능만 포함되어야 합니다. 기능은 테스트되는 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 응용 프로그램의 일부가 아닌 기능을 포함할 필요가 전혀 없으며 일반적으로 테스트 중인 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 응용 프로그램에 대해 지정된 기능의 하위 집합이어야 합니다.  
+    > 선택하는 기능에는 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 단위 테스트가 제대로 작동하는 데 필요한 기능만 포함되어야 합니다. 기능은 테스트되는 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 응용 프로그램의 일부가 아닌 기능을 포함할 필요가 전혀 없으며 일반적으로 테스트 중인 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 응용 프로그램에 대해 지정된 기능의 하위 집합이어야 합니다.  
   
      매니페스트 디자이너에 대한 자세한 내용은 [매니페스트 디자이너를 사용하여 Windows 8.1 앱 패키지 구성](http://msdn.microsoft.com/library/24c58b7f-9c6d-41c3-b385-c1e8497d5b2d)을 참조하세요.  
   
@@ -111,22 +111,22 @@ Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-a
      단위 테스트가 지금 나열됩니다.  
   
     > [!NOTE]
-    >  테스트 탐색기에서 단위 테스트 목록을 업데이트하는 솔루션을 빌드해야 합니다.  
+    > 테스트 탐색기에서 단위 테스트 목록을 업데이트하는 솔루션을 빌드해야 합니다.  
   
     > [!WARNING]
-    >  Visual Studio의 알려진 문제: 테스트 프로젝트를 빌드하기 전에 테스트 탐색기를 열어야 합니다.  
+    > Visual Studio의 알려진 문제: 테스트 프로젝트를 빌드하기 전에 테스트 탐색기를 열어야 합니다.  
   
 3. 테스트 탐색기에서 만든 단위 테스트를 선택합니다.  
   
     > [!TIP]
-    >  테스트 탐색기는 **소스:** 옆의 소스 코드에 대한 링크를 제공합니다.  
+    > 테스트 탐색기는 **소스:** 옆의 소스 코드에 대한 링크를 제공합니다.  
   
 4. **모두 실행**을 선택합니다.  
   
      ![단위 테스트 탐색기 &#45; 단위 테스트 실행](../test/media/unit-test-win8-unittestexplorer-contextmenurun.png "Unit_Test_Win8_UnitTestExplorer_ContextMenuRun")  
   
     > [!TIP]
-    >  탐색기에 나열된 하나 이상의 단위 테스트를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **선택한 테스트 실행**을 선택합니다.  
+    > 탐색기에 나열된 하나 이상의 단위 테스트를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **선택한 테스트 실행**을 선택합니다.  
     >   
     >  또한 **선택한 테스트 디버그**, **테스트 열기**를 선택하고 **속성** 옵션을 사용할 수 있습니다.  
     >   

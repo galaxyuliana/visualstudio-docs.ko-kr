@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0d8da1446682c36549440e9b9e38ce110e0b35ba
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: e2683c3a2ea80aad341b7fab4fb35d13ea5379c7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429045"
 ---
 # <a name="solution-configuration"></a>솔루션 구성
 솔루션 구성은 솔루션 수준 속성을 저장합니다. 동작을 직접 실행 합니다 **시작** (F5) 키 및 **빌드** 명령입니다. 기본적으로 이러한 명령을 빌드 및 디버그 구성을 시작 합니다. 두 명령 모두 솔루션 구성의 컨텍스트에서 실행 됩니다. 즉, 사용자가 시작 하 고 모든 활성 솔루션 설정을 통해 구성 된 빌드를 F5를 기대할 수 있습니다. 환경 빌드 및 실행에 연결할 때 프로젝트 대신 솔루션에 대 한 최적화 하도록 설계 되었습니다.
@@ -23,7 +23,7 @@ ms.locfileid: "56614829"
  표준 Visual Studio 도구 모음 시작 단추 및 솔루션 구성 드롭다운 시작 단추의 오른쪽을 포함합니다. 이 목록에는 f5 키를 누를 때 시작할 구성을 선택, 자신의 솔루션 구성 만들기 또는 기존 구성을 편집할 수가 있습니다.
 
 > [!NOTE]
->  없는 확장성 인터페이스를 만들거나 솔루션 구성 편집 있습니다. 사용 해야 `DTE.SolutionBuilder`합니다. 그러나 솔루션 빌드를 관리 하기 위한 확장성 Api는 합니다. 자세한 내용은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2>을 참조하세요.
+> 없는 확장성 인터페이스를 만들거나 솔루션 구성 편집 있습니다. 사용 해야 `DTE.SolutionBuilder`합니다. 그러나 솔루션 빌드를 관리 하기 위한 확장성 Api는 합니다. 자세한 내용은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2>을 참조하세요.
 
  프로젝트 형식에서 지 원하는 솔루션 구성을 구현 하는 방법을 다음과 같습니다.
 
@@ -31,7 +31,7 @@ ms.locfileid: "56614829"
 
    현재 솔루션에 있는 프로젝트의 이름을 표시 합니다.
 
-- 구성하기
+- 구성
 
    프로젝트 형식에서 지 원하는 구성 목록을 제공 하 고 구현 속성 페이지에 표시 하려면 <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2>합니다.
 

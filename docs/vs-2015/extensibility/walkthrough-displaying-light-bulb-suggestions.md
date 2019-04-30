@@ -8,12 +8,12 @@ ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 32d567ab4c71bdf4716a4c61464e1ee4ba6ecfa4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8f135247241e8cf441cba2c1f63984dc69f7114c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438153"
 ---
 # <a name="walkthrough-displaying-light-bulb-suggestions"></a>연습: 밝은 전구 추천 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -179,7 +179,7 @@ ms.locfileid: "60099782"
 6. 구현 된 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource.GetSuggestedActions%2A> 의 배열을 반환 하는 메서드 <xref:Microsoft.VisualStudio.Language.Intellisense.SuggestedActionSet> 다양 한 포함 하는 개체 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction> 개체입니다. 이 메서드는 전구 확장 될 때 호출 됩니다.  
   
     > [!WARNING]
-    >  확인 해야 하는 구현 `HasSuggestedActionsAsync()` 및 `GetSuggestedActions()` 는 일관 된;은 이면 `HasSuggestedActionsAsync()` 반환 `true`, 다음 `GetSuggestedActions()` 표시 하려면 몇 가지 작업에 있어야 합니다. 대부분의 경우에서 `HasSuggestedActionsAsync()` 직전에 호출 `GetSuggestedActions()`, 이지만 항상 대/소문자는 없습니다. 예를 들어, 사용자 키를 눌러 전구 작업을 호출 하는 경우 (CTRL +.)만 `GetSuggestedActions()` 라고 합니다.  
+    > 확인 해야 하는 구현 `HasSuggestedActionsAsync()` 및 `GetSuggestedActions()` 는 일관 된;은 이면 `HasSuggestedActionsAsync()` 반환 `true`, 다음 `GetSuggestedActions()` 표시 하려면 몇 가지 작업에 있어야 합니다. 대부분의 경우에서 `HasSuggestedActionsAsync()` 직전에 호출 `GetSuggestedActions()`, 이지만 항상 대/소문자는 없습니다. 예를 들어, 사용자 키를 눌러 전구 작업을 호출 하는 경우 (CTRL +.)만 `GetSuggestedActions()` 라고 합니다.  
   
     ```csharp  
     public IEnumerable<SuggestedActionSet> GetSuggestedActions(ISuggestedActionCategorySet requestedActionCategories, SnapshotSpan range, CancellationToken cancellationToken)  
@@ -328,7 +328,7 @@ ms.locfileid: "60099782"
     ```  
   
     > [!WARNING]
-    >  전구 동작 **Invoke** 메서드 UI가 표시 되지 않습니다.  작업은 새 ui (예: 미리 보기 또는 선택 영역 대화) 상태로 경우 내에서 직접 UI를 표시 하지 않습니다 합니다 **Invoke** 메서드 대신에서 반환 된 후 UI를 표시할 예약 하지만 **Invoke**.  
+    > 전구 동작 **Invoke** 메서드 UI가 표시 되지 않습니다.  작업은 새 ui (예: 미리 보기 또는 선택 영역 대화) 상태로 경우 내에서 직접 UI를 표시 하지 않습니다 합니다 **Invoke** 메서드 대신에서 반환 된 후 UI를 표시할 예약 하지만 **Invoke**.  
   
 10. 구현을 완료 하려면 추가 합니다 `Dispose()` 고 `TryGetTelemetryId()` 메서드.  
   

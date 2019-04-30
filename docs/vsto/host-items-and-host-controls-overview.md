@@ -36,12 +36,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2ef2d97b0e3b15accdeb267513b38ef6d5bd729d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: e9bd569f41ae15b6e95cc92fe969a4263c760735
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427969"
 ---
 # <a name="host-items-and-host-controls-overview"></a>호스트 항목 및 호스트 컨트롤 개요
   호스트 항목과 호스트 컨트롤은 Visual Studio에서 Office 개발 도구를 사용하여 만든 Office 솔루션에 프로그래밍 모델을 제공하는 데 도움이 되는 형식입니다. 호스트 항목과 호스트 컨트롤은 COM 기반의 Microsoft Office Word 및 Microsoft Office Excel의 개체 모델과 상호 작용합니다. 이는 Windows Forms 컨트롤과 같이 관리되는 개체와 상호 작용한다고 하는 편이 더 정확합니다.
@@ -113,7 +113,7 @@ ms.locfileid: "56607111"
   또한 Word 및 Excel 문서 화면에 직접 Windows Forms 컨트롤을 추가하여 Office 솔루션에서 사용할 수도 있습니다. 자세한 내용은 [Office 문서 개요에서 Windows Forms 컨트롤](../vsto/windows-forms-controls-on-office-documents-overview.md)합니다.
 
 > [!NOTE]
->  Word 하위 문서에 호스트 컨트롤 또는 Windows Forms 컨트롤을 추가하는 것은 지원되지 않습니다.
+> Word 하위 문서에 호스트 컨트롤 또는 Windows Forms 컨트롤을 추가하는 것은 지원되지 않습니다.
 
 ### <a name="add-host-controls-to-your-documents"></a>문서에 호스트 컨트롤 추가
  문서 수준 프로젝트에서 다음과 같은 방법으로 디자인 타임에 호스트 컨트롤을 Word 문서 또는 Excel 워크시트에 추가할 수 있습니다.
@@ -148,7 +148,7 @@ ms.locfileid: "56607111"
  호스트 컨트롤을 **도구 상자** 에서 문서에 끌어 놓는 경우 해당 컨트롤은 자동으로 명명되는데 이름 끝에 증분값을 붙인 컨트롤 형식을 사용합니다. 예를 들어 bookmark 이름은 **bookmark1**, **bookmark2**등입니다. Word 또는 Excel의 본래 기능을 사용하여 컨트롤을 추가하는 경우에는 컨트롤을 만들 때 특정 이름을 지정할 수 있습니다. 또한 **속성** 창에서 **이름** 속성 값을 변경하여 컨트롤의 이름을 바꿀 수도 있습니다.
 
 > [!NOTE]
->  예약어를 사용하여 호스트 컨트롤의 이름을 지정할 수 없습니다. 예를 들어 워크시트에 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 추가하고 이름을 **System**으로 변경하면 프로젝트를 빌드할 때 오류가 발생합니다.
+> 예약어를 사용하여 호스트 컨트롤의 이름을 지정할 수 없습니다. 예를 들어 워크시트에 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 추가하고 이름을 **System**으로 변경하면 프로젝트를 빌드할 때 오류가 발생합니다.
 
 ### <a name="delete-host-controls"></a>호스트 컨트롤 삭제
  문서 수준 프로젝트에서 삭제할 수 있습니다 호스트 컨트롤 디자인 타임 Excel 워크시트 또는 Word 문서에 컨트롤을 선택 하 고 키를 눌러 합니다 **삭제** 키입니다. 하지만 **컨트롤을 삭제하려면 Excel의** 이름 정의 <xref:Microsoft.Office.Tools.Excel.NamedRange> 대화 상자를 사용해야 합니다.
@@ -160,13 +160,13 @@ ms.locfileid: "56607111"
  런타임에 문서에서 호스트 컨트롤을 삭제 하는 최종 사용자, 솔루션 예기치 않게에서 실패할 수 있습니다. Word 및 Excel의 문서 보호 기능을 사용하여 호스트 컨트롤이 삭제되지 않도록 보호할 수 있습니다. 자세한 내용은 [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)합니다.
 
 > [!NOTE]
->  문서 또는 워크시트의 `Shutdown` 이벤트 처리기 중에 프로그래밍 방식으로 컨트롤을 제거하지 마세요. UI 요소는 `Shutdown` 이벤트가 발생할 때 더 이상 사용할 수 없습니다. 애플리케이션이 닫히기 전에 컨트롤을 제거하려면 `BeforeClose` 또는 `BeforeSave`등의 다른 이벤트 처리기에 코드를 추가합니다.
+> 문서 또는 워크시트의 `Shutdown` 이벤트 처리기 중에 프로그래밍 방식으로 컨트롤을 제거하지 마세요. UI 요소는 `Shutdown` 이벤트가 발생할 때 더 이상 사용할 수 없습니다. 애플리케이션이 닫히기 전에 컨트롤을 제거하려면 `BeforeClose` 또는 `BeforeSave`등의 다른 이벤트 처리기에 코드를 추가합니다.
 
 ### <a name="program-against-host-control-events"></a>호스트 컨트롤 이벤트에 대 한 프로그램
  호스트 컨트롤이 Office 개체를 확장하는 한 가지 방법은 이벤트를 추가하는 것입니다. 예를 들어 Excel의 <xref:Microsoft.Office.Interop.Excel.Range> 개체 및 Word의 <xref:Microsoft.Office.Interop.Word.Bookmark> 개체에는 이벤트가 없지만 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 프로그래밍 가능한 이벤트를 추가하여 이러한 개체를 확장합니다. Windows Forms에서 컨트롤의 이벤트를 액세스하는 방법과 같은 방법으로(Visual Basic의 이벤트 드롭다운 목록 및 C#의 이벤트 속성 페이지를 통해) 이러한 이벤트에 액세스하고 코드를 추가할 수 있습니다. 자세한 내용은 [연습: NamedRange 컨트롤의 이벤트에 대 한 프로그램](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)합니다.
 
 > [!NOTE]
->  Excel에서 <xref:Microsoft.Office.Interop.Excel._Application.EnableEvents%2A> 개체의 <xref:Microsoft.Office.Interop.Excel.Application> 속성을 **false**라는 Word 또는 Excel 개체 모델에 고유하게 존재하는 개체를 확장합니다. 이 속성을 **false** 로 설정하면 Excel에서 호스트 컨트롤의 이벤트를 비롯한 어떤 이벤트도 발생시킬 수 없습니다.
+> Excel에서 <xref:Microsoft.Office.Interop.Excel._Application.EnableEvents%2A> 개체의 <xref:Microsoft.Office.Interop.Excel.Application> 속성을 **false**라는 Word 또는 Excel 개체 모델에 고유하게 존재하는 개체를 확장합니다. 이 속성을 **false** 로 설정하면 Excel에서 호스트 컨트롤의 이벤트를 비롯한 어떤 이벤트도 발생시킬 수 없습니다.
 
 ## <a name="see-also"></a>참고자료
 - [호스트 항목 및 호스트 컨트롤의 프로그래밍 방식으로 제한 사항](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)

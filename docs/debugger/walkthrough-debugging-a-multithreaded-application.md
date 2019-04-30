@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d55d4ae23b2fd8bf03e6aa9ad7301531aedcfcac
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fddd8efd11d2a3d61f0cff33cb832ebd8a0c5d2a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406933"
 ---
 # <a name="view-threads-in-the-visual-studio-debugger-by-using-the-threads-window-c-visual-basic-c"></a>스레드 창을 사용 하 여 Visual Studio 디버거에서 스레드 보기 (C#, Visual Basic의 경우 C++)
 에 **스레드** 창을 검토 하 고 수 디버그 중인 응용 프로그램에서 스레드를 사용 하 여 작동 합니다. 사용 하는 방법에 대 한 단계별 지침에 대 한 합니다 **스레드** 창 참조 [연습: 스레드 창을 사용 하 여 디버그](../debugger/how-to-use-the-threads-window.md)합니다.
@@ -85,7 +85,7 @@ ms.locfileid: "60107764"
  관리 코드에서 일시 중단된 횟수 변경 하거나 스레드 재개 합니다. 관리 코드에서 스레드를 중지 하면 일시 중단 된 개수는 1입니다. 네이티브 코드에서 스레드를 중지 하면 해당 일시 중단 된 횟수가 0을 사용 하지 않은 경우는 `SuspendThread` 호출 합니다.
 
 > [!NOTE]
->  네이티브 코드에서 관리 코드로의 호출을 디버깅할 때 관리 코드는 이를 호출한 네이티브 코드와 동일한 실제 스레드에서 실행됩니다. 네이티브 스레드를 일시 중단하거나 중지하면 관리 코드도 중지됩니다.
+> 네이티브 코드에서 관리 코드로의 호출을 디버깅할 때 관리 코드는 이를 호출한 네이티브 코드와 동일한 실제 스레드에서 실행됩니다. 네이티브 스레드를 일시 중단하거나 중지하면 관리 코드도 중지됩니다.
 
 ### <a name="to-freeze-or-thaw-execution-of-a-thread"></a>스레드 실행을 중지하거나 재개하려면
 

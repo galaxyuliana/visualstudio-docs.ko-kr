@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bf2fd868927a7e8380d5c079c2f8dc86d5385961
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 8f322d18afdb8e14ee87ae31d30dd6bdd57b07c5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431297"
 ---
 # <a name="design-a-business-data-connectivity-model"></a>비즈니스 데이터 연결 모델 디자인
   모델 파일에 엔터티 및 메서드를 추가 하 여 비즈니스 데이터 연결 (BDC) 서비스에 대 한 모델을 개발할 수 있습니다. 엔터티는 데이터 필드의 컬렉션을 설명 합니다. 예를 들어, 엔터티는 데이터베이스의 테이블을 나타낼 수 있습니다. 메서드를 추가, 삭제 또는 엔터티를 나타내는 데이터 업데이트와 같은 작업을 수행 합니다. 자세한 내용은 [SharePoint 비즈니스 데이터 통합](../sharepoint/integrating-business-data-into-sharepoint.md)합니다.
@@ -96,7 +96,7 @@ ms.locfileid: "56628418"
  또한 개별 모델 또는 외부 콘텐츠 형식에 대 한 보안 권한을 설정할 수 있습니다. 모델의 보안 권한을 설정 하는 방법에 대 한 자세한 내용은 참조 하세요. [BDC 모델 관리](http://go.microsoft.com/fwlink/?LinkID=178884)합니다. 외부 콘텐츠 형식의 보안 권한을 설정 하는 방법에 대 한 자세한 내용은 참조 하세요. [외부 콘텐츠 형식 관리](http://go.microsoft.com/fwlink/?LinkID=178885)합니다.
 
 > [!NOTE]
->  이러한 설정을 사용 하 여 로컬 SharePoint 서버에서 솔루션을 디버그 합니다. 프로덕션 SharePoint 서버에서 BDC 관련 보안 설정을 구성 하는 방법에 대 한 자세한 내용은 참조 하십시오 [Business Data Connectivity Services 보안 개요](http://go.microsoft.com/fwlink/?LinkID=178886)합니다.
+> 이러한 설정을 사용 하 여 로컬 SharePoint 서버에서 솔루션을 디버그 합니다. 프로덕션 SharePoint 서버에서 BDC 관련 보안 설정을 구성 하는 방법에 대 한 자세한 내용은 참조 하십시오 [Business Data Connectivity Services 보안 개요](http://go.microsoft.com/fwlink/?LinkID=178886)합니다.
 
 ### <a name="retract-models-that-become-corrupt"></a>손상 된 모델 제거
  디버거를 처음 시작하면 Visual Studio에서 전체 모델을 SharePoint에 배포합니다. 각 시간 이후에 Visual Studio 배포 간에 수행한 모든 변경 내용을 사용 하 여 SharePoint에서 모델을 업데이트 합니다.

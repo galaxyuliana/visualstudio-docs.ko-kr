@@ -11,12 +11,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0a440fbd87e85a72b2807ea09c7af61adf9f8af7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c485209f47e2d119fe469a59fe379f7cabe03813
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422584"
 ---
 # <a name="deploying-a-custom-directive-processor"></a>사용자 지정 지시문 처리기 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -148,7 +148,7 @@ ms.locfileid: "60108362"
 ```  
   
 > [!NOTE]
->  이 특성은 지시문 프로세서 클래스가 아니라 패키지 클래스에 배치됩니다.  
+> 이 특성은 지시문 프로세서 클래스가 아니라 패키지 클래스에 배치됩니다.  
   
  .pkgdef 파일은 프로젝트를 빌드할 때 생성됩니다. VSPackage를 설치하면 .pkgdef 파일이 지시문 프로세서를 등록합니다.  
   
@@ -160,7 +160,7 @@ ms.locfileid: "60108362"
  사용자 지정 지시문 프로세서를 설치하는 이 방법은 가장 선호되지 않는 방법입니다. 이 방법으로는 간편하게 지시문 프로세서를 사용하거나 사용하지 않도록 설정할 수 없으며 지시문 프로세서를 다른 사용자에게 배포할 수 없습니다.  
   
 > [!CAUTION]
->  레지스트리를 잘못 편집하면 시스템에 심각한 손상이 발생할 수 있습니다. 따라서 레지스트리를 변경하기 전에 컴퓨터에 있는 중요한 데이터를 백업해야 합니다.  
+> 레지스트리를 잘못 편집하면 시스템에 심각한 손상이 발생할 수 있습니다. 따라서 레지스트리를 변경하기 전에 컴퓨터에 있는 중요한 데이터를 백업해야 합니다.  
   
 #### <a name="to-register-a-directive-processor-by-setting-a-registry-key"></a>레지스트리 키를 설정하여 지시문 프로세서를 등록하려면  
   

@@ -12,12 +12,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b4c02c7dbce09383b5fc3cb1fd7f5eec6e9116b1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e7a4169d57cd5b004ded9fbc9b8a16bf7537754b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417557"
 ---
 # <a name="browse-and-select-a-net-type-dialog-box"></a>.NET 유형 선택 대화 상자
 에 **속성** 창, 대화 상자 또는 변수 디자이너를 선택 하는 경우와 같은 디자이너 **형식 찾아보기...** 데이터 형식의 목록에서은 **.NET 유형 선택** 대화 상자 (약칭 "형식 브라우저"에서 참조). 이 대화 상자의 어셈블리 및 프로젝트 트리 뷰에서 형식을 선택할 수 있습니다.  
@@ -31,7 +31,7 @@ ms.locfileid: "60079839"
 - <xref:System.Activities.Statements.TryCatch> 활동에 catch를 추가할 때  
   
 > [!NOTE]
->  형식 브라우저는 Visual Basic 가변 배열 형식을 표시할 수 있지만 다차원 배열 형식을 표시할 수 없습니다. 참조 [가변 배열](http://go.microsoft.com/fwlink/?LinkId=195226) 하 고 [다차원 배열](http://go.microsoft.com/fwlink/?LinkId=195227) 세부 정보에 대 한 합니다.  
+> 형식 브라우저는 Visual Basic 가변 배열 형식을 표시할 수 있지만 다차원 배열 형식을 표시할 수 없습니다. 참조 [가변 배열](http://go.microsoft.com/fwlink/?LinkId=195226) 하 고 [다차원 배열](http://go.microsoft.com/fwlink/?LinkId=195227) 세부 정보에 대 한 합니다.  
   
 ## <a name="selecting-a-value-or-reference-type-from-the-type-browser"></a>형식 브라우저에서 값 또는 참조 형식 선택  
   

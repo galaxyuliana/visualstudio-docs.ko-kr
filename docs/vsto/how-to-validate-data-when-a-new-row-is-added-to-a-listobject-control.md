@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d8aefab319b9b197b9b7df0e23fec71aa3cb64d1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7c729896083c7d32a48ba39906d8e9a0ebde4b59
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420949"
 ---
 # <a name="how-to-validate-data-when-a-new-row-is-added-to-a-listobject-control"></a>방법: ListObject 컨트롤에는 새 행을 추가할 때 데이터 유효성 검사
   사용자는 데이터에 바인딩된 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤에 새 행을 추가할 수 있습니다. 데이터 원본에 대한 변경 내용을 커밋하기 전에 사용자 데이터의 유효성을 확인할 수 있습니다.
@@ -30,7 +30,7 @@ ms.locfileid: "60039313"
  데이터에 바인딩된 <xref:Microsoft.Office.Tools.Excel.ListObject> 에 행을 추가할 때마다 <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeAddDataBoundRow> 이벤트가 발생합니다. 데이터 유효성 검사를 수행하도록 이 이벤트를 처리할 수 있습니다. 예를 들어, 응용 프로그램에 65 세 18 세 사이의 직원만 데이터 원본에 추가할 수는 필요한 경우에 입력 한 나이가 범위 내에서 행 추가 되기 전에 확인 합니다.
 
 > [!NOTE]
->  클라이언트뿐 아니라 서버에서의 사용자 입력도 항상 확인해야 합니다. 자세한 내용은 [안전한 클라이언트 응용 프로그램](/dotnet/framework/data/adonet/secure-client-applications)합니다.
+> 클라이언트뿐 아니라 서버에서의 사용자 입력도 항상 확인해야 합니다. 자세한 내용은 [안전한 클라이언트 응용 프로그램](/dotnet/framework/data/adonet/secure-client-applications)합니다.
 
 ### <a name="to-validate-data-when-a-new-row-is-added-to-data-bound-listobject"></a>데이터 바인딩된 ListObject에 새 행을 추가할 때 데이터 유효성을 검사하려면
 

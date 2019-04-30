@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d96fffad2159d8a8f7a8ab785ad9d5d8f35186f8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 67ef0d68df50d89f0ec22631a731ea9eb50dad46
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415488"
 ---
 # <a name="how-to-implement-error-markers"></a>방법: 오류 마커를 구현 합니다.
 오류 표식 (또는 빨간색 물결 무늬 밑줄)은 가장 어려운 구현 하려면 텍스트 편집기 사용자 지정 합니다. 그러나 VSPackage의 사용자에 게 혜택을 제공 하는 데 비용이 훨씬 보다 클 수 있습니다. 약간 오류 표식에 언어 파서 하다 구불구불한 또는 물결 모양의 빨간색 선으로 잘못 된 고 판단 되는 텍스트를 표시 합니다. 잘못 된 코드를 시각적으로 표시 하 여 프로그래머에 게 도움이 됩니다.
@@ -45,7 +45,7 @@ ms.locfileid: "60078223"
 1. 필터링 된 뷰 필터는 해당 보기의 데이터와 관련 된 작업 공급자에 대 한 포인터를 가져옵니다.
 
     > [!NOTE]
-    >  메서드 팁, 문 완성, 오류 표식, 등에 대 한 동일한 명령 필터를 사용할 수 있습니다.
+    > 메서드 팁, 문 완성, 오류 표식, 등에 대 한 동일한 명령 필터를 사용할 수 있습니다.
 
 2. 필터를 다른 줄으로 이동 했음을 나타내는 이벤트를 수신 하는 경우 오류를 확인 하는 작업이 만들어집니다.
 

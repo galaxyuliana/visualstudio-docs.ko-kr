@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a331e94ad57fc4ca23dc859415c61609025f799b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c58762c1060475a85de643ed52fffcc9f311bd96
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60058254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430397"
 ---
 # <a name="walkthrough-create-a-silverlight-web-part-that-displays-odata-for-sharepoint"></a>연습: SharePoint 용 OData를 표시 하는 Silverlight 웹 파트 만들기
   SharePoint 2010 OData를 사용 하 여 해당 목록 데이터를 노출합니다. SharePoint에서 OData 서비스는 RESTful 서비스 ListData.svc에 의해 구현 됩니다. 이 연습에서는 Silverlight 응용 프로그램을 호스트 하는 SharePoint 웹 파트를 만드는 방법을 보여 줍니다. Silverlight 응용 프로그램 ListData.svc를 사용 하 여 SharePoint 알림 목록 정보를 표시 합니다. 자세한 내용은 [SharePoint Foundation REST 인터페이스](http://go.microsoft.com/fwlink/?LinkId=225999) 하 고 [개방형 데이터 프로토콜](http://go.microsoft.com/fwlink/?LinkId=226000)합니다.
@@ -35,7 +35,7 @@ ms.locfileid: "60058254"
  먼저 Visual Studio에서 Silverlight 응용 프로그램을 만듭니다. Silverlight 응용 프로그램 ListData.svc 서비스를 사용 하 여 SharePoint 알림 목록에서 데이터를 검색 합니다.
 
 > [!NOTE]
->  Silverlight 4.0 이전 버전 없음 SharePoint 목록 데이터를 참조 하기 위해 필요한 인터페이스를 지원 합니다.
+> Silverlight 4.0 이전 버전 없음 SharePoint 목록 데이터를 참조 하기 위해 필요한 인터페이스를 지원 합니다.
 
 #### <a name="to-create-a-silverlight-application-and-silverlight-web-part"></a>Silverlight 웹 파트를 Silverlight 응용 프로그램을 만들려면
 
@@ -73,7 +73,7 @@ ms.locfileid: "60058254"
 2. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 **참조**를 선택한 후 **서비스 참조 추가**합니다.
 
     > [!NOTE]
-    >  Visual Basic을 사용 하는 경우에 선택 해야 합니다 **모든 파일 표시** 맨 위에 있는 아이콘 **솔루션 탐색기** 표시 하는 **참조** 노드.
+    > Visual Basic을 사용 하는 경우에 선택 해야 합니다 **모든 파일 표시** 맨 위에 있는 아이콘 **솔루션 탐색기** 표시 하는 **참조** 노드.
 
 3. 주소 상자에는 **서비스 참조 추가** 대화 상자와 같은 SharePoint 사이트의 URL을 입력 합니다 **http://MySPSite**를 선택한 후는 **이동** 단추입니다.
 
@@ -228,7 +228,7 @@ ms.locfileid: "60058254"
      Silverlight 웹 파트는 SharePoint 사이트에서 알림 데이터 이제 표시 해야 합니다. 기본적으로 페이지는 SharePoint 사이트 페이지 목록에 저장 됩니다.
 
     > [!NOTE]
-    >  도메인에 걸쳐 Silverlight에서의 데이터에 액세스할 때 Silverlight 웹 응용 프로그램을 악용 하는 보안 취약점 으로부터 보호 합니다. Silverlight에서의 원격 데이터에 액세스할 때 문제가 발생 하면 참조 [는 서비스 사용 가능한 도메인 경계를 넘어 수행](http://go.microsoft.com/fwlink/?LinkId=223276)합니다.
+    > 도메인에 걸쳐 Silverlight에서의 데이터에 액세스할 때 Silverlight 웹 응용 프로그램을 악용 하는 보안 취약점 으로부터 보호 합니다. Silverlight에서의 원격 데이터에 액세스할 때 문제가 발생 하면 참조 [는 서비스 사용 가능한 도메인 경계를 넘어 수행](http://go.microsoft.com/fwlink/?LinkId=223276)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [SharePoint 용 웹 파트 만들기](../sharepoint/creating-web-parts-for-sharepoint.md)

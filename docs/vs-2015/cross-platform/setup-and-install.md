@@ -6,12 +6,12 @@ ms.assetid: 2cfcad00-352c-4161-814c-f5ae32d8ada8
 caps.latest.revision: 19
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: b1e34fa5d4f49d0dfa415e0ac47e55cea236307e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 646d8949004f44041fe75d1c6fed2e6f989b92c9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435295"
 ---
 # <a name="setup-and-install"></a>설정 및 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 
 이 설정 및 설치를 수행한 후 Xamarin을 사용하는 데 문제가 있으면 [forums.xamarin.com](http://forums.xamarin.com/)에 질문을 게시하세요.
   
 > [!NOTE]
->  2016년 3월 31일부터는 모든 Visual Studio 버전에 모든 Xamarin이 추가 비용 없이 포함되며 별도의 라이선스는 필요하지 않습니다. 학생, OSS 개발자 및 소규모 팀의 경우에는 Xamarin Studio Community for Mac도 무료로 사용할 수 있습니다. 이전 Xamarin 라이선스로 구성한 기존 Visual Studio 설치의 경우에는 Xamarin을 버전 4.0.3.214 이상으로 업데이트해야 합니다. 이 작업을 수행하려면 **도구 > 옵션 > Xamarin > 기타**로 이동하여 **지금 확인** 링크를 클릭한 다음 4.0.3.214 업데이트를 다운로드합니다. Visual Studio를 다시 시작하고 **도구 > Xamarin 계정...** 으로 이동하면 업데이트된 상태가 표시됩니다.  
+> 2016년 3월 31일부터는 모든 Visual Studio 버전에 모든 Xamarin이 추가 비용 없이 포함되며 별도의 라이선스는 필요하지 않습니다. 학생, OSS 개발자 및 소규모 팀의 경우에는 Xamarin Studio Community for Mac도 무료로 사용할 수 있습니다. 이전 Xamarin 라이선스로 구성한 기존 Visual Studio 설치의 경우에는 Xamarin을 버전 4.0.3.214 이상으로 업데이트해야 합니다. 이 작업을 수행하려면 **도구 > 옵션 > Xamarin > 기타**로 이동하여 **지금 확인** 링크를 클릭한 다음 4.0.3.214 업데이트를 다운로드합니다. Visual Studio를 다시 시작하고 **도구 > Xamarin 계정...** 으로 이동하면 업데이트된 상태가 표시됩니다.  
   
  **항목 내용**  
   
@@ -56,7 +56,7 @@ Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 
 ## <a name="windows"></a> Windows 설치(Visual Studio 및 Xamarin)  
   
 > [!TIP]
->  이러한 지침은 Visual Studio 2015에 적용됩니다. Visual Studio 2013(업데이트 2 필요)에서 Xamarin을 사용하려면 [직접 Xamarin 설치](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install)(xamarin.com)의 지침을 따릅니다.  
+> 이러한 지침은 Visual Studio 2015에 적용됩니다. Visual Studio 2013(업데이트 2 필요)에서 Xamarin을 사용하려면 [직접 Xamarin 설치](https://developer.xamarin.com/guides/cross-platform/getting_started/requirements/#install)(xamarin.com)의 지침을 따릅니다.  
   
 1. [어떤 버전이든 Visual Studio 2015 설치 관리자를 다운로드하여 설치합니다](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) (Community, Professional 또는 Enterprise). Visual Studio 2015 Community는 무료 버전이고, Professional 및 Enterprise 버전은 30일 평가판으로 사용할 수 있으며 평가 기간 이후에는 라이선스를 구매해야 합니다.  
   
@@ -83,7 +83,7 @@ Xamarin을 사용하여 일반적인 C#/.NET 코드베이스에서 네이티브 
     ![Visual Studio 옵션에서 Xamarin 업데이트 확인](../cross-platform/media/cross-plat-xamarin-setup-3.png "Cross-Plat Xamarin Setup 3")  
   
    > [!NOTE]
-   >  앞에서 언급한 것처럼, 이전 Xamarin 라이선스 관련 문제를 방지하려면 Xamarin을 4.0.3.214 이상으로 업데이트해야 합니다.  
+   > 앞에서 언급한 것처럼, 이전 Xamarin 라이선스 관련 문제를 방지하려면 Xamarin을 4.0.3.214 이상으로 업데이트해야 합니다.  
 
    **도구 > 옵션**에 Xamarin에 대한 옵션이 표시되지 않으면 설치를 다시 확인하거나 Visual Studio를 다시 시작해 보세요. 옵션 대화 상자에서 Xamarin을 검색할 수도 있습니다.
       

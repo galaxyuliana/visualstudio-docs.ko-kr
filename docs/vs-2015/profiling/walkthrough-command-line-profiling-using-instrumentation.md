@@ -13,12 +13,12 @@ caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d5b7e8dbe12f9c57c101c8f877dfcb0c6ee3196f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3a37350cf274fbb551326ac96387330b0f3956e7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439694"
 ---
 # <a name="walkthrough-command-line-profiling-using-instrumentation"></a>연습: 계측을 사용 하 여 프로 파일링 명령줄
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ ms.locfileid: "60064695"
  계측은 계측된 모듈의 함수에 대한 진입 및 종료 시 타이밍 정보를 수집하는 프로브 함수를 특수하게 작성된 버전의 프로파일링된 이진 파일에 포함할 수 있는 프로파일링 방법입니다. 이 프로파일링 방법은 샘플링보다 침입성이 높으므로오버헤드가 더 많이 발생합니다. 계측된 이진 파일도 디버그 또는 릴리스 이진 파일보다 더 크므로 배포할 수 없습니다.  
   
 > [!NOTE]
->  고객에게는 계측된 이진 파일을 전송하지 마세요. 계측된 이진 파일에는 여러 가지 위험 요소가 포함될 수 있습니다. 이진 파일에는 애플리케이션을 보다 쉽게 리버스 엔지니어링할 수 있도록 만드는 정보와 보안 위험이 포함되어 있습니다.  
+> 고객에게는 계측된 이진 파일을 전송하지 마세요. 계측된 이진 파일에는 여러 가지 위험 요소가 포함될 수 있습니다. 이진 파일에는 애플리케이션을 보다 쉽게 리버스 엔지니어링할 수 있도록 만드는 정보와 보안 위험이 포함되어 있습니다.  
   
 #### <a name="to-profile-the-peopletrax-application-by-using-the-instrumentation-method"></a>계측 방법을 사용하여 PeopleTrax 애플리케이션을 프로파일링하려면  
   

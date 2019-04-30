@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b1e1dd08cb6b27624e7b83a595ca0937bcc6003d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c682920c7e879d65dfddd3b4fee17a0f20b26b21
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411284"
 ---
 # <a name="create-a-breakpoint"></a>중단점 만들기
 다음 중단점을 만드는 과정을 설명 합니다.
@@ -31,7 +31,7 @@ ms.locfileid: "60112235"
 3. [IDebugPendingBreakpoint2::CanBind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md)
 
     > [!NOTE]
-    >  **CanBind** 사용자가에서 중단점을 때에 호출 되는 **중단점** 창입니다.
+    > **CanBind** 사용자가에서 중단점을 때에 호출 되는 **중단점** 창입니다.
 
 4. [IDebugPendingBreakpoint2::Bind](../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)
 

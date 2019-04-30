@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: dbae3a1e003c0d9381b80fc24227e65a18c1c8f1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1ca692e85396b11647c507b18c95ca095b3f8072
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438765"
 ---
 # <a name="visio-object-model-overview"></a>Visio 개체 모델 개요
   Microsoft Office Visio용 Office 솔루션을 개발하기 위해 Visio 개체 모델을 조작할 수 있습니다. 이 개체 모델은 Visio용 주 interop 어셈블리에 제공되고 `Microsoft.Office.Interop.Visio` 네임스페이스에서 제공되는 클래스 및 인터페이스로 구성됩니다.
@@ -67,7 +67,7 @@ ms.locfileid: "60096558"
  VBA 개체 모델 참조의 모든 개체 및 멤버는 Visio PIA(주 interop 어셈블리)의 형식 및 멤버에 해당합니다. 예를 들어를 `Document` VBA 개체 모델 참조의 개체는 Visio PIA의 Microsoft.Office.Interop.Visio.Document 형식에 해당 합니다. VBA 개체 모델 참조에서는 대부분의 속성, 메서드 및 이벤트에 대한 코드 예제를 제공하지만 Visual Studio를 사용하여 만든 Visio VSTO 추가 기능 프로젝트에서 사용하려면 이 참조의 VBA 코드를 Visual Basic 또는 Visual C#으로 변환해야 합니다.
 
 > [!NOTE]
->  이번에는 Visio 주 interop 어셈블리에 대한 참조 설명서가 없습니다.
+> 이번에는 Visio 주 interop 어셈블리에 대한 참조 설명서가 없습니다.
 
  관련 된 코드 샘플과 Visio 솔루션을 만들기 위한 추가 도구에 대 한 참조 [Visio 2010 소프트웨어 개발 키트](http://go.microsoft.com/fwlink/?LinkId=196501)합니다.
 

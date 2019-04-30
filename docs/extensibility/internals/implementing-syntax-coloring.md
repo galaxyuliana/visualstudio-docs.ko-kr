@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 453952f52561a761ab4cf01825d07aa97595d0c2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 15659cc8061601776e3a3197a49f14e2c824aa7b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420435"
 ---
 # <a name="implementing-syntax-coloring"></a>구문 색 지정 구현
 구문 색 지정을 제공 하는 언어 서비스 파서를 색 항목 배열로 텍스트 줄을 변환한 이러한 색 항목에 해당 하는 토큰 형식을 반환 합니다. 파서가 색 항목 목록에 속해 있는 토큰 유형을 반환 해야 합니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 적절 한 토큰 형식 colorizer 개체에 의해 할당 된 특성에 따라 코드 창에서 각 색 항목을 표시 합니다.
@@ -27,7 +27,7 @@ ms.locfileid: "60080204"
  레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 구문 색 지정을 구현 하는 새로운 방법에 대 한 자세한 참조 [연습: 텍스트를 강조 표시](../../extensibility/walkthrough-highlighting-text.md)합니다.
 
 > [!NOTE]
->  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
+> 편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
 
 ## <a name="steps-followed-by-an-editor-to-colorize-text"></a>텍스트 색을 지정 하는 편집기에서 다음 단계
 

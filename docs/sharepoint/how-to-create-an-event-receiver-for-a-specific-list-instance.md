@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: deba5e493f58a99e672e362977406670e1eee0e1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 34114c12ef47fb796de7354aa3133af1fc704267
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408544"
 ---
 # <a name="how-to-create-an-event-receiver-for-a-specific-list-instance"></a>방법: 특정 목록 인스턴스에 대 한 이벤트 수신기 만들기
   목록 인스턴스 이벤트 수신자 목록 정의의 모든 인스턴스에서 발생 하는 이벤트에 응답 합니다. 이벤트 수신기 템플릿 특정 목록 인스턴스에의 타기 팅을 사용 하지 않습니다 하지만 특정 목록 인스턴스에 이벤트에 응답 하는 목록 정의에 범위가 지정 된 이벤트 수신기를 수정할 수 있습니다.
@@ -43,7 +43,7 @@ ms.locfileid: "60094348"
 6. 에 **이벤트 수신기 유형을 선택 하십시오?** 목록에서 선택 **목록 항목 이벤트**합니다.
 
     > [!NOTE]
-    >  다른 유형의 예를 들어 목록 정의를 범위 지정 하는 이벤트 수신기를 선택할 수도 있습니다 **전자 메일 이벤트 목록** 하거나 **목록 워크플로 이벤트**합니다.
+    > 다른 유형의 예를 들어 목록 정의를 범위 지정 하는 이벤트 수신기를 선택할 수도 있습니다 **전자 메일 이벤트 목록** 하거나 **목록 워크플로 이벤트**합니다.
 
 7. 에 **이벤트 소스를 사용할 항목을?** 목록에서 선택 **공지**합니다.
 

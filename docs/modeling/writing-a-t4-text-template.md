@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 68bb68160b78df4abe1b6874080c9a3ec91a3e31
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2549ad27f0f05d3425dd6625e9d48fdfab4db3a6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386075"
 ---
 # <a name="writing-a-t4-text-template"></a>T4 텍스트 템플릿 쓰기
 텍스트 템플릿은 해당 템플릿에서 생성될 텍스트를 포함합니다. 예를 들어, 웹 페이지를 만드는 템플릿으로 사용 될 "\<html >..." 및 HTML 페이지의 기타 모든 표준 부분입니다. 템플릿에 삽입 됩니다 *제어 블록*는 프로그램 코드 조각입니다. 제어 블록은 경우에 따라 다른 값을 제공하여 텍스트 부분을 조건부로/반복 적용할 수 있도록 합니다.
@@ -94,7 +94,7 @@ Hello!
  코드에서 `Write();` 문이 허용되는 모든 위치에 텍스트 블록을 삽입할 수 있습니다.
 
 > [!NOTE]
->  예: 루프 또는 조건부 복합 문 내에 텍스트 블록을 포함 하는 경우 항상 {...} 괄호 사용 텍스트 블록을 포함 합니다.
+> 예: 루프 또는 조건부 복합 문 내에 텍스트 블록을 포함 하는 경우 항상 {...} 괄호 사용 텍스트 블록을 포함 합니다.
 
 ### <a name="expression-control-blocks"></a>식 제어 블록
  식 제어 블록은 식을 평가한 다음 문자열로 변환합니다. 이 문이 출력 파일에 삽입됩니다.

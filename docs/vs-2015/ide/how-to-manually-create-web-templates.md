@@ -14,12 +14,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4884ef313d969ae59b8aea704490eeb2e4e5a91c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 8a505fe3428a8e16c321eee4764f8a62fff65511
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54782212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431086"
 ---
 # <a name="how-to-manually-create-web-templates"></a>방법: 수동으로 웹 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "54782212"
 웹 템플릿을 만드는 것은 다른 종류의 템플릿을 만드는 것과 다릅니다. 웹 프로젝트 템플릿은 **새 웹 사이트 추가** 대화 상자에 나타나고 웹 프로젝트 항목은 프로그래밍 언어에 따라 분류되므로 .vstemplate 파일은 템플릿을 웹 템플릿으로 지정하고 프로그래밍 언어를 식별해야 합니다.  
   
 > [!NOTE]
->  웹 템플릿은 `Project` 요소의 `File` 특성을 사용하여 지정된 빈 .webproj 파일을 포함해야 합니다. 웹 프로젝트에는 프로젝트 파일이 필요하지 않지만 웹 템플릿이 제대로 작동하기 위해서는 이 파일이 필요합니다.  
+> 웹 템플릿은 `Project` 요소의 `File` 특성을 사용하여 지정된 빈 .webproj 파일을 포함해야 합니다. 웹 프로젝트에는 프로젝트 파일이 필요하지 않지만 웹 템플릿이 제대로 작동하기 위해서는 이 파일이 필요합니다.  
   
 ### <a name="to-manually-create-a-web-template"></a>웹 템플릿을 수동으로 만들려면  
   
@@ -47,7 +47,7 @@ ms.locfileid: "54782212"
   
    - VisualBasic  
   
-     예:  
+     예를 들어:  
   
    ```  
    <TemplateData>  
@@ -62,7 +62,7 @@ ms.locfileid: "54782212"
   
 8. .zip 템플릿 파일을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 템플릿 디렉터리에 배치합니다. 기본적으로 이 디렉터리는 \My Documents\Visual Studio *Version*\My Exported Templates\\에 있습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 웹 프로젝트 템플릿에 대한 기본 .vstemplate 파일을 보여 줍니다.  
   
 ```  

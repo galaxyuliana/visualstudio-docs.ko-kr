@@ -8,12 +8,12 @@ ms.assetid: c64aac80-a411-463f-b7bd-8b7607a52ece
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 506e39537614b50b72a515d882e5592c316cce26
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1d51474f2e242f764a84edaa9f2712418c859460
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408705"
 ---
 # <a name="what39s-new-in-the-visual-studio-2015-sdk"></a>새로운&#39;Visual Studio 2015 SDK의 새로운
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,9 +63,9 @@ Visual Studio 2017부터 사용자 지정 프로젝트 및 항목 템플릿에 �
  VS SDK 항목 템플릿은 해당 참조에 대해 NuGet을 사용 하 고 기본적으로 NuGet의 혜택을 받을 수 있도록 도구를 빌드합니다.
 
 > [!NOTE]
->  참조 어셈블리를 설치 하는 VS SDK를 사용 하 여 프로젝트와 함께 할 수 있습니다 (아래에 있는 \<Visual Studio 설치 위치 > \ VSSDK\VisualStudioIntegration\Common\Assemblies) 되도록 기존 확장성 프로젝트 필요 하지 않습니다 NuGet 패키지를 사용 하도록 업그레이드 합니다.  프로젝트 **참조] / [참조 추가** 대화 계속 참조 어셈블리를 설치 하는 VS SDK를 사용 합니다.
+> 참조 어셈블리를 설치 하는 VS SDK를 사용 하 여 프로젝트와 함께 할 수 있습니다 (아래에 있는 \<Visual Studio 설치 위치 > \ VSSDK\VisualStudioIntegration\Common\Assemblies) 되도록 기존 확장성 프로젝트 필요 하지 않습니다 NuGet 패키지를 사용 하도록 업그레이드 합니다.  프로젝트 **참조] / [참조 추가** 대화 계속 참조 어셈블리를 설치 하는 VS SDK를 사용 합니다.
 >
->  NuGet을 사용 하도록 기존 프로젝트를 수정 하려는 경우 [방법: Visual Studio 2015에서 Vspackage로](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md) 확장성 프로젝트에 NuGet 패키지 업데이트에 대 한 섹션이 있는 합니다.
+> NuGet을 사용 하도록 기존 프로젝트를 수정 하려는 경우 [방법: Visual Studio 2015에서 Vspackage로](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md) 확장성 프로젝트에 NuGet 패키지 업데이트에 대 한 섹션이 있는 합니다.
 
 ## <a name="light-bulbs"></a>전구
  확장 프로그램 코드를 작성 하는 가장 흥미로운 새로운 방법 중 하나는 Roslyn 프로젝트에서 제공 됩니다. 자세한 내용은 [Roslyn](https://github.com/dotnet/Roslyn)합니다.

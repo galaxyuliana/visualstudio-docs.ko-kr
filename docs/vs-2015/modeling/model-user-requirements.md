@@ -13,12 +13,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 29d4ee5455a05bfac98debc2f6ebdbb06b813f31
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8b1d3a5209490c253f4646210d4eeeda9d807155
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417810"
 ---
 # <a name="model-user-requirements"></a>사용자 요구 사항 모델링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ Visual Studio는 사용자 동작 및 목표 달성을 위해 시스템이 수�
   요구 사항 모델은 사용자 또는 해당 담당자와 논의에 집중하는 데 사용하고 반복을 시작할 때마다 다시 살펴보는 경우에 가장 큰 혜택을 제공합니다. 코드를 작성하기 전에 자세히 완료할 필요는 없습니다. 일반적으로 훨씬 간소화된 경우에도 부분적으로 작동하는 애플리케이션이 사용자와 요구 사항을 논의하는 데 가장 효율적인 기초가 됩니다. 모델은 이러한 논의의 결과를 요약하는 효과적인 방법입니다. 자세한 내용은 [모델을 사용 하 여 개발 프로세스에서](../modeling/use-models-in-your-development-process.md)합니다.  
   
 > [!NOTE]
->  이러한 항목 전체에서 "시스템"은 개발 중인 시스템 또는 애플리케이션을 의미합니다. 다양한 소프트웨어 및 하드웨어 구성 요소의 큰 컬렉션이거나, 단일 애플리케이션이거나, 큰 시스템 내의 소프트웨어 구성 요소일 수 있습니다. 어떤 경우에든, 요구 사항 모델은 사용자 인터페이스 또는 API를 통해 시스템 외부에서 표시되는 동작을 설명합니다.  
+> 이러한 항목 전체에서 "시스템"은 개발 중인 시스템 또는 애플리케이션을 의미합니다. 다양한 소프트웨어 및 하드웨어 구성 요소의 큰 컬렉션이거나, 단일 애플리케이션이거나, 큰 시스템 내의 소프트웨어 구성 요소일 수 있습니다. 어떤 경우에든, 요구 사항 모델은 사용자 인터페이스 또는 API를 통해 시스템 외부에서 표시되는 동작을 설명합니다.  
   
 ## <a name="common-tasks"></a>일반 작업  
  사용자 요구 사항의 여러 가지 뷰를 만들 수 있습니다.  각 뷰는 특정 유형의 정보를 제공합니다.  이러한 뷰를 만들 때는 뷰 간에 자주 이동하는 것이 좋습니다. 임의 뷰에서 시작할 수 있습니다.  

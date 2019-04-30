@@ -10,12 +10,12 @@ ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
 caps.latest.revision: 63
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 204c141fb1bb8021ce1908b9c0db7fcf3e0104bc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7b5897f6c4463cc5a3c7928a722ed5a0a09e42b3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430588"
 ---
 # <a name="creating-an-options-page"></a>옵션 페이지 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,7 +92,7 @@ ms.locfileid: "60059751"
     ```  
   
     > [!NOTE]
-    >  기본 구현을 <xref:Microsoft.VisualStudio.Shell.DialogPage> 있는 적절 한 변환기 또는 구조체 또는 배열 속성을 적절 한 변환기를 확장할 수 있는 속성을 지원 합니다. 변환기의 목록에 대 한 참조를 <xref:System.ComponentModel> 네임 스페이스입니다.  
+    > 기본 구현을 <xref:Microsoft.VisualStudio.Shell.DialogPage> 있는 적절 한 변환기 또는 구조체 또는 배열 속성을 적절 한 변환기를 확장할 수 있는 속성을 지원 합니다. 변환기의 목록에 대 한 참조를 <xref:System.ComponentModel> 네임 스페이스입니다.  
   
 6. 프로젝트를 빌드하고 디버깅을 시작합니다.  
   

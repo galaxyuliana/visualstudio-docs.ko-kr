@@ -12,12 +12,12 @@ ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
 caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: ab746bfd3e8854fddd83f3fdde49a5d0dda397ca
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d83c90d7e94471374f0c882f3868d16c963e4490
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440090"
 ---
 # <a name="support-for-user-settings"></a>사용자 설정 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ VSPackage를 사용자가 유지 되는 상태 변수 그룹이 있는 하나 �
  다음 위치에 레지스트리 항목을 사용자 지정 설정 지점은 생성 됩니다. HKLM\Software\Microsoft\VisualStudio\\*\<버전 >* \UserSettings\\`<CSPName>`여기서 `<CSPName>` 에서 VSPackage에서 지 원하는 사용자 지정 설정 지점 이름으로는 및  *\<버전 >* 의 버전이 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], 예를 들어 8.0입니다.  
   
 > [!NOTE]
->  루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 통합된 개발 환경 (IDE)가 초기화 합니다. 자세한 내용은 [명령줄 스위치](../../extensibility/command-line-switches-visual-studio-sdk.md)합니다.  
+> 루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 통합된 개발 환경 (IDE)가 초기화 합니다. 자세한 내용은 [명령줄 스위치](../../extensibility/command-line-switches-visual-studio-sdk.md)합니다.  
   
  레지스트리 항목의 구조는 아래 나와 있습니다.  
   

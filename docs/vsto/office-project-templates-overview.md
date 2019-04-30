@@ -30,12 +30,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 49cb0af47f34abbda5bd212d8ce535e98c44d6b5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4e998b2367929f788ace5fb6a8de7fc5bb96c3e3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438767"
 ---
 # <a name="office-project-templates-overview"></a>Office 프로젝트 템플릿 개요
   Visual Studio의 Microsoft Office 개발자 도구에는 다음 형식의 Office 솔루션을 만들기 위한 프로젝트 템플릿이 포함되어 있습니다.
@@ -77,7 +77,7 @@ ms.locfileid: "60054575"
   Word 서식 파일 및 Excel 서식 파일 프로젝트 템플릿은 Word 문서 및 Excel 통합 문서 프로젝트 템플릿과 동일하게 동작합니다. 그러나 Word 서식 파일 및 Excel 서식 파일 프로젝트 템플릿을 사용하면 사용자가 솔루션의 사용자 지정된 서식 파일로 새 로컬 문서 또는 통합 문서 복사본을 손쉽게 만들 수 있습니다. 사용자가 서식 파일을 사용하여 만드는 새 문서에서도 솔루션의 기능을 사용할 수 있습니다.
 
 > [!NOTE]
->  관리 코드 확장을 참조하는 Word 서식 파일은 전역 VSTO 추가 기능으로 사용할 수 없습니다. Word의 시작 디렉터리를 통해 서식 파일을 로드하는 경우 어셈블리가 호출되지 않습니다. 자세한 내용은 참조 하세요. [전역 서식 파일 및 Excel 추가 기능 (.xla 파일)의 제한 사항](#Limitations)
+> 관리 코드 확장을 참조하는 Word 서식 파일은 전역 VSTO 추가 기능으로 사용할 수 없습니다. Word의 시작 디렉터리를 통해 서식 파일을 로드하는 경우 어셈블리가 호출되지 않습니다. 자세한 내용은 참조 하세요. [전역 서식 파일 및 Excel 추가 기능 (.xla 파일)의 제한 사항](#Limitations)
 
  이러한 프로젝트 형식에 대한 기초적인 내용은 다음 항목을 참조하십시오.
 

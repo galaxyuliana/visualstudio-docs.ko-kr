@@ -13,12 +13,12 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 71fbafb46db563c56bafb926b66b88bc39fda2ed
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5ec3cd1365826c1a06b2d0f7bd6da377c8dc4d46
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440662"
 ---
 # <a name="how-to-create-a-localized-bootstrapper-package"></a>방법: 지역화 된 부트스트래퍼 패키지 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "60039350"
 3. package.xml 패키지 매니페스트를 만들고 문자열과 문화권을 업데이트한 다음 새 폴더에 파일을 저장합니다. 대상 언어로 된 Visual Studio 부트스트래퍼를 이미 만든 경우에는 Visual Studio package.xml 파일을 복사하여 이 단계에서 수정하면 됩니다.  
   
 > [!NOTE]
->  설치 프로젝트를 사용하여 애플리케이션을 배포하는 경우 **지역화** 속성을 변경하여 애플리케이션을 지역화할 수 있습니다.  
+> 설치 프로젝트를 사용하여 애플리케이션을 배포하는 경우 **지역화** 속성을 변경하여 애플리케이션을 지역화할 수 있습니다.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   

@@ -23,12 +23,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 77fa9442289851aff91d8d9bfc55e581edfa774a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e9ce2388dbf61ef3af524f0debc776891dca004f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436503"
 ---
 # <a name="ribbon-xml"></a>리본 XML
   리본 (XML) 항목을 사용 하면 XML을 사용 하 여 리본을 사용자 지정할 수 있습니다. 리본 (비주얼 디자이너) 항목에서 지원 되지 않는 방식으로 리본을 사용자 지정 하려는 경우 리본 (XML) 항목을 사용 합니다. 각 항목을 사용 하 여 수행할 수 있는 작업의 비교를 참조 하세요 [리본 개요](../vsto/Ribbon-overview.md)합니다.
@@ -60,7 +60,7 @@ ms.locfileid: "60117546"
 - 리본 클래스에서 콜백 메서드를 정의합니다.
 
 > [!NOTE]
->  Outlook에는 추가 단계가 필요합니다. 자세한 내용은 [Outlook에 대 한 리본을 사용자 지정](../vsto/customizing-a-ribbon-for-outlook.md)합니다.
+> Outlook에는 추가 단계가 필요합니다. 자세한 내용은 [Outlook에 대 한 리본을 사용자 지정](../vsto/customizing-a-ribbon-for-outlook.md)합니다.
 
  리본 메뉴에서 응용 프로그램을 자동화 하는 방법을 보여주는 연습을 참조 하세요. [연습: 리본 XML을 사용 하 여 사용자 지정 탭을 만드는](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)합니다.
 

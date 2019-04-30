@@ -16,12 +16,12 @@ caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0533ed4a4d1fc45b41f1e324b087cc0e249e1083
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5617dc6cbe4b7ba096afe1f308d06e7f4aaf9c6a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439656"
 ---
 # <a name="walkthrough-find-a-memory-leak-javascript"></a>연습: 메모리 누수 찾기 (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 2. 왼쪽 창에서 **JavaScript** 를 선택하고 **Windows**, **Windows 8**을 선택한 다음 **유니버설** 또는 **Windows Phone 앱**을 선택합니다.  
   
     > [!IMPORTANT]
-    >  이 항목에 표시된 메모리 사용 결과는 Windows 8 앱에 대해 테스트됩니다.  
+    > 이 항목에 표시된 메모리 사용 결과는 Windows 8 앱에 대해 테스트됩니다.  
   
 3. 가운데 창에서 **새 앱** 프로젝트 템플릿을 선택합니다.  
   
@@ -55,7 +55,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     ```  
   
     > [!IMPORTANT]
-    >  Windows 8.1유니버설 앱 템플릿을 사용하는 경우 .Windows 프로젝트와 .WindowsPhone 프로젝트 모두에서 HTML 및 CSS 코드를 업데이트해야 합니다.  
+    > Windows 8.1유니버설 앱 템플릿을 사용하는 경우 .Windows 프로젝트와 .WindowsPhone 프로젝트 모두에서 HTML 및 CSS 코드를 업데이트해야 합니다.  
   
 6. default.css를 열고 다음 CSS 코드를 추가합니다.  
   
@@ -137,7 +137,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 1. **디버그** 도구 모음의 **디버깅 시작** 목록에서 업데이트된 프로젝트의 디버그 대상을 Windows Phone 에뮬레이터 또는 **시뮬레이터**중에 선택합니다.  
   
    > [!TIP]
-   >  Windows 스토어 앱의 경우 이 목록에서 **로컬 컴퓨터** 또는 **원격 컴퓨터** 를 선택할 수도 있습니다. 그러나 에뮬레이터 또는 시뮬레이터를 사용하면 Visual Studio 옆에 두고 실행 중인 앱과 JavaScript 메모리 분석기 간을 쉽게 전환할 수 있습니다. 자세한 내용은 [Visual Studio에서 앱 실행](../debugger/run-store-apps-from-visual-studio.md) 및 [원격 컴퓨터에서 Windows 스토어 앱 실행](../debugger/run-windows-store-apps-on-a-remote-machine.md)을 참조하세요.  
+   > Windows 스토어 앱의 경우 이 목록에서 **로컬 컴퓨터** 또는 **원격 컴퓨터** 를 선택할 수도 있습니다. 그러나 에뮬레이터 또는 시뮬레이터를 사용하면 Visual Studio 옆에 두고 실행 중인 앱과 JavaScript 메모리 분석기 간을 쉽게 전환할 수 있습니다. 자세한 내용은 [Visual Studio에서 앱 실행](../debugger/run-store-apps-from-visual-studio.md) 및 [원격 컴퓨터에서 Windows 스토어 앱 실행](../debugger/run-windows-store-apps-on-a-remote-machine.md)을 참조하세요.  
   
 2. **디버그** 메뉴에서 **성능 프로파일러...** 를 선택합니다.  
   
@@ -152,7 +152,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     단추를 선택하면 default.js의 이벤트 처리 코드가 메모리 누수를 발생시킵니다. 이것을 진단 용도로 사용합니다.  
   
    > [!TIP]
-   >  메모리 누수가 있는지 테스트할 시나리오를 반복하면 앱 초기화 중 또는 페이지를 로드할 때 힙에 추가되는 개체 등 필요하지 않은 정보를 더 쉽게 필터링할 수 있습니다.  
+   > 메모리 누수가 있는지 테스트할 시나리오를 반복하면 앱 초기화 중 또는 페이지를 로드할 때 힙에 추가되는 개체 등 필요하지 않은 정보를 더 쉽게 필터링할 수 있습니다.  
   
 5. Alt+Tab을 눌러 실행 중인 응용 프로그램에서 Visual Studio로 전환합니다.  
   
@@ -171,14 +171,14 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     ![기준 스냅숏 및 스냅숏 2](../profiling/media/js-mem-app-snapshot2.png "JS_Mem_App_Snapshot2")  
   
    > [!NOTE]
-   >  Windows Phone 에뮬레이터는 스냅숏이 만들어진 때의 앱 스냅숏을 보여 주지 않습니다.  
+   > Windows Phone 에뮬레이터는 스냅숏이 만들어진 때의 앱 스냅숏을 보여 주지 않습니다.  
   
 9. 앱으로 전환하고 **메모리 누수** 단추를 다시 선택합니다.  
   
 10. Visual Studio로 전환하고 세 번째 **힙 스냅숏 만들기** 를 선택합니다.  
   
     > [!TIP]
-    >  이 워크플로의 세 번째 스냅숏을 작성하면 기본 스냅숏을 기준으로 메모리 누수와 연결되지 않은 두 번째 스냅숏에서 변경된 사항을 필터링할 수 있습니다. 예를 들어 페이지에서 머리글 및 바닥글 업데이트와 같이 메모리 사용량을 변경하지만 메모리 누수와는 관련이 없을 수 있는 변경 사항이 예상될 수 있습니다.  
+    > 이 워크플로의 세 번째 스냅숏을 작성하면 기본 스냅숏을 기준으로 메모리 누수와 연결되지 않은 두 번째 스냅숏에서 변경된 사항을 필터링할 수 있습니다. 예를 들어 페이지에서 머리글 및 바닥글 업데이트와 같이 메모리 사용량을 변경하지만 메모리 누수와는 관련이 없을 수 있는 변경 사항이 예상될 수 있습니다.  
   
      이 그림에서는 스냅숏 #2와 스냅숏 #3을 보여 줍니다.  
   
@@ -191,7 +191,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     - 스냅숏 #1에 비해 힙 크기(왼쪽에 표시된 빨간색 위쪽 화살표)가 몇 KB 증가했습니다.  
   
       > [!IMPORTANT]
-      >  힙 크기에 대한 정확한 메모리 사용량 값은 디버그 대상에 따라 달라집니다.  
+      > 힙 크기에 대한 정확한 메모리 사용량 값은 디버그 대상에 따라 달라집니다.  
   
     - 스냅숏 #1에 비해 힙의 개체 수(오른쪽에 표시된 빨간색 위쪽 화살표)가 증가했습니다. 개체 1개가 추가되고(+1) 제거된 개체는 없습니다(-0).  
   
@@ -222,7 +222,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
       이 시점에서 앱의 일부 지식이 도움이 됩니다. 선택 된 **메모리 누수** 단추 DIV 요소가 제거 되 고 요소가 추가 되므로 제대로 작동 코드를 하지 않습니다 (즉, 메모리가 누수 됨). 다음 섹션에서는 이 문제를 해결하는 방법을 설명합니다.  
   
     > [!TIP]
-    >  경우에 따라 `Global` 개체와 관련하여 개체를 찾으면 해당 개체를 쉽게 확인할 수 있습니다. 이렇게 하려면 식별자에 대한 바로 가기 메뉴를 열고 **루트 뷰에서 보기**를 선택합니다.  
+    > 경우에 따라 `Global` 개체와 관련하여 개체를 찾으면 해당 개체를 쉽게 확인할 수 있습니다. 이렇게 하려면 식별자에 대한 바로 가기 메뉴를 열고 **루트 뷰에서 보기**를 선택합니다.  
   
 ## <a name="FixingMemory"></a> 메모리 문제 수정  
   

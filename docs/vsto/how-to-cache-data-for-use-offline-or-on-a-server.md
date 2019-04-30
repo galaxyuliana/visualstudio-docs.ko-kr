@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7c53d7bd1264ff21866746796d598b27cfac5984
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 510d923d2503aeb6e07859813537c9094fe25b09
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419696"
 ---
 # <a name="how-to-cache-data-for-use-offline-or-on-a-server"></a>방법: 오프 라인 이나 서버에서 사용 하기 위해 데이터 캐시
   표시할 수 있습니다 문서에서 캐시할 데이터 항목을 사용할 수 있도록 오프 라인입니다. 또한 따라서 데이터에 대 한 문서에서 문서를 서버에 저장 된 경우 다른 코드를 조작할 수를 합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "60094543"
  코드에서 데이터 항목을 선언한 경우 또는 캐시를 사용 하는 경우 데이터 항목을 표시할 수 있습니다는 <xref:System.Data.DataSet>에서 속성을 설정 하 여 합니다 **속성** 창입니다. 되지 않는 데이터 항목을 캐시 하는 경우는 <xref:System.Data.DataSet> 또는 <xref:System.Data.DataTable>, 문서에서 캐시 되 고 조건을 충족 하는지 확인 합니다. 자세한 내용은 [데이터 캐시](../vsto/caching-data.md)합니다.
 
 > [!NOTE]
->  변수로 표시 되는 Visual Basic을 사용 하 여 만든 데이터 집합 **캐시 된** 하 고 **WithEvents** (에서 끌어 놓은 데이터 집합을 포함 하는 **데이터 원본** 창이 나 **도구 상자** 있는 합니다 **CacheInDocument** 속성이로 설정 **True**) 캐시에 있는 이름으로 접두사가 밑줄. 예를 들어 데이터 집합을 만들고 이름을 **고객이**의 <xref:Microsoft.VisualStudio.Tools.Applications.CachedDataItem> 이름은 **_Customers** 캐시에 있습니다. 사용 하는 경우 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 지정 해야이 캐시 된 항목에 액세스 하려면 **_Customers** 대신 **고객**합니다.
+> 변수로 표시 되는 Visual Basic을 사용 하 여 만든 데이터 집합 **캐시 된** 하 고 **WithEvents** (에서 끌어 놓은 데이터 집합을 포함 하는 **데이터 원본** 창이 나 **도구 상자** 있는 합니다 **CacheInDocument** 속성이로 설정 **True**) 캐시에 있는 이름으로 접두사가 밑줄. 예를 들어 데이터 집합을 만들고 이름을 **고객이**의 <xref:Microsoft.VisualStudio.Tools.Applications.CachedDataItem> 이름은 **_Customers** 캐시에 있습니다. 사용 하는 경우 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 지정 해야이 캐시 된 항목에 액세스 하려면 **_Customers** 대신 **고객**합니다.
 
 ### <a name="to-cache-data-in-the-document-using-code"></a>코드를 사용 하 여 문서에서 데이터를 캐시
 

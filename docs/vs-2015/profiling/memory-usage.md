@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6b060f35abf79d76e17f847e6b4b296c253a4b30
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 437e541fab1559c65c410d94a8911c158aa3592e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54766113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438930"
 ---
 # <a name="memory-usage"></a>메모리 사용량
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,18 +34,18 @@ ms.locfileid: "54766113"
   디버거 외부에서 메모리 도구를 사용할 수도 있습니다. [Memory Usage without Debugging](http://msdn.microsoft.com/library/8883bc5f-df86-4f84-aa2b-a21150f499b0)을 참조하세요.  
   
 > [!NOTE]
->  **사용자 지정 할당자 지원** 기본 메모리 프로파일러는 런타임 중 내보낸 할당 [ETW](https://msdn.microsoft.com/library/windows/desktop/bb968803\(v=vs.85\).aspx) 이벤트 데이터를 수집하여 작동합니다.  CRT 및 Windows SDK의 할당자가 해당 할당 데이터를 캡처할 수 있도록 원본 수준에서 주석이 추가되었습니다.  고유한 할당자를 작성하는 경우 myMalloc에 대한 다음 예제처럼 새로 할당된 힙 메모리에 대한 포인터를 반환하는 모든 함수를 [__declspec](http://msdn.microsoft.com/library/832db681-e8e1-41ca-b78c-cd9d265cdb87)(allocator)로 데코레이트할 수 있습니다.  
+> **사용자 지정 할당자 지원** 기본 메모리 프로파일러는 런타임 중 내보낸 할당 [ETW](https://msdn.microsoft.com/library/windows/desktop/bb968803\(v=vs.85\).aspx) 이벤트 데이터를 수집하여 작동합니다.  CRT 및 Windows SDK의 할당자가 해당 할당 데이터를 캡처할 수 있도록 원본 수준에서 주석이 추가되었습니다.  고유한 할당자를 작성하는 경우 myMalloc에 대한 다음 예제처럼 새로 할당된 힙 메모리에 대한 포인터를 반환하는 모든 함수를 [__declspec](http://msdn.microsoft.com/library/832db681-e8e1-41ca-b78c-cd9d265cdb87)(allocator)로 데코레이트할 수 있습니다.  
 >   
->  `__declspec(allocator) void* myMalloc(size_t size)`  
+> `__declspec(allocator) void* myMalloc(size_t size)`  
   
 ## <a name="analyze-memory-use-with-the-debugger"></a>디버거를 사용하여 메모리 사용 분석  
   
 > [!NOTE]
->  메모리 데이터를 수집할 경우 네이티브 또는 혼합 모드 앱의 디버깅 성능에 영향을 줄 수 있으므로 메모리 스냅숏은 기본적으로 사용되지 않습니다. 스냅숏 네이티브 또는 혼합 모드 앱을 사용하도록 설정하려면 디버깅 세션을 시작합니다(바로 가기 키: **F5**). **진단 도구** 창이 나타나면 메모리 사용량 탭을 선택한 다음 **스냅숏 사용**을 선택합니다.  
+> 메모리 데이터를 수집할 경우 네이티브 또는 혼합 모드 앱의 디버깅 성능에 영향을 줄 수 있으므로 메모리 스냅숏은 기본적으로 사용되지 않습니다. 스냅숏 네이티브 또는 혼합 모드 앱을 사용 하도록 설정 하려면 디버깅 세션 시작 (바로 가기 키: **F5**). **진단 도구** 창이 나타나면 메모리 사용량 탭을 선택한 다음 **스냅숏 사용**을 선택합니다.  
 >   
->  ![스냅숏 사용](../profiling/media/dbgdiag-mem-mixedtoolbar-enablesnapshot.png "DBGDIAG_MEM_MixedToolbar_EnableSnapshot")  
+> ![스냅숏 사용](../profiling/media/dbgdiag-mem-mixedtoolbar-enablesnapshot.png "DBGDIAG_MEM_MixedToolbar_EnableSnapshot")  
 >   
->  중지(바로 가기 키: **Shift + F5**) 디버깅을 다시 시작 합니다.  
+> 중지(바로 가기 키: **Shift + F5**) 디버깅을 다시 시작 합니다.  
   
  메모리 상태를 캡처할 때마다 **메모리 사용량** 요약 도구 모음에서 **스냅숏 만들기** 를 선택합니다.  
   
@@ -53,7 +53,7 @@ ms.locfileid: "54766113"
   
 > [!TIP]
 > - 메모리 비교 기준을 만들려면 디버깅 세션을 시작할 때 스냅숏을 만드는 것이 좋습니다.  
->   -   앱이 메모리를 자주 할당 및 할당 취소하는 경우 관심 있는 작업의 메모리 프로필을 캡처하는 것이 어려울 수 있으므로 작업의 시작 및 끝에 중단점을 설정하거나 작업을 단계별로 실행하여 메모리가 변경된 정확한 지점을 찾습니다.  
+>   - 앱이 메모리를 자주 할당 및 할당 취소하는 경우 관심 있는 작업의 메모리 프로필을 캡처하는 것이 어려울 수 있으므로 작업의 시작 및 끝에 중단점을 설정하거나 작업을 단계별로 실행하여 메모리가 변경된 정확한 지점을 찾습니다.  
   
 ## <a name="viewing-memory-snapshot-details"></a>메모리 스냅숏 정보 보기  
  메모리 사용량 요약 테이블의 행에는 디버깅 세션 중에 만든 스냅숏이 나열됩니다.  
@@ -104,13 +104,13 @@ ms.locfileid: "54766113"
   
  **형식 뷰** 에는 스냅숏의 형식 수와 크기가 표시됩니다.  
   
--   선택한 형식의 인스턴스 아이콘(![개체 형식 열의 인스턴스 아이콘](../misc/media/dbg-mma-instancesicon.png "DBG_MMA_InstancesIcon"))을 선택하여 스냅숏에서 선택한 형식의 개체에 대한 정보를 표시합니다.  
+- 선택한 형식의 인스턴스 아이콘(![개체 형식 열의 인스턴스 아이콘](../misc/media/dbg-mma-instancesicon.png "DBG_MMA_InstancesIcon"))을 선택하여 스냅숏에서 선택한 형식의 개체에 대한 정보를 표시합니다.  
   
      **인스턴스** 뷰에는 선택한 형식의 각 인스턴스가 표시됩니다. 인스턴스를 선택하면 **할당 호출 스택** 창에 인스턴스를 만든 호출 스택이 표시됩니다.  
   
      ![인스턴스 뷰](../profiling/media/dbgdiag-mem-native-instances.png "DBGDIAG_MEM_Native_Instances")  
   
--   **뷰 모드** 에서 **스택 뷰** 를 선택하여 선택한 형식에 대한 할당 스택을 확인합니다.  
+- **뷰 모드** 에서 **스택 뷰** 를 선택하여 선택한 형식에 대한 할당 스택을 확인합니다.  
   
      ![스택 뷰](../profiling/media/dbgdiag-mem-native-stacksview.png "DBGDIAG_MEM_Native_Instances")  
   
@@ -131,7 +131,7 @@ ms.locfileid: "54766113"
 ## <a name="blogs-and-videos"></a>블로그 및 동영상  
  [Visual Studio 2015의 진단 도구 디버거 창](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015.aspx)  
   
- [ 블로그  Visual Studio 2015에서 디버그 하는 동안 메모리 사용량 도구](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/13/memory-usage-tool-while-debugging-in-visual-studio-2015.aspx)  
+ [블로그: Visual Studio 2015에서 디버그 하는 동안 메모리 사용량 도구](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/13/memory-usage-tool-while-debugging-in-visual-studio-2015.aspx)  
   
  [Visual C++ 블로그: VS2015 Preview의 네이티브 메모리 진단](http://blogs.msdn.com/b/vcblog/archive/2014/11/21/native-memory-diagnostics-in-vs2015-preview.aspx)  
   

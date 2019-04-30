@@ -10,12 +10,12 @@ ms.assetid: e4e429da-3667-41f7-9158-a8207d13e91a
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2571054e2fc90e770aec89b22c6a0b5e52786ba7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: f3e95200cf29c8561798c858635c3864d635fb40
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424511"
 ---
 # <a name="api-reference-visual-studio-debugging"></a>API 참조(Visual Studio 디버깅)
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -39,10 +39,10 @@ ms.locfileid: "58981304"
 |E_ACCESSDENIED|일반 액세스 거부 오류가 발생 합니다.|0x80070005|  
   
 > [!NOTE]
->  경우는 [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] 반환 메서드를 디버깅 `S_OK`를 매개 변수에 대 한 포인터는 유효한 모든, 즉, 유효성을 검사 하지 out 매개 변수가 포인터에서 수행 되는 가정 때 `S_OK` 반환 됩니다.  
+> 경우는 [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] 반환 메서드를 디버깅 `S_OK`를 매개 변수에 대 한 포인터는 유효한 모든, 즉, 유효성을 검사 하지 out 매개 변수가 포인터에서 수행 되는 가정 때 `S_OK` 반환 됩니다.  
   
 > [!NOTE]
->  잘못 된 또는 `NULL` [out] 매개 변수 IDE에서 충돌이 발생할 수 있습니다.  
+> 잘못 된 또는 `NULL` [out] 매개 변수 IDE에서 충돌이 발생할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [인터페이스](../../../extensibility/debugger/reference/interfaces-visual-studio-debugging.md)   

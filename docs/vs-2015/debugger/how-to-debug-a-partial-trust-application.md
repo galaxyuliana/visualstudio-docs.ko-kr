@@ -18,12 +18,12 @@ caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8340867406e99fd6c6f84d1dc84d89a395a338fb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 61b5a5d04e9c59d9c4034cb97c8ec0fd79264d48
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437314"
 ---
 # <a name="how-to-debug-a-partial-trust-application"></a>방법: 부분 신뢰 응용 프로그램 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ Windows 및 콘솔 응용 프로그램에 적용됩니다.
  나중에 디버깅 과정에서 추가했던 권한을 다시 검토할 수 있습니다. 디버깅하는 동안 권한을 추가해야 했다면 대개의 경우 이는 코드의 해당 지점에 사용자 동의 메시지를 추가해야 함을 의미합니다.  
   
 > [!NOTE]
->  디버거 시각화 도우미에는 부분 신뢰 응용 프로그램에 허용되는 것보다 많은 권한이 필요합니다. 부분 신뢰 코드에서 중지하면 시각화 도우미가 로드되지 않습니다. 시각화 도우미를 사용하여 디버깅하려면 완전 신뢰 코드를 실행해야 합니다.  
+> 디버거 시각화 도우미에는 부분 신뢰 응용 프로그램에 허용되는 것보다 많은 권한이 필요합니다. 부분 신뢰 코드에서 중지하면 시각화 도우미가 로드되지 않습니다. 시각화 도우미를 사용하여 디버깅하려면 완전 신뢰 코드를 실행해야 합니다.  
   
 ### <a name="to-choose-a-zone-for-your-partial-trust-application"></a>부분 신뢰 응용 프로그램의 영역을 선택하려면  
   

@@ -17,12 +17,12 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 768bfc5de11f8b7fa6c3cd8988dbcc70633dde89
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1b104a7a0451da7f772077d2f566b36b9f601c17
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433803"
 ---
 # <a name="how-to-enable-clickonce-security-settings"></a>방법: ClickOnce 보안 설정 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "60082832"
      이제 보안 페이지에서 응용 프로그램에 대 한 보안 설정을 지정할 수 있습니다.  
   
     > [!NOTE]
-    >  이 확인란을 사용 하 여 응용 프로그램을 게시할 때마다 자동으로 선택 됩니다 합니다 **게시** 마법사.  
+    > 이 확인란을 사용 하 여 응용 프로그램을 게시할 때마다 자동으로 선택 됩니다 합니다 **게시** 마법사.  
   
 ### <a name="to-disable-clickonce-security-settings"></a>ClickOnce 보안 설정 사용 안 함  
   
@@ -57,7 +57,7 @@ ms.locfileid: "60082832"
      응용 프로그램이 완전 신뢰 보안 설정과; 실행 수 에 있는 모든 설정 합니다 **보안** 페이지는 무시 됩니다.  
   
     > [!NOTE]
-    >  게시 마법사를 사용 하 여 응용 프로그램을 게시할 때마다가 확인란 선택 됩니다. 응용 프로그램이 게시 된 후에 다시 지워야 합니다.  
+    > 게시 마법사를 사용 하 여 응용 프로그램을 게시할 때마다가 확인란 선택 됩니다. 응용 프로그램이 게시 된 후에 다시 지워야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ClickOnce 응용 프로그램 보안](../deployment/securing-clickonce-applications.md)   

@@ -10,16 +10,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6db6421d3d0a62f8a50df2301689b638ac42d4df
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 12beb4bda419c99c013a324b08b92bf3ff5365dd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56611934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429866"
 ---
 # <a name="troubleshooting-regpkg-package-registration"></a>RegPkg 패키지 등록 문제 해결
 > [!NOTE]
->  Visual Studio에서 패키지를 등록 하려면.pkgdef 파일을 사용 하 여는 것이 좋습니다. 따라서 시스템 레지스트리에 액세스 하지 않고도 확장 배포 합니다. Pkgdef 파일을 사용 하 여 만들어진 합니다 [CreatePkgDef 유틸리티](../../extensibility/internals/createpkgdef-utility.md)합니다.
+> Visual Studio에서 패키지를 등록 하려면.pkgdef 파일을 사용 하 여는 것이 좋습니다. 따라서 시스템 레지스트리에 액세스 하지 않고도 확장 배포 합니다. Pkgdef 파일을 사용 하 여 만들어진 합니다 [CreatePkgDef 유틸리티](../../extensibility/internals/createpkgdef-utility.md)합니다.
 
  RegPkg에서 사용 하 여 패키지를 등록할 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], RegPkg 패키지에 적절 한 버전을 사용 해야 합니다.
 

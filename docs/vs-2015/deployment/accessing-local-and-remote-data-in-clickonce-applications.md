@@ -16,12 +16,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8337fa86173b62a6576be6d3abe8d76dbef427d7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 95f863a8b33f6cbff7e592b0a7a45e664494d826
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427244"
 ---
 # <a name="accessing-local-and-remote-data-in-clickonce-applications"></a>ClickOnce 애플리케이션의 로컬 및 원격 데이터 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "60040071"
  데이터 디렉터리는 애플리케이션이 명시적으로 저장 및 유지 관리하는 데이터인 애플리케이션에서 관리되는 데이터에 사용됩니다. 애플리케이션 매니페스트에서 “데이터"로 표시되지 않은 모든 정적, 독립적 파일은 애플리케이션 디렉터리에 있습니다. 이 디렉터리에는 애플리케이션의 실행(.exe) 파일 및 어셈블리가 있습니다.  
   
 > [!NOTE]
->  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램이 제거되면 데이터 디렉터리도 제거됩니다. 문서와 같이 최종 사용자가 관리하는 데이터를 저장하는 데는 데이터 디렉터리를 사용하지 마세요.  
+> [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램이 제거되면 데이터 디렉터리도 제거됩니다. 문서와 같이 최종 사용자가 관리하는 데이터를 저장하는 데는 데이터 디렉터리를 사용하지 마세요.  
   
 #### <a name="marking-data-files-in-a-clickonce-distribution"></a>ClickOnce 배포에서 데이터 파일 표시  
  데이터 디렉터리에 기존 파일을 넣으려면 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션의 애플리케이션 매니페스트 파일에서 기존 파일을 데이터로 표시해야 합니다. 자세한 내용은 [방법: ClickOnce 애플리케이션에 데이터 파일 포함](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md)을 참조하세요.  
@@ -52,7 +52,7 @@ ms.locfileid: "60040071"
  데이터 디렉터리에서 데이터를 읽으려면 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션이 읽기 권한을 요청해야 합니다. 마찬가지로 디렉터리에 쓰려면 쓰기 권한이 필요합니다. 애플리케이션이 완전 신뢰로 실행되도록 구성되면 이 권한이 애플리케이션에 자동으로 포함됩니다. 권한 상승 또는 신뢰할 수 있는 응용 프로그램 배포를 사용 하 여 응용 프로그램에 대 한 권한 높이기에 대 한 자세한 내용은 참조 하세요. [ClickOnce 응용 프로그램 보안](../deployment/securing-clickonce-applications.md)합니다.  
   
 > [!NOTE]
->  조직에서 신뢰할 수 있는 애플리케이션 배포를 사용하지 않고 권한 상승을 해제했으면 권한 어설션이 실패합니다.  
+> 조직에서 신뢰할 수 있는 애플리케이션 배포를 사용하지 않고 권한 상승을 해제했으면 권한 어설션이 실패합니다.  
   
  애플리케이션에 이들 권한이 포함되고 나면 애플리케이션이 <xref:System.IO>내의 클래스에서 메서드 호출을 사용하여 데이터 디렉터리에 액세스할 수 있습니다. <xref:System.Deployment.Application.ApplicationDeployment>의 <xref:System.Deployment.Application.ApplicationDeployment.CurrentDeployment%2A> 속성에 정의된 <xref:System.Deployment.Application.ApplicationDeployment.DataDirectory%2A> 속성을 사용하여 Windows Forms [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 내에 데이터 디렉터리의 경로를 가져올 수 있습니다. 이 방법은 데이터에 액세스하는 가장 편리하고 권장되는 방법입니다. 다음 코드 예제에서는 배포에 데이터 파일로 포함한 CSV.txt 텍스트 파일에 대해 이 작업을 수행하는 방법을 보여 줍니다.  
   

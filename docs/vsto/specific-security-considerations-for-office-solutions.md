@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5c59824594a783ad952a7b15c47ee3f781aba79d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8a29c813a5217e68541fd076eadf62bf54710014
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436483"
 ---
 # <a name="specific-security-considerations-for-office-solutions"></a>Office 솔루션에 대 한 특정 보안 고려 사항
   Microsoft .NET Framework 및 Microsoft Office에서 제공된 보안 기능을 통해 다양한 보안 위협에 대해 Office 솔루션을 보호할 수 있습니다. 이 항목에서는 이러한 위협 중 일부에 대해 설명하고 이러한 위협으로부터 보호하기 위한 권장 사항을 제공합니다. 또한 Office 솔루션에 영향을 주는 Microsoft Office 보안 설정에 대한 정보를 포함합니다.
@@ -74,7 +74,7 @@ ms.locfileid: "60081322"
  [!code-vb[Trin_VstcoreOutlookSecurity#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb#2)]
 
 > [!NOTE]
->  Outlook을 Exchange와 함께 사용할 경우 `ThisAddIn.Application` 에서 모든 Outlook 개체를 가져와도 VSTO 추가 기능에서 전체 Outlook 개체 모델에 액세스하지 못할 수 있습니다. 예를 들어 Exchange 관리자 자동으로 Outlook을 설정 하는 경우 거부 Outlook 개체 모델을 사용 하 여 주소 정보에 액세스 하려는 모든 시도가 Outlook To 속성에 액세스 하려면 이전 코드 예제에서는 코드 예제에서는 사용 하는 경우에 다음 신뢰할 수 있는 `ThisAddIn.Application` 필드입니다.
+> Outlook을 Exchange와 함께 사용할 경우 `ThisAddIn.Application` 에서 모든 Outlook 개체를 가져와도 VSTO 추가 기능에서 전체 Outlook 개체 모델에 액세스하지 못할 수 있습니다. 예를 들어 Exchange 관리자 자동으로 Outlook을 설정 하는 경우 거부 Outlook 개체 모델을 사용 하 여 주소 정보에 액세스 하려는 모든 시도가 Outlook To 속성에 액세스 하려면 이전 코드 예제에서는 코드 예제에서는 사용 하는 경우에 다음 신뢰할 수 있는 `ThisAddIn.Application` 필드입니다.
 
 ### <a name="specify-which-add-ins-to-trust-when-using-exchange"></a>Exchange를 사용 하는 경우 신뢰할 수 있는 추가 기능 지정
  Outlook을 Exchange와 함께 사용하는 경우 관리자는 개체 모델 보호 발생 없이 특정 VSTO 추가 기능을 실행할 수 있도록 지정할 수 있습니다. Visual Studio의 Office 솔루션을 사용하여 만들어진 Outlook VSTO 추가 기능은 개별적으로 신뢰할 수 없으며 그룹으로만 신뢰할 수 있습니다.

@@ -20,12 +20,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1b3bba0d47e77b9e712a375627e2e4aebc6702b3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 960100db5a257ab30431c1edee2bce9ded21d46d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431177"
 ---
 # <a name="customize-how-visual-studio-creates-captions-for-data-bound-controls"></a>Visual Studio에서 데이터 바인딩된 컨트롤에 대한 캡션을 만드는 방식 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60079489"
 항목을 끌면 합니다 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) Windows Forms 디자이너를 끌어다 특별히 고려해 야 play: 두 개의 좀 더 읽기 쉬운 문자열로 캡션 레이블의 열 이름을 변경 하거나 더 많은 단어 함께 연결 하 여 찾을 수 있습니다. 이러한 레이블을 생성 하는, 설정 하 여 방식을 사용자 지정할 수 있습니다 합니다 **SmartCaptionExpression**를 **SmartCaptionReplacement**, 및 **SmartCaptionSuffix** 값 합니다 **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Data 디자이너** 레지스트리 키입니다.
 
 > [!NOTE]
->  이 레지스트리 키는 만들 때까지 존재 하지 않습니다.
+> 이 레지스트리 키는 만들 때까지 존재 하지 않습니다.
 
  값에 입력 된 정규 식에 의해 제어 됩니다 스마트 캡션 합니다 **SmartCaptionExpression** 값입니다. 추가 된 **데이터 디자이너** 레지스트리 키 재정의 캡션 레이블을 제어 하는 기본 일반 식입니다. 정규식에 대 한 자세한 내용은 참조 하세요. [Visual Studio에서 정규식 사용](../ide/using-regular-expressions-in-visual-studio.md)합니다.
 
@@ -54,9 +54,9 @@ ms.locfileid: "60079489"
 |**SmartCaptionSuffix**|:|반환된 된 문자열에 추가 되는 문자를 나타냅니다. 예를 들어, 캡션이 `Company Name`, 접미사를 사용 하면 `Company Name:`|
 
 > [!CAUTION]
->  레지스트리 편집기에서 작업을 수행 하는 경우에 매우 주의 해야 합니다. 편집 하기 전에 레지스트리를 백업 합니다. 레지스트리 편집기를 잘못 사용 하면 운영 체제를 다시 설치 해야 할 수 있는 심각한 문제가 발생할 수 있습니다. Microsoft은 레지스트리 편집기를 잘못 사용 하 여 발생 하는 문제를 해결할 수 있음을 보장 하지 않습니다. 레지스트리 편집기 사용에 따른 결과는 사용자의 책임입니다.
+> 레지스트리 편집기에서 작업을 수행 하는 경우에 매우 주의 해야 합니다. 편집 하기 전에 레지스트리를 백업 합니다. 레지스트리 편집기를 잘못 사용 하면 운영 체제를 다시 설치 해야 할 수 있는 심각한 문제가 발생할 수 있습니다. Microsoft은 레지스트리 편집기를 잘못 사용 하 여 발생 하는 문제를 해결할 수 있음을 보장 하지 않습니다. 레지스트리 편집기 사용에 따른 결과는 사용자의 책임입니다.
 >
->  다음 기술 자료 문서를 백업, 편집 및 레지스트리 복원 지침이 포함 되어 있습니다. [Microsoft Windows 레지스트리 설명](http://support.microsoft.com/default.aspx?scid=kb;en-us;256986) (http://support.microsoft.com/default.aspx?scid=kb; en-우리; 256986)
+> 다음 기술 자료 문서를 백업, 편집 및 레지스트리 복원 지침이 포함 되어 있습니다. [Microsoft Windows 레지스트리 설명](http://support.microsoft.com/default.aspx?scid=kb;en-us;256986) (http://support.microsoft.com/default.aspx?scid=kb; en-우리; 256986)
 
 ### <a name="to-modify-the-smart-captioning-behavior-of-the-data-sources-window"></a>데이터 원본 창의 스마트 캡션 동작을 수정 하려면
 

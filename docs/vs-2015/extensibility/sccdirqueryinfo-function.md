@@ -12,12 +12,12 @@ ms.assetid: 459e2d99-573d-47c4-b834-6d82c5e14162
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: b86ac7c701f96d467f0c059fc7e4b732699b1da5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 7334ddd1ce6c7f9feac63253246e55b65121e18b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432448"
 ---
 # <a name="sccdirqueryinfo-function"></a>SccDirQueryInfo 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +64,7 @@ LPLONG  lpStatus
  IDE는 해당 프로젝트에 있는지를 쿼리하여 디렉터리는 소스 제어 하는지 여부를 확인 하려면 디렉터리 이름이 전에이 함수를 사용 합니다. 소스 제어에서 디렉터리가 없는 경우 IDE는 사용자에 게 적절 한 경고를 제공할 수 있습니다.  
   
 > [!NOTE]
->  소스 제어 플러그 인을 하나 이상 상태 값은 구현 하지 하기로 구현 되지 않은 비트를 0으로 설정 되어야 합니다.  
+> 소스 제어 플러그 인을 하나 이상 상태 값은 구현 하지 하기로 구현 되지 않은 비트를 0으로 설정 되어야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   

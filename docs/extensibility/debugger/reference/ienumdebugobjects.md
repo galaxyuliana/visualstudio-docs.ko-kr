@@ -12,16 +12,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8a0de2742b5fee3215d1fddbe7912943effe639d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 652d9ad71b780a1ebc3ada8b338e9b2781a50ef6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416070"
 ---
 # <a name="ienumdebugobjects"></a>IEnumDebugObjects
 > [!IMPORTANT]
->  Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 정보를 참조 하세요 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
+> Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 정보를 참조 하세요 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
 
  이 인터페이스를 구현 하는 개체의 컬렉션을 나타냅니다 합니다 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 인터페이스입니다.
 
@@ -44,7 +44,7 @@ IEnumDebugObjects : IUnknown
 |------------|-----------------|
 |[다음](../../../extensibility/debugger/reference/ienumdebugobjects-next.md)|다음 집합을 검색 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 열거형 개체입니다.|
 |[Skip](../../../extensibility/debugger/reference/ienumdebugobjects-skip.md)|지정된 된 개수의 항목을 건너뜁니다.|
-|[다시 설정](../../../extensibility/debugger/reference/ienumdebugobjects-reset.md)|첫 번째 항목을 열거를 다시 설정합니다.|
+|[Reset](../../../extensibility/debugger/reference/ienumdebugobjects-reset.md)|첫 번째 항목을 열거를 다시 설정합니다.|
 |[Clone](../../../extensibility/debugger/reference/ienumdebugobjects-clone.md)|현재 열거형의 복사본을 검색 합니다.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugobjects-getcount.md)|열거형 항목을 검색합니다.|
 

@@ -8,12 +8,12 @@ ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5
 caps.latest.revision: 34
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e08a443513bb6043ec2f3841067021ffc65dd92d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ba6fce72e3e27fbba9f8abdb424dabb778bd270c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440413"
 ---
 # <a name="microsoft-help-viewer-sdk"></a>Microsoft 도움말 뷰어 SDK
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -145,7 +145,7 @@ ms.locfileid: "60099013"
 6. 페이지 링크를 추가 합니다. `<a href="ms-xhelp://?Id=ContosoTopic1">Main Topic</a>`
 
 > [!NOTE]
->  참고:에 대 한 지원 되지 않는 새로운 "표시 언어" (예제에서는 F#, Cobol, Fortran) 코드 조각에서 코드 색 지정 단색 됩니다.
+> 참고:에 대 한 지원 되지 않는 새로운 "표시 언어" (예제에서는 F#, Cobol, Fortran) 코드 조각에서 코드 색 지정 단색 됩니다.
 
  **예제에서는 도움말 뷰어 항목** 코드는 메타 데이터, 코드 조각, 축소 가능한 영역 및 언어 특정 텍스트를 정의 하는 방법을 보여 줍니다.
 

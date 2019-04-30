@@ -10,12 +10,12 @@ ms.assetid: e8e78514-5720-4fc2-aa43-00b6af482e38
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 00a2f5e4e405ff2cba7275cd4c1310db850632b5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2af9e0765fb5bc73a35bebfc2f50f5d2a41122d3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60118034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435963"
 ---
 # <a name="how-to-implement-error-markers"></a>방법: 오류 마커를 구현 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "60118034"
 1. 필터링 된 뷰 필터는 해당 보기의 데이터와 관련 된 작업 공급자에 대 한 포인터를 가져옵니다.  
   
     > [!NOTE]
-    >  메서드 팁, 문 완성, 오류 표식, 등에 대 한 동일한 명령 필터를 사용할 수 있습니다.  
+    > 메서드 팁, 문 완성, 오류 표식, 등에 대 한 동일한 명령 필터를 사용할 수 있습니다.  
   
 2. 필터를 다른 줄으로 이동 했음을 나타내는 이벤트를 수신 하는 경우 오류를 확인 하는 작업이 만들어집니다.  
   
@@ -59,4 +59,4 @@ ms.locfileid: "60118034"
  [텍스트 마커를 사용 하 여 레거시 API를 사용 하 여](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md)   
  [방법: 사용자 지정 텍스트 표식 만들기](../extensibility/how-to-create-custom-text-markers.md)   
- [방법: 텍스트 마커를 사용 합니다.](../extensibility/how-to-use-text-markers.md)
+ [방법: 텍스트 표식 사용](../extensibility/how-to-use-text-markers.md)

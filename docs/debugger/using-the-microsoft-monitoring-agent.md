@@ -8,19 +8,19 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8fb9f1ec1eafb0dbea7ca5437d80a32e4fe9d9dc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c8f136b28c30c1fe79eda2f7c97540cb60a3ffda
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63407555"
 ---
 # <a name="using-the-microsoft-monitoring-agent-c-visual-basic"></a>Microsoft Monitoring Agent를 사용 하 여 (C#, Visual Basic)
 
 **Microsoft Monitoring Agent**를 사용하면 IIS에서 호스트되는 ASP.NET 웹앱과 SharePoint 2010 또는 2013 응용 프로그램의 오류, 성능 문제 또는 기타 문제를 로컬로 모니터링할 수 있습니다. Monitoring Agent에서 IntelliTrace 로그(.iTrace) 파일로 진단 이벤트를 저장할 수 있습니다. 그런 다음 Visual Studio Enterprise(Professional 또는 Community Edition 아님)에서 로그를 열고 모든 Visual Studio 진단 도구를 사용하여 문제를 디버그할 수 있습니다. 또한 **Trace** 모드에서 Monitoring Agent를 실행하여 IntelliTrace 진단 데이터와 메서드 데이터를 수집할 수도 있습니다. Microsoft Monitoring Agent를 [Application Insights](/azure/application-insights/) 및 [System Center Operation Manager](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))와 통합할 수 있습니다. Microsoft Monitoring Agent는 설치 시 대상 시스템 환경을 변경합니다.
 
 > [!NOTE]
->  **IntelliTrace 독립 실행형 수집기**를 사용하면 대상 환경을 변경하지 않고 원격 컴퓨터의 웹, SharePoint, WPF 및 Windows Forms 앱에 대해 IntelliTrace 진단 및 메서드 데이터를 수집할 수도 있습니다. Microsoft Monitoring Agent를 **Monitor** 모드로 실행하는 경우에 비해 독립 실행형 수집기가 성능에 더 큰 영향을 줍니다. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md)입니다.
+> **IntelliTrace 독립 실행형 수집기**를 사용하면 대상 환경을 변경하지 않고 원격 컴퓨터의 웹, SharePoint, WPF 및 Windows Forms 앱에 대해 IntelliTrace 진단 및 메서드 데이터를 수집할 수도 있습니다. Microsoft Monitoring Agent를 **Monitor** 모드로 실행하는 경우에 비해 독립 실행형 수집기가 성능에 더 큰 영향을 줍니다. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md)입니다.
 
  System Center 2012를 사용하는 경우 Microsoft Monitoring Agent와 Operations Manager를 함께 사용하면 문제에 대한 경고를 받고 저장된 IntelliTrace 로그의 링크를 사용하여 Team Foundation Server 작업 항목을 만들 수 있습니다. 그런 다음 추가 디버깅을 위해 이러한 작업 항목을 다른 사용자에게 할당할 수 있습니다. [개발 프로세스와 Operations Manager 통합](/previous-versions/system-center/system-center-2012-R2/jj614609(v=sc.12)) 및 [Microsoft Monitoring Agent를 사용하여 모니터링](/previous-versions/system-center/system-center-2012-R2/dn465153(v=sc.12))을 참조하세요.
 
@@ -59,7 +59,7 @@ ms.locfileid: "60043124"
      모니터링을 시작하기 전에 이 디렉터리를 만들어야 합니다. 앱 속도 저하를 방지하려면 사용량이 많지 않은 로컬 고속 디스크의 위치를 선택합니다.
 
     > [!IMPORTANT]
-    >  IntelliTrace 로그에는 개인 데이터와 중요한 데이터가 포함될 수 있습니다. 따라서 파일을 사용해야 하는 ID만 이 디렉터리에 액세스할 수 있도록 합니다. 이와 관련한 사항은 회사의 개인 정보 보호 정책을 확인하세요.
+    > IntelliTrace 로그에는 개인 데이터와 중요한 데이터가 포함될 수 있습니다. 따라서 파일을 사용해야 하는 ID만 이 디렉터리에 액세스할 수 있도록 합니다. 이와 관련한 사항은 회사의 개인 정보 보호 정책을 확인하세요.
 
 5. 자세한 함수 수준 모니터링을 실행하거나 SharePoint 애플리케이션을 모니터링하려면 웹앱 또는 SharePoint 애플리케이션을 호스트하는 애플리케이션 풀에 IntelliTrace 로그 디렉터리에 대한 읽기 및 쓰기 권한을 제공합니다. [Q: 애플리케이션 풀에 대한 사용 권한을 설정하려면 어떻게 하나요?](#FullPermissionsITLog)
 
@@ -257,7 +257,7 @@ Monitoring Agent는 `id`메서드에서 반환되는 `Employee.Id`, `Employee.Na
 3. 안전한 공유 폴더에 로그를 복사한 다음 Visual Studio Enterprise(Professional 또는 Community Edition 아님)가 설치되어 있는 컴퓨터에서 로그를 엽니다.
 
    > [!IMPORTANT]
-   >  IntelliTrace 로그는 개인 데이터와 중요한 데이터를 포함할 수 있으므로 공유 시 주의해야 합니다. 이러한 로그에 액세스하는 모든 사용자에게 해당 데이터를 볼 권한이 있는지 확인합니다. 이와 관련한 사항은 회사의 개인 정보 보호 정책을 확인하세요.
+   > IntelliTrace 로그는 개인 데이터와 중요한 데이터를 포함할 수 있으므로 공유 시 주의해야 합니다. 이러한 로그에 액세스하는 모든 사용자에게 해당 데이터를 볼 권한이 있는지 확인합니다. 이와 관련한 사항은 회사의 개인 정보 보호 정책을 확인하세요.
 
    **다음:** [Visual Studio Enterprise에서 기록 된 이벤트 진단](../debugger/diagnose-problems-after-deployment.md#InvestigateEvents)
 

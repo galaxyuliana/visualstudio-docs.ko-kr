@@ -26,12 +26,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - cplusplus
-ms.openlocfilehash: b0a10d720e911f80aa5ef7b4a42f521bfd9c31bd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3bee60a54576ab816c63cf60f2226ebbbaf50c44
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388479"
 ---
 # <a name="how-to-enable-and-disable-edit-and-continue-c-vb-c"></a>방법: 사용 하도록 설정 하 고 편집 하며 계속 하기를 사용 하지 않도록 설정 (C#, VB, C++)
 
@@ -46,7 +46,7 @@ ms.locfileid: "60070412"
 1. **도구가** > **옵션** > (또는 **디버그** > **옵션**) > **디버깅**  >  **일반**선택 **편집 하며 계속 하기** 오른쪽 창에서.
 
     > [!NOTE]
-    >  IntelliTrace를 사용하도록 설정되어 있고 IntelliTrace 이벤트 및 호출 정보를 모두 수집하는 경우 편집하며 계속하기를 사용하지 않도록 설정됩니다. 자세한 내용은 [IntelliTrace](../debugger/intellitrace.md)합니다.
+    > IntelliTrace를 사용하도록 설정되어 있고 IntelliTrace 이벤트 및 호출 정보를 모두 수집하는 경우 편집하며 계속하기를 사용하지 않도록 설정됩니다. 자세한 내용은 [IntelliTrace](../debugger/intellitrace.md)합니다.
 
 1. 에 대 한 C++ 코드, 반드시 **네이티브 편집 하며 계속 하기** 선택 하 고 추가 옵션을 설정 합니다.
     - **계속할 때 변경 내용 적용(네이티브 전용)**

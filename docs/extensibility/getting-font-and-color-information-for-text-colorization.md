@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1f6e55c99d874bd18f0045746bbab4ac96370bc5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8f03b23076b1eea203166bb0322f05927480a278
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417167"
 ---
 # <a name="get-font-and-color-information-for-text-colorization"></a>텍스트 색 지정에 대 한 글꼴 및 색 정보 가져오기
 렌더링 또는 사용자 인터페이스 (UI) 요소에 컬러로 텍스트를 표시 하는 프로세스는 프로젝트, 기술 및 개발자 환경 설정의 유형에 따라 달라 집니다. 합니다 **글꼴 및 색** 속성 페이지 설정을 저장 합니다.
@@ -24,7 +24,7 @@ ms.locfileid: "60042409"
  컬러로 텍스트를 표시 하는 대부분의 구현 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> 디스플레이 설정 표시, 검색 및 텍스트를 저장에 대 한 인터페이스를 연결 합니다.
 
 > [!NOTE]
->  핵심 편집기 사용자 지정 하는 경우 (지 원하는 합니다 **텍스트 EditorCategory**), 언어 서비스의 색 지정 기술을 사용 하는 것이 좋습니다. 자세한 내용은 [글꼴 및 색 개요](../extensibility/font-and-color-overview.md)합니다.
+> 핵심 편집기 사용자 지정 하는 경우 (지 원하는 합니다 **텍스트 EditorCategory**), 언어 서비스의 색 지정 기술을 사용 하는 것이 좋습니다. 자세한 내용은 [글꼴 및 색 개요](../extensibility/font-and-color-overview.md)합니다.
 
 ## <a name="get-default-font-and-color-information"></a>기본 글꼴 및 색 정보 가져오기
  모든 합니다 **글꼴 및 색** 텍스트를 표시 하는 모든 창의 설정으로 지정 해야 합니다 **표시 항목** 하나의 **범주**합니다. 자세한 내용은 [글꼴 및 색, 환경, 옵션 대화 상자,](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)합니다.

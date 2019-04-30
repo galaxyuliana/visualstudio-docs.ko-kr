@@ -12,12 +12,12 @@ ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
 caps.latest.revision: 24
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 496ace3193ec2a78033b2e429f6fa7c6cbf11a07
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4b2ce01cf315404fbd37e1936ac445a37c9a3f72
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60091527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430919"
 ---
 # <a name="how-to-access-the-built-in-fonts-and-color-scheme"></a>방법: 기본 제공 글꼴 및 색 구성표에 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연�
     이 GUID는 범주를 고유 하 게 식별 하는 데 사용 됩니다<strong>합니다.</strong> 이 범주는 IDE의 기본 글꼴 및 색 지정을 재사용합니다.  
   
    > [!NOTE]
-   >  사용 하 여 글꼴 및 색 데이터를 검색 하는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 다른 인터페이스를 Vspackage를 사용 하 여이 GUID 기본 제공 정보를 참조 합니다.  
+   > 사용 하 여 글꼴 및 색 데이터를 검색 하는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 다른 인터페이스를 Vspackage를 사용 하 여이 GUID 기본 제공 정보를 참조 합니다.  
   
 2. 범주 이름은 IDE에서 표시 하는 경우 필요에 따라 지역화 될 수 있도록 VSPackage의 리소스 (.rc) 파일 내에서 문자열 테이블에 추가 되어야 합니다.  
   

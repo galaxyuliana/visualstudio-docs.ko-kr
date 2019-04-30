@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fe0d5c3dd55380587f8f5f1c6477ee8c53bf1156
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 48ab55b58eee8f6444b253c09db1eeedcc8c5692
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60051663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411350"
 ---
 # <a name="create-reusable-groups-of-buttons"></a>단추의 다시 사용할 수 있는 그룹 만들기
 명령 그룹은 항상 함께 나타나는 메뉴 또는 도구 모음의 명령 모음입니다. CommandPlacements 부분에서 다른 부모 메뉴에 할당 하 여 다시 사용할 수 있는 명령 그룹을 *.vsct* 파일입니다.
@@ -81,7 +81,7 @@ ms.locfileid: "60051663"
     ```
 
     > [!NOTE]
-    >  새 명령 그룹에서 명령의 위치를 결정 하는 우선 순위 필드의 값입니다. 우선 순위 요소를 재정의 하는 항목 정의에서 설정 된 CommandPlacement에서 설정 합니다. 낮은 우선 순위 값이 있는 명령은 더 높은 우선 순위 값이 있는 명령 앞에 표시 됩니다. 중복 우선 순위 값이 허용 되지만 때문에 동일한 우선 순위 값이 있는 명령의 상대적 위치를 보장할 수 없습니다는 순서를 **devenv /setup** 명령은 레지스트리에서 최종 인터페이스를 만듭니다 일관 되지 않을 수 있습니다.
+    > 새 명령 그룹에서 명령의 위치를 결정 하는 우선 순위 필드의 값입니다. 우선 순위 요소를 재정의 하는 항목 정의에서 설정 된 CommandPlacement에서 설정 합니다. 낮은 우선 순위 값이 있는 명령은 더 높은 우선 순위 값이 있는 명령 앞에 표시 됩니다. 중복 우선 순위 값이 허용 되지만 때문에 동일한 우선 순위 값이 있는 명령의 상대적 위치를 보장할 수 없습니다는 순서를 **devenv /setup** 명령은 레지스트리에서 최종 인터페이스를 만듭니다 일관 되지 않을 수 있습니다.
 
 ## <a name="to-put-a-reusable-group-of-buttons-on-a-menu"></a>다시 사용할 수 있는 단추 그룹 메뉴에 추가할
 

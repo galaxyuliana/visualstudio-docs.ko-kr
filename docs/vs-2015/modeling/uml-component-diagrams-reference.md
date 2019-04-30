@@ -19,12 +19,12 @@ caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 91300aea88c86d0791db5bd73b91c3b5069ad607
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 581906741bb43eb221c6a0b6f6bb9aeccd2f3945
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424379"
 ---
 # <a name="uml-component-diagrams-reference"></a>UML 구성 요소 다이어그램: 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ Visual Studio에는 *구성 요소 다이어그램* 소프트웨어 시스템 �
  디자인 프로세스에서 구성 요소 다이어그램을 사용 하는 방법에 대 한 자세한 내용은 참조 하세요. [앱의 아키텍처 모델링](../modeling/model-your-app-s-architecture.md)합니다.  
 
 > [!NOTE]
->  이 항목에서는 구성 요소 다이어그램에서 사용할 수 있는 요소에 대해 설명합니다. 자세한 내용은 구성 요소 다이어그램을 그리는 방법에 대 한 참조 [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다. 일반적 모델링 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
+> 이 항목에서는 구성 요소 다이어그램에서 사용할 수 있는 요소에 대해 설명합니다. 자세한 내용은 구성 요소 다이어그램을 그리는 방법에 대 한 참조 [UML 구성 요소 다이어그램: 지침](../modeling/uml-component-diagrams-guidelines.md)합니다. 일반적 모델링 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
 
 ## <a name="reading-component-diagrams"></a>구성 요소 다이어그램 읽기  
  다음 표에서는 구성 요소 다이어그램에서 사용할 수 있는 요소 및 주요 속성에 대해 설명합니다. 요소 속성의 전체 목록을 참조 하세요 [UML 구성 요소 다이어그램 요소의 속성](../modeling/properties-of-elements-on-uml-component-diagrams.md)합니다.  

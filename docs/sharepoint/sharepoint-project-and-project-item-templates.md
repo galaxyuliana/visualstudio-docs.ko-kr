@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b457bf6491a9b82fc981c66722f4c6e19a517065
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 245a6c994d87ecfa9c5ef877563b70100e5eef6f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438990"
 ---
 # <a name="sharepoint-project-and-project-item-templates"></a>SharePoint 프로젝트 및 프로젝트 항목 템플릿
   다음 섹션에서는 사용할 수 있는 SharePoint 프로젝트에 설명 하 고 프로젝트 항목 템플릿 및 사용 방법에 있습니다.
@@ -80,7 +80,7 @@ ms.locfileid: "60040340"
  *콘텐츠 형식* 항목을 사용 하면 문서, 알림 또는 작업 같은 기존 (기본) 콘텐츠 형식을 기반으로 하는 사용자 지정 콘텐츠 형식을 만들 수 있습니다. 사용자 지정 콘텐츠 형식을 정의 하는 모든 사이트 열 (필드)와 함께 기본 콘텐츠 형식으로 동일한 속성 및 필드를 제공 합니다. 예를 들어 SharePoint에서 제공 되는 기본 연락처 콘텐츠 형식을 기반으로 하는 사용자 지정 연락처 콘텐츠 형식을 만들 수 있습니다. 기존 사이트 열을 변경 하거나 기본 콘텐츠 형식에 이미 포함 된 더 많은 사이트 열을 추가 하 여 콘텐츠 형식을 사용자 지정할 수 있습니다.
 
 > [!NOTE]
->  SharePoint 제한으로 인해 샌드박스 솔루션 콘텐츠 형식을 기반으로 팜 솔루션 콘텐츠 형식을 만들 수 없습니다.
+> SharePoint 제한으로 인해 샌드박스 솔루션 콘텐츠 형식을 기반으로 팜 솔루션 콘텐츠 형식을 만들 수 없습니다.
 
  자세한 내용은 [연습: SharePoint 용 사이트 열, 콘텐츠 형식 및 목록 만들기](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md) 고 [문서 블록: 콘텐츠 형식](http://go.microsoft.com/fwlink/?LinkId=179413)합니다.
 

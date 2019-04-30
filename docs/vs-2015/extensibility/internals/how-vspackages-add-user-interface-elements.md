@@ -12,12 +12,12 @@ ms.assetid: abc5d9d9-b267-48a1-92ad-75fbf2f4c1b9
 caps.latest.revision: 61
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: df04f8da29972b4be3967e5fd677a43e76ce1ac5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 553c502c100cbb6ed4ae249096af408af14423b4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436115"
 ---
 # <a name="how-vspackages-add-user-interface-elements"></a>VSPackage에서 사용자 인터페이스 요소를 추가하는 방법
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -65,7 +65,7 @@ VSPackage는 사용자 인터페이스 (UI) 요소, 예를 들어, 메뉴, 도�
  최상위 요소는 `Symbols` 섹션은 합니다 [GuidSymbol 요소](../../extensibility/guidsymbol-element.md)합니다. `GuidSymbol` 요소 이름을 IDE에서 패키지 및 해당 구성 요소 파트를 식별 하는 데 사용 되는 Guid에 매핑됩니다.  
   
 > [!NOTE]
->  Guid는 Visual Studio 패키지 템플릿을 통해 자동으로 생성 됩니다. 클릭 하 여 고유 GUID를 만들 수도 있습니다 **GUID 만들기** 에 **도구** 메뉴.  
+> Guid는 Visual Studio 패키지 템플릿을 통해 자동으로 생성 됩니다. 클릭 하 여 고유 GUID를 만들 수도 있습니다 **GUID 만들기** 에 **도구** 메뉴.  
   
  첫 번째 `GuidSymbol` 요소인 "guid [PackageName] Pkg", 패키지 자체의 GUID입니다. Visual Studio에서 패키지를 로드 하는 데 사용 되는 GUID입니다. 일반적으로 되지 않은 자식 요소입니다.  
   

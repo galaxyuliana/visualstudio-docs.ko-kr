@@ -23,12 +23,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5bc50d013f64543a60d6dad63531c9963fae869c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 99bd377ac54b664424b4bd29ab2917b00dae35fa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429119"
 ---
 # <a name="add-custom-controls-to-the-data-sources-window"></a>데이터 소스 창에 사용자 지정 컨트롤 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "60055641"
  데이터 바인딩된 컨트롤에서 항목에 대 한 만들기를 선택 하는 방법에 대 한 자세한 내용은 합니다 **데이터 원본** 창 참조 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경 하는 **도구** 메뉴에서 **설정 가져오기 및 내보내기**합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경 하는 **도구** 메뉴에서 **설정 가져오기 및 내보내기**합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="customizinglist"></a> 데이터 형식에 대 한 바인딩 가능한 컨트롤 목록 사용자 지정  
  추가 하거나 컨트롤의 항목에 대 한 사용 가능한 컨트롤 목록에서 제거 하는 **데이터 원본** 창 다음 단계를 수행 하는 특정 데이터 형식입니다.  
@@ -66,7 +66,7 @@ ms.locfileid: "60055641"
 5. 에 **연결 된 컨트롤** 상자에서 선택한 데이터 형식에 대해 사용할 수 있도록 하려는 각 컨트롤을 선택 하거나 목록에서 제거 하려는 모든 컨트롤의 선택을 취소 합니다.  
   
     > [!NOTE]
-    >  컨트롤 선택 하려는 경우에 나타나지 않습니다 합니다 **연결 된 컨트롤** 상자 컨트롤 목록에 추가 해야 합니다. 자세한 내용은 [데이터 형식의 연결 된 컨트롤 목록에 컨트롤 추가](#addingcontrols)합니다.  
+    > 컨트롤 선택 하려는 경우에 나타나지 않습니다 합니다 **연결 된 컨트롤** 상자 컨트롤 목록에 추가 해야 합니다. 자세한 내용은 [데이터 형식의 연결 된 컨트롤 목록에 컨트롤 추가](#addingcontrols)합니다.  
   
 6. **확인**을 클릭합니다.  
   
@@ -94,7 +94,7 @@ ms.locfileid: "60055641"
 3. 에 **연결 된 컨트롤** 상자에 방금 추가한 컨트롤을 **도구 상자** 나타나야 합니다.  
   
     > [!NOTE]
-    >  연결 된 컨트롤의 목록에 현재 솔루션 내에서 또는 참조 된 어셈블리에 있는 유일한 컨트롤을 추가할 수 있습니다. (컨트롤 구현 해야 데이터 바인딩 특성 중 하나 앞의 표에서.) 데이터에서 사용할 수 없는 사용자 지정 컨트롤을 바인딩할 합니다 **데이터 원본** 창에서 컨트롤을 끌어 합니다 **도구 상자** 를 디자인 화면으로 끌어에서 바인딩할 항목으로는 **데이터 원본** 컨트롤 창입니다.  
+    > 연결 된 컨트롤의 목록에 현재 솔루션 내에서 또는 참조 된 어셈블리에 있는 유일한 컨트롤을 추가할 수 있습니다. (컨트롤 구현 해야 데이터 바인딩 특성 중 하나 앞의 표에서.) 데이터에서 사용할 수 없는 사용자 지정 컨트롤을 바인딩할 합니다 **데이터 원본** 창에서 컨트롤을 끌어 합니다 **도구 상자** 를 디자인 화면으로 끌어에서 바인딩할 항목으로는 **데이터 원본** 컨트롤 창입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)

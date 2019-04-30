@@ -8,12 +8,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 0f1aee9fb3790a5ba7b766eba22f2ec6420dacfd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 004b09c471ea163a17391a8ad51abcc0aefee1ed
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041771"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430718"
 ---
 # <a name="ca5350-do-not-use-weak-cryptographic-algorithms"></a>CA5350: 취약한 암호화 알고리즘을 사용하지 마세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60041771"
 |변경 수준|주요 변경 아님|  
   
 > [!NOTE]
->  이 경고는 2015년 11월에 마지막으로 업데이트되었습니다.  
+> 이 경고는 2015년 11월에 마지막으로 업데이트되었습니다.  
   
 ## <a name="cause"></a>원인  
  <xref:System.Security.Cryptography.TripleDES> 등의 암호화 알고리즘과 <xref:System.Security.Cryptography.SHA1> 및 <xref:System.Security.Cryptography.RIPEMD160> 등의 해시 알고리즘은 취약한 것으로 간주됩니다.  

@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 25c4359a5ff64a3ddd229e872aa8a52303c22bf2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fef5d4ab83d22b31b64c6e6ec509cab47a426f9b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426950"
 ---
 # <a name="understanding-the-dsl-code"></a>DSL 코드 이해
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ DSL(Domain-Specific Language) 솔루션은 [!INCLUDE[vsprvs](../includes/vsprvs-
  이 항목의 예제는 대부분의 소스인 솔루션을 만들려면에서 DSL을 만들 수는 **구성 요소 모델** 솔루션 템플릿. 이 템플릿은 새 DSL 솔루션을 만들 때 표시되는 표준 템플릿 중 하나입니다.  
   
 > [!NOTE]
->  구성 요소 다이어그램 DSL 템플릿은 Visual Studio에서 아키텍처 메뉴를 사용 하 여 만들 수 있는 UML 구성 요소 다이어그램에 관련 되지 않았습니다. 에 **새 프로젝트** 대화 상자에서 **기타 프로젝트 Types\Extensibility** 클릭 하 고 **도메인별 언어 디자이너**합니다.  
+> 구성 요소 다이어그램 DSL 템플릿은 Visual Studio에서 아키텍처 메뉴를 사용 하 여 만들 수 있는 UML 구성 요소 다이어그램에 관련 되지 않았습니다. 에 **새 프로젝트** 대화 상자에서 **기타 프로젝트 Types\Extensibility** 클릭 하 고 **도메인별 언어 디자이너**합니다.  
   
  이 솔루션 템플릿을 사용해 본 적이 없다면 F5 키를 누르고 해당 기능을 사용해 봅니다. 특히 구성 요소로 포트 도구를 끌어 포트를 만들고 포트를 연결할 수 있는지 확인합니다.  
   
@@ -133,7 +133,7 @@ DSL(Domain-Specific Language) 솔루션은 [!INCLUDE[vsprvs](../includes/vsprvs-
   도메인 모델을 나타내는 클래스. <xref:Microsoft.VisualStudio.Modeling.DomainModel>에서 파생됩니다.  
   
 > [!NOTE]
->  이 클래스는 모델의 루트 클래스와는 다릅니다.  
+> 이 클래스는 모델의 루트 클래스와는 다릅니다.  
   
  Copy 및 Delete Closure는 요소를 복사하거나 삭제할 때 포함해야 하는 다른 요소를 정의합니다. 설정 하 여이 동작을 제어할 수는 **Propagates Copy** 하 고 **Propagates Delete** 모든 관계의 양쪽에 있는 역할의 속성입니다. 값이 동적으로 결정되도록 하려면 Closure 클래스의 메서드를 재정의하는 코드를 작성할 수 있습니다. 자세한 내용은 [방법: 프로그램 복사 및 붙여넣기 동작-리디렉션](../misc/how-to-program-copy-and-paste-behavior-redirect.md)합니다.  
   
@@ -344,7 +344,7 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
  이 파일을 사용자 지정하려면 `.tt` 파일을 편집합니다.  
   
 > [!WARNING]
->  아이콘, 이미지 등의 리소스를 포함하도록 .tt 파일을 편집하는 경우에는 VSIX 빌드에 리소스가 포함되는지 확인해야 합니다. 솔루션 탐색기에서 파일을 선택 하 고 있는지 확인 합니다 **VSIX에 포함** 속성은 `True`합니다.  
+> 아이콘, 이미지 등의 리소스를 포함하도록 .tt 파일을 편집하는 경우에는 VSIX 빌드에 리소스가 포함되는지 확인해야 합니다. 솔루션 탐색기에서 파일을 선택 하 고 있는지 확인 합니다 **VSIX에 포함** 속성은 `True`합니다.  
   
  이 파일은 DSL을 VSIX(Visual Studio Integration Extension)로 패키징하는 방식을 제어합니다. 자세한 내용은 [도메인 특정 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)를 참조하세요.  
   

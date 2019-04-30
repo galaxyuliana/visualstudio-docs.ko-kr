@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b5c763e18f30bec27837e248a27546df821ef33f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1b0a34505cf32e0e3fd4dc18bfeab4588856dba4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63409958"
 ---
 # <a name="attach-after-a-launch"></a>시작 후 연결
 프로그램 시작 디버그 세션 언급된 프로그램에 디버그 엔진 (DE)를 연결할 준비가 된 것입니다.
@@ -28,7 +28,7 @@ ms.locfileid: "60065586"
 - 하는 경우는 DE와 프로그램 간의 통신을 설정 하는 것을 런타임 환경에서 공동는 DE를 만듭니다. 이 디자인에서 다른 주소 공간 및 DE, 런타임 환경 및 프로그램 SDM을 유지합니다. 이 디자인은 일반적인 스크립트 언어를 실행 하려면 인터프리터를 사용 하 여 구현 되는 DE입니다.
 
     > [!NOTE]
-    >  DE 프로그램에 연결 하는 방법을 하는 것은 구현에 따라 다릅니다. DE와 프로그램 간의 통신 구현에 따라 다릅니다 이기도합니다.
+    > DE 프로그램에 연결 하는 방법을 하는 것은 구현에 따라 다릅니다. DE와 프로그램 간의 통신 구현에 따라 다릅니다 이기도합니다.
 
 ## <a name="implementation"></a>구현
  프로그래밍 방식으로 세션 디버그 관리자 SDM ()를 처음 받을 때 합니다 [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) 호출을 실행 하도록 프로그램을 나타내는 개체를 [연결](../../extensibility/debugger/reference/idebugprogram2-attach.md) 메서드를 전달는 [ IDebugEventCallback2](../../extensibility/debugger/reference/idebugeventcallback2.md) SDM 돌아가기 디버그 이벤트를 전달 하는 데 개체 이상입니다. 합니다 `IDebugProgram2::Attach` 메서드를 호출 합니다 [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) 메서드. SDM 받는 방법에 대 한 자세한 내용은 합니다 `IDebugProgram2` 인터페이스를 참조 하십시오 [포트에 알림](../../extensibility/debugger/notifying-the-port.md)합니다.

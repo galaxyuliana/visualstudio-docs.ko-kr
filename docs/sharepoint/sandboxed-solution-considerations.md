@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c31fe758d9c1a9a99fb71144f93c7145ea466ad0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 3f6345e7627549c672aa28fac8cba5f6d9658a23
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435441"
 ---
 # <a name="sandboxed-solution-considerations"></a>샌드박스 솔루션 고려 사항
   *샌드박스 솔루션* 는 사이트 컬렉션 사용자가 자신의 사용자 지정 코드 솔루션을 업로드할 수 있도록 Microsoft SharePoint 2010의 기능입니다. 일반적인 샌드박스가 적용 된 솔루션은 사용자가 자신의 웹 파트를 업로드 합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "56621697"
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 라고 하는 부울 프로젝트 속성을 통해 샌드 박싱된 솔루션 지원 *샌드박스 솔루션*합니다. 언제 든 지 프로젝트에서이 속성을 설정할 수 있습니다 또는에서 프로젝트를 만들 때 지정할 수 있습니다 합니다 **SharePoint 사용자 지정 마법사**합니다.
 
 > [!NOTE]
->  변경 된 *샌드박스 솔루션* 만들어진 후 프로젝트의 속성 유효성 검사 오류가 발생할 수 있습니다.
+> 변경 된 *샌드박스 솔루션* 만들어진 후 프로젝트의 속성 유효성 검사 오류가 발생할 수 있습니다.
 
  솔루션은 팜 범위 솔루션이 것으로 간주 됩니다는 *샌드박스 솔루션* 속성이로 설정 되어 **false** 선택 하면 또는 **팜 솔루션으로 배포** 옵션. 그러나 솔루션은 다르게 처리 팜 솔루션의 경우는 *샌드박스 솔루션* 속성이 **true** 선택 하면 또는 **샌드박스 솔루션으로 배포** 마법사의 옵션입니다.
 

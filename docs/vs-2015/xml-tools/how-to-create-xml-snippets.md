@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c6e6ec0cb8affbb820886f2bca163aae00d8536f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2c7eecfb6d56d4db378882f6cd45f96454a086dd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101381"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63421730"
 ---
 # <a name="how-to-create-xml-snippets"></a>방법: XML 조각 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ XML 편집기를 사용하여 새 XML 조각을 만들 수 있습니다. 이 편
  `Code` 요소는 조각을 호출할 때 삽입할 XML 텍스트를 정의합니다.  
   
 > [!NOTE]
->  XML 조각 텍스트는 `<![CDATA[...]]>` 섹션에 포함되어야 합니다.  
+> XML 조각 텍스트는 `<![CDATA[...]]>` 섹션에 포함되어야 합니다.  
   
  다음은 상용구 조각으로 만든 `Code` 요소입니다.  
   

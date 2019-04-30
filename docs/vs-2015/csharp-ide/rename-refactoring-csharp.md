@@ -16,12 +16,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 82f3d4a3ae9bc587fef038186afe9faef880571c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 971ca4e94f28016335483a03f4b0121de587f00d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439952"
 ---
 # <a name="rename-refactoring-c"></a>이름 바꾸기 리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60114733"
 **이름 바꾸기** 필드, 지역 변수, 메서드, 네임 스페이스, 속성 및 형식 같은 코드 기호의 식별자 이름을 변경 하는 쉬운 방법을 제공 하는 Visual Studio 통합된 개발 환경 (IDE)의 리팩터링 기능입니다. **이름 바꾸기** 주석에서 문자열의 이름을 변경 하 고 선언 및 호출 식별자를 변경 하려면 사용할 수 있습니다.  
   
 > [!NOTE]
->  Visual Studio에 대 한 소스 제어를 사용 하는 경우 이름 바꾸기 리팩터링을 수행 하려고 하기 전에 최신 버전을의 소스를 가져옵니다.  
+> Visual Studio에 대 한 소스 제어를 사용 하는 경우 이름 바꾸기 리팩터링을 수행 하려고 하기 전에 최신 버전을의 소스를 가져옵니다.  
   
  이름 바꾸기 리팩터링 하는 것은 다음 Visual Studio 기능에서 사용할 수 있습니다.  
   
@@ -116,7 +116,7 @@ ms.locfileid: "60114733"
 2. 선언에 `MethodB`, 형식 또는 메서드 식별자 백스페이스 키입니다. 이 식별자 아래에 스마트 태그 프롬프트가 표시 됩니다.  
   
     > [!NOTE]
-    >  이름 바꾸기 리팩터링 스마트 태그를 사용 하 여 한 식별자 선언에만 호출할 수 있습니다.  
+    > 이름 바꾸기 리팩터링 스마트 태그를 사용 하 여 한 식별자 선언에만 호출할 수 있습니다.  
   
 3. SHIFT + ALT + F10 바로 가기 키를 입력 하 고 스마트 태그 메뉴에 표시할 아래쪽 화살표를 누릅니다.  
   
@@ -144,7 +144,7 @@ ms.locfileid: "60114733"
  하는 경우 **오버 로드를 이름 바꾸기** 을 선택 하면 리팩터링 엔진의 이름을 바꿉니다 `Derived.Method(int i)` 오버 로드 하므로 `Derived.Method()`를 `Base.Method(int i)` 에 의해 재정의 됩니다 `Derived.Method(int i)`, 및 `Base.Method()` 오버 로드 이므로 `Base.Method(int i)`.  
   
 > [!NOTE]
->  참조 된 어셈블리에 정의 된 멤버의 이름을 바꾸면 이름을 변경 하면 빌드 오류가 발생 됩니다 대화 상자를 설명 합니다.  
+> 참조 된 어셈블리에 정의 된 멤버의 이름을 바꾸면 이름을 변경 하면 빌드 오류가 발생 됩니다 대화 상자를 설명 합니다.  
   
 ## <a name="renaming-properties-of-anonymous-types"></a>익명 형식의 속성 이름 바꾸기  
  익명 형식에서 속성의 이름을 바꾸면 이름 바꾸기 작업은 동일한 속성이 있는 다른 익명 형식의 속성에 전파 됩니다. 다음 예제에서는이 동작을 보여 줍니다.  

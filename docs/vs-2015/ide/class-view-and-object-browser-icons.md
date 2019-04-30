@@ -18,12 +18,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7cb80c7ad81708724750660560d65cfef722af86
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: ef14396e681f77eca469f40b2253c8a64296423d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54785051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422834"
 ---
 # <a name="class-view-and-object-browser-icons"></a>클래스 뷰 및 개체 브라우저 아이콘
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "54785051"
 |![클래스 아이콘](../ide/media/vxclass-icon.gif "vxClass_Icon")|클래스|![연산자 기호](../ide/media/vxoperator-icon.gif "vxOperator_Icon")|연산자|  
 |![롤리팝 인터페이스 기호](../ide/media/vxinterface-icon.gif "vxInterface_Icon")|인터페이스|![속성 기호](../ide/media/vxproperty-icon.gif "vxProperty_Icon")|속성|  
 |![구조체 기호](../ide/media/vxstruct-icon.gif "vxStruct_Icon")|구조체|![필드 아이콘](../ide/media/vxfield-icon.gif "vxField_Icon")|필드 또는 변수|  
-|![공용 구조체 기호](../ide/media/vxunion-icon.gif "vxUnion_Icon")|Union|![이벤트 기호](../ide/media/vxevent-icon.gif "vxEvent_Icon")|이벤트|  
+|![공용 구조체 기호](../ide/media/vxunion-icon.gif "vxUnion_Icon")|Union|![이벤트 기호](../ide/media/vxevent-icon.gif "vxEvent_Icon")|이벤트(event)|  
 |![열거형 기호](../ide/media/vxenum-icon.gif "vxEnum_Icon")|Enum|![상수 아이콘](../ide/media/vxconstant-icon.gif "vxConstant_Icon")|상수|  
 |![형식 정의 기호](../ide/media/vxtypedef-icon.gif "vxTypeDef_Icon")|TypeDef|![항목 열거 기호](../ide/media/vxenumitem-icon.gif "vxEnumItem_Icon")|항목 열거|  
 |![Visual Studio 모듈 기호](../ide/media/vxmodule-icon.gif "vxModule_Icon")|Module|![맵 항목 기호](../ide/media/vxmapitem-icon.gif "vxMapItem_Icon")|맵 항목|  
@@ -50,7 +50,7 @@ ms.locfileid: "54785051"
  다음 신호 아이콘은 이전의 모든 아이콘에 적용되며 액세스 가능성을 나타냅니다.  
   
 > [!NOTE]
->  프로젝트가 소스 제어 데이터베이스에 포함되어 있는 경우, 추가 신호 아이콘이 표시되어 체크 인 또는 체크 아웃과 같은 소스 제어 상태를 나타낼 수 있습니다.  
+> 프로젝트가 소스 제어 데이터베이스에 포함되어 있는 경우, 추가 신호 아이콘이 표시되어 체크 인 또는 체크 아웃과 같은 소스 제어 상태를 나타낼 수 있습니다.  
   
 |아이콘|설명|  
 |----------|-----------------|  

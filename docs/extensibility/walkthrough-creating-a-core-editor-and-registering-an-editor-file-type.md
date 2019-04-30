@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dd6514ec43cd3180d808c20d5589bf18e3a9b58b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4aac1298c13cb931eba889e6323faff9b1640f8b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411031"
 ---
 # <a name="walkthrough-create-a-core-editor-and-registering-an-editor-file-type"></a>연습: 핵심 편집기 및 등록 하는 편집기 파일 형식 만들기
 이 연습에는 시작 하는 VSPackage를 만드는 방법을 보여 줍니다 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 핵심 편집기를 사용 하 여 파일을 *.myext* 파일 이름 확장명 로드 됩니다.
@@ -325,7 +325,7 @@ ms.locfileid: "60048207"
 3. 열기는 **VSPackage.resx** 파일, 새 문자열을 추가, 이름으로 설정할 **101**에 값을 설정 하 고 `IDS_EDITORNAME`합니다. 이 단계는 만든 문자열에 액세스 하는 리소스 ID 사용 하 여 패키지를 제공 합니다.
 
    > [!NOTE]
-   >  경우는 **VSPackage.resx** 파일에 다른 문자열입니다 합니다 `name` 특성이로 설정 **101**, 여기에 다음 단계를 다른 숫자를 고유한 값을 대체 합니다.
+   > 경우는 **VSPackage.resx** 파일에 다른 문자열입니다 합니다 `name` 특성이로 설정 **101**, 여기에 다음 단계를 다른 숫자를 고유한 값을 대체 합니다.
 
 4. **솔루션 탐색기**오픈 합니다 **MyPackagePackage.cs** 파일입니다.
 

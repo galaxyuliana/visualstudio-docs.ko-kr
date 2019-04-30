@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f32f710b6e9749628716181ecf309f2520be041d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0f02c4a98920fc575b5ab7c557dd469deb76a586
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427464"
 ---
 # <a name="saving-a-custom-document"></a>사용자 지정 문서 저장
 환경 핸들을 **저장**를 **다른 이름으로 저장**, 및 **모두 저장** 명령입니다. 사용자가 클릭 하면 **저장**, **다른 이름으로 저장**, **또는 모두 저장** 에 **파일** 메뉴 Save All, 다음에 솔루션을 닫습니다 프로세스가 발생합니다.
@@ -39,7 +39,7 @@ ms.locfileid: "60078267"
      사용자 지정 편집기의 경우 문서 데이터 개체 및 프로젝트 간의 통신 비공개입니다. 따라서 이러한 두 개체 간의 특별 한 지 속성 관련 된 고민을 처리 됩니다.
 
     > [!NOTE]
-    >  고유한 지 속성을 구현 하는 경우 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> 시간을 절약 하는 방법입니다. 이 메서드는 파일을 저장 해도 안전 하다 되도록 확인 (예를 들어, 파일 읽기 전용이 아닌지).
+    > 고유한 지 속성을 구현 하는 경우 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> 시간을 절약 하는 방법입니다. 이 메서드는 파일을 저장 해도 안전 하다 되도록 확인 (예를 들어, 파일 읽기 전용이 아닌지).
 
 ## <a name="see-also"></a>참고 항목
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a92554843c1bdde48123515cb2548b2c513ef756
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 84b569a843a3ee414143dbfffb0dba6e881f5567
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418371"
 ---
 # <a name="legacy-language-service-parser-and-scanner"></a>레거시 언어 서비스 파서 및 검사기
 파서가 언어 서비스의 핵심입니다. 관리 패키지 프레임 워크 (MPF) 언어 클래스에 표시 되는 코드에 대 한 정보를 선택 하는 언어 파서가 필요 합니다. 파서를 어휘 토큰으로 텍스트를 구분 하 고 그런 다음 해당 토큰 유형 및 기능을 식별 합니다.
@@ -66,7 +66,7 @@ namespace MyNamespace
  (여기서 토큰 변환할 실행 코드 형태의) 컴파일러의 일부로 사용 되는 파서를 달리 하는 언어 서비스 파서 다양 한 이유로 및 많은 다른 컨텍스트에서 호출할 수 있습니다. 이 접근 방식을 구현 하는 방법을 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 의 메서드는 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스에 게 달려 있습니다. 유의 해야 하는 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 백그라운드 스레드에서 메서드를 호출할 수 있습니다.
 
 > [!CAUTION]
->  합니다 <xref:Microsoft.VisualStudio.Package.ParseRequest> 구조에 대 한 참조를 포함 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 개체입니다. 이 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 백그라운드 스레드에서 개체를 사용할 수 없습니다. 사실, 백그라운드 스레드에서 여러 기본 MPF 클래스를 사용할 수 없습니다. 여기에 포함 된 <xref:Microsoft.VisualStudio.Package.Source>, <xref:Microsoft.VisualStudio.Package.ViewFilter>, <xref:Microsoft.VisualStudio.Package.CodeWindowManager> 클래스 및 뷰를 사용 하 여 직접 또는 간접적으로 통신 하는 다른 클래스.
+> 합니다 <xref:Microsoft.VisualStudio.Package.ParseRequest> 구조에 대 한 참조를 포함 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 개체입니다. 이 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 백그라운드 스레드에서 개체를 사용할 수 없습니다. 사실, 백그라운드 스레드에서 여러 기본 MPF 클래스를 사용할 수 없습니다. 여기에 포함 된 <xref:Microsoft.VisualStudio.Package.Source>, <xref:Microsoft.VisualStudio.Package.ViewFilter>, <xref:Microsoft.VisualStudio.Package.CodeWindowManager> 클래스 및 뷰를 사용 하 여 직접 또는 간접적으로 통신 하는 다른 클래스.
 
  이 파서 일반적으로 구문 분석 하 라고 또는 구문 분석의 값을 설명 하는 경우 전체 원본 파일의 첫 번째 시간 <xref:Microsoft.VisualStudio.Package.ParseReason> 지정 됩니다. 에 대 한 후속 호출을 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 메서드 구문 분석 된 코드의 작은 부분을 처리 하 고 이전 전체 구문 분석 작업의 결과 사용 하 여 훨씬 더 빠르게 실행할 수 있습니다. 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> 메서드를 통해 구문 분석 작업의 결과 통신 합니다 <xref:Microsoft.VisualStudio.Package.AuthoringSink> 및 <xref:Microsoft.VisualStudio.Package.AuthoringScope> 개체입니다. <xref:Microsoft.VisualStudio.Package.AuthoringSink> 개체 특정 이유로 구문 분석에 범위에 대 한 내용은 예를 들어 중괄호 또는 매개 변수 목록에 있는 메서드 시그니처를 일치 하는 정보를 수집를 사용 합니다. 합니다 <xref:Microsoft.VisualStudio.Package.AuthoringScope> 선언 및 메서드 시그니처 및 지원의 컬렉션을 이동 하는 고급 편집 옵션 제공 (**정의로 이동**, **선언으로 이동**, **로 이동 참조**).
 

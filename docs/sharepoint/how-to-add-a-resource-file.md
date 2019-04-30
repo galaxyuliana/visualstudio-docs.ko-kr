@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4c806e2d84973c445c9ab8a6aedb7c4f1fb28354
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e7b8394d0c21ed5a45639e4dad5fe3695aaccc27
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439998"
 ---
 # <a name="how-to-add-a-resource-file"></a>방법: 리소스 파일 추가
   리소스 파일을 추가 하기 위한 명령을 솔루션 노드와 솔루션 탐색기에서 기능 노드의 바로 가기 메뉴를 켜져 있습니다. 자세한 내용은 [지역화 SharePoint 솔루션](../sharepoint/localizing-sharepoint-solutions.md)합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "60075547"
 3. 에 **새 항목 추가** 대화 상자를 선택 합니다 **전역 리소스 파일** 템플릿을 선택한 후는 **추가** 단추.
 
    > [!NOTE]
-   >  전역 리소스 파일 프로젝트 항목 템플릿을 SharePoint 프로젝트 항목을 선택한 경우에 나타납니다.
+   > 전역 리소스 파일 프로젝트 항목 템플릿을 SharePoint 프로젝트 항목을 선택한 경우에 나타납니다.
 
 4. 에 **리소스 추가** 대화 상자에서 문화권을 영어 (미국)와 같은 리소스 파일을 선택 합니다.
 

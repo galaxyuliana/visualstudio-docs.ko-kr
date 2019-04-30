@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 139cdb0314783c76352cc499256fb89610354843
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5c742b4cbbda440ea84314efbc5281e54771fe60
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60083948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427888"
 ---
 # <a name="how-to-add-a-form-region-to-an-outlook-add-in-project"></a>방법: Outlook 추가 기능 프로젝트에 양식 영역 추가
   **새 Outlook 양식 영역** 마법사를 사용하여 표준 또는 사용자 지정 Microsoft Office Outlook 양식을 확장하는 양식 영역을 만듭니다. Visual Studio에서 새 양식 영역을 만들어서 사용자 인터페이스를 디자인하거나 Outlook에서 디자인한 양식 영역을 가져와서 Visual Basic 또는 C# 코드를 추가할 수 있습니다.
@@ -48,7 +48,7 @@ ms.locfileid: "60083948"
 6. **양식 영역을 만드는 방법 선택** 페이지에서 관리되는 컨트롤을 비주얼 디자이너에 끌어 놓고 양식 영역을 디자인할지 또는 Outlook에서 디자인한 양식 영역을 가져올지 선택합니다.
 
     > [!NOTE]
-    >  Outlook에서 디자인 된 양식 영역을 가져오는 경우 Outlook 양식 저장 위치를 지정 해야 합니다 (*.ofs*) 파일입니다. Outlook에서 디자인하는 양식 영역에 관리되는 컨트롤을 추가할 수 없습니다. 코드는 기존 UI 뒤에만 추가할 수 있습니다. 자세한 내용은 [만들 Outlook 양식 영역](../vsto/creating-outlook-form-regions.md)합니다.
+    > Outlook에서 디자인 된 양식 영역을 가져오는 경우 Outlook 양식 저장 위치를 지정 해야 합니다 (*.ofs*) 파일입니다. Outlook에서 디자인하는 양식 영역에 관리되는 컨트롤을 추가할 수 없습니다. 코드는 기존 UI 뒤에만 추가할 수 있습니다. 자세한 내용은 [만들 Outlook 양식 영역](../vsto/creating-outlook-form-regions.md)합니다.
 
 7. **만들 양식 영역 형식 선택** 페이지에서 양식 영역 형식을 검토하고 하나를 선택한 후 **다음**을 클릭합니다. 양식 영역 형식에 대 한 자세한 내용은 참조 하세요. [만들 Outlook 양식 영역](../vsto/creating-outlook-form-regions.md)합니다.
 

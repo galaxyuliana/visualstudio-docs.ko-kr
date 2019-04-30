@@ -10,12 +10,12 @@ ms.assetid: 097c89d0-f76a-4aaf-ada9-9a778bd179a0
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: cd99d223d8071b4f0c10052b0b42c421d2360e2a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a6598e2f1a178845b3ad2017716576439185379e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426443"
 ---
 # <a name="managing-project-loading-in-a-solution"></a>솔루션의 프로젝트 로드 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,7 +65,7 @@ pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority
  솔루션 로드 관리자 일반적으로 로드 하는 솔루션을 관리 되어야 하는 경우에 VSPackage의 일부로 구현할 수 있습니다. 추가 하 여 패키지를 자동 로드로 설정 해야 합니다 <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> 값을 사용 하 여 VSPackage에 <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionOpening_guid>입니다. 솔루션 로드 관리자에서 활성화할 수 있습니다는 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 메서드.  
   
 > [!NOTE]
->  자동 로드 패키지에 대 한 자세한 내용은 참조 하세요. [Vspackage 로드](../extensibility/loading-vspackages.md)합니다.  
+> 자동 로드 패키지에 대 한 자세한 내용은 참조 하세요. [Vspackage 로드](../extensibility/loading-vspackages.md)합니다.  
   
  Visual Studio에서 마지막 솔루션 로드 관리자만 활성화할를 인식 하므로 일반 솔루션 로드 관리자 자체를 활성화 하기 전에 기존 부하 관리자 인지 여부를 탐지 항상 해야 합니다. GetProperty() 솔루션 서비스를 호출 하는 경우 <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4> 반환 `null`, 관리자가 없거나 활성 솔루션 로드 합니다. Null 반환 하지 않으면, 솔루션 로드 관리자로 서 개체가 같은지 여부를 확인 합니다.  
   
@@ -114,4 +114,4 @@ pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution4.EnsureProjectsAreLoaded%2A>:에서 프로젝트를 강제로이 메서드를 호출 `guidProjectID` 메서드가 반환 되기 전에 로드 합니다.  
   
 > [!NOTE]
->  . 기본적으로 요청 하는 프로젝트만 로드 및 이루어지지만 백그라운드 부하 우선 순위 로드 되는 <xref:Microsoft.VisualStudio.Shell.Interop.__VSBSLFLAGS> 플래그는 메서드에 전달 된, 명시적으로 로드 하는 것으로 표시 된 것을 제외한 모든 프로젝트가 로드 됩니다.
+> . 기본적으로 요청 하는 프로젝트만 로드 및 이루어지지만 백그라운드 부하 우선 순위 로드 되는 <xref:Microsoft.VisualStudio.Shell.Interop.__VSBSLFLAGS> 플래그는 메서드에 전달 된, 명시적으로 로드 하는 것으로 표시 된 것을 제외한 모든 프로젝트가 로드 됩니다.

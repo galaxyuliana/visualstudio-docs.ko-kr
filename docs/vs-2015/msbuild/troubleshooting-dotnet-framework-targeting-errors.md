@@ -18,12 +18,12 @@ caps.latest.revision: 32
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 85f57d03ac52562c5cbebc27f410570c03e33d3f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 7795a5577a385542828a3d7c14670696f630544d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430445"
 ---
 # <a name="troubleshooting-net-framework-targeting-errors"></a>.NET Framework 대상 지정 오류 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "59668173"
 ```  
   
 > [!NOTE]
->  프로젝트를 닫았다가 다시 연 후에도 다시 빌드해야 모든 참조가 제대로 확인됩니다.  
+> 프로젝트를 닫았다가 다시 연 후에도 다시 빌드해야 모든 참조가 제대로 확인됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: .NET Framework의 버전 대상](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   

@@ -10,12 +10,12 @@ ms.assetid: d2928498-f27c-46b4-a9cd-cba41fd85a10
 caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c94963b0ebfc6df454870222059a460b2868427d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 58b4350812900bc11e8aaa3222b3b0898db19e13
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440784"
 ---
 # <a name="vspackage-setup-scenarios"></a>VSPackage 설치 시나리오
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,13 +45,13 @@ ms.locfileid: "58986040"
  그림에 표시 된 것과 같이 공유 구성 요소는 항상 설치 Feat_Common 기능의 일부로 수행 됩니다. 만들어 Feat_VS2002 기능과 Feat_VS2003 표시를 사용자가 선택할 수 설치 시의 어떤 버전으로 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 를 통합 하는 VSPackage를 원합니다. 사용자를 추가 하 여 기능에는 경우 추가 또는 제거의 서로 다른 버전의 VSPackage 등록 정보를 제거 합니다. Windows Installer 유지 관리 모드를 이용할 수 있습니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다.  
   
 > [!NOTE]
->  기능의 표시 열을 0으로 설정 숨겨집니다. 예: 1, 낮은 수준 열 값을 항상 설치를 확인 합니다. 자세한 내용은 [installlevel과 속성](http://msdn.microsoft.com/library/aa369536\(VS.85\).aspx) 하 고 [기능 테이블](http://msdn.microsoft.com/library/aa368585.aspx)합니다.  
+> 기능의 표시 열을 0으로 설정 숨겨집니다. 예: 1, 낮은 수준 열 값을 항상 설치를 확인 합니다. 자세한 내용은 [installlevel과 속성](http://msdn.microsoft.com/library/aa369536\(VS.85\).aspx) 하 고 [기능 테이블](http://msdn.microsoft.com/library/aa368585.aspx)합니다.  
   
 ## <a name="scenario-2-shared-vspackage-update"></a>시나리오 2: 공유 VSPackage 업데이트  
  이 시나리오에서 시나리오 1에서에서 VSPackage 설치 관리자의 업데이트 된 버전이 제공 됩니다. 토론을 위해이 업데이트는 지원에 대 한 추가 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], 있지만 간단한 보안 패치 또는 버그 수정을 서비스 팩 수도 있습니다. 최신 구성 요소를 설치 하는 것에 대 한 Windows Installer 규칙 시스템에 이미 변경 되지 않은 구성 요소는 다시 복사 되지 필요 합니다. 이 경우 버전 1.0 이미 시스템과 Comp_MyVSPackage.dll 업데이트 된 구성 요소를 덮어쓰게 Feat_VS2005 Comp_VS2005_Reg 해당 구성 요소를 사용 하 여 새 기능을 추가 하도록 선택할 수 있도록 합니다.  
   
 > [!CAUTION]
->  여러 버전의 VSPackage가 공유 될 때마다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], VSPackage의 후속 릴리스에서 이전 버전과 이전 버전과의 호환성을 유지 관리 하는 반드시 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]입니다. 이전 버전과 호환성을 유지할 수 없는 경우-병렬, 개인 Vspackage를 사용 해야 합니다. 자세한 내용은 [Visual Studio의 여러 버전을 지 원하는](../../extensibility/supporting-multiple-versions-of-visual-studio.md)합니다.  
+> 여러 버전의 VSPackage가 공유 될 때마다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], VSPackage의 후속 릴리스에서 이전 버전과 이전 버전과의 호환성을 유지 관리 하는 반드시 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]입니다. 이전 버전과 호환성을 유지할 수 없는 경우-병렬, 개인 Vspackage를 사용 해야 합니다. 자세한 내용은 [Visual Studio의 여러 버전을 지 원하는](../../extensibility/supporting-multiple-versions-of-visual-studio.md)합니다.  
   
  ![VS 공유 VS 패키지 업데이트 이미지](../../extensibility/internals/media/vs-sharedpackageupdate.gif "VS_SharedPackageUpdate")  
 VSPackage 업데이트 설치 관리자를 공유합니다.  

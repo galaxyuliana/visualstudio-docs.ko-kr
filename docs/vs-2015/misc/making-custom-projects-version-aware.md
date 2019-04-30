@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.assetid: 5233d3ff-6e89-4401-b449-51b4686becca
 caps.latest.revision: 33
 manager: jillfra
-ms.openlocfilehash: 3118ce72cd75baaf15fc66eedc5f2cd48c6f43d6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 10b57508c498607533a9a9b1fbbcf3b15b6f7a4f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422736"
 ---
 # <a name="making-custom-projects-version-aware"></a>사용자 지정 프로젝트의 버전 인식 설정
 사용자 지정 프로젝트 시스템에서 해당 형식의 프로젝트가 여러 버전의 Visual Studio에서 로드되도록 할 수 있습니다. 또한 이전 버전의 Visual Studio에서 해당 형식의 프로젝트를 로드할 수 없도록 방지할 수도 있습니다. 프로젝트를 복구, 변환 또는 사용 중단해야 하는 경우 자신을 이후 버전으로 식별하도록 해당 프로젝트를 설정할 수 있습니다.  
@@ -37,7 +37,7 @@ ms.locfileid: "60096597"
 6. `VSPUVF_PROJECT_DEPRECATED`: 이 프로젝트는 지원 되지 않습니다 나타냅니다.  
   
 > [!NOTE]
->  혼동을 줄 수 있으니 업그레이드 플래그를 설정할 때는 서로 결합하지 마세요. 예를 들어 `VSPUVF_PROJECT_SAFEREPAIR | VSPUVF_PROJECT_DEPRECATED`처럼 모호한 업그레이드 상태를 만들지 마세요.  
+> 혼동을 줄 수 있으니 업그레이드 플래그를 설정할 때는 서로 결합하지 마세요. 예를 들어 `VSPUVF_PROJECT_SAFEREPAIR | VSPUVF_PROJECT_DEPRECATED`처럼 모호한 업그레이드 상태를 만들지 마세요.  
   
  프로젝트 버전을 통해 `UpgradeProjectFlavor_CheckOnly` 인터페이스에서 `IVsProjectFlavorUpgradeViaFactory2` 함수를 구현할 수 있습니다. 이 함수가 작동하게 하려면 앞에서 언급한 `IVsProjectUpgradeViaFactory4.UpgradeProject_CheckOnly` 구현에서 이 함수를 호출해야 합니다. 이 호출은 Visual Basic 또는 C# 기본 프로젝트 시스템에서 이미 구현되어 있습니다. 이 함수를 사용하면 프로젝트 버전을 통해 기본 프로젝트 시스템에서 확인한 사항 및 프로젝트의 업그레이드 요구 사항을 파악할 수 있습니다. 호환성 대화 상자에 가장 중요한 두 가지 요구 사항이 표시됩니다.  
   
@@ -72,7 +72,7 @@ ms.locfileid: "60096597"
      이 코드를 구현하는 경우 프로젝트 호환성 대화 상자가 표시됩니다. 대화 상자에서 사용자에게 지정된 모든 프로젝트를 호환되지 않음으로 표시할 권한이 있는지 묻습니다. 사용자가 동의한 경우 `AskForUserConsentToBreakAssetCompat` 이 `S_OK`를 반환하고 그렇지 않은 경우 `AskForUserConsentToBreakAssetCompat` 은 `OLE_E_PROMPTSAVECANCELLED`를 반환합니다.  
   
     > [!WARNING]
-    >  가장 일반적인 시나리오에서는 `IVsHierarchy` 배열에 항목이 하나만 포함됩니다.  
+    > 가장 일반적인 시나리오에서는 `IVsHierarchy` 배열에 항목이 하나만 포함됩니다.  
   
 3. `AskForUserConsentToBreakAssetCompat` 이 `S_OK`를 반환한 경우 구성 요소는 호환성을 차단하는 변경 내용을 수행하거나 적용합니다.  
   
@@ -98,7 +98,7 @@ ms.locfileid: "60096597"
      자세한 내용은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.SetProperty%2A>을 참조하세요.  
   
 > [!IMPORTANT]
->  프로젝트를 호환됨 또는 호환되지 않음으로 표시하려면 `VSHPROPID_MinimumDesignTimeCompatVersion` 속성을 구현해야 합니다. 예를 들어 프로젝트 시스템에서 MSBuild 프로젝트 파일을 사용하는 경우 프로젝트 파일에 해당 `<MinimumVisualStudioVersion>` 속성 값과 동일한 값을 갖는 `VSHPROPID_MinimumDesignTimeCompatVersion` 빌드 속성을 추가합니다.  
+> 프로젝트를 호환됨 또는 호환되지 않음으로 표시하려면 `VSHPROPID_MinimumDesignTimeCompatVersion` 속성을 구현해야 합니다. 예를 들어 프로젝트 시스템에서 MSBuild 프로젝트 파일을 사용하는 경우 프로젝트 파일에 해당 `<MinimumVisualStudioVersion>` 속성 값과 동일한 값을 갖는 `VSHPROPID_MinimumDesignTimeCompatVersion` 빌드 속성을 추가합니다.  
   
 ## <a name="detecting-whether-a-project-is-incompatible"></a>프로젝트가 호환되지 않는지 확인  
  Visual Studio의 현재 버전과 호환되지 않는 프로젝트는 로드하지 않아야 합니다. 또한 호환되지 않는 프로젝트는 업그레이드하거나 복구할 수 없습니다. 따라서 업그레이드 또는 복구를 고려할 때 한 번, 로드하기 전에 한 번 프로젝트의 호환성을 두 번 확인해야 합니다.  
@@ -129,7 +129,7 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
    `IVsProjectUpgradeViaFactory4` 및 `IVsProjectFlavorUpgradeViaFactory2` 의 새 구현을 사용하면 마이그레이션 형식을 보다 정확하게 지정할 수 있습니다.  
   
 > [!NOTE]
->  `UpgradeProject_CheckOnly` 에 대한 후속 호출에서 사용할 수 있도록 `CreateProject`메서드를 통한 호환성 검사 결과를 캐시할 수 있습니다.  
+> `UpgradeProject_CheckOnly` 에 대한 후속 호출에서 사용할 수 있도록 `CreateProject`메서드를 통한 호환성 검사 결과를 캐시할 수 있습니다.  
   
  예를 들어 `UpgradeProject_CheckOnly` SP1 프로젝트 시스템용으로 작성된 `CreateProject` 및 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 메서드가 프로젝트 파일을 검사하여 `<MinimumVisualStudioVersion>` 빌드 속성이 "11.0"인 것을 발견한 경우 Visual Studio 2010 SP1에서 프로젝트를 로드하지 않습니다. 또한 **솔루션 탐색기** 에 프로젝트가 "호환되지 않음"으로 표시되며 로드되지 않습니다.  
   

@@ -17,12 +17,12 @@ caps.latest.revision: 56
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7a57e7e42e1cfc2690732881e6702315d1b0f4d4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 363a9eda86a55da2dd773a2cef5a40fc53f0a81e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424505"
 ---
 # <a name="uml-class-diagrams-guidelines"></a>UML 클래스 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Visual Studio에서 사용할 수는 *UML 클래스 다이어그램* 데이터 �
  이 기능을 지원하는 Visual Studio 버전을 확인하려면 [아키텍처 및 모델링 도구에 대한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)을 참조하세요.  
   
 > [!NOTE]
->  이 항목에서는 UML 클래스 다이어그램에 대해 설명합니다. 이외에도 프로그램 코드를 시각화하는 데 사용하기 위해 만들 수 있는 다른 종류의 클래스 다이어그램이 있습니다. 참조 [클래스와 형식 디자인 및 보기](http://go.microsoft.com/fwlink/?LinkId=142231)합니다.  
+> 이 항목에서는 UML 클래스 다이어그램에 대해 설명합니다. 이외에도 프로그램 코드를 시각화하는 데 사용하기 위해 만들 수 있는 다른 종류의 클래스 다이어그램이 있습니다. 참조 [클래스와 형식 디자인 및 보기](http://go.microsoft.com/fwlink/?LinkId=142231)합니다.  
   
 ## <a name="Using"></a> UML 클래스 다이어그램 사용  
  다음과 같은 다양한 용도로 UML 클래스 다이어그램을 사용할 수 있습니다.  
@@ -82,7 +82,7 @@ Visual Studio에서 사용할 수는 *UML 클래스 다이어그램* 데이터 �
  UML 클래스 다이어그램의 요소에 대 한 참조 정보를 참조 하세요. [UML 클래스 다이어그램: 참조](../modeling/uml-class-diagrams-reference.md)를 참조하세요.  
   
 > [!NOTE]
->  모델링 다이어그램을 만드는 자세한 단계에 나와 [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
+> 모델링 다이어그램을 만드는 자세한 단계에 나와 [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
   
 #### <a name="to-create-a-uml-class-diagram"></a>UML 클래스 다이어그램을 만들려면  
   
@@ -185,7 +185,7 @@ Visual Studio에서 사용할 수는 *UML 클래스 다이어그램* 데이터 �
   모델에 아직 정의하지 않은 형식의 이름을 작성할 수도 있습니다. 이름 아래에 나열 됩니다 **지정 되지 않은 형식** UML 모델 탐색기에서.  
   
 > [!NOTE]
->  그런 다음 이 이름의 클래스 또는 인터페이스를 모델에 정의하더라도 기존 특성 및 작업에서는 여전히 지정되지 않은 형식의 요소를 참조합니다. 기존 특성 및 작업에서 새 클래스를 참조하도록 변경하려면 각 특성 또는 작업의 드롭다운 메뉴에서 새 클래스를 선택하여 형식을 다시 설정해야 합니다.  
+> 그런 다음 이 이름의 클래스 또는 인터페이스를 모델에 정의하더라도 기존 특성 및 작업에서는 여전히 지정되지 않은 형식의 요소를 참조합니다. 기존 특성 및 작업에서 새 클래스를 참조하도록 변경하려면 각 특성 또는 작업의 드롭다운 메뉴에서 새 클래스를 선택하여 형식을 다시 설정해야 합니다.  
   
 #### <a name="multiple-types"></a>여러 형식  
  특성, 작업 또는 매개 변수 형식의 복합성을 설정할 수 있습니다.  
@@ -273,9 +273,9 @@ visibility operation-name (parameter1 : Type1, ...) : Type
  각 형식은 모델에 정의한 형식, 정수나 문자열 같은 표준 형식 또는 아직 정의하지 않은 새 형식의 이름이 될 수 있습니다.  
   
 > [!NOTE]
->  매개 변수 목록에 형식 없이 이름을 작성하면 매개 변수의 형식 대신 이름을 나타냅니다. 이 예제의 경우 MenuItem과 Integer는 형식이 지정되지 않은 두 매개 변수의 이름이 됩니다.  
+> 매개 변수 목록에 형식 없이 이름을 작성하면 매개 변수의 형식 대신 이름을 나타냅니다. 이 예제의 경우 MenuItem과 Integer는 형식이 지정되지 않은 두 매개 변수의 이름이 됩니다.  
 >   
->  `AddItem(MenuItem, Integer) /* parameter names, not types! */`  
+> `AddItem(MenuItem, Integer) /* parameter names, not types! */`  
   
  시그니처에서 형식의 복합성을 설정하려면 다음 예제와 같이 형식 이름 다음에 대괄호를 사용하여 복합성을 작성합니다.  
   

@@ -12,15 +12,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6bf5d6f31d25d72cd6bc71f9d8b17443b3d8fc8a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 41987007dd5121dff8cce1eb91ea9e1c4d93578c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643732"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63401445"
 ---
 # <a name="idiasymbolgethasseh"></a>IDiaSymbol::get_hasSEH
-함수 하나 포함 되는지 여부를 지정 하는 플래그를 검색 [구조적 예외 처리 (C/c + +)](/cpp/cpp/structured-exception-handling-c-cpp) (예를 들어 __try /\__except 블록).
+함수 하나 포함 되는지 여부를 지정 하는 플래그를 검색 [구조적 예외 처리 (C /C++)](/cpp/cpp/structured-exception-handling-c-cpp) (예를 들어 __try /\__except 블록).
 
 ## <a name="syntax"></a>구문
 
@@ -39,7 +39,7 @@ HRESULT get_hasSEH(
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
 ## <a name="requirements"></a>요구 사항
 

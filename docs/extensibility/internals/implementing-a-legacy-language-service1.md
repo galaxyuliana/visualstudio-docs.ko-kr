@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 88db1e11286c022552419fa70bb6847d36035c36
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 2fe405ea62562a9e7eb90948d92fcd5075887c8d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420491"
 ---
 # <a name="implementing-a-legacy-language-service"></a>레거시 언어 서비스 구현
 구문 강조, 중괄호 일치 및 IntelliSense 완성 등 다양 한 기능을 지 원하는 레거시 언어 서비스를 구현 하려면 클래스 (MPF) 관리 되는 패키지 프레임 워크에서를 사용할 수 있습니다.
@@ -23,7 +23,7 @@ ms.locfileid: "56602860"
  레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 언어 서비스를 구현 하는 새로운 방법에 대 한 자세한 내용을 참조 하세요 [편집기 및 언어 서비스 확장](../../extensibility/editor-and-language-service-extensions.md)합니다.
 
 > [!NOTE]
->  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
+> 편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
 
 ## <a name="in-this-section"></a>섹션 내용
 - [레거시 언어 서비스 개요](../../extensibility/internals/legacy-language-service-overview.md)
@@ -46,7 +46,7 @@ ms.locfileid: "56602860"
 
  Vspackage에서는 MPF 언어 서비스를 구현 하는 데 필요한 기본 단계를 제공 합니다.
 
-- [연습: 설치 된 코드 조각 (레거시 구현) 목록 가져오기](../../extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md)
+- [연습: 설치된 코드 조각 목록 가져오기(레거시 구현)](../../extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md)
 
  설치 된 코드 조각의 목록을 검색 하는 기술을 보여 줍니다.
 

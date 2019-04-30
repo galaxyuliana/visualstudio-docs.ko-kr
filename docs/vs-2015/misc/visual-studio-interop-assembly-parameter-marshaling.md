@@ -11,12 +11,12 @@ helpviewer_keywords:
 ms.assetid: 89123eae-0fef-46d5-bd36-3d2a166b14e3
 caps.latest.revision: 24
 manager: jillfra
-ms.openlocfilehash: 209f5956d77e714f7f663693f9ac22241d428480
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b0ad8fce0fc582b42cc64944677f7b680aa96541
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436518"
 ---
 # <a name="visual-studio-interop-assembly-parameter-marshaling"></a>Visual Studio Interop 어셈블리 매개 변수 마샬링
 관리 코드에서 기록 되는 Vspackage를 호출 하거나 관리 되지 않는 COM 코드에서 호출 해야 합니다. 일반적으로 메서드 인수를 변환 또는 자동으로 interop 마샬러가 마샬링됩니다. 그러나 경우에 따라 인수 변환할 수 없는 간단한 방식입니다. 이러한 경우 interop 어셈블리 메서드 프로토타입 매개 변수는 COM 함수 매개 변수를 최대한 가깝게 일치 하도록 사용 됩니다. 자세한 내용은 [Interop 마샬링](http://msdn.microsoft.com/library/115f7a2f-d422-4605-ab36-13a8dd28142a)합니다.  
@@ -46,7 +46,7 @@ ms.locfileid: "60105070"
  COM 인터페이스를 생성 하는 경우에 따라 프로그램 `IUnknown` 개체 및 COM 인터페이스를 전달 형식으로 `void **`입니다. 이러한 인터페이스는 특히 중요 하기 때문에 변수의로 정의 된 경우 [out]의 IDL에 해당 `IUnknown` 개체가 사용 하 여 참조 횟수가 계산는 `AddRef` 메서드. 메모리 누수 개체가 제대로 처리 되지 않은 경우 발생 합니다.  
   
 > [!NOTE]
->  `IUnknown` COM 인터페이스에 의해 생성 되 고 [out] 변수에 반환 개체는 명시적으로 해제 되지 않습니다 하는 경우 메모리 누수가 발생 합니다.  
+> `IUnknown` COM 인터페이스에 의해 생성 되 고 [out] 변수에 반환 개체는 명시적으로 해제 되지 않습니다 하는 경우 메모리 누수가 발생 합니다.  
   
  이러한 개체를 처리 하는 관리 되는 메서드를 처리 해야 <xref:System.IntPtr> 포인터로 `IUnknown` 개체를 호출 합니다 <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> 개체를 가져오는 방법입니다. 호출자에 게 적합 한 형식에 관계 없이 반환 값을 캐스팅 한 다음 해야 합니다. 개체가 더 이상 필요 하면 호출 <xref:System.Runtime.InteropServices.Marshal.Release%2A> 해제 합니다.  
   
@@ -77,7 +77,7 @@ else
 ```  
   
 > [!NOTE]
->  다음 방법 전달할 알려져 `IUnknown` 형식으로 포인터를 개체 <xref:System.IntPtr>합니다. 이 섹션에 설명 된 대로 처리 합니다.  
+> 다음 방법 전달할 알려져 `IUnknown` 형식으로 포인터를 개체 <xref:System.IntPtr>합니다. 이 섹션에 설명 된 대로 처리 합니다.  
   
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A>  
   

@@ -12,18 +12,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fefbbbced72a53566ffb726c9ea900e037ee4639
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 3ac97d97c17bd09882bc347116c2aec44db3f28a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56719342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63413369"
 ---
 # <a name="idebugprocess3continue"></a>IDebugProcess3::Continue
 계속 중지 된 상태에서이 프로세스를 실행 합니다. 이전 실행 상태 (예: 단계)은 유지, 프로세스를 다시 실행을 시작 합니다.
 
 > [!NOTE]
->  이 메서드를 대신 사용 해야 [계속](../../../extensibility/debugger/reference/idebugprogram2-continue.md)합니다.
+> 이 메서드를 대신 사용 해야 [계속](../../../extensibility/debugger/reference/idebugprogram2-continue.md)합니다.
 
 ## <a name="syntax"></a>구문
 

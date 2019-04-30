@@ -14,18 +14,18 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6b6ee9413a2394d0477cd1c7b1a0caf83dd6ad6d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: d6cb4a3beb12d2b33b8b13441df66116fe449d09
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431154"
 ---
 # <a name="creating-and-managing-databases-and-data-tier-applications-in-visual-studio"></a>데이터베이스 및 Visual Studio에서 데이터 계층 응용 프로그램 만들기 및 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 중요]
->  이전 버전에 포함 된 데이터베이스 프로젝트 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 지금 나와 [!INCLUDE[sql_Denali_long](../includes/sql-denali-long-md.md)] 도구입니다. 자세한 내용은 [SQL Server Developer Tools](http://go.microsoft.com/fwlink/?LinkId=228126)합니다.
+> 이전 버전에 포함 된 데이터베이스 프로젝트 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 지금 나와 [!INCLUDE[sql_Denali_long](../includes/sql-denali-long-md.md)] 도구입니다. 자세한 내용은 [SQL Server Developer Tools](http://go.microsoft.com/fwlink/?LinkId=228126)합니다.
 
  데이터베이스 프로젝트를 사용 하 여 새 데이터베이스를 만들 새 데이터 계층 응용 프로그램 (Dac)을 기존 데이터베이스 및 데이터 계층 응용 프로그램을 업데이트 합니다. 데이터베이스 프로젝트와 DAC 프로젝트 관리 또는 네이티브 코드에 이러한 기술을 적용 하는 동일한 방식에서 버전 제어 및 프로젝트 관리 기술을 데이터베이스 개발 작업에 적용할 수 있습니다. 개발 팀을 만들어 데이터베이스 및 데이터베이스 서버에 변경 내용 관리를 수 있습니다는 *DAC 프로젝트로*, *데이터베이스 프로젝트*, 또는 *서버 프로젝트* 및 버전 제어 합니다. 팀의 멤버 수 다음 파일을 체크 아웃 확인, 빌드 및에서 변경 내용을 테스트 하는 *격리 된 개발 환경*, 또는 샌드박스, 팀과 공유 하기 전에 합니다. 을 코드 품질을 보장 하기 위해 팀 완료 하 고 변경 내용을 프로덕션에 배포 하기 전에 데이터베이스의 특정 릴리스에 대 한 모든 변경 내용을 스테이징 환경에서 테스트할 수 있습니다.
 

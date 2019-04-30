@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: c8b84e16ec3a1905866add7bd62962501b32cc46
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4fdeef3a21407b4473ed412019e936d7b30389c5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60038105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402888"
 ---
 # <a name="add-validation-to-an-n-tier-dataset"></a>n 계층 데이터 세트에 유효성 검사 추가
 N 계층 솔루션을으로 분리 되어 있는 데이터 집합에 유효성 검사 추가 기본적으로 단일 파일 (단일 프로젝트에서 데이터 집합) 데이터 집합에 유효성 검사와 동일 합니다. 데이터 유효성 검사를 수행 하기 위한 권장된 위치 중인지 합니다 <xref:System.Data.DataTable.ColumnChanging> 및/또는 <xref:System.Data.DataTable.RowChanging> 데이터 테이블의 이벤트입니다.
@@ -28,10 +28,10 @@ N 계층 솔루션을으로 분리 되어 있는 데이터 집합에 유효성 �
  데이터 집합을 데이터 집합에 있는 데이터 테이블의 열 및 행 변경 이벤트에 사용자 코드를 추가할 수 있습니다 하는 partial 클래스를 생성 하는 기능을 제공 합니다. N 계층 솔루션에서 데이터 집합에 코드를 추가 하는 방법에 대 한 자세한 내용은 참조 하세요. [n 계층 응용 프로그램에서 데이터 집합에 코드를 추가](../data-tools/add-code-to-datasets-in-n-tier-applications.md), 및 [n 계층 응용 프로그램에서 Tableadapter에 코드를 추가](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)합니다. Partial 클래스에 대 한 자세한 내용은 참조 하세요. [방법: 클래스 (클래스 디자이너) 클래스를 부분 클래스로 분할](../ide/class-designer/how-to-split-a-class-into-partial-classes.md) 나 [Partial 클래스 및 메서드](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)합니다.
 
 > [!NOTE]
->  데이터 집합에서 TableAdapters 분리할 때는 (설정 하 여 합니다 **데이터 집합 프로젝트** 속성), 프로젝트의 기존 부분 데이터 집합 클래스를 자동으로 이동할 수 없습니다. 기존 부분 데이터 집합 클래스는 데이터 집합 프로젝트에 수동으로 이동 해야 합니다.
+> 데이터 집합에서 TableAdapters 분리할 때는 (설정 하 여 합니다 **데이터 집합 프로젝트** 속성), 프로젝트의 기존 부분 데이터 집합 클래스를 자동으로 이동할 수 없습니다. 기존 부분 데이터 집합 클래스는 데이터 집합 프로젝트에 수동으로 이동 해야 합니다.
 
 > [!NOTE]
->  데이터 집합 디자이너 자동으로 만들지 않으므로 이벤트 처리기에 대 한 C#의 <xref:System.Data.DataTable.ColumnChanging> 및 <xref:System.Data.DataTable.RowChanging> 이벤트입니다. 수동으로 이벤트 처리기를 만들고 기본 이벤트에 이벤트 처리기를 연결 해야 합니다. 다음 절차에서는 Visual Basic 및 C#에서 필요한 이벤트 처리기를 만들어야 하는 방법에 설명 합니다.
+> 데이터 집합 디자이너 자동으로 만들지 않으므로 이벤트 처리기에 대 한 C#의 <xref:System.Data.DataTable.ColumnChanging> 및 <xref:System.Data.DataTable.RowChanging> 이벤트입니다. 수동으로 이벤트 처리기를 만들고 기본 이벤트에 이벤트 처리기를 연결 해야 합니다. 다음 절차에서는 Visual Basic 및 C#에서 필요한 이벤트 처리기를 만들어야 하는 방법에 설명 합니다.
 
 ## <a name="validate-changes-to-individual-columns"></a>개별 열에 대 한 변경 내용 유효성 검사
  처리 하 여 개별 열의 값을 유효성 검사는 <xref:System.Data.DataTable.ColumnChanging> 이벤트입니다. <xref:System.Data.DataTable.ColumnChanging> 열에 값을 수정할 때 이벤트가 발생 합니다. 이벤트 처리기를 만들 합니다 <xref:System.Data.DataTable.ColumnChanging> 원하는 열을 두 번 클릭 하 여 이벤트를 **데이터 집합 디자이너**합니다.
@@ -47,7 +47,7 @@ End Sub
 ```
 
 > [!NOTE]
->  C# 프로젝트에서 데이터 집합 디자이너만 데이터 집합 및 데이터 집합의 개별 테이블에 대해 partial 클래스를 만듭니다. 데이터 집합 디자이너가에 대 한 이벤트 처리기에 자동으로 만들지 않으므로 합니다 <xref:System.Data.DataTable.ColumnChanging> 및 <xref:System.Data.DataTable.RowChanging> C# Visual Basic에서와 같은 이벤트입니다. C# 프로젝트에서 이벤트를 처리 하 고 메서드는 기본 이벤트를 후크 하는 메서드를 수동으로 구성 해야 합니다. 다음 절차에는 Visual Basic 및 C#에서 필요한 이벤트 처리기를 만드는 단계를 제공 합니다.
+> C# 프로젝트에서 데이터 집합 디자이너만 데이터 집합 및 데이터 집합의 개별 테이블에 대해 partial 클래스를 만듭니다. 데이터 집합 디자이너가에 대 한 이벤트 처리기에 자동으로 만들지 않으므로 합니다 <xref:System.Data.DataTable.ColumnChanging> 및 <xref:System.Data.DataTable.RowChanging> C# Visual Basic에서와 같은 이벤트입니다. C# 프로젝트에서 이벤트를 처리 하 고 메서드는 기본 이벤트를 후크 하는 메서드를 수동으로 구성 해야 합니다. 다음 절차에는 Visual Basic 및 C#에서 필요한 이벤트 처리기를 만드는 단계를 제공 합니다.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
@@ -58,7 +58,7 @@ End Sub
 2. 유효성을 검사 하려는 열을 두 번 클릭 합니다. 이 작업은 만듭니다는 <xref:System.Data.DataTable.ColumnChanging> 이벤트 처리기입니다.
 
     > [!NOTE]
-    >  데이터 집합 디자이너를 자동으로 C# 이벤트에 대 한 이벤트 처리기를 만들지 않습니다. C#에서 이벤트를 처리 하는 데 필요한 코드는 다음 섹션에 포함 됩니다. `SampleColumnChangingEvent` 생성 되 고 그런 다음 최대 연결 합니다 <xref:System.Data.DataTable.ColumnChanging> 이벤트에는 <xref:System.Data.DataTable.EndInit%2A> 메서드.
+    > 데이터 집합 디자이너를 자동으로 C# 이벤트에 대 한 이벤트 처리기를 만들지 않습니다. C#에서 이벤트를 처리 하는 데 필요한 코드는 다음 섹션에 포함 됩니다. `SampleColumnChangingEvent` 생성 되 고 그런 다음 최대 연결 합니다 <xref:System.Data.DataTable.ColumnChanging> 이벤트에는 <xref:System.Data.DataTable.EndInit%2A> 메서드.
 
 3. 확인 코드를 추가 `e.ProposedValue` 응용 프로그램의 요구 사항을 충족 하는 데이터를 포함 합니다. 제안 된 값을 수용할 수 없으면 오류가 있음을 나타내도록 열을 설정 합니다.
 
@@ -117,7 +117,7 @@ End Sub
      부분 클래스를 사용 하 여 만들는 `RowChanging` 이벤트 처리기 및 코드 편집기에서 열립니다.
 
     > [!NOTE]
-    >  데이터 집합 디자이너를 자동으로 만들어지지는지 않습니다에 대 한 이벤트 처리기는 <xref:System.Data.DataTable.RowChanging> C# 프로젝트에서 이벤트입니다. 처리 하는 메서드를 만들어야 합니다 <xref:System.Data.DataTable.RowChanging> 이벤트 및 테이블의 초기화 메서드에서 이벤트를 후크 다음 코드를 실행된 합니다.
+    > 데이터 집합 디자이너를 자동으로 만들어지지는지 않습니다에 대 한 이벤트 처리기는 <xref:System.Data.DataTable.RowChanging> C# 프로젝트에서 이벤트입니다. 처리 하는 메서드를 만들어야 합니다 <xref:System.Data.DataTable.RowChanging> 이벤트 및 테이블의 초기화 메서드에서 이벤트를 후크 다음 코드를 실행된 합니다.
 
 3. Partial 클래스 선언 내에서 사용자 코드를 추가 합니다.
 

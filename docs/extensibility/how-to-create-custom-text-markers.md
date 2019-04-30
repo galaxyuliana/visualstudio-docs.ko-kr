@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cf0462b4d6aac29c87d71506e3a535f21e2b91a7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 717badcc52088568ae348dbb1b712b2202cc7a72
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415554"
 ---
 # <a name="how-to-create-custom-text-markers"></a>방법: 사용자 지정 텍스트 표식 만들기
 강조 하거나 코드를 구성할 사용자 지정 텍스트 마커를 만들려는 경우 다음 단계를 수행 해야 합니다.
@@ -41,7 +41,7 @@ ms.locfileid: "60103406"
     `<PackageGUID>` VSPackage의 GUID는 자동화 개체를 구현 합니다.
 
    > [!NOTE]
-   >  루트 경로의 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<버전 >** 자세한 내용은 Visual Studio 셸이 초기화 될 때를 대체 루트로 재정의할 수 있습니다 [명령줄 스위치](../extensibility/command-line-switches-visual-studio-sdk.md)합니다.
+   > 루트 경로의 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<버전 >** 자세한 내용은 Visual Studio 셸이 초기화 될 때를 대체 루트로 재정의할 수 있습니다 [명령줄 스위치](../extensibility/command-line-switches-visual-studio-sdk.md)합니다.
 
 2. 아래 4 개의 값을 만듭니다 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<버전 > \Text Editor\External 표식\\\<MarkerGUID >**
 

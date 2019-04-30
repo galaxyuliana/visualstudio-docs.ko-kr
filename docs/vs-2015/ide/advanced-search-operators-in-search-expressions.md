@@ -16,12 +16,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9c2b8df3878f67207b22127881722aedd8caae8e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 6befa20bcda7f30896fb2b04fadefb0eb5f21f8d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54775576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408401"
 ---
 # <a name="advanced-search-operators-in-search-expressions"></a>검색 식의 고급 검색 연산자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,9 +29,9 @@ ms.locfileid: "54775576"
 고급 검색 연산자를 사용 하 여 간단한에서 더 복잡 한 검색 식을 만들어 콘텐츠 검색을 구체화할 수 있습니다. 다음 표와 같이 이러한 연산자는 쿼리가 실행되는 컨텍스트를 제한합니다.  
   
 > [!WARNING]
->  검색 엔진이 이러한 연산자를 인식하려면 고급 검색 연산자 뒤에 불필요한 공백 없이 마지막으로 콜론을 입력해야 합니다.  
+> 검색 엔진이 이러한 연산자를 인식하려면 고급 검색 연산자 뒤에 불필요한 공백 없이 마지막으로 콜론을 입력해야 합니다.  
   
-|검색 대상|사용|예|결과|  
+|검색 대상|사용|예제|결과|  
 |-------------------|---------|-------------|------------|  
 |항목 제목의 용어|title:|title:binaryreader|제목에 “binaryreader”가 포함된 항목입니다.|  
 |코드 예제의 용어|code:|code:readdouble|코드 예제에 “readdouble”이 포함된 항목입니다.|  
@@ -43,7 +43,7 @@ ms.locfileid: "54775576"
 |프로그래밍 언어|사용|  
 |--------------------------|---------|  
 |Visual Basic|code:vb<br /><br /> 또는<br /><br /> code:visualbasic|  
-|C#|code:C#<br /><br /> 또는<br /><br /> code:csharp|  
+|C#|code:c#<br /><br /> 또는<br /><br /> code:csharp|  
 |C++|code:cpp<br /><br /> 또는<br /><br /> code:c++<br /><br /> 또는<br /><br /> code:cplusplus|  
 |F#|code:f#<br /><br /> 또는<br /><br /> code:fsharp|  
 |JavaScript|code:javascript<br /><br /> 또는<br /><br /> code:js|  

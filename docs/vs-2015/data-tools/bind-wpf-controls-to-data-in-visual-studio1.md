@@ -22,12 +22,12 @@ caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3546da7508767c6766b2caa0c96e6238f4cc6e90
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 16a3868f564f39d4908adf74a6b1a44ae83ebc9d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437054"
 ---
 # <a name="bind-wpf-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -98,7 +98,7 @@ ms.locfileid: "60039020"
  개체 또는 속성을 끌면 합니다 **데이터 원본** 창에서 디자이너로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 생성 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 는 데이터 바인딩된 컨트롤을 만듭니다 (또는 기존 컨트롤을 개체나 속성에 바인딩하). 그러나 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 프록시 서비스 개체를 데이터로 채우는 코드를 생성하지 않기 때문에 이 코드를 직접 작성해야 합니다.
 
 > [!NOTE]
->  사용자 지정 클래스는 public 이어야 하며, 기본적으로 매개 변수 없는 생성자가 합니다. 구문의 "점"에 있는 중첩 된 클래스 수 없습니다. 자세한 내용은 [XAML 및 WPF에 대 한 사용자 지정 클래스](http://msdn.microsoft.com/library/e7313137-581e-4a64-8453-d44e15a6164a)합니다.
+> 사용자 지정 클래스는 public 이어야 하며, 기본적으로 매개 변수 없는 생성자가 합니다. 구문의 "점"에 있는 중첩 된 클래스 수 없습니다. 자세한 내용은 [XAML 및 WPF에 대 한 사용자 지정 클래스](http://msdn.microsoft.com/library/e7313137-581e-4a64-8453-d44e15a6164a)합니다.
 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 생성 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 다음을 수행 하는:
 

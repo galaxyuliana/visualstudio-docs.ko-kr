@@ -11,12 +11,12 @@ caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0f814623d8084619ccbe82d6660900055f81b3ef
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2399ff36639732f20babef368a1d9e2f6758a1c4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437881"
 ---
 # <a name="msbuild-properties1"></a>MSBuild Properties1
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ ms.locfileid: "60101186"
  생성된 도구 내에서 환경 변수의 현재 값을 가져오려면 [속성 함수](../msbuild/property-functions.md) System.Environment.GetEnvironmentVariable을 사용합니다. 그러나 작업 매개 변수 <xref:Microsoft.Build.Utilities.ToolTask.EnvironmentVariables%2A>를 사용하는 메서드가 좋습니다. 이 문자열 배열에 설정된 환경 속성은 시스템 환경 변수에 영향을 주지 않고 생성된 도구에 전달할 수 있습니다.  
   
 > [!TIP]
->  모든 환경 변수가 읽어들여져 초기 속성이 되는 것은 아닙니다. "386" 같은 유효한 MSBuild 속성 이름이 아닌 모든 환경 변수는 무시됩니다.  
+> 모든 환경 변수가 읽어들여져 초기 속성이 되는 것은 아닙니다. "386" 같은 유효한 MSBuild 속성 이름이 아닌 모든 환경 변수는 무시됩니다.  
   
  자세한 내용은 [방법: 환경 변수를 사용 하 여 빌드에서](../msbuild/how-to-use-environment-variables-in-a-build.md)합니다.  
   

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 179192e5935f3a97f38dc3a1b78dd1bd760c303d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 3ecbed7e1f57150e798818c24cb36a1de24e58aa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56636785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63423821"
 ---
 # <a name="project-configuration-for-building"></a>빌드를 위한 프로젝트 구성
 지정된 된 솔루션에 솔루션 구성 목록은 솔루션 구성 대화 상자에서 관리 됩니다.
@@ -26,7 +26,7 @@ ms.locfileid: "56636785"
  사용자가 만든 MyConfig2 이라는 새 솔루션 구성을 Project1는 기본적으로 디버그 구성을 솔루션 구성에 바인딩합니다. 또한 Project2 기본적으로 해당 MyConfig2 구성을 솔루션 구성에 바인딩합니다.
 
 > [!NOTE]
->  바인딩은 대/소문자입니다.
+> 바인딩은 대/소문자입니다.
 
  사용자가 선택 하는 경우는 **다중 선택** 항목 환경 구성 드롭다운 목록에서 사용 가능한 구성의 목록을 제공 하는 대화 상자를 표시 합니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "56636785"
  프로젝트 종속성 프로젝트는 빌드 순서를 결정 합니다. 솔루션 내의 프로젝트 빌드는 및 빌드 순서를 수정 하려면 종속성 탭을 사용 하 여 정확한 순서를 확인 대화 상자에서 빌드 순서 탭을 사용 합니다.
 
 > [!NOTE]
->  확인란이 선택 되어 있지만 흐리게 표시 되 면 목록에서 프로젝트를 지정 하는 명시적 종속성으로 인해 환경에서 추가한 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildDependency> 또는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployDependency> , 인터페이스 및 변경할 수 없습니다. 예를 들어에서 프로젝트 참조에 추가 된 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 다른 프로젝트에 프로젝트 참조를 삭제 하 여만 제거할 수 있는 빌드 종속성이 자동으로 추가 합니다. 이렇게 종속성 루프를 만들 것 때문에 해당 확인란의 선택을 취소 되며 흐리게 표시 되 면 프로젝트를 선택할 수 없습니다 (예를 들어 Project1 Project2에 종속 됩니다 및 Project2 Project1에 종속 됩니다.)는 빌드가 중단 됩니다.
+> 확인란이 선택 되어 있지만 흐리게 표시 되 면 목록에서 프로젝트를 지정 하는 명시적 종속성으로 인해 환경에서 추가한 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildDependency> 또는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployDependency> , 인터페이스 및 변경할 수 없습니다. 예를 들어에서 프로젝트 참조에 추가 된 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 다른 프로젝트에 프로젝트 참조를 삭제 하 여만 제거할 수 있는 빌드 종속성이 자동으로 추가 합니다. 이렇게 종속성 루프를 만들 것 때문에 해당 확인란의 선택을 취소 되며 흐리게 표시 되 면 프로젝트를 선택할 수 없습니다 (예를 들어 Project1 Project2에 종속 됩니다 및 Project2 Project1에 종속 됩니다.)는 빌드가 중단 됩니다.
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 빌드 프로세스는 일반적인 컴파일 및 단일 빌드 명령을 사용 하 여 호출 되는 링크 작업을 포함 합니다. 다른 두 개의 빌드 프로세스 지원 될 수 있습니다: 이전 빌드 및 구성의 출력 항목 변경 되었는지 여부를 확인 하려면 최신 검사에서 모든 출력 항목을 삭제할 정리 작업을 합니다.
 

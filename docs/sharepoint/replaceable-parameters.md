@@ -14,12 +14,12 @@ author: John-Hart
 ms.author: johnhart
 manager: jillfra
 ms.workload: office
-ms.openlocfilehash: d85e125ee09d459d23b3b709f58d5af43e76e984
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 165ef1256a0150e0942d85c4f876c8b3f5e15c72
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56611869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422910"
 ---
 # <a name="replaceable-parameters"></a>대체 가능 매개 변수
   대체 가능 매개 변수 또는 *토큰*, 실제 값을 갖는 디자인 타임에 알려지지 않은 SharePoint 솔루션 항목에 대 한 값을 제공 하려면 프로젝트 파일 내에서 사용할 수 있습니다. 표준 비슷합니다 함수에서 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 템플릿 토큰입니다. 자세한 내용은 [템플릿 매개 변수](../ide/template-parameters.md)합니다.
@@ -86,7 +86,7 @@ ms.locfileid: "56611869"
   그러나 목록에 추가 파일 확장명을 추가할 수 있습니다. 추가 된 `<TokenReplacementFileExtensions>` 앞에 정의 된 SharePoint 프로젝트 파일에서 모든 PropertyGroup 요소는 \<가져오기 > SharePoint 대상 파일의 합니다.
 
 > [!NOTE]
->  토큰 교체는 프로젝트를 컴파일한 후 발생 때문에 컴파일되는와 같은 파일 형식의 파일 확장명에 추가 해서는 안 *.cs*를 *.vb* 하거나 *.resx*합니다. 토큰은 컴파일되지 않는 파일에만 대체 됩니다.
+> 토큰 교체는 프로젝트를 컴파일한 후 발생 때문에 컴파일되는와 같은 파일 형식의 파일 확장명에 추가 해서는 안 *.cs*를 *.vb* 하거나 *.resx*합니다. 토큰은 컴파일되지 않는 파일에만 대체 됩니다.
 
  예를 들어, 파일 이름 확장명을 추가 하려면 (*.myextension* 하 고 *.yourextension*) 토큰 대체 파일 이름 확장명의 목록에 추가한 다음 프로젝트에 (*.csproj* ) 파일:
 

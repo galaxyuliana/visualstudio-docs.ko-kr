@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b68884d5cf5b6603d3b0ecdb9885e3466859001b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ed5c5e5b03ce7ee0ffbd361b896f288f6b93a806
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438495"
 ---
 # <a name="walkthrough-create-your-first-vsto-add-in-for-word"></a>연습: Word 용 첫 VSTO 추가 기능에 만들기
   이 소개용 연습에서는 Microsoft Office Word용 VSTO 추가 기능을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 열려 있는 문서에 관계없이 응용 프로그램 자체에서 사용할 수 있습니다.
@@ -83,7 +83,7 @@ ms.locfileid: "60079294"
     [!code-csharp[Trin_WordAddInTutorial#1](../vsto/codesnippet/CSharp/FirstWordAddIn/ThisAddIn.cs#1)]
 
    > [!NOTE]
-   >  이 코드는 인덱스 값 1을 사용하여 <xref:Microsoft.Office.Interop.Word._Document.Paragraphs%2A> 컬렉션의 첫 번째 단락에 액세스합니다. Visual Basic 및 Visual C#은 0부터 시작하는 배열을 사용하지만 Word 개체 모델에서 대다수 컬렉션의 배열 하한은 1입니다. 자세한 내용은 [Office 솔루션에서 코드를 작성할](../vsto/writing-code-in-office-solutions.md)합니다.
+   > 이 코드는 인덱스 값 1을 사용하여 <xref:Microsoft.Office.Interop.Word._Document.Paragraphs%2A> 컬렉션의 첫 번째 단락에 액세스합니다. Visual Basic 및 Visual C#은 0부터 시작하는 배열을 사용하지만 Word 개체 모델에서 대다수 컬렉션의 배열 하한은 1입니다. 자세한 내용은 [Office 솔루션에서 코드를 작성할](../vsto/writing-code-in-office-solutions.md)합니다.
 
 2. C#을 사용하는 경우 필요한 다음 코드를 `ThisAddIn_Startup` 이벤트 처리기에 추가합니다. 이 코드는 `Application_DocumentBeforeSave` 이벤트 처리기를 <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentBeforeSave> 이벤트와 연결하는 데 사용됩니다.
 

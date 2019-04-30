@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 26136955a8956006a5c6795d5fc28ea9079f3efb
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: a272476abec316eeb7d919993ca540b135680b87
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56693427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63413995"
 ---
 # <a name="idebugcoreserver3getservername"></a>IDebugCoreServer3::GetServerName
 서버의 이름을 검색합니다.
@@ -42,7 +42,7 @@ int GetServerName(
  [out] 서버의 이름을 반환합니다.
 
 > [!NOTE]
->  호출자는 문자열을 해제 하는 일을 담당 합니다.
+> 호출자는 문자열을 해제 하는 일을 담당 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

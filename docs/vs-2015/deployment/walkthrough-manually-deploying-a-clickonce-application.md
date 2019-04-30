@@ -21,12 +21,12 @@ caps.latest.revision: 51
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: df11af5dee9ce510af01dab037a47a1bdd2f2880
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: baa62dc48b329cd3639c0623fccfdbe2325cf9e3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429131"
 ---
 # <a name="walkthrough-manually-deploying-a-clickonce-application"></a>연습: 수동으로 ClickOnce 애플리케이션 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ ms.locfileid: "60082206"
      Authenticode 인증서를 사용 하 여 배포에 서명 해야 합니다. Visual Studio, MageUI.exe 또는 MakeCert.exe 및 Pvk2Pfx.exe 도구를 사용 하 여 테스트 인증서를 생성할 수 있습니다 또는 인증 기관 (CA)에서 인증서를 가져올 수 있습니다. 신뢰할 수 있는 응용 프로그램 배포를 사용 하려는 경우에 모든 클라이언트 컴퓨터에 인증서를 일회성 설치를 수행 해야 합니다. 자세한 내용은 [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)을 참조하십시오.  
   
     > [!NOTE]
-    >  인증 기관에서 얻을 수 있는 CNG 인증서를 사용 하 여 배포에 서명할 수도 있습니다.  
+    > 인증 기관에서 얻을 수 있는 CNG 인증서를 사용 하 여 배포에 서명할 수도 있습니다.  
   
 - 응용 프로그램을 매니페스트에 UAC 정보를 사용 하 여이 있는지 확인 합니다.  
   
@@ -76,7 +76,7 @@ ms.locfileid: "60082206"
 2. 방금 만든 배포 디렉터리에서 버전 하위 디렉터리를 만듭니다. 처음으로 응용 프로그램 배포 하는 경우 버전 하위 디렉터리의 이름을 **1.0.0.0**합니다.  
   
     > [!NOTE]
-    >  배포의 버전 응용 프로그램의 버전과 다를 수 있습니다.  
+    > 배포의 버전 응용 프로그램의 버전과 다를 수 있습니다.  
   
 3. 응용 프로그램 파일의 모든 실행 파일, 어셈블리, 리소스 및 데이터 파일을 포함 하 여 버전 하위 디렉터리에 복사 합니다. 필요한 경우 추가 파일을 포함 하는 추가 하위 디렉터리를 만들 수 있습니다.  
   
@@ -89,7 +89,7 @@ ms.locfileid: "60082206"
     ```  
   
     > [!NOTE]
-    >  뒤에 점 (.)을 포함 해야 합니다 `-FromDirectory` 현재 디렉터리를 나타내는 옵션입니다. 마침표를 포함 하지 않은 경우에 응용 프로그램 파일에 경로 지정 해야 합니다.  
+    > 뒤에 점 (.)을 포함 해야 합니다 `-FromDirectory` 현재 디렉터리를 나타내는 옵션입니다. 마침표를 포함 하지 않은 경우에 응용 프로그램 파일에 경로 지정 해야 합니다.  
   
 6. Authenticode 인증서를 사용 하 여 응용 프로그램 매니페스트에 서명 합니다. 바꿉니다 *mycert.pfx* 인증서 파일 경로 사용 하 여 합니다. 바꿉니다 *passwd* 인증서 파일의 암호로 바꿉니다.  
   
@@ -134,7 +134,7 @@ ms.locfileid: "60082206"
 2. 방금 만든 배포 디렉터리에서 버전 하위 디렉터리를 만듭니다. 처음으로 응용 프로그램 배포 하는 경우 버전 하위 디렉터리의 이름을 **1.0.0.0**합니다.  
   
     > [!NOTE]
-    >  배포의 버전이 버전 응용 프로그램을 다 합니다.  
+    > 배포의 버전이 버전 응용 프로그램을 다 합니다.  
   
 3. 응용 프로그램 파일의 모든 실행 파일, 어셈블리, 리소스 및 데이터 파일을 포함 하 여 버전 하위 디렉터리에 복사 합니다. 필요한 경우 추가 파일을 포함 하는 추가 하위 디렉터리를 만들 수 있습니다.  
   

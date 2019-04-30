@@ -22,12 +22,12 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 395e2a6233c1b6187d9089459cb8f267c4c3c904
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d4d2218337153418ef201ee7896eeb095c4778fb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079910"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424916"
 ---
 # <a name="upgrade-mdf-files"></a>.mdf 파일 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,10 +47,10 @@ ms.locfileid: "60079910"
   수 또한 하 라는 메시지가 파일의 버전의 SQL Server Express 또는 현재 설치 된 LocalDB 인스턴스와 호환 되지 않습니다 경우는 이전 버전의 SQL Server Express 또는 LocalDB를 통해 만든 데이터베이스 파일을 업그레이드 합니다. 문제를 해결 하려면 Visual Studio 하 라는 메시지가 나타납니다 파일을 업그레이드 합니다.  
   
 > [!IMPORTANT]
->  업그레이드 하기 전에 데이터베이스 파일을 백업 하는 것이 좋습니다.  
+> 업그레이드 하기 전에 데이터베이스 파일을 백업 하는 것이 좋습니다.  
   
 > [!WARNING]
->  LocalDB 2014 (V12) 32 비트 LocalDB 2016 (V13)에서 생성 된.mdf 파일을 업그레이드 하는 경우 32 비트 버전의 LocalDB에서 파일을 다시 열 수 없습니다.  업데이트 2에서는 LocalDB V13 64 비트만 해당 됩니다.  
+> LocalDB 2014 (V12) 32 비트 LocalDB 2016 (V13)에서 생성 된.mdf 파일을 업그레이드 하는 경우 32 비트 버전의 LocalDB에서 파일을 다시 열 수 없습니다.  업데이트 2에서는 LocalDB V13 64 비트만 해당 됩니다.  
   
  데이터베이스를 업그레이드 하기 전에 다음 조건을 고려 하세요.  
   

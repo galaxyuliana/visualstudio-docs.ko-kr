@@ -14,12 +14,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 107b42500bbe2daed0d03d3e23e4817c9c3b3fc4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 29047f53b08472a0ff65960bfe694789f7f7cbe1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430506"
 ---
 # <a name="how-to-manage-editor-windows"></a>방법: 편집기 Windows 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "60089928"
 한 번에 여러 위치에서 코드로 작업할 수 있습니다. 편집기 창을 분할하거나 편집기 창의 여러 인스턴스를 열어 이 작업을 수행합니다.  
   
 > [!NOTE]
->  일부 편집기 창만 여러 인스턴스를 지원합니다.  
+> 일부 편집기 창만 여러 인스턴스를 지원합니다.  
   
 ## <a name="splitting-an-editor-window"></a>편집기 창 분할  
  편집기 창의 인스턴스를 편집이 쉽도록 두 개의 개별 보기로 분할할 수 있습니다.  
@@ -41,7 +41,7 @@ ms.locfileid: "60089928"
      편집 영역이 분할 막대로 구분된 두 개 창으로 나뉩니다. 이 창을 독립적으로 스크롤하여 활성 문서의 다른 부분을 동시에 보고 편집할 수 있습니다. 하나의 창에서 변경한 내용은 다른 창에 반영됩니다.  
   
     > [!TIP]
-    >  하나의 창을 다른 창보다 크게 만들려면 분할 막대를 위 또는 아래로 끕니다.  
+    > 하나의 창을 다른 창보다 크게 만들려면 분할 막대를 위 또는 아래로 끕니다.  
   
 #### <a name="to-return-to-single-pane-view"></a>단일 창 보기로 돌아가려면  
   

@@ -15,12 +15,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ae43b6b1cdc5a3c94e6eb14d0aaa398c320c6274
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f77a6b9b655cc7dfbf0639a81d7d350b904ce82a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435221"
 ---
 # <a name="how-to-specify-build-events-c"></a>방법: 빌드 이벤트 지정(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,17 +44,17 @@ ms.locfileid: "60113861"
 4. **빌드 전 이벤트 명령줄** 상자에서 빌드 이벤트의 구문을 지정합니다.  
   
     > [!NOTE]
-    >  프로젝트가 최신 상태이고 빌드가 트리거되지 않으면 빌드 전 이벤트가 실행되지 않습니다.  
+    > 프로젝트가 최신 상태이고 빌드가 트리거되지 않으면 빌드 전 이벤트가 실행되지 않습니다.  
   
 5. **빌드 후 이벤트 명령줄** 상자에서 빌드 이벤트의 구문을 지정합니다.  
   
     > [!NOTE]
-    >  .bat 파일을 실행하는 모든 빌드 후 이벤트 명령 앞에 `call` 문을 추가합니다. 예를 들어 `call C:\MyFile.bat` 또는 `call C:\MyFile.bat call C:\MyFile2.bat`로 이름을 지정할 수 있습니다.  
+    > .bat 파일을 실행하는 모든 빌드 후 이벤트 명령 앞에 `call` 문을 추가합니다. 예를 들어 `call C:\MyFile.bat` 또는 `call C:\MyFile.bat call C:\MyFile2.bat`로 이름을 지정할 수 있습니다.  
   
 6. **빌드 후 이벤트 실행** 상자에서 빌드 후 이벤트를 실행할 조건을 지정합니다.  
   
     > [!NOTE]
-    >  긴 구문을 추가하거나 [빌드 전 이벤트/빌드 후 이벤트 명령줄 대화 상자](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)에서 임의의 빌드 매크로를 선택하려면, 줄임표 단추(**...**)를 클릭하여 편집 상자를 표시합니다.  
+    > 긴 구문을 추가하거나 [빌드 전 이벤트/빌드 후 이벤트 명령줄 대화 상자](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)에서 임의의 빌드 매크로를 선택하려면, 줄임표 단추(**...**)를 클릭하여 편집 상자를 표시합니다.  
   
      빌드 이벤트 구문에는 명령 프롬프트 또는 .bat 파일에서 유효한 모든 명령이 포함될 수 있습니다. 일괄 처리 파일의 이름 앞에 `call`을 사용하여 모든 후속 명령이 실행되도록 합니다.  
   

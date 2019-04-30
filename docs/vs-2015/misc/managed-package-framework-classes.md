@@ -12,18 +12,18 @@ helpviewer_keywords:
 ms.assetid: 15aedcc3-c79a-460b-b620-43223f1ae81e
 caps.latest.revision: 24
 manager: jillfra
-ms.openlocfilehash: d8e2bbf51aa6266411558e91f3c17905d0c8605c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 75f7cb153a976614ff790095141a820af80b5834
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422762"
 ---
 # <a name="managed-package-framework-classes"></a>관리되는 패키지 프레임워크 클래스
 MPF(관리되는 패키지 프레임워크) 클래스를 사용하여 관리 코드를 사용하는 Vspackage를 만들 수 있습니다. 이 클래스는 많은 VSPackage 인터페이스에 대한 기본 구현을 제공합니다. MPF는 구현 세부 정보 및 복잡성을 숨겨 최소한의 코드로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 통합 제품을 만들 수 있습니다.  
   
 > [!WARNING]
->  관리되는 패키지 프레임워크 클래스를 포함하는 어셈블리는 대부분 Visual Studio SDK와 함께 제공됩니다. [프로젝트에 대한 관리되는 패키지 프레임워크](http://mpfproj11.codeplex.com/)에서 프로젝트에 대한 관리되는 패키지 프레임워크용 소스 코드를 다운로드할 수 있습니다.  
+> 관리되는 패키지 프레임워크 클래스를 포함하는 어셈블리는 대부분 Visual Studio SDK와 함께 제공됩니다. [프로젝트에 대한 관리되는 패키지 프레임워크](http://mpfproj11.codeplex.com/)에서 프로젝트에 대한 관리되는 패키지 프레임워크용 소스 코드를 다운로드할 수 있습니다.  
   
 ## <a name="mpf-namespaces"></a>MPF 네임스페이스  
  다음 표에서는 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)]에서 제공하는 MPF 네임스페이스 목록을 보여 줍니다.  

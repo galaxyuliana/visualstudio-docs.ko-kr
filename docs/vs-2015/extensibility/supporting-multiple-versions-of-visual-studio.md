@@ -12,12 +12,12 @@ ms.assetid: 0047aa90-1ed4-40d3-8772-622b2719a4b1
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 377a7eceff134211371c17ac14903cba0fb8daa6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8f4393a88a689e2a923291ada37a9b6d85718db5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431363"
 ---
 # <a name="supporting-multiple-versions-of-visual-studio"></a>여러 버전의 Visual Studio 지원
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60042142"
      자세한 내용은 [Windows Installer를 사용 하 여 Vspackage 설치](../extensibility/internals/installing-vspackages-with-windows-installer.md) 권한과 [구성 요소 관리](../extensibility/internals/component-management.md)합니다.
 
     > [!NOTE]
-    >  해당 버전의 설치도 Visual Studio의 버전을 설치 합니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]합니다. 예를 들어 버전 4.0 및 4.5의 설치도 동일한 컴퓨터에 Visual Studio 2010 및 Visual Studio 2012를 설치 합니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], 각각.
+    > 해당 버전의 설치도 Visual Studio의 버전을 설치 합니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]합니다. 예를 들어 버전 4.0 및 4.5의 설치도 동일한 컴퓨터에 Visual Studio 2010 및 Visual Studio 2012를 설치 합니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], 각각.
 
 ## <a name="in-this-section"></a>섹션 내용
  [공유 간의 선택 및 버전 관리 Vspackage](../extensibility/choosing-between-shared-and-versioned-vspackages.md) VSPackage의 side-by-side-문제를 해결 하는 방법에 설명 합니다.

@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5a686d2a43fed0fdb8c5c1e8f21d4b35fd63f3a6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8e6f2d0da758a8897f28a22dec8adf1f8e05a36c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419454"
 ---
 # <a name="how-to-customize-a-built-in-tab"></a>방법: 기본 제공 탭 사용자 지정
   기본 제공 탭에 그룹과 컨트롤을 추가할 수 있습니다. 기본 제공 탭은 Microsoft Office 응용 프로그램의 리본 메뉴에 이미 있는 탭입니다. 예를 들어 합니다 **데이터** 탭은 Excel에서 기본 제공 탭 합니다. 사용자 지정 그룹을 만드는 경우 탭에서 마지막에 표시되지만 탭의 아무곳으로나 그룹을 이동할 수 있습니다.
@@ -26,14 +26,14 @@ ms.locfileid: "60075664"
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 
 > [!NOTE]
->  기본 제공 탭에 그룹을 추가할 수 있지만 기본 제공 탭에서 기본 제공 그룹을 제거할 수는 없습니다.
+> 기본 제공 탭에 그룹을 추가할 수 있지만 기본 제공 탭에서 기본 제공 그룹을 제거할 수는 없습니다.
 
 ### <a name="to-add-groups-to-a-built-in-tab"></a>기본 제공 탭에 그룹을 추가하려면
 
 1. 리본 코드 파일을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기**를 클릭 하 고 **뷰 디자이너**합니다.
 
     > [!NOTE]
-    >  리본 코드 파일에 표시 되지 않으면 **솔루션 탐색기**를 추가 해야 합니다는 **리본 항목** 프로젝트입니다. [방법: 리본 사용자 지정 시작](../vsto/how-to-get-started-customizing-the-ribbon.md)합니다.
+    > 리본 코드 파일에 표시 되지 않으면 **솔루션 탐색기**를 추가 해야 합니다는 **리본 항목** 프로젝트입니다. [방법: 리본 사용자 지정 시작](../vsto/how-to-get-started-customizing-the-ribbon.md)합니다.
 
 2. 리본 디자이너에서 임의 탭을 마우스 오른쪽 단추로 누른 **속성**합니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "60075664"
 5. **Office 리본 컨트롤** 탭의 **도구 상자**, 탭 그룹으로 끌어 합니다.
 
     > [!NOTE]
-    >  기본 제공 그룹은 디자이너에 표시되지 않습니다. 따라서 기본 제공 탭을 사용 하 고 있는지 여부를 확인 하는 유일한 방법은 검사 하는 합니다 **ControlId** 탭의 속성입니다.
+    > 기본 제공 그룹은 디자이너에 표시되지 않습니다. 따라서 기본 제공 탭을 사용 하 고 있는지 여부를 확인 하는 유일한 방법은 검사 하는 합니다 **ControlId** 탭의 속성입니다.
 
 ### <a name="to-position-groups-on-a-built-in-tab"></a>기본 제공 탭에 그룹을 배치하려면
 

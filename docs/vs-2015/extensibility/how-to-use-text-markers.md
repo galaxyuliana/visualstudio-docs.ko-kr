@@ -10,12 +10,12 @@ ms.assetid: 76eed51c-eecb-4579-823e-13df2f0526b9
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: bca32c007e29e910f167df66c92d04bec637f9b3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 25c3c4f3a3d9a253b9ec671892d0d44ccf9ca3ab
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430957"
 ---
 # <a name="how-to-use-text-markers"></a>방법: 텍스트 마커를 사용 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,12 +29,12 @@ ms.locfileid: "60105462"
 1. 인스턴스는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> 클래스입니다.  
   
     > [!NOTE]
-    >  핵심 편집기를 편집 하는 모든 문서에 표준 텍스트 마커를 자동으로 적용 하 고 표준 텍스트 마커를 명시적으로 적용할 필요는 없습니다.  
+    > 핵심 편집기를 편집 하는 모든 문서에 표준 텍스트 마커를 자동으로 적용 하 고 표준 텍스트 마커를 명시적으로 적용할 필요는 없습니다.  
   
 2. 호출 하 여 관심 있는 표식의 표식 유형 ID를 가져올는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> 메서드는 `GUID` 사용 하려는 텍스트 마커의 합니다.  
   
     > [!NOTE]
-    >  사용 하지 마십시오는 `GUID` VSPackage 또는 텍스트 마커를 제공 하는 서비스입니다.  
+    > 사용 하지 마십시오는 `GUID` VSPackage 또는 텍스트 마커를 제공 하는 서비스입니다.  
   
 3. 사용 하 여 호출 하 여 표식 유형 ID를 가져올는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> 메서드 호출에 매개 변수로 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> 메서드 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> 텍스트 마커를 텍스트의 지정된 된 지역에 적용 하는 방법.  
   
@@ -58,4 +58,4 @@ ms.locfileid: "60105462"
  [텍스트 마커를 사용 하 여 레거시 API를 사용 하 여](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md)   
  [방법: 사용자 지정 텍스트 표식 만들기](../extensibility/how-to-create-custom-text-markers.md)   
- [방법: 오류 마커를 구현 합니다.](../extensibility/how-to-implement-error-markers.md)
+ [방법: 오류 표식 구현](../extensibility/how-to-implement-error-markers.md)

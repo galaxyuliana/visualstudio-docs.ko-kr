@@ -20,12 +20,12 @@ caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 10b4efd574dd5829e4717b168dc4e565476e9b52
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4a6909bade36dce15bfae725fbaab60f24236451
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436993"
 ---
 # <a name="connect-to-data-in-an-access-database-windows-forms"></a>Access 데이터베이스의 데이터에 연결(Windows Forms)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ Visual Studio를 사용 하 여 Access 데이터베이스 (.mdf 파일 또는.ac
      ![OLE db 데이터 공급자를 변경](../data-tools/media/datachangedatasourceoledb.png "dataChangeDataSourceOLEDB")  
   
     > [!IMPORTANT]
-    >  하지만 데이터 원본 **Microsoft Access 데이터베이스 파일 (OLE DB)** 해당 데이터 원본 유형.mdb 데이터베이스 파일에 대해서만 사용 하 여 올바른 선택을 처럼 보일 수 있습니다.  
+    > 하지만 데이터 원본 **Microsoft Access 데이터베이스 파일 (OLE DB)** 해당 데이터 원본 유형.mdb 데이터베이스 파일에 대해서만 사용 하 여 올바른 선택을 처럼 보일 수 있습니다.  
   
 8. **OLE DB Provider**를 선택 **Microsoft Office 12.0 Access Database Engine OLE DB Provider**합니다.  
   
@@ -70,7 +70,7 @@ Visual Studio를 사용 하 여 Access 데이터베이스 (.mdf 파일 또는.ac
 9. **서버 또는 파일 이름**에 연결 하 고 클릭 하려는.accdb 파일의 이름과 경로 지정 **확인**합니다.  
   
     > [!NOTE]
-    >  데이터베이스 파일에 있으면 사용자 이름 및 암호를 지정 하 선택 하기 전에 **확인**합니다.  
+    > 데이터베이스 파일에 있으면 사용자 이름 및 암호를 지정 하 선택 하기 전에 **확인**합니다.  
   
 10. 선택 **다음** 에 **데이터 연결 선택** 페이지입니다.  
   

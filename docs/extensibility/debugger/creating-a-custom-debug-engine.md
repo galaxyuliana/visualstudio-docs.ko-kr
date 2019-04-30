@@ -12,18 +12,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 67a58ab1bf508ba1b2edc7117412638de6c2231a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9c714aec9bf4bb1fa28bd04a1b5e3375f98da4dd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63410087"
 ---
 # <a name="create-a-custom-debug-engine"></a>사용자 지정 디버그 엔진 만들기
 디버그 엔진 (DE)는 구성 요소로, 특정 런타임 아키텍처를 디버깅할 수 있습니다. 일반적으로 런타임 환경 별로 하나의 DE 구현이입니다.
 
 > [!NOTE]
->  TRANSACT-SQL 및 JScript에 대 한 별도 DE 구현을 있기는 VBScript 및 JScript 단일 DE 공유 합니다.
+> TRANSACT-SQL 및 JScript에 대 한 별도 DE 구현을 있기는 VBScript 및 JScript 단일 DE 공유 합니다.
 
  DE와 같은 디버깅 서비스 실행 제어, 중단점 및 식 평가를 위해 인터프리터 또는 작업 시스템에서 작동 합니다. 이러한 서비스 DE 인터페이스를 통해 구현 되 고 다른 운영 모드를 전환 하도록 디버거를 발생할 수 있습니다. 자세한 내용은 [운영 모드](../../extensibility/debugger/operational-modes.md)합니다.
 

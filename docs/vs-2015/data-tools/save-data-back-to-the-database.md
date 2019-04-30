@@ -26,12 +26,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b0489dec1c2d6cb3d7559a2bdd029ccab6c3ce5f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: dbbb730af965b414a907bb230a58291ec53084a3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425342"
 ---
 # <a name="save-data-back-to-the-database"></a>데이터를 다시 데이터베이스에 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -96,7 +96,7 @@ ms.locfileid: "60056811"
 |현재|Jim Wilson|James C. Wilson|  
   
 > [!CAUTION]
->  에 `preserveChanges = true` 시나리오에서는 경우는 <xref:System.Data.DataSet.RejectChanges%2A> 메서드는 대상 데이터 집합의 레코드에 대해 다음 원본 데이터로 돌아갑니다를 *원본* 데이터 집합. 즉, 대상 데이터 집합을 사용 하 여 원래 데이터 소스를 업데이트 하려고 하면 원래 행 업데이트를 찾을 수 없습니다. 데이터 원본에서 업데이트 된 레코드를 사용 하 여 다른 데이터 집합을 채운 다음 동시성 위반을 방지 하기 위해 병합을 수행 하는 동시성 위반을 방지할 수 있습니다. (동시성 위반을 데이터 집합을 채워진 후 다른 사용자가 데이터 소스의 레코드를 수정할 때 발생 합니다.)  
+> 에 `preserveChanges = true` 시나리오에서는 경우는 <xref:System.Data.DataSet.RejectChanges%2A> 메서드는 대상 데이터 집합의 레코드에 대해 다음 원본 데이터로 돌아갑니다를 *원본* 데이터 집합. 즉, 대상 데이터 집합을 사용 하 여 원래 데이터 소스를 업데이트 하려고 하면 원래 행 업데이트를 찾을 수 없습니다. 데이터 원본에서 업데이트 된 레코드를 사용 하 여 다른 데이터 집합을 채운 다음 동시성 위반을 방지 하기 위해 병합을 수행 하는 동시성 위반을 방지할 수 있습니다. (동시성 위반을 데이터 집합을 채워진 후 다른 사용자가 데이터 소스의 레코드를 수정할 때 발생 합니다.)  
   
 ## <a name="update-constraints"></a>제약 조건 업데이트  
  기존 데이터 행을 변경 하려면 추가 하거나 개별 열에 데이터를 업데이트 합니다. 데이터 집합 제약 조건 (예: 외래 키 또는 null이 아닌 제약 조건)에 있으면 가능으로 업데이트 하 고 레코드 오류 상태의 수 일시적으로 있습니다. 즉, 하나의 열 업데이트를 완료 하지만 다음에 도달 하기 전에 오류 상태에서 수 있습니다.  
@@ -110,7 +110,7 @@ ms.locfileid: "60056811"
   업데이트를 완료 한 후 다시 활성화할 수 있습니다 제약 조건 검사 이벤트를 발생 시킨 및는 다시 업데이트 이벤트를 사용 하도록 설정 합니다.  
   
 > [!NOTE]
->  Datagrid에 기본 제공 되는 데이터 바인딩 아키텍처는 Windows Forms에서 제약 조건 검사 포커스를 행 외부로 이동 하 고 명시적으로 호출할 필요가 없습니다 될 때까지 일시 중단 합니다 <xref:System.Data.DataRow.BeginEdit%2A>, <xref:System.Data.DataRow.EndEdit%2A>, 또는 <xref:System.Data.DataRow.CancelEdit%2A> 메서드.  
+> Datagrid에 기본 제공 되는 데이터 바인딩 아키텍처는 Windows Forms에서 제약 조건 검사 포커스를 행 외부로 이동 하 고 명시적으로 호출할 필요가 없습니다 될 때까지 일시 중단 합니다 <xref:System.Data.DataRow.BeginEdit%2A>, <xref:System.Data.DataRow.EndEdit%2A>, 또는 <xref:System.Data.DataRow.CancelEdit%2A> 메서드.  
   
  제약 조건은 자동으로 비활성화 될 때를 <xref:System.Data.DataSet.Merge%2A> 메서드는 데이터 집합에서 호출 됩니다. 병합이 완료 되 면 사용할 수 없는 데이터 집합의 모든 제약 조건이 있는 경우는 <xref:System.Data.ConstraintException> throw 됩니다. 이 이런 경우에 <xref:System.Data.DataSet.EnforceConstraints%2A> 속성이로 설정 되어 `false,` 다시 설정 하기 전에 모든 제약 조건 위반을 해결 해야 합니다 <xref:System.Data.DataSet.EnforceConstraints%2A> 속성을 `true`입니다.  
   
@@ -182,12 +182,12 @@ ms.locfileid: "60056811"
 - 한 후 데이터 집합을 로드 합니다. TableAdapter를 호출 하 여 데이터 집합을 로드 하는 경우 `Fill` 메서드를 다음 어댑터 자동으로 변경 내용을 커밋하고 있습니다. 그러나 다른 데이터 집합을 병합 하 여 데이터 집합을 로드 하는 경우 다음 해야 수동으로 변경 내용을 커밋해야 합니다.  
   
   > [!NOTE]
-  >  호출할 때 변경 내용을 자동으로 커밋할 어댑터를 방지할 수 있습니다 합니다 `Fill` 설정 하 여 메서드를 `AcceptChangesDuringFill` 어댑터의 속성 `false`합니다. 로 설정 된 경우 `false`, 해당 <xref:System.Data.DataRow.RowState%2A> 로 설정 되어 채우기 중에 삽입 되는 각 행의 <xref:System.Data.DataRowState>합니다.  
+  > 호출할 때 변경 내용을 자동으로 커밋할 어댑터를 방지할 수 있습니다 합니다 `Fill` 설정 하 여 메서드를 `AcceptChangesDuringFill` 어댑터의 속성 `false`합니다. 로 설정 된 경우 `false`, 해당 <xref:System.Data.DataRow.RowState%2A> 로 설정 되어 채우기 중에 삽입 되는 각 행의 <xref:System.Data.DataRowState>합니다.  
   
 - 한 후 데이터 집합 변경 내용을 XML 웹 서비스와 같은 다른 프로세스에 보냅니다.  
   
   > [!CAUTION]
-  >  이 방법은 변경을 커밋한 변경 정보가 지워집니다. 데이터 집합의 어떤 변경 사항이 생겼는지 알아야 응용 프로그램 필요로 하는 작업을 수행 하지 커밋 변경 될 때까지 한 후 완료 수행 합니다.  
+  > 이 방법은 변경을 커밋한 변경 정보가 지워집니다. 데이터 집합의 어떤 변경 사항이 생겼는지 알아야 응용 프로그램 필요로 하는 작업을 수행 하지 커밋 변경 될 때까지 한 후 완료 수행 합니다.  
   
   이 메서드는 다음을 수행합니다.  
   
@@ -208,7 +208,7 @@ ms.locfileid: "60056811"
 |<xref:System.Data.DataSet.AcceptChanges%2A?displayProperty=fullName>|데이터 집합의 모든 테이블의 모든 행에 변경 내용이 커밋됩니다.|  
   
 > [!NOTE]
->  TableAdapter를 호출 하 여 데이터 집합을 로드 하는 경우 `Fill` 메서드를 필요가 없습니다 변경 내용을 명시적으로 적용 합니다. 기본적으로 `Fill` 메서드 호출을 `AcceptChanges` 데이터 테이블 채우기 완료 된 후에 메서드.  
+> TableAdapter를 호출 하 여 데이터 집합을 로드 하는 경우 `Fill` 메서드를 필요가 없습니다 변경 내용을 명시적으로 적용 합니다. 기본적으로 `Fill` 메서드 호출을 `AcceptChanges` 데이터 테이블 채우기 완료 된 후에 메서드.  
   
  관련된 메서드 `RejectChanges`를 복사 하 여 변경의 효과 실행 합니다 <xref:System.Data.DataRowVersion> 버전에 다시를 <xref:System.Data.DataRowVersion> 레코드의 버전. 또한 설정 합니다 <xref:System.Data.DataRow.RowState%2A> 의 각 레코드 다시 <xref:System.Data.DataRowState>입니다.  
   
@@ -224,7 +224,7 @@ ms.locfileid: "60056811"
 - 데이터 원본에 데이터를 전송 하 여 백 엔드에서 데이터에서-예를 들어 데이터베이스-수락 하거나 데이터를 거부할 수 있도록 지원 합니다. 복잡 한 데이터 유효성 검사 및 오류 정보를 제공 하는 기능에는 데이터베이스를 사용 하 여 작업 하는 경우에서 제공 되는 위치에 관계 없이 데이터의 유효성을 검사 하기 때문에 실질적인 방법이 될 수 있습니다. 그러나이 방법은 응용 프로그램별 유효성 검사 요구 사항을 허용 하지 않을 수 있습니다. 또한 데이터 소스 데이터의 유효성을 검사 수 발생할 다양 한 왕복에 응용 프로그램 백 엔드에 의해 발생 하는 유효성 검사 오류 확인을 용이 하 게 하는 방법에 따라 데이터 원본에 합니다.  
   
   > [!IMPORTANT]
-  >  데이터 명령을 사용 하는 경우는 <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> 로 설정 된 속성 <xref:System.Data.CommandType>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 인증되지 않은 액세스 권한을 얻거나 데이터베이스를 손상시키기 위해 수정되었거나 추가된 SQL 문을 전송(주입)할 수도 있습니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다. 자세한 내용은 [Script Exploits Overview](http://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07)를 참조하세요.  
+  > 데이터 명령을 사용 하는 경우는 <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> 로 설정 된 속성 <xref:System.Data.CommandType>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 인증되지 않은 액세스 권한을 얻거나 데이터베이스를 손상시키기 위해 수정되었거나 추가된 SQL 문을 전송(주입)할 수도 있습니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다. 자세한 내용은 [Script Exploits Overview](http://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07)를 참조하세요.  
   
   데이터 집합을 변경한 후에 데이터 원본에 변경 내용을 전송할 수 있습니다. 가장 일반적으로이 호출 하 여 수행 된 `Update` TableAdapter (또는 데이터 어댑터) 메서드. 데이터 테이블의 각 레코드 메서드 반복 어떤 유형의 업데이트가 필요한 확인 (업데이트, 삽입 또는 삭제), 한 다음 적절 한 명령을 실행 합니다.  
   
@@ -256,7 +256,7 @@ ms.locfileid: "60056811"
 - 전송 된 SQL 문을 수정 된 열의 새 값을 설정 하는 SET 절을 포함 합니다.  
   
     > [!NOTE]
-    >  경우 TableAdapter의 `UpdateCommand` 속성 저장된 프로시저의 이름으로 설정 된 경우 어댑터는 SQL 문을 생성 하지 않습니다. 대신 전달 된 적절 한 매개 변수를 사용 하 여 저장된 프로시저를 호출 합니다.  
+    > 경우 TableAdapter의 `UpdateCommand` 속성 저장된 프로시저의 이름으로 설정 된 경우 어댑터는 SQL 문을 생성 하지 않습니다. 대신 전달 된 적절 한 매개 변수를 사용 하 여 저장된 프로시저를 호출 합니다.  
   
 ## <a name="passing-parameters"></a>매개 변수 전달  
  일반적으로 매개 변수를 사용 하 여 데이터베이스에서 업데이트 하려는 레코드에 대 한 값을 전달 합니다.  경우 TableAdapter의 `Update` 는 UPDATE 문을 실행 하는 메서드, 매개 변수 값을 입력 해야 합니다. 이러한 값을 가져와서를 `Parameters` 적절 한 데이터 명령에 대 한 컬렉션-이 경우는 `UpdateCommand` TableAdapter의 개체입니다.  
@@ -268,7 +268,7 @@ ms.locfileid: "60056811"
  UPDATE 문에서 새 값을 모두 지정 (하는 레코드를 쓸) 뿐만 아니라 이전 값 (있도록 레코드를 데이터베이스에 있을 수 있습니다) 해야 합니다. 따라서 각 값에 대 한 매개 변수가 두 개: SET 절 및 WHERE 절에 서로 대 한 합니다. 두 매개 변수 데이터 업데이트 되는 레코드에서 읽지만 된 매개 변수에 따라 열 값의 서로 다른 버전을 받게 [SqlParameter.SourceVersion 속성](https://msdn.microsoft.com/library/system.data.sqlclient.sqlparameter.sourceversion.aspx)합니다. SET 절에 대 한 매개 변수는 현재 버전을 가져오고 WHERE 절에 대 한 매개 변수는 원래 버전을 가져옵니다.  
   
 > [!NOTE]
->  값을 설정할 수도 있습니다는 `Parameters` 컬렉션 데이터 어댑터의 이벤트 처리기에서 일반적으로 수행 하는 코드에서 직접 <xref:System.Data.DataTable.RowChanging> 이벤트입니다.  
+> 값을 설정할 수도 있습니다는 `Parameters` 컬렉션 데이터 어댑터의 이벤트 처리기에서 일반적으로 수행 하는 코드에서 직접 <xref:System.Data.DataTable.RowChanging> 이벤트입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [TableAdapter를 사용 하 여 데이터를 업데이트 합니다.](../data-tools/update-data-by-using-a-tableadapter.md)   

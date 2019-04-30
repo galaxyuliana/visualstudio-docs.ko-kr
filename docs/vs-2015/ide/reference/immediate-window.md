@@ -15,12 +15,12 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7a39b6f84185c78ccea11e09e628050a6bf4f601
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e6bbbd4fa2ad051407ece3e05c1806c1231ef2e8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60053402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437126"
 ---
 # <a name="immediate-window"></a>직접 실행 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "60053402"
  이 명령의 두 버전은 모두 `varA` 변수의 값을 반환합니다.  
   
 > [!NOTE]
->  **즉시 실행** 창에서 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 명령을 실행하려면 명령 앞에 보다 큼 기호(>)를 추가해야 합니다. 여러 개의 명령을 입력하려면 **명령** 창으로 전환합니다.  
+> **즉시 실행** 창에서 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 명령을 실행하려면 명령 앞에 보다 큼 기호(>)를 추가해야 합니다. 여러 개의 명령을 입력하려면 **명령** 창으로 전환합니다.  
   
 ## <a name="design-time-expression-evaluation"></a>디자인 타임 식 계산  
  **직접 실행** 창을 사용하여 디자인 타임에 함수 또는 서브루틴을 실행할 수 있습니다.  

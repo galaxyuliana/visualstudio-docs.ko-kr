@@ -19,12 +19,12 @@ caps.latest.revision: 183
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: 8e6f39e420981615f391103c6cee431f930190bf
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 677a72f0378c62f2ca65515ec563069f22b9ff09
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60118099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433020"
 ---
 # <a name="install-visual-studio-2015"></a>Visual Studio 2015 설치
 
@@ -53,7 +53,7 @@ ms.locfileid: "60118099"
  사용자 지정 구성 요소에는 Visual C++, Visual F#, SQL Server Data Tools, 플랫폼 간 모바일 도구 및 SDK, 타사 SDK 및 확장이 있습니다. 초기 설치 작업 동안 선택하지 않는 경우 나중에 사용자 지정 구성 요소 중에서 설치할 수 있습니다.
 
 > [!NOTE]
->  사용자 지정 설치는 자동으로 기본 설치에 있는 구성 요소를 포함합니다.
+> 사용자 지정 설치는 자동으로 기본 설치에 있는 구성 요소를 포함합니다.
 
  사용자 지정 구성 요소 전체 목록은 다음과 같습니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "60118099"
  설치 미디어 (Dvd)를 사용 하 여 Visual Studio에서 Visual Studio 구독 서비스를 사용 하 여 설치할 수는 [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) 에서 웹 설치 관리자를 다운로드 하 여 웹 사이트는 [Visual Studio 다운로드](http://go.microsoft.com/fwlink/?LinkId=517106) 웹 사이트 또는 오프 라인 설치 레이아웃을 만들어 (참조를 [오프 라인 설치의 Visual Studio 만들기](../install/create-an-offline-installation-of-visual-studio.md) 페이지에 대 한 자세한).
 
 > [!IMPORTANT]
->  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 설치하려면 관리자 자격 증명이 필요합니다. 그러나 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 를 설치한 후에는 자격 증명이 없어도 사용에 지장이 없습니다.
+> [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 설치하려면 관리자 자격 증명이 필요합니다. 그러나 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 를 설치한 후에는 자격 증명이 없어도 사용에 지장이 없습니다.
 
  Visual Studio의 모든 요소를 설치하려면 로컬 관리자 계정이 다음 권한을 사용할 수 있어야 합니다.
 

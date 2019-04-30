@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 628620005c43ae465107e43572684cb74c8d1aa9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7c088078ce594ab1333eb4ec2316e120cc153ced
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440381"
 ---
 # <a name="actions-pane-overview"></a>작업 창 개요
   작업창은 사용자 지정 가능한 **문서 동작** 특정 Microsoft Office Word 문서 또는 Microsoft Office Excel 통합 문서에 연결 된 작업창 합니다. 작업창과 같은 다른 기본 제공 작업창과 함께 Office 작업창 내에서 호스트 되는 **XML 원본은** Excel에서 작업 창 또는 **스타일 및 서식** word에서 작업창입니다. Windows Forms 컨트롤 또는 WPF 컨트롤을 사용하여 작업 창 사용자 인터페이스를 디자인할 수 있습니다.
@@ -30,7 +30,7 @@ ms.locfileid: "60099743"
  Word 또는 Excel에 대한 문서 수준 사용자 지정에만 작업 창을 만들 수 있습니다. VSTO 추가 기능에서는 작업 창을 만들 수 없습니다. 자세한 내용은 [Office 응용 프로그램 및 프로젝트 형식으로 사용할 수 있는 기능](../vsto/features-available-by-office-application-and-project-type.md)합니다.
 
 > [!NOTE]
->  작업 창은 사용자 지정 작업창과 다릅니다. 사용자 지정 작업창은 특정 문서가 아니라 응용 프로그램과 연결됩니다. VSTO 추가 기능에서 일부 Microsoft Office 응용 프로그램에 대한 사용자 지정 작업창을 만들 수 있습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
+> 작업 창은 사용자 지정 작업창과 다릅니다. 사용자 지정 작업창은 특정 문서가 아니라 응용 프로그램과 연결됩니다. VSTO 추가 기능에서 일부 Microsoft Office 응용 프로그램에 대한 사용자 지정 작업창을 만들 수 있습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
 
  ![비디오 링크](../vsto/media/playvideo.gif "비디오 링크") 관련된 비디오 데모를 참조 하세요. [어떻게 할까요? Excel 작업 창 내에서 WPF 컨트롤 사용 ](http://go.microsoft.com/fwlink/?LinkId=132763).
 
@@ -50,7 +50,7 @@ ms.locfileid: "60099743"
 2. 디자이너를 사용하여 또는 코드를 작성하여 <xref:System.Windows.Forms.UserControl>에 Windows Forms 컨트롤을 추가합니다.
 
    > [!NOTE]
-   >  Windows Forms <xref:System.Windows.Forms.UserControl>에 WPF <xref:System.Windows.Controls.UserControl>을 추가하여 작업 창에 WPF 컨트롤을 추가할 수도 있습니다. 자세한 내용은 [Office 솔루션에서 사용 하 여 WPF 컨트롤](../vsto/using-wpf-controls-in-office-solutions.md)합니다.
+   > Windows Forms <xref:System.Windows.Forms.UserControl>에 WPF <xref:System.Windows.Controls.UserControl>을 추가하여 작업 창에 WPF 컨트롤을 추가할 수도 있습니다. 자세한 내용은 [Office 솔루션에서 사용 하 여 WPF 컨트롤](../vsto/using-wpf-controls-in-office-solutions.md)합니다.
 
 3. 프로젝트에서 `ThisWorkbook`(Excel용) 또는 `ThisDocument`(Word용) 클래스의 `ActionsPane` 필드에 포함된 컨트롤에 사용자 지정 사용자 정의 컨트롤의 인스턴스를 추가합니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "60099743"
  [!code-vb[Trin_VstcoreActionsPaneWord#100](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#100)]
 
 > [!NOTE]
->  최종 사용자는 언제든지 작업창의 위치를 수동으로 변경할 수 있습니다. 프로그래밍 방식으로 지정한 위치에 작업창이 도킹된 상태로 유지되도록 하는 방법은 없습니다. 그러나 방향 변경을 검사하고 작업 창의 컨트롤이 올바른 방향으로 쌓이는지 확인할 수 있습니다. 자세한 내용은 [방법: 작업 창에서 컨트롤 레이아웃 관리](../vsto/how-to-manage-control-layout-on-actions-panes.md)합니다.
+> 최종 사용자는 언제든지 작업창의 위치를 수동으로 변경할 수 있습니다. 프로그래밍 방식으로 지정한 위치에 작업창이 도킹된 상태로 유지되도록 하는 방법은 없습니다. 그러나 방향 변경을 검사하고 작업 창의 컨트롤이 올바른 방향으로 쌓이는지 확인할 수 있습니다. 자세한 내용은 [방법: 작업 창에서 컨트롤 레이아웃 관리](../vsto/how-to-manage-control-layout-on-actions-panes.md)합니다.
 
  설정를 <xref:Microsoft.Office.Tools.ActionsPane.Top%2A> 및 <xref:Microsoft.Office.Tools.ActionsPane.Left%2A> 의 속성을 <xref:Microsoft.Office.Tools.ActionsPane> 때문에 해당 위치를 변경 하지 않습니다는 <xref:Microsoft.Office.Tools.ActionsPane> 개체가 작업창에 포함 된.
 

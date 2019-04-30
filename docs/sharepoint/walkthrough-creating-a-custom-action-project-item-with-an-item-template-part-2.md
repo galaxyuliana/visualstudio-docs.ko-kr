@@ -11,12 +11,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b71b092bcadef24e564b14dd215bc9c328aa8e7f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d9170c6ed32c7a807af8c869ca9616db3bdff683
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430463"
 ---
 # <a name="walkthrough-create-a-custom-action-project-item-with-an-item-template-part-2"></a>연습: 항목 템플릿, 2 부를 사용 하 여 사용자 지정 작업 프로젝트 항목 만들기
   사용자 지정 형식의 SharePoint 프로젝트 항목을 정의 하 고 Visual Studio에서 항목 템플릿을 사용 하 여 연결 후 템플릿에 대 한 마법사를 제공 하려면 수도 있습니다. 서식 파일 프로젝트에 프로젝트 항목의 새 인스턴스를 추가 하는 데 사용할 사용자 로부터 정보를 수집 하는 마법사를 사용할 수 있습니다. 정보를 수집 하는 프로젝트 항목을 초기화에 사용할 수 있습니다.
@@ -34,7 +34,7 @@ ms.locfileid: "60081140"
 - 디버깅 하 고 마법사를 테스트 합니다.
 
 > [!NOTE]
->  샘플을 다운로드할 수 있습니다 [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) 워크플로에 대 한 사용자 지정 활동을 만드는 방법을 보여 주는 합니다.
+> 샘플을 다운로드할 수 있습니다 [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) 워크플로에 대 한 사용자 지정 활동을 만드는 방법을 보여 주는 합니다.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 수행 하려면 먼저 만들어야 CustomActionProjectItem 솔루션 완료 하 여 [연습: 항목 템플릿, 1 부를 사용 하 여 사용자 지정 작업 프로젝트 항목을 만들어](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)합니다.
@@ -125,12 +125,12 @@ ms.locfileid: "60081140"
 2. XAML 보기에서 다음 XAML을 사용 하 여 현재 XAML을 대체 합니다. XAML 창의 맨 아래에 있는 탐색 단추 확인 하 고 사용자 지정 작업의 동작을 지정 하기 위한 컨트롤, 머리글을 포함 하는 UI를 정의 합니다.
 
     > [!NOTE]
-    >  프로젝트는이 코드를 추가 하면 컴파일 오류가 발생 해야 합니다. 이러한 오류가 사라집니다 이후 단계에서 코드를 추가 합니다.
+    > 프로젝트는이 코드를 추가 하면 컴파일 오류가 발생 해야 합니다. 이러한 오류가 사라집니다 이후 단계에서 코드를 추가 합니다.
 
      [!code-xml[SPExtensibility.ProjectItem.CustomAction#9](../sharepoint/codesnippet/Xaml/customactionprojectitem/itemtemplatewizard/wizardwindow.xaml#9)]
 
     > [!NOTE]
-    >  이 XAML에서 만든 창에서 파생 되는 <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> 기본 클래스입니다. Visual Studio를 사용자 지정 WPF 대화 상자를 추가 하면 Visual Studio의 다른 대화 상자와 일관성 있는 스타일을 모달 대화 상자를 사용 하 여 발생할 수 있는 문제를 방지 하려면이 클래스에서 대화 상자를 파생 하는 것이 좋습니다. 자세한 내용은 [만들고 모달 대화 상자 관리](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes)합니다.
+    > 이 XAML에서 만든 창에서 파생 되는 <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> 기본 클래스입니다. Visual Studio를 사용자 지정 WPF 대화 상자를 추가 하면 Visual Studio의 다른 대화 상자와 일관성 있는 스타일을 모달 대화 상자를 사용 하 여 발생할 수 있는 문제를 방지 하려면이 클래스에서 대화 상자를 파생 하는 것이 좋습니다. 자세한 내용은 [만들고 모달 대화 상자 관리](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes)합니다.
 
 3. Visual Basic 프로젝트를 개발 하는 경우 제거를 `ItemTemplateWizard` 에서 네임 스페이스를 `WizardWindow` 클래스 이름을 `x:Class` 특성을 `Window` 요소. 이 요소는 XAML의 첫 번째 줄에는입니다. 완료 되 면 첫 번째 줄에 다음 코드는 같아야 합니다.
 
@@ -314,7 +314,7 @@ ms.locfileid: "60081140"
      사용자 지정 작업은 패키지 및 지정 된 SharePoint 사이트에 배포 합니다 **사이트 URL** 프로젝트 및 웹 브라우저의 속성이이 사이트의 기본 페이지로 열립니다.
 
     > [!NOTE]
-    >  경우는 **스크립트 디버깅 사용 안 함** 대화 상자가 나타나면 선택 합니다 **예** 단추입니다.
+    > 경우는 **스크립트 디버깅 사용 안 함** 대화 상자가 나타나면 선택 합니다 **예** 단추입니다.
 
 2. SharePoint 사이트의 목록 영역에서 선택 합니다 **작업** 링크 합니다.
 

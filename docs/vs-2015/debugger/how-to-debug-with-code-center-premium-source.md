@@ -17,12 +17,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 88644f3bf768f1b3467467a31edbd83e8e5f151c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: db9a3e08e14e7fadca6df9e32361c0b042f565e9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438330"
 ---
 # <a name="how-to-debug-with-code-center-premium-source"></a>방법: Code Center Premium 소스로 사용 하 여 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,12 +56,12 @@ ms.locfileid: "60039879"
      `src=https://codepremium.msdn.microsoft.com/source/Visual%20Studio%202010/SP1/`  
   
    > [!NOTE]
-   >  후행 슬래시를 포함 해야<strong>/</strong> 경로의 끝입니다.  
+   > 후행 슬래시를 포함 해야<strong>/</strong> 경로의 끝입니다.  
   
      이러한 위치를 목록의 맨 위로 이동하여 해당 기호가 가장 먼저 로드되도록 합니다.  
   
    > [!NOTE]
-   >  이러한 Code Center Premium 위치는 가장 먼저 나열되어야 처음으로 로드되는 위치가 됩니다. Visual Studio 2010에서 위의 모든 서버를 이동할 수 없습니다는 **Microsoft 기호 서버** 항목 확인란의 선택을 취소 해야 하는 이유입니다.  
+   > 이러한 Code Center Premium 위치는 가장 먼저 나열되어야 처음으로 로드되는 위치가 됩니다. Visual Studio 2010에서 위의 모든 서버를 이동할 수 없습니다는 **Microsoft 기호 서버** 항목 확인란의 선택을 취소 해야 하는 이유입니다.  
    > 
    >  디버그 세션 중에 Microsoft 기호에서 기호를 로드하려면 다음을 수행합니다.  
    > 
@@ -113,7 +113,7 @@ ms.locfileid: "60039879"
     `https://codepremium.msdn.microsoft.com/source/Visual%20Studio%202010/SP1/`  
   
    > [!NOTE]
-   >  후행 슬래시를 포함 해야<strong>/</strong> 경로의 끝입니다.  
+   > 후행 슬래시를 포함 해야<strong>/</strong> 경로의 끝입니다.  
   
 4. 솔루션의 관리되는 프로젝트 각각에 대해 다음을 수행합니다.  
   

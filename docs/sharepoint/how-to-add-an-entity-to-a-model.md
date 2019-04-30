@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4c270ff9a31073835d8f907547cf0f532e237b1e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c7d74b731bd1857330c40a7929d84efe40a03201
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431244"
 ---
 # <a name="how-to-add-an-entity-to-a-model"></a>방법: 모델에 엔터티 추가
   엔터티를 만들려면 Visual Studio에서 엔터티 컨트롤을 추가 **도구 상자** 비즈니스 데이터 연결 (BDC) 디자이너에 있습니다.
@@ -40,7 +40,7 @@ ms.locfileid: "60089460"
      엔터티에 대해 새 식별자를 표시 됩니다.
 
     > [!NOTE]
-    >  엔터티 및 식별자의 이름을 변경할 수 있습니다 합니다 **속성** 창입니다.
+    > 엔터티 및 식별자의 이름을 변경할 수 있습니다 합니다 **속성** 창입니다.
 
 4. 클래스에서 엔터티의 필드를 정의 합니다. 프로젝트에 새 클래스를 추가 하거나 개체 관계형 디자이너 (O/R 디자이너)와 같은 다른 도구를 사용 하 여 만든 기존 클래스를 사용할 수 있습니다. 다음 예제에서는 Contact 라는 엔터티 클래스를 보여 줍니다.
 

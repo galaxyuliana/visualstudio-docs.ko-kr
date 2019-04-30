@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: edba26d951afb0ba2215af4c0a0eac09b1c31513
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: cbddf759841dbe9626868d6c00f42a0849d70520
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406837"
 ---
 # <a name="choose-a-clickonce-update-strategy"></a>ClickOnce 업데이트 전략 선택
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]는 애플리케이션 자동 업데이트를 제공할 수 있습니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션은 배포 매니페스트 파일을 주기적으로 읽어서 애플리케이션의 업데이트가 사용 가능한지 확인합니다. 사용 가능한 경우 새 버전의 응용 프로그램을 다운로드하여 실행합니다. 효율성을 위해 변경된 파일만 다운로드합니다.
@@ -31,10 +31,10 @@ ms.locfileid: "56608497"
  또한 응용 프로그램에서 업데이트를 확인하는 빈도를 결정하고 업데이트를 필수로 만들 수 있습니다.
 
 > [!NOTE]
->  응용 프로그램 업데이트를 사용하려면 네트워크 연결이 필요합니다. 네트워크에 연결되어 있지 않으면 선택한 업데이트 전략에 관계없이 응용 프로그램은 업데이트를 확인하지 않고 실행됩니다.
+> 응용 프로그램 업데이트를 사용하려면 네트워크 연결이 필요합니다. 네트워크에 연결되어 있지 않으면 선택한 업데이트 전략에 관계없이 응용 프로그램은 업데이트를 확인하지 않고 실행됩니다.
 
 > [!NOTE]
->  .NET Framework 2.0 및.NET Framework 3.0에서는 때마다 응용 프로그램 확인 업데이트 하기 전에 시작 후 또는 사용 하 여 합니다 \<xref:System.Deployment.Application > 설정한 Api `deploymentProvider` 배포 매니페스트에 합니다. Visual Studio에서 `deploymentProvider` 요소는 **게시** 탭의 **업데이트** 대화 상자에 있는 **업데이트 위치** 필드에 해당합니다. 이 규칙은 .NET Framework 3.5에서 완화되었습니다. 자세한 내용은 [배포 ClickOnce 응용 프로그램에 대 한 테스트 및 프로덕션 서버 Resigning 없이](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md)합니다.
+> .NET Framework 2.0 및.NET Framework 3.0에서는 때마다 응용 프로그램 확인 업데이트 하기 전에 시작 후 또는 사용 하 여 합니다 \<xref:System.Deployment.Application > 설정한 Api `deploymentProvider` 배포 매니페스트에 합니다. Visual Studio에서 `deploymentProvider` 요소는 **게시** 탭의 **업데이트** 대화 상자에 있는 **업데이트 위치** 필드에 해당합니다. 이 규칙은 .NET Framework 3.5에서 완화되었습니다. 자세한 내용은 [배포 ClickOnce 응용 프로그램에 대 한 테스트 및 프로덕션 서버 Resigning 없이](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md)합니다.
 
 ## <a name="check-for-updates-after-application-startup"></a>응용 프로그램 시작 후 업데이트 확인
  이 전략을 사용하면 응용 프로그램에서는 실행 중 백그라운드에서 배포 매니페스트 파일을 찾아 읽으려고 합니다. 사용 가능한 업데이트가 있을 경우 다음 번에 사용자가 응용 프로그램을 실행하면 업데이트를 다운로드하여 설치할지 묻는 메시지가 표시됩니다.
@@ -76,7 +76,7 @@ ms.locfileid: "56608497"
  사용자가 업데이트된 버전의 응용 프로그램을 실행하도록 해야 할 경우가 있습니다. 예를 들어, 이전 버전의 응용 프로그램이 올바로 작동하지 않게 하는 웹 서비스 같은 외부 리소스를 변경할 수 있습니다. 이 경우 업데이트를 필수로 표시하여 사용자가 이전 버전을 실행하지 못하도록 합니다.
 
 > [!NOTE]
->  다른 업데이트 전략을 사용하여 업데이트를 요구할 수도 있지만 이전 버전을 실행할 수 없게 하려면 **애플리케이션 시작 전**을 선택해야 합니다. 시작 시 필수 업데이트가 발견되면 사용자는 업데이트를 적용하거나 응용 프로그램을 닫아야 합니다.
+> 다른 업데이트 전략을 사용하여 업데이트를 요구할 수도 있지만 이전 버전을 실행할 수 없게 하려면 **애플리케이션 시작 전**을 선택해야 합니다. 시작 시 필수 업데이트가 발견되면 사용자는 업데이트를 적용하거나 응용 프로그램을 닫아야 합니다.
 
  업데이트를 필수로 표시하려면 **애플리케이션 업데이트** 대화 상자에서 **이 애플리케이션에 필요한 최소 버전 지정**을 클릭하고 **주 버전**, **부 버전**, **빌드 버전** 및 **수정 버전**으로 구성된 게시 버전을 지정합니다. 이렇게 하면 설치할 수 있는 최하위 버전의 애플리케이션이 지정됩니다.
 
@@ -116,7 +116,7 @@ ms.locfileid: "56608497"
 
  신뢰할 수 있는 응용 프로그램 배포를 사용할 경우 신뢰 수준에 대한 메시지가 표시되지 않습니다. 자세한 내용은 [신뢰할 수 있는 애플리케이션 배포 개요](../deployment/trusted-application-deployment-overview.md)를 참조하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
  \<xref:System.Deployment.Application>
 - [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)
 - [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)

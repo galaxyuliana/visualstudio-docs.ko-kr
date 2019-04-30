@@ -13,12 +13,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: e27892859dd58add2f505fa04e21faac5576a80b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 91f81036345e647820353911356c01b7c4caff99
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426559"
 ---
 # <a name="implementing-custom-code-analysis-check-in-policies-for-managed-code"></a>관리 코드에 대한 사용자 지정 코드 분석 체크 인 정책 구현
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "60088758"
  팀 프로젝트에 대 한 설정 사용자 지정 규칙을 만들려면 먼저 만들어야 체크 인 정책 규칙 집합에 대 한 특수 폴더 **소스 제어 탐색기**합니다. 규칙 집합 파일을 만들고 파일을 버전 제어에 추가 합니다. 마지막으로 코드 분석 체크 인 정책에 따라 팀 프로젝트에 대 한로 규칙을 지정 합니다.  
   
 > [!NOTE]
->  팀 프로젝트의 폴더를 만들려면 먼저 매핑해야 팀 프로젝트 루트 로컬 컴퓨터의 위치에 있습니다. 자세한 내용은 [만들기 및 작업 영역 (이전)](http://msdn.microsoft.com/db4d5692-179a-44fe-ad31-0c1c900c9cb2)합니다.  
+> 팀 프로젝트의 폴더를 만들려면 먼저 매핑해야 팀 프로젝트 루트 로컬 컴퓨터의 위치에 있습니다. 자세한 내용은 [만들기 및 작업 영역 (이전)](http://msdn.microsoft.com/db4d5692-179a-44fe-ad31-0c1c900c9cb2)합니다.  
   
 #### <a name="to-create-the-version-control-folder-for-the-check-in-policy-rule-set"></a>체크 인 정책에 규칙 집합에 대 한 버전 제어 폴더를 만들려면  
   
@@ -72,7 +72,7 @@ ms.locfileid: "60088758"
 4. 에 **체크 인할** 설명을 추가 하 고 클릭 하는 옵션도 있습니다 대화 상자에서 **체크**합니다.  
   
     > [!NOTE]
-    >  선택한 팀 프로젝트에 대 한 코드 분석 체크 인 정책을 이미 구성한 경우 합니다 **현재 솔루션의 일부인 파일만 포함 하도록 체크 인 적용**, 정책 오류 경고가 트리거됩니다. 정책 실패 대화 상자에서 선택 **정책 실패를 무시 하 고 체크 인 계속**합니다. 필요한 설명을 추가 하 고 클릭 **확인**합니다.  
+    > 선택한 팀 프로젝트에 대 한 코드 분석 체크 인 정책을 이미 구성한 경우 합니다 **현재 솔루션의 일부인 파일만 포함 하도록 체크 인 적용**, 정책 오류 경고가 트리거됩니다. 정책 실패 대화 상자에서 선택 **정책 실패를 무시 하 고 체크 인 계속**합니다. 필요한 설명을 추가 하 고 클릭 **확인**합니다.  
   
 #### <a name="to-specify-the-rule-set-file-as-the-check-in-policy"></a>규칙을 지정 하려면 파일 체크 인 정책으로 설정  
   
@@ -91,7 +91,7 @@ ms.locfileid: "60088758"
      **$/** `TeamProjectName` **/** `VersionControlPath`  
   
     > [!NOTE]
-    >  다음 절차 중 하나를 사용 하 여 경로 복사할 수 있습니다 **소스 제어 탐색기**:  
+    > 다음 절차 중 하나를 사용 하 여 경로 복사할 수 있습니다 **소스 제어 탐색기**:  
   
     - 에 **폴더** 창 규칙 집합 파일을 포함 하는 폴더를 클릭 합니다. 에 표시 되는 폴더의 버전 제어 경로 복사 합니다 **원본** 규칙 집합 파일의 이름을 수동으로 입력 합니다.  
   

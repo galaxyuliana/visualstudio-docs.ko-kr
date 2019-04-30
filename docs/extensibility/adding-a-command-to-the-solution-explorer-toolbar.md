@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e6eadc98ccdc0960e4b4bc400a94f06b90fe89bd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 50b782beeb0496d781bcb6e9bd15f70278c4db73
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63410159"
 ---
 # <a name="add-a-command-to-the-solution-explorer-toolbar"></a>솔루션 탐색기 도구 모음에 명령 추가
 이 연습에서는 단추를 추가 하는 방법을 보여 줍니다.는 **솔루션 탐색기** 도구 모음입니다.
@@ -27,7 +27,7 @@ ms.locfileid: "60069499"
  메뉴, 도구 모음 명령에 대 한 자세한 내용은 및 *.vsct* 파일을 참조 하십시오 [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)합니다.
 
 > [!NOTE]
->  XML 명령 테이블을 사용 하 여 (*.vsct*) 대신 명령 테이블 구성 파일 (*.ctc*)에 Vspackage의 메뉴 및 명령을 표시 하는 방법을 정의 하는 파일입니다. 자세한 내용은 참조 하세요. [Visual Studio 명령 테이블 (합니다. Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)합니다.
+> XML 명령 테이블을 사용 하 여 (*.vsct*) 대신 명령 테이블 구성 파일 (*.ctc*)에 Vspackage의 메뉴 및 명령을 표시 하는 방법을 정의 하는 파일입니다. 자세한 내용은 참조 하세요. [Visual Studio 명령 테이블 (합니다. Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)합니다.
 
 ## <a name="prerequisites"></a>전제 조건
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.

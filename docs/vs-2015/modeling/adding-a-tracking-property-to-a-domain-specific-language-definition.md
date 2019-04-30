@@ -13,12 +13,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6b2b3f87084d4bb1a64f2c43f860c7b8bcaae64c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4d53cdee5d92a92bb7405d1ecfb669e6de25a5a0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432387"
 ---
 # <a name="adding-a-tracking-property-to-a-domain-specific-language-definition"></a>도메인별 언어 정의에 추적 속성 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -248,7 +248,7 @@ ms.locfileid: "60070487"
  구현 된 `GetCustomProperties` 에 대 한 형식 설명자에 대 한 메서드는 `ExampleModel` 도메인 클래스입니다.  
   
 > [!NOTE]
->  DSL 도구에 대 한 사용자 지정 형식 설명자에 대해 생성 하는 코드 `ExampleModel` 호출 `GetCustomProperties`하지만 DSL 도구는 메서드를 구현 하는 코드를 생성 하지 않습니다.  
+> DSL 도구에 대 한 사용자 지정 형식 설명자에 대해 생성 하는 코드 `ExampleModel` 호출 `GetCustomProperties`하지만 DSL 도구는 메서드를 구현 하는 코드를 생성 하지 않습니다.  
   
  추적이이 메서드를 정의 하면 추적 속성 Namespace에 대 한 속성 설명자입니다. 또한 사용 추적 속성에 대 한 특성을 제공 합니다 **속성** 창에 속성을 올바르게 표시 합니다.  
   
@@ -344,7 +344,7 @@ ms.locfileid: "60070487"
  구현 된 `GetCustomElementsValue` 에 대 한 메서드는 `ExampleModel` 도메인 클래스입니다.  
   
 > [!NOTE]
->  DSL 도구에 대 한 생성 하는 코드 `ExampleModel` 호출 `GetCustomElementsValue`하지만 DSL 도구는 메서드를 구현 하는 코드를 생성 하지 않습니다.  
+> DSL 도구에 대 한 생성 하는 코드 `ExampleModel` 호출 `GetCustomElementsValue`하지만 DSL 도구는 메서드를 구현 하는 코드를 생성 하지 않습니다.  
   
  정의 된 `GetCustomElementsValue` CustomElements 계산 된 속성에 대 한 논리를 제공 하는 메서드 `ExampleModel`합니다. 이 메서드는 횟수를 계산 `ExampleElement` 사용자 업데이트 값이 모델의 총 요소에 대 한 비율로이 개수를 나타내는 문자열을 반환 하는 속성을 추적 하는 Namespace 있는 도메인 클래스입니다.  
   
@@ -425,7 +425,7 @@ ms.locfileid: "60070487"
  또한, 저장소 및 가져오고의 Namespace 사용자 지정 저장소 속성을 설정 하는 메서드를 추가 합니다 `ExampleElement` 도메인 클래스입니다.  
   
 > [!NOTE]
->  하지만 DSL 도구에 대 한 생성 하는 코드 `ExampleModel` get 호출 메서드를 설정 하 고 DSL 도구 메서드를 구현 하는 코드를 생성 하지 않습니다 됩니다.  
+> 하지만 DSL 도구에 대 한 생성 하는 코드 `ExampleModel` get 호출 메서드를 설정 하 고 DSL 도구 메서드를 구현 하는 코드를 생성 하지 않습니다 됩니다.  
   
 #### <a name="to-add-the-method-for-the-custom-type-descriptor"></a>사용자 지정 형식 설명자에 대 한 메서드를 추가 하려면  
   
@@ -591,7 +591,7 @@ ms.locfileid: "60070487"
  XML serialization에 대 한 사용자 지정 후 로드 동작을 지 원하는 코드를 추가 합니다.  
   
 > [!NOTE]
->  그러나 DSL 도구는 호출을 생성 하는 코드를 `OnPostLoadModel` 및 `OnPostLoadModelAndDiagram` 메서드 DSL 도구는 이러한 메서드를 구현 하는 코드 생성 하지 않습니다.  
+> 그러나 DSL 도구는 호출을 생성 하는 코드를 `OnPostLoadModel` 및 `OnPostLoadModelAndDiagram` 메서드 DSL 도구는 이러한 메서드를 구현 하는 코드 생성 하지 않습니다.  
   
 #### <a name="to-add-code-to-support-the-custom-post-load-behavior"></a>사용자 지정 로드 후 동작을 지원 하도록 코드를 추가 하려면  
   

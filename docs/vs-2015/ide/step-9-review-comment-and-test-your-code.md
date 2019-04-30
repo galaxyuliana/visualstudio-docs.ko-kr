@@ -9,12 +9,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f601c9cc404d605d5fb0ddf7ad149a595f77ef77
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c3fec670f7516d28e20b43b0e1968782a496ef49
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428577"
 ---
 # <a name="step-9-review-comment-and-test-your-code"></a>9단계: 코드 검토, 주석 처리 및 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,10 +55,10 @@ ms.locfileid: "60059866"
      [!code-vb[VbExpressTutorial1Step9_10#1](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/vb/form1.vb#1)]  
   
     > [!NOTE]
-    >  이제 **showButton** 단추의 Click 이벤트 처리기가 완성되어 작동합니다. `if` 문으로 시작하는 코드 작성을 시작했습니다. `if` 문은 "한 가지 사항을 확인하고 true일 경우 해당 작업을 수행"하라고 프로그램에 지시합니다. 이 자습서에서는 **파일 열기** 대화 상자를 연 다음 사용자가 파일을 선택하고 **확인** 단추를 선택하면 PictureBox에 파일을 로드하도록 프로그램에 지시합니다.  
+    > 이제 **showButton** 단추의 Click 이벤트 처리기가 완성되어 작동합니다. `if` 문으로 시작하는 코드 작성을 시작했습니다. `if` 문은 "한 가지 사항을 확인하고 true일 경우 해당 작업을 수행"하라고 프로그램에 지시합니다. 이 자습서에서는 **파일 열기** 대화 상자를 연 다음 사용자가 파일을 선택하고 **확인** 단추를 선택하면 PictureBox에 파일을 로드하도록 프로그램에 지시합니다.  
   
     > [!TIP]
-    >  IDE는 사용자가 코드를 손쉽게 작성할 수 있도록 하기 위한 것으로, *코드 조각*이라는 기능을 제공합니다. 조각은 작은 코드 블록으로 확장되는 바로 가기입니다.  
+    > IDE는 사용자가 코드를 손쉽게 작성할 수 있도록 하기 위한 것으로, *코드 조각*이라는 기능을 제공합니다. 조각은 작은 코드 블록으로 확장되는 바로 가기입니다.  
     >   
     >  사용 가능한 모든 코드 조각을 볼 수 있습니다. 메뉴 모음에서 **도구**, **코드 조각 관리자**를 차례로 선택합니다. Visual C#의 경우 `if` 코드 조각이 **Visual C#** 에 있습니다. Visual Basic의 경우 `if` 코드 조각이 **조건 및 루프**, **코드 패턴**에 있습니다. 이 관리자를 사용하여 기존 조각을 찾거나 사용자 고유의 조각을 추가할 수 있습니다.  
     >   
@@ -83,7 +83,7 @@ Picture Viewer
 2. **그림 표시** 단추를 선택하여 방금 작성한 코드를 실행합니다. 프로그램에서 **파일 열기** 대화 상자가 열립니다. 대화 상자의 맨 아래에 있는 **파일 형식** 드롭다운 목록에 사용자의 필터가 있는지 확인합니다. 그런 다음 그림을 찾아서 엽니다. 일반적으로 **내 문서** 폴더의 **My Pictures\Sample Pictures** 폴더에서 Windows 운영 체제와 함께 제공되는 샘플 그림을 찾을 수 있습니다.  
   
     > [!NOTE]
-    >  **그림 파일 선택** 대화 상자에 이미지가 표시되지 않는 경우 대화 상자 오른쪽 아래에 있는 드롭다운 목록에서 "모든 파일(*.\*)" 필터가 선택되어 있는지 확인하십시오.  
+    > **그림 파일 선택** 대화 상자에 이미지가 표시되지 않는 경우 대화 상자 오른쪽 아래에 있는 드롭다운 목록에서 "모든 파일(*.\*)" 필터가 선택되어 있는지 확인하십시오.  
   
 3. 그림을 로드합니다. 로드된 그림은 PictureBox에 표시됩니다. 그런 다음 폼 테두리를 끌어서 폼 크기를 조정해 봅니다. 자동으로 폼 안에 도킹되는 TableLayoutPanel 안에 PictureBox가 도킹되기 때문에 그림 영역은 폼과 같은 너비로 폼의 위쪽 90퍼센트를 차지하도록 크기가 조정됩니다. 이유는 TableLayoutPanel 및 FlowLayoutPanel 컨테이너를 사용 합니다. 사용자가 양식의 크기를 조정할 때 양식의 크기가 올바르게 조정되기 때문입니다.  
   

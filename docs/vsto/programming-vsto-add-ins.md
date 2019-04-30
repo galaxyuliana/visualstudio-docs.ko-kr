@@ -32,12 +32,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6b9b809750e658b6a5e496e2d90b7b396157f87a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e5de89bdeade136577e05c700ec242a956a03455
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425844"
 ---
 # <a name="program-vsto-add-ins"></a>VSTO 추가 기능 프로그래밍
   VSTO 추가 기능을 만들어 Microsoft Office 애플리케이션을 확장하는 경우 프로젝트의 `ThisAddIn` 클래스에 대해 직접 코드를 작성합니다. 이 클래스를 사용하여 Microsoft Office 호스트 애플리케이션의 개체 모델 액세스, 애플리케이션의 UI(사용자 인터페이스) 사용자 지정, 다른 Office 솔루션에 VSTO 추가 기능의 개체 표시 등의 작업을 수행할 수 있습니다.
@@ -54,7 +54,7 @@ ms.locfileid: "60079021"
  `ThisAddIn` 클래스에는 두 가지 기본 이벤트 처리기가 있습니다. VSTO 추가 기능이 로드될 때 코드를 실행하려면 `ThisAddIn_Startup` 이벤트 처리기에 코드를 추가합니다. VSTO 추가 기능이 언로드되기 직전에 코드를 실행하려면 `ThisAddIn_Shutdown` 이벤트 처리기에 코드를 추가합니다. 이러한 이벤트 처리기에 대 한 자세한 내용은 참조 하세요. [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)합니다.
 
 > [!NOTE]
->  Outlook에서는 기본적으로 VSTO 추가 기능이 언로드될 때 `ThisAddIn_Shutdown` 이벤트 처리기가 항상 호출되지는 않습니다. 자세한 내용은 [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)합니다.
+> Outlook에서는 기본적으로 VSTO 추가 기능이 언로드될 때 `ThisAddIn_Shutdown` 이벤트 처리기가 항상 호출되지는 않습니다. 자세한 내용은 [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)합니다.
 
 ### <a name="access-the-object-model-of-the-host-application"></a>호스트 응용 프로그램의 개체 모델 액세스
  호스트 애플리케이션의 개체 모델에 액세스하려면 `Application` 클래스의 `ThisAddIn` 필드를 사용합니다. 이 필드는 호스트 애플리케이션의 현재 인스턴스를 나타내는 개체를 반환합니다. 다음 표에서는 각 VSTO 추가 기능 프로젝트에서 `Application` 필드에 대한 반환 값의 형식을 보여 줍니다.

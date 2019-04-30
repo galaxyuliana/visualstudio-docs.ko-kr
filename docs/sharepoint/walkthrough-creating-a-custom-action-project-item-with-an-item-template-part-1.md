@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7397da630a5fd6f2c649d6f448627d7c77c55128
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9417c2116dde909bda948e7d9140d7f52b090d68
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430484"
 ---
 # <a name="walkthrough-create-a-custom-action-project-item-with-an-item-template-part-1"></a>연습: 항목 템플릿, 1 부를 사용 하 여 사용자 지정 작업 프로젝트 항목 만들기
   고유한 프로젝트 항목 형식을 생성 하 여 Visual Studio에서 SharePoint 프로젝트 시스템을 확장할 수 있습니다. 이 연습에서는 SharePoint 사이트에서 사용자 지정 작업을 만들려면 SharePoint 프로젝트에 추가할 수 있는 프로젝트 항목을 만들게 됩니다. 사용자 지정 작업에 메뉴 항목을 추가 합니다 **사이트 작업** SharePoint 사이트의 메뉴.
@@ -44,7 +44,7 @@ ms.locfileid: "60059125"
   독립 실행형 연습입니다. 이 연습을 완료 한 후 마법사 항목 템플릿을 추가 하 여 프로젝트 항목을 개선할 수 있습니다. 자세한 내용은 [연습: 항목 템플릿, 2 부를 사용 하 여 사용자 지정 작업 프로젝트 항목을 만들어](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md)합니다.
 
 > [!NOTE]
->  샘플을 다운로드할 수 있습니다 [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) 워크플로에 대 한 사용자 지정 활동을 만드는 방법을 보여 주는 합니다.
+> 샘플을 다운로드할 수 있습니다 [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) 워크플로에 대 한 사용자 지정 활동을 만드는 방법을 보여 주는 합니다.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료 하려면 개발 컴퓨터의 다음 구성 요소가 필요 합니다.
@@ -81,7 +81,7 @@ ms.locfileid: "60059125"
 4. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 노드를 선택한 후 합니다 **확장성** 노드.
 
     > [!NOTE]
-    >  합니다 **확장성** 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
+    > 합니다 **확장성** 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
 
 5. 선택 된 **VSIX 프로젝트** 템플릿.
 
@@ -164,7 +164,7 @@ ms.locfileid: "60059125"
 2. 프로젝트 항목의 목록에서 선택 합니다 **아이콘 파일** 항목입니다.
 
     > [!NOTE]
-    >  Visual Basic 프로젝트에서 선택 해야 합니다 **일반** 표시할 노드를 **아이콘 파일** 항목입니다.
+    > Visual Basic 프로젝트에서 선택 해야 합니다 **일반** 표시할 노드를 **아이콘 파일** 항목입니다.
 
 3. 에 **이름** 상자에 입력 합니다 **CustomAction_SolutionExplorer.ico**를 선택한 후는 **추가** 단추입니다.
 
@@ -197,7 +197,7 @@ ms.locfileid: "60059125"
 3. 파일의 내용을 다음 XML을 바꿉니다 하 고 저장 한 다음 파일을 닫습니다.
 
     > [!NOTE]
-    >  Visual C# 항목 템플릿에 대 한 다음 XML은입니다. Visual Basic 항목 템플릿을 만들려는 경우 대체 값을 `ProjectType` 요소 `VisualBasic`합니다.
+    > Visual C# 항목 템플릿에 대 한 다음 XML은입니다. Visual Basic 항목 템플릿을 만들려는 경우 대체 값을 `ProjectType` 요소 `VisualBasic`합니다.
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -310,7 +310,7 @@ ms.locfileid: "60059125"
 6. 에 **형식** 목록에서 선택 **Microsoft.VisualStudio.ItemTemplate**합니다.
 
     > [!NOTE]
-    >  이 값에 해당 하는 `ItemTemplate` extension.vsixmanifest 파일의 요소입니다. 이 요소는 프로젝트 항목 템플릿이 포함 된 VSIX 패키지의 하위 폴더를 식별 합니다. 자세한 내용은 [ItemTemplate 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393681\(v\=vs.100\))합니다.
+    > 이 값에 해당 하는 `ItemTemplate` extension.vsixmanifest 파일의 요소입니다. 이 요소는 프로젝트 항목 템플릿이 포함 된 VSIX 패키지의 하위 폴더를 식별 합니다. 자세한 내용은 [ItemTemplate 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393681\(v\=vs.100\))합니다.
 
 7. 에 **소스** 목록에서 선택 **현재 솔루션의 프로젝트**합니다.
 
@@ -323,7 +323,7 @@ ms.locfileid: "60059125"
 10. 에 **형식** 목록에서 선택 **Microsoft.VisualStudio.MefComponent**합니다.
 
     > [!NOTE]
-    >  이 값에 해당 하는 `MefComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
+    > 이 값에 해당 하는 `MefComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
 
 11. 에 **소스** 목록에서 선택 **현재 솔루션의 프로젝트**합니다.
 
@@ -425,7 +425,7 @@ ms.locfileid: "60059125"
      사용자 지정 작업 이며 패키지에서 지정 된 SharePoint 사이트에 배포 합니다 **사이트 URL** 프로젝트의 속성입니다. 웹 브라우저에서이 사이트의 기본 페이지로 열립니다.
 
     > [!NOTE]
-    >  경우는 **스크립트 디버깅 사용 안 함** 선택 대화 상자가 나타나면 합니다 **예** 프로젝트 디버그를 계속 하려면 단추입니다.
+    > 경우는 **스크립트 디버깅 사용 안 함** 선택 대화 상자가 나타나면 합니다 **예** 프로젝트 디버그를 계속 하려면 단추입니다.
 
 4. 에 **사이트 작업** 메뉴 선택 **SharePoint 개발자 센터**, 브라우저가 열리고 웹 사이트를 확인 https://docs.microsoft.com/sharepoint/dev/, 한 다음 웹 브라우저를 닫습니다.
 

@@ -14,12 +14,12 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 442181aa78e539471aa35feb96ec7503e09a97ec
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 53f65b54888c254c93e72aafa00e239f95d85ddf
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416853"
 ---
 # <a name="how-to-customize-class-diagrams-class-designer"></a>방법: 클래스 다이어그램 사용자 지정(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60065833"
  예를 들어 다이어그램의 어디에서나 전체 클래스 다이어그램의 확대/축소 수준을 조정하고, 개별 형식 멤버의 그룹화 및 정렬 방법을 변경하고, 관계를 숨기거나 표시하고, 개별 형식 또는 형식의 집합을 이동할 수 있습니다.  
   
 > [!NOTE]
->  도형이 다이어그램에 나타나는 방식을 사용자 지정해도 다이어그램에 나타나는 형식에 대한 내부 코드가 변경되지 않습니다.  
+> 도형이 다이어그램에 나타나는 방식을 사용자 지정해도 다이어그램에 나타나는 형식에 대한 내부 코드가 변경되지 않습니다.  
   
  클래스의 속성 섹션과 같이 형식 멤버가 포함된 섹션을 구획이라고 합니다. 개별 구획 및 형식 멤버를 숨기거나 표시할 수 있습니다.  
   
@@ -64,7 +64,7 @@ ms.locfileid: "60065833"
      특정 확대/축소 값을 지정합니다. **확대/축소** 드롭다운 목록을 사용하거나 유효한 확대/축소 수준(유효 범위: 10%~400%)을 입력할 수 있습니다.  
   
     > [!NOTE]
-    >  확대/축소 수준을 변경해도 클래스 다이어그램의 출력 배율에는 영향을 주지 않습니다.  
+    > 확대/축소 수준을 변경해도 클래스 다이어그램의 출력 배율에는 영향을 주지 않습니다.  
   
 ## <a name="CustomizeGroupingSorting"></a> 형식 멤버의 그룹화 및 정렬 사용자 지정  
   

@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 85c3e70fd1d88bfa82d1aa55fe27505414986415
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 5be4e6546d5900fbd3274ab1eb8d55622fb2c58b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406779"
 ---
 # <a name="server-and-client-configuration-issues-in-clickonce-deployments"></a>ClickOnce 배포 시 서버 및 클라이언트 구성 문제
 인터넷 정보 서비스 (IIS)를 사용 하 여 Windows Server에서 배포에는 Windows에서 인식 하지 못하는 파일 형식을 포함 하 고 Microsoft Word 파일을 같은 IIS는 해당 파일을 전송할 거부 하 고 배포에 실패 합니다.
@@ -57,7 +57,7 @@ ms.locfileid: "59654089"
  현재 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 설치 배포 매니페스트 URL을 Internet Explorer를 사용 하 여 열려 있는 경우에 시작 됩니다. Microsoft Office Outlook과 같은 다른 응용 프로그램에서 URL를 시작 하는 배포는 Internet Explorer는 기본 웹 브라우저로 설정 된 경우에 성공적으로 시작 됩니다.
 
 > [!NOTE]
->  Mozilla Firefox는 비어 있지 배포 공급자 또는 Microsoft.NET Framework Assistant 확장은 설치 하는 경우 지원 됩니다. 이 확장은.NET Framework 3.5 SP1을 사용 하 여 패키지 됩니다. XBAP 지원에 대 한 플러그 인 NPWPF 필요할 때 활성화 됩니다.
+> Mozilla Firefox는 비어 있지 배포 공급자 또는 Microsoft.NET Framework Assistant 확장은 설치 하는 경우 지원 됩니다. 이 확장은.NET Framework 3.5 SP1을 사용 하 여 패키지 됩니다. XBAP 지원에 대 한 플러그 인 NPWPF 필요할 때 활성화 됩니다.
 
 ## <a name="activate-clickonce-applications-through-browser-scripting"></a>브라우저에서 스크립팅을 통해 ClickOnce 응용 프로그램 활성화
  시작 하는 사용자 지정 웹 페이지를 개발한 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 액티브 스크립팅을 사용 하 여 응용 프로그램 일부 컴퓨터에서 응용 프로그램 시작 되지 않는 경우가 있습니다. 이라는 설정을 포함 하는 Internet Explorer **파일 다운로드에 대 한 자동 확인**는이 동작에 영향을 줍니다. 이 설정의 수를 **보안** 탭에서 해당 **옵션** 이 동작에 영향을 주는 메뉴. 라고 **파일 다운로드에 대 한 자동 확인**, 아래에 표시 되는 **다운로드** 범주입니다. 속성 설정할지 **사용 하도록 설정** 인트라넷 웹 페이지를 기본적으로 **사용 하지 않도록 설정** 인터넷 웹 페이지는 기본적으로 합니다. 이 설정 설정 된 경우 **사용 하지 않도록 설정**를 활성화 하려고를 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 프로그래밍 방식으로 (예를 들어, 해당 URL을 할당 하 여는 `document.location` 속성) 차단 됩니다. 이러한 상황에서는 사용자가 시작할 수만 사용자가 시작한 다운로드를 통해 응용 프로그램 예를 들어, 응용 프로그램의 URL로 하이퍼링크를 클릭 하 여 합니다.
@@ -75,7 +75,7 @@ ms.locfileid: "59654089"
 ```
 
 > [!NOTE]
->  기본 자격 증명 이외의 자격 증명을 요구 하는 사이트를 클릭 하면 보안 대화 상자에서 작동 하는 NTLM (NT 챌린지-응답) 인증을 할 수 있습니다 **확인** 제공 된 저장 하려는 경우 메시지가 나타나면 이후 세션에 대 한 자격 증명입니다. 그러나이 해결 방법은 기본 인증에 대 한 작동 하지 않습니다.
+> 기본 자격 증명 이외의 자격 증명을 요구 하는 사이트를 클릭 하면 보안 대화 상자에서 작동 하는 NTLM (NT 챌린지-응답) 인증을 할 수 있습니다 **확인** 제공 된 저장 하려는 경우 메시지가 나타나면 이후 세션에 대 한 자격 증명입니다. 그러나이 해결 방법은 기본 인증에 대 한 작동 하지 않습니다.
 
 ## <a name="use-third-party-web-servers"></a>타사 웹 서버를 사용 합니다.
  배포 하는 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] IIS 이외의 웹 서버에서 응용 프로그램에 문제가 발생할 수는 서버 키에 대 한 잘못 된 콘텐츠 형식을 반환 하는 경우 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 같은 배포 매니페스트와 응용 프로그램 매니페스트 파일. 이 문제를 해결 하려면 준비에서 서버에 새 콘텐츠 형식을 추가 하 고 모든 파일 이름 확장명 매핑이 다음 표에 나열 되는지 확인 하는 방법에 대 한 설명서는 웹 서버의 도움말을 참조 하십시오.

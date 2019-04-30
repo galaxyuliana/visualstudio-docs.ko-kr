@@ -24,12 +24,12 @@ caps.latest.revision: 33
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b56f926006b952b0e92a791e36bb821f3df0197d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 54160bbdfe834a1b3226f4445b862c151bcf35c3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63423273"
 ---
 # <a name="code-access-security-for-clickonce-applications"></a>ClickOnce 애플리케이션의 코드 액세스 보안
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ClickOnce 애플리케이션은 .NET Framework를 기반으로 하며 코드 액
 - 애플리케이션에 완전 신뢰 권한이 필요한 경우 애플리케이션에 사용 권한을 부여하라는 메시지가 최종 사용자에게 표시될 수도 있습니다. 이는 애플리케이션에서 실제로 ClickOnce 환경을 제공하지 않고 경험이 적은 사용자에게 프롬프트가 혼동을 줄 수 있음을 의미합니다.  
   
   > [!NOTE]
-  >  CD-ROM과 같은 이동식 미디어에서 애플리케이션을 설치하는 경우 사용자에게 메시지가 표시되지 않습니다. 또한 신뢰할 수 있는 소스에서 애플리케이션을 설치하는 경우 사용자에게 메시지를 표시하지 않도록 네트워크 관리자가 네트워크 정책을 구성할 수 있습니다. 자세한 내용은 [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)을 참조하십시오.  
+  > CD-ROM과 같은 이동식 미디어에서 애플리케이션을 설치하는 경우 사용자에게 메시지가 표시되지 않습니다. 또한 신뢰할 수 있는 소스에서 애플리케이션을 설치하는 경우 사용자에게 메시지를 표시하지 않도록 네트워크 관리자가 네트워크 정책을 구성할 수 있습니다. 자세한 내용은 [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)을 참조하십시오.  
   
   ClickOnce 애플리케이션의 사용 권한을 제한하기 위해 애플리케이션에 필요한 사용 권한에 가장 맞는 영역을 애플리케이션이 요청하도록 코드 액세스 보안 권한을 수정할 수 있습니다. 대부분의 경우 애플리케이션이 배포되는 영역을 선택할 수 있습니다. 예를 들어 애플리케이션이 엔터프라이즈 애플리케이션인 경우 **로컬 인트라넷** 영역을 사용할 수 있습니다. 애플리케이션이 인터넷 애플리케이션인 경우 **인터넷** 영역을 사용할 수 있습니다.  
   

@@ -12,12 +12,12 @@ ms.assetid: 98a5d527-8a72-476c-8e92-0bff3d97c195
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 17bf401b9992d156fdaba60ae46bffde6f8ce8cc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 5cf5941ff75360c64add85e72a4c02c3ad716309
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63405677"
 ---
 # <a name="idebugprocess3getencavailablestate"></a>IDebugProcess3::GetENCAvailableState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ int GetENCAvailableState(
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
 > [!NOTE]
->  사용자 지정 포트 공급자는 항상 반환 `E_NOTIMPL`합니다.  
+> 사용자 지정 포트 공급자는 항상 반환 `E_NOTIMPL`합니다.  
   
 ## <a name="remarks"></a>설명  
  이 상태는 따라 달라질 수 있습니다 [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md)합니다.  

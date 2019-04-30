@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dcff0d559894e8d4ba322e4e8ebab71000a3809e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 45a65259c88eb9e8e946aa226eecc7cffa053552
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60083558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415613"
 ---
 # <a name="send-the-required-events"></a>필요한 이벤트 보내기
 필요한 이벤트를 보내는 데이 절차를 따르십시오.
@@ -34,7 +34,7 @@ ms.locfileid: "60083558"
 5. 보내는 응용 프로그램 디버깅을 시작 된 경우는 [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) SDM 런타임 아키텍처에서 코드의 첫 번째 명령 실행 될 때 이벤트 개체입니다. 이 이벤트는 항상 중지 이벤트가입니다. 디버깅 세션을 한 단계씩 실행을 IDE이이 이벤트에서 중지 됩니다.
 
 > [!NOTE]
->  다양 한 언어 코드의 시작 부분 (CRT 라이브러리 (_m))에서 미리 컴파일된 외부 함수 또는 전역 이니셜라이저를 사용합니다. 디버깅 중인 프로그램의 언어 요소는 초기 진입점 보다 먼저 이러한 형식 중 하나를 포함,이 코드가 실행 되 고 항목 지점 이벤트가 전송 된 경우 사용자 진입점와 같은 **주** 또는 `WinMain`에 에 도달 했습니다.
+> 다양 한 언어 코드의 시작 부분 (CRT 라이브러리 (_m))에서 미리 컴파일된 외부 함수 또는 전역 이니셜라이저를 사용합니다. 디버깅 중인 프로그램의 언어 요소는 초기 진입점 보다 먼저 이러한 형식 중 하나를 포함,이 코드가 실행 되 고 항목 지점 이벤트가 전송 된 경우 사용자 진입점와 같은 **주** 또는 `WinMain`에 에 도달 했습니다.
 
 ## <a name="see-also"></a>참고자료
 - [디버그할 프로그램을 사용 하도록 설정](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)

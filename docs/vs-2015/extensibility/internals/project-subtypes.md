@@ -11,12 +11,12 @@ ms.assetid: d235b47b-cf11-4d47-a63f-e33d9d16105d
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2e1fe4a2ad528ac32bdd0b3535a8566f630b970e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 5ad1e105d43c40782b13d8799b20626e57363c2f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63421839"
 ---
 # <a name="project-subtypes"></a>프로젝트 하위 형식
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "58972331"
 프로젝트 하위 형식을 사용 하면 사용자 지정 하거나의 프로젝트 시스템의 동작을 flavor [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다. 사용자 지정 포함 프로젝트 파일을 추가 하거나 항목을 필터링의 추가 데이터를 저장 합니다 **새 항목 추가** 어셈블리는 디버깅 및 배포 하는 방법을 제어 하 고 대화 상자에서 프로젝트를 확장 하 고 **속성 페이지** 대화 상자. Vspackage는 프로젝트 하위 형식 COM 집계를 사용 하 여 구현 합니다.  
   
 > [!NOTE]
->  Visual c + + 프로젝트 시스템에서 프로젝트 하위 형식을 지원 하지 않습니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 자체 프로젝트 하위 형식을 사용 하 여 SQL Server 및 스마트 장치 프로젝트를 구현 합니다.  
+> 시각적 개체 C++ 프로젝트 시스템이 프로젝트 하위 형식을 지원 하지 않습니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 자체 프로젝트 하위 형식을 사용 하 여 SQL Server 및 스마트 장치 프로젝트를 구현 합니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [프로젝트 하위 형식 디자인](../../extensibility/internals/project-subtypes-design.md)  

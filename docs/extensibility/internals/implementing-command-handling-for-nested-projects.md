@@ -10,18 +10,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7a75c6edcc084c8ec7c6942e011af9978a961c83
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 8ccdf1d4dbab45716aca11630885ed41ce25e24a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56606536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420554"
 ---
 # <a name="implementing-command-handling-for-nested-projects"></a>중첩된 프로젝트에 대한 명령 처리 구현
 IDE를 통해 전달 되는 명령에 전달할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> 및 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스 중첩 된 프로젝트 또는 부모 프로젝트를 필터링 하거나 명령을 재정의할 수 있습니다.
 
 > [!NOTE]
->  부모 프로젝트에서 일반적으로 처리 하는 명령만 필터링 할 수 있습니다. 같은 명령 **빌드** 하 고 **배포** 에서 처리 되는 IDE를 필터링 할 수 없습니다.
+> 부모 프로젝트에서 일반적으로 처리 하는 명령만 필터링 할 수 있습니다. 같은 명령 **빌드** 하 고 **배포** 에서 처리 되는 IDE를 필터링 할 수 없습니다.
 
  다음 단계는 명령 처리를 구현 하기 위한 프로세스를 설명 합니다.
 

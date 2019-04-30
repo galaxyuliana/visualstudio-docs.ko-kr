@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cdf8668b6a34ca6f663b83640e71951f0cb7c255
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c04f500ceb8a1c95f643fe43c292bb668d54c2aa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406591"
 ---
 # <a name="how-to-specify-which-files-are-published-by-clickonce"></a>방법: ClickOnce를 통해 게시할 파일 지정
 게시 하는 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 프로젝트의 응용 프로그램, 모든 비 코드 파일은 응용 프로그램과 함께 배포 됩니다. 경우에 따라 원하는 또는 특정 파일을 게시 해야 할 수 있습니다 또는 조건에 따라 특정 파일을 설치 하는 것이 좋습니다. Visual Studio, 파일을 제외 하 고, 데이터 파일 또는 필수 구성 요소를으로 파일을 표시 하 고, 조건부 설치를 위한 파일 그룹을 만들려면 하는 기능을 제공 합니다.
@@ -92,7 +92,7 @@ ms.locfileid: "60110234"
 4. 에 **응용 프로그램 파일** 대화 상자를 선택 합니다 **그룹** 새 그룹에 포함 하려는 파일에 대 한 필드.
 
     > [!NOTE]
-    >  파일이 있어야 합니다 **빌드 작업** 속성이로 설정 **콘텐츠** 파일 이름에 표시 되기까지 **응용 프로그램 파일** 대화 상자.
+    > 파일이 있어야 합니다 **빌드 작업** 속성이로 설정 **콘텐츠** 파일 이름에 표시 되기까지 **응용 프로그램 파일** 대화 상자.
 
 5. 에 **다운로드 그룹** 필드를 선택한  **\<새로 만들기... >** 드롭 다운 목록에서.
 
@@ -111,7 +111,7 @@ ms.locfileid: "60110234"
 5. 에 **다운로드 그룹** 필드에서 드롭다운 목록에서 그룹을 선택 합니다.
 
     > [!NOTE]
-    >  변경할 수 없습니다는 **다운로드 그룹** 실행할 응용 프로그램에 필요한 파일에 대 한 합니다.
+    > 변경할 수 없습니다는 **다운로드 그룹** 실행할 응용 프로그램에 필요한 파일에 대 한 합니다.
 
 ## <a name="see-also"></a>참고자료
 - [ClickOnce 애플리케이션 게시](../deployment/publishing-clickonce-applications.md)

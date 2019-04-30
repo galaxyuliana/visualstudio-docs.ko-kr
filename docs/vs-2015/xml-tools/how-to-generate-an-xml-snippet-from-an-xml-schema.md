@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6a6c94382bd797b4c24057f623b334b2f2cd2983
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b0e1ea270511a92df96fdb4cc38367074f224060
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60115577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431008"
 ---
 # <a name="how-to-generate-an-xml-snippet-from-an-xml-schema"></a>방법: XML 스키마에서 XML 조각 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ XML 편집기에는 XSD(XML 스키마 정의 언어) 스키마에서 XML 조각�
  이 단원의 단계에서는 XML 편집기의 스키마에 의해 생성된 XML 조각 기능을 사용하는 방법을 보여 줍니다.  
   
 > [!NOTE]
->  이 프로시저를 시작하기 전에 스키마 파일을 로컬 컴퓨터에 저장합니다.  
+> 이 프로시저를 시작하기 전에 스키마 파일을 로컬 컴퓨터에 저장합니다.  
   
 #### <a name="to-create-a-new-xml-file-and-associate-it-with-an-xml-schema"></a>새 XML 파일을 만들어 XML 스키마와 연결하려면  
   

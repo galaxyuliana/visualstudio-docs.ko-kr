@@ -24,12 +24,12 @@ caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 07930dc31651d11aedccc6c597070bbba62ff0b9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 2be23466642357d19dad52407fcb9bf82e843c5b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424484"
 ---
 # <a name="uml-class-diagrams-reference"></a>UML 클래스 다이어그램: 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "58985560"
 UML 클래스 다이어그램에서는 응용 프로그램에서 내부적으로, 그리고 사용자와의 통신에 사용되는 개체 및 정보 구조에 대해 설명합니다. 특정 구현에 대한 참조 없이 정보에 대해 설명합니다. 해당 클래스 및 관계는 데이터베이스 테이블, XML 노드 또는 소프트웨어 개체 컴퍼지션과 같은 다양한 방법으로 구현할 수 있습니다.  
   
 > [!NOTE]
->  이 항목에서는 UML 클래스 다이어그램에 대해 설명합니다. 프로그램 코드를 시각화하는 데 사용되는 또 다른 클래스 다이어그램인 .NET 클래스 다이어그램이 있습니다. 자세한 내용은 [보기 클래스와 형식 디자인 및](http://go.microsoft.com/fwlink/?LinkId=142231)합니다.  
+> 이 항목에서는 UML 클래스 다이어그램에 대해 설명합니다. 프로그램 코드를 시각화하는 데 사용되는 또 다른 클래스 다이어그램인 .NET 클래스 다이어그램이 있습니다. 자세한 내용은 [보기 클래스와 형식 디자인 및](http://go.microsoft.com/fwlink/?LinkId=142231)합니다.  
   
  UML 클래스 다이어그램을 만들려면에 **아키텍처** 메뉴 선택 **새 UML 또는 레이어 다이어그램**합니다. UML 클래스 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [UML 클래스 다이어그램: 지침](../modeling/uml-class-diagrams-guidelines.md)합니다. 만들고 모델링 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
   

@@ -12,12 +12,12 @@ caps.latest.revision: 62
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b204a0f3bda5eab9291d4201fbea3c39a3f62ca6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2534726de9f4aeb015753e0b1ea6870f2120e014
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425907"
 ---
 # <a name="msbuild"></a>MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ ms.locfileid: "60050402"
   Visual Studio IDE에서 코드를 작성하지만 MSBuild를 사용하여 빌드를 실행할 수 있습니다. 또는 개발 컴퓨터의 IDE에서 코드를 빌드하지만 MSBuild 명령줄을 사용하여 여러 개발자로부터 통합된 코드를 빌드할 수 있습니다.  
   
 > [!NOTE]
->  Team Foundation Build를 사용하여 애플리케이션을 자동으로 컴파일, 테스트 및 배포할 수 있습니다. 개발자가 코드를 체크 인할 때(예: 연속 통합 전략의 일부로) 또는 일정에 따라(예: 야간 빌드 확인 테스트 빌드) 빌드 시스템에서 빌드를 자동으로 실행할 수 있습니다. Team Foundation Build는 MSBuild를 사용하여 코드를 컴파일합니다. 자세한 내용은 [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
+> Team Foundation Build를 사용하여 애플리케이션을 자동으로 컴파일, 테스트 및 배포할 수 있습니다. 개발자가 코드를 체크 인할 때(예: 연속 통합 전략의 일부로) 또는 일정에 따라(예: 야간 빌드 확인 테스트 빌드) 빌드 시스템에서 빌드를 자동으로 실행할 수 있습니다. Team Foundation Build는 MSBuild를 사용하여 코드를 컴파일합니다. 자세한 내용은 [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
   
  이 항목에서는 MSBuild에 대해 간략하게 설명합니다. 입문용 자습서는 [연습: MSBuild 사용](../msbuild/walkthrough-using-msbuild.md)을 참조하세요.  
   
@@ -83,7 +83,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 명령줄 옵션에 대한 자세한 내용은 [명령줄 참조](../msbuild/msbuild-command-line-reference.md)를 참조하세요.  
   
 > [!IMPORTANT]
->  프로젝트를 다운로드하기 전에 코드를 신뢰할 수 있는지 확인하십시오.  
+> 프로젝트를 다운로드하기 전에 코드를 신뢰할 수 있는지 확인하십시오.  
   
 ## <a name="BKMK_ProjectFile"></a> 프로젝트 파일  
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]는 간단하고 확장 가능한 XML 기반 프로젝트 파일 형식을 사용합니다. [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일 형식을 통해 개발자는 빌드할 항목뿐만 아니라 항목을 다른 운영 체제 및 구성에 대해 빌드하는 방법을 설명합니다. 또한 프로젝트 파일 형식을 통해 개발자는 개별 파일로 분해될 수 있는 다시 사용 가능한 빌드 규칙을 작성하여 해당 제품 내의 여러 프로젝트에서 일관성 있는 빌드를 수행할 수 있습니다.  
@@ -193,7 +193,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
 |제목|설명|  
 |-----------|-----------------|  
-|[연습: 처음부터 새로 MSBuild 프로젝트 파일 만들기](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|텍스트 편집기만을 사용해서 기본 프로젝트 파일을 증분 방식으로 만드는 방법을 보여 줍니다.|  
+|[연습: 처음부터 MSBuild 프로젝트 파일 만들기](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|텍스트 편집기만을 사용해서 기본 프로젝트 파일을 증분 방식으로 만드는 방법을 보여 줍니다.|  
 |[연습: MSBuild 사용](../msbuild/walkthrough-using-msbuild.md)|MSBuild의 구성 요소를 소개하고 Visual Studio IDE를 닫지 않고 MSBuild 프로젝트를 작성, 조작 및 디버깅하는 방법을 보여 줍니다.|  
 |[MSBuild 개념](../msbuild/msbuild-concepts.md)|MSBuild의 네 가지 빌딩 블록인 속성, 항목, 대상 및 작업에 대해 설명합니다.|  
 |[항목](../msbuild/msbuild-items.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 파일 형식의 일반 개념과 그러한 모든 개념이 서로 어떻게 연결되는지를 설명합니다.|  

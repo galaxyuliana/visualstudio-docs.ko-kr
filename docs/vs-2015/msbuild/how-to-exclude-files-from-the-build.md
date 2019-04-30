@@ -13,12 +13,12 @@ caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: bd1535841a01b6e188383d74ed3b6124b4a325f6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0cd59df3b6056040445ac8de79e064a939aff145
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440056"
 ---
 # <a name="how-to-exclude-files-from-the-build"></a>방법: 빌드에서 파일 제외
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,7 +76,7 @@ ms.locfileid: "60052561"
     ```  
   
     > [!NOTE]
-    >  두 특성의 경로를 모두 지정해야 합니다. `Include` 특성에서 파일 위치를 지정할 때 절대 경로를 사용하는 경우 `Exclude` 특성에서도 절대 경로를 사용해야 하고, `Include` 특성에서 상대 경로를 사용하는 경우 `Exclude` 특성에서도 상대 경로를 사용해야 합니다.  
+    > 두 특성의 경로를 모두 지정해야 합니다. `Include` 특성에서 파일 위치를 지정할 때 절대 경로를 사용하는 경우 `Exclude` 특성에서도 절대 경로를 사용해야 하고, `Include` 특성에서 상대 경로를 사용하는 경우 `Exclude` 특성에서도 상대 경로를 사용해야 합니다.  
   
 ## <a name="using-conditions-to-exclude-a-file-or-directory-from-the-inputs-for-a-build"></a>조건을 사용하여 빌드의 입력에서 파일 또는 디렉터리 제외  
  예를 들어 디버그 빌드에 포함하지만 릴리스 빌드에는 포함하지 않으려는 항목이 있는 경우 `Condition` 특성을 사용하여 항목을 포함할 조건을 지정할 수 있습니다.  

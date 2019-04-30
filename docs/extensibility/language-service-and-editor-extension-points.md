@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9ec010680a490d538b1cdbe6d3994f075adaf193
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d6cb4df68cc8a1f9271b43de59b7196e61ab82cc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60083779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430997"
 ---
 # <a name="language-service-and-editor-extension-points"></a>언어 서비스 및 편집기 확장 지점
 편집기에는 대부분의 언어 서비스 기능을 포함 하 여 Framework MEF (Managed Extensibility) 구성 요소 파트로 확장할 수 있는 확장 지점을 제공 합니다. 다음은 이러한 주요 확장 포인트 범주:
@@ -113,7 +113,7 @@ internal IContentTypeRegistryService ContentTypeRegistryService { get; set; }
  콘텐츠 형식을 파일 이름 확장명을 사용 하 여 연결을 사용 하 여 <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition>입니다.
 
 > [!NOTE]
->  Visual Studio에서 파일 이름 확장명은 사용 하 여 등록을 <xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute> 언어 서비스 패키지에 있습니다. <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> MEF content-type이 방식으로 등록 된 파일 이름 확장명을 사용 하 여 연결 합니다.
+> Visual Studio에서 파일 이름 확장명은 사용 하 여 등록을 <xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute> 언어 서비스 패키지에 있습니다. <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> MEF content-type이 방식으로 등록 된 파일 이름 확장명을 사용 하 여 연결 합니다.
 
  파일 이름 확장명에 콘텐츠 형식 정의 내보내려면 다음 특성을 포함 해야 합니다.
 
@@ -269,7 +269,7 @@ internal IEditorFormatMapService FormatMapService { get; set; }
 - <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>: adornment와 사용 하 여 연결 합니다.
 
   > [!NOTE]
-  >  예는 <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>에서 HighlightWordTag 정의 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.
+  > 예는 <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>에서 HighlightWordTag 정의 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.
 
 - <xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>: 확장 하거나 개요에서 축소할 수 있는 영역을 사용 하 여 연결 합니다.
 
@@ -315,7 +315,7 @@ internal class HighlightWordFormatDefinition : MarkerFormatDefinition
  이 형식 정의 태그를 적용 하려면 클래스 (표시 이름 아님)의 이름 특성에 설정 이름을 참조 합니다.
 
 > [!NOTE]
->  예는 <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>에서 HighlightWordFormatDefinition 클래스 참조 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.
+> 예는 <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>에서 HighlightWordFormatDefinition 클래스 참조 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.
 
 ## <a name="extend-adornments"></a>선의 도구 영역 확장
  장식은 텍스트 보기에 표시 되는 텍스트에 추가할 수 있습니다 또는 텍스트 자체를 볼 수 있는 시각 효과 정의 합니다. 모든 형식으로 사용자 고유의 adornment를 정의할 수 있습니다 <xref:System.Windows.UIElement>합니다.
@@ -507,7 +507,7 @@ internal sealed class TestOption : EditorOptionDefinition<bool>
 - <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>
 
 > [!IMPORTANT]
->  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSource> 위해 되지 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>합니다.
+> <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSource> 위해 되지 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>합니다.
 
  또한 같은 종류의 공급자를 구현 해야 합니다.
 
@@ -520,7 +520,7 @@ internal sealed class TestOption : EditorOptionDefinition<bool>
 - <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>
 
 > [!IMPORTANT]
->  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSourceProvider> 위해 되지 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>합니다.
+> <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSourceProvider> 위해 되지 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>합니다.
 
  다음 특성을 함께 공급자를 내보내기를 수행 해야 합니다.
 

@@ -14,12 +14,12 @@ caps.latest.revision: 47
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fa0fac38c79e4c54cb461ef51e016508d043f202
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e53e05d9df5a7bbdca5fd8a9b74dd9325dc7aae5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426472"
 ---
 # <a name="run-windows-store-apps-on-a-remote-machine"></a>원격 컴퓨터에서 Windows 스토어 앱 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,7 +66,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
  기본적으로 원격 디버거는 Windows 인증을 사용합니다.  
   
 > [!WARNING]
->  원격 디버거를 인증 안 함 모드에서 실행할 수도 있지만 이 모드는 사용하지 않는 것이 좋습니다. 이 모드에서 실행할 때는 네트워크 보안이 없습니다. 네트워크에 악의적인 트래픽이나 유해 트래픽 위험이 확실히 없는 경우에만 인증 안 함 모드를 선택하십시오.  
+> 원격 디버거를 인증 안 함 모드에서 실행할 수도 있지만 이 모드는 사용하지 않는 것이 좋습니다. 이 모드에서 실행할 때는 네트워크 보안이 없습니다. 네트워크에 악의적인 트래픽이나 유해 트래픽 위험이 확실히 없는 경우에만 인증 안 함 모드를 선택하십시오.  
   
 ## <a name="BKMK_DirectConnect"></a> 원격 장치에 직접 연결하는 방법  
  원격 디바이스에 직접 연결하려면 Visual Studio 컴퓨터를 표준 이더넷 케이블로 디바이스에 연결합니다. 디바이스에 이더넷 포트가 없는 경우에는 이더넷 어댑터에 USB를 사용하여 케이블에 연결할 수 있습니다.  
@@ -74,15 +74,15 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 ## <a name="BKMK_Installing_the_Remote_Tools"></a> 원격 도구 설치  
   
 > [!NOTE]
->  **버전 및 업데이트**  
+> **버전 및 업데이트**  
 >   
->  **Visual Studio 2015용 원격 도구** 는 이전 버전의 Visual Studio에서 지원되지 않습니다.  
+> **Visual Studio 2015용 원격 도구** 는 이전 버전의 Visual Studio에서 지원되지 않습니다.  
 >   
->  Visual Studio 설치의 업데이트 버전과 일치하는 Visual Studio 2015용 원격 도구의 업데이트 버전을 설치하는 것이 좋습니다.  
+> Visual Studio 설치의 업데이트 버전과 일치하는 Visual Studio 2015용 원격 도구의 업데이트 버전을 설치하는 것이 좋습니다.  
 >   
->  VS 디버거는 VS 2015 및 VS 2015용 원격 도구의 어떤 버전 조합과도 호환됩니다. 하지만 Visual Studio의 최신 기능을 사용하려면 Visual Studio와 원격 도구 모두 최신 버전이어야 합니다.  
+> VS 디버거는 VS 2015 및 VS 2015용 원격 도구의 어떤 버전 조합과도 호환됩니다. 하지만 Visual Studio의 최신 기능을 사용하려면 Visual Studio와 원격 도구 모두 최신 버전이어야 합니다.  
 >   
->  다른 진단 도구를 사용할 경우 원격 도구와 Visual Studio가 동일한 버전이어야 할 수 있습니다.  
+> 다른 진단 도구를 사용할 경우 원격 도구와 Visual Studio가 동일한 버전이어야 할 수 있습니다.  
   
  **원격 장치에 원격 디버깅 구성 요소 설치**  
   
@@ -101,7 +101,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 ## <a name="BKMK_Starting_the_Remote_Debugger_Monitor"></a> 원격 디버거 모니터 시작  
   
 > [!NOTE]
->  원격 디버거가 Visual Studio 호스트와의 통신을 허용하도록 방화벽을 구성하기 때문에 원격 디버거를 처음 시작할 때는 원격 디바이스의 관리자여야 합니다.  
+> 원격 디버거가 Visual Studio 호스트와의 통신을 허용하도록 방화벽을 구성하기 때문에 원격 디버거를 처음 시작할 때는 원격 디바이스의 관리자여야 합니다.  
   
  원격 도구를 설치한 후 **시작** 화면에서 **원격 디버거** 를 선택합니다. 원격 디버거를 처음 시작하면 **원격 디버깅 구성** 이 나타납니다.  
   
@@ -125,7 +125,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
    2. **사용 권한** 을 선택하여 원격 디버깅에 대한 사용 권한이 있는 사용자를 추가하거나 제거합니다.  
   
        > [!NOTE]
-       >  사용 권한은 원격으로 디버깅하는 모든 사용자 계정에 부여해야 합니다.  
+       > 사용 권한은 원격으로 디버깅하는 모든 사용자 계정에 부여해야 합니다.  
   
    **원격 디버거 구성 마법사** 를 사용하여 원격 디버거에 대한 고급 옵션을 설정합니다. 마법사를 열려면 시작 화면에서 **원격 디버거 구성 마법사** 를 선택합니다.  
   
@@ -141,7 +141,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
  이 대화 상자에는 Visual Studio 컴퓨터의 로컬 서브넷에 있으며 원격 디버거를 실행 중인 디바이스만 나열됩니다.  
   
 > [!TIP]
->  원격 디바이스에 연결하는 데 문제가 있을 경우 디바이스의 IP 주소를 입력해 보십시오. 디바이스의 IP 주소를 확인하려면 명령 창을 연 다음 **ipconfig**를 입력합니다. 그러면 IP 주소가 **IPv4 Address**로 나열됩니다.  
+> 원격 디바이스에 연결하는 데 문제가 있을 경우 디바이스의 IP 주소를 입력해 보십시오. 디바이스의 IP 주소를 확인하려면 명령 창을 연 다음 **ipconfig**를 입력합니다. 그러면 IP 주소가 **IPv4 Address**로 나열됩니다.  
   
 ### <a name="BKMK_Choosing_the_remote_device_for_C__and_Visual_Basic_projects"></a> C# 및 Visual Basic 프로젝트에 사용할 원격 장치 선택  
  ![원격 디버깅에 대 한 프로젝트 속성 관리](../debugger/media/vsrun-managed-projprop-remote.png "VSRUN_Managed_ProjProp_Remote")  

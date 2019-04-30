@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 957805caa946dced54d52f1aa6b4a7f96e75b31a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 401ce9b8421cd636fc72c59dcd6641ff4e05d968
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60091085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440343"
 ---
 # <a name="architecture-of-vsto-add-ins"></a>VSTO 추가 기능의 아키텍처
   Visual Studio에서 Office 개발자 도구를 사용하여 만든 VSTO 추가 기능에는 안정성과 보안을 강조하고 Microsoft Office와 긴밀하게 작업할 수 있도록 하는 아키텍처 기능이 있습니다. 이 항목에서는 다음과 같은 VSTO 추가 기능의 측면에 대해 설명합니다.
@@ -44,7 +44,7 @@ ms.locfileid: "60091085"
  여러 VSTO 추가 기능이 한 애플리케이션에 대해 설치된 경우 각 VSTO 추가 기능은 서로 다른 애플리케이션 도메인에서 로드됩니다. 즉, 한 VSTO 추가 기능이 잘못 동작해도 다른 VSTO 추가 기능이 실패할 수 없습니다. 이는 애플리케이션이 닫힐 때 모든 VSTO 추가 기능 어셈블리가 메모리에서 언로드되도록 하는 데도 도움이 됩니다. 응용 프로그램 도메인에 대 한 자세한 내용은 참조 하세요. [응용 프로그램 도메인](/dotnet/framework/app-domains/application-domains)합니다.
 
 > [!NOTE]
->  Visual Studio에서 Office 개발자 도구를 사용하여 만든 VSTO 추가 기능은 최종 사용자가 호스트 Microsoft Office 애플리케이션을 시작할 때만 사용할 수 있도록 설계되었습니다. 애플리케이션이 프로그래밍 방식으로 시작되는 경우(예를 들어 자동화를 사용하여 시작) VSTO 추가 기능은 예상대로 작동하지 않을 수도 있습니다.
+> Visual Studio에서 Office 개발자 도구를 사용하여 만든 VSTO 추가 기능은 최종 사용자가 호스트 Microsoft Office 애플리케이션을 시작할 때만 사용할 수 있도록 설계되었습니다. 애플리케이션이 프로그래밍 방식으로 시작되는 경우(예를 들어 자동화를 사용하여 시작) VSTO 추가 기능은 예상대로 작동하지 않을 수도 있습니다.
 
 ## <a name="AddinComponents"></a> VSTO 추가 기능의 구성 요소
  VSTO 추가 기능 어셈블리가 주 구성 요소이지만, Microsoft Office 애플리케이션이 VSTO 추가 기능을 검색하고 로드하는 방식에서 중요한 역할을 수행하는 몇 가지 다른 구성 요소가 있습니다.
@@ -70,7 +70,7 @@ ms.locfileid: "60091085"
  ![2007 office 추가 기능 아키텍처](../vsto/media/office07addin.png "2007 Office 추가 기능 아키텍처")
 
 > [!NOTE]
->  [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]를 대상으로 하는 Office 솔루션에서 솔루션은 PIA를 직접 호출하는 대신 솔루션 어셈블리에 포함된 PIA 형식 정보를 사용하여 호스트 응용 프로그램의 개체 모델을 호출합니다. 자세한 내용은 [디자인 Office 솔루션을 만들고](../vsto/designing-and-creating-office-solutions.md)합니다.
+> [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]를 대상으로 하는 Office 솔루션에서 솔루션은 PIA를 직접 호출하는 대신 솔루션 어셈블리에 포함된 PIA 형식 정보를 사용하여 호스트 응용 프로그램의 개체 모델을 호출합니다. 자세한 내용은 [디자인 Office 솔루션을 만들고](../vsto/designing-and-creating-office-solutions.md)합니다.
 
 ### <a name="loading-process"></a>로드 프로세스
  다음 단계는 사용자가 애플리케이션을 시작할 때 발생합니다.
@@ -100,7 +100,7 @@ ms.locfileid: "60091085"
      필요에 따라 이 메서드를 재정의하여 확장성 인터페이스를 구현하는 개체의 반환을 통해 Microsoft Office 기능을 확장할 수 있습니다. 자세한 내용은 [확장성 인터페이스를 사용 하 여 UI 사용자 지정 기능](../vsto/customizing-ui-features-by-using-extensibility-interfaces.md)합니다.
 
     > [!NOTE]
-    >  [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 호스트 응용 프로그램에서 지원하는 각 확장성 인터페이스에 대해 <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> 메서드를 별도로 호출합니다. 첫 번째 <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> 메서드 호출은 대개 `ThisAddIn_Startup` 메서드 호출 전에 발생하지만 VSTO 추가 기능은 <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> 메서드가 호출될 시기나 횟수에 대해 어떠한 가정도 해서는 안 됩니다.
+    > [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 호스트 응용 프로그램에서 지원하는 각 확장성 인터페이스에 대해 <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> 메서드를 별도로 호출합니다. 첫 번째 <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> 메서드 호출은 대개 `ThisAddIn_Startup` 메서드 호출 전에 발생하지만 VSTO 추가 기능은 <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> 메서드가 호출될 시기나 횟수에 대해 어떠한 가정도 해서는 안 됩니다.
 
 11. [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 VSTO 추가 기능에서 `ThisAddIn_Startup` 메서드를 호출합니다. 이 메서드는 <xref:Microsoft.Office.Tools.AddInBase.Startup> 이벤트의 기본 이벤트 처리기입니다. 자세한 내용은 [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)합니다.
 

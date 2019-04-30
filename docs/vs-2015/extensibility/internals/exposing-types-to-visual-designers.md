@@ -12,12 +12,12 @@ ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a50b298dfafe093e404c6575b16a074d106522ee
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2db026367e43c1092cf9744817449ce51556a4a6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436321"
 ---
 # <a name="exposing-types-to-visual-designers"></a>비주얼 디자이너에 형식 노출
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60103435"
  프로젝트 시스템 이러한 변경은 사용자 지정 도구를 실행 한 결과 사용자 지정 도구의 출력 파일의 변경 내용 추적에 대 한 전체 지원을 제공 합니다. 사용자 지정 도구를 실행할 때마다 새 임시 PE 생성 하 고 적절 한 알림을 디자이너에 전송 됩니다.  
   
 > [!NOTE]
->  임시 프로그램 실행 파일 생성 파일 백그라운드에서 발생 하기 때문에 오류 없이 컴파일이 실패 하는 경우 사용자에 게 보고 됩니다.  
+> 임시 프로그램 실행 파일 생성 파일 백그라운드에서 발생 하기 때문에 오류 없이 컴파일이 실패 하는 경우 사용자에 게 보고 됩니다.  
   
  임시 PE 지원 기능을 활용 하는 사용자 지정 도구는 다음 규칙을 따라야 합니다.  
   

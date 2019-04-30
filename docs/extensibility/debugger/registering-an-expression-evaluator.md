@@ -11,16 +11,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dd3d58b61683c2b25da3e988d307effc28d61dc9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2de018cc757adba814c8705fb0f2e02e96f1c59c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420790"
 ---
 # <a name="register-an-expression-evaluator"></a>식 계산기 등록
 > [!IMPORTANT]
->  Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
+> Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
 
  식 계산기 (EE) Windows COM 환경과 Visual Studio를 사용 하 여 클래스 팩터리로 자체를 등록 해야 합니다. EE는 DLL로 있도록 설정에 따라 엔터티 인스턴스화하는 EE에서 Visual Studio 주소 공간을 또는 디버그 엔진 (DE) 주소 공간에 삽입 됩니다.
 
@@ -101,7 +101,7 @@ namespace EEMC
  EE DLL를 구현 하는 `DllRegisterServer` COM 환경 뿐만 아니라 Visual Studio를 사용 하 여 자체를 등록 하는 함수입니다.
 
 > [!NOTE]
->  파일에는 MyCEE 레지스트리 코드 예제를 찾을 수 있습니다 *dllentry.cpp*를 VSIP 설치 EnVSDK\MyCPkgs\MyCEE 아래에 있는 합니다.
+> 파일에는 MyCEE 레지스트리 코드 예제를 찾을 수 있습니다 *dllentry.cpp*를 VSIP 설치 EnVSDK\MyCPkgs\MyCEE 아래에 있는 합니다.
 
 ### <a name="dll-server-process"></a>DLL 서버 프로세스
  DLL server는 EE 등록 하는 경우:
@@ -118,7 +118,7 @@ namespace EEMC
     |`metricEngine`|`GUID`이 EE를 사용 하는 디버그 엔진 (DE) s|
 
     > [!NOTE]
-    >  `metricLanguage``GUID` 이름에서 언어를 식별 하는 합니다 `guidLang` 인수를 `SetEEMetric` 언어를 선택 하는. 컴파일러가 디버그 정보 파일을 생성할 때 적절 한 작성 해야 `guidLang` 는 DE 사용 하는 EE에서 알 수 있도록 합니다. 일반적으로 DE이이 언어에 대 한 기호 공급자를 요청 `GUID`, 디버그 정보 파일에 저장 된 합니다.
+    > `metricLanguage``GUID` 이름에서 언어를 식별 하는 합니다 `guidLang` 인수를 `SetEEMetric` 언어를 선택 하는. 컴파일러가 디버그 정보 파일을 생성할 때 적절 한 작성 해야 `guidLang` 는 DE 사용 하는 EE에서 알 수 있도록 합니다. 일반적으로 DE이이 언어에 대 한 기호 공급자를 요청 `GUID`, 디버그 정보 파일에 저장 된 합니다.
 
 3. HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio 아래에 키를 만들어 Visual Studio를 사용 하 여 등록\\*X.Y*여기서 *X.Y* 등록 하도록 Visual Studio의 버전입니다.
 

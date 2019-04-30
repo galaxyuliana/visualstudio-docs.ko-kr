@@ -15,12 +15,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 3133ea902717f4fea15cfb66b8d0050f7a538940
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 4588a949b4b6439c3f76270b0bcdab9cd52c23d9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431222"
 ---
 # <a name="ca1031-do-not-catch-general-exception-types"></a>CA1031: 일반적인 예외 형식을 catch하지 마세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "58983186"
  이 규칙에서는 경고를 표시해야 합니다. 일반적인 예외 형식을 catch 할 라이브러리 사용자 로부터 런타임 문제를 숨길 수 있습니다 및 디버깅을 더 어렵게 만들 수 있습니다.
 
 > [!NOTE]
->  [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)]부터 시작해서, CLR(공용 언어 런타임)은 관리 코드에서 처리되어야 하는 [!INCLUDE[TLA#tla_mswin](../includes/tlasharptla-mswin-md.md)]의 액세스 위반과 같이 운영 체제 및 관리 코드에서 발생하는 손상된 상태 예외를 더 이상 제공하지 않습니다. 응용 프로그램을 컴파일할 경우 합니다 [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] 이상 버전 및 유지 관리 손상 된 상태 예외 처리를 적용할 수 있습니다는 <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> 손상 된 상태 예외를 처리 하는 메서드 특성입니다.
+> [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)]부터 시작해서, CLR(공용 언어 런타임)은 관리 코드에서 처리되어야 하는 [!INCLUDE[TLA#tla_mswin](../includes/tlasharptla-mswin-md.md)]의 액세스 위반과 같이 운영 체제 및 관리 코드에서 발생하는 손상된 상태 예외를 더 이상 제공하지 않습니다. 응용 프로그램을 컴파일할 경우 합니다 [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)] 이상 버전 및 유지 관리 손상 된 상태 예외 처리를 적용할 수 있습니다는 <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> 손상 된 상태 예외를 처리 하는 메서드 특성입니다.
 
 ## <a name="example"></a>예제
  다음 예제에서는이 규칙을 위반 하는 형식 및 올바르게 구현 하는 형식을 `catch` 블록입니다.

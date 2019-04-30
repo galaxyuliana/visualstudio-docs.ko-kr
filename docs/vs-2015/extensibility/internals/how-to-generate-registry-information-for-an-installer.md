@@ -12,12 +12,12 @@ ms.assetid: b1b41012-a777-4ccf-81a6-3b41f0e96583
 caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 63dd7f96e1d7af81b81a1b9d6a445356bb8de27e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: be17b2f78048bd0e9c2052066796857dbeba2048
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435258"
 ---
 # <a name="how-to-generate-registry-information-for-an-installer"></a>방법: 설치 관리자에 대한 레지스트리 정보 생성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "60117735"
 관리 되는 VSPackage에 대 한 등록 매니페스트를 생성 하는 RegPkg.exe 유틸리티를 사용할 수 있습니다. 매니페스트는 Windows Installer 설치 패키지를 통합할 수 있습니다. RegPkg도 파일을 생성할 수에 따라 설치 원본 파일에 포함 될 수 있는 합니다 [Windows Installer XML 도구 집합](http://go.microsoft.com/fwlink/?LinkId=62238)합니다.  
   
 > [!IMPORTANT]
->  적절 한 Windows Installer 속성을 포맷 되므로 사용 하 여 출력을 편집 해야 RegPkg를 사용할 때마다, RegPkg 개발 시스템에 관련 된 경로 이름을 생성 합니다. 예를 들어 InprocServer32 값 이어야 합니다 **[SystemFolder]mscoree.dll** 경로 사용 해야 **[#filekey]** 하 고 **[$componentkey]** 합니다. 이 방식으로 출력을 조정 Windows 또는 다른 디렉터리, 지역화 된 디렉터리 이름 및 사용자가 선택할 수 있는 경로 다른 드라이브에 설치 되어 있는 컴퓨터를 지원 합니다. 자세한 내용은 [서식 있음](http://go.microsoft.com/fwlink/?LinkId=71120) Windows Installer SDK의 합니다. 개발 시스템 경로 대 한 RegPkg 규칙에 따라 경우-예를 들어 파일 형식의 File_ Id*filename*-적은 변경 해야 합니다.  
+> 적절 한 Windows Installer 속성을 포맷 되므로 사용 하 여 출력을 편집 해야 RegPkg를 사용할 때마다, RegPkg 개발 시스템에 관련 된 경로 이름을 생성 합니다. 예를 들어 InprocServer32 값 이어야 합니다 **[SystemFolder]mscoree.dll** 경로 사용 해야 **[#filekey]** 하 고 **[$componentkey]** 합니다. 이 방식으로 출력을 조정 Windows 또는 다른 디렉터리, 지역화 된 디렉터리 이름 및 사용자가 선택할 수 있는 경로 다른 드라이브에 설치 되어 있는 컴퓨터를 지원 합니다. 자세한 내용은 [서식 있음](http://go.microsoft.com/fwlink/?LinkId=71120) Windows Installer SDK의 합니다. 개발 시스템 경로 대 한 RegPkg 규칙에 따라 경우-예를 들어 파일 형식의 File_ Id*filename*-적은 변경 해야 합니다.  
   
 ### <a name="to-create-a-registration-manifest"></a>등록 매니페스트를 만들려면  
   

@@ -17,18 +17,18 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 99fa06086bfad56b266b043716e82181aa4c97d5
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 520d3f1414447abfc7c018d36853b72aefbbf15f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58160630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386163"
 ---
 # <a name="iactivescriptparseprocedureold-interface"></a>IActiveScriptParseProcedureOld 인터페이스
 스크립트에 추가 하는 절차에 대 한 소스 코드 텍스트를 허용 합니다. VBScript와 같은 독립 제작 환경에 있지 않은 해석 된 스크립팅 언어에 대 한 대체 메커니즘을 제공 (이외의 `IActiveScriptParse` 또는 `IPersist*`) 스크립트 프로시저 네임 스페이스를 추가 합니다.  
   
 > [!NOTE]
->  위해이 인터페이스는 사용 되지 않습니다는 `IActiveScriptParseProcedure` 인터페이스입니다.  
+> 위해이 인터페이스는 사용 되지 않습니다는 `IActiveScriptParseProcedure` 인터페이스입니다.  
   
 ## <a name="methods"></a>메서드  
  상속 된 메서드 외에도 `IUnknown`, `IActiveScriptParseProcedureOld` 인터페이스는 다음 메서드를 노출 합니다.  

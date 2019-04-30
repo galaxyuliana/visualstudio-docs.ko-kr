@@ -8,12 +8,12 @@ ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
 caps.latest.revision: 4
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 1da992ebdb5c3d4e0381cdc388dcf6ad5d2af66c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 88a6266a3f5910def0bf5041a37f89c2b3d67416
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60091150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63414460"
 ---
 # <a name="installing-the-visual-studio-sdk"></a>Visual Studio SDK 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
  Visual Studio 설치에서 VSSDK를 포함 하려는 경우 사용자 지정 설치를 수행 해야 합니다.  
   
 > [!NOTE]
->  설치 실행 파일을 Visual Studio SDK 라고 **Visual Studio 확장성 도구**합니다.  
+> 설치 실행 파일을 Visual Studio SDK 라고 **Visual Studio 확장성 도구**합니다.  
   
 1. Visual Studio 2015 설치를 시작 합니다. Visual studio Express 제외한 모든 버전을 설치할 수 있습니다.  
   

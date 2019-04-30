@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f1d72d3da8adeff7b8280bda84eb92b730679fea
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f9696640358626c254f1792fc29a31a41d4bafb3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427902"
 ---
 # <a name="how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks"></a>방법: Word 문서 또는 Excel 통합 문서에 작업 창 추가
   작업 창에는 Microsoft Office Word 문서 또는 Microsoft Excel 통합 문서를 추가 하려면 먼저 Windows Forms 사용자 정의 컨트롤을 만듭니다. 그런 다음 사용자 정의 컨트롤을 추가 합니다 <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> 의 속성을 `ThisDocument.ActionsPane` 필드 (Word) 또는 `ThisWorkbook.ActionsPane` 프로젝트에서 필드 (Excel).
@@ -28,7 +28,7 @@ ms.locfileid: "60085846"
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="creating-the-user-control"></a>사용자 정의 컨트롤 만들기
  다음 절차에 Excel 프로젝트 또는 Word에서 사용자 컨트롤을 만드는 방법을 보여 줍니다. 또한 클릭할 때 문서 또는 통합 문서에 텍스트를 작성 하는 사용자 정의 컨트롤에 단추를 추가 합니다.
@@ -42,12 +42,12 @@ ms.locfileid: "60085846"
 3. 에 **새 항목 추가** 대화 상자에서 **작업 창 컨트롤**, 이름을 **HelloControl**를 클릭 하 고 **추가**합니다.
 
     > [!NOTE]
-    >  추가할 수도 있습니다는 **사용자 정의 컨트롤** 프로젝트 항목입니다. 생성 된 클래스는 **작업 창 컨트롤** 하 고 **사용자 정의 컨트롤** 항목 동일 합니다.
+    > 추가할 수도 있습니다는 **사용자 정의 컨트롤** 프로젝트 항목입니다. 생성 된 클래스는 **작업 창 컨트롤** 하 고 **사용자 정의 컨트롤** 항목 동일 합니다.
 
 4. **Windows Forms** 탭의 **도구 상자** 끌어를 **단추** 컨트롤 컨트롤을 합니다.
 
     > [!NOTE]
-    >  컨트롤 디자이너에 표시 되지 않으면, 두 번 클릭 **HelloControl** 에 **솔루션 탐색기**합니다.
+    > 컨트롤 디자이너에 표시 되지 않으면, 두 번 클릭 **HelloControl** 에 **솔루션 탐색기**합니다.
 
 5. 코드를 추가 하 여 <xref:System.Windows.Forms.Control.Click> 단추의 이벤트 처리기입니다. 다음 예제에서는 Microsoft Office Word 문서에 대 한 코드를 보여 줍니다.
 
