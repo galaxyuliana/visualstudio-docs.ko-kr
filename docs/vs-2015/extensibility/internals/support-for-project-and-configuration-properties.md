@@ -11,12 +11,12 @@ ms.assetid: 9fcfaa0f-7b41-4b68-82ec-7a151dca5d7e
 caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c4c62bf12505bf04b8a680946ce848ea92709507
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 4b01b38510b11f5a9928e865b1511d0ea5639ea8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408572"
 ---
 # <a name="support-for-project-and-configuration-properties"></a>프로젝트 및 구성 속성 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "58985412"
  이 프로젝트 파일의 프로젝트 및 구성 속성을 유지 하려면 프로젝트의 경우입니다.  
   
 > [!NOTE]
->  프로젝트는 기본값에서 다른 유지만 속성 값에 따라 지 속성을 최적화할 수 있습니다.  
+> 프로젝트는 기본값에서 다른 유지만 속성 값에 따라 지 속성을 최적화할 수 있습니다.  
   
 ## <a name="support-for-project-and-configuration-properties"></a>프로젝트 및 구성 속성 지원  
  `Microsoft.VisualStudio.Package.SettingsPage` 클래스는 프로젝트 및 구성 속성 페이지를 구현 합니다. 기본 구현을 `SettingsPage` 제네릭 속성 표에 사용자에 게 공용 속성을 제공 합니다. 합니다 `Microsoft.VisualStudio.Package.HierarchyNode.GetPropertyPageGuids` 에서 파생 된 클래스를 선택 하는 메서드 `SettingsPage` 프로젝트 속성 그리드의 합니다. 합니다 `Microsoft.VisualStudio.Package.ProjectNode.GetConfigPropertyPageGuids` 에서 파생 된 클래스를 선택 하는 메서드 `SettingsPage` 구성 속성 그리드의 합니다. 프로젝트 형식이 적절 한 속성 페이지를 선택 하려면 이러한 메서드를 재정의 해야 합니다.  
@@ -65,7 +65,7 @@ ms.locfileid: "58985412"
 - `Microsoft.VisualStudio.Package.SettingsPage.GetConfigProperty` 및 `Microsoft.VisualStudio.Package.SettingsPage.SetConfigProperty` 구성 속성을 유지 합니다.  
   
   > [!NOTE]
-  >  구현 합니다 `Microsoft.VisualStudio.Package.SettingsPage` 및 `Microsoft.VisualStudio.Package.ProjectNode` 클래스를 사용 하 여는 `Microsoft.Build.BuildEngine` (MSBuild) 및 메서드를 가져올 프로젝트 파일에서 프로젝트 및 구성 속성을 설정 합니다.  
+  > 구현 합니다 `Microsoft.VisualStudio.Package.SettingsPage` 및 `Microsoft.VisualStudio.Package.ProjectNode` 클래스를 사용 하 여는 `Microsoft.Build.BuildEngine` (MSBuild) 및 메서드를 가져올 프로젝트 파일에서 프로젝트 및 구성 속성을 설정 합니다.  
   
   파생 클래스 `SettingsPage` 구현 해야 합니다 `Microsoft.VisualStudio.Package.SettingsPage.ApplyChanges` 및 `Microsoft.VisualStudio.Package.SettingsPage.BindProperties` 프로젝트나 구성 속성이 프로젝트 파일의 유지 되도록 합니다.  
   
@@ -83,7 +83,7 @@ ms.locfileid: "58985412"
  합니다 <xref:System.ComponentModel.CategoryAttribute>, <xref:System.ComponentModel.DisplayNameAttribute>, 및 <xref:System.ComponentModel.DescriptionAttribute> 특성 결정 레이아웃, 레이블 지정 및 일반 속성 페이지에서 프로젝트 및 구성 속성에 대해 설명 합니다. 이러한 특성 범주를 확인, 각각 표시 이름 및 옵션을 설명 합니다.  
   
 > [!NOTE]
->  해당 특성, SRCategory, LocDisplayName, SRDescription, 지역화 문자열 리소스를 사용 하 여 및에 정의 된 [프로젝트용-Visual Studio 2013 MPF](http://mpfproj12.codeplex.com/)합니다.  
+> 해당 특성, SRCategory, LocDisplayName, SRDescription, 지역화 문자열 리소스를 사용 하 여 및에 정의 된 [프로젝트용-Visual Studio 2013 MPF](http://mpfproj12.codeplex.com/)합니다.  
   
  다음과 같은 코드 조각을 생각해 봅시다.  
   

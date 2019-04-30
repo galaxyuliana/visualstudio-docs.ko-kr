@@ -10,12 +10,12 @@ ms.assetid: 5838f02d-001f-49ce-adce-c9ea1afaec2f
 caps.latest.revision: 58
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ffdd925b1fdddb6bddfb3704e561fac8efc84b57
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 25a52b4854dd957787100ba2bc742f199c4a9a81
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416530"
 ---
 # <a name="creating-a-data-driven-coded-ui-test"></a>데이터 기반의 코딩된 UI 테스트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -140,7 +140,7 @@ ms.locfileid: "60048985"
      이제 이 테스트 메서드에서 데이터 소스를 사용할 수 있습니다.  
   
     > [!TIP]
-    >  XML, SQL Express, Excel 등의 다른 데이터 소스 형식을 사용하는 샘플은 Q & A 섹션의 [데이터 소스 특성 샘플](#CreateDataDrivenCUIT_QA_DataSourceAttributes)을 참조하세요.  
+    > XML, SQL Express, Excel 등의 다른 데이터 소스 형식을 사용하는 샘플은 Q & A 섹션의 [데이터 소스 특성 샘플](#CreateDataDrivenCUIT_QA_DataSourceAttributes)을 참조하세요.  
   
 2. 테스트를 실행합니다.  
   

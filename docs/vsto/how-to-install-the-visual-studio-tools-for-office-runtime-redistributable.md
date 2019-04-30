@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 205fb184997130423072d556a60e1323a99e6ad8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 41b6ec5c91fe9dc16a07703358ee0bb951efb490
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412597"
 ---
 # <a name="how-to-install-the-visual-studio-tools-for-office-runtime-redistributable"></a>방법: Visual Studio Tools for Office 런타임 재배포 가능 패키지 설치
   Visual Studio 2010 Tools for Office 런타임에서의 Microsoft Office 개발자 도구를 사용 하 여 만든 솔루션을 실행 하는 각 컴퓨터에 설치 해야 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. 런타임은 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 및 Microsoft Office를 설치할 때 자동으로 설치됩니다. 자세한 내용은 [Visual Studio Tools for Office 런타임 설치 시나리오](../vsto/visual-studio-tools-for-office-runtime-installation-scenarios.md)합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "60101459"
 - Office 솔루션에 대한 다른 모든 필수 구성 요소가 이미 설치된 컴퓨터에 런타임을 설치해야 합니다.
 
     > [!NOTE]
-    >  .NET Framework와 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]을 설치하려면 개발 컴퓨터의 관리자여야 합니다.
+    > .NET Framework와 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]을 설치하려면 개발 컴퓨터의 관리자여야 합니다.
 
 ## <a name="to-install-the-visual-studio-tools-for-office-runtime"></a>Visual Studio Tools for Office 런타임을 설치하려면
 

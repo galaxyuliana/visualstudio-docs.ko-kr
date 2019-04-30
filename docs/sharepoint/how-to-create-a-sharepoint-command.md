@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 49d253b63b682d81903003d6bdd148922989f274
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d804acd19d585bf9517ce9b8d771290a1f1c214a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435462"
 ---
 # <a name="how-to-create-a-sharepoint-command"></a>방법: SharePoint 명령 만들기
   사용자 지정 SharePoint 도구 확장에서 서버 개체 모델을 사용 하려는 경우 만들어야 *SharePoint 명령을* API를 호출 합니다. 서버 개체 모델을 직접 호출할 수 있는 어셈블리는 SharePoint 명령을 정의 합니다.
@@ -33,7 +33,7 @@ ms.locfileid: "60082323"
     - AnyCPU 또는 x64를 대상으로 플랫폼입니다. 기본적으로 클래스 라이브러리 프로젝트의 대상 플랫폼은 AnyCPU입니다. 대상 플랫폼을 선택 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 플랫폼을 대상으로 한 프로젝트 구성](../ide/how-to-configure-projects-to-target-platforms.md)을 참조하세요.
 
     > [!NOTE]
-    >  SharePoint 명령은.NET Framework 3.5 및 SharePoint 도구 확장 대상으로 대상이 되므로 SharePoint 도구 확장을 정의 하는 동일한 프로젝트에 SharePoint 명령을 구현할 수 없습니다는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]합니다. 별도 프로젝트에서 확장에 의해 사용 되는 모든 SharePoint 명령 정의 해야 합니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구의 확장을 배포할](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)합니다.
+    > SharePoint 명령은.NET Framework 3.5 및 SharePoint 도구 확장 대상으로 대상이 되므로 SharePoint 도구 확장을 정의 하는 동일한 프로젝트에 SharePoint 명령을 구현할 수 없습니다는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]합니다. 별도 프로젝트에서 확장에 의해 사용 되는 모든 SharePoint 명령 정의 해야 합니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구의 확장을 배포할](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)합니다.
 
 2. 다음 어셈블리에 대한 참조를 추가합니다.
 

@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: fe2e782723b35a8cdd5505c60f74d1be12bb2077
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 032447051bc03b037abba2920d48473f0d73935f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60083043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63409553"
 ---
 # <a name="walkthrough-add-an-application-page-to-a-workflow"></a>연습: 워크플로에 응용 프로그램 페이지 추가
   이 연습에서는 워크플로 프로젝트에는 워크플로에서 파생 된 데이터를 표시 하는 응용 프로그램 페이지를 추가 하는 방법에 설명 합니다. 항목에서 설명한 프로젝트 기반 [연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만드는](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)합니다.
@@ -295,7 +295,7 @@ ms.locfileid: "60083043"
     ```
 
     > [!WARNING]
-    >  SharePoint를 실행 하는 유효한 서버 이름으로 "TestServer" 코드에서 대체 해야 합니다.
+    > SharePoint를 실행 하는 유효한 서버 이름으로 "TestServer" 코드에서 대체 해야 합니다.
 
 ## <a name="test-the-application-page"></a>응용 프로그램 페이지 테스트
  다음으로, 응용 프로그램 페이지 비용 데이터를 올바르게 표시 되는지 여부를 결정 합니다.

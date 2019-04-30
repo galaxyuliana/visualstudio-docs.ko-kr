@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7575368a39aa7b6306336883327e2f7b9cafa8a8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4d87a14143bb73e3bd370a9315cea9250be07df3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415372"
 ---
 # <a name="how-to-use-text-markers"></a>방법: 텍스트 마커를 사용 합니다.
 텍스트 마커를 편집 하려면 적용할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> 개체입니다.
@@ -27,12 +27,12 @@ ms.locfileid: "60109714"
 1. 인스턴스는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> 클래스입니다.
 
     > [!NOTE]
-    >  핵심 편집기를 편집 하는 모든 문서에 표준 텍스트 마커를 자동으로 적용 하 고 표준 텍스트 마커를 명시적으로 적용할 필요는 없습니다.
+    > 핵심 편집기를 편집 하는 모든 문서에 표준 텍스트 마커를 자동으로 적용 하 고 표준 텍스트 마커를 명시적으로 적용할 필요는 없습니다.
 
 2. 호출 하 여 관심 있는 표식의 표식 유형 ID를 가져올는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> 메서드는 `GUID` 사용 하려는 텍스트 마커의 합니다.
 
     > [!NOTE]
-    >  사용 하지 마십시오는 `GUID` VSPackage 또는 텍스트 마커를 제공 하는 서비스입니다.
+    > 사용 하지 마십시오는 `GUID` VSPackage 또는 텍스트 마커를 제공 하는 서비스입니다.
 
 3. 사용 하 여 호출 하 여 표식 유형 ID를 가져올는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager.GetRegisteredMarkerTypeID%2A> 메서드 호출에 매개 변수로 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker%2A> 메서드 또는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream.CreateStreamMarker%2A> 텍스트 마커를 텍스트의 지정된 된 지역에 적용 하는 방법.
 

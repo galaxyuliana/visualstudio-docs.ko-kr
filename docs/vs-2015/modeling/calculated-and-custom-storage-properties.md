@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 673b6bda444fd097b2ce4f4eee87c9f558e64c08
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a5aa6edaaba54f9c08921a594b90ca1a7352e4da
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433427"
 ---
 # <a name="calculated-and-custom-storage-properties"></a>계산된 저장소 속성 및 사용자 지정 저장소 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "60069617"
      Dsl\GeneratedCode\DomainClasses.cs 또는 DomainRelationships.cs 열립니다. 강조 표시 된 메서드 호출 위에 주석 가져오기에 대 한 구현을 제공 하 라는*YourProperty*().  
   
     > [!NOTE]
-    >  이 파일은 DslDefinition.dsl에서 생성 됩니다. 이 파일을 편집 하는 경우에 변경 내용이 손실 됩니다을 클릭 하면 다음 번 **모든 템플릿 변환**합니다. 대신 별도 파일에 필요한 메서드를 추가 합니다.  
+    > 이 파일은 DslDefinition.dsl에서 생성 됩니다. 이 파일을 편집 하는 경우에 변경 내용이 손실 됩니다을 클릭 하면 다음 번 **모든 템플릿 변환**합니다. 대신 별도 파일에 필요한 메서드를 추가 합니다.  
   
 6. 만들거나 별도 폴더, 예를 들어 CustomCode 클래스 파일을 엽니다\\*YourDomainClass*. cs 합니다.  
   

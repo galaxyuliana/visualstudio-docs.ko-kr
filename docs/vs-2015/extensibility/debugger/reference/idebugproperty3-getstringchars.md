@@ -12,12 +12,12 @@ ms.assetid: 832c37f3-85cb-4227-8ab2-f27a80eafe90
 caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 0737607a8905e96e02b7189761198a7e9e3915b6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 661cf6833c292d5ff4015649d494ee3a7d04fdbb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419879"
 ---
 # <a name="idebugproperty3getstringchars"></a>IDebugProperty3::GetStringChars
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,19 +49,19 @@ int GetStringChars(
  `rgString`  
  [out] 문자열을 반환합니다.  
   
- [C + +만] `rgString` 문자열의 유니코드 문자를 받는 버퍼에 대 한 포인터입니다. 이 버퍼 이상 이어야 합니다 `buflen` 크기에서 (바이트 아님) 문자입니다.  
+ [C++ 만], `rgString` 문자열의 유니코드 문자를 받는 버퍼에 대 한 포인터입니다. 이 버퍼 이상 이어야 합니다 `buflen` 크기에서 (바이트 아님) 문자입니다.  
   
  `pceltFetched`  
- [out] 여기서 실제로 버퍼에 저장 하는 문자 수가 반환 됩니다. (수 `NULL` c + +에서.)  
+ [out] 여기서 실제로 버퍼에 저장 하는 문자 수가 반환 됩니다. (일 수 있습니다 `NULL` 에서 C++.)  
   
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다.  
   
 ## <a name="remarks"></a>설명  
- C + +에서는 기울여야 버퍼 이상 인지 확인 `buflen` 자의 유니코드 문자입니다. 2 바이트 유니코드 문자는 참고 합니다.  
+ C++, 버퍼 이상 인지 확인 하려면 주의 해야 `buflen` 자의 유니코드 문자입니다. 2 바이트 유니코드 문자는 참고 합니다.  
   
 > [!NOTE]
->  C + +에서 반환된 된 문자열에는 null 종결 문자 포함 되지 않습니다. 주어진 경우 `pceltFetched` 문자열의 문자 수를 지정 합니다.  
+> C++에서 반환된 된 문자열에 null 종결 문자 포함 되지 않습니다. 주어진 경우 `pceltFetched` 문자열의 문자 수를 지정 합니다.  
   
 ## <a name="example"></a>예제  
 <!-- TODO: review snippet reference  [!CODE [[cpp]]([cpp])]  -->  

@@ -16,18 +16,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 552f14885a95bf5c8461d6ca9db7ef2dbe204c73
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 4a9dc406665dc754f0c57c401f672cd4799183ef
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418449"
 ---
 # <a name="guids-and-ids-of-visual-studio-toolbars"></a>Guid 및 Id의 Visual Studio 도구 모음
 이 항목에서는 Visual Studio 통합된 개발 환경 (IDE)에 포함 된 도구 모음의 GUID 및 ID 값을 열거 하 고 포함 된 그룹의 키를 누릅니다. 이러한 값에 정의 된 *.vsct* Visual Studio SDK의 일부로 설치 되는 파일입니다. 자세한 내용은 [IDE 정의 명령, 메뉴 및 그룹](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)합니다.
 
 > [!NOTE]
->  다양 한 Visual Studio에 사용할 수 있는 도구는 Visual Studio 및 GUID가 정의 되어 있지 않은 및 ID 값 public이 아니어야 합니다. 이 항목에서는 Visual Studio SDK에 정의 된 도구 모음만 나열 *.vsct* 파일입니다.
+> 다양 한 Visual Studio에 사용할 수 있는 도구는 Visual Studio 및 GUID가 정의 되어 있지 않은 및 ID 값 public이 아니어야 합니다. 이 항목에서는 Visual Studio SDK에 정의 된 도구 모음만 나열 *.vsct* 파일입니다.
 
  에 정의 된 IDE 개체를 사용 하는 방법에 대 한 자세한 내용은 *.vsct* 파일을 참조 하십시오 [메뉴와 명령을 확장](../../extensibility/extending-menus-and-commands.md)합니다.
 
@@ -108,7 +108,7 @@ ms.locfileid: "56643758"
  도구 모음 도구 창 또는 IDE에서 직접와 같이 나타날 수 **솔루션 탐색기**합니다. 도구 창에 정의 되어 있지 않은 때문 *.vsct* 파일, 도구 창 도구 모음 부모가 정의 되지 않습니다. 대신 코드에 배치 됩니다. 다음 표에서 IDE에서 도구 창에 표시 되는 도구 모음 및 포함 된 명령 그룹을 보여 줍니다.
 
 > [!NOTE]
->  도구 모음 및 그룹의 GUID를 사용 하 여 `guidSHLMainMenu`, guid: id 구문을 사용 하 여 지정 하는 경우를 제외 합니다. 도구 모음에 대 한 GUID를 지정 하는 경우 해당 도구 모음에서 물려받은 그룹에도 적용 됩니다.
+> 도구 모음 및 그룹의 GUID를 사용 하 여 `guidSHLMainMenu`, guid: id 구문을 사용 하 여 지정 하는 경우를 제외 합니다. 도구 모음에 대 한 GUID를 지정 하는 경우 해당 도구 모음에서 물려받은 그룹에도 적용 됩니다.
 
 |도구 창|ToolBar|그룹|
 |-----------------|-------------|------------|

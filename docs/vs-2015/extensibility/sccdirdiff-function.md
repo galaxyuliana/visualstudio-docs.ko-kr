@@ -12,12 +12,12 @@ ms.assetid: 26c9ba92-e3b9-4dd2-bd5e-76b17745e308
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f80636e8dd16d372ceaf3d6032e861738d97b46c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 81279e0fdb0df6600686adc57bb1c5489e8e7aab
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432452"
 ---
 # <a name="sccdirdiff-function"></a>SccDirDiff 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,7 +80,7 @@ SCCRTN SccDirDiff(
 |SCC_DIFF_QD_TIME|플러그 인에서 지 원하는, 자동으로 해당 타임 스탬프를 통해 디렉터리를 비교 하거나, 지원 되지 않는 경우 SCC_DIFF_QD_CHECKSUM 또는 SCC_DIFF_QD_CONTENTS 대체 합니다.|  
   
 > [!NOTE]
->  이 함수는 동일한 명령 플래그를 사용 합니다 [SccDiff](../extensibility/sccdiff-function.md)합니다. 그러나 원본 제어 플러그 인을 디렉터리에 대 한 "빠른 diff" 작업을 지원 하지 않도록 수도 있습니다.  
+> 이 함수는 동일한 명령 플래그를 사용 합니다 [SccDiff](../extensibility/sccdiff-function.md)합니다. 그러나 원본 제어 플러그 인을 디렉터리에 대 한 "빠른 diff" 작업을 지원 하지 않도록 수도 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [소스 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)

@@ -28,12 +28,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 69e18d2baabd7bffcf794def593022b898bcd940
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 91223021ce6f05b91d47e7b7019fb0c5c02243db
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416795"
 ---
 # <a name="how-to-customize-menus-and-toolbars-in-visual-studio"></a>방법: Visual Studio에서 메뉴 및 도구 모음 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "60094530"
 메뉴 모음의 도구 모음 및 메뉴를 추가 및 제거하는 방법뿐만 아니라 지정된 도구 모음 또는 메뉴의 명령을 제거하여 Visual Studio를 사용자 지정할 수 있습니다.
 
 > [!WARNING]
->  도구 모음 또는 메뉴를 사용자 지정한 후 확인란이 **사용자 지정** 대화 상자에서 선택되었는지 확인합니다. 그렇지 않으면 Visual Studio를 닫았다가 다시 연 후 변경 사항이 유지되지 않습니다.
+> 도구 모음 또는 메뉴를 사용자 지정한 후 확인란이 **사용자 지정** 대화 상자에서 선택되었는지 확인합니다. 그렇지 않으면 Visual Studio를 닫았다가 다시 연 후 변경 사항이 유지되지 않습니다.
 
  **항목 내용:**
 
@@ -84,14 +84,14 @@ ms.locfileid: "60094530"
     - 사용자 지정 도구 모음을 제거하려면 **도구 모음** 목록에서 선택한 다음 **삭제** 단추를 선택합니다.
 
         > [!IMPORTANT]
-        >  만든 도구 모음은 삭제할 수 있지만 기본 도구 모음은 삭제할 수 없습니다.
+        > 만든 도구 모음은 삭제할 수 있지만 기본 도구 모음은 삭제할 수 없습니다.
 
     - 도구 모음을 다른 도킹 위치로 이동하려면 **도구 모음** 목록에서 **선택 사항 수정** 단추를 선택한 다음 나타나는 목록에서 위치를 선택합니다.
 
          도구 모음의 왼쪽 가장자리를 주 도킹 영역에서 원하는 위치로 끌어 도구 모음을 이동할 수도 있습니다.
 
         > [!NOTE]
-        >  도구 모음의 사용 가능성과 내게 필요한 옵션 기능을 향상시키는 방법에 대한 자세한 내용은 [방법: IDE 접근성 옵션 설정](../ide/reference/how-to-set-ide-accessibility-options.md)을 참조하세요.
+        > 도구 모음의 사용 가능성과 내게 필요한 옵션 기능을 향상시키는 방법에 대한 자세한 내용은 [방법: IDE 접근성 옵션 설정](../ide/reference/how-to-set-ide-accessibility-options.md)을 참조하세요.
 
 ## <a name="bkmk_customize"></a> 메뉴 또는 도구 모음 사용자 지정
 

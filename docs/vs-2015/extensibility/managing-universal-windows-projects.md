@@ -8,12 +8,12 @@ ms.assetid: 47926aa1-3b41-410d-bca8-f77fc950cbe7
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8de4960548b363c99b9625553c47b2cbad2df2de
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d5e45c91e9dadb0f457e3a2ecfa2e5484fbe0e78
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412327"
 ---
 # <a name="managing-universal-windows-projects"></a>유니버설 Windows 프로젝트 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -235,7 +235,7 @@ ms.locfileid: "60063688"
     ```  
   
     > [!IMPORTANT]
-    >  사용자를 연 경우는 C++ 실험적 인스턴스에서 유니버설 Windows 앱 프로젝트에서 위의 코드는 예외가 throw 됩니다. 이것은 알려진 문제입니다. 예외를 방지 하려면 대체는 `foreach` 위에 다음을 사용 하 여 차단 합니다.  
+    > 사용자를 연 경우는 C++ 실험적 인스턴스에서 유니버설 Windows 앱 프로젝트에서 위의 코드는 예외가 throw 됩니다. 이것은 알려진 문제입니다. 예외를 방지 하려면 대체는 `foreach` 위에 다음을 사용 하 여 차단 합니다.  
   
     ```csharp  
     var importingProjects = sharedAssetsProject.EnumImportingProjects();  
@@ -525,7 +525,7 @@ ms.locfileid: "60063688"
 9. 공유 항목을 수정 합니다. 플랫폼 프로젝트에서 공유 항목을 수정할 수 없습니다. 대신, 이러한 항목의 실제 소유자가 공유 프로젝트에서 수정할 해야 있습니다. 공유 프로젝트에 해당 하는 항목 ID를 가져올 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject.IsDocumentInProject%2A>를 공유 하는 항목의 전체 경로 제공 합니다. 그런 다음 공유 항목을 수정할 수 있습니다. 플랫폼 프로젝트에 변경 내용이 전파 됩니다.  
   
     > [!IMPORTANT]
-    >  프로젝트 항목을 수정 하기 전에 공유 항목 인지 아닌지 파악 해야 합니다.  
+    > 프로젝트 항목을 수정 하기 전에 공유 항목 인지 아닌지 파악 해야 합니다.  
   
      다음 메서드는 프로젝트 항목 파일의 이름을 수정합니다.  
   

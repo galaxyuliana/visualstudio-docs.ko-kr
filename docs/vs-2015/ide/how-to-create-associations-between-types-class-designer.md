@@ -17,12 +17,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7f70b18bb2b648231e3cada312fd241375be3193
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2d152ce38c445955988ec76a2e328691eac152ca
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416948"
 ---
 # <a name="how-to-create-associations-between-types-class-designer"></a>방법: 형식 간의 연결 만들기(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60099847"
  모든 필드와 속성을 연결로 표시할 수 있지만 다이어그램에서 강조할 내용에 따라 중요한 멤버만 연결로 표시하는 것이 좋습니다. 그 밖의 멤버는 일반 멤버로 표시하거나 완전히 숨길 수도 있습니다.  
   
 > [!NOTE]
->  클래스 디자이너에서는 단방향 연결만 지원됩니다.  
+> 클래스 디자이너에서는 단방향 연결만 지원됩니다.  
   
 ### <a name="to-define-an-association-line-in-the-class-diagram"></a>클래스 다이어그램에서 연결 선을 정의하려면  
   

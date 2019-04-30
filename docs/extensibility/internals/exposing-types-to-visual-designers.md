@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 395c45b19559833549c9613278f1a4ddbb06f30a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ffd060ca442d0979c76781ae4467b28af69a42b3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415202"
 ---
 # <a name="expose-types-to-visual-designers"></a>비주얼 디자이너에 형식 노출
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 비주얼 디자이너를 표시 하려면 디자인 타임에 클래스 및 형식 정의에 대 한 액세스를 있어야 합니다. 클래스는 미리 정의 된 집합 (참조 및 해당 종속성)은 현재 프로젝트의 전체 종속성 집합을 포함 하는 어셈블리에서에서 로드 됩니다. 비주얼 디자이너에 대 한 액세스 클래스 및 사용자 지정 도구에서 생성 된 파일에 정의 된 형식에 필요한 수도 있습니다.
@@ -27,7 +27,7 @@ ms.locfileid: "60104072"
  프로젝트 시스템 이러한 변경은 사용자 지정 도구를 실행 한 결과 사용자 지정 도구의 출력 파일의 변경 내용 추적에 대 한 전체 지원을 제공 합니다. 사용자 지정 도구를 실행할 때마다 새 임시 PE 생성 하 고 적절 한 알림을 디자이너에 전송 됩니다.
 
 > [!NOTE]
->  임시 프로그램 실행 파일 생성 파일 백그라운드에서 발생 하기 때문에 오류 없이 컴파일이 실패 하는 경우 사용자에 게 보고 됩니다.
+> 임시 프로그램 실행 파일 생성 파일 백그라운드에서 발생 하기 때문에 오류 없이 컴파일이 실패 하는 경우 사용자에 게 보고 됩니다.
 
  임시 PE 지원 기능을 활용 하는 사용자 지정 도구는 다음 규칙을 따라야 합니다.
 

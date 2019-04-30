@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 29ee2b487299351b2d71a9b495257a939fb59f6c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 162f8df09b1f6ce9372a57728d653d5d3c20a551
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415730"
 ---
 # <a name="register-the-program"></a>등록 프로그램
 디버그 엔진에 대 한 포트를을 가져온 후 표시를 [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) 인터페이스는 프로그램을 디버깅을 사용 하도록 설정 하는 다음 단계는 포트를 등록 합니다. 등록 되 면 프로그램은 다음 방법 중 하나에서 디버깅을 위해 제공 됩니다.
@@ -38,7 +38,7 @@ ms.locfileid: "60070149"
      다음 예제에서는 프로그램을 시작 하 고 포트를 사용 하 여 등록 하는 디버그 엔진을 보여 줍니다.
 
     > [!NOTE]
-    >  이 코드 예제를 시작 하 고 프로세스를 다시 시작 하는 유일한 방법은 아닙니다. 이 코드는 주로 포트를 사용 하 여 프로그램을 등록 하는 예입니다.
+    > 이 코드 예제를 시작 하 고 프로세스를 다시 시작 하는 유일한 방법은 아닙니다. 이 코드는 주로 포트를 사용 하 여 프로그램을 등록 하는 예입니다.
 
     ```cpp
     // This is an IDebugEngineLaunch2 method.

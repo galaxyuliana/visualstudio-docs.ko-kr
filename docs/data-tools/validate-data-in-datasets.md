@@ -21,12 +21,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 1b7ef69d2bb7ac9390c82ffb4e17db27a49637aa
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1e9fd28a946911a019ee0a1e144e7565bac9e004
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402732"
 ---
 # <a name="validate-data-in-datasets"></a>데이터 세트의 데이터 유효성 검사
 데이터 유효성 검사는 데이터 집합의 스키마 내에서 제약 조건에 따르는 데이터 개체에 입력할 값 확인 프로세스. 유효성 검사 프로세스는 또한 이러한 값은 다음과 같습니다 응용 프로그램에 대해 설정 된 규칙을 확인 합니다. 기본 데이터베이스에 업데이트를 보내기 전에 데이터의 유효성을 검사 하는 것이 좋습니다. 이렇게 하면 오류 뿐 아니라 잠재적인 응용 프로그램와 데이터베이스 간의 왕복 수가 줄어듭니다.
@@ -54,7 +54,7 @@ ms.locfileid: "60041593"
 기본적으로 각 열에 4 개의 이벤트가 발생 합니다. 첫 번째는 <xref:System.Data.DataTable.ColumnChanging> 및 <xref:System.Data.DataTable.ColumnChanged> 변경 되는 열에 대해서는 이벤트입니다. 다음은 <xref:System.Data.DataTable.RowChanging> 고 <xref:System.Data.DataTable.RowChanged> 이벤트입니다. 행에 여러 변경 사항이 되 고, 각 변경에 대 한 이벤트를 발생 합니다.
 
 > [!NOTE]
->  데이터 행의 <xref:System.Data.DataRow.BeginEdit%2A> 메서드를 해제 합니다 <xref:System.Data.DataTable.RowChanging> 및 <xref:System.Data.DataTable.RowChanged> 각 개별 열 변경 이벤트. 이 경우 이벤트까지 발생 하지 않습니다는 <xref:System.Data.DataRow.EndEdit%2A> 메서드는 호출 될 때 합니다 <xref:System.Data.DataTable.RowChanging> 및 <xref:System.Data.DataTable.RowChanged> 이벤트는 한 번만 발생 합니다. 자세한 내용은 [데이터 집합을 채우는 동안 제약 조건 해제](../data-tools/turn-off-constraints-while-filling-a-dataset.md)합니다.
+> 데이터 행의 <xref:System.Data.DataRow.BeginEdit%2A> 메서드를 해제 합니다 <xref:System.Data.DataTable.RowChanging> 및 <xref:System.Data.DataTable.RowChanged> 각 개별 열 변경 이벤트. 이 경우 이벤트까지 발생 하지 않습니다는 <xref:System.Data.DataRow.EndEdit%2A> 메서드는 호출 될 때 합니다 <xref:System.Data.DataTable.RowChanging> 및 <xref:System.Data.DataTable.RowChanged> 이벤트는 한 번만 발생 합니다. 자세한 내용은 [데이터 집합을 채우는 동안 제약 조건 해제](../data-tools/turn-off-constraints-while-filling-a-dataset.md)합니다.
 
 선택한 이벤트 유효성 검사 수를 원하는 세분성에 따라 달라 집니다. 열이 변경 될 때 즉시 오류를 catch 하는 중요 한 경우 유효성 검사를 사용 하 여 빌드를 <xref:System.Data.DataTable.ColumnChanging> 이벤트입니다. 그렇지 않은 경우 사용 된 <xref:System.Data.DataTable.RowChanging> 이벤트를 한 번에 여러 오류를 catch 될 수 있습니다. 또한 데이터는 구성 되어 있으므로 한 열의 값은 다른 열의 내용에 따라 유효성을 검사를 수행할 동안 유효성 검사는 <xref:System.Data.DataTable.RowChanging> 이벤트입니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "60041593"
 ## <a name="validate-data-during-column-changes"></a>열 변경 중 데이터 유효성 검사
 
 > [!NOTE]
->  합니다 **데이터 집합 디자이너** 는 유효성 검사 논리 데이터 집합에 추가할 수 있습니다 partial 클래스를 만듭니다. 디자이너에서 생성 된 데이터 집합을 삭제 하거나 partial 클래스에서 코드를 변경 하지 않습니다.
+> 합니다 **데이터 집합 디자이너** 는 유효성 검사 논리 데이터 집합에 추가할 수 있습니다 partial 클래스를 만듭니다. 디자이너에서 생성 된 데이터 집합을 삭제 하거나 partial 클래스에서 코드를 변경 하지 않습니다.
 
 데이터 열의 값이 변경에 응답 하 여 데이터를 확인할 수 있습니다는 <xref:System.Data.DataTable.ColumnChanging> 이벤트입니다. 이 이벤트는 이벤트 인수를 전달 발생 하면 (<xref:System.Data.DataColumnChangeEventArgs.ProposedValue%2A>) 현재 열에 대해 제안 되는 값이 들어 있는입니다. 내용에 따라 `e.ProposedValue`를 할 수 있습니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "60041593"
 2. 유효성을 검사 하려는 테이블의 제목 표시줄 두 번 클릭 합니다. 이 작업을 자동으로 만듭니다는 <xref:System.Data.DataTable.RowChanging> 이벤트 처리기는 <xref:System.Data.DataTable> 데이터 집합의 partial 클래스 파일에서 합니다.
 
     > [!TIP]
-    >  행 변경 이벤트 처리기를 만들려는 테이블 이름 왼쪽에 두 번 클릭 합니다. 테이블 이름을 두 번 클릭 하면 편집할 수 있습니다.
+    > 행 변경 이벤트 처리기를 만들려는 테이블 이름 왼쪽에 두 번 클릭 합니다. 테이블 이름을 두 번 클릭 하면 편집할 수 있습니다.
 
      [!code-vb[VbRaddataValidating#3](../data-tools/codesnippet/VisualBasic/validate-data-in-datasets_1.vb)]
 
@@ -113,7 +113,7 @@ ms.locfileid: "60041593"
 2. 유효성을 검사 하려는 테이블의 제목 표시줄 두 번 클릭 합니다. 이 작업에 대 한 partial 클래스 파일을 만듭니다는 <xref:System.Data.DataTable>합니다.
 
     > [!NOTE]
-    >  합니다 **데이터 집합 디자이너** 에 대 한 이벤트 처리기를 자동으로 만들어지지 않습니다는 <xref:System.Data.DataTable.RowChanging> 이벤트입니다. 처리 하는 메서드를 만들어야 합니다 <xref:System.Data.DataTable.RowChanging> 테이블의 초기화 메서드에서 이벤트를 후크 이벤트 및 코드를 실행된 합니다.
+    > 합니다 **데이터 집합 디자이너** 에 대 한 이벤트 처리기를 자동으로 만들어지지 않습니다는 <xref:System.Data.DataTable.RowChanging> 이벤트입니다. 처리 하는 메서드를 만들어야 합니다 <xref:System.Data.DataTable.RowChanging> 테이블의 초기화 메서드에서 이벤트를 후크 이벤트 및 코드를 실행된 합니다.
 
 3. Partial 클래스에 다음 코드를 복사 합니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "60041593"
 데이터 테이블의 각 행에는 <xref:System.Data.DataRow.RowState%2A> 속성의 값을 사용 하 여 해당 행의 현재 상태는 추적 하는 <xref:System.Data.DataRowState> 열거형입니다. 호출 하 여 데이터 집합 또는 데이터 테이블에서 변경 된 행을 반환할 수 있습니다 합니다 `GetChanges` 메서드를 <xref:System.Data.DataSet> 또는 <xref:System.Data.DataTable>합니다. 호출 하기 전에 변경 내용이 있는지 확인할 수 있습니다 `GetChanges` 를 호출 하 여는 <xref:System.Data.DataSet.HasChanges%2A> 메서드의 데이터 집합입니다.
 
 > [!NOTE]
->  데이터 집합 또는 데이터 테이블에 변경 내용을 커밋한 후 (호출 하 여 합니다 <xref:System.Data.DataSet.AcceptChanges%2A> 메서드), `GetChanges` 메서드 데이터를 반환 하지. 응용 프로그램을 변경 된 행을 처리 하는 경우 호출 하기 전에 변경 내용을 처리 해야 합니다는 `AcceptChanges` 메서드.
+> 데이터 집합 또는 데이터 테이블에 변경 내용을 커밋한 후 (호출 하 여 합니다 <xref:System.Data.DataSet.AcceptChanges%2A> 메서드), `GetChanges` 메서드 데이터를 반환 하지. 응용 프로그램을 변경 된 행을 처리 하는 경우 호출 하기 전에 변경 내용을 처리 해야 합니다는 `AcceptChanges` 메서드.
 
 호출 된 <xref:System.Data.DataSet.GetChanges%2A> 메서드는 데이터 집합 또는 데이터 테이블의 변경 된 레코드만 포함 된 새 데이터 집합 또는 데이터 테이블을 반환 합니다. 특정 레코드를 가져오려는 경우-예를 들어, 새 레코드만 또는 수정 된 레코드만-에서 값을 전달할 수 있습니다 합니다 <xref:System.Data.DataRowState> 열거형에 대 한 매개 변수로 `GetChanges` 메서드.
 
@@ -183,7 +183,7 @@ ms.locfileid: "60041593"
 데이터 집합 유지 모두 원래 데이터 행을 변경 하는 경우 (<xref:System.Data.DataRowVersion.Original>) 및 새 (<xref:System.Data.DataRowVersion.Current>) 행의 버전입니다. 예를 들어를 호출 하기 전에 합니다 `AcceptChanges` 메서드를 응용 프로그램 레코드의 다른 버전에 액세스할 수 (에 정의 된 대로 <xref:System.Data.DataRowVersion> 열거형) 적절 하 게 변경 내용을 처리 하 고 합니다.
 
 > [!NOTE]
->  행의 서로 다른 버전을 편집한 후에 및 하기 전에 존재는 `AcceptChanges` 메서드가 호출 되었습니다. 이후에 `AcceptChanges` 메서드를 호출한, 현재 및 원래 버전은 동일 합니다.
+> 행의 서로 다른 버전을 편집한 후에 및 하기 전에 존재는 `AcceptChanges` 메서드가 호출 되었습니다. 이후에 `AcceptChanges` 메서드를 호출한, 현재 및 원래 버전은 동일 합니다.
 
 전달 된 <xref:System.Data.DataRowVersion> 값 열 인덱스 (또는 열의 이름 (문자열))과 함께 해당 열의 특정 행 버전 값을 반환 합니다. 변경된 된 열 중에 식별 되는 <xref:System.Data.DataTable.ColumnChanging> 고 <xref:System.Data.DataTable.ColumnChanged> 이벤트입니다. 이 유효성 검사를 위해 다른 행 버전을 검사 하는 것이 좋습니다. 그러나 제약 조건을 일시적으로 일시 중단 한, 이러한 이벤트를 발생 하지 않습니다 및 프로그래밍 방식으로 해야 합니다 하는 경우에 열이 변경 되었는지 식별 합니다. 반복 하 여 이렇게 합니다 <xref:System.Data.DataTable.Columns%2A> 컬렉션과 다른 비교 <xref:System.Data.DataRowVersion> 값.
 

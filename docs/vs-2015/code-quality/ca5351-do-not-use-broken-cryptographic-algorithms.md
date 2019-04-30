@@ -8,12 +8,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 71f92543b73eddb26f82e787f5c81f53d3aeddb8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 780745e2b4213d8fdd130fe03cac292b233c5b0c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430671"
 ---
 # <a name="ca5351-do-not-use-broken-cryptographic-algorithms"></a>CA5351 끊어진 암호화 알고리즘 사용 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60102668"
 |변경 수준|주요 변경 아님|  
   
 > [!NOTE]
->  이 경고는 2015년 11월에 마지막으로 업데이트되었습니다.  
+> 이 경고는 2015년 11월에 마지막으로 업데이트되었습니다.  
   
 ## <a name="cause"></a>원인  
  <xref:System.Security.Cryptography.MD5> 등의 해시 함수와 <xref:System.Security.Cryptography.DES> 및 <xref:System.Security.Cryptography.RC2> 등의 암호화 알고리즘은 상당한 위험을 노출시킬 수 있으며 무차별 암호 대입 공격 및 해시 충돌과 같은 간단한 공격 기법을 통해 중요한 정보가 노출될 수 있습니다.  

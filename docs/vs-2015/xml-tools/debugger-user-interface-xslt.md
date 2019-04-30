@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1af3b47b2d7c897b36556f0ebac105088cdc9b75
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: f2920f73560e622c4336a1eedc23e5034fa8ff91
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417444"
 ---
 # <a name="debugger-user-interface-xslt"></a>디버거 사용자 인터페이스(XSLT)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,7 +56,7 @@ ms.locfileid: "58986432"
  작업 목록에는 XSLT 파일의 스크립트 블록에서 발생한 모든 오류가 포함됩니다.  
   
 > [!NOTE]
->  XSLT 디버거에는 경고가 없으므로 작업 목록에 절대로 표시되지 않습니다.  
+> XSLT 디버거에는 경고가 없으므로 작업 목록에 절대로 표시되지 않습니다.  
   
 ## <a name="breakpoints-window"></a>중단점 창  
  중단점 창에는 현재 프로젝트에 설정된 모든 중단점이 표시됩니다. 창이 표시되어 있는 동안 중단점을 추가하면 자동으로 창이 업데이트되어 새 중단점을 표시합니다.  

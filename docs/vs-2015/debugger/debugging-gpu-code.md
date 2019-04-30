@@ -14,12 +14,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 07e3c15fad2758de965d0e13c2b64ac3ceebd2fe
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: dc5a54b1dee2345f42abd3a00b39c11388185d03
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434873"
 ---
 # <a name="debugging-gpu-code"></a>GPU 코드 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ GPU(그래픽 처리 장치)에서 실행되는 C++ 코드를 디버깅할 수 �
  디버깅은 [!INCLUDE[win7](../includes/win7-md.md)], [!INCLUDE[win8](../includes/win8-md.md)], [!INCLUDE[winsvr08_r2](../includes/winsvr08-r2-md.md)] 및 [!INCLUDE[winserver8](../includes/winserver8-md.md)]에서 지원됩니다. 소프트웨어 에뮬레이터에서 디버깅하는 경우 [!INCLUDE[win8](../includes/win8-md.md)] 또는 [!INCLUDE[winserver8](../includes/winserver8-md.md)]가 필요합니다. 하드웨어에서 디버깅하는 경우에는 사용 중인 그래픽 카드의 드라이버를 설치해야 합니다. 하드웨어 공급업체에 따라 일부 디버거 기능을 구현하지 않는 경우도 있습니다. 제한 사항에 대해서는 공급업체 설명서를 참조하십시오.  
   
 > [!NOTE]
->  Visual Studio에서 GPU 디버깅을 지원하려는 IHV(Independent Hardware Vendor)는 VSD3DDebug 인터페이스를 구현하고 해당 공급업체의 드라이버를 대상으로 하는 DLL을 만들어야 합니다.  
+> Visual Studio에서 GPU 디버깅을 지원하려는 IHV(Independent Hardware Vendor)는 VSD3DDebug 인터페이스를 구현하고 해당 공급업체의 드라이버를 대상으로 하는 DLL을 만들어야 합니다.  
   
 ## <a name="configuring-gpu-debugging"></a>GPU 디버깅 구성  
  디버거는 동일한 응용 프로그램 실행에 포함된 CPU 코드와 GPU 코드 둘 다에서 중단될 수 없습니다. 기본적으로 디버거는 CPU 코드에서 중단됩니다. GPU 코드를 디버깅하려면 다음 두 단계 중 하나를 사용합니다.  
