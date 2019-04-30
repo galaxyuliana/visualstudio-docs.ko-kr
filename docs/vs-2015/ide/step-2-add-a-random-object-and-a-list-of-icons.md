@@ -9,12 +9,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5e71debec563aa54d5232686b599f286d147b1a7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7a4af2e5cc4119c85570246e1908c111cc0b7d75
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442640"
 ---
 # <a name="step-2-add-a-random-object-and-a-list-of-icons"></a>2단계: 임의의 개체 및 아이콘 목록 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ ms.locfileid: "60073009"
 IntelliSense 창  
   
     > [!NOTE]
-    >  Intellisense 창은 코드를 수동으로 입력하는 경우에만 나타납니다. 복사한 코드를 붙여 넣는 경우에는 표시되지 않습니다.  
+    > Intellisense 창은 코드를 수동으로 입력하는 경우에만 나타납니다. 복사한 코드를 붙여 넣는 경우에는 표시되지 않습니다.  
   
      작은 섹션의 코드(및 설명)를 보면 더 쉽게 이해할 수 있습니다. 프로그램에서는 `List` 개체를 사용하여 서로 다른 형식의 여러 항목을 추적할 수 있습니다. 목록에는 숫자, true/false 값, 텍스트 또는 다른 개체가 포함될 수 있습니다. `List` 개체에 다른 `List` 개체가 포함될 수도 있습니다. 목록의 항목은 *요소*라고 하며 각 목록에는 같은 형식의 요소만 포함됩니다. 따라서 숫자 목록에는 숫자만 포함될 수 있으며 해당 목록에 텍스트를 추가할 수 없습니다. 마찬가지로 true/false 값 목록에 숫자를 추가할 수 없습니다.  
   
@@ -51,7 +51,7 @@ IntelliSense 창
      `new` 문에 컬렉션 이니셜라이저를 사용하면 새 `List` 개체가 만들어진 후 프로그램에서 중괄호 내에 있는 사용자 제공 데이터로 개체를 채웁니다. 이 경우에는 **아이콘**이라는 문자열 목록이 만들어지고 이 목록은 16개의 문자열이 포함되도록 초기화됩니다. 각 문자열은 단일 문자이며 모두 레이블에 포함될 아이콘에 해당합니다. 따라서 이 게임에는 느낌표, 대문자 N, 쉼표 등이 각각 쌍으로 포함됩니다. 이러한 문자는 Webdings 글꼴로 설정되며, 버스, 오토바이, 거미 등의 기호로 나타납니다. `List` 개체에는 TableLayoutPanel 패널의 각 셀에 하나씩 모두 16개의 문자열이 포함됩니다.  
   
     > [!NOTE]
-    >  Visual Basic에서도 같은 결과가 나타나지만 먼저 문자열이 임시 배열에 추가된 다음, `List` 개체로 변환됩니다. 배열은 목록과 비슷하지만 고정 크기로 만들어진다는 차이가 있습니다. 목록은 필요에 따라 축소 또는 확장할 수 있으며 이는 프로그램에서 중요한 내용입니다.  
+    > Visual Basic에서도 같은 결과가 나타나지만 먼저 문자열이 임시 배열에 추가된 다음, `List` 개체로 변환됩니다. 배열은 목록과 비슷하지만 고정 크기로 만들어진다는 차이가 있습니다. 목록은 필요에 따라 축소 또는 확장할 수 있으며 이는 프로그램에서 중요한 내용입니다.  
   
 ### <a name="to-continue-or-review"></a>계속하거나 검토하려면  
   

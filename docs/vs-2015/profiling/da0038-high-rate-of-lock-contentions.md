@@ -13,12 +13,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e2dad172ad21a57d406f0bb9ef9b42d0e27a13d6
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 0a9d809c901458782a8f7f9f3fff2c8e14069083
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59667679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444044"
 ---
 # <a name="da0038-high-rate-of-lock-contentions"></a>DA0038: 잠금 경합의 비율이 높습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ Visual Studio에서 최신 설명서를 참조 하세요. [DA0038: 높은 비율
  프로파일링 실행 중에 수집된 측정값이 잠금 경합 수가 지나치게 많다는 것을 나타낼 경우 이 규칙이 실행됩니다. 잠금 경합은 잠금을 기다리고 있는 스레드의 실행을 지연시킵니다. 저사양 하드웨어에서 실행되는 부하 테스트나 단위 테스트의 잠금 경합 수가 적더라도 잠금 경합을 조사해야 합니다.  
   
 > [!NOTE]
->  프로파일링 데이터에서 보고된 잠금 경합 비율이 지나치게 높을 때 이 정보 메시지 대신 [DA0039: 잠금 경합의 비율이 매우 높습니다.](../profiling/da0039-very-high-rate-of-lock-contentions.md) 경고 메시지가 발생합니다.  
+> 프로파일링 데이터에서 보고된 잠금 경합 비율이 지나치게 높을 때 이 정보 메시지 대신 [DA0039: 잠금 경합의 비율이 매우 높습니다.](../profiling/da0039-very-high-rate-of-lock-contentions.md) 경고 메시지가 발생합니다.  
   
 ## <a name="how-to-investigate-a-warning"></a>경고를 조사하는 방법  
  메시지를 두 번 클릭하여 프로파일링 데이터의 [표시](../profiling/marks-view.md) 뷰로 이동합니다.  **.NET CLR LocksAndThreads\Contention Rate / sec** 열을 찾습니다. 다른 단계보다 잠금 경합 수가 더 많은 특정 프로그램 실행 단계가 있는지 확인합니다.  

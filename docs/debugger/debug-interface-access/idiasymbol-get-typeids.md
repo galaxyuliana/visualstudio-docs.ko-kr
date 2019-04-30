@@ -1,55 +1,55 @@
 ---
 title: 'Idiasymbol:: Get_typeids | Microsoft Docs'
-ms.date: 11/04/2016
-ms.topic: conceptual
+ms.date: 11/15/2016
+ms.prod: visual-studio-dev14
+ms.technology: vs-ide-debug
+ms.topic: reference
 dev_langs:
 - C++
 helpviewer_keywords:
 - IDiaSymbol::get_typeIds method
 ms.assetid: 5166e647-fde5-4efe-92bf-77f8ae3fbc9b
-author: mikejo5000
+caps.latest.revision: 11
+author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
-ms.openlocfilehash: 12024a3a024f2c9433e144790c0a513d4e33df12
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: c7b32ab5b1965ea7a641cfac470addd2aae0ede0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63400823"
 ---
 # <a name="idiasymbolgettypeids"></a>IDiaSymbol::get_typeIds
-이 기호에 대 한 컴파일러 별 형식 식별자 값의 배열을 검색합니다.
+[!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-## <a name="syntax"></a>구문
-
-```C++
-HRESULT get_typeIds ( 
-   DWORD  cTypeIds,
-   DWORD* pcTypeIds,
-   DWORD  typeIds[]
-);
-```
-
-#### <a name="parameters"></a>매개 변수
- `cTypeIds`
-
-[in] 데이터를 저장할 버퍼의 크기입니다.
-
- `pcTypeIds`
-
-[out] 개수를 반환 `typeIds` 기록 또는 `typeIds` 는 `NULL`, 다음 총 형식 식별자를 사용할 수 있습니다.
-
- `typeIds[]`
-
-[out] 배열 형식 식별자로 채워질입니다.
-
-## <a name="return-value"></a>반환 값
- 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
-
+이 기호에 대 한 컴파일러 별 형식 식별자 값의 배열을 검색합니다.  
+  
+## <a name="syntax"></a>구문  
+  
+```cpp#  
+HRESULT get_typeIds (   
+   DWORD  cTypeIds,  
+   DWORD* pcTypeIds,  
+   DWORD  typeIds[]  
+);  
+```  
+  
+#### <a name="parameters"></a>매개 변수  
+ `cTypeIds`  
+ [in] 데이터를 저장할 버퍼의 크기입니다.  
+  
+ `pcTypeIds`  
+ [out] 개수를 반환 `typeIds` 기록 또는 `typeIds` 는 `NULL`, 다음 총 형식 식별자를 사용할 수 있습니다.  
+  
+ `typeIds[]`  
+ [out] 배열 형식 식별자로 채워질입니다.  
+  
+## <a name="return-value"></a>반환 값  
+ 성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
+  
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
-
-## <a name="see-also"></a>참고 항목
-- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
+  
+## <a name="see-also"></a>참고 항목  
+ [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

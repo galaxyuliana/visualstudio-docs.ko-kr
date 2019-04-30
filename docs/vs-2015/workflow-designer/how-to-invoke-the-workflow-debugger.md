@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 73bbfc4557324a221e993ed51c300b6924abd6c3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a3d5033bc9953aa00efb950eabce5e7346952f9d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444159"
 ---
 # <a name="how-to-invoke-the-workflow-debugger"></a>방법: 워크플로 디버거 호출
 일반적으로 워크플로 디버깅은 다른 Visual Studio 프로그래밍 언어로 작성된 프로그램의 디버깅과 동일합니다. 다음과 같은 방법으로 워크플로 디버거를 시작할 수 있습니다.  
@@ -26,7 +26,7 @@ ms.locfileid: "60099522"
 - 원격 디버깅을 사용합니다. 원격 디버깅 사용에 대 한 자세한 내용은 [방법: 원격 디버깅 사용](http://go.microsoft.com/fwlink/?LinkId=196257)합니다.  
   
     > [!NOTE]
-    >  워크플로 응용 프로그램은 x86을 대상으로 하는 경우 아키텍처 원격 디버깅을 작동 하는 고 64 비트 운영 체제를 실행 하는 컴퓨터에서 호스트 될 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 워크플로 응용 프로그램에 변경 된 원격 컴퓨터 또는 대상에 설치 되어 **임의 CPU**합니다.  
+    > 워크플로 응용 프로그램은 x86을 대상으로 하는 경우 아키텍처 원격 디버깅을 작동 하는 고 64 비트 운영 체제를 실행 하는 컴퓨터에서 호스트 될 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 워크플로 응용 프로그램에 변경 된 원격 컴퓨터 또는 대상에 설치 되어 **임의 CPU**합니다.  
   
 ### <a name="stepping-through-code"></a>단계별 코드 실행  
   

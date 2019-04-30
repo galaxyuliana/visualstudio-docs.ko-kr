@@ -8,12 +8,12 @@ ms.assetid: b681164c-c87a-4bd7-be48-ed77e1578471
 caps.latest.revision: 17
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: badf8d53a73c86bac9422fd2bb7e1f073dd291eb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 689ff79fb35f7b84c976fed85e4af10a8e252f3c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445875"
 ---
 # <a name="using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications"></a>에뮬레이터를 사용하여 Sharepoint 2010 애플리케이션용 단위 테스트 격리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -340,7 +340,7 @@ public string GetAppointmentsForToday(string listName, SPWeb web)
  다음은 Fakes 대리자를 구현하는 기존 테스트 메서드 `GetAppointmentsForTodayReturnsOnlyTodaysAppointments`를 수정한 결과입니다. 필요한 변경 내용은 주석으로 설명됩니다.  
   
 > [!IMPORTANT]
->  Fakes shim을 명시적으로 만드는 테스트 메서드는 테스트가 `EmulationMode.Passthrough` 컨텍스트에서 실행될 때 `ShimNotSupported` 예외를 throw합니다. 이 문제를 방지하려면 변수를 사용하여 `EmulationMode` 값을 설정하고 값을 테스트하는 `if` 문으로 Fakes 코드를 래핑합니다.  
+> Fakes shim을 명시적으로 만드는 테스트 메서드는 테스트가 `EmulationMode.Passthrough` 컨텍스트에서 실행될 때 `ShimNotSupported` 예외를 throw합니다. 이 문제를 방지하려면 변수를 사용하여 `EmulationMode` 값을 설정하고 값을 테스트하는 `if` 문으로 Fakes 코드를 래핑합니다.  
   
 ```csharp  
 // class level field to set emulation mode  

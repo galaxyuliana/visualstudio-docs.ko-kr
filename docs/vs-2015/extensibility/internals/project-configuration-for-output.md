@@ -10,12 +10,12 @@ ms.assetid: a4517f73-45af-4745-9d7f-9fddf887b636
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a2b3a4e904fa6ca45dc207c4b713577b1e29f840
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: d14435917e982328220aa6b778d081a8837f0396
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443877"
 ---
 # <a name="project-configuration-for-output"></a>출력에 대한 프로젝트 구성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "58985305"
  구현 하 여 개발 된 구문을 `IVsOutputGroup` 프로젝트 사용량에 따라 출력 그룹에 있습니다. 예를 들어 해당 프로그램 데이터베이스 (PDB)를 사용 하 여 DLL은 그룹화 할 수 있습니다.  
   
 > [!NOTE]
->  디버깅 정보를 포함 하는 PDB 파일 및.dll 또는.exe를 빌드할 때 ' 디버그 정보 생성 ' 옵션을 지정 하는 경우 만들어집니다. .Pdb 파일 디버그 프로젝트 구성의 경우 일반적으로 생성 됩니다.  
+> 디버깅 정보를 포함 하는 PDB 파일 및.dll 또는.exe를 빌드할 때 ' 디버그 정보 생성 ' 옵션을 지정 하는 경우 만들어집니다. .Pdb 파일 디버그 프로젝트 구성의 경우 일반적으로 생성 됩니다.  
   
  프로젝트 그룹 내에 포함 된 출력 수가 구성에서 구성 달라질 경우에, 지원 되는 각 구성에 대 한 그룹 수가 반환 해야 합니다. 예를 들어, 프로젝트 Matt의 DLL 디버그 구성에 mattd.dll 및 mattd.pdb 포함 되었지만 matt.dll 보려면 소매 구성을 포함 합니다.  
   

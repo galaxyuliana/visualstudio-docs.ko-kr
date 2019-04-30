@@ -7,18 +7,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b314dc9eedbf99ba130772ac226d45239b4de455
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7e8b1ff717931286c5aa3aaaa69510ce05fb39a6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63385982"
 ---
 # <a name="walkthrough-debugging-a-text-template-that-accesses-a-model"></a>연습: 모델에 액세스 하는 텍스트 템플릿 디버그
 수정 하거나 도메인별 언어 솔루션에서 텍스트 템플릿을 추가 하는 경우 엔진은 소스 코드 또는 생성 된 코드를 컴파일할 때 템플릿을 변환 하는 경우 오류가 발생할 수 있습니다. 다음 연습에서는 텍스트 템플릿 디버그를 수행할 수 있는 작업의 일부를 보여 줍니다.
 
 > [!NOTE]
->  텍스트에 대 한 자세한 내용은 템플릿 일반적으로 참조 [코드 생성 및 T4 텍스트 템플릿](../modeling/code-generation-and-t4-text-templates.md)합니다. 텍스트 템플릿 디버깅 하는 방법에 대 한 자세한 내용은 참조 하세요. [연습: 텍스트 템플릿 디버그](debugging-a-t4-text-template.md)합니다.
+> 텍스트에 대 한 자세한 내용은 템플릿 일반적으로 참조 [코드 생성 및 T4 텍스트 템플릿](../modeling/code-generation-and-t4-text-templates.md)합니다. 텍스트 템플릿 디버깅 하는 방법에 대 한 자세한 내용은 참조 하세요. [연습: 텍스트 템플릿 디버그](debugging-a-t4-text-template.md)합니다.
 
 ## <a name="creating-a-domain-specific-language-solution"></a>도메인별 언어 솔루션 만들기
  이 절차에서는 다음과 같은 특징이 있는 도메인별 언어 솔루션을 만들 수 있습니다.
@@ -54,7 +54,7 @@ ms.locfileid: "60045059"
 1. DebugTest.tt의 코드를 다음 코드로 바꿉니다.
 
     > [!NOTE]
-    >  코드는 오류를 포함합니다. 디버깅을 위해 오류를 소개 하기.
+    > 코드는 오류를 포함합니다. 디버깅을 위해 오류를 소개 하기.
 
     ```csharp
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
@@ -118,7 +118,7 @@ ms.locfileid: "60045059"
 1. DebugTest.tt의 코드를 다음 코드로 바꿉니다.
 
     > [!NOTE]
-    >  코드는 오류를 포함합니다. 디버깅을 위해 오류를 소개 하기.
+    > 코드는 오류를 포함합니다. 디버깅을 위해 오류를 소개 하기.
 
     ```csharp
     <#@ template language="C#" inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>

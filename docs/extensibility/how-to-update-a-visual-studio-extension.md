@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 04af0f7a24cc4fc50cb65ac75f085ebf3385eeca
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4eb438db5fd911ed93f7072902281815633d06a7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415456"
 ---
 # <a name="how-to-update-a-visual-studio-extension"></a>방법: Visual Studio 확장 기능 업데이트
 사용 하 여 시스템에서 Visual Studio 확장을 업데이트할 수 있습니다 **확장 및 업데이트** 업데이트 된 버전을 설치 합니다. 확장의 업데이트 된 버전을 만들면 VSIX 매니페스트의 버전 번호를 증가 시켜 업데이트 되었음을 표시할 수 있습니다.
@@ -43,7 +43,7 @@ ms.locfileid: "60042121"
 1. Visual Studio에서 업데이트 하려는 확장에 대 한 솔루션을 엽니다. 변경 내용을 확인 합니다.
 
     > [!IMPORTANT]
-    >  부호 없는 모든 사용자 확장 자동으로 업데이트 되지 않습니다. 확장 프로그램에 항상 서명 해야 합니다.
+    > 부호 없는 모든 사용자 확장 자동으로 업데이트 되지 않습니다. 확장 프로그램에 항상 서명 해야 합니다.
 
 2. **솔루션 탐색기**오픈 *source.extension.manifest*합니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "60042121"
      아래쪽의 업데이트 자동 확인을 사용 하지 않도록 설정 하거나 설정할 수 있습니다 합니다 **업데이트** 창 (**사용 가능한 업데이트의 자동 검색 설정/해제**), 변경 내용을 **확인 업데이트가** 에서 설정 **도구** > **옵션** > **환경**  >  **확장 및 업데이트**합니다.
 
     > [!NOTE]
-    >  Visual Studio 2015 업데이트 2에서부터 지정할 수 있습니다 (에 **도구가** > **옵션** > **환경**  >  **확장 및 업데이트**) 업데이트를 사용할지 자동 사용자별 확장, 모든 사용자 확장 또는 둘 다 (기본 설정).
+    > Visual Studio 2015 업데이트 2에서부터 지정할 수 있습니다 (에 **도구가** > **옵션** > **환경**  >  **확장 및 업데이트**) 업데이트를 사용할지 자동 사용자별 확장, 모든 사용자 확장 또는 둘 다 (기본 설정).
 
 ## <a name="see-also"></a>참고자료
 - [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)

@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6e41e3df54245b023a86f20921c4bfd4de74a952
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6026ab6d0d59fb3a8f945e554fda26f10d98f952
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60051299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388469"
 ---
 # <a name="set-a-watch-on-variables-in-parallel-threads-in-visual-studio-c-visual-basic-c"></a>Visual Studio에서 병렬 스레드 수는 변수에 대 한 조사식 설정 (C#, Visual Basic의 경우 C++)
 병렬 조사식 창에서 한 식이 여러 스레드에서 보유하는 값을 동시에 표시할 수 있습니다. 각 행은 응용 프로그램에서 실행 중인 스레드를 나타냅니다. 스레드는 여러 행에 나타날 수도 있습니다. 보다 구체적으로 말하자면, 각 행은 함수 시그니처가 현재 스택 프레임의 함수와 일치하는 함수 호출을 나타냅니다. 열에 있는 항목의 정렬, 순서 변경, 제거 및 그룹화를 수행할 수 있습니다. 스레드에 플래그를 지정하거나 해제할 수 있으며 스레드를 중지(일시 중단)하거나 재개(다시 시작)할 수 있습니다. 다음 열은 **병렬 조사식** 창에 표시됩니다.
@@ -34,7 +34,7 @@ ms.locfileid: "60051299"
 - 컴퓨터, 프로세스, 타일, 작업 및 스레드를 표시할 수 있는 구성 가능한 열
 
   > [!TIP]
-  >  작업 정보를 표시 하는 **병렬 조사식** 먼저 열어야 창 합니다 **작업** 창.
+  > 작업 정보를 표시 하는 **병렬 조사식** 먼저 열어야 창 합니다 **작업** 창.
 
 - 빈 칸 *조사식 추가* 열에서 조사할 식을 입력할 수 있습니다.
 
@@ -87,4 +87,4 @@ ms.locfileid: "60051299"
 ## <a name="see-also"></a>참고 항목
 - [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [방법: GPU 스레드 창 사용](../debugger/how-to-use-the-gpu-threads-window.md)
-- [연습: 디버깅을 C++ AMP 응용 프로그램](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
+- [연습: C++ AMP 애플리케이션 디버깅](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)

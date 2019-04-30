@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d1b6af233b630b001d0d9087a2e7792497c2531d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 9af633c49538a2b74163647d537526b35f2aa048
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59659932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415794"
 ---
 # <a name="typeinfo"></a>TYPE_INFO
 이 구조는 다양 한 종류의 필드의 형식에 대 한 정보를 지정합니다.
@@ -70,7 +70,7 @@ public struct TYPE_INFO {
  이 구조에 전달 되는 [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md) 메서드 위치에서 채워집니다. 구조체의 내용을 해석 되는 방식을 기반으로 합니다 `dwKind` 필드입니다.
 
 > [!NOTE]
->  [C++ 만] 경우 `dwKind` equals `TYPE_KIND_BUILT`, 기본 릴리스해야 하는 것 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 제거 하는 경우 개체는 `TYPE_INFO` 구조입니다. 이를 위해 `typeInfo.type.typeBuilt.pUnderlyingField->Release()`를 호출합니다.
+> [C++ 만] 경우 `dwKind` equals `TYPE_KIND_BUILT`, 기본 릴리스해야 하는 것 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 제거 하는 경우 개체는 `TYPE_INFO` 구조입니다. 이를 위해 `typeInfo.type.typeBuilt.pUnderlyingField->Release()`를 호출합니다.
 
  [C# 만] 다음 표에서 해석 하는 방법을 보여 줍니다는 `unionmember` 각 종류의 형식에 대 한 멤버입니다. 형식의 한 종류에 대 한이 작업을 수행 하는 방법을 보여 줍니다.
 

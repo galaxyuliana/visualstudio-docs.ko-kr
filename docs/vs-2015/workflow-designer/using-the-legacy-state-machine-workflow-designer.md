@@ -18,12 +18,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e96d1db524d5a80a9f298fa84ca1ccf27e28fbf4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 54469f2e255ff9ea726ea1b6c13abcb55c33252d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444119"
 ---
 # <a name="using-the-legacy-state-machine-workflow-designer"></a>레거시 상태 시스템 워크플로 디자이너 사용
 새 상태 시스템 워크플로 프로젝트를 만들 때 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 대상으로 합니다 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)], 중 하나를 사용 하도록 선택할 수는 **상태 시스템 워크플로 콘솔 응용 프로그램** 또는 합니다  **상태 시스템 워크플로 라이브러리** 레거시 프로젝트 템플릿. 이러한 상태 시스템 프로젝트 템플릿 중 하나를 선택하면 상태 시스템 디자이너가 레거시 Workflow Designer 사용자 인터페이스로 나타납니다. 레거시 상태 시스템 프로젝트 템플릿에 대 한 내용은 [방법: 상태 시스템 워크플로 콘솔 응용 프로그램 (레거시) 만들기](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md) 고 [방법: 상태 시스템 워크플로 라이브러리 (레거시) 만들기](../workflow-designer/how-to-create-a-state-machine-workflow-library-legacy.md)합니다.  
@@ -53,9 +53,9 @@ ms.locfileid: "58970487"
  새 끌어 오면 **StateActivity** 워크플로 디자인 화면에 추가할 수 있습니다 [EventDrivenActivity](http://go.microsoft.com/fwlink?LinkID=65029)에 [StateInitializationActivity](http://go.microsoft.com/fwlink?LinkID=65044), [ StateFinalizationActivity](http://go.microsoft.com/fwlink?LinkID=65043), 또는 추가 **StateActivity** 자식 활동으로 작업 합니다.  
   
 > [!CAUTION]
->  상태 시스템 워크플로 디자이너를 사용 하 여 워크플로 만들 때 사용 하 여 디자인 중인 워크플로의 구조를 모니터링 해야 합니다 **문서 개요** 뷰 창. 상태 시스템 워크플로의 구조 뷰는 **문서 개요** 보기 창 활동 워크플로 마크업 파일에 대 한 논리 레이아웃을 미러링합니다. 디자인 화면에 나타나는 워크플로 활동의 실제 레이아웃은 워크플로 마크업 파일의 활동에 대한 논리 레이아웃을 미러링하지 않을 수도 있습니다.  
+> 상태 시스템 워크플로 디자이너를 사용 하 여 워크플로 만들 때 사용 하 여 디자인 중인 워크플로의 구조를 모니터링 해야 합니다 **문서 개요** 뷰 창. 상태 시스템 워크플로의 구조 뷰는 **문서 개요** 보기 창 활동 워크플로 마크업 파일에 대 한 논리 레이아웃을 미러링합니다. 디자인 화면에 나타나는 워크플로 활동의 실제 레이아웃은 워크플로 마크업 파일의 활동에 대한 논리 레이아웃을 미러링하지 않을 수도 있습니다.  
 >   
->  열려는 **문서 개요** 창에는 **보기** 메뉴에서 **다른 Windows**, 선택한 후 **문서 개요**.  
+> 열려는 **문서 개요** 창에는 **보기** 메뉴에서 **다른 Windows**, 선택한 후 **문서 개요**.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 상태 시스템 워크플로 콘솔 응용 프로그램 (레거시) 만들기](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md)   

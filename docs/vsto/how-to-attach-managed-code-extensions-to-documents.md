@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 18ca5e0cbf341f27454377c544e20cd2aba1388f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f56d51817491726e6011e965bfd6d68630bb0dbf
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441798"
 ---
 # <a name="how-to-attach-managed-code-extensions-to-documents"></a>방법: 문서에 관리 코드 확장명 연결
   기존 Microsoft Office Word 문서 또는 Microsoft Office Excel 통합 문서에 사용자 지정 어셈블리를 연결할 수 있습니다. Microsoft Office 프로젝트와 Visual Studio에 개발 도구에서 지원 되는 모든 파일 형식 문서 또는 통합 문서를 수 있습니다. 자세한 내용은 [의 문서 수준 사용자 지정 아키텍처](../vsto/architecture-of-document-level-customizations.md)합니다.
@@ -28,7 +28,7 @@ ms.locfileid: "60044266"
  Word 또는 Excel 문서에 사용자 지정 연결을 사용 합니다 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument.AddCustomization%2A> 메서드는 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 클래스입니다. 때문에 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 클래스는 Microsoft Office가 설치 되지 않은 컴퓨터에서 실행 되도록 설계 되었습니다, Microsoft Office 개발 (예: 콘솔 또는 Windows Forms 응용 프로그램)에 직접 관련 되지 않은 솔루션에서이 메서드를 사용할 수 있습니다.
 
 > [!NOTE]
->  사용자 지정 코드를 지정된 된 문서에 없는 컨트롤을 필요로 하는 경우 로드 되지 것입니다.
+> 사용자 지정 코드를 지정된 된 문서에 없는 컨트롤을 필요로 하는 경우 로드 되지 것입니다.
 
  ![비디오 링크](../vsto/media/playvideo.gif "비디오 링크") 관련된 비디오 데모를 참조 하세요. [어떻게 할까요? 연결 또는 분리를 VSTO 어셈블리 Word 문서에서? ](http://go.microsoft.com/fwlink/?LinkId=136782).
 

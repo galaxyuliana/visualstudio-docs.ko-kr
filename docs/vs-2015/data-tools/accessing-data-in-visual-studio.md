@@ -22,12 +22,12 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: 02d40062b1202a261aa7be4ae306329a6a93b37a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: f0dd471e156f7a76462ac093c9ca54684f7dbc68
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444498"
 ---
 # <a name="accessing-data-in-visual-studio"></a>Visual Studio에서 데이터 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,7 +70,7 @@ Visual Studio에서 거의 모든 데이터베이스 제품 또는 서비스의 
  여러 데이터베이스 공급 업체와 타사 NuGet 패키지에서 Visual Studio 통합을 지원합니다. Nuget.org 또는 Visual Studio에서 NuGet 패키지 관리자를 통해 제공 되는 서비스를 탐색할 수 있습니다 (**도구가** > **NuGet 패키지 관리자** > **NuGet 관리 솔루션에 대 한 패키지**). 다른 데이터베이스 제품 확장으로 Visual Studio와 통합 합니다.   로 이동 하 여 이러한 제품은 Visual Studio Gallery에서 찾아볼 수 있습니다 **도구가** > **확장 및 업데이트** 을 선택한 다음 **Online** 왼쪽 대화 상자의 창입니다.  자세한 내용은 [데이터베이스 시스템, 도구 및 샘플 설치](../data-tools/installing-database-systems-tools-and-samples.md)합니다.
 
 > [!NOTE]
->  2016 년 4 월 12 일에 SQL Server 2005 지원 연장이 종료 되었습니다.   이 날짜 이후에 SQL Server 2005를 사용 하려면 Visual Studio 2015 이상에서 데이터 도구를 계속 하지 않을 수도가 있습니다. 자세한 내용은 참조는 [SQL Server 2005 지원 종료 알림](https://www.microsoft.com/sql-server/sql-server-2005)합니다.
+> 2016 년 4 월 12 일에 SQL Server 2005 지원 연장이 종료 되었습니다.   이 날짜 이후에 SQL Server 2005를 사용 하려면 Visual Studio 2015 이상에서 데이터 도구를 계속 하지 않을 수도가 있습니다. 자세한 내용은 참조는 [SQL Server 2005 지원 종료 알림](https://www.microsoft.com/sql-server/sql-server-2005)합니다.
 
 ### <a name="net-languages"></a>.NET 언어
  .NET Core를 포함 하 여 모든.NET 데이터 액세스, ADO.NET, 모든 종류의 관계형 및 비관계형 데이터 원본에 액세스 하기 위한 인터페이스를 정의 하는 클래스 집합을 기반으로 합니다. Visual Studio에 여러 도구 및 데이터베이스에 연결할 수 있도록 ADO.NET을 사용 하는 디자이너에 데이터를 조작 하 고 사용자에 게 데이터를 표시 합니다. 이 섹션의에서 설명서에서는 이러한 도구를 사용 하는 방법을 설명 합니다. ADO.NET 명령 개체에 대해 직접 프로그래밍할 수 있습니다. ADO.NET Api를 직접 호출 하는 방법에 대 한 자세한 내용은 참조 하세요. [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx\(v=vs.110\).aspx) MSDN 라이브러리에서.

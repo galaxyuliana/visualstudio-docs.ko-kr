@@ -19,12 +19,12 @@ caps.latest.revision: 65
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3dd58013cb26e8533a5b898a0e5cd1df3be1b262
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: e0352f98fe4d053f8c90d1b2c8f910e73cde23a6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441509"
 ---
 # <a name="compile-page-project-designer-visual-basic"></a>프로젝트 디자이너, 컴파일 페이지(Visual Basic)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "59649058"
  다음 설정을 사용하면 표시하거나 수정할 구성 및 플랫폼을 선택할 수 있습니다.  
   
 > [!NOTE]
->  단순화된 빌드 구성을 사용하면 프로젝트 시스템에서 디버그 버전을 빌드할지 아니면 릴리스 버전을 빌드할지 결정합니다. 따라서 **구성** 및 **플랫폼** 목록이 표시되지 않습니다. 자세한 내용은 [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)을 참조하세요.  
+> 단순화된 빌드 구성을 사용하면 프로젝트 시스템에서 디버그 버전을 빌드할지 아니면 릴리스 버전을 빌드할지 결정합니다. 따라서 **구성** 및 **플랫폼** 목록이 표시되지 않습니다. 자세한 내용은 [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)을 참조하세요.  
   
  **구성**  
  표시하거나 수정할 구성 설정을 지정합니다. 설정은 **디버그**(기본값), **릴리스** 또는 **모든 구성**입니다. 자세한 내용은 [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e) 고 [방법: 구성 만들기 및 편집](../../ide/how-to-create-and-edit-configurations.md)을 참조하세요.  

@@ -22,12 +22,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1c9ea6398ca02291bb9dc11693c98336cd33b14b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d281b0ddb15a2acc455acd037c088c133c74c1f1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440977"
 ---
 # <a name="layer-diagrams-reference"></a>레이어 다이어그램: 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,7 +85,7 @@ Visual Studio에서 사용할 수는 *레이어 다이어그램* 시스템의 �
      **레이어 탐색기** 열리고 선택한 레이어에 연결 된 아티팩트를 보여 줍니다. **레이어 탐색기** 에 각 아티팩트 링크의 속성을 보여 주는 열이 있습니다.  
   
     > [!NOTE]
-    >  이러한 속성의 모든 작업을 보이지 않으면 확장 합니다 **레이어 탐색기** 창입니다.  
+    > 이러한 속성의 모든 작업을 보이지 않으면 확장 합니다 **레이어 탐색기** 창입니다.  
   
     |**레이어 탐색기의 열**|**설명**|  
     |----------------------------------|---------------------|  

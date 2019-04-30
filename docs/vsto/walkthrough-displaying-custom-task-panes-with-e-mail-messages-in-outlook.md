@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 583c15a5b605671e09ac47a42d49b068393ffe2e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8127b35c7b3c861ce0568acc5c0459d6d31eee08
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440882"
 ---
 # <a name="walkthrough-display-custom-task-panes-with-email-messages-in-outlook"></a>연습: Outlook에서 전자 메일 메시지를 사용 하 여 사용자 지정 작업창을 표시 합니다.
   이 연습에는 만들거나 열린 각 메일 메시지를 사용 하 여 사용자 지정 작업창의 고유 인스턴스를 표시 하는 방법을 보여 줍니다. 사용자는 각 메일 메시지의 리본에 있는 단추를 사용하여 사용자 지정 작업창을 표시하거나 숨길 수 있습니다.
@@ -31,7 +31,7 @@ ms.locfileid: "60062558"
  여러 탐색기 또는 검사기 창에서 사용자 지정 작업창을 함께 표시하려면 열리는 각 창에 대해 사용자 지정 작업창의 인스턴스를 만들어야 합니다. Outlook 창에 있는 사용자 지정 작업창 동작에 대 한 자세한 내용은 참조 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
 
 > [!NOTE]
->  이 연습에서는 코드에 숨겨진 논리를 보다 쉽게 설명하기 위해 VSTO 추가 기능 코드를 여러 개의 작은 섹션으로 보여 줍니다.
+> 이 연습에서는 코드에 숨겨진 논리를 보다 쉽게 설명하기 위해 VSTO 추가 기능 코드를 여러 개의 작은 섹션으로 보여 줍니다.
 
  이 연습에서는 다음 작업을 수행합니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "60062558"
 - 리본 토글 단추를 사용자 지정 작업창과 동기화
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.

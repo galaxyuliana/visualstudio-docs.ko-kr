@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b4873085a4e4508b40b866eee79e79f624f3c01d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 9f3da13858507a3ff176aaa0a44051674fd5285f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443551"
 ---
 # <a name="create-a-business-data-connectivity-model"></a>비즈니스 데이터 연결 모델 만들기
   비즈니스 데이터 연결 (BDC) 모델을 만들 수도 있고 Visual Studio를 사용 하 여 기존 BDC 모델을 사용자 지정할 수 있습니다. 각 SharePoint 프로젝트 모델 하나만 포함할 수 있습니다. 자세한 내용은 [SharePoint 비즈니스 데이터 통합](../sharepoint/integrating-business-data-into-sharepoint.md)합니다.
@@ -29,7 +29,7 @@ ms.locfileid: "56605733"
  새 모델을 만들려면를 **비즈니스 데이터 연결 모델** 프로젝트 또는 추가 **비즈니스 데이터 연결 모델** 항목을 **빈 SharePoint 프로젝트**합니다.
 
 > [!NOTE]
->  있어야 [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] 컴퓨터에 설치 합니다.
+> 있어야 [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] 컴퓨터에 설치 합니다.
 
  Visual Studio 프로젝트에 폴더를 추가 합니다. 이 폴더에 대해 지정한 이름을 가진 합니다 **비즈니스 데이터 연결 모델** 항목에 **새 항목 추가** 대화 상자. 새 만들면 **비즈니스 데이터 연결 모델** Visual Studio 프로젝트 폴더의 이름을 **BdcModel1**합니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "56605733"
  Visual Studio 프로젝트를 컴파일할 때 어셈블리를 만듭니다. 프로젝트 어셈블리에 코드를 추가 하는 프로젝트에 다른 항목을 추가 하지 않으면 확인 (예:는 **순차 워크플로** 항목 또는 **웹 파트** 항목). 솔루션 패키지는 어셈블리를 전역 어셈블리 캐시에 복사 하지 않고 솔루션을 배포 하는 경우에 해당 항목에 대 한 코드 실행 되지 않습니다.  SharePoint BDC 데이터베이스로 어셈블리를 배포 하는 솔루션 패키지입니다.
 
 > [!NOTE]
->  Visual Studio 프로젝트를 디버깅할 때 로컬 컴퓨터에 두 위치 모두에 어셈블리를 복사 합니다.
+> Visual Studio 프로젝트를 디버깅할 때 로컬 컴퓨터에 두 위치 모두에 어셈블리를 복사 합니다.
 
 ## <a name="add-an-existing-model"></a>기존 모델 추가
  SharePoint Designer와 같은 다른 도구를 사용 하 여 만든 모델을 가져올 수 있습니다. 다음과 같은 상황에서 프로젝트에 기존 모델을 가져올 수 있습니다.

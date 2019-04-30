@@ -9,12 +9,12 @@ caps.latest.revision: 21
 author: alexhomer1
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: af4b6ba85982c926230100aac5c7a451df79b825
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4ec7d42fe5f1db8a44f17cf3dffdfd6174a58995
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445937"
 ---
 # <a name="unit-testing-visual-c-code-in-a-store-app"></a>스토어 앱의 Visual C# 코드 유닛 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60100185"
  또한 이 항목에서는 단일 Visual Studio 솔루션과 테스트할 DLL 및 단위 테스트에 대한 별도의 프로젝트를 만듭니다. DLL 프로젝트에 직접 단위 테스트를 포함하거나 단위 테스트 및 DLL에 대한 별도의 솔루션을 만들 수도 있습니다.  
   
 > [!NOTE]
->  Visual Studio Community, Enterprise 및 Professional에서는 단위 테스트를 위한 추가 기능을 제공합니다.  
+> Visual Studio Community, Enterprise 및 Professional에서는 단위 테스트를 위한 추가 기능을 제공합니다.  
 > 
 > - Microsoft 테스트 탐색기에 대한 추가 어댑터를 만든 타사 및 오픈 소스 단위 테스트 프레임워크를 사용합니다. 또한 테스트에 대한 코드 검사 정보를 분석하고 표시할 수도 있습니다.  
 >   - 빌드할 때마다 빌드 후 테스트를 실행합니다.  
@@ -211,7 +211,7 @@ ms.locfileid: "60100185"
     ```  
   
     > [!TIP]
-    >  통과된 테스트는 변경하지 않는 것이 좋습니다. 대신, 새 테스트를 추가하고, 테스트가 통과하도록 코드를 업데이트하고, 다시 다른 테스트를 추가하는 방식을 반복합니다.  
+    > 통과된 테스트는 변경하지 않는 것이 좋습니다. 대신, 새 테스트를 추가하고, 테스트가 통과하도록 코드를 업데이트하고, 다시 다른 테스트를 추가하는 방식을 반복합니다.  
     >   
     >  사용자가 요구 사항을 변경할 경우, 더 이상 올바르지 않은 테스트는 비활성화합니다. 새 테스트를 작성하고, 동일한 증분 방식으로 한 번에 하나씩 작동합니다.  
   
@@ -222,7 +222,7 @@ ms.locfileid: "60100185"
      ![RangeTest 실패](../test/media/ute-cpp-testexplorer-rangetest-fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")  
   
     > [!TIP]
-    >  테스트를 작성한 후 즉시 각 테스트가 실패하는지 확인합니다. 이렇게 하면 결코 실패하지 않는 테스트를 작성하게 되는 간단한 실수를 방지하는 데 도움이 됩니다.  
+    > 테스트를 작성한 후 즉시 각 테스트가 실패하는지 확인합니다. 이렇게 하면 결코 실패하지 않는 테스트를 작성하게 되는 간단한 실수를 방지하는 데 도움이 됩니다.  
   
 4. 새 테스트가 통과하도록 테스트 중인 코드를 개선합니다. **Rooter.cs**에서 `SqareRoot` 함수를 다음과 같이 변경합니다.  
   
@@ -247,7 +247,7 @@ ms.locfileid: "60100185"
      이제 세 테스트가 모두 통과합니다.  
   
 > [!TIP]
->  한 번에 하나씩 테스트를 추가하여 코드를 개발합니다. 각 반복 후 모든 테스트가 통과하는지 확인합니다.  
+> 한 번에 하나씩 테스트를 추가하여 코드를 개발합니다. 각 반복 후 모든 테스트가 통과하는지 확인합니다.  
   
 ## <a name="BKMK_Debug_a_failing_test"></a> 실패한 테스트 디버그  
   
@@ -332,7 +332,7 @@ ms.locfileid: "60100185"
 2. **모두 실행**을 선택하여 리팩터링된 메서드를 테스트하고 실패가 재발하지 않는지 확인합니다.  
   
 > [!TIP]
->  훌륭한 단위 테스트의 안정적인 집합은 코드를 변경할 때 버그를 만들지 않았다는 확신을 줍니다.  
+> 훌륭한 단위 테스트의 안정적인 집합은 코드를 변경할 때 버그를 만들지 않았다는 확신을 줍니다.  
   
  **테스트 코드를 리팩터링하여 중복 코드를 제거합니다.**  
   
@@ -365,4 +365,4 @@ ms.locfileid: "60100185"
 2. **모두 실행**을 선택하여 리팩터링된 메서드를 테스트하고 오류가 없는지 확인합니다.  
   
 > [!NOTE]
->  도우미 메서드를 테스트 클래스에 추가하려면 `[TestMethod]` 특성을 메서드에 추가하지 마십시오. 테스트 탐색기는 메서드를 실행되도록 등록하지 않습니다.
+> 도우미 메서드를 테스트 클래스에 추가하려면 `[TestMethod]` 특성을 메서드에 추가하지 마십시오. 테스트 탐색기는 메서드를 실행되도록 등록하지 않습니다.

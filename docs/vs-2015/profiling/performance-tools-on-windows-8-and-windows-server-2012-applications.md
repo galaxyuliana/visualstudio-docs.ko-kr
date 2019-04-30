@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c2d5fdd068894434c170c2525499a41c7c14b4e2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5bfd585a3185d83981d24c8dc77e62193c1363d4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442547"
 ---
 # <a name="performance-tools-on-windows-8-and-windows-server-2012-applications"></a>Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60095843"
 Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 성능 도구가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. 이 항목에서는 Windows 8 및 Windows Server 2012 플랫폼의 성능 도구 관련 변경 내용에 대해 설명합니다.  
   
 > [!NOTE]
->  기타 지원되는 버전의 Windows(Windows 7, Windows Server 2008 R2)용 성능 도구는 변경되지 않았습니다.  
+> 기타 지원되는 버전의 Windows(Windows 7, Windows Server 2008 R2)용 성능 도구는 변경되지 않았습니다.  
   
 ## <a name="BKMK_In_this_topic"></a> 항목 내용  
  [Visual Studio IDE에서 Windows 스토어 앱에 대한 데이터 수집](#BKMK_Profiling_Windows_Store_apps_from_the_Visual_Studio_IDE)  
@@ -105,7 +105,7 @@ Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual St
 - Visual Studio 컴퓨터에서 독립 실행형 프로파일러 도구 설치 프로그램을 복사하여 실행합니다. 설치 프로그램은 *%VSInstallDir%* **\Team Tools\Performance Tools\Setups** 폴더에 있습니다. 원격 컴퓨터의 운영 체제(x86/x64)용 설치 프로그램을 선택합니다.  
   
 > [!NOTE]
->  TIP 프로파일링 데이터를 수집하려면 원격 컴퓨터에 Visual Studio 컴퓨터의 독립 실행형 프로파일러를 설치해야 합니다.  
+> TIP 프로파일링 데이터를 수집하려면 원격 컴퓨터에 Visual Studio 컴퓨터의 독립 실행형 프로파일러를 설치해야 합니다.  
   
  명령줄에서 Windows 8 및 Windows Server 2012 애플리케이션을 프로파일링하는 경우 다음 프로파일링 기능과 옵션은 지원되지 않습니다.  
   

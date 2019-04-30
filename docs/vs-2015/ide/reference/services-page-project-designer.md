@@ -14,12 +14,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8b089cd468b9b4a69a22a3be31059be51e05ee24
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: ed2e8ad333121a489c450a35daf81a368cd4aba8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444729"
 ---
 # <a name="services-page-project-designer"></a>프로젝트 디자이너, 서비스 페이지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "59648356"
  **서비스** 페이지에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드를 선택하고 **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너**가 나타나면 **서비스** 탭을 클릭합니다.  
   
 > [!NOTE]
->  클라이언트 애플리케이션 서비스를 사용하려면 .NET Framework 정식 버전이 필요합니다. .NET Framework Client Profile에서는 클라이언트 애플리케이션 서비스가 지원되지 않습니다. **클라이언트 응용 프로그램 서비스 사용** 확인란이 사용하지 않도록 설정되어 있으면 **대상 프레임워크**가 .NET Framework 3.5 이상으로 설정되어 있는지 확인합니다. C#에서 **대상 프레임워크** 설정을 확인하려면 프로젝트 디자이너를 열고 **애플리케이션** 페이지를 클릭합니다. Visual Basic에서 **대상 프레임워크** 설정을 확인하려면 프로젝트 디자이너를 열고 **컴파일** 페이지를 클릭한 다음 **고급 컴파일 옵션**을 클릭합니다.  
+> 클라이언트 애플리케이션 서비스를 사용하려면 .NET Framework 정식 버전이 필요합니다. .NET Framework Client Profile에서는 클라이언트 애플리케이션 서비스가 지원되지 않습니다. **클라이언트 응용 프로그램 서비스 사용** 확인란이 사용하지 않도록 설정되어 있으면 **대상 프레임워크**가 .NET Framework 3.5 이상으로 설정되어 있는지 확인합니다. C#에서 **대상 프레임워크** 설정을 확인하려면 프로젝트 디자이너를 열고 **애플리케이션** 페이지를 클릭합니다. Visual Basic에서 **대상 프레임워크** 설정을 확인하려면 프로젝트 디자이너를 열고 **컴파일** 페이지를 클릭한 다음 **고급 컴파일 옵션**을 클릭합니다.  
   
 ## <a name="task-list"></a>작업 목록  
  [방법: 클라이언트 애플리케이션 서비스 구성](http://msdn.microsoft.com/library/34a8688a-a32c-40d3-94be-c8e610c6a4e8)  

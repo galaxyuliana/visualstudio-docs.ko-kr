@@ -10,12 +10,12 @@ ms.assetid: 91b167a3-280a-498b-8fc2-f67859a2c64e
 caps.latest.revision: 29
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bfadcb962e63a38f4f8190c2dd9c02f4e2ac4643
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9541180ba8740cdc12a038f81c4ef74d47fcc1aa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446239"
 ---
 # <a name="run-unit-tests-with-test-explorer"></a>테스트 탐색기를 사용하여 단위 테스트 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +77,7 @@ ms.locfileid: "60107998"
 ### <a name="BKMK_Run_tests_after_every_build"></a> 각 빌드 후 테스트 실행  
   
 > [!WARNING]
->  각 빌드 후 단위 테스트 실행은 Visual Studio Enterprise에서 지원됩니다.  
+> 각 빌드 후 단위 테스트 실행은 Visual Studio Enterprise에서 지원됩니다.  
   
 |||  
 |-|-|  
@@ -201,7 +201,7 @@ TEST_METHOD(Method1)
    ![테스트 탐색기에서 테스트 필터링](../test/media/ute-filtertestlist.png "UTE_FilterTestList")  
   
 > [!NOTE]
->  검색은 대/소문자를 구분하지 않으며 지정된 문자열이 조건 값의 어느 부분에라도 일치하는지 확인합니다.  
+> 검색은 대/소문자를 구분하지 않으며 지정된 문자열이 조건 값의 어느 부분에라도 일치하는지 확인합니다.  
   
 |한정자|설명|  
 |---------------|-----------------|  
@@ -253,7 +253,7 @@ FullName:"MyClass" - FullName:"PerfTest"
 1. Visual Studio 편집기에서 디버그하려는 하나 이상의 테스트 메서드에서 중단점을 설정합니다.  
   
    > [!NOTE]
-   >  테스트 메서드는 순서에 관계 없이 실행할 수 있기 때문에 디버그하려는 모든 테스트 메서드에 중단점을 설정합니다.  
+   > 테스트 메서드는 순서에 관계 없이 실행할 수 있기 때문에 디버그하려는 모든 테스트 메서드에 중단점을 설정합니다.  
   
 2. 테스트 탐색기에서 테스트 메서드를 선택한 다음 상황에 맞는 메뉴에서 **선택한 테스트 디버그** 를 선택합니다.  
   
@@ -267,7 +267,7 @@ FullName:"MyClass" - FullName:"PerfTest"
 ### <a name="BKMK_Analyzeunit_test_code_coverage"></a> 단위 테스트 코드 검사 분석  
   
 > [!NOTE]
->  단위 테스트 코드 검사는 Visual Studio Enterprise에서만 사용할 수 있습니다.  
+> 단위 테스트 코드 검사는 Visual Studio Enterprise에서만 사용할 수 있습니다.  
   
  Visual Studio 코드 검사 도구를 사용하여 실제로 단위 테스트를 통해 테스트되는 제품 코드의 양을 결정할 수 있습니다. 솔루션의 선택된 테스트 또는 모든 테스트에 대해 코드 검사를 실행할 수 있습니다.  
   

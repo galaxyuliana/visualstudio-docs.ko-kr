@@ -9,12 +9,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 226f2281af2ccdb288ff2c186da280b329a2af1f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e58471c1676ce67e96ef2c325f5ec461f54cfc9c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441981"
 ---
 # <a name="step-1-create-a-project-and-add-labels-to-your-form"></a>1단계: 프로젝트 만들기 및 폼에 레이블 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60071878"
 이 퀴즈를 개발하는 첫 번째 단계는 프로젝트를 만들고 폼에 레이블, 단추 및 기타 컨트롤을 추가하는 것입니다. 추가한 각 컨트롤의 속성도 설정합니다. 프로젝트에 폼, 컨트롤 및 코드(자습서의 뒷부분에서 만듦)가 포함됩니다. 단추로 퀴즈를 시작하고 레이블에 퀴즈 문제를 표시하며 나머지 다른 컨트롤에 퀴즈의 답과 퀴즈 완료까지 남은 시간을 표시합니다.  
   
 > [!NOTE]
->  이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
+> 이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
   
 ### <a name="to-create-a-project-and-set-properties-for-a-form"></a>프로젝트를 만들고 폼의 속성을 설정하려면  
   
@@ -145,7 +145,7 @@ ms.locfileid: "60071878"
 9. 네 번째 행의 경우 첫 번째 레이블의 이름을 **dividedLeftLabel**로 지정하고, 두 번째 레이블의 **Text** 속성을 **÷**(나누기 기호)로 변경하고, 세 번째 레이블의 이름을 **dividedRightLabel**로 지정하고, NumericUpDown 컨트롤의 이름을 **quotient**로 지정합니다.  
   
     > [!NOTE]
-    >  이 자습서에서 곱하기 기호 ×와 나누기 기호 ÷를 복사하여 폼에 붙여 넣을 수 있습니다.  
+    > 이 자습서에서 곱하기 기호 ×와 나누기 기호 ÷를 복사하여 폼에 붙여 넣을 수 있습니다.  
   
 ### <a name="to-add-a-start-button-and-set-the-tab-index-order"></a>시작 단추를 추가하고 탭 인덱스 순서를 설정하려면  
   
@@ -162,7 +162,7 @@ ms.locfileid: "60071878"
 6. **startButton** 컨트롤의 **TabIndex** 속성 값을 **1**로 설정합니다.  
   
     > [!NOTE]
-    >  **TabIndex** 속성은 퀴즈를 푸는 사람이 Tab 키를 선택할 때 컨트롤의 순서를 설정합니다. 작동 방식을 보려면 메뉴 모음에서 **파일**, **열기**를 선택하는 등의 작업을 수행하여 아무 대화 상자나 열고 Tab 키를 여러 번 눌러 봅니다. Tab 키를 선택할 때마다 커서가 컨트롤 사이에서 어떻게 이동하는지 살펴봅니다. 이러한 순서는 폼이 만들어질 때 프로그래머에 의해 설정됩니다.  
+    > **TabIndex** 속성은 퀴즈를 푸는 사람이 Tab 키를 선택할 때 컨트롤의 순서를 설정합니다. 작동 방식을 보려면 메뉴 모음에서 **파일**, **열기**를 선택하는 등의 작업을 수행하여 아무 대화 상자나 열고 Tab 키를 여러 번 눌러 봅니다. Tab 키를 선택할 때마다 커서가 컨트롤 사이에서 어떻게 이동하는지 살펴봅니다. 이러한 순서는 폼이 만들어질 때 프로그래머에 의해 설정됩니다.  
   
 7. NumericUpDown sum 컨트롤의 **TabIndex** 속성 값을 **2**, difference 컨트롤의 경우 **3**, product 컨트롤의 경우 **4**, quotient 컨트롤의 경우 **5**로 설정합니다.  
   

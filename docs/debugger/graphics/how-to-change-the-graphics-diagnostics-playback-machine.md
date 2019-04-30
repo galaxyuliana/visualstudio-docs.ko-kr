@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 11f5c8e32086b32c0c7167a70588ee446ec409c1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cd1f893874a9b0cfe1c7cd36f8e0bb1c38beaca1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388561"
 ---
 # <a name="how-to-change-the-graphics-diagnostics-playback-machine"></a>방법: 그래픽 진단 재생 머신 변경
 재생할 수 있습니다 그래픽 정보는 원격 컴퓨터 또는 장치를 사용 하 여 또는 로컬 컴퓨터를 사용 하 여 합니다.
@@ -46,7 +46,7 @@ ms.locfileid: "60107243"
 4. **선택** 단추를 선택합니다.
 
 > [!NOTE]
->  합니다 **원격 디버거 연결** 대화 상자는 개발 컴퓨터에 직접 연결 된 또는 동일한 서브넷에 있는 원격 디버깅 대상을 표시할 수도 있습니다. 그래픽 진단 재생 컴퓨터와 이러한 원격 디버깅 대상 중 하나를 사용 하 여 수동으로 구성 하지 않고 있습니다. 에 **원격 디버거 연결** 대화 상자를 선택 하 고 선택한 대상을 선택 합니다 **선택** 단추입니다.
+> 합니다 **원격 디버거 연결** 대화 상자는 개발 컴퓨터에 직접 연결 된 또는 동일한 서브넷에 있는 원격 디버깅 대상을 표시할 수도 있습니다. 그래픽 진단 재생 컴퓨터와 이러한 원격 디버깅 대상 중 하나를 사용 하 여 수동으로 구성 하지 않고 있습니다. 에 **원격 디버거 연결** 대화 상자를 선택 하 고 선택한 대상을 선택 합니다 **선택** 단추입니다.
 
 ## <a name="see-also"></a>참고 항목
 - [그래픽 로그 문서](graphics-log-document.md)

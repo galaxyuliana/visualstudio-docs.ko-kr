@@ -9,12 +9,12 @@ caps.latest.revision: 134
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: aa18bed0ff4dfa24de114f0b15c109dfba777c56
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b090833d766e36ba597bb32e8a6c793d674add88
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63383941"
 ---
 # <a name="find-code-changes-and-other-history-with-codelens"></a>CodeLens에서 코드 변경 내용 및 기타 기록 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60055238"
 코드에 대한 정보를 찾는 동안 편집기에서 나가지 않고 계속 작업에 집중할 수 있습니다. 코드 참조, 코드 변경 내용, 링크된 버그, 작업 항목, 코드 검토 및 단위 테스트를 확인할 수 있습니다.  
   
 > [!NOTE]
->  CodeLens는 Visual Studio Enterprise 및 Visual Studio Professional 버전에서만 사용할 수 있습니다. Visual Studio Community 버전에서는 사용할 수 없습니다.  
+> CodeLens는 Visual Studio Enterprise 및 Visual Studio Professional 버전에서만 사용할 수 있습니다. Visual Studio Community 버전에서는 사용할 수 없습니다.  
   
  솔루션에서 코드의 개별 부분을 사용하는 위치 및 방법 확인:  
   

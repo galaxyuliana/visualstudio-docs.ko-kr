@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: cfaa260b32deb2cb91b27dfcaa910e950ee00752
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ffa7923bbe7e8a7b44fec280a5528ab023feed37
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60093711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444705"
 ---
 # <a name="how-to-edit-a-sharepoint-deployment-configuration"></a>방법: SharePoint 배포 구성 편집
   배포 구성을 만들거나 기존 배포 구성을 수정할 수 있습니다. 예를 들어, 하나의 단계를 실행 또는 배포 프로세스의 단계 순서를 변경할 수 있습니다. 만들기 또는 기본 제공 및 프로그래밍 방식으로 추가 구성을 변경할 수 없으므로 배포 구성을 수정 수 있습니다.
@@ -39,7 +39,7 @@ ms.locfileid: "60093711"
 4. 에 **사용 가능한 배포 단계** 창 배포 구성에 추가 선택 하는 단계를 선택 합니다 (**>**) 단추를 선택한 후는 **확인** 단추입니다.
 
     > [!NOTE]
-    >  배포 전 명령 또는 배포 후 명령이 구성한 경우 이러한 단계는 사용자 지정 된 배포 구성에 추가한 경우에 실행 됩니다.
+    > 배포 전 명령 또는 배포 후 명령이 구성한 경우 이러한 단계는 사용자 지정 된 배포 구성에 추가한 경우에 실행 됩니다.
 
 ## <a name="change-the-active-deployment-configuration"></a>활성 배포 구성 변경
 

@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 33666c0e5d63d8d4d33d544fcfe18d8c185ce843
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a436027fc4194f762fc4b28545fdf5d4bd3b95b6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444605"
 ---
 # <a name="how-to-create-a-workflow-console-application"></a>방법: 워크플로 콘솔 애플리케이션 만들기
 [!INCLUDE[wf](../includes/wf-md.md)]에서는 시스템 또는 사용자 프로세스를 실행하는 워크플로를 만들 수 있습니다. [!INCLUDE[wfd1](../includes/wfd1-md.md)]에는 이러한 워크플로를 만들 수 있는 디자인 화면이 있습니다. [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 내에서 워크플로를 만드는 데 사용되거나 디자이너를 다시 호스트하는 다른 응용 프로그램에 통합될 수 있습니다.  
@@ -40,7 +40,7 @@ ms.locfileid: "60044354"
 7. 에 **솔루션** 상자에 새 솔루션에 대 한 이름을 입력 합니다. 클릭 **확인** 응용 프로그램을 만들려고 합니다.  
   
     > [!NOTE]
-    >  기존 솔루션에 워크플로 콘솔 응용 프로그램을 추가 하려는 경우에 솔루션을 엽니다 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서 솔루션을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기**를 선택 하 고 **추가**, 한 다음  **새 프로젝트...** 열려는 합니다 **새 프로젝트** 대화 상자. 그런 다음 이 절차의 윗부분에 설명된 대로 진행합니다.  
+    > 기존 솔루션에 워크플로 콘솔 응용 프로그램을 추가 하려는 경우에 솔루션을 엽니다 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서 솔루션을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기**를 선택 하 고 **추가**, 한 다음  **새 프로젝트...** 열려는 합니다 **새 프로젝트** 대화 상자. 그런 다음 이 절차의 윗부분에 설명된 대로 진행합니다.  
   
 8. 프로젝트 템플릿이 XAML로 워크플로 정의를 만들고 소스 코드 안에 콘솔 응용 프로그램 정의를 만듭니다. [!INCLUDE[wfd2](../includes/wfd2-md.md)]가 열리고 만들어진 워크플로의 캔버스가 표시됩니다.  
   

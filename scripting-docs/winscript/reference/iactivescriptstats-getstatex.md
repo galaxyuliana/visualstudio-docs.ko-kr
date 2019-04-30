@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 5f1585e335fac0072eba48494bf8c27736a47f41
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 3e5f25887d8fdd5b5fb774cc2e8619c1a93432c1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58149171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442771"
 ---
 # <a name="iactivescriptstatsgetstatex"></a>IActiveScriptStats::GetStatEx
 사용자 지정 스크립트 통계를 반환 합니다.  
@@ -59,7 +59,7 @@ HRESULT GetStatEx(
  이 메서드는 사용자 지정 호스트에 의미 있는 통계를 반환 하는 사용자 지정 스크립트 엔진을 수 있습니다.  
   
 > [!NOTE]
->  이 메서드가 현재 구현 되지 않습니다.  
+> 이 메서드가 현재 구현 되지 않습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IActiveScriptStats::GetStat](../../winscript/reference/iactivescriptstats-getstat.md)   

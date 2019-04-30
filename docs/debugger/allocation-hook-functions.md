@@ -22,18 +22,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bd2900544fe2c33cfaaf9d1a0da5d4ff1ac41ab4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 406647ae086285df8dfdfc00daf4b62be66e74a2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56616796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402687"
 ---
 # <a name="allocation-hook-functions"></a>할당 후크 함수
 할당 후크 함수를 사용 하 여 설치할 [_CrtSetAllocHook](/cpp/c-runtime-library/reference/crtsetallochook), 메모리 할당을 다시 할당 하거나 해제할 때마다 호출 됩니다. 이러한 후크 형식은 여러 다양 한 용도로 사용할 수 있습니다. 처리 하는 방법을 응용 프로그램 메모리 부족 상황 같은 할당 패턴을 검사할 테스트를 사용 하거나 이후 분석을 위해 할당 정보를 기록 합니다.
 
 > [!NOTE]
->  [할당 후크 및 C 런타임 메모리 할당](../debugger/allocation-hooks-and-c-run-time-memory-allocations.md)을 참조하여 할당 후크 함수에서 C 런타임 라이브러리 함수를 사용하는 방법에 대한 제한 사항에 대해 잘 알아두세요.
+> [할당 후크 및 C 런타임 메모리 할당](../debugger/allocation-hooks-and-c-run-time-memory-allocations.md)을 참조하여 할당 후크 함수에서 C 런타임 라이브러리 함수를 사용하는 방법에 대한 제한 사항에 대해 잘 알아두세요.
 
  할당 후크 함수에는 다음과 같이 프로토타입이 있어야 합니다.
 

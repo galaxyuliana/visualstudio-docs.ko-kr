@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d8ca2366111e0e87e8e95db66f9bdb146016adb8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 63d313534fab789c5e4e79fb644111314e054250
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445158"
 ---
 # <a name="how-to-migrate-a-domain-specific-language-to-a-new-version"></a>방법: 도메인 특정 언어를 새 버전으로 마이그레이션
 정의 및 도메인 특정 언어를 사용 하는 프로젝트를 마이그레이션할 수 있습니다 [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] 버전의 [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] 와 함께 배포 된는 [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)]합니다.
@@ -53,7 +53,7 @@ ms.locfileid: "60040134"
    - 프로젝트 또는 솔루션 도구 되도록 변경 내용 목록을 보려면를 선택 합니다.
 
        > [!NOTE]
-       >  폴더 이름 옆에 나타나는 확인란 아무런 효과가 없습니다. 프로젝트 및 솔루션을 검사 하는 폴더를 확장 해야 합니다.
+       > 폴더 이름 옆에 나타나는 확인란 아무런 효과가 없습니다. 프로젝트 및 솔루션을 검사 하는 폴더를 확장 해야 합니다.
 
 4. 프로젝트를 변환 합니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "60040134"
    2. 클릭 합니다 **모든 템플릿 변환** 솔루션 탐색기의 헤더에는 단추입니다.
 
        > [!NOTE]
-       >  이 단계는 불필요 한으로 만들 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\))합니다.
+       > 이 단계는 불필요 한으로 만들 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\))합니다.
 
 6. 변환 된 프로젝트에서 사용자 지정 코드를 업데이트 합니다.
 

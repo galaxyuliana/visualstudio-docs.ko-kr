@@ -8,12 +8,12 @@ ms.assetid: a608bfba-1a43-4a60-b73a-1fe53ef58098
 caps.latest.revision: 10
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ca472a8db08f337d873f0e43475a9231f2999b13
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f792c29b50be5bbadf34980b81f7c5dd329cccfb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442827"
 ---
 # <a name="create-a-unit-test-project"></a>단위 테스트 프로젝트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -21,7 +21,7 @@ ms.locfileid: "60096623"
 단위 테스트는 종종 테스트 중인 코드의 구조를 반영합니다. 예를 들어 프로젝트의 각 코드 프로젝트에 대해 단위 테스트 프로젝트를 만들 수 있습니다. 테스트 프로젝트는 프로덕션 코드와 동일한 솔루션에 있거나 개별 솔루션에 있을 수 있습니다. 한 솔루션에 여러 개의 테스트 프로젝트를 포함할 수 있습니다.  
   
 > [!NOTE]
->  네이티브 코드의 유닛 테스트 위치와 테스트 프로젝트 구조는 이 항목에서 설명하는 구조와 다를 수 있습니다. 자세한 내용은 [기존 C++ 애플리케이션에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)를 참조하세요.  
+> 네이티브 코드의 유닛 테스트 위치와 테스트 프로젝트 구조는 이 항목에서 설명하는 구조와 다를 수 있습니다. 자세한 내용은 [기존 C++ 애플리케이션에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)를 참조하세요.  
   
 ## <a name="to-create-a-unit-test-project"></a>단위 테스트 프로젝트를 만들려면:  
   

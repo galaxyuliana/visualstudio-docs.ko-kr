@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0fae2dc72c44b90068212c09086c63c9e00fd2d0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 63f86011b7794ca0ddd17b890e3374327db3af0c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446936"
 ---
 # <a name="update-ribbon-customizations-in-office-projects-that-you-migrate-to-the-net-framework-4-or-the-net-framework-45"></a>.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Office 프로젝트에서 리본 사용자 지정 업데이트
   프로젝트를 사용 하 여 만든 리본 사용자 지정을 포함 하는 경우는 **리본 (비주얼 디자이너)** 프로젝트 항목, 대상 프레임 워크를 변경 하는 경우 다음과 같이 변경 하면 프로젝트 코드를 확인 해야 합니다 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 나중에 있습니다.
@@ -75,7 +75,7 @@ ms.locfileid: "60096545"
 3. `InitializeComponent` 메서드에서 리본 컨트롤을 생성하는 코드를 코드가 대신 <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> 개체의 도우미 메서드 중 하나를 사용하도록 수정합니다.
 
     > [!NOTE]
-    >  Visual C# 프로젝트에서 `InitializeComponent` 메서드를 확인하려면 `Component Designer generated code`라는 영역을 확장해야 합니다.
+    > Visual C# 프로젝트에서 `InitializeComponent` 메서드를 확인하려면 `Component Designer generated code`라는 영역을 확장해야 합니다.
 
      예를 들어 파일에 .NET Framework 3.5를 대상으로 하는 프로젝트에서 `button1`이라는 <xref:Microsoft.Office.Tools.Ribbon.RibbonButton>을 인스턴스화하는 다음 코드 줄이 포함되어 있다고 가정합니다.
 

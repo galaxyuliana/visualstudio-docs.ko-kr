@@ -27,12 +27,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 39cdb98f14823b02c8d4d2b60575eddca6da0420
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 927451ed35ce4bbdfbff7531b2828b0571354f34
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445360"
 ---
 # <a name="windows-forms-controls-on-office-documents-overview"></a>Windows Forms 컨트롤에 대 한 Office 문서 개요
   Windows Forms 컨트롤은 사용자가 데이터를 입력하거나 조작하는 데 사용할 수 있는 개체입니다. Microsoft Office Excel 및 Microsoft Office Word 용 문서 수준 프로젝트에서는 디자인 타임에 프로젝트에서 Windows Forms 컨트롤을 문서 또는 통합 문서를 추가할 수 또는 런타임 시 이러한 컨트롤을 프로그래밍 방식으로 추가할 수 있습니다. Excel 또는 Word에 대 한 열려 있는 문서 또는 VSTO 추가 기능에서 런타임에 워크시트에 이러한 컨트롤을 프로그래밍 방식으로 추가할 수 있습니다.
@@ -109,7 +109,7 @@ Windows Form에서
 - **세로 간격 같게**
 
 > [!NOTE]
->  Word 프로젝트에서 이러한 단추는 선택된 컨트롤이 텍스트에 맞춰지지 않은 경우에만 활성화됩니다. 기본적으로 디자인 타임에 문서에 추가된 컨트롤은 텍스트와 맞춰집니다.
+> Word 프로젝트에서 이러한 단추는 선택된 컨트롤이 텍스트에 맞춰지지 않은 경우에만 활성화됩니다. 기본적으로 디자인 타임에 문서에 추가된 컨트롤은 텍스트와 맞춰집니다.
 
 ### <a name="prevent-old-data-from-appearing-in-excel-workbooks-during-loading"></a>이전 데이터를 로드 하는 동안 Excel 통합 문서에 표시 하지 않도록 방지
  디자인 타임에 Windows Forms 컨트롤을 문서 또는 워크시트에 추가하면 사용자가 문서를 닫아도 컨트롤이 문서에 유지됩니다. 디자인 타임에 추가된 컨트롤을 *정적 컨트롤*이라고 합니다.

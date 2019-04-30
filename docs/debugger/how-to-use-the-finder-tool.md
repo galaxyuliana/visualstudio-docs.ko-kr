@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 42cd2ec74c92bce545c459765f32eea479a2d5b3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 5bf3fcf00486ebb8ec54f2d692d483a7f9cf18d7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56694623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387664"
 ---
 # <a name="how-to-use-the-finder-tool"></a>방법: 찾기 도구 사용
 찾기 도구에서 사용할 수는 **창 찾기** 창 속성이 나 메시지를 표시 하려면 대화 상자. 또한 찾기 도구 사용 안 함된 자식 창을 찾습니다 하 고 어떤 항목도 강조 표시 하는 창의 자식 창이 겹친 사용 하지 않도록 설정 되는지를 수 있습니다.
@@ -41,7 +41,7 @@ ms.locfileid: "56694623"
      창의 핸들입니다 (예: 디버거에서 복사) 검사 하려는 경우 입력에 **처리** 입력란입니다.
 
    > [!TIP]
-   >  화면이 혼란을 줄이기 위해 선택 된 **spy + + 숨기기** 옵션입니다. 이 옵션은 Spy + +의 주 창을 남아 숨기고 합니다 **창 찾기** 대화 상자를 다른 응용 프로그램을 기반으로 표시 합니다. Spy + + 주 창을 클릭할 때 복원 됩니다 **확인** 또는 **취소**, 선택을 취소 하면 또는 **Spy + + 숨기기** 옵션입니다.
+   > 화면이 혼란을 줄이기 위해 선택 된 **spy + + 숨기기** 옵션입니다. 이 옵션은 Spy + +의 주 창을 남아 숨기고 합니다 **창 찾기** 대화 상자를 다른 응용 프로그램을 기반으로 표시 합니다. Spy + + 주 창을 클릭할 때 복원 됩니다 **확인** 또는 **취소**, 선택을 취소 하면 또는 **Spy + + 숨기기** 옵션입니다.
 
 4. 아래 **표시**, 선택 **속성** 하거나 **메시지**.
 

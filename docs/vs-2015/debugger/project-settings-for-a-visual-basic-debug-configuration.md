@@ -23,12 +23,12 @@ caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 390742c7b9dea5b39432a5998ec367555700d890
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 75d45f4aacad052d587950e5656dd74f153eba21
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446148"
 ---
 # <a name="project-settings-for-a-visual-basic-debug-configuration"></a>Project Settings for a Visual Basic Debug Configuration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "58983273"
 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 디버그 구성에 대한 프로젝트 설정은 [디버그 및 릴리스 구성](../debugger/how-to-set-debug-and-release-configurations.md)에 설명된 것처럼 **속성 페이지** 창에서 변경할 수 있습니다. 다음 표에서는 **속성 페이지** 창에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.  
   
 > [!WARNING]
->  이 항목은 스토어 응용 프로그램에 적용되지 않습니다. 참조 [(VB, C#, c + + 및 XAML) 디버그 세션 시작](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)  
+> 이 항목은 스토어 응용 프로그램에 적용되지 않습니다. 참조 [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)  
   
 ### <a name="debug-tab"></a>디버그 탭  
   

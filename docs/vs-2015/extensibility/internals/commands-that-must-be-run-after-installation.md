@@ -10,12 +10,12 @@ ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8448b00085ab7e7a151c935eee4d8a8b1423bd1b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 158119759f8e90161e1f3b5267be498dfc1c9b38
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441534"
 ---
 # <a name="commands-that-must-be-run-after-installation"></a>설치 후 실행해야 하는 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -23,7 +23,7 @@ ms.locfileid: "58985300"
 .Msi 파일을 통해 확장 프로그램을 배포한 경우 실행 해야 `devenv /setup` for Visual Studio 확장을 검색 하는 순서 대로 설치의 일부로.  
   
 > [!NOTE]
->  이 항목의 정보를 찾는 DevEnv Visual Studio 2008 및 이전 버전에 적용 됩니다. 이상 버전의 Visual Studio를 사용 하 여 DevEnv를 검색 하는 방법에 대 한 정보를 참조 하세요 [시스템 요구 사항 검색](../../extensibility/internals/detecting-system-requirements.md)합니다.  
+> 이 항목의 정보를 찾는 DevEnv Visual Studio 2008 및 이전 버전에 적용 됩니다. 이상 버전의 Visual Studio를 사용 하 여 DevEnv를 검색 하는 방법에 대 한 정보를 참조 하세요 [시스템 요구 사항 검색](../../extensibility/internals/detecting-system-requirements.md)합니다.  
   
 ## <a name="finding-devenvexe"></a>Devenv.exe 찾기  
  각 버전을 찾을 수 있습니다 하는 값을 레지스트리에서 devenv.exe [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] RegLocator 테이블과 AppSearch 테이블을 사용 하 여 레지스트리 값을 속성으로 저장 하는 설치 관리자가 작성 합니다. 자세한 내용은 [시스템 요구 사항 검색](../../extensibility/internals/detecting-system-requirements.md)합니다.  
@@ -59,7 +59,7 @@ ms.locfileid: "58985300"
   
 ### <a name="customaction-table-rows-to-run-devenvexe"></a>Devenv.exe를 실행 하려면 CustomAction 테이블 행  
   
-|작업|형식|소스|대상|  
+|작업|형식|Source|대상|  
 |------------|----------|------------|------------|  
 |CA_RunDevenv2002|1586|DEVENV_EXE_2002|/setup|  
 |CA_RunDevenv2003|1586|DEVENV_EXE_2003|/setup|  
@@ -69,7 +69,7 @@ ms.locfileid: "58985300"
  사용자 지정 동작 설치 하는 동안 실행 하도록 일정을 잡는 InstallExecuteSequence 테이블에 작성 해야 합니다. 조건 열의 각 행의 해당 속성을 사용 하 여는 경우 실행 되지 않도록 사용자 지정 작업을 방지 하기 위해 버전 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 시스템에 설치 되지 않은 합니다.  
   
 > [!NOTE]
->  `Null` 속성으로 계산 `False` 조건에 사용 되는 경우.  
+> `Null` 속성으로 계산 `False` 조건에 사용 되는 경우.  
   
  각 사용자 지정 작업에 대 한 시퀀스 열의 값에 Windows Installer 패키지의 다른 시퀀스 값에 따라 달라 집니다. 값 시퀀스와 InstallFinalize 표준 작업 직전에 최대한 가깝게 devenv.exe 사용자 지정 작업으로 실행 되도록 해야 합니다.  
   

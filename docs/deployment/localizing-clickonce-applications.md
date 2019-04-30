@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 529adc66ece75219e71d7ae8b17857f5036e1668
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 81ee263b3bb908daace4bf27f86cff710ae90684
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097286"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406794"
 ---
 # <a name="localize-clickonce-applications"></a>ClickOnce 애플리케이션 지역화
 지역화는 응용 프로그램을 특정 문화권에 적합하게 만드는 프로세스입니다. 이 프로세스에서는 UI(사용자 인터페이스) 텍스트를 지역별 언어로 번역하고, 올바른 데이터 및 통화 형식 지정을 사용하고, 양식에서 컨트롤 크기를 조정하고, 필요하면 오른쪽에서 왼쪽으로 컨트롤을 미러링합니다.
@@ -51,7 +51,7 @@ ms.locfileid: "60097286"
  이 접근 방법의 장점은 단일 배포를 만들고 지역화된 배포 과정을 단순화한다는 점입니다. 런타임에 사용자 Windows 운영 체제의 기본 문화권에 따라 해당 위성 어셈블리가 사용됩니다. 이 접근 방법의 단점은 클라이언트 컴퓨터에서 응용 프로그램이 설치되거나 업데이트될 때마다 모든 위성 어셈블리를 다운로드한다는 점입니다. 응용 프로그램에 많은 문자열이 포함되거나 고객의 네트워크 연결 속도가 느리면 응용 프로그램 업데이트 중에 이 프로세스가 성능에 영향을 미칠 수 있습니다.
 
 > [!NOTE]
->  이 접근 방법에서는 응용 프로그램이 컨트롤의 높이, 너비 및 위치를 다양한 문화권의 다양한 텍스트 문자열 크기에 맞게 자동으로 조정한다고 가정합니다. Windows Forms에는 <xref:System.Windows.Forms.FlowLayoutPanel> 및 <xref:System.Windows.Forms.TableLayoutPanel> 컨트롤과 <xref:System.Windows.Forms.Control.AutoSize%2A> 속성을 포함하여 양식을 쉽게 지역화할 수 있도록 디자인하는 데 사용되는 다양한 컨트롤 및 기술이 포함됩니다.  또한 참조 [방법: AutoSize 속성과 TableLayoutPanel 컨트롤을 사용 하 여 Windows forms 지역화 지원](/previous-versions/visualstudio/visual-studio-2010/1zkt8b33(v=vs.100))합니다.
+> 이 접근 방법에서는 응용 프로그램이 컨트롤의 높이, 너비 및 위치를 다양한 문화권의 다양한 텍스트 문자열 크기에 맞게 자동으로 조정한다고 가정합니다. Windows Forms에는 <xref:System.Windows.Forms.FlowLayoutPanel> 및 <xref:System.Windows.Forms.TableLayoutPanel> 컨트롤과 <xref:System.Windows.Forms.Control.AutoSize%2A> 속성을 포함하여 양식을 쉽게 지역화할 수 있도록 디자인하는 데 사용되는 다양한 컨트롤 및 기술이 포함됩니다.  또한 참조 [방법: AutoSize 속성과 TableLayoutPanel 컨트롤을 사용 하 여 Windows forms 지역화 지원](/previous-versions/visualstudio/visual-studio-2010/1zkt8b33(v=vs.100))합니다.
 
 ## <a name="generate-one-deployment-for-each-culture"></a>각 문화권에 대해 하나의 배포 생성
  이 배포 전략에서는 여러 배포를 생성합니다. 각 배포에는 특정 문화권에 필요한 위성 어셈블리만 포함하고 배포를 해당 문화권과 관련된 것으로 표시합니다.

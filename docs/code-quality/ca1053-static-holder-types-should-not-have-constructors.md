@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: da5edc8f31510fa01d2132735ede502ad7f6ad6a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MT
+ms.openlocfilehash: 52f04355a266f87a039b8197675c2f5377b840ee
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388309"
 ---
 # <a name="ca1053-static-holder-types-should-not-have-constructors"></a>CA1053: 정적 소유자 형식에는 생성자를 사용하면 안 됩니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "55922604"
  이 규칙 위반 문제를 해결 하려면 기본 생성자를 제거 하거나 비공개로 설정 합니다.
 
 > [!NOTE]
->  형식 생성자를 정의 하지 않으면 일부 컴파일러에서는 공용 기본 생성자를 자동으로 만듭니다. 형식 사용 하는 경우 인 경우 위반을 제거 하기 위해 전용 기본 생성자를 추가 합니다.
+> 형식 생성자를 정의 하지 않으면 일부 컴파일러에서는 공용 기본 생성자를 자동으로 만듭니다. 형식 사용 하는 경우 인 경우 위반을 제거 하기 위해 전용 기본 생성자를 추가 합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
  이 규칙에서는 경고를 표시해야 합니다. 생성자의 존재는 형식이 정적 형식이 아닌 것을 제안 합니다.

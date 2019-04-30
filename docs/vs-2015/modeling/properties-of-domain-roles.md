@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2e9cef8726ad690508948ac0a9878df1bd85c96e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: b78c409a761a98439cbbbfdf088e052eca745f32
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444473"
 ---
 # <a name="properties-of-domain-roles"></a>도메인 역할의 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "58970924"
 |속성 표시 이름|생성 된 역할 속성에 대해 생성된 된 디자이너에 표시 되는 이름입니다.|속성 이름 속성은 조정 된 값입니다.|  
   
 > [!NOTE]
->  표시 이름의 기본값은 각 대문자 문자는 소문자 문자 앞에 및 다른 대문자가 나오지 않습니다 앞에 공백을 삽입 하 여 연결된 된 속성 값을 기반으로 합니다.  
+> 표시 이름의 기본값은 각 대문자 문자는 소문자 문자 앞에 및 다른 대문자가 나오지 않습니다 앞에 공백을 삽입 하 여 연결된 된 속성 값을 기반으로 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [도메인 관계의 속성](../modeling/properties-of-domain-relationships.md)

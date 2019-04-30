@@ -8,12 +8,12 @@ ms.assetid: a859595f-6517-43f2-9d61-c706cb55a388
 caps.latest.revision: 25
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5289804eb85b9af4fff090f98cc97f8d2c9ec676
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d3854f4844fba3b3c1a0a519f06d59d31c4f7072
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445887"
 ---
 # <a name="using-different-web-browsers-with-coded-ui-tests"></a>코딩된 UI 테스트에 다른 웹 브라우저 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ ms.locfileid: "60100406"
  **기록:** Internet Explorer를 사용하여 웹 애플리케이션 테스트를 기록하려면 코딩된 UI 테스트 빌더를 사용해야 합니다. 코딩된 UI 테스트와 같은 방식으로, 미리 정의된 집합을 사용하여 테스트된 컨트롤에 대해 유효성 검사 및 사용자 지정 코드를 추가할 수 있습니다(선택 사항). 자세한 내용은 [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)를 참조하세요.  
   
 > [!NOTE]
->  Google Chrome 또는 Mozilla Firefox 브라우저로는 코딩된 UI 테스트를 기록할 수 없습니다.  
+> Google Chrome 또는 Mozilla Firefox 브라우저로는 코딩된 UI 테스트를 기록할 수 없습니다.  
   
  **Internet Explorer로 재생:** 브라우저를 명시적으로 지정하지 않은 경우 기본적으로 Internet Explorer에서 테스트가 실행됩니다. 테스트 코드에서 **BrowserWindow.CurrentBrowser** 속성을 설정하여 사용할 브라우저를 명시적으로 설정할 수 있습니다. Internet Explorer의 경우 이 속성을 **IE** 또는 **Internet Explorer**로 설정해야 합니다.  
   
@@ -76,7 +76,7 @@ ms.locfileid: "60100406"
 3. 확장명을 강조 표시하고 **다운로드**를 선택합니다.  
   
    > [!TIP]
-   >  또한 [여기](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)에서 코딩된 UI 다중 브라우저 테스트용 Selenium 구성 요소를 다운로드할 수 있습니다.  
+   > 또한 [여기](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)에서 코딩된 UI 다중 브라우저 테스트용 Selenium 구성 요소를 다운로드할 수 있습니다.  
   
    코딩된 UI 테스트를 만들고 사용하는 방법은 [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)를 참조하세요.  
   

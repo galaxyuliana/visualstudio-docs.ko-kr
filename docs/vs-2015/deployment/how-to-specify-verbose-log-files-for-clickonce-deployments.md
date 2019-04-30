@@ -16,12 +16,12 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e200d0918e3d346f71da6ec2184e07e7d8433174
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 78fa278952004348e035a675a1e159b2164285b1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441614"
 ---
 # <a name="how-to-specify-verbose-log-files-for-clickonce-deployments"></a>방법: ClickOnce 배포에 대한 자세한 로그 파일 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60069772"
 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 모든 배포에 대 한 활동 로그를 유지 관리합니다. 이러한 로그는 설치, 초기화, 업데이트 및 제거와 관련 된 세부 정보 문서는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 합니다. 세부 사항이 증가 하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 레지스트리 편집기를 사용 하 여 이러한 로그 파일에 쓰기 (**regedit.exe**) 세부 정보 표시 수준을 지정 하려면.  
   
 > [!CAUTION]
->  레지스트리 편집기를 잘못 사용 하면 운영 체제를 다시 설치 해야 할 수 있는 심각한 문제가 발생할 수 있습니다. 레지스트리 편집기를 사용할 때는 주의하세요.  
+> 레지스트리 편집기를 잘못 사용 하면 운영 체제를 다시 설치 해야 할 수 있는 심각한 문제가 발생할 수 있습니다. 레지스트리 편집기를 사용할 때는 주의하세요.  
   
  다음 절차에 대 한 세부 정보 표시 수준을 지정 하는 방법에 설명 합니다 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 현재 사용자에 대 한 파일을 기록 합니다. 자세한 정도 줄이려면이 레지스트리 값을 제거 합니다.  
   

@@ -20,12 +20,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 78026f091d9ed61d38d5cf9bd98ec16d85e193c6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c9e41b99e7f2dd9349bc04bd4988dbf103095c94
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60047725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441630"
 ---
 # <a name="customize-code-maps-by-editing-the-dgml-files"></a>Customize code maps by editing the DGML files
 
@@ -117,7 +117,7 @@ ms.locfileid: "60047725"
 - 특정 조건을 기반으로 한 코드 요소 및 링크 그룹
 
 > [!TIP]
->  스타일이 여러 코드 요소 또는 링크에서 반복되는 경우 코드 요소 또는 링크에 범주를 적용한 다음 해당 범주에 스타일을 적용하는 것이 좋습니다. 자세한 내용은 [코드 요소 및 링크에 범주 할당](#AssignCategories) 하 고 [코드 요소 및 링크에 속성 할당](#AssignProperties)합니다.
+> 스타일이 여러 코드 요소 또는 링크에서 반복되는 경우 코드 요소 또는 링크에 범주를 적용한 다음 해당 범주에 스타일을 적용하는 것이 좋습니다. 자세한 내용은 [코드 요소 및 링크에 범주 할당](#AssignCategories) 하 고 [코드 요소 및 링크에 속성 할당](#AssignProperties)합니다.
 
 ##### <a name="to-apply-a-custom-style-to-a-single-code-element"></a>단일 코드 요소에 사용자 지정 스타일을 적용하려면
 
@@ -555,7 +555,7 @@ ms.locfileid: "60047725"
  맵의 .dgml 파일을 편집하고 코드 요소에 대한 `Reference` 요소 또는 링크에 대한 `<Node/>` 요소에 `<Link/>` 특성을 추가하여 코드 요소 또는 링크에 문서 또는 URL을 연결할 수 있습니다. 그런 다음 코드 요소 또는 링크에서 해당 콘텐츠를 열고 볼 수 있습니다. `Reference` 특성은 해당 내용의 경로를 지정합니다. 이 경로는 .dgml 파일의 위치를 기준으로 하는 상대 경로이거나 절대 경로일 수 있습니다.
 
 > [!CAUTION]
->  상대 경로를 사용할 경우 .dgml 파일을 다른 위치로 이동하면 해당 경로가 더 이상 확인되지 않습니다. 링크된 콘텐츠를 열고 보려고 시도하면 콘텐츠를 볼 수 없다는 오류가 발생합니다.
+> 상대 경로를 사용할 경우 .dgml 파일을 다른 위치로 이동하면 해당 경로가 더 이상 확인되지 않습니다. 링크된 콘텐츠를 열고 보려고 시도하면 콘텐츠를 볼 수 없다는 오류가 발생합니다.
 
  예를 들어 다음과 같은 코드 요소를 연결할 수 있습니다.
 
@@ -580,7 +580,7 @@ ms.locfileid: "60047725"
    - `<Node/>` 또는 `<Link/>` 요소에서 `Reference` 특성을 추가하여 코드 요소 위치를 지정합니다.
 
      > [!NOTE]
-     >  `Reference` 특성은 요소마다 하나씩만 있을 수 있습니다.
+     > `Reference` 특성은 요소마다 하나씩만 있을 수 있습니다.
 
      예를 들어:
 

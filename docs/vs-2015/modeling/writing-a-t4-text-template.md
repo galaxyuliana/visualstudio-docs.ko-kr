@@ -13,12 +13,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2545db069db73fed59c95b3b4adc576facd51bc5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b3517322087c940636be07f50a013fe79307f0b7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60067641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446710"
 ---
 # <a name="writing-a-t4-text-template"></a>T4 텍스트 템플릿 쓰기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -100,7 +100,7 @@ Hello!
  코드에서 `Write();` 문이 허용되는 모든 위치에 텍스트 블록을 삽입할 수 있습니다.  
   
 > [!NOTE]
->  예: 루프 또는 조건부 복합 문 내에 텍스트 블록을 포함 하는 경우 항상 {...} 괄호 사용 텍스트 블록을 포함 합니다.  
+> 예: 루프 또는 조건부 복합 문 내에 텍스트 블록을 포함 하는 경우 항상 {...} 괄호 사용 텍스트 블록을 포함 합니다.  
   
 ### <a name="expression-control-blocks"></a>식 제어 블록  
  식 제어 블록은 식을 평가한 다음 문자열로 변환합니다. 이 문이 출력 파일에 삽입됩니다.  

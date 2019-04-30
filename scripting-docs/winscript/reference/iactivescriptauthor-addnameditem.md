@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 95bc529db8129c4e9af1ed9f9dc3d91de9686223
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58145657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411401"
 ---
 # <a name="iactivescriptauthoraddnameditem"></a>IActiveScriptAuthor::AddNamedItem
 스크립트 엔진의 네임 스페이스를 제작에 루트 수준 항목의 이름을 추가 합니다. A *루트 수준 항목* 은 개체의 속성 및 메서드를 포함할 수 있는 이벤트 소스를 포함할 수도 있습니다.  

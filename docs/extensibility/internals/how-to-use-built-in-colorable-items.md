@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e82b28a22d64ed1a97e2f932368da266b6b79d56
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 8d8994270ece639cc7d22a27af6339d525ff3618
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56603055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420505"
 ---
 # <a name="how-to-use-built-in-colorable-items"></a>방법: 기본 제공 색 항목 사용
 기본 제공 색 항목을 사용 하면 먼저 알려야 통합된 개발 환경 (IDE)이 경우에 고유한 사용자 지정 색 항목을 제공 하지 않는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> 개체입니다. 언어 서비스에 대 한 레지스트리 항목을 설정 하 여이 작업을 수행 합니다.
@@ -30,7 +30,7 @@ ms.locfileid: "56603055"
     레지스트리 항목에 colorizer의를 만든 후 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> 메서드는 멤버를 사용할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.DEFAULTITEMS> 편집기 사용에 대 한 색 특성 배열을 작성 하는 열거형입니다.
 
    > [!NOTE]
-   >  사용자 지정 색 항목을 제공 하는 경우에이 레지스트리 항목을 설정 하지 마십시오. 자세한 내용은 [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md)합니다.
+   > 사용자 지정 색 항목을 제공 하는 경우에이 레지스트리 항목을 설정 하지 마십시오. 자세한 내용은 [사용자 지정 색 항목](../../extensibility/internals/custom-colorable-items.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [사용자 지정 편집기의 구문 색 지정](../../extensibility/syntax-coloring-in-custom-editors.md)

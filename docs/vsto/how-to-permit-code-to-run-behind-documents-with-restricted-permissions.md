@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: be5afe96af1baa615e5000a6c1a19b543f3c89c5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: a5e65c086b69a712b2df5a1a12939b41828ad198
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445338"
 ---
 # <a name="how-to-permit-code-to-run-behind-documents-with-restricted-permissions"></a>방법: 제한 된 권한으로 문서 뒤에서 실행 하는 코드를 허용 합니다.
   문서 또는 통합 문서에 사용 권한을 제한 하도록 Microsoft Office의 정보 권한 관리 (IRM) 기능을 사용할 수 있습니다. 기본적으로 제한 된 Microsoft Office Word 문서 또는 Microsoft Office Excel 통합 문서 코드 실행 허용 되지 않습니다. 솔루션이 작동 하 고 관리 코드 확장 개체 모델에 액세스할 수 있도록 기본값을 변경할 수 있습니다.
@@ -38,7 +38,7 @@ ms.locfileid: "56637661"
 2. 클릭 합니다 **파일** 탭을 가리킵니다 **준비**를 가리킨 **권한 제한**, 클릭 하 고 **제한 된 액세스**합니다.
 
    > [!NOTE]
-   >  처음 사용할 때 Windows Rights Management 클라이언트를 설치 하 라는 메시지가 표시 됩니다. 클라이언트를 설치한 후 단계를 반복 해야 할 수 있습니다.
+   > 처음 사용할 때 Windows Rights Management 클라이언트를 설치 하 라는 메시지가 표시 됩니다. 클라이언트를 설치한 후 단계를 반복 해야 할 수 있습니다.
 
 3. 에 **사용 권한** 대화 상자에서 **이 문서에 대 한 사용 권한을 제한**를 클릭 하 고 **기타 옵션**.
 

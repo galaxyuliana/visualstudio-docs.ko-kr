@@ -9,12 +9,12 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3562b74939fe9207ddcf10e98bd0b4d0d7d1bead
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e2b2d4ee5feb0bed25ad41931f151e81db6edd3c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442593"
 ---
 # <a name="step-3-assign-a-random-icon-to-each-label"></a>3단계: 각 레이블에 임의 아이콘 할당
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "60085989"
      [!code-vb[VbExpressTutorial4Step2_3_4#14](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb#14)]  
   
     > [!NOTE]
-    >  "iconLabel" 및 "control"과 같이 의미를 알기 쉬운 이름이 사용되었습니다. 이러한 이름은 다른 이름으로 바꿀 수 있으며, 코드는 루프 내의 각 문에서 이름을 변경하는 한 동일하게 작동합니다.  
+    > "iconLabel" 및 "control"과 같이 의미를 알기 쉬운 이름이 사용되었습니다. 이러한 이름은 다른 이름으로 바꿀 수 있으며, 코드는 루프 내의 각 문에서 이름을 변경하는 한 동일하게 작동합니다.  
   
      `AssignIconsToSquares()` 메서드는 TableLayoutPanel의 각 Label 컨트롤을 반복하고 각 컨트롤에 대해 동일한 문을 실행합니다. 해당 문은 [2단계: 임의의 개체 및 아이콘 목록 추가](../ide/step-2-add-a-random-object-and-a-list-of-icons.md)합니다. 이 때문에 각 아이콘을 두 개씩 목록에 포함했습니다. 따라서 임의의 Label 컨트롤에 아이콘 쌍이 할당됩니다.  
   
@@ -71,7 +71,7 @@ ms.locfileid: "60085989"
      아이콘을 숨기지 않았으므로 지금은 아이콘이 보입니다. 플레이어에서 아이콘을 숨기려면 각 레이블의 `Forecolor` 속성을 해당 `BackColor` 속성과 같은 색으로 설정하면 됩니다.  
   
     > [!TIP]
-    >  레이블과 같은 컨트롤을 숨기는 또 다른 방법은 해당 **Visible** 속성을 `False`로 설정하는 것입니다.  
+    > 레이블과 같은 컨트롤을 숨기는 또 다른 방법은 해당 **Visible** 속성을 `False`로 설정하는 것입니다.  
   
 6. 아이콘을 숨기려면 프로그램을 중지하고 `For Each` 루프 내 코드의 주석 처리된 줄에 대한 주석 표시를 제거합니다.  
   

@@ -17,12 +17,12 @@ caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 82b0339bde0ffbfff77165f1626ec83767d45211
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: db33392deb16664e48c3b2d90df883294d5cfbaa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54767581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441160"
 ---
 # <a name="outlining"></a>개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "54767581"
  **편집** 메뉴의 **실행 취소** 및 **다시 실행** 명령은 이러한 작업에 영향을 줍니다. **복사**, **잘라내기**, **붙여넣기** 및 끌어서 놓기 작업은 개요 정보를 유지하지만 축소 가능한 영역의 상태는 유지되지 않습니다. 예를 들어 축소된 영역을 복사하는 경우 **붙여넣기** 작업은 복사된 텍스트를 확장된 영역으로 붙여넣습니다.  
   
 > [!CAUTION]
->  개요 보기로 표시된 영역을 변경하는 경우 개요가 손실될 수 있습니다. 예를 들어 삭제 또는 찾기/바꾸기 작업으로 인해 영역의 끝이 지워질 수 있습니다.  
+> 개요 보기로 표시된 영역을 변경하는 경우 개요가 손실될 수 있습니다. 예를 들어 삭제 또는 찾기/바꾸기 작업으로 인해 영역의 끝이 지워질 수 있습니다.  
   
  **편집/개요** 하위 메뉴에서 다음 명령을 찾을 수 있습니다.  
   

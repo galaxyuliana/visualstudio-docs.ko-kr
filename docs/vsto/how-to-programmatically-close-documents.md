@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ca8537e6e28461bfd2e3b3d6d116571d15c04ea5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 504fe863c746a788e797d3a84c4cd0b3d6c3d19b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422467"
 ---
 # <a name="how-to-programmatically-close-documents"></a>방법: 프로그래밍 방식으로 문서 닫기
   활성 문서를 닫거나 닫을 문서를 지정할 수 있습니다.
@@ -33,7 +33,7 @@ ms.locfileid: "60084442"
 1. 프로젝트에서 <xref:Microsoft.Office.Tools.Word.Document.Close%2A> 클래스의 `ThisDocument` 메서드를 호출하여 사용자 지정과 연결된 문서를 닫습니다. 다음 코드 예제를 사용하려면 `ThisDocument` 클래스에서 실행합니다.
 
     > [!NOTE]
-    >  이 예제에서는 <xref:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges> 값을 *SaveChanges* 매개 변수에 전달하여 변경 내용을 저장하거나 사용자에게 메시지를 표시하지 않고 닫습니다.
+    > 이 예제에서는 <xref:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges> 값을 *SaveChanges* 매개 변수에 전달하여 변경 내용을 저장하거나 사용자에게 메시지를 표시하지 않고 닫습니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#3](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#3)]
      [!code-csharp[Trin_VstcoreWordAutomation#3](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#3)]
@@ -43,7 +43,7 @@ ms.locfileid: "60084442"
 1. <xref:Microsoft.Office.Interop.Word._Document.Close%2A> 속성의 <xref:Microsoft.Office.Interop.Word._Application.ActiveDocument%2A> 메서드를 호출하여 활성 문서를 닫습니다. 다음 코드 예제를 사용하려면 프로젝트의 `ThisAddIn` 클래스에서 실행합니다.
 
     > [!NOTE]
-    >  이 예제에서는 <xref:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges> 값을 *SaveChanges* 매개 변수에 전달하여 변경 내용을 저장하거나 사용자에게 메시지를 표시하지 않고 닫습니다.
+    > 이 예제에서는 <xref:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges> 값을 *SaveChanges* 매개 변수에 전달하여 변경 내용을 저장하거나 사용자에게 메시지를 표시하지 않고 닫습니다.
 
      [!code-vb[Trin_VstcoreWordAutomationAddIn#3](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#3)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#3](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#3)]
@@ -56,7 +56,7 @@ ms.locfileid: "60084442"
 1. <xref:Microsoft.Office.Interop.Word._Application.Documents%2A> 컬렉션에 대한 인수로 문서 이름을 지정하고 <xref:Microsoft.Office.Interop.Word._Document.Close%2A> 메서드를 호출합니다. 다음 코드 예제에서는 **NewDocument** 라는 문서가 Word에서 열려 있다고 가정합니다.
 
     > [!NOTE]
-    >  이 예제에서는 <xref:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges> 값을 *SaveChanges* 매개 변수에 전달하여 변경 내용을 저장하거나 사용자에게 메시지를 표시하지 않고 닫습니다.
+    > 이 예제에서는 <xref:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges> 값을 *SaveChanges* 매개 변수에 전달하여 변경 내용을 저장하거나 사용자에게 메시지를 표시하지 않고 닫습니다.
 
      [!code-vb[Trin_VstcoreWordAutomation#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#4)]
      [!code-csharp[Trin_VstcoreWordAutomation#4](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#4)]

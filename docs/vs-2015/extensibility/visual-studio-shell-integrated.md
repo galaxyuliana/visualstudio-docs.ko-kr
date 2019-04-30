@@ -11,12 +11,12 @@ ms.assetid: 0b40d495-f17f-4bb9-ace8-b365a7172784
 caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 0ef8bdb5f35ed727a207140dde6cf20f5645e5b3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 736031f1de24144f7b5f68ed44710e0c894df41a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60074127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445731"
 ---
 # <a name="visual-studio-shell-integrated"></a>Visual Studio Shell (통합)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ Visual Studio 통합 셸에 통합된 개발 환경 (IDE), 디버거 및 소스 
  Visual Studio 통합 셸에 실제로 Visual Studio 격리 셸 및 통합된 셸 특정 구성 요소를 포함 하는 추가 설치를 조합 합니다.  통합된 셸 응용 프로그램 모두는 isolated shell 재배포 가능 패키지에서 포함할지 [Microsoft Visual Studio Shell (격리) 재배포 가능 패키지](http://go.microsoft.com/fwlink/?LinkId=616022) 통합된 셸 재배포 가능 패키지 [Microsoft Visual Studio Shell (통합된) 재배포 가능 패키지](http://go.microsoft.com/fwlink/?LinkId=616021)합니다.  
   
 > [!NOTE]
->  격리 및 통합 셸 재배포 가능 패키지에 액세스 하려면, 먼저 간단한 고객 설문 조사를 묻는 메시지가 나타납니다.  설문 조사을 채운 후 재배포 가능 패키지 다운로드 링크를 사용 하 여 Visual Studio 연결 페이지로 이동 됩니다.  Visual Studio Connect 사이트를 방문할에서 다운로드 링크를 찾을 수 있습니다 합니다 **프로그램 &#124; VISUAL STUDIO 2015 통합 및 격리 셸** 탭 합니다.  
+> 격리 및 통합 셸 재배포 가능 패키지에 액세스 하려면, 먼저 간단한 고객 설문 조사를 묻는 메시지가 나타납니다.  설문 조사을 채운 후 재배포 가능 패키지 다운로드 링크를 사용 하 여 Visual Studio 연결 페이지로 이동 됩니다.  Visual Studio Connect 사이트를 방문할에서 다운로드 링크를 찾을 수 있습니다 합니다 **프로그램 &#124; VISUAL STUDIO 2015 통합 및 격리 셸** 탭 합니다.  
   
  전체 버전의 Visual Studio와 동일한 컴퓨터에서 통합된 셸에 응용 프로그램을 설치 하는 경우 응용 프로그램의 구성 요소는 Visual Studio에 직접 통합 될 예정입니다.  
   

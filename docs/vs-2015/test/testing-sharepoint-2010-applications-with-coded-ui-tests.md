@@ -8,12 +8,12 @@ ms.assetid: 51b53778-469c-4cc9-854c-4e4992d6389b
 caps.latest.revision: 32
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 229893e13da06253398da32cfef4a85402a4787a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4929464f04ecb630f4c6898f7b2cc1ce132a79a9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445971"
 ---
 # <a name="testing-sharepoint-2010-applications-with-coded-ui-tests"></a>코딩된 UI 테스트를 사용하여 SharePoint 2010 애플리케이션 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,19 +39,19 @@ SharePoint 애플리케이션에 코딩된 UI 테스트를 포함하면 해당 U
  ![SharePoint 웹 파트](../test/media/cuit-sharepoint.png "CUIT_SharePoint")  
   
 > [!NOTE]
->  작업을 기록하는 경우 코드를 생성하기 전에 작업의 유효성을 검사합니다. 마우스를 위로 가져가는 것과 관련해서는 몇 가지 동작이 있으므로 기본적으로 설정됩니다. 코딩된 UI 테스트에서 중복된 위로 가져가기는 제거할 때 주의가 필요합니다. 이렇게 하려면 테스트에 대한 코드를 편집하거나 [코딩된 UI 테스트 편집기](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)를 사용합니다.  
+> 작업을 기록하는 경우 코드를 생성하기 전에 작업의 유효성을 검사합니다. 마우스를 위로 가져가는 것과 관련해서는 몇 가지 동작이 있으므로 기본적으로 설정됩니다. 코딩된 UI 테스트에서 중복된 위로 가져가기는 제거할 때 주의가 필요합니다. 이렇게 하려면 테스트에 대한 코드를 편집하거나 [코딩된 UI 테스트 편집기](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)를 사용합니다.  
   
 ## <a name="including-testing-of-office-2010-controls-within-your-sharepoint-app"></a>SharePoint 응용 프로그램 내에 Office 2010 컨트롤 테스트 포함  
  SharePoint 응용 프로그램에서 일부 Office 2010 웹 파트에 대해 자동화를 설정하려면 코드를 약간 수정해야 합니다.  
   
 > [!WARNING]
->  Visio 및 PowerPoint 2010 컨트롤은 지원되지 않습니다.  
+> Visio 및 PowerPoint 2010 컨트롤은 지원되지 않습니다.  
   
 ### <a name="excel-2010-cell-controls"></a>Excel 2010 셀 컨트롤  
  Excel 셀 컨트롤을 포함하려면 코딩된 UI 테스트의 코드에서 일부 항목을 변경해야 합니다.  
   
 > [!WARNING]
->  화살표 작업 후 Excel 셀에 텍스트를 입력하는 작업은 올바르게 기록되지 않습니다. 마우스를 사용해서 셀을 선택하세요.  
+> 화살표 작업 후 Excel 셀에 텍스트를 입력하는 작업은 올바르게 기록되지 않습니다. 마우스를 사용해서 셀을 선택하세요.  
   
  빈 셀에 대한 작업을 기록할 때는 셀을 두 번 클릭하고 텍스트 설정 작업을 수행하여 코드를 수정해야 합니다. 셀을 클릭하고 키보드 작업을 수행하면 셀 내에서 `textarea` 가 활성화되기 때문에 이 작업이 필요합니다. 빈 셀에서 단순히 `setvalue` 를 기록하면 셀을 클릭할 때까지 제공되지 않은 `editbox` 가 검색됩니다. 예를 들어:  
   

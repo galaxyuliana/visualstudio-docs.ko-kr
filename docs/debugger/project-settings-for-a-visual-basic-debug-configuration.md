@@ -23,18 +23,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3a2c4a2cb44e2e93f4a09f26a7aa53623542567e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: f6d948595dcf34bba32708f04e4bdf2f16ba1166
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56720876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408660"
 ---
 # <a name="project-settings-for-a-visual-basic-debug-configuration"></a>Project Settings for a Visual Basic Debug Configuration
 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 디버그 구성에 대한 프로젝트 설정은 [디버그 및 릴리스 구성](../debugger/how-to-set-debug-and-release-configurations.md)에 설명된 것처럼 **속성 페이지** 창에서 변경할 수 있습니다. 다음 표에서는 **속성 페이지** 창에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.
 
 > [!WARNING]
->  이 항목은 UWP 앱에 적용되지 않습니다. 참조 [디버그 세션 시작 (VB, C#, c + + 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
+> 이 항목은 UWP 앱에 적용되지 않습니다. 참조 [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
 
 ### <a name="debug-tab"></a>디버그 탭
 

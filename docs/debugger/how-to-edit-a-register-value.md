@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 00e1e849ba12303041d23b89e65230c2a5aafc9b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 58094d505cf2fd3621b801040f0f71904796d86b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388415"
 ---
 # <a name="how-to-edit-a-register-value-c-c-visual-basic-f"></a>방법: 레지스터 값 편집 (C#, C++, Visual Basic의 경우 F#)
 
@@ -37,10 +37,10 @@ ms.locfileid: "60075107"
 2. 새 값을 입력합니다.
 
     > [!CAUTION]
-    >  레지스터 값을 변경하면(특히 EIP 및 EBP 레지스터에서) 프로그램 실행에 변경된 값이 적용됩니다.
+    > 레지스터 값을 변경하면(특히 EIP 및 EBP 레지스터에서) 프로그램 실행에 변경된 값이 적용됩니다.
 
     > [!CAUTION]
-    >  부동 소수점 값을 편집하면 소수 부분이 10진수에서 이진수로 변환되면서 약간의 오차가 발생할 수 있습니다. 겉보기에 변화가 없는 편집 작업을 수행하는 경우에도 부동 소수점 변수의 LSB 중 일부가 변경될 수 있습니다.
+    > 부동 소수점 값을 편집하면 소수 부분이 10진수에서 이진수로 변환되면서 약간의 오차가 발생할 수 있습니다. 겉보기에 변화가 없는 편집 작업을 수행하는 경우에도 부동 소수점 변수의 LSB 중 일부가 변경될 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 - [방법: 레지스터 창 사용](../debugger/how-to-use-the-registers-window.md)

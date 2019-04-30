@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bf8c3a43cfff286e43d099258913b816491527da
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d435ff9970748e8debe5edfd15514cde4f531b86
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63389705"
 ---
 # <a name="capturing-graphics-information"></a>그래픽 정보 캡처
 Visual Studio Graphics Analyzer를 사용하여 렌더링 문제 및 성능 문제를 진단할 수 있도록 Direct3D 앱에서 그래픽 정보를 캡처합니다.
@@ -40,7 +40,7 @@ Visual Studio Graphics Analyzer를 사용하여 렌더링 문제 및 성능 문�
 - 키보드 Print Screen 키를 누릅니다.
 
   > [!NOTE]
-  >  **그래픽 진단** 모드로 애플리케이션이 실행되는 동안에는 Print Screen 키를 그래픽 정보 프레임의 캡처에만 사용할 수 있으며, 일반 기능이 작동하지 않습니다. 이러한 상태는 그래픽 정보 캡처를 중지할 때까지 유지되며, 일반적으로 디버깅 중지 또는 응용 프로그램 정상 종료 시까지 유지됩니다. 이는 다른 응용 프로그램에 포커스가 있더라도 마찬가지입니다.
+  > **그래픽 진단** 모드로 애플리케이션이 실행되는 동안에는 Print Screen 키를 그래픽 정보 프레임의 캡처에만 사용할 수 있으며, 일반 기능이 작동하지 않습니다. 이러한 상태는 그래픽 정보 캡처를 중지할 때까지 유지되며, 일반적으로 디버깅 중지 또는 응용 프로그램 정상 종료 시까지 유지됩니다. 이는 다른 응용 프로그램에 포커스가 있더라도 마찬가지입니다.
 
 - Visual Studio 캡처 인터페이스에서 **진단 세션** 타임라인 위에 있는 **프레임 캡처** 단추를 선택하거나 **초당 프레임 수** 스윔 레인 아래에 이전에 캡처한 프레임 오른쪽에 있는 큰 **프레임 캡처** 단추를 선택합니다. 아래 그림에서는 이 두 단추가 모두 강조 표시되어 있습니다.
 

@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f5d6c78f7d5c931272bb66b2706d3b5e531785cc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8dd8627c4e9baaa790a5d97a8021220a820356fb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442444"
 ---
 # <a name="namedrange-control"></a>NamedRange 컨트롤
   <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤은 고유 이름이 있고, 이벤트를 노출하고, 데이터에 바인딩될 수 있는 범위입니다. 자세한 내용은 [Excel 개체 모델 개요](../vsto/excel-object-model-overview.md)합니다.
@@ -35,7 +35,7 @@ ms.locfileid: "60062640"
  런타임에 VSTO 추가 기능에서 워크시트에 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 추가할 수 있습니다. 자세한 내용은 [방법: 워크시트에 NamedRange 컨트롤 추가](../vsto/how-to-add-namedrange-controls-to-worksheets.md)합니다.
 
 > [!NOTE]
->  기본적으로 동적으로 만들어진 명명된 범위는 워크시트를 닫을 때 워크시트에서 호스트 컨트롤로 유지되지 않습니다. 자세한 내용은 [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)합니다.
+> 기본적으로 동적으로 만들어진 명명된 범위는 워크시트를 닫을 때 워크시트에서 호스트 컨트롤로 유지되지 않습니다. 자세한 내용은 [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)합니다.
 
  <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤은 특정 시트 범위로만 구성될 수 있습니다. <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤은 모든 시트에 적용되는 상대적 이름을 가질 수 없으며 통합 문서에서 둘 이상의 워크시트를 포함하는 범위(3D 범위)로 구성될 수 없습니다.
 

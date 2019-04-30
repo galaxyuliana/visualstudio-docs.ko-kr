@@ -15,12 +15,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c7d57643661edec90f12a54a2482b59d83bbb3c8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fd4e61960616245d459140e351386ae7b55adc22
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441711"
 ---
 # <a name="how-to-change-fonts-and-colors-in-the-editor"></a>방법: 편집기에서 글꼴 및 색 변경
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "60040952"
 - 각 형식의 텍스트 요소에 대한 **항목 전경**, **항목 배경** 및 **굵게** 옵션을 설정할 수 있습니다. 예를 들어 **주석** 및 **책갈피**에 대한 색을 변경하고 **굵게**를 선택하면 다른 형식의 텍스트 요소는 영향을 받지 않습니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정 또는 버전에 따라 **도움말**에 설명된 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정 또는 버전에 따라 **도움말**에 설명된 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ### <a name="to-change-the-default-font-face-size-and-colors"></a>기본 글꼴, 크기 및 색을 변경하려면  
   
@@ -49,7 +49,7 @@ ms.locfileid: "60040952"
 4. **표시 항목**에서 해당 항목을 선택하고 **항목 전경** 및 **항목 배경** 옵션을 수정합니다.  
   
     > [!TIP]
-    >  **기본값 사용**을 클릭하여 기본 설정을 다시 설정합니다.  
+    > **기본값 사용**을 클릭하여 기본 설정을 다시 설정합니다.  
   
 5. **확인**을 클릭합니다.  
   

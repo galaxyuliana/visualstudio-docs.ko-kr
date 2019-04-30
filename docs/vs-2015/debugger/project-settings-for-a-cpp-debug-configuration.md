@@ -1,5 +1,5 @@
 ---
-title: 프로젝트는 c + + 디버그 구성에 대 한 설정 | Microsoft Docs
+title: 프로젝트 설정에 대 한는 C++ 디버그 구성 | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -112,20 +112,20 @@ caps.latest.revision: 52
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1ea5740b66187f97cacb43edfc1ea0d77d6cb8d1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 87b8913a95203d082a76e8b18a92d2f509cace16
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446170"
 ---
 # <a name="project-settings-for-a-c-debug-configuration"></a>C++ 디버그 구성에 대한 프로젝트 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-C 또는 Visual c + + 디버그 구성에 대 한 프로젝트 설정을 변경할 수 있습니다 합니다 **속성 페이지** 대화 상자에 설명 된 대로 [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md)을 참조하세요. 다음 표에서는 **속성 페이지** 대화 상자에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.  
+C 또는 시각적 개체에 대 한 프로젝트 설정을 변경할 수 있습니다 C++ 디버그 구성에는 **속성 페이지** 대화 상자에 설명 된 대로 [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md)을 참조하세요. 다음 표에서는 **속성 페이지** 대화 상자에서 디버거 관련 설정을 확인할 수 있는 위치에 대해 설명합니다.  
   
 > [!WARNING]
->  디버그 프로젝트 설정은 합니다 **구성 속성/디버깅** Windows 스토어 앱 및 c + +로 작성 된 구성 요소에 대 한 범주는 다릅니다. 참조 [(VB, C#, c + + 및 XAML) 디버그 세션을 시작](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) Windows 개발자 센터에서.  
+> 디버그 프로젝트 설정은 합니다 **구성 속성/디버깅** Windows 스토어 앱 및 작성 된 구성 요소에 대 한 범주 C++ 다릅니다. 참조 [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) Windows 개발자 센터에서.  
   
  에 사용할 디버거를 지정 합니다 **실행할 디버거** 목록 상자입니다. 이 선택에 따라 표시되는 속성이 달라집니다.  
   

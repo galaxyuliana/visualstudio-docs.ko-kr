@@ -17,12 +17,12 @@ caps.latest.revision: 25
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f0f6d09dbd653dc332fd01414ff1ebb73cd2d014
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 8215b8e0955b79224341d5d43b51a473740f5fe5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442333"
 ---
 # <a name="choosing-a-clickonce-update-strategy"></a>ClickOnce 업데이트 전략 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,10 +34,10 @@ ms.locfileid: "58985804"
  또한 응용 프로그램에서 업데이트를 확인하는 빈도를 결정하고 업데이트를 필수로 만들 수 있습니다.  
   
 > [!NOTE]
->  응용 프로그램 업데이트를 사용하려면 네트워크 연결이 필요합니다. 네트워크에 연결되어 있지 않으면 선택한 업데이트 전략에 관계없이 응용 프로그램은 업데이트를 확인하지 않고 실행됩니다.  
+> 응용 프로그램 업데이트를 사용하려면 네트워크 연결이 필요합니다. 네트워크에 연결되어 있지 않으면 선택한 업데이트 전략에 관계없이 응용 프로그램은 업데이트를 확인하지 않고 실행됩니다.  
   
 > [!NOTE]
->  .NET Framework 2.0 및 .NET Framework 3.0에서는 시작 전이나 후에 사용자 응용 프로그램에서 업데이트를 확인하거나 <xref:System.Deployment.Application> API를 사용하여 배포 매니페스트의 `deploymentProvider`를 설정해야 합니다. Visual Studio에서 `deploymentProvider` 요소는 **게시** 탭의 **업데이트** 대화 상자에 있는 **업데이트 위치** 필드에 해당합니다. 이 규칙은 .NET Framework 3.5에서 완화되었습니다. 자세한 내용은 [배포 ClickOnce 응용 프로그램에 대 한 테스트 및 프로덕션 서버 Resigning 없이](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md)합니다.  
+> .NET Framework 2.0 및 .NET Framework 3.0에서는 시작 전이나 후에 사용자 응용 프로그램에서 업데이트를 확인하거나 <xref:System.Deployment.Application> API를 사용하여 배포 매니페스트의 `deploymentProvider`를 설정해야 합니다. Visual Studio에서 `deploymentProvider` 요소는 **게시** 탭의 **업데이트** 대화 상자에 있는 **업데이트 위치** 필드에 해당합니다. 이 규칙은 .NET Framework 3.5에서 완화되었습니다. 자세한 내용은 [배포 ClickOnce 응용 프로그램에 대 한 테스트 및 프로덕션 서버 Resigning 없이](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md)합니다.  
   
 ## <a name="checking-for-updates-after-application-startup"></a>응용 프로그램 시작 후 업데이트 확인  
  이 전략을 사용하면 응용 프로그램에서는 실행 중 백그라운드에서 배포 매니페스트 파일을 찾아 읽으려고 합니다. 사용 가능한 업데이트가 있을 경우 다음 번에 사용자가 응용 프로그램을 실행하면 업데이트를 다운로드하여 설치할지 묻는 메시지가 표시됩니다.  
@@ -79,7 +79,7 @@ ms.locfileid: "58985804"
  사용자가 업데이트된 버전의 응용 프로그램을 실행하도록 해야 할 경우가 있습니다. 예를 들어, 이전 버전의 응용 프로그램이 올바로 작동하지 않게 하는 웹 서비스 같은 외부 리소스를 변경할 수 있습니다. 이 경우 업데이트를 필수로 표시하여 사용자가 이전 버전을 실행하지 못하도록 합니다.  
   
 > [!NOTE]
->  다른 업데이트 전략을 사용하여 업데이트를 요구할 수도 있지만 이전 버전을 실행할 수 없게 하려면 **애플리케이션 시작 전**을 선택해야 합니다. 시작 시 필수 업데이트가 발견되면 사용자는 업데이트를 적용하거나 응용 프로그램을 닫아야 합니다.  
+> 다른 업데이트 전략을 사용하여 업데이트를 요구할 수도 있지만 이전 버전을 실행할 수 없게 하려면 **애플리케이션 시작 전**을 선택해야 합니다. 시작 시 필수 업데이트가 발견되면 사용자는 업데이트를 적용하거나 응용 프로그램을 닫아야 합니다.  
   
  업데이트를 필수로 표시하려면 **애플리케이션 업데이트** 대화 상자에서 **이 애플리케이션에 필요한 최소 버전 지정**을 클릭하고 **주 버전**, **부 버전**, **빌드 버전** 및 **수정 버전**으로 구성된 게시 버전을 지정합니다. 이렇게 하면 설치할 수 있는 최하위 버전의 애플리케이션이 지정됩니다.  
   

@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 48b02bb3cbcb3b3837d2d7050fb9c286581e6cdc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 8287fdf4c767e6fc2a41f014f724ab9a7fe61249
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63385820"
 ---
 # <a name="ca2132-default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors"></a>CA2132: 기본 생성자는 기본 형식의 기본 생성자 이상으로 중요해야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "58981213"
 |변경 수준|주요 변경|
 
 > [!NOTE]
->  이 경고는 CoreCLR (Silverlight 웹 응용 프로그램에 관련 된 CLR의 버전)를 실행 하는 코드에만 적용 됩니다.
+> 이 경고는 CoreCLR (Silverlight 웹 응용 프로그램에 관련 된 CLR의 버전)를 실행 하는 코드에만 적용 됩니다.
 
 ## <a name="cause"></a>원인
  파생된 클래스의 기본 생성자의 투명성 특성이 기본 클래스의 투명도를으로 중요 하지 않습니다.

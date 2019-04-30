@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: d781b2fe3ab597760a397c6ff0ec3c946bbe7653
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60083376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63009413"
 ---
 # <a name="walkthrough-create-a-basic-site-definition-project"></a>연습: 기본 사이트 정의 프로젝트 만들기
   이 연습에서는 일부 컨트롤에 시각적 웹 파트를 포함 하는 기본 사이트 정의 만드는 방법을 보여 줍니다. 명확성을 위해 사용자가 만든 시각적 웹 파트에만 몇 가지 컨트롤이 있습니다. 그러나 더 많은 기능을 포함 하는 보다 복잡 한 SharePoint 사이트 정의 만들 수 있습니다.

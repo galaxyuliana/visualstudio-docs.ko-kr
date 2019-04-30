@@ -6,12 +6,12 @@ ms.assetid: 359184aa-f5b6-4b6c-99fe-104655b3a494
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 43f13ebc6a3f7a430b3608eba37284a85c3c5eab
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 70b20a463563c54ce0b8ac81b9acab042b0389eb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443954"
 ---
 # <a name="addressing-dpi-issues"></a>DPI 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -116,7 +116,7 @@ VsUI::DpiHelper::LogicalToDeviceUnits(&hBitmap);
 ```  
   
 > [!NOTE]
->  모듈 수준 또는 클래스 수준 정적 변수에서 도우미 함수를 사용 하지 마세요. 스레드 동기화에 대 한 라이브러리도 사용 하 여 정적 및 순서 초기화 문제를 발생할 수 있습니다. 비정적 멤버 변수를 해당 정적 변환 하거나 (따라서 첫 번째 액세스에서 생성 되는) 함수를 래핑하십시오.  
+> 모듈 수준 또는 클래스 수준 정적 변수에서 도우미 함수를 사용 하지 마세요. 스레드 동기화에 대 한 라이브러리도 사용 하 여 정적 및 순서 초기화 문제를 발생할 수 있습니다. 비정적 멤버 변수를 해당 정적 변환 하거나 (따라서 첫 번째 액세스에서 생성 되는) 함수를 래핑하십시오.  
   
  Visual Studio 환경 내에서 실행 되는 관리 되는 코드에서 DPI 도우미 함수에 액세스 합니다.  
   

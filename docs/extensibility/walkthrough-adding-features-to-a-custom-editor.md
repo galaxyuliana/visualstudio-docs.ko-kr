@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 085e5ae408155227c1d60e312b7e9623be2e3897
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: afbde92cd666e0e67b1e70b0b4899c09d8b5b3e7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411068"
 ---
 # <a name="walkthrough-add-features-to-a-custom-editor"></a>연습: 사용자 지정 편집기에 기능 추가
 사용자 지정 편집기를 만든 후에 더 많은 기능을 추가할 수 있습니다.
@@ -49,7 +49,7 @@ ms.locfileid: "60064455"
     2. 외부 파일 변경 내용에 응답 하려면 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx> 고 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> 편집기의 문서 데이터 개체입니다.
 
         > [!NOTE]
-        >  호출 `QueryService` 대 <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> 에 대 한 포인터를 가져오려면 `IVsFileChangeEx`합니다.
+        > 호출 `QueryService` 대 <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> 에 대 한 포인터를 가져오려면 `IVsFileChangeEx`합니다.
 
 7. 소스 코드 제어를 사용 하 여 문서 편집 이벤트를 조정 합니다. 아래 단계를 수행합니다.
 
@@ -136,7 +136,7 @@ ms.locfileid: "60064455"
    <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent>
 
   > [!NOTE]
-  >  `IOleInPlaceComponent` 인터페이스 OLE 2 메뉴 병합 방지를 사용 합니다.
+  > `IOleInPlaceComponent` 인터페이스 OLE 2 메뉴 병합 방지를 사용 합니다.
 
    프로그램 `IOleCommandTarget` 구현을 처리 명령 등 **잘라내기**를 **복사**, 및 **붙여넣기**합니다. 구현 하는 경우 `IOleCommandTarget`, 필요한 지 여부를 편집기 자체 결정 *.vsct* 자체 명령 메뉴 구조를 정의 하는 파일 정의한 표준 명령을 구현할 수 있습니다 하는 경우 또는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다. 일반적으로 편집기 및 IDE의 메뉴를 확장 하며 사용 자신의 도구 모음을 정의 합니다. 그러나 편집기에서 IDE의 표준 명령 집합을 사용 하는 것 외에도 고유한 특정 명령을 정의 하는 데 필요한 경우가 있습니다. 편집기를 사용 하는 일반적인 명령을 선언 하 고 새로운 명령, 상황에 맞는 메뉴, 최상위 메뉴 및 도구 모음에서 정의 된 *.vsct* 파일입니다. 내부 활성화 편집기를 만드는 경우 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> 메뉴 및 도구 모음에서 편집기에 대 한 정의 *.vsct* OLE 2 메뉴 병합을 사용 하는 대신 파일입니다.
 

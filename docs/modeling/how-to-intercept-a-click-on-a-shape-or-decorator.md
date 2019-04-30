@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 531e723bbc7c1b288a73f1ea036cb24efcf8ce4a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2b4677413fd06176136935e583073f611d1a127a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445183"
 ---
 # <a name="how-to-intercept-a-click-on-a-shape-or-decorator"></a>방법: 모양 또는 데코레이터 클릭 가로채기
 다음 절차에 셰이프 또는 아이콘 데코레이터 클릭 가로채기 방법을 보여 줍니다. 두 번 클릭, 끌기가 가로챌 수 있습니다 하 고 다른 제스처에 응답 하는 요소를 확인 합니다.
@@ -34,7 +34,7 @@ public partial class MyShape // change
 ```
 
 > [!NOTE]
->  설정할 `e.Handled` 에 `true`포함 하는 모양 또는 다이어그램에 전달할 이벤트를 원하는 경우가 아니면 합니다.
+> 설정할 `e.Handled` 에 `true`포함 하는 모양 또는 다이어그램에 전달할 이벤트를 원하는 경우가 아니면 합니다.
 
 ## <a name="to-intercept-clicks-on-decorators"></a>데코레이터 클릭 가로채기 위해
  이미지 데코레이터 OnDoubleClick 메서드를 포함 하는 이미지 필드 클래스의 인스턴스에서 수행 됩니다. 이미지 필드 서브 클래스를 작성 하는 경우에 클릭을 가로챌 수 있습니다. 필드는 InitializeShapeFields 메서드에서 설정 됩니다. 따라서 일반 이미지 필드 대신 하위 클래스를 인스턴스화하고 해당 메서드를 변경 해야 합니다. InitializeShapeFields 메서드는 모양 클래스의 생성된 된 코드입니다. 설정 하는 경우에 모양 클래스를 재정의할 수 해당 `Generates Double Derived` 다음 절차에 설명 된 대로 속성입니다.

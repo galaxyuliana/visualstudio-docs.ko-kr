@@ -18,12 +18,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ab840dfac15b917ff1b87a17d4a0670c3f275343
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9df436b51619211c1f79e7176479c7466f3de427
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441055"
 ---
 # <a name="how-to-define-a-domain-specific-language"></a>도메인별 언어 정의 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,7 +66,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
    - 선택 **최소 언어** 경우도 확실 하지 않은 경우.  
   
        > [!NOTE]
-       >  클래스 다이어그램 또는 구성 요소 다이어그램을 만들려는 경우에는 UML 모델을 사용할 수 있습니다. UML 모델링 도구는 단일 모델을 중심으로 통합된 다이어그램 집합을 제공합니다. ModelBus를 사용하면 이러한 다이어그램을 확장할 수 있으며 DSL과 통합할 수 있습니다. 자세한 내용은 [앱에 대 한 모델을 만들](../modeling/create-models-for-your-app.md)합니다.  
+       > 클래스 다이어그램 또는 구성 요소 다이어그램을 만들려는 경우에는 UML 모델을 사용할 수 있습니다. UML 모델링 도구는 단일 모델을 중심으로 통합된 다이어그램 집합을 제공합니다. ModelBus를 사용하면 이러한 다이어그램을 확장할 수 있으며 DSL과 통합할 수 있습니다. 자세한 내용은 [앱에 대 한 모델을 만들](../modeling/create-models-for-your-app.md)합니다.  
   
    - 선택 **최소 WinForm Designer** 또는 **최소 WPF Designer** Windows Forms 또는 WPF 화면에 표시 되는 DSL을 만들려고 합니다. 편집기를 정의하려면 코드를 작성해야 합니다. 자세한 내용은 다음 항목을 참조하세요.  
   
@@ -108,7 +108,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
  실험적 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 인스턴스를 닫습니다.  
   
 > [!NOTE]
->  DSL을 수정하면 샘플 테스트 파일에 모양이 더 이상 표시되지 않습니다. 그러나 새 요소를 만들 수는 있습니다.  
+> DSL을 수정하면 샘플 테스트 파일에 모양이 더 이상 표시되지 않습니다. 그러나 새 요소를 만들 수는 있습니다.  
   
 ### <a name="modifying-the-template-dsl"></a>템플릿 DSL 수정  
  템플릿 DSL 정의에서 일부 또는 모든 도메인 클래스 및 모양 클래스의 이름을 바꾸고 저장합니다. 새 클래스 이름은 공백이나 문장 부호가 없는 올바른 CLR 이름이어야 합니다.  
@@ -137,7 +137,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
   다음 섹션에서는 가장 유용한 유형의 SDL 기능을 생성하는 방법을 설명합니다. DSL을 생성하는 데 사용할 수 있는 기타 여러 패턴이 있지만 여기서는 가장 자주 사용되는 패턴에 대해 설명합니다.  
   
 > [!NOTE]
->  기능을 추가한 후 잊지 말고 클릭 **모든 템플릿 변환** 하기 전에 솔루션 탐색기의 도구 모음에서 빌드 및 DSL을 실행 합니다.  
+> 기능을 추가한 후 잊지 말고 클릭 **모든 템플릿 변환** 하기 전에 솔루션 탐색기의 도구 모음에서 빌드 및 DSL을 실행 합니다.  
   
  다음 그림에는 이 항목에서 예로 사용되는 DSL의 클래스 및 관계 부분이 나와 있습니다.  
   
@@ -148,7 +148,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
  ![생성 된 DSL의 인스턴스 모델로](../modeling/media/music-instance.png "Music_Instance")  
   
 > [!NOTE]
->  여기서 "모델"은 사용자가 만드는 DSL 인스턴스를 지칭하며 대개 다이어그램으로 표시됩니다. 이 항목에서는 DSL 사용 시에 표시되는 DSL 정의 다이어그램 및 모델 다이어그램 둘 다에 대해 설명합니다.  
+> 여기서 "모델"은 사용자가 만드는 DSL 인스턴스를 지칭하며 대개 다이어그램으로 표시됩니다. 이 항목에서는 DSL 사용 시에 표시되는 DSL 정의 다이어그램 및 모델 다이어그램 둘 다에 대해 설명합니다.  
   
 ## <a name="classes"></a> 도메인 클래스 정의  
  도메인 클래스는 DSL의 개념을 나타냅니다. 인스턴스가 *모델 요소*합니다. 예를 들어를 **MusicLibrary** DSL 이라는 도메인 클래스가 해야 할 수 있습니다 **앨범** 하 고 **Song**합니다.  
@@ -185,7 +185,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
  자세한 내용은 [속성의 도메인 관계](../modeling/properties-of-domain-relationships.md) 하 고 [도메인 역할의 속성](../modeling/properties-of-domain-roles.md).  
   
 > [!NOTE]
->  포함은 상속과는 다릅니다. 포함 관계에 있는 자식은 부모로부터 기능을 상속하지 않습니다.  
+> 포함은 상속과는 다릅니다. 포함 관계에 있는 자식은 부모로부터 기능을 상속하지 않습니다.  
   
 ### <a name="add-domain-properties-to-each-domain-class"></a>각 도메인 클래스에 도메인 속성 추가  
  도메인 속성에는 값이 저장됩니다. 예는 다음과 같습니다. 이름, 제목, 게시 날짜입니다.  
@@ -296,7 +296,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
    2. 아래에 있는 노드를 마우스 오른쪽 단추로 클릭 **도구 상자 탭** 예를 들어 MusicLibrary dsl과 동일한 이름을 가진 합니다. 클릭 **요소 도구 추가**합니다.  
   
        > [!NOTE]
-       >  마우스 오른쪽 단추로 클릭할 경우 합니다 **도구** 노드에 표시 되지 것입니다 **요소 도구 추가**합니다. 도구 노드 위의 노드를 클릭해야 합니다.  
+       > 마우스 오른쪽 단추로 클릭할 경우 합니다 **도구** 노드에 표시 되지 것입니다 **요소 도구 추가**합니다. 도구 노드 위의 노드를 클릭해야 합니다.  
   
    3. 선택한 새 요소 도구를 사용 하 여 속성 창에서 설정할 **클래스** 최근에 추가한 도메인 클래스에 있습니다.  
   
@@ -464,7 +464,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
          아래 **표시 속성**, 목록에서 표시할 속성을 선택 합니다. 이 예에서 해당 속성은 Title입니다.  
   
 > [!NOTE]
->  Decorator 맵의 경로 필드와 구획 맵 필드를 사용하면 도메인 클래스와 구획 모양 간에 더 복잡한 관계를 만들 수 있습니다.  
+> Decorator 맵의 경로 필드와 구획 맵 필드를 사용하면 도메인 클래스와 구획 모양 간에 더 복잡한 관계를 만들 수 있습니다.  
   
 #### <a name="to-define-a-tool-for-creating-the-shape"></a>도형을 만들 도구를 정의하려면  
   
@@ -475,7 +475,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
 3. 아래에 있는 노드를 마우스 오른쪽 단추로 클릭 **도구 상자 탭** 예를 들어 MusicLibrary dsl과 동일한 이름을 가진 합니다. 클릭 **요소 도구 추가**합니다.  
   
     > [!NOTE]
-    >  마우스 오른쪽 단추로 클릭할 경우 합니다 **도구** 노드에 표시 되지 것입니다 **요소 도구 추가**합니다. 도구 노드 위의 노드를 클릭해야 합니다.  
+    > 마우스 오른쪽 단추로 클릭할 경우 합니다 **도구** 노드에 표시 되지 것입니다 **요소 도구 추가**합니다. 도구 노드 위의 노드를 클릭해야 합니다.  
   
 4. 선택한 새 요소 도구를 사용 하 여 속성 창에서 설정할 **클래스** 최근에 추가한 도메인 클래스에 있습니다.  
   

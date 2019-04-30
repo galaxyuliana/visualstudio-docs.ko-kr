@@ -12,12 +12,12 @@ ms.assetid: ccf9d83f-c7f3-49c7-a31f-e1f22bec004c
 caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f1cd8e7e85b9753c3742044ae2a557cdf4637214
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b01dd370fe5e3d7a5207363c5ab7ec4f2a0254c5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388388"
 ---
 # <a name="projecttype-element-visual-studio-templates"></a>ProjectType 요소(Visual Studio 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "60084884"
 지정 된 그룹에 나타나도록 프로젝트 템플릿을 분류 합니다 **새 프로젝트** 하거나 **새 항목 추가** 대화 상자.  
   
 > [!WARNING]
->  에 대 한 프로젝트 템플릿은 지원 되지만 C++ Visual Studio 2012에서 시작 합니다. 에 대 한 지원 되지 않습니다 C++ Visual Studio 2010 및 이전 버전입니다.  
+> 에 대 한 프로젝트 템플릿은 지원 되지만 C++ Visual Studio 2012에서 시작 합니다. 에 대 한 지원 되지 않습니다 C++ Visual Studio 2010 및 이전 버전입니다.  
   
  \<VSTemplate>  
  \<TemplateData>  

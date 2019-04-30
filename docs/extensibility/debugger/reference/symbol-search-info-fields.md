@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fc50da1cec68103045365a021e039dd18eced85e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 2621b88622e99ac95533e388197e483f2925f897
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56717652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420819"
 ---
 # <a name="symbolsearchinfofields"></a>SYMBOL_SEARCH_INFO_FIELDS
 검색할 기호 정보의 종류를 지정 합니다.
@@ -51,7 +51,7 @@ public enum enum_SYMBOL_SEARCH_INFO_FIELDS
  이러한 플래그를 매개 변수로 전달 되는 [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md) 정보의 양을 결정 하는 메서드를 반환 합니다.
 
 > [!NOTE]
->  현재만 `SSIF_VERBOSE_SEARCH_INFO` 지원으로 지정 되어야 합니다는 `dwFlags` 매개 변수를 `IDebugModule3::GetSymbolInfo`입니다. 다른 모든 값은 오류를 반환 합니다.
+> 현재만 `SSIF_VERBOSE_SEARCH_INFO` 지원으로 지정 되어야 합니다는 `dwFlags` 매개 변수를 `IDebugModule3::GetSymbolInfo`입니다. 다른 모든 값은 오류를 반환 합니다.
 
 ## <a name="requirements"></a>요구 사항
  헤더: msdbg.h

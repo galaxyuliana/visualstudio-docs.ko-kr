@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9cc24e259ac5aaa8526d5855a1662c146e1438ff
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6c4655d251d9020c1b8b4474865126dc98fa982f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420682"
 ---
 # <a name="display-files-by-using-the-open-file-command"></a>파일 열기 명령을 사용 하 여 파일을 표시 합니다.
 다음 단계는 IDE가 처리 하는 방법을 설명 합니다 **열려 있는 파일** 명령에서 사용할 수 있는 **파일** 메뉴에서 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 또한 단계는 프로젝트가이 명령에서 발생 하는 호출에 응답 해야 하는 방법을 설명 합니다.
@@ -31,7 +31,7 @@ ms.locfileid: "60112158"
     - IDE를 호출 하는 파일이 열려 있지 않으면 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> 각 프로젝트는 프로젝트 파일을 열 수를 확인 하려면을 쿼리 합니다.
 
         > [!NOTE]
-        >  프로젝트 구현의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A>에는 프로젝트 파일을 엽니다 수준을 나타내는 우선 순위 값을 제공 합니다. 우선 순위 값을 제공 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> 열거형입니다.
+        > 프로젝트 구현의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A>에는 프로젝트 파일을 엽니다 수준을 나타내는 우선 순위 값을 제공 합니다. 우선 순위 값을 제공 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> 열거형입니다.
 
 2. 각 프로젝트는 중요도 나타내는 우선 순위를 사용 하 여 응답 파일을 열고 프로젝트에 배치 합니다.
 

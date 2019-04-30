@@ -8,12 +8,12 @@ ms.assetid: 80f0104f-a4db-44dd-bd55-37bb67776c62
 caps.latest.revision: 7
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 211741a94623ede593c7f6ba9e5988cea094ae90
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a33d7928e6e2555f0cfd484059b062ae801d8633
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442082"
 ---
 # <a name="visual-studio-emulator-for-android"></a>Android용 Visual Studio 에뮬레이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ Android용 Visual Studio 에뮬레이터는 Android 디바이스를 에뮬레이
  제어판에서 프로그램 추가/제거를 사용하여 Android용 Visual Studio 에뮬레이터를 제거할 수 있습니다.  
   
 > [!NOTE]
->  Visual Studio를 제거해도 에뮬레이터는 제거되지 않습니다. 에뮬레이터는 별도로 제거해야 합니다.  
+> Visual Studio를 제거해도 에뮬레이터는 제거되지 않습니다. 에뮬레이터는 별도로 제거해야 합니다.  
   
  Android 용 Visual Studio 에뮬레이터를 제거하는 경우 에뮬레이터에서 사용하도록 만들어진 Hyper-V 가상 이더넷 어댑터는 자동으로 제거되지 않습니다. Hyper-v 관리자를 열고 에뮬레이터 VHD 이미지 중 하나를 선택하고 [네트워킹] 탭을 선택한 다음 이 탭에 표시되는 각 스위치에 대해 **제거**를 선택하면 이러한 가상 어댑터(사용 중이 아닌 경우)를 수동으로 제거할 수 있습니다.  
   

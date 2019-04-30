@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1306629a33b668104c3159c1ed2d5840cc4a3801
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 5ba918ef2d2bdbc35f7e46b6b8553037d3e5d281
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623647"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447109"
 ---
 # <a name="office-development-samples-and-walkthroughs"></a>Office 개발 샘플 및 연습
   이 섹션에서는 샘플 응용 프로그램, 예제 코드 및 구문, 구조 및 Microsoft Office 솔루션을 구축 하는 데 사용 되는 기술을 설명 하는 단계별 연습을 포함 합니다.
@@ -35,7 +35,7 @@ ms.locfileid: "56623647"
  응용 프로그램 보안에 대 한 자세한 내용은 [Secure Office 솔루션](../vsto/securing-office-solutions.md)합니다.
 
 > [!NOTE]
->  Office 환경을 확장 하는 솔루션을 개발 하는 데 관심이 [여러 플랫폼](https://dev.office.com/add-in-availability)? 새 확인해 [Office 추가 기능 모델](https://dev.office.com/docs/add-ins/overview/office-add-ins)합니다. Office 추가 기능의 VSTO 추가 기능 및 솔루션에 비해 작은 사용 공간이 있고 거의 모든 웹 프로그래밍 기술을, HTML5, JavaScript, CSS3, XML 등을 사용 하 여 빌드할 수 있습니다.
+> Office 환경을 확장 하는 솔루션을 개발 하는 데 관심이 [여러 플랫폼](https://dev.office.com/add-in-availability)? 새 확인해 [Office 추가 기능 모델](https://dev.office.com/docs/add-ins/overview/office-add-ins)합니다. Office 추가 기능의 VSTO 추가 기능 및 솔루션에 비해 작은 사용 공간이 있고 거의 모든 웹 프로그래밍 기술을, HTML5, JavaScript, CSS3, XML 등을 사용 하 여 빌드할 수 있습니다.
 
 ## <a name="in-this-section"></a>단원 내용
 

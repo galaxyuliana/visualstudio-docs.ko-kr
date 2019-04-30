@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 53b75732c636a551e3a000008d3ddcca2aa686cb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 966a81f7863f71296bb7b6bd307a5e3a5241c783
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60058482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441029"
 ---
 # <a name="how-to-modify-a-standard-menu-command-in-a-domain-specific-language"></a>방법: 도메인 특정 언어에서 표준 메뉴 명령 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ DSL에서 자동으로 정의되는 일부 표준 명령의 동작을 수정할 
    이 항목에서는 위의 절차에 대해 설명합니다.  
   
 > [!NOTE]
->  메뉴 명령을 직접 만들려는 경우 참조 [방법: 바로 가기 메뉴에 명령을 추가](../modeling/how-to-add-a-command-to-the-shortcut-menu.md)합니다.  
+> 메뉴 명령을 직접 만들려는 경우 참조 [방법: 바로 가기 메뉴에 명령을 추가](../modeling/how-to-add-a-command-to-the-shortcut-menu.md)합니다.  
   
 ## <a name="what"></a> 명령을 수정할 수 있습니까?  
   
@@ -52,7 +52,7 @@ DSL에서 자동으로 정의되는 일부 표준 명령의 동작을 수정할 
 5. 편집 내용을 저장하지 않고 파일을 닫습니다.  
   
     > [!NOTE]
-    >  일반적으로는 생성된 파일을 편집하면 안 됩니다. 다음 번에 파일을 생성하면 편집 내용이 손실됩니다.  
+    > 일반적으로는 생성된 파일을 편집하면 안 됩니다. 다음 번에 파일을 생성하면 편집 내용이 손실됩니다.  
   
 ## <a name="extend"></a> 적절 한 명령 집합 클래스 확장  
  명령 집합 클래스의 partial 선언이 포함된 새 파일을 만듭니다.  
@@ -90,7 +90,7 @@ DSL에서 자동으로 정의되는 일부 표준 명령의 동작을 수정할 
  다음 예에서는 사용자가 둘 이상의 모양을 선택하면 Delete 메뉴 항목을 사용하지 않도록 설정합니다.  
   
 > [!NOTE]
->  이 메서드는 키 입력을 통해 명령을 사용할 수 있는지 여부에는 영향을 주지 않습니다. 예를 들어 Delete 메뉴 항목을 사용하지 않도록 설정해도 Delete 키를 통해 명령을 호출할 수는 있습니다.  
+> 이 메서드는 키 입력을 통해 명령을 사용할 수 있는지 여부에는 영향을 주지 않습니다. 예를 들어 Delete 메뉴 항목을 사용하지 않도록 설정해도 Delete 키를 통해 명령을 호출할 수는 있습니다.  
   
 ```  
 /// <summary>  

@@ -9,12 +9,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 75780cf846b2f328dbe79481244901ad7662ab7d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 87c441271e72ef2aa67e0908e19473279f26ec53
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441941"
 ---
 # <a name="step-10-write-code-for-additional-buttons-and-a-check-box"></a>10단계: 추가 단추 및 확인란에 대한 코드 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60076599"
  ![비디오 링크](../data-tools/media/playvideo.gif "PlayVideo")이 항목의 비디오 버전을 참조 하세요. [자습서 1: Visual Basic-비디오 5에서에서 사진 뷰어 만들기](http://go.microsoft.com/fwlink/?LinkId=205216) 또는 [자습서 1: 사진 뷰어 만들기 C# -비디오 5](http://go.microsoft.com/fwlink/?LinkId=205206)합니다. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.  
   
 > [!NOTE]
->  모범 사례: 항상 코드를 주석으로 처리합니다. 주석은 코드를 읽는 사용자의 이해를 돕기 위한 것으로, 프로그램에서는 주석 줄에 있는 모든 내용을 무시합니다. Visual C#에서는 두 개의 슬래시(//)로 주석 줄을 시작하고, Visual Basic에서는 작은따옴표(')로 주석 줄을 시작합니다.  
+> 모범 사례: 항상 코드를 주석으로 처리합니다. 주석은 코드를 읽는 사용자의 이해를 돕기 위한 것으로, 프로그램에서는 주석 줄에 있는 모든 내용을 무시합니다. Visual C#에서는 두 개의 슬래시(//)로 주석 줄을 시작하고, Visual Basic에서는 작은따옴표(')로 주석 줄을 시작합니다.  
   
 ### <a name="to-write-code-for-additional-buttons-and-a-check-box"></a>추가 단추 및 확인란에 대한 코드를 작성하려면  
   

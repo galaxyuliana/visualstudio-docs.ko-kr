@@ -14,12 +14,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 92950247420f49c4a5295d25aec2c8697efb3534
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7cec06813890523e604234ccefdbcd7d1de31653
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444177"
 ---
 # <a name="how-to-set-breakpoints-in-workflows-legacy"></a>방법: 워크플로에 중단점 설정(레거시)
 이 항목에서는 레거시 [!INCLUDE[wf](../includes/wf-md.md)]를 사용하여 빌드된 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 응용 프로그램에 중단점을 설정하는 방법에 대해 설명합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[wf2](../includes/wf2-md.md)] 응용 프로그램이 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
@@ -39,7 +39,7 @@ ms.locfileid: "60069967"
      이 옵션을 사용하여 디버깅 중에 새 중단점을 설정할 수도 있습니다. 이렇게 하면 디버거가 중단점에서 중지됩니다.  
   
     > [!NOTE]
-    >  호출된 워크플로에는 중단점을 설정할 수 없습니다.  
+    > 호출된 워크플로에는 중단점을 설정할 수 없습니다.  
   
 ### <a name="to-set-a-breakpoint-using-the-new-breakpoint-option-on-the-debug-menu"></a>디버그 메뉴의 새 중단점 옵션을 사용하여 중단점을 설정하려면  
   
@@ -52,7 +52,7 @@ ms.locfileid: "60069967"
 3. 활동의 이름을 지정 합니다 **함수** 이 구문을 사용 하 여 텍스트 상자: `QualifiedActivityId[:[FullClassName][:InstanceId]]`합니다.  
   
     > [!NOTE]
-    >  대신에 활동 이름을 사용 하는 **함수** 텍스트 상자에 워크플로 활동의 절대 경로 지정 하 여 중단점을 설정할 수 있습니다. 예를 들어 있다고 이라는 워크플로 솔루션이 **WorkflowConsoleApplication1** 라는 솔루션에 워크플로 **Workflow1** 이라는 활동을 사용 하는 **Delay1**. 활동 이름을 사용할 수 있습니다 **Delay1** 경로를 지정 하거나 **Delay1:WorkflowConsoleApplication1.Workflow1** 또는 **Delay1:WorkflowConsoleApplication1.Workflow1: { 6614886A-608E-412B-BF98-99FF1559DDDF}** 합니다.  
+    > 대신에 활동 이름을 사용 하는 **함수** 텍스트 상자에 워크플로 활동의 절대 경로 지정 하 여 중단점을 설정할 수 있습니다. 예를 들어 있다고 이라는 워크플로 솔루션이 **WorkflowConsoleApplication1** 라는 솔루션에 워크플로 **Workflow1** 이라는 활동을 사용 하는 **Delay1**. 활동 이름을 사용할 수 있습니다 **Delay1** 경로를 지정 하거나 **Delay1:WorkflowConsoleApplication1.Workflow1** 또는 **Delay1:WorkflowConsoleApplication1.Workflow1: { 6614886A-608E-412B-BF98-99FF1559DDDF}** 합니다.  
   
 4. 선택 된 **IntelliSense 사용 하 여** 함수 이름을 확인 하려면 확인란 합니다.  
   

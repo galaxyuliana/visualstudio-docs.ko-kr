@@ -12,12 +12,12 @@ ms.assetid: 7035b904-b3d7-4d9b-98d9-65714b8a8b9f
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a29a8553a128903ed6da037f605a14bcb1db367c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: fa81daf7ab1d592e6a2cd460268e5d66925f61e1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445278"
 ---
 # <a name="idebugcoreserver3getserverfriendlyname"></a>IDebugCoreServer3::GetServerFriendlyName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ int GetServerFriendlyName(
  [out] 서버에 대 한 친숙 한 이름을 반환합니다.  
   
 > [!NOTE]
->  호출자는 문자열을 해제 하는 일을 담당 합니다.  
+> 호출자는 문자열을 해제 하는 일을 담당 합니다.  
   
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  

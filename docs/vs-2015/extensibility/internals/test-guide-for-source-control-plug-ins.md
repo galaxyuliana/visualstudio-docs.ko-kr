@@ -14,12 +14,12 @@ ms.assetid: 13b74765-0b7c-418e-8cd9-5f2e8db51ae5
 caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 9efe5ffcd0428a11df69e3c80f28fdecaeb99aaf
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a3ed1acdbf8d09616c413fa832dc452af277434b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441208"
 ---
 # <a name="test-guide-for-source-control-plug-ins"></a>소스 제어 플러그 인에 대한 테스트 가이드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "60100360"
 이 섹션에서는 소스 제어 플러그 인을 테스트 하는 것에 대 한 지침을 제공 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다. 광범위 한 개요는 가장 일반적인 테스트 영역 뿐만 아니라 더 복잡 한 문제가 될 수 있는 영역의 일부 제공 됩니다. 이 개요 테스트 사례의 목록은 아닙니다.  
   
 > [!NOTE]
->  몇 가지 버그 수정 및 향상 된 최신 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE에서 기존 원본 제어 플러그 인의 이전 버전을 사용 하는 동안 이전에 발생 하지 않았습니다 하는 문제를 발견할 수 있습니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다. 이전 버전의 이후 플러그 인에 변경한 없는 경우에 기존 소스 제어에이 섹션에서는 열거 된 영역에 대 한 플러그 인을 테스트 하는 것이 좋습니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다.  
+> 몇 가지 버그 수정 및 향상 된 최신 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] IDE에서 기존 원본 제어 플러그 인의 이전 버전을 사용 하는 동안 이전에 발생 하지 않았습니다 하는 문제를 발견할 수 있습니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다. 이전 버전의 이후 플러그 인에 변경한 없는 경우에 기존 소스 제어에이 섹션에서는 열거 된 영역에 대 한 플러그 인을 테스트 하는 것이 좋습니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다.  
   
 ## <a name="common-preparation"></a>일반적인 준비  
  컴퓨터 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 이며 대상 소스 제어 플러그 인 설치를 반드시 지정 해야 합니다. 테스트 소스 제어에서에서 열기 중 일부에 대해 구성 된 마찬가지로 두 번째 컴퓨터를 사용할 수 있습니다.  
@@ -57,7 +57,7 @@ ms.locfileid: "60100360"
   
 ## <a name="test-areas-covered-in-this-section"></a>이 섹션에서 다루는 영역 테스트  
   
-- [테스트 영역 1: 소스 제어에서 열기 / 추가](../../extensibility/internals/test-area-1-add-to-open-from-source-control.md)  
+- [테스트 영역 1: 소스 제어에 추가/소스 제어에서 열기](../../extensibility/internals/test-area-1-add-to-open-from-source-control.md)  
   
     - 사례 1a: 소스 제어에 솔루션 추가  
   
@@ -67,7 +67,7 @@ ms.locfileid: "60100360"
   
 - [테스트 영역 2: 소스 제어에서 가져오기](../../extensibility/internals/test-area-2-get-from-source-control.md)  
   
-- [테스트 영역 3: 체크 아웃/체크 아웃 취소](../../extensibility/internals/test-area-3-check-out-undo-checkout.md)  
+- [테스트 영역 3: 체크 아웃/체크 아웃 실행 취소](../../extensibility/internals/test-area-3-check-out-undo-checkout.md)  
   
     - 사례 3: 체크 아웃/체크 아웃 취소  
   
@@ -81,7 +81,7 @@ ms.locfileid: "60100360"
   
     - 사례 3e: 체크 아웃 취소  
   
-- [테스트 영역 4: 체크인](../../extensibility/internals/test-area-4-check-in.md)  
+- [테스트 영역 4: 체크 인](../../extensibility/internals/test-area-4-check-in.md)  
   
     - 사례 4a: 수정 된 항목  
   
@@ -97,7 +97,7 @@ ms.locfileid: "60100360"
   
     - 사례 5 c: 다시 바인딩  
   
-- [테스트 영역 6: Delete](../../extensibility/internals/test-area-6-delete.md)  
+- [테스트 영역 6: 삭제](../../extensibility/internals/test-area-6-delete.md)  
   
 - [테스트 영역 7: 공유](../../extensibility/internals/test-area-7-share.md)  
   

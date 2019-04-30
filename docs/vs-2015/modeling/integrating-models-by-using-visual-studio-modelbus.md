@@ -9,12 +9,12 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4530b12ff3c5fa05d63d845cf4d364d2c238ff77
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e9f0a185ce4f78a81d1ed806e38b102296093f48
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441015"
 ---
 # <a name="integrating-models-by-using-visual-studio-modelbus"></a>Visual Studio Modelbus를 사용하여 모델 통합
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "60041291"
  ModelBus에서는 모델 또는 모델 내의 특정 요소에 대한 고유 참조를 만들 수 있습니다. 이 참조는 다른 모델의 요소 등 모델 외부에 저장할 수 있습니다. 나중에 도구에서 요소에 액세스해야 하면 ModelBus 인프라에서 적절한 모델을 로드하고 요소를 반환합니다. 원하는 경우 사용자에게 모델을 표시할 수 있습니다. 이전 위치에서 파일에 액세스할 수 없으면 ModelBus에서 사용자에게 파일을 찾으라는 메시지를 표시합니다. 사용자가 파일을 찾으면 해당 파일에 대한 모든 참조가 수정됩니다.
 
 > [!NOTE]
->  ModelBus의 최신 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 구현에서 연결되는 모델은 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션에 있는 항목이어야 합니다.
+> ModelBus의 최신 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 구현에서 연결되는 모델은 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션에 있는 항목이어야 합니다.
 
  추가 정보와 샘플 코드는 다음 항목을 참조하세요.
 
@@ -130,7 +130,7 @@ ms.locfileid: "60041291"
 5. 클릭 **확인**를 클릭 하 고 **모든 템플릿 변환** 솔루션 탐색기 도구 모음에서입니다.
 
     > [!WARNING]
-    >  올바른 모델이나 엔터티를 선택하지 않은 경우 확인 단추가 사용 가능한 것처럼 표시될 수 있지만 클릭해도 아무런 변화가 없습니다.
+    > 올바른 모델이나 엔터티를 선택하지 않은 경우 확인 단추가 사용 가능한 것처럼 표시될 수 있지만 클릭해도 아무런 변화가 없습니다.
 
 6. Company.FamilyTree.Person과 같은 대상 형식 목록을 지정한 경우에는 Company.FamilyTree.Dsl.dll과 같은 대상 DSL의 DLL을 참조하는 어셈블리 참조를 DSL 프로젝트에 추가해야 합니다.
 
@@ -143,7 +143,7 @@ ms.locfileid: "60041291"
 3. 디버깅 프로젝트의 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실험 인스턴스에서 각 DSL의 인스턴스인 파일을 추가합니다.
 
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus는 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 항목인 모델에 대한 참조만 확인할 수 있습니다. 예를 들어 파일 시스템의 다른 부분에 있는 모델 파일에 대한 참조를 만들 수는 없습니다.
+    > [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus는 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 항목인 모델에 대한 참조만 확인할 수 있습니다. 예를 들어 파일 시스템의 다른 부분에 있는 모델 파일에 대한 참조를 만들 수는 없습니다.
 
 4. 표시되는 DSL의 인스턴스에서 요소와 링크를 몇 개 만들고 해당 DSL을 저장합니다.
 
@@ -163,7 +163,7 @@ ms.locfileid: "60041291"
  요소 참조를 만들려면 모델 파일의 어댑터와 참조할 요소가 필요합니다.
 
 > [!NOTE]
->  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus에서는 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 항목에 대한 참조만 만들 수 있습니다.
+> [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus에서는 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 항목에 대한 참조만 만들 수 있습니다.
 
 ### <a name="import-the-exposed-dsl-assemblies"></a>표시되는 DSL 어셈블리 가져오기
  참조를 사용하는 프로젝트에서 DSL에 대한 프로젝트 참조 및 표시되는 DSL의 ModelBusAdapter 어셈블리를 추가합니다.
@@ -197,7 +197,7 @@ using System.Linq;
  AdapterManager에서는 모델의 개별 요소에 대한 액세스 권한을 제공하는 어댑터를 가져올 수 있습니다.
 
 > [!NOTE]
->  어댑터는 사용한 후 삭제해야 합니다. 어댑터를 삭제하는 가장 편리한 방법은 `using` 문을 사용하는 것입니다. 다음은 이에 대한 예입니다.
+> 어댑터는 사용한 후 삭제해야 합니다. 어댑터를 삭제하는 가장 편리한 방법은 `using` 문을 사용하는 것입니다. 다음은 이에 대한 예입니다.
 
 ```
 // The file path of a model instance of the FamilyTree DSL:

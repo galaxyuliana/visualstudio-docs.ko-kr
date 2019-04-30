@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 940cf70047437c8aa3182121e8b1585b448018f8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9e5c6282c446fbc9ef24433e40452cca2b1b905a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441851"
 ---
 # <a name="deploy-an-office-solution-by-using-clickonce"></a>ClickOnce를 사용 하 여 Office 솔루션 배포
   ClickOnce를 사용하면 Office 솔루션을 더 적은 단계로 배포할 수 있습니다. 업데이트를 게시하는 경우 솔루션에서 자동으로 이를 감지하여 설치합니다. 그러나 ClickOnce에서는 컴퓨터의 각 사용자에 대해 별도로 솔루션을 설치하도록 합니다. Windows Installer를 사용 하 여 고려해 야 하므로 (*.msi*) 둘 이상의 사용자를 동일한 컴퓨터에 솔루션을 실행 합니다.
@@ -83,7 +83,7 @@ ms.locfileid: "60060743"
 9. 솔루션이.NET Framework 4.5를 대상으로 하는 경우 선택 합니다 **Visual Studio 2010 Tools for Office Runtime** 확인란 합니다.
 
     > [!NOTE]
-    >  이 확인란은 기본적으로 표시 되지 않습니다. 이 확인란을 표시하려면 부트스트래퍼 패키지를 만들어야 합니다. 참조 [부트스트래퍼 패키지는 Office 2013 VSTO 추가 기능에 대 한 Visual Studio 2012를 사용 하 여 만들기](create-vsto-add-ins-for-office-by-using-visual-studio.md)합니다.
+    > 이 확인란은 기본적으로 표시 되지 않습니다. 이 확인란을 표시하려면 부트스트래퍼 패키지를 만들어야 합니다. 참조 [부트스트래퍼 패키지는 Office 2013 VSTO 추가 기능에 대 한 Visual Studio 2012를 사용 하 여 만들기](create-vsto-add-ins-for-office-by-using-visual-studio.md)합니다.
 
 10. 아래 **필수 구성 요소에 대 한 설치 위치를 지정**, 표시 및 선택한 옵션 중 하나를 선택 합니다 **확인** 단추입니다.
 
@@ -100,7 +100,7 @@ ms.locfileid: "60060743"
 11. 선택 된 **업데이트** 단추, 빈도 또는 사용 하려는 각 최종 사용자의 VSTO 추가 기능에서 사용자 지정 업데이트를 확인 한 다음에 지정 합니다 **확인** 단추.
 
     > [!NOTE]
-    >  CD 또는 이동식 드라이브를 사용 하 여 배포 하는 경우 선택 합니다 **업데이트 확인 안 함** 옵션 단추입니다.
+    > CD 또는 이동식 드라이브를 사용 하 여 배포 하는 경우 선택 합니다 **업데이트 확인 안 함** 옵션 단추입니다.
 
      업데이트를 게시 하는 방법에 대 한 정보를 참조 하세요 [업데이트를 게시](#Update)합니다.
 
@@ -129,7 +129,7 @@ ms.locfileid: "60060743"
       ![게시 폴더 구조](../vsto/media/publishfolderstructure.png "게시 폴더 구조")
 
     > [!NOTE]
-    >  ClickOnce 추가 합니다 *.deploy* 어셈블리에는 확장 보안된 설치 인터넷 정보 서비스 (IIS)의 안전 하지 않은 확장명 때문에 파일을 차단 하지 않도록 합니다. ClickOnce는 사용자가 솔루션을 설치 하는 경우 제거 합니다 *.deploy* 확장 합니다.
+    > ClickOnce 추가 합니다 *.deploy* 어셈블리에는 확장 보안된 설치 인터넷 정보 서비스 (IIS)의 안전 하지 않은 확장명 때문에 파일을 차단 하지 않도록 합니다. ClickOnce는 사용자가 솔루션을 설치 하는 경우 제거 합니다 *.deploy* 확장 합니다.
 
 14. 이 절차의 앞부분에서 지정한 설치 위치에 솔루션 파일을 복사합니다.
 
@@ -164,7 +164,7 @@ ms.locfileid: "60060743"
 6. 에 **MIME 형식을** 창 입력 **.vsto** 확장명으로 입력 **application/x-ms-vsto** MIME로 입력 한 다음 새 설정을 적용 합니다.
 
     > [!NOTE]
-    >  변경 내용이 적용되려면 World Wide Web Publishing 서비스를 다시 시작하거나 작업자 프로세스가 재생될 때까지 기다려야 합니다. 열을 추가한 후 다음 브라우저의 디스크 캐시를 플러시할 해야 합니다 *.vsto* 파일을 다시 합니다.
+    > 변경 내용이 적용되려면 World Wide Web Publishing 서비스를 다시 시작하거나 작업자 프로세스가 재생될 때까지 기다려야 합니다. 열을 추가한 후 다음 브라우저의 디스크 캐시를 플러시할 해야 합니다 *.vsto* 파일을 다시 합니다.
 
 ##### <a name="to-add-the-vsto-mime-type-to-iis-70"></a>IIS 7.0에 .vsto MIME 형식을 추가하려면
 
@@ -185,7 +185,7 @@ ms.locfileid: "60060743"
     ```
 
     > [!NOTE]
-    >  변경 내용이 적용되려면 World Wide Web Publishing 서비스를 다시 시작하거나 작업자 프로세스가 재생될 때까지 기다려야 합니다. 열을 추가한 후 다음 브라우저의 디스크 캐시를 플러시할 해야 합니다 *.vsto* 파일을 다시 합니다.
+    > 변경 내용이 적용되려면 World Wide Web Publishing 서비스를 다시 시작하거나 작업자 프로세스가 재생될 때까지 기다려야 합니다. 열을 추가한 후 다음 브라우저의 디스크 캐시를 플러시할 해야 합니다 *.vsto* 파일을 다시 합니다.
 
 ## <a name="Put"></a> 최종 사용자의 컴퓨터 (문서 수준 사용자 지정에만 해당)에 솔루션 문서 저장
  배포 후 작업을 만들어 최종 사용자의 컴퓨터에 솔루션의 문서에 복사할 수 있습니다. 따라서 사용자는 수동으로 문서를 복사 하도록 설치 위치에서 해당 컴퓨터에 솔루션을 설치한 후 없습니다. 배포 후 작업을 정의 하는 클래스를 만들기, 빌드 및 솔루션을 게시, 응용 프로그램 매니페스트를 수정 및 응용 프로그램 및 배포 매니페스트에 다시 서명 해야 합니다.
@@ -300,7 +300,7 @@ ms.locfileid: "60060743"
     ```
 
     > [!NOTE]
-    >  이전 예제에서 MostRecentVersionNumber 솔루션의 가장 최근에 게시 된 버전의 버전 번호를 사용 하 여 바꿉니다 (예를 들어 **1_0_0_4**).
+    > 이전 예제에서 MostRecentVersionNumber 솔루션의 가장 최근에 게시 된 버전의 버전 번호를 사용 하 여 바꿉니다 (예를 들어 **1_0_0_4**).
 
      "ExcelWorkbook.vsto에 서명했습니다."라는 메시지가 나타납니다.
 
@@ -386,7 +386,7 @@ ms.locfileid: "60060743"
   솔루션의 설치 경로를 변경하려면 설치 프로그램을 업데이트한 다음 사용자가 이를 실행해야 합니다. 문서 수준 사용자 지정의 경우, 사용자가 문서의 속성이 새 위치를 가리키도록 업데이트해야 합니다.
 
 > [!NOTE]
->  해당 문서 속성을 업데이트 하도록 요청 하지 않으려는 경우 사용자가 설치 위치에서 업데이트 된 문서를 요청할 수 있습니다.
+> 해당 문서 속성을 업데이트 하도록 요청 하지 않으려는 경우 사용자가 설치 위치에서 업데이트 된 문서를 요청할 수 있습니다.
 
 #### <a name="to-change-the-installation-path-in-the-setup-program"></a>설치 프로그램에서 설치 경로를 변경하려면
 
@@ -401,10 +401,10 @@ ms.locfileid: "60060743"
    ```
 
    > [!NOTE]
-   >  메시지가 표시되어 실행 파일의 시그니처가 무효가 되었음을 알리는 경우, 솔루션 서명에 사용된 인증서는 더 이상 유효하지 않으며 게시자는 알 수 없게 됩니다. 그 결과 사용자는 솔루션의 소스를 신뢰함을 확인한 뒤에야 이를 설치할 수 있게 됩니다.
+   > 메시지가 표시되어 실행 파일의 시그니처가 무효가 되었음을 알리는 경우, 솔루션 서명에 사용된 인증서는 더 이상 유효하지 않으며 게시자는 알 수 없게 됩니다. 그 결과 사용자는 솔루션의 소스를 신뢰함을 확인한 뒤에야 이를 설치할 수 있게 됩니다.
 
    > [!NOTE]
-   >  현재 URL 값을 표시하려면 `setup.exe /url`을 실행하십시오.
+   > 현재 URL 값을 표시하려면 `setup.exe /url`을 실행하십시오.
 
    문서 수준 사용자 지정 사용자 문서를 열고 해당 _AssemblyLocation 속성을 업데이트 합니다. 다음 단계에서는 사용자가 이 작업을 수행하는 방법을 설명합니다.
 
@@ -454,7 +454,7 @@ ms.locfileid: "60060743"
      다음에 사용자가 응용 프로그램 또는 사용자 지정 문서를 열면 배포 매니페스트 변경 사항이 검색됩니다. 이전 버전의 Office 솔루션은 ClickOnce 캐시에서 실행됩니다.
 
 > [!NOTE]
->  로컬 데이터는 이전 버전의 솔루션 하나에 대해서만 저장됩니다. 두 버전을 롤백하는 경우 로컬 데이터는 보존 되지 않습니다. 로컬 데이터에 대 한 자세한 내용은 참조 하세요. [ClickOnce 응용 프로그램의 로컬 및 원격 데이터 액세스](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)합니다.
+> 로컬 데이터는 이전 버전의 솔루션 하나에 대해서만 저장됩니다. 두 버전을 롤백하는 경우 로컬 데이터는 보존 되지 않습니다. 로컬 데이터에 대 한 자세한 내용은 참조 하세요. [ClickOnce 응용 프로그램의 로컬 및 원격 데이터 액세스](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 

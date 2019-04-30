@@ -17,23 +17,23 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 59d9179bb0a3c3c2f08bbccafbca5db0202208e3
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
-ms.translationtype: MT
+ms.openlocfilehash: 8b48335ccaa8bd21cf9f6e108d043ecf706903bb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54867968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441877"
 ---
 # <a name="debug-office-projects"></a>Office 프로젝트 디버깅
   다른 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 프로젝트에 사용한 것과 동일한 Microsoft [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 도구를 사용하여 Office 프로젝트를 디버그할 수 있습니다. 중단점 삽입 및[!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 지역 **창에 변수 표시와 같은** 디버거 기능은 Office 프로젝트를 디버그할 때도 사용할 수 있습니다. 에 대 한 자세한 내용은 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 디버깅 도구를 참조 하세요 [Visual Studio에서 디버그](../debugger/debugging-in-visual-studio.md)합니다.
 
 > [!TIP]
->  디버깅을 간소화하려면 빌드하고 디버그하기 전에 Office 애플리케이션의 열린 인스턴스를 모두 닫습니다.
+> 디버깅을 간소화하려면 빌드하고 디버그하기 전에 Office 애플리케이션의 열린 인스턴스를 모두 닫습니다.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
 > [!NOTE]
->  Office 환경을 확장 하는 솔루션을 개발 하는 데 관심이 [여러 플랫폼](https://dev.office.com/add-in-availability)? 새 확인해 [Office 추가 기능 모델](https://dev.office.com/docs/add-ins/overview/office-add-ins)합니다. Office 추가 기능의 VSTO 추가 기능 및 솔루션에 비해 작은 사용 공간이 있고 거의 모든 웹 프로그래밍 기술을, HTML5, JavaScript, CSS3, XML 등을 사용 하 여 빌드할 수 있습니다.
+> Office 환경을 확장 하는 솔루션을 개발 하는 데 관심이 [여러 플랫폼](https://dev.office.com/add-in-availability)? 새 확인해 [Office 추가 기능 모델](https://dev.office.com/docs/add-ins/overview/office-add-ins)합니다. Office 추가 기능의 VSTO 추가 기능 및 솔루션에 비해 작은 사용 공간이 있고 거의 모든 웹 프로그래밍 기술을, HTML5, JavaScript, CSS3, XML 등을 사용 하 여 빌드할 수 있습니다.
 
 ## <a name="start-and-stop-the-debugger"></a>시작 하 고 디버거를 중지 합니다.
  다른 디버깅을 시작 하는 것 처럼 Office 프로젝트 디버깅을 시작할 수 있습니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 프로젝트 누르면 예를 들어 합니다 **F5** 키입니다. VSTO 추가 기능 프로젝트 디버깅을 시작 하면 대상된 Office 응용 프로그램에 대 한 새 프로세스가 시작 되 고 VSTO 추가 기능에 로드 됩니다.

@@ -15,12 +15,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7e7f70808ff91ec32ef52deedc05724f9bac3f7d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 970f3828319e2e9c016baa66bb1e5fc2032b81ce
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387034"
 ---
 # <a name="how-to-add-update-or-remove-a-wcf-data-service-reference"></a>방법: WCF 데이터 서비스 참조 추가, 업데이트 또는 제거
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ A *서비스 참조* 액세스 하나 이상의 프로젝트를 사용 하면 [!
 2. 에 **주소** 상자, 서비스에 대 한 URL을 입력 한 다음 클릭 **이동** 는 서비스를 검색 합니다. 서비스 사용자 이름 및 암호 보안을 구현 하는 경우에 사용자 이름과 암호를 묻는 메시지가 될 수 있습니다.  
   
     > [!NOTE]
-    >  신뢰할 수 있는 원본의 서비스만 참조해야 합니다. 신뢰할 수 없는 원본에서 참조를 추가하면 보안이 손상될 수 있습니다.  
+    > 신뢰할 수 있는 원본의 서비스만 참조해야 합니다. 신뢰할 수 없는 원본에서 참조를 추가하면 보안이 손상될 수 있습니다.  
   
      URL을 선택할 수도 있습니다는 **주소** 유효한 서비스 메타 데이터를 찾을 수는 15 이전 Url을 저장 하는 목록입니다.  
   
@@ -91,7 +91,7 @@ A *서비스 참조* 액세스 하나 이상의 프로젝트를 사용 하면 [!
      서비스 클라이언트 솔루션에서 제거한 메타 데이터 서비스를 설명 하는 app.config 파일에서 제거 됩니다.  
   
     > [!NOTE]
-    >  서비스 참조를 참조 하는 코드를 수동으로 제거 해야 합니다.  
+    > 서비스 참조를 참조 하는 코드를 수동으로 제거 해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

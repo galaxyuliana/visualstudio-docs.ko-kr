@@ -8,12 +8,12 @@ ms.assetid: f7e9e4a2-5d01-4f78-b408-5be3892bd162
 caps.latest.revision: 28
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a86811bb4d87dffcf9abdacae9bca1fdac4298ee
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e01165f12bcf3b41e4ef1279d12ce99bf8f6598f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442785"
 ---
 # <a name="configure-unit-tests-by-using-a-runsettings-file"></a>.runsettings 파일을 사용하여 단위 테스트 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,11 +23,11 @@ ms.locfileid: "60043044"
  특수 구성을 원하지 않는다면 *.runsettings 파일이 필요하지 않습니다. 가장 자주 사용하는 경우는 [코드 검사](../test/customizing-code-coverage-analysis.md)를 사용자 지정하는 경우입니다.  
   
 > [!NOTE]
->  **.runsettings 및 .testsettings**  
+> **.runsettings 및 .testsettings**  
 >   
->  테스트 구성에는 두 가지 파일 형식이 필요합니다. *.runsettings는 단위 테스트에 사용됩니다. \*.testsettings는 [랩 환경 테스트](http://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901), 웹 성능 및 로드 테스트 그리고 IntelliTrace 및 이벤트 로그 어댑터와 같은 진단 데이터 어댑터의 일부 유형을 사용자 지정하는 데 사용됩니다.  
+> 테스트 구성에는 두 가지 파일 형식이 필요합니다. *.runsettings는 단위 테스트에 사용됩니다. \*.testsettings는 [랩 환경 테스트](http://msdn.microsoft.com/library/0c15317e-80c6-4317-aed3-82b8e15e3901), 웹 성능 및 로드 테스트 그리고 IntelliTrace 및 이벤트 로그 어댑터와 같은 진단 데이터 어댑터의 일부 유형을 사용자 지정하는 데 사용됩니다.  
 >   
->  Visual Studio 2010까지 Visual Studio의 이전 버전에서는 *.testsettings 파일을 사용해서 단위 테스트를 사용자 지정할 수 있었습니다. 여전히 *.testsettings 파일을 사용해서 단위 테스트를 사용자 지정할 수도 있지만 \*.runsettings 파일에서 동일한 구성을 사용하는 것보다 테스트가 훨씬 느리게 실행됩니다.  
+> Visual Studio 2010까지 Visual Studio의 이전 버전에서는 *.testsettings 파일을 사용해서 단위 테스트를 사용자 지정할 수 있었습니다. 여전히 *.testsettings 파일을 사용해서 단위 테스트를 사용자 지정할 수도 있지만 \*.runsettings 파일에서 동일한 구성을 사용하는 것보다 테스트가 훨씬 느리게 실행됩니다.  
   
 ## <a name="customizing-tests-with-a-runsettings-file"></a>.runsettings 파일을 사용하여 테스트 사용자 지정  
   

@@ -18,18 +18,18 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 206cd77ae3c648add62b17c86a4966e6174c345c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 58f4dd6df35b9101ed3cd2a45943efc8078229f8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444367"
 ---
 # <a name="import-items-from-an-existing-sharepoint-site"></a>기존 SharePoint 사이트에서 항목 가져오기
   SharePoint 솔루션 패키지 가져오기 프로젝트 템플릿을 사용하면 기존 SharePoint 사이트에 있는 콘텐츠 형식 및 필드 등의 요소를 새 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 솔루션에서 다시 사용할 수 있습니다. 수정 없이도 가져온 솔루션을 대부분 실행할 수 있지만 몇 가지 제한 및 문제를 고려해야 합니다. 항목을 가져온 후 수정한 경우에는 특히 주의해야 합니다.
 
 > [!NOTE]
->  재사용 가능한 워크플로를 가져오려면 재사용 가능한 워크플로 가져오기 프로젝트 템플릿을 사용합니다. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [재사용 가능한 워크플로 가져오기에 대 한 지침](../sharepoint/guidelines-for-importing-reusable-workflows.md)합니다.
+> 재사용 가능한 워크플로를 가져오려면 재사용 가능한 워크플로 가져오기 프로젝트 템플릿을 사용합니다. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [재사용 가능한 워크플로 가져오기에 대 한 지침](../sharepoint/guidelines-for-importing-reusable-workflows.md)합니다.
 
 ## <a name="supported-sharepoint-solutions"></a>지원 되는 SharePoint 솔루션
  [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] 에서는 [!INCLUDE[wss_14_short](../sharepoint/includes/wss-14-short-md.md)] 및 [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)]에서 만들어진 솔루션을 가져올 수 있습니다.

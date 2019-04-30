@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: f20b090f880168b3561cba547db319813ba3fe02
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 3e5800a6de15d2d59208022fa44d3c2f4c931e14
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58148075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446576"
 ---
 # <a name="idebugdocumenthostgetdeferredtext"></a>IDebugDocumentHost::GetDeferredText
 사용 하 여 추가 된 문자의 범위를 반환 합니다 `IDebugDocumentHelper::AddDeferredText` 원래 호스트 문서의 메서드.  
@@ -67,7 +67,7 @@ HRESULT GetDeferredText(
  이 메서드가 반환할 수 있습니다 `E_NOTIMPL`호스트를 호출 하지 않는 경우 `IDebugDocumentHelper::AddDeferredText`합니다.  
   
 > [!NOTE]
->  이 메서드는 원래 문서에서 텍스트를 반환합니다. 호스트는를 추적 하지 편집 또는 문서에 다른 변경 합니다.  
+> 이 메서드는 원래 문서에서 텍스트를 반환합니다. 호스트는를 추적 하지 편집 또는 문서에 다른 변경 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDebugDocumentHost 인터페이스](../../winscript/reference/idebugdocumenthost-interface.md)   

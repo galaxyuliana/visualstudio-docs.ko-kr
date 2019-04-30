@@ -22,12 +22,12 @@ caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7efd2c988791d0de4f414a48e5c47bc70b05b784
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MT
+ms.openlocfilehash: cf4a3b699d3854ef2a502fb1bf1d7fb2d6204acb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "59001917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446485"
 ---
 # <a name="general-debugging-options-dialog-box"></a>옵션 대화 상자, 디버깅, 일반
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,7 +91,7 @@ ms.locfileid: "59001917"
  SrcSrv(`srcsrv.dll`) 프로토콜을 구현하는 소스 서버로부터 소스 파일을 가져오도록 Visual Studio 디버거에 지시합니다. Team Foundation Server와 Debugging Tools for Windows는 프로토콜을 구현하는 두 가지 소스 서버입니다. SrcSrv 설치에 대한 자세한 내용은 Debugging Tools for Windows 설명서를 참조하십시오. 또한 [지정할 기호 (.pdb) 및 소스 파일](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)합니다.  
   
 > [!IMPORTANT]
->  .pdb 파일을 읽으면 파일에서 임의의 코드가 실행될 수 있으므로 반드시 서버를 신뢰해야 합니다.  
+> .pdb 파일을 읽으면 파일에서 임의의 코드가 실행될 수 있으므로 반드시 서버를 신뢰해야 합니다.  
   
  **출력 창에 소스 서버 진단 메시지**  
  소스 서버 지원이 활성화된 경우 이 설정은 진단 표시를 설정합니다.  
@@ -173,7 +173,7 @@ ms.locfileid: "59001917"
   디버깅 중에 편집하며 계속하기 기능을 사용할 수 있습니다.  
   
   **네이티브를 사용 하도록 설정 편집 하며 계속 하기**  
-  네이티브 C++ 코드 디버깅 중에 편집하며 계속하기 기능을 사용할 수 있습니다. 자세한 내용은 [편집 하며 계속 하기 (Visual c + +)](../debugger/edit-and-continue-visual-cpp.md)합니다.  
+  네이티브 C++ 코드 디버깅 중에 편집하며 계속하기 기능을 사용할 수 있습니다. 자세한 내용은 [편집 하며 계속 하기 (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)합니다.  
   
   **계속할 때 변경 내용 적용(네이티브 전용)**  
   Visual Studio에서는 중단 상태에서 프로세스를 계속하면 진행 중인 코드 변경 내용을 자동으로 컴파일하여 적용합니다. 이 옵션을 선택하지 않으면 디버그 메뉴에서 "코드 변경 내용 적용" 항목을 사용하여 변경 내용을 적용할 수 있습니다.  

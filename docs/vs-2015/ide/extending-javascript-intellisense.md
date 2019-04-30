@@ -15,12 +15,12 @@ caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 94e2186fa13f7fe125457dc6f04d6d31d0bcc65d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e995d9cfd37c625c03df0b607a9dd5184bec5d08
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441461"
 ---
 # <a name="extending-javascript-intellisense"></a>JavaScript IntelliSense 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ JavaScript IntelliSense 확장성 기능을 사용 하면 타사 라이브러리
   
  추가 환경을 개선 하기 위해 개발자, 개발자가 팝업 상자에서 형식 정보를 제공 하는 것이 좋습니다. JavaScript를 사용 하 여 형식 정보를 제공할 수 있습니다 [XML 문서 주석](../ide/xml-documentation-comments-javascript.md) 표준 주석 태그 대신 합니다. 삼중 슬래시 주석 태그 (/ / /) 및 XML 요소로 정의 된 집합을 사용 하 여 XML 문서 주석을 추가 합니다.  
   
- 또는 JavaScript IntelliSense 확장성을 사용 하 여 형식 정보를 제공할 수 있습니다. 이 기능을 사용 하면 JavaScript 확장을 만들고 스크립트 컨텍스트를 추가 하 여 IntelliSense 결과 사용자 지정할 수 있습니다. JavaScript 파일에는 확장에 의해 노출 되는 이벤트에 구독을 `intellisense` 언어 서비스의 개체입니다. JavaScript IntelliSense 확장성 라이브러리의 동작 패턴을 JavaScript language service 원하는 수준의 IntelliSense 지원 제공 하는 것을 방지 한 경우 및 선언적 XML 대신 하는 경우 라이브러리에 대 한 기본 솔루션입니다. 문서 주석에 필요 합니다. IntelliSense 결과 사용자 지정 하 여 언어 서비스의 기본 기능을 제한 하는 동작 패턴에 관계 없이 첫 번째 클래스는 IntelliSense 환경을 만들 수 있습니다. 자세한 내용은 [식별자 문 완성](../ide/statement-completion-for-identifiers.md)합니다.  
+ 또는 JavaScript IntelliSense 확장성을 사용 하 여 형식 정보를 제공할 수 있습니다. 이 기능을 사용 하면 JavaScript 확장을 만들고 스크립트 컨텍스트를 추가 하 여 IntelliSense 결과 사용자 지정할 수 있습니다. JavaScript 파일에는 확장에 의해 노출 되는 이벤트에 구독을 `intellisense` 언어 서비스의 개체입니다. JavaScript IntelliSense 확장성 라이브러리의 동작 패턴을 JavaScript language service 원하는 수준의 IntelliSense 지원 제공 하는 것을 방지 한 경우 및 선언적 XML 대신 하는 경우 라이브러리에 대 한 기본 솔루션입니다. 문서 주석에 필요 합니다. IntelliSense 결과 사용자 지정 하 여 언어 서비스의 기본 기능을 제한 하는 동작 패턴에 관계 없이 첫 번째 클래스는 IntelliSense 환경을 만들 수 있습니다. 자세한 내용은 [식별자에 대한 문 완성](../ide/statement-completion-for-identifiers.md)을 참조하세요.  
   
 ## <a name="adding-an-extension-to-the-script-context"></a>스크립트 컨텍스트에 확장을 추가합니다.  
  에서 실행할 IntelliSense 확장에 대 한 현재 스크립트 컨텍스트를 추가 해야 합니다. 자동 검색 메커니즘에 의해 스크립트 컨텍스트에 확장을 자동으로 추가 될 수 있습니다 하거나 추가할 수 있습니다 확장 스크립트 컨텍스트를 수동으로 참조 그룹 또는 참조 지시문을 사용 하 여 합니다.  
@@ -75,7 +75,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
  추가 예제를 보려면 확인 합니다 \\ \\ *Visual Studio 설치 경로*\JavaScript\References 폴더입니다. 이 폴더에 있는 showPlainComments.js 파일 다른 이벤트를 사용 하 여 표준 JavaScript 주석 태그에 대 한 기본 IntelliSense 지원을 제공 하는 예제를 제공 합니다. (/ /). Underscorefilter.js, 같은 이미 showPlainComments.js 작업 확장으로 사용할 수 있으며 변수, 함수 및 개체에 대 한 코드에서 주석 태그를 사용 하는 경우 결과 IntelliSense 정보를 확인할 수 있습니다. 추가 예제를 보려면 [코드 예제에서는](#CodeExamples)합니다.  
   
 > [!WARNING]
->  Visual Studio에 포함 된 확장 파일을 수정 하는 경우 JavaScript IntelliSense 또는 확장에서 지 원하는 기능을 비활성화할 수 있습니다.  
+> Visual Studio에 포함 된 확장 파일을 수정 하는 경우 JavaScript IntelliSense 또는 확장에서 지 원하는 기능을 비활성화할 수 있습니다.  
   
  확장 프로그램 코드에서 사용 하 여 다음 이벤트 유형에 대 한 처리기를 만들 수 있습니다 `addEventListener`:  
   
@@ -88,7 +88,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   문 완성, 매개 변수 정보 및 요약 정보 같은 IntelliSense 기능을 보여 주는 예제를 보려면 [IntelliSense를 사용 하 여](../ide/using-intellisense.md)입니다.  
   
 > [!NOTE]
->  JavaScript에서 요약 정보를 완성 목록이 오른쪽에 표시 되는 팝업 상자 가리킵니다. 요약 정보를 수동으로 호출할 수 없습니다.  
+> JavaScript에서 요약 정보를 완성 목록이 오른쪽에 표시 되는 팝업 상자 가리킵니다. 요약 정보를 수동으로 호출할 수 없습니다.  
   
 ## <a name="intellisenseObject"></a> intellisense 개체  
  다음 표에서 사용할 수 있는 함수는 `intellisense` 개체입니다. `intellisense` 개체를 디자인 타임에만 사용할 수 있습니다.  

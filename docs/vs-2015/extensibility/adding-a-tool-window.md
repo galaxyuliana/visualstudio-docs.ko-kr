@@ -11,12 +11,12 @@ ms.assetid: 8e16c381-03c8-404e-92ef-3614cdf3150a
 caps.latest.revision: 53
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: cc12854574f21c1d75f57bae592d6a504db9b189
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9099bc79a555f908ddda12dc9da83f015791fd86
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60087575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444825"
 ---
 # <a name="adding-a-tool-window"></a>도구 창 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "60087575"
 1. 라는 프로젝트를 만듭니다 **FirstToolWin** 라는 사용자 지정 도구 창 항목 템플릿을 VSIX 템플릿을 사용 하 여 추가한 **FirstToolWindow**합니다.  
   
     > [!NOTE]
-    >  도구 창을 사용 하 여 확장을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
+    > 도구 창을 사용 하 여 확장을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
   
 ## <a name="add-a-control-to-the-tool-window"></a>도구 창에 컨트롤 추가  
   
@@ -264,7 +264,7 @@ public System.Windows.Controls.MediaElement MediaPlayer
      첫 번째 명명 된 매개 변수인 `Style` 및 해당 값이 `Tabbed`, 즉, 창 기존 창에 탭이 되도록 합니다. 가 여 도킹 위치를 지정 합니다 `Window` 매개 변수, 여기서 n의 GUID **솔루션 탐색기**합니다.  
   
     > [!NOTE]
-    >  IDE에서 windows의 유형에 대 한 자세한 내용은 참조 하세요. <xref:EnvDTE.vsWindowType>합니다.  
+    > IDE에서 windows의 유형에 대 한 자세한 내용은 참조 하세요. <xref:EnvDTE.vsWindowType>합니다.  
   
 ## <a name="testing-the-tool-window"></a>도구 창을 테스트  
   

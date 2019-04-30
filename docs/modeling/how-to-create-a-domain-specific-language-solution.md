@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9b1799ac2e7124f79d10dcc8860a994e2f182ea7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0ac8a47aeca8875dabe3fdf388e9a73d68ec514e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60051351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445213"
 ---
 # <a name="how-to-create-a-domain-specific-language-solution"></a>방법: 도메인 특정 언어 솔루션 만들기
 도메인 특정 언어 (DSL) 특수 한 Visual Studio 솔루션을 사용 하 여 만들어집니다.
@@ -63,7 +63,7 @@ ms.locfileid: "60051351"
     마법사 라는 두 개의 프로젝트가 포함 된 솔루션을 만듭니다 **Dsl** 하 고 **DslPackage**합니다.
 
    > [!NOTE]
-   >  신뢰할 수 없는 소스에서 텍스트 템플릿을 실행 하려면 클릭 하지 경고를 생성 하는 메시지가 표시 되 면 **확인**합니다. 이 메시지가 다시 표시 하지를 설정할 수 있습니다.
+   > 신뢰할 수 없는 소스에서 텍스트 템플릿을 실행 하려면 클릭 하지 경고를 생성 하는 메시지가 표시 되 면 **확인**합니다. 이 메시지가 다시 표시 하지를 설정할 수 있습니다.
 
 ## <a name="settings"></a> DSL 디자이너 마법사 페이지
  다양 한 해당 기본값에서 변경 되지 않은 필드를 둘 수 있습니다. 그러나 파일 확장명 필드를 설정 하는 해야 합니다.

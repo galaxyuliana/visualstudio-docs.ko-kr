@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ab8c437285a55013e2c0367865044ee12ba061ed
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: de101e33e94889a44fe9bc4e21db857763b1c9aa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447031"
 ---
 # <a name="registry-entries-for-vsto-add-ins"></a>VSTO 추가 기능에 대 한 레지스트리 항목
   Visual Studio를 사용하여 만든 VSTO 추가 기능을 배포할 때에는 특정 레지스트리 항목 집합을 만들어야 합니다. 이러한 레지스트리 항목은 Microsoft Office 애플리케이션에서 VSTO 추가 기능을 찾아 로드할 수 있는 정보를 제공합니다.
@@ -33,7 +33,7 @@ ms.locfileid: "60071810"
  VSTO 추가 기능에 대한 로드 프로세스 중 레지스트리 항목을 사용하는 방법에 대한 자세한 내용은 [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)를 참조하세요.
 
 > [!NOTE]
->  이 항목에서 *추가 기능 ID* 텍스트는 VSTO 추가 기능의 고유한 ID를 나타냅니다. 기본적으로 ID는 VSTO 추가 기능 어셈블리의 이름입니다.
+> 이 항목에서 *추가 기능 ID* 텍스트는 VSTO 추가 기능의 고유한 ID를 나타냅니다. 기본적으로 ID는 VSTO 추가 기능 어셈블리의 이름입니다.
 
 ## <a name="register-vsto-add-ins-for-the-current-user-vs-all-users"></a>모든 사용자 및 현재 사용자에 대 한 VSTO 추가 기능 등록
  VSTO 추가 기능을 설치할 때 두 가지 방법으로 등록할 수 있습니다.

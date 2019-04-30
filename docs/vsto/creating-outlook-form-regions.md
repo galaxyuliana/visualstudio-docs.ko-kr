@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ea3f72a26938a50cddbb622565173be603436ba3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: dc0f56331c11c6c33561774d38ef79e286a4133a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445577"
 ---
 # <a name="create-outlook-form-regions"></a>Outlook 양식 영역 만들기
   양식 영역을 사용하여 Microsoft Office Outlook 양식을 사용자 지정할 수 있습니다. Visual Studio는 양식 영역을 쉽게 디자인, 개발 및 디버그할 수 있도록 하는 고급 도구를 제공합니다.
@@ -90,7 +90,7 @@ ms.locfileid: "60092762"
 - Outlook 양식 저장 (*.ofs*) 파일입니다.
 
     > [!NOTE]
-    >  Outlook에서 디자인한 양식 영역을 가져오는 경우 이 파일만 프로젝트에 추가됩니다.
+    > Outlook에서 디자인한 양식 영역을 가져오는 경우 이 파일만 프로젝트에 추가됩니다.
 
 #### <a name="form-region-factory-class"></a>양식 영역 팩터리 클래스
  양식 영역 코드 파일에는 <xref:Microsoft.Office.Tools.Outlook.IFormRegionFactory> 인터페이스를 구현하는 partial 클래스가 포함되어 있습니다. 이는 양식 영역 팩터리 클래스입니다. 양식 영역 팩터리 클래스는 양식 영역의 새 인스턴스를 만듭니다.
@@ -110,7 +110,7 @@ ms.locfileid: "60092762"
  양식 영역 디자이너는 양식 영역의 모양과 레이아웃을 디자인하는 데 도움이 됩니다. 관리 되는 컨트롤 디자이너의 화면으로 끌어, 이벤트 처리기를 열고 컨트롤을 두 번 클릭 및에서 속성을 설정 합니다 **속성** 창입니다.
 
 > [!NOTE]
->  아래에 Outlook에서 양식 영역이 표시 되는 방식에 영향을 주는 속성을 찾을 수 있습니다 합니다 **매니페스트** 에서 노드를 **속성** 창입니다.
+> 아래에 Outlook에서 양식 영역이 표시 되는 방식에 영향을 주는 속성을 찾을 수 있습니다 합니다 **매니페스트** 에서 노드를 **속성** 창입니다.
 
  양식 영역 디자이너를 선택 하는 경우에 사용할 수 **새 양식 영역 디자인** 에 **양식 영역을 만드는 방법을 선택할** 페이지를 **새 Outlook 양식 영역** 마법사입니다.
 
@@ -138,7 +138,7 @@ ms.locfileid: "60092762"
  양식 영역 팩터리 클래스의 `InitializeManifest` 메서드에서 양식 영역 속성을 변경할 수 있습니다.
 
 > [!NOTE]
->  양식 영역을 가져오려면 개발 컴퓨터에 설치한 것과 동일한 버전의 Outlook을 대상으로 하는 프로젝트에서 작업해야 합니다. 예를 들어 Outlook 2010이 설치 된 경우 가져오기는 양식 영역 에서만 작동 프로젝트를 사용 하 여 만든 합니다 **Outlook 2010 추가 기능에** 프로젝트 템플릿.
+> 양식 영역을 가져오려면 개발 컴퓨터에 설치한 것과 동일한 버전의 Outlook을 대상으로 하는 프로젝트에서 작업해야 합니다. 예를 들어 Outlook 2010이 설치 된 경우 가져오기는 양식 영역 에서만 작동 프로젝트를 사용 하 여 만든 합니다 **Outlook 2010 추가 기능에** 프로젝트 템플릿.
 
 ### <a name="update-an-imported-form-regions-design"></a>가져온된 양식 영역을 디자인 업데이트
  양식 영역에서 컨트롤을 추가, 제거 또는 변경할 수 있습니다. 이 작업을 수행하기 전에 양식 영역 코드 파일에 추가한 코드를 모두 백업합니다. 그런 다음 엽니다는 *.ofs* Outlook 파일 양식 영역을 수정한 다음 변경 내용을 저장 합니다. 사용 된 **새 Outlook 양식 영역** 수정 된 가져오기 마법사 *.ofs* 파일입니다. 그런 다음 새 양식 영역 코드 파일에 코드를 붙여넣을 수 있습니다.

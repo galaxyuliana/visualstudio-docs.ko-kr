@@ -17,12 +17,12 @@ caps.latest.revision: 21
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: f24f63612b5d4dcb1c6a5a65e0ad38f8056cf842
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: d689b7b2a252b208ae578f9bfd95ab93777f7cc5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58159389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63385964"
 ---
 # <a name="iactivescriptpropertysetproperty"></a>IActiveScriptProperty::SetProperty
 매개 변수에 의해 지정 된 속성을 설정 합니다.  
@@ -76,7 +76,7 @@ HRESULT SetProperty(
  때 지원 되는 데 사용 되는 언어 기능의 집합을 선택 하 여 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 스크립팅 엔진을 초기화, 호출 `SetProperty` SCRIPTPROP_INVOKEVERSIONING에 대 한 사용으로 설정 하는 언어 기능에 해당 하는 값을 전달 합니다. 이 속성은 1 (SCRIPTLANGUAGEVERSION_5_7)로 설정 하는 경우 사용 가능한 언어 기능은 버전 5.7에에서 나타난 것과 동일 합니다 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 스크립팅 엔진입니다. 2 (SCRIPTLANGUAGEVERSION_5_8)로 설정 된 경우 사용 가능한 언어 기능은 버전 5.7 버전 5.8에에서 추가 된 새 기능 외에도 표시 된 것입니다. 기본적으로이 속성 값은 버전 5.7로 표시 된 언어 기능 집합을 호스트에서 다른 기본 동작을 지원 하지 않는 한 (SCRIPTLANGUAGEVERSION_DEFAULT) 0으로 설정 됩니다. 예를 들어, Internet Explorer 8 옵트인 하는 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 5.8 버전에서 지원 되는 언어 기능 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] Internet Explorer 8의 기본 문서 모드는 "Internet Explorer 8 표준" 모드가 될 때 기본적으로 스크립팅 엔진입니다. Internet Explorer 7 표준 문서 모드 Internet Explorer 8 또는 쿼크 모드 전환 다시 설정 합니다 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 5.7 버전에 존재 하는 언어 기능 집합만 지원 하기 위해 스크립팅 엔진 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 스크립팅 엔진입니다.  
   
 > [!NOTE]
->  SCRIPTPROP_INVOKEVERSIONING 경우에만 설정 해야 합니다 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 스크립팅 엔진을 초기화 하는 중입니다.  
+> SCRIPTPROP_INVOKEVERSIONING 경우에만 설정 해야 합니다 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 스크립팅 엔진을 초기화 하는 중입니다.  
   
 ## <a name="example"></a>예제  
  다음 예제에서는 정수 나누기를 사용 하 여 스크립팅 엔진이 하는 방법과 비교 함수의 오버 로드를 허용 하는 방법을 보여 줍니다.  

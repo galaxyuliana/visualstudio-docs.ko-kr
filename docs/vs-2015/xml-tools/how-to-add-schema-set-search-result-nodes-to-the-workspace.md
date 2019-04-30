@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2f14fb52294fc06340f0e179a324d21ec3ecbbb5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4fc312d4120ef8d1d0f2deb5acd3ce581e878570
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447118"
 ---
 # <a name="how-to-add-schema-set-search-result-nodes-to-the-workspace"></a>방법: 작업 영역에 스키마 집합 검색 결과 노드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60116824"
 이 항목에서는 작업 영역에서 키워드 검색을 수행한 결과로 XML 스키마 탐색기에서 강조 표시되는 노드를 추가하는 방법에 대해 설명합니다.  
   
 > [!NOTE]
->  전역 노드만 추가할 수는 [작업 영역](../xml-tools/xml-schema-designer-workspace.md)합니다.  
+> 전역 노드만 추가할 수는 [작업 영역](../xml-tools/xml-schema-designer-workspace.md)합니다.  
   
  이 예제에서는 샘플 [구매 주문 스키마](../xml-tools/sample-xsd-file-purchase-order-schema.md)합니다.  
   

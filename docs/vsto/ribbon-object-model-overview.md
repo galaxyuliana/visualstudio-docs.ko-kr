@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5958eb6fb8fd14dd510fa87d900efa76cb6f6a87
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 83f906ad9e5ded349250fe5324076527975c9bf6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446988"
 ---
 # <a name="ribbon-object-model-overview"></a>리본 개체 모델 개요
   [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 가져오고 런타임에 리본 컨트롤의 속성을 설정 하는 데 사용할 수 있는 강력한 형식의 개체 모델을 노출 합니다. 예를 들어 수 동적으로 메뉴 컨트롤을 채우는 또는 표시 하거나 숨길 수 컨트롤 컨텍스트. Office 응용 프로그램에서 리본 메뉴가 로드 되기 전에만 있지만 리본, 탭, 그룹 및 컨트롤도 추가할 수 있습니다. 정보를 참조 하세요 [읽기 전용이 되는 속성을 설정할](#SettingReadOnlyProperties)합니다.
@@ -130,7 +130,7 @@ ms.locfileid: "60040718"
  다음 표에서 리본 메뉴가 로드 되기 전에 설정할 수 있는 속성을 보여 줍니다.
 
 > [!NOTE]
->  언제 든 지 동적 메뉴의 컨트롤의 속성을 설정할 수 있습니다. 이 표에서 경우에 적용 되지 않습니다.
+> 언제 든 지 동적 메뉴의 컨트롤의 속성을 설정할 수 있습니다. 이 표에서 경우에 적용 되지 않습니다.
 
 |속성|리본 컨트롤 클래스|
 |--------------|--------------------------|
@@ -163,7 +163,7 @@ ms.locfileid: "60040718"
  리본 메뉴의 다른 인스턴스를 만들 때 다른 값으로 이러한 속성을 설정 하는 조건부 논리를 사용 하는 경우이 코드는 효과가 없습니다.
 
 > [!NOTE]
->  있는지 확인 합니다 **이름** Outlook 리본 메뉴에 추가한 각 컨트롤에 대 한 속성. 런타임 시 Outlook 리본 메뉴에 컨트롤을 추가 하는 경우 코드에서이 속성을 설정 해야 합니다. 디자인 타임에 Outlook 리본 메뉴에 컨트롤을 추가 하는 경우 이름 속성은 자동으로 설정 합니다.
+> 있는지 확인 합니다 **이름** Outlook 리본 메뉴에 추가한 각 컨트롤에 대 한 속성. 런타임 시 Outlook 리본 메뉴에 컨트롤을 추가 하는 경우 코드에서이 속성을 설정 해야 합니다. 디자인 타임에 Outlook 리본 메뉴에 컨트롤을 추가 하는 경우 이름 속성은 자동으로 설정 합니다.
 
 ## <a name="ribbon-control-events"></a>리본 컨트롤 이벤트
  각 컨트롤 클래스에는 하나 이상의 이벤트가 포함 됩니다. 다음 표에서 이러한 이벤트를 설명 합니다.

@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 27e1f1b923b395121fb5671088d99421a79c45fc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 90499ae5dadac705d759270996f647b2d1a65445
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406594"
 ---
 # <a name="how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api"></a>방법: ClickOnce 배포 API를 사용하여 프로그래밍 방식으로 애플리케이션 업데이트 확인
 ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 제공 합니다. 첫 번째 방법은 특정 간격에 따라 업데이트에 대 한 자동으로 확인 하도록 ClickOnce 배포를 구성할 수 있습니다. 두 번째 메서드를 사용 하는 코드를 작성할 수 있습니다는 <xref:System.Deployment.Application.ApplicationDeployment> 클래스 업데이트를 확인 하려면 사용자 요청과 같은 이벤트를 기반으로 합니다.
@@ -30,7 +30,7 @@ ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 �
  프로그래밍 방식으로 ClickOnce 응용 프로그램을 업데이트 하려면 업데이트의 위치를 지정 해야 합니다. 이 배포 공급자 라고도 합니다. 이 속성을 설정 하는 방법은 참조 하세요 [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)합니다.
 
 > [!NOTE]
->  또한 한 위치에서 응용 프로그램을 배포 하지만 다른 업데이트 아래에 설명 된 기법을 사용할 수 있습니다. 자세한 내용은 [방법: 배포 업데이트를 위한 대체 위치 지정](../deployment/how-to-specify-an-alternate-location-for-deployment-updates.md)을 참조하세요.
+> 또한 한 위치에서 응용 프로그램을 배포 하지만 다른 업데이트 아래에 설명 된 기법을 사용할 수 있습니다. 자세한 내용은 [방법: 배포 업데이트를 위한 대체 위치 지정](../deployment/how-to-specify-an-alternate-location-for-deployment-updates.md)을 참조하세요.
 
 ### <a name="to-check-for-updates-programmatically"></a>프로그래밍 방식으로 업데이트를 확인 하려면
 

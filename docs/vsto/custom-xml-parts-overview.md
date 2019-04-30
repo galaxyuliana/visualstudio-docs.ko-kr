@@ -23,12 +23,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 517cd2230430bf0758b729f50b1d947685aaf6be
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b94deacad38f40d76b4c8485186bfd563808d912
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445514"
 ---
 # <a name="custom-xml-parts-overview"></a>사용자 지정 XML 부분 개요
   일부 Microsoft Office 응용 프로그램에 대한 문서에 XML 데이터를 포함할 수 있습니다. 데이터 라는 문서에서 XML 데이터를 포함 하는 경우는 *사용자 지정 XML 부분*합니다.
@@ -38,7 +38,7 @@ ms.locfileid: "60052781"
  **적용 대상:** 이 항목의 정보는 Excel, PowerPoint 및 Word에 대 한 문서 수준 프로젝트 및 VSTO 추가 기능 프로젝트에 적용 됩니다. 자세한 내용은 [Office 응용 프로그램 및 프로젝트 형식으로 사용할 수 있는 기능](../vsto/features-available-by-office-application-and-project-type.md)합니다.
 
 > [!NOTE]
->  또한 visual Studio를 사용하여 문서 수준 사용자 지정에 데이터 개체를 캐시할 수 있습니다. 몇 가지 유사점은 있지만 이 기능은 사용자 지정 XML 부분과 다릅니다. 자세한 내용은 [문서 수준 사용자 지정에서 캐시 된 데이터](../vsto/cached-data-in-document-level-customizations.md)입니다.
+> 또한 visual Studio를 사용하여 문서 수준 사용자 지정에 데이터 개체를 캐시할 수 있습니다. 몇 가지 유사점은 있지만 이 기능은 사용자 지정 XML 부분과 다릅니다. 자세한 내용은 [문서 수준 사용자 지정에서 캐시 된 데이터](../vsto/cached-data-in-document-level-customizations.md)입니다.
 
 ## <a name="understand-custom-xml-parts"></a>사용자 지정 XML 부분 이해
  사용자 지정 XML 부분은 Open XML 형식과 함께 2007 Microsoft Office System에서 도입되었습니다. 이러한 형식은 Excel, PowerPoint 및 Word에 대 한 새 XML 기반 파일 형식 포함 (같은 *.xlsx*를 *.pptx*, 및 *.docx*). 이러한 형식의 문서 XML 파일의 구성 (라고도 *XML 부분*)는 ZIP 보관 파일을 폴더로 구성 됩니다. 대다수의 XML 부분은 문서의 구조 및 상태를 정의하는 데 도움이 되는 기본 제공 부분입니다. 그러나 문서에는 임의의 XML 데이터를 문서에 저장하는 데 사용할 수 있는 사용자 지정 XML 부분도 포함될 수 있습니다.
@@ -56,7 +56,7 @@ ms.locfileid: "60052781"
 - [Open XML 형식을 사용 하 여 Word 2007 문서 작성](/previous-versions/office/developer/office-2007/bb264572(v=office.12))
 
 > [!NOTE]
->  Excel, Word 및 PowerPoint를 통해 이진 파일 형식으로 저장된 문서에서 사용자 지정 XML 부분을 사용할 수 있습니다. 그러나 문서가 이진 형식으로 저장된 경우 Microsoft Office 응용 프로그램을 시작하지 않고 사용자 지정 XML 부분을 추가하거나 수정할 수 없습니다.
+> Excel, Word 및 PowerPoint를 통해 이진 파일 형식으로 저장된 문서에서 사용자 지정 XML 부분을 사용할 수 있습니다. 그러나 문서가 이진 형식으로 저장된 경우 Microsoft Office 응용 프로그램을 시작하지 않고 사용자 지정 XML 부분을 추가하거나 수정할 수 없습니다.
 
 ## <a name="create-and-modify-custom-xml-parts"></a>만들기 및 사용자 지정 XML 부분 수정
  문서가 Office 응용 프로그램에서 열려 있거나 문서가 닫혀 있는 경우 Microsoft Office가 설치되어 있지 않아도 사용자 지정 XML 부분을 만들거나 수정할 수 있습니다.

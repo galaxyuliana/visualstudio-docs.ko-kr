@@ -12,18 +12,18 @@ ms.assetid: b07e72c7-60d3-4b30-8e3f-6db83454c348
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6b5ea8cbdfa9644e103f32d49ea0964bbb90bad8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f13573cfecbd81f36e3b77e9b23beeaa558c08dc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444793"
 ---
 # <a name="evaluating-a-watch-window-expression"></a>조사식 창 식 계산
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 정보를 참조 하세요 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.  
+> Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 정보를 참조 하세요 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.  
   
  실행이 일시 중지 하면 Visual Studio 디버그 엔진 (DE) 해당 조사 목록에서 각 식의 현재 값을 확인 하려면를 호출 합니다. DE 각 식을 계산 하 여 식 계산기 (EE) 및 Visual Studio에서 해당 값을 표시 합니다 **조사식** 창입니다.  
   
@@ -47,7 +47,7 @@ ms.locfileid: "60075859"
  복잡 한 식을 구문 분석 하는 것은 평가 하는 것 보다 훨씬 더 오래 걸릴 수 있습니다, 되므로 식을 평가 하 여 프로세스 두 단계로 세분화 됩니다. 1) 구문 분석 된 식 및 2) 구문 분석된 된 식을 평가합니다. 이러한 방식으로 평가는 여러 번 나타날 수 있지만 식을 한 번만 구문 분석 해야 합니다. 중간 구문 분석 된 식에는 EE에서 반환 되는 [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) 에 캡슐화 되며으로 DE에서 반환 하는 개체를 [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) 개체입니다. 합니다 `IDebugExpression` 개체를 모두 평가 지연 합니다 `IDebugParsedExpression` 개체입니다.  
   
 > [!NOTE]
->  Visual Studio에서는이 가정 하는 경우에이 2 단계 프로세스를 준수 하는 EE 필요 없는 EE 구문 분석 하 고 동일한 단계에서 평가할 수 있습니다 때 [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) 호출 됩니다 (이것이 MyCEE 샘플의 작동 방법, 예를 들어). 언어 복잡 한 식을 형성 되는 경우에 평가 단계에서 구문 분석 단계를 구분 하는 것이 좋습니다. 여러 식을 조사할 때 Visual Studio 디버거 성능을 향상할 수 있습니다이 표시 됩니다.  
+> Visual Studio에서는이 가정 하는 경우에이 2 단계 프로세스를 준수 하는 EE 필요 없는 EE 구문 분석 하 고 동일한 단계에서 평가할 수 있습니다 때 [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) 호출 됩니다 (이것이 MyCEE 샘플의 작동 방법, 예를 들어). 언어 복잡 한 식을 형성 되는 경우에 평가 단계에서 구문 분석 단계를 구분 하는 것이 좋습니다. 여러 식을 조사할 때 Visual Studio 디버거 성능을 향상할 수 있습니다이 표시 됩니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [식 계산의 샘플 구현](../../extensibility/debugger/sample-implementation-of-expression-evaluation.md)  

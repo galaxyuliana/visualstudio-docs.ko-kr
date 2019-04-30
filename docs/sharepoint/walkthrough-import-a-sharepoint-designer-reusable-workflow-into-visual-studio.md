@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 702c671922d8ea7a1552504be062b7b31de16a09
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c7d1373339fac4768e2af1eda5770d5058ae8078
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60053938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446598"
 ---
 # <a name="walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio"></a>연습: Visual Studio에 SharePoint Designer의 재사용 가능한 워크플로 가져오기
   이 연습에서는 SharePoint Designer 2010에서 만든 재사용 가능한 워크플로 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 워크플로 프로젝트입니다.
@@ -124,7 +124,7 @@ ms.locfileid: "60053938"
  때문에 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 만 가져올 수 있습니다 *.wsp* 파일을 다시 사용할 수 있는 워크플로로 저장 해야 합니다는 *.wsp* 파일과로 가져오기 전에를 SharePoint에 배포할 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다.
 
 > [!IMPORTANT]
->  다음 절차를 수행 하는 런타임 오류가 발생 하는 경우 SharePoint 사이트에 액세스할 수 있는 시스템에서 절차를 수행 해야 합니다.
+> 다음 절차를 수행 하는 런타임 오류가 발생 하는 경우 SharePoint 사이트에 액세스할 수 있는 시스템에서 절차를 수행 해야 합니다.
 
 #### <a name="to-save-and-deploy-the-reusable-workflow"></a>저장 하 고 재사용 가능한 워크플로 배포
 
@@ -170,7 +170,7 @@ ms.locfileid: "60053938"
 6. 에 **새 프로젝트 소스 지정** 페이지에서 이전에 저장 된 시스템의 위치로 이동 합니다 *.wsp* 파일, 파일을 열고, 선택한를 **다음** 단추입니다.
 
    > [!NOTE]
-   >  선택는 **완료** 에서 사용 가능한 모든 항목을 가져오려는 단추를 *.wsp* 파일.
+   > 선택는 **완료** 에서 사용 가능한 모든 항목을 가져오려는 단추를 *.wsp* 파일.
 
     그러면 재사용 가능한 워크플로 가져오기에 사용할 수 있는 목록이 표시 됩니다.
 
@@ -256,7 +256,7 @@ ms.locfileid: "60053938"
 12. **새 워크플로 시작** 섹션에 대 한 링크를 선택 합니다 **SPD Workflow Test**를 선택한 후는 **시작** 워크플로 시작 하는 단추.
 
     > [!NOTE]
-    >  또는 하면 자동으로 연결할 수 워크플로 목록 사용 하 여 워크플로 설정 마법사를 실행 하 고 자동 연결 하는 워크플로 설정 합니다.
+    > 또는 하면 자동으로 연결할 수 워크플로 목록 사용 하 여 워크플로 설정 마법사를 실행 하 고 자동 연결 하는 워크플로 설정 합니다.
 
      두 작업 워크플로에 의해 수행 됩니다: 작업의 이름이 표시 **담당자** 열 및 공지 나타나는 합니다 **공지** 목록.
 

@@ -15,12 +15,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c2440f31b6a6ac345644e20e14b4a82972967fab
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d4bc6eeb208ab6d80168431f110f0f6169abbc82
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442145"
 ---
 # <a name="how-to-specify-additional-instrumentation-options"></a>방법: 추가 계측 옵션 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60104280"
 - [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!IMPORTANT]
->  삽입된 모든 프로브는 원래 프로그램의 동작을 약간 수정합니다. 이 수정으로 인해 분석 시 오버헤드가 발생합니다. 이 오버헤드의 근사치를 빼더라도 다중 스레드 애플리케이션의 타이밍에 약간의 영향을 미칩니다. [VSInstr](../profiling/vsinstr.md) 도구 옵션을 통해 프로파일링 중에 데이터 수집을 제어할 수 있습니다.  
+> 삽입된 모든 프로브는 원래 프로그램의 동작을 약간 수정합니다. 이 수정으로 인해 분석 시 오버헤드가 발생합니다. 이 오버헤드의 근사치를 빼더라도 다중 스레드 애플리케이션의 타이밍에 약간의 영향을 미칩니다. [VSInstr](../profiling/vsinstr.md) 도구 옵션을 통해 프로파일링 중에 데이터 수집을 제어할 수 있습니다.  
   
 ### <a name="to-specify-additional-instrumentation-option"></a>추가적인 계측 옵션을 지정하려면  
   

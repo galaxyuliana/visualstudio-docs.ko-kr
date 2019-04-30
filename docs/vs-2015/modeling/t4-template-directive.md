@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 71d7dc0fc208fa3c108019f6324c3d053673e918
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 252b554542df23e2d3197dfe28100546a6d25b32
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411459"
 ---
 # <a name="t4-template-directive"></a>T4 템플릿 지시문
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -212,7 +212,7 @@ This is the common footer.
  직접 작성한 일반 클래스를 기본 클래스로 사용할 수도 있습니다. 기본 클래스는 파생 클래스에 사용되는 메서드를 제공합니다.  
   
 > [!WARNING]
->  `inherits`와 `hostspecific` 특성을 함께 사용하는 경우, 파생 클래스에 hostspecific="trueFromBase"를 지정하고 기본 클래스에는 host="true"를 지정하십시오. 이렇게 하면 생성된 코드에서 `Host` 속성의 이중 정의를 피할 수 있습니다.  
+> `inherits`와 `hostspecific` 특성을 함께 사용하는 경우, 파생 클래스에 hostspecific="trueFromBase"를 지정하고 기본 클래스에는 host="true"를 지정하십시오. 이렇게 하면 생성된 코드에서 `Host` 속성의 이중 정의를 피할 수 있습니다.  
   
 ### <a name="inheritance-in-a-design-time-text-template"></a>디자인 타임 텍스트 템플릿의 상속  
  디자인 타임 텍스트 템플릿에서는 파일이 **사용자 지정 도구** 로 설정 된 **TextTemplatingFileGenerator**합니다. 이 템플릿에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트의 일부를 구성하는 코드 또는 텍스트의 출력 파일을 생성합니다. 출력 파일을 생성하기 위해 먼저 템플릿이 중간 프로그램 코드 파일로 변환되며, 대개 이 파일은 보이지 않습니다. `inherits` 특성은 이 중간 코드를 위한 기본 클래스를 지정합니다.  

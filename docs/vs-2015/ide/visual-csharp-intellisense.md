@@ -13,12 +13,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ea48e1807291e935081f01e821cffafa794104f5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8de573e8d5f46988868f18114fdabb07f62690e0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443171"
 ---
 # <a name="visual-c-intellisense"></a>Visual C# IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ Visual C# IntelliSense는 편집기에서 코딩할 때와 [직접 실행 모드
  Visual C#의 완성 목록에는 범위에 속한 확장명 메서드가 포함되어 있습니다.  
   
 > [!NOTE]
->  완성 목록에 <xref:System.String> 개체의 모든 확장 메서드가 표시되지는 않습니다.  
+> 완성 목록에 <xref:System.String> 개체의 모든 확장 메서드가 표시되지는 않습니다.  
   
  확장명 메서드는 인스턴스 메서드와 다른 아이콘을 사용합니다. 목록 아이콘의 목록은 [클래스 뷰 및 개체 브라우저 아이콘](../ide/class-view-and-object-browser-icons.md)을 참조하세요. 인스턴스 메서드와 확장명 메서드가 이름이 같고 둘 다 범위에 속할 경우 완성 목록에는 확장명 메서드 아이콘이 표시됩니다.  
   
@@ -148,12 +148,12 @@ Visual C# IntelliSense는 편집기에서 코딩할 때와 [직접 실행 모드
  ![이벤트 처리기 생성](../ide/media/vxgenerateeventhandler.gif "vxGenerateEventHandler")  
   
 > [!NOTE]
->  IntelliSense에 의해 만들어진 새 대리자가 기존 이벤트 처리기를 참조하는 경우 IntelliSense는 도구 설명에 이 정보를 전달합니다. 이 참조는 수정할 수 있습니다. 텍스트가 코드 편집기에서 이미 선택되어 있습니다. 그렇지 않은 경우에는 자동 이벤트 연결이 이 시점에서 완료됩니다.  
+> IntelliSense에 의해 만들어진 새 대리자가 기존 이벤트 처리기를 참조하는 경우 IntelliSense는 도구 설명에 이 정보를 전달합니다. 이 참조는 수정할 수 있습니다. 텍스트가 코드 편집기에서 이미 선택되어 있습니다. 그렇지 않은 경우에는 자동 이벤트 연결이 이 시점에서 완료됩니다.  
   
  Tab 키를 누르는 경우 IntelliSense에서 올바른 서명으로 메서드가 스텁 아웃되고 이벤트 처리기의 본문에 커서가 위치합니다.  
   
 > [!NOTE]
->  이벤트 연결 문으로 돌아가려면 **보기** 메뉴에서 **뒤로 탐색** 명령(Ctrl+-)을 사용합니다.  
+> 이벤트 연결 문으로 돌아가려면 **보기** 메뉴에서 **뒤로 탐색** 명령(Ctrl+-)을 사용합니다.  
   
  다음 작업에서는 IntelliSense가 `button1_Click` 이벤트 처리기를 `button1.Click` 이벤트 필드에 자동으로 연결하는 방식을 보여 줍니다.  
   

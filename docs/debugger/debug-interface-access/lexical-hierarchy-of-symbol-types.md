@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a92f3f8f5174717b3fe3e992706a0f16478f99df
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: f4b2e6fc0b24cc96f617e7b78c6bdcc59ddc5c0d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63399373"
 ---
 # <a name="lexical-hierarchy-of-symbol-types"></a>기호 형식의 어휘 계층 구조
 다음 표에서 어휘 계층 구조에서 기호 형식을 보여 줍니다.
@@ -43,7 +43,7 @@ ms.locfileid: "56612805"
 |[UsingNameSpace](../../debugger/debug-interface-access/usingnamespace.md)|지정 된 `namespace`식별자입니다.|
 
 > [!NOTE]
->  추가 기호 속성 기호 형식에 따라 사용할 수 있습니다. 이러한 속성은 개별 기호 항목에 나열 됩니다.
+> 추가 기호 속성 기호 형식에 따라 사용할 수 있습니다. 이러한 속성은 개별 기호 항목에 나열 됩니다.
 
 ## <a name="see-also"></a>참고 항목
 - [기호 형식의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1c1596213b618ba67cd4bf1406f63c0754fd9b96
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 38312384c3e6ce51aa1b5b0b16df378286fc58b0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56619318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443589"
 ---
 # <a name="how-to-add-a-creator-method"></a>방법: Creator 메서드 추가
   Creator 메서드는 엔터티의 데이터 원본에 새 데이터를 추가합니다. 데이터 연결 (BDC (비즈니스)를 선택한 경우이 메서드를 호출 합니다 **새 항목** 단추를 **리본** 모델을 기반으로 하는 목록입니다. 자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.
@@ -58,7 +58,7 @@ ms.locfileid: "56619318"
 5. 데이터 원본에 데이터를 추가 하는 작성자 메서드에 코드를 추가 합니다. 다음 예제에서는 SQL Server에 대 한 AdventureWorks 예제 데이터베이스에 연락처를 추가합니다.
 
    > [!NOTE]
-   >  값을 `ServerName` 필드 서버의 이름입니다.
+   > 값을 `ServerName` 필드 서버의 이름입니다.
 
     [!code-csharp[SP_BDC#4](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#4)]
     [!code-vb[SP_BDC#4](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#4)]

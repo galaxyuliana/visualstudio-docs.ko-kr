@@ -11,12 +11,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1c71becfb04115faefe88d5018c238ead38e4c88
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: c619ae6efd1de48319bf9c0398ee8ab4e3cd57ee
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442963"
 ---
 # <a name="edit-uml-sequence-diagrams-by-using-the-uml-api"></a>UML API를 사용하여 UML 시퀀스 다이어그램 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +75,7 @@ public class MySequenceDiagramCommand : ICommandExtension
  시퀀스 다이어그램에는 UML 모델링 프로젝트에서 수동으로 만든 다이어그램과 프로그램 코드에서 생성된 다이어그램의 두 종류가 있습니다. `UmlMode` 속성을 사용하여 보유한 시퀀스 다이어그램을 검색합니다.  
   
 > [!NOTE]
->  이 속성은 Visual Studio 2013 이전 버전을 사용하여 코드에서 생성된 시퀀스 다이어그램에 대해서만 false를 반환합니다. 여기에는 2013 이전 버전에서 마이그레이션된, 코드에서 생성된 시퀀스 다이어그램이 포함됩니다. 이 버전의 Visual Studio에서는 새 시퀀스 다이어그램 생성을 지원하지 않습니다.  
+> 이 속성은 Visual Studio 2013 이전 버전을 사용하여 코드에서 생성된 시퀀스 다이어그램에 대해서만 false를 반환합니다. 여기에는 2013 이전 버전에서 마이그레이션된, 코드에서 생성된 시퀀스 다이어그램이 포함됩니다. 이 버전의 Visual Studio에서는 새 시퀀스 다이어그램 생성을 지원하지 않습니다.  
   
  예를 들어 UML 시퀀스 다이어그램에만 표시되는 메뉴 명령을 만들려는 경우 `QueryStatus()` 메서드에 다음 문을 포함할 수 있습니다.  
   

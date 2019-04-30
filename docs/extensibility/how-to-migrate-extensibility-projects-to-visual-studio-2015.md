@@ -10,18 +10,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2b7bda175575cf1d48e2f0970bf8202a8041fd16
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1fc518281880923f92caf5c517254dc424b49b5c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415288"
 ---
 # <a name="how-to-migrate-extensibility-projects-to-visual-studio-2015"></a>방법: Visual Studio 2015로 확장성 프로젝트 마이그레이션
 확장 프로그램을 업그레이드 하는 방법을 다음과 같습니다.
 
 > [!IMPORTANT]
->  Visual Studio의 이전 버전에 대 한 확장 솔루션의 버전을 유지 하려는 경우 업그레이드 전에 복사본을 확인 해야 합니다. 업그레이드 된 버전 이전 상태로 돌아갑니다 어려울 수 있습니다.
+> Visual Studio의 이전 버전에 대 한 확장 솔루션의 버전을 유지 하려는 경우 업그레이드 전에 복사본을 확인 해야 합니다. 업그레이드 된 버전 이전 상태로 돌아갑니다 어려울 수 있습니다.
 
 ### <a name="to-upgrade-an-extensibility-solution"></a>확장성 솔루션을 업그레이드 하려면
 
@@ -52,4 +52,4 @@ ms.locfileid: "60072802"
 5. NuGet 버전의 VS SDK 빌드 도구를 사용 하 여 전환할 수 있습니다. 이 NuGet 패키지는 [Microsoft.VSSDK.BuildTools](http://www.nuget.org/packages/Microsoft.VSSDK.BuildTools) 한 번에 추가 하 고 프로젝트에 필요한 도구가 포함 되며 대상 컴퓨터에서 VS SDK를 설치 하지 않고 확장성 프로젝트를 빌드할 수 있도록 파일입니다.
 
 > [!NOTE]
->  없는 NuGet 참조 어셈블리 및 도구를 사용 하도록 기존 확장성 프로젝트를 업데이트 하는 필수입니다.  참조 어셈블리 및 VS SDK를 사용 하 여 설치 된 도구를 사용 하 여 빌드를 계속 수 있습니다.
+> 없는 NuGet 참조 어셈블리 및 도구를 사용 하도록 기존 확장성 프로젝트를 업데이트 하는 필수입니다.  참조 어셈블리 및 VS SDK를 사용 하 여 설치 된 도구를 사용 하 여 빌드를 계속 수 있습니다.

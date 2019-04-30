@@ -6,12 +6,12 @@ ms.assetid: e970d936-1df4-4c0c-96e3-ef6191295882
 caps.latest.revision: 14
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 346cc2b68193a72d532ba0542cc406e4afa75234
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d709dc2b5262f4fbad341b0b77d45a90b138ed6f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443990"
 ---
 # <a name="learn-about-mobile-development-with-xamarin"></a>Xamarin을 사용한 모바일 개발에 대해 알아보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -19,9 +19,9 @@ ms.locfileid: "60097390"
 이 항목에서는 Xamarin을 사용한 플랫폼 간 모바일 앱 개발을 이해하는 데 도움되는 개요 자료를 안내합니다. 아직 Visual Studio 및 Xamarin을 설치하지 않았으면 먼저 [Setup and install](../cross-platform/setup-and-install.md) 프로세스를 시작하고 여기로 돌아와서 설치 관리자가 실행되는 동안 이러한 리소스를 살펴봅니다.  
   
 > [!NOTE]
->  별도로 명시되지 않는 한 처음에는 부수적인 페이지가 아닌 여기에 직접 연결된 페이지만 읽는 것이 좋습니다. 이 목록이 완료된 후에도 설치 프로세스가 계속 실행 중이면 돌아가서 추가 항목을 살펴볼 수 있습니다.  
+> 별도로 명시되지 않는 한 처음에는 부수적인 페이지가 아닌 여기에 직접 연결된 페이지만 읽는 것이 좋습니다. 이 목록이 완료된 후에도 설치 프로세스가 계속 실행 중이면 돌아가서 추가 항목을 살펴볼 수 있습니다.  
 >   
->  또한 "주요 사항"으로 표시된 항목을 자유롭게 검토한 후 나중에 "심층 분석" 항목을 확인합니다.  
+> 또한 "주요 사항"으로 표시된 항목을 자유롭게 검토한 후 나중에 "심층 분석" 항목을 확인합니다.  
   
 ## <a name="essentials-introduction-to-xamarin"></a>주요 사항: Xamarin 소개  
  *10~20분*  

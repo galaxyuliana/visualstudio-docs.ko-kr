@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 0140a99ffc375fc21f04e3981a5368923da162b4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986446"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63008001"
 ---
 # <a name="migration-activity-designers"></a>마이그레이션 활동 디자이너
 마이그레이션 활동 디자이너는 [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)]을 대상으로 하는 워크플로에서 워크플로 3.0/3.5 활동을 호출하는 데 사용됩니다. 이 단원의 항목에서는 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 활동 디자이너의 사용 방법에 대한 지침을 제공합니다.  

@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a4c170b533b1eadb60be2ec1ca5d5fe000c5b4d6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 76a45297062b42b559f07867b20bdadac79cc082
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386853"
 ---
 # <a name="how-to-view-and-edit-code-by-using-peek-definition-altf12"></a>방법: 코드 보기 및 편집 피킹 (Alt + f12 키)를 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "60055733"
  **정의 피킹(Peeking)** 은 C#, Visual Basic 및 C++ 코드에서 사용할 수 있습니다. Visual Basic에서 **정의 피킹(Peeking)** 은 정의 메타데이터가 없는 기호에 대한 **개체 브라우저** 링크를 보여 줍니다(예: 기본 제공되는 .NET Framework 형식).  
   
 > [!IMPORTANT]
->  이 명령은 Visual Studio 2013 Express 버전에서 사용할 수 없습니다.  
+> 이 명령은 Visual Studio 2013 Express 버전에서 사용할 수 없습니다.  
   
 ## <a name="working-with-peek-definition"></a>정의 피킹(Peeking)으로 작업  
   
@@ -76,7 +76,7 @@ ms.locfileid: "60055733"
     |코드 편집기 창 또는 정의 창으로 전환|Shift+Esc|  
   
     > [!NOTE]
-    >  **정의 피킹(Peeking)** 창에서 코드를 편집하기 위해 Visual Studio의 다른 위치에서 사용할 때와 같은 바로 가기 키를 사용할 수도 있습니다.  
+    > **정의 피킹(Peeking)** 창에서 코드를 편집하기 위해 Visual Studio의 다른 위치에서 사용할 때와 같은 바로 가기 키를 사용할 수도 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [생산성 팁](../ide/productivity-tips-for-visual-studio.md)

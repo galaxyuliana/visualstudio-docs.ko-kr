@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 62f6847e03484838f232a9b64f392ca0938f213d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 33e5dbeced93ddfd1a1eec817d205a7be80d0e60
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441893"
 ---
 # <a name="network-usage"></a>네트워크 사용량
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ Visual Studio **네트워크** 진단 도구는 [Windows.Web.Http API](https://m
  네트워크 도구는 Windows 유니버설 플랫폼 앱만 지원합니다. 지금은 다른 플랫폼이 지원되지 않습니다.  
   
 > [!NOTE]
->  네트워크 도구에 대한 자세한 설명은 [Visual Studio 네트워크 도구 소개](http://blogs.msdn.com/b/visualstudio/archive/2015/05/04/introducing-visual-studio-s-network-tool.aspx)를 참조하세요.  
+> 네트워크 도구에 대한 자세한 설명은 [Visual Studio 네트워크 도구 소개](http://blogs.msdn.com/b/visualstudio/archive/2015/05/04/introducing-visual-studio-s-network-tool.aspx)를 참조하세요.  
   
 ## <a name="collecting-network-tool-data"></a>네트워크 도구 데이터 수집  
  Visual Studio가 설치된 컴퓨터에 열려 있는 Visual Studio 프로젝트로 **네트워크** 도구를 실행해야 합니다.  

@@ -10,12 +10,12 @@ ms.assetid: 69e8f78e-bcf1-46cb-8866-7de37d134997
 caps.latest.revision: 28
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6f2ed846e8644f5f6e391d9c850016721186021e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 0f8ac7b6cea0896c597dc46b8b5edd7072069840
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386028"
 ---
 # <a name="modifying-the-isolated-shell-by-using-the-pkgdef-file"></a>사용 하 여 격리 셸 수정 합니다. Pkgdef 파일
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,7 +23,7 @@ ms.locfileid: "59663968"
 .Pkgdef 파일에는 격리 셸 응용 프로그램을 사용자 지정 하는 데 사용할 수 있는 설정을 지원 합니다. 응용 프로그램이 컴퓨터에 설치 되 고 응용 프로그램을 시작 하는 경우 Visual Studio shell에서 참조 되는 경우 생성 되는 값을 지정 합니다. 설정은 해당 레지스트리 키를 기준으로 파일에 구성 됩니다.  
 
 > [!WARNING]
->  Visual Studio를 시작 하는 경우 VSPackage의.vsixmanifest 파일에서 선언 되지 않은.pkgdef 파일이 검색 되지 않습니다 note 합니다.  
+> Visual Studio를 시작 하는 경우 VSPackage의.vsixmanifest 파일에서 선언 되지 않은.pkgdef 파일이 검색 되지 않습니다 note 합니다.  
 
  .Pkgdef 파일에는 식별 되는 각 키로 하거나 섹션이 포함 되어 있습니다. `[$RootKey$]` 나 `[$RootKey$\` *하위 키*`]`을 $RootKey$ 응용 프로그램에 대 한 루트 키입니다.  
 
@@ -53,7 +53,7 @@ ms.locfileid: "59663968"
  다음 섹션에서는 Visual Studio shell 격리 모드에서의 동작에 영향을 주는 특정 레지스트리 값을 설명 합니다. 또한이 파일에 응용 프로그램에 대 한 추가 레지스트리 값을 정의할 수 있습니다.  
 
 > [!NOTE]
->  .Pkgdef 파일에서 설정을 제공 하지 않으면 해당 항목이 레지스트리에 이루어집니다.  
+> .Pkgdef 파일에서 설정을 제공 하지 않으면 해당 항목이 레지스트리에 이루어집니다.  
 
 ## <a name="settings"></a>설정  
  다음 표에서 [$RootKey$] 아래에 정의 된 값을 보여 줍니다.  

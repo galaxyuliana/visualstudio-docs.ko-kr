@@ -13,18 +13,18 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 26403a168268e817644637544d64d4205c398b75
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 42f92cfe9245a5e3a6342c31fc996ae2db50ef70
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443704"
 ---
 # <a name="iwebappdiagnosticssetupcreateobjectwithsiteatwebapp"></a>IWebAppDiagnosticsSetup::CreateObjectWithSiteAtWebApp
 이 메서드는 클래스에 전달 하면 해당 ID를 만듭니다 공동 `rclsid` 를 사용 하는 `dwClsContext`합니다. 이 방식과 유사 하 게 [IRemoteDebugApplication::CreateInstanceAtApplication](../../winscript/reference/iremotedebugapplication-createinstanceatapplication.md) 의 경우는 제외 하 고 작동 `CreateObjectWithSiteAtWebApp` 개체는 웹 응용 프로그램의 UI 스레드에서 비동기적으로 생성 됩니다. 클래스 ID에서 지정한 개체를 구현 해야 [IWebAppDiagnosticsObjectInitialization 인터페이스](../../winscript/reference/iwebappdiagnosticsobjectinitialization-interface.md)합니다. 개체를 만든 후 [IWebAppDiagnosticsObjectInitialization::Initialize](../../winscript/reference/iwebappdiagnosticsobjectinitialization-initialize.md) PDM 디버그 응용 프로그램에 대 한 참조를 사용 하 여 라고 하며 `hPassToObject` 의 매개 변수 `CreateObjectWithSiteAtWebApp`합니다. 이 메서드를 사용 하 여 전달할 앱에 대 한 핸들을 사용 하 여 복사 된 익명 파이프 [DuplicateHandle](http://go.microsoft.com/fwlink/?LinkId=232450)합니다.  
   
 > [!IMPORTANT]
->  [IWebAppDiagnosticsSetup 인터페이스](../../winscript/reference/iwebappdiagnosticssetup-interface.md) 는 PDM v11.0에 의해 구현 된 이상. activdbg100.h에서 찾을 수 있습니다.  
+> [IWebAppDiagnosticsSetup 인터페이스](../../winscript/reference/iwebappdiagnosticssetup-interface.md) 는 PDM v11.0에 의해 구현 된 이상. activdbg100.h에서 찾을 수 있습니다.  
   
 ## <a name="syntax"></a>구문  
   

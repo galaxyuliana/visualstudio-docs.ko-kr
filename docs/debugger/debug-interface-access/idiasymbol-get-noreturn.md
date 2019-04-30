@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4cd768220b25ec93ffdb4f038db475304db71333
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 0857939289091d22aaafb5dc5bb009d4af0e00bb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56605538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63399328"
 ---
 # <a name="idiasymbolgetnoreturn"></a>IDiaSymbol::get_noReturn
 함수를 사용 하 여 반환 되지 표시 되었는지 여부를 지정 하는 플래그를 검색 합니다 [noreturn](/cpp/cpp/noreturn) 특성입니다.
@@ -39,7 +39,7 @@ HRESULT get_noReturn(
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
 ## <a name="requirements"></a>요구 사항
 

@@ -12,12 +12,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bc878a7f4469d7f8ef8bf61d0d5f3b721f39b7e1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6d779294f991786f90faf8dd1de756749b6baffc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444172"
 ---
 # <a name="how-to-create-workflow-projects-legacy"></a>방법: 워크플로 프로젝트 만들기(레거시)
 [!INCLUDE[wf](../includes/wf-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] 프로젝트를 만들려면 다음 단계를 따릅니다. 이 절차에서는 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에서 제공하는 레거시 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용합니다.  
@@ -33,7 +33,7 @@ ms.locfileid: "60117748"
 3. 중 하나를 선택 합니다 **.NET Framework 3.0** 옵션 또는 **.NET Framework 3.5** 목록 맨 위에 있는 드롭다운에서 옵션을 **새 프로젝트** 레거시 디자이너에 액세스 하려면 창입니다.  
   
     > [!NOTE]
-    >  기본 옵션 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 됩니다 **.NET Framework 4**합니다. 이 옵션은 [!INCLUDE[wf](../includes/wf-md.md)]을 대상으로 하는 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 응용 프로그램을 만드는 데 사용합니다.  
+    > 기본 옵션 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 됩니다 **.NET Framework 4**합니다. 이 옵션은 [!INCLUDE[wf](../includes/wf-md.md)]을 대상으로 하는 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 응용 프로그램을 만드는 데 사용합니다.  
   
 4. 에 **프로젝트 형식** 창, Visual C# 프로젝트나 Visual Basic 프로젝트를 선택 하 고 선택한 **워크플로**합니다.  
   

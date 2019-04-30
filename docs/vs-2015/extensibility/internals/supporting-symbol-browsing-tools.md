@@ -18,12 +18,12 @@ ms.assetid: 70d8c9e5-4b0b-4a69-b3b3-90f36debe880
 caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6ec67fd4746fbe935d93b58de0bf445c8a6d63e2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 5b85e8bf500364587af4c3891d7d39f069af9953
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441213"
 ---
 # <a name="supporting-symbol-browsing-tools"></a>기호 검색 도구 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ ms.locfileid: "58986029"
  합니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] manager 호출은 개체는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetExpandable3%2A> 경우 지정 된 목록 항목을 확장할 수 있고 자식 항목을 확인 하는 방법입니다. 개체 관리자를 호출 하 여 기호의 자식 목록 요청 UI 요소를 확장 하는 요청을 보내는 경우를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetList2%2A> 메서드. 필요에 따라 빌드되는 트리의 다른 부분을 사용 하 여 프로세스가 계속 됩니다.  
   
 > [!NOTE]
->  네이티브 코드 기호 공급자를 구현 하려면 사용 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsLibrary2> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> 인터페이스입니다.  
+> 네이티브 코드 기호 공급자를 구현 하려면 사용 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsLibrary2> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> 인터페이스입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 개체 관리자에 라이브러리 등록](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)   

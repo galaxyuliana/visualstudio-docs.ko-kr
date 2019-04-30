@@ -12,18 +12,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 32e571f46b30e4f54322fc0138ebfc9b27e3753a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 3e13233950940c01c758a0faf07611c1426475e8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709007"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412681"
 ---
 # <a name="idebugproperty2"></a>IDebugProperty2
 이 인터페이스는 스택 프레임 속성, 프로그램 문서 속성 또는 다른 일부 속성을 나타냅니다. 속성은 일반적으로 식 평가의 결과입니다.
 
 > [!NOTE]
->  "Property"이이 사용 해야 혼동 하지 해당 클래스의 멤버 변수 의미 하지만 `IDebugProperty2` 이러한 엔터티를 나타낼 수 있습니다.
+> "Property"이이 사용 해야 혼동 하지 해당 클래스의 멤버 변수 의미 하지만 `IDebugProperty2` 이러한 엔터티를 나타낼 수 있습니다.
 
 ## <a name="syntax"></a>구문
 

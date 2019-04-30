@@ -12,12 +12,12 @@ caps.latest.revision: 42
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: da7b1f1bda7fac222d0d47c6bf2a15eaf3a8396f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fa3a91df779094e3e11722dfc7bfc03c58bcea7e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63383415"
 ---
 # <a name="walkthrough-configuring-and-using-a-custom-rule-set"></a>연습: 사용자 지정 규칙 세트 구성 및 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,7 +70,7 @@ ms.locfileid: "60052066"
     파일 메뉴에서 클릭 **선택한 항목 저장** 선택한 규칙 집합에 대 한 정보 및 해당 설정을 사용 하 여 프로젝트 파일을 업데이트 합니다.  
   
    > [!TIP]
-   >  실제 상황에서는 코드 분석을 사용 하 여 대상으로 하려는 하는 문제를 우선 순위 지정에 대 한 사용 하는 것이 좋습니다는 시작 하는 **최소 권장 규칙** 규칙 집합에서 원하는 문제를 해결 하 고 다음 증분 방식으로 추가 규칙 또는 규칙을 찾고 추가 문제 해결 설정 합니다.  
+   > 실제 상황에서는 코드 분석을 사용 하 여 대상으로 하려는 하는 문제를 우선 순위 지정에 대 한 사용 하는 것이 좋습니다는 시작 하는 **최소 권장 규칙** 규칙 집합에서 원하는 문제를 해결 하 고 다음 증분 방식으로 추가 규칙 또는 규칙을 찾고 추가 문제 해결 설정 합니다.  
   
    다음으로, 일부 코드를 CA1704 위반을 보여 주기 위해 사용 되는 클래스 라이브러리에 추가 "식별자는 정확한 철자 를" 코드 분석 규칙. 자세한 내용은 참조 하세요. [CA1704: 식별자에는 정확한 철자를 사용 해야](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md)합니다.  
   

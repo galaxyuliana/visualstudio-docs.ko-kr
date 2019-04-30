@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9c4c8cea0b29994bb880dd0d93832da0e875cc56
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e8a0b51a9fbfb009087e0cd5600d9c480c8d433b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60115603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386795"
 ---
 # <a name="how-to-configure-inheritance-by-using-the-or-designer"></a>방법: O/R 디자이너를 사용하여 상속 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,12 +36,12 @@ ms.locfileid: "60115603"
 4. **도구 상자**의 **개체 관계형 디자이너** 탭에서 **상속**을 클릭한 다음, 서브클래스(이름을 바꾼 테이블)를 클릭하고 이를 기본 클래스에 연결합니다.  
   
     > [!NOTE]
-    >  **도구 상자**에서 **상속** 항목을 클릭한 다음, 마우스 단추를 놓고 3단계에서 만든 클래스의 두 번째 복사본을 클릭한 다음, 2단계에서 만든 첫 번째 클래스를 클릭합니다. 상속 선의 화살표가 첫 번째 클래스를 가리킵니다.  
+    > **도구 상자**에서 **상속** 항목을 클릭한 다음, 마우스 단추를 놓고 3단계에서 만든 클래스의 두 번째 복사본을 클릭한 다음, 2단계에서 만든 첫 번째 클래스를 클릭합니다. 상속 선의 화살표가 첫 번째 클래스를 가리킵니다.  
   
 5. 각 클래스에서 연결에 사용되지 않으므로 표시하지 않을 개체 속성을 모두 삭제합니다. 연결에 사용 되는 개체 속성을 삭제 하려고 하면 오류가 나타납니다. [속성 \<속성 이름 > 연결에 참여 하 고 있으므로 삭제할 수 없습니다 \<연결 이름 >](../data-tools/the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md)합니다.  
   
     > [!NOTE]
-    >  파생 클래스는 기본 클래스에 정의된 속성을 상속하므로 각 클래스에 동일한 열은 정의할 수 없습니다. 열은 속성으로 구현됩니다. 기본 클래스의 속성에서 상속 한정자를 설정함으로써 파생 클래스에서 열을 만들 수 있습니다. 자세한 내용은 참조 하세요. [빌드에 없음: 속성 및 메서드 재정의](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)합니다.  
+    > 파생 클래스는 기본 클래스에 정의된 속성을 상속하므로 각 클래스에 동일한 열은 정의할 수 없습니다. 열은 속성으로 구현됩니다. 기본 클래스의 속성에서 상속 한정자를 설정함으로써 파생 클래스에서 열을 만들 수 있습니다. 자세한 내용은 참조 하세요. [빌드에 없음: 속성 및 메서드 재정의](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)합니다.  
   
 6. [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서 상속 선을 선택합니다.  
   

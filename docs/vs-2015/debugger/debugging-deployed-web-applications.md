@@ -21,12 +21,12 @@ caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d7b7a95af1922f5ad57d15fb53dcba561a9f139e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 9608643801255d6c2cbf278cbfd96908f1f3911d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444080"
 ---
 # <a name="debugging-deployed-web-applications"></a>배포된 웹 응용 프로그램 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "58986125"
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 사용하여 배포된 응용 프로그램을 디버깅하려면 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스에 연결하고 디버거에서 해당 응용 프로그램에 대한 기호에 액세스할 수 있는지 확인해야 합니다. 또한 해당 응용 프로그램의 소스 파일도 찾아서 열어야 합니다. 자세한 내용은 [지정할 기호 (.pdb) 및 소스 파일](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md), [방법: ASP.NET 프로세스의 이름을 찾으려면](../debugger/how-to-find-the-name-of-the-aspnet-process.md), 및 [시스템 요구 사항](../debugger/aspnet-debugging-system-requirements.md)합니다.  
   
 > [!NOTE]
->  대부분의 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 응용 프로그램에서는 비즈니스 논리나 다른 유용한 코드가 포함된 DLL을 참조합니다. 참조되는 이러한 DLL은 로컬 컴퓨터에서 해당 웹 응용 프로그램의 가상 디렉터리에 있는 \bin 폴더로 자동 복사됩니다. 디버깅하는 경우 웹 응용 프로그램이 로컬 컴퓨터에 있는 DLL 복사본이 아니라 가상 디렉터리에 있는 DLL 복사본을 참조한다는 점에 주의합니다.  
+> 대부분의 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 응용 프로그램에서는 비즈니스 논리나 다른 유용한 코드가 포함된 DLL을 참조합니다. 참조되는 이러한 DLL은 로컬 컴퓨터에서 해당 웹 응용 프로그램의 가상 디렉터리에 있는 \bin 폴더로 자동 복사됩니다. 디버깅하는 경우 웹 응용 프로그램이 로컬 컴퓨터에 있는 DLL 복사본이 아니라 가상 디렉터리에 있는 DLL 복사본을 참조한다는 점에 주의합니다.  
   
  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스에 연결하는 프로세스는 다른 모든 원격 프로세스에 연결하는 방법과 동일합니다. 연결된 상태에서 적절한 프로젝트가 열려 있지 않으면 애플리케이션이 중단될 때 대화 상자가 표시됩니다. 이 대화 상자에는 응용 프로그램의 소스 파일 위치를 지정하라는 메시지가 표시됩니다. 대화 상자에서 지정한 파일 이름은 웹 서버에 있는 디버그 기호에 지정한 파일 이름과 일치해야 합니다. 자세한 내용은 [실행 중인 프로세스에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)합니다.  
   

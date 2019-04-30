@@ -9,12 +9,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 59bdcbd3cefe185a8809e471be22f00ea2478857
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d6833e9735aa6a360ce0642e991bd019df347d16
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442503"
 ---
 # <a name="step-6-add-a-timer"></a>6단계: 타이머 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60082700"
 Timer  
   
     > [!NOTE]
-    >  도구 상자가 비어 있는 경우 도구 상자를 열기 전에 폼 뒤쪽의 코드가 아닌 폼 디자이너를 선택했는지 확인하십시오.  
+    > 도구 상자가 비어 있는 경우 도구 상자를 열기 전에 폼 뒤쪽의 코드가 아닌 폼 디자이너를 선택했는지 확인하십시오.  
   
 2. **Timer1** 아이콘을 선택하여 타이머를 선택합니다. **속성** 창에서 이벤트 보기에서 속성 보기로 전환합니다. 그런 다음 타이머의 **Interval** 속성은 **750**으로 설정하고 **Enabled** 속성은 **False**로 설정합니다. **Interval** 속성은 타이머의 *틱* 간 대기 시간이나 Tick 이벤트를 트리거하는 시점을 나타냅니다. 750이라는 값은 Tick 이벤트를 발생시키기 전에 타이머가 3/4초, 즉 750 밀리초를 대기함을 의미합니다. `Start()` 메서드를 호출하여 플레이어가 두 번째 레이블을 선택한 후에만 타이머가 시작되도록 합니다.  
   
@@ -41,7 +41,7 @@ Timer
      틱 이벤트 처리기는 다음 세 가지 작업을 수행합니다. 첫 번째로 타이머는 `Stop()` 메서드를 호출하면 실행이 중지됩니다. 그런 다음 `firstClicked`와 `secondClicked`라는 두 개의 참조 변수를 사용하여 플레이어가 선택한 두 레이블의 아이콘이 다시 보이지 않도록 합니다. 마지막으로 `firstClicked` 및 `secondClicked` 참조 변수를 `null`(Visual C#의 경우)과 `Nothing`(Visual Basic의 경우)으로 다시 설정합니다. 이 단계는 프로그램 자체를 다시 설정하는 방식이기 때문에 중요합니다. 이제 `Label` 컨트롤이 추적되고 있지 않으며 플레이어는 레이블을 다시 선택할 수 있습니다.  
   
     > [!NOTE]
-    >  `Timer` 개체에는 타이머를 시작하는 `Start()` 메서드와 타이머를 중지하는 `Stop()` 메서드가 있습니다. **속성** 창에서 타이머의 **Enabled** 속성을 **True**로 설정하면 프로그램이 시작되는 즉시 타이머에서 틱이 시작됩니다. 그러나 이 속성을 **False**로 설정하면 `Start()` 메서드가 호출될 때까지 틱을 시작하지 않습니다. 일반적으로 타이머는 틱 사이의 밀리초를 결정하는 **Interval** 속성을 사용하여 Tick 이벤트를 반복적으로 발생시킵니다. 이 경우에 Tick 이벤트 내에서 타이머의 `Stop()` 메서드가 호출되는 방식을 살펴보면 타이머가 *일회 모드*로 설정되고, 그에 따라 `Start()` 메서드가 호출되면 지정한 간격만큼 기다렸다가 단일 Tick 이벤트를 트리거한 뒤 중지됩니다.  
+    > `Timer` 개체에는 타이머를 시작하는 `Start()` 메서드와 타이머를 중지하는 `Stop()` 메서드가 있습니다. **속성** 창에서 타이머의 **Enabled** 속성을 **True**로 설정하면 프로그램이 시작되는 즉시 타이머에서 틱이 시작됩니다. 그러나 이 속성을 **False**로 설정하면 `Start()` 메서드가 호출될 때까지 틱을 시작하지 않습니다. 일반적으로 타이머는 틱 사이의 밀리초를 결정하는 **Interval** 속성을 사용하여 Tick 이벤트를 반복적으로 발생시킵니다. 이 경우에 Tick 이벤트 내에서 타이머의 `Stop()` 메서드가 호출되는 방식을 살펴보면 타이머가 *일회 모드*로 설정되고, 그에 따라 `Start()` 메서드가 호출되면 지정한 간격만큼 기다렸다가 단일 Tick 이벤트를 트리거한 뒤 중지됩니다.  
   
 4. 새 타이머의 동작을 보려면 코드 편집기로 이동하여 다음 코드를 `label_Click()` 이벤트 처리기 메서드의 위쪽과 아래쪽에 추가합니다. `if` 문을 위쪽에 추가하고 세 개의 문을 아래쪽에 추가하며 메서드의 나머지 부분은 그대로 유지됩니다.  
   

@@ -12,18 +12,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 686e8dfbd94fc3fddbc5e696fc6e943184357c02
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 296c76a386b72c3435a90e207dd76f9eeca56422
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56711529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412959"
 ---
 # <a name="idebugprocess3step"></a>IDebugProcess3::Step
 하나의 명령 또는 문을 실행 하는 프로세스를 하면 됩니다.
 
 > [!NOTE]
->  이 메서드를 대신 사용 해야 [단계](../../../extensibility/debugger/reference/idebugprogram2-step.md)합니다.
+> 이 메서드를 대신 사용 해야 [단계](../../../extensibility/debugger/reference/idebugprogram2-step.md)합니다.
 
 ## <a name="syntax"></a>구문
 

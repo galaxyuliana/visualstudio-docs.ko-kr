@@ -8,12 +8,12 @@ ms.assetid: 30f137e6-595d-4ce7-b8f5-415b07c1caa2
 caps.latest.revision: 33
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: b1c7bb825cdc64619ac2234c431bb306e58ec293
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8a719a1420d4d2e64438865a41cc24da114fbc2d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443060"
 ---
 # <a name="build-apps-with-native-ui-using-xamarin-in-visual-studio"></a>Visual Studio에서 Xamarin을 사용하여 네이티브 UI로 앱 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,12 +35,12 @@ ms.locfileid: "60105294"
 - [다음 단계](#next)
 
 > [!TIP]
->  [GitHub의 mobile-samples 리포지토리](https://github.com/xamarin/mobile-samples/tree/master/Weather)에서 이 프로젝트에 대한 전체 소스 코드를 찾을 수 있습니다.
+> [GitHub의 mobile-samples 리포지토리](https://github.com/xamarin/mobile-samples/tree/master/Weather)에서 이 프로젝트에 대한 전체 소스 코드를 찾을 수 있습니다.
 >
->   어려움이 있거나 오류가 발생하면 [forums.xamarin.com](http://forums.xamarin.com)에 질문을 게시하세요. Xamarin에 필요한 최신 SDK로 업데이트하면 많은 오류를 해결할 수 있습니다. 자세한 내용은 각 플랫폼에 대한 [Xamarin 릴리스 정보](https://developer.xamarin.com/releases/)에 설명되어 있습니다.
+> 어려움이 있거나 오류가 발생하면 [forums.xamarin.com](http://forums.xamarin.com)에 질문을 게시하세요. Xamarin에 필요한 최신 SDK로 업데이트하면 많은 오류를 해결할 수 있습니다. 자세한 내용은 각 플랫폼에 대한 [Xamarin 릴리스 정보](https://developer.xamarin.com/releases/)에 설명되어 있습니다.
 >
 > [!NOTE]
->  Xamarin 개발자 설명서에서는 아래와 같이 빠른 시작 및 심층 분석 섹션이 둘 다 포함된 여러 가지 연습도 제공합니다. 이러한 모든 페이지에서 Visual Studio 관련 연습을 보려면 페이지 오른쪽 위에서 "Visual Studio"를 선택해야 합니다.
+> Xamarin 개발자 설명서에서는 아래와 같이 빠른 시작 및 심층 분석 섹션이 둘 다 포함된 여러 가지 연습도 제공합니다. 이러한 모든 페이지에서 Visual Studio 관련 연습을 보려면 페이지 오른쪽 위에서 "Visual Studio"를 선택해야 합니다.
 >
 > - 네이티브 UI를 사용한 Xamarin 앱:
 >
@@ -230,7 +230,7 @@ ms.locfileid: "60105294"
 1. **솔루션 탐색기**에서 **WeatherApp.Droid**>**Resources**>**layout** 폴더를 확장하고 **Main.axml**을 엽니다. 비주얼 디자이너에서 파일이 열립니다. Java 관련 오류가 나타나는 경우 이 [블로그 게시물](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9)을 참조하세요.
 
     > [!TIP]
-    >  프로젝트에는 다른 많은 파일이 있습니다. 이 항목에서는 이러한 파일에 대해 자세히 다루지 않지만 Android 프로젝트의 구조를 좀 더 자세히 알아보려면 xamarin.com의 Hello Android 항목에서 [Part 2 Deep Dive(2부 자세히 알아보기)](http://developer.xamarin.com/guides/android/getting_started/hello,android/hello,android_deepdive/)를 참조하세요.
+    > 프로젝트에는 다른 많은 파일이 있습니다. 이 항목에서는 이러한 파일에 대해 자세히 다루지 않지만 Android 프로젝트의 구조를 좀 더 자세히 알아보려면 xamarin.com의 Hello Android 항목에서 [Part 2 Deep Dive(2부 자세히 알아보기)](http://developer.xamarin.com/guides/android/getting_started/hello,android/hello,android_deepdive/)를 참조하세요.
 
 2. 디자이너에 표시되는 기본 단추를 선택하여 삭제합니다.
 
@@ -239,7 +239,7 @@ ms.locfileid: "60105294"
 4. **도구 상자**의 **RelativeLayout** 컨트롤을 디자이너로 끕니다. 이 컨트롤을 다른 컨트롤의 부모 컨테이너로 사용하게 됩니다.
 
     > [!TIP]
-    >  레이아웃이 올바르게 표시되지 않는 경우 언제든지 파일을 저장하고 **디자인** 및 **소스** 탭 간에 전환하여 새로 고칩니다.
+    > 레이아웃이 올바르게 표시되지 않는 경우 언제든지 파일을 저장하고 **디자인** 및 **소스** 탭 간에 전환하여 새로 고칩니다.
 
 5. **속성** 창에서 **배경** 속성(스타일 그룹)을 `#545454`로 설정합니다.
 
@@ -256,7 +256,7 @@ ms.locfileid: "60105294"
     |**textStyle**|`bold`|
 
     > [!TIP]
-    >  대부분의 속성은 선택 가능한 값이 포함된 드롭다운 목록이 없습니다.  따라서 특정 속성에 어떤 문자열 값을 사용해야 할지 추측하기가 어려울 수 있습니다. 제안 사항을 보려면 [R.attr](http://developer.android.com/reference/android/R.attr.html) 클래스 페이지에서 속성 이름을 검색해 보세요.
+    > 대부분의 속성은 선택 가능한 값이 포함된 드롭다운 목록이 없습니다.  따라서 특정 속성에 어떤 문자열 값을 사용해야 할지 추측하기가 어려울 수 있습니다. 제안 사항을 보려면 [R.attr](http://developer.android.com/reference/android/R.attr.html) 클래스 페이지에서 속성 이름을 검색해 보세요.
     >
     >  또한 빠른 웹 검색을 수행하면 [http://stackoverflow.com/](http://stackoverflow.com/) 에서 다른 사용자가 동일한 속성을 사용한 페이지를 종종 찾을 수 있습니다.
 
@@ -523,7 +523,7 @@ ms.locfileid: "60105294"
      ![Android 및 Windows Phone용 날씨 앱](../cross-platform/media/xamarin-getstarted-results.png "Xamarin_GetStarted_Results")
 
 > [!TIP]
->  이 프로젝트에 대한 전체 소스 코드는 [GitHub의 xamarin-forms-samples 리포지토리](https://github.com/xamarin/mobile-samples/tree/master/Weather)에 있습니다.
+> 이 프로젝트에 대한 전체 소스 코드는 [GitHub의 xamarin-forms-samples 리포지토리](https://github.com/xamarin/mobile-samples/tree/master/Weather)에 있습니다.
 
 ## <a name="Windows"></a> Windows Phone용 UI 디자인
  이제 Windows Phone용 사용자 인터페이스를 디자인하고 공유 코드에 연결한 후 앱을 실행합니다.
@@ -629,7 +629,7 @@ ms.locfileid: "60105294"
      ![실행 중인 앱의 Windows 버전](../cross-platform/media/xamarin-getstarted-results-windows.png "Xamarin_GetStarted_Results_Windows")
 
 > [!TIP]
->  이 프로젝트에 대한 전체 소스 코드는 [GitHub의 xamarin-forms-samples 리포지토리](https://github.com/xamarin/mobile-samples/tree/master/Weather)에 있습니다.
+> 이 프로젝트에 대한 전체 소스 코드는 [GitHub의 xamarin-forms-samples 리포지토리](https://github.com/xamarin/mobile-samples/tree/master/Weather)에 있습니다.
 
 ## <a name="next"></a> 다음 단계
  **iOS용 UI를 솔루션에 추가**

@@ -16,12 +16,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c475366c190e5ac008394f8642f64da022532a0a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 20076e4f8cc05ad971a1cbe710c95f444b80938b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386884"
 ---
 # <a name="using-3-d-assets-in-your-game-or-app"></a>게임 또는 응용 프로그램에 3차원 자산 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,13 +59,13 @@ ms.locfileid: "60064741"
 3. **구성 속성** 아래에서 **일반**을 선택한 다음, 속성 표의 **일반** 아래에서 **항목 형식** 속성을 적절한 현재 파이프라인 항목 형식으로 설정합니다. 예를 들어 이미지 또는 질감 파일의 경우 **이미지 콘텐츠 파이프라인**을 선택합니다.  
   
    > [!IMPORTANT]
-   >  기본적으로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 기본 제공되는 **이미지** 항목 형식을 사용하여 여러 종류의 이미지 파일을 분류한다고 가정합니다. 따라서 이미지 콘텐츠 파이프라인에서 처리하려는 각 이미지의 **항목 형식** 속성을 변경해야 합니다. 3차원 모델과 시각적 셰이더 그래픽에 대한 다른 형식의 콘텐츠 파이프라인 원본 파일은 기본적으로 올바른 **항목 형식**으로 설정됩니다.  
+   > 기본적으로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 기본 제공되는 **이미지** 항목 형식을 사용하여 여러 종류의 이미지 파일을 분류한다고 가정합니다. 따라서 이미지 콘텐츠 파이프라인에서 처리하려는 각 이미지의 **항목 형식** 속성을 변경해야 합니다. 3차원 모델과 시각적 셰이더 그래픽에 대한 다른 형식의 콘텐츠 파이프라인 원본 파일은 기본적으로 올바른 **항목 형식**으로 설정됩니다.  
   
 4. **확인** 단추를 선택합니다.  
   
    다음은 3가지 콘텐츠 파이프라인 항목 형식, 관련 소스 및 출력 파일 형식입니다.  
   
-|항목 형식|원본 파일 형식|출력 파일 형식|  
+|항목 종류|원본 파일 형식|출력 파일 형식|  
 |---------------|-----------------------|------------------------|  
 |**이미지 콘텐츠 파이프라인**|Portable Network Graphics(.png)<br /><br /> JPEG(.jpg, .jpeg, .jpe, .jfif)<br /><br /> Direct Draw Surface(.dds)<br /><br /> Graphics Interchange Format(.gif)<br /><br /> Bitmap(.bmp, .dib)<br /><br /> Tagged Image File Format(.tif, .tiff)<br /><br /> Targa(.tga)|DirectDraw Surface(.dds)|  
 |**메시 콘텐츠 파이프라인**|AutoDesk FBX 교환 파일(.fbx)<br /><br /> Collada DAE 파일(.dae)<br /><br /> Wavefront OBJ 파일(.obj)|3-D 메시 파일(.cmo)|  
@@ -202,8 +202,8 @@ cbuffer MiscVars : register(b3)
   
 |제목|설명|  
 |-----------|-----------------|  
-|[방법: Mip 맵을 포함 하는 질감 내보내기](../designers/how-to-export-a-texture-that-contains-mipmaps.md)|이미지 콘텐츠 파이프라인을 사용하여 미리 계산된 Mip 맵이 포함된 질감을 내보내는 방법에 대해 설명합니다.|  
-|[방법: 미리 증가 된 알파 하는 질감 내보내기](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)|이미지 콘텐츠 파이프라인을 사용하여 사전 곱셈된 알파 값이 포함된 질감을 내보내는 방법에 대해 설명합니다.|  
-|[방법: Direct2D 또는 Javascipt 앱을 사용 하 여 사용 하기 위해 질감 내보내기](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|이미지 콘텐츠 파이프라인을 사용하여 Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 내보내는 방법에 대해 설명합니다.|  
+|[방법: 밉 맵을 포함하는 질감 내보내기](../designers/how-to-export-a-texture-that-contains-mipmaps.md)|이미지 콘텐츠 파이프라인을 사용하여 미리 계산된 Mip 맵이 포함된 질감을 내보내는 방법에 대해 설명합니다.|  
+|[방법: 미리 증가된 알파를 사용하는 질감 내보내기](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)|이미지 콘텐츠 파이프라인을 사용하여 사전 곱셈된 알파 값이 포함된 질감을 내보내는 방법에 대해 설명합니다.|  
+|[방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|이미지 콘텐츠 파이프라인을 사용하여 Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 내보내는 방법에 대해 설명합니다.|  
 |[게임 및 응용 프로그램을 위한 3D 자산 작업](../designers/working-with-3-d-assets-for-games-and-apps.md)|Visual Studio에서는 질감 및 이미지, 3-D 모델 및 셰이더를 비롯한 3-D 자산을 만들고 조작하는 편집 도구에 대해 설명합니다.|  
 |[방법: 셰이더 내보내기](../designers/how-to-export-a-shader.md)|셰이더 디자이너에서 셰이더를 내보내는 방법을 설명합니다.|

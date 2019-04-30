@@ -12,12 +12,12 @@ ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2fb579cf56d0fdf9e8c441a1393d934fcc7348d4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 8df85c03201e46768c43fb64cc41b7fa081eb91a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446815"
 ---
 # <a name="scchistory-function"></a>SccHistory 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,7 +76,7 @@ SCCRTN SccHistory(
  특정 상황에서,이 호출의 실행 하는 동안 검사할 파일이 변경 될 수 있습니다. 예를 들어를 [!INCLUDE[vsvss](../includes/vsvss-md.md)] 기록 명령은 사용자 파일의 이전 버전을 가져올 수 있는 기회를 제공 합니다. 이러한 경우에는 소스 제어 플러그 인 반환 `SCC_I_RELOAD` 경고 IDE 파일 다시 로드 해야 합니다.  
   
 > [!NOTE]
->  소스 제어 플러그 인 파일의 배열에 대해이 함수를 지원 하지 않으면, 첫 번째 파일에 대 한 파일 히스토리만 표시할 수 있습니다.  
+> 소스 제어 플러그 인 파일의 배열에 대해이 함수를 지원 하지 않으면, 첫 번째 파일에 대 한 파일 히스토리만 표시할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   

@@ -25,12 +25,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9e6ebd09188e737e75c9e5f66ed95411e1a9453d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4ab27c27873fc0addf1dbdbdbca81613d3015cc3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445549"
 ---
 # <a name="custom-task-panes"></a>사용자 지정 작업창
   작업창은 일반적으로 Microsoft Office 응용 프로그램에서 창의 한쪽에 도킹된 사용자 인터페이스 패널입니다. 사용자 지정 작업창을 사용하면 사용자 고유의 작업창을 만들고 사용자에게 솔루션 기능에 액세스하기 위한 친숙한 인터페이스를 제공할 수 있습니다. 예를 들어 인터페이스에는 문서를 수정하거나 데이터 소스의 데이터를 표시하는 코드를 실행하는 컨트롤이 포함될 수 있습니다.
@@ -38,7 +38,7 @@ ms.locfileid: "60106204"
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 > [!NOTE]
->  사용자 지정 작업창은 작업 창과 다릅니다. 작업 창은 Microsoft Office Word 및 Microsoft Office Excel용 문서 수준 사용자 지정의 일부입니다. 자세한 내용은 [작업창 개요](../vsto/actions-pane-overview.md)합니다.
+> 사용자 지정 작업창은 작업 창과 다릅니다. 작업 창은 Microsoft Office Word 및 Microsoft Office Excel용 문서 수준 사용자 지정의 일부입니다. 자세한 내용은 [작업창 개요](../vsto/actions-pane-overview.md)합니다.
 
 ## <a name="benefits-of-custom-task-panes"></a>사용자 지정 작업창의 이점
  사용자 지정 작업창을 사용하면 친숙한 사용자 인터페이스에 기능을 통합할 수 있습니다. Visual Studio 도구를 사용하여 사용자 지정 작업창을 신속하게 만들 수 있습니다.

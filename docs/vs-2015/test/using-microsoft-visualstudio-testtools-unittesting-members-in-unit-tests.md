@@ -8,12 +8,12 @@ ms.assetid: 0fa335fd-e442-448f-913f-25a19df90a93
 caps.latest.revision: 8
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 37ca201f071d4cd9eda595a6fee6b95a23b4f05e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ef42f7710598906310b77bd834adf04b21d6bfc2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445861"
 ---
 # <a name="using-microsoftvisualstudiotesttoolsunittesting-members-in-unit-tests"></a>단위 테스트에서 Microsoft.VisualStudio.TestTools.UnitTesting 멤버 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,9 +25,9 @@ ms.locfileid: "60095531"
 > [!NOTE]
 > 해당 이름이 Attribute 문자열로 끝나는 특성 요소는 Attribute 문자열을 포함하거나 포함하지 않고 사용할 수 있습니다. 예를 들어 다음 두 코드 예제는 동일하게 작동합니다.
 >
->  `[TestClass()]`
+> `[TestClass()]`
 >
->  `[TestClassAttribute()]`
+> `[TestClassAttribute()]`
 
 ### <a name="elements-used-for-data-driven-testing"></a>데이터 기반 테스트를 위해 사용되는 요소
  다음 요소를 사용하여 데이터 기반 단위 테스트를 설정합니다. 자세한 내용은 참조 하세요. [방법: 데이터 기반 단위 테스트 만들기](../test/how-to-create-a-data-driven-unit-test.md) 고 [연습: 구성 파일을 사용 하 여 데이터 원본을 정의 하려면](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)합니다.

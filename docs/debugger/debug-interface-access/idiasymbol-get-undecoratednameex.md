@@ -12,15 +12,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 83fda196a50c433de182a64f39faef7a6ba6cb17
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: f2a952c074e62e7fe999826882e382a552789f3a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56607852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63400557"
 ---
 # <a name="idiasymbolgetundecoratednameex"></a>IDiaSymbol::get_undecoratedNameEx
-C + + 데코 레이트 되지 않은 이름의 전체 또는 일부 검색 데코 레이트 된 이름 (링크).
+검색에 대 한 데코 레이트 되지 않은 이름의 전체 또는 일부를 C++ 데코 레이트 된 이름 (링크).
 
 ## <a name="syntax"></a>구문
 
@@ -38,19 +38,19 @@ HRESULT get_undecoratedNameEx( 
 
  `pRetVal`
 
-[out] 데코 레이트 된 이름 c + + 데코 레이트 되지 않은 이름을 반환 합니다.
+[out] 데코 레이트 되지 않은 이름을 반환 하는 C++ 데코 레이트 된 이름입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  `undecorateOptions` 플래그의 조합일 수 있습니다.
 
 > [!NOTE]
->  플래그 이름은 선언 코드를 추가 하거나 원시 값을 사용 해야 하므로 DIA SDK, 정의 되지 않습니다.
+> 플래그 이름은 선언 코드를 추가 하거나 원시 값을 사용 해야 하므로 DIA SDK, 정의 되지 않습니다.
 
 |플래그|값|설명|
 |----------|-----------|-----------------|

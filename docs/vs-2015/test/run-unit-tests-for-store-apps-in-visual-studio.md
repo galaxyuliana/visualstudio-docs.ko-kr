@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: alexhomer1
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 309dbfcac8e5c4c38e65f8901c699dc2fa51c7a1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bfcdb3906f405b9f7ba4650be13f4522ab559ee8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446211"
 ---
 # <a name="run-unit-tests-for-store-apps-in-visual-studio"></a>Visual Studio에서 스토어 앱에 대한 단위 테스트 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60104182"
 이 항목에서는 Microsoft Visual Studio에서 테스트 탐색기를 사용하여 단위 테스트를 실행하는 방법에 대해 설명합니다.
 
 > [!NOTE]
->  이 섹션의 항목에서는 Visual Studio Express for Windows 8의 기능을 설명합니다. Visual Studio Community, Enterprise 및 Professional은 단위 테스트를 위한 추가 기능을 제공합니다.
+> 이 섹션의 항목에서는 Visual Studio Express for Windows 8의 기능을 설명합니다. Visual Studio Community, Enterprise 및 Professional은 단위 테스트를 위한 추가 기능을 제공합니다.
 >
 > - Microsoft 테스트 탐색기에 대한 추가 어댑터를 만든 타사 또는 오픈 소스 단위 테스트 프레임워크를 사용합니다. 또한 테스트에 대한 코드 검사 정보를 분석하고 표시할 수도 있습니다.
 >   - 빌드할 때마다 빌드 후 테스트를 실행합니다. 또한 관리 코드에 대한 격리 프레임워크인 Microsoft Fakes를 사용하여 Microsoft Fakes는 시스템과 타사 기능을 테스트 코드로 대체함으로써 자체 코드에 대한 테스트에 집중할 수 있습니다.
@@ -118,7 +118,7 @@ ms.locfileid: "60104182"
 1. Visual Studio 편집기에서 디버그하려는 하나 이상의 테스트 메서드에서 중단점을 설정합니다.
 
    > [!NOTE]
-   >  테스트 메서드는 순서에 관계 없이 실행할 수 있기 때문에 디버그하려는 모든 테스트 메서드에 중단점을 설정합니다.
+   > 테스트 메서드는 순서에 관계 없이 실행할 수 있기 때문에 디버그하려는 모든 테스트 메서드에 중단점을 설정합니다.
 
 2. 테스트 탐색기에서 테스트 메서드를 선택한 다음 바로 가기 메뉴에서 **선택한 테스트 디버그**를 선택합니다.
 

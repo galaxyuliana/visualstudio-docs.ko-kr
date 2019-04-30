@@ -9,12 +9,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0b2473654bf05a66ef94bd0e88f06ae3e27dbf12
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a9806bad150a5d03a942c7dfb36753f91d10536e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442567"
 ---
 # <a name="step-4-add-the-checktheanswer-method"></a>4단계: CheckTheAnswer() 메서드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60060542"
 이 자습서의 4단계에서는 수학 문제의 답이 맞는지 여부를 확인하는 `CheckTheAnswer()` 메서드를 작성합니다. 이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
   
 > [!NOTE]
->  이 메서드는 값을 반환하기 때문에 Visual Basic 사용자는 일반적인 `Function` 키워드 대신 `Sub` 키워드를 사용합니다. 논리는 간단합니다. sub는 값을 반환하지 않고 function은 값을 반환합니다.  
+> 이 메서드는 값을 반환하기 때문에 Visual Basic 사용자는 일반적인 `Function` 키워드 대신 `Sub` 키워드를 사용합니다. 논리는 간단합니다. sub는 값을 반환하지 않고 function은 값을 반환합니다.  
   
 ### <a name="to-verify-whether-the-answers-are-correct"></a>답이 맞는지 여부를 확인하려면  
   
@@ -45,7 +45,7 @@ ms.locfileid: "60060542"
 3. 프로그램을 저장하고 실행합니다. 퀴즈를 시작하고 더하기 문제의 올바른 답을 입력합니다.  
   
     > [!NOTE]
-    >  이때 답 입력을 시작하기 전에 기본값인 0을 선택하거나 수동으로 삭제해야 합니다. 이 동작은 이 자습서의 뒷부분에서 수정합니다.  
+    > 이때 답 입력을 시작하기 전에 기본값인 0을 선택하거나 수동으로 삭제해야 합니다. 이 동작은 이 자습서의 뒷부분에서 수정합니다.  
   
      올바른 답을 입력하면 메시지 상자가 열리고 **시작** 단추를 사용할 수 있게 되며 타이머가 중지됩니다.  
   

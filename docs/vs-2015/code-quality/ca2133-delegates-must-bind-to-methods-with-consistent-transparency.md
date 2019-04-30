@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: e9fb3a7aab243465ac4412e9d3adea9152d909ee
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: a8a19a84336cc6452f663eb65429326b52268728
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386948"
 ---
 # <a name="ca2133-delegates-must-bind-to-methods-with-consistent-transparency"></a>CA2133: 대리자는 투명도가 일관된 메서드에 바인딩되어야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "58984115"
 |변경 수준|주요 변경|
 
 > [!NOTE]
->  이 경고는 CoreCLR (Silverlight 웹 응용 프로그램에 관련 된 CLR의 버전)를 실행 하는 코드에만 적용 됩니다.
+> 이 경고는 CoreCLR (Silverlight 웹 응용 프로그램에 관련 된 CLR의 버전)를 실행 하는 코드에만 적용 됩니다.
 
 ## <a name="cause"></a>원인
  이 경고로 표시 된 대리자를 바인딩하는 메서드에서 발생 합니다 <xref:System.Security.SecurityCriticalAttribute> 사용 하 여 표시 되거나 투명 한 메서드에 <xref:System.Security.SecuritySafeCriticalAttribute>합니다. 또한 투명하거나 안전에 중요한 대리자를 중요한 메서드에 바인딩하는 메서드에서도 이 경고가 발생합니다.

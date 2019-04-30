@@ -17,12 +17,12 @@ caps.latest.revision: 47
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c2d8ecd09487248b4c4be05b354133c710febf30
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cfc486401792afc7d2c6295cacca843aa6c5b11b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63445029"
 ---
 # <a name="securing-clickonce-applications"></a>ClickOnce 애플리케이션 보안
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,7 +74,7 @@ ms.locfileid: "60076200"
  쿼리 문자열을 통해 검색된 인수를 안전성을 확인하지 않고 데이터베이스나 명령줄에 직접 전달하면 안 됩니다. 안전하지 않은 인수는 데이터베이스 또는 명령줄 이스케이프 문자가 들어 있는 인수입니다. 이러한 문자가 있으면 악의적인 사용자가 애플리케이션을 조작하여 임의의 명령을 실행할 수 있게 됩니다.  
   
 > [!NOTE]
->  쿼리 문자열 인수는 시작할 때 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션에 인수를 전달할 수 있는 유일한 방법입니다. 명령줄에서는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션에 인수를 전달할 수 없습니다.  
+> 쿼리 문자열 인수는 시작할 때 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션에 인수를 전달할 수 있는 유일한 방법입니다. 명령줄에서는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션에 인수를 전달할 수 없습니다.  
   
 ## <a name="deploying-obfuscated-assemblies"></a>난독 처리된 어셈블리 배포  
  Dotfuscator를 통해 애플리케이션을 난독 처리하여 다른 사용자가 코드를 리버스 엔지니어링하지 못하도록 할 수 있습니다. 그러나 어셈블리 난독 처리는 Visual Studio IDE 또는 ClickOnce 배포 프로세스에 통합되지 않습니다. 따라서 빌드 후 단계 등을 통해 배포 프로세스 외부에서 난독 처리를 수행해야 합니다. 프로젝트를 빌드한 후 Visual Studio 외부에서 다음 단계를 직접 수행합니다.  

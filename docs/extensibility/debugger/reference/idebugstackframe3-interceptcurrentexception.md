@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 89ba8aadaa55a22c8e8c645866a9163628404407
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: b3fb11457319d4cea762808ec2619f32c37780a1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56712790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412675"
 ---
 # <a name="idebugstackframe3interceptcurrentexception"></a>IDebugStackFrame3::InterceptCurrentException
 현재 예외를 차단 하려는 경우 현재 스택 프레임에는 디버거에서 호출 됩니다.
@@ -64,7 +64,7 @@ int InterceptCurrentException(
  디버거를 알고 있어야 하는 경우 예외를 가로챌 수 해야 하고자 하는 경우 현재 스택 프레임 개체에서이 메서드를 호출 합니다. 이 메서드는 예외의 모든 세부 정보를 처리 하는 일을 담당 합니다. 경우는 [IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md) 인터페이스가 구현 되지 않는 또는 `InterceptStackException` 디버거가 예외를 정상적으로 처리를 계속 한 다음 메서드는 모든 오류를 반환 합니다.
 
 > [!NOTE]
->  예외 가로챌 수 있습니다 관리 되는 코드에만 즉, 런타임에.net 디버깅 중인 프로그램 실행 중일 때. 타사 언어 구현자 구현할 수는 물론, `InterceptStackException` 선택 하는 경우 자신의 디버그 엔진에서입니다.
+> 예외 가로챌 수 있습니다 관리 되는 코드에만 즉, 런타임에.net 디버깅 중인 프로그램 실행 중일 때. 타사 언어 구현자 구현할 수는 물론, `InterceptStackException` 선택 하는 경우 자신의 디버그 엔진에서입니다.
 
  가로채기를 완료 한 후는 [IDebugInterceptExceptionCompleteEvent2](../../../extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2.md) 신호입니다.
 

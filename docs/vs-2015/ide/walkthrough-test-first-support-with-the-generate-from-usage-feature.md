@@ -12,12 +12,12 @@ caps.latest.revision: 68
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: aaca69818524df134aa9ad7514ee5e0227b6a812
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b1dd1598d73cdbd77bc6fe0cb35e639c0fb484b0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443426"
 ---
 # <a name="walkthrough-test-first-support-with-the-generate-from-usage-feature"></a>연습: 테스트 우선 지원의 관례에서에서 생성 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,7 +66,7 @@ ms.locfileid: "60084988"
 2. `UnitTest1` 클래스에 대한 선언을 찾아서 이름을 `AutomobileTest`로 바꿉니다. C#에서 `UnitTest1()` 생성자가 있는 경우 이름을 `AutomobileTest()`로 바꿉니다.  
   
     > [!NOTE]
-    >  이제 IntelliSense는 IntelliSense 문 완성을 위해 *완성 모드* 및 *제안 모드*라는 두 가지 대안을 제공합니다. 클래스 및 멤버를 정의하기 전에 사용하는 경우에는 제안 모드를 사용합니다. IntelliSense 창이 열려 있으면 Ctrl+Alt+스페이스바를 눌러 완성 모드와 제안 모드 간을 전환할 수 있습니다. 자세한 내용은 [Using IntelliSense](../ide/using-intellisense.md) 를 참조하세요. 제안 모드는 다음 단계에서 `Automobile` 을 입력할 때 도움이 됩니다.  
+    > 이제 IntelliSense는 IntelliSense 문 완성을 위해 *완성 모드* 및 *제안 모드*라는 두 가지 대안을 제공합니다. 클래스 및 멤버를 정의하기 전에 사용하는 경우에는 제안 모드를 사용합니다. IntelliSense 창이 열려 있으면 Ctrl+Alt+스페이스바를 눌러 완성 모드와 제안 모드 간을 전환할 수 있습니다. 자세한 내용은 [Using IntelliSense](../ide/using-intellisense.md) 를 참조하세요. 제안 모드는 다음 단계에서 `Automobile` 을 입력할 때 도움이 됩니다.  
   
 3. `TestMethod1()` 메서드를 찾아서 이름을 `DefaultAutomobileIsInitializedCorrectly()`로 바꿉니다. 이 메서드 내에서 다음 그림과 같이 `Automobile`이라는 클래스의 새 인스턴스를 만듭니다. 컴파일 시간 오류를 나타내는 물결선이 표시되고 스마트 태그가 형식 이름 아래에 나타납니다. 스마트 태그의 정확한 위치는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 또는 [!INCLUDE[csprcs](../includes/csprcs-md.md)]를 사용하는지에 따라 달라집니다.  
   

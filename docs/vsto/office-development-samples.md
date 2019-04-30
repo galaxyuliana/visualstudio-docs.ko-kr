@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 5cc00d56b0abf02f99c7ab320ab0353d1b4b2317
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447149"
 ---
 # <a name="office-development-samples"></a>Office 개발 샘플
   Visual Studio에는 Microsoft Office 개발자 도구를 사용하여 Office 솔루션을 만드는 방법을 보여 주는 샘플 응용 프로그램이 포함되어 있습니다. 이러한 샘플의 코드는 Office 솔루션을 빌드하는 데 사용되는 구문, 구조 및 기술을 보여 줍니다.

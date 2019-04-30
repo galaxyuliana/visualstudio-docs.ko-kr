@@ -9,12 +9,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bec6c539963d54bfa1d866ccc4811425bba9e3a4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 807d2b7de34acda52dd05ff8263ae3303dca61c6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441916"
 ---
 # <a name="step-1-create-a-project-and-add-a-table-to-your-form"></a>1단계: 프로젝트 만들기 및 폼에 테이블 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "60068576"
    1. **BackColor** 속성을 **CornflowerBlue**로 설정합니다. 이렇게 하려면 **속성** 창의 **BackColor** 속성 옆에 있는 드롭다운 화살표를 선택하여 **BackColor** 대화 상자를 엽니다.  그런 다음 **BackColor** 대화 상자의 **웹** 탭을 선택하여 사용할 수 있는 색이름 목록을 봅니다.  
   
       > [!NOTE]
-      >  색은 알파벳 순서가 아니며 CornflowerBlue는 목록 맨 아래 가까이에 있습니다.  
+      > 색은 알파벳 순서가 아니며 CornflowerBlue는 목록 맨 아래 가까이에 있습니다.  
   
    2. 속성 옆에 있는 드롭다운 단추를 선택한 다음, 가운데 있는 큰 단추를 선택하여 **Dock** 속성을 **Fill**로 설정합니다. 이렇게 하면 전체 폼을 덮도록 테이블이 확장됩니다.  
   
@@ -77,12 +77,12 @@ ms.locfileid: "60068576"
         이제 TableLayoutPanel의 왼쪽 위 셀에는 파란색 배경의 가운데에 검은색 상자가 포함됩니다.  
   
        > [!NOTE]
-       >  Webdings 글꼴은 Windows 운영 체제에 포함된 아이콘 글꼴입니다. 일치 게임에서 플레이어는 일치하는 아이콘 쌍을 찾아야 하므로 이 글꼴을 사용하여 일치시킬 아이콘을 표시합니다. **Text** 속성을 **c**로 설정하는 대신 다른 문자를 입력하여 아이콘이 어떻게 표시되는지 확인해 보세요. 느낌표는 거미, 대문자 N은 눈 모양, 쉼표는 고추를 각각 나타냅니다.  
+       > Webdings 글꼴은 Windows 운영 체제에 포함된 아이콘 글꼴입니다. 일치 게임에서 플레이어는 일치하는 아이콘 쌍을 찾아야 하므로 이 글꼴을 사용하여 일치시킬 아이콘을 표시합니다. **Text** 속성을 **c**로 설정하는 대신 다른 문자를 입력하여 아이콘이 어떻게 표시되는지 확인해 보세요. 느낌표는 거미, 대문자 N은 눈 모양, 쉼표는 고추를 각각 나타냅니다.  
   
 8. 레이블 컨트롤을 선택하고 TableLayoutPanel의 다음 셀에 이를 복사합니다. Ctrl+C 키를 선택하거나 메뉴 모음에서 **편집**, **복사**를 선택합니다. 그런 다음 이 컨트롤을 붙여넣습니다. Ctrl+V 키를 선택하거나 메뉴 모음에서 **편집**, **붙여넣기**를 선택합니다. TableLayoutPanel의 두 번째 셀에 첫 번째 레이블의 복사본이 나타납니다. 이 레이블을 다시 붙여넣으면 세 번째 셀에 다른 레이블이 나타납니다. 모든 셀이 채워질 때까지 `Label` 컨트롤 붙여넣기를 계속합니다.  
   
    > [!NOTE]
-   >  붙여넣기를 너무 많이 하면 TableLayoutPanel에 새 행이 추가되어 새 Label 컨트롤을 추가할 수 있는 위치가 생깁니다. 이를 실행 취소할 수 있습니다. 새 셀을 제거하려면 Ctrl+Z 키를 선택하거나 메뉴 모음에서 **편집**, **실행 취소**를 선택합니다.  
+   > 붙여넣기를 너무 많이 하면 TableLayoutPanel에 새 행이 추가되어 새 Label 컨트롤을 추가할 수 있는 위치가 생깁니다. 이를 실행 취소할 수 있습니다. 새 셀을 제거하려면 Ctrl+Z 키를 선택하거나 메뉴 모음에서 **편집**, **실행 취소**를 선택합니다.  
   
     이제 폼이 배치됩니다. 이 폼은 다음 그림과 같습니다.  
   

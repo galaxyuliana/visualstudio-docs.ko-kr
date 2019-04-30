@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 67e32d855ec6d0c172542cbdacc235f6b3e1b003
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: bc9981d324fe61cd3afe6cce4bc08d7b9b686c7f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604446"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402620"
 ---
 # <a name="class-hierarchy-of-symbol-types"></a>기호 형식의 클래스 계층 구조
 다음 표에서 클래스 계층 구조에서 기호 형식을 설명합니다.
@@ -43,7 +43,7 @@ ms.locfileid: "56604446"
 |[크기](../../debugger/debug-interface-access/dimension.md)|배열 차원에 대 한 기호입니다.|
 
 > [!NOTE]
->  각 기호가 기호 뿐만 아니라 다른 기호에 대 한 참조에 대 한 정보를 포함 하는 속성을 가질 수 있습니다. 이러한 속성은 개별 기호 항목에 나열 됩니다.
+> 각 기호가 기호 뿐만 아니라 다른 기호에 대 한 참조에 대 한 정보를 포함 하는 속성을 가질 수 있습니다. 이러한 속성은 개별 기호 항목에 나열 됩니다.
 
 ## <a name="see-also"></a>참고 항목
 - [CV_access_e 열거형](../../debugger/debug-interface-access/cv-access-e.md)

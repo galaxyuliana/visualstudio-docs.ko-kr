@@ -11,12 +11,12 @@ ms.assetid: f4ad4dd3-b39e-42df-ad89-d403cdf24a2b
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 702cac3c224b958a4de37b03814ecea7390ae217
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 0b37d93adbd2accb7a12fb176ab15aafc6914190
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441518"
 ---
 # <a name="configuration-options-overview"></a>구성 옵션 개요
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "58983285"
 |MyConfig|N/A|\<MyConfig Win64 settings>|  
   
 > [!NOTE]
->  "Win32" 플랫폼을 대상으로 하는 프로젝트에서 Win32를 지원 하지 않는 한 제외 하는 "MyConfig" 솔루션 구성을 만들 수 없습니다.  
+> "Win32" 플랫폼을 대상으로 하는 프로젝트에서 Win32를 지원 하지 않는 한 제외 하는 "MyConfig" 솔루션 구성을 만들 수 없습니다.  
   
  솔루션에 대 한 활성 구성을 변경 해당 솔루션의 빌드, 실행, 디버깅 또는 배포할 프로젝트 구성 집합을 선택 합니다. 예를 들어, 릴리스 활성 솔루션 구성을 디버그로 변경 하면 해당 솔루션 내 모든 프로젝트가 솔루션의 디버그 구성에 표시 된 프로젝트의 구성을 사용 하 여 자동으로 작성 됩니다. 프로젝트의 구성도 일반적으로 명명 된 디버그 하지 않은 경우 사용자가 수동으로 변경한 내용은 환경의 Configuration Manager에서.  
   

@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 1b21f8c84082e19c1d9f43d6a2ae36d158a15c01
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63008692"
 ---
 # <a name="work-with-documents"></a>문서 작업
   이 섹션의 항목에서는 Microsoft Office Word의 개체 모델을 사용하여 Office 프로젝트에서 문서 작업을 수행하는 단계별 절차 및 코드 예제를 제공합니다.

@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 1d5de41ff83f3ffd5b208445830862138511ba2b
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 2d346f3877574c45aaff6dcef8ca99f699a42552
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58154795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446656"
 ---
 # <a name="idebugdocumenthelperadddbcstext"></a>IDebugDocumentHelper::AddDBCSText
 이 문서의 끝에 DBCS 문자열을 추가 합니다.  
@@ -51,7 +51,7 @@ HRESULT AddDBCSText(
  이 메서드는 생성 `IDebugDocumentTextEvents` 알림.  
   
 > [!NOTE]
->  이 메서드가 이후에 호출 하는 경우 `IDebugDocumentHelper::AddDeferredText` 가 호출 된 `E_FAIL` 반환 됩니다.  
+> 이 메서드가 이후에 호출 하는 경우 `IDebugDocumentHelper::AddDeferredText` 가 호출 된 `E_FAIL` 반환 됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDebugDocumentHelper 인터페이스](../../winscript/reference/idebugdocumenthelper-interface.md)   

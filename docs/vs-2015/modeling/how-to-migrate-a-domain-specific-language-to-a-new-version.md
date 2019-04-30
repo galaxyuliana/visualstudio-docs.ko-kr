@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: acccb96f4d4092727e72d1d72103e26d7be96511
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3a8364f742a5bdd90ffa2532f01476b49e381289
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63441044"
 ---
 # <a name="how-to-migrate-a-domain-specific-language-to-a-new-version"></a>방법: 도메인 특정 언어를 새 버전으로 마이그레이션
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ ms.locfileid: "60110328"
    - 프로젝트 또는 솔루션 도구 되도록 변경 내용 목록을 보려면를 선택 합니다.  
   
        > [!NOTE]
-       >  폴더 이름 옆에 나타나는 확인란 아무런 효과가 없습니다. 프로젝트 및 솔루션을 검사 하는 폴더를 확장 해야 합니다.  
+       > 폴더 이름 옆에 나타나는 확인란 아무런 효과가 없습니다. 프로젝트 및 솔루션을 검사 하는 폴더를 확장 해야 합니다.  
   
 4. 프로젝트를 변환 합니다.  
   
@@ -78,7 +78,7 @@ ms.locfileid: "60110328"
    2. 클릭 합니다 **모든 템플릿 변환** 솔루션 탐색기의 헤더에는 단추입니다.  
   
        > [!NOTE]
-       >  이 단계는 불필요 한으로 만들 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
+       > 이 단계는 불필요 한으로 만들 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
   
 6. 변환 된 프로젝트에서 사용자 지정 코드를 업데이트 합니다.  
   

@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ebd8317af13ab542936b5f5d2f886b937bc6e65d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 7c04b8bd4ab956fe60191237910db35e2e463d3e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63442941"
 ---
 # <a name="export-uml-diagrams-to-image-files"></a>UML 다이어그램을 이미지 파일로 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ UML 문서를 내보낼 수 있습니다 [!INCLUDE[vsprvs](../includes/vsprvs-md
  다음 코드에서는 이미지를 파일에 저장하는 바로 가기 메뉴 명령(상황에 맞는 메뉴 명령이라고도 함)을 정의합니다.  
   
 > [!NOTE]
->  이 코드를 메뉴 명령으로 실행하려면 MEF 구성 요소에 통합해야 합니다. 자세한 내용은 [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)합니다.  
+> 이 코드를 메뉴 명령으로 실행하려면 MEF 구성 요소에 통합해야 합니다. 자세한 내용은 [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)합니다.  
   
  코드에서 먼저 <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape.GetObject%2A>을 사용하여 기본 구현의 <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>을 가져옵니다. 이 형식에는 <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.CreateBitmap%2A> 메서드가 있습니다.  
   

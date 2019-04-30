@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 4446235a9584bc45fad84b6f92ecc02592e554f3
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63009626"
 ---
 # <a name="iactivescripterrorgetsourceposition"></a>IActiveScriptError::GetSourcePosition
 스크립팅 엔진을 스크립트를 실행 하는 동안 오류가 발생 하는 소스 코드의 위치를 검색 합니다.  

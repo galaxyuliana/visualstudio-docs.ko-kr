@@ -11,12 +11,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 48d70901a2d616031eeed197b639f3a7bb7336c3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 37539ee6c031d88b9db279cc61214ac5e3077e76
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387676"
 ---
 # <a name="read-a-uml-model-in-program-code"></a>프로그램 코드에서 UML 모델 읽기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,7 +74,7 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
  이전 섹션의 예제는 Visual Studio 확장에서 작동합니다. 독립 실행형 응용 프로그램에서 모델을 읽을 수 있지만 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트에 일부 참조를 추가해야 합니다.  
   
 > [!NOTE]
->  독립 실행형 응용 프로그램에서 모델을 읽는 방법의 세부 정보는 이후 버전의 제품에서 변경될 수 있습니다. 현재 버전에서 액세스할 수 있는 일부 기능을 이후 버전에서는 사용하지 못할 수도 있습니다.  
+> 독립 실행형 응용 프로그램에서 모델을 읽는 방법의 세부 정보는 이후 버전의 제품에서 변경될 수 있습니다. 현재 버전에서 액세스할 수 있는 일부 기능을 이후 버전에서는 사용하지 못할 수도 있습니다.  
   
 #### <a name="to-add-references-to-read-a-model-in-a-stand-alone-application"></a>독립 실행형 응용 프로그램에서 모델을 읽기 위해 참조를 추가하려면  
   

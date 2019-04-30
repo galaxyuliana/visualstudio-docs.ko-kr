@@ -12,12 +12,12 @@ caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8832f31724d5e688b93dcca76cce8e1a496c9ced
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 40be072c9ebc518068d9f02a28507b011bec125a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60083220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446764"
 ---
 # <a name="walkthrough-connecting-a-host-to-a-generated-directive-processor"></a>연습: 생성된 된 지시문 프로세서에 호스트 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "60083220"
  이 연습에서는 텍스트 템플릿 지시문 프로세서를 호출 하는 지원 하도록 해당 사용자 지정 호스트를 확장 합니다. 도메인 특정 언어를 정의 하는 경우 생성 된 *지시문 프로세서* 도메인 모델에 대 한 합니다. 지시문 프로세서를 사용 하면 쉽게 어셈블리를 작성 하 고 import 지시문 템플릿에 필요성이 줄어듭니다 모델에 액세스 하는 템플릿을 작성할 수 있습니다.  
   
 > [!WARNING]
->  이 연습은 [연습: 사용자 지정 텍스트 템플릿 호스트 만들기](../modeling/walkthrough-creating-a-custom-text-template-host.md)합니다. 먼저 다음 연습을 수행 합니다.  
+> 이 연습은 [연습: 사용자 지정 텍스트 템플릿 호스트 만들기](../modeling/walkthrough-creating-a-custom-text-template-host.md)합니다. 먼저 다음 연습을 수행 합니다.  
   
  이 연습에는 다음 작업이 포함됩니다.  
   
@@ -68,7 +68,7 @@ ms.locfileid: "60083220"
 2. **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.  
   
    > [!IMPORTANT]
-   >  이 단계는 지시문 프로세서를 생성 하 고 레지스트리에서 키에 대 한 추가 합니다.  
+   > 이 단계는 지시문 프로세서를 생성 하 고 레지스트리에서 키에 대 한 추가 합니다.  
   
 3. **디버그** 메뉴에서 **디버깅 시작**을 클릭합니다.  
   
@@ -120,7 +120,7 @@ ms.locfileid: "60083220"
 5. 속성에 대 한 코드를 찾을 `StandardAssemblyReferences`를 다음 코드로 바꿉니다.  
   
     > [!NOTE]
-    >  이 단계에서는 호스트에서 지원 되는 생성 된 지시문 프로세서에 필요한 어셈블리에 대 한 참조를 추가 합니다.  
+    > 이 단계에서는 호스트에서 지원 되는 생성 된 지시문 프로세서에 필요한 어셈블리에 대 한 참조를 추가 합니다.  
   
     ```csharp  
     //the host can provide standard assembly references  
@@ -156,7 +156,7 @@ ms.locfileid: "60083220"
 6. 함수에 대 한 코드를 찾을 `ResolveDirectiveProcessor`를 다음 코드로 바꿉니다.  
   
     > [!IMPORTANT]
-    >  이 코드를 연결 하려면 생성 된 지시문 프로세서의 이름에 대 한 하드 코드 된 참조를 포함 합니다. 보다 일반적인 쉽게 유지할 수 있습니다 하 고 모든 지시문 프로세서를 찾습니다는 경우에 레지스트리에 나열 일치를 찾으려고 합니다. 이 경우 호스트가 모든 생성 된 지시문 프로세서를 사용 하 여 작동 합니다.  
+    > 이 코드를 연결 하려면 생성 된 지시문 프로세서의 이름에 대 한 하드 코드 된 참조를 포함 합니다. 보다 일반적인 쉽게 유지할 수 있습니다 하 고 모든 지시문 프로세서를 찾습니다는 경우에 레지스트리에 나열 일치를 찾으려고 합니다. 이 경우 호스트가 모든 생성 된 지시문 프로세서를 사용 하 여 작동 합니다.  
   
     ```csharp  
     //the engine calls this method based on the directives the user has   
@@ -241,7 +241,7 @@ ms.locfileid: "60083220"
 2. 텍스트 파일에 다음을 추가합니다.  
   
     > [!NOTE]
-    >  텍스트 템플릿의 프로그래밍 언어 사용자 지정 호스트와 일치 하지 않아도 됩니다.  
+    > 텍스트 템플릿의 프로그래밍 언어 사용자 지정 호스트와 일치 하지 않아도 됩니다.  
   
     ```csharp  
     Text Template Host Test  
@@ -325,7 +325,7 @@ ms.locfileid: "60083220"
      `<YOUR PATH>CustomHost\bin\Debug\CustomHost.exe`  
   
     > [!NOTE]
-    >  CustomHost.exe 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기**, 파일을 명령 프롬프트 창으로 끌어와서 합니다.  
+    > CustomHost.exe 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기**, 파일을 명령 프롬프트 창으로 끌어와서 합니다.  
   
 3. 공백을 입력합니다.  
   
@@ -336,7 +336,7 @@ ms.locfileid: "60083220"
      `<YOUR PATH>TestTemplateWithDP.txt`  
   
     > [!NOTE]
-    >  TestTemplateWithDP.txt 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기**, 파일을 명령 프롬프트 창으로 끌어와서 합니다.  
+    > TestTemplateWithDP.txt 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기**, 파일을 명령 프롬프트 창으로 끌어와서 합니다.  
   
      사용자 지정 호스트 응용 프로그램을 실행 하 고 텍스트 템플릿 변형 프로세스를 시작 합니다.  
   

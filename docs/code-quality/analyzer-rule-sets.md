@@ -1,6 +1,6 @@
 ---
 title: 분석기 규칙 집합
-ms.date: 07/20/2018
+ms.date: 04/22/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - analyzers, rule sets
@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: da5eab1424ac6f6fe580ec0f71ec3efd6e120020
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
-ms.translationtype: MT
+ms.openlocfilehash: 32ed328cb399f0cd3e9a2a147d29fad56b845399
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57866999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387692"
 ---
 # <a name="rule-sets-for-roslyn-analyzers"></a>Roslyn 분석기에 대 한 규칙 집합
 
@@ -25,7 +25,7 @@ Roslyn 분석기를 레거시 "FxCop" 정적 코드 분석에서 마이그레이
 
 ## <a name="use-analyzer-rule-sets"></a>분석기 규칙 집합 사용
 
-한 후 [NuGet 분석기 패키지를 설치](install-roslyn-analyzers.md), 미리 정의 된 규칙 집합을 찾아 해당 *ruleset* 예를 들어 디렉터리 *% USERPROFILE %\\.nuget\packages\ microsoft.codequality.analyzers\<버전 > \rulesets*합니다. 여기에서 있습니다 수, 또는 복사 끌어서 이상의 ruleset Visual Studio 프로젝트에 붙여 넣습니다 **솔루션 탐색기**합니다.
+한 후 [NuGet 분석기 패키지를 설치](install-roslyn-analyzers.md), 미리 정의 된 규칙 집합을 찾아 해당 *ruleset* 디렉터리. 예를 들어 참조 된 `Microsoft.CodeAnalysis.FxCopAnalyzers` 분석기 패키지에서 해당 규칙 집합 디렉터리를 찾을 수 있습니다 다음 *% USERPROFILE %\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<버전 \>\rulesets*합니다. 여기에서 있습니다 수, 또는 복사 끌어서 이상의 ruleset Visual Studio 프로젝트에 붙여 넣습니다 **솔루션 탐색기**합니다.
 
 프로젝트를 마우스 오른쪽 단추로 활성 규칙 집합 분석을 위해 설정 하는 규칙을 만들려면 **솔루션 탐색기** 선택한 **속성**합니다. 프로젝트 속성 페이지에서 선택 합니다 **코드 분석** 탭 합니다. 아래 **이 규칙 집합 실행**를 선택 **찾아보기**를 선택한 다음 프로젝트 디렉터리에 복사 하는 원하는 규칙 집합입니다. 이제 선택한 규칙 집합에서 사용 되는 규칙에 대 한 규칙 위반만 참조 합니다.
 

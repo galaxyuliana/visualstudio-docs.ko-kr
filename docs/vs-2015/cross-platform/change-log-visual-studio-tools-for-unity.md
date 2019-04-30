@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: conceptdev
 ms.author: crdun
 manager: jillfra
-ms.openlocfilehash: 99a254798ad3e222401a8346df454a70699c7feb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ad20d4678c24458582f80cc819e6f6a651fb2790
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63443028"
 ---
 # <a name="change-log-visual-studio-tools-for-unity"></a>변경 로그(Visual Studio Tools for Unity)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -401,7 +401,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 - Visual Studio 테마 부분에 대한 처리 문제를 수정합니다.
 
 > [!IMPORTANT]
->  Unity 에코시스템에서 널리 사용되는 C# 언어 - 새로운 샘플 자산은 C#으로 되어 있으며 Unity 설명서는 C#이 기본값으로 설정됩니다. C# 환경에 초점을 맞추기 위해 UnityScript 및 Boo에 대한 기본 지원을 제거했습니다. 결과적으로 VSTU 솔루션은 이제 C# 전용이며 훨씬 빠르게 로드됩니다.
+> Unity 에코시스템에서 널리 사용되는 C# 언어 - 새로운 샘플 자산은 C#으로 되어 있으며 Unity 설명서는 C#이 기본값으로 설정됩니다. C# 환경에 초점을 맞추기 위해 UnityScript 및 Boo에 대한 기본 지원을 제거했습니다. 결과적으로 VSTU 솔루션은 이제 C# 전용이며 훨씬 빠르게 로드됩니다.
 
 ## <a name="182"></a>1.8.2
  릴리스됨 2014-01-07
@@ -740,7 +740,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
 - Unity 4에서 .pdb 기호의 변환 문제를 수정했습니다.
 
 > [!IMPORTANT]
->  Visual Studio 2012 지원으로 인해 일부 파일의 이름을 바꾸고 다른 위치로 이동했습니다. Unity를 가져오기 위한 UnityVS 패키지는 이제 Visual Studio 2010 및 Visual Studio 2012에 대해 각각 UnityVS 2010 또는 UnityVS 2012로 명명되었습니다. 이 버전에서는 UnityVS 프로젝트 파일을 다시 생성해야 합니다.
+> Visual Studio 2012 지원으로 인해 일부 파일의 이름을 바꾸고 다른 위치로 이동했습니다. Unity를 가져오기 위한 UnityVS 패키지는 이제 Visual Studio 2010 및 Visual Studio 2012에 대해 각각 UnityVS 2010 또는 UnityVS 2012로 명명되었습니다. 이 버전에서는 UnityVS 프로젝트 파일을 다시 생성해야 합니다.
 
 ## <a name="106---internal-build"></a>1.0.6 - 내부 빌드
  릴리스됨 2012-09-12
