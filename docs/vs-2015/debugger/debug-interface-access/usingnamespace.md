@@ -13,12 +13,12 @@ caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8e5be853d75fd1aa7ed701c428cdb15822d867cc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: a8213aeba3d9b1b0577e7639725642d574189b1d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434134"
 ---
 # <a name="usingnamespace"></a>UsingNameSpace
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "58983341"
 일부 기호 네임 스페이스에 의해 참조 될 수 있습니다 및 이후에로 식별 되었을 것을 `SymTagUsingNameSpace` 태그입니다.  
   
 > [!NOTE]
->  UsingNamespace 기호 태그는 관리 코드에만 나타납니다.  
+> UsingNamespace 기호 태그는 관리 코드에만 나타납니다.  
   
 ## <a name="properties"></a>속성  
  다음 표에서이 기호 형식에 대 한 잘못 된 속성을 보여 줍니다.  

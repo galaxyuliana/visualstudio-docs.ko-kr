@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cc42301901c6642a54dcb6b84de52a4acc198b4a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 4953c8478e25a1534691e99c41dce03930ac46ef
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56720421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434670"
 ---
 # <a name="sccdirqueryinfo-function"></a>SccDirQueryInfo 함수
 이 함수는 현재 상태에 대 한 정규화 된 디렉터리의 목록을 검사합니다.
@@ -66,7 +66,7 @@ LPLONG  lpStatus
  IDE는 해당 프로젝트에 있는지를 쿼리하여 디렉터리는 소스 제어 하는지 여부를 확인 하려면 디렉터리 이름이 전에이 함수를 사용 합니다. 소스 제어에서 디렉터리가 없는 경우 IDE는 사용자에 게 적절 한 경고를 제공할 수 있습니다.
 
 > [!NOTE]
->  소스 제어 플러그 인을 하나 이상 상태 값은 구현 하지 하기로 구현 되지 않은 비트를 0으로 설정 되어야 합니다.
+> 소스 제어 플러그 인을 하나 이상 상태 값은 구현 하지 하기로 구현 되지 않은 비트를 0으로 설정 되어야 합니다.
 
 ## <a name="see-also"></a>참고자료
 - [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)

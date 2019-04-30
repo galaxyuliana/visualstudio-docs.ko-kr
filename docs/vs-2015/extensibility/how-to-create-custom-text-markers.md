@@ -10,12 +10,12 @@ ms.assetid: 6e32ed81-c604-4a32-9012-8db3bec7c846
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: bbe6f59bdddb19b236cfba1256324a52765b78a6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ac681879e0f7ad0902358be23d74d57ccee406f8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435978"
 ---
 # <a name="how-to-create-custom-text-markers"></a>방법: 사용자 지정 텍스트 표식 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "60103500"
     *\<PackageGUID >* 자동화 개체를 구현 하는 VSPackage의 GUID입니다.  
   
    > [!NOTE]
-   >  루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 >* 자세한 내용은 Visual Studio 셸이 초기화 될 때를 대체 루트로 재정의할 수 있습니다 [명령줄 스위치](../extensibility/command-line-switches-visual-studio-sdk.md)합니다.  
+   > 루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 >* 자세한 내용은 Visual Studio 셸이 초기화 될 때를 대체 루트로 재정의할 수 있습니다 [명령줄 스위치](../extensibility/command-line-switches-visual-studio-sdk.md)합니다.  
   
 2. HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio 아래 4 개의 값을 만듭니다\\*\<버전 >* \Text Editor\External 표식\\*\<MarkerGUID >*  
   
@@ -93,4 +93,4 @@ ms.locfileid: "60103500"
  [텍스트 마커를 사용 하 여 레거시 API를 사용 하 여](../extensibility/using-text-markers-with-the-legacy-api.md)   
  [방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md)   
  [방법: 오류 마커를 구현 합니다.](../extensibility/how-to-implement-error-markers.md)   
- [방법: 텍스트 마커를 사용 합니다.](../extensibility/how-to-use-text-markers.md)
+ [방법: 텍스트 표식 사용](../extensibility/how-to-use-text-markers.md)

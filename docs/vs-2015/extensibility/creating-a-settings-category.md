@@ -10,12 +10,12 @@ ms.assetid: 97c88693-05ff-499e-8c43-352ee073dcb7
 caps.latest.revision: 40
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 04151a6fd3b934dd39e795cafc375974ac5a6b33
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4427931b079671a19e647860b263105ffdf52bd4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435536"
 ---
 # <a name="creating-a-settings-category"></a>설정 범주 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "60043668"
      그러면 해당 범주 "My Category"는 개체 "My Settings", 이름과 범주 설명을 "OptionInteger 및 OptionFloat" 리소스가 만들어집니다.  
   
     > [!NOTE]
-    >  이 세 가지 범주 이름만 설정 가져오기 및 내보내기 마법사에 나타나지 않습니다.  
+    > 이 세 가지 범주 이름만 설정 가져오기 및 내보내기 마법사에 나타나지 않습니다.  
   
 3. MyToolsOptionsPackage.cs, 추가 `float` 라는 속성이 `OptionFloat` 에 `OptionPageGrid` 다음 예와에서 같이 클래스입니다.  
   
@@ -77,7 +77,7 @@ ms.locfileid: "60043668"
     ```  
   
     > [!NOTE]
-    >  합니다 `OptionPageGrid` 범주 이제 "My Category" 라는 두 속성은 이루어져 `OptionInteger` 및 `OptionFloat`합니다.  
+    > 합니다 `OptionPageGrid` 범주 이제 "My Category" 라는 두 속성은 이루어져 `OptionInteger` 및 `OptionFloat`합니다.  
   
 4. 추가 된 <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> 에 `MyToolsOptionsPackage` 클래스 및 CategoryName "My Category"를 지정 하 고, ObjectName "My Settings"를 지정 하 고 isToolsOptionPage true로 설정 합니다. 이전에 만든 Id를 해당 문자열 리소스에 categoryResourceID, objectNameResourceID, 및 DescriptionResourceID를 설정 합니다.  
   

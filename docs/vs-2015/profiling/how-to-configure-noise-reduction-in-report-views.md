@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8c6974d7606a6c60df785fe2301a695f6775716d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5871473eaba749833714d6382beb487702ebe02d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432765"
 ---
 # <a name="how-to-configure-noise-reduction-in-report-views"></a>방법: 보고서 뷰에서 노이즈 감소 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "60106087"
     1. **잘라내기 사용**을 선택합니다. 이것이 기본 설정입니다.  
   
         > [!NOTE]
-        >  노이즈 감소가 사용되면 알림 표시줄이 보고서에 표시됩니다. 자세한 내용은 [호출 트리 뷰](../profiling/call-tree-view.md) 및 [할당 뷰](../profiling/dotnet-memory-allocations-view.md)를 참조하세요.  
+        > 노이즈 감소가 사용되면 알림 표시줄이 보고서에 표시됩니다. 자세한 내용은 [호출 트리 뷰](../profiling/call-tree-view.md) 및 [할당 뷰](../profiling/dotnet-memory-allocations-view.md)를 참조하세요.  
   
     2. **값** 드롭다운 목록을 사용하고 적용 가능한 설정을 선택하여 값 설정을 구성합니다.  
   
@@ -67,7 +67,7 @@ ms.locfileid: "60106087"
     1. **접기 사용**을 선택합니다. 이것이 기본 설정입니다.  
   
         > [!NOTE]
-        >  노이즈 감소가 사용되면 알림 표시줄이 보고서에 표시됩니다. 자세한 내용은 [호출 트리 뷰](../profiling/call-tree-view.md) 및 [할당 뷰](../profiling/dotnet-memory-allocations-view.md)를 참조하세요.  
+        > 노이즈 감소가 사용되면 알림 표시줄이 보고서에 표시됩니다. 자세한 내용은 [호출 트리 뷰](../profiling/call-tree-view.md) 및 [할당 뷰](../profiling/dotnet-memory-allocations-view.md)를 참조하세요.  
   
     2. **값** 드롭다운 목록을 사용하고 적용 가능한 설정을 선택하여 값 설정을 구성합니다.  
   

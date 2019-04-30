@@ -8,12 +8,12 @@ ms.assetid: 4f4b5f10-7314-4725-8c6e-e72f52eff918
 caps.latest.revision: 16
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 02c819ee0311066fb2a4e543213faaedfee5a2ad
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d532234e50177222c3165638c0d77a8bd7c1b142
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437973"
 ---
 # <a name="writing-unit-tests-for-cc-with-the-microsoft-unit-testing-framework-for-c"></a>C++용 Microsoft 유닛 테스트 프레임워크를 사용하여 C/C++용 유닛 테스트 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -247,7 +247,7 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
     ```  
   
     > [!TIP]
-    >  통과된 테스트는 변경하지 않는 것이 좋습니다. 대신, 새 테스트를 추가하고, 테스트가 통과하도록 코드를 업데이트하고, 다시 다른 테스트를 추가하는 방식을 반복합니다.  
+    > 통과된 테스트는 변경하지 않는 것이 좋습니다. 대신, 새 테스트를 추가하고, 테스트가 통과하도록 코드를 업데이트하고, 다시 다른 테스트를 추가하는 방식을 반복합니다.  
     >   
     >  사용자가 요구 사항을 변경할 경우, 더 이상 올바르지 않은 테스트는 비활성화합니다. 새 테스트를 작성하고, 동일한 증분 방식으로 한 번에 하나씩 작동합니다.  
   
@@ -258,7 +258,7 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
      ![RangeTest 실패](../test/media/ute-cpp-testexplorer-rangetest-fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")  
   
     > [!TIP]
-    >  테스트 작성 후 즉시 각 테스트가 실패하는지 확인합니다. 이렇게 하면 결코 실패하지 않는 테스트를 작성하게 되는 간단한 실수를 방지하는 데 도움이 됩니다.  
+    > 테스트 작성 후 즉시 각 테스트가 실패하는지 확인합니다. 이렇게 하면 결코 실패하지 않는 테스트를 작성하게 되는 간단한 실수를 방지하는 데 도움이 됩니다.  
   
 3. 새 테스트가 통과하도록 테스트 중인 코드를 향상시킵니다.  
   
@@ -286,7 +286,7 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
      ![단위 테스트 탐색기 &#45; RangeTest 통과](../test/media/utecpp12.png "UteCpp12")  
   
     > [!TIP]
-    >  한 번에 하나씩 테스트를 추가하여 코드를 개발합니다. 각 반복 후 모든 테스트가 통과하는지 확인합니다.  
+    > 한 번에 하나씩 테스트를 추가하여 코드를 개발합니다. 각 반복 후 모든 테스트가 통과하는지 확인합니다.  
   
 ### <a name="debug"></a> 실패한 테스트 디버그  
   
@@ -361,7 +361,7 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
      ![모든 테스트 통과](../test/media/ute-ult-alltestspass.png "UTE_ULT_AllTestsPass")  
   
 > [!TIP]
->  개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 ![UTE&#95;parallelicon&#45;small](../test/media/ute-parallelicon-small.png "UTE_parallelicon-small") 토글 단추를 사용하여 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.  
+> 개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 ![UTE&#95;parallelicon&#45;small](../test/media/ute-parallelicon-small.png "UTE_parallelicon-small") 토글 단추를 사용하여 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.  
   
 ### <a name="refactor"></a> 테스트를 변경하지 않고 코드 리팩터링  
   
@@ -378,7 +378,7 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
 2. 솔루션을 빌드하고 **모두 실행**을 선택하여 오류가 발생하지 않았는지 확인합니다.  
   
     > [!TIP]
-    >  단위 테스트 집합이 올바르면 코드 변경으로 인해 오류가 발생하지 않는다는 확신을 얻을 수 있습니다.  
+    > 단위 테스트 집합이 올바르면 코드 변경으로 인해 오류가 발생하지 않는다는 확신을 얻을 수 있습니다.  
     >   
     >  리팩터링은 다른 변경 사항과 구분해서 관리합니다.  
   

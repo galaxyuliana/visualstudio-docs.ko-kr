@@ -24,12 +24,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 337c57c79e55c5113bb4411a091d2c29a954c342
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bb97c86176dd29278f64ab467557e663ee9e6d2e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60098586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437552"
 ---
 # <a name="customizing-window-layouts-in-visual-studio"></a>Visual Studio에서 창 레이아웃 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +77,7 @@ Visual Studio에서 창의 위치, 크기 및 동작을 사용자 지정하여 �
   도구 및 문서 창은 끌거나, **창** 메뉴에서 명령을 사용하거나, 정렬할 창의 제목 표시줄을 마우스 오른쪽 단추로 클릭하여 정렬할 수 있습니다.
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
 
 ### <a name="docking-windows"></a>창 도킹
  도구 창의 제목 표시줄이나 문서 창의 탭을 클릭하고 끌면 안내 다이아몬드가 나타납니다. 끌기 작업 중에 마우스 커서가 다이아몬드의 화살표 중 하나 위에 있을 때 지금 마우스 단추를 놓으면 창이 도킹될 위치를 보여 주는 음영 영역이 나타납니다.
@@ -106,16 +106,16 @@ Visual Studio에서 창의 위치, 크기 및 동작을 사용자 지정하여 �
  ![자동 숨기기](../ide/media/vs2015-auto-hide.png "vs2015_auto_hide")
 
 > [!NOTE]
->  자동 숨기기가 도구 창에서 개별적으로 작동하는지 아니면 도킹된 그룹으로 작동하는지를 설정하려면 **옵션** 대화 상자에서 **Auto Hide button affects active tool windows only(자동 숨기기 단추가 활성 도구 창에만 영향을 미침)** 을 선택하거나 선택 취소합니다. 자세한 내용은 [General, Environment, Options Dialog Box](../ide/reference/general-environment-options-dialog-box.md)을 참조하세요.
+> 자동 숨기기가 도구 창에서 개별적으로 작동하는지 아니면 도킹된 그룹으로 작동하는지를 설정하려면 **옵션** 대화 상자에서 **Auto Hide button affects active tool windows only(자동 숨기기 단추가 활성 도구 창에만 영향을 미침)** 을 선택하거나 선택 취소합니다. 자세한 내용은 [General, Environment, Options Dialog Box](../ide/reference/general-environment-options-dialog-box.md)을 참조하세요.
 
 > [!NOTE]
->  자동 숨기기를 사용하도록 설정된 도구 창은 포커스가 있을 때 일시적으로 표시될 수 있습니다. 창을 다시 숨기려면 현재 창 외부에서 항목을 선택합니다. 창이 포커스를 잃으면 다시 표시되지 않습니다.
+> 자동 숨기기를 사용하도록 설정된 도구 창은 포커스가 있을 때 일시적으로 표시될 수 있습니다. 창을 다시 숨기려면 현재 창 외부에서 항목을 선택합니다. 창이 포커스를 잃으면 다시 표시되지 않습니다.
 
 ### <a name="specifying-a-monitor"></a>모니터 지정
  모니터가 하나 더 있고 운영 체제에서 해당 모니터를 지원하는 경우 창을 표시하는 모니터를 선택할 수 있습니다. 여러 창을 다른 모니터에서 함께 그룹화할 수도 있습니다.
 
 > [!TIP]
->  **솔루션 탐색기** 의 인스턴스를 여러 개 만들고 다른 모니터로 이동할 수 있습니다. 창을 마우스 오른쪽 단추로 클릭하고 **새 솔루션 탐색기 뷰**를 선택합니다. Ctrl 키를 선택한 상태에서 두 번 클릭하여 모든 창을 원래 모니터로 되돌릴 수 있습니다.
+> **솔루션 탐색기** 의 인스턴스를 여러 개 만들고 다른 모니터로 이동할 수 있습니다. 창을 마우스 오른쪽 단추로 클릭하고 **새 솔루션 탐색기 뷰**를 선택합니다. Ctrl 키를 선택한 상태에서 두 번 클릭하여 모든 창을 원래 모니터로 되돌릴 수 있습니다.
 
 ### <a name="reset-name-and-switch-between-window-layouts"></a>창 레이아웃 다시 설정, 이름 지정 및 전환
  **창 레이아웃 다시 설정** 명령을 사용하여 설정 컬렉션에 대한 원래 창 레이아웃으로 IDE를 되돌릴 수 있습니다. 이 명령을 실행하면 다음과 같은 작업이 발생합니다.

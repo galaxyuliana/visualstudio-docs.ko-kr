@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 7c50bb7bf6c61a8061b3817c53027a3dd6e5b29f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cb4defa206d176e57804e6d2473262568cd5edbf
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434208"
 ---
 # <a name="upgrade-custom-project-and-item-templates-for-visual-studio-2017"></a>사용자 지정 프로젝트 및 항목 템플릿을 Visual Studio 2017에 대 한 업그레이드
 
@@ -53,7 +53,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
     3. Visual Studio를 다시 엽니다. 필요한 위치에 템플릿을 찾아야 합니다.
 
     > [!NOTE]
-    >  Visual Studio 확장성 프로젝트 템플릿 레지스트리 키가 존재 하는 경우 사용할 수 없는 경우 레지스트리 키를 삭제 해야 합니다 (다시 실행 하십시오 **devenv /installvstemplates**) 사용 합니다.
+    > Visual Studio 확장성 프로젝트 템플릿 레지스트리 키가 존재 하는 경우 사용할 수 없는 경우 레지스트리 키를 삭제 해야 합니다 (다시 실행 하십시오 **devenv /installvstemplates**) 사용 합니다.
 
 ## <a name="other-recommendations-for-deploying-project-and-item-templates"></a>프로젝트 및 항목 템플릿을 배포 하기 위한 기타 권장 사항
 

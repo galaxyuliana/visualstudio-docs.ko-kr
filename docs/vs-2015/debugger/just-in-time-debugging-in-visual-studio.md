@@ -16,12 +16,12 @@ caps.latest.revision: 51
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1f2d3f0bd70a4c7be82b991eb5397065fe3d4ee7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3e78e23d7e176dffef1531da1af28d318253d9d1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431439"
 ---
 # <a name="just-in-time-debugging-in-visual-studio"></a>Visual Studio에서 Just-In-Time 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,7 +92,7 @@ Visual Studio Just-에-시간을 표시 하는 경우 수행 해야 하는 작�
 5. 닫기 합니다 **레지스트리 편집기** 창입니다.
 
 > [!NOTE]
->  Just 시간 서버 쪽 앱에 대 한 디버깅을 사용 하지 않도록 설정 하려는 경우 다음이 단계에서 문제를 해결 하지 IIS 응용 프로그램 설정에서 서버 쪽 디버깅을 해제 하 고 다시 시도 하세요.
+> Just 시간 서버 쪽 앱에 대 한 디버깅을 사용 하지 않도록 설정 하려는 경우 다음이 단계에서 문제를 해결 하지 IIS 응용 프로그램 설정에서 서버 쪽 디버깅을 해제 하 고 다시 시도 하세요.
 
 #### <a name="to-enable-just-in-time-debugging-of-a-windows-form"></a>Windows Form에 Just-In-Time 디버깅을 사용하려면
 
@@ -140,7 +140,7 @@ static void Main(string[] args)
 ```
 
 > [!IMPORTANT]
->  이 절차에서 작동 하도록 하기 위해를 [릴리스 구성을](../debugger/how-to-set-debug-and-release-configurations.md)를 해제 해야 [Just My Code](../debugger/just-my-code.md)합니다. Visual Studio에서 클릭 **도구 / 옵션**합니다. 에 **옵션** 대화 상자에서 **디버깅**합니다. 검사를 제거 **내 코드만**합니다.
+> 이 절차에서 작동 하도록 하기 위해를 [릴리스 구성을](../debugger/how-to-set-debug-and-release-configurations.md)를 해제 해야 [Just My Code](../debugger/just-my-code.md)합니다. Visual Studio에서 클릭 **도구 / 옵션**합니다. 에 **옵션** 대화 상자에서 **디버깅**합니다. 검사를 제거 **내 코드만**합니다.
 
  솔루션을 빌드합니다 (Visual Studio에서 선택 **빌드 / 솔루션 다시 빌드**). 디버그 또는 릴리스 구성을 선택할 수 있습니다. 빌드 구성에 대한 자세한 내용은 [빌드 구성 이해](../ide/understanding-build-configurations.md)를 참조하세요.
 
@@ -157,7 +157,7 @@ static void Main(string[] args)
  클릭 하지 마세요 **취소**! 두 개의 단추를 몇 초 후 표시 **디버그** 하 고 **프로그램을 닫아**합니다. 클릭 **디버그**합니다.
 
 > [!CAUTION]
->  응용 프로그램에 신뢰할 수 없는 코드가 보안 경고 대화 상자가 나타납니다. 이 대화 상자에서 디버깅을 계속할지 여부를 결정할 수 있습니다. 디버깅을 계속하기 전에 코드를 신뢰할 수 있는지 확인해야 합니다. 직접 작성한 코드인지, 코드 작성자를 신뢰할 수 있는지, 응용 프로그램이 원격 컴퓨터에서 실행 중인 경우 프로세스 이름을 알 수 있는지 등을 확인합니다. 응용 프로그램이 로컬로 실행 중이라고 해서 반드시 신뢰할 수 있는 것은 아닙니다. 컴퓨터에서 악의적인 코드가 실행 될 가능성을 고려 합니다. 코드를 하려는 경우 디버그를 신뢰할 수, 클릭 **디버그**합니다. 그렇지 않은 경우 클릭 **디버깅 하지 마십시오**합니다.
+> 응용 프로그램에 신뢰할 수 없는 코드가 보안 경고 대화 상자가 나타납니다. 이 대화 상자에서 디버깅을 계속할지 여부를 결정할 수 있습니다. 디버깅을 계속하기 전에 코드를 신뢰할 수 있는지 확인해야 합니다. 직접 작성한 코드인지, 코드 작성자를 신뢰할 수 있는지, 응용 프로그램이 원격 컴퓨터에서 실행 중인 경우 프로세스 이름을 알 수 있는지 등을 확인합니다. 응용 프로그램이 로컬로 실행 중이라고 해서 반드시 신뢰할 수 있는 것은 아닙니다. 컴퓨터에서 악의적인 코드가 실행 될 가능성을 고려 합니다. 코드를 하려는 경우 디버그를 신뢰할 수, 클릭 **디버그**합니다. 그렇지 않은 경우 클릭 **디버깅 하지 마십시오**합니다.
 
  합니다 **Visual Studio Just-In-Time Debugger** 창이 나타납니다.
 

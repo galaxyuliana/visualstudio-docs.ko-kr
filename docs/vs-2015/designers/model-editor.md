@@ -12,12 +12,12 @@ caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 370f6992fb044f5bd7f3593e63afeab46c82830b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 81f2766e5c382f8beaa4cb20472da6e0e6fc94e2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432622"
 ---
 # <a name="model-editor"></a>모델 편집기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -157,7 +157,7 @@ ms.locfileid: "60072294"
 2. **속성** 창에서 **회전**, **배율** 및 **좌표 이동** 속성에 대한 값을 지정합니다.  
   
    > [!IMPORTANT]
-   >  **회전** 속성의 경우 세 축 각각을 중심으로 회전할 각도를 지정합니다. 회전은 순서대로 적용되기 때문에 x축, y축 및 z축 회전을 기준으로 먼저 계획을 세워야 합니다.  
+   > **회전** 속성의 경우 세 축 각각을 중심으로 회전할 각도를 지정합니다. 회전은 순서대로 적용되기 때문에 x축, y축 및 z축 회전을 기준으로 먼저 계획을 세워야 합니다.  
   
    모델링 도구를 사용함으로써 변환을 정밀하지는 않지만 빠르게 만들 수 있습니다. 개체 속성을 설정함으로써 변환을 빠르지는 않지만 정밀하게 지정할 수 있습니다. 원하는 변환에 "충분히 가까이" 가져온 다음 속성 값을 미세 조정하려면 모델링 도구를 사용하는 것이 좋습니다.  
   

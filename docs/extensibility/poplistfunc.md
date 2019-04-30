@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 54b73a7f34c663661ae9cc2e2805e5fb6bd11480
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 83e54cf1b0e6f15b1a6c5dc0af379a8b88bd77f4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434234"
 ---
 # <a name="poplistfunc"></a>POPLISTFUNC
 이 콜백은에 제공 되는 [SccPopulateList](../extensibility/sccpopulatelist-function.md) IDE에서 소스 제어 플러그 인 파일 또는 디렉터리의 목록을 업데이트 하는 데 사용 됩니다 (도 제공는 `SccPopulateList` 함수).
@@ -56,7 +56,7 @@ typedef BOOL (*POPLISTFUNC) (
  소스 제어 플러그 인을 추가 하거나 파일 목록에서 삭제 하려는 각 파일에 대해 전달,이 함수를 호출 합니다 `lpFileName`합니다. `fAddRemove` 플래그 목록에 추가할 새 파일 또는 삭제 하려면 이전 파일을 나타냅니다. `nStatus` 매개 변수는 파일의 상태를 제공 합니다. 반환 하는 플러그 인 SCC 파일 추가 및 삭제 완료 되 면 합니다 [SccPopulateList](../extensibility/sccpopulatelist-function.md) 호출 합니다.
 
 > [!NOTE]
->  `SCC_CAP_POPULATELIST` 기능 비트 Visual Studio에 필요 합니다.
+> `SCC_CAP_POPULATELIST` 기능 비트 Visual Studio에 필요 합니다.
 
 ## <a name="see-also"></a>참고자료
 - [IDE에 의해 구현 된 콜백 함수](../extensibility/callback-functions-implemented-by-the-ide.md)

@@ -13,12 +13,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 751b894e46fa6c76f866ddd3209d25c169ff6660
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 41c7aa12e4adf2a757689670cdfed394f2a534c6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433706"
 ---
 # <a name="call-hierarchy"></a>호출 계층 구조
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "59649409"
 - **코드 정의 창**이 열려 있는 경우 선택한 멤버에 대 한 코드를 표시 합니다. 이 창은 C# 및 C++에서 사용 가능합니다. 이 창에 대한 자세한 내용은 [코드 구조 보기](../../ide/viewing-the-structure-of-code.md)를 참조하세요.  
   
 > [!NOTE]
->  호출 계층 구조에서는 메서드가 이벤트 처리기로 추가되거나 대리자에 할당되는 위치가 포함된 메서드 그룹 참조를 찾지 않습니다. 메서드에 대한 모든 참조를 찾으려면 **모든 참조 찾기** 명령을 사용할 수 있습니다.  
+> 호출 계층 구조에서는 메서드가 이벤트 처리기로 추가되거나 대리자에 할당되는 위치가 포함된 메서드 그룹 참조를 찾지 않습니다. 메서드에 대한 모든 참조를 찾으려면 **모든 참조 찾기** 명령을 사용할 수 있습니다.  
   
 ## <a name="shortcut-menu-items"></a>바로 가기 메뉴 항목  
  다음 표는 트리 뷰 창에서 노드를 마우스 오른쪽 단추로 클릭할 때 사용할 수 있는 여러 가지 바로 가기 메뉴 옵션을 설명합니다.  

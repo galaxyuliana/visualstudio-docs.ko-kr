@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b9927a4aea836da753fc0df7d67a46cf74f466dd
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 566407f4d15fdaedaf9a89eb50648e555a370750
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434531"
 ---
 # <a name="supporting-multiple-versions-of-visual-studio"></a>여러 버전의 Visual Studio 지원
 용어 *side-by-side-* 설치 하 고 동일한 컴퓨터에서 제품의 여러 버전을 유지 관리할 수 있는 것을 의미 합니다. Vspackage, 즉,는 사용자는 동일한 컴퓨터에 설치 하는 몇 가지 Visual Studio 버전을 가질 수 있습니다. 그러나 단일 버전의 Visual Studio에 로드 하 여 Vspackage의 side-by-side-버전 수는 없습니다.
@@ -36,7 +36,7 @@ ms.locfileid: "56679442"
    자세한 내용은 [Windows Installer를 사용 하 여 Vspackage 설치](../extensibility/internals/installing-vspackages-with-windows-installer.md) 권한과 [구성 요소 관리](../extensibility/internals/component-management.md)합니다.
 
   > [!NOTE]
-  >  해당 버전의 설치도 Visual Studio의 버전을 설치 합니다 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다. 예를 들어 버전 4.0 및 4.5의 설치도 동일한 컴퓨터에 Visual Studio 2010 및 Visual Studio 2012를 설치 합니다 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], 각각.
+  > 해당 버전의 설치도 Visual Studio의 버전을 설치 합니다 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다. 예를 들어 버전 4.0 및 4.5의 설치도 동일한 컴퓨터에 Visual Studio 2010 및 Visual Studio 2012를 설치 합니다 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], 각각.
 
 ## <a name="in-this-section"></a>섹션 내용
 - [공유 간의 선택 및 버전 관리 Vspackage](../extensibility/choosing-between-shared-and-versioned-vspackages.md) VSPackage의 side-by-side-문제를 해결 하는 방법에 설명 합니다.

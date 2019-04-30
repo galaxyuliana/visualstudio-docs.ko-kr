@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 91ccf1637d6b8a1f612031c8d59deeef8e07efc7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 575f17c641eb057dc01fb3302098bd9f8b47f9c5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431626"
 ---
 # <a name="troubleshooting-performance-tools-issues"></a>성능 도구 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,4 +48,4 @@ ms.locfileid: "60077357"
 - 프로파일링 데이터(.vsp) 파일에 기호 정보를 포함합니다. 자세한 내용은 [성능 데이터 파일을 사용하여 기호 정보 저장](../profiling/saving-symbol-information-with-performance-data-files.md)을 참조하세요.  
   
 > [!NOTE]
->  분석 엔진이 정상적으로 작동하려면 .pdb 파일의 버전이 컴파일된 애플리케이션과 같아야 합니다. 이전 또는 이후 애플리케이션 파일 빌드의 .pdb 파일은 사용할 수 없습니다.
+> 분석 엔진이 정상적으로 작동하려면 .pdb 파일의 버전이 컴파일된 애플리케이션과 같아야 합니다. 이전 또는 이후 애플리케이션 파일 빌드의 .pdb 파일은 사용할 수 없습니다.

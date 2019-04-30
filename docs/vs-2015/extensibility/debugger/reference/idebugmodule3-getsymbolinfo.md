@@ -13,12 +13,12 @@ ms.assetid: dda5e8e1-6878-4aa9-9ee4-e7d0dcc11210
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a500b84f04f5f9dce37515edae71fda509a63bbb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 48dd08b8ef1a8b32497d03dc7989b32a22ee5a9c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426363"
 ---
 # <a name="idebugmodule3getsymbolinfo"></a>IDebugModule3::GetSymbolInfo
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ int GetSymbolInfo(
  메서드가 성공 하는 경우 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
 > [!NOTE]
->  반환된 된 문자열 (에 `MODULE_SYMBOL_SEARCH_INFO` 구조) 비워 둘 수 없습니다 경우에 `S_OK` 반환 됩니다. 이 경우에 반환할 검색 정보가 없습니다.  
+> 반환된 된 문자열 (에 `MODULE_SYMBOL_SEARCH_INFO` 구조) 비워 둘 수 없습니다 경우에 `S_OK` 반환 됩니다. 이 경우에 반환할 검색 정보가 없습니다.  
   
 ## <a name="remarks"></a>설명  
  경우는 `bstrVerboseSearchInfo` 필드는 `MODULE_SYMBOL_SEARCH_INFO` 구조체가 비어 있는 경우를 검색 하는 경로 및 해당 검색 결과의 목록을 포함 합니다. 목록 뒤에 있는 줄임표 ("..."), 결과 뒤에 경로 형식은입니다. 둘 이상의 경로 결과 쌍의 경우 각 쌍은 "\r\n" (캐리지 리턴/줄 바꿈) 쌍으로 구분 됩니다. 패턴은 다음과 같습니다.  
@@ -66,7 +66,7 @@ int GetSymbolInfo(
  이 예제에서는이 메서드는 세 개의 다른 검색 결과 사용 하 여 세 개의 경로 반환합니다. 각 줄은 캐리지 리턴/줄 바꿈 쌍으로 종료 됩니다. 이 예제의 출력을 단일 문자열로 검색 결과 출력 합니다.  
   
 > [!NOTE]
->  상태 결과 바로 다음에 "..." 줄의 끝까지 전부입니다.  
+> 상태 결과 바로 다음에 "..." 줄의 끝까지 전부입니다.  
   
 ```cpp#  
 void ShowSymbolSearchResults(IDebugModule3 *pIDebugModule3)  

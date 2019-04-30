@@ -9,12 +9,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ba23da85e24dd7c1020b19b66852cad86f79a03b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b733af14e5b5124928c315ae4a87098513714214
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433344"
 ---
 # <a name="creating-a-windows-forms-based-domain-specific-language"></a>Windows Forms 기반 도메인별 언어 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -85,7 +85,7 @@ DSL 인스턴스를 모델 탐색기 및 Windows 폼 UI를 표시 합니다.
      라는 추가 도메인 속성을 제공 `Size` 형식의 **Int32**, 및 `IsOrganic` 형식의 **부울**합니다.  
 
     > [!NOTE]
-    >  루트 도메인 클래스를 삭제 하 고 새 루트를 만든 경우에 편집기 루트 클래스 속성을 다시 설정 해야 합니다. **DSL 탐색기**를 선택 **편집기**합니다. 속성 창에서 설정한 **루트 클래스** 에 `Farm`입니다.  
+    > 루트 도메인 클래스를 삭제 하 고 새 루트를 만든 경우에 편집기 루트 클래스 속성을 다시 설정 해야 합니다. **DSL 탐색기**를 선택 **편집기**합니다. 속성 창에서 설정한 **루트 클래스** 에 `Farm`입니다.  
 
 4. 사용 된 **명명 된 도메인 클래스** 다음 도메인 클래스를 만드는 도구:  
 
@@ -110,7 +110,7 @@ DSL 인스턴스를 모델 탐색기 및 Windows 폼 UI를 표시 합니다.
 10. 빌드를 **Dsl** 프로젝트입니다.  
 
     > [!NOTE]
-    >  이 단계에서는 다른 프로젝트가 오류 없이 빌드되지 않습니다. 그러나 해당 어셈블리를 데이터 원본 마법사를 사용할 수 있도록 Dsl 프로젝트를 작성 하려고 합니다.  
+    > 이 단계에서는 다른 프로젝트가 오류 없이 빌드되지 않습니다. 그러나 해당 어셈블리를 데이터 원본 마법사를 사용할 수 있도록 Dsl 프로젝트를 작성 하려고 합니다.  
 
 ## <a name="updating-the-ui-project"></a>UI 프로젝트를 업데이트 하는 중  
  이제에서 DSL 모델에 저장 된 정보를 표시 하는 새 사용자 컨트롤을 만들 수 있습니다. 사용자 정의 컨트롤 모델에 연결 하는 가장 쉬운 방법은 데이터 바인딩을 통해 됩니다. 데이터 바인딩 이라는 어댑터 유형을 **ModelingBindingSource** Dsl VMSDK이 아닌 인터페이스에 연결 하도록 특별히 설계 되었습니다.  
@@ -154,7 +154,7 @@ DSL 인스턴스를 모델 탐색기 및 Windows 폼 UI를 표시 합니다.
 6. 도구 상자를 사용 하 여의 두 인스턴스를 만듭니다 **DataGridView**, 하 고 이름을 `AnimalGridView` 고 `FieldGridView`합니다.  
 
    > [!NOTE]
-   >  컨트롤에 데이터 소스 창에서 동물 및 필드 항목을 끌어 하는 대체 단계가입니다. 이 작업에는 자동으로 데이터 표 및 그리드 보기와 데이터 원본 간의 바인딩을 만듭니다. 그러나이 바인딩 Dsl에 대 한 제대로 작동 하지 않습니다. 데이터 표 및 바인딩을 만들려면 향상 되므로 수동으로.  
+   > 컨트롤에 데이터 소스 창에서 동물 및 필드 항목을 끌어 하는 대체 단계가입니다. 이 작업에는 자동으로 데이터 표 및 그리드 보기와 데이터 원본 간의 바인딩을 만듭니다. 그러나이 바인딩 Dsl에 대 한 제대로 작동 하지 않습니다. 데이터 표 및 바인딩을 만들려면 향상 되므로 수동으로.  
 
 7. 도구 상자에 없는 경우는 **ModelingBindingSource** 도구를 추가 합니다. 바로 가기 메뉴에는 **데이터** 탭을 선택 **선택 항목**합니다. 에 **도구 상자 항목 선택** 대화 상자에서 **ModelingBindingSource** 에서 합니다 **.NET 프레임 워크 탭**합니다.  
 
@@ -227,7 +227,7 @@ DSL 인스턴스를 모델 탐색기 및 Windows 폼 UI를 표시 합니다.
      `Goat1` 에 표시 되는 **동물** 보기.  
 
     > [!WARNING]
-    >  바로 가기 메뉴를 사용 해야 합니다 **팜에** 노드를 하지는 **동물** 노드.  
+    > 바로 가기 메뉴를 사용 해야 합니다 **팜에** 노드를 하지는 **동물** 노드.  
 
 4. 선택 된 **팜** 루트 노드 및 해당 속성을 봅니다.  
 

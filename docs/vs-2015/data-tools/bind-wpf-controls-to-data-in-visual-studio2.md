@@ -22,12 +22,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 003b010ed5b1e3bf442be778b6cbb7d6e35efe1f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5c1733d6d4e60aad10896dbd2fcad16406830b83
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437049"
 ---
 # <a name="bind-wpf-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -80,7 +80,7 @@ ms.locfileid: "60112002"
      다른 컨트롤을 선택하려면 항목 옆의 드롭다운 화살표를 클릭하고 컨트롤을 선택합니다. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.
 
     > [!NOTE]
-    >  특정 열이나 속성을 표시하지 않으려면 항목을 확장하여 해당 자식을 표시합니다. 열 이나 속성을 표시 한 다음 클릭 하지 않으려면는 옆에 있는 드롭다운 화살표를 클릭 **None**합니다.
+    > 특정 열이나 속성을 표시하지 않으려면 항목을 확장하여 해당 자식을 표시합니다. 열 이나 속성을 표시 한 다음 클릭 하지 않으려면는 옆에 있는 드롭다운 화살표를 클릭 **None**합니다.
 
 3. <xref:System.Windows.Controls.Grid>와 같은 디자이너의 유효한 컨테이너로 항목을 끌어 옵니다. 유효한 컨테이너에 대 한 자세한 내용은 참조 하세요. [Visual Studio에서 데이터를 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)합니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "60112002"
 2. 선택한 항목 옆의 드롭다운 화살표를 클릭 **세부 정보**합니다.
 
     > [!NOTE]
-    >  특정 열이나 속성을 표시하지 않으려면 항목을 확장하여 해당 자식을 표시합니다. 열 이나 속성을 표시 한 다음 클릭 하지 않으려면는 옆에 있는 드롭다운 화살표를 클릭 **None**합니다.
+    > 특정 열이나 속성을 표시하지 않으려면 항목을 확장하여 해당 자식을 표시합니다. 열 이나 속성을 표시 한 다음 클릭 하지 않으려면는 옆에 있는 드롭다운 화살표를 클릭 **None**합니다.
 
 3. <xref:System.Windows.Controls.Grid>와 같은 디자이너의 유효한 컨테이너로 항목을 끌어 옵니다. 유효한 컨테이너에 대 한 자세한 내용은 참조 하세요. [Visual Studio에서 데이터를 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)합니다.
 
@@ -118,7 +118,7 @@ ms.locfileid: "60112002"
      [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 생성 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 및 데이터에 컨트롤을 바인딩하는 코드입니다. 자세한 내용은 [Visual Studio에서 데이터를 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)합니다.
 
     > [!NOTE]
-    >  컨트롤이 이미 데이터에 바인딩된 경우 컨트롤의 데이터 바인딩이 가장 최근에 컨트롤로 끌어 온 항목으로 다시 설정됩니다.
+    > 컨트롤이 이미 데이터에 바인딩된 경우 컨트롤의 데이터 바인딩이 가장 최근에 컨트롤로 끌어 온 항목으로 다시 설정됩니다.
 
 ## <a name="see-also"></a>참고 항목
  [Visual Studio에서 데이터에 WPF 컨트롤을 바인딩할](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md) [WPF 응용 프로그램에서 조회 테이블 만들기](../data-tools/create-lookup-tables-in-wpf-applications.md) [WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/display-related-data-in-wpf-applications.md) [데이터집합에바인딩할WPF컨트롤](../data-tools/bind-wpf-controls-to-a-dataset.md) [WCF 데이터 서비스에 WPF 바인딩 컨트롤](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md) [연습: WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)

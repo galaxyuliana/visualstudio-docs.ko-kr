@@ -12,12 +12,12 @@ caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 653c2760c369381162f519223b75ce8a7468c507
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 4c02e9dc3b1f355cc2c0f580ce88893ce7f34b46
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60067016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433157"
 ---
 # <a name="define-a-gesture-handler-on-a-modeling-diagram"></a>모델링 다이어그램의 제스처 처리기 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,7 +79,7 @@ Visual Studio에서 사용자가 항목을 두 번 클릭하거나 UML 다이어
 3. 프로젝트에 클래스 파일을 추가하고 해당 콘텐츠를 다음 코드로 설정합니다.  
   
    > [!NOTE]
-   >  원하는 대로 네임스페이스 및 클래스 이름을 변경합니다.  
+   > 원하는 대로 네임스페이스 및 클래스 이름을 변경합니다.  
   
    ```  
    using System.ComponentModel.Composition;  
@@ -243,7 +243,7 @@ Visual Studio에서 사용자가 항목을 두 번 클릭하거나 UML 다이어
   
    - 프로젝트가 두 개 이상 있으면 VSIX 프로젝트가 솔루션의 시작 프로젝트로 설정되었는지 확인합니다.  
   
-   - 솔루션 탐색기의 시작 또는 전용 프로젝트 바로 가기 메뉴에서 속성을 선택합니다. 프로젝트 속성 편집기에서 **디버그** 탭을 선택합니다. 시작 외부 프로그램** 필드의 문자열이 보통 다음과 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 전체 경로 이름인지 확인합니다.  
+   - 솔루션 탐색기의 시작 또는 전용 프로젝트 바로 가기 메뉴에서 속성을 선택합니다. 프로젝트 속성 편집기에서 **디버그** 탭을 선택합니다. **시작 외부 프로그램** 필드의 문자열이 보통 다음과 같은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 전체 경로 이름인지 확인합니다.  
   
         `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
   

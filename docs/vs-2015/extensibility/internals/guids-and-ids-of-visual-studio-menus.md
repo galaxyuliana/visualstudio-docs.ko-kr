@@ -15,12 +15,12 @@ ms.assetid: 84639d86-dd21-4b35-9988-6bb654162488
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4cce7d5d8e3bff5a759fa0f63f5bb9524511c9df
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: d10549867c355018e301afa14cf2ba3a8f113e4d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436303"
 ---
 # <a name="guids-and-ids-of-visual-studio-menus"></a>Visual Studio 메뉴의 GUID 및 ID
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "58986359"
 |창|IDM_VS_MENU_WINDOW|
 |추가 기능|IDM_VS_MENU_ADDINS|
 |커뮤니티|IDM_VS_MENU_COMMUNITY|
-|도움말|IDM_VS_MENU_HELP|
+|Help|IDM_VS_MENU_HELP|
 
 ## <a name="groups-on-visual-studio-menus"></a>Visual Studio 메뉴에서 그룹
  다음 목록에서는 Visual Studio 메뉴 모음에서 메뉴에서 직접 물려받은 그룹을 나타냅니다. Visual Studio 메뉴에 명령을 추가 하는 가장 빠른 방법은 부모로 이러한 그룹 중 하나를 설정 하는 것입니다. 이 섹션에는 하위 메뉴에서 물려받은 그룹 표시 되지 않습니다.
@@ -180,7 +180,7 @@ ms.locfileid: "58986359"
  다음 계층에서는 Visual Studio 메뉴 모음에서 메뉴와 연결 된 하위 메뉴를 보여 줍니다. 그룹만 부모로 메뉴를 가질 수 있으므로 모든 하위 메뉴 해야 내림차순 그룹에서 메뉴의 대신 메뉴에서 직접. 메뉴, 그룹 및 하위 메뉴 간의 관계에 대 한 자세한 내용은 참조 하세요. [하위 메뉴에 추가](../../extensibility/adding-a-submenu-to-a-menu.md)합니다.
 
 > [!NOTE]
->  Visual Studio 메뉴 모음에서 메뉴 이름은 별도로이 계층에서 때문에 표시 되지 다음과 같이 IDE에서 그룹에 대 한 명명 규칙에서 유추할 수 있습니다. IDG_VS_*메뉴 이름*_*그룹 이름을*입니다.
+> Visual Studio 메뉴 모음에서 메뉴 이름은 별도로이 계층에서 때문에 표시 되지 다음과 같이 IDE에서 그룹에 대 한 명명 규칙에서 유추할 수 있습니다. IDG_VS_*메뉴 이름*_*그룹 이름을*입니다.
 
 |부모 그룹|하위 메뉴|자식 그룹|
 |------------------|-------------|------------------|

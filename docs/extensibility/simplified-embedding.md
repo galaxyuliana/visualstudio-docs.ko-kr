@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bcfb96a50192cc1da0c23c037a33119658ef17d4
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: b9252db6202754e534b1af8a284d768fcd70eb47
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434560"
 ---
 # <a name="simplified-embedding"></a>간단한 포함
 해당 문서 뷰 개체 (즉, 자식 수) 부모가 되는 경우 편집기에서 활성화 되어 단순화 포함 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> 인터페이스 해당 창 명령을 처리 하기 위해 구현 됩니다. 간단한 포함 편집기 활성 컨트롤을 호스팅할 수 없습니다. 간단한 포함 편집기를 만드는 데 개체는 다음 그림에 표시 됩니다.
@@ -23,7 +23,7 @@ ms.locfileid: "56696781"
  ![간단한 포함 편집기 그래픽](../extensibility/media/vssimplifiedembeddingeditor.gif "vsSimplifiedEmbeddingEditor") 간단한 포함 편집기
 
 > [!NOTE]
->  만이 그림의 개체는 `CYourEditorFactory` 표준 파일 기반 편집기를 만드는 데 필요한 개체입니다. 사용자 지정 편집기를 만드는 경우는 필요가 없으며 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2>편집기에는 자체 전용 지 속성 메커니즘이 있을 때문입니다. 그러나 사용자 지정이 아닌 편집기에 대해 해야 합니다.
+> 만이 그림의 개체는 `CYourEditorFactory` 표준 파일 기반 편집기를 만드는 데 필요한 개체입니다. 사용자 지정 편집기를 만드는 경우는 필요가 없으며 구현 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2>편집기에는 자체 전용 지 속성 메커니즘이 있을 때문입니다. 그러나 사용자 지정이 아닌 편집기에 대해 해야 합니다.
 
  에 포함 된 간단한 포함 편집기를 만들기 위해 구현 하는 모든 인터페이스는 `CYourEditorDocument` 개체입니다. 그러나 문서 데이터의 여러 보기를 지원 하기 위해 분할 별도 데이터와 뷰 개체 인터페이스는 다음 표에 표시 된 대로.
 

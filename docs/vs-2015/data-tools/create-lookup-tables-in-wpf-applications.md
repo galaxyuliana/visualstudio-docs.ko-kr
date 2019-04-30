@@ -22,12 +22,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d069f48e39327cf73f741eb2b2ff02688fa4c3d4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8401a41c479dea70289cd0ebf072fc3b57eff78d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434504"
 ---
 # <a name="create-lookup-tables-in-wpf-applications"></a>WPF 애플리케이션에서 조회 테이블 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "60095921"
     - 개체. 자세한 내용은 [방법: 데이터 개체에 연결할](http://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b)합니다.  
   
     > [!NOTE]
-    >  조회 테이블을 만들려면 먼저 프로젝트에 대 한 데이터 원본으로 두 개의 관련된 테이블이 나 개체가 존재 해야 합니다.  
+    > 조회 테이블을 만들려면 먼저 프로젝트에 대 한 데이터 원본으로 두 개의 관련된 테이블이 나 개체가 존재 해야 합니다.  
   
 2. 열기는**WPF 디자이너**, 디자이너 항목에 대 한 유효한 놓기 대상 컨테이너가 포함 되어 있는지 확인 합니다 **데이터 원본** 창입니다.  
   
@@ -58,7 +58,7 @@ ms.locfileid: "60095921"
 4. 노드를 확장 합니다 **데이터 원본** 창에서 부모 테이블 또는 개체와 관련 된 자식 테이블 또는 개체 표시 될 때까지 합니다.  
   
     > [!NOTE]
-    >  관련된 자식 테이블 또는 개체는 부모 테이블 또는 개체를 확장할 수 있는 자식 노드로 표시 되는 노드입니다.  
+    > 관련된 자식 테이블 또는 개체는 부모 테이블 또는 개체를 확장할 수 있는 자식 노드로 표시 되는 노드입니다.  
   
 5. 자식 노드에 대 한 드롭다운 메뉴를 클릭 하 고 선택 **세부 정보**합니다.  
   
@@ -73,12 +73,12 @@ ms.locfileid: "60095921"
     - **ListView**  
   
         > [!NOTE]
-        >  경우는 **ListBox** 하거나 **ListView** 컨트롤이 없으면 목록에서 목록에 이러한 컨트롤을 추가할 수 있습니다. 정보를 참조 하세요 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.  
+        > 경우는 **ListBox** 하거나 **ListView** 컨트롤이 없으면 목록에서 목록에 이러한 컨트롤을 추가할 수 있습니다. 정보를 참조 하세요 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.  
   
     - 파생 되는 모든 사용자 지정 컨트롤 <xref:System.Windows.Controls.Primitives.Selector>합니다.  
   
         > [!NOTE]
-        >  사용자 지정 컨트롤의 컨트롤 목록에 추가 하는 방법에 대 한 정보 항목에 대해 선택할 수는 **데이터 원본** 창 참조 [데이터 소스 창에 사용자 지정 컨트롤을 추가할](../data-tools/add-custom-controls-to-the-data-sources-window.md)합니다.  
+        > 사용자 지정 컨트롤의 컨트롤 목록에 추가 하는 방법에 대 한 정보 항목에 대해 선택할 수는 **데이터 원본** 창 참조 [데이터 소스 창에 사용자 지정 컨트롤을 추가할](../data-tools/add-custom-controls-to-the-data-sources-window.md)합니다.  
   
 8. 자식 노드를 끌어 합니다 **데이터 원본** WPF 디자이너에서 컨테이너 창. (앞의 예제에서 자식 노드는 합니다 **주문** 노드.)  
   

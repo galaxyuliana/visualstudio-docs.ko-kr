@@ -19,12 +19,12 @@ caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 63328af2211f18fe553c32b018ed0a8422a1857f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 282945f473f2799b92b24321383190ca38557cbc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422767"
 ---
 # <a name="deploying-com-components-with-clickonce"></a>ClickOnce를 사용하여 COM 구성 요소 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,7 +65,7 @@ ms.locfileid: "60066353"
 2. 에 **새 프로젝트** 대화 상자에서를 **Visual Basic** 선택한 노드는 **ActiveX DLL** 프로젝트. **이름** 상자에 `VB6Hello`을 입력합니다.  
   
     > [!NOTE]
-    >  등록이 필요 없는 COM을 사용 하 여 ActiveX DLL 및 ActiveX 컨트롤 프로젝트 형식만 지원 됩니다. ActiveX EXE 프로젝트 형식과 ActiveX 문서 관리 지원 되지 않습니다.  
+    > 등록이 필요 없는 COM을 사용 하 여 ActiveX DLL 및 ActiveX 컨트롤 프로젝트 형식만 지원 됩니다. ActiveX EXE 프로젝트 형식과 ActiveX 문서 관리 지원 되지 않습니다.  
   
 3. **솔루션 탐색기**를 두 번 클릭 **Class1.vb** 텍스트 편집기를 엽니다.  
   
@@ -80,7 +80,7 @@ ms.locfileid: "60066353"
 5. 구성 요소를 빌드하십시오. **빌드할** 메뉴에서 클릭 **솔루션 빌드**합니다.  
   
 > [!NOTE]
->  COM 제어 프로젝트 형식 및 등록이 필요 없는 COM Dll만 지원 합니다. 등록이 필요 없는 com Exe를 사용할 수 없습니다.  
+> COM 제어 프로젝트 형식 및 등록이 필요 없는 COM Dll만 지원 합니다. 등록이 필요 없는 com Exe를 사용할 수 없습니다.  
   
  이제 Windows 기반 응용 프로그램을 만들고 COM 구성 요소에 대 한 참조를 추가할 수 있습니다.  
   
@@ -128,7 +128,7 @@ ms.locfileid: "60066353"
    이제 f5 키를 예상 대로 응용 프로그램 작동 하지만 경우 등록-COM에서 이제 실행 중인 이 증명 하기 위해 고 VB6Hello.dll 구성 요소를 등록 취소를 RegFreeComDemo1.exe Visual Studio IDE 외부에서 실행 합니다. 이 이번에는 단추를 클릭할 때 계속 작동 합니다. 응용 프로그램 매니페스트를 일시적으로 바꾸면 다시 못합니다.  
   
 > [!NOTE]
->  COM 구성 요소가 없는 경우 일시적으로 등록을 취소 하 여 시뮬레이션할 수 있습니다. 명령 프롬프트를 열고를 입력 하 여 시스템 폴더를 이동할 `cd /d %windir%\system32`를 입력 하 여 다음 구성 요소 등록을 취소 `regsvr32 /u VB6Hello.dll`합니다. 입력 하 여 다시 등록 하는 수 `regsvr32 VB6Hello.dll`입니다.  
+> COM 구성 요소가 없는 경우 일시적으로 등록을 취소 하 여 시뮬레이션할 수 있습니다. 명령 프롬프트를 열고를 입력 하 여 시스템 폴더를 이동할 `cd /d %windir%\system32`를 입력 하 여 다음 구성 요소 등록을 취소 `regsvr32 /u VB6Hello.dll`합니다. 입력 하 여 다시 등록 하는 수 `regsvr32 VB6Hello.dll`입니다.  
   
  마지막 단계를 사용 하 여 응용 프로그램 게시를 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]:  
   

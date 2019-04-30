@@ -14,12 +14,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: db58bb1826aab9a26dcec6a9475c49fc99057891
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: e10279740d590b63bb3781afd3486f7952123664
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431932"
 ---
 # <a name="entity-data-model-tools-in-visual-studio"></a>Visual Studio에서 엔터티 데이터 모델 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ Entity Framework는.NET 개발자가 도메인별 개체를 사용 하 여 관�
 - 사용할 수는 **모델 업데이트 마법사** 기본 데이터베이스가 변경 된 경우에 개념적 모델, 저장소 모델 및 매핑을 업데이트 합니다.
 
   > [!NOTE]
-  >  Visual Studio 2010부터 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] 도구가 지원 하지 않습니다 [!INCLUDE[ss2k](../includes/ss2k-md.md)]합니다.
+  > Visual Studio 2010부터 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] 도구가 지원 하지 않습니다 [!INCLUDE[ss2k](../includes/ss2k-md.md)]합니다.
 
   도구 생성 하거나.edmx 파일을 수정 합니다. 이 파일에는 개념적 모델, 저장소 모델 간의 매핑을 설명 하는 정보가 들어 있습니다. 자세한 내용은 [EDMX](https://msdn.microsoft.com/data/jj650889.aspx)합니다.
 

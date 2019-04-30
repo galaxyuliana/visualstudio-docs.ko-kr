@@ -10,12 +10,12 @@ ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
 caps.latest.revision: 29
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 87a561ed3596b98f35e26e19e2c5851534aba564
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4b6c2810a81ada06152faea06e86a27f7907a643
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430105"
 ---
 # <a name="using-the-settings-store"></a>설정 저장소 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,6 +84,6 @@ ms.locfileid: "60094825"
 2. Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp_Config\InstalledProducts\\.  
   
     > [!NOTE]
-    >  \14.0Exp_Config\ 및 없습니다 \14.0_Config 포함 하는 키에서 찾으려는 있는지\\합니다. Visual Studio의 실험적 인스턴스를 실행 하면 구성 설정은 레지스트리 하이브 "14.0Exp_Config"에 있습니다.  
+    > \14.0Exp_Config\ 및 없습니다 \14.0_Config 포함 하는 키에서 찾으려는 있는지\\합니다. Visual Studio의 실험적 인스턴스를 실행 하면 구성 설정은 레지스트리 하이브 "14.0Exp_Config"에 있습니다.  
   
 3. \Installed Products\ 노드를 확장 합니다. 이전 단계에서 메시지 이면 **Microsoft Windows Phone 개발자 도구 설치: True**, \Installed Products\ Microsoft Windows Phone 개발자 도구 노드를 포함 해야 합니다. 메시지 이면 **Microsoft Windows Phone 개발자 도구 설치: False**, \Installed Products\ Microsoft Windows Phone 개발자 도구 노드를 포함 하지 않아야 합니다.

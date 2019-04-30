@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 3b05288a8863b2c555493d4a3f7ea8e2b7537d5a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 5e3444e6eedde9576216552e41abb0e97aafa2d7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412387"
 ---
 # <a name="idebugapplicationhandlebreakpoint"></a>IDebugApplication::HandleBreakPoint
 현재 스레드를 차단 하 고 디버거 IDE 중단점에 대 한 알림을 보냅니다.  
@@ -54,7 +54,7 @@ HRESULT HandleBreakPoint(
  언어 엔진의 중단점에 도달 하는 스레드 컨텍스트에서이 메서드를 호출 합니다. 이 메서드는 현재 스레드를 차단 하 고 디버거 IDE에 중단점 알림을 보냅니다. 디버거에서 응용 프로그램을 다시 시작 될 때를 `pbra` 매개 변수는 수행할 작업을 지정 합니다.  
   
 > [!NOTE]
->  언어 엔진 프레임 또는 중단점 중 식을 평가할 스택 열거와 같은 작업을 수행 하는 스레드에서 호출할 수 있습니다.  
+> 언어 엔진 프레임 또는 중단점 중 식을 평가할 스택 열거와 같은 작업을 수행 하는 스레드에서 호출할 수 있습니다.  
   
  이 메서드를 사용 하면 `IApplicationDebugger::onHandleBreakPoint` 호출할 수 있습니다.  
   

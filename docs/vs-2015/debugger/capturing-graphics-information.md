@@ -13,12 +13,12 @@ caps.latest.revision: 44
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d0b98d57500ad2115abfcbd229d29009afdda059
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9fbdaf845d780935b238bac2ba2c2e7cb0c53b59
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437823"
 ---
 # <a name="capturing-graphics-information"></a>그래픽 정보 캡처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ Visual Studio Graphics Analyzer를 사용하여 렌더링 문제 및 성능 문�
 - 키보드에서 Print Screen 키를 누릅니다.  
   
   > [!NOTE]
-  >  **그래픽 진단** 모드로 애플리케이션이 실행되는 동안에는 Print Screen 키를 그래픽 정보 프레임의 캡처에만 사용할 수 있으며, 일반 기능이 작동하지 않습니다. 이러한 상태는 그래픽 정보 캡처를 중지할 때까지 유지되며, 일반적으로 디버깅 중지 또는 응용 프로그램 정상 종료 시까지 유지됩니다. 이는 다른 응용 프로그램에 포커스가 있더라도 마찬가지입니다.  
+  > **그래픽 진단** 모드로 애플리케이션이 실행되는 동안에는 Print Screen 키를 그래픽 정보 프레임의 캡처에만 사용할 수 있으며, 일반 기능이 작동하지 않습니다. 이러한 상태는 그래픽 정보 캡처를 중지할 때까지 유지되며, 일반적으로 디버깅 중지 또는 응용 프로그램 정상 종료 시까지 유지됩니다. 이는 다른 응용 프로그램에 포커스가 있더라도 마찬가지입니다.  
   
 - Visual Studio 캡처 인터페이스를 선택 합니다 **프레임 캡처** 위에 있는 단추를 **진단 세션** 타임 라인 큰 선택 하거나 **프레임 캡처** 단추 아래에 **초당 프레임** 스윔 레인 및 모든 이전에 캡처한 프레임 오른쪽에 있습니다. 아래 그림에서는 이 두 단추가 모두 강조 표시되어 있습니다.  
   

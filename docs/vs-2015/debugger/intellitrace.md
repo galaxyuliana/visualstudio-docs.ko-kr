@@ -22,12 +22,12 @@ caps.latest.revision: 142
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c9097a8c067ce4e04dd54f879a6c1388f854d7ec
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: dfa2d0cb454dba07a036883a296d364cb3182afc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440154"
 ---
 # <a name="intellitrace"></a>IntelliTrace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,7 +62,7 @@ IntelliTrace를 사용하여 코드의 실행 내역을 기록하고 추적하�
 |**지원되지 않음**|- C++, 기타 언어 및 스크립트<br />-Windows 서비스, Silverlight, Xbox 또는 [!INCLUDE[winmobile](../includes/winmobile-md.md)] 앱|  
   
 > [!NOTE]
->  이미 실행 중인 프로세스를 디버깅하는 경우 IntelliTrace를 사용할 수 없습니다. 프로세스를 시작할 때 IntelliTrace를 시작해야 합니다.  
+> 이미 실행 중인 프로세스를 디버깅하는 경우 IntelliTrace를 사용할 수 없습니다. 프로세스를 시작할 때 IntelliTrace를 시작해야 합니다.  
   
 ## <a name="IntelliTraceVSTraditional"></a> IntelliTrace로 디버깅하는 이유는 무엇인가요?  
  전통적인 디버깅이나 ‘라이브’ 디버깅은 이전 이벤트에 대해 제한된 데이터를 사용하여 애플리케이션의 현재 상태만 보여 줍니다. 응용 프로그램의 현재 상태를 기반으로 이러한 이벤트를 유추하거나 응용 프로그램을 다시 실행하여 이러한 이벤트를 다시 만들어야 합니다.  
@@ -161,7 +161,7 @@ IntelliTrace를 사용하여 코드의 실행 내역을 기록하고 추적하�
 - 첫 번째 수준 자식 개체에 대한 포인터, null인지 여부만을 나타내며 해당 값에 대한 포인터는 아님  
   
 > [!NOTE]
->  IntelliTrace는 배열에서 처음 256 개체와 문자열의 경우 처음 256자만 수집합니다.  
+> IntelliTrace는 배열에서 처음 256 개체와 문자열의 경우 처음 256자만 수집합니다.  
   
  참조 [IntelliTrace 구성](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)합니다.  
   

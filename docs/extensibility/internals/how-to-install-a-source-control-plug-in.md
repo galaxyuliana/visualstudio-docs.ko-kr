@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9e368a318b2f6c552ce815c839e73f0a18ea5c9b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: e2835ab64d5665c00c404294ec12019d2b981654
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420519"
 ---
 # <a name="how-to-install-a-source-control-plug-in"></a>방법: 소스 제어 플러그 인 설치
 소스 제어 플러그 인을 만드는 세 가지 단계가 포함 됩니다.
@@ -45,7 +45,7 @@ ms.locfileid: "59648804"
    |HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SourceSafe\SCCServerPath|*c:\vss\win32\ssscc.dll*|
 
    > [!NOTE]
-   >  SCCServerPath에 SourceSafe 플러그 인에 전체 경로입니다. 소스 제어 플러그 인 회사 및 제품 이름은 다르지만 동일한 레지스트리 항목 경로 사용 합니다.
+   > SCCServerPath에 SourceSafe 플러그 인에 전체 경로입니다. 소스 제어 플러그 인 회사 및 제품 이름은 다르지만 동일한 레지스트리 항목 경로 사용 합니다.
 
 2. 소스 제어 플러그 인의 동작을 수정 하려면 다음 선택적 레지스트리 항목을 사용할 수 있습니다. 이러한 항목으로 동일한 하위 키에서 이동 **SccServerName** 하 고 **SccServerPath**합니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "59648804"
    |HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\ProviderRegKey|SOFTWARE\Microsoft\SourceSafe|
 
    > [!NOTE]
-   >  동일한 하위 키 및 항목 이름에 원본 제어 플러그 인을 사용 하지만 다른 값이 됩니다.
+   > 동일한 하위 키 및 항목 이름에 원본 제어 플러그 인을 사용 하지만 다른 값이 됩니다.
 
 4. 명명 된 하위 키를 만듭니다 **InstalledSCCProviders** 아래를 **SourceCodeControlProvider** 하위, 키 및 해당 하위 키 아래에 있는 하나의 항목을 배치 합니다.
 
@@ -86,7 +86,7 @@ ms.locfileid: "59648804"
    |HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\Microsoft Visual SourceSafe|SOFTWARE\Microsoft\SourceSafe|
 
    > [!NOTE]
-   >  여러 원본 제어 플러그 인이 방식으로 등록 되어 있을 수 있습니다. 이것이 어떻게 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 찾은 모든 원본 제어 플러그 인 API 기반 플러그 인을 설치 합니다.
+   > 여러 원본 제어 플러그 인이 방식으로 등록 되어 있을 수 있습니다. 이것이 어떻게 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 찾은 모든 원본 제어 플러그 인 API 기반 플러그 인을 설치 합니다.
 
 ## <a name="how-an-ide-locates-the-dll"></a>IDE에서 DLL을 찾는 하는 방법
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE에는 두 개의 플러그 인 DLL을 제어 하는 소스를 찾는 방법.
@@ -98,14 +98,14 @@ ms.locfileid: "59648804"
   첫 번째 방법은에서 DLL을 찾으려고 IDE에서 표시 합니다 **HKEY_LOCAL_MACHINE\Software\SourceCodeControlProvider** 항목에 대 한 하위 키 **ProviderRegKey**합니다. 이 항목의 값이 다른 하위 키를 가리킵니다. IDE 라는 항목이 다음 찾습니다 **SccServerPath** 아래에서 두 번째 하위 키 아래에 **HKEY_LOCAL_MACHINE**합니다. 이 항목의 값이 DLL을 IDE를 가리킵니다.
 
 > [!NOTE]
->  IDE 상대 경로에서 Dll을 로드 하지 않습니다 (예를 들어 *.\NewProvider.DLL*). DLL에 전체 경로 지정 해야 합니다 (예를 들어 *c:\Providers\NewProvider.DLL*). 이 무단 또는 가장 플러그 인 Dll의 로드를 방지 하 여 IDE의 보안을 강화 합니다.
+> IDE 상대 경로에서 Dll을 로드 하지 않습니다 (예를 들어 *.\NewProvider.DLL*). DLL에 전체 경로 지정 해야 합니다 (예를 들어 *c:\Providers\NewProvider.DLL*). 이 무단 또는 가장 플러그 인 Dll의 로드를 방지 하 여 IDE의 보안을 강화 합니다.
 
  두 번째 방법은에서 DLL을 찾으려고 IDE에서 표시 합니다 **HKEY_LOCAL_MACHINE\Software\SourceCodeControlProvider\InstalledSCCProviders** 모든 항목에 대 한 하위 키입니다. 각 항목에는 이름 및 값입니다. IDE는 사용자에 게 이러한 이름 목록을 표시합니다. 사용자 이름을 선택 하는 경우 IDE는 하위 키를 가리키는 선택한 이름에 대 한 값을 찾습니다. IDE 라는 항목을 찾습니다 **SccServerPath** 아래에 있는 하위 키 아래에 **HKEY_LOCAL_MACHINE**합니다. 해당 항목의 값이 올바른 DLL을 IDE를 가리킵니다.
 
  소스 제어 플러그 인 DLL을 찾는 한 가지 방법을 모두 지원 하며, 결과적으로 설정 **ProviderRegKey**, 이전 설정을 덮어씁니다. 무엇 보다도 목록에 추가 자체 해야 **InstalledSccProviders** 하므로 사용자는 사용 하는 소스 제어 플러그 인 중에서 선택할 수 있습니다.
 
 > [!NOTE]
->  그러나 때문에 합니다 **HKEY_LOCAL_MACHINE** 키를 지정된 된 컴퓨터에서 플러그 인 기본 소스 제어로 하나의 소스 제어 플러그 인을 등록할 수 있습니다 ( [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 사용자가 원본 제어 플러그 인을 확인할 수 실제로 사용 하려는 특정 솔루션에 대 한). 설치 프로세스 중 확인 하는 경우 소스 제어 플러그 인을 이미 설정 되어; 그렇다면 사용자에 게 요청 플러그 인을 기본적으로 설치 되 고 새 소스 제어를 설정할 것인지 여부입니다. 제거 하는 동안 모든 원본 제어 플러그 인에서 공통 되는 다른 레지스트리 하위 키를 제거 하지 마세요 **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider**;에 특정 SCC 하위 키만 제거 합니다.
+> 그러나 때문에 합니다 **HKEY_LOCAL_MACHINE** 키를 지정된 된 컴퓨터에서 플러그 인 기본 소스 제어로 하나의 소스 제어 플러그 인을 등록할 수 있습니다 ( [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 사용자가 원본 제어 플러그 인을 확인할 수 실제로 사용 하려는 특정 솔루션에 대 한). 설치 프로세스 중 확인 하는 경우 소스 제어 플러그 인을 이미 설정 되어; 그렇다면 사용자에 게 요청 플러그 인을 기본적으로 설치 되 고 새 소스 제어를 설정할 것인지 여부입니다. 제거 하는 동안 모든 원본 제어 플러그 인에서 공통 되는 다른 레지스트리 하위 키를 제거 하지 마세요 **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider**;에 특정 SCC 하위 키만 제거 합니다.
 
 ## <a name="how-the-ide-detects-version-1213-support"></a>IDE 지원 버전 1.2/1.3을 검색 하는 방법
  어떻게 않습니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 되었는지 플러그 인에서 지 원하는 원본 제어 플러그 인 API 버전 1.2 및 1.3 기능을 검색할? 고급 기능을 선언 하는 소스 제어 플러그 인 해당 함수를 구현 해야 합니다.

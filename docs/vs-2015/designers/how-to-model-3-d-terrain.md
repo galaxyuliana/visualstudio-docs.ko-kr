@@ -9,12 +9,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3c9d088be89e2cf963df65a0163713c297615121
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 90a24ef7b5bff321d460834a8fdde24e3e6cfd75
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434449"
 ---
 # <a name="how-to-model-3-d-terrain"></a>방법: 3d 지형 모델
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ ms.locfileid: "60097481"
 2. 장면에 평면을 추가합니다. **도구 상자**의 **도형**에서 **평면**을 선택하고 디자인 화면으로 이동합니다.  
   
    > [!TIP]
-   >  평면 개체를 더 쉽게 사용할 수 있도록 디자인 화면에서 개체를 프레이밍할 수 있습니다. **선택** 모드에서 평면 개체를 선택하고 [모델 편집기] 도구 모음에서 **프레임 개체** 단추를 선택합니다.  
+   > 평면 개체를 더 쉽게 사용할 수 있도록 디자인 화면에서 개체를 프레이밍할 수 있습니다. **선택** 모드에서 평면 개체를 선택하고 [모델 편집기] 도구 모음에서 **프레임 개체** 단추를 선택합니다.  
   
 3. 면 선택 모드를 시작합니다. [모델 편집기] 도구 모음에서 **표면 선택**을 선택합니다.  
   
@@ -62,7 +62,7 @@ ms.locfileid: "60097481"
 7. 점을 수정하여 지형 특성을 만듭니다. 점 선택 모드에서 점 중 하나를 선택하고 [모델 편집기] 도구 모음에서 **좌표 이동** 도구를 선택합니다. 점을 표현하는 상자가 디자인 화면에 표시됩니다. 녹색 화살표를 사용하여 상자를 이동하고 여기에서 점의 높이를 수정합니다. 다른 점에 대해 이 단계를 반복하여 흥미로운 지형 특성을 만듭니다.  
   
    > [!TIP]
-   >  한 번에 여러 점을 선택하여 동일한 방식으로 수정할 수 있습니다.  
+   > 한 번에 여러 점을 선택하여 동일한 방식으로 수정할 수 있습니다.  
   
    지형 모델이 완료되었습니다. 다음은 다시 퐁 음영이 적용된 최종 모델입니다.  
   

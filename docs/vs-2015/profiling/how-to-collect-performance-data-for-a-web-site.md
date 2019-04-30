@@ -19,12 +19,12 @@ caps.latest.revision: 38
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4391f4cf989b51a49b874e6eccdcceb28f609003
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3307b5372852d6f3e269264a02fa2c90cb1acd22
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432791"
 ---
 # <a name="how-to-collect-performance-data-for-a-web-site"></a>방법: 웹 사이트에 대 한 성능 데이터를 수집 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60060556"
 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 응용 프로그램에 대한 성능 데이터를 수집하려면 **성능 마법사**를 사용할 수 있습니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 열려 있는 웹 응용 프로그램을 프로파일링하거나, 로컬 컴퓨터에 있고 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE에 열려 있지 않은 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 사이트를 프로파일링할 수 있습니다.  
   
 > [!NOTE]
->  **성능 마법사** 에서는 계층 상호 작용(TIP) 데이터, JScript 성능 데이터 또는 둘 모두를 수집된 프로파일링 데이터에 추가할 수 있습니다. TIP 옵션은 서버 쪽 프로세스에서 데이터를 수집합니다. JScript 프로파일링은 로컬 또는 원격 웹 사이트에서 실행 중인 스크립트에서 데이터를 수집합니다. 대부분의 경우 옵션을 하나만 선택해야 합니다.  
+> **성능 마법사** 에서는 계층 상호 작용(TIP) 데이터, JScript 성능 데이터 또는 둘 모두를 수집된 프로파일링 데이터에 추가할 수 있습니다. TIP 옵션은 서버 쪽 프로세스에서 데이터를 수집합니다. JScript 프로파일링은 로컬 또는 원격 웹 사이트에서 실행 중인 스크립트에서 데이터를 수집합니다. 대부분의 경우 옵션을 하나만 선택해야 합니다.  
   
  관리자가 사용 가능하도록 설정한 사용자 액세스 권한 설정에 따라 개별 사용자는 ASP.NET 프로세스를 호스트하는 컴퓨터에서 프로파일러 세션을 만들 수 있는 보안 권한을 갖거나 갖지 못할 수 있습니다. 다음 예제에서는 사용자 간에 가능한 차이점을 보여 줍니다.  
   

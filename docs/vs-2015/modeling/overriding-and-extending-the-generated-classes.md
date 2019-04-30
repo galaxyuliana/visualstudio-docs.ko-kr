@@ -11,12 +11,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 34e40863883643955c4517337de5410f0745703d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: a7b9733a47b4763a0f28ee4b24b54fdfd44bf066
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434998"
 ---
 # <a name="overriding-and-extending-the-generated-classes"></a>생성된 클래스 재정의 및 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ DSL 정의 플랫폼은 강력한 도메인 특정 언어를 기반으로 하는
  `} }`  
   
 > [!NOTE]
->  생성된 된 클래스의 메서드를 재정의 하려면 항상 생성된 된 파일에서 분리 된 파일에 코드를 작성 합니다. 일반적으로 파일 CustomCode 라는 폴더에 포함 됩니다. 생성된 된 코드를 변경한 경우 DSL 정의에서 코드를 다시 생성 하면 손실 됩니다.  
+> 생성된 된 클래스의 메서드를 재정의 하려면 항상 생성된 된 파일에서 분리 된 파일에 코드를 작성 합니다. 일반적으로 파일 CustomCode 라는 폴더에 포함 됩니다. 생성된 된 코드를 변경한 경우 DSL 정의에서 코드를 다시 생성 하면 손실 됩니다.  
   
  재정의할 수 있는 메서드를 검색 하려면 입력 **재정의** 클래스에서 뒤에 공백이 있습니다. IntelliSense 도구 설명이 알려줍니다 어떤 메서드를 재정의할 수 있습니다.  
   

@@ -14,12 +14,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1ffb19e85d7294c082f7eecb0dbffd8aa436a03c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0f2da5b3122bd97fcbef0db7124049372c21983f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422077"
 ---
 # <a name="debug-a-webview-control"></a>WebView 컨트롤 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 4. (선택 사항) Visual Studio의 Express 이외 버전에 대 한 시간 (JIT)를 선택 하 여 디버깅을 비활성화 **도구**를 **옵션**합니다 **디버깅**, **Just In Time**, 및 스크립트에 대 한 디버깅 한 다음 JIT를 사용 하지 않도록 설정 합니다.  
   
     > [!NOTE]
-    >  JIT 디버깅을 사용하지 않도록 설정하면 일부 웹 페이지에서 발생하는 처리되지 않은 예외 대화 상자를 숨길 수 있습니다. Visual Studio Express에서는 JIT 디버깅이 항상 사용하지 않도록 설정되어 있습니다.  
+    > JIT 디버깅을 사용하지 않도록 설정하면 일부 웹 페이지에서 발생하는 처리되지 않은 예외 대화 상자를 숨길 수 있습니다. Visual Studio Express에서는 JIT 디버깅이 항상 사용하지 않도록 설정되어 있습니다.  
   
 5. F5 키를 눌러 디버깅을 시작합니다.  
   
@@ -82,7 +82,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
      ![JavaScript 콘솔 창에서 선택한 대상](../debugger/media/js-console-target.png "JS_Console_Target")  
   
     > [!NOTE]
-    >  콘솔을 사용하면 한 번에 단일 `WebView`, `iFrame`, 공유 계약 또는 웹 작업자와 상호 작용할 수 있습니다. 각 요소에는 웹 플랫폼 호스트(WWAHost.exe)의 개별 인스턴스가 필요합니다. 한 번에 한 호스트와 상호 작용할 수 있습니다.  
+    > 콘솔을 사용하면 한 번에 단일 `WebView`, `iFrame`, 공유 계약 또는 웹 작업자와 상호 작용할 수 있습니다. 각 요소에는 웹 플랫폼 호스트(WWAHost.exe)의 개별 인스턴스가 필요합니다. 한 번에 한 호스트와 상호 작용할 수 있습니다.  
   
 6. 확인 하 고 앱에서 변수를 수정 하거나에 설명 된 대로 콘솔 명령을 사용 하 여 [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md) 하 고 [JavaScript 콘솔 명령](../debugger/javascript-console-commands.md)입니다.  
   

@@ -16,18 +16,18 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 093016b3924d7882901a2b2c1bda060571d5bff4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: a49ad82cc6cbb2eef8a8746b2c94575925ab1ddd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56618408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436731"
 ---
 # <a name="deploy-publish-and-upgrade-sharepoint-solution-packages"></a>배포, 게시 및 SharePoint 솔루션 패키지를 업그레이드 합니다.
   Visual Studio에서 SharePoint 솔루션을 개발한 후 로컬 SharePoint 서버에 해당 패키지 (.wsp) 파일을 배포 하거나 원격 또는 로컬 SharePoint 서버에 게시 합니다. 파일을 배포 하는 경우 패키지 파일 (.wsp) 배포 되는 방식을 사용자 지정할 수 있습니다.
 
 > [!NOTE]
->  현재 원격 SharePoint 서버에만 샌드박스 솔루션을 게시할 수 있습니다. 자세한 내용은 [샌드박스 솔루션 고려 사항](../sharepoint/sandboxed-solution-considerations.md)합니다.
+> 현재 원격 SharePoint 서버에만 샌드박스 솔루션을 게시할 수 있습니다. 자세한 내용은 [샌드박스 솔루션 고려 사항](../sharepoint/sandboxed-solution-considerations.md)합니다.
 
 ## <a name="deploy-publish-and-upgrade"></a>배포, 게시 및 업그레이드
  *배포* 은 로컬 호스트에 Visual Studio에서 SharePoint 프로젝트에서 빌드된 SharePoint 솔루션 파일을 복사를 의미 합니다. 배포 된 솔루션에서는 솔루션 배포 후 활성화 인터넷 정보 서비스 (IIS) 풀을 재활용 하는 등 배포 단계를 구성 하 고 등 수 있습니다. 를 배포 하려면 사용 합니다 **배포** 명령을 합니다 **빌드** 메뉴. 자세한 내용은 [방법: SharePoint 배포 구성 편집](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md) 고 [방법: 배포 하 고 로컬 SharePoint 사이트에 SharePoint 솔루션을 게시](../sharepoint/how-to-deploy-and-publish-a-sharepoint-solution-to-a-local-sharepoint-site.md)합니다.

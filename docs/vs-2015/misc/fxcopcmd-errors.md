@@ -10,12 +10,12 @@ ms.assetid: bb614ed0-1b7c-4b56-99ae-da50ef6cfef9
 caps.latest.revision: 12
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 016f22591deb019718c8271cf0b307d3f4c597c1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3e0770654f564c57cf576666dcd9575f47d9ce1c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432287"
 ---
 # <a name="fxcopcmd-errors"></a>FxCopCmd 오류
 FxCopCmd 심각한 되도록 모든 오류를 고려 하지 않습니다. FxCopCmd 부분 분석을 수행 하는 데 충분 한 정보가 있으면 발생 하는 분석 및 보고서 오류 수행 합니다. 32 비트 정수 오류 코드, 오류에 해당 하는 숫자 값의 비트 조합을 포함 합니다.  
@@ -49,7 +49,7 @@ FxCopCmd 심각한 되도록 모든 오류를 고려 하지 않습니다. FxCopC
 - 출력 옵션 지정 되지 않았거나 파일을 쓸 수 없습니다.  
   
     > [!NOTE]
-    >  FxCopCmd "어셈블리 참조 오류" 코드 반환 0x200 자체는 오류가 아닌 경고 합니다. 이 반환 코드에는 누락 된 간접 참조를 찾을 수 있지만 FxCopCmd 처리할 수 있음을 나타냅니다. 이 분석 결과 일부 손상 되었을 수 있을 수 있다는 경고입니다. 다른 모든 반환 코드와 결합 된 경우를 오류로 반환 코드 "어셈블리는 오류를 참조 하는 데 사용"을 고려해 보세요.  
+    > FxCopCmd "어셈블리 참조 오류" 코드 반환 0x200 자체는 오류가 아닌 경고 합니다. 이 반환 코드에는 누락 된 간접 참조를 찾을 수 있지만 FxCopCmd 처리할 수 있음을 나타냅니다. 이 분석 결과 일부 손상 되었을 수 있을 수 있다는 경고입니다. 다른 모든 반환 코드와 결합 된 경우를 오류로 반환 코드 "어셈블리는 오류를 참조 하는 데 사용"을 고려해 보세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 분석 애플리케이션 오류](../code-quality/code-analysis-application-errors.md)

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f0af3634c2aeb851dab580922f8c282824f41626
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7037b49763d4fda844b7692052935a4eee7f7107
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420686"
 ---
 # <a name="checklist-create-a-legacy-language-service"></a>검사 목록: 레거시 언어 서비스 만들기
 다음 검사 목록에 대 한 언어 서비스를 만들기 위해 수행 해야 하는 기본 단계를 요약 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 핵심 편집기입니다. 언어 서비스를 통합 하 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 디버그 식 계산기를 만들어야 합니다. 자세한 내용은 [CLR 식 계산기 작성](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md) 에 [Visual Studio 디버거 확장성](../../extensibility/debugger/visual-studio-debugger-extensibility.md)합니다.
@@ -61,7 +61,7 @@ ms.locfileid: "60076005"
     처리 해야 하는 명령을 제공 되는 서비스에 따라 달라 집니다. 자세한 내용은 [언어에 대 한 중요 명령 서비스 필터](../../extensibility/internals/important-commands-for-language-service-filters.md)합니다.
 
     > [!NOTE]
-    >  합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> 동일한 개체에서 인터페이스를 구현 해야 합니다 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스입니다.
+    > 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> 동일한 개체에서 인터페이스를 구현 해야 합니다 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스입니다.
 
 - 문 완성 
 

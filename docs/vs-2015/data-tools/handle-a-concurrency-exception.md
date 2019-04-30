@@ -21,12 +21,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7ee82187adac74f90b6f5cb8485c68452d8329b0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 421360421a732935d452053630c17cda319f4b0d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434492"
 ---
 # <a name="handle-a-concurrency-exception"></a>동시성 예외 처리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "60060712"
 - 업데이트를 수행할 수 있는 권한 가진 Northwind 샘플 데이터베이스에 액세스 합니다.
   
 > [!NOTE]
->  대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에서 설명 하는 것에서 다 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에서 설명 하는 것에서 다 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기  
  새 Windows 응용 프로그램을 만들어 연습을 시작 합니다.  
@@ -86,7 +86,7 @@ ms.locfileid: "60060712"
 3. 사용 가능한 연결 목록에서 Northwind 샘플 데이터베이스에 대 한 연결을 선택 합니다. 연결 된 연결 목록에서 사용할 수 없는 경우 선택**새 연결**  
   
     > [!NOTE]
-    >  로컬 데이터베이스 파일에 연결 하는 경우 선택 **No** 프로젝트에 파일을 추가 하려는 설정 하려는 경우 메시지가 표시 되 면 합니다.  
+    > 로컬 데이터베이스 파일에 연결 하는 경우 선택 **No** 프로젝트에 파일을 추가 하려는 설정 하려는 경우 메시지가 표시 되 면 합니다.  
   
 4. 에 **응용 프로그램 구성 파일에 연결 문자열 저장**화면에서 **다음**합니다.  
   
@@ -149,7 +149,7 @@ ms.locfileid: "60060712"
  이 섹션에서는 데이터베이스를 업데이트 하는 코드를 추가 합니다. 또한 처리 된 <xref:System.Data.DBConcurrencyException> 이 발생, 다른 예외와 합니다.  
   
 > [!NOTE]
->  합니다 `CreateMessage` 고 `ProcessDialogResults` 이 연습의 뒷부분에서 메서드를 추가 합니다.  
+> 합니다 `CreateMessage` 고 `ProcessDialogResults` 이 연습의 뒷부분에서 메서드를 추가 합니다.  
   
 ##### <a name="to-add-error-handling-for-the-concurrency-error"></a>동시성 오류를 처리 하는 오류를 추가 하려면  
   
@@ -201,7 +201,7 @@ ms.locfileid: "60060712"
 6. 첫 번째 레코드에서 (`ALFKI`)을 변경 `ContactName` 에 `Maria Anders2`입니다.  
   
     > [!NOTE]
-    >  변경 내용을 커밋하려면 다른 행으로 이동 합니다.  
+    > 변경 내용을 커밋하려면 다른 행으로 이동 합니다.  
   
 7. 전환할는 `ConcurrencyWalkthrough`의 폼을 실행 합니다.  
   

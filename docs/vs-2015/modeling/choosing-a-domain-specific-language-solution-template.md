@@ -11,12 +11,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 943493273808afdb2dfb099ff1f44900028e4dd6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 36b821219b02fa77171d89214d8cf4813ce92303
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433397"
 ---
 # <a name="choosing-a-domain-specific-language-solution-template"></a>도메인별 언어 솔루션 템플릿 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "58986329"
  다음 솔루션 템플릿은 도메인별 언어 디자이너 마법사에서 사용할 수 있습니다.  
   
 > [!NOTE]
->  템플릿의 용도 시작 DSL을 제공 하는 것입니다. 클래스 및 구성 요소 다이어그램의 명명 된 템플릿 전체 UML 다이어그램 않습니다. UML 모델을 만들려는 경우 UML을 모델링 도구는 단일 모델을 중심으로 통합 된 다이어그램 집합을 제공 하는 것이 좋습니다. ModelBus를 사용하면 이러한 다이어그램을 확장할 수 있으며 DSL과 통합할 수 있습니다. 자세한 내용은 [앱에 대 한 모델을 만들](../modeling/create-models-for-your-app.md)합니다.  
+> 템플릿의 용도 시작 DSL을 제공 하는 것입니다. 클래스 및 구성 요소 다이어그램의 명명 된 템플릿 전체 UML 다이어그램 않습니다. UML 모델을 만들려는 경우 UML을 모델링 도구는 단일 모델을 중심으로 통합 된 다이어그램 집합을 제공 하는 것이 좋습니다. ModelBus를 사용하면 이러한 다이어그램을 확장할 수 있으며 DSL과 통합할 수 있습니다. 자세한 내용은 [앱에 대 한 모델을 만들](../modeling/create-models-for-your-app.md)합니다.  
   
 |템플릿|기능|설명|  
 |--------------|--------------|-----------------|  

@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5114e7b32bd22b341489e15ac354cc24b3c6d7d7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f795928677f4a232c3ae3cec0d3bab9d9266cb35
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437454"
 ---
 # <a name="validate-your-uml-model"></a>UML 모델 유효성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ Visual Studio에서 그릴 수 있는 일부 UML 모델은 프로젝트에서 �
 - **유효성 검사 명령입니다.** 언제 든 지 유효성 검사를 호출 하려면 **UML 모델 유효성 검사** 에 **아키텍처** 메뉴.  
   
   > [!NOTE]
-  >  유효성 검사 제약 조건이 설치된 경우에만 명령이 나타납니다.  
+  > 유효성 검사 제약 조건이 설치된 경우에만 명령이 나타납니다.  
   
 - **모델을 저장 합니다.** 모델을 저장할 때 유효성 검사 제약 조건이 적용될 수 있습니다. 이들 제약 조건을 사용하면 프로젝트 해석에 따라 잘못된 모델을 저장하지 않게 할 수 있습니다.  
   

@@ -11,12 +11,12 @@ ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 7effa937a8faa0a238f8be2505ddf47223010bc1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b7e710cec4536a5a1327580e56c60cb23ca36f4c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436366"
 ---
 # <a name="how-to-debug-a-custom-debug-engine"></a>방법: 사용자 지정 디버그 엔진 디버그
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,10 +24,10 @@ ms.locfileid: "60039951"
 프로젝트 형식에서 디버그 엔진 (DE)를 시작 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> 메서드. 즉, 인스턴스의 제어 하는 DE 시작 되는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 프로젝트 형식을 제어 합니다. 그러나 해당 인스턴스의 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 는 DE를 디버깅할 수 없습니다. 다음에 사용자 지정 DE을 디버그할 수 있도록 단계는 같습니다.  
   
 > [!NOTE]
->  :     "디버깅을 사용자 지정 디버그 엔진" 절차를 연결 하기 전에 시작 하는 de 기다려야 합니다. 메시지 상자는 DE 시작 될 때 나타나는 독일의 시작 부분에 배치 하면 해당 지점에 연결할 수 있으며 계속 하려면 메시지 상자의 선택을 취소 한 다음 수 있습니다. 이런 방식으로 catch 할 수 있습니다 모든 DE 이벤트입니다.  
+> :     "디버깅을 사용자 지정 디버그 엔진" 절차를 연결 하기 전에 시작 하는 de 기다려야 합니다. 메시지 상자는 DE 시작 될 때 나타나는 독일의 시작 부분에 배치 하면 해당 지점에 연결할 수 있으며 계속 하려면 메시지 상자의 선택을 취소 한 다음 수 있습니다. 이런 방식으로 catch 할 수 있습니다 모든 DE 이벤트입니다.  
   
 > [!WARNING]
->  원격 디버깅 절차를 시도 하기 전에 설치 해야 합니다. 참조 [원격 디버깅](../../debugger/remote-debugging.md) 세부 정보에 대 한 합니다.  
+> 원격 디버깅 절차를 시도 하기 전에 설치 해야 합니다. 참조 [원격 디버깅](../../debugger/remote-debugging.md) 세부 정보에 대 한 합니다.  
   
 ### <a name="debugging-a-custom-debug-engine"></a>사용자 지정 디버그 엔진 디버그  
   

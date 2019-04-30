@@ -12,12 +12,12 @@ caps.latest.revision: 34
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 67429131e87aa414957bf01847e03af44468d0ab
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 00b3a24e2e10672a2f25fdf42a3993f75c378c86
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432591"
 ---
 # <a name="shader-designer"></a>셰이더 디자이너
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -84,7 +84,7 @@ ms.locfileid: "60116818"
 |**고급**|고급 명령 및 옵션을 포함합니다.<br /><br /> **내보내기**: 셰이더를 여러 가지 형식으로 내보낼 수 있습니다.<br /><br /> **다른 이름으로 내보내기**: HLSL 소스 코드 또는 컴파일된 셰이더 바이트 코드로 셰이더를 내보냅니다. 셰이더를 내보내는 방법에 대한 자세한 내용은 [방법: 셰이더 내보내기](../designers/how-to-export-a-shader.md)합니다.<br /><br /> **그래픽 엔진**: 디자인 화면을 표시하는 데 사용되는 렌더러를 선택할 수 있습니다.<br /><br /> **D3D11를 사용하여 렌더링**: Direct3D 11을 사용하여 셰이더 디자이너 디자인 화면을 렌더링합니다.<br /><br /> **D3D11WARP를 사용하여 렌더링**: Direct3D 11 WARP(Windows Advanced Rasterization Platform)를 사용하여 셰이더 디자이너 디자인 화면을 렌더링합니다.<br /><br /> **보기**: 셰이더 디자이너에 대한 추가 정보를 선택할 수 있습니다.<br /><br /> **프레임 속도**: 사용하도록 설정하면 디자인 화면의 오른쪽 위 모서리에 현재 프레임 속도를 표시합니다. 프레임 속도는 초당 그려지는 프레임 수입니다.  이 옵션은 **실시간 렌더링 모드** 옵션을 사용할 때 유용합니다.|  
   
 > [!TIP]
->  **고급** 단추를 선택하여 마지막 명령을 다시 실행할 수 있습니다.  
+> **고급** 단추를 선택하여 마지막 명령을 다시 실행할 수 있습니다.  
   
 ### <a name="working-with-nodes-and-connections"></a>노드 및 연결 작업  
  **선택** 모드를 사용하여 노드를 추가, 제거, 연결, 구성하고 위치를 변경합니다. 이러한 기본 작업을 수행하는 방법은 다음과 같습니다.  

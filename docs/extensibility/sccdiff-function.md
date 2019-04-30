@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8f9f381fbd9c6cb3f4f2128adc3910516be42962
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: ed96b7c893ba3ececb33be5dda55093b70c28659
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434685"
 ---
 # <a name="sccdiff-function"></a>SccDiff 함수
 이 함수 표시 (또는 확인만 필요한 경우)에서 차이점 (로컬 디스크)의 현재 파일 및 해당 마지막 체크 인 버전 원본 제어 시스템입니다.
@@ -77,7 +77,7 @@ SCCRTN SccDiff(
  성능 최적화, 소스 제어 플러그 인 체크섬 또는 호출한 바이트 단위로 비교 하는 대신 타임 스탬프를 기반으로 하는 대신 사용할 수 있습니다 `SCC_DIFF_CONTENTS`: 물론 빨라지지만 덜 안정적인 이러한 형태의 비교 됩니다. 모든 소스 제어 시스템에는 이러한 대체 비교 메서드를 지원할 수 있습니다 및 플러그 인 할 내용 비교 하도록 대체 합니다. 모든 원본 제어 플러그 인, 최소한 지원 해야 내용을 비교 합니다.
 
 > [!NOTE]
->  빠른 차이 플래그는 함께 사용할 수 없습니다. 없음 플래그를 전달 하는 것이 유효 하지만 동시에 둘 이상의 전달 올바르지 않습니다. `SCC_DIFF_QUICK_DIFF`을 테스트 하려면 사용할 수는 모든 플래그를 결합 하는 마스크 있지만 매개 변수로 전달 되지 해야 합니다.
+> 빠른 차이 플래그는 함께 사용할 수 없습니다. 없음 플래그를 전달 하는 것이 유효 하지만 동시에 둘 이상의 전달 올바르지 않습니다. `SCC_DIFF_QUICK_DIFF`을 테스트 하려면 사용할 수는 모든 플래그를 결합 하는 마스크 있지만 매개 변수로 전달 되지 해야 합니다.
 
 |`fOption`|의미|
 |---------------|-------------|

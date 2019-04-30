@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 5b7e3a0172a798eab9a743f446dff3d339a785b2
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58151001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436077"
 ---
 # <a name="iactivescript"></a>IActiveScript
 스크립팅 엔진을 초기화 하는 데 필요한 메서드를 제공 합니다. 스크립팅 엔진 구현 해야 합니다는 `IActiveScript` 인터페이스입니다.  

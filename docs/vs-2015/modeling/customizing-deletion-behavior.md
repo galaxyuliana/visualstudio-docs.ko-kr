@@ -13,12 +13,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d22db963f895c4ca53a44e20bc0babd0dff49853
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fa7db2f55a89bd6c542bff0cf30ee058e339f15c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433284"
 ---
 # <a name="customizing-deletion-behavior"></a>삭제 동작 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +77,7 @@ ms.locfileid: "60107595"
  DSL 정의 파일의 옵션을 사용하는 경우 삭제가 바로 인접한 항목으로 전파되는지 여부만을 선택할 수 있습니다. 더 복잡한 삭제 전파 체계를 구현하려는 경우에는 프로그램 코드를 작성하면 됩니다.  
   
 > [!NOTE]
->  DSL 정의 프로그램 코드를 추가 하려면 별도 코드 파일을 만들 합니다 **Dsl** 프로젝트 및 Generated Code 폴더의 클래스를 보완 하는 partial 정의 작성 합니다. 자세한 내용은 [도메인별 도메인별 언어 사용자 지정 하려면 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.  
+> DSL 정의 프로그램 코드를 추가 하려면 별도 코드 파일을 만들 합니다 **Dsl** 프로젝트 및 Generated Code 폴더의 클래스를 보완 하는 partial 정의 작성 합니다. 자세한 내용은 [도메인별 도메인별 언어 사용자 지정 하려면 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.  
   
 ## <a name="closure"></a> Delete Closure 정의  
  삭제 작업 클래스를 사용 _YourModel_**DeleteClosure** 초기 선택을 삭제 하려면 요소 결정 합니다. 이 클래스는 `ShouldVisitRelationship()` 및 `ShouldVisitRolePlayer()`를 반복적으로 호출하여 관계 그래프를 단계별로 이동합니다. 이러한 메서드를 재정의할 수 있습니다. ShouldVisitRolePlayer는 링크 역할 중 하나의 요소 및 링크의 ID와 함께 제공되며 다음 값 중 하나를 반환해야 합니다.  
@@ -213,7 +213,7 @@ partial class Artist
      자세한 내용은 [이벤트 처리기 전파 변경 외부 모델](../modeling/event-handlers-propagate-changes-outside-the-model.md)합니다.  
   
     > [!WARNING]
-    >  요소가 삭제된 경우 해당 도메인 속성 값에는 액세스할 수 있지만 관계 링크를 탐색할 수는 없습니다. 그러나 관계에 대해 Deleted 이벤트를 설정한 경우 역할 수행자였던 두 요소에도 액세스할 수 있습니다. 그러므로 모델 요소 삭제에 응답하는 동시에 해당 요소가 연결되어 있었던 요소에 액세스하려면 모델 요소의 도메인 클래스가 아닌 관계에 대해 Delete 이벤트를 설정합니다.  
+    > 요소가 삭제된 경우 해당 도메인 속성 값에는 액세스할 수 있지만 관계 링크를 탐색할 수는 없습니다. 그러나 관계에 대해 Deleted 이벤트를 설정한 경우 역할 수행자였던 두 요소에도 액세스할 수 있습니다. 그러므로 모델 요소 삭제에 응답하는 동시에 해당 요소가 연결되어 있었던 요소에 액세스하려면 모델 요소의 도메인 클래스가 아닌 관계에 대해 Delete 이벤트를 설정합니다.  
   
 ### <a name="example-deletion-rules"></a>예제 삭제 규칙  
   

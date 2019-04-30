@@ -9,18 +9,18 @@ caps.latest.revision: 3
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: cdc389460ea12dd2226fff1f450ae885e3ee3b7d
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MT
+ms.openlocfilehash: 4d012e3a8c8ef2a3848c4f602bb92e344550f1e1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58981957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434996"
 ---
 # <a name="how-to-respond-to-changes-in-a-uml-model"></a>방법: UML 모델의 변경 내용에 응답
 Visual Studio의 UML 모델에서 변경이 발생할 때마다 실행되는 코드를 작성할 수 있습니다. 사용자 및 다른 Visual Studio 확장에 의해 직접 수행된 변경에 대해 똑같이 반응합니다. UML 모델을 지원하는 Visual Studio 버전을 확인하려면 [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)을 참조하세요.  
   
 > [!WARNING]
->  이러한 방법은 UML API에서 지원되지 않습니다. Visual Studio의 이후 버전에서 작동하지 않을 수 있습니다.  
+> 이러한 방법은 UML API에서 지원되지 않습니다. Visual Studio의 이후 버전에서 작동하지 않을 수 있습니다.  
   
  샘플 코드는 [UML: 이벤트 및 규칙을 사용 하 여 UML 모델의 변경 내용에 응답](http://code.msdn.microsoft.com/UML-Responding-to-changes-c024cd4b)  
   

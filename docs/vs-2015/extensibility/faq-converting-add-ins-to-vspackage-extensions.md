@@ -8,12 +8,12 @@ ms.assetid: 3a01d333-6e31-423f-ae06-5091a4fcb7a9
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e23e242060eea31ae79fd8a3998fb4ee5d734647
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bc6ed31f96fc2021d0d9e104692f0440cfb78a5e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433747"
 ---
 # <a name="faq-converting-add-ins-to-vspackage-extensions"></a>FAQ: 추가 기능을 VSPackage 확장으로 변환
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -21,14 +21,14 @@ ms.locfileid: "60048677"
 추가 기능은 이제 사용되지 않습니다. 새 Visual Studio 확장을 하려면 VSIX 확장 프로그램을 만드는 해야 합니다. 다음은 Visual Studio 추가 기능에서 VSIX 확장을 변환 하는 방법에 대 한 일부 자주 묻는 질문에 대 한 답변입니다.  
   
 > [!WARNING]
->  C# 및 Visual Basic 프로젝트의 경우 Visual Studio 2015부터 VSIX 프로젝트를 사용할 수 있으며 메뉴 명령과 도구 창, Vspackage에 대 한 항목 템플릿을 추가할 수도 있습니다. 자세한 내용은 [What's New in Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md)합니다.  
+> C# 및 Visual Basic 프로젝트의 경우 Visual Studio 2015부터 VSIX 프로젝트를 사용할 수 있으며 메뉴 명령과 도구 창, Vspackage에 대 한 항목 템플릿을 추가할 수도 있습니다. 자세한 내용은 [What's New in Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md)합니다.  
   
 > [!IMPORTANT]
->  대부분의 경우에서 VSPackage 프로젝트 항목을 사용 하 여 VSIX 프로젝트에 간단히 추가 코드를 전송할 수 있습니다. <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> 메서드에서 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A>를 호출하여 DTE 자동화 개체를 가져올 수 있습니다.  
+> 대부분의 경우에서 VSPackage 프로젝트 항목을 사용 하 여 VSIX 프로젝트에 간단히 추가 코드를 전송할 수 있습니다. <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> 메서드에서 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A>를 호출하여 DTE 자동화 개체를 가져올 수 있습니다.  
 >   
->  `DTE2 dte = (DTE2)GetService(typeof(DTE));`  
+> `DTE2 dte = (DTE2)GetService(typeof(DTE));`  
 >   
->  자세한 내용은 [VSPackage에서 추가 코드는 어떻게 실행할 수 있습니까?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_RunAddin) 아래.  
+> 자세한 내용은 [VSPackage에서 추가 코드는 어떻게 실행할 수 있습니까?](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md#BKMK_RunAddin) 아래.  
   
 ## <a name="what-software-do-i-need-to-develop-vsix-extensions"></a>소프트웨어 VSIX 확장을 개발 하려면 하나요?  
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  

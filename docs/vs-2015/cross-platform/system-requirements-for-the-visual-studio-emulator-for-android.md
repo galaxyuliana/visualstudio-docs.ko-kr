@@ -8,12 +8,12 @@ ms.assetid: 35e766ad-269f-41e4-ba23-74a556c315f3
 caps.latest.revision: 7
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: fc09d8570eed04c559e1b94f65319739bbc4ee13
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b1b77dc7e01ae791379dda52b305ebcdbbf68447
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433909"
 ---
 # <a name="system-requirements-for-the-visual-studio-emulator-for-android"></a>System requirements for the Visual Studio Emulator for Android
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,7 +23,7 @@ Android용 Visual Studio 에뮬레이터는 Windows 8 이상 버전의 가상화
  에뮬레이터를 설치할 때 설치 프로그램이 이러한 필수 조건을 자동으로 구성하려고 시도합니다. 설치에서 이 필수 조건이 성공적으로 구성되면 에뮬레이터는 예상대로 작동합니다. 제대로 구성되지 않으면 수동으로 이 필수 조건을 설정해야 할 수도 있습니다. 필수 조건을 수동으로 구성해야 하는 경우 단계 및 도구는 Windows Phone 에뮬레이터에 대해 [여기](https://msdn.microsoft.com/library/windows/apps/jj863509\(v=vs.105\).aspx) 에서 설명하는 단계와 동일합니다.
 
 > [!IMPORTANT]
->  에뮬레이터에 대한 설치 프로그램은 Android용 Visual Studio 에뮬레이터를 실행하기 위한 필수 조건을 확인합니다. 필수 조건이 없는 경우 경고가 표시되지만 이러한 필수 조건을 필수로 요구하지는 않습니다.
+> 에뮬레이터에 대한 설치 프로그램은 Android용 Visual Studio 에뮬레이터를 실행하기 위한 필수 조건을 확인합니다. 필수 조건이 없는 경우 경고가 표시되지만 이러한 필수 조건을 필수로 요구하지는 않습니다.
 
  이 항목에는 다음과 같은 섹션이 포함되어 있습니다.
 

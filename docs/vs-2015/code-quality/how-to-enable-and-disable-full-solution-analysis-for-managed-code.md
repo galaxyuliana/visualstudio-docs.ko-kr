@@ -11,18 +11,18 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: fddc41d264f30f6de5a2f69b098865cf3d997147
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: df06a17ecc093cf24a64e7c3aa11a096a61ee44f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436834"
 ---
 # <a name="how-to-enable-and-disable-full-solution-analysis-for-managed-code"></a>방법: 사용 하도록 설정 하 고 관리 되는 코드에 대 한 전체 솔루션 분석 사용 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 참고]
->  이 항목에서는 이상 Visual Studio 2015 업데이트 3 RC에만 적용 됩니다.  
+> 이 항목에서는 이상 Visual Studio 2015 업데이트 3 RC에만 적용 됩니다.  
   
  *전체 옵션 분석* 솔루션 또는 솔루션에서 Visual C# 또는 Visual Basic 파일 열기와 닫힌 열고 Visual C# 또는 Visual Basic 파일에만 코드 분석 문제를 확인할 수 있는지 여부를 선택할 수 있도록 Visual Studio 기능입니다.  
   

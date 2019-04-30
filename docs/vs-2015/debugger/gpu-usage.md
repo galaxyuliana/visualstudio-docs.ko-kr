@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: eef55dd0e5af443379b2685ccab9bd2de8074e0d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b7dee579f726a1edfc81e1f3e1ec62bf7d8beba4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437949"
 ---
 # <a name="gpu-usage"></a>GPU 사용량
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ Visual Studio 성능 및 진단 허브의 GPU 사용량 도구를 사용하여 D
 - 필수적인 타이밍 계측을 지원하는 GPU 및 드라이버  
   
   > [!NOTE]
-  >  지원되는 하드웨어 및 드라이버에 대한 자세한 내용은 이 문서 끝에 있는 [하드웨어 및 드라이버 지원](#hwsupport)을 참조하세요.  
+  > 지원되는 하드웨어 및 드라이버에 대한 자세한 내용은 이 문서 끝에 있는 [하드웨어 및 드라이버 지원](#hwsupport)을 참조하세요.  
   
   그래픽 진단 요구 사항에 대한 자세한 내용은 [시작](../debugger/getting-started-with-visual-studio-graphics-diagnostics.md)을 참조하세요.  
   
@@ -47,7 +47,7 @@ Visual Studio 성능 및 진단 허브의 GPU 사용량 도구를 사용하여 D
     ![사용하려는 진단 도구를 선택합니다.](../debugger/media/gfx-diag-diagsession-tools.png "gfx_diag_diagsession_tools")  
   
    > [!NOTE]
-   >  일부 성능 및 진단 도구는 동시에 사용할 수 없습니다.  
+   > 일부 성능 및 진단 도구는 동시에 사용할 수 없습니다.  
   
 3. 성능 및 진단 허브의 맨 아래에 있는 파란색 **시작** 단추를 선택하면 선택한 도구 아래에서 앱이 실행됩니다.  
   
@@ -110,7 +110,7 @@ Visual Studio 성능 및 진단 허브의 GPU 사용량 도구를 사용하여 D
 |**스레드 ID**|이벤트가 발생한 스레드 ID입니다.|  
   
 > [!IMPORTANT]
->  이벤트 특성 상속에 Windows 8.1이 필요합니다. 또한 GPU 또는 드라이버가 필수 측정 기능을 지원하지 않는 경우 모든 이벤트는 'unattributed'로 표시됩니다. 이 문제가 발생하는 경우 GPU 드라이버를 업데이트한 후 다시 시도해 봅니다. 자세한 내용은 아래에서 [하드웨어 및 드라이버 지원](#hwsupport)을 참조하세요.  
+> 이벤트 특성 상속에 Windows 8.1이 필요합니다. 또한 GPU 또는 드라이버가 필수 측정 기능을 지원하지 않는 경우 모든 이벤트는 'unattributed'로 표시됩니다. 이 문제가 발생하는 경우 GPU 드라이버를 업데이트한 후 다시 시도해 봅니다. 자세한 내용은 아래에서 [하드웨어 및 드라이버 지원](#hwsupport)을 참조하세요.  
   
 ## <a name="gpu-usage-settings"></a>GPU 사용량 설정  
  앱이 시작되자마자 정보 수집을 시작하는 대신 프로파일링 정보 수집을 연기하도록 GPU 사용량 도구를 구성할 수 있습니다. 프로파일링 정보의 크기가 상당히 클 수 있으므로, 이 옵션은 앱 성능 저하가 나중에 나타날 것임을 알고 있는 경우에 유용합니다.  
@@ -126,7 +126,7 @@ Visual Studio 성능 및 진단 허브의 GPU 사용량 도구를 사용하여 D
      ![GPU 사용량 수집이 시작되면 구성](../debugger/media/gfx-diag-gpu-usage-config.png "gfx_diag_gpu_usage_config")  
   
 > [!IMPORTANT]
->  현재 Direct3D 12 앱에 대해서는 프로파일링 연기가 지원되지 않습니다.  
+> 현재 Direct3D 12 앱에 대해서는 프로파일링 연기가 지원되지 않습니다.  
   
  이 설정을 사용하여 프로파일링 정보 컬렉션을 연기하는 경우 GPU 사용량 도구에서 앱을 실행할 때 GPU 사용량 도구 창 하단에서 추가 링크를 사용할 수 있게 됩니다. 프로파일링 정보 수집을 시작하려면 **자세한 GPU 사용량 데이터를 추가로 수집하기 시작합니다.** 메시지에서 **시작** 링크를 선택합니다.  
   

@@ -18,12 +18,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 934073e5d266c2ddf645acd7dddcfb13711f92de
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: cdf7c5fe724ff4b043ca304eee3e5e0f31b0dd85
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437703"
 ---
 # <a name="using-the-tasks-window"></a>작업 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "58983122"
  ![병렬 작업 창](../debugger/media/parallel-tasks-window.png "Parallel_Tasks_Window")  
   
 > [!NOTE]
->  관리 코드에서 <xref:System.Threading.Tasks.Task>, <xref:System.Threading.Tasks.TaskStatus> 또는 <xref:System.Threading.Tasks.TaskStatus> 상태에 있는 <xref:System.Threading.Tasks.TaskStatus>는 관리되는 스레드가 대기 또는 조인 상태에 있는 경우 작업 창에 표시되지 않을 수도 있습니다.  
+> 관리 코드에서 <xref:System.Threading.Tasks.Task>, <xref:System.Threading.Tasks.TaskStatus> 또는 <xref:System.Threading.Tasks.TaskStatus> 상태에 있는 <xref:System.Threading.Tasks.TaskStatus>는 관리되는 스레드가 대기 또는 조인 상태에 있는 경우 작업 창에 표시되지 않을 수도 있습니다.  
   
 ## <a name="tasks-column-information"></a>작업 열 정보  
  **작업** 창의 열에는 다음 정보가 표시됩니다.  

@@ -19,12 +19,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ae2bb442edbeb49de25b44056263607fa4f26111
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7224dc1ddcffc203c930a3ead01c2f541af2122f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433168"
 ---
 # <a name="walkthrough-improving-ui-responsiveness-html"></a>연습: UI 응답성 개선 (HTML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "60071644"
 1. Visual Studio에서 새 Windows 유니버설 JavaScript 프로젝트를 만듭니다. 이렇게 하려면 **파일/새로 만들기/프로젝트**를 선택합니다. 왼쪽 창에서 **JavaScript**를 선택한 다음 **Windows**, **Windows 10**을 선택하고 **유니버설** 또는 **Windows Phone**을 선택합니다.  
   
 2. > [!IMPORTANT]
-    >  이 항목에 나와 있는 진단 결과가 Windows 8 앱에 대해 표시됩니다.  
+    > 이 항목에 나와 있는 진단 결과가 Windows 8 앱에 대해 표시됩니다.  
   
 3. 가운데 창에서 **비어 있는 앱** 등 빈 프로젝트 템플릿 중 하나를 선택합니다.  
   

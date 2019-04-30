@@ -11,12 +11,12 @@ ms.assetid: 8b73b341-a33a-4ab5-9390-178c9e563d2d
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 3df1a4e61859aee4b27dccf5360e0ae99ad5aa8b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3b79afe64aafac473d4fe5d22464998d0c2f0537
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077526"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437620"
 ---
 # <a name="checklist-creating-a-legacy-language-service"></a>검사 목록: 레거시 언어 서비스 만들기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "60077526"
     처리 해야 하는 명령을 제공 되는 서비스에 따라 달라 집니다. 자세한 내용은 [언어 서비스 필터에 대 한 중요 명령](../../extensibility/internals/important-commands-for-language-service-filters.md)입니다.  
   
   > [!NOTE]
-  >  합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> 동일한 개체에서 인터페이스를 구현 해야 합니다 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스입니다.  
+  > 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> 동일한 개체에서 인터페이스를 구현 해야 합니다 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> 인터페이스입니다.  
   
 - 문 완성   
   

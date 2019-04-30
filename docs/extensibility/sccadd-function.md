@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 84e9c6dadd9e553d456bfb46d054a7ae727aa087
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: a738a01df224051e3190d828f852fe1ccfa7e9da
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56682754"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434723"
 ---
 # <a name="sccadd-function"></a>SccAdd 함수
 이 함수는 소스 제어 시스템에 새 파일을 추가합니다.
@@ -85,7 +85,7 @@ SCCRTN SccAdd(
  일반적인 `fOptions` 바뀝니다 여기 배열이 `pfOptions`에 하나를 사용 하 여 `LONG` 파일당 사양 옵션입니다. 즉, 파일 형식 파일에서 다를 수 있습니다.
 
 > [!NOTE]
->  둘 다 지정 올바르지 `SCC_FILETYPE_TEXT` 및 `SCC_FILETYPE_BINARY` 하지만 동일한 파일에 대 한 옵션은 둘 다 지정할 수 있습니다. 모두 설정은 설정과 동일 `SCC_FILETYPE_AUTO`,이 경우 소스 제어 플러그 인이 파일 형식입니다.
+> 둘 다 지정 올바르지 `SCC_FILETYPE_TEXT` 및 `SCC_FILETYPE_BINARY` 하지만 동일한 파일에 대 한 옵션은 둘 다 지정할 수 있습니다. 모두 설정은 설정과 동일 `SCC_FILETYPE_AUTO`,이 경우 소스 제어 플러그 인이 파일 형식입니다.
 
  다음에 사용 된 플래그의 목록은 합니다 `pfOptions` 배열:
 

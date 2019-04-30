@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 51e1768e23eb61a5a6463d8d48f64683987f431a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 4a831c06af503646b29f462a9e52436ce157cc86
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56707975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434702"
 ---
 # <a name="sccbackgroundget-function"></a>SccBackgroundGet 함수
 이 함수는 소스 제어에서 각 지정된 된 파일의 사용자 상호 작용 없이 가져옵니다.
@@ -48,7 +48,7 @@ SCCRTN SccBackgroundGet(
 [out에서] 검색할 파일의 이름 배열입니다.
 
 > [!NOTE]
->  이름을 정규화 된 로컬 파일 이름 이어야 합니다.
+> 이름을 정규화 된 로컬 파일 이름 이어야 합니다.
 
  dwFlags
 

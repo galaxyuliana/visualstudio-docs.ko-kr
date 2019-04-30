@@ -13,12 +13,12 @@ caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4aba200bff4bc8a017756ece6576e589f33e9df6
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: c4b2e6dd825cfcf67ffffd9ace27017c8d01aa33
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431400"
 ---
 # <a name="how-to-build-incrementally"></a>방법: 증분 방식으로 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "59662259"
  대상에 입력 및 출력이 지정된 경우 각 출력은 하나의 입력에만 매핑될 수 있습니다. 그렇지 않으면 출력과 입력 간에 직접 매핑이 없을 수 있습니다. 예를 들어 이전 [Csc 작업](../msbuild/csc-task.md)에서 출력 hello.exe는 단일 입력에 매핑될 수 없습니다. 이 출력은 모든 입력을 사용합니다.  
   
 > [!NOTE]
->  입력과 출력 간에 직접 매핑이 없는 대상은 항상 각 출력이 하나의 입력에만 매핑될 수 있는 대상보다 더 자주 빌드됩니다. 이는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 일부 입력이 변경된 경우 다시 빌드해야 하는 출력을 결정할 수 없기 때문입니다.  
+> 입력과 출력 간에 직접 매핑이 없는 대상은 항상 각 출력이 하나의 입력에만 매핑될 수 있는 대상보다 더 자주 빌드됩니다. 이는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 일부 입력이 변경된 경우 다시 빌드해야 하는 출력을 결정할 수 없기 때문입니다.  
   
  출력과 입력 간에 직접 매핑을 식별할 수 있는 작업(예: [LC 작업](../msbuild/lc-task.md))은 많은 입력에서 하나의 출력 어셈블리를 생성하는 `Csc` 및 [Vbc](../msbuild/vbc-task.md)와 같은 작업과 달리 증분 빌드에 가장 적합합니다.  
   
@@ -70,7 +70,7 @@ ms.locfileid: "59662259"
   이 프로젝트 파일에는 `Convert` 및 `Build` 대상이 둘 다 포함됩니다. 각 대상이 증분식으로 빌드될 수 있도록 `GenerateContentFiles` 및 `BuildHelp` 작업은 각각 `Convert` 및 `Build` 대상에 배치됩니다. `Output` 요소를 사용하면 `GenerateContentFiles` 작업의 출력이 `ContentFile` 항목 목록에 배치됩니다. 이 목록에 있는 출력은 `BuildHelp` 작업의 입력으로 사용될 수 있습니다. `Output` 요소를 이 방법으로 사용하면 한 작업의 출력이 다른 작업의 입력으로 자동으로 제공되므로 각 작업에서 개별 항목 또는 항목 목록을 수동으로 나열할 필요가 없습니다.  
   
 > [!NOTE]
->  `GenerateContentFiles` 대상은 증분식으로 빌드될 수 있지만 대상의 모든 출력은 항상 `BuildHelp` 대상의 입력으로 필요합니다. `Output` 요소를 사용할 경우 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 한 작업의 모든 출력을 다른 대상의 입력으로 자동으로 제공합니다.  
+> `GenerateContentFiles` 대상은 증분식으로 빌드될 수 있지만 대상의 모든 출력은 항상 `BuildHelp` 대상의 입력으로 필요합니다. `Output` 요소를 사용할 경우 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서는 한 작업의 모든 출력을 다른 대상의 입력으로 자동으로 제공합니다.  
   
 ```  
 <Project DefaultTargets="Build"  

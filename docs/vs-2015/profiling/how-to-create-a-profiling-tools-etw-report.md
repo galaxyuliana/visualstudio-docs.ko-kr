@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0de5d5560c2e840fd2df7fdc5811c5eea0747da8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6b172ffbf481ea077d099288b3b79254b89b13a5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432737"
 ---
 # <a name="how-to-create-a-profiling-tools-etw-report"></a>방법: 프로 파일링 도구 ETW 보고서 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60106503"
 ETW(Windows용 이벤트 추적) 보고서에는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구의 성능 세션에서 기록된 ETW 이벤트가 나열됩니다. ETW 데이터는 이진(.etl) 파일에 수집됩니다. 이 보고서에 대한 자세한 내용은 [ETW(Windows용 이벤트 추적) 보고서](../profiling/event-tracing-for-windows-etw-report.md)를 참조하세요.  
   
 > [!NOTE]
->  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]용 인터페이스에는 ETW 보고서를 표시할 수 없습니다.  
+> [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]용 인터페이스에는 ETW 보고서를 표시할 수 없습니다.  
   
 - [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]용 인터페이스를 사용하여 ETW 데이터를 수집하는 방법에 대한 자세한 내용은 [방법: Windows (ETW) 데이터에 대 한 이벤트 추적을 수집](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)합니다.  
   

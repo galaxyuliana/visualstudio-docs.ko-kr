@@ -11,12 +11,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1c346cc488966448cc1b77b624c80fe602555840
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3e391e21ac16bdbee9fc2881b264f964a4b28cc0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433228"
 ---
 # <a name="customizing-the-properties-window"></a>속성 창 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "60088797"
  속성을 전달 하기 도메인 형식 설명자를 정의 합니다. 두 도메인 클래스 간에 도메인 관계에 있는 경우에 두 번째 도메인 클래스의 도메인 속성의 첫 번째 클래스 값의에서 도메인 속성을 설정 하려면 도메인 형식 설명자를 사용할 수 있습니다. 예를 들어, 관계가 있는 경우는 **책** 도메인 클래스 및 **작성자** 도메인 클래스에 도메인 형식 설명자를 만드는 데 사용할 수 있습니다 합니다 **이름** 의 속성을 책 **작성자** 책을 선택 하면 속성 창에 나타납니다.  
   
 > [!NOTE]
->  사용자가 모델을 편집할 때 속성 창만 적용 하는 속성이 전달 됩니다. 받는 클래스에 도메인 속성을 정의 하지 않습니다. 프로그램 코드 또는 DSL 정의의 다른 부분에 전달 된 도메인 속성에 액세스 하려는 경우 전달 요소를 액세스 해야 합니다.  
+> 사용자가 모델을 편집할 때 속성 창만 적용 하는 속성이 전달 됩니다. 받는 클래스에 도메인 속성을 정의 하지 않습니다. 프로그램 코드 또는 DSL 정의의 다른 부분에 전달 된 도메인 속성에 액세스 하려는 경우 전달 요소를 액세스 해야 합니다.  
   
  다음 절차에서는 DSL을 만들었다고 가정 합니다. 몇 가지는 첫 번째 단계는 필수 구성 요소를 요약합니다.  
   
@@ -121,7 +121,7 @@ ms.locfileid: "60088797"
         아래에 새 항목이 표시 됩니다는 **도메인 형식** 노드.  
   
        > [!WARNING]
-       >  메뉴 항목은 DSL 루트 노드에서 아닙니다 합니다 **도메인 형식** 노드.  
+       > 메뉴 항목은 DSL 루트 노드에서 아닙니다 합니다 **도메인 형식** 노드.  
   
    2. 속성 창에서 이름 및 새 형식의 네임 스페이스를 설정 합니다.  
   
@@ -182,7 +182,7 @@ ms.locfileid: "60088797"
   또한 그래픽으로 표현한 속성 표에 표시 되는 속성의 값을 제공할 수 있습니다. 이 작업을 수행 하려면 재정의 `GetPaintValueSupported`, 및 `PaintValue`합니다.  자세한 내용은 <xref:System.Drawing.Design.UITypeEditor>을 참조하세요.  
   
 > [!NOTE]
->  별도 코드 파일에서 코드를 추가 합니다 **Dsl** 프로젝트입니다.  
+> 별도 코드 파일에서 코드를 추가 합니다 **Dsl** 프로젝트입니다.  
   
  예를 들어:  
   
@@ -214,7 +214,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
  값에서 선택 하는 사용자 목록을 제공할 수 있습니다.  
   
 > [!NOTE]
->  이 방법은 런타임 시 변경할 수 있는 값의 목록을 제공 합니다. 변경 되지 않는 목록이 제공 하려는 경우 대신 고려 도메인 속성의 형식으로 열거 형식을 사용 합니다.  
+> 이 방법은 런타임 시 변경할 수 있는 값의 목록을 제공 합니다. 변경 되지 않는 목록이 제공 하려는 경우 대신 고려 도메인 속성의 형식으로 열거 형식을 사용 합니다.  
   
  표준 값 목록이 정의 하려면 속성을 추가 하 여 도메인 형식은 CLR 특성을 합니다.  
   

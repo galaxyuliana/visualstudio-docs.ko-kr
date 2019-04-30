@@ -12,12 +12,12 @@ ms.assetid: 040b36d6-1f0a-4579-971c-40fbb46ade1d
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 443139194a9be59a26a812bd8026270749105a30
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d41b075111797a12d68b4aa30c23e3cbacd8058a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432107"
 ---
 # <a name="saving-a-custom-document"></a>사용자 지정 문서 저장
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "60043762"
      사용자 지정 편집기의 경우 문서 데이터 개체 및 프로젝트 간의 통신 비공개입니다. 따라서 이러한 두 개체 간의 특별 한 지 속성 관련 된 고민을 처리 됩니다.  
   
     > [!NOTE]
-    >  고유한 지 속성을 구현 하는 경우 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> 시간을 절약 하는 방법입니다. 이 메서드는 파일을 저장 해도 안전 하다 되도록 확인 (예를 들어, 파일 읽기 전용이 아닌지).  
+    > 고유한 지 속성을 구현 하는 경우 호출 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFiles%2A> 시간을 절약 하는 방법입니다. 이 메서드는 파일을 저장 해도 안전 하다 되도록 확인 (예를 들어, 파일 읽기 전용이 아닌지).  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   

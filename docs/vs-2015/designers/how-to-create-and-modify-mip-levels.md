@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ac8612530ad7a28fef76b3339b9207408842aa8c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1c1d0babfec4a2fd56e2ed40c5f2c75329ccb6d3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434454"
 ---
 # <a name="how-to-create-and-modify-mip-levels"></a>방법: MIP 수준 만들기 및 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "60055095"
 2. 수정하려는 MIP 수준을 선택하면 그리기 도구를 사용하여 다른 MIP 수준의 콘텐츠를 변경하지 않고 수정할 수 있습니다. 그리기 도구는 **이미지 편집기** 도구 모음에서 사용할 수 있습니다. 도구를 선택하면 **속성** 창에서 해당 속성을 변경할 수 있습니다. 그리기 도구 및 해당 속성에 대한 자세한 내용은 [이미지 편집기](../designers/image-editor.md)를 참조하세요.  
   
 > [!NOTE]
->  특정 효과를 얻기 위해 수행할 수 있는 것처럼 개별 MIP 수준의 콘텐츠를 수정할 필요가 없는 경우 빌드할 때 원본 질감에서 MIP 맵을 생성하는 것이 좋습니다. 이렇게 하면 MIP 수준 수정이 자동으로 다른 수준으로 전파되지 않으므로 MIP 수준이 원본 질감과 동기화되도록 할 수 있습니다. 빌드 시간에 밉 맵을 생성하는 방법에 대한 자세한 내용은 [방법: Mip 맵을 포함 하는 질감 내보내기](../designers/how-to-export-a-texture-that-contains-mipmaps.md)합니다.  
+> 특정 효과를 얻기 위해 수행할 수 있는 것처럼 개별 MIP 수준의 콘텐츠를 수정할 필요가 없는 경우 빌드할 때 원본 질감에서 MIP 맵을 생성하는 것이 좋습니다. 이렇게 하면 MIP 수준 수정이 자동으로 다른 수준으로 전파되지 않으므로 MIP 수준이 원본 질감과 동기화되도록 할 수 있습니다. 빌드 시간에 밉 맵을 생성하는 방법에 대한 자세한 내용은 [방법: Mip 맵을 포함 하는 질감 내보내기](../designers/how-to-export-a-texture-that-contains-mipmaps.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 기본 질감 만들기](../designers/how-to-create-a-basic-texture.md)

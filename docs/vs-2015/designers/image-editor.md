@@ -12,12 +12,12 @@ caps.latest.revision: 47
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 08fd0d6e33de0c032ab63f013fca7ee3174b260e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: eba06da32c04fa0ac8824d3cd1c8d024d96c3091
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434402"
 ---
 # <a name="image-editor"></a>이미지 편집기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,7 +82,7 @@ ms.locfileid: "60077383"
  방금 만든 이미지에 대한 작업을 시작하기 전에 기본 구성을 변경할 수 있습니다. 예를 들어 크기 또는 사용하는 색 형식을 변경할 수 있습니다. 이미지에 이러한 속성과 다른 속성을 구성하는 방법에 대한 자세한 내용은 [이미지 속성](#ImageProperties)을 참조하세요.  
   
 > [!NOTE]
->  작업을 저장하기 전에 특정 색 형식을 사용하려면 **색 형식** 속성을 설정해야 합니다. 파일 형식이 압축을 지원하는 경우 파일을 처음 저장하거나 **다른 이름으로 저장**을 선택할 때 압축 설정을 조정할 수 있습니다.  
+> 작업을 저장하기 전에 특정 색 형식을 사용하려면 **색 형식** 속성을 설정해야 합니다. 파일 형식이 압축을 지원하는 경우 파일을 처음 저장하거나 **다른 이름으로 저장**을 선택할 때 압축 설정을 조정할 수 있습니다.  
   
 ## <a name="working-with-the-image-editor"></a>이미지 편집기 작업  
  이 섹션에서는 이미지 편집기를 사용하여 질감과 이미지를 수정하는 방법에 대해 설명합니다.  
@@ -166,7 +166,7 @@ ms.locfileid: "60077383"
 |깊이 조각|현재 깊이 조각입니다. 첫 번째 조각만 볼 수 있습니다. 이미지를 저장하면 다른 모든 조각이 손실됩니다.|  
   
 > [!NOTE]
->  **회전 기준** 속성은 모든 도구 및 선택 영역에 적용되므로 항상 **속성** 창 아래쪽에 다른 도구 속성과 함께 표시됩니다. 다른 선택 도구 또는 활성 도구가 없으면 전체 이미지를 암시적으로 선택하므로 **회전 기준**은 항상 표시됩니다. **회전 기준** 속성에 대한 자세한 내용은 [도구 속성](#ToolProperties)을 참조하세요.  
+> **회전 기준** 속성은 모든 도구 및 선택 영역에 적용되므로 항상 **속성** 창 아래쪽에 다른 도구 속성과 함께 표시됩니다. 다른 선택 도구 또는 활성 도구가 없으면 전체 이미지를 암시적으로 선택하므로 **회전 기준**은 항상 표시됩니다. **회전 기준** 속성에 대한 자세한 내용은 [도구 속성](#ToolProperties)을 참조하세요.  
   
 #### <a name="resizing-images"></a>이미지 크기 조정  
  이미지 크기를 조정하는 두 가지 방법은 다음과 같습니다. 두 경우 모두 이미지 편집기에서 쌍선형 보간을 사용하여 이미지를 다시 샘플링합니다.  

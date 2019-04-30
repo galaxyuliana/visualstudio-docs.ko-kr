@@ -11,12 +11,12 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: becc123cab729aff7d1306bb0ee13aee521444ec
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fc8bcd7a373ab6ee63e32b5873fd149001137511
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433181"
 ---
 # <a name="define-a-custom-modeling-toolbox-item"></a>사용자 지정 모델링 도구 상자 항목 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60105047"
 - 관찰자 패턴을 나타내기 위해 연결에 의해 연결된 클래스 쌍  
   
 > [!NOTE]
->  이 방법을 사용하여 요소 도구를 만들 수 있습니다. 즉, 도구 상자에서 다이어그램으로 끌어오는 도구를 만들 수 있습니다. 연결선 도구는 만들 수 없습니다.  
+> 이 방법을 사용하여 요소 도구를 만들 수 있습니다. 즉, 도구 상자에서 다이어그램으로 끌어오는 도구를 만들 수 있습니다. 연결선 도구는 만들 수 없습니다.  
   
 ## <a name="DefineTool"></a> 사용자 지정 모델링 도구 정의  
   
@@ -136,7 +136,7 @@ ms.locfileid: "60105047"
  Visual Studio에서 비트맵 파일을 편집하고 속성 창에서 해당 높이와 너비를 16으로 설정할 수 있습니다.  
   
 > [!NOTE]
->  자체적으로 다이어그램 파일을 사용하여 실험한 후 .tbxinfo 파일 사용을 시작하는 경우 도구 상자에 기존 및 새 버전의 도구 상자 항목이 모두 포함될 수도 있습니다. 이 문제는 .tbxinfo 파일에 다이어그램 파일의 이름을 잘못 입력한 경우에도 발생할 수 있습니다. 선택 도구 상자의 바로 가기 메뉴에서이 문제가 발생 하면 **도구 상자 다시 설정**합니다. 사용자 지정 도구 상자 항목이 사라집니다. Visual Studio를 다시 시작하면 올바른 사용자 지정 항목이 나타납니다.  
+> 자체적으로 다이어그램 파일을 사용하여 실험한 후 .tbxinfo 파일 사용을 시작하는 경우 도구 상자에 기존 및 새 버전의 도구 상자 항목이 모두 포함될 수도 있습니다. 이 문제는 .tbxinfo 파일에 다이어그램 파일의 이름을 잘못 입력한 경우에도 발생할 수 있습니다. 선택 도구 상자의 바로 가기 메뉴에서이 문제가 발생 하면 **도구 상자 다시 설정**합니다. 사용자 지정 도구 상자 항목이 사라집니다. Visual Studio를 다시 시작하면 올바른 사용자 지정 항목이 나타납니다.  
   
 ## <a name="Extension"></a> Visual Studio 확장에서 도구 상자 항목을 배포 하는 방법  
  다른 도구 상자 항목을 배포할 수 있습니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visual Studio 확장 (VSIX)로 패키징하여 사용자입니다. 동일한 VSIX 파일에 명령, 프로필 및 기타 확장을 패키징할 수 있습니다. 자세한 내용은 [Visual Studio 확장 배포](http://go.microsoft.com/fwlink/?LinkId=160780)합니다.  
@@ -164,7 +164,7 @@ ms.locfileid: "60105047"
     - 솔루션 탐색기의 VSIX 프로젝트 바로 가기 메뉴에서 선택 **추가**하십시오 **기존 항목**합니다. 대화 상자에서 설정할 **유형의 개체: 모든 파일**합니다. 파일을 찾으면, all, 모두 선택 하 고 선택한 **추가**합니다.  
   
         > [!NOTE]
-        >  이 프로젝트에서는 모델 편집기에서 다이어그램 파일을 열 수 없습니다.  
+        > 이 프로젝트에서는 모델 편집기에서 다이어그램 파일을 열 수 없습니다.  
   
 5. 방금 추가한 모든 파일의 다음 속성을 설정합니다. 솔루션 탐색기에서 모두 선택하여 동시에 해당 속성을 설정할 수 있습니다. 프로젝트에 있는 다른 파일의 속성을 변경하지 않도록 주의하세요.  
   
@@ -185,7 +185,7 @@ ms.locfileid: "60105047"
     - 형식 = `Microsoft.VisualStudio.ArchitectureTools.CustomToolboxItems`  
   
         > [!NOTE]
-        >  이는 드롭다운 목록의 옵션 중 하나가 아닙니다. 키보드를 사용하여 입력해야 합니다.  
+        > 이는 드롭다운 목록의 옵션 중 하나가 아닙니다. 키보드를 사용하여 입력해야 합니다.  
   
     - **소스** = **파일 시스템의 파일**합니다.  
   

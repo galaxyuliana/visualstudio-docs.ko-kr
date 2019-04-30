@@ -12,12 +12,12 @@ ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
 caps.latest.revision: 24
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6004e7346ab4bb4bb8d95c04fbbbdd86e1527001
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b4709cc5f011dd55445583c46dd96894b979647c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435544"
 ---
 # <a name="creating-a-basic-project-system-part-2"></a>기본 프로젝트 시스템 만들기, 2부
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60079606"
 - 프로젝트 속성 페이지를 만듭니다.  
   
 > [!NOTE]
->  이 연습 단계에서는 C# 프로젝트를 기반으로 합니다. 그러나 파일 이름 확장명 및 코드와 같은 세부 정보를 제외 하 고 Visual Basic 프로젝트에 대 한 동일한 단계를 사용할 수 있습니다.  
+> 이 연습 단계에서는 C# 프로젝트를 기반으로 합니다. 그러나 파일 이름 확장명 및 코드와 같은 세부 정보를 제외 하 고 Visual Basic 프로젝트에 대 한 동일한 단계를 사용할 수 있습니다.  
   
 ## <a name="creating-a-visual-studio-template"></a>Visual Studio 템플릿 만들기  
  [기본 프로젝트 시스템, 1 부 만들기](../extensibility/creating-a-basic-project-system-part-1.md) 기본 프로젝트 템플릿을 만들고 프로젝트 시스템에 추가 하는 방법을 보여 줍니다. 또한이 템플릿은 Visual Studio를 사용 하 여 등록 하는 방법을 보여 줍니다는 <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> \Templates\Projects\SimpleProject\ 폴더의 전체 경로를 시스템 레지스트리에 쓰는 특성입니다.  
@@ -100,7 +100,7 @@ ms.locfileid: "60079606"
 - 합니다 \<ProjectType > 요소에 프로젝트 이름 합니다 **새 프로젝트** 대화 상자. 이 이름은 ProvideProjectFactory 특성의 프로젝트 이름 매개 변수를 대체 합니다.  
   
   > [!NOTE]
-  >  \<ProjectType > 요소와 일치 해야 합니다 `LanguageVsTemplate` 인수는 `ProvideProjectFactory` SimpleProjectPackage.cs 파일의 특성에에서.  
+  > \<ProjectType > 요소와 일치 해야 합니다 `LanguageVsTemplate` 인수는 `ProvideProjectFactory` SimpleProjectPackage.cs 파일의 특성에에서.  
   
   \<TemplateContent > 섹션에 새 프로젝트가 만들어질 때 생성 되는 이러한 파일에 설명 합니다.  
   
@@ -115,7 +115,7 @@ ms.locfileid: "60079606"
   Visual Studio 템플릿 스키마의 요소에 대 한 자세한 내용은 참조는 [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)합니다.  
   
 > [!NOTE]
->  프로젝트를 Visual Studio 템플릿이 둘 이상 있으면 모든 템플릿은 별도 폴더에서입니다. 해당 폴더의 모든 파일도 있어야 합니다 **빌드 작업** 로 설정 **ZipProject**합니다.  
+> 프로젝트를 Visual Studio 템플릿이 둘 이상 있으면 모든 템플릿은 별도 폴더에서입니다. 해당 폴더의 모든 파일도 있어야 합니다 **빌드 작업** 로 설정 **ZipProject**합니다.  
   
 ## <a name="adding-a-minimal-vsct-file"></a>최소.vsct 파일 추가  
  Visual Studio 새롭거나 수정 된 Visual Studio 템플릿을 인식 설치 모드에서 실행 되어야 합니다. 설치 모드 있어야.vsct 파일을 필요 합니다. 따라서 최소.vsct 파일을 프로젝트에 추가 해야 합니다.  

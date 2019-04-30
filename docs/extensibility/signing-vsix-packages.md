@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 952195ab33b9a7e35265f5ecf40a8de3cf958fb3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 7d2da473d201ff02b65262190158da1818bb1816
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56720590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434580"
 ---
 # <a name="signing-vsix-packages"></a>VSIX 패키지 서명
 확장 어셈블리는 Visual Studio에서 실행할 수는 있지만 이렇게 하는 것이 좋습니다 전에 서명할 필요가 없습니다.
@@ -27,7 +27,7 @@ ms.locfileid: "56720590"
  확장 프로그램을 보호 하 고 사용 하 여 손상 되지 않았는지 확인 하려는 경우에 VSIX 패키지에 디지털 서명을 추가할 수 있습니다. VSIX에 서명 하는 경우 VSIX 설치 관리자는 서명 및 서명 자체에 대 한 자세한 정보를 나타내는 메시지가 표시 됩니다. VSIX의 내용을 수정 된 VSIX 다시 서명 되지 않은 경우 VSIX 설치 관리자 서명이 유효한 지 표시 됩니다. 설치 중지 되지 않으면 있지만 사용자에 게 경고가 표시 됩니다.
 
 > [!IMPORTANT]
->  Visual Studio 2015부터 SHA256 암호화 이외의 사용 하 여 서명 하는 VSIX 패키지에 잘못 된 서명이 있는 것으로 식별 됩니다. VSIX 설치 되지는지 않습니다 하지만 사용자 경고가 표시 됩니다.
+> Visual Studio 2015부터 SHA256 암호화 이외의 사용 하 여 서명 하는 VSIX 패키지에 잘못 된 서명이 있는 것으로 식별 됩니다. VSIX 설치 되지는지 않습니다 하지만 사용자 경고가 표시 됩니다.
 
 ## <a name="signing-a-vsix-with-vsixsigntool"></a>VSIXSignTool 사용 하 여 VSIX를 서명합니다.
  서명에서 사용할 수 있는 도구를 SHA256 암호화 방법이 [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility) 에서 nuget.org [VsixSignTool](http://www.nuget.org/packages/Microsoft.VSSDK.Vsixsigntool)합니다.

@@ -11,18 +11,18 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1a029345afb8b54c85d35e500e4ada48c02c54ff
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7cf2840c22bcddb9090cb078be6a8ad53d1ca1aa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411136"
 ---
 # <a name="vsix-extension-schema-20-reference"></a>VSIX 확장 스키마 2.0 참조
 VSIX 배포 매니페스트 파일에는 VSIX 패키지의 내용을 설명합니다. 스키마 파일 형식이 적용 됩니다. 이 스키마의 버전 2.0 추가 하는 사용자 지정 형식 및 특성을 지원 합니다.  매니페스트의 스키마가 확장 가능 합니다. 매니페스트 로더는 XML 요소 및 인식 하지 못하는 특성을 무시 합니다.
 
 > [!IMPORTANT]
->  Visual Studio 2015는 Visual Studio 2010, Visual Studio 2012 또는 Visual Studio 2013 형식에서 VSIX 파일을 로드할 수 있습니다.
+> Visual Studio 2015는 Visual Studio 2010, Visual Studio 2012 또는 Visual Studio 2013 형식에서 VSIX 파일을 로드할 수 있습니다.
 
 ## <a name="package-manifest-schema"></a>패키지 매니페스트 스키마
  매니페스트 XML 파일의 루트 요소는 `<PackageManifest>`합니다. 단일 특성이 `Version`, 매니페스트 형식의 버전입니다. 형식에 주요 변경 내용이, 버전 형식으로 변경 됩니다. 설정 하 여 매니페스트에 지정 된 매니페스트 형식 버전 2.0에 설명 합니다 `Version` 특성 버전의 값을 "2.0" =.

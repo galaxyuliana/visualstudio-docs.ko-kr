@@ -22,12 +22,12 @@ caps.latest.revision: 73
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9b1fc7da90eb4f263aaf3de19eb37cfa3272a249
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5c5c775dc309c02ca24d27e8b8ac19d2c9d9d588
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440172"
 ---
 # <a name="intellitrace-features"></a>IntelliTrace 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ IntelliTrace를 사용하여 응용 프로그램의 이벤트 및 메서드 호�
  IntelliTrace가 켜져 있는지를 확인 하려면 엽니다는 **도구 / 옵션 / IntelliTrace** 옵션 페이지입니다. **IntelliTrace 사용**은 기본적으로 선택되어 있어야 합니다.  
   
 > [!NOTE]
->  **IntelliTrace** 옵션 페이지에 있는 모든 설정의 범위는 개별 프로젝트나 솔루션이 아니라 Visual Studio 전체입니다. 이 설정에서 변경된 내용은 Visual Studio의 모든 인스턴스, 모든 디버깅 세션 및 모든 프로젝트나 솔루션에 적용됩니다.  
+> **IntelliTrace** 옵션 페이지에 있는 모든 설정의 범위는 개별 프로젝트나 솔루션이 아니라 Visual Studio 전체입니다. 이 설정에서 변경된 내용은 Visual Studio의 모든 인스턴스, 모든 디버깅 세션 및 모든 프로젝트나 솔루션에 적용됩니다.  
   
 ## <a name="ChooseEvents"></a> IntelliTrace에서 기록 하는 이벤트 선택  
  특정 IntelliTrace 이벤트에 대한 기록을 설정하거나 해제할 수 있습니다.  
@@ -54,9 +54,9 @@ IntelliTrace를 사용하여 응용 프로그램의 이벤트 및 메서드 호�
  이렇게 하면 호출 스택 이력을 참조하고 코드에서 호출을 통해 앞뒤로 이동할 수 있습니다. IntelliTrace는 메서드 이름, 메서드 시작/종료 지점, 특정 매개 변수 값, 반환 값 등의 데이터를 기록합니다.  
   
 > [!TIP]
->  이 옵션은 상당한 오버헤드를 추가하기 때문에 기본적으로 사용하도록 설정되어 있지 않습니다. IntelliTrace는 응용 프로그램에서 발생하는 모든 메서드 호출을 가로채야 할 뿐만 아니라 이를 화면에 표시하거나 디스크에 보관하기 위해서는 훨씬 더 큰 데이터 집합을 처리해야 합니다.  
+> 이 옵션은 상당한 오버헤드를 추가하기 때문에 기본적으로 사용하도록 설정되어 있지 않습니다. IntelliTrace는 응용 프로그램에서 발생하는 모든 메서드 호출을 가로채야 할 뿐만 아니라 이를 화면에 표시하거나 디스크에 보관하기 위해서는 훨씬 더 큰 데이터 집합을 처리해야 합니다.  
 >   
->  IntelliTrace가 기록하는 이벤트의 목록을 제한하고 수집하는 모듈 수를 최소한으로 유지하면 성능 오버헤드를 줄일 수 있습니다. 자세한 내용은 [IntelliTrace에서 기록하는 호출 정보의 양 제어](../debugger/intellitrace-features.md#ControlCallData)를 참조하세요.  
+> IntelliTrace가 기록하는 이벤트의 목록을 제한하고 수집하는 모듈 수를 최소한으로 유지하면 성능 오버헤드를 줄일 수 있습니다. 자세한 내용은 [IntelliTrace에서 기록하는 호출 정보의 양 제어](../debugger/intellitrace-features.md#ControlCallData)를 참조하세요.  
   
 ### <a name="using-the-navigation-gutter"></a>탐색 여백 사용  
  코드 창의 왼쪽에 표시되는 탐색 여백을 사용할 수 있습니다. 탐색 여백 보이지 않으면 이동할 **도구 / 옵션 / IntelliTrace / 고급**, 선택한 **디버그 모드에서 탐색 여백 표시**합니다.  
@@ -88,7 +88,7 @@ IntelliTrace를 사용하여 응용 프로그램의 이벤트 및 메서드 호�
  으로 이동 하 여 파일에 자동으로 저장 하도록 IntelliTrace를 구성할 수 있습니다 **도구 / 옵션 / IntelliTrace / 고급** 를 선택 하 고 **이 디렉터리에 IntelliTrace 기록 저장**합니다. 생성된 파일에 대해 집합 크기를 구성할 수도 있습니다. 그러면 공간이 부족할 때 IntelliTrace가 오래된 데이터를 덮어씁니다. Visual Studio는 자동으로 저장되고 Visual Studio 호스팅 프로세스(vshost.exe)가 켜져 있는 경우 각 IntelliTrace 세션에 대해 두 개의 파일을 만듭니다.  
   
 > [!TIP]
->  디스크 공간을 절약하려면 더 이상 필요하지 않을 경우 자동 파일 저장을 끕니다. 기존 파일은 삭제되지 않습니다. 필요에 따라 언제든지 상황에 맞는 메뉴를 사용하여 파일에 저장할 수 있습니다.  
+> 디스크 공간을 절약하려면 더 이상 필요하지 않을 경우 자동 파일 저장을 끕니다. 기존 파일은 삭제되지 않습니다. 필요에 따라 언제든지 상황에 맞는 메뉴를 사용하여 파일에 저장할 수 있습니다.  
   
  IntelliTrace 데이터를 파일에 저장하면 IntelliTrace가 수집한 프로세스별로 .itrace 파일이 하나씩 생깁니다. 으로 이동 하 여 Visual Studio에서.itrace 파일을 열고 다음 **파일 / 열기 / 파일** 파일 열기 대화 상자에서.itrace 파일을 선택 합니다. 자세한 내용은 [저장된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)을 참조하세요.  
   

@@ -13,12 +13,12 @@ caps.latest.revision: 38
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ccf761521d43e3f5ff9d12a4af7fbae4addcddc9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f956f492c3dc690ef2edb67d9a7c75e6c0108820
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433279"
 ---
 # <a name="customizing-element-creation-and-movement"></a>요소 만들기 및 이동 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,9 +72,9 @@ ms.locfileid: "60100523"
    예를 들어 모델에서 새 위치에서 데이터를 사용 하 여 병합 된 요소에 속성을 설정할 수 있습니다.  
   
 > [!NOTE]
->  사용자 지정 병합 코드를 작성 하는 경우이 EMD를 사용 하 여 수행 되는 유일한 병합을 영향을 줍니다. 동일한 유형의 개체를 병합 하는 다른 EMDs 있거나 기타 사용자 지정 코드를 EMD 사용 하지 않고 이러한 개체를 만드는 경우 다음은 받지 병합 사용자 지정 코드에서.  
+> 사용자 지정 병합 코드를 작성 하는 경우이 EMD를 사용 하 여 수행 되는 유일한 병합을 영향을 줍니다. 동일한 유형의 개체를 병합 하는 다른 EMDs 있거나 기타 사용자 지정 코드를 EMD 사용 하지 않고 이러한 개체를 만드는 경우 다음은 받지 병합 사용자 지정 코드에서.  
 >   
->  사용자 지정 코드에서 새 요소 또는 새 관계를 항상 처리 되지 않는 있는지 확인 하려는 경우 고려해를 `AddRule` 포함 관계에 대해 및 `DeleteRule` 요소의 도메인 클래스에 있습니다. 자세한 내용은 [규칙이 전파 변경 내용을 내에서 모델](../modeling/rules-propagate-changes-within-the-model.md)합니다.  
+> 사용자 지정 코드에서 새 요소 또는 새 관계를 항상 처리 되지 않는 있는지 확인 하려는 경우 고려해를 `AddRule` 포함 관계에 대해 및 `DeleteRule` 요소의 도메인 클래스에 있습니다. 자세한 내용은 [규칙이 전파 변경 내용을 내에서 모델](../modeling/rules-propagate-changes-within-the-model.md)합니다.  
   
 ## <a name="example-defining-an-emd-without-custom-code"></a>예제: 사용자 지정 코드 없이 emd는 추가 정의  
  다음 예제에서는 기존 셰이프를 도구 상자에서 끌어서 동시에 요소 및 커넥터를 만들 수 있도록 합니다. 예제는 DSL 정의에 emd는 추가 추가합니다. 이 수정 하기 전에 사용자가 기존 셰이프에 있지만 다이어그램으로 도구를 끌 수 있습니다.  

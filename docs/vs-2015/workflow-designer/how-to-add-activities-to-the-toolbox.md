@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c5edf728df10d2418c4a3341fd54e4115439cc4a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: af470bbbebbf10fdfcf906c905171e86b0c100ba
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433529"
 ---
 # <a name="how-to-add-activities-to-the-toolbox"></a>방법: 도구 상자에 활동 추가
 활동을 추가할 수는 **도구 상자** 여러 가지 방법으로 솔루션에. 현재 프로젝트에서 활동을 추가하거나, 다른 프로젝트의 활동을 참조하거나, 다른 어셈블리의 활동을 참조할 수 있습니다.  
@@ -28,13 +28,13 @@ ms.locfileid: "60055173"
 3. 프로젝트를 빌드합니다. 빌드가 성공한 경우 새 범주가 합니다 **도구 상자** 라는 "\<*프로젝트 이름*>" 해당 범주에 포함 된 사용자 지정 활동과 함께 표시 됩니다.  
   
     > [!NOTE]
-    >  도구 상자를 다시 설정하는 경우 솔루션을 다시 빌드하더라도 사용자 지정 활동은 제거됩니다. 다시 설정한 후에 도구 상자를 사용자 지정 활동으로 다시 채우려면 [!INCLUDE[vs2010](../includes/vs2010-md.md)]을 다시 시작합니다.  
+    > 도구 상자를 다시 설정하는 경우 솔루션을 다시 빌드하더라도 사용자 지정 활동은 제거됩니다. 다시 설정한 후에 도구 상자를 사용자 지정 활동으로 다시 채우려면 [!INCLUDE[vs2010](../includes/vs2010-md.md)]을 다시 시작합니다.  
   
     > [!NOTE]
-    >  도구 상자는 주어진 이름의 활동을 하나만 표시할 수 있습니다. 다른 어셈블리의 두 활동의 클래스 이름이 같은 경우 하나만 표시됩니다.  
+    > 도구 상자는 주어진 이름의 활동을 하나만 표시할 수 있습니다. 다른 어셈블리의 두 활동의 클래스 이름이 같은 경우 하나만 표시됩니다.  
   
     > [!NOTE]
-    >  응용 프로그램 도메인은 편집기 인스턴스 간에 공유되며 정적 변수를 사용하는 경우에도 편집기 인스턴스 간에 공유됩니다. 원하는 동작이 아닌 경우 인스턴스를 추적하는 데 서비스를 사용해야 합니다. 참조 [ModelItem 편집 컨텍스트를 사용 하 여](http://msdn.microsoft.com/library/7f9f1ea5-0147-4079-8eca-be94f00d3aa1) 디자이너 내에서 서비스를 사용 하는 정보에 대 한 합니다.  
+    > 응용 프로그램 도메인은 편집기 인스턴스 간에 공유되며 정적 변수를 사용하는 경우에도 편집기 인스턴스 간에 공유됩니다. 원하는 동작이 아닌 경우 인스턴스를 추적하는 데 서비스를 사용해야 합니다. 참조 [ModelItem 편집 컨텍스트를 사용 하 여](http://msdn.microsoft.com/library/7f9f1ea5-0147-4079-8eca-be94f00d3aa1) 디자이너 내에서 서비스를 사용 하는 정보에 대 한 합니다.  
   
 ### <a name="to-add-an-activity-from-within-a-different-project"></a>다른 프로젝트에서 활동을 추가하려면  
   

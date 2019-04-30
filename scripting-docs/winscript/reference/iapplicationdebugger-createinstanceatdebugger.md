@@ -17,18 +17,18 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 601f20c530ec5e275139d1e70d3df58fa88cd715
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: 95489464128e706e755432bee991c5481f5af8bc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58147633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425821"
 ---
 # <a name="iapplicationdebuggercreateinstanceatdebugger"></a>IApplicationDebugger::CreateInstanceAtDebugger
 코드에서 디버거 프로세스에서 개체를 만들 수 있습니다. 디버거를 프로세스 제한입니다.  
   
 > [!IMPORTANT]
->  신뢰할 수 없는 코드가 신뢰할 수 있는 디버거 스레드에 임의의 개체를 만들 수 있으므로이 메서드를 구현 되어야 합니다.  
+> 신뢰할 수 없는 코드가 신뢰할 수 있는 디버거 스레드에 임의의 개체를 만들 수 있으므로이 메서드를 구현 되어야 합니다.  
   
 ## <a name="syntax"></a>구문  
   

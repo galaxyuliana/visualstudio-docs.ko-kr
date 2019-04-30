@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f7cf338139da88fd4d3507ac7f6c7ab71dd881e3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 40b1d2961fa0f0187d11bd87df54ff2ad3124275
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433517"
 ---
 # <a name="how-to-create-a-wcf-workflow-service-application"></a>방법: WCF 워크플로 서비스 애플리케이션 만들기
 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 워크플로 서비스 응용 프로그램은 프로세스 경계를 넘어 클라이언트와 메시지를 주고 받는 분산 통신 서비스입니다. 서비스 측의 서비스 계약 구현은 .NET Framework 3.5의 레거시 워크플로 서비스와 비슷한 방식으로 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]에서 워크플로 활동을 통해 선언적으로 이루어집니다.  
@@ -38,7 +38,7 @@ ms.locfileid: "60054915"
 7. 에 **솔루션** 상자에서 선택 하거나 새 솔루션을 만들고 클릭 **확인**합니다.  
   
     > [!NOTE]
-    >  기존 솔루션에 워크플로 콘솔 응용 프로그램을 추가 하려는 경우에 솔루션을 엽니다 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서 솔루션을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기**를 선택 하 고 **추가**, 한 다음  **새 프로젝트...** 열려는 합니다 **새 프로젝트** 대화 상자. 그런 다음 이 절차의 윗부분에 설명된 대로 진행합니다.  
+    > 기존 솔루션에 워크플로 콘솔 응용 프로그램을 추가 하려는 경우에 솔루션을 엽니다 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서 솔루션을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기**를 선택 하 고 **추가**, 한 다음  **새 프로젝트...** 열려는 합니다 **새 프로젝트** 대화 상자. 그런 다음 이 절차의 윗부분에 설명된 대로 진행합니다.  
   
 8. 프로젝트 템플릿이 서비스 정의를 XAML로 만듭니다. [!INCLUDE[wfd1](../includes/wfd1-md.md)] 및 <xref:System.Activities.Statements.Sequence> 활동 집합을 포함하는 <xref:System.ServiceModel.Activities.Receive> 활동이 표시된 <xref:System.ServiceModel.Activities.SendReply>의 디자인 뷰가 열립니다.   
   

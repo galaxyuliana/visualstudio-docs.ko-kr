@@ -13,12 +13,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 766ecde2da88c2a666470c790f6399cce198b2a7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9b1ad310385d5c8c8cecaee408d049a172d53e1e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60053158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436853"
 ---
 # <a name="how-to-create-or-update-standard-code-analysis-check-in-policies"></a>방법: 표준 코드 분석 체크 인 정책 만들기 또는 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60053158"
 코드 분석 체크 인 정책을 사용 하 여 팀 프로젝트의 모든 코드 프로젝트에 대해 코드 분석 실행 수 있도록 요구할 수 있습니다. 코드 분석에 필요한 코드 베이스에 체크 인 된 코드의 품질을 향상 시킬 수 있습니다.  
   
 > [!NOTE]
->  이 기능은 Team Foundation Server를 사용 하는 경우에 사용할 수 있습니다.  
+> 이 기능은 Team Foundation Server를 사용 하는 경우에 사용할 수 있습니다.  
   
  코드 분석 체크 인 정책 팀 프로젝트 설정에서 설정 되 고 팀 프로젝트의 각 코드 프로젝트에 적용 합니다. 코드 분석 실행 코드 프로젝트에 대 한 프로젝트 (.xxproj) 파일에서 코드 프로젝트에 대해 구성 됩니다. 코드 분석 실행은 로컬 컴퓨터에서 수행 됩니다. 팀 프로젝트 설정의 규칙은 컴퓨터에서 수행 해야 코드 분석 체크 인 정책을 사용 하면, 체크 인 된 코드 프로젝트의 파일은 마지막 편집 후 컴파일해야 및 최소한의 코드 분석 실행을 포함 하는 경우 여기서 c hanges가 이루어졌습니다.  
   

@@ -17,12 +17,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f239da7816f72b9204364303113d32f5e06c4fd8
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 70d640b97bae15575689d41c38bd774507276906
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436870"
 ---
 # <a name="property-pages-javascript"></a>속성 페이지, JavaScript
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ ms.locfileid: "59661908"
  프로젝트의 일반 속성을 설정하려면 다음 옵션을 사용합니다.  
   
 > [!NOTE]
->  일부 옵션은 Windows 스토어 앱에서만 사용할 수 있습니다.  
+> 일부 옵션은 Windows 스토어 앱에서만 사용할 수 있습니다.  
   
  **출력 경로**  
  프로젝트 구성에 대한 출력 파일의 위치를 지정합니다. 상대 경로입니다. 절대 경로를 입력하면 프로젝트에 절대 경로가 저장됩니다. 기본 경로는 bin\Debug입니다.  
@@ -62,7 +62,7 @@ ms.locfileid: "59661908"
  프로젝트의 디버깅 동작에 대한 속성을 설정하려면 다음 옵션을 사용합니다.  
   
 > [!NOTE]
->  일부 옵션은 Windows 스토어 앱에서만 사용할 수 있습니다.  
+> 일부 옵션은 Windows 스토어 앱에서만 사용할 수 있습니다.  
   
  **실행할 디버거**  
  디버거에 대한 기본 호스트를 지정합니다.  

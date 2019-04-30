@@ -14,12 +14,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: fd0bf5c0e95b4c859dc2d6470ab6f922041b20ba
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7c0dc7b406f7e04aaa9848e2f5dcb96f17430f6d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049882"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436953"
 ---
 # <a name="create-a-sql-database-by-using-a-script"></a>스크립트를 사용 하 여 SQL database 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -234,7 +234,7 @@ ms.locfileid: "60049882"
 2. 아래 **설치 됨**, 확장를 **템플릿** 노드를 확장를 **다른 언어** 노드를 선택 합니다 **SQL Server** 범주를 차례로 선택 된 **SQL Server 데이터베이스 프로젝트** 템플릿.  
   
     > [!NOTE]
-    >  합니다 **다른 언어** 노드는 Visual Studio의 모든 설치의 경우에 표시 되지 않습니다.  
+    > 합니다 **다른 언어** 노드는 Visual Studio의 모든 설치의 경우에 표시 되지 않습니다.  
   
 3. 에 **이름을** 상자에 입력 `Small Database`합니다.  
   

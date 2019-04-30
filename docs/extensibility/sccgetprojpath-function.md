@@ -12,21 +12,21 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d3090048482d698c1678a80f2d3066569dcc243f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: abc7ecf0bb35f61785041d03f871409bbe499854
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434605"
 ---
 # <a name="sccgetprojpath-function"></a>SccGetProjPath 함수
 이 함수는 프로젝트 경로 소스 제어 플러그 인에 의미 있는 문자열에 대 한 라는 메시지입니다. 사용자가 있는 경우 라고 합니다.
 
--   새 프로젝트 만들기
+- 새 프로젝트 만들기
 
--   버전 제어에 기존 프로젝트 추가
+- 버전 제어에 기존 프로젝트 추가
 
--   기존 버전 제어 프로젝트를 찾으려고 시도
+- 기존 버전 제어 프로젝트를 찾으려고 시도
 
 ## <a name="syntax"></a>구문
 
@@ -105,7 +105,7 @@ SCCRTN SccGetProjPath (
  에 대 한 `lpUser`, IDE 사용자 이름에 전달할 수 있습니다 또는 빈 문자열에 대 한 포인터에서 단순히 통과할 수 있습니다. 없는 경우 사용자 이름, 소스 제어 플러그 인을 기본값으로 사용 해야 합니다. 그러나 이름이 전달 되지 않은 경우, 지정 된 이름의 로그인에 실패 하는 경우 플러그 인 메시지를 표시할 로그인 하 고 이름을 다시 전달 `lpUser` 유효한 로그인을 받을 때입니다. IDE는 크기의 버퍼를 할당 항상 플러그 인이 문자열 변경 될 수, 있으므로 (`SCC_USER_LEN`+ 1).
 
 > [!NOTE]
->  IDE에서 수행 하는 첫 번째 작업 중 하나에 대 한 호출 수를 `SccOpenProject` 함수 또는 `SccGetProjPath` 함수입니다. 따라서 둘 다가 동일한 `lpUser` 소스 제어 플러그 인을 두 번에 사용자를 로그인을 사용 하도록 설정 하는 매개 변수입니다. 함수에서 반환 된 값을 실패를 나타내는 경우에 플러그 인 채워야 유효한 로그인 이름의이 문자열입니다.
+> IDE에서 수행 하는 첫 번째 작업 중 하나에 대 한 호출 수를 `SccOpenProject` 함수 또는 `SccGetProjPath` 함수입니다. 따라서 둘 다가 동일한 `lpUser` 소스 제어 플러그 인을 두 번에 사용자를 로그인을 사용 하도록 설정 하는 매개 변수입니다. 함수에서 반환 된 값을 실패를 나타내는 경우에 플러그 인 채워야 유효한 로그인 이름의이 문자열입니다.
 
  `lpLocalPath` 여기서 사용자가 프로젝트 디렉터리가입니다. 빈 문자열일 수 있습니다. 디렉터리가 없습니다 (의 경우와 같이 소스 제어 시스템에서 프로젝트를 다운로드 하는 동안 사용자) 현재 정의 된 경우 `bAllowChangePath` 는 `TRUE`, 소스 제어 플러그 인 입력에 대 한 사용자 수 또는 일부 다른 메서드를 사용 하 여 배치 해당 문자열을 소유 `lpLocalPath`합니다. 하는 경우 `bAllowChangePath` 는 `FALSE`, 플러그 인은 문자열 때문에 변경할 사용자가 이미 지정된 된 디렉터리에서 작업 합니다.
 

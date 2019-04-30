@@ -16,12 +16,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c1cde6d36a1244976a2cc95dd9c1d3698be40df0
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: a0ce02a76d32a967e2c7e5f06818b5838337f9b1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59652620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433672"
 ---
 # <a name="options-dialog-box--projects-and-solutions-build-and-run"></a>옵션 대화 상자, 프로젝트 및 솔루션, 빌드 및 실행
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "59652620"
   
  **실행 시 프로젝트가 만료된 경우**  
  > [!NOTE]
->  이 목록은 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트에만 적용됩니다.  
+> 이 목록은 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트에만 적용됩니다.  
   
  기본적으로 F5 키를 선택하거나 메뉴 모음에서 **디버그**, **시작**을 차례로 선택할 때 프로젝트 구성이 오래된 경우 메시지가 나타납니다. 프로젝트를 빌드할지 여부 및 메시지를 표시할지 여부를 지정할 수 있습니다. 이 옵션을 사용하여 메시지의 표시 여부 및 메시지를 표시하지 않는 경우의 빌드 동작을 지정합니다.  
   
@@ -54,7 +54,7 @@ ms.locfileid: "59652620"
  **빌드** 메뉴에서 빌드를 시작할 때 빌드 오류가 발생하는 경우 메시지가 표시됩니다. 응용 프로그램을 시작하여 계속할지 여부 및 빌드 오류가 발생할 때마다 메시지를 표시할지 여부를 지정할 수 있습니다. 이 옵션을 사용하여 메시지의 표시 여부 및 메시지를 표시하지 않는 경우의 동작을 지정합니다.  
   
 > [!NOTE]
->  이 옵션은 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트에만 적용됩니다.  
+> 이 옵션은 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트에만 적용됩니다.  
   
  **시작 여부 묻기**  
  빌드 오류가 발생할 때마다 메시지 상자를 표시합니다.  
@@ -73,7 +73,7 @@ ms.locfileid: "59652620"
   
  **MSBuild 프로젝트 빌드 로그 파일의 자세한 정도**  
  > [!NOTE]
->  이 옵션은 Visual C++ 프로젝트에만 적용됩니다.  
+> 이 옵션은 Visual C++ 프로젝트에만 적용됩니다.  
   
  \\...\\*ProjectName*\Debug\\*ProjectName*.log에 있는 빌드 로그 파일에 작성되는 정보의 양을 결정합니다.  
   

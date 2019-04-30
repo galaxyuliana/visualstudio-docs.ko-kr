@@ -17,12 +17,12 @@ caps.latest.revision: 41
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 523764ae5cd787fd4b52650e894eb086ae4adb0c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7cf00897e68fc4b6858e747bd9b3a7f159bf73c1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439929"
 ---
 # <a name="aspnet-debugging-system-requirements"></a>ASP.NET 디버깅: 시스템 요구 사항
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ ms.locfileid: "60097130"
  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스가 고유한 사용자 계정에서 실행되도록 변경하는 경우에는 IIS를 실행하는 서버의 관리자가 아니어도 됩니다.  
   
 > [!CAUTION]
->  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스가 다른 계정에서 실행되도록 변경하기 전에 해당 계정에서 실행되는 동안 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스가 해킹될 경우의 가능한 결과를 고려하십시오. ASPNET 및 NETWORK SERVICE 사용자 계정은 최소 권한으로 실행되므로 프로세스가 해킹되는 경우 가능한 손실을 줄일 수 있습니다. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스가 보다 많은 권한을 가진 계정에서 실행되도록 변경해야 하는 경우에는 더 큰 손실이 발생할 수 있습니다.  
+> [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스가 다른 계정에서 실행되도록 변경하기 전에 해당 계정에서 실행되는 동안 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스가 해킹될 경우의 가능한 결과를 고려하십시오. ASPNET 및 NETWORK SERVICE 사용자 계정은 최소 권한으로 실행되므로 프로세스가 해킹되는 경우 가능한 손실을 줄일 수 있습니다. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스가 보다 많은 권한을 가진 계정에서 실행되도록 변경해야 하는 경우에는 더 큰 손실이 발생할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ASP.NET 및 AJAX 애플리케이션 디버그](../debugger/debugging-aspnet-and-ajax-applications.md)   

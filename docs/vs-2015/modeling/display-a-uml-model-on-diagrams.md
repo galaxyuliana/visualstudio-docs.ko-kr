@@ -11,12 +11,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 31181cd3dd70d3767bce65fe338d8dc152ec311c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 694b4dd1531dc196d06ba46eb8c5b77f66052bc2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436220"
 ---
 # <a name="display-a-uml-model-on-diagrams"></a>다이어그램에 UML 모델 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -102,7 +102,7 @@ Visual Studio 확장에 대한 프로그램 코드에서 모델 요소가 다이
  `Context.CurrentDiagram as IClassDiagram;`  
   
 > [!NOTE]
->  `IDiagram` 인스턴스(및 `IClassDiagram`과 같은 하위 형식)는 처리 중인 명령 내에서만 유효합니다. 제어가 사용자에게 반환하는 동안 지속되는 변수에 `IDiagram` 개체를 유지하지 않는 것이 좋습니다.  
+> `IDiagram` 인스턴스(및 `IClassDiagram`과 같은 하위 형식)는 처리 중인 명령 내에서만 유효합니다. 제어가 사용자에게 반환하는 동안 지속되는 변수에 `IDiagram` 개체를 유지하지 않는 것이 좋습니다.  
   
  자세한 내용은 [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)합니다.  
   
