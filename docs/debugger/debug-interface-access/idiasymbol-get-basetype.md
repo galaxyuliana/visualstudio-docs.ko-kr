@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e1d38e39fd7687de3ff87737b49972cb389187aa
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56640170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62837609"
 ---
 # <a name="idiasymbolgetbasetype"></a>IDiaSymbol::get_baseType
 이 기호에 대 한 기본 형식을 검색<em>합니다.</em>
@@ -41,7 +41,7 @@ HRESULT get_baseType (
 > [!NOTE]
 > 반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 기호에 대 한 기본 형식은 먼저 기호의 형식을 가져오고 다음 기본 형식에 대 한 형식을 반환 하는 조회 하 여 확인할 수 있습니다. 참고 일부 기호는 기본 형식에 없을 수 있습니다-예를 들어 구조 이름입니다.
 
 ## <a name="example"></a>예제

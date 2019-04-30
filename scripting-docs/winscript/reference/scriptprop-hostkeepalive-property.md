@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 3724bfcb1ec42617cda4c89269cb0160accafb1a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62840346"
 ---
 # <a name="scriptprophostkeepalive-property"></a>SCRIPTPROP_HOSTKEEPALIVE 속성
 지정 여부 스크립팅 엔진은 유지 해야 처리 중인 참조가 있는 경우에 완벽 하 게 작동 하는 데 사용 합니다.  

@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6c359b188894c40f017e3d2a0e06d52de87e9c5f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56618564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62928794"
 ---
 # <a name="ltdescriptiongt-element-clickonce-deployment"></a>&lt;설명&gt; 요소 (ClickOnce 배포)
 셸에 표시를 만드는 데 사용 되는 응용 프로그램 정보를 식별 하 고 **프로그램 추가 / 제거** 제어판 항목입니다.
@@ -48,7 +48,7 @@ ms.locfileid: "56618564"
 |`suiteName`|선택 사항입니다. 내에서 하위 폴더를 식별 하는 `publisher` 는 Windows에서 폴더 **시작** 메뉴.|
 |`supportUrl`|선택 사항입니다. 에 표시 되는 지원 URL을 지정 합니다 **프로그램 추가 / 제거** 제어판 항목입니다. 이 URL로 바로 가기는 Windows에서 응용 프로그램 지원을 위한 만들어져서 **시작** 메뉴에서 설치에 대 한 배포를 구성할 때.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  모든 배포 구성에서 description 요소가 필요 합니다.
 
 ## <a name="example"></a>예제
@@ -61,5 +61,5 @@ ms.locfileid: "56618564"
   xmlns="urn:schemas-microsoft-com:asm.v1" />
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)

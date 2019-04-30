@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: c5c907885e91cc3b7765ff94528a30a84b17ee46
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909567"
 ---
 # <a name="legacy-language-service-interfaces"></a>레거시 언어 서비스 인터페이스
 모든 특정 프로그래밍 언어에 대해 한 번에 언어 서비스의 인스턴스가 하나만 수 있습니다. 그러나 단일 언어 서비스는 둘 이상의 편집기를 사용할 수 있습니다.

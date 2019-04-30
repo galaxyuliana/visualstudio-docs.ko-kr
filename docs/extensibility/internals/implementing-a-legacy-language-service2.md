@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 8592103bad3f6949f37a190c25633398af89a166
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909642"
 ---
 # <a name="implementing-a-legacy-language-service"></a>레거시 언어 서비스 구현
 MPF ()에서 관리 되는 패키지 프레임 워크를 사용 하 여 언어 서비스 구현에서 클래스를 파생 해야 합니다는 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스 및 다음 추상 메서드 및 속성을 구현 합니다.

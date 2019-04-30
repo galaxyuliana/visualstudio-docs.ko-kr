@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ca7113a1b108713b5dd7cf0f17511cec39a1b8b6
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62917999"
 ---
 # <a name="idebugportsupplier3"></a>IDebugPortSupplier3
 이 인터페이스는 호출자가 포트 공급자 (디스크에 쓴 후)에서 디버거는 호출 간에 포트를 유지 하 고 다음 유지 해당 포트의 목록을 받을 수 있는지 여부를 확인할 수 있습니다.

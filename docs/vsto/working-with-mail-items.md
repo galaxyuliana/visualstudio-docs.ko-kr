@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 1a0e5007163d10aee15e39759448928e44ae5a68
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62815435"
 ---
 # <a name="work-with-mail-items"></a>메일 항목 작업
   <xref:Microsoft.Office.Interop.Outlook.MailItem> 클래스 메서드 및 전자 메일 메시지를 사용 하 여 작업을 수행 하는 데 사용할 속성을 포함 합니다.

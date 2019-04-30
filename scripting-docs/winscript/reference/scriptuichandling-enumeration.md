@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: d21be6a4e0d6fb24bec95cd7232a33dd20c67f31
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58152813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62840176"
 ---
 # <a name="scriptuichandling-enumeration"></a>SCRIPTUICHANDLING 열거형
 UI 컨트롤을 처리 해야 하는 방식을 나타냅니다.  

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ed978355aa752730cfb43390b3e4b6f80d327f83
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56693947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62919465"
 ---
 # <a name="idebugfieldequal"></a>IDebugField::Equal
 이 메서드는 같음에 대 한 지정된 된 필드를 사용 하 여이 필드를 비교합니다.

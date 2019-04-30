@@ -22,20 +22,20 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 008dde8239c2b4b70220159275b12066b8cf70bb
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57525503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62851068"
 ---
-# <a name="edit-code-and-continue-debugging-in-visual-studio-c-vb-c"></a>코드를 편집 하 고 Visual Studio에서 디버깅을 계속 (C#, VB, c + +)
+# <a name="edit-code-and-continue-debugging-in-visual-studio-c-vb-c"></a>코드를 편집 하 고 Visual Studio에서 디버깅을 계속 (C#, VB, C++)
 편집하며 계속하기는 프로그램이 중단 모드에 있는 동안 소스 코드를 변경하여 시간을 절약할 수 있는 기능입니다. 같은 실행 명령을 선택 하 여 프로그램 실행을 다시 시작 하면 **계속** 하거나 **단계**, 편집 및 계속 자동으로 코드 변경 내용을 몇 가지 제한 사항이 적용 됩니다. 이 기능을 사용하면 전체 프로그램을 중지하고 다시 컴파일한 다음 디버깅 세션을 다시 시작하는 대신 디버깅 세션을 진행하는 과정에서 코드를 변경할 수 있습니다.
 
  이 단원에 포함된 항목은 다음과 같습니다.
 
  [방법: 편집하며 계속하기 설정/해제](../debugger/how-to-enable-and-disable-edit-and-continue.md)
 
- [코드 변경을 중지하는 방법](../debugger/how-to-stop-code-changes.md)
+ [방법: 코드 변경 중지](../debugger/how-to-stop-code-changes.md)
 
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)
 

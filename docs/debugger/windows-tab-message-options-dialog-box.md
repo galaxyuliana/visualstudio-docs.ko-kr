@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9f60201bacd928b4744795e644cb1d9e5de55b75
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56718559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62929179"
 ---
 # <a name="windows-tab-message-options-dialog-box"></a>메시지 옵션 대화 상자, 창 탭
 사용 된 **Windows** 탭에 나열 된 메시지의 범위를 설정 하려면 [메시지 뷰](../debugger/messages-view.md)합니다. 표시할 합니다 [메시지 옵션 대화 상자](../debugger/message-options-dialog-box.md), 선택 **로그 메시지** 에서 합니다 **Spy** 메뉴.

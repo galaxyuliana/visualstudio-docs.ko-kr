@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 77fc67d50d448ef58714f4c6a8a137c86d7f9d66
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62864227"
 ---
 # <a name="drop-down-bar"></a>드롭다운 표시줄
 드롭다운 표시줄 코드 창의 맨 위에 있는 제공 되 고 두 개의 드롭다운 목록이 포함 되어 있습니다.

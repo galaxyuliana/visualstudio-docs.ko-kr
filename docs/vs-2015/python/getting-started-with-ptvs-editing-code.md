@@ -10,11 +10,11 @@ author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.openlocfilehash: 2e883970b4b265b1864d53ef6e1f347160e5aeb9
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62550914"
 ---
 # <a name="getting-started-with-ptvs-editing-code"></a>PTVS 시작: 코드 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,9 +32,9 @@ from math import sin
   
 ```  
   
- 코딩하는 동안 바인딩되지 않았지만 라이브러리에 있는 식별자를 사용할 경우 PTVS에서 필요한 적절한 import 문을 추가하는 팝업 빠른 수정을 제공합니다.  예를 들어 입력 `cos`, 표시 되는 다음 **수학에서 가져올** 제공 합니다.  
+ 코딩하는 동안 바인딩되지 않았지만 라이브러리에 있는 식별자를 사용할 경우 PTVS에서 필요한 적절한 import 문을 추가하는 팝업 빠른 수정을 제공합니다.  예를 들어 `cos`를 입력하면 **수학에서 가져오기**가 제공됨을 볼 수 있습니다.  
   
- 코드 조각을 사용하여 코드를 생성할 수 있습니다.  편집 메뉴에서 IntelliSense, 코드 조각 삽입을 차례로 선택합니다.  이제 Python, def를 차례로 선택합니다.  `make_dot_string` 함수를 호출하고 `x` 매개 변수 하나를 추가합니다.  이제 테스트 기반 개발을 위해 파일에 어설션을 추가할 수 있으며, PTVS에서 이미 완성 목록에 새 함수를 제공할 수 있습니다.  
+ 코드 조각을 사용하여 코드를 생성할 수 있습니다.  편집 메뉴에서 IntelliSense, 코드 조각 삽입을 차례로 선택합니다.  이제 Python을 선택한 다음, def를 선택합니다.  `make_dot_string` 함수를 호출하고 `x` 매개 변수 하나를 추가합니다.  이제 테스트 기반 개발을 위해 파일에 어설션을 추가할 수 있으며, PTVS에서 이미 완성 목록에 새 함수를 제공할 수 있습니다.  
   
 ```python  
 assert make_dot_string(90) == '          o'  

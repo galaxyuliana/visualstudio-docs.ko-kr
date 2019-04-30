@@ -14,11 +14,11 @@ ms.assetid: a7536f82-afd7-4894-9a60-84307fb92b7e
 caps.latest.revision: 13
 manager: jillfra
 ms.openlocfilehash: 6296993d3a1f5039024556f09b721daa82ca4f53
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63002445"
 ---
 # <a name="announcing-property-window-selection-tracking"></a>속성 창 선택 영역 추적 발표
 사용 하려는 경우는 **속성** 창 또는 **속성** 페이지, 예를 들어, 폼, 텍스트 또는 구하려는 속성을 보려는 방법 잘 알고 있어야 합니다. 그런 다음 선택 하면 선택 영역을 조정 합니다. 예를 들어 단일 선택 또는 여러 선택 영역에 있는지 알아야 합니다. 그런 다음 해당 선택 영역 형식 (단일 또는 여러) 사용 하 여 IDE에 발표 해야는 <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection> 인터페이스입니다. 이 인터페이스에 필요한 정보를 제공 합니다 **속성** 창입니다.  

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 37786442124eafea719454ac94c704984f1703f3
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554976"
 ---
 # <a name="cvhrege"></a>CV_HREG_e
 대상 레지스터를 지정합니다.
@@ -431,7 +431,7 @@ Matsushita/Panasonic AM33 사용한 및 프로세서 관련 CV_AM33_ * 등록 �
 
 CV_M32R_ * Mitsubishi M32R 프로세서에서 사용 하는 등록 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 각 프로세서 유형에 고유한 레지스터 집합 자체를 사용합니다.
 
 이 열거형의 값은 다음 메서드에 전달 됩니다.

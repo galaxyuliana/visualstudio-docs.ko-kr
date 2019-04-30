@@ -11,14 +11,14 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7bf55f372b9beb0a4cb0feda0dc5869ee9eb7c5f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62827737"
 ---
 # <a name="idiasymbolfindsymbolsforacceleratorpointertag"></a>IDiaSymbol::findSymbolsForAcceleratorPointerTag
-C + + AMP 스텁 함수에서 가속기 포인터 태그의 수를 반환합니다.
+Accelerator 포인터 태그의 수를 반환 합니다는 C++ AMP 스텁 함수입니다.
 
 ## <a name="syntax"></a>구문
 

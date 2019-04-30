@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 7fab8a42d5559c23ce6816d5a247561a4376a7fe
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909155"
 ---
 # <a name="manifest-to-code"></a>Manifest to Code
 매니페스트 코드 도구를 Visual Studio 이미지 서비스에 대 한.imagemanifest 파일을 가져오고 래퍼 파일 또는 이미지 매니페스트의 값에서 참조 하는 것에 대 한 파일을 생성 하는 콘솔 응용 프로그램은 C++, C#, Visual Studio 용 VB 또는.vsct 파일 확장입니다. 이 도구를 직접 Visual Studio 이미지 서비스에서 요청 이미지 또는 코드는 자체 UI와 렌더링 중 하나를 처리 하지 않습니다 하는 경우 Api 통해 매니페스트 값을 전달 하는 데 사용할 수 있는 래퍼 파일을 생성 합니다.

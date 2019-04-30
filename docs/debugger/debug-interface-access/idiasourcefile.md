@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 37b887e21da73acffde6f5ae21adf766e64e55fc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838134"
 ---
 # <a name="idiasourcefile"></a>IDiaSourceFile
 원본 파일을 나타냅니다.
@@ -39,7 +39,7 @@ IDiaSourceFile : IUnknown
 |[IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile-get-compilands.md)|이 파일을 참조 하는 줄 번호를 사용 하 여는 컴파일 대상의 열거자를 검색 합니다.|
 |[IDiaSourceFile::get_checksum](../../debugger/debug-interface-access/idiasourcefile-get-checksum.md)|체크섬 바이트 수를 검색 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 호출 하 여이 인터페이스를 가져올는 [idiaenumsourcefiles:: Item](../../debugger/debug-interface-access/idiaenumsourcefiles-item.md) 하거나 [idiaenumsourcefiles:: Next](../../debugger/debug-interface-access/idiaenumsourcefiles-next.md) 메서드. 세부 정보에 대 한 예제를 참조 하세요.

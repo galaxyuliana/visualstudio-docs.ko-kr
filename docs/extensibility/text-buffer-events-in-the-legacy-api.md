@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 85c59ffd5b0289edf3b36fbd2ef7d0a62313af72
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56715559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62798880"
 ---
 # <a name="text-buffer-events-in-the-legacy-api"></a>기존 API에서 텍스트 버퍼 이벤트
 텍스트 버퍼 개체는 다양 한 상황에 응답할 수 있도록 여러 가지 이벤트를 내보냅니다.

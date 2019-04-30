@@ -11,11 +11,11 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 ms.openlocfilehash: b5a680eea5f5695d3a7253b9cf722af6ebf537c6
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54089546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62954892"
 ---
 # <a name="iactivescriptparse32addscriptlet"></a>IActiveScriptParse32::AddScriptlet
 스크립트에 코드 scriptlet을 추가 합니다. 호스트 문서를 사용 하 여 스크립트의 영구 상태 밀접 호스트는 스크립트를 복원 하는 일을 담당 하는 환경에서이 메서드는 통하지 않고는 `IPersist*` 인터페이스입니다. 기본 예제는 이벤트에 연결 될 HTML 문서에 포함 된 코드의 스크립틀릿을 허용 하는 HTML 스크립팅 언어 (예를 들어 ONCLICK="button1.text='Exit'").  
@@ -84,7 +84,7 @@ HRESULT AddScriptlet(
 |------------------|-------------|  
 |`S_OK`|명령 실행 성공|  
 |`DISP_E_EXCEPTION`|스크립트릿 구문 분석 중에 예외가 발생 했습니다. `pexcepinfo` 매개 변수는 예외에 대 한 정보를 포함 합니다.|  
-|`E_INVALIDARG`|인수가 잘못된 경우.|  
+|`E_INVALIDARG`|인수가 잘못 되었습니다.|  
 |`E_NOTIMPL`|이 메서드가 지원 되지 않습니다. 스크립팅 엔진 스크립틀릿 이벤트 싱크를 추가 하는 것을 지원 하지 않습니다.|  
 |`E_POINTER`|잘못 된 포인터가 지정 되었습니다.|  
 |`E_UNEXPECTED`|호출이 필요 하지 않습니다 (예를 들어, 스크립팅 엔진에 아직 로드 되지 않았거나 초기화) 하므로 실패 합니다.|  

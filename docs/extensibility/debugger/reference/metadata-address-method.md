@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: f6d6ad6fdb995c80043a831bd08aa1294f0fb33e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62913912"
 ---
 # <a name="metadataaddressmethod"></a>METADATA_ADDRESS_METHOD
 이 구조체는 클래스의 메서드 주소를 나타냅니다.
@@ -45,7 +45,7 @@ public struct METADATA_ADDRESS_METHOD {
 
  메서드의 ID입니다.
 
- [C + +] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.
+ [C++] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.
 
  dwOffset
 

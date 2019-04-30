@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 35fb66927272435e773dbaee44019103892b028d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56616991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62858069"
 ---
 # <a name="supporting-source-control"></a>소스 제어 지원
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 파일 체크 아웃, 체크 인 및 프로젝트 또는 편집기에 대 한 다른 소스 제어 작업을 지원합니다. 원본 제어 클라이언트로 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 와 같은 소스 제어 패키지를 상호 작용 하도록 설계 됩니다 [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], 보관, 버전 관리 및 동적으로 정의 된 파일 집합에 대 한 제어 기능을 제공 하는.

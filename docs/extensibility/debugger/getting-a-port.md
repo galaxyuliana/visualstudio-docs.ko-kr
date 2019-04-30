@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 25b703eafccb412c33640a9e73e72afa09c0c277
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62889894"
 ---
 # <a name="get-a-port"></a>포트를 가져오기
 포트는 프로세스를 실행 하는 컴퓨터에 대 한 연결을 나타냅니다. 해당 컴퓨터는 로컬 컴퓨터 또는 원격 컴퓨터 일 수 있습니다 (하는 가능한 경우 실행 될 수는 비 Windows 기반 운영 체제를 참조 하세요 [포트](../../extensibility/debugger/ports.md) 자세한).

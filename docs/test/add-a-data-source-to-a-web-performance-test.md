@@ -9,12 +9,12 @@ ms.assetid: 2ada376d-f168-455d-9643-6acb535360c1
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7f56491a8268e939f7bd455c4afef6813116ef9f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: c22d9327deb0c04790a3adfc809d9ae5da483916
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62835128"
 ---
 # <a name="add-a-data-source-to-a-web-performance-test"></a>웹 성능 테스트에 데이터 소스 추가
 
@@ -34,7 +34,9 @@ ms.locfileid: "55950606"
 
 ## <a name="create-a-sql-database"></a>SQL 데이터베이스 만들기
 
-1. Visual Studio Enterprise가 없는 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017) 페이지에서 다운로드할 수 있습니다.
+::: moniker range="vs-2017"
+
+1. Visual Studio Enterprise가 없는 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 페이지에서 다운로드할 수 있습니다.
 
 2. SQL 데이터베이스를 만듭니다.
 
@@ -59,6 +61,38 @@ ms.locfileid: "55950606"
 7. 필드에 데이터를 추가합니다.
 
      ![필드에 데이터 추가](../test/media/web_test_databinding_sql_addnewfieldsadddata.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Visual Studio Enterprise가 없는 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지에서 다운로드할 수 있습니다.
+
+2. SQL 데이터베이스를 만듭니다.
+
+     ![새 SQL 데이터베이스 추가](../test/media/web_test_databinding_sql_addnewdb.png)
+
+3. 데이터베이스 프로젝트를 만듭니다.
+
+     ![데이터베이스에서 새 프로젝트 만들기](../test/media/web_test_databinding_sql_addnewdbproject.png)
+
+4. 데이터베이스 프로젝트에 테이블을 추가합니다.
+
+     ![데이터베이스 프로젝트에 새 테이블 추가](../test/media/web_test_databinding_sql_addnewdbtablename.png)
+
+5. 테이블에 필드를 추가합니다.
+
+     ![테이블에 필드 추가](../test/media/web_test_databinding_sql_addnewdbaddfields.png)
+
+6. 데이터베이스 프로젝트를 게시합니다.
+
+     ![솔루션 탐색기에서 데이터베이스 프로젝트 게시](../test/media/web_test_databinding_sql_addnewdbpublish.png)
+
+7. 필드에 데이터를 추가합니다.
+
+     ![필드에 데이터 추가](../test/media/web_test_databinding_sql_addnewfieldsadddata.png)
+
+::: moniker-end
 
 ## <a name="add-the-data-source"></a>데이터 소스를 추가합니다.
 

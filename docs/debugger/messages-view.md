@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6b20ed28518c9156e82c6fe75ecceda74c66615d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62845856"
 ---
 # <a name="messages-view"></a>메시지 뷰
 각 창에는 관련된 메시지 스트림이 있습니다. 메시지 보기 창에는이 메시지 스트림을 표시합니다. 창 핸들, 메시지 코드 및 메시지가 표시 됩니다. 스레드 또는 프로세스에 대 한 메시지 보기를 만들 수 있습니다. 이 옵션을 사용 하면 특정 프로세스 또는 스레드 창 초기화 메시지를 캡처하는 데 특히 유용는 소유 하는 모든 창에 전송 된 메시지를 볼 수 있습니다.

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 1746b8419c342b5627e1c6374b2b29f08f7ee75c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56691893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62849874"
 ---
 # <a name="font-dialog-box-microsoft-spy-help"></a>글꼴 대화 상자(Microsoft Spy++ 도움말)
 이 대화 상자를 사용 하 여 문자에 사용 된 글꼴을 구성 하는 [Spy + + 뷰](../debugger/spy-increment-views.md) 창입니다. 이 대화 상자를 표시 하려면 확장 합니다 **뷰** 메뉴 선택 **글꼴**합니다.

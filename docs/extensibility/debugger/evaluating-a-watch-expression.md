@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: e1704a33abddada9a439786b408a8bc7bceeba0d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56711230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62925777"
 ---
 # <a name="evaluate-a-watch-expression"></a>조사식 평가
 > [!IMPORTANT]
@@ -26,7 +26,7 @@ Visual Studio 조사식 값을 표시할 준비가 되 면 호출한 [EvaluateSy
 
 이 구현에서 `IDebugParsedExpression::EvaluateSync`, 식을 구문 분석 되 고 동시에 평가 합니다. 이 구현은 다음 작업을 수행합니다.
 
-1. 구문 분석 하 고 해당 형식과 값을 보유 하는 일반 개체를 생성 하는 식을 계산 합니다. C#으로 표시 됩니다는 `object` 하는 동안 c + +에서는이 구조로 표시 됩니다는 `VARIANT`합니다.
+1. 구문 분석 하 고 해당 형식과 값을 보유 하는 일반 개체를 생성 하는 식을 계산 합니다. C#,으로 표시 됩니다는 `object` 에서 C++,으로 표시 됩니다는 `VARIANT`합니다.
 
 2. 클래스를 인스턴스화합니다 (호출 `CValueProperty` 이 예제의)를 구현 하는 `IDebugProperty2` 인터페이스 및 클래스의 반환 값을 저장 합니다.
 

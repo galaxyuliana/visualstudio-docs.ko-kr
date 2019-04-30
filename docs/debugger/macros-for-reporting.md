@@ -23,11 +23,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 2c92424275a1dff69863b81fbf8567fbc4b84499
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62905557"
 ---
 # <a name="macros-for-reporting"></a>보고서 매크로
 디버깅을 사용할 수 있습니다 합니다 **_RPTn** 하 고 **_RPTFn** crtdbg에서 정의 된 매크로 합니다. 사용을 대체 하려면 H `printf` 문입니다. 에 inclose 필요가 **#ifdef**s, 사용 중인 버전에서 자동으로 사라집니다 때문에 빌드에서 **_DEBUG** 정의 되어 있지 않습니다.

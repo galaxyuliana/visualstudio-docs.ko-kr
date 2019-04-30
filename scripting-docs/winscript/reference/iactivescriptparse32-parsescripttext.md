@@ -11,11 +11,11 @@ caps.latest.revision: 4
 author: mikejo5000
 ms.author: mikejo
 ms.openlocfilehash: 782c1d7bd2dd4c0708418ffd3e69c339dd993fde
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54094603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62954858"
 ---
 # <a name="iactivescriptparse32parsescripttext"></a>IActiveScriptParse32::ParseScriptText
 네임 스페이스에 선언을 추가 하 고 적절 하 게 코드를 평가 주어진된 코드 스크립트릿 구문 분석 합니다.  
@@ -66,7 +66,7 @@ HRESULT ParseScriptText(
 |------------------|-------------|  
 |`S_OK`|명령 실행 성공|  
 |`DISP_E_EXCEPTION`|Scriptlet 처리에 예외가 발생 했습니다. `pexcepinfo` 매개 변수는 예외에 대 한 정보를 포함 합니다.|  
-|`E_INVALIDARG`|인수가 잘못된 경우.|  
+|`E_INVALIDARG`|인수가 잘못 되었습니다.|  
 |`E_POINTER`|잘못 된 포인터가 지정 되었습니다.|  
 |`E_NOTIMPL`|이 메서드는 지원되지 않습니다. 스크립팅 엔진의 식이나 문에서 런타임 계산을 지원 하지 않습니다.|  
 |`E_UNEXPECTED`|호출이 필요 하지 않습니다 (예를 들어, 스크립팅 엔진 초기화 되지 않은 또는 닫힘 상태 또는 SCRIPTTEXT_ISEXPRESSION 플래그가 설정 된 이며 스크립팅 엔진이 초기화 된 상태에서).|  

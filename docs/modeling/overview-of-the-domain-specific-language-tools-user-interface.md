@@ -12,16 +12,16 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3bcc16b5287e4980d94a7cbcc4dff4d1f5f63d00
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936907"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62808335"
 ---
 # <a name="overview-of-the-domain-specific-language-tools-user-interface"></a>도메인별 언어 도구 사용자 인터페이스 개요
 Visual Studio에서 도메인 특정 언어 도구 (DSL 도구) 솔루션을 처음 열면 사용자 인터페이스는 다음 그림을 것과 비슷합니다.
 
- ![DSL 디자이너](../modeling/media/dsl_designer.png)
+ ![dsl 디자이너](../modeling/media/dsl_designer.png)
 
  다음 표에서는 UI의 일부를 사용하는 방법을 설명합니다.
 
@@ -35,11 +35,11 @@ Visual Studio에서 도메인 특정 언어 도구 (DSL 도구) 솔루션을 처
 ## <a name="the-domain-model-diagram"></a>도메인 모델 다이어그램
  도메인 모델 다이어그램은 두 부분으로 나뉩니다. 다이어그램의 한 측면에는 모델의 요소 및 관계가 표시됩니다. 다른 측면에는 모델이 표시되는 방식이 표시되며, 모델 다이어그램의 속성 및 요소를 표시하는 데 사용되는 도형이 포함됩니다. 다음 그림에서는 다이어그램의 요소를 보여 줍니다.
 
- ![스윔 레인이 있는 DSL 디자이너](../modeling/media/dsl_desinger.png)
+ ![스윔 레인이 있는 dsl 디자이너](../modeling/media/dsl_desinger.png)
 
  다음 표에서는 도메인 모델 다이어그램의 일부 요소를 설명합니다.
 
-|**용어**|**정의**|
+|**기간**|**정의**|
 |-|-|
 |도메인 클래스|도메인 클래스는 모델의 요소 형식입니다.<br /><br /> 도메인 클래스는 둘 이상 관계의 대상일 경우 다이어그램에 두 번 이상 나타날 수 있습니다.<br /><br /> 도메인 클래스를 추가하려면 **도구 상자**에서 다이어그램의 **클래스 및 관계** 측면으로 도메인 클래스 도구를 끕니다.|
 |도메인 관계|도메인 관계는 모델에서 요소 간의 링크 형식입니다.<br /><br /> *포함 관계*는 원본 요소가 대상 요소를 소유하거나 포함하고 있음을 나타내며 실선으로 표시됩니다. 모델의 모든 요소는 모델이 트리를 형성할 수 있도록 포함 관계 하나의 대상이어야 합니다. *참조 관계*는 모델 요소 간의 일반적인 링크를 나타내며 점선으로 표시됩니다. 모든 요소에는 참조 링크가 얼마든지 포함될 수 있습니다.<br /><br /> **도구 상자**에서 도구를 클릭하고 원본 도메인 클래스를 클릭한 후 대상 클래스를 클릭하여 관계를 만들 수 있습니다.|

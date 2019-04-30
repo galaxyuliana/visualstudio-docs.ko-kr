@@ -12,12 +12,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 51cd23fad1aa6964e0d27c20218a13a824ce318d
-ms.sourcegitcommit: 0a2fdc23faee77187e10a1c19665ba5a1ac68e72
+ms.openlocfilehash: 3f1cdc3d8516271cd397c1d22118ca21a92f78cd
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "59477569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974217"
 ---
 # <a name="automatically-apply-product-keys-when-deploying-visual-studio"></a>Visual Studio를 배포할 때 제품 키를 자동으로 적용
 
@@ -27,13 +27,13 @@ Visual Studio의 배포를 자동화하는 데 사용되는 스크립트의 일�
 
 ::: moniker range="vs-2017"
 
-대상 컴퓨터에서 자동 모드로 `StorePID.exe` 유틸리티를 사용하여 설치된 Visual Studio 버전을 제품 키로 활성화할 수 있습니다. `StorePID.exe` 는 다음 기본 위치에 Visual Studio 2017과 함께 설치되는 유틸리티 프로그램입니다. <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
+대상 컴퓨터에서 자동 모드로 `StorePID.exe` 유틸리티를 사용하여 설치된 Visual Studio 버전을 제품 키로 활성화할 수 있습니다. `StorePID.exe`는 다음 기본 위치에 Visual Studio 2017과 함께 설치되는 유틸리티 프로그램입니다. <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-대상 컴퓨터에서 자동 모드로 `StorePID.exe` 유틸리티를 사용하여 설치된 Visual Studio 버전을 제품 키로 활성화할 수 있습니다. `StorePID.exe` 는 다음 기본 위치에 Visual Studio 2019와 함께 설치되는 유틸리티 프로그램입니다. <br> `C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE`
+대상 컴퓨터에서 자동 모드로 `StorePID.exe` 유틸리티를 사용하여 설치된 Visual Studio 버전을 제품 키로 활성화할 수 있습니다. `StorePID.exe`는 다음 기본 위치에 Visual Studio 2019와 함께 설치되는 유틸리티 프로그램입니다. <br> `C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE`
 
 ::: moniker-end
 
@@ -48,20 +48,22 @@ Visual Studio의 배포를 자동화하는 데 사용되는 스크립트의 일�
 
 ::: moniker range="vs-2017"
 
- 다음 예제에서는 기본 위치에 설치한다고 가정하고 MPC가 08860이고 제품 키가 `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`인 Visual Studio 2017 Enterprise에 대한 라이선스를 적용하는 명령줄을 보여 줍니다.
+다음 예제에서는 기본 위치에 설치한다고 가정하고 MPC가 08860이고 제품 키가 `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`인 Visual Studio 2017 Enterprise에 대한 라이선스를 적용하는 명령줄을 보여 줍니다.
 
- ```cmd
- "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
- ```
+```cmd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
+```
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
- 다음 예제에서는 기본 위치에 설치한다고 가정하고 MPC가 09260이고 제품 키가 `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`인 Visual Studio 2019 Enterprise에 대한 라이선스를 적용하는 명령줄을 보여 줍니다.
+다음 예제에서는 기본 위치에 설치한다고 가정하고 MPC가 09260이고 제품 키가 `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`인 Visual Studio 2019 Enterprise에 대한 라이선스를 적용하는 명령줄을 보여 줍니다.
 
- ```cmd
- "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09260
- ```
+```cmd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09260
+```
+
 ::: moniker-end
 
 ::: moniker range="vs-2017"

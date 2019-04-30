@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 1f301de66421ef1327b86d900305cb4ecbfb5623
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62889696"
 ---
 # <a name="enable-a-program-to-be-debugged"></a>디버깅할 프로그램 사용 설정
 디버그 엔진 (DE) 프로그램을 디버그하기 전에 먼저는 DE 시작 하거나 기존 프로그램에 연결 합니다.

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: f34a239628c3ed9e8bccaa8590cb22100d7d290f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62862916"
 ---
 # <a name="how-to-open-standard-editors"></a>방법: 표준 편집기 열기
 표준 편집기를 열면 IDE 파일에 대 한 프로젝트별 편집기를 지정 하는 대신 지정 된 파일 형식에 대해 표준 편집기를 확인 하 게 있습니다.

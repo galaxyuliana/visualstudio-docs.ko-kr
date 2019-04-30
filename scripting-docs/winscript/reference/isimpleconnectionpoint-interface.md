@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 0d18c8f9eef6ddb1a38473eb19984bd9cf7dbd96
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63001510"
 ---
 # <a name="isimpleconnectionpoint-interface"></a>ISimpleConnectionPoint 인터페이스
 설명 하 고 특정 연결 지점에서 발생 한 이벤트를 열거 하기 위한 간단한 방법을 제공 합니다. 이 인터페이스 또한 쉽게 연결 하는 `IDispatch` 이벤트만 개체입니다. 이 인터페이스에서 프로세스 디버그 관리자 (PDM), 구현 이며 스크립트 엔진에서 사용 됩니다.  

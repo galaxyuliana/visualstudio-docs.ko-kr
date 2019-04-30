@@ -18,11 +18,11 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: f4dbafb4c6f7ad590244842ac3def0e26f8a14fd
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57872968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62797069"
 ---
 # <a name="ca1802-use-literals-where-appropriate"></a>CA1802: 가능하면 리터럴을 사용하세요.
 
@@ -35,7 +35,7 @@ ms.locfileid: "57872968"
 
 ## <a name="cause"></a>원인
 
-필드가 선언 되었습니다 `static` 하 고 `readonly` (`Shared` 및 `ReadOnly` Visual Basic에서), 컴파일 시간에 계산할 수 있는 값으로 초기화 됩니다.
+필드가 선언 되었습니다 `static` 하 고 `readonly` (`Shared` 및 `ReadOnly` Visual basic에서), 컴파일 시간에 계산할 수 있는 값으로 초기화 됩니다.
 
 기본적으로이 규칙만 살펴봅니다 외부적으로 표시 되는 필드, 이것이 [구성할 수 있는](#configurability)합니다.
 

@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 995b002784c1e76ceed36e51edb1ae893448f448
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62927541"
 ---
 # <a name="ltpublisheridentitygt-element-clickonce-deployment"></a>&lt;publisherIdentity&gt; 요소 (ClickOnce 배포)
 이 배포 매니페스트에 서명한 게시자에 대한 정보를 포함합니다.
@@ -49,7 +49,7 @@ ms.locfileid: "56628444"
 
 ## <a name="exceptions"></a>예외
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 
 ## <a name="requirements"></a>요구 사항
 

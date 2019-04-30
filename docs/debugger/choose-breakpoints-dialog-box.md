@@ -22,11 +22,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 50547507bf37eb22346bcbf3f48585c9cb0b26b6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62564784"
 ---
 # <a name="choose-breakpoints-dialog-box"></a>중단점 선택 대화 상자
 합니다 **중단점 선택** 모호한 입력에서 중단점을 설정 하려고 할 때 대화 상자가 열립니다 합니다 **새 중단점** 대화 상자. 모호한 입력의 일반적인 예로 오버 로드 된 함수 이름.

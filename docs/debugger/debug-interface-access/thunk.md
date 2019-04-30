@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 872723e4aaf425b388ce8d05f9c8f9d631dd5ed9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56619942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62854378"
 ---
 # <a name="thunk"></a>썽크
 각 `thunk` 으로 식별 되는 `SymTagThunk` 태그입니다.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 393abb3b1e1872a416865cbfee5c142bef98ce78
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838456"
 ---
 # <a name="idiadatasourceopensession"></a>IDiaDataSource::openSession
 기호를 쿼리 하는 것에 대 한 세션을 엽니다.
@@ -44,7 +44,7 @@ ppSession
 |E_INVALIDARG|잘못된 `ppSession` 매개 변수입니다.|
 |E_OUTOFMEMORY|메모리가 부족 하 여 세션을 열에 없습니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 메서드를 엽니다는 [IDiaSession](../../debugger/debug-interface-access/idiasession.md) 데이터 원본에 대 한 개체입니다.
 
 `IDiaSession` 데이터 원본에 쿼리를 구현 하는 개체입니다. 세션은 디버그 기호의 각 집합에 대 한 이상의 주소 공간을 관리합니다. 데이터 원본 기호에서 설명 하는.exe 또는.dll 파일은 활성 여러 주소에서 범위 (예를 들어 여러 프로세스가 있으므로 로드) 한 다음 각 주소 범위에 대 한 세션을 사용 해야 합니다.

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 22b84716f320883c71f534ea762adf34d5c2a983
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62891947"
 ---
 # <a name="add-a-tool-window"></a>도구 창 추가
 이 연습에서 도구 창을 만들고 다음과 같은 방법으로 Visual Studio에 통합 하는 방법을 배웁니다.

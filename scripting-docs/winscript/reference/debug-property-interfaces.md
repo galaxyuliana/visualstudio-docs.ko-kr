@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: f85f810d5ef6a97af4df6a03a0972a87ca60a49d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62955231"
 ---
 # <a name="debug-property-interfaces"></a>디버그 속성 인터페이스
 DbgProp.h 헤더 파일에는이 섹션에 나열 된 인터페이스를 제공 합니다.  

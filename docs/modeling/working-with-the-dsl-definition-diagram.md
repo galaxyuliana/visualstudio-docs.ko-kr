@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3133c3f37a7ce899575e4e6b0798ce8037b33929
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62951248"
 ---
 # <a name="working-with-the-dsl-definition-diagram"></a>DSL 정의 다이어그램 작업
 다이어그램을 [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] 정의 도메인별 언어 정의 대 한 중요 한 도구입니다. 도메인 모델에 요소를 추가하고 다이어그램에 대해 관계를 정의할 수 있으며 보다 읽기 쉽도록 다이어그램의 레이아웃을 수정할 수 있습니다.
@@ -61,7 +61,7 @@ ms.locfileid: "55954182"
 ### <a name="expandcollapse-inheritance-tree"></a>상속 트리 확장/축소
  도메인 클래스가 다른 도메인 클래스의 기본 클래스 이면 도메인 클래스 정의 마우스 오른쪽 단추로 클릭 한 다음 클릭 하 여 상속 트리를 숨길 수 있습니다 **상속 트리 축소**합니다. 상속 트리를 표시 하려면 정의 요소를 마우스 오른쪽 단추로 클릭 하 고 클릭 **상속 트리 확장**합니다.
 
-### <a name="bring-tree-here"></a>Bring Tree Here
+### <a name="bring-tree-here"></a>여기로 트리 가져오기
  자리 표시자 도메인 클래스를 마우스 오른쪽 단추로 클릭 한 다음 클릭 하 여 다이어그램을 통합할 수 있습니다 **여기로 트리 가져오기**합니다. 그러면 자리 표시자 도메인 클래스가 정의 요소가 되고 상속 및 관계 트리가 표시됩니다. 이전 정의 요소는 관계의 대상이거나 상속 관계의 자식인 경우 자리 표시자 요소가 되고 그렇지 않으면 사라집니다.
 
 ### <a name="split-tree"></a>트리 분할

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 60f39b55ffc14d423d4197765ef89784940f137b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62832237"
 ---
 # <a name="idiastackframegetallocatesbasepointer"></a>IDiaStackFrame::get_allocatesBasePointer
 이 주소 범위에서 코드에 대 한 기본 포인터 할당 되었는지 여부를 나타내는 플래그를 검색 합니다.

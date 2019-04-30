@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 648bf8baebc8a0a2f42c69bc698d9f2edd729615
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62907362"
 ---
 # <a name="localize-menu-commands"></a>메뉴 명령 지역화
 지역화 된 만들어 메뉴 및 도구 모음 명령에 대 한 지역화 된 텍스트를 제공할 수 있습니다 *.vsct* 파일과 지역화 *.resx* 통합 하기 위해 VSPackage를 및 프로젝트 파일을 업데이트 한 다음 파일을 변경 내용입니다.

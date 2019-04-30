@@ -27,11 +27,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: d142f414046a0d477cd94ae1c027f4bf6bee9518
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838739"
 ---
 # <a name="inline-inline-forceinline"></a>inline, __inline, __forceinline
 이 콘텐츠를 움직인 [인라인 함수](http://msdn.microsoft.com/library/355f120c-2847-4608-ac04-8dda18ffe10c)  

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 1e62436d32d85c76685c86ea0da396dacae1bf3f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56694272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62891702"
 ---
 # <a name="button-element"></a>Button 요소
 사용자가 상호 작용할 수 있는 요소를 정의 합니다. 다른 종류의 단추 수 있습니다. 단추, MenuButton, 및 SplitDropDown 합니다.
@@ -42,7 +42,7 @@ ms.locfileid: "56694272"
 |guid|필수 요소. GUID/i D 명령 식별자의 GUID입니다.|
 |ID|필수 요소. GUID/i D 명령 식별자의 ID입니다.|
 |priority|선택 사항입니다. 우선 순위를 지정 하는 숫자 값입니다.|
-|형식|선택 사항입니다. 단추의 종류를 지정 하는 열거형된 값입니다.<br /><br /> 지정 하지 않으면 단추를 사용 합니다.<br /><br /> 단추<br /> 메뉴 및 상황에 맞는 메뉴 (일반적으로 아이콘 단추로) 도구 모음에 표시 되는 표준 명령입니다.<br /><br /> MenuButton<br /> 명령 실행 되지 않는 메뉴 항목 이지만 다른 메뉴를 생성 합니다.<br /><br /> SplitDropDown<br /> Microsoft Word의 표준 도구 모음에서 실행 취소 및 다시 실행 단추와 같은 컨트롤입니다.|
+|type|선택 사항입니다. 단추의 종류를 지정 하는 열거형된 값입니다.<br /><br /> 지정 하지 않으면 단추를 사용 합니다.<br /><br /> 단추<br /> 메뉴 및 상황에 맞는 메뉴 (일반적으로 아이콘 단추로) 도구 모음에 표시 되는 표준 명령입니다.<br /><br /> MenuButton<br /> 명령 실행 되지 않는 메뉴 항목 이지만 다른 메뉴를 생성 합니다.<br /><br /> SplitDropDown<br /> Microsoft Word의 표준 도구 모음에서 실행 취소 및 다시 실행 단추와 같은 컨트롤입니다.|
 |조건|선택 사항입니다. 참조 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|
 
 ### <a name="child-elements"></a>자식 요소

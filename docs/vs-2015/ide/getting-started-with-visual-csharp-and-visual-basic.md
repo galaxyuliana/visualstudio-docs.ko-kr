@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Visual C# 및 Visual Basic | Microsoft Docs
+title: Visual C# 및 Visual Basic 시작 | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-general
@@ -17,11 +17,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 65e766193838060d4c856b6a530a688ef8cd2d1b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54788283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62584698"
 ---
 # <a name="getting-started-with-visual-c-and-visual-basic"></a>Visual C# 및 Visual Basic 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

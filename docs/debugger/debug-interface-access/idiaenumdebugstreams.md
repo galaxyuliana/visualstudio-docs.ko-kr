@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7b17e79e1bfefd5b6b23695f2f49d694c7148ae0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838147"
 ---
 # <a name="idiaenumdebugstreams"></a>IDiaEnumDebugStreams
 데이터 원본에 포함 된 다양 한 디버그 스트림을 열거 합니다.
@@ -41,7 +41,7 @@ IDiaEnumDebugStreams : IUnknown
 |[IDiaEnumDebugStreams::Reset](../../debugger/debug-interface-access/idiaenumdebugstreams-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
 |[IDiaEnumDebugStreams::Clone](../../debugger/debug-interface-access/idiaenumdebugstreams-clone.md)|현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 디버그 스트림 콘텐츠 구현에 따라 다릅니다 이며 데이터 형식은 문서화 합니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

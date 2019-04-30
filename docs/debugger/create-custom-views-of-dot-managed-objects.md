@@ -24,11 +24,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: 733f3ec7573287e934f8a5f0167db89c0683759a
-ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "59537480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62564010"
 ---
 # <a name="create-custom-views-of-objects-c-visual-basic-c"></a>개체의 사용자 지정 뷰 만들기 (C#, Visual Basic의 경우 C++)
 Visual Studio에서 디버거 변수 창에 데이터 형식이 표시되는 방식을 사용자 지정할 수 있습니다.

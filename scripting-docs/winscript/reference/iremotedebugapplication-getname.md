@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 58dd62710a5674265a9487dacf51b2f368589ba6
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58149343"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62944246"
 ---
 # <a name="iremotedebugapplicationgetname"></a>IRemoteDebugApplication::GetName
 이 응용 프로그램 노드의 이름을 반환합니다.  

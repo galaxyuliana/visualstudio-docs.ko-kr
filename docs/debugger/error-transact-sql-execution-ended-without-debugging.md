@@ -16,13 +16,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 71d1f14bef8eb69fa6c6fc4d9c3f669826079c99
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56722345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62850166"
 ---
-# <a name="error-transact-sql-execution-ended-without-debugging"></a>오류: 디버깅 없이 Transact-SQL 실행이 중지되었습니다.
+# <a name="error-transact-sql-execution-ended-without-debugging"></a>오류: 디버깅 없이 Transact-SQL 실행이 중지됨
 
 이 오류는 TRANSACT-SQL 또는 SQLCLR 프로시저를 디버깅 하려는 SQL Server에서 디버거가 디버깅 메시지를 수신 하지 못하는 경우 발생 합니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "56722345"
 
   이 오류를 해결하려면 다음 작업을 수행해야 합니다.
 
-  - 권한 설정을 확인합니다. 자세한 내용은 [방법: 디버깅에 대 한 SQL Server 권한 설정](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)합니다.
+  - 권한 설정을 확인합니다. 자세한 내용은 [방법: 디버깅을 위해 SQL Server 사용 권한 설정](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)합니다.
 
   - SQL 디버깅이 올바르게 설정되어 있는지 확인합니다.
 

@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ffab5f43bf026bd410c72694716148d4d368c69a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62859946"
 ---
 # <a name="manifest-from-resources"></a>Manifest from Resources
 리소스 도구에서 매니페스트는 이미지 리소스 (.png 또는.xaml 파일)의 목록을 사용 하 고 이러한 이미지는 Visual Studio 이미지 서비스와 함께 사용할 수 있도록.imagemanifest 파일을 생성 하는 콘솔 응용 프로그램. 또한 이미지를 기존.imagemanifest 추가할이 도구를 사용할 수 있습니다. 이 도구는 높은 DPI 및 테마를 Visual Studio 확장에는 이미지에 대 한 지원을 추가 하는 데 유용 합니다. 생성 된.imagemanifest 파일에 포함 되어 있고 Visual Studio 확장 (.vsix)의 일부로 배포 합니다.

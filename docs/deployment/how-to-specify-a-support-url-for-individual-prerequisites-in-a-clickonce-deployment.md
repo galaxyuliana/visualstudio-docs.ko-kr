@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6f79aec7a8882f87bc98f822d4fb4f0c1961bd69
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56625480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62928600"
 ---
 # <a name="how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment"></a>방법: ClickOnce 배포 시 개별 필수 구성 요소에 대한 지원 URL 지정
 A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 필수 구성 요소에 대 한 클라이언트 컴퓨터에서 사용할 수 있어야 하는 다양 한 테스트 수를 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 실행 합니다. 이러한 종속성의 필수 최소 버전을 포함 합니다 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], 운영 체제와 전역 어셈블리 캐시 (GAC)에 미리 설치 해야 하는 모든 어셈블리의 버전입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]그러나 없습니다 스스로 설치 필수 구성이 요소 중 하나; 필수 구성 요소가 없는 경우 단순히 설치를 중지 하 고 설치에 실패 한 이유를 설명 하는 대화 상자를 표시 합니다.
@@ -76,14 +76,14 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 필�
    </compatibleFrameworks>
    ```
 
-7. 응용 프로그램 매니페스트를 수동으로 변경한 후 디지털 인증서를 사용 하 여 응용 프로그램 매니페스트에 다시 서명 후 업데이트 하 고도 배포 매니페스트에 다시 서명 합니다. 사용 된 *Mage.exe* 또는 *MageUI.exe* SDK 도구를 사용 하 여 이러한 파일을 다시 생성으로이 작업을 위해 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 수동 변경 내용을 지웁니다. Mage.exe를 사용 하 여 매니페스트에 다시 서명할 수에 대 한 자세한 내용은 참조 하세요. [방법: re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)합니다.
+7. 응용 프로그램 매니페스트를 수동으로 변경한 후 디지털 인증서를 사용 하 여 응용 프로그램 매니페스트에 다시 서명 후 업데이트 하 고도 배포 매니페스트에 다시 서명 합니다. 사용 된 *Mage.exe* 또는 *MageUI.exe* SDK 도구를 사용 하 여 이러한 파일을 다시 생성으로이 작업을 위해 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 수동 변경 내용을 지웁니다. Mage.exe를 사용 하 여 매니페스트에 다시 서명할 수에 대 한 자세한 내용은 참조 하세요. [방법: 응용 프로그램 및 배포 매니페스트에 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)합니다.
 
 ## <a name="net-framework-security"></a>.NET Framework 보안
  지원 URL은 응용 프로그램은 부분 신뢰에서 실행 하도록 표시 되어 있으면 대화 상자에서 표시 되지 않습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Mage.exe(매니페스트 생성 및 편집 도구)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
-- [연습: ClickOnce 애플리케이션 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
+- [연습: 수동으로 ClickOnce 응용 프로그램 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
 - [\<compatibleFrameworks > 요소](../deployment/compatibleframeworks-element-clickonce-deployment.md)
 - [ClickOnce 및 Authenticode](../deployment/clickonce-and-authenticode.md)
 - [애플리케이션 배포 필수 구성 요소](../deployment/application-deployment-prerequisites.md)

@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 1b1cb65a2c1eec8df194136bb5a4bffb358696e3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977282"
 ---
 # <a name="collection-activity-designers"></a>컬렉션 활동 디자이너
 컬렉션 활동 디자이너는 컬렉션을 관리하는 데 사용되는 활동을 만들고 구성하는 데 사용됩니다. 이 단원에 포함되어 있으며 다음 표에 나열된 항목은 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 활동 및 템플릿 디자이너를 사용하는 방법을 설명합니다.  

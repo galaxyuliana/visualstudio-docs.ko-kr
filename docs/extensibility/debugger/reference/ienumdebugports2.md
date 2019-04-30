@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: b39eff84e1933c6181b3e6ae03bd6055b33570e2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56716079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62914325"
 ---
 # <a name="ienumdebugports2"></a>IEnumDebugPorts2
 이 인터페이스는 컴퓨터 또는 포트 공급자의 포트를 열거합니다.

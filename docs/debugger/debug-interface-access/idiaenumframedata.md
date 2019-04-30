@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: db06efe400106260556d8eab5fd644bbfc27f0c2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62833621"
 ---
 # <a name="idiaenumframedata"></a>IDiaEnumFrameData
 데이터 원본에 포함 된 다양 한 프레임 데이터 요소를 열거 합니다.
@@ -43,7 +43,7 @@ IDiaEnumFrameData : IUnknown
 |[IDiaEnumFrameData::frameByRVA](../../debugger/debug-interface-access/idiaenumframedata-framebyrva.md)|가상 RVA (상대 주소) 하 여 프레임을 반환합니다.|
 |[IDiaEnumFrameData::frameByVA](../../debugger/debug-interface-access/idiaenumframedata-framebyva.md)|가상 주소 (VA) 하 여 프레임을 반환합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 이 인터페이스를 가져올는 [idiasession:: Getenumtables](../../debugger/debug-interface-access/idiasession-getenumtables.md) 메서드. 세부 정보에 대 한 예제를 참조 하세요.

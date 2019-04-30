@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 1e3f6247afc70ef1197ea759ffdf475c2d6c0a0c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58158216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62992228"
 ---
 # <a name="iactivescriptsiteuicontrolgetuibehavior-method"></a>IActiveScriptSiteUIControl::GetUIBehavior 메서드
 가져옵니다를 [SCRIPTUICHANDLING 열거형](../../winscript/reference/scriptuichandling-enumeration.md) 나타내는 UI 컨트롤을 처리 해야 하는 방식입니다.  

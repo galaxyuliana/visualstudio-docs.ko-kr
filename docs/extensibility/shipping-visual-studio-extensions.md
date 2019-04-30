@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 2ea2217614ed27a98281cce7a3d34b72f74ae803
-ms.sourcegitcommit: 1c8e07b98fc0a44b5ab90bcef77d9fac7b3eb452
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "56796597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62433021"
 ---
 # <a name="shipping-visual-studio-extensions"></a>Visual Studio 확장 전달
 확장 프로그램 개발을 완료 한 후 다른 컴퓨터에 설치 수, 친구 및 동료와 공유 또는 Visual Studio Marketplace에 게시 합니다. 이 섹션에서는 게시 하 고 확장 프로그램을 유지 하기 위해 수행 해야 하는 모든 항목 설명:.vsix 파일을 게시, 지역화, 및 업데이트를 사용 합니다.
@@ -54,7 +54,7 @@ ms.locfileid: "56796597"
 |[VSIX 프로젝트 템플릿](../extensibility/vsix-project-template.md)|패키지 및 확장을 게시 하는 방법에 대 한 단계별 지침을 제공 합니다.|
 |[VSIX 패키지 지역화](../extensibility/localizing-vsix-packages.md)|Extension.vsixlangpack 파일을 사용 하 여 설치 프로세스에 대 한 지역화 된 텍스트를 제공 하는 방법에 설명 합니다.|
 |[방법: 확장 업데이트](../extensibility/how-to-update-a-visual-studio-extension.md)|시스템에서 확장을 업데이트 하는 방법 및 기존 Visual Studio 확장에 업데이트를 배포 하는 방법을 설명 합니다.|
-|[방법: VSIX 패키지에 종속성을 추가 합니다.](../extensibility/how-to-add-a-dependency-to-a-vsix-package.md)|VSIX 배포 패키지에 대 한 참조를 추가 하는 방법에 설명 합니다.|
+|[방법: VSIX 패키지에 종속성 추가](../extensibility/how-to-add-a-dependency-to-a-vsix-package.md)|VSIX 배포 패키지에 대 한 참조를 추가 하는 방법에 설명 합니다.|
 |[Windows Installer 배포에 대한 확장 준비](../extensibility/preparing-extensions-for-windows-installer-deployment.md)|Windows Installer를 사용 하 여 확장 프로그램을 배포 하는 방법에 설명 합니다.|
 |[VSIX 패키지 서명](../extensibility/signing-vsix-packages.md)|VSIX 패키지에 서명 하는 방법에 설명 합니다.|
 |[전용 갤러리](../extensibility/private-galleries.md)|확장에 대 한 전용 갤러리를 만드는 방법에 설명 합니다.|

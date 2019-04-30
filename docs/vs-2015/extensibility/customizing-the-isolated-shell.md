@@ -11,11 +11,11 @@ caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 724d4d0c4b392a362e702f33ea996df3a6fc0ad6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62555971"
 ---
 # <a name="customizing-the-isolated-shell"></a>격리 셸 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Visual Studio 사용자 인터페이스의 다양 한 측면을 변경 하 고 �
  응용 프로그램 제목 표시줄에 응용 프로그램 이름으로 표시 되는 아이콘으로 표시 하는 응용 프로그램 아이콘을 사용자 지정할 수 있습니다. 다른 아이콘 아이콘 디렉터리로 복사 합니다. **솔루션 탐색기**, 리소스 파일 폴더 아이콘을 추가 합니다. VSShellStub.rc 파일을 열고 IDI_STUBPROGRAM 변수의 새 아이콘의 이름으로 바꿉니다. 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.  
   
 ##### <a name="the-command-line-logo"></a>명령줄 로고  
- 응용 프로그램에서 "CommandLineLogo" 행의 값을 변경 하 여 명령줄에서 시작 될 때 나타나는 텍스트는 명령줄 로고를 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)  
+ 응용 프로그램에서 "CommandLineLogo" 행의 값을 변경 하 여 명령줄에서 시작 될 때 나타나는 텍스트는 명령줄 로고를 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 애플리케이션 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)  
   
 ##### <a name="the-name-of-the-user-files-subfolder"></a>사용자 파일 하위 폴더의 이름  
  "UserFilesSubFolderName" 행의 값을 변경 하 여 사용자 파일에 대 한 유지 관리 응용 프로그램 폴더의 이름을 변경할 수 있습니다 *SolutionName*합니다. Application.pkgdef 파일입니다.  
@@ -58,7 +58,7 @@ Visual Studio 사용자 인터페이스의 다양 한 측면을 변경 하 고 �
  가 열리면 웹 브라우저 창에서 "DefaultSearchPage" 행의 값을 변경 하 여 표시 되는 페이지는 웹 브라우저 페이지를 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다.  
   
 ##### <a name="the-default-home-page"></a>기본 홈 페이지  
- 홈페이지에서 "DefaultHomePage" 행의 값을 변경 하 여 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 응용 프로그램 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)  
+ 홈페이지에서 "DefaultHomePage" 행의 값을 변경 하 여 사용자 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 자세한 내용은 참조 하세요. [연습: 기본 격리 셸 애플리케이션 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)  
   
 ##### <a name="whether-or-not-to-hide-the-solution-concept"></a>솔루션 개념을 숨길 것인지 여부  
  "HideSolutionConcept" 행의 값을 변경 하 여 응용 프로그램에서 솔루션을 숨길 것인지 여부를 지정할 수 있습니다 합니다 *SolutionName*합니다. Application.pkgdef 파일입니다. 값을 설정 하는 솔루션을 숨기려면 `dword:00000001`, 솔루션을 보여 주기 위해 값을 설정 하 고 `dword:00000000`입니다.  

@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5f52c862adcdaf7a95de6a90c2c330c39edcea13
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62900346"
 ---
 # <a name="ltcommandsgt-element-bootstrapper"></a>&lt;명령을&gt; 요소 (부트스트래퍼)
 `Commands` 요소 아래에서 설명 하는 테스트를 구현 하는 `InstallChecks` 요소를 패키지를 선언 하 고는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 부트스트래퍼를 테스트에 실패 하면 설치 해야 합니다.
@@ -203,6 +203,6 @@ ms.locfileid: "56598508"
 </Commands>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)
 - [\<InstallChecks > 요소](../deployment/installchecks-element-bootstrapper.md)

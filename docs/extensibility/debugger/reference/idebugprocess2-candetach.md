@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ad1a127a390b27a08a89ac939d9dcce60e60a64e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62871072"
 ---
 # <a name="idebugprocess2candetach"></a>IDebugProcess2::CanDetach
 세션 디버그 관리자 (SDM) 프로세스를 분리할 수 있습니다 하는 경우를 결정 합니다.

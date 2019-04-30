@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5606101d4c4a790db57f2a5b051bc128ea50c684
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56702761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62901930"
 ---
 # <a name="symbol-load-information-dialog-box"></a>기호 로드 정보 대화 상자
 **기호 로드 정보** 대화 상자는 **모듈** 창을 마우스 오른쪽 단추로 클릭하고 **기호 로드 정보**를 선택하면 열립니다.

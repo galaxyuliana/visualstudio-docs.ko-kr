@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 35e5719d285e9e99e5f7429685fa04a2c6d7f3ab
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62832287"
 ---
 # <a name="idiasourcefilegetchecksumtype"></a>IDiaSourceFile::get_checksumType
 체크섬 유형을 검색합니다.
@@ -38,7 +38,7 @@ HRESULT get_checksumType ( 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  체크섬 유형 체크섬 알고리즘에 매핑할 수 있는 값입니다. 예를 들어 표준 PDB 파일 형식 다음 값 중 하나가 있어야 일반적으로 수 있습니다.
 
 |체크섬 유형|CryptoAPI 레이블|설명|

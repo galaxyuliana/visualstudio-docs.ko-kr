@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 581f9c0b9907fd59863f6a468a45ef67d9966475
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62813154"
 ---
 # <a name="how-to-run-code-when-deployment-steps-are-executed"></a>방법: 배포 단계를 실행할 때 코드를 실행 합니다.
   SharePoint 프로젝트의 배포 단계에 대 한 추가 작업을 수행 하려는 경우에 Visual Studio는 각 배포 단계를 실행 한 후 및 하기 전에 SharePoint 프로젝트 항목에 의해 발생 하는 이벤트를 처리할 수 있습니다. 자세한 내용은 [확장 SharePoint 패키징 및 배포](../sharepoint/extending-sharepoint-packaging-and-deployment.md)합니다.

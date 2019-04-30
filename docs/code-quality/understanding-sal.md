@@ -8,18 +8,18 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - multiple
-ms.openlocfilehash: 7f79796d186f5a365c37a8e24a3e523aba7ceb72
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MT
+ms.openlocfilehash: f306e0a30dc8faa8f961cb7096a31a049547a70e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62820408"
 ---
 # <a name="understanding-sal"></a>SAL 이해
 
-Microsoft 소스 코드 주석 언어 (SAL) 함수에서 해당 매개 변수에 가정 및 완료 될 때 수행 하는 보장을 사용 하는 방법을 설명 하는 데 사용할 수 있는 주석의 집합을 제공 합니다. 주석 헤더 파일에 정의 된 `<sal.h>`합니다. C + + 용 visual Studio 코드 분석 SAL 주석을 사용 하 여 함수에 대 한 분석 내용을 수정. Windows 드라이버 개발에 대 한 SAL 2.0에 대 한 자세한 내용은 참조 [Windows 드라이버에 대 한 SAL 2.0 주석](http://go.microsoft.com/fwlink/?LinkId=250979)합니다.
+Microsoft 소스 코드 주석 언어 (SAL) 함수에서 해당 매개 변수에 가정 및 완료 될 때 수행 하는 보장을 사용 하는 방법을 설명 하는 데 사용할 수 있는 주석의 집합을 제공 합니다. 주석 헤더 파일에 정의 된 `<sal.h>`합니다. Visual Studio 코드 분석에 대 한 C++ SAL 주석을 사용 하 여 함수에 대 한 분석 내용을 수정 합니다. Windows 드라이버 개발에 대 한 SAL 2.0에 대 한 자세한 내용은 참조 [Windows 드라이버에 대 한 SAL 2.0 주석](http://go.microsoft.com/fwlink/?LinkId=250979)합니다.
 
-기본적으로, C 및 c + + 개발자가 일관 되 게 의도 및 불변성을 표현 하는 데만 제한적된으로 제공 합니다. SAL 주석을 사용 하 여 하를 사용 하는 개발자 사용 하는 방법을 보다 잘 이해할 수 있도록 자세히 함수를 설명할 수 있습니다.
+기본적으로, C 및 C++ 개발자가 일관 되 게 의도 및 불변성을 표현 하는 데만 제한적된으로 제공 합니다. SAL 주석을 사용 하 여 하를 사용 하는 개발자 사용 하는 방법을 보다 잘 이해할 수 있도록 자세히 함수를 설명할 수 있습니다.
 
 ## <a name="what-is-sal-and-why-should-you-use-it"></a>SAL의 정의 및 이를 사용해야 하는 이유
 
@@ -110,9 +110,9 @@ wchar_t * wmemcpy(
 
 #### <a name="to-use-visual-studio-code-analysis-tools-and-sal"></a>Visual Studio 코드 분석 도구 및 SAL을 사용하려면
 
-1.  Visual Studio에서 SAL 주석을 포함 하는 c + + 프로젝트를 엽니다.
+1. Visual Studio에서 엽니다는 C++ SAL 주석을 포함 하는 프로젝트입니다.
 
-2.  메뉴 모음에서 **빌드**하십시오 **솔루션에서 코드 분석 실행**합니다.
+2. 메뉴 모음에서 **빌드**하십시오 **솔루션에서 코드 분석 실행**합니다.
 
      고려 합니다 \_에서\_ 이 섹션의 예제. 코드 분석을 실행 하는 경우이 경고가 표시 됩니다.
 
@@ -122,15 +122,15 @@ wchar_t * wmemcpy(
 
 `_In_` 주석이 나타냅니다.
 
--   매개 변수는 유효 해야 하며 수정 되지 않습니다.
+- 매개 변수는 유효 해야 하며 수정 되지 않습니다.
 
--   함수는 단일 요소 버퍼에서 읽을 수만.
+- 함수는 단일 요소 버퍼에서 읽을 수만.
 
--   호출자는 버퍼를 제공 하 고 초기화 해야 합니다.
+- 호출자는 버퍼를 제공 하 고 초기화 해야 합니다.
 
--   `_In_` "읽기 전용"를 지정합니다. 일반적인 실수를 적용할 `_In_` 있어야 하는 매개 변수에 `_Inout_` 주석 대신 합니다.
+- `_In_` "읽기 전용"를 지정합니다. 일반적인 실수를 적용할 `_In_` 있어야 하는 매개 변수에 `_Inout_` 주석 대신 합니다.
 
--   `_In_` 포인터가 아닌 스칼라에 분석기에 의해 무시 하지만 허용 됩니다.
+- `_In_` 포인터가 아닌 스칼라에 분석기에 의해 무시 하지만 허용 됩니다.
 
 ```cpp
 void InCallee(_In_ int *pInt)
@@ -361,7 +361,7 @@ Visual Studio 코드 분석 하기 전에 NULL 확인이 함수는 유효성을 
 
 ### <a name="example-the-success-annotation-in-combination-with-out"></a>예제: 합니다 \_성공\_ 조합 하 여 주석 \_아웃\_
 
-대부분의 개체에 주석은 적용할 수 있습니다.  특히 전체 함수에 주석을 달 수 있습니다.  함수의 가장 확실 한 특징 중 하나에 성공 또는 실패 수는입니다. 하지만 같은 버퍼와 크기 간의 연결, C/c + + 함수 성공 또는 실패 표현할 수 없습니다. 사용 하 여는 `_Success_` 주석을 함수의 성공을 같습니다 말할 수 있습니다.  매개 변수는 `_Success_` 주석 식이면 방금 것은 사실 나타내는 함수 성공 했다는 것입니다. 식 주석 파서에서 처리할 수 있는 아무 이름이 나 가능 합니다. 함수가 성공 하는 경우에 함수가 반환 되 면 주석의 효과 적용 됩니다. 이 예제에서는 어떻게 `_Success_` 상호 작용 `_Out_` 오른쪽 작업을 수행. 키워드를 사용할 수 있습니다 `return` 를 나타내는 값을 반환 합니다.
+대부분의 개체에 주석은 적용할 수 있습니다.  특히 전체 함수에 주석을 달 수 있습니다.  함수의 가장 확실 한 특징 중 하나에 성공 또는 실패 수는입니다. 하지만 버퍼와 해당 크기에 C 간의 연결을 같은 /C++ 함수 성공 또는 실패를 표현할 수 없습니다. 사용 하 여는 `_Success_` 주석을 함수의 성공을 같습니다 말할 수 있습니다.  매개 변수는 `_Success_` 주석 식이면 방금 것은 사실 나타내는 함수 성공 했다는 것입니다. 식 주석 파서에서 처리할 수 있는 아무 이름이 나 가능 합니다. 함수가 성공 하는 경우에 함수가 반환 되 면 주석의 효과 적용 됩니다. 이 예제에서는 어떻게 `_Success_` 상호 작용 `_Out_` 오른쪽 작업을 수행. 키워드를 사용할 수 있습니다 `return` 를 나타내는 값을 반환 합니다.
 
 ```cpp
 _Success_(return != false) // Can also be stated as _Success_(return)

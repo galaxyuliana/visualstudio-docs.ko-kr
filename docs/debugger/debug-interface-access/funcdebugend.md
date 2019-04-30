@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 1069d1a5f565d55fdb51d398087bd965933b6845
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554644"
 ---
 # <a name="funcdebugend"></a>FuncDebugEnd
 함수에 정의 된 특정 지점에서 종료 되는 디버깅, 시작 지점 디버그 기호가으로 식별 되는 `SymTagFuncDebugEnd` 태그입니다.

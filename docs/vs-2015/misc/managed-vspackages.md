@@ -11,11 +11,11 @@ ms.assetid: a4f17068-c563-45a8-bbbf-4203ea99e9d2
 caps.latest.revision: 34
 manager: jillfra
 ms.openlocfilehash: bde7742bc9165413abcf98bfb475c19ec0e45f51
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838765"
 ---
 # <a name="managed-vspackages"></a>관리되는 VSPackage
 다음 항목에서는 VSPackage를 만드는 방법을 설명 합니다. VSPackage는 확장 하는 소프트웨어 모듈의 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] (UI) 사용자 인터페이스 요소, 서비스, 프로젝트, 편집기 및 디자이너를 제공 하 여 통합된 개발 환경 (IDE)입니다. 자세한 내용은 [VSPackages](../extensibility/internals/vspackages.md)을 참조하세요.  

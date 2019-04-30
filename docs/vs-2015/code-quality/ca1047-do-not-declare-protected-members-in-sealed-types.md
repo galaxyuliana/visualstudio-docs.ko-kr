@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 6d949a756dfe3ff22ba43d172078d35bfe706e14
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62536102"
 ---
 # <a name="ca1047-do-not-declare-protected-members-in-sealed-types"></a>CA1047: protected 멤버를 sealed 형식으로 선언하지 마세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "58985021"
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
- 공용 형식이 `sealed` (`NotInheritable` Visual Basic에서) 하 고 보호 된 멤버 또는 중첩된 된 보호 형식을 선언 합니다. 이 규칙에 대 한 위반을 보고 하지 않습니다 <xref:System.Object.Finalize%2A> 메서드가이 패턴을 따라야 합니다.
+ 공용 형식이 `sealed` (`NotInheritable` Visual basic에서) 하 고 보호 된 멤버 또는 중첩된 된 보호 형식을 선언 합니다. 이 규칙에 대 한 위반을 보고 하지 않습니다 <xref:System.Object.Finalize%2A> 메서드가이 패턴을 따라야 합니다.
 
 ## <a name="rule-description"></a>규칙 설명
  형식에서는 상속하는 형식에서 멤버에 액세스하거나 멤버를 재정의할 수 있도록 하기 위해 protected 멤버를 선언합니다. 정의상, 봉인 된 형식에 메서드를 보호 하는 의미를 호출할 수 없습니다. 봉인 된 형식에서 상속할 수 없습니다.

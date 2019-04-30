@@ -19,11 +19,11 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: 4c019e98e7f1311b6521dff563cb8e7bb0a2356e
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55952049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62544023"
 ---
 # <a name="ca2119-seal-methods-that-satisfy-private-interfaces"></a>CA2119: private 인터페이스를 만족하는 메서드를 봉인하세요.
 
@@ -35,17 +35,17 @@ ms.locfileid: "55952049"
 |변경 수준|주요 변경|
 
 ## <a name="cause"></a>원인
- 상속할 수 있는 공용 형식의 재정의 가능한 메서드 구현을 제공 된 `internal` (`Friend` Visual Basic에서) 인터페이스입니다.
+ 상속할 수 있는 공용 형식의 재정의 가능한 메서드 구현을 제공 된 `internal` (`Friend` Visual basic에서) 인터페이스입니다.
 
 ## <a name="rule-description"></a>규칙 설명
- 인터페이스 메서드를 구현 하는 형식으로 변경할 수 없는 public 접근성이 있어야 합니다. 내부 인터페이스에는 인터페이스를 정의 하는 어셈블리 외부에 구현 되도록 디자인 되지 않은 계약을 만듭니다. 사용 하 여 내부 인터페이스 메서드를 구현 하는 공용 형식 합니다 `virtual` (`Overridable` Visual Basic에서) 한정자 메서드를 어셈블리 외부에 있는 파생된 된 형식에서 재정의할 수 있습니다. 정의 하는 어셈블리의 두 번째 형식 메서드를 호출 하는 내부 전용 계약 예상 하는 경우에 외부 어셈블리에서 재정의 된 메서드를 실행 하는 대신 하는 경우 동작 손상 될 수 있습니다. 이 보안 취약점을 만듭니다.
+ 인터페이스 메서드를 구현 하는 형식으로 변경할 수 없는 public 접근성이 있어야 합니다. 내부 인터페이스에는 인터페이스를 정의 하는 어셈블리 외부에 구현 되도록 디자인 되지 않은 계약을 만듭니다. 사용 하 여 내부 인터페이스 메서드를 구현 하는 공용 형식 합니다 `virtual` (`Overridable` Visual basic에서) 한정자 메서드를 어셈블리 외부에 있는 파생된 된 형식에서 재정의할 수 있습니다. 정의 하는 어셈블리의 두 번째 형식 메서드를 호출 하는 내부 전용 계약 예상 하는 경우에 외부 어셈블리에서 재정의 된 메서드를 실행 하는 대신 하는 경우 동작 손상 될 수 있습니다. 이 보안 취약점을 만듭니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하려면 다음 중 하나를 사용 하 여 어셈블리 외부에서 재정의 되지 않도록:
 
-- 선언 형식을 `sealed` (`NotInheritable` Visual Basic에서).
+- 선언 형식을 `sealed` (`NotInheritable` Visual basic에서).
 
-- 선언 형식의 액세스 가능성을 변경할 `internal` (`Friend` Visual Basic에서).
+- 선언 형식의 액세스 가능성을 변경할 `internal` (`Friend` Visual basic에서).
 
 - 선언 형식에서 모든 public 생성자를 제거 합니다.
 

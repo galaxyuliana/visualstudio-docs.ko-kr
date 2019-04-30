@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 0a9c13a1b1bb9c8240faeaaf8d67b0b8df259227
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62857689"
 ---
 # <a name="test-area-5-change-source-control"></a>테스트 영역 5: 소스 제어 변경
 이 소스 제어 플러그 인 테스트 영역에서는 통한 소스 제어 변경 합니다 **소스 제어 변경** 명령입니다.

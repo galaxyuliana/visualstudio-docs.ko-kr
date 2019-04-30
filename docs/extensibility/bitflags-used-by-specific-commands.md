@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 3adf4a26563560803f820d70ef6c6d5171e791d5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56703216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62891689"
 ---
 # <a name="bitflags-used-by-specific-commands"></a>특정 명령에 사용 되는 비트
 단일 값에 하나 이상의 비트를 설정 하 여 원본 제어 플러그 인 API 함수 개수의 동작을 수정할 수 있습니다. 이러한 값을 비트 라고 합니다. 원본 제어 플러그 인 API에서 사용 하는 다양 한 비트는 사용 하는 함수에 의해 그룹화 여기서 자세히 나와 있습니다.

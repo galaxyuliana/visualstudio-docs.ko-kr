@@ -11,16 +11,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 91c4da26d202e1a23ff70a7c655f64fd6c05a340
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.openlocfilehash: de757e7022339b11f6d7c04ea7315abf685da24c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57875400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428049"
 ---
 # <a name="donotloadprojects-devenvexe"></a>/DoNotLoadProjects(devenv.exe)
 
-프로젝트를 로드하지 않고 지정된 솔루션을 엽니다.
+프로젝트를 로드하지 않고 지정된 솔루션을 엽니다. 자세한 내용은 [Visual Studio의 필터링된 솔루션](../filtered-solutions.md)을 참조하세요.
 
 ## <a name="syntax"></a>구문
 
@@ -30,9 +30,9 @@ devenv /DoNotLoadProjects SolutionName
 
 ## <a name="arguments"></a>인수
 
-- *SolutionName*
+*SolutionName*
 
-  필수 요소. 열려는 솔루션의 전체 경로 및 이름입니다.
+필수 요소. 열려는 솔루션의 전체 경로 및 이름입니다.
 
 ## <a name="example"></a>예제
 
@@ -40,9 +40,9 @@ devenv /DoNotLoadProjects SolutionName
 
 ```shell
 devenv /donotloadprojects MySln.sln
-
 ```
 
 ## <a name="see-also"></a>참고 항목
 
+- [Visual Studio의 필터링된 솔루션](../filtered-solutions.md)
 - [Devenv 명령줄 스위치](../../ide/reference/devenv-command-line-switches.md)

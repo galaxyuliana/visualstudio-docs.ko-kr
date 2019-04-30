@@ -1,5 +1,5 @@
 ---
-title: '오류: 대상 프로세스가 종료 코드를 사용 하 여 &#39;코드&#39; 함수를 계산 하는 동안 &#39;함수&#39; | Microsoft Docs'
+title: '오류: 대상 프로세스 종료 코드를 사용 하 여 &#39;코드&#39; 함수를 계산 하는 동안 &#39;함수&#39; | Microsoft Docs'
 ms.date: 4/06/2018
 ms.topic: troubleshooting
 f1_keywords:
@@ -10,15 +10,15 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 75d82b6011a0dfa7f2c388e7d5f39a9ebabcd663
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56698172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62850814"
 ---
-# <a name="error-the-target-process-exited-with-code-39code39-while-evaluating-the-function-39function39"></a>오류: 대상 프로세스가 종료 코드를 사용 하 여 &#39;코드&#39; 함수를 계산 하는 동안 &#39;함수&#39;
+# <a name="error-the-target-process-exited-with-code-39code39-while-evaluating-the-function-39function39"></a>오류: 대상 프로세스 종료 코드를 사용 하 여 &#39;코드&#39; 함수를 계산 하는 동안 &#39;함수&#39;
 
-전체 메시지 텍스트: 'function' 함수를 평가 하는 동안 ' code '코드를 사용 하 여 대상 프로세스를 종료 합니다.
+전체 메시지 텍스트: 'Function' 함수를 평가 하는 동안 ' code '코드를 사용 하 여 대상 프로세스가 종료 되었습니다.
 
 디버거에서.NET 개체의 상태를 검사 좀 더 쉽게 추가 코드를 실행 하는 디버깅된 프로세스를 강제로 자동으로 됩니다 (일반적으로 속성 getter 메서드 및 `ToString` 함수). 대부분의 시나리오에서 이러한 함수는 성공적으로 완료 또는 디버거에 의해 발생 될 수 있는 예외를 throw 합니다. 그러나는 예외가 없습니다 포착 커널 경계를 넘나들, 사용자 메시지 펌프를 요구 하거나는 복구할 수 있으므로 몇 가지 경우가 있습니다. 결과, 속성 getter 또는 코드를 실행 하는 ToString 메서드 중 하나는 명시적으로 프로세스를 종료 합니다 (예를 들어, 호출 `ExitProcess()`) 수 없습니다는 처리 되지 않은 예외를 throw 하거나 (예를 들어 `StackOverflowException`) 종료 됩니다는 디버깅된 프로세스를 디버그 세션을 종료 합니다. 이 오류 메시지에서 발견 되 면이 발생 했습니다.
 
@@ -28,7 +28,7 @@ ms.locfileid: "56698172"
 
 이 문제에 대 한 두 가지 방법이 있습니다.
 
-### <a name="solution-1-prevent-the-debugger-from-calling-the-getter-property-or-tostring-method"></a>해결 방법 #1: 속성 getter 또는 ToString 메서드 호출에서 디버거를 방지 
+### <a name="solution-1-prevent-the-debugger-from-calling-the-getter-property-or-tostring-method"></a>해결 방법 #1: ToString 메서드나 속성 getter 호출에서 디버거를 방지 
 
 오류 메시지에는 디버거를 호출 하려고 하는 함수의 이름을 알려줍니다. 함수 이름을 사용 하 여 연습할 수에서 해당 함수를 다시 평가 합니다 **직접 실행** 창을 평가 디버그 합니다. 디버깅은에서 평가할 때 가능한를 **직접 실행** 창 이므로 암시적 평가를 달리를 **자동/지역/조사식** windows 디버거 처리 되지 않은 예외에서 중단 합니다.
 

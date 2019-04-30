@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 76aa6fe6218205874ab616f5c0ffb09f5c5c3cbf
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: f15dc7ef3c5ab06857307081511f1c9aa2285566
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56711802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62796345"
 ---
 # <a name="walkthrough-create-an-sdk-using-javascript"></a>연습: JavaScript를 사용 하 여 SDK 만들기
 이 연습에서는 JavaScript는 간단한 수학 SDK는 Visual Studio 확장 (VSIX)로 만들기를 사용 하는 방법을 설명 합니다.  이 연습에서는 이러한 부분으로 구분 됩니다.
@@ -27,19 +27,19 @@ ms.locfileid: "56711802"
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 수행하려면 Visual Studio SDK를 설치해야 합니다. 자세한 내용은 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.
 
-##  <a name="createSimpleMathVSIX"></a> SimpleMathVSIX 확장 SDK 프로젝트를 만들려면
+## <a name="createSimpleMathVSIX"></a> SimpleMathVSIX 확장 SDK 프로젝트를 만들려면
 
-1.  메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
+1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
-2.  템플릿 범주 목록에서 아래 **Visual C#** 를 선택 **확장성**를 선택한 후는 **VSIX 프로젝트** 템플릿.
+2. 템플릿 범주 목록에서 아래 **Visual C#** 를 선택 **확장성**를 선택한 후는 **VSIX 프로젝트** 템플릿.
 
-3.  에 **이름** 텍스트 상자에서 지정 `SimpleMathVSIX` 선택 합니다 **확인** 단추.
+3. 에 **이름** 텍스트 상자에서 지정 `SimpleMathVSIX` 선택 합니다 **확인** 단추.
 
-4.  경우는 **Visual Studio 패키지 마법사** 나타납니다 선택 합니다 **다음** 단추를 **시작** 페이지에서 한 후 **7의 1 페이지**, 선택는 **완료** 단추입니다.
+4. 경우는 **Visual Studio 패키지 마법사** 나타납니다 선택 합니다 **다음** 단추를 **시작** 페이지에서 한 후 **7의 1 페이지**, 선택는 **완료** 단추입니다.
 
      하지만 합니다 **매니페스트 디자이너** 열리면 보존이 연습에서는 간단한 매니페스트 파일을 직접 수정 하 여 합니다.
 
-5.  **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **source.extension.vsixmanifest** 파일을 선택한 후 **코드 보기**합니다. 이 코드를 사용 하 여 파일의 기존 내용을 바꿉니다.
+5. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **source.extension.vsixmanifest** 파일을 선택한 후 **코드 보기**합니다. 이 코드를 사용 하 여 파일의 기존 내용을 바꿉니다.
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -61,11 +61,11 @@ ms.locfileid: "56711802"
     </PackageManifest>
     ```
 
-6.  **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **SimpleMathVSIX** 프로젝트를 선택한 후 **추가** > **새 항목**.
+6. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **SimpleMathVSIX** 프로젝트를 선택한 후 **추가** > **새 항목**.
 
-7.  에 **데이터** 범주를 선택한 **XML 파일**, 파일 이름을 `SDKManifest.xml`, 선택는 **추가** 단추입니다.
+7. 에 **데이터** 범주를 선택한 **XML 파일**, 파일 이름을 `SDKManifest.xml`, 선택는 **추가** 단추입니다.
 
-8.  **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **SDKManifest.xml** 파일을 선택한 후 **엽니다** 에서 파일을 표시 하려면를 **XML 편집기**.
+8. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **SDKManifest.xml** 파일을 선택한 후 **엽니다** 에서 파일을 표시 하려면를 **XML 편집기**.
 
 9. 다음 코드를 추가 합니다 **SDKManifest.xml** 파일입니다.
 
@@ -126,9 +126,9 @@ ms.locfileid: "56711802"
 
 17. **솔루션 탐색기**에 대 한 바로 가기 메뉴의 **arithmetic.js** 파일을 선택 **속성**합니다. 이러한 속성 변경 내용을 확인 합니다.
 
-    -   설정 된 **VSIX에 포함** 속성을 **True**합니다.
+    - 설정 된 **VSIX에 포함** 속성을 **True**합니다.
 
-    -   설정 된 **출력 디렉터리로 복사** 속성을 **항상 복사**합니다.
+    - 설정 된 **출력 디렉터리로 복사** 속성을 **항상 복사**합니다.
 
 18. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 **SimpleMathVSIX** 프로젝트 **빌드**합니다.
 
@@ -138,7 +138,7 @@ ms.locfileid: "56711802"
 
 21. Visual Studio를 다시 시작합니다.
 
-##  <a name="createSampleApp"></a> SDK를 사용 하는 샘플 앱을 만들려면
+## <a name="createSampleApp"></a> SDK를 사용 하는 샘플 앱을 만들려면
 
 1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 

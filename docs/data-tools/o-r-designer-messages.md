@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: cb07949fd36763fc7588d18c12c31b9af15eaf0a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566627"
 ---
 # <a name="or-designer-messages"></a>O/R 디자이너 메시지
 
@@ -57,7 +57,7 @@ ms.locfileid: "55950554"
 
 <xref:System.Data.Linq>
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio의 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)

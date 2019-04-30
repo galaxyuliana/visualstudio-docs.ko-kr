@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ab1ea05511369d36b881afcaf7c161f796fd4925
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56678256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62875318"
 ---
 # <a name="idebugengine2attach"></a>IDebugEngine2::Attach
 프로그램 또는 프로그램을 디버그 엔진 (DE)에 연결합니다. DE 실행 중인 in-process로 SDM 때 세션 디버그 관리자 (SDM)에서 호출 됩니다.

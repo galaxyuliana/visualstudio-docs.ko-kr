@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 5df98f898c585d89c9bc493e606947f89b3206d2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909426"
 ---
 # <a name="property-pages"></a>속성 페이지
 사용자가 보고 하 고 속성 페이지를 사용 하 여 프로젝트 구성에 종속 된와-속성을 변경할 수 있습니다. A **속성 페이지** 에서 단추를 사용할 수는 **속성** 창 또는 선택한 개체의 속성 페이지 보기를 제공 하는 개체에 대 한 솔루션 탐색기 도구 모음입니다. 속성 페이지 환경에서 생성 되 고 솔루션 및 프로젝트에 사용할 수 있습니다. 그러나도 사용할 수는 구성에 종속 된 속성을 사용 하는 프로젝트 항목에 대 한 사용 가능 합니다. 프로젝트 내에서 파일 올바르게 다른 컴파일러 스위치 설정이 필요한 경우에이 기능을 사용할 수 있습니다.

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3ca04cadbfce26319a9ed72b85071d7ab139a85a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62900925"
 ---
 # <a name="window-search-dialog-box"></a>창 경로 대화 상자
 이 대화 상자를 사용 하 여 찾아서의 특정 창에 대 한 노드를 선택 [Windows 보기](../debugger/windows-view.md)합니다. 이 대화 상자를 표시 하려면 Windows 보기 창에 포커스를 이동 합니다. 선택한 **창 찾기** 에서 합니다 **검색** 메뉴.

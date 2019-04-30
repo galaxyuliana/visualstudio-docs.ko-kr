@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 26eb7e0798fbcf6aad33dd45892a23fb0d54b812
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62575704"
 ---
 # <a name="how-to-programmatically-check-spelling-in-documents"></a>방법: 프로그래밍 방식으로 문서에서 맞춤법 검사
   문서에서 맞춤법을 확인 하려면 사용 된 <xref:Microsoft.Office.Interop.Word._Application.CheckSpelling%2A> 메서드. 이 메서드는 제공된 된 매개 변수 철자가 여부를 나타내는 부울 값을 반환 합니다.

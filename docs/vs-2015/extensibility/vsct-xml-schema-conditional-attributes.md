@@ -12,11 +12,11 @@ caps.latest.revision: 6
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 6294ee8027b61840149096561efc91b8a4a3c3ec
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62422164"
 ---
 # <a name="vsct-xml-schema-conditional-attributes"></a>VSCT XML 스키마 조건부 특성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,8 +37,8 @@ ms.locfileid: "58982341"
 |(,)|그룹화|  
 |!|논리 NOT|  
 |\<, >, \<=, >=, ==, !=|관계형 및 같음|  
-|및|부울|  
-|또는|부울|  
+|및|Boolean|  
+|또는|Boolean|  
   
 ## <a name="examples"></a>예제  
   

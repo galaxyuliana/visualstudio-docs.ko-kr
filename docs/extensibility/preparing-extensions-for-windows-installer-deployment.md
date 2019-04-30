@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 9466d067cd144f009f9c0a37d4ace5bacc12f8a2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62433463"
 ---
 # <a name="prepare-extensions-for-windows-installer-deployment"></a>Windows Installer 배포에 대 한 확장 준비
 VSIX 패키지를 배포 하려면 Windows Installer 패키지 (MSI)를 사용할 수 없습니다. 그러나 MSI 배포용 VSIX 패키지의 내용을 추출할 수 있습니다. 이 문서에는 해당 기본 출력은 설치 프로젝트에 포함할 VSIX 패키지 프로젝트를 준비 하는 방법을 보여 줍니다.

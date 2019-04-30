@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: d4529fa9cd52c1e9e54049386d39e85ea8efcbe5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62965195"
 ---
 # <a name="walkthrough-display-statement-completion"></a>연습: 문 완성 표시
 완성 기능을 제공 하려는 식별자를 정의 하 고 다음 완료 세션을 트리거 언어 기반 문 완성을 구현할 수 있습니다. 언어 서비스의 컨텍스트에서 문 완성을 정의 하 고, 고유한 파일 이름 확장명 및 콘텐츠 형식을 정의 하 고, 해당 형식만 완성 표시 수 있습니다. 또는 기존 콘텐츠 형식에 대 한 완료를 트리거할 수 있습니다-예를 들어 일반 "텍스트"입니다. 이 연습에서는 텍스트 파일의 콘텐츠 형식인 "일반 텍스트" 콘텐츠 형식에 대 한 문 완성을 트리거하는 방법을 보여 줍니다. "Text" 콘텐츠 형식은 코드 및 XML 파일을 포함 하 여 모든 콘텐츠 형식, 상위 항목입니다.

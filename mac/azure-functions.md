@@ -7,12 +7,12 @@ ms.date: 04/02/2019
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
-ms.openlocfilehash: ac0786e9b52a149fe8067c41aaabe61ad9fd5c87
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: db25a9cbc647e399da86781d155a7b55d8e3802e
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62985093"
 ---
 # <a name="introduction-to-azure-functions"></a>Azure Functions 소개
 
@@ -103,7 +103,7 @@ Mac용 Visual Studio에서 Azure Functions 지원을 통해 로컬 개발 컴퓨
     |설정  |설명  |
     |---------|---------|
     |**App Service 이름**|새 함수 앱을 식별하는 전역적으로 고유한 이름입니다.|
-    |**구독**|사용할 Azure 구독입니다.|
+    |**구독**|Azure 구독을 사용합니다.|
     |**[리소스 그룹](/azure/azure-resource-manager/resource-group-overview)**|함수 앱을 만들 리소스 그룹의 이름입니다. **+** 를 선택하여 새 리소스 그룹을 만듭니다.|
     |**[서비스 계획](/azure/azure-functions/functions-scale)**|기존 계획을 선택하거나 사용자 지정 계획을 만듭니다. 가까운 지역 또는 함수에 액세스하는 다른 서비스 근처의 위치를 선택합니다.|
 
@@ -147,9 +147,7 @@ local.settings.json에서 추가한 모든 설정은 Azure의 함수 앱에도 �
     - Http POST CRUD
     - 매개 변수가 있는 http 트리거
 
-
 - **Timer** - 미리 정의된 일정에 따라 정리 또는 기타 일괄 처리 작업을 실행합니다. 이 템플릿에는 이름과 일정 등 두 필드가 있고 6개 필드 CRON 식입니다. 자세한 내용은 [Azure functions 문서의 Timer 부분](/azure/azure-functions/functions-create-scheduled-function)을 참조하세요.
-
 
 - **Queue Trigger** – Azure Storage 큐에 도착하면 메시지에 응답하는 함수입니다. 함수 이름 외에도 이 템플릿은 **경로**(메시지를 읽을 큐의 이름)와 스토리지 계정 **연결**(스토리지 계정 연결 문자열을 포함하는 앱 설정의 이름)을 사용합니다. 자세한 내용은 [Azure 함수 문서의 큐 스토리지 부분](/azure/azure-functions/functions-create-storage-queue-triggered-function)을 참조하세요.
 

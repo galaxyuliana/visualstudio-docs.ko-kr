@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 2a4674dec4b15f608eb25ffaf62c97efcc2363ab
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62929967"
 ---
 # <a name="view-data-values-in-datatips-in-the-code-editor"></a>코드 편집기에서 DataTips의 데이터 값 보기
 
@@ -122,7 +122,7 @@ DataTips를 공유 하거나 텍스트 편집기를 사용 하 여 편집할 수
 
 1. 에 **DataTips 가져오기** 대화 상자를 연 다음 선택 하려는 DataTips XML 파일을 선택 합니다 **엽니다**합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [디버깅이란?](../debugger/what-is-debugging.md)
 - [디버깅 기술 및 도구](../debugger/write-better-code-with-visual-studio.md)
 - [디버깅 소개](../debugger/debugger-feature-tour.md)

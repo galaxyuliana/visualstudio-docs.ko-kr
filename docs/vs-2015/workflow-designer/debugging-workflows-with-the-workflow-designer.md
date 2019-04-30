@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 0135d9f782976f1d6ad6e2e09dc95c27cc66d846
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983798"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976743"
 ---
 # <a name="debugging-workflows-with-the-workflow-designer"></a>Workflow Designer로 워크플로 디버깅
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에는 워크플로 및 사용자 지정 활동을 디버깅하는 기능이 있습니다. 프로세스와 동작은 기본 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 디버거와 비슷합니다. 이 단원의 항목에서는 기존 디버깅 절차와 XAML 및 식 디버깅을 수행하는 방법에 대해 설명합니다.  

@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 729fafd1f6dfdf889293c9686f455be8de5a81fc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970378"
 ---
 # <a name="migrate-office-solutions-to-the-net-framework-4-or-later"></a>.NET Framework 4 이상으로 Office 솔루션 마이그레이션
   Office 프로젝트의 대상 프레임 워크를 변경 된 경우는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 나중에.NET Framework의 이전 버전에서 몇 가지 추가 단계가 필요할 계속 개발 및 최종 사용자 컴퓨터에서 솔루션을 실행 합니다. 자세한 내용은 [.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Office 프로젝트를 실행 하는 변경 필요한](../vsto/required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)합니다.
@@ -38,6 +38,6 @@ ms.locfileid: "56643719"
 
 ## <a name="see-also"></a>참고자료
 - [Office 솔루션을 만들고 디자인](../vsto/designing-and-creating-office-solutions.md)
-- [방법: .NET Framework의 버전 대상](../ide/how-to-target-a-version-of-the-dotnet-framework.md)
+- [방법: .NET Framework 버전 대상 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)
 - [Office 솔루션의 오류 문제 해결](../vsto/troubleshooting-errors-in-office-solutions.md)
 - [Office 솔루션 오류에에서 대 한 추가 지원](../vsto/additional-support-for-errors-in-office-solutions.md)

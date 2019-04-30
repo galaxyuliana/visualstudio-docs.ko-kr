@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 3c88b40c0d20d370929bd8c1cd5e8604ea3781e6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62433918"
 ---
 # <a name="expected-"></a>']'가 필요합니다.
 배열 요소에 대 한 참조를 했지만 오른쪽 대괄호를 포함 하지 않았습니다. 배열 요소를 가리키는 식일 열고 닫는 대괄호에 포함 해야 합니다.  

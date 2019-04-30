@@ -15,11 +15,11 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: 6cd61304e150da63d2d461ef364e7039789c71fc
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62825825"
 ---
 # <a name="suppress-code-analysis-warnings"></a>코드 분석 경고 표시 안 함
 
@@ -27,7 +27,7 @@ ms.locfileid: "57223093"
 
 <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> 특성이 컴파일 시간에 CODE_ANALYSIS 컴파일 기호가 정의 된 경우에 관리 코드 어셈블리의 IL 메타 데이터에 포함 된 조건부 특성입니다.
 
-C + + CLI CA 매크로 사용 하 여\_표시 안 함\_메시지나 CA\_GLOBAL\_SUPPRESS_MESSAGE 헤더 파일에 특성을 추가 합니다.
+C++/CLI, CA 매크로 사용 하 여\_표시 안 함\_메시지나 CA\_GLOBAL\_SUPPRESS_MESSAGE 헤더 파일에 특성을 추가 합니다.
 
 > [!NOTE]
 > 소스에서 메타 데이터를 실수로 전달 하지 않으려면-소스 비 표시 오류 릴리스 빌드에 하지 사용 해야 합니다. 또한 소스에서의 처리 비용으로 인해 응용 프로그램의 성능이 저하 될 수 있습니다.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 2e8956fb7da61519ed9d0939da087ce8a4181ac1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56643810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839877"
 ---
 # <a name="idiainjectedsource"></a>IDiaInjectedSource
 액세스는 DIA 데이터 원본에 저장 하는 소스 코드를 삽입 합니다.
@@ -41,8 +41,8 @@ IDiaInjectedSource : IUnknown
 |[IDiaInjectedSource::get_sourceCompression](../../debugger/debug-interface-access/idiainjectedsource-get-sourcecompression.md)|사용 되는 원본 압축 표시기를 검색 합니다.|
 |[IDiaInjectedSource::get_source](../../debugger/debug-interface-access/idiainjectedsource-get-source.md)|소스 코드 바이트를 검색합니다.|
 
-## <a name="remarks"></a>주의
-삽입 된 소스는 컴파일하는 동안 삽입 된 텍스트입니다. 전처리기에 의미가 아니라 `#include` c + +에서 사용 합니다.
+## <a name="remarks"></a>설명
+삽입 된 소스는 컴파일하는 동안 삽입 된 텍스트입니다. 전처리기 그렇다고 `#include` 사용 C++합니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 호출 하 여이 인터페이스를 가져올는 [idiaenuminjectedsources:: Item](../../debugger/debug-interface-access/idiaenuminjectedsources-item.md) 하거나 [idiaenuminjectedsources:: Next](../../debugger/debug-interface-access/idiaenuminjectedsources-next.md) 메서드. 참조 된 [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) 가져오는 예제에 대 한 인터페이스를 `IDiaInjectedSource` 인터페이스입니다.

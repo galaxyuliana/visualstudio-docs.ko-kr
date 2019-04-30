@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 38a4ea987a1b7514d19433f3da75e269fcaf50ec
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60093763"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62540139"
 ---
 # <a name="accessibility-for-people-with-disabilities"></a>장애인을 위한 내게 필요한 옵션
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

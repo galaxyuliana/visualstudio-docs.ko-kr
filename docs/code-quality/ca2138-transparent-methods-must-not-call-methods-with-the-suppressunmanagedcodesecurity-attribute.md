@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 4e302c9e8cc74d461dc67237bd62b34097c0aceb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55907778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62542185"
 ---
 # <a name="ca2138-transparent-methods-must-not-call-methods-with-the-suppressunmanagedcodesecurity-attribute"></a>CA2138: 투명 메서드는 SuppressUnmanagedCodeSecurity 특성을 사용하여 메서드를 호출해서는 안 됩니다.
 

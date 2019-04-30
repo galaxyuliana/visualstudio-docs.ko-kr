@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 1319e539c185a231637b4e78d7ac0de9154ed8a3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62953051"
 ---
 # <a name="walkthrough-accessing-the-dte-object-from-an-editor-extension"></a>연습: 편집기 확장에서 DTE 개체 액세스
 Vspackage에서 DTE 개체를 호출 하 여 가져올 수 있습니다는 <xref:Microsoft.VisualStudio.Shell.Package.GetService%2A> DTE 개체의 유형과 메서드. Framework MEF (Managed Extensibility) 확장을 가져올 수 있습니다 <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> 호출을 <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> 형식의 메서드 <xref:EnvDTE.DTE>합니다.

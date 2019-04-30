@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 820ecc40924ace4153b76f46c8b8fd1603512ebb
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62821785"
 ---
 # <a name="idebugasyncoperation-interface"></a>IDebugAsyncOperation 인터페이스
 프로세스 디버그 관리자를 구현 하는 `IDebugAsyncOperation` 인터페이스입니다. 언어 엔진을 호출 합니다 `IDebugApplication::CreateAsyncDebugOperation` 이 인터페이스에 대 한 참조를 가져오는 방법입니다. 언어 엔진에서 사용할 수는 `IDebugAsyncOperation` 동기식 디버그 작업에 대 한 비동기 액세스를 제공 하는 인터페이스입니다.  

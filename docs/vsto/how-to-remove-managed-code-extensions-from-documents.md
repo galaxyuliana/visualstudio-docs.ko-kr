@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 438658af3f182ea732d0fefef0f5a5d6ecbefa03
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62961594"
 ---
 # <a name="how-to-remove-managed-code-extensions-from-documents"></a>방법: 문서에서 관리 코드 확장명 제거
   프로그래밍 방식으로 문서 또는 Microsoft Office Word 또는 Microsoft Office Excel 용 문서 수준 사용자 지정을 포함 된 통합 문서에서 사용자 지정 어셈블리를 제거할 수 있습니다. 사용자가 다음 문서를 열 고 볼 수 있으며 콘텐츠를 하지만 문서에 추가한 모든 사용자 지정 사용자 인터페이스 (UI)는 표시 되지 코드가 실행 되지 않습니다.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3252d15ebfb06fa840bfad6bf74dc3b8748776ef
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623244"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838095"
 ---
 # <a name="idiastackframe"></a>IDiaStackFrame
 스택 프레임의 속성을 표시 합니다.
@@ -35,7 +35,7 @@ IDiaStackFrame : IUnknown
 |------------|-----------------|
 |[IDiaStackFrame::get_allocatesBasePointer](../../debugger/debug-interface-access/idiastackframe-get-allocatesbasepointer.md)|이 주소 범위에서 코드에 대 한 기본 포인터 할당 되는 나타내는 플래그를 검색 합니다. 이 메서드는 사용 되지 않습니다.|
 |[IDiaStackFrame::get_base](../../debugger/debug-interface-access/idiastackframe-get-base.md)|프레임의 주소 자료를 검색합니다.|
-|[IDiaStackFrame::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiastackframe-get-cplusplusexceptionhandling.md)|C + + 예외 처리 적용 중임을 나타내는 플래그를 검색 합니다.|
+|[IDiaStackFrame::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiastackframe-get-cplusplusexceptionhandling.md)|나타내는 플래그를 검색 C++ 예외 처리에 적용 됩니다.|
 |[IDiaStackFrame::get_functionStart](../../debugger/debug-interface-access/idiastackframe-get-functionstart.md)|블록에 함수의 진입점이 포함 되어 있음을 나타내는 플래그를 검색 합니다.|
 |[IDiaStackFrame::get_lengthLocals](../../debugger/debug-interface-access/idiastackframe-get-lengthlocals.md)|스택에 있는 지역 변수의 바이트 수를 검색 합니다.|
 |[IDiaStackFrame::get_lengthParams](../../debugger/debug-interface-access/idiastackframe-get-lengthparams.md)|스택에 푸시된 매개 변수는 바이트 수를 검색 합니다.|
@@ -50,7 +50,7 @@ IDiaStackFrame : IUnknown
 |[IDiaStackFrame::get_systemExceptionHandling](../../debugger/debug-interface-access/idiastackframe-get-systemexceptionhandling.md)|시스템 예외 처리 적용 중임을 나타내는 플래그를 검색 합니다.|
 |[IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md)|프레임 유형을 검색합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 스택 프레임에는 해당 실행 하는 동안 함수 호출의 추상화입니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

@@ -10,11 +10,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 2b130c321e57cdeea6b703b0e439d6b0f15a1a96
-ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59232543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62947691"
 ---
 # <a name="how-to-report-a-problem-with-visual-studio-or-visual-studio-installer"></a>Visual Studio 또는 Visual Studio 설치 관리자로 문제를 보고하는 방법
 
@@ -25,7 +25,7 @@ ms.locfileid: "59232543"
 
 1. **Visual Studio에서** 오른쪽 위에 있는 피드백 아이콘을 선택하고 [문제 보고]를 선택합니다. 또한 **도움말** > **피드백 보내기** > **문제 보고** 메뉴에서 피드백 도구에 액세스할 수 있습니다.
 ![Visual Studio 개발자 커뮤니티의 문제 보고 팝업](media/vsfeedbackentry.png) 또는 Visual Studio를 설치할 수 없거나 Visual Studio 내의 피드백 도구에 액세스할 수 없는 경우 **Visual Studio 설치 관리자**에서 문제를 보고합니다.  설치 관리자에서 오른쪽 위에 있는 피드백 아이콘을 선택하고 [문제 보고]를 선택합니다.
-![Visual Studio 개발자 커뮤니티에 대한 문제 팝업 보고](media/installer.png)
+![Visual Studio 개발자 커뮤니티의 문제 보고 팝업](media/installer.png)
 
 1. 로그인하지 않은 경우 다음 스크린샷에 표시된 대로 **로그인**을 선택합니다. 화면의 지침에 따라 로그인합니다.
 
@@ -123,7 +123,7 @@ Visual Studio 2017 버전 15.5 부터는 사용자가 문제 보고에 대한 �
 ## <a name="see-also"></a>참고 항목
 
 * [의견 보내기](../ide/talk-to-us.md)
-* [Mac용 Visual Studio를 사용하여 문제 보고](/visualstudio/mac/report-a-problem)
+* [Mac용 Visual Studio의 문제 보고](/visualstudio/mac/report-a-problem)
 * [C++를 사용하여 문제 보고](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)
 * [Visual Studio 개발자 커뮤니티](https://developercommunity.visualstudio.com/)
 * [개발자 커뮤니티 데이터 개인 정보](developer-community-privacy.md)

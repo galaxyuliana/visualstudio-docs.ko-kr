@@ -18,11 +18,11 @@ ms.workload:
 - aspnet
 - dotnetcore
 ms.openlocfilehash: 711082c70c6174bdf3363ddb12d233ceb3f78f0d
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838972"
 ---
 # <a name="tutorial-create-your-first-aspnet-core-app-using-entity-framework-with-visual-studio-2019"></a>자습서: Visual Studio 2019와 함께 Entity Framework를 사용하여 첫 번째 ASP.NET Core 앱 만들기
 
@@ -38,7 +38,7 @@ ms.locfileid: "59018118"
 
 이 동영상 자습서 및 단계별 지침을 통해 Visual Studio 2019를 설치하는 방법을 알아봅니다. Visual Studio를 이미 설치한 경우 [2단계: 첫 번째 ASP.NET Core 웹앱 만들기](tutorial-aspnet-core-ef-step-02.md)로 건너뜁니다.
 
-_이 동영상에 따라 Visual Studio를 설치하고 첫 번째 ASP.NET Core 앱을 만듭니다._
+_이 비디오를 보고 따라서 Visual Studio를 설치하고 첫 번째 ASP.NET Core 앱을 만듭니다._
 
 > [!VIDEO https://www.youtube.com/embed/Fz_HAqQGLtY]
 

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 16031cbe5152c49c56b4c151e85b01ecf2f91a21
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56624362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62859577"
 ---
 # <a name="project-type-essentials"></a>프로젝트 형식 필수 항목
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 같은 언어에 대 한 여러 프로젝트 유형이 포함 되어 있습니다 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 또는 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]합니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 또한 사용자 고유의 프로젝트 형식을 만들 수 있습니다.
@@ -52,7 +52,7 @@ ms.locfileid: "56624362"
 
 - 프로젝트 형식은 인터페이스 집합을 구현 하는 VSPackage에서 개체 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 필요 합니다. 사용 중인 경우 C# 프로젝트 형식을 개발, 관리 패키지 프레임 워크 프로젝트 클래스를 필요한 인터페이스를 구현 되며 해당 구현을 상속할 수 있습니다. 자세한 내용은 [프로젝트 형식 (C#)를 구현 하는 관리 패키지 프레임 워크를 사용 하 여](../../extensibility/internals/using-the-managed-package-framework-to-implement-a-project-type-csharp.md)입니다.
 
-- C + + 개발자를 위한 HierUtil 라이브러리의 클래스는 비슷한 방식으로 작동합니다. 자세한 내용은 참조 하세요. [빌드에 없음: HierUtil7 프로젝트 클래스를 사용 하 여 프로젝트 형식 (c + +)를 구현](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)합니다.
+- 에 대 한 C++ 개발자 HierUtil 라이브러리의 클래스는 비슷한 방식으로 작동 합니다. 자세한 내용은 참조 하세요. [빌드에 없음: 프로젝트 유형을 구현 하도록 HierUtil7 프로젝트 클래스를 사용 하 여 (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)합니다.
 
 - 프로젝트 형식에는.exe 또는.dll 어셈블리로 작성 하는 일반적인 소스 코드 파일 이외의 데이터 지원할 수 있습니다. 예를 들어 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 데이터베이스 프로젝트 디스크에 저장 하는 스크립트 및 쿼리 파일에 대 한 참조를 포함 하 고 하는 명령을 추가 **솔루션 탐색기** 실행 하는 스크립트 및 데이터베이스에 있지만 프로젝트에 대 한 쿼리 지원 하지 않습니다 동작을 빌드하십시오. 자세한 내용은 [열기 및 프로젝트 항목 저장](../../extensibility/internals/opening-and-saving-project-items.md)합니다.
 

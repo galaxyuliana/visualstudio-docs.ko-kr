@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 8dfb0330f08dab158c298bbc944d8dc6410f719f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602302"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839435"
 ---
 # <a name="idiasegment"></a>IDiaSegment
 섹션 수에서 데이터를의 주소 공간 세그먼트를 매핑합니다.
@@ -43,7 +43,7 @@ IDiaSegment : IUnknown
 |[IDiaSegment::get_relativeVirtualAddress](../../debugger/debug-interface-access/idiasegment-get-relativevirtualaddress.md)|섹션의 시작 상대 가상 주소 RVA ()를 검색합니다.|
 |[IDiaSegment::get_virtualAddress](../../debugger/debug-interface-access/idiasegment-get-virtualaddress.md)|가상 주소 (VA) 섹션의 시작 부분을 검색합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 대부분의 응용 프로그램은 만들지 DIA SDK 번역 섹션 오프셋의 상대 가상 주소를 이미 수행을 하기 때문에 세그먼트 구조의 정보를 사용 합니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 823d9597e61d87d15ab9e96afad7d84703be68f9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56716768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62912332"
 ---
 # <a name="extend-the-editor-and-language-services"></a>편집기 및 언어 서비스 확장
 언어 서비스 기능 (예: IntelliSense) 자체 편집기를 추가할 수 있으며 Visual Studio code 편집기의 대부분의 기능을 확장할 수 있습니다.  확장할 수 있습니다의 전체 목록을 참조 하세요 [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)합니다.

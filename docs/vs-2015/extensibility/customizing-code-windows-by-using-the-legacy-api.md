@@ -11,11 +11,11 @@ caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f15c649b8d857d2e920bb957e5975d296749cb86
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62556145"
 ---
 # <a name="customizing-code-windows-by-using-the-legacy-api"></a>레거시 API를 사용 하 여 사용자 지정 코드 Windows
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "58982793"
  `Customizing Code Windows by Using the Legacy API`  
  기존 API를 사용 하 여 코드 창을 사용자 지정 하는 방법에 설명 합니다.  
   
- [방법: 다른 편집기에서 편집기를 호스트 합니다.](../extensibility/how-to-host-an-editor-in-another-editor.md)  
+ [방법: 다른 편집기에서 편집기 호스트](../extensibility/how-to-host-an-editor-in-another-editor.md)  
  편집기 창 내에서 두 번째 편집기를 호스트 하는 방법에 설명 합니다.  
   
  [방법: 편집기에서 포커스를 잃을 때 이벤트 발생](../extensibility/how-to-fire-events-when-the-editor-loses-focus.md)  

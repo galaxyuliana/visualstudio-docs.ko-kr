@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 363a52cfeb409d293ba3589b9d869bbc4fdf5918
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150909"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62991343"
 ---
 # <a name="icanhandleexception-interface"></a>ICanHandleException 인터페이스
 예외를 지정 하는 스크립트 엔진의 호출자가 호출자가 있도록 처리 합니다.  

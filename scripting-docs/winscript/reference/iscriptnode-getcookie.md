@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: b05d184af3ecd6302fc05893600fd7026eeca3ad
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58149395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62787055"
 ---
 # <a name="iscriptnodegetcookie"></a>IScriptNode::GetCookie
 호스트 개체를 사용 하 여 scriptlet을 연결 하는 데 사용 되는 응용 프로그램 정의 값을 반환 합니다.  

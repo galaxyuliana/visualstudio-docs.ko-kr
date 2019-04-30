@@ -25,11 +25,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 01e85c0257d372fa9b27ec5f031aae61132f7edc
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56600555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62928917"
 ---
 # <a name="create-clickonce-applications-for-others-to-deploy"></a>다른 사용자가 배포할 수 있는 ClickOnce 애플리케이션 만들기
 ClickOnce 배포를 만든 모든 개발자가 응용 프로그램 자체를 배포 하려고 합니다. 이들 중 다 수만 ClickOnce를 사용 하 여 해당 응용 프로그램을 패키지 및 같은 규모가 큰 기업 고객에 게 파일을 전달 합니다. 고객이 네트워크에서 응용 프로그램을 호스트 하는 일을 담당 합니다. 이 항목에서는.NET framework 버전 3.5 이전 버전에서 이러한 배포의 문제 중 일부를 설명합니다. .NET Framework 3.5의 새로운 "트러스트에 대 한 매니페스트를 사용" 기능을 사용 하 여 제공 하는 새 솔루션에 설명 합니다. 마지막으로, 이전 버전의.NET Framework를 여전히 사용 하는 고객에 대 한 ClickOnce 배포를 만들기 위한 권장 되는 전략을 사용 하 여 완료 합니다.
@@ -56,7 +56,7 @@ ClickOnce 배포를 만든 모든 개발자가 응용 프로그램 자체를 배
 
  자체 서명 된 인증서를 사용 하 여 배포 매니페스트에 대 한 여러 가지 이점을 제공 합니다. 자신의 Authenticode 인증서를 만들거나 가져와야 고객에 대 한 필요를 없애 `<useManifestForTrust>` 개발자가 응용 프로그램의 고유한 브랜드 id를 유지 하면서 고객에 대 한 배포를 간소화 합니다. 결과 더 안전 하 고 고유한 응용 프로그램 id는 서명 된 배포의 집합. 여러 고객에 게 동일한 응용 프로그램 배포에서 발생할 수 있는 잠재적인 충돌을 제거 합니다.
 
- ClickOnce 배포를 만드는 방법에 대 한 단계별 정보에 대 한 `<useManifestForTrust>` 참조 설정 [연습: 수동으로 다시 서명 필요 하지 않은 없고브랜드정보가유지되는ClickOnce응용프로그램을배포](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md).
+ ClickOnce 배포를 만드는 방법에 대 한 단계별 정보에 대 한 `<useManifestForTrust>` 참조 설정 [연습: 수동으로 다시 서명 하는 필요가 없고 브랜드 정보가 유지 되는 ClickOnce 응용 프로그램을 배포](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md)합니다.
 
 ### <a name="how-application-manifest-for-trust-works-at-runtime"></a>런타임 시 응용 프로그램 매니페스트 신뢰에 대 한 작동 원리
  런타임 시 응용 프로그램 매니페스트를 사용 하 여 신뢰의 작동 방식을 더 잘 이해를 가져오려면 다음 예제를 살펴보겠습니다. .NET Framework 3.5를 대상으로 하는 ClickOnce 응용 프로그램은 Microsoft에서 생성 됩니다. 사용 하 여 응용 프로그램 매니페스트는 `<useManifestForTrust>` 요소 Microsoft에서 서명 됩니다. Adventure Works는 자체 서명 된 인증서를 사용 하 여 배포 매니페스트를 서명 합니다. Adventure Works 클라이언트는 Microsoft에서 서명 하는 모든 응용 프로그램을 신뢰 하도록 구성 됩니다.
@@ -97,7 +97,7 @@ ClickOnce 배포를 만든 모든 개발자가 응용 프로그램 자체를 배
 
  이 방법의 단점은 고객은.NET Framework SDK tools를 설치 하 고 개발자 또는 시스템 관리자 사용에 능숙 할 필요 하다는 것입니다. 일부 고객은 솔루션에서 기술 작업이 거의 또는 전혀 필요을 요구할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [다시 서명 하지 않고 테스트 및 프로덕션 서버용 ClickOnce 응용 프로그램 배포](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md)
-- [연습: ClickOnce 애플리케이션 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
+- [연습: ClickOnce 응용 프로그램 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
 - [연습: 다시 서명할 필요가 없고 브랜드 정보가 유지되는 ClickOnce 애플리케이션 수동 배포](../deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md)

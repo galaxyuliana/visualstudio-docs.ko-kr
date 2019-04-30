@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 1efa919349535a2cb73ca80f2015ef0d0df93cd7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62928998"
 ---
 # <a name="debug-clickonce-applications-that-use-systemdeploymentapplication"></a>System.Deployment.Application을 사용하는 ClickOnce 애플리케이션 디버그
 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포를 사용 하면 응용 프로그램 업데이트 되는 방식을 구성할 수 있습니다. 그러나 사용 및 사용자 지정 하는 경우 고급 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 제공한 배포 개체 모델에 액세스 해야 배포 기능을 <xref:System.Deployment.Application>입니다. 사용할 수는 <xref:System.Deployment.Application> 와 같은 고급 작업에 대 한 Api:
@@ -76,5 +76,5 @@ ms.locfileid: "56637466"
 
    사용 하 여는 <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> 를 호출 하는 속성을 <xref:System.Deployment.Application> Api는 응용 프로그램을 배포 하는 경우에; Api 호출 되지 않도록에서 디버깅 하는 동안 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - <xref:System.Deployment.Application>

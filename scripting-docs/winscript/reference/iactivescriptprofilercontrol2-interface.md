@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 11987054ed934f4004333f136ea35696ff6c394f
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58147009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62993036"
 ---
 # <a name="iactivescriptprofilercontrol2-interface"></a>IActiveScriptProfilerControl2 인터페이스
 시작 하거나 스크립트를 실행 중일 때 프로 파일링을 중지 하는 기능을 추가 하는 메서드를 제공 합니다.  

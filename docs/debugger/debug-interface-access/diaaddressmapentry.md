@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 311762f4eafc8dad63da5854870f2836ee68b3ee
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56637089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554898"
 ---
 # <a name="diaaddressmapentry"></a>DiaAddressMapEntry
 주소 맵에서 항목을 설명 합니다.
@@ -36,7 +36,7 @@ struct DiaAddressMapEntry {
 
 `rvaTo` 상대 가상 주소 `rva` 이미지 2.에 매핑된
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 주소 지도 (A)에서 다른 (B) 하나 이미지 레이아웃에서 번역을 제공합니다. 배열을 `DiaAddressMapEntry` 기준으로 정렬 하는 구조 `rva` 주소 지도 정의 합니다.
 
 주소를 변환할 `addrA`, 주소는 그림과에서 `addrB`, B 이미지에서 다음 단계를 수행:

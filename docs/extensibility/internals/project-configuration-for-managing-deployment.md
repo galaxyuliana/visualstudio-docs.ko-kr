@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 6c9bf9dd71007e3a33a217a7ec30b357cd211b00
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56629679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909351"
 ---
 # <a name="project-configuration-for-managing-deployment"></a>배포 관리를 위한 프로젝트 구성
 배포는 물리적으로 디버깅 및 설치에 대 한 예상 되는 위치를 빌드 프로세스에서 출력 항목을 이동 하는 행위. 예를 들어, 웹 응용 프로그램을 로컬 컴퓨터에서 작성 및 서버에 배치 될 수 있습니다.

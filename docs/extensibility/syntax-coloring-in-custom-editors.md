@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: e5e627d758a1249a1e9b5e877255a67cfb255cf9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62799069"
 ---
 # <a name="syntax-coloring-in-custom-editors"></a>사용자 지정 편집기의 구문 색 지정
 핵심 편집기를 포함 하 여 visual Studio 환경 SDK 편집기를 특정 구문 항목을 식별 하 여 지정 된 문서 보기에 대 한 지정 된 색을 사용 하 여 표시할 언어 서비스를 사용 합니다.

@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: a1c0cc89c61665ce468457b64bbdd4b5d293649b
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58144253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62991448"
 ---
 # <a name="iapplicationdebugger-interface"></a>IApplicationDebugger 인터페이스
 디버거에 의해 노출 되는 기본 인터페이스입니다. 상속 된 메서드 외에도 `IUnknown`, `IApplicationDebugger` 인터페이스는 다음 메서드를 노출 합니다.  

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5ad74f92765ee449eab1e3089511a063e70d96a0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56617069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62831935"
 ---
 # <a name="idiastackwalker"></a>IDiaStackWalker
 스택 작업을 수행 하는 방법 설명 정보를 사용 하 여.pdb 파일에 제공 합니다.
@@ -36,7 +36,7 @@ IDiaStackWalker: IUnknown
 |[IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md)|X86에 대 한 스택 프레임 열거자를 검색 플랫폼입니다.|
 |[IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md)|특정 플랫폼 형식에 대 한 스택 프레임 열거자를 검색합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 인터페이스는 로드 된 모듈에 대 한 스택 프레임의 목록을 가져오는 데 사용 됩니다. 메서드에 전달 되는 [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md) 스택 프레임 목록을 만드는 데 필요한 정보를 제공 하는 개체 (클라이언트 응용 프로그램에서 구현 됨).
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

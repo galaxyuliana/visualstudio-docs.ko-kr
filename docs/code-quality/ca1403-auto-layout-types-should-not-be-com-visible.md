@@ -18,11 +18,11 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: fa965caf63dad6e81e2aeabbc93e97c7aa4b7a80
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62546201"
 ---
 # <a name="ca1403-auto-layout-types-should-not-be-com-visible"></a>CA1403: 자동 레이아웃 형식은 COM 노출이면 안 됩니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "55910872"
 
 ## <a name="rule-description"></a>규칙 설명
 
-<xref:System.Runtime.InteropServices.LayoutKind> 레이아웃 형식은 공용 언어 런타임에 의해 관리 됩니다. 이러한 형식의 레이아웃은 특정 레이아웃이 필요한 COM 클라이언트는.NET Framework의 버전 간에 변경 수 있습니다. 경우는 <xref:System.Runtime.InteropServices.StructLayoutAttribute> 특성을 지정 하지 않으면 C#, Visual Basic 및 c + + 컴파일러 지정 [LayoutKind.Auto](<xref:System.Runtime.InteropServices.LayoutKind.Auto>) 값 형식에 대 한 합니다.
+<xref:System.Runtime.InteropServices.LayoutKind> 레이아웃 형식은 공용 언어 런타임에 의해 관리 됩니다. 이러한 형식의 레이아웃은 특정 레이아웃이 필요한 COM 클라이언트는.NET Framework의 버전 간에 변경 수 있습니다. 경우는 <xref:System.Runtime.InteropServices.StructLayoutAttribute> 특성을 지정 하지 않으면 합니다 C#, Visual Basic의 경우 및 C++ 컴파일러 지정 [LayoutKind.Auto](<xref:System.Runtime.InteropServices.LayoutKind.Auto>) 값 형식에 대 한 합니다.
 
 그렇지 않은 경우에 표시 하지 않는 한 모든 public, 제네릭이 아닌 형식은 COM에 노출 하 고 모든 public이 아닌 제네릭 형식과 COM에 표시 되지 않습니다. 그러나 가양성을 줄이기 위해이 규칙에 명시적으로 지정할 형식의 COM 표시를 해야 합니다. 포함 하는 어셈블리 표시 되어야 합니다는 <xref:System.Runtime.InteropServices.ComVisibleAttribute?displayProperty=fullName> 로 설정 `false` 형식으로 표시 되어야 합니다 및는 <xref:System.Runtime.InteropServices.ComVisibleAttribute> 로 설정 `true`.
 

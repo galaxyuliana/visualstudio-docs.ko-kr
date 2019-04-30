@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 55ee5698ce1cb36a79a596124dedd681e6da4bdf
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56628652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62814627"
 ---
 # <a name="how-to-programmatically-delete-outlook-contacts"></a>방법: 프로그래밍 방식으로 Outlook 연락처 삭제
   이 예제에서는 연락처를 삭제합니다. 이 예제에서는 "Armando Pinto"라는 이름의 연락처가 **연락처** 폴더에 있다고 가정합니다.

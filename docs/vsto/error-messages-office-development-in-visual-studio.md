@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 6f00597c7d0cd55deb3a8747f6d23c658d83c2e4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56601077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62951985"
 ---
 # <a name="error-messages-office-development-in-visual-studio"></a>오류 메시지 (Visual Studio에서 Office 개발)
   각 오류 메시지 항목은 오류의 가능한 원인 및 잠재적인 해결책 또는 문제를 해결하기 위한 해결 방법에 대한 정보를 제공합니다.

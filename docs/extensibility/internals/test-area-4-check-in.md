@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 34d988f88787efc2f40b663ef2f22e6273055533
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60038714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62908819"
 ---
 # <a name="test-area-4-check-in"></a>테스트 영역 4: 체크 인
 이 소스 제어 플러그 인 테스트 영역에서는 업데이트 된 항목을 통해 버전 저장소에 전송 합니다 **체크 인** 명령입니다.

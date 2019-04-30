@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: fe83f00a96013ffcf7c5df2d47eb1ba7d7a0bae1
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58144916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62992825"
 ---
 # <a name="iactivescriptprofilerheapenum-interface"></a>IActiveScriptProfilerHeapEnum 인터페이스
 반복기는 힙의 개체에서 수집 하는 스크립트 엔진을 사용 하 여 연결 합니다 [IActiveScriptProfilerControl3::EnumHeap 메서드](../../winscript/reference/iactivescriptprofilercontrol3-enumheap-method.md)합니다.  

@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6e060f168ea301b898fe578ac0d5030a2ae7e774
-ms.sourcegitcommit: 87d7123c09812534b7b08743de4d11d6433eaa13
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57223704"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62937706"
 ---
 # <a name="map-dependencies-with-code-maps"></a>코드 맵 사용 하 여 종속성 매핑
 
@@ -38,7 +38,7 @@ ms.locfileid: "57223704"
 
 - Visual C# 또는 Visual Basic에서 솔루션이 나 어셈블리 (*.dll* 하거나 *.exe*)
 
-- Visual c + + 프로젝트의 경우 헤더 파일의 네이티브 또는 관리 되는 C 또는 c + + 코드 (*.h* 또는 `#include`), 또는 이진 파일
+- 네이티브 또는 관리 되는 C 또는 C++ 시각적 개체의 코드 C++ 프로젝트를 헤더 파일 (*.h* 하거나 `#include`), 또는 이진 파일
 
 - Microsoft Dynamics AX용 .NET 모듈의 X++ 프로젝트 및 어셈블리
 
@@ -185,7 +185,7 @@ Visual Studio에서 코드 맵을 만들려면 먼저 설치 합니다 **코드 
 
    맵에서 코드에 있지만 나타나지 멤버를 보려면 클릭 합니다 **페치** 아이콘 ![자식 다시 페치 아이콘](../modeling/media/dependencygraph_deletednodesicon.png) 그룹의 왼쪽된 위 모퉁이에서.
 
-6. 맵의 항목과 관련된 추가 항목을 확인하려면 항목을 선택하고, 코드 맵 도구 모음에서 **관련 항목 표시** 를 선택하고, 맵에 추가할 관련 항목 형식을 선택합니다. 또는 하나 이상의 항목을 선택 하 고, 바로 가기 메뉴를 열고 고, 선택한 합니다 **표시** 맵에 추가할 관련된 항목의 형식에 대 한 옵션입니다. 예를 들면,
+6. 맵의 항목과 관련된 추가 항목을 확인하려면 항목을 선택하고, 코드 맵 도구 모음에서 **관련 항목 표시** 를 선택하고, 맵에 추가할 관련 항목 형식을 선택합니다. 또는 하나 이상의 항목을 선택 하 고, 바로 가기 메뉴를 열고 고, 선택한 합니다 **표시** 맵에 추가할 관련된 항목의 형식에 대 한 옵션입니다. 예를 들어:
 
     **어셈블리**인 경우 다음을 선택합니다.
 

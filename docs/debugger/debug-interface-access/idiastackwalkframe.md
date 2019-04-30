@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 343c56e3d3175c26900b0cfb4cdc3d816a324404
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56630589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62831821"
 ---
 # <a name="idiastackwalkframe"></a>IDiaStackWalkFrame
 호출 사이의 스택 컨텍스트를 유지 관리 합니다 [idiaframedata:: Execute](../../debugger/debug-interface-access/idiaframedata-execute.md) 메서드.
@@ -39,7 +39,7 @@ IDiaStackWalkFrame : IUnknown
 |[IDiaStackWalkFrame::searchForReturnAddress](../../debugger/debug-interface-access/idiastackwalkframe-searchforreturnaddress.md)|가장 가까운 함수 반환 주소를 지정한 스택 프레임을 검색합니다.|
 |[IDiaStackWalkFrame::searchForReturnAddressStart](../../debugger/debug-interface-access/idiastackwalkframe-searchforreturnaddressstart.md)|지정한 스택 프레임이 나 지정된 된 주소 반환 주소를 검색합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  이 인터페이스는 읽기 및 등록 뿐만 아니라 메모리에 액세스 쓰고 반환 주소를 확인 프로그램 실행 중 사용 됩니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

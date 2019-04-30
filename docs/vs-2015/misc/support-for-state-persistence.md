@@ -12,11 +12,11 @@ ms.assetid: d25866f2-8d1f-477f-8aa5-3af3fbbf6e97
 caps.latest.revision: 15
 manager: jillfra
 ms.openlocfilehash: 6dc542d2e410b79a21e436a1881c06bd3cc4eef8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62434321"
 ---
 # <a name="support-for-state-persistence"></a>상태 지속성 지원
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 공통 개체의 상태를 유지할 수 있습니다. 예를 들어, 솔루션 및 프로젝트 속성에 저장 되며 솔루션 및 프로젝트 파일에서 복원 됩니다. 사용자 설정을 내보내고 설정 파일에서 가져올 수 있습니다.  

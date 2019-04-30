@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: bb8cf959d5f1d915f5614dc2b92d74a603493f7e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62955978"
 ---
 # <a name="data-in-office-solutions"></a>Office 솔루션의 데이터
   많은 Office 솔루션에서 사용자는 데이터를 검색하거나 수정할 수 있도록 합니다. Visual Studio를 사용하여 Office 솔루션을 만드는 경우 데이터로 작업할 수 있는 여러 가지 방법이 있습니다.

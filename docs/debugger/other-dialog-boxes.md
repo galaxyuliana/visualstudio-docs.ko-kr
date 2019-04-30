@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6eda65a49fce09dbbb085da7258a8536484af174
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56677580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62905108"
 ---
 # <a name="other-dialog-boxes"></a>기타 대화 상자
 이러한 대화 상자는 Spy + + 프로그램에 대 한 정보를 표시합니다.

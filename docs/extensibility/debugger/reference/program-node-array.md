@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 9af33dd296c222a6ab187097437e3774d2bbdbd4
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56684015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62913446"
 ---
 # <a name="programnodearray"></a>PROGRAM_NODE_ARRAY
 흥미로운 프로그램을 설명 하는 개체의 배열을 포함 합니다.

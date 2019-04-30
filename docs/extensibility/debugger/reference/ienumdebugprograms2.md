@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: a37ad954202910930ff06c8206e66c0594a8d1d8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62914394"
 ---
 # <a name="ienumdebugprograms2"></a>IEnumDebugPrograms2
 이 인터페이스는 현재 디버그 세션에서 실행 중인 프로그램을 열거 합니다.

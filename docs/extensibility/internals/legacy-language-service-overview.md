@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 2292c80c01bcc94b04842c1f77f92226705873eb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62860048"
 ---
 # <a name="legacy-language-service-overview"></a>레거시 언어 서비스 개요
 언어 서비스 제공 하는 특정 구현 하면 편집기 지 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 기능입니다. 자주 사용 하는 기능 및 기타 기능에 대 한 부분 지원에 대 한 전체 지원을 제공 하는 관리 패키지 프레임 워크 (MPF) 언어 서비스 클래스.

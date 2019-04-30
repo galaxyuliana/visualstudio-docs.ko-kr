@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 3cd8043648586ed3c614cbb137e51d992d7ae29b
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58145780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62992459"
 ---
 # <a name="iactivescriptsitedebug-interface"></a>IActiveScriptSiteDebug 인터페이스
 스마트 호스트를 구현 하는 `IActiveScriptSiteDebug` 문서 관리를 수행 하 고 디버깅에 참여 하는 인터페이스입니다. 합니다 `IActiveScriptSite` 개체에는 일반적으로의 구현을 제공 합니다 `IActiveScriptSiteDebug` 인터페이스입니다. 이 작업을 호출 합니다 `IActiveScriptSite::QueryInterface` 메서드를 `IActiveScriptSiteDebug` 인터페이스입니다.  

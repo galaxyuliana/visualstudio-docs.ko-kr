@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: e6ef6df6419f43201555f1dcc275b44d2a0e9737
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56685742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62917790"
 ---
 # <a name="idebugprocess2"></a>IDebugProcess2
 이 인터페이스는 포트에서 실행 되는 프로세스를 나타냅니다. 포트의 경우 로컬 포트에 다음 `IDebugProcess2` 일반적으로 로컬 컴퓨터의 실제 프로세스를 나타냅니다.

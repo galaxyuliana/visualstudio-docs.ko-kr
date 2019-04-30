@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: d329e08e6a17d9edcdf26e14b468c3c56f036c00
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58154402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935694"
 ---
 # <a name="iactivescriptgetscriptthreadid"></a>IActiveScript::GetScriptThreadID
 지정 된 Win32 스레드와 연결 된 스레드에 대 한 스크립팅 엔진 정의 식별자를 검색 합니다.  

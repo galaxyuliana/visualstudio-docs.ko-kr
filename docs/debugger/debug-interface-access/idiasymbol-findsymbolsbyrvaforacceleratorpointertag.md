@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 673ca8137244fed933df0be3fa0221115951a9c1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56618109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838999"
 ---
 # <a name="idiasymbolfindsymbolsbyrvaforacceleratorpointertag"></a>IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag
 이 메서드 해당 태그 값을 지정 합니다 지정된 된 상대 가상 주소에서이 스텁 함수에 포함 된 기호의 열거형을 반환 합니다.
@@ -45,7 +45,7 @@ HRESULT findSymbolsByRVAForAcceleratorPointerTag (
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  경우에이 메서드를 호출는 `IDiaSymbol` Accelerator 스텁 함수에 해당 하는 인터페이스입니다.
 
 ## <a name="see-also"></a>참고 항목

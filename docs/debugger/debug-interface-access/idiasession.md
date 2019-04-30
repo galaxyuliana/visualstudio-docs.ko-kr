@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: c69383eacfdb39a65cd9a791185d6793e9e6f681
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62832309"
 ---
 # <a name="idiasession"></a>IDiaSession
 디버그 기호에 대 한 쿼리 컨텍스트를 제공 합니다.
@@ -34,7 +34,7 @@ IDiaSession : IUnknown
 |메서드|설명|
 |------------|-----------------|
 |[IDiaSession::get_loadAddress](../../debugger/debug-interface-access/idiasession-get-loadaddress.md)|이 기호 저장소의 기호에 해당 하는 실행 파일의 로드 주소를 검색 합니다. 이 전달 된 값과 동일 합니다 `put_loadAddress` 메서드.|
-|[IDiaSession::put_loadAddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md)|이 기호 저장소에 기호에 해당 하는 실행 파일의 로드 주소를 설정 합니다. **참고:** 가져올 때이 메서드를 호출 해야는 `IDiaSession` 개체 및 개체를 사용 하 여을 시작 하기 전에 합니다.|
+|[IDiaSession::put_loadAddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md)|이 기호 저장소에 기호에 해당 하는 실행 파일의 로드 주소를 설정 합니다. **참고:**  가져올 때이 메서드를 호출 해야는 `IDiaSession` 개체 및 개체를 사용 하 여을 시작 하기 전에 합니다.|
 |[IDiaSession::get_globalScope](../../debugger/debug-interface-access/idiasession-get-globalscope.md)|전역 범위에 대 한 참조를 검색합니다.|
 |[IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)|기호 저장소에 포함 된 모든 테이블에 대 한 열거자를 검색 합니다.|
 |[IDiaSession::getSymbolsByAddr](../../debugger/debug-interface-access/idiasession-getsymbolsbyaddr.md)|정적 위치에 있는 모든 명명 된 기호에 대 한 열거자를 검색합니다.|
@@ -70,7 +70,7 @@ IDiaSession : IUnknown
 |[IDiaSession::findAcceleratorInlineesByName](../../debugger/debug-interface-access/idiasession-findacceleratorinlineesbyname.md)|지정 된 인라인 함수 이름에 해당 하는 인라인 프레임에 대 한 기호의 열거형을 반환 합니다.|
 |[IDiaSession::findAcceleratorInlineesByLinenum](../../debugger/debug-interface-access/idiasession-findacceleratorinlineesbylinenum.md)|지정한 원본 위치에 해당 하는 인라인 프레임에 대 한 기호의 열거형을 반환 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 호출 해야 합니다 [idiasession:: Put_loadaddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md) 메서드를 만든 후를 `IDiaSession` 개체-및 전달 되는 값을 `put_loadAddress` 메서드는 0이 아닌 값 이어야 합니다.-기호 수의 가상 주소 (VA) 속성에 대 한 액세스할 수 있습니다. 원하는 프로그램 로드 디버깅 중인 실행 파일의 로드 주소 제공 됩니다. 예를 들어 Win32 함수를 호출할 수 있습니다 `GetModuleInformation` 검색할 실행 파일의 로드 주소 실행 파일에 대 한 핸들을 지정 합니다.
 
 ## <a name="example"></a>예제

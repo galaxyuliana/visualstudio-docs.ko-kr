@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 069a9ce5f3126550f54a5d2780411f6832acee83
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62994541"
 ---
 # <a name="export-diagrams-as-images"></a>다이어그램을 이미지로 내보내기
 Visual Studio에서의 모델링 다이어그램 읽기 전용 형식 이해 관계자, 사용자 또는 같은 버전의 Visual Studio를 사용 하지 않는 프로젝트 팀 멤버와 공유할 수 있도록 저장할 수 있습니다.

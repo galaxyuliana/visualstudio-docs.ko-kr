@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 6b1d461419497a0a45f50f12589cf3ac978a7666
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967359"
 ---
 # <a name="extend-the-sharepoint-connections-node-in-server-explorer"></a>서버 탐색기에서 SharePoint 연결 노드 확장
   Visual Studio에서 있습니다 수 개발 컴퓨터의 로컬 SharePoint 사이트를 사용 하 여 연결 합니다 **SharePoint 연결** 에서 노드를 **서버 탐색기** 창입니다. 이 노드는 계층적 트리 보기에서 다양 한 로컬 SharePoint 사이트의 구성 요소를 표시합니다. 예를 들어, 로컬 사이트에서 목록, 문서 라이브러리 및 콘텐츠 형식을 볼 수 있습니다. 사용에 대 한 자세한 내용은 **서버 탐색기** 로컬 SharePoint 사이트에 연결 하려면 참조 [서버 탐색기를 사용 하 여 찾아보기 SharePoint 연결](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)합니다.

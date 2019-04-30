@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 050af194c9fbdcabf99a880a0e9c5c4bf8913a3a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55946169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62823946"
 ---
 # <a name="run-time-text-generation-with-t4-text-templates"></a>T4 텍스트 템플릿을 사용하여 런타임 텍스트 생성
 
@@ -217,7 +217,7 @@ System.IO.File.WriteAllText("outputPage.html", pageContent);
 
 #### <a name="constructor-parameters-in-visual-basic"></a>Visual Basic의 생성자 매개 변수
 
-Visual Basic의 경우 별도 파일 **MyWebPageCode.vb** 포함 되어 있습니다.
+Visual basic의 경우 별도 파일 **MyWebPageCode.vb** 포함 되어 있습니다.
 
 ```vb
 Namespace My.Templates

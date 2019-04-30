@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: d5d1acc40b23c979a5746c50be50a584d11112b5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966915"
 ---
 # <a name="how-to-add-and-remove-mapped-folders"></a>방법: 매핑된 폴더 추가 및 제거
   일부 이미지 및 레이아웃 파일 계층 구조에 중첩 되어 같은 폴더 SharePoint에서 일반적으로 사용 합니다. 보다 쉽게 액세스 하려면 SharePoint 프로젝트에 이러한 폴더를 매핑할 수 있습니다. 매핑된 폴더는 SharePoint 프로젝트에 SharePoint 서버의 설치 파일의 실제 위치에 해당 하는입니다.

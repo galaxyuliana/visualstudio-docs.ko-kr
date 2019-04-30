@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a2f6e4ae90dbd36dab4f4df7f72d5ecf57ee04b1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62927334"
 ---
 # <a name="ltschedulesgt-element-bootstrapper"></a>&lt;일정&gt; 요소 (부트스트래퍼)
 `Schedules` 요소에 포함 되어 `Schedule` 특정 시간의 정의한 명령 정의 하는 요소는 `Command` 요소를 실행 해야 합니다.
@@ -62,6 +62,6 @@ ms.locfileid: "56639429"
 ## <a name="afterpackage"></a>AfterPackage
  `AfterPackage` 요소 설치 관리자를 지정된 된 패키지를 설치한 후 명령을 실행 하도록 지시 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [\<제품 > 요소](../deployment/product-element-bootstrapper.md)
 - [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)

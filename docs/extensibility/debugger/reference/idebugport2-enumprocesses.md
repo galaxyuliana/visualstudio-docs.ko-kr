@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 0a57768a1e4a6176fc5485971bc6a2ad32701ec7
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56694064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62871890"
 ---
 # <a name="idebugport2enumprocesses"></a>IDebugPort2::EnumProcesses
 포트에서 실행 중인 모든 프로세스의 목록을 반환 합니다.

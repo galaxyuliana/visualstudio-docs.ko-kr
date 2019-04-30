@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: a42cf4b76f4de6d4170f7ef85dafc00841964cfc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064906"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63006423"
 ---
 # <a name="regular-expression-object-expected"></a>정규식 개체가 필요합니다.
 호출 하려고 합니다 **RegExp.prototype.toString** 또는 **RegExp.prototype.valueOf** 이외의 다른 형식의 개체의 메서드를 `RegExp`입니다. 이 형식의 호출 개체 유형 이어야 `RegExp`합니다.  

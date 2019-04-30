@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ec5fea99994b891250dad85cfc43320848df98f9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62555106"
 ---
 # <a name="cvcalle"></a>CV_call_e
 함수의 호출 규칙을 지정 합니다.
@@ -51,7 +51,7 @@ CV_CALL_THISCALL 사용 하 여 함수 호출 규칙 지정 `this` 호출 (`this
 
 CV_CALL_CLRCALL에서 언어 런타임 (CLR (공용) (라고도 하며 관리 되는 코드를 호출 규칙)를 사용 하는 함수 호출 규칙을 지정 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 열거형의 값에는 호출에서 반환 되는 [idiasymbol:: Get_callingconvention](../../debugger/debug-interface-access/idiasymbol-get-callingconvention.md) 메서드.
 
 ## <a name="requirements"></a>요구 사항

@@ -9,13 +9,13 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 0526f08e1bbffb0a4dc8729e2b180ad9efe319ff
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62565175"
 ---
-# <a name="warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied"></a>경고: 동작 구성 대화 상자에 적용되지 않은 변경이 있음
+# <a name="warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied"></a>경고: 동작 구성 대화 상자에 적용되지 않은 변경 내용이 있습니다.
 
 경고. 동작 구성 대화 상자에 적용되지 않은 변경 내용이 있습니다. 변경 내용을 적용하시겠습니까?
 
@@ -27,7 +27,7 @@ ms.locfileid: "55936566"
 
 - 이전 변경 내용을 취소 하 고 계속 하려면 클릭 **No**합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [O/R 디자이너 메시지](../data-tools/o-r-designer-messages.md)
 - [Visual Studio의 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

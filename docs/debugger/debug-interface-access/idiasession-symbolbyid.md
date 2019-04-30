@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9b58fcf55741975a776e222b2845ae50774e7fc9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62832916"
 ---
 # <a name="idiasessionsymbolbyid"></a>IDiaSession::symbolById
 해당 고유 식별자로 기호를 검색합니다.
@@ -43,7 +43,7 @@ HRESULT symbolById (
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 지정된 된 식별자에는 모든 기호를 고유 하 게 DIA SDK에 의해 내부적으로 사용 되는 고유 값입니다.
 
 이 방법을 사용할 수, 예를 들어, 다른 기호 유형을 나타내는 기호를 검색할 (예제 참조).

@@ -8,11 +8,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: dfbe77f5b6e2bbda6a51d392c4dd16b079100e81
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55952387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62856250"
 ---
 # <a name="t4-output-directive"></a>T4 Output 지시문
 
@@ -50,7 +50,7 @@ Visual Studio 텍스트 템플릿에서 `output` 지시문은 변환된 된 파�
  허용되는 값: 유효한 모든 파일 이름 확장명
 
 ## <a name="encoding-attribute"></a>인코딩 특성
- 출력 파일을 생성할 때 사용할 인코딩을 지정합니다. 예를 들면 다음과 같습니다.
+ 출력 파일을 생성할 때 사용할 인코딩을 지정합니다. 예를 들어:
 
  `<#@ output encoding="utf-8"#>`
 

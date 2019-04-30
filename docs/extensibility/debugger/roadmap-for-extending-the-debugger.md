@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: e02bfd8b528c484518816589f4f3e0e19bfa8c94
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56687525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62913198"
 ---
 # <a name="roadmap-for-extending-the-debugger"></a>디버거 확장 로드맵
 이 설명서에서는 확장에 대 한 가이드 및 참조 정보를 제공 합니다 [!INCLUDE[vs_current_short](../../code-quality/includes/vs_current_short_md.md)] 사용 하 여 디버거를 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]입니다.
@@ -25,7 +25,7 @@ ms.locfileid: "56687525"
 
  컴파일러 및 해당 출력 제품에 디버깅을 설정 하는 데 필요한 항목을 결정 합니다. 경우에 컴파일러.
 
-- Windows 기본 운영 체제를 대상으로 하 고 기록 된 *합니다. PDB* 파일에 통합 된 네이티브 코드 디버그 엔진 (DE)를 사용 하 여 프로그램을 디버깅할 수 있습니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. DE 또는 식 계산기를 구현 하지 않아도 됩니다. 식 계산기는 c + + 프로그래밍 언어의 구문에 대 한 기록 됩니다.
+- Windows 기본 운영 체제를 대상으로 하 고 기록 된 *합니다. PDB* 파일에 통합 된 네이티브 코드 디버그 엔진 (DE)를 사용 하 여 프로그램을 디버깅할 수 있습니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. DE 또는 식 계산기를 구현 하지 않아도 됩니다. 식 계산기 구문의 기록 되는 C++ 프로그래밍 언어입니다.
 
 - Microsoft에도 통합 되어 관리 코드 디버그 엔진 DE, 프로그램을 디버깅할 수 있습니다 하는 MSIL (intermediate language)가 출력 생성 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 따라서 식 계산기를 구현만 필요 합니다. 샘플 식 계산기 제공 됩니다. 자세한 내용은 다음 항목을 참조하세요.
 

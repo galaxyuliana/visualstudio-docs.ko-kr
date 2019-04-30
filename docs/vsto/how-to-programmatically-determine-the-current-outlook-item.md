@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 5566538b428502c8e63e752463b0271daeac2918
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62814821"
 ---
 # <a name="how-to-programmatically-determine-the-current-outlook-item"></a>방법: 프로그래밍 방식으로 현재 Outlook 항목 확인
   이 예제에서는 `Explorer.SelectionChange` 이름 현재 폴더 및 선택한 항목에 대 한 정보를 표시 하는 이벤트입니다. 다음 코드는 선택한 항목을 표시 합니다.

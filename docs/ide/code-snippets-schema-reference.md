@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3a57ff548aeb566605802a0e270534df727a7c0f
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 034fd1f31b24dce2d8ecc3d805b78c35c8498d6c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56841859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974984"
 ---
 # <a name="code-snippets-schema-reference"></a>코드 조각 스키마 참조
 
@@ -320,9 +320,6 @@ IntelliSense 코드 조각에 대한 일반 정보를 지정합니다.
 
 IntelliSense 코드 조각에서 사용되는 가져온 네임스페이스를 지정합니다.
 
-> [!NOTE]
-> `Import` 요소는 Visual Basic 프로젝트에서만 지원됩니다.
-
 ```xml
 <Import>
     <Namespace>... </Namespace>
@@ -340,9 +337,6 @@ IntelliSense 코드 조각에서 사용되는 가져온 네임스페이스를 �
 ## <a name="imports-element"></a>Imports 요소
 
 개별 `Import` 요소를 그룹화합니다.
-
-> [!NOTE]
-> `Imports` 요소는 Visual Basic 프로젝트에서만 지원됩니다.
 
 ```xml
 <Imports>
@@ -425,10 +419,7 @@ IntelliSense 코드 조각에서 사용되는 가져온 네임스페이스를 �
 
 ## <a name="namespace-element"></a>Namespace 요소
 
-코드 조각이 컴파일 및 실행될 수 있도록 가져와야 하는 네임스페이스를 지정합니다. `Namespace` 요소에 지정된 네임스페이스가 아직 없는 경우 코드의 시작 부분에 있는 `Imports` 문에 자동으로 추가됩니다.
-
-> [!NOTE]
-> `Namespace` 요소는 Visual Basic 프로젝트에서만 지원됩니다.
+코드 조각이 컴파일 및 실행될 수 있도록 가져와야 하는 네임스페이스를 지정합니다. `Namespace` 요소에 지정된 네임스페이스가 아직 없는 경우 코드의 시작 부분에 있는 `using` 지시문 또는 `Imports` 문에 자동으로 추가됩니다.
 
 ```xml
 <Namespace>
@@ -569,11 +560,11 @@ Visual Studio에서 코드 조각을 삽입하는 방법을 지정합니다.
 
 텍스트 값은 다음 값 중 하나여야 합니다.
 
--   `SurroundsWith`: 코드 조각을 선택된 코드 부분 주위에 배치할 수 있습니다.
+- `SurroundsWith`: 코드 조각을 선택된 코드 부분 주위에 배치할 수 있습니다.
 
--   `Expansion`: 코드 조각을 커서 위치에 삽입할 수 있습니다.
+- `Expansion`: 코드 조각을 커서 위치에 삽입할 수 있습니다.
 
--   `Refactoring`: C# 리팩터링 동안 코드 조각이 사용되도록 지정합니다. 사용자 지정 코드 조각에서는 `Refactoring`을 사용할 수 없습니다.
+- `Refactoring`: C# 리팩터링 동안 코드 조각이 사용되도록 지정합니다. 사용자 지정 코드 조각에서는 `Refactoring`을 사용할 수 없습니다.
 
 ## <a name="snippettypes-element"></a>SnippetTypes 요소
 

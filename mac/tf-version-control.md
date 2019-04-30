@@ -8,11 +8,11 @@ ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 ms.openlocfilehash: d98ffc8c9d864afaf0b42d029a4d65850f64d806
-ms.sourcegitcommit: 0e22ead8234b2c4467bcd0dc047b4ac5fb39b977
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "59366161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62972825"
 ---
 # <a name="connecting-to-team-foundation-version-control"></a>Team Foundation 버전 제어에 연결
 
@@ -58,7 +58,7 @@ TEE-CLC를 사용하여 설정하는 두 가지 방법이 있습니다.
 
 1. macOS 터미널 애플리케이션을 시작합니다.
 1. 터미널 및 [Homebrew 홈페이지](https://brew.sh/)의 지침을 사용하여 Homebrew를 설치합니다.
-1. Homebrew가 설치되면 터미널에서 다음 명령을 실행합니다. `brew install tee-clc`
+1. Homebrew가 설치되면 터미널에서 다음 명령을 실행합니다.`brew install tee-clc`
 
 **TEE-CLC를 수동으로 설정**하려면 다음을 수행합니다.
 
@@ -196,7 +196,7 @@ TFS에 연결하려면 서버 세부 정보와 계정 자격 증명을 입력합
 - 파일 잠금 및 잠금 해제
 - 추가, 삭제 및 파일 이름 바꾸기
 - 기록 보기
-- 변경 내용 비교
+- 변경 내용 비교.
 
 이러한 작업 중 대부분은 프로젝트의 컨텍스트 작업을 통해 수행할 수 있습니다.
 

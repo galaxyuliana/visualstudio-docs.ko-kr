@@ -11,18 +11,18 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: c7d22e191eecb3c650744c6ddbaa815de479752a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56719784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62800157"
 ---
 # <a name="source-control-plug-in-api-functions"></a>소스 제어 플러그 인 API 함수
 원본 제어 플러그 인 API는이 API에 따라 플러그 인 소스 컨트롤에 의해 구현 되어야 하는 다음 함수를 제공 합니다. 비트 플래그를 사용 하 여 연결 된 각 함수와 의미 체계의 서명 및 다른 매개 변수는이 문서에 자세히 설명 합니다.
 
 ## <a name="initialization-and-housekeeping-functions"></a>초기화 및 정리 작업 기능
 
-|기능|설명|
+|함수|설명|
 |--------------|-----------------|
 |[SccCloseProject](../extensibility/scccloseproject-function.md)|프로젝트를 닫습니다.|
 |[SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)|지정 된 명령에 대 한 고급 옵션에 대 한 사용자를 묻습니다.|
@@ -34,7 +34,7 @@ ms.locfileid: "56719784"
 
 ## <a name="core-source-control-functions"></a>코어 원본 제어 함수
 
-|기능|설명|
+|함수|설명|
 |--------------|-----------------|
 |[SccAdd](../extensibility/sccadd-function.md)|소스 제어 시스템의 정규화 된 경로 이름으로 지정 된 파일의 배열을 추가 합니다.|
 |[SccAddFromScc](../extensibility/sccaddfromscc-function.md)|소스 제어 시스템에 이미 있는 파일을 찾아볼 수 있도록 하 고 현재 프로젝트의 일부인 이러한 파일을 확인 합니다.|
@@ -56,7 +56,7 @@ ms.locfileid: "56719784"
 ## <a name="functions-that-support-additional-capability-version-12-of-the-source-control-plug-in-api"></a>추가 기능 (소스 제어 플러그 인 API 버전 1.2)를 지 원하는 함수
  이 그룹의 함수는 원본 제어 플러그 인 API 버전 1.2에에서 포함 된 추가 기능을 정의 합니다. 고급 소스 제어 기능 및 기능에 대 한 액세스를 제공 합니다.
 
-|기능|설명|
+|함수|설명|
 |--------------|-----------------|
 |[SccBeginBatch](../extensibility/sccbeginbatch-function.md)|일괄 처리 작업을 시작합니다.|
 |[SccCreateSubProject](../extensibility/scccreatesubproject-function.md)|기존 부모 프로젝트에서 지정 된 이름의 하위 프로젝트를 만듭니다.|
@@ -70,7 +70,7 @@ ms.locfileid: "56719784"
 ## <a name="functions-that-support-advanced-capability-version-13-of-the-source-control-plug-in-api"></a>고급 기능 (소스 제어 플러그 인 API 버전 1.3)을 지 원하는 함수
  이 그룹의 함수는 원본 제어 플러그 인 API 버전 1.3에서에서 포함 된 추가 기능을 정의 합니다. 고급 소스 제어 기능 및 기능에 대 한 액세스를 제공 합니다.
 
-|기능|설명|
+|함수|설명|
 |--------------|-----------------|
 |[SccAddFilesFromSCC](../extensibility/sccaddfilesfromscc-function.md)|현재 프로젝트에 소스 제어에서 파일 목록을 추가합니다.|
 |[SccBackgroundGet](../extensibility/sccbackgroundget-function.md)|사용자 인터페이스 없이 소스 제어에서 파일의 목록을 검색합니다.|

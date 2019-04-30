@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 780c5ff6a8dcac69ed1aa99464269d58366f1f7e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56706966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62877106"
 ---
 # <a name="idebugbreakpointboundevent2"></a>IDebugBreakpointBoundEvent2
 이 인터페이스는 보류 중인 중단점이 성공적으로 연결 로드 프로그램 세션 디버그 관리자 SDM ()를 알려 줍니다.

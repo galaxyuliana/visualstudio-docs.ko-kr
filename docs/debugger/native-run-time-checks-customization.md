@@ -23,11 +23,11 @@ manager: jillfra
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 66591308c2b0c59cf310d3957131f80191cc51c3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56723593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62905488"
 ---
 # <a name="native-run-time-checks-customization"></a>네이티브 런타임 검사 사용자 지정
 로 컴파일할 때 **/RTC** (런타임 검사) 사용 하 여 또는 `runtime_checks` pragma를 C 런타임 라이브러리 네이티브 런타임 검사를 제공 합니다. 다음과 같은 경우에는 CRT 런타임 검사를 사용자 지정할 수도 있습니다.
@@ -40,7 +40,7 @@ ms.locfileid: "56723593"
 
   런타임 오류 검사를 사용자 지정하는 방법은 다음과 같습니다.
 
-- 런타임 오류 보고 함수를 작성합니다. 자세한 내용은 [방법: 런타임 오류 보고 함수 작성](../debugger/how-to-write-a-run-time-error-reporting-function.md)합니다.
+- 런타임 오류 보고 함수를 작성합니다. 자세한 내용은 [방법: 런타임 오류 보고 함수 작성](../debugger/how-to-write-a-run-time-error-reporting-function.md)을 참조하세요.
 
 - 오류 메시지 대상을 사용자 지정합니다.
 
@@ -55,6 +55,6 @@ ms.locfileid: "56723593"
  `_RTC_NumErrors`는 런타임 오류 검사에서 발견된 오류 형식의 수를 반환합니다. 각 오류에 대한 간단한 설명을 보려면 0에서 `_RTC_NumErrors` 반환 값까지 반복하면서 반복 값을 각 루프의 `_RTC_GetErrDesc`로 전달합니다. 자세한 내용은 [_RTC_NumErrors](/cpp/c-runtime-library/reference/rtc-numerrors) 하 고 [_RTC_GetErrDesc](/cpp/c-runtime-library/reference/rtc-geterrdesc)합니다.
 
 ## <a name="see-also"></a>참고 항목
-- [방법: 네이티브 런타임 검사 기능 사용](../debugger/how-to-use-native-run-time-checks.md)
+- [방법: 네이티브 런타임 검사 사용](../debugger/how-to-use-native-run-time-checks.md)
 - [runtime_checks](/cpp/preprocessor/runtime-checks)
 - [_CrtDbgReport, _CrtDbgReportW](/cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw)

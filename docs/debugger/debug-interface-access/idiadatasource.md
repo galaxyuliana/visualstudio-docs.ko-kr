@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 8b8618cc3484584430bbe3ae3fde59b6e5d5fc78
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838521"
 ---
 # <a name="idiadatasource"></a>IDiaDataSource
 디버깅 기호가 소스에 액세스를 시작 합니다.
@@ -40,7 +40,7 @@ IDiaDataSource : IUnknown
 |[IDiaDataSource::loadDataFromIStream](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md)|메모리 내 데이터 스트림을 통해 액세스 하 여 프로그램 데이터베이스 (.pdb) 파일에 저장 된 디버그 데이터를 준비 합니다.|
 |[IDiaDataSource::openSession](../../debugger/debug-interface-access/idiadatasource-opensession.md)|기호를 쿼리 하는 것에 대 한 세션을 엽니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 load 메서드 중 하나를 호출 하 여 `IDiaDataSource` 인터페이스 사용 하면 기호 원본이 열립니다. 호출에 성공한를 [idiadatasource:: Opensession](../../debugger/debug-interface-access/idiadatasource-opensession.md) 메서드가 반환 되는 [IDiaSession](../../debugger/debug-interface-access/idiasession.md) 데이터 원본 쿼리를 지 원하는 인터페이스입니다. Load 메서드 파일 관련 오류를 반환 하는 경우 해당 [idiadatasource:: Get_lasterror](../../debugger/debug-interface-access/idiadatasource-get-lasterror.md) 메서드 반환 값은 오류와 관련 된 파일 이름을 포함 합니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

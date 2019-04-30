@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: c6ebcfec9764aae98f7d74ac98e0c88ecec7c4da
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62992761"
 ---
 # <a name="iactivescriptsitegetlcid"></a>IActiveScriptSite::GetLCID
 호스트의 사용자 인터페이스와 연결 된 로캘 식별자를 검색 합니다. 스크립팅 엔진의 식별자를 사용 하 여 오류 문자열 및 기타 사용자 인터페이스 요소를 엔진에 의해 생성 된 해당 언어로 표시 되도록 합니다.  

@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: e7a0e1e616fdee2dac58c8a5a1d24ed120b28bc2
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58152563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62991968"
 ---
 # <a name="iactivescriptstats-interface"></a>IActiveScriptStats 인터페이스
 호스트를를 실행 중인 스크립트의 통계를 쿼리할 수 있습니다. 호스트는이 정보를 사용 하 여 경우 스크립트에서 너무 오래 걸렸습니다. 결정할 수 있습니다.  

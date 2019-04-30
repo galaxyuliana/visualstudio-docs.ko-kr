@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 1ad60503c9f7b15bd4665fb8f9552864debc381d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56609581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909215"
 ---
 # <a name="model-for-source-control-packages"></a>소스 제어 패키지 모델
 다음 모델은 원본 제어 구현 예를 나타냅니다. 모델에서 구현 해야 하는 인터페이스 및 환경 서비스를 호출 해야 하는 것이 표시 됩니다. 모든 서비스와 마찬가지로 실제로 서비스를 통해 가져와야 하는 특정 인터페이스의 메서드를 호출 합니다. 클래스의 이름은 쉽게 소스 제어를 수행 하는 방법을 확인할 수 있도록 식별 됩니다.

@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 10dc439946cb209c9a8d8e0c5ff50a7e8cfe5363
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57869320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62797664"
 ---
 # <a name="enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-the-microsoft-office-system-project"></a>만들거나 Visual Studio Tools for the Microsoft Office system 프로젝트를 열고는 VBA에 대 한 액세스를 사용 하도록 설정
 

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 604c68ef82f66358238f94b43f000fae24a076f1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56616835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62834154"
 ---
 # <a name="idiatable"></a>IDiaTable
 DIA 데이터 원본 테이블을 열거합니다.
@@ -38,7 +38,7 @@ IDiaTable : IEnumUnknown
 |[IDiaTable::get_Count](../../debugger/debug-interface-access/idiatable-get-count.md)|테이블에서 항목을 검색합니다.|
 |[IDiaTable::Item](../../debugger/debug-interface-access/idiatable-item.md)|특정 항목 인덱스에 대 한 참조를 검색합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 인터페이스를 구현 하는 `IEnumUnknown` Microsoft.VisualStudio.OLE.Interop 네임 스페이스에서 열거형 메서드. `IEnumUnknown` 열거형 인터페이스 보다 목차를 반복 하기 위한 훨씬 더 효율적입니다 합니다 [idiatable:: Get_count](../../debugger/debug-interface-access/idiatable-get-count.md) 하 고 [idiatable:: Item](../../debugger/debug-interface-access/idiatable-item.md) 메서드.
 
 해석은 합니다 `IUnknown` 인터페이스 중 하나에서 반환 된를 `IDiaTable::Item` 메서드 또는 `Next` (Microsoft.VisualStudio.OLE.Interop 네임 스페이스)에서 메서드는 테이블의 유형에 따라 달라 집니다. 예를 들어 경우는 `IDiaTable` 인터페이스 삽입된 원본 목록을 나타냅니다는 `IUnknown` 인터페이스를 쿼리해야 합니다 [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md) 인터페이스.

@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - uwp
 ms.openlocfilehash: 972f52583704b3116066114986948af643069a0d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62851673"
 ---
 # <a name="debug-universal-windows-apps-uwp-in-visual-studio"></a>유니버설 Windows 앱 (UWP) Visual Studio에서 디버그
 

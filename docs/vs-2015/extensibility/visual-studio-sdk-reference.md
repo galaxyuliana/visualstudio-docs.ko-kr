@@ -12,11 +12,11 @@ caps.latest.revision: 32
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: a0f3380622f20e8518eed8ea2a8071518fe4a099
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62537435"
 ---
 # <a name="visual-studio-sdk-reference"></a>Visual Studio SDK 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -188,13 +188,13 @@ ms.locfileid: "59002664"
  Visual Studio 자동화에 사용 됩니다.  
   
  <xref:Microsoft.VisualStudio.VCCodeModel>  
- Visual c + + 프로젝트 자동화에 사용 됩니다.  
+ 시각적 개체에 사용 되는 C++ 프로젝트 자동화 합니다.  
   
  <xref:Microsoft.VisualStudio.VCProject>  
- Visual c + + 프로젝트 자동화에 사용 되는 클래스입니다.  
+ 시각적 개체에 사용 되는 클래스 C++ 프로젝트 자동화 합니다.  
   
  <xref:Microsoft.VisualStudio.VCProjectEngine>  
- Visual c + + 프로젝트 자동화에 사용 됩니다.  
+ 시각적 개체에 사용 되는 C++ 프로젝트 자동화 합니다.  
   
  <xref:Microsoft.VisualStudio.VsWizard>  
  Visual Studio 마법사에 사용 됩니다.  

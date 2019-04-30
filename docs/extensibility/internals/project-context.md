@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 800a28d9829600821014aab17b36ca8506fd044a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62859626"
 ---
 # <a name="project-context"></a>프로젝트 컨텍스트
 사용자 추가, 프로젝트 및 프로젝트 항목을 사용 하 여 작동 하는 경우 IDE 다양 한 작업을 수행할지 결정할 프로젝트 컨텍스트의 개념을 사용 합니다.

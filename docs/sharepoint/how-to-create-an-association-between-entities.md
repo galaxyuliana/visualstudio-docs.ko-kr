@@ -22,11 +22,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: ce6d0bad9da4f11b5fae1daf93657c6908cf5e95
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966798"
 ---
 # <a name="how-to-create-an-association-between-entities"></a>방법: 엔터티 간의 연결 만들기
   연결을 만들어 비즈니스 데이터 연결 (BDC) 모델의 엔터티 간의 관계를 정의할 수 있습니다. Visual Studio는 각 연결에 대 한 정보를 사용 하 여 모델의 소비자에 게 제공 하는 메서드를 생성 합니다. 이러한 메서드는 SharePoint 웹 파트, 목록 또는 사용자 지정 응용 프로그램에서 사용되어 UI(사용자 인터페이스)에 데이터 관계를 표시할 수 있습니다.

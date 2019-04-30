@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 852616ac77096a5b31078d64051f67f6cbb3ecb6
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56683378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62912831"
 ---
 # <a name="visualizing-and-viewing-data"></a>데이터 시각화 및 보기
 개발자에 게 신속 하 게 의미 있는 방식으로 시각화 도우미 및 데이터를 제공 하는 사용자 지정 뷰어를 입력 합니다. 식 계산기 (EE) 수 뿐만 아니라 타사 형식 시각화 도우미를 지원 뿐만 아니라 자체 사용자 지정 뷰어를 제공 합니다.

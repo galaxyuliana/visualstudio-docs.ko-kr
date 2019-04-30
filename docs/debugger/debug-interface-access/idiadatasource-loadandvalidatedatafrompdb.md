@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5426e27d7b100c42cd571935b1634d6dbd6e990f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56626143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62833549"
 ---
 # <a name="idiadatasourceloadandvalidatedatafrompdb"></a>IDiaDataSource::loadAndValidateDataFromPdb
 열립니다 및 프로그램 데이터베이스 (.pdb) 파일에 제공 된 서명을 정보와 일치 하는지 확인 하 고 디버그 데이터 소스로.pdb 파일을 준비 합니다.
@@ -62,7 +62,7 @@ HRESULT loadAndValidateDataFromPdb ( 
 |E_INVALIDARG|잘못된 매개 변수입니다.|
 |E_UNEXPECTED|이미 데이터 소스를 준비 했습니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 .Pdb 파일 서명 및 보존 기간 값을 포함 합니다. 이러한 값은.pdb 파일과 일치 하는.exe 또는.dll 파일에 복제 됩니다. 데이터 소스를 준비 하기 전에이 메서드는 명명 된.pdb 파일의 서명 및 age 제공 된 값과 일치 하는지 확인 합니다.
 
 유효성 검사 없이.pdb 파일을 로드 하려면 사용 합니다 [idiadatasource:: Loaddatafrompdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md) 메서드.

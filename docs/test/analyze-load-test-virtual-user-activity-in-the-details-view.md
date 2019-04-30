@@ -1,5 +1,5 @@
 ---
-title: 부하 테스트 가상 사용자 동작 분석
+title: 부하 테스트 가상 사용자 작업 분석
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:
@@ -11,12 +11,12 @@ ms.assetid: 63f4bd42-3cfb-4eee-af68-e8334976539e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0a0d656aea42fff774e5e9c58068eff7039cfe79
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: 54f9c7b982f1774c79d7cd1e7c0affa29dfbb65d
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55936956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62823432"
 ---
 # <a name="analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer"></a>부하 테스트 분석기의 세부 정보 뷰에서 부하 테스트 가상 사용자 동작 분석
 
@@ -45,11 +45,11 @@ ms.locfileid: "55936956"
 
  필터 결과 패널은 **가상 사용자 동작 차트**에 표시됩니다. 필터 결과 패널에서는 다음과 같이 항목을 필터링할 수 있습니다.
 
--   **로그 포함 결과만 표시** 테스트 로그가 연결되어 있는 테스트 결과만 표시합니다.
+- **로그 포함 결과만 표시** 테스트 로그가 연결되어 있는 테스트 결과만 표시합니다.
 
--   **성공적인 결과 표시** 성공적인 결과를 표시합니다.
+- **성공적인 결과 표시** 성공적인 결과를 표시합니다.
 
--   **오류가 있는 결과 표시** 디버깅하는 데 도움이 되도록 오류가 있는 결과를 표시합니다.
+- **오류가 있는 결과 표시** 디버깅하는 데 도움이 되도록 오류가 있는 결과를 표시합니다.
 
 ## <a name="tasks"></a>작업
 

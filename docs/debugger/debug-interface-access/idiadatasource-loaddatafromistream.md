@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: cb9b218935085b04ae1a9931733aeca34766aa5f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62833688"
 ---
 # <a name="idiadatasourceloaddatafromistream"></a>IDiaDataSource::loadDataFromIStream
 메모리 내 데이터 스트림을 통해 액세스 하 여 프로그램 데이터베이스 (.pdb) 파일에 저장 된 디버그 데이터를 준비 합니다.
@@ -44,7 +44,7 @@ HRESULT loadDataFromIStream ( 
 |E_INVALIDARG|잘못된 매개 변수입니다.|
 |E_UNEXPECTED|데이터 원본에 이미 준비 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  이 메서드는 실행 파일을 통해 메모리를 얻을 수에 대 한 디버그 데이터를 사용 하면는 <xref:IStream> 개체입니다.
 
  유효성 검사 없이.pdb 파일을 로드 하려면 사용 합니다 [idiadatasource:: Loaddatafrompdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md) 메서드.

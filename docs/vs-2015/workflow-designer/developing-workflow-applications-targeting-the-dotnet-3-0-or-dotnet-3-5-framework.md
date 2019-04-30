@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: cd7252605fd8c642c0bb331667543b1c67f9d95f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62938502"
 ---
 # <a name="developing-workflow-applications-targeting-the-net-30-or-net-35-framework"></a>.NET 3.0 또는 .NET 3.5 Framework를 대상으로 하는 워크플로 응용 프로그램 개발
 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서는 [!INCLUDE[wfd1](../includes/wfd1-md.md)]을 대상으로 하는 [!INCLUDE[wf](../includes/wf-md.md)] 응용 프로그램을 만들기 위한 [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)]를 제공합니다. 이 디자이너에서는 워크플로 응용 프로그램의 시각적 생성 및 디버깅을 위한 친숙한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 사용자 인터페이스를 사용합니다.  

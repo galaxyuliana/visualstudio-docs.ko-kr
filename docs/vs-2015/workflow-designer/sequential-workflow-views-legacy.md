@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 97d13a86e8bade0855c60326996a192a0d0331b3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62938550"
 ---
 # <a name="sequential-workflow-views-legacy"></a>순차 워크플로 뷰(레거시)
 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서는 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 데 사용할 수 있는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 제공합니다.  

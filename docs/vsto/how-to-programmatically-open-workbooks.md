@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: facf3cbeb6635324e74244983fcb33138ad64cfe
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62812383"
 ---
 # <a name="how-to-programmatically-open-workbooks"></a>방법: 프로그래밍 방식으로 통합 문서 열기
   <xref:Microsoft.Office.Interop.Excel.Workbooks> Microsoft Office Excel에서 컬렉션을 사용 하면 열려 있는 모든 통합 문서를 사용 하 여 작동 하 고 통합 문서를 열 수 있습니다.

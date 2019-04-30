@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: eb1fdf57be1630468ee3990028a417565a914639
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566923"
 ---
 # <a name="fill-datasets-by-using-tableadapters"></a>TableAdapters를 사용하여 데이터 세트 채우기
 
@@ -52,7 +52,7 @@ Tableadapter는 데이터베이스, 쿼리 실행된 또는 저장된 프로시�
 
 ![클라이언트 응용 프로그램의 데이터 흐름](../data-tools/media/clientdatadiagram.gif)
 
-사용 하 여 Tableadapter 설계 되어는 **데이터 집합 디자이너**, TableAdapter 클래스의 중첩 클래스로 생성 되지 않습니다 <xref:System.Data.DataSet>합니다. 각 데이터 집합에 관련 된 별도 네임 스페이스에 있습니다. 예를 들어 라는 데이터 집합이 있다고 `NorthwindDataSet`, 연관 된 Tableadapter <xref:System.Data.DataTable>의 합니다 `NorthwindDataSet` 에 `NorthwindDataSetTableAdapters` 네임 스페이스입니다. 특정 TableAdapter에 프로그래밍 방식으로 액세스 하려면 TableAdapter의 새 인스턴스를 선언 해야 합니다. 예:
+사용 하 여 Tableadapter 설계 되어는 **데이터 집합 디자이너**, TableAdapter 클래스의 중첩 클래스로 생성 되지 않습니다 <xref:System.Data.DataSet>합니다. 각 데이터 집합에 관련 된 별도 네임 스페이스에 있습니다. 예를 들어 라는 데이터 집합이 있다고 `NorthwindDataSet`, 연관 된 Tableadapter <xref:System.Data.DataTable>의 합니다 `NorthwindDataSet` 에 `NorthwindDataSetTableAdapters` 네임 스페이스입니다. 특정 TableAdapter에 프로그래밍 방식으로 액세스 하려면 TableAdapter의 새 인스턴스를 선언 해야 합니다. 예를 들어:
 
 [!code-csharp[VbRaddataTableAdapters#7](../data-tools/codesnippet/CSharp/fill-datasets-by-using-tableadapters_1.cs)]
 [!code-vb[VbRaddataTableAdapters#7](../data-tools/codesnippet/VisualBasic/fill-datasets-by-using-tableadapters_1.vb)]
@@ -114,7 +114,7 @@ TableAdapter를 사용 하면 효과적으로 일반적으로 수행 하는 명�
 
 ## <a name="tableadapter-support-for-nullable-types"></a>TableAdapter nullable 형식 지원
 
-Tableadapter에 nullable 형식 지원 `Nullable(Of T)` 고 `T?`입니다. Visual Basic의 nullable 형식에 대한 자세한 내용은 [Nullable 값 형식](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types)을 참조하세요. Nullable 형식에 대 한 자세한 내용은 C#를 참조 하세요 [nullable 형식을 사용할](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)합니다.
+Tableadapter에 nullable 형식 지원 `Nullable(Of T)` 고 `T?`입니다. Visual Basic의 nullable 형식에 대한 자세한 내용은 [Nullable 값 형식](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types)을 참조하세요. C#의 nullable 형식에 대 한 자세한 내용은 참조 하세요. [nullable 형식을 사용할](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types)합니다.
 
 <a name="tableadaptermanager-reference"></a>
 
@@ -137,6 +137,6 @@ TableAdapterManager 클래스가 아닌 부분을 [!INCLUDE[dnprdnshort](../code
 
 CommandType 속성이로 설정 된 데이터 명령을 사용 하면 <xref:System.Data.CommandType.Text>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 인증되지 않은 액세스 권한을 얻거나 데이터베이스를 손상시키기 위해 수정되었거나 추가된 SQL 문을 전송(주입)할 수도 있습니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [데이터 세트 도구](../data-tools/dataset-tools-in-visual-studio.md)
+- [데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)

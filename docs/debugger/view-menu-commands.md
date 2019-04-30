@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 2cbfbfb5ee11711b36d20d808cef22b42bcc43b5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62929629"
 ---
 # <a name="view-menu-commands"></a>보기 메뉴 명령
 합니다 **보기** 메뉴 명령 제어 Spy + +에 대 한 사용자 인터페이스를 제공 합니다.

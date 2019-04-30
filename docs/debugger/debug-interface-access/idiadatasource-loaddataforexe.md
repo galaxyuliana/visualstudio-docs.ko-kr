@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4f95e8a9321ff7ae518e72496289f8ad0c7b4682
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56609646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62829848"
 ---
 # <a name="idiadatasourceloaddataforexe"></a>IDiaDataSource::loadDataForExe
 열리고.exe/.dll 파일과 관련 된 디버그 데이터를 준비 합니다.
@@ -57,7 +57,7 @@ pCallback
 |E_INVALIDARG|잘못된 매개 변수입니다.|
 |E_UNEXPECTED|데이터 원본에 이미 준비 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 .Exe/.dll 파일의 디버그 헤더 이름이 관련된 디버그 데이터 위치를 지정 합니다.
 
 이 메서드 디버그 헤더를 읽은 다음 검색 및 디버그 데이터를 준비 합니다. 필요에 따라 검색의 진행률을 보고 및 콜백을 통해 제어할 수 있습니다. 예를 들어 합니다 [idialoadcallback:: Notifydebugdir](../../debugger/debug-interface-access/idialoadcallback-notifydebugdir.md) 호출할 때를 `IDiaDataSource::loadDataForExe` 메서드를 찾아서 디버그 디렉터리를 처리 합니다.

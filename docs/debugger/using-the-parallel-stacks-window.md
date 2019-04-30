@@ -18,13 +18,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e9728346bc4c6d805bb0febd3a0d5bef0ed809a5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56712543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62902423"
 ---
-# <a name="view-threads-and-tasks-in-the-parallel-stacks-window-c-visual-basic-c"></a>병렬 스택 창의 스레드 및 작업 보기 (C#, Visual Basic, c + +)
+# <a name="view-threads-and-tasks-in-the-parallel-stacks-window-c-visual-basic-c"></a>병렬 스택 창의 스레드 및 작업 보기 (C#, Visual Basic의 경우 C++)
 
 합니다 **병렬 스택** 창은 다중 스레드 응용 프로그램 디버깅에 유용 합니다. 여러 보기가 있습니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "56712543"
 
 ![병렬 스택 창의 도구 모음](../debugger/media/parallel_stackstoolbar.png "병렬 스택 도구 모음")
 
-|아이콘|Control|설명|
+|아이콘|컨트롤|설명|
 |-|-|-|
 |![스레드/작업 콤보 상자](media/parallel_toolbar1.png "스레드/작업 콤보 상자")|**스레드**/**작업** 콤보 상자|스레드의 호출 스택과 작업의 호출 스택 간에 뷰를 전환합니다. 자세한 내용은 [작업 뷰](#tasks-view)와 [스레드 뷰](#threads-view)를 참조하세요.|
 |![플래그가 지정 된 아이콘을 보여 줍니다](media/parallel_toolbar2.png "지정 된 스레드만 표시 아이콘")|플래그가 지정된 항목만 표시|와 같은 다른 디버거 창에서 플래그가 지정 된 스레드에 대해서만 호출 스택이 표시 합니다 **GPU 스레드** 창 및 **병렬 조사식** 창입니다.|
@@ -135,7 +135,7 @@ ms.locfileid: "56712543"
 
 새 스택 프레임으로 전환 하면 수행한 메서드는 현재 메서드 및 **메서드 뷰** 모든 호출자 및 호출 수신자에 대 한 새 메서드를 보여 줍니다. 이렇게 하면 메서드가 호출 스택에 표시되는지 여부에 따라 일부 스레드가 뷰에 나타나거나 사라집니다. 호출 스택 뷰로 돌아가려면 선택 합니다 **메서드 뷰** 도구 모음 아이콘을 다시 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [다중 스레드 응용 프로그램 디버깅 시작](../debugger/get-started-debugging-multithreaded-apps.md)
 - [연습: 병렬 애플리케이션 디버그](../debugger/walkthrough-debugging-a-parallel-application.md)
 - [디버거 소개](../debugger/debugger-feature-tour.md)

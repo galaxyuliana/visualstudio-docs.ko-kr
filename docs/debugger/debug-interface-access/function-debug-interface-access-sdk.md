@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4d1e0af87618955c492bef68be45c8c623f41218
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554520"
 ---
 # <a name="function-debug-interface-access-sdk"></a>함수(디버그 인터페이스 액세스 SDK)
 각 함수는으로 식별 되는 `SymTagFunction` 기호입니다.
@@ -36,7 +36,7 @@ ms.locfileid: "56634047"
 |[IDiaSymbol::get_customCallingConvention](../../debugger/debug-interface-access/idiasymbol-get-customcallingconvention.md)|`BOOL`|`TRUE` 함수에서 사용자 지정 호출 규칙 (DIA SDK V8.0 이상 에서만)을 사용 하면|
 |[IDiaSymbol::get_farReturn](../../debugger/debug-interface-access/idiasymbol-get-farreturn.md)|`BOOL`|`TRUE` 함수 수행 (DIA SDK V8.0 이상 에서만)까지 반환 합니다.|
 |[IDiaSymbol::get_hasAlloca](../../debugger/debug-interface-access/idiasymbol-get-hasalloca.md)|`BOOL`|`TRUE` 함수는 할당 된 메모리 함수를 사용 하는 경우 (uinnder DIA SDK V8.0 이상).|
-|[IDiaSymbol::get_hasEH](../../debugger/debug-interface-access/idiasymbol-get-haseh.md)|`BOOL`|`TRUE` 함수가 포함 된 경우 c + + 스타일 예외 처리 (DIA SDK V8.0 이상 에서만).|
+|[IDiaSymbol::get_hasEH](../../debugger/debug-interface-access/idiasymbol-get-haseh.md)|`BOOL`|`TRUE` 함수를 포함 하는 경우 C++-(DIA SDK V8.0 이상 에서만) 스타일 예외를 처리 합니다.|
 |[IDiaSymbol::get_hasEHa](../../debugger/debug-interface-access/idiasymbol-get-haseha.md)|`BOOL`|`TRUE` 함수가 포함 된 경우 비동기 예외 처리 (DIA SDK V8.0 이상 에서만).|
 |[IDiaSymbol::get_hasInlAsm](../../debugger/debug-interface-access/idiasymbol-get-hasinlasm.md)|`BOOL`|`TRUE` 함수가 포함 되어 있으면 인라인 어셈블리 (DIA SDK V8.0 이상 에서만).|
 |[IDiaSymbol::get_hasLongJump](../../debugger/debug-interface-access/idiasymbol-get-haslongjump.md)|`BOOL`|`TRUE` 함수를 포함 하는 경우는 [longjmp](/cpp/c-runtime-library/reference/longjmp) (DIA SDK V8.0 이상 에서만)를 호출 합니다.|

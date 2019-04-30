@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: bae4ed0a335a9c12d16cb46208f77c4b66f12547
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946331"
 ---
 # <a name="exception-thrown-and-not-caught"></a>예외가 throw되고 catch되지 않았습니다.
 포함 하는 `throw` 하지만 코드에서 문 내에 포함 되지를 **시도** 블록 하거나 연결 된 **catch** 오류를 트래핑 하는 블록. 내에서 예외가 throw 됩니다는 **시도** 사용을 차단 합니다 **throw** 문을 외부 포착 하 고는 **시도** 블록을 **catch** 문입니다.  

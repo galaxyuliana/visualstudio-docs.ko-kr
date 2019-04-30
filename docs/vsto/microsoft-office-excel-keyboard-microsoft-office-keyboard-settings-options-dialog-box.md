@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 63f3bfc9295501d5f9b8f0267037302cdbb04a76
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970218"
 ---
 # <a name="microsoft-office-excel-keyboard-microsoft-office-keyboard-settings-options-dialog-box"></a>Microsoft Office Excel 키보드, Microsoft Office 키보드 설정, 옵션 대화 상자
   Microsoft Office Excel 및 Visual Studio 둘 다 바로 가기 키를 처리합니다. Excel 및 Visual Studio에서 다른 명령에 대 한 동일한 바로 가기 키 조합을 나타낼 수 있습니다. Excel Visual Studio에서 문서 수준 프로젝트에서 열려 있는 경우 한 번에 하나의 응용 프로그램 바로 가기 키 명령을 받습니다. 기본적으로 Visual Studio는 모든 바로 가기 키 명령을 수신 하지만 Excel을 선택 하 여 문서에 포커스가 있을 때 사용자에 게 받도록 할 수 있습니다 **동적 키보드 구성표**합니다.

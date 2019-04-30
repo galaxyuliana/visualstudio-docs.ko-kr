@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 32ab1bb6d4bde8f6e75fdaeb4416372cdc236318
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: aebe1faf31d53fb44cf5efddbee154018e42a365
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56699004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62847774"
 ---
 # <a name="how-to-run-the-worker-process-under-a-user-account"></a>방법: 사용자 계정으로 작업자 프로세스 실행
 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 작업자 프로세스(aspnet_wp.exe 또는 w3wp.exe)를 사용자 계정으로 실행할 수 있도록 컴퓨터를 설정하려면 다음 단계를 따르세요.
@@ -45,21 +45,22 @@ ms.locfileid: "56699004"
 
 4. [!INCLUDE[winxpsvr](../debugger/includes/winxpsvr_md.md)]에는 기본적으로 IIS 6.0이 설치되어 있습니다. 해당 작업자 프로세스는 w3wp.exe입니다. IIS 6.0 모드에서 aspnet_wp.exe를 작업자 프로세스로 사용하여 실행하려면 다음 단계를 수행해야 합니다.
 
-   1.  **시작**과 **관리 도구** 를 차례로 클릭한 다음 **인터넷 정보 서비스**를 선택합니다.
+   1. **시작**과 **관리 도구** 를 차례로 클릭한 다음 **인터넷 정보 서비스**를 선택합니다.
 
-   2.  **인터넷 정보 서비스** 대화 상자에서 **웹 사이트** 폴더를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
+   2. **인터넷 정보 서비스** 대화 상자에서 **웹 사이트** 폴더를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
-   3.  **웹 사이트 등록 정보** 대화 상자에서 **서비스**를 선택합니다.
+   3. **웹 사이트 등록 정보** 대화 상자에서 **서비스**를 선택합니다.
 
-   4.  **IIS6.0 격리 모드에서 WWW 서비스 실행**을 선택합니다.
+   4. **IIS6.0 격리 모드에서 WWW 서비스 실행**을 선택합니다.
 
-   5.  **속성** 대화 상자와 **인터넷 서비스 관리자**를 닫습니다.
+   5. **속성** 대화 상자와 **인터넷 서비스 관리자**를 닫습니다.
 
 5. Windows 명령 프롬프트를 열고 다음을 실행하여 서버를 다시 설정합니다.
 
    ```cmd
    iisreset
    ```
+
    — 또는 —
 
    ```cmd
@@ -77,7 +78,7 @@ ms.locfileid: "56699004"
 
     **사용자, 컴퓨터 또는 그룹 선택** 대화 상자가 나타납니다.
 
-10. **선택할 개체 이름 입력** 상자에 사용자 이름을 입력하고 **확인**을 클릭합니다. 사용자 이름은 DomainName\UserName 형식이어야 합니다.
+10. **선택할 개체 이름 입력** 상자에 사용자 이름을 입력하고 **확인**을 클릭합니다. 사용자 이름에는 다음이 형식을 따라야 합니다. DomainName\UserName.
 
 11. **Temporary ASP.NET Files 권한 항목** 대화 상자에서 사용자에게 **모든 권한**을 부여한 다음 **확인** 을 클릭하여 **Temporary ASP.NET Files 권한 항목** 대화 상자를 닫습니다.
 

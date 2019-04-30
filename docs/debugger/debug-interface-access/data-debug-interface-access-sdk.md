@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6f0cf6e4f02d8a80f74d0edb46e188b41bfb425c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554950"
 ---
 # <a name="data-debug-interface-access-sdk"></a>데이터(디버그 인터페이스 액세스 SDK)
 모든 변수를 매개 변수, 지역 변수, 전역 변수 및 클래스 멤버 등으로 식별 됩니다 `SymTagData` 기호입니다. 상수 값 (`LocIsConstant`)는이 형식을 사용 하 여 식별 됩니다.

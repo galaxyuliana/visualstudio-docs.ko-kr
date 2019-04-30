@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: cf7a68d5d3567305e4f70049d76a1c260ddecf25
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62826936"
 ---
 # <a name="grant-trust-to-office-solutions"></a>Office 솔루션에 신뢰를 부여
   Office 솔루션으로 각 대상 컴퓨터의 보안 정책을 수정 신뢰 솔루션 어셈블리, 응용 프로그램 매니페스트, 배포 매니페스트 및 문서에 신뢰를 부여 합니다. 또는 최종 사용자 Office 솔루션에 신뢰를 부여할 수 있습니다.

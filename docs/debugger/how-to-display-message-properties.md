@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fddccbd116f65cb22cd0e12b8435f8229298f504
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56720161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62894315"
 ---
 # <a name="how-to-display-message-properties"></a>방법: 메시지 속성 표시
 에 나열 된 메시지에 대해 자세히 알아보려면 [메시지 뷰](../debugger/messages-view.md)를 사용 합니다 [메시지 속성 대화 상자](../debugger/message-properties-dialog-box.md).

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 74fe044f5ce00697be36fc69413e0bf7d0042e62
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909944"
 ---
 # <a name="get-started-with-source-control-plug-ins"></a>원본 제어 플러그 인 시작
 원본 제어 플러그 인 api에서 정의 된 함수를 구현 하는 DLL을 소스 제어 플러그 인을 만들려면 만들어야 차례로 사용 하 여 DLL을 등록 하려면 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 소스 코드 버전 제어에서 사용 하기 위해 사용할 수 있도록 합니다.

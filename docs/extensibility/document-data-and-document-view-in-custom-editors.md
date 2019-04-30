@@ -11,17 +11,17 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 6470b7ddb8a28c2aa22a23a55976f1f8831c4363
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56683742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62864146"
 ---
 # <a name="document-data-and-document-view-in-custom-editors"></a>문서 데이터 및 사용자 지정 편집기의 문서 뷰
 사용자 지정 편집기를 두 부분으로 구성 됩니다: 문서 데이터 개체 및 문서 뷰 개체입니다. 이름으로 문서 데이터 개체에 표시할 텍스트 데이터를 나타냅니다. 마찬가지로, 문서 뷰 개체 (또는 "보기")에서 문서 데이터 개체를 표시 하는 하나 이상의 windows를 나타냅니다.
 
 ## <a name="document-data-object"></a>문서 데이터 개체
- 문서 데이터 개체에는 텍스트 버퍼의 텍스트 데이터 표현입니다. 문서 텍스트 및 기타 정보를 저장 하는 COM 개체입니다. 문서 데이터 개체는 또한 문서 지 속성을 처리 하 고 해당 데이터의 여러 보기를 사용 하도록 설정 합니다. 자세한 내용은 다음을 참조하세요.
+ 문서 데이터 개체에는 텍스트 버퍼의 텍스트 데이터 표현입니다. 문서 텍스트 및 기타 정보를 저장 하는 COM 개체입니다. 문서 데이터 개체는 또한 문서 지 속성을 처리 하 고 해당 데이터의 여러 보기를 사용 하도록 설정 합니다. 자세한 내용은 다음 항목을 참조하세요.
 
  <xref:EnvDTE80.Window2.DocumentData%2A> 및 [Windows 문서](../extensibility/internals/document-windows.md)합니다.
 

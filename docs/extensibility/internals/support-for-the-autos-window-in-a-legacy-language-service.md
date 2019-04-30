@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 7fdff9237ef30884d5bfaad424edfffec62a8f58
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56613260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62908412"
 ---
 # <a name="support-for-the-autos-window-in-a-legacy-language-service"></a>레거시 언어 서비스의 자동 창 지원
 합니다 **자동** 변수 등 디버깅 중인 프로그램 (되거나 중단점 또는 예외)를 일시 중지 되 면 범위에 있는 매개 변수 식 창에 표시 됩니다. 로컬 또는 전역 변수 및 매개 변수는 로컬 범위에서 변경 된 식이 포함할 수 있습니다. 합니다 **자동** 창 클래스, 구조체 또는 다른 일종의 인스턴스화를 포함할 수도 있습니다. 식 계산기를 평가할 수 있는 모든 항목에 잠재적으로 표시할 수는 **자동** 창입니다.

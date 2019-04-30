@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 0d607300bc42bd0428655a9590ab2e6dcc2a7043
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62954780"
 ---
 # <a name="how-to-add-a-new-item-to-a-workflow-project-legacy"></a>방법: 워크플로 프로젝트에 새 항목 추가(레거시)
 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 또는 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 대상으로 하는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 제공 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 사용하여 워크플로 프로젝트를 만든 후에는 [!INCLUDE[wf](../includes/wf-md.md)] 항목과 그 밖의 친숙한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 항목을 프로젝트에 추가할 수 있습니다.  

@@ -10,11 +10,11 @@ manager: jillfra
 ms.workload:
 - aspnet
 ms.openlocfilehash: 51638db2cf258cc1a91c659c137c6a17811fa8c8
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55923841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62820699"
 ---
 # <a name="how-to-configure-code-analysis-for-an-aspnet-web-application"></a>방법: ASP.NET 웹 애플리케이션에 대한 코드 분석 구성
 

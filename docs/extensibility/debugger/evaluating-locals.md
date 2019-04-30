@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 977962352887e9cce09b3b703c3f66dd15cb7397
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56710905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62889868"
 ---
 # <a name="evaluate-locals"></a>지역 변수를 평가 합니다.
 > [!IMPORTANT]
@@ -32,7 +32,7 @@ ms.locfileid: "56710905"
 
 3. 지역 변수의 형식을 기반으로 값 형식을 지정 합니다.
 
-4. 지역 변수의 값을 포함 하는 일반 개체를 반환 합니다. 이것이 C#의 경우에 `object`, 이것이 c + +에서는 `VARIANT`.
+4. 지역 변수의 값을 포함 하는 일반 개체를 반환 합니다. C#,이 `object`, 및 C++,이 `VARIANT`합니다.
 
 ## <a name="managed-code"></a>관리 코드
  관리 코드에서 로컬 변수의 값을 검색 하는 함수는 구현입니다.

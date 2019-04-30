@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: be143ecb57a952c45e518eef0d83d52274075614
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 84b6ae6ef0c63870ad9dc593fd0cf2e166e65397
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62559842"
 ---
 # <a name="ca1038-enumerators-should-be-strongly-typed"></a>CA1038: 열거자는 강력한 형식이어야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,11 +35,11 @@ ms.locfileid: "58970865"
 ## <a name="cause"></a>원인
  Public 또는 protected 형식이 구현 <xref:System.Collections.IEnumerator?displayProperty=fullName> 하지만의 강력한 형식된 버전을 제공 하지 않습니다는 <xref:System.Collections.IEnumerator.Current%2A?displayProperty=fullName> 속성입니다. 다음 유형에 서 파생 된 형식은 다음과 같습니다.이 규칙에서 제외
 
--   <xref:System.Collections.CollectionBase?displayProperty=fullName>
+- <xref:System.Collections.CollectionBase?displayProperty=fullName>
 
--   <xref:System.Collections.DictionaryBase?displayProperty=fullName>
+- <xref:System.Collections.DictionaryBase?displayProperty=fullName>
 
--   <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>
+- <xref:System.Collections.ReadOnlyCollectionBase?displayProperty=fullName>
 
 ## <a name="rule-description"></a>규칙 설명
  이 규칙에서는 요구 <xref:System.Collections.IEnumerator> 구현도의 강력한 형식된 버전을 제공할는 <xref:System.Collections.IEnumerator.Current%2A> 속성 사용자 인터페이스에 의해 제공 되는 기능을 사용할 때 반환 값을 강력한 형식으로 캐스팅 하지 않아도 됩니다 있도록 합니다. 이 규칙에서는 구현 하는 형식이 가정 <xref:System.Collections.IEnumerator> 보다 강력한 형식의 인스턴스 컬렉션을 포함 <xref:System.Object>합니다.

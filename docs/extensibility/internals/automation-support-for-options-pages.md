@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 81cf358d3dfb8fc45a4f696b0483e28673094d44
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56840460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62862032"
 ---
 # <a name="automation-support-for-options-pages"></a>Automation 옵션 페이지에 대 한 지원
 Vspackage는 사용자 지정을 제공할 수 있습니다 **옵션** 대화 상자에 **도구** 메뉴 (**도구 옵션** 페이지)에서 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 자동화 가능 하도록 만들 수 및 모델입니다.

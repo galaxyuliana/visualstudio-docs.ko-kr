@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 0036c861638c4a0d5d2b7de4500eb00368efe447
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62857540"
 ---
 # <a name="visual-studio-workflow-windows-legacy"></a>Visual Studio 워크플로 창(레거시)
 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 또는 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 대상으로 하려는 경우 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]에서 제공하는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 사용할 수 있습니다. 레거시 디자이너는 워크플로를 만드는 데 사용할 수 있는 시각적 디자이너입니다. 활동을 끌어 놓을 수 있습니다 합니다 **도구 상자** 디자인 화면 및 다음 구성할 합니다. 디자인 화면은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 편집기 창이므로 다른 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 편집기 창에서 사용하는 주 창 영역에 표시됩니다. 워크플로 이름은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창의 제목 표시줄에 표시됩니다.  

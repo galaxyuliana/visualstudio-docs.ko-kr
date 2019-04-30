@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: eef5973eb7ec4b8779f89779fe1aad62d86f4850
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62898122"
 ---
 # <a name="troubleshoot-clickonce-deployments"></a>ClickOnce 배포 문제 해결
 이 항목에서는 진단 하 고 가장 일반적인 문제를 해결할 수 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 합니다.
@@ -56,7 +56,7 @@ ms.locfileid: "56612584"
 
  System.deployment.application을 사용 하는 ClickOnce 응용 프로그램을 디버깅 하는 기법을 설명 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)
 - [ClickOnce 애플리케이션 매니페스트](../deployment/clickonce-application-manifest.md)

@@ -16,11 +16,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 3f4add20384684b24a630a0799c50a9aaae58034
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58148010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62786297"
 ---
 # <a name="isetnextstatementsetnextstatement"></a>ISetNextStatement::SetNextStatement
 이 메서드는 스크립트 인터프리터를 실행할 수 있는 다음 코드 컨텍스트를 업데이트 합니다.  

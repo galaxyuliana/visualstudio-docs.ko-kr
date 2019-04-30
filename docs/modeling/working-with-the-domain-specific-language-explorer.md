@@ -10,11 +10,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 744407f129c85f4e083007186dd167e39401d850
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62961939"
 ---
 # <a name="working-with-the-domain-specific-language-explorer"></a>도메인별 언어 탐색기 작업
 합니다 **DSL 탐색기** 트리 보기에서 여러 종류의 정보를 표시 합니다. 대부분의 DSL 탐색기에서 항목에 대 한 자세한 내용은 참조 하세요. [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)합니다.

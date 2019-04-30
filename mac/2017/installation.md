@@ -7,18 +7,22 @@ ms.date: 11/03/2018
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ms.custom: video
-ms.openlocfilehash: 1a3d95176af41bbf7803144995888b12abeeea3a
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: 3fe365b56d35202e7755e93219eeaf45f51509d2
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62998140"
 ---
 # <a name="install-visual-studio-2017-for-mac"></a>Mac용 Visual Studio 2017 설치
 
 > [!NOTE]
-> Mac용 Visual Studio 2019는 [현재 사용 가능](installation.md?view=vsmac-2019)합니다.
+> Mac용 Visual Studio 2019는 [현재 사용 가능](installation.md?view=vsmac-2019)합니다. Mac용 Visual Studio의 이전 버전은 Visual Studio [다운로드 페이지](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac)를 참조하세요.
 
+## <a name="downgrading-from-visual-studio-2019-for-mac"></a>Mac용 Visual Studio 2019에서 다운그레이드할까요?
+
+최상의 환경을 위해 다운그레이드하기 전에 Mac용 Visual Studio 2019를 [제거](uninstall.md)해야 합니다. 다운로드하게 하는 문제가 있는 경우 [문제를 보고](report-a-problem.md)하여 알려 주세요.
+ 
 ## <a name="requirements"></a>요구 사항
 
 네이티브 플랫폼 간 앱 개발을 시작하려면 Mac용 Visual Studio를 다운로드할 때 설치 및 설정해야 하는 몇 가지 사항이 있습니다.
@@ -31,7 +35,7 @@ Visual Studio에서 iOS를 사용하는 경우 다음 사항이 필요합니다.
 
 ## <a name="install"></a>설치
 
-1. [https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/)에서 Mac용 Visual Studio 다운로드
+1. [visualstudio.com](https://my.visualstudio.com/Downloads?q=Visual%20Studio%202017%20for%20Mac)에서 Mac용 Visual Studio를 다운로드합니다.
 
 2. 설치 관리자 패키지가 다운로드되면 **VisualStudioForMacInstaller.dmg** 파일을 클릭하여 설치 관리자를 탑재한 후, 다음 이미지와 같이 로고를 두 번 클릭하여 실행합니다.
 

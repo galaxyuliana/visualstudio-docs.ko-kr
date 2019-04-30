@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 3691a874121c00dcccc69958eb5746a2c1d78122
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58149460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62992022"
 ---
 # <a name="iactivescriptsitewindow"></a>IActiveScriptSiteWindow
 이 인터페이스와 같은 개체에는 사용자 인터페이스를 지 원하는 호스트에 의해 구현 됩니다 [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md) 합니다. 서버와 같은 사용자 인터페이스를 지원 하지 않는 호스트를 구현 하지 않습니다는 `IActiveScriptSiteWindow` 인터페이스입니다. 이 인터페이스를 호출 하 여 액세스 하는 스크립팅 엔진 `QueryInterface` 에서 `IActiveScriptSite`합니다.  

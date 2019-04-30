@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: aa46bc95087b3defaf739cc3473c58e29a93071c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935510"
 ---
 # <a name="iactivescriptinterruptscriptthread"></a>IActiveScript::InterruptScriptThread
 (이벤트 싱크, 즉시 실행, 또는 매크로 호출) 실행 중인 스크립트 스레드 실행을 중단합니다. (예를 들어 무한 루프)에서 중단 된 스크립트를 종료 하려면이 메서드를 사용할 수 있습니다. 호스트 개체 또는 기본이 아닌 설명선 발생 하지 않고 기본이 아닌 스레드에서 호출 될 수는 [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md) 메서드.  

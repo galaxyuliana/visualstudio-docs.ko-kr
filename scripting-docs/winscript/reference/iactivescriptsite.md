@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 67e16e2825f03c9ae452e639d6a086bee584ac95
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58152644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62992562"
 ---
 # <a name="iactivescriptsite"></a>IActiveScriptSite
 Windows 스크립트 엔진에 대 한 사이트를 만들려면 호스트에서 구현 합니다. 일반적으로이 사이트 (예를 들어, ActiveX 컨트롤) 스크립트에 표시 되는 모든 개체의 컨테이너와 연결 됩니다. 일반적으로이 컨테이너는 문서 또는 표시 되는 페이지에 대응 됩니다. 예를 들어 Microsoft Internet Explorer에 표시 되 고 각 HTML 페이지에 대 한 이러한 컨테이너를 만들어집니다. 각 ActiveX 컨트롤 (또는 다른 자동화 개체) 스크립팅 엔진 자체 페이지에는이 컨테이너에 있는 열거 가능한 것입니다.  

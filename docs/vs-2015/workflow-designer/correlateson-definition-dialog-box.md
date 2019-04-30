@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: fd03e1a8615e75d3f00f79eb10b7a7ff97f0eb33
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977367"
 ---
 # <a name="correlateson-definition-dialog-box"></a>CorrelatesOn 정의 대화 상자
 **CorrelatesOn** 대화 상자에서 사용 됩니다 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 편집 하는 <xref:System.ServiceModel.Activities.Receive.CorrelatesOn%2A> 의 속성을 <xref:System.ServiceModel.Activities.Receive> 활동. [!INCLUDE[crdefault](../includes/crdefault-md.md)] 합니다 [수신](../workflow-designer/receive-activity-designer.md) 항목입니다.  

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 49257aa3b9b51a1e8b62c867ced030b853deae9c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62833511"
 ---
 # <a name="idiaenumlinenumbers"></a>IDiaEnumLineNumbers
 데이터 원본에 포함 된 다양 한 줄 번호를 열거 합니다.
@@ -41,7 +41,7 @@ IDiaEnumLineNumbers : IUnknown
 |[IDiaEnumLineNumbers::Reset](../../debugger/debug-interface-access/idiaenumlinenumbers-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
 |[IDiaEnumLineNumbers::Clone](../../debugger/debug-interface-access/idiaenumlinenumbers-clone.md)|현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 이 인터페이스의 다음 메서드 중 하나를 호출 하 여 가져온 합니다 [IDiaSession](../../debugger/debug-interface-access/idiasession.md) 인터페이스:

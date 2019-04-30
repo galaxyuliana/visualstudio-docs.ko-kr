@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 97704675e1135959744e60724e4e3381bccf2b30
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56705520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62931319"
 ---
 # <a name="message-options-dialog-box"></a>메시지 옵션 대화 상자
 이 대화 상자에 표시 되는 메시지를 선택 하는 데 [메시지 보기](../debugger/messages-view.md)합니다. 이 대화 상자를 표시 하려면 선택 **로그 메시지** 에서 합니다 **Spy** 메뉴.

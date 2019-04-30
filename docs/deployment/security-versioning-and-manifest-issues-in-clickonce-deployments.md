@@ -23,11 +23,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: c87fc29b24b3c5ab4bd59d9cca25113f82895ff4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62928213"
 ---
 # <a name="security-versioning-and-manifest-issues-in-clickonce-deployments"></a>ClickOnce 배포의 보안, 버전 관리 및 매니페스트 문제
 
@@ -94,7 +94,7 @@ ms.locfileid: "56631265"
 > [!NOTE]
 > 매니페스트를 업데이트 될 때마다 있습니다도 다시 서명 해야 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 [ClickOnce 배포 문제 해결](../deployment/troubleshooting-clickonce-deployments.md)
 [Securw ClickOnce 응용 프로그램](../deployment/securing-clickonce-applications.md)

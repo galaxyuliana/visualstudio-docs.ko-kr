@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 078c2b7bfcf6ce2a86b5f059053f8f31376af595
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554533"
 ---
 # <a name="funcdebugstart"></a>FuncDebugStart
 함수에 정의 된 지점에는 디버깅 하는 경우 지점에 대 한 기호도 식별 되는 시작 하는 것을 `SymTagFuncDebugStart` 태그입니다.
