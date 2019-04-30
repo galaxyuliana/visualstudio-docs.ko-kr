@@ -11,12 +11,12 @@ ms.assetid: 4e3d0a70-f22f-49dd-92d8-edf48ab62b52
 caps.latest.revision: 28
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 03420aa0638fcf12fa36fb871b4a14d2695f0377
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: d6d7243c8032b22f9abe89021af138f638729011
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437641"
 ---
 # <a name="brace-matching-in-a-legacy-language-service"></a>레거시 언어 서비스의 중괄호 일치
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "58985074"
  레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 중괄호 일치를 구현 하는 새로운 방법에 대 한 자세한 참조 [연습: 괄호 일치 표시](../../extensibility/walkthrough-displaying-matching-braces.md)합니다.  
   
 > [!NOTE]
->  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.  
+> 편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.  
   
  합니다 <xref:Microsoft.VisualStudio.Package.AuthoringSink> 클래스는 두 쌍을 지원 하 고 사용 하 여 데이터 집합을 가져와 합니다 <xref:Microsoft.VisualStudio.Package.AuthoringSink.MatchPair%2A> 및 <xref:Microsoft.VisualStudio.Package.AuthoringSink.MatchTriple%2A> 메서드.  
   

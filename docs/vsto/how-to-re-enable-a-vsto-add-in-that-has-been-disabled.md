@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8da3d003ea156ea3182ddbb5a5fd0da3c2681304
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9cdb05328d2a59eb61c57f8f028ade1af0f7ce2f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418809"
 ---
 # <a name="how-to-re-enable-a-vsto-add-in-that-has-been-disabled"></a>방법: VSTO 추가 기능을 비활성화 된 다시 사용 하도록 설정
   Microsoft Office 애플리케이션에서는 예기치 않게 동작하는 VSTO 추가 기능을 사용하지 않도록 설정할 수 있습니다. 디버그하려고 할 때 애플리케이션이 VSTO 추가 기능을 로드하지 않는 경우 애플리케이션에서 VSTO 추가 기능을 하드 비활성화 또는 소프트 비활성화했을 수 있습니다.
@@ -53,7 +53,7 @@ ms.locfileid: "60095076"
  소프트 비활성화는 VSTO 추가 기능에서 애플리케이션이 예기치 않게 닫히지 않는 오류를 생성하는 경우 수행됩니다. 예를 들어 <xref:Microsoft.Office.Tools.AddIn.Startup> 이벤트 처리기가 실행되는 동안 처리되지 않은 예외가 발생하는 경우 애플리케이션에서 VSTO 추가 기능을 소프트 비활성화할 수 있습니다.
 
 > [!NOTE]
->  소프트 비활성화된 VSTO 추가 기능을 다시 활성화하면 애플리케이션이 즉시 VSTO 추가 기능을 로드하려고 시도합니다. 애플리케이션이 처음에 VSTO 추가 기능을 소프트 비활성화하도록 만든 문제가 해결되지 않은 경우 애플리케이션에서 VSTO 추가 기능을 다시 소프트 비활성화합니다.
+> 소프트 비활성화된 VSTO 추가 기능을 다시 활성화하면 애플리케이션이 즉시 VSTO 추가 기능을 로드하려고 시도합니다. 애플리케이션이 처음에 VSTO 추가 기능을 소프트 비활성화하도록 만든 문제가 해결되지 않은 경우 애플리케이션에서 VSTO 추가 기능을 다시 소프트 비활성화합니다.
 
 ### <a name="to-re-enable-a-vsto-add-in"></a>VSTO 추가 기능을 다시 활성화하려면
 

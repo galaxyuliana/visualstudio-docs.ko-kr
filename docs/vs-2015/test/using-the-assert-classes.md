@@ -13,12 +13,12 @@ ms.assetid: da1b7a0d-4f1d-4d50-a07e-7b3ff60053f9
 caps.latest.revision: 29
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9b44932d9c9cd1defb691527fea40c4cf39d2fe5
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MTE95
+ms.openlocfilehash: 338a18bb48c20c20fa1f89583ed0d4af84c99d5e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54834624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408391"
 ---
 # <a name="using-the-assert-classes"></a>Assert 클래스 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ UnitTestingFramework 네임스페이스의 Assert 클래스를 사용하여 특�
  테스트 결과 Inconclusive 결과가 생성될 때마다 AssertInconclusiveException 예외가 throw됩니다. 일반적으로는 아직 작업 중엔 테스트에 Assert.Inconclusive 문을 추가하여 해당 테스트가 아직 실행할 준비가 되지 않았음을 나타냅니다.  
   
 > [!NOTE]
->  Ignore 특성을 사용하여 테스트 실행 준비가 되지 않았음을 표시하는 전략을 사용할 수도 있습니다. 그러나 이 전략을 사용하는 경우 구현 과정이 남아 있는 테스트 수에 대한 보고서를 쉽게 생성할 수 없다는 단점이 있습니다.  
+> Ignore 특성을 사용하여 테스트 실행 준비가 되지 않았음을 표시하는 전략을 사용할 수도 있습니다. 그러나 이 전략을 사용하는 경우 구현 과정이 남아 있는 테스트 수에 대한 보고서를 쉽게 생성할 수 없다는 단점이 있습니다.  
   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException>  
   

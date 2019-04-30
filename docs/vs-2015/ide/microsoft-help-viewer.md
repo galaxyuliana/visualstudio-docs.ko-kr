@@ -20,12 +20,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8572deb32ea5fab2ce8ad831deeaba783496cbc5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3a1e9a3abd6b16ae0365279a6eb9cb067bfeb225
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430862"
 ---
 # <a name="microsoft-help-viewer"></a>Microsoft 도움말 뷰어
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60104332"
 Microsoft 도움말 뷰어를 사용하여 로컬 컴퓨터에서 다양한 제품 및 기술에 대한 콘텐츠를 설치하고 볼 수 있습니다.  
   
 > [!WARNING]
->  Visual Studio를 설치하면 도움말 뷰어를 얻을 수 있습니다. MSDN 다운로드 사이트 대신 도움말 뷰어에서 도움말 항목을 읽기 시작하려면 Visual Studio에서 **도움말** 메뉴로 이동하고 **도움말 기본 설정 지정**을 선택한 다음, **도움말 뷰어에서 시작**을 선택합니다. 특정 버전의 Visual Studio에 대한 오프라인 도움말 항목은 해당 버전의 최종 릴리스 후에만 사용할 수 있습니다.  
+> Visual Studio를 설치하면 도움말 뷰어를 얻을 수 있습니다. MSDN 다운로드 사이트 대신 도움말 뷰어에서 도움말 항목을 읽기 시작하려면 Visual Studio에서 **도움말** 메뉴로 이동하고 **도움말 기본 설정 지정**을 선택한 다음, **도움말 뷰어에서 시작**을 선택합니다. 특정 버전의 Visual Studio에 대한 오프라인 도움말 항목은 해당 버전의 최종 릴리스 후에만 사용할 수 있습니다.  
   
  이 경우 다음 작업을 수행할 수 있습니다.  
   

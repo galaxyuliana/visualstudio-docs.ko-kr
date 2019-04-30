@@ -12,12 +12,12 @@ caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0accb5165b1aded6318012ffb07755a63222283c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: e39168e36e9540ec8c5e23a9030d996b81c4097c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972720"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431724"
 ---
 # <a name="how-to-search-for-a-process-in-processes-view"></a>방법: 프로세스 뷰에서 프로세스 검색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "58972720"
 4. 값을 지정 하지 않을 필드의 선택을 취소 합니다.  
   
    > [!TIP]
-   >  모듈을 소유 하는 모든 프로세스를 찾으려면의 선택을 취소 합니다 **프로세스** 상자 및 모듈 이름을 입력 합니다 **모듈** 상자. 사용 하 여 **다음 찾기** 프로세스에 대 한 검색을 계속 하려면.  
+   > 모듈을 소유 하는 모든 프로세스를 찾으려면의 선택을 취소 합니다 **프로세스** 상자 및 모듈 이름을 입력 합니다 **모듈** 상자. 사용 하 여 **다음 찾기** 프로세스에 대 한 검색을 계속 하려면.  
   
 5. 선택 **위로** 또는 **아래로** 검색 초기 방향에 대 한 합니다.  
   

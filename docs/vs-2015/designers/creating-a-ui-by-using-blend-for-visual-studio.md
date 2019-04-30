@@ -11,12 +11,12 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8fe6377de1be51ac0fc48904687b60ed8bbc95b1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 78d4f63e2dbe84b878916757d1015e3c6d534258
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436192"
 ---
 # <a name="creating-a-ui-by-using-blend-for-visual-studio"></a>Blend for Visual Studio를 사용하여 UI 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ Blend for Visual Studio를 사용하면 XAML 기반 Windows 데스크톱, 웹, [
  Blend for Visual Studio를 처음 접하는 경우 시간을 두고 작업 영역의 고유 기능을 익히세요. 이 항목에 이러한 작업 영역이 간단히 설명되어 있습니다.
 
 > [!NOTE]
->  아트보드, 문서 개요 창 및 디바이스 창과 같은 공유 디자인 기능을 둘러보려면 [XAML 디자이너를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)를 참조하세요.
+> 아트보드, 문서 개요 창 및 디바이스 창과 같은 공유 디자인 기능을 둘러보려면 [XAML 디자이너를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)를 참조하세요.
 
  **항목 내용**:
 

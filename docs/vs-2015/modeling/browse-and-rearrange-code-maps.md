@@ -24,12 +24,12 @@ caps.latest.revision: 91
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9b9744cf6d3ff8be30d06ffa877f96940fd20a24
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ffb29ee31390c512802bfd16c7b94333d0c6c403
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433417"
 ---
 # <a name="browse-and-rearrange-code-maps"></a>코드 맵 찾아보기 및 다시 정렬
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -103,7 +103,7 @@ ms.locfileid: "60055251"
 - 집계 링크는 두 그룹 간에 동일한 방향을 가리키는 모든 관계를 나타냅니다.  
   
 > [!TIP]
->  기본적으로 맵은 선택한 노드에 대한 그룹 간 링크만 표시합니다. 그룹 간의 집계 링크 숨기기 또는 표시 하려면이 동작을 변경 하려면 클릭 **레이아웃** 코드 맵 도구 모음 및 선택 **고급**, 한 다음 **그룹 간 링크 모두 표시** 또는 **모든 그룹 간 링크 숨기기**합니다. 참조 [show 노드 및 링크 숨기기 또는](#HidingShowing) 대 한 자세한 내용은 합니다.  
+> 기본적으로 맵은 선택한 노드에 대한 그룹 간 링크만 표시합니다. 그룹 간의 집계 링크 숨기기 또는 표시 하려면이 동작을 변경 하려면 클릭 **레이아웃** 코드 맵 도구 모음 및 선택 **고급**, 한 다음 **그룹 간 링크 모두 표시** 또는 **모든 그룹 간 링크 숨기기**합니다. 참조 [show 노드 및 링크 숨기기 또는](#HidingShowing) 대 한 자세한 내용은 합니다.  
   
 |**대상**|**다음이 단계를 수행 합니다.**|  
 |------------|-----------------------------|  
@@ -118,7 +118,7 @@ ms.locfileid: "60055251"
  노드를 숨기면 레이아웃 알고리즘에 참여하지 못합니다. 기본적으로 그룹 간 링크는 숨겨져 있습니다. 그룹 간 링크는 서로 다른 그룹에 있는 노드를 연결하는 개별 링크입니다. 그룹이 축소되어 있을 때 맵에서는 모든 그룹 간 링크가 하나의 그룹 간 링크로 집계됩니다. 그룹을 확장하고 그룹 내의 노드를 선택하면 그룹 간 링크가 나타나고 해당 그룹 내의 종속성이 표시됩니다.  
   
 > [!CAUTION]
->  Visual Studio Enterprise로 만든 맵을 Visual Studio Professional 사용자와 공유하기 전에 다른 사용자에게 표시할 노드 또는 그룹 간 링크를 숨기기 취소해야 합니다. 그렇지 않으면 해당 사용자가 해당 항목을 숨기기 취소할 수 없습니다.  
+> Visual Studio Enterprise로 만든 맵을 Visual Studio Professional 사용자와 공유하기 전에 다른 사용자에게 표시할 노드 또는 그룹 간 링크를 숨기기 취소해야 합니다. 그렇지 않으면 해당 사용자가 해당 항목을 숨기기 취소할 수 없습니다.  
   
 ### <a name="to-hide-or-show-nodes"></a>노드를 숨기거나 표시하려면  
   
@@ -153,7 +153,7 @@ ms.locfileid: "60055251"
  맵을 드릴다운하거나 단순화하기 위해 맵에 더 많거나 적은 항목을 표시할 수 있습니다. 항목 이름을 바꾸고 항목에 주석을 추가할 수도 있습니다.  
   
 > [!CAUTION]
->  Visual Studio Enterprise에서 만든 맵을 Visual Studio Professional 사용자와 공유하기 전에 다른 사용자에게 표시할 코드 요소가 맵에 표시되는지 확인합니다. 그렇지 않으면 해당 사용자가 삭제된 코드 요소를 검색할 수 없습니다.  
+> Visual Studio Enterprise에서 만든 맵을 Visual Studio Professional 사용자와 공유하기 전에 다른 사용자에게 표시할 코드 요소가 맵에 표시되는지 확인합니다. 그렇지 않으면 해당 사용자가 삭제된 코드 요소를 검색할 수 없습니다.  
   
 ### <a name="add-a-node-for-a-code-element"></a>코드 요소에 대한 노드 추가  
   
@@ -267,7 +267,7 @@ ms.locfileid: "60055251"
 3. 목록에 원하는 범주 또는 속성이 포함 되어 있지 않으면 선택 **+** 에 **범례** 상자에서 선택한 **노드 속성**, **노드 범주** , **연결 속성**, 또는 **범주를 연결**합니다. 그런 다음 속성 또는 범주를 선택합니다. 해당 범주 또는 속성에 나타납니다 합니다 **범례** 상자입니다.  
   
     > [!NOTE]
-    >  를 만들고 코드 요소에 범주 또는 속성을 할당 하려면 맵의.dgml 파일을 편집할 수 있습니다. 참조 [DGML 파일을 편집 하 여 사용자 지정 코드 맵](../modeling/customize-code-maps-by-editing-the-dgml-files.md)합니다.  
+    > 를 만들고 코드 요소에 범주 또는 속성을 할당 하려면 맵의.dgml 파일을 편집할 수 있습니다. 참조 [DGML 파일을 편집 하 여 사용자 지정 코드 맵](../modeling/customize-code-maps-by-editing-the-dgml-files.md)합니다.  
   
 4. 에 **범례** 상자, 범주 또는 추가한 속성 옆의 아이콘을 클릭 하거나 변경 하려면.  
   
@@ -290,7 +290,7 @@ ms.locfileid: "60055251"
     |특정 색 또는 아이콘|범주 또는 속성 값 목록을 엽니다. 색 또는 아이콘을 선택합니다.|  
   
     > [!NOTE]
-    >  다시 정렬, 삭제 또는의 스타일을 일시적으로 비활성화할 수는 **범례** 상자입니다. 참조 [범례 상자 편집](#ModifyLegend)합니다.  
+    > 다시 정렬, 삭제 또는의 스타일을 일시적으로 비활성화할 수는 **범례** 상자입니다. 참조 [범례 상자 편집](#ModifyLegend)합니다.  
   
 ## <a name="ModifyLegend"></a> 범례 상자 편집  
  다시 정렬, 삭제 또는의 스타일을 일시적으로 비활성화할 수는 **범례** 상자:  

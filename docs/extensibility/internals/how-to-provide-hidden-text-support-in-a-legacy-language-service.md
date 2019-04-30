@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e3bec39ca044b0558dfeb9603137571a61c96548
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e710f0ca097ef1808abc661e16cdff34c82bd348
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418484"
 ---
 # <a name="how-to-provide-hidden-text-support-in-a-legacy-language-service"></a>방법: 레거시 언어 서비스의 숨겨진된 텍스트 지원 제공
 개요 영역 외에도 숨겨진된 텍스트 영역을 만들 수 있습니다. 클라이언트에서 제어 되 나 편집기 제어 숨겨진된 텍스트 영역 수 및 텍스트 영역을 완전히 숨기는 데 사용 됩니다. 편집기는 가로선으로 숨겨진된 영역을 표시합니다. 이러한 예로 **스크립트만** HTML 편집기에서 보기.
@@ -35,13 +35,13 @@ ms.locfileid: "60078852"
      에 대 한 포인터를 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession> 개체가 반환 됩니다.
 
     > [!NOTE]
-    >  호출 하는 경우 `CreateHiddenTextSession`, 숨겨진된 텍스트 클라이언트를 지정할 수 있습니다 (즉, <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextClient>). 숨겨진된 텍스트 클라이언트 숨겨진된 텍스트 또는 개요 확장 또는 사용자가 축소 하는 경우이 알려 줍니다.
+    > 호출 하는 경우 `CreateHiddenTextSession`, 숨겨진된 텍스트 클라이언트를 지정할 수 있습니다 (즉, <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextClient>). 숨겨진된 텍스트 클라이언트 숨겨진된 텍스트 또는 개요 확장 또는 사용자가 축소 하는 경우이 알려 줍니다.
 
 4. 호출 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession.AddHiddenRegions%2A> 을 추가 하거나 더 많은 새로운 개요 영역 번에서 다음 정보를 지정 하는 `reHidReg` (<xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion>) 매개 변수:
 
     1. 값을 지정 `hrtConcealed` 에 `iType` 의 멤버는 <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> 개요 영역 보다는 숨겨진된 영역을 만드는 것을 나타내기 위해 구조입니다.
 
         > [!NOTE]
-        >  숨겨진된 영역 숨겨지면 편집기가 있는지 표시 하려면 숨겨진된 영역 주위에 선을 자동으로 표시 합니다.
+        > 숨겨진된 영역 숨겨지면 편집기가 있는지 표시 하려면 숨겨진된 영역 주위에 선을 자동으로 표시 합니다.
 
     2. 클라이언트에서 제어 되 나 편집기 제어에서 지역 인지 지정 합니다 `dwBehavior` 의 멤버는 <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> 구조. 스마트 개요 구현에는 다양 한 편집기 및 클라이언트 제어 개요 및 숨겨진된 텍스트 영역을 포함할 수 있습니다.

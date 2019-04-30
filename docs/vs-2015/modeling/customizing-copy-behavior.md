@@ -9,12 +9,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4a06ad526cd16335a664ae833f61cb0052a215fc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b88d3541bc9c3b2f890c2aadf0103c48d3dad865
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433294"
 ---
 # <a name="customizing-copy-behavior"></a>복사 동작 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -238,7 +238,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
  개체 복사, 붙여넣기, 만들기, 삭제와 관련한 대부분의 DSL 동작 측면은 다이어그램에 연결되는 <xref:Microsoft.VisualStudio.Modeling.ElementOperations> 인스턴스를 통해 규정됩니다. <xref:Microsoft.VisualStudio.Modeling.ElementOperations>에서 고유한 클래스를 파생시키고 다이어그램 클래스의 <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram.ElementOperations%2A> 속성을 재정의하여 DSL 동작을 수정할 수 있습니다.  
   
 > [!TIP]
->  프로그램 코드를 사용 하 여 모델을 사용자 지정 하는 방법에 대 한 자세한 내용은 참조 하세요. [탐색 및 업데이트 프로그램 코드에서 모델](../modeling/navigating-and-updating-a-model-in-program-code.md)합니다.  
+> 프로그램 코드를 사용 하 여 모델을 사용자 지정 하는 방법에 대 한 자세한 내용은 참조 하세요. [탐색 및 업데이트 프로그램 코드에서 모델](../modeling/navigating-and-updating-a-model-in-program-code.md)합니다.  
   
  ![복사 작업에 대 한 시퀀스 다이어그램](../modeling/media/dslcopyseqdiagram.png "dslCopySeqDiagram")  
   

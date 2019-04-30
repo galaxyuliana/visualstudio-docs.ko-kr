@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5ce63a9f5ab04748975521c225d207bee2b0937b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7e873250488bff50519cc12060841110325a48e8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430227"
 ---
 # <a name="shared-colors-for-visual-studio"></a>Visual Studio에 대 한 공유 색
 일반적인 Visual Studio 셸 요소를 사용 하는 UI를 디자인할 때나 사용자 인터페이스 요소를 유사한 기능과 일치 원하는 이름을 사용 하 여 기존 토큰 패키지 정의 파일에서 선택 하 고 색을 할당 합니다. 이렇게 하면 UI가 전체 Visual Studio 환경과 일관성 있게 유지되며 테마를 추가하거나 업데이트할 경우 자동으로 업데이트됩니다.
@@ -1413,7 +1413,7 @@ ms.locfileid: "60089566"
 #### <a name="BKMK_CommandDropDown"></a> 명령 모음 드롭다운
 
 > [!IMPORTANT]
->  드롭다운은 콤보 상자와 유사하지만 편집 가능한 텍스트 영역이 없습니다. 드롭다운에 편집 가능한 텍스트 영역이 포함 된 경우에 대 한 색 토큰을 사용 하 여 [명령 콤보 상자 모음](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox)합니다.
+> 드롭다운은 콤보 상자와 유사하지만 편집 가능한 텍스트 영역이 없습니다. 드롭다운에 편집 가능한 텍스트 영역이 포함 된 경우에 대 한 색 토큰을 사용 하 여 [명령 콤보 상자 모음](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandComboBox)합니다.
 
 ![드롭다운 표시줄 명령 (검토)](../../extensibility/ux-guidelines/media/0303-042_dropdownredline.png "0303 042_DropdownRedline")<br />드롭다운 표시줄 명령 (검토)
 

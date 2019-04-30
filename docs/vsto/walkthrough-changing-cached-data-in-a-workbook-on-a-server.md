@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3cb1793407b7baa3d290d43b0c0ef5a815cb8c40
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 386fee1c5c7da4eb06618d0afc522648b5248c6a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438641"
 ---
 # <a name="walkthrough-change-cached-data-in-a-workbook-on-a-server"></a>연습: 서버에서 통합 문서에서 캐시 된 데이터를 변경 합니다.
   이 연습에서는 Microsoft Office Excel 통합 문서에 사용 하 여 Excel을 시작 하지 않고 캐시 된 데이터 집합을 수정 하는 방법에 설명 합니다 <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 클래스입니다.
@@ -43,7 +43,7 @@ ms.locfileid: "60116968"
   이 연습에서는 개발 컴퓨터에서 코드를 실행 하는 가정 하지만이 연습에서 보여 주는 코드 Excel이 설치 되어 있지 않은 서버에서 사용할 수 있습니다.
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
@@ -269,7 +269,7 @@ ms.locfileid: "60116968"
    - <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> 통합 문서의 데이터 캐시에 액세스 하는 데 사용할 개체입니다.
 
      > [!NOTE]
-     >  다음 코드를 통합 문서를 사용 하는 것으로 가정 합니다 *.xlsx* 파일 확장명입니다. 프로젝트에서 통합 문서를 다른 파일 확장명을 가진, 경우에 필요에 따라 경로 수정 합니다.
+     > 다음 코드를 통합 문서를 사용 하는 것으로 가정 합니다 *.xlsx* 파일 확장명입니다. 프로젝트에서 통합 문서를 다른 파일 확장명을 가진, 경우에 필요에 따라 경로 수정 합니다.
 
      [!code-csharp[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/CSharp/AdventureWorksDataSet/DataWriter/Program.cs#6)]
      [!code-vb[Trin_CachedDataWalkthroughs#6](../vsto/codesnippet/VisualBasic/AdventureWorksDataSet/DataWriter/Module1.vb#6)]

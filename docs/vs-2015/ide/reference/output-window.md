@@ -17,12 +17,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9b373551444087ad8ff3789d927267a30efd5e4d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 335058a6521f10313c94cbfbdd9657348cc90963
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438070"
 ---
 # <a name="output-window"></a>출력 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "59668914"
 **출력** 창에는 IDE(통합 개발 환경)의 다양한 기능에 대한 상태 메시지가 표시될 수 있습니다. **출력** 창을 열려면 메뉴 모음에서 **보기/출력**을 선택합니다(또는 CTRL + ALT + O 클릭).  
   
 > [!WARNING]
->  Visual Studio Express 버전의 [보기] 메뉴에는 [출력] 창이 나타나지 않습니다. 창을 표시하려면 바로 가기 키 CTRL + ALT + O를 사용합니다.  
+> Visual Studio Express 버전의 [보기] 메뉴에는 [출력] 창이 나타나지 않습니다. 창을 표시하려면 바로 가기 키 CTRL + ALT + O를 사용합니다.  
   
 ## <a name="toolbar"></a>Toolbar  
  **출력 보기 선택**  

@@ -9,12 +9,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 14da091149f44d185d783c071f67294b7d2431e6
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
-ms.translationtype: MTE95
+ms.openlocfilehash: b9005b6cf7f23639481505a4727f8faa08241684
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58195023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433477"
 ---
 # <a name="javascript-in-visual-studio"></a>Visual Studio의 JavaScript
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ JavaScript는 Visual Studio의 고급 언어입니다. Visual Studio IDE에서 J
 - 웹 사이트 및 웹앱을 만들려면 [ASP.NET 사이트를 참조](http://www.asp.net/get-started/websites)하세요.
 
   > [!NOTE]
-  >  빈 ASP.Net 웹 사이트를 만들고 HTML, CSS 및 JavaScript 프로그래밍에 사용할 수 있습니다. ASP.NET에서 제공하는 Webconfig 파일을 통해 Visual Studio에서 디버깅을 사용할 수 있습니다(또는 앱을 실행하는 경우 F12 도구를 사용할 수 있음).
+  > 빈 ASP.Net 웹 사이트를 만들고 HTML, CSS 및 JavaScript 프로그래밍에 사용할 수 있습니다. ASP.NET에서 제공하는 Webconfig 파일을 통해 Visual Studio에서 디버깅을 사용할 수 있습니다(또는 앱을 실행하는 경우 F12 도구를 사용할 수 있음).
 
   Visual Studio의 JavaScript 편집기는 IntelliSense를 지원합니다. 자세한 내용은 [JavaScript IntelliSense](../ide/javascript-intellisense.md)를 참조하세요.
 

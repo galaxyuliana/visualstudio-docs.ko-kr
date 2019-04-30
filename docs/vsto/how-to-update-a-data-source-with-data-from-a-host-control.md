@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4d1e7bfd074b0ed7f6f1bcef99acf28f478a9c51
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 24bbd859b4867225e5ec5df95d298dd04146df46
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097494"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63421009"
 ---
 # <a name="how-to-update-a-data-source-with-data-from-a-host-control"></a>방법: 호스트 컨트롤의 데이터로 데이터 소스를 업데이트 합니다.
   호스트 컨트롤을 데이터 원본에 바인딩하고 해당 데이터 원본을 컨트롤에 있는 데이터의 변경 내용으로 업데이트할 수 있습니다. 이 프로세스는 크게 다음과 같은 두 가지 단계로 구성되어 있습니다.
@@ -61,7 +61,7 @@ ms.locfileid: "60097494"
    - 데이터 소스 컨트롤의 데이터 바인딩된 속성의 값이 변경 될 때를 업데이트 하려면 System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged에이 속성을 설정 합니다.
 
      > [!NOTE]
-     >  Word 제품 문서-변경 또는 컨트롤 변경 알림을 하지 않으므로 System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged 옵션은 Word 호스트 컨트롤에 적용 되지 않습니다. 그러나 Word 문서의 Windows Forms 컨트롤에 대해서는 이 옵션을 사용할 수 있습니다.
+     > Word 제품 문서-변경 또는 컨트롤 변경 알림을 하지 않으므로 System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged 옵션은 Word 호스트 컨트롤에 적용 되지 않습니다. 그러나 Word 문서의 Windows Forms 컨트롤에 대해서는 이 옵션을 사용할 수 있습니다.
 
      다음 예제에서는 컨트롤의 값이 변경될 때 자동으로 데이터 원본을 업데이트하기 위해 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤을 구성합니다. 이 예제에서는 해당 <xref:Microsoft.Office.Tools.Excel.NamedRange> 속성이 데이터 원본의 필드에 바인딩된 `namedRange1` 이라는 <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> 컨트롤이 있다고 가정합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "60097494"
     - 컨트롤의 데이터 바인딩된 속성 값이 변경될 때 데이터 원본을 업데이트하려면 **OnPropertyChanged**를 선택합니다.
 
         > [!NOTE]
-        >  **OnPropertyChanged** 옵션은 Word 호스트 컨트롤에는 적용되지 않습니다. Word가 문서 변경 또는 컨트롤 변경 알림을 제공하지 않기 때문입니다. 그러나 Word 문서의 Windows Forms 컨트롤에 대해서는 이 옵션을 사용할 수 있습니다.
+        > **OnPropertyChanged** 옵션은 Word 호스트 컨트롤에는 적용되지 않습니다. Word가 문서 변경 또는 컨트롤 변경 알림을 제공하지 않기 때문입니다. 그러나 Word 문서의 Windows Forms 컨트롤에 대해서는 이 옵션을 사용할 수 있습니다.
 
 6. **서식 지정 및 고급 바인딩** 대화 상자를 닫습니다.
 

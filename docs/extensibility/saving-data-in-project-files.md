@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 93c30d9966dabdf7ad7b42bbad6ecbae5679e636
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 53e227b2fdf97c406a86b31cee2a3c450948ee6b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434787"
 ---
 # <a name="save-data-in-project-files"></a>프로젝트 파일에서 데이터를 저장 합니다.
 프로젝트 하위 형식 저장 하 고 프로젝트 파일에서 하위 형식의 특정 데이터를 검색할 수 있습니다. 관리 패키지 프레임 워크 (MPF)는이 작업을 수행 하는 두 가지 인터페이스를 제공 합니다.
@@ -206,7 +206,7 @@ ms.locfileid: "60070340"
     ```
 
 > [!NOTE]
->  이 항목에서 제공 하는 모든 코드 예는에서 더 큰 예제의 부분 [VSSDK 샘플](https://aka.ms/vs2015sdksamples)합니다.
+> 이 항목에서 제공 하는 모든 코드 예는에서 더 큰 예제의 부분 [VSSDK 샘플](https://aka.ms/vs2015sdksamples)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [MSBuild 프로젝트 파일의 데이터를 유지 합니다.](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)

@@ -11,16 +11,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b0c2de0d0c50e562bc3e1d971bc771bbc521bfc7
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: e468c24690926cef62ba56e7b58a178580f90490
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56717691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411252"
 ---
 # <a name="implement-an-expression-evaluator"></a>식 계산기를 구현 합니다.
 > [!IMPORTANT]
->  Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
+> Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
 
  식을 평가 하 여 디버그 엔진 (DE), 기호 공급자 (SP), 바인더 개체 및 식 계산기 (EE) 간에 복잡 한 상호 작용입니다. 이러한 네 가지 구성 요소는 하나의 구성 요소에 의해 구현 되 고 다른 사용 하는 인터페이스에서 연결 됩니다.
 

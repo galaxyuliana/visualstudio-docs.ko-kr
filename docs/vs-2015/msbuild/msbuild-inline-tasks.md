@@ -11,12 +11,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 33e9bafcba14c65f6f117319180dad7538414885
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: cea0d72488bbd18972b2a2f6d87f21dfb32481d6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439357"
 ---
 # <a name="msbuild-inline-tasks"></a>MSBuild 인라인 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,7 +67,7 @@ MSBuild 작업은 일반적으로 <xref:Microsoft.Build.Framework.ITask> 인터�
   `Reference` 및 `Using` 요소는 언어와 관련이 없습니다. 인라인 작업은 지원되는 .NET CodeDom 언어 중 하나(예: Visual Basic 또는 Visual C#)로 작성할 수 있습니다.  
   
 > [!NOTE]
->  `Task` 요소에 의해 포함된 요소는 작업 팩터리(이 경우 코드 작업 팩터리)마다 고유합니다.  
+> `Task` 요소에 의해 포함된 요소는 작업 팩터리(이 경우 코드 작업 팩터리)마다 고유합니다.  
   
 ### <a name="code-element"></a>Code 요소  
  `Task` 요소 내에 마지막으로 나타나는 자식 요소는 `Code` 요소입니다. `Code` 요소는 작업으로 컴파일하려는 코드를 포함하거나 이러한 코드를 찾습니다. `Code` 요소에 포함하는 내용은 작업을 작성하려는 방법에 따라 다릅니다.  
@@ -87,7 +87,7 @@ MSBuild 작업은 일반적으로 <xref:Microsoft.Build.Framework.ITask> 인터�
   또는 `Code` 요소의 `Source` 특성을 사용하여 작업에 대한 코드를 포함하는 파일의 위치를 지정할 수 있습니다. 소스 파일의 코드는 `Type` 특성으로 지정된 형식이어야 합니다. `Source` 특성이 있으면 `Type`의 기본값은 `Class`입니다. `Source`가 없으면 기본값은 `Fragment`입니다.  
   
 > [!NOTE]
->  소스 파일에서 클래스 이름을 정의할 때 클래스 이름은 [UsingTask](../msbuild/usingtask-element-msbuild.md) 요소의 `TaskName` 특성에 부합되어야 합니다.  
+> 소스 파일에서 클래스 이름을 정의할 때 클래스 이름은 [UsingTask](../msbuild/usingtask-element-msbuild.md) 요소의 `TaskName` 특성에 부합되어야 합니다.  
   
 ## <a name="hello-world"></a>Hello World  
  다음은 좀 더 강력한 인라인 작업입니다. HelloWorld 작업은 일반적으로 시스템 콘솔 또는 Visual Studio **출력** 창에 해당하는 기본 오류 로깅 디바이스에 "Hello, world!"를 표시합니다. 이 예제의 `Reference` 요소는 단지 설명을 위해 포함되었습니다.  

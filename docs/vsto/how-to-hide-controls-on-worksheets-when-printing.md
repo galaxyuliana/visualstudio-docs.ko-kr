@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a236b30552007112663ad9f985ddc94995fe1ef8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bb7ee0a937e6cb901704763e1f4ead478d99e0e8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419439"
 ---
 # <a name="how-to-hide-controls-on-worksheets-when-printing"></a>방법: 인쇄할 때 워크시트에서 컨트롤 숨기기
   Windows Forms 컨트롤을 포함 하는 Microsoft Office Excel 문서를 인쇄할 때 컨트롤 인쇄 된 워크시트에 표시 됩니다. 워크시트를 인쇄할 때 컨트롤을 숨길 수 있습니다.
@@ -28,10 +28,10 @@ ms.locfileid: "60050026"
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
 
 > [!NOTE]
->  와 같은 데이터를 표시 하는 컨트롤을 숨기면는 <xref:Microsoft.Office.Tools.Excel.Controls.TextBox>, 컨트롤의 데이터 인쇄 된 워크시트에 표시 되지 것입니다.
+> 와 같은 데이터를 표시 하는 컨트롤을 숨기면는 <xref:Microsoft.Office.Tools.Excel.Controls.TextBox>, 컨트롤의 데이터 인쇄 된 워크시트에 표시 되지 것입니다.
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="to-hide-controls-when-a-worksheet-is-printed"></a>인쇄할 때 워크시트의 컨트롤을 숨기
 

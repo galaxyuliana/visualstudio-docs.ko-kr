@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1c21b3e03eba03503c769e07ca2a2d90c24c59dc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3780558efae860ca54739a139bdffd04494a73b5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411369"
 ---
 # <a name="attach-to-the-program"></a>프로그램에 연결
 적절 한 포트를 사용 하 여 프로그램을 등록 한 후에 디버그 하려는 프로그램에는 디버거를 연결 해야 합니다.
@@ -50,12 +50,12 @@ ms.locfileid: "60045229"
      반환 된 `GUID` 프로그램을 식별 하는 데 사용 되는 합니다. `GUID` 를 나타내는 로컬 프로그램 DE, 해당 반환 해야 하는 경우 개체에 저장 되어야 합니다는 `IDebugProgram2::GetProgramId` 메서드를 호출 합니다 `IDebugProgram2` 인터페이스입니다.
 
     > [!NOTE]
-    >  구현 하는 경우는 `IDebugProgramNodeAttach2` 프로그램의 인터페이스 `GUID` 에 전달 되는 `IDebugProgramNodeAttach2::OnAttach` 메서드. 이렇게 `GUID` 프로그램에 사용 됩니다 `GUID` 반환한는 `IDebugProgram2::GetProgramId` 메서드.
+    > 구현 하는 경우는 `IDebugProgramNodeAttach2` 프로그램의 인터페이스 `GUID` 에 전달 되는 `IDebugProgramNodeAttach2::OnAttach` 메서드. 이렇게 `GUID` 프로그램에 사용 됩니다 `GUID` 반환한는 `IDebugProgram2::GetProgramId` 메서드.
 
 3. 보내기는 [IDebugProgramCreateEvent2](../../extensibility/debugger/reference/idebugprogramcreateevent2.md) SDM을 알리는 이벤트 개체는 로컬 `IDebugProgram2` 는 DE에 프로그램을 나타내는 개체를 만든 합니다. 자세한 내용은 참조 하세요 [이벤트를 보내는](../../extensibility/debugger/sending-events.md)합니다.
 
     > [!NOTE]
-    >  이 다릅니다 `IDebugProgram2` 에 전달 된 개체는 `IDebugEngine2::Attach` 메서드. 이전에 전달 된 `IDebugProgram2` 개체 에서만 포트에서 인식 되 고 별도 개체입니다.
+    > 이 다릅니다 `IDebugProgram2` 에 전달 된 개체는 `IDebugEngine2::Attach` 메서드. 이전에 전달 된 `IDebugProgram2` 개체 에서만 포트에서 인식 되 고 별도 개체입니다.
 
 ## <a name="see-also"></a>참고자료
 - [실행 기반 첨부 파일](../../extensibility/debugger/launch-based-attachment.md)

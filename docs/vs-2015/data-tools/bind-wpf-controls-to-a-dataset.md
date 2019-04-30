@@ -18,12 +18,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 70fe24a642ef1bb5dc872f2b4e48438a26aaea07
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 80233f0786018bf1b4b18dbfa990a143d298f559
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439517"
 ---
 # <a name="bind-wpf-controls-to-a-dataset"></a>데이터 세트로 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -175,7 +175,7 @@ ms.locfileid: "60040004"
 4. **ThumbNailPhoto** 노드 옆의 드롭다운 메뉴를 클릭하고 **이미지**를 선택합니다.  
   
     > [!NOTE]
-    >  기본적으로 **데이터 원본** 창에서 사진을 나타내는 항목의 기본 컨트롤은 **없음**으로 설정되어 있습니다. 사진은 데이터베이스에서 바이트 배열로 저장되는데 바이트 배열은 단순한 바이트의 배열에서 대형 응용 프로그램의 실행 파일에 이르기까지 모든 항목을 포함할 수 있기 때문입니다.  
+    > 기본적으로 **데이터 원본** 창에서 사진을 나타내는 항목의 기본 컨트롤은 **없음**으로 설정되어 있습니다. 사진은 데이터베이스에서 바이트 배열로 저장되는데 바이트 배열은 단순한 바이트의 배열에서 대형 응용 프로그램의 실행 파일에 이르기까지 모든 항목을 포함할 수 있기 때문입니다.  
   
 5. **데이터 원본** 창에서 단추가 포함된 행 아래의 그리드 행으로 **Product** 노드를 끌어 옵니다.  
   
@@ -226,7 +226,7 @@ ms.locfileid: "60040004"
      [!code-vb[Data_WPFDATASET#4](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb#4)]  
   
     > [!NOTE]
-    >  이 예에서는 `Save`의 `TableAdapter` 메서드를 사용하여 변경 내용을 저장합니다. 이 연습에서는 데이터 테이블을 하나만 변경하므로 이러한 방식이 적절합니다. 여러 데이터 테이블의 변경 내용을 저장해야 하는 경우에는 데이터 집합과 함께 생성되는 `UpdateAll`의 `TableAdapterManager` 메서드를 사용할 수 있습니다. 자세한 내용은 [TableAdapterManager 개요](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)합니다.  
+    > 이 예에서는 `Save`의 `TableAdapter` 메서드를 사용하여 변경 내용을 저장합니다. 이 연습에서는 데이터 테이블을 하나만 변경하므로 이러한 방식이 적절합니다. 여러 데이터 테이블의 변경 내용을 저장해야 하는 경우에는 데이터 집합과 함께 생성되는 `UpdateAll`의 `TableAdapterManager` 메서드를 사용할 수 있습니다. 자세한 내용은 [TableAdapterManager 개요](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)합니다.  
   
 ## <a name="test-the-application"></a>애플리케이션 테스트  
  애플리케이션을 빌드 및 실행합니다. 제품 레코드를 보고 업데이트할 수 있는지 확인합니다.  

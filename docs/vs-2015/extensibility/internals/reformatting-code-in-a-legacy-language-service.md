@@ -11,12 +11,12 @@ ms.assetid: 08bb3375-8fef-4f4e-9efa-0d7333bab0eb
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8b4307caf3f76087867a942654b47bfe85c5011e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: eb0dac5e1282d544df9c04bf4c12303fb391739d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436637"
 ---
 # <a name="reformatting-code-in-a-legacy-language-service"></a>레거시 언어 서비스의 코드 서식 다시 지정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "58970999"
 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 소스 코드 들여쓰기 및 공백 사용을 정규화 하 여 서식이 다시 지정 될 수 있습니다. 이 삽입 또는 공백이 나 탭에서 각 줄의 시작 부분을 제거, 줄 사이 새 줄 추가 공간을 탭 또는 탭을 공백으로 바꿉니다 포함할 수 있습니다.  
   
 > [!NOTE]
->  **참고** 영향을 줄 바꿈 문자를 삭제 또는 삽입 중단점 및 책갈피 등의 마커를 줄 수 있지만 공백 또는 탭 추가 및 제거 표식에 영향을 주지 않습니다.  
+> **참고** 영향을 줄 바꿈 문자를 삭제 또는 삽입 중단점 및 책갈피 등의 마커를 줄 수 있지만 공백 또는 탭 추가 및 제거 표식에 영향을 주지 않습니다.  
   
  선택 하 여 사용자가 다시 포맷 작업을 시작할 수 있습니다 **선택 영역 서식** 또는 **문서 서식** 에서 합니다 **고급** 메뉴에서를 **편집**메뉴. 코드 조각 또는 특정 문자를 삽입할 때 다시 포맷 작업을 트리거할 수도 있습니다. 예를 들어 C#에서는 닫는 중괄호를 입력 하면 일치 하는 여는 중괄호 및 닫는 중괄호 사이의 모든 아닌 경우 적절 한 수준으로 자동으로 들여쓰기  
   

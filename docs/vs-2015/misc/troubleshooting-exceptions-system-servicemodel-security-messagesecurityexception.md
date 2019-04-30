@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ce4b5671d0e10d2f524ee96494d37cb68babe72a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6852b12e8a3cbc902770a2825d12697c12fc1760
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60058878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436544"
 ---
 # <a name="troubleshooting-exceptions-systemservicemodelsecuritymessagesecurityexception"></a>예외 문제 해결: System.ServiceModel.Security.MessageSecurityException
 A <xref:System.ServiceModel.Security.MessageSecurityException> 때 예외가 [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] 확인 메시지 보안이 잘못 되거나 손상 되었습니다. 이 오류는 다음 조건에 모두 해당될 때 가장 자주 발생합니다.  
@@ -35,7 +35,7 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> 때 예외가 [!I
  원격 사용자가 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Development Server를 통해 웹 사이트를 실행하면서 웹 서비스 또는 WCF 서비스를 함께 사용하는 경우 사용자 지정 서비스 바인딩을 만들거나 NTLM 보안을 해제할 수 있습니다.  
   
 > [!IMPORTANT]
->  보안 위협이 발생할 수 있으므로 NTLM 보안을 해제하지 않는 것이 좋습니다.  
+> 보안 위협이 발생할 수 있으므로 NTLM 보안을 해제하지 않는 것이 좋습니다.  
   
  사용자 지정 서비스 바인딩을 만들면 NTLM 인증에 따라 계속 보호받을 수 있습니다.  
   
@@ -74,7 +74,7 @@ A <xref:System.ServiceModel.Security.MessageSecurityException> 때 예외가 [!I
    WCF 서비스 참조를 사용하는 경우 다음 단계에 따라 NTLM 보안을 해제할 수 있습니다.  
   
 > [!IMPORTANT]
->  보안 위협이 발생할 수 있으므로 NTLM 보안을 해제하지 않는 것이 좋습니다.  
+> 보안 위협이 발생할 수 있으므로 NTLM 보안을 해제하지 않는 것이 좋습니다.  
   
 #### <a name="to-turn-off-ntlm-security"></a>NTLM 보안을 해제하려면  
   

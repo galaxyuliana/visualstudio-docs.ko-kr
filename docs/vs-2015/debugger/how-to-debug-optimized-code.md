@@ -23,23 +23,23 @@ caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 35a5fc722a0d7b2ececa4aaa198381cdd3390a7b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 529fd979912d1743967109a11933140b482c2caf
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435720"
 ---
 # <a name="how-to-debug-optimized-code"></a>방법: 최적화된 코드 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 참고]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 > [!NOTE]
->  [/Zo(최적화된 디버깅 향상)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f) 컴파일러 옵션(Visual Studio 업데이트 3에 추가)은 최적화된 프로젝트 코드에 대한 보다 다양한 디버깅 정보를 생성합니다. **/Od** 컴파일러 옵션으로 빌드하지 않은 프로젝트의 경우 [/O 옵션(코드 최적화)](http://msdn.microsoft.com/library/77997af9-5555-4b3d-aa57-6615b27d4d5d)을 참조하세요. 여기에는 지역 변수 및 인라인된 함수 디버깅에 대한 향상된 지원이 포함됩니다.  
+> [/Zo(최적화된 디버깅 향상)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f) 컴파일러 옵션(Visual Studio 업데이트 3에 추가)은 최적화된 프로젝트 코드에 대한 보다 다양한 디버깅 정보를 생성합니다. **/Od** 컴파일러 옵션으로 빌드하지 않은 프로젝트의 경우 [/O 옵션(코드 최적화)](http://msdn.microsoft.com/library/77997af9-5555-4b3d-aa57-6615b27d4d5d)을 참조하세요. 여기에는 지역 변수 및 인라인된 함수 디버깅에 대한 향상된 지원이 포함됩니다.  
 >   
->  [편집하며 계속하기](../debugger/edit-and-continue-visual-csharp.md)는 **/Zo** 컴파일러 옵션이 사용될 때는 사용되지 않습니다.  
+> [편집하며 계속하기](../debugger/edit-and-continue-visual-csharp.md)는 **/Zo** 컴파일러 옵션이 사용될 때는 사용되지 않습니다.  
   
  컴파일러는 코드를 최적화할 때 명령의 위치를 변경하고 재구성하여 더욱 효율적으로 코드를 컴파일합니다. 이렇게 컴파일러가 코드를 다시 정렬하기 때문에 디버거가 명령 집합에 해당하는 소스 코드를 항상 식별할 수 있는 것은 아닙니다.  
   
@@ -77,10 +77,10 @@ ms.locfileid: "58984724"
   
 8. `Custom`에 대해 `Optimization` 옵션을 선택한 경우 속성 목록에 있는 다른 속성에도 옵션을 설정할 수 있습니다.  
   
-9. 구성 속성, C/c + + 프로젝트 속성 페이지의 명령줄 노드를 선택 하 고 추가 `(` [/Zo](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f) `)` 하는 **추가 옵션** 입력란입니다.  
+9. 구성 속성, C를 선택 /C++, 줄 노드의 프로젝트 속성 페이지 명령 및 추가 `(` [/Zo](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f) `)` 하는 **추가 옵션** 텍스트 상자입니다.  
   
     > [!WARNING]
-    >  `/Zo`를 사용하려면 Visual Studio 2013 업데이트 3 이상이 필요합니다.  
+    > `/Zo`를 사용하려면 Visual Studio 2013 업데이트 3 이상이 필요합니다.  
     >   
     >  `/Zo`를 추가하면 [편집하며 계속하기](../debugger/edit-and-continue-visual-csharp.md)를 사용할 수 없습니다.  
   

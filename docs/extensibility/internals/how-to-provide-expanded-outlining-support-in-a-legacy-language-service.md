@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dfa2b4f659fc33a9a651d750cbd1b844a04f67a8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fc8a23cf97b1a490bfb5aa6b352a2e53f3f236c8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420553"
 ---
 # <a name="how-to-provide-expanded-outlining-support-in-a-legacy-language-service"></a>방법: 레거시 언어 서비스의 확장된 개요 표시 지원 제공
 초과 지 원하는 언어에 대 한 개요 표시 지원 확장을 위한 두 가지는 **정의 부분만 보이기** 명령입니다. 편집기 제어 개요 영역을 추가 하 고 클라이언트 제어 개요 영역을 추가할 수 있습니다.
@@ -51,6 +51,6 @@ ms.locfileid: "60105385"
 3. 텍스트 세션이 이미 있는 경우 1 및 기존에 대 한 포인터를 만들 필요가 없습니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession> 개체가 반환 됩니다. 이 포인터를 사용 하 여 열거 하 고 개요 영역을 만듭니다. 그렇지 않으면 호출 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextManager.CreateHiddenTextSession%2A> 버퍼에 대 한 숨겨진된 텍스트 세션을 만듭니다. 에 대 한 포인터를 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession> 개체가 반환 됩니다.
 
     > [!NOTE]
-    >  호출 하는 경우 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextManager.CreateHiddenTextSession%2A>, 숨겨진된 텍스트 클라이언트를 지정할 수 있습니다 (즉,는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextClient> 개체). 이 클라이언트를에 알립니다 때 숨겨진된 텍스트 또는 개요 영역 확장 또는 사용자가 축소 합니다.
+    > 호출 하는 경우 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextManager.CreateHiddenTextSession%2A>, 숨겨진된 텍스트 클라이언트를 지정할 수 있습니다 (즉,는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextClient> 개체). 이 클라이언트를에 알립니다 때 숨겨진된 텍스트 또는 개요 영역 확장 또는 사용자가 축소 합니다.
 
 4. 호출 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession.AddHiddenRegions%2A> 구조) 매개 변수: 값을 지정 <xref:Microsoft.VisualStudio.TextManager.Interop.HIDDEN_REGION_TYPE> 에 `iType` 의 멤버는 <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> 숨겨진된 영역 보다는 개요 영역을 만드는 것을 나타내기 위해 구조입니다. 지역 인지 클라이언트 제어 또는 편집기 제어에 지정 합니다 `dwBehavior` 의 멤버는 <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> 구조입니다. 스마트 개요 구현에는 다양 한 편집기 및 클라이언트 제어 개요 영역을 포함할 수 있습니다. 개요 지역을 축소 하면 "..." 등의 표시 되는 배너 텍스트를 지정 합니다 `pszBanner` 의 멤버는 <xref:Microsoft.VisualStudio.TextManager.Interop.NewHiddenRegion> 구조입니다. 숨겨진된 영역에 대 한 편집기의 기본 배너 텍스트는 "..."입니다.

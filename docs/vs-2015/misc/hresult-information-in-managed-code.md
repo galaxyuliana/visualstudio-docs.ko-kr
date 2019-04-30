@@ -10,12 +10,12 @@ helpviewer_keywords:
 ms.assetid: 0795ee94-17a8-4327-bf57-27cd5e312a4c
 caps.latest.revision: 29
 manager: jillfra
-ms.openlocfilehash: 2cbb93c5ecb3caf38b686a958d6daed845bdaec7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 53ff7b49414e3473c74a41008f381bb207e45fd0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63414671"
 ---
 # <a name="hresult-information-in-managed-code"></a>관리 되는 코드의 HRESULT 정보
 HRESULT 반환 값을 발견할 경우 관리 코드와 COM 간의 상호 작용으로 인해 문제가 발생할 수 있습니다.  
@@ -42,7 +42,7 @@ HRESULT 반환 값을 발견할 경우 관리 코드와 COM 간의 상호 작용
  기본적으로 <xref:Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure%2A>는 0보다 작은 값을 가진 HRESULT가 전달될 때마다 예외를 발생시킵니다. 이러한 HRESULT가 허용되는 값이며 예외가 발생하지 않아야 하는 경우 값이 테스트된 후에 추가 HRESULT 값을 <xref:Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure%2A>에 전달해야 합니다. 테스트되는 HRESULT가 <xref:Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure%2A>에 명시적으로 전달된 HRESULT 값과 일치하는 경우 예외가 발생하지 않습니다.  
   
 > [!NOTE]
->  <xref:Microsoft.VisualStudio.VSConstants> 클래스 일반적인 HRESULT에 대 한 예를 들어 상수를 포함 <xref:Microsoft.VisualStudio.VSConstants.S_OK> 하 고 <xref:Microsoft.VisualStudio.VSConstants.E_NOTIMPL>, 및 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] HRESULT, 예를 들어 <xref:Microsoft.VisualStudio.VSConstants.VS_E_INCOMPATIBLEDOCDATA> 및 <xref:Microsoft.VisualStudio.VSConstants.VS_E_UNSUPPORTEDFORMAT>합니다. 또한 <xref:Microsoft.VisualStudio.VSConstants>는 COM의 SUCCEEDED 및 FAILED 매크로에 해당하는 <xref:Microsoft.VisualStudio.ErrorHandler.Succeeded%2A> 및 <xref:Microsoft.VisualStudio.ErrorHandler.Failed%2A> 메서드를 제공합니다.  
+> <xref:Microsoft.VisualStudio.VSConstants> 클래스 일반적인 HRESULT에 대 한 예를 들어 상수를 포함 <xref:Microsoft.VisualStudio.VSConstants.S_OK> 하 고 <xref:Microsoft.VisualStudio.VSConstants.E_NOTIMPL>, 및 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] HRESULT, 예를 들어 <xref:Microsoft.VisualStudio.VSConstants.VS_E_INCOMPATIBLEDOCDATA> 및 <xref:Microsoft.VisualStudio.VSConstants.VS_E_UNSUPPORTEDFORMAT>합니다. 또한 <xref:Microsoft.VisualStudio.VSConstants>는 COM의 SUCCEEDED 및 FAILED 매크로에 해당하는 <xref:Microsoft.VisualStudio.ErrorHandler.Succeeded%2A> 및 <xref:Microsoft.VisualStudio.ErrorHandler.Failed%2A> 메서드를 제공합니다.  
   
  예를 들어 <xref:Microsoft.VisualStudio.VSConstants.E_NOTIMPL>은 허용되는 반환 값이지만 0보다 작은 다른 HRESULT는 오류를 나타내는 다음 함수 호출을 고려해 보세요.  
   
@@ -60,7 +60,7 @@ HRESULT 반환 값을 발견할 경우 관리 코드와 COM 간의 상호 작용
  어떤 예외를 발생시켜야 하는지 모르지만 COM에 반환하려는 HRESULT를 알고 있는 경우 <xref:System.Runtime.InteropServices.Marshal.ThrowExceptionForHR%2A> 메서드를 사용하여 적절한 예외를 발생시킬 수 있습니다. 이는 비표준 오류(예: <xref:Microsoft.VisualStudio.VSConstants.VS_E_INCOMPATIBLEDOCDATA>)에도 적용됩니다. <xref:System.Runtime.InteropServices.Marshal.ThrowExceptionForHR%2A>이 전달된 HRESULT를 강력한 형식의 예외에 매핑하려고 합니다. 매핑할 수 없는 경우 대신 일반 COM 예외를 발생시킵니다. 최종 결과로, 관리 코드에서 <xref:System.Runtime.InteropServices.Marshal.ThrowExceptionForHR%2A>에 전달하는 HRESULT가 호출한 COM 함수에 반환됩니다.  
   
 > [!NOTE]
->  예외가 발생하면 성능이 저하되며 비정상적인 프로그램 상태를 나타냅니다. 자주 발생하는 상태는 예외를 발생시키는 대신 인라인으로 처리해야 합니다.  
+> 예외가 발생하면 성능이 저하되며 비정상적인 프로그램 상태를 나타냅니다. 자주 발생하는 상태는 예외를 발생시키는 대신 인라인으로 처리해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [관리 되는 Vspackage](../misc/managed-vspackages.md)   

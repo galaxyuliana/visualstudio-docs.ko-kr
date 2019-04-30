@@ -9,12 +9,12 @@ caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e0bbf15c82f62ad61e538f48cec065a9ef806ad4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d76eb9882eaf51de031d886c15954df8d5180e25
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432710"
 ---
 # <a name="how-to-instrument-a-net-framework-service-and-collect-memory-data-by-using-the-profiler-command-line"></a>방법: .NET Framework 서비스 계측 및 Profiler 명령줄을 사용 하 여 수집 메모리 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,12 +22,12 @@ ms.locfileid: "60113614"
 이 항목에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구 명령줄 도구를 사용하여 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 서비스를 계측하고 메모리 사용량 데이터를 수집하는 방법에 대해 설명합니다. 메모리 할당 데이터를 수집하거나 메모리 할당 및 개체 수명 데이터를 수집할 수 있습니다.  
 
 > [!NOTE]
->  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 응용 프로그램의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
+> Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 응용 프로그램의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
 
 > [!NOTE]
->  컴퓨터가 시작된 후에 서비스(예: 운영 체제가 시작될 때 시작하는 서비스)를 다시 시작할 수 없는 경우 계측 방법으로 서비스를 프로파일링할 수 없습니다.  
+> 컴퓨터가 시작된 후에 서비스(예: 운영 체제가 시작될 때 시작하는 서비스)를 다시 시작할 수 없는 경우 계측 방법으로 서비스를 프로파일링할 수 없습니다.  
 >   
->  프로파일링 도구의 명령줄 도구는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.  
+> 프로파일링 도구의 명령줄 도구는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.  
 
 ## <a name="starting-the-profiling-session"></a>프로파일링 세션 시작  
  [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 서비스에서 성능 데이터를 수집하려면 [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) 도구를 사용하여 적절한 환경 변수를 초기화하고, [VSInstr.exe](../profiling/vsinstr.md) 도구를 사용하여 서비스 이진 파일의 계측된 복사본을 만듭니다.  
@@ -72,7 +72,7 @@ ms.locfileid: "60113614"
      **/start:sample** 옵션과 다음 옵션을 함께 사용할 수 있습니다.  
 
    > [!NOTE]
-   >  **/user** 및 **/crosssession** 옵션은 대개 서비스에 필요합니다.  
+   > **/user** 및 **/crosssession** 옵션은 대개 서비스에 필요합니다.  
 
    |                                 옵션                                  |                                                                                                                                                   설명                                                                                                                                                    |
    |-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

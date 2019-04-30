@@ -12,18 +12,18 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: a8fbc314580b106f5e1e8dae5a0a78d043d3940b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5097ecb0f7458e739def275d616eb344a2a6db0d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080906"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426562"
 ---
 # <a name="how-to-suppress-warnings-by-using-the-menu-item"></a>방법: 메뉴 항목을 사용하여 경고 표시 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 참고]
->  웹 사이트 프로젝트에서는 ISS(In source suppression)가 지원되지 않습니다.  
+> 웹 사이트 프로젝트에서는 ISS(In source suppression)가 지원되지 않습니다.  
   
  코드 분석 창을 사용하면 코드 분석 경고 표시를 숨길 수 있습니다. 경고 표시 숨김은 경고를 비활성화하는 것과 다릅니다. 경고를 표시 하지 않으려면 위반의 특정 인스턴스에만 적용 됩니다. 여전히 동일한 경고를 다른 위반 오류 목록 창에 보고 됩니다.  
   
@@ -42,4 +42,4 @@ ms.locfileid: "60080906"
      해당 경고가 표시되지 않고, 취소선이 그려진 상태로 경고가 코드 분석 창에 나타납니다.  
   
 > [!NOTE]
->  전역 비 표시 오류 파일의 대상이 되지 않은 비 표시 오류 나타납니다.
+> 전역 비 표시 오류 파일의 대상이 되지 않은 비 표시 오류 나타납니다.

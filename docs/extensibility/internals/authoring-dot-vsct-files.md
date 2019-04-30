@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 84c7a5194e48e73fbabf60b7c9ef89e6cb04d855
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 03e0f5a294dea1fda1e2d7c320fa0158de9bbb3a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60053085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415395"
 ---
 # <a name="author-vsct-files"></a>.Vsct 파일 작성
 이 문서에서는 작성 하는 방법을 보여 줍니다.는 *.vsct* 파일을 Visual Studio 통합된 개발 환경 (IDE)에 메뉴 항목, 도구 모음 및 기타 사용자 인터페이스 (UI) 요소를 추가 합니다. 이미 있지 않은 Visual Studio 패키지 (VSPackage) UI 요소를 추가 하는 경우 다음이 단계를 사용 하 여는 *.vsct* 파일입니다.
@@ -86,7 +86,7 @@ ms.locfileid: "60053085"
     설정 합니다 `guid` 및 `id` 의 특성을 `Menu` 요소와 설정은 `type` 원하는 메뉴 유형의 특성입니다. 설정할 수도 있습니다는 `priority` 특성을 상위 그룹에서 메뉴의 상대적 위치를 설정 합니다.
 
    > [!NOTE]
-   >  `priority` 특성 도구 모음과 상황에 맞는 메뉴에 적용 되지 않습니다.
+   > `priority` 특성 도구 모음과 상황에 맞는 메뉴에 적용 되지 않습니다.
 
 2. Visual Studio IDE에 있는 모든 명령 메뉴 및 도구 모음의 직계 자식만 명령 그룹으로 호스트 되어야 합니다. 새 메뉴 또는 도구 모음에 추가할 IDE, 이러한 새 명령 그룹을 포함 해야 합니다. 또한 명령을 시각적으로 그룹화 할 수 있도록 기존 메뉴 및 도구 모음에 명령 그룹을 추가할 수 있습니다.
 
@@ -99,14 +99,14 @@ ms.locfileid: "60053085"
    1. 설정 합니다 `guid` 및 `id` 각 특성 `Button` 요소와 설정의 `type` 특성을 원하는 단추의 종류입니다. 설정할 수도 있습니다는 `priority` 특성을 상위 그룹에서 명령의 상대적 위치를 설정 합니다.
 
        > [!NOTE]
-       >  사용 하 여 `type="button"` 표준 메뉴 명령 및 도구 모음의 단추에 대 한 합니다.
+       > 사용 하 여 `type="button"` 표준 메뉴 명령 및 도구 모음의 단추에 대 한 합니다.
 
    2. 에 `Button` 요소를 추가 [문자열](../../extensibility/strings-element.md) 포함 하는 요소는 [ButtonText](../../extensibility/buttontext-element.md) 요소 및 [CommandName](../../extensibility/commandname-element.md) 요소입니다. `ButtonText` 요소 메뉴 항목 또는 도구 모음 단추에 대 한 도구 설명에 대 한 텍스트 레이블을 제공 합니다. `CommandName` 요소 명령에 사용할 명령의 이름을 제공 합니다.
 
    3. 명령 아이콘이는 경우 만들기는 [아이콘](../../extensibility/icon-element.md) 요소에는 `Button` 요소를 설정 하 고 해당 `guid` 및 `id` 특성을 `Bitmap` 아이콘에 대 한 요소입니다.
 
        > [!NOTE]
-       >  도구 모음 단추에는 아이콘이 있어야 합니다.
+       > 도구 모음 단추에는 아이콘이 있어야 합니다.
 
    자세한 내용은 참조 하세요. [menucommand 합니다. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md)합니다.
 

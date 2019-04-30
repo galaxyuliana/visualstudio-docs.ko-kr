@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: be3fb721fd058f127b4d361c769d4cdfdc1e4b92
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 392afc210798611442a12d5f51f150ddc79f85ba
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408370"
 ---
 # <a name="walkthrough-writing-a-visualizer-in-visual-basic"></a>연습: Visual Basic에서 시각화 도우미 작성
 이 연습에서는 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]을 사용하여 간단한 시각화 도우미를 작성하는 방법을 보여 줍니다. 이 연습에서 만들 시각화 도우미는 Windows Forms 메시지 상자를 사용하여 문자열의 내용을 표시합니다. 이 간단한 문자열 시각화 도우미는 프로젝트에 더 유용하게 사용할 수 있는 다른 형식에 대한 시각화 도우미를 만드는 방법을 보여 주는 기본 예제입니다.
@@ -56,7 +56,7 @@ ms.locfileid: "60050891"
 2. 이름을 Class1.vb에서 DebuggerSide.vb 같은 의미 있는 이름으로 변경합니다.
 
    > [!NOTE]
-   >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서는 새 파일 이름과 일치하도록 DebuggerSide.vb의 클래스 선언이 자동으로 변경됩니다.
+   > [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서는 새 파일 이름과 일치하도록 DebuggerSide.vb의 클래스 선언이 자동으로 변경됩니다.
 
 3. **솔루션 탐색기**에서 **내 첫 번째 시각화 도우미**를 마우스 오른쪽 단추로 클릭하고 바로 가기 메뉴에서 **참조 추가**를 클릭합니다.
 

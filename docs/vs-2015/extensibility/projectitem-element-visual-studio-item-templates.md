@@ -13,12 +13,12 @@ ms.assetid: 9ed94112-0c38-49df-b728-0dd2d0d1eb47
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 29b65f5cff9e2ffbed3c66c29c61f0a7e9e50f20
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 4778603278bf07dc7b0a45544b4835d2ed2cbf8a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438353"
 ---
 # <a name="projectitem-element-visual-studio-item-templates"></a>ProjectItem 요소(Visual Studio 항목 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "58985807"
 항목 템플릿에 포함 된 파일을 지정 합니다.  
   
 > [!NOTE]
->  `ProjectItem` 요소는 프로젝트 또는 항목에 대 한 템플릿을 인지에 따라 다른 특성을 허용 합니다. 이 항목에 설명 합니다 `ProjectItem` 항목에 대 한 요소입니다. 에 대 한 설명은 합니다 `ProjectItem` 프로젝트 템플릿에 대 한 요소 참조 [ProjectItem 요소 (Visual Studio 프로젝트 템플릿)](../extensibility/projectitem-element-visual-studio-project-templates.md)합니다.  
+> `ProjectItem` 요소는 프로젝트 또는 항목에 대 한 템플릿을 인지에 따라 다른 특성을 허용 합니다. 이 항목에 설명 합니다 `ProjectItem` 항목에 대 한 요소입니다. 에 대 한 설명은 합니다 `ProjectItem` 프로젝트 템플릿에 대 한 요소 참조 [ProjectItem 요소 (Visual Studio 프로젝트 템플릿)](../extensibility/projectitem-element-visual-studio-project-templates.md)합니다.  
   
  \<VSTemplate>  
  \<TemplateContent>  

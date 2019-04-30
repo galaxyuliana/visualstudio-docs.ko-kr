@@ -12,16 +12,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b7621508c069d21e7d90d7477254fe03468b0ea3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 59c7ec2b6313ee27fc46c778f8b19e104b169273
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56722527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63421476"
 ---
 # <a name="writing-a-common-language-runtime-expression-evaluator"></a>공용 언어 런타임 식 계산기 작성
 > [!IMPORTANT]
->  Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
+> Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
 
  식 계산기 (EE) 구문을 처리 하는 디버그 엔진 (DE)의 일부 이며 디버깅 중인 코드를 생성 하는 프로그래밍 언어의 의미 체계. 프로그래밍 언어의 컨텍스트 내에서 식 평가 되어야 합니다. 예를 들어, 일부 언어에서 식 "A + B" 의미 "합계 a와 B" 다른 언어에서는 같은 식 것일 수 "는 또는 2." 따라서 별도 EE 써야 Visual Studio IDE에서 코드를 디버깅할 개체를 생성 하는 각 프로그래밍 언어에 대 한 합니다.
 

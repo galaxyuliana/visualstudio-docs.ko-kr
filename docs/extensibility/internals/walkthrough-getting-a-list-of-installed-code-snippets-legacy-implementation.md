@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4635030dad4b43aa27294c8425a70d3f53e5715e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 910ee20cf08c1d5a42e6b6a430f7b51ccddf4925
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429370"
 ---
 # <a name="walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation"></a>연습: 설치된 코드 조각 목록 가져오기(레거시 구현)
 코드 조각에서 키나 메뉴 명령 (허용 하는 설치 된 코드 조각 목록 중에서 선택)를 사용 하 여 원본 버퍼에 삽입할 수 있는 코드는 IntelliSense 완성 목록에서 조각 바로 가기를 선택 합니다.
@@ -106,7 +106,7 @@ ms.locfileid: "60056850"
 1. 다음 메서드를 호출 하는 방법을 보여 줍니다는 `GetSnippets` 메서드 구문 분석 작업을 완료 합니다. 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.OnParseComplete%2A> 이유인 시작 된 구문 분석 작업을 수행한 후 메서드는 <xref:Microsoft.VisualStudio.Package.ParseReason>합니다.
 
 > [!NOTE]
->  `expansionsList` 성능상의 이유로 배열 목록을 캐시 됩니다. 언어 서비스를 중지 하 고 다시 로드 될 때까지 목록에 코드 변경 내용이 반영 되지 않습니다 (예를 들어, 중지 및 다시 시작 하 여 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]).
+> `expansionsList` 성능상의 이유로 배열 목록을 캐시 됩니다. 언어 서비스를 중지 하 고 다시 로드 될 때까지 목록에 코드 변경 내용이 반영 되지 않습니다 (예를 들어, 중지 및 다시 시작 하 여 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]).
 
 ```csharp
 class TestLanguageService : LanguageService

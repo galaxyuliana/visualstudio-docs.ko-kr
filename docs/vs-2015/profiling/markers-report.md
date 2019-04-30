@@ -11,12 +11,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 20e9ece55f1e17c874832f473236dfbae7684c54
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MTE95
+ms.openlocfilehash: 97705dab6f11ca0d9d51c27bfc56d315b454bc52
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54833854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439216"
 ---
 # <a name="markers-report"></a>표식 보고서
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,4 +44,4 @@ ms.locfileid: "54833854"
   표식 보고서를 CSV 파일로 저장하려면 **내보내기** 단추를 선택합니다. CSV 파일의 데이터는 다른 응용 프로그램 또는 도구에서 사용할 수 있습니다.  
   
 > [!NOTE]
->  표식 보고서는 1,000개의 표식을 표시할 수 있습니다. 모든 표식을 보려면 전체 보고서를 CSV 파일로 내보냅니다.
+> 표식 보고서는 1,000개의 표식을 표시할 수 있습니다. 모든 표식을 보려면 전체 보고서를 CSV 파일로 내보냅니다.

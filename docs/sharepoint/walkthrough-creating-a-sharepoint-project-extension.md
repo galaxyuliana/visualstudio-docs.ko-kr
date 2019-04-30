@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 832af0383d2ff00b4f2d415257abdfbe3ad4bf91
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: aa310539b3a36d78137f336b8fea8f40a5d459ca
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430410"
 ---
 # <a name="walkthrough-create-a-sharepoint-project-extension"></a>연습: SharePoint 프로젝트 확장명 만들기
   이 연습에는 SharePoint 프로젝트 확장을 만드는 방법을 보여 줍니다. 프로젝트를 추가, 삭제 또는 이름이 같은 프로젝트 수준 이벤트에 응답 하는 프로젝트 확장명을 사용할 수 있습니다. 사용자 지정 속성을 추가 하거나 속성 값이 변경 될 때 응답할 수도 있습니다. 프로젝트 항목 확장 달리 프로젝트 확장명을 특정 SharePoint 프로젝트 형식과 사용 하 여 연결할 수 없습니다. 확장 로드에서 모든 종류의 SharePoint 프로젝트를 열면 프로젝트 확장을 만들면 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다.
@@ -65,7 +65,7 @@ ms.locfileid: "60062355"
 3. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 노드를 선택한 후 합니다 **확장성** 노드.
 
     > [!NOTE]
-    >  이 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
+    > 이 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
 
 4. 선택 대화 상자의 맨 위에 있는 **.NET Framework 4.5** 버전의.NET Framework의 목록에서를 선택 합니다 **VSIX 프로젝트** 템플릿.
 
@@ -143,7 +143,7 @@ ms.locfileid: "60062355"
 6. 에 **형식** 목록에서 선택 **Microsoft.VisualStudio.MefComponent**합니다.
 
     > [!NOTE]
-    >  이 값에 해당 하는 `MEFComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
+    > 이 값에 해당 하는 `MEFComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
 
 7. 에 **원본** 목록에서 선택 합니다 **현재 솔루션의 프로젝트** 옵션 단추입니다.
 

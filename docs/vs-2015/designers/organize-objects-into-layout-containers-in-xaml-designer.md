@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3ca6fc205585d832f4dadc5f4ce4709a71c7b6fe
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5c2aef08695d2cea04d23a343d318680bc53f44c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432593"
 ---
 # <a name="organize-objects-into-layout-containers-in-xaml-designer"></a>XAML 디자이너에서 개체를 레이아웃 컨테이너로 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "60059203"
  이 페이지에서는 레이아웃 패널 및 컨트롤에 대해 설명하고 패널 및 컨트롤을 시작하는 데 도움이 되는 짧은 비디오로 안내해 줍니다.  
   
 > [!NOTE]
->  동영상 중 일부에서는 Visual Studio 및 Blend for Visual Studio와 동일한 XAML 디자이너를 사용하는 Blend 또는 Expression Blend를 다룰 수 있습니다.  
+> 동영상 중 일부에서는 Visual Studio 및 Blend for Visual Studio와 동일한 XAML 디자이너를 사용하는 Blend 또는 Expression Blend를 다룰 수 있습니다.  
   
 ## <a name="layout-panels"></a>레이아웃 패널  
  다음 레이아웃 패널 중 하나를 선택하여 페이지를 시작합니다. 페이지에 둘 이상의 레이아웃 패널을 지정할 수 있습니다. 예를 들어 **Grid** 레이아웃 패널에서 시작한 후 **Grid**의 영역에 **StackPanel**을 추가하여 해당 요소에서 컨트롤을 세로로 정렬할 수 있습니다.  

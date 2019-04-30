@@ -18,12 +18,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f4d3d15f6d38ab494c586f22cc428d5e00442e84
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 87612ebc9bbcaf14bdf25d91a4e5dbe018c22143
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56617004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428762"
 ---
 # <a name="supporting-symbol-browsing-tools"></a>기호 검색 도구 지원
 **개체 브라우저**, **클래스 뷰**를 **호출 브라우저** 하 고 **기호 찾기 결과** 도구는 Visual Studio의 기능을 검색 하는 기호를 제공 합니다. 이러한 도구는 기호의 계층적 트리 보기를 표시 하 고 트리에서 기호 사이의 관계를 보여 줍니다. 네임 스페이스, 개체, 클래스, 클래스 멤버 및 다양 한 구성 요소에 포함 된 다른 언어 요소에 기호를 나타낼 수 있습니다. 구성 요소에는 Visual Studio 프로젝트의 경우 외부 포함 [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] 구성 요소 및 형식 (.tlb) 라이브러리. 자세한 내용은 [코드 구조 보기](../../ide/viewing-the-structure-of-code.md)를 참조하세요.
@@ -46,9 +46,9 @@ ms.locfileid: "56617004"
  합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] manager 호출은 개체는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetExpandable3%2A> 경우 지정 된 목록 항목을 확장할 수 있고 자식 항목을 확인 하는 방법입니다. 개체 관리자를 호출 하 여 기호의 자식 목록 요청 UI 요소를 확장 하는 요청을 보내는 경우를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetList2%2A> 메서드. 필요에 따라 빌드되는 트리의 다른 부분을 사용 하 여 프로세스가 계속 됩니다.
 
 > [!NOTE]
->  네이티브 코드 기호 공급자를 구현 하려면 사용 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsLibrary2> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> 인터페이스입니다.
+> 네이티브 코드 기호 공급자를 구현 하려면 사용 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsLibrary2> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> 인터페이스입니다.
 
 ## <a name="see-also"></a>참고 항목
 - [방법: 개체 관리자에 라이브러리 등록](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)
-- [방법: 개체 관리자에 라이브러리에서 제공 하는 기호 목록을 표시 합니다.](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)
+- [방법: 라이브러리에서 제공하는 기호 목록을 개체 관리자에 노출](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)
 - [방법: 라이브러리의 기호 식별](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)

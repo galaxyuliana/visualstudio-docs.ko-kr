@@ -11,12 +11,12 @@ ms.assetid: 617439dc-3f0e-4e5f-b346-3e4e7fcf3c1b
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 66ca9a6176fc17784e79e5c4f3ad633a8c685854
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 163eb0f23716fa2f036d07612b741c0c9419b92e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408473"
 ---
 # <a name="statement-completion-in-a-legacy-language-service"></a>레거시 언어 서비스의 명령문 완성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "58983251"
  레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 문 완성 기능을 구현 하는 새로운 방법에 대 한 자세한 참조 [연습: 문 완성 표시](../../extensibility/walkthrough-displaying-statement-completion.md)합니다.  
   
 > [!NOTE]
->  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.  
+> 편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.  
   
 ## <a name="implementing-statement-completion"></a>문 완성 구현  
  문 완성 코어 편집기에서 대화형으로 사용 하면 더 쉽게 하 고 신속 하 게 코드를 작성 하는 특별 한 UI를 활성화 합니다. 문 완성 표시 하 여 관련 개체 또는 클래스는 필요할 때 특정 요소를 기억할 필요가 도움말 참조 항목에서 조회 하거나이 방지 하는 기능입니다.  

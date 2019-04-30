@@ -13,12 +13,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0edf1d1da0538c33556af84913c5bb959a0328c7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: ea59822ebc568e843433f28f6e9b23f4df96fdb2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387002"
 ---
 # <a name="idiasymbolgetvirtualbasetabletype"></a>IDiaSymbol::get_virtualBaseTableType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ HRESULT get_virtualBaseTableType(
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
   
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
   
 ## <a name="remarks"></a>설명  
  가상 기본 테이블 대 한 포인터 (`vbtptr`)에 대 한 숨겨진 포인터가 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] vtable 가상 기본 클래스에서 상속을 처리 하는 합니다. `vbtptr` 상속 된 클래스에 따라 다양 한 크기를 가질 수 있습니다.  

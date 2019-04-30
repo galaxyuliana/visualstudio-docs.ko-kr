@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8af9386d192c6dd96669dbfada298317cf5fe0e5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 1378cddbc9770af923a98f1b7083a8792874b5b3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429279"
 ---
 # <a name="merge-xml-in-feature-and-package-manifests"></a>기능 및 패키지 매니페스트에서 XML 병합
   기능과 패키지 정의한 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 매니페스트 파일. 이러한 패키지 매니페스트 디자이너와 사용자 지정에서 생성 된 데이터의 조합인 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 가 매니페스트 템플릿을 입력 합니다. 패키징 시 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 사용자 지정 병합 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 디자이너 제공를 사용 하 여 문을 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 하 여 패키지 된 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 매니페스트 파일. 유사한 요소 병합 예외의 뒷부분에 설명 된 예외를 사용 하 여 병합 하지 않으려면 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 유효성 검사 오류를 SharePoint에 파일을 배포한 후 더 작고 효율적으로 파일 매니페스트를 확인 합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "56646306"
 |CustomUpgradeActionParameter|이름|
 
 > [!NOTE]
->  CustomUpgradeAction 요소를 수정 하는 유일한 방법은 사용자 지정 이므로 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 편집기 없습니다를 병합 한 결과 부족 합니다.
+> CustomUpgradeAction 요소를 수정 하는 유일한 방법은 사용자 지정 이므로 [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] 편집기 없습니다를 병합 한 결과 부족 합니다.
 
 ## <a name="package-manifest-elements"></a>패키지 매니페스트 요소
  다음 표는 병합할 수 있는 모든 패키지 매니페스트 요소 및 일치에 사용 되는 고유 키의 목록입니다.

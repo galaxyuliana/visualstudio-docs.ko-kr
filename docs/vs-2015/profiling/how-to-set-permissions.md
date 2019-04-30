@@ -15,12 +15,12 @@ caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d44ae7d3eb4c01434e2a8b6f2cf7c0391c749ad7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 03991f3d5900377ceca5464bf41cfb90fcae650e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440589"
 ---
 # <a name="how-to-set-permissions"></a>방법: 사용 권한 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "60114576"
   사용자 그룹의 멤버는 관리자가 해당 사용자에게 프로파일링 도구의 소프트웨어 드라이버에 대한 액세스 권한을 부여한 경우 프로파일링 도구를 실행할 수 있습니다. 마지막 절차 “프로파일링 드라이버에 대한 액세스 권한을 부여하려면"에서는 이 드라이버에 대한 액세스 권한을 부여하는 방법을 설명합니다.  
   
 > [!NOTE]
->  이러한 절차의 단계를 수행하려면 관리자 권한이 필요합니다.  
+> 이러한 절차의 단계를 수행하려면 관리자 권한이 필요합니다.  
   
 ### <a name="to-create-a-user-account-that-has-user-permissions"></a>사용자 권한을 가진 사용자 계정을 만들려면  
   

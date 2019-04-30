@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 567eba3da4856cd88a583bf614d5afbc13e77b0d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0aa124d25e279b7e44292645d81d80829f5d3f8f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60074923"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420193"
 ---
 # <a name="how-to-customize-a-sharepoint-solution-package"></a>방법: SharePoint 솔루션 패키지 사용자 지정
   패키지 디자이너를 사용 하 여를 만들고 패키지를 사용자 지정할 수 있습니다 (*.wsp*). 예를 들어 웹 서버의 솔루션이 배포 될 때 다시 설정 및 배포 서버 유형을 설정 하는 경우 지정할에 SharePoint 프로젝트 항목 및 기능을 추가할 수 있습니다.
@@ -47,7 +47,7 @@ ms.locfileid: "60074923"
 2. 패키지를 확장 하 고 패키지를 확장 한 다음이 엽니다는 *Package.Template.xml* 파일입니다.
 
     > [!NOTE]
-    >  패키지 템플릿에 대 한 매니페스트 XML 파일을 열면 파일을 자동으로 확인 되 면 및 오류 목록 창에 표시 되는 경고를 무시할 수 있습니다.
+    > 패키지 템플릿에 대 한 매니페스트 XML 파일을 열면 파일을 자동으로 확인 되 면 및 오류 목록 창에 표시 되는 경고를 무시할 수 있습니다.
 
 ## <a name="change-the-manifest-template"></a>매니페스트 템플릿을 변경합니다
  Visual Studio XML 편집기에서 매니페스트 템플릿 창에 패키지 된 매니페스트 파일에 대 한 XML 코드를 변경할 수 있습니다. XML 코드를 변경 된 패키지에 대 한 패키지 매니페스트 파일에 병합 됩니다.
@@ -68,7 +68,7 @@ ms.locfileid: "60074923"
  패키지 디자이너를 사용 하지 않도록 설정 하 고 만들 수 있습니다 합니다 *manifest.xml* 파일을 수동으로 백업 합니다. 이 절차를 수행 하는 처음으로 패키지 디자이너의 현재 설정은 패키지 템플릿 XML 파일에 저장 됩니다. 그런 다음 수정 하거나 XML 코드를 덮어쓸 수 있습니다.
 
 > [!NOTE]
->  를 추가 하거나 패키지 디자이너를 사용 하지 않도록 설정 하는 동안 XML 파일에서 SharePoint 프로젝트 항목 및 기능을 제거 하는 경우 이러한 프로젝트 항목 및 기능은 패키지 되지 않습니다.
+> 를 추가 하거나 패키지 디자이너를 사용 하지 않도록 설정 하는 동안 XML 파일에서 SharePoint 프로젝트 항목 및 기능을 제거 하는 경우 이러한 프로젝트 항목 및 기능은 패키지 되지 않습니다.
 
 #### <a name="to-overwrite-packaged-manifest-file-by-disabling-the-designer"></a>디자이너를 사용 하지 않도록 설정 하 여 패키지 매니페스트 파일을 덮어쓸 수
 

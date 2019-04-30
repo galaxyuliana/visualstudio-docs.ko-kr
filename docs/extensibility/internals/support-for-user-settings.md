@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7f7fbb6c8e6a6310b736ade599ad7854bc4255c0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ece6ecc2d7a1a49d77643e18beced76403c13cc5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428772"
 ---
 # <a name="support-for-user-settings"></a>사용자 설정 지원
 VSPackage를 사용자가 유지 되는 상태 변수 그룹이 있는 하나 이상의 설정 범주를 정의할 수 있습니다 합니다 **설정 가져오기/내보내기** 명령을 합니다 **도구** 메뉴. 이 지 속성을 사용 하려면 설정을 Api 사용에 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]합니다.
@@ -34,7 +34,7 @@ VSPackage를 사용자가 유지 되는 상태 변수 그룹이 있는 하나 �
  다음 위치에 레지스트리 항목을 사용자 지정 설정 지점은 생성 됩니다. HKLM\Software\Microsoft\VisualStudio\\*\<버전 >* \UserSettings\\`<CSPName>`여기서 `<CSPName>` 에서 VSPackage에서 지 원하는 사용자 지정 설정 지점 이름으로는 및  *\<버전 >* 의 버전이 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 예를 들어 8.0입니다.
 
 > [!NOTE]
->  루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)가 초기화 합니다. 자세한 내용은 [명령줄 스위치](../../extensibility/command-line-switches-visual-studio-sdk.md)합니다.
+> 루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)가 초기화 합니다. 자세한 내용은 [명령줄 스위치](../../extensibility/command-line-switches-visual-studio-sdk.md)합니다.
 
  레지스트리 항목의 구조는 아래 나와 있습니다.
 

@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4f2c79787317c3d759322e5bd7f7beed4a43892a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e39ea4041ab9806c7ca857680af5c5c04510eba9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60057734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430695"
 ---
 # <a name="walkthrough-create-a-site-column-content-type-and-list-for-sharepoint"></a>연습: SharePoint 용 사이트 열, 콘텐츠 형식 및 목록 만들기
   다음 절차에는 사용자 지정 SharePoint 사이트 열을 만드는 방법을 보여 줍니다-또는 *필드*-사이트 열을 사용 하는 콘텐츠 형식 및 합니다. 또한 새 콘텐츠 형식을 사용 하는 목록을 만드는 방법을 보여 줍니다.
@@ -112,7 +112,7 @@ ms.locfileid: "60057734"
 6. 콘텐츠 형식 다음 디자이너가 표시 되 면에 **열** 탭에서 이전에 정의한 열을 세 개의 사이트를 추가 합니다. **환자 이름을**, **환자 ID**, 및 **의사 이름이**합니다. 이러한 열을 추가 하려면 첫 번째 목록 상자에서 사이트 열 목록에서 선택 **표시 이름**를 한 번에 하나의 목록에 각 사이트 열을 선택 합니다.
 
     > [!TIP]
-    >  사이트 열을 더 빨리 선택 하려면 열 이름의 처음 몇 글자를 입력 하 여 목록을 필터링 합니다.
+    > 사이트 열을 더 빨리 선택 하려면 열 이름의 처음 몇 글자를 입력 하 여 목록을 필터링 합니다.
 
 7. 세 가지 사용자 지정 사이트 열 외에도 추가 합니다 **주석을** 사이트 열 목록에서 사이트 열입니다.
 
@@ -164,7 +164,7 @@ ms.locfileid: "60057734"
      사용자 지정 목록 열이이 목록에만 적용 됩니다. 사용자 지정 목록 열 목록에 추가 하면 목록에 추가 된 모든 열을 포함 하 여 새 목록 내용 유형은 생성 되어 기본 목록으로 설정 됩니다.
 
     > [!TIP]
-    >  사이트 열 목록에서 열을 선택 하는 경우 기존 사이트 열이 사용 됩니다. 그러나 목록에서 열을 선택 하지 않고 열 이름 값을 입력 하는 경우 사용자 지정 목록 열 만들어지면 동일한 이름의 열이 목록에 이미 있는 경우에 합니다.
+    > 사이트 열 목록에서 열을 선택 하는 경우 기존 사이트 열이 사용 됩니다. 그러나 목록에서 열을 선택 하지 않고 열 이름 값을 입력 하는 경우 사용자 지정 목록 열 만들어지면 동일한 이름의 열이 목록에 이미 있는 경우에 합니다.
 
      사용자 지정 목록 열에 대 한 데이터 형식을 설정 하는 대신 필요에 따라 **한 줄 텍스트**, 조회 하려면이 열에 대 한 데이터 형식 대신 설정할 수 있습니다 및 테이블 또는 다른 목록에서 해당 값을 검색할 수는 있습니다. 조회 열에 대 한 정보를 참조 하세요 [SharePoint 2010에서 목록 관계](http://go.microsoft.com/fwlink/?LinkId=224994) 하 고 [조회 및 목록 관계](http://go.microsoft.com/fwlink/?LinkID=224995)합니다.
 

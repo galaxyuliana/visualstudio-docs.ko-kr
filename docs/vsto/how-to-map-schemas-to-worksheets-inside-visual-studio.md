@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ae63dd41e18b9226967b77b8adec2f45d05d9447
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 80a19924aaf4fa0afe8e809006ada7fada0288f3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60057175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428113"
 ---
 # <a name="how-to-map-schemas-to-worksheets-inside-visual-studio"></a>방법: Visual Studio 내에서 워크시트에 스키마 매핑
   워크시트 Visual Studio에서 열려 있는 동안 워크시트에 XML 스키마를 매핑할 수 있습니다. Visual Studio 외부에서 통합 문서가 열려 있을 때 사용 하는 것과 동일한 Microsoft Office Excel 도구를 사용할 수 있습니다. Office 프로젝트 이전 워크시트에 스키마 매핑 여부 Excel 솔루션을 만든 후 동일한 개체를 만듭니다.
@@ -30,7 +30,7 @@ ms.locfileid: "60057175"
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
 
 > [!NOTE]
->  Excel 솔루션에서 다중 파트 XML 스키마를 사용할 수 없습니다.
+> Excel 솔루션에서 다중 파트 XML 스키마를 사용할 수 없습니다.
 
 ## <a name="to-map-an-xml-schema-to-an-excel-worksheet-in-visual-studio"></a>Visual Studio에서 Excel 워크시트에 XML 스키마를 매핑하려면
 
@@ -41,7 +41,7 @@ ms.locfileid: "60057175"
 3. 리본에서 **개발자** 탭을 클릭합니다.
 
     > [!NOTE]
-    >  **개발자** 탭이 표시되지 않는 경우 먼저 개발자 탭을 표시해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
+    > **개발자** 탭이 표시되지 않는 경우 먼저 개발자 탭을 표시해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
 
 4. 에 **XML** 그룹에서 클릭 **원본**합니다.
 

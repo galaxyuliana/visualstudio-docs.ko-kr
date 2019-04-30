@@ -10,12 +10,12 @@ helpviewer_keywords:
 ms.assetid: 3bac375d-8bd5-41be-a8de-32eb33c5cfac
 caps.latest.revision: 20
 manager: jillfra
-ms.openlocfilehash: 833783267c70c0a201e4b84bc5031bce517dc0a2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b66724542d45aa6f57b7c2748c7c1cab1ec8c064
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436559"
 ---
 # <a name="support-for-settings-categories"></a>설정 범주에 대한 지원
 설정 범주는 IDE(통합 개발 환경)를 사용자 지정하는 옵션 그룹으로 구성됩니다. 예를 들어 설정은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창의 레이아웃과 메뉴의 내용을 제어할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
@@ -25,7 +25,7 @@ ms.locfileid: "60054484"
  이 페이지의 탐색 창에 있는 트리 컨트롤에 범주가 나열됩니다. 범주는 관련된 설정의 그룹으로서, "사용자 지정 설정 지점", 즉 확인란으로 나타납니다. 이러한 확인란을 사용하여 .vsettings 파일에 유지할 범주를 선택할 수 있습니다. 마법사를 사용하면 .vsettings 파일 이름을 지정하고 해당 경로 지정할 수 있습니다.  
   
 > [!NOTE]
->  설정이 저장되거나 범주로서 복원되고, 개별 설정 이름은 마법사에 표시되지 않습니다.  
+> 설정이 저장되거나 범주로서 복원되고, 개별 설정 이름은 마법사에 표시되지 않습니다.  
   
  MPF(Managed Package Framework)는 최소한의 추가 코드로 설정 범주를 만들도록 지원합니다.  
   
@@ -48,7 +48,7 @@ ms.locfileid: "60054484"
  설정 범주의 레지스트리 경로는 <xref:Microsoft.VisualStudio.Shell.Package.ApplicationRegistryRoot%2A>, 단어, UserSettings, 설정 범주, 사용자 지정 설정 지점의 이름을 결합하여 결정됩니다. 설정 범주 및 사용자 지정 설정 지점의 이름은 밑줄로 결합되고 분리되어 레지스트리에 나타나는, 지역화되지 않은 정식 이름을 구성합니다. 예를 들어 설정 범주가 "My Category", 사용자 지정 설정 지점 이름 "My Settings", ApplicationRegistryRoot HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp이면, 설정 범주의 레지스트리 키는 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\UserSettings\My Category_My Settings입니다.  
   
 > [!NOTE]
->  정식 이름은 UI(사용자 인터페이스)에 나타나지 않습니다. 정식 이름은 읽을 수 있는 이름을 ProgID(프로그래밍 ID) 같은 설정 범주와 연결하는 데 사용됩니다.  
+> 정식 이름은 UI(사용자 인터페이스)에 나타나지 않습니다. 정식 이름은 읽을 수 있는 이름을 ProgID(프로그래밍 ID) 같은 설정 범주와 연결하는 데 사용됩니다.  
   
 ### <a name="settings-category-attribute"></a>설정 범주 특성  
  합니다 <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> 의 사용자 지정 설정 지점 범주의 매핑을 결정 합니다 **설정 가져오기 및 내보내기 마법사** 제공 하는 VSPackage와 범주를 연결 하 여 합니다. 다음과 같은 코드 조각을 생각해 봅시다.  

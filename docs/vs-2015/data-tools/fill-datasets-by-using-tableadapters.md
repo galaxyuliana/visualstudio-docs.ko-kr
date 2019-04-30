@@ -22,12 +22,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f4c036cac8fa60e3f0353815cb3790f0f74ddc77
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 0d4fca66296f4437d3c9af55142d9fdbc56f21b7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431954"
 ---
 # <a name="fill-datasets-by-using-tableadapters"></a>TableAdapters를 사용하여 데이터 세트 채우기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "59656780"
 TableAdapter 구성 요소를 기반으로 쿼리 또는 저장된 프로시저 수를 지정 하는 하나 이상의 데이터베이스에서 데이터를 사용 하 여 데이터 집합을 채웁니다. Tableadapter를 수행할 수도 있습니다 추가, 업데이트 및 데이터 집합에 수행한 변경 내용을 유지 하려면 데이터베이스를 삭제 합니다. 또한 특정 테이블에 관련 되지 않은 전역 명령을 실행할 수 있습니다.  
   
 > [!NOTE]
->  Tableadapter는 Visual Studio 디자이너에서 생성 됩니다. 데이터 집합을 프로그래밍 방식으로 만들려는 경우에.NET Framework 클래스는 DataAdapter를 사용 합니다.  
+> Tableadapter는 Visual Studio 디자이너에서 생성 됩니다. 데이터 집합을 프로그래밍 방식으로 만들려는 경우에.NET Framework 클래스는 DataAdapter를 사용 합니다.  
   
  TableAdapter 작업에 대 한 자세한 내용은 다음이 항목 중 하나에 직접 건너뛸 수 있습니다.  
   
@@ -98,7 +98,7 @@ TableAdapter 구성 요소를 기반으로 쿼리 또는 저장된 프로시저 
  TableAdapter를 사용 하면 효과적으로 일반적으로 수행 하는 명령 사용 하 여 동일한 작업을 수행 합니다. 예를 들어, 호출 하는 경우 어댑터의 `Fill` 메서드는 어댑터에서 실행 됩니다 데이터 명령을 해당 `SelectCommand` 속성 데이터 판독기를 사용 하 고 (예를 들어 <xref:System.Data.SqlClient.SqlDataReader>) 결과 집합을 데이터 테이블에 로드 합니다. 마찬가지로, 호출 하는 경우 어댑터의 `Update` 메서드를 적절 한 명령을 실행 (에 `UpdateCommand`를 `InsertCommand`, 및 `DeleteCommand` 속성) 각각에 대 한 데이터 테이블의 레코드를 변경 합니다.  
   
 > [!NOTE]
->  기본 쿼리에서 충분 한 정보가 있는 경우는 `InsertCommand`, `UpdateCommand`, 및 `DeleteCommand` 명령을 TableAdapter를 생성할 때 기본적으로 생성 됩니다. TableAdapter의 주 쿼리에서 단일 테이블 SELECT 문을 보다 경우 디자이너를 생성할 수 없습니다 `InsertCommand`하십시오 `UpdateCommand`, 및 `DeleteCommand`합니다. 이러한 명령은 생성 되지 않은 경우 오류가 발생할 수 있습니다를 실행 하는 경우는 `TableAdapter.Update` 메서드.  
+> 기본 쿼리에서 충분 한 정보가 있는 경우는 `InsertCommand`, `UpdateCommand`, 및 `DeleteCommand` 명령을 TableAdapter를 생성할 때 기본적으로 생성 됩니다. TableAdapter의 주 쿼리에서 단일 테이블 SELECT 문을 보다 경우 디자이너를 생성할 수 없습니다 `InsertCommand`하십시오 `UpdateCommand`, 및 `DeleteCommand`합니다. 이러한 명령은 생성 되지 않은 경우 오류가 발생할 수 있습니다를 실행 하는 경우는 `TableAdapter.Update` 메서드.  
   
 ## <a name="tableadapter-generatedbdirectmethods"></a>TableAdapter GenerateDbDirectMethods  
  외에 `InsertCommand`, `UpdateCommand`, 및 `DeleteCommand`, Tableadapter는 데이터베이스에 대해 직접 실행할 수 있는 메서드를 사용 하 여 만들어집니다. 이러한 메서드 (`TableAdapter.Insert`, `TableAdapter.Update`, 및 `TableAdapter.Delete`) 데이터베이스의 데이터를 조작 하는 직접 호출할 수 있습니다. 즉, 호출 하는 대신 코드에서 이러한 개별 메서드를 호출할 수 있습니다 `TableAdapter.Update` 삽입, 업데이트 및 보류 중인 삭제를 처리 하는 연결 된 데이터 테이블에 대 한 합니다.  

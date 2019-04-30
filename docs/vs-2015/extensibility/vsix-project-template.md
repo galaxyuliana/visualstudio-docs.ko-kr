@@ -11,12 +11,12 @@ ms.assetid: b6c82167-e2a5-4cff-8c8b-2d72e2a9092c
 caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e8bc80e28979a1adf86f4b0490f84cc393450521
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2386f1be805f6347fc32fba4ee8bfe57c8602329
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436899"
 ---
 # <a name="vsix-project-template"></a>VSIX 프로젝트 템플릿
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,13 +26,13 @@ VSIX 프로젝트에서 하나 이상의 Visual Studio 확장을 래핑할 VSIX 
  VSIX 배포에는 Vspackage, 어셈블리, MEF 구성 요소, 프로젝트 템플릿, 항목 템플릿, 도구 상자 컨트롤 및 사용자 지정 확장 형식을 지원합니다.  
   
 > [!NOTE]
->  VSIX 프로젝트를 사용 하려면 Visual Studio SDK를 설치 해야 합니다. Visual Studio SDK에 대 한 자세한 내용은 참조 하세요. [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.  
+> VSIX 프로젝트를 사용 하려면 Visual Studio SDK를 설치 해야 합니다. Visual Studio SDK에 대 한 자세한 내용은 참조 하세요. [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.  
   
 ## <a name="where-to-find-the-vsix-project-template"></a>VSIX 프로젝트 템플릿 검색 위치  
  VSIX 프로젝트 템플릿에 사용할 수 있습니다 합니다 **새 프로젝트** 대화 상자. 확장 된 **Visual Basic** 노드 또는 **Visual C#** 노드를 선택한 후 **확장성**합니다.  
   
 > [!TIP]
->  확인 해야 해당.NET Framework 4.5 또는 더 높은 맨 위에 있는 드롭다운 목록에 지정 된 된 **새 프로젝트** 대화 상자.  
+> 확인 해야 해당.NET Framework 4.5 또는 더 높은 맨 위에 있는 드롭다운 목록에 지정 된 된 **새 프로젝트** 대화 상자.  
   
 ## <a name="uses-of-the-vsix-project-template"></a>VSIX 프로젝트 템플릿 사용  
  주요 용도 VSIX 프로젝트 템플릿:  

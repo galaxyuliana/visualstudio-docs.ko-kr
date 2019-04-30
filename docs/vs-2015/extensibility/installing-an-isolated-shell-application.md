@@ -11,12 +11,12 @@ ms.assetid: 33416226-9083-41b5-b153-10d2bf35c012
 caps.latest.revision: 41
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 55c4ebc96d93d9b068c29d24727d40975518b1ef
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 60862d631d93788f10c372310da9eb3d181943ef
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63414538"
 ---
 # <a name="installing-an-isolated-shell-application"></a>격리 셸 응용 프로그램 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -108,7 +108,7 @@ ms.locfileid: "60062830"
 2. 셸 및 셸 응용 프로그램 필요를 다음 예제와 같이 구성 요소를 식별 합니다.  
   
     > [!NOTE]
-    >  일부 요소는 다른.wxs 파일의 정의를 참조할 수 있습니다.  
+    > 일부 요소는 다른.wxs 파일의 정의를 참조할 수 있습니다.  
   
     ```xml  
     <Feature Id="ProductFeature" Title="$(var.ShortProductName)Shell" Level="1">  
@@ -159,7 +159,7 @@ ms.locfileid: "60062830"
         ```  
   
     > [!NOTE]
-    >  Shell (격리) 응용 프로그램에 대 한 필수 종속성 다음과 같습니다. DebuggerProxy, MasterPkgDef, 리소스 (특히:.winprf 파일) 응용 프로그램 및 PkgDefs 합니다.  
+    > Shell (격리) 응용 프로그램에 대 한 필수 종속성 다음과 같습니다. DebuggerProxy, MasterPkgDef, 리소스 (특히:.winprf 파일) 응용 프로그램 및 PkgDefs 합니다.  
   
 ### <a name="registry-entries"></a>레지스트리 항목  
  Shell (격리) 프로젝트 템플릿을 포함 한 *ProjectName*.reg 파일 설치에 병합 하기 위해 레지스트리 키에 대 한 합니다. 이러한 레지스트리 항목에는 설치 및 정리 목적 모두에 대 한 MSI의 일부 여야 합니다. 또한 ApplicationRegistry.wxs에서 일치 하는 레지스트리 요소를 만들어야 합니다.  
@@ -211,7 +211,7 @@ ms.locfileid: "60062830"
  Visual Studio Shell (격리)을 설치 해야 하는지 여부를 확인 하려면 먼저 HKLM\Software\Microsoft\DevDiv\vs\Servicing\ShellVersion\isoshell\LCID\Install의 레지스트리 값을 확인 하 여 이미 설치 되어 있는지 확인 합니다.  
   
 > [!NOTE]
->  또한 이러한 값 Product.wxs에 셸 검색 블록에서 읽어옵니다.  
+> 또한 이러한 값 Product.wxs에 셸 검색 블록에서 읽어옵니다.  
   
  HKLM\Software\Microsoft\AppEnv\14.0\ShellFolder Visual Studio Shell을 설치 하 고 파일을 확인할 수 있습니다 위치를 지정 합니다.  
   
@@ -369,4 +369,4 @@ dwResult = ExecCmd(boutiqueInstallCmd, FALSE);
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [연습: 기본 격리 셸 응용 프로그램 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
+ [연습: 기본 격리 셸 애플리케이션 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)

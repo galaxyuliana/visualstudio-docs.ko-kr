@@ -21,18 +21,18 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 05290bed3fe51c69e29d8bafef927c91c63b5249
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 8223c014c0092d2c1092b97c0bd5f8c489112c9b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59667263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426899"
 ---
 # <a name="bscmake-task"></a>BscMake 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 중요]
->  bscmake는 더 이상 Visual Studio IDE에서 사용되지 않습니다. Visual Studio 2008부터 찾아보기 정보는 솔루션 폴더의 .sdf 파일에 자동으로 저장됩니다.  
+> bscmake는 더 이상 Visual Studio IDE에서 사용되지 않습니다. Visual Studio 2008부터 찾아보기 정보는 솔루션 폴더의 .sdf 파일에 자동으로 저장됩니다.  
   
  Microsoft Browse Information Maintenance Utility 도구(bscmake.exe)를 래핑합니다.  bscmake.exe 도구는 컴파일하는 동안 만들어진 소스 브라우저 파일(.sbr)에서 찾아보기 정보 파일(.bsc)을 빌드합니다. **개체 브라우저**를 사용하여 .bsc 파일을 볼 수 있습니다. 자세한 내용은 [BSCMAKE 참조](http://msdn.microsoft.com/library/b97ad994-1355-4809-98db-6abc12c6fb13)를 참조하세요.  
   

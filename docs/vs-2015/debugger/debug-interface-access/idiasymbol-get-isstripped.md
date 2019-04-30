@@ -13,12 +13,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e12981a5b1942e1a3873cb10bd4d1bb2ea2cfef0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 37fd166696d8fbcc913f26fb654ea5e709eb3a3d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63423030"
 ---
 # <a name="idiasymbolgetisstripped"></a>IDiaSymbol::get_isStripped
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ HRESULT get_isStripped(
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
   
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
   
 ## <a name="remarks"></a>설명  
  이 속성은에서 사용할 수는 `SymTagExe` 기호 형식 (참조 [Exe](../../debugger/debug-interface-access/exe.md)).  

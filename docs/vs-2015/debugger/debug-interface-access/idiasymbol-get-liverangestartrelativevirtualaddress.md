@@ -13,12 +13,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 499eeefc4b5328d1ffe021cdf28483208d162471
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MT
+ms.openlocfilehash: 3dc0c42fe5dd5bc99e806ffbc20f42aa897d4c22
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "59001941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63423237"
 ---
 # <a name="idiasymbolgetliverangestartrelativevirtualaddress"></a>IDiaSymbol::get_liveRangeStartRelativeVirtualAddress
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ HRESULT get_liveRangeStartRelativeVirtualAddress ( 
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 하는 상대 가상 주소에는 기호가 유효한 범위의 시작입니다.  
   
 > [!NOTE]
->  반환 된 오류 코드 기호 라이브 범위 정보가 없는 것을 의미 합니다.  
+> 반환 된 오류 코드 기호 라이브 범위 정보가 없는 것을 의미 합니다.  
   
 ## <a name="remarks"></a>설명  
   

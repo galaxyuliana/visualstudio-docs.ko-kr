@@ -30,12 +30,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6e5b27eaff0b462e257d1d972c5b950cd1f5ab1a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7266e7fa26574332bcb343b552eea2b707a8672b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427938"
 ---
 # <a name="global-access-to-objects-in-office-projects"></a>Office 프로젝트의 개체에 대 한 전역 액세스
   Office 프로젝트를 만들면 Visual Studio에서 `Globals` 라는 클래스를 프로젝트에 자동으로 생성합니다. `Globals` 클래스를 사용하여 프로젝트의 모든 코드에서 런타임에 여러 프로젝트 항목에 액세스할 수 있습니다.
@@ -74,7 +74,7 @@ ms.locfileid: "60066769"
  사용 하는 코드는 `Globals` 문서 또는 VSTO 추가 기능에서 초기화 되기 전에 클래스에는 런타임 예외를 throw 할 수 있습니다. 예를 들어 `Globals` 클래스는 선언된 개체가 인스턴스화되기 전에 모든 호스트 항목에 대한 참조로 초기화되지 않을 수 있으므로 클래스 수준 변수를 선언할 때 `Globals` 를 사용하면 실패할 수 있습니다.
 
 > [!NOTE]
->  `Globals` 클래스는 디자인 타임에 초기화되지 않지만 컨트롤 인스턴스는 디자이너에서 만듭니다. 즉,의 속성을 사용 하는 사용자 정의 컨트롤을 만드는 경우 합니다 `Globals` 클래스에서 사용자 컨트롤 클래스 내부를 확인 해야 합니다 속성을 반환 하는지 여부를 **null** 반환된 된 개체를 사용 하려고 하기 전에 합니다.
+> `Globals` 클래스는 디자인 타임에 초기화되지 않지만 컨트롤 인스턴스는 디자이너에서 만듭니다. 즉,의 속성을 사용 하는 사용자 정의 컨트롤을 만드는 경우 합니다 `Globals` 클래스에서 사용자 컨트롤 클래스 내부를 확인 해야 합니다 속성을 반환 하는지 여부를 **null** 반환된 된 개체를 사용 하려고 하기 전에 합니다.
 
 ## <a name="see-also"></a>참고자료
 - [런타임에 리본 메뉴에 액세스](../vsto/accessing-the-ribbon-at-run-time.md)

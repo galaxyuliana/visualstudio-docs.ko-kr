@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5a50328824bf6c869d6cfc1cef94af24566010e9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 9865d917e24abf58bdcf63e8abb21370f223aad2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56611258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402310"
 ---
 # <a name="idiasymbolgetcallingconvention"></a>IDiaSymbol::get_callingConvention
 호출 규칙을 메서드의 표시기를 반환 합니다.
@@ -39,7 +39,7 @@ HRESULT get_callingConvention ( 
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
 ## <a name="requirements"></a>요구 사항
 

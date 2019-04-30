@@ -13,12 +13,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b10434f92a5d310d2f53c4a1c1ff7ab3a84bc1ca
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: eaffdfa5a5caaa9a200f14230a67cac72af96df8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435198"
 ---
 # <a name="how-to-specify-an-application-icon-visual-basic-c"></a>방법: 응용 프로그램 아이콘 지정 (Visual Basic의 경우 C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "60045779"
  `Icon` 속성은 **프로젝트 디자이너**의 **응용 프로그램** 창에서 액세스할 수 있습니다. 이 속성에는 리소스나 콘텐츠 파일로 프로젝트에 추가된 아이콘 목록이 포함되어 있습니다.  
   
 > [!NOTE]
->  애플리케이션에 대한 아이콘 속성을 설정한 후에는 애플리케이션에서 각 **창** 또는 **폼**의 `Icon` 속성도 설정할 수 있습니다. WPF(Windows Presentation Foundation) 독립 실행형 응용 프로그램의 창 아이콘에 대한 자세한 내용은 <xref:System.Windows.Window.Icon%2A>속성을 참조하세요.  
+> 애플리케이션에 대한 아이콘 속성을 설정한 후에는 애플리케이션에서 각 **창** 또는 **폼**의 `Icon` 속성도 설정할 수 있습니다. WPF(Windows Presentation Foundation) 독립 실행형 응용 프로그램의 창 아이콘에 대한 자세한 내용은 <xref:System.Windows.Window.Icon%2A>속성을 참조하세요.  
   
 ### <a name="to-specify-an-application-icon"></a>애플리케이션 아이콘을 지정하려면  
   

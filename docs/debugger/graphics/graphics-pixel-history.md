@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 23bdabcdd19bd12729d7b505ef4897d38ba8ad69
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 23ada46a28d692daf238147ea07f34d440a99869
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388592"
 ---
 # <a name="graphics-pixel-history"></a>그래픽 픽셀 기록
 Visual Studio Graphics Analyzer의 그래픽 픽셀 기록 창을 사용하면 게임 또는 앱의 프레임 중에 발생하는 Direct3D 이벤트가 특정 픽셀에 어떻게 영향을 주는지를 파악할 수 있습니다.
@@ -59,7 +59,7 @@ Visual Studio Graphics Analyzer의 그래픽 픽셀 기록 창을 사용하면 �
 3. 관심 있는 기본 형식에서 셰이더 제목 링크를 따라 이동하여(예: **꼭짓점 셰이더 obj:30**을 따라 이동) 꼭짓점 셰이더 소스 코드를 확인합니다.
 
     > [!TIP]
-    >  개체 번호 **obj:30**은 개체 테이블 및 파이프라인 단계 창과 같은 Graphics Analyzer 인터페이스 전체에서 셰이더를 식별합니다.
+    > 개체 번호 **obj:30**은 개체 테이블 및 파이프라인 단계 창과 같은 Graphics Analyzer 인터페이스 전체에서 셰이더를 식별합니다.
 
 ##### <a name="to-debug-a-shader"></a>셰이더를 디버그하려면
 

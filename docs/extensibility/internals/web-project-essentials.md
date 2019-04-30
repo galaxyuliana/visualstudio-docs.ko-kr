@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1cfd7c6c8543537f88bdf033068d2ae62c7a634a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 30ffd684eb6527ee73e54cc590dc3e4b1d3c51d3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429347"
 ---
 # <a name="web-project-essentials"></a>웹 프로젝트 필수 항목
 웹 프로젝트는 웹 응용 프로그램을 만듭니다. 스마트 웹 페이지에 있는 웹 응용 프로그램을 만들려면 웹 프로젝트를 사용할 수 있습니다. 스마트 웹 페이지에는 필요에 따라 웹 페이지를 렌더링 하는 서버 쪽 코드를 있습니다.
@@ -35,7 +35,7 @@ ms.locfileid: "60071333"
 - 웹 프로젝트의 솔루션 파일은 웹 사이트 자체에서 별도로 있습니다. 기본적으로 솔루션 파일은 \Documents and 설정을\\*YourAccount*\My Documents\\*\<Visual Studio # # # >* \Projects\\ *YourWebSite*합니다.
 
   > [!NOTE]
-  >  웹 사이트를 사용 하 여 솔루션 파일을 유지 하려는 경우만 해당 위치로 이동를 닫았다가 다시 합니다.
+  > 웹 사이트를 사용 하 여 솔루션 파일을 유지 하려는 경우만 해당 위치로 이동를 닫았다가 다시 합니다.
 
 - Visual Studio에서 솔루션 파일이 있는 웹 사이트를 열면 새 솔루션 파일에 대 한 자동으로 생성 됩니다.
 

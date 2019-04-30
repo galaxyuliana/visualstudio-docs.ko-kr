@@ -8,12 +8,12 @@ ms.assetid: e48ecfb2-f4b5-4d3a-b4a2-7a4d62fa4ec0
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 3d719a52535614b8cddf1c31aeb97e41c7614767
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 196fc4bddba0cfa6addb786148cd3876e1ec8260
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430017"
 ---
 # <a name="composite-patterns-for-visual-studio"></a>Visual Studio의 복합 패턴
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -433,7 +433,7 @@ ms.locfileid: "60045085"
  목록 선택의 핵심 개념은 행 기반을 하나의 단위로 선택 하도록 전체 행을 선택할 때 사용자에 게 즉 됩니다. 반면, 그리드 행의 다른 모든 측면에 영향을 주지 않고 선택할 수 있는 특정 셀 수 있습니다. 표는 중첩 된 행 (예: 트리 모눈을)를 선택 하 고 부모 행 상호 작용 하 여 선택 취소 하면 계층 구조의 전체 분기를 허용 하는 계층 구조를 포함할 수도 있습니다. 선택 목록에는 데이터의 행 전체에서 단순 강조 표시 색으로 표시 됩니다. 포커스를 현재 편집 가능한 행 또는 셀 (모든 셀은 읽기 전용 하는 경우에 행) 주위에 단일 픽셀 점선된 테두리를 표시 합니다.
 
 > [!NOTE]
->  **포커스** 하 고 **선택** 서로 다른 개념입니다. *포커스* 요소는 UI의 대상인 표시 하는 동안 다른 개체에서 명시적으로 전달 하는 입력을 받으려면 *선택* 개체의 포함 된 후속 개체 집합에서의 상태를 가리킵니다 작업이 수행 될 수 있습니다.
+> **포커스** 하 고 **선택** 서로 다른 개념입니다. *포커스* 요소는 UI의 대상인 표시 하는 동안 다른 개체에서 명시적으로 전달 하는 입력을 받으려면 *선택* 개체의 포함 된 후속 개체 집합에서의 상태를 가리킵니다 작업이 수행 될 수 있습니다.
 
  인접 한,이 목록에서 선택 될 수 있습니다 또는 지역입니다. 다중 선택을 허용 되는 연속 된 시점과 비연속 선택 해야 항상 지원, 지역 (상자) 선택 항목에 대 한 지원을 하는 동안에 선택 사항입니다. 지역 선택 목록 본문의 공백을 드래그 하 여 시작 됩니다.
 

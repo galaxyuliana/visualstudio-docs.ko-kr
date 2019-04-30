@@ -13,17 +13,17 @@ caps.latest.revision: 12
 author: mikeblome
 ms.author: mblome
 manager: jillfra
-ms.openlocfilehash: 96f4d628d32aec9a0f7eb2d091a017edfba3d8ac
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: e130f2248ae6715b3248226c780bc162e1ff01ef
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426631"
 ---
 # <a name="how-to-specify-additional-code-information-by-using-analysisassume"></a>방법: _analysis_assume을 사용하여 추가 코드 정보 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-분석 프로세스는 데 도움이 되 고 경고를 줄이는 C/c + + 코드에 대 한 코드 분석 도구에 대 한 힌트를 제공할 수 있습니다. 추가 정보를 제공 하려면 다음 함수를 사용 합니다.  
+C 용 코드 분석 도구에 대 한 힌트를 제공할 수 있습니다 /C++ 분석을 처리 하 고 경고를 줄이는 데 도움이 되는 코드입니다. 추가 정보를 제공 하려면 다음 함수를 사용 합니다.  
   
  `__analysis_assume(`  `expr`  `)`  
   
@@ -32,7 +32,7 @@ ms.locfileid: "58982078"
  코드 분석 도구를 사용 하는 식을 나타내는 조건 함수 나타나고 식 변경, 예를 들어 변수에 할당 될 때까지 true 남아 있는 지점에서 있다고 가정 합니다.  
   
 > [!NOTE]
->  `__analysis_assume` 코드 최적화에 영향을 주지 않습니다. 코드 분석 도구를 사용 하는 외부 `__analysis_assume` no-op으로 정의 됩니다.  
+> `__analysis_assume` 코드 최적화에 영향을 주지 않습니다. 코드 분석 도구를 사용 하는 외부 `__analysis_assume` no-op으로 정의 됩니다.  
   
 ## <a name="example"></a>예제  
  다음 코드에서는 `__analysis_assume` 코드 분석 경고를 해결 하려면 [C6388](../code-quality/c6388.md):  

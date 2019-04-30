@@ -15,12 +15,12 @@ caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0b4a5e7e626e7cf9510047f0b016ff80ea8203e1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ef8a152293ef5e1cf9137540abb5590eb43c057a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424446"
 ---
 # <a name="uml-component-diagrams-guidelines"></a>UML 구성 요소 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ Visual Studio에서 그릴 수 있습니다는 *구성 요소 다이어그램* �
  디자인 프로세스에서 구성 요소 다이어그램을 사용 하는 방법에 대 한 자세한 내용은 참조 하세요. [앱의 아키텍처 모델링](../modeling/model-your-app-s-architecture.md)합니다.  
   
 > [!NOTE]
->  모델링 다이어그램을 만드는 자세한 단계에 나와 [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
+> 모델링 다이어그램을 만드는 자세한 단계에 나와 [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
   
 #### <a name="to-create-a-component-diagram"></a>구성 요소 다이어그램을 만들려면  
   
@@ -157,7 +157,7 @@ Visual Studio에서 그릴 수 있습니다는 *구성 요소 다이어그램* �
          제공된 인터페이스가 구성 요소에 나타나고 근처에 작업 태그가 나타납니다.  
   
         > [!NOTE]
-        >  사용 하는 경우 **붙여넣기** of **참조 붙여넣기**, 새 이름이 있는 새 인터페이스가 만들어집니다.  
+        > 사용 하는 경우 **붙여넣기** of **참조 붙여넣기**, 새 이름이 있는 새 인터페이스가 만들어집니다.  
   
     3. 필요한 인터페이스를 만들려는 경우 작업 태그를 클릭 한 다음 클릭 **필요한 인터페이스로 변환**합니다.  
   

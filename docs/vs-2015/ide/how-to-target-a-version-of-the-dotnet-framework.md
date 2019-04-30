@@ -12,12 +12,12 @@ caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8983b027eb82ac9ac09b3f753333af9f7d08e2a5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a815a7ee13b415220c41189b6b060d893e8ef8e8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435151"
 ---
 # <a name="how-to-target-a-version-of-the-net-framework"></a>방법: .NET Framework 버전 대상 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "60114849"
 이 문서에서는 프로젝트를 만들 때 특정 버전의 .NET Framework를 대상으로 지정하는 방법 및 기존 Visual Basic, Visual C# 또는 Visual F# 프로젝트에서 대상 버전을 변경하는 방법에 대해 설명합니다.  
   
 > [!IMPORTANT]
->  C++ 프로젝트용 대상 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)을 참조하세요.  
+> C++ 프로젝트용 대상 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)을 참조하세요.  
   
  **항목 내용**  
   
@@ -37,7 +37,7 @@ ms.locfileid: "60114849"
  프로젝트를 만들 때 대상으로 지정하는 .NET Framework 버전에 따라 사용할 수 있는 템플릿 종류가 결정됩니다.  
   
 > [!NOTE]
->  Visual Studio Express 버전에서는 먼저 프로젝트를 만든 다음 이 항목의 뒷부분에서 설명하는 [대상 버전 변경](../ide/how-to-target-a-version-of-the-dotnet-framework.md#bkmk_existing)에 따라 대상을 변경할 수 있습니다.  
+> Visual Studio Express 버전에서는 먼저 프로젝트를 만든 다음 이 항목의 뒷부분에서 설명하는 [대상 버전 변경](../ide/how-to-target-a-version-of-the-dotnet-framework.md#bkmk_existing)에 따라 대상을 변경할 수 있습니다.  
   
 #### <a name="to-target-a-version-when-you-create-a-project"></a>프로젝트를 만들 때 버전을 대상으로 지정하려면  
   
@@ -46,7 +46,7 @@ ms.locfileid: "60114849"
 2. **새 프로젝트** 대화 상자 위쪽의 목록에서 프로젝트의 대상으로 지정할 .NET Framework 버전을 선택합니다.  
   
     > [!NOTE]
-    >  일반적으로 한 가지 버전의 .NET Framework만 Visual Studio와 함께 설치됩니다. 다른 버전을 대상으로 지정하려면 먼저 해당 버전이 설치되어 있는지 확인해야 합니다. [Visual Studio 멀티 타기팅 개요](../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.  
+    > 일반적으로 한 가지 버전의 .NET Framework만 Visual Studio와 함께 설치됩니다. 다른 버전을 대상으로 지정하려면 먼저 해당 버전이 설치되어 있는지 확인해야 합니다. [Visual Studio 멀티 타기팅 개요](../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.  
   
 3. 설치된 템플릿 목록에서 만들려는 프로젝트의 형식을 선택하고 프로젝트 이름을 지정한 다음 **확인** 단추를 선택합니다.  
   
@@ -62,14 +62,14 @@ ms.locfileid: "60114849"
      ![Visual Studio 솔루션 탐색기 속성](../ide/media/vs-slnexplorer-properties.png "vs_slnExplorer_Properties")  
   
     > [!IMPORTANT]
-    >  C++ 프로젝트용 대상 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)을 참조하세요.  
+    > C++ 프로젝트용 대상 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 대상 프레임워크 및 플랫폼 도구 세트 수정](http://msdn.microsoft.com/library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)을 참조하세요.  
   
 2. [속성] 창의 왼쪽 열에서 **애플리케이션** 탭을 선택합니다.  
   
      ![Visual Studio 응용 프로그램 속성 응용 프로그램 탭](../ide/media/vs-slnexplorer-properties-applicationtab.png "vs_slnExplorer_Properties_ApplicationTab")  
   
     > [!NOTE]
-    >  Windows 스토어 앱을 만든 후에는 Windows 또는 .NET Framework의 대상 버전을 변경할 수 없습니다.  
+    > Windows 스토어 앱을 만든 후에는 Windows 또는 .NET Framework의 대상 버전을 변경할 수 없습니다.  
   
 3. **대상 프레임워크** 목록에서 원하는 버전을 선택합니다.  
   
@@ -78,7 +78,7 @@ ms.locfileid: "60114849"
      프로젝트가 언로드됩니다. 다시 로드되면 이 프로젝트는 방금 선택한 .NET Framework 버전을 대상으로 지정합니다.  
   
     > [!NOTE]
-    >  코드에 사용자가 대상으로 지정한 것과 다른 버전의 .NET Framework에 대한 참조가 포함된 경우, 코드를 컴파일하거나 실행할 때 오류 메시지가 나타날 수 있습니다. 이러한 오류를 해결하려면 참조를 수정해야 합니다. [.NET Framework 대상 지정 오류 문제 해결](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)을 참조하세요.  
+    > 코드에 사용자가 대상으로 지정한 것과 다른 버전의 .NET Framework에 대한 참조가 포함된 경우, 코드를 컴파일하거나 실행할 때 오류 메시지가 나타날 수 있습니다. 이러한 오류를 해결하려면 참조를 수정해야 합니다. [.NET Framework 대상 지정 오류 문제 해결](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 멀티 타기팅 개요](../ide/visual-studio-multi-targeting-overview.md)   

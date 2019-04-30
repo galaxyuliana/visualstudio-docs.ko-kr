@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ed3eeb8e2907eb71a75884a19f174774055783c4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6044e9c47a0dcbc95fd1503906cbd81ac8e44526
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422650"
 ---
 # <a name="defining-a-locking-policy-to-create-read-only-segments"></a>잠금 정책을 정의하여 읽기 전용 세그먼트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "60062245"
  또한 DSL 작성자 정의할 수 있습니다는 *잠금 정책을 합니다.* 잠금 정책을 허용, 허용 되지 않음 또는 필수 되는 잠금을 정의 합니다. 예를 들어 DSL에 게시할 때 새 명령을 사용 하 여 확장 하는 타사 개발자가 게 요청할 수 있습니다. 하지만 모델의 지정 된 파트의 읽기 전용 상태를 변경 하지 못하도록 잠금 정책을 사용할 수도 있습니다.  
   
 > [!NOTE]
->  잠금 정책의 리플렉션을 사용 하 여 손상 될 수 있습니다. 이 타사 개발자를 위한 명확한 경계를 제공 하지만 강력한 보안을 제공 하지 않습니다.  
+> 잠금 정책의 리플렉션을 사용 하 여 손상 될 수 있습니다. 이 타사 개발자를 위한 명확한 경계를 제공 하지만 강력한 보안을 제공 하지 않습니다.  
   
  자세한 내용 및 샘플에서 사용할 수는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) 웹 사이트입니다.  
   

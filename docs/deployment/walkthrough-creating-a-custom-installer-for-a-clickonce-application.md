@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 87bf42ccb44c170321f36a9fe2fa7f44e274dcfe
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 597d0a29e153659359d3a6591970750bfd4de770
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63405739"
 ---
 # <a name="walkthrough-create-a-custom-installer-for-a-clickonce-application"></a>연습: ClickOnce 응용 프로그램에 대 한 사용자 지정 설치 관리자 만들기
 ClickOnce 응용 프로그램에 따라 프로그램 *.exe* 파일을 자동으로 설치 하 고 사용자 지정 설치 관리자에서 업데이트할 수 있습니다. 사용자 지정 설치 관리자는 보안 및 유지 관리 작업에 대 한 사용자 지정 대화 상자를 포함 하 여 설치 하는 동안 사용자 지정 사용자 경험을 구현할 수 있습니다. 설치 작업을 수행 하려면 사용자 지정 설치 관리자를 사용 하 여 <xref:System.Deployment.Application.InPlaceHostingManager> 클래스입니다. 이 연습에는 자동으로 ClickOnce 응용 프로그램을 설치 하는 사용자 지정 설치 관리자를 만드는 방법을 보여 줍니다.
@@ -53,7 +53,7 @@ ClickOnce 응용 프로그램에 따라 프로그램 *.exe* 파일을 자동으�
      이러한 메서드는 호출 <xref:System.Deployment.Application.InPlaceHostingManager> 배포 매니페스트를 다운로드 하는 메서드를 설치 하 고 다운로드 하 고 ClickOnce 캐시에 응용 프로그램을 설치 하 고 사용자에 게 적절 한 권한을 어설션 합니다. ClickOnce 응용 프로그램을 신뢰할 수 있는 미리 인지, 아니면 신뢰 결정을 내리도록을 연기할 수는 사용자 지정 설치 관리자를 지정할 수는 <xref:System.Deployment.Application.InPlaceHostingManager.AssertApplicationRequirements%2A> 메서드를 호출 합니다. 이 코드는 미리 응용 프로그램을 신뢰합니다.
 
     > [!NOTE]
-    >  미리 신뢰 하 여 할당 된 사용 권한 사용자 지정 설치 관리자 코드의 사용 권한을 초과할 수 없습니다.
+    > 미리 신뢰 하 여 할당 된 사용 권한 사용자 지정 설치 관리자 코드의 사용 권한을 초과할 수 없습니다.
 
      [!code-vb[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/VisualBasic/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.vb)]
      [!code-csharp[System.Deployment.Application.InPlaceHostingManager#1](../deployment/codesnippet/CSharp/walkthrough-creating-a-custom-installer-for-a-clickonce-application_1.cs)]

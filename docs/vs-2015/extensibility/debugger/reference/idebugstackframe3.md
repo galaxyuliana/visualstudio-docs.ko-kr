@@ -12,12 +12,12 @@ ms.assetid: 39af2f57-0a01-42b8-b093-b7fbc61e2909
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 261e71173e98e0ccee5e37f1c37d5825c42f5d93
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 43c5b3b9bbc5e09b41f346949c4ec788c3784786
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438160"
 ---
 # <a name="idebugstackframe3"></a>IDebugStackFrame3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ IDebugStackFrame3 : IDebugStackFrame2
  예외를 가로채에서 디버거가 디버그 중인 프로그램의 상태를 변경 하 고 예외가 throw 된 지점에서 실행을 다시 시작 사용자를 수 있습니다.  
   
 > [!NOTE]
->  가로챈된 예외는 아래에서 언어 런타임 (CLR (공용)를 실행 하는 프로그램에서, 관리 코드 에서만에서 허용 됩니다.  
+> 가로챈된 예외는 아래에서 언어 런타임 (CLR (공용)를 실행 하는 프로그램에서, 관리 코드 에서만에서 허용 됩니다.  
   
  디버그 엔진을 지원함을 나타냅니다이 가로채 예외 "metricExceptions"를 설정 하 여 1의 값으로 런타임 시 사용 하 여는 `SetMetric` 함수입니다. 자세한 내용은 [디버깅을 위한 SDK 도우미](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)합니다.  
   

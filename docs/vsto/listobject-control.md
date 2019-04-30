@@ -18,12 +18,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1df66fcc2e7844bb05ff9a09e8fc71b6fb59ea9f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 323286555bf1ed932b85ed6da84a344787fae265
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438783"
 ---
 # <a name="listobject-control"></a>ListObject 컨트롤
   <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤은 이벤트를 노출하고, 데이터에 바인딩될 수 있는 목록입니다. 워크시트에 목록을 추가하면 Visual Studio에서 Microsoft Office Excel 개체 모델을 트래버스하지 않고 직접 프로그래밍할 수 있는 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤을 만듭니다.
@@ -34,13 +34,13 @@ ms.locfileid: "60073634"
  문서 수준 프로젝트에서는 디자인 타임 또는 런타임에 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤을 워크시트에 추가할 수 있습니다. VSTO 추가 기능 프로젝트에 추가할 수 있습니다 <xref:Microsoft.Office.Tools.Excel.ListObject> 런타임에만 워크시트에 컨트롤입니다. 자세한 내용은 [방법: 워크시트에 ListObject 컨트롤 추가](../vsto/how-to-add-listobject-controls-to-worksheets.md)합니다.
 
 > [!NOTE]
->  기본적으로 동적으로 생성된 목록 개체는 워크시트를 닫을 때 워크시트에서 호스트 컨트롤로 유지되지 않습니다. 자세한 내용은 [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)합니다.
+> 기본적으로 동적으로 생성된 목록 개체는 워크시트를 닫을 때 워크시트에서 호스트 컨트롤로 유지되지 않습니다. 자세한 내용은 [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)합니다.
 
 ## <a name="bind-data-to-the-control"></a>컨트롤에 데이터 바인딩
  <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤은 간단한 데이터 바인딩 및 복잡한 데이터 바인딩을 지원합니다. <xref:Microsoft.Office.Tools.Excel.ListObject> 제어를 사용 하 여 데이터 원본에 바인딩될 수는 <xref:Microsoft.Office.Tools.Excel.ListObject.DataSource%2A> 하 고 <xref:Microsoft.Office.Tools.Excel.ListObject.DataMember%2A> 디자인 타임에 속성 또는 <xref:Microsoft.Office.Tools.Excel.ListObject.SetDataBinding%2A> 런타임에 메서드.
 
 > [!NOTE]
->  <xref:Microsoft.Office.Tools.Excel.ListObject> 는 <xref:System.Data.DataTable>등 데이터 변경 시 이벤트가 발생하는 데이터 원본에 바인딩될 때 자동으로 업데이트됩니다. 데이터 변경 시 이벤트가 발생하지 않는 데이터 원본에 <xref:Microsoft.Office.Tools.Excel.ListObject> 를 바인딩할 경우 <xref:Microsoft.Office.Tools.Excel.ListObject.RefreshDataRow%2A> 또는 <xref:Microsoft.Office.Tools.Excel.ListObject.RefreshDataRows%2A> 메서드를 호출하여 <xref:Microsoft.Office.Tools.Excel.ListObject>를 업데이트해야 합니다.
+> <xref:Microsoft.Office.Tools.Excel.ListObject> 는 <xref:System.Data.DataTable>등 데이터 변경 시 이벤트가 발생하는 데이터 원본에 바인딩될 때 자동으로 업데이트됩니다. 데이터 변경 시 이벤트가 발생하지 않는 데이터 원본에 <xref:Microsoft.Office.Tools.Excel.ListObject> 를 바인딩할 경우 <xref:Microsoft.Office.Tools.Excel.ListObject.RefreshDataRow%2A> 또는 <xref:Microsoft.Office.Tools.Excel.ListObject.RefreshDataRows%2A> 메서드를 호출하여 <xref:Microsoft.Office.Tools.Excel.ListObject>를 업데이트해야 합니다.
 
  반복 스키마 요소를 해당 셀에 매핑하여 <xref:Microsoft.Office.Tools.Excel.ListObject>를 워크시트 셀에 추가할 때 Visual Studio에서 <xref:Microsoft.Office.Tools.Excel.ListObject>를 생성된 데이터 세트에 자동으로 매핑합니다. 그러나 <xref:Microsoft.Office.Tools.Excel.ListObject> 는 자동으로 데이터에 바인딩되지 않습니다. 바인딩하는 단계를 수행할 수는 <xref:Microsoft.Office.Tools.Excel.ListObject> 디자인 타임 또는 런타임에 문서 수준 프로젝트에서 데이터 집합에 있습니다. 프로그래밍 방식으로 바인딩할 수 있습니다는 <xref:Microsoft.Office.Tools.Excel.ListObject> VSTO 추가 기능에서 런타임에 데이터 집합에 있습니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "60073634"
  <xref:Microsoft.Office.Tools.Excel.ListObject> 를 데이터 원본에 바인딩하여 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤을 신속하게 채울 수 있습니다. 데이터 바인딩된 <xref:Microsoft.Office.Tools.Excel.ListObject>에서 데이터를 편집하는 경우 데이터 원본에서도 자동으로 변경됩니다. <xref:Microsoft.Office.Tools.Excel.ListObject> 를 채운 다음 데이터 원본을 수정하지 않고 사용자가 <xref:Microsoft.Office.Tools.Excel.ListObject> 의 데이터를 변경할 수 있게 하려면 <xref:Microsoft.Office.Tools.Excel.ListObject.Disconnect%2A> 메서드를 사용하여 <xref:Microsoft.Office.Tools.Excel.ListObject> 를 데이터 원본에서 분리합니다. 자세한 내용은 [방법: ListObject 컨트롤을 데이터로 채우기](../vsto/how-to-fill-listobject-controls-with-data.md)합니다.
 
 > [!NOTE]
->  겹치는 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤에서는 데이터 바인딩이 지원되지 않습니다.
+> 겹치는 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤에서는 데이터 바인딩이 지원되지 않습니다.
 
 ### <a name="improve-performance-in-listobject-controls"></a>ListObject 컨트롤의 성능 향상
  컨트롤을 먼저 바인딩한 다음, <xref:Microsoft.Office.Tools.Excel.ListObject> 을 호출하여 데이터 세트를 채우면 XML 파일을 데이터 바인딩된 <xref:System.Data.DataSet.ReadXml%2A> 컨트롤로 읽어들이는 속도가 느려집니다. 성능을 개선하려면 컨트롤에 바인딩하기 전에 <xref:System.Data.DataSet.ReadXml%2A> 을 호출합니다.

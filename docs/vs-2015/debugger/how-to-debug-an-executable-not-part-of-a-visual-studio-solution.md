@@ -22,12 +22,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e913d67442d21cb1a0895721c22ede9b69363f53
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d871d469fc71beaa5c3e3323aad08eda3f546729
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434488"
 ---
 # <a name="how-to-debug-an-executable-not-part-of-a-visual-studio-solution"></a>방법: Visual Studio 솔루션의 일부가 아닌 실행 파일를 사용 하는 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "60068706"
 5. 와 같은 실행 명령을 선택 하 여 실행 파일을 시작 **시작**에서 **디버그** 메뉴.  
   
     > [!NOTE]
-    >  모든 프로그래밍 언어가 EXE 프로젝트를 지원하는 것은 아닙니다. 이 기능이 필요하면 [!INCLUDE[vcprvc](../includes/vcprvc-md.md)]를 설치합니다.  
+    > 모든 프로그래밍 언어가 EXE 프로젝트를 지원하는 것은 아닙니다. 이 기능이 필요하면 [!INCLUDE[vcprvc](../includes/vcprvc-md.md)]를 설치합니다.  
   
      디버깅하는 실행 파일에 대한 소스 코드가 없으면, 실행 중인 실행 파일에 연결하는지 실행 파일을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션에 추가하는지 여부에 상관없이 디버깅 기능이 제한됩니다. 실행 파일이 디버그 정보 없이 호환 형식으로 빌드된 경우에는 더욱 많은 기능이 제한됩니다. 따라서, 소스 코드가 있는 경우에는 소스 코드를 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]로 가져온 다음 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 실행 파일의 디버그 빌드를 만드는 것이 좋습니다.  
   

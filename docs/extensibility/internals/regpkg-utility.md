@@ -11,16 +11,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6b9b07bc801e687da9ce93968dbac59966328484
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: e37125f8098d854d887c7bc5d209b30af2d12222
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56619240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63409680"
 ---
 # <a name="regpkg-utility"></a>RegPkg 유틸리티
 > [!NOTE]
->  Visual Studio에서 패키지를 등록 하려면.pkgdef 파일을 사용 하 여는 것이 좋습니다. 이 VSIX 배포에 대 한 요구 사항인 시스템 레지스트리에 액세스 하지 않고도 확장 배포에 대 한 수 있습니다. Pkgdef 파일을 사용 하 여 만들어진 합니다 [CreatePkgDef 유틸리티](../../extensibility/internals/createpkgdef-utility.md)합니다. Visual Studio 패키지 배포에 대 한 자세한 내용은 참조 하세요. [Visual Studio 확장 전달](../../extensibility/shipping-visual-studio-extensions.md)합니다.
+> Visual Studio에서 패키지를 등록 하려면.pkgdef 파일을 사용 하 여는 것이 좋습니다. 이 VSIX 배포에 대 한 요구 사항인 시스템 레지스트리에 액세스 하지 않고도 확장 배포에 대 한 수 있습니다. Pkgdef 파일을 사용 하 여 만들어진 합니다 [CreatePkgDef 유틸리티](../../extensibility/internals/createpkgdef-utility.md)합니다. Visual Studio 패키지 배포에 대 한 자세한 내용은 참조 하세요. [Visual Studio 확장 전달](../../extensibility/shipping-visual-studio-extensions.md)합니다.
 
  RegPkg.exe 유틸리티를 사용 하 여 VSPackage 등록 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 배포 하도록 준비 합니다. 이 유틸리티는 VSPackage 개발 하는 동안 백그라운드에서 사용 됩니다. 빌드하고 실험적 하이브에서 VSPackage를 실행할 수 있도록 빌드 프로세스의 일부로 실행 됩니다.
 

@@ -13,12 +13,12 @@ caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7425979bf231cf5ee5748e9d4cbd1eadae72f48a
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MT
+ms.openlocfilehash: b759c8fc65130c37f24e8ec03bbcebf3a52241d0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58981946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436442"
 ---
 # <a name="idiasymbolgetcontainer"></a>IDiaSymbol::get_container
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ HRESULT get_container(
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 S_FALSE 또는 오류 코드를 반환합니다.  
   
 > [!NOTE]
->  S_FALSE 반환 값 속성 기호에 사용할 수 없다는 것을 의미 합니다.  
+> S_FALSE 반환 값 속성 기호에 사용할 수 없다는 것을 의미 합니다.  
   
 ## <a name="requirements"></a>요구 사항  
   

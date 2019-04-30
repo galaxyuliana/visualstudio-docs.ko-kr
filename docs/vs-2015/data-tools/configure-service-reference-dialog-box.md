@@ -15,12 +15,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 18ea294c204f1512aaa3eeae904eed52edf8e9f2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4b490b379df401f4eb0c680524be8bac91dee410
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437018"
 ---
 # <a name="configure-service-reference-dialog-box"></a>서비스 참조 구성 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "60114147"
 합니다 **서비스 참조 구성** 대화 상자를 사용 하는 동작을 구성할 수 있습니다 [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] 서비스입니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  **서비스 참조 구성** 대화 상자에 액세스하려면 **솔루션 탐색기**에서 서비스 참조를 마우스 오른쪽 단추로 클릭하고 **서비스 참조 구성**을 선택합니다. **서비스 참조 추가 대화 상자**에서 **고급** 단추를 클릭하여 대화 상자에 액세스할 수도 있습니다.  
   
@@ -51,13 +51,13 @@ ms.locfileid: "60114147"
  서비스 참조가 서비스를 검색하는 웹 주소를 업데이트하는 데 사용됩니다. 예를 들어 개발 도중 서비스를 개발 서버에서 호스팅하다가 나중에 프로덕션 서버로 이동하여 주소를 변경해야 하는 경우가 이에 해당할 수 있습니다.  
   
 > [!NOTE]
->  Address 요소는 **서비스 참조 추가 대화 상자**에서 **서비스 참조 구성** 대화 상자가 표시된 경우에는 사용할 수 없습니다.  
+> Address 요소는 **서비스 참조 추가 대화 상자**에서 **서비스 참조 구성** 대화 상자가 표시된 경우에는 사용할 수 없습니다.  
   
  **생성된 클래스에 대한 액세스 수준**  
  WCF 클라이언트 클래스에 대한 코드 액세스 수준을 결정합니다.  
   
 > [!NOTE]
->  웹 사이트 프로젝트의 경우 이 옵션은 항상 `Public`으로 설정되며 변경할 수 없습니다. 자세한 내용은 [서비스 참조 문제 해결](../data-tools/troubleshooting-service-references.md)합니다.  
+> 웹 사이트 프로젝트의 경우 이 옵션은 항상 `Public`으로 설정되며 변경할 수 없습니다. 자세한 내용은 [서비스 참조 문제 해결](../data-tools/troubleshooting-service-references.md)합니다.  
   
  **동기 작업 생성**  
  WCF 서비스 메서드를 동기적으로(기본값) 호출할지 아니면 비동기적으로 호출할지를 결정합니다.  
@@ -90,10 +90,10 @@ ms.locfileid: "60114147"
  표시 된 [NIB: 웹 참조 추가 대화 상자](http://msdn.microsoft.com/bdf05776-c591-40af-bfd7-e1e2aa1e87b5)합니다.  
   
 > [!NOTE]
->  이 옵션은 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 2.0 버전을 대상으로 하는 프로젝트에만 사용해야 합니다.  
+> 이 옵션은 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 2.0 버전을 대상으로 하는 프로젝트에만 사용해야 합니다.  
   
 > [!NOTE]
->  **웹 참조 추가** 단추를 사용할 수 있는 경우에만 합니다 **서비스 참조 구성** 에서 대화 상자가 표시 됩니다는 **서비스 참조 추가 대화 상자**.  
+> **웹 참조 추가** 단추를 사용할 수 있는 경우에만 합니다 **서비스 참조 구성** 에서 대화 상자가 표시 됩니다는 **서비스 참조 추가 대화 상자**.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 추가, 업데이트 또는 서비스 참조를 제거 합니다.](http://msdn.microsoft.com/library/cacc14bd-4455-4a44-be78-d2ac16113dd9)   

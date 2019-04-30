@@ -11,12 +11,12 @@ caps.latest.revision: 7
 author: steved0x
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 69e918eae56d35d134b9b7c3093d5f0599a12c5e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 026ee7af3c60b3832449f5f2ed996f00c75a1c87
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435374"
 ---
 # <a name="transition-activity-designer"></a>전환 활동 디자이너
 <xref:System.Activities.Statements.Transition>은 두 상태 간 전환을 나타냅니다.  
@@ -40,7 +40,7 @@ ms.locfileid: "58971594"
  전환은 한 상태에서 다른 상태로 선을 끌거나 한 상태를 다른 상태 위로 끌어갈 때 나타나는 삼각형에 상태를 놓으면 만들어집니다. 끌어서 전환을 만들려면 소스 상태의 가장자리 위로 마우스를 가져가 소스 상태에서 대상 상태로 선을 끕니다. 놓아서 전환을 만들려면 대상 상태를 끌어 소스 상태 위로 가져가 소스 상태 주변에 나타나는 4개의 삼각형 중 하나에 놓습니다. 대상 상태에서 끌어온 새로운 상태 수를 **도구 상자**, 워크플로 디자이너에서 끌어온 기존 상태가 또는 합니다.  
   
 > [!NOTE]
->  상태 시스템에서 하나의 상태는 Workflow Designer를 사용하여 만들어지는 전환을 76개까지 사용할 수 있습니다. 디자이너 밖에서 만들어지는 워크플로 상태의 전환에 대한 제한은 시스템 리소스로만 제한됩니다.  
+> 상태 시스템에서 하나의 상태는 Workflow Designer를 사용하여 만들어지는 전환을 76개까지 사용할 수 있습니다. 디자이너 밖에서 만들어지는 워크플로 상태의 전환에 대한 제한은 시스템 리소스로만 제한됩니다.  
   
  공유 트리거 전환은 같은 트리거 이벤트를 공유하는 전환 집합입니다. 공유 트리거를 사용하면 공통의 트리거 이벤트를 공유하는 여러 전환에 대해 구성된 식의 평가를 기준으로 대상 상태로 조건적 진행이 가능합니다. 전환에 추가 작업을 추가하고 공유 전환을 만들려면 원하는 전환의 시작을 나타내는 원을 클릭하고 원하는 상태로 끕니다. 새 전환은 초기 전환과 동일한 트리거를 공유하지만 고유한 조건과 작업을 사용합니다. 공유 전환을 만들 수도 있습니다에서 전환 디자이너 내에서 클릭 하 여 **공유 트리거 전환 추가** 아래쪽의 전환 디자이너, 한 다음 원하는 대상 상태를 선택 하 여  **연결에 사용할 상태** 드롭 다운 합니다.  
   

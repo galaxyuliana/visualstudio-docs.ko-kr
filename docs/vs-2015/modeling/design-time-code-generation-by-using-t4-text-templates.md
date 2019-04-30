@@ -17,12 +17,12 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f2bd66ca5e5cc7e5884e98ddf4d5c2ba5df15742
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d74b989c5615f1fca079b9d8b41fdc7560e4e274
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422443"
 ---
 # <a name="design-time-code-generation-by-using-t4-text-templates"></a>T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60065145"
  워크플로를 테이블이나 다이어그램으로 정의하는 모델을 예로 들어 보겠습니다. 해당 모델에서 워크플로를 실행하는 소프트웨어를 생성할 수 있습니다. 사용자 요구 사항이 변경되면 사용자와 함께 새 워크플로에 대해 쉽게 논의할 수 있습니다. 워크플로에서 코드를 다시 생성하는 것이 코드를 직접 업데이트하는 것보다 안정적입니다.  
   
 > [!NOTE]
->  A *모델* 는 응용 프로그램의 특정 측면을 설명 하는 데이터 원본입니다. 모든 형태와 종류의 파일 또는 데이터베이스일 수 있으며 UML 모델이나 DSL(Domain-Specific Language) 모델 등의 특정 형태가 아니어도 됩니다. 일반적인 모델은 테이블 또는 XML 파일 형식입니다.  
+> A *모델* 는 응용 프로그램의 특정 측면을 설명 하는 데이터 원본입니다. 모든 형태와 종류의 파일 또는 데이터베이스일 수 있으며 UML 모델이나 DSL(Domain-Specific Language) 모델 등의 특정 형태가 아니어도 됩니다. 일반적인 모델은 테이블 또는 XML 파일 형식입니다.  
   
  코드를 생성하는 방법에 대해서는 이미 잘 알고 계실 것입니다. 리소스를 정의 하는 경우는 **.resx** 파일에 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션, 클래스 및 메서드 집합을 자동으로 생성 됩니다. 리소스 파일로 리소스를 편집하는 것이 클래스와 메서드를 편집하는 것보다 훨씬 쉽고 안정적입니다. 텍스트 템플릿을 사용하면 직접 디자인한 소스에서 같은 방식으로 코드를 생성할 수 있습니다.  
   
@@ -74,7 +74,7 @@ ms.locfileid: "60065145"
 6. **솔루션 탐색기**, 템플릿 파일 노드를 확장 하 고 확장명을 가진 파일을 보면 **.txt**합니다. 이 파일에 템플릿에서 생성된 텍스트가 포함되어 있습니다.  
   
     > [!NOTE]
-    >  프로젝트는 Visual Basic 프로젝트를 클릭 해야 **모든 파일 표시** 하려면 출력 파일을 참조 하세요.  
+    > 프로젝트는 Visual Basic 프로젝트를 클릭 해야 **모든 파일 표시** 하려면 출력 파일을 참조 하세요.  
   
 ### <a name="regenerating-the-code"></a>코드 다시 생성  
  다음과 같은 경우에는 템플릿이 실행되어 보조 파일이 생성됩니다.  
@@ -141,9 +141,9 @@ ms.locfileid: "60065145"
   템플릿이 실행된 후 중단점에서 중지됩니다. 일반적인 방식으로 변수를 점검하고 코드를 단계별로 실행할 수 있습니다.  
   
 > [!TIP]
->  `debug="true"`를 사용하는 경우 생성된 코드에 줄 번호 매기기 지시문이 추가로 삽입되므로 해당 코드가 텍스트 템플릿에 보다 정확하게 매핑됩니다. 이 지시문이 없으면 중단점으로 인해 실행이 잘못된 상태로 중지될 수 있습니다.  
+> `debug="true"`를 사용하는 경우 생성된 코드에 줄 번호 매기기 지시문이 추가로 삽입되므로 해당 코드가 텍스트 템플릿에 보다 정확하게 매핑됩니다. 이 지시문이 없으면 중단점으로 인해 실행이 잘못된 상태로 중지될 수 있습니다.  
 >   
->  디버그를 수행하지 않을 때도 템플릿 지시문에 절을 그대로 유지해도 됩니다. 이렇게 해도 성능은 아주 약간 낮아질 뿐입니다.  
+> 디버그를 수행하지 않을 때도 템플릿 지시문에 절을 그대로 유지해도 됩니다. 이렇게 해도 성능은 아주 약간 낮아질 뿐입니다.  
   
 ## <a name="generating-code-or-resources-for-your-solution"></a>솔루션의 코드 또는 리소스 생성  
  모델에 따라 달라지는 프로그램 파일을 생성할 수 있습니다. 모델은 데이터베이스, 구성 파일, UML 모델, DSL 모델, 기타 소스 등의 입력입니다. 일반적으로는 같은 모델에서 여러 프로그램 파일을 생성합니다. 이렇게 하려면 생성된 각 프로그램 파일에 대해 템플릿 파일을 만들고 모든 템플릿이 같은 모델을 읽도록 합니다.  
@@ -293,7 +293,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 ```  
   
 > [!TIP]
->  텍스트 템플릿은 자체 앱 도메인에서 실행되며 마샬링을 통해 서비스에 액세스합니다. 이 경우에는 GetCOMService()가 GetService()보다 안정적입니다.  
+> 텍스트 템플릿은 자체 앱 도메인에서 실행되며 마샬링을 통해 서비스에 액세스합니다. 이 경우에는 GetCOMService()가 GetService()보다 안정적입니다.  
   
 ## <a name="Regenerating"></a> 코드를 자동으로 다시 생성  
  일반적으로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 솔루션의 여러 파일은 입력 모델 하나를 사용하여 생성됩니다. 각 파일은 자체 템플릿에서 생성되지만 모든 템플릿은 같은 모델을 참조합니다.  

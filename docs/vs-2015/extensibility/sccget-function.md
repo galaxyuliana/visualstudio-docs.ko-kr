@@ -12,12 +12,12 @@ ms.assetid: 09a18bd2-b788-411a-9da6-067d806e46f6
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 3f8317405c52850eceb816b958718835c029c6c4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2a5d5065ca427f0319174aa59e6b87d356816d4c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432426"
 ---
 # <a name="sccget-function"></a>SccGet 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +77,7 @@ SCCRTN SccGet(
  `SCC_GET_ALL` 플래그를 사용 하 여 결합할 수는 `SCC_GET_RECURSIVE` 플래그를 지정 된 디렉터리의 모든 파일 및 모든 하위 디렉터리도 검색 합니다.  
   
 > [!NOTE]
->  `SCC_GET_RECURSIVE` 없이 전달 되지 해야 `SCC_GET_ALL`합니다. 또한는 C:\A\B 및 C:\A 디렉터리 재귀 전달 모두 가져올 경우 C:\A\B 및 모든 하위 디렉터리는 실제로 검색할 두 번 note 합니다. IDE의 책임-인 원본이 아닌 제어 및-같이 중복 하는 배열에서 유지 되도록 합니다.  
+> `SCC_GET_RECURSIVE` 없이 전달 되지 해야 `SCC_GET_ALL`합니다. 또한는 C:\A\B 및 C:\A 디렉터리 재귀 전달 모두 가져올 경우 C:\A\B 및 모든 하위 디렉터리는 실제로 검색할 두 번 note 합니다. IDE의 책임-인 원본이 아닌 제어 및-같이 중복 하는 배열에서 유지 되도록 합니다.  
   
  소스 제어 플러그 인 경우에 지정 하는 마지막으로 `SCC_CAP_GET_NOUI` 초기화 없기 Get 명령에 대 한 사용자 인터페이스에이 함수는 파일을 검색 하려면 IDE에서 여전히 호출할 수 있습니다를 나타내는 플래그입니다. 플래그는 단순히 IDE 가져오기 메뉴 항목을 표시 하지 않습니다 하 고 UI를 제공 해야 플러그 인 아님을 의미 합니다.  
   

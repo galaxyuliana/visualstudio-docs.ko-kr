@@ -10,12 +10,12 @@ ms.assetid: 12df4d06-df6b-4eaf-a7bf-c83655a0c683
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e5900d5c818883ffc78b2399b937c80307b52c36
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 11a98599a9812cd00650d113170ff55c01ac44db
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116526"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435906"
 ---
 # <a name="how-to-provide-context-for-editors"></a>방법: 편집기에 대 한 컨텍스트를 제공 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,7 +67,7 @@ ms.locfileid: "60116526"
      경우는 **동적 도움말** 창 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> 업데이트 하는, 편집기 또는 디자이너를 해당 시점에 부모 컨텍스트 모음 및 모든 하위 컨텍스트의 모음이 모두에 대해 적절 하 게 컨텍스트를 업데이트할 수 있습니다 하 합니다.  
   
     > [!NOTE]
-    >  합니다 `SetDirty` 플래그 자동으로 설정 됩니다 `true` 컨텍스트에서 추가 되거나 컨텍스트 모음에서 제거 될 때마다 합니다. **동적 도움말** 창을 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> 컨텍스트 모음에서 경우 합니다 `SetDirty` 플래그가로 설정 되어 `true`합니다. 다시 설정 `false` 업데이트 후 합니다.  
+    > 합니다 `SetDirty` 플래그 자동으로 설정 됩니다 `true` 컨텍스트에서 추가 되거나 컨텍스트 모음에서 제거 될 때마다 합니다. **동적 도움말** 창을 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContextUpdate.UpdateUserContext%2A> 컨텍스트 모음에서 경우 합니다 `SetDirty` 플래그가로 설정 되어 `true`합니다. 다시 설정 `false` 업데이트 후 합니다.  
   
 3. 호출 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> 상황에 맞는 active 컨텍스트 컬렉션에 추가할 또는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A> 컨텍스트를 제거 합니다.  
   
@@ -75,7 +75,7 @@ ms.locfileid: "60116526"
  사용자 고유의 편집기를 작성 하는 경우 세 가지 모두를 편집기에 대 한 컨텍스트를 제공 하려면이 항목의 절차를 완료 해야 합니다.  
   
 > [!NOTE]
->  호출 해야 제대로 프로그램 편집기 또는 디자이너 창을 활성화 하 고 명령 라우팅가 제대로 업데이트 되도록 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> 에서 구성 요소를 포커스 창으로 만듭니다.  
+> 호출 해야 제대로 프로그램 편집기 또는 디자이너 창을 활성화 하 고 명령 라우팅가 제대로 업데이트 되도록 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> 에서 구성 요소를 포커스 창으로 만듭니다.  
   
  SEID는 선택에 따라 변경 하는 속성의 컬렉션입니다. SEID 정보는 전역 선택을 통해 제공 됩니다. 전역 선택에 의해 트리거되는 이벤트에 연결 하는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> 인터페이스에 있는 모든 항목의 목록을 선택 (현재 편집기, 현재 도구 창, 현재 계층 및 등).  
   

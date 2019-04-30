@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 64ebe3bc2d4d406d6144305b368d37613aef0158
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d89c3181757a0ed95b818ba2e73197511bf06e4d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434246"
 ---
 # <a name="troubleshooting-vspackages"></a>VSPackage 문제 해결
 다음은 일반적인 문제는 문제를 해결 하기 위한 팁 및 VSPackage를 사용 하 여 있을 수 있습니다.
@@ -46,7 +46,7 @@ ms.locfileid: "60039735"
 4. 열기는 **출력** 인스턴스의 창 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSPackage를 로드 하는 실패 합니다. VSPackage 로드에 실패 한 이유에 대 한 정보는 해당 창에 표시 될 수 있습니다.
 
    > [!NOTE]
-   >  실험적 버전을 시작 하는 경우 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에서 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 검사 합니다 **출력** 두 버전의 창.
+   > 실험적 버전을 시작 하는 경우 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에서 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 검사 합니다 **출력** 두 버전의 창.
 
 5. 활동 로그를 검사 합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "60039735"
     4. 에 **디버그** 메뉴에서 클릭 **디버깅 시작** 하거나 F5 키를 누릅니다.
 
         > [!NOTE]
-        >  프로젝트를 디버깅 하는 경우 만들거나 이제 프로젝트의 기존 인스턴스를 로드 합니다.
+        > 프로젝트를 디버깅 하는 경우 만들거나 이제 프로젝트의 기존 인스턴스를 로드 합니다.
 
 2. 활동 로그를 사용 합니다.
 

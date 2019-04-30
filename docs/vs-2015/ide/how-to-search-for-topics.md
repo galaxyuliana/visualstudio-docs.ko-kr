@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 04867207ee8510a99ec19dc3f32175abedb39bf9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 13a26ec22060985705f6a1b54cf691c50ae07f1a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054640"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435208"
 ---
 # <a name="how-to-search-for-topics"></a>방법: 항목 검색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60054640"
 2. 검색 쿼리에서 검색에 적용할 논리 또는 고급 검색 연산자를 지정합니다(있는 경우). 사용 가능한 모든 도움말을 검색하려면 연산자를 사용하지 마세요.  
   
     > [!NOTE]
-    >  **뷰어 옵션** 대화 상자에서 한번에 표시할 최대 검색 결과 수 등의 추가 기본 설정과 기본 로캘이 영어가 아닌 경우 영어 콘텐츠를 포함할지 지정할 수 있습니다.  
+    > **뷰어 옵션** 대화 상자에서 한번에 표시할 최대 검색 결과 수 등의 추가 기본 설정과 기본 로캘이 영어가 아닌 경우 영어 콘텐츠를 포함할지 지정할 수 있습니다.  
   
 3. Enter 키를 선택합니다.  
   

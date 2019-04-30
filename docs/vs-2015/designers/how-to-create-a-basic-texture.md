@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a343cb508933b91f5400ff6bc17c285a54bd2e87
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bd1a9a2a269c173ef9dcb47b39921073802fe1ee
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438405"
 ---
 # <a name="how-to-create-a-basic-texture"></a>방법: 기본 질감 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "60076801"
 5. [이미지 편집기] 도구 모음에서 **채우기** 도구를 선택하고 Shift 키를 누른 채 이미지에서 임의 점을 선택합니다. Shift 키를 사용하면 채우기 색의 알파 값이 이미지의 색을 대체합니다. 그렇지 않으면 알파 값이 채우기 색을 이미지의 색과 혼합하는 데 사용됩니다.  
   
    > [!IMPORTANT]
-   >  이전 단계의 색 선택과 함께 이 단계에서는 그리려는 "bullseye" 대상 질감에 사용할 기본 이미지가 준비되어 있는지 확인합니다. 이미지가 투명 검은색으로 채워진 경우에는 대상의 테두리가 검은색이므로 대상 주변에 앨리어싱 아티팩트가 없게 됩니다.  
+   > 이전 단계의 색 선택과 함께 이 단계에서는 그리려는 "bullseye" 대상 질감에 사용할 기본 이미지가 준비되어 있는지 확인합니다. 이미지가 투명 검은색으로 채워진 경우에는 대상의 테두리가 검은색이므로 대상 주변에 앨리어싱 아티팩트가 없게 됩니다.  
   
 6. [이미지 편집기] 도구 모음에서 **타원** 도구를 선택합니다.  
   
@@ -70,7 +70,7 @@ ms.locfileid: "60076801"
 11. **타원** 도구를 사용하여 픽셀 좌표 `(3, 3)`에서 픽셀 좌표 `(508, 508)`까지 원을 그립니다. 원을 더 쉽게 그리려면 그릴 때 Shift 키를 누르고 있습니다.  
   
     > [!NOTE]
-    >  현재 포인터 위치의 픽셀 좌표가 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 상태 표시줄에 표시됩니다.  
+    > 현재 포인터 위치의 픽셀 좌표가 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 상태 표시줄에 표시됩니다.  
   
 12. 배경색을 변경합니다. **R**를 `44`로, **G**를 `165`로, **B**를 `211`로, **A**를 `255`로 설정합니다.  
   

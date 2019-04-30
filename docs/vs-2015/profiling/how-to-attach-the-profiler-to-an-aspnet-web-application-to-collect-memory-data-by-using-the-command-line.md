@@ -9,12 +9,12 @@ caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 863e60592fe82c468f48912c4e36182b1bb1a36b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 454bcc4fe8e17530d71927d373a05f5f12beae61
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432847"
 ---
 # <a name="how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-memory-data-by-using-the-command-line"></a>방법: 명령줄을 사용 하 여 메모리 데이터 수집을 ASP.NET 웹 응용 프로그램에 Profiler 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60104150"
 이 항목은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구 명령줄 도구를 사용하여 프로파일러를 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 애플리케이션에 연결하고 .NET Framework 메모리 할당의 수와 크기에 대한 데이터를 수집하는 방법을 설명합니다. .NET Framework 메모리 개체의 수명에 대한 데이터를 수집할 수도 있습니다.  
 
 > [!NOTE]
->  프로파일링 도구의 명령줄 도구는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.  
+> 프로파일링 도구의 명령줄 도구는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.  
 
  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 응용 프로그램에서 성능 데이터를 수집하려면 [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) 도구를 사용해서 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 응용 프로그램을 호스팅하는 컴퓨터에서 적합한 환경 변수를 초기화해야 합니다. 그런 다음 컴퓨터를 다시 시작해서 프로파일링용으로 웹 서버를 구성해야 합니다.  
 
@@ -66,7 +66,7 @@ ms.locfileid: "60104150"
      **/start:sample** 옵션과 다음 옵션을 함께 사용할 수 있습니다.  
 
    > [!NOTE]
-   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 응용 프로그램에 필요합니다.  
+   > **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 응용 프로그램에 필요합니다.  
 
    |                                 옵션                                  |                                                                                                                                                        설명                                                                                                                                                        |
    |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

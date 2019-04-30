@@ -10,12 +10,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: df17245a398c71e7ae9ce0077352f47b0b70ab9b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2add0dfced6a3b8e8263dafe133ee3a2f86637f5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420932"
 ---
 # <a name="improve-the-performance-of-a-vsto-add-in"></a>VSTO 추가 기능에 성능을 향상합니다
   Office 애플리케이션용으로 만드는 VSTO 추가 기능을 최적화하여 신속하게 시작하고, 종료하고, 항목을 열고, 다른 작업을 수행할 수 있는 향상된 환경을 사용자에게 제공할 수 있습니다. VSTO 추가 기능이 Outlook용인 경우 낮은 성능 때문에 VSTO 추가 기능이 사용하지 않도록 설정될 가능성도 줄일 수 있습니다. 다음 전략을 실행하여 VSTO 추가 기능의 성능을 높일 수 있습니다.
@@ -93,7 +93,7 @@ ms.locfileid: "60071823"
 - 배포 매니페스트의 디지털 서명 유효성 검사
 
   > [!NOTE]
-  >  이 방법은 VSTO 추가 기능에 사용자의 컴퓨터에서 안전한 위치에 배포 하는 경우 필요는 없습니다.
+  > 이 방법은 VSTO 추가 기능에 사용자의 컴퓨터에서 안전한 위치에 배포 하는 경우 필요는 없습니다.
 
   자세한 내용은 [Windows Installer를 사용 하 여 Office 솔루션 배포](../vsto/deploying-an-office-solution-by-using-windows-installer.md)합니다.
 
@@ -111,7 +111,7 @@ ms.locfileid: "60071823"
  별도의 스레드에서 시간이 많이 걸리는 작업(예: 장기 실행 작업, 데이터베이스 연결 또는 다른 종류의 네트워크 호출)을 수행하는 것이 좋습니다. 자세한 내용은 [Office의 스레딩 지원](../vsto/threading-support-in-office.md)합니다.
 
 > [!NOTE]
->  Office 개체 모델을 호출하는 모든 코드는 주 스레드에서 실행되어야 합니다.
+> Office 개체 모델을 호출하는 모든 코드는 주 스레드에서 실행되어야 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -11,12 +11,12 @@ ms.assetid: f7fe9a7e-f669-4642-ad5d-186b2e6e6ec9
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 7d1bfcfc3176e14900553504a66307ff6e8dcf5a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f3bae21baa0c484f2deeb8406a703b92cadc874b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439051"
 ---
 # <a name="designer-initialization-and-metadata-configuration"></a>디자이너 초기화 및 메타데이터 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "60049259"
 1. 구현 하는 개체 만들기는 <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> 클래스입니다.  
   
    > [!NOTE]
-   >  합니다 <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> 클래스와 같은 개체에 구현 되지 해야는 <xref:Microsoft.VisualStudio.Shell.Package> 클래스입니다.  
+   > 합니다 <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> 클래스와 같은 개체에 구현 되지 해야는 <xref:Microsoft.VisualStudio.Shell.Package> 클래스입니다.  
   
 2. 구현 하는 클래스를 등록 <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> 의 인스턴스를 적용 하 여 VSPackage의 디자이너 확장에 대 한 지원을 제공 하는 것 <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>를 <xref:Microsoft.VisualStudio.Shell.ProvideObjectAttribute> 하 고 <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> VSPackage의 구현을 제공 하는 클래스에 <xref:Microsoft.VisualStudio.Shell.Package> .  
   
@@ -93,7 +93,7 @@ ms.locfileid: "60049259"
   `internal class MyPackage : Package {}`  
   
 > [!NOTE]
->  현 시점 디자인 화면을 만드는 구성 요소를 지원 하 고 따라서 구성 요소만 로컬 메타 데이터를 가질 수 합니다. 위의 예제에서와 같은 속성을 수정 하 려 했던 것을 `Color` 개체의 속성입니다. 하는 경우 `false` 전역 플래그에 대 한 전달 된 `CustomBrowser` 디자이너의 인스턴스를 실제로 만들어지기 때문에 표시 되지 않습니다 `Color`합니다. 전역 플래그 설정을 `false` 컨트롤, 타이머 및 대화 상자와 같은 구성 요소에 대해 유용 합니다.  
+> 현 시점 디자인 화면을 만드는 구성 요소를 지원 하 고 따라서 구성 요소만 로컬 메타 데이터를 가질 수 합니다. 위의 예제에서와 같은 속성을 수정 하 려 했던 것을 `Color` 개체의 속성입니다. 하는 경우 `false` 전역 플래그에 대 한 전달 된 `CustomBrowser` 디자이너의 인스턴스를 실제로 만들어지기 때문에 표시 되지 않습니다 `Color`합니다. 전역 플래그 설정을 `false` 컨트롤, 타이머 및 대화 상자와 같은 구성 요소에 대해 유용 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension>   

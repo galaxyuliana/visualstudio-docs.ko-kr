@@ -16,12 +16,12 @@ caps.latest.revision: 44
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 59e00fb6b4db879ed70904397ba9a54c8bc25a6f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b256971cd327098e22b243a1c171b0c9e82d32bc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433128"
 ---
 # <a name="define-a-profile-to-extend-uml"></a>프로필을 정의하여 UML 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60069370"
   팀에 고유한 프로필을 배포할 수 있습니다. 각 팀 멤버가 프로필을 설치할 수 있습니다. 이렇게 하면 해당 스테레오타입을 사용하는 모델을 만들고 편집할 수 있습니다.  
   
 > [!NOTE]
->  편집 중인 모델에 프로필의 스테레오타입을 적용한 후 다른 사용자와 모델을 공유하는 경우 자신의 컴퓨터에 동일한 프로필을 설치해야 합니다. 그렇지 않으면 사용된 스테레오타입을 볼 수 없습니다.  
+> 편집 중인 모델에 프로필의 스테레오타입을 적용한 후 다른 사용자와 모델을 공유하는 경우 자신의 컴퓨터에 동일한 프로필을 설치해야 합니다. 그렇지 않으면 사용된 스테레오타입을 볼 수 없습니다.  
   
  프로필의 일부인 경우가 더 큰 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 확장 합니다. 예를 들어 모델의 일부를 코드로 변환하는 명령을 정의할 수 있습니다. 사용자가 변환하려는 패키지에 적용해야 하는 프로필을 정의할 수 있습니다. 단일 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 확장에서 이 프로필과 함께 새 명령을 배포합니다.  
   
@@ -83,7 +83,7 @@ ms.locfileid: "60069370"
 1. Visual Studio 확장 프로젝트를 만듭니다.  
   
    > [!NOTE]
-   >  이 절차를 사용하려면 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)]가 설치되어 있어야 합니다.  
+   > 이 절차를 사용하려면 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)]가 설치되어 있어야 합니다.  
   
    1. **파일** 메뉴에서 **새로 만들기**를 가리킨 다음 **프로젝트**를 클릭합니다.  
   
@@ -194,7 +194,7 @@ ms.locfileid: "60069370"
 2. 기본 프로필 파일과 동일한 디렉터리에 새 디렉터리를 추가합니다.  
   
     > [!NOTE]
-    >  Visual Studio 확장 프로젝트를 사용하여 확장을 빌드하는 경우 솔루션 탐색기를 사용하여 프로젝트에 새 폴더를 추가합니다.  
+    > Visual Studio 확장 프로젝트를 사용하여 확장을 빌드하는 경우 솔루션 탐색기를 사용하여 프로젝트에 새 폴더를 추가합니다.  
   
 3. 새 디렉터리의 이름을 지역화된 문화권에 대한 ISO 짧은 코드로 변경합니다. 예를 들어 불가리아어는 `bg`이고, 프랑스어는 `fr`입니다. `fr-CA`와 같은 특정 문화권이 아니라 일반적으로 두 문자로 이루어진 중립 문화권 코드를 사용해야 합니다. 문화권 코드에 대 한 자세한 내용은 참조 하세요. [CultureInfo.GetCultures 메서드](http://go.microsoft.com/fwlink/?LinkId=160782), 문화권 코드의 전체 목록을 제공 합니다.  
   
@@ -211,7 +211,7 @@ ms.locfileid: "60069370"
      `de\MyProfile.profile`  
   
     > [!NOTE]
-    >  지역화된 버전의 프로필에 대한 참조를 `extension.vsixmanifest`에 삽입하면 안 됩니다. 복사된 프로필 파일은 부모 폴더의 프로필과 이름이 같아야 합니다.  
+    > 지역화된 버전의 프로필에 대한 참조를 `extension.vsixmanifest`에 삽입하면 안 됩니다. 복사된 프로필 파일은 부모 폴더의 프로필과 이름이 같아야 합니다.  
   
 5. 프로필의 새 복사본을 편집하고 `displayName` 특성과 같이 사용자에게 표시되는 모든 파트를 대상 언어로 번역합니다.  
   
@@ -247,7 +247,7 @@ ms.locfileid: "60069370"
 ```  
   
 > [!NOTE]
->  `name`이라는 특성은 공백이나 문장 부호를 포함하지 않아야 합니다. 사용자 인터페이스에 표시되는 `displayName` 특성은 유효한 XML 문자열이어야 합니다.  
+> `name`이라는 특성은 공백이나 문장 부호를 포함하지 않아야 합니다. 사용자 인터페이스에 표시되는 `displayName` 특성은 유효한 XML 문자열이어야 합니다.  
   
  모든 프로필에 세 개의 주요 섹션이 있습니다. 해당 프로필은 반대 순서로 다음과 같습니다.  
   
@@ -310,7 +310,7 @@ ms.locfileid: "60069370"
  `name`의 `metaclassMoniker` 특성은 `<metaClasses>` 섹션의 요소에 대한 링크입니다.  
   
 > [!NOTE]
->  모니커 이름은 `/yourProfileName/`으로 시작해야 합니다. 여기서 `yourProfileName`은 프로필의 `name` 특성(이 예제에서는 "CSharpProfile")에서 정의됩니다. 모니커는 메타클래스 섹션에 있는 항목 중 하나의 이름으로 끝납니다.  
+> 모니커 이름은 `/yourProfileName/`으로 시작해야 합니다. 여기서 `yourProfileName`은 프로필의 `name` 특성(이 예제에서는 "CSharpProfile")에서 정의됩니다. 모니커는 메타클래스 섹션에 있는 항목 중 하나의 이름으로 끝납니다.  
   
  각 스테레오타입은 적용되는 모델 요소에 추가하는 0개 이상의 속성을 나열할 수 있습니다. `<propertyType>` 에 정의 된 형식 중 하나에 대 한 링크가 포함 된 `<propertyTypes>` 섹션입니다. 링크는 `<externalTypeMoniker>`을 참조하는 `<externalType>,` 또는 `<enumerationTypeMoniker>`을 참조하는 `<enumerationType>` 중 하나여야 합니다. 다시, 링크는 프로필 이름으로 시작합니다.  
   

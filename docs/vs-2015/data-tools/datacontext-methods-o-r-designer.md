@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 97a36c38eb0c4a96cb7182300c2f9aca6da68e8a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c5af5beb71dc2164df38180078cf7489f2da391e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042754"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431148"
 ---
 # <a name="datacontext-methods-or-designer"></a>DataContext 메서드(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ DataContext] (assetId:///T:System.Data.Linq.DataContext?qualifyHint=False & auto
  저장 프로시저 및 함수에 매핑되는 <xref:System.Data.Linq.DataContext> 메서드는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]의 메서드 창에 표시됩니다. 메서드 창 옆에 있는 창입니다 합니다 **엔터티** 창 (주 디자인 화면). 메서드 창 모두 나열 <xref:System.Data.Linq.DataContext> 메서드를 사용 하 여 만든는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다. 기본적으로 메서드 창은 비어 있습니다. 저장 프로시저나 함수를 끌어 **서버 탐색기**/**데이터베이스 탐색기** 에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 만들려면 <xref:System.Data.Linq.DataContext> 메서드 및 메서드 창을 채웁니다. 자세한 내용은 [방법: 저장 프로시저 및 함수에 매핑된 DataContext 메서드를 만듭니다(O/R 디자이너)](../data-tools/how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md).  
   
 > [!NOTE]
->  열기 및 마우스 오른쪽 단추로 클릭 하 여 메서드 창 닫기 합니다 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 클릭 한 다음 **메서드 창 숨김** 또는 **메서드 창 표시**, 하거나 바로 가기 키 CTRL+1 사용 하 여 합니다.  
+> 열기 및 마우스 오른쪽 단추로 클릭 하 여 메서드 창 닫기 합니다 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 클릭 한 다음 **메서드 창 숨김** 또는 **메서드 창 표시**, 하거나 바로 가기 키 CTRL+1 사용 하 여 합니다.  
   
 ## <a name="two-types-of-datacontext-methods"></a>DataContext 메서드의 두 가지 형식  
  DataContext 메서드는 데이터베이스의 저장 프로시저와 함수에 매핑되는 메서드로 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]의 메서드 창에서 만들고 추가할 수 있습니다. <xref:System.Data.Linq.DataContext> 메서드에는 다음과 같이 결과 세트를 하나 이상 반환하는 형식과 반환하지 않는 형식이 있습니다.  
@@ -44,7 +44,7 @@ DataContext] (assetId:///T:System.Data.Linq.DataContext?qualifyHint=False & auto
  저장된 프로시저 및 함수를 끌어 오면 **서버 탐색기**/**데이터베이스 탐색기** 에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)], 생성 된 반환 형식 <xref:System.Data.Linq.DataContext> 메서드 항목을 놓는 위치에 따라 합니다. 만듭니다 항목을 기존 엔터티 클래스 위에 직접 놓으면를 <xref:System.Data.Linq.DataContext> 엔터티 클래스의 반환 형식과 메서드를 삭제 항목의 빈 영역에는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] (창) 중 하나를 만듭니다를 <xref:System.Data.Linq.DataContext> 반환 하는 메서드는 자동으로 생성 된 형식입니다. 만든 자동 생성 형식의 이름은 저장 프로시저 또는 함수가 반환한 필드에 매핑되는 저장 프로시저 또는 함수의 이름 및 속성과 일치합니다.  
   
 > [!NOTE]
->  메서드 창에 추가한 후 <xref:System.Data.Linq.DataContext> 메서드의 반환 형식을 변경할 수 있습니다. <xref:System.Data.Linq.DataContext> 메서드의 반환 형식을 검사하거나 변경하려면 해당 메서드를 선택하고 **속성** 창에서 **반환 형식** 속성을 검사합니다. 자세한 내용은 [방법: DataContext 메서드의 반환 형식 변경(O/R 디자이너)](../data-tools/how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md)을 참조하세요.  
+> 메서드 창에 추가한 후 <xref:System.Data.Linq.DataContext> 메서드의 반환 형식을 변경할 수 있습니다. <xref:System.Data.Linq.DataContext> 메서드의 반환 형식을 검사하거나 변경하려면 해당 메서드를 선택하고 **속성** 창에서 **반환 형식** 속성을 검사합니다. 자세한 내용은 [방법: DataContext 메서드의 반환 형식 변경(O/R 디자이너)](../data-tools/how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md)을 참조하세요.  
   
  데이터베이스에서 O/R 디자이너 화면으로 끌어 오는 개체는 데이터베이스의 개체 이름을 기초로 이름이 자동으로 지정됩니다. 같은 개체를 두 번 이상 끌어 오면 이름을 구별할 수 있도록 새 이름 끝에 숫자가 추가됩니다. 데이터베이스 개체 이름에 공백이 포함되어 있거나 Visual Basic 또는 C#에서 지원되지 않는 문자가 사용되었으면 해당 공백이나 잘못된 문자가 밑줄로 대체됩니다.  
   

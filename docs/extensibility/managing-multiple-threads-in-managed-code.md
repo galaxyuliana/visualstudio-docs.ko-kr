@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d7eac5329fb5bfacb036e8f0ed585b96ded2a069
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b5c3f8995d5bfbbbfe890100b0ec1a1230450bb6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084754"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431328"
 ---
 # <a name="how-to-manage-multiple-threads-in-managed-code"></a>방법: 관리 코드에서 다중 스레드 관리
 비동기 메서드를 호출 하거나 Visual Studio UI 스레드가 아닌 스레드에서 실행 되는 작업에는 관리 되는 VSPackage 확장에 있는 경우 아래 제공 된 지침을 따라야 합니다. 작업에 대 한 다른 스레드가 완료 되기를 대기할 필요가 없기 때문에 UI 스레드를 반응 형 유지할 수 있습니다. 코드를 효율적으로 수행할 수 스택 공간을 차지 하는 추가 스레드 필요가 없기 때문에 있고 더 안정적이 고 교착 상태 및 중지 문제를 방지 하기 때문에 디버그 하는 일을 쉽게 만들 수 있습니다.
@@ -21,7 +21,7 @@ ms.locfileid: "60084754"
  일반적으로 전환할 수 UI 스레드에서 다른 스레드 또는 그 반대의 경우도 마찬가지입니다. 메서드는 반환 될 때 현재 스레드를 원래 호출한 스레드가 됩니다.
 
 > [!IMPORTANT]
->  다음 지침의 Api를 사용 합니다 <xref:Microsoft.VisualStudio.Threading> 네임 스페이스, 특히는 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> 클래스입니다. 이 네임 스페이스의 Api에 새로 추가 된 [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]합니다. 인스턴스를 가져올 수 있습니다는 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> 에서 합니다 <xref:Microsoft.VisualStudio.Shell.ThreadHelper> 속성 `ThreadHelper.JoinableTaskFactory`합니다.
+> 다음 지침의 Api를 사용 합니다 <xref:Microsoft.VisualStudio.Threading> 네임 스페이스, 특히는 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> 클래스입니다. 이 네임 스페이스의 Api에 새로 추가 된 [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]합니다. 인스턴스를 가져올 수 있습니다는 <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory> 에서 합니다 <xref:Microsoft.VisualStudio.Shell.ThreadHelper> 속성 `ThreadHelper.JoinableTaskFactory`합니다.
 
 ## <a name="switch-from-the-ui-thread-to-a-background-thread"></a>UI 스레드에서 백그라운드 스레드로 전환
 

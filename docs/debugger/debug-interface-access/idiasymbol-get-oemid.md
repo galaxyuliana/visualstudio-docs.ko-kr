@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8cc6cd3e7948b88169489cf4f4c73d1e8fcc7d73
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 91d6097fd558ee3fd4e61485eb53cd25a0b7c6a2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63399261"
 ---
 # <a name="idiasymbolgetoemid"></a>IDiaSymbol::get_oemId
 기호 원래 장비 제조업체 (OEM) ID 값을 검색합니다.
@@ -39,9 +39,9 @@ HRESULT get_oemId ( 
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  이 속성은 사용 하 여 기호에만 적용 됩니다는 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 유형의 `SymTagCustomType`합니다.
 
 ## <a name="see-also"></a>참고 항목

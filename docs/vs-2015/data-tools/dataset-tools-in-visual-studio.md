@@ -53,18 +53,18 @@ caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d45fcbd8bd84bb9b6510d4143d3250e2e67ad1b6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0dc80bd821a85c475adba7fbbc264ab6b5a76a9b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431132"
 ---
 # <a name="dataset-tools-in-visual-studio"></a>Visual Studio의 데이터 세트 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 참고]
->  데이터 집합 및 관련된 클래스는 응용 프로그램은 데이터베이스에서 연결이 끊어진 동안 메모리에 있는 데이터로 작업 하는 응용 프로그램을 사용 하도록 설정 하는 초기에 종사해에서 레거시.NET 기술입니다. 사용자가 데이터를 수정 하 고 다시 데이터베이스에 변경 내용을 유지할 수 있게 하는 응용 프로그램에 특히 유용 합니다. 데이터 집합, 매우 성공적 이었던 기술이 입증 하지만 새로운.NET 응용 프로그램 Entity Framework를 사용 하는 것이 좋습니다. 더 간단한 프로그래밍 인터페이스에 및 entity Framework 개체 모델로 테이블 형식 데이터로 작업 하는 더 자연 스러운 방법을 제공 합니다.
+> 데이터 집합 및 관련된 클래스는 응용 프로그램은 데이터베이스에서 연결이 끊어진 동안 메모리에 있는 데이터로 작업 하는 응용 프로그램을 사용 하도록 설정 하는 초기에 종사해에서 레거시.NET 기술입니다. 사용자가 데이터를 수정 하 고 다시 데이터베이스에 변경 내용을 유지할 수 있게 하는 응용 프로그램에 특히 유용 합니다. 데이터 집합, 매우 성공적 이었던 기술이 입증 하지만 새로운.NET 응용 프로그램 Entity Framework를 사용 하는 것이 좋습니다. 더 간단한 프로그래밍 인터페이스에 및 entity Framework 개체 모델로 테이블 형식 데이터로 작업 하는 더 자연 스러운 방법을 제공 합니다.
 
  DataSet 개체는 기본적으로 최소 데이터베이스는 메모리 내 개체. 저장 하 고 열려 있는 연결을 유지 관리 하지 않고도 하나 이상의 데이터베이스에서 데이터를 수정할 수 있는 DataTable, DataColumn의 경우 및 DataRow 개체를 포함 합니다. 데이터 집합 업데이트를 추적 하 고 응용 프로그램에 다시 연결 되는 경우 데이터베이스에 다시 전송 될 수 있도록 해당 데이터를 변경 하는 방법에 대 한 정보를 유지 관리 합니다.
 

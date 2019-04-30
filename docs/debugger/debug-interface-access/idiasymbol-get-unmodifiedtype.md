@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6fb271a03a8932989d6201329c441a21a226f559
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 2e609f59e0d72628be4233be52738ff244c6acca
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63400175"
 ---
 # <a name="idiasymbolgetunmodifiedtype"></a>IDiaSymbol::get_unmodifiedType
 이 기호에 대 한 원래 형식을 검색합니다. 사용 시기를 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 유형으로 설정 됩니다.
@@ -39,9 +39,9 @@ HRESULT get_unmodifiedType( 
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  현재 형식이 반환 된 원래 형식의 수정 합니다. 기호에 대 한 원래 형식은 먼저 기호의 형식을 가져오고 다음 원래 형식에 대 한 형식을 반환 하는 조회 하 여 확인할 수 있습니다. 참고 일부 기호는 원래 형식이 수정 된 형식에 없을 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항

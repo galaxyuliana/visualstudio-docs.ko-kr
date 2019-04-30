@@ -26,12 +26,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9efc655997a48e070ee60a1d66dc57be31362403
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6c7746137cf10e0146ff68eeb2cec9005b72a670
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427618"
 ---
 # <a name="how-to-add-content-controls-to-word-documents"></a>방법: 콘텐츠 추가 컨트롤을 Word 문서
   문서 수준 Word 프로젝트에서는 있습니다 콘텐츠 컨트롤을 추가할 수 문서 프로젝트에서 디자인 타임 또는 런타임 시. Word VSTO 추가 기능 프로젝트에서는 런타임에 열려 있는 문서에 콘텐츠 컨트롤을 추가할 수 있습니다.
@@ -78,10 +78,10 @@ ms.locfileid: "60080413"
     - **도구 상자** 에서 문서로 콘텐츠 컨트롤을 끌어옵니다. 콘텐츠 컨트롤이 마우스 포인터 위치가 아니라 문서의 현재 선택 영역에 추가됩니다.
 
 > [!NOTE]
->  <xref:Microsoft.Office.Tools.Word.GroupContentControl> 도구 상자 **를 사용하여**을 추가할 수 없습니다. 만 추가할 수 있습니다는 <xref:Microsoft.Office.Tools.Word.GroupContentControl> Word에서 나 런타임에 합니다.
+> <xref:Microsoft.Office.Tools.Word.GroupContentControl> 도구 상자 **를 사용하여**을 추가할 수 없습니다. 만 추가할 수 있습니다는 <xref:Microsoft.Office.Tools.Word.GroupContentControl> Word에서 나 런타임에 합니다.
 
 > [!NOTE]
->  Visual Studio는 도구 상자에 확인란 콘텐츠 컨트롤을 제공하지 않습니다. 문서에 확인란 콘텐츠 컨트롤을 추가하려면 프로그래밍 방식으로 <xref:Microsoft.Office.Tools.Word.ContentControl> 개체를 만들어야 합니다. 자세한 내용은 [콘텐츠 컨트롤](../vsto/content-controls.md)합니다.
+> Visual Studio는 도구 상자에 확인란 콘텐츠 컨트롤을 제공하지 않습니다. 문서에 확인란 콘텐츠 컨트롤을 추가하려면 프로그래밍 방식으로 <xref:Microsoft.Office.Tools.Word.ContentControl> 개체를 만들어야 합니다. 자세한 내용은 [콘텐츠 컨트롤](../vsto/content-controls.md)합니다.
 
 #### <a name="to-add-a-content-control-to-a-document-in-word"></a>Word에서 문서에 콘텐츠 컨트롤을 추가하려면
 
@@ -90,7 +90,7 @@ ms.locfileid: "60080413"
 2. 리본에서 **개발자** 탭을 클릭합니다.
 
     > [!NOTE]
-    >  **개발자** 탭이 표시되지 않는 경우 먼저 개발자 탭을 표시해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
+    > **개발자** 탭이 표시되지 않는 경우 먼저 개발자 탭을 표시해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
 
 3. **컨트롤** 그룹에서 추가하려는 콘텐츠 컨트롤의 아이콘을 클릭합니다.
 
@@ -106,7 +106,7 @@ ms.locfileid: "60080413"
   동적으로 생성된 콘텐츠 컨트롤은 문서를 닫을 때 문서에 유지되지 않습니다. 그러나 네이티브 콘텐츠 컨트롤은 문서에 남아 있습니다. 다음에 문서를 열 때 네이티브 콘텐츠 컨트롤을 기반으로 하는 콘텐츠 컨트롤을 다시 만들 수 있습니다. 자세한 내용은 [런타임에 Office 문서에 컨트롤 추가](../vsto/adding-controls-to-office-documents-at-run-time.md)합니다.
 
 > [!NOTE]
->  Word 2010 프로젝트에서 문서에 확인란 콘텐츠 컨트롤을 추가하려면 <xref:Microsoft.Office.Tools.Word.ContentControl> 개체를 만들어야 합니다. 자세한 내용은 [콘텐츠 컨트롤](../vsto/content-controls.md)합니다.
+> Word 2010 프로젝트에서 문서에 확인란 콘텐츠 컨트롤을 추가하려면 <xref:Microsoft.Office.Tools.Word.ContentControl> 개체를 만들어야 합니다. 자세한 내용은 [콘텐츠 컨트롤](../vsto/content-controls.md)합니다.
 
 ### <a name="to-add-a-content-control-at-the-current-selection"></a>현재 선택 영역에 콘텐츠 컨트롤을 추가하려면
 
@@ -149,7 +149,7 @@ ms.locfileid: "60080413"
   VSTO 추가 기능 프로젝트에서 호스트 항목을 생성 하는 방법에 대 한 자세한 내용은 참조 하세요. [확장 Word 문서 및 Excel 통합 런타임에 VSTO 추가 기능에서](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)합니다.
 
 > [!NOTE]
->  문서에 확인란 콘텐츠 컨트롤을 추가하려면 <xref:Microsoft.Office.Tools.Word.ContentControl> 개체를 만들어야 합니다. 자세한 내용은 [콘텐츠 컨트롤](../vsto/content-controls.md)합니다.
+> 문서에 확인란 콘텐츠 컨트롤을 추가하려면 <xref:Microsoft.Office.Tools.Word.ContentControl> 개체를 만들어야 합니다. 자세한 내용은 [콘텐츠 컨트롤](../vsto/content-controls.md)합니다.
 
 ### <a name="to-add-a-content-control-at-the-current-selection"></a>현재 선택 영역에 콘텐츠 컨트롤을 추가하려면
 

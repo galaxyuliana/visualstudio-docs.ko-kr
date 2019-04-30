@@ -8,12 +8,12 @@ ms.assetid: 754b9bf3-8681-4c77-b0a4-09146a4e1d2d
 caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 510d0c2144b2640f720bea004cdc44026f749310
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8976d329f6303d60cc00609bc9ed9471456c1b63
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60111157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408750"
 ---
 # <a name="walkthrough-saving-user-settings-on-a-start-page"></a>연습: 시작 페이지에 사용자 설정 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,9 +29,9 @@ ms.locfileid: "60111157"
 ## <a name="prerequisites"></a>전제 조건  
   
 > [!NOTE]
->  이 연습을 수행하려면 Visual Studio SDK를 설치해야 합니다. 자세한 내용은 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.  
+> 이 연습을 수행하려면 Visual Studio SDK를 설치해야 합니다. 자세한 내용은 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.  
 >   
->  시작 페이지 프로젝트 템플릿을 사용 하 여 다운로드할 수 있습니다 **확장 관리자**합니다.  
+> 시작 페이지 프로젝트 템플릿을 사용 하 여 다운로드할 수 있습니다 **확장 관리자**합니다.  
   
 ## <a name="setting-up-the-project"></a>프로젝트 설정  
   

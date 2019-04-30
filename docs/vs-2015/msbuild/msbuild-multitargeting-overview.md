@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1d4221cfdc0d741264aa4667892117ba0cc24f9a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f5b60f44dd1d32a9d19814b4d2194e7586d86865
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426858"
 ---
 # <a name="msbuild-multitargeting-overview"></a>MSBuild 멀티 타기팅 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60108284"
 MSBuild를 사용하면 .NET Framework의 여러 버전 중 하나 및 여러 시스템 플랫폼 중 하나에서 실행되는 애플리케이션을 컴파일할 수 있습니다. 예를 들어 32비트 플랫폼의 .NET Framework 2.0에서 실행되도록 애플리케이션을 컴파일하고 동일한 애플리케이션을 64비트 플랫폼의 .NET Framework 4.5에서 실행되도록 컴파일할 수 있습니다.  
   
 > [!IMPORTANT]
->  이름이 “멀티 타기팅”이지만 프로젝트는 한 번에 하나의 프레임워크만, 그리고 하나의 플랫폼만 대상으로 지정할 수 있습니다.  
+> 이름이 “멀티 타기팅”이지만 프로젝트는 한 번에 하나의 프레임워크만, 그리고 하나의 플랫폼만 대상으로 지정할 수 있습니다.  
   
  MSBuild 대상 지정의 몇 가지 기능은 다음과 같습니다.  
   

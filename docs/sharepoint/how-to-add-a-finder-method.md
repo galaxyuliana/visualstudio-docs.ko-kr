@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: dc61db134063c1e300a2620f611d62497fffe6e1
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 49f494fa2c0fb35f7d2a65dc2ccb6b6d2d761cbe
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428721"
 ---
 # <a name="how-to-add-a-finder-method"></a>방법: Finder 메서드 추가
   웹 파트 또는 목록에서 엔터티 목록을 표시 하려면 데이터 연결 (BDC (비즈니스) 서비스를 사용 하려면 만들어야 합니다는 *Finder* 메서드. Finder 메서드는 엔터티 인스턴스 컬렉션을 반환 하는 특수 메서드입니다. 자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.
@@ -44,7 +44,7 @@ ms.locfileid: "56608073"
 4. 엔터티 컬렉션 형식 설명자 형식 설명자를 구성 합니다. 엔터티 컬렉션 형식 설명자를 만드는 방법에 대 한 자세한 내용은 참조 하세요. [방법: 매개 변수의 형식 설명자 정의](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)합니다.
 
    > [!NOTE]
-   >  엔터티에 Specificfinder 메서드를 추가한 경우이 단계를 수행할 필요가 없습니다. Visual Studio Specificfinder 메서드에 정의 된 형식 설명자를 사용 합니다.
+   > 엔터티에 Specificfinder 메서드를 추가한 경우이 단계를 수행할 필요가 없습니다. Visual Studio Specificfinder 메서드에 정의 된 형식 설명자를 사용 합니다.
 
 5. **솔루션 탐색기**, 엔터티에 대해 생성 된 서비스 코드 파일의 바로 가기 메뉴를 열고 선택한 후 **코드 보기**합니다. 서비스 코드 파일에 대 한 자세한 내용은 참조 하세요. [비즈니스 데이터 연결 모델 만들기](../sharepoint/creating-a-business-data-connectivity-model.md)합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "56608073"
      컬렉션을 반환 하는 다음 예제에서는 `Contact` SQL Server에 대 한 AdventureWorks 예제 데이터베이스에서 데이터를 사용 하 여 엔터티.
 
    > [!NOTE]
-   >  값을 `ServerName` 필드 서버의 이름입니다.
+   > 값을 `ServerName` 필드 서버의 이름입니다.
 
     [!code-csharp[SP_BDC#2](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#2)]
     [!code-vb[SP_BDC#2](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#2)]

@@ -15,12 +15,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8b5dc42932334b54bb46664da14af7df8dcfe131
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bf1fd84d884068d11d15d614f5e281577bd3ce55
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433578"
 ---
 # <a name="how-to-create-a-policyactivity-rule-set-legacy"></a>방법: PolicyActivity 규칙 집합 만들기(레거시)
 이 항목에서는 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 사용하여 정책 활동 규칙 집합을 만드는 방법에 대해 설명합니다.  
@@ -28,7 +28,7 @@ ms.locfileid: "60050788"
  끌어 온 후는 **정책** 에서 작업 항목은 **도구 상자** 워크플로 디자인 화면에 하려는 새 규칙 집합을 만들거나 기존 규칙을 선택 합니다 [PolicyActivity ](http://go.microsoft.com/fwlink?LinkID=65019) 활동입니다. 사용 하 여 설정 하는 기존 규칙을 선택 합니다 [선택 규칙 설정 대화 상자 (레거시)](../workflow-designer/select-rule-set-dialog-box-legacy.md) 사용 하 여 규칙 집합을 만듭니다는 [규칙 집합 편집기 대화 상자 (레거시)](../workflow-designer/rule-set-editor-dialog-box-legacy.md)합니다.  
   
 > [!NOTE]
->  열 수 있습니다 합니다 [규칙 집합 편집기 대화 상자 (레거시)](../workflow-designer/rule-set-editor-dialog-box-legacy.md) 을 두 번 클릭 하 여 직접 대화 상자를 [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019) 워크플로 디자인 화면에 있는 작업입니다.  
+> 열 수 있습니다 합니다 [규칙 집합 편집기 대화 상자 (레거시)](../workflow-designer/rule-set-editor-dialog-box-legacy.md) 을 두 번 클릭 하 여 직접 대화 상자를 [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019) 워크플로 디자인 화면에 있는 작업입니다.  
   
 ### <a name="to-select-or-create-a-rule-set-for-a-policyactivity-activity"></a>PolicyActivity 활동의 규칙 집합을 선택하거나 만들려면  
   

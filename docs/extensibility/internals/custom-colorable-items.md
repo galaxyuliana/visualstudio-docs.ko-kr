@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 95ebf093b8ed761f39cc3cac290a99708b7f417f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 35a3b7a82431354345c7a7b583b35891657350f3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415181"
 ---
 # <a name="custom-colorable-items"></a>사용자 지정 색 항목
 언어 서비스의 일부로 사용자 지정 색 항목을 구현 하 여 형식 목록을 키워드 및 주석 등의 색을 지정 재정의할 수 있습니다.
@@ -28,11 +28,11 @@ ms.locfileid: "56641535"
  IDE의 색 항목 사용자 재정의 처리 하기 때문에 합니다 **글꼴 및 색** 대화 상자에서 해야만 이름으로 각 사용자 지정 색 항목을 제공 합니다. 이 이름은에 나타나는 항목의 **항목을 표시** 목록. 색 항목 사전순으로 표시 합니다. 언어 서비스의 사용자 지정 색 항목 그룹을 시작할 수 있습니다 각 이름에 언어 이름의 예를 들어 **NewLanguage-주석** 하 고 **NewLanguage-키워드**합니다.
 
 > [!CAUTION]
->  기존 색 항목 이름과 충돌 하지 않도록 하려면 색 항목 이름에 언어 이름을 포함 해야 합니다. 개발 중 색 항목 중 하나의 이름을 변경한 경우에 색 항목 액세스 된 처음 만들어진 캐시를 다시 설정 해야 합니다. 실험적 캐시를 다시 설정할 수 있습니다 합니다 **CreateExpInstance** 디렉터리에 일반적으로 Visual Studio SDK와 함께 설치 되는 도구:
+> 기존 색 항목 이름과 충돌 하지 않도록 하려면 색 항목 이름에 언어 이름을 포함 해야 합니다. 개발 중 색 항목 중 하나의 이름을 변경한 경우에 색 항목 액세스 된 처음 만들어진 캐시를 다시 설정 해야 합니다. 실험적 캐시를 다시 설정할 수 있습니다 합니다 **CreateExpInstance** 디렉터리에 일반적으로 Visual Studio SDK와 함께 설치 되는 도구:
 >
->  *C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin*
+> *C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin*
 >
->  캐시를 재설정 하려면 입력 **CreateExpInstance /Reset**합니다. 에 대 한 자세한 내용은 **CreateExpInstance**를 참조 하십시오 [CreateExpInstance 유틸리티](../../extensibility/internals/createexpinstance-utility.md)합니다.
+> 캐시를 재설정 하려면 입력 **CreateExpInstance /Reset**합니다. 에 대 한 자세한 내용은 **CreateExpInstance**를 참조 하십시오 [CreateExpInstance 유틸리티](../../extensibility/internals/createexpinstance-utility.md)합니다.
 
  색 항목 목록에서 첫 번째 항목 참조 되지 않습니다. 첫 번째 항목 인덱스에 해당 하는 색 항목 0 및 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 항상 기본 텍스트 색 및 해당 항목에 대 한 특성을 제공 합니다. 첫 번째 항목으로 목록에 자리 표시자 색 항목을 제공 하는 가장 쉬운 방법은이 참조 되지 않은 항목을 처리 하는 경우
 

@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7069da816d8f693fc38856d1218f5f9f6284dd4c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ddeba1539cf68d53f4b9f931d2bcd18a159028fd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438692"
 ---
 # <a name="walkthrough-bind-data-to-controls-on-a-word-actions-pane"></a>연습: Word 작업 창의 컨트롤에 데이터 바인딩
   이 연습에서는 word에서 작업 창의 컨트롤에 대 한 데이터 바인딩을 보여 줍니다. 컨트롤은 SQL Server 데이터베이스의 테이블 간 마스터/세부 관계를 보여 줍니다.
@@ -38,7 +38,7 @@ ms.locfileid: "60063610"
 - 응용 프로그램을 열 때 작업창을 표시 합니다.
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
@@ -78,7 +78,7 @@ ms.locfileid: "60063610"
 1. 경우는 **데이터 원본** 창이 표시 되지 않으면, 메뉴 모음에 의해 표시 **뷰** > **기타 Windows**  >   **데이터 원본**합니다.
 
    > [!NOTE]
-   >  하는 경우 **데이터 소스 표시** 를 사용할 수 없는 Word 문서를 클릭 한 다음 다시 확인 합니다.
+   > 하는 경우 **데이터 소스 표시** 를 사용할 수 없는 Word 문서를 클릭 한 다음 다시 확인 합니다.
 
 2. 클릭 **새 데이터 원본 추가** 시작 하는 **데이터 소스 구성 마법사**합니다.
 
@@ -111,7 +111,7 @@ ms.locfileid: "60063610"
 4. 선택 `SuppliersBindingNavigator` 에 **구성 요소** 트레이 누릅니다 **삭제**합니다. 사용 하지 것입니다는 `SuppliersBindingNavigator` 이 연습 합니다.
 
     > [!NOTE]
-    >  삭제 된 `SuppliersBindingNavigator` 모든 것에 대해 생성 된 코드를 제거 하지 않습니다. 이 코드를 제거할 수 있습니다.
+    > 삭제 된 `SuppliersBindingNavigator` 모든 것에 대해 생성 된 코드를 제거 하지 않습니다. 이 코드를 제거할 수 있습니다.
 
 5. 레이블 및 변경에는 콤보 상자를 이동 합니다 **크기** 속성을 **171, 21**합니다.
 

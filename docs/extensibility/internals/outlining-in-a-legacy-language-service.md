@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ba6d709dae3b2a20332b3122585ad2060628016e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 7aa01918b8de718fc26c0dc0249615b327150020
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56601359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422865"
 ---
 # <a name="outlining-in-a-legacy-language-service"></a>레거시 언어 서비스의 개요 표시
 개요 개요 또는 개요로 복잡 한 프로그램을 축소할 수 있습니다. 예를 들어 C#의 모든 메서드는 메서드 시그니처를 보여 주는 단일 줄으로 축소할 수 있습니다. 또한 구조체와 클래스 구조 및 클래스의 이름만 표시 하도록 축소할 수 있습니다. 단일 메서드 내에서 복잡 한 논리 축소할 수 있습니다와 같은 문 첫 번째 줄만 표시 하 여 전체 흐름을 나타내기 위해 `foreach`, `if`, 및 `while`합니다.
@@ -25,7 +25,7 @@ ms.locfileid: "56601359"
  레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 자세한 내용을 알아보려면 참조 [연습: 개요](../../extensibility/walkthrough-outlining.md)를 참조하세요.
 
 > [!NOTE]
->  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
+> 편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
 
 ## <a name="enabling-support-for-outlining"></a>개요에 대 한 지원을 사용 하도록 설정
  `AutoOutlining` 레지스트리 항목이 자동 개요 표시를 사용 하도록 설정 하려면 1로 설정 됩니다. 파일 로드 되거나 숨겨진된 영역을 식별 하 고 개요 문자 모양을 표시 하도록 변경 하는 경우 전체 소스를 구문 분석 설정의 자동 개요 표시 합니다. 개요 제어할 수도 있습니다 수동으로 사용자가 있습니다.

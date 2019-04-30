@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9c09e8eeed3ba5b7e2a348982444ad8faa0884e9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f5a3bed451775c7b6df1d4abb5e318d664cd803f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60047815"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436889"
 ---
 # <a name="model-your-app39s-architecture"></a>앱 모델&#39;s 아키텍처
 소프트웨어 시스템 또는 응용 프로그램 사용자를 충족 하는지 확인 하는 데 필요, 전체 구조 설명 및 소프트웨어 시스템 또는 응용 프로그램의 동작의 일부로 Visual Studio에서 모델을 만들 수 있습니다. 모델을 사용하여 디자인 전체에서 사용되는 패턴을 설명할 수도 있습니다. 이러한 모델은 기존 아키텍처를 이해하고, 변경 내용을 논의하고, 의도를 명확하게 전달하는 데 도움이 됩니다.
@@ -24,7 +24,7 @@ ms.locfileid: "60047815"
  모델의 목적은 자연어 설명에서 발생하는 모호성을 줄이고, 사용자와 동료들이 디자인을 시각화하고 대체 디자인을 논의할 수 있도록 돕는 것입니다. 모델은 다른 문서 또는 논의와 함께 사용해야 합니다. 모델 자체는 아키텍처의 완전한 사양을 나타내지 않습니다.
 
 > [!NOTE]
->  이 항목 전체에서 "시스템"은 개발 중인 소프트웨어를 의미합니다. 다양한 소프트웨어 및 하드웨어 구성 요소의 큰 컬렉션, 단일 응용 프로그램 또는 응용 프로그램의 일부일 수 있습니다.
+> 이 항목 전체에서 "시스템"은 개발 중인 소프트웨어를 의미합니다. 다양한 소프트웨어 및 하드웨어 구성 요소의 큰 컬렉션, 단일 응용 프로그램 또는 응용 프로그램의 일부일 수 있습니다.
 
  시스템의 아키텍처를 다음 두 개의 영역으로 나눌 수 있습니다.
 

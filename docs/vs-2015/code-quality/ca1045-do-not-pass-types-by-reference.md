@@ -15,12 +15,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 217cef39fb3f8564d4ac51878e515622706811ed
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 6bbdcb2e2ac8f905a2b52cfb41ed90217d215b4b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431550"
 ---
 # <a name="ca1045-do-not-pass-types-by-reference"></a>CA1045: 참조로 형식을 전달하지 마세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "58972436"
  반환 값은 일반적 이며의 올바른 응용 프로그램을 많이 사용 되지만 `out` 고 `ref` 중간 디자인 및 코딩 기술을 매개 변수가 필요 합니다. 일반 사용자를 대상에는 마스터 작업에 사용자를 사용 해야 합니다.에 대 한 디자인 하는 라이브러리 설계자 `out` 또는 `ref` 매개 변수입니다.
 
 > [!NOTE]
->  매개 변수를 큰 구조를 사용 하 여 작업할 때 이러한 구조를 복사 하는 데 필요한 추가 리소스를 값으로 전달 하는 경우 성능에 영향을 발생할 수 있습니다. 이러한 경우에 사용해 보십시오 `ref` 또는 `out` 매개 변수입니다.
+> 매개 변수를 큰 구조를 사용 하 여 작업할 때 이러한 구조를 복사 하는 데 필요한 추가 리소스를 값으로 전달 하는 경우 성능에 영향을 발생할 수 있습니다. 이러한 경우에 사용해 보십시오 `ref` 또는 `out` 매개 변수입니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  값 형식에서 발생 하는이 규칙 위반 문제를 해결 하려면 메서드 반환 값으로 개체를 반환 해야 합니다. 메서드가 여러 값을 반환 해야 하는 경우 값을 포함 하는 개체의 단일 인스턴스를 반환 하도록 다시 설계 합니다.

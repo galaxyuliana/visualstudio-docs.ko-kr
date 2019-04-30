@@ -13,12 +13,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 85bdd48f37d8b8d60df6821934980bf46ebf29cd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: f7e9aee38208a96ab75318a86810359392b5b8e1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971998"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433352"
 ---
 # <a name="customize-your-model-with-profiles-and-stereotypes"></a>프로필 및 스테레오타입을 사용하여 모델 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Visual Studio에서 클래스 및 구성 요소와 같은 표준 UML 모델 요�
  ![스테레오 타입으로 UML 클래스입니다. ](../modeling/media/uml-class-stereotype.png "UML_class_stereotype")  
   
 > [!NOTE]
->  프로필을 사용하여 모델을 만들고 모델을 다른 사용자와 공유할 경우 컴퓨터에 같은 프로필을 설치해야 스테레오타입을 볼 수 있습니다.  
+> 프로필을 사용하여 모델을 만들고 모델을 다른 사용자와 공유할 경우 컴퓨터에 같은 프로필을 설치해야 스테레오타입을 볼 수 있습니다.  
   
 ## <a name="related-topics"></a>관련 항목  
   

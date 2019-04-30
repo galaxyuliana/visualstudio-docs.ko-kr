@@ -12,12 +12,12 @@ ms.assetid: 159ccb0b-f5d6-4912-b88b-e9612924ed5e
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 5f27b58b4ef94f4b859b43c2321ddbd9b67327fe
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: cc8bfff0903d2ed1554cfd8b3d5b1dcf5cf0fa8a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436651"
 ---
 # <a name="quick-info-in-a-legacy-language-service"></a>레거시 언어 서비스의 빠른 정보
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "58985540"
  레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 자세한 내용을 알아보려면 참조 [연습: QuickInfo 도구 설명 표시](../../extensibility/walkthrough-displaying-quickinfo-tooltips.md)합니다.  
   
 > [!NOTE]
->  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.  
+> 편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.  
   
  관리 되는 패키지 프레임 워크 (MPF) 언어 서비스 클래스 IntelliSense 요약 정보 도구 설명을 표시 하는 것에 대 한 전체 지원을 제공 합니다. 표시 될 요약 정보 기능을 사용 하는 텍스트를 입력 하면 됩니다.  
   

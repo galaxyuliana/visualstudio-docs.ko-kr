@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 70d438107b7cbe05b0a1c0049dff8e26c286de89
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 08c30f723c6dbdb7359b1fd1d7648a38e71ab161
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428813"
 ---
 # <a name="support-for-code-snippets-in-a-legacy-language-service"></a>레거시 언어 서비스의 코드 조각 지원
 코드 조각은 소스 파일에 삽입 되는 코드입니다. 코드 조각 자체는 XML 기반 서식 파일 필드 집합이 포함 된 경우 이러한 필드에는 코드 조각이 삽입 되 고 코드 조각 삽입 되는 컨텍스트에 따라 다른 값을 가질 수 후 강조 표시 됩니다. 코드 조각을 삽입 한 후에 즉시 코드 조각 언어 서비스에 서식을 지정할 수 있습니다.
@@ -27,7 +27,7 @@ ms.locfileid: "60043963"
  레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 자세한 내용을 알아보려면 참조 [연습: 코드 조각 구현](../../extensibility/walkthrough-implementing-code-snippets.md)합니다.
 
 > [!NOTE]
->  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
+> 편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
 
 ## <a name="managed-package-framework-support-for-code-snippets"></a>관리 되는 코드 조각에 대 한 패키지 프레임 워크 지원
  (MPF)에서 관리 되는 패키지 프레임 워크에서 코드 조각을 삽입 하려면 템플릿의 읽을 대부분의 코드 조각 기능을 지원 하 고 편집 모드에 특수 한을 사용 하도록 설정 합니다. 지원을 통해 관리 되는 <xref:Microsoft.VisualStudio.Package.ExpansionProvider> 클래스입니다.
@@ -392,4 +392,4 @@ namespace TestLanguagePackage
 - [레거시 언어 서비스 기능](../../extensibility/internals/legacy-language-service-features1.md)
 - [레거시 언어 서비스 등록](../../extensibility/internals/registering-a-legacy-language-service1.md)
 - [코드 조각](../../ide/code-snippets.md)
-- [연습: 설치 된 코드 조각 (레거시 구현) 목록 가져오기](../../extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md)
+- [연습: 설치된 코드 조각 목록 가져오기(레거시 구현)](../../extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md)

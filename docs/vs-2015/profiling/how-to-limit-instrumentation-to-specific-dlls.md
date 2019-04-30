@@ -11,12 +11,12 @@ caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1806e39e70d98ce7f47dda6bbc32a8f261b96acd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5dc2fe8e6f9b0ed1e6970943ab5eedf1b62eb961
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60091319"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432671"
 ---
 # <a name="how-to-limit-instrumentation-to-specific-dlls"></a>방법: 특정 Dll로 계측 제한
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ ms.locfileid: "60091319"
 7. 선택 사항입니다. 다른 .dll 파일을 추가하려면 **대상**을 마우스 오른쪽 단추로 클릭하고 **대상 이진 파일 추가**를 선택합니다. **대상 이진 파일 추가** 대화 상자에서 파일을 선택합니다.  
   
     > [!NOTE]
-    >  DLL을 실행하는 실행 파일(.exe)을 지정하지 마세요.  
+    > DLL을 실행하는 실행 파일(.exe)을 지정하지 마세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [데이터 수집 제어](../profiling/controlling-data-collection.md)   

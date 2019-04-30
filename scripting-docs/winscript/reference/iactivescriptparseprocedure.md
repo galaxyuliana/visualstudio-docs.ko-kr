@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 5ed07ce5ed48abfb377dde5fc4d5dc128d881b4a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58151351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63009200"
 ---
 # <a name="iactivescriptparseprocedure"></a>IActiveScriptParseProcedure
 Windows 스크립트 엔진에서 스크립트에 추가 하는 절차에 대 한 소스 코드 텍스트를 허용 하는 경우 구현 된 `IActiveScriptParseProcedure` 인터페이스입니다. VBScript와 같은 독립 없습니다 제작 환경에 있는 해석 된 스크립팅 언어에 대 한 대체 메커니즘을 제공 (이외의 `IActiveScriptParse` 또는 `IPersist`*) 네임 스페이스에 스크립트 프로시저를 추가 합니다.  

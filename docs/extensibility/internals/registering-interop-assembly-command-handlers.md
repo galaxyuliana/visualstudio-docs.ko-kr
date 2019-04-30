@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7a129e0a66399da1efe9bff4d7aef1a94602fa79
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: b07f018a35874e2ffc3f3be825abb227f2996aea
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425464"
 ---
 # <a name="registering-interop-assembly-command-handlers"></a>Interop 어셈블리 명령 처리기를 등록
 VSPackage를 등록 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 는 통합된 개발 환경 (IDE)는 해당 명령을 올바르게 라우팅합니다.
@@ -31,7 +31,7 @@ VSPackage를 등록 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_
  사용자 인터페이스 (UI)에 대 한 처리기 역할을 하는 VSPackage-기반된 명령을 VSPackage의 이름을 딴 하는 레지스트리 항목이 있어야 `GUID`합니다. 이 레지스트리 항목 VSPackage의 UI 리소스 파일과 해당 파일 내에서 메뉴 리소스의 위치를 지정 합니다. HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio 아래에 있는 레지스트리 항목 자체\\*\<버전 >* \Menus, 여기서  *\<버전 >* 버전이 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]예를 들어 9.0, 합니다.
 
 > [!NOTE]
->  HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio의 루트 경로\\*\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 셸 초기화 됩니다. 루트 경로 대 한 자세한 내용은 참조 하세요. [Windows Installer를 사용 하 여 Vspackage 설치](../../extensibility/internals/installing-vspackages-with-windows-installer.md)합니다.
+> HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio의 루트 경로\\*\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 셸 초기화 됩니다. 루트 경로 대 한 자세한 내용은 참조 하세요. [Windows Installer를 사용 하 여 Vspackage 설치](../../extensibility/internals/installing-vspackages-with-windows-installer.md)합니다.
 
 ### <a name="the-ctmenu-resource-registry-entry"></a>CTMENU 리소스 레지스트리 항목
  레지스트리 항목의 구조는:

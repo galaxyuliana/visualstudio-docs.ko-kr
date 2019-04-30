@@ -9,12 +9,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a0c79da47b83f8bf5b44af16ca291e2424011b80
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 03c43d272d3c740c55314db5d1b7b6c225b7e5c8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63421771"
 ---
 # <a name="how-to-evaluate-an-xpath-expression"></a>방법: XPath 식 계산
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60075612"
 - 사용자 정의 함수는 지원되지 않습니다.  
   
 > [!NOTE]
->  다음 절차에서 belowAvg.xsl 및 books.xml 파일을 사용 하 여 [연습: XSLT 스타일 시트 디버깅](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md) 항목입니다.  
+> 다음 절차에서 belowAvg.xsl 및 books.xml 파일을 사용 하 여 [연습: XSLT 스타일 시트 디버깅](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md) 항목입니다.  
   
 ### <a name="to-evaluate-an-xpath-expression"></a>XPath 식을 계산하려면  
   

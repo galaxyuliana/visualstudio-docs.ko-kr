@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0ac57569802bbab5317f59e5311e4871a6e74ba1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f82e469997a7d072ab04e4c5ef6df0f36a8dc9ec
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60093061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419478"
 ---
 # <a name="how-to-programmatically-save-workbooks"></a>방법: 프로그래밍 방식으로 통합 문서 저장
   통합 문서를 저장하는 방법에는 여러 가지가 있습니다. 경로를 변경하지 않고 통합 문서를 저장할 수 있습니다. 통합 문서가 이전에 저장되지 않은 경우 경로를 지정하여 통합 문서를 저장해야 합니다. 명시적 경로 없이 Microsoft Office Excel은 파일을 만들 때 지정된 이름으로 현재 폴더에 파일을 저장합니다. 메모리에 열려 있는 통합 문서를 수정하지 않고 통합 문서의 복사본을 저장할 수도 있습니다.
@@ -46,7 +46,7 @@ ms.locfileid: "60093061"
  필요에 따라 파일 형식, 암호, 액세스 모드 등을 지정하여 지정된 통합 문서를 새 위치나 새 이름으로 저장할 수 있습니다.
 
 > [!NOTE]
->  설정 하려는 합니다 <xref:Microsoft.Office.Interop.Excel._Application.DisplayAlerts%2A> 속성을 **False** 상호 작용이 필요한 일부 형식으로 저장 하기 때문에 새 경로 사용 하 여 통합 문서를 저장 하기 전에 합니다. 이 속성을 설정 **False** 를 사용 하면 모든 기본값을 사용 하도록 Excel입니다.
+> 설정 하려는 합니다 <xref:Microsoft.Office.Interop.Excel._Application.DisplayAlerts%2A> 속성을 **False** 상호 작용이 필요한 일부 형식으로 저장 하기 때문에 새 경로 사용 하 여 통합 문서를 저장 하기 전에 합니다. 이 속성을 설정 **False** 를 사용 하면 모든 기본값을 사용 하도록 Excel입니다.
 
 ### <a name="to-save-a-workbook-associated-with-a-document-level-customization"></a>문서 수준 사용자 지정과 연결된 통합 문서를 저장하려면
 

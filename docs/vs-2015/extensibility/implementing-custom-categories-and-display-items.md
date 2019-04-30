@@ -11,12 +11,12 @@ ms.assetid: 99311a93-d642-4344-bbf9-ff6e7fa5bf7f
 caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f84d66a1dc51baffe743b1f7c16b4bf0ff15ef3a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 474d5c66507b56bea609568b6acfe9f5eff75e9c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63414600"
 ---
 # <a name="implementing-custom-categories-and-display-items"></a>사용자 지정 범주 및 표시 항목 구현
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,7 +90,7 @@ VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!
   - 각 멤버에 대 한 정보를 표시할 **범주**합니다.  
   
   > [!NOTE]
-  >  모든 **범주** 하나 이상 있어야 **표시 항목**합니다.  
+  > 모든 **범주** 하나 이상 있어야 **표시 항목**합니다.  
   
 - IDE를 사용 하는 `T:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup` 여러 범주의 합집합을 정의 하는 인터페이스입니다.  
   
@@ -122,7 +122,7 @@ VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!
      시스템이 구현 통해 수행할 수 있습니다이 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다. 하지만 주로 지원용 지 속성을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 메서드는에 대 한 글꼴 및 색 정보를 가져오는 데 사용할 수 있습니다 **항목을 표시**합니다. 자세한 내용은 [에 액세스 하는 저장 된 글꼴 및 색 설정](../extensibility/accessing-stored-font-and-color-settings.md)합니다.  
   
     > [!NOTE]
-    >  폴링을 통해 얻은 결과가 올바른 데 유용할 수 있습니다 되도록 하려면 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> 캐시 플러시 및 업데이트의 검색 메서드를 호출 하는 데 필요한 경우를 결정 하는 인터페이스를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
+    > 폴링을 통해 얻은 결과가 올바른 데 유용할 수 있습니다 되도록 하려면 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> 캐시 플러시 및 업데이트의 검색 메서드를 호출 하는 데 필요한 경우를 결정 하는 인터페이스를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A>   

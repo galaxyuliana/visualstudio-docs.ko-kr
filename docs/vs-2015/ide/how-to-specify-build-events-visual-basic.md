@@ -15,12 +15,12 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e9e12894a6c526e70e9d2ea814c2634a271098d4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 315a0e2f6c68a98eac8bb2c36d184ef68998e5ae
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435132"
 ---
 # <a name="how-to-specify-build-events-visual-basic"></a>방법: 빌드 이벤트 지정(Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ Visual Basic의 빌드 이벤트는 스크립트, 매크로 또는 기타 작업
  빌드 이벤트는 **빌드 이벤트** 대화 상자에 지정되며 **프로젝트 디자이너**의 **컴파일** 페이지에서 사용할 수 있습니다.  
   
 > [!NOTE]
->  Visual Basic Express는 빌드 이벤트의 항목을 지원하지 않습니다. 전체 Visual Studio 제품에서만 지원됩니다.  
+> Visual Basic Express는 빌드 이벤트의 항목을 지원하지 않습니다. 전체 Visual Studio 제품에서만 지원됩니다.  
   
 ## <a name="how-to-specify-pre-build-and-post-build-events"></a>빌드 전 및 빌드 후 이벤트를 지정하는 방법  
   
@@ -45,10 +45,10 @@ Visual Basic의 빌드 이벤트는 스크립트, 매크로 또는 기타 작업
 4. 빌드 전 또는 빌드 후 작업에 대한 명령줄 인수를 입력한 다음 **확인**을 클릭합니다.  
   
     > [!NOTE]
-    >  .bat 파일을 실행하는 모든 빌드 후 이벤트 명령 앞에 `call` 문을 추가합니다. 예를 들어 `call C:\MyFile.bat` 또는 `call C:\MyFile.bat call C:\MyFile2.bat`로 이름을 지정할 수 있습니다.  
+    > .bat 파일을 실행하는 모든 빌드 후 이벤트 명령 앞에 `call` 문을 추가합니다. 예를 들어 `call C:\MyFile.bat` 또는 `call C:\MyFile.bat call C:\MyFile2.bat`로 이름을 지정할 수 있습니다.  
   
     > [!NOTE]
-    >  빌드 전 또는 빌드 후 이벤트가 성공적으로 완료되지 않으면 성공적인 작업을 나타내는 0(영) 이외의 코드로 이벤트 작업이 종료되도록 하여 빌드를 종료할 수 있습니다.  
+    > 빌드 전 또는 빌드 후 이벤트가 성공적으로 완료되지 않으면 성공적인 작업을 나타내는 0(영) 이외의 코드로 이벤트 작업이 종료되도록 하여 빌드를 종료할 수 있습니다.  
   
 ## <a name="example-how-to-change-manifest-information-using-a-post-build-event"></a>예제: 빌드 후 이벤트를 사용 하 여 매니페스트 정보를 변경 하는 방법  
  다음 절차에서는 빌드 후 이벤트에서 호출된 .exe 명령을 사용하여 애플리케이션 매니페스트의 최소 운영 체제 버전을 설정하는 방법을 보여줍니다(프로젝트 디렉터리의 .exe.manifest 파일). 최소 운영 체제 버전은 네 부분으로 구성된 번호입니다(예: 4.10.0.0). 이를 위해 명령은 매니페스트의 `<dependentOS>` 섹션을 변경합니다.  

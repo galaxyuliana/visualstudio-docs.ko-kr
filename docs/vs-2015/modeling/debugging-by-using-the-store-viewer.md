@@ -12,12 +12,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 62425e6144e11f32d6933f134291fab01a15e6c3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 1a76cd9b726e534271937cb67a8d3f946d4eb477
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433192"
 ---
 # <a name="debugging-by-using-the-store-viewer"></a>저장소 뷰어를 사용하여 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,13 +32,13 @@ Microsoft.VisualStudio.Modeling.Diagnostics.StoreViewer.Show(mystore);
 ```  
   
 > [!NOTE]
->  바꿔야 `mystore` 저장소 인스턴스의 이름입니다. 또한 코드에 네임 스페이스를 추가 하는 경우 정규화 된 네임 스페이스가 없는 저장소 뷰어를 표시 하는 것에 대 한 명령을 입력할 수 있습니다.  
+> 바꿔야 `mystore` 저장소 인스턴스의 이름입니다. 또한 코드에 네임 스페이스를 추가 하는 경우 정규화 된 네임 스페이스가 없는 저장소 뷰어를 표시 하는 것에 대 한 명령을 입력할 수 있습니다.  
 >   
->  `using Microsoft.VisualStudio.Modeling.Diagnostics;`  
+> `using Microsoft.VisualStudio.Modeling.Diagnostics;`  
 >   
->  `…`  
+> `…`  
 >   
->  `StoreViewer.Show(mystore);`  
+> `StoreViewer.Show(mystore);`  
   
  `Show` 메서드에 몇 가지 오버 로드가 있습니다. 매개 변수로 파티션 또는 저장소의 인스턴스를 지정할 수 있습니다.  
   

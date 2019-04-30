@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6f5b57b4246a7e047f64ca79c9a0021cbfc0766f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c7e8a28180270a5093bdeb59f45fde9e6838a6ba
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60058410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434054"
 ---
 # <a name="step-2-run-your-program"></a>2단계: 프로그램 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "60058410"
     - **Form1** 창의 위쪽 모퉁이에 있는 X 단추를 선택합니다.  
   
     > [!NOTE]
-    >  IDE 안에서 프로그램을 실행할 때는 주로 프로그램에서 버그(오류)를 찾고 수정하는 작업을 수행하기 때문에 IDE 안에서 프로그램을 실행하는 것을 *디버깅*이라고 합니다. 이 프로그램은 크기가 작고 아직 아무것도 실제로 수행하지는 않지만 마찬가지로 실제 프로그램입니다. 다른 프로그램도 동일한 절차에 따라 실행하고 디버깅합니다. 디버깅에 대한 자세한 내용은 [디버거 기본 사항](../debugger/debugger-basics.md)을 참조하세요.  
+    > IDE 안에서 프로그램을 실행할 때는 주로 프로그램에서 버그(오류)를 찾고 수정하는 작업을 수행하기 때문에 IDE 안에서 프로그램을 실행하는 것을 *디버깅*이라고 합니다. 이 프로그램은 크기가 작고 아직 아무것도 실제로 수행하지는 않지만 마찬가지로 실제 프로그램입니다. 다른 프로그램도 동일한 절차에 따라 실행하고 디버깅합니다. 디버깅에 대한 자세한 내용은 [디버거 기본 사항](../debugger/debugger-basics.md)을 참조하세요.  
   
 ### <a name="to-continue-or-review"></a>계속하거나 검토하려면  
   

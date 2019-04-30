@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0a6e551dd2f045684168947d2c5a4e63089928c1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: be66bf02294c12d39bcfd28793bb036696296476
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60098443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417775"
 ---
 # <a name="model-your-app39s-architecture"></a>앱 모델&#39;s 아키텍처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "60098443"
  모델의 목적은 자연어 설명에서 발생하는 모호성을 줄이고, 사용자와 동료들이 디자인을 시각화하고 대체 디자인을 논의할 수 있도록 돕는 것입니다. 모델은 다른 문서 또는 논의와 함께 사용해야 합니다. 모델 자체는 아키텍처의 완전한 사양을 나타내지 않습니다.  
   
 > [!NOTE]
->  이 항목 전체에서 "시스템"은 개발 중인 소프트웨어를 의미합니다. 다양한 소프트웨어 및 하드웨어 구성 요소의 큰 컬렉션, 단일 응용 프로그램 또는 응용 프로그램의 일부일 수 있습니다.  
+> 이 항목 전체에서 "시스템"은 개발 중인 소프트웨어를 의미합니다. 다양한 소프트웨어 및 하드웨어 구성 요소의 큰 컬렉션, 단일 응용 프로그램 또는 응용 프로그램의 일부일 수 있습니다.  
   
  시스템의 아키텍처를 다음 두 개의 영역으로 나눌 수 있습니다.  
   

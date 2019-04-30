@@ -15,12 +15,12 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: fcc31e2f7fb06f58f07b0af58a1375466b16cc23
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 646bba541e18fd372bd5236f7ebb6b91d1472d55
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60053054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435076"
 ---
 # <a name="analyze-cpu-usage-in-a-windows-universal-app"></a>Windows 유니버설 앱에서 CPU 사용량 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  앱 성능 문제를 검토해야 하는 경우 앱에서 CPU를 사용하는 방식을 파악하는 것부터 시작하는 것이 좋습니다. **CPU 사용량** 도구는 CPU가 코드 실행 시간을 어디에 소모하는지를 보여 줍니다. 특정 시나리오에 초점을 맞추려면 단일 진단 세션에서 [XAML UI 응답성](http://msdn.microsoft.com/library/4ff84cd1-4e63-4fda-b34f-3ef862a6e480) 도구, [에너지 소비](../profiling/analyze-energy-use-in-store-apps.md) 도구 또는 둘 다를 이용하여 CPU 사용량을 실행할 수 있습니다.  
   
 > [!NOTE]
->  **CPU 사용량** 도구는 Windows Phone Silverlight 8.1 앱과 함께 사용할 수 없습니다.  
+> **CPU 사용량** 도구는 Windows Phone Silverlight 8.1 앱과 함께 사용할 수 없습니다.  
   
  이 연습에서는 간단한 Windows 유니버설 XAML 앱의 CPU 사용량을 수집 및 분석하는 방법을 설명합니다.  
   

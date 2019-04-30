@@ -12,12 +12,12 @@ ms.assetid: beba7174-e787-45c2-b6ff-a60f67ad4998
 caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6ff962a618ba0001441db748facac8af444cd255
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0debf1a5996d39a6cb52cdc843afabf0b4107c59
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63403254"
 ---
 # <a name="accessing-stored-font-and-color-settings"></a>저장 된 글꼴 및 색 설정에 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "60078098"
   이벤트 생성은 기본적으로 사용 되지 않습니다. 이벤트 생성을 사용 하려면 범주를 사용 하 여 열려 있어야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS>합니다. 이렇게 하면 적절 한 호출을 IDE <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> VSPackage 구현 하는 메서드입니다.  
   
 > [!NOTE]
->  통해 수정 합니다 **글꼴 및 색** 의 독립 이벤트를 생성 하는 속성 페이지 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage>합니다. 사용할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> 인터페이스의 메서드를 호출 하기 전에 캐시 된 글꼴 및 색 설정의 업데이트가 필요한 지 여부를 결정 하는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 클래스입니다.  
+> 통해 수정 합니다 **글꼴 및 색** 의 독립 이벤트를 생성 하는 속성 페이지 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage>합니다. 사용할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> 인터페이스의 메서드를 호출 하기 전에 캐시 된 글꼴 및 색 설정의 업데이트가 필요한 지 여부를 결정 하는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 클래스입니다.  
   
 ### <a name="storing-and-retrieving-information"></a>저장 하 고 정보를 검색 합니다.  
  Vspackage 호출 얻거나 열기는 범주에는 명명 된 표시 항목에 대 한 사용자가 수정할 수 있는 정보를 구성 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.SetItem%2A> 메서드.  
@@ -69,12 +69,12 @@ ms.locfileid: "60078098"
  글꼴에 대 한 정보를 사용 하 여 가져온 특정 범주에 대 한 특성을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> 고 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.SetFont%2A> 메서드.  
   
 > [!NOTE]
->  `fFlags` 에 전달 되는 인수를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> 메서드는 범주 열렸을 때의 동작을 정의 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> 메서드. 기본적으로 이러한 메서드 정보를만 반환 aboutdisplay itemsthat 변경 되었습니다. 그러나 범주를 사용 하 여 열면 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> 플래그를 모두 업데이트 하 고 변경 되지 않고 표시 항목으로 액세스할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A>합니다.  
+> `fFlags` 에 전달 되는 인수를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> 메서드는 범주 열렸을 때의 동작을 정의 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> 메서드. 기본적으로 이러한 메서드 정보를만 반환 aboutdisplay itemsthat 변경 되었습니다. 그러나 범주를 사용 하 여 열면 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> 플래그를 모두 업데이트 하 고 변경 되지 않고 표시 항목으로 액세스할 수 있습니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A>합니다.  
   
  기본적으로 변경할 **표시 항목** 레지스트리에 보관 됩니다. <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스를 사용 하 여 글꼴 및 색에 대 한 모든 설정을 검색할 수 없습니다.  
   
 > [!NOTE]
->  합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 하며 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> 메서드는 변경에 대 한 REGDB_E_KEYMISSING, 사용 정보를 검색 하는 경우 (0x80040152L)를 반환 합니다. **표시 항목**합니다.  
+> 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> 하며 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetFont%2A> 메서드는 변경에 대 한 REGDB_E_KEYMISSING, 사용 정보를 검색 하는 경우 (0x80040152L)를 반환 합니다. **표시 항목**합니다.  
   
  모든 설정 **표시 항목** 특정에서 **범주** 의 메서드를 사용 하 여 얻을 수 있습니다는 `T:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults` 인터페이스입니다.  
   

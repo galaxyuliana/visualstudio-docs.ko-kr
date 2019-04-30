@@ -24,12 +24,12 @@ caps.latest.revision: 48
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fc40611a8ba5cded6d631e0f52157d4aadb45ff3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 280160127cc147cddd91a79c4290f80a311ee792
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434857"
 ---
 # <a name="how-to-use-the-threads-window"></a>방법: 스레드 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -132,7 +132,7 @@ ms.locfileid: "60092099"
  관리 코드에서는 스레드를 중지하거나 재개하면 일시 중단된 횟수가 변경됩니다. 관리 코드에서는 중지된 스레드의 일시 중단된 횟수가 1입니다. 네이티브 코드에서 중지된 스레드의 일시 중단된 횟수는 0입니다. 단, `SuspendThread` 호출로 인해 스레드가 일시 중단된 경우는 예외입니다.  
   
 > [!NOTE]
->  네이티브 코드에서 관리 코드로의 호출을 디버깅할 때 관리 코드는 이를 호출한 네이티브 코드와 동일한 실제 스레드에서 실행됩니다. 네이티브 스레드를 일시 중단하거나 중지하면 관리 코드도 중지됩니다.  
+> 네이티브 코드에서 관리 코드로의 호출을 디버깅할 때 관리 코드는 이를 호출한 네이티브 코드와 동일한 실제 스레드에서 실행됩니다. 네이티브 스레드를 일시 중단하거나 중지하면 관리 코드도 중지됩니다.  
   
 #### <a name="to-freeze-or-thaw-execution-of-a-thread"></a>스레드 실행을 중지하거나 재개하려면  
   

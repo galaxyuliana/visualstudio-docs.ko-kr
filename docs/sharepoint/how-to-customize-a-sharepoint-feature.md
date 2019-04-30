@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e54d2dc388ca308e037fb8ff918f521ee16e9092
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e7a00f3c58f917e7355a63ebca71c74127826a2e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60067263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429224"
 ---
 # <a name="how-to-customize-a-sharepoint-feature"></a>방법: SharePoint 기능 사용자 지정
   만들기 및 Visual Studio의 기능 디자이너를 사용 하 여 SharePoint 기능을 사용자 지정할 수 있습니다. 예를 들어, 기능 범위를 설정 하 고 다른 기능 종속성으로 추가할 수 있습니다. 기본적으로 기능 디자이너 솔루션 탐색기 또는 SharePoint 패키지 탐색기에서 새로운 기능을 추가 하면 열려 있습니다.
@@ -49,7 +49,7 @@ ms.locfileid: "60067263"
 2. 기능을 확장, FeatureName 확장, FeatureName.feature를 확장 한 다음 엽니다는  *\<FeatureName >. Template.xml 파일* 파일입니다.
 
     > [!NOTE]
-    >  기능 템플릿을 매니페스트 XML 파일을 열면 파일을 자동으로 유효성을 검사 및 오류 목록 창에 표시 되는 경고를 무시할 수 있습니다.
+    > 기능 템플릿을 매니페스트 XML 파일을 열면 파일을 자동으로 유효성을 검사 및 오류 목록 창에 표시 되는 경고를 무시할 수 있습니다.
 
 ## <a name="change-the-manifest-template"></a>매니페스트 템플릿을 변경합니다
  Visual Studio XML 편집기 또는 매니페스트 템플릿 창에서 기능 매니페스트 파일에 대 한 XML 코드를 변경할 수 있습니다. XML 코드를 변경 된 기능에 대 한 패키지 매니페스트 파일에 병합 됩니다. 예를 들어, 다음 기능 속성을 사용자 지정 매니페스트 템플릿을 변경 하는 것이 좋습니다.
@@ -70,7 +70,7 @@ ms.locfileid: "60067263"
  기능 디자이너를 사용 하지 않도록 설정 하 고 만들 수 있습니다 합니다 *feature.xml* 파일을 수동으로 백업 합니다. 처음으로이 절차를 수행 하는 기능 디자이너의 현재 설정은 기능 템플릿 XML 파일에 저장 됩니다. 그런 다음 수정 하거나 XML 코드를 덮어쓸 수 있습니다.
 
 > [!NOTE]
->  를 추가 하거나 기능 디자이너를 사용 하지 않도록 설정 하는 동안 XML 파일에서 SharePoint 프로젝트 항목을 제거 하는 경우 이러한 프로젝트 항목 패키징되 지 않습니다.
+> 를 추가 하거나 기능 디자이너를 사용 하지 않도록 설정 하는 동안 XML 파일에서 SharePoint 프로젝트 항목을 제거 하는 경우 이러한 프로젝트 항목 패키징되 지 않습니다.
 
 #### <a name="to-overwrite-packaged-manifest-file-by-disabling-the-designer"></a>디자이너를 사용 하지 않도록 설정 하 여 패키지 매니페스트 파일을 덮어쓸 수
 

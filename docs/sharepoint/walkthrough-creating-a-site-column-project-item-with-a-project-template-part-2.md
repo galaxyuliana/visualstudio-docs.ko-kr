@@ -11,12 +11,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8301a4ecae71bfa2b215e20dfabf73e058c48dc4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e1b6477c112de7b19b00bcd173984533f5737014
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436715"
 ---
 # <a name="walkthrough-create-a-site-column-project-item-with-a-project-template-part-2"></a>연습: 2 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기
   사용자 지정 형식의 SharePoint 프로젝트 항목을 정의 하 고 Visual Studio에서 프로젝트 템플릿을 사용 하 여 연결 후 템플릿에 대 한 마법사를 제공 하려면 수도 있습니다. 프로젝트 항목을 포함 하는 새 프로젝트를 만드는 템플릿을 사용할 때 사용자 로부터 정보를 수집 하는 마법사를 사용할 수 있습니다. 정보를 수집 하는 프로젝트 항목을 초기화에 사용할 수 있습니다.
@@ -222,7 +222,7 @@ ms.locfileid: "60059112"
  마법사 창 및 마법사 페이지에 대 한 UI를 제공 하는 두 개의 사용자 컨트롤의 UI를 정의 하는 XAML을 추가 하 고 창과 사용자 정의 컨트롤의 동작을 정의 하는 코드를 추가 합니다. 사용자가 만든 마법사에는 Visual Studio에서 SharePoint 프로젝트에 대 한 기본 제공 마법사와 유사 합니다.
 
 > [!NOTE]
->  다음 단계에서는 프로젝트를 프로젝트에 XAML 또는 코드를 추가 하면 컴파일 오류가 발생 해야 합니다. 이러한 오류가 사라집니다 이후 단계에서 코드를 추가 합니다.
+> 다음 단계에서는 프로젝트를 프로젝트에 XAML 또는 코드를 추가 하면 컴파일 오류가 발생 해야 합니다. 이러한 오류가 사라집니다 이후 단계에서 코드를 추가 합니다.
 
 #### <a name="to-create-the-wizard-window-ui"></a>마법사 창을 UI를 만들려면
 
@@ -233,7 +233,7 @@ ms.locfileid: "60059112"
      [!code-xml[SPExtensibility.ProjectItem.SiteColumn#10](../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml#10)]
 
     > [!NOTE]
-    >  이 XAML에서 만든 창에서 파생 되는 <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> 기본 클래스입니다. Visual Studio를 사용자 지정 WPF 대화 상자를 추가 하면 다른 Visual Studio 대화 상자를 사용 하 여 일관 된 스타일 고 그 밖에 발생할 수 있는 모달 대화 문제를 방지 하려면이 클래스에서 대화 상자를 파생 하는 것이 좋습니다. 자세한 내용은 [만들고 모달 대화 상자 관리](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes)합니다.
+    > 이 XAML에서 만든 창에서 파생 되는 <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> 기본 클래스입니다. Visual Studio를 사용자 지정 WPF 대화 상자를 추가 하면 다른 Visual Studio 대화 상자를 사용 하 여 일관 된 스타일 고 그 밖에 발생할 수 있는 모달 대화 문제를 방지 하려면이 클래스에서 대화 상자를 파생 하는 것이 좋습니다. 자세한 내용은 [만들고 모달 대화 상자 관리](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes)합니다.
 
 3. Visual Basic 프로젝트를 개발 하는 경우 제거를 `ProjectTemplateWizard` 에서 네임 스페이스를 `WizardWindow` 클래스 이름을 `x:Class` 특성을 `Window` 요소. 이 요소는 XAML의 첫 번째 줄에는입니다. 완료 되 면 첫 번째 줄은 다음과 같습니다.
 
@@ -513,7 +513,7 @@ ms.locfileid: "60059112"
      사이트 열은 패키지 및 SharePoint에 배포 된 사이트를 **사이트 URL** 프로젝트의 속성을 지정 합니다. 웹 브라우저에서이 사이트의 기본 페이지로 열립니다.
 
     > [!NOTE]
-    >  경우는 **스크립트 디버깅 사용 안 함** 선택 대화 상자가 나타나면 합니다 **예** 프로젝트 디버그를 계속 하려면 단추입니다.
+    > 경우는 **스크립트 디버깅 사용 안 함** 선택 대화 상자가 나타나면 합니다 **예** 프로젝트 디버그를 계속 하려면 단추입니다.
 
 2. 에 **사이트 작업** 메뉴 선택 **사이트 설정**합니다.
 

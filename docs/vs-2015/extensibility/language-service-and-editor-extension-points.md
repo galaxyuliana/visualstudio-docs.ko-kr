@@ -10,12 +10,12 @@ ms.assetid: 91a6417e-a6fe-4bc2-9d9f-5173c634a99b
 caps.latest.revision: 34
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 295ff3e48e2b0598a8cf33bfd4842e35b7469737
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5bf0e34c76406b054ea2d27434f749b676b0b30c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439798"
 ---
 # <a name="language-service-and-editor-extension-points"></a>언어 서비스 및 편집기 확장 지점
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -115,7 +115,7 @@ internal IContentTypeRegistryService ContentTypeRegistryService { get; set; }
  콘텐츠 형식을 파일 이름 확장명을 사용 하 여 연결을 사용 하 여 <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition>입니다.  
   
 > [!NOTE]
->  Visual Studio에서 파일 이름 확장명은 사용 하 여 등록을 <xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute> 언어 서비스 패키지에 있습니다. <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> MEF content-type이 방식으로 등록 된 파일 이름 확장명을 사용 하 여 연결 합니다.  
+> Visual Studio에서 파일 이름 확장명은 사용 하 여 등록을 <xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute> 언어 서비스 패키지에 있습니다. <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> MEF content-type이 방식으로 등록 된 파일 이름 확장명을 사용 하 여 연결 합니다.  
   
  파일 이름 확장명에 콘텐츠 형식 정의 내보내려면 다음 특성을 포함 해야 합니다.  
   
@@ -278,7 +278,7 @@ internal class TestTaggerProvider : ITaggerProvider
 - <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>: adornment와 사용 하 여 연결 합니다.  
   
   > [!NOTE]
-  >  예는 <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>에서 HighlightWordTag 정의 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.  
+  > 예는 <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>에서 HighlightWordTag 정의 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.  
   
 - <xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>: 확장 하거나 개요에서 축소할 수 있는 영역을 사용 하 여 연결 합니다.  
   
@@ -324,7 +324,7 @@ internal class HighlightWordFormatDefinition : MarkerFormatDefinition
  이 형식 정의 태그를 적용 하려면 클래스 (표시 이름 아님)의 이름 특성에 설정 이름을 참조 합니다.  
   
 > [!NOTE]
->  예는 <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>에서 HighlightWordFormatDefinition 클래스 참조 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.  
+> 예는 <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>에서 HighlightWordFormatDefinition 클래스 참조 [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)합니다.  
   
 ## <a name="extending-adornments"></a>선의 도구 영역 확장  
  장식은 텍스트 보기에 표시 되는 텍스트에 추가할 수 있습니다 또는 텍스트 자체를 볼 수 있는 시각 효과 정의 합니다. 모든 형식으로 사용자 고유의 adornment를 정의할 수 있습니다 <xref:System.Windows.UIElement>합니다.  
@@ -516,7 +516,7 @@ internal sealed class TestOption : EditorOptionDefinition<bool>
 - <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>  
   
 > [!IMPORTANT]
->  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSource> 위해 되지 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>합니다.  
+> <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSource> 위해 되지 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>합니다.  
   
  또한 같은 종류의 공급자를 구현 해야 합니다.  
   
@@ -529,7 +529,7 @@ internal sealed class TestOption : EditorOptionDefinition<bool>
 - <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>  
   
 > [!IMPORTANT]
->  <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSourceProvider> 위해 되지 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>합니다.  
+> <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagSourceProvider> 위해 되지 <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>합니다.  
   
  다음 특성을 함께 공급자를 내보내기를 수행 해야 합니다.  
   
@@ -553,9 +553,9 @@ internal class TestCompletionSourceProvider : ICompletionSourceProvider
   
  [연습: QuickInfo 도구 설명 표시](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)  
   
- [연습: 서명 도움말 표시](../extensibility/walkthrough-displaying-signature-help.md)  
+ [연습: 시그니처 도움말 표시](../extensibility/walkthrough-displaying-signature-help.md)  
   
- [연습: 문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)  
+ [연습: 명령문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)  
   
 ### <a name="implementing-an-intellisense-controller"></a>IntelliSense 컨트롤러를 구현합니다.  
  컨트롤러를 사용자 지정 하려면 구현 해야 합니다 <xref:Microsoft.VisualStudio.Language.Intellisense.IIntellisenseController> 인터페이스입니다. 또한 다음과 같은 특성을 컨트롤러 공급자를 구현 해야 합니다.  

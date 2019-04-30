@@ -20,12 +20,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8e95a2170bd90fbd2610cefb8ff986111ff0480a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 27d4b1ec935444009be1f85f4c1ad95f9da91f68
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425505"
 ---
 # <a name="pass-data-between-forms"></a>폼 간에 데이터 전달
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60107075"
 이 연습에서는 폼 간에 데이터를 전달하기 위한 단계별 지침을 제공합니다. customers 및 orders 테이블에서 Northwind 사용 하 여 고객을 선택 하면 폼 및 두 번째 폼을 선택한 고객의 주문이 표시 됩니다. 이 연습에는 첫 번째 형태에서 데이터를 수신 하는 두 번째 형태에서 메서드를 만드는 방법을 보여 줍니다.  
   
 > [!NOTE]
->  이 연습에서는 폼 간에 데이터를 전달하는 방식 중 하나만을 보여줍니다. 만드는 데이터를 받는 두 번째 생성자를 포함 하 여 폼에 데이터를 전달 하기 위한 다른 옵션은 하거나는 공용 속성을 만들 설정 데이터를 사용 하 여 첫 번째 형태에서.  
+> 이 연습에서는 폼 간에 데이터를 전달하는 방식 중 하나만을 보여줍니다. 만드는 데이터를 받는 두 번째 생성자를 포함 하 여 폼에 데이터를 전달 하기 위한 다른 옵션은 하거나는 공용 속성을 만들 설정 데이터를 사용 하 여 첫 번째 형태에서.  
   
  이 연습에서 설명하는 작업은 다음과 같습니다.  
   
@@ -142,7 +142,7 @@ ms.locfileid: "60107075"
     ```  
   
     > [!NOTE]
-    >  데이터베이스에 대한 올바른 매개 변수 구문을 확인합니다. 예를 들어 Microsoft Access에서 WHERE 절은 다음과 같습니다. `WHERE CustomerID = ?`.  
+    > 데이터베이스에 대한 올바른 매개 변수 구문을 확인합니다. 예를 들어 Microsoft Access에서 WHERE 절은 다음과 같습니다. `WHERE CustomerID = ?`.  
   
 6. **다음**을 클릭합니다.  
   

@@ -14,12 +14,12 @@ ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8da1661d518ff13d3949bee27dc0b78f5e244103
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e8722cc2990f91446c806bf80f3673dc4c941532
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432553"
 ---
 # <a name="how-to-use-wizards-with-project-templates"></a>방법: 프로젝트 템플릿에 마법사 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ Visual Studio에서는 사용자가 템플릿을 사용하여 프로젝트를 �
 1. C# 프로젝트 템플릿 프로젝트 만들기 (Visual Studio에서 **파일 / 새로 만들기 / 프로젝트 / Visual C# / 확장성 / C# 프로젝트 템플릿**). 이름을 **MyProjectTemplate**합니다.  
   
     > [!NOTE]
-    >  Visual Studio SDK를 설치 하 라는 메시지가 표시 될 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  
+    > Visual Studio SDK를 설치 하 라는 메시지가 표시 될 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  
   
 2. 새 VSIX 프로젝트를 추가 (**파일 / 새로 만들기 / 프로젝트 / Visual C# / 확장성 / VSIX 프로젝트**) 프로젝트 템플릿 프로젝트와 동일한 솔루션에서 (에 **솔루션 탐색기**, 솔루션 노드를 선택 마우스 오른쪽 단추로 **추가 / 새로 만들기 프로젝트**). 이름을 **MyProjectWizard 합니다.**  
   

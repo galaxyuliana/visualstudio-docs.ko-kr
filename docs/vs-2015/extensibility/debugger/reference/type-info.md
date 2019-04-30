@@ -12,12 +12,12 @@ ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: b780681ec94d347885cdc1134b4ef51776945dc8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 12102c297c34649c753cf1c811994f9e750b9605
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980568"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435689"
 ---
 # <a name="typeinfo"></a>TYPE_INFO
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,13 +50,13 @@ public struct TYPE_INFO {
  값을 [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) 합집합을 해석 하는 방법을 결정 하는 열거형입니다.  
   
  type.typeMeta  
- [C + + 전용] 포함 된 [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_METADATA`합니다.  
+ [C++ 만] 포함 된 [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_METADATA`합니다.  
   
  type.typePdb  
- [C + + 전용] 포함 된 [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_PDB`합니다.  
+ [C++ 만] 포함 된 [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_PDB`합니다.  
   
  type.typeBuilt  
- [C + + 전용] 포함 된 [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_BUILT`합니다.  
+ [C++ 만] 포함 된 [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_BUILT`합니다.  
   
  type.unused  
  사용 되지 않는 안쪽 여백입니다.  
@@ -71,7 +71,7 @@ public struct TYPE_INFO {
  이 구조에 전달 되는 [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md) 메서드 위치에서 채워집니다. 구조체의 내용을 해석 되는 방식을 기반으로 합니다 `dwKind` 필드입니다.  
   
 > [!NOTE]
->  [C + + 전용] 경우 `dwKind` equals `TYPE_KIND_BUILT`, 기본 릴리스해야 하는 것 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 제거 하는 경우 개체는 `TYPE_INFO` 구조입니다. 이를 위해 `typeInfo.type.typeBuilt.pUnderlyingField->Release()`를 호출합니다.  
+> [C++ 만] 경우 `dwKind` equals `TYPE_KIND_BUILT`, 기본 릴리스해야 하는 것 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 제거 하는 경우 개체는 `TYPE_INFO` 구조입니다. 이를 위해 `typeInfo.type.typeBuilt.pUnderlyingField->Release()`를 호출합니다.  
   
  [C# 만] 다음 표에서 해석 하는 방법을 보여 줍니다는 `unionmember` 각 종류의 형식에 대 한 멤버입니다. 형식의 한 종류에 대 한이 작업을 수행 하는 방법을 보여 줍니다.  
   

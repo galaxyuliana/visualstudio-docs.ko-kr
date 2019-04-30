@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: d4dec78b368991da18c5bc0f5a673c1dca91fbfc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 34808d70a7df1bf5d030e4205de34ff3ec4d03b2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430400"
 ---
 # <a name="walkthrough-create-a-site-column-project-item-with-a-project-template-part-1"></a>연습: 1 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기
   SharePoint 프로젝트는 하나 이상의 SharePoint 프로젝트 항목에 대 한 컨테이너입니다. SharePoint 프로젝트 항목 형식을 사용자를 만들고 프로젝트 템플릿을 사용 하 여 연결 하 여 Visual Studio에서 SharePoint 프로젝트 시스템을 확장할 수 있습니다. 이 연습에서는 사이트 열을 만들기 위한 프로젝트 항목 형식을 정의 하 고 사이트 열 프로젝트 항목을 포함 하는 새 프로젝트를 만드는 데 사용할 수 있는 프로젝트 템플릿을 만듭니다.
@@ -75,7 +75,7 @@ ms.locfileid: "60059996"
 4. 확장 된 **Visual Basic** 또는 **Visual C#** 노드를 선택한 후는 **확장성** 노드.
 
     > [!NOTE]
-    >  합니다 **확장성** 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
+    > 합니다 **확장성** 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
 
 5. 프로젝트 템플릿 목록에서 선택 **VSIX 프로젝트**합니다.
 
@@ -162,7 +162,7 @@ ms.locfileid: "60059996"
 2. 이라고 하는 SharePoint 2010 프로젝트를 만듭니다 **BaseSharePointProject**합니다.
 
    > [!IMPORTANT]
-   >  에 **SharePoint 사용자 지정 마법사**를 선택 하지는 **팜 솔루션으로 배포** 옵션 단추입니다.
+   > 에 **SharePoint 사용자 지정 마법사**를 선택 하지는 **팜 솔루션으로 배포** 옵션 단추입니다.
 
 3. 프로젝트에 빈 요소 항목을 추가 하 고 다음 항목의 이름을 **Field1**합니다.
 
@@ -175,7 +175,7 @@ ms.locfileid: "60059996"
 7. BaseSharePointProject 프로젝트가 포함 된 디렉터리에서 key.snk 파일을 선택한 다음를 선택 합니다 **추가** 단추입니다.
 
    > [!NOTE]
-   >  이 연습에서는 프로젝트 템플릿을 만든 템플릿을 사용 하 여 만든 각 프로젝트에 서명 하는 동일한 key.snk 파일을 사용 합니다. 각 프로젝트 인스턴스에 대 한 다른 key.snk 파일을 만들려면이 샘플을 확장 하는 방법에 알아보려면 참조 [연습: 2 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)합니다.
+   > 이 연습에서는 프로젝트 템플릿을 만든 템플릿을 사용 하 여 만든 각 프로젝트에 서명 하는 동일한 key.snk 파일을 사용 합니다. 각 프로젝트 인스턴스에 대 한 다른 key.snk 파일을 만들려면이 샘플을 확장 하는 방법에 알아보려면 참조 [연습: 2 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)합니다.
 
 8. BaseSharePointProject 디렉터리에서 지정 된 하위 폴더에서 다음 파일을 추가 하려면 5-8 단계를 반복 합니다.
 
@@ -654,7 +654,7 @@ ms.locfileid: "60059996"
 6. 에 **형식** 목록에서 선택 **Microsoft.VisualStudio.ProjectTemplate**합니다.
 
     > [!NOTE]
-    >  이 값에 해당 하는 `ProjectTemplate` extension.vsixmanifest 파일의 요소입니다. 이 요소는 프로젝트 템플릿이 포함 된 VSIX 패키지의 하위 폴더를 식별 합니다. 자세한 내용은 [ProjectTemplate 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393735\(v\=vs.100\))합니다.
+    > 이 값에 해당 하는 `ProjectTemplate` extension.vsixmanifest 파일의 요소입니다. 이 요소는 프로젝트 템플릿이 포함 된 VSIX 패키지의 하위 폴더를 식별 합니다. 자세한 내용은 [ProjectTemplate 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393735\(v\=vs.100\))합니다.
 
 7. 에 **소스** 목록에서 선택 **현재 솔루션의 프로젝트**합니다.
 
@@ -667,7 +667,7 @@ ms.locfileid: "60059996"
 10. 에 **형식** 목록에서 선택 **Microsoft.VisualStudio.MefComponent**합니다.
 
     > [!NOTE]
-    >  이 값에 해당 하는 `MefComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
+    > 이 값에 해당 하는 `MefComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
 
 11. 에 **소스** 목록에서 선택 **현재 솔루션의 프로젝트**합니다.
 
@@ -715,14 +715,14 @@ ms.locfileid: "60059996"
      이 단계는 디버깅에 사용 하려는 개발 컴퓨터의 로컬 SharePoint 사이트를 지정 합니다.
 
     > [!NOTE]
-    >  합니다 **사이트 URL** 속성 이므로 기본적으로 빈 사이트 열 프로젝트 템플릿에 프로젝트를 만들 때이 값을 수집 하기 위한 마법사를 제공 하지 않습니다. 이 값에 대 한 개발자를 요청 하 고 다음 새 프로젝트에서이 속성을 구성 하는 마법사를 추가 하는 방법에 알아보려면 참조 [연습: 2 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)합니다.
+    > 합니다 **사이트 URL** 속성 이므로 기본적으로 빈 사이트 열 프로젝트 템플릿에 프로젝트를 만들 때이 값을 수집 하기 위한 마법사를 제공 하지 않습니다. 이 값에 대 한 개발자를 요청 하 고 다음 새 프로젝트에서이 속성을 구성 하는 마법사를 추가 하는 방법에 알아보려면 참조 [연습: 2 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)합니다.
 
 3. **F5** 키를 선택합니다.
 
      사이트 열 이며 패키지에서 지정 된 SharePoint 사이트에 배포 합니다 **사이트 URL** 프로젝트의 속성입니다. 웹 브라우저에서이 사이트의 기본 페이지로 열립니다.
 
     > [!NOTE]
-    >  경우는 **스크립트 디버깅 사용 안 함** 선택 대화 상자가 나타나면 합니다 **예** 프로젝트 디버그를 계속 하려면 단추입니다.
+    > 경우는 **스크립트 디버깅 사용 안 함** 선택 대화 상자가 나타나면 합니다 **예** 프로젝트 디버그를 계속 하려면 단추입니다.
 
 4. 에 **사이트 작업** 메뉴 선택 **사이트 설정**합니다.
 

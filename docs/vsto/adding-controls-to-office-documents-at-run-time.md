@@ -22,12 +22,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c7fa5073fca476159aa756b7a5527dd1007ab66b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6159a7763176be236b925dce9fae66e5fc915682
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440396"
 ---
 # <a name="add-controls-to-office-documents-at-runtime"></a>런타임에 Office 문서에 컨트롤 추가
   Microsoft Office Word 문서 및 런타임에 Microsoft Office Excel 통합 문서에 컨트롤을 추가할 수 있습니다. 런타임 시 이러한를 제거할 수도 있습니다. 추가 하거나 런타임 시 제거 하는 컨트롤 이라고 *동적 컨트롤*합니다.
@@ -74,7 +74,7 @@ ms.locfileid: "60075807"
  런타임에 정적 컨트롤을 제거할 수 없습니다. `Delete` 또는 `Remove` 메서드를 사용하여 정적 컨트롤을 제거하려고 하면 <xref:Microsoft.Office.Tools.CannotRemoveControlException>이 발생합니다.
 
 > [!NOTE]
->  문서의 `Shutdown` 이벤트 처리기에서 프로그래밍 방식으로 컨트롤을 제거하지 마세요. `Shutdown` 이벤트가 발생하면 문서의 UI 요소를 더 이상 사용할 수 없습니다. 문서가 닫히기 전에 컨트롤을 제거하려면 <xref:Microsoft.Office.Tools.Word.Document.BeforeClose> 또는 <xref:Microsoft.Office.Tools.Word.Document.BeforeSave> (Word), <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeClose>또는 <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeSave> (Excel)와 같은 다른 이벤트의 이벤트 처리기에 코드를 추가합니다.
+> 문서의 `Shutdown` 이벤트 처리기에서 프로그래밍 방식으로 컨트롤을 제거하지 마세요. `Shutdown` 이벤트가 발생하면 문서의 UI 요소를 더 이상 사용할 수 없습니다. 문서가 닫히기 전에 컨트롤을 제거하려면 <xref:Microsoft.Office.Tools.Word.Document.BeforeClose> 또는 <xref:Microsoft.Office.Tools.Word.Document.BeforeSave> (Word), <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeClose>또는 <xref:Microsoft.Office.Tools.Excel.Workbook.BeforeSave> (Excel)와 같은 다른 이벤트의 이벤트 처리기에 코드를 추가합니다.
 
 ## <a name="HostControls"></a> 문서에 호스트 컨트롤 추가
 
@@ -103,7 +103,7 @@ ms.locfileid: "60075807"
  문서를 저장하고 닫으면 동적으로 생성된 모든 Windows Forms 컨트롤이 문서에서 제거됩니다. 문서를 다시 열 때 컨트롤을 다시 만드는 코드를 솔루션에 추가할 수 있습니다. VSTO 추가 기능을 사용 하 여 동적 Windows Forms 컨트롤을 만드는 경우 컨트롤의 ActiveX 래퍼가 문서에 남아 있습니다. 자세한 내용은 [Office 문서에서 동적 컨트롤 유지](../vsto/persisting-dynamic-controls-in-office-documents.md)합니다.
 
 > [!NOTE]
->  프로그래밍 방식으로 Windows Forms 컨트롤을 보호된 문서에 추가할 수는 없습니다. 프로그래밍 방식으로 Word 문서 또는 Excel 워크시트의 보호를 해제하여 컨트롤을 추가하는 경우 문서를 닫을 때 컨트롤의 ActiveX 래퍼를 제거하는 추가 코드를 작성해야 합니다. 컨트롤의 ActiveX 래퍼는 보호된 문서에서 자동으로 삭제되지 않습니다.
+> 프로그래밍 방식으로 Windows Forms 컨트롤을 보호된 문서에 추가할 수는 없습니다. 프로그래밍 방식으로 Word 문서 또는 Excel 워크시트의 보호를 해제하여 컨트롤을 추가하는 경우 문서를 닫을 때 컨트롤의 ActiveX 래퍼를 제거하는 추가 코드를 작성해야 합니다. 컨트롤의 ActiveX 래퍼는 보호된 문서에서 자동으로 삭제되지 않습니다.
 
 ### <a name="add-custom-controls"></a>사용자 지정 컨트롤을 추가합니다.
  사용자 지정 사용자 정의 컨트롤과 같은, 사용 가능한 도우미 메서드에서 지원되지 않는 <xref:System.Windows.Forms.Control> 을 추가하려면 다음 메서드를 사용합니다.

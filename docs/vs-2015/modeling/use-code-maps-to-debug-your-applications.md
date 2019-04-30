@@ -18,12 +18,12 @@ caps.latest.revision: 51
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9c0fa386d6f6df813cfbed1d4a618414f2810f86
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: b7f446d2c9a1b22488746eff9ba04044d2621013
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439667"
 ---
 # <a name="use-code-maps-to-debug-your-applications"></a>코드 맵을 사용하여 응용 프로그램 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "58986231"
  ![코드 맵 &#45; 메서드 및 관련된 필드 표시](../modeling/media/codemapstoryboardpaint3.png "CodeMapStoryboardPaint3")  
   
 > [!TIP]
->  녹색 강조 표시에는 맵에 마지막으로 추가된 항목이 표시됩니다. 녹색 화살표는 코드에서 커서의 위치를 보여줍니다. 항목 사이의 화살표는 다양한 관계를 나타냅니다. 마우스로 가리키고 도구 설명을 검토하여 맵에서 항목에 대한 더 자세한 정보를 얻을 수 있습니다.  
+> 녹색 강조 표시에는 맵에 마지막으로 추가된 항목이 표시됩니다. 녹색 화살표는 코드에서 커서의 위치를 보여줍니다. 항목 사이의 화살표는 다양한 관계를 나타냅니다. 마우스로 가리키고 도구 설명을 검토하여 맵에서 항목에 대한 더 자세한 정보를 얻을 수 있습니다.  
   
  ![코드 맵 &#45; 도구 설명 표시](../modeling/media/codemapstoryboardpaint4.png "CodeMapStoryboardPaint4")  
   
@@ -65,7 +65,7 @@ ms.locfileid: "58986231"
  ![코드 맵 &#45; 필드 정의 검사](../modeling/media/codemapstoryboardpaint5a.png "CodeMapStoryboardPaint5A")  
   
 > [!TIP]
->  코드 편집기에서 커서를 이동하여 맵의 녹색 화살표를 이동할 수도 있습니다.  
+> 코드 편집기에서 커서를 이동하여 맵의 녹색 화살표를 이동할 수도 있습니다.  
   
 ## <a name="understand-relationships-between-pieces-of-code"></a>코드 조각 간의 관계 이해  
  이제 `history` 및 `paintObjects` 필드와 상호 작용하는 다른 코드에 대해 알아 보려고 합니다. 이러한 필드를 참조하는 모든 메서드를 맵에 추가할 수 있습니다. 이 작업은 맵이나 코드 편집기에서 수행할 수 있습니다.  
@@ -75,14 +75,14 @@ ms.locfileid: "58986231"
  ![코드 편집기에서 코드 맵을 엽니다](../modeling/media/codemapstoryboardpaint6a.PNG "CodeMapStoryboardPaint6A")  
   
 > [!NOTE]
->  Windows Phone 또는 Windows 스토어와 같은 여러 앱에 공유되는 프로젝트에서 항목을 추가할 경우 해당 항목은 항상 현재 활성화된 앱 프로젝트와 함께 맵에 나타납니다. 따라서 컨텍스트를 다른 앱 프로젝트로 변경하는 경우 맵의 컨텍스트도 공유 프로젝트에서 새로 추가된 항목에 대해 변경됩니다. 맵의 항목에 수행하는 작업은 동일한 컨텍스트를 공유하는 항목에만 적용됩니다.  
+> Windows Phone 또는 Windows 스토어와 같은 여러 앱에 공유되는 프로젝트에서 항목을 추가할 경우 해당 항목은 항상 현재 활성화된 앱 프로젝트와 함께 맵에 나타납니다. 따라서 컨텍스트를 다른 앱 프로젝트로 변경하는 경우 맵의 컨텍스트도 공유 프로젝트에서 새로 추가된 항목에 대해 변경됩니다. 맵의 항목에 수행하는 작업은 동일한 컨텍스트를 공유하는 항목에만 적용됩니다.  
   
  레이아웃을 변경하여 관계 흐름을 재정렬하고 맵을 읽기 쉽도록 만듭니다. 또한 항목을 끌어서 항목을 맵 주위로 이동할 수도 있습니다.  
   
  ![코드 맵 &#45; 레이아웃 변경](../modeling/media/codemapstoryboardpaint7a.png "CodeMapStoryboardPaint7A")  
   
 > [!TIP]
->  기본적으로 **증분 레이아웃** 켜져 있습니다. 이 설정은 새 항목을 추가할 때 맵을 가능한 적게 다시 정렬합니다. 새 항목을 추가할 때마다 전체 맵을 다시 정렬 하려면 해제 **증분 레이아웃**합니다.  
+> 기본적으로 **증분 레이아웃** 켜져 있습니다. 이 설정은 새 항목을 추가할 때 맵을 가능한 적게 다시 정렬합니다. 새 항목을 추가할 때마다 전체 맵을 다시 정렬 하려면 해제 **증분 레이아웃**합니다.  
   
  ![코드 맵 &#45; 레이아웃 변경](../modeling/media/codemapstoryboardpaint7.png "CodeMapStoryboardPaint7")  
   
@@ -136,7 +136,7 @@ ms.locfileid: "58986231"
  ![코드 맵 &#45; 메서드 호출을 사용 하 여 업데이트 맵을](../modeling/media/codemapstoryboardpaint17.png "CodeMapStoryboardPaint17")  
   
 > [!NOTE]
->  맵을 업데이트하면 맵을 만드는 데 사용한 코드 인덱스가 업데이트되었음을 나타내는 메시지가 나타날 수 있습니다. 누군가가 코드를 변경하여 맵이 현재 코드와 일치하지 않음을 의미합니다. 이 경우 맵을 업데이트할 수 없는 것은 아니지만 맵을 다시 만들어서 코드와 일치하는지 확인해야 할 수 있습니다.  
+> 맵을 업데이트하면 맵을 만드는 데 사용한 코드 인덱스가 업데이트되었음을 나타내는 메시지가 나타날 수 있습니다. 누군가가 코드를 변경하여 맵이 현재 코드와 일치하지 않음을 의미합니다. 이 경우 맵을 업데이트할 수 없는 것은 아니지만 맵을 다시 만들어서 코드와 일치하는지 확인해야 할 수 있습니다.  
   
  이제 조사가 완료되었습니다. 코드를 매핑하여 문제를 성공적으로 발견하고 해결했습니다. 코드 주위를 탐색하고 배운 내용을 기억하는 데 도움이 되며 문제를 해결하는 단계를 보여 주는 맵도 있습니다.  
   

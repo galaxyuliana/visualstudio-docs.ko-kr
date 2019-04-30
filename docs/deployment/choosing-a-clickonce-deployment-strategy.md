@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 52e0dc775e5e9413fb251261a319e529f36393eb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6b4ed387d00c96c1d66fdac0bb92a0bfbae7c530
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406675"
 ---
 # <a name="choose-a-clickonce-deployment-strategy"></a>ClickOnce 배포 전략 선택
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 배포하는 전략에는 세 가지가 있으며, 주로 배포하는 응용 프로그램 종류에 따라 전략을 선택합니다. 세 가지 배포 전략은 다음과 같습니다.
@@ -32,7 +32,7 @@ ms.locfileid: "60102187"
 - 웹 또는 네트워크 공유에서 응용 프로그램 시작
 
     > [!NOTE]
-    >  배포 전략을 선택하고 응용 프로그램 업데이트를 제공하는 전략을 선택할 수도 있습니다. 자세한 내용은 [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)합니다.
+    > 배포 전략을 선택하고 응용 프로그램 업데이트를 제공하는 전략을 선택할 수도 있습니다. 자세한 내용은 [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)합니다.
 
 ## <a name="install-from-the-web-or-a-network-share"></a>웹 또는 네트워크 공유에서 설치
  이 전략을 사용하면 응용 프로그램이 웹 서버나 네트워크 파일 공유에 배포됩니다. 최종 사용자가 응용 프로그램을 설치할 경우에는 웹 페이지에서 아이콘을 클릭하거나 파일 공유에서 아이콘을 두 번 클릭합니다. 그러면 최종 사용자 컴퓨터에 응용 프로그램이 다운로드되고 설치된 후 시작됩니다. **시작** 메뉴 및 **제어판**의 **프로그램 추가 또는 제거**에 항목이 추가됩니다.
@@ -49,7 +49,7 @@ ms.locfileid: "60102187"
  이 전략은 응용 프로그램이 웹 응용 프로그램처럼 작동하는 점을 제외하면 첫 번째 전략과 비슷합니다. 사용자가 웹 페이지에서 링크를 클릭하거나 파일 공유에서 아이콘을 두 번 클릭하면 응용 프로그램이 시작됩니다. 사용자가 애플리케이션을 닫으면 로컬 컴퓨터에서는 애플리케이션을 사용할 수 없으며 **시작** 메뉴 및 **제어판**의 **프로그램 추가 또는 제거**에 아무 것도 추가되지 않습니다.
 
 > [!NOTE]
->  기술적으로 웹 응용 프로그램이 웹 캐시로 다운로드되는 것처럼 응용 프로그램은 로컬 컴퓨터의 응용 프로그램 캐시로 다운로드되어 설치됩니다. 웹 캐시의 경우 파일은 결국 응용 프로그램 캐시에서 청소됩니다. 그러나 사용자는 응용 프로그램이 웹이나 파일 공유에서 실행되고 있는 것으로 인식합니다.
+> 기술적으로 웹 응용 프로그램이 웹 캐시로 다운로드되는 것처럼 응용 프로그램은 로컬 컴퓨터의 응용 프로그램 캐시로 다운로드되어 설치됩니다. 웹 캐시의 경우 파일은 결국 응용 프로그램 캐시에서 청소됩니다. 그러나 사용자는 응용 프로그램이 웹이나 파일 공유에서 실행되고 있는 것으로 인식합니다.
 
  이 전략은 대개 1년에 한 번만 실행되는 직원 복리후생 도구 같이 가끔 사용되는 응용 프로그램에 가장 적합합니다.
 

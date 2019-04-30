@@ -11,22 +11,22 @@ caps.latest.revision: 41
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 2aef2183cde96bfb5faa1bb62fa341f901dd7018
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 274aa497e004ddafee9a56b028f3001bb8deb630
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437069"
 ---
 # <a name="creating-and-using-code-analysis-check-in-policies"></a>코드 분석 체크 인 정책 만들기 및 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Team Foundation 버전 제어 (TFVC)를 사용 하면.NET Framework 및 네이티브 (C/c + +) 코드 프로젝트에서 팀 프로젝트에 대 한 코드 분석 체크 인 정책을 만들 수 있습니다. 제어 코드 베이스에 체크 인 된 코드의 품질을 개선 하는 코드 분석 체크 인 정책에 따라 사용할 수 있습니다.  
+Team Foundation 버전 제어 (TFVC)를 사용 하면.NET Framework 및 네이티브 코드 분석 체크 인 정책을 만들 수 있습니다 (C /C++) 코드를 팀 프로젝트의 프로젝트입니다. 제어 코드 베이스에 체크 인 된 코드의 품질을 개선 하는 코드 분석 체크 인 정책에 따라 사용할 수 있습니다.  
   
  정책을 로컬 빌드가 최신 및 가장 최근의 소스 파일에 대해 코드 분석이 실행 된 경우에 전달 합니다. 최소한 코드 프로젝트에서 사용 되는 코드 분석 규칙 팀 프로젝트 체크 인 정책에 정의 된 것과 동일한 규칙을 포함 해야 합니다. 팀 프로젝트 설정에서 오류로 지정 된 규칙 코드 프로젝트에서 오류로 지정 해야 합니다.  
   
 > [!IMPORTANT]
->  코드 분석 체크 인 정책은 웹 사이트 프로젝트에 적용할 수 없습니다. 웹 응용 프로그램 프로젝트에 적용할 수 있습니다.  
+> 코드 분석 체크 인 정책은 웹 사이트 프로젝트에 적용할 수 없습니다. 웹 응용 프로그램 프로젝트에 적용할 수 있습니다.  
   
  팀 프로젝트 설정을 사용 하 여 코드 분석 체크 인 정책을 만들 [!INCLUDE[esprscc](../includes/esprscc-md.md)]합니다. 체크 인 정책에 지정 되 고, 팀 프로젝트에 적용 되지만 코드 분석 실행 구성 되 고 로컬 개발 컴퓨터에서 개별 코드 프로젝트에 대해 실행 합니다. 이 섹션에는 팀 프로젝트에 대 한 코드 분석 체크 인 정책을 지정 하는 방법과 관리 코드에 대 한 사용자 지정 코드 분석 정책을 구현 하는 방법을 설명 합니다.  
   

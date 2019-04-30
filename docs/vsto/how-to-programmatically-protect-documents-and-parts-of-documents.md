@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ac93b71d67bc842b2498fbd4d017b17d9ddcf00c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 62d84dcb7ce22f1199d12a958250a465cd25a49c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412460"
 ---
 # <a name="how-to-programmatically-protect-documents-and-parts-of-documents"></a>방법: 프로그래밍 방식으로 문서 및 문서의 일부 보호
   Microsoft Office Word 문서에 보호를 추가하여 사용자의 문서 편집을 방지할 수 있습니다.
@@ -29,7 +29,7 @@ ms.locfileid: "60062619"
  또한 지정된 사용자가 문서에서 해당 영역만 편집할 수 있도록 특정 문서 영역을 예외로 표시할 수도 있습니다. 예를 들어 특정 책갈피를 제외한 전체 문서를 보호할 수 있습니다. 암호를 모를 경우 사용자가 문서 보호를 제거할 수 없도록 암호를 추가할 수도 있습니다.
 
 > [!NOTE]
->  다음 예제에서는 암호 보호를 사용하지 않지만 문서 보호 추가 시 암호를 사용할 수 있습니다. 자세한 내용은의 문서 보호기 샘플을 참조 하세요 [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)합니다.
+> 다음 예제에서는 암호 보호를 사용하지 않지만 문서 보호 추가 시 암호를 사용할 수 있습니다. 자세한 내용은의 문서 보호기 샘플을 참조 하세요 [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)합니다.
 
  또한 콘텐츠 컨트롤을 사용하여 문서 부분을 보호할 수 있습니다. 자세한 내용은 [방법: 콘텐츠 컨트롤을 사용 하 여 문서 부분 보호](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md)합니다.
 

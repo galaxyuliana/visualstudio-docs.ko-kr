@@ -11,12 +11,12 @@ caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e7987b4da158572d22d609b095877f6d125512c9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: d5974bc962faf439af8de5d50bf51bad3d824647
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439081"
 ---
 # <a name="how-to-search-for-a-thread-in-threads-view"></a>방법: 스레드 뷰에서 스레드 검색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "58982575"
 4. 값을 지정 하지 않을 필드의 선택을 취소 합니다.  
   
    > [!TIP]
-   >  모듈을 소유 하는 모든 스레드를 찾으려면의 선택을 취소 합니다 **스레드** 텍스트 상자 및 형식 모듈의 이름 합니다 **모듈** 상자. 사용 하 여 **다음 찾기** 스레드에 대 한 검색을 계속 하려면.  
+   > 모듈을 소유 하는 모든 스레드를 찾으려면의 선택을 취소 합니다 **스레드** 텍스트 상자 및 형식 모듈의 이름 합니다 **모듈** 상자. 사용 하 여 **다음 찾기** 스레드에 대 한 검색을 계속 하려면.  
   
 5. 선택 **위로** 또는 **아래로** 검색 초기 방향에 대 한 합니다.  
   

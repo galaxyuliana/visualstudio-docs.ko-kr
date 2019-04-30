@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d6a3807dc91b129ba4b337f57e3f857e4f379581
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: b443c4530a71897d11731c023af57215eac8706a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434197"
 ---
 # <a name="using-text-markers-with-the-legacy-api"></a>텍스트 마커를 사용 하 여 레거시 API를 사용 하 여
 텍스트 마커 부동 표시에 영향을 줄 수 있는 버퍼의 텍스트 범위 및 텍스트 영역의 동작은 합니다. 표식은 중단점, 책갈피, 물결 무늬 밑줄 및 읽기 전용 영역을 포함 합니다. 텍스트 마커 구문 색 지정 기본적으로 다릅니다. 구문 색 지정은 텍스트 영역을 사용 하 여 연결 된 언어 구문의 통신 하는 빠른 방법은 합니다. 속도가 중요 한 Windows 화면에는 연결 하는 경우에 일반적으로 구문 색 지정 요청 됩니다. 구문 색 지정만 텍스트의 색을 변경합니다. 텍스트 마커는 다른 여러 텍스트 속성을 변경할 수 있습니다. 텍스트 마커 "float"를 업데이트 하 고 특별 한 동작을 적용할 수의 색을 지정 합니다.
@@ -23,16 +23,16 @@ ms.locfileid: "56696691"
  텍스트 마커를 사용 하 여 연결 된 성능 오버 헤드 때문에 텍스트 버퍼에 대 한 많은 표식을 만들지 마십시오. 각 표식에는 사용자 편집 하는 버퍼의 내용이 될 때마다 업데이트 됩니다.
 
 > [!NOTE]
->  사용자 표시 표식 유형을 하지만 하지 해당 모양과 스타일의 색을 변경할 수 있습니다. 자세한 내용은 [글꼴 및 색, 환경, 옵션 대화 상자](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)합니다.
+> 사용자 표시 표식 유형을 하지만 하지 해당 모양과 스타일의 색을 변경할 수 있습니다. 자세한 내용은 [글꼴 및 색, 환경, 옵션 대화 상자](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)합니다.
 
 ## <a name="related-topics"></a>관련 항목
 
 | 제목 | 설명 |
 | - | - |
-| [방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md) | 제공한 표준 텍스트 표식 유형을 추가 하는 방법에 설명 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 코어 편집기 텍스트 뷰를 합니다. |
-| [방법: 오류 마커를 구현 합니다.](../extensibility/how-to-implement-error-markers.md) | 인스턴스를 구현 하는 방법에 설명 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 빨간색 물결 무늬 밑줄을 사용 하 여 오류를 나타내는 데 사용 되는 표식입니다. |
+| [방법: 표준 텍스트 표식 추가](../extensibility/how-to-add-standard-text-markers.md) | 제공한 표준 텍스트 표식 유형을 추가 하는 방법에 설명 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 코어 편집기 텍스트 뷰를 합니다. |
+| [방법: 오류 표식 구현](../extensibility/how-to-implement-error-markers.md) | 인스턴스를 구현 하는 방법에 설명 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 빨간색 물결 무늬 밑줄을 사용 하 여 오류를 나타내는 데 사용 되는 표식입니다. |
 | [방법: 사용자 지정 텍스트 표식 만들기](../extensibility/how-to-create-custom-text-markers.md) | 만들고 텍스트 보기에 사용자 지정 텍스트 표식 유형을 추가 하는 방법을 설명 합니다. |
-| [방법: 텍스트 마커를 사용 합니다.](../extensibility/how-to-use-text-markers.md) | 텍스트 마커를 추가 하는 방법에 설명 합니다. |
+| [방법: 텍스트 표식 사용](../extensibility/how-to-use-text-markers.md) | 텍스트 마커를 추가 하는 방법에 설명 합니다. |
 | [핵심 편집기 내부](../extensibility/inside-the-core-editor.md) | 핵심 편집기의 기능을 설명 하 고 핵심 편집기 사용자 지정 하는 방법에 대 한 세부 정보를 제공 합니다. |
 | [편집기 기능](https://msdn.microsoft.com/library/bdac940d-1f14-4019-a01f-fd0bb3dc7198) | 사용할 수 있는 기능에 설명 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 핵심 편집기입니다. |
 

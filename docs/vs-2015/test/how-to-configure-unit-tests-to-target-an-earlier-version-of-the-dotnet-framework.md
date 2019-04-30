@@ -8,12 +8,12 @@ ms.assetid: adb6c011-5abd-41d2-8ead-08cd7579bf37
 caps.latest.revision: 14
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e31f0170d10e3b8088ec9860a6bb9a3ad5306b0f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4e8b2c26050fd3e78e76b93e6372a03836916387
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416353"
 ---
 # <a name="how-to-configure-unit-tests-to-target-an-earlier-version-of-the-net-framework"></a>방법: 이전 버전의 .NET Framework를 대상으로 사용하도록 단위 테스트 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -95,7 +95,7 @@ Microsoft Visual Studio에서 테스트 프로젝트를 만들 때 .NET Framewor
      **새 프로젝트** 대화 상자가 표시됩니다.  
   
     > [!WARNING]
-    >  Visual C++용 .NET Framework의 이전 버전에 대한 C++/CLI 단위 테스트를 빌드하려면 Visual Studio의 해당 버전을 사용해야 합니다. 예를 들어 .NET Framework 3.5를 대상으로 지정하려면 [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] 및 [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] 서비스 팩 1을 설치해야 합니다.  
+    > Visual C++용 .NET Framework의 이전 버전에 대한 C++/CLI 단위 테스트를 빌드하려면 Visual Studio의 해당 버전을 사용해야 합니다. 예를 들어 .NET Framework 3.5를 대상으로 지정하려면 [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] 및 [!INCLUDE[vs_orcas_long](../includes/vs-orcas-long-md.md)] 서비스 팩 1을 설치해야 합니다.  
   
 2. **설치된 템플릿**에서 **Visual C ++** 를 확장합니다. **테스트**를 선택하고 **테스트 프로젝트** 템플릿을 선택합니다.  
   

@@ -12,12 +12,12 @@ caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: aaebcb9bf5edb5fda6938d364b3f96dc8823576f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 3f9a6f7985e3ebb3e77dcc605157f75e00a0842b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426028"
 ---
 # <a name="msbuild-transforms"></a>MSBuild 변환
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "59653491"
 ```  
   
 > [!NOTE]
->  표준 항목 목록에 구분 기호를 지정한 것과 동일한 방식으로 변환된 항목 목록에 사용자 지정 구분 기호를 지정할 수 있습니다. 예를 들어 기본 세미콜론(;) 대신 쉼표(,)를 사용하여 변환된 항목 목록을 구분하려면 다음 XML을 사용합니다.  
+> 표준 항목 목록에 구분 기호를 지정한 것과 동일한 방식으로 변환된 항목 목록에 사용자 지정 구분 기호를 지정할 수 있습니다. 예를 들어 기본 세미콜론(;) 대신 쉼표(,)를 사용하여 변환된 항목 목록을 구분하려면 다음 XML을 사용합니다.  
   
 ```  
 @(RESXFile->'Toolset\%(filename)%(extension)', ',')  
@@ -111,4 +111,4 @@ extension: .xsd
 ## <a name="see-also"></a>참고 항목  
  [MSBuild 개념](../msbuild/msbuild-concepts.md)   
  [MSBuild 참조](../msbuild/msbuild-reference.md)   
- [방법: 증분 빌드](../msbuild/how-to-build-incrementally.md)
+ [방법: 증분 방식으로 빌드](../msbuild/how-to-build-incrementally.md)

@@ -16,18 +16,18 @@ caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7c86228d21323d1928acb9fc94582fbb9d320248
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e9735f6ab6a44041deabdae0d57782da6f8c98b7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434340"
 ---
 # <a name="concurrency-visualizer"></a>동시성 시각화 도우미
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 참고]
->  동시성 시각화 도우미는 Visual Studio의 선택적 확장입니다. 다음 링크에서 동시성 시각화 도우미와 동시성 시각화 수집 도구를 다운로드하세요.  
+> 동시성 시각화 도우미는 Visual Studio의 선택적 확장입니다. 다음 링크에서 동시성 시각화 도우미와 동시성 시각화 수집 도구를 다운로드하세요.  
 > 
 > - [동시성 시각화 도우미](https://visualstudiogallery.msdn.microsoft.com/a6c24ce9-beec-4545-9261-293061436ee9) 확장을 다운로드합니다.  
 >   - [Visual Studio 2015용 동시성 시각화 수집 도구](http://www.microsoft.com/download/details.aspx?id=49103)를 다운로드합니다.  
@@ -39,7 +39,7 @@ ms.locfileid: "60084845"
  동시성 시각화 도우미는 [Windows용 이벤트 추적](http://go.microsoft.com/fwlink/?LinkId=234579) 기능에 의존합니다.  
   
 > [!NOTE]
->  동시성 시각화 도우미는 웹 프로젝트를 지원하지 않습니다.  
+> 동시성 시각화 도우미는 웹 프로젝트를 지원하지 않습니다.  
   
 ## <a name="related-topics"></a>관련 항목  
   

@@ -12,12 +12,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c40c2f824518ed00dacc41094c1b567f5de248ae
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 68decc73e14f8748d8434e05e50d6d3b48612d40
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436777"
 ---
 # <a name="collecting-net-memory-allocation-and-lifetime-data"></a>.NET 메모리 할당 및 수명 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60112821"
 - [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)], [!INCLUDE[vsPro](../includes/vspro-md.md)]  
   
 > [!NOTE]
->  Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 응용 프로그램의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
+> Windows 8 및 Windows Server 2012의 강화된 보안 기능을 위해 Visual Studio 프로파일러가 이러한 플랫폼에서 데이터를 수집하는 방법을 상당히 변경해야 했습니다. Windows 스토어 앱에는 새로운 수집 기술도 필요합니다. [Windows 8 및 Windows Server 2012 응용 프로그램의 성능 도구](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md)를 참조하세요.  
   
  샘플링 또는 계측 프로파일링 방법을 사용하여 데이터를 수집할 수 있습니다.  
   
@@ -42,7 +42,7 @@ ms.locfileid: "60112821"
 - 계측 방법을 사용하면 프로파일러에서 계측된 모듈에 의해 생성되는 .NET 메모리 할당 및 개체만 추적합니다.  
   
 > [!IMPORTANT]
->  샘플링 방법을 사용하여 .NET 메모리 데이터(할당, 개체 수명 또는 둘 다)를 수집하는 경우 모든 사용자 지정 샘플링 이벤트가 무시되며 적절한 메모리 할당 이벤트가 데이터를 수집하는 데 사용됩니다.  
+> 샘플링 방법을 사용하여 .NET 메모리 데이터(할당, 개체 수명 또는 둘 다)를 수집하는 경우 모든 사용자 지정 샘플링 이벤트가 무시되며 적절한 메모리 할당 이벤트가 데이터를 수집하는 데 사용됩니다.  
   
  .NET 메모리 할당의 프로파일링을 사용하도록 설정하면 할당 뷰도 사용하도록 설정할 수 있습니다. .NET 수명 데이터의 프로파일링을 사용하도록 설정하면 개체 수명 뷰도 사용하도록 설정할 수 있습니다. 자세한 내용은 [할당 뷰](../profiling/dotnet-memory-allocations-view.md) 및 [개체 수명 뷰](../profiling/object-lifetime-view.md)를 참조하세요.  
   

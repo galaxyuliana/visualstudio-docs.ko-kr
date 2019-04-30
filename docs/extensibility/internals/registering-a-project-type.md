@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2be0a0e62942c369d47947582bf746332e201577
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: fccd422a0f24a65532e648a1254aecedc484903e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425664"
 ---
 # <a name="registering-a-project-type"></a>프로젝트 형식 등록
 레지스트리 항목을 사용 하도록 설정 하는 새 프로젝트 형식을 만들면 만들어야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 인식 및 프로젝트 형식을 사용 하 여 작동 합니다. 일반적으로 레지스트리 스크립트 (.rgs) 파일을 사용 하 여 이러한 레지스트리 항목을 만듭니다.
@@ -25,7 +25,7 @@ ms.locfileid: "56623816"
  아래 예제에서 레지스트리에서 문을 기본 경로 제공 하 고 데이터 해당 하는 경우 뒤에 각 문에 대 한 레지스트리 스크립트에서 항목을 포함 하는 테이블입니다. 테이블은 스크립트 항목 및 문에 대 한 추가 정보를 제공합니다.
 
 > [!NOTE]
->  다음 레지스트리 정보를 형식의 예제 및 프로젝트 형식 등록을 작성 하 게 됩니다 레지스트리 스크립트에 있는 항목의 목적을 할 것입니다. 실제 항목 및 해당 용도 프로젝트 형식의 특정 요구 사항에 따라 달라질 수 있습니다. 프로젝트를 개발 하는 형식에 매우 유사 하나를 찾을 수는 샘플을 검토 하 고 해당 샘플에 대 한 레지스트리 스크립트를 검토 해야 합니다.
+> 다음 레지스트리 정보를 형식의 예제 및 프로젝트 형식 등록을 작성 하 게 됩니다 레지스트리 스크립트에 있는 항목의 목적을 할 것입니다. 실제 항목 및 해당 용도 프로젝트 형식의 특정 요구 사항에 따라 달라질 수 있습니다. 프로젝트를 개발 하는 형식에 매우 유사 하나를 찾을 수는 샘플을 검토 하 고 해당 샘플에 대 한 레지스트리 스크립트를 검토 해야 합니다.
 
  다음 예제는 HKEY_CLASSES_ROOT에서입니다.
 

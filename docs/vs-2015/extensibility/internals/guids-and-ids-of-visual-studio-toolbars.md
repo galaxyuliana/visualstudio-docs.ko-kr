@@ -16,12 +16,12 @@ ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
 caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 8bafe0d76b86c73424614589c08095f096da9936
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 6ec717707727b046ecd0d749179ea463ae3a4950
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436271"
 ---
 # <a name="guids-and-ids-of-visual-studio-toolbars"></a>Visual Studio 도구 모음의 GUID 및 ID
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "58982365"
 이 항목에서는 Visual Studio 통합된 개발 환경 (IDE)에 포함 된 도구 모음의 GUID 및 ID 값을 열거 하 고 포함 된 그룹의 키를 누릅니다. 이러한 값은 Visual Studio SDK의 일부로 설치 되는.vsct 파일에서 정의 됩니다. 자세한 내용은 [IDE-Defined 명령, 메뉴 및 그룹](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)합니다.
 
 > [!NOTE]
->  다양 한 Visual Studio에 사용할 수 있는 도구는 Visual Studio 및 GUID가 정의 되어 있지 않은 및 ID 값 public이 아니어야 합니다. 이 항목에서는 Visual Studio SDK.vsct 파일에 정의 된 도구 모음만 나열 합니다.
+> 다양 한 Visual Studio에 사용할 수 있는 도구는 Visual Studio 및 GUID가 정의 되어 있지 않은 및 ID 값 public이 아니어야 합니다. 이 항목에서는 Visual Studio SDK.vsct 파일에 정의 된 도구 모음만 나열 합니다.
 
  .Vsct 파일에 정의 된 IDE 개체를 사용 하는 방법에 대 한 자세한 내용은 참조 하세요. [확장 메뉴 및 명령을](../../extensibility/extending-menus-and-commands.md)합니다.
 
@@ -110,7 +110,7 @@ ms.locfileid: "58982365"
  도구 모음 도구 창 또는 IDE에서 직접와 같이 나타날 수 **솔루션 탐색기**합니다. 도구 창은.vsct 파일에 정의 되지 않은, 때문에 도구 창 도구 모음에서 정의 된 부모를 갖지 않습니다. 대신 코드에 배치 됩니다. 다음 표에서 IDE에서 도구 창에 표시 되는 도구 모음 및 포함 된 명령 그룹을 보여 줍니다.
 
 > [!NOTE]
->  도구 모음 및 그룹의 GUID를 사용 하 여 `guidSHLMainMenu`, guid: id 구문을 사용 하 여 지정 하는 경우를 제외 합니다. 도구 모음에 대 한 GUID를 지정 하는 경우 해당 도구 모음에서 물려받은 그룹에도 적용 됩니다.
+> 도구 모음 및 그룹의 GUID를 사용 하 여 `guidSHLMainMenu`, guid: id 구문을 사용 하 여 지정 하는 경우를 제외 합니다. 도구 모음에 대 한 GUID를 지정 하는 경우 해당 도구 모음에서 물려받은 그룹에도 적용 됩니다.
 
 |도구 창|ToolBar|그룹|
 |-----------------|-------------|------------|

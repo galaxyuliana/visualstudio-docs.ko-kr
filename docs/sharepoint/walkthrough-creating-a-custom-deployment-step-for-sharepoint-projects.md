@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2d4f42793c061436fee83e007def9f1d7e1d8f7c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: facf9b32553ada46ed969aa6e616f20eb378fd60
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430425"
 ---
 # <a name="walkthrough-create-a-custom-deployment-step-for-sharepoint-projects"></a>연습: SharePoint 프로젝트용 사용자 지정 배포 단계 만들기
   SharePoint 프로젝트를 배포할 때 Visual Studio는 특정 순서로 일련의 배포 단계를 실행 합니다. Visual Studio는 많은 기본 제공 배포 단계를 포함 하지만 만들 수도 있습니다 고유한.
@@ -74,7 +74,7 @@ ms.locfileid: "60040174"
 3. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 노드를 선택한 후 합니다 **확장성** 노드.
 
     > [!NOTE]
-    >  합니다 **확장성** 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
+    > 합니다 **확장성** 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
 
 4. 선택 대화 상자 맨 **.NET Framework 4.5** 버전의.NET Framework의 목록에서입니다.
 
@@ -147,7 +147,7 @@ ms.locfileid: "60040174"
 1. 에 **DeploymentStepExtension** 프로젝트 UpgradeStep 코드 파일을 열고 다음 다음 코드를 붙여 넣습니다.
 
     > [!NOTE]
-    >  이 코드를 추가, 프로젝트를 컴파일 오류가 발생 해야 합니다. 해당 위치로 이동 후 추가 하면 코드 이후 단계에서.
+    > 이 코드를 추가, 프로젝트를 컴파일 오류가 발생 해야 합니다. 해당 위치로 이동 후 추가 하면 코드 이후 단계에서.
 
      [!code-csharp[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#1](../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/deploymentstepextension/upgradestep.cs#1)]
      [!code-vb[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#1](../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/deploymentstepextension/upgradestep.vb#1)]
@@ -205,7 +205,7 @@ ms.locfileid: "60040174"
 6. 에 **형식** 목록에서 선택 **Microsoft.VisualStudio.MefComponent**합니다.
 
     > [!NOTE]
-    >  이 값에 해당 하는 `MefComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
+    > 이 값에 해당 하는 `MefComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
 
 7. 에 **소스** 목록에서 선택 **현재 솔루션의 프로젝트**합니다.
 
@@ -218,7 +218,7 @@ ms.locfileid: "60040174"
 10. 에 **형식** 목록에 입력 **SharePoint.Commands.v4**합니다.
 
     > [!NOTE]
-    >  이 요소는 Visual Studio 확장에 포함 하려는 사용자 지정 확장을 지정 합니다. 자세한 내용은 [자산 요소 (VSX 스키마)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737)합니다.
+    > 이 요소는 Visual Studio 확장에 포함 하려는 사용자 지정 확장을 지정 합니다. 자세한 내용은 [자산 요소 (VSX 스키마)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737)합니다.
 
 11. 에 **소스** 목록에서 선택 **현재 솔루션의 프로젝트**합니다.
 
@@ -262,7 +262,7 @@ ms.locfileid: "60040174"
 6. 아래 **이 SharePoint 솔루션의 신뢰 수준을**를 선택 합니다 **팜 솔루션으로 배포** 옵션 단추입니다.
 
    > [!NOTE]
-   >  업그레이드 배포 단계는 샌드박스 솔루션을 지원 하지 않습니다.
+   > 업그레이드 배포 단계는 샌드박스 솔루션을 지원 하지 않습니다.
 
 7. 선택 된 **완료** 단추입니다.
 

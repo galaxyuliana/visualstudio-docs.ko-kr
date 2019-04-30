@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f4f71bbc725d6c9f9fe90f0e4421892fa34ed886
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 46f88b47e135331e5f1dc010aa4a73abed520f51
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438653"
 ---
 # <a name="walkthrough-call-code-from-vba-in-a-visual-c-project"></a>연습: 시각적 개체에서 vba의 코드를 호출할 C# 프로젝트
   이 연습에서는 통합 문서의 VBA(Visual Basic for Applications) 코드에서 Microsoft Office Excel에 대한 문서 수준 사용자 지정의 메서드를 호출하는 방법을 보여 줍니다. 이 절차에는 세 가지 기본 단계( `Sheet1` 호스트 항목 클래스에 메서드 추가, 통합 문서의 VBA 코드에 메서드 노출, 통합 문서의 VBA 코드에서 메서드 호출)가 포함됩니다.
@@ -48,7 +48,7 @@ ms.locfileid: "60082271"
 - VBA 코드에서 메서드 호출
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
@@ -71,7 +71,7 @@ ms.locfileid: "60082271"
 3. 리본에서 **개발자** 탭을 클릭합니다.
 
     > [!NOTE]
-    >  **개발자** 탭이 표시되지 않는 경우 먼저 개발자 탭을 표시해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
+    > **개발자** 탭이 표시되지 않는 경우 먼저 개발자 탭을 표시해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
 
 4. **코드** 그룹에서 **Visual Basic**을 클릭합니다.
 
@@ -209,7 +209,7 @@ ms.locfileid: "60082271"
  이제 통합 문서의 VBA 코드에서 `CreateVstoNamedRange` 메서드를 호출할 수 있습니다.
 
 > [!NOTE]
->  이 연습에서는 프로젝트를 디버그하는 동안 통합 문서에 VBA 코드를 추가합니다. Visual Studio에서 빌드 출력 폴더의 문서를 주 프로젝트 폴더의 문서 복사본으로 바꾸기 때문에 이 문서에 추가하는 모든 VBA 코드는 다음번에 프로젝트를 빌드할 때 덮어쓰입니다. VBA 코드를 저장하려는 경우 프로젝트 폴더의 문서에 복사할 수 있습니다. 자세한 내용은 [결합 VBA 및 문서 수준 사용자 지정](../vsto/combining-vba-and-document-level-customizations.md)합니다.
+> 이 연습에서는 프로젝트를 디버그하는 동안 통합 문서에 VBA 코드를 추가합니다. Visual Studio에서 빌드 출력 폴더의 문서를 주 프로젝트 폴더의 문서 복사본으로 바꾸기 때문에 이 문서에 추가하는 모든 VBA 코드는 다음번에 프로젝트를 빌드할 때 덮어쓰입니다. VBA 코드를 저장하려는 경우 프로젝트 폴더의 문서에 복사할 수 있습니다. 자세한 내용은 [결합 VBA 및 문서 수준 사용자 지정](../vsto/combining-vba-and-document-level-customizations.md)합니다.
 
 ### <a name="to-call-the-method-from-vba-code"></a>VBA 코드에서 메서드를 호출하려면
 

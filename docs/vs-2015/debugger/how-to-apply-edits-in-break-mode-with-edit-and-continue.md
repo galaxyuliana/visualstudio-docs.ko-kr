@@ -24,12 +24,12 @@ caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e26b293a5ac7326ca8f82250ec3d0da9fe96371c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5c04dc0ae6e5272d2544ad7436fa7ca516c9a022
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437354"
 ---
 # <a name="how-to-apply-edits-in-break-mode-with-edit-and-continue"></a>방법: 편집을 사용 하 여 중단 모드에서 편집을 적용 하 고 계속
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +75,7 @@ ms.locfileid: "60069928"
      자세한 내용은 [Visual Basic 편집 하며 계속 하기에서 지원 되지 않는 편집](../debugger/unsupported-edits-in-visual-basic-edit-and-continue.md)합니다.  
   
     > [!NOTE]
-    >  편집하며 계속하기에서 허용되지 않는 코드 변경 작업을 수행하면 자주색 물결선이 편집 내용 아래에 밑줄로 표시되고 해당 작업이 작업 목록에 나타납니다. 잘못된 코드 변경 내용을 취소하지 않으면 코드 실행을 계속 진행할 수 없습니다.  
+    > 편집하며 계속하기에서 허용되지 않는 코드 변경 작업을 수행하면 자주색 물결선이 편집 내용 아래에 밑줄로 표시되고 해당 작업이 작업 목록에 나타납니다. 잘못된 코드 변경 내용을 취소하지 않으면 코드 실행을 계속 진행할 수 없습니다.  
   
 3. **디버그** 메뉴에서 **계속**을 클릭하여 실행을 다시 시작합니다.  
   

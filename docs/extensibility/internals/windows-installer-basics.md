@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bf47b5c6aa84cb5d5cc961e34161435dc27dd517
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9978e12d5b4d94a5f860bfdd5d3dc90ae6fef3ad
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431023"
 ---
 # <a name="windows-installer-basics"></a>Windows Installer 기본 사항
 Windows 설치 관리자를 설치 하 고 Windows 설치 관리자 구성 요소 (WICs 또는 구성 요소 라고도 함) 라는 단위로 이러한 작업을 수행 합니다. 응용 프로그램 또는 사용자의 컴퓨터에서 소프트웨어 제품 제거. 설치 및 Windows Installer를 사용 하 여 설정에 대 한 계산 참조의 기본 단위는 각 WIC를 식별 하는 GUID입니다.
@@ -53,7 +53,7 @@ Windows 설치 관리자를 설치 하 고 Windows 설치 관리자 구성 요�
  두 가지 규칙 설정의 구성 요소를 통해 리소스의 배포를 확인합니다. 하나의 규칙 집합은 설치 작성자로 두 번째 집합을 적용 해야 하는 동안 자체 Windows 설치 프로그램에서 유지 됩니다.
 
 > [!NOTE]
->  Windows Installer 규칙 적용에는.msi 파일의 유효성 검사를 실행 하는 경우에 발생 합니다. 그럼에도 불구 하 고 모범 사례를 이러한 규칙을 처리 하도록 있습니다 주의가 요구 됩니다. 자세한 내용은 [설치 데이터베이스 유효성 검사](/windows/desktop/Msi/validating-an-installation-database) 하 고 [패키지 유효성 검사](/windows/desktop/Msi/package-validation)합니다.
+> Windows Installer 규칙 적용에는.msi 파일의 유효성 검사를 실행 하는 경우에 발생 합니다. 그럼에도 불구 하 고 모범 사례를 이러한 규칙을 처리 하도록 있습니다 주의가 요구 됩니다. 자세한 내용은 [설치 데이터베이스 유효성 검사](/windows/desktop/Msi/validating-an-installation-database) 하 고 [패키지 유효성 검사](/windows/desktop/Msi/package-validation)합니다.
 
 #### <a name="installer-enforced-rules"></a>설치 관리자 적용 규칙
 

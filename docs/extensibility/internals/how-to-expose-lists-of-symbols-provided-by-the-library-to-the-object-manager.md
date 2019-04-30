@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 19f426d60ea8ee3d9326fa9b13adfff115c169d5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 93791cda512ee8d74664e1b8b04890da74e399ad
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420605"
 ---
 # <a name="how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager"></a>방법: 개체 관리자에 게 라이브러리에서 제공 하는 기호 목록을 표시 합니다.
 기호 검색 도구 **클래스 뷰**를 **개체 브라우저**를 **호출 브라우저** 및 **기호 찾기 결과**, 새 데이터에 대 한 요청을 전달 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 개체 관리자입니다. 개체 관리자를 적절 한 라이브러리를 찾아서 새 기호 목록을 요청 합니다. 라이브러리 요청한 데이터를 제공 하 여 응답 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 를 통해 개체 관리자는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> 인터페이스. 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 의 메서드를 호출 하는 개체 관리자 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> 채우거 나 기호 검색 도구 보기 업데이트를 사용 하 여 데이터를 가져오기 위해 인터페이스입니다.
@@ -27,9 +27,9 @@ ms.locfileid: "60061322"
  라이브러리 도구에서 호출 됩니다, 노드를 확장할 또는 뷰를 새로 고칠 때 데이터에 대 한 요청 발생할 수 있습니다. 기호 검색 도구를 처음으로 호출 되 면 개체 관리자는 최상위 목록을 제공 하기 위해 라이브러리를 요청 합니다. 사용자 목록 노드를 확장 하는 경우 라이브러리 노드 아래에서 자식 목록을 제공 합니다. 관심 있는 항목의 인덱스를 포함 하는 모든 개체 관리자 조회 합니다. 새 목록을 표시할 개체 관리자는 항목, 이름, 내게 필요한 옵션 및 다른 속성 유형의 목록에 있는 항목 수를 결정 해야 합니다.
 
 > [!NOTE]
->  다음 관리 되는 코드 예제에는 기호를 구현 하는 과정의 목록을 제공 하는 방법을 보여 줍니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> 인터페이스입니다. 개체 관리자는이 인터페이스에서 메서드를 호출 하 고를 채우거 나 기호 검색 도구를 업데이트 합니다. 가져온된 데이터를 사용 합니다.
+> 다음 관리 되는 코드 예제에는 기호를 구현 하는 과정의 목록을 제공 하는 방법을 보여 줍니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> 인터페이스입니다. 개체 관리자는이 인터페이스에서 메서드를 호출 하 고를 채우거 나 기호 검색 도구를 업데이트 합니다. 가져온된 데이터를 사용 합니다.
 >
->  네이티브 코드 기호 공급자 구현에 사용 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> 인터페이스입니다.
+> 네이티브 코드 기호 공급자 구현에 사용 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> 인터페이스입니다.
 
 ## <a name="to-provide-lists-of-symbols-to-the-object-manager"></a>기호 목록을 개체 관리자에 게 제공
 

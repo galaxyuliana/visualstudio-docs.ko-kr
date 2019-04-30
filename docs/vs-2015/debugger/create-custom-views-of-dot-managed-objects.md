@@ -24,12 +24,12 @@ caps.latest.revision: 37
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 714a4307f6885dbfd8c1bed4ccd8f0cccc173c07
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: fbbfbe17fa5dfb9a10f530981643be7a0042d6fc
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982246"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440444"
 ---
 # <a name="create-custom-views-of-managed-objects"></a>관리 되는 개체의 사용자 지정 뷰 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ Visual Studio에서 디버거 변수 창에 데이터 형식이 표시되는 방
  네이티브 코드를 사용하는 경우 Program Files\Microsoft Visual Studio 11.0\Common7\Packages\Debugger 디렉터리에 있는 autoexp.dat 파일에 사용자 지정 데이터 형식 확장을 추가할 수 있습니다. `autoexp` 규칙의 작성 방법에 대한 지침은 해당 파일 내에 있습니다.  
   
 > [!CAUTION]
->  이 파일의 구조와 autoexp 규칙의 구문은 Visual Studio 릴리스마다 다를 수 있습니다.  
+> 이 파일의 구조와 autoexp 규칙의 구문은 Visual Studio 릴리스마다 다를 수 있습니다.  
   
  또한 식 계산기 추가 기능을 작성하여 네이티브 형식 뷰를 사용자 지정할 수도 있습니다. 자세한 내용은 참조 하세요. [EEAddIn 샘플: 디버깅 식 계산기 추가 기능에서](http://msdn.microsoft.com/d4f6b068-c812-45bc-9ec0-7e0363c4bb9e)합니다.  
   

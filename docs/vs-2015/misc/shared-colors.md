@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.assetid: 9d3186f3-07d2-441f-b33e-435e95d8a0b8
 caps.latest.revision: 11
 ms.author: brgeorge
-ms.openlocfilehash: c09419d1294d51fe0b566acc649bc3f9612acfca
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 421ff85831bb611b655de2bc35f01423b61921a2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436580"
 ---
 # <a name="shared-colors"></a>공유 색
 여기에 소개하는 내용을 삽입합니다.  
@@ -31,7 +31,7 @@ ms.locfileid: "60117178"
 - **해당 위치에 적합 한 컨트롤 색을 사용 합니다.** 특정 상태에서는 일부 Visual Studio 컨트롤에 별도 테두리와 배경색이 없습니다. 대신, 배경 화면에서 해당 색을 선택합니다. 항상 컨트롤을 배치할 위치에 적합한 토큰 이름을 사용해야 합니다.  
   
 > [!IMPORTANT]
->  "시작 페이지" 또는 "Cider" 범주에 있는 토큰을 사용하지 마세요.  
+> "시작 페이지" 또는 "Cider" 범주에 있는 토큰을 사용하지 마세요.  
   
 ### <a name="command-structures"></a>명령 구조  
   
@@ -240,7 +240,7 @@ ms.locfileid: "60117178"
 ##### <a name="BKMK_CommandComboBox"></a> 콤보 상자  
   
 > [!IMPORTANT]
->  콤보 상자는 드롭다운과 유사하지만 편집 가능한 텍스트 영역을 포함합니다. 드롭다운에 편집 가능한 텍스트 영역이 포함되어 있지 않으면 [Drop-down](../misc/shared-colors.md#BKMK_CommandDropDown)아래의 색 토큰을 사용합니다.  
+> 콤보 상자는 드롭다운과 유사하지만 편집 가능한 텍스트 영역을 포함합니다. 드롭다운에 편집 가능한 텍스트 영역이 포함되어 있지 않으면 [Drop-down](../misc/shared-colors.md#BKMK_CommandDropDown)아래의 색 토큰을 사용합니다.  
   
  ![Combo box redline](../extensibility/ux-guidelines/media/0303-029-comboboxredline.png "0303-029_ComboBoxRedline")  
   
@@ -318,7 +318,7 @@ ms.locfileid: "60117178"
 ##### <a name="BKMK_CommandDropDown"></a> 드롭다운 목록  
   
 > [!IMPORTANT]
->  드롭다운은 콤보 상자와 유사하지만 편집 가능한 텍스트 영역이 없습니다. 드롭다운에 편집 가능한 텍스트 영역이 포함되어 있으면 [Combo box](../misc/shared-colors.md#BKMK_CommandComboBox)아래의 색 토큰을 사용합니다.  
+> 드롭다운은 콤보 상자와 유사하지만 편집 가능한 텍스트 영역이 없습니다. 드롭다운에 편집 가능한 텍스트 영역이 포함되어 있으면 [Combo box](../misc/shared-colors.md#BKMK_CommandComboBox)아래의 색 토큰을 사용합니다.  
   
  ![삭제&#45;검토 다운](../extensibility/ux-guidelines/media/0303-042-dropdownredline.png "0303 042_DropdownRedline")  
   

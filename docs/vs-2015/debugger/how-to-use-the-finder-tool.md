@@ -11,12 +11,12 @@ caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c14fdcc5d58c62eebf993ba336a109adac5b7106
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 00535fd336f504afcebdd24a4d009a10f7f6ff33
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60053769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440312"
 ---
 # <a name="how-to-use-the-finder-tool"></a>방법: 찾기 도구 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "60053769"
      창의 핸들입니다 (예: 디버거에서 복사) 검사 하려는 경우 입력에 **처리** 입력란입니다.  
   
     > [!TIP]
-    >  화면이 혼란을 줄이기 위해 선택 된 **spy + + 숨기기** 옵션입니다. 이 옵션은 Spy + +의 주 창을 남아 숨기고 합니다 **창 찾기** 대화 상자를 다른 응용 프로그램을 기반으로 표시 합니다. Spy + + 주 창을 클릭할 때 복원 됩니다 **확인** 또는 **취소**, 선택을 취소 하면 또는 **Spy + + 숨기기** 옵션입니다.  
+    > 화면이 혼란을 줄이기 위해 선택 된 **spy + + 숨기기** 옵션입니다. 이 옵션은 Spy + +의 주 창을 남아 숨기고 합니다 **창 찾기** 대화 상자를 다른 응용 프로그램을 기반으로 표시 합니다. Spy + + 주 창을 클릭할 때 복원 됩니다 **확인** 또는 **취소**, 선택을 취소 하면 또는 **Spy + + 숨기기** 옵션입니다.  
   
 4. 아래 **표시**, 선택 **속성** 하거나 **메시지**.  
   

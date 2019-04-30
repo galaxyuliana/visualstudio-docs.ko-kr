@@ -18,12 +18,12 @@ caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: aeaba355e101bd8e48126bfa01f95668a37abe3e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 45588d06cddd919d8ff0f96329cce5f6054edd00
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431427"
 ---
 # <a name="javascript-console-commands"></a>JavaScript Console commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  JavaScript 콘솔 창이 닫혀 있는 경우 열 수 있습니다 선택 하 여 Visual Studio에서 디버그 하는 동안 **디버깅할** > **Windows** > **JavaScript 콘솔**합니다.  
   
 > [!NOTE]
->  디버깅 세션 중에 창을 사용할 수 없는 경우 프로젝트의 디버그 속성에서 디버거 형식이 **Script** 로 설정되었는지 확인하세요.  
+> 디버깅 세션 중에 창을 사용할 수 없는 경우 프로젝트의 디버그 속성에서 디버거 형식이 **Script** 로 설정되었는지 확인하세요.  
   
 ## <a name="console-object-commands"></a>콘솔 개체 명령  
  다음 표는 JavaScript 콘솔 창에서 사용할 수 있거나 코드에서 콘솔로 메시지를 보내는 데 사용할 수 있는 `console` 개체 명령에 대한 구문을 보여줍니다. 이 개체는 여러 폼을 제공하므로 원하는 경우 정보 메시지와 오류 메시지를 구분할 수 있습니다.  
@@ -43,7 +43,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  로컬 개체의 명명된 콘솔과 혼동되지 않도록 해야 하는 경우 `window.console.[command]` 에서 긴 명령을 사용하면 됩니다.  
   
 > [!TIP]
->  이전 버전의 Visual Studio는 전체 명령 집합을 지원하지 않습니다. 지원되는 명령에 대한 정보를 신속하게 얻으려면 콘솔 개체에서 IntelliSense를 사용하세요.  
+> 이전 버전의 Visual Studio는 전체 명령 집합을 지원하지 않습니다. 지원되는 명령에 대한 정보를 신속하게 얻으려면 콘솔 개체에서 IntelliSense를 사용하세요.  
   
 |명령|설명|예제|  
 |-------------|-----------------|-------------|  

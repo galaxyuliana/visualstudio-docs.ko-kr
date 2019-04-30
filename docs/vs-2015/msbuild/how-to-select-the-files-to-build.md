@@ -13,12 +13,12 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5a45720c739087c2caf43314cbcbc8aea162534c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0968dd8914b99e8d47ef1364231059175aaf73fe
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437897"
 ---
 # <a name="how-to-select-the-files-to-build"></a>방법: 빌드할 파일 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "60064845"
      `<VBFile Include="form1.vb"/>`  
   
     > [!NOTE]
-    >  항목 컬렉션의 항목이 프로젝트 파일과 같은 디렉터리에 있지 않으면 항목의 전체 또는 상대 경로를 지정해야 합니다. 예: `Include="..\..\form2.cs"`  
+    > 항목 컬렉션의 항목이 프로젝트 파일과 같은 디렉터리에 있지 않으면 항목의 전체 또는 상대 경로를 지정해야 합니다. 예: `Include="..\..\form2.cs"`  
   
 #### <a name="to-declare-multiple-items"></a>여러 항목을 선언하려면  
   
@@ -100,9 +100,9 @@ ms.locfileid: "60064845"
      `<VBC Sources="@(VBFile)">...</VBC>`  
   
 > [!NOTE]
->  항목과 함께 와일드카드를 사용해서 빌드의 입력을 지정해야 합니다. 입력을 지정하는 데 [Csc](../msbuild/csc-task.md) 또는 [Vbc](../msbuild/vbc-task.md)와 같은 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 작업의 `Sources` 특성을 사용할 수는 없습니다. 다음 예제는 프로젝트 파일에서 유효하지 않습니다.  
+> 항목과 함께 와일드카드를 사용해서 빌드의 입력을 지정해야 합니다. 입력을 지정하는 데 [Csc](../msbuild/csc-task.md) 또는 [Vbc](../msbuild/vbc-task.md)와 같은 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 작업의 `Sources` 특성을 사용할 수는 없습니다. 다음 예제는 프로젝트 파일에서 유효하지 않습니다.  
 >   
->  `<CSC Sources="*.cs">...</CSC>`  
+> `<CSC Sources="*.cs">...</CSC>`  
   
 ## <a name="example"></a>예제  
  다음 코드 예제에서는 모든 입력 파일을 개별적으로 포함하는 프로젝트를 보여 줍니다.  

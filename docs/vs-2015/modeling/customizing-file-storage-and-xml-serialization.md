@@ -13,12 +13,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6211e33f8ef14687df3c70841ef61a2f25d10457
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b41f5f6a3d937f23db1039fdab5e1cf7e36960ef
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433261"
 ---
 # <a name="customizing-file-storage-and-xml-serialization"></a>파일 저장소 및 XML Serialization 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60062401"
  또한 고급 사용자 지정에 대 한 프로그램 코드를 작성할 수 있습니다.  
   
 > [!NOTE]
->  특정 형식으로 모델을 저장 하려면 해당 형식에서 다시 로드 해야 하지만 경우에 텍스트 템플릿을 사용 하 여 사용자 지정 serialization 체계 대신이 모델에서 출력을 생성 하는 것이 좋습니다. 자세한 내용은 [도메인별 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md)합니다.  
+> 특정 형식으로 모델을 저장 하려면 해당 형식에서 다시 로드 해야 하지만 경우에 텍스트 템플릿을 사용 하 여 사용자 지정 serialization 체계 대신이 모델에서 출력을 생성 하는 것이 좋습니다. 자세한 내용은 [도메인별 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md)합니다.  
   
 ## <a name="model-and-diagram-files"></a>모델 및 다이어그램 파일  
  각 모델은 일반적으로 두 개의 파일에 저장 됩니다.  

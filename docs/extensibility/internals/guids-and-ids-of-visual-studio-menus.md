@@ -15,12 +15,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 279b9cc03b79efe2fbf9daa7457f5dce88e7a432
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 16871ba1115407e2665886d84b72594470f91287
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420616"
 ---
 # <a name="guids-and-ids-of-visual-studio-menus"></a>Guid 및 Id의 Visual Studio 메뉴
 이 문서에서는 메뉴 및 Visual Studio 메뉴 모음에서 그룹의 GUID 및 ID 값을 열거합니다. 이러한 값에 정의 된 *.vsct* Visual Studio SDK의 일부로 설치 되는 파일입니다. 자세한 내용은 [IDE 정의 명령, 메뉴 및 그룹](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)합니다.
@@ -59,7 +59,7 @@ ms.locfileid: "56597870"
 |창|IDM_VS_MENU_WINDOW|
 |추가 기능|IDM_VS_MENU_ADDINS|
 |커뮤니티|IDM_VS_MENU_COMMUNITY|
-|도움말|IDM_VS_MENU_HELP|
+|Help|IDM_VS_MENU_HELP|
 
 ## <a name="groups-on-visual-studio-menus"></a>Visual Studio 메뉴에는 그룹
  다음 목록에서는 Visual Studio 메뉴 모음에서 메뉴에서 직접 물려받은 그룹을 나타냅니다. Visual Studio 메뉴에 명령을 추가 하는 가장 빠른 방법은 부모로 이러한 그룹 중 하나를 설정 하는 것입니다. 이 섹션에는 하위 메뉴에서 물려받은 그룹 표시 되지 않습니다.
@@ -69,7 +69,7 @@ ms.locfileid: "56597870"
 |그룹화|ID|
 |-----------|--------|
 |새로 만들기/열기|IDG_VS_FILE_FILE|
-|추가|IDG_VS_FILE_ADD|
+|Add|IDG_VS_FILE_ADD|
 |솔루션|IDG_VS_FILE_SOLUTION|
 |기타|IDG_VS_FILE_MISC|
 |Save|IDG_VS_FILE_SAVE|
@@ -126,7 +126,7 @@ ms.locfileid: "56597870"
 |그룹화|ID|
 |-----------|--------|
 |기타 추가|IDG_VS_PROJ_MISCADD|
-|추가|IDG_VS_PROJ_ADD|
+|Add|IDG_VS_PROJ_ADD|
 |폴더|IDG_VS_PROJ_FOLDER|
 |언로드/다시 로드|IDG_VS_PROJ_UNLOADRELOAD|
 |참조|IDG_VS_PROJ_REFERENCE|
@@ -178,7 +178,7 @@ ms.locfileid: "56597870"
  다음 계층에서는 Visual Studio 메뉴 모음에서 메뉴와 연결 된 하위 메뉴를 보여 줍니다. 그룹만 부모로 메뉴를 가질 수 있으므로 모든 하위 메뉴 해야 내림차순 그룹에서 메뉴의 대신 메뉴에서 직접. 메뉴, 그룹 및 하위 메뉴 간의 관계에 대 한 자세한 내용은 참조 하세요. [하위 메뉴에 추가](../../extensibility/adding-a-submenu-to-a-menu.md)합니다.
 
 > [!NOTE]
->  Visual Studio 메뉴 모음에서 메뉴 이름은 별도로이 계층에서 때문에 표시 되지 다음과 같이 IDE에서 그룹에 대 한 명명 규칙에서 유추할 수 있습니다. *IDG_VS_\<메뉴 이름\>_\<그룹 이름\>* 합니다.
+> Visual Studio 메뉴 모음에서 메뉴 이름은 별도로이 계층에서 때문에 표시 되지 다음과 같이 IDE에서 그룹에 대 한 명명 규칙에서 유추할 수 있습니다. *IDG_VS_\<메뉴 이름\>_\<그룹 이름\>* 합니다.
 
 |부모 그룹|하위 메뉴|자식 그룹|
 |------------------|-------------|------------------|

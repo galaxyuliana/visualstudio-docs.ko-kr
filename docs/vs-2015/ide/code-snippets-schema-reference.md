@@ -14,12 +14,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 994b87de61aaa0b303b0b0bf8454dad716c9978f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b49b1aa1022b12dc2d409037a1241f51b469a14c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436236"
 ---
 # <a name="code-snippets-schema-reference"></a>코드 조각 스키마 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ IntelliSense 코드 조각은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서
  코드 조각이 참조하는 어셈블리의 이름을 지정합니다.  
   
 > [!NOTE]
->  `Assembly` 요소는 Visual Basic 코드 조각에서만 지원됩니다.  
+> `Assembly` 요소는 Visual Basic 코드 조각에서만 지원됩니다.  
   
  **Assembly** 요소의 텍스트 값은 이 어셈블리의 텍스트 이름(예: `System.dll`)이거나 강력한 이름(예: `System,Version=1.0.0.1,Culture=neutral,PublicKeyToken=9b35aa323c18d4fb1`)입니다.  
   
@@ -240,7 +240,7 @@ is a great color. I love Blue.
  Visual Studio에서 리터럴 또는 개체가 포커스를 받을 때 실행할 함수를 지정합니다.  
   
 > [!NOTE]
->  `Function` 요소는 Visual C# 코드 조각에서만 지원됩니다.  
+> `Function` 요소는 Visual C# 코드 조각에서만 지원됩니다.  
   
 ```xml  
 <Function>  
@@ -289,7 +289,7 @@ is a great color. I love Blue.
  코드 조각에 대한 자세한 정보를 제공하는 URL을 지정합니다.  
   
 > [!NOTE]
->  Visual Studio에서는 `HelpUrl` 요소를 사용하지 않습니다. 이 요소는 IntelliSense 코드 조각 XML 스키마의 일부이며 이 요소를 포함하는 모든 코드 조각의 유효성이 검사되지만 요소의 값은 사용되지 않습니다.  
+> Visual Studio에서는 `HelpUrl` 요소를 사용하지 않습니다. 이 요소는 IntelliSense 코드 조각 XML 스키마의 일부이며 이 요소를 포함하는 모든 코드 조각의 유효성이 검사되지만 요소의 값은 사용되지 않습니다.  
   
 ```xml  
 <HelpUrl>  
@@ -325,7 +325,7 @@ is a great color. I love Blue.
  IntelliSense 코드 조각에서 사용되는 가져온 네임스페이스를 지정합니다.  
   
 > [!NOTE]
->  `Import` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
+> `Import` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
   
 ```xml  
 <Import>  
@@ -346,7 +346,7 @@ is a great color. I love Blue.
  개별 `Import` 요소를 그룹화합니다.  
   
 > [!NOTE]
->  `Imports` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
+> `Imports` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
   
 ```xml  
 <Imports>  
@@ -428,7 +428,7 @@ is a great color. I love Blue.
  코드 조각이 컴파일 및 실행될 수 있도록 가져와야 하는 네임스페이스를 지정합니다. `Namespace` 요소에 지정된 네임스페이스가 아직 없는 경우 코드의 시작 부분에 있는 `Imports` 문에 자동으로 추가됩니다.  
   
 > [!NOTE]
->  `Namespace` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
+> `Namespace` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
   
 ```xml  
 <Namespace>  
@@ -475,7 +475,7 @@ is a great color. I love Blue.
  코드 조각에 필요한 어셈블리 참조에 대한 정보를 지정합니다.  
   
 > [!NOTE]
->  `Reference` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
+> `Reference` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
   
 ```xml  
 <Reference>  
@@ -497,7 +497,7 @@ is a great color. I love Blue.
  개별 `Reference` 요소를 그룹화합니다.  
   
 > [!NOTE]
->  `References` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
+> `References` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
   
 ```xml  
 <References>  
@@ -517,7 +517,7 @@ is a great color. I love Blue.
  조각을 삽입하는 데 사용되는 바로 가기 텍스트를 지정합니다. `Shortcut` 요소의 텍스트 값에는 영숫자, 하이픈(-) 및 밑줄(_)만 포함될 수 있습니다.  
   
 > [!CAUTION]
->  C++에서는 코드 조각 바로 가기에 _ 및 – 문자를 지원하지 않습니다.  
+> C++에서는 코드 조각 바로 가기에 _ 및 – 문자를 지원하지 않습니다.  
   
 ```xml  
 <Shortcut>  
@@ -644,7 +644,7 @@ is a great color. I love Blue.
  참조된 어셈블리에 대한 자세한 정보를 제공하는 URL을 지정합니다.  
   
 > [!NOTE]
->  `Url` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
+> `Url` 요소는 Visual Basic 프로젝트에서만 지원됩니다.  
   
 ```xml  
 <Url>  

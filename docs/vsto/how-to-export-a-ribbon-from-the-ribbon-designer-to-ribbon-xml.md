@@ -18,18 +18,18 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b36c149022849dd6a788bcb5ee8f58cc12ae4417
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 17d6efe4aa18682c6777128113f6fa60347f8950
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60111001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419508"
 ---
 # <a name="how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml"></a>방법: 리본 디자이너에서 리본 XML로 리본 메뉴 내보내기
   합니다 **리본 (비주얼 디자이너)** 항목은 가능한 모든 유형의 리본 사용자 지정을 지원 하지 않습니다. 고급 방법으로 리본을 사용자 지정을 리본 XML로 리본 디자이너에서 내보내기 수 있으며 XML을 직접 편집할 수 있습니다.
 
 > [!NOTE]
->  일부 속성 값 리본 XML 파일에 나타납니다. 자세한 내용은 [리본 개요](../vsto/ribbon-overview.md)합니다.
+> 일부 속성 값 리본 XML 파일에 나타납니다. 자세한 내용은 [리본 개요](../vsto/ribbon-overview.md)합니다.
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 

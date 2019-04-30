@@ -12,12 +12,12 @@ ms.assetid: 95fa5214-b12e-4e1f-84e5-cc4c2d86b0d7
 caps.latest.revision: 34
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 600cae730cacad4f54433b8179b97eb131a64fab
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7dde910c5622a67ad002a085ace746ebc68e8857
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439224"
 ---
 # <a name="walkthrough-using-a-configuration-file-to-define-a-data-source"></a>연습: 구성 파일을 사용하여 데이터 원본 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,7 +73,7 @@ ms.locfileid: "60076109"
 ```  
   
 > [!NOTE]
->  어셈블리 이름은 사용 중인 Microsoft Visual Studio .NET Framework 빌드와 일치해야 합니다. Visual Studio .NET Framework 3.5를 사용 중인 경우 버전을 9.0.0.0으로 설정합니다. Visual Studio .NET Framework 2.0을 사용 중인 경우 버전을 8.0.0.0으로 설정합니다.  
+> 어셈블리 이름은 사용 중인 Microsoft Visual Studio .NET Framework 빌드와 일치해야 합니다. Visual Studio .NET Framework 3.5를 사용 중인 경우 버전을 9.0.0.0으로 설정합니다. Visual Studio .NET Framework 2.0을 사용 중인 경우 버전을 8.0.0.0으로 설정합니다.  
   
 ## <a name="define-connection-strings"></a>연결 문자열 정의  
  연결 문자열은 데이터 원본 액세스를 위한 공급자 특정 정보를 정의합니다. 구성 파일에 정의된 연결 문자열은 애플리케이션 전체에서 재사용 가능한 데이터 공급자 정보를 제공합니다. 이 섹션에서는 사용자 지정 구성 섹션에 정의된 데이터 원본에서 사용되는 두 개의 연결 문자열을 만듭니다.  
@@ -266,7 +266,7 @@ ms.locfileid: "60076109"
 4. 솔루션을 빌드하고 MyTestMethod 및 MyTestMethod2 테스트를 실행합니다.  
   
 > [!IMPORTANT]
->  테스트에서 배포 디렉터리를 통해 액세스할 수 있도록 데이터 원본과 같은 항목을 배포합니다.  
+> 테스트에서 배포 디렉터리를 통해 액세스할 수 있도록 데이터 원본과 같은 항목을 배포합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 단위 테스트](../test/unit-test-your-code.md)   

@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3af25c298970d9fe7f4a1442dedaf3af9f0172d1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cb3003ebf8fe102caac1dabfb4c87de521a57c77
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63405901"
 ---
 # <a name="walkthrough-download-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer"></a>연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 위성 어셈블리 다운로드
 위성 어셈블리를 사용하면 Windows Forms 애플리케이션을 여러 문화권에 맞게 구성할 수 있습니다. *위성 어셈블리* 는 응용 프로그램의 기본 문화권 이외의 문화권을 위한 응용 프로그램 리소스가 포함된 어셈블리입니다.
@@ -35,7 +35,7 @@ ms.locfileid: "60095440"
  이 연습에서는 위성 어셈블리를 선택적 항목으로 표시하고 클라이언트 컴퓨터의 현재 문화권 설정에 필요한 어셈블리만 다운로드하는 방법을 설명합니다.
 
 > [!NOTE]
->  테스트를 위해 다음 코드 예제에서는 프로그래밍 방식으로 문화권을 `ja-JP`로 설정합니다. 이 코드를 프로덕션 환경에 맞게 조정하는 방법에 대한 자세한 내용은 이 항목의 뒷부분에 나오는 "다음 단계" 섹션을 참조하세요.
+> 테스트를 위해 다음 코드 예제에서는 프로그래밍 방식으로 문화권을 `ja-JP`로 설정합니다. 이 코드를 프로덕션 환경에 맞게 조정하는 방법에 대한 자세한 내용은 이 항목의 뒷부분에 나오는 "다음 단계" 섹션을 참조하세요.
 
 ### <a name="to-mark-satellite-assemblies-as-optional"></a>위성 어셈블리를 선택 항목으로 표시하려면
 

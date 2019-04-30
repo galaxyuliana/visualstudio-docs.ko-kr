@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7e5bf51fd416fd9ccbb2343c17412984858429da
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 88114080b8de02b3aaba52b0a48fd09d58ec5818
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60115291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406650"
 ---
 # <a name="how-to-change-the-publish-language-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 게시 언어 변경
 
@@ -30,7 +30,7 @@ ms.locfileid: "60115291"
 `Publish language` 에서 속성을 설정할 수 있습니다 합니다 **게시 옵션** 에서 액세스할 수 있는 대화 상자를 **게시** 페이지를 **프로젝트 디자이너**합니다.
 
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [재설정 설정](../ide/environment-settings.md#reset-settings)을 참조하세요.
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [재설정 설정](../ide/environment-settings.md#reset-settings)을 참조하세요.
 
 ## <a name="to-change-the-publish-language"></a>게시 언어를 변경 하려면
 

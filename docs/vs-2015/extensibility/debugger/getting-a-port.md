@@ -11,12 +11,12 @@ ms.assetid: 745c2337-cfff-4d02-b49c-3ca7c4945c5e
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 9e39dcbcdb3fe8396c3d4d42003a7aa40b5f527a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: f980c9d14bc2d0c9728f87374828cf690737429c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436405"
 ---
 # <a name="getting-a-port"></a>포트 가져오기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "58985523"
  이 코드 조각은 제공 된 포트를 사용 하는 방법을 보여 줍니다 [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) 에서 프로그램 노드를 등록 하려면 [ResumeProcess](../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md)합니다. 매개 변수 직접적인 관련이 없는이 개념 명확성을 위해 생략 되었습니다.  
   
 > [!NOTE]
->  이 예제에서는 포트를 사용 하 여 시작 하 고 프로세스를 다시 시작 하 고 있다고 가정 합니다 [IDebugPortEx2](../../extensibility/debugger/reference/idebugportex2.md) 인터페이스 포트에서 구현 됩니다. 이 이러한 작업을 수행 하는 유일한 방법은 아닙니다 및는 포트 하지도 참여할 이외의 프로그램 할 가능성이 [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) 권한을 부여 합니다.  
+> 이 예제에서는 포트를 사용 하 여 시작 하 고 프로세스를 다시 시작 하 고 있다고 가정 합니다 [IDebugPortEx2](../../extensibility/debugger/reference/idebugportex2.md) 인터페이스 포트에서 구현 됩니다. 이 이러한 작업을 수행 하는 유일한 방법은 아닙니다 및는 포트 하지도 참여할 이외의 프로그램 할 가능성이 [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) 권한을 부여 합니다.  
   
 ```cpp#  
 // This is an IDebugEngineLaunch2 method.  

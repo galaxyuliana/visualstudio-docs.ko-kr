@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ba5603fe759f55a85425bc61da0a470aa38d636c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c57b3de77c2b32d7589fe50d55b3e81db08facd1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422484"
 ---
 # <a name="how-to-resize-namedrange-controls"></a>방법: NamedRange 컨트롤 크기 조정
   Microsoft Office Excel 문서에 추가할 때 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤의 크기를 설정할 수 있지만 나중에 크기를 조정할 수도 있습니다.
@@ -59,7 +59,7 @@ ms.locfileid: "60099613"
  <xref:Microsoft.Office.Tools.Excel.NamedRange.RefersTo%2A> 속성을 사용하여 프로그래밍 방식으로 명명된 범위의 크기를 조정할 수 있습니다.
 
 > [!NOTE]
->  **속성** 창에서 <xref:Microsoft.Office.Tools.Excel.NamedRange.RefersTo%2A> 속성은 읽기 전용으로 표시됩니다.
+> **속성** 창에서 <xref:Microsoft.Office.Tools.Excel.NamedRange.RefersTo%2A> 속성은 읽기 전용으로 표시됩니다.
 
 ### <a name="to-resize-a-named-range-programmatically"></a>프로그래밍 방식으로 명명된 범위의 크기를 조정하려면
 

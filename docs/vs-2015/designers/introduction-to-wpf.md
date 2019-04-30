@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8d20b8938f4d841bb42299b7aa9abaf633f72e7d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1f02018ed9ddb6f91f965d28767cde55e4c3e524
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60074611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437303"
 ---
 # <a name="introduction-to-wpf"></a>WPF 소개
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -208,7 +208,7 @@ End Namespace
   <xref:System.Windows.Controls.DockPanel> 을 사용하면 자식 <xref:System.Windows.Controls.TextBox> 컨트롤이 정렬 방법을 알려줄 수 있습니다. 이 작업을 수행하기 위해 <xref:System.Windows.Controls.DockPanel> 은 각각 도킹 스타일을 지정할 수 있도록 자식 컨트롤에 노출되는 <xref:System.Windows.Controls.DockPanel.Dock%2A> 속성을 구현합니다.  
   
 > [!NOTE]
->  자식 컨트롤에서 사용할 수 있도록 부모 컨트롤이 구현하는 속성은 [연결된 속성](https://msdn.microsoft.com/library/ms749011\(v=vs.100\).aspx)이라는 WPF 구문입니다.  
+> 자식 컨트롤에서 사용할 수 있도록 부모 컨트롤이 구현하는 속성은 [연결된 속성](https://msdn.microsoft.com/library/ms749011\(v=vs.100\).aspx)이라는 WPF 구문입니다.  
   
  다음 그림에서는 이전 예제의 XAML 태그 결과를 보여 줍니다.  
   

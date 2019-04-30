@@ -12,12 +12,12 @@ ms.assetid: 83e56d39-c97b-4c6b-86d6-3ffbec97e8d1
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 46f6b64fecfbbe3a57dad130ad0a65475fad56af
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2439a07f63b8da854ca8dc331d26e30f49503257
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435935"
 ---
 # <a name="how-to-open-project-specific-editors"></a>방법: 프로젝트별 편집기 열기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "60105398"
 1. 호출을 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.FindAndLockDocument%2A> 방법 (RDT_EditLock) 파일 (문서 데이터 개체)은 이미 열려 있는지 여부를 결정 합니다.  
   
     > [!NOTE]
-    >  문서 데이터 및 문서 보기 개체에 대 한 자세한 내용은 참조 하세요. [문서 데이터 및 사용자 지정 편집기의 문서 뷰](../extensibility/document-data-and-document-view-in-custom-editors.md)합니다.  
+    > 문서 데이터 및 문서 보기 개체에 대 한 자세한 내용은 참조 하세요. [문서 데이터 및 사용자 지정 편집기의 문서 뷰](../extensibility/document-data-and-document-view-in-custom-editors.md)합니다.  
   
 2. 파일이 이미 열려 있으면 파일을 호출 하 여 resurface 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A> 메서드와 IDO_ActivateIfOpen에 대 한 값을 지정 합니다 `grfIDO` 매개 변수입니다.  
   
@@ -56,4 +56,4 @@ ms.locfileid: "60105398"
 ## <a name="see-also"></a>참고 항목  
  [열기 및 프로젝트 항목 저장](../extensibility/internals/opening-and-saving-project-items.md)   
  [방법: 표준 편집기 열기](../extensibility/how-to-open-standard-editors.md)   
- [방법: 열린 문서에 대 한 편집기 열기](../extensibility/how-to-open-editors-for-open-documents.md)
+ [방법: 열린 문서의 편집기 열기](../extensibility/how-to-open-editors-for-open-documents.md)

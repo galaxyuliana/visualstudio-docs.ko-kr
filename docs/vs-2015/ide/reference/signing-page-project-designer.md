@@ -20,12 +20,12 @@ caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 01bfaf5ee9143a3122f779ab8292210b90da771f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: dd4043b34cc809af92fc5bbd1c44e322261096e9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437999"
 ---
 # <a name="signing-page-project-designer"></a>프로젝트 디자이너, 서명 페이지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -86,7 +86,7 @@ ms.locfileid: "59650398"
  지연 서명된 프로젝트가 실행되지 않고 디버그될 수 없습니다. 그러나 [Sn.exe(강력한 이름 도구)](http://msdn.microsoft.com/library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6)를 `-Vr` 옵션과 함께 사용하여 개발 중에 확인을 건너뛸 수 있습니다.  
   
 > [!NOTE]
->  어셈블리에 서명할 때 항상 개인 키에 액세스할 수 있는 것은 아닙니다. 예를 들어 조직에 개발자가 일상적으로 액세스할 수 없는 엄격하게 보호된 키 쌍이 있을 수 있습니다. 공개 키를 사용할 수 있지만 개인 키에 대한 액세스는 몇몇 개인으로 제한됩니다. 이 경우 *지연* 또는 *일부 서명*을 통해 공개 키를 제공하여 어셈블리가 전달될 때까지 개인 키 추가를 연기할 수 있습니다.  
+> 어셈블리에 서명할 때 항상 개인 키에 액세스할 수 있는 것은 아닙니다. 예를 들어 조직에 개발자가 일상적으로 액세스할 수 없는 엄격하게 보호된 키 쌍이 있을 수 있습니다. 공개 키를 사용할 수 있지만 개인 키에 대한 액세스는 몇몇 개인으로 제한됩니다. 이 경우 *지연* 또는 *일부 서명*을 통해 공개 키를 제공하여 어셈블리가 전달될 때까지 개인 키 추가를 연기할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 속성 참조](../../ide/reference/project-properties-reference.md)   

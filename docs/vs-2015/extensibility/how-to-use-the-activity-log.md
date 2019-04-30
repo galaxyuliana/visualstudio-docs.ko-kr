@@ -11,12 +11,12 @@ ms.assetid: bb3d3322-0e5e-4dd5-b93a-24d5fbcd2ffd
 caps.latest.revision: 30
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 812862c3eaf99b7459bb422e174f8fe155ea384a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d450e02d23159f186fd85bf1b687a2fb2c18e82a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432571"
 ---
 # <a name="how-to-use-the-activity-log"></a>방법: 활동 로그 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "60042589"
 Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기능은 소매 환경에서 Vspackage를 디버깅 하는 데 특히 유용 합니다.  
   
 > [!TIP]
->  활동 로그는 항상 켜져 있습니다. Visual Studio에는 롤링 버퍼 하나 백 마지막 항목 뿐만 아니라 일반적인 구성 정보만 있는 처음 10 개의 항목을 유지 합니다.  
+> 활동 로그는 항상 켜져 있습니다. Visual Studio에는 롤링 버퍼 하나 백 마지막 항목 뿐만 아니라 일반적인 구성 정보만 있는 처음 10 개의 항목을 유지 합니다.  
   
 ### <a name="to-write-an-entry-to-the-activity-log"></a>활동 로그에 항목을 기록 하려면  
   

@@ -26,18 +26,18 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 17ca737e0796230b9af207bf2f203700676ac630
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e103b07b82d587ac00e2ff53e9ed7ea344267a85
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440334"
 ---
 # <a name="build-office-solutions"></a>Office 솔루션 빌드
   일반적으로 Office 프로젝트를 빌드하고 디버깅하는 것은 Windows Forms와 같이 Visual Studio에서 다른 형식의 프로젝트를 빌드하고 디버깅하는 것과 같습니다. 이 섹션의 항목에서는 차이점에 대해 설명합니다. 응용 프로그램을 빌드하는 방법에 대 한 일반 정보를 참조 하세요. [Visual Studio에서 컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md)합니다.
 
 > [!NOTE]
->  Office 환경을 확장 하는 솔루션을 개발 하는 데 관심이 [여러 플랫폼](https://dev.office.com/add-in-availability)? 새 확인해 [Office 추가 기능 모델](https://dev.office.com/docs/add-ins/overview/office-add-ins)합니다. Office 추가 기능의 VSTO 추가 기능 및 솔루션에 비해 작은 사용 공간이 있고 거의 모든 웹 프로그래밍 기술을, HTML5, JavaScript, CSS3, XML 등을 사용 하 여 빌드할 수 있습니다.
+> Office 환경을 확장 하는 솔루션을 개발 하는 데 관심이 [여러 플랫폼](https://dev.office.com/add-in-availability)? 새 확인해 [Office 추가 기능 모델](https://dev.office.com/docs/add-ins/overview/office-add-ins)합니다. Office 추가 기능의 VSTO 추가 기능 및 솔루션에 비해 작은 사용 공간이 있고 거의 모든 웹 프로그래밍 기술을, HTML5, JavaScript, CSS3, XML 등을 사용 하 여 빌드할 수 있습니다.
 
 ## <a name="project-output-for-office-projects"></a>Office 프로젝트용 프로젝트 출력
  Office 프로젝트의 출력 위치는 *projectname*\bin\release 또는 *projectname*\bin\debug입니다. 배포 디렉터리에 빌드할 수 없습니다.
@@ -56,7 +56,7 @@ ms.locfileid: "60078930"
 - 프로그램 데이터베이스 (*PDB*) 파일입니다.
 
 > [!NOTE]
->  로컬 컴퓨터 대신 원격 위치에 문서 수준의 솔루션을 빌드하는 경우 애플리케이션의 보안 센터에서 신뢰할 수 있는 위치 목록에 정규화된 경로를 추가합니다. 자세한 내용은의 문서에 신뢰 부여 라는 섹션을 참조 하세요 [Secure Office 솔루션](../vsto/securing-office-solutions.md)합니다.
+> 로컬 컴퓨터 대신 원격 위치에 문서 수준의 솔루션을 빌드하는 경우 애플리케이션의 보안 센터에서 신뢰할 수 있는 위치 목록에 정규화된 경로를 추가합니다. 자세한 내용은의 문서에 신뢰 부여 라는 섹션을 참조 하세요 [Secure Office 솔루션](../vsto/securing-office-solutions.md)합니다.
 
 ### <a name="application-level-projects"></a>응용 프로그램 수준 프로젝트
  VSTO 추가 기능 프로젝트를 빌드하면 프로젝트 출력에 다음 항목이 포함 됩니다.

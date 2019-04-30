@@ -12,12 +12,12 @@ caps.latest.revision: 42
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 046ae576880c6749c6bb033f66124c0085dfab16
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5bb3632e1ed7bf07e236322700ba8553b53a75cb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60057162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426609"
 ---
 # <a name="in-source-suppression-overview"></a>ISS 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60057162"
  소스에서 메타 데이터를 실수로 전달 하지 않으려면-소스 비 표시 오류 릴리스 빌드에 하지 사용 해야 합니다. 소스에서의 처리 비용으로 인해도 소스에서 메타 데이터를 포함 하 여 대 응용 프로그램의 성능이 저하 될 수 있습니다.  
   
 > [!NOTE]
->  전달 하는 데 코드가 없는 이러한 특성 직접. 자세한 내용은 [방법: 메뉴 항목을 사용 하 여 경고 표시 안 함](../code-quality/how-to-suppress-warnings-by-using-the-menu-item.md)합니다. 메뉴 항목을 사용할 수 없는 C++ 코드입니다.  
+> 전달 하는 데 코드가 없는 이러한 특성 직접. 자세한 내용은 [방법: 메뉴 항목을 사용 하 여 경고 표시 안 함](../code-quality/how-to-suppress-warnings-by-using-the-menu-item.md)합니다. 메뉴 항목을 사용할 수 없는 C++ 코드입니다.  
   
 ## <a name="suppressmessage-attribute"></a>SuppressMessage 특성  
  코드 분석 경고를 마우스 오른쪽 단추로 클릭할 때 합니다 **오류 목록** 을 클릭 한 다음 **메시지 표시 안 함**, **SuppressMessage** 에 또는 코드에서 특성이 추가 됩니다는 프로젝트의 전역 비 표시 오류 파일입니다.  
@@ -109,7 +109,7 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
  `[module: SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Scope = "namespace", Target = "MyNamespace")]`  
   
 > [!NOTE]
->  네임 스페이스 범위를 사용 하 여 경고를 표시 하지 않으려면 자체 네임 스페이스에 대 한 경고를 표시 하지 않습니다. 네임 스페이스 내의 형식에 대 한 경고를 표시 하지 않습니다.  
+> 네임 스페이스 범위를 사용 하 여 경고를 표시 하지 않으려면 자체 네임 스페이스에 대 한 경고를 표시 하지 않습니다. 네임 스페이스 내의 형식에 대 한 경고를 표시 하지 않습니다.  
   
  명시적 범위를 지정 하 여 모든 비 표시 오류를 나타낼 수 있습니다. 이러한 비 표시이 오류 전역 수준에 있어야 합니다. 멤버 수준 비 표시 오류 형식을 데코 레이트 하 여 지정할 수 없습니다.  
   
@@ -118,7 +118,7 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
  `[module: SuppressMessage("Microsoft.Design", "CA1055:AbstractTypesDoNotHavePublicConstructors", Scope="member", Target="Microsoft.Tools.FxCop.Type..ctor()")]`  
   
 > [!NOTE]
->  대상에는 항상 정규화 항목 이름을 포함합니다.  
+> 대상에는 항상 정규화 항목 이름을 포함합니다.  
   
 ## <a name="global-suppression-file"></a>전역 비 표시 오류 파일  
  전역 비 표시 오류 파일에 비 표시 오류는 전역 수준 비 표시 오류 또는 대상을 지정 하지 않는 비 표시 오류는 유지 관리 합니다. 예를 들어, 어셈블리 수준 위반에 대해가이 파일에 저장 됩니다. 또한 일부 ASP.NET 비 표시 오류는 프로젝트 수준 설정 양식 뒤에 있는 코드에 사용할 수 없기 때문에이 파일에 저장 됩니다. 전역 비 표시 만들어지고 선택 하는 처음으로 프로젝트에 추가 합니다 **프로젝트 비 표시 오류 파일의** 옵션을는 **메시지 표시 안 함** 오류 목록 창에서 명령을 합니다. 자세한 내용은 [방법: 메뉴 항목을 사용 하 여 경고 표시 안 함](../code-quality/how-to-suppress-warnings-by-using-the-menu-item.md)합니다.  

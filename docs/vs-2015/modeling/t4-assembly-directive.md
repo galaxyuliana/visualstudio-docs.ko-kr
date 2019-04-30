@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9fa00e8b5aafa131a9ca64b6fdaa7cba79fcb3b2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 164f049b5ed1133acfd1f4e66f805b1510d29d5d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60074218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411499"
 ---
 # <a name="t4-assembly-directive"></a>T4 Assembly 지시문
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "60074218"
  텍스트 템플릿 작성의 일반적인 개요를 참조 하세요 [T4 텍스트 템플릿 쓰기](../modeling/writing-a-t4-text-template.md)합니다.  
   
 > [!NOTE]
->  전처리된 런타임 텍스트 템플릿에는 `assembly` 지시문이 필요하지 않습니다. 대신, 필요한 어셈블리를 추가 합니다 **참조** 의 프로그램 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트입니다.  
+> 전처리된 런타임 텍스트 템플릿에는 `assembly` 지시문이 필요하지 않습니다. 대신, 필요한 어셈블리를 추가 합니다 **참조** 의 프로그램 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트입니다.  
   
 ## <a name="using-the-assembly-directive"></a>assembly 지시문 사용  
  지시문의 구문은 다음과 같습니다.  

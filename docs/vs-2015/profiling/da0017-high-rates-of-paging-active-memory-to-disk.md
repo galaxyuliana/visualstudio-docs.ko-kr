@@ -1,5 +1,5 @@
 ---
-title: 'DA0017: 디스크에 대한 높은 활성 메모리 페이징 비율 | Microsoft 문서'
+title: 'DA0017: 활성 메모리를 디스크에 페이징하는 비율이 높습니다. | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -13,14 +13,14 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 136a8489ed3eac621543cb40b004052c2c9d3324
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 00df8bf8757b9dba35537942716c37f66675bf32
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54803490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435860"
 ---
-# <a name="da0017-high-rates-of-paging-active-memory-to-disk"></a>DA0017: 디스크에 대한 높은 활성 메모리 페이징 비율
+# <a name="da0017-high-rates-of-paging-active-memory-to-disk"></a>DA0017: 활성 메모리를 디스크에 페이징하는 비율이 높습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 규칙 Id | DA0017 |  
@@ -37,7 +37,7 @@ ms.locfileid: "54803490"
 ## <a name="rule-description"></a>규칙 설명  
   
 > [!NOTE]
->  활성 메모리의 페이징 수준이 상당한 양에 도달하면 이 규칙이 실행됩니다. 페이징이 극도로 많이 발생하면 경고 규칙 [DA0014: 활성 메모리를 디스크에 페이징하는 비율이 극도로 높습니다.](../profiling/da0014-extremely-high-rates-of-paging-active-memory-to-disk.md)가 대신 실행됩니다.  
+> 활성 메모리의 페이징 수준이 상당한 양에 도달하면 이 규칙이 실행됩니다. 페이징하는 수준이 매우 높으면 경고 규칙 [DA0014: 활성 메모리를 디스크에 페이징하는 비율이 매우 높습니다.](../profiling/da0014-extremely-high-rates-of-paging-active-memory-to-disk.md)가 발생합니다.  
   
  디스크에 대한 지나친 페이징의 원인은 실제 메모리가 부족하기 때문일 수 있습니다. 페이징 파일이 있는 실제 디스크가 페이징 작업에 주로 사용된다면 같은 디스크에 대한 다른 애플리케이션 기반 디스크 작업이 느려질 수 있습니다.  
   

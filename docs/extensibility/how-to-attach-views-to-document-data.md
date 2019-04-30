@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fa4679b4e9cf9356921be47afb726c45216974ab
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: b53748546633f8944ef0bd47ebc01326b322165e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56701396"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417121"
 ---
 # <a name="how-to-attach-views-to-document-data"></a>방법: 문서 데이터에 보기 연결
 새 문서 보기에 있는 경우에 기존 문서 데이터 개체에 연결할 수 있습니다.
@@ -37,7 +37,7 @@ ms.locfileid: "56701396"
 4. 이 문서를 닫으면 Visual Studio를 한 번에 대 한 편집기 팩터리의 호출 합니다. 이 호출에는 `DocDataExisting` 매개 변수는 null입니다. 편집기 팩터리 구현을 사용자 고유의 편집기에서 문서 데이터 개체를 열 수 있습니다.
 
    > [!NOTE]
-   >  기존 문서 데이터 개체를 작업할 수 있는지 여부를 결정할 사용할 수도 있습니다 인터페이스 구현에 대 한 개인 지식이 실제에 대 한 포인터를 캐스팅 하 여 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 개인 구현의 클래스입니다. 예를 들어 모든 표준 편집기 구현할 `IVsPersistFileFormat`에서 상속 하는 <xref:Microsoft.VisualStudio.OLE.Interop.IPersist>합니다. 따라서 호출할 수 있습니다 `QueryInterface` 에 대 한 <xref:Microsoft.VisualStudio.OLE.Interop.IPersist.GetClassID%2A>, 기존 문서 데이터 개체의 클래스 ID와 일치에 구현 클래스 ID를 문서 데이터 개체를 사용 하 여 작업할 수 있습니다.
+   > 기존 문서 데이터 개체를 작업할 수 있는지 여부를 결정할 사용할 수도 있습니다 인터페이스 구현에 대 한 개인 지식이 실제에 대 한 포인터를 캐스팅 하 여 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 개인 구현의 클래스입니다. 예를 들어 모든 표준 편집기 구현할 `IVsPersistFileFormat`에서 상속 하는 <xref:Microsoft.VisualStudio.OLE.Interop.IPersist>합니다. 따라서 호출할 수 있습니다 `QueryInterface` 에 대 한 <xref:Microsoft.VisualStudio.OLE.Interop.IPersist.GetClassID%2A>, 기존 문서 데이터 개체의 클래스 ID와 일치에 구현 클래스 ID를 문서 데이터 개체를 사용 하 여 작업할 수 있습니다.
 
 ## <a name="robust-programming"></a>강력한 프로그래밍
  Visual Studio의 사용자 구현을 호출 하는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> 메서드를 전달 다시에 대 한 포인터를 기존 문서 데이터 개체에는 `punkDocDataExisting` 있으면 매개 변수입니다. 반환 하는 문서 데이터 개체를 검사 `punkDocDataExisting` 문서 데이터 개체를이 항목의 절차의 4 단계에서 참고에 설명 된 대로 편집기에 대 한 적절 한 경우를 확인 합니다. 적절 한 경우에 설명 된 대로 편집기 팩터리의 데이터에 대 한 두 번째 보기를 제공 해야 [여러 문서 보기 지원](../extensibility/supporting-multiple-document-views.md)합니다. 그렇지 않은 경우 다음 적절 한 오류 메시지가 표시 됩니다.

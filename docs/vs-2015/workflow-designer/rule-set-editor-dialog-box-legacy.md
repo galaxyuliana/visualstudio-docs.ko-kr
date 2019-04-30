@@ -13,12 +13,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e259328b2c9b7e2abcd5decead3560cb184fa930
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: d3827ef20ae5eb67c1052b6c7f6147d736013490
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438896"
 ---
 # <a name="rule-set-editor-dialog-box-legacy"></a>규칙 집합 편집기 대화 상자(레거시)
 에 대해 설명 하는 방법을 사용 하 여는 **규칙 집합 편집기** 레거시 대화 상자 [!INCLUDE[wfd1](../includes/wfd1-md.md)]합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
@@ -26,12 +26,12 @@ ms.locfileid: "58985634"
  합니다 **규칙 집합 편집기** 대화 상자는 만들기 및 수정 하는 데 사용 됩니다 [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019) 규칙 집합을.rules 파일로 serialize 됩니다.  
   
 > [!NOTE]
->  사용 하 여.rules 파일을 열려고 할 경우는 **인코딩을 사용 하 여 XML 편집기**를 워크플로 또는 활동에 대 한 연결된 된 디자이너 창을 닫아야 합니다.  
+> 사용 하 여.rules 파일을 열려고 할 경우는 **인코딩을 사용 하 여 XML 편집기**를 워크플로 또는 활동에 대 한 연결된 된 디자이너 창을 닫아야 합니다.  
   
  액세스 하는 방법에 대 한 자세한 합니다 **규칙 집합 편집기** 대화 상자, 참조 [방법: PolicyActivity 규칙 집합 만들기 (레거시)](../workflow-designer/how-to-create-a-policyactivity-rule-set-legacy.md)합니다.  
   
 > [!WARNING]
->  [!INCLUDE[wfd2](../includes/wfd2-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 데 사용되는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]의 규칙 편집기는 멀티 타게팅을 지원하지 않습니다.  
+> [!INCLUDE[wfd2](../includes/wfd2-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 데 사용되는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]의 규칙 편집기는 멀티 타게팅을 지원하지 않습니다.  
   
  다음 표에 사용자 인터페이스 (UI) 요소에는 **규칙 집합 편집기** 대화 상자.  
   

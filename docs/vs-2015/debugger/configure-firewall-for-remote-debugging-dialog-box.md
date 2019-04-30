@@ -21,12 +21,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 04d1a6fa6c2cd6339fc8ff4d6c82a1acc61790ad
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 91b0d7ee490b4e081a264c41b4fe85de07cb637b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437816"
 ---
 # <a name="configure-firewall-for-remote-debugging-dialog-box"></a>원격 디버깅을 위한 방화벽 구성 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "58982707"
 이 대화 상자는 Windows 방화벽에서 디버거가 네트워크를 통해 정보를 받는 것을 차단할 때 나타납니다. 원격 디버깅을 계속하려면 디버거가 정보를 받을 수 있도록 방화벽에서 한 지점을 열어야 합니다.  
   
 > [!CAUTION]
->  방화벽에서 한 지점을 열면 방화벽을 통해 차단해야 하는 보안 위협에 컴퓨터가 노출될 수 있습니다. 원격 디버깅을 위해 빈 영역을 열면 Visual Studio 2015에서 4020 및 4021 포트가 차단 해제됩니다. 다른 버전의 Visual Studio에서는 다른 포트 번호가 사용됩니다. 자세한 내용은 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)합니다. 또한 디버거가 포트를 추가로 열 수 있습니다. 자세한 내용은 [원격 디버깅용 Windows 방화벽 구성](../debugger/configure-the-windows-firewall-for-remote-debugging.md)합니다.  
+> 방화벽에서 한 지점을 열면 방화벽을 통해 차단해야 하는 보안 위협에 컴퓨터가 노출될 수 있습니다. 원격 디버깅을 위해 빈 영역을 열면 Visual Studio 2015에서 4020 및 4021 포트가 차단 해제됩니다. 다른 버전의 Visual Studio에서는 다른 포트 번호가 사용됩니다. 자세한 내용은 [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)합니다. 또한 디버거가 포트를 추가로 열 수 있습니다. 자세한 내용은 [원격 디버깅용 Windows 방화벽 구성](../debugger/configure-the-windows-firewall-for-remote-debugging.md)합니다.  
   
 ## <a name="uielement-list"></a>UI 요소 목록  
  **원격 디버깅 취소**  

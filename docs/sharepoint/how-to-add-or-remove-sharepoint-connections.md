@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 70594f8c881289bd394f33353f237bdab71c91f1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3c094ad703727903e7109d6a748b8383e4cad7d6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435481"
 ---
 # <a name="how-to-add-or-remove-sharepoint-connections"></a>방법: SharePoint 연결 추가 또는 제거
   서버 탐색기를 사용 하면 데이터 연결 뿐만 아니라 SharePoint 사이트를 찾아볼 수 있습니다. 그러나 SharePoint 사이트의 콘텐츠를 찾아보려면 먼저 추가 해야 하는 **SharePoint 연결** 노드.
@@ -41,7 +41,7 @@ ms.locfileid: "60077370"
 3. 사이트를 선택한 다음, 메뉴 모음의 **편집할** > **삭제**합니다.
 
     > [!NOTE]
-    >  이 단계는 기본 사이트를 삭제 하지 않습니다. 연결에만 삭제 **서버 탐색기**합니다.
+    > 이 단계는 기본 사이트를 삭제 하지 않습니다. 연결에만 삭제 **서버 탐색기**합니다.
 
 ## <a name="see-also"></a>참고자료
 - [서버 탐색기를 사용 하 여 SharePoint 연결 찾아보기](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)

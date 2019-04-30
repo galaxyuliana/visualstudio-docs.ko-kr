@@ -12,12 +12,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7692e418c3e01b89a8dcf775350c062600351ac3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5bcb562d89ee68320c48cc778be3294a2af5c719
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60093048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63426943"
 ---
 # <a name="how-to-add-a-command-to-the-shortcut-menu"></a>방법: 바로 가기 메뉴에 명령 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "60093048"
    샘플에 대 한 참조를 [Visualization and Modeling SDK 웹 사이트](http://go.microsoft.com/fwlink/?LinkID=185579)합니다.  
   
 > [!NOTE]
->  CommandSet.cs의 메서드를 재정의하여 잘라내기, 붙여넣기, 모두 선택, 인쇄 등의 몇 가지 기존 명령 동작도 수정할 수 있습니다. 자세한 내용은 [방법: 표준 메뉴 명령 수정](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)합니다.  
+> CommandSet.cs의 메서드를 재정의하여 잘라내기, 붙여넣기, 모두 선택, 인쇄 등의 몇 가지 기존 명령 동작도 수정할 수 있습니다. 자세한 내용은 [방법: 표준 메뉴 명령 수정](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)합니다.  
   
 ## <a name="defining-a-command-using-mef"></a>MEF를 사용하여 명령 정의  
  MEF(Managed Extension Framework)는 다이어그램 메뉴의 메뉴 명령을 정의하는 다른 방법을 제공합니다. MEF는 주로 명령의 개발자 또는 다른 사용자가 DSL을 확장하는 데 사용됩니다. 사용자는 DSL만 설치할 수도 있고 DSL과 확장을 모두 설치할 수도 있습니다. 이와 동시에 MEF를 사용하면 DSL에서 MEF를 사용하도록 설정하는 초기 작업을 수행한 후 바로 가기 메뉴 명령을 정의하는 작업도 줄어듭니다.  
@@ -90,7 +90,7 @@ ms.locfileid: "60093048"
     ```  
   
     > [!NOTE]
-    >  각 단추나 그룹은 GUID 및 정수 ID로 식별됩니다. 같은 GUID로 여러 그룹과 단추를 만들 수 있지만 이러한 항목의 ID는 각각 달라야 합니다. GUID 이름과 ID는 변환할 실제 Guid와 숫자 Id를 `<Symbols>` 노드.  
+    > 각 단추나 그룹은 GUID 및 정수 ID로 식별됩니다. 같은 GUID로 여러 그룹과 단추를 만들 수 있지만 이러한 항목의 ID는 각각 달라야 합니다. GUID 이름과 ID는 변환할 실제 Guid와 숫자 Id를 `<Symbols>` 노드.  
   
 3. 명령이 DSL 컨텍스트에서만 로드되도록 명령에 대한 표시 유형 제약 조건을 추가합니다. 자세한 내용은 [VisibilityConstraints 요소](../extensibility/visibilityconstraints-element.md)합니다.  
   
@@ -120,7 +120,7 @@ ms.locfileid: "60093048"
 5. `{000...000}`는 그룹 및 메뉴 항목을 식별하는 GUID로 바꿉니다. 새 GUID를 가져오려면 합니다 **GUID 만들기** 도구를 **도구** 메뉴.  
   
     > [!NOTE]
-    >  그룹 또는 메뉴 항목을 더 추가하는 경우 같은 GUID를 사용할 수 있습니다. 그러나 `IDSymbols`에는 새 값을 사용해야 합니다.  
+    > 그룹 또는 메뉴 항목을 더 추가하는 경우 같은 GUID를 사용할 수 있습니다. 그러나 `IDSymbols`에는 새 값을 사용해야 합니다.  
   
 6. 이 절차에서 복사한 코드에서 다음 문자열이 나오면 실제 환경에 맞는 문자열로 바꿉니다.  
   
@@ -298,7 +298,7 @@ private const int cmdidMyContextMenuCommand = 1;
  삽입 한 것과 같은 GUID 값을 사용 하 여 **Commands.vsct**합니다.  
   
 > [!NOTE]
->  VSCT 파일의 Symbols 섹션을 변경하는 경우 이러한 선언도 일치하도록 변경해야 합니다. 또한 Package.tt에서 버전 번호도 증분해야 합니다.  
+> VSCT 파일의 Symbols 섹션을 변경하는 경우 이러한 선언도 일치하도록 변경해야 합니다. 또한 Package.tt에서 버전 번호도 증분해야 합니다.  
   
  이 명령 집합의 일부분으로 메뉴 명령을 등록합니다. 다이어그램을 초기화할 때 `GetMenuCommands()`가 한 번 호출됩니다.  
   

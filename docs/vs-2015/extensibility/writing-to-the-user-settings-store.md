@@ -8,12 +8,12 @@ ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
 caps.latest.revision: 4
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 5d48535bf8e2eb0c5204be0b06701b54cc6e365b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 764d9b81297c6bbefd1f5fdf7c77e4d514bb5045
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60058176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408495"
 ---
 # <a name="writing-to-the-user-settings-store"></a>사용자 설정 저장소에 쓰기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60058176"
 3. Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\\.  
   
     > [!NOTE]
-    >  \14.0Exp\ 및 없습니다 \14.0 포함 하는 키에서 찾으려는 있는지\\합니다. Visual Studio의 실험적 인스턴스를 실행 하면 사용자 설정과 레지스트리 하이브에 "14.0Exp" 됩니다.  
+    > \14.0Exp\ 및 없습니다 \14.0 포함 하는 키에서 찾으려는 있는지\\합니다. Visual Studio의 실험적 인스턴스를 실행 하면 사용자 설정과 레지스트리 하이브에 "14.0Exp" 됩니다.  
   
 4. \External Tools\ 하위 키를 마우스 오른쪽 단추로 누른 **내보내기**합니다. 했는지 **선택한 분기** 을 선택 합니다.  
   

@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f62181909afef7f404270a085f9bbb1a5341c115
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ae44f7d4631316fc1250a79b9a8424c3731f1329
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431232"
 ---
 # <a name="how-to-add-and-remove-features-and-items-to-a-package-by-using-the-packaging-explorer"></a>방법: 추가 및 패키징 탐색기를 사용 하 여 패키지에 기능과 항목 제거
   SharePoint 항목 및 기능을 배포 하는 패키지를 구성 하려면 패키징 탐색기를 사용할 수 있습니다. .Wsp 파일 내에서 SharePoint 프로젝트 항목 및 기능을 조정할 수 있습니다.
@@ -51,7 +51,7 @@ ms.locfileid: "60104462"
     - 기능에 대 한 바로 가기 메뉴를 열고 **잘라내기**에서 이동 기능을 선택한 후 원하는 프로젝트에 대 한 바로 가기 메뉴를 열고 **붙여넣기**합니다.
 
     > [!NOTE]
-    >  솔루션에 SharePoint 프로젝트가 두 개 이상 있는 경우 이 절차를 사용합니다.
+    > 솔루션에 SharePoint 프로젝트가 두 개 이상 있는 경우 이 절차를 사용합니다.
 
 ## <a name="validate-a-feature-or-package"></a>기능 또는 패키지 유효성 검사
  파일의 유효성을 검사 하 여 SharePoint 기능 및 패키지의 잠재적 문제를 식별할 수 있습니다. 경고 및 오류 출력 창과 오류 목록 창에 표시 됩니다.

@@ -9,12 +9,12 @@ helpviewer_keywords:
 ms.assetid: 10bb4f69-b259-41f0-b91a-69b04385d9a5
 caps.latest.revision: 31
 manager: jillfra
-ms.openlocfilehash: a14fcb8e81261962e8851347a54d7c8d52565d20
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 116f76324a2150413c0ae6d08bc99e114efcc50e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436506"
 ---
 # <a name="walkthrough-displaying-smarttags"></a>연습: 스마트 태그 표시
 스마트 태그는 전구로 대체되었습니다. [연습: Displaying Light Bulb Suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)합니다.  
@@ -24,7 +24,7 @@ ms.locfileid: "60110442"
  스마트 태그는 편집기에서 IntelliSense 구현의 일부이지만 <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>를 서브클래싱한 다음 <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601> 인터페이스 및 <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider> 인터페이스를 구현하여 스마트 태그를 구현할 수 있습니다.  
   
 > [!NOTE]
->  비슷한 방식으로 다른 종류의 태그를 구현할 수 있습니다.  
+> 비슷한 방식으로 다른 종류의 태그를 구현할 수 있습니다.  
   
  다음 연습에서는 현재 단어에 표시 되는 두 가지 제안 된 작업에 스마트 태그를 만드는 방법을 보여 줍니다. **대문자로 변환할** 하 고 **소문자로 변환할**합니다.  
   

@@ -21,12 +21,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ae5d345da49ee33841a50622f3d1c59e2309890c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 03fab773ed6842bc21552d060797b331d9f73770
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437029"
 ---
 # <a name="commit-in-process-edits-on-data-bound-controls-before-saving-data"></a>데이터 바인딩된 컨트롤에서 데이터를 저장하기 전에 In-Process 편집 커밋
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "60106295"
  사용자가 저장의 일부로 변경 내용을 커밋하지 않고 데이터를 저장 하려고 하는 경우에 자동으로 변경 내용을 커밋 하도록 응용 프로그램을 구성할 수 있습니다 프로세스입니다.  
   
 > [!NOTE]
->  디자이너에 추가 된 `BindingSource.EndEdit` 첫 번째 항목에 대해서만 코드를 폼으로 삭제 합니다. 따라서 호출 하는 코드 줄을 추가 해야 합니다 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 각각에 대 한 메서드 <xref:System.Windows.Forms.BindingSource> 양식의 합니다. 호출 하는 코드 줄을 수동으로 추가할 수 있습니다 합니다 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 각각에 대 한 메서드 <xref:System.Windows.Forms.BindingSource>합니다. 추가할 수 있습니다는 `EndEditOnAllBindingSources` 메서드를 폼 및 저장을 수행 하기 전에 호출 됩니다.  
+> 디자이너에 추가 된 `BindingSource.EndEdit` 첫 번째 항목에 대해서만 코드를 폼으로 삭제 합니다. 따라서 호출 하는 코드 줄을 추가 해야 합니다 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 각각에 대 한 메서드 <xref:System.Windows.Forms.BindingSource> 양식의 합니다. 호출 하는 코드 줄을 수동으로 추가할 수 있습니다 합니다 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 각각에 대 한 메서드 <xref:System.Windows.Forms.BindingSource>합니다. 추가할 수 있습니다는 `EndEditOnAllBindingSources` 메서드를 폼 및 저장을 수행 하기 전에 호출 됩니다.  
   
  다음 코드에서는 [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d) 모든 반복 하는 쿼리 <xref:System.Windows.Forms.BindingSource> 구성 요소 및 호출 합니다 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 메서드 각각에 대 한 <xref:System.Windows.Forms.BindingSource> 양식의 합니다.  
   

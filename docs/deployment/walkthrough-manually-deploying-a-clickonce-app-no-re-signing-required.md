@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 773a9f5a990b3432484c1ff13012b173c9fac1cb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 50febcb027ec51b62bdde7ea06a7112470cdc247
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63405851"
 ---
 # <a name="walkthrough-manually-deploy-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information"></a>연습: 수동으로 다시 서명할 필요가 없습니다 없고 브랜드 정보가 유지 되는 ClickOnce 응용 프로그램 배포
 만들 때는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 및 고객 게시할 수 있도록 제공 및 배포, 고객에 일반적으로 배포 매니페스트를 업데이트 하 고 다시 서명 해야 했습니다. 여전히 대부분의 경우에는 이러한 방식이 사용 되 고 있지만,.NET Framework 3.5를 사용 하면 만들려는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 새 배포 매니페스트를 다시 생성할 필요 없이 고객에 게 배포할 수 있는 배포 합니다. 자세한 내용은 [다시 서명 하지 않고 테스트 및 프로덕션 서버용 ClickOnce 배포 응용 프로그램](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md)합니다.
@@ -35,7 +35,7 @@ ms.locfileid: "60076226"
  만들 때는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 및 고객 게시할 수 있도록 제공 및 배포, 응용 프로그램 고객의 브랜드를 사용 하거나 브랜딩이 유지할 수 있습니다. 예를 들어, 응용 프로그램을 단일 소유 응용 프로그램인 경우 브랜딩이 유지 하는 것이 좋습니다. 응용 프로그램은 항상 각 고객에 대 한 사용자 지정, 경우에 고객의 브랜드를 사용 하는 것이 좋습니다. .NET Framework 3.5 응용 프로그램 배포를 조직에 부여 하는 경우 사용자의 브랜드를 유지할 수 있습니다, 게시자 정보 및 보안 서명 수 있습니다. 자세한 내용은 [만들 ClickOnce 응용 프로그램 배포를 다른](../deployment/creating-clickonce-applications-for-others-to-deploy.md)합니다.
 
 > [!NOTE]
->  이 연습에서 만든 배포 수동으로 사용 하 여 명령줄 도구 *Mage.exe* 또는 그래픽 도구인 *MageUI.exe*합니다. 수동 배포에 대 한 자세한 내용은 참조 하세요. [연습: 수동으로 ClickOnce 응용 프로그램을 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다.
+> 이 연습에서 만든 배포 수동으로 사용 하 여 명령줄 도구 *Mage.exe* 또는 그래픽 도구인 *MageUI.exe*합니다. 수동 배포에 대 한 자세한 내용은 참조 하세요. [연습: 수동으로 ClickOnce 응용 프로그램을 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)합니다.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습의 단계를 수행 하려면 다음이 필요 합니다.
@@ -51,7 +51,7 @@ ms.locfileid: "60076226"
 2. 배포의 현재 버전의 이름을 딴 디렉터리를 만듭니다. 선택 가능성이 처음으로 응용 프로그램 배포 하는 경우 **1.0.0.0**합니다.
 
    > [!NOTE]
-   >  배포의 버전 응용 프로그램 파일의 버전과 다를 수 있습니다.
+   > 배포의 버전 응용 프로그램 파일의 버전과 다를 수 있습니다.
 
 3. 명명 된 하위 디렉터리를 만듭니다 **bin** 실행 파일, 어셈블리, 리소스 및 데이터 파일을 비롯 한 모든 응용 프로그램 파일을 복사 합니다.
 
@@ -101,7 +101,7 @@ ms.locfileid: "60076226"
 3. 배포의 현재 버전 하위 디렉터리를 만듭니다. 선택 가능성이 처음으로 응용 프로그램 배포 하는 경우 **1.0.0.0**합니다.
 
    > [!NOTE]
-   >  배포의 버전 응용 프로그램 파일의 버전과 다를 수 있습니다.
+   > 배포의 버전 응용 프로그램 파일의 버전과 다를 수 있습니다.
 
 4. 이동 합니다 \\ **bin** 2 단계에서 만든 디렉터리에 디렉터리입니다.
 

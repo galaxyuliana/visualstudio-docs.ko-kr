@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 40217c1cfcc2c7ae946e36aadb7a251436023b0a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2be56d37ddcd1047e776df2652c7e874e260a806
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417106"
 ---
 # <a name="how-to-provide-a-service"></a>방법: 서비스를 제공 합니다.
 VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 수 있습니다. 서비스를 제공 하는 VSPackage에 서비스 Visual Studio를 등록 하 고 서비스를 추가 해야 합니다.
@@ -25,7 +25,7 @@ VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 
  서비스에 대 한 자세한 내용은 참조 하세요. [essentials 서비스](../extensibility/internals/service-essentials.md) 합니다.
 
 > [!NOTE]
->  VSPackage 약 언로드되려고 할 때 Visual Studio는 VSPackage가 제공 하는 서비스에 대 한 모든 요청 배달 될 때까지 대기 합니다. 이러한 서비스에 대 한 새 요청을 허용 하지는 않습니다. 명시적으로 호출 하지 않아야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService%2A> 언로드할 때 서비스를 취소 하는 방법입니다.
+> VSPackage 약 언로드되려고 할 때 Visual Studio는 VSPackage가 제공 하는 서비스에 대 한 모든 요청 배달 될 때까지 대기 합니다. 이러한 서비스에 대 한 새 요청을 허용 하지는 않습니다. 명시적으로 호출 하지 않아야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService%2A> 언로드할 때 서비스를 취소 하는 방법입니다.
 
 ## <a name="implement-a-service"></a>서비스 구현
 
@@ -89,7 +89,7 @@ VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 
      이 특성을 등록 `SMyService` Visual Studio를 사용 하 여 합니다.
 
     > [!NOTE]
-    >  이름이 같은 다른 서비스를 대체 하는 서비스에 등록 하려면 사용 된 <xref:Microsoft.VisualStudio.Shell.ProvideServiceOverrideAttribute>합니다. 참고 서비스의 재정의 하는 하나만 허용 됩니다.
+    > 이름이 같은 다른 서비스를 대체 하는 서비스에 등록 하려면 사용 된 <xref:Microsoft.VisualStudio.Shell.ProvideServiceOverrideAttribute>합니다. 참고 서비스의 재정의 하는 하나만 허용 됩니다.
 
 ### <a name="add-a-service"></a>서비스 추가
 
@@ -117,7 +117,7 @@ VSPackage는 다른 Vspackage에서 사용할 수 있는 서비스를 제공할 
     ```
 
     > [!NOTE]
-    >  Visual Studio 서비스를 제공 하는 요청을 거부할 수 있습니다. 다른 VSPackage 이미 서비스를 제공 하는 경우 그렇게 수행 합니다.
+    > Visual Studio 서비스를 제공 하는 요청을 거부할 수 있습니다. 다른 VSPackage 이미 서비스를 제공 하는 경우 그렇게 수행 합니다.
 
 3. 이제 서비스를 가져올 수 있으며 해당 메서드를 사용할 수 있습니다. 아래 예제에서는 서비스를 사용 하 여 이니셜라이저에서 있지만 서비스를 사용 하려는 서비스 든 가져올 수 있습니다.
 

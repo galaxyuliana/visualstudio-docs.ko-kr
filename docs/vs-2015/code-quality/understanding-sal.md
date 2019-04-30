@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: mikeblome
 ms.author: mblome
 manager: jillfra
-ms.openlocfilehash: e4c9884517120647e8d0d5bff263496900c2318c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0a898096c282a22201d60995693144cc0e187812
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435392"
 ---
 # <a name="understanding-sal"></a>SAL 이해
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -246,7 +246,7 @@ void OutOptCaller()
  `_Inout_` 포인터 매개 변수는 함수에 의해 변경 될 수 있는 주석을 추가 하는 데 사용 됩니다. 포인터를 호출 하기 전에 올바른 초기화 데이터를 가리켜야 하 고 변경 될 경우에 여전히 있어야 올바른 값을 반환 합니다. 주석이 함수에서 읽기 및 요소가 하나인 버퍼에 쓰기를 자유롭게 수를 지정 합니다. 호출자는 버퍼를 제공 하 고 초기화 해야 합니다.  
   
 > [!NOTE]
->  와 같은 `_Out_`, `_Inout_` 수정 가능한 값에 적용 해야 합니다.  
+> 와 같은 `_Out_`, `_Inout_` 수정 가능한 값에 적용 해야 합니다.  
   
 ```cpp  
   

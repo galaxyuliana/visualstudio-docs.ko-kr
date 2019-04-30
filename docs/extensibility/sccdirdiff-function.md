@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dbd637fa78e9290402990bdbbc237e0f431e14d7
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 2a0638b0e644242e471ff30bc58d550675089695
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56691126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434677"
 ---
 # <a name="sccdirdiff-function"></a>SccDirDiff 함수
 이 함수는 클라이언트 디스크에서 현재 로컬 디렉터리와 해당 소스 제어 프로젝트 간의 차이점을 표시합니다.
@@ -83,7 +83,7 @@ SCCRTN SccDirDiff(
 |SCC_DIFF_QD_TIME|플러그 인에서 지 원하는, 자동으로 해당 타임 스탬프를 통해 디렉터리를 비교 하거나, 지원 되지 않는 경우 SCC_DIFF_QD_CHECKSUM 또는 SCC_DIFF_QD_CONTENTS 대체 합니다.|
 
 > [!NOTE]
->  이 함수는 동일한 명령 플래그를 사용 합니다 [SccDiff](../extensibility/sccdiff-function.md)합니다. 그러나 원본 제어 플러그 인을 디렉터리에 대 한 "빠른 diff" 작업을 지원 하지 않도록 수도 있습니다.
+> 이 함수는 동일한 명령 플래그를 사용 합니다 [SccDiff](../extensibility/sccdiff-function.md)합니다. 그러나 원본 제어 플러그 인을 디렉터리에 대 한 "빠른 diff" 작업을 지원 하지 않도록 수도 있습니다.
 
 ## <a name="see-also"></a>참고자료
 - [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)

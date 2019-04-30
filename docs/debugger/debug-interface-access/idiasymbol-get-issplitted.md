@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a3cf8eb994a33ab3bbcce6bce38bf02677197780
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: ee91134997dad5f5361de6b07af1a99dfc420f5e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56644652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63401237"
 ---
 # <a name="idiasymbolgetissplitted"></a>IDiaSymbol::get_isSplitted
 데이터 기호는 집계 또는 다른 기호; 컬렉션으로 분할 되었습니다 여부를 지정 하는 플래그를 검색 합니다. 컴파일러는 더 큰 기호의 파트는 실제로 별도 엔터티로 기호를 처리 합니다.
@@ -39,9 +39,9 @@ HRESULT get_isSplitted(
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  합니다 [idiasymbol:: Get_isaggregated](../../debugger/debug-interface-access/idiasymbol-get-isaggregated.md) 메서드가 반환 되는 `TRUE` 분할 기호가 포함 된 모든 기호에 대 한 합니다.
 
 ## <a name="requirements"></a>요구 사항

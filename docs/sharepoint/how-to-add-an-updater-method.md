@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 26b917b04314c99ba6575842b8e102113b22b469
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 8204b13aa0405d01590e4aeb0fe43a92b41c226f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431253"
 ---
 # <a name="how-to-add-an-updater-method"></a>방법: Updater 메서드 추가
   사용자가 만들어 외부 SharePoint 목록의 비즈니스 데이터를 업데이트할 수는 *Updater* 메서드. 자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.
@@ -50,7 +50,7 @@ ms.locfileid: "56596961"
      자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.
 
    > [!NOTE]
-   >  엔터티 형식의 식별자를 자동으로 생성 되는 데이터베이스 테이블의 필드를 나타내는 경우 설정 합니다 **사전 Updaterfield** 속성을 **True**합니다.
+   > 엔터티 형식의 식별자를 자동으로 생성 되는 데이터베이스 테이블의 필드를 나타내는 경우 설정 합니다 **사전 Updaterfield** 속성을 **True**합니다.
 
 4. **솔루션 탐색기**, 엔터티에 대해 생성 된 서비스 코드 파일의 바로 가기 메뉴를 열고 선택한 후 **코드 보기**합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "56596961"
 5. 데이터를 업데이트 하는 Update 메서드에 코드를 추가 합니다. 다음 예제에서는 SQL Server에 대 한 AdventureWorks 예제 데이터베이스에 있는 연락처에 대 한 정보를 업데이트합니다.
 
    > [!NOTE]
-   >  값을 `ServerName` 필드 서버의 이름입니다.
+   > 값을 `ServerName` 필드 서버의 이름입니다.
 
     [!code-csharp[SP_BDC#5](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#5)]
     [!code-vb[SP_BDC#5](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#5)]

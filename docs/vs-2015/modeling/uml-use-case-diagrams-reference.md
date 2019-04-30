@@ -19,12 +19,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 256489e41c769452f9505f95ec64ec9aee853c67
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 45f8d742af1cd6a0ed73f3beda24e829b417e81f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424299"
 ---
 # <a name="uml-use-case-diagrams-reference"></a>UML 사용 사례 다이어그램: 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ Visual Studio에는 *사용 사례 다이어그램* 응용 프로그램 또는 �
  이 기능을 지원하는 Visual Studio 버전을 확인하려면 [아키텍처 및 모델링 도구에 대한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)을 참조하세요.  
   
 > [!NOTE]
->  이 항목에서는 사용 사례 다이어그램에서 사용할 수 있는 요소에 대해 설명합니다. 사용 사례 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다. 만들고 모델링 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
+> 이 항목에서는 사용 사례 다이어그램에서 사용할 수 있는 요소에 대해 설명합니다. 사용 사례 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 지침](../modeling/uml-use-case-diagrams-guidelines.md)합니다. 만들고 모델링 다이어그램을 그리는 방법에 대 한 자세한 내용은 참조 하세요. [편집 UML 모델 및 다이어그램](../modeling/edit-uml-models-and-diagrams.md)합니다.  
   
 ## <a name="reading-use-case-diagrams"></a>사용 사례 다이어그램 읽기  
  다음 섹션의 표에서는 사용 사례 다이어그램에 사용할 수 있는 요소 및 주요 속성에 대해 설명합니다. 속성의 전체 목록을 참조 하세요 [UML 요소의 속성에 사용 사례 다이어그램](../modeling/properties-of-elements-on-uml-use-case-diagrams.md)합니다.  

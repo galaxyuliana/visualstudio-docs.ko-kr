@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c063235d69a59caf2c41c0db0ddc566c97cc95be
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 3ac567677776c225008a581cc4d5de85ec2c882d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63383966"
 ---
 # <a name="mip-map-generation-variant"></a>MIP 맵 생성 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,7 +70,7 @@ d3d_device->CreateTexture2D(&texture_description, initial_data.data(), &texture)
  `CreateTexture2D`에 초기 데이터를 제공하는 경우 각 Mip 수준에 대한 D3D11_SUBRESOURCE_DATA 개체를 제공해야 합니다.  
   
 > [!NOTE]
->  Mip 수준 콘텐츠를 자동으로 생성하는 대신 자체 Mip 수준 콘텐츠를 제공하려는 경우 Mip 맵 질감을 지원하는 이미지 편집기를 사용하여 질감을 생성한 다음 파일을 로드하고 Mip 수준을 `CreateTexture2D`에 전달해야 합니다.  
+> Mip 수준 콘텐츠를 자동으로 생성하는 대신 자체 Mip 수준 콘텐츠를 제공하려는 경우 Mip 맵 질감을 지원하는 이미지 편집기를 사용하여 질감을 생성한 다음 파일을 로드하고 Mip 수준을 `CreateTexture2D`에 전달해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [반기/분기 텍스처 차원 변형](../debugger/half-quarter-texture-dimensions-variant.md)

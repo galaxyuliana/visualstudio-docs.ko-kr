@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 253289862ae341e0682f5fe19616720e74799a1d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: c662b9b813be33ca57c8c31dff69eb86968ab3eb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56719862"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411222"
 ---
 # <a name="implement-and-register-a-port-supplier"></a>구현 하 고 포트 공급자 등록
 포트 공급자의 역할 추적에 프로세스를 관리 하는 포트를 제공 하는 것입니다. 포트를 만들 수 해야 하는 경우 포트 공급자 CoCreate를 사용 하 여 포트 공급자의 GUID (세션 디버그 관리자 [SDM] 사용 프로젝트 시스템에서 지정 하는 사용자가 선택한 또는 포트 공급자 포트 공급자)를 사용 하 여 인스턴스화됩니다. SDM 호출 [CanAddPort](../../extensibility/debugger/reference/idebugportsupplier2-canaddport.md) 모든 포트를 추가할 수 있는지 확인 합니다. 새 포트를 호출 하 여 요청 된 경우 포트를 추가할 수 있습니다 [포트 추가](../../extensibility/debugger/reference/idebugportsupplier2-addport.md) 전달 하는 [IDebugPortRequest2](../../extensibility/debugger/reference/idebugportrequest2.md) 는 포트에 설명 합니다. `AddPort` 나타내는 새 포트를 반환 합니다는 [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) 인터페이스입니다.
@@ -55,7 +55,7 @@ RemoveMetric(metrictypePortSupplier,
 ```
 
 > [!NOTE]
->  [디버깅을 위한 SDK 도우미](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) `SetMetric` 하 고 `RemoveMetric` 에 정의 된 정적 함수 *dbgmetric.h* 및로 컴파일된 *ad2de.lib*합니다. 합니다 `metrictypePortSupplier`, `metricCLSID`, 및 `metricName` 도우미에도 정의 되어 *dbgmetric.h*합니다.
+> [디버깅을 위한 SDK 도우미](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) `SetMetric` 하 고 `RemoveMetric` 에 정의 된 정적 함수 *dbgmetric.h* 및로 컴파일된 *ad2de.lib*합니다. 합니다 `metrictypePortSupplier`, `metricCLSID`, 및 `metricName` 도우미에도 정의 되어 *dbgmetric.h*합니다.
 
  포트 공급자 메서드를 통해 해당 이름 및 GUID를 제공할 수 있습니다 [GetPortSupplierName](../../extensibility/debugger/reference/idebugportsupplier2-getportsuppliername.md) 하 고 [GetPortSupplierId](../../extensibility/debugger/reference/idebugportsupplier2-getportsupplierid.md), 각각.
 

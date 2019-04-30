@@ -13,12 +13,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 582006c7b9629911f9d403fdab6af0637eb9337c
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: cf8b6c509e8a748060656f83f760fd245b852157
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418360"
 ---
 # <a name="legacy-language-service-essentials"></a>레거시 언어 서비스 필수 항목
 Visual Studio 프로그래밍 언어를 통합 하도록 언어 서비스를 제공 해야 합니다. 이 항목에서는 레거시 언어 서비스에서 제공 되는 기능을 설명 합니다.
@@ -26,7 +26,7 @@ Visual Studio 프로그래밍 언어를 통합 하도록 언어 서비스를 제
  레거시 언어 서비스는 VSPackage의 일부로 구현 됩니다 있지만 MEF 확장을 사용 하는 언어 서비스 기능을 구현 하는 최신 방법입니다. 언어 서비스를 구현 하는 새로운 방법에 대 한 자세한 내용을 참조 하세요 [편집기 및 언어 서비스 확장](../../extensibility/editor-and-language-service-extensions.md)합니다.
 
 > [!NOTE]
->  편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
+> 편집기를 사용 하 여 새 API 최대한 빨리 시작 하는 것이 좋습니다. 언어 서비스의 성능이 향상 되 고 새 편집기 기능을 활용할 수 있습니다.
 
  레거시 언어 서비스는 다음과 같은 기능을 제공합니다.
 

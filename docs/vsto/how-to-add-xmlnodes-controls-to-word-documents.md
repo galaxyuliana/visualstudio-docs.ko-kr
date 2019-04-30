@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0bbfa139605a6196cf57a5a887d9cb74f54527f7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b54a341cd9dd949f892537ee384afb4984aecc02
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60090734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419687"
 ---
 # <a name="how-to-add-xmlnodes-controls-to-word-documents"></a>방법: Word 문서에 XMLNodes 컨트롤 추가
   **중요 한** Microsoft Word에 대 한이 항목의 설정 정보가 혜택 및 개인 및 United States 및 해당 지역 외부에 위치한는 또는 사용 하는 조직의 사용에 단독으로 표시 되었거나 개발 실행 되는 프로그램, Microsoft Word 2010 년 1 월, Microsoft 구현의 특정 기능을 제거 하는 경우 하기 전에 Microsoft에서 사용이 허가 된 제품에서에서 관련 된 사용자 지정 XML Microsoft Word입니다. Microsoft Word에 대 한이 정보를 읽거나 개인 이나 조직에서는 미국에 있는 Microsoft Word 2010 년 1 월 10 일 후 Microsoft에서 사용이 허가 된 제품에서 실행 되는 프로그램을 개발 하거나를 사용 하는 해당 지역에서 사용 될 수 있습니다. ; 이러한 제품 구매 및 미국 이외의 용도로 사용이 허가 된 날짜 이전에 사용이 허가 된 제품으로 동일한 작동 하지 않습니다.
@@ -30,7 +30,7 @@ ms.locfileid: "60090734"
  XML 스키마 요소 반복 되지 않는 매핑에 대 한 자세한 내용은 참조 하세요. [방법: Word 문서에 XMLNode 컨트롤 추가](../vsto/how-to-add-xmlnode-controls-to-word-documents.md)합니다.
 
 > [!NOTE]
->  합니다 <xref:Microsoft.Office.Tools.Word.XMLNodes> 컨트롤에서 지원 하지 않는 합니다 **도구 상자** 또는 **데이터 원본** 창 또는 프로그래밍 방식으로 작성할 수 있습니다.
+> 합니다 <xref:Microsoft.Office.Tools.Word.XMLNodes> 컨트롤에서 지원 하지 않는 합니다 **도구 상자** 또는 **데이터 원본** 창 또는 프로그래밍 방식으로 작성할 수 있습니다.
 
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "60090734"
 1. 리본 메뉴에서 Visual Studio 디자이너에서 문서에서를 클릭 합니다 **개발자** 탭 합니다.
 
     > [!NOTE]
-    >  **개발자** 탭이 표시되지 않는 경우 먼저 개발자 탭을 표시해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
+    > **개발자** 탭이 표시되지 않는 경우 먼저 개발자 탭을 표시해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
 
 2. 에 **XML** 그룹에서 클릭 **스키마**합니다.
 

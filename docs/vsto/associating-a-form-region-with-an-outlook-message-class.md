@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a1b6ef478b9f3661690383623df7c89fae28bb0c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5c264048887d3a1ba77d498784dc3e6cc4384159
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440357"
 ---
 # <a name="associate-a-form-region-with-an-outlook-message-class"></a>Outlook 메시지 클래스를 사용 하 여 양식 영역을 연결 합니다.
   각 항목의 메시지 클래스를 사용 하 여 양식 영역을 연결 하 여 양식 영역을 표시 하는 Microsoft Office Outlook 항목을 지정할 수 있습니다. 예를 들어, 메일 항목의 맨 아래에 양식 영역을 추가 하려는 경우 양식 영역을 연결할 수는 `IPM.Note` message 클래스입니다.
@@ -45,7 +45,7 @@ ms.locfileid: "60063545"
  또한 사용자 지정 메시지 클래스의 이름을 지정할 수 있습니다. 사용자 지정 메시지 클래스에는 Outlook에서 정의 하는 사용자 지정 양식을 식별 합니다.
 
 > [!NOTE]
->  바꾸기 및 모두 바꾸기 양식 영역에 대 한 새 사용자 지정 메시지 클래스 이름을 지정할 수 있습니다. 기존 사용자 지정 폼의 메시지 클래스 이름을 사용할 필요가 없습니다. 사용자 지정 메시지 클래스의 이름은 고유 해야 합니다. 이름이 고유한 지 확인 하는 한 가지 방법은 다음과 비슷한 명명 규칙을 사용 하는 것입니다. \<*StandardMessageClassName*>.\< *회사*>.\< *MessageClassName*> (예: `IPM.Note.Contoso.MyMessageClass`).
+> 바꾸기 및 모두 바꾸기 양식 영역에 대 한 새 사용자 지정 메시지 클래스 이름을 지정할 수 있습니다. 기존 사용자 지정 폼의 메시지 클래스 이름을 사용할 필요가 없습니다. 사용자 지정 메시지 클래스의 이름은 고유 해야 합니다. 이름이 고유한 지 확인 하는 한 가지 방법은 다음과 비슷한 명명 규칙을 사용 하는 것입니다. \<*StandardMessageClassName*>.\< *회사*>.\< *MessageClassName*> (예: `IPM.Note.Contoso.MyMessageClass`).
 
 ## <a name="associate-a-form-region-with-an-outlook-message-class"></a>Outlook 메시지 클래스를 사용 하 여 양식 영역을 연결 합니다.
  두 가지 방법으로 메시지 클래스를 사용 하 여 양식 영역을 연결할 수 있습니다.
@@ -76,7 +76,7 @@ ms.locfileid: "60063545"
   합니다 **새 Outlook 양식 영역** 마법사를 클릭할 때 입력 형식의 유효성을 검사 **마침**합니다.
 
 > [!NOTE]
->  합니다 **새 Outlook 양식 영역** 마법사에 제공 하는 메시지 클래스 이름을 올바름 또는 유효는 확인 하지 않습니다.
+> 합니다 **새 Outlook 양식 영역** 마법사에 제공 하는 메시지 클래스 이름을 올바름 또는 유효는 확인 하지 않습니다.
 
  마법사를 완료 합니다 **새 Outlook 양식 영역** 마법사는 지정 된 메시지 클래스 이름을 포함 하는 양식 영역 클래스에 특성을 적용 합니다. 또한 이러한 특성을 수동으로 적용할 수 있습니다.
 
@@ -101,7 +101,7 @@ ms.locfileid: "60063545"
   Visual Studio 프로젝트를 빌드할 때의 메시지 클래스 이름 형식을 확인 합니다.
 
 > [!NOTE]
->  Visual Studio에서 제공 하는 메시지 클래스 이름을 올바름 또는 유효는 확인 하지 않습니다.
+> Visual Studio에서 제공 하는 메시지 클래스 이름을 올바름 또는 유효는 확인 하지 않습니다.
 
 ## <a name="see-also"></a>참고자료
 - [런타임에 양식 영역 액세스](../vsto/accessing-a-form-region-at-run-time.md)

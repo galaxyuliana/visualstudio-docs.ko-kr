@@ -12,12 +12,12 @@ ms.assetid: 34853412-ab8a-4caa-9601-7d0727b2985d
 caps.latest.revision: 30
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 0b7845d80b895d1b4c68afc59f2d2fe821be11f7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 98838f09df3094e16d5f1a18263ffdad603ded0b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102798"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440133"
 ---
 # <a name="adding-and-removing-property-pages"></a>속성 페이지 추가 및 제거
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -205,7 +205,7 @@ ms.locfileid: "60102798"
     ```  
   
 > [!NOTE]
->  이 항목에서 제공 하는 모든 코드 예제는 보다 큰 예의 일부 [VSSDK 샘플](../misc/vssdk-samples.md)합니다.  
+> 이 항목에서 제공 하는 모든 코드 예제는 보다 큰 예의 일부 [VSSDK 샘플](../misc/vssdk-samples.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [프로젝트 하위 형식](../extensibility/internals/project-subtypes.md)

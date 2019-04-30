@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5c22583890d476f6ada0838877360c1405e911db
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: d84de96181018858515bd74156f844ed6022f0a9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56691152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434608"
 ---
 # <a name="scchistory-function"></a>SccHistory 함수
 이 함수는 지정된 된 파일의 기록을 표시합니다.
@@ -80,7 +80,7 @@ SCCRTN SccHistory(
  특정 상황에서,이 호출의 실행 하는 동안 검사할 파일이 변경 될 수 있습니다. 예를 들어를 [!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)] 기록 명령은 사용자 파일의 이전 버전을 가져올 수 있는 기회를 제공 합니다. 이러한 경우에는 소스 제어 플러그 인 반환 `SCC_I_RELOAD` 경고 IDE 파일 다시 로드 해야 합니다.
 
 > [!NOTE]
->  소스 제어 플러그 인 파일의 배열에 대해이 함수를 지원 하지 않으면, 첫 번째 파일에 대 한 파일 히스토리만 표시할 수 있습니다.
+> 소스 제어 플러그 인 파일의 배열에 대해이 함수를 지원 하지 않으면, 첫 번째 파일에 대 한 파일 히스토리만 표시할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 - [소스 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)

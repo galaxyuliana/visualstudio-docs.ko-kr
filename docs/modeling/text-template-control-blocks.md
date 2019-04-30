@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 344975f0f28c8fc8ee6f8a213b519f0b17e5880a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3a3396caf4f1ade860f4727095d3305d86e837c3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434169"
 ---
 # <a name="text-template-control-blocks"></a>텍스트 템플릿 제어 블록
 제어 블록을 사용하면 다양한 출력을 생성하기 위해 텍스트 템플릿에 코드를 작성할 수 있습니다. 다음과 같은 세 가지 종류의 제어 블록이 있으며 각각 여는 대괄호로 구분됩니다.
@@ -62,11 +62,11 @@ Found another one!
 ```
 
 > [!WARNING]
->  항상 {...}를 사용 하 여 포함 된 중첩 문은 일반 텍스트를 포함 합니다. 다음 예제는 제대로 작동하지 않을 수 있습니다.
+> 항상 {...}를 사용 하 여 포함 된 중첩 문은 일반 텍스트를 포함 합니다. 다음 예제는 제대로 작동하지 않을 수 있습니다.
 >
->  `<# if (ShouldPrint) #> Some text. -- WRONG`
+> `<# if (ShouldPrint) #> Some text. -- WRONG`
 >
->  대신 다음과 같이 {}(대괄호)를 포함해야 합니다.
+> 대신 다음과 같이 {}(대괄호)를 포함해야 합니다.
 
 ```
 
@@ -115,7 +115,7 @@ Some text.
 ```
 
 > [!NOTE]
->  같은 템플릿 파일에서 클래스 기능 제어 블록 뒤에 표준 제어 블록을 두지 않아야 합니다. 그러나 `<#@include#>` 지시문을 사용한 결과에는 이러한 제한 사항이 적용되지 않습니다. 각각의 포함된 파일에서는 표준 블록 뒤에 클래스 기능 블록이 올 수 있습니다.
+> 같은 템플릿 파일에서 클래스 기능 제어 블록 뒤에 표준 제어 블록을 두지 않아야 합니다. 그러나 `<#@include#>` 지시문을 사용한 결과에는 이러한 제한 사항이 적용되지 않습니다. 각각의 포함된 파일에서는 표준 블록 뒤에 클래스 기능 블록이 올 수 있습니다.
 
  텍스트 및 식 블록을 클래스 기능 제어 블록 안에 포함하여 출력을 생성하는 함수를 만들 수 있습니다. 예를 들어:
 

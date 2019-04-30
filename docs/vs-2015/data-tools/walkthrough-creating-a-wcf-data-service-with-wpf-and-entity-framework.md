@@ -14,12 +14,12 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 52a2d7c239c9a4f3508f4bdb2077928e44ff802a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 56e39a8ed17cfa99bd8141e2176d42dd7d3d6274
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424848"
 ---
 # <a name="walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework"></a>연습: WPF 및 Entity Framework를 사용하여 WCF 데이터 서비스 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,12 +89,12 @@ ms.locfileid: "60107049"
 6. 데이터베이스에 암호가 필요한 경우 **예, 중요한 데이터를 연결 문자열에 포함합니다.** 옵션 단추를 선택한 후, **다음** 단추를 선택합니다.  
   
    > [!NOTE]
-   >  대화 상자가 나타나는 경우 **예**를 선택하여 프로젝트에 파일을 저장합니다.  
+   > 대화 상자가 나타나는 경우 **예**를 선택하여 프로젝트에 파일을 저장합니다.  
   
 7. **사용자 버전 선택** 페이지에서 **Entity Framework 5.0** 옵션 단추를 선택한 후, **다음** 단추를 선택합니다.  
   
    > [!NOTE]
-   >  최신 버전의 Entity Framework 6을 WCF Services와 함께 사용하려면 WCF Data Services Entity Framework Provider NuGet 패키지를 설치해야 합니다. 참조 [WCF 데이터를 사용 하 여 Entity Framework 6을 사용 하 여 5.6.0 Services](http://blogs.msdn.com/b/odatateam/archive/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6.aspx)합니다.  
+   > 최신 버전의 Entity Framework 6을 WCF Services와 함께 사용하려면 WCF Data Services Entity Framework Provider NuGet 패키지를 설치해야 합니다. 참조 [WCF 데이터를 사용 하 여 Entity Framework 6을 사용 하 여 5.6.0 Services](http://blogs.msdn.com/b/odatateam/archive/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6.aspx)합니다.  
   
 8. **데이터베이스 개체 선택** 페이지에서 **테이블** 노드를 확장하고 **Customers** 확인란을 선택한 다음, **마침** 단추를 선택합니다.  
   
@@ -129,7 +129,7 @@ ms.locfileid: "60107049"
     Customers 테이블에 있는 데이터의 XML 표현이 표시됩니다.  
   
    > [!NOTE]
-   >  Internet Explorer가 이 데이터를 RSS 피드로 잘못 해석하는 경우도 있습니다. RSS 피드를 표시하는 옵션은 반드시 비활성화되어 있어야 합니다. 자세한 내용은 [서비스 참조 문제 해결](../data-tools/troubleshooting-service-references.md)합니다.  
+   > Internet Explorer가 이 데이터를 RSS 피드로 잘못 해석하는 경우도 있습니다. RSS 피드를 표시하는 옵션은 반드시 비활성화되어 있어야 합니다. 자세한 내용은 [서비스 참조 문제 해결](../data-tools/troubleshooting-service-references.md)합니다.  
   
 8. 브라우저 창을 닫습니다.  
   

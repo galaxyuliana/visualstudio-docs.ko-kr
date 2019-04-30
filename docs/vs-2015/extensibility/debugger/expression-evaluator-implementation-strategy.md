@@ -11,18 +11,18 @@ ms.assetid: 1bccaeb3-8109-4128-ae79-16fd8fbbaaa2
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 65a32fe99cab105aa23f63e1f6bb7b144a19d2ec
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: a9c2ded111c371fc1a42c8f1ee08769f5b06aeda
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63421155"
 ---
 # <a name="expression-evaluator-implementation-strategy"></a>식 계산기 구현 전략
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 > [!IMPORTANT]
->  Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 정보를 참조 하세요 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.  
+> Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 정보를 참조 하세요 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.  
   
  식 계산기 (EE)를 신속 하 게 만드는 한 가지 방법은 먼저 지역 변수를 표시 하는 데 필요한 최소한의 코드를 구현 하는 것은 **지역** 창입니다. 한다는 것을 알아야 하는 데 유용의 각 줄을 **지역** 이름, 형식 및 로컬 변수를 값 창에 표시 하 고 모든 세으로 표현 되는 [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) 개체입니다. 이름, 형식 및 지역 변수 값에서 얻을 수 있습니다는 `IDebugProperty2` 개체를 호출 하 여 해당 [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) 메서드. 지역 변수를 표시 하는 방법에 대 한 자세한 합니다 **지역** 창 참조 [지역 표시](../../extensibility/debugger/displaying-locals.md)합니다.  
   

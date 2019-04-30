@@ -13,12 +13,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0d5c680499da99dfdaadc6ee82f4a16f6cc46652
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 2ea1803e702ba7f133f9194b993464eabfcc24aa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63423042"
 ---
 # <a name="idiasymbolgetliverangestartaddressoffset"></a>IDiaSymbol::get_liveRangeStartAddressOffset
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ HRESULT get_liveRangeStartAddressOffset ( 
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
 > [!NOTE]
->  반환 된 오류 코드 기호 라이브 범위 정보가 없는 것을 의미 합니다.  
+> 반환 된 오류 코드 기호 라이브 범위 정보가 없는 것을 의미 합니다.  
   
 ## <a name="remarks"></a>설명  
  섹션과 오프셋 하 여 만든 주소가 기호가 유효한 범위의 시작입니다.  

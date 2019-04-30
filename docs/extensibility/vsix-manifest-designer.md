@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 85b9d20dd67ff11f5bded7060440f2e768a205a9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 84f82ab6e5cca57a1fabd600cecc7a5ee505c150
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56722865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411117"
 ---
 # <a name="vsix-manifest-designer"></a>VSIX 매니페스트 디자이너
 VSIX 패키지 매니페스트 파일을 Visual Studio 확장에 대 한 설치 동작을 설정 하는 수정 합니다.
@@ -29,7 +29,7 @@ VSIX 패키지 매니페스트 파일을 Visual Studio 확장에 대 한 설치 
  열려는 **VSIX 매니페스트 디자이너**를 찾습니다는 *source.extension.vsixmanifest* 파일 **솔루션 탐색기**, 파일을 엽니다. 파일에 올바른 XML이 없으면 매니페스트 디자이너 열리지 않습니다.
 
 > [!NOTE]
->  합니다 *source.extension.vsixmanifest* 파일에 출력 되 *extension.vsixmanifest* 패키지를 빌드할 때입니다.
+> 합니다 *source.extension.vsixmanifest* 파일에 출력 되 *extension.vsixmanifest* 패키지를 빌드할 때입니다.
 
 ## <a name="uielement-list"></a>UI 요소 목록
  합니다 **VSIX 매니페스트 디자이너** 스키마의 최상위 이러한 요소에 해당 하는 4 개의 섹션이 포함 되어 있습니다.

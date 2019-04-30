@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8e32d96451e2494816ddd5f7a66591f40f847e85
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0f12436f9f129c6fb8a0fe3a4b6c853a9e58e650
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438123"
 ---
 # <a name="how-to-create-an-xml-schema-from-an-xml-document"></a>방법: XML 문서에서 XML 스키마 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ XML 편집기를 사용하여 XML 문서에서 XSD(XML 스키마 정의 언어) 
      스키마를 디스크에 저장하거나 프로젝트에 추가 또는 삭제할 수 있습니다.  
   
     > [!NOTE]
-    >  합니다 **Create Schema** 명령 역시 XML 편집기의 바로 가기 메뉴에서 사용할 수 있는 합니다 **XML** 메뉴.  
+    > 합니다 **Create Schema** 명령 역시 XML 편집기의 바로 가기 메뉴에서 사용할 수 있는 합니다 **XML** 메뉴.  
   
 ## <a name="see-also"></a>참고 항목  
  [XML 편집기](../xml-tools/xml-editor.md)

@@ -16,18 +16,18 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 413cee4a768dcf2fe1b6b82b78e213db5b1df9b6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 874f19e0ae4e752a36ce95deab669ab46bfbf038
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419505"
 ---
 # <a name="how-to-programmatically-save-attachments-from-outlook-email-items"></a>방법: 프로그래밍 방식으로 Outlook 전자 메일 항목의 첨부 파일 저장
   이 예제는 받은 편지함에 전자 메일이 수신될 때 메일 첨부 파일을 지정된 폴더에 저장합니다.
 
 > [!IMPORTANT]
->  이 예제에서는 라는 폴더를 추가 하는 경우에 작동 **TestFileSave** C 디렉터리의 루트에 있습니다.
+> 이 예제에서는 라는 폴더를 추가 하는 경우에 작동 **TestFileSave** C 디렉터리의 루트에 있습니다.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 

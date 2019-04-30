@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2e87429c38d5b456eca08daa6675edcb0bd3f056
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 88ace66b8a28061ea7e8fdc7fa64f419042edf11
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63410132"
 ---
 # <a name="create-an-extension-with-an-editor-item-template"></a>편집기 항목 템플릿을 사용 하 여 확장 만들기
 편집기 분류자, 프로그램 및 여백을 추가 하는 기본 편집기 확장을 만들려면 Visual Studio SDK에 포함 된 항목 템플릿을 사용할 수 있습니다. 편집기 항목 템플릿은 Visual C# 또는 Visual Basic VSIX 프로젝트에 사용할 수 있습니다.
@@ -63,7 +63,7 @@ ms.locfileid: "60079813"
  편집기 뷰포트 Adornment 템플릿은 뷰포트의 오른쪽 위 모서리에 빨간색 윤곽선이 있는 보라색 상자를 추가 하는 상대 뷰포트 adornment를 만듭니다.
 
 > [!NOTE]
->  합니다 **뷰포트** 현재 표시 된 텍스트 보기의 영역입니다.
+> 합니다 **뷰포트** 현재 표시 된 텍스트 보기의 영역입니다.
 
 ### <a name="to-create-a-viewport-adornment-extension-by-using-the-editor-viewport-adornment-template"></a>편집기 뷰포트 Adornment 템플릿을 사용 하 여 뷰포트 adornment 확장 프로그램을 만들려면
 

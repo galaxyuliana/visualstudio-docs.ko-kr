@@ -13,18 +13,18 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: f380245422047142b3f06757f6c1057302dd5d26
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: d8de6f57cabe808df1506870fe65da31ef74e644
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436025"
 ---
 # <a name="idebugapplicationnode100-interface"></a>IDebugApplicationNode100 인터페이스
 합니다 `IDebugApplicationNode100` 인터페이스의 기능을 확장 합니다 [IDebugApplicationNode 인터페이스](../../winscript/reference/idebugapplicationnode-interface.md)합니다. 구현에서 QueryInterface를 호출 하 여이 인터페이스의 인스턴스를 가져올 수 있습니다 [IDebugApplicationNode 인터페이스](../../winscript/reference/idebugapplicationnode-interface.md)합니다.  
   
 > [!IMPORTANT]
->  이 인터페이스는 PDM v10.0에서 큰 구현 됩니다. activdbg100.h에서 찾을 수 있습니다.  
+> 이 인터페이스는 PDM v10.0에서 큰 구현 됩니다. activdbg100.h에서 찾을 수 있습니다.  
   
 ## <a name="methods"></a>메서드  
  `IDebugApplicationNode100` 인터페이스는 다음 메서드를 노출합니다.  

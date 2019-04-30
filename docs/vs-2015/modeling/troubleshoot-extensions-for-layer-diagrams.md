@@ -12,12 +12,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ba45ba733f5447523b6793d4f5e2946c3507c82e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 38a459760dd66e1160bd8b197ee9883b617639b2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60098691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439745"
 ---
 # <a name="troubleshoot-extensions-for-layer-diagrams"></a>레이어 다이어그램의 확장명 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60098691"
 2. 폴더를 삭제 합니다: %LocalAppData%\Microsoft\VisualStudio\\[version] \ComponentModelCache  
   
    > [!NOTE]
-   >  % LocalAppData %는 일반적으로 *DriveName*: \Users\\*UserName*\AppData\Local입니다.  
+   > % LocalAppData %는 일반적으로 *DriveName*: \Users\\*UserName*\AppData\Local입니다.  
   
    필요한 경우 다음 절차를 계속 진행합니다.  
   

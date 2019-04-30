@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f73eec788ee21c5e27514d373ad78b8dfc965fce
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: c9685d96c14f3519653025ab1554f1e9e7587e0b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434640"
 ---
 # <a name="sccgetcommandoptions-function"></a>SccGetCommandOptions 함수
 이 함수는 지정 된 명령에 대 한 고급 옵션에 대 한 라는 메시지입니다.
@@ -77,7 +77,7 @@ SCCRTN SccGetCommandOptions(
  마지막으로 클릭할 때 **확인** ide의 **가져오기** 대화 상자에서 IDE 호출 하 여는 [SccGet](../extensibility/sccget-function.md)에서 반환 하는 구조체를 전달 `ppvOptions` 를 포함 하는 고급 옵션입니다.
 
 > [!NOTE]
->  명령을 `SCC_COMMAND_OPTIONS` IDE를 표시 하는 경우 사용 되는 **옵션** 사용자 수 있는 대화 상자에는 통합의 작동 방식을 제어 하는 기본 설정을 합니다. 표시할 수는 소스 제어 플러그 인에서 자체 기본 설정 대화 상자를 제공 하려는 경우는 **고급** IDE의 기본 설정 대화 상자에서 단추입니다. 플러그 인은 책임을 가져오고이 정보를 유지 합니다. IDE 사용 하지 않거나 수정 합니다.
+> 명령을 `SCC_COMMAND_OPTIONS` IDE를 표시 하는 경우 사용 되는 **옵션** 사용자 수 있는 대화 상자에는 통합의 작동 방식을 제어 하는 기본 설정을 합니다. 표시할 수는 소스 제어 플러그 인에서 자체 기본 설정 대화 상자를 제공 하려는 경우는 **고급** IDE의 기본 설정 대화 상자에서 단추입니다. 플러그 인은 책임을 가져오고이 정보를 유지 합니다. IDE 사용 하지 않거나 수정 합니다.
 
 ## <a name="see-also"></a>참고자료
 - [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)

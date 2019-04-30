@@ -11,12 +11,12 @@ caps.latest.revision: 52
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 84f5b5de8b28062023d851e38e26930718d599e7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 0da69de4a91ebabce4af99e26195b349ef5daa60
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411404"
 ---
 # <a name="text-template-utility-methods"></a>텍스트 템플릿 유틸리티 메서드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "58984663"
 코드를 작성할 때 항상를 사용할 수 있는 여러 가지가 있습니다를 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 텍스트 템플릿. 에 정의 된 이러한 메서드가 <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>합니다.  
   
 > [!TIP]
->  또한 다른 메서드 및 일반 하지 전처리 된 텍스트 템플릿에서 호스트 환경에서 제공 하는 서비스를 사용할 수 있습니다. 예를 들어, 파일 경로 확인, 오류 로그를 가져올 수에서 제공 하는 서비스 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 모든 패키지를 로드 합니다.  자세한 내용은 [텍스트 템플릿에서 Visual Studio 액세스](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4)합니다.  
+> 또한 다른 메서드 및 일반 하지 전처리 된 텍스트 템플릿에서 호스트 환경에서 제공 하는 서비스를 사용할 수 있습니다. 예를 들어, 파일 경로 확인, 오류 로그를 가져올 수에서 제공 하는 서비스 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 모든 패키지를 로드 합니다.  자세한 내용은 [텍스트 템플릿에서 Visual Studio 액세스](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4)합니다.  
   
 ## <a name="write-methods"></a>메서드를 작성 합니다.  
  사용할 수는 `Write()` 고 `WriteLine()` 식 코드 블록을 사용 하는 대신 표준 코드 블록 내에 텍스트를 추가 하는 방법입니다. 다음 두 코드 블록 기능적으로 동일합니다.  

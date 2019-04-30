@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4b188be0a8ff3c8bac6dc8fd2b5474756a1565f3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f6cc62e4ba56cb7be461bbf3cee5435cb404b7fe
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60090029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439981"
 ---
 # <a name="0x2x4x-msaa-variants"></a>0x/2x/4x MSAA 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60090029"
  앱이 MSAA를 사용하도록 아직 설정하지 않은 경우 2x MSAA 및 4x MSAA 변형은 앱에서 이러한 변형을 사용하도록 설정하는 경우에 발생하는 상대적 성능 저하를 나타냅니다. 성능 비용이 적절하게 낮은 경우 MSAA를 사용하도록 설정하여 앱의 이미지 품질 개선을 고려합니다.  
   
 > [!NOTE]
->  하드웨어에서는 일부 형식에 대해 MSAA를 완전히 지원하지 않을 수 있습니다. 이러한 변형에서 해결할 수 없는 하드웨어 제한이 발생한 경우 성능 요약 테이블의 해당 열은 빈 칸이며 오류 메시지가 생성됩니다.  
+> 하드웨어에서는 일부 형식에 대해 MSAA를 완전히 지원하지 않을 수 있습니다. 이러한 변형에서 해결할 수 없는 하드웨어 제한이 발생한 경우 성능 요약 테이블의 해당 열은 빈 칸이며 오류 메시지가 생성됩니다.  
   
 ## <a name="remarks"></a>설명  
  이러한 변형은 렌더링 대상을 생성하는 `ID3DDevice::CreateTexture2D`에 대한 호출 시 샘플 수 및 샘플 품질 인수를 재정의합니다. 특히 이러한 매개 변수는 다음과 같은 경우 재정의됩니다.  

@@ -11,12 +11,12 @@ ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: bf0d5e29138f27956dff52571296395507d44976
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1ced598c2a670cd79d7daeeac90f6807baf7d1dd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436602"
 ---
 # <a name="registering-single-file-generators"></a>단일 파일 생성기 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "60055420"
          필수 요소. 이 사용자 지정 도구에서 생성 된 파일에서 형식을 사용할 수 있는 비주얼 디자이너를 수행 하는지 여부를 나타냅니다. 이 매개 변수의 값 (0) 0 비주얼 디자이너에 사용할 수 없는 형식에 대 한 또는 비주얼 디자이너를 사용할 수 있는 형식 (1) 1 있어야 합니다.  
   
     > [!NOTE]
-    >  사용자 지정 도구 사용 가능 하도록 사용자 지정 도구는 원하는 각 언어에 대해 별도로 등록 해야 합니다.  
+    > 사용자 지정 도구 사용 가능 하도록 사용자 지정 도구는 원하는 각 언어에 대해 별도로 등록 해야 합니다.  
   
      예를 들어를 MSDataSetGenerator 자신을 등록 한 번 각 언어에 대 한 합니다.  
   

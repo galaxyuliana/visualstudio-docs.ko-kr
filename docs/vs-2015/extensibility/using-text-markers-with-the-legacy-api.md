@@ -10,12 +10,12 @@ ms.assetid: 937a0b19-1216-45d5-a7ad-4fe1d6f73097
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: af08f5c2b487505b1c0800db852760c2f139dae0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 03b68c0fbaf92ff2c768c36ccdbea1988c99a973
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430109"
 ---
 # <a name="using-text-markers-with-the-legacy-api"></a>텍스트 마커를 사용 하 여 레거시 API를 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,16 +25,16 @@ ms.locfileid: "58971861"
  텍스트 마커를 사용 하 여 연결 된 성능 오버 헤드 때문에 텍스트 버퍼에 대 한 많은 표식을 만들지 마십시오. 각 표식에는 사용자 편집 하는 버퍼의 내용이 될 때마다 업데이트 됩니다.  
   
 > [!NOTE]
->  사용자 표시 표식 유형을 하지만 하지 해당 모양과 스타일의 색을 변경할 수 있습니다. 자세한 내용은 [글꼴 및 색, 환경, 옵션 대화 상자](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)합니다.  
+> 사용자 표시 표식 유형을 하지만 하지 해당 모양과 스타일의 색을 변경할 수 있습니다. 자세한 내용은 [글꼴 및 색, 환경, 옵션 대화 상자](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)합니다.  
   
 ## <a name="related-topics"></a>관련 항목  
   
 |제목|설명|  
 |-----------|-----------------|  
-|[방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md)|제공한 표준 텍스트 표식 유형을 추가 하는 방법에 설명 합니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 코어 편집기 텍스트 뷰를 합니다.|  
-|[방법: 오류 마커를 구현 합니다.](../extensibility/how-to-implement-error-markers.md)|인스턴스를 구현 하는 방법에 설명 합니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 빨간색 물결 무늬 밑줄을 사용 하 여 오류를 나타내는 데 사용 되는 표식입니다.|  
+|[방법: 표준 텍스트 표식 추가](../extensibility/how-to-add-standard-text-markers.md)|제공한 표준 텍스트 표식 유형을 추가 하는 방법에 설명 합니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 코어 편집기 텍스트 뷰를 합니다.|  
+|[방법: 오류 표식 구현](../extensibility/how-to-implement-error-markers.md)|인스턴스를 구현 하는 방법에 설명 합니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 빨간색 물결 무늬 밑줄을 사용 하 여 오류를 나타내는 데 사용 되는 표식입니다.|  
 |[방법: 사용자 지정 텍스트 표식 만들기](../extensibility/how-to-create-custom-text-markers.md)|만들고 텍스트 보기에 사용자 지정 텍스트 표식 유형을 추가 하는 방법을 설명 합니다.|  
-|[방법: 텍스트 마커를 사용 합니다.](../extensibility/how-to-use-text-markers.md)|텍스트 마커를 추가 하는 방법에 설명 합니다.|  
+|[방법: 텍스트 표식 사용](../extensibility/how-to-use-text-markers.md)|텍스트 마커를 추가 하는 방법에 설명 합니다.|  
 |[핵심 편집기 내부](../extensibility/inside-the-core-editor.md)|핵심 편집기의 기능을 설명 하 고 핵심 편집기 사용자 지정 하는 방법에 대 한 세부 정보를 제공 합니다.|  
 |[편집기 기능](http://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)|사용할 수 있는 기능에 설명 합니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 핵심 편집기입니다.|  
   

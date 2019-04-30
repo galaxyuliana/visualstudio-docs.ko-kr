@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 047728f00fae9dbf3cf2511300beaa84c2201cdd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 88ac74d0e2c666926c5b88976146878991729628
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427916"
 ---
 # <a name="how-to-add-a-custom-task-pane-to-an-application"></a>방법: 응용 프로그램에 사용자 지정 작업창 추가
   VSTO 추가 기능을 사용하여 위에 나열된 응용 프로그램에 사용자 지정 작업창을 추가할 수 있습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
@@ -26,7 +26,7 @@ ms.locfileid: "60039832"
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="add-a-custom-task-pane-to-an-application"></a>응용 프로그램에 사용자 지정 작업창 추가
 
@@ -55,7 +55,7 @@ ms.locfileid: "60039832"
      [!code-csharp[Trin_TaskPaneBasic#2](../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs#2)]
 
     > [!NOTE]
-    >  이 코드는 응용 프로그램의 활성 창과 사용자 지정 작업창을 연결합니다. 일부 응용 프로그램의 경우 작업창이 응용 프로그램의 다른 문서나 항목과 함께 표시되도록 이 코드를 수정하는 것이 좋습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
+    > 이 코드는 응용 프로그램의 활성 창과 사용자 지정 작업창을 연결합니다. 일부 응용 프로그램의 경우 작업창이 응용 프로그램의 다른 문서나 항목과 함께 표시되도록 이 코드를 수정하는 것이 좋습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Office UI 사용자 지정](../vsto/office-ui-customization.md)

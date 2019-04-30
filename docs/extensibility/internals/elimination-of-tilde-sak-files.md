@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 99d776e7d9891ca231fde4531b558de66568904f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 96704b52fb31085fad7546687a8803c85bcfbb47
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418635"
 ---
 # <a name="elimination-of-sak-files"></a>제거 ~ SAK 파일
 원본 제어 플러그 인 API 1.2에서는 *~ SAK* 기능 플래그를 통해 파일 대체 되었으며 원본 여부를 검색 하는 새 함수 제어 플러그 인 지원 합니다 *MSSCCPRJ* 파일 및 공유 체크 아웃 합니다.
@@ -48,7 +48,7 @@ Visual Studio.NET 2003 접두사로 추가 하는 임시 파일을 만들었습�
  **[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl]DoNotCreateTemporaryFilesInSourceControl** = *dword:00000001*
 
 > [!NOTE]
->  이 레지스트리 키로 설정 되어 있으면 *dword:00000000은*되 존재 하지 않는, 키 및 Visual Studio는 여전히 임시 파일을 만들려고 시도 합니다. 그러나 레지스트리 키로 설정 되어 있으면 *dword:00000001*, 임시 파일을 만들려면 Visual Studio를 시도 하지 않습니다. 소스 제어 플러그 인을 지원 하지 않음을 가정 대신 합니다 *MSSCCPRJ.SCC* 파일과 공유 체크 아웃을 지원 하지 않습니다.
+> 이 레지스트리 키로 설정 되어 있으면 *dword:00000000은*되 존재 하지 않는, 키 및 Visual Studio는 여전히 임시 파일을 만들려고 시도 합니다. 그러나 레지스트리 키로 설정 되어 있으면 *dword:00000001*, 임시 파일을 만들려면 Visual Studio를 시도 하지 않습니다. 소스 제어 플러그 인을 지원 하지 않음을 가정 대신 합니다 *MSSCCPRJ.SCC* 파일과 공유 체크 아웃을 지원 하지 않습니다.
 
 ## <a name="see-also"></a>참고자료
 - [원본 제어 플러그 인 API 버전 1.2의 새로운 기능](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

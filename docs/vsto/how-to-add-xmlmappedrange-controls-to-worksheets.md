@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: cef35cd1aa19ad27e7c47227b726a44756b0fae8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 60f1fe8330e3a40676738c4187273ee60215db6d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427438"
 ---
 # <a name="how-to-add-xmlmappedrange-controls-to-worksheets"></a>방법: 워크시트에 XMLMappedRange 컨트롤 추가
   Visual Studio 자동으로 추가 Microsoft Office Excel에서 셀으로 XML 요소를 매핑하는 경우는 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 워크시트에 컨트롤입니다.
@@ -26,7 +26,7 @@ ms.locfileid: "60085722"
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
 
 > [!NOTE]
->  합니다 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 컨트롤에서 사용할 수 없는 합니다 **도구 상자** 또는 **데이터 원본** 창입니다. 만들 수 없습니다는 또한 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 프로그래밍 방식으로 제어 합니다.
+> 합니다 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 컨트롤에서 사용할 수 없는 합니다 **도구 상자** 또는 **데이터 원본** 창입니다. 만들 수 없습니다는 또한 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 프로그래밍 방식으로 제어 합니다.
 
 ## <a name="to-add-an-xmlmappedrange-control-to-a-worksheet"></a>워크시트에 XMLMappedRange 컨트롤을 추가 하려면
 
@@ -37,7 +37,7 @@ ms.locfileid: "60085722"
 3. 에 **개발자** 탭을 클릭 **원본**합니다.
 
     > [!NOTE]
-    >  경우는 **개발자** 탭이 리본 메뉴에 표시 되지 않으면, 사용 하도록 설정 해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
+    > 경우는 **개발자** 탭이 리본 메뉴에 표시 되지 않으면, 사용 하도록 설정 해야 합니다. 자세한 내용은 [방법: 리본 메뉴에 개발 도구 탭 표시](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)합니다.
 
      합니다 **XML 원본** 작업창 표시 됩니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "60085722"
      <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 만들어지고 프로젝트에 추가 합니다.
 
     > [!NOTE]
-    >  부모 요소를 끌면 합니다 **XML 원본은** 작업창을 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤이 만들어집니다.
+    > 부모 요소를 끌면 합니다 **XML 원본은** 작업창을 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤이 만들어집니다.
 
 ## <a name="see-also"></a>참고자료
 - [XmlMappedRange 컨트롤](../vsto/xmlmappedrange-control.md)

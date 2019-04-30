@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 12a5f19574974ce8d3928997a6b02bbf59062d89
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0213df05e12ae69b4e24841971a518acc008599f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419422"
 ---
 # <a name="how-to-expose-code-to-vba-in-a-visual-basic-project"></a>방법: Visual Basic 프로젝트에서 VBA로 코드 노출
   코드에 노출할 수 있습니다는 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] 두 가지 유형의 서로 상호 작용 하는 코드를 원하는 경우 Applications (VBA) 코드에 대 한 Visual basic 프로젝트입니다.
@@ -50,7 +50,7 @@ ms.locfileid: "60101327"
      매크로 지 원하는 문서 파일 형식에 대 한 자세한 내용은 참조 하세요. [결합 VBA 및 문서 수준 사용자 지정](../vsto/combining-vba-and-document-level-customizations.md)합니다.
 
     > [!NOTE]
-    >  이 기능은 Word 서식 파일 프로젝트에서 사용할 수 없습니다.
+    > 이 기능은 Word 서식 파일 프로젝트에서 사용할 수 없습니다.
 
 2. 문서의 VBA 코드는 매크로 사용 하도록 설정 하려면 사용자에 게 확인 하지 않고 실행할 수 있는지 확인 합니다. Word 또는 Excel의 보안 센터 설정에서 신뢰할 수 있는 위치 목록에 Office 프로젝트의 위치를 추가하여 VBA 코드를 실행하도록 신뢰할 수 있습니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "60101327"
      이 속성을 설정한 후 Visual Studio 자동으로 설정 하는 **ReferenceAssemblyFromVbaProject** 속성을 **True**합니다.
 
     > [!NOTE]
-    >  통합 문서 또는 문서를 포함 되어 있지 않으면 VBA 코드를 하거나 설정 하는 경우 오류 메시지를 받을 있습니다 문서의 VBA 코드를 실행 하도록 신뢰할 수 없는 경우는 **EnableVbaCallers** 속성을 **True**합니다. 그 이유는 이러한 경우 Visual Studio에서 문서의 VBA 프로젝트를 수정할 수 없기 때문입니다.
+    > 통합 문서 또는 문서를 포함 되어 있지 않으면 VBA 코드를 하거나 설정 하는 경우 오류 메시지를 받을 있습니다 문서의 VBA 코드를 실행 하도록 신뢰할 수 없는 경우는 **EnableVbaCallers** 속성을 **True**합니다. 그 이유는 이러한 경우 Visual Studio에서 문서의 VBA 프로젝트를 수정할 수 없기 때문입니다.
 
 5. 표시되는 메시지에서 **확인** 을 클릭합니다. 이 메시지는 알려 동안 문서 또는 통합 문서에 VBA 코드를 추가 하는 경우 프로젝트에서 실행 중인 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], VBA 코드를 손실 됩니다 다음에 프로젝트를 빌드합니다. 즉, 프로젝트를 빌드할 때마다 빌드 출력 폴더에 문서를 덮어씁니다.
 
@@ -83,7 +83,7 @@ ms.locfileid: "60101327"
      매크로 지 원하는 문서 파일 형식에 대 한 자세한 내용은 참조 하세요. [결합 VBA 및 문서 수준 사용자 지정](../vsto/combining-vba-and-document-level-customizations.md)합니다.
 
     > [!NOTE]
-    >  이 기능은 Word 서식 파일 프로젝트에서 사용할 수 없습니다.
+    > 이 기능은 Word 서식 파일 프로젝트에서 사용할 수 없습니다.
 
 2. 문서의 VBA 코드는 매크로 사용 하도록 설정 하려면 사용자에 게 확인 하지 않고 실행할 수 있는지 확인 합니다. Word 또는 Excel의 보안 센터 설정에서 신뢰할 수 있는 위치 목록에 Office 프로젝트의 위치를 추가하여 VBA 코드를 실행하도록 신뢰할 수 있습니다.
 
@@ -109,7 +109,7 @@ ms.locfileid: "60101327"
 7. **속성** 창에서 **ReferenceAssemblyFromVbaProject** 속성을 선택하고 값을 **True**로 변경합니다.
 
     > [!NOTE]
-    >  통합 문서 또는 문서를 포함 되어 있지 않으면 VBA 코드를 하거나 설정 하는 경우 오류 메시지를 받을 있습니다 문서의 VBA 코드를 실행 하도록 신뢰할 수 없는 경우는 **ReferenceAssemblyFromVbaProject** 속성을 **True** . 그 이유는 이러한 경우 Visual Studio에서 문서의 VBA 프로젝트를 수정할 수 없기 때문입니다.
+    > 통합 문서 또는 문서를 포함 되어 있지 않으면 VBA 코드를 하거나 설정 하는 경우 오류 메시지를 받을 있습니다 문서의 VBA 코드를 실행 하도록 신뢰할 수 없는 경우는 **ReferenceAssemblyFromVbaProject** 속성을 **True** . 그 이유는 이러한 경우 Visual Studio에서 문서의 VBA 프로젝트를 수정할 수 없기 때문입니다.
 
 8. 표시되는 메시지에서 **확인** 을 클릭합니다. 이 메시지는 알려 동안 문서 또는 통합 문서에 VBA 코드를 추가 하는 경우 프로젝트에서 실행 중인 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], VBA 코드를 손실 됩니다 다음에 프로젝트를 빌드합니다. 즉, 프로젝트를 빌드할 때마다 빌드 출력 폴더에 문서를 덮어씁니다.
 

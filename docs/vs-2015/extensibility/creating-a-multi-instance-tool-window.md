@@ -11,12 +11,12 @@ ms.assetid: 4a7872f1-acc9-4f43-8932-5a526b36adea
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: fa0acb706d0b5cb6a37578ab6cb7b707850c5949
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0dcdfe3f6e488514bb2ee1ca950e952b16039b42
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60070630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433850"
 ---
 # <a name="creating-a-multi-instance-tool-window"></a>다중 인스턴스 도구 창 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60070630"
 1. 라는 프로젝트를 만듭니다 **MultiInstanceToolWindow** 라는 사용자 지정 도구 창 항목 템플릿을 VSIX 템플릿을 사용 하 여 추가한 **MIToolWindow**합니다.  
   
     > [!NOTE]
-    >  도구 창을 사용 하 여 확장을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
+    > 도구 창을 사용 하 여 확장을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [도구 창으로 확장을 만드는](../extensibility/creating-an-extension-with-a-tool-window.md)합니다.  
   
 ## <a name="making-a-tool-window-multi-instance"></a>다중 인스턴스 도구 창 만들기  
   

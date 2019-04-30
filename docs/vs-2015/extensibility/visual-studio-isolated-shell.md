@@ -14,12 +14,12 @@ ms.assetid: d2620e71-be9e-44c9-b5b7-03a4c8d9cf0b
 caps.latest.revision: 36
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 59ecd079b7e95d86ab85eb9e5e36fcf938f99f58
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 0309019cc36e9f81596061dbbede0f84b0b78a05
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63403582"
 ---
 # <a name="visual-studio-isolated-shell"></a>Visual Studio 격리 셸
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,10 +31,10 @@ Visual Studio isolated shell을 사용 하면-나란히 실행할 수 있는 독
  격리 셸 응용 프로그램을 만들려면 프로젝트를 Visual Studio Shell의 격리를 사용 하 여 시작 합니다. 이 프로젝트에는 개발 및 격리 셸 응용 프로그램을 테스트 해야 하는 것입니다. 응용 프로그램을 배포 하는 설치 프로그램을 작성할 준비가에서 isolated shell 재배포 가능 패키지를 가져와야 [Microsoft Visual Studio Shell (격리) 재배포 가능 패키지](http://go.microsoft.com/fwlink/?LinkId=616022)합니다.  
   
 > [!NOTE]
->  Isolated shell 재배포 가능 패키지에 액세스 하려면, 먼저 간단한 고객 설문 조사를 묻는 메시지가 나타납니다.  설문 조사을 채운 후 재배포 가능 패키지 다운로드 링크를 사용 하 여 Visual Studio 연결 페이지로 이동 됩니다.  Visual Studio Connect 사이트를 방문할에서 다운로드 링크를 찾을 수 있습니다 합니다 **프로그램 &#124; VISUAL STUDIO 2015 통합 및 격리 셸** 탭 합니다.  
+> Isolated shell 재배포 가능 패키지에 액세스 하려면, 먼저 간단한 고객 설문 조사를 묻는 메시지가 나타납니다.  설문 조사을 채운 후 재배포 가능 패키지 다운로드 링크를 사용 하 여 Visual Studio 연결 페이지로 이동 됩니다.  Visual Studio Connect 사이트를 방문할에서 다운로드 링크를 찾을 수 있습니다 합니다 **프로그램 &#124; VISUAL STUDIO 2015 통합 및 격리 셸** 탭 합니다.  
   
 > [!NOTE]
->  격리 셸 기반 응용 프로그램을 배포 하는 방법에 대 한 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.  
+> 격리 셸 기반 응용 프로그램을 배포 하는 방법에 대 한 자세한 내용은 참조 하세요. [연습: 격리 셸 응용 프로그램을 만드는 기본](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)입니다.  
   
 ## <a name="working-with-the-isolated-shell"></a>격리 셸 사용  
  Visual Studio 격리 셸 응용 프로그램을 Visual Studio services에 대 한 전체 액세스 권한이 및 특별 한 사용자 지정 및 브랜딩 지원 합니다. 여러 가지 방법으로 격리 셸 응용 프로그램을 사용자 지정할 수 있습니다.  

@@ -20,12 +20,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c853e24da3f203d67874d7b9740d3239abd78c14
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5c7cc8a9d1767a289112b18dbfe7c81b9a010bae
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422787"
 ---
 # <a name="deploying-clickonce-applications-for-testing-and-production-servers-without-resigning"></a>다시 서명하지 않고 테스트 및 프로덕션 서버용 ClickOnce 응용 프로그램 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60066600"
 이 항목에서는 clickonce 매니페스트 다시 서명 하거나 ClickOnce를 변경 하지 않고 여러 네트워크 위치에서 ClickOnce 응용 프로그램 배포를 사용할 수 있는 버전 3.5는.NET Framework에 도입 된 새로운 기능을 설명 합니다.  
   
 > [!NOTE]
->  새 버전의 응용 프로그램을 배포 하기 위한 기본 방법은 그대로 다시 서명 합니다. 가능 하면 서명 메서드를 사용 합니다. 자세한 내용은 [Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)를 참조하세요.  
+> 새 버전의 응용 프로그램을 배포 하기 위한 기본 방법은 그대로 다시 서명 합니다. 가능 하면 서명 메서드를 사용 합니다. 자세한 내용은 [Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)를 참조하세요.  
   
  타사 개발자 및 Isv에서 옵트인이 기능에 쉽게 고객이 응용 프로그램을 업데이트 합니다. 다음과 같은 상황에서이 기능을 사용할 수 있습니다.  
   

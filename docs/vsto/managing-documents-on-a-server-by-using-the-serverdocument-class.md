@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 595c9127aad71cac6f446f356c309809b7172d94
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 82763f78673391ab6a308ba026a6b9e53c3b474b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438823"
 ---
 # <a name="manage-documents-on-a-server-by-using-the-serverdocument-class"></a>ServerDocument 클래스를 사용 하 여 서버의 문서 관리
   사용할 수는 `ServerDocument` 클래스는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Microsoft Office Word 및 Microsoft Office Excel 설치 되지 않은 경우에 문서 수준 사용자 지정의 몇 가지 측면을 관리할 수 합니다. 다음 작업을 수행할 수 있습니다.
@@ -38,7 +38,7 @@ ms.locfileid: "60045489"
  대 한 자세한 내용은 Visual Studio 2010 Tools for Office Runtime과 Office 확장은.NET Framework에 대 한 참조 [Visual Studio Tools for Office 런타임 개요](../vsto/visual-studio-tools-for-office-runtime-overview.md)합니다.
 
 > [!NOTE]
->  사용 하는 레거시 응용 프로그램의 경우는 `ServerDocument` 클래스를 `Visual Studio Tools for Office` system (버전 3.0 런타임), `Visual Studio Tools for Office` system (버전 3.0 런타임) 응용 프로그램을 실행 하는 컴퓨터에 설치 해야 합니다. `Visual Studio 2010 Tools for Office runtime` 이러한 응용 프로그램을 실행할 수 없습니다.
+> 사용 하는 레거시 응용 프로그램의 경우는 `ServerDocument` 클래스를 `Visual Studio Tools for Office` system (버전 3.0 런타임), `Visual Studio Tools for Office` system (버전 3.0 런타임) 응용 프로그램을 실행 하는 컴퓨터에 설치 해야 합니다. `Visual Studio 2010 Tools for Office runtime` 이러한 응용 프로그램을 실행할 수 없습니다.
 
 ## <a name="CachedData"></a> 문서의 캐시 된 데이터를 사용 하 여 작동 합니다.
  `ServerDocument` 클래스는 사용자 지정 된 문서의 데이터 캐시를 사용 하 여 작업을 사용할 수 있는 멤버를 제공 합니다. 캐시 된 데이터에 대 한 자세한 내용은 참조 하세요. [데이터 캐시](../vsto/caching-data.md) 하 고 [서버에서 문서 데이터에에서 액세스](../vsto/accessing-data-in-documents-on-the-server.md)합니다.

@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: faecd527c0b9b442a163df0bdd749b8183163d03
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7d9142e92367dd10653bb8fdaaf86c34f3f17b84
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114647"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63399224"
 ---
 # <a name="error-workgroup-remote-logon-failure"></a>오류: 작업 그룹 원격 로그온 실패
 이 오류의 의미는 다음과 같습니다.
@@ -39,7 +39,7 @@ ms.locfileid: "60114647"
 - Visual Studio 컴퓨터와 원격 머신 둘 다 작업 그룹에 있는 경우 이 오류는 원격 머신의 기본 **로컬 보안 정책** 설정으로 인해 발생할 수 있습니다. **로컬 보안 정책**은 **게스트 전용 - 로컬 사용자를 게스트로 인증**으로 기본 설정되어 있습니다. 이 설정에서 디버깅하려면 원격 머신의 설정을 **클래식 - 로컬 사용자를 그대로 인증**으로 변경해야 합니다.
 
 > [!NOTE]
->  다음 작업을 수행하려면 관리자 권한이 있어야 합니다.
+> 다음 작업을 수행하려면 관리자 권한이 있어야 합니다.
 
 ### <a name="to-open-the-local-security-policy-window"></a>로컬 보안 정책 창을 열려면
 

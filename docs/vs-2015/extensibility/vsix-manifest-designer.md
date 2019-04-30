@@ -14,12 +14,12 @@ ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 308259e7addcf41ae6e15191934a8c37ac3f57b5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 450d306718906c3b76bf05982594045e7fd215f0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387564"
 ---
 # <a name="vsix-manifest-designer"></a>VSIX 매니페스트 디자이너
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ VSIX 패키지 매니페스트 파일을 Visual Studio 확장에 대 한 설치 
  열려는 합니다 **VSIX 매니페스트 디자이너**에서 source.extension.vsixmanifest 파일을 찾습니다 **솔루션 탐색기**, 파일을 엽니다. 파일에 올바른 XML이 없으면 매니페스트 디자이너 열리지 않습니다.  
   
 > [!NOTE]
->  Source.extension.vsixmanifest은 패키지를 빌드하면 extension.vsixmanifest 출력 됩니다.  
+> Source.extension.vsixmanifest은 패키지를 빌드하면 extension.vsixmanifest 출력 됩니다.  
   
 ## <a name="uielement-list"></a>UI 요소 목록  
  합니다 **VSIX 매니페스트 디자이너** 스키마의 최상위 이러한 요소에 해당 하는 4 개의 섹션이 포함 되어 있습니다.  

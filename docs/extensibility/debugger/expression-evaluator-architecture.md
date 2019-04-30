@@ -12,16 +12,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: da2f32cde96d7be482d0283510bcc3f0c127db9f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: d486234bd220fd1a7b2a93ca88fd89e5119b2dbb
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56720681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63411299"
 ---
 # <a name="expression-evaluator-architecture"></a>식 계산기 아키텍처
 > [!IMPORTANT]
->  Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
+> Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
 
  Visual Studio 디버그 패키지 있습니다 의미 전용 언어 통합 필수 식 계산기 (EE) 인터페이스를 설정 하 고 공용 언어 런타임 기호 공급자 (SP) 및 바인더 인터페이스를 호출 해야 합니다. SP 및 바인더 개체를 현재 실행 주소와 함께 식이 계산 되는 컨텍스트입니다. 이러한 인터페이스를 만들고 사용 하는 정보는 EE의 아키텍처의 주요 개념을 나타냅니다.
 

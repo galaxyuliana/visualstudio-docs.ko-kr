@@ -22,12 +22,12 @@ caps.latest.revision: 93
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 980b7e0f54c058650a393c35467a73d926ec6638
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c5976f2d701ecf051625c93ab6b70fb88ed15108
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088732"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433320"
 ---
 # <a name="customize-code-maps-by-editing-the-dgml-files"></a>Customize code maps by editing the DGML files
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "60088732"
  텍스트 또는 XML 편집기에서 코드 맵의 .dgml 파일을 편집합니다. 맵을 Visual Studio 솔루션의 일부 이면에서 선택 **솔루션 탐색기**바로 가기 메뉴를 열고 선택 **사용 하 여 엽니다**, **XML (텍스트) 편집기**합니다.  
   
 > [!NOTE]
->  코드 맵을 만들려면 Visual Studio Enterprise가 있어야 합니다. Visual Studio에서 코드 맵을 편집하는 경우 .dgml 파일을 저장할 때 사용되지 않는 DGML 요소와 특성이 삭제되어 정리됩니다. 또한 수동으로 새 링크를 추가하는 경우 자동으로 코드 요소가 생성됩니다. .dgml 파일을 저장하면 사용자가 요소에 추가한 특성이 사전순으로 자동으로 재배열됩니다.  
+> 코드 맵을 만들려면 Visual Studio Enterprise가 있어야 합니다. Visual Studio에서 코드 맵을 편집하는 경우 .dgml 파일을 저장할 때 사용되지 않는 DGML 요소와 특성이 삭제되어 정리됩니다. 또한 수동으로 새 링크를 추가하는 경우 자동으로 코드 요소가 생성됩니다. .dgml 파일을 저장하면 사용자가 요소에 추가한 특성이 사전순으로 자동으로 재배열됩니다.  
   
 ## <a name="OrganizeNodes"></a> 그룹 코드 요소  
  새 그룹을 추가하거나 기존 노드를 그룹으로 변환할 수 있습니다.  
@@ -120,7 +120,7 @@ ms.locfileid: "60088732"
 - 특정 조건을 기반으로 한 코드 요소 및 링크 그룹  
   
 > [!TIP]
->  스타일이 여러 코드 요소 또는 링크에서 반복되는 경우 코드 요소 또는 링크에 범주를 적용한 다음 해당 범주에 스타일을 적용하는 것이 좋습니다. 자세한 내용은 [코드 요소 및 링크에 범주 할당](#AssignCategories) 하 고 [코드 요소 및 링크에 속성 할당](#AssignProperties)합니다.  
+> 스타일이 여러 코드 요소 또는 링크에서 반복되는 경우 코드 요소 또는 링크에 범주를 적용한 다음 해당 범주에 스타일을 적용하는 것이 좋습니다. 자세한 내용은 [코드 요소 및 링크에 범주 할당](#AssignCategories) 하 고 [코드 요소 및 링크에 속성 할당](#AssignProperties)합니다.  
   
 ##### <a name="to-apply-a-custom-style-to-a-single-code-element"></a>단일 코드 요소에 사용자 지정 스타일을 적용하려면  
   
@@ -558,7 +558,7 @@ ms.locfileid: "60088732"
  맵의 .dgml 파일을 편집하고 코드 요소에 대한 `Reference` 요소 또는 링크에 대한 `<Node/>` 요소에 `<Link/>` 특성을 추가하여 코드 요소 또는 링크에 문서 또는 URL을 연결할 수 있습니다. 그런 다음 코드 요소 또는 링크에서 해당 콘텐츠를 열고 볼 수 있습니다. `Reference` 특성은 해당 내용의 경로를 지정합니다. 이 경로는 .dgml 파일의 위치를 기준으로 하는 상대 경로이거나 절대 경로일 수 있습니다.  
   
 > [!CAUTION]
->  상대 경로를 사용할 경우 .dgml 파일을 다른 위치로 이동하면 해당 경로가 더 이상 확인되지 않습니다. 링크된 콘텐츠를 열고 보려고 시도하면 콘텐츠를 볼 수 없다는 오류가 발생합니다.  
+> 상대 경로를 사용할 경우 .dgml 파일을 다른 위치로 이동하면 해당 경로가 더 이상 확인되지 않습니다. 링크된 콘텐츠를 열고 보려고 시도하면 콘텐츠를 볼 수 없다는 오류가 발생합니다.  
   
  예를 들어 다음과 같은 코드 요소를 연결할 수 있습니다.  
   
@@ -583,7 +583,7 @@ ms.locfileid: "60088732"
    - `<Node/>` 또는 `<Link/>` 요소에서 `Reference` 특성을 추가하여 코드 요소 위치를 지정합니다.  
   
      > [!NOTE]
-     >  `Reference` 특성은 요소마다 하나씩만 있을 수 있습니다.  
+     > `Reference` 특성은 요소마다 하나씩만 있을 수 있습니다.  
   
      예를 들어:  
   

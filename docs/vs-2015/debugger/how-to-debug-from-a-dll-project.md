@@ -20,12 +20,12 @@ caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 360384118f5c2d02801b63b8836800eca5e26d78
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6496d38e753d2338966916d1d7855abca77ace34
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438485"
 ---
 # <a name="how-to-debug-from-a-dll-project"></a>방법: DLL 프로젝트에서 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ DLL 프로젝트 디버깅을 시작하려면 프로젝트 속성에서 호출 �
  네이티브 코드를 사용하여 관리되는 DLL을 호출하고 네이티브 코드와 관리되는 DLL을 모두 디버그하려는 경우 프로젝트 속성에서 이를 지정할 수 있습니다. 자세한 내용은 [방법: 혼합된 모드에서 디버깅](../debugger/how-to-debug-in-mixed-mode.md)합니다.  
   
 > [!NOTE]
->  Visual Studio Express Edition에서 외부 호출 응용 프로그램을 지정할 수 없습니다. 대신 실행 가능한 프로젝트를 솔루션에 추가하여 시작 프로젝트로 설정하고 실행 가능한 프로젝트에서 DLL의 메서드를 호출해야 합니다.  
+> Visual Studio Express Edition에서 외부 호출 응용 프로그램을 지정할 수 없습니다. 대신 실행 가능한 프로젝트를 솔루션에 추가하여 시작 프로젝트로 설정하고 실행 가능한 프로젝트에서 DLL의 메서드를 호출해야 합니다.  
   
 ### <a name="to-specify-the-calling-application-in-a-c-project"></a>C++ 프로젝트에서 호출 응용 프로그램을 지정하려면  
   

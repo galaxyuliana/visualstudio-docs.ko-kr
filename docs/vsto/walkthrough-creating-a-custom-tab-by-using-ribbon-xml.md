@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 11c26b9a3aa25688958e784d88d0b494ef893909
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e05bd9173b83ec3303a058dcf61ea48a7ef7675c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438584"
 ---
 # <a name="walkthrough-create-a-custom-tab-by-using-ribbon-xml"></a>연습: 리본 XML을 사용 하 여 사용자 지정 탭 만들기
   이 연습에 사용 하 여 사용자 지정 리본 탭을 만드는 방법을 보여 줍니다 합니다 **리본 (XML)** 항목입니다.
@@ -36,7 +36,7 @@ ms.locfileid: "60085235"
 - 단추를 사용 하 여 Microsoft Office Word를 자동화 합니다 **Add-ins** 탭 합니다.
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.

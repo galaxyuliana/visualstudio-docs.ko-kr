@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 81020496c1e80718d1aa0995791762d55ef70a76
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9cc23e140f0bfa2654cef1c3faeb805620a683b0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438521"
 ---
 # <a name="walkthrough-create-your-first-document-level-customization-for-excel"></a>연습: Excel 용 첫 문서 수준 사용자 지정 만들기
   이 소개용 연습에서는 Microsoft Office Excel에 대한 문서 수준 사용자 지정을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 특정 통합 문서가 열려 있는 경우에만 사용할 수 있습니다. 통합 문서가 열려 있을 때 새 리본 탭 표시와 같은 응용 프로그램 수준 변경은 문서 수준 사용자 지정을 사용하여 수행할 수 없습니다.
@@ -106,7 +106,7 @@ ms.locfileid: "60104501"
      **이 텍스트는 디자이너를 사용 하 여 추가 되었습니다.**
 
 > [!WARNING]
->  셀에 텍스트이 줄을 추가 하는 경우 **A2**,이 예에서 다른 코드로 덮어씁니다.
+> 셀에 텍스트이 줄을 추가 하는 경우 **A2**,이 예에서 다른 코드로 덮어씁니다.
 
 ## <a name="add-text-to-a-worksheet-programmatically"></a>프로그래밍 방식으로 워크시트에 텍스트 추가
  다음에는 Sheet1 코드 파일에 코드를 추가합니다. 새 코드는 Excel의 개체 모델을 사용하여 통합 문서에 두 번째 텍스트 줄을 추가합니다. 기본적으로 Sheet1 코드 파일에는 다음과 같은 생성된 코드가 포함됩니다.

@@ -11,12 +11,12 @@ ms.assetid: 18f4b18b-2173-4afa-ba0a-42fe33e61118
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6089c4ef32ef0d0b0bce081cef6d16bd569c0901
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9e736343212c4bf6acd833f5740b996c6c032c3f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439815"
 ---
 # <a name="isolated-shell-entry-point-parameters-c"></a>격리 셸 진입점 매개 변수 (C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +75,7 @@ typedef int (__cdecl *STARTFCN)(LPSTR, LPWSTR, int, GUID *, WCHAR *pszSettings);
  하나 이상의 설정을 재정의 하려면 재정의할 수 설정을 포함 하는 유니코드 문자열을 전달 합니다. 문자열은 이름-값 쌍의 세미콜론으로 구분 된 목록. 각 쌍에 설정을 적용할 값 뒤에 등호 (=) 뒤에 재정의 설정의 이름을 포함 합니다.  
   
 > [!NOTE]
->  유니코드 문자열에 공백을 포함 하지 않습니다.  
+> 유니코드 문자열에 공백을 포함 하지 않습니다.  
   
  부울 설정에 대 한 다음 문자열을 나타내는 값이 true입니다. 다른 모든 문자열 값 false를 나타냅니다. 이러한 문자열 대/소문자를 구분 하지 않습니다.  
   

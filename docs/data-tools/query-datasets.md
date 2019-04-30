@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: ccd8bd0cb37aaa2d4bfad7ea20979987048bf862
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bec1c878dce59ccb5444d74ba0255c9ceb705780
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402738"
 ---
 # <a name="query-datasets"></a>데이터 세트 쿼리
 데이터 집합의 특정 레코드를 검색 하려면 사용 합니다 `FindBy` 메서드는 DataTable에서 테이블의 행 컬렉션을 반복 하거나 사용 하 여 사용자 고유의 foreach 문을 작성할 [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset)합니다.
@@ -25,7 +25,7 @@ ms.locfileid: "60050675"
 데이터 집합 내에서 테이블 및 열 이름은 기본적으로 대/소문자-즉, "Customers" 라는 데이터 집합의 테이블 수 수 라고도 "고객"을 선택 합니다. 이 SQL Server를 포함 하 여 여러 데이터베이스의 명명 규칙을 찾습니다. SQL Server의 기본 동작은 대/소문자를 통해서만 데이터 요소의 이름을 구별할 수 없으며 합니다.
 
 > [!NOTE]
->  와 달리 데이터 집합을 XML 문서는 대/소문자 구분, 스키마에 정의 된 데이터 요소 이름은 대/소문자 구분 합니다. 예를 들어 스키마 프로토콜을 통해 "Customers" 및 "customers." 라는 다른 테이블 이라고 하는 테이블을 정의 하려면 이 데이터 집합 클래스를 생성 하는 대/소문자만 다른 요소가 포함 된 스키마를 사용 하는 경우 이름 충돌이 발생할 수 있습니다.
+> 와 달리 데이터 집합을 XML 문서는 대/소문자 구분, 스키마에 정의 된 데이터 요소 이름은 대/소문자 구분 합니다. 예를 들어 스키마 프로토콜을 통해 "Customers" 및 "customers." 라는 다른 테이블 이라고 하는 테이블을 정의 하려면 이 데이터 집합 클래스를 생성 하는 대/소문자만 다른 요소가 포함 된 스키마를 사용 하는 경우 이름 충돌이 발생할 수 있습니다.
 
 그러나 대/소문자 구분 데이터를 데이터 집합 내에서 해석 되는 방식을 비율을 수 있습니다. 예를 들어 데이터 집합 테이블의 데이터를 필터링 하면 검색 조건과 비교는 대/소문자 구분 여부에 따라 다른 결과 반환할 수 있습니다. 필터링, 검색 및 데이터 집합의 설정 하 여 정렬의 대/소문자를 구분 하는 것을 제어할 수 있습니다. <xref:System.Data.DataSet.CaseSensitive%2A> 속성입니다. 데이터 집합의 모든 테이블이 기본적으로이 속성의 값을 상속합니다. (테이블을 설정 하 여 각 개별 테이블에 대해이 속성을 재정의할 수 있습니다 <xref:System.Data.DataTable.CaseSensitive%2A> 속성입니다.)
 
@@ -68,7 +68,7 @@ ms.locfileid: "60050675"
 이 페이지는 형식화 된 데이터 집합을 사용 하는 예제를 제공 합니다. 형식화 되지 않은 데이터 집합에서 관계를 탐색 하는 방법에 대 한 내용은 [Datarelation 탐색](/dotnet/framework/data/adonet/dataset-datatable-dataview/navigating-datarelations)합니다.
 
 > [!NOTE]
->  Windows Forms 응용 프로그램에서 작업 하 고 데이터 바인딩 기능을 사용 하 여 데이터를 표시 하는 경우 디자이너에서 생성 된 양식 응용 프로그램에 대 한 충분 한 기능을 제공할 수 있습니다. 자세한 내용은 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다. 특히 참조 [데이터 집합의 관계](relationships-in-datasets.md)합니다.
+> Windows Forms 응용 프로그램에서 작업 하 고 데이터 바인딩 기능을 사용 하 여 데이터를 표시 하는 경우 디자이너에서 생성 된 양식 응용 프로그램에 대 한 충분 한 기능을 제공할 수 있습니다. 자세한 내용은 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다. 특히 참조 [데이터 집합의 관계](relationships-in-datasets.md)합니다.
 
 다음 코드 예제에서는 형식화 된 데이터 집합의 관계 위/아래로 이동 하는 방법을 보여 줍니다. 형식화 된 코드 예 사용 <xref:System.Data.DataRow>s (`NorthwindDataSet.OrdersRow`) 및 생성 된 FindBy*PrimaryKey* (`FindByCustomerID`) 메서드를 원하는 행을 찾아 관련된 레코드를 반환 합니다. 예제를 컴파일하고 있는 경우에 올바르게 실행:
 

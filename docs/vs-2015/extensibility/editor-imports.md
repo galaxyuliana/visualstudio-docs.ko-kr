@@ -10,12 +10,12 @@ ms.assetid: 8d096de3-33b4-427a-a122-4aeff8a72da0
 caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 461687e5d1e9570ea2e03610f838f6114fbc7643
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 4805bff12d284dc5a54451e157c9e8fb92deeae2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432118"
 ---
 # <a name="editor-imports"></a>편집기 가져오기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58983139"
  편집기 가져오기를 사용 하려면 가져올 있습니다 필드 또는 Managed Extensibility Framework 구성 요소 파트를 내보내는 클래스의 속성으로.  
   
 > [!NOTE]
->  Managed Extensibility Framework에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)합니다.  
+> Managed Extensibility Framework에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)합니다.  
   
 ## <a name="import-syntax"></a>가져오기 구문  
  다음 예제에서는 편집기를 가져오는 방법 옵션 팩터리 서비스를 보여 줍니다.  
@@ -44,17 +44,17 @@ internal IEditorOptionsFactoryService m_editorOptions = null;
   
  가져오기를 사용 하 여 더 많은 예제를 다음 연습을 참조 합니다.  
   
- [연습: 여백 모양 만들기](../extensibility/walkthrough-creating-a-margin-glyph.md)  
+ [연습: 여백 문자 모양 만들기](../extensibility/walkthrough-creating-a-margin-glyph.md)  
   
- [연습: 텍스트 뷰 사용자 지정](../extensibility/walkthrough-customizing-the-text-view.md)  
+ [연습: 텍스트 보기 사용자 지정](../extensibility/walkthrough-customizing-the-text-view.md)  
   
- [연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)  
+ [연습: 텍스트 강조 표시](../extensibility/walkthrough-highlighting-text.md)  
   
  [연습: QuickInfo 도구 설명 표시](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)  
   
- [연습: 서명 도움말 표시](../extensibility/walkthrough-displaying-signature-help.md)  
+ [연습: 시그니처 도움말 표시](../extensibility/walkthrough-displaying-signature-help.md)  
   
- [연습: 문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)  
+ [연습: 명령문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)  
   
  [연습: 스마트 태그 표시](../misc/walkthrough-displaying-smarttags.md)  
   

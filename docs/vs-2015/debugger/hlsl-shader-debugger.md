@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ac9352af6bd22ca2cc21545945d56a10db2c458f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bef6c5a742c4bf6acc15a6326190686e46fef79b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60074390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63410181"
 ---
 # <a name="hlsl-shader-debugger"></a>HLSL 셰이더 디버거
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +58,7 @@ Visual Studio Graphics Analyzer의 HLSL 디버거를 사용하면 앱의 실제 
 2. 파이프라인 단계 제목 아래에서 작은 녹색 화살표로 표시되는 **디버깅 시작**을 선택합니다.  
   
     > [!NOTE]
-    >  이러한 HLSL 디버거로의 진입점은 처리되는 첫 번째 꼭짓점 또는 픽셀인 해당 단계에 대한 첫 번째 셰이더 스레드만을 디버그합니다. 픽셀 기록을 사용하여 이러한 셰이더 단계의 다른 스레드에 액세스할 수 있습니다.  
+    > 이러한 HLSL 디버거로의 진입점은 처리되는 첫 번째 꼭짓점 또는 픽셀인 해당 단계에 대한 첫 번째 셰이더 스레드만을 디버그합니다. 픽셀 기록을 사용하여 이러한 셰이더 단계의 다른 스레드에 액세스할 수 있습니다.  
   
 #### <a name="to-start-the-hlsl-debugger-from-the-graphics-pixel-history"></a>그래픽 픽셀 기록에서 HLSL 디버거를 시작하려면  
   
@@ -71,7 +71,7 @@ Visual Studio Graphics Analyzer의 HLSL 디버거를 사용하면 앱의 실제 
     선택한 셰이더의 오른쪽에서 작은 녹색 화살표로 표시되는 **디버깅 시작**을 선택합니다.  
   
    > [!NOTE]
-   >  이러한 HLSL 디버거로의 진입점은 선택한 그리기 호출, 기본 형식 및 선택한 픽셀에 해당하는 픽셀 셰이더 스레드, 또는 그리기 호출, 기본 형식 및 선택한 픽셀로 결과가 보간되는 꼭짓점 셰이더 스레드를 디버깅합니다. 꼭짓점 셰이더의 경우, 꼭지점 셰이더 정보를 확장하여 특정 꼭짓점을 가리키도록 진입점을 더욱 구체화할 수 있습니다.  
+   > 이러한 HLSL 디버거로의 진입점은 선택한 그리기 호출, 기본 형식 및 선택한 픽셀에 해당하는 픽셀 셰이더 스레드, 또는 그리기 호출, 기본 형식 및 선택한 픽셀로 결과가 보간되는 꼭짓점 셰이더 스레드를 디버깅합니다. 꼭짓점 셰이더의 경우, 꼭지점 셰이더 정보를 확장하여 특정 꼭짓점을 가리키도록 진입점을 더욱 구체화할 수 있습니다.  
   
    HLSL 디버거를 사용 하 여 셰이더 오류를 디버깅 하는 방법에 대 한 예제를 보려면 [예제](../debugger/graphics-diagnostics-examples.md) 또는 참고 항목 섹션에 연결 된 연습 합니다.  
   

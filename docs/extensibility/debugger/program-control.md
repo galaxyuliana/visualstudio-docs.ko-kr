@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 971eb3184fc12b9ed72675fbcd46a893981b4c9e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 46e41cacafa2251c96ec7a97899b81034f455d6f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63414222"
 ---
 # <a name="program-control"></a>프로그램 제어
 Visual Studio에서 다음 단계별 실행의 모든 디버깅 및 루틴을 계속 프로그램 수준에서 발생 합니다.
@@ -33,7 +33,7 @@ Visual Studio에서 다음 단계별 실행의 모든 디버깅 및 루틴을 �
 - 프로그램에 포함 된 스레드 재개
 
 > [!NOTE]
->  호출 스택 보기는 스레드 수준에서 구현 됩니다. 스레드에 대 한 호출 스택을 볼 때 프레임 정보 열거의 모든 메서드를 구현 해야 합니다 [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) 인터페이스입니다.
+> 호출 스택 보기는 스레드 수준에서 구현 됩니다. 스레드에 대 한 호출 스택을 볼 때 프레임 정보 열거의 모든 메서드를 구현 해야 합니다 [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) 인터페이스입니다.
 
 ## <a name="methods-of-program-control"></a>프로그램 제어 메서드
  다음 표에서의 메서드를 보여 줍니다 [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) 최소로 작동 디버그 엔진 (DE) 및 실행 제어를 위해 구현 되어야 합니다.

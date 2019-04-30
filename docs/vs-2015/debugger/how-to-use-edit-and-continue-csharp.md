@@ -16,12 +16,12 @@ caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3095bccd25548e55f750ee11f26d20fdc9fe603d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 39137d5fe60a3c91c8fd3904e797eb83420a8f5d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63384021"
 ---
 # <a name="how-to-use-edit-and-continue-c"></a>방법: 편집하며 계속하기 사용(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ C#에서 편집하며 계속하기를 사용하면 디버깅하는 동안 중단
  편집 하며 계속 하기는 자동으로 호출 중단 모드에서 변경한 다음 디버거 실행을 선택 하는 경우와 같은 명령을 **계속**하십시오 **단계**, 또는 **다음 문 설정**, 또는 디버거 창에서 함수를 계산 합니다.  
   
 > [!NOTE]
->  Compact Framework, 최적화된 코드, 혼합된 네이티브/관리 코드 또는 SQL Server CLR(공용 언어 런타임) 통합 코드를 디버깅할 때는 편집하며 계속하기가 지원되지 않습니다. 이러한 시나리오 중 하나에서 코드 변경 내용을 적용 하려고 하면 디버거는 편집 하며 계속 하기가 지원 되지 않음을 설명 대화 상자를 배치 합니다.  
+> Compact Framework, 최적화된 코드, 혼합된 네이티브/관리 코드 또는 SQL Server CLR(공용 언어 런타임) 통합 코드를 디버깅할 때는 편집하며 계속하기가 지원되지 않습니다. 이러한 시나리오 중 하나에서 코드 변경 내용을 적용 하려고 하면 디버거는 편집 하며 계속 하기가 지원 되지 않음을 설명 대화 상자를 배치 합니다.  
   
 ### <a name="to-invoke-edit-and-continue-automatically"></a>편집을 호출 하 고 자동으로 계속  
   

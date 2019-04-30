@@ -20,12 +20,12 @@ caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: cb9ff8e31004a3b314102ad6b0e64cd72cab6467
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9a2679825d41a6360dde05e7511d607f8be69dfa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434103"
 ---
 # <a name="debug-multiple-processes"></a>여러 프로세스 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +64,7 @@ ms.locfileid: "60039702"
 - [Visual Studio 솔루션의 여러 프로세스 디버깅 시작](#BKMK_Start_debugging_multiple_processes_in_a_Visual_Studio_solution) • [시작 프로젝트 변경](#BKMK_Change_the_startup_project) • [솔루션의 특정 프로젝트 시작](#BKMK_Start_a_specific_project_in_a_solution) • [의 여러 프로젝트 시작을 솔루션](#BKMK_Start_multiple_projects_in_a_solution) • [프로세스에 연결](#BKMK_Attach_to_a_process) • [디버거에서 프로세스를 자동으로 시작](#BKMK_Automatically_start_an_process_in_the_debugger)  
   
 > [!NOTE]
->  자식 프로젝트가 동일한 솔루션에 있는 경우에도 디버거는 디버깅된 프로세스에서 시작되는 자식 프로세스에 자동으로 연결되지 않습니다. 자식 프로세스를 디버깅하려면:  
+> 자식 프로젝트가 동일한 솔루션에 있는 경우에도 디버거는 디버깅된 프로세스에서 시작되는 자식 프로세스에 자동으로 연결되지 않습니다. 자식 프로세스를 디버깅하려면:  
 > 
 > - 자식 프로세스가 시작된 후 자식 프로세스에 연결합니다.  
 > 
@@ -166,7 +166,7 @@ ms.locfileid: "60039702"
 ### <a name="BKMK_Break__step__and_continue_commands"></a> 명령 중단, 단계별 실행 및 계속 실행  
   
 > [!NOTE]
->  기본적으로 디버거 명령을 중단하고 계속 실행하고 단계별로 실행하면 디버그 중인 모든 프로세스가 영향을 받습니다. 이 동작을 변경 하려면 참조 [여러 프로세스의 실행 동작 구성](#BKMK_Configure_the_execution_behavior_of_multiple_processes)  
+> 기본적으로 디버거 명령을 중단하고 계속 실행하고 단계별로 실행하면 디버그 중인 모든 프로세스가 영향을 받습니다. 이 동작을 변경 하려면 참조 [여러 프로세스의 실행 동작 구성](#BKMK_Configure_the_execution_behavior_of_multiple_processes)  
   
 ||||  
 |-|-|-|  
@@ -197,7 +197,7 @@ ms.locfileid: "60039702"
   Visual Studio 솔루션의 프로세스 디버깅을 시작 하는 경우 이미 실행 중인 다른 프로세스에 연결 하 고 선택한 예를 들어 **디버깅 중지**, 디버깅 세션이 끝나면 Visual Studio에서 시작 된 프로세스 종료, 연결 하는 프로세스는 계속 실행 하는 동안. 다음 절차를 사용하여 디버깅을 중지하는 방법을 제어할 수 있습니다.  
   
 > [!NOTE]
->  합니다 **한 프로세스가 중단 될 때 모든 프로세스 중단** 옵션 디버깅 또는 종료 및 프로세스에서 분리를 중지 하는 중에 영향을 주지 않습니다.  
+> 합니다 **한 프로세스가 중단 될 때 모든 프로세스 중단** 옵션 디버깅 또는 종료 및 프로세스에서 분리를 중지 하는 중에 영향을 주지 않습니다.  
   
  **디버깅 중지는 개별 프로세스에 미치는 영향을 변경 하려면**  
   

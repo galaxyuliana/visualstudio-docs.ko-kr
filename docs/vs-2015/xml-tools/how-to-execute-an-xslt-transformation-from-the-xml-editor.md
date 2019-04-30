@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ec546997d5c6ff75a3ccba1e60e9fe7a4b5b7c74
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8085864ebdb73e8233322a2f91a044dec95dc126
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431046"
 ---
 # <a name="how-to-execute-an-xslt-transformation-from-the-xml-editor"></a>방법: XML 편집기에서 XSLT 변환 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ XML 편집기에서 XSLT 스타일시트를 XML 문서에 연결하고 변형을
 3. 클릭 합니다 **ShowXSL 출력** 단추를 **XML 편집기** 도구 모음입니다.  
   
     > [!NOTE]
-    >  XML 문서에 연결된 스타일시트가 없을 경우 대화 상자에서 사용할 스타일시트를 지정하라는 메시지가 나타납니다.  
+    > XML 문서에 연결된 스타일시트가 없을 경우 대화 상자에서 사용할 스타일시트를 지정하라는 메시지가 나타납니다.  
     >   
     >  XSLT 변환의 결과로 나타나는 출력이 새 문서 창에 표시됩니다.  
   
@@ -51,7 +51,7 @@ XML 편집기에서 XSLT 스타일시트를 XML 문서에 연결하고 변형을
 2. XML 문서를 지정 합니다 **입력** 문서의 필드 **속성** 창입니다.  
   
     > [!NOTE]
-    >  XML 문서는 변환에 사용되는 입력 문서입니다. XSLT 변환을 시작 되 면 문서를 지정 하지 않으면 합니다 **파일 열기** 대화 상자가 나타나고 해당 시점에 문서를 지정할 수 있습니다.  
+    > XML 문서는 변환에 사용되는 입력 문서입니다. XSLT 변환을 시작 되 면 문서를 지정 하지 않으면 합니다 **파일 열기** 대화 상자가 나타나고 해당 시점에 문서를 지정할 수 있습니다.  
   
 3. 클릭 합니다 **ShowXSLT 출력** 단추를 **XML 편집기** 도구 모음입니다.  
   

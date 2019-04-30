@@ -8,12 +8,12 @@ ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2a6d3b302825ca8ba33c9d0c44dbe18929c20ce2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 44b1083a9de4a5fe3e86ae37814f6df85f8c1e56
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435501"
 ---
 # <a name="walkthrough-creating-an-sdk-using-c-or-visual-basic"></a>연습: C# 또는 Visual Basic을 사용하여 SDK 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "60081479"
 8. 에 **구성** 열 되어 있는지 확인 **SimpleMath** 행으로 설정 됩니다 **릴리스**를 선택한 후는 **닫기** 단추를는 변경 내용입니다.  
   
     > [!IMPORTANT]
-    >  SimpleMath 구성 요소에 대 한 SDK에는 하나의 구성만 포함 됩니다. 이 구성은 릴리스 빌드의 경우 해야 합니다. 또는 구성 요소를 사용 하는 앱에 대 한 인증을 전달 하지는[!INCLUDE[win8_appstore_long](../includes/win8-appstore-long-md.md)]합니다.  
+    > SimpleMath 구성 요소에 대 한 SDK에는 하나의 구성만 포함 됩니다. 이 구성은 릴리스 빌드의 경우 해야 합니다. 또는 구성 요소를 사용 하는 앱에 대 한 인증을 전달 하지는[!INCLUDE[win8_appstore_long](../includes/win8-appstore-long-md.md)]합니다.  
   
 9. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **SimpleMath** 프로젝트 노드를 선택한 후 **빌드**합니다.  
   

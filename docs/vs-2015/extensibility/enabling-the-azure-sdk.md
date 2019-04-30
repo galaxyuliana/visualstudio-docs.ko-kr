@@ -11,12 +11,12 @@ ms.assetid: 1c323afd-fb4e-449a-adaa-bb7a5d3b1468
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 3870027762675f4f9791fa720ae932aedf0b5f90
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1830e014a32129b8e63c78d179eed12f3375b035
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432151"
 ---
 # <a name="enabling-the-azure-sdk"></a>Azure SDK를 사용 하도록 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ Azure SDK for.NET 통해 있습니다 만들기, 구성, 빌드, 디버그, 실�
      설치 관리자의 지침에 따릅니다.  
   
     > [!NOTE]
-    >  Azure Tools를 설치 하려면 인터넷 정보 서비스 7.0 및 ASP.NET 응용 프로그램 개발 구성 요소가 설치 되어 있어야 합니다. 이러한 구성 요소가 설치 되지 않은 경우 Azure Tools 설치 프로그램이 설치 메시지가 나타납니다.  
+    > Azure Tools를 설치 하려면 인터넷 정보 서비스 7.0 및 ASP.NET 응용 프로그램 개발 구성 요소가 설치 되어 있어야 합니다. 이러한 구성 요소가 설치 되지 않은 경우 Azure Tools 설치 프로그램이 설치 메시지가 나타납니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Azure](https://azure.microsoft.com/)   

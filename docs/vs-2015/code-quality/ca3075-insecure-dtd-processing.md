@@ -8,12 +8,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 3664061cf8c1233f3aa25341b5c77c21de51d2c7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 1923b2c41675bfcf20ca1f9c0035dd1e500debe4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63425433"
 ---
 # <a name="ca3075-insecure-dtd-processing"></a>CA3075: DTD 처리가 안전하지 않습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ ms.locfileid: "58983875"
 - Load() 메서드가 모든 InnerXml 경우에서 XmlReader 인스턴스를 사용하는지 확인합니다.
 
 > [!NOTE]
->  이 규칙은 일부 유효한 XmlSecureResolver 인스턴스에 대해 가양성(false positive)을 보고할 수 있습니다. 2016년 중반까지 이 문제를 해결하기 위해 작업하고 있습니다.
+> 이 규칙은 일부 유효한 XmlSecureResolver 인스턴스에 대해 가양성(false positive)을 보고할 수 있습니다. 2016년 중반까지 이 문제를 해결하기 위해 작업하고 있습니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  입력 출처를 신뢰할 수 있는지 확신할 수 없으면 이 경고의 규칙이 표시되지 않도록 설정하지 않도록 합니다.

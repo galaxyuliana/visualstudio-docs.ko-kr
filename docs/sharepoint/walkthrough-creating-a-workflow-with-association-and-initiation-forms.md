@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 43ee8d26338b6d15530c51191c3368d3fc556d2c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 08c63966528a2ae34d5a9d776ee111ecee96b22f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430374"
 ---
 # <a name="walkthrough-create-a-workflow-with-association-and-initiation-forms"></a>연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만들기
   이 연습에는 연결 및 초기화 폼의 사용을 통합 하는 기본 순차 워크플로 만드는 방법을 보여 줍니다. 이 SharePoint 관리자 (연결 형식)가 처음 연결할 때 및 워크플로 (양식)가 시작 될 때 워크플로에 추가 하는 매개 변수를 사용 하도록 설정 하는 ASPX 폼입니다.
@@ -50,9 +50,9 @@ ms.locfileid: "60081738"
 - 수동으로 워크플로 시작 합니다.
 
 > [!NOTE]
->  이 연습에서는 순차 워크플로 프로젝트를 사용 하지만 프로세스는 상태 시스템 워크플로 동일 합니다.
+> 이 연습에서는 순차 워크플로 프로젝트를 사용 하지만 프로세스는 상태 시스템 워크플로 동일 합니다.
 >
->  컴퓨터를 다른 이름이 나 위치 중 일부에 대해 표시할 수 있습니다는 또한는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 다음 지침에서는 사용자 인터페이스 요소입니다. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 해야 하는 버전 및 설정을 사용 하는 이러한 요소를 확인 합니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 컴퓨터를 다른 이름이 나 위치 중 일부에 대해 표시할 수 있습니다는 또한는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 다음 지침에서는 사용자 인터페이스 요소입니다. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 해야 하는 버전 및 설정을 사용 하는 이러한 요소를 확인 합니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
@@ -134,7 +134,7 @@ ms.locfileid: "60081738"
 3. 확장을 **ExpenseReportAssocForm.aspx** 파일 **솔루션 탐색기** 해당 종속 파일을 표시 합니다.
 
     > [!NOTE]
-    >  프로젝트에 있으면 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]를 선택 해야 합니다는 **모든 파일 보기** 이 단계를 수행 하는 단추입니다.
+    > 프로젝트에 있으면 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]를 선택 해야 합니다는 **모든 파일 보기** 이 단계를 수행 하는 단추입니다.
 
 4. ExpenseReportAssocForm.aspx 파일에 대 한 바로 가기 메뉴를 열고 **코드 보기**합니다.
 
@@ -325,7 +325,7 @@ ms.locfileid: "60081738"
     ```
 
     > [!NOTE]
-    >  코드를 바꿉니다 `somedomain\\someuser` 작업은 만들 수 있는, 같은 도메인 및 사용자 이름으로 "`Office\\JoeSch`"입니다. 테스트를 위해 사용 하 여 개발 하는 계정을 사용 하 여 쉽습니다.
+    > 코드를 바꿉니다 `somedomain\\someuser` 작업은 만들 수 있는, 같은 도메인 및 사용자 이름으로 "`Office\\JoeSch`"입니다. 테스트를 위해 사용 하 여 개발 하는 계정을 사용 하 여 쉽습니다.
 
 3. 아래는 `MethodInvoking` 메서드를 다음 예제에서는 추가:
 

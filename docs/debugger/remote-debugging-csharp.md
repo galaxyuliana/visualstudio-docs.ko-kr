@@ -19,14 +19,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: c2e388154e0efa129a916fd0461a01317edbb870
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
-ms.translationtype: MTE95
+ms.openlocfilehash: 4c646f8f6dc228d42d6efb5ec44f3ec19a53a551
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408530"
 ---
-# <a name="remote-debugging-a-c-or-visual-basic-project-in-visual-studio"></a>원격 디버깅을 C# 또는 Visual Studio에서 Visual Basic 프로젝트
+# <a name="remote-debugging-a-c-or-visual-basic-project-in-visual-studio"></a>Visual Studio에서 C# 또는 Visual Basic 프로젝트 원격 디버그
 다른 컴퓨터에 배포 된 Visual Studio 응용 프로그램을 디버깅 하려면 설치 하 고 앱을 배포한 컴퓨터에서 원격 도구를 실행, Visual Studio에서 원격 컴퓨터에 연결 하도록 프로젝트를 구성 및 응용 프로그램을 실행 합니다.
 
 ![원격 디버거 구성 요소](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
@@ -90,7 +90,7 @@ ms.locfileid: "58355165"
 10. Visual Studio 컴퓨터에서 방금 빌드한 실행 파일을 원격 컴퓨터에서 새로 만든 폴더에 복사합니다.
 
     > [!CAUTION]
-    >  코드를 다시 작성을 변경 하지 마세요 (또는이 단계를 반복 해야 합니다). 원격 컴퓨터에 복사한 실행 파일은 로컬 소스 및 기호와 정확히 일치해야 합니다.
+    > 코드를 다시 작성을 변경 하지 마세요 (또는이 단계를 반복 해야 합니다). 원격 컴퓨터에 복사한 실행 파일은 로컬 소스 및 기호와 정확히 일치해야 합니다.
 
     프로젝트를 수동으로 복사, Xcopy, Robocopy, Powershell 또는 다른 옵션을 사용할 수 있습니다.
 

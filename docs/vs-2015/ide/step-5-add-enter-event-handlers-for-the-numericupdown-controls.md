@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5e5956414b7d298c5bf198d6e1e7daf3bceb6638
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 970f0d592eca22b6f07bc4f938edcd0370ecf9d5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056369"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434034"
 ---
 # <a name="step-5-add-enter-event-handlers-for-the-numericupdown-controls"></a>5단계: NumericUpDown 컨트롤에 대한 Enter 이벤트 처리기 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60056369"
 이 자습서의 5단계에서는 퀴즈 문제의 답을 좀 더 쉽게 입력할 수 있도록 Enter 이벤트 처리기를 추가합니다. 이 코드에서는 퀴즈를 푸는 사람이 NumericUpDown 컨트롤을 선택하고 다른 값을 입력하는 즉시 각 NumericUpDown 컨트롤의 현재 값을 선택하고 지웁니다.  
   
 > [!NOTE]
->  이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
+> 이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
   
 ### <a name="to-verify-the-default-behavior"></a>기본 동작을 확인하려면  
   

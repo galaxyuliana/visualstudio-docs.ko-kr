@@ -9,12 +9,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 27e9d1ce86064c23e3a293382ff7f83389d693f1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 55e7cdc06b1876fe40310f5af44152a70e4a4375
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438876"
 ---
 # <a name="walkthrough-using-xml-editor-features"></a>연습: XML 편집기 기능 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60109059"
 이 연습 단계에서는 새 XML 문서를 만드는 방법을 보여 줍니다. 또한 이 연습에서는 XML 작성에 유용한 몇 가지 XML 편집기 기능을 사용합니다.  
   
 > [!NOTE]
->  연습을 시작하기 전에 이 항목에서 아래에 포함된 hireDate.xsd 파일을 로컬 컴퓨터에 저장해야 합니다.  
+> 연습을 시작하기 전에 이 항목에서 아래에 포함된 hireDate.xsd 파일을 로컬 컴퓨터에 저장해야 합니다.  
   
 ### <a name="to-create-a-new-xml-file-and-associate-it-with-an-xml-schema"></a>새 XML 파일을 만들어 XML 스키마와 연결하려면  
   

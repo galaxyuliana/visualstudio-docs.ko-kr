@@ -9,12 +9,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 51a7aed986eb031ab6493c9c38939d782d2864ad
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3ac986eb03d038121c043250d3001d9c5b6c6b54
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432699"
 ---
 # <a name="how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line"></a>방법: Profiler 명령줄을 사용 하 여는 기본 서비스 및 자세한 타이밍 데이터 수집을 계측합니다
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,9 +22,9 @@ ms.locfileid: "60092879"
 이 항목에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로파일링 도구 명령줄 도구를 사용하여 네이티브(C/C++) 서비스를 계측하고 자세한 타이밍 데이터를 수집하는 방법을 설명합니다.  
 
 > [!NOTE]
->  서비스가 컴퓨터가 운영 체제가 시작되는 경우에만 시작하는 서비스를 시작한 후 다시 시작할 수 없는 경우 계측 방법으로 서비스를 프로파일링할 수 없습니다.  
+> 서비스가 컴퓨터가 운영 체제가 시작되는 경우에만 시작하는 서비스를 시작한 후 다시 시작할 수 없는 경우 계측 방법으로 서비스를 프로파일링할 수 없습니다.  
 >   
->  프로파일링 도구의 명령줄 도구는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.  
+> 프로파일링 도구의 명령줄 도구는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.  
 
  계측 방법을 사용하여 네이티브 서비스에서 자세한 타이밍 데이터를 수집하려면 [VSInstr.exe](../profiling/vsinstr.md) 도구를 사용하여 계측된 구성 요소의 버전을 생성합니다. 그런 다음 계측되지 않은 버전의 서비스를 계측된 버전으로 바꿉니다. 서비스가 수동으로 시작되도록 구성되어 있는지 확인합니다. 그런 다음 프로파일러를 시작합니다.  
 
@@ -53,7 +53,7 @@ ms.locfileid: "60092879"
      **/start:trace** 옵션과 다음 옵션을 함께 사용할 수 있습니다.  
 
    > [!NOTE]
-   >  **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 응용 프로그램에 필요합니다.  
+   > **/user** 및 **/crosssession** 옵션은 대개 ASP.NET 응용 프로그램에 필요합니다.  
 
    |                                 옵션                                  |                                                                                                                                                   설명                                                                                                                                                    |
    |-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

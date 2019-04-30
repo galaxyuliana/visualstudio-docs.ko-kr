@@ -13,12 +13,12 @@ ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
 caps.latest.revision: 36
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 78561db4bbf9517cc3fbcd5d9ac6ca36fcafbe05
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cab4244fbf9173895159a4b104260006fc93f0c2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436256"
 ---
 # <a name="making-commands-available"></a>명령을 사용 가능하게 지정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -101,7 +101,7 @@ Visual Studio에 여러 Vspackage를 추가 하는 경우 사용자 인터페이
 - 컨텍스트를 설정 `GUID`켜고 s (호출 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext%2A> 메서드).  
   
     > [!CAUTION]
-    >  VSPackage 영향을 주지 않습니다 모든 기존 컨텍스트 GUID의 상태에 따라 달라질 수 있습니다 다른 Vspackage 때문에 있는지 확인 합니다.  
+    > VSPackage 영향을 주지 않습니다 모든 기존 컨텍스트 GUID의 상태에 따라 달라질 수 있습니다 다른 Vspackage 때문에 있는지 확인 합니다.  
   
 ## <a name="example"></a>예제  
  VSPackage 명령의 다음 예제에서는 VSPackage를 로드 하지 않고 명령 컨텍스트에서 관리 되는 명령의 동적 표시 유형을 보여 줍니다.  

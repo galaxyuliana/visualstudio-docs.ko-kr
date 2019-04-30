@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c2971a13e82e4b31f985be6db2a8a32167a3f74b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 51430c78dcf694a602ce6b8904262647a257ac32
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54796222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63403480"
 ---
 # <a name="math-nodes"></a>수학 노드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,11 +22,11 @@ ms.locfileid: "54796222"
 셰이더 디자이너에서 수학 노드는 대수, 논리, 삼각 및 기타 수학 연산을 수행합니다.  
   
 > [!NOTE]
->  셰이더 디자이너에서 수학 노드를 사용하면 형식 승격이 특히 뚜렷하게 나타납니다. 형식 승격이 입력 매개 변수에 어떻게 영향을 주는지 알아보려면 [셰이더 디자이너 노드](../designers/shader-designer-nodes.md)에서 "입력의 승격" 섹션을 참조하세요.  
+> 셰이더 디자이너에서 수학 노드를 사용하면 형식 승격이 특히 뚜렷하게 나타납니다. 형식 승격이 입력 매개 변수에 어떻게 영향을 주는지 알아보려면 [셰이더 디자이너 노드](../designers/shader-designer-nodes.md)에서 "입력의 승격" 섹션을 참조하세요.  
   
 ## <a name="math-node-reference"></a>수학 노드 참조  
   
-|노드|세부 정보|속성|  
+|노드|설명|속성|  
 |----------|-------------|----------------|  
 |**Abs**|구성 요소별로 지정된 입력의 절대값을 계산합니다.<br /><br /> 입력 `X`의 각 구성 요소에 대해 음수 값을 양수로 바꿔 결과의 모든 구성 요소가 양수 값을 갖도록 합니다.<br /><br /> **입력:**<br /><br /> `X`: `float`, `float2`, `float3` 또는 `float4`<br /> 절대 값을 확인할 값입니다.<br /><br /> `Output:`<br /><br /> `Output`: 입력 `X`과 동일<br /> 구성 요소별 절대 값입니다.|없음|  
 |**추가**|구성 요소별로 지정된 입력의 구성 요소 단위 합계를 계산합니다.<br /><br /> 결과의 각 구성 요소에 대해 입력 `X` 및 입력 `Y`의 해당 구성 요소를 더합니다.<br /><br /> **입력:**<br /><br /> `X`: `float`, `float2`, `float3` 또는 `float4`<br /> 더할 값 중 하나입니다.<br /><br /> `Y`: 입력 `X`과 동일<br /> 더할 값 중 하나입니다.<br /><br /> **출력:**<br /><br /> `Output`: 입력 `X`과 동일<br /> 구성 요소별 합계입니다.|없음|  

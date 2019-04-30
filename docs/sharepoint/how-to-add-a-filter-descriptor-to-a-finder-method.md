@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: dc6492b52cb739c49bdba9f231ebcda313a66105
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: fceb6270aea9da5af1a53adf7560df7dd3702349
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068667"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63418293"
 ---
 # <a name="how-to-add-a-filter-descriptor-to-a-finder-method"></a>방법: Finder 메서드에 필터 설명자 추가
   필터 설명자 값을 전달할 메서드가 실행 되기 전에 모델의 소비자를 사용 합니다. 자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.
@@ -62,7 +62,7 @@ ms.locfileid: "60068667"
      다음 예제에서는 지정 된 순서 대로 날짜를 가진 판매 주문을 반환 합니다.
 
     > [!NOTE]
-    >  값을 `ServerName` 필드 서버의 이름입니다.
+    > 값을 `ServerName` 필드 서버의 이름입니다.
 
      [!code-csharp[SP_BDC#11](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs#11)]
      [!code-vb[SP_BDC#11](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb#11)]

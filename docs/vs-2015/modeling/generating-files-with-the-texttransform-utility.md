@@ -12,12 +12,12 @@ caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 75438b5a2ffa5917f667ab3fdc3a9bd3528f0e55
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 607eda7550819e4150f026a0671ed744ba9c10a7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427051"
 ---
 # <a name="generating-files-with-the-texttransform-utility"></a>TextTransform 유틸리티 사용하여 파일 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58986228"
 TextTransform.exe는 텍스트 템플릿을 변환 하는 데 사용할 수 있는 명령줄 도구입니다. TextTransform.exe를 호출할 때 인수로 텍스트 템플릿 파일의 이름을 지정 합니다. TextTransform.exe는 텍스트 변형 엔진을 호출 하 고 텍스트 템플릿을 처리 합니다. 일반적으로 TextTransform.exe 스크립트에서 호출 됩니다. 그러나이 아니므로 일반적으로 필요한 Visual Studio 또는 빌드 프로세스에서 텍스트 변환 작업을 수행할 수 있습니다.  
   
 > [!NOTE]
->  빌드 프로세스의 일부로 텍스트 변환을 수행 하려는 경우에 MSBuild 텍스트 변환 작업을 사용 하는 것이 좋습니다. 자세한 내용은 [빌드 프로세스에서 코드 생성](../modeling/code-generation-in-a-build-process.md)합니다. 컴퓨터에서 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 가 설치 되어 응용 프로그램을 작성할 수도 있습니다 또는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 텍스트 템플릿을 변형할 수 있는 확장 합니다. 자세한 내용은 [사용자 지정 호스트를 사용 하 여 텍스트 템플릿 처리](../modeling/processing-text-templates-by-using-a-custom-host.md)합니다.  
+> 빌드 프로세스의 일부로 텍스트 변환을 수행 하려는 경우에 MSBuild 텍스트 변환 작업을 사용 하는 것이 좋습니다. 자세한 내용은 [빌드 프로세스에서 코드 생성](../modeling/code-generation-in-a-build-process.md)합니다. 컴퓨터에서 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 가 설치 되어 응용 프로그램을 작성할 수도 있습니다 또는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 텍스트 템플릿을 변형할 수 있는 확장 합니다. 자세한 내용은 [사용자 지정 호스트를 사용 하 여 텍스트 템플릿 처리](../modeling/processing-text-templates-by-using-a-custom-host.md)합니다.  
   
  TextTransform.exe은 다음 디렉터리에 있습니다.  
   

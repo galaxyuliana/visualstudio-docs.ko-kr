@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 89c4a4598b92096d968225f7420d46244aeca3dc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3a2354df7027f3aa73f13e830b9a85895e54c920
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419291"
 ---
 # <a name="how-to-programmatically-store-and-retrieve-date-values-in-excel-ranges"></a>방법: 프로그래밍 방식으로 저장 하 고 Excel 범위에서 날짜 값 검색
   저장할 수 있으며 값을 검색 한 <xref:Microsoft.Office.Tools.Excel.NamedRange> 컨트롤 또는 네이티브 Excel 범위 개체입니다.
@@ -34,7 +34,7 @@ ms.locfileid: "60082908"
  Visual Studio에서 Office 개발 도구를 사용 하 여 범위에서 1900 년 1 월 1 일 이후인 속하는 날짜 값을 저장 하는 경우 OLE Automation (OA) 형식으로 저장 됩니다. 사용 해야는 <xref:System.DateTime.FromOADate%2A> OLE Automation (OA) 날짜 값을 검색 하는 방법입니다. 1900 년 1 월 1 일 보다 이전 날짜인 경우 문자열로 저장 됩니다.
 
 > [!NOTE]
->  Excel 날짜는 1900의 첫 2 개월에 대 한 OLE 자동화 날짜에서 다릅니다. 도 차이가 발생 하는 경우는 **1904 날짜 체계** 옵션을 선택 합니다. 아래 코드 예제에서는 이러한 차이점을 다루지 않습니다.
+> Excel 날짜는 1900의 첫 2 개월에 대 한 OLE 자동화 날짜에서 다릅니다. 도 차이가 발생 하는 경우는 **1904 날짜 체계** 옵션을 선택 합니다. 아래 코드 예제에서는 이러한 차이점을 다루지 않습니다.
 
 ## <a name="use-a-namedrange-control"></a>NamedRange 컨트롤을 사용 하 여
 

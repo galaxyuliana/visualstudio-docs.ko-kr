@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 29ee765bfc11362a870d359ff0a9cdc3f633e464
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 44d877f7ff6774e8e52428f4a44acab99816c480
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434418"
 ---
 # <a name="how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps"></a>방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ ms.locfileid: "60080802"
 3. 출력 형식을 블록 압축 형식 중 하나로 설정합니다. **구성 속성**, **이미지 콘텐츠 파이프라인**, **일반** 페이지에서 **압축** 속성을 **BC3_UNORM 압축(/compress:BC3_UNORM)** 으로 설정합니다. 요구 사항에 따라 기타 BC1, BC2 또는 BC3 형식 중에서 선택할 수 있습니다. Direct2D는 현재 BC4, BC5, BC6 또는 BC7 질감을 지원하지 않습니다. 다른 BC 형식에 대한 자세한 내용은 [Block Compression (Direct3D 10)](http://msdn.microsoft.com/library/windows/desktop/bb694531.aspx)(블록 압축(Direct3D 10))을 참조하세요.  
   
    > [!NOTE]
-   >  지정된 압축 형식은 이미지 콘텐츠 파이프라인에서 생성되는 파일의 형식을 결정합니다. 이 형식은 이미지 편집기에 있는 소스 이미지의 **형식** 속성과 다릅니다. 이 속성은 디스크에 저장된 소스 이미지 파일의 형식(*작업 형식*)을 결정합니다. 일반적으로 압축된 작업 형식은 필요하지 않습니다.  
+   > 지정된 압축 형식은 이미지 콘텐츠 파이프라인에서 생성되는 파일의 형식을 결정합니다. 이 형식은 이미지 편집기에 있는 소스 이미지의 **형식** 속성과 다릅니다. 이 속성은 디스크에 저장된 소스 이미지 파일의 형식(*작업 형식*)을 결정합니다. 일반적으로 압축된 작업 형식은 필요하지 않습니다.  
   
 4. 미리 곱한 알파를 사용하는 출력을 생성하도록 이미지 콘텐츠 파이프라인을 구성합니다. **구성 속성**, **이미지 콘텐츠 파이프라인**, **일반** 페이지에서 **미리 곱한 알파 형식으로 변환** 속성을 **예(/generatepremultipliedalpha)** 로 설정합니다.  
   

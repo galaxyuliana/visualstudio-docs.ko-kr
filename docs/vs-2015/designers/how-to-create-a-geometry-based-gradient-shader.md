@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8735931e761f7d511615b5be7e93e0198a6b1a45
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: eda8424aeb28231df0ae0355931989bec13a89b7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436169"
 ---
 # <a name="how-to-create-a-geometry-based-gradient-shader"></a>방법: 기하 도형 기반 그라데이션 셰이더 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ ms.locfileid: "60071722"
    다음 그림은 구에 적용된 셰이더의 완료된 셰이더 그래프 및 미리 보기를 보여 줍니다.  
   
 > [!NOTE]
->  이 그림에서 주황색은 셰이더의 효과를 더 잘 보여 주기 위해 지정되었지만, 미리 보기 도형은 세계 좌표 위치에서 위치가 없으므로 셰이더 디자이너에서 셰이더를 완전히 미리 볼 수 없습니다. 전체 효과를 보여 주려면 실제 장면에서 셰이더를 미리 봐야 합니다.  
+> 이 그림에서 주황색은 셰이더의 효과를 더 잘 보여 주기 위해 지정되었지만, 미리 보기 도형은 세계 좌표 위치에서 위치가 없으므로 셰이더 디자이너에서 셰이더를 완전히 미리 볼 수 없습니다. 전체 효과를 보여 주려면 실제 장면에서 셰이더를 미리 봐야 합니다.  
   
  ![셰이더 그래프 및 효과 미리 보기](../designers/media/digit-gradient-effect-graph.png "Digit-Gradient-Effect-Graph")  
   

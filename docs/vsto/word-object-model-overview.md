@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 92a0b432e75cb8df6318be0961cc587257869b27
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63009362"
 ---
 # <a name="word-object-model-overview"></a>Word 개체 모델 개요
   Visual Studio에서 Word 솔루션을 개발하는 경우 Word 개체 모델을 조작합니다. 이 개체 모델은 Word용 주 interop 어셈블리에 제공되고 <xref:Microsoft.Office.Interop.Word> 네임스페이스에서 제공되는 클래스 및 인터페이스로 구성됩니다.

@@ -10,12 +10,12 @@ ms.assetid: 81a58e40-7cd0-4ef4-a475-c4e1e84d6e06
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: ff021643313d267cc92d2f08afa8f41a3ce806b5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: bb8270de3635b6a9d28a6bf550b29a014d0fed9f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986011"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432541"
 ---
 # <a name="registering-verbs-for-file-name-extensions"></a>파일 이름 확장명에 대한 동사 등록
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ ms.locfileid: "58986011"
   가능 하면 표준 동사를 등록 합니다. 가장 일반적인 선택은 Open 동사입니다. 지우기 차이가 파일을 열고 파일을 편집 하는 경우에 편집 동사를 사용 합니다. 예를 들어,.htm 파일을 열면 표시 브라우저에서 HTML 편집기를 시작 하는.htm 파일을 편집 하는 반면 합니다. 표준 동사는 운영 체제 로캘을 사용 하 여 지역화 되어 있습니다.  
   
 > [!NOTE]
->  표준 동사를 등록할 때 열린 키에 대 한 기본값을 설정 하지 마십시오. 메뉴의 표시 문자열을 포함 하는 기본값입니다. 운영 체제 표준 동사에 대 한이 문자열을 제공합니다.  
+> 표준 동사를 등록할 때 열린 키에 대 한 기본값을 설정 하지 마십시오. 메뉴의 표시 문자열을 포함 하는 기본값입니다. 운영 체제 표준 동사에 대 한이 문자열을 제공합니다.  
   
  프로젝트 파일의 새 인스턴스를 시작 하려면 등록 해야 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 경우 사용자는 파일을 엽니다. 다음 예제에 대 한 표준 동사 등록을 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 프로젝트입니다.  
   
@@ -111,7 +111,7 @@ ms.locfileid: "58986011"
  기본 동사에는 사용자가 Windows 탐색기에서 파일을 두 번 클릭할 때 실행 되는 동작입니다. 기본 동사는를 HKEY_CLASSES_ROOT에 대 한 기본 값으로 지정 된 동사\\*progid*\Shell 키입니다. 값은 지정 하지 않으면 기본 동사가 인지를 HKEY_CLASSES_ROOT에 지정 된 첫 번째 동사\\*progid*\Shell 키 목록입니다.  
   
 > [!NOTE]
->  Side-by-side-배포에서 확장의 기본 동사가 변경 하려는 경우 설치 및 제거에 미치는 영향을 고려 합니다. 설치 하는 동안 원래 기본 값을 덮어씁니다.  
+> Side-by-side-배포에서 확장의 기본 동사가 변경 하려는 경우 설치 및 제거에 미치는 영향을 고려 합니다. 설치 하는 동안 원래 기본 값을 덮어씁니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [병렬 파일 연결 관리](../extensibility/managing-side-by-side-file-associations.md)

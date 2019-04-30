@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: aba73d5fc6c1609a3347178765ba516840b5176e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e2a7cd6143b9c97bbcd06337d38ae169dfa94305
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438623"
 ---
 # <a name="walkthrough-change-worksheet-formatting-using-checkbox-controls"></a>연습: CheckBox 컨트롤을 사용 하 여 워크시트 서식 변경
   이 연습에서는 Microsoft Office Excel 워크시트에서 확인란을 사용 하 여 서식을 변경 하려면의 기본 사항을 보여 줍니다. 만들고 프로젝트에 코드를 추가 하려면 Visual Studio에서 Office 개발 도구를 사용 합니다. 결과 전체 샘플을 보려면 Excel 컨트롤 샘플을 참조 하세요 [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)합니다.
@@ -35,7 +35,7 @@ ms.locfileid: "60061691"
 - 프로젝트를 테스트 합니다.
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
@@ -94,7 +94,7 @@ ms.locfileid: "60061691"
      끌어 다음으로 <xref:Microsoft.Office.Tools.Excel.NamedRange> 워크시트에 컨트롤입니다.
 
     > [!NOTE]
-    >  추가할 수도 있습니다는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 를 입력 하 여 컨트롤 **텍스트 글꼴** 에 **이름** 상자입니다.
+    > 추가할 수도 있습니다는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 를 입력 하 여 컨트롤 **텍스트 글꼴** 에 **이름** 상자입니다.
 
 #### <a name="to-add-text-to-a-namedrange-control"></a>NamedRange 컨트롤에 텍스트를 추가 하려면
 

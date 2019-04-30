@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 23838c7e68a3da18ba5438a2c56814d6dc27f9b8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c8a701715c0adff479fa29dbe9c9b28287031dfd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102655"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428296"
 ---
 # <a name="step-9-try-other-features"></a>9단계: 기타 기능 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,22 +28,22 @@ ms.locfileid: "60102655"
 - 다른 옵션을 선택하여 아이콘 및 색을 바꿉니다.  
   
     > [!TIP]
-    >  레이블의 [Forecolor](http://msdn.microsoft.com/library/system.windows.forms.control.forecolor%28v=vs.110%29.aspx) 속성을 확인합니다.  
+    > 레이블의 [Forecolor](http://msdn.microsoft.com/library/system.windows.forms.control.forecolor%28v=vs.110%29.aspx) 속성을 확인합니다.  
   
 - 플레이어가 승리하는 데 걸리는 시간을 추적하는 게임 타이머를 추가합니다.  
   
     > [!TIP]
-    >  이렇게 하려면 TableLayoutPanel 위의 폼에 경과된 시간을 표시하는 레이블을 추가하고, 시간을 추적하는 다른 하나의 타이머를 폼에 추가합니다. 코드를 사용하여 플레이어가 게임을 시작할 때 타이머가 시작되고 마지막 두 개의 아이콘을 일치시킨 후 타이머가 중지되도록 합니다.  
+    > 이렇게 하려면 TableLayoutPanel 위의 폼에 경과된 시간을 표시하는 레이블을 추가하고, 시간을 추적하는 다른 하나의 타이머를 폼에 추가합니다. 코드를 사용하여 플레이어가 게임을 시작할 때 타이머가 시작되고 마지막 두 개의 아이콘을 일치시킨 후 타이머가 중지되도록 합니다.  
   
 - 플레이어가 일치 항목을 찾을 때 재생되는 소리, 일치하지 않는 두 아이콘을 발견할 때 재생되는 소리, 프로그램에서 다시 아이콘을 숨길 때 재생되는 소리를 각각 다르게 추가합니다.  
   
     > [!TIP]
-    >  소리를 재생하려면 System.media 네임스페이스를 사용하면 됩니다. 자세한 내용은 [Play Sounds in Windows Forms App (C# .NET)](http://youtu.be/qOh4ooHg1UU)(Windows Forms 앱에서 소리 재생(C# .NET)) 또는 [How To Play Audio In Visual Basic](http://youtu.be/-4oPDeQrtMs)(Visual Basic에서 오디오를 재생하는 방법)을 참조하세요.  
+    > 소리를 재생하려면 System.media 네임스페이스를 사용하면 됩니다. 자세한 내용은 [Play Sounds in Windows Forms App (C# .NET)](http://youtu.be/qOh4ooHg1UU)(Windows Forms 앱에서 소리 재생(C# .NET)) 또는 [How To Play Audio In Visual Basic](http://youtu.be/-4oPDeQrtMs)(Visual Basic에서 오디오를 재생하는 방법)을 참조하세요.  
   
 - 보드 크기를 늘려 게임 수준을 더 어렵게 만듭니다.  
   
     > [!TIP]
-    >  TableLayoutPanel에 단순히 행과 열을 추가하는 것 이외의 작업을 수행해야 할 수 있으며, 생성한 아이콘 번호를 고려해야 할 수도 있습니다.  
+    > TableLayoutPanel에 단순히 행과 열을 추가하는 것 이외의 작업을 수행해야 할 수 있으며, 생성한 아이콘 번호를 고려해야 할 수도 있습니다.  
   
 - 플레이어의 응답 속도가 너무 느리고 특정 시간 내에 두 번째 아이콘을 선택하지 않으면 첫 번째 아이콘을 숨겨 게임을 더 재미있게 만듭니다.  
   

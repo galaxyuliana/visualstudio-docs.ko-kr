@@ -12,12 +12,12 @@ ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e370f48559638e8c68ea5ac8e04eca6960983475
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6143b21884bc92ac79ae0fd7292a11780fec4478
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439766"
 ---
 # <a name="localizing-vsix-packages"></a>VSIX 패키지 지역화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "60046088"
  Extension.vsixlangpack  
   
 > [!NOTE]
->  VSIX에서 지 원하는 프로젝트 템플릿을 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] VSIX 매니페스트를 생성 하 고 source.extension.vsixmanifest 라는 이름을 지정 합니다. Visual Studio에서 프로젝트를 빌드하고, 하는 경우 해당 파일의 콘텐츠를 복사 Extension.VsixManifest VSIX 패키지에 합니다.  
+> VSIX에서 지 원하는 프로젝트 템플릿을 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] VSIX 매니페스트를 생성 하 고 source.extension.vsixmanifest 라는 이름을 지정 합니다. Visual Studio에서 프로젝트를 빌드하고, 하는 경우 해당 파일의 콘텐츠를 복사 Extension.VsixManifest VSIX 패키지에 합니다.  
   
 ## <a name="the-extensionvsixlangpack-file"></a>Extension.vsixlangpack 파일  
  Extension.vsixlangpack 파일은 다음과 같습니다 합니다 [VSIX 언어 팩 스키마](../extensibility/vsx-language-pack-schema-reference.md)합니다. 이 스키마에는 [VSIXLanguagePack](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md) 루트 요소가 있고 이러한 4 명의 자식 요소: [LocalizedName](../extensibility/localizedname-element-vsix-language-pack-schema.md), [LocalizedDescription](../extensibility/localizeddescription-element-vsix-language-pack-schema.md)합니다 [MoreInfoURL](../extensibility/moreinfourl-element-vsix-language-pack-schema.md), 및 [라이선스](../extensibility/license-element-vsix-language-pack-schema.md)합니다. 이러한 자식 요소에 해당 합니다 `Name`, `Description`, `MoreInfoURL`, 및 `License` 의 자식 요소는 `Identifier` Extension.vsixmanifest 파일의 요소입니다.  

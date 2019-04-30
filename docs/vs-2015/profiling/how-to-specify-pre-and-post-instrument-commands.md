@@ -15,12 +15,12 @@ caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1485ee6f0737363bc6ab9105b70c93acef866c82
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ab7ecbe97ba0b174a1cc4c0f0d169834ce25e8d8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60038345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439708"
 ---
 # <a name="how-to-specify-pre--and-post-instrument-commands"></a>방법: 사전 및 계측 후 명령 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +64,7 @@ ms.locfileid: "60038345"
 3. **계측 전 이벤트** 아래 **명령줄** 텍스트 상자에 명령을 입력합니다.  
   
     > [!NOTE]
-    >  **명령줄** 상자에 인접한 줄임표 단추 **(…)** 를 클릭하여 해당하는 .exe, .cmd 또는 .bat 파일로 이동하고 파일을 선택합니다.  
+    > **명령줄** 상자에 인접한 줄임표 단추 **(…)** 를 클릭하여 해당하는 .exe, .cmd 또는 .bat 파일로 이동하고 파일을 선택합니다.  
   
 4. **확인**을 클릭합니다.  
   
@@ -83,7 +83,7 @@ ms.locfileid: "60038345"
 3. **계측 후 이벤트** 아래 **명령줄** 텍스트 상자에 명령을 입력합니다.  
   
     > [!NOTE]
-    >  **명령줄** 상자에 인접한 줄임표 단추 **(…)** 를 클릭하여 해당하는 .exe, .cmd 또는 .bat 파일로 이동하고 파일을 선택합니다.  
+    > **명령줄** 상자에 인접한 줄임표 단추 **(…)** 를 클릭하여 해당하는 .exe, .cmd 또는 .bat 파일로 이동하고 파일을 선택합니다.  
   
 4. **확인**을 클릭합니다.  
   

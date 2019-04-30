@@ -11,12 +11,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7b9d40f3627cd24aa7758a0d599eb6e5d770c9f8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: b42ecd7ad38144786ff12d5cad20c9e8a1437646
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417569"
 ---
 # <a name="choose-operation-dialog-box-legacy"></a>작업 선택 대화 상자(레거시)
 에 대해 설명 하는 방법을 사용 하 여는 **작업 선택** 레거시 대화 상자 [!INCLUDE[wfd1](../includes/wfd1-md.md)]합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
@@ -36,7 +36,7 @@ ms.locfileid: "58971185"
 |**권한**|해당 작업을 호출할 수 있는 사용자의 <xref:System.Workflow.Activities.OperationInfoBase.PrincipalPermissionName%2A> 및 <xref:System.Workflow.Activities.OperationInfoBase.PrincipalPermissionRole%2A> 속성이 포함된 탭입니다. 예를 들어, 관리자 그룹에서 사용자가 해당 작업을 호출할 허용 된 경우 다음 쓰듯이 "Administrators"는 **역할** 입력란입니다.<br /><br /> 이 탭을 통해 만든 두 작업에 사용 된 **ChooseOperation** 대화 상자 및 작업을 통해 가져온 합니다 **가져오기** 단추입니다.|  
   
 > [!NOTE]
->  합니다 **작업 선택** 계약이 나 작업만 다른 사용 되는 대화 상자 표시 <xref:System.Workflow.Activities.SendActivity> 워크플로에서 활동입니다. 마찬가지로, 합니다 **작업 선택** 대화 상자 <xref:System.Workflow.Activities.ReceiveActivity> 계약이 나 작업만 다른 사용 되는 활동을 보여 줍니다 **ReceiveActivity** 워크플로에서 활동입니다.  
+> 합니다 **작업 선택** 계약이 나 작업만 다른 사용 되는 대화 상자 표시 <xref:System.Workflow.Activities.SendActivity> 워크플로에서 활동입니다. 마찬가지로, 합니다 **작업 선택** 대화 상자 <xref:System.Workflow.Activities.ReceiveActivity> 계약이 나 작업만 다른 사용 되는 활동을 보여 줍니다 **ReceiveActivity** 워크플로에서 활동입니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: WCF 계약 작업 구현 (레거시)](../workflow-designer/how-to-implement-a-windows-communication-foundation-contract-operation-legacy.md)   

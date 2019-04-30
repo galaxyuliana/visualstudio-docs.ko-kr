@@ -19,12 +19,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d2aefe68761d31f87d84c9215a6187c28e7b471b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 3541dada6167bd2f0a95913d9ccc385dc3e5ccc3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439480"
 ---
 # <a name="bind-windows-forms-controls-to-data"></a>데이터에 Windows Forms 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "59668992"
  ![데이터 원본 세부 정보에 바인딩](../data-tools/media/raddata-bind-data-source-to-details.png "raddata 세부 정보를 데이터 원본 바인드")  
   
 > [!IMPORTANT]
->  위의 그림에서, Orders 테이블에서가 아니라 고객 테이블의 Orders 속성에서 끌어 옵니다. Customer.Orders 속성에 바인딩하여 탐색 명령은 DataGridView에 대 한 세부 사항 컨트롤이에 즉시 반영 됩니다. Orders 테이블에서 끌어 놓은 경우 컨트롤은 여전히 데이터 집합에 바인딩할 수 있지만 하지 DataGridView를 사용 하 여 이러한 하지 동기화 됩니다.  
+> 위의 그림에서, Orders 테이블에서가 아니라 고객 테이블의 Orders 속성에서 끌어 옵니다. Customer.Orders 속성에 바인딩하여 탐색 명령은 DataGridView에 대 한 세부 사항 컨트롤이에 즉시 반영 됩니다. Orders 테이블에서 끌어 놓은 경우 컨트롤은 여전히 데이터 집합에 바인딩할 수 있지만 하지 DataGridView를 사용 하 여 이러한 하지 동기화 됩니다.  
   
  다음 그림에 나와 기본 Customers 테이블의 Orders 속성 "Details"에 바인딩된 후 폼에 추가 되는 데이터 바인딩된 컨트롤에는 **데이터 원본** 창입니다.  
   

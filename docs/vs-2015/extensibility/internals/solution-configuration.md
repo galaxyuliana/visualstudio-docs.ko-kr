@@ -10,12 +10,12 @@ ms.assetid: f22cfc75-3e31-4e0d-88a9-3ca99539203b
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: eb14a2031b89f2a7deeb7d98cc483e90125b1905
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: bbd47969a7a48be817e8e2f5359705e03b5d0dc2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432088"
 ---
 # <a name="solution-configuration"></a>솔루션 구성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58983259"
  표준 Visual Studio 도구 모음 시작 단추 및 솔루션 구성 드롭다운 시작 단추의 오른쪽을 포함합니다. 이 목록에는 f5 키를 누를 때 시작할 구성을 선택, 자신의 솔루션 구성 만들기 또는 기존 구성을 편집할 수가 있습니다.  
   
 > [!NOTE]
->  없는 확장성 인터페이스를 만들거나 솔루션 구성 편집 있습니다. 사용 해야 `DTE.SolutionBuilder`합니다. 그러나 솔루션 빌드를 관리 하기 위한 확장성 Api는 합니다. 자세한 내용은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2>을 참조하세요.  
+> 없는 확장성 인터페이스를 만들거나 솔루션 구성 편집 있습니다. 사용 해야 `DTE.SolutionBuilder`합니다. 그러나 솔루션 빌드를 관리 하기 위한 확장성 Api는 합니다. 자세한 내용은 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2>을 참조하세요.  
   
  프로젝트 형식에서 지 원하는 솔루션 구성을 구현 하는 방법을 다음과 같습니다.  
   

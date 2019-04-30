@@ -11,12 +11,12 @@ caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 205ff44c44a73dc44d3a3493347a153fb52e712d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d9d7a64191db82d5fb0b82518d3db1cf1eb1e0ba
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439073"
 ---
 # <a name="how-to-search-for-a-window-in-windows-view"></a>방법: 창 뷰에서 창 검색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "60113042"
      합니다 [창 검색 대화 상자](../debugger/window-search-dialog-box.md) 열립니다.  
   
     > [!TIP]
-    >  화면이 혼란을 줄이기 위해 선택 된 **spy + + 숨기기** 옵션입니다. 이 옵션은 Spy + +의 주 창을 숨기고 커지고만 합니다 **창 검색** 대화 상자를 다른 응용 프로그램을 기반으로 표시 합니다. Spy + + 주 창을 클릭할 때 복원 됩니다 **확인** 또는 **취소**, 선택을 취소 하면 또는 **Spy + + 숨기기** 옵션입니다.  
+    > 화면이 혼란을 줄이기 위해 선택 된 **spy + + 숨기기** 옵션입니다. 이 옵션은 Spy + +의 주 창을 숨기고 커지고만 합니다 **창 검색** 대화 상자를 다른 응용 프로그램을 기반으로 표시 합니다. Spy + + 주 창을 클릭할 때 복원 됩니다 **확인** 또는 **취소**, 선택을 취소 하면 또는 **Spy + + 숨기기** 옵션입니다.  
   
 3. 끌기 합니다 **찾기 도구** 대상 창에 대 한 합니다. 도구를 끌면 합니다 **창 검색** 대화 상자는 선택 된 창의 세부 정보가 표시 됩니다.  
   

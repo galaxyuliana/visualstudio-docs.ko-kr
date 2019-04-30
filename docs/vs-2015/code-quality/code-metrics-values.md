@@ -13,12 +13,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d5e3669ddaf9d8073038f0fa0c01c7e5a19a209d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f103a1239996e1f68fb6dae7a9f0a41f55ad858e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437096"
 ---
 # <a name="code-metrics-values"></a>코드 메트릭 값
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60049564"
 - **순환 복잡성** – 구조적 복잡 한 코드를 측정 합니다. 프로그램 흐름에 다른 코드 경로 수를 계산 하 여 생성 됩니다. 복잡 한 제어 흐름에 있는 프로그램 좋은 코드 검사를 위해 더 많은 테스트 해야 하 고 줄이려면 됩니다.  
   
     > [!NOTE]
-    >  일부 경우에서 메서드에 대 한 순환 복잡성 계산에 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 이전 버전에서 다릅니다. 자세한 내용은 "변경 내용에서 Visual Studio 2010 코드 복잡성 계산 섹션"를 참조 하세요 [코드 메트릭 문제 해결](../code-quality/troubleshooting-code-metrics-issues.md)합니다.  
+    > 일부 경우에서 메서드에 대 한 순환 복잡성 계산에 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 이전 버전에서 다릅니다. 자세한 내용은 "변경 내용에서 Visual Studio 2010 코드 복잡성 계산 섹션"를 참조 하세요 [코드 메트릭 문제 해결](../code-quality/troubleshooting-code-metrics-issues.md)합니다.  
   
 - **상속 수준** – 클래스 계층 구조의 루트를 확장 하는 클래스 정의의 수를 나타냅니다. 더 깊게 계층 더 어렵게 특정 메서드 및 필드 정의 이해 하는 것 또는 / 및 재정의 합니다.  
   

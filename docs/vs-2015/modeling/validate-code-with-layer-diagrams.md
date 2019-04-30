@@ -21,12 +21,12 @@ caps.latest.revision: 84
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 143daa7f54179867325206f62a852fd685852a6f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: e1a0ce9cfaa09a5332d0bce39b31f946b7b5a177
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60051819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437483"
 ---
 # <a name="validate-code-with-layer-diagrams"></a>레이어 다이어그램에 대해 코드 유효성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,7 +56,7 @@ ms.locfileid: "60051819"
   Visual Studio의 열린 레이어 다이어그램 또는 명령 프롬프트에서 코드 유효성 검사를 수동으로 수행할 수 있습니다. 또한 로컬 빌드 또는 Team Foundation Build를 실행할 때 자동으로 코드 유효성 검사를 실행할 수도 있습니다. 참조 [Channel 9 비디오: 디자인 및 아키텍처 레이어 다이어그램을 사용 하 여 유효성 검사](http://go.microsoft.com/fwlink/?LinkID=252073)합니다.  
   
 > [!IMPORTANT]
->  Team Foundation Build를 사용하여 레이어 유효성 검사를 실행하려면 빌드 서버에 동일한 버전의 Visual Studio를 설치해야 합니다.  
+> Team Foundation Build를 사용하여 레이어 유효성 검사를 실행하려면 빌드 서버에 동일한 버전의 Visual Studio를 설치해야 합니다.  
   
 - [항목 유효성 검사 지원](#SupportsValidation)  
   
@@ -92,14 +92,14 @@ ms.locfileid: "60051819"
 1. 다이어그램 곡면을 마우스 오른쪽 단추로 누른 **아키텍처 유효성 검사**합니다.  
   
     > [!NOTE]
-    >  기본적으로 **빌드 작업** 레이어 다이어그램 (.layerdiagram) 파일에 속성이로 설정 된 **유효성 검사** 다이어그램 유효성 검사 프로세스에 포함 되어 있도록 합니다.  
+    > 기본적으로 **빌드 작업** 레이어 다이어그램 (.layerdiagram) 파일에 속성이로 설정 된 **유효성 검사** 다이어그램 유효성 검사 프로세스에 포함 되어 있도록 합니다.  
   
      합니다 **오류 목록** 창에 나타나는 모든 오류를 보고 합니다. 유효성 검사 오류에 대 한 자세한 내용은 참조 하십시오 [레이어 유효성 검사 오류 이해 및 해결](#UnderstandingValidationErrors)합니다.  
   
 2. 각 오류의 소스를 보려면에서 오류를 두 번 클릭 합니다 **오류 목록** 창입니다.  
   
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 오류 소스 대신 코드 맵이 표시될 수도 있습니다. 레이어 다이어그램에 지정되지 않은 어셈블리에 대한 종속성이 코드에 있거나 레이어 다이어그램에 지정된 종속성이 코드에 없는 경우 종속성 그래프가 표시됩니다. 이 경우 코드 맵이나 코드를 검토하여 종속성이 있어야 하는지 여부를 확인합니다. 코드 맵에 대 한 자세한 내용은 참조 하세요. [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)합니다.  
+    > [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 오류 소스 대신 코드 맵이 표시될 수도 있습니다. 레이어 다이어그램에 지정되지 않은 어셈블리에 대한 종속성이 코드에 있거나 레이어 다이어그램에 지정된 종속성이 코드에 없는 경우 종속성 그래프가 표시됩니다. 이 경우 코드 맵이나 코드를 검토하여 종속성이 있어야 하는지 여부를 확인합니다. 코드 맵에 대 한 자세한 내용은 참조 하세요. [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)합니다.  
   
 3. 오류를 관리 하려면 참조 [유효성 검사 오류 관리](#ManageErrors)합니다.  
   
@@ -145,7 +145,7 @@ ms.locfileid: "60051819"
  개발 과정에서 유효성 검사 중 보고된 충돌 문제 중 일부를 표시하지 않을 수 있습니다. 예를 들어 이미 해결되었거나 특정 시나리오와 관계가 없는 오류를 표시하지 않을 수 있습니다. 오류를 표시하지 않는 경우에는 [!INCLUDE[esprfound](../includes/esprfound-md.md)]에 작업 항목을 기록하는 것이 좋습니다.  
   
 > [!WARNING]
->  작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
+> 작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
   
 ##### <a name="to-create-a-work-item-for-a-validation-error"></a>유효성 검사 오류에 대한 작업 항목을 만들려면  
   

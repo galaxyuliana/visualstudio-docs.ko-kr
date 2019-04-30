@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 39b7456d9a045331c53f8465cc7387823c734104
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 2cc26c9d2dae65d8bab0126be5a62b144ebf42b7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56688929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63413294"
 ---
 # <a name="idebugprocess3disableenc"></a>IDebugProcess3::DisableENC
 이 메서드가 명시적으로 편집 하며 계속 하기가 비활성화가이 프로세스에 대 한 포함 하는 모든 프로그램. 사용자 지정 포트 공급자는 항상 반환 `E_NOTIMPL`합니다.
@@ -44,7 +44,7 @@ HRESULT DisableENC(
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
 > [!NOTE]
->  사용자 지정 포트 공급자는 항상 반환 `E_NOTIMPL`합니다.
+> 사용자 지정 포트 공급자는 항상 반환 `E_NOTIMPL`합니다.
 
 ## <a name="remarks"></a>설명
  한 번 편집 하 고 프로세스를 계속 사용할 수 없습니다만 프로세스를 다시 시작 하 여 다시 활성화할 수 있습니다.

@@ -23,12 +23,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 27b0a4c93d6b8143b81b960a9b5f4a2158e7b721
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
-ms.translationtype: MT
+ms.openlocfilehash: e41b7714ce5f9a98e50092c1507457b848201773
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57868174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419608"
 ---
 # <a name="how-to-create-office-projects-in-visual-studio"></a>방법: Visual Studio에서 Office 프로젝트 만들기
   사용할 수 있습니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 만들려면 vsto 추가 기능과 문서 수준 사용자 지정 Microsoft Office 응용 프로그램에 대 한 합니다. 이러한 형식의 프로젝트에 대 한 자세한 내용은 참조 하세요. [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.
@@ -44,7 +44,7 @@ ms.locfileid: "57868174"
     **새 프로젝트** 대화 상자가 나타납니다.
 
    > [!NOTE]
-   >  기본적으로 Office 프로젝트는 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]을(를) 대상으로 합니다. 자세한 내용은 [.NET Framework 클라이언트 프로필](/dotnet/framework/deployment/client-profile)합니다.
+   > 기본적으로 Office 프로젝트는 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]을(를) 대상으로 합니다. 자세한 내용은 [.NET Framework 클라이언트 프로필](/dotnet/framework/deployment/client-profile)합니다.
 
 2. 를 사용 하려는 언어 노드 아래의 템플릿 창에서 확장 **Office/SharePoint**합니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "57868174"
 4. 프로젝트 템플릿 목록에서 VSTO 추가 기능 프로젝트 템플릿을 선택합니다. 프로젝트 템플릿 VSTO 추가 기능을 사용할 수 있는 목록을 참조 하세요 [Office 프로젝트 템플릿 개요](../vsto/office-project-templates-overview.md)합니다.
 
    > [!NOTE]
-   >  프로젝트 템플릿이 표시 되지 않는 경우 선택 하면 합니다 **Office 추가 기능** 노드를 했는지 **.NET Framework 4** 이상이 대화 상자의 맨 위에 있는 콤보 상자에서 선택 합니다. 두 .NET Framework 버전에 대해 모두 Office 프로젝트 템플릿이 표시됩니다.
+   > 프로젝트 템플릿이 표시 되지 않는 경우 선택 하면 합니다 **Office 추가 기능** 노드를 했는지 **.NET Framework 4** 이상이 대화 상자의 맨 위에 있는 콤보 상자에서 선택 합니다. 두 .NET Framework 버전에 대해 모두 Office 프로젝트 템플릿이 표시됩니다.
 
 5. 에 **이름을** 상자, 프로젝트의 이름을 입력 합니다. 기본적으로 프로젝트 이름은 솔루션 이름으로도 사용됩니다.
 
@@ -147,7 +147,7 @@ ms.locfileid: "57868174"
    - 백분율 기호(%)
 
    > [!NOTE]
-   >  [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] 프로젝트에서 기존 문서를 사용할 경우 [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)]에서 생성되거나 해당 항목으로 변환된 문서만 사용하세요. 마찬가지로 Word 2010 프로젝트의 기존 문서를 사용할 경우 Word 2010에서 생성되거나 해당 항목으로 변환된 문서만 사용하세요. 이전 버전 Word에서 생성된 문서를 사용하면 문서에서 특정 기능이 사용하지 않도록 설정됩니다. 이들 기능을 사용하는 코드를 작성하려고 하면 프로젝트에서 오류가 발생할 수 있습니다. 문서를 변환 하려면에서 엽니다 [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] 또는 Word 2010에는 **파일** 리본의 탭을 선택 **정보** > **변환**합니다.
+   > [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] 프로젝트에서 기존 문서를 사용할 경우 [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)]에서 생성되거나 해당 항목으로 변환된 문서만 사용하세요. 마찬가지로 Word 2010 프로젝트의 기존 문서를 사용할 경우 Word 2010에서 생성되거나 해당 항목으로 변환된 문서만 사용하세요. 이전 버전 Word에서 생성된 문서를 사용하면 문서에서 특정 기능이 사용하지 않도록 설정됩니다. 이들 기능을 사용하는 코드를 작성하려고 하면 프로젝트에서 오류가 발생할 수 있습니다. 문서를 변환 하려면에서 엽니다 [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] 또는 Word 2010에는 **파일** 리본의 탭을 선택 **정보** > **변환**합니다.
 
 8. **마침**을 선택합니다.
 

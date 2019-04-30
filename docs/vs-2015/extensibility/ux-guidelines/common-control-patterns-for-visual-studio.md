@@ -8,12 +8,12 @@ ms.assetid: 3e893949-6398-42f1-9eab-a8d8c2b7f02d
 caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 9644aeed1df42aa3a73af7d2cd7d7fa81bd27684
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 246464baea7e07e4d97e3483b423d200cf2b960c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430036"
 ---
 # <a name="common-control-patterns-for-visual-studio"></a>Visual Studio의 일반 컨트롤 패턴
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -325,7 +325,7 @@ ms.locfileid: "60040833"
  일부 단추를 항상 그래픽 이미지를 사용 하 여 공간을 절약 하 고 지역화 문제를 방지 하기 위해 텍스트를 포함 하지 않습니다. 이러한 필드 선택기 및 다른 정렬 가능한 목록에서 자주 사용 됩니다.
 
 > [!NOTE]
->  사용자 (액세스 키가) 이러한 단추를 탭, 따라서 적절 한 순서로 배치 해야 합니다. 단추의 name 속성을 화면 판독기 단추 동작을 올바르게 해석할 수 있도록 소요 되는 작업에 매핑됩니다.
+> 사용자 (액세스 키가) 이러한 단추를 탭, 따라서 적절 한 순서로 배치 해야 합니다. 단추의 name 속성을 화면 판독기 단추 동작을 올바르게 해석할 수 있도록 소요 되는 작업에 매핑됩니다.
 
 |||
 |-|-|

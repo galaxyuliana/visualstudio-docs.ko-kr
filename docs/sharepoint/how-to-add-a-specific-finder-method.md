@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e6f52caf33820b230eb00b1be2999fe7f972176f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 8fdd467f2b3a06398198f6fd8452c6a548bf0872
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431278"
 ---
 # <a name="how-to-add-a-specific-finder-method"></a>방법: 특정 Finder 메서드 추가
   만들어 단일 엔터티 인스턴스를 반환할 수 있습니다는 *Specificfinder* 메서드. 비즈니스 데이터 연결 (BDC) 서비스는 사용자가 비즈니스 데이터 웹 파트 또는 외부 목록에서 엔터티를 선택할 때 특정 Finder 메서드를 실행 합니다. 자세한 내용은 [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.
@@ -58,10 +58,10 @@ ms.locfileid: "56615288"
 5. 엔터티 형식 설명자를 반환 매개 변수의 형식 설명자를 구성 합니다. 엔터티 형식 설명자를 만드는 방법에 대 한 자세한 내용은 [방법: 매개 변수의 형식 설명자 정의](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)합니다.
 
    > [!NOTE]
-   >  엔터티에 Finder 메서드를 추가한 경우이 단계를 수행할 필요가 없습니다. Visual Studio Finder 메서드에 정의 된 형식 설명자를 사용 합니다.
+   > 엔터티에 Finder 메서드를 추가한 경우이 단계를 수행할 필요가 없습니다. Visual Studio Finder 메서드에 정의 된 형식 설명자를 사용 합니다.
 
    > [!NOTE]
-   >  엔터티 형식의 식별자 필드는 자동으로 생성 되는 데이터베이스 테이블의 필드를 나타내는 경우 설정 합니다 **읽기 전용** 식별자 필드의 속성 **True**합니다.
+   > 엔터티 형식의 식별자 필드는 자동으로 생성 되는 데이터베이스 테이블의 필드를 나타내는 경우 설정 합니다 **읽기 전용** 식별자 필드의 속성 **True**합니다.
 
 6. 에 **메서드 세부 정보** 창 메서드의 메서드 인스턴스를 선택 합니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "56615288"
      다음 예제에서는 AdventureWorks 샘플 데이터베이스에서 SQL Server에 대 한 연락처를 반환합니다.
 
      > [!NOTE]
-     >  값을 `ServerName` 필드 서버의 이름입니다.
+     > 값을 `ServerName` 필드 서버의 이름입니다.
 
      [!code-csharp[SP_BDC#3](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#3)]
      [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]

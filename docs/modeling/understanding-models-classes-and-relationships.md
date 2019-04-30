@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d486ae5c056be37c0284d39fabaa6945f5c91659
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d629c0049966d0520e0e40d23b0fd41798ccf2b6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63386978"
 ---
 # <a name="understanding-models-classes-and-relationships"></a>모델, 클래스 및 관계 이해
 도메인 특정 언어 (DSL) 작성할 수 있는 모든 사용자 지정 프로그램 코드와 함께 해당 DSL 정의 파일에서 정의 됩니다. DSL 솔루션에 있는 프로그램 코드의 대부분은이 파일에서 생성 됩니다.
@@ -93,7 +93,7 @@ ms.locfileid: "60045033"
  모델을 저장 하는 경우 XML 형식에서 파일에 포함 된 요소 내에 중첩 된 부모 serialization 사용자 지정 하지 않으면.
 
 > [!NOTE]
->  포함은 상속과는 다릅니다. 포함 관계에 있는 자식 부모의 속성을 상속 하지 않습니다. 모델 요소 간의 링크 형식에는 포함 합니다. 상속은 클래스 간의 관계 이며 모델 요소 간에 링크를 만들지 않습니다.
+> 포함은 상속과는 다릅니다. 포함 관계에 있는 자식 부모의 속성을 상속 하지 않습니다. 모델 요소 간의 링크 형식에는 포함 합니다. 상속은 클래스 간의 관계 이며 모델 요소 간에 링크를 만들지 않습니다.
 
 ### <a name="embedding-rules"></a>포함 규칙
  인스턴스 모델의 모든 요소에는 모델의 루트를 제외 하 고 정확히 하나의 포함 링크의 대상 이어야 합니다.

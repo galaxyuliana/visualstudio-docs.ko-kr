@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 93acd8466ae90a6db4d1f25d93460e501335af50
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7d6fb66684bd51c75e655bc2403cb6a9fb5846a2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438812"
 ---
 # <a name="how-to-programmatically-protect-worksheets"></a>방법: 프로그래밍 방식으로 워크시트 보호
   Microsoft Office Excel의 보호 기능은 사용자 및 코드가 워크시트의 개체를 수정할 수 없도록 차단합니다. 기본적으로 보호를 설정하면 모든 셀이 잠깁니다.
@@ -30,7 +30,7 @@ ms.locfileid: "60062219"
  문서 수준 사용자 지정에서 Excel 디자이너를 사용하여 워크시트를 보호할 수 있습니다. 런타임에 프로그래밍 방식으로 모든 프로젝트 형식의 워크시트를 보호할 수도 있습니다.
 
 > [!NOTE]
->  보호된 워크시트의 영역에는 Windows Forms 컨트롤을 추가할 수 없습니다.
+> 보호된 워크시트의 영역에는 Windows Forms 컨트롤을 추가할 수 없습니다.
 
 ## <a name="use-the-designer"></a>디자이너 사용
 

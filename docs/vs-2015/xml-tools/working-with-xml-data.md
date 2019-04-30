@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 536e3a2aa6254004fb34eb243583184e5ab0279e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: aef35ff50080e9b596cc63915da77851b549bc3f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438869"
 ---
 # <a name="working-with-xml-data"></a>XML 데이터 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ XML 및 관련 기술은 [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual
  Visual Studio에서 XSLT 스타일시트를 디버깅할 수 있습니다. 디버거를 사용하여 XSLT 스타일시트에 중단점을 설정하고 코드에서 XSLT 스타일시트를 한 단계씩 실행하는 등의 작업을 수행할 수 있습니다.  
   
 > [!NOTE]
->  Professional 및 Team Edition에서 XSLT를 디버깅할 수 있습니다.  
+> Professional 및 Team Edition에서 XSLT를 디버깅할 수 있습니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [XML 편집기](../xml-tools/xml-editor.md)  

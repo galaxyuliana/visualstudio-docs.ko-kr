@@ -11,12 +11,12 @@ ms.assetid: 497e479b-add8-4644-870a-917f15306b97
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2566c97a4dc025e27aecf64a7a8950a578882348
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 516deb626bd8c6056612fcc481b9d530da504b9d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437264"
 ---
 # <a name="windows-installer-basics"></a>Windows Installer 기본 사항
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ Windows 설치 관리자를 설치 하 고 Windows 설치 관리자 구성 요�
  두 가지 규칙 설정의 구성 요소를 통해 리소스의 배포를 확인합니다. 하나의 규칙 집합은 설치 작성자로 두 번째 집합을 적용 해야 하는 동안 자체 Windows 설치 프로그램에서 유지 됩니다.  
   
 > [!NOTE]
->  Windows Installer 규칙 적용에는.msi 파일의 유효성 검사를 실행 하는 경우에 발생 합니다. 그럼에도 불구 하 고 모범 사례를 이러한 규칙을 처리 하도록 있습니다 주의가 요구 됩니다. 자세한 내용은 [설치 데이터베이스 유효성 검사](http://msdn.microsoft.com/library/aa372477\(VS.85\).aspx) 하 고 [패키지 유효성 검사](http://msdn.microsoft.com/library/aa370569\(VS.85\).aspx)합니다.  
+> Windows Installer 규칙 적용에는.msi 파일의 유효성 검사를 실행 하는 경우에 발생 합니다. 그럼에도 불구 하 고 모범 사례를 이러한 규칙을 처리 하도록 있습니다 주의가 요구 됩니다. 자세한 내용은 [설치 데이터베이스 유효성 검사](http://msdn.microsoft.com/library/aa372477\(VS.85\).aspx) 하 고 [패키지 유효성 검사](http://msdn.microsoft.com/library/aa370569\(VS.85\).aspx)합니다.  
   
 #### <a name="installer-enforced-rules"></a>설치 관리자 적용 규칙  
   

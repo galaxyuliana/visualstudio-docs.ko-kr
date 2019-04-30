@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dc5ddb4561c2c353271babe590a9e5b2b3c2e510
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a783d19136998bbc9a18daa975c1db87bda19779
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428743"
 ---
 # <a name="notifications-and-progress-for-visual-studio"></a>Visual Studio의 알림 및 진행률
 ## <a name="BKMK_NotificationSystems"></a> 알림 시스템
@@ -417,7 +417,7 @@ private bool TryCreateInfoBarUI(IVsInfoBar infoBar, out IVsInfoBarUIElement uiEl
 - 문서 탭
 
 > [!IMPORTANT]
->  전역 컨텍스트에 대 한 메시지를 제공 하는 정보 표시줄을 배치 하는 것이 가능 합니다. 이 도구 모음 및 문서 저장소 간의 나타납니다. "건너뛰고 jerk"를 사용 하 여 문제를 발생 시키기 때문에 권장 되지는 않습니다 IDE의 경우가 아니면 말아야 절대적으로 필요 하 고 적절 한 합니다.
+> 전역 컨텍스트에 대 한 메시지를 제공 하는 정보 표시줄을 배치 하는 것이 가능 합니다. 이 도구 모음 및 문서 저장소 간의 나타납니다. "건너뛰고 jerk"를 사용 하 여 문제를 발생 시키기 때문에 권장 되지는 않습니다 IDE의 경우가 아니면 말아야 절대적으로 필요 하 고 적절 한 합니다.
 
 #### <a name="placing-an-infobar-in-a-toolwindowpane"></a>정보 표시줄이 ToolWindowPane에서 배치
  ToolWindowPane.AddInfoBar(IVsInfoBar) 메서드를 사용 하 여 도구 창에 정보 표시줄을 추가할 수 있습니다. 이 API는 IVsInfoBar (어떤 InfoBarModel의 기본 구현 이며)를 추가 하거나 또는 IVsUIElement 합니다.

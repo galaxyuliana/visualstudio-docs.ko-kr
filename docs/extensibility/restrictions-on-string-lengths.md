@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b989fc18ae14790b001b7eca9b403a65c0dfa9b9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 8ade5e9ac188cd6c1b721ed276e0c4e2aff71f32
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56716690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434743"
 ---
 # <a name="restrictions-on-string-lengths"></a>문자열 길이 제한
 원본 제어 플러그 인 API는 다양 한 함수에서 사용 되는 문자열의 길이 제한 합니다.
@@ -30,7 +30,7 @@ ms.locfileid: "56716690"
 |`SCC_PRJPATH_LEN`|300|
 
 > [!NOTE]
->  길이 종료 포함 되지 않습니다 `null`합니다. "_LEN" 대신 "크기 _s" 접미사가 있는 다른 상수에는 종료를 위한 공간이 포함 수행 `null`합니다.
+> 길이 종료 포함 되지 않습니다 `null`합니다. "_LEN" 대신 "크기 _s" 접미사가 있는 다른 상수에는 종료를 위한 공간이 포함 수행 `null`합니다.
 
 |상수|값|
 |--------------|-----------|

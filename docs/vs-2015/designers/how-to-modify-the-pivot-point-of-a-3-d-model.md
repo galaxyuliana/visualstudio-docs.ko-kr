@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f63c271e096793a03616356b9eb7229e4f823fbd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a89e06fad1e47e3c2fd7be565acab9d94e3f29d5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434427"
 ---
 # <a name="how-to-modify-the-pivot-point-of-a-3-d-model"></a>방법: 3 차원 모델의 피벗 점 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "60071787"
     **속성** 창의 **중심점 변환** 속성을 사용하여 피벗 점을 지정할 수도 있습니다.  
   
    > [!TIP]
-   >  개체를 회전하여 새 피벗 점의 효과를 확인할 수 있습니다. 개체를 회전하려면 **회전** 도구를 사용하거나 **회전** 속성을 수정합니다.  
+   > 개체를 회전하여 새 피벗 점의 효과를 확인할 수 있습니다. 개체를 회전하려면 **회전** 도구를 사용하거나 **회전** 속성을 수정합니다.  
   
    수정된 피벗 점이 있는 모델은 다음과 같습니다.  
   

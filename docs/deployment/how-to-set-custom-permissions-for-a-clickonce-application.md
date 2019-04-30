@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d275875b18941df63e0f6ee3c17f427334eab88a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2c8a6fd6625726f749afcf20b80f83178a47ab92
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60058546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63407001"
 ---
 # <a name="how-to-set-custom-permissions-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 사용자 지정 권한 설정
 인터넷 또는 로컬 인트라넷 영역에 대한 기본 권한을 사용하는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 배포할 수 있습니다. 또는 애플리케이션에 필요한 특정 사용 권한에 대한 사용자 지정 영역을 만들 수 있습니다. 이렇게 하려면 **프로젝트 디자이너** 의 **보안**페이지에서 보안 권한을 사용자 지정할 수 있습니다.
@@ -46,7 +46,7 @@ ms.locfileid: "60058546"
 7. 애플리케이션에 필요한 사용 권한에 대한 XML 코드를 `</applicationRequestMinimum>` 요소 앞에 추가합니다.
 
     > [!NOTE]
-    >  사용 권한 집합의 `ToXml` 메서드를 사용하여 애플리케이션 매니페스트용 XML 코드를 생성할 수 있습니다. 예를 들어 <xref:System.Security.Permissions.EnvironmentPermission> 사용 권한 집합용 XML을 생성하려면 <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> 메서드를 호출합니다.
+    > 사용 권한 집합의 `ToXml` 메서드를 사용하여 애플리케이션 매니페스트용 XML 코드를 생성할 수 있습니다. 예를 들어 <xref:System.Security.Permissions.EnvironmentPermission> 사용 권한 집합용 XML을 생성하려면 <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> 메서드를 호출합니다.
 
 ## <a name="see-also"></a>참고자료
 - [ClickOnce 애플리케이션 보안](../deployment/securing-clickonce-applications.md)

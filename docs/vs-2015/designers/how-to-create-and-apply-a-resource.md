@@ -12,12 +12,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c6b387acd7494396d118915f94a93ca88ec67199
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 47c7385ba54e432e42575f5b8cbae29172ddf62b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60118229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434467"
 ---
 # <a name="how-to-create-and-apply-a-resource"></a>방법: 리소스 만들기 및 적용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ XAML 디자이너의 요소에 대한 스타일 및 템플릿은 리소스라는
    - 컨트롤에 스타일 또는 컨트롤 템플릿 리소스를 적용합니다. [문서 개요] 창에서 컨트롤에 대한 상황에 맞는 메뉴를 열고, **템플릿 편집** 또는 **추가 템플릿 편집**을 선택하고, **리소스 적용**을 선택한 다음, 표시되는 목록에서 컨트롤 템플릿의 이름을 선택합니다.  
   
      > [!NOTE]
-     >  **템플릿 편집**은 컨트롤 템플릿을 적용하는 데 사용됩니다. **추가 템플릿 편집**은 다른 템플릿 형식을 적용하는 데 사용됩니다.  
+     > **템플릿 편집**은 컨트롤 템플릿을 적용하는 데 사용됩니다. **추가 템플릿 편집**은 다른 템플릿 형식을 적용하는 데 사용됩니다.  
   
      호환되는 모든 위치에 리소스를 적용할 수 있습니다. 예를 들어 <xref:Windows.UI.Xaml.Controls.TextBox> 컨트롤의 **Foreground** 속성에 브러시 리소스를 적용할 수 있습니다.  
   

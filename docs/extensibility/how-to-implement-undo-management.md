@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d49c062540b50e442f2ac32e69ee37934c53bf2c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b29b95b9c53f18d6f97ac2455dd30aa6e26ccde4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415472"
 ---
 # <a name="how-to-implement-undo-management"></a>방법: 실행 취소 관리 구현
 실행 취소 관리에 사용 되는 기본 인터페이스는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoManager>, 환경에서 구현 되는 합니다. 실행 취소 관리를 지원 하려면 별도 실행 취소 단위를 구현 합니다. (즉, <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoUnit>, 여러 개별 단계로 포함할 수 있습니다.
@@ -75,7 +75,7 @@ ms.locfileid: "60068615"
    `OleUndoManager` 클래스 하나의 실행 취소 스택 인스턴스를 나타냅니다. 따라서 취소 또는 다시 실행에 대 한 추적 되는 데이터 엔터티 당 하나의 실행 취소 관리자 개체가 됩니다.
 
 > [!NOTE]
->  실행 취소 관리자 개체는 텍스트 편집기에서 광범위 하 게 사용 하는 동안 구성 요소인 일반 있는 텍스트 편집기에 대 한 특정 지원 되지 않습니다. 여러 번 실행 취소 또는 다시 실행을 지원 하려는 경우에 이렇게 하려면이 개체를 사용할 수 있습니다.
+> 실행 취소 관리자 개체는 텍스트 편집기에서 광범위 하 게 사용 하는 동안 구성 요소인 일반 있는 텍스트 편집기에 대 한 특정 지원 되지 않습니다. 여러 번 실행 취소 또는 다시 실행을 지원 하려는 경우에 이렇게 하려면이 개체를 사용할 수 있습니다.
 
 ## <a name="see-also"></a>참고자료
 - <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>

@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 08303b672fe45db4b6ccfcb5a64be5115e660186
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 85a45da13594a6f204e91f93ddcee64acb29c493
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63419385"
 ---
 # <a name="how-to-programmatically-save-visio-documents"></a>방법: 프로그래밍 방식으로 Visio 문서 저장
   여러 가지 방법을 사용하여 Microsoft Office Visio 문서를 저장할 수 있습니다.
@@ -40,7 +40,7 @@ ms.locfileid: "60069440"
      이 코드 예제를 사용하려면 프로젝트의 `ThisAddIn` 클래스에서 실행합니다.
 
     > [!NOTE]
-    >  새 Visio 문서가 아직 저장되지 않은 경우 `Microsoft.Office.Interop.Visio.Document.Save` 메서드에서 예외를 throw합니다.
+    > 새 Visio 문서가 아직 저장되지 않은 경우 `Microsoft.Office.Interop.Visio.Document.Save` 메서드에서 예외를 throw합니다.
 
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#11](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#11)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#11](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#11)]

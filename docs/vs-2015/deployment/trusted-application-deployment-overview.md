@@ -17,12 +17,12 @@ caps.latest.revision: 33
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0b8081946da2053d257691c8ec5dc2b1302e4d75
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 869a756b1995a1ae5de3736fcee4ccede6cb46e5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427110"
 ---
 # <a name="trusted-application-deployment-overview"></a>Trusted Application Deployment Overview
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60105840"
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 기술에 포함된 신뢰할 수 있는 배포를 사용하면 규모에 관계없이 모든 조직이 사용자에게 메시지를 표시하지 않고 더 안전하고 더 보호된 방식으로 관리되는 응용 프로그램에 대한 추가적인 권한을 더 쉽게 부여할 수 있습니다. 신뢰할 수 있는 애플리케이션 배포를 통해 조직은 Authenticode 인증서를 사용하여 식별된 신뢰할 수 있는 게시자 목록이 클라이언트 컴퓨터에 포함되도록 구성할 수 있습니다. 따라서 이들 신뢰할 수 있는 게시자의 하나가 서명한 모든 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션은 더 높은 수준의 신뢰를 받습니다.  
   
 > [!NOTE]
->  신뢰할 수 있는 애플리케이션 배포에는 사용자 컴퓨터에 대한 일회성 구성이 필요합니다. 관리되는 데스크톱 환경에서는 전역 정책을 사용하여 이 구성을 수행할 수 있습니다. 애플리케이션에 대해 이 구성을 수행하지 않으려면 권한 상승을 사용하세요. 자세한 내용은 [ClickOnce 애플리케이션 게시](../deployment/securing-clickonce-applications.md)를 참조하세요.  
+> 신뢰할 수 있는 애플리케이션 배포에는 사용자 컴퓨터에 대한 일회성 구성이 필요합니다. 관리되는 데스크톱 환경에서는 전역 정책을 사용하여 이 구성을 수행할 수 있습니다. 애플리케이션에 대해 이 구성을 수행하지 않으려면 권한 상승을 사용하세요. 자세한 내용은 [ClickOnce 애플리케이션 게시](../deployment/securing-clickonce-applications.md)를 참조하세요.  
   
 ## <a name="trusted-application-deployment-basics"></a>신뢰할 수 있는 애플리케이션 배포 기본 사항  
  다음 표에서는 신뢰할 수 있는 애플리케이션 배포에 포함된 개체 및 역할을 보여 줍니다.  
@@ -91,7 +91,7 @@ ms.locfileid: "60105840"
  인증서를 가져오고 나서 이 인증서를 사용하여 배포에 서명해야 합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 게시 마법사를 사용하여 응용 프로그램을 배포할 경우 인증서를 직접 지정하지 않았다면 마법사가 자동으로 테스트 인증서를 생성합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 디자이너 창을 사용하여 CA가 제공한 인증서를 제공할 수도 있습니다.  또한 참조 [방법: 게시 마법사를 사용 하 여 ClickOnce 응용 프로그램 게시](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)) 또는 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\))를 참조하세요.  
   
 > [!CAUTION]
->  테스트 인증서를 사용하여 애플리케이션을 배포하는 것은 권장하지 않습니다.  
+> 테스트 인증서를 사용하여 애플리케이션을 배포하는 것은 권장하지 않습니다.  
   
  Mage.exe 또는 MageUI.exe SDK 도구를 사용하여 애플리케이션에 서명할 수도 있습니다. 자세한 내용은 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md) 배포 서명과 관련 된 명령줄 옵션의 전체 목록을 참조 하세요 [Mage.exe (매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)합니다.  
   

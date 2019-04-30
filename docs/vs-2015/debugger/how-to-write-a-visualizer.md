@@ -21,12 +21,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b0d27b8a326f72098df7f700c2bc3fac8b85e109
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ce50276e4e83a1a055294c8e2b6e09cd0f93d54d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440163"
 ---
 # <a name="how-to-write-a-visualizer"></a>방법: 시각화 도우미 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "60092931"
 <xref:System.Object> 또는 <xref:System.Array>를 제외한 모든 관리되는 클래스의 개체에 대해 사용자 지정 시각화 도우미를 작성할 수 있습니다.  
   
 > [!NOTE]
->  **Store** 앱에만 표준 텍스트, HTML, XML 및 JSON 시각화 도우미는 지원 합니다. 사용자가 만든 사용자 지정 시각화 도우미는 지원되지 않습니다.  
+> **Store** 앱에만 표준 텍스트, HTML, XML 및 JSON 시각화 도우미는 지원 합니다. 사용자가 만든 사용자 지정 시각화 도우미는 지원되지 않습니다.  
   
  디버거 시각화 도우미의 아키텍처는 두 부분으로 구성되어 있습니다.  
   

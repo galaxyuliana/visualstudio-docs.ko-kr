@@ -10,12 +10,12 @@ ms.assetid: fa3b993b-ab95-47fa-a38b-b788f3a5b2d8
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 56d9ea80054ec3732f62f70a582b95da32fdbe9c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 46ccdd87d44ee90c925992f4d7b997c9bbe09684
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60086717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435521"
 ---
 # <a name="creating-an-extension-with-an-editor-item-template"></a>편집기 항목 템플릿을 사용하여 확장 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,7 +65,7 @@ ms.locfileid: "60086717"
  편집기 뷰포트 Adornment 템플릿은 뷰포트의 오른쪽 위 모서리에 빨간색 윤곽선이 있는 보라색 상자를 추가 하는 상대 뷰포트 adornment를 만듭니다.  
   
 > [!NOTE]
->  합니다 *뷰포트* 현재 표시 된 텍스트 보기의 영역입니다.  
+> 합니다 *뷰포트* 현재 표시 된 텍스트 보기의 영역입니다.  
   
 #### <a name="to-create-a-viewport-adornment-extension-by-using-the-editor-viewport-adornment-template"></a>편집기 뷰포트 Adornment 템플릿을 사용 하 여 뷰포트 adornment 확장 프로그램을 만들려면  
   

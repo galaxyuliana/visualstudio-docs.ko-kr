@@ -9,12 +9,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9f23d0593129cae2732c8b4df14b3f5e2d5a69f7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 763aa2c73effdb1f7daf86c18e6033f03bef5108
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60051377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434042"
 ---
 # <a name="step-4-add-a-click-event-handler-to-each-label"></a>4단계: 각 레이블에 클릭 이벤트 처리기 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,10 +48,10 @@ Click 이벤트가 표시된 속성 창
      [!code-vb[VbExpressTutorial4Step2_3_4#4](../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/vb/form1.vb#4)]  
   
     > [!NOTE]
-    >  코드를 수동으로 입력하는 대신 `label_Click()` 코드 블록을 복사하여 붙여 넣는 경우에는 기존 `label_Click()` 코드를 대체해야 합니다. 이렇게 하지 않으면 중복된 코드 블록이 남게 됩니다.  
+    > 코드를 수동으로 입력하는 대신 `label_Click()` 코드 블록을 복사하여 붙여 넣는 경우에는 기존 `label_Click()` 코드를 대체해야 합니다. 이렇게 하지 않으면 중복된 코드 블록이 남게 됩니다.  
   
     > [!NOTE]
-    >  `object sender`를 [자습서2: 시간이 지정 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md) 자습서입니다. 단일 이벤트 처리기 메서드에 대해 다양한 레이블 컨트롤 Click 이벤트를 후크했으므로 사용자가 선택하는 레이블에 관계없이 동일한 메서드가 호출됩니다. 이벤트 처리기 메서드에서 어떤 레이블이 선택되었는지 알아야 하므로 레이블 컨트롤을 식별하기 위한 **sender**라는 이름을 사용합니다. 메서드의 첫 번째 줄을 보면 단순히 일반 개체가 아니라 레이블 컨트롤임을 명시적으로 나타내고 **clickedLabel**이라는 이름을 사용하여 레이블의 속성 및 메서드에 액세스한다는 것을 알 수 있습니다.  
+    > `object sender`를 [자습서2: 시간이 지정 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md) 자습서입니다. 단일 이벤트 처리기 메서드에 대해 다양한 레이블 컨트롤 Click 이벤트를 후크했으므로 사용자가 선택하는 레이블에 관계없이 동일한 메서드가 호출됩니다. 이벤트 처리기 메서드에서 어떤 레이블이 선택되었는지 알아야 하므로 레이블 컨트롤을 식별하기 위한 **sender**라는 이름을 사용합니다. 메서드의 첫 번째 줄을 보면 단순히 일반 개체가 아니라 레이블 컨트롤임을 명시적으로 나타내고 **clickedLabel**이라는 이름을 사용하여 레이블의 속성 및 메서드에 액세스한다는 것을 알 수 있습니다.  
   
      이 메서드는 먼저 **clickedLabel**이 개체에서 레이블 컨트롤로 변환(캐스팅)되었는지 여부를 확인합니다. 성공적으로 변환되지 않은 경우에는 `null`(C#) 또는 `Nothing`(Visual Basic) 값을 포함하고 메서드의 나머지 코드를 실행하지 않습니다. 다음으로 메서드는 레이블의 **ForeColor** 속성을 사용하여 선택된 레이블의 텍스트 색을 확인합니다. 레이블의 텍스트 색이 검정이면 아이콘이 이미 선택되었음을 의미하며 메서드는 완료됩니다. (즉, `return` 문에서 메서드 실행을 중지하도록 프로그램에 요청합니다.) 그렇지 않은 경우 아이콘이 선택되지 않은 것이므로 프로그램에서 레이블의 텍스트 색을 검정으로 변경합니다.  
   

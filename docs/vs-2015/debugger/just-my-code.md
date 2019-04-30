@@ -14,12 +14,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e105ef33202781dcf3a2f82706827156e76548eb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 560ab40811bc53c97e7097e510144d62aeddfbb2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63421821"
 ---
 # <a name="just-my-code"></a>내 코드만
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,13 +32,13 @@ ms.locfileid: "60084338"
  ![옵션 대화 상자에서 내 코드만 사용 하도록 설정](../debugger/media/dbg-justmycode-options.png "DBG_JustMyCode_Options")  
   
 > [!NOTE]
->  합니다 **내 코드만** 설정은 모든 언어로 모든 Visual Studio 프로젝트에 적용 되는 전역 설정입니다.  
+> 합니다 **내 코드만** 설정은 모든 언어로 모든 Visual Studio 프로젝트에 적용 되는 전역 설정입니다.  
   
 ### <a name="BKMK_Override_call_stack_filtering"></a> 호출 스택 필터링 재정의  
  호출 스택 및 작업 창과 같은 호출 스택 표시에서 내 코드만 옵션은 사용자가 작성하지 않은 코드를 `[External Code]` 레이블이 있는 주석이 추가된 프레임으로 축소합니다. 축소 된 프레임을 보려면 **외부 코드 포시** 호출 스택 상황에 맞는 메뉴에 표시 합니다.  
   
 > [!NOTE]
->  합니다 **외부 코드 포시** 설정은 현재 사용자의 프로파일러에 저장 됩니다. 이 사용자가 여는 모든 언어의 프로젝트에 모두 적용됩니다.  
+> 합니다 **외부 코드 포시** 설정은 현재 사용자의 프로파일러에 저장 됩니다. 이 사용자가 여는 모든 언어의 프로젝트에 모두 적용됩니다.  
   
 ## <a name="BKMK__NET_Framework_Just_My_Code"></a> .NET framework 내 코드만  
   

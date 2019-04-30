@@ -12,12 +12,12 @@ ms.assetid: 3cfed312-f532-4bce-84a5-1677c14567d7
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 91c7525c293f4fe60dd446866d6e704c721a0795
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: ac7e825bd33c184d580ada96843366f6d1627f22
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438964"
 ---
 # <a name="idebugreference2"></a>IDebugReference2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58971722"
 이 인터페이스는 스택 프레임 속성 또는 다른 일부 속성에 대 한 참조를 나타냅니다.  
   
 > [!NOTE]
->  `IDebugReference2` 나중에 사용할 수 있도록 하 고 해당 메서드를 반환할지 모든 용으로 예약 되어 `E_NOTIMPL`입니다.  
+> `IDebugReference2` 나중에 사용할 수 있도록 하 고 해당 메서드를 반환할지 모든 용으로 예약 되어 `E_NOTIMPL`입니다.  
   
 ## <a name="syntax"></a>구문  
   
@@ -59,7 +59,7 @@ IDebugReference2 : IUnknown
 ## <a name="remarks"></a>설명  
   
 > [!NOTE]
->  "Property"이이 사용 해야 혼동 하지 해당 클래스의 멤버 변수 의미 하지만 `IDebugReference2` 이러한 엔터티를 나타낼 수 있습니다.  
+> "Property"이이 사용 해야 혼동 하지 해당 클래스의 멤버 변수 의미 하지만 `IDebugReference2` 이러한 엔터티를 나타낼 수 있습니다.  
   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 속성을 나타내는 동안 `IDebugReference2` 속성을 일반적으로 디버깅 중인 프로그램의 개체에 대 한 참조에 대 한 참조를 나타냅니다.  
   

@@ -8,12 +8,12 @@ ms.assetid: f7c25ba7-5c9c-455b-9242-701cda56f90c
 caps.latest.revision: 43
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8df705e1e4da6a54f060de45a90aed7c41691683
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 940a7551c83ec9a195ac0d54b430115ed926abf5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63428229"
 ---
 # <a name="walkthrough-creating-editing-and-maintaining-a-coded-ui-test"></a>연습: 만들기, 편집 및 코딩된 된 UI 테스트 유지 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -123,7 +123,7 @@ ms.locfileid: "60061816"
 2. SimpleWPFApp 애플리케이션에 대한 바탕 화면 바로 가기를 만듭니다. SimpleWPFApp.exe를 마우스 오른쪽 단추로 클릭한 다음 **복사**를 선택합니다. 바탕 화면에서 마우스 오른쪽 단추를 클릭하고 **바로 가기 붙여넣기**를 선택합니다.  
   
     > [!TIP]
-    >  애플리케이션 바로 가기를 사용하면 애플리케이션을 신속하게 시작할 수 있기 때문에 애플리케이션에 대해 코딩된 UI 테스트를 쉽게 추가하거나 수정할 수 있습니다.  
+    > 애플리케이션 바로 가기를 사용하면 애플리케이션을 신속하게 시작할 수 있기 때문에 애플리케이션에 대해 코딩된 UI 테스트를 쉽게 추가하거나 수정할 수 있습니다.  
   
 3. 솔루션 탐색기에서 솔루션을 마우스 오른쪽 단추로 클릭하고 **추가**를 선택한 다음 **새 프로젝트**를 선택합니다.  
   
@@ -154,7 +154,7 @@ ms.locfileid: "60061816"
      ![기록 일시 중지](../test/media/cuit.png "CUIT_")  
   
     > [!WARNING]
-    >  데스크톱에서 수행된 모든 작업이 기록됩니다. 기록에 중요한 데이터가 포함될 수 있는 작업을 수행하는 경우에는 기록을 일시 중지합니다.  
+    > 데스크톱에서 수행된 모든 작업이 기록됩니다. 기록에 중요한 데이터가 포함될 수 있는 작업을 수행하는 경우에는 기록을 일시 중지합니다.  
   
 9. 바탕 화면 바로 가기를 사용하여 SimpleWPFApp을 시작합니다.  
   
@@ -203,7 +203,7 @@ ms.locfileid: "60061816"
 3. 이 문제를 해결하려면 `WaitForControlEnabled()` 메서드를 사용하여 이 줄을 계속하기 전에 UI 테스트에서 CheckBox 컨트롤을 기다릴 수 있도록 설정하면 됩니다.  
   
     > [!WARNING]
-    >  UIMap.Designer.cs 파일은 수정하지 마세요. UIMap - 코딩된 UI 테스트 빌더를 사용하여 코드를 생성할 때마다 UIMapDesigner.cs 파일에서 수정된 코드 변경 내용을 덮어씁니다. 기록된 메서드를 수정해야 하는 경우에는 해당 메서드를 UIMap.cs 파일에 복사한 후 이름을 바꾸어야 합니다. UIMap.cs 파일을 사용하여 UIMapDesigner.cs 파일의 메서드와 속성을 재정의할 수 있습니다. 코딩된 UITest.cs 파일에서 원래 메서드에 대한 참조를 제거하고 이름을 바꾼 메서드 이름으로 바꾸어야 합니다.  
+    > UIMap.Designer.cs 파일은 수정하지 마세요. UIMap - 코딩된 UI 테스트 빌더를 사용하여 코드를 생성할 때마다 UIMapDesigner.cs 파일에서 수정된 코드 변경 내용을 덮어씁니다. 기록된 메서드를 수정해야 하는 경우에는 해당 메서드를 UIMap.cs 파일에 복사한 후 이름을 바꾸어야 합니다. UIMap.cs 파일을 사용하여 UIMapDesigner.cs 파일의 메서드와 속성을 재정의할 수 있습니다. 코딩된 UITest.cs 파일에서 원래 메서드에 대한 참조를 제거하고 이름을 바꾼 메서드 이름으로 바꾸어야 합니다.  
   
 4. 솔루션 탐색기에서 코딩된 UI 테스트 프로젝트의 **UIMap.uitest**를 찾습니다.  
   
@@ -224,7 +224,7 @@ ms.locfileid: "60061816"
      테스트 메서드 업데이트가 UIMap.Designer 파일에 저장됩니다.  
   
     > [!CAUTION]
-    >  메서드를 이동하면 더 이상 코딩된 UI 편집기를 사용하여 편집할 수 없습니다. 코드 편집기를 사용하여 사용자 지정 코드를 추가하고 유지 관리해야 합니다.  
+    > 메서드를 이동하면 더 이상 코딩된 UI 편집기를 사용하여 편집할 수 없습니다. 코드 편집기를 사용하여 사용자 지정 코드를 추가하고 유지 관리해야 합니다.  
   
 10. 메서드 이름을 `SimpleAppTest()`에서 `ModifiedSimpleAppTest()`로 바꿉니다.  
   

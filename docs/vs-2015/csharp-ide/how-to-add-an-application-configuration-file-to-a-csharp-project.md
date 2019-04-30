@@ -13,12 +13,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0c85690b34f0db705fe2a17e2f98d5b4f11433b3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b26a152567da3b6285653ba8e14a72bce664ce0d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434522"
 ---
 # <a name="how-to-add-an-application-configuration-file-to-a-c-project"></a>방법: 추가 응용 프로그램 구성 파일을 C# 프로젝트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60044978"
 C# 프로젝트에 애플리케이션 구성 파일(app.config 파일)을 추가하면 공용 언어 런타임에서 어셈블리 파일을 찾고 로드하는 방법을 사용자 지정할 수 있습니다. 응용 프로그램 구성 파일에 대 한 자세한 내용은 참조 하세요. [런타임 어셈블리를 찾는 방법](http://msdn.microsoft.com/library/772ac6f4-64d2-4cfb-92fd-58096dcd6c34)합니다.  
   
 > [!NOTE]
->  Windows 스토어 지원 하지 않습니다 <xref:System.Configuration>합니다. 결과적으로, 스토어 앱을 app.config 템플릿은 없습니다.  
+> Windows 스토어 지원 하지 않습니다 <xref:System.Configuration>합니다. 결과적으로, 스토어 앱을 app.config 템플릿은 없습니다.  
   
  프로젝트를 빌드할 때 개발 환경 자동으로 app.config 파일을 복사, 실행 파일의 경우에 맞게 복사본의 파일 이름을 변경 및 다음 bin 디렉터리에 복사본을 이동 합니다.  
   

@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 15bb3c7bca9db7e268dde998e210629a8167497f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ad39c8b8bad373cd7892a1eeda89b149622913a7
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430361"
 ---
 # <a name="walkthrough-create-and-debug-a-sharepoint-workflow-solution"></a>연습: 만들고 SharePoint 워크플로 솔루션을 디버그 합니다.
   이 연습에는 기본 순차 워크플로 템플릿을 만드는 방법을 보여 줍니다. 워크플로 문서를 검토 했는지 여부를 결정 하는 공유 문서 라이브러리의 속성을 확인 합니다. 문서를 검토 하는 경우 워크플로가 완료 됩니다.
@@ -35,9 +35,9 @@ ms.locfileid: "60109558"
 - 워크플로 활동 이벤트를 처리 합니다.
 
 > [!NOTE]
->  이 연습에서는 순차 워크플로 프로젝트를 사용 하지만 프로세스는 상태 시스템 워크플로 프로젝트에 대 한 동일 합니다.
+> 이 연습에서는 순차 워크플로 프로젝트를 사용 하지만 프로세스는 상태 시스템 워크플로 프로젝트에 대 한 동일 합니다.
 >
->  또한 컴퓨터에서에서 표시할 수 있습니다 다른 이름이 나 위치 일부 Visual Studio 사용자 인터페이스 요소 다음 지침을 합니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 또한 컴퓨터에서에서 표시할 수 있습니다 다른 이름이 나 위치 일부 Visual Studio 사용자 인터페이스 요소 다음 지침을 합니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.

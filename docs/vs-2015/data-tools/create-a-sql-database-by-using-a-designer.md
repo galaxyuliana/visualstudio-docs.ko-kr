@@ -25,12 +25,12 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: acab2df1ff39d5f245baf27642f1ab71104671a7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f816095992379748b6d1888b5df54dc5433a8306
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436963"
 ---
 # <a name="create-a-sql-database-by-using-a-designer"></a>디자이너를 사용 하 여 SQL database 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -180,14 +180,14 @@ ms.locfileid: "60069785"
 6. 세 개 이상의 주문에 대한 데이터를 추가합니다.  
   
     > [!IMPORTANT]
-    >  모든 주문 ID와 주문 수량이 정수이고 각 고객 ID가 Customers 테이블의 CustomerID 열에 지정한 값과 일치하는지 확인합니다.  
+    > 모든 주문 ID와 주문 수량이 정수이고 각 고객 ID가 Customers 테이블의 CustomerID 열에 지정한 값과 일치하는지 확인합니다.  
   
 7. 메뉴 모음에서 선택 **파일** > **모두 저장**합니다.  
   
 8. 메뉴 모음에서 선택 **파일** > **솔루션 닫기**합니다.  
   
     > [!NOTE]
-    >  가장 좋은 방법은 만든 데이터베이스 파일을 복사한 후 복사본을 다른 위치에 붙여 넣거나 복사본에 다른 이름을 지정하여 데이터베이스 파일을 백업하는 것입니다.  
+    > 가장 좋은 방법은 만든 데이터베이스 파일을 복사한 후 복사본을 다른 위치에 붙여 넣거나 복사본에 다른 이름을 지정하여 데이터베이스 파일을 백업하는 것입니다.  
   
 ## <a name="next-steps"></a>다음 단계  
  몇 가지 샘플 데이터를 사용 하 여 로컬 데이터베이스 파일을 설정 했으므로 데이터베이스 작업을 보여 주는 연습을 완료할 수 있습니다.

@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: edce61d7f5cf8f84c021b759fdaee1c06bf68ccb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ffbd5568d35b59e262577102a9368089fdcac6be
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431107"
 ---
 # <a name="visualizing-eventsource-events-as-markers"></a>EventSource 이벤트를 표식으로 시각화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -94,7 +94,7 @@ Concurrency 시각화는 EventSource 이벤트를 표식으로 표시할 수 있
  cvSpanId 필드(정수)를 사용하여 이벤트 쌍 일치를 확인합니다. 범위를 나타내는 각 시작/중지 이벤트 쌍의 값은 고유해야 합니다. 일반적으로 동시 코드의 경우 고유한 값을 지정하려면 <xref:System.Threading.Interlocked.Exchange%2A>와 같은 동기화 기본 형식을 사용하여 키(CvSpanID에 사용되는 값)가 정확한지 확인해야 합니다.  
   
 > [!NOTE]
->  SpanID를 사용하여 범위를 중첩하거나, 같은 스레드에서 해당 범위를 일부분 겹치거나, 시작되는 스레드와 끝나는 스레드를 서로 다르게 지정할 수는 없습니다.  
+> SpanID를 사용하여 범위를 중첩하거나, 같은 스레드에서 해당 범위를 일부분 겹치거나, 시작되는 스레드와 끝나는 스레드를 서로 다르게 지정할 수는 없습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [동시성 시각화 도우미 표식](../profiling/concurrency-visualizer-markers.md)

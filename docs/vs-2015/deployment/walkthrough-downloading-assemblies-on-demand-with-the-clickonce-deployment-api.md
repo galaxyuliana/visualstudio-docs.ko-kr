@@ -17,12 +17,12 @@ caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 55dfa9a360d33a73b6298f186d12810f8510b1fc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: af03329a05501427f6d04d6cddbd637c3311b339
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434922"
 ---
 # <a name="walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api"></a>연습: ClickOnce 배포 API 사용 하 여 요청 시 어셈블리 다운로드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60063558"
 기본적으로 모든 어셈블리에 포함 된를 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램은 응용 프로그램을 처음 실행할 때 다운로드 됩니다. 그러나 소수의 사용자가 사용 되는 응용 프로그램 부분을 할 수 있습니다. 이 경우 해당 형식 중 하나를 만들 때에만 어셈블리를 다운로드하고자 할 수 있습니다. 다음 연습에서는 애플리케이션의 특정 어셈블리를 "선택 사항"으로 표시하는 방법 및 CLR(공용 언어 런타임)에서 요청할 때 <xref:System.Deployment.Application> 네임스페이스에 있는 클래스를 사용하여 이를 다운로드하는 방법을 설명합니다.  
   
 > [!NOTE]
->  이 절차를 사용하려면 완전 신뢰 상태에서 애플리케이션을 실행해야 합니다.  
+> 이 절차를 사용하려면 완전 신뢰 상태에서 애플리케이션을 실행해야 합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  
  이 연습을 완료 하려면 다음 구성 요소 중 하나가 필요 합니다.  

@@ -23,12 +23,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8719b893bc8cb47f8a2d7b75b43592187c198289
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 3e75f06a999638f1346b1304fd438a8cc3f6b0b6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60057698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424976"
 ---
 # <a name="turn-off-constraints-while-filling-a-dataset"></a>데이터 세트를 채우는 동안 제약 조건 해제
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "60057698"
  임시 제약 조건 일시 중단을 허용 하는 메커니즘이 경우 자식 테이블에 레코드를 로드 하려고 할 때마다 오류가 발생 됩니다. 또 다른 방법은 데이터 집합의 모든 제약 조건을 일시 중단 된 합니다 <xref:System.Data.DataRow.BeginEdit%2A>, 및 <xref:System.Data.DataRow.EndEdit%2A> 속성입니다.  
   
 > [!NOTE]
->  유효성 검사 이벤트 (예를 들어 <xref:System.Data.DataTable.ColumnChanging> 고<xref:System.Data.DataTable.RowChanging>) 제약 조건을 해제 하는 경우 발생 하지 것입니다.  
+> 유효성 검사 이벤트 (예를 들어 <xref:System.Data.DataTable.ColumnChanging> 고<xref:System.Data.DataTable.RowChanging>) 제약 조건을 해제 하는 경우 발생 하지 것입니다.  
   
 ### <a name="to-suspend-update-constraints-programmatically"></a>제약 조건 업데이트를 프로그래밍 방식으로 일시 중단  
   

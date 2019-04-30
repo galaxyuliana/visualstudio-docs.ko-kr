@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ce6d86d84d6f51b995649d5cbfda652262dcfc66
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: f11ea8e93d7d952f28315481f65149122a7b68a3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415580"
 ---
 # <a name="how-to-use-linked-undo-management"></a>방법: 연결 된 실행 취소 관리 사용
 연결 된 실행 취소 사용자를가 동시에 여러 파일에 같은 편집 작업을 취소할 수 있습니다. 예를 들어, 헤더 파일 및 시각적 개체와 같은 여러 프로그램 파일에 걸쳐 동시 텍스트가 변경 C++ 파일에서 연결 된 실행 취소 트랜잭션이 있습니다. 환경의 구현의 실행 취소 관리자에 연결 된 실행 취소 기능이 내장 되어 및 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLinkedUndoTransactionManager> 이 기능을 조작할 수 있습니다. 연결 된 실행 취소는 별도 실행 취소 스택을 단일 실행 취소 단위를 처리 하는 함께 연결할 수 있는 부모 실행 취소 단위를 통해 구현 됩니다. 연결 된 실행 취소를 사용 하는 절차는 다음 섹션에 자세히 설명 되어 있습니다.
@@ -29,7 +29,7 @@ ms.locfileid: "60045723"
 3. 호출 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLinkedUndoTransactionManager.CloseLinkedUndo%2A> 롤 모든 하나로 연결 된 실행 취소 단위입니다.
 
     > [!NOTE]
-    >  편집기에서 연결 된 실행 취소 관리를 구현 하려면 실행 취소 관리를 추가 합니다. 연결 된 실행 취소 관리 구현에 대 한 자세한 내용은 참조 하세요. [방법: 실행 취소 관리 구현](../extensibility/how-to-implement-undo-management.md)합니다.
+    > 편집기에서 연결 된 실행 취소 관리를 구현 하려면 실행 취소 관리를 추가 합니다. 연결 된 실행 취소 관리 구현에 대 한 자세한 내용은 참조 하세요. [방법: 실행 취소 관리 구현](../extensibility/how-to-implement-undo-management.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompoundAction>

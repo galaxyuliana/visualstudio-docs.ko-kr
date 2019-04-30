@@ -10,12 +10,12 @@ ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: fb8ce0938ae79b0fc6108f6f3cdbe80a116f5531
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 5e62be456422b7ee5e9f2828a44a6be05e1211d9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436343"
 ---
 # <a name="document-windows"></a>문서 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ Visual Studio에서를 *문서 창* (MDI) 다중 문서 인터페이스 창과 �
  문서 창은 편집기를 구현 하 여 생성 됩니다. <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> 인터페이스 인스턴스화를 편집기의 일부로 문서 창을 만듭니다. 자세한 내용은 [편집기에서 레거시 인터페이스](../../extensibility/legacy-interfaces-in-the-editor.md)합니다.  
   
 > [!NOTE]
->  뒤로 제공 하 고 창의 탐색 요소를 전달 하려면 구현 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBackForwardNavigation> 인터페이스입니다. 텍스트 편집기 텍스트 마커를 사용 하 여 문서의 탐색 지점을 식별할 수 있습니다.  
+> 뒤로 제공 하 고 창의 탐색 요소를 전달 하려면 구현 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsBackForwardNavigation> 인터페이스입니다. 텍스트 편집기 텍스트 마커를 사용 하 여 문서의 탐색 지점을 식별할 수 있습니다.  
   
 ## <a name="the-running-document-table"></a>실행 중인 문서 테이블  
  IDE 모든 문서 창의 상태를 추적 하는 실행 중인 document 테이블 (RDT)를 사용 합니다. RDT는 메커니즘은 문서를 통해 windows 이벤트를 같은 솔루션을 닫을 때 또는 파일을 편집한 후 알림이 표시 됩니다. 자세한 내용은 [문서 테이블 실행](../../extensibility/internals/running-document-table.md)합니다.  

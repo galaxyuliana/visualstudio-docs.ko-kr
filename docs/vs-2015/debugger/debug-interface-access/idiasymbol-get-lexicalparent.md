@@ -13,12 +13,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f37da991dea85ab1b727640bd3103931d3857233
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 4b5f9da456282daca52d6c924b62f21e13545928
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422989"
 ---
 # <a name="idiasymbolgetlexicalparent"></a>IDiaSymbol::get_lexicalParent
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ HRESULT get_lexicalParent ( 
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
   
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
+> 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.  
   
 ## <a name="remarks"></a>설명  
  기호의 어휘 부모는 바깥쪽 함수 또는 모듈입니다. 예를 들어, 함수 매개 변수 또는 지역 변수 어휘 부모 함수의 어휘 부모에서 정의 된 모듈은 자체 함수입니다.  

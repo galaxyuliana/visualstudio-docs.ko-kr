@@ -1,5 +1,5 @@
 ---
-title: '방법: 명령줄에서 기호 파일 위치 지정 | Microsoft 문서'
+title: '방법: 명령줄에서 기호 파일 위치 지정 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d4cb6fcfac8e9f619ab99e1d96472824d6c98e51
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: e5ff4290d0cffa99a9f476c543626c5aa15be87a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54776180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63436919"
 ---
 # <a name="how-to-specify-symbol-file-locations-from-the-command-line"></a>방법: 명령줄에서 기호 파일 위치 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "54776180"
   이러한 방법을 둘 다 사용할 수도 있습니다.  
   
 > [!NOTE]
->  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]가 로컬 컴퓨터에 설치될 경우 Windows 기호 파일의 위치가 이미 지정되었을 수 있습니다. 자세한 내용은 [방법: Windows 기호 정보 참조](../profiling/how-to-reference-windows-symbol-information.md)를 참조하세요. 이 항목의 뒷 부분에 설명된 대로 위치 및 서버를 사용하도록 VSPerfReport를 구성해야 합니다.  
+> [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]가 로컬 컴퓨터에 설치될 경우 Windows 기호 파일의 위치가 이미 지정되었을 수 있습니다. 자세한 내용은 [방법: 참조 Windows 기호 정보](../profiling/how-to-reference-windows-symbol-information.md)합니다. 이 항목의 뒷 부분에 설명된 대로 위치 및 서버를 사용하도록 VSPerfReport를 구성해야 합니다.  
   
 ## <a name="specifying-windows-symbol-files"></a>Windows 기호 파일 지정  
   
@@ -55,7 +55,7 @@ ms.locfileid: "54776180"
 ## <a name="specifying-component-symbol-files"></a>구성 요소 기호 파일 지정  
  프로파일링 도구는 프로파일링 데이터 파일이 포함된 폴더 또는 구성 요소에 저장된 원래 위치에서 프로파일링하려는 구성 요소의 .pdb 파일을 검색합니다. **_NT_SYMBOL_PATH** 또는 **/SymbolPath** 옵션에 하나 이상의 경로를 추가하여 검색할 다른 위치를 지정할 수 있습니다. 경로를 세미콜론으로 구분합니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 명령줄은 **_NT_SYMBOL_PATH** 환경 변수를 Windows 기호 서버로 설정하고 로컬 디렉터리를 **C:\Symbols**로 설정합니다.  
   
  **set  _NT_SYMBOL_PATH=srv\*C:\symbols\*http://msdl.microsoft.com/downloads/symbols**  

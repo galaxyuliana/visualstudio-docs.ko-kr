@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d781358258457dc12a3657cf3ff76273315219c4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MT
+ms.openlocfilehash: 4252ad81747576366c0873f2ad65646ee7af7f1c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55911613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422934"
 ---
 # <a name="t4-parameter-directive"></a>T4 매개 변수 지시문
 
@@ -99,4 +99,4 @@ string resultText = t.TransformText();
 ## <a name="obtaining-arguments-from-texttemplateexe"></a>TextTemplate.exe에서 인수 가져오기
 
 > [!IMPORTANT]
->  합니다 `parameter` 지시문에 설정 된 값을 검색 하지 않습니다는 `-a` 의 매개 변수는 `TextTransform.exe` 유틸리티입니다. 이러한 값을 얻으려면 설정 `hostSpecific="true"` 에 `template` 지시문을 사용 하 여 `this.Host.ResolveParameterValue("","","argName")`입니다.
+> 합니다 `parameter` 지시문에 설정 된 값을 검색 하지 않습니다는 `-a` 의 매개 변수는 `TextTransform.exe` 유틸리티입니다. 이러한 값을 얻으려면 설정 `hostSpecific="true"` 에 `template` 지시문을 사용 하 여 `this.Host.ResolveParameterValue("","","argName")`입니다.

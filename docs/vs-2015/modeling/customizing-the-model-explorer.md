@@ -13,12 +13,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 51e79850e2958ce295ab4d98f3ea191a5222a8fb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1eb0b8b58d133a26c7970071b422e0c20f42c063
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433233"
 ---
 # <a name="customizing-the-model-explorer"></a>모델 탐색기 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "60078917"
      세 가지 탐색기에 표시 됩니다 **행위자** 아이콘에 있는 노드.  
   
 > [!NOTE]
->  생성 된 탐색기에 표시 되는 모든 요소에 대 한 노드 아이콘을 사용 하도록 설정한 경우 모든 탐색기 노드 아이콘이 표시 됩니다. 아이콘 없음에 설정한 경우 노드는 기본 아이콘이 표시 됩니다.  
+> 생성 된 탐색기에 표시 되는 모든 요소에 대 한 노드 아이콘을 사용 하도록 설정한 경우 모든 탐색기 노드 아이콘이 표시 됩니다. 아이콘 없음에 설정한 경우 노드는 기본 아이콘이 표시 됩니다.  
   
 ## <a name="changing-the-name-displayed-on-an-explorer-node"></a>탐색기 노드에 표시 되는 이름 변경  
  탐색기에서 모델 요소의 이름이 표시 되는 방식을 변경할 수 있습니다. 다음 절차의 이름을 표시 하는 방법을 보여 줍니다 합니다 **태스크** 에서 참조 되는 **주석** 주석 노드에서.  

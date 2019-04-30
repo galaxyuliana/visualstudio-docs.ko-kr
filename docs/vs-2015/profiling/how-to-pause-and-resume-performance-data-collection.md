@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1edfb882838907503a0df106da2181c283f29d9a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5a67fa921c5fedf5d37585036b2c5e55c7497434
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432641"
 ---
 # <a name="how-to-pause-and-resume-performance-data-collection"></a>방법: 일시 중지 및 다시 시작 성능 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "60054003"
  ![프로파일링 세션 시작](../profiling/media/prof-profilingsessionpage.png "PROF_ProfilingSessionPage")  
   
 > [!NOTE]
->  프로파일링이 일시 중지된 상태로 성능 세션을 시작하고 나서 프로그램 실행 시 나중에 프로파일링을 다시 시작할 수도 있습니다. 프로파일링이 일시 중지된 상태로 성능 세션을 시작하려면 **디버그** 메뉴에서 **프로파일링이 일시 중지된 성능 분석 시작** 명령을 선택합니다.  
+> 프로파일링이 일시 중지된 상태로 성능 세션을 시작하고 나서 프로그램 실행 시 나중에 프로파일링을 다시 시작할 수도 있습니다. 프로파일링이 일시 중지된 상태로 성능 세션을 시작하려면 **디버그** 메뉴에서 **프로파일링이 일시 중지된 성능 분석 시작** 명령을 선택합니다.  
   
 ### <a name="to-pause--resume-or-stop-profiling"></a>프로파일링을 일시 중지, 다시 시작 또는 중지하려면  
   

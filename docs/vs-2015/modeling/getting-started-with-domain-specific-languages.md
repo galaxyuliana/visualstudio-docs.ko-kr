@@ -9,12 +9,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 99fdded48ab720e7b5efbe0e4801926fe4c4c64a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 4a13d0b648be87f1378ae74e6f321c1c369d7795
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60090617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427059"
 ---
 # <a name="getting-started-with-domain-specific-languages"></a>도메인별 언어 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,7 +79,7 @@ ms.locfileid: "60090617"
     솔루션에는 두 프로젝트가 포함 된 생성 됩니다. Dsl과 DslPackage 라고 합니다. 다이어그램 파일을 엽니다 명명된 DslDefinition.dsl입니다.  
   
    > [!NOTE]
-   >  대부분의 두 프로젝트의 폴더에서 볼 수 있는 코드는 DslDefinition.dsl에서 생성 됩니다. 이러한 이유로 대부분 DSL 수정이이 파일에 만들어집니다.  
+   > 대부분의 두 프로젝트의 폴더에서 볼 수 있는 코드는 DslDefinition.dsl에서 생성 됩니다. 이러한 이유로 대부분 DSL 수정이이 파일에 만들어집니다.  
   
    이제 사용자 인터페이스는 다음 그림과 같이 표시됩니다.  
   
@@ -104,7 +104,7 @@ ms.locfileid: "60090617"
 1. 클릭 **모든 템플릿 변환** 솔루션 탐색기 도구 모음에서입니다. 이 대부분의 DslDefinition.dsl에서 소스 코드를 다시 생성합니다.  
   
    > [!NOTE]
-   >  DslDefinition.dsl을 변경할 때마다 눌러야 **모든 템플릿 변환** 솔루션을 다시 작성 하기 전에 합니다. 이 단계는 자동화할 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
+   > DslDefinition.dsl을 변경할 때마다 눌러야 **모든 템플릿 변환** 솔루션을 다시 작성 하기 전에 합니다. 이 단계는 자동화할 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
   
 2. F5 키를 또는 **디버깅할** 메뉴에서 클릭 **디버깅 시작**합니다.  
   
@@ -171,7 +171,7 @@ ms.locfileid: "60090617"
    텍스트 템플릿 파일을 프로젝트에 추가할 수 있습니다. 각 템플릿은 하나의 결과 파일을 생성합니다.  
   
 > [!NOTE]
->  DSL 정의 변경한 경우 샘플 텍스트 템플릿 코드가 작동 하지 않습니다,이 업데이트 하지 않으면.  
+> DSL 정의 변경한 경우 샘플 텍스트 템플릿 코드가 작동 하지 않습니다,이 업데이트 하지 않으면.  
   
  자세한 내용은 참조 하세요. [도메인별 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md) 하 고 [도메인별 도메인별 언어 사용자 지정 하려면 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.  
   
@@ -179,7 +179,7 @@ ms.locfileid: "60090617"
  DSL 정의 수정 하려는 경우 실험적 인스턴스를 닫고 기본에서 정의 업데이트 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 인스턴스.  
   
 > [!NOTE]
->  DSL 정의 수정한 후에 이전 버전을 사용 하 여 만든 테스트 모델에서 정보를 손실 될 수 있습니다.  예를 들어, 디버깅 솔루션에는 몇 가지 모양 및 연결선을 포함 하는 샘플 라는 파일이 있습니다. DSL 정의 개발을 시작한 후에 표시 되지 않습니다 및 파일을 저장할 때 손실 됩니다.  
+> DSL 정의 수정한 후에 이전 버전을 사용 하 여 만든 테스트 모델에서 정보를 손실 될 수 있습니다.  예를 들어, 디버깅 솔루션에는 몇 가지 모양 및 연결선을 포함 하는 샘플 라는 파일이 있습니다. DSL 정의 개발을 시작한 후에 표시 되지 않습니다 및 파일을 저장할 때 손실 됩니다.  
   
  DSL에 다양 한 확장을 만들 수 있습니다. 다음 예제에서는 새 가능성을 제공 합니다.  
   
@@ -285,7 +285,7 @@ ms.locfileid: "60090617"
          예를 들어 이름 설정 **Town**합니다.  
   
         > [!NOTE]
-        >  모델의 루트를 제외한 모든 도메인 클래스 하나 이상 포함 관계의 대상 이거나 포함의 대상이 되는 클래스에서 상속 해야 합니다. 이 따라서 자주 포함 관계 도구를 사용 하 여 도메인 클래스를 만드는 편리한 것입니다.  
+        > 모델의 루트를 제외한 모든 도메인 클래스 하나 이상 포함 관계의 대상 이거나 포함의 대상이 되는 클래스에서 상속 해야 합니다. 이 따라서 자주 포함 관계 도구를 사용 하 여 도메인 클래스를 만드는 편리한 것입니다.  
   
     2. 예를 들어 새 클래스에 도메인 속성을 추가 **이름을**입니다.  
   
@@ -296,7 +296,7 @@ ms.locfileid: "60090617"
          ![DSL 정의 조각: 패밀리 트리 루트](../modeling/media/familyt-root.png "FamilyT_Root")  
   
         > [!NOTE]
-        >  참조 관계는 다른 모델 트리의 한 부분에서 상호 참조를 나타냅니다.  
+        > 참조 관계는 다른 모델 트리의 한 부분에서 상호 참조를 나타냅니다.  
   
 3. 모델 다이어그램에서 도심지 나타내는 셰이프를 추가 합니다.  
   

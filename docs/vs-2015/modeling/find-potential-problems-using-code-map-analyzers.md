@@ -15,12 +15,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: db54fef40914dc234f507935a646292eb8d4914e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: cd771cf35ef684edd8d5c9dd82436759ec9443a3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437496"
 ---
 # <a name="find-potential-problems-using-code-map-analyzers"></a>코드 맵 분석기를 사용하여 잠재적 문제 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ms.locfileid: "58986360"
    코드 맵 분석기는 적용한 후 계속 실행됩니다. 맵을 변경하는 경우 적용된 모든 분석기가 업데이트된 맵 자동으로 다시 처리합니다. 분석기 실행을 중지하려면 맵 도구 모음에서 **레이아웃**, **분석기**를 차례로 선택합니다. 선택한 분석기를 끕니다.  
   
 > [!TIP]
->  매우 큰 맵이 있는 경우 분석기를 실행할 때 메모리 부족 예외가 발생할 수 있습니다. 이 경우 맵을 편집하여 해당 범위를 줄이거나 더 작은 맵을 생성한 다음 분석기를 실행합니다.  
+> 매우 큰 맵이 있는 경우 분석기를 실행할 때 메모리 부족 예외가 발생할 수 있습니다. 이 경우 맵을 편집하여 해당 범위를 줄이거나 더 작은 맵을 생성한 다음 분석기를 실행합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)   

@@ -13,12 +13,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6e9c8f14fbec74b353550a1420a5ff3e119d6dce
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 96dfe49ce4e174680202cd60c3e8bca83cfbf575
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439678"
 ---
 # <a name="walkthrough-command-line-profiling-using-sampling"></a>연습: 샘플링을 사용 하 여 프로 파일링 명령줄
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ ms.locfileid: "60117436"
  샘플링은 특정 프로세스를 주기적으로 폴링하여 활성 함수를 확인하는 프로파일링 방법입니다. 결과 데이터는 프로세스를 샘플링할 때 함수가 호출 스택 위에 있었던 빈도에 해당하는 수를 제공합니다.  
   
 > [!NOTE]
->  프로파일링 도구의 명령줄 도구는 Visual Studio 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. PeopleTrax는 32비트 애플리케이션입니다.  
+> 프로파일링 도구의 명령줄 도구는 Visual Studio 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요. PeopleTrax는 32비트 애플리케이션입니다.  
   
 #### <a name="to-profile-the-peopletrax-application-by-using-the-sampling-method"></a>샘플링 방법을 사용하여 PeopleTrax 애플리케이션을 프로파일링하려면  
   

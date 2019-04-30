@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 29fcd40a2fc64a12ed7b29845b0a9f0ea3db5589
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5ef444d78e5a486f9e384ea02d1eb88461e3fce2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430334"
 ---
 # <a name="walkthrough-extend-server-explorer-to-display-web-parts"></a>연습: 웹 파트를 표시 하려면 서버 탐색기 확장
   Visual Studio에서 사용할 수 있습니다 합니다 **SharePoint 연결** 노드의 **서버 탐색기** SharePoint 사이트에서 구성 요소를 볼 수 있습니다. 그러나 **서버 탐색기** 기본적으로 일부 구성 요소를 표시 하지 않습니다. 이 연습에서는 확장할 예정 **서버 탐색기** SharePoint 사이트를 연결 된 각 웹 파트 갤러리에 표시 되도록 합니다.
@@ -40,7 +40,7 @@ ms.locfileid: "60040574"
 - 디버깅 및 테스트를 확장 합니다.
 
 > [!NOTE]
->  다른 버전의 서버 개체 모델에 해당 하는 대신 SharePoint에 대 한 클라이언트 개체 모델을 사용 하는이 연습을 참조 하세요. [연습: 서버 탐색기 확장의 SharePoint 클라이언트 개체 모델을 호출할](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)합니다.
+> 다른 버전의 서버 개체 모델에 해당 하는 대신 SharePoint에 대 한 클라이언트 개체 모델을 사용 하는이 연습을 참조 하세요. [연습: 서버 탐색기 확장의 SharePoint 클라이언트 개체 모델을 호출할](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)합니다.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료 하려면 개발 컴퓨터의 다음 구성 요소가 필요 합니다.
@@ -75,7 +75,7 @@ ms.locfileid: "60040574"
 3. 에 **새 프로젝트** 대화 상자에서 **Visual C#** 또는 **Visual Basic** 노드를 선택한 후 합니다 **확장성** 노드.
 
     > [!NOTE]
-    >  합니다 **확장성** 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
+    > 합니다 **확장성** 노드는 Visual Studio SDK를 설치 하는 경우에 사용할 수 있습니다. 자세한 내용은이 항목 앞부분의 전제 조건 섹션을 참조 하세요.
 
 4. 선택 대화 상자 맨 **.NET Framework 4.5** 버전의.NET Framework의 목록에서입니다.
 
@@ -211,7 +211,7 @@ ms.locfileid: "60040574"
 1. WebPartNodeExtension 프로젝트에서 SiteNodeExtension 코드 파일을 열고 다음 코드를 붙여 넣습니다.
 
     > [!NOTE]
-    >  이 코드를 추가, 프로젝트를 컴파일 오류가 발생 해야 합니다. 해당 위치로 이동 후 추가 하면 코드 이후 단계에서.
+    > 이 코드를 추가, 프로젝트를 컴파일 오류가 발생 해야 합니다. 해당 위치로 이동 후 추가 하면 코드 이후 단계에서.
 
      [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#1](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/sitenodeextension.cs#1)]
      [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#1](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/sitenodeextension.vb#1)]
@@ -266,7 +266,7 @@ ms.locfileid: "60040574"
 1. 메뉴 모음에서 **빌드** > **솔루션 빌드**를 선택합니다.
 
     > [!WARNING]
-    >  이 시점에서 WebPartNode 프로젝트는 VSIX 매니페스트 파일 작성자에 대 한 값이 없는 때문에 빌드 오류가 있을 수 있습니다. 이 오류는 사라집니다 이후 단계에서 값을 추가 합니다.
+    > 이 시점에서 WebPartNode 프로젝트는 VSIX 매니페스트 파일 작성자에 대 한 값이 없는 때문에 빌드 오류가 있을 수 있습니다. 이 오류는 사라집니다 이후 단계에서 값을 추가 합니다.
 
 ## <a name="create-a-vsix-package-to-deploy-the-extension"></a>확장을 배포 하는 VSIX 패키지 만들기
  확장을 배포 하려면 솔루션에서 VSIX 프로젝트를 사용 하 여 VSIX 패키지를 만듭니다. VSIX 프로젝트에서 source.extension.vsixmanifest 파일을 수정 하 여 VSIX 패키지를 먼저 구성 합니다. 그런 다음 솔루션을 구축 하 여 VSIX 패키지를 만듭니다.
@@ -290,7 +290,7 @@ ms.locfileid: "60040574"
 6. 에 **형식** 목록에서 선택 **Microsoft.VisualStudio.MefComponent**합니다.
 
     > [!NOTE]
-    >  이 값에 해당 하는 `MefComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
+    > 이 값에 해당 하는 `MefComponent` extension.vsixmanifest 파일의 요소입니다. 이 요소는 VSIX 패키지 확장 어셈블리의 이름을 지정합니다. 자세한 내용은 [MEFComponent 요소 (VSX 스키마)](/previous-versions/visualstudio/visual-studio-2010/dd393736\(v\=vs.100\))합니다.
 
 7. 에 **소스** 목록에서 선택 **현재 솔루션의 프로젝트**합니다.
 
@@ -303,7 +303,7 @@ ms.locfileid: "60040574"
 10. 에 **형식** 상자에 입력 합니다 **SharePoint.Commands.v4**합니다.
 
     > [!NOTE]
-    >  이 요소는 Visual Studio 확장에 포함 하려는 사용자 지정 확장을 지정 합니다. 자세한 내용은 [자산 요소 (VSX 스키마)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737)합니다.
+    > 이 요소는 Visual Studio 확장에 포함 하려는 사용자 지정 확장을 지정 합니다. 자세한 내용은 [자산 요소 (VSX 스키마)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737)합니다.
 
 11. 에 **원본** 목록에서 선택 합니다 **현재 솔루션의 프로젝트** 목록 항목입니다.
 

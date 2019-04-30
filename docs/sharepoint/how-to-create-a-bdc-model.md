@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: e4e05eae6339d55d16fb0cf6ba6ebeb9d1f4f296
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9126a0d3bb552f525247cbfb2243504a1effaa92
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106659"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435466"
 ---
 # <a name="how-to-create-a-bdc-model"></a>방법: BDC 모델 만들기
   템플릿을 사용 하 여 해당 종류의 항목에 대 한 다음 SharePoint 프로젝트 모델을 추가 하 여 비즈니스 데이터 연결 (BDC) 모델을 만들 수 있습니다. 자세한 내용은 [비즈니스 데이터 연결 모델 만들기](../sharepoint/creating-a-business-data-connectivity-model.md)합니다. 모델을 디자인 하는 방법에 대 한 자세한 내용은 참조 하세요. [비즈니스 데이터 연결 모델 디자인](../sharepoint/designing-a-business-data-connectivity-model.md)합니다.
@@ -28,7 +28,7 @@ ms.locfileid: "60106659"
 1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
     > [!NOTE]
-    >  IDE가 Visual Basic 개발 설정을 사용 하도록 설정 하는 경우 선택할 **파일** > **새 프로젝트**합니다.
+    > IDE가 Visual Basic 개발 설정을 사용 하도록 설정 하는 경우 선택할 **파일** > **새 프로젝트**합니다.
 
      **새 프로젝트** 대화 상자가 열립니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "60106659"
      지정 된 SharePoint 사이트에서 모델을 테스트 합니다.
 
     > [!IMPORTANT]
-    >  BDC 모델은 팜 솔루션만 지원 하므로 팜 솔루션으로 프로젝트를 배포 해야 합니다.
+    > BDC 모델은 팜 솔루션만 지원 하므로 팜 솔루션으로 프로젝트를 배포 해야 합니다.
 
      빈 SharePoint 프로젝트가 만들어집니다.
 

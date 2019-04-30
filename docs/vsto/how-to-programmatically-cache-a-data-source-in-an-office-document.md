@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7f039154265e9031713eb5511bb1c51a63e5b422
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 23ea89b25ca1bd1e7aa48ab1782d23bd7db057f0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437115"
 ---
 # <a name="how-to-programmatically-cache-a-data-source-in-an-office-document"></a>방법: Office 문서에서 데이터 원본을 프로그래밍 방식으로 캐시
   호출 하 여 문서의 데이터 캐시에 데이터 개체를 프로그래밍 방식으로 추가할 수 있습니다는 `StartCaching` 와 같은 호스트의 메서드 항목을 <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, 또는 <xref:Microsoft.Office.Tools.Excel.Worksheet>합니다. 데이터 개체를 호출 하 여 데이터 캐시에서 제거 된 `StopCaching` 메서드 호스트 항목의 합니다.
@@ -52,7 +52,7 @@ ms.locfileid: "60109181"
      [!code-vb[Trin_VstcoreDataExcel#14](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#14)]
 
     > [!NOTE]
-    >  호출 하지 마세요 `StopCaching` 에 대 한 이벤트 처리기에서는 `Shutdown` 문서 또는 워크시트의 이벤트입니다. 시간을 `Shutdown` 이벤트가 발생 하면 너무 늦게 데이터 캐시를 수정 하는 것입니다. 에 대 한 자세한 내용은 합니다 `Shutdown` 이벤트를 참조 하세요 [Events in Office Projects](../vsto/events-in-office-projects.md)합니다.
+    > 호출 하지 마세요 `StopCaching` 에 대 한 이벤트 처리기에서는 `Shutdown` 문서 또는 워크시트의 이벤트입니다. 시간을 `Shutdown` 이벤트가 발생 하면 너무 늦게 데이터 캐시를 수정 하는 것입니다. 에 대 한 자세한 내용은 합니다 `Shutdown` 이벤트를 참조 하세요 [Events in Office Projects](../vsto/events-in-office-projects.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 

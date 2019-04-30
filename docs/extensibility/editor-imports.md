@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 99619efa5181fbcf299e99cde60b8879731c0c74
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: b11ef172cdd8fb4b1c72b72b43198ad7ad8f74e5
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56715637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417355"
 ---
 # <a name="editor-imports"></a>편집기 가져오기
 편집기 서비스, 팩터리 및 핵심 편집기를 다양 한 종류의 액세스를 사용 하 여 확장을 제공 하는 브로커의 숫자를 가져올 수 있습니다. 예를 들어, 가져올 수 있습니다 합니다 <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> 을 제공 하기는 <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigator> 지정된 된 콘텐츠 형식에 대 한 합니다. (이 검색기 허용 텍스트 버퍼에서 다른 유형의 검색을 수행 합니다.)
@@ -23,7 +23,7 @@ ms.locfileid: "56715637"
  편집기 가져오기를 사용 하려면 가져올 있습니다 필드 또는 Managed Extensibility Framework 구성 요소 파트를 내보내는 클래스의 속성으로.
 
 > [!NOTE]
->  Managed Extensibility Framework에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](/dotnet/framework/mef/index)합니다.
+> Managed Extensibility Framework에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](/dotnet/framework/mef/index)합니다.
 
 ## <a name="import-syntax"></a>가져오기 구문
  다음 예제에서는 편집기를 가져오는 방법 옵션 팩터리 서비스를 보여 줍니다.
@@ -73,7 +73,7 @@ internal SVsServiceProvider ServiceProvider = null;
 |------------|--------------|
 |<xref:Microsoft.VisualStudio.Utilities.IFileExtensionRegistryService>|파일 확장명 간의 관계 및 <xref:Microsoft.VisualStudio.Utilities.IContentType> 개체입니다.|
 |<xref:Microsoft.VisualStudio.Utilities.IContentTypeRegistryService>|<xref:Microsoft.VisualStudio.Utilities.IContentType> 개체의 컬렉션입니다.|
-|<xref:Microsoft.VisualStudio.Editor.IVsFontsAndColorsInformationService>|<xref:Microsoft.VisualStudio.Editor.IVsFontsAndColorsInformation> 개체|
+|<xref:Microsoft.VisualStudio.Editor.IVsFontsAndColorsInformationService>|<xref:Microsoft.VisualStudio.Editor.IVsFontsAndColorsInformation> 개체입니다.|
 |<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>|많은 편집기 어댑터 개체:<br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator><br /><br /> <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>|
 |<xref:Microsoft.VisualStudio.Text.IncrementalSearch.IIncrementalSearchFactoryService>|<xref:Microsoft.VisualStudio.Text.IncrementalSearch.IIncrementalSearch> 지정 된 텍스트 보기에 대 한 개체입니다.|
 |<xref:Microsoft.VisualStudio.Text.ITextBufferFactoryService>|<xref:Microsoft.VisualStudio.Text.ITextBuffer>입니다.|

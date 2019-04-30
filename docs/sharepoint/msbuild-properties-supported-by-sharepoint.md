@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b561a4aebe34ac943b0163e66dfbf2edf423eedb
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: f53083c49504146aca545da73bd38950493efcd8
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429205"
 ---
 # <a name="msbuild-properties-supported-by-sharepoint"></a>SharePoint에서 지 원하는 MsBuild 속성
   모든 [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] Microsoft.VisualStudio.SharePoint.targets 파일, 프로젝트 파일 또는 프로젝트 사용자 파일에 정의 된 속성에서 사용할 수 있습니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다. 일반적인 외에도 [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] SharePoint 프로젝트에 관련 된 추가 속성을 정의 하는 프로젝트를 SharePoint에서 제공 하는 속성입니다.
@@ -49,7 +49,7 @@ ms.locfileid: "56599690"
  유연성을 하드 코딩 된 문자열을 사용 하는 대신 합니다 **배포 전 명령줄** 하 고 **배포 후 명령줄** 상자 SharePoint 속성 페이지의 SharePoint를 사용할 수 있습니다 인수로 속성입니다. 예를 들어, 특정을 지정 하는 대신 [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] 문자열 SharePoint 사이트에 대 한 대신 사용할 수 있습니다 `$(SharePointSiteUrl)`합니다.
 
 > [!NOTE]
->  하나를 사용 합니다 [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] 변수 구문의 `$(` *propertyName* `)` 또는 환경 변수 구문을 `%` *propertyName* `%` 속성을 지정 합니다.
+> 하나를 사용 합니다 [!INCLUDE[vstecmsbuild](../sharepoint/includes/vstecmsbuild-md.md)] 변수 구문의 `$(` *propertyName* `)` 또는 환경 변수 구문을 `%` *propertyName* `%` 속성을 지정 합니다.
 
 ## <a name="see-also"></a>참고자료
 

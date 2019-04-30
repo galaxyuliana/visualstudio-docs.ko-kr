@@ -29,12 +29,12 @@ caps.latest.revision: 45
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: f40f5f27d603b67e6a7403f5327ffd89b486fa10
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 65dafa09035e937e9ee48005c4f29c441d983c37
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430293"
 ---
 # <a name="how-to-use-the-call-stack-window"></a>방법: 호출 스택 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "60106460"
  바로 가기 메뉴를 사용하면 스레드 간의 호출 표시 여부를 선택할 수 있습니다.  
   
 > [!NOTE]
->  표시되는 대화 상자와 메뉴 명령은 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기**를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기**를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ### <a name="to-display-the-call-stack-window-in-break-mode-or-in-run-mode"></a>중단 모드 또는 실행 모드에서 호출 스택 창을 표시하려면  
   

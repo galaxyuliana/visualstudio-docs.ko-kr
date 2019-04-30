@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: b1219543c438c79ad1add068262d9556dd2d7ce8
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: b2f2a7c134142668613cc38cee9357e42cb95096
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58159337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433936"
 ---
 # <a name="idebugdocumenthelperadddeferredtext"></a>IDebugDocumentHelper::AddDeferredText
 지정된 된 텍스트를 사용할 수 있지만 문자를 제공 하지 않으며 도우미에 알립니다.  
@@ -57,7 +57,7 @@ HRESULT AddDeferredText(
  있다고 가정에 대 한 단일 호출 `IDebugDocumentText::GetText` 에 대 한 여러 호출에서 문자를 가져올 수 있습니다 `AddDeferredText`합니다. 도우미 클래스를 두 번 이상 동일한 범위의 지연 된 문자에 대 한 요청 될 수 있습니다.  
   
 > [!NOTE]
->  에 대 한 호출 `AddDeferredText` 를 호출 하 여 혼합 하지 않아야 `AddUnicodeText` 또는 `AddDBCSText`합니다. 이 경우 `E_FAIL` 반환 됩니다.  
+> 에 대 한 호출 `AddDeferredText` 를 호출 하 여 혼합 하지 않아야 `AddUnicodeText` 또는 `AddDBCSText`합니다. 이 경우 `E_FAIL` 반환 됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDebugDocumentHelper 인터페이스](../../winscript/reference/idebugdocumenthelper-interface.md)   

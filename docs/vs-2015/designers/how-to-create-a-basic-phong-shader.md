@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 78ff2ecf77d3d8943601b8bd0779fa37811ec2d2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7153c02f5cd3d494edb56b218512ba5de87f318a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63438427"
 ---
 # <a name="how-to-create-a-basic-phong-shader"></a>방법: 기본 퐁 셰이더 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "60113757"
    다음 그림은 주전자 모델에 적용된 셰이더의 완료된 셰이더 그래프 및 미리 보기를 보여 줍니다.  
   
 > [!NOTE]
->  이 그림에서 셰이더의 효과를 더 잘 보여 주기 위해 셰이더의 **MaterialDiffuse** 매개 변수를 사용하여 주황색이 지정되었고, **MaterialSpecular** 및 **MaterialSpecularPower** 매개 변수를 사용하여 금속 재질 마감이 지정되었습니다. 재질 매개 변수에 대한 자세한 내용은 [셰이더 디자이너](../designers/shader-designer.md)의 셰이더 미리 보기 섹션을 참조하세요.  
+> 이 그림에서 셰이더의 효과를 더 잘 보여 주기 위해 셰이더의 **MaterialDiffuse** 매개 변수를 사용하여 주황색이 지정되었고, **MaterialSpecular** 및 **MaterialSpecularPower** 매개 변수를 사용하여 금속 재질 마감이 지정되었습니다. 재질 매개 변수에 대한 자세한 내용은 [셰이더 디자이너](../designers/shader-designer.md)의 셰이더 미리 보기 섹션을 참조하세요.  
   
  ![셰이더 그래프 및 효과 미리 보기](../designers/media/digit-lighting-graph.png "Digit-Lighting-Graph")  
   
@@ -62,9 +62,9 @@ ms.locfileid: "60113757"
  다음 그림은 3D 모델에 적용되는 이 문서에서 설명된 셰이더를 보여 줍니다. **MaterialSpecular** 속성은 (1.00, 0.50, 0.20, 0.00)으로 설정되고 해당 **MaterialSpecularPower** 속성은 16으로 설정됩니다.  
   
 > [!NOTE]
->  **MaterialSpecular** 속성은 표면 재질의 외관 마감을 결정합니다. 유리 또는 플라스틱과 같은 고광택 표면은 흰색의 밝은 음영인 반사 색을 가지는 경향이 있습니다. 금속성 표면은 확산 색에 가까운 반사 색을 가지는 경향이 있습니다. 새틴 마감 표면은 회색의 어두운 음영인 반사 색을 가지는 경향이 있습니다.  
+> **MaterialSpecular** 속성은 표면 재질의 외관 마감을 결정합니다. 유리 또는 플라스틱과 같은 고광택 표면은 흰색의 밝은 음영인 반사 색을 가지는 경향이 있습니다. 금속성 표면은 확산 색에 가까운 반사 색을 가지는 경향이 있습니다. 새틴 마감 표면은 회색의 어두운 음영인 반사 색을 가지는 경향이 있습니다.  
 >   
->  **MaterialSpecularPower** 속성은 반사 강조 표시의 강도를 결정합니다. 높은 반사 강도는 더 무디고 더 집중적인 강조 표시를 시뮬레이트합니다. 매우 낮은 반사 강도는 전체 표면의 색을 과포화시키고 숨길 수 있는 강도가 높고 포괄적인 강조 표시를 시뮬레이트합니다.  
+> **MaterialSpecularPower** 속성은 반사 강조 표시의 강도를 결정합니다. 높은 반사 강도는 더 무디고 더 집중적인 강조 표시를 시뮬레이트합니다. 매우 낮은 반사 강도는 전체 표면의 색을 과포화시키고 숨길 수 있는 강도가 높고 포괄적인 강조 표시를 시뮬레이트합니다.  
   
  ![모델에 적용된 퐁 조명](../designers/media/digit-lighting-model.png "Digit-Lighting-Model")  
   
