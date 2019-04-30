@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 05/23/2018
 ms.author: mikejo
 ms.custom: include file
-ms.openlocfilehash: 67ffd17c772221c356e8c25d14437c2a737fda9e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 3fa0569739ee81ec4b2aa0eec8157068ffc949cd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56723879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63407778"
 ---
 1. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **게시** (Web Forms에 대 한 **웹 앱 게시**).
 
@@ -43,7 +43,7 @@ ms.locfileid: "56723879"
 1. ASP.NET 앱에 대해 구성 된 로컬 디렉터리에 Visual Studio 컴퓨터에서 ASP.NET 프로젝트 디렉터리를 복사 (이 예제의 **C:\Publish**) Windows Server 컴퓨터. 이 자습서에서는 수동으로 복사 하는 PowerShell, Xcopy 또는 Robocopy와 같은 다른 도구를 사용할 수 있지만 가정 합니다.
 
     > [!CAUTION]
-    >  코드를 다시 빌드를 변경 하는 경우에 다시 게시 하 고이 단계를 반복 해야 합니다. 원격 컴퓨터에 복사한 실행 파일은 로컬 소스 및 기호와 정확히 일치해야 합니다.    받게이 수행 되지 않으면를 `cannot find or open the PDB file` 프로세스를 디버깅 하려고 할 때 Visual Studio에서 경고 합니다.
+    > 코드를 다시 빌드를 변경 하는 경우에 다시 게시 하 고이 단계를 반복 해야 합니다. 원격 컴퓨터에 복사한 실행 파일은 로컬 소스 및 기호와 정확히 일치해야 합니다.    받게이 수행 되지 않으면를 `cannot find or open the PDB file` 프로세스를 디버깅 하려고 할 때 Visual Studio에서 경고 합니다.
 
 1. Windows Server에서 실행할 수 있는지 앱 올바르게 브라우저에서 앱을 열어서를 확인 합니다.
 

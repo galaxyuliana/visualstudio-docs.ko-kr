@@ -14,20 +14,20 @@ ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
 caps.latest.revision: 29
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 16a4fca95380ad00338b2708f48f13f105a86da0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 3296613ffbe3148caa04989dfc9d609334b4c200
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435985"
 ---
 # <a name="sdk-helpers-for-debugging"></a>디버깅을 위한 SDK 도우미
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-이러한 함수와 선언은 c + +에서 디버그 엔진, 식 계산기 및 기호 공급자를 구현 하는 것에 대 한 전역 도우미 함수입니다.  
+이러한 함수 및 선언 기호 공급자, 식 계산기 및 디버그 엔진 구현에 대 한 전역 도우미 함수는 C++입니다.  
   
 > [!NOTE]
->  지금은이 기능 및 선언에 관리 되는 버전이 있습니다.  
+> 지금은이 기능 및 선언에 관리 되는 버전이 있습니다.  
   
 ## <a name="overview"></a>개요  
  Visual Studio에서 사용할 디버그 엔진, 식 계산기 및 기호 공급자에 대 한 순서에는 등록 되어야 합니다. 이 레지스트리 하위 키 및 "설정 메트릭" 라고도 하는 항목을 설정 하 여 작업 수행 다음 전역 함수는 이러한 메트릭을 업데이트 하는 프로세스가 용이 하도록 설계 되었습니다. 이러한 함수에 의해 업데이트 되는 각 레지스트리 하위 키의 레이아웃을 확인 하려면 레지스트리 위치에 섹션을 참조 하세요.  
@@ -239,7 +239,7 @@ HRESULT EnumMetricSections(
  메트릭을 읽고 특히 레지스트리에 기록 된 `VisualStudio` 하위 키입니다.  
   
 > [!NOTE]
->  대부분의 경우 HKEY_LOCAL_MACHINE 키에 메트릭이 기록 됩니다. 그러나 때로는 HKEY_CURRENT_USER 됩니다 대상 키입니다. Dbgmetric.lib 두 키를 처리합니다. HKEY_CURRENT_USER 검색 메트릭의 가져올 때 가장 먼저 다음 HKEY_LOCAL_MACHINE입니다. 메트릭, 설정 되 면 매개 변수를 사용 하는 최상위 키를 지정 합니다.  
+> 대부분의 경우 HKEY_LOCAL_MACHINE 키에 메트릭이 기록 됩니다. 그러나 때로는 HKEY_CURRENT_USER 됩니다 대상 키입니다. Dbgmetric.lib 두 키를 처리합니다. HKEY_CURRENT_USER 검색 메트릭의 가져올 때 가장 먼저 다음 HKEY_LOCAL_MACHINE입니다. 메트릭, 설정 되 면 매개 변수를 사용 하는 최상위 키를 지정 합니다.  
   
  *[레지스트리 키]*\  
   
@@ -271,7 +271,7 @@ HRESULT EnumMetricSections(
 |*[메트릭 값]*|메트릭을 할당할 값입니다. 값 (문자열, 숫자 등) 있어야 합니다. 형식 메트릭에 따라 달라 집니다.|  
   
 > [!NOTE]
->  형식의 저장 된 모든 Guid `{GUID}`합니다. 예를 들어, `{123D150B-FA18-461C-B218-45B3E4589F9B}`을 입력합니다.  
+> 형식의 저장 된 모든 Guid `{GUID}`합니다. 예를 들어, `{123D150B-FA18-461C-B218-45B3E4589F9B}`을 입력합니다.  
   
 ### <a name="debug-engines"></a>디버그 엔진  
  다음은 레지스트리에 디버그 엔진 메트릭의 조직입니다. `Engine` 디버그 엔진에 대 한 메트릭 유형 이름이 며 해당 *[메트릭 유형]* 위의 레지스트리 하위 트리.  
@@ -350,7 +350,7 @@ HRESULT EnumMetricSections(
  다음은 레지스트리에 식 계산기 메트릭의 조직입니다. `ExpressionEvaluator` 식 계산기에 대 한 메트릭 유형 이름이 며 해당 *[메트릭 유형]* 합니다.  
   
 > [!NOTE]
->  에 대 한 메트릭 유형에 `ExpressionEvaluator` 식 계산기에 대 한 모든 메트릭 변경 사항 적절 한 식 계산기 메트릭 기능을 통해 진행 될를 가정 하는 대로 dbgmetric.h에에서 정의 되지 않은 (의 레이아웃을 `ExpressionEvaluator` 하위 키를 어느 정도 복잡 한 세부 정보 내 dbgmetric.lib 숨겨져 있으므로).  
+> 에 대 한 메트릭 유형에 `ExpressionEvaluator` 식 계산기에 대 한 모든 메트릭 변경 사항 적절 한 식 계산기 메트릭 기능을 통해 진행 될를 가정 하는 대로 dbgmetric.h에에서 정의 되지 않은 (의 레이아웃을 `ExpressionEvaluator` 하위 키를 어느 정도 복잡 한 세부 정보 내 dbgmetric.lib 숨겨져 있으므로).  
   
  `ExpressionEvaluator`\  
   
@@ -416,7 +416,7 @@ HRESULT EnumMetricSections(
 |자리 표시자|설명|  
 |-----------------|-----------------|  
 |*[디버그 엔진 guid]*|예외를 지 원하는 디버그 엔진을의 GUID입니다.|  
-|*[exception types]*|처리할 수 있는 예외 클래스를 식별 하는 하위 키에 대 한 일반 제목입니다. 일반적인 이름은 **c + + 예외**, **Win32 예외**합니다 **Common Language Runtime Exceptions**, 및 **네이티브 런타임 검사**합니다. 이러한 이름은 특정 사용자에 게 예외 클래스를 식별 하도 사용 됩니다.|  
+|*[exception types]*|처리할 수 있는 예외 클래스를 식별 하는 하위 키에 대 한 일반 제목입니다. 일반적인 이름은  **C++ 예외**합니다 **Win32 예외**를 **Common Language Runtime Exceptions**, 및 **네이티브 런타임 검사**. 이러한 이름은 특정 사용자에 게 예외 클래스를 식별 하도 사용 됩니다.|  
 |*[exception]*|예외에 대 한 이름을: 예를 들어 **_com_error** 하거나 **컨트롤 나누기**합니다. 이러한 이름은 사용자에 게 특정 예외를 식별 하도 사용 됩니다.|  
   
 ## <a name="requirements"></a>요구 사항  

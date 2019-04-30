@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 9d7bf1be05ebabcaac319cce591cf82cd2ab5f5d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6b6f0b1f3afec1231778a54c82422d6761995eb1
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402788"
 ---
 # <a name="how-to-create-an-association-between-linq-to-sql-classes-or-designer"></a>방법: LINQ to SQL 클래스 (O/R 디자이너) 간 연결 만들기
 [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)]에서 엔터티 클래스 간의 연결은 데이터베이스 테이블 간의 관계와 비슷합니다. **연결 편집기** 대화 상자를 사용하여 엔터티 클래스 간의 연결을 만들 수 있습니다.
@@ -21,7 +21,7 @@ ms.locfileid: "60112288"
 **연결 편집기** 대화 상자에서 연결을 만들 때 부모 클래스와 자식 클래스를 선택해야 합니다. 부모 클래스는 기본 키가 있는 엔터티 클래스이고, 자식 클래스는 외래 키가 있는 엔터티 클래스입니다. 예를 들어, 엔터티 클래스에 매핑되는 생성 된 경우에 `Northwind Customers` 및 `Orders` 테이블의 `Customer` 클래스는 부모 클래스 것 및 `Order` 클래스는 자식 클래스는 것입니다.
 
 > [!NOTE]
->  테이블을 끌어 오면 **서버 탐색기** 또는 **데이터베이스 탐색기** 에 **Object Relational Designer** (**O/R 디자이너**), 연결 된 데이터베이스의 기존 외래 키 관계에 따라 자동으로 생성 됩니다.
+> 테이블을 끌어 오면 **서버 탐색기** 또는 **데이터베이스 탐색기** 에 **Object Relational Designer** (**O/R 디자이너**), 연결 된 데이터베이스의 기존 외래 키 관계에 따라 자동으로 생성 됩니다.
 
 ## <a name="association-properties"></a>연결 속성
 연결을 만든 후 **O/R 디자이너**에서 연결을 선택하면 **속성** 창에 몇 개의 구성 가능한 속성이 나타납니다. 연결은 관련 클래스 간의 선입니다. 다음 표에서는 연결 속성을 설명합니다.

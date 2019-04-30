@@ -1,5 +1,5 @@
 ---
-title: 'DA0024: 과도한 GC CPU 시간 | Microsoft 문서'
+title: 'DA0024: GC CPU 시간이 너무 깁니다. | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -13,14 +13,14 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: eae77a7685bbc9e8dc1613603baec9a5c93ad285
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: d40377c28e0987ac902ab8aa5cf778715eb899cd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54771071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63435845"
 ---
-# <a name="da0024-excessive-gc-cpu-time"></a>DA0024: 과도한 GC CPU 시간
+# <a name="da0024-excessive-gc-cpu-time"></a>DA0024: GC CPU 시간이 너무 깁니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 규칙 Id | DA0024 |  
@@ -42,7 +42,7 @@ ms.locfileid: "54771071"
  프로파일링 중에 수집되는 시스템 성능 데이터가 가비지 수집에 걸린 시간이 총 애플리케이션 처리 시간에 비해 너무 클 경우 이 규칙이 실행됩니다.  
   
 > [!NOTE]
->  가비지 수집에 걸린 시간이 총 애플리케이션 처리 시간에 비해 상당하지만 과도하지 않을 경우 [DA0023: 높은 GC CPU 시간](../profiling/da0023-high-gc-cpu-time.md) 경고가 이 규칙 대신 실행됩니다.  
+> 가비지 수집에 걸린 시간이 길지만 총 애플리케이션 처리 시간에 비해 과도하지 않으면 [DA0023: GC CPU 시간이 깁니다.](../profiling/da0023-high-gc-cpu-time.md) 경고가 이 규칙 대신 실행됩니다.  
   
 ## <a name="how-to-investigate-a-warning"></a>경고를 조사하는 방법  
  [오류 목록] 창에서 메시지를 두 번 클릭하여 프로파일링 데이터의 [표시 뷰](../profiling/marks-view.md)로 이동합니다. **.NET CLR Memory\\% Time in GC** 열을 찾습니다. 다른 단계보다 관리되는 메모리 가비지 수집의 오버헤드가 더 큰 특정 프로그램 실행 단계가 있는지 확인합니다. % Time in GC 값을 **# of Gen 0 Collections**, **# of Gen 1 Collections**, **# of Gen 2 Collections** 값에서 보고된 가비지 수집 비율에 비교합니다.  

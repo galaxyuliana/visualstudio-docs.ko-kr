@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6167c5472f06e016fa45f17fb7cb493224f1668b
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.openlocfilehash: 20d8a92e7fcd8c02ee659b997bc4530c8570d3fa
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415904"
 ---
 # <a name="textdocattr2"></a>TEXT_DOC_ATTR_2
 문서의 특성을 설명합니다.
@@ -39,7 +39,7 @@ public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
 ## <a name="remarks"></a>설명
 
 > [!NOTE]
->  이 값의 C# 어셈블리에서 실제로 정의 되지 않았습니다. 대신, 소스 파일에 정의 복사 해야 합니다.
+> 이 값의 C# 어셈블리에서 실제로 정의 되지 않았습니다. 대신, 소스 파일에 정의 복사 해야 합니다.
 
  인수로 전달 된 [onUpdateDocumentAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatedocumentattributes.md) 메서드.
 

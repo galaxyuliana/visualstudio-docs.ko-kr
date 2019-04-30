@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eab627b09c1544b69a8834711e51a3bbbdd63e5a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: 2b23e10dfd00f4e1b9bde8520ef50aa60cd18b35
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "58866788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406748"
 ---
 # <a name="secure-clickonce-applications"></a>ClickOnce 애플리케이션 보안
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램에서는 .NET Framework의 코드 액세스 보안 제한에 따라 보호된 리소스 및 작업에 대한 코드의 액세스를 제한합니다. 따라서 코드 액세스 보안의 의미를 이해하여 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 적절하게 작성해야 합니다. 애플리케이션에서는 완전 신뢰 영역이나 부분 신뢰 영역(예: 인터넷 및 인트라넷 영역)을 사용하여 액세스를 제한할 수 있습니다.
@@ -71,7 +71,7 @@ ms.locfileid: "58866788"
  쿼리 문자열을 통해 검색된 인수를 안전성을 확인하지 않고 데이터베이스나 명령줄에 직접 전달하면 안 됩니다. 안전하지 않은 인수는 데이터베이스 또는 명령줄 이스케이프 문자가 들어 있는 인수입니다. 이러한 문자가 있으면 악의적인 사용자가 애플리케이션을 조작하여 임의의 명령을 실행할 수 있게 됩니다.
 
 > [!NOTE]
->  쿼리 문자열 인수는 시작할 때 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션에 인수를 전달할 수 있는 유일한 방법입니다. 명령줄에서는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션에 인수를 전달할 수 없습니다.
+> 쿼리 문자열 인수는 시작할 때 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션에 인수를 전달할 수 있는 유일한 방법입니다. 명령줄에서는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션에 인수를 전달할 수 없습니다.
 
 ## <a name="deploying-obfuscated-assemblies"></a>난독 처리된 어셈블리 배포
  Visual Studio에는 체험판 [PreEmptive Protection - Dotfuscator Community](../ide/dotfuscator/index.md)가 포함되어 있어 코드 난독 처리 및 활성 보호 조치를 통해 ClickOnce 애플리케이션을 보호하는 데 사용할 수 있습니다.  자세한 내용은 [Dotfuscator Community 사용자 가이드의 ClickOnce 섹션](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html)을 참조하세요.

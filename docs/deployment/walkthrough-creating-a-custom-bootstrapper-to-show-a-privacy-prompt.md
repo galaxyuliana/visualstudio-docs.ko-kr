@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1973d5d71308cc5fda6e48acfc60d256775ff2cc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 00c5266d57ae5633313465796c718d989f783ea6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406856"
 ---
 # <a name="walkthrough-create-a-custom-bootstrapper-with-a-privacy-prompt"></a>연습: 개인정보처리방침 프롬프트가 포함된 사용자 지정 부트스트래퍼 만들기
 최신 파일 버전 및 어셈블리 버전을 사용 하 여 어셈블리를 사용할 수 있게 되 면 자동으로 업데이트 하도록 ClickOnce 응용 프로그램을 구성할 수 있습니다. 되도록 고객에 게이 동작에 동의 하는, 개인정보 처리 방침 프롬프트를 표시할 수 있습니다. 그런 다음 응용 프로그램이 자동으로 업데이트 하는 권한을 부여할 것인지를 선택할 수 있습니다. 응용 프로그램에 자동으로 업데이트 하도록 허용 되지 않습니다 설치 하지 않습니다.
@@ -125,7 +125,7 @@ ms.locfileid: "60089174"
     6. 에 **시작 개체** 드롭 다운 메뉴에서 **Module1**합니다.
 
        > [!NOTE]
-       >  Windows XP 비주얼 스타일, 응용 프로그램 이벤트, 시작 화면, 단일 인스턴스 응용 프로그램 등과 같은 기능을 비활성화 응용 프로그램 프레임 워크를 사용 하지 않도록 설정 합니다. 자세한 내용은 [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)을 참조하세요.
+       > Windows XP 비주얼 스타일, 응용 프로그램 이벤트, 시작 화면, 단일 인스턴스 응용 프로그램 등과 같은 기능을 비활성화 응용 프로그램 프레임 워크를 사용 하지 않도록 설정 합니다. 자세한 내용은 [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)을 참조하세요.
 
        Visual C# 개발자에 해당:
 
@@ -151,12 +151,12 @@ ms.locfileid: "60089174"
 1. 라는 디렉터리를 만듭니다 **UpdateConsentDialog** 에 *%PROGRAMFILES%\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages*합니다.
 
     > [!NOTE]
-    >  이 폴더를 만들려면 관리자 권한 해야 할 수 있습니다.
+    > 이 폴더를 만들려면 관리자 권한 해야 할 수 있습니다.
 
 2. 에 *UpdateConsentDialog* 디렉터리를 라는 하위 디렉터리를 만듭니다 *en*합니다.
 
     > [!NOTE]
-    >  각 로캘에 대 한 새 디렉터리를 만듭니다. 예를 들어 fr 및 독일 로캘에 대 한 하위 디렉터리를 추가할 수 있습니다. 필요한 경우 이러한 디렉터리는 프랑스어 및 독일어 문자열 및 언어 팩에 포함 됩니다.
+    > 각 로캘에 대 한 새 디렉터리를 만듭니다. 예를 들어 fr 및 독일 로캘에 대 한 하위 디렉터리를 추가할 수 있습니다. 필요한 경우 이러한 디렉터리는 프랑스어 및 독일어 문자열 및 언어 팩에 포함 됩니다.
 
 #### <a name="step-2-to-create-the-productxml-manifest-file"></a>2단계: Product.xml 매니페스트 파일을 만들려면
 
@@ -221,7 +221,7 @@ ms.locfileid: "60089174"
 4. 이라는 문서를 만듭니다 *eula.rtf* 소프트웨어 사용 조건에 대 한 합니다.
 
     > [!NOTE]
-    >  소프트웨어 사용 조건에는 라이선스, 보증, 부채 및 현지 법률에 대 한 정보를 포함 해야 합니다. 이러한 파일 로캘에, MBCS 또는 유니코드 문자를 지 원하는 형식으로 파일 저장 되는 있는지 확인 해야 합니다. 소프트웨어 사용 조건의 콘텐츠에 대 한 법률 부서를 참조 하세요.
+    > 소프트웨어 사용 조건에는 라이선스, 보증, 부채 및 현지 법률에 대 한 정보를 포함 해야 합니다. 이러한 파일 로캘에, MBCS 또는 유니코드 문자를 지 원하는 형식으로 파일 저장 되는 있는지 확인 해야 합니다. 소프트웨어 사용 조건의 콘텐츠에 대 한 법률 부서를 참조 하세요.
 
 5. 문서에서 en 하위 디렉터리를 저장 합니다 *UpdateConsentDialog* 부트스트래퍼 디렉터리입니다.
 
@@ -241,7 +241,7 @@ ms.locfileid: "60089174"
 4. 선택 **업데이트 승인 대화 상자**합니다.
 
     > [!NOTE]
-    >  업데이트 승인 대화 상자가 필수 조건 대화 상자를 보려면 Visual Studio를 닫고 다시 여 해야 합니다.
+    > 업데이트 승인 대화 상자가 필수 조건 대화 상자를 보려면 Visual Studio를 닫고 다시 여 해야 합니다.
 
 5. **확인**을 클릭합니다.
 

@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f6ed12d127789d350f528bf2eabfce34da2c3736
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: 493e1a2f6df57019183f36daf246ef69e8f1a4d6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402604"
 ---
 # <a name="idiasessionfindinlineelinesbylinenum"></a>IDiaSession::findInlineeLinesByLinenum
 클라이언트가 모든 함수에에서 있지 않은 인라인을 직접 또는 간접적으로 지정 된 소스 파일과 줄 번호의 줄 번호 정보를 반복 하는 데 사용 하는 열거형을 검색 합니다.
@@ -35,18 +35,18 @@ HRESULT findInlineeLinesByVA ( 
 #### <a name="parameters"></a>매개 변수
  `compiland`
 
-[in] [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 컴파일 대상 줄 번호에 대 한 검색을 나타내는 개체입니다. 이 매개 변수는 `NULL`일 수 없습니다.
+[in] [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 컴파일 대상 줄 번호에 대 한 검색을 나타내는 개체입니다. 이 매개 변수 수 없습니다 `NULL`합니다.
 
  `file`
 
-[in] [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) 검색 하는 소스 파일을 나타내는 개체입니다. 이 매개 변수는 `NULL`일 수 없습니다.
+[in] [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) 검색 하는 소스 파일을 나타내는 개체입니다. 이 매개 변수 수 없습니다 `NULL`합니다.
 
  `linenum`
 
 [in] 1부터 시작 줄 번호를 지정합니다.
 
 > [!NOTE]
->  모든 선을 지정 하려면 0을 사용할 수 없습니다 (사용 된 [idiasession:: Findlines](../../debugger/debug-interface-access/idiasession-findlines.md) 모든 줄 찾기 방법).
+> 모든 선을 지정 하려면 0을 사용할 수 없습니다 (사용 된 [idiasession:: Findlines](../../debugger/debug-interface-access/idiasession-findlines.md) 모든 줄 찾기 방법).
 
  `column`
 

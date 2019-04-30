@@ -12,12 +12,12 @@ caps.latest.revision: 30
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5ee565786f4a1f7c1127217eeb551352ae02b72f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: c88288a7bed453ca14e9c14fd43706b97be04044
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63430840"
 ---
 # <a name="obtaining-build-logs-with-msbuild"></a>MSBuild를 사용하여 빌드 로그 가져오기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "59663416"
 MSBuild에서 스위치를 사용하면 검토할 빌드 데이터의 양과 하나 이상의 파일에 빌드 데이터를 저장할지를 지정할 수 있습니다. 빌드 데이터를 수집하는 사용자 지정 로거를 지정할 수도 있습니다. 이 항목에서 다루지 않는 MSBuild 명령줄 스위치에 대한 자세한 내용은 [명령줄 참조](../msbuild/msbuild-command-line-reference.md)를 참조하세요.  
   
 > [!NOTE]
->  Visual Studio IDE를 사용하여 프로젝트를 빌드하는 경우 빌드 로그를 검토하여 해당 빌드의 문제를 해결할 수 있습니다. 자세한 내용은 [방법: 보기, 저장 및 빌드 로그 파일 구성](../ide/how-to-view-save-and-configure-build-log-files.md)합니다.  
+> Visual Studio IDE를 사용하여 프로젝트를 빌드하는 경우 빌드 로그를 검토하여 해당 빌드의 문제를 해결할 수 있습니다. 자세한 내용은 [방법: 보기, 저장 및 빌드 로그 파일 구성](../ide/how-to-view-save-and-configure-build-log-files.md)합니다.  
   
 ## <a name="setting-the-level-of-detail"></a>세부 수준 설정  
  정보 수준을 지정하지 않고 MSBuild를 사용하여 프로젝트를 빌드할 때는 출력 로그에 다음 정보가 표시됩니다.  

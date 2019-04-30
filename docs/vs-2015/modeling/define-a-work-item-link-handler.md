@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 213237037225b18128ab149f384466e5fab0d668
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cd50f4c80e5e67f6fb7582dc2bc22963151b42fe
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433121"
 ---
 # <a name="define-a-work-item-link-handler"></a>작업 항목 링크 처리기 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -152,7 +152,7 @@ namespace WorkItems
  테스트를 위해 디버그 모드에서 링크 처리기를 실행합니다.  
   
 > [!WARNING]
->  작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
+> 작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
   
 #### <a name="to-test-the-link-handler"></a>링크 처리기를 테스트하려면  
   
@@ -221,7 +221,7 @@ public void OnWorkItemLinked
 ```  
   
 > [!NOTE]
->  이 예제가 작동하려면 `System.Drawing.dll`에 프로젝트 참조를 추가하고 네임스페이스 `Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation`을 가져와야 합니다. 그러나 `OnWorkItemLinked`의 다른 구현에 대해서는 이러한 추가가 필요하지 않습니다.  
+> 이 예제가 작동하려면 `System.Drawing.dll`에 프로젝트 참조를 추가하고 네임스페이스 `Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation`을 가져와야 합니다. 그러나 `OnWorkItemLinked`의 다른 구현에 대해서는 이러한 추가가 필요하지 않습니다.  
   
 ### <a name="listening-for-link-removal"></a>링크 제거 수신 대기  
  `OnWorkItemRemoved`는 삭제되는 각 작업 항목 링크 바로 앞에 한 번 호출됩니다. 모델 요소가 삭제되면 해당 링크가 모두 제거됩니다.  

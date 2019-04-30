@@ -10,12 +10,12 @@ ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
 caps.latest.revision: 32
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 83bc344cf4c99efd426066a47c240b710ef455e4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8dfc751b040bd775c3f55ff7db804c2a16d45d5f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63414625"
 ---
 # <a name="inside-the-editor"></a>편집기 기본 사항
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,7 +92,7 @@ ms.locfileid: "60056044"
  문자 시퀀스 또는 줄의 시퀀스로 텍스트 스냅숏의 콘텐츠를 볼 수 있습니다. 문자와 줄 모두 인덱스 0부터 시작 됩니다. 빈 텍스트 스냅숏을 0 개의 문자 및 빈 줄을 포함합니다. 유효한 유니코드 줄 바꿈 문자 시퀀스를 하거나 시작 또는 버퍼의 끝 줄 구분 됩니다. 줄 바꿈 문자를 텍스트 스냅숏의 명시적으로 표시 됩니다 및 텍스트 스냅숏의 줄 바꿈은 일부만 필요가 동일 합니다.  
   
 > [!NOTE]
->  Visual Studio 편집기에서 줄 바꿈 문자에 대 한 자세한 내용은 참조 하세요. [인코딩 및 줄 바꿈](../ide/encodings-and-line-breaks.md)합니다.  
+> Visual Studio 편집기에서 줄 바꿈 문자에 대 한 자세한 내용은 참조 하세요. [인코딩 및 줄 바꿈](../ide/encodings-and-line-breaks.md)합니다.  
   
  텍스트 줄으로 표시 됩니다는 <xref:Microsoft.VisualStudio.Text.ITextSnapshotLine> 개체를 특정 문자 위치 또는 특정 줄 번호에 대 한 텍스트 스냅숏에서 얻을 수 있습니다.  
   

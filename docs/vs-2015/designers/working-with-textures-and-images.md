@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bdee0fadfb1101d7087b7154f231958615aee227
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: c3211f72b867063e07e339ff803019cb9699e94a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54795934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63403468"
 ---
 # <a name="working-with-textures-and-images"></a>질감 및 이미지 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "54795934"
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 이미지 편집기를 사용하여 질감 및 이미지를 만들고 수정할 수 있습니다. 이미지 편집기는 DirectX 앱 개발에 사용되는 질감 및 이미지와 같은 풍부한 질감 및 이미지 형식을 지원합니다.  
   
 > [!NOTE]
->  이미지 편집기는 아이콘이나 커서 같은 로우 컬러 이미지를 지원하지 않습니다. 이런 종류의 이미지를 만들거나 수정하려면 [아이콘에 대한 이미지 편집기](http://msdn.microsoft.com/library/586d2b8b-0348-4883-a85d-1ff0ddbf14dd)를 사용합니다.  
+> 이미지 편집기는 아이콘이나 커서 같은 로우 컬러 이미지를 지원하지 않습니다. 이런 종류의 이미지를 만들거나 수정하려면 [아이콘에 대한 이미지 편집기](http://msdn.microsoft.com/library/586d2b8b-0348-4883-a85d-1ff0ddbf14dd)를 사용합니다.  
   
 ## <a name="textures-and-images"></a>질감 및 이미지  
  기본적인 수준의, 질감 및 이미지는 그래픽 앱에서 시각적인 세부 정보를 제공하는 데 사용되는 데이터 테이블입니다. 질감이나 이미지가 제공하는 세부 정보의 종류는 사용되는 방식에 따라 다르지만, 색상 샘플, 알파(투명도) 값, 표면 법선 및 높이 값이 일반적인 예입니다. 질감과 이미지의 주요 차이는 질감은 개체나 장면 전체를 나타내기 위한 모양의 표현(일반적으로 3D 모델)에 사용되는 반면, 이미지는 일반적으로 개체나 장면에 대한 독립적인 표현입니다.  

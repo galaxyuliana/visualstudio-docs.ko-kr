@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 7e59548ac46196f86813aa312e68bbe043edf701
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 03ae7ecaf9998646d1dc13c4a93bbf34b53f5e47
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56701279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408605"
 ---
 # <a name="debug-uwp-apps-using-prefetched-content-in-visual-studio"></a>프리페치된 콘텐츠를 사용 하 여 Visual Studio에서 UWP 앱 디버그
 
@@ -28,16 +28,16 @@ ms.locfileid: "56701279"
 ## <a name="to-force-preloading-of-contentprefetcher-specified-resources"></a>ContentPrefetcher 지정 리소스를 강제로 미리 로드하려면
  이 절차는 이미 ContentPrefetcher 기능을 설정하고 응용 프로그램 프로젝트에서 미리 로드할 콘텐츠 URI를 지정했다는 가정 하에 진행됩니다. 지정된 리소스를 새로 만들거나 수정하는 경우 강제로 콘텐츠를 미리 로드하려면 **Windows 스토어 앱 프리페치 트리거** 명령을 선택하기 전에 앱을 시작했다가 종료해야 합니다. 먼저 응용 프로그램을 실행하여 URI를 등록합니다. 그러면 **Windows 스토어 앱 프리페치 트리거** 명령을 통해 ContentPrefetcher에서 강제로 콘텐츠를 다운로드하여 캐시를 추가합니다. 후속 응용 프로그램 실행 시 콘텐츠가 미리 로드되었다고 가정할 수 있습니다.
 
-1. 응용 프로그램을 시작하여 프리페치 콘텐츠 URI를 앱과 함께 등록합니다. **디버그** 메뉴에서 **디버깅 시작**(바로 가기 키: F5)을 선택합니다.
+1. 응용 프로그램을 시작하여 프리페치 콘텐츠 URI를 앱과 함께 등록합니다. **디버그** 메뉴에서 **디버깅 시작**(키보드 바로 가기: F5)을 선택합니다.
 
-2. **디버그** 메뉴에서 **디버깅 중지**(바로 가기 키: Shift+F5)를 선택합니다.
+2. 에 **디버깅할** 메뉴 선택 **디버깅 중지** (바로 가기 키: Shift + F5)입니다.
 
 3. **디버그** 메뉴에서 **기타 디버그 대상**을 선택한 다음, **Windows 스토어 앱 프리페치 트리거**를 선택합니다.
 
    이제 프리페치된 웹 리소스로 응용 프로그램을 디버그, 테스트 또는 분석할 수 있습니다.
 
 > [!NOTE]
->  지정된 웹 콘텐츠를 추가 또는 수정할 때마다 이러한 단계를 반복합니다.
+> 지정된 웹 콘텐츠를 추가 또는 수정할 때마다 이러한 단계를 반복합니다.
 
 ## <a name="see-also"></a>참고 항목
-- [블로그 게시물:에 대 한 Windows 스토어 앱 프리페치 트리거 Visual Studio 2013 업데이트 2](https://devblogs.microsoft.com/devops/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2/)
+- [블로그 게시물: Visual Studio 2013 업데이트 2에서에서 Windows 스토어 앱 용 프리페치 트리거](https://devblogs.microsoft.com/devops/triggering-prefetch-for-windows-store-apps-in-visual-studio-2013-update-2/)

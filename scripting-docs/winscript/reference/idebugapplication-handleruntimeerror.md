@@ -17,12 +17,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-ms.openlocfilehash: 0a457ba0dcc6fb7f8a95a982b6dabd93f9d0207e
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MT
+ms.openlocfilehash: c2c9a8b15b5095ac346ba047d6668aada7647a31
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63412432"
 ---
 # <a name="idebugapplicationhandleruntimeerror"></a>IDebugApplication::HandleRuntimeError
 현재 스레드를 차단 하 고 디버거 IDE 오류에 대 한 알림을 보냅니다.  
@@ -66,7 +66,7 @@ HRESULT HandleRuntimeError(
  언어 엔진에서 런타임 오류를 발생 시킨 스레드의 컨텍스트에서이 메서드를 호출 합니다. 이 메서드는 현재 스레드를 차단 하 고 디버거 IDE에 보낼 오류 알림을 보냅니다. 디버거 IDE 응용 프로그램을 나올 때 수행할 동작을 사용 하 여이 메서드를 반환 합니다.  
   
 > [!NOTE]
->  런타임 오류에서 스택 프레임을 열거 하거나 식을 평가 하는 대로 이러한 작업을 수행 하는 스레드에서 언어 엔진을 호출할 수 있습니다.  
+> 런타임 오류에서 스택 프레임을 열거 하거나 식을 평가 하는 대로 이러한 작업을 수행 하는 스레드에서 언어 엔진을 호출할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDebugApplication 인터페이스](../../winscript/reference/idebugapplication-interface.md)   

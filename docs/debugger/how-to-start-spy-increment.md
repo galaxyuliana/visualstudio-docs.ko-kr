@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 85e253491a4cb3713b5920c9abd09f9396298319
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cc247a6391df0357905e2cbdb895bec4e469a248
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63387526"
 ---
 # <a name="how-to-start-spy"></a>방법: Spy++ 시작
 
@@ -24,7 +24,7 @@ ms.locfileid: "60099145"
  시작 하는 경우 Spy + +, 선택한 컴퓨터에 대 한 변경할 수 있는 권한을 요청 하 라는 메시지가 표시 되는 경우 **예**합니다.
 
 > [!NOTE]
->  Spy + +의 인스턴스 하나만 실행할 수 있습니다. 두 번째 인스턴스를 시작 하려고 하면 현재 실행 중인 인스턴스는 포커스만 발생 합니다.
+> Spy + +의 인스턴스 하나만 실행할 수 있습니다. 두 번째 인스턴스를 시작 하려고 하면 현재 실행 중인 인스턴스는 포커스만 발생 합니다.
 
 ## <a name="prerequisites"></a>전제 조건
 
@@ -42,7 +42,7 @@ Spy + +는 다음 구성 요소가 필요합니다. 선택 하 여 Visual Studio
 Spy + + 실행 되므로 하지 독립적으로 시작 된 후에 Visual Studio를 닫을 수 있습니다.
 
 > [!NOTE]
->  Spy + +를 사용 하 여 메시지를 기록 하는 경우 운영 체제를 훨씬 더 느리게 수행 될 수 있습니다.
+> Spy + +를 사용 하 여 메시지를 기록 하는 경우 운영 체제를 훨씬 더 느리게 수행 될 수 있습니다.
 
 ## <a name="start-spy-at-a-command-prompt"></a>Spy + + 명령 프롬프트에서 시작
 

@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a44a6a3474d56b1254333731d79b2172fd6143b9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5ff893f5603d3156d4ed6fe09848682ab5d04b06
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63407625"
 ---
 # <a name="using-the-intellitrace-stand-alone-collector-c-visual-basic"></a>IntelliTrace 독립 실행형 수집기를 사용 하 여 (C#, Visual Basic)
 
@@ -26,10 +26,10 @@ ms.locfileid: "60077657"
  실행 중인 IntelliTrace 보기: [(채널 9 비디오) 디버깅을 위해 프로덕션에서 IntelliTrace 데이터 수집 및 분석](http://go.microsoft.com/fwlink/?LinkID=251851)
 
 > [!NOTE]
->  **추적** 모드에서 **Microsoft Monitoring Agent** 를 사용하면 원격 컴퓨터에서 실행되는 SharePoint 앱 및 웹에 대해 같은 IntelliTrace 데이터를 수집할 수도 있습니다.
+> **추적** 모드에서 **Microsoft Monitoring Agent** 를 사용하면 원격 컴퓨터에서 실행되는 SharePoint 앱 및 웹에 대해 같은 IntelliTrace 데이터를 수집할 수도 있습니다.
 >
->  **모니터** 모드에서 에이전트를 실행하면 IntelliTrace 데이터에서 성능 관련 이벤트를 수집할 수 있습니다. **모니터** 모드는 **추적** 모드 또는 **IntelliTrace 독립 실행형 수집기**에 비해 성능에 주는 영향이 적습니다. Microsoft Monitoring Agent는 설치 시 대상 시스템 환경을 변경합니다. 참조 [Microsoft Monitoring Agent를 사용 하 여](../debugger/using-the-microsoft-monitoring-agent.md)입니다.
->  IntelliTrace 독립 실행형 수집기 프로세스 스냅숏을 지원 하지 않습니다.
+> **모니터** 모드에서 에이전트를 실행하면 IntelliTrace 데이터에서 성능 관련 이벤트를 수집할 수 있습니다. **모니터** 모드는 **추적** 모드 또는 **IntelliTrace 독립 실행형 수집기**에 비해 성능에 주는 영향이 적습니다. Microsoft Monitoring Agent는 설치 시 대상 시스템 환경을 변경합니다. 참조 [Microsoft Monitoring Agent를 사용 하 여](../debugger/using-the-microsoft-monitoring-agent.md)입니다.
+> IntelliTrace 독립 실행형 수집기 프로세스 스냅숏을 지원 하지 않습니다.
 
  **요구 사항**
 
@@ -38,7 +38,7 @@ ms.locfileid: "60077657"
 - .iTrace 파일을 열기 위한 개발 컴퓨터 또는 다른 컴퓨터의 Visual Studio Enterprise(Professional 또는 Community Edition 아님)
 
   > [!NOTE]
-  >  기호(.pdb) 파일을 저장해야 합니다. IntelliTrace를 사용하여 코드를 디버그하고 단계별로 실행하려면 일치하는 소스 파일과 기호 파일이 있어야 합니다. 참조 [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)합니다.
+  > 기호(.pdb) 파일을 저장해야 합니다. IntelliTrace를 사용하여 코드를 디버그하고 단계별로 실행하려면 일치하는 소스 파일과 기호 파일이 있어야 합니다. 참조 [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)합니다.
 
   **FAQ**
 
@@ -111,7 +111,7 @@ ms.locfileid: "60077657"
         `expand  /f:* IntelliTraceCollection.cab .`
 
        > [!NOTE]
-       >  마침표(**.**)는 지역화된 수집 계획을 포함하는 하위 폴더를 보존합니다.
+       > 마침표(**.**)는 지역화된 수집 계획을 포함하는 하위 폴더를 보존합니다.
 
 ## <a name="ConfigurePermissionsRunningCollector"></a> 수집기 디렉터리에 대한 사용 권한 설정
 
@@ -216,7 +216,7 @@ ms.locfileid: "60077657"
      `Start-IntelliTraceCollection` `"` *\<ApplicationPool>* `"` *\<PathToCollectionPlan>* *\<FullPathToITraceFileDirectory>*
 
     > [!IMPORTANT]
-    >  이 명령을 실행한 후 **Y** 를 입력하여 데이터 수집 시작을 확인합니다.
+    > 이 명령을 실행한 후 **Y** 를 입력하여 데이터 수집 시작을 확인합니다.
 
      예를 들어 **SharePoint - 80** 애플리케이션 풀의 SharePoint 애플리케이션에서 데이터를 수집하려면 다음 명령을 실행합니다.
 
@@ -247,7 +247,7 @@ ms.locfileid: "60077657"
      `Stop-IntelliTraceCollection` `"` *\<ApplicationPool>* `"`
 
     > [!IMPORTANT]
-    >  이 명령을 실행한 후 **Y** 를 입력하여 데이터 수집 중지를 확인합니다. 그렇지 않으면 수집기가 데이터를 계속 수집하거나 iTrace 파일이 잠긴 상태로 유지되거나 파일에 유용한 데이터가 포함되지 않을 수 있습니다.
+    > 이 명령을 실행한 후 **Y** 를 입력하여 데이터 수집 중지를 확인합니다. 그렇지 않으면 수집기가 데이터를 계속 수집하거나 iTrace 파일이 잠긴 상태로 유지되거나 파일에 유용한 데이터가 포함되지 않을 수 있습니다.
 
 6. [Visual Studio Enterprise에서 .iTrace 파일을 엽니다.](#BKMK_View_IntelliTrace_Log_Files)
 
@@ -275,7 +275,7 @@ ms.locfileid: "60077657"
 ## <a name="BKMK_View_IntelliTrace_Log_Files"></a> Visual Studio Enterprise에서 .iTrace 파일을 엽니다.
 
 > [!NOTE]
->  IntelliTrace를 사용하여 코드를 디버그하고 단계별로 실행하려면 일치하는 소스 파일과 기호 파일이 있어야 합니다. 참조 [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)합니다.
+> IntelliTrace를 사용하여 코드를 디버그하고 단계별로 실행하려면 일치하는 소스 파일과 기호 파일이 있어야 합니다. 참조 [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)합니다.
 
 1. .iTrace 파일을 Visual Studio Enterprise(Professional 또는 Community Edition 아님)가 설치된 컴퓨터로 이동하거나 복사합니다.
 
@@ -284,7 +284,7 @@ ms.locfileid: "60077657"
      Visual Studio에 **IntelliTrace 요약** 페이지가 표시됩니다. 대부분의 섹션에서 이벤트나 기타 항목을 검토하고, 항목을 선택하고, 이벤트가 발생한 시간 및 위치에 해당하는 지점에서 IntelliTrace를 사용하여 디버깅을 시작할 수 있습니다. 참조 [저장 된 IntelliTrace 데이터를 사용 하 여](../debugger/using-saved-intellitrace-data.md)입니다.
 
     > [!NOTE]
-    >  IntelliTrace를 사용하여 코드를 디버그하고 단계별로 실행하려면 개발 컴퓨터에 일치하는 소스 파일과 기호 파일이 있어야 합니다. 참조 [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)합니다.
+    > IntelliTrace를 사용하여 코드를 디버그하고 단계별로 실행하려면 개발 컴퓨터에 일치하는 소스 파일과 기호 파일이 있어야 합니다. 참조 [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)합니다.
 
 ## <a name="Minimizing"></a> 앱 속도를 그대로 유지하면서 데이터를 최대한 수집하는 방법
  IntelliTrace는 많은 데이터를 수집할 수 있으므로 앱 성능에 대한 영향은 수집하는 데이터와 분석하는 코드의 종류에 따라 달라집니다. [프로덕션 서버에서 IntelliTrace 컬렉션 최적화](http://go.microsoft.com/fwlink/?LinkId=255233)를 참조하세요.

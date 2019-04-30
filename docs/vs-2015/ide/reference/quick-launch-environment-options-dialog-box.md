@@ -15,12 +15,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 91b62fa8384bd2e0e9e90e9c9057a89e61869a2a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
-ms.translationtype: MT
+ms.openlocfilehash: a35e1498c4f2e6a10f56f1ab7687bd8516eb6808
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416694"
 ---
 # <a name="quick-launch-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 빠른 실행
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "59658619"
 |문서|@doc<br /><br /> 예를 들면 `@doc font`과 같습니다.|열린 문서에 대해 검색 조건에 맞는 파일 이름 및 경로로 검색을 제한합니다. 그러나 파일 자체 내부의 텍스트는 검색하지 않습니다.|  
   
 > [!NOTE]
->  **옵션** 대화 상자에 있는 **키보드** 페이지의 **일반**에서 바로 가기 키를 변경할 수 있습니다.  
+> **옵션** 대화 상자에 있는 **키보드** 페이지의 **일반**에서 바로 가기 키를 변경할 수 있습니다.  
   
 ## <a name="show-previous-results"></a>이전 결과 표시  
  기본적으로 입력하는 검색어는 검색 세션 간에 지속되지 않습니다. 용어를 검색하고 **빠른 실행** 영역 바깥으로 커서를 움직인 후 다시 돌아가면 검색 문자열이 지워집니다. 검색 결과를 유지하려면 **옵션** 대화 상자로 이동하고 **빠른 실행**을 선택한 다음 **빠른 실행을 활성화하면 이전 검색의 검색 결과 표시** 확인란을 선택합니다. 다음에 검색하고 빠른 실행 영역을 종료했다가 돌아오면 빠른 실행에서 마지막으로 사용된 검색어를 보유하고 검색 결과도 표시합니다.  

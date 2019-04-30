@@ -14,12 +14,12 @@ ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
 caps.latest.revision: 85
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ad9a30f5a54177a9df955cbe78d0ad0bc5d99ac3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 7fcea011f78688630a94cff64f9d2a627acea88c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60058891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63408481"
 ---
 # <a name="walkthrough-creating-and-running-unit-tests-for-managed-code"></a>연습: 만들기 및 관리 코드에 대 한 단위 테스트를 실행 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,10 +47,10 @@ ms.locfileid: "60058891"
   [단위 테스트를 사용하여 코드 개선](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#BKMK_Use_unit_tests_to_improve_your_code)  
   
 > [!NOTE]
->  이 연습에서는 관리 코드에 Microsoft 단위 테스트 프레임워크를 사용합니다. 테스트 탐색기에서는 테스트 탐색기용 어댑터가 포함된 타사 단위 테스트 프레임워크의 테스트도 실행할 수 있습니다. 자세한 내용은 [타사 단위 테스트 프레임워크 설치](../test/install-third-party-unit-test-frameworks.md)를 참조하세요.  
+> 이 연습에서는 관리 코드에 Microsoft 단위 테스트 프레임워크를 사용합니다. 테스트 탐색기에서는 테스트 탐색기용 어댑터가 포함된 타사 단위 테스트 프레임워크의 테스트도 실행할 수 있습니다. 자세한 내용은 [타사 단위 테스트 프레임워크 설치](../test/install-third-party-unit-test-frameworks.md)를 참조하세요.  
   
 > [!NOTE]
->  명령줄에서 테스트를 실행하는 방법에 대한 자세한 내용은 [연습: 명령줄 테스트 유틸리티 사용](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867)을 참조하세요.  
+> 명령줄에서 테스트를 실행하는 방법에 대한 자세한 내용은 [연습: 명령줄 테스트 유틸리티 사용](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867)을 참조하세요.  
   
 ## <a name="prerequisites"></a>전제 조건  
   
@@ -71,12 +71,12 @@ ms.locfileid: "60058891"
 5. In the **이름** 상자에 `Bank` 를 가리킨 다음 **확인**을 참조하세요.  
   
    > [!NOTE]
-   >  "Bank"라는 이름이 이미 사용되고 있으면 프로젝트에 대해 다른 이름을 선택합니다.  
+   > "Bank"라는 이름이 이미 사용되고 있으면 프로젝트에 대해 다른 이름을 선택합니다.  
   
     새 Bank 프로젝트가 만들어져 솔루션 탐색기에 표시되고 코드 편집기에 Class1.cs 파일이 열립니다.  
   
    > [!NOTE]
-   >  Class1.cs 파일이 코드 편집기에서 열리지 않으면 솔루션 탐색기에서 Class1.cs 파일을 두 번 클릭하여 엽니다.  
+   > Class1.cs 파일이 코드 편집기에서 열리지 않으면 솔루션 탐색기에서 Class1.cs 파일을 두 번 클릭하여 엽니다.  
   
 6. [단위 테스트를 만들기 위한 샘플 프로젝트](../test/sample-project-for-creating-unit-tests.md)에서 소스 코드를 복사합니다.  
   

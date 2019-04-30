@@ -9,12 +9,12 @@ caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 36d9f2abceb7daf0d9e4be72958b2bbc1fe86204
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: b438cac78aa863eab4f04e250ed768d54a2fbc4c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432694"
 ---
 # <a name="how-to-instrument-a-net-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line"></a>방법: .NET 서비스 계측 및 수집 자세한 타이밍 데이터 Profiler 명령줄을 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,11 +22,11 @@ ms.locfileid: "60080542"
 이 항목에서는 [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] 프로파일링 도구 명령줄 도구를 사용하여 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 서비스를 계측하고 자세한 타이밍 데이터를 수집하는 방법을 설명합니다.  
 
 > [!NOTE]
->  서비스가 컴퓨터가 운영 체제가 시작되는 경우에만 시작하는 서비스를 시작한 후 다시 시작할 수 없는 경우 계측 방법으로 서비스를 프로파일링할 수 없습니다.  
+> 서비스가 컴퓨터가 운영 체제가 시작되는 경우에만 시작하는 서비스를 시작한 후 다시 시작할 수 없는 경우 계측 방법으로 서비스를 프로파일링할 수 없습니다.  
 >   
->  프로파일링 도구의 명령줄 도구는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.  
+> 프로파일링 도구의 명령줄 도구는 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 설치 디렉터리의 \Team Tools\Performance Tools 하위 디렉터리에 있습니다. 64비트 컴퓨터에서는 도구의 64비트 및 32비트 버전을 둘 다 사용할 수 있습니다. 프로파일러 명령줄 도구를 사용하려면 도구 경로를 명령 프롬프트 창의 PATH 환경 변수에 추가하거나 명령 자체에 추가해야 합니다. 자세한 내용은 [명령줄 도구의 경로 지정](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md)을 참조하세요.  
 >   
->  프로파일링 실행에 계층 상호 작용 데이터를 추가하려면 명령줄 프로파일링 도구를 사용해서 특정 절차를 수행해야 합니다. [계층 상호 작용 데이터 수집](../profiling/adding-tier-interaction-data-from-the-command-line.md)을 참조하세요.  
+> 프로파일링 실행에 계층 상호 작용 데이터를 추가하려면 명령줄 프로파일링 도구를 사용해서 특정 절차를 수행해야 합니다. [계층 상호 작용 데이터 수집](../profiling/adding-tier-interaction-data-from-the-command-line.md)을 참조하세요.  
 
  계측 방법을 사용하여 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 서비스에서 자세한 타이밍 데이터를 수집하려면 [VSInstr.exe](../profiling/vsinstr.md) 도구를 사용하여 계측된 구성 요소의 버전을 생성합니다. 그런 다음 계측되지 않은 버전의 서비스를 계측된 버전으로 바꿉니다. 서비스가 수동으로 시작되도록 구성되어 있는지 확인합니다. [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) 도구를 사용하여 전역 프로파일링 환경 변수를 초기화한 다음 호스트 컴퓨터를 다시 시작합니다. 그런 다음 프로파일러를 시작합니다.  
 
@@ -63,7 +63,7 @@ ms.locfileid: "60080542"
      **/start:trace** 옵션과 다음 옵션 중 하나를 함께 사용할 수 있습니다.  
 
    > [!NOTE]
-   >  **/user** 및 **/crosssession** 옵션은 대개 서비스 프로파일링에 필요합니다.  
+   > **/user** 및 **/crosssession** 옵션은 대개 서비스 프로파일링에 필요합니다.  
 
    |                                 옵션                                  |                                                                                                                                            설명                                                                                                                                             |
    |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

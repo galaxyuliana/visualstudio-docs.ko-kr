@@ -17,18 +17,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 661b18ef061a6bfdb2bcbe68f30463f39d08efe7
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.openlocfilehash: 33bc24aaea0f24d592a897bcc70f553cfaab9667
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388353"
 ---
 # <a name="how-to-stop-code-changes"></a>방법: 코드 변경 중지
 편집하며 계속하기에서 코드 변경 내용을 적용하는 동안 작업을 중지할 수 있습니다.
 
 > [!CAUTION]
->  관리 코드에서 코드 변경을 중지하면 예기치 않은 결과가 발생할 수 있습니다. 관리 코드에 변경 내용을 적용하는 데는 시간이 오래 걸리지 않으므로 관리 코드에서 코드 변경을 중지해야 할 경우는 거의 없습니다.
+> 관리 코드에서 코드 변경을 중지하면 예기치 않은 결과가 발생할 수 있습니다. 관리 코드에 변경 내용을 적용하는 데는 시간이 오래 걸리지 않으므로 관리 코드에서 코드 변경을 중지해야 할 경우는 거의 없습니다.
 
 ### <a name="to-stop-applying-code-changes"></a>코드 변경 내용의 적용을 중지하려면
 

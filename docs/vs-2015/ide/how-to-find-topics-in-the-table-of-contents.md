@@ -16,12 +16,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e439521d9a81bc418eb403bb87ee9576605b8e66
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8ab015fdfd459dbb13e81deed0fe0cc89f71cd1f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63416682"
 ---
 # <a name="how-to-find-topics-in-the-table-of-contents"></a>방법: 목차에서 항목 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60055500"
 **콘텐츠** 탭에서 목차를 사용하여 정보를 찾을 수 있습니다. 목차는 설치된 책의 모든 항목을 포함하는 확장 가능한 목록입니다. 목차를 탐색하는 방법에 대한 내게 필요한 옵션 정보를 보려면 [바로 가기 키(도움말 뷰어)](../ide/shortcut-keys-help-viewer.md)를 참조하세요.  
   
 > [!IMPORTANT]
->  목차에서 사용할 수 있는 항목의 범위는 선택한 필터에 따라 다릅니다.  
+> 목차에서 사용할 수 있는 항목의 범위는 선택한 필터에 따라 다릅니다.  
   
 ## <a name="filter-the-toc"></a>목차 필터링  
  목차를 필터링하여 **콘텐츠** 탭에 나타나는 항목의 범위를 좁힐 수 있습니다. 제목은 지정한 어구의 어근을 포함하는 경우에만 목록에 나타납니다. 예를 들어 필터로 "문제 해결하기"를 지정하는 경우 "문제 해결" 또는 “문제 해결하기"가 포함된 제목만 나타납니다. 제목에 해당 어구가 포함되지 않은 노드는 줄임표(...)가 있는 단일 노드로 축소됩니다.  
@@ -41,7 +41,7 @@ ms.locfileid: "60055500"
 2. **콘텐츠 필터링** 텍스트 상자에 어구를 입력합니다.  
   
 > [!NOTE]
->  필터가 실행되는 데 오래 걸리는 경우 `title:` 고급 검색 연산자를 사용하여 결과를 더 빠르게 표시할 수 있습니다.  
+> 필터가 실행되는 데 오래 걸리는 경우 `title:` 고급 검색 연산자를 사용하여 결과를 더 빠르게 표시할 수 있습니다.  
   
 ## <a name="synchronize-a-topic-with-the-toc"></a>목차와 항목 동기화  
  색인이나 전체 텍스트 검색 기능을 사용하여 항목을 연 경우 항목 창과 목차를 동기화하여 목차에서 해당 항목의 위치를 확인할 수 있습니다.  

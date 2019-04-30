@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b8ecec386030299be7b6c9571218dec0c3396440
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: d8b4f47894f4aaf12c724153d45378dcb9e8510b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63433424"
 ---
 # <a name="you-have-selected-a-database-object-from-an-unsupported-database-provider"></a>지원되지 않는 데이터베이스 공급자에서 데이터베이스 공급자를 선택했습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60073594"
 합니다 [!INCLUDE[vs_ordesigner_long](../includes/vs-ordesigner-long-md.md)] ([!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)])에.NET Framework Data Provider for SQL Server 지원 (<xref:System.Data.SqlClient>). **확인**을 클릭하고 지원되지 않은 데이터베이스 공급자의 개체를 사용하여 계속 작업을 할 수 있지만 런타임에 예상치 못한 동작이 발생할 수도 있습니다.  
   
 > [!NOTE]
->  .NET Framework Data Provider for SQL Server를 사용하는 데이터 연결만 지원됩니다.  
+> .NET Framework Data Provider for SQL Server를 사용하는 데이터 연결만 지원됩니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   

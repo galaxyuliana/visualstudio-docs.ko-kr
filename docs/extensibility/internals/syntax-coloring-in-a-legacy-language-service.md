@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e193f5c8363cda4e3519df45d001a1972865813e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c3b1e96a850cfde1af6ad3aac2df4310a3875f49
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60057766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63429972"
 ---
 # <a name="syntax-coloring-in-a-legacy-language-service"></a>레거시 언어 서비스의 구문 색 지정
 
@@ -28,7 +28,7 @@ Visual Studio는 언어의 요소를 식별 하 고 편집기에서 지정 된 �
  ![SVC 색 지정기 그래픽](../../extensibility/internals/media/figlgsvccolorizer.gif)
 
 > [!NOTE]
->  구문 색 서비스 텍스트 색을 지정 하는 일반 Visual Studio 메커니즘 분리 됩니다. 일반 대 한 자세한 내용은 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] 색 지정, 지원 되는 메커니즘을 참조 하세요 [사용 하 여 글꼴 및 색](../../extensibility/using-fonts-and-colors.md)합니다.
+> 구문 색 서비스 텍스트 색을 지정 하는 일반 Visual Studio 메커니즘 분리 됩니다. 일반 대 한 자세한 내용은 [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] 색 지정, 지원 되는 메커니즘을 참조 하세요 [사용 하 여 글꼴 및 색](../../extensibility/using-fonts-and-colors.md)합니다.
 
  colorizer 외에도 언어 서비스는 광고 사용자 지정 색 항목을 제공 하 여 편집기에서 사용 되는 사용자 지정 색 항목을 제공할 수 있습니다. 구현 하 여이 수행할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> 인터페이스를 구현 하는 동일한 개체에는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> 인터페이스. 편집기를 호출 하는 경우 사용자 지정 색 항목의 수를 반환 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetItemCount%2A> 메서드 및 해당 편집기를 호출 하는 경우 개별 사용자 지정 색 항목을 반환 합니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetColorableItem%2A> 메서드.
 
@@ -60,7 +60,7 @@ Visual Studio는 언어의 요소를 식별 하 고 편집기에서 지정 된 �
     3. 반환 된 색 지정 정보를 사용 하는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> 선택한 텍스트를 표시 하는 방법입니다.
 
 > [!NOTE]
->  언어 서비스 colorizer를 사용 하는 것 외에도 VSPackage는 범용 Visual Studio 텍스트 색 지정 메커니즘을 사용할 수도 있습니다. 이 메커니즘에 대 한 자세한 내용은 참조 하세요. [를 사용 하 여 글꼴 및 색](../../extensibility/using-fonts-and-colors.md)합니다.
+> 언어 서비스 colorizer를 사용 하는 것 외에도 VSPackage는 범용 Visual Studio 텍스트 색 지정 메커니즘을 사용할 수도 있습니다. 이 메커니즘에 대 한 자세한 내용은 참조 하세요. [를 사용 하 여 글꼴 및 색](../../extensibility/using-fonts-and-colors.md)합니다.
 
 ## <a name="in-this-section"></a>섹션 내용
 - [구문 색 지정 구현](../../extensibility/internals/implementing-syntax-coloring.md)

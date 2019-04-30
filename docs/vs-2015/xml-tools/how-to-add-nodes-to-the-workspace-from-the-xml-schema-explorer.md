@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6d4afaab4b0e687d1343e810002ae4ad46c869b5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1fef367b36a683111369b656c8c1ba5a285fe6df
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417459"
 ---
 # <a name="how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer"></a>방법: XML 스키마 탐색기에서 작업 영역에 노드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "60043976"
 이 항목에서는 노드를 추가 하는 방법을 설명 합니다 [XML 스키마 디자이너 작업 영역](../xml-tools/xml-schema-designer-workspace.md) XML 스키마 탐색기에서. 이렇게 노드를 추가하려면 XML 스키마 탐색기에서 XSD 디자이너 뷰로 노드를 끌어다 놓거나 XML 스키마 탐색기의 상황에 맞는 메뉴를 사용해야 합니다. 또한 XML 스키마 탐색기에서 수행된 검색 결과로 강조 표시된 노드를 추가할 수 있습니다. 자세한 내용은 [방법: 작업 영역에 스키마 집합 검색 결과 노드 추가](../xml-tools/how-to-add-schema-set-search-result-nodes-to-the-workspace.md)합니다.  
   
 > [!NOTE]
->  전역 노드만 추가할 수는 [XML 스키마 디자이너 작업 영역](../xml-tools/xml-schema-designer-workspace.md)합니다.  
+> 전역 노드만 추가할 수는 [XML 스키마 디자이너 작업 영역](../xml-tools/xml-schema-designer-workspace.md)합니다.  
   
 ### <a name="to-add-nodes-through-the-xml-explorer-context-menu"></a>XML 탐색기의 상황에 맞는 메뉴를 통해 노드를 추가하려면  
   

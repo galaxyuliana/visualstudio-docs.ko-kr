@@ -9,12 +9,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 11b35534641ec01c9d622b35caacf2e68162e4e1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: f08045a83849bdbd5bf6fb51287a66806d3bf4d6
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54797355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63403493"
 ---
 # <a name="l2dbformxaml-source-code"></a>L2DBForm.xaml 원본 코드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,12 +82,12 @@ Text="{Binding Path=Attribute[id].Value}"...Text="{Binding Path=Value}"
   
  마지막 UI 섹션인 **Add New Book**에서는 XAML 코드에서 데이터 바인딩을 사용하지 않습니다. 이러한 코드는 L2DBForm.xaml.cs 파일의 이벤트 처리 코드에 있습니다.  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
   
 ### <a name="description"></a>설명  
   
 > [!NOTE]
->  줄 번호를 추적하기 쉽도록 아래의 코드를 Visual Studio의 C# 소스 코드 편집기와 같은 코드 편집기에 복사하는 것이 좋습니다.  
+> 줄 번호를 추적하기 쉽도록 아래의 코드를 Visual Studio의 C# 소스 코드 편집기와 같은 코드 편집기에 복사하는 것이 좋습니다.  
   
 ### <a name="code"></a>코드  
   

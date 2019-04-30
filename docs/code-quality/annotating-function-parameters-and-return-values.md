@@ -125,12 +125,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - multiple
-ms.openlocfilehash: bda668e457cd144d868680f2dc009580c34ea81b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: ace5afbf1c587a2c54c4221469cb7be0d6487c9a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63388551"
 ---
 # <a name="annotating-function-parameters-and-return-values"></a>함수 매개 변수 및 반환 값에 주석 지정
 이 문서에서는 간단한 함수 매개 변수에 대 한 주석의 일반적인 용도 설명 합니다.-스칼라 및 구조체와 클래스에 대 한 포인터-버퍼의 대부분의 종류입니다.  이 문서는 또한 주석에 대 한 일반적인 사용 패턴을 보여줍니다. 함수에 관련 된 추가 주석을 참조 하세요. [함수 동작에 주석 지정](../code-quality/annotating-function-behavior.md)
@@ -315,7 +315,7 @@ ms.locfileid: "60109878"
   다음 표에 추가 부분 문자열은 추가로 주석의 의미를 한 정하는 데 주석 이름에 삽입 됩니다.  다양 한 부분 문자열은 `_z`, `_COM_`를 `_buffer_`합니다 `_bytebuffer_`, 및 `_to_`합니다.
 
 > [!IMPORTANT]
->  주석을 다는 인터페이스를 COM에 경우에 이러한 주석의 COM 형식을 사용 합니다. 다른 형식의 인터페이스를 사용 하 여 COM 주석을 사용 하지 마세요.
+> 주석을 다는 인터페이스를 COM에 경우에 이러한 주석의 COM 형식을 사용 합니다. 다른 형식의 인터페이스를 사용 하 여 COM 주석을 사용 하지 마세요.
 
  **주석 및 설명**
 
@@ -471,7 +471,7 @@ ms.locfileid: "60109878"
      매개 변수, 필드 또는 결과 (포함)에서 범위에 `low` 에 `hi`입니다.  같음 `_Satisfies_(_Curr_ >= low && _Curr_ <= hi)` 적절 한 사전 상태 또는 사후 상태 조건 함께 주석이 달린된 개체에 적용 되는 합니다.
 
     > [!IMPORTANT]
-    >  "In" 및 "out"의 의미 체계 이름을 포함 하지만 `_In_` 하 고 `_Out_` 수행 **하지** 이러한 주석을 적용할 합니다.
+    > "In" 및 "out"의 의미 체계 이름을 포함 하지만 `_In_` 하 고 `_Out_` 수행 **하지** 이러한 주석을 적용할 합니다.
 
 - `_Pre_equal_to_(expr)`
 

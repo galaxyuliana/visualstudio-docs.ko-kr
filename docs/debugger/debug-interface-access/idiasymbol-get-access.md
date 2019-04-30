@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 79cad67993107bd9643df628b05b30a27dc72085
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.openlocfilehash: fcf510cd9c74e22e0d028552b26c85b1f3d59bd4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56645409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63402524"
 ---
 # <a name="idiasymbolgetaccess"></a>IDiaSymbol::get_access
 클래스 멤버의 액세스 한정자를 검색합니다.
@@ -39,7 +39,7 @@ HRESULT get_access ( 
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
 
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.
+> 반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.
 
 ## <a name="requirements"></a>요구 사항
 

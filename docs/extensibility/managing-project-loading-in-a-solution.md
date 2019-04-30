@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7a383096d164f1b08e2411a7bc808e96f8a6262e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5dcd8293bc11645b8ad934d1826286a8df51e5e9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061309"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431312"
 ---
 # <a name="manage-project-loading-in-a-solution"></a>솔루션의 프로젝트 로드 관리
 Visual Studio 솔루션을 다 수의 프로젝트를 포함할 수 있습니다. 기본 Visual Studio 동작은 솔루션을 열 때 솔루션의 모든 프로젝트를 로드 하 고 사용자가 프로젝트 모두 로드 작업이 완료 될 때까지 액세스할 수 없도록 합니다. 프로젝트 로드 하는 과정은 2 분 이상 지속 로드 되는 프로젝트의 수와 프로젝트의 총 수를 보여 주는 진행률 표시줄이 표시 됩니다. 사용자는 여러 프로젝트가 포함 된 솔루션에서 작업 하는 동안 프로젝트를 언로드할 수 있지만이 절차에 몇 가지 단점이 있습니다: 언로드된 프로젝트에는 솔루션 다시 빌드 명령의 일부로 빌드되지 않는 닫은 IntelliSense 설명은 형식 및 멤버 프로젝트 표시 되지 않습니다.
@@ -44,7 +44,7 @@ pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLo
  솔루션 로드 관리자 일반적으로 로드 하는 솔루션을 관리 되어야 하는 경우에 VSPackage의 일부로 구현할 수 있습니다. 추가 하 여 패키지를 자동 로드로 설정 해야 합니다 <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> 값을 사용 하 여 VSPackage에 <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionOpening_guid>입니다. 솔루션 로드 관리자에서 활성화할 수 있습니다는 <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> 메서드.
 
 > [!NOTE]
->  자동 로드 패키지에 대 한 자세한 내용은 참조 하세요. [Vspackage 로드](../extensibility/loading-vspackages.md)합니다.
+> 자동 로드 패키지에 대 한 자세한 내용은 참조 하세요. [Vspackage 로드](../extensibility/loading-vspackages.md)합니다.
 
  Visual Studio에서 마지막 솔루션 로드 관리자만 활성화할를 인식 하므로 일반 솔루션 로드 관리자 자체를 활성화 하기 전에 기존 부하 관리자 인지 여부를 탐지 항상 해야 합니다. 호출 하는 경우 `GetProperty()` 에 대 한 솔루션 서비스 [__VSPROPID4 합니다. VSPROPID_ActiveSolutionLoadManager](<xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4.VSPROPID_ActiveSolutionLoadManager>) 반환 `null`, 관리자가 없거나 활성 솔루션 로드 합니다. Null 반환 하지 않으면, 솔루션 로드 관리자로 서 개체가 같은지 여부를 확인 합니다.
 

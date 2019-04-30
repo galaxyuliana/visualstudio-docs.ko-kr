@@ -13,12 +13,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b861d0437e44e9ad5fd912981357a02fb2210482
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 87adaa2e43068784e5ec6488030f147891a027dd
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63406052"
 ---
 # <a name="idiasymbolgethaseha"></a>IDiaSymbol::get_hasEHa
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,10 +41,10 @@ HRESULT get_hasEHa(
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  
   
 > [!NOTE]
->  반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.  
+> 반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.  
   
 ## <a name="remarks"></a>설명  
- C + + 스타일 예외 처리를 사용 하 여 처리 하는 비동기 또는 구조화 된 예외를 함께 사용할 수 있지만 특정 컴파일러 스위치를 사용 하도록 설정 하려면 /EHa 필요 합니다.  
+ 비동기 구조적된 예외 처리 사용을 혼합할 수 있습니다 C++-스타일 예외 처리 하지만 /EHa를 특정 컴파일러 스위치를 사용 하도록 설정 해야 합니다.  
   
 ## <a name="requirements"></a>요구 사항  
   

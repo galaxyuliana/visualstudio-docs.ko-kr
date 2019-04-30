@@ -11,21 +11,21 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e229bd791118b23e0b8c04a8a5384a4bbc3342c0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c634d394fb6d30a22763cd12efe2d97ba5269986
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63415619"
 ---
 # <a name="sample-implementation-of-changing-values"></a>값 변경 샘플 구현
 > [!IMPORTANT]
->  Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
+> Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 내용은 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
 
  에 표시 된 모든 로컬 합니다 **지역** 창에는 [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) 연결 된 개체입니다. 이 `IDebugProperty2` 지역 변수의 이름, 값 및 형식 개체에 포함 되어 있습니다. Visual Studio를 호출 하는 사용자의 로컬 값 변경 되 면 [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2-setvalueasstring.md) 로컬 메모리에 값을 업데이트 합니다. 이 예제에서는 로컬 표시 됩니다는 `CFieldProperty` 클래스를 구현 하는 `IDebugProperty2` 인터페이스입니다.
 
 > [!NOTE]
->  에 대 한 **조사식** 하 고 **간략 한 조사식** 식을 변경할 값으로 표시 됩니다는 `CValueProperty` MyCEE 샘플의 클래스. 그러나 구현의 `IDebugProperty2::SetValueAsString` 여기에 표시 된 대로 똑같습니다.
+> 에 대 한 **조사식** 하 고 **간략 한 조사식** 식을 변경할 값으로 표시 됩니다는 `CValueProperty` MyCEE 샘플의 클래스. 그러나 구현의 `IDebugProperty2::SetValueAsString` 여기에 표시 된 대로 똑같습니다.
 
  구현의 `IDebugProperty2::SetValueAsString` 다음 작업을 수행 합니다.
 

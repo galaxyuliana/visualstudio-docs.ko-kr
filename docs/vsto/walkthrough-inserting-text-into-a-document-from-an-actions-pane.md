@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: b464fd4e8c1748adf50e9997dbbac553288043da
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 61e71f31ce887c7e1ea9ec57b0aa3f24a45be364
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63414275"
 ---
 # <a name="walkthrough-insert-text-into-a-document-from-an-actions-pane"></a>연습: 작업 창에서 문서로 텍스트 삽입
   이 연습에는 Microsoft Office Word 문서에서 작업창을 만드는 방법을 보여 줍니다. 작업 창에는 두 개의 입력을 수집 하 고 다음 문서에 텍스트를 보낼 포함 되어 있습니다.
@@ -34,7 +34,7 @@ ms.locfileid: "60088524"
 - 응용 프로그램을 열 때 작업창을 표시 합니다.
 
 > [!NOTE]
->  일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.
@@ -78,7 +78,7 @@ ms.locfileid: "60088524"
 2. 단어를 선택 **이름을**, 하지 않고 단락 표시를 선택 하 고 클릭 **확인**합니다.
 
     > [!NOTE]
-    >  단락 기호 책갈피의 외부에 있어야 합니다. 단락 표시를 문서에서 볼 수 없는 경우 클릭 합니다 **도구** 메뉴에서 **Microsoft Office Word 도구** 을 클릭 한 다음 **옵션**합니다. 클릭를 **보기** 탭을 선택 합니다 **단락 표시** 확인란을 **서식 기호** 섹션을 **옵션** 대화 상자.
+    > 단락 기호 책갈피의 외부에 있어야 합니다. 단락 표시를 문서에서 볼 수 없는 경우 클릭 합니다 **도구** 메뉴에서 **Microsoft Office Word 도구** 을 클릭 한 다음 **옵션**합니다. 클릭를 **보기** 탭을 선택 합니다 **단락 표시** 확인란을 **서식 기호** 섹션을 **옵션** 대화 상자.
 
 3. 에 **속성** 창에서를 **이름** 속성 **Bookmark1** 를 **showName**합니다.
 

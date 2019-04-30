@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 11374ca0a65a5b430b819a9ef1bdf57f7434e923
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8482f2704fe81482d95c2c8e73ae6e8c8ffd272d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60053756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63417131"
 ---
 # <a name="how-to-open-project-specific-editors"></a>방법: 프로젝트별 편집기 열기
 프로젝트에서 열려 있는 항목 파일을 기본적으로 해당 프로젝트에 대 한 특정 편집기에 바인딩되어 있으면 프로젝트 프로젝트별 편집기를 사용 하 여 파일을 열어야 합니다. 파일은 편집기를 선택 하는 IDE 메커니즘으로 위임할 수 없습니다. 예를 들어 표준 비트맵 편집기를 사용 하는 대신 프로젝트에 고유한 파일의 정보를 인식 하는 특정 비트맵 편집기를 지정 하려면이 프로젝트별 편집기 옵션을 사용할 수 있습니다.
@@ -29,7 +29,7 @@ ms.locfileid: "60053756"
 1. 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.FindAndLockDocument%2A> 메서드 (`RDT_EditLock`) 파일 (문서 데이터 개체)은 이미 열려 있는지 여부를 확인 하려면.
 
     > [!NOTE]
-    >  문서 데이터 및 문서 보기 개체에 대 한 자세한 내용은 참조 하세요. [사용자 지정 편집기의 데이터 및 문서 보기 문서](../extensibility/document-data-and-document-view-in-custom-editors.md)합니다.
+    > 문서 데이터 및 문서 보기 개체에 대 한 자세한 내용은 참조 하세요. [사용자 지정 편집기의 데이터 및 문서 보기 문서](../extensibility/document-data-and-document-view-in-custom-editors.md)합니다.
 
 2. 파일이 이미 열려 있으면 파일을 호출 하 여 resurface 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.IsDocumentOpen%2A> 메서드와 IDO_ActivateIfOpen에 대 한 값을 지정 합니다 `grfIDO` 매개 변수입니다.
 
