@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fe9127d4a7c691c34f15d399bd32f5e48cc6f0ed
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62892822"
 ---
 # <a name="value-xattribute-dynamic-property"></a>Value(XAttribute 동적 속성)
 
@@ -30,13 +30,13 @@ attrib.Value
 
 ## <a name="property-valuereturn-value"></a>속성 값/반환 값
 
-이 특성의 값을 포함하는 <xref:System.String>
+이 특성의 값이 들어 있는 <xref:System.String>입니다.
 
 ## <a name="exceptions"></a>예외
 
 |예외 형식|조건|
 | - |---------------|
-|<xref:System.ArgumentNullException>|설정할 때 `value`가 `null`인 경우|
+|<xref:System.ArgumentNullException>|설정 시 `value`가 `null`인 경우|
 
 ## <a name="remarks"></a>주의
 

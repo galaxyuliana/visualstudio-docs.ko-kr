@@ -16,12 +16,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 6a72f78e89af41509711c94a00c8ab11b11fc549
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.openlocfilehash: 006a3fa3d41799a87449b8f9e111ca341a698bf5
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935414"
 ---
 # <a name="tools-for-detecting-and-managing-visual-studio-instances"></a>Visual Studio 인스턴스 검색 및 관리 도구
 
@@ -39,11 +39,12 @@ ms.locfileid: "59018222"
 
 ## <a name="using-vswhereexe"></a>vswhere.exe 사용
 
-`vswhere.exe` 는 Visual Studio 2017 버전 15.2 이상부터 Visual Studio에 자동으로 포함되거나 [VSWhere 릴리스 페이지](https://github.com/Microsoft/vswhere/releases)에서 다운로드할 수 있습니다. `vswhere -?`를 사용하여 도구에 대한 도움말 정보를 가져올 수 있습니다. 예를 들어, 이 명령은 이전 버전의 제품 및 시험판을 비롯한 Visual Studio의 모든 릴리스를 표시하고 결과를 JSON 형식으로 출력합니다.
+`vswhere.exe`는 Visual Studio 2017 버전 15.2 이상부터 Visual Studio에 자동으로 포함되거나 [VSWhere 릴리스 페이지](https://github.com/Microsoft/vswhere/releases)에서 다운로드할 수 있습니다. `vswhere -?`를 사용하여 도구에 대한 도움말 정보를 가져올 수 있습니다. 예를 들어, 이 명령은 이전 버전의 제품 및 시험판을 비롯한 Visual Studio의 모든 릴리스를 표시하고 결과를 JSON 형식으로 출력합니다.
 
 ```cmd
 C:\Program Files (x86)\Microsoft Visual Studio\Installer> vswhere.exe -legacy -prerelease -format json
 ```
+
 ::: moniker range="vs-2017"
 
 > [!TIP]
@@ -64,12 +65,13 @@ Visual Studio에서 레지스트리 설정은 전용 위치에 저장되므로 �
 1. `HKEY_LOCAL_MACHINE` 노드를 선택합니다.
 
 1. Regedit 주 메뉴에서 **파일** > **하이브 로드...** 를 선택한 다음, **AppData\Local** 폴더에 저장된 전용 레지스트리 파일을 선택합니다. 예:
+
    ```
    %localappdata%\Microsoft\VisualStudio\<config>\privateregistry.bin
    ```
 
    > [!NOTE]
-   > `<config>` 찾아볼 Visual Studio의 인스턴스에 해당합니다.
+   > `<config>`는 찾아볼 Visual Studio의 인스턴스에 해당합니다.
 
 하이브 이름을 입력하라는 메시지가 표시됩니다. 이 이름은 격리된 하이브의 이름이 됩니다. 이 작업을 한 후에는 직접 만든 격리된 하이브에서 레지스트리를 찾을 수 있습니다.
 

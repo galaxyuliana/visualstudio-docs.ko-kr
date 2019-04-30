@@ -10,11 +10,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e7eb72f104560991f1bb191e62641041879df071
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62965479"
 ---
 # <a name="create-unit-test-method-stubs-with-the-create-unit-tests-command"></a>단위 테스트 만들기 명령을 사용하여 단위 테스트 메서드 스텁 만들기
 
@@ -41,8 +41,8 @@ ms.locfileid: "58857725"
 
 NUnit 또는 xUnit에 대한 단위 테스트를 자동으로 생성하려면 Visual Studio Marketplace에서 다음 테스트 프레임워크 확장 중 하나를 설치합니다.
 
-* [테스트 생성기에 대한 NUnit 확장](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension)
-* [테스트 생성기에 대한 xUnit.net 확장](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)
+* [NUnit extension for test generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension)(테스트 생성기의 NUnit 확장)
+* [xUnit.net extension for test generators](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)(테스트 생성기의 xUnit.net 확장)
 
 ## <a name="when-should-i-use-this-feature"></a>이 기능은 언제 사용해야 하나요?
 
@@ -52,5 +52,5 @@ NUnit 또는 xUnit에 대한 단위 테스트를 자동으로 생성하려면 Vi
 
 ## <a name="see-also"></a>참고 항목
 
-- ["단위 테스트 만들기"를 사용하여 단위 테스트 메서드 스텁 만들기](https://devblogs.microsoft.com/devops/creating-unit-test-method-stubs-with-create-unit-tests/)
-- [단위 테스트 블로그 게시물](https://devblogs.microsoft.com/devops/?s=unit+testing)
+- [Creating unit test method stubs with “Create Unit Tests”](https://devblogs.microsoft.com/devops/creating-unit-test-method-stubs-with-create-unit-tests/)(“유닛 테스트 만들기”를 사용하여 유닛 테스트 메서드 스텁 만들기)
+- [유닛 테스트 블로그 게시물](https://devblogs.microsoft.com/devops/?s=unit+testing)
