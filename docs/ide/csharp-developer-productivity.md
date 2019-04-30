@@ -10,12 +10,12 @@ helpviewer_keywords:
 - editor
 ms.workload:
 - dotnet
-ms.openlocfilehash: 07584f9e04be805ed699676c678b2147ec3679ff
-ms.sourcegitcommit: cd91a8a4f6086cda9ba6948be25864fc7d6b8e44
+ms.openlocfilehash: 3e1f82a58dac3b0a6f607d1de7f881c5de9e91aa
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "59537626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62973369"
 ---
 # <a name="visual-studio-productivity-guide-for-c-developers"></a>C# 개발자용 Visual Studio 생산성 가이드
 
@@ -154,10 +154,12 @@ Visual Studio에는 [코드를 탐색](../ide/navigating-code.md)하고 검색�
 Visual Studio 2017부터 테스트 환경의 기능이 훨씬 개선되었습니다. MSTest v1, MSTest v2, NUnit 또는 XUnit 테스트 프레임워크를 사용하여 테스트할 수 있습니다.
 
 - **테스트 탐색기** 테스트 검색은 속도가 빠릅니다.
-- ‘계층 구조 정렬’을 사용하여 **테스트 탐색기**에서 테스트를 구성합니다.
-- [Live Unit Testing](../test/live-unit-testing.md)은 계속 코드 변경으로 영향을 받는 테스트를 실행하며 테스트 상태를 알려주는 인라인 편집기 아이콘을 업데이트합니다. 라이브 테스트 집합에서 특정 테스트 또는 테스트 프로젝트를 포함하거나 제외합니다.
 
-![Visual Studio에서 텍스트 탐색기의 계층 구조 뷰](../ide/media/VSGuide_Testing.png)
+- ‘계층 구조 정렬’을 사용하여 **테스트 탐색기**에서 테스트를 구성합니다.
+
+   ![Visual Studio에서 텍스트 탐색기의 계층 구조 뷰](../ide/media/VSGuide_Testing.png)
+
+- [Live Unit Testing](../test/live-unit-testing.md)은 계속 코드 변경으로 영향을 받는 테스트를 실행하며 테스트 상태를 알려주는 인라인 편집기 아이콘을 업데이트합니다. 라이브 테스트 집합에서 특정 테스트 또는 테스트 프로젝트를 포함하거나 제외합니다. (Visual Studio Enterprise Edition만 해당)
 
 ## <a name="debugging"></a>디버깅
 
@@ -211,5 +213,5 @@ git 또는 TFVC를 사용하여 Visual Studio에서 코드를 저장하고 업�
 | 전체 솔루션 분석 사용 | **오류 목록**에서 솔루션의 모든 오류 보기 | **도구** > **옵션** > **텍스트 편집기** > **C#** > **고급** > **전체 솔루션 분석 사용** |
 | 디컴파일된 소스에 탐색을 사용하도록 설정 | 외부 소스에서 형식/멤버에 대한 정의로 이동하고, 메서드 본문을 표시하기 위해 ILSpy 디컴파일러를 사용할 수 있습니다. | **도구** > **옵션** > **텍스트 편집기** > **C#** > **고급** > **Enable navigation to decompiled sources(디컴파일된 소스에 탐색을 사용하도록 설정)** |
 | 완료/제안 모드 | IntelliSense의 완료 동작을 변경합니다. IntelliJ 경험이 있는 개발자는 여기서 기본값이 아닌 설정을 사용하기도 합니다. | **메뉴** > **편집** > **IntelliSense** > **완료 모드 설정/해제** |
-| [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | 편집기에서 코드 참조 정보 및 변경 내용 표시 | **도구** > **옵션** > **텍스트 편집기** > **모든 언어** > **CodeLens** |
+| [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | 편집기에서 코드 참조 정보 및 변경 내용을 표시합니다. (소스 제어 CodeLens 표시기는 Visual Studio Community Edition에서 사용할 수 없습니다.) | **도구** > **옵션** > **텍스트 편집기** > **모든 언어** > **CodeLens** |
 | [코드 조각](../ide/visual-csharp-code-snippets.md) | 일반 상용구 코드 제거 지원 | 코드 조각 이름을 입력하고 **탭** 키를 두 번 누릅니다. |

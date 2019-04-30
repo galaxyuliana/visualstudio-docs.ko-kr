@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 039456c10993199ec2265042aabc0ed5c475ccd9
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55954740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969295"
 ---
 # <a name="out-devenvexe"></a>/Out (devenv.exe)
 
@@ -47,7 +47,7 @@ devenv /Out FileName
 
 명령줄 빌드 오류는 **명령** 창 및 **출력** 창의 솔루션 작성기 보기에 표시됩니다. 이 스위치는 무인 빌드의 결과를 보는 데 유용합니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 
 이 예제에서는 `MySolution`을 실행하고 `MyErrorLog.txt` 파일에 오류를 기록합니다.
 

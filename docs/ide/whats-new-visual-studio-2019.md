@@ -2,7 +2,7 @@
 title: Visual Studio 2019의 새로운 기능
 titleSuffix: ''
 description: Visual Studio 2019의 새로운 기능을 알아보세요.
-ms.date: 04/04/2019
+ms.date: 04/23/2019
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -15,12 +15,12 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 399207f81ec1f25e6a5169235820989c1b2c34e4
-ms.sourcegitcommit: 0a2fdc23faee77187e10a1c19665ba5a1ac68e72
+ms.openlocfilehash: 3093641ad07ad3ae0f4796c2064c3e6901ae03ba
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "59477543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432026"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Visual Studio 2019의 새로운 기능
 
@@ -84,7 +84,7 @@ IntelliCode에 대한 자세한 내용은 [Code more, scroll less with Visual St
 
 새로운 문서 상태 표시기와 새로운 코드 정리 명령이 쌍으로 제공됩니다. 이 새 명령을 사용하여 단추 클릭 한 번으로 경고 및 제한 사항을 식별하고 수정할 수 있습니다.
 
-정리는 코드를 포맷하고 [현재 설정](code-styles-and-quick-actions.md), [.editorconfig 파일](create-portable-custom-editor-options.md) 또는 [Roslyn 분석기](../code-quality/roslyn-analyzers-overview.md)가 제안하는 코드 수정 사항을 적용합니다.
+정리는 코드를 포맷하고 [현재 설정](code-styles-and-quick-actions.md) 및 [.editorconfig 파일](create-portable-custom-editor-options.md)에서 제안하는 코드 수정 사항을 적용합니다.
 
    ![Visual Studio 2019의 새 코드 정리 컨트롤 스크린샷](media/vs-2019/code-cleanup-profile.png)
 
@@ -168,6 +168,12 @@ Azure VM에서 실행되는 ASP.NET(Core 및 데스크톱) 애플리케이션을
 
 자세한 내용은 [스냅숏 디버거를 사용하여 라이브 ASP.NET Azure 앱 디버그](../debugger/debug-live-azure-applications.md) 페이지와 [Introducing Time Travel Debugging for Visual Studio Enterprise 2019](https://devblogs.microsoft.com/visualstudio/introducing-time-travel-debugging-for-visual-studio-enterprise-2019/)(Visual Studio Enterprise 2019의 시간 이동 디버깅 소개) 블로그 게시물을 참조하세요.
 
+## <a name="whats-next"></a>새로운 기능
+
+Visual Studio 2019는 개발 환경을 훨씬 더 좋게 만들어 줄 수 있는 새 기능으로 자주 업데이트됩니다. 최신 혁신 기능을 자세히 알아보려면 [The Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/)(Visual Studio 블로그)를 확인하세요. 미리 보기에서 현재까지 릴리스된 내용에 대한 기록은 [미리 보기 릴리스 노트](/visualstudio/releases/2019/release-notes-preview/)를 살펴보세요.
+
+Visual Studio 2019에서 진행 중인 다른 기능에 대해 더 알고 싶은가요? [Visual Studio 로드맵](/visualstudio/productinfo/vs-roadmap/)을 참조하세요.
+
 ## <a name="give-us-feedback"></a>피드백 보내기
 
 피드백을 보낼 때는 Visual Studio 팀에 피드백을 보내는 이유도 함께 알려 주세요. Microsoft는 고객 여러분의 피드백을 소중하게 생각하며, Microsoft에서 추진하는 업무에 큰 역할을 합니다.
@@ -181,5 +187,5 @@ Azure VM에서 실행되는 ASP.NET(Core 및 데스크톱) 애플리케이션을
 * [Visual Studio 2019 알림](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-code-faster-work-smarter-create-the-future/)
 * [Visual Studio 2019 릴리스 정보](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 SDK의 새로운 기능](../extensibility/whats-new-visual-studio-2019-sdk.md)
-* [현재 Mac용 Visual Studio 2019 사용 가능](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-is-now-available/)
+* [Visual Studio 2019 for Mac is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-is-now-available/)(현재 사용 가능한 Mac용 Visual Studio 2019)
 * [Microsoft Connect(); 2018 회의](https://www.microsoft.com/connectevent)

@@ -15,12 +15,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 5e499e54a7cf1c5c50a625cfe03482202e3a1f3f
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: c727b31f353015ca6f43157c4b6afc67339526f0
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974100"
 ---
 # <a name="create-a-network-installation-of-visual-studio"></a>Visual Studio의 네트워크 설치 만들기
 
@@ -111,10 +111,10 @@ xcopy /e c:\vsoffline \\server\products\VS2019
 
 네트워크 레이아웃을 사용자 지정하는 데 사용할 수 있는 여러 가지 옵션이 있습니다. [언어 로캘](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), [워크로드, 구성 요소, 권장 또는 선택적 종속성](workload-and-component-ids.md)의 특정 집합만 포함된 부분 레이아웃을 만들 수 있습니다. 워크로드의 하위 집합만 클라이언트 워크스테이션에 배포하려는 경우 이 방법이 유용할 수 있습니다. 레이아웃을 사용자 지정하기 위한 일반적인 명령줄 매개 변수는 다음과 같습니다.
 
-* `--add` [워크로드 또는 구성 요소 ID](workload-and-component-ids.md)를 지정합니다. <br>`--add`가 사용되면 `--add`로 지정된 워크로드 및 구성 요소만 다운로드됩니다.  `--add`를 사용하지 않으면 모든 워크로드 및 구성 요소가 다운로드됩니다.
-* `--includeRecommended` 지정된 워크로드 ID에 대한 모든 권장 구성 요소를 포함합니다.
-* `--includeOptional` 지정된 워크로드 ID에 대한 모든 권장 및 선택적 구성 요소를 포함합니다.
-* `--lang` [언어 로캘](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales)을 지정합니다.
+* `--add` - [워크로드 또는 구성 요소 ID](workload-and-component-ids.md)를 지정합니다. <br>`--add`가 사용되면 `--add`로 지정된 워크로드 및 구성 요소만 다운로드됩니다.  `--add`를 사용하지 않으면 모든 워크로드 및 구성 요소가 다운로드됩니다.
+* `--includeRecommended` - 지정된 워크로드 ID에 대한 모든 권장 구성 요소를 포함합니다.
+* `--includeOptional` - 지정된 워크로드 ID에 대한 모든 권장 및 선택적 구성 요소를 포함합니다.
+* `--lang` - [언어 로캘](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales)을 지정합니다.
 
 다음은 사용자 지정 부분 레이아웃을 만드는 방법에 대한 몇 가지 예제입니다.
 
@@ -153,6 +153,7 @@ xcopy /e c:\vsoffline \\server\products\VS2019
     ```cmd
     vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional 
     ```
+
 ::: moniker range="vs-2017"
 
 ### <a name="new-in-version-153"></a>버전 15.3의 새로운 기능
@@ -194,11 +195,13 @@ vs_enterprise.exe --layout c:\VSLayout --all
 관리자는 설치 스크립트의 일부로 Visual Studio를 클라이언트 워크스테이션에 배포할 수 있습니다. 또는 관리자 권한을 가진 사용자는 공유에서 직접 설치 프로그램을 실행하여 Visual Studio를 컴퓨터에 설치할 수 있습니다.
 
 * 사용자는 다음 명령을 실행하여 설치할 수 있습니다. <br>
+
     ```cmd
     \\server\products\VS\vs_enterprise.exe
     ```
 
 * 관리자는 다음 명령을 실행하여 무인 모드로 설치할 수 있습니다.
+
     ```cmd
     \server\products\VS\vs_enterprise.exe --quiet --wait --norestart
     ```
@@ -270,6 +273,7 @@ vs_enterprise.exe --layout c:\VSLayout --all
 
 * [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
 * [네트워크 기반 Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md)
+* [Visual Studio 제품 수명 주기 및 서비스](/visualstudio/releases/2019/servicing/)
 * [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)
 * [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
-* [Visual Studio 워크로드 및 구성 요소 ID](workload-and-component-ids.md)
+* [Visual Studio 작업 및 구성 요소 ID](workload-and-component-ids.md)

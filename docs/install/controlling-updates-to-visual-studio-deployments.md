@@ -15,12 +15,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: a58ee5350467ae2b2eea74b4f929fac69b75c071
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: d4ce4621fc2fa32f2730c0ce6cdd0618a44386b2
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974196"
 ---
 # <a name="control-updates-to-network-based-visual-studio-deployments"></a>네트워크 기반 Visual Studio 배포에 대한 업데이트 제어
 
@@ -33,13 +33,17 @@ ms.locfileid: "58856290"
 Visual Studio가 업데이트를 검색하는 위치를 직접 제어하려면 Visual Studio가 검색하는 위치를 수정할 수 있습니다. 사용자가 업데이트되는 버전도 제어할 수 있습니다. 이렇게 하려면 다음이 단계를 수행하세요.
 
 1. 오프라인 레이아웃을 만듭니다.
+
    ```cmd
    vs_enterprise.exe --layout C:\vsoffline --lang en-US
    ```
+
 2. 레이아웃을 호스트할 파일 공유로 복사합니다.
+
    ```cmd
    xcopy /e C:\vsoffline \\server\share\VS
    ```
+
 3. 레이아웃에서 response.json 파일을 수정하고 `channelUri` 값을 변경하여 관리자가 제어하는 channelManifest.json 복사본을 가리킵니다.
 
    다음 예제와 같이 값에서 백슬래시를 이스케이프해야 합니다.
@@ -49,6 +53,7 @@ Visual Studio가 업데이트를 검색하는 위치를 직접 제어하려면 V
    ```
 
    이제 최종 사용자는 이 공유에서 설치 프로그램을 실행하여 Visual Studio를 설치할 수 있습니다.
+
    ```cmd
    \\server\share\VS\vs_enterprise.exe
    ```
@@ -56,13 +61,17 @@ Visual Studio가 업데이트를 검색하는 위치를 직접 제어하려면 V
 엔터프라이즈 관리자가 사용자가 최신 버전의 Visual Studio로 업데이트할 시점을 결정할 경우 다음과 같이 [레이아웃 위치를 업데이트](update-a-network-installation-of-visual-studio.md)하여 업데이트된 파일을 통합할 수 있습니다.
 
 1. 다음 명령과 비슷한 명령을 사용합니다.
+
    ```cmd
    vs_enterprise.exe --layout \\server\share\VS --lang en-US
    ```
+
 2. 업데이트된 레이아웃의 response.json 파일에 사용자 지정, 특히 다음과 같은 channelUri 수정이 포함되어 있는지 확인합니다.
+
    ```json
    "channelUri":"\\\\server\\share\\VS\\ChannelManifest.json"
    ```
+
    이 레이아웃의 기존 Visual Studio 설치는 `\\server\share\VS\ChannelManifest.json`에서 업데이트를 검색합니다. 이 channelManifest.json이 사용자가 설치한 것보다 최신 버전인 경우 Visual Studio에서는 사용자에게 사용 가능한 업데이트가 있음을 알립니다.
 
    새로운 설치를 통해 레이아웃에서 직접 Visual Studio의 업데이트된 버전이 자동으로 설치됩니다.
@@ -94,6 +103,7 @@ Visual Studio 2017에서는 [레지스트리 항목을 개인 레지스트리에
 ```cmd
 vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
 ```
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -119,3 +129,4 @@ vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterpris
 * [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)
 * [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
 * [Visual Studio 인스턴스 관리 도구](tools-for-managing-visual-studio-instances.md)
+* [Visual Studio 제품 수명 주기 및 서비스](/visualstudio/releases/2019/servicing/)
