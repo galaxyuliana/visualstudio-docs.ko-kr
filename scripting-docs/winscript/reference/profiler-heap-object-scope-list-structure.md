@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: b1285e4efa3db8a7ec99808f5888d3dbf948e589
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58152524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62830323"
 ---
 # <a name="profilerheapobjectscopelist-structure"></a>PROFILER_HEAP_OBJECT_SCOPE_LIST 구조체
 이 구조는 함수 개체와 연결 합니다. 범위 목록 함수의 클로저를 범위는 각 범위는 각 지정 된 범위에서 변수를 나타내는 연결 된 속성 목록 가진 힙 개체의 목록을 나타냅니다. 경우에 따라 범위를 사용할 수 없습니다 수의 개체 및 속성 목록에만 해당 인덱스의 이름을 사용할 수 있는 경우  

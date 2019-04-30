@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 4d5d33a68b4bc87307281e37ff96f84834257a22
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58156010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62970876"
 ---
 # <a name="idebugdocumenttextgetlineofposition"></a>IDebugDocumentText::GetLineOfPosition
 지정된 된 문자 위치에 줄 번호 및 필요에 따라 해당 하는 줄 내 문자 오프셋을 반환 합니다.  

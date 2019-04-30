@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 622d807da832c4c07baf8b62c902c2b1d25cc14d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62955703"
 ---
 # <a name="how-to-programmatically-reset-ranges-in-word-documents"></a>방법: 프로그래밍 방식으로 Word 문서의 범위 다시 설정
   <xref:Microsoft.Office.Interop.Word.Range.SetRange%2A> 메서드를 사용하여 Microsoft Office Word 문서에서 기존의 범위의 크기를 조정합니다.

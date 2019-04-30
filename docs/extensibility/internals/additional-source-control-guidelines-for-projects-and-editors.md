@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 3566709819d2023dfd6e38e40f88a454de83e3e6
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56626104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62861741"
 ---
 # <a name="additional-source-control-guidelines-for-projects-and-editors"></a>프로젝트 및 편집기에 대 한 추가 소스 제어 지침
 프로젝트 및 편집기에 소스 제어를 지원 하기 위해 준수 해야 하는 지침의 여러 가지가 있습니다.

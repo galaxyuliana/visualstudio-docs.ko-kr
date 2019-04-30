@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: a2ce15c905ee12e1c3f45db5e5044b171db3527d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56712712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62916375"
 ---
 # <a name="idebugreturnvalueevent2"></a>IDebugReturnValueEvent2
 이 인터페이스의 또는 함수를 단계별로 실행 한 후 디버그 엔진 (DE)에서 (SDM) 세션 디버그 관리자에 게 전송 됩니다.

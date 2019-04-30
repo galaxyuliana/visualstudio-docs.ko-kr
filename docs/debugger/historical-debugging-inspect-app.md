@@ -9,13 +9,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: dea338f940cca0ce24cc200ed933adadb7d5643f
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62848229"
 ---
-# <a name="inspect-your-app-with-intellitrace-historical-debugging-in-visual-studio-c-visual-basic-c"></a>IntelliTrace 기록 디버깅 Visual Studio에서 사용 하 여 앱 검사 (C#, Visual Basic, c + +)
+# <a name="inspect-your-app-with-intellitrace-historical-debugging-in-visual-studio-c-visual-basic-c"></a>IntelliTrace 기록 디버깅 Visual Studio에서 사용 하 여 앱 검사 (C#, Visual Basic의 경우 C++)
 
 사용할 수 있습니다 [기록 디버깅](../debugger/historical-debugging.md) 뒤로 이동 하 고 응용 프로그램의 실행을 통해 전달 및 해당 상태를 검사 합니다.
 

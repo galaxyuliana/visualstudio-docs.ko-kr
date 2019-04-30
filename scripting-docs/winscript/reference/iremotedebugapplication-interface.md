@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 2a231818def210f7c88ab031059f8561c67b33d1
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58159155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62944232"
 ---
 # <a name="iremotedebugapplication-interface"></a>IRemoteDebugApplication 인터페이스
 실행 중인 애플리케이션을 나타냅니다. 운영 체제 프로세스에 해당 하는 필요 하지 않습니다. 일반적으로 디버거는 디버깅에 대 한 응용 프로그램 대상 으로합니다. 프로세스 디버그 관리자는 일반적으로 응용 프로그램 개체를 구현합니다.  

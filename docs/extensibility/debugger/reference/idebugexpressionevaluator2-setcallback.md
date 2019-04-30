@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: d758d6c34563a2915e295514380cf07c847d86c4
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56686797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62919745"
 ---
 # <a name="idebugexpressionevaluator2setcallback"></a>IDebugExpressionEvaluator2::SetCallback
 식 계산기를 (EE) 메트릭 설정의 읽을 디버거 엔진 (DE)를 사용 하는 콜백 인터페이스를 지정할 수 있습니다.

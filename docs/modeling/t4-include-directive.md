@@ -8,11 +8,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 1a3ab6aa4cd116c779cac4367d1eeb9a187edaeb
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57323295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62964094"
 ---
 # <a name="t4-include-directive"></a>T4 Include 지시문
 
@@ -30,7 +30,7 @@ ms.locfileid: "57323295"
 
    이러한 추가적인 포함 폴더는 포함 파일의 파일 확장명에 따라 달라질 수 있습니다. 예를 들어 DSL 도구의 포함 폴더에서는 파일 확장명이 `.tt`인 파일이 있는 포함 파일에만 액세스할 수 있습니다.
 
-- `filePath`는 "%"로 구분되는 환경 변수를 포함할 수 있습니다. 예를 들면,
+- `filePath`는 "%"로 구분되는 환경 변수를 포함할 수 있습니다. 예를 들어:
 
   ```
   <#@ include file="%HOMEPATH%\MyIncludeFile.t4" #>

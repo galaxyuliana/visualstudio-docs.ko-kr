@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 21630bea3022769d18748190c2a2d24c0e519a3c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62554924"
 ---
 # <a name="datakind"></a>DataKind
 데이터 값의 특정 범위를 나타냅니다.
@@ -60,7 +60,7 @@ DataIsStaticMember 데이터 항목에는 정적 클래스 변수입니다.
 
 DataIsConstant 데이터 항목에는 상수 값입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 열거형의 값에서 반환 되는 [idiasymbol:: Get_datakind](../../debugger/debug-interface-access/idiasymbol-get-datakind.md) 메서드.
 
 ## <a name="requirements"></a>요구 사항

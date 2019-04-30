@@ -29,11 +29,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fa6fb9613df5f5bffb50c9a161eaa0a0254f26dd
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62901003"
 ---
 # <a name="when-calling-a-function-hundreds-of-times-how-do-i-know-which-call-failed"></a>함수를 수백 번 호출하는 경우 어떤 호출이 실패했는지 어떻게 알 수 있습니까?
 ## <a name="problem-description"></a>문제 설명

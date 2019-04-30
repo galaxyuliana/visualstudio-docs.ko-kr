@@ -18,11 +18,11 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: 4d7236b77a7dd0a81f8a7846c0eba28e3b520cdd
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62545591"
 ---
 # <a name="ca1813-avoid-unsealed-attributes"></a>CA1813: 봉인되지 않은 특성을 사용하지 마세요.
 
@@ -35,7 +35,7 @@ ms.locfileid: "55931821"
 
 ## <a name="cause"></a>원인
 
-공용 형식에서 상속 <xref:System.Attribute?displayProperty=fullName>추상 클래스가 아니며 봉인 (`NotInheritable` Visual Basic에서).
+공용 형식에서 상속 <xref:System.Attribute?displayProperty=fullName>추상 클래스가 아니며 봉인 (`NotInheritable` Visual basic에서).
 
 ## <a name="rule-description"></a>규칙 설명
 

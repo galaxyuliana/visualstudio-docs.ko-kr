@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 921bef3514b802672296dda6d680b665f1f42482
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56632500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62978317"
 ---
 # <a name="troubleshoot-office-solution-security"></a>Office 솔루션 보안 문제 해결
   이 항목에서는 Office 솔루션 보안 작업을 수행할 때 발생할 수 있는 일반적인 문제를 해결 하기 위한 팁을 포함 합니다.

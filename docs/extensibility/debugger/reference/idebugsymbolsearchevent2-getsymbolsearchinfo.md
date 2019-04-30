@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: d917a3f33d0c4339420c048fe20184245bb8dac1
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56684327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62868411"
 ---
 # <a name="idebugsymbolsearchevent2getsymbolsearchinfo"></a>IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 기호 로드 프로세스에 대 한 결과 검색 하는 이벤트 처리기에서 호출 됩니다.
@@ -50,7 +50,7 @@ int GetSymbolSearchInfo(
  [out에서] 모듈에서 모든 오류 메시지를 포함 하는 문자열을 반환 합니다. 오류가 없는 경우 다음이 문자열을 모듈의 이름을 포함 됩니다는 비어 있는 상태로 되지 않습니다.
 
 > [!NOTE]
-> [C + +] `pbstrDebugMessage` 일 수 없습니다 `NULL` 사용 하 여 해제 해야 `SysFreeString`합니다.
+> [C++] `pbstrDebugMessage` 일 수 없습니다 `NULL` 사용 하 여 해제 해야 `SysFreeString`합니다.
 
  `pdwModuleInfoFlags`
 

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 426adc0cd150d5867760a8570df5777fec8260a2
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56601579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62859260"
 ---
 # <a name="registering-vspackages"></a>VSPackage 등록
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .pkgdef 파일을 설명 하 고 VSPackage를 찾을 때까지 의존 합니다. .Pkgdef 파일 시스템 레지스트리에 추가 될 모든 등록 정보를 포함 합니다. 소스 코드에 특성을 추가 하 고 다음을 실행 하 여 관리 되는 Vspackage 등록 합니다 [CreatePkgDef 유틸리티](../../extensibility/internals/createpkgdef-utility.md) .pkgdef 파일을 생성 하려면 결과 어셈블리에 있습니다.

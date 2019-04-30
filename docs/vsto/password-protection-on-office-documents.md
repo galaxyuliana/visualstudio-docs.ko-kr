@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: e3c9521389ce348a482f35ec95c9766edea49f5f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977902"
 ---
 # <a name="password-protection-on-office-documents"></a>Office 문서의 암호 보호
   암호를 알지 못합니다 사람이 열 수 없습니다 있도록 Microsoft Office Word 문서 및 Microsoft Office Excel 통합 문서에는 암호를 설정 하는 것이 가능 합니다. 이 옵션 이라고 **파일을 열 때 암호**합니다.

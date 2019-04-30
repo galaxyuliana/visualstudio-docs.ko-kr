@@ -1,5 +1,5 @@
 ---
-title: 프로젝트 계층 구조 노드 (c + +) 이름 바꾸기 | Microsoft Docs
+title: 프로젝트 계층 구조 노드 이름 바꾸기 (C++) | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: devlang-csharp
@@ -10,21 +10,21 @@ helpviewer_keywords:
 ms.assetid: cea5968e-e9f8-41a5-b068-622df542247c
 caps.latest.revision: 12
 manager: jillfra
-ms.openlocfilehash: 7f6406936f293eea9c604b830f8eaab55a90a957
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
-ms.translationtype: MT
+ms.openlocfilehash: 3d1d99bd49d7a5fd78b38262725b65c5d1b3aab9
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58981958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62978112"
 ---
 # <a name="renaming-project-hierarchy-nodes-c"></a>프로젝트 계층 구조 노드 이름 바꾸기(C++)
-관리 되지 않는 c + +에 대 한 HierUtil7 프로젝트 프레임 워크를 사용 하 여 프로젝트 폴더 계층 구조 노드를 바꿀 수 있습니다. 자세한 내용은 [HierUtil7 샘플](http://msdn.microsoft.com/29c15184-a70c-4813-86c2-fb1d47442d11)합니다.  
+관리 되지 않는 HierUtil7 프로젝트 프레임 워크를 사용 하 여 프로젝트 폴더 계층 노드의 이름을 바꿀 수 있습니다 C++입니다. 자세한 내용은 [HierUtil7 샘플](http://msdn.microsoft.com/29c15184-a70c-4813-86c2-fb1d47442d11)합니다.  
   
 ## <a name="expanding-the-hierarchy-node"></a>계층 노드를 확장합니다.  
   
 #### <a name="to-expand-the-hierarchy-node-and-rename-the-folder"></a>계층 노드를 확장 하 여 폴더 이름 바꾸기  
   
-1.  다음 메서드를 사용 하 여 계층 구조 노드를 선택 합니다.  
+1. 다음 메서드를 사용 하 여 계층 구조 노드를 선택 합니다.  
   
     ```  
     IfFailGo(pNode->ExtExpand(EXPF_SelectItem, GUID_MacroExplorer));  
@@ -38,7 +38,7 @@ ms.locfileid: "58981958"
   
      폴더에서 Hu_node.h 파일을 찾을 수 있습니다 \<설치 루트 > \Program Files\VSIP 8.0\EnvSDK\common\hierutil7:  
   
-2.  폴더 이름 바꾸기 명령을 사용 하 여 게시 하 여 이름 바꾸기 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.PostExecCommand%2A>  
+2. 폴더 이름 바꾸기 명령을 사용 하 여 게시 하 여 이름 바꾸기 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.PostExecCommand%2A>  
   
     ```  
     IfFailGo(srpVsUIShell->PostExecCommand(&guidVSStd97, cmdidRename, 0, NULL));  

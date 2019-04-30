@@ -24,11 +24,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: bc15ff5c384ec63f99ed50a5f3c700efd7ba3c18
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007721"
 ---
 # <a name="sharepoint-project-item-schema-reference"></a>SharePoint 프로젝트 항목 스키마 참조
   Visual Studio를 사용 하 여 SharePoint 프로젝트 항목 스키마의 내용을 *.spdata* 파일입니다. *.spdata* 파일 내용 및 SharePoint 프로젝트 항목의 동작을 지정 합니다. SharePoint 프로젝트 항목의 내용에 대 한 자세한 내용은 참조 [항목 템플릿 및 SharePoint 프로젝트 항목에 대 한 프로젝트 템플릿 만들기](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)합니다.

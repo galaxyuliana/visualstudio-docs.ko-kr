@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 7d70d9b5bac260dc0731d06ebb11780114f0edf5
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54867171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967424"
 ---
 # <a name="extend-the-sharepoint-tools-in-visual-studio"></a>Visual Studio에서 SharePoint 도구 확장
   Visual Studio에서 SharePoint 도구에는 많은 응용 프로그램 개발 시나리오의 요구 사항을 충족 합니다. 그러나 사용자 또는 다른 개발자가 필요로 하는 기능 제공 하지 않는 경우를 발견할 수 있습니다. 이러한 경우에는 필요한 기능을 만들 수 있는 SharePoint 도구를 확장할 수 있습니다.

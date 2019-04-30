@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: ed26f1522913c0a8b395a0c058f73f66843eb1df
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "59002168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62971279"
 ---
 # <a name="primitives-activity-designers"></a>기본 형식 활동 디자이너
 기본 활동 디자이너는 Assign 및 Delay 등 <xref:System.Activities.Statements> 네임스페이스에서 다양한 활동을 만들고 구성하는 데 사용됩니다. 이 단원의 항목에서는 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 활동 및 템플릿 디자이너의 사용 방법에 대한 지침을 제공합니다.  

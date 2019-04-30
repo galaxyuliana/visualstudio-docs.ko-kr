@@ -17,17 +17,17 @@ ms.workload:
 - aspnet
 - dotnetcore
 ms.openlocfilehash: c1d95d7621a97a36fdf737e7d3dd4f8baf713645
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62553947"
 ---
 # <a name="step-3-work-with-data-using-entity-framework"></a>3단계: Entity Framework를 사용하여 데이터 작업
 
 다음 단계에 따라 ASP.NET Core 웹앱에서 Entity Framework Core를 사용하여 데이터 작업을 시작합니다.
 
-_이 동영상에 따라 첫 번째 ASP.NET Core 앱에 데이터를 추가합니다._
+_이 동영상을 보고 따라서 첫 번째 ASP.NET Core 앱에 데이터를 추가합니다._
 
 > [!VIDEO https://www.youtube.com/embed/dulJCwNrqhM]
 

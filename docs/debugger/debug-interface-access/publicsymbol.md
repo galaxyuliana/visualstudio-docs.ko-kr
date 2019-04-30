@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: c2c042d75ad74cc42d94596d60008dc43704e612
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56617537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62854886"
 ---
 # <a name="publicsymbol"></a>PublicSymbol
 (최소, 각 전역 함수 및 데이터 기호)에 있는 각 공용 기호는 지정 된.exe 파일을 만든 경우는 `SymTagPublicSymbol` 태그입니다.

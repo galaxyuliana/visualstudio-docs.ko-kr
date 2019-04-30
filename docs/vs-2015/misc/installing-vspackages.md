@@ -11,11 +11,11 @@ ms.assetid: 43db03ef-ceb5-4c13-875f-90259f470cc7
 caps.latest.revision: 18
 manager: jillfra
 ms.openlocfilehash: 4bf99473faf8bc2bf7c02af360e24c398c48e297
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62948167"
 ---
 # <a name="installing-vspackages"></a>VSPackage 설치
 이 섹션에서는 VSPackage를 빌드 및 설치하는 방법 및 동시에 여러 버전의 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 를 실행하는 사용자를 지원하는 방법을 설명합니다.  

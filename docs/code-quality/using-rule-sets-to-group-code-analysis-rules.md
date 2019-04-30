@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: c95b442835289265d197b6806c6d87fa051f2c1b
-ms.sourcegitcommit: d78821f8c353e0102b1554719f549f32dffac71b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "58515235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62825086"
 ---
 # <a name="use-rule-sets-to-group-code-analysis-rules"></a>코드 분석 규칙 그룹화를 사용 하 여 규칙 집합
 
@@ -24,7 +24,7 @@ Visual Studio에서 코드 분석을 구성할 때 기본 제공 목록에서 �
 
 규칙 경고 또는 오류를 표시할 추가 또는 삭제 규칙 또는 규칙 심각도 변경 하 여 집합을 사용자 지정할 수 있습니다 합니다 **오류 목록**합니다. 사용자 지정된 규칙 집합에는 특정 개발 환경의 요구 사항을 충족할 수 있습니다. 규칙 집합을 사용자 지정 규칙 집합 편집기 검색 및 필터링 프로세스에서 도움이 도구를 제공 합니다.
 
-규칙 집합에 사용할 수 있는 [관리 되는 코드의 정적 분석](how-to-configure-code-analysis-for-a-managed-code-project.md)를 [c + + 코드 분석](using-rule-sets-to-specify-the-cpp-rules-to-run.md), 및 [Roslyn 분석기](analyzer-rule-sets.md)합니다.
+규칙 집합에 사용할 수 있는 [관리 되는 코드의 정적 분석](how-to-configure-code-analysis-for-a-managed-code-project.md)를 [분석 C++ 코드](using-rule-sets-to-specify-the-cpp-rules-to-run.md), 및 [Roslyn 분석기](analyzer-rule-sets.md).
 
 ## <a name="rule-set-format"></a>규칙 집합 형식
 

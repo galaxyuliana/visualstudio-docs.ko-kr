@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 1cbfa4de401c2a1dc0626f8f00dbb0bd1bf24408
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007050"
 ---
 # <a name="invalid-range-in-character-set-javascript"></a>문자 집합의 범위가 잘못되었습니다.(JavaScript)
 잘못 된 문자 집합 범위를 사용 하 여 정규식을 작성 하려고 했습니다. A-z 또는 0-9;와 같은 단일 문자만에서 문자 집합 사이 여야 합니다. 문자 집합에서 \w 등의 문자 클래스를 포함할 수 없습니다. 범위에서 첫 번째 문자 범위에서 두 번째 문자 앞 이어야 합니다. 예를 들어:  

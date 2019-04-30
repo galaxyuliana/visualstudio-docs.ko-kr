@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 78440c703ece2aa54e54594d57156dbb17848915
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56617706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62832664"
 ---
 # <a name="idiaframedataexecute"></a>IDiaFrameData::execute
 스택 해제를 수행 하 고 스택 워크 프레임 인터페이스에서 결과 반환 합니다.
@@ -45,7 +45,7 @@ HRESULT execute ( 
 |E_DIA_FRAME_ACCESS|메모리 액세스 등록 수 없습니다.|
 |E_DIA_VALUE|값 (예: 0으로 나누기)의 계산에서 오류가 발생 했습니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  이 메서드는 스택 해제를 디버깅 하는 동안 호출 됩니다. 합니다 [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md) 개체는 레지스터에 업데이트를 수신 하는 데 사용 되는 메서드를 제공 합니다. 클라이언트 응용 프로그램에 의해 구현 됩니다는 `execute` 메서드.
 
 ## <a name="see-also"></a>참고 항목

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ce8bca614d0af9c7b0557d5b5979797f127a47af
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56604914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62860371"
 ---
 # <a name="implementing-single-file-generators"></a>단일 파일 생성기 구현
 사용자 지정 도구-단일 파일 생성기 라고도-확장을 사용할 수는 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 하 고 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 프로젝트 시스템에서 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다. 사용자 지정 도구는를 구현 하는 COM 구성 요소는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> 인터페이스입니다. 이 인터페이스를 사용 하 여 사용자 지정 도구 단일 출력 파일에 단일 입력된 파일을 변환 합니다. 변환의 결과 소스 코드를 수 있습니다 또는 다른 출력 유용 합니다. 사용자 지정 도구에서 생성 된 코드 파일의 두 가지 예는 비주얼 디자이너 및 웹 서비스 설명 언어 (WSDL)를 사용 하 여 생성 된 파일의 변경 내용에 대 한 응답으로 생성 된 코드입니다.

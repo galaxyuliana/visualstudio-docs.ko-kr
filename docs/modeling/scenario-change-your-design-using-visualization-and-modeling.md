@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7d0a24301f7571225ed1002ce4e331f29fd4d77c
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57873873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62824134"
 ---
 # <a name="scenario-change-your-design-using-visualization-and-modeling"></a>시나리오: 시각화 및 모델링을 사용하여 디자인 변경
 
@@ -95,7 +95,7 @@ Team Foundation Server에 대한 자세한 내용은 다음을 참조하세요.
 
 - [솔루션 전체의 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)
 
-- [방법: (클래스 디자이너) 프로젝트에 클래스 다이어그램 추가](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)
+- [방법: 프로젝트에 클래스 다이어그램 추가(클래스 디자이너)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)
 
 - [Visual Studio용 모델링 SDK - 도메인별 언어](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
 
@@ -383,7 +383,7 @@ Lucerne 결제 시스템에 대한 다음 맵을 생성하여 클래스, 메서�
 
 기존 클래스를 살펴보고 논의하려면 먼저 클래스 디자이너를 사용하여 코드에서 클래스 다이어그램을 만듭니다.
 
-- [방법: (클래스 디자이너) 프로젝트에 클래스 다이어그램 추가](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)
+- [방법: 프로젝트에 클래스 다이어그램 추가(클래스 디자이너)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)
 
 #### <a name="summary-strengths-of-class-diagrams"></a>요약: 클래스 다이어그램의 장점
  클래스 다이어그램을 통해 다음을 정의할 수 있습니다.

@@ -21,13 +21,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5cc06e33b3549bda9bdc9fe04073ca4cf0d9e9a5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62851785"
 ---
-# <a name="debugging-preparation-windows-forms-applications"></a>디버깅 준비: Windows Forms 응용 프로그램
+# <a name="debugging-preparation-windows-forms-applications"></a>디버깅 준비 중: Windows Forms 응용 프로그램
 Windows Forms 프로젝트 템플릿은 Windows Forms 응용 프로그램을 만듭니다. 이러한 형식의 응용 프로그램은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 쉽게 디버깅할 수 있습니다. 자세한 내용은 [Windows 응용 프로그램 프로젝트를 만드는](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100))합니다.
 
  프로젝트 템플릿을 사용하여 Windows Forms 프로젝트를 만들면 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서는 디버그 및 릴리스 구성에 필요한 설정을 자동으로 만듭니다. 필요하면 이 설정을 변경할 수 있습니다. 이러한 설정은 **\<프로젝트 이름> 속성 페이지** 대화 상자(Visual Basic의 **내 프로젝트**)에서 변경할 수 있습니다.

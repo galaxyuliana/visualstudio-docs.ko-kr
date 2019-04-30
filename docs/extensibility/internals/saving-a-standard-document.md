@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 460b948ea7b5bace1b91143d46a4ca2f4c823608
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62859153"
 ---
 # <a name="saving-a-standard-document"></a>표준 문서 저장
 환경 저장, 다른 이름으로 저장 및 모두 저장 명령을 처리합니다. 사용자가 선택 하는 경우 **저장**, **다른 이름으로 저장**, 또는 **모두 저장** 에서 **파일** 메뉴에 솔루션을 닫습니다는  **모두 저장**, 다음 프로세스가 발생 합니다.

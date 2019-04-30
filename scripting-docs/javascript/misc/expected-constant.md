@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 10564f34683fec5c38ae069f2fb0c51fb0c8902a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935096"
 ---
 # <a name="expected-constant"></a>상수가 필요합니다.
 조건부 컴파일 테스트 문에서 (비 조건부 컴파일) 변수를 사용 하려고 했습니다. 조건부 컴파일 테스트 문은 상수 여야 합니다.  

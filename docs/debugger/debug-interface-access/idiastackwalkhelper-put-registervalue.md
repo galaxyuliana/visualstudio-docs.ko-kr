@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 59d076781e0f67ad9a2f2af02e7dc937042b0e71
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62837929"
 ---
 # <a name="idiastackwalkhelperputregistervalue"></a>IDiaStackWalkHelper::put_registerValue
 레지스터의 값을 설정 합니다.
@@ -43,7 +43,7 @@ HRESULT put_registerValue ( 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  값의 크기에도 불구 하 고 구현만 무엇입니까 레지스터 일반적으로 보유 저장 해야 합니다. 예를 들어, 8 비트 레지스터를 가장 낮은 8-비트만 지정된 된 값의 저장 해야 합니다.
 
 ## <a name="see-also"></a>참고 항목

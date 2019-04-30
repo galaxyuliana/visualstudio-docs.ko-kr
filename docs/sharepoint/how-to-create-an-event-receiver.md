@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: bc42a92e1d7dcc73bb6bc0433da4e6a31d7fefb2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966759"
 ---
 # <a name="how-to-create-an-event-receiver"></a>방법: 이벤트 수신기 만들기
   만들어 *이벤트 수신기*, SharePoint 등 목록 또는 목록 항목을 사용 하 여 상호 작용할 때 응답할 수 있습니다. 예를 들어, 사용자 일정을 변경 하거나 연락처 목록에서 이름을 삭제 하는 경우 이벤트 수신기의 코드를 트리거할 수 있습니다. 이 항목에 따라 목록 인스턴스에 이벤트 수신기를 추가 하는 방법을 알아보십시오.

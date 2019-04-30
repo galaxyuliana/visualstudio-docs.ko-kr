@@ -10,11 +10,11 @@ ms.workload:
 - vssdk
 monikerRange: vs-2017
 ms.openlocfilehash: 4fc12744dbf979a338cbc551a715284dffdf7385
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60090132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62926382"
 ---
 # <a name="creating-a-custom-start-page"></a>사용자 지정 시작 페이지 만들기
 

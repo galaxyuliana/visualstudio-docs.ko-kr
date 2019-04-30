@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 5e420261810cec793cc553eac83bbc97edd1fb1c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909116"
 ---
 # <a name="project-type-design-decisions"></a>프로젝트 형식 디자인 결정
 새 프로젝트 형식을 만들기 전에 프로젝트 형식에 대 한 몇 가지 디자인 결정 해야 합니다. 프로젝트를 포함 하는 항목, 프로젝트 파일은 유지 하는 방법 및 어떤 약정 모델 유형을 사용할지 결정 해야 합니다.

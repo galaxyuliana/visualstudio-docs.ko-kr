@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 681564b2148fb9554e80105c2e18b1d220bb37ea
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60111651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62862849"
 ---
 # <a name="how-to-troubleshoot-services"></a>방법: 서비스 문제 해결
 서비스를 가져오려고 할 때 발생할 수 있는 몇 가지 일반적인 문제는

@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: cf2aba33089623dc98a90c23166291bb2d6e7123
-ms.sourcegitcommit: cdcbf254db737d42275e95de4ffc4f8c14e87e00
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57428650"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62905270"
 ---
 # <a name="getting-started-with-the-snapshot-debugger"></a>스냅숏 디버거를 시작 하기
 
@@ -33,7 +33,7 @@ Visual Studio 스냅숏 디버거를 서비스에 연결 되 고 디버깅 하�
 
     자주색 육각형 왼쪽 클릭 하면 표시 됩니다.
 
-2. 클릭 **수집 시작** snappoint를 설정 하려면.
+2. **컬렉션 시작**을 클릭하여 snappoint를 켭니다.
 
 ### <a name="open-a-snapshot"></a>스냅숏을 열기
 
@@ -47,7 +47,7 @@ Visual Studio 스냅숏 디버거를 서비스에 연결 되 고 디버깅 하�
 
 DataTips를 보고, 조사식, 지역 변수를 사용 하 여, 호출 하는 변수를 마우스로 가리키면이 보기에서 windows, 스택 및 식 평가 합니다.
 
-라이브 상태인 웹 사이트 자체 이며 최종 사용자에 게 영향을 받는 되지 않습니다. 기본적으로 하나의 스냅숏만 snappoint 당 캡처됩니다. 즉, 스냅숏으로 캡처된 후 snappoint를 해제 합니다. snappoint에 다른 스냅숏을 캡처하려면 하려는 경우 켤 수 있습니다 snappoint를 다시 클릭 하 여 **컬렉션 업데이트**합니다.
+웹 사이트 자체는 계속 라이브 상태이며 최종 사용자는 영향을 받지 않습니다. 기본적으로 하나의 스냅숏만 snappoint 당 캡처됩니다. 즉, 스냅숏으로 캡처된 후 snappoint를 해제 합니다. snappoint에서 또 하나의 스냅숏을 캡처하려면 **컬렉션 업데이트**를 클릭하여 snappoint를 다시 켤 수 있습니다.
 
 ### <a name="set-a-logpoint"></a>Logpoint를 설정 합니다.
 
@@ -57,7 +57,7 @@ DataTips를 보고, 조사식, 지역 변수를 사용 하 여, 호출 하는 �
 
     ![Snappoint 조건](../media/snapshot-startpage-logpoint.png)
 
-3. 에 **메시지** 필드에 기록 하려는 로그 메시지를 입력 합니다. 중괄호 안에 배치 하 여 로그 메시지의 변수를 평가할 수 있습니다.
+3. 에 **메시지** 필드에 기록 하려는 로그 메시지를 입력 합니다. 로그 메시지에서 변수를 중괄호 안에 배치하여 변수를 평가할 수도 있습니다.
 
     선택 하면 **출력 창에 보냅니다**, 메시지는 logpoint 적중 될 때 진단 도구 창에 나타납니다.
 

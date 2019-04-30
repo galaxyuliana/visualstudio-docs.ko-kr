@@ -16,11 +16,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 5a4fdb70341744c764779d406372bbd55418fd29
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62557987"
 ---
 # <a name="ijsdebugprocessperformasyncbreak-method"></a>IJsDebugProcess::PerformAsyncBreak 메서드
 다음 스크립트 명령 실행을 중단 하므로 중단 모드에서 스크립트 엔진을 배치 합니다.  

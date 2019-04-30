@@ -48,11 +48,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 00873cd84b5a6d89469de26ed982b98d2dffa27c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62567119"
 ---
 # <a name="dataset-tools-in-visual-studio"></a>Visual Studio의 데이터 세트 도구
 
@@ -75,11 +75,11 @@ Visual Studio는 데이터 집합을 사용 하 여 작업을 간소화 하기 �
 
 - 사용 된 **TableAdapter 구성 마법사** 쿼리 또는 데이터 집합을 채우는 저장된 프로시저를 지정할 및 데이터베이스 작업 (업데이트, 삭제 및 등)을 구현 합니다. 자세한 내용은 다음 항목을 참조하세요.
 
-    - [TableAdapter를 사용하여 데이터 세트 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)
+    - [TableAdapter를 사용하여 데이터 집합 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)
 
-    - [데이터 세트의 데이터 편집](../data-tools/edit-data-in-datasets.md)
+    - [데이터 집합의 데이터 편집](../data-tools/edit-data-in-datasets.md)
 
-    - [데이터 세트의 데이터 유효성 검사](../data-tools/validate-data-in-datasets.md)
+    - [데이터 집합의 데이터 유효성 검사](../data-tools/validate-data-in-datasets.md)
 
     - [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)
 
@@ -95,6 +95,6 @@ N 계층 응용 프로그램에서 데이터 집합에 대 한 자세한 내용�
 
 Xml 데이터 집합을 변환 하는 방법에 대 한 정보를 참조 하세요. [읽기 XML 데이터를 dataset](../data-tools/read-xml-data-into-a-dataset.md) 하 고 [데이터 집합을 XML로 저장](../data-tools/save-a-dataset-as-xml.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [.NET용 Visual Studio 데이터 도구](../data-tools/visual-studio-data-tools-for-dotnet.md)

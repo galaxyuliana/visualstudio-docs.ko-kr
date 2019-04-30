@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: c92a7f47f088a92a898e6cc5acbffe3522d9fec4
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62914502"
 ---
 # <a name="ienumdebugmodules2"></a>IEnumDebugModules2
 이 인터페이스에는 모듈의 목록을 열거합니다.
@@ -41,7 +41,7 @@ IEnumDebugModules2 : IUnknown
 |------------|-----------------|
 |[다음](../../../extensibility/debugger/reference/ienumdebugmodules2-next.md)|열거형 시퀀스에서 모듈의 지정된 된 수를 검색 합니다.|
 |[Skip](../../../extensibility/debugger/reference/ienumdebugmodules2-skip.md)|열거형 시퀀스에서 모듈의 지정된 된 수를 건너뜁니다.|
-|[다시 설정](../../../extensibility/debugger/reference/ienumdebugmodules2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
+|[Reset](../../../extensibility/debugger/reference/ienumdebugmodules2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
 |[Clone](../../../extensibility/debugger/reference/ienumdebugmodules2-clone.md)|현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugmodules2-getcount.md)|모듈의 수를 가져옵니다.|
 

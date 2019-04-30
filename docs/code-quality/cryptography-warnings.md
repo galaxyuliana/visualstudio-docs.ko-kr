@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 669b7806e01772e6a871b6c6a9bf47907cf9a5a4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55916858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62816590"
 ---
 # <a name="cryptography-warnings"></a>암호화 경고
 암호화를 올바르게 사용하여 더 안전한 라이브러리 및 애플리케이션을 지원하는 암호화 경고입니다. 이들 경고는 프로그램의 보안 결함을 방지하는 데 도움이 됩니다. 이들 경고를 비활성화하는 경우 코드에 그 이유를 명확하게 표시하고 개발 프로젝트의 지정된 보안 담당자에게 이 사실을 알려야 합니다.

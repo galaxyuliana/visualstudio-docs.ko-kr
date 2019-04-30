@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 49cf761c85fce3f8fc2f6705d114ab042e0c2ecd
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58158002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822047"
 ---
 # <a name="idebugasyncoperationgetresult"></a>IDebugAsyncOperation::GetResult
 반환 값 및 동기식 디버그 작업에서 반환 된 개체 매개 변수를 제공합니다.  

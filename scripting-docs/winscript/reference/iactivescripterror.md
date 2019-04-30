@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 1ca783e2100fe74ed05499f9611a9b8f3399817f
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58144422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62954995"
 ---
 # <a name="iactivescripterror"></a>IActiveScriptError
 이 인터페이스를 구현 하는 개체를 전달 합니다 [IActiveScriptSite::OnScriptError](../../winscript/reference/iactivescriptsite-onscripterror.md) 메서드 때마다 스크립팅 엔진에서 처리 되지 않은 오류가 발생 합니다. 호스트는 다음이 발생 한 오류에 대 한 정보를 가져올이 개체에서 메서드를 호출 합니다.  

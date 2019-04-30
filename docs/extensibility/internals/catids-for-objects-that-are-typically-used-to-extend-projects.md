@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 2af331bd100cfedd75e6ab1c90ad7a75c5c83961
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62910727"
 ---
 # <a name="catids-for-objects-that-are-typically-used-to-extend-projects"></a>일반적으로 프로젝트를 확장 하는 데 사용 되는 개체에 대 한 Catid
 다음 표에서 확장 하는 데 사용 되는 Catid `Project` 및 `ProjectItem` 자동화 개체에 대 한 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], 및 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 프로젝트. 에 정의 된 이러한 Catid *VSLangProj.olb*합니다.

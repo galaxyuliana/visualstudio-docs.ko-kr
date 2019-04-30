@@ -20,11 +20,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: aaeedb0784a8e5deaf8c3ddb0dd306fddf4a9ecf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62550203"
 ---
 # <a name="suppress-warnings-by-using-the-suppressmessage-attribute"></a>SuppressMessage 특성을 사용하여 경고 표시 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

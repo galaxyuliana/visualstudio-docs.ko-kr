@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 4a53e7971ac54af439a02d765fb392157d4a5321
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56687460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62911201"
 ---
 # <a name="icon-element"></a>Icon 요소
 아이콘 태그의 guid 속성에 정의 된 비트맵의 guid입니다. `id` 특성 비트맵 스트립에 슬롯을 선택 합니다. 이 요소는 선택적입니다. 이 요소를 사용 하는 경우의 값이 포함 되었습니다 **guidOfficeIcon:msotcidNoIcon** 암시 됩니다.

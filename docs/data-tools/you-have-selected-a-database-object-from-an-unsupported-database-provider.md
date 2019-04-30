@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 13e6dd42ed372fb28d850a566ea1900447ad220c
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55909517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62564680"
 ---
 # <a name="you-have-selected-a-database-object-from-an-unsupported-database-provider"></a>지원되지 않는 데이터베이스 공급자에서 데이터베이스 공급자를 선택했습니다.
 
@@ -28,7 +28,7 @@ ms.locfileid: "55909517"
 
 - 클릭 **취소** 작업을 중지 합니다. 만들거나 SQL Server에 대 한.NET Framework Provider를 사용 하는 다른 데이터 연결을 사용 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [O/R 디자이너 메시지](../data-tools/o-r-designer-messages.md)
 - [Visual Studio의 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

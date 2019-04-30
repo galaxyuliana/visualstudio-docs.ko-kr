@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a462d22df9768d2ffc8b344933e9f5c1f556575a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62895523"
 ---
 # <a name="reference-programmatic-capture"></a>참조(프로그램 방식 캡처)
 그래픽 진단에서는 프로그래밍 방식 캡처 API를 통해 해당 캡처 기능을 프로그래밍 방식으로 제어할 수 있습니다. 이 API를 사용하면 메시지를 전환하여 그래픽 진단 HUD(헤드업 디스플레이)에 추가하고, 그래픽 로그 파일을 초기화하고 만들며, 그래픽 정보를 캡처할 수 있습니다.
@@ -22,13 +22,13 @@ ms.locfileid: "56713596"
 
 ### <a name="classes"></a>클래스
 
-|name|설명|
+|이름|설명|
 |----------|-----------------|
 |[VsgDbg 클래스](vsgdbg-class.md)|그래픽 진단의 앱 내 구성 요소를 프로그래밍 방식으로 제어하는 인터페이스를 나타냅니다.|
 
 ### <a name="preprocessor-symbols"></a>전처리기 기호
 
-|name|설명|
+|이름|설명|
 |----------|-----------------|
 |[DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)|그래픽 로그 파일이 사용자의 임시 파일 디렉터리에 저장되는지 여부를 존재로 정의합니다.|
 |[VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)|그래픽 로그 파일의 기본 파일 이름을 정의합니다.|

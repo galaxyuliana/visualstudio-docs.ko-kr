@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: c3680af73c281a01a7938805f859e0ff88c1ba44
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909991"
 ---
 # <a name="create-project-instances-by-using-project-factories"></a>프로젝트 팩터리를 사용 하 여 프로젝트 인스턴스 만들기
 프로젝트 형식에 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 사용을 *프로젝트 팩터리* 프로젝트 개체의 인스턴스를 만듭니다. 프로젝트 팩터리 cocreatable COM 개체에 대 한 표준 클래스 팩터리와 비슷합니다. 그러나 프로젝트 개체 않습니다 cocreatable; 프로젝트 팩터리를 사용 하 여 만들 수만 있습니다.

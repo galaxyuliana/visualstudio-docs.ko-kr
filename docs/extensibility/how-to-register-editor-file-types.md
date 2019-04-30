@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 8f4aad26418c61ea450d697e294203b7f844577f
-ms.sourcegitcommit: 11337745c1aaef450fd33e150664656d45fe5bc5
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "57324158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62862929"
 ---
 # <a name="how-to-register-editor-file-types"></a>방법: 편집기 파일 형식 등록
 일부분으로 제공 하는 등록 특성을 사용 하 여 편집기 파일 형식을 등록 하는 가장 쉬운 방법은는 [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] 관리 되는 패키지 프레임 워크 (MPF) 클래스입니다. 네이티브에서 패키지를 구현 하는 경우 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], 편집기 및 연결 된 확장을 등록 하는 레지스트리 스크립트를 작성할 수도 있습니다.

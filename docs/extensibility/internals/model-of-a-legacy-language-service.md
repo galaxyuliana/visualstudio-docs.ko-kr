@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 4a044d623931d024f15baba1532e3a563273242e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56621944"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62860102"
 ---
 # <a name="model-of-a-legacy-language-service"></a>레거시 언어 서비스 모델
 언어 서비스는 특정 언어에 대 한 기능과 요소를 정의 하 고 해당 언어에 대 한 정보를 사용 하 여 편집기를 제공 하는 데 사용 됩니다. 예를 들어, 편집기 구문 색 지정을 지원 하기 위해 요소 및 언어의 키워드를 알고 있어야 합니다.
@@ -39,7 +39,7 @@ ms.locfileid: "56621944"
 
   다음 표에서 모델에서 개체의 개요를 제공합니다.
 
-| 구성 요소 | Object | 기능 |
+| 구성 요소 | 개체 | 함수 |
 |------------------| - | - |
 | 텍스트 버퍼 | <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> | 유니코드 읽기/쓰기 텍스트 스트림입니다. 다른 인코딩을 사용 하는 텍스트는 것이 가능 합니다. |
 | 코드 창 | <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow> | 하나 이상의 텍스트 뷰를 포함 하는 문서 창입니다. 때 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 는 코드 창 (MDI) 다중 문서 인터페이스 모드로 MDI 자식입니다. |

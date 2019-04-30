@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 3396aee8c044ee9b84d7d6256c6ad69a99965170
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58158869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62954893"
 ---
 # <a name="iactivescriptparseparsescripttext"></a>IActiveScriptParse::ParseScriptText
 네임 스페이스에 선언을 추가 하 고 적절 하 게 코드를 평가 주어진된 코드 스크립트릿 구문 분석 합니다.  

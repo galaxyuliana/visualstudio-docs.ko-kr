@@ -13,14 +13,14 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3f0c2e07b5c9141b8cf31511405939fc65be6446
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56615587"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839064"
 ---
 # <a name="idiastackframegetcplusplusexceptionhandling"></a>IDiaStackFrame::get_cplusplusExceptionHandling
-C + + 예외 처리에 적용 되는 경우를 나타내는 플래그를 검색 합니다.
+여부를 나타내는 플래그를 검색 C++ 예외 처리에 적용 됩니다.
 
 ## <a name="syntax"></a>구문
 
@@ -33,13 +33,13 @@ HRESULT get_cplusplusExceptionHandling ( 
 #### <a name="parameters"></a>매개 변수
  `pRetVal`
 
-[out] 반환 `TRUE` 이 프레임에 적용 되는 c + + 예외 처리 하는 경우는 그렇지 않으면 반환 `FALSE`합니다.
+[out] 반환 `TRUE` 경우 C++ 예외 처리가이 프레임에 적용 되 고 그렇지 않으면, 반환 `FALSE`합니다.
 
 ## <a name="return-value"></a>반환 값
  성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 속성이 지원 되지 않는 경우. 그러지 않으면 오류 코드가 반환됩니다.
 
-## <a name="remarks"></a>주의
- C + + 예외 처리 구조화 된 동일 또는 시스템 예외 처리 아닙니다.
+## <a name="remarks"></a>설명
+ C++예외 처리는 구조적으로 동일한 또는 시스템 예외 처리 없습니다.
 
  호출을 확인 하려면 구성 하는 경우 예외 처리가 적용 되는 [IDiaStackFrame::get_systemExceptionHandling](../../debugger/debug-interface-access/idiastackframe-get-systemexceptionhandling.md) 메서드.
 

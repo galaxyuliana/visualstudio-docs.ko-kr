@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: dcc1b6071fbe83b6752b1b2b1ac2218979dbc55f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56684301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62917067"
 ---
 # <a name="idebugprogram3"></a>IDebugProgram3
 이 인터페이스는 프로세스에서 실행 되 고 확장 하는 프로그램을 나타내는 [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md) 스레드 정보를 제공 합니다.

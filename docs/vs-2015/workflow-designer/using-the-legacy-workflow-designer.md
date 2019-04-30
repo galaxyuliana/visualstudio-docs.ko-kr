@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 899f0b81055f67c323c2efb60a07280368dad321
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62855823"
 ---
 # <a name="using-the-legacy-workflow-designer"></a>레거시 Workflow Designer 사용
 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 또는 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 대상으로 하려는 경우 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]에서 제공하는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 사용할 수 있습니다.  

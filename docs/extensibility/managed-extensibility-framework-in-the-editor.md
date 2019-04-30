@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 708d9c7e41a3be24f9eaf28d86da94d47b187a93
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62907242"
 ---
 # <a name="managed-extensibility-framework-in-the-editor"></a>편집기에서 managed Extensibility Framework
 편집기는 프레임 워크 MEF (Managed Extensibility) 구성 요소를 사용 하 여 빌드됩니다. 사용자 고유의 MEF 구성 요소 편집기를 확장을 빌드하고 코드 편집기 구성 요소도 사용할 수 있습니다.

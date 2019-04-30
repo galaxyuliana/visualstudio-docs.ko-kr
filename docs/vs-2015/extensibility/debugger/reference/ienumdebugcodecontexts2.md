@@ -13,11 +13,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f36da19e6bc47d70010dd96a26256537803ccb29
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62551620"
 ---
 # <a name="ienumdebugcodecontexts2"></a>IEnumDebugCodeContexts2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ IEnumDebugCodeContexts2 : IUnknown
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugcodecontexts2-getcount.md)|열거자에서 코드 컨텍스트 수를 가져옵니다.|  
   
 ## <a name="remarks"></a>설명  
- Visual Studio 호출 [EnumCodeContexts](../../../extensibility/debugger/reference/idebugprogram2-enumcodecontexts.md) 코드 컨텍스트의 목록을 채울 선택할 수 있으며 경우에서 다음 문을 설정 또는 소스 파일에 대 한 디스어셈블리를 표시 합니다. 예를 들어, c + + 스타일 템플릿의 여러 인스턴스가 있는 경우 여러 코드 컨텍스트에서 발생할 수 있습니다.  
+ Visual Studio 호출 [EnumCodeContexts](../../../extensibility/debugger/reference/idebugprogram2-enumcodecontexts.md) 코드 컨텍스트의 목록을 채울 선택할 수 있으며 경우에서 다음 문을 설정 또는 소스 파일에 대 한 디스어셈블리를 표시 합니다. 인스턴스가 여러 개 있는 경우, 여러 코드 컨텍스트 발생할 수 있습니다는 C++-스타일 템플릿.  
   
 ## <a name="requirements"></a>요구 사항  
  헤더: msdbg.h  

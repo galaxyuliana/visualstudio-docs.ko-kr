@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 87a2b604b27b58c40f1ba1ad8628fe2be06701e5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62860361"
 ---
 # <a name="list-of-available-services"></a>사용 가능한 서비스 목록
 
@@ -29,7 +29,7 @@ ms.locfileid: "56695793"
 | 서비스 | 인터페이스 | Visual Studio | Visual Studio 2005 | 설명 |
 | - | - |---------------|--------------------| - |
 | <xref:Microsoft.VisualStudio.OLE.Interop.SBindHost> | <xref:Microsoft.VisualStudio.OLE.Interop.IBindHost> | 예 | 예 | 가져오는 데 사용 하 여 Vspackage를 <xref:Microsoft.VisualStudio.OLE.Interop.IBindHost> 비동기 데이터 전송을 용이 하 게 ActiveX 컨트롤의 인터페이스입니다. |
-| <xref:Microsoft.VisualStudio.Shell.Interop.SDTE> | <xref:EnvDTE.DTE> | 아니요 | 예 | 자동화에 사용 되는 확장성 DTE (디자인 타임) 개체를 가져옵니다.<br /><br /> C/C + + ID: SID_SDTE |
+| <xref:Microsoft.VisualStudio.Shell.Interop.SDTE> | <xref:EnvDTE.DTE> | 아니요 | 예 | 자동화에 사용 되는 확장성 DTE (디자인 타임) 개체를 가져옵니다.<br /><br /> C /C++ ID: SID_SDTE |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SCodeNavigate> | <xref:Microsoft.VisualStudio.Shell.Interop.ICodeNavigate> | 예 | 예 | Forms 디자이너 컨트롤에 대 한 기본 이벤트 처리기를 표시 하 여 구현 합니다. |
 | <xref:Microsoft.VisualStudio.OLE.Interop.SContainerDispatch> | IDispatch | 예 | 예 | 다른 VSPackage 또는 컨트롤의 자동화 인터페이스에 액세스 하기 위해 VSPackage를 사용 하도록 설정 합니다. |
 | <xref:Microsoft.VisualStudio.Shell.Interop.SExtendedTypeLib> | <xref:Microsoft.VisualStudio.Shell.Interop.IExtendedTypeLib> | 예 | 예 | 확장 된 형식 라이브러리를 만들거나 추가 하려면 VSPackage를 사용 하도록 설정 합니다. |

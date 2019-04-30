@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: df8cc7fa837e5308d2e6ba18501d7bfb93a83223
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56626398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62829936"
 ---
 # <a name="baseclass"></a>BaseClass
 각 기본 클래스는 사용자 정의 형식 (UDT) 기호를 사용 하 여 자식으로 식별 되는 `SymTagBaseClass` 태그입니다. 합니다 [idiasymbol:: Get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md) 기본 UDT에 대 한 기호를 포함 하는 속성 및 기본 UDT의 모든 속성은 사용할 수 있는이 BaseClass 기호 정의의 일부로.

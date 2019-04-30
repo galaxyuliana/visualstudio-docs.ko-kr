@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 5d1fabd8da6f825a266614a4a5c7fabd5c307130
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63005994"
 ---
 # <a name="vbarray-expected"></a>VBArray가 필요합니다.
 필요한 Visual Basic safeArray에 없는 개체를 제공 했습니다.  

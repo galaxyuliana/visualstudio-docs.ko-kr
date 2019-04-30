@@ -8,12 +8,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: c455f36d17b761fe02b7d78e96fbf2c4582d490d
-ms.sourcegitcommit: 489aca71046fb6e4aafd0a4509cd7dc149d707b1
-ms.translationtype: MT
+ms.openlocfilehash: 25f844acefed50b5bb35e3b1d8c6a570e11ca194
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58415813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62949523"
 ---
 # <a name="how-to-define-and-consume-activity-delegates-in-the-workflow-designer"></a>방법: 워크플로 디자이너에서 활동 대리자 정의 및 사용
 
@@ -70,17 +70,17 @@ ms.locfileid: "58415813"
 
 ## <a name="use-the-custom-activity-in-a-workflow"></a>워크플로에서 사용자 지정 활동 사용
 
-1.  키를 눌러 프로젝트를 빌드할 **Ctrl**+**Shift**+**B**합니다.
+1. 키를 눌러 프로젝트를 빌드할 **Ctrl**+**Shift**+**B**합니다.
 
-2.  **솔루션 탐색기**오픈 **Workflow1.xaml** 디자이너에서 합니다.
+2. **솔루션 탐색기**오픈 **Workflow1.xaml** 디자이너에서 합니다.
 
-3.  끌어서를 **MyForEach** 활동을 도구 상자에서 디자이너 화면으로 합니다. 작업은 프로젝트와 동일한 이름 사용 하 여 도구 상자의 섹션.
+3. 끌어서를 **MyForEach** 활동을 도구 상자에서 디자이너 화면으로 합니다. 작업은 프로젝트와 동일한 이름 사용 하 여 도구 상자의 섹션.
 
-4.  설정 합니다 **항목** 의 속성을 **MyForEach** 활동을 **new Object {1, "abc"}**.
+4. 설정 합니다 **항목** 의 속성을 **MyForEach** 활동을 **new Object {1, "abc"}**.
 
-5.  끌어서를 <xref:System.Activities.Statements.WriteLine> 활동에서를 **기본** 에 도구 상자의 섹션을 **Delegate: Body** 섹션을 **MyForEach** 활동입니다.
+5. 끌어서를 <xref:System.Activities.Statements.WriteLine> 활동에서를 **기본** 에 도구 상자의 섹션을 **Delegate: Body** 섹션을 **MyForEach** 활동입니다.
 
-6.  설정 합니다 **텍스트** 의 속성을 <xref:System.Activities.Statements.WriteLine> 활동을 **argument.tostring ()**.
+6. 설정 합니다 **텍스트** 의 속성을 <xref:System.Activities.Statements.WriteLine> 활동을 **argument.tostring ()**.
 
 워크플로가 실행 되 면 다음 출력이 콘솔에 표시:
 

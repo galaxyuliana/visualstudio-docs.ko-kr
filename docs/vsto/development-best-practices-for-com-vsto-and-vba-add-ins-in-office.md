@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 2fcc2fe575bd6b526f5f66d936625c87e91b0b39
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60111183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62999793"
 ---
 # <a name="development-best-practices-for-com-vsto-and-vba-add-ins-in-office"></a>Office의 COM, VSTO 및 VBA 추가 기능에 대 한 개발 모범 사례
   Office 용 COM, VSTO, VBA 추가 기능을 개발 하는 경우이 문서에 설명 된 개발 모범 사례를 따르세요.   확인 하는 데 도움이 됩니다.

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e441898973614b6e3e33fc91d5d9688b51aab7fe
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62949619"
 ---
 # <a name="foreachlttgt-activity-designer"></a>ForEach&lt;T&gt; 활동 디자이너
 
@@ -25,7 +25,7 @@ ms.locfileid: "55928870"
 
 다음 표에서는 가장 유용한 <xref:System.Activities.Statements.ForEach%601> 활동 속성을 보여 주고 디자이너에서 이러한 속성을 사용하는 방법을 설명합니다.
 
-|속성 이름|필수|용도|
+|속성 이름|필수|사용법|
 |-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|<xref:System.Activities.Statements.ForEach%601> 활동의 이름입니다. 기본값은 ForEach < Int32\>합니다. <xref:System.Activities.Activity.DisplayName%2A> 값은 꼭 필요하지 않더라도 사용하는 것이 좋습니다.|
 |<xref:System.Activities.Statements.ForEach%601.Values%2A>|True|반복할 항목의 컬렉션입니다. 설정 하는 <xref:System.Activities.Statements.ForEach%601.Values%2A>, Visual Basic 식을 입력 합니다 **값** 상자에 **ForEach < T\>**  활동 디자이너나 속성 표의.|

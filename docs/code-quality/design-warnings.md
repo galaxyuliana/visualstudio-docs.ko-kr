@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: c8da8b003f74b21ab0a6178742c28f85423dd2ec
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55908896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62816801"
 ---
 # <a name="design-warnings"></a>디자인 경고
 디자인 경고 지원.NET Framework 디자인 지침을 준수 합니다.
@@ -81,7 +81,7 @@ ms.locfileid: "55908896"
 | [CA1055: URI 반환 값은 문자열이 면 안 됩니다.](../code-quality/ca1055-uri-return-values-should-not-be-strings.md) | 이 규칙에서는 메서드가 URI를 반환한다고 가정합니다. URI의 문자열 표현은 구문 분석 및 인코딩 오류를 발생시키기 쉬우며 보안 문제를 일으킬 수 있습니다. System.Uri 클래스는 이러한 서비스를 안전한 방식으로 제공합니다. |
 | [CA1056: URI 속성은 문자열이 면 안 됩니다.](../code-quality/ca1056-uri-properties-should-not-be-strings.md) | 이 규칙 속성 URI를 나타낸다고 가정 합니다. URI의 문자열 표현은 구문 분석 및 인코딩 오류를 발생시키기 쉬우며 보안 문제를 일으킬 수 있습니다. System.Uri 클래스는 이러한 서비스를 안전한 방식으로 제공합니다. |
 | [CA1057: 문자열 URI 오버 로드는 System.Uri 오버 로드를 호출](../code-quality/ca1057-string-uri-overloads-call-system-uri-overloads.md) | 형식에서 문자열 매개 변수가 System.Uri 매개 변수로 바뀐 점만 다른 메서드 오버로드를 선언합니다. 문자열 매개 변수를 사용하는 오버로드는 URI 매개 변수를 사용하는 오버로드를 호출하지 않습니다. |
-| [CA1058: 형식은 특정 기본 형식을 확장 하면 안](../code-quality/ca1058-types-should-not-extend-certain-base-types.md) | 외부에서 볼 수 있는 형식이 특정 기본 형식을 확장합니다. 다음 방법 중 하나를 사용합니다. |
+| [CA1058: 형식은 특정 기본 형식을 확장하면 안 됩니다.](../code-quality/ca1058-types-should-not-extend-certain-base-types.md) | 외부에서 볼 수 있는 형식이 특정 기본 형식을 확장합니다. 다음 방법 중 하나를 사용합니다. |
 | [CA1059: 멤버는 구체적인 특정 형식을 노출 해야](../code-quality/ca1059-members-should-not-expose-certain-concrete-types.md) | 구체적인 형식은 완전히 구현되었기 때문에 인스턴스화할 수 있는 형식을 말합니다. 멤버를 광범위하게 사용할 수 있도록 하려면 구체적인 형식을 제안된 인터페이스로 바꾸십시오. |
 | [CA1060: P/Invoke를 NativeMethods 클래스로 이동](../code-quality/ca1060-move-p-invokes-to-nativemethods-class.md) | 으로 표시 된 것과 같은 플랫폼 호출 메서드를 <xref:System.Runtime.InteropServices.DllImportAttribute?displayProperty=fullName> 에서 Declare 키워드를 사용 하 여 정의 된 메서드 또는 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], 비관리 코드에 액세스 합니다. 이러한 메서드는 NativeMethods, SafeNativeMethods 또는 UnsafeNativeMethods 클래스에 속해야 합니다. |
 | [CA1061: 기본 클래스 메서드를 숨기지 않음](../code-quality/ca1061-do-not-hide-base-class-methods.md) | 파생된 메서드의 매개 변수 시그니처가 기본 메서드의 매개 변수 시그니처에 있는 해당 형식보다 더 약하게 파생된 형식이라는 점만 다른 경우 기본 형식의 메서드는 파생된 형식에 있는 동일한 이름의 메서드에 의해 숨겨집니다. |

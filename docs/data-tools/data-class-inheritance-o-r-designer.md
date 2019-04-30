@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: a8df3d39e44bf1d40f3abfd4d6218d2c9a72b690
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55935682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62567808"
 ---
 # <a name="data-class-inheritance-or-designer"></a>데이터 클래스 상속(O/R 디자이너)
 
@@ -41,7 +41,7 @@ ms.locfileid: "55935682"
 |[방법: O/R 디자이너를 사용하여 상속 구성](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)|사용 하 여 단일 테이블 상속을 사용 하는 엔터티 클래스를 구성 하는 방법에 설명 합니다 **O/R 디자이너**합니다.|
 |[연습: 단일 테이블 상속을 사용하여 LINQ to SQL 클래스 만들기(O/R 디자이너)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)|사용 하 여 단일 테이블 상속을 사용 하는 엔터티 클래스를 구성 하는 방법에 대 한 단계별 지침을 제공 합니다 **O/R 디자이너**합니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio의 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [연습: LINQ to SQL 클래스 만들기(O-R 디자이너)](how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)

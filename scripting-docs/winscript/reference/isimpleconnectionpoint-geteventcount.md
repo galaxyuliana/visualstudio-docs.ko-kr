@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 34796765ba15589c031e780df5f2507e6938a858
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58156127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62786251"
 ---
 # <a name="isimpleconnectionpointgeteventcount"></a>ISimpleConnectionPoint::GetEventCount
 이 인터페이스에서 노출 하는 이벤트의 수를 반환 합니다.  

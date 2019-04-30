@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: cbc2d0f0863ae4b9083c0fb56873eb18b665c7c1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081647"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62816346"
 ---
 # <a name="how-to-customize-the-code-analysis-dictionary"></a>방법: 코드 분석 사전 사용자 지정
 코드 분석 맞춤법, 문법 경우 및.NET Framework 지침의 다른 명명 규칙에 대 한 오류에 대 한 코드의 식별자를 확인 하는 기본 제공 사전을 사용 합니다. 사용자 지정 사전을 Xml 파일을 추가, 제거 또는 수정 용어, 약어 및 기본 제공 사전에 머리 글자어를 만들 수 있습니다.

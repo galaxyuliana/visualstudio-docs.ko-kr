@@ -22,11 +22,11 @@ manager: wpickett
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 07ba2c64be0af987b82c870b89d3451b5d48d28f
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55947642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62540829"
 ---
 # <a name="code-analysis-for-cc-overview"></a>C/C++용 코드 분석 개요
 
@@ -70,7 +70,7 @@ C:\>cl /analyze Sample.cpp
 - [연습: 오류에 대 한 C/C++ 코드 분석](walkthrough-analyzing-c-cpp-code-for-defects.md)
 - [C/C++용 코드 분석 경고](code-analysis-for-c-cpp-warnings.md)
 - [C++ Core 지침 검사기 사용](using-the-cpp-core-guidelines-checkers.md)
-- [C++ Core 지침 검사기 참조](code-analysis-for-cpp-corecheck.md)
+- [C++핵심 지침 검사기 참조](code-analysis-for-cpp-corecheck.md)
 - [규칙 집합을 사용하여 실행할 C++ 규칙 지정](using-rule-sets-to-specify-the-cpp-rules-to-run.md)
 - [코드 분석 도구를 사용한 드라이버 품질 분석](/windows-hardware/drivers/develop/analyzing-driver-quality-by-using-code-analysis-tools)
 - [드라이버 경고에 대한 코드 분석](/windows-hardware/drivers/devtest/prefast-for-drivers-warnings)

@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 1f518a3d6e271c4f457e50ad6f9affcc3afccdf9
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56612506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62814592"
 ---
 # <a name="work-with-worksheets"></a>워크시트 작업
   <xref:Microsoft.Office.Tools.Excel.Worksheet> 및 <xref:Microsoft.Office.Interop.Excel.Worksheet> 클래스에는 워크시트가 있는 작업을 수행하는 데 사용하는 메서드 및 속성이 포함됩니다.

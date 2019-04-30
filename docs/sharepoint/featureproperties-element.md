@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 6860a91067daa6da1d4223ae5060385087ad3433
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58323531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967333"
 ---
 # <a name="featureproperties-element"></a>FeatureProperties 요소
   SharePoint에 배포 될 때 기능을 사용 하 여 포함 된 속성 값의 컬렉션입니다. 기능이 배포 된 후에 코드에서 속성 값을 액세스할 수 있습니다.

@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 73cc930e6ec21694cf6c5df8e68cbe17ca469291
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62976966"
 ---
 # <a name="creating-legacy-workflow-projects"></a>레거시 워크플로 프로젝트 만들기
 이 단원에서는 vs2010에서 제공되는 레거시 [!INCLUDE[wfd1](../includes/wfd1-md.md)]를 사용하여 워크플로 프로젝트를 만드는 방법에 대해 설명합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 합니다. 그 일부로서 다음 표에서는 워크플로 프로젝트 템플릿 사용 방법을 보여 줍니다.  

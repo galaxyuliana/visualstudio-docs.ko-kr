@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 5aba4c6446b2dbcfcb31c423a28eedd552799b4e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60118138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967672"
 ---
 # <a name="how-to-programmatically-add-comments-to-text-in-documents"></a>방법: 프로그래밍 방식으로 문서의 텍스트에 주석 추가
   문서 클래스의 주석 속성 다양 한 Microsoft Office Word 문서에서 텍스트에 메모를 추가 합니다.

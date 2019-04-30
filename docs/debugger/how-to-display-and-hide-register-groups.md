@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5a904bfcf147d72dde16ffe0fbf9e754c2c356bb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60037822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62847800"
 ---
 # <a name="how-to-display-and-hide-register-groups-c-c-visual-basic-f"></a>방법: 레지스터 그룹 표시 및 숨기기 (C#, C++, Visual Basic의 경우 F#)
 

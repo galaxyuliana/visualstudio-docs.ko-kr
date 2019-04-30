@@ -21,11 +21,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 960ecd2680585602b2c026b00b36bf7d93b8021d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62900233"
 ---
 # <a name="create-bootstrapper-packages"></a>부트스트래퍼 패키지 만들기
 설치 프로그램은 일반 설치 관리자로서 Windows Installer(*.msi*) 파일 및 실행 프로그램과 같은 재배포 가능 구성 요소를 검색 및 설치하도록 구성할 수 있습니다. 설치 관리자를 부트스트래퍼라고도 합니다. 구성 요소 설치를 관리하는 메타데이터를 지정하는 XML 매니페스트 집합을 통해 설치 프로그램을 프로그래밍합니다.  에 나타나는 각 재배포 가능 구성 요소 또는 필수 구성 요소를 **필수 구성 요소** ClickOnce에 대 한 대화 상자는 부트스트래퍼 패키지 있습니다. 부트스트래퍼 패키지는 필수 구성 요소를 설치해야 하는 방법을 설명하는 매니페스트 파일이 포함된 파일과 디렉터리 그룹입니다.
@@ -33,13 +33,13 @@ ms.locfileid: "56631772"
 부트스트래퍼는 먼저 필수 구성 요소가 이미 설치되었는지를 검색합니다. 필수 구성 요소가 설치되지 않은 경우 부트스트래퍼는 먼저 사용권 계약을 표시합니다. 그런 다음, 최종 사용자가 사용권 계약에 동의하면 필수 구성 요소 설치가 시작됩니다. 그렇지 않고 모든 필수 구성 요소가 검색되면 부트스트래퍼는 애플리케이션 설치 관리자만 시작합니다.
 
 ## <a name="create-custom-bootstrapper-packages"></a>사용자 지정 부트스트래퍼 패키지 만들기
-Visual Studio에서 XML 편집기를 사용 하 여 부트스트래퍼 매니페스트를 생성할 수 있습니다. 부트스트래퍼 패키지를 만드는 예제를 참조 하세요 [연습: 개인정보 처리 방침 프롬프트를 사용 하 여 사용자 지정 부트스트래퍼 만들기](../deployment/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md)합니다.
+Visual Studio에서 XML 편집기를 사용 하 여 부트스트래퍼 매니페스트를 생성할 수 있습니다. 부트스트래퍼 패키지를 만드는 예제를 보려면 [연습: 개인정보 처리 방침 프롬프트를 사용 하 여 사용자 지정 부트스트래퍼 만들기](../deployment/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md)합니다.
 
 부트스트래퍼 패키지를 만들려면 제품 매니페스트 만들기에 있고, 각 지역화 된 버전의 구성, 패키지 매니페스트도 합니다.
 
 * 제품 매니페스트 *product.xml*, 모든 언어 중립 메타 데이터 패키지를 포함 합니다. 여기에는 재배포 가능 구성 요소의 지역화된 모든 버전에 공통적으로 적용되는 메타데이터가 포함됩니다.  이 파일을 만들려면 참조 [방법: 제품 매니페스트 만들기](../deployment/how-to-create-a-product-manifest.md)합니다.
 
-* 패키지 매니페스트를 *package.xml*, 언어별 메타 데이터를 포함 합니다. 일반적으로 지역화 된 오류 메시지 포함 합니다. 구성 요소에는 해당 구성 요소의 각 지역화된 버전에 대한 패키지 매니페스트가 하나 이상 있어야 합니다. 이 파일을 만들려면 참조 [방법: Create a Package Manifest](../deployment/how-to-create-a-package-manifest.md)합니다.
+* 패키지 매니페스트를 *package.xml*, 언어별 메타 데이터를 포함 합니다. 일반적으로 지역화 된 오류 메시지 포함 합니다. 구성 요소에는 해당 구성 요소의 각 지역화된 버전에 대한 패키지 매니페스트가 하나 이상 있어야 합니다. 이 파일을 만들려면 참조 [방법: 패키지 매니페스트 만들기](../deployment/how-to-create-a-package-manifest.md)합니다.
 
 이러한 파일을 만든 후 제품 매니페스트 파일을 사용자 지정 부트스트래퍼에 대해 이름이 지정된 폴더에 저장합니다. 패키지 매니페스트 파일은 로캘에 대해 이름이 지정된 폴더에 저장합니다. 예를 들어 영어 재배포용 패키지 매니페스트 파일은 en 폴더에 저장합니다. 각 로캘(예: 일본어는 ja, 독일어는 de)에 대해 이 프로세스를 반복합니다. 최종 사용자 지정 부트스트래퍼 패키지는 다음과 같은 폴더 구조일 수 있습니다.
 
@@ -95,7 +95,7 @@ Visual Studio에서 XML 편집기를 사용 하 여 부트스트래퍼 매니페
 
 `%ProgramFiles%\Microsoft.NET\RedistList`
 
-재배포 가능 파일 목록은 *\<회사 이름>.\<구성 요소 이름>.RedistList.xml* 형식을 사용하여 이름을 지정해야 하는 XML 파일입니다. 예를 들어 Acme에서 만든 Datawidgets 구성 요소의 경우 *Acme.DataWidgets.RedistList.xml*을 사용합니다. 아래에는 재배포 가능 파일 목록 내용의 예제가 나와 있습니다.
+재배포 가능 목록은 다음과 같습니다. 다음 형식을 사용 하 여 이름을 지정 해야 하는 XML 파일 *\<Company Name>.\<Component Name>.RedistList.xml*. 예를 들어 Acme에서 만든 Datawidgets 구성 요소의 경우 *Acme.DataWidgets.RedistList.xml*을 사용합니다. 아래에는 재배포 가능 파일 목록 내용의 예제가 나와 있습니다.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -104,8 +104,8 @@ Visual Studio에서 XML 편집기를 사용 하 여 부트스트래퍼 매니페
 </FileList>
 ```
 
-## <a name="see-also"></a>참고 항목
-- [방법: ClickOnce 애플리케이션을 사용하여 필수 구성 요소 설치](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
+## <a name="see-also"></a>참고자료
+- [방법: ClickOnce 응용 프로그램을 사용 하 여 필수 구성 요소 설치](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
 - [필수 구성 요소 대화 상자](../ide/reference/prerequisites-dialog-box.md)
 - [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)
 - [Visual Studio 2005 부트스트래퍼를 사용하여 설치 시작](http://go.microsoft.com/fwlink/?LinkId=107537)

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 67590777acd5848b45c312a78268ba443d9b2a74
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62847857"
 ---
 # <a name="how-to-display-process-properties"></a>방법: 프로세스 속성 표시
 에 나열 된 프로세스에 대 한 자세한 내용을 알아보려면 [프로세스 뷰](../debugger/processes-view.md)를 사용 합니다 [프로세스 속성 대화 상자](../debugger/process-properties-dialog-box.md)합니다.

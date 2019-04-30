@@ -13,11 +13,11 @@ ms.workload:
 - vssdk
 monikerRange: vs-2017
 ms.openlocfilehash: 3f09f03a3404bbde346370149f210bf45e6e2306
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62864051"
 ---
 # <a name="deploy-custom-start-pages"></a>사용자 지정 시작 페이지를 배포 합니다.
 

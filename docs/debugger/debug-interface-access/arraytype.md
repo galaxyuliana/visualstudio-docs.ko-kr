@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6c470866d9d197a5537b85d21f516c01ada96576
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62563040"
 ---
 # <a name="arraytype"></a>ArrayType
 배열으로 식별 되는 `SymTagArray` 기호입니다.

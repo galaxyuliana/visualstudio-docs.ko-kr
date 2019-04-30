@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 906a309b25a1fe606fb37f8cbab70040e5a4c46f
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62840189"
 ---
 # <a name="scriptthreadstate-enumeration"></a>SCRIPTTHREADSTATE 열거형
 스크립팅 엔진의 스레드 상태를 지정합니다. 이 열거형은에서 사용 된 [IActiveScript::GetScriptThreadState](../../winscript/reference/iactivescript-getscriptthreadstate.md) 메서드.  

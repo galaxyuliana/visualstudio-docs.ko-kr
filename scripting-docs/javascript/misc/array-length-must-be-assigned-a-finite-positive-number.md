@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 39f2720efbcd8defffb9d0c77047a50e57939e95
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62818052"
 ---
 # <a name="array-length-must-be-assigned-a-finite-positive-number"></a>배열의 길이는 유한한 양수로 할당해야 합니다.
 설정 하는 경우는 **길이** 기존 속성 **배열** 양의 정수 또는 0이 되지 않은 배열 길이 지정한 개체입니다. 에 값을 할당 하는 경우이 오류가 발생 합니다 **길이** 속성을는 `Array` 음수인 개체나 not-a-number (`NaN`). [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 전체 정수 소수를 자동으로 변환 합니다.  

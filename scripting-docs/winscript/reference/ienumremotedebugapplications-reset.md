@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 8cf00fa40f00e511f56763e6a497ea477bf686d4
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62962277"
 ---
 # <a name="ienumremotedebugapplicationsreset"></a>IEnumRemoteDebugApplications::Reset
 열거형 시퀀스를 처음으로 다시 설정합니다.  

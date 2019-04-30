@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: d28b0b015d5f75eac081b0409d4f8d4b9a4edb9a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62859590"
 ---
 # <a name="project-types"></a>프로젝트 형식
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 같은 언어에 대 한 여러 프로젝트 유형이 포함 되어 있습니다 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 고 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]입니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 또한 사용자 고유의 프로젝트 형식을 만들 수 있습니다.

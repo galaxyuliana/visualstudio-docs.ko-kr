@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 42740a0e6261317443b8c9cc23559a2f92f66540
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62787191"
 ---
 # <a name="iscriptentrysetsignature"></a>IScriptEntry::SetSignature
 집합 형식에 대 한 정보는 `IScriptEntry` 함수 개체입니다.  

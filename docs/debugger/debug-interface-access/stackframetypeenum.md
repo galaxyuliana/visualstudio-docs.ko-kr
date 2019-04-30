@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 44f715c4f74d9b120b324e2d68417a24c9b42684
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62854824"
 ---
 # <a name="stackframetypeenum"></a>StackFrameTypeEnum
 스택 프레임 형식을 지정합니다.
@@ -48,7 +48,7 @@ enum StackFrameTypeEnum {
 
 `FrameTypeUnknown` 모든 디버그 정보가 없는 프레임입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 열거형의 값에는 호출에서 반환 되는 [idiastackframe:: Get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md) 메서드.
 
 ## <a name="requirements"></a>요구 사항

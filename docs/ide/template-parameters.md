@@ -10,12 +10,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 211b2cef552fb7d079ba7b403b9dafb266b400e2
-ms.sourcegitcommit: 3201da3499051768ab59f492699a9049cbc5c3c6
+ms.openlocfilehash: 7442eebcd566470616382367fbdaad5cce774155
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58355674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62950334"
 ---
 # <a name="template-parameters"></a>템플릿 매개 변수
 
@@ -52,12 +52,12 @@ ms.locfileid: "58355674"
 |clrversion|CLR(공용 언어 런타임)의 현재 버전입니다.|
 |ext_*|부모 템플릿의 변수를 참조하는 매개 변수에 `ext_` 접두사를 추가합니다. 예를 들어, `ext_safeprojectname`을 입력합니다.|
 |guid[1-10]|프로젝트 파일에서 프로젝트 GUID를 대체하는 데 사용되는 GUID입니다. 최대 10개의 고유 GUID를 지정할 수 있습니다(예: `guid1`).|
-|itemname|**새 항목 추가** 대화 상자에서 사용자가 제공한 이름입니다.|
+|itemname|매개 변수가 사용되는 파일의 이름입니다.|
 |machinename|현재 컴퓨터 이름(예: Computer01)입니다.|
 |projectname|프로젝트를 만들 때 사용자가 제공한 이름입니다.|
 |registeredorganization|HKLM\Software\Microsoft\Windows NT\CurrentVersion\RegisteredOrganization의 레지스트리 키 값입니다.|
 |rootnamespace|현재 프로젝트의 루트 네임스페이스입니다. 이 매개 변수는 항목 템플릿에만 적용됩니다.|
-|safeitemname|**새 항목 추가** 대화 상자에서 사용자가 제공하고 모든 안전하지 않은 문자 및 공백을 제거한 이름입니다.|
+|safeitemname|`itemname`과 동일하지만 안전하지 않은 문자 및 공백은 모두 제거합니다.|
 |safeprojectname|프로젝트를 만들 때 사용자가 제공했지만 안전하지 않은 문자 및 공백을 모두 제거한 이름입니다.|
 |시간|DD/MM/YYYY 00:00:00 형식인 현재 시간입니다.|
 |SpecificSolutionName|솔루션의 기본 이름. "솔루션 디렉터리 만들기"를 선택한 경우 `SpecificSolutionName`에는 솔루션 이름이 있습니다. "솔루션 디렉터리 만들기"를 선택하지 않은 경우 `SpecificSolutionName`은 비어 있습니다.|

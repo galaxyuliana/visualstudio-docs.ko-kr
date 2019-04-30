@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: f01784cd21bbc0a29a6216525e626a8fa992e0ba
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62856597"
 ---
 # <a name="language-services-and-the-core-editor"></a>언어 서비스 및 핵심 편집기
 Visual Studio의 편집기는 언어 서비스를 사용 하 여 자주 연결 됩니다. 무엇 보다도 언어 서비스 구문 색 지정, 문 완성, IntelliSense 및 텍스트 서식 지정을 제공합니다.
@@ -26,7 +26,7 @@ Visual Studio의 편집기는 언어 서비스를 사용 하 여 자주 연결 �
  자세한 내용은 [프로젝트에서 파일을 엽니다는 편집기 결정](../extensibility/internals/determining-which-editor-opens-a-file-in-a-project.md)합니다.
 
 ## <a name="language-services-and-the-core-editor"></a>언어 서비스 및 핵심 편집기
- 언어 서비스를 구현 하 여 데이터를 문서 보기에 표시 되는 방식을 제어할 수 있습니다. 언어 서비스 정보 및 Visual c + +와 같은 지정된 된 언어에 관련 된 동작을 제공 합니다. 텍스트 버퍼를 만들고 여는 문서의 파일 이름 확장명을 결정 하는 경우 텍스트 버퍼 레지스트리 키에서이 파일 확장명과 연결 된 언어 서비스를 결정 하는 **HKEY_LOCAL_MACHINE\SOFTWARE\ Microsoft\Editors\\{YourLanguageService GUID} \Extensions**합니다. 프로시저를 다음 로드 표준 VSPackage VSPackage를 로드 하 고 언어 서비스의 인스턴스가 만들어집니다.
+ 언어 서비스를 구현 하 여 데이터를 문서 보기에 표시 되는 방식을 제어할 수 있습니다. 정보 및 시각적 개체와 같은 지정된 된 언어에 관련 된 동작을 제공 하는 언어 서비스 C++입니다. 텍스트 버퍼를 만들고 여는 문서의 파일 이름 확장명을 결정 하는 경우 텍스트 버퍼 레지스트리 키에서이 파일 확장명과 연결 된 언어 서비스를 결정 하는 **HKEY_LOCAL_MACHINE\SOFTWARE\ Microsoft\Editors\\{YourLanguageService GUID} \Extensions**합니다. 프로시저를 다음 로드 표준 VSPackage VSPackage를 로드 하 고 언어 서비스의 인스턴스가 만들어집니다.
 
  기본 언어 서비스는 다음 그림에 표시 됩니다.
 

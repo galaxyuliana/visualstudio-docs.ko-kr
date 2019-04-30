@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 53b71471ada55751de301391fdcc70387c1bb6c2
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935681"
 ---
 # <a name="iactivescriptclose"></a>IActiveScript::Close
 스크립팅 엔진이 현재 로드 된 스크립트를 중단, 해당 상태가 손실 및 다른 개체를 따라서 닫힌된 상태를 입력 해야 하는 모든 인터페이스 포인터를 해제 합니다. 이벤트 싱크를 즉시 실행된 스크립트 텍스트 및 매크로 호출이 이미 진행 중인 상태 변경 되기 전에 완료할 수 있습니다 (사용 하 여 [iactivescript:: Interruptscriptthread](../../winscript/reference/iactivescript-interruptscriptthread.md) 실행 중인 스크립트 스레드 취소) 합니다. 순환 참조 문제를 방지 하려면 인터페이스를 해제 되기 전에이 메서드를 만드는 호스트에서 호출 되어야 합니다.  

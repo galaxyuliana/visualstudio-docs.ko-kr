@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 9ed27c996a94c4e81a946efbfa2684dc4169005a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56720473"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62802612"
 ---
 # <a name="sccgetextendedcapabilities-function"></a>SccGetExtendedCapabilities 함수
 이 함수는 소스 제어 플러그 인에서 지 원하는 추가 기능을 반환 합니다.

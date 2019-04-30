@@ -19,23 +19,23 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a2e4df2028a14281ee2343ad48b4b71812d29fca
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56684314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62847955"
 ---
-# <a name="how-to-debug-from-a-dll-project-in-visual-studio-c-c-visual-basic-f"></a>방법: Visual Studio에서 DLL 프로젝트에서 디버깅 (C#, c + +, Visual Basic의 경우 F#)
+# <a name="how-to-debug-from-a-dll-project-in-visual-studio-c-c-visual-basic-f"></a>방법: Visual Studio에서 DLL 프로젝트에서 디버그 (C#, C++, Visual Basic의 경우 F#)
 
 DLL 프로젝트를 디버깅 하는 한 가지 방법은 DLL 프로젝트 속성에서 호출한 응용 프로그램을 지정 하는 것입니다. 그런 다음 자체 DLL 프로젝트에서 디버깅을 시작할 수 있습니다. 이 방법을 사용 하려면 앱을 구성한 것과 동일한 위치에 동일한 DLL을 호출 해야 합니다. 앱을 다른 버전의 DLL 로드를 찾아서 해당 버전 중단점 포함 되지 않습니다. Dll 디버깅의 다른 메서드를 참조 하세요 [DLL 디버깅 프로젝트](../debugger/debugging-dll-projects.md)합니다.
 
-네이티브 DLL을 호출 하는 관리 되는 앱 또는 네이티브 앱을 관리 되는 DLL을 호출 하는 경우에 DLL 및 호출 앱 모두를 디버깅할 수 있습니다. 자세한 내용은 [방법: 혼합 모드에서 디버깅](../debugger/how-to-debug-in-mixed-mode.md)을 참조하세요.
+네이티브 DLL을 호출 하는 관리 되는 앱 또는 네이티브 앱을 관리 되는 DLL을 호출 하는 경우에 DLL 및 호출 앱 모두를 디버깅할 수 있습니다. 자세한 내용은 [방법: 혼합 모드에서 디버그](../debugger/how-to-debug-in-mixed-mode.md).
 
 네이티브 및 관리 DLL 프로젝트에는 호출 앱을 지정 다른 설정이 있습니다.
 
 ## <a name="specify-a-calling-app-in-a-native-dll-project"></a>호출 앱을 네이티브 DLL 프로젝트 지정
 
-1. c + + DLL 프로젝트를 선택 **솔루션 탐색기**합니다. 선택 된 **속성** 아이콘을 눌러 **Alt**+**Enter**, 또는 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**.
+1. 선택 된 C++ 에서 DLL 프로젝트 **솔루션 탐색기**합니다. 선택 된 **속성** 아이콘을 눌러 **Alt**+**Enter**, 또는 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**.
 
 1. 에  **\<프로젝트 > 속성 페이지** 대화 상자는 **구성** 창의 맨 위에 있는 필드 설정 됩니다 **디버그**합니다.
 
@@ -53,7 +53,7 @@ DLL 프로젝트를 디버깅 하는 한 가지 방법은 DLL 프로젝트 속�
 
 ## <a name="specify-a-calling-app-in-a-managed-dll-project"></a>관리 되는 DLL 프로젝트에서 호출 앱을 지정 합니다.
 
-1. 선택 된 C# 또는 Visual Basic DLL 프로젝트에서 **솔루션 탐색기**합니다. 선택 된 **속성** 아이콘을 눌러 **Alt**+**Enter**, 또는 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**.
+1. C# 또는 Visual Basic DLL 프로젝트를 선택 **솔루션 탐색기**합니다. 선택 된 **속성** 아이콘을 눌러 **Alt**+**Enter**, 또는 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**.
 
 1. 창의 맨 위에 있는 **구성** 필드가 **디버그**로 설정되어 있는지 확인합니다.
 
@@ -67,7 +67,7 @@ DLL 프로젝트를 디버깅 하는 한 가지 방법은 DLL 프로젝트 속�
 
 1. 에 필요한 명령줄 인수를 추가 합니다 **명령줄 인수** 하거나 **응용 프로그램 인수** 필드입니다.
 
-   ![C#디버그 속성 창](../debugger/media/dbg-debugging-properties-dll-csharp.png " C# 디버그 속성 창")
+   ![C# 디버그 속성 창](../debugger/media/dbg-debugging-properties-dll-csharp.png "C# 디버그 속성 창")
 
 1. 사용 하 여 **파일** > **선택한 항목 저장** 하거나 **Ctrl**+**S** 변경 내용을 저장 합니다.
 
@@ -81,7 +81,7 @@ DLL 프로젝트를 디버깅 하는 한 가지 방법은 DLL 프로젝트 속�
 
 디버깅 중단점 적중 되지 않습니다 하는 경우 DLL 출력는 있는지 확인 (기본적으로  *\<프로젝트 > \Debug* 폴더) 호출한 응용 프로그램을 호출 하는 위치입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [DLL 프로젝트 디버깅](../debugger/debugging-dll-projects.md)
 - [C# 디버그 구성에 대한 프로젝트 설정](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Visual Basic 디버그 구성에 대한 프로젝트 설정](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)

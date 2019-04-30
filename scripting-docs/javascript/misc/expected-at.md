@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: aa2728306d9e650bf7f8b446b6af5a409a39d0e0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935254"
 ---
 # <a name="expected-"></a>예상 '\@'
 사용 하 여 조건부 컴파일 문에서 사용할 변수를 만들려고 합니다 `@set` 문을 배치 하지 않고 있지만 at 기호 "**@**" 변수 이름 앞입니다.  

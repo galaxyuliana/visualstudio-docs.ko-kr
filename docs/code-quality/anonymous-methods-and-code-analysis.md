@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a10c5baaed3a98e44d581b6ddb8d6e3a1883d079
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55940492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62560237"
 ---
 # <a name="anonymous-methods-and-code-analysis"></a>무명 메서드 및 코드 분석
 
@@ -69,7 +69,7 @@ class Class
 
 ## <a name="inline-anonymous-methods"></a>인라인 무명 메서드
 
-경고 및 메트릭 필드에 대 한 인라인 할당으로 선언 되는 무명 메서드의 생성자를 사용 하 여 연결 됩니다. 필드로 선언 되 면 `static` (`Shared` Visual Basic에서), 경고 및 메트릭 클래스 생성자를 사용 하 여 연결 됩니다. 그렇지 않으면 인스턴스 생성자를 사용 하 여 연결 됩니다.
+경고 및 메트릭 필드에 대 한 인라인 할당으로 선언 되는 무명 메서드의 생성자를 사용 하 여 연결 됩니다. 필드로 선언 되 면 `static` (`Shared` Visual basic에서), 경고 및 메트릭 클래스 생성자를 사용 하 여 연결 됩니다. 그렇지 않으면 인스턴스 생성자를 사용 하 여 연결 됩니다.
 
 다음 클래스 선언에 있는 모든 경고의 예를 들어 **anonymousMethod1** 의 암시적으로 생성 된 기본 생성자에 대해 발생 **클래스**합니다. 에 있는 경고 **anonymousMethod2** 암시적으로 생성 된 클래스 생성자에 대해 적용 됩니다.
 

@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 88cdc78fd739de412b4cf796d0ca7a42f9174e0a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56619084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62564037"
 ---
 # <a name="crt-debugging-techniques"></a>CRT 디버깅 기술
 C 런타임 라이브러리를 사용하는 프로그램을 디버깅할 경우 다음 디버깅 기술이 유용할 수 있습니다.
@@ -56,5 +56,5 @@ C 런타임 라이브러리를 사용하는 프로그램을 디버깅할 경우 
 
 ## <a name="related-sections"></a>관련 단원
 
-- [네이티브 코드 디버깅](../debugger/debugging-native-code.md) -몇 가지 일반적인 디버깅 문제와 C 및 c + + 응용 프로그램에 대 한 기술에 설명 합니다.
+- [네이티브 코드 디버깅](../debugger/debugging-native-code.md) -C에 대 한 몇 가지 일반적인 디버깅 문제와 기술에 설명 하 고 C++ 응용 프로그램입니다.
 - [디버거 보안](../debugger/debugger-security.md) -보다 안전한 디버깅에 대 한 권장 사항을 제공 합니다.

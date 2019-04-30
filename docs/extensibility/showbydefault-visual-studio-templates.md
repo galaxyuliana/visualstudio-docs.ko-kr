@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 435ff11f7e70bb198ed57db35c7f56acea0610c8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56679283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62433099"
 ---
 # <a name="showbydefault-element-visual-studio-templates"></a>ShowByDefault 요소 (Visual Studio 템플릿)
 하는 경우 `false`, 템플릿을 표시 됨을 지정 합니다. 지정 된 [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)합니다.

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ee61f388da8098c20c65be8859b336c1ab86bebd
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56620969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62910757"
 ---
 # <a name="add-project-and-project-item-templates"></a>프로젝트 및 프로젝트 항목 템플릿 추가
 표준을 사용 하 여 새 프로젝트 및 프로젝트 항목을 추가 하는 것에 대 한 지원을 제공 해야 프로젝트 형식을 사용자를 만들 때 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 개발 환경 (IDE) 대화 상자를 통합 합니다. 프로젝트 및 프로젝트 항목을 추가 하는 방법은 다음 항목에 설명 합니다.

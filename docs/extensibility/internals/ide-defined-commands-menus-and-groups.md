@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 727c999e275830260ce83eac3d2d72024e89882b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56602379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909866"
 ---
 # <a name="ide-defined-commands-menus-and-groups"></a>IDE 정의 명령, 메뉴 및 그룹
 여러 메뉴, 명령 및 명령 그룹에서 사용 하기 위해 이미 정의 된 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. 확장 하는 경우이 명령은 사용 가능한도 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]합니다.

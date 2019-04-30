@@ -12,11 +12,11 @@ author: steved0x
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 9cb5185bdef35d383e92082160e9f4b1dda5451f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62937099"
 ---
 # <a name="state-activity-designer"></a>상태 활동 디자이너
 <xref:System.Activities.Statements.State>는 상태 시스템이 가질 수 있는 상태를 나타냅니다.  

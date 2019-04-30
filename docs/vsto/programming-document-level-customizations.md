@@ -28,11 +28,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 53003e2a88faf2ef29d3a1eb3df1da081f20ce57
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62561715"
 ---
 # <a name="program-document-level-customizations"></a>문서 수준 사용자 지정 프로그래밍
   문서 수준 사용자 지정을 사용하여 Microsoft Office Word 또는 Microsoft Office Excel을 확장한 경우 다음 작업을 수행할 수 있습니다.

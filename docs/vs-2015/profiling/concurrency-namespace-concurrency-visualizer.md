@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 854371293fd46893f41eef0abc36446f1c7955f0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54791470"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62422398"
 ---
 # <a name="concurrency-namespace-concurrency-visualizer"></a>동시성 네임스페이스(동시성 시각화 도우미)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ namespace Concurrency;
   
 ### <a name="namespaces"></a>네임스페이스  
   
-|name|설명|  
+|이름|설명|  
 |----------|-----------------|  
 |[diagnostic 네임스페이스](../profiling/diagnostic-namespace.md)|`diagnostics` 네임스페이스는 동시성 시각화 도우미 표식을 내보내는 기능을 제공합니다.|  
   

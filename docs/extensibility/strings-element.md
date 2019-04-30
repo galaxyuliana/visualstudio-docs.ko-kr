@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: de2ed5d9c757d9082cd06c2aae5a8e51b0865714
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56699407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62432384"
 ---
 # <a name="strings-element"></a>Strings 요소
 Strings 요소 있어야 적어도 **ButtonText** 자식 요소입니다. 다른 모든 자식 요소는 선택적입니다. 잘못 된 XML과 같은 문자 '&' 및 ' <' 엔터티로 코딩 해야 합니다 ('&amp;'및'&lt;' 등).

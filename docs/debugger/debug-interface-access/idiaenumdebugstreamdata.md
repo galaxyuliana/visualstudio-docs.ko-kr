@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e2865dbf3da103610407cd33eeeaf934caba3c7a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62838339"
 ---
 # <a name="idiaenumdebugstreamdata"></a>IDiaEnumDebugStreamData
 디버그 데이터 스트림에서 레코드에 대 한 액세스를 제공합니다.
@@ -42,7 +42,7 @@ IDiaEnumDebugStreamData : IUnknown
 |[IDiaEnumDebugStreamData::Reset](../../debugger/debug-interface-access/idiaenumdebugstreamdata-reset.md)|시작 부분에 열거 된 순서를 다시 설정합니다.|
 |[IDiaEnumDebugStreamData::Clone](../../debugger/debug-interface-access/idiaenumdebugstreamdata-clone.md)|현재 열거자와 열거 순서를 포함 하는 열거자를 만듭니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 인터페이스는 디버그 데이터 스트림 레코드의 스트림을 나타냅니다. 크기와 각 레코드의 해석은 레코드에서 가져온 데이터 스트림을에 종속 됩니다. 이 인터페이스는 효과적으로 기호 파일의 원시 데이터 바이트에 대 한 액세스를 제공합니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

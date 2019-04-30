@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: c32164ef319199171b75379823dc021cfd886d74
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931886"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62815792"
 ---
 # <a name="implement-custom-code-analysis-check-in-policies-for-managed-code"></a>관리 코드에 대한 사용자 지정 코드 분석 체크 인 정책 구현
 

@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 461fae79e3af346d64017166b6dae3ace67599e1
-ms.sourcegitcommit: c0202a77d4dc562cdc55dc2e6223c062281d9749
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54867392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967535"
 ---
 # <a name="ltupdategt-element-office-development-in-visual-studio"></a>&lt;업데이트&gt; 요소 (Visual Studio에서 Office 개발)
   `update` 요소 업데이트에 대 한 솔루션은 확인 간격을 지정 합니다.

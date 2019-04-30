@@ -19,11 +19,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 59229b1ca2b055fc8242bf6446541a395eceaa56
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62846865"
 ---
 # <a name="how-to-use-the-gpu-threads-window-c"></a>방법: GPU 스레드 창 사용 (C++)
 GPU 스레드 창에서 디버깅 중인 응용 프로그램의 GPU에서 실행되는 스레드를 검사하고 관련 작업을 수행할 수 있습니다. GPU에서 실행 되는 응용 프로그램에 대 한 자세한 내용은 참조 하세요. [ C++ AMP 개요](/cpp/parallel/amp/cpp-amp-overview)합니다.
@@ -105,4 +105,4 @@ GPU 스레드 창에서 디버깅 중인 응용 프로그램의 GPU에서 실행
 ## <a name="see-also"></a>참고 항목
 - [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [방법: 병렬 조사식 창 사용](../debugger/how-to-use-the-parallel-watch-window.md)
-- [연습: 디버깅을 C++ AMP 응용 프로그램](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)
+- [연습: C++ AMP 애플리케이션 디버깅](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application)

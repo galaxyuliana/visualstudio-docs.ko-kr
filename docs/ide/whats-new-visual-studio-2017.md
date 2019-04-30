@@ -18,21 +18,21 @@ ms.topic: conceptual
 ms.workload:
 - multiple
 monikerRange: vs-2017
-ms.openlocfilehash: fea8aeac90a974fc6b1cb89d9419c0652c184796
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: eabfb7ffd365ab377bc80997138a4f3368db488d
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58857816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62583492"
 ---
 # <a name="whats-new-in-visual-studio-2017"></a>Visual Studio 2017의 새로운 기능
 
-**[15.9 릴리스](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)용으로 업데이트됨**
+**15.9 릴리스[용으로 업데이트됨](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)**
 
 Visual Studio의 이전 버전에서 업그레이드하려고 하십니까? Visual Studio 2017에서 제공할 수 있는 기능은 다음과 같습니다. 모든 개발, 앱 및 플랫폼에서 뛰어난 생산성을 제공합니다. Visual Studio 2017를 사용하여 Android, iOS, Windows, Linux, 웹 및 클라우드용 앱을 개발합니다. 빠르게 코딩하고, 간단하게 디버그 및 진단하고, 자주 테스트하며, 안심하고 릴리스하세요. 개발자 고유의 확장을 빌드하여 Visual Studio를 확장하고 사용자 지정할 수도 있습니다. 이 릴리스로 버전 제어를 사용하고, 민첩하게 대처하고, 효율적으로 공동 작업하세요.
 
 >[!div class="button"]
->[Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+>[Visual Studio 다운로드](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
 
 이전 버전 Visual Studio 2015부터 적용해 온 변경을 높은 수준에서 요약한 사항입니다.
 
@@ -112,7 +112,7 @@ Visual Studio의 확장 목록을 보려면 **도구** > **확장 및 업데이�
   **다운로드** 단추를 사용하여 이러한 확장을 설치할 수 있습니다.
 * ![로밍 및 설치 아이콘](media/vs2017ide-roamedinstalledicon.png) **_로밍 및 설치_**: 로밍 목록에 포함되어 있고 개발 환경에 설치된 모든 확장입니다.
   로밍하지 않도록 결정하는 경우 **로밍 중지** 단추를 사용하여 이러한 확장을 제거할 수 있습니다.
-* ![설치 아이콘](media/vs2017ide-installedicon.png) **_설치_**: 이 환경에 설치되어 있지만 로밍 목록에 포함되지 않은 모든 확장입니다.
+* ![설치 아이콘](media/vs2017ide-installedicon.png) **_설치됨_**: 이 환경에 설치되어 있지만 로밍 목록에 포함되지 않은 모든 확장입니다.
   **로밍 시작** 단추를 사용하여 로밍 목록에 확장을 추가할 수 있습니다.
 
 로그인되어 있는 동안 다운로드한 모든 확장은 목록에 **로밍 및 설치**로 추가됩니다. 그런 다음, 확장이 로밍 목록에 포함되고, 모든 컴퓨터에서 액세스할 수 있습니다.
@@ -268,7 +268,7 @@ UWP(Universal Windows Platform)는 Windows 10용 앱 플랫폼입니다. API 집
 
 **15.5의 새로운 기능**: Visual Studio 2017 버전 15.5는 Windows 10 Fall Creators Update SDK(10.0.16299.0)를 가장 잘 지원합니다. Windows 10 Fall Creators Update는 UWP 개발자를 위해 많은 사항이 개선되었습니다. 다음은 큰 변화 중 일부입니다. 
 
-* **.NET 표준 2.0에 대한 지원**<br/>간소화된 앱 배포 외에, Windows 10 Fall Creators Update는 .NET Standard 2.0 지원을 제공하는 첫 번째 Windows 10 릴리스입니다. 사실상, [.NET Standard](https://devblogs.microsoft.com/dotnet/introducing-net-standard/)는 모든 .NET 플랫폼에서 구현할 수 있는 기본 클래스 라이브러리의 참조 구현입니다. .NET Standard의 목표는 .NET 개발자가 작업하는 모든 .NET 플랫폼 전반에서 코드를 최대한 쉽게 공유할 수 있도록 하는 것입니다.
+* **.NET Standard 2.0에 대한 지원**<br/>간소화된 앱 배포 외에, Windows 10 Fall Creators Update는 .NET Standard 2.0 지원을 제공하는 첫 번째 Windows 10 릴리스입니다. 사실상, [.NET Standard](https://devblogs.microsoft.com/dotnet/introducing-net-standard/)는 모든 .NET 플랫폼에서 구현할 수 있는 기본 클래스 라이브러리의 참조 구현입니다. .NET Standard의 목표는 .NET 개발자가 작업하는 모든 .NET 플랫폼 전반에서 코드를 최대한 쉽게 공유할 수 있도록 하는 것입니다.
 * **UWP와 Win32의 장점**<br/>Windows 10 플랫폼은 [데스크톱 브리지](https://docs.microsoft.com/windows/uwp/porting/desktop-to-uwp-root)를 통해 개발자가 중점을 두는 것이 UWP, WPF, Windows Forms 또는 Xamarin 중 무엇이든 모든 .NET 개발자가 Windows 10을 더 잘 활용할 수 있도록 향상되었습니다. Visual Studio 2017 버전 15.5의 새로운 앱 패키징 프로젝트 형식을 사용하면 UWP 프로젝트에서 하듯이 WPF 또는 Windows Forms 프로젝트용 Windows 앱 패키지를 만들 수 있습니다. 앱을 패키지하면 Windows 10 앱 배포의 모든 이점과 Microsoft Store(소비자 앱) 또는 비즈니스 및 교육용 Microsoft Store를 통해 배포할 수 있는 옵션이 제공됩니다. 패키지된 앱은 데스크톱의 전체 UWP API 표면과 Win32 API 모두에 액세스할 수 있기 때문에 UWP API 및 Windows 10 기능을 사용하여 WPF 및 Windows Forms 애플리케이션을 점진적으로 현대화할 수 있습니다. 또한 모든 Win32 기능을 갖춘 데스크톱에서 실행되는 UWP 애플리케이션에 Win32 구성 요소를 포함할 수 있습니다.
 
 UWP에 대한 자세한 내용은 [UWP(유니버설 Windows 플랫폼)용 앱 개발](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) 페이지를 참조하세요.
@@ -371,9 +371,11 @@ Visual Studio 2017은 개발 환경을 훨씬 더 좋게 만들어 줄 수 있�
 
 Visual Studio 2017에서 진행 중인 다른 기능에 대해 더 알고 싶은가요? [Visual Studio 로드맵](/visualstudio/productinfo/vs2018-roadmap) 페이지를 참조하세요.
 
+또한 최신 버전인 [Visual Studio 2019](whats-new-visual-studio-2019.md)를 확인해야 합니다.
+
 ## <a name="contact-us"></a>문의처
 
- 피드백을 보낼 때는 Visual Studio 팀에 피드백을 보내는 이유도 함께 알려 주세요. Microsoft는 고객 여러분의 피드백을 소중하게 생각하며, Microsoft에서 추진하는 업무에 큰 역할을 합니다.
+피드백을 보낼 때는 Visual Studio 팀에 피드백을 보내는 이유도 함께 알려 주세요. Microsoft는 고객 여러분의 피드백을 소중하게 생각하며, Microsoft에서 추진하는 업무에 큰 역할을 합니다.
 
 Visual Studio를 개선하는 방법을 제안하거나 제품 지원 옵션에 대해 자세히 알아보려면 [의견 보내기](talk-to-us.md) 페이지를 참조하세요.
 

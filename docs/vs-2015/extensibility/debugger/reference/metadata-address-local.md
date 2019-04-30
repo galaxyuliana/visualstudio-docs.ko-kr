@@ -13,11 +13,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 5928f6092adc62dc8f0eb075f20367c056fc50c1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62547171"
 ---
 # <a name="metadataaddresslocal"></a>METADATA_ADDRESS_LOCAL
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ public struct METADATA_ADDRESS_LOCAL {
  tokMethod  
  메서드 또는 함수의 ID 지역 변수는 부분입니다.  
   
- [C + +] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.  
+ [C++] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.  
   
  pLocal  
  이 구조를 나타내는 해당 주소가 토큰입니다.  
@@ -57,7 +57,7 @@ public struct METADATA_ADDRESS_LOCAL {
 ## <a name="remarks"></a>설명  
  이 구조체의 공용 구조체의 일부인를 [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) 경우 구조체를 `dwKind` 필드를 `DEBUG_ADDRESS_UNION` 구조로 설정 되어 `ADDRESS_KIND_LOCAL` (의 값을 [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) 열거형)입니다.  
   
- `Warning:` [C + + 전용]  경우 `pLocal` is not null을 호출 해야 합니다 `Release` 토큰 포인터 (`addr` 에 있는 필드를 [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) 구조):  
+ `Warning:` [C++ 만]  경우 `pLocal` is not null을 호출 해야 합니다 `Release` 토큰 포인터 (`addr` 에 있는 필드를 [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) 구조):  
   
 ```  
 if (addr.dwKind == ADDRESS_KIND_METADATA_LOCAL &&  addr.addr.addrLocal.pLocal != NULL)  

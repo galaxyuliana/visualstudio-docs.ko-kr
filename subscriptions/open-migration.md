@@ -42,7 +42,7 @@ ms.locfileid: "62821733"
 
 이는 [Visual Studio 구독 관리 포털](https://manage.visualstudio.com)에 이미 액세스할 수 있지만, 관리해야 하는 Visual Studio 구독이 포함된 Open Licenses에 대한 주문을 작성하는 파트너에게 적용됩니다.
 
-- 파트너가 https://manage.visualstudio.com으로 직접 이동하여 로그인합니다.
+- 파트너가 https://manage.visualstudio.com 으로 직접 이동하여 로그인합니다.
 
 - 계약 드롭다운을 선택하고 **+새 Open License** 옵션이 있는 맨 아래로 스크롤합니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "62821733"
 
 이 시나리오는 이미 새 Open License 주문을 작성했지만 [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx)에 등록하지 않고 [Visual Studio 구독 관리 포털](https://manage.visualstudio.com)로 직접 이동하는 새 파트너에게 적용됩니다.
 
-- 파트너가 https://manage.visualstudio.com으로 직접 이동합니다.
+- 파트너가 https://manage.visualstudio.com 으로 직접 이동합니다.
 
 - 인식된 사용자가 아니라는 오류를 받습니다.
 

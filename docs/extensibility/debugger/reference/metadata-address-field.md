@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 5858bf29d1bf5fd2f93032aec9791380fbbd37c5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62913850"
 ---
 # <a name="metadataaddressfield"></a>METADATA_ADDRESS_FIELD
 
@@ -43,7 +43,7 @@ public struct METADATA_ADDRESS_FIELD {
 
 ID 필드 토큰입니다.
 
-[C + +] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.
+[C++] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.
 
 ## <a name="remarks"></a>설명
 

@@ -11,11 +11,11 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: c20d3efb9ea84a7e8bb22288303313ef44b2b795
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62806565"
 ---
 # <a name="ca3003-review-code-for-file-path-injection-vulnerabilities"></a>CA3003: 코드에서 파일 경로 삽입 취약성에 대해 검토합니다.
 

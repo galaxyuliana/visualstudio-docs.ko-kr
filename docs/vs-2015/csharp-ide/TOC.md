@@ -1,5 +1,5 @@
 # [C#용 Visual Studio 개발 환경 사용](using-the-visual-studio-development-environment-for-csharp.md)
-## [방법: C# 프로젝트에 응용 프로그램 구성 파일 추가](how-to-add-an-application-configuration-file-to-a-csharp-project.md)
+## [방법: C# 프로젝트에 애플리케이션 구성 파일 추가](how-to-add-an-application-configuration-file-to-a-csharp-project.md)
 ## [소스로서의 메타데이터](metadata-as-source.md)
 ## [리팩터링(C#)](refactoring-csharp.md)
 ### [메서드 추출 리팩터링(C#)](extract-method-refactoring-csharp.md)

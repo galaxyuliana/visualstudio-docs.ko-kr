@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 64f44379c98808cb93fbe51498234a34a695c3d6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62564736"
 ---
 # <a name="create-custom-data-visualizers"></a>사용자 지정 데이터 시각화 도우미 만들기
  A *시각화 도우미* 의 일부인는 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] 해당 데이터 형식에 적합 한 방식으로 변수나 개체를 표시 하는 디버거 사용자 인터페이스입니다. 예를 들어, HTML 시각화 도우미는 HTML 문자열을 해석 하 고 브라우저 창에는 것과 동일한 결과 표시 합니다. 비트맵 시각화 도우미는 비트맵 구조를 해석 하 고 나타내므로 그래픽을 표시 합니다. 일부 시각화 도우미 뿐만 아니라 데이터를 보고 수정할 수 있습니다.

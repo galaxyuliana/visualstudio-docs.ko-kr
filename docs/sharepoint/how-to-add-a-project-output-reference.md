@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 2ae3965647416d7a8e11cf0ea5e24cef1e54a09b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967255"
 ---
 # <a name="how-to-add-a-project-output-reference"></a>방법: 프로젝트 출력 참조 추가
   SharePoint에 비 SharePoint 프로젝트 어셈블리 (또는 Silverlight 프로젝트에서.xap 파일)를 배포 하려면 프로젝트 출력 참조로 추가 합니다.

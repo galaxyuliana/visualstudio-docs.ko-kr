@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 37f22e085334bf6a18ef1b5482b6b6c206690148
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966876"
 ---
 # <a name="how-to-create-a-sharepoint-project-extension"></a>방법: SharePoint 프로젝트 확장명 만들기
   Visual Studio에서 열려 있는 SharePoint 프로젝트에 기능을 추가 하려는 경우 프로젝트 확장을 만듭니다. 자세한 내용은 [SharePoint 프로젝트 시스템 확장](../sharepoint/extending-the-sharepoint-project-system.md)합니다.

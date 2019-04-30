@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4bef903304e3892284fc38d9e2b2367ebfe650f4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56642211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839344"
 ---
 # <a name="idiasessionfindinjectedsource"></a>IDiaSession::findInjectedSource
 컴파일 프로세스의 다른 구성 요소 또는 특성 공급자에 의해 기호 저장소에 배치 된 원본 목록을 검색 합니다.

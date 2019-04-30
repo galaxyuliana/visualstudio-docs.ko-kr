@@ -16,11 +16,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: a31b56b4b2d568b3bc3fd59f876f5052b9f6faff
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946370"
 ---
 # <a name="circular-reference-in-value-argument-not-supported"></a>값 인수에 순환 참조를 사용하는 것은 지원되지 않습니다.
 호출 하려고 `JSON.stringify` 유효 하지 않은 값입니다. `value` 인수, 배열 또는 개체 순환 참조가 포함 되어 있습니다.  

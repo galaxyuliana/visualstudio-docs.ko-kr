@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: a9fc9cf214a8aebd663a7de29528790aa3cc0b46
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967685"
 ---
 # <a name="how-to-programmatically-access-outlook-contacts"></a>방법: 프로그래밍 방식으로 Outlook 연락처 액세스
   이 예제에서는 마지막 이름이 지정 된 검색 문자열을 포함 하는 모든 연락처를 찾습니다.

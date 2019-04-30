@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 1fe0eef00d2bf064a8a002925f4ba5607d36f31c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58160474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62955188"
 ---
 # <a name="extendeddebugpropertyinfo-structure"></a>ExtendedDebugPropertyInfo 구조체
 확장 된 `DebugPropertyInfo` 확장된 속성을 특성화 하기 위한 추가 멤버를 사용 하 여 구조입니다.  

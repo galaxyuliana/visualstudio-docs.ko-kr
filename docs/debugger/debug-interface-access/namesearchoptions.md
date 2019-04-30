@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e7dbb82946d185e8e5ec81b171f5d9943751eee4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56639689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62855154"
 ---
 # <a name="namesearchoptions"></a>NameSearchOptions
 기호 및 파일 이름에 대 한 검색 옵션을 지정합니다.
@@ -55,7 +55,7 @@ enum NameSearchOptions {
 
 `nsfUndecoratedName` 기호는 데코 레이트 되지 않은 데코 레이트 된 이름에만 적용 됩니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 열거형의 값은 다음 메서드에 전달 됩니다.
 
 - [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)

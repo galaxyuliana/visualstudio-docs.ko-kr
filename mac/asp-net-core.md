@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 04/02/2019
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
-ms.openlocfilehash: 183431a160245fd8fc0ec2193c00c32659230459
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.openlocfilehash: 257d60d87a743d5c5e1099ee443c7bdb38055cca
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58856796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62985723"
 ---
 # <a name="getting-started-with-aspnet-core"></a>ASP.NET Core 시작
 
@@ -31,7 +31,7 @@ Mac용 Visual Studio를 엽니다. 시작 화면에서 **새 프로젝트...** �
 
 ASP.NET Core 애플리케이션 빌드를 시작하기 위해 미리 작성된 템플릿을 제공하는 많은 프로젝트가 있습니다. 이러한 항목은 다음과 같습니다.
 
-- **.NET Core > Empty**
+- **.NET Core > 비어 있음**
 - **.NET Core > API**
 - **.NET Core > 웹 애플리케이션**
 - **.NET Core > 웹 애플리케이션(Model-View-Controller)**
@@ -63,6 +63,7 @@ ASP.NET Core 빈 템플릿은 두 개의 기본 파일 **Program.cs** 및 **Star
                 .UseStartup<Startup>();
     }
 ```
+
 ASP.NET Core 앱이 [`WebHostBuilder`](/aspnet/core/fundamentals/hosting) 인스턴스를 통해 호스트를 구성 및 시작하여 main 메서드에서 웹 서버를 만듭니다. 이 작성기는 호스트를 구성할 수 있는 메서드를 제공합니다. 템플릿 앱에서는 다음과 같은 구성이 사용됩니다.
 
 * `.UseStartup<Startup>()`: 시작 클래스를 지정합니다.
@@ -106,8 +107,8 @@ ASP.NET Core 앱이 [`WebHostBuilder`](/aspnet/core/fundamentals/hosting) 인스
 
 시작 클래스는 항상 다음 규칙을 따라야 합니다.
 
- - 항상 public이어야 합니다.
- - 두 개의 public 메서드(`ConfigureServices` 및)를 포함해야 합니다. `Configure`
+- 항상 public이어야 합니다.
+- 두 개의 public 메서드 `ConfigureServices` 및 `Configure`가 포함되어야 합니다.
 
 `ConfigureServices` 메서드는 앱에서 사용될 서비스를 정의합니다.
 
@@ -220,7 +221,6 @@ MVC 사용 방법에 대한 자세한 내용은 [ASP.NET Core MVC 개요](/aspne
 9. `xxxx`를 올바른 포트로 바꿔 `http://localhost:xxxx/HelloWorld/Xamarin?name=Amy`로 이동하면 다음이 같이 표시됩니다.
 
     ![인수를 사용하여 브라우저에서 앱 실행](media/asp-net-core-image10.png)
-
 
 ## <a name="troubleshooting"></a>문제 해결
 

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 4dc331e06d1e82928f5c608d5b009258beb48dcc
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56722449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62844023"
 ---
 # <a name="access-the-text-buffer-by-using-the-legacy-api"></a>기존 API를 사용 하 여 텍스트 버퍼에 액세스
 텍스트는 텍스트 스트림 및 파일 유지 관리 하는 일을 담당 합니다. 버퍼 수를 읽거나 쓰려면 다른 형식이 있지만 버퍼를 사용 하 여 모든 일반 통신 유니코드를 사용 하 여 수행 됩니다. 레거시 Api에서 텍스트 버퍼 1 개 또는 2 차원 좌표 시스템을 하 여 버퍼의 문자 위치를 식별 합니다.

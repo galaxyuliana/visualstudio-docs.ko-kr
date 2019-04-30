@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: c5cc189283d6e9910b0b01d3d3e1ca28165bf500
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839695"
 ---
 # <a name="idiapropertystoragereadbool"></a>IDiaPropertyStorage::ReadBOOL
 읽고 `BOOL` 속성 집합의 값입니다.
@@ -43,7 +43,7 @@ HRESULT ReadBOOL ( 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_INVALIDARG` 형식의 속성이 없는 경우 `BOOL`합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  일관 된 결과 대 한 해석 된 `BOOL` 값 0이 아닌 값은 `TRUE` 0 이며 `FALSE`합니다.
 
 ## <a name="see-also"></a>참고 항목

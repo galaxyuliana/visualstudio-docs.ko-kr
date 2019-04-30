@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b471cee4a07722e37ae4b58817823dd4fa48ee26
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63004435"
 ---
 # <a name="terminateworkflow-activity-designer"></a>TerminateWorkflow 활동 디자이너
 합니다 **TerminateWorkflow** 활동 디자이너는 만들기 및 구성 하는 데 사용 되는 <xref:System.Activities.Statements.TerminateWorkflow> 활동입니다.  

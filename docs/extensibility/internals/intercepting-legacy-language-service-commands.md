@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: eb53de9cf4d3056d9a07a915267391de27b753fb
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56614911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909616"
 ---
 # <a name="intercepting-legacy-language-service-commands"></a>레거시 언어 서비스 명령 가로채기
 사용 하 여 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 텍스트 뷰 처리할 수 있는 언어 서비스 절편 명령 할 수 있습니다. 텍스트 뷰를 관리 하지 않는 언어 관련 동작에 유용 합니다. 언어 서비스에서 하나 이상의 명령 필터 텍스트 보기에 추가 하 여 이러한 명령을 가로챌 수 있습니다.

@@ -14,11 +14,11 @@ ms.workload:
 - aspnet
 - azure
 ms.openlocfilehash: 949f17b97a670ceb279333dbd3a00fe5e4cb715e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62857821"
 ---
 # <a name="debug-live-aspnet-azure-kubernetes-services-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용하여 라이브 ASP.NET Azure Kubernetes Service 디버그
 

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 81d1a256b4300510ed31c163d92cea89df884aac
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56610764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62832745"
 ---
 # <a name="idiapropertystorage"></a>IDiaPropertyStorage
 DIA 속성 집합의 영구 속성을 읽을 수 있습니다.
@@ -42,7 +42,7 @@ IDiaPropertyStorage : IUnknown
 |[IDiaPropertyStorage::ReadPropertyNames](../../debugger/debug-interface-access/idiapropertystorage-readpropertynames.md)|문자열 이름에 해당 하는 가져옵니다 속성 식별자를 지정 합니다.|
 |[IDiaPropertyStorage::ReadULONGLONG](../../debugger/debug-interface-access/idiapropertystorage-readulonglong.md)|읽고 `ULONGLONG` 속성 집합의 값입니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 속성 집합 내에서 각 속성은 4 바이트 속성 식별자 (ID)으로 식별 `ULONG` 해당 집합에 고유한 값입니다. 통해 노출 되는 속성을 `IDiaPropertyStorage` 부모 인터페이스에서 사용할 수 있는 속성에 해당 하는 인터페이스입니다. 예를 들어, 속성을 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 인터페이스를 통해 이름으로 액세스할 수 있습니다는 `IDiaPropertyStorage` 인터페이스 (단는 속성에 액세스할 수, 하는 경우에 의미가 속성에 대 한 유효를 특정 `IDiaSymbol` 개체).
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

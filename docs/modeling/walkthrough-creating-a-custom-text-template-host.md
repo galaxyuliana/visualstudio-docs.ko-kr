@@ -14,11 +14,11 @@ dev_langs:
 - CSharp
 - VB
 ms.openlocfilehash: 71b72b677e9735edb3254290055815885e543fa9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62961991"
 ---
 # <a name="walkthrough-create-a-custom-text-template-host"></a>연습: 사용자 지정 텍스트 템플릿 호스트 만들기
 

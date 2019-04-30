@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 073e62b473ebfcec5f71ae1907e8f9e385333411
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967548"
 ---
 # <a name="differences-between-sandboxed-and-farm-solutions"></a>차이점 샌드박스 솔루션과 팜 솔루션
   SharePoint 솔루션을 컴파일할 때 SharePoint 서버에 배포 및 디버그 하는 디버거를 연결 합니다. 솔루션을 디버그 하는 데 사용 하는 프로세스를 샌드박스 솔루션 속성의 설정에 따라 달라 집니다: 샌드박스 솔루션 또는 팜 솔루션입니다.

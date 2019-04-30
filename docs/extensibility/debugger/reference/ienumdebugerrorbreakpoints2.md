@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 568257f3ffb38329a95499815e8d7853a2fdb19f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56714220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62914749"
 ---
 # <a name="ienumdebugerrorbreakpoints2"></a>IEnumDebugErrorBreakpoints2
 이 인터페이스는 보류 중인 중단점을 사용 하 여 연결 된 오류 중단점을 열거 합니다.

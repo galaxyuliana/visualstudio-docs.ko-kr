@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: f8f94036a20d6c1b6963b39aa3d2b13e17a6e256
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56678075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62799849"
 ---
 # <a name="supportslanguagedropdown-element-visual-studio-templates"></a>SupportsLanguageDropDown 요소(Visual Studio 템플릿)
 웹 항목 템플릿이 적용 되는 여러 언어에 대해 동일한 여부를 지정 합니다 **언어** 옵션이 설정 되었는지는 **새 항목 추가** 대화 상자.

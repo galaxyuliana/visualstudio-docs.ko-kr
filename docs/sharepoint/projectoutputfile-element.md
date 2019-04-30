@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 2673b22bf502f019f0a10361c9d0cef9d5ac1b8c
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58322534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62816839"
 ---
 # <a name="projectoutputfile-element"></a>ProjectOutputFile 요소
   SharePoint에 배포할 때 프로젝트 항목과 함께 포함할 별도 프로젝트의 출력을 나타냅니다.

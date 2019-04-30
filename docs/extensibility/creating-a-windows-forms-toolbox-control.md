@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: a3c423361b860c5769d9555409b44973fdc25896
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62891096"
 ---
 # <a name="create-a-windows-forms-toolbox-control"></a>Windows Forms 도구 상자 컨트롤 만들기
 
@@ -55,7 +55,7 @@ Windows Forms 도구 상자 컨트롤 템플릿은 정의 되지 않은 사용�
 
 5. 에 **속성** 창 디자인 화면에서 컨트롤에 대해 다음 값을 설정 합니다.
 
-    |Control|속성|값|
+    |컨트롤|속성|값|
     |-------------|--------------|-----------|
     |`Label1`|**텍스트**|""|
     |`Button1`|**이름**|btnReset|

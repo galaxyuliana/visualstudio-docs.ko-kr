@@ -26,11 +26,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 84e26a2d7dae70e0029817d4e6bb6e70dd53bce4
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62928948"
 ---
 # <a name="ltdependencygt-element-clickonce-deployment"></a>&lt;종속성&gt; 요소 (ClickOnce 배포)
 를 설치 하려면 응용 프로그램의 버전 및 응용 프로그램 매니페스트의 위치를 식별 합니다.

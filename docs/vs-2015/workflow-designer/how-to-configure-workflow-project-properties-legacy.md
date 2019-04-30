@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: f551b868b415eaf600a9345aff4ac4f0d61ff234
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62931070"
 ---
 # <a name="how-to-configure-workflow-project-properties-legacy"></a>방법: 워크플로 프로젝트 속성 구성(레거시)
 워크플로 프로젝트와 연결된 속성을 보거나 수정하려면 다음 단계를 따르세요.  

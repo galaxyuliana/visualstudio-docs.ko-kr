@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: c46b629227b1b3d73ee4bc6a265c867921937df2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60069070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62966965"
 ---
 # <a name="how-to-create-a-sharepoint-project-item-extension"></a>방법: SharePoint 프로젝트 항목 확장명 만들기
   Visual Studio에서 이미 설치 되어 있는 SharePoint 프로젝트 항목에 기능을 추가 하려는 경우 프로젝트 항목 확장을 만듭니다. 자세한 내용은 [확장 SharePoint 프로젝트 항목](../sharepoint/extending-sharepoint-project-items.md)합니다.

@@ -22,11 +22,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b37522fec0438278f8cf063637132b146b3d3748
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56609101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62563909"
 ---
 # <a name="com-and-activex-debugging"></a>COM 및 ActiveX 디버깅
 이 단원에서는 COM 응용 프로그램과 ActiveX 컨트롤의 디버깅에 대한 팁을 제공합니다.

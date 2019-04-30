@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 09109d59522fcd6ace69abcd3335e2dec2edd91b
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56606291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62815065"
 ---
 # <a name="work-with-visio-shapes"></a>Visio 셰이프 작업
   이 섹션의에서 항목에서는 Microsoft Office Visio의 개체 모델을 사용 하 여 Office 프로젝트의 셰이프를 사용 하 여 작업에 대 한 단계별 절차 및 코드 예제를 제공 합니다.

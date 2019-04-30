@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 56ad09f2b158c7d23bf40bbafbdba3a9435926e4
-ms.sourcegitcommit: 2193323efc608118e0ce6f6b2ff532f158245d56
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54948390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909164"
 ---
 # <a name="member-completion-in-a-legacy-language-service"></a>레거시 언어 서비스의 멤버 완성
 
@@ -38,7 +38,7 @@ IntelliSense 멤버 완성이 클래스, 구조체, 열거형 또는 네임 스�
 
 - <xref:Microsoft.VisualStudio.Package.IScanner> 멤버 완성 문자를 검색 하 고 토큰 트리거를 설정 하는 스캐너 [TokenTriggers.MemberSelect](<xref:Microsoft.VisualStudio.Package.TokenTriggers.MemberSelect>) 해당 문자에 대 한 합니다.
 
-멤버 완료 문자 따라야 하는 클래스, 구조체 또는 열거형의 멤버 임을 나타냅니다. 예를 들어 C# 또는 Visual Basic 멤버 완성 문자는는 `.`인 반면 c + +에서 문자는를 `.` 또는 `->`합니다. 트리거 값에는 멤버 선택 문자를 검색할 때 설정 됩니다.
+멤버 완료 문자 따라야 하는 클래스, 구조체 또는 열거형의 멤버 임을 나타냅니다. 예를 들어, C# 또는 Visual Basic 멤버 완성 문자가 `.`에서 C++ 문자는를 `.` 또는 `->`. 트리거 값에는 멤버 선택 문자를 검색할 때 설정 됩니다.
 
 ### <a name="the-intellisense-member-list-command"></a>IntelliSense 멤버 목록 표시 명령
 

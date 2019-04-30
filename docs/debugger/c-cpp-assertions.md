@@ -29,11 +29,11 @@ manager: jillfra
 ms.workload:
 - cplusplus
 ms.openlocfilehash: 8e2d416bd932f1334468bfb3d43e050b3e71d2ec
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62564114"
 ---
 # <a name="cc-assertions"></a>C/C++ 어설션
 어설션 문은 프로그램의 지점에서 true가 될 예상 하는 조건을 지정 합니다. 어설션이 실패 하 여 프로그램의 실행이 중단 되며 해당 조건이 true가 아닐 경우와 [어설션 오류 대화 상자](../debugger/assertion-failed-dialog-box.md) 나타납니다.

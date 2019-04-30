@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 9942df0084924543149eb78f245a996559d594ee
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56686472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62926654"
 ---
 # <a name="commandtable-element"></a>CommandTable 요소
 CommandTable는의 루트 요소는 *.vsct* 파일입니다. VSPackage는 IDE를 제공 하는 명령의 형식과 실제 레이아웃을 정의 하는 파일입니다. 메뉴 항목, 메뉴, 도구 모음 및 콤보 상자에 명령이 포함할 수 있습니다. 자세한 내용은 [Visual Studio 명령 테이블 (.vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)합니다.

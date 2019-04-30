@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 75560ead40809c77e4768f8318d754a512e5d7ba
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58147490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62992642"
 ---
 # <a name="iactivescriptsitedebuggetapplication"></a>IActiveScriptSiteDebug::GetApplication
 이 스크립트 사이트와 연결 된 디버그 응용 프로그램 개체를 반환 합니다.  

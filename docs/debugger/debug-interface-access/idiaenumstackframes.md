@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 116ca69f890c37c84d4a31e2663d3c9ff1439f53
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62833456"
 ---
 # <a name="idiaenumstackframes"></a>IDiaEnumStackFrames
 사용 가능한 다양 한 스택 프레임을 열거합니다.
@@ -29,7 +29,7 @@ ms.locfileid: "56608746"
 |[IDiaEnumStackFrames::Next](../../debugger/debug-interface-access/idiaenumstackframes-next.md)|열거형 시퀀스에서 지정 된 개수의 스택 프레임 요소를 검색합니다.|
 |[IDiaEnumStackFrames::Reset](../../debugger/debug-interface-access/idiaenumstackframes-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 호출 하 여이 인터페이스를 가져올는 [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md) 하거나 [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md) 메서드.

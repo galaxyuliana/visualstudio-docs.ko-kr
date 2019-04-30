@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e596f2e970df487a31628ab0bd29051172b950e4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62796681"
 ---
 # <a name="ca2210-assemblies-should-have-valid-strong-names"></a>CA2210: 어셈블리에는 올바른 강력한 이름을 사용해야 합니다.
 
@@ -68,7 +68,7 @@ ms.locfileid: "55931080"
 
 - .NET Framework v1.0 또는 v1.1에 대 한 중 하나를 사용 합니다 <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> 또는 <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> 특성입니다.
 
-- 에 대 한 합니다 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]를 사용 하 여 합니다 `/keyfile` 또는 `/keycontainer` 컴파일러 옵션 [/KEYFILE (지정 서명할 키 또는 키 쌍을 어셈블리)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) 또는 [/KEYCONTAINER (어셈블리에 서명할 키 컨테이너 지정)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) c + +에서 링커 옵션).
+- 에 대 한 합니다 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]를 사용 하 여 합니다 `/keyfile` 또는 `/keycontainer` 컴파일러 옵션 [/KEYFILE (지정 서명할 키 또는 키 쌍을 어셈블리)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) 또는 [/KEYCONTAINER (어셈블리에 서명할 키 컨테이너 지정)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) 링커 옵션 C++).
 
 ### <a name="sign-your-assembly-with-a-strong-name-in-visual-studio"></a>Visual Studio에서 강력한 이름의 어셈블리에 서명합니다
 

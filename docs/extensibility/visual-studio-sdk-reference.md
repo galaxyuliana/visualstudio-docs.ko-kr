@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 62f5547da6e2181590b231175a409c505f3da7a0
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56685757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62824379"
 ---
 # <a name="visual-studio-sdk-reference"></a>Visual Studio SDK 참조
 이 섹션에서는 Visual Studio SDK를 사용 하는 개발자를 위한 Visual Studio 네임 스페이스, 관련된 네임 스페이스 및 관심 있는 다른 영역에 대 한 정보를 포함 합니다.
@@ -126,11 +126,11 @@ ms.locfileid: "56685757"
 
 - <xref:EnvDTE100> Visual Studio 자동화에 사용 됩니다.
 
-- <xref:Microsoft.VisualStudio.VCCodeModel> Visual c + + 프로젝트 자동화에 사용 됩니다.
+- <xref:Microsoft.VisualStudio.VCCodeModel> 시각적 개체에 사용 되는 C++ 프로젝트 자동화 합니다.
 
-- <xref:Microsoft.VisualStudio.VCProject> Visual c + + 프로젝트 자동화에 사용 되는 클래스입니다.
+- <xref:Microsoft.VisualStudio.VCProject> 시각적 개체에 사용 되는 클래스 C++ 프로젝트 자동화 합니다.
 
-- <xref:Microsoft.VisualStudio.VCProjectEngine> Visual c + + 프로젝트 자동화에 사용 됩니다.
+- <xref:Microsoft.VisualStudio.VCProjectEngine> 시각적 개체에 사용 되는 C++ 프로젝트 자동화 합니다.
 
 - <xref:Microsoft.VisualStudio.VsWizard> Visual Studio 마법사에 사용 됩니다.
 

@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: c231aac3b78ddb5100cc06600059045fdc463e51
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60074010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62826747"
 ---
 # <a name="how-to-cache-data-in-a-password-protected-document"></a>방법: 암호로 보호 된 문서의 데이터 캐시
   문서 또는 통합 문서를 암호로 보호 되는 데이터 캐시에 데이터를 추가 하는 경우 캐시 된 데이터의 변경 내용은 자동으로 저장 되지 않습니다. 프로젝트의 두 메서드를 재정의 하 여 캐시 된 데이터 변경 내용을 저장할 수 있습니다.

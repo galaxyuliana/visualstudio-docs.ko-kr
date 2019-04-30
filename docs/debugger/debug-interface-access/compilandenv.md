@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b935c9c79fd618c96f44b2660c274f657f81014e
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56634918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62555210"
 ---
 # <a name="compilandenv"></a>CompilandEnv
 컴파일러는 기호를 사용 하 여 추가 환경 변수를 포함할 수 있습니다. 하나의 `SymTagCompilandEnv` 이러한 변수가 각각에 대 한 기호입니다.

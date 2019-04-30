@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: c83c1331a95e48afa02b0b37557ca5bd042261d7
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974477"
 ---
 # <a name="idebugcookiesetdebugcookie"></a>IDebugCookie::SetDebugCookie
 응용 프로그램 디버그 쿠키를 설정합니다.  

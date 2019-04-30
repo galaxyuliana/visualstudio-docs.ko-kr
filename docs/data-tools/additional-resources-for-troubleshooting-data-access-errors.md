@@ -225,11 +225,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 9867f9b595937e0ae8586aabdba180f4b1d8d359
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55917066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62818080"
 ---
 # <a name="troubleshoot-data-access-errors-on-the-forums"></a>포럼에서 데이터 액세스 오류 문제 해결
 
@@ -251,6 +251,6 @@ MSDN(Microsoft Developer Network) 공개 포럼에서 오류 및 경고 문제 �
 
 SQL Server에 대 한 연결 문제를 해결 하는 방법에 대 한 자세한 내용은 [SQL Server 데이터베이스 엔진에 연결 하는 문제 해결](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [.NET용 Visual Studio 데이터 도구](../data-tools/visual-studio-data-tools-for-dotnet.md)

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ed558c40e932f2148f2240247d19a4fc6df0d06a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55950528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63003596"
 ---
 # <a name="pick-activity-designer"></a>Pick 활동 디자이너
 
@@ -31,11 +31,11 @@ ms.locfileid: "55950528"
 
 추가 하는 방법은 두 가지가 <xref:System.Activities.Statements.PickBranch> 활동의 컬렉션을를 <xref:System.Activities.Statements.Pick> 개체: 끌어서 놓기 합니다 **PickBranch** 에서 디자이너를 **도구 상자** 또는 오른쪽 클릭 메뉴를 사용 하 여 내에서 **선택** 디자인 화면입니다. 자세한 내용은 참조는 [PickBranch](../workflow-designer/pickbranch-activity-designer.md) 항목입니다. 내부 표시는 유일한 항목에 배치할 수는 **선택** activity designer가는 **PickBranch** 활동 디자이너입니다.
 
-### <a name="pick-activity-properties-in-the-workflow-designer"></a>워크플로 디자이너의 Pick 활동 속성
+### <a name="pick-activity-properties-in-the-workflow-designer"></a>Workflow Designer의 Pick 활동 속성
 
 다음 표에서는 <xref:System.Activities.Statements.Pick> 속성을 보여 주고 디자이너에서 이 속성을 사용하는 방법을 설명합니다. 이러한 속성은 속성 표 또는 디자이너 화면에서 편집할 수 있습니다.
 
-|속성 이름|필수|용도|
+|속성 이름|필수|사용법|
 |-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|머리글에 <xref:System.Activities.Statements.Pick> 활동 디자이너의 이름을 지정합니다. 기본값은 Pick입니다. 속성 표에서 또는 활동 디자이너의 머리글에서 직접 값을 편집할 수 있습니다.<br /><br /> <xref:System.Activities.Activity.DisplayName%2A>은 꼭 필요하지 않더라도 사용하는 것이 좋습니다.|
 

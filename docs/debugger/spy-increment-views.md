@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4d60f497db60e08094eb881f6766f95279b85456
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62902571"
 ---
 # <a name="spy-views"></a>Spy++ 뷰
 Spy + + 컴퓨터에서 windows, 메시지, 프로세스 및 스레드 사용 가능의 트리 뷰를 표시 합니다.

@@ -14,14 +14,14 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 1d62d52d490994889f7e9186fb74ea148cb52a06
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56690541"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62911897"
 ---
 # <a name="extern-element"></a>Extern 요소
-Extern 요소는 모든 외부 헤더가 참조 (*.h*)를 병합 하는 파일을 *.vsct* 컴파일 타임에 파일입니다. VSCT 컴파일러인 지정 되거나 참조 포함 경로에 병합할 파일 이어야 합니다는 [Include 요소](../extensibility/include-element.md)합니다. 기타 파일이 될 수 있습니다 *.vsct* 파일 또는 c + + 헤더 파일입니다.
+Extern 요소는 모든 외부 헤더가 참조 (*.h*)를 병합 하는 파일을 *.vsct* 컴파일 타임에 파일입니다. VSCT 컴파일러인 지정 되거나 참조 포함 경로에 병합할 파일 이어야 합니다는 [Include 요소](../extensibility/include-element.md)합니다. 기타 파일이 될 수 있습니다 *.vsct* 파일 또는 C++ 헤더 파일입니다.
 
  폼의 헤더 파일에 정의 해야 "#define [기호] [Value]" 값을 이전에 정의 된 경우 다른 기호를 수 있습니다. 명령은 항목의 조건문에서 정의 사용할 수 있습니다. 실제로 사용 되는 모든 기호는 무시 됩니다.
 

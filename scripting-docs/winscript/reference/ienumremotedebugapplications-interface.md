@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 430551002bc7603d86f9c7fb624ec438734bd766
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58150623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62963252"
 ---
 # <a name="ienumremotedebugapplications-interface"></a>IEnumRemoteDebugApplications 인터페이스
 응용 프로그램 개체를 열거합니다. 이 인터페이스는 "응용 프로그램에 연결" 대화 상자에 대 한 컴퓨터에서 실행 중인 응용 프로그램을 열거를 사용할 수 있습니다.  

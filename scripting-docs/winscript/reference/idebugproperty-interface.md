@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 963b11a4760fad8086822f13db129fae76467802
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58145761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979064"
 ---
 # <a name="idebugproperty-interface"></a>IDebugProperty 인터페이스
 이름, 형식 및 값에는 디버깅 중인 엔터티의 계층적 속성에 설명 하는 데 사용 합니다. 가장 일반적으로 `IDebugProperty` 식 계산, 문이 평가 또는 등록 평가의 결과 설명 하는 데 사용 됩니다.  

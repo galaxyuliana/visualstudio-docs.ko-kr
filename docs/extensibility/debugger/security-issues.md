@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 5f68db1a4c6fb3ea2a7f9542c1a9d2d313359554
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62913110"
 ---
 # <a name="security-issues"></a>보안 문제
 Visual Studio를 사용 하 여 프로그램을 디버깅 하려면 필요한 권한만 개발자 프로그램을 실행 해야 하는 것과 같은 됩니다. 대부분의 상황에 대 한 원격 디버깅 포함 됩니다. 인터넷 정보 서비스와 같은 다른 서비스와 관련 된 몇 가지 상황에는 높은 수준의 사용 권한이 필요할 수 있습니다.

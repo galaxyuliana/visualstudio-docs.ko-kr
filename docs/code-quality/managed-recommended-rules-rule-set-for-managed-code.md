@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: c07471290756acc74289a552fcafde746c020e71
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55918392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62823545"
 ---
 # <a name="managed-recommended-rules-rule-set-for-managed-code"></a>관리 코드에 대한 관리 권장 규칙 규칙 집합
 Microsoft 관리 권장 규칙이라는 규칙 집합을 사용하여 잠재적 보안 허점, 응용 프로그램 충돌 및 기타 중요한 논리 및 디자인 오류와 같은 관리 코드의 가장 중요한 문제에 초점을 맞출 수 있습니다. 프로젝트에 대해 만든 모든 사용자 지정 규칙 집합에이 규칙 집합을 포함 해야 합니다.

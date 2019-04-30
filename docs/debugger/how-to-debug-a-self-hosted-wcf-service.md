@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 8440c1bae9d9e405fd0bf0e1462467e7a51dad5e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065534"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62848021"
 ---
 # <a name="how-to-debug-a-self-hosted-wcf-service"></a>방법: 자체 호스팅 WCF 서비스 디버그
 *자체 호스팅 서비스*는 IIS, WCF 서비스 호스트 또는 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server 내에서 실행되지 않는 WCF 서비스입니다. 자체 호스팅된 WCF를 디버그 하는 가장 쉬운 방법은 구성 하는 것 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 선택 하면 클라이언트와 서버를 시작 하려면 **디버깅 시작** 에 **디버그** 메뉴.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: b8027f34b48b4a160c19f14f0d9cbfb8194a506f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56688477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62919974"
 ---
 # <a name="idebugexpression2"></a>IDebugExpression2
 이 인터페이스 바인딩 및 평가 대 한 구문 분석 된 식을 준비를 나타냅니다.

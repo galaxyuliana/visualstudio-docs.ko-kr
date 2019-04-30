@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b44b32f98406e4692de97562bbf97e2656b3a7de
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62964289"
 ---
 # <a name="properties-of-compartment-shapes"></a>구획 모양의 속성
 구획 도형은 도메인 특정 언어의 도메인 클래스를 표시 하 여 셰이프 중 하나입니다. 확장 및 구획을 축소할 수 있습니다.

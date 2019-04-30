@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: bb386a2d80931ece415b0b3939f2947678808261
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62557190"
 ---
 # <a name="guidelines-for-importing-reusable-workflows"></a>재사용 가능한 워크플로 가져오기에 대 한 지침
   SharePoint Designer에서 만든 다시 사용할 수 있는 워크플로를 가져오려면 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]에서 다시 사용할 수 있는 SharePoint 2010 워크플로 가져오기 프로젝트 템플릿을 사용합니다. 이 템플릿을 가져옵니다를 *선언적* *워크플로* ([!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]-만)로 변환 하는 *워크플로 코드*, 사용 하 여 향상 시킬 수 있는 워크플로 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] 또는 [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)] 코드입니다. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [연습: Visual Studio에 SharePoint Designer의 재사용 가능한 워크플로 가져오기](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)합니다.

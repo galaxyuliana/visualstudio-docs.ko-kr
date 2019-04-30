@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 2741a7f9d27c303981ed4b179e3fe3d7cd63f020
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58194151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62926463"
 ---
 # <a name="create-an-extension-with-a-tool-window"></a>도구 창으로 확장 프로그램을 만들려면
 

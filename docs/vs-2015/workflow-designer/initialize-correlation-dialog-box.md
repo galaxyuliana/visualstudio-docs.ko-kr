@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 75906a279c1047ff98c7ff8d82d7baf3efc8be0d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62938250"
 ---
 # <a name="initialize-correlation-dialog-box"></a>상관 관계 초기화 대화 상자
 **상관 관계 초기화** 대화 상자에서 사용 됩니다 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 편집 하는 <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> 속성의는 <xref:System.ServiceModel.Activities.InitializeCorrelation> 활동. [!INCLUDE[crdefault](../includes/crdefault-md.md)] 합니다 [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md) 항목입니다.  

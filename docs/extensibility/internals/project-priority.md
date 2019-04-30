@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 6d444896c305130c7805b8fd6ec1bdf020ed446d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62909239"
 ---
 # <a name="project-priority"></a>프로젝트 우선 순위
 프로젝트 항목에는 일반적으로 솔루션에 프로젝트가 하나만의 멤버인 경우 따라서 IDE 쉽게 확인할 수는 프로젝트가 항목을 열 때 사용 됩니다. 그러나 항목이 둘 이상의 프로젝트의 멤버인 경우 IDE 항목을 열기 위한 최상의 프로젝트를 확인할 수는 우선 순위 체계를 사용 합니다.
@@ -34,5 +34,5 @@ ms.locfileid: "60089447"
 
 ## <a name="see-also"></a>참고 항목
 - [기타 파일 프로젝트](../../extensibility/internals/miscellaneous-files-project.md)
-- [방법: 열린 문서에 대 한 편집기 열기](../../extensibility/how-to-open-editors-for-open-documents.md)
+- [방법: 열린 문서의 편집기 열기](../../extensibility/how-to-open-editors-for-open-documents.md)
 - [프로젝트 및 프로젝트 항목 템플릿 추가](../../extensibility/internals/adding-project-and-project-item-templates.md)

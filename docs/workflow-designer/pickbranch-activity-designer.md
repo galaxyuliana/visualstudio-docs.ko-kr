@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: c6c452cb4fd5b8a343473204c2b2bee614383ebb
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55922058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63003628"
 ---
 # <a name="pickbranch-activity-designer"></a>PickBranch 활동 디자이너
 
@@ -48,11 +48,11 @@ ms.locfileid: "55922058"
 
 선택 해야 합니다 **PickBranch** 디자이너 내에서 작업 중 하나를 선택 하 여 해당 **트리거** 또는 **동작** 이러한 작업 중 하나는 상자 실수로 삭제 아니라 <xref:System.Activities.Statements.PickBranch> 개체입니다.
 
-### <a name="pickbranch-properties-in-the-workflow-designer"></a>워크플로 디자이너의 PickBranch 속성
+### <a name="pickbranch-properties-in-the-workflow-designer"></a>Workflow Designer의 PickBranch 속성
 
 다음 표에서 가장 유용한 <xref:System.Activities.Statements.PickBranch> 속성 워크플로 디자이너에서 사용 하는 방법을 설명 합니다.
 
-|속성 이름|필수|용도|
+|속성 이름|필수|사용법|
 |-|--------------|-|
 |<xref:System.Activities.Statements.PickBranch.DisplayName%2A>|False|헤더에 표시 되는 친숙 한 이름 합니다 **PickBranch** 디자이너입니다. 기본값은 분기입니다.<br /><br /> <xref:System.Activities.Activity.DisplayName%2A>은 꼭 필요하지 않더라도 사용하는 것이 좋습니다.|
 |<xref:System.Activities.Statements.PickBranch.Trigger%2A>|True|각 <xref:System.Activities.Statements.PickBranch>에는 <xref:System.Activities.Statements.PickBranch.Trigger%2A>을 호출할 수 있는 <xref:System.Activities.Statements.PickBranch.Action%2A> 활동이 포함되어 있습니다.|

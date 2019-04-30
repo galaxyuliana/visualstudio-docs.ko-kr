@@ -1,5 +1,5 @@
 ---
-title: 방법:.NET Framework 소스 디버그 | Microsoft Docs
+title: '방법: .NET Framework 소스 디버그 | Microsoft Docs'
 ms.date: 11/19/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,13 +11,13 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: 25f40b0528b794863aabdb13ed9785d2b0c551b8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56700785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62894276"
 ---
-# <a name="how-to-debug-net-framework-source"></a>방법: .NET Framework 원본 디버그
+# <a name="how-to-debug-net-framework-source"></a>방법: .NET Framework 소스 디버그
 
 .NET Framework 소스를 디버깅 하려면 다음을 수행 해야 합니다.
 
@@ -63,6 +63,6 @@ ms.locfileid: "56700785"
 
    - 선택 **기호 설정** 열려는 합니다 **기호** 페이지입니다. 에 **기호** 페이지의 **기호 파일 (.pdb) 위치**를 선택 **Microsoft 기호 서버** 공용 Microsoft 기호 서버에서 액세스 기호입니다. 기타 기호 위치를 추가 하 고 로드 순서를 변경 하려면 도구 모음 단추를 선택 합니다. 선택 **확인** 는 대화 상자를 닫습니다.
 
-### <a name="see-also"></a>참고 항목
+### <a name="see-also"></a>참고자료
 - [관리 코드 디버깅](../debugger/debugging-managed-code.md)
 - [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

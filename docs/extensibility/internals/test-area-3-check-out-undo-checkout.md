@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: eb95c5475c653e60c863ddf093d3a92e0c70cf45
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62858286"
 ---
 # <a name="test-area-3-check-outundo-checkout"></a>테스트 영역 3: 체크 아웃/체크 아웃 취소
 이 소스 제어 플러그 인 테스트 영역에서는 통해 버전 저장소에서 항목을 편집 및 되돌리기 합니다 **체크 아웃** 및 **체크 아웃 취소** 명령입니다.

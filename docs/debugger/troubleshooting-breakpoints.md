@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: bbcda5eef8ac6ac6aa20c6f487dfc94beb10866c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56714190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62929659"
 ---
 # <a name="troubleshoot-breakpoints-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 중단점 문제 해결
 
@@ -35,7 +35,7 @@ ms.locfileid: "56714190"
 
 * 모듈 로드 되지 않은 경우 원인을 찾으려면 다음을 확인 합니다.
   * 올바른 프로세스 디버그 하는 경우를 확인 합니다.
-  * 올바른 유형의 코드 디버그 하는 경우를 확인 합니다. 디버거가 구성에서 디버깅할 코드 형식을 확인할 수 있습니다 합니다 **프로세스** 창 (**디버그** > **Windows**  >  **프로세스**). 예를 들어, 디버그 하려는 경우 C# 코드를.NET Framework의 적절 한 형식에 대 한 디버거 구성 되어 있는지 확인 (예를 들어 관리 되는 (v4\*) 및 관리 (v2\*/v3\*) (CoreCLR) 관리 및) .
+  * 올바른 유형의 코드 디버그 하는 경우를 확인 합니다. 디버거가 구성에서 디버깅할 코드 형식을 확인할 수 있습니다 합니다 **프로세스** 창 (**디버그** > **Windows**  >  **프로세스**). 예를 들어 C# 코드를 디버그 하려는 경우 디버거 구성 되어 있는지 확인.NET Framework의 적절 한 형식에 대 한 (예를 들어 관리 되는 (v4\*) 관리 및 (v2\*/v3\*) 및 관리 (CoreCLR)).
 
 ### <a name="-the-current-source-code-is-different-from-the-version-built-into"></a>"… 현재 소스 코드가...에 빌드된 버전과 다릅니다 "
 
@@ -53,7 +53,7 @@ ms.locfileid: "56714190"
 
 확인 하려면 몇 가지는 다음과 같습니다.
 1. 둘 이상의 프로세스 또는 둘 이상의 컴퓨터에서 실행 되는 코드를 디버그 하는 경우 올바른 프로세스 또는 컴퓨터에 있는지 확인 합니다.
-2. 코드가 실행 되 고 있는지 확인 합니다. 호출을 추가 코드가 실행 되 고 있는지 테스트할 `System.Diagnostics.Debugger.Break` (C#/VB) 또는 `__debugbreak` (c + +) 중단점을 설정 하 고 다음 프로젝트를 다시 작성 하려는 코드의 줄으로 합니다.
+2. 코드가 실행 되 고 있는지 확인 합니다. 호출을 추가 코드가 실행 되 고 있는지 테스트할 `System.Diagnostics.Debugger.Break` (C#/VB) 또는 `__debugbreak` (C++) 중단점을 설정 하 고 다음 프로젝트를 다시 작성 하려는 코드의 줄으로 합니다.
 3. 최적화 된 코드를 디버깅 하는 경우 해야 함수 중단점 설정 되어 있는 되지 되 고 다른 함수를 인라인 합니다. `Debugger.Break` 도이 문제를 테스트 하려면 테스트 검사를 이전에 설명 된 작업 수 있습니다.
 
 ## <a name="i-deleted-a-breakpoint-but-i-continue-to-hit-it-when-i-start-debugging-again"></a>중단점을 삭제했지만 다시 디버그하기 시작하면 계속 중단점이 적중되는 경우

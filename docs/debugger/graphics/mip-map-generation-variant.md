@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 06017a3feb3faa667b469c0075e561b2104785b5
-ms.sourcegitcommit: 22b73c601f88c5c236fe81be7ba4f7f562406d75
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56227539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62895601"
 ---
 # <a name="mip-map-generation-variant"></a>MIP 맵 생성 변형
 렌더링 대상이 아닌 질감에 대해 Mip 맵을 사용합니다.
@@ -25,7 +25,7 @@ Mip 맵은 더 작은 버전의 질감을 미리 계산하여 최소화한 질�
 
 이러한 변형이 성능을 상당히 개선하면 Mip 맵을 사용하지 않음을 나타내므로 질감 캐시를 최대한 활용하지 않는 것입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 원본 질감을 생성하는 `ID3D11Device::CreateTexture2D`를 호출할 때마다 Mip 맵이 강제로 생성됩니다. Mip 맵 생성에서 D3D11_TEXTURE2D_DESC 개체가 전달 하는 경우 강제 특히 `pDesc` 는 변하지 않는 셰이더 리소스를 설명 합니다.
 
 - BindFlags 멤버에 D3D11_BIND_SHADER_RESOURCE 플래그 집합만 있는 경우
@@ -42,7 +42,7 @@ Mip 맵은 더 작은 버전의 질감을 미리 계산하여 최소화한 질�
 
   질감에 대한 Mip 맵이 자동으로 생성된 경우 질감 샘플링 중 Mip 체인을 사용하도록 `ID3D11Device::CreateShaderResourceView`에 대한 호출이 재생 중 수정됩니다.
 
-## <a name="example"></a>예
+## <a name="example"></a>예제
 **Mip 맵 생성** 변형은 다음과 같은 코드를 사용하여 재현할 수 있습니다.
 
 ```cpp

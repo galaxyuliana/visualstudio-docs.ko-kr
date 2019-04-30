@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 261cf0ad93208c0eac09e42dcd68853352318e88
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58149158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817902"
 ---
 # <a name="boolean-expected"></a>부울이 필요합니다.
 호출 하려고 합니다 **Boolean.prototype.toString** 또는 **Boolean.prototype.valueOf** 이외의 다른 형식의 개체의 메서드를 `Boolean`입니다. 이 형식의 호출 개체 유형 이어야 `Boolean`합니다. 예를 들어:

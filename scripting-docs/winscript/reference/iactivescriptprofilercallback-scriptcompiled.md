@@ -16,11 +16,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: a198667e7dc30969c32b556620b139d52f833543
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58158934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62993237"
 ---
 # <a name="iactivescriptprofilercallbackscriptcompiled"></a>IActiveScriptProfilerCallback::ScriptCompiled
 개체는 스크립팅 엔진 컴파일된 스크립트 프로파일러에 알립니다. 이 메서드는 컴파일되는 모든 스크립트에 대 한 호출 됩니다.  

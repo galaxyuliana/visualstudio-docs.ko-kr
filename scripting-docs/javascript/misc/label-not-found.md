@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 72b63c699b09081e843f36daeec3fcc556ebaf4a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60115889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007375"
 ---
 # <a name="label-not-found"></a>레이블을 찾을 수 없습니다.
 만든 존재 하지 않는 레이블에 대 한 참조입니다. 레이블을 코드의 이지만 지정된 된 범위 내의 블록에 표시할 수, 고유 해야 합니다.  

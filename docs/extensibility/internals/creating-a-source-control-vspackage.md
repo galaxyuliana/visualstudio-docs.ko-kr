@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 19ca32a35f8ade3d3e444dd312a5ac71bfcd0a8a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62861365"
 ---
 # <a name="create-a-source-control-vspackage"></a>소스 제어 VSPackage 만들기
 이 설명서와 통합 소스 제어 패키지의 아키텍처 개요에 대 한 링크가 포함 되어 있습니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], 인터페이스를 구현 하 고 사용할 수 있도록 서비스에서 정의한 API 및 간단한 소스를 보여 주는 샘플 패키지 구현을 제어 합니다.

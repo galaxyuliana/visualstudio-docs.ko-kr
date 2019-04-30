@@ -25,11 +25,11 @@ manager: wpickett
 ms.workload:
 - multiple
 ms.openlocfilehash: fa459e3461ef5e58eb1e5b0c675c7e1b408d6f88
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62571422"
 ---
 # <a name="annotating-structs-and-classes"></a>구조체 및 클래스에 주석 지정
 고정 처럼 작동 하는 주석을 사용 하 여 구조체와 클래스 멤버에 주석을 달 수 있습니다-함수 진입/종료 바깥쪽 구조를 매개 변수나 결과 값을 포함 하는 또는 함수 호출에서 true가 될 것으로 가정 됩니다.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f1928667be38cc2b0aa56800ca66924d6159f0c4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62853534"
 ---
 # <a name="typedef-debug-interface-access-sdk"></a>Typedef(디버그 인터페이스 액세스 SDK)
 사용 하 여 기호 `SymTagTypedef` 태그 이름이 다른 형식에 대해 소개 합니다.
@@ -54,7 +54,7 @@ ms.locfileid: "56597922"
 |[IDiaSymbol::get_virtualTableShapeId](../../debugger/debug-interface-access/idiasymbol-get-virtualtableshapeid.md)|`DWORD`|ID는 가상 테이블 모양 기호입니다.|
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` 경우이 형식 정의 volatile로 표시 됩니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  Typedef 클래스, 포인터 또는 사용자 정의 형식 (UDT)을 나타낼 수 있으므로 typedef 기호는 이러한 다른 유형의 기호 중과 같은 속성을 공유 합니다.
 
 ## <a name="see-also"></a>참고 항목

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: a036f6d08c6f88a30f8a8c9ab6d0d2e847065854
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56682922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62873920"
 ---
 # <a name="idebugfield"></a>IDebugField
 이 인터페이스는 필드를, 즉, 기호 또는 형식에 대 한 설명을 나타냅니다.
@@ -52,7 +52,7 @@ IDebugField : IUnknown
 ## <a name="remarks"></a>설명
  형식은 C 언어에 해당 `typedef`합니다.
 
- 다음 c + + 언어 예에서 `weather` 형식인 클래스 및 `sunny` 및 `stormy` 기호:
+ 다음에서 C++ 언어 예제 `weather` 형식인 클래스 및 `sunny` 하 고 `stormy` 기호:
 
 ```cpp
 class weather;

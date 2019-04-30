@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 01e63d1588fd1e25f3415f22450ed5145752d711
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58144578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979203"
 ---
 # <a name="idebughelpercreatepropertybrowserex"></a>IDebugHelper::CreatePropertyBrowserEx
 VARIANT를 래핑하고 VARIANT 값 또는 VARTYPE 형식 문자열을 사용자 지정 변환에 대 한 허용 하는 속성 브라우저를 반환 합니다.  

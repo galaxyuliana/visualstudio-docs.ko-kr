@@ -16,11 +16,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 46e01a4e6bb989fad2da6f979c79b7aba13df63a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63007316"
 ---
 # <a name="invalid-replacer-argument"></a>치환 인수가 잘못되었습니다.
 호출 하려고 `JSON.stringify` 잘못 된 인수를 사용 합니다. `replacer` 인수는 함수 또는 배열 이어야 합니다.  

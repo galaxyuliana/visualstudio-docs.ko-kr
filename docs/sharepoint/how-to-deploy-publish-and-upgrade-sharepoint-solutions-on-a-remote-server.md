@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: fdaebbc8901330236769331453501bebdd3f98a3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62813945"
 ---
 # <a name="how-to-deploy-publish-and-upgrade-sharepoint-solutions-on-a-remote-server"></a>방법: 배포, 게시 및 원격 서버에 SharePoint 솔루션 업그레이드
   로컬 시스템에 SharePoint 솔루션을 배포 하는 것 외에도 원격 사이트 또는 로컬 SharePoint 사이트 샌드박스 SharePoint 솔루션을 게시할 수 있습니다. 원격 게시 프로세스 복사 합니다 *.wsp* 파일을 SharePoint 서버 솔루션을 설치 하 고 솔루션의 인증을 사용 하도록 설정 합니다. 변경한 후에 원격 SharePoint 솔루션 설치를 업그레이드할 수 있습니다.

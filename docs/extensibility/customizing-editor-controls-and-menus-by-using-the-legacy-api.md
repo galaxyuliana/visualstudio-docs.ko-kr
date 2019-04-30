@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: f52c0bbb87cc610b1b05ef987f43167f60292f4f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56684002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62926503"
 ---
 # <a name="customize-editor-controls-and-mmenus-by-using-the-legacy-api"></a>편집기 컨트롤과 Mmenus 기존 API를 사용 하 여 사용자 지정
 언어 서비스 또는 텍스트 뷰 상황에 맞는 메뉴 및 편집기에서 컨트롤을 제어할 수 있습니다. 이 섹션의 페이지에는 이러한 기능을 사용 하는 방법을 자세히 설명 합니다.

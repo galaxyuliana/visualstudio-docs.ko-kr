@@ -18,11 +18,11 @@ dev_langs:
 ms.workload:
 - multiple
 ms.openlocfilehash: a4e963df54d9cdf6433ef34808d64fe81c9297d9
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57872449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62779924"
 ---
 # <a name="ca1000-do-not-declare-static-members-on-generic-types"></a>CA1000: 정적 멤버를 제네릭 형식으로 선언하지 마세요.
 
@@ -35,7 +35,7 @@ ms.locfileid: "57872449"
 
 ## <a name="cause"></a>원인
 
-제네릭 형식에 포함 되어는 `static` (`Shared` Visual Basic에서) 멤버입니다.
+제네릭 형식에 포함 되어는 `static` (`Shared` Visual basic에서) 멤버입니다.
 
 기본적으로이 규칙만 살펴봅니다 형식 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
 

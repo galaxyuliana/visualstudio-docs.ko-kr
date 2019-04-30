@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ms.openlocfilehash: f659a7aa9d078ed5ee2f8685be006aaaa2450fa0
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62560053"
 ---
 # <a name="basic-correctness-rules-rule-set-for-managed-code"></a>관리 코드에 대한 기본 수정 규칙 규칙 집합
 기본 수정 규칙 규칙 집합을 논리 오류 및 일반적인 실수 프레임 워크 Api의 사용량에서에 중점을 둡니다. 기본 수정 규칙 최소 권장 규칙 규칙 집합에 있는 규칙을 포함 합니다. 자세한 내용은 [관리 되는 코드에 대 한 관리 권장 규칙 규칙 집합](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) 의 최소 권장 규칙 보고서는 경고의 목록을 확장 하려면이 규칙 집합을 포함 해야 합니다.

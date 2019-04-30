@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 03e82a8c17b33aa085b4ed64b9ba609bee183e1d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56626117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62829734"
 ---
 # <a name="basictype"></a>BasicType
 기호 기본 형식을 지정합니다.
@@ -54,13 +54,13 @@ btNoType 기본 유형이 지정 되지 않았습니다.
 
 기본 형식 btVoid는는 `void`합니다.
 
-기본 형식 btChar는는 `char` (C/c + + 형식).
+기본 형식 btChar은는 `char` (C /C++ 형식).
 
 기본 형식 btWChar 와이드 (유니코드) 문자는 (`WCHAR`).
 
-기본 형식 btInt는 `signed int` (C/c + + 형식).
+기본 형식 btInt가 `signed int` (C /C++ 형식).
 
-기본 형식 btUInt는 `unsigned int` (C/c + + 형식).
+기본 형식 btUInt가 `unsigned int` (C /C++ 형식).
 
 btFloat 기본 형식 부동 소수점 숫자인 (`FLOAT`).
 
@@ -68,9 +68,9 @@ btFloat 기본 형식 부동 소수점 숫자인 (`FLOAT`).
 
 기본 형식 btBool은 부울 (`BOOL`).
 
-기본 형식 btLong는는 `long int` (C/c + + 형식).
+기본 형식 btLong은는 `long int` (C /C++ 형식).
 
-기본 형식 btULong는는 `unsigned long int` (C/c + + 형식).
+기본 형식 btULong은는 `unsigned long int` (C /C++ 형식).
 
 기본 형식 btCurrency는 통화입니다.
 
@@ -86,7 +86,7 @@ btVariant 기본 형식을 변수 유형 구조가 (`VARIANT`).
 
 기본 형식 btHresult는는 `HRESULT`합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 열거형의 값에서 반환 되는 [idiasymbol:: Get_basetype](../../debugger/debug-interface-access/idiasymbol-get-basetype.md) 메서드.
 
 ## <a name="requirements"></a>요구 사항

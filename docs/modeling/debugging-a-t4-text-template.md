@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ec82c71a359bed423785cc914c58b97db954f4f5
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55944600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62994671"
 ---
 # <a name="debugging-a-t4-text-template"></a>T4 텍스트 템플릿 디버깅
 텍스트 템플릿에서 중단점을 설정할 수 있습니다. 디자인 타임 텍스트 템플릿 디버그 텍스트 템플릿 파일을 저장 하 고 선택한 **T4 템플릿 디버그** 솔루션 탐색기에서 파일의 바로 가기 메뉴. 런타임 텍스트 템플릿 디버깅을 단순히 속해 있는 응용 프로그램을 디버깅 합니다.

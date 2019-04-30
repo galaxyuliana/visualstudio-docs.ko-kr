@@ -18,11 +18,11 @@ manager: jillfra
 ms.workload:
 - aspnet
 ms.openlocfilehash: 6a9c6d2c2159ca21f227beb2f8bd1a98b9420328
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62894341"
 ---
 # <a name="how-to-debug-aspnet-exceptions"></a>방법: ASP.NET 예외 디버그
 예외 디버깅은 강력한 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 애플리케이션을 개발하는 데 중요한 요소입니다. 예외를 디버깅 하는 방법에 대 한 일반 정보를 [디버거를 사용한 예외 관리](../debugger/managing-exceptions-with-the-debugger.md)합니다.

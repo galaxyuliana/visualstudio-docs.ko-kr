@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 0d7942aa658208143aea3c3ae3a09eb677568f17
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60067185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62908921"
 ---
 # <a name="test-area-2-get-from-source-control"></a>테스트 영역 2: 소스 제어에서 가져오기
 이 테스트 영역 가져오기 명령을 통해 버전 저장소에서 항목을 검색 하는 것에 대 한 테스트 사례를 설명 합니다. 웹 프로젝트를 로컬에 이러한 테스트 사례를 적용할 수 있습니다.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 658fb63227f4c4532038d537bde7cc10ca2c4f5e
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58322614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967385"
 ---
 # <a name="extensiondataitem-element"></a>ExtensionDataItem 요소
   키/값 형식의 SharePoint 프로젝트 항목과 연결 된 사용자 지정 데이터 항목입니다. 키와 값을 모두 문자열 이어야 합니다.

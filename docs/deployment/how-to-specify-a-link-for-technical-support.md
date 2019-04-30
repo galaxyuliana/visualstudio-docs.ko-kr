@@ -21,11 +21,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7a050ae24ddb5b796acf101e0432a5b64cd28031
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60051676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62898573"
 ---
 # <a name="how-to-specify-a-link-for-technical-support"></a>방법: 기술 지원을 위한 링크 지정
 게시 하는 경우는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 **지원 URL** 웹 페이지 또는 사용자가 응용 프로그램에 대 한 정보를 이동할 파일 공유를 식별 하는 속성입니다. 이 속성은 선택 사항입니다. URL을 제공 하는 경우 응용 프로그램의 항목에 표시 됩니다 **프로그램 추가 / 제거** 대화 상자.

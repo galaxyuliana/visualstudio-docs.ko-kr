@@ -74,11 +74,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f55bd71b2174a03fb44b4512f04997e48d636d12
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62563773"
 ---
 # <a name="crt-debug-heap-details"></a>CRT 디버그 힙 정보
 이 항목에서는 CRT 디버그 힙에 대해 자세히 설명합니다.

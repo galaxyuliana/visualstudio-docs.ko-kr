@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 0044991b330594d80422f0c6ac1d1d64b1fec237
-ms.sourcegitcommit: b7f25ae08e45fcaa84a84276b588cf6799cc7620
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57567185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62951169"
 ---
 # <a name="custom-actions-in-outlook-form-regions"></a>Outlook 양식 영역의 사용자 지정 작업
   사용자가 Microsoft Office Outlook 항목에 응답할 수 있도록 단추를 표시 하는 작업입니다. 예를 들어, 메일 항목에 응답 하려면 사용자가 클릭 합니다 **회신**를 **전체 회신**, 또는 **앞으로** 작업 단추입니다. 이러한 각 작업을 새 메일 항목을 만들고 원래 항목의 정보를 사용 하 여 항목의 필드를 채웁니다.

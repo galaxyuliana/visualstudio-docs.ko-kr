@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 8f7afee863d36796bb481f9aca2c24a9ba891ae7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62952728"
 ---
 # <a name="create-sharepoint-solution-packages"></a>SharePoint 솔루션 패키지 만들기
   패키지 디자이너를 사용 하 여 만들 수 있으며 배포 패키지를 사용자 지정 키를 누릅니다. 예를 들어, SharePoint 프로젝트 항목 및 기능을 IIS 서버를 다시 설정, 기능 활성화 범위를 설정 및 기능 종속성을 식별을 추가할 수 있습니다. 또한 디자이너는 각 패키지를 설명 하는 XML 파일인 매니페스트를 생성 합니다.

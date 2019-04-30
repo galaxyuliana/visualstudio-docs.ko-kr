@@ -16,12 +16,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: e06421955089a378cd20399280d066cc27bfe03f
-ms.sourcegitcommit: 36f5ffd6ae3215fe31837f4366158bf0d871f7a9
+ms.openlocfilehash: 3cdd9f0b46c578f713b7f2af2940f4d7742df19a
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59232803"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62557218"
 ---
 # <a name="net-coding-convention-settings-for-editorconfig"></a>EditorConfig에 대한 .NET 코딩 규칙 설정
 
@@ -62,7 +62,7 @@ ms.locfileid: "59232803"
 심각도 | 효과
 :------- | ------
 `none` | 이 규칙을 위반하는 경우 사용자에게 아무 것도 표시되지 않습니다. 그러나 코드 생성 기능은 이 스타일의 코드를 생성합니다. `none` 심각도의 규칙은 **빠른 작업 및 리팩터링** 메뉴에 나타나지 않습니다. 대부분의 경우 “사용하지 않도록 설정” 또는 “무시”되는 것으로 간주됩니다.
-`silent` (Visual Studio 2017 버전 15.8의 `refactoring`) | 이 규칙을 위반하는 경우 사용자에게 아무 것도 표시되지 않습니다. 그러나 코드 생성 기능은 이 스타일의 코드를 생성합니다. `silent` 심각도의 규칙은 **빠른 작업 및 리팩터링** 메뉴뿐만 아니라 정리에도 참여합니다.
+`silent`(Visual Studio 2017 버전 15.8의 `refactoring`) | 이 규칙을 위반하는 경우 사용자에게 아무 것도 표시되지 않습니다. 그러나 코드 생성 기능은 이 스타일의 코드를 생성합니다. `silent` 심각도의 규칙은 **빠른 작업 및 리팩터링** 메뉴뿐만 아니라 정리에도 참여합니다.
 `suggestion` | 이 스타일 규칙을 위반하는 경우 이를 사용자에게 제안으로 표시합니다. 제안은 처음 두 개의 문자 아래에 세 개의 회색 점으로 표시됩니다.
 `warning` | 이 스타일 규칙을 위반하는 경우 컴파일러 경고가 표시됩니다.
 `error` | 이 스타일 규칙을 위반하는 경우 컴파일러 오류가 표시됩니다.
@@ -70,7 +70,7 @@ ms.locfileid: "59232803"
 다음 목록에서는 허용되는 언어 코드 스타일 설정을 보여줍니다.
 
 - .NET 코드 스타일 설정
-    - [“This.” 그리고 "Me." 한정자](#this_and_me)
+    - ["This." 및 "Me." 한정자](#this_and_me)
         - dotnet\_style\_qualification\_for_field
         - dotnet\_style\_qualification\_for_property
         - dotnet\_style\_qualification\_for_method
@@ -98,7 +98,7 @@ ms.locfileid: "59232803"
         - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
         - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
         - dotnet\_style\_prefer\_conditional\_expression\_over\_return
-    - [“Null” 검사 기본 설정](#null_checking)
+    - ["Null" 검사 기본 설정](#null_checking)
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
 - C# 코드 스타일 설정
@@ -122,7 +122,7 @@ ms.locfileid: "59232803"
         - csharp\_prefer\_simple\_default_expression
         - csharp\_style\_deconstructed\_variable_declaration
         - csharp\_style\_pattern\_local\_over\_anonymous_function
-    - [“Null” 검사 기본 설정](#null_checking_csharp)
+    - ["Null" 검사 기본 설정](#null_checking_csharp)
         - csharp\_style\_throw_expression
         - csharp\_style\_conditional\_delegate_call
     - [코드 블록 기본 설정](#code_block)
@@ -329,13 +329,14 @@ dotnet_style_predefined_type_for_member_access = true:suggestion
 
 **dotnet\_style\_require\_accessibility_modifiers**
 
-이 규칙은 **true** 또는 **false** 값을 허용하지 않습니다. 대신 다음 테이블의 값을 허용합니다.
+이 규칙은 다음 표의 값을 허용합니다.
 
 | 값 | 설명 |
 | ----- |:----------- |
 | always | 액세스 가능성 한정자를 지정하는 것이 좋습니다. |
-| for\_non\_interface_members | 공용 인터페이스 멤버를 제외하고 액세스 가능성 한정자를 선언하는 것을 선호합니다. 이는 **always**와 같으며 C#에서 기본 인터페이스의 메서드를 추가할 경우 향후 교정을 위해 추가되었습니다. |
+| for\_non\_interface_members | 공용 인터페이스 멤버를 제외하고 액세스 가능성 한정자를 선언하는 것을 선호합니다. (이는 **always**와 같으며 C#에서 기본 인터페이스의 메서드를 추가할 경우 향후 교정을 위해 추가되었습니다.) |
 | never | 액세스 가능성 한정자를 지정하지 않는 것이 좋습니다. |
+| omit_if_default | 기본 한정자인 경우를 제외하고 내게 필요한 옵션 한정자를 지정하는 것이 좋습니다. |
 
 코드 예제:
 
@@ -748,8 +749,6 @@ If Object.ReferenceEquals(value, Nothing)
     Return
 End If
 ```
-
-
 
 **dotnet\_style\_prefer\_conditional\_expression\_over_assignment**
 

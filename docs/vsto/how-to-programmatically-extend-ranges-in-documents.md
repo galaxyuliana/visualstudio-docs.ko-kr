@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 26213477e7cec69da9171c5197371772973be5d3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62812753"
 ---
 # <a name="how-to-programmatically-extend-ranges-in-documents"></a>방법: 프로그래밍 방식으로 문서의 범위 확장
   Microsoft Office Word 문서에서 <xref:Microsoft.Office.Interop.Word.Range> 개체를 정의한 후 <xref:Microsoft.Office.Interop.Word.Range.MoveStart%2A> 및 <xref:Microsoft.Office.Interop.Word.Range.MoveEnd%2A> 메서드를 사용하여 해당 개체의 시작점과 끝점을 변경합니다. <xref:Microsoft.Office.Interop.Word.Range.MoveStart%2A> 하 고 <xref:Microsoft.Office.Interop.Word.Range.MoveEnd%2A> 메서드는 동일한 두 개의 인수를 *단위* 및 *개수*합니다. 합니다 *개수* 인수는 이동할 단위의 수와 *단위* 인수는 다음 중 하나일 수 있습니다 <xref:Microsoft.Office.Interop.Word.WdUnits> 값:

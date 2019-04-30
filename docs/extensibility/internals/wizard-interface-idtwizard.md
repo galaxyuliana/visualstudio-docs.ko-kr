@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: fb22e857322cbd1893048392de85768287339198
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62856772"
 ---
 # <a name="wizard-interface-idtwizard"></a>마법사 인터페이스(IDTWizard)
 통합된 개발 환경 (IDE)에서 사용 하 여 <xref:EnvDTE.IDTWizard> 마법사를 사용 하 여 통신 하는 인터페이스입니다. 마법사는 IDE에서 설치 하려면이 인터페이스를 구현 해야 합니다.

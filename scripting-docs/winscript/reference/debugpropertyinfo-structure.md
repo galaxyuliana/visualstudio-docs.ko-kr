@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 99208626b41f2463178bccecf73c21a1d15fa765
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62955265"
 ---
 # <a name="debugpropertyinfo-structure"></a>DebugPropertyInfo 구조체
 개체의 이름, 형식 및 값이 있는 계층적 특성을 설명 합니다. 지역 변수, 매개 변수, 조사식 변수 및 식의 디버그 속성을 설명 하는 데 사용 되 고 등록 합니다.  

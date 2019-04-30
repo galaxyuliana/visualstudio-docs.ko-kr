@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 9115e675c43e04496712784371ac2301ef7c2f8a
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55934255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566692"
 ---
 # <a name="compatible-database-systems-for-visual-studio"></a>Visual Studio용 호환 데이터베이스 시스템
 
@@ -53,7 +53,7 @@ SQLite는 응용 프로그램의 고유한 프로세스에서 실행 되는 포�
 
 Firebird는 오픈 소스 SQL 데이터베이스 시스템입니다. 다운로드할 수 있습니다 합니다 [Firebird 다운로드 페이지](http://firebirdsql.org/en/downloads/)합니다. ADO.NET 데이터 공급자는 NuGet 패키지 관리자를 통해 사용할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)
 - [SQL Server 및 관련 구성 요소의 버전을 확인하는 방법](http://support.microsoft.com/kb/321185)

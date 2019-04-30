@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 06ec985dc6709651be7bd2f12b024eda4ed03d5a
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56631018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62908437"
 ---
 # <a name="using-msbuild"></a>MSBuild 사용
 MSBuild를 완벽 하 게 빌드할 수, 작업, 빌드 및 빌드 구성 프로젝트 항목을 설명 하는 프로젝트 파일 만들기에 대 한 잘 정의 되 고 확장 가능한 XML 형식으로 제공 합니다.

@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b19a301f7c170ee28d774ea0d96397dc2cfef312
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62855301"
 ---
 # <a name="workflow-designer-ui-help"></a>Workflow Designer UI 도움말
 이 단원에서는 [!INCLUDE[wfd1](../includes/wfd1-md.md)]의 상황에 맞는 도움말 항목을 제공합니다. 작업할 때 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 눌러 사용자 인터페이스에서 이러한 항목에 액세스할 수 있습니다 **F1** 경우를 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 대화 상자가 열려 있습니다.  

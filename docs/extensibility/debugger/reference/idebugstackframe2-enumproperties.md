@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 651bc4945f8acc65d5f12da5fecef7a4926ef416
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56683911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62868822"
 ---
 # <a name="idebugstackframe2enumproperties"></a>IDebugStackFrame2::EnumProperties
 스택 프레임을 로컬 변수와 같은 연관 된 속성에 대 한 열거자를 만듭니다.

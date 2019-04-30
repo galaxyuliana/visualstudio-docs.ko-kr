@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: be522112dd4cfa16744d0c9e54601ba7a0492704
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55912627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63004233"
 ---
 # <a name="parallelforeach-activity-designer"></a>ParallelForEach 활동 디자이너
 
@@ -41,7 +41,7 @@ ms.locfileid: "55912627"
 
 다음 표에서는 가장 유용한 <xref:System.Activities.Statements.ParallelForEach%601> 활동 속성을 보여 주고 디자이너에서 이러한 속성을 사용하는 방법을 설명합니다.
 
-|속성 이름|필수|용도|
+|속성 이름|필수|사용법|
 |-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|머리글에 활동 디자이너의 표시 이름을 지정합니다. 기본값은 **ParallelForEach\<Int32 >** 합니다. 값을 선택적으로 편집할 수 있습니다 합니다 **속성** 표에서 또는 활동 디자이너 머리글에서 직접.|
 |<xref:System.Activities.Statements.ParallelForEach%601.Body%2A>|False|컬렉션의 각 항목에 대해 실행할 활동입니다. 추가할를 <xref:System.Activities.Statements.ParallelForEach%601.Body%2A> 활동을 도구 상자에서 활동을 **본문** 상자에 **ParallelForEach\<T >** 여기에 작업 놓기 "힌트 텍스트가 있는 활동 디자이너.|

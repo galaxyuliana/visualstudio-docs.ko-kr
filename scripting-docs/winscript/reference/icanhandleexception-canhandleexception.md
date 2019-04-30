@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 406787d5ee6811b80f9e6831e5a67cab8367e7d0
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146489"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62991392"
 ---
 # <a name="icanhandleexceptioncanhandleexception"></a>ICanHandleException::CanHandleException
 스크립트 엔진의 호출자가 지정 된 예외를 처리할 수 있는지 확인 합니다.  

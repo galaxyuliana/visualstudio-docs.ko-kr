@@ -12,11 +12,11 @@ ms.assetid: 8af29dd4-eaf1-4b3c-b602-198e1a3dff23
 caps.latest.revision: 14
 manager: jillfra
 ms.openlocfilehash: c07f8f62fb7ae84b5f3ee6140cccecf744c759e5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60083922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62434178"
 ---
 # <a name="upgrading-project-items"></a>프로젝트 항목 업그레이드
 를 추가 하거나 구현 하지 않는 프로젝트 시스템 내에서 항목을 관리 하는 경우 프로젝트 업그레이드 프로세스에 참여 해야 합니다. Crystal Reports은 프로젝트 시스템에 추가할 수 있는 항목의 예입니다.  

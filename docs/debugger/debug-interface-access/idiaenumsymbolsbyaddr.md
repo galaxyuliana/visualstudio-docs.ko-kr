@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 96ed66156fae24e22c549fffb6eb982a45e7e3f5
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62830372"
 ---
 # <a name="idiaenumsymbolsbyaddr"></a>IDiaEnumSymbolsByAddr
 데이터 원본에 포함 된 다양 한 기호를 주소로 열거 합니다.
@@ -40,7 +40,7 @@ IDiaEnumSymbolsByAddr : IUnknown
 |[IDiaEnumSymbolsByAddr::Prev](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-prev.md)|주소로 순서로 이전 기호를 검색합니다. 가져올 요소의 번호로 열거자 위치를 업데이트 합니다.|
 |[IDiaEnumSymbolsByAddr::Clone](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr-clone.md)|개체의 복사본을 만듭니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 인터페이스 주소를 그룹화 하는 기호를 제공 합니다. 예를 들어 유형별로 그룹화 하는 기호를 사용 하 `SymTagUDT` (사용자 정의 형식) 또는 `SymTagBaseClass`를 사용 합니다 [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md) 인터페이스입니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

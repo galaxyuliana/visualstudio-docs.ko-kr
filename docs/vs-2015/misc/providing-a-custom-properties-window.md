@@ -11,11 +11,11 @@ ms.assetid: 408dcdef-8ef9-4644-97d2-f311cd35824f
 caps.latest.revision: 12
 manager: jillfra
 ms.openlocfilehash: a244463832ff5620efa74a2c7fd20d6d47d79e76
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62810706"
 ---
 # <a name="providing-a-custom-properties-window"></a>사용자 지정 속성 창 제공
 직접 제공할 수 있기 **속성** 창을 확장 하는 대신 지정 된 프로젝트 시스템에 대 한 합니다 **속성** 에서 제공 하는 창은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 통합된 개발 환경 (IDE)입니다. 가장 자주 발생 한 시나리오에는 구현 하는 경우 직접 창 프레임에 배치 하는 개체입니다.  

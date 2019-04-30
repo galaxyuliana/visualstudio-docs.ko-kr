@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 26f5ee29a52546e7f2111189f54d64c160a94cea
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62860348"
 ---
 # <a name="ide-defined-commands-for-extending-project-systems"></a>프로젝트 시스템 확장을 위한 IDE 정의 명령
 프로젝트 시스템을 확장 하려는 경우 명령을 사용 하 여 하 고 명령에서 제공 하는 그룹 수는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.

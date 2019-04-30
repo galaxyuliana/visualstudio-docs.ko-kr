@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 3cbb4b0b54fb9a3821d3033ef0e65fd0bafbc246
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58159287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62582500"
 ---
 # <a name="ijsdebugdatatarget-interface"></a>IJsDebugDataTarget 인터페이스
 액세스 대상 디버거 프로세스의 상태를 변경 하는 기능을 제공 하도록 디버거에 의해 구현 됩니다.  

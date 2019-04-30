@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a5421599d2ffa006a445e0410088671d8897cc52
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.openlocfilehash: d62f999f485acaba168a50d404f2b5cbb272ef14
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55923254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62821080"
 ---
 # <a name="use-regular-expressions-in-visual-studio"></a>Visual Studio에서 정규식 사용
 
@@ -37,7 +37,7 @@ Visual Studio에서는 [.NET Framework 정규식](/dotnet/standard/base-types/re
 
 다음은 몇 가지 예입니다.
 
-|용도|식|예|
+|용도|식|예제|
 |-------------|----------------|-------------|
 |줄 바꿈 이외의 모든 단일 문자를 찾습니다.|.|`a.o`는 "around"의 "aro" 및 "about"의 "abo"와 일치하지만 "across"의 "acro"와 일치하지 않습니다.|
 |이전 식에서 일치 항목 0개 이상을 찾습니다(가능한 한 많은 문자를 찾음).|*|`a*r`는 "rack"의 "r", "ark"의 "ar", "aardvark"의 "aar"과 일치합니다.|
@@ -61,12 +61,12 @@ Visual Studio에서는 [.NET Framework 정규식](/dotnet/standard/base-types/re
 |단어 경계를 찾습니다.|\b(문자 클래스 `\b` 외부는 단어 경계를 지정하고 문자 클래스 `\b` 내부는 백스페이스를 지정합니다.)|`\bin`은 "inside"의 "in"과 일치하지만 "pinto"와 일치하지 않습니다.|
 |줄 바꿈을 찾습니다(즉, 캐리지 리턴 뒤에 줄 바꿈).|\r?\n|`End\r?\nBegin`은 "End"가 줄의 마지막 문자열이고 "Begin"이 다음 줄의 첫 번째 문자열일 때만 "End" 및 "Begin"과 일치합니다.|
 |영숫자 문자를 찾습니다.|\w|`a\wd`는 "add" 및 "a1d"와 일치하지만 "a d"와 일치하지 않습니다.|
-|공백 문자를 찾습니다.|(?([^\r\n])\s)|`Public\sInterface`는 구 "Public Interface"와 일치합니다.|
+|공백 문자를 찾습니다.|\s|`Public\sInterface`는 구 "Public Interface"와 일치합니다.|
 |임의 숫자 문자를 찾습니다.|\d|`\d`는 "3456"의 "3", 23"의 "2", "1"의 "1"과 일치합니다.|
 |유니코드 문자를 찾습니다.|\uXXXX. 여기서 XXXX는 유니코드 문자 값을 지정합니다.|`\u0065`는 문자 "e"와 일치합니다.|
 |식별자를 찾습니다.|\b[\_\w-[0-9]][\_\w]*\b|“type1”과 일치하지만 “&type1” 또는 “#define”과 일치하지 않습니다.|
 |따옴표 안의 문자열을 찾습니다.|((\\".+?\\")&#124;('.+?'))|작은따옴표 또는 큰따옴표 안의 문자열을 찾습니다.|
-|16진수를 찾습니다.|\b0[xX]([0-9a-fA-F]\)\b|"0xc67f"와 일치하지만 "0xc67fc67f"와 일치하지 않습니다.|
+|16진수를 찾습니다.|\b0[xX]([0-9a-fA-F]+\)\b|“0xc67f”와 일치하지만 “0xc67g”와 일치하지 않습니다.|
 |정수 및 소수를 찾습니다.|\b[0-9]*\\.\*[0-9]+\b|"1.333"과 일치합니다.|
 
 > [!TIP]

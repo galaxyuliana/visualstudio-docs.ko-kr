@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 143ab857af7c48f711e47910df07b6c58d07bc31
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60058800"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967509"
 ---
 # <a name="how-to-add-a-feature-to-sharepoint-solutions"></a>방법: SharePoint 솔루션에 기능 추가
   SharePoint 솔루션을 만들 때 한 패키지 및 기능 중 하나는 솔루션에 추가 됩니다. 다양 한 유형의 SharePoint 파일 구성 기능 항목을 더 추가할 수 있습니다.

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: c86a0e995e3336bc217bcc9ad0e7ce28a6434478
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56597142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62832515"
 ---
 # <a name="idiareadexeatrvacallback"></a>IDiaReadExeAtRVACallback
 클라이언트 응용 프로그램을 상대 가상 주소에 지정 된 대로 실행 파일의 바이트를 제공할 수 있습니다.
@@ -35,7 +35,7 @@ IDiaReadExeAtRVACallback : IUnknown
 |------------|-----------------|
 |[IDiaReadExeAtRVACallback::ReadExecutableAtRVA](../../debugger/debug-interface-access/idiareadexeatrvacallback-readexecutableatrva.md)|지정된 된 상대 가상 주소에 (RVA) 실행 파일에서 시작 하는 바이트의 지정 된 수를 읽습니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  클라이언트 응용 프로그램 실행 파일의 파일에 상대 가상 주소를 사용 하 여 실행 파일의 바이트를 제공 하기 위해이 인터페이스를 구현 합니다. 절대 파일 오프셋을 사용 하려면 구현 합니다 [IDiaReadExeAtOffsetCallback](../../debugger/debug-interface-access/idiareadexeatoffsetcallback.md) 인터페이스입니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

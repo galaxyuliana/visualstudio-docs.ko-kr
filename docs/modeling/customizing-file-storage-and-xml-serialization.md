@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3956baeee617f82b142d1c1bfa54539d56446077
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62994928"
 ---
 # <a name="customize-file-storage-and-xml-serialization"></a>파일 스토리지 및 XML Serialization 사용자 지정
 

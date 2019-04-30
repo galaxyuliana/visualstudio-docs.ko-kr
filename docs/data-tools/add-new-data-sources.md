@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 05a07fc3cb72f923d28ff907c9aec69620cbd40d
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55955806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62824896"
 ---
 # <a name="add-new-data-sources"></a>새 데이터 원본 추가
 
@@ -113,6 +113,6 @@ Visual Studio의.NET data tools의 컨텍스트에서 용어 *데이터 원본* 
 
 실행 하 여 SharePoint 목록의 데이터 소스를 만들 수는 **데이터 소스 구성 마법사** 선택 하 고는 **SharePoint** 데이터 소스 형식입니다. SharePoint은 서비스에서 데이터 원본을 만드는 것과 같습니다는 SharePoint 데이터 원본 만들기 WCF Data Services를 통해 데이터를 노출 합니다. 선택 하는 **SharePoint** 항목에 **데이터 소스 구성 마법사** 열립니다는 **서비스 참조 추가** 대화 상자에서 SharePoint 데이터 서비스에 연결 SharePoint 서버를 가리키면 됩니다. SharePoint SDK 필요합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [.NET용 Visual Studio 데이터 도구](../data-tools/visual-studio-data-tools-for-dotnet.md)

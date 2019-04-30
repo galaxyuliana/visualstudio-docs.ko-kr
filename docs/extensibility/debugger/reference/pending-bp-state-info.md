@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: b4c19bed895a04e372f930d347a7caa761d34a56
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56717082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62865366"
 ---
 # <a name="pendingbpstateinfo"></a>PENDING_BP_STATE_INFO
 코드 위치에 바인딩할 수 있는 중단점의 상태에 대 한 정보를 포함 합니다.

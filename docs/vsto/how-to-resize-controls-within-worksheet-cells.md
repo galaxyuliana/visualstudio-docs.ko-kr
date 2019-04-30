@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: b51f26a4ea2dec50c5ee90c38f49412866b6f866
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62961493"
 ---
 # <a name="how-to-resize-controls-within-worksheet-cells"></a>방법: 워크시트 셀에서 컨트롤 크기 조정
   워크시트에 행 또는 열 크기를 조정 하면 셀 내에서 모든 호스트 컨트롤 크기가 조정 되었습니다에 있는 셀의 너비 또는 높이 자동으로 조정 합니다. Windows Forms 컨트롤 기본적으로 자동으로 크기가 조정 되지 않습니다.

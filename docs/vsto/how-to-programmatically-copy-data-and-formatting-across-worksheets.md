@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 77feefe7a2d274403e483dbaa3167f53f72ae168
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62575301"
 ---
 # <a name="how-to-programmatically-copy-data-and-formatting-across-worksheets"></a>방법: 프로그래밍 방식으로 워크시트 간에 데이터 및 서식 복사
   사용 하 여 통합 문서에 있는 모든 시트를 데이터에 하나의 시트를 범위에서 복사할 수는 <xref:Microsoft.Office.Interop.Excel.Worksheets.FillAcrossSheets%2A> 메서드. 범위를 지정 및 여부는 데이터, 서식 지정, 또는 둘 다 복사 합니다.

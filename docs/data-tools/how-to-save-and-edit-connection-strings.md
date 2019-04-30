@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 1f8300043f9a16c7d92d72c4dcb22e4cd0432a06
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55937554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566975"
 ---
 # <a name="how-to-save-and-edit-connection-strings"></a>방법: 연결 문자열 저장 및 편집
 Visual Studio 응용 프로그램의 연결 문자열 (응용 프로그램 설정이 라고도 함) 응용 프로그램 구성 파일에 저장 또는 응용 프로그램에 직접 하드 코딩 됩니다. 응용 프로그램 구성 파일에 연결 문자열을 저장하면 응용 프로그램 유지 관리 작업을 간소화할 수 있습니다. 연결 문자열을 변경해야 하는 경우 소스 코드에서 문자열을 변경한 다음, 애플리케이션을 다시 컴파일하는 대신 애플리케이션 설정 파일에서 문자열을 업데이트할 수 있습니다.
@@ -56,6 +56,6 @@ Windows 통합 보안을 사용하도록 선택하지 않았는데 데이터베�
 암호와 같은 중요한 정보를 연결 문자열 내에 저장하면 응용 프로그램 보안 문제가 발생할 수 있습니다. 데이터베이스 액세스를 제어할 경우에는 Windows 통합 보안을 사용하는 방법이 더 안전합니다.
 자세한 내용은 [연결 정보 보호](/dotnet/framework/data/adonet/protecting-connection-information)를 참조하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [연결 추가](../data-tools/add-new-connections.md)

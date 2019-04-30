@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 28334cc7aa0c8a5587a20d6c9dfdee3133d9ea7e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56718198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62921797"
 ---
 # <a name="idebugdocument2"></a>IDebugDocument2
 이 인터페이스는 원본 문서를 나타냅니다.
@@ -43,7 +43,7 @@ IDebugDocument2 : IUnknown
 |[GetDocumentClassID](../../../extensibility/debugger/reference/idebugdocument2-getdocumentclassid.md)|문서 클래스 식별자를 가져옵니다.|
 
 ## <a name="remarks"></a>설명
- 이 인터페이스는 DE 소스 코드를 제공 하는 경우에 구현 됩니다. 예를 들어, HTML 페이지에 스크립트를 디버깅 하는 경우는 DE 제공 소스 코드는 소스를 다운로드 하거나 동적으로 생성 하므로 한 디스크 파일로 존재 하지 않습니다. C + +와 같은 일반적인 언어에서 디버깅 하는 경우이 인터페이스는 구현 될 필요가 없습니다.
+ 이 인터페이스는 DE 소스 코드를 제공 하는 경우에 구현 됩니다. 예를 들어, HTML 페이지에 스크립트를 디버깅 하는 경우는 DE 제공 소스 코드는 소스를 다운로드 하거나 동적으로 생성 하므로 한 디스크 파일로 존재 하지 않습니다. 와 같은 일반적인 언어에서 디버깅 하는 경우 C++에서이 인터페이스를 구현할 필요가 없습니다.
 
 ## <a name="requirements"></a>요구 사항
  헤더: msdbg.h

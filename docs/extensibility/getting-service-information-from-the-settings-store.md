@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: fe38bf84510ea247c737477e421db8dbb15f63c0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62863144"
 ---
 # <a name="get-service-information-from-the-settings-store"></a>설정 저장소에서 서비스 정보 가져오기
 사용 가능한 모든 서비스 또는 특정 서비스가 설치 되어 있는지 확인 하려면 설정 저장소를 사용할 수 있습니다. 서비스 클래스의 형식을 알고 있어야 합니다.

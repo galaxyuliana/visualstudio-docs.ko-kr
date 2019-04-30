@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 04/02/2019
 ms.technology: vs-ide-install
 ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
-ms.openlocfilehash: 8c2c6fa6f947f43ed03fd1ec474c9ecb8b84a9fa
-ms.sourcegitcommit: 847d192013eb8225776243045c9b5a53d1ba4a59
+ms.openlocfilehash: 8cadbeba73afadbffb32aeaca04ad3de4df8733b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "59584469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62827470"
 ---
 # <a name="update-visual-studio-for-mac"></a>Mac용 Visual Studio 업데이트
 
@@ -54,7 +54,7 @@ Mac용 Visual Studio는 다음 두 가지 채널을 통해 최신 버전을 제�
 
 ## <a name="troubleshooting"></a>문제 해결
 
-Updater에 문제가 있는 경우 [Updater Troubleshooting](updater-troubleshooting.md)(Updater 문제 해결) 가이드에서 다음 단계를 수행해 보세요.
+Updater에 문제가 있는 경우 [Updater 문제 해결](updater-troubleshooting.md) 가이드의 단계를 수행해 보세요.
 
 ## <a name="see-also"></a>참고 항목
 

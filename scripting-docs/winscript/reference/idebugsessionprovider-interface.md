@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: fe73901d92cb42675ff9ec981bd9b90dcca5d546
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58148989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979050"
 ---
 # <a name="idebugsessionprovider-interface"></a>IDebugSessionProvider 인터페이스
 디버거 호스트 및 언어를 사용 하도록 설정 하려면 IDE에서 제공 하는 기본 인터페이스 디버깅을 시작 합니다. 실행 중인 응용 프로그램에 대 한 디버그 세션을 설정합니다. 컴퓨터 디버그 관리자에서이 인터페이스를 구현 됩니다.  

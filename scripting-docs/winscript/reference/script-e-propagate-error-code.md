@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: e6b1feac19be5f6506227b60515df70d9a737a2a
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58155984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62840287"
 ---
 # <a name="scriptepropagate-error-code"></a>SCRIPT_E_PROPAGATE 오류 코드
 스크립트 오류를 다른 스레드에서 될 수 있는 호출자에 게 전파 됩니다. 호스트는 호출자에 게 오류 코드를 전달 해야 합니다.  

@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 74133386d2dbd6d6b3ccb099a0b9231bc9deb073
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62796505"
 ---
 # <a name="walkthrough-create-an-sdk-using-c"></a>연습: 사용 하 여 SDK 만들기C++
 이 연습에는 네이티브를 만드는 방법을 보여 줍니다 C++ 수학 라이브러리 SDK, SDK로는 VSIX Visual Studio Extension (), 패키지 및를 사용 하 여 앱을 만듭니다. 이 연습에서는 이러한 단계로 구분 됩니다.

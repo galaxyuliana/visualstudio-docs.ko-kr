@@ -12,11 +12,11 @@ author: steved0x
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 64698ba801254f05ce0d51502a1290952109a383
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977150"
 ---
 # <a name="add-parameters-and-add-arguments-dialog-boxes"></a>매개 변수 추가 및 인수 추가 대화 상자
 다음 표에 사용자 인터페이스 (UI) 요소에는 **매개 변수 추가** 사용 하는 대화 상자는 <xref:System.Activities.Statements.InvokeMethod> 디자이너입니다.  

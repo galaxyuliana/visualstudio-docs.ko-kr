@@ -17,17 +17,17 @@ ms.workload:
 - aspnet
 - dotnetcore
 ms.openlocfilehash: 93e3b0af04060c3a3805b29e5d1da71c4f60ec31
-ms.sourcegitcommit: b6177ce198c7c5a00030604c9d4faa735405d5df
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "59018092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62553882"
 ---
 # <a name="step-4-expose-a-web-api-from-your-aspnet-core-app"></a>4단계: ASP.NET Core 앱에서 웹 API 표시
 
 다음 단계에 따라 기존 ASP.NET Core 앱에 웹 API를 추가합니다.
 
-_이 동영상에 따라 첫 번째 ASP.NET Core 앱에 웹 API 지원을 추가합니다._
+_이 비디오를 보고 따라서 첫 번째 ASP.NET Core 앱에 웹 API 지원을 추가합니다._
 
 > [!VIDEO https://www.youtube.com/embed/o_fYPOsAXts]
 

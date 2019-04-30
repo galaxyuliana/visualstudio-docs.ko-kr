@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: afb73b316dd54284073c3d878fb35b4bb6090e08
-ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58647247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62569998"
 ---
 # <a name="create-a-database-and-add-tables-in-visual-studio"></a>데이터베이스를 만들고 Visual Studio에서 테이블을 추가 합니다.
 
@@ -173,6 +173,6 @@ ms.locfileid: "58647247"
 
 7. 메뉴 모음에서 선택 **파일** > **모두 저장**합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터 액세스](accessing-data-in-visual-studio.md)

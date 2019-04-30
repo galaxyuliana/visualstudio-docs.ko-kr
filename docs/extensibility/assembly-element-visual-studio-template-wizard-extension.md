@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: fc3ec9052a9d912e5563e4db1f8afc8d9daf9d6e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56699849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62843634"
 ---
 # <a name="assembly-element-visual-studio-template-wizard-extension"></a>Assembly 요소 (Visual Studio 템플릿 마법사 확장명)
 이름 또는 구현 하는 어셈블리의 강력한 이름을 지정 합니다 `IWizard` 인터페이스입니다.

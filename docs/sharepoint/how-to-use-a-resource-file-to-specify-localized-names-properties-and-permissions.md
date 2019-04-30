@@ -20,11 +20,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 2be88a29d3e9e3da9d1963aa1226ffca0a0a2bbd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62813051"
 ---
 # <a name="how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions"></a>방법: 리소스 파일을 사용 하 여 지역화 된 이름, 속성 및 사용 권한을 지정 합니다.
   리소스 파일을 사용하여 지역화된 이름을 제공하고, 속성을 정의하고, BDC(비즈니스 데이터 연결) 모델에 정의된 개체에 대한 사용 권한을 적용할 수 있습니다. 이 정보를 지정 하려면 추가 **비즈니스 데이터 연결 리소스** 포함 된 프로젝트에 항목을 **비즈니스 데이터 연결 모델** 항목입니다. 그런 다음 리소스 파일의 XML을 편집하여 이름, 속성 및 사용 권한을 지정합니다.

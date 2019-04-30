@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 37932ce6e64361692d659355e9ab6e88ee5462ed
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62806500"
 ---
 # <a name="message-enumerator"></a>메시지 열거자
 다음 플래그에 사용 되는 `TEXTOUTPROC` 함수를 호출할 때 IDE에서 제공 하는 콜백 함수를 [SccOpenProject](../extensibility/sccopenproject-function.md) (참조 [LPTEXTOUTPROC](../extensibility/lptextoutproc.md) 콜백에 대 한 자세한 내용은 함수 사용)입니다.

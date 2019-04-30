@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: a5dc7f7e62526050eeabdb91a557bbdf0fbcf6da
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55957954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62779523"
 ---
 # <a name="ca1026-default-parameters-should-not-be-used"></a>CA1026: 기본 매개 변수를 사용하면 안 됩니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "55957954"
 ## <a name="rule-description"></a>규칙 설명
  기본 매개 변수를 사용 하는 메서드를 사용할 수에서 CLS 공용 언어 사양 (); 그러나 CLS 컴파일러를 이러한 매개 변수에 할당 된 값을 무시할 수 있습니다. 기본 매개 변수 값을 무시 하는 컴파일러에 대 한 작성 된 코드는 각 기본 매개 변수에 대해 인수를 명시적으로 제공 해야 합니다. 프로그래밍 언어에서 원하는 동작을 유지 하려면 기본 매개 변수를 사용 하는 메서드는 기본 매개 변수를 제공 하는 메서드 오버 로드로 대체 되어야 합니다.
 
- 관리 코드에 액세스할 때 컴파일러가 기본 매개 변수 값 관리 확장에 대 한 c + +에 대 한 무시 합니다. Visual Basic 컴파일러를 사용 하는 기본 매개 변수가 있는 메서드를 지원 합니다 [선택 사항](/dotnet/visual-basic/language-reference/modifiers/optional) 키워드입니다.
+ 컴파일러에 대 한 관리 되는 확장에 대 한 기본 매개 변수 값을 무시 C++ 관리 코드에 액세스 합니다. Visual Basic 컴파일러를 사용 하는 기본 매개 변수가 있는 메서드를 지원 합니다 [선택 사항](/dotnet/visual-basic/language-reference/modifiers/optional) 키워드입니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하려면 기본 매개 변수를 제공 하는 메서드 오버 로드를 사용 하 여 기본 매개 변수를 사용 하는 메서드를 대체 합니다.

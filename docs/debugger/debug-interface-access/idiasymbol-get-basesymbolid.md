@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 8880d207a41418e12cab4374578fea4f3c4f338c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56622451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62837717"
 ---
 # <a name="idiasymbolgetbasesymbolid"></a>IDiaSymbol::get_baseSymbolId
 포인터 기반 기호 ID를 검색 합니다.

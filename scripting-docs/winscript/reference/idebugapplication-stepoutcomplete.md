@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 04f8ecfb835199afa0a60f3fde3c8fbdc8812240
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58153138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62990609"
 ---
 # <a name="idebugapplicationstepoutcomplete"></a>IDebugApplication::StepOutComplete
 단일 단계 모드에서 언어 엔진을 호출자에 게 반환를 프로세스 디버그 관리자에 게 알립니다.  

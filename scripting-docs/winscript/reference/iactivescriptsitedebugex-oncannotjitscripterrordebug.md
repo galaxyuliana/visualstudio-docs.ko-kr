@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 4c643478da37b5a66c22b201ef8f8248df02e4ec
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58154480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62992336"
 ---
 # <a name="iactivescriptsitedebugexoncannotjitscripterrordebug"></a>IActiveScriptSiteDebugEx::OnCanNotJITScriptErrorDebug
 프로세스 디버그 관리자 때 스크립트에서 런타임 오류에 대 한 호스트 Just In Time 스크립트 디버거를 찾지 못하면 알립니다.  

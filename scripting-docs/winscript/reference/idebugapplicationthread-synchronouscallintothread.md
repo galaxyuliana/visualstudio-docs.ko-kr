@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: f0c9b89332b55a180220820e8ffe1e030d37a848
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822088"
 ---
 # <a name="idebugapplicationthreadsynchronouscallintothread"></a>IDebugApplicationThread::SynchronousCallIntoThread
 호출자에 게 응용 프로그램 스레드에에서 코드를 실행 하는 메커니즘을 제공 합니다.  

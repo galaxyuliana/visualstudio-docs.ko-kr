@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: bdd976c4710754d446c6b63e628427c42bf7da17
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56682416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62432413"
 ---
 # <a name="supporting-multiple-document-views"></a>여러 문서 보기 지원
 편집기에 대 한 별도 문서 데이터 및 문서 보기 개체를 만들어 문서 둘 이상의 뷰를 제공할 수 있습니다. 추가 문서 보기를는 유용할 수 있는 경우에 따라 다음과 같습니다.

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 687d46136ad4ed0f043210839e95caf6071f87f2
-ms.sourcegitcommit: 752f03977f45169585e407ef719450dbe219b7fc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56317486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62891084"
 ---
 # <a name="create-a-multi-instance-tool-window"></a>다중 인스턴스 도구 창을 만들려면
 여러 인스턴스가 동시에 열릴 수 있도록 도구 창을 프로그래밍할 수 있습니다. 기본적으로 도구 창을 열고 하나의 인스턴스만을 가질 수 있습니다.

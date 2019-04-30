@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.date: 03/21/2017
 ms.author: ghogen
 ms.openlocfilehash: c4daf3d92aa08e6dbbb81eac79112772900d08d8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62964043"
 ---
 # <a name="creating-an-azure-cloud-service-project-with-visual-studio"></a>Visual Studio에서 Azure 클라우드 서비스 프로젝트 만들기
 Azure Tools for Visual Studio는 [Azure 클라우드 서비스](/azure/cloud-services/cloud-services-choose-me)를 만들 수 있는 프로젝트 템플릿을 제공합니다. 이 서비스는 간단한 범용 Azure 서비스입니다. 프로젝트를 만든 후 Visual Studio에서 클라우드 서비스를 구성 및 디버그하고 Azure에 배포할 수 있습니다.

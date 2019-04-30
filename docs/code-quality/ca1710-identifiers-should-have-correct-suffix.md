@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 65ac417476752da832e5e9ebe693f6c83a5c1cfe
-ms.sourcegitcommit: f7c401a376ce410336846835332a693e6159c551
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57868077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62797411"
 ---
 # <a name="ca1710-identifiers-should-have-correct-suffix"></a>CA1710: 식별자에는 올바른 접미사를 사용해야 합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "57868077"
 |<xref:System.Collections.Stack?displayProperty=fullName>|컬렉션 또는 스택|
 |<xref:System.Collections.Generic.ICollection%601?displayProperty=fullName>|컬렉션|
 |<xref:System.Collections.Generic.IDictionary%602?displayProperty=fullName>|사전|
-|<xref:System.Data.DataSet?displayProperty=fullName>|데이터 집합|
+|<xref:System.Data.DataSet?displayProperty=fullName>|데이터 세트|
 |<xref:System.Data.DataTable?displayProperty=fullName>|컬렉션 또는 DataTable|
 |<xref:System.IO.Stream?displayProperty=fullName>|스트림|
 |<xref:System.Security.IPermission?displayProperty=fullName>|사용 권한|

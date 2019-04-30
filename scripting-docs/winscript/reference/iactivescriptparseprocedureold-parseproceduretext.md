@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 8e521bbdcd8d7397c1c2dfb377fd9b41811499f5
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58146229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62993217"
 ---
 # <a name="iactivescriptparseprocedureoldparseproceduretext"></a>IActiveScriptParseProcedureOld::ParseProcedureText
 지정 된 코드 프로시저를 구문 분석 하 고 프로시저를 익명 네임 스페이스를 추가 합니다.  

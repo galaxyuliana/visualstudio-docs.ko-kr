@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 9200c5366fb428371b633cfb0b97f72d8da8b566
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56693221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62866305"
 ---
 # <a name="ienumdebugportsuppliers2"></a>IEnumDebugPortSuppliers2
 이 인터페이스는 포트 공급자를 열거합니다.
@@ -41,7 +41,7 @@ IEnumDebugPortSuppliers2 : IUnknown
 |------------|-----------------|
 |[다음](../../../extensibility/debugger/reference/ienumdebugportsuppliers2-next.md)|열거형 시퀀스에서 포트 공급자의 지정된 된 수를 검색 합니다.|
 |[Skip](../../../extensibility/debugger/reference/ienumdebugportsuppliers2-skip.md)|열거형 시퀀스에서 포트 공급자의 지정된 된 수를 건너뜁니다.|
-|[다시 설정](../../../extensibility/debugger/reference/ienumdebugportsuppliers2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
+|[Reset](../../../extensibility/debugger/reference/ienumdebugportsuppliers2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|
 |[Clone](../../../extensibility/debugger/reference/ienumdebugportsuppliers2-clone.md)|현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.|
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugportsuppliers2-getcount.md)|열거자에서 포트 공급 업체의 수를 가져옵니다.|
 

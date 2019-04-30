@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: eede5f76a9689f79e769d23572a1d92f3ae3a867
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62891906"
 ---
 # <a name="add-a-shortcut-menu-in-a-tool-window"></a>도구 창의 바로 가기 메뉴 추가
 이 연습에서는 도구 창의 바로 가기 메뉴를 배치합니다. 바로 가기 메뉴에 단추, 텍스트 상자 또는 창 배경 단추로 클릭할 때 표시 되는 메뉴가입니다. 바로 가기 메뉴에서 명령을 다른 메뉴 또는 도구 모음에서 명령과 동일 하 게 동작 합니다. 바로 가기 메뉴를 지원 하려면 지정 된 *.vsct* 파일을 마우스 오른쪽 단추 클릭에 대 한 응답에 표시 합니다.

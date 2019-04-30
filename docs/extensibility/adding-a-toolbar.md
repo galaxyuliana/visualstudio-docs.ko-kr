@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 0485b6649396239d2b6501c65e801a03767d5df1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082297"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62891880"
 ---
 # <a name="add-a-toolbar"></a>도구 모음 추가
 이 연습에서는 Visual Studio IDE에 도구 모음을 추가 하는 방법을 보여 줍니다.

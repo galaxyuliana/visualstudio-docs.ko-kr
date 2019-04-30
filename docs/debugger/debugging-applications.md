@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3b918559742e9570ba3ad0ad1233ab643d087fdd
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56688006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62852246"
 ---
 # <a name="debugging-applications"></a>응용 프로그램 디버깅
 다음 섹션에서는 특정 유형의 응용 프로그램에 대한 디버그를 설명합니다. 다른 응용 프로그램 종류와 다른 언어는 다른 설정과 기술을 필요로 하며, 디버그해야 하는 다양한 문제를 발생시킵니다.

@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 5a5f71ba91c65a8d99d831c777fc47fe9233fc18
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62944861"
 ---
 # <a name="iperpropertybrowsing2getpredefinedstrings"></a>IPerPropertyBrowsing2::GetPredefinedStrings
 호출자가 목록 상자를 계산된 하는이 속성에 대 한 잠재적인 값을 나타내는 문자열 포인터 배열을 사용 하 여 입력을 허용 합니다.  

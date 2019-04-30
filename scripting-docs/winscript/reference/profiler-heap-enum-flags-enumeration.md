@@ -12,11 +12,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: d613ed3bcb4699f20d521f08b6c34d55d8363ba4
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58152787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62830359"
 ---
 # <a name="profilerheapenumflags-enumeration"></a>PROFILER_HEAP_ENUM_FLAGS 열거형
 개체 관계에서 가리킨 힙 개체에 대 한 추가 정보가 있는지 여부를 나타내는 플래그 노출 됩니다. 에 사용 된 [EnumHeap2](../../winscript/reference/iactivescriptprofilercontrol5-enumheap2-method.md) 메서드.  

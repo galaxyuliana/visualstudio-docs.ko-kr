@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: a5c6f44124ff49982d3821b1441eacf8dec7a666
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60047984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63006994"
 ---
 # <a name="label-redefined"></a>레이블이 다시 정의되었습니다.
 새 레이블 만들었지만 지정한 기존 레이블의 이름입니다. 레이블을 코드 블록을 표시 하기 위해 사용할 수 있지만 지정된 된 범위 내에서 고유 해야 합니다.  

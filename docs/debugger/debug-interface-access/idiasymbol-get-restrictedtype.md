@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f8929414c0e36983d378ea2a801803321f3aa88c
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56598195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62835528"
 ---
 # <a name="idiasymbolgetrestrictedtype"></a>IDiaSymbol::get_restrictedType
 지정 여부는 `this` 포인터 플래그가 지정 되어 제한으로.

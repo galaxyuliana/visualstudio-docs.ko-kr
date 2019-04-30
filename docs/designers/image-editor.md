@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 9783029eab9597624be459fe88b51a495328b5be
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55938191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62897399"
 ---
 # <a name="image-editor"></a>이미지 편집기
 
@@ -29,7 +29,7 @@ ms.locfileid: "55938191"
 
 |형식 이름|파일 이름 확장명|
 |-----------------| - |
-|PNG(Portable Network Graphics)|*.png*|
+|이동식 네트워크 그래픽|*.png*|
 |JPEG|*.jpg*, *.jpeg*, *.jpe*, *.jfif*|
 |DDS(Direct Draw Surface)|*.dds*|
 |GIF(Graphics Interchange Format)|*.gif*|
@@ -175,7 +175,7 @@ TGA(Truevision Graphics Adapter) 이미지 형식(Targa라고도 함)으로, 최
 |높이|이미지의 높이입니다.|
 |픽셀당 비트 수|각 픽셀을 나타내는 비트 수입니다. 이 속성의 값은 이미지의 **색 형식**에 따라 다릅니다.|
 |투명 선택 영역|선택 영역 레이어의 알파 값에 따라 선택 영역 레이어와 주 이미지를 혼합하는 경우 **True**이고, 그렇지 않으면 **False**입니다. 이 항목은 알파를 지원하는 이미지에만 사용할 수 있습니다.|
-|형식|이미지의 색 형식입니다. 이미지 형식에 따라 다양한 색 형식을 지정할 수 있습니다. 색 형식은 이미지에 포함된 색 채널의 수와 종류 및 다양한 채널의 크기와 인코딩을 정의합니다.|
+|서식|이미지의 색 형식입니다. 이미지 형식에 따라 다양한 색 형식을 지정할 수 있습니다. 색 형식은 이미지에 포함된 색 채널의 수와 종류 및 다양한 채널의 크기와 인코딩을 정의합니다.|
 |MIP 수준|활성 MIP 수준입니다. 이 항목은 MIP 수준이 있는 질감에만 사용할 수 있습니다.|
 |MIP 수준 수|이미지의 총 MIP 수준 수입니다. 이 항목은 MIP 수준이 있는 질감에만 사용할 수 있습니다.|
 |프레임 수|이미지의 총 프레임 수입니다. 이 항목은 질감 배열을 지원하는 이미지에만 사용할 수 있습니다.|

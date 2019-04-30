@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 2427bfbc70c992cfcd41217aec56aa94d825faae
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56713427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62918171"
 ---
 # <a name="idebugportnotify2"></a>IDebugPortNotify2
 이 인터페이스는 등록 또는 실행 중인 포트를 사용 하 여 디버깅할 수 있는 프로그램의 등록을 취소 합니다.

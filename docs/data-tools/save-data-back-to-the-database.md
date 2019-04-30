@@ -21,11 +21,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 31b41a9c18a9e055c9d144c7115d3673ee2e4443
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55928662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566592"
 ---
 # <a name="save-data-back-to-the-database"></a>데이터를 다시 데이터베이스에 저장
 
@@ -129,9 +129,9 @@ Tableadapter에 익숙한 경우에 다음이 항목 중 하나에 직접 이동
 | - |-----------------|
 |<xref:System.Data.DataRowState.Added>|에 항목으로 행이 추가 <xref:System.Data.DataRowCollection>합니다. (이 상태에서 행을 해당 하는 원래 버전에 존재 하지 않기 때문 때 마지막 <xref:System.Data.DataRow.AcceptChanges%2A> 메서드를 호출한).|
 |<xref:System.Data.DataRowState.Deleted>|사용 하 여 행이 삭제 합니다 <xref:System.Data.DataRow.Delete%2A> 의 <xref:System.Data.DataRow> 개체입니다.|
-|<xref:System.Data.DataRowState.Detached>|행이 만들어졌지만 <xref:System.Data.DataRowCollection>의 일부는 아닙니다. <xref:System.Data.DataRow> 즉시이 만들어진 후 전에 추가한 컬렉션 및 컬렉션에서 제거 된 후이 상태 개체입니다.|
+|<xref:System.Data.DataRowState.Detached>|행 생성 되었지만의 일부가 아닌 <xref:System.Data.DataRowCollection>합니다. <xref:System.Data.DataRow> 즉시이 만들어진 후 전에 추가한 컬렉션 및 컬렉션에서 제거 된 후이 상태 개체입니다.|
 |<xref:System.Data.DataRowState.Modified>|행의 열 값은 어떤 방식으로든에서 변경 되었습니다.|
-|<xref:System.Data.DataRowState.Unchanged>|<xref:System.Data.DataRow.AcceptChanges%2A>가 마지막으로 호출된 이후에 행이 변경되지 않았습니다.|
+|<xref:System.Data.DataRowState.Unchanged>|행이 이후 변경 되지 <xref:System.Data.DataRow.AcceptChanges%2A> 가 마지막으로 호출 합니다.|
 
 ### <a name="datarowversion-enumeration"></a>DataRowVersion 열거형
 
@@ -272,11 +272,11 @@ UPDATE 문에서 새 값을 모두 지정 (하는 레코드를 쓸) 뿐만 아�
 > [!NOTE]
 > 값을 설정할 수도 있습니다는 `Parameters` 컬렉션 데이터 어댑터의 이벤트 처리기에서 일반적으로 수행 하는 코드에서 직접 <xref:System.Data.DataTable.RowChanging> 이벤트입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- [Visual Studio의 데이터 세트 도구](../data-tools/dataset-tools-in-visual-studio.md)
+- [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)
 - [TableAdapter 만들기 및 구성](create-and-configure-tableadapters.md)
 - [TableAdapter를 사용하여 데이터 업데이트](../data-tools/update-data-by-using-a-tableadapter.md)
 - [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [데이터 유효성 검사](validate-data-in-datasets.md)
-- [방법: 엔터티 추가, 수정 및 삭제(WCF 데이터 서비스)](/dotnet/framework/data/wcf/how-to-add-modify-and-delete-entities-wcf-data-services)
+- [방법: 추가, 수정 및 삭제 (WCF data services)](/dotnet/framework/data/wcf/how-to-add-modify-and-delete-entities-wcf-data-services)

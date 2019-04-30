@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 052149783f93c1bf2f394be2fac9f6a51c9c0cf5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977924"
 ---
 # <a name="office-ui-customization"></a>Office UI 사용자 지정
   Visual Studio에서 Office 개발자 도구를 사용하여 Microsoft Office 응용 프로그램의 UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. 이 항목에서는 다음 섹션에서 사용자 지정할 수 있는 UI 기능에 대해 설명합니다.

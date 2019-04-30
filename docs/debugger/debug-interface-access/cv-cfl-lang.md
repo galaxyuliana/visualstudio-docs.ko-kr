@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 1f02545f1c19b57e46af302fbc0b2abaa7445612
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56646345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62555049"
 ---
 # <a name="cvcfllang"></a>CV_CFL_LANG
 응용 프로그램 또는 연결 된 모듈의 소스 코드 언어를 지정합니다.
@@ -49,7 +49,7 @@ typedef enum CV_CFL_LANG {
 ## <a name="elements"></a>요소
 CV_CFL_C 응용 프로그램 언어는 C입니다.
 
-CV_CFL_CXX 응용 프로그램 언어는 c + +입니다.
+CV_CFL_CXX 응용 프로그램 언어가 C++입니다.
 
 CV_CFL_FORTRAN 응용 프로그램 언어가 FORTRAN 합니다.
 
@@ -81,7 +81,7 @@ CV_CFL_MSIL 응용 프로그램 언어가 알 수 없는 언어 MSIL (Microsoft 
 
 CV_CFL_HLSL 응용 프로그램 언어는 High Level Shader Language입니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 이 열거형의 값에는 호출에서 반환 되는 [idiasymbol:: Get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md) 메서드.
 
 ## <a name="requirements"></a>요구 사항

@@ -8,11 +8,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f070b02c9b91420fab9058e3d33aa682334f9cd4
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55951542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62974672"
 ---
 # <a name="working-with-domain-specific-language-solutions"></a>도메인별 언어 솔루션 작업
 도메인 특정 언어 (DSL) Visual Studio 솔루션을 사용 하 여 생성 됩니다. 설정 하 고 솔루션을 사용자 지정 하는 방법에 대 한이 섹션이입니다.

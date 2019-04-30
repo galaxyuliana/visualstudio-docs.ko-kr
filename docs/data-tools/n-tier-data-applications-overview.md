@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 35b882914deacafae46f2470c49efe1d6ace00f6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566473"
 ---
 # <a name="n-tier-data-applications-overview"></a>N 계층 데이터 애플리케이션 개요
 *N 계층* 데이터 응용 프로그램은 여러 구분 되는 데이터 응용 프로그램 *계층*합니다. "분산된 응용 프로그램" 및 "다중 계층 응용 프로그램" 라고도 함, n 계층 응용 프로그램 클라이언트와 서버 간에 배포 된 개별 계층으로 처리를 구분 합니다. 데이터에 액세스 하는 응용 프로그램을 개발 하는 경우에 응용 프로그램을 구성 하는 다양 한 계층을 명확히 구분을 해야 합니다.

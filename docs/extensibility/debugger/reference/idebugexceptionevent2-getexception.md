@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 79385348aa9290f26a34b99dbd2d6f68cb92dc8a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62920219"
 ---
 # <a name="idebugexceptionevent2getexception"></a>IDebugExceptionEvent2::GetException
 이 이벤트를 발생 시킨 예외에 대 한 자세한 설명을 가져옵니다.
@@ -46,7 +46,7 @@ int GetException( 
 
 ## <a name="remarks"></a>설명
 
- [C + + 전용] 호출자가에서 모든 문자열을 해제 하는 일을 담당 합니다 [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) 해제와 구조체를 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 구조의 개체.
+ [C++ 만] 호출자가에서 모든 문자열을 해제 하는 일을 담당 합니다 [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) 해제와 구조체를 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 구조의 개체.
 
 ## <a name="see-also"></a>참고 항목
 - [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)

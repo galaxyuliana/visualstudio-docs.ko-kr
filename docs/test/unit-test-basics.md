@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: df0d6c25bad57550fcfc9ce475dcc9da488f195f
-ms.sourcegitcommit: b14b7a938a2aba9fcce4d5e813aadf2040b0dcda
+ms.openlocfilehash: 7a464103d38a9ba0d2215f53a593809b6136aa3d
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58647416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62990315"
 ---
 # <a name="unit-test-basics"></a>단위 테스트 기본 사항
 
@@ -82,9 +82,12 @@ public void Withdraw(double amount)
 
 ### <a name="generate-unit-test-project-and-unit-test-stubs"></a>단위 테스트 프로젝트 및 단위 테스트 스텁 생성
 
-1. 코드 편집기 창에서 마우스 오른쪽 단추를 클릭하고 오른쪽 클릭 메뉴에서 **단위 테스트 만들기**를 선택합니다.
+1. 코드 편집기 창에서 마우스 오른쪽 단추를 클릭하고 오른쪽 클릭 메뉴에서 [**단위 테스트 만들기**](create-unit-tests-menu.md)를 선택합니다.
 
-    ![편집기 창에서 상황에 맞는 메뉴 표시](../test/media/createunittestsrightclick.png)
+   ![편집기 창에서 상황에 맞는 메뉴 표시](../test/media/createunittestsrightclick.png)
+
+   > [!NOTE]
+   > **단위 테스트 만들기** 메뉴 명령은 .NET Framework(하지만.NET Core 아님)를 대상으로 하는 관리 코드에서만 사용할 수 있습니다.
 
 2. **확인**을 클릭하여 단위 테스트를 만드는 기본값을 그대로 사용하거나, 단위 테스트 프로젝트와 단위 테스트를 만들고 이름을 지정하는 데 사용되는 값을 변경합니다. 단위 테스트 메서드에 기본적으로 추가되는 코드를 선택할 수 있습니다.
 
@@ -127,17 +130,17 @@ public void Withdraw(double amount)
 
    코드 프로젝트에 대한 참조를 만들려면:
 
-   1.  **솔루션 탐색기**에서 프로젝트를 선택합니다.
+   1. **솔루션 탐색기**에서 프로젝트를 선택합니다.
 
-   2.  **프로젝트** 메뉴에서 **참조 추가**를 선택합니다.
+   2. **프로젝트** 메뉴에서 **참조 추가**를 선택합니다.
 
-   3.  **참조 관리자** 대화 상자에서 **솔루션** 노드를 열고 **프로젝트**를 선택합니다. 코드 프로젝트 이름을 선택하고 대화 상자를 닫습니다.
+   3. **참조 관리자** 대화 상자에서 **솔루션** 노드를 열고 **프로젝트**를 선택합니다. 코드 프로젝트 이름을 선택하고 대화 상자를 닫습니다.
 
 각 단위 테스트 프로젝트에는 코드 프로젝트에 있는 클래스 이름과 동일한 클래스가 포함됩니다. 이 예제의 경우 `AccountsTests` 프로젝트에는 다음과 같은 클래스가 포함됩니다.
 
--   `AccountInfoTests` 클래스에는 `AccountInfo` 프로젝트의 `Accounts` 클래스에 대한 단위 테스트 메서드가 포함됩니다.
+- `AccountInfoTests` 클래스에는 `AccountInfo` 프로젝트의 `Accounts` 클래스에 대한 단위 테스트 메서드가 포함됩니다.
 
--   `CheckingAccountTests` 클래스는 `CheckingAccount` 클래스에 대한 단위 테스트 메서드가 포함됩니다.
+- `CheckingAccountTests` 클래스는 `CheckingAccount` 클래스에 대한 단위 테스트 메서드가 포함됩니다.
 
 ## <a name="write-your-tests"></a>테스트 작성
 
@@ -185,11 +188,11 @@ public void Withdraw_AmountMoreThanBalance_Throws()
 
 Microsoft 유닛 테스트 프레임워크에 대한 자세한 내용은 다음 항목 중 하나를 참조하세요.
 
--   [코드 단위 테스트](unit-test-your-code.md)
+- [코드 단위 테스트](unit-test-your-code.md)
 
--   [C/C++에 대한 단위 테스트 작성](writing-unit-tests-for-c-cpp.md)
+- [C/C++에 대한 단위 테스트 작성](writing-unit-tests-for-c-cpp.md)
 
--   [단위 테스트에서 MSTest 프레임워크 사용](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
+- [단위 테스트에서 MSTest 프레임워크 사용](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 
 ## <a name="set-timeouts-for-unit-tests"></a>단위 테스트에 대한 시간 제한 설정
 
@@ -260,12 +263,12 @@ public void My_Test ()
 
 **A:** **테스트 탐색기**를 사용하여 테스트에 대한 디버깅 세션을 시작할 수 있습니다. Visual Studio 디버거에서 코드를 단계별로 실행하면 단위 테스트 및 테스트 중인 프로젝트 간을 앞뒤로 매끄럽게 이동할 수 있습니다. 디버깅을 시작하려면
 
-1.  Visual Studio 편집기에서 디버그하려는 하나 이상의 테스트 메서드에서 중단점을 설정합니다.
+1. Visual Studio 편집기에서 디버그하려는 하나 이상의 테스트 메서드에서 중단점을 설정합니다.
 
     > [!NOTE]
     > 테스트 메서드는 순서에 관계 없이 실행할 수 있기 때문에 디버그하려는 모든 테스트 메서드에 중단점을 설정합니다.
 
-2.  **테스트 탐색기**에서 테스트 메서드를 선택한 다음, 바로 가기 메뉴에서 **선택한 테스트 디버그**를 선택합니다.
+2. **테스트 탐색기**에서 테스트 메서드를 선택한 다음, 바로 가기 메뉴에서 **선택한 테스트 디버그**를 선택합니다.
 
 자세한 내용은 [단위 테스트 디버그](../debugger/debugger-feature-tour.md)를 참조하세요.
 
@@ -327,9 +330,9 @@ public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
 
 Microsoft Fakes는 외부 종속성에 대한 대체 클래스를 만들기 위해 두 가지 방법을 사용합니다.
 
-1.  *스텁* 은 대상 종속성 클래스의 부모 인터페이스로부터 파생된 대체 클래스를 생성합니다. 스텁 메서드는 대상 클래스의 공용 가상 메서드 대신 사용될 수 있습니다.
+1. *스텁* 은 대상 종속성 클래스의 부모 인터페이스로부터 파생된 대체 클래스를 생성합니다. 스텁 메서드는 대상 클래스의 공용 가상 메서드 대신 사용될 수 있습니다.
 
-2.  *Shim* 은 런타임 계측을 사용하여 대상 메서드에 대한 호출을 비가상 메서드에 대한 대체 shim 메서드로 전환합니다.
+2. *Shim* 은 런타임 계측을 사용하여 대상 메서드에 대한 호출을 비가상 메서드에 대한 대체 shim 메서드로 전환합니다.
 
 두 방법 모두, 테스트 메서드에서 원하는 동작을 지정하기 위해 종속 메서드에 대한 호출의 생성된 대리자를 사용합니다.
 

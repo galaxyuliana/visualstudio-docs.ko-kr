@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: c928d9f939db96ae302620952bbb6bbdedc396a3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54795171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62580702"
 ---
 # <a name="creating-a-ui-by-using-xaml-designer-in-visual-studio"></a>Visual Studio에서 XAML 디자이너를 사용하여 UI 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,9 +87,9 @@ Visual Studio의 XAML 디자이너는 XAML 기반 Windows 스토어, Windows Pho
 
  **디스플레이** 앱의 다른 디스플레이 크기 및 해상도를 미리 봅니다.
 
- **방향** 앱의 다른 방향 즉, **가로** 또는 **세로**를 지정합니다.
+ **방향** 앱에 대해 다른 방향을 지정 합니다. **가로** 또는 **세로**
 
- **가장자리** 앱의 다른 가장자리 맞춤 즉, **모두**, **왼쪽**, **오른쪽** 또는 **없음**을 지정합니다.
+ **Edge** 앱의 다른 가장자리 맞춤을 지정 합니다. **모두**, **왼쪽**, **오른쪽** 또는 **없음**
 
  **고대비** 선택한 대비 설정에 따라 응용 프로그램을 미리 봅니다. 이 설정은 **기본값**이외의 값으로 설정된 경우 App.xaml에 설정된 `RequestedTheme` 속성을 재정의합니다.
 

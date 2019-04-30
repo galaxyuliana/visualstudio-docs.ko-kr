@@ -9,13 +9,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e787ca3d2d29f04d6af27a5f36f1f84c9d0bc9f4
-ms.sourcegitcommit: 3ca33862c1cfc3ccb83de3e95f1e69e860ab143a
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57526635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62808482"
 ---
-# <a name="walkthrough-debug-an-xslt-style-sheet"></a>연습: XSLT 스타일 시트 디버깅
+# <a name="walkthrough-debug-an-xslt-style-sheet"></a>연습: XSLT 스타일시트 디버그
 
 이 연습 단계에서는 XSLT 디버거를 사용하는 방법을 보여 줍니다. 이 단계에는 변수 보기, 중단점 설정 및 단계별로 코드 실행이 포함됩니다. 디버거를 사용 하면 한 번에 한 줄씩 코드를 실행할 수 있습니다.
 

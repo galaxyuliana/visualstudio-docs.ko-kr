@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.date: 03/25/2017
 ms.author: ghogen
 ms.openlocfilehash: 25995eacc961474fcb6486668c918d2e5be5ba76
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62936252"
 ---
 # <a name="manage-the-resources-associated-with-your-azure-accounts-in-visual-studio-cloud-explorer"></a>Visual Studio 클라우드 탐색기에서 Azure 계정과 연결된 리소스 관리
 

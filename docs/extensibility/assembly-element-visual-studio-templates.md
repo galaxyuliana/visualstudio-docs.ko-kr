@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 5caa0804ae4d90a23ae59195d2e610653437babe
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62843547"
 ---
 # <a name="assembly-element-visual-studio-templates"></a>Assembly 요소 (Visual Studio 템플릿)
 서식 파일 프로젝트에 해당 어셈블리 참조를 추가 하는 어셈블리에 대 한 정보를 지정 합니다.

@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 52b2efa5e5def8214736d648e2b90906fe720dbe
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56654089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62956032"
 ---
 # <a name="data-in-office-solutions-walkthroughs"></a>에서 데이터 Office 솔루션 연습
   다음 연습에서는 Microsoft Office Word 및 Microsoft Office Excel용 문서 수준 사용자 지정 및 VSTO 추가 기능 데이터로 작업하는 방법을 보여 줍니다.

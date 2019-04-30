@@ -17,11 +17,11 @@ ms.workload:
 - aspnet
 - dotnetcore
 ms.openlocfilehash: 5e9cc4f579b5913d5be3030828cad1a799efcd72
-ms.sourcegitcommit: 509fc3a324b7748f96a072d0023572f8a645bffc
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "58859390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62840448"
 ---
 # <a name="step-2-create-your-first-aspnet-core-web-app"></a>2단계: 첫 번째 ASP.NET Core 웹앱 만들기
 
@@ -122,4 +122,4 @@ public void OnGet()
 
 ## <a name="see-also"></a>참고 항목
 
-- [자습서: ASP.NET Core를 사용하여 Razor 페이지 웹앱 만들기](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)
+- [자습서: ASP.NET Core를 사용하여 Razor Pages 웹앱 만들기](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)

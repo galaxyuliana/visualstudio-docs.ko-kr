@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e72b279d55cbe11f6232ff1f91c8fee443d9c283
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55910938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62969321"
 ---
 # <a name="process-text-templates-by-using-a-custom-host"></a>사용자 지정 호스트를 사용하여 텍스트 템플릿 처리
 
@@ -25,7 +25,7 @@ ms.locfileid: "55910938"
 > 패키지 또는 Visual Studio 내에서 실행 되는 확장을 작성 하는 경우에 고유한 호스트를 작성 하는 대신 텍스트 템플릿 서비스를 사용 하는 것이 좋습니다. 자세한 내용은 [VS 확장에서 텍스트 변환 호출](../modeling/invoking-text-transformation-in-a-vs-extension.md)합니다.
 
 > [!NOTE]
-> 서버 응용 프로그램에서는 텍스트 템플릿 변형을 사용하지 않는 것이 좋으며, 단일 스레드에서만 텍스트 템플릿 변형을 사용하는 것이 좋습니다. 텍스트 템플릿 엔진에서는 단일 AppDomain을 사용하여 템플릿을 변환하고 컴파일하고 실행하기 때문입니다. 변환된 코드는 스레드로부터 안전하도록 설계되지 않았습니다. 엔진은 디자인 타임에 Visual Studio 프로젝트에 있는 파일을 순차적으로 처리 하도록 설계 되었습니다.
+> 서버 응용 프로그램에서는 텍스트 템플릿 변환을 사용하지 않는 것이 좋으며, 단일 스레드에서만 텍스트 템플릿 변형을 사용하는 것이 좋습니다. 텍스트 템플릿 엔진에서는 단일 AppDomain을 사용하여 템플릿을 변환하고 컴파일하고 실행하기 때문입니다. 변환된 코드는 스레드로부터 안전하도록 설계되지 않았습니다. 엔진은 디자인 타임에 Visual Studio 프로젝트에 있는 파일을 순차적으로 처리 하도록 설계 되었습니다.
 >
 > 런타임에 응용 프로그램에 전처리 된 텍스트 템플릿을 사용 하 여는 것이 좋습니다: 참조 [T4 텍스트 템플릿을 사용 하 여 런타임 텍스트 생성](../modeling/run-time-text-generation-with-t4-text-templates.md)합니다.
 

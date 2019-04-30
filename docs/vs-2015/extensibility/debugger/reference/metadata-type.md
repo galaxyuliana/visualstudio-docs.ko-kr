@@ -13,11 +13,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1be7cb6071a0307a56285b8929e52e038c263fdc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62546826"
 ---
 # <a name="metadatatype"></a>METADATA_TYPE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ public struct METADATA_TYPE {
  tokClass  
  이 형식의 메타 데이터 토큰 ID입니다.  
   
- [C + +] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.  
+ [C++] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.  
   
 ## <a name="remarks"></a>설명  
  이 구조체의 공용 구조체의 일부분으로 표시를 [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) 경우 구조체를 `dwKind` 필드를 `TYPE_INFO` 구조로 설정 되어 `TYPE_KIND_METADATA` (의 값을 [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) 열거형)입니다.  

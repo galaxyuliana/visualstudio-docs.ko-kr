@@ -17,11 +17,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: bfaf520658edfdcf5b80fb89f89489a47c7fffa3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56695585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62852686"
 ---
 # <a name="debugger-project-settings"></a>디버거 프로젝트 설정
 일부 프로젝트 설정도 디버깅에 영향을 미칩니다. 즉, 디버거가 검색할 디렉터리, 프로그램 실행에 사용할 명령과 명령 인수, 프로그램에 대해 생성되는 디버그 정보의 형식 등과 같은 사항이 이러한 설정에 따라 결정됩니다. **속성 페이지** 대화 상자에서 이 설정을 변경할 수 있습니다.
@@ -31,9 +31,9 @@ ms.locfileid: "56695585"
 ## <a name="in-this-section"></a>섹션 내용
  [방법: 디버거 설정 지정](../debugger/how-to-specify-debugger-settings.md) 디버거 설정에 설명 합니다 **옵션** 대화 상자.
 
- [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md) 에 대해 설명 합니다 합니다 **디버그** 및 **릴리스** 설정과 사이 전환 하는 방법입니다.
+ [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md) 에 대해 설명 합니다는 **디버그** 하 고 **릴리스** 설정과 사이 전환 하는 방법입니다.
 
- [프로젝트는 c + + 디버그 구성에 대 한 설정을](../debugger/project-settings-for-a-cpp-debug-configuration.md) 에서 사용할 수 있는 속성을 나열 합니다 **속성 페이지** C 또는 c + + 프로젝트에 대 한 대화 상자.
+ [프로젝트 설정에 대 한는 C++ 디버그 구성](../debugger/project-settings-for-a-cpp-debug-configuration.md) 에서 사용할 수 있는 속성을 나열 합니다 **속성 페이지** C에 대 한 대화 상자 또는 C++ 프로젝트입니다.
 
  [프로젝트 설정에 대 한 C# 디버그 구성](../debugger/project-settings-for-csharp-debug-configurations.md) 에서 사용할 수 있는 속성을 나열 합니다 **속성 페이지** 대화 상자에 대 한 C# 프로젝트입니다.
 

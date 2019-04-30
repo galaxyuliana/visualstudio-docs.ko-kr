@@ -28,7 +28,7 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
 
 ## <a name="how-to-activate-the-benefit"></a>혜택을 활성화하는 방법
 
-1. https://my.visualstudio.com/Benefits로 이동하여 지원 섹션까지 아래로 스크롤하고, 기술 지원 타일에서 **채팅하여 활성화**를 클릭합니다.
+1.  https://my.visualstudio.com/Benefits 로 이동하여 지원 섹션까지 아래로 스크롤하고, 기술 지원 타일에서 **채팅하여 활성화**를 클릭합니다.
     > [!div class="mx-imgBorder"]
     > ![기술 지원 혜택 타일](_img/vs-tech-support/vs-tech-support-tile.png)
 2. 이렇게 하면 **계약 ID** 및 **액세스 ID**를 만들고 이메일을 통해 제공하여 기록을 위해 사용할 수 있는 담당자와 채팅 세션이 시작됩니다.

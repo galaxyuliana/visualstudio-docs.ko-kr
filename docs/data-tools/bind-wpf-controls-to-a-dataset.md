@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: b85999a22bf49923630a0abe2f9ef33950edd8fe
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58325083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62815640"
 ---
 # <a name="bind-wpf-controls-to-a-dataset"></a>데이터 세트로 WPF 컨트롤 바인딩
 
@@ -258,8 +258,8 @@ WPF 디자이너에서 XAML을 수정하여 창에 여러 단추를 추가합니
 
 - Visual Studio의 **데이터 원본** 창을 사용하여 WPF 컨트롤에 관련 데이터(즉, 부모-자식 관계가 있는 데이터)를 표시하는 방법을 알아봅니다. 자세한 내용은 [연습: WPF 응용 프로그램에서 관련된 데이터 표시](../data-tools/display-related-data-in-wpf-applications.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
-- [Visual Studio의 데이터 세트 도구](../data-tools/dataset-tools-in-visual-studio.md)
+- [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)
 - [데이터 바인딩 개요](/dotnet/framework/wpf/data/data-binding-overview)

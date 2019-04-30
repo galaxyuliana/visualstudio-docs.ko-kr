@@ -10,18 +10,20 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7d7e8c3bab691eeaf71383aef3315b51173492f7
-ms.sourcegitcommit: 2dc924c96a6d48803c8eedc3d6781202629b41fa
+ms.openlocfilehash: c94b33fad50cb5e271615629641ea7307f669255
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "57737038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62788544"
 ---
 # <a name="property-functions"></a>속성 함수
 
 .NET Framework 버전 4 및 4.5에서는 속성 함수를 사용하여 MSBuild 스크립트를 평가할 수 있습니다. 속성 함수는 속성이 나타나는 곳마다 사용할 수 있습니다. 작업과 달리 속성 함수는 대상 외부에서 사용할 수 있으며, 대상이 실행되기 전에 평가됩니다.
 
  MSBuild 작업을 사용하지 않고도 시스템 시간을 읽고 문자열을 비교하며 정규식을 일치시키고 빌드 스크립트의 다른 작업을 수행할 수 있습니다. MSBuild는 문자열을 숫자로, 숫자를 문자열로 변환하려고 하며, 필요한 경우 다른 변환을 수행합니다.
+ 
+속성 기능에서 반환된 문자열 값에서는 [특수 문자](msbuild-special-characters.md)가 이스케이프됩니다. 프로젝트 파일에 직접 입력된 것처럼 값을 처리하려면 `$([MSBuild]::Unescape())`를 사용하여 특수 문자를 이스케이프 해제합니다.
 
 ## <a name="property-function-syntax"></a>속성 함수 구문
 
@@ -175,7 +177,7 @@ $([MSBuild]::Add($(NumberOne), $(NumberTwo)))
 |string MakeRelative(string basePath, string path)|`path`를 `basePath`의 상대 경로로 설정합니다. `basePath`는 절대 디렉터리여야 합니다. 상대 경로로 설정할 수 없는 `path`는 반환된 축자입니다. `Uri.MakeRelativeUri`와 비슷합니다.|
 |string ValueOrDefault(string conditionValue, string defaultValue)|‘conditionValue’ 매개 변수가 비어 있는 경우에만 ‘defaultValue’ 매개 변수로 문자열을 반환하고, 비어 있지 않으면 conditionValue 값을 반환합니다.|
 
-##  <a name="nested-property-functions"></a>중첩 속성 함수
+## <a name="nested-property-functions"></a>중첩 속성 함수
 
 다음 예제에서 보여 주는 것처럼, 보다 복잡한 함수를 형성하기 위해 속성 함수를 결합할 수 있습니다.
 

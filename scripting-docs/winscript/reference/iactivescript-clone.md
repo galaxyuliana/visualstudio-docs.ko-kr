@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: bec912596c792a67f65434062bc0d0ed11bd3fb9
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58149028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935707"
 ---
 # <a name="iactivescriptclone"></a>IActiveScript::Clone
 현재 스크립팅 엔진 (빼기 모든 현재 실행 상태)를 현재 스레드에서 사이트가 있는 로드 된 스크립팅 엔진 반환을 복제 합니다. 이 새 스크립팅 엔진의 속성은 원래 스크립팅 엔진 수 초기화 된 상태로 전환 된 경우 속성에 동일 합니다.  

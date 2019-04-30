@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 397873a65176024327f371e9727b15984cd7d03f
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56632110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62828395"
 ---
 # <a name="idialinenumbergetstatement"></a>IDiaLineNumber::get_statement
 이 줄 정보 프로그램 소스에 식 대신 문을 시작 부분을 설명 하는지 나타내는 플래그를 검색 합니다.
@@ -38,7 +38,7 @@ HRESULT get_statement ( 
 ## <a name="return-value"></a>반환 값
  성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우이 속성이 지원 되지 않습니다. 그러지 않으면 오류 코드가 반환됩니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  문을 여러 줄으로 나누어 입력할 수 있습니다. 이 메서드는 연결 된 줄 번호를 이러한 여러 줄 문의 시작을 표시 하는 경우를 나타냅니다.
 
 ## <a name="see-also"></a>참고 항목

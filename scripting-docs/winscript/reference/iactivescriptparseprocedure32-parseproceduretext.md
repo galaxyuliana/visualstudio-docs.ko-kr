@@ -11,11 +11,11 @@ caps.latest.revision: 4
 author: mikejo5000
 ms.author: mikejo
 ms.openlocfilehash: e772d8276de5528f0aed25278a03725d09edb180
-ms.sourcegitcommit: 116e9614867e0b3c627ce9001012a4c39435a42b
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54090911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62993399"
 ---
 # <a name="iactivescriptparseprocedure32parseproceduretext"></a>IActiveScriptParseProcedure32::ParseProcedureText
 지정 된 코드 프로시저를 구문 분석 하 고 프로시저의 네임 스페이스에 추가 합니다.  
@@ -80,7 +80,7 @@ HRESULT ParseProcedureText(
 |반환 값|의미|  
 |------------------|-------------|  
 |`S_OK`|명령 실행 성공|  
-|`E_INVALIDARG`|인수가 잘못된 경우.|  
+|`E_INVALIDARG`|인수가 잘못 되었습니다.|  
 |`E_POINTER`|잘못 된 포인터가 지정 되었습니다.|  
 |`E_NOTIMPL`|이 메서드는 지원되지 않습니다. 스크립팅 엔진에서 프로시저의 네임 스페이스를 런타임에 추가 지원 하지 않습니다.|  
 |`E_UNEXPECTED`|호출이 필요 하지 않습니다 (예를 들어, 스크립팅 엔진은 초기화 되지 않은 또는 닫힘 상태).|  

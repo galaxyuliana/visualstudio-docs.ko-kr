@@ -14,11 +14,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 9d831cb629665e641394d011bd11eb74481c4f94
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60087185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62826446"
 ---
 # <a name="how-to-add-a-dialog-box-launcher-to-a-ribbon-group"></a>방법: 리본 그룹에 대화 상자 표시 아이콘 추가
   리본의 그룹에 대화 상자 표시 아이콘을 추가할 수 있습니다. 대화 상자 표시 아이콘은 그룹에 표시 되는 작은 아이콘입니다. 사용자 그룹에 관련 된 추가 옵션을 제공 하는 작업 창 또는 관련된 대화 상자를 열려면이 아이콘을 클릭 합니다.

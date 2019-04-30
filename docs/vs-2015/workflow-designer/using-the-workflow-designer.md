@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 6e60c314a6886831758f403402958cfe97c4a4fc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62855418"
 ---
 # <a name="using-the-workflow-designer"></a>워크플로 디자이너 사용
 이 단원에서는 기본 제공 디자이너와 몇몇 활동 디자이너에서 호스트되는 식 편집기를 사용하여 새로운 활동 및 워크플로 프로젝트를 만드는 방법에 대해 설명합니다.  

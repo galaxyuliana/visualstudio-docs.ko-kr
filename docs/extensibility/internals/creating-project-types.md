@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 2c3d983da91fadbb0eb78eab6d0fa5bb02cca193
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56606019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62910009"
 ---
 # <a name="create-project-types"></a>프로젝트 형식 만들기
 확장할 수 있습니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 새 프로젝트 형식을 만들어 합니다. 새 프로젝트 형식을 만들려면 몇 가지 개념을 이해 하 고 다양 한 단계를 완료 해야 합니다. 다음 항목에서는 프로젝트 유형을 만드는 방법의 개요를 제공 합니다.

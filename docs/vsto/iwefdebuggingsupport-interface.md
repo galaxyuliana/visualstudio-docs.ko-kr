@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: a71adf5371275fbbdc19cdf09be96ef900ec073d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56599716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62583765"
 ---
 # <a name="iwefdebuggingsupport-interface"></a>IWefDebuggingSupport 인터페이스
   Office 용 앱의 디버깅을 용이 하 게 Visual Studio와 같은 디버깅 환경에서 구현 합니다. Word 또는 Excel과 같은 Office 응용 프로그램을 Visual Studio에서이 인터페이스를 가져오고 디버깅 세션 중 특정 지점에서 인터페이스의 메서드를 호출 합니다.

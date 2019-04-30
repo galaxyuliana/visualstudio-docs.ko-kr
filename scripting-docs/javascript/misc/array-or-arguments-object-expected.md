@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 403972bfc7a8f6c061713dba4138ef6ccb08444a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62817991"
 ---
 # <a name="array-or-arguments-object-expected"></a>Array 또는 Arguments 개체가 필요합니다.
 인수로 배열을 제공 하지 않았습니다. 이 오류에 적용 됩니다는 **Function.prototype.apply** 방법만 해당 합니다. 이 함수에서 두 번째 인수 중 하나 여야 합니다를 지정 하는 경우는 `Array` 개체 또는 **인수** 개체입니다.  

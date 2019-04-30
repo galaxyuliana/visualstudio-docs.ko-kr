@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: d4de3dd669dfb54fc01704b03989fa90d4412cfe
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56843885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63006185"
 ---
 # <a name="the-use-of-a-keyword-for-an-identifier-is-invalid"></a>식별자에 대해 키워드를 잘못 사용했습니다.
 1048: 식별자에 대해 키워드를 잘못 사용했습니다.  

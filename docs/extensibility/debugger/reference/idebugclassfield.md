@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 681a426cc95ead710fbb8dab151bb5a23b6f1206
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56703853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62922598"
 ---
 # <a name="idebugclassfield"></a>IDebugClassField
 이 인터페이스는 형식으로 클래스를 나타냅니다.

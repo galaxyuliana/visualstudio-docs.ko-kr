@@ -12,11 +12,11 @@ ms.workload:
 - multiple
 author: gewarren
 ms.openlocfilehash: 511d73ea2992887f31bc8750cc9ba32934bddd91
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55925373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62537090"
 ---
 # <a name="invokedelegate"></a>InvokeDelegate
 
@@ -34,7 +34,7 @@ ms.locfileid: "55925373"
 
 다음 표에서는 <xref:System.Activities.Statements.InvokeDelegate> 속성을 보여 주고 디자이너에서 이 속성을 사용하는 방법을 설명합니다. 이러한 속성은 속성 표에서 편집할 수 있습니다 하 고 일부는 워크플로 디자이너 화면에서 편집할 수 있습니다.
 
-|속성 이름|필수|용도|
+|속성 이름|필수|사용법|
 |-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|<xref:System.Activities.Statements.InvokeDelegate> 활동의 이름입니다. 기본값은 InvokeDelegate입니다.<br /><br /> 하지만 <xref:System.Activities.Activity.DisplayName%2A> 은 꼭 필요 하지 하나를 사용 하는 것이 좋습니다.|
 |<xref:System.Activities.Statements.InvokeDelegate.Delegate%2A>|True|작업이 실행될 때 호출할 <xref:System.Activities.ActivityDelegate>의 이름입니다. 이 속성에는 디자이너 화면에서 편집할 수 있습니다 이며 필수입니다.|

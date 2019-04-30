@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: c58bc069b3d38c4086a5642d13bb907528923bb5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680011"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62895106"
 ---
 # <a name="help-menu-commands"></a>도움말 메뉴 명령
 합니다 **도움말** 메뉴는 도움말 파일을 여는 명령을 제공 합니다.

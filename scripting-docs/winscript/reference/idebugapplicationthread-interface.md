@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: a464085eddbea4f5d29c684c0f1dabc6f853b6d1
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58158791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62822228"
 ---
 # <a name="idebugapplicationthread-interface"></a>IDebugApplicationThread 인터페이스
 언어 엔진과 호스트 스레드 동기화를 제공 하 고 스레드별 디버그 상태 정보를 유지 관리를 허용 합니다. 이 인터페이스는 확장 된 `IRemoteDebugApplicationThread` 원격이 아닌 스레드에 대 한 액세스를 제공 하는 인터페이스입니다.  

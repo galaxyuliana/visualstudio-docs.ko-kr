@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 77d6a486c20b2fbbb27d917758fac894fb65e330
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58157184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62935846"
 ---
 # <a name="dispatch-extension-interfaces"></a>Dispatch Extension 인터페이스
 DispEx.h 헤더 파일에는이 섹션에 나열 된 인터페이스를 제공 합니다.  

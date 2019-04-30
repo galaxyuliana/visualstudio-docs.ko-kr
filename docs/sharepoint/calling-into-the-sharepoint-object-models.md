@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: 24634143a40f7b163c0b658bddb5596041868033
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56595218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62988403"
 ---
 # <a name="call-into-the-sharepoint-object-models"></a>SharePoint 개체 모델 호출
   Visual Studio에서 SharePoint 도구의 확장을 만들 때 특정 작업을 수행 하려면 SharePoint Api를 호출 해야 합니다. 예를 들어 SharePoint 프로젝트용 사용자 지정 배포 단계를 만드는 경우에 솔루션을 배포 하는 작업의 일부를 수행 하려면 SharePoint Api를 호출 해야 합니다.

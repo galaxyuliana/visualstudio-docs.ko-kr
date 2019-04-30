@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 9b61d7d9718e9557ef153474718542f889ad7629
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62576743"
 ---
 # <a name="code-analysis-policy-errors"></a>코드 분석 정책 오류
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,9 +71,9 @@ ms.locfileid: "58982739"
   
    이 오류는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트 및 웹 프로젝트입니다. 정책 관리 코드 분석을 수행할 수 하는데 클라이언트에서 현재 프로젝트에서 사용 되지 않습니다.  
   
-   **프로젝트에서 C/c + + 코드 분석을 사용 해야 {0} 속성과 체크 인하기 전에 빌드입니다.**  
+   **C를 사용 하도록 설정 해야 /C++ 프로젝트에서 코드 분석 {0} 속성과 체크 인하기 전에 빌드입니다.**  
   
-   이 오류는 관리 되지 않는 프로젝트에 적용 됩니다. 코드 분석 정책에 따라 C/c + + 코드 분석 하는데 클라이언트에서 현재 프로젝트에서 사용 되지 않습니다.  
+   이 오류는 관리 되지 않는 프로젝트에 적용 됩니다. 코드 분석 정책에 따라 C에 대 한 코드 분석 필요 /C++, 하지만 클라이언트에서 현재 프로젝트에서 사용 되지 않습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 분석 애플리케이션 오류](../code-quality/code-analysis-application-errors.md)

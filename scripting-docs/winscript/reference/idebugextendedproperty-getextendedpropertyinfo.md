@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: 89067720b6643c8c187e6340fb529989f2439933
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58159168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62946104"
 ---
 # <a name="idebugextendedpropertygetextendedpropertyinfo"></a>IDebugExtendedProperty::GetExtendedPropertyInfo
 보다 단순한 보다 자세한 정보는 확장된 속성에 대 한 확장된 정보를 가져오는 `IDebugProperty`합니다.  

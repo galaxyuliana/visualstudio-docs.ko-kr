@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 153df515fc762b7262dce81d8c1d1c4fe617ad61
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56608424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62900613"
 ---
 # <a name="clickonce-and-application-settings"></a>ClickOnce 및 애플리케이션 설정
 Windows Forms에 대 한 응용 프로그램 설정을 쉽게 만들고, 저장 및 사용자 지정 응용 프로그램 및 클라이언트에서 사용자 기본 설정을 유지 합니다. 다음 문서에는 ClickOnce 응용 프로그램에서는 응용 프로그램 설정 파일을 작업 하는 방법 및 다음 버전으로 업그레이드 하는 경우 ClickOnce가 설정을 마이그레이션하는 방법을 설명 합니다.
@@ -52,7 +52,7 @@ Windows Forms에 대 한 응용 프로그램 설정을 쉽게 만들고, 저장 
 ## <a name="clickonce-and-roaming-settings"></a>ClickOnce 및 로밍 설정
  ClickOnce 작동 하지 않습니다 로밍 설정을 사용 하 여 네트워크의 컴퓨터에서 수행 되도록 설정 파일을 수 있습니다. 로밍 설정에 필요한 경우 네트워크를 통해 설정을 저장 하는 응용 프로그램 설정 공급자를 구현 하거나 원격 컴퓨터에 설정을 저장 하기 위한 사용자 고유의 사용자 지정 설정 클래스를 개발 해야 합니다. 설정 공급자에 대 한 자세한 내용은 참조 하세요. [응용 프로그램 설정 아키텍처](/dotnet/framework/winforms/advanced/application-settings-architecture)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)
 - [애플리케이션 설정 개요](/dotnet/framework/winforms/advanced/application-settings-overview)
 - [ClickOnce 캐시 개요](../deployment/clickonce-cache-overview.md)

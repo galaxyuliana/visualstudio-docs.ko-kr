@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 18c2100341a62abd0f8f12bd4b459c7e271a15bc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62912522"
 ---
 # <a name="dynamically-add-menu-items"></a>동적으로 메뉴 항목 추가
 지정 하 여 런타임에 메뉴 항목을 추가할 수 있습니다는 `DynamicItemStart` 플래그는 Visual Studio 명령 테이블에 있는 자리 표시자 단추 정의에서 명령 (*.vsct*) 파일에 다음 코드에서 표시할 메뉴 항목의 수를 정의 하 고 명령 처리 합니다. VSPackage가 로드 되 면 자리 표시자 동적 메뉴 항목으로 바뀝니다.

@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 190ec35d014e6b443a9f80bf79433ac14b8fb8ad
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56703593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62903771"
 ---
 # <a name="process-search-dialog-box"></a>프로세스 검색 대화 상자
 이 대화 상자를 사용 하 여 찾아서 특정 프로세스에 대 한 노드를 선택 [프로세스 뷰](../debugger/processes-view.md)합니다. 이 대화 상자를 표시 하려면 포커스를 이동 하는 **프로세스** 뷰 창. 선택한 **프로세스 찾기** 에서 합니다 **검색** 메뉴.

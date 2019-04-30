@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 48196badc0d10435760a8af7ac5029e83d9de232
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56630979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62857484"
 ---
 # <a name="visual-studio-command-table-vsct-files"></a>Visual Studio 명령 테이블(.Vsct) 파일
 명령 테이블 구성 파일은 VSPackage를 포함 하는 명령 집합을 설명 하는 텍스트 파일입니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 명령 테이블 (VSCT) 컴파일러는 이진 명령 테이블 (.cto) 출력 파일에 XML 기반 구성 파일 (.vsct 파일)를 컴파일합니다. 결과.cto 파일이.ctc 구성 파일을 컴파일하는 데 명령 테이블 (CTC) 컴파일러를 사용 하 여 만든 것과 동일 합니다. 그러나 XML 기반.vsct 파일에는 XML 편집기 및 XML IntelliSense와 같은 몇 가지 장점이 있습니다.
@@ -28,7 +28,7 @@ ms.locfileid: "56630979"
 
  .Vsct 파일을 디자인 하는 방법에 설명 합니다.
 
- [방법: 만들기는 합니다. Vsct 파일](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)
+ [방법: .Vsct 파일 만들기](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)
 
  .Vsct 파일 만들기에 대 한 메서드를 비교 합니다. 수동으로 새.vsct 파일을 만드는 과정을 설명 합니다.
 

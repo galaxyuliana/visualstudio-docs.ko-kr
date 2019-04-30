@@ -9,11 +9,11 @@ manager: jillfra
 ms.workload:
 - data-storage
 ms.openlocfilehash: 4105a93d4ad459c8bc1cb3a7a20b37c69f311c12
-ms.sourcegitcommit: 21d667104199c2493accec20c2388cf674b195c3
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55931639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62566422"
 ---
 # <a name="linq-to-sql-tools-in-visual-studio"></a>Visual Studio의 LINQ to SQL 도구
 
@@ -40,7 +40,7 @@ Visual Studio 만듭니다는 *.dbml* 파일을 솔루션에 추가 합니다. �
 ![LINQ to SQL 디자이너](../data-tools/media/raddata-linq-to-sql-designer.png)
 
 > [!IMPORTANT]
-> 합니다 **O/R 디자이너** 1:1 매핑 관계만 지 원하는 단순 개체 관계형 매퍼입니다. 즉, 엔터티 클래스는 데이터베이스 테이블 또는 뷰와 1:1 매핑 관계만 갖습니다. 엔터티 클래스가 조인 된 테이블에 매핑할 복잡 한 매핑은 지원 되지 않습니다. 복잡 한 매핑에 대 한 Entity Framework를 사용 합니다. 또한 이 디자이너는 단방향 코드 생성기입니다. 이는 디자이너 화면에서 변경한 내용만이 코드 파일에 반영된다는 의미입니다. 코드 파일에 수동으로 변경한 내용은에 반영 되지 않습니다 합니다 **O/R 디자이너**합니다. 코드 파일에서 수동으로 변경한 모든 내용은 디자이너를 저장하고 코드를 다시 생성할 때 덮어쓰여집니다. 사용자 코드를 추가 하 여 생성 된 클래스를 확장 하는 방법에 대 한 자세한 합니다 **O/R 디자이너**를 참조 하세요 [방법: O/R 디자이너에서 생성한 코드 확장](../data-tools/how-to-extend-code-generated-by-the-o-r-designer.md).
+> 합니다 **O/R 디자이너** 1:1 매핑 관계만 지 원하는 단순 개체 관계형 매퍼입니다. 즉, 엔터티 클래스는 데이터베이스 테이블 또는 뷰와 1:1 매핑 관계만 갖습니다. 엔터티 클래스가 조인 된 테이블에 매핑할 복잡 한 매핑은 지원 되지 않습니다. 복잡 한 매핑에 대 한 Entity Framework를 사용 합니다. 또한 이 디자이너는 단방향 코드 생성기입니다. 이는 디자이너 화면에서 변경한 내용만이 코드 파일에 반영된다는 의미입니다. 코드 파일에 수동으로 변경한 내용은에 반영 되지 않습니다 합니다 **O/R 디자이너**합니다. 코드 파일에서 수동으로 변경한 모든 내용은 디자이너를 저장하고 코드를 다시 생성할 때 덮어쓰여집니다. 사용자 코드를 추가 하 여 생성 된 클래스를 확장 하는 방법에 대 한 자세한 합니다 **O/R 디자이너**를 참조 하세요 [방법: O/R 디자이너에서 생성 된 코드 확장](../data-tools/how-to-extend-code-generated-by-the-o-r-designer.md)합니다.
 
 ## <a name="create-and-configure-the-datacontext"></a>만들고 DataContext 구성
 
@@ -48,7 +48,7 @@ Visual Studio 만듭니다는 *.dbml* 파일을 솔루션에 추가 합니다. �
 
 ## <a name="create-entity-classes-that-map-to-database-tables-and-views"></a>데이터베이스 테이블 및 뷰에 매핑되는 엔터티 클래스 만들기
 
-데이터베이스 테이블 및 뷰를 끌어 테이블 및 뷰에 매핑된 엔터티 클래스를 만들 수 있습니다 **서버 탐색기** 하거나 **데이터베이스 탐색기** 에 **O/R 디자이너**합니다. 이전 섹션에서 설명한 것처럼 <xref:System.Data.Linq.DataContext>는 디자인 화면으로 끌어온 첫 번째 항목에서 제공된 연결 정보를 사용하여 구성됩니다. 다른 연결을 사용 하는 후속 항목에 추가 됩니다는 **O/R 디자이너**에 대 한 연결을 변경할 수는 <xref:System.Data.Linq.DataContext>합니다. 자세한 내용은 [방법: 만들 매핑된 LINQ to SQL 클래스 테이블 및 뷰 (O/R 디자이너)](../data-tools/how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)합니다.
+데이터베이스 테이블 및 뷰를 끌어 테이블 및 뷰에 매핑된 엔터티 클래스를 만들 수 있습니다 **서버 탐색기** 하거나 **데이터베이스 탐색기** 에 **O/R 디자이너**합니다. 이전 섹션에서 설명한 것처럼 <xref:System.Data.Linq.DataContext>는 디자인 화면으로 끌어온 첫 번째 항목에서 제공된 연결 정보를 사용하여 구성됩니다. 다른 연결을 사용 하는 후속 항목에 추가 됩니다는 **O/R 디자이너**에 대 한 연결을 변경할 수는 <xref:System.Data.Linq.DataContext>합니다. 자세한 내용은 [방법: 테이블 및 보기에 매핑된 LINQ to SQL 클래스 만들기(O/R 디자이너)](../data-tools/how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md)를 참조하세요.
 
 ## <a name="create-datacontext-methods-that-call-stored-procedures-and-functions"></a>저장된 프로시저 및 함수를 호출 하는 DataContext 메서드 만들기
 
@@ -59,11 +59,11 @@ Visual Studio 만듭니다는 *.dbml* 파일을 솔루션에 추가 합니다. �
 
 ## <a name="configure-a-datacontext-to-use-stored-procedures-to-save-data-between-entity-classes-and-a-database"></a>엔터티 클래스와 데이터베이스 간에 데이터를 저장 하려면 저장된 프로시저를 사용 하도록 DataContext 구성
 
-앞에서 설명한 대로 저장 프로시저 및 함수를 호출하는 <xref:System.Data.Linq.DataContext> 메서드를 만들 수 있습니다. 또한 기본 LINQ to SQL 런타임 동작을 수행 하는 삽입, 업데이트 및 삭제에 사용 되는 저장된 프로시저를 할당할 수 있습니다. 자세한 내용은 [방법: 업데이트, 삽입 및 삭제 (O/R 디자이너)를 수행 하는 저장된 프로시저를 할당](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)합니다.
+앞에서 설명한 대로 저장 프로시저 및 함수를 호출하는 <xref:System.Data.Linq.DataContext> 메서드를 만들 수 있습니다. 또한 기본 LINQ to SQL 런타임 동작을 수행 하는 삽입, 업데이트 및 삭제에 사용 되는 저장된 프로시저를 할당할 수 있습니다. 자세한 내용은 [방법: 저장 프로시저를 할당하여 업데이트, 삽입 및 삭제 수행(O/R 디자이너)](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)을 참조하세요.
 
 ## <a name="inheritance-and-the-or-designer"></a>상속 및 O/R 디자이너
 
-다른 개체와 마찬가지로 LINQ to SQL 클래스 상속을 사용할 수 및 다른 클래스에서 파생 되어야 합니다. 데이터베이스에서 상속 관계는 여러 가지 방법으로 만들어집니다. 합니다 **O/R 디자이너** 관계형 시스템에서 주로 구현 되는 단일 테이블 상속 개념을 지원 합니다. 자세한 내용은 [방법: O/R 디자이너를 사용 하 여 상속 구성](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)합니다.
+다른 개체와 마찬가지로 LINQ to SQL 클래스 상속을 사용할 수 및 다른 클래스에서 파생 되어야 합니다. 데이터베이스에서 상속 관계는 여러 가지 방법으로 만들어집니다. 합니다 **O/R 디자이너** 관계형 시스템에서 주로 구현 되는 단일 테이블 상속 개념을 지원 합니다. 자세한 내용은 [방법: O/R 디자이너를 사용하여 상속 구성](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)을 참조하세요.
 
 ## <a name="linq-to-sql-queries"></a>LINQ to SQL 쿼리
 
@@ -78,7 +78,7 @@ Visual Studio 만듭니다는 *.dbml* 파일을 솔루션에 추가 합니다. �
 - <xref:System.Linq>
 - <xref:System.Data.Linq>
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [LINQ to SQL (.NET Framework)](/dotnet/framework/data/adonet/sql/linq/index)
 - [질문과 대답 (.NET Framework)](/dotnet/framework/data/adonet/sql/linq/frequently-asked-questions)

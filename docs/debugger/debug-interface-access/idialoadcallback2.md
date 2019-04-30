@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: daf0b48aca06b404824059030052223a8545a6b0
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56641457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839708"
 ---
 # <a name="idialoadcallback2"></a>IDiaLoadCallback2
 콜백 프로시저 찾기, 찾기 프로세스에 적용할 제한 수 있도록 DIA 기호에서 받습니다.
@@ -38,7 +38,7 @@ IDiaLoadCallback2 : IDiaLoadCallback
 |[IDiaLoadCallback2::RestrictDBGAccess](../../debugger/debug-interface-access/idialoadcallback2-restrictdbgaccess.md)|.Dbg 파일에서 디버그 정보를 찾고 허용 되는지 여부를 결정 합니다.|
 |[IDiaLoadCallback2::RestrictSystemRootAccess](../../debugger/debug-interface-access/idialoadcallback2-restrictsystemrootaccess.md)|시스템 루트 디렉터리에.pdb 파일을 검색할 허용 되는지 여부를 결정 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  클라이언트 응용 프로그램이이 인터페이스를 구현 및 호출에 대 한 참조를 제공 합니다 [idiadatasource:: Loaddataforexe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md) 메서드. 모든 메서드를 구현 해야 합니다 [IDiaLoadCallback](../../debugger/debug-interface-access/idialoadcallback.md) 인터페이스에도 합니다.
 
 ## <a name="requirements"></a>요구 사항

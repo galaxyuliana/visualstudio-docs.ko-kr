@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 8ec5c271c023483ea64ddbabb83129ea9a44e4c2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62911616"
 ---
 # <a name="how-to-register-for-text-buffer-events-with-the-legacy-api"></a>방법: 기존 API 사용 하 여 텍스트 버퍼 이벤트에 등록
 기존 API를 사용 하 여 텍스트 버퍼를 액세스 하는 경우 다음 절차에 표시 된 대로 텍스트 버퍼 이벤트에 등록 해야 합니다.

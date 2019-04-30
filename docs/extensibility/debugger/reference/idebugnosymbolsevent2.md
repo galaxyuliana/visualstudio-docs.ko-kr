@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 0850f043d763077ef9a33ad35e82ad924574b6d8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56721318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62872885"
 ---
 # <a name="idebugnosymbolsevent2"></a>IDebugNoSymbolsEvent2
 신호는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 디버거 UI를 기호 수 없다는 시작한 실행 파일에 대 한 사용자에 게 알립니다.

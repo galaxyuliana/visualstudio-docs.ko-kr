@@ -12,14 +12,14 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 094bff5c761a45e936f14f79587b4846d3838610
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56722410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62862994"
 ---
 # <a name="how-to-create-an-atom-feed-for-a-private-gallery"></a>방법: Atom 개인 갤러리에 대 한 피드 만들기
-Atom (RSS) 피드를 확장을 포함 하는 피드를 추가 인트라넷 위치를 만들 수 있습니다 **확장 및 업데이트** 를 전용 갤러리로 합니다. 자세한 내용은 [전용 갤러리](../extensibility/private-galleries.md)합니다.
+Atom (RSS) 피드를 확장을 포함 하는 피드를 추가 인트라넷 위치를 만들 수 있습니다 **확장 및 업데이트** 를 전용 갤러리로 합니다. 자세한 내용은 [Private galleries](../extensibility/private-galleries.md)(전용 갤러리)를 참조하세요.
 
 ## <a name="create-an-atom-feed"></a>Atom 피드 만들기
  Atom 피드를 전용 갤러리로 만들려면 먼저 확장이 수집 (*.vsix* 파일)를 폴더에 있습니다. 원하는 경우 하위 폴더에 해당를 구성할 수 있습니다. 또한 다음 리소스를 해야 합니다.

@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 9bdc3dd946f6ab19f916f4ac536ba05a45fe9226
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62859091"
 ---
 # <a name="selection-context-objects"></a>선택 컨텍스트 개체
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 전역 선택 컨텍스트 개체를 사용 하 여 IDE에서 표시 되어야 할 사항을 결정 합니다. IDE의 각 창 전역 선택 컨텍스트에 푸시된 자체 선택 컨텍스트 개체를 가질 수 있습니다. IDE는 해당 창에 포커스가 있는 경우 창에서 값을 사용 하 여 전역 선택 항목 컨텍스트를 업데이트 합니다. 자세한 내용은 [사용자에 게 피드백](../../extensibility/internals/feedback-to-the-user.md)합니다.

@@ -12,11 +12,11 @@ ms.assetid: 6056a9ea-e7a8-481c-9fc8-340229fa12d9
 caps.latest.revision: 25
 manager: jillfra
 ms.openlocfilehash: f3140b527673f87b1d7c552e99584232494aed7f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62979997"
 ---
 # <a name="vspackage-state"></a>VSPackage 상태
 다양 한 요인의 지속형된 값 또는 상태 집합을 결정 한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 응용 프로그램입니다.  

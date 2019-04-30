@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: eada57433b37f759da51ecdb380e530f3fb77fdf
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56625987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62839474"
 ---
 # <a name="idiasectioncontrib"></a>IDiaSectionContrib
 섹션에 기여도 설명 하는 데이터를 검색, 즉, 인접 한 메모리 블록을 제공한 이미지에는 compiland 합니다.
@@ -58,7 +58,7 @@ IDiaSectionContrib : IUnknown
 |[IDiaSectionContrib::get_relocationsCrc](../../debugger/debug-interface-access/idiasectioncontrib-get-relocationscrc.md)|재배치 정보 섹션에 대 한 CRC를 검색합니다.|
 |[IDiaLineNumber::get_compilandId](../../debugger/debug-interface-access/idialinenumber-get-compilandid.md)|섹션에 대 한 컴파일 대상 식별자를 검색합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보
 이 인터페이스를 호출 하 여 가져온 합니다 [idiaenumsectioncontribs:: Item](../../debugger/debug-interface-access/idiaenumsectioncontribs-item.md) 하 고 [idiaenumsectioncontribs:: Next](../../debugger/debug-interface-access/idiaenumsectioncontribs-next.md) 메서드. 참조 된 [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md) 가져오는 예제에 대 한 인터페이스를 `IDiaSectionContrib` 인터페이스입니다.

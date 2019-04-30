@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: ed0b7300fca935a88b6da9e878d87f5ce443bec9
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56682819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62873928"
 ---
 # <a name="idebugextendedfield"></a>IDebugExtendedField
 관리 코드 제네릭을 지원에 사용할 수 있는 필드의 종류를 확장 합니다.

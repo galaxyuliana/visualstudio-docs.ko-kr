@@ -10,11 +10,11 @@ author: kraigb
 ms.author: kraigb
 manager: jillfra
 ms.openlocfilehash: 9c18ae2731d92e6d128d13e7687bac77ae76dc8a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62575652"
 ---
 # <a name="getting-started-with-python"></a>Python 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -91,7 +91,7 @@ Windows, Mac 및 Linux를 지원하는 Python용 Azure SDK을 통해 Microsoft A
   
 ## <a name="see-also"></a>참고 항목  
 
-[Ptvs 시작: Visual Studio 설정](../python/getting-started-with-ptvs-setting-up-visual-studio.md)
+[PTVS 시작: Visual Studio 설정](../python/getting-started-with-ptvs-setting-up-visual-studio.md)
 [PTVS 시작: 코딩 시작 (프로젝트)](../python/getting-started-with-ptvs-start-coding-projects.md)
 [PTVS 시작: 코드 편집](../python/getting-started-with-ptvs-editing-code.md)
 [PTVS 시작: 디버깅](../python/getting-started-with-ptvs-debugging.md)

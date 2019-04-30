@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5199be7307fdaa607f5aa6a5f554d9fcc82f452d
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56623153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62837825"
 ---
 # <a name="idiasymbolfindchildren"></a>IDiaSymbol::findChildren
 기호의 자식을 검색합니다.
@@ -53,7 +53,7 @@ HRESULT findChildren ( 
 ## <a name="return-value"></a>반환 값
  반환 `S_OK` 기호의 자식이 하나 이상 찾을 하거나 반환 하는 경우 `S_FALSE` 자식이 없는 경우; 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  이 메서드는 호출 하 여 [idiasession:: Findchildren](../../debugger/debug-interface-access/idiasession-findchildren.md) 첫 번째 매개 변수로이 기호를 사용 하 여 메서드.
 
 ## <a name="see-also"></a>참고 항목

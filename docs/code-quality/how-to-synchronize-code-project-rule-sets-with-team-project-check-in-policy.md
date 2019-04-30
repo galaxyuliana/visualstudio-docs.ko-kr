@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: bd92cbb5dfee83a4a2b92729a8fde3846a5e5475
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62815840"
 ---
 # <a name="how-to-synchronize-code-project-rule-sets-with-an-azure-devops-project-check-in-policy"></a>방법: Azure DevOps 프로젝트 체크 인 정책을 사용 하 여 코드 프로젝트 규칙 집합 동기화
 

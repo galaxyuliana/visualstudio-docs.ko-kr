@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: ghogen
 ms.openlocfilehash: d23843aa72ce5cf79f6442048b6493d17eb6ef64
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "58147919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62787772"
 ---
 # <a name="iscriptentrygetname"></a>IScriptEntry::GetName
 단일 개체 (예: 함수)를 나타내는 항목에 대 한 개체의 이름을 반환 합니다.  

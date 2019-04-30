@@ -15,11 +15,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 96abe68838d028c5de9d6d9418e94ba5b46c0f76
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56693414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62432309"
 ---
 # <a name="using-fonts-and-colors"></a>글꼴 및 색을 사용 하 여
 [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] 글꼴 및 색을 사용 하 여 텍스트를 표시 하는 것에 대 한 지원을 제공 합니다.

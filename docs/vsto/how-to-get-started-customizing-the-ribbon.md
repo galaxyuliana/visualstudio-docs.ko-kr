@@ -16,11 +16,11 @@ manager: jillfra
 ms.workload:
 - office
 ms.openlocfilehash: f164a8f1d1c84725530e7a3afab5e63472ae257e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60081569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62967900"
 ---
 # <a name="how-to-get-started-customizing-the-ribbon"></a>방법: 리본 사용자 지정 시작
   Microsoft Office 응용 프로그램의 리본을 사용자 지정 하려면 추가 **리본 (비주얼 디자이너)** 또는 **리본 (XML)** Office 프로젝트 항목입니다.

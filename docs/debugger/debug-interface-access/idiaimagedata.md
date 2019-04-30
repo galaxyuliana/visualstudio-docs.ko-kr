@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b1e3dd8c395c59bc3255c1c9ee55837466c1cef7
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56635867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62828517"
 ---
 # <a name="idiaimagedata"></a>IDiaImageData
 모듈 또는 이미지의 기본 위치와 메모리 오프셋의 세부 정보를 표시합니다.
@@ -37,7 +37,7 @@ IDiaImageData : IUnknown
 |[IDiaImageData::get_virtualAddress](../../debugger/debug-interface-access/idiaimagedata-get-virtualaddress.md)|이미지의 가상 메모리의 위치를 검색합니다.|
 |[IDiaImageData::get_imageBase](../../debugger/debug-interface-access/idiaimagedata-get-imagebase.md)|여기서 이미지를 기반으로 하는 메모리 위치를 검색 합니다.|
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
 일부 디버그 스트림 (XDATA, PDATA) 이미지에도 저장 된 데이터의 복사본을 포함 합니다. 이 스트림 개체를 쿼리할 수 데이터는 `IDiaImageData` 인터페이스입니다. 자세한 내용은이 항목의 "호출자에 대 한 참고 사항" 섹션을 참조 합니다.
 
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보

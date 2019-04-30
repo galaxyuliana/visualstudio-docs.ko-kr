@@ -12,11 +12,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7df3b27164eab0b78cdce72a8f938cb6e9743bcf
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62902650"
 ---
 # <a name="search-tools-for-spy-views"></a>Spy++ 뷰의 검색 도구
 Spy + + 보기 창에 표시 되는 데이터를 지정 하려면 이러한 대화 상자를 사용 합니다.

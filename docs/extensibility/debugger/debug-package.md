@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: 2ba784f3a544b2f66f1f2c9c229f85477bf6c782
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56705876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62890041"
 ---
 # <a name="debug-package"></a>패키지를 디버그 합니다.
 디버그 패키지는 Visual Studio shell에서 실행 하 고 전체 UI를 처리 합니다. Visual Studio 디버깅 인터페이스를 사용 하 고 세션 디버그 관리자 SDM ()를 사용 하 여 통신 합니다.

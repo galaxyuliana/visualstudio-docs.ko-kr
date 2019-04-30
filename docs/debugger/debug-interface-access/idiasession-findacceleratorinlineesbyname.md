@@ -11,11 +11,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fb3caa5574605864a0dd16b59b6f451530b8e631
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56632240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62827793"
 ---
 # <a name="idiasessionfindacceleratorinlineesbyname"></a>IDiaSession::findAcceleratorInlineesByName
 지정 된 인라인 함수 이름에 해당 하는 인라인 프레임에 대 한 기호의 열거형을 반환 합니다.
@@ -46,8 +46,8 @@ HRESULT findAcceleratorInlineeLinesByName ( 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="remarks"></a>주의
- 이 함수를 인라인 가속기 스텁 함수 내 에서만 검색합니다. 네이티브 c + + 프로시저 레코드는 무시합니다.
+## <a name="remarks"></a>설명
+ 이 함수를 인라인 가속기 스텁 함수 내 에서만 검색합니다. 네이티브 무시 C++ 프로시저 레코드입니다.
 
 ## <a name="see-also"></a>참고 항목
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)

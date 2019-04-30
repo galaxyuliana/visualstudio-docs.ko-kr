@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 25f8db1f6d14692538fe7f61ed2f9dbd37e0bd29
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62977303"
 ---
 # <a name="control-flow-activity-designers"></a>제어 흐름 활동 디자이너
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에는 워크플로를 생성할 때 사용할 수 있는 여러 가지 시스템 제공 활동이 포함되어 있습니다. 이 단원에서는 워크플로 내의 흐름 제어에 사용되는 시스템 제공 활동에 대해 다룹니다. 다음 항목을 통해 이러한 활동에 대해 설명하고 사용 방법에 대한 지침을 제공합니다.  

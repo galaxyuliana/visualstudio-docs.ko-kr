@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fef652cbaa83fde61f098fb8fcef9558473fe19a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62900863"
 ---
 # <a name="windows-view"></a>창 뷰
 처음 열면 Spy + +, Windows 뷰 시스템의 모든 창과 컨트롤의 트리를 표시 합니다. 창 핸들 및 클래스 이름이 표시 됩니다. 현재 데스크톱 기간은 트리의 맨 위에 있는 것입니다. 다른 모든 windows 데스크톱의 자식 이며 표준 창 계층에 따라 표시 됩니다. 형제 창이 해당 부모의 아래 expansible 목록에 나타납니다.

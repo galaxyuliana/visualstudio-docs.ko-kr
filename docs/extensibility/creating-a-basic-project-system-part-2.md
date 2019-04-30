@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - vssdk
 ms.openlocfilehash: d23c0803bb81b34156d2cdb56e54388ba3cc5661
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56681311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62926806"
 ---
 # <a name="create-a-basic-project-system-part-2"></a>2 부 기본 프로젝트 시스템을 만들려면
 이 시리즈의 첫 번째 연습의 [1 부 기본 프로젝트 시스템을 만들려면](../extensibility/creating-a-basic-project-system-part-1.md), 기본 프로젝트 시스템을 만드는 방법을 보여 줍니다. 이 연습에서는 Visual Studio 템플릿, 속성 페이지 및 기타 기능을 추가 하 여 기본 프로젝트 시스템에 작성 합니다. 이 시작 하기 전에 첫 번째 연습을 완료 해야 합니다.

@@ -27,11 +27,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7c9172749dc00acf0fd43725f6754373a0ade16e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62900360"
 ---
 # <a name="ltdependencygt-element-clickonce-application"></a>&lt;종속성&gt; 요소 (ClickOnce 응용 프로그램)
 응용 프로그램에 필요한 플랫폼 또는 어셈블리 종속성을 식별 합니다.

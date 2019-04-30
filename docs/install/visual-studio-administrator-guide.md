@@ -2,7 +2,7 @@
 title: Visual Studio 관리자 가이드
 titleSuffix: ''
 description: 엔터프라이즈 환경에 Visual Studio를 배포하는 방법을 자세히 알아봅니다.
-ms.date: 03/30/2019
+ms.date: 04/02/2019
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 0c12ae3e101f2f59f0f7f6560ea86f1e6161c6ff
-ms.sourcegitcommit: d4bea2867a4f0c3b044fd334a54407c0fe87f9e8
+ms.openlocfilehash: e228ca06aee6644b57782b30a1a9b02b17435f9d
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58790097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62951346"
 ---
 # <a name="visual-studio-administrator-guide"></a>Visual Studio 관리자 가이드
 
@@ -99,3 +99,4 @@ ms.locfileid: "58790097"
 * [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
 * [Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md)
 * [Visual Studio 인스턴스 검색 및 관리 도구](tools-for-managing-visual-studio-instances.md)
+* [Visual Studio 제품 수명 주기 및 서비스](/visualstudio/releases/2019/servicing/)
