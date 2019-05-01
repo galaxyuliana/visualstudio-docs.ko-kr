@@ -24,12 +24,12 @@ caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d1a6167759d35dd67142e1919423df6aa380fe88
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: c3f79e492440f98f733488afb241fa6f86e220b9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444236"
 ---
 # <a name="watch-and-quickwatch-windows"></a>조사식 및 간략한 조사식 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -162,7 +162,7 @@ var1 = var2
  특정 개체의 동작을 관찰하려는 경우가 있습니다. 예를 들어 변수가 범위를 벗어난 후 지역 변수에 의해 참조된 개체를 추적할 수 있습니다. C# 및 Visual Basic에서 참조 형식의 특정 인스턴스에 대한 개체 ID를 만들고 조사식 창 및 중단점 조건에서 사용할 수 있습니다. 개체 ID는 CLR(공용 언어 런타임) 디버깅 서비스에 의해 생성되고 개체와 연결됩니다.  
   
 > [!NOTE]
->  개체 ID는 약한 참조를 만들고 개체가 가비지 수집되지 않도록 차단하지 않습니다. 현재 디버깅 세션에 대해서만 유효합니다.  
+> 개체 ID는 약한 참조를 만들고 개체가 가비지 수집되지 않도록 차단하지 않습니다. 현재 디버깅 세션에 대해서만 유효합니다.  
   
  다음 코드에서 한 메서드는 지역 변수를 사용하여 `Person` 을 만들지만 다른 메서드에서 `Person`의 이름을 확인하려고 합니다.  
   
@@ -215,7 +215,7 @@ public class Program
 6. 디버깅을 계속하고, `DoSomething()` 메서드에서 실행에서 중지되면 **조사식** 창에 `Person` 개체가 표시됩니다.  
   
 > [!NOTE]
->  위의 예제에서 `Person.Name` 과 같은 개체의 속성을 보려는 경우 속성 확인을 사용하도록 설정해야 합니다.  
+> 위의 예제에서 `Person.Name` 과 같은 개체의 속성을 보려는 경우 속성 확인을 사용하도록 설정해야 합니다.  
   
 ## <a name="using-registers-in-the-watch-window-c-only"></a>조사식 창에서 레지스터 사용(C++에만 해당)  
  네이티브 코드를 디버깅 하는 사용 하 여 변수 이름 뿐 아니라 레지스터 이름도 추가할 수 있습니다  **$ \<등록 이름 >** 하거나  **@ \<이름을 등록 >**.  자세한 내용은 [Pseudovariables](../debugger/pseudovariables.md)를 참조하세요.  

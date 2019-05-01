@@ -12,12 +12,12 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 449e273659df1e3b6846ff8e7e3d8d6943ba69f4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a4d158e3c624a63863e5a8305dd0b9b4b5ef10ea
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444224"
 ---
 # <a name="add-commands-and-gestures-to-layer-diagrams"></a>레이어 다이어그램에 명령 및 제스처 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ Visual Studio에서 레이어 다이어그램의 상황에 맞는 메뉴 명령 
  필요한 경우 동일한 Visual Studio 프로젝트에서 여러 개의 명령 및 제스처 처리기를 정의할 수 있습니다. 이러한 여러 프로젝트를 하나의 VSIX에 결합할 수도 있습니다. 예를 들어 레이어 명령, 도메인 특정 언어 및 UML 다이어그램 명령을 포함하는 단일 VSIX를 정의할 수 있습니다.  
   
 > [!NOTE]
->  사용자의 소스 코드를 레이어 다이어그램과 비교하는 아키텍처 유효성 검사를 사용자 지정할 수도 있습니다. 별도의 Visual Studio 프로젝트에서 아키텍처 유효성 검사를 정의해야 합니다. 동일한 VSIX에 다른 확장으로 추가할 수 있습니다. 자세한 내용은 [레이어 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)합니다.  
+> 사용자의 소스 코드를 레이어 다이어그램과 비교하는 아키텍처 유효성 검사를 사용자 지정할 수도 있습니다. 별도의 Visual Studio 프로젝트에서 아키텍처 유효성 검사를 정의해야 합니다. 동일한 VSIX에 다른 확장으로 추가할 수 있습니다. 자세한 내용은 [레이어 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)합니다.  
   
 ## <a name="requirements"></a>요구 사항  
  참조 [요구 사항](../modeling/extend-layer-diagrams.md#prereqs)합니다.  
@@ -65,7 +65,7 @@ Visual Studio에서 레이어 다이어그램의 상황에 맞는 메뉴 명령 
 1. 새 Visual Studio 솔루션이나 기존 솔루션에서 클래스 라이브러리 프로젝트를 만듭니다. **새 프로젝트** 대화 상자에서 **Visual C#** , **클래스 라이브러리**를 차례로 클릭합니다. 이 프로젝트는 명령 또는 제스처 처리기 클래스를 포함합니다.  
   
     > [!NOTE]
-    >  한 클래스 라이브러리에서 두 개 이상의 명령 또는 제스처 처리기 클래스를 정의할 수 있지만, 별도 클래스 라이브러리에서 레이어 유효성 검사 클래스를 정의해야 합니다.  
+    > 한 클래스 라이브러리에서 두 개 이상의 명령 또는 제스처 처리기 클래스를 정의할 수 있지만, 별도 클래스 라이브러리에서 레이어 유효성 검사 클래스를 정의해야 합니다.  
   
 2. 솔루션에서 VSIX 프로젝트를 식별하거나 만듭니다. VSIX 프로젝트에는 이름이 **source.extension.vsixmanifest**인 파일이 포함됩니다. VSIX 프로젝트를 추가하려면  
   

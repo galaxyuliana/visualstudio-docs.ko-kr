@@ -6,12 +6,12 @@ ms.assetid: d22b5186-9e03-4e85-afc9-7cbe28522a6d
 caps.latest.revision: 14
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 96a4795d83c4ef4b5bad2d7dc2d5f06f2f3ab4cf
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 18ea10e25117ee5bf52c6369e575d70a989435db
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63444516"
 ---
 # <a name="learn-app-building-basics-with-xamarinforms-in-visual-studio"></a>Visual Studio에서 Xamarin.Forms를 사용한 앱 빌드 기본 사항 알아보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60097234"
 - [플랫폼 간에 네이티브 모양 및 느낌을 지정하여 UI 완료](#finish)
 
 > [!TIP]
->  [GitHub의 xamarin-forms-samples 리포지토리](https://github.com/xamarin/xamarin-forms-samples/tree/master/Weather)에서 이 프로젝트에 대한 전체 소스 코드를 찾을 수 있습니다.
+> [GitHub의 xamarin-forms-samples 리포지토리](https://github.com/xamarin/xamarin-forms-samples/tree/master/Weather)에서 이 프로젝트에 대한 전체 소스 코드를 찾을 수 있습니다.
 
 ## <a name="solution"></a> 솔루션 설정
  다음 단계에서는 공유 코드에 대한 PCL과 두 개의 추가 NuGet 패키지를 포함하는 Xamarin.Forms 솔루션을 만듭니다.
@@ -59,7 +59,7 @@ ms.locfileid: "60097234"
     - **WeatherApp.WinPhone(Windows Phone 8.1)**: 네이티브 Windows Phone 코드를 포함하는 프로젝트
 
     > [!NOTE]
-    >  대상으로 하지 플랫폼에 대한 프로젝트는 삭제할 수 있습니다. 이 연습에서는 Android, iOS 및 Windows Phone 8.1 프로젝트를 참조합니다. UWP 및 Windows 8.1 프로젝트 작업은 Windows Phone 8.1 프로젝트 작업과 아주 유사합니다.
+    > 대상으로 하지 플랫폼에 대한 프로젝트는 삭제할 수 있습니다. 이 연습에서는 Android, iOS 및 Windows Phone 8.1 프로젝트를 참조합니다. UWP 및 Windows 8.1 프로젝트 작업은 Windows Phone 8.1 프로젝트 작업과 아주 유사합니다.
 
      각 네이티브 프로젝트 내에서 해당 플랫폼에 대한 네이티브 디자이너에 액세스하여 플랫폼 특정 화면 및 기능을 필요에 따라 구현할 수 있습니다.
 

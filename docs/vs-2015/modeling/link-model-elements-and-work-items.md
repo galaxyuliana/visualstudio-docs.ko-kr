@@ -19,12 +19,12 @@ caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2b0ec545defec941d9a59001841d8bea443aa522
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: cdfcb6bb07f167ea1da81101ae00613a5b2fac93
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071865"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440952"
 ---
 # <a name="link-model-elements-and-work-items"></a>모델 요소 및 작업 항목 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
  이 기능을 지원하는 Visual Studio 버전을 확인하려면 [아키텍처 및 모델링 도구에 대한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)을 참조하세요.  
   
 > [!NOTE]
->  링크를 만들고 열려면 Team Explorer를 사용해야 합니다. 다른 사용자가 링크된 다이어그램을 열 수 있도록 모델링 프로젝트와 다이어그램이 버전 제어에 체크 인되었는지 확인해야 합니다.  
+> 링크를 만들고 열려면 Team Explorer를 사용해야 합니다. 다른 사용자가 링크된 다이어그램을 열 수 있도록 모델링 프로젝트와 다이어그램이 버전 제어에 체크 인되었는지 확인해야 합니다.  
   
  예를 들어, 다음을 링크할 수 있습니다.  
   
@@ -61,7 +61,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
 - 다이어그램. 다이어그램을 선택하려면 다이어그램의 빈 부분을 선택합니다.  
   
 > [!WARNING]
->  작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
+> 작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
   
 - [팀 프로젝트에 연결](#ConnectTFS)  
   
@@ -99,7 +99,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
      모델 요소가 새 작업 항목에 링크됩니다. 모델 요소 위 또는 주변에 아이콘이 나타납니다.  
   
 > [!WARNING]
->  작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
+> 작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
   
 ## <a name="LinkExisting"></a> 기존 작업 항목에 모델 요소 링크  
  모델 요소를 작업 항목에 링크할 경우 작업 항목이 아닌 모델 요소에서 시작하세요.  
@@ -123,7 +123,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
      선택을 마치면 모델 요소의 **작업 항목** 속성에 표시되는 값이 이전보다 커집니다. 모델 요소 위 또는 주변에도 아이콘이 나타납니다.  
   
 > [!WARNING]
->  작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
+> 작업 항목을 만들거나 작업 항목에 연결하려면 TFS SCC(소스 코드 제어)에 이미 연결되어 있어야 합니다. 다른 TFS SCC에 대한 연결을 열려고 하면 Visual Studio가 자동으로 현재 솔루션을 닫습니다. 작업 항목을 만들거나 작업 항목에 연결하기 전에 적절한 SCC에 이미 연결되어 있는지 확인합니다. Visual Studio의 이후 릴리스에서는 SCC에 연결되어 있지 않으면 메뉴 명령을 사용할 수 없습니다.  
   
 ## <a name="OpenWorkItem"></a> 모델 요소에 연결 하는 작업 항목 보기  
   
@@ -132,7 +132,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
 2. 모델링 다이어그램 또는 **UML 모델 탐색기**에서 모델 요소에 대한 바로 가기 메뉴를 엽니다. 링크된 작업 항목 목록을 보려면 **작업 항목 보기** 를 선택합니다.  
   
     > [!NOTE]
-    >  현재 연결된 서버의 작업 항목만 표시됩니다. 아무 작업 항목이 표시되지 않을 경우 **팀 탐색기**에서 올바른 서버에 연결되어 있는지 확인합니다.  
+    > 현재 연결된 서버의 작업 항목만 표시됩니다. 아무 작업 항목이 표시되지 않을 경우 **팀 탐색기**에서 올바른 서버에 연결되어 있는지 확인합니다.  
   
 ## <a name="ViewLinkedModels"></a> 보기 모델 요소가 작업 항목에 연결  
  Visual Studio Team Services 및 Team Foundation Server 2012 이상의 작업 항목에 연결된 모델링 다이어그램 및 요소를 볼 수 있습니다. 예를 들어, 작업 항목은 구현될 새 클래스의 디자인을 보여주는 클래스 모델에 링크할 수 있습니다.  
@@ -140,7 +140,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
 1. **Team Explorer**에서 모델 요소가 작업 항목에 연결된 팀 프로젝트에 연결되어 있는지 확인합니다.  
   
     > [!NOTE]
-    >  링크된 모델 요소를 보려면 Team Web Access가 아닌 팀 탐색기를 사용해야 합니다. 작업 영역이 모델링 다이어그램 또는 요소가 포함된 모델링 프로젝트에 매핑되었는지 확인합니다. 작업 영역이 없으면 만들어야 합니다. [문제 해결](#Troubleshooting) 및 [작업 영역 만들기 및 사용](http://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a)을 참조하세요.  
+    > 링크된 모델 요소를 보려면 Team Web Access가 아닌 팀 탐색기를 사용해야 합니다. 작업 영역이 모델링 다이어그램 또는 요소가 포함된 모델링 프로젝트에 매핑되었는지 확인합니다. 작업 영역이 없으면 만들어야 합니다. [문제 해결](#Troubleshooting) 및 [작업 영역 만들기 및 사용](http://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a)을 참조하세요.  
   
 2. 작업 영역을 열고 **링크**를 선택합니다. **모델 링크**에서 링크된 모델 요소에 대한 바로 가기 메뉴를 엽니다. **링크된 항목 열기**를 선택합니다.  
   
@@ -160,7 +160,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
     2. **작업 항목** 속성에서 줄임표 단추 **[…]** 를 선택합니다.  
   
         > [!NOTE]
-        >  현재 서버의 작업 항목만 표시됩니다. 목록이 비어 있는데 작업 항목의 수가 0이 아니면 **팀 탐색기**에서 올바른 서버에 연결되어 있는지 확인하세요.  
+        > 현재 서버의 작업 항목만 표시됩니다. 목록이 비어 있는데 작업 항목의 수가 0이 아니면 **팀 탐색기**에서 올바른 서버에 연결되어 있는지 확인하세요.  
   
 3. **작업 항목 링크 제거**에서 선택된 항목 중 링크를 해제할 항목을 선택 취소합니다. **확인**을 선택합니다.  
   

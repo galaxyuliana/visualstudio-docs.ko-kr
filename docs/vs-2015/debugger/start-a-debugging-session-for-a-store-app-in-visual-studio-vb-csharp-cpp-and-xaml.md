@@ -34,12 +34,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fc5dfaa203e3e915075ad819fa859be46b9e2b7a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: dd61ea128093735a69ad9b1f30cddc593b5856a4
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095362"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440434"
 ---
 # <a name="start-a-debugging-session-for-a-store-app-in-visual-studio-vb-c-c-and-xaml"></a>Visual Studio에서 스토어 앱의 디버깅 세션 시작(VB, C#, C++ 및 XAML)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  이 항목에서는 XAML과 Visual C++, Visual C# 또는 Visual Basic으로 작성된 스토어 앱에서 디버깅 세션을 시작하는 방법을 설명합니다. 응용 프로그램 디버깅에는 디버깅 세션 구성과 응용 프로그램 시작 방법 선택이 모두 포함됩니다.
 
 > [!NOTE]
->  JavaScript 및 HTML로 작성 된 앱에 대 한 [(JavaScript) 디버그 세션을 시작](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md)합니다.
+> JavaScript 및 HTML로 작성 된 앱에 대 한 [(JavaScript) 디버그 세션을 시작](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md)합니다.
 
 ## <a name="BKMK_In_this_topic"></a> 항목 내용
  [디버깅을 쉽게 시작하는 방법](#BKMK_The_easy_way_to_start_debugging)
@@ -152,7 +152,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     ![원격 디버거 연결 대화 상자를 선택](../debugger/media/vsrun-selectremotedebuggerdlg.png "VSRUN_SelectRemoteDebuggerDlg")
 
   > [!NOTE]
-  >  **원격 디버거 연결 선택** 대화 상자에는 로컬 서브넷에 있는 컴퓨터와 이더넷 케이블을 통해 Visual Studio 컴퓨터에 직접 연결되어 있는 컴퓨터가 표시됩니다. 다른 컴퓨터를 지정하려면 **컴퓨터 이름** 상자에 이름을 입력합니다.
+  > **원격 디버거 연결 선택** 대화 상자에는 로컬 서브넷에 있는 컴퓨터와 이더넷 케이블을 통해 Visual Studio 컴퓨터에 직접 연결되어 있는 컴퓨터가 표시됩니다. 다른 컴퓨터를 지정하려면 **컴퓨터 이름** 상자에 이름을 입력합니다.
 
   ![Windows Phone만 적용 됩니다](../debugger/media/phone-only-content.png "phone_only_content")
 
@@ -210,7 +210,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  기본적으로 원격 디버거를 시작하려면 자격 증명을 제공해야 합니다.
 
 > [!IMPORTANT]
->  인증 안 함 모드에서 원격 디버거를 실행하도록 선택할 수 있지만 이 모드는 사용하지 않는 것이 좋습니다. 이 모드에서 실행할 때는 네트워크 보안이 없습니다. 네트워크에 악의적인 트래픽이나 유해 트래픽 위험이 확실히 없는 경우에만 인증 안 함 모드를 선택하십시오.
+> 인증 안 함 모드에서 원격 디버거를 실행하도록 선택할 수 있지만 이 모드는 사용하지 않는 것이 좋습니다. 이 모드에서 실행할 때는 네트워크 보안이 없습니다. 네트워크에 악의적인 트래픽이나 유해 트래픽 위험이 확실히 없는 경우에만 인증 안 함 모드를 선택하십시오.
 
  인증 요구를 제거하려면
 
@@ -250,7 +250,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  디버그 모드에서 실행되도록 설치된 응용 프로그램을 설정하려면 다음을 수행합니다.
 
 > [!NOTE]
->  이 절차를 시작할 때 응용 프로그램이 실행되고 있지 않아야 합니다.
+> 이 절차를 시작할 때 응용 프로그램이 실행되고 있지 않아야 합니다.
 
 1.  **디버그** 메뉴에서 **디버그 Installed App Package**를 선택합니다.
 

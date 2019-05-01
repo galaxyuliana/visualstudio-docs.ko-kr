@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: df77c65d116bf0e44b700d15d0b810e9adf04c78
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: a753ac6691e419267fdca34ed5e78a9a5b3cfdd3
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63424795"
 ---
 # <a name="walkthrough-customizing-the-insert-update-and-delete-behavior-of-entity-classes"></a>연습: 엔터티 클래스의 삽입, 업데이트 및 삭제 동작 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "60112119"
 2. 프로젝트 이름을 **UpdatingwithSProcsWalkthrough**합니다.  
   
     > [!NOTE]
-    >  [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 및 C# 프로젝트에서 지원됩니다. 따라서 이러한 언어 중 하나로 새 프로젝트를 만듭니다.  
+    > [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 및 C# 프로젝트에서 지원됩니다. 따라서 이러한 언어 중 하나로 새 프로젝트를 만듭니다.  
   
 3. 클릭 합니다 **Windows Forms 응용 프로그램** 템플릿과 클릭 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
   
@@ -89,7 +89,7 @@ ms.locfileid: "60112119"
      **Customer**라는 엔터티 클래스를 만듭니다. 이 클래스에는 Customers 테이블의 열에 해당하는 속성이 있습니다. 이 엔터티 클래스는 Customers 테이블의 단일 고객을 나타내므로 이름이 **Customers**가 아닌 **Customer**로 지정됩니다.  
   
     > [!NOTE]
-    >  이러한 이름 바꾸기 동작을 *복수 적용*이라고 합니다. 설정할 수 있습니다 또는 해제는 [옵션 대화 상자](../ide/reference/options-dialog-box-visual-studio.md)합니다. 자세한 내용은 [방법: 복수 적용 설정 및 해제(O/R 디자이너)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md)를 참조하세요.  
+    > 이러한 이름 바꾸기 동작을 *복수 적용*이라고 합니다. 설정할 수 있습니다 또는 해제는 [옵션 대화 상자](../ide/reference/options-dialog-box-visual-studio.md)합니다. 자세한 내용은 [방법: 복수 적용 설정 및 해제(O/R 디자이너)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md)를 참조하세요.  
   
 3. **빌드** 메뉴에서 **UpdatingwithSProcsWalkthrough 빌드**를 클릭하여 프로젝트를 빌드합니다.  
   
@@ -102,7 +102,7 @@ ms.locfileid: "60112119"
 7. **UpdatingwithSProcsWalkthrough** 노드를 확장하고 **Customer** 클래스를 찾아 선택합니다.  
   
     > [!NOTE]
-    >  **Customer** 클래스를 사용할 수 없는 경우에는 마법사를 취소하고, 프로젝트를 빌드하고, 마법사를 다시 실행합니다.  
+    > **Customer** 클래스를 사용할 수 없는 경우에는 마법사를 취소하고, 프로젝트를 빌드하고, 마법사를 다시 실행합니다.  
   
 8. **마침**을 클릭하여 데이터 원본을 만들고 **데이터 원본** 창에 **Customer** 엔터티 클래스를 추가합니다.  
   
@@ -116,7 +116,7 @@ ms.locfileid: "60112119"
 2. **데이터 원본** 창으로 끕니다 합니다 **고객** 노드를 Form1 합니다.  
   
     > [!NOTE]
-    >  **데이터 원본** 창을 표시하려면 **데이터** 메뉴에서 **데이터 원본 표시**를 클릭합니다.  
+    > **데이터 원본** 창을 표시하려면 **데이터** 메뉴에서 **데이터 원본 표시**를 클릭합니다.  
   
 3. 코드 편집기에서 Form1을 엽니다.  
   
@@ -192,7 +192,7 @@ ms.locfileid: "60112119"
 9. **적용**을 클릭하여 선택한 클래스 및 동작에 대한 구성을 저장합니다.  
   
     > [!NOTE]
-    >  계속해서 클래스/동작 조합을 변경한 후 **적용**을 클릭하여 해당하는 각 조합에 대한 동작을 구성할 수 있습니다. 클릭 하기 전에 클래스 또는 동작을 변경 하는 경우 **적용**, 모든 변경 내용을 적용할 수 있는 기회 나타납니다 제공 하는 경고 대화 상자.  
+    > 계속해서 클래스/동작 조합을 변경한 후 **적용**을 클릭하여 해당하는 각 조합에 대한 동작을 구성할 수 있습니다. 클릭 하기 전에 클래스 또는 동작을 변경 하는 경우 **적용**, 모든 변경 내용을 적용할 수 있는 기회 나타납니다 제공 하는 경고 대화 상자.  
   
 10. **동작** 목록에서 **업데이트**를 선택합니다.  
   
@@ -205,7 +205,7 @@ ms.locfileid: "60112119"
 13. **Original_CustomerID** 메서드 인수를 **CustomerID(Original)** 클래스 속성에 매핑합니다.  
   
     > [!NOTE]
-    >  기본적으로 메서드 인수는 이름이 일치하는 경우 클래스 속성에 매핑됩니다. 속성 이름이 변경되거나 더 이상 테이블 및 엔터티 클래스 간에 일치하지 않아 O/R 디자이너에서 올바른 매핑을 결정할 수 없는 경우에는 매핑할 해당하는 클래스 속성을 선택해야 합니다. 또한 메서드 인수를 매핑할 올바른 클래스 속성이 없는 경우 **클래스 속성** 값을 **(없음)** 으로 설정할 수 있습니다.  
+    > 기본적으로 메서드 인수는 이름이 일치하는 경우 클래스 속성에 매핑됩니다. 속성 이름이 변경되거나 더 이상 테이블 및 엔터티 클래스 간에 일치하지 않아 O/R 디자이너에서 올바른 매핑을 결정할 수 없는 경우에는 매핑할 해당하는 클래스 속성을 선택해야 합니다. 또한 메서드 인수를 매핑할 올바른 클래스 속성이 없는 경우 **클래스 속성** 값을 **(없음)** 으로 설정할 수 있습니다.  
   
 14. **적용**을 클릭하여 선택한 클래스 및 동작에 대한 구성을 저장합니다.  
   
@@ -220,7 +220,7 @@ ms.locfileid: "60112119"
 19. **확인**을 클릭합니다.  
   
 > [!NOTE]
->  이 연습에서는 문제가 되지 않지만 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)]은 삽입 및 업데이트 과정에서 identity(자동 증분), rowguidcol(데이터베이스에서 생성된 GUID) 및 timestamp 열에 대해 데이터베이스에서 생성된 값을 자동으로 처리한다는 점을 기억할 필요가 있습니다. 데이터베이스에서 생성된 값이 다른 형식의 열에 있으면 null 값이라는 예기치 않은 결과가 발생합니다. 데이터베이스에서 생성된 값을 반환하려면 수동으로 <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A>를 `true`로 설정하고 <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A>를 <xref:System.Data.Linq.Mapping.AutoSync>, <xref:System.Data.Linq.Mapping.AutoSync> 또는 <xref:System.Data.Linq.Mapping.AutoSync> 중 하나로 설정해야 합니다.  
+> 이 연습에서는 문제가 되지 않지만 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)]은 삽입 및 업데이트 과정에서 identity(자동 증분), rowguidcol(데이터베이스에서 생성된 GUID) 및 timestamp 열에 대해 데이터베이스에서 생성된 값을 자동으로 처리한다는 점을 기억할 필요가 있습니다. 데이터베이스에서 생성된 값이 다른 형식의 열에 있으면 null 값이라는 예기치 않은 결과가 발생합니다. 데이터베이스에서 생성된 값을 반환하려면 수동으로 <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A>를 `true`로 설정하고 <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A>를 <xref:System.Data.Linq.Mapping.AutoSync>, <xref:System.Data.Linq.Mapping.AutoSync> 또는 <xref:System.Data.Linq.Mapping.AutoSync> 중 하나로 설정해야 합니다.  
   
 ## <a name="testing-the-application"></a>애플리케이션 테스트  
  애플리케이션을 다시 실행하여 **UpdateCustomers** 저장 프로시저가 데이터베이스에서 고객 레코드를 올바로 업데이트하는지 확인합니다.  

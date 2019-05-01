@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 316243f53871c9411af08d6721f2ca590fadea99
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 5d49b870b83eeb4bce48c562f3944aacef871cd2
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63431062"
 ---
 # <a name="application-timeline"></a>애플리케이션 타임라인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,13 +38,13 @@ ms.locfileid: "60078618"
 5. Windows 7  
   
 > [!NOTE]
->  **응용 프로그램 타임라인** 데이터와 함께 CPU 사용량 데이터 및 에너지 소비량 데이터를 수집하고 분석할 수 있습니다. 참조 [디버깅 하지 않고 프로 파일링 도구 실행](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)  
+> **응용 프로그램 타임라인** 데이터와 함께 CPU 사용량 데이터 및 에너지 소비량 데이터를 수집하고 분석할 수 있습니다. 참조 [디버깅 하지 않고 프로 파일링 도구 실행](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)  
   
 ## <a name="BKMK_Collect_Timeline_data_for_your_app"></a> 응용 프로그램 타임라인 데이터 수집  
  로컬 시스템, 연결된 디바이스, Visual Studio 시뮬레이터 또는 에뮬레이터, 또는 원격 디바이스에서 앱 응답성을 프로파일링할 수 있습니다. 참조 [디버깅 하지 않고 프로 파일링 도구 실행](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)합니다.  
   
 > [!TIP]
->  가능한 경우 디바이스에서 앱을 직접 실행합니다. 시뮬레이터에서 또는 원격 데스크톱 연결을 통해 관찰한 응용 프로그램 성능은 디바이스의 실제 성능과 다를 수 있습니다. 반면에 Visual Studio 원격 도구를 사용하여 데이터를 수집하면 성능 데이터에 영향을 주지 않습니다.  
+> 가능한 경우 디바이스에서 앱을 직접 실행합니다. 시뮬레이터에서 또는 원격 데스크톱 연결을 통해 관찰한 응용 프로그램 성능은 디바이스의 실제 성능과 다를 수 있습니다. 반면에 Visual Studio 원격 도구를 사용하여 데이터를 수집하면 성능 데이터에 영향을 주지 않습니다.  
   
  기본 단계는 다음과 같습니다.  
   
@@ -55,7 +55,7 @@ ms.locfileid: "60078618"
 3. **응용 프로그램 타임라인** 을 선택한 다음 창 하단의 **시작** 을 클릭합니다.  
   
     > [!NOTE]
-    >  VsEtwCollector.exe 실행 권한을 요청하는 사용자 계정 컨트롤 창이 나타날 수 있습니다. **예**를 클릭합니다.  
+    > VsEtwCollector.exe 실행 권한을 요청하는 사용자 계정 컨트롤 창이 나타날 수 있습니다. **예**를 클릭합니다.  
   
 4. 성능 데이터를 수집하는 앱에서 프로파일링에 관심 있는 시나리오를 실행합니다.  
   
@@ -107,7 +107,7 @@ ms.locfileid: "60078618"
 |**XAML 기타**|XAML 런타임 코드를 실행하는 데 소요되는 시간입니다.|  
   
 > [!TIP]
->  UI 스레드에서 실행하는 앱 메서드를 보기 위해 프로파일링을 시작하는 경우 **CPU 사용량** 도구를 **애플리케이션 타임라인** 도구와 함께 선택합니다. 장기 실행 앱 코드를 백그라운드 스레드로 이동하면 UI 응답성을 향상할 수 있습니다.  
+> UI 스레드에서 실행하는 앱 메서드를 보기 위해 프로파일링을 시작하는 경우 **CPU 사용량** 도구를 **애플리케이션 타임라인** 도구와 함께 선택합니다. 장기 실행 앱 코드를 백그라운드 스레드로 이동하면 UI 응답성을 향상할 수 있습니다.  
   
 #### <a name="BKMK_Customizing_Timeline_details_"></a> 타임라인 세부 정보 사용자 지정  
  **타임라인 세부 정보** 도구 모음을 사용하여 **타임라인 세부 정보** 뷰 항목의 주석을 정렬, 필터링 및 지정합니다.  

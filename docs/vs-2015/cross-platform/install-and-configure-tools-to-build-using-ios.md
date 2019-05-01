@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: cdde44b5d960a3f9ef462e06b55260477a8933c0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 227d4ba765dbea3be5306f05995cc29d075e6a66
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63434142"
 ---
 # <a name="install-and-configure-tools-to-build-using-ios"></a>Install and Configure Tools to Build using iOS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "60097078"
 플랫폼 간 모바일 개발용 Visual C++를 사용하여 iOS 코드를 편집 및 디버깅하고 iOS 시뮬레이터 또는 iOS 디바이스에 배포할 수 있지만 라이선스 제한으로 인해 Mac에서 코드를 빌드하고 원격으로 실행해야 합니다. Visual Studio를 사용하여 iOS 앱을 빌드 및 실행하려면 Mac에서 원격 에이전트 [vcremote](http://go.microsoft.com/fwlink/p/?LinkId=534988)를 설정 및 구성해야 합니다. 원격 에이전트는 Visual Studio의 빌드 요청을 처리하고 Mac에 연결된 iOS 디바이스 또는 Mac의 iOS 시뮬레이터에서 앱을 실행합니다.  
   
 > [!NOTE]
->  Mac이 아닌 클라우드에서 호스트되는 Mac 서비스를 사용하는 방법에 대한 자세한 내용은 [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/docs/build_ios_cloud/)를 참조하세요. 지침은 Visual Studio Tools for Apache Cordova를 사용한 빌드에 해당합니다. 플랫폼 간 모바일 개발용 Visual C++를 사용한 빌드 지침을 사용하려면 vs-mda-remote를 vcremote로 대체합니다.  
+> Mac이 아닌 클라우드에서 호스트되는 Mac 서비스를 사용하는 방법에 대한 자세한 내용은 [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/docs/build_ios_cloud/)를 참조하세요. 지침은 Visual Studio Tools for Apache Cordova를 사용한 빌드에 해당합니다. 플랫폼 간 모바일 개발용 Visual C++를 사용한 빌드 지침을 사용하려면 vs-mda-remote를 vcremote로 대체합니다.  
   
  iOS를 사용하여 빌드하는 도구를 설치한 경우 Visual Studio 및 Mac에서 iOS 개발용 원격 에이전트를 신속하게 구성 및 업데이트하는 방법은 이 항목을 참조하세요.  
   
@@ -93,7 +93,7 @@ ms.locfileid: "60097078"
    설치하는 동안 vcremote가 설치되고 Mac에서 개발자 모드가 활성화됩니다. [Homebrew](http://brew.sh/) 및 vcremote-lib 및 vcremote-utils의 두 npm 패키지도 설치됩니다.  
   
   > [!NOTE]
-  >  Homebrew를 설치하려면 sudo(관리자) 액세스 권한이 있어야 합니다. sudo 액세스 권한 없이 vcremote를 설치해야 하는 경우 usr/local 위치에 Homebrew를 수동으로 설치하고 해당 bin 폴더를 사용자의 경로에 추가하면 됩니다. 자세한 내용은 [Homebrew 설명서](https://github.com/Homebrew/homebrew/wiki/Installation)를 참조하세요. 개발자 모드를 수동으로 사용하도록 설정하려면 터미널 앱에서 다음 명령을 입력합니다. `DevToolsSecurity –enable`  
+  > Homebrew를 설치하려면 sudo(관리자) 액세스 권한이 있어야 합니다. sudo 액세스 권한 없이 vcremote를 설치해야 하는 경우 usr/local 위치에 Homebrew를 수동으로 설치하고 해당 bin 폴더를 사용자의 경로에 추가하면 됩니다. 자세한 내용은 [Homebrew 설명서](https://github.com/Homebrew/homebrew/wiki/Installation)를 참조하세요. 개발자 모드를 수동으로 사용하도록 설정하려면 터미널 앱에서 다음 명령을 입력합니다. `DevToolsSecurity –enable`  
   
   Visual Studio를 새 버전으로 업데이트하는 경우 현재 원격 에이전트 버전도 업데이트해야 합니다. 원격 에이전트를 업데이트하려면 원격 에이전트 다운로드 및 설치 단계를 반복합니다.  
   
@@ -154,7 +154,7 @@ ms.locfileid: "60097078"
 5. **호스트 이름** 및 **포트** 필드에서 시작할 때 원격 에이전트에 의해 지정된 값을 입력합니다. 호스트 이름은 Mac의 DNS 이름 또는 IP 주소일 수 있습니다. 기본 포트는 3030입니다.  
   
    > [!NOTE]
-   >  호스트 이름을 사용하여 Mac을 ping할 수 없는 경우 IP 주소를 사용해야 할 수도 있습니다.  
+   > 호스트 이름을 사용하여 Mac을 ping할 수 없는 경우 IP 주소를 사용해야 할 수도 있습니다.  
   
 6. 기본 보안된 연결 모드에서 원격 에이전트를 사용하는 경우 **보안** 확인란을 선택한 다음 **Pin** 필드에 원격 에이전트에 의해 지정된 PIN 값을 입력합니다. 보안되지 않은 연결 모드에서 원격 에이전트를 사용하는 경우 **보안** 확인란을 선택 취소하고 **Pin** 필드를 비워 둡니다.  
   

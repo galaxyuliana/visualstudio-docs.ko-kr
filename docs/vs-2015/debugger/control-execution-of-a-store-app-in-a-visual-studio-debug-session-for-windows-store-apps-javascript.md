@@ -14,12 +14,12 @@ caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c23bbb74a4f166ebe33cc45f40f42f9847316d30
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 9238bd4f42291af23a1279c9caa83f1039c8f249
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437754"
 ---
 # <a name="control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript"></a>Windows 스토어 앱에 대한 Visual Studio 디버그 세션에서 스토어 앱의 실행 제어(JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,9 +33,9 @@ ms.locfileid: "60043299"
  **디버거 바로 가기 키** Visual Studio 디버거의 탐색은 마우스와 키보드 둘 다에 맞게 최적화되어 있습니다. 이 항목의 많은 단계에서는 키보드 액셀러레이터 또는 바로 가기 키를 괄호로 묶어 표시합니다. 예를 들어 (키보드: F5 키)는 F5 시작 하거나 디버거 실행이 계속 키를 입력 하면 나타냅니다.
 
 > [!NOTE]
->  **모듈 패턴**
+> **모듈 패턴**
 >
->  Windows 스토어 앱은 종종 JavaScript *모듈 패턴* 을 사용하여 한 페이지의 데이터와 함수를 캡슐화합니다. 모듈 패턴은 자동 실행되는 익명의 단일 클로저를 사용하여 페이지 기능을 전역 네임스페이스와 별도로 유지합니다. 이 항목에서는 해당 함수를 *모듈*이라고 합니다.
+> Windows 스토어 앱은 종종 JavaScript *모듈 패턴* 을 사용하여 한 페이지의 데이터와 함수를 캡슐화합니다. 모듈 패턴은 자동 실행되는 익명의 단일 클로저를 사용하여 페이지 기능을 전역 네임스페이스와 별도로 유지합니다. 이 항목에서는 해당 함수를 *모듈*이라고 합니다.
 
 ## <a name="in-this-topic"></a>항목 내용
  배울 방법:

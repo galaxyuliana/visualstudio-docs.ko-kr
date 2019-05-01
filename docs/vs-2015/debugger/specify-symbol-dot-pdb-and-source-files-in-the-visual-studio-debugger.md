@@ -27,12 +27,12 @@ caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6be45876174afa00a58ea9948661f051f8df1ddc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 8e6c234b622dcc335a6fe42fd57f1f815a5fd9d9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63447305"
 ---
 # <a name="specify-symbol-pdb-and-source-files-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 기호 파일(.pdb) 및 원본 파일 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,7 +72,7 @@ ms.locfileid: "60045709"
 4. 기호 로드 성능을 향상시키려면 기호가 기호 서버에 의해 복사될 수 있는 로컬 디렉터리의 경로를 **이 디렉터리의 기호 캐시** 상자에 입력합니다.
 
    > [!NOTE]
-   >  보호되는 폴더(예: C:\Windows 폴더 또는 하위 폴더 중 하나)에 기호 캐시를 배치하지 마십시오. 대신 읽기/쓰기 폴더를 사용하십시오.
+   > 보호되는 폴더(예: C:\Windows 폴더 또는 하위 폴더 중 하나)에 기호 캐시를 배치하지 마십시오. 대신 읽기/쓰기 폴더를 사용하십시오.
 
    **기호 로드 동작 지정**
 
@@ -116,7 +116,7 @@ ms.locfileid: "60045709"
  Windows 애플리케이션 및 라이브러리의 타사 공급자는 인터넷에 있는 기호 서버에 대한 액세스를 제공할 수 있습니다.  **옵션**/**기호** 페이지에도 이러한 기호 서버의 URL을 입력할 수 있습니다.
 
 > [!NOTE]
->  Microsoft 공용 기호 서버 이외의 기호 서버를 사용할 경우 기호 서버와 해당 경로를 신뢰할 수 있는지 확인합니다. 기호 파일은 임의의 실행 코드를 포함할 수 있으므로 보안 위협에 노출될 수 있습니다.
+> Microsoft 공용 기호 서버 이외의 기호 서버를 사용할 경우 기호 서버와 해당 경로를 신뢰할 수 있는지 확인합니다. 기호 파일은 임의의 실행 코드를 포함할 수 있으므로 보안 위협에 노출될 수 있습니다.
 
 ### <a name="BKMK_Find_and_load_symbols_while_debugging"></a> 디버깅하는 동안 기호 찾기 및 로드
  디버거가 중단 모드에 있을 때는 디버거 옵션에 의해 이전에 제외되었거나 컴파일러가 찾을 수 없었던 모듈의 기호를 로드할 수 있습니다. 호출 스택, 모듈, 지역, 자동 및 모든 조사식 창의 바로 가기 메뉴에서 기호를 로드할 수 있습니다. 디버거가 기호 또는 소스 파일을 사용할 수 없는 코드에서 중단되는 경우 문서 창이 나타납니다. 여기에서 누락된 파일에 대한 정보를 찾고 이러한 파일을 찾고 로드하기 위해 조치를 취할 수 있습니다.
@@ -224,7 +224,7 @@ ms.locfileid: "60045709"
  로컬 컴퓨터에 소스 코드가 없거나 .pdb 파일이 소스 코드와 일치하지 않는 경우 소스 서버를 사용하여 애플리케이션을 디버깅할 수 있습니다. 소스 서버에서는 파일에 대한 요청을 전달받고 실제 파일을 반환합니다. 소스 서버를 실행하는 데는 srcsrv.dll이라는 DLL 파일이 사용됩니다. 소스 서버는 애플리케이션의 .pdb 파일을 읽습니다. 이 PDB 파일에는 소스 코드 리포지토리에 대한 포인터와 리포지토리에서 소스 코드를 검색하는 데 사용되는 명령이 포함되어 있습니다. srcsrv.ini라는 파일 내에 허용되는 명령의 목록을 지정하여 애플리케이션의 .pdb 파일에서 실행할 수 있는 명령을 제한할 수 있습니다. 이 파일은 srcsrv.dll 및 devenv.exe와 동일한 디렉터리에 있어야 합니다.
 
 > [!IMPORTANT]
->  임의의 명령이 애플리케이션의 .pdb 파일에 포함될 수 있으므로 실행하려는 명령만 srcsrv.ini 파일에 삽입해야 합니다. srcsvr.ini 파일에 포함되지 않은 명령을 실행하려고 하면 확인 대화 상자가 나타납니다. 자세한 내용은 참조 하세요. [보안 경고: 디버거가 신뢰할 수 없는 명령을 실행해야 합니다](../debugger/security-warning-debugger-must-execute-untrusted-command.md). 명령 매개 변수에 대해서는 유효성 검사를 수행하지 않으므로 신뢰되는 명령에 대해 주의를 기울여야 합니다. 예를 들어 cmd.exe를 신뢰한 경우 악의적인 사용자가 이 명령을 위험하게 만드는 매개 변수를 지정할 수도 있습니다.
+> 임의의 명령이 애플리케이션의 .pdb 파일에 포함될 수 있으므로 실행하려는 명령만 srcsrv.ini 파일에 삽입해야 합니다. srcsvr.ini 파일에 포함되지 않은 명령을 실행하려고 하면 확인 대화 상자가 나타납니다. 자세한 내용은 참조 하세요. [보안 경고: 디버거가 신뢰할 수 없는 명령을 실행해야 합니다](../debugger/security-warning-debugger-must-execute-untrusted-command.md). 명령 매개 변수에 대해서는 유효성 검사를 수행하지 않으므로 신뢰되는 명령에 대해 주의를 기울여야 합니다. 예를 들어 cmd.exe를 신뢰한 경우 악의적인 사용자가 이 명령을 위험하게 만드는 매개 변수를 지정할 수도 있습니다.
 
  **소스 서버를 사용하도록 설정하려면**
 

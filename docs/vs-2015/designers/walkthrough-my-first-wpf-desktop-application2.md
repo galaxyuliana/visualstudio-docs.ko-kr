@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 74ae6a4510efc63a633e627fdd0b165aa547b2be
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bee99bc546eca3787db1f9cd082359afb6881d10
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63421143"
 ---
 # <a name="walkthrough-my-first-wpf-desktop-application"></a>연습: 내 첫 WPF 데스크톱 응용 프로그램
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ name = "소개" ></a> 이 연습에서는 Windows Presentation Foundation (WPF) 
      `<Window` 태그를 `<NavigationWindow`로 변경하는 경우 Intellisense가 자동으로 닫는 태그를 `</NavigationWindow>` 로 변경합니다.  
   
     > [!NOTE]
-    >  태그를 변경한 후 **오류 목록** 창이 열려 있으면 여러 오류가 표시될 수도 있습니다. 다음 몇 단계의 변경 작업을 수행하면 이러한 오류가 사라집니다.  
+    > 태그를 변경한 후 **오류 목록** 창이 열려 있으면 여러 오류가 표시될 수도 있습니다. 다음 몇 단계의 변경 작업을 수행하면 이러한 오류가 사라집니다.  
   
 3. `<Grid>` 및 `</Grid>` 태그를 선택하고 삭제합니다.  
   
@@ -307,14 +307,14 @@ name = "소개" ></a> 이 연습에서는 Windows Presentation Foundation (WPF) 
      ![연습용 워터마크 이미지](../designers/media/wpf-watermark.png "WPF_watermark")  
   
     > [!NOTE]
-    >  이미지를 직접 만들어 `watermark.png`로 저장할 수도 있습니다.  
+    > 이미지를 직접 만들어 `watermark.png`로 저장할 수도 있습니다.  
   
 2. **솔루션 탐색기**에서 **ExpenseIt** 노드의 바로 가기 메뉴를 열고 **추가**, **기존 항목**을 선택합니다.  
   
 3. **기존 항목 추가** 대화 상자에서 방금 추가한 **watermark.png** 이미지를 찾아서 선택한 다음 **추가** 단추를 선택합니다.  
   
     > [!NOTE]
-    >  **파일 형식** 목록을 확장하고 **이미지 파일**을 선택해야 할 수도 있습니다.  
+    > **파일 형식** 목록을 확장하고 **이미지 파일**을 선택해야 할 수도 있습니다.  
   
 4. **ExpenseItHome.xaml** 파일을 열고 다음 XAML 코드를 `</Grid>` 태그 바로 위에 추가하여 배경 이미지를 만듭니다.  
   
