@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ed55c42211222ca94587b4358bb904f9637cb3f4
-ms.sourcegitcommit: d0425b6b7d4b99e17ca6ac0671282bc718f80910
-ms.translationtype: MT
+ms.openlocfilehash: 320b20fa40250ca47dd414b362059e152eba2c3b
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "56596323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63420989"
 ---
 # <a name="imanagedaddin-interface"></a>IManagedAddin 인터페이스
   로드 하는 구성 요소를 만드는 IManagedAddin 인터페이스를 구현 하는 VSTO 추가 기능을 관리 합니다. 이 인터페이스는 2007 Microsoft Office 시스템에서 추가되었습니다.
@@ -82,7 +82,7 @@ interface IManagedAddin : IUnknown
  IManagedAddin 구현 하는 COM 개체를 만들려면이 CLSID를 사용 하는 Microsoft Office 응용 프로그램.
 
 > [!CAUTION]
->  이 CLSID 에서도 *VSTOLoader.dll* 에 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]합니다. 따라서 IManagedAddin를 사용 하 여 사용자 고유의 VSTO 추가 기능 로더 및 런타임 구성 요소를 만드는 경우 배포할 수 없습니다 구성 요소는 VSTO 추가 기능에 의존 하는 실행 중인 컴퓨터에는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]합니다.
+> 이 CLSID 에서도 *VSTOLoader.dll* 에 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]합니다. 따라서 IManagedAddin를 사용 하 여 사용자 고유의 VSTO 추가 기능 로더 및 런타임 구성 요소를 만드는 경우 배포할 수 없습니다 구성 요소는 VSTO 추가 기능에 의존 하는 실행 중인 컴퓨터에는 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]합니다.
 
 ## <a name="see-also"></a>참고자료
 - [관리 되지 않는 API 참조 &#40;Visual Studio에서 Office 개발&#41;](../vsto/unmanaged-api-reference-office-development-in-visual-studio.md)

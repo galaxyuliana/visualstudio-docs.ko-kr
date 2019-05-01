@@ -11,12 +11,12 @@ caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9591875b525d44e343f8326b7f5a145b04b57cff
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 4107a5fb88392f9d02cca8f41b0f53d5844d9490
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071164"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63422719"
 ---
 # <a name="define-validation-constraints-for-uml-models"></a>UML 모델에 대한 유효성 검사 제약 조건 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ ms.locfileid: "60071164"
     자세한 내용은 [유효성 검사 제약 조건 평가](#Implementing)를 참조하세요.  
   
    > [!IMPORTANT]
-   >   **.cs** 파일에 다음 `using` 문이 포함되어 있는지 확인합니다.  
+   >  **.cs** 파일에 다음 `using` 문이 포함되어 있는지 확인합니다.  
    >   
    >  `using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;`  
   
@@ -223,7 +223,7 @@ using Microsoft.VisualStudio.Uml.Classes;
  유효성 검사 메서드는 적용할 유효성 검사 제약 조건이 true 또는 false인지를 확인해야 합니다. true이면 아무 작업도 수행하면 안 됩니다. false이면 `ValidationContext` 매개 변수가 제공하는 메서드를 사용하여 오류를 보고해야 합니다.  
   
 > [!NOTE]
->  유효성 검사 메서드는 모델을 변경하면 안 됩니다. 제약 조건을 실행되는 시기 또는 순서에 대한 보장은 없습니다. 유효성 검사 실행 내에서 유효성 검사 메서드의 연속 실행 간에 정보를 전달해야 하는 경우 [여러 유효성 검사 조정](#ContextCache)에서 설명된 컨텍스트 캐시를 사용할 수 있습니다.  
+> 유효성 검사 메서드는 모델을 변경하면 안 됩니다. 제약 조건을 실행되는 시기 또는 순서에 대한 보장은 없습니다. 유효성 검사 실행 내에서 유효성 검사 메서드의 연속 실행 간에 정보를 전달해야 하는 경우 [여러 유효성 검사 조정](#ContextCache)에서 설명된 컨텍스트 캐시를 사용할 수 있습니다.  
   
  예를 들어 모든 형식(클래스, 인터페이스 또는 열거자)의 이름이 3자 이상인지 확인하려는 경우 다음 메서드를 사용할 수 있습니다.  
   

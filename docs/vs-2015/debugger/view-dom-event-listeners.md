@@ -17,12 +17,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 12a4f736217374eefa32dda30111da5e71fbab39
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 945edb462b1ba849a3a1b9fd6797c8393b651163
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437677"
 ---
 # <a name="view-dom-event-listeners"></a>DOM 이벤트 수신기 보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  목록에는 **이벤트** 탭은 동적입니다. 앱 실행 중에 이벤트 수신기를 추가하면 목록에 새 이벤트 수신기가 나타납니다. 이벤트 수신기 추가 및 제거에 대 한 정보를 참조 하세요 [이벤트 수신기를 사용 하 여 문제를 해결 하기 위한 팁](#Tips) 이 항목의 합니다.
 
 > [!NOTE]
->  DOM 요소를 같은 하지 않은 코드 요소에 대 한 이벤트 수신기 `xhr`에 표시 되지 않습니다 합니다 **이벤트** 탭 합니다.
+> DOM 요소를 같은 하지 않은 코드 요소에 대 한 이벤트 수신기 `xhr`에 표시 되지 않습니다 합니다 **이벤트** 탭 합니다.
 
 ## <a name="view-event-listeners-for-dom-elements"></a>DOM 요소의 이벤트 수신기 보기
  이 예에는 Windows Phone 스토어 앱이 나와 있습니다. 여기서 설명하는 DOM 탐색기 기능은 Windows 스토어 앱에서도 지원됩니다.

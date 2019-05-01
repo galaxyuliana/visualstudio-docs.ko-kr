@@ -33,12 +33,12 @@ caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2a8bc2e1f4c78e32db6fa5e09ec50bdd182f4fa6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 6e50f19c4889e5f15c7dc3d458d1347912ecbc1d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439171"
 ---
 # <a name="managing-exceptions-with-the-debugger"></a>디버거를 사용한 예외 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,10 +54,10 @@ ms.locfileid: "60040966"
 - [Just My Code](../debugger/just-my-code.md)을 설정했으며, 사용자 코드에서 처리되지 않은 예외가 발견되면 중단되도록 디버거가 설정된 경우  
   
 > [!NOTE]
->  ASP.NET에는 브라우저에 오류 페이지를 표시하는 최상위 예외 처리기가 있습니다. **내 코드만** 이 설정되지 않은 경우에는 실행이 중단되지 않습니다. 예제를 보려면 아래의 [Setting the debugger to continue on user-unhandled exceptions](../debugger/managing-exceptions-with-the-debugger.md#BKMK_UserUnhandled) 를 참조하세요.  
+> ASP.NET에는 브라우저에 오류 페이지를 표시하는 최상위 예외 처리기가 있습니다. **내 코드만** 이 설정되지 않은 경우에는 실행이 중단되지 않습니다. 예제를 보려면 아래의 [Setting the debugger to continue on user-unhandled exceptions](../debugger/managing-exceptions-with-the-debugger.md#BKMK_UserUnhandled) 를 참조하세요.  
   
 > [!NOTE]
->  Visual Basic 애플리케이션에서 디버거는 모든 오류를 예외로 관리합니다. 이는 On Error 스타일의 오류 처리기를 사용하는 경우에도 마찬가지입니다.  
+> Visual Basic 애플리케이션에서 디버거는 모든 오류를 예외로 관리합니다. 이는 On Error 스타일의 오류 처리기를 사용하는 경우에도 마찬가지입니다.  
   
 ## <a name="managing-exceptions-with-the-exception-settings-window"></a>예외 설정 창을 사용한 예외 관리  
  **예외 설정** 창을 사용하여 디버거가 중단되도록 할 예외(또는 예외 집합) 및 실행 중단시킬 지점을 설정할 수 있습니다. 예외를 추가 또는 삭제하거나 실행 중단을 일으킬 예외를 지정할 수 있습니다. 솔루션이 열려 있을 때 **디버그 / Windows / 예외 설정**을 클릭하여 이 창을 엽니다.  
@@ -162,7 +162,7 @@ ms.locfileid: "60040966"
  GPU 메모리 액세스 예외, JavaScript 런타임 예외 또는 Win32 예외 범주에 예외를 추가하려는 경우에는 설명과 함께 오류 코드를 포함해야 합니다.  
   
 > [!TIP]
->  맞춤법 검사를 수행합니다. **예외 설정** 창에서는 추가된 예외가 있는지 검사하지 않습니다. 따라서 **Sytem.UriTemplateMatchException**을 입력하면 해당 예외에 대한 항목( **System.UriTemplateMatchException**에 대한 항목이 아님)을 얻게 됩니다.  
+> 맞춤법 검사를 수행합니다. **예외 설정** 창에서는 추가된 예외가 있는지 검사하지 않습니다. 따라서 **Sytem.UriTemplateMatchException**을 입력하면 해당 예외에 대한 항목( **System.UriTemplateMatchException**에 대한 항목이 아님)을 얻게 됩니다.  
   
  예외 설정은 솔루션의 .suo파일에 유지되므로 특정 솔루션에 적용됩니다. 특정 예외 설정을 여러 솔루션에서 다시 사용할 수 없습니다. 추가된 예외만 유지되고, 삭제된 예외는 유지되지 않습니다. 다시 말해서, 예외를 추가한 후 솔루션을 닫았다가 다시 열면 예외가 그대로 유지됩니다. 그러나 예외를 삭제한 후 솔루션을 닫았다가 다시 열면 예외가 다시 나타나지 않습니다.  
   

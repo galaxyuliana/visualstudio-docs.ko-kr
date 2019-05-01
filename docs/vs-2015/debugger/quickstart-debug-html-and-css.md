@@ -21,12 +21,12 @@ caps.latest.revision: 104
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7dd7afa571b83cb5d1b12018da2f1e812a3a5fbd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 1820b1c9838e5558ea6ee96f2abdbcf88a24e4b0
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446131"
 ---
 # <a name="quickstart-debug-html-and-css"></a>빠른 시작: HTML 및 CSS 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  DOM 탐색기는 렌더링된 페이지의 뷰를 보여 주고, DOM 탐색기를 사용하여 값을 변경하고 변경 결과를 바로 확인할 수 있습니다. 그러면 디버거를 중지했다가 다시 시작하지 않고도 변경 내용을 테스트할 수 있습니다. 이 방법을 사용하여 페이지와 상호 작용할 때 프로젝트의 소스 코드는 변경되지 않으므로 원하는 코드 수정 내용을 찾으면 소스 코드를 변경합니다.  
   
 > [!TIP]
->  소스 코드를 변경할 때 디버거를 중지했다가 다시 시작하지 않으려면 디버그 도구 모음에서 **Windows 앱 새로 고침** 단추를 사용하거나 F4 키를 눌러 앱을 새로 고치면 됩니다. 자세한 내용은 참조 하세요. [앱 (JavaScript) 새로 고침](../debugger/refresh-an-app-javascript.md)합니다.  
+> 소스 코드를 변경할 때 디버거를 중지했다가 다시 시작하지 않으려면 디버그 도구 모음에서 **Windows 앱 새로 고침** 단추를 사용하거나 F4 키를 눌러 앱을 새로 고치면 됩니다. 자세한 내용은 참조 하세요. [앱 (JavaScript) 새로 고침](../debugger/refresh-an-app-javascript.md)합니다.  
   
  DOM 탐색기를 사용하면 다음 작업을 수행할 수 있습니다.  
   
@@ -74,12 +74,12 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   응용 프로그램을 디버깅할 때 주로 DOM 탐색기에서 요소를 선택해야 합니다. 요소를 선택하면 DOM 탐색기 오른쪽 탭에 나타나는 값이 DOM 탐색기에서 선택된 요소를 반영하도록 자동으로 업데이트됩니다. 탭은 다음과 같습니다. **스타일**하십시오 **계산**를 **레이아웃**합니다. Windows 스토어 앱은 **이벤트** 및 **변경** 탭도 지원합니다. 요소를 선택하는 방법에 대한 자세한 내용은 [Selecting elements](#SelectingElements)을 참조하세요.  
   
 > [!TIP]
->  DOM 탐색기 창이 닫혀 있는 경우 **디버그**>**창** > **DOM 탐색기** 를 선택하여 창을 다시 엽니다. 창은 스크립트 디버깅 세션 중에만 나타납니다.  
+> DOM 탐색기 창이 닫혀 있는 경우 **디버그**>**창** > **DOM 탐색기** 를 선택하여 창을 다시 엽니다. 창은 스크립트 디버깅 세션 중에만 나타납니다.  
   
  이후에 나오는 절차에서 DOM 탐색기를 사용하여 응용 프로그램을 대화형으로 디버깅하는 과정을 살펴봅니다. 이때 `FlipView` 컨트롤을 사용하는 응용 프로그램을 만든 다음 디버깅합니다. 앱에는 여러 개의 오류가 포함되어 있습니다.  
   
 > [!WARNING]
->  다음 샘플 앱은 Windows 스토어 앱입니다. Cordova에 대해서도 동일한 기능이 지원되지만 앱이 다릅니다.  
+> 다음 샘플 앱은 Windows 스토어 앱입니다. Cordova에 대해서도 동일한 기능이 지원되지만 앱이 다릅니다.  
   
 #### <a name="to-debug-by-inspecting-the-live-dom"></a>라이브 DOM을 검사하여 디버그하려면  
   
@@ -183,14 +183,14 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 10. Visual Studio로 전환하고 **DOM 탐색기** 탭을 다시 선택합니다.  
   
     > [!TIP]
-    >  Alt+Tab 또는 F12 키를 눌러 Visual Studio와 실행 중인 응용 프로그램 간에 전환할 수 있습니다.  
+    > Alt+Tab 또는 F12 키를 눌러 Visual Studio와 실행 중인 응용 프로그램 간에 전환할 수 있습니다.  
   
 11. DOM 탐색기 창에서 `"fView"`의 ID가 있는 섹션에 대한 DIV 요소를 선택합니다. 화살표 키를 사용하여 올바른 DIV 요소를 보고 선택합니다. (오른쪽 화살표 키를 사용하여 요소의 자식을 볼 수 있음)  
   
      ![DOM 탐색기](../debugger/media/js-dom-explorer.png "JS_DOM_Explorer")  
   
     > [!TIP]
-    >  입력 하 여 JavaScript 콘솔 창의 왼쪽된 아래 모서리에서 DIV 요소를 선택할 수도 있습니다 `select(fView)` 에 >> 프롬프트 및 Enter 키를 입력 합니다.  
+    > 입력 하 여 JavaScript 콘솔 창의 왼쪽된 아래 모서리에서 DIV 요소를 선택할 수도 있습니다 `select(fView)` 에 >> 프롬프트 및 Enter 키를 입력 합니다.  
   
      DOM 탐색기 창의 오른쪽 탭에 나타나는 값이 DOM 탐색기의 현재 요소를 반영하도록 자동으로 업데이트됩니다.  
   
@@ -209,7 +209,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 15. `width: 100px;height: 100px;`를 선택하고 Delete 키와 Enter 키를 차례로 누릅니다. Enter 키를 누르면 디버깅 세션을 중지하지 않았더라도 새 값이 시뮬레이터 또는 Phone 에뮬레이터에 바로 반영됩니다.  
   
     > [!IMPORTANT]
-    >  DOM 탐색기 창에서 특성을 업데이트할 수 있듯이 **스타일**, **계산됨**및 **레이아웃** 탭에 표시되는 값도 업데이트할 수 있습니다. 자세한 내용은 참조 하세요. [DOM 탐색기를 사용 하 여 디버그 하는 CSS 스타일](../debugger/debug-css-styles-using-dom-explorer.md) 하 고 [DOM 탐색기를 사용 하 여 디버그 레이아웃](../debugger/debug-layout-using-dom-explorer.md)합니다.  
+    > DOM 탐색기 창에서 특성을 업데이트할 수 있듯이 **스타일**, **계산됨**및 **레이아웃** 탭에 표시되는 값도 업데이트할 수 있습니다. 자세한 내용은 참조 하세요. [DOM 탐색기를 사용 하 여 디버그 하는 CSS 스타일](../debugger/debug-css-styles-using-dom-explorer.md) 하 고 [DOM 탐색기를 사용 하 여 디버그 레이아웃](../debugger/debug-layout-using-dom-explorer.md)합니다.  
   
 16. 시뮬레이터 또는 Phone 에뮬레이터를 선택하거나 Alt+Tab을 사용하여 앱을 전환합니다.  
   
@@ -281,7 +281,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   요소를 강조 표시할 경우 시뮬레이터에서 마우스로 가리키는 요소가 강조 표시됩니다. 하이라이트된 요소의 색은 DOM 탐색기의 **레이아웃** 탭에 나타나는 상자 모델과 일치합니다.  
   
 > [!NOTE]
->  요소를 마우스로 가리키면 강조 표시되는 기능은 Windows Phone 에뮬레이터에서만 일부 지원됩니다.  
+> 요소를 마우스로 가리키면 강조 표시되는 기능은 Windows Phone 에뮬레이터에서만 일부 지원됩니다.  
   
  사용 하 여 요소를 선택 하는 방법을 보여 주는 예는 **Select 요소** 단추를 참조 하십시오 [DOM 탐색기를 사용 하 여 디버그 하는 CSS 스타일](../debugger/debug-css-styles-using-dom-explorer.md)합니다.  
   

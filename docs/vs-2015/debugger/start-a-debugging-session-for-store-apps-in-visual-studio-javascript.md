@@ -17,12 +17,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 12c5fb2db92c70144e38aa3ca2110b8b3d5c354e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 630b2896e7446cf62982dd62ed12f9f7b7ca4aa9
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63427290"
 ---
 # <a name="start-a-debugging-session-for-store-apps-in-visual-studio-javascript"></a>Visual Studio에서 스토어 앱에 대한 디버깅 세션 시작(JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  이 항목에서는 JavaScript 및 HTML5로 작성된 Windows 스토어 앱에 대한 디버깅 세션을 시작하는 방법을 설명합니다. 키를 한 번 입력하여 디버깅을 시작할 수도 있고, 특정 시나리오에 대한 디버깅 세션을 구성하여 앱을 시작할 수도 있습니다.
 
 > [!NOTE]
->  XAML 및 시각적 개체에서 작성 된 앱에 대 한 C#, Visual C++, 또는 Visual Basic을 참조 하세요 [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
+> XAML 및 시각적 개체에서 작성 된 앱에 대 한 C#, Visual C++, 또는 Visual Basic을 참조 하세요 [디버그 세션 시작 (VB, C#, C++ 및 XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
 
 ## <a name="BKMK_In_this_topic"></a> 항목 내용
  [항목 내용](#BKMK_In_this_topic)
@@ -117,7 +117,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
    ![원격 디버거 연결 선택](../debugger/media/vsrun-pro-selectremotedebuggerdlg.png "VSRUN_PRO_SelectRemoteDebuggerDlg")
 
   > [!NOTE]
-  >  원격 디버거 연결 선택 대화 상자에는 로컬 서브넷에 있는 컴퓨터와 이더넷 케이블을 통해 Visual Studio 컴퓨터에 직접 연결되어 있는 컴퓨터가 표시됩니다. 다른 컴퓨터를 지정하려면 **컴퓨터 이름** 상자에 이름을 입력합니다.
+  > 원격 디버거 연결 선택 대화 상자에는 로컬 서브넷에 있는 컴퓨터와 이더넷 케이블을 통해 Visual Studio 컴퓨터에 직접 연결되어 있는 컴퓨터가 표시됩니다. 다른 컴퓨터를 지정하려면 **컴퓨터 이름** 상자에 이름을 입력합니다.
 
   ![Windows Phone만 적용 됩니다](../debugger/media/phone-only-content.png "phone_only_content")
 
@@ -178,7 +178,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  디버그 모드에서 실행되도록 설치된 응용 프로그램을 설정하려면 다음을 수행합니다.
 
 > [!NOTE]
->  이 절차를 시작할 때 응용 프로그램이 실행되고 있지 않아야 합니다.
+> 이 절차를 시작할 때 응용 프로그램이 실행되고 있지 않아야 합니다.
 
 1.  **디버그** 메뉴에서 **디버그 Installed App Package**를 선택합니다.
 
@@ -226,9 +226,9 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 ### <a name="BKMK_Attach_the_debugger"></a> 디버거 연결
 
 > [!TIP]
->  JavaScript 앱은 wwahost.exe 프로세스의 인스턴스에서 실행됩니다. 앱에 연결할 때 다른 JavaScript 앱이 실행 중인 경우 해당 앱이 실행 중인 wwahost.exe의 숫자 PID(프로세스 ID)를 알아야 합니다.
+> JavaScript 앱은 wwahost.exe 프로세스의 인스턴스에서 실행됩니다. 앱에 연결할 때 다른 JavaScript 앱이 실행 중인 경우 해당 앱이 실행 중인 wwahost.exe의 숫자 PID(프로세스 ID)를 알아야 합니다.
 >
->  이러한 상황을 처리하는 가장 쉬운 방법은 다른 JavaScript 앱을 모두 닫는 것입니다. 그렇지 않으면 앱을 시작하기 전에 Windows 작업 관리자를 열고 wwahost.exe 프로세스의 ID를 메모해 두면 됩니다. 에 연결 하는 프로세스를 지정 하는 경우는 **사용 가능한 프로세스** 대화 상자에서 앱의 wwahost.exe id는 기록한 것 보다 다른 해야 합니다.
+> 이러한 상황을 처리하는 가장 쉬운 방법은 다른 JavaScript 앱을 모두 닫는 것입니다. 그렇지 않으면 앱을 시작하기 전에 Windows 작업 관리자를 열고 wwahost.exe 프로세스의 ID를 메모해 두면 됩니다. 에 연결 하는 프로세스를 지정 하는 경우는 **사용 가능한 프로세스** 대화 상자에서 앱의 wwahost.exe id는 기록한 것 보다 다른 해야 합니다.
 
  디버거를 연결하려면 다음을 수행합니다.
 

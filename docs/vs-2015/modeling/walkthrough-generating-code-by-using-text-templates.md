@@ -12,12 +12,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8c374dc5cc616f58cb81a1191b095971561df9b1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 37abc4862b12ab11239b2dd8a24b8c18acab2a51
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446709"
 ---
 # <a name="walkthrough-generating-code-by-using-text-templates"></a>연습: 텍스트 템플릿을 사용 하 여 코드를 생성 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60052885"
  이 예제 프로젝트에서는 템플릿이 샘플 XML 파일을 읽고, 각 노드 형식에 해당하는 클래스를 생성합니다. 직접 작성한 코드에서 이러한 클래스를 사용하여 XML 파일을 탐색할 수 있습니다. 동일한 노드 형식을 사용하는 다른 파일에서 애플리케이션을 실행할 수도 있습니다. 샘플 XML 파일의 목적은 애플리케이션에서 처리하고자 하는 모든 노드 형식의 예를 제공하는 것입니다.  
   
 > [!NOTE]
->  [에 포함된 응용 프로그램](http://go.microsoft.com/fwlink/?LinkId=178765)xsd.exe [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]는 XML 파일에서 강력한 형식의 클래스를 생성할 수 있습니다. 여기에 표시된 템플릿은 예로서 제공됩니다.  
+> [에 포함된 응용 프로그램](http://go.microsoft.com/fwlink/?LinkId=178765)xsd.exe [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]는 XML 파일에서 강력한 형식의 클래스를 생성할 수 있습니다. 여기에 표시된 템플릿은 예로서 제공됩니다.  
   
  샘플 파일은 다음과 같습니다.  
   
@@ -142,7 +142,7 @@ namespace MyProject
 2. **새 항목 추가** 대화 상자의 **템플릿** 창에서 **텍스트 템플릿** 을 선택합니다.  
   
    > [!NOTE]
-   >  전처리 텍스트 템플릿이 아니라 텍스트 템플릿을 추가하는지 확인합니다.  
+   > 전처리 텍스트 템플릿이 아니라 텍스트 템플릿을 추가하는지 확인합니다.  
   
 3. 파일의 템플릿 지시문에서 `hostspecific` 특성을 `true`로 변경합니다.  
   

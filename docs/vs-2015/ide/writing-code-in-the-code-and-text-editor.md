@@ -60,12 +60,12 @@ caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a949f920fe956d1b0b3e7e9522d1b82e26a60168
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: bba1d1b45c47a61f85bf37d4768a8f05ba0c3e87
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63439785"
 ---
 # <a name="writing-code-in-the-code-and-text-editor"></a>코드 및 텍스트 편집기에서 코드 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,7 +78,7 @@ Visual Studio 편집기에서는 코드를 더 쉽게 작성 및 관리할 수 �
  다양한 Visual Studio 언어가 다양한 기능 집합을 제공하고 경우에 따라 기능은 언어별로 다르게 동작합니다. 이들 차이점은 대부분 기능 설명에 지정되지만 자세한 내용은 특정 Visual Studio 언어에 대한 섹션에서 확인할 수 있습니다.  
 
 > [!IMPORTANT]
->  사용 중인 Visual Studio 버전 및 설정이 IDE의 기능에 영향을 줄 수 있습니다. 이 항목에 설명된 내용과 다를 수 있습니다.  
+> 사용 중인 Visual Studio 버전 및 설정이 IDE의 기능에 영향을 줄 수 있습니다. 이 항목에 설명된 내용과 다를 수 있습니다.  
 
 ## <a name="editor-features"></a>편집기 기능  
 

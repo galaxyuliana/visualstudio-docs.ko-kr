@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2ec9dcc6f5458e33e5ea215d65aacd48c622f111
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 0d8b99a547ebe80494d80aa26903c58060d44947
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052002"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63440377"
 ---
 # <a name="architecture-of-document-level-customizations"></a>문서 수준 사용자 지정 아키텍처
   [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] 에는 Microsoft Office Word 및 Microsoft Office Excel용 문서 수준 사용자 지정을 만드는 프로젝트가 포함되어 있습니다. 이 항목에서는 다음과 같은 문서 수준 사용자 지정의 측면에 대해 설명합니다.
@@ -49,7 +49,7 @@ ms.locfileid: "60052002"
  사용자가 동시에 여러 개의 문서 수준 사용자 지정을 여는 경우 각 어셈블리는 서로 다른 애플리케이션 도메인에 로드됩니다. 즉, 한 솔루션이 잘못 동작해도 다른 솔루션이 실패할 수 없습니다. 문서 수준 사용자 지정은 단일 애플리케이션 도메인의 단일 문서에서 작동하도록 설계된 것으로 문서 간 통신을 위해 설계되지 않았습니다. 응용 프로그램 도메인에 대 한 자세한 내용은 참조 하세요. [응용 프로그램 도메인](/dotnet/framework/app-domains/application-domains)합니다.
 
 > [!NOTE]
->  Visual Studio에서 Office 개발자 도구를 사용하여 만든 문서 수준 사용자 지정은 최종 사용자가 애플리케이션을 시작할 때만 사용할 수 있도록 설계되었습니다. 애플리케이션이 프로그래밍 방식으로 시작되는 경우(예: 자동화를 사용하여 시작) 사용자 지정은 예상대로 작동하지 않을 수도 있습니다.
+> Visual Studio에서 Office 개발자 도구를 사용하여 만든 문서 수준 사용자 지정은 최종 사용자가 애플리케이션을 시작할 때만 사용할 수 있도록 설계되었습니다. 애플리케이션이 프로그래밍 방식으로 시작되는 경우(예: 자동화를 사용하여 시작) 사용자 지정은 예상대로 작동하지 않을 수도 있습니다.
 
 ### <a name="design-time-and-run-time-experiences"></a>디자인 타임 및 런타임 환경
  문서 수준 사용자 지정의 아키텍처를 이해하기 위해 솔루션을 디자인하고 실행하는 환경을 이해하는 것이 좋습니다.
@@ -118,7 +118,7 @@ ms.locfileid: "60052002"
  ![2007 office 사용자 지정 아키텍처](../vsto/media/office07-custom.png "2007 Office 사용자 지정 아키텍처")
 
 > [!NOTE]
->  [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]를 대상으로 하는 Office 솔루션에서 솔루션은 PIA(주 interop 어셈블리)를 직접 호출하는 대신 솔루션 어셈블리에 포함된 PIA 형식 정보를 사용하여 호스트 응용 프로그램의 개체 모델을 호출합니다. 자세한 내용은 [디자인 Office 솔루션을 만들고](../vsto/designing-and-creating-office-solutions.md)합니다.
+> [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]를 대상으로 하는 Office 솔루션에서 솔루션은 PIA(주 interop 어셈블리)를 직접 호출하는 대신 솔루션 어셈블리에 포함된 PIA 형식 정보를 사용하여 호스트 응용 프로그램의 개체 모델을 호출합니다. 자세한 내용은 [디자인 Office 솔루션을 만들고](../vsto/designing-and-creating-office-solutions.md)합니다.
 
 ### <a name="loading-process"></a>로드 프로세스
  다음 단계는 사용자가 Microsoft Office 솔루션의 일부인 문서를 열 때 발생합니다.

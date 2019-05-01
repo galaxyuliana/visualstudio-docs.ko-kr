@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: be492ea3d9e61e25c28d8fc74ab870d7a6f959a5
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: c4d88e62b1520677ddac3ff66a6891eb805af30d
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56717561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63389687"
 ---
 # <a name="command-line-capture-tool"></a>명령줄 캡처 도구
 DXCap.exe는 그래픽 진단 캡처 및 재생을 위한 명령줄 도구로, 모든 기능 수준에서 Direct3D 10 - Direct3D 12를 지원합니다.
@@ -63,7 +63,7 @@ DXCap.exe -info
  `-examine` `events` 유효성 검사 모드에서 `events`는 즉각적인 결과를 비교할 그래픽 이벤트 집합을 지정합니다. 예를 들어 `-examine present,draw,copy,clear` 해당 범주에 속한 이벤트만 비교를 제한 합니다.
 
 > [!TIP]
->  로 시작 하는 것이 좋습니다 `-examine present,draw,copy,clear` 이 대부분의 문제를 표시 하지만 보다 포괄적인 이벤트 집합을 보다 훨씬 적은 시간이 됩니다. 필요한 경우 더 많은 이벤트 집합 또는 다른 이벤트 집합을 지정하여 해당 이벤트의 유효성을 검사하고 다른 종류의 문제를 확인할 수 있습니다.
+> 로 시작 하는 것이 좋습니다 `-examine present,draw,copy,clear` 이 대부분의 문제를 표시 하지만 보다 포괄적인 이벤트 집합을 보다 훨씬 적은 시간이 됩니다. 필요한 경우 더 많은 이벤트 집합 또는 다른 이벤트 집합을 지정하여 해당 이벤트의 유효성을 검사하고 다른 종류의 문제를 확인할 수 있습니다.
 
  `-haltonfail` 유효성 검사 모드에서 `-haltonfail` 하드웨어와 WARP 렌더러 간에 차이점이 검색 되 면 유효성 검사를 중지 합니다. 키를 누르면 유효성 검사를 다시 시작합니다.
 
@@ -75,7 +75,7 @@ DXCap.exe -info
 
  `-info` 머신 및 캡처 DLL에 대한 정보를 표시합니다.
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  DXCap.exe는 다음의 세 가지 모드로 작동합니다.
 
  캡처 모드 (-c)를 실행 중인 앱에서 그래픽 정보 캡처 및 그래픽 로그 파일에 기록 합니다. 캡처 기능 및 파일 형식은 Visual Studio와 같습니다.
@@ -111,10 +111,10 @@ DXCap.exe -file regression_test_12.vsglog -c BasicHLSL11.exe
 DXCap.exe -c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.com"
 ```
 
- 위 예제의 명령은 WebGL API를 사용하여 3D 콘텐츠를 렌더링하는 www.fishgl.com 의 웹 페이지를 보는 동안 데스크톱 버전 Internet Explorer에서 그래픽 정보를 캡처합니다.
+ 위 예제의 명령은 WebGL API를 사용하여 3D 콘텐츠를 렌더링하는 [www.fishgl.com](www.fishgl.com) 의 웹 페이지를 보는 동안 데스크톱 버전 Internet Explorer에서 그래픽 정보를 캡처합니다.
 
 > [!NOTE]
->  앱 다음에 표시되는 명령줄 인수는 앱에 전달되므로 `-c` 옵션을 사용하기 전에 DXCap.exe용 인수를 지정해야 합니다.
+> 앱 다음에 표시되는 명령줄 인수는 앱에 전달되므로 `-c` 옵션을 사용하기 전에 DXCap.exe용 인수를 지정해야 합니다.
 
 ### <a name="capture-graphics-information-from-a-uwp-app"></a>UWP 앱에서 그래픽 정보를 캡처하십시오.
  UWP 앱에서 그래픽 정보를 캡처할 수 있습니다.
@@ -137,7 +137,7 @@ DXCap.exe -e map
 
  위 명령은 "map"과 일치 하는 UWP 앱을 열거 출력은 다음과 같습니다.
 
- **패키지 "Microsoft.BingMaps":** **InstallDirectory: C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe** **FullName: Microsoft.BingMaps_2.1.2914.1734_x64 __8wekyb3d8bbwe** **UserSID: S-1-5-21-2127521184-1604012920-1887927527-5603533** **이름: Microsoft.BingMaps** **게시자: CN = Microsoft Corporation, O = Microsoft Corporation, L = Redmond, S = Washington, C = US** **버전: 2.1.2914.1734** **시작할 응용 프로그램:** **Id: AppexMaps** **Exe: C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe\Map.exe** **IsWWA: No** **(시작)를 AppSpec: DXCap.exe-c Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe,AppexMaps** 열거 된 각 앱에 대 한 출력의 마지막 줄에서 그래픽 정보 캡처를 사용할 수 있습니다 명령이 표시 됩니다.
+ **Package "Microsoft.BingMaps":** **InstallDirectory: C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe** **FullName         : Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe** **UserSID          : S-1-5-21-2127521184-1604012920-1887927527-5603533** **Name             : Microsoft.BingMaps** **Publisher        : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US** **Version          : 2.1.2914.1734** **시작할 응용 프로그램:** **Id: AppexMaps** **Exe: C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe\Map.exe** **IsWWA: 아니오** **(시작)를 AppSpec: DXCap.exe-c Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe,AppexMaps** 열거 된 각 앱에 대 한 출력의 마지막 줄에서 그래픽 정보 캡처를 사용할 수 있습니다 명령이 표시 됩니다.
 
 ### <a name="capture-specific-frames-or-frames-between-specific-times"></a>특정 프레임 또는 특정 시간 사이의 프레임 캡처
  사용 하 여 `-frame` 쉼표 및 범위를 사용 하 여 캡처하려는 프레임을 지정 하려면:

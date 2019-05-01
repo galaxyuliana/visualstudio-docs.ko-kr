@@ -20,12 +20,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b03f7c69e5eac71f9edc790df31d9704a141e590
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 313c189a05ae2a4e338c6f6bb9d7e9341e34284c
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63446124"
 ---
 # <a name="quickstart-debug-javascript-using-the-console"></a>빠른 시작: 콘솔을 사용하여 JavaScript 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 - [스크립트 실행 컨텍스트 전환](#Switching)  
   
 > [!TIP]
->  JavaScript 콘솔 창이 닫힌 경우 **디버그**>**창** > **JavaScript 콘솔** 을 사용하여 다시 엽니다. 창은 스크립트 디버깅 세션 중에만 표시됩니다.  
+> JavaScript 콘솔 창이 닫힌 경우 **디버그**>**창** > **JavaScript 콘솔** 을 사용하여 다시 엽니다. 창은 스크립트 디버깅 세션 중에만 표시됩니다.  
   
  JavaScript 콘솔 창에서는 디버거를 중지 및 다시 시작하지 않고 앱과 상호 작용할 수 있습니다. 자세한 내용은 참조 하세요. [앱 (JavaScript) 새로 고침](../debugger/refresh-an-app-javascript.md)합니다. 기타 JavaScript 디버깅 DOM 탐색기 사용 및 중단점 설정과 같은 기능에 대 한 정보를 참조 하세요. [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md) 하 고 [Visual Studio에서 앱을 디버그](../debugger/debug-store-apps-in-visual-studio.md)합니다.  
   
@@ -67,7 +67,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  다음 단계를 수행하면 `FlipView` 앱이 생성되고, 대화식으로 JavaScript 코딩 오류를 디버그하는 방법이 표시됩니다.  
   
 > [!CAUTION]
->  여기서 샘플 앱은 Windows 스토어 앱입니다. 그러나 여기에 설명된 콘솔 기능은 Visual Studio Tools for Apache Cordova를 사용하여 만든 앱에도 적용됩니다.  
+> 여기서 샘플 앱은 Windows 스토어 앱입니다. 그러나 여기에 설명된 콘솔 기능은 Visual Studio Tools for Apache Cordova를 사용하여 만든 앱에도 적용됩니다.  
   
 #### <a name="to-debug-javascript-code-in-the-flipview-app"></a>FlipView 앱에서 JavaScript 코드를 디버그하려면  
   
@@ -182,7 +182,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
      이 코드를 복사하여 JavaScript 콘솔 입력 프롬프트에 붙여 넣습니다.  
   
     > [!TIP]
-    >  여러 줄로 된 코드를 JavaScript 콘솔 입력 프롬프트에 붙여 넣으면 콘솔 입력 프롬프트가 자동으로 여러 줄 모드로 전환됩니다. Ctrl+Alt+M을 눌러 여러 줄 모드를 설정 및 해제할 수 있습니다. 여러 줄 모드에서 스크립트를 실행하려면 Ctrl+Enter를 누르거나 창의 오른쪽 아래에 있는 화살표 기호를 선택합니다. 자세한 내용은 [JavaScript 콘솔 창의 한 줄 모드 및 여러 줄 모드](#SinglelineMultilineMode)을 참조하세요.  
+    > 여러 줄로 된 코드를 JavaScript 콘솔 입력 프롬프트에 붙여 넣으면 콘솔 입력 프롬프트가 자동으로 여러 줄 모드로 전환됩니다. Ctrl+Alt+M을 눌러 여러 줄 모드를 설정 및 해제할 수 있습니다. 여러 줄 모드에서 스크립트를 실행하려면 Ctrl+Enter를 누르거나 창의 오른쪽 아래에 있는 화살표 기호를 선택합니다. 자세한 내용은 [JavaScript 콘솔 창의 한 줄 모드 및 여러 줄 모드](#SinglelineMultilineMode)을 참조하세요.  
   
 12. 프롬프트에서 `push` 함수 호출을 수정하여 `pages.push` 를 `Data.items.setAt`으로 바꿉니다. 수정된 코드는 다음과 같습니다.  
   
@@ -193,7 +193,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
     ```  
   
     > [!TIP]
-    >  `pages` 대신 `Data.items`개체를 사용하려는 경우 `pages` 개체가 범위 내에 계속 포함되도록 코드에서 중단점을 설정해야 합니다.  
+    > `pages` 대신 `Data.items`개체를 사용하려는 경우 `pages` 개체가 범위 내에 계속 포함되도록 코드에서 중단점을 설정해야 합니다.  
   
 13. 스크립트를 실행하려면 녹색 화살표 기호를 선택합니다.  
   

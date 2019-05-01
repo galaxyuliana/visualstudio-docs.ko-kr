@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: be0b661c85165ff348eccf7d55507ce228100091
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.openlocfilehash: 208ff7f9bbfc2d07669a8b485edffc8dfc4cd54f
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63437795"
 ---
 # <a name="command-line-capture-tool"></a>명령줄 캡처 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,7 +79,7 @@ DXCap.exe –info
  유효성 검사 모드에서 `events`는 즉각적인 결과를 비교할 그래픽 이벤트 집합을 지정합니다. 예를 들어 `-examine present,draw,copy,clear` 해당 범주에 속한 이벤트만 비교를 제한 합니다.  
   
 > [!TIP]
->  로 시작 하는 것이 좋습니다 `-examine present,draw,copy,clear` 이 대부분의 문제를 표시 하지만 보다 포괄적인 이벤트 집합을 보다 훨씬 적은 시간이 됩니다. 필요한 경우 더 많은 이벤트 집합 또는 다른 이벤트 집합을 지정하여 해당 이벤트의 유효성을 검사하고 다른 종류의 문제를 확인할 수 있습니다.  
+> 로 시작 하는 것이 좋습니다 `-examine present,draw,copy,clear` 이 대부분의 문제를 표시 하지만 보다 포괄적인 이벤트 집합을 보다 훨씬 적은 시간이 됩니다. 필요한 경우 더 많은 이벤트 집합 또는 다른 이벤트 집합을 지정하여 해당 이벤트의 유효성을 검사하고 다른 종류의 문제를 확인할 수 있습니다.  
   
  `-haltonfail`  
  유효성 검사 모드에서 `-haltonfail` 하드웨어와 WARP 렌더러 간에 차이점이 검색 되 면 유효성 검사를 중지 합니다. 키를 누르면 유효성 검사를 다시 시작합니다.  
@@ -140,7 +140,7 @@ DXCap.exe –c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.co
  위 예제의 명령은 WebGL API를 사용하여 3D 콘텐츠를 렌더링하는 [www.fishgl.com](www.fishgl.com) 의 웹 페이지를 보는 동안 데스크톱 버전 Internet Explorer에서 그래픽 정보를 캡처합니다.  
   
 > [!NOTE]
->  앱 다음에 표시되는 명령줄 인수는 앱에 전달되므로 `–c` 옵션을 사용하기 전에 DXCap.exe용 인수를 지정해야 합니다.  
+> 앱 다음에 표시되는 명령줄 인수는 앱에 전달되므로 `–c` 옵션을 사용하기 전에 DXCap.exe용 인수를 지정해야 합니다.  
   
 ### <a name="capture-graphics-information-from-a-windows-store-app"></a>Windows 스토어 앱에서 그래픽 정보 캡처  
  Windows 스토어 앱에서 그래픽 정보를 캡처할 수 있습니다.  

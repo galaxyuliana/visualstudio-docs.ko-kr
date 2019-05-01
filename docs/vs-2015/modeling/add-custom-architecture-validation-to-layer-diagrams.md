@@ -11,12 +11,12 @@ caps.latest.revision: 44
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b91f89bc6c3db52526c8c5e64549b08310a17313
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 920b15d1cd4f7ed0ec11614a50f5dd32e050995a
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63432404"
 ---
 # <a name="add-custom-architecture-validation-to-layer-diagrams"></a>레이어 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,12 +26,12 @@ Visual Studio에서 사용자는 레이어 모델에 대해 프로젝트 소스 
  사용자가 레이어 다이어그램에서 **아키텍처 유효성 검사** 명령을 선택하면 표준 유효성 검사 메서드가 호출되고, 이어서 설치된 유효성 검사 확장이 호출됩니다.  
   
 > [!NOTE]
->  레이어 다이어그램의 유효성 검사는 UML 다이어그램의 유효성 검사와 같지 않습니다. 레이어 다이어그램에서 주목적은 다이어그램을 솔루션의 다른 파트에 있는 프로그램 코드와 비교하는 것입니다.  
+> 레이어 다이어그램의 유효성 검사는 UML 다이어그램의 유효성 검사와 같지 않습니다. 레이어 다이어그램에서 주목적은 다이어그램을 솔루션의 다른 파트에 있는 프로그램 코드와 비교하는 것입니다.  
   
  다른 Visual Studio 사용자에게 배포할 수 있는 VSIX(Visual Studio Integration Extension)로 레이어 유효성 검사 확장을 패키지할 수 있습니다. 한 VSIX에 단독으로 유효성 검사기를 배치하거나 다른 확장과 같은 VSIX에서 유효성 검사기를 결합할 수 있습니다. 다른 확장과 같은 프로젝트가 아니라 고유한 Visual Studio 프로젝트에서 유효성 검사기 코드를 작성해야 합니다.  
   
 > [!WARNING]
->  유효성 검사 프로젝트를 만들고 나서 [예제 코드](#example) 를 이 항목의 끝에 복사하고 필요에 따라 편집합니다.  
+> 유효성 검사 프로젝트를 만들고 나서 [예제 코드](#example) 를 이 항목의 끝에 복사하고 필요에 따라 편집합니다.  
   
 ## <a name="requirements"></a>요구 사항  
  참조 [요구 사항](../modeling/extend-layer-diagrams.md#prereqs)합니다.  
@@ -48,7 +48,7 @@ Visual Studio에서 사용자는 레이어 모델에 대해 프로젝트 소스 
     템플릿에서 작은 예제가 포함된 프로젝트를 만듭니다.  
   
    > [!WARNING]
-   >  Makethe 템플릿에 제대로 작동 합니다.  
+   > Makethe 템플릿에 제대로 작동 합니다.  
    > 
    > - `LogValidationError` 에 대한 호출을 편집하여 선택적 인수 `errorSourceNodes` 및 `errorTargetNodes`를 제거합니다.  
    >   - 사용자 지정 속성을 사용 하는 경우에 언급 된 업데이트를 적용 [레이어 다이어그램에 사용자 지정 속성 추가](../modeling/add-custom-properties-to-layer-diagrams.md)합니다.  
@@ -58,7 +58,7 @@ Visual Studio에서 사용자는 레이어 모델에 대해 프로젝트 소스 
 4. 확장을 테스트하려면 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.  
   
    > [!NOTE]
-   >  메서드는 특정 상황에서만 호출되고 중단점은 자동으로 작동하지 않습니다. 자세한 내용은 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.  
+   > 메서드는 특정 상황에서만 호출되고 중단점은 자동으로 작동하지 않습니다. 자세한 내용은 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.  
   
 5. 기본 인스턴스에서 확장을 설치 하려면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], 또는 다른 컴퓨터에서 찾을 합니다 **.vsix** 파일 *bin\\*합니다. 설치할 컴퓨터로 파일을 복사하고 파일을 두 번 클릭합니다. 파일을 제거하려면 **도구** 메뉴에서 **확장 및 업데이트** 를 사용합니다.  
   
@@ -115,7 +115,7 @@ Visual Studio에서 사용자는 레이어 모델에 대해 프로젝트 소스 
 7. 확장을 테스트하려면 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.  
   
     > [!NOTE]
-    >  메서드는 특정 상황에서만 호출되고 중단점은 자동으로 작동하지 않습니다. 자세한 내용은 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.  
+    > 메서드는 특정 상황에서만 호출되고 중단점은 자동으로 작동하지 않습니다. 자세한 내용은 [레이어 유효성 검사 디버그](#debugging)를 참조하세요.  
   
 8.  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 주 인스턴스 또는 다른 컴퓨터에 확장을 설치하려면 **.vsix\*** 디렉터리에서 **.vsix** 파일을 찾습니다. VSIX를 설치할 컴퓨터에 파일을 복사합니다. Windows 탐색기에서 VSIX 파일을 두 번 클릭합니다. (Windows 8의 파일 탐색기.)  
   
@@ -147,7 +147,7 @@ Visual Studio에서 사용자는 레이어 모델에 대해 프로젝트 소스 
 - 오류를 검색할 때 `LogValidationError()`를 사용하여 오류를 보고할 수 있습니다.  
   
   > [!WARNING]
-  >  `LogValidationError`의 선택적 매개 변수를 사용하지 마세요.  
+  > `LogValidationError`의 선택적 매개 변수를 사용하지 마세요.  
   
   사용자가 **아키텍처 유효성 검사** 메뉴 명령을 호출하면 레이어 런타임 시스템에서는 레이어 및 해당 아티팩트를 분석하여 그래프를 생성합니다. 그래프는 다음 네 파트로 구성됩니다.  
   
@@ -162,7 +162,7 @@ Visual Studio에서 사용자는 레이어 모델에 대해 프로젝트 소스 
   그래프가 생성되면 표준 유효성 검사 메서드가 호출됩니다. 호출이 완료되면 모든 설치된 확장 유효성 검사 메서드가 지정되지 않은 순서로 호출됩니다. 그래프는 그래프를 검사하고 발견한 오류를 보고할 수 있는 각 `ValidateArchitecture` 메서드에 전달됩니다.  
   
 > [!NOTE]
->  이는 UML 다이어그램에 적용되는 유효성 검사 프로세스와 동일하지 않으며 도메인 특정 언어에서 사용할 수 있는 유효성 검사 프로세스와 동일하지 않습니다.  
+> 이는 UML 다이어그램에 적용되는 유효성 검사 프로세스와 동일하지 않으며 도메인 특정 언어에서 사용할 수 있는 유효성 검사 프로세스와 동일하지 않습니다.  
   
  유효성 검사 메서드가 유효성 검사 중인 레이어 모델 또는 코드를 변경하면 안 됩니다.  
   

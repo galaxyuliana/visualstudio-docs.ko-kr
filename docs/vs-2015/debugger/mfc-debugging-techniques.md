@@ -27,12 +27,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 92718187fd8c83eb20ce8b39d323d60434f5f48f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.openlocfilehash: 2a55b78cfa962abe4a1eecf778be9cdc6de3aa6e
+ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "63384061"
 ---
 # <a name="mfc-debugging-techniques"></a>MFC 디버깅 기술
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -236,10 +236,10 @@ Total allocations: 67 bytes
  MFC 프로그램에서 사용할 수 있습니다 [cmemorystate:: Dumpallobjectssince](http://msdn.microsoft.com/library/a7f89034-bca4-4786-88d5-1571a5425ab2) 할당이 취소 되지 않은 힙에서 모든 개체의 설명을 덤프할 수 있습니다. `DumpAllObjectsSince` 는 마지막 [CMemoryState::Checkpoint](http://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a)를 단순히 호출할 뿐입니다. `Checkpoint` 를 호출할 수 없는 경우 `DumpAllObjectsSince` 가 현재 메모리에 있는 모든 개체와 비개체를 덤프합니다.  
   
 > [!NOTE]
->  MFC 개체를 덤프하려면 먼저 [진단 추적을 활성화](../debugger/mfc-debugging-techniques.md#BKMK_Enabling_memory_diagnostics)해야 합니다.  
+> MFC 개체를 덤프하려면 먼저 [진단 추적을 활성화](../debugger/mfc-debugging-techniques.md#BKMK_Enabling_memory_diagnostics)해야 합니다.  
   
 > [!NOTE]
->  프로그램을 종료할 때 MFC가 누수된 개체를 모두 자동으로 덤프하므로 해당 지점에서 개체를 덤프할 코드를 만들 필요가 없습니다.  
+> 프로그램을 종료할 때 MFC가 누수된 개체를 모두 자동으로 덤프하므로 해당 지점에서 개체를 덤프할 코드를 만들 필요가 없습니다.  
   
  다음 코드는 두 메모리 상태를 비교하여 메모리 누수를 테스트하고 누수가 탐지되면 모든 개체를 덤프합니다.  
   
