@@ -18,7 +18,7 @@ ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 13ea687ea9ca68693af7e2aa5c22881a36207d2e
 ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "58981618"
