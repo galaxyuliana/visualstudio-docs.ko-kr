@@ -17,7 +17,7 @@ ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 916b30cf4cff357ba468faae524d6b0ca7806959
 ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "58971801"
@@ -71,8 +71,8 @@ ms.locfileid: "58971801"
 
  이 예제의 결과는 다음과 같습니다.
 
- **전체 신뢰: 요청에 대 한 요청에 실패 했습니다. ** 
- **ClassRequiringFullTrust.DoWork 호출 되었습니다.**
+ **전체 신뢰: 요청에 대 한 요청에 실패 했습니다.**
+**ClassRequiringFullTrust.DoWork 호출 되었습니다.**
 ## <a name="related-rules"></a>관련된 규칙
  [CA2117: APTCA 형식은 APTCA 기본 형식만 확장 해야](../code-quality/ca2117-aptca-types-should-only-extend-aptca-base-types.md)
 
