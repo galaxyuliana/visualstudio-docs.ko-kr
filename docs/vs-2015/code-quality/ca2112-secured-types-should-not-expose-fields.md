@@ -17,7 +17,7 @@ ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: d0ac554ebee7188e0826de9e5c1852cf3bcc33cb
 ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "58984114"
@@ -63,10 +63,10 @@ ms.locfileid: "58984114"
 
  이 예제의 결과는 다음과 같습니다.
 
- **SecuredTypeWithFields의 인스턴스를 만드는 중입니다. ** 
- **보안 된 형식 필드: 22, 33**
-**보안 된 형식의 필드를 변경 하는 중... ** 
- **캐시 개체 필드: 99, 33**
+ **SecuredTypeWithFields의 인스턴스를 만드는 중입니다.**
+**보안 된 형식 필드: 22, 33**
+**보안 된 형식의 필드를 변경 하는 중...**
+**캐시 개체 필드: 99, 33**
 ## <a name="related-rules"></a>관련된 규칙
  [CA1051: 표시 되는 인스턴스 필드 선언 하지 마십시오.](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)
 

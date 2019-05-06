@@ -17,7 +17,7 @@ ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 7de14898c5fb2bb6f8e95a2af5fd6b39a54cdb1d
 ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2019
 ms.locfileid: "60082154"
@@ -72,10 +72,10 @@ ms.locfileid: "60082154"
 
  이 예제의 결과는 다음과 같습니다.
 
- **요청: 호출자의 Deny가 어설션된 권한을 사용 하 여 요청 시 적용 되지 않습니다. ** 
- **LinkDemand: 호출자의 거부 된 어설션된 권한 LinkDemand에 영향을 주지 합니다. ** 
- **LinkDemand: 호출자의 거부 LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다. ** 
- **LinkDemand: 이 Deny LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다.**
+ **요청: 호출자의 Deny가 어설션된 권한을 사용 하 여 요청 시 적용 되지 않습니다.**
+**LinkDemand: 호출자의 거부 된 어설션된 권한 LinkDemand에 영향을 주지 합니다.**
+**LinkDemand: 호출자의 거부 LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다.**
+**LinkDemand: 이 Deny LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다.**
 ## <a name="see-also"></a>참고 항목
  <xref:System.Security.CodeAccessPermission.PermitOnly%2A?displayProperty=fullName> <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>
  <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName>
