@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e0ef171d24b3744657a2cb05338b2b124a6331c9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7522e1c00598574e46e1f23622f0e051fcfb2c4e
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62864676"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460864"
 ---
 # <a name="structures-and-unions"></a>구조체 및 공용 구조체
 구조체 및 공용 구조체는 Visual Studio 디버깅 SDK에는 다음과 같습니다.
@@ -139,5 +139,5 @@ ms.locfileid: "62864676"
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [API 참조](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

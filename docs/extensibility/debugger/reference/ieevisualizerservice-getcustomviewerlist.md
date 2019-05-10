@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 00a7928b203d00e0f9b43250a463a8fb272ce755
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: c2714a038c2cede4b351de92454bb74a5052805c
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915186"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65223581"
 ---
 # <a name="ieevisualizerservicegetcustomviewerlist"></a>IEEVisualizerService::GetCustomViewerList
 이 메서드는이 서비스에서 인식 되는 형식 시각화 도우미의 목록을 반환 합니다.
@@ -42,20 +45,20 @@ int GetCustomViewerList(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `celtSkip`
+## <a name="parameters"></a>매개 변수
+ `celtSkip`\
 
  [in] 시각화 도우미를 건너뛸 수 있습니다.
 
- `celRequested`
+ `celRequested`\
 
  [in] 시각화 도우미를 검색할 수 (또한의 크기를 지정 된 `rgViewers` 배열)입니다.
 
- `rgViewers`
+ `rgViewers`\
 
  [out에서] 배열을 [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) 구조를 채울 수 있습니다.
 
- `pceltFetched`
+ `pceltFetched`\
 
  [out] 실제로 검색 하는 시각화 도우미의 수입니다.
 
@@ -67,7 +70,7 @@ int GetCustomViewerList(
 
  참조 [형식 시각화 도우미 및 사용자 지정 뷰어](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md) 시각화 도우미 및 뷰어 간의 차이점에 대 한 자세한 내용은 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)
 - [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)

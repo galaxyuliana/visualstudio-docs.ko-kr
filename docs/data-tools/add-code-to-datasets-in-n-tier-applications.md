@@ -1,26 +1,27 @@
 ---
-title: n 계층 애플리케이션에서 데이터 집합에 코드 추가
+title: N 계층 응용 프로그램에서 데이터 집합에 코드 추가
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
 helpviewer_keywords:
-- n-tier applications, extending datasets
+- n-tier applications, extending DataSets
 ms.assetid: d43c2ccd-4902-43d8-b1a8-d10ca5d3210c
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: a66250c9d376962bfef2db6b563070696fd33346
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b776e75df2830b89fd1ffe9aed197e9cd1019851
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63402869"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458467"
 ---
-# <a name="add-code-to-datasets-in-n-tier-applications"></a>n 계층 애플리케이션에서 데이터 집합에 코드 추가
+# <a name="add-code-to-datasets-in-n-tier-applications"></a>N 계층 응용 프로그램에서 데이터 집합에 코드 추가
+
 데이터 집합에 대 한 partial 클래스 파일을 만들고 코드를 추가 하 여 데이터 집합의 기능을 확장할 수 있습니다 (코드를 추가 하는 대신 합니다 *DatasetName*합니다. Dataset.Designer 파일)입니다. Partial 클래스를 여러 실제 파일에서 나눌 특정 클래스에 대 한 코드를 사용 합니다. 자세한 내용은 [부분](/dotnet/visual-basic/language-reference/modifiers/partial) 하거나 [Partial 클래스 및 메서드](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods)합니다.
 
 데이터 집합을 정의 하는 코드는 데이터 집합 정의 (형식화 된 데이터 집합)에 변경 될 때마다 생성 됩니다. 이 코드는 데이터 집합의 구성을 수정 하는 모든 마법사를 실행 하는 동안 변경한 경우에 생성 됩니다. 코드를 데이터 집합의 재생성 하는 동안 삭제를 방지 하려면 데이터 집합의 partial 클래스 파일에 코드를 추가 합니다.
@@ -68,4 +69,4 @@ ms.locfileid: "63402869"
 - [n 계층 응용 프로그램에서 TableAdapter에 코드 추가](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)
 - [TableAdapter 만들기 및 구성](create-and-configure-tableadapters.md)
 - [계층적 업데이트 개요](hierarchical-update.md)
-- [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)
+- [Visual Studio에서 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)

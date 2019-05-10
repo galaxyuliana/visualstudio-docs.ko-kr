@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 017077717f5353fed941124d69d258beaab04e40
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 920e74b547bba97a742b68ceb057a0719d6ef700
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62823676"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65459165"
 ---
 # <a name="install-fxcop-analyzers-in-visual-studio"></a>Visual Studio에서 FxCop 분석기 설치
 
@@ -53,9 +53,9 @@ Visual Studio의 버전에 대 한 설치 FxCop 분석기 패키지의 버전을
 
 ## <a name="to-install-fxcop-analyzers-as-a-vsix"></a>VSIX로 FxCop 분석기를 설치 하려면
 
-Visual Studio 2017 버전 15.5 이상에 설치할 수 있습니다 합니다 [Microsoft 코드 분석 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) 모든 관리 되는 프로젝트에 대 한 FxCop 분석기를 포함 하는 확장 합니다.
-
 ::: moniker range="vs-2017"
+
+Visual Studio 2017 버전 15.5 이상에 설치할 수 있습니다 합니다 [Microsoft 코드 분석 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) 모든 관리 되는 프로젝트에 대 한 FxCop 분석기를 포함 하는 확장 합니다.
 
 1. Visual Studio에서 선택 **도구가** > **확장 및 업데이트**합니다.
 
@@ -64,40 +64,52 @@ Visual Studio 2017 버전 15.5 이상에 설치할 수 있습니다 합니다 [M
    > [!NOTE]
    > 또는에서 직접 확장을 다운로드 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017)합니다.
 
+2. 확장 **Online** 한 다음 선택한 왼쪽된 창의 **Visual Studio Marketplace**합니다.
+
+3. 검색 상자에 "코드 분석"을 입력 하 고 검색할 합니다 **Microsoft 코드 분석 2017** 확장 합니다.
+
+   ![Microsoft 코드 분석 2017 확장](media/extensions-and-updates-code-analysis.png)
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
+
+합니다 [Microsoft 코드 분석 2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2019) 확장 모든 관리 되는 프로젝트에 대 한 FxCop 분석기를 포함 합니다. 이 확장을 설치 합니다.
 
 1. Visual Studio에서 선택 **Extensions** > **확장 관리**합니다.
 
    합니다 **확장 관리** 대화 상자가 열립니다.
 
    > [!NOTE]
-   > 또는에서 직접 확장을 다운로드 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017)합니다.
+   > 또는에서 직접 확장을 다운로드 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2019)합니다.
+
+2. 확장 **Online** 한 다음 선택한 왼쪽된 창의 **Visual Studio Marketplace**합니다.
+
+3. 검색 상자에 "코드 분석"을 입력 하 고 검색할 합니다 **Microsoft 코드 분석 2019** 확장 합니다.
+
+   ![Microsoft 코드 분석 2019 확장](media/manage-extensions-code-analysis.png)
 
 ::: moniker-end
 
-1. 확장 **Online** 한 다음 선택한 왼쪽된 창의 **Visual Studio Marketplace**합니다.
-
-1. 검색 상자에 "코드 분석"을 입력 하 고 검색할 합니다 **Microsoft 코드 분석 2017** 확장 합니다.
-
-   ![Microsoft 코드 분석 확장](media/extensions-and-updates-code-analysis.png)
-
-1. 선택 **다운로드**합니다.
+4. 선택 **다운로드**합니다.
 
    확장 다운로드 됩니다.
 
-1. 선택 **확인** 대화 상자를 닫은 다음 시작 하려면 Visual Studio의 모든 인스턴스를 닫습니다에 **VSIX 설치 관리자**합니다.
+5. 선택 **확인** 대화 상자를 닫은 다음 시작 하려면 Visual Studio의 모든 인스턴스를 닫습니다에 **VSIX 설치 관리자**합니다.
 
    합니다 **VSIX 설치 관리자** 대화 상자가 열립니다.
 
+   ::: moniker range="vs-2017"
+
    ![Microsoft 코드 분석을 위한 VSIX 설치 관리자](media/vsix-installer-code-analysis.png)
 
-1. 선택 **수정** 설치를 시작 합니다.
+   ::: moniker-end
 
-1. 2 분 정도 후 설치를 완료 합니다. **닫기**를 선택합니다.
+6. 선택 **수정** 설치를 시작 합니다.
 
-1. Visual Studio를 다시 엽니다.
+   2 분 정도 후 설치를 완료 합니다.
+
+7. 선택 **닫기**, 다음 Visual Studio를 다시 엽니다.
 
 ::: moniker range="vs-2017"
 

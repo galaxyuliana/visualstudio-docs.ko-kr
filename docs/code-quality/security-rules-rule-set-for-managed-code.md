@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 45c51a6c5496686ef84b17341c97f00680a80bdd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 72182607369094781050b94b1003398479dfe2cb
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62825294"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65459142"
 ---
 # <a name="security-rules-rule-set-for-managed-code"></a>관리 코드에 대한 보안 규칙 규칙 집합
 Microsoft 보안 규칙 규칙 집합 보고 되는 잠재적인 보안 문제 수를 최대화 하기 위해 포함 해야 합니다.
@@ -66,6 +66,13 @@ Microsoft 보안 규칙 규칙 집합 보고 되는 잠재적인 보안 문제 �
 |[CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)|안전하지 않은 역직렬 변환기 BinaryFormatter를 사용하지 마세요.|
 |[CA2301](ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md)|먼저 BinaryFormatter.Binder를 설정하지 않고 BinaryFormatter.Deserialize를 호출하지 마세요.|
 |[CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)|BinaryFormatter.Deserialize를 호출하기 전에 BinaryFormatter.Binder가 설정되었는지 확인합니다.|
+|[CA2305](ca2305-do-not-use-insecure-deserializer-losformatter.md)|안전 하지 않은 LosFormatter 역직렬 변환기가 사용 하지 마세요|
+|[CA2310](ca2310-do-not-use-insecure-deserializer-netdatacontractserializer.md)|안전 하지 않은 역직렬 변환기가 NetDataContractSerializer 사용 하지 마세요|
+|[CA2311](ca2311-do-not-deserialize-without-first-setting-netdatacontractserializer-binder.md)|첫 번째 설정 NetDataContractSerializer.Binder 하지 않고 deserialize 하지 않습니다|
+|[CA2312](ca2312-ensure-netdatacontractserializer-binder-is-set-before-deserializing.md)|NetDataContractSerializer.Binder 역직렬화 하기 전에 설정 되어 있는지 확인|
+|[CA2315](ca2315-do-not-use-insecure-deserializer-objectstateformatter.md)|안전 하지 않은 ObjectStateFormatter 역직렬 변환기가 사용 하지 마세요|
+|[CA2321](ca2321.md)|JavaScriptSerializer를 SimpleTypeResolver를 사용 하 여 deserialize 하지 않습니다|
+|[CA2322](ca2322.md)|JavaScriptSerializer 역직렬화 하기 전에 SimpleTypeResolver를 사용 하 여 초기화 되지 않은 확인 합니다.|
 |[CA3001](../code-quality/ca3001-review-code-for-sql-injection-vulnerabilities.md)|코드에서 SQL 주입 취약점에 대해 검토합니다.|
 |[CA3002](../code-quality/ca3002-review-code-for-xss-vulnerabilities.md)|코드에서 XSS 취약점에 대해 검토합니다.|
 |[CA3003](../code-quality/ca3003-review-code-for-file-path-injection-vulnerabilities.md)|코드에서 파일 경로 삽입 취약성에 대해 검토합니다.|

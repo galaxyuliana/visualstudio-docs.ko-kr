@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a9a7d31f7ac442f4a6ff529ae46f1f7492665211
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 460729bd2dd8f562888cf9c816343a4e2897124b
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916733"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457784"
 ---
 # <a name="idebugprogramprovider2setlocale"></a>IDebugProgramProvider2::SetLocale
 로캘별 리소스에 사용할 로캘을 설정 합니다.
@@ -36,13 +39,13 @@ int SetLocale(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `wLangID`
+## <a name="parameters"></a>매개 변수
+ `wLangID`\
 
  [in] 언어 ID 설정입니다. 예를 들어 1033 사용 하 여 영어 지정 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)

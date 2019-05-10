@@ -17,12 +17,12 @@ caps.latest.revision: 14
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5d36c5dafa37673263ab13dc46c7f02e44448fd8
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 8759145dd4a7647cad6e9964ae1f1c97d333b626
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441626"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226167"
 ---
 # <a name="how-to-specify-where-visual-studio-copies-the-files"></a>방법: Visual Studio의 파일 복사 위치 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ClickOnce를 사용하여 응용 프로그램을 게시하는 경우 `Publish Lo
 
    - 파일 공유 나 디스크 경로 게시 하려면 UNC 경로 사용 하 여 경로 입력 (\\\Server\ApplicationName) 또는 파일 경로 (C:\Deploy\ApplicationName).
 
-   - FTP 서버에 게시하려면 ftp://ftp.microsoft.com/ApplicationName 형식을 사용하여 경로를 입력합니다.
+   - FTP 서버에 게시 하려면 형식 ftp를 사용 하 여 경로 입력 합니다.\//ftp.microsoft.com/ApplicationName 합니다.
 
      찾아보기(**...**) 단추가 작동하려면 **게시 위치** 상자에 텍스트가 있어야 합니다.
 

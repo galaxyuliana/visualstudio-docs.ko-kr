@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2621b88622e99ac95533e388197e483f2925f897
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 5d6f416d284c1712f8e52b2655a74e08f6f9cfe1
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63420819"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458328"
 ---
 # <a name="symbolsearchinfofields"></a>SYMBOL_SEARCH_INFO_FIELDS
 검색할 기호 정보의 종류를 지정 합니다.
@@ -42,10 +45,12 @@ public enum enum_SYMBOL_SEARCH_INFO_FIELDS
 
 ```
 
-## <a name="members"></a>멤버
- SSIF_NONE 없음 플래그를 나타냅니다.
+## <a name="fields"></a>필드
+ `SSIF_NONE`\
+ 플래그가 없습니다 나타냅니다.
 
- 기호를 찾는 데 사용 되는 경로 검색 하는 모든 SSIF_VERBOSE_SEARCH_INFO 반환
+ `SSIF_VERBOSE_SEARCH_INFO`\
+ 기호를 찾는 데 사용 되는 경로 검색 하는 모든 반환
 
 ## <a name="remarks"></a>설명
  이러한 플래그를 매개 변수로 전달 되는 [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md) 정보의 양을 결정 하는 메서드를 반환 합니다.
@@ -60,6 +65,6 @@ public enum enum_SYMBOL_SEARCH_INFO_FIELDS
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetSymbolInfo](../../../extensibility/debugger/reference/idebugmodule3-getsymbolinfo.md)

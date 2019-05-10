@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 543d05e9d0917305f9f898cdae8e7add2c5949fb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 64a05032118588679efcc455953b76227a973319
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62867836"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65225859"
 ---
 # <a name="ieevisualizerservicegetpropertyproxy"></a>IEEVisualizerService::GetPropertyProxy
 이 메서드는 속성 개체에 대 한 프록시를 반환합니다.
@@ -38,12 +41,12 @@ int GetPropertyProxy(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwID`
+## <a name="parameters"></a>매개 변수
+ `dwID`\
 
  [in] 검색할 속성 프록시의 ID입니다.
 
- `proxy`
+ `proxy`\
 
  [out] 원하는 구현 하는 프록시를 [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) 인터페이스입니다.
 
@@ -53,7 +56,7 @@ int GetPropertyProxy(
 ## <a name="remarks"></a>설명
 - [GetPropertyProxy](../../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md) 형식 시각화 도우미에 대 한 지원의 일환으로이 메서드를 요청을 전달 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md)
 - [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
 - [GetPropertyProxy](../../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md)

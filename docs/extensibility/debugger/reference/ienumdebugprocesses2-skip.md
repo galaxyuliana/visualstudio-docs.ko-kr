@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: eebbdd7d8b9bf4726da298d98e821875e71c3acf
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: d54a93c840d62b799622f3c9e9af67a58ba8a412
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62866093"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65225459"
 ---
 # <a name="ienumdebugprocesses2skip"></a>IEnumDebugProcesses2::Skip
 지정 된 개수의 요소를 건너뜁니다.
@@ -36,8 +39,8 @@ int Skip(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `celt`
+## <a name="parameters"></a>매개 변수
+ `celt`\
 
  [in] 건너뛸 요소 수입니다.
 
@@ -47,5 +50,5 @@ int Skip(
 ## <a name="remarks"></a>설명
  하는 경우 `celt` 수보다 큰 값 끝에 설정 되어 나머지 요소를 열거 및 `S_FALSE` 반환 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IEnumDebugProcesses2](../../../extensibility/debugger/reference/ienumdebugprocesses2.md)

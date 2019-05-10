@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c3ec96c5ba806e6eff735edc8093868b19ebaf5b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: b090fecf532ef862660b26432e930830cdb1d12b
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913837"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460956"
 ---
 # <a name="moduleflags"></a>MODULE_FLAGS
 모듈에 설명 하는 데 사용 합니다.
@@ -47,18 +50,24 @@ public enum enum_MODULE_FLAGS { 
 };
 ```
 
-## <a name="members"></a>멤버
- MODULE_FLAG_NONE 없는 모듈을 지정합니다.
+## <a name="fields"></a>필드
+ `MODULE_FLAG_NONE`\
+ 모듈이 없는 지정합니다.
 
- MODULE_FLAG_SYSTEM은 시스템 모듈을 지정 합니다.
+ `MODULE_FLAG_SYSTEM`\
+ 시스템 모듈을 지정합니다.
 
- MODULE_FLAG_SYMBOLS 기호 모듈을 지정 합니다.
+ `MODULE_FLAG_SYMBOLS`\
+ 기호 모듈을 지정합니다.
 
- MODULE_FLAG_64BIT 64 비트 모듈을 지정 합니다.
+ `MODULE_FLAG_64BIT`\
+ 64 비트 모듈을 지정합니다.
 
- MODULE_FLAG_OPTIMIZED 최적화 된 모듈을 지정 합니다. 이 상태에 반영 되는 **모듈** 창입니다.
+ `MODULE_FLAG_OPTIMIZED`\
+ 최적화 된 모듈을 지정 합니다. 이 상태에 반영 되는 **모듈** 창입니다.
 
- MODULE_FLAG_UNOPTIMIZED 최적화 되지 않은 모듈을 지정 합니다. 이 상태에 반영 되는 **모듈** 창입니다. 기본 상태입니다.
+ `MODULE_FLAG_UNOPTIMIZED`\
+ 최적화 되지 않은 모듈을 지정 합니다. 이 상태에 반영 되는 **모듈** 창입니다. 기본 상태입니다.
 
 ## <a name="remarks"></a>설명
  에 사용 되는 합니다 `m_dwModuleFlags` 의 멤버는 [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 구조입니다.
@@ -72,6 +81,6 @@ public enum enum_MODULE_FLAGS { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)

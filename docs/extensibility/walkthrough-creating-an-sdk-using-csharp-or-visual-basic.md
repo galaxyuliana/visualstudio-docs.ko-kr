@@ -8,12 +8,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5b687f9fb705f8f8c8bee7ca611d618e012e8507
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+dev_langs:
+- CSharp
+- VB
+ms.openlocfilehash: 007da4e5e534ce6f9d8563011c0284432e4d9c19
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443858"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226116"
 ---
 # <a name="walkthrough-create-an-sdk-using-c-or-visual-basic"></a>연습: 사용 하 여 SDK 만들기 C# 또는 Visual Basic
 이 연습에서는 Visual C#을 사용 하 여 간단한 수학 라이브러리 SDK를 만들고 다음 SDK는 Visual Studio 확장 (VSIX)로 패키지 하는 방법에 알아봅니다. 다음 절차를 완료 합니다.
@@ -28,7 +31,7 @@ ms.locfileid: "63443858"
 
 ## <a name="createClassLibrary"></a> SimpleMath Windows 런타임 구성 요소를 만들려면
 
-1. 메뉴 모음에서 선택 **파일** > **새로 만들기** > **새 프로젝트**합니다.
+1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
 2. 템플릿 목록에서 확장 **Visual C#** 또는 **Visual Basic**를 선택 합니다 **Windows 스토어** 노드를 선택한 후는 **Windows 런타임 구성 요소** 템플릿.
 
@@ -50,7 +53,7 @@ ms.locfileid: "63443858"
 8. 에 **구성** 열 되어 있는지 확인 **SimpleMath** 행으로 설정 됩니다 **릴리스**를 선택한 후는 **닫기** 단추를는 변경 내용입니다.
 
    > [!IMPORTANT]
-   > SimpleMath 구성 요소에 대 한 SDK에는 하나의 구성만 포함 됩니다. 이 구성은 릴리스 빌드의 경우 해야 합니다. 또는 구성 요소를 사용 하는 앱에 대 한 인증을 전달 하지는[!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)]합니다.
+   > SimpleMath 구성 요소에 대 한 SDK에는 하나의 구성만 포함 됩니다. 이 구성은 릴리스 빌드의 경우 해야 합니다. 또는 구성 요소를 사용 하는 앱에 대 한 인증을 전달 하지는 [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)]합니다.
 
 9. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 합니다 **SimpleMath** 프로젝트 노드를 선택한 후 **빌드**합니다.
 
@@ -153,7 +156,7 @@ ms.locfileid: "63443858"
 
 ## <a name="createSample"></a> 클래스 라이브러리를 사용 하는 샘플 앱을 만들려면
 
-1. 메뉴 모음에서 선택 **파일** > **새로 만들기** > **새 프로젝트**합니다.
+1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
 2. 템플릿 목록에서 확장 **Visual C#** 또는 **Visual Basic**를 선택한 후는 **Windows 스토어** 노드.
 
@@ -163,11 +166,11 @@ ms.locfileid: "63443858"
 
 5. 참조 형식의 목록에서 확장 **Windows**를 선택한 후 **확장**합니다.
 
-6. 세부 정보 창에서 선택 합니다 **간단한 수학 SDK** 확장 합니다.
+6. 세부 정보 창에서 선택 합니다 **WinRT 수학 라이브러리** 확장 합니다.
 
     SDK에 대 한 추가 정보가 표시 됩니다. 선택할 수 있습니다는 **자세한 정보** 열려면 링크 https://msdn.microsoft.com/처럼이 연습의 앞부분에서 SDKManifest.xml 파일에 지정 합니다.
 
-7. **참조 관리자** 대화 상자를 선택 합니다 **간단한 수학 SDK** 확인란을 선택한 후는 **확인** 단추.
+7. **참조 관리자** 대화 상자를 선택 합니다 **WinRT 수학 라이브러리** 확인란을 선택한 후는 **확인** 단추.
 
 8. 메뉴 모음에서 선택 **뷰** > **개체 브라우저**합니다.
 
@@ -181,11 +184,11 @@ ms.locfileid: "63443858"
 
     ```xml
     <Page
-        x:Class="WinRTMathTestCS.MainPage"
+        x:Class="ArithmeticUI.MainPage"
         IsTabStop="False"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:local="using:WinRTMathTestCS"
+        xmlns:local="using:SimpleMath"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d">
@@ -207,11 +210,11 @@ ms.locfileid: "63443858"
 
     ```xml
     <Page
-        x:Class="WinRTMathTest.MainPage"
+        x:Class="ArithmeticUI.MainPage"
         IsTabStop="False"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:local="using:WinRTMathTest"
+        xmlns:local="using:SimpleMath"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d">

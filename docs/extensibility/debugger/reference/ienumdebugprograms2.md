@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a37ad954202910930ff06c8206e66c0594a8d1d8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ac9b23c40b7481fc7520b109afc7d23864582548
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62914394"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65225700"
 ---
 # <a name="ienumdebugprograms2"></a>IEnumDebugPrograms2
 이 인터페이스는 현재 디버그 세션에서 실행 중인 프로그램을 열거 합니다.
@@ -63,7 +63,7 @@ IEnumDebugPrograms2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [EnumPrograms](../../../extensibility/debugger/reference/idebugengine2-enumprograms.md)
 - [EnumPrograms](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)

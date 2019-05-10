@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a55328c4148aa911d86b8f2daf05ba84a50ff444
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: cd7bd4bfd113da8cfd311d1022967d8c99f915b5
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62867978"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65223953"
 ---
 # <a name="ieevisualizerdataprovidersetobjectforvisualizer"></a>IEEVisualizerDataProvider::SetObjectForVisualizer
 이 메서드는 시각화 도우미를 나타내는 개체를 변경 합니다.
@@ -40,16 +43,16 @@ int SetObjectForVisualizer(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pNewObject`
+## <a name="parameters"></a>매개 변수
+ `pNewObject`\
 
  [in] 개체 집합입니다.
 
- `error`
+ `error`\
 
  [out] 개체를 설정할 때 오류가 발생에 발생 한 경우이 문자열 오류 메시지를 보유 합니다.
 
- `pException`
+ `pException`\
 
  [out] 오류가 있는 경우이 개체는 예외 정보를 보유 합니다.
 
@@ -59,6 +62,6 @@ int SetObjectForVisualizer(
 ## <a name="remarks"></a>설명
  오류 정보 반환 하는 방법을 확인 하려면 구현자는 것입니다. 그러나 것을 알고 있는 예외 개체 반환 된 경우 오류가 발생할 경우이 메서드는 예외 개체를 항상 반환 해야 하므로 오류가 발생 했습니다 일부 호출자 수는 가능 합니다. 오류 문자열을 호출자에 게 확인 하려고 하는 경우에 제공 해야 사용 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

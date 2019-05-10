@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0224d84434ddabdafd2c3245eb2ab48b8e9486be
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7b74af8b93bb3b92d4673f40c06f0d9745ffb79c
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915442"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226205"
 ---
 # <a name="idebugthread2setthreadname"></a>IDebugThread2::SetThreadName
 스레드 이름을 설정합니다.
@@ -36,8 +39,8 @@ int SetThreadName ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pszName`
+## <a name="parameters"></a>매개 변수
+ `pszName`\
 
  [in] 스레드의 이름입니다.
 
@@ -47,6 +50,6 @@ int SetThreadName ( 
 ## <a name="remarks"></a>설명
  스레드 이름을 가져오려면 호출 합니다 [GetName](../../../extensibility/debugger/reference/idebugthread2-getname.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [GetName](../../../extensibility/debugger/reference/idebugthread2-getname.md)

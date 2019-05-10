@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 641687dbcfa6bf50ba9e848de589662d282d0c7b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 1c908658662d96d5c1ad5f3b16e9dcce2e4f7235
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62864575"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458493"
 ---
 # <a name="threadpropertyfields"></a>THREADPROPERTY_FIELDS
 스레드에 대 한 정보를 검색할 수를 지정 합니다.
@@ -49,20 +52,27 @@ public enum enum_THREADPROPERTY_FIELDS { 
 };
 ```
 
-## <a name="members"></a>멤버
- TPF_ID 초기화/사용 된 `dwThreadId` 필드를 [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) 구조입니다.
+## <a name="fields"></a>필드
+ `TPF_ID`\
+ 초기화/사용 된 `dwThreadId` 필드를 [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) 구조입니다.
 
- TPF_SUSPENDCOUNT 초기화/사용 합니다 `dwSuspendCount` 필드는 `THREADPROPERTIE`S 구조입니다.
+ `TPF_SUSPENDCOUNT`\
+ 초기화/사용 합니다 `dwSuspendCount` 필드는 `THREADPROPERTIE`S 구조입니다.
 
- TPF_STATE 초기화/사용 합니다 `dwThreadState` 필드는 `THREADPROPERTIE`S 구조입니다.
+ `TPF_STATE`\
+ 초기화/사용 합니다 `dwThreadState` 필드는 `THREADPROPERTIE`S 구조입니다.
 
- TPF_PRIORITY 초기화/사용 합니다 `bstrPriority` 필드는 `THREADPROPERTIE`S 구조입니다.
+ `TPF_PRIORITY`\
+ 초기화/사용 합니다 `bstrPriority` 필드는 `THREADPROPERTIE`S 구조입니다.
 
- TPF_NAME 초기화/사용 합니다 `bstrName` 필드는 `THREADPROPERTIE`S 구조입니다.
+ `TPF_NAME`\
+ 초기화/사용 합니다 `bstrName` 필드는 `THREADPROPERTIE`S 구조입니다.
 
- TPF_LOCATION 초기화/사용 합니다 `bstrLocation` 필드는 `THREADPROPERTIE`S 구조입니다.
+ `TPF_LOCATION`\
+ 초기화/사용 합니다 `bstrLocation` 필드는 `THREADPROPERTIE`S 구조입니다.
 
- TPF_ALLFIELDS 모든 필드를 지정합니다.
+ `TPF_ALLFIELDS`\
+ 모든 필드를 지정합니다.
 
 ## <a name="remarks"></a>설명
  이러한 값을 인수로 전달 됩니다는 [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md) 의 필드를 나타내려면 메서드는 [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) 구조는 초기화할 합니다.
@@ -78,7 +88,7 @@ public enum enum_THREADPROPERTY_FIELDS { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md)
 - [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5b5ac40af5f508a00b010025f9851ee2a8933dfa
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: af67f4589682cc3c0ecf42653374521c011115c2
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62869244"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457524"
 ---
 # <a name="idebugqueryengine2getengineinterface"></a>IDebugQueryEngine2::GetEngineInterface
 사용자 지정 디버그 엔진 (DE) 인터페이스를 가져옵니다.
@@ -36,8 +39,8 @@ int GetEngineInterface( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppUnk`
+## <a name="parameters"></a>매개 변수
+ `ppUnk`\
 
  [out] 반환 된 `IUnknown` 디버그 엔진 (DE), 및는 DE로 연결 된 다른 모든 유효한 인터페이스를 쿼리할 수 있는 개체를 나타냅니다 (예를 들어 [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) 또는 [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)).
 
@@ -47,7 +50,7 @@ int GetEngineInterface( 
 ## <a name="remarks"></a>설명
  이 메서드에서 검색 하는 인터페이스를 통해 호출 세션 디버그 관리자의 처리를 우회 하 고 SDM 잘못 된 상태로 시작 또는 디버그 하는 동안 오류가 발생 될 수 있습니다 결과 인터페이스 주의 해 서 사용 해야 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugQueryEngine2](../../../extensibility/debugger/reference/idebugqueryengine2.md)
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)

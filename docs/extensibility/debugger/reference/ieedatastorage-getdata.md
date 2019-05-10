@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0b6dbf712fc21338f8f5c4699ca2e11d5344dbad
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 8d9c00f21ab39d5785acb0090b16b5b1fc193699
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915310"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65224182"
 ---
 # <a name="ieedatastoragegetdata"></a>IEEDataStorage::GetData
 개체에서 지정 된 바이트 수를 검색합니다.
@@ -40,16 +43,16 @@ int GetData(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dataSize`
+## <a name="parameters"></a>매개 변수
+ `dataSize`\
 
  [in] 검색할 바이트 수 (의 `data` 배열 최소 바이트이 수가이 보유 해야 합니다).
 
- `sizeGotten`
+ `sizeGotten`\
 
  [out] 실제로 검색 하는 바이트 수를 반환 합니다.
 
- `data`
+ `data`\
 
  [out에서] 요청한 데이터를로 채워질 배열입니다.
 
@@ -59,6 +62,6 @@ int GetData(
 ## <a name="remarks"></a>설명
  권장 되는이 방법 사용 검색 프로세스에서 바이트를 건너뛸 수 없기 때문 로컬 배열로 모든 데이터 바이트를 검색 하는 것입니다. 이 예에서 매개 변수 `dataSize` 값에서 반환 해야 합니다 [GetSize](../../../extensibility/debugger/reference/ieedatastorage-getsize.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)
 - [GetSize](../../../extensibility/debugger/reference/ieedatastorage-getsize.md)

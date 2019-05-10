@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 61a22a1868a47fd4b54b19cf224f995897775b4f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 00f1e8ea5487a4eecb6dc9fa1f2b16d18ec3fa07
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62865786"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458064"
 ---
 # <a name="machineinfofields"></a>MACHINE_INFO_FIELDS
 특정 컴퓨터에 대 한 검색할 정보의 종류를 지정 합니다.
@@ -41,12 +44,15 @@ public enum enum_MACHINE_INFO_FIELDS { 
 };
 ```
 
-## <a name="members"></a>멤버
- MCIF_NAME 초기화/사용 된 `bstrName` 구조의 필드입니다.
+## <a name="fields"></a>필드
+ `MCIF_NAME`\
+ 초기화/사용 된 `bstrName` 구조의 필드입니다.
 
- MCIF_FLAGS 초기화/사용 된 `Flags` 구조의 필드입니다.
+ `MCIF_FLAGS`\
+ 초기화/사용 된 `Flags` 구조의 필드입니다.
 
- MIF_ALL 초기화/사용 하 여 모든 구조의 필드입니다.
+ `MIF_ALL`\
+ 모든 구조에 필드를 초기화/사용 합니다.
 
 ## <a name="remarks"></a>설명
  이러한 값에 전달 되는 [GetMachineInfo](../../../extensibility/debugger/reference/idebugcoreserver2-getmachineinfo.md) 멤버를 나타내도록 메서드는 [MACHINE_INFO](../../../extensibility/debugger/reference/machine-info.md) 구조는 초기화할 합니다.
@@ -62,7 +68,7 @@ public enum enum_MACHINE_INFO_FIELDS { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [MACHINE_INFO](../../../extensibility/debugger/reference/machine-info.md)
 - [GetMachineInfo](../../../extensibility/debugger/reference/idebugcoreserver2-getmachineinfo.md)

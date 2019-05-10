@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 896167d3655c5234f56f3b70e4369706250973c5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 0b6aca1ef95a8ae88301181955828f08c7c38bed
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915535"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226712"
 ---
 # <a name="idebugthread2setnextstatement"></a>IDebugThread2::SetNextStatement
 지정 된 코드 컨텍스트에 현재 명령 포인터를 설정합니다.
@@ -38,10 +41,11 @@ int SetNextStatement ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pStackFrame` 사용 하도록 예약 됩니다. null 값으로 설정 합니다.
+## <a name="parameters"></a>매개 변수
+ `pStackFrame`\
+ 사용 하도록 예약 됩니다. null 값으로 설정 합니다.
 
- `pCodeContext`
+ `pCodeContext`\
 
  [in] [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 실행 될 코드 위치를 설명 하는 개체 및 컨텍스트.
 
@@ -57,7 +61,7 @@ int SetNextStatement ( 
 ## <a name="remarks"></a>설명
  명령 포인터는 다음 명령 또는 문 실행을 나타냅니다. 이 메서드는 소스 코드 줄을 다시 시도 하거나 다른 함수에 예를 들어 계속 실행 하도록 사용 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

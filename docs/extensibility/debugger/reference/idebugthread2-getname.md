@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 04a76c88e5fd3eee146f6c174087298bac2b6974
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 9a5d4daad66ed6a4428724b20093473ba7b93856
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915629"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226231"
 ---
 # <a name="idebugthread2getname"></a>IDebugThread2::GetName
 스레드의 이름을 가져옵니다.
@@ -36,8 +39,8 @@ int GetName ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pbstrName`
+## <a name="parameters"></a>매개 변수
+ `pbstrName`\
 
  [out] 스레드의 이름을 반환합니다.
 
@@ -47,6 +50,6 @@ int GetName ( 
 ## <a name="remarks"></a>설명
  검색 이름은 항상 표시 될 수 있는 이름 및 스레드 하는이 이름에 설명 합니다. 스레드 이름 명명 된 스레드를 지원 하거나 디버그 엔진에서 파생 된 이름 수 있습니다는 런타임 아키텍처를에서 파생 될 수 있습니다. 호출 하 여 스레드의 이름을 설정할 수 있습니다 또는 합니다 [SetThreadName](../../../extensibility/debugger/reference/idebugthread2-setthreadname.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [SetThreadName](../../../extensibility/debugger/reference/idebugthread2-setthreadname.md)

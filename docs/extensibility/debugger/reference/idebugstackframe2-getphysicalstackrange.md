@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7c325ab6cb12813000c981e978e728c251b06c55
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 341a4d2da740d2907172fb7761dc0c18d13d1456
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62868733"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457276"
 ---
 # <a name="idebugstackframe2getphysicalstackrange"></a>IDebugStackFrame2::GetPhysicalStackRange
 스택 프레임과 연결 된 물리적 주소 범위의 컴퓨터 종속 표현을 가져옵니다.
@@ -38,12 +41,12 @@ int GetPhysicalStackRange ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `paddrMin`
+## <a name="parameters"></a>매개 변수
+ `paddrMin`\
 
  [out] 이 스택 프레임과 연결 된 가장 낮은 물리적 주소를 반환 합니다.
 
- `paddrMax`
+ `paddrMax`\
 
  [out] 이 스택 프레임과 연결 된 가장 높은 물리적 주소를 반환 합니다.
 
@@ -55,5 +58,5 @@ int GetPhysicalStackRange ( 
 
  호출 스택, 즉 증가, 점점 더 낮은 메모리 주소를 새 스택 프레임 추가 되어 있는지 간주 됩니다. 런타임 아키텍처는이 가정을 일치 하는 실제 스택에 범위를 제공 해야 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)

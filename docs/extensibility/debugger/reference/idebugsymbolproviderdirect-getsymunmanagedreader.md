@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e0c038a7aa2b398a2ee58101248d2968913ba3b4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 452866f885bb438589474bbb82e88e10300d988d
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62868423"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65224158"
 ---
 # <a name="idebugsymbolproviderdirectgetsymunmanagedreader"></a>IDebugSymbolProviderDirect::GetSymUnmanagedReader
 비관리 코드에 대 한 기호 판독기를 검색합니다.
@@ -39,21 +42,21 @@ int GetSymUnmanagedReader (
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ulAppDomainID`
+## <a name="parameters"></a>매개 변수
+ `ulAppDomainID`\
 
  [in] 응용 프로그램 도메인의 식별자입니다.
 
- `guidModule`
+ `guidModule`\
 
  [in] 모듈의 고유 식별자입니다.
 
- `ppSymUnmanagedReader`
+ `ppSymUnmanagedReader`\
 
  [out] 비관리 코드에 대 한 기호 판독기를 나타내는 개체를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

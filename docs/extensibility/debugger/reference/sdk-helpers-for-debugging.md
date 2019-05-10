@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e3979b7c50ee3af997924d15908556011682595d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 0d57e764158531456bfcdba6d4915eef42aebd3d
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415895"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460903"
 ---
 # <a name="sdk-helpers-for-debugging"></a>디버깅을 위한 SDK 도우미
 이러한 함수 및 선언 기호 공급자, 식 계산기 및 디버그 엔진 구현에 대 한 전역 도우미 함수는 C++입니다.
@@ -424,5 +424,5 @@ HRESULT EnumMetricSections(
 
  Library: libs\ad2de.lib, libs\dbgmetric.lib
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [API 참조](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

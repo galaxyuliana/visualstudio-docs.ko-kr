@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 584c7ba10ac9eb05268f50ecaffa8c47818f7977
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 466d50f81fe73e0d67e01142568d20cd757ebeea
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915547"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65225980"
 ---
 # <a name="idebugthread2enumframeinfo"></a>IDebugThread2::EnumFrameInfo
 이 스레드에 대 한 스택 프레임의 목록을 검색합니다.
@@ -40,16 +43,16 @@ int EnumFrameInfo ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwFieldSpec`
+## <a name="parameters"></a>매개 변수
+ `dwFieldSpec`\
 
  [in] 플래그의 조합을 [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) 의 필드를 지정 하는 열거형을 [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) 구조체가를 채워야 합니다. 지정 된 `FIF_FUNCNAME_FORMAT` 함수 이름의 단일 문자열로 서식을 지정 하는 플래그입니다.
 
- `nRadix`
+ `nRadix`\
 
  [in] 열거자의 숫자 정보를 서식 지정에 사용 하는 기 수입니다.
 
- `ppEnum`
+ `ppEnum`\
 
  [out] 반환 된 [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md) 개체의 목록을 포함 하는 [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) 스택 프레임을 설명 하는 구조입니다.
 
@@ -59,7 +62,7 @@ int EnumFrameInfo ( 
 ## <a name="remarks"></a>설명
  스레드의 프레임 순서로 먼저 열거할 현재 프레임 및 마지막으로 열거 하는 가장 오래 된 프레임을 사용 하 여 열거 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md)
 - [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)

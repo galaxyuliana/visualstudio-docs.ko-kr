@@ -45,7 +45,7 @@ ms.locfileid: "63424935"
   
      **솔루션 탐색기**IService1.vb 또는 IService1.cs를 두 번 클릭 하 고 다음 줄을 찾습니다.  
   
-     [! 코드-csharp [WCFWalkthrough #4] (.. /snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1 (2).cs #4)] [! 코드-vb [WCFWalkthrough #4] (.. /snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1 (2).vb #4)]  
+     [!코드-csharp[WCFWalkthrough#4](../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/iservice1 (2).cs#4)]   [!코드-vb[WCFWalkthrough#4](../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/iservice1 (2).vb#4)]  
   
      `value` 매개 변수의 형식을 `String`으로 변경합니다.  
   
@@ -58,7 +58,7 @@ ms.locfileid: "63424935"
   
      **솔루션 탐색기**Service1.vb 또는 Service1.cs를 두 번 클릭 하 고 다음 줄을 찾습니다.  
   
-     [! 코드-csharp [WCFWalkthrough #5] (.. /snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/service1 (2).cs #5)] [! 코드-vb [WCFWalkthrough #5] (.. /snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/service1 (2).vb #5)]  
+     [!코드-csharp[WCFWalkthrough#5](../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/service1 (2).cs#5)]   [!코드-vb [WCFWalkthrough #5](../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/service1 (2).vb#5)]  
   
      값 매개 변수의 형식을 `String`으로 변경합니다.  
   

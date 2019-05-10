@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9f701415c011b304ac886669de5da8f813b26220
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 23c00147b0d42c848d01e0e2a08df80672750e71
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915816"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226425"
 ---
 # <a name="idebugsymbolprovidergetclasstypebyname"></a>IDebugSymbolProvider::GetClassTypeByName
 이 메서드는 정규화 된 클래스 이름을 나타내는 클래스 필드 형식을 가져옵니다.
@@ -40,23 +43,23 @@ int GetClassTypeByName(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pszClassName`
+## <a name="parameters"></a>매개 변수
+ `pszClassName`\
 
  [in] 클래스 이름입니다.
 
- `nameMatch`
+ `nameMatch`\
 
  [in] 형식을 일치, 예를 들어, 대/소문자 구분을 선택합니다. 값을 [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md) 열거형입니다.
 
- `ppField`
+ `ppField`\
 
  [out] 에 표시 된 대로 클래스 형식을 반환 합니다 [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [NAME_MATCH](../../../extensibility/debugger/reference/name-match.md)
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b20222db9b007fbeee6daf0df1921e4c56744818
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 071dac72e39a3cce5b0b17dc9e401b9072efda6a
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915829"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65224062"
 ---
 # <a name="idebugsymbolprovidergetlanguage"></a>IDebugSymbolProvider::GetLanguage
 이 메서드는 디버그 주소에서 코드를 컴파일하는 데 사용 된 언어를 가져옵니다.
@@ -40,16 +43,16 @@ int GetLanguage(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pAddress`
+## <a name="parameters"></a>매개 변수
+ `pAddress`\
 
  [in] Address 개체 표시는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
 
- `pguidLanguage`
+ `pguidLanguage`\
 
  [out] 반환 된 `GUID` 언어를 지정 하는 합니다.
 
- `pguidLanguageVendor`
+ `pguidLanguageVendor`\
 
  [out] 반환 된 `GUID` 언어 공급 업체를 지정 하는 합니다.
 
@@ -59,6 +62,6 @@ int GetLanguage(
 ## <a name="remarks"></a>설명
  디버그 엔진 올바른 식 계산기를 선택 하는 데 필요한 정보를 가져오려면이 메서드를 호출 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

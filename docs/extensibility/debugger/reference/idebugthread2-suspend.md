@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e45cee0acab5fb2b5165e28895ab9a7dcb3ed9c1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: bd1987be34cf0f07ce5f37f074cd298a8135a4fa
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915473"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226403"
 ---
 # <a name="idebugthread2suspend"></a>IDebugThread2::Suspend
 스레드를 일시 중단합니다.
@@ -36,8 +39,8 @@ HRESULT Suspend ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pdwSuspendCount`
+## <a name="parameters"></a>매개 변수
+ `pdwSuspendCount`\
 
  [out] 일시 중단 작업 후 일시 중단 횟수를 반환합니다.
 
@@ -49,6 +52,6 @@ HRESULT Suspend ( 
 
  이 메서드를 호출할 때마다, 이후의 호출 있어야 합니다 [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)
 - [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md)

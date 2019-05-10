@@ -7,12 +7,12 @@ author: gregvanl
 ms.author: gregvanl
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4f78753afdf8d0ded233b2451db42dee73c41de0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 51c7ae179cc7ba1a62ee1937f7b8f113a3263b8a
+ms.sourcegitcommit: 62f42113ae4dae1ddfff1c4e02445acc09913445
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62861878"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "64878249"
 ---
 # <a name="how-to-use-rule-based-ui-context-for-visual-studio-extensions"></a>방법: Visual Studio 확장에 대 한 규칙 기반 UI 컨텍스트 사용
 
@@ -70,14 +70,14 @@ Visual Studio에서는 특정 하는 경우 Vspackage 로드가 잘 알려진 <x
 
    ```xml
    <VisibilityConstraints>
-       <VisibilityItem guid="guidTestPackageCmdSet" id="TestId"  context="guidTestUIContext"/>
+       <VisibilityItem guid="guidTestPackageCmdSet" id="TestId"  context="UIContextGuid"/>
    </VisibilityConstraints>
    ```
 
 4. Symbols 섹션에는 UIContext의 정의 추가 합니다.
 
    ```xml
-   <GuidSymbol name="guidTestUIContext" value="{8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B}" />
+   <GuidSymbol name="UIContextGuid" value="{8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B}" />
    ```
 
     에 대 한 상황에 맞는 메뉴 명령을 이제  *\*.config* 파일이 표시 됩니다 인 경우에 솔루션 탐색기에서 선택한 항목을 *.config* 파일과 패키지 로드 되지 것입니다 중 하나가 될 때까지 명령은 선택 됩니다.
