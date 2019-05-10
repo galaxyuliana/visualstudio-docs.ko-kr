@@ -1,6 +1,7 @@
 - name: Visual Basic 자습서
-  href: index.yml
   items:
+    - name: Visual Basic 자습서
+      href: index.yml
     - name: 개요
       items:
         - name: Visual Studio 정보

@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2f75428155cfff20ce280d8428839d4332d13031
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 1894c5488c6d9405f8b1d84ae2cb2d497fb0542b
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62868104"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226148"
 ---
 # <a name="idebugwindowscomputerport2getcomputerinfo"></a>IDebugWindowsComputerPort2::GetComputerInfo
 컴퓨터에 대 한 정보를 검색 디버거의 실행 합니다.
@@ -35,14 +38,14 @@ public int GetComputerInfo(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pInfo`
+## <a name="parameters"></a>매개 변수
+ `pInfo`\
 
  [out] 컴퓨터 정보가 포함 된 구조에 대 한 참조입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugWindowsComputerPort2](../../../extensibility/debugger/reference/idebugwindowscomputerport2.md)
 - [COMPUTER_INFO](../../../extensibility/debugger/reference/computer-info.md)

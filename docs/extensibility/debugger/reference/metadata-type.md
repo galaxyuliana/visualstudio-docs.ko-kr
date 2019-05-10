@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0a39ce54d1cb1fb1a3773b4241be35214421f08a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 3541181e0141e20381be7cdd24a45d7c7a0704ec
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62865679"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458049"
 ---
 # <a name="metadatatype"></a>METADATA_TYPE
 이 구조체는 메타 데이터에서 가져온 필드 형식에 대 한 정보를 지정 합니다.
@@ -40,16 +43,16 @@ public struct METADATA_TYPE {
 };
 ```
 
-#### <a name="parameters"></a>매개 변수
- ulAppDomainID
+## <a name="parameters"></a>매개 변수
+ `ulAppDomainID`\
 
  기호 가져온 응용 프로그램의 ID입니다. 이 응용 프로그램의 인스턴스를 고유 하 게 식별에 사용 됩니다.
 
- guidModule
+ `guidModule`\
 
  이 필드를 포함 하는 모듈의 GUID입니다.
 
- tokClass
+ `tokClass`\
 
  이 형식의 메타 데이터 토큰 ID입니다.
 
@@ -67,7 +70,7 @@ public struct METADATA_TYPE {
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
 - [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)

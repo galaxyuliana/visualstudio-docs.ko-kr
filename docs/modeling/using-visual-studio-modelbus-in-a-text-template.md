@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 33fe66319cda75ebdfc6fb47c9da6789cabc8e60
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9324c33e383029fa6f98a9b890309cc0a11eb95d
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62907032"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226263"
 ---
 # <a name="using-visual-studio-modelbus-in-a-text-template"></a>텍스트 템플릿에서 Visual Studio ModelBus 사용
 
@@ -35,7 +35,7 @@ ms.locfileid: "62907032"
 
 1. 대상 DSL 솔루션에 없는 경우는 **ModelBusAdapter** 프로젝트에서 Modelbus 확장 마법사를 사용 하 여 만듭니다.
 
-    1. 다운로드 하 고 이미 수행 하지 않은 경우 Visual Studio ModelBus 확장을 설치 합니다. 자세한 내용은 [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579)합니다.
+    1. 다운로드 하 고 이미 수행 하지 않은 경우 Visual Studio ModelBus 확장을 설치 합니다. 자세한 내용은 [Visualization and Modeling SDK](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)합니다.
 
     2. DSL 정의 파일을 엽니다. 디자인 화면을 마우스 오른쪽 단추로 누른 **Modelbus**합니다.
 

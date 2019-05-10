@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0fd27ee043e55b4dd43be956e41dd870be550562
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 4fe0a804922296e26846b9b477091883c742253e
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62865880"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458090"
 ---
 # <a name="jmccodespec"></a>JMC_CODE_SPEC
 이 구조는 모듈에 대 한 JustMyCode 정보 사용 됩니다.
@@ -39,9 +42,11 @@ public struct JMC_CODE_SPEC {
 ```
 
 ## <a name="members"></a>멤버
-fIsUserCode 0이 아닌 (`TRUE`)이 모듈은 사용자 코드를 고려해 야 하는 경우 0이 고, 그렇지 (`FALSE`) 모듈이 외부 코드로 처리할 수 고를 디버깅할 경우.
+`fIsUserCode`\
+0이 아닌 (`TRUE`)이 모듈은 사용자 코드를 고려해 야 하는 경우 0이 고, 그렇지 (`FALSE`) 모듈이 외부 코드로 처리할 수 고를 디버깅할 경우.
 
-bstrModuleName 해당 모듈의 이름입니다.
+`bstrModuleName`\
+해당 모듈의 이름입니다.
 
 ## <a name="remarks"></a>설명
 이 구조는 이러한 구조를 목록으로 전달 되는 [SetJustMyCodeState](../../../extensibility/debugger/reference/idebugengine3-setjustmycodestate.md) 메서드.
@@ -53,6 +58,6 @@ bstrModuleName 해당 모듈의 이름입니다.
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [SetJustMyCodeState](../../../extensibility/debugger/reference/idebugengine3-setjustmycodestate.md)

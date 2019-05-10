@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bb0ece36eba11b61f760552fe0559de46c1ce732
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: fa9c1805c7eaba480cd46ebc6e73ee370e3cbb22
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62864790"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460782"
 ---
 # <a name="stepkind"></a>STEPKIND
 단계별 실행에 대 한 단계 종류를 지정합니다.
@@ -43,14 +46,18 @@ public enum enum_STEPKIND { 
 };
 ```
 
-## <a name="members"></a>멤버
- 함수에 STEP_INTO 단계입니다.
+## <a name="fields"></a>필드
+ `STEP_INTO`\
+ 함수 한 단계씩 실행 합니다.
 
- 함수는 STEP_OVER 단계입니다.
+ `STEP_OVER`\
+ 함수를 건너뜁니다.
 
- 함수에서 STEP_OUT 단계입니다.
+ `STEP_OUT`\
+ 함수에서 나갑니다.
 
- 함수에는 이전 버전과 STEP_BACKWARDS 단계입니다.
+ `STEP_BACKWARDS`\
+ 함수에 이전 버전과 단계입니다.
 
 ## <a name="remarks"></a>설명
  인수로 전달 된 [단계](../../../extensibility/debugger/reference/idebugprocess3-step.md) 메서드.
@@ -62,6 +69,6 @@ public enum enum_STEPKIND { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md)

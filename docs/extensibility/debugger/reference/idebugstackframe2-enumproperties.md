@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 651bc4945f8acc65d5f12da5fecef7a4926ef416
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: fecff3d6a992360f2fec385e93d88a65b368db9f
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62868822"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457499"
 ---
 # <a name="idebugstackframe2enumproperties"></a>IDebugStackFrame2::EnumProperties
 스택 프레임을 로컬 변수와 같은 연관 된 속성에 대 한 열거자를 만듭니다.
@@ -46,28 +49,28 @@ int EnumProperties ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwFieldSpec`
+## <a name="parameters"></a>매개 변수
+ `dwFieldSpec`\
 
  [in] 플래그의 조합을 합니다 [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) 열거형의 열거 된 필드를 지정 하는 [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 채울 구조체가 합니다.
 
- `nRadix`
+ `nRadix`\
 
  [in] 모든 숫자 정보를 서식 지정 하는 데 사용할 기 수입니다.
 
- `refiid`
+ `refiid`\
 
  [in] 선택 하는 데 사용 하는 필터의 GUID [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 구조체가 같은 열거 되도록 `guidFilterLocals`합니다.
 
- `dwTimeout`
+ `dwTimeout`\
 
  [in] 이 메서드에서 반환 되기 전에 대기할 밀리초에서는 최대 시간입니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
 
- `pcelt`
+ `pcelt`\
 
  [out] 열거 속성의 수를 반환 합니다. 호출할 때와 동일 합니다 [GetCount](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2-getcount.md) 메서드.
 
- `ppEnum`
+ `ppEnum`\
 
  [out] 반환 된 [IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) desired 속성의 목록을 포함 하는 개체입니다.
 
@@ -77,7 +80,7 @@ int EnumProperties ( 
 ## <a name="remarks"></a>설명
  이 메서드는 선택한 모든 속성을 단일 호출으로 검색할 수를 허용 하므로 보다는 빠르지만 순차적으로 호출 합니다 [GetDebugProperty](../../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md) 하 고 [EnumChildren](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
 - [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md)
 - [IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md)

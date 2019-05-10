@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5b09660b2ba2836dab08ddd51c8cf7671dd0bfa0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2648d63902af2c733f3ad2827517221f817de051
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62866077"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461108"
 ---
 # <a name="interfaces-visual-studio-debugging"></a>인터페이스(Visual Studio 디버깅)
 메서드는 Vtable 순서의 인터페이스 페이지의 내용에 대 한 테이블의 각 인터페이스에서 사전순으로 나열 됩니다.
@@ -38,5 +38,5 @@ ms.locfileid: "62866077"
 
  인터페이스, 열거자 및 구조에 대 한 설명서는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [API 참조](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

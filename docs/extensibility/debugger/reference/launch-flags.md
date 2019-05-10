@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 302c44b3d4947baa95554966246f15175841257d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7ffdf2359b719be0fa3cf0a17ae4ed70bc36b673
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913925"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461058"
 ---
 # <a name="launchflags"></a>LAUNCH_FLAGS
 디버그 시작 플래그를 지정합니다.
@@ -43,14 +46,18 @@ public enum enum_LAUNCH_FLAGS {
 };
 ```
 
-## <a name="members"></a>멤버
-LAUNCH_DEBUG 디버깅에 대 한 프로세스를 시작합니다.
+## <a name="fields"></a>필드
+`LAUNCH_DEBUG`\
+디버깅에 대 한 프로세스를 시작 합니다.
 
-LAUNCH_NODEBUG 디버그 하지 않고 프로세스를 시작 합니다.
+`LAUNCH_NODEBUG`\
+디버그 하지 않고 프로세스를 시작 합니다.
 
-LAUNCH_ENABLE_ENC DEPRECATED, DO NOT USE.
+`LAUNCH_ENABLE_ENC`\
+사용 되지 않으며, 사용 하지 마십시오.
 
-LAUNCH_MERGE_ENV는 프로세스를 시작 하 고 시작 호스트 환경과 병합 합니다.
+`LAUNCH_MERGE_ENV`\
+프로세스를 시작 하 고 시작 하는 호스트를 사용 하 여 환경을 병합 합니다.
 
 ## <a name="remarks"></a>설명
 이러한 값을 인수로 전달 되는 [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) 메서드.
@@ -64,6 +71,6 @@ LAUNCH_MERGE_ENV는 프로세스를 시작 하 고 시작 호스트 환경과 �
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 96eb95d39c60952c48e62c0e2e61edefeaa59783
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 3019671b98d3eb17c92d97c368f2f7338ee55a1d
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913342"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460707"
 ---
 # <a name="threadstate"></a>THREADSTATE
 스레드의 상태를 지정합니다.
@@ -45,16 +48,21 @@ public enum enum_THREADSTATE { 
 };
 ```
 
-## <a name="members"></a>멤버
- 스레드가 실행 중인 THREADSTATE_RUNNING 나타냅니다.
+## <a name="fields"></a>필드
+ `THREADSTATE_RUNNING`\
+ 스레드가 실행 중임을 나타냅니다.
 
- THREADSTATE_STOPPED 스레드가 중단점으로 인해 중지 되었음을 나타냅니다.
+ `THREADSTATE_STOPPED`\
+ 스레드가 중단점으로 인해 중지 되었음을 나타냅니다.
 
- THREADSTATE_FRESH 스레드가 만들어지면 있지만 코드를 아직 실행 되지 않는 나타냅니다.
+ `THREADSTATE_FRESH`\
+ 스레드를 만든 했지만 코드가 아직 실행 되지 않음을 나타냅니다.
 
- THREADSTATE_DEAD 스레드 소멸 임을 나타냅니다.
+ `THREADSTATE_DEAD`\
+ 스레드 소멸 임을 나타냅니다.
 
- 스레드를 고정 THREADSTATE_FROZEN 나타냅니다 (없습니다 실행을 수행할 수 있습니다.).
+ `THREADSTATE_FROZEN`\
+ 스레드를 고정 나타냅니다 (없습니다 실행을 수행할 수 있습니다.).
 
 ## <a name="remarks"></a>설명
  에 사용 되는 합니다 `dwThreadState` 필드를 [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) 구조입니다.

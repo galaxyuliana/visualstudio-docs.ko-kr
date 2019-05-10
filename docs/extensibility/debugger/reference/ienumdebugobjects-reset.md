@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ebeef5502787ad5ab745d72e42205d86320a8f20
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 786adff86b35ed4d33b07a4144544adffe53ea75
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62914469"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226474"
 ---
 # <a name="ienumdebugobjectsreset"></a>IEnumDebugObjects::Reset
 이 메서드는 첫 번째 요소를 열거형을 초기화합니다.
@@ -32,7 +35,7 @@ HRESULT Reset(void);
 int Reset();
 ```
 
-#### <a name="parameters"></a>매개 변수
+## <a name="parameters"></a>매개 변수
  없음
 
 ## <a name="return-value"></a>반환 값
@@ -41,6 +44,6 @@ int Reset();
 ## <a name="remarks"></a>설명
  이 메서드를 호출한 다음 호출 후 [다음](../../../extensibility/debugger/reference/ienumdebugobjects-next.md) 열거형의 첫 번째 요소를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md)
 - [다음](../../../extensibility/debugger/reference/ienumdebugobjects-next.md)

@@ -10,12 +10,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 05d64a568f4df1e4e1705e90ba186287c0b96a85
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 12005f27e533d491451695925253137fb172ccd6
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916352"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457623"
 ---
 # <a name="idebugsettingscallback2enumees"></a>IDebugSettingsCallback2::EnumEEs
 언어 및 공급 업체 식별자를 지정 된 사용 가능한 식 계산기를 열거 합니다.
@@ -40,25 +43,25 @@ public int EnumEEs(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `celtBuffer`
+## <a name="parameters"></a>매개 변수
+ `celtBuffer`\
 
  [in] 요소 수를 `pceltEEs` 버퍼입니다.
 
- `rgguidLang`
+ `rgguidLang`\
 
  [out에서] 프로그래밍 언어에 대 한 고유 식별자입니다.
 
- `rgguidVendor`
+ `rgguidVendor`\
 
  [out에서] 공급 업체에 대 한 고유 식별자입니다.
 
- `pceltEEs`
+ `pceltEEs`\
 
  [out에서] 식 계산기의 배열입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

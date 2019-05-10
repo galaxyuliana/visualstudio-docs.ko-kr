@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b518e9bcfd77f489dd38a96eb8e378610841feb5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 947063690840dfb3c49e2c41e6178cbc67dc714b
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913467"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457908"
 ---
 # <a name="referencecompare"></a>REFERENCE_COMPARE
 참조에 대 한 비교의 형식을 지정합니다.
@@ -41,12 +44,15 @@ public enum enum_REFERENCE_COMPARE { 
 };
 ```
 
-## <a name="members"></a>멤버
- REF_COMPARE_EQUAL 같음 비교를 지정합니다.
+## <a name="fields"></a>필드
+ `REF_COMPARE_EQUAL`\
+ 같음 비교를 지정합니다.
 
- REF_COMPARE_LESS_THAN 지정 작음-보다 비교 합니다.
+ `REF_COMPARE_LESS_THAN`\
+ 작음 지정-보다 비교 합니다.
 
- REF_COMPARE_GREATER_THAN 지정 큼-보다 비교 합니다.
+ `REF_COMPARE_GREATER_THAN`\
+ 큼 지정-보다 비교 합니다.
 
 ## <a name="remarks"></a>설명
  인수로 전달 된 [비교](../../../extensibility/debugger/reference/idebugreference2-compare.md) 메서드.
@@ -58,6 +64,6 @@ public enum enum_REFERENCE_COMPARE { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Compare](../../../extensibility/debugger/reference/idebugreference2-compare.md)

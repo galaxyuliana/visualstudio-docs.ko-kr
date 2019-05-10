@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c87fc29b24b3c5ab4bd59d9cca25113f82895ff4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c8a7c0363ea774206cdf6f1db792ab5e7cbd2454
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62928213"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226416"
 ---
 # <a name="security-versioning-and-manifest-issues-in-clickonce-deployments"></a>ClickOnce 배포의 보안, 버전 관리 및 매니페스트 문제
 
@@ -97,5 +97,5 @@ ms.locfileid: "62928213"
 ## <a name="see-also"></a>참고자료
 
 [ClickOnce 배포 문제 해결](../deployment/troubleshooting-clickonce-deployments.md)
-[Securw ClickOnce 응용 프로그램](../deployment/securing-clickonce-applications.md)
+[Secure ClickOnce 응용 프로그램](../deployment/securing-clickonce-applications.md)
 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)
