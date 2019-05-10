@@ -9,38 +9,37 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fd399bb0d18d4a12493530932705b938a5f6dd67
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: ebbb18e37356c1ef6ccc47f18afe4736a418c0c3
+ms.sourcegitcommit: 6a19c5ece38a70731496a38f2ef20676ff18f8a4
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63414849"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65476574"
 ---
-# <a name="customizing-and-extending-a-domain-specific-language"></a>도메인별 언어 사용자 지정 및 확장
+# <a name="customize-and-extend-a-domain-specific-language"></a>사용자 지정 및 도메인 특정 언어를 확장 합니다.
+
 Visual Studio 모델링 및 시각화 SDK (VMSDK)는 모델링 도구를 정의할 수 있습니다 여러 수준을 제공 합니다.
 
-1. DSL 정의 다이어그램을 사용 하 여 도메인 특정 언어 (DSL)를 정의 합니다. 신속 하 게 사용 되는 다이어그램 표기법, 읽을 수 있는 XML 양식 및 코드 및 기타 아티팩트를 생성 하는 데 필요한 기본 도구를 사용 하 여 DSL을 만들 수 있습니다.
-
-     자세한 내용은 [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)합니다.
+1. DSL 정의 다이어그램을 사용 하 여 도메인 특정 언어 (DSL)를 정의 합니다. 신속 하 게 사용 되는 다이어그램 표기법, 읽을 수 있는 XML 양식 및 코드 및 기타 아티팩트를 생성 하는 데 필요한 기본 도구를 사용 하 여 DSL을 만들 수 있습니다. 자세한 내용은 [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)합니다.
 
 2. DSL 정의의 고급 기능을 사용 하 여 DSL을 미세 조정 합니다. 예를 들어 사용자가 요소를 만들 때 표시 되는 추가 링크를 만들 수 있습니다. 이러한 기술은 대부분 DSL 정의 구현 된다는 및 일부 프로그램 코드 몇 줄이 필요 합니다.
 
-3. 프로그램 코드를 사용 하 여 모델링 도구를 확장 합니다. VMSDK는 DSL 정의에서 생성된 코드를 사용하여 확장을 쉽게 통합할 수 있도록 설계되었습니다.  자세한 내용은 [도메인 특정 언어에 맞게 코드를 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.
+3. 프로그램 코드를 사용 하 여 모델링 도구를 확장 합니다. VMSDK는 DSL 정의에서 생성된 코드를 사용하여 확장을 쉽게 통합할 수 있도록 설계되었습니다. 자세한 내용은 [도메인 특정 언어에 맞게 코드를 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.
 
 > [!NOTE]
-> DSL 정의 파일을 업데이트 하는 경우 잊지 말고 클릭 **모든 템플릿 변환** 솔루션을 다시 작성 하기 전에 솔루션 탐색기의 도구 모음입니다.
+> DSL 정의 파일을 업데이트 하는 경우 클릭 잊지 **모든 템플릿 변형** 도구 모음에서 **솔루션 탐색기** 솔루션을 다시 작성 하기 전에 합니다.
 
-## <a name="customShapes"></a> 이 섹션에서
+## <a name="article-reference"></a>문서 참조
 
 |이 결과를 얻으려면|이 항목을 참조 하세요.|
 |-|-|
-|도형의 색 및 스타일 속성을 설정 하려면 사용자를 허용 합니다.|셰이프 또는 연결선 클래스를 마우스 오른쪽 **Add Exposed**, 한 항목을 클릭 합니다.<br /><br /> 참조 [다이어그램의 프레젠테이션 사용자 지정](../modeling/customizing-presentation-on-the-diagram.md)합니다.|
+|도형의 색 및 스타일 속성을 설정 하려면 사용자를 허용 합니다.|셰이프 또는 연결선 클래스를 마우스 오른쪽 **Add Exposed**, 한 항목을 클릭 합니다.|
 |다른 모델 요소 클래스의 초기 높이 및 너비, 색, 도구 설명 등의 속성을 공유 다이어그램에서 유사 합니다.|셰이프 또는 연결선 클래스 간의 상속을 사용 합니다. 파생 된 모양 및 파생 된 도메인 클래스 간의 매핑을 부모의 매핑 정보를 상속합니다.<br /><br /> 또는 동일한 모양 클래스를 다른 도메인 클래스를 매핑합니다.|
 |모델 요소 클래스는 다양 한 모양 컨텍스트에서 표시 됩니다.|동일한 도메인 클래스에 둘 이상의 모양 클래스를 매핑하십시오. 솔루션을 빌드하면 오류 보고서를 따르고 데 모양을 결정 하는 요청 된 코드를 제공 합니다.|
 |셰이프 색상 또는 글꼴 등의 기타 기능에는 현재 상태를 나타냅니다.|참조 [모양 및 연결선은 모델을 반영 하도록 업데이트](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md)합니다.<br /><br /> 노출된 된 속성을 업데이트 하는 규칙을 만듭니다. 참조 [규칙에는 모델 내부의 변경 내용 전파](../modeling/rules-propagate-changes-within-the-model.md)합니다.<br /><br /> 또는 OnAssociatedPropertyChanged()를 사용 하 여 링크 화살표 등 글꼴 비공개 기능을 업데이트 합니다.|
 |모양 변경 상태를 나타내는 아이콘입니다.|DSL 정보 창에서 decorator 매핑의 표시 유형을 설정 합니다. 동일한 위치에 여러 이미지 데코레이터를 찾습니다. 참조 [모양 및 연결선은 모델을 반영 하도록 업데이트](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md)합니다.<br /><br /> 재정의 또는 `ImageField.GetDisplayImage()`합니다. 예제를 참조 <xref:Microsoft.VisualStudio.Modeling.Diagrams.ImageField>합니다.|
-|모양에 배경 이미지 설정|고정된 이미지 필드를 추가 하려면 InitializeInstanceResources()를 재정의 합니다. 참조 [다이어그램의 프레젠테이션 사용자 지정](../modeling/customizing-presentation-on-the-diagram.md)합니다.|
-|임의 깊이까지 모양 중첩|트리를 포함 하는 재귀를 설정 합니다. Boundsrules로 셰이프를 포함 하도록 정의 합니다. 참조 [다이어그램의 프레젠테이션 사용자 지정](../modeling/customizing-presentation-on-the-diagram.md)합니다.|
+|모양에 배경 이미지 설정|고정된 이미지 필드를 추가 하려면 InitializeInstanceResources()를 재정의 합니다.|
+|임의 깊이까지 모양 중첩|트리를 포함 하는 재귀를 설정 합니다. Boundsrules로 셰이프를 포함 하도록 정의 합니다.|
 |커넥터에 있는 고정된 요소의 경계 지점에 연결 합니다.|다이어그램에서 작은 포트를 나타내는 포함 된 터미널 요소를 정의 합니다. Boundsrules로 되어에서 포트를 해결 하려면 사용 합니다. 회로 다이어그램 샘플을 참조 [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)합니다.|
 |텍스트 필드에 다른 값에서 파생 된 값을 표시 합니다.|Calculated 또는 사용자 지정 저장소 도메인 속성에 텍스트 decorator를 매핑하십시오. 자세한 내용은 [사용자 지정 저장소 속성 및 계산](../modeling/calculated-and-custom-storage-properties.md)합니다.|
 |모델 요소 간에 또는 셰이프 사이의 변경 내용 전파|참조 [도메인별 언어에서 유효성 검사](../modeling/validation-in-a-domain-specific-language.md)합니다.|

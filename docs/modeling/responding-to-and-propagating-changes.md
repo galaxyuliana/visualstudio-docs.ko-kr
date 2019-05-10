@@ -9,18 +9,20 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 375f6996c91c294dd3b630c9ab987ff4b2d6cbdb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a1d58ede1370976147b33cf1246f8b582adb3c5b
+ms.sourcegitcommit: 6a19c5ece38a70731496a38f2ef20676ff18f8a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62824009"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65476610"
 ---
-# <a name="responding-to-and-propagating-changes"></a>변경 내용에 대한 대응 및 전파
+# <a name="respond-to-and-propagate-changes"></a>에 응답 하 고 변경 내용을 전파합니다
+
 요소를 생성, 삭제 하거나 업데이트할 때이 모델의 다른 부분 또는 파일, 데이터베이스 또는 다른 구성 요소와 같은 외부 리소스에 변경 내용을 전파 하는 코드를 작성할 수 있습니다.
 
-## <a name="in-this-section"></a>섹션 내용
- 예를 들어, 다음 순서 대로 이러한 기술을 살펴보겠습니다.
+## <a name="reference"></a>참조
+
+예를 들어, 다음 순서 대로 이러한 기술을 살펴보겠습니다.
 
 |방법|시나리오|추가 정보|
 |-|-|-|
@@ -34,12 +36,13 @@ ms.locfileid: "62824009"
 |선택 규칙|특히 선택 규칙 항목을 선택할 수를 제한 합니다.|[방법: 현재 선택 항목 액세스 및 제약](../modeling/how-to-access-and-constrain-the-current-selection.md)|
 |OnAssocatedPropertyChanged|모양 및 연결선 섀도, 화살표, 색 및 선 두께 및 스타일 등의 기능을 사용 하 여 모델 요소의 상태를 나타냅니다.|[모양 및 연결선을 업데이트하여 모델 반영](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md)|
 
-## <a name="comparing-rules-and-store-events"></a>**규칙 및 저장소 이벤트를 비교합니다.**
- 변경 notifiers, 규칙 및 이벤트 모델의 변경이 발생할 때 실행 됩니다.
+## <a name="compare-rules-and-store-events"></a>규칙을 비교 하 고 이벤트를 저장 합니다.
 
- 규칙에는 변경 내용이 발생 한 종료 트랜잭션을 일반적으로 적용 됩니다 및 이벤트는 트랜잭션의 변경 내용을 커밋한 후에 적용 됩니다.
+변경 notifiers, 규칙 및 이벤트 모델의 변경이 발생할 때 실행 됩니다.
 
- 외부 저장소에서 일관성을 유지 하려면 저장소 및 규칙 개체를 사용 하 여 모델을 동기화 하려면 store 이벤트를 사용 합니다.
+규칙에는 변경 내용이 발생 한 종료 트랜잭션을 일반적으로 적용 됩니다 및 이벤트는 트랜잭션의 변경 내용을 커밋한 후에 적용 됩니다.
+
+외부 저장소에서 일관성을 유지 하려면 저장소 및 규칙 개체를 사용 하 여 모델을 동기화 하려면 store 이벤트를 사용 합니다.
 
 - **사용자 지정 규칙을 만드는** 추상 규칙에서 파생 클래스로 사용자 지정 규칙을 만듭니다. 또한 사용자 지정 규칙에 대 한 프레임 워크를 알려야 합니다. 자세한 내용은 [규칙이 전파 변경 내용을 내에서 모델](../modeling/rules-propagate-changes-within-the-model.md)합니다.
 
@@ -49,7 +52,7 @@ ms.locfileid: "62824009"
 
 - **규칙 및 이벤트를 이벤트 인수를 전달** 두 이벤트 규칙 전달 되는 `EventArgs` 모델 변경 방법에 대 한 정보가 포함 된 매개 변수입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [방법: 모양 또는 데코레이터 클릭 가로채기](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)
 - [도메인별 언어 사용자 지정 하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)
