@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2d79c56cfeb2c1a5ef6f83ef64c005fd794c1f29
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 743337777677b61661da53446f9717cad14ff9ed
+ms.sourcegitcommit: 6a19c5ece38a70731496a38f2ef20676ff18f8a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62960452"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65476667"
 ---
 # <a name="add-custom-architecture-validation-to-dependency-diagrams"></a>종속성 다이어그램에 사용자 지정 아키텍처 유효성 검사 추가
 
@@ -32,7 +32,7 @@ Visual Studio에서 사용자가 유효성을 검사할 수는 레이어 모델�
 
 ## <a name="requirements"></a>요구 사항
 
-참조 [요구 사항](../modeling/extend-layer-diagrams.md#prereqs)합니다.
+참조 [요구 사항](../modeling/extend-layer-diagrams.md#requirements)합니다.
 
 ## <a name="defining-a-layer-validator-in-a-new-vsix"></a>새 VSIX에서 레이어 유효성 검사기 정의
 

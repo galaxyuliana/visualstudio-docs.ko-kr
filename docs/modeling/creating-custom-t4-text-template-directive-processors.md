@@ -9,14 +9,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6c159cd6fbd4f2fbfff414688e2ec865bcc8ddb4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3f9d514178e4b899ca727e17ead260719697b562
+ms.sourcegitcommit: 6a19c5ece38a70731496a38f2ef20676ff18f8a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63002713"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65476644"
 ---
-# <a name="creating-custom-t4-text-template-directive-processors"></a>사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기
+# <a name="create-custom-t4-text-template-directive-processors"></a>사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기
 
 *텍스트 템플릿 변형 프로세스* 사용을 *텍스트 템플릿* 파일을 입력 하 고 텍스트 파일을 출력으로 생성 합니다. 합니다 *텍스트 템플릿 변환 엔진* 프로세스 엔진과 상호 작용 하는 텍스트 템플릿 변형 호스트와 하나 이상의 텍스트 템플릿 컨트롤 *지시문 프로세서* 완료 하는 프로세스입니다. 자세한 내용은 [은 텍스트 템플릿 변형 프로세스](../modeling/the-text-template-transformation-process.md)합니다.
 

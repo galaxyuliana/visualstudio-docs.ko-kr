@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b028655c0654bc5332264c3bcc0fced01480b69f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4b955dc6f79c689ca30d8d9876d0888b14127490
+ms.sourcegitcommit: 6a19c5ece38a70731496a38f2ef20676ff18f8a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62815039"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65476524"
 ---
 # <a name="modeling-sdk-for-visual-studio---domain-specific-languages"></a>Visual Studio용 모델링 SDK - 도메인별 언어
 
@@ -41,38 +41,3 @@ MSDK를 사용하여 도메인 관련 언어(DSL) 형태로 모델을 신속하�
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
 [관련된 블로그 게시물](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)
-
-고급 기술 및 문제 해결에 대 한 지침을 참조 하세요 [Visual Studio DSL & 모델링 도구 확장성 포럼](http://go.microsoft.com/fwlink/?LinkID=186074)합니다.
-
-## <a name="in-this-section"></a>섹션 내용
- [도메인별 언어 시작](../modeling/getting-started-with-domain-specific-languages.md)
-
- [모델, 클래스 및 관계 이해](../modeling/understanding-models-classes-and-relationships.md)
-
- [도메인별 언어 정의 방법](../modeling/how-to-define-a-domain-specific-language.md)
-
- [도메인별 언어 사용자 지정 및 확장](../modeling/customizing-and-extending-a-domain-specific-language.md)
-
- [도메인별 언어에서 유효성 검사](../modeling/validation-in-a-domain-specific-language.md)
-
- [도메인별 언어를 사용자 지정하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)
-
- [도메인별 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md)
-
- [DSL 코드 이해](../modeling/understanding-the-dsl-code.md)
-
- [파일 저장소 및 XML Serialization 사용자 지정](../modeling/customizing-file-storage-and-xml-serialization.md)
-
- [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)
-
- [Windows Forms 기반 도메인별 언어 만들기](../modeling/creating-a-windows-forms-based-domain-specific-language.md)
-
- [WPF 기반 도메인별 언어 만들기](../modeling/creating-a-wpf-based-domain-specific-language.md)
-
- [방법: 도메인 특정 언어 디자이너 확장](../modeling/how-to-extend-the-domain-specific-language-designer.md)
-
- [시각화 및 모델링 SDK에서 지원되는 Visual Studio 버전](../modeling/supported-visual-studio-editions-for-visualization-amp-modeling-sdk.md)
-
- [방법: 도메인 특정 언어를 새 버전으로 마이그레이션](../modeling/how-to-migrate-a-domain-specific-language-to-a-new-version.md)
-
- [Visual Studio용 모델링 SDK에 대한 API 참조](../modeling/api-reference-for-modeling-sdk-for-visual-studio.md)
