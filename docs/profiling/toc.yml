@@ -27,8 +27,9 @@
     - name: CPU 사용량 분석
       href: cpu-usage.md
     - name: 메모리 사용량 분석
-      href: analyze-memory-usage.md
       items:
+        - name: 메모리 사용량 분석
+          href: analyze-memory-usage.md
         - name: 사용자 지정 네이티브 ETW 힙 이벤트
           href: custom-native-etw-heap-events.md
         - name: 디버거 없이 메모리 사용
@@ -48,13 +49,15 @@
     - name: HTML UI 응답성 분석
       href: html-ui-responsiveness.md
     - name: 성능 탐색기 사용
-      href: performance-explorer.md
       items:
+        - name: 성능 탐색기 사용
+          href: performance-explorer.md
         - name: Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구
           href: performance-tools-on-windows-8-and-windows-server-2012-applications.md
         - name: 개요(성능 도구)
-          href: overviews-performance-tools.md
           items:
+            - name: 개요(성능 도구)
+              href: overviews-performance-tools.md
             - name: 성능 세션 개요
               href: performance-session-overview.md
             - name: 성능 데이터 수집 방법 이해
@@ -76,8 +79,9 @@
             - name: 프로파일링 및 Windows Vista 보안
               href: profiling-and-windows-vista-security.md
         - name: 성능 도구 시작
-          href: getting-started-with-performance-tools.md
           items:
+            - name: 성능 도구 시작
+              href: getting-started-with-performance-tools.md
             - name: 초보자를 위한 CPU 샘플링 지침
               href: beginners-guide-to-cpu-sampling.md
             - name: 웹 사이트에 대한 성능 데이터 수집
@@ -85,15 +89,17 @@
             - name: 성능 세션 수동으로 만들기
               href: how-to-manually-create-performance-sessions.md
         - name: 성능 세션 구성
-          href: configuring-performance-sessions.md
           items:
+            - name: 성능 세션 구성
+              href: configuring-performance-sessions.md
             - name: Windows 기호 정보 참조
               href: how-to-reference-windows-symbol-information.md
             - name: 수집 방법 선택
               href: how-to-choose-collection-methods.md
             - name: 샘플링을 사용하여 성능 통계 수집
-              href: collecting-performance-statistics-by-using-sampling.md
               items:
+                - name: 샘플링을 사용하여 성능 통계 수집
+                  href: collecting-performance-statistics-by-using-sampling.md
                 - name: 샘플링 이벤트 선택
                   href: how-to-choose-sampling-events.md
                 - name: 줄 수준 샘플링 데이터 수집
@@ -101,8 +107,9 @@
             - name: .NET 메모리 할당 및 수명 데이터 수집
               href: collecting-dotnet-memory-allocation-and-lifetime-data.md
             - name: 계측을 사용하여 자세한 타이밍 데이터 수집
-              href: collecting-detailed-timing-data-by-using-instrumentation.md
               items:
+                - name: 계측을 사용하여 자세한 타이밍 데이터 수집
+                  href: collecting-detailed-timing-data-by-using-instrumentation.md
                 - name: CPU 카운터 데이터 수집
                   href: how-to-collect-cpu-counter-data.md
                 - name: 계측된 이진 파일 재배치
@@ -118,8 +125,9 @@
             - name: 계층 상호 작용 데이터 수집
               href: collecting-tier-interaction-data.md
             - name: 추가 성능 데이터 수집
-              href: collecting-additional-performance-data.md
               items:
+                - name: 추가 성능 데이터 수집
+                  href: collecting-additional-performance-data.md
                 - name: Windows 카운터 데이터 수집
                   href: how-to-collect-windows-counter-data.md
                 - name: ETW(Windows용 이벤트 추적) 데이터 수집
@@ -139,8 +147,9 @@
             - name: .NET Framework 런타임 지정
               href: how-to-specify-the-dotnet-framework-runtime.md
         - name: 데이터 수집 제어
-          href: controlling-data-collection.md
           items:
+            - name: 데이터 수집 제어
+              href: controlling-data-collection.md
             - name: 성능 데이터 수집 시작 및 종료
               href: how-to-start-and-end-performance-data-collection.md
             - name: 실행 중인 프로세스에 성능 도구 연결 및 분리
@@ -154,23 +163,27 @@
             - name: 계측에서 간단한 함수 제외 또는 포함
               href: how-to-exclude-or-include-short-functions-from-instrumentation.md
         - name: 성능 도구 데이터 분석
-          href: analyzing-performance-tools-data.md
           items:
+            - name: 성능 도구 데이터 분석
+              href: analyzing-performance-tools-data.md
             - name: 성능 규칙을 사용하여 데이터 분석
-              href: using-performance-rules-to-analyze-data.md
               items:
+                - name: 성능 규칙을 사용하여 데이터 분석
+                  href: using-performance-rules-to-analyze-data.md
                 - name: 성능 경고 보기
                   href: how-to-view-performance-warnings.md
                 - name: 성능 규칙 구성
                   href: how-to-configure-performance-rules.md
                 - name: 성능 규칙 참조
-                  href: performance-rules-reference.md
                   items:
+                    - name: 성능 규칙 참조
+                      href: performance-rules-reference.md
                     - name: ID별 성능 규칙
                       href: performance-rules-by-id.md
                     - name: .NET Framework 사용 성능 규칙
-                      href: dotnet-framework-usage-performance-rules.md
                       items:
+                        - name: .NET Framework 사용 성능 규칙
+                          href: dotnet-framework-usage-performance-rules.md
                         - name: 'DA0001: 연결에 StringBuilder 사용'
                           href: da0001-use-stringbuilder-for-concatenations.md
                         - name: 'DA0005: GC2 컬렉션이 많습니다.'
@@ -202,15 +215,17 @@
                         - name: 'DA0039: 잠금 경합의 비율이 매우 높습니다.'
                           href: da0039-very-high-rate-of-lock-contentions.md
                     - name: 메모리 및 페이징 성능 규칙
-                      href: memory-and-paging-performance-rules.md
                       items:
+                        - name: 메모리 및 페이징 성능 규칙
+                          href: memory-and-paging-performance-rules.md
                         - name: 'DA0014: 활성 메모리를 디스크에 페이징하는 비율이 매우 높습니다.'
                           href: da0014-extremely-high-rates-of-paging-active-memory-to-disk.md
                         - name: 'DA0017: 활성 메모리를 디스크에 페이징하는 비율이 높습니다.'
                           href: da0017-high-rates-of-paging-active-memory-to-disk.md
                     - name: 프로파일링 도구 사용 규칙
-                      href: profiling-tools-usage-rules.md
                       items:
+                        - name: 프로파일링 도구 사용 규칙
+                          href: profiling-tools-usage-rules.md
                         - name: 'DA0002: VSPerfCorProf.dll이 없습니다.'
                           href: da0002-vsperfcorprof-dll-is-missing.md
                         - name: 'DA0003: 커널 샘플이 많습니다.'
@@ -226,8 +241,9 @@
                         - name: 'DA0030: 데이터베이스 프로젝트의 계층 상호 작용 측정값 수집'
                           href: da0030-gather-tier-interaction-measurements-for-database-projects.md
                     - name: 리소스 모니터링 성능 규칙
-                      href: resource-monitoring-performance-rules.md
                       items:
+                        - name: 리소스 모니터링 성능 규칙
+                          href: resource-monitoring-performance-rules.md
                         - name: 'DA0501: 프로파일링되고 있는 프로세스의 평균 CPU 사용량'
                           href: da0501-average-cpu-consumption-by-the-process-being-profiled.md
                         - name: 'DA0502: 프로파일링되고 있는 프로세스의 최대 CPU 사용량'
@@ -241,13 +257,15 @@
                         - name: 'DA0506: 프로파일링되고 있는 프로세스에 할당된 최대 전용 바이트'
                           href: da0506-maximum-private-bytes-allocated-for-the-process-being-profiled.md
             - name: 성능 보고서 뷰
-              href: performance-report-views.md
               items:
+                - name: 성능 보고서 뷰
+                  href: performance-report-views.md
                 - name: 성능 보고서 개요
                   href: performance-report-overview.md
                 - name: 공통 데이터 뷰
-                  href: common-data-views.md
                   items:
+                    - name: 공통 데이터 뷰
+                      href: common-data-views.md
                     - name: 프로세스 뷰
                       href: process-view.md
                     - name: 표시 뷰
@@ -271,8 +289,9 @@
                     - name: ETW(Windows용 이벤트 추적) 보고서
                       href: event-tracing-for-windows-etw-report.md
                 - name: 프로파일러 샘플링 방법 데이터 뷰
-                  href: profiler-sampling-method-data-views.md
                   items:
+                    - name: 프로파일러 샘플링 방법 데이터 뷰
+                      href: profiler-sampling-method-data-views.md
                     - name: 요약 뷰 - 샘플링 데이터
                       href: summary-view-sampling-data.md
                     - name: 호출 트리 뷰 - 샘플링 데이터
@@ -288,8 +307,9 @@
                     - name: IP(명령 포인터) 뷰 - 샘플링 데이터
                       href: instruction-pointers-ips-view-sampling-data.md
                 - name: 계측 방법 데이터 뷰
-                  href: instrumentation-method-data-views.md
                   items:
+                    - name: 계측 방법 데이터 뷰
+                      href: instrumentation-method-data-views.md
                     - name: 요약 뷰 - 계측 데이터
                       href: summary-view-instrumentation-data.md
                     - name: 호출 트리 뷰 - 계측 데이터
@@ -301,8 +321,9 @@
                     - name: 함수 뷰 - 계측 데이터
                       href: functions-view-instrumentation-data.md
                 - name: .NET 메모리 데이터 뷰
-                  href: dotnet-memory-data-views.md
                   items:
+                    - name: .NET 메모리 데이터 뷰
+                      href: dotnet-memory-data-views.md
                     - name: 요약 뷰 - .NET 메모리 데이터
                       href: summary-view-dotnet-memory-data.md
                     - name: .NET 메모리 할당 뷰
@@ -330,8 +351,9 @@
                     - name: 함수 뷰 - .NET 메모리 계측 데이터
                       href: functions-view-dotnet-memory-instrumentation-data.md
                 - name: 리소스 경합 데이터 뷰
-                  href: resource-contention-data-views.md
                   items:
+                    - name: 리소스 경합 데이터 뷰
+                      href: resource-contention-data-views.md
                     - name: 요약 뷰 - 리소스 경합 뷰
                       href: summary-view-resource-contention-view.md
                     - name: 호출 트리 뷰 - 경합 데이터
@@ -355,13 +377,15 @@
                     - name: IP(명령 포인터) 뷰 - 경합 데이터
                       href: instruction-pointers-ips-view-contention-data.md
                 - name: 계층 상호 작용 뷰
-                  href: tier-interaction-views.md
                   items:
+                    - name: 계층 상호 작용 뷰
+                      href: tier-interaction-views.md
                     - name: 계층 상호 작용 뷰
                       href: tier-interactions-view.md
             - name: 성능 도구 보고서 뷰 사용자 지정
-              href: customizing-performance-tools-report-views.md
               items:
+                - name: 성능 도구 보고서 뷰 사용자 지정
+                  href: customizing-performance-tools-report-views.md
                 - name: 보고서 뷰 열 사용자 지정
                   href: how-to-customize-report-view-columns.md
                 - name: 보고서 뷰 필터링
@@ -375,8 +399,9 @@
                 - name: 내 코드만 표시하도록 프로파일링 도구 보고서 뷰 필터링
                   href: how-to-filter-profiling-tools-report-views-to-display-just-my-code.md
         - name: 성능 데이터 파일 비교
-          href: comparing-performance-data-files.md
           items:
+            - name: 성능 데이터 파일 비교
+              href: comparing-performance-data-files.md
             - name: 성능 데이터 파일 비교
               href: how-to-compare-performance-data-files.md
         - name: 성능 데이터 파일을 사용하여 기호 정보 저장
@@ -384,8 +409,9 @@
         - name: 성능 도구 데이터 저장 및 내보내기
           href: saving-and-exporting-performance-tools-data.md
         - name: 명령줄에서 프로파일링 도구 사용
-          href: using-the-profiling-tools-from-the-command-line.md
           items:
+            - name: 명령줄에서 프로파일링 도구 사용
+              href: using-the-profiling-tools-from-the-command-line.md
             - name: 명령줄에서 기호 파일 위치 지정
               href: how-to-specify-symbol-file-locations-from-the-command-line.md
             - name: 프로파일링 도구 명령줄 도구의 경로 지정
@@ -395,11 +421,13 @@
             - name: 명령줄에서 계층 상호 작용 데이터 추가
               href: adding-tier-interaction-data-from-the-command-line.md
             - name: 독립 실행형 애플리케이션의 명령줄 프로파일링
-              href: command-line-profiling-of-stand-alone-applications.md
               items:
+                - name: 독립 실행형 애플리케이션의 명령줄 프로파일링
+                  href: command-line-profiling-of-stand-alone-applications.md
                 - name: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 애플리케이션 통계 수집
-                  href: collecting-application-statistics-for-stand-alone-applications.md
                   items:
+                    - name: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 애플리케이션 통계 수집
+                      href: collecting-application-statistics-for-stand-alone-applications.md
                     - name: 명령줄을 통해 프로파일러와 함께 독립 실행형 애플리케이션을 시작하여 애플리케이션 통계 수집
                       href: how-to-launch-a-stand-alone-app-and-collect-application-statistics.md
                     - name: 명령줄을 통해 .NET Framework 독립 실행형 애플리케이션에 프로파일러를 연결하여 애플리케이션 통계 수집
@@ -407,15 +435,17 @@
                     - name: 명령줄을 통해 네이티브 독립 실행형 애플리케이션에 프로파일러를 연결하여 애플리케이션 통계 수집
                       href: how-to-attach-the-profiler-to-a-native-app-and-collect-application-statistics.md
                 - name: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 자세한 타이밍 데이터 수집
-                  href: collecting-detailed-timing-data-for-a-stand-alone-application.md
                   items:
+                    - name: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 자세한 타이밍 데이터 수집
+                      href: collecting-detailed-timing-data-for-a-stand-alone-application.md
                     - name: 명령줄에서 독립 실행형 .NET Framework 구성 요소 계측 및 프로파일러를 사용하여 타이밍 데이터 수집
                       href: how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md
                     - name: 명령줄에서 프로파일러를 사용하여 네이티브 독립 실행형 구성 요소 계측 및 타이밍 데이터 수집
                       href: how-to-instrument-a-native-component-and-collect-timing-data.md
                 - name: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 동시성 데이터 수집
-                  href: collecting-concurrency-data-for-stand-alone-applications.md
                   items:
+                    - name: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 동시성 데이터 수집
+                      href: collecting-concurrency-data-for-stand-alone-applications.md
                     - name: 명령줄을 통해 프로파일러와 함께 독립 실행형 .NET Framework 애플리케이션을 시작하여 동시성 데이터 수집
                       href: how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data.md
                     - name: 명령줄을 통해 프로파일러와 함께 독립 실행형 네이티브 애플리케이션을 시작하여 동시성 데이터 수집
@@ -425,8 +455,9 @@
                     - name: 명령줄을 통해 네이티브 독립 실행형 애플리케이션에 프로파일러를 연결하여 동시성 데이터 수집
                       href: how-to-attach-the-profiler-to-a-native-app-and-collect-concurrency-data.md
                 - name: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 .NET Framework 메모리 데이터 수집
-                  href: collecting-dotnet-framework-memory-data-for-stand-alone-applications.md
                   items:
+                    - name: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 .NET Framework 메모리 데이터 수집
+                      href: collecting-dotnet-framework-memory-data-for-stand-alone-applications.md
                     - name: 명령줄을 통해 프로파일러와 함께 독립 실행형 .NET Framework 애플리케이션을 시작하여 메모리 데이터 수집
                       href: how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-memory-data.md
                     - name: 명령줄을 통해 .NET Framework 독립 실행형 애플리케이션에 프로파일러를 연결하여 메모리 데이터 수집
@@ -436,30 +467,35 @@
                 - name: '연습: 샘플링을 사용하여 명령줄 프로파일링'
                   href: walkthrough-command-line-profiling-using-sampling.md
             - name: ASP.NET 웹 애플리케이션의 명령줄 프로파일링
-              href: command-line-profiling-of-aspnet-web-applications.md
               items:
+                - name: ASP.NET 웹 애플리케이션의 명령줄 프로파일링
+                  href: command-line-profiling-of-aspnet-web-applications.md
                 - name: VSPerfASPNETCmd를 사용한 빠른 웹 사이트 프로파일링
                   href: rapid-web-site-profiling-with-vsperfaspnetcmd.md
                 - name: 명령줄에서 프로파일러 샘플링 방법을 사용하여 ASP.NET 웹 애플리케이션에 대한 애플리케이션 통계 수집
-                  href: collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md
                   items:
+                    - name: 명령줄에서 프로파일러 샘플링 방법을 사용하여 ASP.NET 웹 애플리케이션에 대한 애플리케이션 통계 수집
+                      href: collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md
                     - name: 명령줄을 통해 ASP.NET 웹 애플리케이션에 프로파일러를 연결하여 애플리케이션 통계 수집
                       href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-application-statistics-by-using-the-command-line.md
                 - name: 명령줄에서 프로파일러 계측 방법을 사용하여 ASP.NET 웹 애플리케이션에 대한 자세한 타이밍 데이터 수집
-                  href: collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md
                   items:
+                    - name: 명령줄에서 프로파일러 계측 방법을 사용하여 ASP.NET 웹 애플리케이션에 대한 자세한 타이밍 데이터 수집
+                      href: collecting-detailed-timing-data-aspnet-profiler-instrumentation-method.md
                     - name: 명령줄에서 프로파일러를 사용하여 정적으로 컴파일된 ASP.NET 웹 애플리케이션 계측 및 자세한 타이밍 데이터 수집
                       href: how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md
                     - name: 명령줄에서 프로파일러를 사용하여 동적으로 컴파일된 ASP.NET 웹 애플리케이션 계측 및 자세한 타이밍 데이터 수집
                       href: how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data.md
                 - name: 프로파일러 명령줄을 사용하여 ASP.NET 웹 애플리케이션에 대한 동시성 데이터 수집
-                  href: collecting-concurrency-data-for-an-aspnet-web-application.md
                   items:
+                    - name: 프로파일러 명령줄을 사용하여 ASP.NET 웹 애플리케이션에 대한 동시성 데이터 수집
+                      href: collecting-concurrency-data-for-an-aspnet-web-application.md
                     - name: 명령줄을 통해 ASP.NET 웹 애플리케이션에 프로파일러를 연결하여 동시성 데이터 수집
                       href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-concurrency-data-by-using-the-command-line.md
                 - name: 프로파일러 명령줄을 사용하여 ASP.NET 웹 애플리케이션의 메모리 데이터 수집
-                  href: collecting-memory-data-from-an-aspnet-web-application.md
                   items:
+                    - name: 프로파일러 명령줄을 사용하여 ASP.NET 웹 애플리케이션의 메모리 데이터 수집
+                      href: collecting-memory-data-from-an-aspnet-web-application.md
                     - name: 명령줄을 통해 ASP.NET 웹 애플리케이션에 프로파일러를 연결하여 메모리 데이터 수집
                       href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-memory-data-by-using-the-command-line.md
                     - name: 프로파일러 명령줄을 통해 정적으로 컴파일된 ASP.NET 웹 애플리케이션 계측 및 메모리 데이터 수집
@@ -469,39 +505,45 @@
                 - name: 계측할 Web.Config 파일 수정 및 동적으로 컴파일된 ASP.NET 웹 애플리케이션 프로파일링
                   href: how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md
             - name: 서비스의 명령줄 프로파일링
-              href: command-line-profiling-of-services.md
               items:
+                - name: 서비스의 명령줄 프로파일링
+                  href: command-line-profiling-of-services.md
                 - name: 프로파일러 샘플링 방법을 사용하여 서비스에 대한 애플리케이션 통계 수집
-                  href: collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md
                   items:
+                    - name: 프로파일러 샘플링 방법을 사용하여 서비스에 대한 애플리케이션 통계 수집
+                      href: collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md
                     - name: 명령줄을 통해 .NET 서비스에 프로파일러를 연결하여 애플리케이션 통계 수집
                       href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-application-statistics-by-using-the-command-line.md
                     - name: 명령줄을 통해 네이티브 서비스에 프로파일러를 연결하여 애플리케이션 통계 수집
                       href: how-to-attach-the-profiler-to-a-native-service-to-collect-application-statistics-by-using-the-command-line.md
                 - name: 프로파일러 명령줄에서 계측 방법을 사용하여 서비스에 대한 자세한 타이밍 데이터 수집
-                  href: collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md
                   items:
+                    - name: 프로파일러 명령줄에서 계측 방법을 사용하여 서비스에 대한 자세한 타이밍 데이터 수집
+                      href: collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method.md
                     - name: 프로파일러 명령줄을 사용하여 .NET 서비스 계측 및 자세한 타이밍 데이터 수집
                       href: how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md
                     - name: 프로파일러 명령줄을 사용하여 네이티브 서비스 계측 및 자세한 타이밍 데이터 수집
                       href: how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md
                 - name: 프로파일러 명령줄을 사용하여 서비스에 대한 동시성 데이터 수집
-                  href: collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md
                   items:
+                    - name: 프로파일러 명령줄을 사용하여 서비스에 대한 동시성 데이터 수집
+                      href: collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md
                     - name: 명령줄을 통해 .NET 서비스에 프로파일러를 연결하여 동시성 데이터 수집
                       href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-concurrency-data-by-using-the-command-line.md
                     - name: 명령줄을 통해 네이티브 서비스에 프로파일러를 연결하여 동시성 데이터 수집
                       href: how-to-attach-the-profiler-to-a-native-service-to-collect-concurrency-data-by-using-the-command-line.md
                 - name: 프로파일러 명령줄을 사용하여 .NET Framework 서비스에서 메모리 데이터 수집
-                  href: collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md
                   items:
+                    - name: 프로파일러 명령줄을 사용하여 .NET Framework 서비스에서 메모리 데이터 수집
+                      href: collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md
                     - name: 명령줄을 통해 .NET 서비스에 프로파일러를 연결하여 메모리 데이터 수집
                       href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-memory-data-by-using-the-command-line.md
                     - name: 프로파일러 명령줄을 통해 .NET Framework 서비스 계측 및 메모리 데이터 수집
                       href: how-to-instrument-a-dotnet-framework-service-and-collect-memory-data-by-using-the-profiler-command-line.md
             - name: 명령줄에서 프로파일러 보고서 만들기
-              href: creating-profiler-reports-from-the-command-line.md
               items:
+                - name: 명령줄에서 프로파일러 보고서 만들기
+                  href: creating-profiler-reports-from-the-command-line.md
                 - name: 명령줄에서 기본 프로파일링 보고서 만들기
                   href: creating-basic-profiling-reports-from-the-command-line.md
                 - name: 명령줄에서 보고서 필터링
@@ -517,8 +559,9 @@
             - name: 독립 실행형 프로파일러 설치
               href: how-to-install-the-stand-alone-profiler.md
             - name: 명령줄 프로파일링 도구 참조
-              href: command-line-profiling-tools-reference.md
               items:
+                - name: 명령줄 프로파일링 도구 참조
+                  href: command-line-profiling-tools-reference.md
                 - name: VSInstr
                   href: vsinstr.md
                 - name: VSInstr 경고
@@ -526,8 +569,9 @@
                 - name: VSPerf
                   href: vsperf.md
                 - name: VSPerfCmd
-                  href: vsperfcmd.md
                   items:
+                    - name: VSPerfCmd
+                      href: vsperfcmd.md
                     - name: 시작
                       href: start.md
                     - name: CrossSession
@@ -593,11 +637,13 @@
         - name: HPC(High Performance Computing) 클러스터에서 프로파일링
           href: profiling-on-hpc-high-performance-computing-clusters.md
         - name: 프로파일링 도구 API
-          href: profiling-tools-apis.md
           items:
+            - name: 프로파일링 도구 API
+              href: profiling-tools-apis.md
             - name: Visual Studio 프로파일러 API 참조(네이티브)
-              href: visual-studio-profiler-api-reference-native.md
               items:
+                - name: Visual Studio 프로파일러 API 참조(네이티브)
+                  href: visual-studio-profiler-api-reference-native.md
                 - name: CommentMarkAtProfile
                   href: commentmarkatprofile.md
                 - name: CommentMarkProfile
@@ -623,15 +669,17 @@
         - name: 성능 도구 문제 해결
           href: troubleshooting-performance-tools-issues.md
     - name: 동시성 시각화 도우미
-      href: concurrency-visualizer.md
       items:
+        - name: 동시성 시각화 도우미
+          href: concurrency-visualizer.md
         - name: 잘못 동작하는 다중 스레드 애플리케이션의 일반 패턴
           href: common-patterns-for-poorly-behaved-multithreaded-applications.md
         - name: 사용률 탐색기
           href: utilization-navigator.md
         - name: 사용률 뷰
-          href: utilization-view.md
           items:
+            - name: 사용률 뷰
+              href: utilization-view.md
             - name: CPU 사용률 그래프
               href: cpu-utilization-graph.md
             - name: 평균 CPU 사용률
@@ -647,8 +695,9 @@
             - name: GPU 작업(다른 프로세스)
               href: gpu-activity-other-processes.md
         - name: 스레드 뷰(병렬 성능)
-          href: threads-view-parallel-performance.md
           items:
+            - name: 스레드 뷰(병렬 성능)
+              href: threads-view-parallel-performance.md
             - name: 차단 시간 프로필 보고서
               href: blocking-time-profile-report.md
             - name: 채널(스레드 뷰)
@@ -710,8 +759,9 @@
             - name: 확대/축소 컨트롤(스레드 뷰)
               href: zoom-control-threads-view.md
         - name: 코어 뷰
-          href: cores-view.md
           items:
+            - name: 코어 뷰
+              href: cores-view.md
             - name: 코어 뷰 범례
               href: cores-view-legend.md
             - name: 코어 뷰 논리 코어
@@ -723,8 +773,9 @@
         - name: 고급 설정 대화 상자(동시성 시각화 도우미)
           href: advanced-settings-dialog-box-concurrency-visualizer.md
         - name: 동시성 시각화 도우미 표식
-          href: concurrency-visualizer-markers.md
           items:
+            - name: 동시성 시각화 도우미 표식
+              href: concurrency-visualizer-markers.md
             - name: 플래그 표식
               href: flag-markers.md
             - name: 메시지 표식
@@ -734,29 +785,35 @@
             - name: EventSource 이벤트를 표식으로 시각화
               href: visualizing-eventsource-events-as-markers.md
         - name: 동시성 시각화 도우미 SDK
-          href: concurrency-visualizer-sdk.md
           items:
+            - name: 동시성 시각화 도우미 SDK
+              href: concurrency-visualizer-sdk.md
             - name: 동시성 시각화 도우미 표식 SDK 사용
               href: how-to-use-the-concurrency-visualizer-markers-sdk.md
             - name: C++ 라이브러리 참조
-              href: cpp-library-reference.md
               items:
+                - name: C++ 라이브러리 참조
+                  href: cpp-library-reference.md
                 - name: 동시성 네임스페이스(동시성 시각화 도우미)
-                  href: concurrency-namespace-concurrency-visualizer.md
                   items:
+                    - name: 동시성 네임스페이스(동시성 시각화 도우미)
+                      href: concurrency-namespace-concurrency-visualizer.md
                     - name: Diagnostic 네임스페이스
-                      href: diagnostic-namespace.md
                       items:
+                        - name: Diagnostic 네임스페이스
+                          href: diagnostic-namespace.md
                         - name: span 클래스
-                          href: span-class.md
                           items:
+                            - name: span 클래스
+                              href: span-class.md
                             - name: 'span::~span 소멸자'
                               href: span-tilde-span-destructor.md
                             - name: 'span::span 생성자'
                               href: span-span-constructor.md
                         - name: marker_series 클래스
-                          href: marker-series-class.md
                           items:
+                            - name: marker_series 클래스
+                              href: marker-series-class.md
                             - name: 'marker_series::~marker_series 소멸자'
                               href: marker-series-tilde-marker-series-destructor.md
                             - name: 'marker_series::is_enabled 메서드'
@@ -772,8 +829,9 @@
                         - name: marker_importance 열거형
                           href: marker-importance-enumeration.md
             - name: C 라이브러리 참조
-              href: c-library-reference.md
               items:
+                - name: C 라이브러리 참조
+                  href: c-library-reference.md
                 - name: CvCreateDefaultMarkerSeriesOfDefaultProvider 함수
                   href: cvcreatedefaultmarkerseriesofdefaultprovider-function.md
                 - name: CvCreateMarkerSeries 함수

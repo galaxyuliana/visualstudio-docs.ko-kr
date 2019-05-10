@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1c4ce1ce565ee2ca2fe4c6a26461ef283e7e76b7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 4c437d6b44777289abe6f079456ff2a8aba5e4a2
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916339"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458707"
 ---
 # <a name="idebugreference2enumchildren"></a>IDebugReference2::EnumChildren
 선택한 자식 참조의 목록을 가져옵니다. 나중에 사용하기 위해 예약되어 있습니다.
@@ -46,35 +49,35 @@ int EnumChildren ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwFields`
+## <a name="parameters"></a>매개 변수
+ `dwFields`\
 
  [in] 플래그의 조합을 합니다 [DEBUGREF_INFO_FLAGS](../../../extensibility/debugger/reference/debugref-info-flags.md) 열거형의 열거 된 필드를 지정 하는 [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) 채울 구조체가 합니다.
 
- `dwRadix`
+ `dwRadix`\
 
  [in] 모든 숫자 정보를 서식 지정 하는 데 사용할 기 수입니다.
 
- `dwAttribFilter`
+ `dwAttribFilter`\
 
  [in] 플래그의 조합을 [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md) 함께에서 필터로 사용 되는 열거형을 `pszNameFilter` 매개 변수를 열거할 수 있는 구조는 합니다.
 
- `pszNameFilter`
+ `pszNameFilter`\
 
  [in] "MyX"을 함께 사용 하는 등 필터를 지정 하는 문자열을 `dwAttribFilter` 매개 변수를 열거할 구조를 선택 합니다.
 
- `dwTimeout`
+ `dwTimeout`\
 
  [in] 이 메서드에서 반환 되기 전에 대기할 밀리초에서는 최대 시간입니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
 
- `ppEnum`
+ `ppEnum`\
 
  [out] 반환 된 [IEnumDebugReferenceInfo2](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2.md) 요청 된 자식 속성의 목록을 포함 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  항상 `E_NOTIMPL`를 반환합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)
 - [DEBUGREF_INFO_FLAGS](../../../extensibility/debugger/reference/debugref-info-flags.md)
 - [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md)

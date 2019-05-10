@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9af633c49538a2b74163647d537526b35f2aa048
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: bbb64acfd71a6208fde3a5c3f84d6c5886ece72f
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415794"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460734"
 ---
 # <a name="typeinfo"></a>TYPE_INFO
 이 구조는 다양 한 종류의 필드의 형식에 대 한 정보를 지정합니다.
@@ -43,26 +46,29 @@ public struct TYPE_INFO {
 };
 ```
 
-#### <a name="parameters"></a>매개 변수
- dwKind는 값을 [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) 합집합을 해석 하는 방법을 결정 하는 열거형입니다.
+## <a name="members"></a>멤버
+ `dwKind`\
+ 값을 [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) 합집합을 해석 하는 방법을 결정 하는 열거형입니다.
 
- type.typeMeta
+ `type.typeMeta`\
 
  [C++ 만] 포함 된 [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_METADATA`합니다.
 
- type.typePdb
+ `type.typePdb`\
 
  [C++ 만] 포함 된 [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_PDB`합니다.
 
- type.typeBuilt
+ `type.typeBuilt`\
 
  [C++ 만] 포함 된 [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_BUILT`합니다.
 
- type.unused 사용 되지 않는 안쪽 여백입니다.
+ `type.unused`\
+ 사용 되지 않는 안쪽 여백입니다.
 
- 공용 구조체의 이름을 입력 합니다.
+ `type`\
+ 공용 구조체의 이름입니다.
 
- unionmember
+ `unionmember`\
 
  [C# 만] 적절 한 구조 형식에이에 따라 마샬링 `dwKind`합니다.
 
@@ -111,7 +117,7 @@ namespace MyPackage
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)
 - [GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)

@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8bca908957a98dfa9fa12b0e420a727a2798b4fc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 36c6ea7d4559d63f8d230d73e0df5f14fc21a0b5
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62864892"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458027"
 ---
 # <a name="visual-studio-debugger-glossary"></a>Visual Studio 디버거 용어집
 다음은에 사용 된 용어는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.
@@ -66,5 +66,5 @@ ms.locfileid: "62864892"
 
   경고 중단점 보류 중인 중단점에 경고를 설명 하는 추상화입니다. 경고 중단점 이유 보류 중인 중단점에 아직 바인딩되지 코드 위치로 이유를 설명 합니다. 보류 중인 중단점에서 설명 하는 위치 또는 다른 이유로 코드 아직 로드 되지 않은 것 같습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Visual Studio 디버거 확장성](../../../extensibility/debugger/visual-studio-debugger-extensibility.md)

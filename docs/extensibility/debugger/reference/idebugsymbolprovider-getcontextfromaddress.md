@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 53d37491c13f421a08644703bd67e26e10da7262
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 62c24adcc94b6dff82d3529658b563f811745c28
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62868598"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226546"
 ---
 # <a name="idebugsymbolprovidergetcontextfromaddress"></a>IDebugSymbolProvider::GetContextFromAddress
 이 메서드는 문서 컨텍스트에 디버그 주소를 매핑합니다.
@@ -38,19 +41,19 @@ int GetContextFromAddress(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pAddress`
+## <a name="parameters"></a>매개 변수
+ `pAddress`\
 
  [in] 에 표시 된 대로 디버그 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
 
- `ppDocContext`
+ `ppDocContext`\
 
  [out] 에 표시 된 대로 문서 컨텍스트를 반환 합니다는 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)

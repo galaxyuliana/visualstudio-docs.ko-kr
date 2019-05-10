@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dcfc3745676ba1309327dc84143b0706ba02b5a2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 17e6690f434672c891ac499175332e03c7f1bbf8
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62864774"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460793"
 ---
 # <a name="referencetype"></a>REFERENCE_TYPE
 참조 형식을 지정합니다.
@@ -39,10 +42,12 @@ public enum enum_REFERENCE_TYPE { 
 };
 ```
 
-## <a name="members"></a>멤버
- REF_TYPE_WEAK 약한 참조를 지정합니다. 함께 사용할 수 없습니다 `REF_TYPE_STRONG`합니다.
+## <a name="fields"></a>필드
+ `REF_TYPE_WEAK`\
+ 약한 참조를 지정합니다. 함께 사용할 수 없습니다 `REF_TYPE_STRONG`합니다.
 
- REF_TYPE_STRONG 강력한 참조를 지정합니다. 함께 사용할 수 없습니다 `REF_TYPE_WEAK`합니다.
+ `REF_TYPE_STRONG`\
+ 강력한 참조를 지정합니다. 함께 사용할 수 없습니다 `REF_TYPE_WEAK`합니다.
 
 ## <a name="remarks"></a>설명
  로 사용 합니다 `dwRefType` 의 멤버는 [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) 구조입니다.
@@ -56,7 +61,7 @@ public enum enum_REFERENCE_TYPE { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)
 - [SetReferenceType](../../../extensibility/debugger/reference/idebugreference2-setreferencetype.md)

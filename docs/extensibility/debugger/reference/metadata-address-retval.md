@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 63f3b7363a6852dd54033d89828f8af9b0eb76fa
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 8e31682de4c625e40baaac6daff4687c713abda9
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913889"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460965"
 ---
 # <a name="metadataaddressretval"></a>METADATA_ADDRESS_RETVAL
 이 구조는 메서드 또는 함수에서 반환 값을 나타냅니다.
@@ -42,14 +45,18 @@ public struct METADATA_ADDRESS_RETVAL {
 }
 ```
 
-## <a name="terms"></a>용어
- 이 반환 값은 tokMethod 메서드 ID입니다.
+## <a name="members"></a>멤버
+ `tokMethod`\
+ 메서드의 반환 값이에 대 한 ID입니다.
 
- dwCorType 반환 값의 기본 형식입니다. 값을 `CorElementType` 열거형에 정의 된는 [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK corhdr.h 파일입니다.
+ `dwCorType`\
+ 반환 값의 기본 형식입니다. 값을 `CorElementType` 열거형에 정의 된는 [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK corhdr.h 파일입니다.
 
- 반환 값 서명의 크기 dwSigSize (에 저장 된 `rgSig`).
+ `dwSigSize`\
+ 반환 값 서명의 크기 (에 저장 된 `rgSig`).
 
- rgSig 반환 값의 시그니처를 형성 하는 바이트 배열입니다.
+ `rgSig`\
+ 반환 값의 시그니처를 형성 하는 바이트 배열입니다.
 
 ## <a name="remarks"></a>설명
  이 구조체의 공용 구조체의 일부인를 [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) 경우 구조체를 `dwKind` 필드를 `DEBUG_ADDRESS_UNION` 구조로 설정 되어 `ADDRESS_KIND_RETVAL` (의 값을 [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) 열거형)입니다.
@@ -61,7 +68,7 @@ public struct METADATA_ADDRESS_RETVAL {
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)
 - [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md)

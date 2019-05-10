@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 86c20e7c6828cfbf3ec31ba5dcbec9c7ee8478df
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 887002086b50198ba192bde3f19390d3267a5c9d
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62869362"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457333"
 ---
 # <a name="idebugproviderprogramnode2unmarshaldebuggeeinterface"></a>IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 프로세스 경계를 넘어 지정된 된 인터페이스를 가져옵니다.
@@ -38,12 +41,12 @@ int UnmarshalDebuggeeInterface(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `riid`
+## <a name="parameters"></a>매개 변수
+ `riid`\
 
  [in] 가져올 인터페이스의 GUID입니다.
 
- `ppvObject`
+ `ppvObject`\
 
  [out] 원하는 인터페이스를 구현 하는 개체를 반환 합니다. [C++]이 원하는 인터페이스 형식에 직접 캐스팅 될 수 있습니다. [C#]를 사용 합니다 <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> 원하는 인터페이스를 가져올 방법.
 
@@ -53,5 +56,5 @@ int UnmarshalDebuggeeInterface(
 ## <a name="remarks"></a>설명
  디버그 엔진에서 실행 중인 경우이 메서드는 사용을 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 프로세스 공간을 디버깅 하는 프로그램 자체 프로세스 공간에서 실행 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProviderProgramNode2](../../../extensibility/debugger/reference/idebugproviderprogramnode2.md)

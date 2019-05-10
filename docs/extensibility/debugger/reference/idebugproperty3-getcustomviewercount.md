@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4067fc314889e7aa991407c99ba949564b547087
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 0c4179b6e762d925ca918e459c5109deb6579c10
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916598"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458836"
 ---
 # <a name="idebugproperty3getcustomviewercount"></a>IDebugProperty3::GetCustomViewerCount
 이 속성에 사용할 수 있는 사용자 지정 뷰어에 수를 가져옵니다.
@@ -36,8 +39,8 @@ int GetCustomViewerCount(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pcelt`
+## <a name="parameters"></a>매개 변수
+`pcelt`\
 
  [out] 이 속성에 사용할 수 있는 사용자 지정 뷰어 수입니다.
 
@@ -71,7 +74,7 @@ STDMETHODIMP CProperty::GetCustomViewerCount(ULONG* pcelt)
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)
 - [GetCustomViewerCount](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewercount.md)
 - [형식 시각화 도우미 및 사용자 지정 뷰어](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

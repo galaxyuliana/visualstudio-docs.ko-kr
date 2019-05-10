@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a2a4cfb78c7ccf24a79c5326f7f263a1b78302a3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 4db91b1495484adff076e959021b4791f1e62a29
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62868472"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458227"
 ---
 # <a name="idebugsymbolproviderdirectgetcurrentmodulesstate"></a>IDebugSymbolProviderDirect::GetCurrentModulesState
 기호 공급자 멤버인 기호 그룹에 대 한 정보를 검색 합니다.
@@ -37,12 +40,12 @@ int GetCurrentModulesState(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pState`
+## <a name="parameters"></a>매개 변수
+ `pState`\
 
  [out] 기호 공급자 그룹의 상태입니다.
 
- `count`
+ `count`\
 
  [out] 그룹의 모듈 수입니다.
 
@@ -52,5 +55,5 @@ int GetCurrentModulesState(
 ## <a name="remarks"></a>설명
  상태는 모듈을 추가 또는 기호 그룹에서 제거할 때마다 변경 됩니다. 따라서 기호 그룹을 수정한 경우 검색할이 메서드를 사용할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugSymbolProviderDirect](../../../extensibility/debugger/reference/idebugsymbolproviderdirect.md)

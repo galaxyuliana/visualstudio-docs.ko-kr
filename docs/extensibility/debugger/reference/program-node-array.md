@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9af33dd296c222a6ab187097437e3774d2bbdbd4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: ac5a891912d84a719a8bf475724f0b1cb7d685d4
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913446"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457937"
 ---
 # <a name="programnodearray"></a>PROGRAM_NODE_ARRAY
 흥미로운 프로그램을 설명 하는 개체의 배열을 포함 합니다.
@@ -39,9 +42,11 @@ public struct tagPROGRAM_NODE_ARRAY {
 ```
 
 ## <a name="members"></a>멤버
- dwCount 개체 수에는 `Members` 배열입니다.
+ `dwCount`\
+ 개체 수를 `Members` 배열입니다.
 
- 멤버의 배열을 [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 요청한 프로그램을 설명 하는 개체입니다.
+ `Members`\
+ 배열을 [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 요청한 프로그램을 설명 하는 개체입니다.
 
 ## <a name="remarks"></a>설명
  이 구조체의 일부인 합니다 [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) 다시 채워집니다를 호출 하 여 구조를 [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md) 메서드.
@@ -53,7 +58,7 @@ public struct tagPROGRAM_NODE_ARRAY {
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

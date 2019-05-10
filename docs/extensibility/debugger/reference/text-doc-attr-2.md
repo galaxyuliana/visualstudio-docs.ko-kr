@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 20d8a92e7fcd8c02ee659b997bc4530c8570d3fa
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 86dc1e002c4d33ed0ef64abd707ca11f2d1fc492
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415904"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460676"
 ---
 # <a name="textdocattr2"></a>TEXT_DOC_ATTR_2
 문서의 특성을 설명합니다.
@@ -34,7 +37,8 @@ public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
 ```
 
 ## <a name="members"></a>멤버
- TEXT_DOC_ATTR_READONLY_2 문서 읽기 전용임을 나타냅니다.
+ `TEXT_DOC_ATTR_READONLY_2`\
+ 문서 읽기 전용임을 나타냅니다.
 
 ## <a name="remarks"></a>설명
 
@@ -50,6 +54,6 @@ public const uint TEXT_DOC_ATTR_READONLY_2 = 0x00000001;
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [onUpdateDocumentAttributes](../../../extensibility/debugger/reference/idebugdocumenttextevents2-onupdatedocumentattributes.md)

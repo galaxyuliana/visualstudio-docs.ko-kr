@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c6cbb1020892d496fd5634649484defe26dbd73b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 806975cb5f865086df09a64997a24ec21374955d
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62865866"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461187"
 ---
 # <a name="machineinfo"></a>MACHINE_INFO
 특정 컴퓨터를 설명합니다.
@@ -41,11 +44,14 @@ public struct MACHINE_INFO { 
 ```
 
 ## <a name="members"></a>멤버
- `Fields` 플래그의 조합을 합니다 [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md) 초기화 되는 구조체의 필드를 지정 하는 열거형입니다.
+ `Fields`\
+ 플래그의 조합을 합니다 [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md) 초기화 되는 구조체의 필드를 지정 하는 열거형입니다.
 
- `bstrName` 컴퓨터 이름입니다. 호출할 때와 동일한 [GetMachineName](../../../extensibility/debugger/reference/idebugcoreserver2-getmachinename.md)합니다.
+ `bstrName`\
+ 컴퓨터 이름입니다. 호출할 때와 동일한 [GetMachineName](../../../extensibility/debugger/reference/idebugcoreserver2-getmachinename.md)합니다.
 
- `Flags` 플래그의 조합 된 [MACHINE_INFO_FLAGS](../../../extensibility/debugger/reference/machine-info-flags.md) 컴퓨터 특성을 설명 하는 열거형입니다.
+ `Flags`\
+ 플래그의 조합 된 [MACHINE_INFO_FLAGS](../../../extensibility/debugger/reference/machine-info-flags.md) 컴퓨터 특성을 설명 하는 열거형입니다.
 
 ## <a name="remarks"></a>설명
  이 구조에 대 한 호출에서 반환 되는 [GetMachineInfo](../../../extensibility/debugger/reference/idebugcoreserver2-getmachineinfo.md) 메서드.
@@ -57,7 +63,7 @@ public struct MACHINE_INFO { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [MACHINE_INFO_FIELDS](../../../extensibility/debugger/reference/machine-info-fields.md)
 - [GetMachineInfo](../../../extensibility/debugger/reference/idebugcoreserver2-getmachineinfo.md)

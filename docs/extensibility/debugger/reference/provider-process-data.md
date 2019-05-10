@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d021efe197fcc15c99a1138d75e1343fc092efde
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: d4013cabe43693e52498a3094aee10e4786da43a
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62865080"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460799"
 ---
 # <a name="providerprocessdata"></a>PROVIDER_PROCESS_DATA
 이 구조는 컴퓨터에서 실행 중인 프로세스에 대 한 정보를 제공 합니다.
@@ -41,11 +44,14 @@ public struct PROVIDER_PROCESS_DATA {
 ```
 
 ## <a name="members"></a>멤버
- 플래그의 조합을 필드를 [PROVIDER_FIELDS](../../../extensibility/debugger/reference/provider-fields.md) 열거형을 나타내는 필드 채워집니다.
+ `Fields`\
+ 플래그의 조합을 합니다 [PROVIDER_FIELDS](../../../extensibility/debugger/reference/provider-fields.md) 열거형을 나타내는 필드 채워집니다.
 
- ProgramNodes [PROGRAM_NODE_ARRAY](../../../extensibility/debugger/reference/program-node-array.md) 프로그램 노드의 배열을 포함 하는 구조입니다.
+ `ProgramNodes`\
+ A [PROGRAM_NODE_ARRAY](../../../extensibility/debugger/reference/program-node-array.md) 프로그램 노드의 배열을 포함 하는 구조입니다.
 
- Nonzero fIsDebuggerPresent (`TRUE`) 하는 경우는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 디버거가 실행 되 고, 0 (`FALSE`) 없는 경우.
+ `fIsDebuggerPresent`\
+ 0이 아닌 값 (`TRUE`) 하는 경우는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 디버거가 실행 되 고, 0 (`FALSE`) 없는 경우.
 
 ## <a name="remarks"></a>설명
  이 구조에 전달 되는 [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md) 메서드 위치에서 채워집니다.
@@ -57,7 +63,7 @@ public struct PROVIDER_PROCESS_DATA {
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [PROVIDER_FIELDS](../../../extensibility/debugger/reference/provider-fields.md)
 - [PROGRAM_NODE_ARRAY](../../../extensibility/debugger/reference/program-node-array.md)

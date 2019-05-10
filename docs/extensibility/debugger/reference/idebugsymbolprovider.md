@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: db4e5592fac73f629aba69fa23d1a7163c794875
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 98bd86cd219ec2604816e290f75e02d1f9530a53
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915803"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457626"
 ---
 # <a name="idebugsymbolprovider"></a>IDebugSymbolProvider
 이 인터페이스는 기호 및 필드로 반환 형식을 제공 하는 기호 공급자를 나타냅니다.
@@ -103,5 +103,5 @@ IDebugSymbolProvider *GetSymbolProvider(GUID *pSymbolProviderGuid)
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [기호 공급자 인터페이스](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)

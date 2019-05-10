@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e73310d8a1cff3b640896d9bb5883cf2508bda6e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4f999d19ecee85d9664793a3d8e3ecc48fedbbdf
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62869323"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457598"
 ---
 # <a name="idebugproperty3"></a>IDebugProperty3
 이 인터페이스는에 대 한 지원을 제공 합니다.
@@ -65,7 +65,7 @@ IDebugProperty3 : IDebugProperty2
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [IDebugCustomViewer](../../../extensibility/debugger/reference/idebugcustomviewer.md)

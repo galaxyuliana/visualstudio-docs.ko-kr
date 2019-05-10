@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f4302a911e58a23bdcd58bb054c1fc90c389fed6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: dba231f173f3828243e284a7d68a877204df1bd0
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62865455"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458014"
 ---
 # <a name="moduleinfofields"></a>MODULE_INFO_FIELDS
 디버그 모듈 정보에 대 한 플래그를 지정합니다.
@@ -61,32 +64,45 @@ public enum enum_MODULE_INFO_FIELDS { 
 };
 ```
 
-## <a name="members"></a>멤버
- MIF_NONE 초기화/사용 하 여 구조에 있는 필드 없음.
+## <a name="fields"></a>필드
+ `MIF_NONE`\
+ 구조에 필드를 초기화/사용 합니다.
 
- MIF_NAME 초기화/사용 된 `m_bstrName` 필드에 [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 구조입니다.
+ `MIF_NAME`\
+ 초기화/사용 된 `m_bstrName` 필드를 [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 구조입니다.
 
- MIF_URL 초기화/사용 된 `m_bstrUrl` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_URL`\
+ 초기화/사용 된 `m_bstrUrl` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_VERSION 초기화/사용 된 `m_bstrVersion` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_VERSION`\
+ 초기화/사용 된 `m_bstrVersion` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_DEBUGMESSAGE 초기화/사용 된 `m_bstrDebugMessage` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_DEBUGMESSAGE`\
+ 초기화/사용 된 `m_bstrDebugMessage` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_LOADADDRESS 초기화/사용 된 `m_addrLoadAddress` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_LOADADDRESS`\
+ 초기화/사용 된 `m_addrLoadAddress` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_PREFFEREDADDRESS 초기화/사용 된 `m_addrPreferredLoadAddress` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_PREFFEREDADDRESS`\
+ 초기화/사용 된 `m_addrPreferredLoadAddress` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_SIZE 초기화/사용 된 `m_dwSize` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_SIZE`\
+ 초기화/사용 된 `m_dwSize` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_LOADORDER 초기화/사용 된 `m_dwLoadOrder` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_LOADORDER`\
+ 초기화/사용 된 `m_dwLoadOrder` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_TIMESTAMP 초기화/사용 된 `m_TimeStamp` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_TIMESTAMP`\
+ 초기화/사용 된 `m_TimeStamp` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_URLSYMBOLLOCATION 초기화/사용 된 `m_bstrUrlSymbolLocation` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_URLSYMBOLLOCATION`\
+ 초기화/사용 된 `m_bstrUrlSymbolLocation` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_FLAGS 초기화/사용 된 `m_dwModuleFlags` 필드에 `MODULE_INFO` 구조입니다.
+ `MIF_FLAGS`\
+ 초기화/사용 된 `m_dwModuleFlags` 필드에 `MODULE_INFO` 구조입니다.
 
- MIF_ALLFIELDS 초기화/사용 하 여 모든 필드는 `MODULE_INFO` 구조입니다.
+ `MIF_ALLFIELDS`\
+ 모든 필드의 초기화/사용 된 `MODULE_INFO` 구조입니다.
 
 ## <a name="remarks"></a>설명
  이러한 값을 인수로 전달 됩니다는 [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md) 의 필드를 나타내려면 메서드는 [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 구조는 초기화할 합니다.
@@ -102,7 +118,7 @@ public enum enum_MODULE_INFO_FIELDS { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)
 - [GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md)

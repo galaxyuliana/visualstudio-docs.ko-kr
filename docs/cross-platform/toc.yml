@@ -6,8 +6,9 @@
 - name: Apache Cordova용 Visual Studio Tools
   href: /visualstudio/cross-platform/tools-for-cordova/
 - name: Visual Studio Tools for Unity
-  href: visual-studio-tools-for-unity.md
   items:
+    - name: Visual Studio Tools for Unity
+      href: visual-studio-tools-for-unity.md
     - name: Visual Studio Tools for Unity 시작
       href: getting-started-with-visual-studio-tools-for-unity.md
     - name: Visual Studio Tools for Unity 사용
@@ -15,8 +16,9 @@
     - name: Unity에서 .NET 4.x 사용
       href: unity-scripting-upgrade.md
     - name: Visual Studio Tools for Unity 프로그램
-      href: programming-visual-studio-tools-for-unity.md
       items:
+        - name: Visual Studio Tools for Unity 프로그램
+          href: programming-visual-studio-tools-for-unity.md
         - name: VSTU에서 만든 프로젝트 파일 사용자 지정
           href: customize-project-files-created-by-vstu.md
         - name: Unity 로그 콜백을 VSTU와 공유
@@ -32,11 +34,13 @@
     - name: Unity 앱을 사용한 DevOps
       href: application-lifecycle-management-alm-with-unity-apps.md
 - name: 플랫폼 간 모바일 개발용 Visual C++
-  href: visual-cpp-for-cross-platform-mobile-development.md
   items:
+    - name: 플랫폼 간 모바일 개발용 Visual C++
+      href: visual-cpp-for-cross-platform-mobile-development.md
     - name: 플랫폼 간 모바일 개발용 Visual C++ 설치
-      href: install-visual-cpp-for-cross-platform-mobile-development.md
       items:
+        - name: 플랫폼 간 모바일 개발용 Visual C++ 설치
+          href: install-visual-cpp-for-cross-platform-mobile-development.md
         - name: Install and Configure Tools to Build using iOS
           href: install-and-configure-tools-to-build-using-ios.md
     - name: Android Native Activity 앱 만들기
@@ -50,8 +54,9 @@
     - name: 플랫폼 간 모바일 개발 예제
       href: cross-platform-mobile-development-examples.md
     - name: C++ 크로스 플랫폼 프로젝트 속성
-      href: cross-platform-prop-pages.md
       items:
+        - name: C++ 크로스 플랫폼 프로젝트 속성
+          href: cross-platform-prop-pages.md
         - name: 일반 프로젝트 속성(Android C++)
           href: general-android-prop-page.md
         - name: Android 디버거 속성
@@ -67,8 +72,9 @@
 - name: UWP(유니버설 Windows 플랫폼)용 앱 개발
   href: develop-apps-for-the-universal-windows-platform-uwp.md
 - name: Android용 Visual Studio 에뮬레이터
-  href: visual-studio-emulator-for-android.md
   items:
+    - name: Android용 Visual Studio 에뮬레이터
+      href: visual-studio-emulator-for-android.md
     - name: System requirements for the Visual Studio Emulator for Android
       href: system-requirements-for-the-visual-studio-emulator-for-android.md
     - name: Android용 Visual Studio 에뮬레이터 문제 해결

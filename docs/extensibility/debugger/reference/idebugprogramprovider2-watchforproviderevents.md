@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e76baf1330ec63d1032b69fa6cfddce4776742a9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 9048dc633dd9cc74a9d27c54ff9b0fba16cc7ac1
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62869804"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458976"
 ---
 # <a name="idebugprogramprovider2watchforproviderevents"></a>IDebugProgramProvider2::WatchForProviderEvents
 프로세스를 포트 이벤트의 알림을 받을 수 있습니다.
@@ -46,8 +49,8 @@ int WatchForProviderEvents(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `Flags`
+## <a name="parameters"></a>매개 변수
+ `Flags`\
 
  [in] 플래그의 조합 된 [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) 열거형입니다. 이 호출에 대 한 일반 플래그는 다음과 같습니다.
 
@@ -58,23 +61,23 @@ int WatchForProviderEvents(
 |`PFLAG_ATTACHED_TO_DEBUGGEE`|호출자에 연결 되었지만 디버거에서 실행 되지 않습니다.|
 |`PFLAG_REASON_WATCH`|호출자는 이벤트를 조사 하려고 합니다. 이 플래그를 설정 하지 않으면. 그런 다음 콜백 이벤트 제거 되 고 호출자에 게는 더 이상 알림을 받습니다.|
 
- `pPort`
+ `pPort`\
 
  [in] 포트는 호출 프로세스에서 실행 됩니다.
 
- `processId`
+ `processId`\
 
  [in] [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) 구조에서 해당 프로그램을 포함 하는 프로세스의 ID를 보유 합니다.
 
- `EngineFilter`
+ `EngineFilter`\
 
  [in] 디버그 엔진 프로세스에 연결 된 Guid의 배열입니다.
 
- `guidLaunchingEngine`
+ `guidLaunchingEngine`\
 
  [in] \(있는 경우)이이 프로세스를 시작 하는 디버그 엔진의 GUID입니다.
 
- `pEventCallback`
+ `pEventCallback`\
 
  [in] [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) 이벤트 알림을 받는 개체입니다.
 
@@ -213,7 +216,7 @@ STDMETHODIMP CDebugEngine::WatchForProviderEvents(
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
 - [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md)
 - [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6ab1e9345cf599c4336b202d32fb71a9097fe629
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7dd77065791d36e89c43b51dd8e1494d8e69a369
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913612"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458389"
 ---
 # <a name="pendingbpstate"></a>PENDING_BP_STATE
 보류 중인 중단점 (아직 바인딩되지 않은 중단점)의 상태를 지정 합니다.
@@ -43,14 +46,18 @@ public enum enum_PENDING_BP_STATE { 
 };
 ```
 
-## <a name="members"></a>멤버
- 0 PBPS_NONE 자리 표시자입니다. 이 값은 반환 되지 않습니다.
+## <a name="fields"></a>필드
+ `PBPS_NONE`\
+ 0 자리 표시자입니다. 이 값은 반환 되지 않습니다.
 
- PBPS_DELETED 보류 중인 중단점 삭제 된 것을 나타냅니다.
+ `PBPS_DELETED`\
+ 보류 중인 중단점 삭제 된 것을 나타냅니다.
 
- PBPS_DISABLED 보류 중인 중단점은 사용 되지 않음을 나타냅니다.
+ `PBPS_DISABLED`\
+ 보류 중인 중단점은 비활성화 되었음을 나타냅니다.
 
- PBPS_ENABLED 보류 중단점이 설정 되었음을 나타냅니다.
+ `PBPS_ENABLED`\
+ 보류 중인 중단점 사용 됨을 나타냅니다.
 
 ## <a name="remarks"></a>설명
  으로 사용 합니다 `state` 의 멤버는 [PENDING_BP_STATE_INFO](../../../extensibility/debugger/reference/pending-bp-state-info.md) 구조.
@@ -62,6 +69,6 @@ public enum enum_PENDING_BP_STATE { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [PENDING_BP_STATE_INFO](../../../extensibility/debugger/reference/pending-bp-state-info.md)

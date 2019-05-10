@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c1e9afbe99e6265e47bf033c7d4af8e93590aaf6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bf323e69e95266321cb4011e163cda967844a854
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913977"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461206"
 ---
 # <a name="ipropertyproxyprovider"></a>IPropertyProxyProvider
 이 인터페이스는 보기 및 개체의 데이터를 변경 하는 프록시 인터페이스를 제공 합니다.
@@ -51,7 +51,7 @@ IPropertyProxyProvider : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)
 - [형식 시각화 도우미 및 사용자 지정 뷰어](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

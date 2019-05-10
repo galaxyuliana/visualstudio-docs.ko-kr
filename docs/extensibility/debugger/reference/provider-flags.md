@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 803d9569c611e3c4cd70f2c82ecd525716d8ddb3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7f6fb974bd5affc89eeacbfccace5c1e89218db5
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913529"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457932"
 ---
 # <a name="providerflags"></a>PROVIDER_FLAGS
 프로그램 공급자에서 가져와야 desired 속성을 지정 합니다.
@@ -49,20 +52,27 @@ public enum enum_PROVIDER_FLAGS {
 };
 ```
 
-## <a name="members"></a>멤버
- PFLAG_NONE 없음 플래그를 지정 합니다.
+## <a name="fields"></a>필드
+ `PFLAG_NONE`\
+ 지정 된 플래그가 없습니다.
 
- PFLAG_REMOTE_PORT 호출자가 다른 컴퓨터에서 프로그램의 목록을 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]합니다.
+ `PFLAG_REMOTE_PORT`\
+ 호출자가 다른 컴퓨터에서 프로그램의 목록을 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]합니다.
 
- 프로세스의이 인스턴스가 현재 디버깅 중인 PFLAG_DEBUGGEE [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]합니다.
+ `PFLAG_DEBUGGEE`\
+ 프로세스의이 인스턴스가 현재 디버깅 중인 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]합니다.
 
- PFLAG_ATTACH_TODEBUGGEE [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 디버깅 중인 프로그램에 연결 되어 있지만 시작 하지 못했습니다.
+ `PFLAG_ATTACH_TODEBUGGEE`\
+ [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 디버그 중인 프로그램에 연결 되어 있지만 시작 하지 못했습니다.
 
- PFLAG_REASON_WATCH [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 이벤트에 대 한 감시 합니다.
+ `PFLAG_REASON_WATCH`\
+ [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 이벤트에 대 한 보고 됩니다.
 
- PFLAG_GET_PROGRAM_NODES 호출자가 합니다 `ProgramNodes` 필드를 [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) 구조입니다.
+ `PFLAG_GET_PROGRAM_NODES`\
+ 호출자가 합니다 `ProgramNodes` 필드를 [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) 구조입니다.
 
- PFLAG_GET_IS_DEBUGGER_PRESENT 호출자가 합니다 `fIsTheDebuggerPresent` 필드는 `PROVIDER_PROCESS_DATA` 구조입니다.
+ `PFLAG_GET_IS_DEBUGGER_PRESENT`\
+ 호출자가 합니다 `fIsTheDebuggerPresent` 필드는 `PROVIDER_PROCESS_DATA` 구조입니다.
 
 ## <a name="remarks"></a>설명
  이러한 플래그는 다음 메서드에 전달 됩니다.
@@ -82,7 +92,7 @@ public enum enum_PROVIDER_FLAGS {
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md)
 - [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)

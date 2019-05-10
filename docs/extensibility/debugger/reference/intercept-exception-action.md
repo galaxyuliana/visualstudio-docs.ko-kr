@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0cac3e4fb6c072a26ede753213f6546c2ff50afa
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: d50ce2b695fa332057abd91ab54c5966c277ba45
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62914063"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461264"
 ---
 # <a name="interceptexceptionaction"></a>INTERCEPT_EXCEPTION_ACTION
 예외를 가로챌 때 수행할 작업을 지정 합니다.
@@ -39,8 +42,11 @@ public enum enum_INTERCEPT_EXCEPTION_ACTION
 }
 ```
 
-#### <a name="parameters"></a>매개 변수
-IEA_INTERCEPT 현재 예외를 가로챌 수 있습니다. 현재 지원 되는 유일한 값 이며 지정 해야 합니다.
+## <a name="parameters"></a>매개 변수
+
+`IEA_INTERCEPT`\
+
+현재 예외를 가로챌 수 있습니다. 현재 지원 되는 유일한 값 이며 지정 해야 합니다.
 
 ## <a name="remarks"></a>설명
 이러한 값에 전달 되는 [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md) 메서드.
@@ -52,6 +58,6 @@ IEA_INTERCEPT 현재 예외를 가로챌 수 있습니다. 현재 지원 되는 
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md)

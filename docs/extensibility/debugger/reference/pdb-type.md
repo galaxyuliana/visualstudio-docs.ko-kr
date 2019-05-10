@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5972a6da9422917ef61fb07c9124edca24032ee2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: f14537a7543528be7ab026e7d24b9a1e9d964d0b
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62865431"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460850"
 ---
 # <a name="pdbtype"></a>PDB_TYPE
 
@@ -41,17 +44,17 @@ public struct PDB_TYPE {
 };
 ```
 
-## <a name="parameters"></a>매개 변수
+## <a name="members"></a>멤버
 
-`ulAppDomainID`
+`ulAppDomainID`\
 
 기호 가져온 응용 프로그램의 ID입니다. 이 응용 프로그램의 인스턴스를 고유 하 게 식별에 사용 됩니다.
 
-`guidModule`
+`guidModule`\
 
 이 필드를 포함 하는 모듈의 GUID입니다.
 
-`symid`
+`symid`\
 
 이 필드에 해당 하는 기호 ID입니다.
 
