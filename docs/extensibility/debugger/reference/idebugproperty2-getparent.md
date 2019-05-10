@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 30fa28ba52d40698447c6607be4b694466bb6127
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 5805beed58b01c0a2a31b92008f7acdf10e4f960
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916647"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458120"
 ---
 # <a name="idebugproperty2getparent"></a>IDebugProperty2::GetParent
 속성의 부모 속성을 가져옵니다.
@@ -36,13 +39,13 @@ int GetParent ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppParent`
+## <a name="parameters"></a>매개 변수
+ `ppParent`\
 
  [out] 반환 된 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 속성의 부모를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 반환 `S_GETPARENT_NO_PARENT` 부모가 없는 경우.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

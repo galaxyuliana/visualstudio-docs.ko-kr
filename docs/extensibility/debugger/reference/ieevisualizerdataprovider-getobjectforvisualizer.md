@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f73b08d4a8a5380fb72cdd64db3865afafefda87
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 08fd3c2d82e3e2bef3098770fdfbcf7cdfe95f7c
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915241"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65224030"
 ---
 # <a name="ieevisualizerdataprovidergetobjectforvisualizer"></a>IEEVisualizerDataProvider::GetObjectForVisualizer
 이 메서드는이 시각화 도우미를 나타내는 개체를 가져옵니다.
@@ -36,8 +39,8 @@ int GetObjectForVisualizer(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppObject`
+## <a name="parameters"></a>매개 변수
+ `ppObject`\
 
  [out] 이 시각화 도우미에서 표시 하는 개체
 
@@ -47,7 +50,7 @@ int GetObjectForVisualizer(
 ## <a name="remarks"></a>설명
  `GetObjectForVisualizer` 개체의 캐시 된 버전을 반환할 수 있습니다. 호출자는 개체가 최신를 호출 하는지 확인 하려는 경우 [GetNewObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider-getnewobjectforvisualizer.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IEEVisualizerDataProvider](../../../extensibility/debugger/reference/ieevisualizerdataprovider.md)
 - [GetNewObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider-getnewobjectforvisualizer.md)
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

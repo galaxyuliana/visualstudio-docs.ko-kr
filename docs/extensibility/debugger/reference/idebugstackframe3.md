@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3d790c7b278d36395c0df5575ed3bc7c381753fe
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b54e6ee8321d58046ec0beb372a14495b614db0c
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412561"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458509"
 ---
 # <a name="idebugstackframe3"></a>IDebugStackFrame3
 이 인터페이스를 확장 [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) 가로챈된 예외를 처리 합니다.
@@ -45,7 +45,7 @@ IDebugStackFrame3 : IDebugStackFrame2
 ## <a name="remarks"></a>설명
  가로챈된 예외는 모든 일반 예외 처리 루틴 실행된 시간을 기준으로 호출 되기 전에 디버거가 예외를 처리할 수 있습니다 의미 합니다. 기본적으로 예외가 가로채 없는 경우에 있는 예외 처리기는 노테이션 런타임 만들기 의미 합니다.
 
-- [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md) 모든 일반 예외 콜백 이벤트 동안 호출 됩니다 (이 유일한 예외는 디버깅 하는 경우 혼합 모드 코드 (관리 및 비관리 코드) 하는 동안 예외를 가로챌 수 없는 경우는 마지막 기회 콜백)입니다. DE 구현 하지 않는 경우 `IDebugStackFrame3`에 DE IDebugStackFrame3에서 오류를 반환 합니다. 또는::`InterceptCurrentException` (같은 `E_NOTIMPL`), 디버거 일반적으로 예외를 처리 한 다음.
+- [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md) 모든 일반 예외 콜백 이벤트 동안 호출 됩니다 (이 유일한 예외는 경우 디버깅할 혼합 모드 코드 (관리 및 비관리 코드) 하는 동안 예외를 가로챌 수 없는 경우는 마지막 기회 콜백)입니다. DE 구현 하지 않는 경우 `IDebugStackFrame3`에 DE IDebugStackFrame3에서 오류를 반환 합니다. 또는::`InterceptCurrentException` (같은 `E_NOTIMPL`), 디버거 일반적으로 예외를 처리 한 다음.
 
  예외를 가로채에서 디버거가 디버그 중인 프로그램의 상태를 변경 하 고 예외가 throw 된 지점에서 실행을 다시 시작 사용자를 수 있습니다.
 
@@ -61,7 +61,7 @@ IDebugStackFrame3 : IDebugStackFrame2
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)
 - [디버깅을 위한 SDK 도우미](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 03bfeeb30fad4f332a3a747dcf8468c4fb39ef56
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: c8a5c9a05525c55d35bb6e0033c5c2abcacbbc97
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62914040"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458134"
 ---
 # <a name="ipropertyproxyeesidecreatereplacementobject"></a>IPropertyProxyEESide::CreateReplacementObject
 식 계산기 (EE) 특정 데이터 개체의 복사본을 만듭니다.
@@ -38,12 +41,12 @@ int CreateReplacementObject(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dataIn`
+## <a name="parameters"></a>매개 변수
+ `dataIn`\
 
  [in] [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) 복사할 데이터를 보유 하는 개체입니다.
 
- `dataOut`
+ `dataOut`\
 
  [out] 반환 된 새 `IEEDataStorage` 개체입니다.
 
@@ -55,6 +58,6 @@ int CreateReplacementObject(
 
  들어오는 제공한 데이터 참고 `IEEDataStorage` 개체는 동일한 데이터를 보내는 이어야 `IEEDataStorage` 개체입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)
 - [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)

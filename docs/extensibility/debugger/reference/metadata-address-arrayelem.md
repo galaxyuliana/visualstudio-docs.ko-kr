@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2b08d3d25912123d62de9a096b810f42d1418aa6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: cb0ad7c73d2e4233ad919ffe48515bbade031fd8
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62865706"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461141"
 ---
 # <a name="metadataaddressarrayelem"></a>METADATA_ADDRESS_ARRAYELEM
 
@@ -39,15 +42,15 @@ public struct METADATA_ADDRESS_ARRAYELEM {
 }
 ```
 
-## <a name="terms"></a>용어
+## <a name="members"></a>멤버
 
-tokMethod
+`tokMethod`\
 
 배열의 ID이이 요소는 부분입니다.
 
 [C++] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.
 
-dwIndex
+`dwIndex`\
 
 배열 내에서이 요소의 인덱스입니다.
 
@@ -61,7 +64,7 @@ dwIndex
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md)

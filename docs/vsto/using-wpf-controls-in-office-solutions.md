@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c8c447ce6b202fc3ccca65c6725e9eb3e5f13ecf
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8b0cd5939bf91a3f154cf28434f561ed93b1a597
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62982260"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226676"
 ---
 # <a name="use-wpf-controls-in-office-solutions"></a>Office 솔루션에서 WPF 컨트롤 사용
 
@@ -55,7 +55,7 @@ Office 솔루션의 UI 요소에 직접 WPF 컨트롤을 추가할 수 없습니
 
     - 양식 영역에 대 한 추가 **Outlook 양식 영역** 프로젝트 항목입니다. 자세한 내용은 [방법: Outlook 추가 기능 프로젝트에 양식 영역 추가](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)합니다.
 
-    - 작업 창에 대 한 추가 **작업 창 컨트롤** 하거나 **사용자 정의 컨트롤** 항목을 프로젝트입니다. 자세한 내용은 [방법: Word 문서에 작업창을 추가 하거나 Excel 통합 문서](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md) 고 [방법: Excel 통합 문서 또는 Word 문서에 작업창 추가](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)합니다.
+    - 작업 창에 대 한 추가 **작업 창 컨트롤** 하거나 **사용자 정의 컨트롤** 항목을 프로젝트입니다. 자세한 내용은 [방법: Excel 통합 문서 또는 Word 문서에 작업창 추가](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)합니다.
 
     - 사용자 지정 작업창을 위한 추가 된 **사용자 정의 컨트롤** 항목을 프로젝트입니다. 자세한 내용은 [방법: 응용 프로그램에 사용자 지정 작업창 추가](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)합니다.
 

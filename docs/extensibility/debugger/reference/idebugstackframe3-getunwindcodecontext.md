@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cb0fc6511def34c1f15f91fca22fa9903daa08a9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 0ee90dfdcb38c938d87ed35aadca07540af34539
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915948"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458266"
 ---
 # <a name="idebugstackframe3getunwindcodecontext"></a>IDebugStackFrame3::GetUnwindCodeContext
 코드 컨텍스트 스택을 해제 작업 하는 경우 위치를 나타내는 반환 합니다.
@@ -36,8 +39,8 @@ int GetUnwindCodeContext(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppCodeContext`
+## <a name="parameters"></a>매개 변수
+ `ppCodeContext`\
 
  [out] 반환 된 [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 스택 해제가 발생 한 경우 코드 컨텍스트 위치를 나타내는 개체입니다.
 
@@ -47,6 +50,6 @@ int GetUnwindCodeContext(
 ## <a name="remarks"></a>설명
  이 메서드는 스택 해제 후 위치에 대 한 코드 컨텍스트를 반환할 수 있습니다, 경우에이 반드시 스택 해제 현재 스택 프레임에서 실제로 발생할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)

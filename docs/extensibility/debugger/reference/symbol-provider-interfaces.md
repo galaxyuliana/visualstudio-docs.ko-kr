@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9e98d792da99cafb670f64f572a1d6e3e4597f8e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a7cc522f2398c2f26612e665673c5d6db46bea1f
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913516"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460765"
 ---
 # <a name="symbol-provider-interfaces"></a>기호 공급자 인터페이스
 다음은에 대 한 기호 처리 인터페이스는 [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)]합니다.
@@ -58,5 +58,5 @@ ms.locfileid: "62913516"
 |[IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)|SP|컬렉션을 나타냅니다 [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md) 개체입니다.|
 |[IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)|SP|컬렉션을 나타냅니다 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 개체입니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [API 참조](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

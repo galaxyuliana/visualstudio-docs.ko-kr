@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7f0aafc5b41d9020c80cd2b86c9048db1d333bfd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 08d50e3d3ddda55a7ff0f3fea333c5408b02878a
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62865442"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461038"
 ---
 # <a name="objecttype"></a>OBJECT_TYPE
 식 계산기에서 개체의 형식을 지정합니다.
@@ -65,36 +68,51 @@ public enum enum_OBJECT_TYPE { 
 };
 ```
 
-## <a name="members"></a>멤버
- OBJECT_TYPE_BOOLEAN 개체가 부울 임을 나타냅니다.
+## <a name="fields"></a>필드
+ `OBJECT_TYPE_BOOLEAN`\
+ 부울 개체 임을 나타냅니다.
 
- OBJECT_TYPE_CHAR 문자 인지를 나타냅니다.
+ `OBJECT_TYPE_CHAR`\
+ 개체는 문자 인지를 나타냅니다.
 
- OBJECT_TYPE_I1 개체는 1 바이트 부호 있는 정수 인지를 나타냅니다.
+ `OBJECT_TYPE_I1`\
+ 개체는 1 바이트 부호 있는 정수를 나타냅니다.
 
- OBJECT_TYPE_U1 개체 1 바이트 부호 없는 정수를 나타냅니다.
+ `OBJECT_TYPE_U1`\
+ 개체는 1 바이트 부호 없는 정수를 나타냅니다.
 
- OBJECT_TYPE_I2 개체는 2 바이트 부호 있는 정수 인지를 나타냅니다.
+ `OBJECT_TYPE_I2`\
+ 개체는 2 바이트 부호 있는 정수를 나타냅니다.
 
- OBJECT_TYPE_U2 개체 2 바이트 부호 없는 정수를 나타냅니다.
+ `OBJECT_TYPE_U2`\
+ 개체는 2 바이트 부호 없는 정수를 나타냅니다.
 
- OBJECT_TYPE_I4 개체는 4 바이트 부호 있는 정수 인지를 나타냅니다.
+ `OBJECT_TYPE_I4`\
+ 개체는 4 바이트 부호 있는 정수를 나타냅니다.
 
- OBJECT_TYPE_U4 개체 4 바이트 부호 없는 정수를 나타냅니다.
+ `OBJECT_TYPE_U4`\
+ 개체는 4 바이트 부호 없는 정수를 나타냅니다.
 
- OBJECT_TYPE_I8 개체는 8 비트 부호 있는 정수 인지를 나타냅니다.
+ `OBJECT_TYPE_I8`\
+ 개체는 8 비트 부호 있는 정수를 나타냅니다.
 
- OBJECT_TYPE_U8 개체 8 바이트 부호 없는 정수를 나타냅니다.
+ `OBJECT_TYPE_U8`\
+ 개체는 8 비트 부호 없는 정수를 나타냅니다.
 
- OBJECT_TYPE_R4 개체 4 바이트 부동 소수점 숫자를 나타냅니다.
+ `OBJECT_TYPE_R4`\
+ 개체는 4 바이트 부동 소수점 숫자를 나타냅니다.
 
- OBJECT_TYPE_R8 개체는 8 바이트 부동 소수점 숫자 인지를 나타냅니다.
+ `OBJECT_TYPE_R8`\
+ 개체는 8 바이트 부동 소수점 숫자를 나타냅니다.
 
- OBJECT_TYPE_OBJECT 해당 개체가 개체 임을 나타냅니다.
+ `OBJECT_TYPE_OBJECT`\
+ 개체는 개체 임을 나타냅니다.
 
- OBJECT_TYPE_NULL 개체가 NULL 임을 나타냅니다.
+ `OBJECT_TYPE_NULL`\
+ 개체가 NULL 임을 나타냅니다.
 
- OBJECT_TYPE_CLASS 개체 클래스 임을 나타냅니다.
+ `OBJECT_TYPE_CLASS`\
+ 개체 클래스 임을 나타냅니다.
 
 ## <a name="remarks"></a>설명
  인수로 전달 합니다 [CreatePrimitiveObject](../../../extensibility/debugger/reference/idebugfunctionobject-createprimitiveobject.md) 하 고 [CreateArrayObject](../../../extensibility/debugger/reference/idebugfunctionobject-createarrayobject.md) 메서드.
@@ -106,7 +124,7 @@ public enum enum_OBJECT_TYPE { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [CreatePrimitiveObject](../../../extensibility/debugger/reference/idebugfunctionobject-createprimitiveobject.md)
 - [CreateArrayObject](../../../extensibility/debugger/reference/idebugfunctionobject-createarrayobject.md)

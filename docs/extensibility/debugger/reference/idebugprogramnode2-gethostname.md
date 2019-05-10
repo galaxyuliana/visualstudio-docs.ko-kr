@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 19bb7f56077abd276936fe8342e74ecda6f5770a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7fcf99f290938a6f51ce1e59ac1e14966206ee5b
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916919"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65459056"
 ---
 # <a name="idebugprogramnode2gethostname"></a>IDebugProgramNode2::GetHostName
 프로그램을 호스팅하는 프로세스의 이름을 가져옵니다.
@@ -38,12 +41,12 @@ int GetHostName (
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`dwHostNameType`
+## <a name="parameters"></a>매개 변수
+`dwHostNameType`\
 
  [in] 값을 [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) 반환할 이름의 형식을 지정 하는 열거형입니다.
 
-`pbstrHostName`
+`pbstrHostName`\
 
  [out] 호스팅 프로세스의 이름을 반환합니다.
 
@@ -95,7 +98,7 @@ HRESULT CProgram::GetHostName(DWORD dwHostNameType, BSTR* pbstrHostName) {
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

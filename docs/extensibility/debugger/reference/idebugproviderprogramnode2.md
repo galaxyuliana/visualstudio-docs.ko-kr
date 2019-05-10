@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bb717363266b95397ea749e7465b07df75f60da2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1f9e0756c3cb9e92d0899020383d536b83892046
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916424"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458766"
 ---
 # <a name="idebugproviderprogramnode2"></a>IDebugProviderProgramNode2
 이 인터페이스를 프로세스 경계를 넘어 프로그램 관련 인터페이스를 마샬링합니다.
@@ -51,6 +51,6 @@ IDebugProviderProgramNode2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

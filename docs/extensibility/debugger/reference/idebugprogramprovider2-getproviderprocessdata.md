@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 385ef2aaaadc8d1f66eaf245f06dbfd299638fa5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: f63b43c1e7e8035320c6d4c7b527e069904191a5
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916720"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65459005"
 ---
 # <a name="idebugprogramprovider2getproviderprocessdata"></a>IDebugProgramProvider2::GetProviderProcessData
 지정된 된 프로세스에서 실행 중인 프로그램의 목록을 검색 합니다.
@@ -44,8 +47,8 @@ int GetProviderProcessData(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `Flags`
+## <a name="parameters"></a>매개 변수
+ `Flags`\
 
  [in] 플래그의 조합 된 [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) 열거형입니다. 이 호출에 대 한 일반 플래그는 다음과 같습니다.
 
@@ -56,19 +59,19 @@ int GetProviderProcessData(
 |`PFLAG_ATTACHED_TO_DEBUGGEE`|호출자에 연결 되었지만 디버거에서 실행 되지 않습니다.|
 |`PFLAG_GET_PROGRAM_NODES`|프로그램 노드 목록을 반환할를 호출자에 게 요청 합니다.|
 
- `pPort`
+ `pPort`\
 
  [in] 포트는 호출 프로세스에서 실행 됩니다.
 
- `processId`
+ `processId`\
 
  [in] [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) 구조에서 해당 프로그램을 포함 하는 프로세스의 ID를 보유 합니다.
 
- `EngineFilter`
+ `EngineFilter`\
 
  [in] \(이러한 됩니다 필터링에 사용 될 모든 프로그램 반환 됩니다 엔진이 없습니다 지정 된 경우 제공 된 엔진; 지원 되는 내용에 따라 프로그램 실제로 반환 되는)이이 프로세스를 디버깅 하려면 할당 된 디버그 엔진에 대 한 Guid의 배열입니다.
 
- `pProcess`
+ `pProcess`\
 
  [out] A [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) 구조에 필요한 정보를 사용 하 여 입력 됩니다.
 
@@ -78,7 +81,7 @@ int GetProviderProcessData(
 ## <a name="remarks"></a>설명
  이 메서드는 일반적으로 해당 프로세스에서 실행 되는 프로그램의 목록을 가져오려면 프로세스에 의해 호출 됩니다. 반환 된 정보는 목록이 [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 개체입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md)
 - [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)
 - [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)

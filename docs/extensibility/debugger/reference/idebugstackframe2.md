@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ce4112addee78c4df293bf49e1cb191e4bbcd18b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1bf7380fb2a18cbf3d865d092f95ec0612645287
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62868720"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457589"
 ---
 # <a name="idebugstackframe2"></a>IDebugStackFrame2
 이 인터페이스는 특정 스레드에서 호출 스택에서 단일 스택 프레임을 나타냅니다.
@@ -60,5 +60,5 @@ IDebugStackFrame2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)

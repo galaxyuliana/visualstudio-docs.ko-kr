@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9e215222b8637d97378dc9db24f995ab76123f00
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 8936ab07f4df7b2e2295fae4192bca79205429ac
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62868654"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65224152"
 ---
 # <a name="idebugsymbolprovidergetcontainerfield"></a>IDebugSymbolProvider::GetContainerField
 이 메서드는 디버그 주소를 포함 하는 필드를 가져옵니다.
@@ -38,19 +41,19 @@ int GetContainerField(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pAddress`
+## <a name="parameters"></a>매개 변수
+ `pAddress`\
 
  [in] 에 표시 된 대로 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
 
- `ppContainerField`
+ `ppContainerField`\
 
  [out] 나타내는 컨테이너 필드를 반환 합니다는 [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
 - [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)

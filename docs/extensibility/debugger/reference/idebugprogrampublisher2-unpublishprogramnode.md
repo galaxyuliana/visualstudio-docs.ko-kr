@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 56eb23466d0364cbe22046bbb36be593a83a0998
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 00c78b4390d519cb8b37d0af17e1e61a8127d080
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62869669"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65458934"
 ---
 # <a name="idebugprogrampublisher2unpublishprogramnode"></a>IDebugProgramPublisher2::UnpublishProgramNode
 가용성을 디버그 엔진 (DEs) 및 세션 디버그 관리자 (SDM)에서 지정한 프로그램 노드를 제거 합니다.
@@ -36,8 +39,8 @@ int UnpublishProgramNode(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pProgramNode`
+## <a name="parameters"></a>매개 변수
+ `pProgramNode`\
 
  [in] [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 제거할 프로그램 노드를 나타내는 개체입니다.
 
@@ -49,7 +52,7 @@ int UnpublishProgramNode(
 
  프로그램 노드를 사용할 수 있도록 호출을 [PublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogramnode.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [PublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogramnode.md)

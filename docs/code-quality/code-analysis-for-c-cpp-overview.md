@@ -21,12 +21,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 07ba2c64be0af987b82c870b89d3451b5d48d28f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5c4221783768f1e579ecad74fdfaf6e74214edfd
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62540829"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226137"
 ---
 # <a name="code-analysis-for-cc-overview"></a>C/C++용 코드 분석 개요
 
@@ -50,11 +50,11 @@ C:\>cl /analyze Sample.cpp
 
 ## <a name="pragma-support"></a>#pragma 지원
 
-`#pragma` 지시문을 사용해 경고를 오류로 간주하거나 경고의 활성화 및 비활성화, 코드 라인별 경고 표시를 생략할 수 있습니다. 자세한 내용은 [방법: C/C++ 프로젝트에 대 한 코드 분석 속성 설정](how-to-set-code-analysis-properties-for-c-cpp-projects.md)합니다.
+`#pragma` 지시문을 사용해 경고를 오류로 간주하거나 경고의 활성화 및 비활성화, 코드 라인별 경고 표시를 생략할 수 있습니다. 자세한 내용은 [Pragma 지시문 및 __Pragma 키워드](https://docs.microsoft.com/cpp/preprocessor/pragma-directives-and-the-pragma-keyword)를 참조하세요.
 
 ## <a name="annotation-support"></a>주석 지원
 
-주석을 통해 코드 분석의 정확성을 개선 할 수 있습니다. 주석을 이용해 함수 매개변수나 반환 형식의 사전, 사후 조건에 대한 추가 정보를 제공할 수 있습니다. 자세한 내용은 [방법: __analysis_assume를 사용한 추가 코드 정보 지정](../code-quality/how-to-specify-additional-code-information-by-using-analysis-assume.md)을 참조하세요.
+주석을 통해 코드 분석의 정확성을 개선 할 수 있습니다. 주석을 이용해 함수 매개변수나 반환 형식의 사전, 사후 조건에 대한 추가 정보를 제공할 수 있습니다. 자세한 내용은 [Reduce C SAL 주석을 사용 하 여 /C++ 코드 결함](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 
 ## <a name="run-analysis-tool-as-part-of-check-in-policy"></a>체크 인 정책의 일부로 분석 도구 실행
 

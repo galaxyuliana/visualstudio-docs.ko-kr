@@ -1,6 +1,7 @@
 - name: 'C# 자습서'
-  href: index.yml
   items:
+    - name: 'C# 자습서'
+      href: index.yml
     - name: 개요
       items:
         - name: Visual Studio 정보

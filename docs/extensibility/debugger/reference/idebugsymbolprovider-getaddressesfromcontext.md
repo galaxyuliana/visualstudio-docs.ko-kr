@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a7b28010f117b1bb6616250f1e188bd5acb38cda
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 77306706c15be37a975742be917523095bec587f
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62915862"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226432"
 ---
 # <a name="idebugsymbolprovidergetaddressesfromcontext"></a>IDebugSymbolProvider::GetAddressesFromContext
 이 메서드는 디버그 주소 배열로 문서 컨텍스트를 매핑합니다.
@@ -42,20 +45,20 @@ int GetAddressesFromContext(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pDocContext`
+## <a name="parameters"></a>매개 변수
+ `pDocContext`\
 
  [in] 문서 컨텍스트입니다.
 
- `fStatmentOnly`
+ `fStatmentOnly`\
 
  [in] TRUE 이면 단일 문으로 디버그 주소를 제한 합니다.
 
- `ppEnumBegAddresses`
+ `ppEnumBegAddresses`\
 
  [out] 이 문 또는 줄을 사용 하 여 연결 시작 디버그 주소에 대 한 열거자를 반환 합니다.
 
- `ppEnumEndAddresses`
+ `ppEnumEndAddresses`\
 
  [out] 반환 된 [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md) 관련 된이 문 또는 줄 끝 디버그 주소에 대 한 열거자입니다.
 
@@ -67,7 +70,7 @@ int GetAddressesFromContext(
 
  템플릿의 경우와 같이 여러 디버그 주소 단일 문에 대 한 것 같습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)
 - [GetAddressesFromPosition](../../../extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromposition.md)
 - [IEnumDebugAddresses](../../../extensibility/debugger/reference/ienumdebugaddresses.md)

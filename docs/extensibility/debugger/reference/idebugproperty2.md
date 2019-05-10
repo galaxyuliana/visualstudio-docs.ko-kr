@@ -12,12 +12,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3e13233950940c01c758a0faf07611c1426475e8
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4f80d536e55241a92ed25738b6f8f444f11645b1
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412681"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457709"
 ---
 # <a name="idebugproperty2"></a>IDebugProperty2
 이 인터페이스는 스택 프레임 속성, 프로그램 문서 속성 또는 다른 일부 속성을 나타냅니다. 속성은 일반적으로 식 평가의 결과입니다.
@@ -76,7 +76,7 @@ IDebugProperty2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md)
 - [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)

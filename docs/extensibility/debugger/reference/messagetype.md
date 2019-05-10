@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 16d2b9ae9c446d4c8082a8c35c9e4d1810233b95
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7f3485aa2e5650345c0b14c6cb8093034043285a
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62913863"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461007"
 ---
 # <a name="messagetype"></a>MESSAGETYPE
 메시지 유형 및 이유를 지정합니다.
@@ -47,18 +50,24 @@ public enum enum_MESSAGETYPE { 
 };
 ```
 
-## <a name="members"></a>멤버
- 출력 창에 메시지를 보낼 수 해야 MT_OUTPUTSTRING 나타냅니다. 이 상호 배타적인에서 `MT_MESSAGEBOX`합니다.
+## <a name="fields"></a>필드
+ `MT_OUTPUTSTRING`\
+ 출력 창에 메시지를 보낼 수 해야 나타냅니다. 이 상호 배타적인에서 `MT_MESSAGEBOX`합니다.
 
- MT_MESSAGEBOX 메시지 상자에 메시지를 표시할지 나타냅니다. 이 상호 배타적인에서 `MT_OUTPUTSTRING`합니다.
+ `MT_MESSAGEBOX`\
+ 메시지를 메시지 상자에 표시 됨을 나타냅니다. 이 상호 배타적인에서 `MT_OUTPUTSTRING`합니다.
 
- 메시지에 대 한 대상 격리 MT_TYPE_MASK는 마스크 값입니다.
+ `MT_TYPE_MASK`\
+ 대상에 메시지를 격리 하는 마스크 값입니다.
 
- MT_REASON_EXCEPTION 예외 결과로 메시지 상자가 표시 되는 나타냅니다. 이 상호 배타적인에서 `MT_REASON_TRACEPOINT`합니다.
+ `MT_REASON_EXCEPTION`\
+ 예외 결과로 메시지 상자를 표시 되는 것을 나타냅니다. 이 상호 배타적인에서 `MT_REASON_TRACEPOINT`합니다.
 
- MT_REASON_TRACEPOINT 추적점에 도달 하는 결과로 메시지 상자가 표시 되는 나타냅니다. 이 상호 배타적으로 `MT_REASON_EXCEPTION`입니다.
+ `MT_REASON_TRACEPOINT`\
+ 추적점에 도달 하는 결과로 메시지 상자를 표시 되는 것을 나타냅니다. 이 상호 배타적으로 `MT_REASON_EXCEPTION`입니다.
 
- 표시 되는 메시지에 대 한 이유를 격리 하는 마스크 값 MT_REASON_MASK입니다.
+ `MT_REASON_MASK`\
+ 표시 되는 메시지에 대 한 이유를 격리 하는 마스크 값입니다.
 
 ## <a name="remarks"></a>설명
  이러한 값이 반환 된 [GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md) 하 고 [GetErrorMessage](../../../extensibility/debugger/reference/idebugerrorevent2-geterrormessage.md) 메서드.
@@ -72,7 +81,7 @@ public enum enum_MESSAGETYPE { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md)
 - [GetErrorMessage](../../../extensibility/debugger/reference/idebugerrorevent2-geterrormessage.md)

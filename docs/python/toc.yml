@@ -9,8 +9,9 @@
     - name: 데이터 과학 및 분석 애플리케이션 워크로드
       href: data-science-and-analytical-applications-workload.md
 - name: 설치
-  href: installing-python-support-in-visual-studio.md
   items:
+    - name: 설치
+      href: installing-python-support-in-visual-studio.md
     - name: Python 인터프리터 설치
       href: installing-python-interpreters.md
 - name: 빠른 시작
@@ -75,8 +76,9 @@
 - name: 개념
   items:
     - name: Python 프로젝트
-      href: managing-python-projects-in-visual-studio.md
       items:
+        - name: Python 프로젝트
+          href: managing-python-projects-in-visual-studio.md
         - name: 웹 프로젝트 템플릿
           href: python-web-application-project-templates.md
         - name: Django 웹 프로젝트 템플릿
@@ -88,8 +90,9 @@
 - name: 방법 가이드
   items:
     - name: Python 환경 관리
-      href: managing-python-environments-in-visual-studio.md
       items:
+        - name: Python 환경 관리
+          href: managing-python-environments-in-visual-studio.md
         - name: 프로젝트의 인터프리터 선택
           href: selecting-a-python-environment-for-a-project.md
         - name: 종속성에 대해 requirements.txt 사용
@@ -101,8 +104,9 @@
         - name: IIS용 웹앱 구성
           href: configure-web-apps-for-iis-windows.md
     - name: Python 코드 편집
-      href: editing-python-code-in-visual-studio.md
       items:
+        - name: Python 코드 편집
+          href: editing-python-code-in-visual-studio.md
         - name: 코드 형식
           href: formatting-python-code.md
         - name: 코드 리팩터링
@@ -112,13 +116,15 @@
     - name: 사용자 지정 메뉴 명령 정의
       href: defining-custom-python-project-commands.md
     - name: 대화형 Python(REPL)
-      href: python-interactive-repl-in-visual-studio.md
       items:
+        - name: 대화형 Python(REPL)
+          href: python-interactive-repl-in-visual-studio.md
         - name: IPython REPL 사용
           href: interactive-repl-ipython.md
     - name: 디버깅
-      href: debugging-python-in-visual-studio.md
       items:
+        - name: 디버깅
+          href: debugging-python-in-visual-studio.md
         - name: 원격 Linux 컴퓨터에서 코드 디버깅
           href: debugging-python-code-on-remote-linux-machines.md
     - name: Linux에서 Azure App Service에 게시

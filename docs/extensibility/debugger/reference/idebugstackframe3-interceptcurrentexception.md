@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b3fb11457319d4cea762808ec2619f32c37780a1
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: c38d8c1c2f06701d1e0a34560b674aa62292a803
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412675"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457408"
 ---
 # <a name="idebugstackframe3interceptcurrentexception"></a>IDebugStackFrame3::InterceptCurrentException
 현재 예외를 차단 하려는 경우 현재 스택 프레임에는 디버거에서 호출 됩니다.
@@ -38,12 +41,12 @@ int InterceptCurrentException(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwFlags`
+## <a name="parameters"></a>매개 변수
+ `dwFlags`\
 
  [in] 다양 한 작업을 지정합니다. 현재만 합니다 [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md) 값 `IEA_INTERCEPT` 은 지원 되며 지정 해야 합니다.
 
- `pqwCookie`
+ `pqwCookie`\
 
  [out] 특정 예외를 식별 하는 고유 값입니다.
 
@@ -68,7 +71,7 @@ int InterceptCurrentException(
 
  가로채기를 완료 한 후는 [IDebugInterceptExceptionCompleteEvent2](../../../extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2.md) 신호입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md)
 - [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md)
 - [IDebugInterceptExceptionCompleteEvent2](../../../extensibility/debugger/reference/idebuginterceptexceptioncompleteevent2.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0f1d6742b28badf39a5c9273d2891c2da9a9d5f0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 4115a1d7e01558f2991503200a76dabbf81993bc
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62864869"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460992"
 ---
 # <a name="stepunit"></a>STEPUNIT
 단계별 실행에 대 한 단계 단위를 지정합니다.
@@ -41,12 +44,15 @@ enum enum_STEPUNIT { 
 };
 ```
 
-## <a name="members"></a>멤버
- 문에 의해 STEP_STATEMENT 단계입니다.
+## <a name="fields"></a>필드
+ `STEP_STATEMENT`\
+ 문에 의해 단계입니다.
 
- 선으로 STEP_LINE 단계입니다.
+ `STEP_LINE`\
+ 줄이 단계를 수행 합니다.
 
- 명령에 의해 STEP_INSTRUCTION 단계입니다.
+ `STEP_INSTRUCTION`\
+ 명령에 의해 단계입니다.
 
 ## <a name="remarks"></a>설명
  인수로 전달 된 [단계](../../../extensibility/debugger/reference/idebugprocess3-step.md) 메서드.
@@ -58,6 +64,6 @@ enum enum_STEPUNIT { 
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md)

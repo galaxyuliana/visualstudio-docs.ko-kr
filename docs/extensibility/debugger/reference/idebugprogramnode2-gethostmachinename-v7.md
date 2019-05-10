@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7b40d3350fb348afb654ae09785eb0956fb950bb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 09919ed73afc9115feffd1f828e9e8d14d1eae79
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62869853"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457804"
 ---
 # <a name="idebugprogramnode2gethostmachinenamev7"></a>IDebugProgramNode2::GetHostMachineName_V7
 
@@ -38,9 +41,9 @@ int GetHostMachineName_V7 (
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
+## <a name="parameters"></a>매개 변수
 
-`pbstrHostMachineName`
+`pbstrHostMachineName`\
 
  [out] 프로그램이 실행 중인 컴퓨터의 이름을 반환 합니다.
 
@@ -53,6 +56,6 @@ int GetHostMachineName_V7 (
 > [!WARNING]
 > Visual Studio 2005를 기준으로이 메서드는 더 이상 및 항상 반환 `E_NOTIMPL`합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

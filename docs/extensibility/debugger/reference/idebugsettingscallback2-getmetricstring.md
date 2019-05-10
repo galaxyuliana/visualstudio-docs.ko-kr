@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c92709afbc5341a7507c89dc948daeae1f798b4e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: d3fdfd604f28f6657b27ef0e81ca4ce5855d97df
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916221"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65457287"
 ---
 # <a name="idebugsettingscallback2getmetricstring"></a>IDebugSettingsCallback2::GetMetricString
 이름이 지정 된 메트릭 값 문자열을 검색 합니다.
@@ -41,25 +44,25 @@ private int GetMetricString(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pszType`
+## <a name="parameters"></a>매개 변수
+ `pszType`\
 
  [in] 메트릭의 유형입니다.
 
- `guidSection`
+ `guidSection`\
 
  [in] 섹션의 고유 식별자입니다.
 
- `pszMetric`
+ `pszMetric`\
 
  [in] 메트릭의 이름입니다.
 
- `pbstrValue`
+ `pbstrValue`\
 
  [out] 메트릭 값 문자열을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugSettingsCallback2](../../../extensibility/debugger/reference/idebugsettingscallback2.md)

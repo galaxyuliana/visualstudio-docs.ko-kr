@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 67c055c1cf9fffde227d4e52a9764b2559a2342b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 838a7dc0024e69335bf5c49c664bd491a6949d08
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62864799"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65460915"
 ---
 # <a name="providerfields"></a>PROVIDER_FIELDS
 프로그램 공급자와 연결 된 속성을 지정 합니다.
@@ -39,10 +42,12 @@ public enum enum_PROVIDER_FIELDS {
 };
 ```
 
-## <a name="members"></a>멤버
- PFIELD_PROGRAM_NODES는 `ProgramNodes` 필드가 올바릅니다.
+## <a name="fields"></a>필드
+ `PFIELD_PROGRAM_NODES`\
+ `ProgramNodes` 필드가 올바릅니다.
 
- PFIELD_IS_DEBUGGER_PRESENT는 `fIsDebuggerPresent` 필드가 올바릅니다.
+ `PFIELD_IS_DEBUGGER_PRESENT`\
+ `fIsDebuggerPresent` 필드가 올바릅니다.
 
 ## <a name="remarks"></a>설명
  이러한 값은 반환 합니다 `Fields` 의 멤버는 [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) 구조를 나타내는 구조체의 필드에서 명시적으로 채워진 합니다.
@@ -56,6 +61,6 @@ public enum enum_PROVIDER_FIELDS {
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md)
