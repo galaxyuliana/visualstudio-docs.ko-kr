@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f1d4622e1de76406568cda4761005c5482f3169d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 39c1c8b6d8294676df3527cafbdd035a9da84548
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62877499"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615086"
 ---
 # <a name="idebugbinderresolveruntimetype"></a>IDebugBinder::ResolveRuntimeType
 이 메서드는 개체의 런타임 형식을 결정합니다.
@@ -38,14 +41,12 @@ int ResolveRuntimeType(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pObject`
+## <a name="parameters"></a>매개 변수
+`pObject`\
+[in] 합니다 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 를 해결할 수 있습니다.
 
- [in] 합니다 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 를 해결할 수 있습니다.
-
- `ppResolved`
-
- [out] 개체의 형식을 반환 합니다는 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)합니다.
+`ppResolved`\
+[out] 개체의 형식을 반환 합니다는 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -53,7 +54,7 @@ int ResolveRuntimeType(
 ## <a name="remarks"></a>설명
  컴파일 타임에 개체의 런타임 형식은 항상 알 수는 없습니다. 예를 들어 다형성을 사용 하 여 인수로 전달할 수 있습니다 함수 단추 클래스 등의 기본 클래스로. 실제 인수의 라디오 단추 클래스와 같은 파생된 클래스를 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

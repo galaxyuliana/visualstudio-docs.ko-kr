@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1dcec65b22c728384fb199eecf461ec61317e348
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 846fc639bb31c3cd4dfa8d31fb31ff0b112336a9
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62923451"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65614927"
 ---
 # <a name="idebugboundbreakpoint2setcondition"></a>IDebugBoundBreakpoint2::SetCondition
 설정 하거나이 바인딩된 중단점과 연결 된 조건을 변경 합니다.
@@ -37,10 +40,9 @@ int SetCondition( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `bpCondition`
-
- [in] 값을 [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) 조건을 설명 하는 열거형입니다.
+## <a name="parameters"></a>매개 변수
+`bpCondition`\
+[in] 값을 [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) 조건을 설명 하는 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 바인딩된 중단점 개체의 상태 설정 됩니다 `BPS_DELETED` (부분 합니다 [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) 열거형)입니다.
@@ -48,7 +50,7 @@ int SetCondition( 
 ## <a name="remarks"></a>설명
  이 중단점을 사용 하 여 이전에 연관 된 모든 상태는 손실 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)
 - [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

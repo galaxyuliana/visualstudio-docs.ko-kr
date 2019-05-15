@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 71888e4e0b339b9b9b94946e8d9c49f8ffb1f84c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 0325642e9bcd1e1bc79365650a62938c3250c81e
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56696822"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615386"
 ---
 # <a name="addresskind"></a>ADDRESS_KIND
 주소의 종류를 지정합니다.
@@ -53,24 +56,33 @@ public enum enum_ADDRESS_KIND {
 };
 ```
 
-## <a name="terms"></a>용어
-ADDRESS_KIND_NATIVE는 기본 주소를 표시 합니다 [NATIVE_ADDRESS](../../../extensibility/debugger/reference/native-address.md) 구조입니다.
+## <a name="fields"></a>필드
+`ADDRESS_KIND_NATIVE`\
+기본 주소를 표시 합니다 [NATIVE_ADDRESS](../../../extensibility/debugger/reference/native-address.md) 구조입니다.
 
-ADDRESS_KIND_UNMANAGED_THIS_RELATIVE 기준으로 관리 되지 않는 주소를 `this` (`Me` Visual Basic의) 포인터 나타내는 및 합니다 [UNMANAGED_ADDRESS_THIS_RELATIVE](../../../extensibility/debugger/reference/unmanaged-address-this-relative.md) 구조입니다.
+`ADDRESS_KIND_UNMANAGED_THIS_RELATIVE`\
+기준으로 관리 되지 않는 주소를 `this` (`Me` Visual Basic의) 포인터 나타내는 및 합니다 [UNMANAGED_ADDRESS_THIS_RELATIVE](../../../extensibility/debugger/reference/unmanaged-address-this-relative.md) 구조입니다.
 
-ADDRESS_KIND_UNMANAGED_PHYSICAL 관리 되지 않는 실제 주소를 표시 합니다 [UNMANAGED_ADDRESS_PHYSICAL](../../../extensibility/debugger/reference/unmanaged-address-physical.md) 구조입니다.
+`ADDRESS_KIND_UNMANAGED_PHYSICAL`\
+나타내는 관리 되지 않는 실제 주소를 합니다 [UNMANAGED_ADDRESS_PHYSICAL](../../../extensibility/debugger/reference/unmanaged-address-physical.md) 구조입니다.
 
-나타내는 클래스의 메서드는 ADDRESS_KIND_METHOD 합니다 [METADATA_ADDRESS_METHOD](../../../extensibility/debugger/reference/metadata-address-method.md) 구조입니다.
+`ADDRESS_KIND_METHOD`\
+나타내는 클래스의 메서드를 [METADATA_ADDRESS_METHOD](../../../extensibility/debugger/reference/metadata-address-method.md) 구조입니다.
 
-나타내는 클래스의 ADDRESS_KIND_FIELD는 필드를 [METADATA_ADDRESS_FIELD](../../../extensibility/debugger/reference/metadata-address-field.md) 구조입니다.
+`ADDRESS_KIND_FIELD`\
+나타내는 클래스의 필드를 [METADATA_ADDRESS_FIELD](../../../extensibility/debugger/reference/metadata-address-field.md) 구조입니다.
 
-ADDRESS_KIND_LOCAL 주소 지역 변수 이며 표시 됩니다는 [METADATA_ADDRESS_LOCAL](../../../extensibility/debugger/reference/metadata-address-local.md) 구조입니다.
+`ADDRESS_KIND_LOCAL`\
+주소를 지역 변수에 대해 이며은 표현 합니다 [METADATA_ADDRESS_LOCAL](../../../extensibility/debugger/reference/metadata-address-local.md) 구조입니다.
 
-ADDRESS_KIND_PARAM 메서드 또는 함수 매개 변수를 표시 합니다 [METADATA_ADDRESS_PARAM](../../../extensibility/debugger/reference/metadata-address-param.md) 구조입니다.
+`ADDRESS_KIND_PARAM`\
+메서드 또는 함수 매개 변수를 표시 합니다 [METADATA_ADDRESS_PARAM](../../../extensibility/debugger/reference/metadata-address-param.md) 구조입니다.
 
-ADDRESS_KIND_ARRAYELEM 배열 요소를 표시 합니다 [METADATA_ADDRESS_ARRAYELEM](../../../extensibility/debugger/reference/metadata-address-arrayelem.md) 구조입니다.
+`ADDRESS_KIND_ARRAYELEM`\
+배열 요소를 표시 합니다 [METADATA_ADDRESS_ARRAYELEM](../../../extensibility/debugger/reference/metadata-address-arrayelem.md) 구조입니다.
 
-ADDRESS_KIND_RETVAL는 반환 값을 표시 합니다 [METADATA_ADDRESS_RETVAL](../../../extensibility/debugger/reference/metadata-address-retval.md) 구조입니다.
+`ADDRESS_KIND_RETVAL`\
+반환 값으로 표시 합니다 [METADATA_ADDRESS_RETVAL](../../../extensibility/debugger/reference/metadata-address-retval.md) 구조입니다.
 
 ## <a name="remarks"></a>설명
 [GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md) 메서드가 반환 되는 [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) 가능한 구조의 공용 구조체를 포함 하는 구조는 [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) 구조. `dwKind` 필드를 `DEBUG_ADDRESS_UNION` 포함 구조체는 `ADDRESS_KIND` 값 및 공용 구조체 필드를 해석 하는 방법에 설명 합니다.
@@ -82,7 +94,7 @@ ADDRESS_KIND_RETVAL는 반환 값을 표시 합니다 [METADATA_ADDRESS_RETVAL](
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)
 - [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)

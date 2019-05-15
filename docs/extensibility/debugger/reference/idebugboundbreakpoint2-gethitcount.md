@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 88fde36e2d7b0ef776849d7d3af7e36418dfff7d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: e173f1f448cba6ee3ed3ab7a6176089996e48e4a
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62877397"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65614747"
 ---
 # <a name="idebugboundbreakpoint2gethitcount"></a>IDebugBoundBreakpoint2::GetHitCount
 이 바인딩된 중단점에 대 한 현재 적중된 횟수를 가져옵니다.
@@ -37,10 +40,9 @@ int GetHitCount( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pdwHitCount`
-
- [out] 적중된 횟수를 반환합니다.
+## <a name="parameters"></a>매개 변수
+`pdwHitCount`\
+[out] 적중된 횟수를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 바인딩된 중단점 개체의 상태 설정 됩니다 `BPS_DELETED` (부분 합니다 [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) 열거형)입니다.
@@ -48,6 +50,6 @@ int GetHitCount( 
 ## <a name="remarks"></a>설명
  적중된 횟수가 세션의 현재 실행 하는 동안이 중단점이 발생 한 횟수입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

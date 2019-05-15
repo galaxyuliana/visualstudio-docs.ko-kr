@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b2c32061ee330d4e8054e20971890d7d0d93a799
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: f8da32ee8a4b6965e1e731c676703b5d1180d21e
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62923971"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615231"
 ---
 # <a name="idebugaliasgetobject"></a>IDebugAlias::GetObject
 이 별칭에 대 한 개체를 가져옵니다.
@@ -36,14 +39,13 @@ int GetObject(
 )
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppObject`
-
- [out] 합니다 [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) 이 별칭을 나타냅니다.
+## <a name="parameters"></a>매개 변수
+`ppObject`\
+[out] 합니다 [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) 이 별칭을 나타냅니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

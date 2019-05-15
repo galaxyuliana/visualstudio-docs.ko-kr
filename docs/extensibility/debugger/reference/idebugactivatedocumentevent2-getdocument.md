@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2c16a7a390da2e571ad0cc83041106b257048054
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 1ba06a44f24a6cd33c42b82bdf39aa4e4dfd799a
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56701734"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615295"
 ---
 # <a name="idebugactivatedocumentevent2getdocument"></a>IDebugActivateDocumentEvent2::GetDocument
 활성화 하려면 문서를 가져옵니다.
@@ -37,14 +40,13 @@ int GetDocument ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppDoc`
-
- [out] 반환 된 [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) 활성화할 문서를 나타내는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`ppDoc`\
+[out] 반환 된 [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md) 활성화할 문서를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugActivateDocumentEvent2](../../../extensibility/debugger/reference/idebugactivatedocumentevent2.md)
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)
