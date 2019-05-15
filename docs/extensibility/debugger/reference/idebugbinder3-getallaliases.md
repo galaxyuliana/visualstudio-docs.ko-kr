@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ed8545431dc0cb643ba18d415285447f8a66f66e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: f54ad96b3e6e1832e63e858609a0a1d6ecbcc93e
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62923707"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65614785"
 ---
 # <a name="idebugbinder3getallaliases"></a>IDebugBinder3::GetAllAliases
 이 메서드는 프로그램에서 별칭 목록을 검색합니다.
@@ -40,21 +43,18 @@ int GetAllAliases(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `uRequest`
+## <a name="parameters"></a>매개 변수
+`uRequest`\
+[in] 반환할 별칭의 최대 수 (에 전달 된 배열의 길이 지정 `ppAliases`).
 
- [in] 반환할 별칭의 최대 수 (에 전달 된 배열의 길이 지정 `ppAliases`).
+`ppAliases`\
+[out에서] 별칭으로 채워질 배열 (null 값인 경우 및 `uRequest` 가 0 이면 반환 될 수 있는 별칭 수에서 반환할 `puFetched`).
 
- `ppAliases`
-
- [out에서] 별칭으로 채워질 배열 (null 값인 경우 및 `uRequest` 가 0 이면 반환 될 수 있는 별칭 수에서 반환할 `puFetched`).
-
- `puFetched`
-
- [out] 가져올 별칭의 수를 반환 합니다.
+`puFetched`\
+[out] 가져올 별칭의 수를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBinder3](../../../extensibility/debugger/reference/idebugbinder3.md)

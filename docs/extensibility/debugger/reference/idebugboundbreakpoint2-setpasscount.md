@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 273735feeca633a1104a072c0e4d37c520d9de23
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 97e783947055bda86a35bb8b68a44c13da3613c0
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62923415"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65614691"
 ---
 # <a name="idebugboundbreakpoint2setpasscount"></a>IDebugBoundBreakpoint2::SetPassCount
 설정 하거나이 바인딩된 중단점과 연결 된 통과 수를 변경 합니다.
@@ -37,10 +40,9 @@ int SetPassCount( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `bpPassCount`
-
- [in] 합니다 [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md) 패스 개수를 지정 하는 구조입니다.
+## <a name="parameters"></a>매개 변수
+`bpPassCount`\
+[in] 합니다 [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md) 패스 개수를 지정 하는 구조입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 바인딩된 중단점 개체의 상태 설정 됩니다 `BPS_DELETED` (부분 합니다 [BP_STATE](../../../extensibility/debugger/reference/bp-state.md) 열거형)입니다.
@@ -50,7 +52,7 @@ int SetPassCount( 
 
  이 중단점을 사용 하 여 이전에 연관 된 모든 패스 개수는 손실 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [GetHitCount](../../../extensibility/debugger/reference/idebugboundbreakpoint2-gethitcount.md)
 - [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)

@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5355e85007c04e523efa4030ca0603a01cf88c68
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: e9b445f8ec471774eaceb0d6dd06c44b7d167f79
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62923769"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615196"
 ---
 # <a name="idebugarrayobject2getbaseindices"></a>IDebugArrayObject2::GetBaseIndices
 배열의 차원 수를 지정 하는 각 인덱스에 대 한 기본 인덱스 (하위 범위)를 검색 합니다.
@@ -37,14 +40,12 @@ int GetBaseIndices (
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwRank`
+## <a name="parameters"></a>매개 변수
+`dwRank`\
+[in] 배열의 차수 (rank) 수입니다.
 
- [in] 배열의 차수 (rank) 수입니다.
-
- `dwIndices`
-
- [out] 배열에 대 한 기본 인덱스 (하위 범위).
+`dwIndices`\
+[out] 배열에 대 한 기본 인덱스 (하위 범위).
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -58,5 +59,5 @@ int[] lowerbounds = { 5 };
 Array.CreateInstance(typeof(int), lengths, lowerbounds);
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugArrayObject2](../../../extensibility/debugger/reference/idebugarrayobject2.md)

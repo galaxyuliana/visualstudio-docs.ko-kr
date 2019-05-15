@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 09f0438bed235729d390b784725b89abec201c7f
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 1a1ecf55b017319850f97c23d926a650c7e01680
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56693528"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615343"
 ---
 # <a name="builttype"></a>BUILT_TYPE
 이 구조체는 메타 데이터에서 가져온 필드 형식에 대 한 정보를 지정 합니다.
@@ -40,12 +43,15 @@ public struct BUILT_TYPE {
 };
 ```
 
-#### <a name="parameters"></a>매개 변수
-기호 가져온 응용 프로그램의 ulAppDomainID ID입니다. 이 응용 프로그램의 인스턴스를 고유 하 게 식별에 사용 됩니다.
+## <a name="members"></a>멤버
+`ulAppDomainID`\
+기호 가져온 응용 프로그램의 ID입니다. 이 응용 프로그램의 인스턴스를 고유 하 게 식별에 사용 됩니다.
 
-guidModule이이 필드를 포함 하는 모듈의 GUID입니다.
+`guidModule`\
+이 필드를 포함 하는 모듈의 GUID입니다.
 
-pUnderlyingField를 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 이 기본 제공된 필드와 연결 된 기본 필드를 식별 하는 개체입니다.
+`pUnderlyingField`\
+[IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 이 기본 제공된 필드와 연결 된 기본 필드를 식별 하는 개체입니다.
 
 ## <a name="remarks"></a>설명
 이 구조체의 공용 구조체의 일부분으로 표시를 [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md) 경우 구조체를 `dwKind` 필드를 `TYPE_INFO` 구조로 설정 되어 `TYPE_KIND_BUILT` (의 값을 [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) 열거형)입니다.
@@ -57,7 +63,7 @@ pUnderlyingField를 [IDebugField](../../../extensibility/debugger/reference/ideb
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [TYPE_INFO](../../../extensibility/debugger/reference/type-info.md)
 - [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md)

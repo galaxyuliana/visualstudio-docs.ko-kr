@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a0391030e77e5959fdc28c94f63e099e5c505d77
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: aabaaed13de191e4e0ee8d8d0e8422d3df144210
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62923730"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615215"
 ---
 # <a name="idebugarrayobjectgetrank"></a>IDebugArrayObject::GetRank
 배열의 차원 수, 차수를 가져옵니다.
@@ -36,10 +39,9 @@ int GetRank(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pdwRank`
-
- [out] 순위를 반환합니다.
+## <a name="parameters"></a>매개 변수
+`pdwRank`\
+[out] 순위를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -47,5 +49,5 @@ int GetRank(
 ## <a name="remarks"></a>설명
  사용 된 [GetDimensions](../../../extensibility/debugger/reference/idebugarrayobject-getdimensions.md) 배열 개체의 각 차원 크기를 검색 하는 방법입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

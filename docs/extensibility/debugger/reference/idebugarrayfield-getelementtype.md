@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bd80c54d436698e14db69bb356bd0cca61aa6ea3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: d090767cd50f465ea35033875cb84597fa8c6a47
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62923984"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615136"
 ---
 # <a name="idebugarrayfieldgetelementtype"></a>IDebugArrayField::GetElementType
 배열의 요소 형식을 가져옵니다.
@@ -36,10 +39,9 @@ int GetElementType(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppType`
-
- [out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 요소의 형식을 설명 하는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`ppType`\
+[out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 요소의 형식을 설명 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -47,6 +49,6 @@ int GetElementType(
 ## <a name="remarks"></a>설명
  합니다 [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md) 개체 배열의 모든 요소는 동일한 형식으로 가정 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

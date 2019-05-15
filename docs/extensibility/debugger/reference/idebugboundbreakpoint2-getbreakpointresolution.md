@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f1e3e4cfe144713b7747f74e754a3a265cbbdb15
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: ab2e65b80ab1494828fa0945e5fe8a6b41f62f71
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62923619"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65614862"
 ---
 # <a name="idebugboundbreakpoint2getbreakpointresolution"></a>IDebugBoundBreakpoint2::GetBreakpointResolution
 이 중단점을 설명 하는 중단점 해상도를 가져옵니다.
@@ -37,10 +40,9 @@ int GetBreakpointResolution( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`ppBPResolution`
-
- [out] 반환 된 [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) 다음 중 하나를 나타내는 인터페이스입니다.
+## <a name="parameters"></a>매개 변수
+`ppBPResolution`\
+[out] 반환 된 [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) 다음 중 하나를 나타내는 인터페이스입니다.
 
 - 코드 중단점에 바인딩된 코드의 위치를 설명 하는 중단점 해결 개체입니다.
 
@@ -86,7 +88,7 @@ HRESULT CBoundBreakpoint::GetBreakpointResolution(
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)
 - [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)
 - [GetBreakpointType](../../../extensibility/debugger/reference/idebugbreakpointresolution2-getbreakpointtype.md)

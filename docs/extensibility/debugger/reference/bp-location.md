@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 85f8c915f5c0d6d81214220f78c7db0544777cda
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 94e731b56bf5c7554edf11620435cd24778e8e9d
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663325"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615361"
 ---
 # <a name="bplocation"></a>BP_LOCATION
 중단점의 위치를 설명 하는 데 사용 하는 구조체의 형식을 지정 합니다.
@@ -51,51 +54,41 @@ public struct BP_LOCATION {
 ```
 
 ## <a name="members"></a>멤버
-`bpLocationType` 값을 [BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp-location-type.md) 해석 하는 데 사용 하는 열거형을 `bpLocation` union 또는 `unionmemberX` 멤버.
+`bpLocationType`\
+값을 [BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp-location-type.md) 해석 하는 데 사용 하는 열거형을 `bpLocation` union 또는 `unionmemberX` 멤버.
 
-`bpLocation`.`bplocCodeFileLine`
+`bpLocation`.`bplocCodeFileLine`\
+[C++ 만] 포함 된 [BP_LOCATION_CODE_FILE_LINE](../../../extensibility/debugger/reference/bp-location-code-file-line.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_FILE_LINE`합니다.
 
- [C++ 만] 포함 된 [BP_LOCATION_CODE_FILE_LINE](../../../extensibility/debugger/reference/bp-location-code-file-line.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_FILE_LINE`합니다.
+`bpLocation.bplocCodeFuncOffset`\
+[C++ 만] 포함 된 [BP_LOCATION_CODE_FUNC_OFFSET](../../../extensibility/debugger/reference/bp-location-code-func-offset.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_FUNC_OFFSET`합니다.
 
-`bpLocation.bplocCodeFuncOffset`
+`bpLocation.bplocCodeContext`\
+[C++ 만] 포함 된 [BP_LOCATION_CODE_CONTEXT](../../../extensibility/debugger/reference/bp-location-code-context.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_CONTEXT`합니다.
 
- [C++ 만] 포함 된 [BP_LOCATION_CODE_FUNC_OFFSET](../../../extensibility/debugger/reference/bp-location-code-func-offset.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_FUNC_OFFSET`합니다.
+`bpLocation.bplocCodeString`\
+[C++ 만] 포함 된 [BP_LOCATION_CODE_STRING](../../../extensibility/debugger/reference/bp-location-code-string.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_STRING`합니다.
 
-`bpLocation.bplocCodeContext`
+`bpLocation.bplocCodeAddress`\
+[C++ 만] 포함 된 [BP_LOCATION_CODE_ADDRESS](../../../extensibility/debugger/reference/bp-location-code-address.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_ADDRESS`합니다.
 
- [C++ 만] 포함 된 [BP_LOCATION_CODE_CONTEXT](../../../extensibility/debugger/reference/bp-location-code-context.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_CONTEXT`합니다.
+`bpLocation.bplocDataString`\
+[C++ 만] 포함 된 [BP_LOCATION_DATA_STRING](../../../extensibility/debugger/reference/bp-location-data-string.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_DATA_STRING`합니다.
 
-`bpLocation.bplocCodeString`
+`bpLocation.bplocResolution`\
+[C++ 만] 포함 된 [BP_LOCATION_RESOLUTION](../../../extensibility/debugger/reference/bp-location-resolution.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_RESOLUTION`합니다.
 
- [C++ 만] 포함 된 [BP_LOCATION_CODE_STRING](../../../extensibility/debugger/reference/bp-location-code-string.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_STRING`합니다.
+`unionmember1`\
+[C# 만] 해석 하는 방법에 대 한 설명을 참조 하세요.
 
-`bpLocation.bplocCodeAddress`
+`unionmember2`\
+[C# 만] 해석 하는 방법에 대 한 설명을 참조 하세요.
 
- [C++ 만] 포함 된 [BP_LOCATION_CODE_ADDRESS](../../../extensibility/debugger/reference/bp-location-code-address.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_CODE_ADDRESS`합니다.
+`unionmember3`\
+[C# 만] 해석 하는 방법에 대 한 설명을 참조 하세요.
 
-`bpLocation.bplocDataString`
-
- [C++ 만] 포함 된 [BP_LOCATION_DATA_STRING](../../../extensibility/debugger/reference/bp-location-data-string.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_DATA_STRING`합니다.
-
-`bpLocation.bplocResolution`
-
- [C++ 만] 포함 된 [BP_LOCATION_RESOLUTION](../../../extensibility/debugger/reference/bp-location-resolution.md) 하는 경우 구조체 `bpLocationType`  =  `BPLT_RESOLUTION`합니다.
-
-`unionmember1`
-
- [C# 만] 해석 하는 방법에 대 한 설명을 참조 하세요.
-
-`unionmember2`
-
- [C# 만] 해석 하는 방법에 대 한 설명을 참조 하세요.
-
-`unionmember3`
-
- [C# 만] 해석 하는 방법에 대 한 설명을 참조 하세요.
-
-`unionmember4`
-
- [C# 만] 해석 하는 방법에 대 한 설명을 참조 하세요.
+`unionmember4`\
+[C# 만] 해석 하는 방법에 대 한 설명을 참조 하세요.
 
 ## <a name="remarks"></a>설명
 이 구조체의 멤버인 합니다 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) 하 고 [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md) 구조입니다.
@@ -145,7 +138,7 @@ namespace MyPackage
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
 - [BP_LOCATION_CODE_FILE_LINE](../../../extensibility/debugger/reference/bp-location-code-file-line.md)

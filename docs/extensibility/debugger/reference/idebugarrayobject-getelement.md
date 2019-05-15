@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 735b92bb649344c055f7a645b961925e3cbd4d6e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 5550a1f1e83b9343a031df39728675db07de3559
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62924050"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615167"
 ---
 # <a name="idebugarrayobjectgetelement"></a>IDebugArrayObject::GetElement
 배열의 요소를 가져옵니다.
@@ -38,14 +41,12 @@ int GetElement(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwIndex`
+## <a name="parameters"></a>매개 변수
+`dwIndex`\
+[in] 요소의 인덱스입니다.
 
- [in] 요소의 인덱스입니다.
-
- `ppElement`
-
- [out] 반환 된 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 요소를 나타내는 인터페이스입니다.
+`ppElement`\
+[out] 반환 된 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 요소를 나타내는 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -53,5 +54,5 @@ int GetElement(
 ## <a name="remarks"></a>설명
  이 메서드는 배열 개체는 다차원 배열 하는 경우에 모든 배열 개체 요소의 1 차원 배열에으로 간주 합니다. 예를 들어, 배열의 지정 된 `myarray[3][2][6]` 및 `dwIndex` 20의 매개 변수를이 메서드는 반환 요소 `myarray[1][1][2]`, 및 `dwIndex` 21의 매개 변수에서 요소 반환 `myarray[1][1][3]`합니다. 사용 된 [GetCount](../../../extensibility/debugger/reference/idebugarrayobject-getcount.md) 배열에 있는 요소의 총 수를 확인 하는 방법입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)
