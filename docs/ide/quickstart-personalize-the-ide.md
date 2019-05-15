@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a43ade295d14934f452123407f9896eebdaf26c7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: eccbc834f4038ec18c2f84244488b81a59ecbfbf
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62953408"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531566"
 ---
 # <a name="personalize-the-visual-studio-ide-and-editor"></a>Visual Studio IDE 및 편집기 개인 설정
 
@@ -117,5 +117,5 @@ Visual Studio에서 색을 사용자 지정하는 몇 가지 방법을 살펴보
 
 ## <a name="see-also"></a>참고 항목
 
-- [편집기 사용자 지정](../ide/customizing-the-editor.md)
+- [편집기 사용자 지정](../ide/how-to-change-text-case-in-the-editor.md)
 - [Visual Studio IDE 개요](../get-started/visual-studio-ide.md)

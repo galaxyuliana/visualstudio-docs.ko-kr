@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c3a799337c098a8ce04bbb5dff0eb3eb046b04f4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9bea23307c5d35e997f41e4ec9cbfd41fa41bdee
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62810582"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65455119"
 ---
 # <a name="sample-xsd-file-purchase-order-schema"></a>샘플 XSD 파일: 구매 주문 스키마
 
@@ -86,3 +86,6 @@ ms.locfileid: "62810582"
   </xsd:complexType>
 </xsd:schema>
 ```
+
+> [!NOTE]
+> 이 문서에 사용된 예제 회사, 조직, 제품, 도메인 이름, 전자 메일 주소, 로고, 사람, 장소 및 이벤트는 실제 데이터가 아닙니다. 어떠한 실제 회사, 조직, 제품, 도메인 이름, 전자 메일 주소, 로고, 사람, 장소 또는 이벤트와도 연관시킬 의도가 없으며 그렇게 유추해서도 안 됩니다.

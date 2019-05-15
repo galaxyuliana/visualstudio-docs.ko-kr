@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: 1f055925a4da916bf88da802e7a4991b0362b057
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5c46506e81e5334efea9060e957269e92e9d49cc
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62789440"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531927"
 ---
 # <a name="use-expression-body-or-block-body-for-lambda-expressions"></a>람다 식에 식 본문 또는 블록 본문 사용
 
@@ -24,7 +24,7 @@ ms.locfileid: "62789440"
 
 **내용:** 식 본문 또는 블록 본문을 사용하도록 람다 식을 리팩터링할 수 있습니다.
 
-**시기:** 식 본문 또는 블록 본문 중 하나를 사용하려면 람다 식을 사용하는 것이 좋습니다. 
+**시기:** 식 본문 또는 블록 본문 중 하나를 사용하려면 람다 식을 사용하는 것이 좋습니다.
 
 **이유:** 사용자 기본 설정에 따라 가독성을 개선하기 위해 람다 식을 리팩터링할 수 있습니다.
 
@@ -40,4 +40,4 @@ ms.locfileid: "62789440"
 ## <a name="see-also"></a>참고 항목
 
 - [리팩터링](../refactoring-in-visual-studio.md)
-- [.NET 개발자를 위한 팁](../../ide/visual-studio-2017-for-dotnet-developers.md)
+- [.NET 개발자를 위한 팁](../csharp-developer-productivity.md)

@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f0ebc1e4707b0240791524cb0b6b4ba75be897cd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7936f5a4de6b9feef64819ed85efb7d2ae55002e
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62789594"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531540"
 ---
 # <a name="how-to-change-fonts-and-colors-for-the-editor-in-visual-studio"></a>방법: Visual Studio에서 편집기의 글꼴 및 색 변경
 
@@ -50,7 +50,6 @@ ms.locfileid: "62789594"
 
 ## <a name="see-also"></a>참고 항목
 
-- [편집기 사용자 지정](../../ide/customizing-the-editor.md)
 - [텍스트 편집기 옵션 대화 상자](../../ide/reference/text-editor-options-dialog-box.md)
 - [코드 편집기의 기능](../../ide/writing-code-in-the-code-and-text-editor.md)
 - [방법: Visual Studio에서 글꼴 및 색 변경](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)

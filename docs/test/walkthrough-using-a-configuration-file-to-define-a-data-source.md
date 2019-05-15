@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a64d6e46a674ad068c2a90eaf6b011a038d2e46e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ccb2400b209fa7902e8fde8dd7ba601e465a840d
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62976204"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461470"
 ---
 # <a name="walkthrough-using-a-configuration-file-to-define-a-data-source"></a>연습: 구성 파일을 사용하여 데이터 원본 정의
 
@@ -62,16 +62,16 @@ ms.locfileid: "62976204"
 
 2. **configSections** 요소 내에 **section** 요소를 만듭니다.
 
-3. **section** 요소에서 `name`이라는 특성을 추가하고 여기에 `microsoft.visualstudio.testtools` 값을 할당합니다. `type`이라는 다른 특성을 추가하고 여기에 `Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a` 값을 할당합니다.
+3. **section** 요소에서 `name`이라는 특성을 추가하고 여기에 `microsoft.visualstudio.testtools` 값을 할당합니다. `type`이라는 다른 특성을 추가하고 여기에 `Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions` 값을 할당합니다.
 
 **section** 요소는 다음과 유사하게 표시됩니다.
 
 ```xml
-<section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+<section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions" />
 ```
 
 > [!NOTE]
-> 어셈블리 이름은 사용 중인 Microsoft Visual Studio .NET Framework 빌드와 일치해야 합니다. Visual Studio .NET Framework 3.5를 사용 중인 경우 버전을 9.0.0.0으로 설정합니다. Visual Studio .NET Framework 2.0을 사용 중인 경우 버전을 8.0.0.0으로 설정합니다.
+> 어셈블리 이름은 사용 중인 Microsoft Visual Studio .NET Framework 빌드와 일치해야 합니다.
 
 ## <a name="define-connection-strings"></a>연결 문자열 정의
 

@@ -12,12 +12,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 4196916958de2df4f9c3a12f030b22d712e87502
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5a87b5d98d9f3b7453cf0337d529b9ef99815d92
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62974240"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65614507"
 ---
 # <a name="command-line-parameter-examples-for-visual-studio-installation"></a>Visual Studio 설치에 대한 명령줄 매개 변수 예
 
@@ -67,7 +67,21 @@ ms.locfileid: "62974240"
 * 배치 파일 또는 스크립트에서 다음 명령을 실행하기 전에 Visual Studio 설치 관리자가 완료될 때까지 기다리는 데 사용합니다. 일괄 처리 파일의 경우 [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md) 페이지에 나오는 대로 `%ERRORLEVEL%` 환경 변수가 명령의 반환 값을 포함합니다. 일부 명령 유틸리티는 추가 매개 변수가 있어야 완료될 때까지 기다리고 설치 관리자의 반환 값을 가져올 수 있습니다. 다음은 PowerShell 스크립트 명령 ‘Start-Process’와 함께 사용되는 추가 매개 변수에 대한 예제입니다.
 
    ```cmd
-   $exitCode = Start-Process -FilePath vs_enterprise.exe -ArgumentList "install", "--quiet", "--wait" -Wait -PassThru
+   start /wait vs_professional.exe --installPath "C:\VS" --passive --wait > nul
+   echo %errorlevel%
+   ```
+   ```PS
+   $exitCode = Start-Process -FilePath vs_enterprise.exe -ArgumentList "--installPath", "C:\VS", "--passive", "--wait" -Wait -PassThru
+   ```
+   또는
+   ```PS
+    $startInfo = New-Object System.Diagnostics.ProcessStartInfo
+    $startInfo.FileName = "vs_enterprise.exe"
+    $startInfo.Arguments = "--all --quiet --wait" 
+    $process = New-Object System.Diagnostics.Process
+    $process.StartInfo = $startInfo
+    $process.Start() 
+    $process.WaitForExit()
    ```
 
 * 첫 번째 ‘--wait’는 Visual Studio 설치 관리자에서 사용되며, 두 번째 ‘-Wait’는 ‘Start-Process’에서 완료될 때까지 기다리는 데 사용됩니다. ‘-PassThru’ 매개 변수는 ‘Start-Process’에서 해당 반환 값의 설치 관리자 종료 코드를 사용하는 데 필요합니다.

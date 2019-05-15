@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: 0ce1b620a6d8aba7e4aea767745891dff6d9f869
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9124054dec08fde94ec98ca9e3ebdfb6e48d7384
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62790050"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531624"
 ---
 # <a name="generate-usings-in-visual-studio"></a>Visual Studio에서 usings 생성
 
@@ -32,7 +32,7 @@ ms.locfileid: "62790050"
 
 1. 필요한 `using` 문을 포함하지 않고 한 파일의 코드를 복사해 새 파일에 붙여넣습니다. 결과로 나타나는 오류는 누락된 `using` 문을 추가하는 코드 수정이 수반됩니다.
 
-    > [!NOTE] 
+    > [!NOTE]
     > 이 제안은 **도구 > 옵션 > 텍스트 편집기 > C# > 고급 > Using 지시문**에서 사용 설정해야 합니다.
 
 2. Ctrl+.를 선택하여 **빠른 작업 및 리팩터링** 메뉴를 엽니다.
@@ -47,4 +47,4 @@ ms.locfileid: "62790050"
 
 - [코드 생성](../code-generation-in-visual-studio.md)
 - [변경 내용 미리 보기](../../ide/preview-changes.md)
-- [.NET 개발자를 위한 팁](../../ide/visual-studio-2017-for-dotnet-developers.md)
+- [.NET 개발자를 위한 팁](../csharp-developer-productivity.md)

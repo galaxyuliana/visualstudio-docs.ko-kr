@@ -29,12 +29,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9a7bcf7b57c6cdc7e0ff4ff5a851397b7c96b345
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 986c52a365abcb1780b741af61414bfc758413db
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62778665"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531919"
 ---
 # <a name="options-text-editor-general"></a>일반, 텍스트 편집기, 옵션
 
@@ -96,5 +96,5 @@ ms.locfileid: "62778665"
 - [옵션, 텍스트 편집기, 모든 언어, 탭](../../ide/reference/options-text-editor-all-languages-tabs.md)
 - [옵션, 텍스트 편집기, 파일 확장명](../../ide/reference/options-text-editor-file-extension.md)
 - [바로 가기 키 식별 및 사용자 지정](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
-- [편집기 사용자 지정](../../ide/customizing-the-editor.md)
+- [편집기 사용자 지정](../how-to-change-text-case-in-the-editor.md)
 - [IntelliSense 사용](../../ide/using-intellisense.md)

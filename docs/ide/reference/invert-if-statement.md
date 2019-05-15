@@ -10,12 +10,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 5a809eee1eb5460e245f64156385f759870adbd3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a0419100cbc5fcd543eb250fa85cbfe2ebd1c97f
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62970272"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531583"
 ---
 # <a name="invert-if-statement"></a>if 문 반전
 
@@ -47,4 +47,4 @@ ms.locfileid: "62970272"
 ## <a name="see-also"></a>참고 항목
 
 - [리팩터링](../refactoring-in-visual-studio.md)
-- [.NET 개발자를 위한 팁](../../ide/visual-studio-2017-for-dotnet-developers.md)
+- [.NET 개발자를 위한 팁](../csharp-developer-productivity.md)

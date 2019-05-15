@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2d99d6ccfb7b5a310726fdb1cf2dbfebd6591bef
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a9ee5bb8d69cf3482105150f4ec62cb6ad167d7a
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62989849"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531549"
 ---
 # <a name="setting-language-specific-editor-options"></a>언어별 편집기 옵션 설정
 
@@ -54,6 +54,6 @@ Visual Studio에서는 특정 프로그래밍 언어에 적용되는 다양한 �
 
 ## <a name="see-also"></a>참고 항목
 
-- [편집기 사용자 지정](../../ide/customizing-the-editor.md)
+- [편집기 사용자 지정](../how-to-change-text-case-in-the-editor.md)
 - [EditorConfig를 사용하여 휴대용, 사용자 지정 편집기 설정 만들기](../../ide/create-portable-custom-editor-options.md)
 - [Visual Studio IDE 개인 설정](../../ide/personalizing-the-visual-studio-ide.md)

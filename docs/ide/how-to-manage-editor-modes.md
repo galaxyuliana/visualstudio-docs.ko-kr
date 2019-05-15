@@ -24,12 +24,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 57987b67a2fa081ebaa577f10de478b5fd250aca
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 39873fdd1bc41b32a69909a1061ec3fc7fb63b67
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62429784"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531901"
 ---
 # <a name="how-to-manage-editor-modes"></a>방법: 편집기 모드 관리
 
@@ -63,6 +63,5 @@ Visual Studio 코드 편집기를 다양한 표시 모드로 표시할 수 있�
 
 ## <a name="see-also"></a>참고 항목
 
-- [편집기 사용자 지정](../ide/customizing-the-editor.md)
 - [Visual Studio에서 창 레이아웃 사용자 지정](../ide/customizing-window-layouts-in-visual-studio.md)
 - [글꼴 및 색, 환경, 옵션 대화 상자](../ide/reference/fonts-and-colors-environment-options-dialog-box.md)
