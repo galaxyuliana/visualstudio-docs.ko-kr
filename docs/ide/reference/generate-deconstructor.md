@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: 2ca2d3a0c174fa4c7d0f66d3abc440b8c9aa93cf
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5a3a89d15d05b44575fede98d3043d706b24c1d9
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62790311"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531893"
 ---
 # <a name="generate-a-deconstructor-in-visual-studio"></a>Visual Studio에서 분해자 생성
 
@@ -52,4 +52,4 @@ ms.locfileid: "62790311"
 
 - [코드 생성](../code-generation-in-visual-studio.md)
 - [변경 내용 미리 보기](../../ide/preview-changes.md)
-- [.NET 개발자를 위한 팁](../../ide/visual-studio-2017-for-dotnet-developers.md)
+- [.NET 개발자를 위한 팁](../csharp-developer-productivity.md)

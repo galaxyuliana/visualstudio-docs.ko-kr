@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cd3c5d9c1d17bd8a0dae4969c7203902747a8c8b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e07f6a1094658f575f4e805798ee468c5c829238
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62789781"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531569"
 ---
 # <a name="how-to-display-line-numbers-in-the-editor"></a>방법: 편집기에 줄 번호 표시
 
@@ -37,6 +37,5 @@ ms.locfileid: "62789781"
 
 ## <a name="see-also"></a>참고 항목
 
-- [편집기 사용자 지정](../../ide/customizing-the-editor.md)
 - [옵션 대화 상자, 텍스트 편집기](../../ide/reference/text-editor-options-dialog-box.md)
 - [코드 편집기의 기능](../../ide/writing-code-in-the-code-and-text-editor.md)

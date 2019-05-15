@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: f0b9685ce6d4cf8ee6d4253c79759508cf43915e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7893ed676372cce94d883353139de91ef639aeb0
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62968492"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531842"
 ---
 # <a name="convert-a-foreach-loop-to-linq"></a>foreach 루프를 LINQ로 변환
 
@@ -44,9 +44,9 @@ ms.locfileid: "62968492"
 3. **LINQ로 변환** 또는 **Linq(호출 양식)로 변환**을 선택합니다.
 
    ![LINQ 쿼리 결과 샘플](media/convert-foreach-to-LINQ-result.png)
-   
+
    ![LINQ 호출 양식 결과 샘플](media/convert-foreach-to-LINQ-callform-result.png)
-   
+
 ### <a name="sample-code"></a>샘플 코드
 
 ```csharp
@@ -79,4 +79,4 @@ public class Class1
 
 - [리팩터링](../refactoring-in-visual-studio.md)
 - [변경 내용 미리 보기 창](../../ide/preview-changes.md)
-- [.NET 개발자를 위한 팁](../../ide/visual-studio-2017-for-dotnet-developers.md)
+- [.NET 개발자를 위한 팁](../csharp-developer-productivity.md)
