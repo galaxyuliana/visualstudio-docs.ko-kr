@@ -35,6 +35,8 @@
       href: install/install-visual-studio-versions-side-by-side.md
     - name: 설치 위치 선택
       href: install/change-installation-locations.md
+    - name: 설치 구성 가져오기 또는 내보내기
+      href: install/import-export-installation-configurations.md
     - name: 설치 문제 해결
       href: install/troubleshooting-installation-issues.md
     - name: Visual Studio 업데이트
@@ -63,8 +65,6 @@
               href: install/create-a-network-installation-of-visual-studio.md
             - name: Visual Studio의 네트워크 기반 설치 업데이트
               href: install/update-a-network-installation-of-visual-studio.md
-            - name: 설치 구성 가져오기 또는 내보내기
-              href: install/import-export-installation-configurations.md
             - name: 네트워크 고려 사항
               items:
                 - name: 방화벽 또는 프록시 서버 뒤에 Visual Studio 설치 및 사용
