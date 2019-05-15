@@ -34,12 +34,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3f9150a815f424c0b4a7bfe5f2e92ea7cd424ddb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a284c3630b60d5fc2211064524d87259b1f8349f
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62902165"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65614519"
 ---
 # <a name="use-breakpoints-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 중단점을 사용 합니다.
 중단점은 개발자의 도구 상자에서 가장 중요 한 디버깅 기술 중 하나입니다. 디버거가 실행을 일시 중지 하려는 위치에 중단점을 설정 합니다. 예를 들어, 다음 코드 변수의 상태를 보거나 특정 중단점에서 호출 스택을 확인 하는 것이 좋습니다. 코드를 처음으로 디버그하려고 하는 경우 이 문서를 계속 진행하기 전에 먼저 [완전 초보자를 위한 디버깅](../debugger/debugging-absolute-beginners.md)을 참조하는 것이 좋습니다.
@@ -267,7 +267,7 @@ C# 코드, 중단점 및 현재 실행 줄은 자동으로 강조 합니다. 에
 
 2. 디버깅을 시작 하 고 실행이 중단점에서 일시 중지 하는 경우 선택 **디버깅할** > **Windows** > **지역** 또는 **Alt** + **4** 열려는 합니다 **지역** 창입니다.
 
-   중단점을 찾을 합니다 **지역** 창에서 마우스 오른쪽 단추로 클릭 하 고 선택 **개체 ID 만들기**합니다.
+   특정 개체 인스턴스를 찾을 합니다 **지역** 창에서 마우스 오른쪽 단추로 클릭 하 고 선택 **개체 ID 만들기**합니다.
 
     **$** 창에 **지역** 창에서 중단점을 설정하여 호출 함수가 반환되는 명령이나 줄에서 실행을 중단할 수 있습니다. 이는 개체 ID입니다.
 
