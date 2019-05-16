@@ -20,12 +20,12 @@ caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9a2a7dac47731626407b34e49a3e0085d1a91b4d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0292bf5b62bf150a598b4c750929ba6928216a50
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108570"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691263"
 ---
 # <a name="debugging-linq"></a>LINQ 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "60108570"
 ## <a name="BKMK_ViewingLINQResults"></a> LINQ 결과 보기  
  DataTips, 조사식 창 및 간략한 조사식 대화 상자를 사용하여 LINQ 명령문의 결과를 볼 수 있습니다. 소스 창을 사용할 때 포인터를 소스 창의 쿼리 위에 올려 놓으면 DataTip이 나타납니다. LINQ 변수를 복사하여 조사식 창이나 간략한 조사식 대화 상자에 붙여 넣을 수 있습니다.  
   
- LINQ에서는 쿼리가 만들어지거나 선언될 때 계산되지 않고 쿼리가 사용될 때만 계산됩니다. 따라서 쿼리가 계산되기 전까지는 쿼리에 값이 없습니다. 쿼리 작성 및 평가 대 한 자세한 내용은 참조 하세요. [LINQ 쿼리 (C#) 소개](http://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8) 하거나 [Your 첫 번째 LINQ 쿼리를 작성 하도록](http://msdn.microsoft.com/library/4affb732-3e9b-4479-aa31-1f9bd8183cbe)합니다.  
+ LINQ에서는 쿼리가 만들어지거나 선언될 때 계산되지 않고 쿼리가 사용될 때만 계산됩니다. 따라서 쿼리가 계산되기 전까지는 쿼리에 값이 없습니다. 쿼리 작성 및 평가 대 한 자세한 내용은 참조 하세요. [LINQ 쿼리 (C#) 소개](https://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8) 하거나 [Your 첫 번째 LINQ 쿼리를 작성 하도록](https://msdn.microsoft.com/library/4affb732-3e9b-4479-aa31-1f9bd8183cbe)합니다.  
   
  쿼리 결과를 표시하려면 디버거에서 쿼리를 계산해야 합니다. 디버거에서 LINQ 쿼리 결과를 보면 이러한 암시적 계산이 수행되며, 여기에는 몇 가지 주의 사항이 있습니다.  
   
@@ -50,7 +50,7 @@ ms.locfileid: "60108570"
  LINQ to SQL 쿼리의 경우 디버거에서 조건자 코드를 제어할 수 없습니다. 따라서 조건자 코드를 한 단계씩 실행할 수 없습니다. 식 트리로 컴파일되는 모든 쿼리는 디버거에서 제어할 수 없는 코드를 생성합니다.  
   
 ### <a name="stepping-in-visual-basic"></a>Visual Basic에서 단계별 실행  
- Visual Basic 프로그램을 단계별로 실행할 때 디버거에서 쿼리 선언이 나오면 선언이 한 단계씩 실행되지 않고 전체 선언이 단일 문으로 강조 표시됩니다. 이는 쿼리가 호출될 때까지 쿼리가 계산되지 않기 때문입니다. 자세한 내용은 [Visual Basic의 LINQ 소개](http://msdn.microsoft.com/library/3047d86e-0d49-40e2-928b-dc02e46c7984)합니다.  
+ Visual Basic 프로그램을 단계별로 실행할 때 디버거에서 쿼리 선언이 나오면 선언이 한 단계씩 실행되지 않고 전체 선언이 단일 문으로 강조 표시됩니다. 이는 쿼리가 호출될 때까지 쿼리가 계산되지 않기 때문입니다. 자세한 내용은 [Visual Basic의 LINQ 소개](https://msdn.microsoft.com/library/3047d86e-0d49-40e2-928b-dc02e46c7984)합니다.  
   
  다음 예제 코드를 단계별로 실행하면 디버거에서 쿼리 선언(쿼리 생성)을 단일 문으로 강조 표시합니다.  
   
@@ -117,8 +117,8 @@ End Function
  Visual Basic에서는 메서드에 LINQ 쿼리가 들어 있는 경우에도 LINQ가 아닌 코드에 대해 편집하며 계속하기를 사용할 수 있습니다. LINQ 쿼리의 줄 번호가 변경의 영향을 받는 경우에도 LINQ 명령문 앞에서 코드를 추가하거나 제거할 수 있습니다. Visual Basic에서 LINQ가 아닌 코드에 대한 디버깅 환경은 LINQ가 도입되기 전과 동일합니다. 그러나 디버깅을 중지하고 변경 내용을 적용하려는 경우가 아니면 LINQ 쿼리를 변경, 추가 또는 제거할 수 없습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [SQL 디버깅](http://msdn.microsoft.com/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
- [Side Effects and Expressions](http://msdn.microsoft.com/library/e1f8a6ea-9e19-481d-b6bd-df120ad3bf4e)   
+ [SQL 디버깅](https://msdn.microsoft.com/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
+ [Side Effects and Expressions](https://msdn.microsoft.com/library/e1f8a6ea-9e19-481d-b6bd-df120ad3bf4e)   
  [디버거를 사용한 예외 관리](../debugger/managing-exceptions-with-the-debugger.md)   
- [LINQ 쿼리 소개(C#)](http://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)   
- [Visual Basic의 LINQ 소개](http://msdn.microsoft.com/library/3047d86e-0d49-40e2-928b-dc02e46c7984)
+ [LINQ 쿼리 소개(C#)](https://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)   
+ [Visual Basic의 LINQ 소개](https://msdn.microsoft.com/library/3047d86e-0d49-40e2-928b-dc02e46c7984)

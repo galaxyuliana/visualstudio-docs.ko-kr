@@ -23,12 +23,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dea8565810a904ff80a0790a9b219f3744b1e156
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 5f9968b14eaf74a00a66d8fb7c86890938ddfa4b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425397"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692550"
 ---
 # <a name="read-xml-data-into-a-dataset"></a>XML 데이터를 데이터 세트에 읽어오기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 5. XML 파일에 따라 XML 스키마를 표시 하는 코드 추가 <xref:System.Windows.Forms.TextBox> 컨트롤  
   
 > [!NOTE]
-> 대화 상자와 메뉴 명령은 활성 설정 또는 버전에 따라 도움말에서 설명 된 것과 다를 수 표시를 사용 합니다. 설정을 변경 하는 **도구** 메뉴에서**설정 가져오기 및 내보내기**합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 대화 상자와 메뉴 명령은 활성 설정 또는 버전에 따라 도움말에서 설명 된 것과 다를 수 표시를 사용 합니다. 설정을 변경 하는 **도구** 메뉴에서**설정 가져오기 및 내보내기**합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기  
  이 단계에서는이 연습을 포함 하는 Visual Basic 또는 Visual C# 프로젝트를 만듭니다.  
@@ -59,7 +59,7 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
   
 2. 프로젝트 이름을 `ReadingXML`로 지정합니다.  
   
-3. 선택 **Windows 응용 프로그램**를 선택한 후 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
+3. 선택 **Windows 응용 프로그램**를 선택한 후 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](https://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
   
      합니다 **ReadingXML** 프로젝트에 추가한 생성 **솔루션 탐색기**합니다.  
   
@@ -246,7 +246,7 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 - 데이터 집합에서 데이터를 편집 하 고 데이터베이스에 작성 합니다.
   
 ## <a name="see-also"></a>참고 항목  
- [데이터 연습](http://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
+ [데이터 연습](https://msdn.microsoft.com/library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)   
- [데이터를 받기 위해 애플리케이션 준비](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
+ [데이터를 받기 위해 애플리케이션 준비](https://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Visual Studio의 XML 도구](../xml-tools/xml-tools-in-visual-studio.md)

@@ -19,12 +19,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d794e135c38858522c19c6842573445ab9fb669f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 132aa0f37cc63e6afe2eff61a6d0f6dec5b200b5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425014"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692442"
 ---
 # <a name="save-data-to-a-database-multiple-tables"></a>데이터베이스에 데이터 저장(여러 테이블)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "63425014"
  TableAdapter의 `Update` 메서드를 호출하여 응용 프로그램의 데이터를 데이터베이스에 다시 저장할 수 있습니다. 테이블을 끌면 합니다 **데이터 원본** 창에서 폼에 데이터를 저장 하는 데 필요한 코드를 자동으로 추가 됩니다. 이 코드를 수동으로 추가 해야 하는 추가 테이블이 있는 폼에 추가 됩니다. 이 연습에서는 둘 이상의 테이블에서 업데이트를 저장하는 코드를 추가하는 방법을 보여줍니다.  
   
 > [!NOTE]
-> 대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에서 설명 하는 것에서 다 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에서 설명 하는 것에서 다 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  이 연습에서 설명하는 작업은 다음과 같습니다.  
   
 - 새로 만들 **Windows 응용 프로그램** 프로젝트입니다.  
   
-- 만들기 및 사용 하 여 응용 프로그램에서 데이터 원본을 구성 합니다 [데이터 소스 구성 마법사](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f)합니다.  
+- 만들기 및 사용 하 여 응용 프로그램에서 데이터 원본을 구성 합니다 [데이터 소스 구성 마법사](https://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f)합니다.  
   
-- 에 있는 항목의 컨트롤을 설정 합니다 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)합니다. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.  
+- 에 있는 항목의 컨트롤을 설정 합니다 [데이터 소스 창](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)합니다. 자세한 내용은 [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)합니다.  
   
 - **데이터 원본** 창에서 폼으로 항목을 끌어 데이터 바인딩된 컨트롤을 만듭니다.  
   
@@ -64,7 +64,7 @@ ms.locfileid: "63425014"
   
 2. 프로젝트 이름을 `UpdateMultipleTablesWalkthrough`로 지정합니다.  
   
-3. 선택 **Windows 응용 프로그램**를 선택한 후 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
+3. 선택 **Windows 응용 프로그램**를 선택한 후 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](https://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
   
      **UpdateMultipleTablesWalkthrough** 프로젝트가 만들어져 **솔루션 탐색기**에 추가됩니다.  
   
@@ -126,7 +126,7 @@ ms.locfileid: "63425014"
  **Customers** 및 **Orders** TableAdapters의 `Update` 메서드를 호출하여 데이터베이스를 업데이트할 수 있습니다. 기본적으로 대 한 이벤트 처리기를 **저장** 단추를<xref:System.Windows.Forms.BindingNavigator> 데이터베이스로 업데이트를 보내는 폼의 코드에 추가 됩니다. 이 절차에서는 올바른 순서로 업데이트를 보내는 코드를 수정 합니다. 이 참조 무결성 오류 발생 가능성을 제거 합니다. 또한 이 코드는 try-catch 블록에서 업데이트 호출을 래핑하여 오류 처리를 구현합니다. 응용 프로그램의 요구 사항에 맞게 코드를 수정할 수 있습니다.  
   
 > [!NOTE]
-> 이해를 돕기 위해이 연습에는 트랜잭션을 사용 하지 않습니다. 그러나 두 업데이트 하는 경우 테이블 관련 트랜잭션 내에서 모든 업데이트 논리를 포함 합니다. 트랜잭션은 모든 변경 내용이 커밋되기 전에 모든 관련된 변경 내용이 데이터베이스에는 성공적으로 만드는 프로세스입니다. 자세한 내용은 [트랜잭션 및 동시성](http://msdn.microsoft.com/library/f46570de-9e50-4fe6-8710-a8c31fa8569b)합니다.  
+> 이해를 돕기 위해이 연습에는 트랜잭션을 사용 하지 않습니다. 그러나 두 업데이트 하는 경우 테이블 관련 트랜잭션 내에서 모든 업데이트 논리를 포함 합니다. 트랜잭션은 모든 변경 내용이 커밋되기 전에 모든 관련된 변경 내용이 데이터베이스에는 성공적으로 만드는 프로세스입니다. 자세한 내용은 [트랜잭션 및 동시성](https://msdn.microsoft.com/library/f46570de-9e50-4fe6-8710-a8c31fa8569b)합니다.  
   
 #### <a name="to-add-update-logic-to-the-application"></a>응용 프로그램에 업데이트 논리를 추가하려면  
   
@@ -152,9 +152,9 @@ ms.locfileid: "63425014"
 ## <a name="next-steps"></a>다음 단계  
  응용 프로그램 요구 사항에 따라 일부의 단계가 있습니다 Windows 응용 프로그램에서 데이터 바인딩된 폼을 만든 후 수행 하는 것이 좋습니다. 이 연습에서 보완할 수 있는 사항은 다음과 같습니다.  
   
-- 폼에 검색 기능을 추가합니다. 자세한 내용은 [방법: 매개 변수가 있는 쿼리는 Windows Forms 응용 프로그램 추가](http://msdn.microsoft.com/library/13db4ad3-56b9-4a0b-b3a5-6a4ff84d4416)합니다.  
+- 폼에 검색 기능을 추가합니다. 자세한 내용은 [방법: 매개 변수가 있는 쿼리는 Windows Forms 응용 프로그램 추가](https://msdn.microsoft.com/library/13db4ad3-56b9-4a0b-b3a5-6a4ff84d4416)합니다.  
   
-- 데이터 소스를 편집하여 데이터베이스 개체를 추가하거나 편집합니다. 자세한 내용은 [방법: 데이터 집합 편집](http://msdn.microsoft.com/library/f2dade5f-9c7a-4ddb-96a8-e0a39e50bfd3)합니다.  
+- 데이터 소스를 편집하여 데이터베이스 개체를 추가하거나 편집합니다. 자세한 내용은 [방법: 데이터 집합 편집](https://msdn.microsoft.com/library/f2dade5f-9c7a-4ddb-96a8-e0a39e50bfd3)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)

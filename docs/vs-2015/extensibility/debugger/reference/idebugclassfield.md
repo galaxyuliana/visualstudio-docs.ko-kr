@@ -12,12 +12,12 @@ ms.assetid: 49358cbc-8973-4862-9dcc-79b1248e6712
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e062bcfd3b607fe48e2f2c5609b350a463c2f437
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2bd5dfaea68abae6730a97efdff088ca6e7c7a00
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985857"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696984"
 ---
 # <a name="idebugclassfield"></a>IDebugClassField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugClassField : IDebugContainerField
  기호 공급자를 구현 하는 동일한 개체에서이 인터페이스를 구현 합니다 [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) 인터페이스입니다. 이 인터페이스는 클래스 형식을 나타내는 특수화입니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 여러 가지 인터페이스를 비롯 하 여이 인터페이스를 반환할 수 있는 방법이 [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)를 [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), 및 [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)합니다. 또한 사용할 수 있습니다 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에서이 인터페이스를 가져올 수 합니다 [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) 인터페이스의 [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) 메서드 플래그를 반환 합니다. `FIELD_TYPE_CLASS`합니다.  
+ 여러 가지 인터페이스를 비롯 하 여이 인터페이스를 반환할 수 있는 방법이 [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md)를 [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), 및 [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)합니다. 또한 사용할 수 있습니다 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에서이 인터페이스를 가져올 수 합니다 [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) 인터페이스의 [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) 메서드 플래그를 반환 합니다. `FIELD_TYPE_CLASS`합니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  메서드 외에도 합니다 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 및 [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) 인터페이스에서이 인터페이스에서 다음을 구현 합니다.  

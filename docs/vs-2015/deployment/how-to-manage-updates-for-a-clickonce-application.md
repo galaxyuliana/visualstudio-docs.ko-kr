@@ -20,12 +20,12 @@ caps.latest.revision: 15
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6ff014a1e8d7a43e84e0b10ee8d7d42e7fa975ae
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0754d816104832f92a0be8d754046d1ee18e7a09
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082752"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697644"
 ---
 # <a name="how-to-manage-updates-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션에 대한 업데이트 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,7 +110,7 @@ ms.locfileid: "60082752"
   
 ## <a name="see-also"></a>참고 항목  
  <xref:System.Deployment.Application.ApplicationDeployment>   
- [응용 프로그램 업데이트 대화 상자](http://msdn.microsoft.com/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)   
+ [응용 프로그램 업데이트 대화 상자](https://msdn.microsoft.com/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)   
  [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)   
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   
  [방법: 게시 마법사를 사용 하 여 ClickOnce 응용 프로그램 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   

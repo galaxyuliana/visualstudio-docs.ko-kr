@@ -18,12 +18,12 @@ caps.latest.revision: 31
 author: kraigb
 ms.author: kraigb
 manager: jillfra
-ms.openlocfilehash: 194dae93e3a013da366d454582b531a2cc4ff8b6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 1fe975fedb8237762d7dadffceff22203dcb899e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096337"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696388"
 ---
 # <a name="how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades"></a>방법: 실패 한 Visual Studio 프로젝트 업그레이드 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,4 +57,4 @@ ms.locfileid: "60096337"
    프로젝트를 업그레이드된 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전에서 실행하려면 프로젝트에 대한 참조를 업데이트하고 참조를 호출하는 `Imports` 또는 `Using` 문도 업데이트해야 합니다. IDE에서 프로젝트가 로드되는 경우 **솔루션 탐색기** 또는 **참조 관리자** 대화 상자를 사용하여 참조를 업데이트할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
- [/ Upgrade (devenv.exe)](../ide/reference/upgrade-devenv-exe.md) [을 ASP.NET 4로 변환](http://msdn.microsoft.com/library/790147c6-36c1-41b5-a52d-30b9ccd2bd10)
+ [/ Upgrade (devenv.exe)](../ide/reference/upgrade-devenv-exe.md) [을 ASP.NET 4로 변환](https://msdn.microsoft.com/library/790147c6-36c1-41b5-a52d-30b9ccd2bd10)

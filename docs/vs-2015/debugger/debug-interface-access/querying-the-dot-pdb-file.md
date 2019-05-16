@@ -14,17 +14,17 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3cb95da9bc6405d313aa32e208d68df4327db6f4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 9b9013d41ac4d5ca890e7cc9e09b5eb9415cb640
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60087900"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691326"
 ---
 # <a name="querying-the-pdb-file"></a>.Pdb 파일 쿼리
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-프로그램 데이터베이스 파일 (확장 확장자는.pdb) 이진 파일 형식 및 컴파일 및 연결 프로젝트 과정에서 수집 된 기호 디버깅 정보를 포함 하는 경우 C를 컴파일할 때 PDB 파일을 만들 /C++ 사용 하 여 프로그래밍 **/ZI** 또는 **/Zi** 또는 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)]를 [!INCLUDE[csprcs](../../includes/csprcs-md.md)], 또는 [!INCLUDE[jsprjscript](../../includes/jsprjscript-md.md)] 사용 하 여 프로그래밍 합니다 **디버그**옵션입니다. 개체 파일에는 디버깅 정보에 대 한.pdb 파일에 대 한 참조를 포함 합니다. Pdb 파일에 대 한 자세한 내용은 참조 하세요. [PDB 파일](http://msdn.microsoft.com/1761c84e-8c2c-4632-9649-b5f99964ed3f)합니다. DIA 응용 프로그램을 다음과 같은 일반적인 단계를 사용 하 여 다양 한 기호, 개체 및 실행 가능 이미지 내의 데이터 요소에 대 한 자세한 정보를 얻을 수 있습니다.  
+프로그램 데이터베이스 파일 (확장 확장자는.pdb) 이진 파일 형식 및 컴파일 및 연결 프로젝트 과정에서 수집 된 기호 디버깅 정보를 포함 하는 경우 C를 컴파일할 때 PDB 파일을 만들 /C++ 사용 하 여 프로그래밍 **/ZI** 또는 **/Zi** 또는 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)]를 [!INCLUDE[csprcs](../../includes/csprcs-md.md)], 또는 [!INCLUDE[jsprjscript](../../includes/jsprjscript-md.md)] 사용 하 여 프로그래밍 합니다 **디버그**옵션입니다. 개체 파일에는 디버깅 정보에 대 한.pdb 파일에 대 한 참조를 포함 합니다. Pdb 파일에 대 한 자세한 내용은 참조 하세요. [PDB 파일](https://msdn.microsoft.com/1761c84e-8c2c-4632-9649-b5f99964ed3f)합니다. DIA 응용 프로그램을 다음과 같은 일반적인 단계를 사용 하 여 다양 한 기호, 개체 및 실행 가능 이미지 내의 데이터 요소에 대 한 자세한 정보를 얻을 수 있습니다.  
   
 ### <a name="to-query-the-pdb-file"></a>.Pdb 파일 쿼리  
   

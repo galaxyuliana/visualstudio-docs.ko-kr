@@ -17,12 +17,12 @@ caps.latest.revision: 51
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b6c4ae0082d76b4eb9e58561daec48d196438bac
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 57a370dd8fd243deba8db9b9a928202d25c7836d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63424742"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675622"
 ---
 # <a name="walkthrough-creating-an-n-tier-data-application"></a>연습: N 계층 데이터 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
   
 - **데이터 원본 구성 마법사**를 사용하여 형식화된 데이터 세트를 만듭니다.  
   
-- 생성 된 구분 [Tableadapter](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) 및 데이터 집합 코드를 별도 프로젝트로 합니다.  
+- 생성 된 구분 [Tableadapter](https://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364) 및 데이터 집합 코드를 별도 프로젝트로 합니다.  
   
 - 데이터 액세스 계층으로 호출할 WCF(Windows Communication Foundation) 서비스를 만듭니다.  
   
@@ -381,7 +381,7 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
 ## <a name="next-steps"></a>다음 단계  
  응용 프로그램 요구 사항에 따라 Windows 기반 응용 프로그램에서 관련 데이터를 저장한 후 몇 단계를 더 수행해야 할 수도 있습니다. 예를 들어 이 응용 프로그램을 다음과 같이 개선할 수 있습니다.  
   
-- 데이터 집합에 유효성 검사 기능을 추가합니다. 내용은 [연습: N 계층 데이터 응용 프로그램에 유효성 검사 추가](http://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265)합니다.  
+- 데이터 집합에 유효성 검사 기능을 추가합니다. 내용은 [연습: N 계층 데이터 응용 프로그램에 유효성 검사 추가](https://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265)합니다.  
   
 - 데이터를 데이터베이스로 다시 업데이트하기 위한 추가 메서드를 서비스에 추가합니다.  
   

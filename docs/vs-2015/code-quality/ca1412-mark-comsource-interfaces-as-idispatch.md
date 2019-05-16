@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 59fec1fddb16296f1238deb5c2f9bbf0c350cdd2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: d72dd7e143720ce4ef2fce364a7e5ed3529ff9f3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985325"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691987"
 ---
 # <a name="ca1412-mark-comsource-interfaces-as-idispatch"></a>CA1412: ComSource 인터페이스를 IDispatch로 표시하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,4 +54,4 @@ ms.locfileid: "58985325"
  [CA1408: AutoDual ClassInterfaceType을 사용 하지 마십시오](../code-quality/ca1408-do-not-use-autodual-classinterfacetype.md)
 
 ## <a name="see-also"></a>참고 항목
- [방법: COM 싱크에서 처리 하는 이벤트를 발생 시킬](http://msdn.microsoft.com/7c9944b2-e951-4c3e-a0a1-59b2ae37d7fd) [비관리 코드와의 상호 운용](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
+ [방법: COM 싱크에서 처리 하는 이벤트를 발생 시킬](https://msdn.microsoft.com/7c9944b2-e951-4c3e-a0a1-59b2ae37d7fd) [비관리 코드와의 상호 운용](https://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)

@@ -20,12 +20,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: fcac3461d0c6dc1c05671eed1ac641c7da6790ef
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 08480e46ab492acb1c7ab10c8514897721708aba
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62559200"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692463"
 ---
 # <a name="save-data-in-a-transaction"></a>트랜잭션에 데이터 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,12 +44,12 @@ ms.locfileid: "62559200"
   
 2. 프로젝트 이름을 **SavingDataInATransactionWalkthrough**합니다.  
   
-3. 선택 **Windows 응용 프로그램**를 선택한 후 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
+3. 선택 **Windows 응용 프로그램**를 선택한 후 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](https://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
   
      **SavingDataInATransactionWalkthrough** 프로젝트가 만들어져 **솔루션 탐색기**에 추가됩니다.  
   
 ## <a name="create-a-database-data-source"></a>데이터베이스 데이터 원본 만들기  
- 이 단계에서는 합니다 [데이터 소스 구성 마법사](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) 기반으로 데이터 원본을 만들려면 합니다 `Customers` 및 `Orders` Northwind 샘플 데이터베이스의 테이블입니다.  
+ 이 단계에서는 합니다 [데이터 소스 구성 마법사](https://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) 기반으로 데이터 원본을 만들려면 합니다 `Customers` 및 `Orders` Northwind 샘플 데이터베이스의 테이블입니다.  
   
 #### <a name="to-create-the-data-source"></a>데이터 소스를 만들려면  
   

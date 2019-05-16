@@ -16,12 +16,12 @@ caps.latest.revision: 8
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 189e5c622d19ce3e122e01bfbe4b886bd2a830b7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: e974269cccb65db66ee59735f7acc5de494e2106
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063389"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697828"
 ---
 # <a name="mixed-mode-debugging-for-x64-processes-is-only-supported-when-using-microsoftnet-framework-4-or-greater"></a>x64 프로세스의 혼합 모드 디버깅은 Microsoft.NET Framework 4 이상을 사용할 때만 지원됩니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +58,7 @@ NET Framework 버전 이전 4 보다 지원을 제공 하지 않습니다 x64 �
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
-- 참조 [SQL 디버깅 설정](http://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3)합니다.  
+- 참조 [SQL 디버깅 설정](https://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [64비트 응용 프로그램 디버그](../debugger/debug-64-bit-applications.md)

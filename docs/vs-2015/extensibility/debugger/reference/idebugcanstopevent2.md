@@ -12,12 +12,12 @@ ms.assetid: 784bd5b1-4a3f-4455-b313-c4c9a82555a5
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f8e92ecd6e99f9fe369157c92dd4d964f86da97a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: bc4ac1f3a8d9b470fbb3734f822601a7dce08a44
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981031"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696676"
 ---
 # <a name="idebugcanstopevent2"></a>IDebugCanStopEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ IDebugCanStopEvent2 : IUknown
 ```  
   
 ## <a name="notes-for-implementers"></a>구현자 참고 사항  
- 디버그 엔진 (DE) 소스 코드를 한 단계씩 실행을 지원 하기 위해이 인터페이스를 구현 합니다. [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) 이 인터페이스와 동일한 개체에서 인터페이스를 구현 해야 (SDM 사용 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 액세스 하는 `IDebugEvent2` 인터페이스).  
+ 디버그 엔진 (DE) 소스 코드를 한 단계씩 실행을 지원 하기 위해이 인터페이스를 구현 합니다. [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) 이 인터페이스와 동일한 개체에서 인터페이스를 구현 해야 (SDM 사용 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 액세스 하는 `IDebugEvent2` 인터페이스).  
   
  SDM의 호출을 통신 해야 하는이 인터페이스의 구현을 [CanStop](../../../extensibility/debugger/reference/idebugcanstopevent2-canstop.md) 디버그 엔진에 있습니다. 예를 들어 스레드를 처리 하는 디버그 엔진의 메시지를 게시 하는 메시지를 사용 하 여이 작업을 수행할 수 있습니다 또는이 인터페이스를 구현 하는 개체 수 디버그 엔진에 대 한 참조를 저장 및 콜백할 디버그 엔진에 전달 하는 플래그를 사용 하 여 `IDebugCanStopEvent2::CanStop`입니다.  
   

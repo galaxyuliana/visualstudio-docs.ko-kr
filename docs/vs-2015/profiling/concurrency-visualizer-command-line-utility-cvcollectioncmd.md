@@ -11,12 +11,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4282b865bbe85a70e1565e17987600da5c7960e5
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 5f664b1bf2af89d8c3f6e06792039571f4211236
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444046"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692753"
 ---
 # <a name="concurrency-visualizer-command-line-utility-cvcollectioncmd"></a>동시성 시각화 도우미 명령줄 유틸리티(CVCollectionCmd)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "63444046"
   
 |옵션|설명|매개 변수|반환 값|  
 |------------|-----------------|----------------|-------------------|  
-|Query|수집을 시작할 수 있는지 여부를 반환합니다.|없음|수집을 시작할 준비가 되면 0입니다.<br /><br /> 수집이 이미 진행 중이면 1입니다.<br /><br /> 수집이 진행되고 있지는 않지만 필수 [ETW](http://msdn.microsoft.com/library/ac99a063-e2d2-40cc-b659-d23c2f783f92) 세션 중 하나 이상이 이미 활성화되었으면 2입니다.|  
+|Query|수집을 시작할 수 있는지 여부를 반환합니다.|없음|수집을 시작할 준비가 되면 0입니다.<br /><br /> 수집이 이미 진행 중이면 1입니다.<br /><br /> 수집이 진행되고 있지는 않지만 필수 [ETW](https://msdn.microsoft.com/library/ac99a063-e2d2-40cc-b659-d23c2f783f92) 세션 중 하나 이상이 이미 활성화되었으면 2입니다.|  
 |Launch|Concurrency 시각화 도우미 아래에서 지정한 프로세스를 실행합니다.|실행 파일의 경로|실행에 성공한 경우 0입니다.<br /><br /> 대상 애플리케이션을 시작할 수 없어 실행에 실패한 경우 1입니다.<br /><br /> CVCollectionCmd에 지정한 출력 디렉토리에 쓸 수 있는 충분한 권한이 없어 실행에 실패한 경우 13입니다.|  
 |연결|시스템 차원에서 추적 수집을 시작합니다. 그렇지 않고 프로세스가 지정되어 있으면 해당 프로세스에 연결합니다.|없음|연결에 성공한 경우 0입니다.<br /><br /> 지정한 프로세스가 잘못되었거나 모호해서 연결에 실패한 경우 1입니다.<br /><br /> CVCollectionCmd에 지정한 출력 디렉토리에 쓸 수 있는 충분한 권한이 없어 연결에 실패한 경우 13입니다.|  
 |Detach|수집을 중지합니다.|없음|분리에 성공한 경우 0입니다.<br /><br /> 현재 수집이 진행되고 있지 않아 분리에 실패한 경우 1입니다.<br /><br /> 수집을 중지할 수 없어 분리에 실패한 경우 2입니다.|  

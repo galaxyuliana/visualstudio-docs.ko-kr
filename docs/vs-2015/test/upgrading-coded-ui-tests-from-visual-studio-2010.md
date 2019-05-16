@@ -8,12 +8,12 @@ ms.assetid: 11232a83-73ea-46bd-bc0c-46f74f6e3a42
 caps.latest.revision: 35
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 42db6024353e3b26ddcaf6b5fa838ff791d964f4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4ab38f4fc7e0269c1073e71fae9975b240da33f2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445899"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695096"
 ---
 # <a name="upgrading-coded-ui-tests-from-visual-studio-2010"></a>Visual Studio 2010에서 코딩된 UI 테스트 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "63445899"
 - Visual Studio Enterprise
 
 > [!NOTE]
-> Visual Studio에는 둘 이상의 테스트 프로젝트 형식이 있습니다. 코딩된 UI 테스트를 새로 만드는 경우 코딩된 UI 테스트 프로젝트 형식으로 만들어집니다. 자세한 내용은 [이전 버전의 Visual Studio에서 테스트 업그레이드](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)를 참조하세요.
+> Visual Studio에는 둘 이상의 테스트 프로젝트 형식이 있습니다. 코딩된 UI 테스트를 새로 만드는 경우 코딩된 UI 테스트 프로젝트 형식으로 만들어집니다. 자세한 내용은 [이전 버전의 Visual Studio에서 테스트 업그레이드](https://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)를 참조하세요.
 
 > [!WARNING]
 > 코딩된 UI 테스트를 포함하는[!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 테스트 프로젝트는 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 에서 열거나 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] 와 함께 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]에서 여는 경우 다시 작성해야 합니다.
@@ -64,4 +64,4 @@ ms.locfileid: "63445899"
 - **부하 테스트:** 네트워크 에뮬레이터 드라이버로 컴퓨터에서 로컬 영역 네트워크 (LAN) 프로필이 아닌 다른 네트워크 형식과 함께 부하 테스트를 실행 하면이 Windows 8을 실행 하면 운영 체제가 충돌 합니다. 자세한 내용은 [기술 자료 문서 2736182](http://support.microsoft.com/kb/2736182)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [포팅, 마이그레이션 및 Visual Studio 프로젝트를 업그레이드](../porting/porting-migrating-and-upgrading-visual-studio-projects.md) [이전 버전의 Visual Studio에서 테스트 업그레이드](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52) [UI 자동화를 사용 하 여 코드를 테스트 하려면](../test/use-ui-automation-to-test-your-code.md) [생성을 코딩 된 UI 테스트에서 기존 작업 기록](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497) [코딩 된 UI 테스트 및 작업 기록에 대 한 구성 및 플랫폼 지원](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+ [포팅, 마이그레이션 및 Visual Studio 프로젝트를 업그레이드](../porting/porting-migrating-and-upgrading-visual-studio-projects.md) [이전 버전의 Visual Studio에서 테스트 업그레이드](https://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52) [UI 자동화를 사용 하 여 코드를 테스트 하려면](../test/use-ui-automation-to-test-your-code.md) [생성을 코딩 된 UI 테스트에서 기존 작업 기록](https://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497) [코딩 된 UI 테스트 및 작업 기록에 대 한 구성 및 플랫폼 지원](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

@@ -11,15 +11,15 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0db5cba76f464e559f46963afd0be6b663ad6d6f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9ebfcf53ce4d03f676930bd905baa0723c17e481
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63407867"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697087"
 ---
 # <a name="how-to-use-the-variable-designer"></a>방법: 변수 디자이너 사용
-변수 디자이너는 데이터 바인딩 시나리오 및 조건문에 사용할 변수를 만드는 데 사용됩니다. 클릭 하 여 디자이너에 액세스할 합니다 **변수** 디자인 캔버스의 왼쪽 아래 모서리에 있는 단추입니다. 디자이너에 테이블 형식 폼에 표시 하 고 정렬할 수 있습니다 각 열 머리글을 제외 하 고 있는 변수 목록을 포함 합니다 **기본** 열입니다. 각 변수에는 이름, 변수 형식, 범위 및 기본값(있는 경우)이 포함됩니다. 이름 및 기본값은 편집 가능한 텍스트 필드이며 형식과 범위는 드롭다운입니다. 범위란 변수 디자이너를 호출할 때 선택한 활동입니다. 선택 항목의 범위 안에서 변수를 만들 수 없는 경우, 선택 항목과 가장 근접하면서 변수를 만들 수 있는 상위 활동 범위가 기본 범위로 사용됩니다. [!INCLUDE[crabout](../includes/crabout-md.md)] 변수를 참조 하세요 [변수 및 인수](http://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)합니다.  
+변수 디자이너는 데이터 바인딩 시나리오 및 조건문에 사용할 변수를 만드는 데 사용됩니다. 클릭 하 여 디자이너에 액세스할 합니다 **변수** 디자인 캔버스의 왼쪽 아래 모서리에 있는 단추입니다. 디자이너에 테이블 형식 폼에 표시 하 고 정렬할 수 있습니다 각 열 머리글을 제외 하 고 있는 변수 목록을 포함 합니다 **기본** 열입니다. 각 변수에는 이름, 변수 형식, 범위 및 기본값(있는 경우)이 포함됩니다. 이름 및 기본값은 편집 가능한 텍스트 필드이며 형식과 범위는 드롭다운입니다. 범위란 변수 디자이너를 호출할 때 선택한 활동입니다. 선택 항목의 범위 안에서 변수를 만들 수 없는 경우, 선택 항목과 가장 근접하면서 변수를 만들 수 있는 상위 활동 범위가 기본 범위로 사용됩니다. [!INCLUDE[crabout](../includes/crabout-md.md)] 변수를 참조 하세요 [변수 및 인수](https://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)합니다.  
   
  정렬 순서는 사용자가 정렬 컨트롤 중 하나를 명시적으로 사용하거나, 변수 디자이너를 닫았다가 다시 열거나, 다른 변수를 만들어야 적용됩니다.  
   
@@ -38,5 +38,5 @@ ms.locfileid: "63407867"
   
 ## <a name="see-also"></a>참고 항목  
  [워크플로 디자이너 사용](../workflow-designer/using-the-workflow-designer.md)   
- [변수 및 인수](http://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)   
+ [변수 및 인수](https://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)   
  [방법: 인수 디자이너 사용](../workflow-designer/how-to-use-the-argument-designer.md)

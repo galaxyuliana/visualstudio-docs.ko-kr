@@ -12,12 +12,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7694f0f725af8a20ff3a5a01753b0669c0fd5d9f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: bfee16abf522284471baf4c8dc8b3c47468a032e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60067354"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701486"
 ---
 # <a name="compiling-and-building-in-visual-studio"></a>Visual Studio에서 컴파일 및 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,10 +33,10 @@ Visual Studio를 사용하여 개발 주기 동안 잦은 간격으로 애플리
 |------------------|--------------|--------------------------|
 |IDE 사용|-   보다 쉽게 즉시 빌드를 만들고 실행할 수 있습니다.<br />-   C++ 및 C# 프로젝트에 대해 다중 프로세서 빌드를 실행할 수 있습니다.<br />-   빌드 시스템의 일부 측면을 사용자 지정할 수 있습니다.|[Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)|
 |MSBuild 명령줄 실행|-   Visual Studio를 설치하지 않고도 프로젝트를 빌드할 수 있습니다.<br />-   모든 프로젝트 형식에 대해 다중 프로세서 빌드를 실행할 수 있습니다.<br />-   빌드 시스템의 영역 대부분을 사용자 지정할 수 있습니다.|[MSBuild](../msbuild/msbuild.md)|
-|Team Foundation Build 사용|-   빌드 프로세스를 자동화할 수 있습니다. 예를 들어 밤마다 또는 코드를 체크 인할 때마다 하나 이상의 프로젝트를 빌드할 수 있습니다. 개발 컴퓨터 대신 공유 빌드 서버에서 프로젝트를 빌드할 수도 있습니다.<br />-   빌드하려는 코드, 실행하려는 테스트 및 기타 공통 옵션을 빠르게 지정할 수 있습니다.<br />-   빌드 워크플로를 수정하고 필요에 따라 빌드 작업을 만들어 사용자 지정 수준이 높은 작업을 수행할 수 있습니다.|[애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)|
+|Team Foundation Build 사용|-   빌드 프로세스를 자동화할 수 있습니다. 예를 들어 밤마다 또는 코드를 체크 인할 때마다 하나 이상의 프로젝트를 빌드할 수 있습니다. 개발 컴퓨터 대신 공유 빌드 서버에서 프로젝트를 빌드할 수도 있습니다.<br />-   빌드하려는 코드, 실행하려는 테스트 및 기타 공통 옵션을 빠르게 지정할 수 있습니다.<br />-   빌드 워크플로를 수정하고 필요에 따라 빌드 작업을 만들어 사용자 지정 수준이 높은 작업을 수행할 수 있습니다.|[애플리케이션 빌드](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)|
 
 ## <a name="building-from-the-ide"></a>IDE에서 빌드
- 프로젝트를 만들면 기본 빌드 구성이 정의되고 빌드에 대한 컨텍스트를 제공하기 위해 솔루션 빌드 구성이 할당됩니다. 솔루션 구성은 솔루션의 프로젝트가 빌드 및 배포되는 방법을 정의합니다. 프로젝트 구성은 플랫폼 및 빌드 형식(예: 릴리스 Win32)에 대해 고유한 프로젝트 속성 집합입니다. 이러한 기본 구성을 편집하고 자신만의 구성을 만들 수 있습니다. 자세한 내용은 [프로젝트 디자이너 소개](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7) 고 [NIB 방법: 프로젝트 속성 및 구성 설정 수정](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)합니다.
+ 프로젝트를 만들면 기본 빌드 구성이 정의되고 빌드에 대한 컨텍스트를 제공하기 위해 솔루션 빌드 구성이 할당됩니다. 솔루션 구성은 솔루션의 프로젝트가 빌드 및 배포되는 방법을 정의합니다. 프로젝트 구성은 플랫폼 및 빌드 형식(예: 릴리스 Win32)에 대해 고유한 프로젝트 속성 집합입니다. 이러한 기본 구성을 편집하고 자신만의 구성을 만들 수 있습니다. 자세한 내용은 [프로젝트 디자이너 소개](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7) 고 [NIB 방법: 프로젝트 속성 및 구성 설정 수정](https://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)합니다.
 
  IDE 내에서 수행할 수 있는 추가 작업은 다음과 같습니다.
 
@@ -53,4 +53,4 @@ Visual Studio를 사용하여 개발 주기 동안 잦은 간격으로 애플리
 - 병렬 빌드를 사용하여 빌드 성능 개선. 자세한 내용은 [병렬로 여러 프로젝트 빌드](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md) 또는 블로그 게시물 [Tuning C++ build parallelism](http://blogs.msdn.com/b/msbuild/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx)(C++ 빌드 병렬 처리 조정)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [연습: 응용 프로그램 빌드](../ide/walkthrough-building-an-application.md) [빌드 구성 이해](../ide/understanding-build-configurations.md) [빌드 플랫폼 이해](../ide/understanding-build-platforms.md) [(컴파일) 웹 사이트 프로젝트 빌드](http://msdn.microsoft.com/library/a9cbb88c-8fff-4c67-848b-98fbfd823193) [ 어떻게: 프로젝트 종속성 만들기 및 제거](../ide/how-to-create-and-remove-project-dependencies.md)
+ [연습: 응용 프로그램 빌드](../ide/walkthrough-building-an-application.md) [빌드 구성 이해](../ide/understanding-build-configurations.md) [빌드 플랫폼 이해](../ide/understanding-build-platforms.md) [(컴파일) 웹 사이트 프로젝트 빌드](https://msdn.microsoft.com/library/a9cbb88c-8fff-4c67-848b-98fbfd823193) [ 어떻게: 프로젝트 종속성 만들기 및 제거](../ide/how-to-create-and-remove-project-dependencies.md)

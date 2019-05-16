@@ -11,12 +11,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1cd9619eae1f0c74cb7b8096d6c51163157d934c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: dbc05ccbf78069b6c9d155274b471100a4966a10
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042056"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692242"
 ---
 # <a name="develop-tests-from-a-model"></a>모델에서 테스트 개발
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "60042056"
   
  하위 시스템 테스트는 시스템의 주요 구성 요소에 동일한 원칙을 적용합니다. 각 구성 요소가 다른 구성 요소와 별도로 테스트됩니다. 하위 시스템 테스트는 구성 요소의 사용자 인터페이스 또는 API에 표시되는 동작에 중점을 둡니다.  
   
- 테스트를 실행 하는 방법에 대 한 자세한 내용은 참조 하세요. [응용 프로그램 테스트](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)합니다.  
+ 테스트를 실행 하는 방법에 대 한 자세한 내용은 참조 하세요. [응용 프로그램 테스트](https://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)합니다.  
   
 ## <a name="deriving-system-tests-from-a-requirements-model"></a>요구 사항 모델에서 시스템 테스트 파생  
  시스템 테스트와 요구 사항 모델 간의 관계를 만들고 유지 관리할 수 있습니다. 이 관계를 설정하려면 요구 사항 모델의 주요 요소에 해당하는 테스트를 작성합니다. Visual Studio는 테스트 및 모델 파트 간에 링크를 만들 수 있도록 하여 해당 관계의 유지 관리를 도와줍니다. 요구 사항 모델에 대 한 자세한 내용은 참조 하세요. [사용자 요구 사항 모델](../modeling/model-user-requirements.md)합니다.  
@@ -63,9 +63,9 @@ ms.locfileid: "60042056"
   
 ###### <a name="to-link-tests-to-a-use-case"></a>사용 사례에 테스트를 연결하려면  
   
-1. [!INCLUDE[TCMlong](../includes/tcmlong-md.md)]에서 요구 사항을 만들고 요구 사항에 따라 테스트 도구 모음을 만듭니다. 내용은 작업을 수행 하는 방법을 알아보려면 [응용 프로그램 테스트](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)합니다.  
+1. [!INCLUDE[TCMlong](../includes/tcmlong-md.md)]에서 요구 사항을 만들고 요구 사항에 따라 테스트 도구 모음을 만듭니다. 내용은 작업을 수행 하는 방법을 알아보려면 [응용 프로그램 테스트](https://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)합니다.  
   
-    만드는 요구 사항은 [!INCLUDE[vstsTfsShort](../includes/vststfsshort-md.md)]에서 작업 항목이 됩니다. 프로젝트가 [!INCLUDE[esprfound](../includes/esprfound-md.md)]에서 사용하는 프로세스 템플릿에 따라 사용자 스토리, 요구 사항 또는 사용 사례 작업 항목일 수 있습니다. 자세한 내용은 [Visual Studio Team Services 또는 Team Foundation Server를 사용 하 여 작업 추적](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)합니다.  
+    만드는 요구 사항은 [!INCLUDE[vstsTfsShort](../includes/vststfsshort-md.md)]에서 작업 항목이 됩니다. 프로젝트가 [!INCLUDE[esprfound](../includes/esprfound-md.md)]에서 사용하는 프로세스 템플릿에 따라 사용자 스토리, 요구 사항 또는 사용 사례 작업 항목일 수 있습니다. 자세한 내용은 [Visual Studio Team Services 또는 Team Foundation Server를 사용 하 여 작업 추적](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)합니다.  
   
 2. 모델에서 하나 이상의 사용 사례에 요구 사항 작업 항목을 연결합니다.  
   
@@ -106,7 +106,7 @@ Assert (countAfter == countBefore = 1);
   
  대부분의 접근자와 업데이트 프로그램은 응용 프로그램의 일반 API를 통해 이미 사용할 수 있습니다. 그러나 테스트를 사용하도록 설정하기 위해 일부 추가 함수를 작성해야 할 수도 있습니다. 이러한 추가 접근자와 업데이트 프로그램을 '테스트 계측'이라고도 합니다. 접근자와 업데이트 프로그램은 시스템의 내부 디자인에 의존하므로 시스템 개발자가 제공해야 하는 반면, 테스터는 요구 사항 모델과 관련해서 테스트 코드를 작성합니다.  
   
- 자동화된 테스트를 작성하는 경우 일반 테스트를 사용하여 접근자와 업데이트 프로그램을 래핑할 수 있습니다. 자세한 내용은 [실행 파일 사용 하 여 제네릭 테스트는 자동화 된 테스트는 실행 만들기](http://msdn.microsoft.com/library/b8dadaf4-4473-49c5-a0d9-46eca9e65d52)합니다.  
+ 자동화된 테스트를 작성하는 경우 일반 테스트를 사용하여 접근자와 업데이트 프로그램을 래핑할 수 있습니다. 자세한 내용은 [실행 파일 사용 하 여 제네릭 테스트는 자동화 된 테스트는 실행 만들기](https://msdn.microsoft.com/library/b8dadaf4-4473-49c5-a0d9-46eca9e65d52)합니다.  
   
 ### <a name="tests-for-business-rules"></a>비즈니스 규칙 테스트  
  일부 요구 사항은 하나의 특정 사용 사례와 직접 관련되지 않습니다. 예를 들어 DinnerNow 비즈니스에서는 고객이 많은 메뉴에서 선택할 수 있지만 각 주문에서 선택된 모든 항목은 단일 메뉴에 속해야 합니다. 이 비즈니스 규칙은 요구 사항 클래스 모델에서 주문, 메뉴 및 항목 간의 연결에 대한 고정으로 표현될 수 있습니다.  
@@ -164,9 +164,9 @@ Assert (countAfter == countBefore = 1);
   
 #### <a name="to-link-tests-to-a-model-element-or-relationship"></a>모델 요소 또는 관계에 테스트를 연결하려면  
   
-1. [!INCLUDE[TCMlong](../includes/tcmlong-md.md)]에서 요구 사항을 만들고 요구 사항에 따라 테스트 도구 모음을 만듭니다. 내용은 작업을 수행 하는 방법을 알아보려면 [응용 프로그램 테스트](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)합니다.  
+1. [!INCLUDE[TCMlong](../includes/tcmlong-md.md)]에서 요구 사항을 만들고 요구 사항에 따라 테스트 도구 모음을 만듭니다. 내용은 작업을 수행 하는 방법을 알아보려면 [응용 프로그램 테스트](https://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)합니다.  
   
-     만드는 요구 사항은 [!INCLUDE[vstsTfsShort](../includes/vststfsshort-md.md)]에서 작업 항목이 됩니다. 프로젝트가 [!INCLUDE[esprfound](../includes/esprfound-md.md)]에서 사용하는 프로세스 템플릿에 따라 사용자 스토리, 요구 사항 또는 사용 사례 작업 항목일 수 있습니다. 자세한 내용은 [Visual Studio Team Services 또는 Team Foundation Server를 사용 하 여 작업 추적](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)합니다.  
+     만드는 요구 사항은 [!INCLUDE[vstsTfsShort](../includes/vststfsshort-md.md)]에서 작업 항목이 됩니다. 프로젝트가 [!INCLUDE[esprfound](../includes/esprfound-md.md)]에서 사용하는 프로세스 템플릿에 따라 사용자 스토리, 요구 사항 또는 사용 사례 작업 항목일 수 있습니다. 자세한 내용은 [Visual Studio Team Services 또는 Team Foundation Server를 사용 하 여 작업 추적](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)합니다.  
   
 2. 모델에서 하나 이상의 요소에 요구 사항 작업 항목을 연결합니다.  
   
