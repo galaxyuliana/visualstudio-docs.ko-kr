@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1063a94ad2ff08942ec191e9162b4b2d506bb048
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 7596706fea9447e831d12084c8d390120a9163c7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63403453"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690024"
 ---
 # <a name="working-with-elements-in-xaml-designer"></a>Working with elements in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "63403453"
 컨트롤, 레이아웃 및 모양 등의 요소를 XAML 앱에 코드로 추가하거나 XAML 디자이너를 사용하여 추가할 수 있습니다. 이 항목에서는 Visual Studio 또는 Blend for Visual Studio의 XAML 디자이너에서 요소에 대해 작업하는 방법을 설명합니다.  
   
 ## <a name="adding-an-element-to-a-layout"></a>레이아웃에 요소 추가  
- *레이아웃*은 UI에서 요소의 크기를 조정하고 배치하는 프로세스입니다. 시각적 요소를 배치하려면 [패널](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.panel.aspx) 레이아웃에 가져다 놓아야 합니다. `Panel`에는 [FrameworkElement](http://msdn.microsoft.com/library/windows/apps/br208706.aspx) 형식의 컬렉션인 자식 속성이 있습니다. [Canvas](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.canvas.aspx), [StackPanel](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.stackpanel.aspx) 및 [Grid](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx)와 같은 다양한 `Panel` 자식 요소를 사용하여 레이아웃 컨테이너 역할을 하고, 페이지에서 요소를 배치 및 정렬할 수 있습니다.  
+ *레이아웃*은 UI에서 요소의 크기를 조정하고 배치하는 프로세스입니다. 시각적 요소를 배치하려면 [패널](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.panel.aspx) 레이아웃에 가져다 놓아야 합니다. `Panel`에는 [FrameworkElement](https://msdn.microsoft.com/library/windows/apps/br208706.aspx) 형식의 컬렉션인 자식 속성이 있습니다. [Canvas](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.canvas.aspx), [StackPanel](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.stackpanel.aspx) 및 [Grid](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx)와 같은 다양한 `Panel` 자식 요소를 사용하여 레이아웃 컨테이너 역할을 하고, 페이지에서 요소를 배치 및 정렬할 수 있습니다.  
   
  기본적으로는 `Grid` 패널은 페이지 또는 폼 내에서 최상위 레이아웃 컨테이너로 사용됩니다. 최상위 페이지 레이아웃 내에서 레이아웃 패널, 컨트롤 또는 다른 요소를 추가할 수 있습니다.  
   
@@ -34,7 +34,7 @@ ms.locfileid: "63403453"
   
     - 요소를 **도구 상자**에서 아트보드로 끌어 놓습니다.  
   
-    - **도구 상자**에서 그리기 도구(예: [타원](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) 또는 [사각형](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)) 중 하나를 선택한 다음 활성 패널에서 요소를 그립니다.  
+    - **도구 상자**에서 그리기 도구(예: [타원](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) 또는 [사각형](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)) 중 하나를 선택한 다음 활성 패널에서 요소를 그립니다.  
   
 ## <a name="changing-the-layering-order-of-elements"></a>요소의 쌓기 순서 변경  
  XAML 디자이너의 아트보드에 두 요소가 있는 경우 한 요소가 쌓기 순서 대로 다른 요소 앞에 표시됩니다. [문서 개요] 창의 요소 목록 아래쪽에는 맨 앞의 요소가 있습니다(요소에 대해 **ZIndex** 속성이 설정된 경우 제외). 페이지, 폼 또는 레이아웃 컨테이너에 요소를 삽입할 때 요소가 활성 컨테이너 요소의 다른 요소 앞에 자동으로 배치됩니다. 요소의 순서를 변경하려면 **Order** 명령을 사용하거나 [문서 개요] 창의 개체 트리에서 요소를 끌면 됩니다.  

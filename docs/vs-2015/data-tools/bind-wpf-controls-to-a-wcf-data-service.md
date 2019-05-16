@@ -18,12 +18,12 @@ caps.latest.revision: 44
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: aa0735f25b7e6b0007172c8c42eb06222a0425fb
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: fb08a016261ac0836ba6dd2dde5d8b0812aab806
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63439468"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704912"
 ---
 # <a name="bind-wpf-controls-to-a-wcf-data-service"></a>WCF 데이터 서비스에 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,15 +53,15 @@ ms.locfileid: "63439468"
   
   또한 다음 개념에 대한 지식은 연습을 완료하는 데 반드시 필요하지는 않지만 사전에 파악해 두면 유용할 수 있습니다.  
   
-- WCF Data Services. 자세한 내용은 [개요](http://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb)합니다.  
+- WCF Data Services. 자세한 내용은 [개요](https://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb)합니다.  
   
 - [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)]의 데이터 모델  
   
-- 엔터티 데이터 모델 및 ADO.NET Entity Framework 자세한 내용은 [Entity Framework 개요](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0)합니다.  
+- 엔터티 데이터 모델 및 ADO.NET Entity Framework 자세한 내용은 [Entity Framework 개요](https://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0)합니다.  
   
-- WPF 디자이너 사용법. 자세한 내용은 [WPF 및 Silverlight 디자이너 개요](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)합니다.  
+- WPF 디자이너 사용법. 자세한 내용은 [WPF 및 Silverlight 디자이너 개요](https://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)합니다.  
   
-- WPF 데이터 바인딩. 자세한 내용은 [데이터 바인딩 개요](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211)를 참조하세요.  
+- WPF 데이터 바인딩. 자세한 내용은 [데이터 바인딩 개요](https://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211)를 참조하세요.  
   
 ## <a name="create-the-service-project"></a>서비스 프로젝트를 만들려면  
  이 연습에서는 먼저 [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]용 프로젝트를 만듭니다.  
@@ -326,7 +326,7 @@ ms.locfileid: "63439468"
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Visual Studio에서 데이터에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [데이터 집합에 WPF 컨트롤 바인딩](../data-tools/bind-wpf-controls-to-a-dataset.md)   
- [개요](http://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb)   
- [Entity Framework 개요](http://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0)   
- [WPF 및 Silverlight 디자이너 개요](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)   
- [데이터 바인딩 개요](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211)
+ [개요](https://msdn.microsoft.com/library/7924cf94-c9a6-4015-afc9-f5d22b1743bb)   
+ [Entity Framework 개요](https://msdn.microsoft.com/library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0)   
+ [WPF 및 Silverlight 디자이너 개요](https://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)   
+ [데이터 바인딩 개요](https://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211)

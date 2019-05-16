@@ -20,12 +20,12 @@ caps.latest.revision: 52
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 91e2c0f91d3234dd9f96a29cc914ae9e4d3847b6
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: a41c0c48eea4b766a9166922b2a89dfa1740e8bd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63438379"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697620"
 ---
 # <a name="html-ui-responsiveness"></a>HTML UI 응답성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -324,7 +324,7 @@ if (performance.mark && performance.measure) {
   
 - **이미지 디코딩.** 이미지의 압축을 풀고 디코딩하는 데 걸린 시간을 나타냅니다.  
   
-  스크립트 및 스타일 지정 범주의 경우, UI 응답성 프로파일러에서 시간 표시 막대 정보 그래프에 작업할 수 있는 데이터를 제공할 수 있습니다. 스크립팅 이슈를 문제로 식별한 경우, UI 응답성 프로파일러로 CPU 샘플링 프로파일러를 실행할 수 있습니다. 또는 Visual Studio 함수 프로파일러를 사용하여 보다 자세한 데이터를 얻을 수도 있습니다. 자세한 내용은 [JavaScript 함수 타이밍 데이터 분석](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)을 참조하세요.  
+  스크립트 및 스타일 지정 범주의 경우, UI 응답성 프로파일러에서 시간 표시 막대 정보 그래프에 작업할 수 있는 데이터를 제공할 수 있습니다. 스크립팅 이슈를 문제로 식별한 경우, UI 응답성 프로파일러로 CPU 샘플링 프로파일러를 실행할 수 있습니다. 또는 Visual Studio 함수 프로파일러를 사용하여 보다 자세한 데이터를 얻을 수도 있습니다. 자세한 내용은 [JavaScript 함수 타이밍 데이터 분석](https://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)을 참조하세요.  
   
   다른 이벤트 범주의 경우 앱에 기능을 추가하여 발생하는 플랫폼의 의도하지 않은 결과를 식별할 수 있지만, 이 경우 UI 응답 프로파일러를 사용하여 특정 성능 문제를 해결할 수는 없습니다.  
   
@@ -358,9 +358,9 @@ if (performance.mark && performance.measure) {
   
 - UI 응답성 프로파일러에 대한 Build 2013 컨퍼런스에서 [이 비디오](http://channel9.msdn.com/Events/Build/2013/3-316) 를 시청하십시오.  
   
-- JavaScript를 사용하여 Windows에 대해 빌드된 Windows 저장소 앱의 성능 팁을 읽어 보세요. 자세한 내용은 [JavaScript를 사용하는 Windows 스토어 앱의 성능 모범 사례](http://msdn.microsoft.com/library/windows/apps/hh465194.aspx)를 참조하십시오.  
+- JavaScript를 사용하여 Windows에 대해 빌드된 Windows 저장소 앱의 성능 팁을 읽어 보세요. 자세한 내용은 [JavaScript를 사용하는 Windows 스토어 앱의 성능 모범 사례](https://msdn.microsoft.com/library/windows/apps/hh465194.aspx)를 참조하십시오.  
   
-- 단일 스레드 코드 실행 모델 및 성능에 대한 자세한 내용은 [코드 실행 중](http://msdn.microsoft.com/library/windows/apps/hh781217.aspx)을 참조하십시오.  
+- 단일 스레드 코드 실행 모델 및 성능에 대한 자세한 내용은 [코드 실행 중](https://msdn.microsoft.com/library/windows/apps/hh781217.aspx)을 참조하십시오.  
   
 ## <a name="see-also"></a>참고 항목  
- [앱 성능 분석](http://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)
+ [앱 성능 분석](https://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)

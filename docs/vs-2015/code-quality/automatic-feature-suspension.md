@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: c2e6db11220c2cc7f14bc2f0f05912e7855646c1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 9d406d200864a3c79dcd568b3c9411a1635ce116
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045984"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704032"
 ---
 # <a name="automatic-feature-suspension"></a>자동 기능 일시 중단
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "60045984"
 
 - Visual C# 및 Visual Basic에 대 한 전체 솔루션 분석 사용 되지 않습니다.
 
-- [가비지 수집](http://msdn.microsoft.com/library/22b6cb97-0c80-4eeb-a2cf-5ed7655e37f9) Visual C# 및 Visual Basic에 대 한 짧은 대기 시간 모드 (GC)는 사용 하지 않도록 설정 합니다.
+- [가비지 수집](https://msdn.microsoft.com/library/22b6cb97-0c80-4eeb-a2cf-5ed7655e37f9) Visual C# 및 Visual Basic에 대 한 짧은 대기 시간 모드 (GC)는 사용 하지 않도록 설정 합니다.
 
 - Visual Studio 캐시가 플러시됩니다.
 
@@ -62,5 +62,5 @@ ms.locfileid: "60045984"
 ## <a name="see-also"></a>참고자료
 
 - [방법: 전체 솔루션 분석 활성화 및 비활성화](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md)
-- [가비지 수집 기본 사항](http://msdn.microsoft.com/library/67c5a20d-1be1-4ea7-8a9a-92b0b08658d2)
+- [가비지 수집 기본 사항](https://msdn.microsoft.com/library/67c5a20d-1be1-4ea7-8a9a-92b0b08658d2)
 - [대규모 솔루션에 대 한 성능 고려 사항](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions)

@@ -10,12 +10,12 @@ ms.assetid: ce9f4266-bb64-4c09-be88-4bd6413f60d0
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 91deb6d2e3ec58533ac9339c8c94634db23ec996
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f1a96504783de466551c6fb9d055b95ba38df760
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986471"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687685"
 ---
 # <a name="web-site-support"></a>웹 사이트 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "58986471"
   
  웹 사이트 프로젝트 시스템은 기존 프로젝트 시스템에 템플릿 및 등록 특성을 추가 하 여 생성 됩니다. 이러한 특성 중 하나는 언어에 대 한 IntelliSense 공급자를 선택합니다. IntelliSense 공급자 구현 참조를 처리 하 고 캐시 되지 않은 스마트 웹 페이지를 요청 하는 경우 언어 컴파일러를 호출 합니다.  
   
- 웹 페이지를 컴파일하는 데 사용 되는 언어 컴파일러를 사용 하 여 등록 해야 [!INCLUDE[vstecasp](../../includes/vstecasp-md.md)]합니다. 사용할 수는 [ \<컴파일러 > 요소](http://msdn.microsoft.com/library/7a151659-b803-4c27-b5ce-1c4aa0d5a823) 다음 예제와 같이 컴파일러에 등록 하는 Web.config 파일에서:  
+ 웹 페이지를 컴파일하는 데 사용 되는 언어 컴파일러를 사용 하 여 등록 해야 [!INCLUDE[vstecasp](../../includes/vstecasp-md.md)]합니다. 사용할 수는 [ \<컴파일러 > 요소](https://msdn.microsoft.com/library/7a151659-b803-4c27-b5ce-1c4aa0d5a823) 다음 예제와 같이 컴파일러에 등록 하는 Web.config 파일에서:  
   
 ```  
 <system.codedom>  <compilers>    <compiler language="py;IronPython" extension=".py"       type="IronPython.CodeDom.PythonProvider, IronPython,       Version=1.0.2391.18146, Culture=neutral,       PublicKeyToken=b03f5f7f11d50a3a" />  </compilers></system.codedom>  

@@ -9,17 +9,17 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bca0b07922d1b0b0d1a218fcccfa51e68a64e7e8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 437c6cc7af2b0337b362e14db19deb9584a3d412
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114784"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695521"
 ---
 # <a name="designing-xaml-in-visual-studio"></a>Visual Studio에서 XAML 디자인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio 및 Blend for Visual Studio는 XAML 기반 Windows 데스크톱, 웹, [Windows Phone](http://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx)및 [Windows 스토어](http://msdn.microsoft.com/library/windows/apps/jj129478.aspx) 앱을 위한 정교한 사용자 인터페이스 및 풍부한 미디어 환경을 빌드할 수 있게 해주는 시각적 도구를 제공합니다. 둘 다 디자인 및 도구 창의 공통 집합과 XAML 편집기를 공유하지만 Blend for Visual Studio에서는 애니메이션 및 동작과 같은 고급 작업을 위한 추가 디자인 도구를 제공합니다.
+Visual Studio 및 Blend for Visual Studio는 XAML 기반 Windows 데스크톱, 웹, [Windows Phone](https://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx)및 [Windows 스토어](https://msdn.microsoft.com/library/windows/apps/jj129478.aspx) 앱을 위한 정교한 사용자 인터페이스 및 풍부한 미디어 환경을 빌드할 수 있게 해주는 시각적 도구를 제공합니다. 둘 다 디자인 및 도구 창의 공통 집합과 XAML 편집기를 공유하지만 Blend for Visual Studio에서는 애니메이션 및 동작과 같은 고급 작업을 위한 추가 디자인 도구를 제공합니다.
 
 ## <a name="choosing-the-right-tool"></a>적합한 도구 선택
  선택하는 디자인 도구는 대체로 사용자 역량에 따라 달라집니다. 코드를 지향하는 경우 Visual Studio에서 XAML 코드를 작성하여 고급 디자인 작업을 수행할 수 있습니다. 디자인을 지향하는 경우 Blend for Visual Studio를 사용하여 코드를 작성하지 않고 고급 작업을 수행할 수 있습니다.
@@ -41,11 +41,11 @@ Visual Studio 및 Blend for Visual Studio는 XAML 기반 Windows 데스크톱, �
 
      ![파일 재로드 경험](../designers/media/blendfilereload.png "BlendFileReload")
 
-- **동기화된 레이아웃 및 설정:** 사용자 지정 레이아웃을 통해 도구 창 레이아웃 사용자 지정을 저장하고 적용할 수 있습니다. 동일한 Microsoft 계정으로 로그인하면 Visual Studio에서 Visual Studio 및 Blend for Visual Studio 둘 다에 대한 이러한 사용자 지정과 기본 설정을 컴퓨터 간에 동기화합니다. [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
+- **동기화된 레이아웃 및 설정:** 사용자 지정 레이아웃을 통해 도구 창 레이아웃 사용자 지정을 저장하고 적용할 수 있습니다. 동일한 Microsoft 계정으로 로그인하면 Visual Studio에서 Visual Studio 및 Blend for Visual Studio 둘 다에 대한 이러한 사용자 지정과 기본 설정을 컴퓨터 간에 동기화합니다. [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
 
 - **공통 솔루션 탐색기:** 솔루션 탐색기를 통해 프로젝트 및 해당 파일을 구조적으로 보고 이와 연결된 명령에 쉽게 액세스할 수 있습니다. 솔루션 탐색기를 사용하면 대규모 엔터프라이즈 프로젝트 작업이 훨씬 용이해집니다. [솔루션 및 프로젝트](../ide/solutions-and-projects-in-visual-studio.md)를 참조하세요.
 
-- **팀 탐색기:** 팀 탐색기를 통해 GIT 또는 TFS 리포지토리로 프로젝트를 관리하면 팀 공동 작업에 도움이 됩니다. [팀 탐색기에서 작업](http://msdn.microsoft.com/library/fd7a5cf7-7916-4fa0-b5e6-5a83cf377a02)을 참조하세요.
+- **팀 탐색기:** 팀 탐색기를 통해 GIT 또는 TFS 리포지토리로 프로젝트를 관리하면 팀 공동 작업에 도움이 됩니다. [팀 탐색기에서 작업](https://msdn.microsoft.com/library/fd7a5cf7-7916-4fa0-b5e6-5a83cf377a02)을 참조하세요.
 
 - **NuGet:** Visual Studio 및 Blend for Visual Studio 둘 다에서 NuGet 패키지를 관리할 수 있습니다. NuGet은 솔루션에서 패키지 설치 및 제거를 간소화하는 .NET Framework 패키지 관리자입니다.
 

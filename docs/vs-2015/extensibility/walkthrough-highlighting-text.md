@@ -10,12 +10,12 @@ ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
 caps.latest.revision: 43
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 512d2aaffe64ea6ed17e909d9177aad74c654462
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d398164e910f7700645c01d26afbc631b1d434bc
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63408786"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65693330"
 ---
 # <a name="walkthrough-highlighting-text"></a>연습: 텍스트 강조 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -353,7 +353,7 @@ Managed Extensibility Framework (MEF) 구성 요소 파트를 만들어 편집�
  구현 해야 하 태거를 만들려면를 <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>입니다. 이 클래스는 MEF 구성 요소 부분 이므로이 확장을 인식할 수 있도록 올바른 특성을 설정 해야 합니다.  
   
 > [!NOTE]
-> MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)합니다.  
+> MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)합니다.  
   
 #### <a name="to-create-a-tagger-provider"></a>태거 공급자를 만들려면  
   

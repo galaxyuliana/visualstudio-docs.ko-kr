@@ -9,12 +9,12 @@ caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 8a273e3422c1ab96a0c5fdba8330b218b4b7640f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 8af5414b1c775a17421b87b9c18d58c34f544405
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59666769"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698646"
 ---
 # <a name="develop-apps-for-the-universal-windows-platform-uwp"></a>UWP(유니버설 Windows 플랫폼)용 앱 개발
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "59666769"
   
  **유니버설 Windows 플랫폼이란 정확히 무엇인가요?**  
   
- 단순히 계약 및 버전 컬렉션입니다. 앱을 실행할 수 있는 대상을 지정하는 데 사용됩니다. 더 이상 운영 체제를 대상으로 지정하지 않습니다. 이제 하나 이상의 디바이스 제품군을 앱의 대상으로 지정합니다. 자세한 내용은 이 [플랫폼 가이드](http://msdn.microsoft.com/library/windows/apps/dn894631.aspx)를 참조하세요.  
+ 단순히 계약 및 버전 컬렉션입니다. 앱을 실행할 수 있는 대상을 지정하는 데 사용됩니다. 더 이상 운영 체제를 대상으로 지정하지 않습니다. 이제 하나 이상의 디바이스 제품군을 앱의 대상으로 지정합니다. 자세한 내용은 이 [플랫폼 가이드](https://msdn.microsoft.com/library/windows/apps/dn894631.aspx)를 참조하세요.  
   
 ## <a name="requirements"></a>요구 사항  
  유니버설 Windows 앱 개발 도구에는 여러 다른 디바이스에서의 앱 모양을 확인하는 데 사용할 수 있는 에뮬레이터가 제공됩니다. 이러한 에뮬레이터를 사용하려는 경우 물리적 컴퓨터에서 이 소프트웨어를 설치해야 합니다. 물리적 컴퓨터는 Windows 8.1(x64) Professional Edition 이상을 실행하고 클라이언트 Hyper-V 및 SLAT(두 번째 수준 주소 변환)를 지원하는 프로세서가 있어야 합니다. Visual Studio가 가상 머신에 설치된 경우에는 에뮬레이터를 사용할 수 없습니다.  
@@ -55,8 +55,8 @@ ms.locfileid: "59666769"
   개발 플랫폼이 Windows 10인 경우에만 XAML 디자이너를 사용할 수 있습니다.  
   
 ## <a name="universal-windows-apps"></a>유니버설 Windows 앱  
- C#, Visual Basic, C++ 또는 JavaScript에서 기본 설정 개발 언어를 선택하여 [Windows 10 디바이스용 유니버설 Windows 앱을 만드세요](http://msdn.microsoft.com/library/windows/apps/xaml/dn609832.aspx#target_win10). 또는 [이 시작 동영상](http://channel9.msdn.com/Series/ConnectOn-Demand/229)을 시청하세요.  
+ C#, Visual Basic, C++ 또는 JavaScript에서 기본 설정 개발 언어를 선택하여 [Windows 10 디바이스용 유니버설 Windows 앱을 만드세요](https://msdn.microsoft.com/library/windows/apps/xaml/dn609832.aspx#target_win10). 또는 [이 시작 동영상](http://channel9.msdn.com/Series/ConnectOn-Demand/229)을 시청하세요.  
   
- 기존 Windows 스토어 8.1 앱, Windows Phone 8.1 앱 또는 Visual Studio 2015 RC를 사용하여 만든 유니버설 Windows 앱이 있으면 [이러한 기존 앱을 포팅](http://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) 하여 최신 유니버설 Windows 플랫폼을 사용합니다.  
+ 기존 Windows 스토어 8.1 앱, Windows Phone 8.1 앱 또는 Visual Studio 2015 RC를 사용하여 만든 유니버설 Windows 앱이 있으면 [이러한 기존 앱을 포팅](https://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) 하여 최신 유니버설 Windows 플랫폼을 사용합니다.  
   
  유니버설 Windows 앱을 만든 후 [앱을 패키지하여](https://msdn.microsoft.com/library/windows/apps/hh454036.aspx) Windows 10 디바이스에 설치하거나 Windows 스토어에 제출해야 합니다.

@@ -15,12 +15,12 @@ caps.latest.revision: 61
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 43f3a1c388a7b29fe83654d89b63e3fd304ebfa0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 2744dabdb79d777661c1ed73e8a85b05b5308624
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437247"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704773"
 ---
 # <a name="application-page-project-designer-c"></a>프로젝트 디자이너, 애플리케이션 페이지(C#)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,12 +35,12 @@ ms.locfileid: "63437247"
  다음 옵션을 사용하여 애플리케이션에 대한 일반 설정을 구성할 수 있습니다.  
   
  **어셈블리 이름**  
- 어셈블리 매니페스트를 보유할 출력 파일의 이름을 지정합니다. 이 속성을 변경하면 **출력 이름** 속성도 변경됩니다. [/out(C# 컴파일러 옵션)](http://msdn.microsoft.com/library/70d91d01-7bd2-4aea-ba8b-4e9807e9caa5)을 사용하여 명령줄에서 이 변경을 수행할 수도 있습니다. 프로그래밍 방식으로 이 속성에 액세스하려면 <xref:VSLangProj.ProjectProperties.AssemblyName%2A>을 참조하세요.  
+ 어셈블리 매니페스트를 보유할 출력 파일의 이름을 지정합니다. 이 속성을 변경하면 **출력 이름** 속성도 변경됩니다. [/out(C# 컴파일러 옵션)](https://msdn.microsoft.com/library/70d91d01-7bd2-4aea-ba8b-4e9807e9caa5)을 사용하여 명령줄에서 이 변경을 수행할 수도 있습니다. 프로그래밍 방식으로 이 속성에 액세스하려면 <xref:VSLangProj.ProjectProperties.AssemblyName%2A>을 참조하세요.  
   
  **기본 네임스페이스**  
  프로젝트에 추가된 파일에 대한 기본 네임스페이스를 지정합니다.  
   
- 코드에서 네임스페이스를 만드는 방법에 대한 자세한 내용은 [네임스페이스](http://msdn.microsoft.com/library/0a788423-9110-42e0-97d9-bda41ca4870f)를 참조하세요.  
+ 코드에서 네임스페이스를 만드는 방법에 대한 자세한 내용은 [네임스페이스](https://msdn.microsoft.com/library/0a788423-9110-42e0-97d9-bda41ca4870f)를 참조하세요.  
   
  프로그래밍 방식으로 이 속성에 액세스하려면 <xref:VSLangProj.ProjectProperties.RootNamespace%2A>을 참조하세요.  
   
@@ -64,7 +64,7 @@ ms.locfileid: "63437247"
 > [!NOTE]
 > Windows 런타임은 어떤 언어에서 사용하든 네이티브 개체로 나타나도록 유형을 프로젝션할 수 있습니다. 예를 들어 Windows 런타임과 상호 작용하는 JavaScript 애플리케이션에서는 JavaScript 개체 집합으로 사용되고, C# 애플리케이션에서는 라이브러리가 .NET 개체 컬렉션으로 사용됩니다. 프로젝트의 출력을 WinMD 파일로 패키징하면 Windows 런타임에서 사용되는 것과 동일한 기술을 이용할 수 있습니다.  
   
- **애플리케이션 종류** 속성에 대한 자세한 내용은 [/target(C# 컴파일러 옵션)](http://msdn.microsoft.com/library/a18bbd8e-bbf7-49e7-992c-717d0eb1f76f)을 참조하세요. 프로그래밍 방식으로 이 속성에 액세스하는 방법에 대한 자세한 내용은 <xref:VSLangProj.ProjectProperties.OutputType%2A>을 참조하세요.  
+ **애플리케이션 종류** 속성에 대한 자세한 내용은 [/target(C# 컴파일러 옵션)](https://msdn.microsoft.com/library/a18bbd8e-bbf7-49e7-992c-717d0eb1f76f)을 참조하세요. 프로그래밍 방식으로 이 속성에 액세스하는 방법에 대한 자세한 내용은 <xref:VSLangProj.ProjectProperties.OutputType%2A>을 참조하세요.  
   
  **어셈블리 정보**  
  이 단추를 클릭하면 [어셈블리 정보 대화 상자](../../ide/reference/assembly-information-dialog-box.md)가 표시됩니다.  
@@ -74,7 +74,7 @@ ms.locfileid: "63437247"
   
  기본적으로, WPF 브라우저 애플리케이션 프로젝트에서 이 옵션은 **(설정 안 함)** 입니다. 다른 옵션은 *Projectname*.App입니다. 이러한 종류의 프로젝트에서는 애플리케이션을 시작할 때 UI 리소스를 로드하도록 시작 URI를 설정해야 합니다. 이렇게 하려면 프로젝트에서 Application.xaml 파일을 열고 `StartupUri` 속성을 프로젝트의 .xaml 파일(예: Window1.xaml)로 설정합니다. 허용되는 루트 요소 목록은 <xref:System.Windows.Application.StartupUri%2A>를 참조하세요. 또한 프로젝트의 클래스에서 `public static void Main()` 메서드를 정의해야 합니다. 이 클래스는 **시작 개체** 목록에 *ProjectName.ClassName*으로 나타납니다. 그런 다음 클래스를 시작 개체로 선택할 수 있습니다.  
   
- 자세한 내용은 [/main(C# 컴파일러 옵션)](http://msdn.microsoft.com/library/975cf4d5-36ac-4530-826c-4aad0c7f2049)을 참조하세요. 프로그래밍 방식으로 이 속성에 액세스하려면 <xref:VSLangProj.ProjectProperties.StartupObject%2A>을 참조하세요.  
+ 자세한 내용은 [/main(C# 컴파일러 옵션)](https://msdn.microsoft.com/library/975cf4d5-36ac-4530-826c-4aad0c7f2049)을 참조하세요. 프로그래밍 방식으로 이 속성에 액세스하려면 <xref:VSLangProj.ProjectProperties.StartupObject%2A>을 참조하세요.  
   
 ## <a name="resources"></a>자료  
  다음 옵션을 사용하여 애플리케이션에 대한 일반 설정을 구성할 수 있습니다.  
@@ -83,7 +83,7 @@ ms.locfileid: "63437247"
  기본적으로 이 라디오 단추는 선택되며 **아이콘** 및 **매니페스트** 옵션이 사용됩니다. 이렇게 하면 사용자 고유의 아이콘을 선택하거나 다른 매니페스트 생성 옵션을 선택할 수 있습니다. 프로젝트에 대한 리소스 파일을 제공하지 않는 경우 이 라디오 단추를 선택된 상태로 둡니다.  
   
  **아이콘**  
- 프로그램 아이콘으로 사용할 .ico 파일을 설정합니다. 줄임표(...) 단추를 클릭하여 기존 그래픽을 찾거나 원하는 파일의 이름을 입력합니다. 자세한 내용은 [/win32icon(C# 컴파일러 옵션)](http://msdn.microsoft.com/library/756d9b6d-ab07-41b7-ba58-5bd88f711138)을 참조하세요. 프로그래밍 방식으로 이 속성에 액세스하려면 <xref:VSLangProj.ProjectProperties.ApplicationIcon%2A>을 참조하세요.  
+ 프로그램 아이콘으로 사용할 .ico 파일을 설정합니다. 줄임표(...) 단추를 클릭하여 기존 그래픽을 찾거나 원하는 파일의 이름을 입력합니다. 자세한 내용은 [/win32icon(C# 컴파일러 옵션)](https://msdn.microsoft.com/library/756d9b6d-ab07-41b7-ba58-5bd88f711138)을 참조하세요. 프로그래밍 방식으로 이 속성에 액세스하려면 <xref:VSLangProj.ProjectProperties.ApplicationIcon%2A>을 참조하세요.  
   
  **Manifest**  
  Windows Vista에서 UAC(사용자 계정 컨트롤)로 애플리케이션을 실행하는 경우 매니페스트 생성 옵션을 선택합니다. 이 옵션은 다음 값을 가질 수 있습니다.  
@@ -101,4 +101,4 @@ ms.locfileid: "63437247"
   
 ## <a name="see-also"></a>참고 항목  
 [애플리케이션 속성 관리](../../ide/application-properties.md)  
- [Writing Code in Office Solutions](http://msdn.microsoft.com/library/2d4d8fd0-e881-4829-976f-0d1a9221dec0)
+ [Writing Code in Office Solutions](https://msdn.microsoft.com/library/2d4d8fd0-e881-4829-976f-0d1a9221dec0)

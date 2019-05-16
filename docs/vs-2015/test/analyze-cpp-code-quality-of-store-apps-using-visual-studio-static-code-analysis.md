@@ -11,12 +11,12 @@ caps.latest.revision: 15
 author: alexhomer1
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dc9b13ce1de0464db353fa5935d14ad8c8b328d1
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 799e75dff8202ef041399cc6e0fcfb791dc7e868
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442848"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686529"
 ---
 # <a name="analyze-c-code-quality-of-store-apps-using-visual-studio-static-code-analysis"></a>Visual Studio 정적 코드 분석을 사용하여 스토어 앱의 C++ 코드 품질 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  Visual Studio Express 버전의 코드 분석 도구는 코드에 일련의 일반적인 문제 및 바람직한 프로그래밍 관행의 위반 사항이 있는지 검사합니다. 코드 분석은 유효하지만 해당 코드를 사용하는 당사자나 다른 사용자에게 계속 문제를 일으킬 수 있는 특정 코드 패턴을 검색하므로, 코드 분석 경고는 컴파일러 오류 및 경고와 다릅니다. 코드 분석 시 테스트를 통해 검색하기 힘든 코드 오류도 찾을 수 있습니다. 개발 프로세스에서 코드 분석 도구를 정기적으로 실행하면 완성된 응용 프로그램의 품질을 향상시킬 수 있습니다.
 
 > [!NOTE]
-> Visual Studio Ultimate, Visual Studio Premium 및 Visual Studio Professional에서는 코드 분석 도구의 기능을 모두 사용할 수 있습니다. MSDN 라이브러리의 [코드 분석 도구를 사용하여 애플리케이션 품질 분석](http://msdn.microsoft.com/library/dd264897.aspx)을 참조하세요.
+> Visual Studio Ultimate, Visual Studio Premium 및 Visual Studio Professional에서는 코드 분석 도구의 기능을 모두 사용할 수 있습니다. MSDN 라이브러리의 [코드 분석 도구를 사용하여 애플리케이션 품질 분석](https://msdn.microsoft.com/library/dd264897.aspx)을 참조하세요.
 
 ## <a name="BKMK_Run"></a> 코드 분석 실행
  Visual Studio 솔루션에서 코드 문석을 실행하려면 다음을 수행합니다.
@@ -116,7 +116,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 |                       [C6504](../code-quality/c6504.md)                        |                                              비포인터에 대한 Null                                              |
 |                       [C6505](../code-quality/c6505.md)                        |                                               Void에 대한 MustCheck                                               |
 |                       [C6506](../code-quality/c6506.md)                        |                                      비포인터 또는 배열에 대한 버퍼 크기                                      |
-| [C6507](http://msdn.microsoft.com/18f88cd1-d035-4403-a6a4-12dd0affcf21)        |                                       역참조 0에서의 Null 불일치                                       |
+| [C6507](https://msdn.microsoft.com/18f88cd1-d035-4403-a6a4-12dd0affcf21)        |                                       역참조 0에서의 Null 불일치                                       |
 |                       [C6508](../code-quality/c6508.md)                        |                                           상수에 대한 쓰기 액세스                                            |
 |                       [C6509](../code-quality/c6509.md)                        |                                          사전 조건에서 반환이 사용됨                                          |
 |                       [C6510](../code-quality/c6510.md)                        |                                        비포인터에 대한 Null 종료                                         |
@@ -127,11 +127,11 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 |                       [C6516](../code-quality/c6516.md)                        |                                          특성에 대한 속성 없음                                           |
 |                       [C6517](../code-quality/c6517.md)                        |                                       읽기 불가능 버퍼에 대한 유효 크기                                       |
 |                       [C6518](../code-quality/c6518.md)                        |                                     쓰기 불가능 버퍼에 대한 쓰기 가능 크기                                      |
-| [C6521](http://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        잘못된 크기 문자열 역참조                                        |
+| [C6521](https://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        잘못된 크기 문자열 역참조                                        |
 |                       [C6522](../code-quality/c6522.md)                        |                                           잘못된 크기 문자열 유형                                            |
-| [C6523](http://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         잘못된 크기 문자열 매개 변수                                         |
+| [C6523](https://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         잘못된 크기 문자열 매개 변수                                         |
 |                       [C6525](../code-quality/c6525.md)                        |                                   잘못된 크기 문자열 접근할 수 없는 위치                                    |
-| [C6526](http://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        잘못된 크기 문자열 버퍼 유형                                        |
+| [C6526](https://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        잘못된 크기 문자열 버퍼 유형                                        |
 |                       [C6527](../code-quality/c6527.md)                        |              주석이 잘못 되었습니다. 'NeedsRelease ' 속성은 void 형식의 값에 사용할 수 없습니다.               |
 |                       [C6530](../code-quality/c6530.md)                        |                                       인식할 수 없는 형식 문자열 스타일                                        |
 |                       [C6540](../code-quality/c6540.md)                        | 이 함수에 특성 주석을 사용하면 기존의 모든 __declspec 주석이 무효화됩니다.  |

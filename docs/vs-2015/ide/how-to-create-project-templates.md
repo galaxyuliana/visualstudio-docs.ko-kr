@@ -17,12 +17,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5a43fe714028b7211904a0bb993d2964bfe612ce
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 109810e3650ec4cf01d781026eddf09834fc3f18
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63416916"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703107"
 ---
 # <a name="how-to-create-project-templates"></a>방법: 프로젝트 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "63416916"
 1. 프로젝트를 만듭니다.  
   
     > [!NOTE]
-    > 템플릿의 소스로 사용할 프로젝트의 이름을 지정할 때 유효한 식별자 문자만 사용하세요. 잘못된 문자로 이름이 지정된 프로젝트에서 내보낸 템플릿은 템플릿을 기반으로 하는 이후 프로젝트에서 컴파일 오류를 일으킬 수 있습니다. 유효한 식별자 문자에 대한 자세한 내용은 [선언 요소 이름](http://msdn.microsoft.com/library/09d8843b-c0dc-4afe-9dab-87c439a69e66)을 참조하세요.  
+    > 템플릿의 소스로 사용할 프로젝트의 이름을 지정할 때 유효한 식별자 문자만 사용하세요. 잘못된 문자로 이름이 지정된 프로젝트에서 내보낸 템플릿은 템플릿을 기반으로 하는 이후 프로젝트에서 컴파일 오류를 일으킬 수 있습니다. 유효한 식별자 문자에 대한 자세한 내용은 [선언 요소 이름](https://msdn.microsoft.com/library/09d8843b-c0dc-4afe-9dab-87c439a69e66)을 참조하세요.  
   
 2. 템플릿으로 내보낼 준비가 될 때까지 프로젝트를 편집합니다.  
   

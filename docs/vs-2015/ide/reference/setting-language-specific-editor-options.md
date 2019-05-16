@@ -13,12 +13,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 85fb8c1349590858391051b8df395c8e6a781a75
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: c17bbb0989df9bf186652335cee6f77b047854fb
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669794"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65689482"
 ---
 # <a name="setting-language-specific-editor-options"></a>언어별 편집기 옵션 설정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -44,10 +44,10 @@ ms.locfileid: "59669794"
  [옵션, 텍스트 편집기, C#, IntelliSense](../../ide/reference/options-text-editor-csharp-intellisense.md)  
  C# 및 J# 코드에서 작업하는 동안 IntelliSense 완성 목록이 동작하는 방법을 지정하는 설정을 설명합니다.  
   
- [옵션 대화 상자, 텍스트 편집기, CSS, 유효성 검사](http://msdn.microsoft.com/library/5afe0808-16bb-420f-b620-7ca1a4d9f2cc)  
+ [옵션 대화 상자, 텍스트 편집기, CSS, 유효성 검사](https://msdn.microsoft.com/library/5afe0808-16bb-420f-b620-7ca1a4d9f2cc)  
  CSS에 대한 문 완성 및 오류 수정 설정을 설명합니다.  
   
- [옵션 대화 상자, 텍스트 편집기, HTML, 유효성 검사](http://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863)  
+ [옵션 대화 상자, 텍스트 편집기, HTML, 유효성 검사](https://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863)  
  선택한 스키마를 기반으로 HTML 구문을 확인하기 위한 설정을 설명합니다.  
   
  [옵션, 텍스트 편집기, XAML, 서식](../../ide/reference/options-text-editor-xaml-formatting.md)  
@@ -57,5 +57,5 @@ ms.locfileid: "59669794"
  [편집기 사용자 지정](../../ide/customizing-the-editor.md)  
  기본 설정을 지정할 수 있는 편집기의 여러 측면을 설명하는 항목에 대한 링크를 제공합니다.  
   
- [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)  
+ [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)  
  IDE(통합 개발 환경)의 설정, 키 바인딩 및 다른 기능을 사용자 지정하는 방법을 설명하는 항목에 대한 링크를 제공합니다.

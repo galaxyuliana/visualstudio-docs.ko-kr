@@ -24,19 +24,19 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 666b5acaae84a1b16c1b4bdfeb7cb1b8f4bcfb64
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 521f878c9d4fafa61f8c717f4c9752622ef339d9
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63386003"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65699806"
 ---
 # <a name="hierarchical-update"></a>계층적 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 계층적 업데이트 * 무결성 규칙을 유지 하면서 데이터베이스에 다시 (둘 이상의 관련된 테이블을 사용 하 여 데이터 집합)에서 업데이트 된 데이터를 저장 하는 프로세스를 말합니다. *참조 무결성* 삽입, 업데이트 및 삭제 관련된 레코드의 동작을 제어 하는 데이터베이스에서 제약 조건에 의해 제공 되는 일관성 규칙을 가리킵니다. 예를 들어 참조 무결성 적용 해당 고객에 대 한 주문을 만들 수 있도록 허용 하기 전에 고객 레코드를 생성 하는 것입니다.  데이터 집합의 관계에 대 한 자세한 내용은 참조 하세요. [데이터 집합의 관계](../data-tools/relationships-in-datasets.md)  
   
- 계층적 업데이트 기능을 사용 하는 `TableAdapterManager` 관리 하는 `TableAdapter`형식화 된 데이터 집합의 합니다. `TableAdapterManager` 구성 요소는를 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]-않으므로 생성 된 클래스에 부분을 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]입니다. Windows Form 또는 WPF 페이지에 데이터 소스 창에서 테이블을 끌어 Visual Studio의 폼 이나 페이지에서 TableAdapterManager 형식의 변수를 추가 하 고 구성 요소 트레이에 디자이너에 표시 합니다. 에 대 한 자세한 내용은 합니다 `TableAdapterManager` 클래스의 TableAdapterManager 참조 섹션을 참조 하십시오 [TableAdapterManager 개요](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)합니다.  
+ 계층적 업데이트 기능을 사용 하는 `TableAdapterManager` 관리 하는 `TableAdapter`형식화 된 데이터 집합의 합니다. `TableAdapterManager` 구성 요소는를 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]-않으므로 생성 된 클래스에 부분을 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]입니다. Windows Form 또는 WPF 페이지에 데이터 소스 창에서 테이블을 끌어 Visual Studio의 폼 이나 페이지에서 TableAdapterManager 형식의 변수를 추가 하 고 구성 요소 트레이에 디자이너에 표시 합니다. 에 대 한 자세한 내용은 합니다 `TableAdapterManager` 클래스의 TableAdapterManager 참조 섹션을 참조 하십시오 [TableAdapterManager 개요](https://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)합니다.  
   
  기본적으로 데이터 집합 취급 관련된 테이블 "관계에만 해당" 즉, foreign key 제약 조건을 강제 적용 하지 않습니다. 데이터 집합 디자이너를 사용 하 여 디자인 타임에 해당 설정을 수정할 수 있습니다. 표시 하기 위해 두 테이블 간의 관계 선을 선택 합니다 **관계** 대화 상자. 여기에서 수행한 변경 내용을 TableAdapterManager 때 동작 하는 방법을 결정 하는 변경 내용이 관련된 테이블의 데이터베이스에 다시 보내는 것입니다.  
   
@@ -55,7 +55,7 @@ ms.locfileid: "63386003"
   
  기본적으로 데이터 집합에 있는 데이터 테이블 관계를 사용 하 여 생성 됩니다 (<xref:System.Data.DataRelation>)과 일치 하는 데이터베이스의 관계. 그러나 데이터 집합에서 관계는 외래 키 제약 조건으로 생성 되지 않습니다. 합니다 <xref:System.Data.DataRelation> 로 구성 됩니다 **관계만** 없이 <xref:System.Data.ForeignKeyConstraint.UpdateRule%2A> 또는 <xref:System.Data.ForeignKeyConstraint.DeleteRule%2A> 적용 합니다.  
   
- 기본적으로 연속 업데이트 및 삭제는 해제 되어 연속 업데이트를 사용 하 여 데이터베이스 관계를 설정 및/또는 설정 삭제를 연계 하는 경우에 합니다. 예를 들어, 새 고객을 만들고 새 주문을 다음 데이터를 저장 하는 동안 발생할 수 있습니다 충돌 하는 데이터베이스에 정의 된 외래 키 제약 조건. 자세한 내용은 [방법: 데이터 집합의 외래 키 제약 조건을 구성할](http://msdn.microsoft.com/library/3954c388-e209-4a67-a34e-5ca106282f8e)합니다.  
+ 기본적으로 연속 업데이트 및 삭제는 해제 되어 연속 업데이트를 사용 하 여 데이터베이스 관계를 설정 및/또는 설정 삭제를 연계 하는 경우에 합니다. 예를 들어, 새 고객을 만들고 새 주문을 다음 데이터를 저장 하는 동안 발생할 수 있습니다 충돌 하는 데이터베이스에 정의 된 외래 키 제약 조건. 자세한 내용은 [방법: 데이터 집합의 외래 키 제약 조건을 구성할](https://msdn.microsoft.com/library/3954c388-e209-4a67-a34e-5ca106282f8e)합니다.  
   
 ## <a name="set-the-order-to-perform-updates"></a>업데이트를 수행 하는 순서를 설정 합니다.  
  집합의 개별 주문 삽입, 업데이트 및 삭제 하는 업데이트를 수행 하는 순서를 설정 합니다. 데이터 집합의 모든 테이블의 수정된 된 모든 데이터를 저장 하려면 필요 합니다. 계층적 업데이트를 사용 하는 경우 삽입 먼저 수행 하는 다음 업데이트 및 삭제 합니다. 합니다 `TableAdapterManager` 제공을 `UpdateOrder` 먼저 업데이트를 수행 하는 집합을 삽입 및 삭제 될 수 있는 속성입니다.  
@@ -63,7 +63,7 @@ ms.locfileid: "63386003"
 > [!NOTE]
 > 업데이트 순서는 모두 포괄 이해 하는 것이 반드시 합니다. 즉, 업데이트가 수행 된 삽입 및 삭제 데이터 집합의 모든 테이블에 대해 수행 됩니다.  
   
- 설정 하는 `UpdateOrder` 에서 항목을 위로 끌어 놓은 후 속성을를 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) 폼으로 선택는 `TableAdapterManager` 구성 요소 트레이를 설정을 `UpdateOrder` 속성에는 **속성** 창입니다. 자세한 내용은 [방법: 계층적 업데이트를 수행 하는 경우 순서 설정](http://msdn.microsoft.com/library/a0734935-78dd-4c0b-80d7-5e7925789c83)합니다.  
+ 설정 하는 `UpdateOrder` 에서 항목을 위로 끌어 놓은 후 속성을를 [데이터 소스 창](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) 폼으로 선택는 `TableAdapterManager` 구성 요소 트레이를 설정을 `UpdateOrder` 속성에는 **속성** 창입니다. 자세한 내용은 [방법: 계층적 업데이트를 수행 하는 경우 순서 설정](https://msdn.microsoft.com/library/a0734935-78dd-4c0b-80d7-5e7925789c83)합니다.  
   
 ## <a name="create-a-backup-copy-of-a-dataset-before-performing-a-hierarchical-update"></a>계층적 업데이트를 수행 하기 전에 백업 복사본을 데이터 집합 만들기  
  데이터를 저장 하는 경우 (호출 하 여 합니다 `TableAdapterManager.UpdateAll()` 메서드), `TableAdapterManager` 단일 트랜잭션에서 각 테이블에 대 한 데이터를 업데이트 하려고 합니다. 모든 테이블에 대 한 업데이트의 일부가 실패 하면 전체 트랜잭션이 롤백됩니다. 대부분의 경우 롤백이를 원래 상태로 응용 프로그램을 반환합니다.  
@@ -120,7 +120,7 @@ ms.locfileid: "63386003"
 |`UpdateAll` 메서드|모든 데이터 테이블에서 모든 데이터를 저장합니다.|  
 |`BackUpDataSetBeforeUpdate` 속성|실행 하기 전에 데이터 집합의 백업 복사본을 만들지 여부를 결정 합니다 `TableAdapterManager.UpdateAll` 메서드. 부울 값입니다.|  
 |*tableName* `TableAdapter` 속성|나타냅니다는 `TableAdapter`합니다. 생성 된 `TableAdapterManager` 각각에 대 한 속성을 포함 `TableAdapter` 관리 합니다. 예를 들어, Customers 및 Orders 테이블이 포함 된 데이터 집합 사용 하 여 생성 됩니다는 `TableAdapterManager` 포함 된 `CustomersTableAdapter` 및 `OrdersTableAdapter` 속성입니다.|  
-|`UpdateOrder` 속성|개별 insert, update 및 delete 명령 순서를 제어합니다. 이 설정의 값 중 하나에 `TableAdapterManager.UpdateOrderOption` 열거형입니다.<br /><br /> 기본적으로 `UpdateOrder` 로 설정 된 **InsertUpdateDelete**합니다. 이 즉, 삽입, 업데이트 하 고 삭제 한 다음 데이터 집합의 모든 테이블에 대해 수행 됩니다. 자세한 내용은 [방법: 계층적 업데이트를 수행 하는 경우 순서 설정](http://msdn.microsoft.com/library/a0734935-78dd-4c0b-80d7-5e7925789c83)합니다.|  
+|`UpdateOrder` 속성|개별 insert, update 및 delete 명령 순서를 제어합니다. 이 설정의 값 중 하나에 `TableAdapterManager.UpdateOrderOption` 열거형입니다.<br /><br /> 기본적으로 `UpdateOrder` 로 설정 된 **InsertUpdateDelete**합니다. 이 즉, 삽입, 업데이트 하 고 삭제 한 다음 데이터 집합의 모든 테이블에 대해 수행 됩니다. 자세한 내용은 [방법: 계층적 업데이트를 수행 하는 경우 순서 설정](https://msdn.microsoft.com/library/a0734935-78dd-4c0b-80d7-5e7925789c83)합니다.|  
   
 ## <a name="see-also"></a>참고 항목  
  [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)

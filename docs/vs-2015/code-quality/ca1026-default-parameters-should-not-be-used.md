@@ -15,12 +15,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 25e38f6db5caa6b797774463552cd17fd07bdf5d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7c20bfce7dd7fe3b2e116b982408afa813ebab25
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983736"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704192"
 ---
 # <a name="ca1026-default-parameters-should-not-be-used"></a>CA1026: 기본 매개 변수를 사용하면 안 됩니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "58983736"
 ## <a name="rule-description"></a>규칙 설명
  기본 매개 변수를 사용 하는 메서드를 사용할 수에서 CLS 공용 언어 사양 (); 그러나 CLS 컴파일러를 이러한 매개 변수에 할당 된 값을 무시할 수 있습니다. 기본 매개 변수 값을 무시 하는 컴파일러에 대 한 작성 된 코드는 각 기본 매개 변수에 대해 인수를 명시적으로 제공 해야 합니다. 프로그래밍 언어에서 원하는 동작을 유지 하려면 기본 매개 변수를 사용 하는 메서드는 기본 매개 변수를 제공 하는 메서드 오버 로드로 대체 되어야 합니다.
 
- 관리 코드에 액세스할 때 컴파일러가 기본 매개 변수 값 관리 확장에 대 한 c + +에 대 한 무시 합니다. Visual Basic 컴파일러를 사용 하는 기본 매개 변수가 있는 메서드를 지원 합니다 [선택 사항](http://msdn.microsoft.com/library/4571ce88-a539-4115-b230-54eb277c6aa7) 키워드입니다.
+ 컴파일러에 대 한 관리 되는 확장에 대 한 기본 매개 변수 값을 무시 C++ 관리 코드에 액세스 합니다. Visual Basic 컴파일러를 사용 하는 기본 매개 변수가 있는 메서드를 지원 합니다 [선택 사항](https://msdn.microsoft.com/library/4571ce88-a539-4115-b230-54eb277c6aa7) 키워드입니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하려면 기본 매개 변수를 제공 하는 메서드 오버 로드를 사용 하 여 기본 매개 변수를 사용 하는 메서드를 대체 합니다.
@@ -55,4 +55,4 @@ ms.locfileid: "58983736"
  [CA1025: 반복 인수를 배열로 바꾸십시오.](../code-quality/ca1025-replace-repetitive-arguments-with-params-array.md)
 
 ## <a name="see-also"></a>참고 항목
- [언어 독립성 및 언어 독립적 구성 요소](http://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)
+ [언어 독립성 및 언어 독립적 구성 요소](https://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)

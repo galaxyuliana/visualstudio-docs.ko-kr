@@ -9,12 +9,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ae373742c114129c99e7b3444393e12c6c4dd8dd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b80faa2ceb48cfec933d2287b70d304564a8106a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62585119"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704443"
 ---
 # <a name="getting-started-with-c-in-visual-studio"></a>Visual Studio에서 C++ 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -82,7 +82,7 @@ ms.locfileid: "62585119"
 
      이 오류 메시지는 **오류 목록** 창에도 나타납니다. 메뉴 모음에서 **보기**, **오류 목록**을 선택하여 이 창을 표시할 수 있습니다.
 
-     [count](http://msdn.microsoft.com/library/d87db6c3-e4e1-4d09-9ec5-458f55018257)는 \<iostream\> 헤더 파일에 포함되어 있습니다.
+     [count](https://msdn.microsoft.com/library/d87db6c3-e4e1-4d09-9ec5-458f55018257)는 \<iostream\> 헤더 파일에 포함되어 있습니다.
 
 2. Iostream 헤더를 포함하려면 `#include "stdafx.h"`뒤에 다음 코드를 입력합니다.
 

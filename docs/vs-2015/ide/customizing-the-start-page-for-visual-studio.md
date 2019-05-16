@@ -17,12 +17,12 @@ caps.latest.revision: 48
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c5897c6ffc2b4530ce74b29114c84cd3556f25cd
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 266082af039ee7f0ba2bd60e0c9a67145aaed1d3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437563"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701134"
 ---
 # <a name="customizing-the-start-page-for-visual-studio"></a>Visual Studio 시작 페이지 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,4 +62,4 @@ Visual Studio의 시작 페이지를 사용자 지정할 수 있는 기본 방�
 > 사용자 지정 시작 페이지에 오류가 있어 Visual Studio에 충돌이 발생하면 안전 모드에서 Visual Studio를 시작한 다음 기본 시작 페이지를 사용하도록 설정할 수 있습니다. [/SafeMode(devenv.exe)](../ide/reference/safemode-devenv-exe.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3) [고유한 시작 페이지 만들기](../misc/creating-your-own-start-page.md)
+ [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3) [고유한 시작 페이지 만들기](../misc/creating-your-own-start-page.md)

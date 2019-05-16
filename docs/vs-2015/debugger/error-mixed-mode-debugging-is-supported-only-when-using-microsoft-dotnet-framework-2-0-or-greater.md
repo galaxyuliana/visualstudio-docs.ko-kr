@@ -16,12 +16,12 @@ caps.latest.revision: 9
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: bb1b6d865063486aec91c6e3393a942b7ad4a67c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0bf0557db3fd4ecc58e81d2b88e8c700c2f3bae0
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62535301"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697398"
 ---
 # <a name="error-mixed-mode-debugging-is-supported-only-when-using-microsoft-net-framework-20-or-greater"></a>오류: 혼합 모드 디버깅은 Microsoft .NET Framework 2.0 이상을 사용할 때만 지원됩니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,4 +33,4 @@ ms.locfileid: "62535301"
 - [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]를 버전 2.0, 3.0, 3.5 또는 4로 업그레이드합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [디바이스에서 원격 도구 설정](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)
+ [디바이스에서 원격 도구 설정](https://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)

@@ -10,12 +10,12 @@ ms.assetid: 26adc860-ee4a-4f5c-95e1-e41b207dd7e6
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 1744801b7efe591c449e74796c3c7d297dc3f982
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 5b5bc2bacb53973bd552b983b742e4f9e68fe31b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061712"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687709"
 ---
 # <a name="when-to-create-project-types"></a>프로젝트 형식을 만들어야 하는 경우
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ ms.locfileid: "60061712"
 |작업|설명|  
 |----------|-----------------|  
 |명령 처리|모든 VSPackage 명령을 처리할 수 있습니다.|  
-|편집기를 작성합니다.|사용자 지정 편집기를 등록할 수 있습니다. 자세한 내용은 [문서 Windows 및 편집기](http://msdn.microsoft.com/603625e1-62b6-413a-bc44-089346e166bc)합니다.|  
+|편집기를 작성합니다.|사용자 지정 편집기를 등록할 수 있습니다. 자세한 내용은 [문서 Windows 및 편집기](https://msdn.microsoft.com/603625e1-62b6-413a-bc44-089346e166bc)합니다.|  
 |Windows를 소유합니다.|새 프로젝트 형식을 추가 하지 않고 windows 도구 및 문서를 만들 수 있습니다.|  
 |속성 창에서 속성을 노출|모든 개체 속성을 노출할 수 있습니다.|  
   
@@ -60,6 +60,6 @@ ms.locfileid: "60061712"
  새 프로젝트 형식을 만들 필요 없이 관리 되는 프로젝트 형식을 확장 하려면 프로젝트 하위 형식에 사용할 수 있습니다. 프로젝트 하위 형식 COM 집계를 사용 하 여 Microsoft에서 작성 된 관리 되는 프로젝트를 확장 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 또는 [!INCLUDE[csprcs](../../includes/csprcs-md.md)]합니다. COM 집계를 사용 하 여 관리 되는 프로젝트 시스템 구현의 대부분 다시 사용할 수 있으며 인터페이스를 지 원하는 사용 하 여 집계를 통해 특정 시나리오에도 사용자 지정할 수 있습니다. 프로젝트 하위 형식에 대 한 자세한 내용은 참조 하세요. [프로젝트 하위 형식](../../extensibility/internals/project-subtypes.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [문서 Windows 및 편집기](http://msdn.microsoft.com/603625e1-62b6-413a-bc44-089346e166bc)   
+ [문서 Windows 및 편집기](https://msdn.microsoft.com/603625e1-62b6-413a-bc44-089346e166bc)   
  [검사 목록: 새 프로젝트 형식 만들기](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Visual Studio의 계층 구조](../../extensibility/internals/hierarchies-in-visual-studio.md)

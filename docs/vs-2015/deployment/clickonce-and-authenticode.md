@@ -19,12 +19,12 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0732a5f867b357bddf3ff9f9d83bcfd7dd1f0573
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 7938940cc1a9e672ee831165ecc55e2897c3a9fe
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089083"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697357"
 ---
 # <a name="clickonce-and-authenticode"></a>ClickOnce 및 Authenticode
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ Authenticode *는 업계 표준 암호화를 사용 하 여 응용 프로그램�
   
  반면, 인증서 공급업체와 같은 CA 또는 기업 내 부서로부터 인증서를 받아 사용하면 사용자에게 더 나은 보안을 제공할 수 있습니다. 이러한 인증서는 서명된 소프트웨어의 게시자를 식별하는 것은 물론 서명한 CA를 통해 해당 ID의 유효성을 확인합니다. CA가 루트 인증 기관이 아닌 경우 Authenticode는 루트 인증 기관에 다시 "연결"하여, 해당 CA가 인증서를 발급할 권한이 있는 곳인지를 확인합니다. 보안을 강화하려면 가능한 경우에는 언제든 CA에서 발급한 인증서를 사용해야 합니다.  
   
- 자체 인증서를 생성 하는 방법에 대 한 자세한 내용은 참조 하십시오 [Makecert.exe (인증서 작성 도구)](http://msdn.microsoft.com/library/b0343f8e-9c41-4852-a85c-f8a0c408cf0d)합니다.  
+ 자체 인증서를 생성 하는 방법에 대 한 자세한 내용은 참조 하십시오 [Makecert.exe (인증서 작성 도구)](https://msdn.microsoft.com/library/b0343f8e-9c41-4852-a85c-f8a0c408cf0d)합니다.  
   
 ### <a name="timestamps"></a>타임스탬프  
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 서명에 사용된 인증서는 특정 기간(대개 12개월) 이후 만료됩니다. 계속해서 새 인증서로 응용 프로그램에 다시 서명해야 하는 불편을 없애기 위해 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]는 타임스탬프를 지원합니다. 애플리케이션을 타임스탬프로 서명하면, 타임스탬프가 유효한 경우 해당 인증서는 심지어 만료 이후에도 계속 허용됩니다. 따라서 인증서는 만료되었지만 타임스탬프는 유효한 경우 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션을 다운로드하여 실행할 수 있습니다. 또한 만료된 인증서가 있는 설치된 애플리케이션이 계속해서 업데이트를 다운로드하고 설치할 수 있습니다.  
@@ -75,4 +75,4 @@ Authenticode *는 업계 표준 암호화를 사용 하 여 응용 프로그램�
  [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)   
  [ClickOnce 응용 프로그램 보안](../deployment/securing-clickonce-applications.md)   
  [신뢰할 수 있는 응용 프로그램 배포 개요](../deployment/trusted-application-deployment-overview.md)   
- [Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)
+ [Mage.exe(매니페스트 생성 및 편집 도구)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)

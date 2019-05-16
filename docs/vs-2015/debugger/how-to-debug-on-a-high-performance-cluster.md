@@ -17,12 +17,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4bb7245e57dedf6f94ce7766fcfae24ac930f608
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: f4487b168c3d405b2449bcfb9515e60f0ea67ed1
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117553"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65702685"
 ---
 # <a name="how-to-debug-on-a-high-performance-cluster"></a>방법: 고성능 클러스터에서 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "60117553"
   
  고성능 클러스터에서 디버깅하는 경우 원격 디버깅에 제공되는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 디버깅 창과 기술을 모두 사용할 수 있습니다. 그러나 디버깅을 원격으로 수행하므로 외부 콘솔 창은 사용할 수 없습니다.  
   
- **스레드** 창과 **프로세스** 창은 병렬 애플리케이션을 디버깅하는 데 특히 유용합니다. 이러한 창을 사용 하는 방법에 대 한 팁을 참조 하세요. [방법: 프로세스 창 사용](http://msdn.microsoft.com/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7) 고 [방법: 스레드 창 사용](../debugger/how-to-use-the-threads-window.md)합니다.  
+ **스레드** 창과 **프로세스** 창은 병렬 애플리케이션을 디버깅하는 데 특히 유용합니다. 이러한 창을 사용 하는 방법에 대 한 팁을 참조 하세요. [방법: 프로세스 창 사용](https://msdn.microsoft.com/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7) 고 [방법: 스레드 창 사용](../debugger/how-to-use-the-threads-window.md)합니다.  
   
  다음 절차에서는 고성능 클러스터에서 디버깅을 수행할 때 특히 유용한 몇 가지 방법을 보여 줍니다.  
   
@@ -103,7 +103,7 @@ ms.locfileid: "60117553"
 ## <a name="see-also"></a>참고 항목  
  [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [원격 디버깅](../debugger/remote-debugging.md)   
- [방법: 프로세스 창 사용](http://msdn.microsoft.com/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7)   
+ [방법: 프로세스 창 사용](https://msdn.microsoft.com/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7)   
  [방법: 스레드 창 사용](../debugger/how-to-use-the-threads-window.md)   
- [스레드 및 프로세스](http://msdn.microsoft.com/73d87480-9af3-4d1b-baf5-397d5d876ae6)   
+ [스레드 및 프로세스](https://msdn.microsoft.com/73d87480-9af3-4d1b-baf5-397d5d876ae6)   
  [중단점 사용](../debugger/using-breakpoints.md)

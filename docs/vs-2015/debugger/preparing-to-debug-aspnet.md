@@ -16,12 +16,12 @@ caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c0e5eb3173a90478266e1a5a5b7c9eb19243278d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 3b8ddc642fda143743e312fa1915087d553938a7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982855"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696117"
 ---
 # <a name="preparing-to-debug-aspnet"></a>ASP.NET 디버깅 준비
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "58982855"
  [웹 애플리케이션 원격 디버깅의 필수 조건](../debugger/prerequistes-for-remote-debugging-web-applications.md)  
  원격 서버에서 웹 응용 프로그램을 디버깅할 때 필수 조건을 열거합니다.  
   
- [방법: Windows Server 2003에서 IIS를 구성 합니다.](http://msdn.microsoft.com/23d557c5-ffcb-4fb2-be7c-5901d5f72ea1)  
+ [방법: Windows Server 2003에서 IIS를 구성 합니다.](https://msdn.microsoft.com/23d557c5-ffcb-4fb2-be7c-5901d5f72ea1)  
  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]에서 [!INCLUDE[WinXPSvr](../includes/winxpsvr-md.md)]을 디버깅하기 위한 디버깅 시스템 요구 사항을 충족하는 데 필요한 특수 구성 단계에 대해 설명합니다.  
   
  [방법: 자체 호스팅 WCF 서비스 디버그](../debugger/how-to-debug-a-self-hosted-wcf-service.md)  
@@ -56,4 +56,4 @@ ms.locfileid: "58982855"
  [Debugger Basics](../debugger/debugger-basics.md) (디버거 기본 사항)  
  [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)   
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)   
- [ASP.NET 및 IIS 구성](http://msdn.microsoft.com/library/47ebf3b5-98de-4d31-a335-57e2ccd974b8)
+ [ASP.NET 및 IIS 구성](https://msdn.microsoft.com/library/47ebf3b5-98de-4d31-a335-57e2ccd974b8)

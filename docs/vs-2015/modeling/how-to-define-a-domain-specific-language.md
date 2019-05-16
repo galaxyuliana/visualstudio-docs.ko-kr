@@ -18,12 +18,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9df436b51619211c1f79e7176479c7466f3de427
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 863daa41820b8a08f6cd9a6af26c6169fcda97db
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441055"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697256"
 ---
 # <a name="how-to-define-a-domain-specific-language"></a>도메인별 언어 정의 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -214,7 +214,7 @@ DSL(Domain-Specific Language)을 정의하려면 템플릿에서 [!INCLUDE[vsprv
   
 ##### <a name="to-test-the-new-domain-classes"></a>새 도메인 클래스를 테스트하려면  
   
-1. **모든 템플릿 변환을 클릭** DSL 디자이너 코드를 생성 하려면 솔루션 탐색기의 도구 모음에서입니다. 이 단계는 자동화할 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
+1. **모든 템플릿 변환을 클릭** DSL 디자이너 코드를 생성 하려면 솔루션 탐색기의 도구 모음에서입니다. 이 단계는 자동화할 수 있습니다. 자세한 내용은 [모든 템플릿 변환 자동화 방법](https://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)합니다.  
   
 2. **빌드하고 DSL을 실행 합니다.** 새 인스턴스를 실행 하려면 F5 키나 ctrl+f5를 눌러 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실험적 모드에서. 실험적 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 인스턴스에서 DSL의 파일 이름 확장명이 지정된 파일을 열거나 만듭니다.  
   

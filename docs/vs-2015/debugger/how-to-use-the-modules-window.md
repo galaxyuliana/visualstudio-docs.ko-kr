@@ -27,12 +27,12 @@ caps.latest.revision: 41
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7b19237b94ed3d53c49f248e22b86d3af8180625
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b592515692e23dce49c125c7895bd158904b653f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445058"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696121"
 ---
 # <a name="how-to-use-the-modules-window"></a>방법: 모듈 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +78,6 @@ ms.locfileid: "63445058"
 2. 가리킨 **자동 기호 로드 설정을** 클릭 하 고 **항상 수동으로 로드** 하거나 **기본**입니다. 디버깅 세션을 다시 시작할 때까지 변경 내용이 적용되지 않습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [실행 중단](http://msdn.microsoft.com/30fc4643-f337-4651-b1ff-f2de2c098d40)   
+ [실행 중단](https://msdn.microsoft.com/30fc4643-f337-4651-b1ff-f2de2c098d40)   
  [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)   
  [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
