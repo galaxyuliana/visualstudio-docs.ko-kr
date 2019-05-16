@@ -50,12 +50,12 @@ caps.latest.revision: 41
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: cd93fdc527e38b820bc7df6387ca6f8e9078bfd6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 340fe819086d3cc18cb9c2dd6a4ca14129c6d8ad
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045331"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65679862"
 ---
 # <a name="solutions-and-projects-in-visual-studio"></a>Visual Studio의 솔루션 및 프로젝트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +75,7 @@ Visual Studio에서 앱, 애플리케이션, 웹 사이트, 웹앱, 스크립트
  사용자 지정 프로젝트 및 항목 템플릿을 만들 수도 있습니다. 자세한 내용은 [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)를 참조하세요.
 
 ## <a name="creating-new-projects"></a>새 프로젝트 만들기
- 새 프로젝트를 만드는 가장 쉬운 방법은 사전 정의된 프로젝트 템플릿으로 시작하는 것입니다. 이 템플릿은 특정 프로그래밍 언어로 특정 유형의 애플리케이션이나 웹 사이트 만들기를 시작하는 미리 생성된 코드 파일, config 파일, 자산 및 설정 기본 세트로 구성되어 있습니다. 이러한 템플릿은 주 메뉴에서 **파일 &#124; 새로 만들기 &#124; 프로젝트** 또는 **파일 &#124; 새로 만들기 &#124; 웹 사이트**를 선택하면 표시되는 **새 프로젝트 대화 상자**에서 확인할 수 있습니다. 자세한 내용은 [솔루션 및 프로젝트 만들기](../ide/creating-solutions-and-projects.md) 및 [NIB 템플릿에서 프로젝트 만들기](http://msdn.microsoft.com/7c36d86a-6b79-4480-8228-0f925f1204b2)를 참조하세요.
+ 새 프로젝트를 만드는 가장 쉬운 방법은 사전 정의된 프로젝트 템플릿으로 시작하는 것입니다. 이 템플릿은 특정 프로그래밍 언어로 특정 유형의 애플리케이션이나 웹 사이트 만들기를 시작하는 미리 생성된 코드 파일, config 파일, 자산 및 설정 기본 세트로 구성되어 있습니다. 이러한 템플릿은 주 메뉴에서 **파일 &#124; 새로 만들기 &#124; 프로젝트** 또는 **파일 &#124; 새로 만들기 &#124; 웹 사이트**를 선택하면 표시되는 **새 프로젝트 대화 상자**에서 확인할 수 있습니다. 자세한 내용은 [솔루션 및 프로젝트 만들기](../ide/creating-solutions-and-projects.md) 및 [NIB 템플릿에서 프로젝트 만들기](https://msdn.microsoft.com/7c36d86a-6b79-4480-8228-0f925f1204b2)를 참조하세요.
 
 ## <a name="managing-projects-in-solution-explorer"></a>솔루션 탐색기에서 프로젝트 관리
  새 프로젝트를 만든 후에 **솔루션 탐색기** 를 사용하여 프로젝트와 솔루션 및 연결된 항목을 보고 관리합니다. 다음 그림은 두 프로젝트가 포함되어 있으며, C# 솔루션을 사용하는 서버 탐색기를 보여줍니다.

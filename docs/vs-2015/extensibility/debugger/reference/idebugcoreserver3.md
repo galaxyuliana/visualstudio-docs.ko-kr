@@ -12,12 +12,12 @@ ms.assetid: 51f5f41b-a5a4-4df0-a703-41f3d1811d7f
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c127bdb807b397060342bf7051c3c0de1251627f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: cd1781b133b4c3ee95b4207a0dd237e2dd7298a1
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62569223"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685643"
 ---
 # <a name="idebugcoreserver3"></a>IDebugCoreServer3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugCoreServer3 : IDebugCoreServer2
  Visual Studio는이 인터페이스를 구현합니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 사용 하 여 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에서이 인터페이스를 가져올 수는 [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) 인터페이스입니다. 에 대 한 호출 [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md) 이 인터페이스를 반환할 수도 있습니다. 이 인터페이스는 (로컬 또는 원격) 서버에서 프로그램을 시작 하려면 사용자 지정 포트 공급자를 통해 가장 자주 사용 됩니다.  
+ 사용 하 여 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에서이 인터페이스를 가져올 수는 [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) 인터페이스입니다. 에 대 한 호출 [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md) 이 인터페이스를 반환할 수도 있습니다. 이 인터페이스는 (로컬 또는 원격) 서버에서 프로그램을 시작 하려면 사용자 지정 포트 공급자를 통해 가장 자주 사용 됩니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  메서드 외에도 합니다 [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md) 인터페이스에서이 인터페이스는 다음 메서드를 구현 합니다.  

@@ -11,19 +11,19 @@ ms.assetid: a8e2765c-cfb5-47b5-a414-6e48b434e0c2
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 638c9c0f0d024830124445485dcf9991678bd4d7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 0a2042ef9a96eed99636ea0a2f5f09d99cd35ea2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63429008"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65699160"
 ---
 # <a name="adding-visual-studio-commands-to-a-start-page"></a>시작 페이지에 Visual Studio 명령 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 사용자 지정 시작 페이지를 만들 때 Visual Studio 명령에 추가할 수 있습니다. 이 문서에는 Visual Studio 명령 시작 페이지 XAML 개체를 바인딩할 다양 한 방법을 설명 합니다.  
   
- XAML에서 명령에 대 한 자세한 내용은 참조 하세요. [명령 개요](http://msdn.microsoft.com/library/bc208dfe-367d-426a-99de-52b7e7511e81)  
+ XAML에서 명령에 대 한 자세한 내용은 참조 하세요. [명령 개요](https://msdn.microsoft.com/library/bc208dfe-367d-426a-99de-52b7e7511e81)  
   
 ## <a name="adding-commands-from-the-command-well"></a>잘 명령의 명령 추가  
  시작 페이지에서 만든 [사용자 지정 시작 페이지 만들기](../extensibility/creating-a-custom-start-page.md) 추가 된 <xref:Microsoft.VisualStudio.PlatformUI?displayProperty=fullName> 및 <xref:Microsoft.VisualStudio.Shell?displayProperty=fullName> 같이 네임 스페이스입니다.  
@@ -94,7 +94,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
 ## <a name="adding-commands-with-the-dte-object"></a>DTE 개체를 사용 하 여 명령 추가  
  시작 페이지에서 태그와 코드에서 DTE 개체를 액세스할 수 있습니다.  
   
- 태그에서 액세스할 수 있습니다 사용 하 여 합니다 [Binding 태그 확장](http://msdn.microsoft.com/library/83d6e2a4-1b0c-4fc8-bd96-b5e98800ab63) 구문을 호출 하는 <xref:EnvDTE.DTE> 개체입니다. 이 이렇게를 사용 하 여 컬렉션을 반환 하는 것과 같은 간단한 속성에 바인딩할 수 있지만 메서드 또는 서비스에 바인딩할 수 없습니다. 다음 예제와 <xref:System.Windows.Controls.TextBlock> 바인딩되는 컨트롤을 <xref:EnvDTE._DTE.Name%2A> 속성 및 <xref:System.Windows.Controls.ListBox> 열거는 제어를 <xref:EnvDTE.Window.Caption%2A> 속성에서 반환 되는 컬렉션의를 <xref:EnvDTE._DTE.Windows%2A> 속성.  
+ 태그에서 액세스할 수 있습니다 사용 하 여 합니다 [Binding 태그 확장](https://msdn.microsoft.com/library/83d6e2a4-1b0c-4fc8-bd96-b5e98800ab63) 구문을 호출 하는 <xref:EnvDTE.DTE> 개체입니다. 이 이렇게를 사용 하 여 컬렉션을 반환 하는 것과 같은 간단한 속성에 바인딩할 수 있지만 메서드 또는 서비스에 바인딩할 수 없습니다. 다음 예제와 <xref:System.Windows.Controls.TextBlock> 바인딩되는 컨트롤을 <xref:EnvDTE._DTE.Name%2A> 속성 및 <xref:System.Windows.Controls.ListBox> 열거는 제어를 <xref:EnvDTE.Window.Caption%2A> 속성에서 반환 되는 컬렉션의를 <xref:EnvDTE._DTE.Windows%2A> 속성.  
   
 ```xml  
 <TextBlock Text="{Binding Path=DTE.Name}" FontSize="12" HorizontalAlignment="Center"/>  

@@ -18,12 +18,12 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: df45f28076bb520a3b1e8055d9c6fbac08cb7669
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 93200995c3afa59b0a4a27aaa9c674fa17b5ee3f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63435255"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685593"
 ---
 # <a name="how-to-move-around-in-the-visual-studio-ide"></a>방법: Visual Studio IDE에서 이동
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "63435255"
 IDE(통합 개발 환경)는 기본 설정이나 프로젝트 요구 사항에 따라 몇 가지 방법으로 창에서 창으로 이동하고 파일에서 파일로 이동할 수 있도록 하기 위해 설계되었습니다. 편집기에 열려 있는 파일 전체를 순환하거나 IDE의 모든 활성 도구 창을 순환하도록 선택할 수 있습니다. 마지막으로 액세스한 순서에 관계없이 편집기에 열려 있는 원하는 파일로 직접 전환할 수도 있습니다. 이러한 기능은 IDE에서 작업할 때 생산성을 높이는 데 유용할 수 있습니다.
 
 > [!NOTE]
-> 대화 상자에서 사용할 수 있는 옵션과 메뉴 명령의 이름 및 위치는 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 이 도움말 페이지는 **일반 개발 설정**을 염두에 두고 작성되었습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
+> 대화 상자에서 사용할 수 있는 옵션과 메뉴 명령의 이름 및 위치는 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 이 도움말 페이지는 **일반 개발 설정**을 염두에 두고 작성되었습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
 
 ## <a name="keyboard-shortcuts"></a>바로 가기 키
  Visual Studio의 거의 모든 메뉴 명령에는 바로 가기 키가 있습니다. 또한 사용자가 직접 바로 가기를 만들 수도 있습니다. 자세한 내용은 [바로 가기 키 식별 및 사용자 지정](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)을 참조하세요.

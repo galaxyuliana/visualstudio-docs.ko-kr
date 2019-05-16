@@ -17,12 +17,12 @@ caps.latest.revision: 11
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 345e58b2c2a783bc9ffda8b915bf8baa66ad375a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 75a98706858323693ec01ec3c3420a6d2d25ffef
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046970"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697222"
 ---
 # <a name="how-to-disable-url-activation-of-clickonce-applications"></a>방법: ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "60046970"
   
  이 방법은 웹 서버에서 사용자 컴퓨터에 설치된 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램에 대해서만 사용할 수 있습니다. URL을 사용하여 시작할 수 있는 온라인 전용 응용 프로그램에는 사용할 수 없습니다. 온라인 전용 애플리케이션 및 설치된 애플리케이션 간 차이점에 대한 자세한 내용은 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)을 참조하세요.  
   
- 이 절차에서는 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)] 도구 MageUI.exe를 사용합니다. 이 도구에 대 한 자세한 내용은 참조 하세요. [MageUI.exe (매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)합니다. 또한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]을(를) 사용하여 이 작업을 수행할 수 있습니다.  
+ 이 절차에서는 [!INCLUDE[winsdklong](../includes/winsdklong-md.md)] 도구 MageUI.exe를 사용합니다. 이 도구에 대 한 자세한 내용은 참조 하세요. [MageUI.exe (매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](https://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)합니다. 또한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]을(를) 사용하여 이 작업을 수행할 수 있습니다.  
   
 ## <a name="procedure"></a>프로시저  
   

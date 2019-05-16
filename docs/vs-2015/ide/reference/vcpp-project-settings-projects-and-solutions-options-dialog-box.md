@@ -19,12 +19,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 66110f6544bc19476bb4ecdfd6929fb4e26f0b52
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 65115be12d00f335272c65083be4a323a604b646
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082436"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65689360"
 ---
 # <a name="vc-project-settings-projects-and-solutions-options-dialog-box"></a>옵션 대화 상자, 프로젝트 및 솔루션, VC++ 프로젝트 설정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -78,5 +78,5 @@ ms.locfileid: "60082436"
  프로젝트의 파일과 디스크의 파일을 프로젝트 폴더에 표시하도록 **솔루션 탐색기**를 구성합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [C/C++ 프로그램 빌드](http://msdn.microsoft.com/library/fa6ed4ff-334a-4d99-b5e2-a1f83d2b3008)   
- [C/C++ 빌드 참조](http://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)
+ [C/C++ 프로그램 빌드](https://msdn.microsoft.com/library/fa6ed4ff-334a-4d99-b5e2-a1f83d2b3008)   
+ [C/C++ 빌드 참조](https://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d)

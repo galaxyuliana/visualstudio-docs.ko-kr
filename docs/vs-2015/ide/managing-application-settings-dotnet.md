@@ -13,12 +13,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 84a2449e9686f71cfd932a2bf6047ed0208da1d0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: d8e88bcf67c430bdd24c4338d92a30b6a7c10fef
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114810"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675004"
 ---
 # <a name="managing-application-settings-net"></a>애플리케이션 설정 관리(.NET)
 
@@ -59,7 +59,7 @@ ms.locfileid: "60114810"
 >
 > 사용자가 사용자 ID와 암호를 입력하는 경우와 같이 외부 소스에서 연결 문자열 정보를 가져올 경우, 연결 문자열의 생성에 사용하는 값에 연결 동작을 변경하는 추가 연결 문자열 매개 변수가 포함되지 않도록 주의해야 합니다.
 >
-> 보호되는 구성 기능을 사용하여 구성 파일의 중요한 정보를 암호화할 수 있습니다. 자세한 내용은 [연결 정보 보호](http://msdn.microsoft.com/library/1471f580-bcd4-4046-bdaf-d2541ecda2f4)를 참조하세요.
+> 보호되는 구성 기능을 사용하여 구성 파일의 중요한 정보를 암호화할 수 있습니다. 자세한 내용은 [연결 정보 보호](https://msdn.microsoft.com/library/1471f580-bcd4-4046-bdaf-d2541ecda2f4)를 참조하세요.
 
 > [!NOTE]
 > 클래스 라이브러리에 대한 구성 파일 모델은 없으므로 클래스 라이브러리 프로젝트에 대해서는 애플리케이션 설정이 적용되지 않습니다. 구성 파일을 가질 수 있는 Visual Studio Tools for Office DLL 프로젝트의 경우는 예외입니다.
@@ -74,7 +74,7 @@ ms.locfileid: "60114810"
 
 ## <a name="accessing-or-changing-application-settings-at-run-time-in-visual-basic"></a>Visual Basic에서 런타임에 애플리케이션 설정에 대한 액세스 또는 변경
 
-[!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트에서는 런타임에 `My.Settings` 개체를 사용하여 애플리케이션 설정에 액세스할 수 있습니다. **설정** 페이지에서 **코드 보기** 단추를 클릭하여 Settings.vb 파일을 볼 수 있습니다. Settings.vb에 정의된 `Settings` 클래스를 통해 사용자는 설정 클래스에서 <xref:System.Configuration.ApplicationSettingsBase.SettingChanging>, <xref:System.Configuration.ApplicationSettingsBase.PropertyChanged>, <xref:System.Configuration.ApplicationSettingsBase.SettingsLoaded>, <xref:System.Configuration.ApplicationSettingsBase.SettingsSaving>등의 이벤트를 처리할 수 있습니다. Settings.vb의 `Settings` 클래스는 사용자 소유 코드만 표시하고 전체적으로 생성된 클래스는 표시하지 않는 partial 클래스입니다. `My.Settings` 개체를 사용하여 애플리케이션 설정에 액세스하는 방법에 대한 자세한 내용은 [애플리케이션 설정 액세스](http://msdn.microsoft.com/library/e38d0cc7-247a-46ca-ba04-f2913f0adb2e)를 참조하세요.
+[!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 프로젝트에서는 런타임에 `My.Settings` 개체를 사용하여 애플리케이션 설정에 액세스할 수 있습니다. **설정** 페이지에서 **코드 보기** 단추를 클릭하여 Settings.vb 파일을 볼 수 있습니다. Settings.vb에 정의된 `Settings` 클래스를 통해 사용자는 설정 클래스에서 <xref:System.Configuration.ApplicationSettingsBase.SettingChanging>, <xref:System.Configuration.ApplicationSettingsBase.PropertyChanged>, <xref:System.Configuration.ApplicationSettingsBase.SettingsLoaded>, <xref:System.Configuration.ApplicationSettingsBase.SettingsSaving>등의 이벤트를 처리할 수 있습니다. Settings.vb의 `Settings` 클래스는 사용자 소유 코드만 표시하고 전체적으로 생성된 클래스는 표시하지 않는 partial 클래스입니다. `My.Settings` 개체를 사용하여 애플리케이션 설정에 액세스하는 방법에 대한 자세한 내용은 [애플리케이션 설정 액세스](https://msdn.microsoft.com/library/e38d0cc7-247a-46ca-ba04-f2913f0adb2e)를 참조하세요.
 
 사용자가 런타임에 변경하는 사용자 범위 설정(예: 폼의 위치)의 값은 user.config 파일에 저장됩니다. 기본값은 여전히 app.config에 저장되어 있습니다.
 
@@ -98,8 +98,8 @@ Properties.Settings.Default.FirstUserSetting = "abc";
 Properties.Settings.Default.Save();
 ```
 
-`Settings` 클래스를 통해 애플리케이션 설정에 액세스하는 방법에 대한 일반적인 내용은 [애플리케이션 설정 개요](http://msdn.microsoft.com/library/0dd8bca5-a6bf-4ac4-8eec-5725d08b38dc)를 참조하세요. 설정 반복에 대한 자세한 내용은 이 [포럼 게시물](http://social.msdn.microsoft.com/Forums/vstudio/40fbb470-f1e8-4a02-a4a0-9f62b54d0fc4/is-this-possible-propertiessettingsdefault?forum=csharpgeneral)을 참조하세요.
+`Settings` 클래스를 통해 애플리케이션 설정에 액세스하는 방법에 대한 일반적인 내용은 [애플리케이션 설정 개요](https://msdn.microsoft.com/library/0dd8bca5-a6bf-4ac4-8eec-5725d08b38dc)를 참조하세요. 설정 반복에 대한 자세한 내용은 이 [포럼 게시물](http://social.msdn.microsoft.com/Forums/vstudio/40fbb470-f1e8-4a02-a4a0-9f62b54d0fc4/is-this-possible-propertiessettingsdefault?forum=csharpgeneral)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 
-- [Accessing Application Settings](http://msdn.microsoft.com/library/e38d0cc7-247a-46ca-ba04-f2913f0adb2e)
+- [Accessing Application Settings](https://msdn.microsoft.com/library/e38d0cc7-247a-46ca-ba04-f2913f0adb2e)

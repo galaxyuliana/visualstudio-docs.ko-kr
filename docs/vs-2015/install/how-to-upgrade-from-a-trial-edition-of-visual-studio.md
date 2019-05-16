@@ -9,12 +9,12 @@ caps.latest.revision: 28
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: 35c81dd879866d6a707e58add4a4fa94a254a918
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: a92d0ead091167437904c384b8f9afca2a3ab89c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433024"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696199"
 ---
 # <a name="how-to-upgrade-from-a-trial-edition-of-visual-studio"></a>방법: Visual Studio Trial Edition에서 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,4 +44,4 @@ ms.locfileid: "63433024"
     > 모든 Visual Studio 버전의 등록 및 잠금 해제에는 인터넷 액세스가 필요합니다. 그러나 Visual Studio 등록 후에 인터넷 연결은 선택 사항입니다.
 
 ## <a name="see-also"></a>참고 항목
- [Visual Studio 설치](../install/install-visual-studio-2015.md) [Visual Studio에 로그인](../ide/signing-in-to-visual-studio.md) [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md) [Team Foundation Server의 제품 키 찾기 또는 변경](http://msdn.microsoft.com/library/64f29927-b520-4c9f-b633-bcb527e562cd) [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+ [Visual Studio 설치](../install/install-visual-studio-2015.md) [Visual Studio에 로그인](../ide/signing-in-to-visual-studio.md) [방법: Visual Studio 제품 키 찾기](../install/how-to-locate-the-visual-studio-product-key.md) [Team Foundation Server의 제품 키 찾기 또는 변경](https://msdn.microsoft.com/library/64f29927-b520-4c9f-b633-bcb527e562cd) [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

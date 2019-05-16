@@ -9,12 +9,12 @@ caps.latest.revision: 4
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6fce9bca76b604413dc5bd4962760ee4ce08a6ea
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 1aed85754eb1238528af9b5d74f2369b2548edc0
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54790615"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687167"
 ---
 # <a name="linq-to-xml-dynamic-properties"></a>LINQ to XML 동적 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "54790615"
   
 - 인덱서 형식으로 해석되는 <xref:System.Xml.Linq.XElement>의 [Elements](../designers/elements-xelement-dynamic-property.md) 및 [Descendants](../designers/descendants-xelement-dynamic-property.md) 속성과 같은 인덱싱된 값 - 인덱서 형식을 원하는 값이나 컬렉션으로 확인하려면 확장된 이름 매개 변수가 인덱서 형식에 전달되어야 합니다.  
   
-  <xref:System.Collections.Generic.IEnumerable%601> 형식의 인덱싱된 값을 반환하는 모든 동적 속성은 지연된 실행을 사용합니다. 지연된 실행에 대한 자세한 내용은 [LINQ 쿼리 소개(C#)](http://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)를 참조하세요.  
+  <xref:System.Collections.Generic.IEnumerable%601> 형식의 인덱싱된 값을 반환하는 모든 동적 속성은 지연된 실행을 사용합니다. 지연된 실행에 대한 자세한 내용은 [LINQ 쿼리 소개(C#)](https://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)를 참조하세요.  
   
 ## <a name="in-this-section"></a>섹션 내용  
   
@@ -48,4 +48,4 @@ ms.locfileid: "54790615"
 ## <a name="see-also"></a>참고 항목  
  [LINQ to XML로 WPF 데이터 바인딩](../designers/wpf-data-binding-with-linq-to-xml.md)   
  [LINQ to XML로 WPF 데이터 바인딩 개요](../designers/wpf-data-binding-with-linq-to-xml-overview.md)   
- [LINQ 쿼리 소개(C#)](http://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)
+ [LINQ 쿼리 소개(C#)](https://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)

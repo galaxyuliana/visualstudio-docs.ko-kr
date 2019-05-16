@@ -17,12 +17,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b4a0cf53dcc9870b5d0c93d2fcaaf2d942fd9959
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 56b010a01ccd7e40e696653e13dd7c972c97a9cb
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981278"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690535"
 ---
 # <a name="jit-optimization-and-debugging"></a>JIT 최적화 및 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,4 +41,4 @@ ms.locfileid: "58981278"
  [Debugging Managed Code](../debugger/debugging-managed-code.md) (관리 코드 디버그)  
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md) (디버거로 코드 탐색)  
  [실행 중인 프로세스에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
- [관리되는 실행 프로세스](http://msdn.microsoft.com/library/476b03dc-2b12-49a7-b067-41caeaa2f533)
+ [관리되는 실행 프로세스](https://msdn.microsoft.com/library/476b03dc-2b12-49a7-b067-41caeaa2f533)

@@ -10,12 +10,12 @@ ms.assetid: 800fc739-acd2-4242-84cb-1d83b4d82cf9
 caps.latest.revision: 38
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f539fd0a20bf852b04b5a41aff829cdcf0e52cf3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d0aa4646bd9d3295aaa2a9da49cc4ed6f057d91a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445919"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695176"
 ---
 # <a name="using-code-coverage-to-determine-how-much-code-is-being-tested"></a>코드 검사를 사용하여 테스트할 코드 범위 결정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -248,7 +248,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
  .runsettings 파일을 작성하면 코드 검사 분석에 대해 선택되는 어셈블리와 요소를 더 자세히 제어할 수 있습니다. 예를 들어, 클래스에 특성을 추가하지 않고도 특정 종류의 어셈블리를 제외할 수 있습니다. 자세한 내용은 [코드 검사 분석 사용자 지정](../test/customizing-code-coverage-analysis.md)을 참조하세요.  
   
 ## <a name="analyzing-code-coverage-in-the-build-service"></a>빌드 서비스에서 코드 검사 분석  
- 코드에 체크 인하면 테스트가 다른 팀원의 나머지 모든 테스트와 함께 빌드 서버에서 실행됩니다. (아직 설정하지 않은 경우 [빌드 프로세스에서 테스트 실행](http://msdn.microsoft.com/library/d05743a1-c5cf-447e-bed9-bed3cb595e38)을 참조하세요.) 빌드 서비스에서 코드 검사를 분석하면 전체 프로젝트에 대한 최신 검사 정보를 전체적으로 파악할 수 있습니다. 또한 일반적으로 개발 컴퓨터에서 실행하지 않는 자동화된 시스템 테스트와 기타 코딩된 테스트도 포함됩니다.  
+ 코드에 체크 인하면 테스트가 다른 팀원의 나머지 모든 테스트와 함께 빌드 서버에서 실행됩니다. (아직 설정하지 않은 경우 [빌드 프로세스에서 테스트 실행](https://msdn.microsoft.com/library/d05743a1-c5cf-447e-bed9-bed3cb595e38)을 참조하세요.) 빌드 서비스에서 코드 검사를 분석하면 전체 프로젝트에 대한 최신 검사 정보를 전체적으로 파악할 수 있습니다. 또한 일반적으로 개발 컴퓨터에서 실행하지 않는 자동화된 시스템 테스트와 기타 코딩된 테스트도 포함됩니다.  
   
 1. 팀 탐색기에서 **빌드**를 연 다음 빌드 정의를 추가하거나 편집합니다.  
   
@@ -265,7 +265,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
    빌드 실행 후 코드 검사 결과가 테스트 실행에 첨부되고 빌드 요약에 나타납니다.  
   
 ## <a name="analyzing-code-coverage-in-a-command-line"></a>명령줄에서 코드 검사 분석  
- 명령줄에서 테스트를 실행하려면 vstest.console.exe를 사용합니다. 코드 검사는 이 유틸리티의 선택 사항입니다. 자세한 내용은 [MSTest.exe 명령줄 옵션](http://msdn.microsoft.com/library/52e1689d-b1a8-4589-bd98-99a55acd0a11)을 참조하세요.  
+ 명령줄에서 테스트를 실행하려면 vstest.console.exe를 사용합니다. 코드 검사는 이 유틸리티의 선택 사항입니다. 자세한 내용은 [MSTest.exe 명령줄 옵션](https://msdn.microsoft.com/library/52e1689d-b1a8-4589-bd98-99a55acd0a11)을 참조하세요.  
   
 1. Visual Studio 개발자 명령 프롬프트를 시작합니다.  
   

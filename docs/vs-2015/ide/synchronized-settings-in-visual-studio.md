@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 54d7bac2db7b1fb2a0a9e8b830a13646acd5300d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 4c5713adc98a0b6ed3f57e604e2e1874b3d95f0a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63428275"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65678857"
 ---
 # <a name="synchronized-settings-in-visual-studio"></a>Visual Studio의 동기화된 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "63428275"
 ## <a name="synchronized-settings"></a>동기화된 설정
  기본적으로 다음 설정이 동기화됩니다.
 
-- 개발 설정. Visual Studio를 처음 실행할 때 설정 집합을 선택해야 하지만 언제든지 선택을 변경할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
+- 개발 설정. Visual Studio를 처음 실행할 때 설정 집합을 선택해야 하지만 언제든지 선택을 변경할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
 
 - **도구 &#124; 옵션** 페이지의 다음 설정:
 

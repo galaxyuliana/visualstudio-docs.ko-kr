@@ -26,12 +26,12 @@ caps.latest.revision: 67
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 84a630a679e95d8a6848592b183749c2ace3ea86
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 4985196feb8c2ddd5996c51210e39f9e503e953f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412301"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675167"
 ---
 # <a name="javascript-intellisense"></a>JavaScript IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -157,7 +157,7 @@ IntelliSense를 사용하면 코드를 작성하는 동안 적절한 정보가 �
 </asp:ScriptManager>
 ```
 
- IntelliSense는 ASP.NET AJAX 웹 응용 프로그램에서 어셈블리의 리소스로 포함된 스크립트 파일도 지원합니다. 포함된 스크립트 리소스에 대한 자세한 내용은 [연습: JavaScript 파일을 어셈블리에 리소스로 포함](http://msdn.microsoft.com/library/d8cb78cd-95a9-4dc6-92df-391866817e89)을 참조하세요.
+ IntelliSense는 ASP.NET AJAX 웹 응용 프로그램에서 어셈블리의 리소스로 포함된 스크립트 파일도 지원합니다. 포함된 스크립트 리소스에 대한 자세한 내용은 [연습: JavaScript 파일을 어셈블리에 리소스로 포함](https://msdn.microsoft.com/library/d8cb78cd-95a9-4dc6-92df-391866817e89)을 참조하세요.
 
 #### <a name="ReferenceDirectives"></a> 참조 지시문
  `reference` 지시문을 사용하면 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에서 현재 편집하고 있는 스크립트와 다른 스크립트 사이에 관계를 설정할 수 있습니다. `reference` 지시문을 사용하면 현재 스크립트 파일의 스크립팅 컨텍스트에 스크립트 파일을 포함시킬 수 있습니다. 그러면 코드를 작성할 때 외부에서 정의된 함수, 형식 및 필드를 참조할 수 있습니다.
@@ -284,5 +284,5 @@ IntelliSense를 사용하면 코드를 작성하는 동안 적절한 정보가 �
 - [식별자 문 완성](../ide/statement-completion-for-identifiers.md)
 - [XML 문서 주석](../ide/xml-documentation-comments-javascript.md)
 - [About the DHTML Object Model](http://go.microsoft.com/fwlink/?LinkID=92344)(DHTML 개체 모델 정보)
-- [멤버 목록](http://msdn.microsoft.com/1b9cc469-9cd4-4d42-9999-1f9479635ff8)
+- [멤버 목록](https://msdn.microsoft.com/1b9cc469-9cd4-4d42-9999-1f9479635ff8)
 - [SRC 특성 &#124; src 속성](http://go.microsoft.com/fwlink/?LinkId=92345)

@@ -25,12 +25,12 @@ caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7d564162a92976037729c4ad638136d7c1e827c4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 70914da9be4046589a0ca3b8e5fd4ae13210ca51
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63438297"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65689259"
 ---
 # <a name="how-to-enable-and-disable-edit-and-continue"></a>방법: 편집 하며 계속 하기 설정 / 해제
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "63438297"
 3. 를 사용 하도록 설정 하려면 선택 합니다 **편집을 사용 하도록 설정 하 고 계속** 확인란 합니다. 이 기능을 사용하지 않도록 설정하려면 이 확인란의 선택을 취소합니다.  
   
    > [!NOTE]
-   > IntelliTrace를 사용하도록 설정되어 있고 IntelliTrace 이벤트 및 호출 정보를 모두 수집하는 경우 편집하며 계속하기를 사용하지 않도록 설정됩니다. 자세한 내용은 [IntelliTrace 구성](http://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)합니다.  
+   > IntelliTrace를 사용하도록 설정되어 있고 IntelliTrace 이벤트 및 호출 정보를 모두 수집하는 경우 편집하며 계속하기를 사용하지 않도록 설정됩니다. 자세한 내용은 [IntelliTrace 구성](https://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)합니다.  
   
 4. **확인**을 클릭합니다.  
   

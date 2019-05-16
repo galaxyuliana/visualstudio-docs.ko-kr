@@ -8,12 +8,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: a0907c2c73a175d9ec0d1e502e8f14f1ac0604fd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: d8f1e04483c486add9940bf3a78ec4c35eb2317d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049804"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65693367"
 ---
 # <a name="ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader"></a>CA3077: API 디자인, XML 문서 및 XML 텍스트 판독기의 처리가 안전하지 않습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60049804"
  XMLDocument 및 XMLTextReader에서 파생된 API를 디자인할 경우 <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A>에 주의해야 합니다.  외부 엔터티 소스를 참조하거나 확인할 때 안전하지 않은 DTDProcessing 인스턴스를 사용하거나 XML에서 안전하지 않은 값을 설정하면 정보가 공개될 수 있습니다.
 
 ## <a name="rule-description"></a>규칙 설명
- [DTD(문서 종류 정의)](https://msdn.microsoft.com/library/aa468547.aspx) 는 XML 파서가  [W3C(World Wide Web Consortium) XML(Extensible Markup Language) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/)에 정의된 대로 문서의 유효성을 확인할 수 있는 두 가지 방법 중 하나입니다. 이 규칙은 신뢰할 수 없는 데이터가 허용되는 속성 및 인스턴스를 찾아 [DoS(서비스 거부)](http://msdn.microsoft.com/library/4064c89f-afa6-444a-aa7e-807ef072131c) 공격을 야기할 수 있는 잠재적인 [Information Disclosure](http://msdn.microsoft.com/library/dfb150f3-d598-4697-a5e6-6779e4f9b600) 위협을 개발자에게 경고합니다. 다음 경우에 이 규칙이 트리거됩니다.
+ [DTD(문서 종류 정의)](https://msdn.microsoft.com/library/aa468547.aspx) 는 XML 파서가  [W3C(World Wide Web Consortium) XML(Extensible Markup Language) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/)에 정의된 대로 문서의 유효성을 확인할 수 있는 두 가지 방법 중 하나입니다. 이 규칙은 신뢰할 수 없는 데이터가 허용되는 속성 및 인스턴스를 찾아 [DoS(서비스 거부)](https://msdn.microsoft.com/library/4064c89f-afa6-444a-aa7e-807ef072131c) 공격을 야기할 수 있는 잠재적인 [Information Disclosure](https://msdn.microsoft.com/library/dfb150f3-d598-4697-a5e6-6779e4f9b600) 위협을 개발자에게 경고합니다. 다음 경우에 이 규칙이 트리거됩니다.
 
 - <xref:System.Xml.XmlDocument> 또는 <xref:System.Xml.XmlTextReader> 클래스는 DTD 처리를 위해 기본 해결 프로그램 값을 사용 합니다.
 

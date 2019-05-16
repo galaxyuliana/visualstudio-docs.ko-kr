@@ -13,12 +13,12 @@ caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e190360b4441a937e9bfa9fb317f9d07de506040
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7c9b267893bacef8c9126b1a17b4eb444af6a1dd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63447241"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692894"
 ---
 # <a name="idiasymbol"></a>IDiaSymbol
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -102,7 +102,7 @@ IDiaSymbol : IUnknown
 |[IDiaSymbol::get_hasLongJump](../../debugger/debug-interface-access/idiasymbol-get-haslongjump.md)|함수 (C 스타일 예외 처리의 일부) longjmp 명령을 포함 되는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_hasManagedCode](../../debugger/debug-interface-access/idiasymbol-get-hasmanagedcode.md)|관리 코드 모듈에 포함 되는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_hasNestedTypes](../../debugger/debug-interface-access/idiasymbol-get-hasnestedtypes.md)|사용자 정의 데이터 형식에 중첩 된 형식을 정의 하는지 여부를 나타내는 플래그를 검색 합니다.|  
-|[IDiaSymbol::get_hasSecurityChecks](../../debugger/debug-interface-access/idiasymbol-get-hassecuritychecks.md)|함수 또는 compiland에서 컴파일된 보안 검사에 있는지 여부를 나타내는 플래그를 검색 합니다 (통해 합니다 [/GS (버퍼 보안 검사)](http://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e) 컴파일러 스위치).|  
+|[IDiaSymbol::get_hasSecurityChecks](../../debugger/debug-interface-access/idiasymbol-get-hassecuritychecks.md)|함수 또는 compiland에서 컴파일된 보안 검사에 있는지 여부를 나타내는 플래그를 검색 합니다 (통해 합니다 [/GS (버퍼 보안 검사)](https://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e) 컴파일러 스위치).|  
 |[IDiaSymbol::get_hasSEH](../../debugger/debug-interface-access/idiasymbol-get-hasseh.md)|함수 스타일 Win32 구조적 예외 처리에 있는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_hasSetJump](../../debugger/debug-interface-access/idiasymbol-get-hassetjump.md)|Setjmp 명령 함수에 포함 되는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_indirectVirtualBaseClass](../../debugger/debug-interface-access/idiasymbol-get-indirectvirtualbaseclass.md)|사용자 정의 데이터 형식에는 간접 가상 기본 클래스 인지 여부를 나타내는 플래그를 검색 합니다.|  
@@ -117,12 +117,12 @@ IDiaSymbol : IUnknown
 |[IDiaSymbol::get_isCVTCIL](../../debugger/debug-interface-access/idiasymbol-get-iscvtcil.md)|모듈에서 중간 언어 (CIL (공용)를 네이티브 코드로 변환 되었는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_isDataAligned](../../debugger/debug-interface-access/idiasymbol-get-isdataaligned.md)|사용자 정의 데이터 형식 요소의 특정 경계에 정렬 되는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_isHLSLData](../../debugger/debug-interface-access/idiasymbol-get-ishlsldata.md)|이 기호 셰이더 언어 HLSL (High Level) 데이터를 나타내는지 여부를 지정 합니다.|  
-|[IDiaSymbol::get_isHotpatchable](../../debugger/debug-interface-access/idiasymbol-get-ishotpatchable.md)|모듈을 사용 하 여 컴파일된 여부를 나타내는 플래그를 검색 합니다 [/hotpatch (핫 패치 가능 이미지 만들기)](http://msdn.microsoft.com/library/aad539b6-c053-4c78-8682-853d98327798) 컴파일러 스위치입니다.|  
+|[IDiaSymbol::get_isHotpatchable](../../debugger/debug-interface-access/idiasymbol-get-ishotpatchable.md)|모듈을 사용 하 여 컴파일된 여부를 나타내는 플래그를 검색 합니다 [/hotpatch (핫 패치 가능 이미지 만들기)](https://msdn.microsoft.com/library/aad539b6-c053-4c78-8682-853d98327798) 컴파일러 스위치입니다.|  
 |[IDiaSymbol::get_isLTCG](../../debugger/debug-interface-access/idiasymbol-get-isltcg.md)|관리 되는 compiland 링커의 LTCG를 사용 하 여 연결 된 있는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_isMatrixRowMajor](../../debugger/debug-interface-access/idiasymbol-get-ismatrixrowmajor.md)|행렬 행 주요 인지 여부를 지정 합니다.|  
 |[IDiaSymbol::get_isMSILNetmodule](../../debugger/debug-interface-access/idiasymbol-get-ismsilnetmodule.md)|관리 되는 컴파일 대상 (메타 데이터만 포함)에.netmodule 인지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_isMultipleInheritance](../../debugger/debug-interface-access/idiasymbol-get-ismultipleinheritance.md)|지정 여부는 `this` 다중 상속을 사용 하 여 데이터 멤버를 가리킵니다.|  
-|[IDiaSymbol::get_isNaked](../../debugger/debug-interface-access/idiasymbol-get-isnaked.md)|함수에 있는지 여부를 나타내는 플래그를 검색 합니다 [naked](http://msdn.microsoft.com/library/69723241-05e1-439b-868e-20a83a16ab6d) 특성입니다.|  
+|[IDiaSymbol::get_isNaked](../../debugger/debug-interface-access/idiasymbol-get-isnaked.md)|함수에 있는지 여부를 나타내는 플래그를 검색 합니다 [naked](https://msdn.microsoft.com/library/69723241-05e1-439b-868e-20a83a16ab6d) 특성입니다.|  
 |[IDiaSymbol::get_isOptimizedAway](../../debugger/debug-interface-access/idiasymbol-get-isoptimizedaway.md)|변수의 지금 최적화 되었는지 여부를 지정 합니다.|  
 |[IDiaSymbol::get_isPointerBasedOnSymbolValue](../../debugger/debug-interface-access/idiasymbol-get-ispointerbasedonsymbolvalue.md)|지정 여부는 `this` 포인터 기호 값을 기반 합니다.|  
 |[IDiaSymbol::get_isPointerToDataMember](../../debugger/debug-interface-access/idiasymbol-get-ispointertodatamember.md)|이 기호 데이터 멤버에 대 한 포인터 인지 여부를 지정 합니다.|  
@@ -152,8 +152,8 @@ IDiaSymbol : IUnknown
 |[IDiaSymbol::get_msil](../../debugger/debug-interface-access/idiasymbol-get-msil.md)|Microsoft MSIL (Intermediate Language) 코드 기호 참조 하는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_name](../../debugger/debug-interface-access/idiasymbol-get-name.md)|기호의 이름을 검색합니다.|  
 |[IDiaSymbol::get_nested](../../debugger/debug-interface-access/idiasymbol-get-nested.md)|사용자 정의 데이터 형식에 중첩 되어 있는지 여부를 나타내는 플래그를 검색 합니다.|  
-|[IDiaSymbol::get_noInline](../../debugger/debug-interface-access/idiasymbol-get-noinline.md)|함수를 사용 하 여 표시 되는지 여부를 나타내는 플래그를 검색 합니다 [noinline](http://msdn.microsoft.com/library/f259d55b-dec7-4bde-8cf9-14521e4fdc42) 특성입니다.|  
-|[IDiaSymbol::get_noReturn](../../debugger/debug-interface-access/idiasymbol-get-noreturn.md)|함수를 사용 하 여 선언 된 여부를 나타내는 플래그를 검색 합니다 [noreturn](http://msdn.microsoft.com/library/9c6517e5-22d7-4051-9974-3d2200ae4d1d) 특성입니다.|  
+|[IDiaSymbol::get_noInline](../../debugger/debug-interface-access/idiasymbol-get-noinline.md)|함수를 사용 하 여 표시 되는지 여부를 나타내는 플래그를 검색 합니다 [noinline](https://msdn.microsoft.com/library/f259d55b-dec7-4bde-8cf9-14521e4fdc42) 특성입니다.|  
+|[IDiaSymbol::get_noReturn](../../debugger/debug-interface-access/idiasymbol-get-noreturn.md)|함수를 사용 하 여 선언 된 여부를 나타내는 플래그를 검색 합니다 [noreturn](https://msdn.microsoft.com/library/9c6517e5-22d7-4051-9974-3d2200ae4d1d) 특성입니다.|  
 |[IDiaSymbol::get_noStackOrdering](../../debugger/debug-interface-access/idiasymbol-get-nostackordering.md)|스택 버퍼 검사의 일부로 스택 순서가 없다는 수행할 수 있는지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_notReached](../../debugger/debug-interface-access/idiasymbol-get-notreached.md)|함수 또는 레이블은 달성 하지 여부를 나타내는 플래그를 검색 합니다.|  
 |[IDiaSymbol::get_numberOfAcceleratorPointerTags](../../debugger/debug-interface-access/idiasymbol-get-numberofacceleratorpointertags.md)|Accelerator 포인터 태그의 수를 반환 합니다는 C++ AMP 스텁 함수입니다.|  

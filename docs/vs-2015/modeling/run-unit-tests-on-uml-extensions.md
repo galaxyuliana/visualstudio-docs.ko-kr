@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e37f6d7891e561beecdf0f9146d647822940571b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: cf83fdf92133284271ea696bccef31af1bd72dbd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079852"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701698"
 ---
 # <a name="run-unit-tests-on-uml-extensions"></a>UML 확장에서 단위 테스트 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -140,7 +140,7 @@ namespace UnitTests
       // Find the ModelingProject and IModelStore:  
       foreach (Project project in ModelSolution.Projects)  
       {  
-        // http://msdn.microsoft.com/library/ee791691.aspx  
+        // https://msdn.microsoft.com/library/ee791691.aspx  
         ModelingProject = project as IModelingProject;  
         if (ModelingProject != null)  
         {  
@@ -382,6 +382,6 @@ Assert.AreEqual("hello", testInstance.privateField1_Accessor);
  그 방식은 가능하면 사용하지 않는 것이 좋습니다. 이전 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 버전에서는 각 private 메서드에 대해 접근자 메서드를 자동으로 만드는 유틸리티를 제공했습니다. 이 유틸리티는 편리하긴 하지만 사용하는 경우 단위 테스트가 테스트 중인 애플리케이션의 내부 구조에 밀접하게 연결되는 것으로 확인되었습니다. 그러면 요구 사항이나 아키텍처가 변경될 때 구현과 함께 테스트도 변경해야 하므로 추가 작업을 수행해야 합니다. 또한 구현 디자인의 잘못된 가정이 테스트에도 기본적으로 적용되므로 테스트가 오류를 찾지 못합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [단위 테스트 분석](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)   
+ [단위 테스트 분석](https://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)   
  [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [UML-텍스트를 사용한 빠른 입력](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a)

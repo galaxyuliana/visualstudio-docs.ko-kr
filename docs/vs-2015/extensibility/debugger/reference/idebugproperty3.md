@@ -12,12 +12,12 @@ ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 272946c80f5df2c96d4cf2bf20ea988c71766d46
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 479827cc83486d6bb9c68d0749b8870cd6c41861
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100575"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65694758"
 ---
 # <a name="idebugproperty3"></a>IDebugProperty3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ IDebugProperty3 : IDebugProperty2
  디버그 엔진 (DE)를 구현 하는 동일한 개체에서이 인터페이스를 구현 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 긴 문자열, 속성 Id 및 사용자 지정 뷰어에 대 한 지원을 제공 합니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 호출 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 `IDebugProperty2` 인터페이스가이 인터페이스를 가져올 수 있습니다.  
+ 호출 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 `IDebugProperty2` 인터페이스가이 인터페이스를 가져올 수 있습니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  상속 된 메서드 외에도 `IDebugProperty2`, `IDebugProperty3` 인터페이스는 다음 메서드를 노출 합니다.  

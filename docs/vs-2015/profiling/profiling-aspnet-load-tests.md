@@ -9,12 +9,12 @@ caps.latest.revision: 17
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1c422b1bb2e41e3b1a848d3957530f43177d9c29
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 97c45b4fc780330e0ac2b8396601e0e181ff4112
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54791807"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683668"
 ---
 # <a name="profiling-aspnet-load-tests"></a>ASP.NET 부하 테스트 프로파일링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ASP.NET 웹 사이트 프로젝트에 대해 실행하는 자동화된 [!INCLUDE
 
  [방법: Visual Studio에서 테스트 설정을 사용하여 부하 테스트에 대한 ASP.NET 프로파일러 구성](/visualstudio/test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings?view=vs-2015)
 
- [Microsoft Visual Studio를 사용하여 시스템 테스트 실행](http://msdn.microsoft.com/library/19fae5c4-5798-4c4c-b531-3e8f901b1130).
+ [Microsoft Visual Studio를 사용하여 시스템 테스트 실행](https://msdn.microsoft.com/library/19fae5c4-5798-4c4c-b531-3e8f901b1130).
 
 ## <a name="see-also"></a>참고 항목
 

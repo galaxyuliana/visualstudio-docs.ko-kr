@@ -18,12 +18,12 @@ caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7fd6d8c63d8b0b56af20ac1211802524336d06bc
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 91b8edcd371a5623d09334948e1db2889f60ae11
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437572"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701152"
 ---
 # <a name="creating-solutions-and-projects"></a>Creating Solutions and Projects
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "63437572"
 프로젝트는 애플리케이션 빌드에 필요한 모든 항목에 대한 논리적 컨테이너입니다. 주 메뉴에서 **파일 &#124; 새로 만들기 &#124; 프로젝트**를 선택하여 프로젝트를 만드는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 프로젝트가 포함될 솔루션을 만듭니다. 그런 다음 필요한 경우 새 프로젝트나 기존 프로젝트를 솔루션에 더 추가할 수 있습니다. 기존 코드 파일에서 프로젝트를 만들 수 있으며 작업을 마쳤을 때 삭제될 임시 프로젝트(.NET만 해당)를 만들 수 있습니다.  
   
 > [!NOTE]
-> 이 항목의 설명은 Visual Studio Community 버전을 기반으로 합니다. 표시되는 대화 상자 및 메뉴 명령은 설정 또는 Visual Studio 버전에 따라 여기에 설명된 내용과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 이 항목의 설명은 Visual Studio Community 버전을 기반으로 합니다. 표시되는 대화 상자 및 메뉴 명령은 설정 또는 Visual Studio 버전에 따라 여기에 설명된 내용과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="create-a-project-from-an-installed-project-template"></a>설치된 프로젝트 템플릿에서 프로젝트 만들기  
  주 메뉴에서 **파일 &#124; 새로 만들기 &#124; 프로젝트**를 선택하여 새 프로젝트 대화 상자를 표시합니다. **설치됨 &#124; 템플릿** 아래 왼쪽 창에서 프로그래밍 언어 및 플랫폼이나 기술을 선택한 다음 가운데 창의 사용 가능한 템플릿에서 선택합니다.  
@@ -95,4 +95,4 @@ ms.locfileid: "63437572"
   
 ## <a name="see-also"></a>참고 항목  
  [솔루션 및 프로젝트](../ide/solutions-and-projects-in-visual-studio.md)   
- [NIB 방법: 다중 프로젝트 솔루션 만들기](http://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6)
+ [NIB 방법: 다중 프로젝트 솔루션 만들기](https://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6)

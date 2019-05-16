@@ -17,12 +17,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9962bb1dbeef089d409cbe100daa37777b45e67d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7cbc9519c86b2bf4967e567b29355eb6d8a176a4
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425377"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65699777"
 ---
 # <a name="edit-data-in-datasets"></a>데이터 세트의 데이터 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "63425377"
  [!code-vb[VbRaddataEditing#5](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataEditing/VB/Form1.vb#5)]  
   
 ## <a name="to-insert-new-rows-into-a-dataset"></a>데이터 집합에 새 행을 삽입  
- 데이터 바인딩된 컨트롤을 일반적으로 사용 하는 응용 프로그램을 통해 새 레코드를 추가 합니다 **새로 추가** 단추를 [BindingNavigator 컨트롤](http://msdn.microsoft.com/library/18c1e2a5-9834-40d3-9b2e-2b545e4e769e)합니다.  
+ 데이터 바인딩된 컨트롤을 일반적으로 사용 하는 응용 프로그램을 통해 새 레코드를 추가 합니다 **새로 추가** 단추를 [BindingNavigator 컨트롤](https://msdn.microsoft.com/library/18c1e2a5-9834-40d3-9b2e-2b545e4e769e)합니다.  
   
  데이터 집합에 새 레코드를 수동으로 추가 하려면 DataTable에서 메서드를 호출 하 여 새 데이터 행을 만듭니다. 다음 행을 추가 합니다 <xref:System.Data.DataRow> 컬렉션 (<xref:System.Data.DataTable.Rows%2A>)의 <xref:System.Data.DataTable>:  
   
@@ -79,7 +79,7 @@ ms.locfileid: "63425377"
   
 - 해당 행의 여러 버전을 포함 하는 각 변경 된 데이터 행 (<xref:System.Data.DataRowVersion>), (변경 내용 배포 전), 원래 버전과 (변경) 후 현재 버전입니다. 변경 보류 중인 경우 기간 (에 응답 하는 경우에 <xref:System.Data.DataTable.RowChanging> 이벤트), 세 번째 버전-제안 된 버전-도 사용할 수 있습니다.
   
-  합니다 <xref:System.Data.DataSet.HasChanges%2A> 데이터 집합의 반환 `true` 데이터 집합의 변경 된 경우. 에 변경 된 행이 있는지 확인 한 후 호출할 수 있습니다는 `GetChanges` 메서드를 <xref:System.Data.DataSet> 또는 <xref:System.Data.DataTable> 변경 된 행 집합을 반환 합니다. 자세한 내용은 [방법: 변경 된 행을 검색](http://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9)합니다.  
+  합니다 <xref:System.Data.DataSet.HasChanges%2A> 데이터 집합의 반환 `true` 데이터 집합의 변경 된 경우. 에 변경 된 행이 있는지 확인 한 후 호출할 수 있습니다는 `GetChanges` 메서드를 <xref:System.Data.DataSet> 또는 <xref:System.Data.DataTable> 변경 된 행 집합을 반환 합니다. 자세한 내용은 [방법: 변경 된 행을 검색](https://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9)합니다.  
   
 #### <a name="to-determine-if-changes-have-been-made-to-any-rows"></a>모든 행에 변경 사항이 생겼는지 확인 하려면  
   

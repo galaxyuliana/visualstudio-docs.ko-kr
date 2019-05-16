@@ -14,12 +14,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 234b4252edc587ef52db57d3ec18eb98bb6b849b
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: fbf945459b0f0e2be041373da1db1cc419f776ed
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54778619"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674103"
 ---
 # <a name="visual-c-typedefs-in-class-designer"></a>클래스 디자이너의 Visual C++ 형식 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ typedef class coord
 };  
 ```  
   
- `typedef` 형식을 사용하는 방법에 대한 자세한 내용은 [(NOTINBUILD)typedef 지정자](http://msdn.microsoft.com/cc96cf26-ba93-4179-951e-695d1f5fdcf1)를 참조하세요.  
+ `typedef` 형식을 사용하는 방법에 대한 자세한 내용은 [(NOTINBUILD)typedef 지정자](https://msdn.microsoft.com/cc96cf26-ba93-4179-951e-695d1f5fdcf1)를 참조하세요.  
   
  C++ typedef 도형은 typedef에 지정된 형식의 도형입니다. 예를 들어 소스에서 `typedef class`를 선언하는 경우 도형에 둥근 모서리와 **클래스** 레이블이 있습니다. `typedef struct`의 경우 도형에 사각형 모서리와 **구조체** 레이블이 있습니다.  
   
@@ -202,4 +202,4 @@ class A {
   
 ## <a name="see-also"></a>참고 항목  
  [Visual C++ 코드 작업(클래스 디자이너)](../ide/working-with-visual-cpp-code-class-designer.md)   
- [(NOTINBUILD)typedef 지정자](http://msdn.microsoft.com/cc96cf26-ba93-4179-951e-695d1f5fdcf1)
+ [(NOTINBUILD)typedef 지정자](https://msdn.microsoft.com/cc96cf26-ba93-4179-951e-695d1f5fdcf1)

@@ -23,12 +23,12 @@ caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ef0bda55c42d384f9e7285b445e4cb3c19144289
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d447d82815046aba6383c2467c2b44c5b7d0d0f0
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63408427"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685711"
 ---
 # <a name="building-and-cleaning-projects-and-solutions-in-visual-studio"></a>Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "63408427"
 이 항목의 절차에 따라 솔루션에 포함된 프로젝트 또는 프로젝트 항목의 전체 또는 일부를 빌드, 다시 빌드 또는 정리할 수 있습니다. 단계별 자습서는 [연습: 애플리케이션 빌드](../ide/walkthrough-building-an-application.md)를 참조하세요.
 
 > [!NOTE]
-> 사용 중인 Visual Studio 버전의 UI는 활성 설정에 따라 이 항목의 설명과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴를 열고 **설정 가져오기 및 내보내기**를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
+> 사용 중인 Visual Studio 버전의 UI는 활성 설정에 따라 이 항목의 설명과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴를 열고 **설정 가져오기 및 내보내기**를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
 
 ## <a name="to-build-rebuild-or-clean-an-entire-solution"></a>전체 솔루션을 빌드, 다시 빌드 또는 정리하려면
 
@@ -110,4 +110,4 @@ ms.locfileid: "63408427"
     - Ctrl+Break 키를 선택합니다.
 
 ## <a name="see-also"></a>참고자료
- [방법: 보기, 저장 및 빌드 로그 파일을 구성](../ide/how-to-view-save-and-configure-build-log-files.md) [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md) [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md) [빌드 구성 이해](../ide/understanding-build-configurations.md) [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e) [C /C++ 빌드 참조](http://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d) [Devenv 명령줄 스위치](../ide/reference/devenv-command-line-switches.md) [솔루션 및 프로젝트](../ide/solutions-and-projects-in-visual-studio.md)
+ [방법: 보기, 저장 및 빌드 로그 파일을 구성](../ide/how-to-view-save-and-configure-build-log-files.md) [빌드 로그 가져오기](../msbuild/obtaining-build-logs-with-msbuild.md) [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md) [빌드 구성 이해](../ide/understanding-build-configurations.md) [디버그 및 릴리스 프로젝트 구성](https://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e) [C /C++ 빌드 참조](https://msdn.microsoft.com/library/100b4ccf-572c-4d1f-970c-fa0bc0cc0d2d) [Devenv 명령줄 스위치](../ide/reference/devenv-command-line-switches.md) [솔루션 및 프로젝트](../ide/solutions-and-projects-in-visual-studio.md)

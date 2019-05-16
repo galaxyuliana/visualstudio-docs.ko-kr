@@ -12,12 +12,12 @@ ms.assetid: 05cd8bf4-c9ee-4b49-b782-2263c33067d6
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 162556c8b6b81f44db850c60c4b602e285f8ca94
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c179a4443c23373fb92adf522ee0af34acb19c3f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431686"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695268"
 ---
 # <a name="idebugobject"></a>IDebugObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ IDebugObject : IUnknown
  식 계산기를 개체가이 인터페이스를 구현 합니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 이 인터페이스는 식 계산기 구문 분석 된 식에서 사용 하는 모든 개체에 대 한 기본 클래스입니다. 호출 하 여 반환 되는 [바인딩할](../../../extensibility/debugger/reference/idebugbinder-bind.md) 메서드. [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 이 인터페이스에서 보다 특수화 된 인터페이스를 가져옵니다.  
+ 이 인터페이스는 식 계산기 구문 분석 된 식에서 사용 하는 모든 개체에 대 한 기본 클래스입니다. 호출 하 여 반환 되는 [바인딩할](../../../extensibility/debugger/reference/idebugbinder-bind.md) 메서드. [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 이 인터페이스에서 보다 특수화 된 인터페이스를 가져옵니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugObject`합니다.  

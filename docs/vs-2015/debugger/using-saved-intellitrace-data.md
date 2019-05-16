@@ -16,12 +16,12 @@ caps.latest.revision: 112
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 549c4f5225773a7d9ac40c16a9db6ca9309c7d6f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3681523595c6e4db50a2a05a7a325decc065cfc5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437773"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65684382"
 ---
 # <a name="using-saved-intellitrace-data"></a>저장된 IntelliTrace 데이터 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,8 +39,8 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
     |**소스**|**참조**|  
     |----------------|-------------|  
     |Visual Studio Enterprise(Professional 또는 Community Edition 아님)의 IntelliTrace 세션|[IntelliTrace 기능](../debugger/intellitrace-features.md)|  
-    |Microsoft Test Manager의 테스트 세션. 이는 Team Foundation Server 작업 항목에 .iTrace 파일을 연결합니다.|[수동 테스트에서 추가 진단 데이터 수집](http://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)|  
-    |배포에서 실행 중인 ASP.NET 웹앱 및 SharePoint 애플리케이션에 대해 Microsoft Monitoring Agent 단독으로 또는 System Center 2012 R2 Operations Manager와 함께 사용|-   [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)<br />-   [System Center 2012 R2 Operations Manager의 새로운 기능](http://technet.microsoft.com/library/dn249700.aspx)|  
+    |Microsoft Test Manager의 테스트 세션. 이는 Team Foundation Server 작업 항목에 .iTrace 파일을 연결합니다.|[수동 테스트에서 추가 진단 데이터 수집](https://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)|  
+    |배포에서 실행 중인 ASP.NET 웹앱 및 SharePoint 애플리케이션에 대해 Microsoft Monitoring Agent 단독으로 또는 System Center 2012 R2 Operations Manager와 함께 사용|-   [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)<br />-   [System Center 2012 R2 Operations Manager의 새로운 기능](https://technet.microsoft.com/library/dn249700.aspx)|  
   
 ## <a name="GetStarted"></a> 원하는 작업을 선택하세요.  
   
@@ -207,7 +207,7 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
   
     ![IntelliTrace 로그 &#45; SharePoint 처리 되지 않은 예외](../debugger/media/sharepointunhandledexceptions-intellitrace.png "SharePointUnhandledExceptions_IntelliTrace")  
   
-   연습을 참조 하세요. [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램을 디버깅](http://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)합니다. 에이전트에서 기록에 표시 되는 데이터의 종류에 대 한 [IntelliTrace 기능](../debugger/intellitrace-features.md)합니다.  
+   연습을 참조 하세요. [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램을 디버깅](https://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4)합니다. 에이전트에서 기록에 표시 되는 데이터의 종류에 대 한 [IntelliTrace 기능](../debugger/intellitrace-features.md)합니다.  
   
 ### <a name="ThreadsList"></a> 스레드 목록  
  대상 프로세스에서 실행하는 기록된 스레드를 검사합니다. 선택한 스레드에서 첫 번째로 유효한 IntelliTrace 이벤트부터 디버깅을 시작할 수 있습니다.  
@@ -258,14 +258,14 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
 |----------------|-------------------|  
 |**모듈 이름**|모듈 파일 이름|  
 |**모듈 경로**|모듈이 로드된 디스크 위치|  
-|**모듈 ID**|버전별로 다르고 일치하는 기호(PDB) 파일에 적용되는 모듈의 고유 식별자. [Finding symbol (.pdb) files and source files](http://msdn.microsoft.com/05384c85-d264-4e18-abaa-aa482ab25470)를 참조하세요.|  
+|**모듈 ID**|버전별로 다르고 일치하는 기호(PDB) 파일에 적용되는 모듈의 고유 식별자. [Finding symbol (.pdb) files and source files](https://msdn.microsoft.com/05384c85-d264-4e18-abaa-aa482ab25470)를 참조하세요.|  
   
 ### <a name="where-can-i-get-more-information"></a>추가 정보는 어디서 확인할 수 있나요?  
  [IntelliTrace 독립 실행형 수집기 사용](../debugger/using-the-intellitrace-stand-alone-collector.md)  
   
  [IntelliTrace 기능](../debugger/intellitrace-features.md)  
   
- [수동 테스트에서 추가 진단 데이터 수집](http://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)  
+ [수동 테스트에서 추가 진단 데이터 수집](https://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)  
   
  [IntelliTrace](../debugger/intellitrace.md)  
   

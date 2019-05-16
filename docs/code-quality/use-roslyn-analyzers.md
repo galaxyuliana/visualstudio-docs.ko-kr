@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 56637ee7826b944d739e170faf22ae354abd8adc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7132fae3623e1ad10fb35d2b903935cdbffee12d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62821418"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65676716"
 ---
 # <a name="use-roslyn-analyzers"></a>Roslyn 분석기를 사용 합니다.
 
@@ -56,7 +56,7 @@ A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.m
 활성 규칙 집합 프로젝트를 변경 하려면로 이동 합니다 **코드 분석** 프로젝트의 속성 탭 합니다. 규칙 집합 목록에서 선택 **이 규칙 집합 실행**합니다. 규칙 집합을 열려면 **엽니다**합니다.
 
 > [!NOTE]
-> .NET core 및.NET Standard 프로젝트 규칙 집합에 대 한 메뉴 명령을 지원 하지 않습니다 **솔루션 탐색기**, 예를 들어 **활성 규칙 집합 열기**합니다. .NET Core 또는.NET Standard 프로젝트에 대해 수동으로 설정 하는 기본이 아닌 규칙 지정 [추가 된 **CodeAnalysisRuleSet** 프로젝트 파일에 속성](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project)합니다. Visual Studio에서 설정 하는 규칙 규칙 집합 편집기 UI 내에서 규칙을 구성할 수 있습니다.
+> .NET core 및.NET Standard 프로젝트 규칙 집합에 대 한 메뉴 명령을 지원 하지 않습니다 **솔루션 탐색기**, 예를 들어 **활성 규칙 집합 열기**합니다. .NET Core 또는.NET Standard 프로젝트에 대해 수동으로 설정 하는 기본이 아닌 규칙 지정 [추가 합니다 **CodeAnalysisRuleSet** 속성](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) 프로젝트 파일에 있습니다. Visual Studio에서 설정 하는 규칙 규칙 집합 편집기 UI 내에서 규칙을 구성할 수 있습니다.
 
 ## <a name="rule-severity"></a>규칙 심각도
 

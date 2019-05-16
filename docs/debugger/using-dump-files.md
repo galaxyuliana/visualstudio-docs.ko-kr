@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8ff4cc9501552b0a482e93aa1917a175680d6d78
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2f0b7edf8ef2670b70dbee25b70cac7b0597490b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62901761"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65676366"
 ---
 # <a name="dump-files-in-the-visual-studio-debugger"></a>Visual Studio 디버거에서 덤프 파일
 
@@ -74,7 +74,7 @@ Visual Studio에서 프로세스를 디버깅 하는 동안 디버거가 예외 
 1. 경로 이동 하 고 덤프 파일에 대 한 이름을 선택 하 고 선택한 **저장할**합니다.
 
 >[!NOTE]
->Windows 미니 덤프 형식을 지 원하는 프로그램으로 덤프 파일을 만들 수 있습니다. 예를 들어 [Windows Sysinternals](http://technet.microsoft.com/sysinternals/default)에 있는 **Procdump** 명령줄 유틸리티는 트리거에 따라서나 요청 시에 프로세스 크래시 덤프 파일을 만들 수 있습니다. 참조 [요구 사항 및 제한 사항](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) 다른 도구를 사용 하 여 덤프 파일을 만들도록 하는 방법에 대 한 정보에 대 한 합니다.
+>Windows 미니 덤프 형식을 지 원하는 프로그램으로 덤프 파일을 만들 수 있습니다. 예를 들어 [Windows Sysinternals](https://technet.microsoft.com/sysinternals/default)에 있는 **Procdump** 명령줄 유틸리티는 트리거에 따라서나 요청 시에 프로세스 크래시 덤프 파일을 만들 수 있습니다. 참조 [요구 사항 및 제한 사항](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) 다른 도구를 사용 하 여 덤프 파일을 만들도록 하는 방법에 대 한 정보에 대 한 합니다.
 
 ## <a name="BKMK_Open_a_dump_file"></a> 덤프 파일 열기
 

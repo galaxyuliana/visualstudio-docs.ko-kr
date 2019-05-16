@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5f98061cbc25bc4b4b7ef54a7027f40c9f780c6c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2a3db616ec23a8d6fdb1984ce27f8fec4909cc9e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62540180"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65680239"
 ---
 # <a name="refactoring-in-visual-studio"></a>Visual Studio에서 리팩터링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,10 +35,10 @@ ms.locfileid: "62540180"
  [리팩터링(C#)](../csharp-ide/refactoring-csharp.md)
 
 ### <a name="refactoring-in-visual-basic"></a>Visual Basic에서의 리팩터링
- [리팩터링 및 이름 바꾸기 대화 상자(Visual Basic)](http://msdn.microsoft.com/library/001d2d81-9bb6-4e8e-ae3a-20c0daaa3959)
+ [리팩터링 및 이름 바꾸기 대화 상자(Visual Basic)](https://msdn.microsoft.com/library/001d2d81-9bb6-4e8e-ae3a-20c0daaa3959)
 
 ### <a name="refactoring-in-c"></a>C++에서의 리팩터링
- [코드 작성 및 리팩터링(C++)](http://msdn.microsoft.com/library/56ffb9e9-514f-41f4-a3cf-fd9ce2daf3b6)
+ [코드 작성 및 리팩터링(C++)](https://msdn.microsoft.com/library/56ffb9e9-514f-41f4-a3cf-fd9ce2daf3b6)
 
 ### <a name="refactoring-in-f"></a>F\#에서의 리팩터링
  F#에 대한 리팩터링 지원은 타사 Visual Studio 확장인 [Visual F# Power Tools](https://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff)에서 제공됩니다.

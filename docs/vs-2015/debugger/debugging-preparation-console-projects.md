@@ -18,17 +18,17 @@ caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 438e619be3e7650961709ef8fce8d69304d5c6ac
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5ac87f6c5ef5fcf9fc7ca5532fe7436dedb8ba97
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985073"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691210"
 ---
 # <a name="debugging-preparation-console-projects"></a>디버깅 준비 중: 콘솔 프로젝트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-콘솔 프로젝트 디버깅을 준비하는 과정은 Windows 프로젝트 디버깅을 준비하는 과정과 비슷하지만 몇 가지 사항을 추가로 고려해야 합니다. 자세한 내용은 [Windows Forms 응용 프로그램](../debugger/debugging-preparation-windows-forms-applications.md), 및 [디버깅 준비: Windows Forms 응용 프로그램 (.NET)](http://msdn.microsoft.com/a8bc54de-41a3-464d-9a12-db9bdcbc1ad5)합니다. 콘솔 응용 프로그램은 모두 비슷하므로 이 항목에서는 다음과 같은 프로젝트 형식을 다룹니다.  
+콘솔 프로젝트 디버깅을 준비하는 과정은 Windows 프로젝트 디버깅을 준비하는 과정과 비슷하지만 몇 가지 사항을 추가로 고려해야 합니다. 자세한 내용은 [Windows Forms 응용 프로그램](../debugger/debugging-preparation-windows-forms-applications.md), 및 [디버깅 준비: Windows Forms 응용 프로그램 (.NET)](https://msdn.microsoft.com/a8bc54de-41a3-464d-9a12-db9bdcbc1ad5)합니다. 콘솔 응용 프로그램은 모두 비슷하므로 이 항목에서는 다음과 같은 프로젝트 형식을 다룹니다.  
   
 - C# 콘솔 응용 프로그램  
   
@@ -38,7 +38,7 @@ ms.locfileid: "58985073"
   
 - C++ 콘솔 응용 프로그램(Win32)  
   
-  콘솔 응용 프로그램에 대한 명령줄 인수를 지정해야 할 수도 있습니다. 자세한 내용은 [c + + 디버그 구성에 대 한 프로젝트 설정을](../debugger/project-settings-for-a-cpp-debug-configuration.md)를 [Visual Basic 디버그 구성에 대 한 프로젝트 설정을](../debugger/project-settings-for-a-visual-basic-debug-configuration.md), 또는 [C# 디버그 구성에 대 한 프로젝트 설정 ](../debugger/project-settings-for-csharp-debug-configurations.md).  
+  콘솔 응용 프로그램에 대한 명령줄 인수를 지정해야 할 수도 있습니다. 자세한 내용은 [프로젝트 설정에 대 한는 C++ 디버그 구성](../debugger/project-settings-for-a-cpp-debug-configuration.md), [Visual Basic 디버그 구성에 대 한 프로젝트 설정](../debugger/project-settings-for-a-visual-basic-debug-configuration.md), 또는 [프로젝트 설정에 대 한 C# 디버그 구성을](../debugger/project-settings-for-csharp-debug-configurations.md)합니다.  
   
   모든 프로젝트 속성과 마찬가지로 이러한 인수도 디버그 세션 사이와 Visual Studio 세션 사이에 지속적으로 적용됩니다. 따라서 이전에 디버깅한 콘솔 애플리케이션인 경우에는 이전 세션에서 **\<Project>속성 페이지** 대화 상자에 입력한 인수가 있을 수 있습니다.  
   

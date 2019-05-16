@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9d0f53e589f34fafd2514aa71efdaa16cfe3bc21
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: fe17c72463d58cb4e1ac0a76d904416559ed224b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117670"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690544"
 ---
 # <a name="how-to-add-a-drag-and-drop-handler"></a>방법: 끌어서 놓기 처리기 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -89,7 +89,7 @@ using System.Linq;
   끌어 온 항목이 적절한지 여부를 확인하도록 `IsAcceptableDropItem(e)`을 정의하고 항목을 놓을 때 모델을 업데이트하도록 ProcessDragDropItem(e)을 정의합니다. 이러한 메서드는 먼저 이벤트 인수에서 항목을 추출해야 합니다. 그렇게 하는 방법에 대 한 정보를 참조 하세요 [끌어 온된 항목에 대 한 참조를 가져오는 방법을](#extracting)합니다.  
   
 ## <a name="MEF"></a> MEF를 사용 하 여 제스처 처리기 정의  
- MEF(Managed Extensibility Framework)를 사용하면 최소한의 구성으로 설치 가능한 구성 요소를 정의할 수 있습니다. 자세한 내용은 [MEF(관리되는 확장성 프레임워크 개요)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)를 참조하십시오.  
+ MEF(Managed Extensibility Framework)를 사용하면 최소한의 구성으로 설치 가능한 구성 요소를 정의할 수 있습니다. 자세한 내용은 [MEF(관리되는 확장성 프레임워크 개요)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)를 참조하십시오.  
   
 #### <a name="to-define-a-mef-gesture-handler"></a>MEF 제스처 처리기를 정의하려면  
   
