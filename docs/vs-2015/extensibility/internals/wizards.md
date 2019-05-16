@@ -10,12 +10,12 @@ ms.assetid: 59d9a77f-ee80-474b-a14f-90f477ab717b
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 7afb8956ab3c5f4fb202adadbeea32d90e159074
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6e58ebd736f7bb9f35df6e41d5235f36f7037259
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972084"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687623"
 ---
 # <a name="wizards"></a>마법사
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "58972084"
  [프로젝트 형식](../../extensibility/internals/project-types.md)  
  새 프로젝트 형식을 디자인 하는 방법에 대 한 정보를 제공 하는 추가 항목에 대 한 링크를 제공 합니다.  
   
- [연습: 마법사 만들기](http://msdn.microsoft.com/library/adb41fe9-fcca-4e87-bf4f-bf2fa68e8b06)  
+ [연습: 마법사 만들기](https://msdn.microsoft.com/library/adb41fe9-fcca-4e87-bf4f-bf2fa68e8b06)  
  마법사를 만드는 방법을 보여 줍니다.  
   
  [프로젝트 확장](../../extensibility/extending-projects.md)  

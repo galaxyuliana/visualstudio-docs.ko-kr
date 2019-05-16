@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 40b1d2961fa0f0187d11bd87df54ff2ad3124275
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d0c258ea081e95179c507f76413ae2a5fc7d71a5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433517"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705850"
 ---
 # <a name="how-to-create-a-wcf-workflow-service-application"></a>방법: WCF 워크플로 서비스 애플리케이션 만들기
 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 워크플로 서비스 응용 프로그램은 프로세스 경계를 넘어 클라이언트와 메시지를 주고 받는 분산 통신 서비스입니다. 서비스 측의 서비스 계약 구현은 .NET Framework 3.5의 레거시 워크플로 서비스와 비슷한 방식으로 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]에서 워크플로 활동을 통해 선언적으로 이루어집니다.  
@@ -43,5 +43,5 @@ ms.locfileid: "63433517"
 8. 프로젝트 템플릿이 서비스 정의를 XAML로 만듭니다. [!INCLUDE[wfd1](../includes/wfd1-md.md)] 및 <xref:System.Activities.Statements.Sequence> 활동 집합을 포함하는 <xref:System.ServiceModel.Activities.Receive> 활동이 표시된 <xref:System.ServiceModel.Activities.SendReply>의 디자인 뷰가 열립니다.   
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 활동 만들기](http://msdn.microsoft.com/library/c09b1e99-21b5-4d96-9c04-ec31db3f4436)   
+ [방법: 활동 만들기](https://msdn.microsoft.com/library/c09b1e99-21b5-4d96-9c04-ec31db3f4436)   
  [워크플로 프로젝트 만들기](../workflow-designer/creating-a-workflow-project.md)

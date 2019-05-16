@@ -9,12 +9,12 @@ caps.latest.revision: 21
 author: alexhomer1
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4ec7d42fe5f1db8a44f17cf3dffdfd6174a58995
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 144097837eba5c8feeb5a424134fec887d51befe
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445937"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695251"
 ---
 # <a name="unit-testing-visual-c-code-in-a-store-app"></a>스토어 앱의 Visual C# 코드 유닛 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "63445937"
 >   - 빌드할 때마다 빌드 후 테스트를 실행합니다.  
 >   - VS Enterprise에는 관리 코드에 대한 격리 프레임워크인 Microsoft Fakes도 포함되어 있습니다. Microsoft Fakes는 시스템 및 타사 기능을 테스트 코드로 대체하여 자체 코드에 대한 테스트에 집중하는 데 도움이 됩니다.  
 > 
->   자세한 내용은 MSDN 라이브러리의 [단위 테스트를 사용하여 코드 확인](http://msdn.microsoft.com/library/dd264975.aspx)을 참조하세요.  
+>   자세한 내용은 MSDN 라이브러리의 [단위 테스트를 사용하여 코드 확인](https://msdn.microsoft.com/library/dd264975.aspx)을 참조하세요.  
   
 ## <a name="BKMK_In_this_topic"></a> 항목 내용  
  [솔루션 및 단위 테스트 프로젝트 만들기](#BKMK_Create_the_solution_and_the_unit_test_project)  

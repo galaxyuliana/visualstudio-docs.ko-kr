@@ -18,17 +18,17 @@ caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 27090998a7afa6f99da9152e1f5bb7407fed6aa0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 17b906f721bea6e4183575eced962e9ed830cda1
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63423264"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675452"
 ---
 # <a name="clickonce-security-and-deployment"></a>ClickOnce 보안 및 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 게시 및 Visual Basic 및 Visual C#을 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 합니다. 시각적 개체를 배포 하는 방법은 C++ 응용 프로그램을 참조 하세요 [시각적 개체에 대 한 ClickOnce 배포 C++ 응용 프로그램](http://msdn.microsoft.com/library/9988c546-0936-452c-932f-9c76daa42157)합니다.  
+[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 게시 및 Visual Basic 및 Visual C#을 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 합니다. 시각적 개체를 배포 하는 방법은 C++ 응용 프로그램을 참조 하세요 [시각적 개체에 대 한 ClickOnce 배포 C++ 응용 프로그램](https://msdn.microsoft.com/library/9988c546-0936-452c-932f-9c76daa42157)합니다.  
   
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포는 배포에서 세 가지 주요 문제를 극복 합니다.  
   
@@ -98,8 +98,8 @@ ms.locfileid: "63423264"
 |----------|-----------------|  
 |[프로젝트 디자이너, 보안 페이지](../ide/reference/security-page-project-designer.md)|응용 프로그램 및 배포 매니페스트에 서명 합니다.|  
 |[프로젝트 디자이너, 게시 페이지](../ide/reference/publish-page-project-designer.md)|생성 하 고 Visual Basic 및 Visual C# 응용 프로그램에 대 한 응용 프로그램 및 배포 매니페스트를 편집 합니다.|  
-|[Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)|Visual Basic의 경우 시각적 개체에 대 한 응용 프로그램 및 배포 매니페스트를 생성 C#, 및 시각적 C++ 응용 프로그램입니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.<br /><br /> 일괄 처리 스크립트 및 명령 프롬프트에서 실행할 수 있습니다.|  
-|[MageUI.exe(매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)|생성 하 고 응용 프로그램 및 배포 매니페스트를 편집 합니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.|  
+|[Mage.exe(매니페스트 생성 및 편집 도구)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)|Visual Basic의 경우 시각적 개체에 대 한 응용 프로그램 및 배포 매니페스트를 생성 C#, 및 시각적 C++ 응용 프로그램입니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.<br /><br /> 일괄 처리 스크립트 및 명령 프롬프트에서 실행할 수 있습니다.|  
+|[MageUI.exe(매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](https://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)|생성 하 고 응용 프로그램 및 배포 매니페스트를 편집 합니다.<br /><br /> 서명 하 고 응용 프로그램 및 배포 매니페스트에 다시 서명 키를 누릅니다.|  
 |[GenerateApplicationManifest 작업](../msbuild/generateapplicationmanifest-task.md)|응용 프로그램 매니페스트를 생성합니다.<br /><br /> MSBuild에서 실행할 수 있습니다. 자세한 내용은 [MSBuild 참조](../msbuild/msbuild-reference.md)를 참조하세요.|  
 |[GenerateDeploymentManifest 작업](../msbuild/generatedeploymentmanifest-task.md)|배포 매니페스트를 생성합니다.<br /><br /> MSBuild에서 실행할 수 있습니다. 자세한 내용은 [MSBuild 참조](../msbuild/msbuild-reference.md)를 참조하세요.|  
 |[SignFile 작업](../msbuild/signfile-task.md)|응용 프로그램 및 배포 매니페스트에 서명 합니다.<br /><br /> MSBuild에서 실행할 수 있습니다. 자세한 내용은 [MSBuild 참조](../msbuild/msbuild-reference.md)를 참조하세요.|  

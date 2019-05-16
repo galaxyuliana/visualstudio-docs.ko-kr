@@ -10,12 +10,12 @@ ms.assetid: 964980ca-21c5-4706-8535-6ea23e1c9cc9
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: ff124246c3dc80074432e40eebf6e00e8b90b3f7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a5a99ebdf2366ce6a60a6a724afc7d742db7150f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983193"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705797"
 ---
 # <a name="source-control-plug-ins"></a>소스 제어 플러그 인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,11 +56,11 @@ ms.locfileid: "58983193"
  [용어](../extensibility/source-control-plug-in-glossary.md)  
  유용한 용어 및 소스 제어 플러그 인 SDK 설명서를 읽기에 대 한 해당 정의 제공 합니다.  
   
- [방법: 원본 제어 플러그 인에 대 한 호환성 경고 해제](../extensibility/how-to-turn-off-compatibility-warnings-for-source-control-plug-ins.md)  
+ [방법: 소스 제어 플러그 인의 호환성 경고 해제](../extensibility/how-to-turn-off-compatibility-warnings-for-source-control-plug-ins.md)  
  경고를 사용 하지 않도록 설정 하는 방법에 설명 합니다.  
   
 ## <a name="related-sections"></a>관련 단원  
- [소스 제어 플러그 인 샘플](http://msdn.microsoft.com/61de7d2b-71db-451e-8e3e-d41b11c7a4ca)  
+ [소스 제어 플러그 인 샘플](https://msdn.microsoft.com/61de7d2b-71db-451e-8e3e-d41b11c7a4ca)  
  샘플 소스 제어 플러그 인 기능을 제공합니다.  
   
  [소스 제어 플러그 인에 대한 테스트 가이드](../extensibility/internals/test-guide-for-source-control-plug-ins.md)  

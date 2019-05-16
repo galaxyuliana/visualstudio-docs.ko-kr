@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9ee1e1bc8762ae21ea69db5215d4dc472858d720
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a5ca94c88a1f131065b7d5de57e9cdc200696d58
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442446"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65681419"
 ---
 # <a name="modify-the-style-of-objects-in-blend"></a>Blend에서 개체 스타일 수정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -95,12 +95,12 @@ ms.locfileid: "63442446"
  **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [스타일 만들기](https://www.youtube.com/watch?v=W8YdXDPeKdc)합니다.  
   
 ### <a name="apply-a-style-or-template-to-a-control"></a>컨트롤에 스타일이나 템플릿 적용  
- [개체 및 타임라인](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) 패널에서 개체를 마우스 오른쪽 단추로 클릭하고 **템플릿 편집**을 선택한 후 **리소스 적용**을 선택합니다.  
+ [개체 및 타임라인](https://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) 패널에서 개체를 마우스 오른쪽 단추로 클릭하고 **템플릿 편집**을 선택한 후 **리소스 적용**을 선택합니다.  
   
  ![](../designers/media/dc12debc-7711-47d9-84ce-10322a384397.png "dc12debc-7711-47d9-84ce-10322a384397")  
   
 ### <a name="restore-the-default-style-or-template-of-a-control"></a>컨트롤의 기본 스타일이나 템플릿 복원  
- 컨트롤을 선택하고 [속성](http://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) 패널에서 **스타일**이나 **템플릿** 속성을 찾습니다. 그런 다음 **고급 옵션** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb")을 클릭하고 바로 가기 메뉴에서 **다시 설정**을 클릭합니다.  
+ 컨트롤을 선택하고 [속성](https://msdn.microsoft.com/135a5a5e-ec6d-4f38-8827-60e284cd5f57) 패널에서 **스타일**이나 **템플릿** 속성을 찾습니다. 그런 다음 **고급 옵션** ![](../designers/media/12e06962-5d8a-480d-a837-e06b84c545bb.png "12e06962-5d8a-480d-a837-e06b84c545bb")을 클릭하고 바로 가기 메뉴에서 **다시 설정**을 클릭합니다.  
   
 ## <a name="Visual"></a> 시각적 상태: 해당 상태에 따라 컨트롤의 모양을 변경합니다.  
  컨트롤에는 사용자 상호 작용에 따라 여러 시각적 모양이 포함될 수 있습니다. 예를 들어 사용자가 클릭하거나 애니메이션 실행 시 단추가 녹색으로 바뀌도록 설정할 수 있습니다. 전환을 사용하여 시각적 상태 간의 시간을 줄이거나 늘릴 수 있습니다.  

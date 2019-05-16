@@ -12,12 +12,12 @@ ms.assetid: 8a042beb-b319-48e3-b3c8-9c8336ab371b
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 676251db2116e6d9101a0dcb6815f17a4e225192
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 50ea30c736a4606a7745e52057f2ca8f9afd2c5f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983628"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65673771"
 ---
 # <a name="idebugbreakpointrequest3"></a>IDebugBreakpointRequest3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugBreakpointRequest3 : IDebugBreakpointRequest2
  세션 디버그 관리자 SDM ()는 일반적으로이 인터페이스를 구현합니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 디버그 엔진 (DE)를 호출 하 여이 인터페이스에 액세스 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 대 한 호출에서 받은 IDebugBreakpointRequest2 인터페이스 [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md)합니다.  
+ 디버그 엔진 (DE)를 호출 하 여이 인터페이스에 액세스 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 대 한 호출에서 받은 IDebugBreakpointRequest2 인터페이스 [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md)합니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  상속 된 메서드 외에도 [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md), `IDebugBreakpointRequest3` 인터페이스는 다음 메서드를 노출 합니다.  

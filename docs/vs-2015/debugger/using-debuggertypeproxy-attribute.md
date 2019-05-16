@@ -18,12 +18,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ca1b84990ed2747e530a1a83a17e17b99f36b116
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f6e349dd5bea4e0d89c31864960a5438d1e2b13f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982910"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65684080"
 ---
 # <a name="using-debuggertypeproxy-attribute"></a>DebuggerTypeProxy 특성 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ DebuggerTypeProxyAttribute] (assetId:///T:System.Diagnostics.DebuggerTypeProxyAt
   
  `DebuggerTypeProxy`에서 제네릭 형식을 대상으로 사용하는 경우 이 구문을 사용해야 합니다. `DebuggerTypeProxy` 메커니즘은 형식 매개 변수를 자동으로 유추합니다.  
   
- C#의 개방형 형식과 닫힌 형식에 대 한 자세한 내용은 참조는 [C# 언어 사양](http://msdn.microsoft.com/library/e5d5a5cc-636b-4bff-b9c8-a8edc6207c22), 섹션 20.5.2 개방형 형식 및 닫힌 형식을 합니다.  
+ C#의 개방형 형식과 닫힌 형식에 대 한 자세한 내용은 참조는 [C# 언어 사양](https://msdn.microsoft.com/library/e5d5a5cc-636b-4bff-b9c8-a8edc6207c22), 섹션 20.5.2 개방형 형식 및 닫힌 형식을 합니다.  
   
  Visual Basic에는 개방형 형식 구문이 없으므로 Visual Basic의 경우 이와 같은 작업을 수행할 수 없습니다. 대신 개방형 형식 이름의 문자열 표현을 사용해야 합니다.  
   
@@ -65,4 +65,4 @@ DebuggerTypeProxyAttribute] (assetId:///T:System.Diagnostics.DebuggerTypeProxyAt
   
 ## <a name="see-also"></a>참고 항목  
  [DebuggerDisplay 특성 사용](../debugger/using-the-debuggerdisplay-attribute.md)   
-  [디버거 표시 특성을 사용하여 디버깅 향상](http://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)
+  [디버거 표시 특성을 사용하여 디버깅 향상](https://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)

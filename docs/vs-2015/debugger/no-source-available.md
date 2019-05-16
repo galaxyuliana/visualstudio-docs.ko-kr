@@ -18,12 +18,12 @@ caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9652073b6e5ea58b8206b195f3a99769a1b63a91
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 69ea9c3a41f83b9c06dc18d6da1f859017f12ca5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981834"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697804"
 ---
 # <a name="no-source-available"></a>소스 없음
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,4 +44,4 @@ ms.locfileid: "58981834"
 ## <a name="see-also"></a>참고 항목  
  [소스 파일 디버그, 공용 속성, 솔루션 속성 페이지 대화 상자](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md)   
  [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
- [SOS.dll(SOS 디버깅 확장)](http://msdn.microsoft.com/library/9ac1b522-77ab-4cdc-852a-20fcdc9ae498)
+ [SOS.dll(SOS 디버깅 확장)](https://msdn.microsoft.com/library/9ac1b522-77ab-4cdc-852a-20fcdc9ae498)

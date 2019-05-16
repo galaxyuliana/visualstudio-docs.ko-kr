@@ -12,12 +12,12 @@ ms.assetid: 44e309ba-1d6f-499b-aa7e-9b34858a6d57
 caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: acdd887e3d1f1fd21c92ccd055bd7940b071ccbe
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d2b036bd68aca126675f26b9823d2c786a0ae652
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62538267"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675323"
 ---
 # <a name="idebugprocessex2"></a>IDebugProcessEx2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ IDebugProcessEx2 : IUnknown
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
   
-- SDM 호출 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 `IDebugProcess2` 인터페이스가이 인터페이스를 가져올 수 있습니다.  
+- SDM 호출 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 `IDebugProcess2` 인터페이스가이 인터페이스를 가져올 수 있습니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugProcessEx2`합니다.  

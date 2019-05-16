@@ -19,12 +19,12 @@ caps.latest.revision: 38
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e7a2640d39c90dc36a3960d230df46ac75bdbce6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 7a80587062442688551d07128a2cec49a712adf6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092424"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691460"
 ---
 # <a name="debugging-preparation-aspnet-web-applications"></a>디버깅 준비 중: ASP.NET 웹 응용 프로그램
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,11 +43,11 @@ ms.locfileid: "60092424"
   
 1. 함수와 이벤트 처리기에서 하나 이상의 중단점을 설정합니다.  
   
-     자세한 내용은 [Breakpoints and Tracepoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)을 참조하세요.  
+     자세한 내용은 [Breakpoints and Tracepoints](https://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)을 참조하세요.  
   
 2. 중단점에 도달하면 함수 내부에서 코드를 단계별로 실행합니다. 문제가 해결될 때까지 코드의 실행을 확인합니다.  
   
-     자세한 내용은 [단계별 실행](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9) 하 고 [웹 응용 프로그램 디버깅 및 스크립트](../debugger/debugging-web-applications-and-script.md)합니다.  
+     자세한 내용은 [단계별 실행](https://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9) 하 고 [웹 응용 프로그램 디버깅 및 스크립트](../debugger/debugging-web-applications-and-script.md)합니다.  
   
 ## <a name="changing-default-configurations"></a>기본 구성 변경  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 만든 기본 디버그 및 릴리스 구성을 변경해야 하는 경우 이를 수행할 수 있습니다. 자세한 내용은 [방법: 디버그 및 릴리스 구성 설정](../debugger/how-to-set-debug-and-release-configurations.md)을 참조하세요.  

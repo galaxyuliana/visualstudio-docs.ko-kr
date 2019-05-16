@@ -11,12 +11,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7de5d9189906d72c96372acb1a361d315f973df6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 15320289c3f668f2bc0a84d9653110d02536a32e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62938224"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65694506"
 ---
 # <a name="pick-activity-designer"></a>Pick 활동 디자이너
 <xref:System.Activities.Statements.Pick> 활동은 이벤트 기반의 제어 흐름을 제공합니다. 이 활동은 트리거를 시작하는 이벤트에 대해 몇 가지 분기 중 하나를 실행합니다.  
@@ -40,5 +40,5 @@ ms.locfileid: "62938224"
   
 ## <a name="see-also"></a>참고 항목  
  [제어 흐름](../workflow-designer/control-flow-activity-designers.md)   
- [선택 활동](http://msdn.microsoft.com/library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
- [Pick 작업 사용](http://msdn.microsoft.com/library/b89be812-a247-4025-b0e3-ffb20db027a6)
+ [선택 활동](https://msdn.microsoft.com/library/b3e49b7f-0285-4720-8c09-11ae18f0d53e)   
+ [Pick 작업 사용](https://msdn.microsoft.com/library/b89be812-a247-4025-b0e3-ffb20db027a6)

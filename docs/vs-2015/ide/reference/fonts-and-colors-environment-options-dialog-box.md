@@ -27,12 +27,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1cd4b57e2dccbb26c3b6ceba1be51fa5022469cb
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 84d7ee0a3e25db7c32e0f016e92dafb539757a61
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437161"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688658"
 ---
 # <a name="fonts-and-colors-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 글꼴 및 색
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ ms.locfileid: "63437161"
 **옵션** 대화 상자의 **글꼴 및 색** 페이지를 사용하면 IDE(통합 개발 환경)에서 여러 사용자 인터페이스 요소의 사용자 지정 글꼴 및 색 구성표를 설정할 수 있습니다. **도구/옵션**을 클릭한 다음 **환경/글꼴 및 색**을 선택하여 이 대화 상자에 액세스할 수 있습니다. 이 페이지가 목록에 나타나지 않으면 **옵션** 대화 상자에서 **모든 설정 표시**를 선택합니다.  
   
 > [!NOTE]
-> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  색 구성표의 변경 내용은 변경을 수행하는 세션 중에는 적용되지 않습니다. Visual Studio의 또 다른 인스턴스를 열고 이 변경 내용이 적용되는 조건을 만들어 색 변경 내용을 평가할 수 있습니다.  
   

@@ -8,12 +8,12 @@ ms.assetid: adb6c011-5abd-41d2-8ead-08cd7579bf37
 caps.latest.revision: 14
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4e8b2c26050fd3e78e76b93e6372a03836916387
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: be8c468e8b6aac70d44485b1560a84524a4ef540
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63416353"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686413"
 ---
 # <a name="how-to-configure-unit-tests-to-target-an-earlier-version-of-the-net-framework"></a>방법: 이전 버전의 .NET Framework를 대상으로 사용하도록 단위 테스트 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ Microsoft Visual Studio에서 테스트 프로젝트를 만들 때 .NET Framewor
   
   **SharePoint 응용 프로그램 테스트**  
   
-  위에 나열된 기능을 통해 Visual Studio를 사용하는 SharePoint 애플리케이션에 대한 단위 테스트 및 통합 테스트를 작성할 수 있습니다. [!INCLUDE[crabout](../includes/crabout-md.md)] Visual Studio를 사용하여 SharePoint 응용 프로그램을 개발하는 방법은 [SharePoint 솔루션 만들기](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631), [SharePoint 솔루션 빌드 및 디버깅](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae) 및 [SharePoint 코드 확인 및 디버깅](http://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c)을 참조하세요.  
+  위에 나열된 기능을 통해 Visual Studio를 사용하는 SharePoint 애플리케이션에 대한 단위 테스트 및 통합 테스트를 작성할 수 있습니다. [!INCLUDE[crabout](../includes/crabout-md.md)] Visual Studio를 사용하여 SharePoint 응용 프로그램을 개발하는 방법은 [SharePoint 솔루션 만들기](https://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631), [SharePoint 솔루션 빌드 및 디버깅](https://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae) 및 [SharePoint 코드 확인 및 디버깅](https://msdn.microsoft.com/library/b5f3bce2-6a51-41b1-a292-9e384bae420c)을 참조하세요.  
   
   **제한 사항**  
   
@@ -126,7 +126,7 @@ Microsoft Visual Studio에서 테스트 프로젝트를 만들 때 .NET Framewor
 8. [솔루션 탐색기]에 있는 새 Visual C++ 테스트 프로젝트의 바로 가기 메뉴에서 **프로젝트 다시 로드**를 선택합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [기존 코드에 대한 단위 테스트 만들기 및 실행](http://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
- [SharePoint 솔루션 만들기](http://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
- [SharePoint 솔루션 빌드 및 디버깅](http://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
+ [기존 코드에 대한 단위 테스트 만들기 및 실행](https://msdn.microsoft.com/e8370b93-085b-41c9-8dec-655bd886f173)   
+ [SharePoint 솔루션 만들기](https://msdn.microsoft.com/library/4bfb1e59-97c9-4594-93f8-3068b4eb9631)   
+ [SharePoint 솔루션 빌드 및 디버깅](https://msdn.microsoft.com/library/c9e7c9ab-4eb3-40cd-a9b9-6c2a896f70ae)   
  [고급 컴파일러 설정 대화 상자(Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)

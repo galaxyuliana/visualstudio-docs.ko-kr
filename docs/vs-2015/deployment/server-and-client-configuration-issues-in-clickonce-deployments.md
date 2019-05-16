@@ -18,12 +18,12 @@ caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 90772785297b84a12cc98d6ce21a2cd2e65743f9
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 8b8f81f22ffe566524e45a62330bc95c8ce00016
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444979"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686378"
 ---
 # <a name="server-and-client-configuration-issues-in-clickonce-deployments"></a>ClickOnce 배포 시 서버 및 클라이언트 구성 문제
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "63444979"
   
 - .deploy  
   
-  선택을 취소 하 여이 옵션을 해제할 수는 있지만 합니다 **".deploy" 파일 확장명을 사용 하 여** 옵션을 합니다 [Publish Options Dialog Box](http://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), 모든 파일 확장명을 차단 해제 하려면 웹 서버를 구성 해야 하는 경우 응용 프로그램에서 사용 합니다.  
+  선택을 취소 하 여이 옵션을 해제할 수는 있지만 합니다 **".deploy" 파일 확장명을 사용 하 여** 옵션을 합니다 [Publish Options Dialog Box](https://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), 모든 파일 확장명을 차단 해제 하려면 웹 서버를 구성 해야 하는 경우 응용 프로그램에서 사용 합니다.  
   
   IIS를 설치 하지 않은 위치를 사용 하는 경우.manifest,.application, 및.deploy, 예를 들어 구성 해야 합니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)], 또는 다른 웹 서버 (예: Apache)를 사용 하는 경우.  
   
@@ -54,7 +54,7 @@ ms.locfileid: "63444979"
   
  또한이 기능을 사용 하도록.NET Framework 2.0 핫픽스를 적용할 수 있습니다. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkId=158730을 참조하세요.  
   
- 자세한 내용은 [ \<defaultProxy > 요소 (네트워크 설정)](http://msdn.microsoft.com/library/9d663c4b-07b4-4f6f-9b12-efbd3630354f)합니다.  
+ 자세한 내용은 [ \<defaultProxy > 요소 (네트워크 설정)](https://msdn.microsoft.com/library/9d663c4b-07b4-4f6f-9b12-efbd3630354f)합니다.  
   
 ## <a name="clickonce-and-web-browser-compatibility"></a>ClickOnce 및 웹 브라우저 호환성  
  현재 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 설치 배포 매니페스트 URL을 Internet Explorer를 사용 하 여 열려 있는 경우에 시작 됩니다. Microsoft Office Outlook과 같은 다른 응용 프로그램에서 URL를 시작 하는 배포는 Internet Explorer는 기본 웹 브라우저로 설정 된 경우에 성공적으로 시작 됩니다.  
@@ -92,7 +92,7 @@ ms.locfileid: "63444979"
 |`.msp`|`application/octet-stream`|  
   
 ## <a name="clickonce-and-mapped-drives"></a>ClickOnce 및 매핑된 드라이브  
- ClickOnce 응용 프로그램을 게시 하려면 Visual Studio를 사용 하는 경우에 설치 위치로 매핑된 드라이브를 지정할 수 없습니다. 그러나 ClickOnce 응용 프로그램 매니페스트 생성기 및 편집기 (Mage.exe 및 MageUI.exe)를 사용 하 여 매핑된 드라이브에서 설치를 수정할 수 있습니다. 자세한 내용은 [Mage.exe (매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) 하 고 [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)합니다.  
+ ClickOnce 응용 프로그램을 게시 하려면 Visual Studio를 사용 하는 경우에 설치 위치로 매핑된 드라이브를 지정할 수 없습니다. 그러나 ClickOnce 응용 프로그램 매니페스트 생성기 및 편집기 (Mage.exe 및 MageUI.exe)를 사용 하 여 매핑된 드라이브에서 설치를 수정할 수 있습니다. 자세한 내용은 [Mage.exe (매니페스트 생성 및 편집 도구)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1) 하 고 [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](https://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)합니다.  
   
 ## <a name="ftp-protocol-not-supported-for-installing-applications"></a>응용 프로그램을 설치 하는 것에 대 한 FTP 프로토콜이 지원 되지  
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] HTTP 1.1 웹 서버나 파일 서버에서 응용 프로그램을 설치 하도록 지원 합니다. 응용 프로그램을 설치 하는 것에 대 한 FTP (파일 전송 프로토콜) 지원 되지 않습니다. 응용 프로그램에만 게시에 FTP를 사용할 수 있습니다. 다음 표에서 이러한 차이점을 보여 줍니다.  

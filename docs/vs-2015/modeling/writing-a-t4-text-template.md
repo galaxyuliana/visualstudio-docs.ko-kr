@@ -13,12 +13,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b3517322087c940636be07f50a013fe79307f0b7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1e2f40421c2b59e61de1560619422491a37ed8d8
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63446710"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65684698"
 ---
 # <a name="writing-a-t4-text-template"></a>T4 텍스트 템플릿 쓰기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -197,7 +197,7 @@ private void WriteSquareLine(int i)
 <#@ assembly name="$(SolutionDir)library\MyAssembly.dll" #>  
 ```  
   
- 매크로 목록은 참조 하세요 [빌드 명령 및 속성에 대 한 일반 매크로](http://msdn.microsoft.com/library/239bd708-2ea9-4687-b264-043f1febf98b)합니다.  
+ 매크로 목록은 참조 하세요 [빌드 명령 및 속성에 대 한 일반 매크로](https://msdn.microsoft.com/library/239bd708-2ea9-4687-b264-043f1febf98b)합니다.  
   
  Assembly 지시문에 적용 되지 않습니다는 [전처리 된 텍스트 템플릿을](../modeling/run-time-text-generation-with-t4-text-templates.md)합니다.  
   
@@ -264,7 +264,7 @@ Content of MyFile.txt is:
   
 ```  
   
- 호스트가 제공하는 다른 서비스도 가져올 수 있습니다. 자세한 내용은 [Visual Studio에 액세스 또는 다른 호스트 템플릿에서](http://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4)합니다.  
+ 호스트가 제공하는 다른 서비스도 가져올 수 있습니다. 자세한 내용은 [Visual Studio에 액세스 또는 다른 호스트 템플릿에서](https://msdn.microsoft.com/0556f20c-fef4-41a9-9597-53afab4ab9e4)합니다.  
   
 ### <a name="design-time-text-templates-run-in-a-separate-appdomain"></a>별도의 AppDomain에서 실행되는 디자인 타임 텍스트 템플릿  
  알고 있어야 하는 [디자인 타임 텍스트 템플릿](../modeling/design-time-code-generation-by-using-t4-text-templates.md) 주 응용 프로그램과 별개인 AppDomain에서 실행 됩니다. 이러한 방식은 대부분의 경우 중요하지 않지만 복잡한 코드를 사용하는 특정 사례에서는 제한이 적용될 수 있습니다. 예를 들어 별도의 서비스에서 템플릿 내부나 외부로 데이터를 전달하려는 경우 해당 서비스가 serializable API를 제공해야 합니다.  

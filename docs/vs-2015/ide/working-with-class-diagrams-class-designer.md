@@ -16,12 +16,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b344621ea7980ce24c56a59a67edfe72f871f5ae
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c3243f43176f2d62edbc33f66ce2da85f32c26c7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443399"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698110"
 ---
 # <a name="working-with-class-diagrams-class-designer"></a>클래스 다이어그램 사용(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -69,4 +69,4 @@ ms.locfileid: "63443399"
 ## <a name="see-also"></a>참고 항목  
  [형식 및 관계 보기(클래스 디자이너)](../ide/viewing-types-and-relationships-class-designer.md)   
  [방법: 클래스 다이어그램 (클래스 디자이너) 사용자 지정](../ide/how-to-customize-class-diagrams-class-designer.md)   
- [방법: 클래스 다이어그램 (클래스 디자이너)에서 형식 모양 제거](http://msdn.microsoft.com/ae41897d-d066-4b8c-bb9b-05436e12ff39)
+ [방법: 클래스 다이어그램 (클래스 디자이너)에서 형식 모양 제거](https://msdn.microsoft.com/ae41897d-d066-4b8c-bb9b-05436e12ff39)

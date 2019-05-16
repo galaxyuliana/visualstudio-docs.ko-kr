@@ -19,12 +19,12 @@ caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e8a2bd058faa2c3ef9d17a82ad08dd3ad28842a8
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 6a1dbe6d96dd9e35b1bfac4a84fb1006c2b99c69
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445632"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683845"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Visual Studio 통합(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 이를 위해 `PropertyGroup`, `ItemGroup`, `Import`, 속성 및 항목 요소에서 조건을 확인합니다.  
   
 ## <a name="additional-build-actions"></a>추가 빌드 작업  
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 [파일 속성](http://msdn.microsoft.com/013c4aed-08d6-4dce-a124-ca807ca08959) 창의 **빌드 작업** 속성을 사용하여 프로젝트에 있는 파일의 항목 형식 이름을 변경할 수 있습니다. `Compile`, `EmbeddedResource`, `Content`, `None` 등의 항목 형식 이름은 프로젝트에 이미 있는 다른 모든 항목 형식 이름과 함께 항상 이 메뉴에 표시됩니다. 사용자 지정 항목 형식 이름이 항상 이 메뉴에 표시되도록 하려면 `AvailableItemName`이라는 항목 형식에 해당 이름을 추가하면 됩니다. 예를 들어, 프로젝트 파일에 다음을 추가하면 해당 파일을 가져오는 모든 프로젝트에 대해 `JScript` 사용자 지정 형식이 이 메뉴에 추가됩니다.  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 [파일 속성](https://msdn.microsoft.com/013c4aed-08d6-4dce-a124-ca807ca08959) 창의 **빌드 작업** 속성을 사용하여 프로젝트에 있는 파일의 항목 형식 이름을 변경할 수 있습니다. `Compile`, `EmbeddedResource`, `Content`, `None` 등의 항목 형식 이름은 프로젝트에 이미 있는 다른 모든 항목 형식 이름과 함께 항상 이 메뉴에 표시됩니다. 사용자 지정 항목 형식 이름이 항상 이 메뉴에 표시되도록 하려면 `AvailableItemName`이라는 항목 형식에 해당 이름을 추가하면 됩니다. 예를 들어, 프로젝트 파일에 다음을 추가하면 해당 파일을 가져오는 모든 프로젝트에 대해 `JScript` 사용자 지정 형식이 이 메뉴에 추가됩니다.  
   
 ```  
 <ItemGroup>  

@@ -11,12 +11,12 @@ ms.assetid: 94c90012-8669-459c-af8e-307ac242c8c4
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: b33d5d1a09425a18f0c9489b15147e3355e45c99
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f26b11aaf74b73535c82ebcd6422f3be0bba3f22
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982001"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697210"
 ---
 # <a name="creating-project-instances-by-using-project-factories"></a>프로젝트 팩터리를 사용하여 프로젝트 인스턴스 만들기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "58982001"
   
  구현할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory> 프로젝트에서 클래스에 인터페이스입니다. 일반적으로 자체 모듈에 상주합니다.  
   
- 구현 예는 `IVsProjectFactory` PrjFac.cpp에 포함 된 내용은 인터페이스를 [기본 프로젝트](http://msdn.microsoft.com/385fd2a3-d9f1-4808-87c2-a3f05a91fc36) 샘플 디렉터리.  
+ 구현 예는 `IVsProjectFactory` PrjFac.cpp에 포함 된 내용은 인터페이스를 [기본 프로젝트](https://msdn.microsoft.com/385fd2a3-d9f1-4808-87c2-a3f05a91fc36) 샘플 디렉터리.  
   
  소유자에 의해 집계 되 고 지 원하는 프로젝트에는 해당 프로젝트 파일의 소유자 키를 유지 해야 합니다. 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject%2A> 메서드는 프로젝트 소유자 키로, 소유 프로젝트 변환 해당 소유자 키 GUID를 호출 하는 프로젝트 팩터리는 `CreateProject` 이 프로젝트 팩터리에서 실제 생성 작업을 수행 하는 메서드.  
   

@@ -11,12 +11,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ace8b173eb20b6e628fbb7066ff9010624cca9e9
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d00c520f75869e6cf886074c482575f1170e923a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441955"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65679523"
 ---
 # <a name="specifying-custom-build-events-in-visual-studio"></a>Visual Studio에서 사용자 지정 빌드 이벤트 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "63441955"
 
 - Visual C# 및 F#-[방법: 빌드 이벤트 지정 (C#)](../ide/how-to-specify-build-events-csharp.md)합니다.
 
-- Visual C++--[빌드 이벤트 지정](http://msdn.microsoft.com/library/788a6c18-2dbe-4a49-8cd6-86c1ad7a95cc)
+- Visual C++--[빌드 이벤트 지정](https://msdn.microsoft.com/library/788a6c18-2dbe-4a49-8cd6-86c1ad7a95cc)
 
 ## <a name="syntax"></a>구문
  빌드 이벤트는 DOS 명령과 동일한 구문을 따르지만 매크로를 사용하여 빌드 이벤트를 보다 쉽게 만들 수 있습니다. 사용 가능한 매크로 목록은 [빌드 전 이벤트/빌드 후 이벤트 명령줄 대화 상자](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)를 참조하세요.

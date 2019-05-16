@@ -20,12 +20,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5c7cc8a9d1767a289112b18dbfe7c81b9a010bae
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 2a65f2e39eac5889b287b082b4cad6842f44aa2e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63422787"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675542"
 ---
 # <a name="deploying-clickonce-applications-for-testing-and-production-servers-without-resigning"></a>다시 서명하지 않고 테스트 및 프로덕션 서버용 ClickOnce 응용 프로그램 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "63422787"
 이 항목에서는 clickonce 매니페스트 다시 서명 하거나 ClickOnce를 변경 하지 않고 여러 네트워크 위치에서 ClickOnce 응용 프로그램 배포를 사용할 수 있는 버전 3.5는.NET Framework에 도입 된 새로운 기능을 설명 합니다.  
   
 > [!NOTE]
-> 새 버전의 응용 프로그램을 배포 하기 위한 기본 방법은 그대로 다시 서명 합니다. 가능 하면 서명 메서드를 사용 합니다. 자세한 내용은 [Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)를 참조하세요.  
+> 새 버전의 응용 프로그램을 배포 하기 위한 기본 방법은 그대로 다시 서명 합니다. 가능 하면 서명 메서드를 사용 합니다. 자세한 내용은 [Mage.exe(매니페스트 생성 및 편집 도구)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)를 참조하세요.  
   
  타사 개발자 및 Isv에서 옵트인이 기능에 쉽게 고객이 응용 프로그램을 업데이트 합니다. 다음과 같은 상황에서이 기능을 사용할 수 있습니다.  
   
@@ -65,5 +65,5 @@ ms.locfileid: "63422787"
  다른 네트워크 위치에서 배포할 수 있는 배포를 만드는 단계별 지침을 참조 하세요. [연습: 다시 서명 하는 필요가 없고 브랜드 정보가 유지 되는 ClickOnce 응용 프로그램 수동 배포](/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Mage.exe(매니페스트 생성 및 편집 도구)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)   
- [MageUI.exe (매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](http://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)
+ [Mage.exe(매니페스트 생성 및 편집 도구)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)   
+ [MageUI.exe (매니페스트 생성 및 편집 도구, 그래픽 클라이언트)](https://msdn.microsoft.com/library/f9e130a6-8117-49c4-839c-c988f641dc14)

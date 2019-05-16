@@ -33,12 +33,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 07cb1a790640d01448b6331986519bf1bef619e9
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 906f08c0020eb288c1bcd318327be18dc8d08ca5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651723"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695327"
 ---
 # <a name="xml-tools-in-visual-studio"></a>Visual Studio의 XML 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,21 +59,21 @@ Extensible Markup Language (XML) *은 데이터를 설명 하는 형식을 제�
 ## <a name="reference"></a>참조
  [Microsoft.VisualStudio.XmlEditor](http://go.microsoft.com/fwlink/?LinkID=165699) 노출 된 [XML 편집기](http://go.microsoft.com/fwlink/?LinkId=228249) 구문 분석 트리를 통해 [System.Xml.Linq](http://go.microsoft.com/fwlink/?LinkId=228250) 모든 XML 문서에 대 한 합니다.
 
- [XML 표준 참조](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401) XML, 문서 형식 정의 (DTD), XML 스키마 정의 언어 (XSD) 및 XSLT를 포함 하 여 XML 기술에 대 한 정보를 제공 합니다.
+ [XML 표준 참조](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401) XML, 문서 형식 정의 (DTD), XML 스키마 정의 언어 (XSD) 및 XSLT를 포함 하 여 XML 기술에 대 한 정보를 제공 합니다.
 
  <xref:System.Xml?displayProperty=fullName> 클래스 및 구성 하는 다른 요소에 설명 합니다 <xref:System.Xml> 네임 스페이스 및 각 항목에 대해 자세한 정보 링크를 제공 합니다.
 
  <xref:System.Xml.Serialization?displayProperty=fullName> 클래스 및 구성 하는 다른 요소에 설명 합니다 <xref:System.Xml.Serialization> 네임 스페이스 및 각 항목에 대 한 자세한 정보 링크를 제공 합니다.
 
 ## <a name="related-sections"></a>관련 단원
- [XML 문서 개체 모델 (DOM)](http://msdn.microsoft.com/library/b5e52844-4820-47c0-a61d-de2da33e9f54) 설명 하는 방법을 <xref:System.Xml.XmlDocument> 관련된 클래스가 W3C 문서 개체 모델 (Core) 수준 1 및 수준 2 네임 스페이스 지원 사양을 준수 하 고 있습니다.
+ [XML 문서 개체 모델 (DOM)](https://msdn.microsoft.com/library/b5e52844-4820-47c0-a61d-de2da33e9f54) 설명 하는 방법을 <xref:System.Xml.XmlDocument> 관련된 클래스가 W3C 문서 개체 모델 (Core) 수준 1 및 수준 2 네임 스페이스 지원 사양을 준수 하 고 있습니다.
 
- [XmlReader로 XML 읽기](http://msdn.microsoft.com/3029834c-a27e-4331-b7aa-711924062182) 설명 하는 방법을 <xref:System.Xml.XmlReader> XML 스트림을 통해 XML 데이터를 캐시, 정방향 전용, 읽기 전용 액세스를 제공 합니다.
+ [XmlReader로 XML 읽기](https://msdn.microsoft.com/3029834c-a27e-4331-b7aa-711924062182) 설명 하는 방법을 <xref:System.Xml.XmlReader> XML 스트림을 통해 XML 데이터를 캐시, 정방향 전용, 읽기 전용 액세스를 제공 합니다.
 
- [XmlWriter 사용 하 여 XML 작성](http://msdn.microsoft.com/ea41f72c-e1d3-4e0a-ab0f-f0eb1c27ab86) 설명 하는 방법을 <xref:System.Xml.XmlWriter> 캐시 제공 W3C 표준을 준수 하는 XML 문서를 작성할 수 있습니다 하 고 XML 스트림을 생성 하는 정방향 전용입니다.
+ [XmlWriter 사용 하 여 XML 작성](https://msdn.microsoft.com/ea41f72c-e1d3-4e0a-ab0f-f0eb1c27ab86) 설명 하는 방법을 <xref:System.Xml.XmlWriter> 캐시 제공 W3C 표준을 준수 하는 XML 문서를 작성할 수 있습니다 하 고 XML 스트림을 생성 하는 정방향 전용입니다.
 
- [XSLT 변형을](http://msdn.microsoft.com/library/202f8820-224c-494f-b61e-cd127eac6e03) 설명 하는 방법을 <xref:System.Xml.Xsl.XslCompiledTransform> 클래스는 XSLT 1.0 권장 사항 구현 합니다.
+ [XSLT 변형을](https://msdn.microsoft.com/library/202f8820-224c-494f-b61e-cd127eac6e03) 설명 하는 방법을 <xref:System.Xml.Xsl.XslCompiledTransform> 클래스는 XSLT 1.0 권장 사항 구현 합니다.
 
- [XPath 데이터 모델을 사용 하 여 XML 데이터 처리](http://msdn.microsoft.com/library/536c6fce-1453-4654-9c72-bca54d47e081) 설명 하는 방법을 <xref:System.Xml.XPath.XPathNavigator> 클래스에 저장 된 XML 데이터를 처리할 수는 <xref:System.Xml.XPath.XPathDocument> 또는 <xref:System.Xml.XmlDocument> 개체입니다. <xref:System.Xml.XPath.XPathNavigator> 클래스는 XQuery 1.0 및 XPath 2.0 데이터 모델을 기반으로 하며 XML 데이터를 탐색 및 편집하는 데 사용할 수 있습니다.
+ [XPath 데이터 모델을 사용 하 여 XML 데이터 처리](https://msdn.microsoft.com/library/536c6fce-1453-4654-9c72-bca54d47e081) 설명 하는 방법을 <xref:System.Xml.XPath.XPathNavigator> 클래스에 저장 된 XML 데이터를 처리할 수는 <xref:System.Xml.XPath.XPathDocument> 또는 <xref:System.Xml.XmlDocument> 개체입니다. <xref:System.Xml.XPath.XPathNavigator> 클래스는 XQuery 1.0 및 XPath 2.0 데이터 모델을 기반으로 하며 XML 데이터를 탐색 및 편집하는 데 사용할 수 있습니다.
 
- [XML 개체 모델 SOM (스키마)](http://msdn.microsoft.com/library/a897a599-ffd1-43f9-8807-e58c8a7194cd) 만들고 제공 하 여 XML 스키마를 조작 하기 위한 사용 하는 클래스에 설명 합니다.는 <xref:System.Xml.Schema.XmlSchema> 클래스를 로드 및 스키마를 편집 합니다.
+ [XML 개체 모델 SOM (스키마)](https://msdn.microsoft.com/library/a897a599-ffd1-43f9-8807-e58c8a7194cd) 만들고 제공 하 여 XML 스키마를 조작 하기 위한 사용 하는 클래스에 설명 합니다.는 <xref:System.Xml.Schema.XmlSchema> 클래스를 로드 및 스키마를 편집 합니다.

@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ac7d0896d501803a04da5bf9626e2b9e4716d41a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d5a40d6aa7dca8b14210ea85b8428f4d315cd70b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442641"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65679536"
 ---
 # <a name="step-11-run-your-program-and-try-other-features"></a>11단계: 프로그램 실행 및 기타 기능 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,11 +53,11 @@ ms.locfileid: "63442641"
   
 ### <a name="to-continue-or-review"></a>계속하거나 검토하려면  
   
-- Visual Studio에서의 프로그래밍에 대한 자세한 내용은 [프로그래밍 개념](http://msdn.microsoft.com/library/65c12cca-af4f-4017-886e-2dbc00a189d6)을 참조하세요.  
+- Visual Studio에서의 프로그래밍에 대한 자세한 내용은 [프로그래밍 개념](https://msdn.microsoft.com/library/65c12cca-af4f-4017-886e-2dbc00a189d6)을 참조하세요.  
   
-- Visual Basic에 대한 자세한 내용은 [Visual Basic으로 애플리케이션 개발](http://msdn.microsoft.com/library/1e1c0c81-6d95-4167-a98b-44b1efb6d25f)을 참조하세요.  
+- Visual Basic에 대한 자세한 내용은 [Visual Basic으로 애플리케이션 개발](https://msdn.microsoft.com/library/1e1c0c81-6d95-4167-a98b-44b1efb6d25f)을 참조하세요.  
   
-- Visual C#에 대한 자세한 내용은 [C# 언어 및 .NET Framework 소개](http://msdn.microsoft.com/library/0a2dff4e-cd84-42ff-8141-e89889b24081)를 참조하세요.  
+- Visual C#에 대한 자세한 내용은 [C# 언어 및 .NET Framework 소개](https://msdn.microsoft.com/library/0a2dff4e-cd84-42ff-8141-e89889b24081)를 참조하세요.  
   
 - 다음 자습서로 이동하려면 [자습서 2: 시간이 지정된 된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)합니다.  
   

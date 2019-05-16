@@ -19,12 +19,12 @@ caps.latest.revision: 42
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1d0e34075fbadcc998dba09d1b7c13a5ffacc606
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 61693f30044a8ac5888bebb519dd156ab1e9510b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62556926"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705580"
 ---
 # <a name="bind-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "62556926"
 
  1. 사용 하 여 모델을 생성 합니다 **엔터티 데이터 모델** 마법사 다음 해당 개체를 디자이너로 끌어 옵니다.
 
- 2. LINQ to SQL 클래스는 **데이터 원본** 창에 표시되지 않습니다. 그러나 LINQ to SQL 클래스에 기반하는 개체 데이터 소스를 새로 만든 다음 해당 개체를 디자이너로 끌어 와 데이터 바인딩된 컨트롤을 만들 수는 있습니다. 자세한 내용은 [연습: LINQ to SQL 클래스 만들기(O/R 디자이너)](http://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233).
+ 2. LINQ to SQL 클래스는 **데이터 원본** 창에 표시되지 않습니다. 그러나 LINQ to SQL 클래스에 기반하는 개체 데이터 소스를 새로 만든 다음 해당 개체를 디자이너로 끌어 와 데이터 바인딩된 컨트롤을 만들 수는 있습니다. 자세한 내용은 [연습: LINQ to SQL 클래스 만들기(O/R 디자이너)](https://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233).
 
 ## <a name="data-sources-window"></a>데이터 소스 창
  데이터 원본은 프로젝트에서 **데이터 원본** 창의 항목으로 사용할 수 있습니다. 이 창이 표시 되 나에서 액세스할 수 합니다 **보기** 양식 디자인 화면을 프로젝트의 활성 창에는 메뉴입니다. 기본 데이터에 바인딩되는 컨트롤을 만들려면이 창에서 항목을 끌어와 데이터 원본을 마우스 오른쪽 단추로 클릭 하 여 구성할 수도 있습니다.
@@ -71,4 +71,4 @@ ms.locfileid: "62556926"
 |컨트롤에 대 한 캡션 사용자 지정 합니다.|[Visual Studio에서 데이터 바인딩된 컨트롤에 대한 캡션을 만드는 방식 사용자 지정](../data-tools/customize-how-visual-studio-creates-captions-for-data-bound-controls.md)|
 
 ## <a name="see-also"></a>참고 항목
- [.NET 용 visual Studio data tools](../data-tools/visual-studio-data-tools-for-dotnet.md) [Windows Forms 데이터 바인딩](http://msdn.microsoft.com/library/c3826d8e-ea25-4ad4-a669-45bfb19192aa)
+ [.NET 용 visual Studio data tools](../data-tools/visual-studio-data-tools-for-dotnet.md) [Windows Forms 데이터 바인딩](https://msdn.microsoft.com/library/c3826d8e-ea25-4ad4-a669-45bfb19192aa)

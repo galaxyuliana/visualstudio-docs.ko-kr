@@ -12,12 +12,12 @@ ms.assetid: 144724d0-38ee-4c9b-87ca-8a504371182b
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 35a1acf88acda7a96dffc10706b8467253ae816d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: bb866c5cb968a4f03c718f04193026ac5308f7d4
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983078"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65681129"
 ---
 # <a name="idebugportex2"></a>IDebugPortEx2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugPortEx2 : IUnknown
  사용자 지정 포트 공급자 구현 하는 동일한 개체에서이 인터페이스를 구현 [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)합니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- SDM 호출 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 `IDebugPort2` 인터페이스가이 인터페이스를 가져올 수 있습니다.  
+ SDM 호출 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 `IDebugPort2` 인터페이스가이 인터페이스를 가져올 수 있습니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugPortEx2`합니다.  

@@ -12,12 +12,12 @@ ms.assetid: c4575ac7-82da-4af8-a375-ea756a101fbf
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6175b89db774598463d1f8ffaa03057ecb50a69b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9a309779850dd33b77b426beb5627f61c40c2c4f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441197"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675238"
 ---
 # <a name="uninstalling-a-vspackage-with-windows-installer"></a>Windows Installer를 사용하여 VSPackage 제거
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,5 +41,5 @@ ms.locfileid: "63441197"
 > `Installed` VSPackage는 시스템에 이미 설치 되어 있는지 검색 하는 경우 설정 하는 Windows Installer 속성이입니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Windows Installer](http://msdn.microsoft.com/187d8965-c79d-4ecb-8689-10930fa8b3b5)   
+ [Windows Installer](https://msdn.microsoft.com/187d8965-c79d-4ecb-8689-10930fa8b3b5)   
  [시스템 요구 사항 검색](../../extensibility/internals/detecting-system-requirements.md)

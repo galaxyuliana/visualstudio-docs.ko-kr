@@ -16,12 +16,12 @@ caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 924e4414d668f4cb3a12f5d27b915117da0a7119
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1d481bbc71019639588c793fee64acd34d5739e8
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437224"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65680144"
 ---
 # <a name="error-list-window"></a>오류 목록 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "63437224"
   목록을 정렬하려면 열 머리글을 클릭합니다. 추가 열을 기준으로 다시 정렬하려면 Shift 키를 누른 상태에서 다른 열 머리글을 클릭합니다. 표시할 열과 숨길 열을 선택하려면 바로 가기 메뉴에서 **열 표시**를 선택합니다. 열이 표시되는 순서를 변경하려면 열 머리글을 왼쪽이나 오른쪽으로 끕니다.  
   
 > [!NOTE]
-> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 여기서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구/설정 가져오기 및 내보내기**를 클릭합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 여기서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구/설정 가져오기 및 내보내기**를 클릭합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="error-list-filters"></a>오류 목록 필터  
  드롭다운 상자에는 두 가지 형식의 필터가 있습니다. 하나는 도구 모음 오른쪽에 있고 다른 하나는 도구 모음 왼쪽에 있습니다. 도구 모음의 왼쪽에 있는 드롭다운 목록은 사용할 코드 파일의 집합을 지정합니다(**전체 솔루션**, **열린 문서**, **현재 프로젝트**, **현재 문서**).  

@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ffbd5568d35b59e262577102a9368089fdcac6be
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a8cd0f0e5a420155cfc6786e4a8542bc59f93ece
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431107"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690212"
 ---
 # <a name="visualizing-eventsource-events-as-markers"></a>EventSource 이벤트를 표식으로 시각화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,9 +26,9 @@ Concurrency 시각화는 EventSource 이벤트를 표식으로 표시할 수 있
   
 ### <a name="marker-type"></a>표식 종류  
   
-1. [Opcode](http://msdn.microsoft.com/d97953df-669b-4c55-b1a8-925022b339b7) win:Start 또는 win:Stop이 포함된 이벤트는 각각 범위의 시작이나 끝으로 처리됩니다.  중첩되거나 겹치는 범위는 표시할 수 없습니다. 시작되는 스레드와 끝나는 스레드가 다른 이벤트 쌍은 표시할 수 없습니다.  
+1. [Opcode](https://msdn.microsoft.com/d97953df-669b-4c55-b1a8-925022b339b7) win:Start 또는 win:Stop이 포함된 이벤트는 각각 범위의 시작이나 끝으로 처리됩니다.  중첩되거나 겹치는 범위는 표시할 수 없습니다. 시작되는 스레드와 끝나는 스레드가 다른 이벤트 쌍은 표시할 수 없습니다.  
   
-2. Opcode가 win:Start도 아니고 win:Stop도 아닌 이벤트는 해당 [Level](http://msdn.microsoft.com/dfa4e0a9-4d89-4f50-aef9-1dae0dc11726)(EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR의 필드)이 win:Verbose 이상인 경우가 아니면 표식 플래그로 처리됩니다.  
+2. Opcode가 win:Start도 아니고 win:Stop도 아닌 이벤트는 해당 [Level](https://msdn.microsoft.com/dfa4e0a9-4d89-4f50-aef9-1dae0dc11726)(EVENT_RECORD.EVENT_HEADER.EVENT_DESCRIPTOR의 필드)이 win:Verbose 이상인 경우가 아니면 표식 플래그로 처리됩니다.  
   
 3. 그 외의 모든 경우 이벤트는 메시지로 처리됩니다.  
   

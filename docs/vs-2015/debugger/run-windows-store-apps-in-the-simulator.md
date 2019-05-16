@@ -14,12 +14,12 @@ caps.latest.revision: 45
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0588d887cc1ba36a1ebb71df933686f68be524fc
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 631c6daf808e08b9c7da9147116464a4140b076f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63426619"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683543"
 ---
 # <a name="run-windows-store-apps-in-the-simulator"></a>시뮬레이터에서 Windows 스토어 앱 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -112,7 +112,7 @@ Windows 스토어 앱에 대한 Visual Studio 시뮬레이터는 Windows 스토�
      ![스크린샷 설정 상황에 맞는 메뉴](../debugger/media/simulator-screenshotsettingscntxmnu.png "SIMULATOR_ScreenShotSettingsCntxMnu")  
   
 ## <a name="BKMK_Simulate_network_connection_properties"></a> 네트워크 연결 속성 시뮬레이트  
- 앱 사용자가 네트워크 연결 비용이나 데이터 계획 상태 변경을 지속적으로 인지하고, 지정된 데이터 전송 제한의 로밍 또는 초과로 인한 추가 비용이 발생하지 않도록 앱에서 이 정보를 사용하여 요금제 네트워크 연결 비용을 관리할 수 있습니다. [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx) API를 통해 서명된 [NetworkStatusChanged](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.networkstatuschanged.aspx) 및 [TriggerType](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.background.systemtrigger.triggertype.aspx) 이벤트에 응답할 수 있습니다. [빠른 시작: 요금제 네트워크 비용 제약 조건의 관리](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)합니다.  
+ 앱 사용자가 네트워크 연결 비용이나 데이터 계획 상태 변경을 지속적으로 인지하고, 지정된 데이터 전송 제한의 로밍 또는 초과로 인한 추가 비용이 발생하지 않도록 앱에서 이 정보를 사용하여 요금제 네트워크 연결 비용을 관리할 수 있습니다. [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx) API를 통해 서명된 [NetworkStatusChanged](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.networkstatuschanged.aspx) 및 [TriggerType](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.background.systemtrigger.triggertype.aspx) 이벤트에 응답할 수 있습니다. [빠른 시작: 요금제 네트워크 비용 제약 조건의 관리](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)합니다.  
   
  네트워크 비용 인식 코드를 디버그하거나 테스트하려면 시뮬레이터가 [GetInternetConnectionProfile](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectionprofile.aspx) 에서 반환되는 [ConnectionProfile](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.getinternetconnectionprofile.aspx)개체를 통해 노출되는 네트워크의 속성을 모방하면 됩니다.  
   
@@ -136,7 +136,7 @@ Windows 스토어 앱에 대한 Visual Studio 시뮬레이터는 Windows 스토�
   
    **네트워크 연결 관리에 대한 자세한 내용**  
   
-   [빠른 시작: 관리 데이터 통신 연결된 네트워크 비용 제약 조건](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
+   [빠른 시작: 관리 데이터 통신 연결된 네트워크 비용 제약 조건](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
   
    [네트워크 정보 샘플](http://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
   
@@ -144,9 +144,9 @@ Windows 스토어 앱에 대한 Visual Studio 시뮬레이터는 Windows 스토�
   
    [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx)  
   
-   [백그라운드 작업과 함께 시스템 이벤트에 응답하는 방법](http://msdn.microsoft.com/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
+   [백그라운드 작업과 함께 시스템 이벤트에 응답하는 방법](https://msdn.microsoft.com/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
   
-   [Windows 스토어 앱에서 일시 중단, 다시 시작 및 백그라운드 이벤트를 트리거하는 방법](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
+   [Windows 스토어 앱에서 일시 중단, 다시 시작 및 백그라운드 이벤트를 트리거하는 방법](https://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
   
 ## <a name="BKMK_Navigate_the_simulator_with_the_keyboard"></a> 키보드로 시뮬레이터 탐색  
  **Ctrl+Alt+위쪽 화살표** 를 눌러 시뮬레이터 창에서 시뮬레이터 도구 모음으로 포커스를 전환하는 방식으로 시뮬레이터 도구 모음을 탐색할 수 있습니다. **위쪽 화살표** 및 **아래쪽 화살표** 를 사용하여 도구 모음 단추 간에 이동합니다.  

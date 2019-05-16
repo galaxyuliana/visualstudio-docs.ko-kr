@@ -16,12 +16,12 @@ caps.latest.revision: 28
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b80e0e7daed1c426ea30c3da9a4e2324d33f48bb
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 8dfa8314ffe8f174422519ba549d9949cc36b764
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650302"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683009"
 ---
 # <a name="msbuild-reference"></a>MSBuild 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,7 +72,7 @@ ms.locfileid: "59650302"
  올바르게 해석하려면 "이스케이프"해야 하는 문자의 목록을 제공합니다. 이스케이프 시퀀스는 뒤에 오는 내용이 대체 해석임을 나타내는 일련의 문자입니다.  
   
 ## <a name="related-sections"></a>관련 단원  
- [MSBuild 개요](http://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c) [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 소개하고 프로젝트를 빌드하는 데 사용하는 방법을 설명하는 항목에 대한 링크를 제공합니다.  
+ [MSBuild 개요](https://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c) [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]를 소개하고 프로젝트를 빌드하는 데 사용하는 방법을 설명하는 항목에 대한 링크를 제공합니다.  
   
  <xref:Microsoft.Build.Conversion>  
  변환 네임스페이스 참조를 포함합니다.  

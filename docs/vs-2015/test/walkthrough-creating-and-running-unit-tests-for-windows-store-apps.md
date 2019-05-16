@@ -13,12 +13,12 @@ ms.assetid: dd3e8a6a-b366-433e-a409-b9a9b89da89a
 caps.latest.revision: 23
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7ff078649703eef438ff7f4b14a51e7f7d155231
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1f74502472a72416d33bcf48e473977d694e545f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63428203"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695116"
 ---
 # <a name="walkthrough-creating-and-running-unit-tests-for-windows-store-apps"></a>연습: 만들기 및 Windows 스토어 앱 용 단위 테스트를 실행 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,7 +86,7 @@ Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-a
     > [!NOTE]
     > 선택하는 기능에는 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 단위 테스트가 제대로 작동하는 데 필요한 기능만 포함되어야 합니다. 기능은 테스트되는 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 응용 프로그램의 일부가 아닌 기능을 포함할 필요가 전혀 없으며 일반적으로 테스트 중인 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 응용 프로그램에 대해 지정된 기능의 하위 집합이어야 합니다.  
   
-     매니페스트 디자이너에 대한 자세한 내용은 [매니페스트 디자이너를 사용하여 Windows 8.1 앱 패키지 구성](http://msdn.microsoft.com/library/24c58b7f-9c6d-41c3-b385-c1e8497d5b2d)을 참조하세요.  
+     매니페스트 디자이너에 대한 자세한 내용은 [매니페스트 디자이너를 사용하여 Windows 8.1 앱 패키지 구성](https://msdn.microsoft.com/library/24c58b7f-9c6d-41c3-b385-c1e8497d5b2d)을 참조하세요.  
   
      ![단위 테스트 매니페스트](../test/media/unit-test-win8.png "Unit_Test_Win8_")  
   
@@ -149,4 +149,4 @@ Visual Studio에는 관리되는 [!INCLUDE[win8_appname_long](../includes/win8-a
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio로 스토어 앱 테스트](../test/testing-store-apps-with-visual-studio.md)   
- [Team Foundation Build를 사용하여 Windows 스토어 앱 빌드 및 테스트](http://msdn.microsoft.com/library/d0ca17bb-deae-4f3d-a18d-1a99bebceaa9)
+ [Team Foundation Build를 사용하여 Windows 스토어 앱 빌드 및 테스트](https://msdn.microsoft.com/library/d0ca17bb-deae-4f3d-a18d-1a99bebceaa9)

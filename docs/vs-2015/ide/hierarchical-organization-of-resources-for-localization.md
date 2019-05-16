@@ -19,12 +19,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: baa86408ca681d65266cb5dae3fe2bf9fca8f97c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 02f136fa0daa23484e31deab8f138a02b8a0b592
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62584600"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704338"
 ---
 # <a name="hierarchical-organization-of-resources-for-localization"></a>지역화를 위한 리소스의 계층적 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,5 +54,5 @@ Visual Studio에서 지역화된 리소스(각 문화권에 적절한 문자열 
  [보안 및 지역화된 위성 어셈블리](../ide/security-and-localized-satellite-assemblies.md)   
  [응용 프로그램 지역화](../ide/localizing-applications.md)   
  [응용 프로그램 전역화 및 지역화](../ide/globalizing-and-localizing-applications.md)   
- [방법: Windows Forms 전역화를 위한 문화권 및 UI 문화권 설정](http://msdn.microsoft.com/694e049f-0b91-474a-9789-d35124f248f0)   
- [방법: ASP.NET 웹 페이지 세계화를 위한 문화권 및 UI 문화권 설정](http://msdn.microsoft.com/library/76091f86-f967-4687-a40f-de87bd8cc9a0)
+ [방법: Windows Forms 전역화를 위한 문화권 및 UI 문화권 설정](https://msdn.microsoft.com/694e049f-0b91-474a-9789-d35124f248f0)   
+ [방법: ASP.NET 웹 페이지 세계화를 위한 문화권 및 UI 문화권 설정](https://msdn.microsoft.com/library/76091f86-f967-4687-a40f-de87bd8cc9a0)

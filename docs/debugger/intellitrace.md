@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5f17be088d27e473af0c45a950541fe0f5b77085
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: cf491eae46c22d0804c66ab51071740e42de631c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62905689"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65678816"
 ---
 # <a name="intellitrace-for-visual-studio-enterprise-c-visual-basic-c"></a>Visual Studio Enterprise에 대 한 IntelliTrace (C#, Visual Basic의 경우 C++)
 
@@ -73,7 +73,7 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
 - Microsoft Test Manager의 테스트 세션
 
-- Microsoft Monitoring Agent 단독으로 또는 System Center 2012와 함께 사용할 때 IIS에서 호스팅된 ASP.NET 웹 앱 또는 배포에서 실행 중인 SharePoint 2010 및 SharePoint 2013 응용 프로그램. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md) 하 고 [Microsoft Monitoring Agent를 사용 하 여 모니터링](http://technet.microsoft.com/library/dn465153.aspx)합니다.
+- Microsoft Monitoring Agent 단독으로 또는 System Center 2012와 함께 사용할 때 IIS에서 호스팅된 ASP.NET 웹 앱 또는 배포에서 실행 중인 SharePoint 2010 및 SharePoint 2013 응용 프로그램. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md) 하 고 [Microsoft Monitoring Agent를 사용 하 여 모니터링](https://technet.microsoft.com/library/dn465153.aspx)합니다.
 
 다음은 IntelliTrace를 이용하여 디버깅하는 몇 가지 예입니다.
 

@@ -12,12 +12,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f2146c8a15292ddc9233c8e10b8f58f5212df0c5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 57114789ce9f0505423e8463f90117619bfc717b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077604"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687051"
 ---
 # <a name="code-generation-in-a-build-process"></a>빌드 프로세스의 코드 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "60077604"
 
 개발 컴퓨터에서 빌드 작업을 사용 하려면 설치 [Modeling SDK for Visual Studio](https://www.microsoft.com/download/details.aspx?id=48148)합니다.
 
-하는 경우 [빌드 서버](http://msdn.microsoft.com/library/788443c3-0547-452e-959c-4805573813a9) 는 Visual Studio 설치 되지 않은 컴퓨터에서 실행 개발 컴퓨터에서 빌드 컴퓨터로 다음 파일을 복사 합니다. 여기서 '*'는 가장 최신 버전 번호로 대체합니다.
+하는 경우 [빌드 서버](https://msdn.microsoft.com/library/788443c3-0547-452e-959c-4805573813a9) 는 Visual Studio 설치 되지 않은 컴퓨터에서 실행 개발 컴퓨터에서 빌드 컴퓨터로 다음 파일을 복사 합니다. 여기서 '*'는 가장 최신 버전 번호로 대체합니다.
 
 - $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
 

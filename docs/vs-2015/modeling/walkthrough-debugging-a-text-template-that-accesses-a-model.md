@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b589050c156e4c3d1e322bfa5996364016cbe38e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 26ff566c9d9ff833a92668d06c818245ed55d066
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63446728"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65700579"
 ---
 # <a name="walkthrough-debugging-a-text-template-that-accesses-a-model"></a>연습: 모델에 액세스 하는 텍스트 템플릿 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -22,7 +22,7 @@ ms.locfileid: "63446728"
 수정 하거나 도메인별 언어 솔루션에서 텍스트 템플릿을 추가 하는 경우 엔진은 소스 코드 또는 생성 된 코드를 컴파일할 때 템플릿을 변환 하는 경우 오류가 발생할 수 있습니다. 다음 연습에서는 텍스트 템플릿 디버그를 수행할 수 있는 작업의 일부를 보여 줍니다.  
   
 > [!NOTE]
-> 텍스트에 대 한 자세한 내용은 템플릿 일반적으로 참조 [코드 생성 및 T4 텍스트 템플릿](../modeling/code-generation-and-t4-text-templates.md)합니다. 텍스트 템플릿 디버깅 하는 방법에 대 한 자세한 내용은 참조 하세요. [연습: 텍스트 템플릿 디버그](http://msdn.microsoft.com/library/5c3fd3b7-c110-4e86-a22f-d5756be6b94f)합니다.  
+> 텍스트에 대 한 자세한 내용은 템플릿 일반적으로 참조 [코드 생성 및 T4 텍스트 템플릿](../modeling/code-generation-and-t4-text-templates.md)합니다. 텍스트 템플릿 디버깅 하는 방법에 대 한 자세한 내용은 참조 하세요. [연습: 텍스트 템플릿 디버그](https://msdn.microsoft.com/library/5c3fd3b7-c110-4e86-a22f-d5756be6b94f)합니다.  
   
 ## <a name="creating-a-domain-specific-language-solution"></a>도메인별 언어 솔루션 만들기  
  이 절차에서는 다음과 같은 특징이 있는 도메인별 언어 솔루션을 만들 수 있습니다.  

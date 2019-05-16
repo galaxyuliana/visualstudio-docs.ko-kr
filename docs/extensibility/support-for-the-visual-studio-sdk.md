@@ -14,12 +14,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 941ba0a890e854f449647977162183cbcac1bab8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c7e65f7e01971e6cf27bfad75e1536e83b833bd3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62432436"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65680784"
 ---
 # <a name="support-for-the-visual-studio-sdk"></a>Visual Studio SDK 지원
 몇 가지 지원 옵션은 Visual Studio 통합된 개발 환경 (IDE)를 확장 하는 방법에 대 한 질문이 있는 고객이 사용할 수 있습니다.
@@ -45,7 +45,7 @@ GitHub의에서 VS SDK 확장의 오픈 소스 예제를 찾을 수 있습니다
 ## <a name="included-support"></a>포함 된 지원
 
 ### <a name="visual-studio-product-support"></a>Visual Studio 제품 지원
- 일부 지원을 구매 하 여 포함 된 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 제품입니다. 자세한 내용은 [Visual Studio 지원](http://msdn.microsoft.com/vstudio/cc136615.aspx)합니다. Microsoft는 전담된 지원 팀에 대 한 질문에 답변을 유지 관리 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 확장성.
+ 일부 지원을 구매 하 여 포함 된 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 제품입니다. 자세한 내용은 [Visual Studio 지원](https://msdn.microsoft.com/vstudio/cc136615.aspx)합니다. Microsoft는 전담된 지원 팀에 대 한 질문에 답변을 유지 관리 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 확장성.
 
 ### <a name="msdn-subscription-support"></a>MSDN 구독 지원
  MSDN 구독 패키지에는 일부 지원을 포함할 수도 있습니다. 자세한 내용은 [MSDN 구독자 지원](https://msdn.microsoft.com/subscriptions/aa718661.aspx)합니다.
@@ -67,4 +67,4 @@ VSIP 프로그램 함께에서 프리미어 지원 혜택에 대 한 질문을 �
 
 ## <a name="see-also"></a>참고 항목
 
-- [의견 보내기](../ide/talk-to-us.md)
+- [의견 보내기](../ide/feedback-options.md)

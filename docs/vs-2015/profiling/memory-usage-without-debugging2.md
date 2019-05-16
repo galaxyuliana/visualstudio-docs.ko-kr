@@ -14,12 +14,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 638aba87698b32b18f41f8b389485893f880743f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 8fc60ff83113193f854c3264b7384738dea64f03
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050168"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674322"
 ---
 # <a name="memory-usage-without-debugging"></a>디버그하지 않는 경우의 메모리 사용량
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60050168"
   
 - 스냅숏을 비교하여 메모리 문제의 근본 원인을 찾습니다.  
   
-  이 항목에서는 메모리 사용량 도구를 사용하여 Windows 유니버설 XAML 앱을 분석하는 방법에 대해 설명합니다. JavaScript 및 HTML을 사용하는 Windows 유니버설 앱에서 메모리 사용을 분석하려는 경우 [메모리 사용 분석(JavaScript)](http://msdn.microsoft.com/library/windows/apps/jj819176.aspx)을 참조하세요.  
+  이 항목에서는 메모리 사용량 도구를 사용하여 Windows 유니버설 XAML 앱을 분석하는 방법에 대해 설명합니다. JavaScript 및 HTML을 사용하는 Windows 유니버설 앱에서 메모리 사용을 분석하려는 경우 [메모리 사용 분석(JavaScript)](https://msdn.microsoft.com/library/windows/apps/jj819176.aspx)을 참조하세요.  
   
 ## <a name="BKMK_Start_a_Memory_Usage_diagnostic_session"></a> 메모리 사용량 진단 세션 시작  
   
@@ -204,7 +204,7 @@ ms.locfileid: "60050168"
   
 ## <a name="see-also"></a>참고 항목  
  [JavaScript 메모리](../profiling/javascript-memory.md)   
- [앱 성능 분석](http://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)   
- [성능 및 진단 도구 실행](http://msdn.microsoft.com/library/788279d8-f56b-40a0-9bef-facc3dfba471)   
- [C++, C# 및 Visual Basic을 사용하는 Windows 스토어 앱의 성능 모범 사례](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
+ [앱 성능 분석](https://msdn.microsoft.com/library/58acb30b-8428-41a6-b195-b0fdedb89575)   
+ [성능 및 진단 도구 실행](https://msdn.microsoft.com/library/788279d8-f56b-40a0-9bef-facc3dfba471)   
+ [C++, C# 및 Visual Basic을 사용하는 Windows 스토어 앱의 성능 모범 사례](https://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)(Visual Studio에서 새 메모리 사용량 도구로 메모리 문제 진단)

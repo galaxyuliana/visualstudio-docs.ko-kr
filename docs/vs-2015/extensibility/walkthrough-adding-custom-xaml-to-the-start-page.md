@@ -11,12 +11,12 @@ ms.assetid: 9af4d5f9-1cfc-4221-aea7-c8cd3f7571a6
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 5d41c68adc544806acc7a6abc02229e00f216f39
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 7b2de492bd1eddf4bf18e4824cdb64de4241fa5f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048582"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674120"
 ---
 # <a name="walkthrough-adding-custom-xaml-to-the-start-page"></a>연습: 시작 페이지에 사용자 지정 XAML 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -92,4 +92,4 @@ ms.locfileid: "60048582"
   
 ## <a name="see-also"></a>참고 항목  
  [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)   
- [WPF 컨테이너 컨트롤](http://msdn.microsoft.com/a0177167-d7db-4205-9607-8ae316952566)
+ [WPF 컨테이너 컨트롤](https://msdn.microsoft.com/a0177167-d7db-4205-9607-8ae316952566)

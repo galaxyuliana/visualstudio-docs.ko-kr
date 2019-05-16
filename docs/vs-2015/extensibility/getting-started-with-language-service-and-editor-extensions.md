@@ -10,12 +10,12 @@ ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
 caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a29bb95b4b3e05097f2bf095e9312fe0704c31bc
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4c4278679cabb72e9d06f79c1668e7546f24194d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63421131"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703753"
 ---
 # <a name="getting-started-with-language-service-and-editor-extensions"></a>언어 서비스 및 편집기 확장 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "63421131"
  사용자 고유의 편집기 확장을 작성 하기 전에 다음과 같은 개념과 기술에 대 한 설명 하는 것이 좋습니다.  
   
 ## <a name="the-windows-presentation-foundation-wpf-and-editor-extensions"></a>Windows Presentation Foundation (WPF) 및 편집기 확장  
- Visual Studio 편집기 사용자 인터페이스 (UI)는 Windows Presentation Foundation (WPF)를 사용 하 여 구현 됩니다. WPF는 풍부한 시각적 환경 및 비즈니스 논리에서 코드의 시각적 측면을 구분 하는 일관성 있는 프로그래밍 모델을 제공 합니다. 편집기 확장을 만들 때 여러 가지 WPF 요소와 기능을 사용할 수 있습니다. 자세한 내용은 [Windows Presentation Foundation](http://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d)합니다.  
+ Visual Studio 편집기 사용자 인터페이스 (UI)는 Windows Presentation Foundation (WPF)를 사용 하 여 구현 됩니다. WPF는 풍부한 시각적 환경 및 비즈니스 논리에서 코드의 시각적 측면을 구분 하는 일관성 있는 프로그래밍 모델을 제공 합니다. 편집기 확장을 만들 때 여러 가지 WPF 요소와 기능을 사용할 수 있습니다. 자세한 내용은 [Windows Presentation Foundation](https://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d)합니다.  
   
 ## <a name="the-managed-extensibility-framework-mef-and-editor-extensions"></a>Managed Extensibility Framework (MEF) 및 편집기 확장  
  Visual Studio 편집기는 구성 요소와 확장을 관리 하는 프레임 워크 MEF (Managed Extensibility)를 사용 합니다. MEF에는 또한 개발자를 자세한 Visual Studio와 같은 호스트 응용 프로그램에 대 한 확장을 쉽게 만들 수 있습니다. 이 프레임 워크에서는 MEF 계약에 따라 확장을 정의 하 고 MEF 구성 요소 부분으로 내보내야 합니다. 호스트 응용 프로그램 찾을 수 있으며, 등록 하면 올바른 컨텍스트에 적용 되는 선택 되어 있는지 확인 하는 구성 요소 부분을 관리 합니다.  

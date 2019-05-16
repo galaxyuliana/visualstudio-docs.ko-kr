@@ -20,12 +20,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: eaee3dae25f5f2e5544a2521a7bce0201b45a3e2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: ef3f4c52955f5958ab24d56c5741418648de48d6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441147"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696216"
 ---
 # <a name="refactoring-classes-and-types-class-designer"></a>클래스 및 형식 리팩터링(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "63441147"
 코드를 리팩터링할 때 외부 동작이 아닌 내부 구조와 개체 설계 방식을 변경하면 코드를 보다 효율적이며 쉽게 이해하고 유지 관리할 수 있습니다. 클래스 디자이너 및 클래스 세부 내용 창을 사용하면 Visual Studio 프로젝트에서 Visual C# .NET, Visual Basic .NET 또는 C++ 코드를 리팩터링할 때 수행해야 하는 작업과 버그 발생 가능성을 줄일 수 있습니다.  
   
 > [!NOTE]
-> 프로젝트가 소스 코드로 제어되며 체크 아웃되지 않은 경우, 참조되는 프로젝트인 경우 또는 해당 파일이 디스크에서 읽기 전용으로 표시된 경우 프로젝트의 파일은 읽기 전용일 수 있습니다. 이러한 상태 중 하나인 프로젝트에서 작업할 때는 프로젝트 상태에 따라 다양한 방식으로 작업을 저장할 수 있습니다. 이 방식은 리팩터링 코드와 직접 편집 등의 다른 방법으로 변경하는 코드에도 적용됩니다. 자세한 내용은 [읽기 전용 정보 표시(클래스 디자이너)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요.  
+> 프로젝트가 소스 코드로 제어되며 체크 아웃되지 않은 경우, 참조되는 프로젝트인 경우 또는 해당 파일이 디스크에서 읽기 전용으로 표시된 경우 프로젝트의 파일은 읽기 전용일 수 있습니다. 이러한 상태 중 하나인 프로젝트에서 작업할 때는 프로젝트 상태에 따라 다양한 방식으로 작업을 저장할 수 있습니다. 이 방식은 리팩터링 코드와 직접 편집 등의 다른 방법으로 변경하는 코드에도 적용됩니다. 자세한 내용은 [읽기 전용 정보 표시(클래스 디자이너)](https://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요.  
   
 ## <a name="common-tasks"></a>일반 작업  
   

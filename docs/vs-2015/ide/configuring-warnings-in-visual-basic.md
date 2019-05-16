@@ -13,12 +13,12 @@ caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5a33e1d4f2ddecdb467929edaae9ba184bfae920
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.openlocfilehash: 3fb723097a3b61508d9f9023d3a2ea1dcdb5f8f6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54763235"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701425"
 ---
 # <a name="configuring-warnings-in-visual-basic"></a>Configuring Warnings in Visual Basic
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -121,9 +121,9 @@ ms.locfileid: "54763235"
   
 ## <a name="see-also"></a>참고 항목  
  [예외 도우미 대화 상자](../debugger/exception-assistant-dialog-box.md)   
- [오류 형식](http://msdn.microsoft.com/library/3048aabf-8c97-4e13-9150-853769cb5f6f)   
- [Try...Catch...Finally 문](http://msdn.microsoft.com/library/d6488026-ccb3-42b8-a810-0d97b9d6472b)   
- [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83)   
- [/warnaserror(Visual Basic)](http://msdn.microsoft.com/library/49819f1d-a1bd-4201-affe-5afe6d9712e1)   
+ [오류 형식](https://msdn.microsoft.com/library/3048aabf-8c97-4e13-9150-853769cb5f6f)   
+ [Try...Catch...Finally 문](https://msdn.microsoft.com/library/d6488026-ccb3-42b8-a810-0d97b9d6472b)   
+ [/nowarn](https://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83)   
+ [/warnaserror(Visual Basic)](https://msdn.microsoft.com/library/49819f1d-a1bd-4201-affe-5afe6d9712e1)   
  [프로젝트 디자이너, 컴파일 페이지(Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
- [기본적으로 해제되어 있는 컴파일러 경고](http://msdn.microsoft.com/library/69809cfb-a38a-4035-b154-283a61938df8)
+ [기본적으로 해제되어 있는 컴파일러 경고](https://msdn.microsoft.com/library/69809cfb-a38a-4035-b154-283a61938df8)

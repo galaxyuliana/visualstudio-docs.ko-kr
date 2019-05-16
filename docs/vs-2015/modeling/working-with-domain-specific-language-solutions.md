@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: eab5a1b645023537ffee182804554f483d81f727
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: a9c69af03e88a8debf10763c1a62e82fe0e9430e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980868"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65700591"
 ---
 # <a name="working-with-domain-specific-language-solutions"></a>도메인별 언어 솔루션 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,5 +49,5 @@ ms.locfileid: "58980868"
  [방법: 도메인 특정 언어 디자이너 확장](../modeling/how-to-extend-the-domain-specific-language-designer.md)  
  DSL 디자이너 메뉴 명령 사용 하 여 사용자 지정할 수 있습니다.  
   
- [변환을 자동화 하는 모든 템플릿](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)  
+ [변환을 자동화 하는 모든 템플릿](https://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)  
  모든 템플릿 변환 클릭 하면 사용 하지 않으려면 있도록 할 수 있습니다는 자동 빌드 중입니다.

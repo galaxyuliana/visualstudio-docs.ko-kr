@@ -25,12 +25,12 @@ caps.latest.revision: 56
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 11a3dc0e144ef49f6dcfbe6d8ea0c6dfbc4bca40
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 3a316006ba8983e00906e041d243d8f7c82d6277
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071774"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65684288"
 ---
 # <a name="using-dump-files"></a>덤프 파일 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,11 +76,11 @@ ms.locfileid: "60071774"
   
 - Visual Studio에서는 ARM 장치에서 네이티브 응용 프로그램의 덤프 파일을 디버깅할 수 있습니다. 또한 Visual Studio에서는 ARM 장치에서 관리되는 응용 프로그램의 응용 프로그램 덤프 파일을 디버깅할 수 있지만 이는 네이티브 디버거에서만 가능합니다.  
   
-- 디버깅할 [커널 모드](http://msdn.microsoft.com/library/windows/hardware/ff551880.aspx) 덤프 Visual Studio 2013의 파일을 다운로드 합니다 [Windows 8.1 버전의 디버깅 도구에 대 한 Windows](http://msdn.microsoft.com/windows/hardware/gg463009)합니다. 참조 [Visual Studio에서 커널 디버깅](http://msdn.microsoft.com/library/windows/hardware/jj149675.aspx)합니다.  
+- 디버깅할 [커널 모드](https://msdn.microsoft.com/library/windows/hardware/ff551880.aspx) 덤프 Visual Studio 2013의 파일을 다운로드 합니다 [Windows 8.1 버전의 디버깅 도구에 대 한 Windows](https://msdn.microsoft.com/windows/hardware/gg463009)합니다. 참조 [Visual Studio에서 커널 디버깅](https://msdn.microsoft.com/library/windows/hardware/jj149675.aspx)합니다.  
   
 - Visual Studio로 알려진 이전 덤프 형식으로 저장 된 덤프 파일을 디버깅할 수 없습니다는 [전체 사용자 모드 덤프](/windows-hardware/drivers/debugger/user-mode-dump-files#full)합니다. 전체 사용자 모드 덤프는 힙을 포함하는 덤프와 동일하지 않습니다.  
   
-- 사용 하 여 디버그 하는 [SOS.dll (SOS 디버깅 확장명)](http://msdn.microsoft.com/library/9ac1b522-77ab-4cdc-852a-20fcdc9ae498) Visual Studio는 디버깅 도구에 대 한 Windows Windows Driver Kit (WDK)의 포함 된 설치 해야 합니다. 참조 [Windows 8.1 미리 보기: 키트, 비트 및 도구 다운로드](http://msdn.microsoft.com/library/windows/hardware/bg127147.aspx)합니다.  
+- 사용 하 여 디버그 하는 [SOS.dll (SOS 디버깅 확장명)](https://msdn.microsoft.com/library/9ac1b522-77ab-4cdc-852a-20fcdc9ae498) Visual Studio는 디버깅 도구에 대 한 Windows Windows Driver Kit (WDK)의 포함 된 설치 해야 합니다. 참조 [Windows 8.1 미리 보기: 키트, 비트 및 도구 다운로드](https://msdn.microsoft.com/library/windows/hardware/bg127147.aspx)합니다.  
   
   ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)  
   
@@ -91,7 +91,7 @@ ms.locfileid: "60071774"
   
 - 사용 하 여 [Just-In-Time 디버깅](../debugger/just-in-time-debugging-in-visual-studio.md) 사용 디버거 외부에서 실행 되는 충돌된 한 프로세스에 디버거를 연결할를 다음 덤프 파일을 저장 합니다. 참조 [실행 중인 프로세스에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)  
   
-  또한 Windows 미니덤프 형식을 지원하는 프로그램으로 덤프 파일을 만들 수도 있습니다. 예를 들어 합니다 **Procdump** 명령줄 유틸리티 [Windows Sysinternals](http://technet.microsoft.com/sysinternals/default) 트리거 또는 주문형으로 기반으로 프로세스 크래시 덤프 파일을 만들 수 있습니다. 참조 [요구 사항 및 제한 사항](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) 다른 도구를 사용 하 여 덤프 파일을 만들도록 하는 방법에 대 한 자세한 내용은이 항목의 합니다.  
+  또한 Windows 미니덤프 형식을 지원하는 프로그램으로 덤프 파일을 만들 수도 있습니다. 예를 들어 합니다 **Procdump** 명령줄 유틸리티 [Windows Sysinternals](https://technet.microsoft.com/sysinternals/default) 트리거 또는 주문형으로 기반으로 프로세스 크래시 덤프 파일을 만들 수 있습니다. 참조 [요구 사항 및 제한 사항](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations) 다른 도구를 사용 하 여 덤프 파일을 만들도록 하는 방법에 대 한 자세한 내용은이 항목의 합니다.  
   
   ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)  
   

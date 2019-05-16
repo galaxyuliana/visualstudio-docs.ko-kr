@@ -16,21 +16,21 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a2c8d54b1625a4097d6b5a0acf6555d74fe83001
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0e2ad3b2d89db83d3b9fa38438abdbde61e72bfe
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116604"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65681382"
 ---
 # <a name="encapsulate-field-refactoring-c"></a>필드 캡슐화 리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 합니다 **필드 캡슐화** 신속 하 게 속성에서 기존 필드를 만들고 다음 새 속성에 대 한 참조를 사용 하 여 코드를 원활 하 게 업데이트할 수 있습니다 리팩터링 작업 합니다.  
   
- 경우는 [필드](http://msdn.microsoft.com/library/3cbb2f61-75f8-4cce-b4ef-f5d1b3de0db7) 됩니다 [공용](http://msdn.microsoft.com/library/0ae45d16-a551-4b74-9845-57208de1328e), 다른 개체 해당 필드에 직접 액세스할 수 있으며 수정할 수는 필드를 소유 하는 개체에 의해 감지 되지 않습니다. 사용 하 여 [속성](http://msdn.microsoft.com/library/e295a8a2-b357-4ee7-a12e-385a44146fa8) 해당 필드를 캡슐화 할 필드에 직접 액세스를 차단할 수 있습니다.  
+ 경우는 [필드](https://msdn.microsoft.com/library/3cbb2f61-75f8-4cce-b4ef-f5d1b3de0db7) 됩니다 [공용](https://msdn.microsoft.com/library/0ae45d16-a551-4b74-9845-57208de1328e), 다른 개체 해당 필드에 직접 액세스할 수 있으며 수정할 수는 필드를 소유 하는 개체에 의해 감지 되지 않습니다. 사용 하 여 [속성](https://msdn.microsoft.com/library/e295a8a2-b357-4ee7-a12e-385a44146fa8) 해당 필드를 캡슐화 할 필드에 직접 액세스를 차단할 수 있습니다.  
   
- 새 속성을 만들려면 합니다 **필드 캡슐화** 작업을 캡슐화 할 필드에 대 한 액세스 한정자 변경 [개인](http://msdn.microsoft.com/library/654c0bb8-e6ac-4086-bf96-7474fa6aa1c8), 한 다음 생성 [가져오기](http://msdn.microsoft.com/library/a52de048-fbe0-41b0-82ec-8e4ac04d3a71)하 고 [설정](http://msdn.microsoft.com/library/30d7e4e5-cc2e-4635-a597-14a724879619) 해당 필드에 대 한 접근자입니다. 필드가 읽기 전용으로 선언되는 경우와 같이 몇몇 경우에는 `get` 접근자만 생성됩니다.  
+ 새 속성을 만들려면 합니다 **필드 캡슐화** 작업을 캡슐화 할 필드에 대 한 액세스 한정자 변경 [개인](https://msdn.microsoft.com/library/654c0bb8-e6ac-4086-bf96-7474fa6aa1c8), 한 다음 생성 [가져오기](https://msdn.microsoft.com/library/a52de048-fbe0-41b0-82ec-8e4ac04d3a71)하 고 [설정](https://msdn.microsoft.com/library/30d7e4e5-cc2e-4635-a597-14a724879619) 해당 필드에 대 한 접근자입니다. 필드가 읽기 전용으로 선언되는 경우와 같이 몇몇 경우에는 `get` 접근자만 생성됩니다.  
   
  리팩터링 엔진에서 지정 된 영역에 새 속성에 대 한 참조를 사용 하 여 코드를 업데이트 합니다 **참조 업데이트** 섹션을 **필드 캡슐화** 대화 상자.  
   

@@ -14,12 +14,12 @@ ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
 caps.latest.revision: 85
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7fcea011f78688630a94cff64f9d2a627acea88c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 2e120499893a5b2a85d9a40a57e078f3d8f6586d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63408481"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695045"
 ---
 # <a name="walkthrough-creating-and-running-unit-tests-for-managed-code"></a>연습: 만들기 및 관리 코드에 대 한 단위 테스트를 실행 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "63408481"
 > 이 연습에서는 관리 코드에 Microsoft 단위 테스트 프레임워크를 사용합니다. 테스트 탐색기에서는 테스트 탐색기용 어댑터가 포함된 타사 단위 테스트 프레임워크의 테스트도 실행할 수 있습니다. 자세한 내용은 [타사 단위 테스트 프레임워크 설치](../test/install-third-party-unit-test-frameworks.md)를 참조하세요.  
   
 > [!NOTE]
-> 명령줄에서 테스트를 실행하는 방법에 대한 자세한 내용은 [연습: 명령줄 테스트 유틸리티 사용](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867)을 참조하세요.  
+> 명령줄에서 테스트를 실행하는 방법에 대한 자세한 내용은 [연습: 명령줄 테스트 유틸리티 사용](https://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867)을 참조하세요.  
   
 ## <a name="prerequisites"></a>전제 조건  
   

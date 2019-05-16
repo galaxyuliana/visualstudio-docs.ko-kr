@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 92f2dc0f425c86b7304ccde5778f8479678bc41f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: ef80d444c24cfa0bf78d23aabc4f7d7d0bc819a4
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60037884"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65694185"
 ---
 # <a name="working-with-the-domain-specific-language-explorer"></a>도메인별 언어 탐색기 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,4 +46,4 @@ ms.locfileid: "60037884"
 - **Xml 직렬화 동작**합니다. 모델의 serialization 설정입니다. Serialization에 대 한 자세한 내용은 참조 하세요. [사용자 지정 파일 저장소 및 XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [도메인 특정 언어 도구 용어집](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

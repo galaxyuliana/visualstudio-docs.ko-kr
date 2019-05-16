@@ -25,12 +25,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 38239bd431f3e66e1a694361f3727c843fbf29d3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0459168da627b8e67ad669486b70eb7758118d92
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62558465"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688199"
 ---
 # <a name="work-with-datasets-in-n-tier-applications"></a>n 계층 애플리케이션에서 데이터 집합 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ N 계층 데이터 응용 프로그램 *는 여러 논리 계층으로 분리 �
  [연습: N 계층 데이터 애플리케이션 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
  형식화된 데이터 집합을 만들고 TableAdapter 및 데이터 집합 코드를 여러 프로젝트로 분리하는 단계별 지침을 제공합니다.  
   
- [연습: N 계층 데이터 응용 프로그램에 유효성 검사 추가](http://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265)  
+ [연습: N 계층 데이터 응용 프로그램에 유효성 검사 추가](https://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265)  
  N 계층 데이터 응용 프로그램 연습에서 만든 응용 프로그램에 유효성 검사를 추가 하기 위한 단계별 지침을 제공 합니다.  
   
 ## <a name="reference"></a>참조  
@@ -71,4 +71,4 @@ N 계층 데이터 응용 프로그램 *는 여러 논리 계층으로 분리 �
 - [계층적 업데이트](../data-tools/hierarchical-update.md)   
 - [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)   
 - [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)   
-- [LINQ to SQL을 사용한 N 계층 및 원격 응용 프로그램](http://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)
+- [LINQ to SQL을 사용한 N 계층 및 원격 응용 프로그램](https://msdn.microsoft.com/library/854a1cdd-53cb-45f5-83ca-63962a9b3598)

@@ -12,15 +12,15 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 90e259d9d5e71ab5e6837cc4aa9cd22ebf43aaac
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a244379bfebcf58d76ba726d4f6a84bcdfa7d1df
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63432360"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696269"
 ---
 # <a name="how-to-use-the-argument-designer"></a>방법: 인수 디자이너 사용
-이전 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전과 비교할 때 인수 디자이너에서 데이터를 활동에서/으로 전달하기가 쉬워졌습니다. 클릭 하 여 디자이너에 액세스할 합니다 **인수** 디자인 캔버스의 왼쪽 아래 모서리에 있는 단추입니다. 디자이너를 정렬할 수 있습니다 각 열 머리글을 제외 하 고 있고 테이블 형식에서으로 표시 되는 인수의 목록을 포함 합니다 **기본값** 열입니다. 각 인수에는 이름, in/out/in-out/속성 방향, 형식 및 기본 식 값(있는 경우)이 포함됩니다. 이름 및 기본 식 값은 편집할 수 있는 텍스트 필드이며, 형식과 방향은 드롭다운입니다. [!INCLUDE[crabout](../includes/crabout-md.md)] 인수를 참조 하세요 [변수 및 인수](http://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)합니다.  
+이전 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전과 비교할 때 인수 디자이너에서 데이터를 활동에서/으로 전달하기가 쉬워졌습니다. 클릭 하 여 디자이너에 액세스할 합니다 **인수** 디자인 캔버스의 왼쪽 아래 모서리에 있는 단추입니다. 디자이너를 정렬할 수 있습니다 각 열 머리글을 제외 하 고 있고 테이블 형식에서으로 표시 되는 인수의 목록을 포함 합니다 **기본값** 열입니다. 각 인수에는 이름, in/out/in-out/속성 방향, 형식 및 기본 식 값(있는 경우)이 포함됩니다. 이름 및 기본 식 값은 편집할 수 있는 텍스트 필드이며, 형식과 방향은 드롭다운입니다. [!INCLUDE[crabout](../includes/crabout-md.md)] 인수를 참조 하세요 [변수 및 인수](https://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)합니다.  
   
 ### <a name="to-create-a-new-argument"></a>새 인수를 만들려면  
   
@@ -35,4 +35,4 @@ ms.locfileid: "63432360"
   
 ## <a name="see-also"></a>참고 항목  
  [워크플로 디자이너 사용](../workflow-designer/using-the-workflow-designer.md)   
- [변수 및 인수](http://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)
+ [변수 및 인수](https://msdn.microsoft.com/library/d03dbe34-5b2e-4f21-8b57-693ee49611b8)

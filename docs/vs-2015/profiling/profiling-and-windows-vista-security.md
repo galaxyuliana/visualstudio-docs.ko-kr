@@ -12,12 +12,12 @@ caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fb95164642595195dc62166aec5c81f39abd33e3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d7e485bc6289634e1bb6d4b4106d54c8dc82096b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62423126"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683695"
 ---
 # <a name="profiling-and-windows-vista-security"></a>프로파일링 및 Windows Vista 보안
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,4 +48,4 @@ ms.locfileid: "62423126"
 ## <a name="see-also"></a>참고 항목  
  [개요](../profiling/overviews-performance-tools.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [방법: 실행 중인 프로세스에 연결](http://msdn.microsoft.com/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)
+ [방법: 실행 중인 프로세스에 연결](https://msdn.microsoft.com/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)

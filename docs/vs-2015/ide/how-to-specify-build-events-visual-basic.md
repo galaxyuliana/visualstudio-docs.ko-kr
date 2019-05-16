@@ -15,12 +15,12 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 315a0e2f6c68a98eac8bb2c36d184ef68998e5ae
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c21b50aab30d3ce7603ab8e5f7e6582332e94628
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63435132"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685398"
 ---
 # <a name="how-to-specify-build-events-visual-basic"></a>방법: 빌드 이벤트 지정(Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -165,7 +165,7 @@ Visual Basic의 빌드 이벤트는 스크립트, 매크로 또는 기타 작업
     ```  
   
 ## <a name="see-also"></a>참고 항목  
- [컴파일 속성 관리](http://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
+ [컴파일 속성 관리](https://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
  [프로젝트 디자이너, 컴파일 페이지(Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
  [프로젝트 디자이너, 게시 페이지](../ide/reference/publish-page-project-designer.md)   
  [빌드 전 이벤트/빌드 후 이벤트 명령줄 대화 상자](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   

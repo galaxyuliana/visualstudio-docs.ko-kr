@@ -10,15 +10,15 @@ helpviewer_keywords:
 ms.assetid: 3bac375d-8bd5-41be-a8de-32eb33c5cfac
 caps.latest.revision: 20
 manager: jillfra
-ms.openlocfilehash: b66724542d45aa6f57b7c2748c7c1cab1ec8c064
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 15a3896f8a2010a063393d3a11c1ed3453a008d5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436559"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65689090"
 ---
 # <a name="support-for-settings-categories"></a>설정 범주에 대한 지원
-설정 범주는 IDE(통합 개발 환경)를 사용자 지정하는 옵션 그룹으로 구성됩니다. 예를 들어 설정은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창의 레이아웃과 메뉴의 내용을 제어할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+설정 범주는 IDE(통합 개발 환경)를 사용자 지정하는 옵션 그룹으로 구성됩니다. 예를 들어 설정은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창의 레이아웃과 메뉴의 내용을 제어할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 클릭하여 **설정 가져오기 및 내보내기 마법사**를 시작합니다. 마법사는 설정 내보내기, 가져오기 또는 다시 설정의 세 가지 옵션을 제공합니다. 예를 들어 내보내기를 선택하면 마법사의 **내보낼 설정 선택** 페이지가 열립니다.  
   
@@ -64,4 +64,4 @@ ms.locfileid: "63436559"
  [옵션 페이지 만들기](../extensibility/creating-an-options-page.md)   
  [VSSDK 샘플](../misc/vssdk-samples.md)   
  [VSPackage State](../misc/vspackage-state.md)   
- [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+ [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

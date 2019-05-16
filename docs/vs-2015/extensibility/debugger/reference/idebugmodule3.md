@@ -12,12 +12,12 @@ ms.assetid: 44f8e96e-9c59-4ffc-9a08-9c908a0e4de7
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 923bdb2811a1200b7f638fc2f5727e2d1dbe83b8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 326efe27ae35de1550ebc8230ab3c94229589640
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983919"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690950"
 ---
 # <a name="idebugmodule3"></a>IDebugModule3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugModule3 : IDebugModule2
  기호 대체 위치를 지원 하 고 JustMyCode 상태를 사용 하려면이 인터페이스를 구현 하는 디버그 엔진 (DE) (참조를 [Visual Studio 디버거 용어집](../../../extensibility/debugger/reference/visual-studio-debugger-glossary.md) "JustMyCode"의 정의 대 한).  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 에 대 한 호출 [GetSymbolSearchInfo](../../../extensibility/debugger/reference/idebugsymbolsearchevent2-getsymbolsearchinfo.md) 이 인터페이스를 반환 합니다. DE 보냅니다 합니다 [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md) 인터페이스를 사용 하 여 세션 디버그 관리자 (SDM)에 [이벤트](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) 메서드. 또한 호출 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) 인터페이스는이 인터페이스를 반환 합니다.  
+ 에 대 한 호출 [GetSymbolSearchInfo](../../../extensibility/debugger/reference/idebugsymbolsearchevent2-getsymbolsearchinfo.md) 이 인터페이스를 반환 합니다. DE 보냅니다 합니다 [IDebugSymbolSearchEvent2](../../../extensibility/debugger/reference/idebugsymbolsearchevent2.md) 인터페이스를 사용 하 여 세션 디버그 관리자 (SDM)에 [이벤트](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) 메서드. 또한 호출 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) 인터페이스는이 인터페이스를 반환 합니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  메서드 외에도 합니다 [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md) 인터페이스에서이 인터페이스는 다음 메서드를 구현 합니다.  

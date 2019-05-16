@@ -26,12 +26,12 @@ caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: effeac6eb35eab5da53dc8e58cd44a72297a23d6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: ce0a416ef39165d38530c11aad0689811805b353
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102319"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65702438"
 ---
 # <a name="assertions-in-managed-code"></a>관리 코드에 어설션 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -211,7 +211,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
   
  이러한 방법으로 출력을 사용자 지정하려면 프로그램에 수신기가 있어야 하고 사용자가 <xref:System.Diagnostics.TraceListener>에서 상속하여 <xref:System.Diagnostics.TraceListener.Fail%2A?displayProperty=fullName> 메서드를 재정의해야 합니다.  
   
- 자세한 내용은 [추적 수신기](http://msdn.microsoft.com/library/444b0d33-67ea-4c36-9e94-79c50f839025)를 참조하세요.  
+ 자세한 내용은 [추적 수신기](https://msdn.microsoft.com/library/444b0d33-67ea-4c36-9e94-79c50f839025)를 참조하세요.  
   
  [항목 내용](#BKMK_In_this_topic)  
   
@@ -222,7 +222,7 @@ Trace.Assert ( stacksize > 0, "Out of stack space", "Failed in inctemp" );
  <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName>   
  <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName>   
  [디버거 보안](../debugger/debugger-security.md)   
- [애플리케이션 추적 및 조율](http://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)   
- [방법: 추적 및 디버그를 사용한 조건부 컴파일](http://msdn.microsoft.com/library/56d051c3-012c-42c1-9a58-7270edc624aa)   
+ [애플리케이션 추적 및 조율](https://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)   
+ [방법: 추적 및 디버그를 사용한 조건부 컴파일](https://msdn.microsoft.com/library/56d051c3-012c-42c1-9a58-7270edc624aa)   
  [C#, F# 및 Visual Basic 프로젝트 형식](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [관리 코드 디버그](../debugger/debugging-managed-code.md)

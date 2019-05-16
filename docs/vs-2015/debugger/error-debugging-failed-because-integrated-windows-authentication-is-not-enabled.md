@@ -19,12 +19,12 @@ caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 73fcc686b242109a65fce6befbbca5e2a357a25e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 074c6c1cace31797e46a192ec0891f1e13dac22b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049323"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65684268"
 ---
 # <a name="error-debugging-failed-because-integrated-windows-authentication-is-not-enabled"></a>오류: Windows 통합 인증을 사용할 수 없기 때문에 디버깅 실패
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -120,4 +120,4 @@ ms.locfileid: "60049323"
 ## <a name="see-also"></a>참고 항목  
  [웹 애플리케이션 디버그: 오류 및 문제 해결](../debugger/debugging-web-applications-errors-and-troubleshooting.md)   
  [Microsoft Digest 인증](http://go.microsoft.com/fwlink/?LinkId=77938)   
- [IIS 7.0 사용 하 여 Windows Vista에서 웹 응용 프로그램 및 Visual Studio를 실행합니다.](http://msdn.microsoft.com/library/262a82ac-dd0e-4096-86c6-fb463e88be66)
+ [IIS 7.0 사용 하 여 Windows Vista에서 웹 응용 프로그램 및 Visual Studio를 실행합니다.](https://msdn.microsoft.com/library/262a82ac-dd0e-4096-86c6-fb463e88be66)

@@ -9,12 +9,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2f162f827fa1866b5ca241bd9aaae2aadffb56e6
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: ef4d1221b59e6f1e5ed3de94f91742bbea778462
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63428606"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65679335"
 ---
 # <a name="step-8-write-code-for-the-show-a-picture-button-event-handler"></a>8단계: 그림 표시 단추 이벤트 처리기를 위한 코드 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ Visual C# 코드
   
     2. **IntelliSense** 창이 열리고 **openFileDialog1**이 표시됩니다. 선택하려면 Tab 키를 선택합니다. Visual Basic에서는 첫 문자가 대문자이므로 **OpenFileDialog1**이 표시됩니다. **OpenFileDialog1**이 선택되었는지 확인합니다.  
   
-         `OpenFileDialog`에 대한 자세한 내용은 [OpenFileDialog](http://msdn.microsoft.com/library/system.windows.forms.openfiledialog.aspx)를 참조하세요.  
+         `OpenFileDialog`에 대한 자세한 내용은 [OpenFileDialog](https://msdn.microsoft.com/library/system.windows.forms.openfiledialog.aspx)를 참조하세요.  
   
     3. 마침표(`.`)를 입력합니다. 프로그래머들은 마침표를 점으로 지칭하는 경우가 많습니다. **openFileDialog1** 바로 다음에 점을 입력했으므로 모든 **OpenFileDialog** 구성 요소의 속성과 메서드가 포함된 **IntelliSense** 창이 열립니다. 이 속성은 Windows Forms 디자이너에서 선택할 경우 **속성** 창에 표시되는 것과 같습니다. 또한 구성 요소에 대화 상자 열기와 같은 작업을 지시할 수 있는 메서드를 선택할 수도 있습니다.  
   
@@ -67,7 +67,7 @@ Visual C# 코드
   
     4. `ShowDialog` 입력을 시작합니다(IntelliSense에서 대문자 표시는 중요하지 않음). `ShowDialog()` 메서드에서 **파일 열기** 대화 상자를 표시합니다. 창에서 **ShowDialog**가 강조 표시된 후 Tab 키를 선택합니다. 또한 “ShowDialog”를 강조 표시하고 F1 키를 선택하여 도움말을 표시할 수도 있습니다.  
   
-         `ShowDialog()` 메서드에 대한 자세한 내용은 [ShowDialog Method](http://msdn.microsoft.com/library/c7ykbedk.aspx)(ShowDialog 메서드)를 참조하세요.  
+         `ShowDialog()` 메서드에 대한 자세한 내용은 [ShowDialog Method](https://msdn.microsoft.com/library/c7ykbedk.aspx)(ShowDialog 메서드)를 참조하세요.  
   
     5. 컨트롤 또는 구성 요소에서 메서드를 사용할 경우(*메서드 호출*이라고 함) 괄호를 추가해야 합니다. `ShowDialog`에서 "g" 바로 뒤에 열기 및 닫기 괄호를 입력하므로 `()` 이제 "openFileDialog1.ShowDialog()"처럼 표시됩니다.  
   
@@ -83,7 +83,7 @@ Visual C# 코드
   
     8. 점을 입력하여 DialogResult 값 **IntelliSense** 창을 엽니다. 문자 `O`를 입력하고 Tab 키를 선택하여 **OK**를 삽입합니다.  
   
-         `DialogResult`에 대한 자세한 내용은 [DialogResult](http://msdn.microsoft.com/library/system.windows.forms.dialogresult.aspx)를 참조하세요.  
+         `DialogResult`에 대한 자세한 내용은 [DialogResult](https://msdn.microsoft.com/library/system.windows.forms.dialogresult.aspx)를 참조하세요.  
   
         > [!NOTE]
         > 그러면 첫 번째 코드 줄이 완성됩니다. Visual C#의 경우 다음과 같이 됩니다.  

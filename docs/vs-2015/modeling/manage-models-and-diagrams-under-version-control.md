@@ -11,17 +11,17 @@ caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4c29b7e3279513e2876396abd5083c3ddefa0baf
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 55142e000a22b6e45543c6fc14594a12c93f4f92
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63440931"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65680297"
 ---
 # <a name="manage-models-and-diagrams-under-version-control"></a>버전 제어에서 모델 및 다이어그램 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-온-프레미스 Team Foundation Server에서 또는 Visual Studio Team Services를 통해 클라우드에서 [Team Foundation 버전 제어 또는 Git를 사용](http://msdn.microsoft.com/library/33267cee-fe5f-4aa3-b2cd-6d22ceace314)하여 코드 맵(.dgml 파일)을 비롯한 모델링 프로젝트 및 다이어그램의 여러 버전을 관리합니다.  
+온-프레미스 Team Foundation Server에서 또는 Visual Studio Team Services를 통해 클라우드에서 [Team Foundation 버전 제어 또는 Git를 사용](https://msdn.microsoft.com/library/33267cee-fe5f-4aa3-b2cd-6d22ceace314)하여 코드 맵(.dgml 파일)을 비롯한 모델링 프로젝트 및 다이어그램의 여러 버전을 관리합니다.  
   
  이 기능을 지원하는 Visual Studio 버전을 확인하려면 [아키텍처 및 모델링 도구에 대한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)을 참조하세요.  
   
@@ -77,7 +77,7 @@ ms.locfileid: "63440931"
   
 - 패키지 경계를 교차하는 관계의 속성 변경.  
   
-- 체크 아웃 잠금에 대해 알아보려면 [파일 체크 아웃 및 편집](http://msdn.microsoft.com/library/eb404d63-c448-4994-9416-3e6d50ec554a)을 참조하세요.  
+- 체크 아웃 잠금에 대해 알아보려면 [파일 체크 아웃 및 편집](https://msdn.microsoft.com/library/eb404d63-c448-4994-9416-3e6d50ec554a)을 참조하세요.  
   
 ##### <a name="to-move-a-diagram-file-in-or-out-of-a-project-folder"></a>프로젝트 폴더에 다이어그램 파일을 넣거나 빼려면  
   

@@ -16,12 +16,12 @@ caps.latest.revision: 45
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 971ca4e94f28016335483a03f4b0121de587f00d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3f1c31d858fbe7a5183456bfc7fcc1e602d4e051
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63439952"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686033"
 ---
 # <a name="rename-refactoring-c"></a>이름 바꾸기 리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ ms.locfileid: "63439952"
 |-----------------|----------------------|  
 |필드|새 이름으로 선언 및 필드의 용도 변경합니다.|  
 |지역 변수|선언과 변수 사용을 새 이름으로 변경합니다.|  
-|메서드|메서드 및 해당 메서드에 대 한 모든 참조의 이름을 새 이름으로 변경합니다. **참고:**  확장 메서드를 바꾸면 메서드의 확장 메서드가 정적 메서드 또는 인스턴스 메서드로 되 여부에 관계 없이 범위에 있는 모든 인스턴스 이름 바꾸기 작업 전파 됩니다. 자세한 내용은 [확장 메서드](http://msdn.microsoft.com/library/175ce3ff-9bbf-4e64-8421-faeb81a0bb51)를 참조하세요.|  
+|메서드|메서드 및 해당 메서드에 대 한 모든 참조의 이름을 새 이름으로 변경합니다. **참고:**  확장 메서드를 바꾸면 메서드의 확장 메서드가 정적 메서드 또는 인스턴스 메서드로 되 여부에 관계 없이 범위에 있는 모든 인스턴스 이름 바꾸기 작업 전파 됩니다. 자세한 내용은 [확장 메서드](https://msdn.microsoft.com/library/175ce3ff-9bbf-4e64-8421-faeb81a0bb51)를 참조하세요.|  
 |네임스페이스|선언에서 새 이름으로 네임 스페이스의 이름을 변경 모든 `using` 문 및 정규화 된 이름입니다. **참고:**  네임 스페이스의 이름을 바꾸면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 도 업데이트를 **Default Namespace** 속성에는 **응용 프로그램** 페이지를 **프로젝트 디자이너**. 이 속성을 선택 하 여 다시 설정할 수 없습니다 **실행 취소** 에서 합니다 **편집** 메뉴. 다시 설정 하는 **Default Namespace** 속성 값에서 속성을 수정 해야 합니다 **프로젝트 디자이너**합니다. 자세한 내용은 [응용 프로그램 페이지](../ide/reference/application-page-project-designer-csharp.md)합니다.|  
 |속성|선언 및 사용 된 속성의 새 이름으로 변경합니다.|  
 |형식|생성자 및 소멸자를 포함 하 여 새 이름에 모든 선언 및 형식의 모든 용도 변경 합니다. 부분 형식에 대 한 이름 바꾸기 작업은 모든 부분에 전파 됩니다.|  
@@ -170,4 +170,4 @@ var orderIDs =
   
 ## <a name="see-also"></a>참고 항목  
  [리팩터링(C#)](../csharp-ide/refactoring-csharp.md)   
- [익명 형식](http://msdn.microsoft.com/library/59c9d7a4-3b0e-475e-b620-0ab86c088e9b)
+ [익명 형식](https://msdn.microsoft.com/library/59c9d7a4-3b0e-475e-b620-0ab86c088e9b)

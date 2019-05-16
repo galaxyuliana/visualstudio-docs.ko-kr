@@ -9,18 +9,18 @@ caps.latest.revision: 5
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e2eb9da0913b3ce77ea30fd58d5243d5a380d19f
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.openlocfilehash: c3691f782f317667b56f6bf3641c0f4c6a703eda
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "59002369"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697567"
 ---
 # <a name="how-to-publish-a-wpf-application-with-visual-styles-enabled"></a>방법: 비주얼 스타일을 사용하여 WPF 애플리케이션 게시
 
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-비주얼 스타일을 사용자가 선택한 테마에 따라 변경 되는 공용 컨트롤의 모양을 사용 하도록 설정 합니다. 기본적으로 비주얼 스타일을 수동으로 활성화 해야 하므로 Windows Presentation Foundation (WPF) 응용 프로그램에 대 한 사용 되지 않습니다. 그러나 WPF 응용 프로그램에 대 한 비주얼 스타일을 사용 하도록 설정 하 고 다음 솔루션을 게시 하면 오류가 발생 합니다. 이 항목에서는이 오류 및 사용 하도록 설정 하는 비주얼 스타일을 사용 하 여 WPF 응용 프로그램을 게시 하기 위한 프로세스를 해결 하는 방법을 설명 합니다. 비주얼 스타일에 대 한 자세한 내용은 참조 하세요. [스타일에 대 한 시각적 개요](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)합니다. 오류 메시지에 대 한 자세한 내용은 참조 하세요. [ClickOnce 배포 관련 오류 문제 해결](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)합니다.
+비주얼 스타일을 사용자가 선택한 테마에 따라 변경 되는 공용 컨트롤의 모양을 사용 하도록 설정 합니다. 기본적으로 비주얼 스타일을 수동으로 활성화 해야 하므로 Windows Presentation Foundation (WPF) 응용 프로그램에 대 한 사용 되지 않습니다. 그러나 WPF 응용 프로그램에 대 한 비주얼 스타일을 사용 하도록 설정 하 고 다음 솔루션을 게시 하면 오류가 발생 합니다. 이 항목에서는이 오류 및 사용 하도록 설정 하는 비주얼 스타일을 사용 하 여 WPF 응용 프로그램을 게시 하기 위한 프로세스를 해결 하는 방법을 설명 합니다. 비주얼 스타일에 대 한 자세한 내용은 참조 하세요. [스타일에 대 한 시각적 개요](https://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)합니다. 오류 메시지에 대 한 자세한 내용은 참조 하세요. [ClickOnce 배포 관련 오류 문제 해결](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)합니다.
 
  오류를 해결 하 고 솔루션을 게시 하려면 다음 작업을 수행 해야 합니다.
 
@@ -125,7 +125,7 @@ ms.locfileid: "59002369"
 
 1. 엽니다는 **Visual Studio 명령 프롬프트**합니다.
 
-    여는 방법에 대 한 자세한를 **Visual Studio 명령 프롬프트**를 참조 하세요 [명령 프롬프트](http://msdn.microsoft.com/library/94fcf524-9045-4993-bfb2-e2d8bad44219)합니다.
+    여는 방법에 대 한 자세한를 **Visual Studio 명령 프롬프트**를 참조 하세요 [명령 프롬프트](https://msdn.microsoft.com/library/94fcf524-9045-4993-bfb2-e2d8bad44219)합니다.
 
    > [!NOTE]
    > 나머지 단계를 솔루션에 대 한 다음과 같은 가정을 확인합니다.
@@ -193,5 +193,5 @@ ms.locfileid: "59002369"
 ## <a name="see-also"></a>참고 항목
 
 [ClickOnce 배포 관련 오류 문제 해결](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
-[비주얼 스타일 개요](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)
-[명령 프롬프트](http://msdn.microsoft.com/library/94fcf524-9045-4993-bfb2-e2d8bad44219)
+[비주얼 스타일 개요](https://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)
+[명령 프롬프트](https://msdn.microsoft.com/library/94fcf524-9045-4993-bfb2-e2d8bad44219)

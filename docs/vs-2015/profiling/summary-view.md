@@ -16,12 +16,12 @@ caps.latest.revision: 42
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7482fb99114b4a30281d84045faa14d1a6562471
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 8c1b8b10234e8b297be471f596cc1739deab317d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110903"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674166"
 ---
 # <a name="summary-view"></a>요약 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,8 +52,8 @@ ms.locfileid: "60110903"
 |**트리밍된 호출 트리 표시**|호출 트리 보기에서 가장 많은 비용이 소요된 실행 경로를 표시합니다. 자세한 내용은 [호출 트리 뷰](../profiling/call-tree-view.md)를 참조하세요.|  
 |**실행 부하 과다 라인 표시**|계측 방법을 사용하여 수집된 프로파일링 데이터에 사용할 수 없습니다. 줄 뷰에서 가장 많은 비용이 소요된 소스 코드 줄을 표시합니다. 자세한 내용은 [줄 뷰](../profiling/lines-view.md)를 참조하세요.|  
 |**보고서 비교**|현재 파일과 비교하도록 다른 프로파일링 데이터 파일을 지정할 수 있는 **비교할 분석 파일 선택** 대화 상자를 표시합니다. 자세한 내용은 [성능 데이터 파일 비교](../profiling/comparing-performance-data-files.md)를 참조하세요.|  
-|**보고서 데이터 내보내기**|쉼표로 구분된 값(.csv) 또는 .xml 파일로 저장하도록 하나 이상의 보고서 뷰를 지정할 수 있는 **보고서 내보내기** 대화 상자를 표시합니다. 자세한 내용은 [방법: 내보내기 프로 파일링 도구 보고서](http://msdn.microsoft.com/174b5bd3-df9b-4fd4-88d4-76032ab90451)합니다.|  
-|**분석된 보고서 저장**|현재 프로파일링 데이터 파일을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 대한 인터페이스에서 보다 신속하게 여는 .vsps 파일로 저장합니다. 자세한 내용은 [방법: 분석 된 프로 파일링 데이터 파일 저장](http://msdn.microsoft.com/0340ddde-caf4-48ac-8af3-d15dcdade556)합니다.|  
+|**보고서 데이터 내보내기**|쉼표로 구분된 값(.csv) 또는 .xml 파일로 저장하도록 하나 이상의 보고서 뷰를 지정할 수 있는 **보고서 내보내기** 대화 상자를 표시합니다. 자세한 내용은 [방법: 내보내기 프로 파일링 도구 보고서](https://msdn.microsoft.com/174b5bd3-df9b-4fd4-88d4-76032ab90451)합니다.|  
+|**분석된 보고서 저장**|현재 프로파일링 데이터 파일을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에 대한 인터페이스에서 보다 신속하게 여는 .vsps 파일로 저장합니다. 자세한 내용은 [방법: 분석 된 프로 파일링 데이터 파일 저장](https://msdn.microsoft.com/0340ddde-caf4-48ac-8af3-d15dcdade556)합니다.|  
 |**보고서 데이터 필터링**|보고서 뷰에서 데이터를 제한하도록 조건을 지정할 수 있는 프로파일링 보고서 필터 창을 표시합니다. 자세한 내용은 [성능 보고서 뷰 필터](../profiling/performance-report-view-filter.md)를 참조하세요.|  
 |**전체 화면 설정/해제**|보고서 뷰에 대한 전체 화면 모드를 설정/해제합니다.|  
   

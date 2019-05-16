@@ -11,12 +11,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 804236cadf97dda0b21cf145a4cd4c932e08b097
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 77f0a384797217440600d1ba5db0f190f4bdafa3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985557"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685358"
 ---
 # <a name="properties-of-a-dsl-definition"></a>DSL 정의의 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,4 +47,4 @@ DslDefinition 속성 정의 *도메인별 언어* 버전 번호와 같은 정의
 |Revision|증분 수정 빌드이 도메인별 언어 정의 대 한 번호입니다.|0|  
   
 ## <a name="see-also"></a>참고 항목  
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [도메인 특정 언어 도구 용어집](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

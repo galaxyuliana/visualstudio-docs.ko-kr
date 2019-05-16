@@ -10,12 +10,12 @@ ms.assetid: 5653bac9-724f-4948-a820-68ce6aa96365
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4bfdc448025e03e385da80733a46359d1ad0eae9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7fa3e4be6ee44011eb1286e3ebf22ee69f8e3397
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985431"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683110"
 ---
 # <a name="editor-and-language-service-extensions"></a>편집기 및 언어 서비스 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,5 +33,5 @@ Visual Studio 코드 편집기의 대부분의 기능을 확장할 수 있습니
 |[편집기의 레거시 인터페이스](../extensibility/legacy-interfaces-in-the-editor.md)|기존 코드에서 핵심 편집기에 액세스 하는 방법에 설명 하는 문서에 연결 합니다.|  
 |[사용자 지정 편집기 및 디자이너 만들기](../extensibility/creating-custom-editors-and-designers.md)|사용자 지정 편집기를 만드는 방법에 설명 하는 문서에 연결 합니다.|  
 |[레거시 언어 서비스 확장성](../extensibility/internals/legacy-language-service-extensibility.md)|Visual Studio 프로그래밍 언어를 통합 하는 방법에 설명 하는 문서에 연결 합니다.|  
-|[MEF(Managed Extensibility Framework)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)|Managed Extensibility Framework (MEF)를 소개합니다.|  
-|[Windows Presentation Foundation](http://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d)|Windows Presentation Foundation (WPF)를 소개합니다.|
+|[MEF(Managed Extensibility Framework)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)|Managed Extensibility Framework (MEF)를 소개합니다.|  
+|[Windows Presentation Foundation](https://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d)|Windows Presentation Foundation (WPF)를 소개합니다.|

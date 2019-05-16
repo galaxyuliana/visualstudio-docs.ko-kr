@@ -13,12 +13,12 @@ caps.latest.revision: 32
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5c3a6526732ffa398d25b0c3c5d73fed771f6958
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: aa504e961ed8e592f5e3df84ff7a688fa2398200
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443470"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688140"
 ---
 # <a name="how-to-profile-javascript-code-in-web-pages"></a>방법: 웹 페이지의 JavaScript 코드 프로 파일링
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,8 +34,8 @@ ms.locfileid: "63443470"
 > [!WARNING]
 > Windows 스토어 응용 프로그램에서 JavaScript를 프로파일링하려면 다음 항목 중 하나를 참조하십시오.  
 > 
-> - [JavaScript 함수 타이밍](http://msdn.microsoft.com/library/b2bf49fc-aea7-4d9c-8fcf-cff8b8dd0c03) [원격 장치에서 JavaScript 함수 타이밍](http://msdn.microsoft.com/library/d78812b6-a97e-46dc-8d99-e724d1d725d8)  
->   - [JavaScript 함수 타이밍 데이터 분석](http://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  
+> - [JavaScript 함수 타이밍](https://msdn.microsoft.com/library/b2bf49fc-aea7-4d9c-8fcf-cff8b8dd0c03) [원격 장치에서 JavaScript 함수 타이밍](https://msdn.microsoft.com/library/d78812b6-a97e-46dc-8d99-e724d1d725d8)  
+>   - [JavaScript 함수 타이밍 데이터 분석](https://msdn.microsoft.com/library/b5aea8d8-36df-47ba-a7ca-95406700ca9b)  
 >   - 
   
  프로파일링 마법사를 사용하여 성능 세션을 만들 수 있습니다. 계측 방법을 지정한 다음 성능 세션에 대한 속성 대화 상자의 계측 페이지에서 JavaScript 프로파일링 옵션을 지정합니다.  

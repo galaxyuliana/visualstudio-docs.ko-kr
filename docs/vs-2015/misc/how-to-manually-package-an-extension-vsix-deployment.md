@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.assetid: d25990e0-e782-4a79-9d9a-1caf3c56c6a2
 caps.latest.revision: 10
 manager: jillfra
-ms.openlocfilehash: 0b65fa016d0d2e09a4200004de3f473503604f6e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e4d721fca8d429fe81de30306a8823e3d7fd9cab
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442879"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65681688"
 ---
 # <a name="how-to-manually-package-an-extension-vsix-deployment"></a>방법: 수동으로 확장명 패키지 (VSIX 배포)
 배포를 위해 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 확장을 래핑할 VSIX 패키지를 만들 수 있습니다. 패키지를 만드는 방법에는 다음 세 가지가 있습니다.  
@@ -26,7 +26,7 @@ ms.locfileid: "63442879"
   이 문서에서는 세 번째 옵션을 설명합니다.  
   
 ## <a name="creating-a-vsix-package"></a>VSIX 패키지 만들기  
- 확장을 수동으로 패키지하려면 extension.manifest 파일 및 [Content_Types].xml 파일을 확장 프로젝트에 추가하고 빌드 출력과 함께 압축 파일에 넣은 다음 .vsix 파일 이름 확장명을 갖도록 압축 파일의 이름을 바꿉니다. 패키지할 확장은 [VSIX 스키마](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)에서 지원되는 형식이어야 합니다.  
+ 확장을 수동으로 패키지하려면 extension.manifest 파일 및 [Content_Types].xml 파일을 확장 프로젝트에 추가하고 빌드 출력과 함께 압축 파일에 넣은 다음 .vsix 파일 이름 확장명을 갖도록 압축 파일의 이름을 바꿉니다. 패키지할 확장은 [VSIX 스키마](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)에서 지원되는 형식이어야 합니다.  
   
 > [!NOTE]
 > VSIX 패키지에 있는 파일의 이름에 공백을 포함할 수 없습니다 나으로 리소스 URI (Uniform Identifier), 예약 된 문자 아래에 정의 된 [ \[RFC2396\]](http://go.microsoft.com/fwlink/?LinkId=90339)합니다.  
@@ -37,7 +37,7 @@ ms.locfileid: "63442879"
   
 2. XML 파일을 만들고 이름을 `extension.vsixmanifest`로 지정합니다.  
   
-3. VSIX 스키마에 따라 extension.vsixmanifest 파일을 채웁니다. 예제 매니페스트는 [PackageManifest 요소(루트 요소, VSX 스키마)](http://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187)를 참조하세요.  
+3. VSIX 스키마에 따라 extension.vsixmanifest 파일을 채웁니다. 예제 매니페스트는 [PackageManifest 요소(루트 요소, VSX 스키마)](https://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187)를 참조하세요.  
   
 4. 두 번째 XML 파일을 만들고 이름을 `[Content_Types].xml`로 지정합니다.  
   
@@ -56,4 +56,4 @@ ms.locfileid: "63442879"
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio 확장 전달](../extensibility/shipping-visual-studio-extensions.md)   
  [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)   
- [PackageManifest 요소 (루트 요소, VSX 스키마)](http://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187)
+ [PackageManifest 요소 (루트 요소, VSX 스키마)](https://msdn.microsoft.com/f8ae42ba-775a-4d2b-976a-f556e147f187)

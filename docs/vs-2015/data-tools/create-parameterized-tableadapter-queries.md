@@ -16,12 +16,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1576dfc54622f42e87ff2e9a951eed321300b1e4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 1da058cbbdda71758e9a158cfd6778a044797093
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039290"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703822"
 ---
 # <a name="create-parameterized-tableadapter-queries"></a>매개 변수가 있는 TableAdapter 쿼리 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "60039290"
 > 매개 변수가 있는 쿼리를 생성 하는 경우에 대 한 코딩 하는 데이터베이스에 관련 된 매개 변수 표기법을 사용 합니다. 예를 들어 Access 및 OleDb 데이터 소스는 물음표 '?'를 사용하여 매개 변수를 표기하므로 WHERE 절은 `WHERE City = ?`와 같습니다.  
   
 > [!NOTE]
-> 대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에 설명 된 다 수 있습니다. 로 이동 설정을 변경 합니다 **도구** 선택한 메뉴 **설정 가져오기 및 내보내기**합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에 설명 된 다 수 있습니다. 로 이동 설정을 변경 합니다 **도구** 선택한 메뉴 **설정 가져오기 및 내보내기**합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="create-a-parameterized-tableadapter-query"></a>매개 변수가 있는 TableAdapter 쿼리 만들기 
   

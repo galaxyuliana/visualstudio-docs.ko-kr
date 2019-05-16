@@ -12,12 +12,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f89e9a58d1ea501b9d92a44eead5e343cc7c014b
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
-ms.translationtype: MTE95
+ms.openlocfilehash: 95c9b1ac60fa0ba0dc34adfc6cd4543c7b340a4e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "57866939"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688041"
 ---
 # <a name="security-in-visual-studio"></a>Visual Studio의 보안
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,11 +27,11 @@ ms.locfileid: "57866939"
  안전한 애플리케이션을 효과적으로 개발하려면 보안 개념 및 개발할 플랫폼의 보안 기능에 대한 기본적인 내용과 보안 코딩 기술을 이해하고 있어야 합니다.
 
 ## <a name="understanding-security"></a>보안 이해
- [보안](http://msdn.microsoft.com/library/9a9621d7-8883-4a4f-a874-65e8e09e20a6) .NET Framework 코드 액세스 보안, 역할 기반 보안, 보안 정책 및 보안 도구에 대해 설명합니다.
+ [보안](https://msdn.microsoft.com/library/9a9621d7-8883-4a4f-a874-65e8e09e20a6) .NET Framework 코드 액세스 보안, 역할 기반 보안, 보안 정책 및 보안 도구에 대해 설명합니다.
 
 ## <a name="coding-for-security"></a>보안 코딩
  보안 문제를 일으키는 대부분의 코딩 오류는 개발자가 사용자 입력에 대해 잘못 가정하거나 개발 중인 플랫폼을 완전히 이해하지 못하기 때문에 발생합니다.
 
- [보안 코딩 지침](http://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177) 보안 문제를 해결하기 위해 구성 요소를 분류하는 데 필요한 지침을 제공합니다.
+ [보안 코딩 지침](https://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177) 보안 문제를 해결하기 위해 구성 요소를 분류하는 데 필요한 지침을 제공합니다.
 
- [보안 모범 사례](http://msdn.microsoft.com/library/86acaccf-cdb4-4517-bd58-553618e3ec42) /GS 컴파일 시간 플래그에서 제공하는 Microsoft Visual C++ 보안 검사 기능의 전체 개요 및 버퍼 오버런에 대해 설명합니다.
+ [보안 모범 사례](https://msdn.microsoft.com/library/86acaccf-cdb4-4517-bd58-553618e3ec42) /GS 컴파일 시간 플래그에서 제공하는 Microsoft Visual C++ 보안 검사 기능의 전체 개요 및 버퍼 오버런에 대해 설명합니다.

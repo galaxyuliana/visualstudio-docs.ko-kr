@@ -12,12 +12,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 92dac82de96323e1d057991e6570715371c9b272
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 2bdcfc2f6a4b7655a6f4f2e335310e938e5acfed
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63438042"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701976"
 ---
 # <a name="projects-and-solutions-options-dialog-box"></a>프로젝트 및 솔루션, 옵션 대화 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "63438042"
 프로젝트를 개발 및 빌드할 때 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 프로젝트 폴더의 기본 경로를 설정하고 **출력** 창, **작업 목록** 및 **솔루션 탐색기**의 기본 동작을 결정합니다. 이 대화 상자에 액세스하려면 **도구/옵션**을 클릭하고 **프로젝트 및 솔루션**을 확장한 후 **일반**을 클릭합니다.  
   
 > [!NOTE]
-> 대화 상자에서 사용할 수 있는 옵션과 메뉴 명령의 이름 및 위치는 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 이 도움말 페이지는 **일반 개발 설정**을 염두에 두고 작성되었습니다. 설정을 보거나 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기**를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 대화 상자에서 사용할 수 있는 옵션과 메뉴 명령의 이름 및 위치는 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 이 도움말 페이지는 **일반 개발 설정**을 염두에 두고 작성되었습니다. 설정을 보거나 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기**를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="settings"></a>설정  
  **프로젝트 위치**  
@@ -58,7 +58,7 @@ ms.locfileid: "63438042"
  완전히 신뢰할 수 없는 위치(예: UNC 경로 또는 HTTP 경로)에서 새 프로젝트를 만들거나 기존 프로젝트를 열려고 하면 메시지가 표시됩니다. 완전히 신뢰할 수 없는 위치에서 프로젝트를 만들거나 열려고 할 때마다 메시지를 표시할지 여부를 지정하려면 이 옵션을 사용합니다.  
   
  **빌드를 시작할 때 출력 창 표시**  
- 솔루션 빌드 시작 시에 IDE에 출력 창이 자동으로 표시됩니다. 자세한 내용은 [방법: 출력 창 제어](http://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858)입니다. 기본적으로 이 옵션은 사용하도록 설정됩니다.  
+ 솔루션 빌드 시작 시에 IDE에 출력 창이 자동으로 표시됩니다. 자세한 내용은 [방법: 출력 창 제어](https://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858)입니다. 기본적으로 이 옵션은 사용하도록 설정됩니다.  
   
  **파일 이름을 바꿀 때 기호화된 이름 바꾸기 확인**  
  이 옵션을 선택하면 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서 프로젝트에서 코드 요소에 대한 모든 참조 이름을 바꿀지 묻는 메시지 상자가 표시됩니다.  

@@ -207,7 +207,7 @@ Visual Studio 템플릿을 사용 하 여 프로젝트 계층 구조를 만드�
 
 이 섹션에서는 SimpleProject 프로젝트 형식에 대 한 콘솔 자식 노드를 만드는 방법을 보여 줍니다.
 
-1. 이름 바꾸기는 *\\Templates\Projects\SimpleProject\\* 폴더를  *\\Templates\Projects\ConsoleApp\\*합니다.
+1. 이름 바꾸기는 *\\Templates\Projects\SimpleProject\\* 폴더를 *\\Templates\Projects\ConsoleApp\\* 합니다.
 
 2. 에 **속성** 창에서 모든 5 개 파일을 *\\Templates\Projects\ConsoleApp\\* 폴더 및 있는지 확인은 **빌드 작업**로 설정 되어 **ZipProject**합니다.
 

@@ -8,12 +8,12 @@ ms.assetid: 767f5c22-8b87-49ca-92aa-a7a3f026469f
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 7b4ba4e98b8b2d42485a7594d5bab658e1bd6ccb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9a429a97c25f9c0215f17b024d34fece20d1d8f0
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62422489"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690700"
 ---
 # <a name="vsixlanguagepack-element-vsix-language-pack-schema"></a>VSIXLanguagePack 요소 (VSIX 언어 팩 스키마)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,4 +73,4 @@ ms.locfileid: "62422489"
 ## <a name="see-also"></a>참고 항목  
  [VSX 언어 팩 스키마 참조](../extensibility/vsx-language-pack-schema-reference.md)   
  [VSIX 패키지 지역화](../extensibility/localizing-vsix-packages.md)   
- [VSIX 확장 스키마 1.0 참조](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
+ [VSIX 확장 스키마 1.0 참조](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)

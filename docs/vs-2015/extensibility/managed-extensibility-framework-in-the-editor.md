@@ -10,12 +10,12 @@ ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: ae47942e9b686ac02623e4b3f2d0681babf879f9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: f19b71c86d972b59a9d46f379bf7ec93f63aeb9a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084030"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65679950"
 ---
 # <a name="managed-extensibility-framework-in-the-editor"></a>편집기의 Managed Extensibility Framework
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "60084030"
   
  MEF는.NET Framework 버전 4 System.ComponentModel.Composition.dll 어셈블리에 포함 됩니다.  
   
- MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)합니다.  
+ MEF에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)합니다.  
   
 ### <a name="component-parts-and-composition-containers"></a>구성 요소 및 컴퍼지션 컨테이너  
  구성 요소 부분은 다음 중 하나 (또는 둘 다)를 수행할 수 있는 클래스의 멤버 이거나 클래스:  

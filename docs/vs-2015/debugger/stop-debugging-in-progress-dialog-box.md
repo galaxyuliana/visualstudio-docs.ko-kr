@@ -23,12 +23,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c29754937d3b1ff7f4c44fc87929d84844743387
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4fc4b72987be726ab06aeb92a0e3eec2a338949e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984336"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65684942"
 ---
 # <a name="stop-debugging-in-progress-dialog-box"></a>진행하고 있는 디버깅을 중지하고 있습니다... 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,4 +42,4 @@ ms.locfileid: "58984336"
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 보안](../debugger/debugger-security.md)   
- [프로그램 분리](http://msdn.microsoft.com/f2c756c2-8079-474b-94c2-01c19a141a01)
+ [프로그램 분리](https://msdn.microsoft.com/f2c756c2-8079-474b-94c2-01c19a141a01)

@@ -12,12 +12,12 @@ ms.assetid: a8bbe061-c382-4fe9-a193-3f7d12216041
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 0b4aafb41d518b53072022d40a860c6a3ad733ce
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 2656d3f5a3313a4538e3e0e6454dd671da635904
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982597"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686980"
 ---
 # <a name="idebugcontainerfield"></a>IDebugContainerField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugContainerField : IDebugField
  기호 공급자를 구현 하는 동일한 개체에서이 인터페이스를 구현 합니다 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 인터페이스입니다. 이 인터페이스는 컨테이너를 나타내는 모든 인터페이스에 대 한 기본 클래스도 있습니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 여러 인터페이스에서 여러 메서드는이 인터페이스를 반환합니다. 더욱 특수화 된 인터페이스를 사용 하 여이 인터페이스에서 가져온 모든 컨테이너에 대 한 기본 클래스 이므로 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3)합니다. 이러한 인터페이스를 포함 [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)를 [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)합니다 [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), 및 [IDebugPropertyField](../../../extensibility/debugger/reference/idebugpropertyfield.md)합니다.  
+ 여러 인터페이스에서 여러 메서드는이 인터페이스를 반환합니다. 더욱 특수화 된 인터페이스를 사용 하 여이 인터페이스에서 가져온 모든 컨테이너에 대 한 기본 클래스 이므로 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3)합니다. 이러한 인터페이스를 포함 [IDebugArrayField](../../../extensibility/debugger/reference/idebugarrayfield.md)를 [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)합니다 [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md), 및 [IDebugPropertyField](../../../extensibility/debugger/reference/idebugpropertyfield.md)합니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  메서드 외에도 합니다 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 인터페이스에서이 인터페이스는 다음 메서드를 구현 합니다.  
