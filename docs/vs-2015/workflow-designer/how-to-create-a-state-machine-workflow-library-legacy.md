@@ -13,12 +13,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6533ae98e110b3813c6dd7f5520e322ce2cf3496
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: acfa4a979614269c07969e4c01df4e994195cd64
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433494"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697112"
 ---
 # <a name="how-to-create-a-state-machine-workflow-library-legacy"></a>방법: 상태 시스템 워크플로 라이브러리 만들기(레거시)
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에서 제공하는 레거시 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용하여 상태 시스템 워크플로 라이브러리 프로젝트를 만들려면 다음 단계를 따릅니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
@@ -50,4 +50,4 @@ ms.locfileid: "63433494"
   
 ## <a name="see-also"></a>참고 항목  
  [레거시 워크플로 프로젝트 만들기](../workflow-designer/creating-legacy-workflow-projects.md)   
- [상태 시스템 워크플로](http://msdn.microsoft.com/library/344caacd-bf3b-4716-bd5a-eca74fc5a61d)
+ [상태 시스템 워크플로](https://msdn.microsoft.com/library/344caacd-bf3b-4716-bd5a-eca74fc5a61d)

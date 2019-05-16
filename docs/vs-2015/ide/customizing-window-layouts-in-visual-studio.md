@@ -24,12 +24,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bb97c86176dd29278f64ab467557e663ee9e6d2e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 84967c8aeb5319d748ff42d051f0f63dad1d9b12
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437552"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701261"
 ---
 # <a name="customizing-window-layouts-in-visual-studio"></a>Visual Studio에서 창 레이아웃 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +77,7 @@ Visual Studio에서 창의 위치, 크기 및 동작을 사용자 지정하여 �
   도구 및 문서 창은 끌거나, **창** 메뉴에서 명령을 사용하거나, 정렬할 창의 제목 표시줄을 마우스 오른쪽 단추로 클릭하여 정렬할 수 있습니다.
 
 > [!NOTE]
-> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
+> 일부 Visual Studio 사용자 인터페이스 요소의 경우 다음 지침에 설명된 것과 다른 이름 또는 위치가 시스템에 표시될 수 있습니다. 이러한 요소는 사용하는 Visual Studio 버전 및 설정에 따라 결정됩니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.
 
 ### <a name="docking-windows"></a>창 도킹
  도구 창의 제목 표시줄이나 문서 창의 탭을 클릭하고 끌면 안내 다이아몬드가 나타납니다. 끌기 작업 중에 마우스 커서가 다이아몬드의 화살표 중 하나 위에 있을 때 지금 마우스 단추를 놓으면 창이 도킹될 위치를 보여 주는 음영 영역이 나타납니다.
@@ -182,4 +182,4 @@ Visual Studio에서 창의 위치, 크기 및 동작을 사용자 지정하여 �
 |[창 종류](../misc/kinds-of-windows.md)|IDE의 도구 창과 문서 창 사이의 차이점에 대해 설명합니다.|
 |[방법: 창 정렬 및 고정](../misc/how-to-arrange-and-dock-windows.md)|창을 도킹하거나, 자동으로 숨기거나, 바둑판식으로 배열하는 방법과 창 레이아웃을 다시 설정하는 방법을 설명합니다.|
 |[방법: IDE에서 이동](../ide/how-to-move-around-in-the-visual-studio-ide.md)|IDE에서 열린 창 사이를 사용 순서에 따라 순환하는 방법을 설명합니다. 특정 문서로 이동하는 방법에 대해서도 설명합니다.|
-|[Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)|설정 조합에 대한 정보를 제공하고 설정이 창 레이아웃, 바로 가기 키 및 IDE의 기타 요소에 어떤 영향을 주는지 설명합니다.|
+|[Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)|설정 조합에 대한 정보를 제공하고 설정이 창 레이아웃, 바로 가기 키 및 IDE의 기타 요소에 어떤 영향을 주는지 설명합니다.|

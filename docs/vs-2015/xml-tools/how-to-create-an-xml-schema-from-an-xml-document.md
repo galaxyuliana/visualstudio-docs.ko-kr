@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0f12436f9f129c6fb8a0fe3a4b6c853a9e58e650
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a732f0c6a9758de3ebd918559203b13a56d6a0ae
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63438123"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697795"
 ---
 # <a name="how-to-create-an-xml-schema-from-an-xml-document"></a>방법: XML 문서에서 XML 스키마 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ XML 편집기를 사용하여 XML 문서에서 XSD(XML 스키마 정의 언어) 
   
   그런 다음 생성된 스키마를 사용하여 XML 문서에 대해 IntelliSense를 제공합니다.  
   
-  스키마 유추 엔진에 대 한 자세한 내용은 참조 하세요. [XML 스키마 유추](http://msdn.microsoft.com/library/b18e7ffd-3c04-482d-9934-ba2f6a59b2c9)합니다.  
+  스키마 유추 엔진에 대 한 자세한 내용은 참조 하세요. [XML 스키마 유추](https://msdn.microsoft.com/library/b18e7ffd-3c04-482d-9934-ba2f6a59b2c9)합니다.  
   
 ### <a name="to-create-an-xml-schema"></a>XML 스키마를 만들려면  
   

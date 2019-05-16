@@ -22,19 +22,19 @@ caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 16a3868f564f39d4908adf74a6b1a44ae83ebc9d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b9bfa51dae4ab9ab08abf3493c747a471b924de1
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437054"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675909"
 ---
 # <a name="bind-wpf-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 데이터를 [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] 컨트롤에 바인딩하여 응용 프로그램 사용자에게 데이터를 표시할 수 있습니다. 이러한 데이터 바인딩된 컨트롤을 만들려면에서 항목을 이동할 수는 **데이터 원본** 창만 합니다 [!INCLUDE[wpfdesigner_current_short](../includes/wpfdesigner-current-short-md.md)] 에서 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. 이 항목에서는 데이터 바인딩된 [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] 응용 프로그램을 만드는 데 사용할 수 있는 가장 일반적인 몇 가지 작업, 도구 및 클래스에 대해 설명합니다.
 
- 데이터 바인딩된 컨트롤을 만드는 방법에 대 한 일반 정보에 대 한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 참조 하세요 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다. [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] 데이터 바인딩에 대한 자세한 내용은 [데이터 바인딩 개요](http://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211)를 참조하세요.
+ 데이터 바인딩된 컨트롤을 만드는 방법에 대 한 일반 정보에 대 한 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 참조 하세요 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다. [!INCLUDE[TLA#tla_titlewinclient](../includes/tlasharptla-titlewinclient-md.md)] 데이터 바인딩에 대한 자세한 내용은 [데이터 바인딩 개요](https://msdn.microsoft.com/library/c707c95f-7811-401d-956e-2fffd019a211)를 참조하세요.
 
 ## <a name="tasks-involved-in-binding-wpf-controls-to-data"></a>WPF 컨트롤을 데이터에 바인딩하는 것과 관련된 작업
  다음 표에서는 **데이터 원본** 창에서 [!INCLUDE[wpfdesigner_current_short](../includes/wpfdesigner-current-short-md.md)]로 항목을 끌어서 수행할 수 있는 작업을 보여 줍니다.
@@ -98,7 +98,7 @@ ms.locfileid: "63437054"
  개체 또는 속성을 끌면 합니다 **데이터 원본** 창에서 디자이너로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 생성 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 는 데이터 바인딩된 컨트롤을 만듭니다 (또는 기존 컨트롤을 개체나 속성에 바인딩하). 그러나 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 프록시 서비스 개체를 데이터로 채우는 코드를 생성하지 않기 때문에 이 코드를 직접 작성해야 합니다.
 
 > [!NOTE]
-> 사용자 지정 클래스는 public 이어야 하며, 기본적으로 매개 변수 없는 생성자가 합니다. 구문의 "점"에 있는 중첩 된 클래스 수 없습니다. 자세한 내용은 [XAML 및 WPF에 대 한 사용자 지정 클래스](http://msdn.microsoft.com/library/e7313137-581e-4a64-8453-d44e15a6164a)합니다.
+> 사용자 지정 클래스는 public 이어야 하며, 기본적으로 매개 변수 없는 생성자가 합니다. 구문의 "점"에 있는 중첩 된 클래스 수 없습니다. 자세한 내용은 [XAML 및 WPF에 대 한 사용자 지정 클래스](https://msdn.microsoft.com/library/e7313137-581e-4a64-8453-d44e15a6164a)합니다.
 
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 생성 [!INCLUDE[TLA#tla_titlexaml](../includes/tlasharptla-titlexaml-md.md)] 다음을 수행 하는:
 

@@ -10,12 +10,12 @@ ms.assetid: 43341928-9930-48cf-a57f-ddcc3984b787
 caps.latest.revision: 9
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e78cefa9778e2889130f865e4c61cc8a97014db7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 885f96a4e1e43fe422c6fd9cfaa414fe5871bce1
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444661"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688569"
 ---
 # <a name="analyze-net-framework-memory-issues"></a>.NET Framework 메모리 문제 분석
 관리되는 Visual Studio 메모리 분석기를 사용하여 .NET Framework 코드에서 메모리 누수 및 비효율적인 메모리 사용을 찾습니다. 대상 코드의 최소 .NET Framework 버전은 .NET Framework 4.5입니다.  
@@ -47,7 +47,7 @@ ms.locfileid: "63444661"
  ![맨 위로 이동](../debugger/media/pcs-backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)  
   
 ## <a name="BKMK_Identify_a_memory_issue_in_an_app"></a> 앱의 메모리 문제 식별  
- 메모리 문제의 가장 눈에 띄는 증상은 앱의 성능으로 특히 시간에 따라 성능이 저하되는 경우입니다. 앱 실행 중 다른 앱의 성능 저하 역시 메모리 문제를 나타낼 수 있습니다. 메모리 문제를 생각 하는 경우 작업 관리자와 같은 도구를 사용 하거나 [Windows 성능 모니터](http://technet.microsoft.com/library/cc749249.aspx) 추가로 조사 합니다. 예를 들어 메모리 누수의 가능한 원인으로 설명할 수 없는 메모리의 총 크기 증가를 찾습니다.  
+ 메모리 문제의 가장 눈에 띄는 증상은 앱의 성능으로 특히 시간에 따라 성능이 저하되는 경우입니다. 앱 실행 중 다른 앱의 성능 저하 역시 메모리 문제를 나타낼 수 있습니다. 메모리 문제를 생각 하는 경우 작업 관리자와 같은 도구를 사용 하거나 [Windows 성능 모니터](https://technet.microsoft.com/library/cc749249.aspx) 추가로 조사 합니다. 예를 들어 메모리 누수의 가능한 원인으로 설명할 수 없는 메모리의 총 크기 증가를 찾습니다.  
   
  ![리소스 모니터의 지속적인 메모리 증가](../misc/media/mngdmem-resourcemanagerconsistentgrowth.png "MNGDMEM_ResourceManagerConsistentGrowth")  
   
@@ -56,7 +56,7 @@ ms.locfileid: "63444661"
  ![리소스 관리자의 메모리 스파이크](../misc/media/mngdmem-resourcemanagerspikes.png "MNGDMEM_ResourceManagerSpikes")  
   
 ## <a name="BKMK_Collect_memory_snapshots"></a> 메모리 스냅숏 수집  
- 정보를 분석 하는 메모리 분석 도구 *덤프 파일* 힙 정보가 포함 된 합니다. Visual Studio에서 덤프 파일을 만들 수 있습니다 또는 같은 도구를 사용할 수 있습니다 [ProcDump](http://technet.microsoft.com/sysinternals/dd996900.aspx) 에서 [Windows Sysinternals](http://technet.microsoft.com/sysinternals)합니다. 참조 [덤프는 이란 무엇 이며 어떻게 만드나요?](http://blogs.msdn.com/b/debugger/archive/2009/12/30/what-is-a-dump-and-how-do-i-create-one.aspx) Visual Studio 디버거 팀 블로그.  
+ 정보를 분석 하는 메모리 분석 도구 *덤프 파일* 힙 정보가 포함 된 합니다. Visual Studio에서 덤프 파일을 만들 수 있습니다 또는 같은 도구를 사용할 수 있습니다 [ProcDump](https://technet.microsoft.com/sysinternals/dd996900.aspx) 에서 [Windows Sysinternals](https://technet.microsoft.com/sysinternals)합니다. 참조 [덤프는 이란 무엇 이며 어떻게 만드나요?](http://blogs.msdn.com/b/debugger/archive/2009/12/30/what-is-a-dump-and-how-do-i-create-one.aspx) Visual Studio 디버거 팀 블로그.  
   
 > [!NOTE]
 > 대부분의 도구는 전체 힙 메모리 데이터가 포함되거나 포함되지 않은 덤프 정보를 수집할 수 있습니다. Visual Studio 메모리 분석기는 전체 힙 정보가 필요합니다.  

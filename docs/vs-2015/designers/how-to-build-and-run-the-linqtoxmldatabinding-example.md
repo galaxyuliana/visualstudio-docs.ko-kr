@@ -9,19 +9,19 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 612ef2485b0ef8b666833470e980667da16c2a97
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: bebaeba2cc6f74a3ddbf059ca802252ad0bab6cf
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099119"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696148"
 ---
 # <a name="how-to-build-and-run-the-linqtoxmldatabinding-example"></a>방법: LinqToXmlDataBinding 예제 빌드 및 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 항목에서는 LinqToXmlDataBinding Visual Studio 프로젝트를 만들고 실행하는 방법과 생성되는 LinqToXmlDataBinding WPF(Windows Presentation Foundation) 예제 프로그램을 실행하는 방법을 보여 줍니다.  
   
- Visual Studio를 사용하여 프로젝트를 만드는 방법에 대한 자세한 내용은 [Visual Studio에서 애플리케이션 개발](http://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)을 참조하세요.  
+ Visual Studio를 사용하여 프로젝트를 만드는 방법에 대한 자세한 내용은 [Visual Studio에서 애플리케이션 개발](https://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)을 참조하세요.  
   
 ## <a name="creating-and-populating-the-project"></a>프로젝트 만들기 및 채우기  
   
@@ -79,4 +79,4 @@ ms.locfileid: "60099119"
 ## <a name="see-also"></a>참고 항목  
  [LINQ to XML 예제를 사용한 WPF 데이터 바인딩](../designers/wpf-data-binding-using-linq-to-xml-example.md)   
  [연습: LinqToXmlDataBinding 예제](../designers/walkthrough-linqtoxmldatabinding-example.md)   
- [Visual Studio에서 응용 프로그램 개발](http://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)
+ [Visual Studio에서 응용 프로그램 개발](https://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)

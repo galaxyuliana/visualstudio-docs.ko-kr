@@ -10,19 +10,19 @@ ms.assetid: 81a58e40-7cd0-4ef4-a475-c4e1e84d6e06
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: bb8270de3635b6a9d28a6bf550b29a014d0fed9f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: dbd97310163a4eb3ae5502c6341dc73322ca653d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63432541"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685275"
 ---
 # <a name="registering-verbs-for-file-name-extensions"></a>파일 이름 확장명에 대한 동사 등록
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 응용 프로그램의 파일 이름 확장명을 연결에는 일반적으로 사용자가 파일을 두 번 클릭할 때 발생 하는 기본 작업이 있습니다. 이 작업 동사 예를 들어 열기 작업에 해당 하는 연결 된 것이 좋습니다.  
   
- HKEY_CLASSES_ROOT에 있는 셸 키를 사용 하 여 확장에 대 한 프로그래밍 방식 식별자 (ProgID)을 사용 하 여 연결 된 동사를 등록할 수 있습니다\\*progid*\shell 합니다. 자세한 내용은 [파일 형식](http://msdn.microsoft.com/library/windows/desktop/cc144148\(v=vs.85\).aspx)합니다.  
+ HKEY_CLASSES_ROOT에 있는 셸 키를 사용 하 여 확장에 대 한 프로그래밍 방식 식별자 (ProgID)을 사용 하 여 연결 된 동사를 등록할 수 있습니다\\*progid*\shell 합니다. 자세한 내용은 [파일 형식](https://msdn.microsoft.com/library/windows/desktop/cc144148\(v=vs.85\).aspx)합니다.  
   
 ## <a name="registering-standard-verbs"></a>표준 동사 등록  
  운영 체제는 다음 표준 동사를 인식합니다.  

@@ -12,12 +12,12 @@ ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
 caps.latest.revision: 24
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: b4709cc5f011dd55445583c46dd96894b979647c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b6d44e99b584ec347abd407753f965170658969b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63435544"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685421"
 ---
 # <a name="creating-a-basic-project-system-part-2"></a>기본 프로젝트 시스템 만들기, 2부
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -281,7 +281,7 @@ ZipProjects:
   
 - $safeprojectname $는 사용자가 제공한 이름 합니다 **새 프로젝트** 대화 상자에서 모든 안전 하지 않은 문자 및 공백을 제거 하도록 수정 합니다.  
   
-  템플릿 매개 변수의 전체 목록은 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.  사용자 고유의 사용자 지정 템플릿 매개 변수를 만들려는 경우 참조 [NIB: 방법: 템플릿 사용자 지정 매개 변수를 전달할](http://msdn.microsoft.com/5bc2ad11-84c7-4683-a276-e5e00d85d8fb)합니다.  
+  템플릿 매개 변수의 전체 목록은 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.  사용자 고유의 사용자 지정 템플릿 매개 변수를 만들려는 경우 참조 [NIB: 방법: 템플릿 사용자 지정 매개 변수를 전달할](https://msdn.microsoft.com/5bc2ad11-84c7-4683-a276-e5e00d85d8fb)합니다.  
   
 #### <a name="to-substitute-project-template-parameters"></a>프로젝트 템플릿 매개 변수를 대체 합니다.  
   

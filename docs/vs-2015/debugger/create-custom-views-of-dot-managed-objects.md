@@ -24,12 +24,12 @@ caps.latest.revision: 37
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fbbfbe17fa5dfb9a10f530981643be7a0042d6fc
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: cb5b56404c7ddc99b7999b47cf3c2a899f915efd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63440444"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65702412"
 ---
 # <a name="create-custom-views-of-managed-objects"></a>관리 되는 개체의 사용자 지정 뷰 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,10 +50,10 @@ Visual Studio에서 디버거 변수 창에 데이터 형식이 표시되는 방
 > [!CAUTION]
 > 이 파일의 구조와 autoexp 규칙의 구문은 Visual Studio 릴리스마다 다를 수 있습니다.  
   
- 또한 식 계산기 추가 기능을 작성하여 네이티브 형식 뷰를 사용자 지정할 수도 있습니다. 자세한 내용은 참조 하세요. [EEAddIn 샘플: 디버깅 식 계산기 추가 기능에서](http://msdn.microsoft.com/d4f6b068-c812-45bc-9ec0-7e0363c4bb9e)합니다.  
+ 또한 식 계산기 추가 기능을 작성하여 네이티브 형식 뷰를 사용자 지정할 수도 있습니다. 자세한 내용은 참조 하세요. [EEAddIn 샘플: 디버깅 식 계산기 추가 기능에서](https://msdn.microsoft.com/d4f6b068-c812-45bc-9ec0-7e0363c4bb9e)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [DebuggerTypeProxy 특성 사용](../debugger/using-debuggertypeproxy-attribute.md)   
  [DebuggerDisplay 특성 사용](../debugger/using-the-debuggerdisplay-attribute.md)   
  [조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)   
- [디버거 표시 특성을 사용하여 디버깅 향상](http://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)
+ [디버거 표시 특성을 사용하여 디버깅 향상](https://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)

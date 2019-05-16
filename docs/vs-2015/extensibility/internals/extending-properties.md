@@ -10,19 +10,19 @@ ms.assetid: 68e2cbd4-861c-453f-8c9f-4ab6afc80e67
 caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 59afc6a95e327460602ece8db58f075b483d0e09
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b5d2e7d15f7b479941c3186d8cd694c92f762bbf
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62538303"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690992"
 ---
 # <a name="extending-properties"></a>속성 확장
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 합니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] **속성** 창은 COM 및 COM + 구성 요소에 대 한 유니버설 속성 브라우저를 모두 지원 하며 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 제품입니다. 합니다 **속성** 창을 사용 하 여 작동 `ITypeInfo` 정보 및 COM + 통합된 개발 환경 (IDE)에서 다른 창에서 현재 선택한 개체에 대 한 디자인 타임 속성을 나열 하려면 메타 데이터를 입력 합니다.  
   
- 합니다 **속성** F4 키를 누르거나 바로 가기 키를 선택 하 여 열 수 있는 창 **속성 창** 에 **보기** 메뉴는 보기 및 편집 하는 데 사용 됩니다 구성에 관계 없이, 디자인 타임 속성 및 선택한 개체의 이벤트입니다. 솔루션 및 프로젝트와 관련 된 구성에 종속 된 속성에 표시 됩니다 [속성 페이지](../../extensibility/internals/property-pages.md)합니다. 자세한 내용은 [NIB: 프로젝트 속성](http://msdn.microsoft.com/fb126574-24ad-4c96-9b2b-6e1f3879ba50)를 [구성 옵션 관리](../../extensibility/internals/managing-configuration-options.md), 및 [NIB: 항목 관리 프로젝트에서](http://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)합니다.  
+ 합니다 **속성** F4 키를 누르거나 바로 가기 키를 선택 하 여 열 수 있는 창 **속성 창** 에 **보기** 메뉴는 보기 및 편집 하는 데 사용 됩니다 구성에 관계 없이, 디자인 타임 속성 및 선택한 개체의 이벤트입니다. 솔루션 및 프로젝트와 관련 된 구성에 종속 된 속성에 표시 됩니다 [속성 페이지](../../extensibility/internals/property-pages.md)합니다. 자세한 내용은 [NIB: 프로젝트 속성](https://msdn.microsoft.com/fb126574-24ad-4c96-9b2b-6e1f3879ba50)를 [구성 옵션 관리](../../extensibility/internals/managing-configuration-options.md), 및 [NIB: 항목 관리 프로젝트에서](https://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)합니다.  
   
  ![속성 창 개요](../../extensibility/internals/media/vspropertieswindow.png "vsPropertiesWindow")  
 속성 창  
@@ -70,19 +70,19 @@ ms.locfileid: "62538303"
  [컴파일 및 빌드](../../ide/compiling-and-building-in-visual-studio.md)  
  사용 하는 방법에 대해 설명 합니다 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 지속적으로 테스트 및 빌드하 응용 프로그램을 디버깅 하기 위한 플랫폼입니다.  
   
- [HTML 문서 속성, 속성 창](http://msdn.microsoft.com/library/46e3d164-a1a7-42f9-87b0-344e10a37b62)  
+ [HTML 문서 속성, 속성 창](https://msdn.microsoft.com/library/46e3d164-a1a7-42f9-87b0-344e10a37b62)  
  속성 창에서 직접 HTML 문서를 편집 하는 것에 대 한 지침을 제공 하 고 속성 창에서 HTML 문서에서 필드를 보여 주는 표가 제공 합니다.  
   
- [IDispatch](http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)  
+ [IDispatch](https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)  
  에 대해 설명 합니다 `IDispatch` 먼저 automation에 액세스 하 고 메서드 및 개체의 속성에 대 한 정보를 검색 하는 런타임에 바인딩된 메커니즘을 제공을 지원 하도록 설계 된 인터페이스.  
   
- [NIB: 동적 속성 (Visual Studio) 소개](http://msdn.microsoft.com/f5102027-1431-4195-ae40-9b991de46d3a)  
+ [NIB: 동적 속성 (Visual Studio) 소개](https://msdn.microsoft.com/f5102027-1431-4195-ae40-9b991de46d3a)  
  속성 값은 응용 프로그램의 컴파일된 코드는 대신 외부 구성 파일에 저장 되므로 응용 프로그램을 구성할 수 있는 동적 속성에 간략하게 설명 합니다.  
   
- [NIB: 컨테이너로 서의 프로젝트](http://msdn.microsoft.com/87d40f63-f487-4767-8963-64beec27ba1b)  
+ [NIB: 컨테이너로 서의 프로젝트](https://msdn.microsoft.com/87d40f63-f487-4767-8963-64beec27ba1b)  
  논리적으로 관리, 빌드 및 응용 프로그램을 구성 하는 항목을 디버그 하기 위해 솔루션의 컨테이너로 프로젝트의 역할을 설명 합니다.  
   
- [NIB: 프로젝트 속성](http://msdn.microsoft.com/fb126574-24ad-4c96-9b2b-6e1f3879ba50)  
+ [NIB: 프로젝트 속성](https://msdn.microsoft.com/fb126574-24ad-4c96-9b2b-6e1f3879ba50)  
  프로젝트 설정을 사용 하면 전체 프로젝트에 적용 되는 컨트롤 속성 및 프로젝트의 특정 빌드 구성에만 적용 되는 속성을 관리 하는 방법을 설명 합니다.  
   
  [솔루션 및 프로젝트](../../ide/solutions-and-projects-in-visual-studio.md)  

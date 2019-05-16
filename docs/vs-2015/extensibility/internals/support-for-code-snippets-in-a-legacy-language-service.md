@@ -12,12 +12,12 @@ ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
 caps.latest.revision: 29
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e3fa0eaa6a0b301914f0ea908ef1222d1b342f5c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 33218dd8fe7cee4a6700dcb289719ffae932bbe0
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63408459"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691782"
 ---
 # <a name="support-for-code-snippets-in-a-legacy-language-service"></a>레거시 언어 서비스의 코드 조각 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -117,7 +117,7 @@ ms.locfileid: "63408459"
 ### <a name="inserting-a-code-snippet-by-using-a-menu-command"></a>메뉴 명령을 사용 하 여 코드 조각 삽입  
  메뉴 명령의 사용 하 여 코드 조각을 브라우저를 표시 하려면 메뉴 명령을 추가 하 고이 호출 합니다 <xref:Microsoft.VisualStudio.Package.ExpansionProvider.DisplayExpansionBrowser%2A> 에서 메서드를 <xref:Microsoft.VisualStudio.Package.ExpansionProvider> 인터페이스는 메뉴 명령에 응답에서 합니다.  
   
-1. .Vsct 파일에 명령 및 단추를 추가 합니다. 작업을 수행 하는 지침을 찾을 수 있습니다 [연습: Visual Studio 패키지 템플릿을 사용 하 여 메뉴 명령 만들기](http://msdn.microsoft.com/library/1985fa7d-aad4-4866-b356-a125b6a246de)합니다.  
+1. .Vsct 파일에 명령 및 단추를 추가 합니다. 작업을 수행 하는 지침을 찾을 수 있습니다 [연습: Visual Studio 패키지 템플릿을 사용 하 여 메뉴 명령 만들기](https://msdn.microsoft.com/library/1985fa7d-aad4-4866-b356-a125b6a246de)합니다.  
   
 2. 클래스를 파생 합니다 <xref:Microsoft.VisualStudio.Package.ViewFilter> 클래스를 재정의 <xref:Microsoft.VisualStudio.Package.ViewFilter.QueryCommandStatus%2A> 메서드 새 메뉴 명령에 대 한 지원을 나타냅니다. 이 예에서는 메뉴 명령에 항상 사용 하도록 설정 합니다.  
   

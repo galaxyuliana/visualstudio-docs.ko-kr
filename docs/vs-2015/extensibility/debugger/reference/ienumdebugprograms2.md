@@ -12,12 +12,12 @@ ms.assetid: 7fbb8fb7-db64-4546-a364-dc668430c8af
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f6d25c9856085938860180bf76a2f634aa651551
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 8d9d1030616fa8d7f3a1bfc6b533c4ed8433ea89
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112015"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703894"
 ---
 # <a name="ienumdebugprograms2"></a>IEnumDebugPrograms2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ IEnumDebugPrograms2 : IUnknown
   
 - 채울 합니다 **모듈** 창 (호출 하 여 [EnumPrograms](../../../extensibility/debugger/reference/idebugprocess2-enumprograms.md) 호출한 [EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md) 각 프로그램에서).  
   
-- 채울 합니다 **프로세스에 연결** 목록 (호출 하 여 `IDebugProcess2::EnumPrograms` 호출한 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 각 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 를얻기위해인터페이스[IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md) 인터페이스).  
+- 채울 합니다 **프로세스에 연결** 목록 (호출 하 여 `IDebugProcess2::EnumPrograms` 호출한 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 각 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 를얻기위해인터페이스[IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md) 인터페이스).  
   
 - 프로세스에서 각 프로그램을 디버그할 수 있는 DEs의 목록을 생성할지 (사용 하 여 [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogram2-getengineinfo.md)).  
   

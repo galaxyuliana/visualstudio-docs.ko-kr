@@ -17,12 +17,12 @@ caps.latest.revision: 42
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7d598cc245421aafb05cbf91fe2b7a95e39564a2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 33ce391523a256bcb195deccf0c14868b5eae707
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444328"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683088"
 ---
 # <a name="walkthrough-debugging-a-multithreaded-application"></a>연습: 다중 스레드 응용 프로그램 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "63444328"
   
      새 콘솔 프로젝트가 나타납니다. 프로젝트가 만들어지면 소스 파일이 나타납니다. 선택한 언어에 따라 소스 파일 이름이 Module1.vb, Program.cs 또는 MyThreadWalkthroughApp.cpp일 수 있습니다.  
   
-6. 소스 파일에 표시 되는 코드를 삭제 하 고 항목의 "스레드 만들기" 섹션에 나타나는 예제 코드로 바꿉니다 [스레드 만들기 및 시작 시 데이터 전달](http://msdn.microsoft.com/library/52b32222-e185-4f42-91a7-eaca65c0ab6d)합니다.  
+6. 소스 파일에 표시 되는 코드를 삭제 하 고 항목의 "스레드 만들기" 섹션에 나타나는 예제 코드로 바꿉니다 [스레드 만들기 및 시작 시 데이터 전달](https://msdn.microsoft.com/library/52b32222-e185-4f42-91a7-eaca65c0ab6d)합니다.  
   
 7. **파일** 메뉴에서 **모두 저장**을 클릭합니다.  
   

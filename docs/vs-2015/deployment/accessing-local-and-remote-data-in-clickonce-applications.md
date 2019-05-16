@@ -16,12 +16,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 95f863a8b33f6cbff7e592b0a7a45e664494d826
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1ce6b6ee633e926709b0c15c2234077055600a07
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63427244"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688123"
 ---
 # <a name="accessing-local-and-remote-data-in-clickonce-applications"></a>ClickOnce 애플리케이션의 로컬 및 원격 데이터 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -77,7 +77,7 @@ ms.locfileid: "63427244"
   
  격리된 저장소는 모든 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전에서 작동합니다. 격리된 저장소는 추가적인 권한을 부여할 필요 없이 부분적으로 신뢰할 수 있는 애플리케이션에서도 작동합니다. 애플리케이션이 부분 신뢰로 실행되어야 하지만 애플리케이션 특정 데이터를 유지 관리해야 하면 격리된 저장소를 사용해야 합니다.  
   
- 자세한 내용은 [격리된 스토리지](http://msdn.microsoft.com/library/aff939d7-9e49-46f2-a8cd-938d3020e94e)를 참조하세요.  
+ 자세한 내용은 [격리된 스토리지](https://msdn.microsoft.com/library/aff939d7-9e49-46f2-a8cd-938d3020e94e)를 참조하세요.  
   
 ### <a name="other-local-files"></a>기타 로컬 파일  
  애플리케이션이 보고서, 이미지, 음악 등의 최종 사용자 데이터를 사용하거나 저장해야 하면 애플리케이션에는 로컬 파일 시스템에서 데이터를 읽고 쓸 수 있는 <xref:System.Security.Permissions.FileIOPermission> 이 필요합니다.  
@@ -86,7 +86,7 @@ ms.locfileid: "63427244"
  나중에 애플리케이션이 원격 웹 사이트에서 고객 데이터나 시장 정보와 같은 정보를 검색해야 할 수 있습니다. 이 섹션에서는 원격 데이터를 검색하는 가장 일반적인 방법을 설명합니다.  
   
 ### <a name="accessing-files-by-using-http"></a>HTTP를 사용하여 파일에 액세스  
- <xref:System.Net.WebClient> 네임스페이스의 <xref:System.Net.HttpWebRequest> 또는 <xref:System.Net> 클래스를 사용하여 웹 서버에서 데이터에 액세스할 수 있습니다. 데이터는 정적 파일이거나 원시 텍스트 또는 XML 데이터를 반환하는 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 애플리케이션일 수 있습니다. 데이터가 XML 형식이면 포함된 <xref:System.Xml.XmlDocument> 메서드가 URL을 인수로 사용하는 <xref:System.Xml.XmlDocument.Load%2A> 클래스를 사용하여 데이터를 가장 빠르게 검색할 수 있습니다. 예제를 보려면 [Reading an XML Document into the DOM](http://msdn.microsoft.com/library/a4fb291f-5630-49ba-a49a-5b66c3b71e49)를 참조하십시오.  
+ <xref:System.Net.WebClient> 네임스페이스의 <xref:System.Net.HttpWebRequest> 또는 <xref:System.Net> 클래스를 사용하여 웹 서버에서 데이터에 액세스할 수 있습니다. 데이터는 정적 파일이거나 원시 텍스트 또는 XML 데이터를 반환하는 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 애플리케이션일 수 있습니다. 데이터가 XML 형식이면 포함된 <xref:System.Xml.XmlDocument> 메서드가 URL을 인수로 사용하는 <xref:System.Xml.XmlDocument.Load%2A> 클래스를 사용하여 데이터를 가장 빠르게 검색할 수 있습니다. 예제를 보려면 [Reading an XML Document into the DOM](https://msdn.microsoft.com/library/a4fb291f-5630-49ba-a49a-5b66c3b71e49)를 참조하십시오.  
   
  애플리케이션이 HTTP를 통해 원격 데이터에 액세스할 경우 보안을 고려해야 합니다. 기본적으로 애플리케이션 배포 방법에 따라 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 애플리케이션의 네트워크 리소스 액세스가 제한될 수 있습니다. 악의적인 프로그램이 권한 있는 원격 데이터에 액세스하지 못하도록 차단하거나 사용자 컴퓨터를 사용하여 네트워크의 다른 컴퓨터를 공격하지 못하도록 차단하기 위해 이러한 제한이 적용됩니다.  
   

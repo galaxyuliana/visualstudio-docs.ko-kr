@@ -13,19 +13,21 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: a17db8fbdb281139ba095070130e6c608954b5a7
-ms.sourcegitcommit: 62f42113ae4dae1ddfff1c4e02445acc09913445
+ms.openlocfilehash: 555017cc49beba849ba9008c52950a70cd067a73
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "64878179"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65676289"
 ---
-# <a name="how-to-configure-code-analysis-for-a-managed-code-project"></a>방법: 관리 코드 프로젝트에 대한 코드 분석 구성
+# <a name="how-to-configure-static-code-analysis-for-managed-code"></a>방법: 관리 코드에 대 한 정적 코드 분석 구성
 
 Visual Studio에서 코드 분석의 목록에서 선택할 수 있습니다 [규칙 집합](../code-quality/rule-set-reference.md) 관리 코드 프로젝트에 적용 합니다. 기본적으로 **Microsoft 최소 권장 규칙** 규칙 집합 선택 되어 있지만 원하는 경우 설정 하는 다른 규칙을 적용할 수 있습니다. 솔루션의 프로젝트에 하나 이상의 규칙 집합을 적용할 수 있습니다.
 
-> [!TIP]
-> ASP.NET 웹 응용 프로그램에 대해 설정 하는 규칙을 구성 하는 방법에 대 한 정보를 참조 하세요. [방법: ASP.NET 웹 응용 프로그램에 대 한 코드 분석 구성](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md)합니다.
+ASP.NET 웹 응용 프로그램에 대해 설정 하는 규칙을 구성 하는 방법에 대 한 정보를 참조 하세요. [방법: ASP.NET 웹 응용 프로그램에 대 한 코드 분석 구성](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md)합니다.
+
+> [!NOTE]
+> 이 문서에 적용 됩니다 정적 코드 분석 되지 않습니다 [Roslyn 분석기](use-roslyn-analyzers.md), 빌드 후 코드 분석을 실행 하지는 합니다.
 
 ## <a name="to-configure-a-rule-set-for-a-net-framework-project"></a>.NET Framework 프로젝트에 대해 설정 하는 규칙을 구성 하려면
 

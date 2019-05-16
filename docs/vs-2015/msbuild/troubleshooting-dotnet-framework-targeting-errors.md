@@ -18,12 +18,12 @@ caps.latest.revision: 32
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7795a5577a385542828a3d7c14670696f630544d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: ae55e34f929acca6c708dfc39477f3bd6546f53f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430445"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703783"
 ---
 # <a name="troubleshooting-net-framework-targeting-errors"></a>.NET Framework 대상 지정 오류 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,6 +58,6 @@ ms.locfileid: "63430445"
   
 ## <a name="see-also"></a>참고 항목  
  [방법: .NET Framework의 버전 대상](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
- [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)   
+ [.NET Framework Client Profile](https://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)   
  [특정 .NET Framework 버전을 대상으로 지정](../ide/targeting-a-specific-dotnet-framework-version.md)   
  [멀티 타기팅](../msbuild/msbuild-multitargeting-overview.md)

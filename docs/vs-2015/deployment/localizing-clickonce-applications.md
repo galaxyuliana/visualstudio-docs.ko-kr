@@ -22,12 +22,12 @@ caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 1b57f3de72272e8d1ecc567b150d073cd8d69611
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3c29bd6a58d510d98f2a08c96d0cd0bc774e197e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443781"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65679988"
 ---
 # <a name="localizing-clickonce-applications"></a>ClickOnce 응용 프로그램 지역화
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "63443781"
  이 접근 방법의 장점은 단일 배포를 만들고 지역화된 배포 과정을 단순화한다는 점입니다. 런타임에 사용자 Windows 운영 체제의 기본 문화권에 따라 해당 위성 어셈블리가 사용됩니다. 이 접근 방법의 단점은 클라이언트 컴퓨터에서 응용 프로그램이 설치되거나 업데이트될 때마다 모든 위성 어셈블리를 다운로드한다는 점입니다. 응용 프로그램에 많은 문자열이 포함되거나 고객의 네트워크 연결 속도가 느리면 응용 프로그램 업데이트 중에 이 프로세스가 성능에 영향을 미칠 수 있습니다.  
   
 > [!NOTE]
-> 이 접근 방법에서는 응용 프로그램이 컨트롤의 높이, 너비 및 위치를 다양한 문화권의 다양한 텍스트 문자열 크기에 맞게 자동으로 조정한다고 가정합니다. Windows Forms에는 <xref:System.Windows.Forms.FlowLayoutPanel> 및 <xref:System.Windows.Forms.TableLayoutPanel> 컨트롤과 <xref:System.Windows.Forms.Control.AutoSize%2A> 속성을 포함하여 양식을 쉽게 지역화할 수 있도록 디자인하는 데 사용되는 다양한 컨트롤 및 기술이 포함됩니다.  또한 참조 [방법: AutoSize 속성과 TableLayoutPanel 컨트롤을 사용 하 여 Windows Forms 지역화 지원](http://msdn.microsoft.com/library/1zkt8b33\(v=vs.110\))합니다.  
+> 이 접근 방법에서는 응용 프로그램이 컨트롤의 높이, 너비 및 위치를 다양한 문화권의 다양한 텍스트 문자열 크기에 맞게 자동으로 조정한다고 가정합니다. Windows Forms에는 <xref:System.Windows.Forms.FlowLayoutPanel> 및 <xref:System.Windows.Forms.TableLayoutPanel> 컨트롤과 <xref:System.Windows.Forms.Control.AutoSize%2A> 속성을 포함하여 양식을 쉽게 지역화할 수 있도록 디자인하는 데 사용되는 다양한 컨트롤 및 기술이 포함됩니다.  또한 참조 [방법: AutoSize 속성과 TableLayoutPanel 컨트롤을 사용 하 여 Windows Forms 지역화 지원](https://msdn.microsoft.com/library/1zkt8b33\(v=vs.110\))합니다.  
   
 ## <a name="generate-one-deployment-for-each-culture"></a>각 문화권에 대해 하나의 단일 배포 생성  
  이 배포 전략에서는 여러 배포를 생성합니다. 각 배포에는 특정 문화권에 필요한 위성 어셈블리만 포함하고 배포를 해당 문화권과 관련된 것으로 표시합니다.  
@@ -70,7 +70,7 @@ ms.locfileid: "63443781"
   
  요청 시 위성 어셈블리 다운로드는 요청 시 기타 유형 어셈블리를 다운로드하는 것과 약간 다릅니다. 사용 하 여이 시나리오를 사용 하도록 설정 하는 방법에 자세한 내용과 코드 예제는 [!INCLUDE[winsdkshort](../includes/winsdkshort-md.md)] 에 대 한 도구 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]를 참조 하세요 [연습: ClickOnce 배포 API 사용 하 여 요청 시 위성 어셈블리 다운로드](../deployment/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md)합니다.  
   
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 이 시나리오를 사용하도록 설정할 수도 있습니다.  또한 참조 [연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 위성 어셈블리 다운로드](http://msdn.microsoft.com/library/ms366788\(v=vs.110\)) 또는 [연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 위성 어셈블리 다운로드](http://msdn.microsoft.com/library/ms366788\(v=vs.120\))합니다.  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 이 시나리오를 사용하도록 설정할 수도 있습니다.  또한 참조 [연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 위성 어셈블리 다운로드](https://msdn.microsoft.com/library/ms366788\(v=vs.110\)) 또는 [연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 위성 어셈블리 다운로드](https://msdn.microsoft.com/library/ms366788\(v=vs.120\))합니다.  
   
 ## <a name="testing-localized-clickonce-applications-before-deployment"></a>배포하기 전에 지역화된 ClickOnce 응용 프로그램 테스트  
  위성 어셈블리는 응용 프로그램의 주 스레드에 대한 <xref:System.Threading.Thread.CurrentUICulture%2A> 속성이 위성 어셈블리의 문화권으로 설정된 경우에만 Windows Forms 응용 프로그램에 사용됩니다. 로컬 시장의 고객은 이미 문화권이 해당 기본값으로 설정된 지역화된 Windows 버전을 실행하고 있을 수 있습니다.  
@@ -84,4 +84,4 @@ ms.locfileid: "63443781"
 ## <a name="see-also"></a>참고 항목  
  [\<assemblyIdentity > 요소](../deployment/assemblyidentity-element-clickonce-deployment.md)   
  [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)   
- [Windows Forms 전역화](http://msdn.microsoft.com/library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)
+ [Windows Forms 전역화](https://msdn.microsoft.com/library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)

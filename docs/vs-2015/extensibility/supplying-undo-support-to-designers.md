@@ -10,12 +10,12 @@ ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 9118cbe3f4a8dcee443eca8b3fa5fb9a7664fd41
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 6136caaec0cb8f0d79e3fb7b96245fc3fd070710
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049310"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675334"
 ---
 # <a name="supplying-undo-support-to-designers"></a>디자이너에 실행 취소 지원 제공
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60049310"
   
 - 구현 하 여 제공 지 속성 및 CodeDOM을 지원 합니다 <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> 및 <xref:System.ComponentModel.Design.IComponentChangeService> 클래스입니다.  
   
-  디자이너를 사용 하 여 작성 하는 방법은 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]를 참조 하세요 [디자인 타임 지원 확장](http://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)합니다.  
+  디자이너를 사용 하 여 작성 하는 방법은 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]를 참조 하세요 [디자인 타임 지원 확장](https://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)합니다.  
   
   [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] 에서 기본 실행 취소 인프라를 제공 합니다.  
   
@@ -45,7 +45,7 @@ ms.locfileid: "60049310"
   
 - 코드 생성 및 지 속성에 대 한 표준 CodeDOM 기반 코드 생성 및 구문 분석 시스템을 사용합니다.  
   
-     Visual Studio CodeDOM 지원 사용 하 여 작업에 대 한 자세한 내용은 참조 하세요. [동적 소스 코드 생성 및 컴파일](http://msdn.microsoft.com/library/d077a3e8-bd81-4bdf-b6a3-323857ea30fb)  
+     Visual Studio CodeDOM 지원 사용 하 여 작업에 대 한 자세한 내용은 참조 하세요. [동적 소스 코드 생성 및 컴파일](https://msdn.microsoft.com/library/d077a3e8-bd81-4bdf-b6a3-323857ea30fb)  
   
 ## <a name="when-to-use-explicit-designer-undo-support"></a>명시적 디자이너 실행 취소 기능을 사용 하는 경우  
  디자이너 뷰 어댑터를 제공한 것 이외의 라고 그래픽 사용자 인터페이스를 사용 하는 경우 자체 실행 취소 관리를 제공 해야 <xref:System.Windows.Forms.Control>합니다.  
@@ -105,4 +105,4 @@ ms.locfileid: "60049310"
 ## <a name="see-also"></a>참고 항목  
  <xref:System.ComponentModel.Design.UndoEngine>   
  <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>   
- [디자인 타임 지원 확장](http://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)
+ [디자인 타임 지원 확장](https://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)

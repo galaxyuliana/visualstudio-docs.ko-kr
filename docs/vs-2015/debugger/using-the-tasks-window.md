@@ -18,21 +18,21 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: cdf7c5fe724ff4b043ca304eee3e5e0f31b0dd85
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 267a04e0d717bde311423aae7f35fba07ca6f39b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437703"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65684031"
 ---
 # <a name="using-the-tasks-window"></a>작업 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-**작업** 창은 **스레드** 창과 비슷하지만, 각 스레드 대신 <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](http://msdn.microsoft.com/library/b4af5b28-227d-4488-8194-0a0d039173b7) 또는 [WinJS.Promise](http://msdn.microsoft.com/library/windows/apps/br211867.aspx) 개체에 대한 정보가 표시된다는 점이 다릅니다. 스레드와 마찬가지로, 작업은 동시에 실행할 수 있는 비동기 작업을 나타내지만 여러 작업이 같은 스레드에서 실행될 수도 있습니다. 참조 [JavaScript (Windows 스토어 앱)의 비동기 프로그래밍](http://msdn.microsoft.com/library/windows/apps/hh700330.aspx) 자세한 내용은 합니다.  
+**작업** 창은 **스레드** 창과 비슷하지만, 각 스레드 대신 <xref:System.Threading.Tasks.Task?displayProperty=fullName>, [task_handle](https://msdn.microsoft.com/library/b4af5b28-227d-4488-8194-0a0d039173b7) 또는 [WinJS.Promise](https://msdn.microsoft.com/library/windows/apps/br211867.aspx) 개체에 대한 정보가 표시된다는 점이 다릅니다. 스레드와 마찬가지로, 작업은 동시에 실행할 수 있는 비동기 작업을 나타내지만 여러 작업이 같은 스레드에서 실행될 수도 있습니다. 참조 [JavaScript (Windows 스토어 앱)의 비동기 프로그래밍](https://msdn.microsoft.com/library/windows/apps/hh700330.aspx) 자세한 내용은 합니다.  
   
- 관리 코드에서 <xref:System.Threading.Tasks.Task?displayProperty=fullName> 개체 또는 **await** 및 **async** 키워드(Visual Basic에서는 **Await** 및 **Async**)로 작업할 때 **작업** 창을 사용할 수 있습니다. 관리 코드의 작업에 대 한 자세한 내용은 참조 하세요. [병렬 프로그래밍](http://msdn.microsoft.com/library/4d83c690-ad2d-489e-a2e0-b85b898a672d)합니다.  
+ 관리 코드에서 <xref:System.Threading.Tasks.Task?displayProperty=fullName> 개체 또는 **await** 및 **async** 키워드(Visual Basic에서는 **Await** 및 **Async**)로 작업할 때 **작업** 창을 사용할 수 있습니다. 관리 코드의 작업에 대 한 자세한 내용은 참조 하세요. [병렬 프로그래밍](https://msdn.microsoft.com/library/4d83c690-ad2d-489e-a2e0-b85b898a672d)합니다.  
   
- 네이티브 코드에서 [작업 그룹](http://msdn.microsoft.com/library/42f05ac3-2098-494a-ba84-737fcdcad077), [병렬 알고리즘](http://msdn.microsoft.com/library/045dca7b-4d73-4558-a44c-383b88a28473), [비동기 에이전트](http://msdn.microsoft.com/library/6cf6ccc6-87f1-4e14-af15-ea8ba58fef1a) 및 [간단한 작업](http://msdn.microsoft.com/library/9aba278c-e0c9-4ede-b7c6-fedf7a365d90)으로 작업할 때 **작업** 창을 사용할 수 있습니다. 네이티브 코드의 작업에 대한 자세한 내용은 [동시성 런타임](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)을 참조하세요.  
+ 네이티브 코드에서 [작업 그룹](https://msdn.microsoft.com/library/42f05ac3-2098-494a-ba84-737fcdcad077), [병렬 알고리즘](https://msdn.microsoft.com/library/045dca7b-4d73-4558-a44c-383b88a28473), [비동기 에이전트](https://msdn.microsoft.com/library/6cf6ccc6-87f1-4e14-af15-ea8ba58fef1a) 및 [간단한 작업](https://msdn.microsoft.com/library/9aba278c-e0c9-4ede-b7c6-fedf7a365d90)으로 작업할 때 **작업** 창을 사용할 수 있습니다. 네이티브 코드의 작업에 대한 자세한 내용은 [동시성 런타임](https://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)을 참조하세요.  
   
  JavaScript에서 promise .then 코드로 작업할 때 작업 창을 사용할 수 있습니다.  
   
@@ -51,7 +51,7 @@ ms.locfileid: "63437703"
 |**플래그**|플래그 설정된 작업이 표시되며 작업에 플래그를 설정하거나 해제할 수 있습니다.|  
 |**아이콘**|노란색 화살표는 현재 작업을 나타냅니다. 현재 작업은 현재 스레드의 최상위 작업입니다.<br /><br /> 흰색 화살표는 중단 작업(디버거가 호출된 현재 작업)을 나타냅니다.<br /><br /> 일시 중지 아이콘은 사용자가 중지한 작업을 나타냅니다. 목록에서 작업을 마우스 오른쪽 단추로 클릭하여 작업을 중지하거나 중지된 작업을 해제할 수 있습니다.|  
 |**ID**|시스템에서 제공한 작업 번호입니다. 네이티브 코드에서는 작업의 주소입니다.|  
-|**Status**|작업의 현재 상태(예약됨, 활성, 교착 상태, 대기 중 또는 완료됨)입니다. 예약된 작업은 아직 실행되지 않은 작업이므로 호출 스택, 할당된 스레드 또는 관련 작업이 없습니다.<br /><br /> 활성 작업은 디버거를 시작하기 전에 코드를 실행 중이던 작업입니다.<br /><br /> 대기 중인 작업은 이벤트가 신호를 받거나, 잠금이 해제되거나, 다른 작업이 완료되기를 기다리고 있어서 차단된 작업입니다.<br /><br /> 교차 상태의 작업은 해당 스레드와 다른 스레드 간에 교착 상태가 발생한 대기 중인 작업입니다.<br /><br /> 마우스로 합니다 **상태** 셀 블록에 대 한 자세한 내용은 교착 상태 또는 대기 중인 작업에 대 한 합니다. **경고:**  **작업** 창에서는 WCT(Wait Chain Traversal)에서 지원되는 동기화 기본 형식을 사용하는 차단된 작업에 대해서만 교착 상태가 보고됩니다. 예를 들어,에 대 한 교착 상태가 발생 <xref:System.Threading.Tasks.Task> 디버거 보고 WCT를 사용 하는 개체 **대기-교착 상태**합니다. 동시성 런타임에서 관리되지 않으며 WCT를 사용하지 않는 작업에서 교착 상태가 발생한 경우에는 디버거에서 **대기 중**을 보고합니다. WCT에 대한 자세한 내용은 [Wait Chain Traversal](http://msdn.microsoft.com/library/ms681622\(VS.85\).aspx)을 참조하세요.|  
+|**Status**|작업의 현재 상태(예약됨, 활성, 교착 상태, 대기 중 또는 완료됨)입니다. 예약된 작업은 아직 실행되지 않은 작업이므로 호출 스택, 할당된 스레드 또는 관련 작업이 없습니다.<br /><br /> 활성 작업은 디버거를 시작하기 전에 코드를 실행 중이던 작업입니다.<br /><br /> 대기 중인 작업은 이벤트가 신호를 받거나, 잠금이 해제되거나, 다른 작업이 완료되기를 기다리고 있어서 차단된 작업입니다.<br /><br /> 교차 상태의 작업은 해당 스레드와 다른 스레드 간에 교착 상태가 발생한 대기 중인 작업입니다.<br /><br /> 마우스로 합니다 **상태** 셀 블록에 대 한 자세한 내용은 교착 상태 또는 대기 중인 작업에 대 한 합니다. **경고:**  **작업** 창에서는 WCT(Wait Chain Traversal)에서 지원되는 동기화 기본 형식을 사용하는 차단된 작업에 대해서만 교착 상태가 보고됩니다. 예를 들어,에 대 한 교착 상태가 발생 <xref:System.Threading.Tasks.Task> 디버거 보고 WCT를 사용 하는 개체 **대기-교착 상태**합니다. 동시성 런타임에서 관리되지 않으며 WCT를 사용하지 않는 작업에서 교착 상태가 발생한 경우에는 디버거에서 **대기 중**을 보고합니다. WCT에 대한 자세한 내용은 [Wait Chain Traversal](https://msdn.microsoft.com/library/ms681622\(VS.85\).aspx)을 참조하세요.|  
 |**시작 시간**|작업이 활성화된 시간입니다.|  
 |**기간**|작업이 활성화된 기간(초)입니다.|  
 |**완료 시간**|작업이 완료된 시간입니다.|  
@@ -61,7 +61,7 @@ ms.locfileid: "63437703"
 |**스레드 할당**|작업이 실행 중인 스레드의 ID 및 이름입니다.|  
 |**반환 상태**|작업이 완료되었을 때의 상태입니다. 반환 상태 값은 **성공을**, **Cancelled**, 및 **오류**합니다.|  
 |**AppDomain**|관리 코드의 경우 작업이 실행되고 있는 응용 프로그램 도메인입니다.|  
-|**task_group**|네이티브 코드의 경우 작업을 예약한 [task_group](http://msdn.microsoft.com/library/b4af5b28-227d-4488-8194-0a0d039173b7) 개체의 주소입니다. 비동기 에이전트 및 간단한 작업의 경우 이 열은 0으로 설정됩니다.|  
+|**task_group**|네이티브 코드의 경우 작업을 예약한 [task_group](https://msdn.microsoft.com/library/b4af5b28-227d-4488-8194-0a0d039173b7) 개체의 주소입니다. 비동기 에이전트 및 간단한 작업의 경우 이 열은 0으로 설정됩니다.|  
 |프로세스|작업이 실행 중인 프로세스의 ID입니다.|  
 |비동기 상태|관리 코드의 경우 작업 상태입니다. 기본적으로 이 열은 숨겨집니다. 이 열을 표시하려면 열 머리글 중 하나에 대한 상황에 맞는 메뉴를 엽니다. **열**, **AsyncState**를 선택합니다.|  
   
@@ -95,7 +95,7 @@ ms.locfileid: "63437703"
 ## <a name="see-also"></a>참고 항목  
  [Debugger Basics](../debugger/debugger-basics.md) (디버거 기본 사항)  
  [Debugging Managed Code](../debugger/debugging-managed-code.md) (관리 코드 디버그)  
- [병렬 프로그래밍](http://msdn.microsoft.com/library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   
- [동시성 런타임](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)   
+ [병렬 프로그래밍](https://msdn.microsoft.com/library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   
+ [동시성 런타임](https://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)   
  [병렬 스택 창 사용](../debugger/using-the-parallel-stacks-window.md)   
  [연습: 병렬 애플리케이션 디버깅](../debugger/walkthrough-debugging-a-parallel-application.md)

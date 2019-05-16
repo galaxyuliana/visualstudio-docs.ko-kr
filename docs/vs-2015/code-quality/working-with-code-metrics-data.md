@@ -15,12 +15,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d4d206785991d37147d9d55d89947776a94b2ac4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: b53e6a5c7ce65675037aac8c6fc4812f895d3b7b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60111300"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703719"
 ---
 # <a name="working-with-code-metrics-data"></a>코드 메트릭 데이터 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -124,7 +124,7 @@ ms.locfileid: "60111300"
 ## <a name="BKMK_Creating_a_Work_Item_Based_on_Code_Metric_Results"></a> 코드 메트릭 결과에 따라 작업 항목 만들기  
  만들 수 있습니다는 [!INCLUDE[esprfound](../includes/esprfound-md.md)] 기반으로 하는 작업 항목 결과 **코드 메트릭 결과** 창입니다. 작업 항목이 만들어지면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 제목에 자동으로 입력 합니다 **제목** 필드 및 코드 메트릭 데이터를 **기록** 탭 합니다.  
   
- 작업 항목을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [작업 항목 만들기 &#91;리디렉션&#93;](http://msdn.microsoft.com/24b2e064-16ac-4bf0-8de4-98a1f48b8c4b)합니다.  
+ 작업 항목을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [작업 항목 만들기 &#91;리디렉션&#93;](https://msdn.microsoft.com/24b2e064-16ac-4bf0-8de4-98a1f48b8c4b)합니다.  
   
 #### <a name="to-create-a-work-item-based-on-a-result"></a>결과에 따라 작업 항목을 만들려면  
   

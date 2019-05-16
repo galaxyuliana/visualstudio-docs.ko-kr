@@ -10,17 +10,17 @@ ms.assetid: 97c88693-05ff-499e-8c43-352ee073dcb7
 caps.latest.revision: 40
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4427931b079671a19e647860b263105ffdf52bd4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d14e60ec28fb5f8ba80f9986c4316058539b35e6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63435536"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695018"
 ---
 # <a name="creating-a-settings-category"></a>설정 범주 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 Visual Studio 설정 범주를 만들고 값을 저장 하 고 설정 파일에서 값을 복원 하려면 사용 합니다. 설정 범주는 "사용자 지정 설정 지점;"으로 표시 되는 관련된 속성의 그룹 즉,에서 확인란으로는 **가져오기 및 내보내기 설정을** 마법사. (에서 찾을 수 있습니다 합니다 **도구** 메뉴.) 설정 저장 되거나, 범주로 서 복원 되 고 개별 설정 마법사에 표시 되지 않습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+이 연습에서는 Visual Studio 설정 범주를 만들고 값을 저장 하 고 설정 파일에서 값을 복원 하려면 사용 합니다. 설정 범주는 "사용자 지정 설정 지점;"으로 표시 되는 관련된 속성의 그룹 즉,에서 확인란으로는 **가져오기 및 내보내기 설정을** 마법사. (에서 찾을 수 있습니다 합니다 **도구** 메뉴.) 설정 저장 되거나, 범주로 서 복원 되 고 개별 설정 마법사에 표시 되지 않습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  파생 시켜 설정 범주를 만들면는 <xref:Microsoft.VisualStudio.Shell.DialogPage> 클래스입니다.  
   

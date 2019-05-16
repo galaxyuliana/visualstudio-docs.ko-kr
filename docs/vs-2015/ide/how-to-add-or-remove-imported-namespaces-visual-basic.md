@@ -15,12 +15,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5f660a7b457f8ba70439321d3eb619389e50fe97
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1eb88a5baa09256aa58d3c62b926047df01b32f2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445719"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65700986"
 ---
 # <a name="how-to-add-or-remove-imported-namespaces-visual-basic"></a>방법: 추가 또는 제거 가져온 네임 스페이스 (Visual Basic)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "63445719"
 3. **가져온 네임스페이스** 목록에서 추가할 네임스페이스의 확인란을 선택합니다.  
   
     > [!NOTE]
-    > 가져올 네임스페이스는 참조된 구성 요소에 있어야 합니다. 네임스페이스가 목록에 나타나지 않으면 네임스페이스가 포함된 구성 요소에 참조를 추가해야 합니다. 자세한 내용은 참조 하세요. [NIB 방법: 참조 추가 또는 제거 참조 추가 대화 상자를 사용 하 여](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)입니다.  
+    > 가져올 네임스페이스는 참조된 구성 요소에 있어야 합니다. 네임스페이스가 목록에 나타나지 않으면 네임스페이스가 포함된 구성 요소에 참조를 추가해야 합니다. 자세한 내용은 참조 하세요. [NIB 방법: 참조 추가 또는 제거 참조 추가 대화 상자를 사용 하 여](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)입니다.  
   
 ### <a name="to-remove-an-imported-namespace"></a>가져온 네임스페이스를 제거하려면  
   

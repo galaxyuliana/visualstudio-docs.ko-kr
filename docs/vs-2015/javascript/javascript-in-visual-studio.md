@@ -9,19 +9,19 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b9005b6cf7f23639481505a4727f8faa08241684
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 700417e0cf6bb93c96c0826a7d49d4d0deb7395f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433477"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705785"
 ---
 # <a name="javascript-in-visual-studio"></a>Visual Studio의 JavaScript
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 JavaScript는 Visual Studio의 고급 언어입니다. Visual Studio IDE에서 JavaScript 코드를 작성할 때 대부분 또는 모든 표준 편집 지원(코드 조각, IntelliSense 등)을 사용할 수 있습니다. 여러 애플리케이션 형식 및 서비스에 대해 JavaScript 코드를 작성할 수 있습니다.
 
- JavaScript 언어 참조 문서에 대한 자세한 내용은 [JavaScript](http://msdn.microsoft.com/library/d1et7k7c\(v=vs.94\).aspx)를 참조하세요.
+ JavaScript 언어 참조 문서에 대한 자세한 내용은 [JavaScript](https://msdn.microsoft.com/library/d1et7k7c\(v=vs.94\).aspx)를 참조하세요.
 
  특정 버전의 Visual Studio나 특정 Visual Studio 확장은 HTML 및 JavaScript를 사용하여 특정 애플리케이션 유형 및 서비스를 개발하는 데 필요할 수 있습니다. 다음 목록에 자세한 내용을 볼 수 있는 링크가 있습니다.
 
@@ -29,7 +29,7 @@ JavaScript는 Visual Studio의 고급 언어입니다. Visual Studio IDE에서 J
 
 - [Windows 스토어](http://dev.windows.com/develop), [Windows Phone](http://dev.windows.com/develop) 및 범용 앱(두 플랫폼 모두 지원)을 만들려면 [도구를 다운로드](https://developer.microsoft.com/windows/downloads)합니다.
 
-- 클라우드 기반 서비스를 만들려면 [Microsoft Azure 사이트](http://azure.microsoft.com/documentation/)를 참조하세요.
+- 클라우드 기반 서비스를 만들려면 [Microsoft Azure 사이트](https://azure.microsoft.com/documentation/)를 참조하세요.
 
 - 웹 사이트 및 웹앱을 만들려면 [ASP.NET 사이트를 참조](http://www.asp.net/get-started/websites)하세요.
 

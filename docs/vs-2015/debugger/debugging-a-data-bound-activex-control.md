@@ -18,12 +18,12 @@ caps.latest.revision: 18
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 45a2f6e022c753b0fe543f2265c7ac1961fd474a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6945d1ccf72385b4d2fbe76736668e84b804e446
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970444"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686758"
 ---
 # <a name="debugging-a-data-bound-activex-control"></a>데이터 바인딩된 ActiveX 컨트롤 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,10 +33,10 @@ ms.locfileid: "58970444"
  예를 들어, 대화 상자 기반 MFC 응용 프로그램을 만들고 대화 상자에 데이터 바인딩된 컨트롤과 데이터 소스 컨트롤을 넣을 수 있습니다. 이 MFC 응용 프로그램은 런타임 테스팅 및 데이터 바인딩된 ActiveX 컨트롤을 디버깅하는 컨테이너 실행 파일로 사용할 수 있습니다.  
   
 ## <a name="using-the-test-container"></a>테스트 컨테이너 사용  
- 컨테이너를 쉽게 변경하여 컨트롤이나 컨테이너에 대한 다양한 인터페이스를 사용하려면, Activex Test Container를 디버그 세션의 실행 파일로 사용하십시오. ActiveX Test Container의 **컨테이너** 메뉴에서 **옵션**을 클릭하여 다양한 인터페이스를 사용할 수 있도록 설정합니다. 자세한 내용은 [속성 및 이벤트 테스트 컨테이너를 사용 하 여 테스트](http://msdn.microsoft.com/library/626867cf-fe53-4c30-8973-55bb93ef3917)합니다.  
+ 컨테이너를 쉽게 변경하여 컨트롤이나 컨테이너에 대한 다양한 인터페이스를 사용하려면, Activex Test Container를 디버그 세션의 실행 파일로 사용하십시오. ActiveX Test Container의 **컨테이너** 메뉴에서 **옵션**을 클릭하여 다양한 인터페이스를 사용할 수 있도록 설정합니다. 자세한 내용은 [속성 및 이벤트 테스트 컨테이너를 사용 하 여 테스트](https://msdn.microsoft.com/library/626867cf-fe53-4c30-8973-55bb93ef3917)합니다.  
   
- 디버깅할 때 컨테이너 코드를 한 단계씩 실행하려면 컨테이너의 디버그 버전을 사용하거나 ActiveX Test Container의 디버그 버전을 사용하십시오. 자세한 내용은 참조 하세요. [TSTCON 샘플: ActiveX Control Test Container](http://msdn.microsoft.com/72fa40ef-27d3-400c-813f-10b03236e600)합니다.  
+ 디버깅할 때 컨테이너 코드를 한 단계씩 실행하려면 컨테이너의 디버그 버전을 사용하거나 ActiveX Test Container의 디버그 버전을 사용하십시오. 자세한 내용은 참조 하세요. [TSTCON 샘플: ActiveX Control Test Container](https://msdn.microsoft.com/72fa40ef-27d3-400c-813f-10b03236e600)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [COM 및 ActiveX 디버깅](../debugger/com-and-activex-debugging.md)   
- [ActiveX 컨트롤](http://msdn.microsoft.com/library/52aaec4d-3889-402e-b57d-758078f8ac57)
+ [ActiveX 컨트롤](https://msdn.microsoft.com/library/52aaec4d-3889-402e-b57d-758078f8ac57)

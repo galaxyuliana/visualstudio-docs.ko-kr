@@ -12,12 +12,12 @@ ms.assetid: 9d38c388-1f64-430e-8f6c-e88bc99a4260
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a4338649885c75a81fdd08d5d4dd0ca4d00158ec
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 887afab85738e33bccd56543772b576e3843fe92
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980756"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675220"
 ---
 # <a name="using-msbuild"></a>MSBuild 사용
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -59,5 +59,5 @@ MSBuild를 완벽 하 게 빌드할 수, 작업, 빌드 및 빌드 구성 프로
   
 ## <a name="see-also"></a>참고 항목  
  [MSBuild 참조](../../msbuild/msbuild-reference.md)   
- [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
+ [MSBuild](https://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
  [사용자 지정 도구](../../extensibility/internals/custom-tools.md)

@@ -15,12 +15,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a986303025460d6ca57cd3aa836a9f61f1804461
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 913594f47288715e0050643f365f9225810f6ded
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62423244"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65682346"
 ---
 # <a name="code-snippet-picker"></a>코드 조각 선택
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -56,6 +56,6 @@ ms.locfileid: "62423244"
   
 ## <a name="see-also"></a>참고 항목  
  [코드 조각 사용에 대한 모범 사례](../../ide/best-practices-for-using-code-snippets.md)   
- [Visual Basic IntelliSense 코드 조각](http://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
+ [Visual Basic IntelliSense 코드 조각](https://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
  [코드에 책갈피 설정](../../ide/setting-bookmarks-in-code.md)   
  [방법: 코드 감싸기 코드 조각 사용](../../ide/how-to-use-surround-with-code-snippets.md)

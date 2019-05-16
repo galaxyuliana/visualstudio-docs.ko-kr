@@ -13,12 +13,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8de573e8d5f46988868f18114fdabb07f62690e0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 6b1af6a2900a579e7490f47f2e8ee4983310e19e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443171"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698201"
 ---
 # <a name="visual-c-intellisense"></a>Visual C# IntelliSense
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,10 +41,10 @@ Visual C# IntelliSense는 편집기에서 코딩할 때와 [직접 실행 모드
   또한 C#의 완성 목록은 컨텍스트에 따라 관련이 없는 토큰을 필터링하고 토큰을 미리 선택할 정도로 스마트합니다. 자세한 내용은 [C#의 필터링된 완성 목록](../misc/filtered-completion-lists-in-csharp.md) 및 [C#의 미리 선택된 완성 목록 항목](../misc/pre-selected-completion-list-items-in-csharp.md)을 참조하세요.  
   
 ### <a name="CodeSnippets"></a> 완성 목록의 코드 조각  
- Visual C#의 완성 목록에는 미리 정의된 코드 본문을 프로그램에 쉽게 삽입하도록 지원하는 코드 조각이 포함되어 있습니다. 코드 조각은 완성 목록에 코드 조각의 [Shortcut 요소(IntelliSense 코드 조각)](http://msdn.microsoft.com/052cc97a-5c70-42f8-b398-4c3adf670cfa)로 나타납니다.  Visual C#에서 기본적으로 사용할 수 있는 코드 조각에 대한 자세한 내용은 [Visual C# 코드 조각](../ide/visual-csharp-code-snippets.md)을 참조하세요.  
+ Visual C#의 완성 목록에는 미리 정의된 코드 본문을 프로그램에 쉽게 삽입하도록 지원하는 코드 조각이 포함되어 있습니다. 코드 조각은 완성 목록에 코드 조각의 [Shortcut 요소(IntelliSense 코드 조각)](https://msdn.microsoft.com/052cc97a-5c70-42f8-b398-4c3adf670cfa)로 나타납니다.  Visual C#에서 기본적으로 사용할 수 있는 코드 조각에 대한 자세한 내용은 [Visual C# 코드 조각](../ide/visual-csharp-code-snippets.md)을 참조하세요.  
   
 ### <a name="Keywords"></a> 완성 목록의 언어 키워드  
- Visual C#의 완성 목록에는 언어 키워드도 포함되어 있습니다. C# 언어 키워드에 대한 자세한 내용은 [C# 키워드](http://msdn.microsoft.com/library/e929b0f2-4b92-4d37-8060-23d323b098ad)를 참조하세요.  
+ Visual C#의 완성 목록에는 언어 키워드도 포함되어 있습니다. C# 언어 키워드에 대한 자세한 내용은 [C# 키워드](https://msdn.microsoft.com/library/e929b0f2-4b92-4d37-8060-23d323b098ad)를 참조하세요.  
   
 ### <a name="ExtensionMethods"></a> 완성 목록의 확장 메서드  
  Visual C#의 완성 목록에는 범위에 속한 확장명 메서드가 포함되어 있습니다.  
@@ -81,7 +81,7 @@ Visual C# IntelliSense는 편집기에서 코딩할 때와 [직접 실행 모드
  IntelliSense는 자동 개체 이름 완성을 위해 팝업 [멤버 목록](../ide/using-intellisense.md) 상자에서 최근에 선택한 멤버를 기억합니다. 다음번에 멤버 목록을 사용할 때 가장 최근에 사용한 멤버가 맨 위에 표시됩니다. 가장 최근에 사용한 멤버의 기록은 IDE의 각 세션 사이에서 지워집니다.  
   
 ## <a name="override"></a>override  
- [override](http://msdn.microsoft.com/library/dd1907a8-acf8-46d3-80b9-c2ca4febada8)를 입력하고 스페이스바를 누르면 IntelliSense가 팝업 목록 상자에서 재정의할 수 있는 모든 유효한 기본 클래스 멤버를 표시합니다. `override` 뒤에 메서드의 반환 형식을 입력하면 IntelliSense가 같은 형식을 반환하는 메서드만 표시합니다. IntelliSense가 일치 항목을 찾을 수 없으면 기본 클래스 멤버가 모두 표시됩니다.  
+ [override](https://msdn.microsoft.com/library/dd1907a8-acf8-46d3-80b9-c2ca4febada8)를 입력하고 스페이스바를 누르면 IntelliSense가 팝업 목록 상자에서 재정의할 수 있는 모든 유효한 기본 클래스 멤버를 표시합니다. `override` 뒤에 메서드의 반환 형식을 입력하면 IntelliSense가 같은 형식을 반환하는 메서드만 표시합니다. IntelliSense가 일치 항목을 찾을 수 없으면 기본 클래스 멤버가 모두 표시됩니다.  
   
 ## <a name="automatic-code-generation"></a>자동 코드 생성  
   
@@ -102,7 +102,7 @@ Visual C# IntelliSense는 편집기에서 코딩할 때와 [직접 실행 모드
  Visual Studio IDE에서 사용할 수 있는 옵션을 보려면 **편집** 메뉴에서 **IntelliSense**를 가리킨 후 **Using 구성**을 가리킵니다. IDE는 `usings` 지시문을 구성하고 제거하는 다음 옵션을 제공합니다.  
   
 ### <a name="implement-interface"></a>인터페이스 구현  
- IntelliSense는 코드 편집기에서 작업하는 동안 [인터페이스](http://msdn.microsoft.com/library/7da38e81-4f99-4bc5-b07d-c986b687eeba)를 구현하는 데 도움이 되는 옵션을 제공합니다. 일반적으로 인터페이스를 제대로 구현하려면 클래스에서 인터페이스의 모든 멤버에 대한 메서드 선언을 생성해야 합니다. IntelliSense를 사용하여 클래스 선언에서 인터페이스의 이름을 입력하면 스마트 태그가 표시됩니다. 스마트 태그는 명시적 또는 암시적 명명을 사용하여 자동으로 인터페이스를 구현하는 옵션을 제공합니다. 명시적 명명에서 메서드 선언은 인터페이스의 이름을 전달하고, 암시적 명명에서 메서드 선언은 속해 있는 인터페이스를 나타내지 않습니다. 명시적으로 명명된 인터페이스는 인터페이스 인스턴스를 통해서만 액세스할 수 있으며 클래스 인스턴스를 통해서는 액세스할 수 없습니다. 자세한 내용은 [명시적 인터페이스 구현](http://msdn.microsoft.com/library/181c901f-0d4c-4f29-97fc-895079617bf2)을 참조하세요.  
+ IntelliSense는 코드 편집기에서 작업하는 동안 [인터페이스](https://msdn.microsoft.com/library/7da38e81-4f99-4bc5-b07d-c986b687eeba)를 구현하는 데 도움이 되는 옵션을 제공합니다. 일반적으로 인터페이스를 제대로 구현하려면 클래스에서 인터페이스의 모든 멤버에 대한 메서드 선언을 생성해야 합니다. IntelliSense를 사용하여 클래스 선언에서 인터페이스의 이름을 입력하면 스마트 태그가 표시됩니다. 스마트 태그는 명시적 또는 암시적 명명을 사용하여 자동으로 인터페이스를 구현하는 옵션을 제공합니다. 명시적 명명에서 메서드 선언은 인터페이스의 이름을 전달하고, 암시적 명명에서 메서드 선언은 속해 있는 인터페이스를 나타내지 않습니다. 명시적으로 명명된 인터페이스는 인터페이스 인스턴스를 통해서만 액세스할 수 있으며 클래스 인스턴스를 통해서는 액세스할 수 없습니다. 자세한 내용은 [명시적 인터페이스 구현](https://msdn.microsoft.com/library/181c901f-0d4c-4f29-97fc-895079617bf2)을 참조하세요.  
   
  인터페이스 구현은 인터페이스를 충족하는 데 필요한 최소 수의 메서드 스텁을 생성합니다. 기본 클래스에서 인터페이스의 일부를 구현하면 이러한 스텁이 다시 생성되지 않습니다.  
   

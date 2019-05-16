@@ -21,12 +21,12 @@ caps.latest.revision: 37
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9f28c6e0914bd37affab72e75e8bbf3f82299c4e
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 39076459f684aafce4e800ecad6341d120aac480
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002985"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691442"
 ---
 # <a name="debugging-managed-code"></a>관리 코드 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,16 +68,16 @@ ms.locfileid: "59002985"
  [IntelliTrace](../debugger/intellitrace.md)  
  IntelliTrace로 응용 프로그램의 실행 내역을 기록하여 보다 빠르고 쉽게 버그를 찾습니다. 기록된 이벤트 및 호출에서 앞뒤로 이동하며 주요 시점의 응용 프로그램 상태를 확인합니다. 여러 중단점을 설정하거나 자주 응용 프로그램을 다시 시작하지 않고 코드를 디버깅합니다. Visual Studio Ultimate가 있어야 합니다.  
   
- [응용 프로그램 추적 및 조율](http://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)  
+ [응용 프로그램 추적 및 조율](https://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)  
  실행 중인 응용 프로그램의 실행을 모니터링하는 방법인 추적과 코드의 전략적 위치에 추적 문을 배치하는 방법인 조율에 대해 설명합니다. 이 항목에서는 계측 및 추적, 추적 스위치, 추적 수신기, 응용 프로그램의 코드 추적, 응용 프로그램 코드에 추적 문 추가, <xref:System.Diagnostics.Debug> 및 <xref:System.Diagnostics.Trace>를 사용하는 조건부 컴파일 등을 소개하는 정보로 연결되는 링크도 제공합니다.  
   
- [/ASSEMBLYDEBUG](http://msdn.microsoft.com/library/94443af3-470c-41d7-83a0-7434563d7982)  
+ [/ASSEMBLYDEBUG](https://msdn.microsoft.com/library/94443af3-470c-41d7-83a0-7434563d7982)  
  C++로 작성된 코드에 <xref:System.Diagnostics.DebuggableAttribute>를 추가하는 링커 옵션에 대해 설명합니다. 이 특성은 C++를 사용한 연결 등의 디버깅 기능을 사용하는 데 필요합니다.  
   
- [Windows 서비스 애플리케이션 디버깅](http://msdn.microsoft.com/library/63ab0800-0f05-4f1e-88e6-94c73fd920a2)  
+ [Windows 서비스 애플리케이션 디버깅](https://msdn.microsoft.com/library/63ab0800-0f05-4f1e-88e6-94c73fd920a2)  
  설정, 프로세스에 연결, 서비스의 `OnStart` 메서드 코드 및 Main 메서드 코드 디버깅, 중단점 설정 그리고 서비스 제어 관리자를 사용한 서비스 시작, 중지, 일시 중지 및 계속 등을 포함하여 Windows 서비스 응용 프로그램을 디버깅할 때 고려해야 할 사항에 대해 설명합니다.  
   
- [디버깅 및 프로파일링](http://msdn.microsoft.com/library/4a04863e-2475-46f4-bc3f-3c11510c2a4b)  
+ [디버깅 및 프로파일링](https://msdn.microsoft.com/library/4a04863e-2475-46f4-bc3f-3c11510c2a4b)  
  .NET Framework 응용 프로그램의 디버깅과 구성 요구 사항에 대해 설명합니다.  
   
  [스크립트 및 웹 애플리케이션 디버깅](../debugger/debugging-web-applications-and-script.md)  
@@ -88,6 +88,6 @@ ms.locfileid: "59002985"
  자세한 디버깅 설명서 단원으로 연결되는 링크를 제공합니다. 이 정보에는 디버거의 새로운 기능, 설정 및 준비, 중단점, 예외 처리, 편집 및 계속, 관리 코드 디버깅, Visual C++ 프로젝트 디버깅, COM 및 ActiveX 디버깅, DLL 디버깅, SQL 디버깅, 사용자 인터페이스 참조 등이 포함됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [연습: 디자인 타임에 디버깅 사용자 지정 Windows Forms 컨트롤](http://msdn.microsoft.com/library/1fd83ccd-3798-42fc-85a3-6cba99467387)   
+ [연습: 디자인 타임에 디버깅 사용자 지정 Windows Forms 컨트롤](https://msdn.microsoft.com/library/1fd83ccd-3798-42fc-85a3-6cba99467387)   
  [디버거 보안](../debugger/debugger-security.md)   
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)

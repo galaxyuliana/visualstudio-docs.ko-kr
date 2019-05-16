@@ -19,12 +19,12 @@ caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: adc2347e6928a841a0a2c24d1d786be8edcbc4ac
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: d5956ad23fe22c7c36b712fac61df268586142df
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045786"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697552"
 ---
 # <a name="how-to-re-sign-application-and-deployment-manifests"></a>방법: 애플리케이션 및 배포 매니페스트 다시 서명
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Windows Forms 응용 프로그램, Windows Presentation Foundation 응용 프로
  매니페스트를 다시 서명할 수 있습니다 다른 시나리오 고객에 게는 응용 프로그램에 서명 하 고 자체 인증서를 사용 하 여 배포 매니페스트 하는 경우입니다.  
   
 ## <a name="re-signing-the-application-and-deployment-manifests"></a>매니페스트 다시 서명 하 고 응용 프로그램 및 배포  
- 이 절차는 응용 프로그램 매니페스트 파일 (.manifest) 이미 변경 했다고 가정 합니다. 자세한 내용은 [방법: 배포 속성을 변경할](http://msdn.microsoft.com/66052a3a-8127-4964-8147-2477ef5d1472)합니다.  
+ 이 절차는 응용 프로그램 매니페스트 파일 (.manifest) 이미 변경 했다고 가정 합니다. 자세한 내용은 [방법: 배포 속성을 변경할](https://msdn.microsoft.com/66052a3a-8127-4964-8147-2477ef5d1472)합니다.  
   
 #### <a name="to-re-sign-the-application-and-deployment-manifests-with-mageexe"></a>Mage.exe를 사용 하 여 매니페스트에 다시 응용 프로그램 및 배포를 서명 하려면  
   

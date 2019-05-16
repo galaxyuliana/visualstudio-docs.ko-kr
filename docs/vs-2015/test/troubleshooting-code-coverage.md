@@ -8,12 +8,12 @@ ms.assetid: 26de91b8-45e3-4976-a20e-a3bd1942ddcb
 caps.latest.revision: 13
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8faf41bb838880b1f0f747f1feb9d3a318b2f1c4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 7dda5f0f9d613a2e6704b0f8b1f688c76a759752
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117410"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705899"
 ---
 # <a name="troubleshooting-code-coverage"></a>코드 검사 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,7 +90,7 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
  어셈블리가 네이티브 이미지 캐시에서 로드되지 않았는지 확인합니다.  
   
  설명  
- 성능 상의 이유로 네이티브 이미지 어셈블리는 분석되지 않습니다. 자세한 내용은 [Ngen.exe(네이티브 이미지 생성기)](http://msdn.microsoft.com/library/44bf97aa-a9a4-4eba-9a0d-cfaa6fc53a66)를 참조하세요.  
+ 성능 상의 이유로 네이티브 이미지 어셈블리는 분석되지 않습니다. 자세한 내용은 [Ngen.exe(네이티브 이미지 생성기)](https://msdn.microsoft.com/library/44bf97aa-a9a4-4eba-9a0d-cfaa6fc53a66)를 참조하세요.  
   
  해결  
  어셈블리의 MSIL 버전을 사용합니다. NGen으로 처리하지 않습니다.  

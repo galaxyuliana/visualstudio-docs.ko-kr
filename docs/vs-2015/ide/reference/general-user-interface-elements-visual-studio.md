@@ -9,12 +9,12 @@ caps.latest.revision: 40
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 39669408402a12ce8010865606e2a2ec3929569b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a510ad25e741fc5924597d4b26841518c63f83a1
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62537604"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690969"
 ---
 # <a name="general-user-interface-elements-visual-studio"></a>일반 사용자 인터페이스 요소(Visual Studio)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -69,6 +69,6 @@ ms.locfileid: "62537604"
 
  [도구 상자, HTML 탭](../../ide/reference/toolbox-html-tab.md) 디자인 화면에 html 태그를 추가할 수 있습니다.
 
- [CSS, 텍스트 편집기, 옵션 대화 상자, 일반](http://msdn.microsoft.com/library/b33a7617-e69d-4a11-938e-2e218a34a10c) CSS 파일에 대 한 옵션을 지정할 수 있습니다.
+ [CSS, 텍스트 편집기, 옵션 대화 상자, 일반](https://msdn.microsoft.com/library/b33a7617-e69d-4a11-938e-2e218a34a10c) CSS 파일에 대 한 옵션을 지정할 수 있습니다.
 
- [유효성 검사, HTML, 텍스트 편집기, 옵션 대화 상자](http://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863) HTML 페이지에 대 한 옵션을 지정할 수 있습니다.
+ [유효성 검사, HTML, 텍스트 편집기, 옵션 대화 상자](https://msdn.microsoft.com/library/9c24ecfe-263e-4bf1-88de-d01be3992863) HTML 페이지에 대 한 옵션을 지정할 수 있습니다.

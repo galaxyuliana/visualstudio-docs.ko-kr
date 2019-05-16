@@ -15,12 +15,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 7de14898c5fb2bb6f8e95a2af5fd6b39a54cdb1d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.openlocfilehash: d6ba41720ff97ffe9a085774477b2a9ee6426dbe
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60082154"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687395"
 ---
 # <a name="ca2107-review-deny-and-permit-only-usage"></a>CA2107: deny 및 permit only 사용을 검토하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,13 +36,13 @@ ms.locfileid: "60082154"
  메서드는 PermitOnly 또는 Deny 보안 동작을 지정 하는 보안 검사를 포함 합니다.
 
 ## <a name="rule-description"></a>규칙 설명
- [PermitOnly 메서드를 사용 하 여](http://msdn.microsoft.com/8c7bdb7f-882f-45b7-908c-6cbaa1767649) 하 고 <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName> 보안 작업을 잘된 알고 있는 사용자에 의해서만 사용할지의 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 보안. 이러한 보안 동작을 사용하는 코드는 보안 검토를 거쳐야 합니다.
+ [PermitOnly 메서드를 사용 하 여](https://msdn.microsoft.com/8c7bdb7f-882f-45b7-908c-6cbaa1767649) 하 고 <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName> 보안 작업을 잘된 알고 있는 사용자에 의해서만 사용할지의 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 보안. 이러한 보안 동작을 사용하는 코드는 보안 검토를 거쳐야 합니다.
 
  거부 하는 보안 요청에 대 한 응답에서 발생 하는 스택 워크의 기본 동작을 변경 합니다. 거부 메서드를 호출 스택에 있는 호출자의 실제 권한과 관계 없이 기간에 대 한 부여 되지 않아야 하는 권한을 지정할 수 있습니다. 스택 워크 Deny로 보호 되는 메서드를 검색 하 고 요청 된 권한이 거부 된 권한에 포함 되어, 경우 스택 워크가 실패 합니다. 또한 PermitOnly 스택 워크의 기본 동작을 변경합니다. 코드를에서 호출자의 권한과 관계 없이 부여할 수 있는 권한만 지정할 수 있습니다. 스택 워크 PermitOnly에서 보호 되는 메서드를 검색 하 고는 PermitOnly 하 여 지정 된 사용 권한에서 요청 된 권한이 포함 되지 않으면, 스택 워크가 실패 합니다.
 
  제한 된 유용성 및 동작이 약간 보안 취약점에 대 한 이러한 작업에 사용 하는 코드를 신중 하 게 평가 되어야 합니다. 다음을 살펴보세요.
 
-- [링크 요청](http://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) Deny 또는 PermitOnly 영향을 받지 않습니다.
+- [링크 요청](https://msdn.microsoft.com/library/a33fd5f9-2de9-4653-a4f0-d9df25082c4d) Deny 또는 PermitOnly 영향을 받지 않습니다.
 
 - Deny 또는 PermitOnly 스택 워크는 요청과 동일한 스택 프레임의 경우 보안 동작을 아무런 효과가 없습니다.
 
@@ -80,4 +80,4 @@ ms.locfileid: "60082154"
  <xref:System.Security.CodeAccessPermission.PermitOnly%2A?displayProperty=fullName> <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>
  <xref:System.Security.CodeAccessPermission.Deny%2A?displayProperty=fullName>
  <xref:System.Security.IStackWalk.PermitOnly%2A?displayProperty=fullName>
- [보안 코딩 지침](http://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177) [보안 검사 재정의](http://msdn.microsoft.com/4acdeff5-fc05-41bf-8505-7387cdbfca28) [PermitOnly 메서드 사용](http://msdn.microsoft.com/8c7bdb7f-882f-45b7-908c-6cbaa1767649)
+ [보안 코딩 지침](https://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177) [보안 검사 재정의](https://msdn.microsoft.com/4acdeff5-fc05-41bf-8505-7387cdbfca28) [PermitOnly 메서드 사용](https://msdn.microsoft.com/8c7bdb7f-882f-45b7-908c-6cbaa1767649)

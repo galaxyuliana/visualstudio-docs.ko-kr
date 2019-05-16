@@ -10,12 +10,12 @@ helpviewer_keywords:
 ms.assetid: 0795ee94-17a8-4327-bf57-27cd5e312a4c
 caps.latest.revision: 29
 manager: jillfra
-ms.openlocfilehash: 53ff7b49414e3473c74a41008f381bb207e45fd0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4f80b575656c2d8b1740f217f2e144f89f254078
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63414671"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65681629"
 ---
 # <a name="hresult-information-in-managed-code"></a>관리 되는 코드의 HRESULT 정보
 HRESULT 반환 값을 발견할 경우 관리 코드와 COM 간의 상호 작용으로 인해 문제가 발생할 수 있습니다.  
@@ -64,7 +64,7 @@ HRESULT 반환 값을 발견할 경우 관리 코드와 COM 간의 상호 작용
   
 ## <a name="see-also"></a>참고 항목  
  [관리 되는 Vspackage](../misc/managed-vspackages.md)   
- [비관리 코드와의 상호 운용](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)   
- [방법: Map HRESULTs and Exceptions](http://msdn.microsoft.com/library/610b364b-2761-429d-9c4a-afbc3e66f1b9)   
- [상호 운용 위한 COM 구성 요소 빌드](http://msdn.microsoft.com/7a2c657a-cfef-40f0-bed3-7c2c0ac4abdf)   
+ [비관리 코드와의 상호 운용](https://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)   
+ [방법: Map HRESULTs and Exceptions](https://msdn.microsoft.com/library/610b364b-2761-429d-9c4a-afbc3e66f1b9)   
+ [상호 운용 위한 COM 구성 요소 빌드](https://msdn.microsoft.com/7a2c657a-cfef-40f0-bed3-7c2c0ac4abdf)   
  [관리되는 VSPackage](../misc/managed-vspackages.md)

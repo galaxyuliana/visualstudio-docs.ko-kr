@@ -16,19 +16,19 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 65e766193838060d4c856b6a530a688ef8cd2d1b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5eec821993ec1aef2f8b2ad6ad8f5109c07d1156
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62584698"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674772"
 ---
 # <a name="getting-started-with-visual-c-and-visual-basic"></a>Visual C# 및 Visual Basic 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 자습서는 Visual C# 또는 Microsoft Visual Basic 초보자를 위한 자습서입니다. 이 자습서는 Visual C# 및 Visual Basic을 소개하는 일련의 순차적 단원으로 구성되어 있습니다. 즐겁게 배우고 훌륭한 소프트웨어를 개발해 보십시오.  
   
- Visual C++에 대한 자세한 내용은 [Visual C++ 리소스](http://msdn.microsoft.com/vstudio/hh386302.aspx)를 참조하세요.  
+ Visual C++에 대한 자세한 내용은 [Visual C++ 리소스](https://msdn.microsoft.com/vstudio/hh386302.aspx)를 참조하세요.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [연습: 간단한 애플리케이션 만들기](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)  

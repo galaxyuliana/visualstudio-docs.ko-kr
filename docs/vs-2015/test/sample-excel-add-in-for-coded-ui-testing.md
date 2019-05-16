@@ -10,19 +10,19 @@ ms.assetid: 2cd52d1a-4c35-43ca-8a84-9c79dabd907f
 caps.latest.revision: 18
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 30ba0d48676438f19581e93a3af3c900569f5d5d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 8588efe9ce460a34fc71f44bc0116b5977afe7aa
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112261"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705947"
 ---
 # <a name="sample-excel-add-in-for-coded-ui-testing"></a>코딩된 UI 테스트에 대한 샘플 Excel 추가 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)]용 이 샘플 추가 기능은 기록된 Excel 워크시트의 코딩된 UI 테스트를 지원하도록 특별히 설계되었으며 Visual Studio Enterprise에서 실행됩니다. 이 추가 기능은 Visual Studio Tools for Office를 사용해서 생성되었습니다.  
   
- Excel 추가 기능에서 만드는 방법에 대 한 자세한 내용은 참조 하세요. [연습: Excel 용 첫 VSTO 추가 기능에 만드는](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f) 하거나 "Excel 추가 기능에 대 한" MSDN을 검색 합니다.  
+ Excel 추가 기능에서 만드는 방법에 대 한 자세한 내용은 참조 하세요. [연습: Excel 용 첫 VSTO 추가 기능에 만드는](https://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f) 하거나 "Excel 추가 기능에 대 한" MSDN을 검색 합니다.  
   
  Excel 추가 기능이 Excel용 코딩된 UI 테스트 확장에 대한 이 설명서의 주요 주제는 아니지만 일부 설명은 도움이 될 수 있습니다.  
   
@@ -47,5 +47,5 @@ ms.locfileid: "60112261"
   
 ## <a name="see-also"></a>참고 항목  
  [Microsoft Excel을 지원하도록 코딩된 UI 테스트 및 작업 기록 확장](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)   
- [연습: 첫 번째 VSTO 추가 기능 만들기 for Excel](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)   
- [Office/SharePoint 개발](http://msdn.microsoft.com/library/2ddec047-263a-4901-a54c-a15fc8472329)
+ [연습: 첫 번째 VSTO 추가 기능 만들기 for Excel](https://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)   
+ [Office/SharePoint 개발](https://msdn.microsoft.com/library/2ddec047-263a-4901-a54c-a15fc8472329)

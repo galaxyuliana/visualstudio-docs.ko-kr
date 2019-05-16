@@ -12,12 +12,12 @@ ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: f6df66c3a6f34e6137850c68785d0eaadbb13a26
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: c46e42a00e21e6896a0571e788801d24d3978db1
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088147"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685337"
 ---
 # <a name="choosing-between-shared-and-versioned-vspackages"></a>공유 및 버전 관리 VSPackage 중에서 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "60088147"
   
     - VSPackage의 버전에 맞게 프로그램 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실행 됩니다. 그런 다음 새 서비스에 대 한 쿼리가 실패 하는 경우 VSPackage 제공할 수 있습니다의 이전 버전에서 지원 되는 다른 서비스 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
   
-- 적절 하 게 VSPackage를 등록 합니다. 자세한 내용은 [VSPackage 등록](../extensibility/internals/vspackage-registration.md) 하 고 [관리 되는 VSPackage 등록](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)합니다.  
+- 적절 하 게 VSPackage를 등록 합니다. 자세한 내용은 [VSPackage 등록](../extensibility/internals/vspackage-registration.md) 하 고 [관리 되는 VSPackage 등록](https://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)합니다.  
   
 - 파일 확장명을 적절 하 게 등록 합니다. 자세한 내용은 [Side-by-side-배포에 대 한 파일 이름 확장명 등록](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)합니다.  
   

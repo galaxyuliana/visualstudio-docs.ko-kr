@@ -12,12 +12,12 @@ ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2db026367e43c1092cf9744817449ce51556a4a6
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: f4d6c0e163b751f1873fdb941e85c273dcc4fde5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436321"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691200"
 ---
 # <a name="exposing-types-to-visual-designers"></a>비주얼 디자이너에 형식 노출
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ms.locfileid: "63436321"
      임시 PE 컴파일시 컴파일러에 제공 된 유일한 소스 파일은 사용자 지정 도구 출력. 따라서 임시 PE를 사용 하는 사용자 지정 도구는 프로젝트의 다른 파일로 독립적으로 컴파일할 수 있는 출력 파일을 생성 해야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [BuildManager 개체 소개](http://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
+ [BuildManager 개체 소개](https://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
  [단일 파일 생성기 구현](../../extensibility/internals/implementing-single-file-generators.md)   
  [프로젝트의 기본 Namespace를 결정합니다.](../../misc/determining-the-default-namespace-of-a-project.md)   
  [단일 파일 생성기 등록](../../extensibility/internals/registering-single-file-generators.md)

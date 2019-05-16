@@ -11,12 +11,12 @@ ms.assetid: 1313adb4-add4-4e74-90e2-f4be522f5259
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 98b3892d10b003d6236ae9ccfbebb83a602a5877
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cde3b86e19788c41df6e8f1c79a6bf829f491170
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971512"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675253"
 ---
 # <a name="visual-studio-command-table-vsct-files"></a>Visual Studio 명령 테이블(.Vsct) 파일
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,14 +29,14 @@ ms.locfileid: "58971512"
  [XML 명령 테이블(.Vsct) 파일 디자인](../../extensibility/internals/designing-xml-command-table-dot-vsct-files.md)  
  .Vsct 파일을 디자인 하는 방법에 설명 합니다.  
   
- [방법: 만들기는 합니다. Vsct 파일](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)  
+ [방법: .Vsct 파일 만들기](../../extensibility/internals/how-to-create-a-dot-vsct-file.md)  
  .Vsct 파일 만들기에 대 한 메서드를 비교 합니다. 수동으로 새.vsct 파일을 만드는 과정을 설명 합니다.  
   
 ## <a name="related-sections"></a>관련 단원  
  [VSCT XML 스키마 참조](../../extensibility/vsct-xml-schema-reference.md)  
  명령 테이블 XML 구성 파일의 각 섹션에 대 한 세부 정보를 제공합니다.  
   
- [테이블 구성 명령 (합니다. Ctc) 파일](http://msdn.microsoft.com/3413dda1-f372-4669-bcf0-c64d3463842c)  
+ [테이블 구성 명령 (합니다. Ctc) 파일](https://msdn.microsoft.com/3413dda1-f372-4669-bcf0-c64d3463842c)  
  사용 되지 않는.ctc 파일 형식 개요를 제공합니다.  
   
  [VSPackage에서 사용자 인터페이스 요소를 추가하는 방법](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)  

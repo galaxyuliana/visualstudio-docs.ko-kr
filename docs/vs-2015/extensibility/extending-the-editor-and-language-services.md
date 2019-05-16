@@ -10,12 +10,12 @@ ms.assetid: 8d04f8db-eda7-4b3e-b6eb-c06df104502a
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 9f828e6daff97f7c0ad8b3872691f5ad424cb2f4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 085e1b5c1fbfbbaf5649966738f2864e0b72ed35
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970965"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674779"
 ---
 # <a name="extending-the-editor-and-language-services"></a>편집기 및 언어 서비스 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,24 +36,24 @@ ms.locfileid: "58970965"
 |[편집기 기본 사항](../extensibility/inside-the-editor.md)|편집기의 일반 구조를 설명 하 고 해당 기능의 일부를 나열 합니다.|  
 |[편집기의 Managed Extensibility Framework](../extensibility/managed-extensibility-framework-in-the-editor.md)|편집기는 Framework MEF (Managed Extensibility)를 사용 하는 방법에 설명 합니다.|  
 |[언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md)|편집기의 확장 지점을 나열합니다. 확장 지점을 확장 될 수 있는 편집기 기능을 나타냅니다.|  
-|[연습: 보기 장식, 명령 및 설정 (열 안내선) 만들기](../extensibility/walkthrough-creating-a-view-adornment-commands-and-settings-column-guides.md)|과정을 안내 하 고 코드를 특정 표시 너비를 유지 하기 위해 열 gudie 줄을 그릴 수 있는 보기 장식 빌드를 설명 합니다.  또한 읽기 및 쓰기 설정 뿐만 아니라 선언 및 명령 창에서 호출할 수 있는 명령을 구현도 보여 줍니다.|  
+|[연습: 보기 장식, 명령 및 설정(열 안내선) 만들기](../extensibility/walkthrough-creating-a-view-adornment-commands-and-settings-column-guides.md)|과정을 안내 하 고 코드를 특정 표시 너비를 유지 하기 위해 열 gudie 줄을 그릴 수 있는 보기 장식 빌드를 설명 합니다.  또한 읽기 및 쓰기 설정 뿐만 아니라 선언 및 명령 창에서 호출할 수 있는 명령을 구현도 보여 줍니다.|  
 |[편집기 가져오기](../extensibility/editor-imports.md)|확장을 가져올 수 있는 서비스를 나열 합니다.|  
 |[레거시 코드를 편집기로 조정](../extensibility/adapting-legacy-code-to-the-editor.md)|레거시 코드 편집기를 확장 하려면 (전 Visual Studio 2010)를 조정 하는 다양 한 방법에 설명 합니다.|  
 |[레거시 언어 서비스 마이그레이션](../extensibility/internals/migrating-a-legacy-language-service.md)|기반 VSPackage 언어 서비스를 마이그레이션하는 방법에 설명 합니다.|  
 |[연습: 파일 이름 확장명에 콘텐츠 형식 연결](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)|콘텐츠 형식을 파일 이름 확장명에 연결 하는 방법을 보여 줍니다.|  
-|[연습: 여백 모양 만들기](../extensibility/walkthrough-creating-a-margin-glyph.md)|아이콘에 여백을 추가 하는 방법을 보여 줍니다.|  
-|[연습: 텍스트를 강조 표시](../extensibility/walkthrough-highlighting-text.md)|사용 하는 방법을 보여 줍니다 *태그* 텍스트를 강조 표시 합니다.|  
+|[연습: 여백 문자 모양 만들기](../extensibility/walkthrough-creating-a-margin-glyph.md)|아이콘에 여백을 추가 하는 방법을 보여 줍니다.|  
+|[연습: 텍스트 강조 표시](../extensibility/walkthrough-highlighting-text.md)|사용 하는 방법을 보여 줍니다 *태그* 텍스트를 강조 표시 합니다.|  
 |[연습: 개요](../extensibility/walkthrough-outlining.md)|특정 종류의 중괄호에 대 한 개요를 추가 하는 방법을 보여 줍니다.|  
 |[연습: 괄호 일치 표시](../extensibility/walkthrough-displaying-matching-braces.md)|일치 하는 중괄호를 강조 표시 하는 방법을 보여 줍니다.|  
 |[연습: QuickInfo 도구 설명 표시](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)|속성, 메서드 및 이벤트와 같은 코드의 요소를 설명 하는 요약 정보 팝업을 표시 하는 방법을 보여 줍니다.|  
-|[연습: 서명 도움말 표시](../extensibility/walkthrough-displaying-signature-help.md)|서명에서 매개 변수의 형식과 수에 대 한 정보를 제공 하는 팝업을 표시 하는 방법을 보여 줍니다.|  
-|[연습: 문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)|문 완성 기능을 구현 하는 방법을 보여 줍니다.|  
+|[연습: 시그니처 도움말 표시](../extensibility/walkthrough-displaying-signature-help.md)|서명에서 매개 변수의 형식과 수에 대 한 정보를 제공 하는 팝업을 표시 하는 방법을 보여 줍니다.|  
+|[연습: 명령문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)|문 완성 기능을 구현 하는 방법을 보여 줍니다.|  
 |[연습: 코드 조각 구현](../extensibility/walkthrough-implementing-code-snippets.md)|코드 조각 확장을 구현 하는 방법을 보여 줍니다.|  
-|[연습: Displaying Light Bulb Suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)|코드 제안 전구를 표시 하는 방법을 보여 줍니다.|  
+|[연습: 밝은 전구 추천 표시](../extensibility/walkthrough-displaying-light-bulb-suggestions.md)|코드 제안 전구를 표시 하는 방법을 보여 줍니다.|  
 |[연습: 편집기 확장에서 셸 명령 사용](../extensibility/walkthrough-using-a-shell-command-with-an-editor-extension.md)|MEF 구성 요소를 사용 하 여 VSPackage에서 메뉴 명령과 연결 하는 방법을 보여 줍니다.|  
 |[연습: 편집기 확장에서 바로 가기 키 사용](../extensibility/walkthrough-using-a-shortcut-key-with-an-editor-extension.md)|VSPackage에서 메뉴 바로 가기는 MEF 구성 요소를 사용 하 여 연결 하는 방법을 보여 줍니다.|  
-|[MEF(Managed Extensibility Framework)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)|에 대 한는 Framework MEF (Managed Extensibility) 정보를 제공 합니다.|  
-|[Windows Presentation Foundation](http://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d)|Windows Presentation Foundation (WPF)에 대 한 정보를 제공 합니다.|  
+|[MEF(Managed Extensibility Framework)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)|에 대 한는 Framework MEF (Managed Extensibility) 정보를 제공 합니다.|  
+|[Windows Presentation Foundation](https://msdn.microsoft.com/library/f667bd15-2134-41e9-b4af-5ced6fafab5d)|Windows Presentation Foundation (WPF)에 대 한 정보를 제공 합니다.|  
   
 ## <a name="reference"></a>참조  
  Visual Studio 편집기는 다음 네임 스페이스를 포함 합니다.  

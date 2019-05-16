@@ -12,12 +12,12 @@ ms.assetid: 8f0e1838-a818-4459-9138-a3dceb7408de
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4e85732221e2d4d5024ba295cac551ab45f1ee12
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 7274d621e47c9c705cc0ce6bc4ad49f24e144f59
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986138"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683289"
 ---
 # <a name="idebugqueryengine2"></a>IDebugQueryEngine2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugQueryEngine2 : IUnknown
  가장 일반적인 DE 인터페이스를 구현 하는 개체에서이 인터페이스를 구현 하는 DE (같은 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)를 [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md), 및 [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md))에서 에 대 한 액세스를 허용 하려면 합니다 [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) 자체는 DE의 인터페이스입니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 호출 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 일반적인 DE 인터페이스이 인터페이스를 가져올 수 있습니다.  
+ 호출 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 일반적인 DE 인터페이스이 인터페이스를 가져올 수 있습니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugQueryEngine2`합니다.  

@@ -29,17 +29,17 @@ caps.latest.revision: 30
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: a43983846263fa49a7ff501b0d87c460990e8a37
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 6ae74c51f0f738bc596fbe5c789011630927707c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105476"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65702263"
 ---
 # <a name="continuing-execution-after-an-exception"></a>예외 후 실행 계속
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-예외로 인해 디버거에서 실행이 중단되면 대화 상자가 나타납니다. Visual Basic 또는 C#에 대해 확인할 수 있습니다 합니다 [예외 도우미](http://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb) 기본적으로 대화 상자. 에 대 한 C++를 이전 나타납니다 **예외** 대화 상자. Visual Basic 또는 C#을 사용 하는 경우 있지만 사용 하지 않도록 설정한 합니다 **예외 도우미** 에 **옵션** 대화 상자에서 표시 됩니다는 **예외** 대화 상자.  
+예외로 인해 디버거에서 실행이 중단되면 대화 상자가 나타납니다. Visual Basic 또는 C#에 대해 확인할 수 있습니다 합니다 [예외 도우미](https://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb) 기본적으로 대화 상자. 에 대 한 C++를 이전 나타납니다 **예외** 대화 상자. Visual Basic 또는 C#을 사용 하는 경우 있지만 사용 하지 않도록 설정한 합니다 **예외 도우미** 에 **옵션** 대화 상자에서 표시 됩니다는 **예외** 대화 상자.  
   
  경우는 **예외 도우미** 하거나 **예외** 대화 상자가 나타나면 예외를 발생 시킨 문제를 해결 하는 데 할 수 있습니다.  
   

@@ -13,12 +13,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: eaffdfa5a5caaa9a200f14230a67cac72af96df8
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 6f4502bcc439d55e36dad43add4c5b9852be21bd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63435198"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685370"
 ---
 # <a name="how-to-specify-an-application-icon-visual-basic-c"></a>방법: 응용 프로그램 아이콘 지정 (Visual Basic의 경우 C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,4 +46,4 @@ ms.locfileid: "63435198"
  [프로젝트 디자이너, 응용 프로그램 페이지(Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [프로젝트 디자이너, 응용 프로그램 페이지(C#)](../ide/reference/application-page-project-designer-csharp.md)   
  [응용 프로그램 속성 관리](../ide/application-properties.md)  
- [방법: 리소스 추가 또는 제거](http://msdn.microsoft.com/7b77bc06-3952-4799-b029-def3f8f7f88d)
+ [방법: 리소스 추가 또는 제거](https://msdn.microsoft.com/7b77bc06-3952-4799-b029-def3f8f7f88d)

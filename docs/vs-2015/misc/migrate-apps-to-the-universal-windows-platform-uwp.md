@@ -9,12 +9,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6827d1b2b1a85d94e8ad8d5f88c505aebc3abb93
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 86bc76b9b71c7b73a8d299aab41cb6e2eb37680d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63001234"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686660"
 ---
 # <a name="migrate-apps-to-the-universal-windows-platform-uwp"></a>UWP(유니버설 Windows 플랫폼)로 앱 마이그레이션
 필요한 경우 Windows 스토어 8.1 앱, Windows Phone 8.1 앱 또는 Visual Studio 2015 RC로 만든 유니버설 Windows 앱에 대한 기존 프로젝트 파일을 수동으로 변경하면 Visual Studio 2015 RTM과 함께 사용할 수 있습니다. Windows 앱 프로젝트 및 Windows Phone 프로젝트를 둘 다 포함하는 Windows 8.1 유니버설 앱이 있는 경우 각 프로젝트를 마이그레이션하는 단계를 따라야 합니다.  
@@ -29,7 +29,7 @@ ms.locfileid: "63001234"
   
 - [Visual Studio 2015 RC로 만든 유니버설 Windows 앱의 기존 단위 테스트 프로젝트에 필요한 변경 내용](#MigrateUnitTest)  
   
-  이러한 모든 변경 내용을 적용하지 않으려면 새 유니버설 Windows 프로젝트에 [기존 앱을 포팅](http://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) 하는 방법을 알아보세요.  
+  이러한 모든 변경 내용을 적용하지 않으려면 새 유니버설 Windows 프로젝트에 [기존 앱을 포팅](https://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) 하는 방법을 알아보세요.  
   
 ## <a name="MigrateCSharp"></a> 유니버설 Windows 플랫폼을 사용 하려면 C# /VB Windows 스토어 8.1 또는 Windows Phone 8.1 앱 마이그레이션  
   
@@ -110,7 +110,7 @@ ms.locfileid: "63001234"
   
     6. 추가 \<EnableDotNetNativeCompatibleProfile > 요소 및 해당 값을 설정: **true**합니다.  
   
-    7. 유니버설 Windows 앱의 기본 자산 배율은 200입니다. 프로젝트가 200으로 배율 조정 되지 자산에 포함 된 경우 추가 해야 합니다는 \<UapDefaultAssetScale >이 PropertyGroup에 해당 자산의 배율 값을 가진 요소입니다. [자산 및 배율](http://msdn.microsoft.com/library/jj679352.aspx)에 대해 자세히 알아보세요.  
+    7. 유니버설 Windows 앱의 기본 자산 배율은 200입니다. 프로젝트가 200으로 배율 조정 되지 자산에 포함 된 경우 추가 해야 합니다는 \<UapDefaultAssetScale >이 PropertyGroup에 해당 자산의 배율 값을 가진 요소입니다. [자산 및 배율](https://msdn.microsoft.com/library/jj679352.aspx)에 대해 자세히 알아보세요.  
   
          이제 프로그램 \<PropertyGroup > 요소는이 예제와 비슷하게 표시 됩니다.  
   
@@ -272,7 +272,7 @@ ms.locfileid: "63001234"
   
     4. 추가 \<EnableDotNetNativeCompatibleProfile > 요소 및 해당 값을 설정: true.  
   
-    5. 유니버설 Windows 앱의 기본 자산 배율은 200입니다. 프로젝트가 200으로 배율 조정 되지 자산에 포함 된 경우 추가 해야 합니다는 \<UapDefaultAssetScale >이 PropertyGroup에 해당 자산의 배율 값을 가진 요소입니다. [자산 및 배율](http://msdn.microsoft.com/library/jj679352.aspx)에 대해 자세히 알아보세요.  
+    5. 유니버설 Windows 앱의 기본 자산 배율은 200입니다. 프로젝트가 200으로 배율 조정 되지 자산에 포함 된 경우 추가 해야 합니다는 \<UapDefaultAssetScale >이 PropertyGroup에 해당 자산의 배율 값을 가진 요소입니다. [자산 및 배율](https://msdn.microsoft.com/library/jj679352.aspx)에 대해 자세히 알아보세요.  
   
     6. Windows Phone 대 한 프로젝트에만 값을 변경 \<ApplicationType > Windows 스토어에 Windows Phone.  
   
@@ -651,7 +651,7 @@ ms.locfileid: "63001234"
   
 4. 찾을 합니다 \<PropertyGroup > 포함 하는 요소는 \<TargetPlatformVersion > 및 \<TargetPlatformMinVersion > 요소입니다. 기존 값을 변경 합니다 \<TargetPlatformVersion > 및 \<TargetPlatformMinVersion > 요소를 설치한 유니버설 Windows 플랫폼의 동일한 버전 이어야 합니다.  
   
-    유니버설 Windows 앱의 기본 자산 배율은 200입니다. 추가 해야 Visual Studio 2015 RC 포함 된 자산에 배율이 100을 사용 하 여 만든 프로젝트는 \<UapDefaultAssetScale > 100이 PropertyGroup에 값을 가진 요소입니다. [자산 및 배율](http://msdn.microsoft.com/library/jj679352.aspx)에 대해 자세히 알아보세요.  
+    유니버설 Windows 앱의 기본 자산 배율은 200입니다. 추가 해야 Visual Studio 2015 RC 포함 된 자산에 배율이 100을 사용 하 여 만든 프로젝트는 \<UapDefaultAssetScale > 100이 PropertyGroup에 값을 가진 요소입니다. [자산 및 배율](https://msdn.microsoft.com/library/jj679352.aspx)에 대해 자세히 알아보세요.  
   
 5. UWP 확장 SDK(예: Windows Mobile SDK)에 참조를 추가한 경우 SDK 버전을 업데이트해야 합니다. 예를 들어 다음 \<SDKReference > 요소:  
   
@@ -761,7 +761,7 @@ ms.locfileid: "63001234"
   
      추가 \<EnableDotNetNativeCompatibleProfile > 요소 및 값 요소 아직 없는 경우 true로 설정 합니다.  
   
-     유니버설 Windows 앱의 기본 자산 배율은 200입니다. 추가 해야 Visual Studio 2015 RC 포함 된 자산에 배율이 100을 사용 하 여 만든 프로젝트는 \<UapDefaultAssetScale > 100이 PropertyGroup에 값을 가진 요소입니다. [자산 및 배율](http://msdn.microsoft.com/library/jj679352.aspx)에 대해 자세히 알아보세요.  
+     유니버설 Windows 앱의 기본 자산 배율은 200입니다. 추가 해야 Visual Studio 2015 RC 포함 된 자산에 배율이 100을 사용 하 여 만든 프로젝트는 \<UapDefaultAssetScale > 100이 PropertyGroup에 값을 가진 요소입니다. [자산 및 배율](https://msdn.microsoft.com/library/jj679352.aspx)에 대해 자세히 알아보세요.  
   
      따라서이 \<PropertyGroup > 요소가 이제 다음과 유사 하 게 됩니다.  
   

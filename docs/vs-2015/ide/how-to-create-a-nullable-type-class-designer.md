@@ -12,12 +12,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3d5e74a4384cff0a68764ffe09a37ab28460d58b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: c71c0e7f8961b5f7c545fb59597cdd173230fc08
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63422807"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65680500"
 ---
 # <a name="how-to-create-a-nullable-type-class-designer"></a>방법: Nullable 형식 만들기(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "63422807"
   
   클래스 디자이너에는 nullable 형식이 기본 형식이 표시되는 것처럼 표시됩니다.  
   
-  Visual C#의 nullable 형식에 대한 자세한 내용은 [Nullable 형식](http://msdn.microsoft.com/library/e473cb01-28ca-42be-9cea-f717055d72c6)을 참조하세요. Visual Basic의 nullable 형식에 대한 자세한 내용은 [Nullable 값 형식](http://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6)을 참조하세요.  
+  Visual C#의 nullable 형식에 대한 자세한 내용은 [Nullable 형식](https://msdn.microsoft.com/library/e473cb01-28ca-42be-9cea-f717055d72c6)을 참조하세요. Visual Basic의 nullable 형식에 대한 자세한 내용은 [Nullable 값 형식](https://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6)을 참조하세요.  
   
   [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
@@ -83,7 +83,7 @@ ms.locfileid: "63422807"
   
 ## <a name="see-also"></a>참고 항목  
  <xref:System.Nullable%601>   
- [Nullable 형식](http://msdn.microsoft.com/library/e473cb01-28ca-42be-9cea-f717055d72c6)   
- [Nullable 형식 사용](http://msdn.microsoft.com/library/0bacbe72-ce15-4b14-83e1-9c14e6380c28)   
- [방법: Nullable 형식 식별](http://msdn.microsoft.com/library/d4b67ee2-66e8-40c1-ae9d-545d32c71387)   
- [Nullable 값 형식](http://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6)
+ [Nullable 형식](https://msdn.microsoft.com/library/e473cb01-28ca-42be-9cea-f717055d72c6)   
+ [Nullable 형식 사용](https://msdn.microsoft.com/library/0bacbe72-ce15-4b14-83e1-9c14e6380c28)   
+ [방법: Nullable 형식 식별](https://msdn.microsoft.com/library/d4b67ee2-66e8-40c1-ae9d-545d32c71387)   
+ [Nullable 값 형식](https://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6)

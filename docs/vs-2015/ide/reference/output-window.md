@@ -17,12 +17,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 335058a6521f10313c94cbfbdd9657348cc90963
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7173abd87a9e7345e7d7caee02d2bb333f507514
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63438070"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696066"
 ---
 # <a name="output-window"></a>출력 창
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,14 +61,14 @@ ms.locfileid: "63438070"
   
  런타임에 진단 메시지를 **출력** 창에 쓰도록 자체 애플리케이션을 프로그래밍할 수도 있습니다. 이렇게 하려면 .NET Framework 클래스 라이브러리의 <xref:System.Diagnostics> 네임스페이스에서 <xref:System.Diagnostics.Debug> 클래스 또는 <xref:System.Diagnostics.Trace> 클래스의 멤버를 사용합니다. <xref:System.Diagnostics.Debug> 클래스의 멤버는 솔루션 또는 프로젝트의 디버그 구성을 빌드할 때 출력을 표시하고, <xref:System.Diagnostics.Trace> 클래스의 멤버는 디버그 또는 릴리스 구성을 빌드할 때 출력을 표시합니다. 자세한 내용은 [출력 창에 표시되는 진단 메시지](../../debugger/diagnostic-messages-in-the-output-window.md)를 참조하세요.  
   
- [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)]에서 경고 및 오류가 **출력** 창에서 표시되고 계산되는 사용자 지정 빌드 단계 및 빌드 이벤트를 만들 수 있습니다. 출력 줄에서 F1 키를 눌러 해당 도움말 항목을 표시할 수 있습니다. 자세한 내용은 [사용자 지정 빌드 단계 또는 빌드 이벤트의 출력 형식 지정](http://msdn.microsoft.com/library/92ad3e38-24d7-4b89-90e6-5a16f5f998da)을 참조하세요.  
+ [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)]에서 경고 및 오류가 **출력** 창에서 표시되고 계산되는 사용자 지정 빌드 단계 및 빌드 이벤트를 만들 수 있습니다. 출력 줄에서 F1 키를 눌러 해당 도움말 항목을 표시할 수 있습니다. 자세한 내용은 [사용자 지정 빌드 단계 또는 빌드 이벤트의 출력 형식 지정](https://msdn.microsoft.com/library/92ad3e38-24d7-4b89-90e6-5a16f5f998da)을 참조하세요.  
   
 ## <a name="scrolling-behavior"></a>스크롤 동작  
  [출력] 창에서 자동 스크롤을 사용하고 마우스나 화살표 키로 이동하면 자동 스크롤이 중지됩니다. 자동 스크롤을 다시 시작하려면 CTRL+END를 누릅니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [출력 창에 표시되는 진단 메시지](../../debugger/diagnostic-messages-in-the-output-window.md)   
- [방법: 출력 창 제어](http://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858)   
+ [방법: 출력 창 제어](https://msdn.microsoft.com/library/91aebd15-8854-4a7a-9f7d-57376fb4e858)   
  [컴파일 및 빌드](../../ide/compiling-and-building-in-visual-studio.md)   
  [빌드 구성 이해](../../ide/understanding-build-configurations.md)   
- [클래스 라이브러리 개요](http://msdn.microsoft.com/library/7e4c5921-955d-4b06-8709-101873acf157)
+ [클래스 라이브러리 개요](https://msdn.microsoft.com/library/7e4c5921-955d-4b06-8709-101873acf157)

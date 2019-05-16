@@ -20,12 +20,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4752f9b04723934c0fe9a2cf8a74d4d07e474477
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 4f92b96d99889c88236df34b3f60c7fd71d5032d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116201"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691339"
 ---
 # <a name="debugging-preparation-visual-c-project-types"></a>디버깅 준비 중: Visual C++ 프로젝트 형식
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -100,7 +100,7 @@ ms.locfileid: "60116201"
    [항목 내용](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)  
   
 ## <a name="BKMK_Windows_Forms_Applications___NET_"></a> Windows Forms 애플리케이션(.NET)  
- **Windows Forms 애플리케이션(.NET)** 템플릿은 [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] Windows Forms 애플리케이션을 만드는 데 사용됩니다. 자세한 내용은 [방법: Windows 애플리케이션 프로젝트 만들기](http://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa)를 참조하세요.  
+ **Windows Forms 애플리케이션(.NET)** 템플릿은 [!INCLUDE[vcprvc](../includes/vcprvc-md.md)] Windows Forms 애플리케이션을 만드는 데 사용됩니다. 자세한 내용은 [방법: Windows 애플리케이션 프로젝트 만들기](https://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa)를 참조하세요.  
   
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 이 형식의 응용 프로그램을 디버깅하는 방법은 관리되는 Windows Forms 응용 프로그램의 경우와 비슷합니다.  
   
@@ -117,4 +117,4 @@ ms.locfileid: "60116201"
  [C++ 디버그 구성을 위한 프로젝트 설정](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [실행 중인 프로그램 또는 여러 프로그램에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [디버그 및 릴리스 구성](../debugger/how-to-set-debug-and-release-configurations.md)   
- [방법: Windows 애플리케이션 프로젝트 만들기](http://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa)
+ [방법: Windows 애플리케이션 프로젝트 만들기](https://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa)

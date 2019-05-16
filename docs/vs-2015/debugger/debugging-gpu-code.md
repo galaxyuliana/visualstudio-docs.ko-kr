@@ -14,12 +14,12 @@ caps.latest.revision: 23
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: dc5a54b1dee2345f42abd3a00b39c11388185d03
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: bb5342dc2b5da3d1192aadbbea186b5b21f179f3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434873"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691560"
 ---
 # <a name="debugging-gpu-code"></a>GPU 코드 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ GPU(그래픽 처리 장치)에서 실행되는 C++ 코드를 디버깅할 수 �
 ## <a name="troubleshooting"></a>문제 해결  
   
 ### <a name="specifying-an-accelerator"></a>가속기 지정  
- GPU 코드의 중단점은 코드가 [accelerator::direct3d_ref](http://msdn.microsoft.com/library/a514b1a7-3b3f-4011-be6c-f7b0d9a42663)(REF) 가속기에서 실행되는 경우에만 적중됩니다. 코드에서 가속기를 지정하지 않는 경우 REF 가속기가 프로젝트 속성에서 **디버깅 가속기 형식**으로 자동으로 선택됩니다. 코드에서 명시적으로 가속기를 선택하는 경우에는 REF 가속기가 디버깅 중에 사용되지 않으며 GPU 하드웨어에 디버깅 지원 기능이 없는 한 중단점이 적중되지 않습니다. 디버깅 중에 REF 가속기를 사용하도록 코드를 작성하여 이 문제를 해결할 수 있습니다. 자세한 내용은 프로젝트 속성을 참조 하세요. 및 [accelerator 및 accelerator_view 개체를 사용 하 여](http://msdn.microsoft.com/library/18f0dc66-8236-4420-9f46-1a14f2c3fba1) 하 고 [에 대 한 프로젝트 설정을 C++ 디버그 구성](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
+ GPU 코드의 중단점은 코드가 [accelerator::direct3d_ref](https://msdn.microsoft.com/library/a514b1a7-3b3f-4011-be6c-f7b0d9a42663)(REF) 가속기에서 실행되는 경우에만 적중됩니다. 코드에서 가속기를 지정하지 않는 경우 REF 가속기가 프로젝트 속성에서 **디버깅 가속기 형식**으로 자동으로 선택됩니다. 코드에서 명시적으로 가속기를 선택하는 경우에는 REF 가속기가 디버깅 중에 사용되지 않으며 GPU 하드웨어에 디버깅 지원 기능이 없는 한 중단점이 적중되지 않습니다. 디버깅 중에 REF 가속기를 사용하도록 코드를 작성하여 이 문제를 해결할 수 있습니다. 자세한 내용은 프로젝트 속성을 참조 하세요. 및 [accelerator 및 accelerator_view 개체를 사용 하 여](https://msdn.microsoft.com/library/18f0dc66-8236-4420-9f46-1a14f2c3fba1) 하 고 [에 대 한 프로젝트 설정을 C++ 디버그 구성](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
   
 ### <a name="conditional-breakpoints"></a>조건부 중단점  
  GPU 코드에서 조건부 중단점이 지원되지만 장치에서 일부 식은 계산될 수 없습니다. 식이 장치에서 계산될 수 없는 경우 디버거에서 계산됩니다. 디버거는 대개 장치보다 느리게 실행됩니다.  
@@ -83,6 +83,6 @@ GPU(그래픽 처리 장치)에서 실행되는 C++ 코드를 디버깅할 수 �
  C++ AMP 계산이 Windows TDR(제한 시간 탐지 및 복구)에서 설정된 기본 시간 간격을 초과할 수 있습니다. 이 경우 계산이 취소되고 데이터가 손실됩니다. 자세한 내용은 [Handling TDRs in C++ AMP](http://go.microsoft.com/fwlink/p/?LinkId=249154)를 참조하십시오.  
   
 ## <a name="see-also"></a>참고 항목  
- [연습: 디버깅을 C++ AMP 응용 프로그램](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)   
+ [연습: 디버깅을 C++ AMP 응용 프로그램](https://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)   
  [C++ 디버그 구성을 위한 프로젝트 설정](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Visual Studio에서 GPU 디버깅 시작](http://go.microsoft.com/fwlink/p/?LinkId=255381)

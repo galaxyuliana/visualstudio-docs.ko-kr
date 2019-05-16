@@ -20,12 +20,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bd5074af8f0a9ca172d04b4cd5bb1d9057ad4bb5
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3f7ccd6af16d89c18f5a5bba63f6afc50de391c4
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63384073"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688711"
 ---
 # <a name="insert-new-records-into-a-database"></a>데이터베이스에 새 레코드 삽입
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "63384073"
   
 #### <a name="to-insert-new-records-into-a-database-by-using-the-tableadapterupdate-method"></a>TableAdapter.Update 메서드를 사용 하 여 데이터베이스에 새 레코드를 삽입 하려면  
   
-1. 원하는에 새 레코드를 추가 <xref:System.Data.DataTable> 새 <xref:System.Data.DataRow> 에 추가 하 여 <xref:System.Data.DataTable.Rows%2A> 컬렉션입니다. 자세한 내용은 [방법: DataTable에 행을 추가할](http://msdn.microsoft.com/library/78ebbb43-c402-49cf-81da-0715289487bf)합니다.  
+1. 원하는에 새 레코드를 추가 <xref:System.Data.DataTable> 새 <xref:System.Data.DataRow> 에 추가 하 여 <xref:System.Data.DataTable.Rows%2A> 컬렉션입니다. 자세한 내용은 [방법: DataTable에 행을 추가할](https://msdn.microsoft.com/library/78ebbb43-c402-49cf-81da-0715289487bf)합니다.  
   
 2. 새 행에 추가 된 후의 <xref:System.Data.DataTable>를 호출 합니다 `TableAdapter.Update` 메서드. 전체에서 전달 하 여 업데이트 하는 데이터의 양을 제어할 수 있습니다 <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, 배열을 <xref:System.Data.DataRow>s, 단일 <xref:System.Data.DataRow>합니다.  
   

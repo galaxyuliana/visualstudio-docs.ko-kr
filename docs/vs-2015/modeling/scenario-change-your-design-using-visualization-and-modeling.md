@@ -17,12 +17,12 @@ caps.latest.revision: 63
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 914d5806ed0b40a227d61c673e5f463624b0cc11
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: dbb123b952287de0b519bfdd40b0d9a851a0b81f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63403566"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686884"
 ---
 # <a name="scenario-change-your-design-using-visualization-and-modeling"></a>시나리오: 시각화 및 모델링을 사용하여 디자인 변경
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -297,11 +297,11 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
   
  참조  
   
-- [빌드 프로세스 정의](http://msdn.microsoft.com/library/61593e10-d24b-492f-b19a-af4d85abea6b)  
+- [빌드 프로세스 정의](https://msdn.microsoft.com/library/61593e10-d24b-492f-b19a-af4d85abea6b)  
   
-- [제어된 체크 인 빌드 프로세스를 사용하여 변경 내용 유효성 검사](http://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)  
+- [제어된 체크 인 빌드 프로세스를 사용하여 변경 내용 유효성 검사](https://msdn.microsoft.com/library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec)  
   
-- [빌드 프로세스 템플릿 사용자 지정](http://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
+- [빌드 프로세스 템플릿 사용자 지정](https://msdn.microsoft.com/library/b94c58f2-ae6f-4245-bedb-82cd114f6039)  
   
 ### <a name="GeneralTips"></a> General Tips for Creating and Using Models  
   
@@ -336,13 +336,13 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
   
   참조  
   
-- [Visual Studio Team Services 또는 Team Foundation Server를 사용하여 작업 추적](http://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
+- [Visual Studio Team Services 또는 Team Foundation Server를 사용하여 작업 추적](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)  
   
 - [모델 요소 및 작업 항목 연결](../modeling/link-model-elements-and-work-items.md)  
   
-- [Visual Studio ALM용 차트, 대시보드 및 보고서](http://msdn.microsoft.com/library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
+- [Visual Studio ALM용 차트, 대시보드 및 보고서](https://msdn.microsoft.com/library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)  
   
-- [Project를 사용하여 백로그 및 작업 만들기](http://msdn.microsoft.com/library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
+- [Project를 사용하여 백로그 및 작업 만들기](https://msdn.microsoft.com/library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)  
   
 ### <a name="TestValidateCheckInCode"></a> 코드 테스트, 유효성 검사 및 체크 인  
  팀에서 각 작업을 완료하면 코드를 Team Foundation 버전 제어에 체크 인하고 잊지 않도록 Team Foundation Server에서 미리 알림을 수신합니다. Team Foundation Server가 체크 인을 승인하기 전에 팀에서는 단위 테스트 및 레이어 유효성 검사를 실행하여 테스트 사례 및 디자인에 대해 코드를 확인합니다. Team Foundation Server를 사용하여 빌드, 자동화된 단위 테스트 및 레이어 유효성 검사를 정기적으로 실행합니다. 이렇게 하면 코드가 다음 기준을 충족하는지 확인할 수 있습니다.  
@@ -359,13 +359,13 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
   
   참조  
   
-- [응용 프로그램 테스트](http://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)  
+- [응용 프로그램 테스트](https://msdn.microsoft.com/library/796b7d6d-ad45-4772-9719-55eaf5490dac)  
   
 - [개발하는 동안 시스템 유효성 검사](../modeling/validate-your-system-during-development.md)  
   
 - [버전 제어 사용](http://go.microsoft.com/fwlink/?LinkID=525605)  
   
-- [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
+- [애플리케이션 빌드](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)  
   
 ## <a name="UpdatingSystem"></a> Updating the System Using Visualization and Modeling  
  Lucerne과 Dinner Now는 결제 시스템을 통합해야 합니다. 다음 섹션에서는 이 작업을 하는 데 도움이 되는 Visual Studio의 모델링 다이어그램을 보여 줍니다.  
@@ -888,6 +888,6 @@ Visual Studio에서 시각화 및 모델링 도구를 사용하여 소프트웨�
  [코드 시각화](../modeling/visualize-code.md)   
  [앱 용 모델 만들기](../modeling/create-models-for-your-app.md)   
  [개발 프로세스에서 모델 사용](../modeling/use-models-in-your-development-process.md)   
- [Agile 개발에서 모델 사용](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+ [Agile 개발에서 모델 사용](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [개발 하는 동안 시스템 유효성 검사](../modeling/validate-your-system-during-development.md)   
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)

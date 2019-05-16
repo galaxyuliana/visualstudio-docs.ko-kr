@@ -8,17 +8,17 @@ ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
 caps.latest.revision: 6
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c15b1f335129e7c749aadefaa78ee3f9c5862baa
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.openlocfilehash: 44cb171594a6d595652b3c013505927bd82f947e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "59002233"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685244"
 ---
 # <a name="roslyn-analyzers-and-code-aware-library-for-immutablearrays"></a>ImmutableArrays에 대한 Roslyn 분석기 및 코드 인식 라이브러리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-합니다 [.NET 컴파일러 플랫폼](https://github.com/dotnet/roslyn) ("Roslyn")를 사용 하면 코드 인식 라이브러리를 작성할 수 있습니다. 코드 인식 라이브러리는 가장 좋은 방법은 또는 오류를 방지 하려면 기능을 사용할 수 있습니다 및 라이브러리를 사용할 수 있습니다 (Roslyn 분석기) 도구를 제공 합니다. 이 항목에서는 사용할 때 일반적인 오류를 catch 하는 실제 Roslyn 분석기를 빌드하는 방법을 보여 줍니다.는 [NIB: 변경할 수 없는 컬렉션](http://msdn.microsoft.com/library/33f4449d-7078-450a-8d60-d9229f66bbca) NuGet 패키지. 예제에는 분석기가 발견 한 코드 문제에 대 한 코드 수정 제공 하는 방법을 보여 줍니다. 사용자 코드 수정 사항은 Visual Studio 전구 UI에서에서 참조 하 고 코드에 대 한 수정 프로그램이 자동으로 적용할 수 있습니다.
+합니다 [.NET 컴파일러 플랫폼](https://github.com/dotnet/roslyn) ("Roslyn")를 사용 하면 코드 인식 라이브러리를 작성할 수 있습니다. 코드 인식 라이브러리는 가장 좋은 방법은 또는 오류를 방지 하려면 기능을 사용할 수 있습니다 및 라이브러리를 사용할 수 있습니다 (Roslyn 분석기) 도구를 제공 합니다. 이 항목에서는 사용할 때 일반적인 오류를 catch 하는 실제 Roslyn 분석기를 빌드하는 방법을 보여 줍니다.는 [NIB: 변경할 수 없는 컬렉션](https://msdn.microsoft.com/library/33f4449d-7078-450a-8d60-d9229f66bbca) NuGet 패키지. 예제에는 분석기가 발견 한 코드 문제에 대 한 코드 수정 제공 하는 방법을 보여 줍니다. 사용자 코드 수정 사항은 Visual Studio 전구 UI에서에서 참조 하 고 코드에 대 한 수정 프로그램이 자동으로 적용할 수 있습니다.
 
 ## <a name="getting-started"></a>시작
 이 예제를 빌드하려면 다음이 필요 합니다.

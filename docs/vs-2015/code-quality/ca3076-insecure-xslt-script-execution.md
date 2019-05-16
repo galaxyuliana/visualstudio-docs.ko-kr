@@ -8,12 +8,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 903074787169a8889db89a85d65129c1b97c13e2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0a6b1efa5b5ee84092531a67421d03583afc3578
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096961"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65680726"
 ---
 # <a name="ca3076-insecure-xslt-script-execution"></a>CA3076: XSLT 스크립트 실행이 안전하지 않습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,10 +26,10 @@ ms.locfileid: "60096961"
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
- .NET 애플리케이션에서 비보안 방식으로 [XSLT(Extensible Stylesheets Language Transformations)](https://support.microsoft.com/kb/313997) 를 실행하는 경우 프로세서는 공격자에게 중요한 정보를 노출하여 서비스 거부 및 사이트 간 공격을 유발할 수 있는 [신뢰할 수 없는 URI 참조를 확인](http://msdn.microsoft.com/ba3e4d4f-1ee7-4226-a51a-78a1f1b5bd8a) 할 수 있습니다.
+ .NET 애플리케이션에서 비보안 방식으로 [XSLT(Extensible Stylesheets Language Transformations)](https://support.microsoft.com/kb/313997) 를 실행하는 경우 프로세서는 공격자에게 중요한 정보를 노출하여 서비스 거부 및 사이트 간 공격을 유발할 수 있는 [신뢰할 수 없는 URI 참조를 확인](https://msdn.microsoft.com/ba3e4d4f-1ee7-4226-a51a-78a1f1b5bd8a) 할 수 있습니다.
 
 ## <a name="rule-description"></a>규칙 설명
- [XSLT](http://msdn.microsoft.com/6377ce5f-3c45-42a6-b7a9-ec8da588b60c) 는 XML 데이터를 변환하기 위한 W3C(World Wide Web 콘소시엄) 표준입니다. XSLT는 XML 데이터를 HTML, 고정 길이 텍스트, 쉼표로 구분된 텍스트 또는 기타 XML 형식 등으로 변환하기 위한 스타일시트를 작성하는 데 일반적으로 사용됩니다. 이 기능은 프로젝트에서 기본적으로는 금지되어 있지만 사용하도록 설정할 수 있습니다.
+ [XSLT](https://msdn.microsoft.com/6377ce5f-3c45-42a6-b7a9-ec8da588b60c) 는 XML 데이터를 변환하기 위한 W3C(World Wide Web 콘소시엄) 표준입니다. XSLT는 XML 데이터를 HTML, 고정 길이 텍스트, 쉼표로 구분된 텍스트 또는 기타 XML 형식 등으로 변환하기 위한 스타일시트를 작성하는 데 일반적으로 사용됩니다. 이 기능은 프로젝트에서 기본적으로는 금지되어 있지만 사용하도록 설정할 수 있습니다.
 
  공격 노출 영역을 노출 하지 하도록이 규칙 때마다 트리거는 XslCompiledTransform.<xref:System.Xml.Xsl.XslCompiledTransform.Load%2A> 안전 하지 않은 조합 인스턴스의 받습니다 <xref:System.Xml.Xsl.XsltSettings> 및 <xref:System.Xml.XmlResolver>, 악성 스크립트를 처리를 허용 하는 합니다.
 

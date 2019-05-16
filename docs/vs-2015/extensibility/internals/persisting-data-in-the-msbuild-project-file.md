@@ -10,19 +10,19 @@ ms.assetid: 6a920cb7-453d-4ffd-af1c-6f3084bd03f7
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4563cd912295cf447b8268c0b9f54e39d11e921f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 39d2ab449c3623a90dd76729b46a9f353900fc88
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60051884"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704124"
 ---
 # <a name="persisting-data-in-the-msbuild-project-file"></a>MSBuild 프로젝트 파일의 데이터 유지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 프로젝트 하위 형식이 면 나중에 사용할 프로젝트 파일에 하위 형식의 특정 데이터를 유지 해야 합니다. 프로젝트 하위 형식이 면 다음 요구 사항을 충족 하기 위해 프로젝트 파일 지 속성을 사용 합니다.  
   
-1. 프로젝트 빌드의 일부로 사용 되는 데이터를 유지 합니다. (Microsoft Build Engine에 대 한 자세한 내용은 참조 하세요. [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) 빌드 관련 정보를 수행할 수 있습니다.  
+1. 프로젝트 빌드의 일부로 사용 되는 데이터를 유지 합니다. (Microsoft Build Engine에 대 한 자세한 내용은 참조 하세요. [MSBuild](https://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) 빌드 관련 정보를 수행할 수 있습니다.  
   
     1. 구성에 관계 없이 데이터입니다. 즉, 비어 있거나 누락 된 조건 사용 하 여 MSBuild 요소에 저장 된 데이터입니다.  
   

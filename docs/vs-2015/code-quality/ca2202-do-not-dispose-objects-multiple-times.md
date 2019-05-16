@@ -15,12 +15,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 2b5968c0ba577893bae87e67dee3aa0e8a178e41
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: HT
+ms.openlocfilehash: 3dfe606e3083c937db3ba3d1e6cd49d34bace853
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972455"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697979"
 ---
 # <a name="ca2202-do-not-dispose-objects-multiple-times"></a>CA2202: 개체를 여러 번 삭제하지 마십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ ms.locfileid: "58972455"
  이 규칙에서는 경고를 표시해야 합니다. 경우에 <xref:System.IDisposable.Dispose%2A> 개체를 여러 번 안전 하 게 호출할 수 알려져 구현은 나중에 변경 될 수 있습니다.
 
 ## <a name="example"></a>예제
- 중첩 `using` 문 (`Using` Visual Basic에서) 위반 CA2202 경고를 발생할 수 있습니다. 경우 중첩 내부 IDisposable 리소스 `using` 문 외부의 리소스를 포함 `using` 문에서 `Dispose` 중첩 된 리소스의 메서드가 포함 된 리소스를 해제 합니다. 이러한 상황이 발생 하는 경우는 `Dispose` 외부 메서드의 `using` 문을 두 번째로 해당 리소스를 삭제 하려고 합니다.
+ 중첩 `using` 문 (`Using` Visual basic에서) 위반 CA2202 경고를 발생할 수 있습니다. 경우 중첩 내부 IDisposable 리소스 `using` 문 외부의 리소스를 포함 `using` 문에서 `Dispose` 중첩 된 리소스의 메서드가 포함 된 리소스를 해제 합니다. 이러한 상황이 발생 하는 경우는 `Dispose` 외부 메서드의 `using` 문을 두 번째로 해당 리소스를 삭제 하려고 합니다.
 
  다음 예에서 <xref:System.IO.Stream> 외부에서 만든 개체의 Dispose 메서드에서 문을 사용 하 여 내부 끝날 때 해제 됩니다 문을 사용 하는 <xref:System.IO.StreamWriter> 포함 된 개체는 `stream` 개체. 외부의 끝 `using` 문에서 `stream` 개체가 해제 되는 두 번째 시간입니다. 두 번째 릴리스 CA2202에 위반 됩니다.
 
@@ -84,4 +84,4 @@ finally
 ```
 
 ## <a name="see-also"></a>참고 항목
- <xref:System.IDisposable?displayProperty=fullName> [삭제 패턴](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ <xref:System.IDisposable?displayProperty=fullName> [삭제 패턴](https://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

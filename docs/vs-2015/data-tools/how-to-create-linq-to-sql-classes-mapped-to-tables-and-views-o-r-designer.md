@@ -9,16 +9,16 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5b6e661a79f190e5befdbcf5c28ec0f4bd29ebf4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: b9bff102fbf87149e3adc80029eea17132e9b1b7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63386662"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697722"
 ---
 # <a name="how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-or-designer"></a>방법: 테이블 및 보기에 매핑된 LINQ to SQL 클래스 만들기(O/R 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
-LINQ to SQL 클래스 데이터베이스 테이블 및 뷰에 매핑되는 이라고 *엔터티 클래스*합니다. 엔터티 클래스는 레코드에 매핑되지만 엔터티 클래스의 개별 속성 레코드를 구성 하는 각 열에 매핑됩니다. 테이블 또는 뷰를 끌어 데이터베이스 테이블 또는 뷰에에 기반한 엔터티 클래스를 만듭니다 **서버 탐색기**/**데이터베이스 탐색기** 에 [의 LINQ to SQL 도구 Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)합니다. [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 클래스를 생성 하 고 특정 적용 [! LINQ to SQL 특성을 사용 하도록 설정 [! SQL 기능에는 LINQ (데이터 통신 및 편집의 기능을 <xref:System.Data.Linq.DataContext>). 에 대 한 자세한 내용은 [! LINQ to SQL 클래스를 참조 하세요 [LINQ to SQL 개체 모델](http://msdn.microsoft.com/library/81dd0c37-e2a4-4694-83b0-f2e49e693810)합니다.
+LINQ to SQL 클래스 데이터베이스 테이블 및 뷰에 매핑되는 이라고 *엔터티 클래스*합니다. 엔터티 클래스는 레코드에 매핑되지만 엔터티 클래스의 개별 속성 레코드를 구성 하는 각 열에 매핑됩니다. 테이블 또는 뷰를 끌어 데이터베이스 테이블 또는 뷰에에 기반한 엔터티 클래스를 만듭니다 **서버 탐색기**/**데이터베이스 탐색기** 에 [의 LINQ to SQL 도구 Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)합니다. [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 클래스를 생성 하 고 특정 적용 [! LINQ to SQL 특성을 사용 하도록 설정 [! SQL 기능에는 LINQ (데이터 통신 및 편집의 기능을 <xref:System.Data.Linq.DataContext>). 에 대 한 자세한 내용은 [! LINQ to SQL 클래스를 참조 하세요 [LINQ to SQL 개체 모델](https://msdn.microsoft.com/library/81dd0c37-e2a4-4694-83b0-f2e49e693810)합니다.
 
 > [!NOTE]
 > [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]는 일대일 매핑 관계만 지원하는 단순 개체 관계형 매퍼입니다. 즉, 엔터티 클래스는 데이터베이스 테이블 또는 뷰와 1:1 매핑 관계만 갖습니다. 엔터티 클래스를 여러 테이블에 매핑하는 복잡한 매핑은 지원되지 않습니다. 그러나 엔터티 클래스를 여러 관련 테이블을 연결하는 뷰에 매핑할 수 있습니다.
@@ -39,7 +39,7 @@ LINQ to SQL 클래스 데이터베이스 테이블 및 뷰에 매핑되는 이�
      엔터티 클래스가 만들어져 디자인 화면에 표시됩니다. 엔터티 클래스에는 선택한 테이블 또는 뷰의 열에 매핑되는 속성이 있습니다.
 
 ## <a name="create-an-object-data-source-and-display-the-data-on-a-form"></a>개체 데이터 소스를 만들어 폼에 데이터 표시
- 사용 하 여 엔터티 클래스를 만든 후 합니다 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)], 개체 데이터 소스를 만들고 채울 수 있습니다 합니다 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) 엔터티 클래스를 사용 하 여 합니다.
+ 사용 하 여 엔터티 클래스를 만든 후 합니다 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)], 개체 데이터 소스를 만들고 채울 수 있습니다 합니다 [데이터 소스 창](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) 엔터티 클래스를 사용 하 여 합니다.
 
 #### <a name="to-create-an-object-data-source-based-on-linq-to-sql-entity-classes"></a>LINQ to SQL 엔터티 클래스 기반의 개체 데이터 소스를 만들려면
 
@@ -63,10 +63,10 @@ LINQ to SQL 클래스 데이터베이스 테이블 및 뷰에 매핑되는 이�
 ## <a name="see-also"></a>참고자료
 
 - [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)(Visual Studio의 LINQ to SQL 도구)
-- [연습: LINQ to SQL 클래스 (O-r 디자이너) 만들기](http://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)
+- [연습: LINQ to SQL 클래스 (O-r 디자이너) 만들기](https://msdn.microsoft.com/library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)
 - [DataContext 메서드(O/R 디자이너)](../data-tools/datacontext-methods-o-r-designer.md)
 - [방법: 저장 프로시저 및 함수에 매핑된 DataContext 메서드 만들기(O/R 디자이너)](../data-tools/how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md)
-- [LINQ to SQL 개체 모델](http://msdn.microsoft.com/library/81dd0c37-e2a4-4694-83b0-f2e49e693810)
+- [LINQ to SQL 개체 모델](https://msdn.microsoft.com/library/81dd0c37-e2a4-4694-83b0-f2e49e693810)
 - [연습: 엔터티 클래스의 삽입, 업데이트 및 삭제 동작 사용자 지정](../data-tools/walkthrough-customizing-the-insert-update-and-delete-behavior-of-entity-classes.md)
-- [연습: 엔터티 클래스에 유효성 검사 추가](http://msdn.microsoft.com/library/85b06a02-b2e3-4534-95b8-d077c8d4c1d7)
+- [연습: 엔터티 클래스에 유효성 검사 추가](https://msdn.microsoft.com/library/85b06a02-b2e3-4534-95b8-d077c8d4c1d7)
 - [방법: LINQ to SQL 클래스 간에 연결(관계) 만들기(O/R 디자이너)](../data-tools/how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md)

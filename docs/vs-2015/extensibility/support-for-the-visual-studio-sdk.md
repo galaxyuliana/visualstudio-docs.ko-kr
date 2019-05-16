@@ -14,12 +14,12 @@ ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e71097bacd12e8e60690108a8dd62a370aed6f52
-ms.sourcegitcommit: 4d9c54f689416bf1dc4ace058919592482d02e36
+ms.openlocfilehash: 1bfb2a7e30542977906fd71e168652aa661fcc8d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002969"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688726"
 ---
 # <a name="support-for-the-visual-studio-sdk"></a>Visual Studio SDK 지원
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ms.locfileid: "59002969"
 ## <a name="included-support"></a>포함 된 지원  
   
 ### <a name="visual-studio-product-support"></a>Visual Studio 제품 지원  
- 일부 지원을 구매 하 여 포함 된 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 제품입니다. 자세한 내용은 [Visual Studio 지원](http://msdn.microsoft.com/vstudio/cc136615.aspx)합니다. Microsoft는 전담된 지원 팀에 대 한 질문에 답변을 유지 관리 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 확장성.  
+ 일부 지원을 구매 하 여 포함 된 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 제품입니다. 자세한 내용은 [Visual Studio 지원](https://msdn.microsoft.com/vstudio/cc136615.aspx)합니다. Microsoft는 전담된 지원 팀에 대 한 질문에 답변을 유지 관리 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 확장성.  
   
 ### <a name="msdn-subscription-support"></a>MSDN 구독 지원  
  MSDN 구독 패키지에는 일부 지원을 포함할 수도 있습니다. 자세한 내용은 [MSDN 구독자 지원](https://msdn.microsoft.com/subscriptions/aa718661.aspx)합니다.  

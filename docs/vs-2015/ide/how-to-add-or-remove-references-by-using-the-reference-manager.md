@@ -23,12 +23,12 @@ caps.latest.revision: 48
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8d7d4524f1839179ac253265d95f191caf1c50af
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 54d64fd59e71b582548aa5efade8d45a24ddb560
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445680"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701165"
 ---
 # <a name="how-to-add-or-remove-references-by-using-the-reference-manager"></a>방법: 참조 추가 또는 제거 참조 관리자를 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -94,7 +94,7 @@ ms.locfileid: "63445680"
   
 - [!INCLUDE[net_v40_short](../includes/net-v40-short-md.md)]를 사용하는 구성 요소는 [!INCLUDE[net_v45](../includes/net-v45-md.md)]을 대상으로 하는 프로젝트와 호환되지 않습니다.  
   
-     새 애플리케이션을 만들면 기본적으로 일부 프로젝트가 [!INCLUDE[net_v45](../includes/net-v45-md.md)]을 대상으로 합니다. 자세한 내용은 [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)을 참조하세요.  
+     새 애플리케이션을 만들면 기본적으로 일부 프로젝트가 [!INCLUDE[net_v45](../includes/net-v45-md.md)]을 대상으로 합니다. 자세한 내용은 [.NET Framework Client Profile](https://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)을 참조하세요.  
   
 - 동일한 솔루션에 있는 다른 프로젝트의 출력에 대한 파일 참조를 추가하면 컴파일 오류가 발생할 수 있으므로 이 방법은 사용하지 않는 것이 좋습니다. 대신 **참조 추가** 대화 상자의 **프로젝트** 탭을 사용하여 프로젝트 간 참조를 만듭니다. 이렇게 하면 프로젝트에서 만드는 클래스 라이브러리를 보다 효율적으로 관리할 수 있으므로 개발 팀이 작업하기가 간편해집니다. 자세한 내용은 [끊어진 참조 문제 해결](../ide/troubleshooting-broken-references.md)을 참조하세요.  
   
@@ -173,7 +173,7 @@ ms.locfileid: "63445680"
 </PropertyGroup>  
 ```  
   
- 이 하위 그룹의 **Windows** 확인란이 선택되어 있는지 확인합니다. 이 경우 Windows 런타임 요소를 사용할 수 있어야 합니다. 그러나, Windows 런타임 라이브러리에서 사용되는 IEnumerable과 같은 일부 표준 클래스 및 인터페이스를 Windows 런타임에서 정의하는 경우, System.Runtime도 추가하려 할 수 있습니다. System.Runtime을 추가하는 방법은 [관리되는 데스크톱 앱 및 Windows 런타임](http://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types)을 참조하세요.  
+ 이 하위 그룹의 **Windows** 확인란이 선택되어 있는지 확인합니다. 이 경우 Windows 런타임 요소를 사용할 수 있어야 합니다. 그러나, Windows 런타임 라이브러리에서 사용되는 IEnumerable과 같은 일부 표준 클래스 및 인터페이스를 Windows 런타임에서 정의하는 경우, System.Runtime도 추가하려 할 수 있습니다. System.Runtime을 추가하는 방법은 [관리되는 데스크톱 앱 및 Windows 런타임](https://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types)을 참조하세요.  
   
 ### <a name="extensions-subgroup"></a>확장명 하위 그룹  
  확장 하위 그룹은 대상 Windows 플랫폼을 확장하는 사용자 SDK를 나열합니다. 이 탭은 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 앱 프로젝트의 경우에만 나타납니다. 데스크톱 프로젝트의 경우 자사 .winmd 파일만 사용할 수 있으므로 이 탭이 표시되지 않습니다.  
@@ -216,5 +216,5 @@ ms.locfileid: "63445680"
  **참조 관리자** 대화 상자의 검색 창은 포커스가 있는 탭에 대해서 작동합니다. 예를 들어, 사용자가 **솔루션** 탭에 포커스가 있을 때 검색 창에 "System"을 입력한 경우, "System"을 포함하는 프로젝트 이름으로 구성된 솔루션이 아닌 한 어떠한 검색 결과도 반환되지 않습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [NIB 방법: 참조 추가 또는 제거 참조 추가 대화 상자를 사용 하 여](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
+ [NIB 방법: 참조 추가 또는 제거 참조 추가 대화 상자를 사용 하 여](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
  [프로젝트의 참조 관리](../ide/managing-references-in-a-project.md)

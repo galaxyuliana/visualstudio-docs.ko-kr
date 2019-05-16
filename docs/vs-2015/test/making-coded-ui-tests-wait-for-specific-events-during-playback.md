@@ -8,12 +8,12 @@ ms.assetid: 41981ad6-673e-492e-b739-9863b14157b1
 caps.latest.revision: 26
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 036c0ced92fd4da85989883ab5725455ed172db4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 8c0158370ceb101e8c6934f92e2dd3e8689254c5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63416290"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686309"
 ---
 # <a name="making-coded-ui-tests-wait-for-specific-events-during-playback"></a>코딩된 UI 테스트가 재생 중 특정 이벤트를 기다리도록 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "63416290"
  Visual Studio Enterprise  
   
 > [!TIP]
-> 또한 코딩된 UI 테스트 편집기를 사용해서 작업을 수행하기 전에 지연을 추가할 수도 있습니다. 자세한 내용은 [방법: 코딩 된 UI 테스트 편집기를 사용 하 여 UI 작업 전에 지연 삽입](http://msdn.microsoft.com/library/509f8ef7-e105-4049-b11b-d64549e055b0)합니다.  
+> 또한 코딩된 UI 테스트 편집기를 사용해서 작업을 수행하기 전에 지연을 추가할 수도 있습니다. 자세한 내용은 [방법: 코딩 된 UI 테스트 편집기를 사용 하 여 UI 작업 전에 지연 삽입](https://msdn.microsoft.com/library/509f8ef7-e105-4049-b11b-d64549e055b0)합니다.  
   
  **UITestControl.WaitForControlXXX() 메서드**  
   
@@ -117,4 +117,4 @@ UITestControl.WaitForCondition<UITestControl[]>(new UITestControl[] { statusText
  [연습: 만들기, 편집 및 코딩된 된 UI 테스트 유지 관리](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)   
  [코딩된 UI 테스트 분석](../test/anatomy-of-a-coded-ui-test.md)   
  [코딩된 UI 테스트 및 작업 기록에 지원되는 구성 및 플랫폼](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
- [방법: 코딩 된 UI 테스트 편집기를 사용 하 여 UI 작업 전에 지연 삽입](http://msdn.microsoft.com/library/509f8ef7-e105-4049-b11b-d64549e055b0)
+ [방법: 코딩 된 UI 테스트 편집기를 사용 하 여 UI 작업 전에 지연 삽입](https://msdn.microsoft.com/library/509f8ef7-e105-4049-b11b-d64549e055b0)

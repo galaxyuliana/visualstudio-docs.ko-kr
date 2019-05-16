@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 663adfbf1858a4da686330813c6fe3c5eed4d098
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d2f581582acfed38d55a2cfef351856cc0caa945
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63407590"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65678917"
 ---
 # <a name="walkthrough-debugging-a-windows-form"></a>연습: Windows Form 디버깅
 Windows 폼에는 가장 일반적인 관리 되는 응용 프로그램 중 하나입니다. Windows 폼에 표준 Windows 응용 프로그램을 만듭니다. Visual Basic을 사용 하 여이 연습을 완료 하려면 C#, 또는 C++합니다.
@@ -165,23 +165,24 @@ Windows 폼에는 가장 일반적인 관리 되는 응용 프로그램 중 하�
 
     ```cpp
     textBox1->Text = "Button was clicked!";
+    ```
 
-2. On the **Debug** menu, select **Start Without Debugging**.
+2. 에 **디버그** 메뉴에서 **디버깅 하지 않고 시작**합니다.
 
-     The Windows Form starts running under Windows, just as if you had double-clicked its executable. The debugger is not attached.
+     Windows 폼 것 처럼 해당 실행 파일을 두 번 클릭 했습니다를 Windows에서 실행을 시작 합니다. 디버거가 연결 되지 않습니다.
 
-3. On the **Debug** menu, select **Attach to Process**. (This command is also available on the **Tools** menu.)
+3. 에 **디버그** 메뉴에서 **프로세스에 연결**합니다. (이 명령에서 사용할 수 있는 이기도 합니다 **도구** 메뉴.)
 
-     The **Attach to Process** dialog box appears.
+     **프로세스에 연결** 대화 상자가 나타납니다.
 
-4. In the **Available Processes** pane, find the process name (Walkthrough_SimpleDebug.exe) in the **Process** column and click it.
+4. 에 **사용 가능한 프로세스** 창, 프로세스 이름 (Walkthrough_SimpleDebug.exe) 찾기 합니다 **프로세스** 열 클릭 합니다.
 
-5. Click the **Attach** button.
+5. 클릭 합니다 **연결** 단추입니다.
 
-6. In your Windows Form, click the one and only button.
+6. Windows 폼에서 및만 단추를 클릭 합니다.
 
-     The debugger breaks execution of the Windows Form at the breakpoint.
+     디버거가는 중단점에서 Windows Form의 실행을 중단 합니다.
 
-## See Also
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
-- [Debugger Security](../debugger/debugger-security.md)
+## <a name="see-also"></a>참고 항목
+- [관리 코드 디버그](../debugger/debugging-managed-code.md)
+- [디버거 보안](../debugger/debugger-security.md)

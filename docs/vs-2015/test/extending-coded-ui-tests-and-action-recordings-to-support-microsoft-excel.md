@@ -8,12 +8,12 @@ ms.assetid: 6b0f72a4-70ca-4e55-b236-2ea1034fd8a7
 caps.latest.revision: 32
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 61c802ebca49c15a3a7baa785400f90621a27e9f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a85676fca972bb0d2d91f5ffd7c7cbf95bfc68c8
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63416463"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686394"
 ---
 # <a name="extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel"></a>Microsoft Excel을 지원하도록 코딩된 UI 테스트 및 작업 기록 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ ms.locfileid: "63416463"
 ### <a name="microsoft-excel-add-in-excelcodeduiaddinhelper"></a>Microsoft Excel 추가 기능에서: ExcelCodedUIAddinHelper  
  이 프로젝트에는 Excel 프로세스에서 실행되는 추가 기능이 포함됩니다. 추가 기능 프로젝트에 대한 간략한 개요는 [코딩된 UI 테스트에 대한 샘플 Excel 추가 기능](../test/sample-excel-add-in-for-coded-ui-testing.md)을 참조하세요.  
   
- 자세한 내용은 [연습: 첫 번째 VSTO 추가 기능 만들기 Excel 용](http://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)합니다.  
+ 자세한 내용은 [연습: 첫 번째 VSTO 추가 기능 만들기 Excel 용](https://msdn.microsoft.com/library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)합니다.  
   
 ### <a name="excel-ui-communication-exceluicommunicationhelper"></a>Excel UI 통신: ExcelUIcommunicationHelper  
  이 프로젝트에는 코딩된 UI 테스트 프레임워크와 Excel 간 데이터를 전달하기 위해 사용되는 `IExcelUICommunication` 인터페이스 및 정보 클래스가 포함되어 있습니다. 자세한 내용은 [샘플 Excel Communicator 인터페이스](../test/sample-excel-communicator-interface.md)를 참조하세요.  

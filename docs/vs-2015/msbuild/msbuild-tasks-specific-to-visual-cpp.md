@@ -16,17 +16,17 @@ caps.latest.revision: 10
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 4f4de01af6535a33607e5263966492210f8ce4a5
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 452c3b408ab6471963124e61bc803e99eb6be80d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59647961"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686914"
 ---
 # <a name="msbuild-tasks-specific-to-visual-c"></a>Visaul C++ 관련 MSBuild 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-작업은 빌드 프로세스 동안 실행되는 코드를 제공합니다. Visual C++가 설치되면 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]와 함께 설치되는 작업 외에 다음 작업을 사용할 수 있습니다. 자세한 내용은 [MSBuild(Visual C++) 개요](http://msdn.microsoft.com/library/dd258f6f-ab51-48d9-b274-f7ba911d05ca)를 참조하세요.  
+작업은 빌드 프로세스 동안 실행되는 코드를 제공합니다. Visual C++가 설치되면 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]와 함께 설치되는 작업 외에 다음 작업을 사용할 수 있습니다. 자세한 내용은 [MSBuild(Visual C++) 개요](https://msdn.microsoft.com/library/dd258f6f-ab51-48d9-b274-f7ba911d05ca)를 참조하세요.  
   
  각 작업에 대한 매개 변수 외에도 모든 작업에는 다음과 같은 매개 변수가 있습니다.  
   

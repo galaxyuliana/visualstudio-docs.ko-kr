@@ -14,12 +14,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 25ee5a4e9a84201f93783bcef64f92ec74206fc6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1af00ebc2f6fdc1bc32a5a6784b88068d4e3ffb2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62422749"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65693390"
 ---
 # <a name="code-analysis-application-errors"></a>코드 분석 애플리케이션 오류
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,6 +59,6 @@ ms.locfileid: "62422749"
 
 ## <a name="related-sections"></a>관련 단원
 
-- [보안 코드를 작성 하는 것에 대 한 지침](http://msdn.microsoft.com/9892fd19-45cd-44b6-9fa8-10f1b5cb6ea4)
+- [보안 코드를 작성 하는 것에 대 한 지침](https://msdn.microsoft.com/9892fd19-45cd-44b6-9fa8-10f1b5cb6ea4)
 - [관리 코드 품질 분석](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)
-- [응용 프로그램 수명 주기 관리 도구에서 오류를 해결 하기 위한 리소스](http://msdn.microsoft.com/library/76ca8f76-1e2d-4b55-89e2-bd59e4abe74c)
+- [응용 프로그램 수명 주기 관리 도구에서 오류를 해결 하기 위한 리소스](https://msdn.microsoft.com/library/76ca8f76-1e2d-4b55-89e2-bd59e4abe74c)

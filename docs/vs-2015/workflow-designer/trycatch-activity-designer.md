@@ -12,18 +12,18 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e9d8c539d91c95b03f4946e256de7a825a6df7ba
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fb155cc7bbf4efbda54666f91f2db3f92e6c378c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62976606"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697082"
 ---
 # <a name="trycatch-activity-designer"></a>TryCatch 활동 디자이너
 합니다 **TryCatch** 활동 디자이너는 만들기 및 구성 하는 데 사용 되는 <xref:System.Activities.Statements.TryCatch> 활동입니다.  
   
 ## <a name="the-trycatch-activity"></a>TryCatch 활동  
- <xref:System.Activities.Statements.TryCatch> 활동에 포함 한 <xref:System.Activities.Statements.TryCatch.Try%2A> 활동의 컬렉션인 **Catch\<TException >** 및 <xref:System.Activities.Statements.TryCatch.Finally%2A> 활동. <xref:System.Activities.Statements.Catch%601> 형식의 **TException** 포함 된 <xref:System.Activities.Statements.Catch%601.ExceptionType%2A> 및 <xref:System.Activities.Statements.Catch%601.Action%2A>합니다. 둘 다 일반적인 예외 기반의 오류 처리 메커니즘을 구현하는 데 사용됩니다. <xref:System.Activities.Statements.TryCatch> 활동은 <xref:System.Activities.Statements.TryCatch.Try%2A> 활동을 실행하려고 합니다. 경우는 <xref:System.Activities.Statements.TryCatch.Try%2A> 작업 예외를 throw 합니다 <xref:System.Activities.Statements.TryCatch> 활동은 해당 **Catch < TException\>**  예외와 일치 하는 컬렉션입니다. 일치 하는 경우 해당 <xref:System.Activities.Statements.Catch%601.Action%2A> 해당 **Catch\<TException >** 실행 되 면 오류 처리는 예외에 대 한 논리를 제공 합니다. <xref:System.Activities.Statements.TryCatch.Try%2A> 섹션의 활동이 성공적으로 완료되었거나 <xref:System.Activities.Statements.TryCatch.Catches%2A>의 활동이 성공적으로 완료된 경우 <xref:System.Activities.Statements.TryCatch> 활동은 해당 <xref:System.Activities.Statements.TryCatch.Finally%2A> 활동을 실행합니다. [!INCLUDE[crdefault](../includes/crdefault-md.md)][예외](http://msdn.microsoft.com/library/065205cc-52dd-4f30-9578-b17d8d113136)합니다.  
+ <xref:System.Activities.Statements.TryCatch> 활동에 포함 한 <xref:System.Activities.Statements.TryCatch.Try%2A> 활동의 컬렉션인 **Catch\<TException >** 및 <xref:System.Activities.Statements.TryCatch.Finally%2A> 활동. <xref:System.Activities.Statements.Catch%601> 형식의 **TException** 포함 된 <xref:System.Activities.Statements.Catch%601.ExceptionType%2A> 및 <xref:System.Activities.Statements.Catch%601.Action%2A>합니다. 둘 다 일반적인 예외 기반의 오류 처리 메커니즘을 구현하는 데 사용됩니다. <xref:System.Activities.Statements.TryCatch> 활동은 <xref:System.Activities.Statements.TryCatch.Try%2A> 활동을 실행하려고 합니다. 경우는 <xref:System.Activities.Statements.TryCatch.Try%2A> 작업 예외를 throw 합니다 <xref:System.Activities.Statements.TryCatch> 활동은 해당 **Catch < TException\>**  예외와 일치 하는 컬렉션입니다. 일치 하는 경우 해당 <xref:System.Activities.Statements.Catch%601.Action%2A> 해당 **Catch\<TException >** 실행 되 면 오류 처리는 예외에 대 한 논리를 제공 합니다. <xref:System.Activities.Statements.TryCatch.Try%2A> 섹션의 활동이 성공적으로 완료되었거나 <xref:System.Activities.Statements.TryCatch.Catches%2A>의 활동이 성공적으로 완료된 경우 <xref:System.Activities.Statements.TryCatch> 활동은 해당 <xref:System.Activities.Statements.TryCatch.Finally%2A> 활동을 실행합니다. [!INCLUDE[crdefault](../includes/crdefault-md.md)][예외](https://msdn.microsoft.com/library/065205cc-52dd-4f30-9578-b17d8d113136)합니다.  
   
 ### <a name="using-the-trycatch-activity-designer"></a>TryCatch 활동 디자이너 사용  
  **TryCatch** 활동 디자이너에서 찾을 수 있습니다는 **오류 처리** 범주의 **도구 상자**를 클릭 하 여 액세스를 **도구상자** 탭의 왼쪽에는 [!INCLUDE[wfd2](../includes/wfd2-md.md)] (또는 선택 **도구 모음** 에서 **보기** 메뉴나 보조키 + ALT + X를 누릅니다.)  

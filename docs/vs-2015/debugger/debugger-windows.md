@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fc52b883388640ef0e24478a08202bd2991375fc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 78a81b2392959b968e8905ae33a6f0751e73f2ff
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985351"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686765"
 ---
 # <a name="debugger-windows"></a>디버거 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,10 +33,10 @@ ms.locfileid: "58985351"
 |병렬 조사식|Ctrl+Shift+D, (1, 2, 3, 4)|[병렬 스택 창 사용](../debugger/using-the-parallel-stacks-window.md)|  
 |조사식|Ctrl+Alt+W, (1, 2, 3, 4)|[조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)|  
 |간략한 조사식|Shift+F9|[조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)|  
-|자동|Ctrl+Alt+V, A|[변수 창](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
-|로컬|Ctrl+Alt+V, L|[변수 창](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
+|자동|Ctrl+Alt+V, A|[변수 창](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
+|로컬|Ctrl+Alt+V, L|[변수 창](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)|  
 |직접 실행|Ctrl+Alt+I|[직접 실행 창](../ide/reference/immediate-window.md)|  
-|Python 대화형 디버그|Shift+Alt+I|[Ptvs 시작: 대화형 Python](../python/getting-started-with-ptvs-interactive-python.md)|  
+|Python 대화형 디버그|Shift+Alt+I|[PTVS 시작: 대화형 Python](../python/getting-started-with-ptvs-interactive-python.md)|  
 |JavaScript 콘솔|Ctrl+Alt+V, C|[빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md)|  
 |DOM 탐색기|Ctrl+Alt+V, D|[DOM 탐색기를 사용하여 레이아웃 디버그](../debugger/debug-layout-using-dom-explorer.md)|  
 |라이브 시각적 트리|-|[디버그하는 동안 XAML 속성 검사](../debugger/inspect-xaml-properties-while-debugging.md)|  

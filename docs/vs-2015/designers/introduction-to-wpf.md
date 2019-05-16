@@ -9,12 +9,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1f02018ed9ddb6f91f965d28767cde55e4c3e524
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7b4061a5bc253782e7ca28478259efb4027c61f9
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437303"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674737"
 ---
 # <a name="introduction-to-wpf"></a>WPF 소개
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -146,7 +146,7 @@ End Namespace
 ## <a name="Controls"></a> 컨트롤  
  애플리케이션 모델에서 제공하는 사용자 환경은 생성된 컨트롤입니다. WPF에서 "컨트롤"은 창이나 페이지에서 호스트되고 사용자 인터페이스가 있으며 일부 동작을 구현하는 WPF 클래스의 한 범주에 적용되는 포괄적인 용어입니다.  
   
- 자세한 내용은 [컨트롤](http://msdn.microsoft.com/library/3f255a8a-35a8-4712-9065-472ff7d75599)을 참조하세요.  
+ 자세한 내용은 [컨트롤](https://msdn.microsoft.com/library/3f255a8a-35a8-4712-9065-472ff7d75599)을 참조하세요.  
   
 ### <a name="wpf-controls-by-function"></a>기능별 WPF 컨트롤  
  기본 제공 WPF 컨트롤은 다음과 같습니다.  

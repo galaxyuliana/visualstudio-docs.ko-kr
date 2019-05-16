@@ -12,12 +12,12 @@ ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
 caps.latest.revision: 31
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 3c6c7bb6d149281048d281cb7af13fe51d75ffd5
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3bdc65a145b64071087d72fce9967c67cc2f8426
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443890"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687528"
 ---
 # <a name="inside-the-visual-studio-sdk"></a>Visual Studio SDK 기본 사항
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -98,7 +98,7 @@ Visual Studio 아키텍처의 일반화 된 보기
  템플릿에 특정 종류의 응용 프로그램, 컨트롤, 라이브러리 또는 클래스를 작성 하는 데 필요한 기본 파일과 프로젝트 구조에 포함 됩니다. 템플릿 중 하 나와 유사한 소프트웨어를 개발 하려는 경우 템플릿을 기반으로 하는 프로젝트를 만들고 해당 프로젝트에서 파일을 수정 합니다.  
   
 > [!NOTE]
-> 이 템플릿 구조에 대 한 지원 되지 않습니다 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트입니다. 만드는 방법에 대 한 자세한 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트 템플릿을 참조 하십시오 [마법사 디자인](http://msdn.microsoft.com/library/a7c0be7e-9297-4fed-83e3-5645c896d56b)합니다.  
+> 이 템플릿 구조에 대 한 지원 되지 않습니다 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트입니다. 만드는 방법에 대 한 자세한 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 프로젝트 템플릿을 참조 하십시오 [마법사 디자인](https://msdn.microsoft.com/library/a7c0be7e-9297-4fed-83e3-5645c896d56b)합니다.  
   
  자세한 내용은 [추가 프로젝트 및 프로젝트 항목 템플릿](../../extensibility/internals/adding-project-and-project-item-templates.md)합니다.  
   

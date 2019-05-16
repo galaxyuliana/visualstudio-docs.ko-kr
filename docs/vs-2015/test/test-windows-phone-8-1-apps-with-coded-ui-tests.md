@@ -8,12 +8,12 @@ ms.assetid: 7b866776-f2d5-4823-8d15-919f889db26f
 caps.latest.revision: 31
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9e27478255ccd8f3d5c2786fdfc806fa4f5c0a15
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a862b01eb4fdbb654ce31419742c07ba22194ffa
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63387022"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705976"
 ---
 # <a name="test-windows-uwp-and-81-phone-apps-with-coded-ui-tests"></a>코딩된 UI 테스트를 사용하여 Windows UWP 및 8.1 Phone 앱 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -374,7 +374,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
   
 |기능|Windows 스토어 응용 프로그램|Windows Phone 앱|  
 |-------------|------------------------|------------------------|  
-|테스트 실행 대상|로컬 또는 원격 컴퓨터. 자동화된 테스트 사례를 사용하여 테스트를 실행하는 경우 원격 컴퓨터를 지정할 수 있습니다. [Microsoft Test Manager에서 테스트 사례 자동화](http://msdn.microsoft.com/library/4e02568b-9cde-47cc-b41c-82726c177e42)를 참조하세요.|에뮬레이터 또는 디바이스. 내용은 [q: 수 테스트는 에뮬레이터 에서만 실행할 수 있나요? 아니면 수 또한 물리적 장치? ](#TestingPhoneAppsCodedUI_EmulatorDevice) 이 항목의 합니다.|  
+|테스트 실행 대상|로컬 또는 원격 컴퓨터. 자동화된 테스트 사례를 사용하여 테스트를 실행하는 경우 원격 컴퓨터를 지정할 수 있습니다. [Microsoft Test Manager에서 테스트 사례 자동화](https://msdn.microsoft.com/library/4e02568b-9cde-47cc-b41c-82726c177e42)를 참조하세요.|에뮬레이터 또는 디바이스. 내용은 [q: 수 테스트는 에뮬레이터 에서만 실행할 수 있나요? 아니면 수 또한 물리적 장치? ](#TestingPhoneAppsCodedUI_EmulatorDevice) 이 항목의 합니다.|  
 |명령줄에서 실행|대상을 지정하는 데 Settings 파일이 필요 없습니다.|대상을 지정하는 데에는 Runsettings 파일이 필요합니다.|  
 |셸 컨트롤의 특수화 클래스|<xref:Microsoft.VisualStudio.TestTools.UITesting.DirectUIControls.DirectUIControl>|<xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl>|  
 |XAML 앱의 WebView 컨트롤|Html* 특수화 클래스를 사용하여 HTML 요소와 상호 작용하는 경우 지원됩니다. <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>을 참조하세요.|지원되지 않습니다.|  

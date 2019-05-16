@@ -19,12 +19,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 12cbeca740fd81292109183468a304fc2d3da30c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 09afb67f0e9431ca8cd520635f243dca70880f09
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63439483"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683159"
 ---
 # <a name="bind-objects-in-visual-studio"></a>Visual Studio에서 개체 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
 - 데이터베이스에 다시 개체에서 데이터를 저장합니다.
 
 > [!NOTE]
-> 더 잘 이해 하 고이 페이지의 예제에 대 한 컨텍스트를 제공 하기 위해 다음을 완료 하는 것이 좋습니다. [연습: 데이터 개체 (Windows Forms)에 연결할](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다. 이 연습에서는 여기에 설명 된 개체를 만듭니다.
+> 더 잘 이해 하 고이 페이지의 예제에 대 한 컨텍스트를 제공 하기 위해 다음을 완료 하는 것이 좋습니다. [연습: 데이터 개체 (Windows Forms)에 연결할](https://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다. 이 연습에서는 여기에 설명 된 개체를 만듭니다.
 
 ### <a name="loaddata-into-objects"></a>개체로 Loaddata
  예를 들어 Tableadapter를 사용 하 여 개체에 데이터를 로드 합니다. Tableadapter는 기본적으로 두 가지는 데이터베이스에서 데이터를 인출 하 고 데이터 테이블 채우는 메서드를 사용 하 여 생성 됩니다.
@@ -75,7 +75,7 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
  [!code-vb[VbRaddataConnecting#4](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataConnecting/VB/Form1.vb#4)]
 
 ### <a name="create-a-typed-collection-of-objects"></a>형식화 된 개체의 컬렉션을 만들려면
- 자동으로 제공 되는 형식화 된 컬렉션을 사용 하거나 사용자 개체에 대 한 컬렉션 클래스를 만들 수 있습니다 합니다 [BindingSource 구성 요소](http://msdn.microsoft.com/library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9)합니다.
+ 자동으로 제공 되는 형식화 된 컬렉션을 사용 하거나 사용자 개체에 대 한 컬렉션 클래스를 만들 수 있습니다 합니다 [BindingSource 구성 요소](https://msdn.microsoft.com/library/3e2faf4c-f5b8-4fa6-9fbc-f59c37ec2fb9)합니다.
 
  개체에 대 한 사용자 지정 컬렉션 클래스를 만들 때에서 상속 하는 것이 좋습니다 <xref:System.ComponentModel.BindingList%601>합니다. 이 제네릭 클래스는 Windows Forms의 데이터 바인딩 인프라에 알림을 전송 하는 이벤트를 발생 시킬 수 뿐만 아니라 컬렉션을 관리 하는 기능을 제공 합니다.
 
@@ -92,9 +92,9 @@ Visual Studio 응용 프로그램에서 데이터 원본으로 사용자 지정 
 ### <a name="addobjects-to-a-collection"></a>컬렉션에 Addobjects
  호출 하 여 개체 컬렉션에 추가 합니다 `Add` 또는 사용자 지정 컬렉션 클래스의 메서드는 <xref:System.Windows.Forms.BindingSource>합니다.
 
- 사용 하 여 컬렉션에 추가 하는 예는 <xref:System.Windows.Forms.BindingSource>를 참조 합니다 `LoadCustomers` 에서 메서드 [연습: 데이터 개체 (Windows Forms)에 연결할](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다.
+ 사용 하 여 컬렉션에 추가 하는 예는 <xref:System.Windows.Forms.BindingSource>를 참조 합니다 `LoadCustomers` 에서 메서드 [연습: 데이터 개체 (Windows Forms)에 연결할](https://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다.
 
- 사용자 지정 컬렉션에 개체를 추가 하는 예제를 참조 하세요. 합니다 `LoadOrders` 의 메서드 [연습: 데이터 개체 (Windows Forms)에 연결할](http://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다.
+ 사용자 지정 컬렉션에 개체를 추가 하는 예제를 참조 하세요. 합니다 `LoadOrders` 의 메서드 [연습: 데이터 개체 (Windows Forms)에 연결할](https://msdn.microsoft.com/library/21a7fba2-b38b-4726-8cbe-d22154b75a05)합니다.
 
 > [!NOTE]
 > 합니다 `Add` 에서 상속 하는 경우 사용자 지정 컬렉션에 자동으로 메서드는 제공 <xref:System.ComponentModel.BindingList%601>합니다.

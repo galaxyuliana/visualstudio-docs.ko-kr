@@ -14,19 +14,19 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 04842202e8534c551212d7322ab74e9b0ace5848
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4e0d9c73277a913a7539ab5eeed4cca738d9bd5c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63446189"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65700754"
 ---
 # <a name="prefetch-content-for-windows-store-apps"></a>Windows 스토어 앱용 콘텐츠 프리페치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content")  
   
- Windows 스토어 앱 응답 속도를 높이려면, 웹 페이지 또는 이미지 같은 일부 웹 콘텐츠를 앱의 미리 로드 하려면 Windows를 요청할 수 있습니다 [WinINet](http://msdn.microsoft.com/0a06f2af-957a-4dff-a8cc-187370181b5c)[WinINet](http://msdn.microsoft.com/library/aa383630.aspx)캐시 합니다. 이 기능을 프리페치라고 합니다. 시작 시에 사용되는 콘텐츠에 특히 효과적이지만 자주 사용되는 다른 콘텐츠도 프리페치할 수 있습니다. [Windows.Networking.BackgroundTransfer.ContentPrefetcher](http://msdn.microsoft.com/library/windows/apps/windows.networking.backgroundtransfer.contentprefetcher.aspx) 클래스의 메서드를 사용하면 미리 로드할 콘텐츠의 URI를 지정할 수 있습니다. 앱에 ContentPrefetcher 기능을 추가하는 방법에 대한 예제는 Windows SDK [콘텐츠 프리페치 샘플](http://code.msdn.microsoft.com/windowsapps/ContentPrefetcher-Sample-432c8309)을 참조하십시오.  
+ Windows 스토어 앱 응답 속도를 높이려면, 웹 페이지 또는 이미지 같은 일부 웹 콘텐츠를 앱의 미리 로드 하려면 Windows를 요청할 수 있습니다 [WinINet](https://msdn.microsoft.com/0a06f2af-957a-4dff-a8cc-187370181b5c)[WinINet](https://msdn.microsoft.com/library/aa383630.aspx)캐시 합니다. 이 기능을 프리페치라고 합니다. 시작 시에 사용되는 콘텐츠에 특히 효과적이지만 자주 사용되는 다른 콘텐츠도 프리페치할 수 있습니다. [Windows.Networking.BackgroundTransfer.ContentPrefetcher](https://msdn.microsoft.com/library/windows/apps/windows.networking.backgroundtransfer.contentprefetcher.aspx) 클래스의 메서드를 사용하면 미리 로드할 콘텐츠의 URI를 지정할 수 있습니다. 앱에 ContentPrefetcher 기능을 추가하는 방법에 대한 예제는 Windows SDK [콘텐츠 프리페치 샘플](http://code.msdn.microsoft.com/windowsapps/ContentPrefetcher-Sample-432c8309)을 참조하십시오.  
   
  Windows는 휴리스틱을 사용하여 프리페치를 수행하는 시기와 필요성 및 어떤 리소스를 다운로드할지 결정합니다. 휴리스틱은 시스템 네트워크 및 전력 조건, 사용자 응용 프로그램 사용 내용, 이전 프리페치 시도 결과를 고려합니다. Visual Studio에서는 **Windows 스토어 앱 프리페치 트리거** 명령을 사용하여 Windows에서 ContentPrefetcher 휴리스틱을 무시하고 지정된 웹 콘텐츠 전체를 강제로 미리 로드할 수 있습니다. 이것은 알려진 상태(로드 여부와 관계없음)로 프리페치할 콘텐츠로 응용 프로그램의 동작 또는 성능을 테스트할 때 유용할 수 있습니다.  
   

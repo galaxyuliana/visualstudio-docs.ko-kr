@@ -16,12 +16,12 @@ caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ecf43708b854ebee444d2117bc32df41907118a3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d341f0550cfa3c978e94152fb792c5b73c68cc74
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442721"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685936"
 ---
 # <a name="how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio"></a>Visual Studio에서 Windows 스토어 앱에 대한 일시 중단, 다시 시작 및 백그라운드 이벤트를 트리거하는 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "63442721"
 
  이 항목에서는 **백그라운드 작업**을 디버깅하는 방법에 대해서도 설명합니다. 백그라운드 작업을 사용하면 응용 프로그램을 실행하고 있지 않은 경우에도 백그라운드 프로세스에서 특정 작업을 수행할 수 있습니다. 디버거를 사용하여 응용 프로그램을 디버그 모드에 둔 다음 UI를 시작하지 않고 백그라운드 작업을 시작하고 디버깅할 수 있습니다.
 
- 프로세스 수명 관리 및 백그라운드 작업에 대한 자세한 내용은 [Launching, resuming, and multitasking](http://msdn.microsoft.com/04307b1b-05af-46a6-b639-3f35e297f71b)을 참조하십시오.
+ 프로세스 수명 관리 및 백그라운드 작업에 대한 자세한 내용은 [Launching, resuming, and multitasking](https://msdn.microsoft.com/04307b1b-05af-46a6-b639-3f35e297f71b)을 참조하십시오.
 
 ## <a name="BKMK_In_this_topic"></a> 항목 내용
  [프로세스 수명 관리 이벤트 트리거](#BKMK_Trigger_Process_Lifecycle_Management_events)
@@ -63,7 +63,7 @@ ms.locfileid: "63442721"
      **일시 중단 후 종료** 을 사용하면 응용 프로그램이 닫히고 디버깅 세션이 끝납니다.
 
 ## <a name="BKMK_Trigger_background_tasks"></a> 백그라운드 작업 트리거
- 모든 응용 프로그램은 응용 프로그램이 실행되고 있지 않은 경우에도 특정 시스템 이벤트에 응답하도록 백그라운드 작업을 등록할 수 있습니다. 백그라운드 작업은 UI를 직접 업데이트하는 코드는 실행할 수 없습니다. 대신 타일 업데이트, 배지 업데이트 및 알림을 통해 사용자에게 정보를 보여 줍니다. 자세한 내용은 [Supporting your app with background tasks](http://msdn.microsoft.com/4c7bb148-eb1f-4640-865e-41f627a46e8e)을 참조하세요.
+ 모든 응용 프로그램은 응용 프로그램이 실행되고 있지 않은 경우에도 특정 시스템 이벤트에 응답하도록 백그라운드 작업을 등록할 수 있습니다. 백그라운드 작업은 UI를 직접 업데이트하는 코드는 실행할 수 없습니다. 대신 타일 업데이트, 배지 업데이트 및 알림을 통해 사용자에게 정보를 보여 줍니다. 자세한 내용은 [Supporting your app with background tasks](https://msdn.microsoft.com/4c7bb148-eb1f-4640-865e-41f627a46e8e)을 참조하세요.
 
  디버거에서 응용 프로그램의 백그라운드 작업을 시작하는 이벤트를 트리거할 수 있습니다.
 
@@ -125,4 +125,4 @@ ms.locfileid: "63442721"
 4. **진단** 로그를 선택합니다.
 
 ## <a name="see-also"></a>참고 항목
- [Visual Studio로 스토어 앱 테스트](../test/testing-store-apps-with-visual-studio.md) [Visual Studio에서 앱을 디버그](../debugger/debug-store-apps-in-visual-studio.md) [응용 프로그램 수명 주기](http://msdn.microsoft.com/53cdc987-c547-49d1-a5a4-fd3f96b2259d) [Launching, resuming, 및 멀티태스킹](http://msdn.microsoft.com/04307b1b-05af-46a6-b639-3f35e297f71b)
+ [Visual Studio로 스토어 앱 테스트](../test/testing-store-apps-with-visual-studio.md) [Visual Studio에서 앱을 디버그](../debugger/debug-store-apps-in-visual-studio.md) [응용 프로그램 수명 주기](https://msdn.microsoft.com/53cdc987-c547-49d1-a5a4-fd3f96b2259d) [Launching, resuming, 및 멀티태스킹](https://msdn.microsoft.com/04307b1b-05af-46a6-b639-3f35e297f71b)

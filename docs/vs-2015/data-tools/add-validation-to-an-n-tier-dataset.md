@@ -18,19 +18,19 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 773af4469f8d72acb6768e62cd2091c396d36b45
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4b9b4f77045732bc61fa8aa8e4496eebf86f890a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63439537"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683215"
 ---
 # <a name="add-validation-to-an-n-tier-dataset"></a>n 계층 데이터 세트에 유효성 검사 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 N 계층 솔루션을으로 분리 되어 있는 데이터 집합에 유효성 검사 추가 기본적으로 단일 파일 (단일 프로젝트에서 데이터 집합) 데이터 집합에 유효성 검사와 동일 합니다. 데이터 유효성 검사를 수행 하기 위한 권장된 위치 중인지 합니다 <xref:System.Data.DataTable.ColumnChanging> 및/또는 <xref:System.Data.DataTable.RowChanging> 데이터 테이블의 이벤트입니다.  
   
-데이터 집합 디자이너를 열 및 행에 사용자 코드를 추가할 수 있는 partial 클래스를 생성 하는 기능 제공 데이터 집합에 있는 데이터 테이블의 이벤트를 변경 합니다. N 계층 솔루션에서 데이터 집합에 코드를 추가 하는 방법에 대 한 자세한 내용은 참조 하세요. [n 계층 응용 프로그램에서 데이터 집합에 코드를 추가](../data-tools/add-code-to-datasets-in-n-tier-applications.md), 및 [n 계층 응용 프로그램에서 Tableadapter에 코드를 추가](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)합니다. Partial 클래스에 대 한 자세한 내용은 참조 하세요. [방법: 클래스 (클래스 디자이너) 클래스를 부분 클래스로 분할](../ide/how-to-split-a-class-into-partial-classes-class-designer.md) 나 [Partial 클래스 및 메서드](http://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1)합니다.  
+데이터 집합 디자이너를 열 및 행에 사용자 코드를 추가할 수 있는 partial 클래스를 생성 하는 기능 제공 데이터 집합에 있는 데이터 테이블의 이벤트를 변경 합니다. N 계층 솔루션에서 데이터 집합에 코드를 추가 하는 방법에 대 한 자세한 내용은 참조 하세요. [n 계층 응용 프로그램에서 데이터 집합에 코드를 추가](../data-tools/add-code-to-datasets-in-n-tier-applications.md), 및 [n 계층 응용 프로그램에서 Tableadapter에 코드를 추가](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)합니다. Partial 클래스에 대 한 자세한 내용은 참조 하세요. [방법: 클래스 (클래스 디자이너) 클래스를 부분 클래스로 분할](../ide/how-to-split-a-class-into-partial-classes-class-designer.md) 나 [Partial 클래스 및 메서드](https://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1)합니다.  
   
 > [!NOTE]
 > 데이터 집합에서 TableAdapters 분리할 때는 (설정 하 여 합니다 **데이터 집합 프로젝트** 속성), 프로젝트의 기존 부분 데이터 집합 클래스를 자동으로 이동할 수 없습니다. 기존 데이터 집합 부분 클래스는 데이터 집합 프로젝트에 수동으로 이동 해야 합니다.  
@@ -58,7 +58,7 @@ End Sub
   
 #### <a name="to-add-validation-during-changes-to-individual-column-values"></a>개별 열 값을 변경 하는 동안 유효성 검사를 추가 하려면  
   
-1. 데이터 집합을 두 번 클릭 하 여 디자이너에서 엽니다는 **.xsd** 파일 **솔루션 탐색기**합니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
+1. 데이터 집합을 두 번 클릭 하 여 디자이너에서 엽니다는 **.xsd** 파일 **솔루션 탐색기**합니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](https://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
   
 2. 유효성을 검사 하려는 열을 두 번 클릭 합니다. 이 작업은 만듭니다는 <xref:System.Data.DataTable.ColumnChanging> 이벤트 처리기입니다.  
   
@@ -117,7 +117,7 @@ End Sub
   
 #### <a name="to-add-validation-during-changes-to-whole-rows"></a>전체 행을 변경 하는 동안 유효성 검사를 추가 하려면  
   
-1. 데이터 집합을 두 번 클릭 하 여 디자이너에서 엽니다는 **.xsd** 파일 **솔루션 탐색기**합니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](http://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
+1. 데이터 집합을 두 번 클릭 하 여 디자이너에서 엽니다는 **.xsd** 파일 **솔루션 탐색기**합니다. 자세한 내용은 [방법: 데이터 집합 디자이너에서 데이터 집합 열기](https://msdn.microsoft.com/library/36fc266f-365b-42cb-aebb-c993dc2c47c3)합니다.  
   
 2. 디자이너에서 데이터 테이블의 제목 표시줄 두 번 클릭 합니다.  
   

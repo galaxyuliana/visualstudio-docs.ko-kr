@@ -10,17 +10,17 @@ helpviewer_keywords:
 ms.assetid: 3b052047-f6db-46dd-b3bf-da1c348ee410
 caps.latest.revision: 33
 manager: jillfra
-ms.openlocfilehash: ba4b166cc409dd2c50c258a9b82ee34c22e9b084
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5eeb5d06b0e689391f450fec8744fa58a41f4508
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62838683"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65681535"
 ---
 # <a name="managing-the-toolbox"></a>Managing the Toolbox
 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] 에서는 편집기 또는 디자이너와 같은 VSPackage로 **도구 상자**의 멤버 자격과 모양을 관리할 수 있습니다.  
   
- 또한 **도구 상자** 자체는 자동화를 사용하여 관리할 수 있습니다. 관리 자동화를 통해 도구 상자에 대 한 자세한 내용은 참조 하세요. [방법: Control the Toolbox](http://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)합니다.  
+ 또한 **도구 상자** 자체는 자동화를 사용하여 관리할 수 있습니다. 관리 자동화를 통해 도구 상자에 대 한 자세한 내용은 참조 하세요. [방법: Control the Toolbox](https://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)합니다.  
   
 ## <a name="automatic-toolbox-tab-selection"></a>자동 도구 상자 탭 선택  
  현재 활성화된 편집기 또는 디자이너에 따라 특정 **도구 상자** 탭 또는 범주를 자동으로 활성화할 수 있습니다. 예를 들어 폼 디자이너가 활성화된 경우 **모든 Windows Forms** 탭이 선택되도록 할 수 있습니다.  
@@ -51,7 +51,7 @@ ms.locfileid: "62838683"
   
 - VSPackage는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>를 사용하여 컨트롤을 추가하거나, <xref:System.Windows.Forms.AxHost>에서 파생된 래퍼 컨트롤에 해당 컨트롤을 호스트해야 합니다.  
   
-   Visual Studio은 <xref:System.Windows.Forms.AxHost>에서 파생된 컨트롤에 ActiveX 컨트롤 래핑을 자동화하기 위한 `Aximp.exe` 도구를 제공합니다. 자세한 내용은 [Aximp.exe (Windows Forms ActiveX 컨트롤 가져오기)](http://msdn.microsoft.com/library/482c0d83-7144-4497-b626-87d2351b78d0)합니다.  
+   Visual Studio은 <xref:System.Windows.Forms.AxHost>에서 파생된 컨트롤에 ActiveX 컨트롤 래핑을 자동화하기 위한 `Aximp.exe` 도구를 제공합니다. 자세한 내용은 [Aximp.exe (Windows Forms ActiveX 컨트롤 가져오기)](https://msdn.microsoft.com/library/482c0d83-7144-4497-b626-87d2351b78d0)합니다.  
   
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox>, <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> 및 <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>는 interop 어셈블리를 통해 사용할 수 있는 COM 기반 인터페이스입니다.  
   

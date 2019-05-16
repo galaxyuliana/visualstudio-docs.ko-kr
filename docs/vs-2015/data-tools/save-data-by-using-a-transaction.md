@@ -19,12 +19,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 260396123f806e7c37b91ff4aca643a05853676f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b93c512bafd8b15682ed081c7778660ef52fd1f7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425080"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692497"
 ---
 # <a name="save-data-by-using-a-transaction"></a>트랜잭션을 사용하여 데이터 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "63425080"
 > [!NOTE]
 > <xref:System.Transactions> 네임 스페이스는 Windows 2000 이상에서 지원 됩니다.  
   
- 인스턴스화하는 가장 쉬운 방법은 트랜잭션을 구현 하는 것을 <xref:System.Transactions.TransactionScope> 개체는 `using` 문입니다. (자세한 내용은 [Using 문](http://msdn.microsoft.com/library/665d1580-dd54-4e96-a9a9-6be2a68948f1), 및 [문을 사용 하 여](http://msdn.microsoft.com/library/afc355e6-f0b9-4240-94dd-0d93f17d9fc3).) 내에서 실행 되는 코드는 `using` 문을 트랜잭션에 참여 합니다.  
+ 인스턴스화하는 가장 쉬운 방법은 트랜잭션을 구현 하는 것을 <xref:System.Transactions.TransactionScope> 개체는 `using` 문입니다. (자세한 내용은 [Using 문](https://msdn.microsoft.com/library/665d1580-dd54-4e96-a9a9-6be2a68948f1), 및 [문을 사용 하 여](https://msdn.microsoft.com/library/afc355e6-f0b9-4240-94dd-0d93f17d9fc3).) 내에서 실행 되는 코드는 `using` 문을 트랜잭션에 참여 합니다.  
   
  트랜잭션을 커밋하려면 호출을 <xref:System.Transactions.TransactionScope.Complete%2A> 마지막 문으로 사용 하 여 메서드를 차단 합니다.  
   

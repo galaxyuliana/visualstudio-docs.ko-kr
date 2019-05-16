@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c8a701715c0adff479fa29dbe9c9b28287031dfd
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 495d98f4061c258c78b2b74929428aec4eb3ec0c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63428296"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65678936"
 ---
 # <a name="step-9-try-other-features"></a>9단계: 기타 기능 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "63428296"
 - 다른 옵션을 선택하여 아이콘 및 색을 바꿉니다.  
   
     > [!TIP]
-    > 레이블의 [Forecolor](http://msdn.microsoft.com/library/system.windows.forms.control.forecolor%28v=vs.110%29.aspx) 속성을 확인합니다.  
+    > 레이블의 [Forecolor](https://msdn.microsoft.com/library/system.windows.forms.control.forecolor%28v=vs.110%29.aspx) 속성을 확인합니다.  
   
 - 플레이어가 승리하는 데 걸리는 시간을 추적하는 게임 타이머를 추가합니다.  
   

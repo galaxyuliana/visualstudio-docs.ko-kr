@@ -13,12 +13,12 @@ ms.assetid: 9fca7285-f7f1-422d-8565-92bf0e0db60a
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e571a7ba2116c093f8d4e4afd78fffc5014ae906
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 14eb540962db3a806273d5c76facb7f9bf25dee7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971448"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685890"
 ---
 # <a name="idebugmessageevent2getmessage"></a>IDebugMessageEvent2::GetMessage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,10 +55,10 @@ int GetMessage( 
  [out] 메시지를 반환합니다.  
   
  `pdwType`  
- [out] Win32의 규칙을 사용 하 여 메시지의 형식을 반환 `MessageBox` 함수입니다. 참조 된 [AfxMessageBox](http://msdn.microsoft.com/library/d66d0328-cdcc-48f6-96a4-badf089099c8) 세부 정보에 대 한 함수입니다.  
+ [out] Win32의 규칙을 사용 하 여 메시지의 형식을 반환 `MessageBox` 함수입니다. 참조 된 [AfxMessageBox](https://msdn.microsoft.com/library/d66d0328-cdcc-48f6-96a4-badf089099c8) 세부 정보에 대 한 함수입니다.  
   
  `pbstrHelpFileName`  
- [out에서] 도움말 파일의 이름을 반환합니다. 도움말 파일이 없는 경우 null (c + +) 또는 빈 값 (C#)를 수 있습니다.  
+ [out에서] 도움말 파일의 이름을 반환합니다. null 일 수 있습니다 (C++) 또는 빈 (C#) 도움말 파일이 없는 경우 값입니다.  
   
  `pdwHelpId`  
  [out에서] 도움말 식별자를 반환합니다. 있습니다 수이 메시지와 관련 된 도움말이 없습니다 경우에 0입니다.  
@@ -69,4 +69,4 @@ int GetMessage( 
 ## <a name="see-also"></a>참고 항목  
  [IDebugMessageEvent2](../../../extensibility/debugger/reference/idebugmessageevent2.md)   
  [MESSAGETYPE](../../../extensibility/debugger/reference/messagetype.md)   
- [AfxMessageBox](http://msdn.microsoft.com/library/d66d0328-cdcc-48f6-96a4-badf089099c8)
+ [AfxMessageBox](https://msdn.microsoft.com/library/d66d0328-cdcc-48f6-96a4-badf089099c8)

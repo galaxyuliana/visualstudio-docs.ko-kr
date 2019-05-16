@@ -11,12 +11,12 @@ caps.latest.revision: 63
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: cab72753016c49b4d959d2224dbfd99f8a0c07bb
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9ec230a5bf32ab6e70967e76d31030af3a7a351a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433142"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687597"
 ---
 # <a name="define-a-menu-command-on-a-modeling-diagram"></a>모델링 다이어그램의 메뉴 명령 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,7 +67,7 @@ Visual Studio에서 UML 다이어그램의 바로 가기 메뉴에 추가 메뉴
 
    |                                                                                                    참조                                                                                                    |                                                                                                  수행할 수 있는 기능                                                                                                  |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |                                                                                        System.ComponentModel.Composition                                                                                        |                                         [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)를 사용하여 구성 요소를 정의합니다.                                          |
+   |                                                                                        System.ComponentModel.Composition                                                                                        |                                         [Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)를 사용하여 구성 요소를 정의합니다.                                          |
    |                                                                                      Microsoft.VisualStudio.Uml.Interfaces                                                                                      |                                                                                        모델 요소의 속성을 읽고 변경합니다.                                                                                         |
    |                                                                             Microsoft.VisualStudio.ArchitectureTools.Extensibility                                                                              |                                                                                      다이어그램에서 모델 요소를 만들고 모양을 수정합니다.                                                                                       |
    |                                                                                  Microsoft.VisualStudio.Modeling.Sdk.[version]                                                                                  | 모델 이벤트 처리기를 정의합니다.<br /><br /> 모델에 대한 일련의 변경 내용을 캡슐화합니다. 자세한 내용은 [트랜잭션을 사용 하 여 링크 UML 모델 업데이트](../modeling/link-uml-model-updates-by-using-transactions.md)합니다. |

@@ -17,17 +17,17 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3c3ddcb99163fe3548f020094647566c1779f5d9
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: aa406ab366c9bfb51f506c2dbba0a8408d7ba377
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444511"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688547"
 ---
 # <a name="add-code-to-tableadapters-in-n-tier-applications"></a>n 계층 애플리케이션에서 TableAdapter에 코드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-기능을 확장할 수 있습니다는 `TableAdapter` 에 대 한 partial 클래스 파일을 만들어 합니다 `TableAdapter` 코드를 추가 하 (코드를 추가 하는 대신 합니다 *DatasetName*. DataSet.Designer 파일)입니다. Partial 클래스를 여러 실제 파일에서 나눌 특정 클래스에 대 한 코드를 사용 합니다. 자세한 내용은 [부분](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) 하거나 [partial (형식)](http://msdn.microsoft.com/library/27320743-a22e-4c7b-b0b3-53afe3607334)합니다.  
+기능을 확장할 수 있습니다는 `TableAdapter` 에 대 한 partial 클래스 파일을 만들어 합니다 `TableAdapter` 코드를 추가 하 (코드를 추가 하는 대신 합니다 *DatasetName*. DataSet.Designer 파일)입니다. Partial 클래스를 여러 실제 파일에서 나눌 특정 클래스에 대 한 코드를 사용 합니다. 자세한 내용은 [부분](https://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) 하거나 [partial (형식)](https://msdn.microsoft.com/library/27320743-a22e-4c7b-b0b3-53afe3607334)합니다.  
   
  정의 하는 코드를 `TableAdapter` 변경 될 때마다 생성 되는 `TableAdapter`합니다. 구성을 수정 하는 마법사를 실행 하는 동안 변경 된 경우에이 코드는 생성 된 `TableAdapter`합니다. 코드를 다시 생성 하는 동안 삭제를 방지 하기 위해를 `TableAdapter`, partial 클래스 파일의 코드를 추가 합니다 `TableAdapter`합니다.  
   
@@ -73,6 +73,6 @@ ms.locfileid: "63444511"
 ## <a name="see-also"></a>참고 항목  
  [N 계층 데이터 응용 프로그램 개요](../data-tools/n-tier-data-applications-overview.md)   
  [N 계층 응용 프로그램에서 데이터 집합에 코드 추가](../data-tools/add-code-to-datasets-in-n-tier-applications.md)   
- [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364)   
- [TableAdapterManager 개요](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)   
- [계층적 업데이트 개요](http://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)
+ [TableAdapters](https://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364)   
+ [TableAdapterManager 개요](https://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)   
+ [계층적 업데이트 개요](https://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)

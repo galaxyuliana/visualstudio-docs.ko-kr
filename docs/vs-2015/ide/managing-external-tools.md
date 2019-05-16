@@ -57,12 +57,12 @@ caps.latest.revision: 41
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d6dec053e1075865b51c14df951915308852f8a2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e568286a5e17b13b5009eccf01988d458fc9cd47
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445431"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686958"
 ---
 # <a name="managing-external-tools"></a>외부 도구 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,7 +74,7 @@ Visual Studio 내에서 외부 도구를 호출할 수 있습니다. 몇 가지 
   
 1. GUID 만들기: GUID를 생성합니다.  
   
-2. 오류 조회: 입력한 값에서 오류 메시지를 가져옵니다. 자세한 내용은 [ERRLOOK 참조](http://msdn.microsoft.com/library/6040ffc1-2355-4a45-8998-84cbcba4ca91)를 참조하세요.  
+2. 오류 조회: 입력한 값에서 오류 메시지를 가져옵니다. 자세한 내용은 [ERRLOOK 참조](https://msdn.microsoft.com/library/6040ffc1-2355-4a45-8998-84cbcba4ca91)를 참조하세요.  
   
 3. ATL/MFC 추적 도구: ATL 및 MFC 소스에서 디버그 추적 메시지를 보여 줍니다.  
   
@@ -85,7 +85,7 @@ Visual Studio 내에서 외부 도구를 호출할 수 있습니다. 몇 가지 
 6. WCF 서비스 구성 편집기: WCF 서비스에 대 한 구성 설정을 만들고 수정할 수 있습니다.  
   
 > [!WARNING]
-> 설치한 Visual Studio 버전과 적용한 설정 프로필에 따라 다른 외부 도구 목록이 나타날 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 설치한 Visual Studio 버전과 적용한 설정 프로필에 따라 다른 외부 도구 목록이 나타날 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="adding-new-tools"></a>새 도구 추가  
  **도구** 메뉴에 외부 도구를 추가할 수 있습니다. **외부 도구** 대화 상자를 열고 **추가**를 클릭하고 나서 정보를 입력합니다. 예를 들어 다음 항목은 현재 Visual Studio에서 열려 있는 파일의 디렉터리를 Windows 탐색기에서 엽니다.  
@@ -122,4 +122,4 @@ Visual Studio 내에서 외부 도구를 호출할 수 있습니다. 몇 가지 
 |솔루션 파일 이름|$(SolutionFileName)|현재 솔루션의 파일 이름(드라이브 + 경로 + 파일 이름)입니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [C/C++ 빌드 도구](http://msdn.microsoft.com/library/48d9daf4-6bbf-473a-8ce2-bf2923b69f80)
+ [C/C++ 빌드 도구](https://msdn.microsoft.com/library/48d9daf4-6bbf-473a-8ce2-bf2923b69f80)

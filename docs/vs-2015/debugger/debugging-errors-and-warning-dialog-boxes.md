@@ -22,12 +22,12 @@ caps.latest.revision: 13
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2d5fbd50ec56173d0871aa1096825eabf87cf42e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 337341547891d87b577756350cbb71e13dd230ae
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980956"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691190"
 ---
 # <a name="debugging-errors-and-warning-dialog-boxes"></a>디버깅 오류 및 경고 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ ms.locfileid: "58980956"
   
  [현재 위치에 사용할 수 있는 소스 코드가 없음 대화 상자](../debugger/no-source-available.md)  
   
- [기호화된 정보 없음 대화 상자](http://msdn.microsoft.com/18de4888-9cca-4059-a165-48b135fee4c9)  
+ [기호화된 정보 없음 대화 상자](https://msdn.microsoft.com/18de4888-9cca-4059-a165-48b135fee4c9)  
   
  [모호성 해결 대화 상자](../debugger/resolve-ambiguity-dialog-box.md)  
   
@@ -64,9 +64,9 @@ ms.locfileid: "58980956"
   
  [원격 디버깅 오류](../debugger/remote-debugging-errors-and-troubleshooting.md)  
   
- [연결 오류](http://msdn.microsoft.com/2820d904-a068-4fcb-bbfb-bbbe5195d6ae)  
+ [연결 오류](https://msdn.microsoft.com/2820d904-a068-4fcb-bbfb-bbbe5195d6ae)  
   
- [SQL 디버깅 설치 문제 해결](http://msdn.microsoft.com/b3ec8303-4c0d-449c-8d19-4932c1d820a7)  
+ [SQL 디버깅 설치 문제 해결](https://msdn.microsoft.com/b3ec8303-4c0d-449c-8d19-4932c1d820a7)  
   
  [Visual C++ 디버깅에 대한 질문과 대답](../debugger/debugging-native-code-faqs.md)  
   

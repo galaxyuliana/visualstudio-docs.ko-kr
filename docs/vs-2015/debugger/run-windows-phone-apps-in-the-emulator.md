@@ -14,19 +14,19 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c594e3837a4fe2c8b2e5a7b69e5db93377a8dc8d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 5673ebf28cc652e3bcd973808db87b5bb058659c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442319"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65683532"
 ---
 # <a name="run-windows-phone-apps-in-the-emulator"></a>에뮬레이터에서 Windows Phone 앱 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows Phone 에뮬레이터는 실제 장치 없이 컴퓨터에서 Windows Phone 앱을 디버그하고 테스트할 수 있는 가상화된 환경을 제공합니다. 일반적인 터치 및 회전 이벤트를 시뮬레이트하고 에뮬레이트하려는 실제 화면 크기와 해상도를 선택할 수 있습니다. 일반적으로 사용되는 여러 기능(예: 위치, 네트워킹, 알림, 센서, 가속도계 및 선택적 SD 카드)을 테스트할 수도 있습니다.  
   
- 에뮬레이터에서 테스트할 수 있는 기능에 대 한 자세한 내용은 참조 하세요. [Windows Phone 에뮬레이터에서 앱 기능 테스트](http://msdn.microsoft.com/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1)합니다.  
+ 에뮬레이터에서 테스트할 수 있는 기능에 대 한 자세한 내용은 참조 하세요. [Windows Phone 에뮬레이터에서 앱 기능 테스트](https://msdn.microsoft.com/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1)합니다.  
   
  에뮬레이터는 Visual Studio와 함께 Windows Phone 앱을 디자인하고 개발, 디버깅 및 테스트할 수 있는 완벽한 환경을 제공합니다.  
   
@@ -103,7 +103,7 @@ Windows Phone 에뮬레이터는 실제 장치 없이 컴퓨터에서 Windows Ph
 ### <a name="BKMK_depltool"></a> 응용 프로그램 배포 도구로 앱 실행  
  Windows Phone 응용 프로그램 배포 도구를 사용할 수도 있습니다 (**AppDeploy.exe**) 에뮬레이터에서 응용 프로그램을 실행 합니다. 이 도구는 Windows Phone 개발 도구 설치 시 설치되는 독립 실행형 앱입니다.  
   
- 자세한 내용은 참조 하세요. [응용 프로그램 배포 도구를 사용 하 여 배포할 Windows Phone 8.1 앱](http://msdn.microsoft.com/library/23700f82-1399-44d9-bc0c-714be4a48ee6)합니다.  
+ 자세한 내용은 참조 하세요. [응용 프로그램 배포 도구를 사용 하 여 배포할 Windows Phone 8.1 앱](https://msdn.microsoft.com/library/23700f82-1399-44d9-bc0c-714be4a48ee6)합니다.  
   
 ## <a name="BKMK_toolbar"></a> 에뮬레이터 도구 모음을 사용 하 여 Windows Phone 에뮬레이터 구성  
  다음 표에는 에뮬레이터 도구 모음에서 사용할 수 있는 구성 단추가 나와 있습니다.  

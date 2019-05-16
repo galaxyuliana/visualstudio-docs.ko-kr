@@ -19,12 +19,12 @@ caps.latest.revision: 81
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 41b3e662668967d07e2a304d589d498dd2c7b51d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e31d177a8bda5435c2201701241638cb919cf9ec
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63446111"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687544"
 ---
 # <a name="remote-debugging"></a>Remote Debugging
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -283,7 +283,7 @@ ms.locfileid: "63446111"
  자세한 내용은 원격 디버깅 도움말을 참조 하십시오 (키를 누릅니다 **F1** 원격 디버거 창이 나 클릭 **도움말 / 사용법**). [Visual Studio 2012 및 2013의 .NET 원격 기호 로드 변경 내용](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013.aspx)에서 자세한 내용을 확인할 수 있습니다.  
   
 ## <a name="bkmk_winstoreAzure"></a> Windows 스토어 및 Azure 앱에서 원격 디버깅  
- Windows 스토어 앱을 사용 하 여 원격 디버깅에 대 한 자세한 내용은 [Visual Studio에서 원격 장치의 Windows 스토어 앱 디버깅 및 테스트](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx)합니다.  
+ Windows 스토어 앱을 사용 하 여 원격 디버깅에 대 한 자세한 내용은 [Visual Studio에서 원격 장치의 Windows 스토어 앱 디버깅 및 테스트](https://msdn.microsoft.com/library/windows/apps/hh441469.aspx)합니다.  
   
  Azure의 디버깅에 대한 자세한 내용은 다음 항목 중 하나를 참조하세요.  
   
@@ -291,7 +291,7 @@ ms.locfileid: "63446111"
   
 - [Visual Studio에서.NET 백 엔드 디버깅](http://blogs.msdn.com/b/azuremobile/archive/2014/03/14/debugging-net-backend-in-visual-studio.aspx)  
   
-- Azure 웹 사이트의 원격 디버깅 소개 ([1 부](http://azure.microsoft.com/blog/2014/05/06/introduction-to-remote-debugging-on-azure-web-sites/)를 [2 부](http://azure.microsoft.com/blog/2014/05/07/introduction-to-remote-debugging-azure-web-sites-part-2-inside-remote-debugging/)하십시오 [3 부](http://azure.microsoft.com/blog/2014/05/08/introduction-to-remote-debugging-on-azure-web-sites-part-3-multi-instance-environment-and-git/)).  
+- Azure 웹 사이트의 원격 디버깅 소개 ([1 부](https://azure.microsoft.com/blog/2014/05/06/introduction-to-remote-debugging-on-azure-web-sites/)를 [2 부](https://azure.microsoft.com/blog/2014/05/07/introduction-to-remote-debugging-azure-web-sites-part-2-inside-remote-debugging/)하십시오 [3 부](https://azure.microsoft.com/blog/2014/05/08/introduction-to-remote-debugging-on-azure-web-sites-part-3-multi-instance-environment-and-git/)).  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)   

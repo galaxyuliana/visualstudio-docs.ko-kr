@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f41b6332aab272baed17e9955687c34803003d0b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9463e46a7341a7da5c4aa79ae477d6aa0ff0c6cc
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444573"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686650"
 ---
 # <a name="how-to-create-an-activity-library"></a>방법: 활동 라이브러리 만들기
 사용자 지정 활동은 워크플로의 특정 비즈니스 프로세스를 모델링하는 데 사용됩니다. [!INCLUDE[vs2010](../includes/vs2010-md.md)]의 활동 라이브러리 템플릿은 [!INCLUDE[wfd1](../includes/wfd1-md.md)]를 사용하여 이러한 사용자 지정 활동을 시각적으로 만들 수 있도록 하기 위한 것입니다.  
@@ -48,5 +48,5 @@ ms.locfileid: "63444573"
     > 사용자 지정 활동의 본문에 자식 활동을 한 개만 넣을 수 있지만, 자식 활동으로 <xref:System.Activities.Statements.Sequence> 활동 또는 <xref:System.Activities.Statements.Flowchart> 활동과 같은 복합 활동을 사용할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 활동 만들기](http://msdn.microsoft.com/library/c09b1e99-21b5-4d96-9c04-ec31db3f4436)   
+ [방법: 활동 만들기](https://msdn.microsoft.com/library/c09b1e99-21b5-4d96-9c04-ec31db3f4436)   
  [워크플로 프로젝트 만들기](../workflow-designer/creating-a-workflow-project.md)

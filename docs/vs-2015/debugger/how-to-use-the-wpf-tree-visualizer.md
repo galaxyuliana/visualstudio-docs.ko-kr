@@ -17,17 +17,17 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 02f7c89db63fbd2276dd6e59a619a62e4b485870
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 6cd353610cc3d9122c14f608f0278d4afc501e0f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108187"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686844"
 ---
 # <a name="how-to-use-the-wpf-tree-visualizer"></a>방법: WPF 트리 시각화 도우미 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-WPF 트리 시각화 도우미를 사용하여 WPF 개체의 표시 트리를 탐색하고 트리에 포함된 개체의 WPF 종속성 속성을 볼 수 있습니다. 시각적 트리에 대 한 자세한 내용은 참조 하세요. [WPF의 트리](http://msdn.microsoft.com/library/e83f25e5-d66b-4fc7-92d2-50130c9a6649)합니다. 종속성 속성에 대 한 자세한 내용은 참조 하세요. [종속성 속성 개요](http://msdn.microsoft.com/library/d119d00c-3afb-48d6-87a0-c4da4f83dee5)합니다.  
+WPF 트리 시각화 도우미를 사용하여 WPF 개체의 표시 트리를 탐색하고 트리에 포함된 개체의 WPF 종속성 속성을 볼 수 있습니다. 시각적 트리에 대 한 자세한 내용은 참조 하세요. [WPF의 트리](https://msdn.microsoft.com/library/e83f25e5-d66b-4fc7-92d2-50130c9a6649)합니다. 종속성 속성에 대 한 자세한 내용은 참조 하세요. [종속성 속성 개요](https://msdn.microsoft.com/library/d119d00c-3afb-48d6-87a0-c4da4f83dee5)합니다.  
   
  WPF 트리 시각화 도우미를 열면 두 개의 창이 표시 됩니다: 합니다 **시각적 트리** 왼쪽 하며 **의 속성** _이름_**:**  _형식_ 오른쪽 창입니다. 모든 개체를 선택 합니다 **시각적 트리** 창 및 **속성을** _이름_**:**_형식_ 창은 해당 개체에 대 한 속성을 표시 하도록 자동으로 업데이트 합니다.  
   
@@ -66,5 +66,5 @@ WPF 트리 시각화 도우미를 사용하여 WPF 개체의 표시 트리를 �
 ## <a name="see-also"></a>참고 항목  
  [방법: 시각화 도우미 사용](../misc/how-to-use-a-visualizer.md)   
  [사용자 지정 시각화 도우미 만들기](../debugger/create-custom-visualizers-of-data.md)   
- [WPF의 트리](http://msdn.microsoft.com/library/e83f25e5-d66b-4fc7-92d2-50130c9a6649)   
- [종속성 속성 개요](http://msdn.microsoft.com/library/d119d00c-3afb-48d6-87a0-c4da4f83dee5)
+ [WPF의 트리](https://msdn.microsoft.com/library/e83f25e5-d66b-4fc7-92d2-50130c9a6649)   
+ [종속성 속성 개요](https://msdn.microsoft.com/library/d119d00c-3afb-48d6-87a0-c4da4f83dee5)

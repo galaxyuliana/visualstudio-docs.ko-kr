@@ -13,12 +13,12 @@ ms.assetid: 15c38159-660a-4ef4-9643-aa6fcfca82a9
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 538de61fed22f4bcfcb38022b41a81d1239f5f4e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 22cbe4fc34ae41f89709d5b20f2c1188edcd0de3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981145"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685294"
 ---
 # <a name="commandtable-element"></a>CommandTable 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ CommandTable는.vsct 파일의 루트 요소입니다. VSPackage는 IDE를 제�
 |[VisibilityConstraints 요소](../extensibility/visibilityconstraints-element.md)|선택 사항입니다. 도구 모음 및 명령 정적 표시 여부를 결정 합니다.|  
 |[KeyBindings 요소](../extensibility/keybindings-element.md)|선택 사항입니다. 명령에 대 한 바로 가기 키 조합을 지정 합니다.|  
 |[UsedCommands 요소](../extensibility/usedcommands-element.md)|선택 사항입니다. 필요에 따라 다른 Vspackage에서 원래 지원 되는 기능의 자체 버전을 구현 하기 위해 VSPackage를 허용 합니다.|  
-|[Symbols 요소](http://msdn.microsoft.com/f2ddd0aa-c3dd-439e-834d-28f136a27ffa)|선택 사항입니다. 컴파일러에 대 한-Guid, Id 등-모든 기호 데이터를 포함합니다.|  
+|[Symbols 요소](https://msdn.microsoft.com/f2ddd0aa-c3dd-439e-834d-28f136a27ffa)|선택 사항입니다. 컴파일러에 대 한-Guid, Id 등-모든 기호 데이터를 포함합니다.|  
   
 ### <a name="parent-elements"></a>부모 요소  
   

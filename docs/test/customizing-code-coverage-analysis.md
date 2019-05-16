@@ -89,7 +89,7 @@ ms.locfileid: "62965555"
 
 Include 및 exclude 노드는 정규식을 사용합니다. 자세한 내용은 [Visual Studio에서 정규식 사용](../ide/using-regular-expressions-in-visual-studio.md)을 참조하세요. 정규식은 와일드카드와 다릅니다. 특히 다음과 같습니다.
 
-- **.\\***는 모든 문자의 문자열과 일치합니다.
+- **.\\*** 는 모든 문자의 문자열과 일치합니다.
 
 - **\\.** 점 “.”과 일치합니다.
 

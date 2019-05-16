@@ -15,12 +15,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 2b107e1aa24b51de3efca8a97972c473f40a3da4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: f284c0e6e57a2ca359e765992db3f2d599fec328
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984283"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705746"
 ---
 # <a name="ca1405-com-visible-type-base-types-should-be-com-visible"></a>CA1405: COM 노출 형식의 기본 형식은 COM 노출이어야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,4 +51,4 @@ ms.locfileid: "58984283"
  [!code-vb[FxCop.Interoperability.ComBaseTypes#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Interoperability.ComBaseTypes/vb/FxCop.Interoperability.ComBaseTypes.vb#1)]
 
 ## <a name="see-also"></a>참고 항목
- <xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName> [클래스 인터페이스 소개](http://msdn.microsoft.com/733c0dd2-12e5-46e6-8de1-39d5b25df024) [비관리 코드와의 상호 운용](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
+ <xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName> [클래스 인터페이스 소개](https://msdn.microsoft.com/733c0dd2-12e5-46e6-8de1-39d5b25df024) [비관리 코드와의 상호 운용](https://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)

@@ -22,12 +22,12 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: f0dd471e156f7a76462ac093c9ca54684f7dbc68
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7f13a97adbec1da1bd0f279e14cf510532b9c62f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444498"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65688631"
 ---
 # <a name="accessing-data-in-visual-studio"></a>Visual Studio에서 데이터 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -98,7 +98,7 @@ Visual Studio에서 거의 모든 데이터베이스 제품 또는 서비스의 
  이러한 기술 중 하나를 사용 하는 요구 사항이 있습니다. 일부 시나리오에서는 성능은 중요 하며, 경우에 특히 사용할 수 있습니다 단순히 DataReader 개체를 데이터베이스에서 읽고 목록과 같은 컬렉션 개체에 필요한 값을 복사할\<T >입니다.
 
 ### <a name="native-c"></a>네이티브 C++
- C++SQL Server에 연결 하는 응용 프로그램 사용 해야 합니다 [SQL Server Native Client](https://msdn.microsoft.com/sqlserver/aa937733.aspx)합니다. 사용 하 여 다른 데이터베이스를 액세스할 수 있습니다 [ODBC](https://msdn.microsoft.com/library/ms710252\(v=vs.85\).aspx) 또는 OLE DB 드라이버 직접. ODBC 현재 표준 데이터베이스 인터페이스 이지만 대부분의 데이터베이스 시스템 ODBC 인터페이스를 통해 액세스할 수 없는 사용자 지정 기능을 제공 합니다.  OLE DB는 레거시 COM 데이터 액세스 기술 계속 지원 하지만 새로운 응용 프로그램에 적합 하지 않습니다.  자세한 내용은 [데이터 액세스](http://msdn.microsoft.com/library/a9455752-39c4-4457-b14e-197772d3df0b)합니다.
+ C++SQL Server에 연결 하는 응용 프로그램 사용 해야 합니다 [SQL Server Native Client](https://msdn.microsoft.com/sqlserver/aa937733.aspx)합니다. 사용 하 여 다른 데이터베이스를 액세스할 수 있습니다 [ODBC](https://msdn.microsoft.com/library/ms710252\(v=vs.85\).aspx) 또는 OLE DB 드라이버 직접. ODBC 현재 표준 데이터베이스 인터페이스 이지만 대부분의 데이터베이스 시스템 ODBC 인터페이스를 통해 액세스할 수 없는 사용자 지정 기능을 제공 합니다.  OLE DB는 레거시 COM 데이터 액세스 기술 계속 지원 하지만 새로운 응용 프로그램에 적합 하지 않습니다.  자세한 내용은 [데이터 액세스](https://msdn.microsoft.com/library/a9455752-39c4-4457-b14e-197772d3df0b)합니다.
 
  C++REST 서비스를 사용 하는 프로그램에서 사용할 수는 [ C++ REST SDK](https://github.com/Microsoft/cpprestsdk)합니다.
 
@@ -107,7 +107,7 @@ Visual Studio에서 거의 모든 데이터베이스 제품 또는 서비스의 
 #### <a name="data-modeling"></a>데이터 모델링
  Visual Studio에 대 한 ORM 계층을 제공 하지 않습니다 C++입니다.  [ODB](http://www.codesynthesis.com/products/odb/) 되는 인기 있는 오픈 소스 ORM에 대 한 C++합니다.
 
- 레거시 시각적 개체에 대 한 자세한 내용은 C++ 데이터 액세스 기술 참조 [데이터 액세스](http://msdn.microsoft.com/library/a9455752-39c4-4457-b14e-197772d3df0b)
+ 레거시 시각적 개체에 대 한 자세한 내용은 C++ 데이터 액세스 기술 참조 [데이터 액세스](https://msdn.microsoft.com/library/a9455752-39c4-4457-b14e-197772d3df0b)
 
 ### <a name="javascript"></a>JavaScript
  [Visual Studio의 JavaScript](https://msdn.microsoft.com/library/hh334522.aspx) 플랫폼 간 앱을 UWP 앱, 클라우드 서비스, 웹 사이트 및 웹 앱을 빌드하기 위한 최고 수준의 언어입니다. 데이터베이스 제품 확인 하 고 원하는 JavaScript 라이브러리를 설치 하려면 Bower, Grunt, Gulp, npm 및 Visual Studio 내에서 NuGet을 사용할 수 있습니다. Sdk를 다운로드 하 여 Azure storage 및 서비스에 연결 합니다 [Azure 웹 사이트](https://azure.microsoft.com/)합니다.  표시 되는 서버 쪽 JavaScript (Node.js) ADO.NET 데이터 소스에 연결 하는 라이브러리입니다.
@@ -118,7 +118,7 @@ Visual Studio에서 거의 모든 데이터베이스 제품 또는 서비스의 
 ## <a name="in-this-section"></a>단원 내용
  [데이터베이스 시스템, 도구 및 샘플 설치](../data-tools/installing-database-systems-tools-and-samples.md) 얻거나 데이터베이스 제품 및 Visual Studio 확장을 지 원하는 드라이버 하는 방법 및 실험 및 학습 목적에 대 한 샘플 데이터베이스를 찾을 수 있는 위치에 설명 합니다.
 
- [.NET 용 visual Studio 데이터 도구](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) Visual Studio 도구 창을 사용 하 여 데이터 원본에 연결 하 고 데이터 집합 또는 Entity Framework 모델을 만들 사용자 인터페이스 컨트롤에 데이터 바인딩 방법에 설명 합니다.
+ [.NET 용 visual Studio 데이터 도구](https://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) Visual Studio 도구 창을 사용 하 여 데이터 원본에 연결 하 고 데이터 집합 또는 Entity Framework 모델을 만들 사용자 인터페이스 컨트롤에 데이터 바인딩 방법에 설명 합니다.
 
 ## <a name="related-topics"></a>관련 항목
  [데이터, 장치 및 Analytics](https://msdn.microsoft.com/data-and-devices) Cortana Analytics Suite 및 사물 인터넷에 대 한 지원을 비롯 한 Microsoft 지능형 클라우드를 소개 합니다.
@@ -129,16 +129,16 @@ Visual Studio에서 거의 모든 데이터베이스 제품 또는 서비스의 
 
  [SQL Server Data Tools](https://msdn.microsoft.com/library/hh272686\(v=vs.103\).aspx) 디자인, 탐색, 테스트 및 데이터에 연결 된 응용 프로그램 및 데이터베이스의 배포를 간소화 하는 도구에 설명 합니다.
 
- [ADO.NET](http://msdn.microsoft.com/library/5b96ed06-9759-4966-a797-a1d5f6ee50ca) ADO.NET 아키텍처 및 응용 프로그램 데이터를 관리 하 고 XML 데이터 소스와 상호 작용을 ADO.NET 클래스를 사용 하는 방법에 설명 합니다.
+ [ADO.NET](https://msdn.microsoft.com/library/5b96ed06-9759-4966-a797-a1d5f6ee50ca) ADO.NET 아키텍처 및 응용 프로그램 데이터를 관리 하 고 XML 데이터 소스와 상호 작용을 ADO.NET 클래스를 사용 하는 방법에 설명 합니다.
 
  [ADO.NET Entity Framework](https://msdn.microsoft.com/data/ef) 대신 개념적 모델을 관계형 데이터베이스에 대해 직접 프로그래밍할 수 있는 데이터 응용 프로그램을 만드는 방법을 설명 합니다.
 
- [WCF Data Services 4.5](http://msdn.microsoft.com/library/73d2bec3-7c92-4110-b905-11bb0462357a) 사용 하는 방법에 설명 합니다 [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] 구현 하는 웹 또는 인트라넷용 데이터 서비스를 배포 하는 [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204)합니다.
+ [WCF Data Services 4.5](https://msdn.microsoft.com/library/73d2bec3-7c92-4110-b905-11bb0462357a) 사용 하는 방법에 설명 합니다 [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] 구현 하는 웹 또는 인트라넷용 데이터 서비스를 배포 하는 [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204)합니다.
 
- [Office 솔루션의 데이터](http://msdn.microsoft.com/library/8478c095-864b-4ed3-8a70-1fc19b411c6a) Office 솔루션에서 데이터가 작동 하는 방법을 설명 하는 항목에 대 한 링크를 포함 합니다. 스키마 지향 프로그래밍, 데이터 캐싱 및 서버 쪽 데이터 액세스에 대 한 정보가 포함 됩니다.
+ [Office 솔루션의 데이터](https://msdn.microsoft.com/library/8478c095-864b-4ed3-8a70-1fc19b411c6a) Office 솔루션에서 데이터가 작동 하는 방법을 설명 하는 항목에 대 한 링크를 포함 합니다. 스키마 지향 프로그래밍, 데이터 캐싱 및 서버 쪽 데이터 액세스에 대 한 정보가 포함 됩니다.
 
- [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d) 에 기본 제공 쿼리 기능을 설명 합니다 C# 및 Visual Basic 및 관계형 데이터베이스, XML 문서, 데이터 집합 및 메모리 내 컬렉션을 쿼리 하기 위한 일반적인 모델입니다.
+ [LINQ (Language-Integrated Query)](https://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d) 에 기본 제공 쿼리 기능을 설명 합니다 C# 및 Visual Basic 및 관계형 데이터베이스, XML 문서, 데이터 집합 및 메모리 내 컬렉션을 쿼리 하기 위한 일반적인 모델입니다.
 
  [Visual Studio의 XML 도구](../xml-tools/xml-tools-in-visual-studio.md) XML 데이터를 XSLT 디버깅,.NET Framework XML 기능을 사용 하 여 작업 및 XML 쿼리 아키텍처에 설명 합니다.
 
- [XML 문서 및 데이터](http://msdn.microsoft.com/library/e695047f-3c0f-4045-8708-5baea91cc380) 포괄적이 고 통합 된.NET Framework에서 데이터 및 XML 문서를 사용 하는 클래스 집합에 대해 간략하게 설명 합니다.
+ [XML 문서 및 데이터](https://msdn.microsoft.com/library/e695047f-3c0f-4045-8708-5baea91cc380) 포괄적이 고 통합 된.NET Framework에서 데이터 및 XML 문서를 사용 하는 클래스 집합에 대해 간략하게 설명 합니다.
