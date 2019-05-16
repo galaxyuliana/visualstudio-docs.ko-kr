@@ -12,12 +12,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 60d41398a37870d8be7a55003259b7cb2b9e48db
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 48e37262c376d2c92e741152a0b3a5866e2718ad
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099626"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685661"
 ---
 # <a name="best-practices-for-using-code-snippets"></a>코드 조각을 사용하는 방법에 대한 유용한 정보
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "60099626"
 코드 조각의 코드에는 작업을 수행하는 가장 기본적인 방법만 표시됩니다. 대부분 애플리케이션에서는 애플리케이션에 맞게 코드를 수정해야 합니다.  
   
 ## <a name="handling-exceptions"></a>예외 처리  
- 일반적으로 코드 조각 Try…Catch 블록은 모든 예외를 catch 및 다시 throw합니다. 이는 프로젝트에 적합한 선택이 아닐 수 있습니다. 각 예외에 대한 여러 가지 응답 방법이 있습니다. 예를 들어 [방법: try/catch를 사용하여 예외 처리(C# 프로그래밍 가이드)](http://msdn.microsoft.com/library/ca8e3773-980e-4767-8633-7408540e9818) 및 [Try...Catch...Finally 문 ](http://msdn.microsoft.com/library/d6488026-ccb3-42b8-a810-0d97b9d6472b)을 참조하세요.  
+ 일반적으로 코드 조각 Try…Catch 블록은 모든 예외를 catch 및 다시 throw합니다. 이는 프로젝트에 적합한 선택이 아닐 수 있습니다. 각 예외에 대한 여러 가지 응답 방법이 있습니다. 예를 들어 [방법: try/catch를 사용하여 예외 처리(C# 프로그래밍 가이드)](https://msdn.microsoft.com/library/ca8e3773-980e-4767-8633-7408540e9818) 및 [Try...Catch...Finally 문 ](https://msdn.microsoft.com/library/d6488026-ccb3-42b8-a810-0d97b9d6472b)을 참조하세요.  
   
 ## <a name="file-locations"></a>파일 위치  
  애플리케이션에 맞게 파일 위치를 조정할 경우 다음을 고려해야 합니다.  
@@ -67,6 +67,6 @@ ms.locfileid: "60099626"
     - 시스템의 임의 위치에서 로드되고 프로젝트에 자동으로 추가된 참조가 조각에 포함되어 있을 수 있습니다. 이러한 참조가 조각을 다운로드한 위치에서 컴퓨터에 다운로드되었을 수 있습니다. 나중에 이 조각이 참조에서 악성 코드를 실행하는 메서드를 호출할 수 있습니다. 이러한 공격을 방지하려면 조각 파일의 Imports 및 References 블록을 검토합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Visual Basic IntelliSense 코드 조각](http://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
+ [Visual Basic IntelliSense 코드 조각](https://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   
  [애플리케이션 보안](../ide/securing-applications.md)   
  [코드 조각](../ide/code-snippets.md)

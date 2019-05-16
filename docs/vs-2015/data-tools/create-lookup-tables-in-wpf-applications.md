@@ -22,12 +22,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8401a41c479dea70289cd0ebf072fc3b57eff78d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: cd92d75e297055b65d05bef42d497e65c2a996d6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434504"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697915"
 ---
 # <a name="create-lookup-tables-in-wpf-applications"></a>WPF 애플리케이션에서 조회 테이블 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "63434504"
 
     - WCF 데이터 서비스에서 WCF 서비스 또는 웹 서비스입니다. 자세한 내용은 [방법: 서비스의 데이터에 연결](../data-tools/how-to-connect-to-data-in-a-service.md)을 참조하세요.  
   
-    - 개체. 자세한 내용은 [방법: 데이터 개체에 연결할](http://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b)합니다.  
+    - 개체. 자세한 내용은 [방법: 데이터 개체에 연결할](https://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b)합니다.  
   
     > [!NOTE]
     > 조회 테이블을 만들려면 먼저 프로젝트에 대 한 데이터 원본으로 두 개의 관련된 테이블이 나 개체가 존재 해야 합니다.  

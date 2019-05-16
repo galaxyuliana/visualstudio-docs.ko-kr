@@ -29,12 +29,12 @@ caps.latest.revision: 45
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 65dafa09035e937e9ee48005c4f29c441d983c37
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 84c0bfead1633da13b4284cad04ace674045b057
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430293"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697481"
 ---
 # <a name="how-to-use-the-call-stack-window"></a>방법: 호출 스택 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "63430293"
  바로 가기 메뉴를 사용하면 스레드 간의 호출 표시 여부를 선택할 수 있습니다.  
   
 > [!NOTE]
-> 표시되는 대화 상자와 메뉴 명령은 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기**를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기**를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ### <a name="to-display-the-call-stack-window-in-break-mode-or-in-run-mode"></a>중단 모드 또는 실행 모드에서 호출 스택 창을 표시하려면  
   
@@ -139,7 +139,7 @@ ms.locfileid: "63430293"
   
 ## <a name="see-also"></a>참고 항목  
  [혼합된 코드 및 누락 된 호출 스택 창 정보](../debugger/mixed-code-and-missing-information-in-the-call-stack-window.md)   
- [방법: 디버거 Windows의 숫자 형식 변경](http://msdn.microsoft.com/library/cd593847-a625-411d-a430-b798346ef18f)   
+ [방법: 디버거 Windows의 숫자 형식 변경](https://msdn.microsoft.com/library/cd593847-a625-411d-a430-b798346ef18f)   
  [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)   
  [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [중단점 사용](../debugger/using-breakpoints.md)

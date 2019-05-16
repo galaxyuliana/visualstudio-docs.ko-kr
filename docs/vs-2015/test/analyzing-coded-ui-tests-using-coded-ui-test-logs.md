@@ -8,12 +8,12 @@ ms.assetid: 7e795873-1d4b-4a13-a52a-a411d87fb759
 caps.latest.revision: 15
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8010ad1f8bbb1e49afe9e5e527e9639f2fb14601
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7040b4dd07eebb4332634d5d8ffc1d9bc8d8c06b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442819"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686486"
 ---
 # <a name="analyzing-coded-ui-tests-using-coded-ui-test-logs"></a>코딩된 UI 테스트 로그를 사용하여 코딩된 UI 테스트 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -109,4 +109,4 @@ ms.locfileid: "63442819"
   
 ## <a name="see-also"></a>참고 항목  
  [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
- [방법: Microsoft Visual Studio에서 테스트 실행](http://msdn.microsoft.com/library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)
+ [방법: Microsoft Visual Studio에서 테스트 실행](https://msdn.microsoft.com/library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)

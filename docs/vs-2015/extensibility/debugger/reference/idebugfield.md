@@ -12,12 +12,12 @@ ms.assetid: adecdd1c-b1b9-4027-92da-74cbe910636f
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: ab95443f611c9cc6a1e74b2b5120047344a9857a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 8bc18204d3cbe20635ab0680a50b4d1555dce2ce
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982556"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690303"
 ---
 # <a name="idebugfield"></a>IDebugField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugField : IUnknown
  기호 공급자는 모든 필드에 대 한 기본 클래스와이 인터페이스를 구현합니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 이 인터페이스는 모든 필드에 대 한 기본 클래스입니다. 반환 값에 따라 [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md),이 인터페이스를 사용 하 여 더욱 특수화 된 인터페이스를 반환할 수 있습니다 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3)합니다. 또한 많은 인터페이스 반환 `IDebugField` 다양 한 메서드에서 개체입니다.  
+ 이 인터페이스는 모든 필드에 대 한 기본 클래스입니다. 반환 값에 따라 [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md),이 인터페이스를 사용 하 여 더욱 특수화 된 인터페이스를 반환할 수 있습니다 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3)합니다. 또한 많은 인터페이스 반환 `IDebugField` 다양 한 메서드에서 개체입니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugField`합니다.  
@@ -54,7 +54,7 @@ IDebugField : IUnknown
 ## <a name="remarks"></a>설명  
  형식은 C 언어에 해당 `typedef`합니다.  
   
- 다음 c + + 언어 예에서 `weather` 형식인 클래스 및 `sunny` 및 `stormy` 기호:  
+ 다음에서 C++ 언어 예제 `weather` 형식인 클래스 및 `sunny` 하 고 `stormy` 기호:  
   
 ```cpp#  
 class weather;  

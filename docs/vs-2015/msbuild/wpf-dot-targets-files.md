@@ -18,12 +18,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 760df73b35f45b983740f6dda5e6fe58dc2493ae
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 2839cce2a49eb4be8e72f370fe60be3d81529da1
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658438"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687129"
 ---
 # <a name="wpf-targets-files"></a>WPF .Targets 파일
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,4 +33,4 @@ ms.locfileid: "59658438"
 ## <a name="see-also"></a>참고 항목  
  [.Targets 파일](../msbuild/msbuild-dot-targets-files.md)   
  [MSBuild 참조](../msbuild/msbuild-reference.md)   
- [WPF 애플리케이션 빌드(WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)
+ [WPF 애플리케이션 빌드(WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)

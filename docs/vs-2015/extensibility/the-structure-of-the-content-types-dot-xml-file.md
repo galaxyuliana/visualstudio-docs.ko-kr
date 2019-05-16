@@ -13,12 +13,12 @@ ms.assetid: 9c399598-b9fa-4da7-84b5-defbf82e9335
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4117e028611c2ff64102a97579d17d72f50407e0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e94e8cd065908671446486d2ec00e167d8fb4f4e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430149"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697104"
 ---
 # <a name="the-structure-of-the-contenttypesxml-file"></a>구조는 Content_types].xml 파일
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -103,5 +103,5 @@ VSIX 패키지에서 원하는 콘텐츠 종류에 대 한 정보를 포함합�
   
 ## <a name="see-also"></a>참고 항목  
  [VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)   
- [VSIX 확장 스키마 1.0 참조](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
+ [VSIX 확장 스키마 1.0 참조](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
  [OPC: 데이터 패키징을 위한 새로운 표준](http://go.microsoft.com/fwlink/?LinkID=148207)

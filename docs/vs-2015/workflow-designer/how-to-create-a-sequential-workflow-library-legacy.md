@@ -14,12 +14,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d44d1b83776cdd69c659ebed0bc2a1caaa53e123
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 6563c209dfd86a74c2d51fc9179948c63e7cf4b2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433512"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686683"
 ---
 # <a name="how-to-create-a-sequential-workflow-library-legacy"></a>방법: 순차 워크플로 라이브러리 만들기(레거시)
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에서 제공하는 레거시 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용하여 순차 워크플로 라이브러리 프로젝트를 만들려면 다음 단계를 따릅니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
@@ -51,4 +51,4 @@ ms.locfileid: "63433512"
   
 ## <a name="see-also"></a>참고 항목  
  [레거시 워크플로 프로젝트 만들기](../workflow-designer/creating-legacy-workflow-projects.md)   
- [워크플로 제작 스타일](http://msdn.microsoft.com/aacf4ec6-da05-4974-958a-974769dda739)
+ [워크플로 제작 스타일](https://msdn.microsoft.com/aacf4ec6-da05-4974-958a-974769dda739)

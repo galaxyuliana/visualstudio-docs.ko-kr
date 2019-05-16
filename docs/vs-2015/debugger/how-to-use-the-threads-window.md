@@ -24,12 +24,12 @@ caps.latest.revision: 48
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 280160127cc147cddd91a79c4290f80a311ee792
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 835843d2328d9d17ac899fc12c97251b7e6b4659
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434857"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685330"
 ---
 # <a name="how-to-use-the-threads-window"></a>방법: 스레드 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -127,7 +127,7 @@ ms.locfileid: "63434857"
 ## <a name="freezing-and-thawing-threads"></a>스레드 중지 및 재개  
  스레드를 중지하면 리소스를 사용할 수 있어도 스레드 실행이 시작되지 않습니다.  
   
- 네이티브 코드에서 일시 중단 하거나 Windows 함수를 호출 하 여 스레드를 다시 시작할 수 있습니다 `SuspendThread` 하 고 `ResumeThread` 또는 MFC 함수 [CWinThread::SuspendThread](http://msdn.microsoft.com/library/57189c7e-fd71-42e5-bc4b-3de7cd373d28) 고 [cwinthread:: Resumethread](http://msdn.microsoft.com/library/d6f97a2f-5c9f-4ee1-b978-d74938784db5). 호출 하는 경우 `SuspendThread` 또는 `ResumeThread`, 변경한 합니다 *일시 중단 횟수*에 표시 되는 **스레드** 창입니다. 그러나 네이티브 스레드를 중지하거나 재개하는 경우에는 일시 중단된 횟수를 변경하지 않습니다. 네이티브 코드에서는 스레드가 재개되고 일시 중단된 횟수가 0인 경우 이외에는 스레드를 실행할 수 없습니다.  
+ 네이티브 코드에서 일시 중단 하거나 Windows 함수를 호출 하 여 스레드를 다시 시작할 수 있습니다 `SuspendThread` 하 고 `ResumeThread` 또는 MFC 함수 [CWinThread::SuspendThread](https://msdn.microsoft.com/library/57189c7e-fd71-42e5-bc4b-3de7cd373d28) 고 [cwinthread:: Resumethread](https://msdn.microsoft.com/library/d6f97a2f-5c9f-4ee1-b978-d74938784db5). 호출 하는 경우 `SuspendThread` 또는 `ResumeThread`, 변경한 합니다 *일시 중단 횟수*에 표시 되는 **스레드** 창입니다. 그러나 네이티브 스레드를 중지하거나 재개하는 경우에는 일시 중단된 횟수를 변경하지 않습니다. 네이티브 코드에서는 스레드가 재개되고 일시 중단된 횟수가 0인 경우 이외에는 스레드를 실행할 수 없습니다.  
   
  관리 코드에서는 스레드를 중지하거나 재개하면 일시 중단된 횟수가 변경됩니다. 관리 코드에서는 중지된 스레드의 일시 중단된 횟수가 1입니다. 네이티브 코드에서 중지된 스레드의 일시 중단된 횟수는 0입니다. 단, `SuspendThread` 호출로 인해 스레드가 일시 중단된 경우는 예외입니다.  
   

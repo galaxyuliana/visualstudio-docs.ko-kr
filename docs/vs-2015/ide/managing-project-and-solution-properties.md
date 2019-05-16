@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dd20552a72775723c4ad006708ce1fb7f18d4181
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: dc27bd0cb93ab142d2a82758c72b27d14032d04e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63424626"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674972"
 ---
 # <a name="managing-project-and-solution-properties"></a>프로젝트 및 솔루션 속성 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "63424626"
   
  ![Visual C&#43;&#43; 프로젝트 속성](../ide/media/vs2015-projprops-cpp.png "VS2015_ProjProps_cpp")  
   
- C++ 프로젝트 속성에 대한 자세한 내용은 [프로젝트 속성 작업](http://msdn.microsoft.com/library/9b0d6f8b-7d4e-4e61-aa75-7d14944816cd)을 참조하세요. JavaScript 속성에 대한 자세한 내용은 [속성 페이지, JavaScript](../ide/reference/property-pages-javascript.md)를 참조하세요.  
+ C++ 프로젝트 속성에 대한 자세한 내용은 [프로젝트 속성 작업](https://msdn.microsoft.com/library/9b0d6f8b-7d4e-4e61-aa75-7d14944816cd)을 참조하세요. JavaScript 속성에 대한 자세한 내용은 [속성 페이지, JavaScript](../ide/reference/property-pages-javascript.md)를 참조하세요.  
   
 ## <a name="solution-properties"></a>솔루션 속성  
  솔루션에 대한 속성에 액세스하려면 **솔루션 탐색기**에서 솔루션 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다. 대화 상자에서 디버그 또는 릴리스 빌드에 대한 프로젝트 구성을 설정하고, F5 키를 누를 때 시작 프로젝트여야 하는 프로젝트를 선택하고, 코드 분석 옵션을 설정할 수 있습니다.  

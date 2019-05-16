@@ -8,12 +8,12 @@ ms.assetid: 4f4b5f10-7314-4725-8c6e-e72f52eff918
 caps.latest.revision: 16
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d532234e50177222c3165638c0d77a8bd7c1b142
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d238b5923c6f1377ec68717c8ed658bc74fe8e6a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437973"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695282"
 ---
 # <a name="writing-unit-tests-for-cc-with-the-microsoft-unit-testing-framework-for-c"></a>C++용 Microsoft 유닛 테스트 프레임워크를 사용하여 C/C++용 유닛 테스트 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
   
     - DLL의 외부 액세스 가능한 함수에 대한 선언이 포함된 `#include` 파일을 `.h`합니다.  
   
-         `.h` 파일에는 `_declspec(dllimport)`로 표시된 함수 선언이 포함됩니다. 또는 DEF 파일을 사용해서 메서드를 내보낼 수 있습니다. 자세한 내용은 [가져오기 및 내보내기](http://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b)를 참조하세요.  
+         `.h` 파일에는 `_declspec(dllimport)`로 표시된 함수 선언이 포함됩니다. 또는 DEF 파일을 사용해서 메서드를 내보낼 수 있습니다. 자세한 내용은 [가져오기 및 내보내기](https://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b)를 참조하세요.  
   
          단위 테스트는 테스트 중인 DLL에서 내보낸 함수만 액세스할 수 있습니다.  
   
@@ -168,7 +168,7 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
   
      ![새 DLL 코드 프로젝트 및 API 매크로가 있는 .h 파일](../test/media/utecpp07.png "UteCpp07")  
   
-     `__declspec(dllexport)` 선언자는 클래스의 공용 및 보호되는 멤버가 DLL 외부에 표시되도록 만듭니다. 자세한 내용은 [Using dllimport and dllexport in C++ Classes](http://msdn.microsoft.com/library/8d7d1303-b9e9-47ca-96cc-67bf444a08a9)을 참조하세요.  
+     `__declspec(dllexport)` 선언자는 클래스의 공용 및 보호되는 멤버가 DLL 외부에 표시되도록 만듭니다. 자세한 내용은 [Using dllimport and dllexport in C++ Classes](https://msdn.microsoft.com/library/8d7d1303-b9e9-47ca-96cc-67bf444a08a9)을 참조하세요.  
   
 4. 주 .cpp 파일에서 함수에 대한 최소한의 본문을 추가합니다.  
   
@@ -395,7 +395,7 @@ Visual Studio에서는 C++로 작성된 관리되지 않는 코드에 대한 단
 ## <a name="see-also"></a>참고 항목  
  [기존 C++ 응용 프로그램에 단위 테스트 추가](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)   
  [Microsoft.VisualStudio.TestTools.CppUnitTestFramework 사용](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)   
- [관리되는/관리되지 않는 코드 상호 운용성에 대한 개요](http://msdn.microsoft.com/library/ms973872.aspx)   
+ [관리되는/관리되지 않는 코드 상호 운용성에 대한 개요](https://msdn.microsoft.com/library/ms973872.aspx)   
  [네이티브 코드 디버그](../debugger/debugging-native-code.md)   
- [연습: 만들기 및 사용 된 동적 연결 라이브러리 (C++)](http://msdn.microsoft.com/library/3ae94848-44e7-4955-bbad-7d40f493e941)   
- [가져오기 및 내보내기](http://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b)
+ [연습: 만들기 및 사용 된 동적 연결 라이브러리 (C++)](https://msdn.microsoft.com/library/3ae94848-44e7-4955-bbad-7d40f493e941)   
+ [가져오기 및 내보내기](https://msdn.microsoft.com/library/7c44c2aa-2117-4cec-9615-a65bfd3f8f7b)

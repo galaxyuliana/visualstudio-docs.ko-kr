@@ -12,12 +12,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ee9289ebaeb12318ef83694f5dfb74b2930b8df1
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1b437fb34902783002baedee992a21ee61a86c2e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63416756"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685620"
 ---
 # <a name="how-to-implement-an-interface-class-designer"></a>방법: 인터페이스 구현(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ ms.locfileid: "63416756"
 2. 클래스 뷰를 열고 인터페이스를 찾습니다.  
   
     > [!TIP]
-    > 클래스 뷰가 열려 있지 않으면 **보기** 메뉴에서 클래스 뷰를 엽니다. 클래스 뷰에 대한 자세한 내용은 [클래스 및 해당 멤버 보기](http://msdn.microsoft.com/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333)를 참조하세요.  
+    > 클래스 뷰가 열려 있지 않으면 **보기** 메뉴에서 클래스 뷰를 엽니다. 클래스 뷰에 대한 자세한 내용은 [클래스 및 해당 멤버 보기](https://msdn.microsoft.com/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333)를 참조하세요.  
   
 3. 다이어그램에서 클래스 도형으로 인터페이스 노드를 끌어옵니다.  
   

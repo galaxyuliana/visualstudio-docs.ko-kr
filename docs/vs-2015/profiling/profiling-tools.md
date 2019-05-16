@@ -11,12 +11,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 93ef837da86056acc720abff9ad33cbf457a108f
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: bcb230532da4a0b84ea0102d86534c28afe35558
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54780846"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686209"
 ---
 # <a name="profiling-tools"></a>프로파일링 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "54780846"
 ## <a name="memory-usage"></a>메모리 사용량  
  ![DiagMemorySmall](../profiling/media/diagmemorysmall.png "DiagMemorySmall")  
   
- **메모리 사용량** 도구를 사용하면 디버깅 중에 메모리 누수 및 비효율적인 메모리를 찾습니다. 이 도구를 통해 관리되는 메모리 및 기본 메모리 힙의 스냅숏을 만들 수 있습니다. 이 도구는 데스크톱 앱, Windows 유니버설 앱, ASP.NET 앱에서 사용할 수 있습니다. **메모리 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/Windows/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다. 자세한 내용은 [메모리 사용량](../profiling/memory-usage.md) 및 [디버깅하지 않는 경우의 메모리 사용량](http://msdn.microsoft.com/library/8883bc5f-df86-4f84-aa2b-a21150f499b0)을 참조하세요.  
+ **메모리 사용량** 도구를 사용하면 디버깅 중에 메모리 누수 및 비효율적인 메모리를 찾습니다. 이 도구를 통해 관리되는 메모리 및 기본 메모리 힙의 스냅숏을 만들 수 있습니다. 이 도구는 데스크톱 앱, Windows 유니버설 앱, ASP.NET 앱에서 사용할 수 있습니다. **메모리 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/Windows/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다. 자세한 내용은 [메모리 사용량](../profiling/memory-usage.md) 및 [디버깅하지 않는 경우의 메모리 사용량](https://msdn.microsoft.com/library/8883bc5f-df86-4f84-aa2b-a21150f499b0)을 참조하세요.  
   
 ## <a name="cpu-usage"></a>CPU 사용량  
  ![DiagCPUSmall](../profiling/media/diagcpusmall.png "DiagCPUSmall")  

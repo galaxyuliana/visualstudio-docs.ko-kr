@@ -21,12 +21,12 @@ caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0cb2d42db65c5eb77aae324d2c10c25010eb8b8f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 48632a08b3ed59d65b7a551244c295b012bef665
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444742"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690973"
 ---
 # <a name="devenv-command-line-switches"></a>Devenv 명령줄 스위치
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -76,7 +76,7 @@ Devenv를 사용하면 IDE(통합 개발 환경)에 대한 다양한 옵션을 �
 |[/Log (devenv.exe)](../../ide/reference/log-devenv-exe.md)|[!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작하고 모든 작업을 로그 파일에 기록합니다.|  
 |[/Run (devenv.exe)](../../ide/reference/run-devenv-exe.md) or `/r`|지정한 솔루션을 컴파일하고 실행합니다.|  
 |[/Runexit (devenv.exe)](../../ide/reference/runexit-devenv-exe.md)|지정한 솔루션을 컴파일 및 실행하고, 솔루션 실행 시 IDE를 최소화하고, 솔루션 실행이 완료되면 IDE를 닫습니다.|  
-|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|IDE에서 **옵션** 대화 상자, **프로젝트** 옵션의 VC++ 디렉터리 섹션에 지정된 설정 대신 PATH, INCLUDE 및 LIB 환경 변수를 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 컴파일에 사용하도록 합니다. 자세한 내용은 [명령줄 빌드에 맞는 경로 및 환경 변수 설정](http://msdn.microsoft.com/library/99389528-deb5-43b9-b99a-03c8773ebaf4)을 참조하세요.|  
+|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|IDE에서 **옵션** 대화 상자, **프로젝트** 옵션의 VC++ 디렉터리 섹션에 지정된 설정 대신 PATH, INCLUDE 및 LIB 환경 변수를 [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)] 컴파일에 사용하도록 합니다. 자세한 내용은 [명령줄 빌드에 맞는 경로 및 환경 변수 설정](https://msdn.microsoft.com/library/99389528-deb5-43b9-b99a-03c8773ebaf4)을 참조하세요.|  
 |[/Edit (devenv.exe)](../../ide/reference/edit-devenv-exe.md)|이 애플리케이션의 실행 중인 인스턴스에서 지정한 파일을 엽니다. 실행 중인 인스턴스가 없으면 간단한 창 레이아웃을 사용하여 새 인스턴스를 시작합니다.|  
 |[/ResetAddin (devenv.exe)](../../ide/reference/resetaddin-devenv-exe.md)|지정한 추가 기능을 로드하지 않고 Visual Studio IDE 인스턴스를 시작합니다.|  
 |[/SafeMode (devenv.exe)](../../ide/reference/safemode-devenv-exe.md)|안전 모드에서 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작하고 기본 환경 및 서비스와 타사 패키지의 배송된 버전만 로드합니다.|  

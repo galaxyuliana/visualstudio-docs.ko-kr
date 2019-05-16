@@ -19,12 +19,12 @@ caps.latest.revision: 39
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 7d5c716d702716ffb0083279523668eab3e01685
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 1eb56d1334eb18dd5872457d032e5780a3f75eb3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650243"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698716"
 ---
 # <a name="common-msbuild-project-properties"></a>일반적인 MSBuild 프로젝트 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -114,7 +114,7 @@ ms.locfileid: "59650243"
 |Satellite_Version|위성 어셈블리의 버전 정보를 지정합니다.|  
 |Satellite_Win32Icon|위성 어셈블리에 .ico 아이콘 파일을 삽입합니다.|  
 |Satellite_Win32Resource|위성 어셈블리에 Win32 리소스(.res 파일)를 삽입합니다.|  
-|SubsystemVersion|생성된 실행 파일이 사용할 수 있는 하위 시스템의 최소 버전을 지정합니다. 이 속성은 `/subsystemversion` 컴파일러 스위치와 동일합니다. 이 속성의 기본값에 대한 자세한 내용은 [/subsystemversion(Visual Basic)](http://msdn.microsoft.com/library/08be22b2-f447-4cd3-8203-120b1b920b54) 또는 [/subsystemversion(C# 컴파일러 옵션)](http://msdn.microsoft.com/library/a99fce81-9d92-4813-9874-bee777041445)을 참조하세요.|  
+|SubsystemVersion|생성된 실행 파일이 사용할 수 있는 하위 시스템의 최소 버전을 지정합니다. 이 속성은 `/subsystemversion` 컴파일러 스위치와 동일합니다. 이 속성의 기본값에 대한 자세한 내용은 [/subsystemversion(Visual Basic)](https://msdn.microsoft.com/library/08be22b2-f447-4cd3-8203-120b1b920b54) 또는 [/subsystemversion(C# 컴파일러 옵션)](https://msdn.microsoft.com/library/a99fce81-9d92-4813-9874-bee777041445)을 참조하세요.|  
 |TargetCompactFramework|빌드하고 있는 애플리케이션을 실행하는 데 필요한 .NET Compact Framework의 버전입니다. 이를 지정하면 다른 경우에는 참조할 수 없는 특정 프레임워크 어셈블리를 참조할 수 있습니다.|  
 |TargetFrameworkVersion|빌드하고 있는 애플리케이션을 실행하는 데 필요한 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]의 버전입니다. 이를 지정하면 다른 경우에는 참조할 수 없는 특정 프레임워크 어셈블리를 참조할 수 있습니다.|  
 |TreatWarningsAsErrors|`true`이면 모든 경고가 오류로 처리되도록 하는 부울 매개 변수입니다. 이 매개 변수는 `/nowarn` 컴파일러 스위치와 동일합니다.|  

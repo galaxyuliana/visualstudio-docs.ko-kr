@@ -9,12 +9,12 @@ caps.latest.revision: 5
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 972f749d03ec81c40ed91a2fb40161ebdb8cd791
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 95e768fb4edbc4741f07ba497faac43ac512b8e5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650263"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692605"
 ---
 # <a name="native-minimum-rules-rule-set"></a>네이티브 최소 규칙 규칙 집합
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ Microsoft 네이티브 최소 규칙은 잠재적 보안 허점 및 응용 프�
 |                       [C6504](../code-quality/c6504.md)                        |                                              비포인터에 대한 Null                                              |
 |                       [C6505](../code-quality/c6505.md)                        |                                               Void에 대한 MustCheck                                               |
 |                       [C6506](../code-quality/c6506.md)                        |                                      비포인터 또는 배열에 대한 버퍼 크기                                      |
-| [C6507](http://msdn.microsoft.com/18f88cd1-d035-4403-a6a4-12dd0affcf21)  |                                       역참조 0에서의 Null 불일치                                       |
+| [C6507](https://msdn.microsoft.com/18f88cd1-d035-4403-a6a4-12dd0affcf21)  |                                       역참조 0에서의 Null 불일치                                       |
 |                       [C6508](../code-quality/c6508.md)                        |                                           상수에 대한 쓰기 액세스                                            |
 |                       [C6509](../code-quality/c6509.md)                        |                                          사전 조건에서 반환이 사용됨                                          |
 |                       [C6510](../code-quality/c6510.md)                        |                                        비포인터에 대한 Null 종료                                         |
@@ -70,11 +70,11 @@ Microsoft 네이티브 최소 규칙은 잠재적 보안 허점 및 응용 프�
 |                       [C6516](../code-quality/c6516.md)                        |                                          특성에 대한 속성 없음                                           |
 |                       [C6517](../code-quality/c6517.md)                        |                                       읽기 불가능 버퍼에 대한 유효 크기                                       |
 |                       [C6518](../code-quality/c6518.md)                        |                                     쓰기 불가능 버퍼에 대한 쓰기 가능 크기                                      |
-| [C6521](http://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        잘못된 크기 문자열 역참조                                        |
+| [C6521](https://msdn.microsoft.com/e98d0ae3-6f13-47b2-9a15-15d4055af9ef)  |                                        잘못된 크기 문자열 역참조                                        |
 |                       [C6522](../code-quality/c6522.md)                        |                                           잘못된 크기 문자열 유형                                            |
-| [C6523](http://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         잘못된 크기 문자열 매개 변수                                         |
+| [C6523](https://msdn.microsoft.com/11397a31-b224-46b0-afb7-d49ca576a3bb)  |                                         잘못된 크기 문자열 매개 변수                                         |
 |                       [C6525](../code-quality/c6525.md)                        |                                   잘못된 크기 문자열 접근할 수 없는 위치                                    |
-| [C6526](http://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        잘못된 크기 문자열 버퍼 유형                                        |
+| [C6526](https://msdn.microsoft.com/59c590c7-0098-4166-a1ac-87f324596002)  |                                        잘못된 크기 문자열 버퍼 유형                                        |
 |                       [C6527](../code-quality/c6527.md)                        |              주석이 잘못 되었습니다. 'NeedsRelease ' 속성은 void 형식의 값에 사용할 수 없습니다.               |
 |                       [C6530](../code-quality/c6530.md)                        |                                       인식할 수 없는 형식 문자열 스타일                                        |
 |                       [C6540](../code-quality/c6540.md)                        | 이 함수에 특성 주석을 사용하면 기존의 모든 __declspec 주석이 무효화됩니다.  |

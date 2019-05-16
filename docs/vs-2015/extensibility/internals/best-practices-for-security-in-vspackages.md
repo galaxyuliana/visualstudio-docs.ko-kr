@@ -12,12 +12,12 @@ ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
 caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 1db578f62e6fe42ba3d74df5870ca727bd884aaf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 940644cd3950c38c6383371c1844b54b328acd0c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981970"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697276"
 ---
 # <a name="best-practices-for-security-in-vspackages"></a>VSPackage의 보안 모범 사례
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,8 +30,8 @@ ms.locfileid: "58981970"
   
  사용자가 Vspackage 신뢰할 수 있는 원본 에서만에서 설치 해야 합니다. Vspackage를 개발 하는 회사를 해야 합니다. 강력한 이름을 서명 되도록 사용자는 변조 방지 됩니다. Vspackage 개발 회사와 같은 웹 서비스 및 원격 설치를 평가 하 고 보안 문제를 해결 하는 외부 종속성을 확인 해야 합니다.  
   
- 자세한 내용은.NET Framework에 대 한 보안 코딩 지침 참조 ([http://msdn.microsoft.com/library/d55zzx87.aspx](http://msdn.microsoft.com/library/d55zzx87.aspx)).  
+ 자세한 내용은.NET Framework에 대 한 보안 코딩 지침 참조 ([https://msdn.microsoft.com/library/d55zzx87.aspx](https://msdn.microsoft.com/library/d55zzx87.aspx)).  
   
 ## <a name="see-also"></a>참고 항목  
- [추가 기능 보안](http://msdn.microsoft.com/library/44a5c651-6246-4310-b371-65378917c799)   
- [DDEX 보안](http://msdn.microsoft.com/44a52a70-5c98-450e-993d-4a3b32f69ba8)
+ [추가 기능 보안](https://msdn.microsoft.com/library/44a5c651-6246-4310-b371-65378917c799)   
+ [DDEX 보안](https://msdn.microsoft.com/44a52a70-5c98-450e-993d-4a3b32f69ba8)

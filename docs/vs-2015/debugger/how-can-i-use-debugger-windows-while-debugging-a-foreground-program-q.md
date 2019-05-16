@@ -23,12 +23,12 @@ caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 8ab8427c144d56461aa52a535acbe618b68d9994
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 5eba30fce1a2333d04db8485498700853372d154
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986311"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691663"
 ---
 # <a name="how-can-i-use-debugger-windows-while-debugging-a-foreground-program"></a>전경 프로그램을 디버깅하는 동안 디버거 창을 어떻게 사용합니까?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "58986311"
  화면 그림에 대한 문제를 디버깅하려고 합니다. 이 문제를 살펴 보려면 프로그램을 전경에 유지해야 하는데 이 때 디버깅 창에 액세스할 수 없습니다. 어떻게 해야 합니까?  
   
 ## <a name="solution"></a>솔루션  
- 다른 컴퓨터가 있을 경우 원격 디버깅을 사용할 수 있습니다. 컴퓨터 두 대를 설치하면 호스트에서 디버거가 작동하는 동안 원격 컴퓨터에서 화면 그림을 볼 수 있습니다. 원격 디버깅에 대 한 자세한 내용은 참조 하세요. [원격 디버깅 설정](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)합니다.  
+ 다른 컴퓨터가 있을 경우 원격 디버깅을 사용할 수 있습니다. 컴퓨터 두 대를 설치하면 호스트에서 디버거가 작동하는 동안 원격 컴퓨터에서 화면 그림을 볼 수 있습니다. 원격 디버깅에 대 한 자세한 내용은 참조 하세요. [원격 디버깅 설정](https://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [네이티브 코드 디버깅 FAQ](../debugger/debugging-native-code-faqs.md)   

@@ -12,12 +12,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0b7e4051d960d6e893e4bd390686557f90197966
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 5d36a521db2c82ed207b3f77a51908ca7fad3d27
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669096"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695991"
 ---
 # <a name="project-properties-reference"></a>프로젝트 속성 참조
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,5 +45,5 @@ ms.locfileid: "59669096"
 |||  
   
 ## <a name="see-also"></a>참고 항목  
- [프로젝트 디자이너 소개](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
+ [프로젝트 디자이너 소개](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [솔루션 및 프로젝트](../../ide/solutions-and-projects-in-visual-studio.md)

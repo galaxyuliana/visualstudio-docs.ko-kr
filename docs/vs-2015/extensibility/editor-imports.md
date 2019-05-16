@@ -10,12 +10,12 @@ ms.assetid: 8d096de3-33b4-427a-a122-4aeff8a72da0
 caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 4805bff12d284dc5a54451e157c9e8fb92deeae2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1fc32d0126d912acab104ecefe3cb62d80b8513f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63432118"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690311"
 ---
 # <a name="editor-imports"></a>편집기 가져오기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "63432118"
  편집기 가져오기를 사용 하려면 가져올 있습니다 필드 또는 Managed Extensibility Framework 구성 요소 파트를 내보내는 클래스의 속성으로.  
   
 > [!NOTE]
-> Managed Extensibility Framework에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)합니다.  
+> Managed Extensibility Framework에 대 한 자세한 내용은 참조 하세요. [Framework MEF (Managed Extensibility)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)합니다.  
   
 ## <a name="import-syntax"></a>가져오기 구문  
  다음 예제에서는 편집기를 가져오는 방법 옵션 팩터리 서비스를 보여 줍니다.  

@@ -11,12 +11,12 @@ ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
 caps.latest.revision: 21
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 30c941fd4f3c281dfe363d284a559bafe055451c
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: 5e92e965f0efe531f1618be509d0a7c9655c573d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002809"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65682546"
 ---
 # <a name="authoring-a-windows-installer-package"></a>Windows Installer 패키지 작성
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "59002809"
   
 - VSPackage를 통합 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 호출한 **devenv.exe /setup** (CustomAction 테이블 사용).  
   
-  자세한 내용은 [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)합니다.  
+  자세한 내용은 [Windows Installer](https://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)합니다.  
   
 ## <a name="setup-tools"></a>도구 설정  
  다양 한 타사 설치 도구는 Windows Installer 패키지에 대 한 개발 환경을 제공 합니다. 두 가지 무료 도구는 다음과 같습니다.  

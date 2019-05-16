@@ -25,12 +25,12 @@ caps.latest.revision: 12
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 049d557959a53c00be461a2b0e44338216c7e3a3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ff76fe46f07ef713cb3c0e529e8029730450f2a6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982789"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65675596"
 ---
 # <a name="creating-clickonce-applications-for-others-to-deploy"></a>다른 사용자가 배포할 수 있는 ClickOnce 응용 프로그램 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ ClickOnce 배포를 만든 모든 개발자가 응용 프로그램 자체를 배
 ## <a name="creating-customer-deployments-by-using-application-manifest-for-trust"></a>트러스트에 대 한 응용 프로그램 매니페스트를 사용 하 여 고객 배포를 만들기  
  .NET Framework 3.5에서 ClickOnce 매니페스트에 서명 하는 방법의 시나리오에 개발자와 고객이 새 솔루션을 제공 하는 새로운 기능을 포함 합니다. ClickOnce 응용 프로그램 매니페스트 라는 새 요소를 지 원하는 `<useManifestForTrust>` 개발자의 응용 프로그램 매니페스트 디지털 서명을 신뢰 결정에 사용 해야 임을 나타낼 수 있도록 합니다. ClickOnce 패키징 도구를 사용 하는 개발자-Visual Studio, Mage.exe 및 MageUI.exe, 등-응용 프로그램 매니페스트에서이 요소를 포함할 뿐만 아니라 매니페스트에서 해당 게시자 이름과 응용 프로그램의 이름을 포함 합니다.  
   
- 사용 하는 경우 `<useManifestForTrust>`, 배포 매니페스트는 인증 기관에서 발급 된 Authenticode 인증서로 서명할 필요가 없습니다. 대신 사용 하 여 자체 서명 된 인증서로 서명할 수 있습니다. 자체 서명 된 인증서는 표준.NET Framework SDK 도구를 사용 하 여 고객 또는 개발자에서 생성 되 고 그런 다음 표준 ClickOnce 배포 도구를 사용 하 여 배포 매니페스트를 적용할 합니다. 자세한 내용은 [Makecert.exe (인증서 작성 도구)](http://msdn.microsoft.com/library/b0343f8e-9c41-4852-a85c-f8a0c408cf0d)합니다.  
+ 사용 하는 경우 `<useManifestForTrust>`, 배포 매니페스트는 인증 기관에서 발급 된 Authenticode 인증서로 서명할 필요가 없습니다. 대신 사용 하 여 자체 서명 된 인증서로 서명할 수 있습니다. 자체 서명 된 인증서는 표준.NET Framework SDK 도구를 사용 하 여 고객 또는 개발자에서 생성 되 고 그런 다음 표준 ClickOnce 배포 도구를 사용 하 여 배포 매니페스트를 적용할 합니다. 자세한 내용은 [Makecert.exe (인증서 작성 도구)](https://msdn.microsoft.com/library/b0343f8e-9c41-4852-a85c-f8a0c408cf0d)합니다.  
   
  자체 서명 된 인증서를 사용 하 여 배포 매니페스트에 대 한 여러 가지 이점을 제공 합니다. 자신의 Authenticode 인증서를 만들거나 가져와야 고객에 대 한 필요를 없애 `<useManifestForTrust>` 개발자가 응용 프로그램의 고유한 브랜드 id를 유지 하면서 고객에 대 한 배포를 간소화 합니다. 결과 더 안전 하 고 고유한 응용 프로그램 id는 서명 된 배포의 집합. 여러 고객에 게 동일한 응용 프로그램 배포에서 발생할 수 있는 잠재적인 충돌을 제거 합니다.  
   

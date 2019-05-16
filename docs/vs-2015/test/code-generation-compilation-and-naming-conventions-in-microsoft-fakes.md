@@ -8,12 +8,12 @@ ms.assetid: 20221de4-2a9e-4787-b99a-b5855bb90872
 caps.latest.revision: 18
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4977a6394a5732d92391c3405519345484a6629f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 8186a5961aeb728e683f3ee011766e980e070eea
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056928"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686406"
 ---
 # <a name="code-generation-compilation-and-naming-conventions-in-microsoft-fakes"></a>Microsoft Fakes의 코드 생성, 컴파일 및 명명 규칙
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -134,7 +134,7 @@ ms.locfileid: "60056928"
       PublicKey=<Test_assembly_public_key>)]  
   ```  
   
-  shim된 어셈블리에 강력한 이름을 지정하는 경우 Fakes 프레임워크는 생성된 Fakes 어셈블리에 자동으로 강력하게 설명합니다. 테스트 어셈블리에 강력하게 서명해야 합니다. [강력한 이름의 어셈블리 만들기 및 사용](http://msdn.microsoft.com/library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9)을 참조하세요.  
+  shim된 어셈블리에 강력한 이름을 지정하는 경우 Fakes 프레임워크는 생성된 Fakes 어셈블리에 자동으로 강력하게 설명합니다. 테스트 어셈블리에 강력하게 서명해야 합니다. [강력한 이름의 어셈블리 만들기 및 사용](https://msdn.microsoft.com/library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9)을 참조하세요.  
   
   Fakes 프레임워크는 동일한 키를 사용하여 생성된 모든 어셈블리에 서명하므로 이 코드 조각을 시작 지점으로 사용하여 fakes 어셈블리에 대한 **InternalsVisibleTo** 특성을 shim된 어셈블리 코드에 추가할 수 있습니다.  
   

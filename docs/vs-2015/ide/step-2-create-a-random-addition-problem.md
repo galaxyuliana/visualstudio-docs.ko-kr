@@ -9,12 +9,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 07e5c91038013f51199212a3215490bbfdf34257
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b36897236b71617c6eb36949d307e6b3e1d0204b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442621"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65693968"
 ---
 # <a name="step-2-create-a-random-addition-problem"></a>2단계: 난수 더하기 문제 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "63442621"
   
      `Random`을 개체라고 합니다. 이전에 한 번쯤 들어보았을 개체의 프로그래밍적 의미에 대해서는 다음 자습서에서 자세히 설명합니다. 지금은 `new` 문을 사용하여 개체라고 하는 단추, 레이블, 패널, OpenFileDialogs, ColorDialogs, SoundPlayers, Randoms, 폼 등의 항목을 만들 수 있다는 점만 기억하면 됩니다. 프로그램을 실행하면 폼이 시작되고 폼의 숨김 코드가 `Random` 개체를 만들어 이름을 **randomizer**로 지정합니다.  
   
-     이제 곧 답을 확인하는 메서드를 빌드하게 되므로 퀴즈에서는 각 문제에 대해 생성하는 난수를 저장할 변수를 사용해야 합니다. [변수](http://msdn.microsoft.com/library/4cfaa06d-4ae3-4307-897b-cf599dc24caa) 또는 [형식](http://msdn.microsoft.com/library/f782d7cc-035e-4500-b1b1-36a9881130ad)을 참조하세요. 변수를 적절히 사용하려면 변수를 선언해야 합니다. 즉, 변수의 이름과 데이터 형식을 나열해야 합니다.  
+     이제 곧 답을 확인하는 메서드를 빌드하게 되므로 퀴즈에서는 각 문제에 대해 생성하는 난수를 저장할 변수를 사용해야 합니다. [변수](https://msdn.microsoft.com/library/4cfaa06d-4ae3-4307-897b-cf599dc24caa) 또는 [형식](https://msdn.microsoft.com/library/f782d7cc-035e-4500-b1b1-36a9881130ad)을 참조하세요. 변수를 적절히 사용하려면 변수를 선언해야 합니다. 즉, 변수의 이름과 데이터 형식을 나열해야 합니다.  
   
 4. 폼에 두 개의 정수 변수를 추가하고 이름을 **addend1** 및 **addend2**로 지정합니다.  
   

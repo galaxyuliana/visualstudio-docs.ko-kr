@@ -11,12 +11,12 @@ caps.latest.revision: 16
 author: erickson-doug
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3f3a00a4ec5a013dc860a05ed48364178e3f23cf
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c59b4123a3fbc957a99da7178d0d8ec288a06708
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442855"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686541"
 ---
 # <a name="analyze-visual-basic-and-c-code-quality-in-store-apps-using-visual-studio-static-code-analysis"></a>Visual Studio 정적 코드 분석을 사용하여 스토어 앱의 Visual Basic 및 C# 코드 품질 분석
 
@@ -27,7 +27,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  Visual Studio Express의 코드 분석 도구는 코드에 일련의 일반적인 오류 및 바람직한 프로그래밍 관행의 위반 사항이 있는지 검사합니다. 코드 분석 도구는 올바르지만 해당 코드를 사용하는 당사자나 다른 사용자에게 문제를 일으킬 수 있는 특정 코드 패턴을 검색하므로 컴파일러 오류 및 경고와는 다릅니다. 코드 분석 시 테스트를 통해 검색하기 힘든 코드 오류도 찾을 수 있습니다. 개발 프로세스에서 코드 분석 도구를 정기적으로 실행하면 완성된 응용 프로그램의 품질을 향상시킬 수 있습니다.
 
 > [!NOTE]
-> Visual Studio Ultimate, Visual Studio Premium 및 Visual Studio Professional에서는 코드 분석 기능을 모두 사용할 수 있습니다. MSDN 라이브러리의 [코드 분석 도구를 사용하여 애플리케이션 품질 분석](http://msdn.microsoft.com/library/dd264897.aspx)을 참조하세요.
+> Visual Studio Ultimate, Visual Studio Premium 및 Visual Studio Professional에서는 코드 분석 기능을 모두 사용할 수 있습니다. MSDN 라이브러리의 [코드 분석 도구를 사용하여 애플리케이션 품질 분석](https://msdn.microsoft.com/library/dd264897.aspx)을 참조하세요.
 
 ## <a name="in-this-topic"></a>항목 내용
  다음 내용을 배울 수 있습니다.
@@ -98,12 +98,12 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 ## <a name="BKMK_Warnings"></a> Visual Basic 및 C# 코드 분석 경고
  코드 분석 시 다음과 같은 경고가 발생합니다.
 
- [CA1001: 삭제 가능한 필드가 있는 형식은 삭제 가능해야 합니다.](http://msdn.microsoft.com/library/ms182172.aspx)
+ [CA1001: 삭제 가능한 필드가 있는 형식은 삭제 가능해야 합니다.](https://msdn.microsoft.com/library/ms182172.aspx)
 
- [CA1821: 빈 종료자를 제거하십시오.](http://msdn.microsoft.com/library/bb264476.aspx)
+ [CA1821: 빈 종료자를 제거하십시오.](https://msdn.microsoft.com/library/bb264476.aspx)
 
- [CA2213: 삭제 가능한 필드는 삭제해야 합니다.](http://msdn.microsoft.com/library/ms182328.aspx)
+ [CA2213: 삭제 가능한 필드는 삭제해야 합니다.](https://msdn.microsoft.com/library/ms182328.aspx)
 
- [CA2229: serialization 생성자를 구현하십시오.](http://msdn.microsoft.com/library/ms182343.aspx)
+ [CA2229: serialization 생성자를 구현하십시오.](https://msdn.microsoft.com/library/ms182343.aspx)
 
- [CA2231: ValueType.Equals를 재정의할 때 같음 연산자를 오버로드하십시오.](http://msdn.microsoft.com/library/ms182359.aspx)
+ [CA2231: ValueType.Equals를 재정의할 때 같음 연산자를 오버로드하십시오.](https://msdn.microsoft.com/library/ms182359.aspx)

@@ -27,12 +27,12 @@ caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 47287bdc5bf0081970f4077ee8749a1ed0d71dad
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 6085ba95d3880417e517530069734052741113e2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60118242"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65682472"
 ---
 # <a name="format-specifiers-in-c"></a>C에서 형식 지정자\#
 
@@ -64,7 +64,7 @@ ms.locfileid: "60118242"
 
 |지정자|형식|원래 조사식 값|표시|
 |---------------|------------|--------------------------|--------------|
-|ac|식을 계산합니다. 암시적 속성 확인과 암시적 함수 호출이 해제된 경우에 유용할 수 있습니다. [Side Effects and Expressions](http://msdn.microsoft.com/library/e1f8a6ea-9e19-481d-b6bd-df120ad3bf4e)을 참조하세요.|“사용자가 암시적 함수 실행을 해제했습니다.” 메시지|\<value>|
+|ac|식을 계산합니다. 암시적 속성 확인과 암시적 함수 호출이 해제된 경우에 유용할 수 있습니다. [Side Effects and Expressions](https://msdn.microsoft.com/library/e1f8a6ea-9e19-481d-b6bd-df120ad3bf4e)을 참조하세요.|“사용자가 암시적 함수 실행을 해제했습니다.” 메시지|\<value>|
 |일|10진수 정수|0x0065|101|
 |dynamic|동적 뷰를 사용하여 지정된 개체를 표시합니다.|동적 뷰를 포함하여 개체의 모든 멤버를 표시합니다.|동적 뷰만 표시합니다.|
 |h|16진수 정수|61541|0x0000F065|
@@ -76,4 +76,4 @@ ms.locfileid: "60118242"
 ## <a name="see-also"></a>참고 항목
 
 - [조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)
-- [변수 창](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)
+- [변수 창](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)

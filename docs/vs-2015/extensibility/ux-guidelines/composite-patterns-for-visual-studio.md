@@ -8,12 +8,12 @@ ms.assetid: e48ecfb2-f4b5-4d3a-b4a2-7a4d62fa4ec0
 caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 196fc4bddba0cfa6addb786148cd3876e1ec8260
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 55ba291135b41d534d8f91cae5d6257a26d4e34c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430017"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686491"
 ---
 # <a name="composite-patterns-for-visual-studio"></a>Visual Studio의 복합 패턴
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -531,4 +531,4 @@ ms.locfileid: "63430017"
 |기타 고려 사항|||사용자 지정 화면 키보드|
 
 #### <a name="gestures"></a>제스처
- 제스처는 더 복잡 한 상호 작용을 필요할 수 있는 명령에 바로 가기를 사용자를 제공 합니다. Windows 지침을 참조 하세요 [데스크톱 응용 프로그램에 대 한 일반적인 터치 제스처](http://msdn.microsoft.com/library/windows/desktop/dd940543\(v=vs.85\).aspx), 이동 및 확대/축소와 같은 간단한 제스처를 비롯 한 대부분의 제스처에 대 한이 지침을 따릅니다.
+ 제스처는 더 복잡 한 상호 작용을 필요할 수 있는 명령에 바로 가기를 사용자를 제공 합니다. Windows 지침을 참조 하세요 [데스크톱 응용 프로그램에 대 한 일반적인 터치 제스처](https://msdn.microsoft.com/library/windows/desktop/dd940543\(v=vs.85\).aspx), 이동 및 확대/축소와 같은 간단한 제스처를 비롯 한 대부분의 제스처에 대 한이 지침을 따릅니다.

@@ -41,17 +41,17 @@ caps.latest.revision: 24
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 02f619d727b83e681d9dda6dd851c43f168f1311
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: b50dda3e31e27fa5d177c3b0ba2790babd2a660f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101680"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685852"
 ---
 # <a name="how-to-use-native-run-time-checks"></a>방법: 네이티브 런타임 검사 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual C++에서는 네이티브 [runtime_checks](http://msdn.microsoft.com/library/ae50b43f-f88d-47ad-a2db-3389e9e7df5b) 를 사용하여 다음과 같은 일반적인 런타임 오류를 catch할 수 있습니다.  
+Visual C++에서는 네이티브 [runtime_checks](https://msdn.microsoft.com/library/ae50b43f-f88d-47ad-a2db-3389e9e7df5b) 를 사용하여 다음과 같은 일반적인 런타임 오류를 catch할 수 있습니다.  
   
 - 스택 포인터 손상  
   
@@ -85,5 +85,5 @@ Visual C++에서는 네이티브 [runtime_checks](http://msdn.microsoft.com/libr
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)   
- [runtime_checks](http://msdn.microsoft.com/library/ae50b43f-f88d-47ad-a2db-3389e9e7df5b)   
- [런타임 오류 검사](http://msdn.microsoft.com/library/c965dd01-57ad-4a3c-b1d6-5aa04f920501)
+ [runtime_checks](https://msdn.microsoft.com/library/ae50b43f-f88d-47ad-a2db-3389e9e7df5b)   
+ [런타임 오류 검사](https://msdn.microsoft.com/library/c965dd01-57ad-4a3c-b1d6-5aa04f920501)

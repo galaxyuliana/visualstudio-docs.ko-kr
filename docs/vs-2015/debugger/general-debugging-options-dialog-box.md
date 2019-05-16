@@ -22,12 +22,12 @@ caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: cf4a3b699d3854ef2a502fb1bf1d7fb2d6204acb
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 2dd7d3f41790fac7a37fc3a98d728757f5bad967
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63446485"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704684"
 ---
 # <a name="general-debugging-options-dialog-box"></a>옵션 대화 상자, 디버깅, 일반
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,11 +43,11 @@ ms.locfileid: "63446485"
  **예외가 AppDomain 또는 관리/네이티브 경계를 넘어서면 중단**  
  관리 또는 혼합 모드 디버깅에서 다음 조건이 충족되는 경우 공용 언어 런타임은 응용 프로그램 도메인 경계나 관리/네이티브 경계를 넘어서는 예외를 catch할 수 있습니다.  
   
- 1\) 네이티브 코드 COM Interop를 사용 하 여 관리 되는 코드를 호출 하 고 관리 코드 예외를 throw 합니다. 참조 [COM Interop 소개](http://msdn.microsoft.com/library/8bd62e68-383d-407f-998b-29aa0ce0fd67)합니다.  
+ 1\) 네이티브 코드 COM Interop를 사용 하 여 관리 되는 코드를 호출 하 고 관리 코드 예외를 throw 합니다. 참조 [COM Interop 소개](https://msdn.microsoft.com/library/8bd62e68-383d-407f-998b-29aa0ce0fd67)합니다.  
   
- 2\) 응용 프로그램 도메인 1에서 실행 중인 관리 코드 응용 프로그램 도메인 2의 관리 되는 코드를 호출 하 고 응용 프로그램 도메인 2의 코드가 예외를 throw 합니다. 참조 [응용 프로그램 도메인으로 프로그래밍](http://msdn.microsoft.com/bd36055b-56bd-43eb-b4d8-820c37172131)합니다.  
+ 2\) 응용 프로그램 도메인 1에서 실행 중인 관리 코드 응용 프로그램 도메인 2의 관리 되는 코드를 호출 하 고 응용 프로그램 도메인 2의 코드가 예외를 throw 합니다. 참조 [응용 프로그램 도메인으로 프로그래밍](https://msdn.microsoft.com/bd36055b-56bd-43eb-b4d8-820c37172131)합니다.  
   
- 3\) 경우 코드가 리플렉션을 사용 하 여 함수를 호출 하 고는 함수가 예외를 throw 합니다. 참조 [리플렉션](http://msdn.microsoft.com/library/d1a58e7f-fb39-4d50-bf84-e3b8f9bf9775)합니다.  
+ 3\) 경우 코드가 리플렉션을 사용 하 여 함수를 호출 하 고는 함수가 예외를 throw 합니다. 참조 [리플렉션](https://msdn.microsoft.com/library/d1a58e7f-fb39-4d50-bf84-e3b8f9bf9775)합니다.  
   
  2)와 3)의 경우 예외는 때때로 공용 언어 런타임 대신 `mscorlib`의 관리 코드를 통해 catch될 수 있습니다. 이 옵션은 `mscorlib`를 통해 catch된 예외에서의 중단에 영향을 미치지 않습니다.  
   
@@ -61,7 +61,7 @@ ms.locfileid: "63446485"
  특정 프로세스, 스레드 또는 컴퓨터에만 영향을 미치도록 중단점에 필터를 설정할 수 있습니다.  
   
  **예외 도우미 사용**  
- 관리 코드에만 해당됩니다. 관리되는 예외인 경우 예외 도우미 대화 상자가 열립니다.  참조 [예외 도우미](http://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb)합니다.  
+ 관리 코드에만 해당됩니다. 관리되는 예외인 경우 예외 도우미 대화 상자가 열립니다.  참조 [예외 도우미](https://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb)합니다.  
   
  **처리 되지 않은 예외에 대 한 호출 스택 해제**  
  **호출 스택** 창에서 호출 스택을 처리되지 않은 예외가 발생하기 전 시점으로 롤백합니다.  
@@ -123,7 +123,7 @@ ms.locfileid: "63446485"
  **Dll 내보내기 로드**  
  dll 내보내기 테이블이 로드됩니다. Windows 메시지, Windows 프로시저(WindowProcs), COM 개체, 마샬링 또는 기호가 없는 dll을 사용하여 작업하는 경우 dll 내보내기 테이블의 기호 정보가 유용할 수 있지만, dll 내보내기 정보를 읽으면 일부 오버헤드가 발생합니다. 따라서 이 기능은 기본적으로 해제되어 있습니다.  
   
- dll의 내보내기 테이블에서 사용할 수 있는 기호를 확인하려면 `dumpbin /exports`를 사용하세요. 모든 32비트 시스템 dll에 기호를 사용할 수 있습니다. `dumpbin /exports` 출력을 읽으면 영숫자가 아닌 문자를 포함하여 정확한 함수 이름을 확인할 수 있습니다. 이 방법은 함수에 중단점을 설정하는 데 유용합니다. dll 내보내기 테이블에 있는 함수 이름은 디버거에서 일부가 잘린 상태로 나타날 수 있습니다. 호출은 현재 함수(가장 안쪽에 중첩된)가 맨 위에 표시되어 호출한 순서로 나열됩니다. 자세한 내용은 [dumpbin /exports](http://msdn.microsoft.com/library/2971ab7e-4ee6-478b-9c85-cda42a4ce1bf)를 참조하십시오.  
+ dll의 내보내기 테이블에서 사용할 수 있는 기호를 확인하려면 `dumpbin /exports`를 사용하세요. 모든 32비트 시스템 dll에 기호를 사용할 수 있습니다. `dumpbin /exports` 출력을 읽으면 영숫자가 아닌 문자를 포함하여 정확한 함수 이름을 확인할 수 있습니다. 이 방법은 함수에 중단점을 설정하는 데 유용합니다. dll 내보내기 테이블에 있는 함수 이름은 디버거에서 일부가 잘린 상태로 나타날 수 있습니다. 호출은 현재 함수(가장 안쪽에 중첩된)가 맨 위에 표시되어 호출한 순서로 나열됩니다. 자세한 내용은 [dumpbin /exports](https://msdn.microsoft.com/library/2971ab7e-4ee6-478b-9c85-cda42a4ce1bf)를 참조하십시오.  
   
  **병렬 스택 다이어그램 거꾸로 표시**  
  **병렬 스택** 창에 스택이 표시되는 방향을 제어합니다.  
@@ -164,7 +164,7 @@ ms.locfileid: "63446485"
   표시 합니다 **라이브 시각적 트리** 디버깅 중인 XAML 응용 프로그램의 주 창에서 도구 모음에 명령 합니다. 이 옵션은 Visual Studio 2015 업데이트 2에서 도입 되었습니다.  
   
   **디버깅 하는 동안 진단 도구를 사용 하도록 설정**  
-  디버깅하는 동안 **진단 도구** 창이 나타납니다. 자세한 내용은 [프로 파일링 디버거 통합](http://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859)합니다.  
+  디버깅하는 동안 **진단 도구** 창이 나타납니다. 자세한 내용은 [프로 파일링 디버거 통합](https://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859)합니다.  
   
   **디버깅 중에 경과한 시간 성능 팁 표시**  
   디버깅 중에 지정된 메서드를 호출하는 데 경과된 시간이 코드 창에 표시됩니다.  

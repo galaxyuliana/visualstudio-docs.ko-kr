@@ -18,12 +18,12 @@ caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ac9800025bd55237a4f1d19ca6f07c78c757b603
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e9ce72d69cb64b0421771324803a785546fa884f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970649"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65693760"
 ---
 # <a name="pseudovariables"></a>의사 변수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ $handles
 |`$clk`|클록 주기 시간을 표시합니다.|  
 |`$user`|응용 프로그램을 실행한 계정의 계정 정보가 포함된 구조체를 표시합니다. 보안상의 이유로 암호 정보는 표시되지 않습니다.|  
 |`$exceptionstack`|현재 Windows 런타임 예외에 대한 스택 추적을 표시합니다. `$ exceptionstack`은 Windows 8.1 이상에서 실행 중인 스토어 앱에서만 작동됩니다. C++ 및 SHE 예외에는 `$ exceptionstack`이 지원되지 않습니다.|  
-|`$ReturnValue`|.NET Framework 메서드의 반환 값을 표시합니다. 참조 [메서드 호출의 반환 값 검사](http://msdn.microsoft.com/library/e3245b37-8e2e-4200-ba84-133726e95f1f)|  
+|`$ReturnValue`|.NET Framework 메서드의 반환 값을 표시합니다. 참조 [메서드 호출의 반환 값 검사](https://msdn.microsoft.com/library/e3245b37-8e2e-4200-ba84-133726e95f1f)|  
   
  다음 테이블에 표시된 의사 변수는 C# 및 Visual Basic에서 사용할 수 있습니다.  
   
@@ -68,8 +68,8 @@ $handles
 |`$delete` 또는 `$$delete`|**직접 실행** 창에서 만들어진 암시적 변수를 삭제합니다. 구문은 `$delete,` *변수에* 하거나`$delete,` *변수*`.`|  
 |`$objectids` 또는 `$listobjectids`|모든 활성 개체 ID를 지정된 식의 자식으로 표시합니다. 구문은 `$objectid,` *식을* 하거나`$listobjectids,` *식*`.`|  
 |`$` *N* `#`|개체 ID가 *N*인 개체를 표시합니다.|  
-|`$dynamic`|`IDynamicMetaObjectProvider`. 인터페이스를 구현한 개체에 대해 특별한 **동적 뷰** 노드를 표시합니다. 구문은 `$dynamic,` *개체*입니다. 이 기능은 .NET Framework 버전 4가 사용되는 코드에만 적용됩니다. 참조 [동적 뷰](http://msdn.microsoft.com/library/4c851b17-2c12-46a0-9828-eb6ea6f5c563)합니다.|  
+|`$dynamic`|`IDynamicMetaObjectProvider`. 인터페이스를 구현한 개체에 대해 특별한 **동적 뷰** 노드를 표시합니다. 구문은 `$dynamic,` *개체*입니다. 이 기능은 .NET Framework 버전 4가 사용되는 코드에만 적용됩니다. 참조 [동적 뷰](https://msdn.microsoft.com/library/4c851b17-2c12-46a0-9828-eb6ea6f5c563)합니다.|  
   
 ## <a name="see-also"></a>참고 항목  
  [조사식 및 간략한 조사식 창](../debugger/watch-and-quickwatch-windows.md)   
- [변수 창](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)
+ [변수 창](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)

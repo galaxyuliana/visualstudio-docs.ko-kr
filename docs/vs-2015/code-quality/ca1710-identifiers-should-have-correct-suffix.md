@@ -15,12 +15,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: c5b0336e1f503d3f540fb8129beab57891564ce0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 16b4c2fb13a8de1824233b491d752b796aea907d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981626"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65676543"
 ---
 # <a name="ca1710-identifiers-should-have-correct-suffix"></a>CA1710: 식별자에는 올바른 접미사를 사용해야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "58981626"
 |<xref:System.Collections.Stack?displayProperty=fullName>|컬렉션 또는 스택|
 |<xref:System.Collections.Generic.ICollection%601?displayProperty=fullName>|컬렉션|
 |<xref:System.Collections.Generic.IDictionary%602?displayProperty=fullName>|사전|
-|<xref:System.Data.DataSet?displayProperty=fullName>|DataSet|
+|<xref:System.Data.DataSet?displayProperty=fullName>|데이터 세트|
 |<xref:System.Data.DataTable?displayProperty=fullName>|컬렉션 또는 DataTable|
 |<xref:System.IO.Stream?displayProperty=fullName>|스트림|
 |<xref:System.Security.IPermission?displayProperty=fullName>|사용 권한|
@@ -93,4 +93,4 @@ foreach(SomeType x in SomeDictionary.Values) { }
  [CA1711: 식별자에는 접미사를 사용 해야 합니다.](../code-quality/ca1711-identifiers-should-not-have-incorrect-suffix.md)
 
 ## <a name="see-also"></a>참고 항목
- [특성](http://msdn.microsoft.com/library/ee0038ef-b247-4747-a650-3c5c5cd58d8b) [NIB: 이벤트 및 대리자](http://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)
+ [특성](https://msdn.microsoft.com/library/ee0038ef-b247-4747-a650-3c5c5cd58d8b) [NIB: 이벤트 및 대리자](https://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)

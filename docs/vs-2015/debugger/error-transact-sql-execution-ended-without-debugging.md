@@ -17,12 +17,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 910b84e7a024547208ea2e7ae1d6a6897cf60893
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: cdfcaa42c55f87711b0889c6a67d1a4799b84fed
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62431890"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65681069"
 ---
 # <a name="error-transact-sql-execution-ended-without-debugging"></a>오류: 디버깅 없이 Transact-SQL 실행이 중지됨
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,14 +43,14 @@ ms.locfileid: "62431890"
   
   이 오류를 해결하려면 다음 작업을 수행해야 합니다.  
   
-- 권한 설정을 확인합니다. 자세한 내용은 [방법: 디버깅을 위해 SQL Server 사용 권한 설정](http://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)합니다.  
+- 권한 설정을 확인합니다. 자세한 내용은 [방법: 디버깅을 위해 SQL Server 사용 권한 설정](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)합니다.  
   
 - SQL 디버깅이 올바르게 설정되어 있는지 확인합니다.  
   
 - 네트워크 또는 데이터베이스 관리자에게 문의합니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [SQL 디버깅 설정](http://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3)   
- [방법: 디버깅을 위해 SQL Server 사용 권한 설정](http://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)   
+ [SQL 디버깅 설정](https://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3)   
+ [방법: 디버깅을 위해 SQL Server 사용 권한 설정](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)   
  [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)   
  [Remote Debugging](../debugger/remote-debugging.md)

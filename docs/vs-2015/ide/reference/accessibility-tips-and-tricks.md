@@ -11,12 +11,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c375a015576202ff8e5d0f9815d534a81aa7b185
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 7e8de7cf7cbdc58e14cfc72c5317a765f46e67ae
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441097"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674803"
 ---
 # <a name="accessibility-tips-and-tricks"></a>내게 필요한 옵션에 대한 유용한 정보
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,10 +24,10 @@ ms.locfileid: "63441097"
 쉽게 키보드에서 작업하고 화면 판독기나 기타 보조 기술 디바이스를 사용할 수 있도록 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에는 기본 제공 접근성 기능이 포함되어 있습니다. 이 항목에는 접근성 및 여러 유용한 바로 가기 키 조합에 맞게 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 최적화하기 위한 몇 가지 제안 사항이 포함되어 있습니다.  
   
 > [!NOTE]
-> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="save-your-ide-settings"></a>IDE 설정 저장  
- 창 레이아웃, 키보드 매핑 구성표 및 기타 기본 설정을 저장하여 IDE 환경을 사용자 지정할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+ 창 레이아웃, 키보드 매핑 구성표 및 기타 기본 설정을 저장하여 IDE 환경을 사용자 지정할 수 있습니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="common-windows-shortcut-key-combinations"></a>일반적인 Windows 바로 가기 키 조합  
  다양한 표준 Windows 바로 가기 키 조합을 사용하여 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 내에서 작업을 수행할 수 있습니다. 이러한 바로 가기 키 조합 중 일부는 다음과 같습니다.  

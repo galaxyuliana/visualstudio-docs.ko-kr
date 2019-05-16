@@ -11,12 +11,12 @@ ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
 caps.latest.revision: 24
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 1699846c0a588a21ebd37a13f77dc45c2a695139
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 02edc5925109a31eebfd98c90bd116fb86eef276
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101056"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697235"
 ---
 # <a name="checklist-creating-new-project-types"></a>검사 목록: 새 프로젝트 형식 만들기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "60101056"
   
     - 새 프로젝트를 만들고 기존 프로젝트를 열고 관리 하려면 프로젝트 팩터리입니다. 자세한 내용은 [만들 프로젝트 인스턴스에서 사용 하 여 프로젝트 팩터리](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)합니다.  
   
-    - 프로젝트 계층 구조 및 명령 처리 합니다. 자세한 내용은 참조 하세요. [빌드에 없음: HierUtil7 프로젝트 클래스를 사용 하 여 프로젝트 유형을 구현 하도록 (C++)](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346), [프로젝트 모델의 요소](../../extensibility/internals/elements-of-a-project-model.md)를 [프로젝트 모델 핵심 구성 요소](../../extensibility/internals/project-model-core-components.md) 하 고 [Menucommand 합니다. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md)합니다.  
+    - 프로젝트 계층 구조 및 명령 처리 합니다. 자세한 내용은 참조 하세요. [빌드에 없음: HierUtil7 프로젝트 클래스를 사용 하 여 프로젝트 유형을 구현 하도록 (C++)](https://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346), [프로젝트 모델의 요소](../../extensibility/internals/elements-of-a-project-model.md)를 [프로젝트 모델 핵심 구성 요소](../../extensibility/internals/project-model-core-components.md) 하 고 [Menucommand 합니다. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md)합니다.  
   
     - 프로젝트 항목 관리, 프로젝트에 추가 하는 등의 **새 프로젝트** 대화 상자. 자세한 내용은 [추가 프로젝트 및 프로젝트 항목 템플릿](../../extensibility/internals/adding-project-and-project-item-templates.md) 하 고 [등록 프로젝트 및 항목 템플릿](../../extensibility/internals/registering-project-and-item-templates.md)합니다.  
   

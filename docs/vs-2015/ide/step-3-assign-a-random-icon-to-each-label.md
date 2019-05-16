@@ -9,12 +9,12 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e2b2d4ee5feb0bed25ad41931f151e81db6edd3c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d65d1a758523aaf7652f2d47bec50aa9fdb91884
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442593"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65694007"
 ---
 # <a name="step-3-assign-a-random-icon-to-each-label"></a>3단계: 각 레이블에 임의 아이콘 할당
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,9 +47,9 @@ ms.locfileid: "63442593"
   
      첫 번째 줄은 `control` 변수를 `iconLabel`이라는 레이블로 변환합니다. 그 다음 줄은 변환이 작동했는지 확인하는 `if` 문입니다. 변환이 작동하지 않은 경우 `if` 문에서 이 문을 실행합니다. (이전 자습서에서 확인한 바와 같이, 지정한 모든 조건을 평가하는 데에 `if` 문을 사용합니다.) `if` 문의 첫 번째 줄은 아이콘 목록의 항목 중 하나에 해당하는 난수가 포함된 `randomNumber`라는 변수를 만듭니다. 이를 위해 이전에 만든 `Next` 개체의 `Random` 메서드가 사용됩니다. `Next` 메서드는 난수를 반환합니다. 이 줄에서는 또한 `Count` 목록의 `icons` 속성을 사용하여 난수를 선택할 수 있는 범위를 결정합니다. 다음 줄은 레이블의 `Text` 속성에 아이콘 목록 항목 중 하나를 할당합니다. 주석 처리된 줄은 이 항목의 뒷부분에 설명되어 있습니다. 끝으로 `if` 문의 마지막 줄은 폼에 추가된 아이콘을 목록에서 제거합니다.  
   
-     코드의 일부 기능에 대해 잘 모를 경우 마우스 포인터를 코드 요소 위에 놓으면 나타나는 도구 설명을 검토할 수 있습니다. Visual Studio 디버거를 사용하여 프로그램이 실행되는 동안 코드의 각 줄을 단계별로 실행할 수 있습니다. 참조 [어떻게 할까요? Visual Studio의 디버거를 사용 하 여 단계? ](http://msdn.microsoft.com/vstudio/ee672313.aspx) 나 [디버거로 코드 탐색](../debugger/navigating-through-code-with-the-debugger.md) 자세한 내용은 합니다.  
+     코드의 일부 기능에 대해 잘 모를 경우 마우스 포인터를 코드 요소 위에 놓으면 나타나는 도구 설명을 검토할 수 있습니다. Visual Studio 디버거를 사용하여 프로그램이 실행되는 동안 코드의 각 줄을 단계별로 실행할 수 있습니다. 참조 [어떻게 할까요? Visual Studio의 디버거를 사용 하 여 단계? ](https://msdn.microsoft.com/vstudio/ee672313.aspx) 나 [디버거로 코드 탐색](../debugger/navigating-through-code-with-the-debugger.md) 자세한 내용은 합니다.  
   
-3. 게임 보드를 아이콘으로 채우려면 프로그램이 시작되자 마자 `AssignIconsToSquares()` 메서드를 호출해야 합니다. Visual C#을 사용하는 경우 `Form1` *생성자*에서 `InitializeComponent()` 메서드 호출 바로 아래에 문을 추가합니다. 그러면 폼이 표시되기 전에 폼을 설정하는 새로운 메서드가 호출됩니다. 생성자는 클래스 또는 구조체와 같은 새 개체를 만들 때 호출됩니다. 자세한 내용은 Visual Basic의 [생성자(C# 프로그래밍 가이드)](http://msdn.microsoft.com/library/ace5hbzh.aspx) or [생성자 및 소멸자 사용](http://msdn.microsoft.com/library/2z08e49e%28v=vs.90%29.aspx)을 참조하세요.  
+3. 게임 보드를 아이콘으로 채우려면 프로그램이 시작되자 마자 `AssignIconsToSquares()` 메서드를 호출해야 합니다. Visual C#을 사용하는 경우 `Form1` *생성자*에서 `InitializeComponent()` 메서드 호출 바로 아래에 문을 추가합니다. 그러면 폼이 표시되기 전에 폼을 설정하는 새로운 메서드가 호출됩니다. 생성자는 클래스 또는 구조체와 같은 새 개체를 만들 때 호출됩니다. 자세한 내용은 Visual Basic의 [생성자(C# 프로그래밍 가이드)](https://msdn.microsoft.com/library/ace5hbzh.aspx) or [생성자 및 소멸자 사용](https://msdn.microsoft.com/library/2z08e49e%28v=vs.90%29.aspx)을 참조하세요.  
   
      [!code-csharp[VbExpressTutorial4Step2_3_4#13](../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4/cs/form1.cs#13)]  
   

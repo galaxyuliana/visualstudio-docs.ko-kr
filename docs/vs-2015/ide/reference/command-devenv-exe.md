@@ -12,12 +12,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 81f57fc6a4d21e1310fbb30d2b2dcaa826ad7685
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a87be2f0b60b02588b5ba73e5837caca1b4bd8ab
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62422632"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685839"
 ---
 # <a name="command-devenvexe"></a>/Command (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ devenv /command CommandName
 ## <a name="remarks"></a>주의  
  시작이 완료된 후 IDE는 명명된 명령을 실행합니다. 이 스위치를 사용하면 IDE는 시작 시 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 시작 페이지를 표시하지 않습니다.  
   
- 추가 기능이 명령을 표시할 경우에는 이 스위치를 사용하여 명령줄에서 추가 기능을 시작할 수 있습니다. 자세한 내용은 [방법: 추가 기능 관리자를 사용하여 추가 기능 제어](http://msdn.microsoft.com/library/4f60444a-cb48-4cdb-8df4-941f6419aeeb)를 참조하세요.  
+ 추가 기능이 명령을 표시할 경우에는 이 스위치를 사용하여 명령줄에서 추가 기능을 시작할 수 있습니다. 자세한 내용은 [방법: 추가 기능 관리자를 사용하여 추가 기능 제어](https://msdn.microsoft.com/library/4f60444a-cb48-4cdb-8df4-941f6419aeeb)를 참조하세요.  
   
 ## <a name="example"></a>예제  
  이 예제에서는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 시작하고 Open Favorite Files(즐겨찾기 파일 열기) 매크로를 자동으로 실행합니다.  

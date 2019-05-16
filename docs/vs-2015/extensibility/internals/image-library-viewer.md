@@ -6,12 +6,12 @@ ms.assetid: 9d9c7fbb-ebae-4b20-9dd8-3c9070c0d0d1
 caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 93fa86fcac429b38c1e727f39f8c94611310119c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 97d634f97eb7a13cfa54b2c0d326b19f31fb7d9d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062607"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685521"
 ---
 # <a name="image-library-viewer"></a>이미지 라이브러리 뷰어
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -130,7 +130,7 @@ Visual Studio 이미지 라이브러리 뷰어 도구를 로드 하 고 Visual S
 |||  
 |-|-|  
 |**특성**|**정의**|  
-|URI|[필수] 이미지를 로드할 수 있는 정의 하는 URI입니다. 다음 중 하나일 수 있습니다.<br /><br /> -A [Pack URI](http://msdn.microsoft.com/library/aa970069\(v=vs.100\).aspx) 응용 프로그램을 사용 하 여: / / / 기관<br /><br /> -절대 구성 요소 리소스 참조<br /><br /> -네이티브 리소스를 포함 하는 파일 경로|  
+|URI|[필수] 이미지를 로드할 수 있는 정의 하는 URI입니다. 다음 중 하나일 수 있습니다.<br /><br /> -A [Pack URI](https://msdn.microsoft.com/library/aa970069\(v=vs.100\).aspx) 응용 프로그램을 사용 하 여: / / / 기관<br /><br /> -절대 구성 요소 리소스 참조<br /><br /> -네이티브 리소스를 포함 하는 파일 경로|  
 |배경|[선택 사항] 어떤 종류의 원본으로 사용할 목적이 백그라운드에서 나타냅니다.<br /><br /> 다음 중 하나일 수 있습니다.<br /><br /> - *Light*: 밝은 배경에 소스를 사용할 수 있습니다.<br /><br /> - *Dark*: 어두운 배경을에서 소스를 사용할 수 있습니다.<br /><br /> - *HighContrast*: 고대비 모드에서 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> - *HighContrastLight*: 고대비 모드에서 밝은 배경에 소스를 사용할 수 있습니다.<br /><br /> -*HighContrastDark*: 고대비 모드에서 어두운 배경을에서 소스를 사용할 수 있습니다.<br /><br /> 경우는 **백그라운드** 특성을 생략 하면, 백그라운드에서 소스를 사용할 수 있습니다.<br /><br /> 경우 **백그라운드** 됩니다 *Light*를 *어두운*를 *HighContrastLight*, 또는 *HighContrastDark*, 원본의 색 반전 되지 않습니다. 하는 경우 **백그라운드** 생략 되거나로 *고 대비*, 소스의 색 반전을 이미지의 의해 제어 됩니다 **AllowColorInversion** 특성입니다.|  
   
  \<소스 > 요소는 다음 선택적 하위 요소 중 하나만 포함할 수 있습니다.  

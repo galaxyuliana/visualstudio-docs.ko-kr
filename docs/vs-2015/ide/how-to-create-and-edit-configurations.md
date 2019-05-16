@@ -19,12 +19,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b76ad8ed6e0cc8bdf60a2053dd11106b5e03a7d1
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 35cda86854bede07c8f1d4830f05607b7fab3643
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63422894"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65680405"
 ---
 # <a name="how-to-create-and-edit-configurations"></a>방법: 구성 만들기 및 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "63422894"
   
      **속성 페이지** 창이 열립니다.  
   
-     구성에 대한 속성을 설정할 수 있습니다. 예를 들어 릴리스 구성의 경우 솔루션 빌드 시 코드가 최적화되도록 지정할 수 있고, 디버그 구성의 경우 `DEBUG` 조건부 컴파일 기호가 포함되도록 지정할 수 있습니다. 속성 페이지 설정에 대한 자세한 내용은 [프로젝트 디자이너 소개](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)를 참조하세요.  
+     구성에 대한 속성을 설정할 수 있습니다. 예를 들어 릴리스 구성의 경우 솔루션 빌드 시 코드가 최적화되도록 지정할 수 있고, 디버그 구성의 경우 `DEBUG` 조건부 컴파일 기호가 포함되도록 지정할 수 있습니다. 속성 페이지 설정에 대한 자세한 내용은 [프로젝트 디자이너 소개](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)를 참조하세요.  
   
 ## <a name="creating-and-modifying-project-configurations"></a>프로젝트 구성 만들기 및 수정  
   
@@ -126,4 +126,4 @@ ms.locfileid: "63422894"
 ## <a name="see-also"></a>참고 항목  
  [빌드 구성 이해](../ide/understanding-build-configurations.md)   
  [Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
- [NIB 방법: 프로젝트 속성 및 구성 설정 수정](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [NIB 방법: 프로젝트 속성 및 구성 설정 수정](https://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

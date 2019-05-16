@@ -19,12 +19,12 @@ caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2547c9edb501ac8536b06548ab23a5262515ca78
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: e0645cd28e6124e31e19b03489661c6828799cf4
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116786"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686739"
 ---
 # <a name="debugging-aspnet-and-ajax-applications"></a>ASP.NET 및 AJAX 애플리케이션 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ms.locfileid: "60116786"
  [디버거를 사용한 예외 관리](../debugger/managing-exceptions-with-the-debugger.md)  
  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 예외를 디버깅하려면 내 코드만 옵션을 활성화해야 하는 이유에 대해 설명합니다.  
   
- [Debugging and Tracing Ajax Applications Overview](http://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)  
+ [Debugging and Tracing Ajax Applications Overview](https://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)  
  AJAX 코드를 디버깅하는 데 유용할 수 있는 일부 기술 및 도구에 대해 설명합니다.  
   
  [IntelliTrace](../debugger/intellitrace.md)  

@@ -9,12 +9,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b278e05ec19bc550d8c8c8c1258514cf63cd5f9f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: c800ddd7221a1adfbc54198363e356eb5260c7cf
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436822"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674930"
 ---
 # <a name="walkthrough-create-a-simple-application-with-visual-c-or-visual-basic"></a>연습: Visual C# 또는 Visual Basic으로 간단한 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,14 +30,14 @@ ms.locfileid: "63436822"
  [애플리케이션 디버깅 및 테스트](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md#BKMK_DebugTest)  
   
 > [!NOTE]
-> 이 연습은 Visual Studio Professional을 기반으로 하며, 여기서 제공하는 WPF 애플리케이션 템플릿에서 이 연습용 프로젝트를 빌드하게 됩니다. Visual Studio Express for Windows Desktop에서도 이 템플릿을 제공하지만, Visual Studio Express for Windows 및 Visual Studio Express for Web에서는 제공하지 않습니다. Visual Studio Express for Windows 사용 방법에 대한 기본적인 정보는 [Windows 스토어 앱용 개발자 센터](http://msdn.microsoft.com/windows/apps/br229519)를 참조하세요. Visual Studio Express for Web 사용 방법에 대한 기본적인 정보는 [ASP.NET 시작](http://www.asp.net/get-started)을 참조하세요. 또한 사용 중인 Visual Studio 버전과 설정에 따라 일부 사용자 인터페이스 요소의 이름과 위치가 결정됩니다. [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 이 연습은 Visual Studio Professional을 기반으로 하며, 여기서 제공하는 WPF 애플리케이션 템플릿에서 이 연습용 프로젝트를 빌드하게 됩니다. Visual Studio Express for Windows Desktop에서도 이 템플릿을 제공하지만, Visual Studio Express for Windows 및 Visual Studio Express for Web에서는 제공하지 않습니다. Visual Studio Express for Windows 사용 방법에 대한 기본적인 정보는 [Windows 스토어 앱용 개발자 센터](https://msdn.microsoft.com/windows/apps/br229519)를 참조하세요. Visual Studio Express for Web 사용 방법에 대한 기본적인 정보는 [ASP.NET 시작](http://www.asp.net/get-started)을 참조하세요. 또한 사용 중인 Visual Studio 버전과 설정에 따라 일부 사용자 인터페이스 요소의 이름과 위치가 결정됩니다. [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="BKMK_ConfigureIDE"></a> IDE 구성  
  Visual Studio를 처음 시작하는 경우 MSA(Microsoft Service Account)로 로그인하라는 [Visual Studio에 로그인](http://blogs.msdn.com/b/visualstudio/archive/2013/06/28/welcome-sign-in-to-visual-studio.aspx)메시지가 표시됩니다. 당장 로그인할 필요는 없으며 나중에 로그인해도 됩니다.  
   
  Visual Studio가 시작되면 다음으로 IDE에는 일련의 미리 정의된 사용자 지정을 적용하는 설정 조합을 선택해야 합니다. 각 설정 조합은 쉽게 애플리케이션을 개발할 수 있도록 설계되었습니다.  
   
- 이 연습은 사용자가 IDE에 최소한의 사용자 지정을 적용하는 **일반 개발 설정**을 적용한다고 가정합니다. C# 또는 Visual Basic(둘 다 적합)을 이미 선택한 경우 설정을 변경할 필요가 없습니다.  설정을 변경하려는 경우 **설정 가져오기 및 내보내기 마법사**를 사용할 수 있습니다. [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+ 이 연습은 사용자가 IDE에 최소한의 사용자 지정을 적용하는 **일반 개발 설정**을 적용한다고 가정합니다. C# 또는 Visual Basic(둘 다 적합)을 이미 선택한 경우 설정을 변경할 필요가 없습니다.  설정을 변경하려는 경우 **설정 가져오기 및 내보내기 마법사**를 사용할 수 있습니다. [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  Visual Studio를 열면 도구 창, 메뉴 및 도구 모음, 주 창 공간을 식별할 수 있습니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 애플리케이션 창의 가운데에 **시작 페이지**가 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 **시작 페이지** 가 있는 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.  
   
@@ -67,7 +67,7 @@ ms.locfileid: "63436822"
   
    ![어두운 테마가 적용된 IDE](../ide/media/exploreide-darkthemeide.png "ExploreIDE-DarkThemeIDE")  
   
-   이 연습의 나머지 부분에서 나오는 그림에 사용된 색 테마는 밝은 테마입니다. IDE 사용자 지정에 대한 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+   이 연습의 나머지 부분에서 나오는 그림에 사용된 색 테마는 밝은 테마입니다. IDE 사용자 지정에 대한 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="BKMK_CreateApp"></a> 간단한 애플리케이션 만들기  
   
@@ -92,7 +92,7 @@ ms.locfileid: "63436822"
   
     ![Visual C&#35; WPF 프로젝트 HelloWPFApp 만들기](../ide/media/exploreide-newprojectcsharp.png "ExploreIDE-NewProjectcsharp")  
   
-   HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기** 에 다양한 파일이 표시됩니다. WPF Designer는 분할 뷰에 디자인 뷰와 MainWindow.xaml의 XAML 뷰를 표시합니다. 분할자를 밀어 뷰를 더 많이 표시하거나 더 적게 표시할 수 있습니다.  시각적 뷰만 표시하거나 XAML 뷰만 표시하도록 선택할 수 있습니다. 자세한 내용은 [Windows Forms 개발자용 WPF 디자이너](http://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca)를 참조하세요. 다음 항목이 **솔루션 탐색기**에 나타납니다.  
+   HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기** 에 다양한 파일이 표시됩니다. WPF Designer는 분할 뷰에 디자인 뷰와 MainWindow.xaml의 XAML 뷰를 표시합니다. 분할자를 밀어 뷰를 더 많이 표시하거나 더 적게 표시할 수 있습니다.  시각적 뷰만 표시하거나 XAML 뷰만 표시하도록 선택할 수 있습니다. 자세한 내용은 [Windows Forms 개발자용 WPF 디자이너](https://msdn.microsoft.com/47ad0909-e89b-4996-b4ac-874d929f94ca)를 참조하세요. 다음 항목이 **솔루션 탐색기**에 나타납니다.  
   
    그림 5: 프로젝트 항목  
   
@@ -150,7 +150,7 @@ ms.locfileid: "63436822"
   
 3. Ctrl+S를 누르거나 **파일** 메뉴 항목을 사용하여 변경 내용을 저장합니다.  
   
-   다음에는 두 개의 [RadioButton](http://msdn.microsoft.com/library/6c9ba847-eab7-4bba-9c74-6b56ef72067b) 컨트롤을 양식에 추가합니다.  
+   다음에는 두 개의 [RadioButton](https://msdn.microsoft.com/library/6c9ba847-eab7-4bba-9c74-6b56ef72067b) 컨트롤을 양식에 추가합니다.  
   
 ##### <a name="to-add-radio-buttons"></a>라디오 단추를 추가하려면  
   
@@ -178,7 +178,7 @@ ms.locfileid: "63436822"
   
 2. 마우스 오른쪽 단추로 RadioButton2를 선택하여 RadioButton2의 바로 가기 메뉴를 열고 **텍스트 편집**을 선택한 후 `Goodbye`를 입력합니다.  
   
-   추가할 마지막 UI 요소는 [Button](http://msdn.microsoft.com/library/a9d8f5a5-c98c-463e-808a-5a4e63173098) 컨트롤입니다.  
+   추가할 마지막 UI 요소는 [Button](https://msdn.microsoft.com/library/a9d8f5a5-c98c-463e-808a-5a4e63173098) 컨트롤입니다.  
   
 ##### <a name="to-add-the-button-control"></a>단추 컨트롤을 추가하려면  
   
@@ -248,7 +248,7 @@ ms.locfileid: "63436822"
 3. 애플리케이션을 저장합니다.  
   
 ## <a name="BKMK_DebugTest"></a> 애플리케이션 디버깅 및 테스트  
- 그런 다음 애플리케이션에 오류가 있는지 확인하고 두 메시지 상자가 모두 제대로 나타나는지 테스트하기 위해 애플리케이션을 디버깅합니다. 다음 지침에서는 디버거를 빌드하고 시작하는 방법을 설명하지만 나중에 [WPF 애플리케이션 빌드(WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c) 및 [Debugging WPF](../debugger/debugging-wpf.md) 에서 추가 정보를 확인할 수 있습니다.  
+ 그런 다음 애플리케이션에 오류가 있는지 확인하고 두 메시지 상자가 모두 제대로 나타나는지 테스트하기 위해 애플리케이션을 디버깅합니다. 다음 지침에서는 디버거를 빌드하고 시작하는 방법을 설명하지만 나중에 [WPF 애플리케이션 빌드(WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c) 및 [Debugging WPF](../debugger/debugging-wpf.md) 에서 추가 정보를 확인할 수 있습니다.  
   
 ### <a name="find-and-fix-errors"></a>오류 찾기 및 수정  
  이 단계에서는 이전에 주 창 XAML 파일의 이름을 변경해서 발생시킨 오류를 찾습니다.  
