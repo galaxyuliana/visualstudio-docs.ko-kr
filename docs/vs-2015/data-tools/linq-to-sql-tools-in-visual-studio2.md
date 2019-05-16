@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 31bbc54b08fc053d10bd79d6a6b24e7605bc0351
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 24b874ab71cba23a3fe6cf4a6fb36293d6753935
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63384053"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697771"
 ---
 # <a name="linq-to-sql-tools-in-visual-studio"></a>LINQ to SQL 도구 Visual Studio에서
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ LINQ to SQL 첫 번째 개체-관계형 매핑 기술을 Microsoft에서 출시 
 
  [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]의 디자인 화면은 두 영역으로 구분되어 있습니다. 왼쪽에는 엔터티 창이, 오른쪽에는 메서드 창이 표시됩니다. 엔터티 창은 엔터티 클래스, 연결 및 상속 계층을 표시하는 기본 디자인 화면입니다. 메서드 창은 저장 프로시저와 함수에 매핑되는 <xref:System.Data.Linq.DataContext> 메서드를 표시하는 디자인 화면입니다.
 
- 합니다 [!INCLUDE[vs_ordesigner_long](../includes/vs-ordesigner-long-md.md)] ([!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)])를 만들기 위한 시각적 디자인 화면이 제공 [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) 엔터티 클래스 및 데이터베이스의 개체를 기반으로 하는 연결 (관계). 즉, [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]는 데이터베이스의 개체에 매핑되는 응용 프로그램의 개체 모델을 만드는 데 사용되며 엔터티 클래스와 데이터베이스 간에 데이터를 주고 받는 데 사용되는 강력한 형식의 <xref:System.Data.Linq.DataContext>를 생성합니다. 또한 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서는 데이터를 반환하고 엔터티 클래스를 채우기 위해 저장 프로시저 및 함수를 <xref:System.Data.Linq.DataContext> 메서드에 매핑하는 기능을 제공합니다. 마지막으로 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서는 엔터티 클래스 간의 상속 관계를 디자인하는 기능을 제공합니다.
+ 합니다 [!INCLUDE[vs_ordesigner_long](../includes/vs-ordesigner-long-md.md)] ([!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)])를 만들기 위한 시각적 디자인 화면이 제공 [LINQ to SQL](https://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) 엔터티 클래스 및 데이터베이스의 개체를 기반으로 하는 연결 (관계). 즉, [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]는 데이터베이스의 개체에 매핑되는 응용 프로그램의 개체 모델을 만드는 데 사용되며 엔터티 클래스와 데이터베이스 간에 데이터를 주고 받는 데 사용되는 강력한 형식의 <xref:System.Data.Linq.DataContext>를 생성합니다. 또한 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서는 데이터를 반환하고 엔터티 클래스를 채우기 위해 저장 프로시저 및 함수를 <xref:System.Data.Linq.DataContext> 메서드에 매핑하는 기능을 제공합니다. 마지막으로 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]에서는 엔터티 클래스 간의 상속 관계를 디자인하는 기능을 제공합니다.
 
 ## <a name="opening-the-or-designer"></a>O/R 디자이너 열기
  LINQ to SQL 엔터티 모델 프로젝트를 추가 하려면 **프로젝트 &#124; 새 항목 추가** 를 선택한 후 **LINQ to SQL 클래스** 프로젝트 항목의 목록에서:
@@ -62,7 +62,7 @@ LINQ to SQL 첫 번째 개체-관계형 매핑 기술을 Microsoft에서 출시 
  다른 개체와 마찬가지로 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 클래스도 상속을 사용할 수 있고 다른 클래스에서 파생될 수 있습니다. 데이터베이스에서 상속 관계는 여러 가지 방법으로 만들어집니다. [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]는 관계형 시스템에서 주로 구현되는 단일 테이블 상속 개념을 지원합니다. 자세한 내용은 [방법: O/R 디자이너를 사용하여 상속 구성](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md)을 참조하세요.
 
 ## <a name="linq-to-sql-queries"></a>LINQ to SQL 쿼리
- 만드는 엔터티 클래스를 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 사용 하 여 사용 하도록 디자인 되었습니다 [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d)합니다. 자세한 내용은 [방법: 정보에 대 한 쿼리](http://msdn.microsoft.com/library/e538d288-2070-40ca-9da6-4fbc68cd6ad0)합니다.
+ 만드는 엔터티 클래스를 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 사용 하 여 사용 하도록 디자인 되었습니다 [LINQ (Language-Integrated Query)](https://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d)합니다. 자세한 내용은 [방법: 정보에 대 한 쿼리](https://msdn.microsoft.com/library/e538d288-2070-40ca-9da6-4fbc68cd6ad0)합니다.
 
 ## <a name="separating-the-generated-datacontext-and-entity-class-code-into-different-namespaces"></a>생성된 DataContext와 엔터티 클래스 코드를 별도의 네임스페이스로 분리
  [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)] 제공 합니다 **상황에 맞는 Namespace** 및 **엔터티 Namespace** 속성에는 <xref:System.Data.Linq.DataContext>합니다. 이들 속성은 <xref:System.Data.Linq.DataContext> 및 엔터티 클래스 코드가 어떤 네임스페이스로 생성되는지를 결정합니다. 기본적으로 이들 속성은 비어 있으며 <xref:System.Data.Linq.DataContext> 및 엔터티 클래스는 응용 프로그램의 네임스페이스로 생성됩니다. 코드를 애플리케이션의 네임스페이스가 아닌 다른 네임스페이스로 생성하려면 **컨텍스트 네임스페이스** 및/또는 **엔터티 네임스페이스** 속성에 값을 입력합니다.
@@ -100,4 +100,4 @@ LINQ to SQL 첫 번째 개체-관계형 매핑 기술을 Microsoft에서 출시 
  <xref:System.Data.Linq>
 
 ## <a name="see-also"></a>참고 항목
- [.NET 용 visual Studio data tools](../data-tools/visual-studio-data-tools-for-dotnet.md) [Frequently Asked Questions](http://msdn.microsoft.com/library/252ed666-0679-4eea-b71b-2f14117ef443) [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)
+ [.NET 용 visual Studio data tools](../data-tools/visual-studio-data-tools-for-dotnet.md) [Frequently Asked Questions](https://msdn.microsoft.com/library/252ed666-0679-4eea-b71b-2f14117ef443) [LINQ to SQL](https://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655) [Visual Studio에서 데이터 액세스](../data-tools/accessing-data-in-visual-studio.md)
