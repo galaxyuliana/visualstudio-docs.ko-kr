@@ -30,12 +30,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 632c3027ccb8019e372abd6400dd3f2333742e05
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: ee25e9ab9145265119321053b5b8031f1b1ead80
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658108"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696019"
 ---
 # <a name="project-and-solution-file-types"></a>프로젝트 및 솔루션 파일 형식
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,11 +54,11 @@ ms.locfileid: "59658108"
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서는 다양한 파일 형식을 사용하여 프로젝트에 대한 정보를 저장합니다. 자세한 내용은 다음 도움말 항목을 참조하세요.  
   
  [!INCLUDE[vcprvc](../../includes/vcprvc-md.md)]  
- [Visual C++ 프로젝트용 파일 형식](http://msdn.microsoft.com/library/2b0ee2e0-ae81-4185-9bb9-11da3c99a283)  
+ [Visual C++ 프로젝트용 파일 형식](https://msdn.microsoft.com/library/2b0ee2e0-ae81-4185-9bb9-11da3c99a283)  
   
- [Visual C++ 프로젝트 만들기 및 관리](http://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047)  
+ [Visual C++ 프로젝트 만들기 및 관리](https://msdn.microsoft.com/library/11003cd8-9046-4630-a189-a32bf3b88047)  
   
- [유니코드](http://msdn.microsoft.com/library/1002004b-4113-4380-bf63-e1570934b793)  
+ [유니코드](https://msdn.microsoft.com/library/1002004b-4113-4380-bf63-e1570934b793)  
   
 ## <a name="see-also"></a>참고 항목  
  [솔루션 및 프로젝트](../../ide/solutions-and-projects-in-visual-studio.md)

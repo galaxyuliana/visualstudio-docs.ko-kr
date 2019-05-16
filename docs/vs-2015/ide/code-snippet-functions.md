@@ -13,17 +13,17 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 95ee6a99a069f81a2e63c5bbe11186afaf773423
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: 5a7a7522d0c3ddab224e19150f47120b92b2dd32
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54790009"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701533"
 ---
 # <a name="code-snippet-functions"></a>코드 조각 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-세 가지 함수를 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 코드 조각에 사용할 수 있습니다. 함수는 코드 조각의 [Function](http://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df) 요소에 지정됩니다. 코드 조각을 만드는 방법에 대한 자세한 내용은 [코드 조각](../ide/code-snippets.md)을 참조하세요.  
+세 가지 함수를 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 코드 조각에 사용할 수 있습니다. 함수는 코드 조각의 [Function](https://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df) 요소에 지정됩니다. 코드 조각을 만드는 방법에 대한 자세한 내용은 [코드 조각](../ide/code-snippets.md)을 참조하세요.  
   
 ## <a name="functions"></a>함수  
  다음 표에서는 코드 조각의 `Function` 요소에 사용할 수 있는 함수를 설명합니다.  
@@ -34,7 +34,7 @@ ms.locfileid: "54790009"
 |`ClassName()`|삽입된 코드 조각을 포함하는 클래스의 이름을 반환합니다.|[!INCLUDE[csprcs](../includes/csprcs-md.md)]|  
 |`SimpleTypeName(` `TypeName` `)`|*TypeName* 매개 변수를 코드 조각이 호출되는 컨텍스트에서 가장 단순한 형태로 줄입니다.|[!INCLUDE[csprcs](../includes/csprcs-md.md)]|  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `GenerateSwitchCases` 함수를 사용하는 방법을 보여 줍니다. 이 코드 조각이 삽입되고 열거형이 `$switch_on$` 리터럴에 입력되면 `$cases$` 리터럴은 열거형의 모든 값에 대해 `case` 문을 생성합니다.  
   
 ```  
@@ -75,7 +75,7 @@ ms.locfileid: "54790009"
 </CodeSnippets>  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  다음 예제에서는 `ClassName` 함수를 사용하는 방법을 보여 줍니다. 이 코드 조각이 삽입되면 `$classname$` 리터럴은 코드 파일의 해당 위치에 있는 바깥쪽 클래스의 이름으로 바뀝니다.  
   
 ```  
@@ -121,7 +121,7 @@ ms.locfileid: "54790009"
 </CodeSnippets>  
 ```  
   
-## <a name="example"></a>예  
+## <a name="example"></a>예제  
  이 예제는 `SimpleTypeName` 함수를 사용하는 방법을 보여 줍니다. 이 코드 조각이 코드 파일에 삽입되면 코드 조각이 호출된 컨텍스트에서 `$SystemConsole$` 리터럴이 가장 간단한 형태의 <xref:System.Console> 형식으로 바뀝니다.  
   
 ```  
@@ -154,5 +154,5 @@ ms.locfileid: "54790009"
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [Function 요소(Intellisense 코드 조각)](http://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
+ [Function 요소(Intellisense 코드 조각)](https://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
  [코드 조각 스키마 참조](../ide/code-snippets-schema-reference.md)

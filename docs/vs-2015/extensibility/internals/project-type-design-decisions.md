@@ -13,12 +13,12 @@ ms.assetid: f68671fe-fd7a-4e56-a0b5-330b0f1fedb1
 caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 323fbbc48953537dbcad4a13d2774fefec65dd52
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: cd26e08ab153e96fc601e89788008cb0e9ca38c8
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984930"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704080"
 ---
 # <a name="project-type-design-decisions"></a>프로젝트 형식 디자인 결정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "58984930"
   
  프로젝트 항목 파일 수 또는 인터넷을 통해 데이터베이스 저장소 또는 데이터 연결의 개체와 같은 더 추상적인 개체 수입니다. 항목 파일 경우 프로젝트 참조 기반 또는 디렉터리 기반 프로젝트를 수 있습니다.  
   
- 프로젝트 기반 참조의에서 항목은 둘 이상의 프로젝트에 나타날 수 있습니다. 그러나 실제 파일 항목을 나타내는 하나의 디렉터리에 있습니다. 디렉터리 기반 프로젝트에서 모든 프로젝트 항목 디렉터리 구조에 존재 합니다. 자세한 내용은 [NIB: 항목 관리 프로젝트에서](http://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)합니다.  
+ 프로젝트 기반 참조의에서 항목은 둘 이상의 프로젝트에 나타날 수 있습니다. 그러나 실제 파일 항목을 나타내는 하나의 디렉터리에 있습니다. 디렉터리 기반 프로젝트에서 모든 프로젝트 항목 디렉터리 구조에 존재 합니다. 자세한 내용은 [NIB: 항목 관리 프로젝트에서](https://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)합니다.  
   
  로컬 항목은 응용 프로그램이 설치 되어 있는 동일한 컴퓨터에 저장 됩니다. 로컬 네트워크에서 별도 서버 또는 다른 곳에서 인터넷에서 원격 항목을 저장할 수 있습니다.  
   
@@ -60,7 +60,7 @@ ms.locfileid: "58984930"
   
 ## <a name="see-also"></a>참고 항목  
  [검사 목록: 새 프로젝트 형식 만들기](../../extensibility/internals/checklist-creating-new-project-types.md)   
- [프로젝트의 NIB: 항목 관리](http://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)   
+ [프로젝트의 NIB: 항목 관리](https://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)   
  [열기 및 프로젝트 항목 저장](../../extensibility/internals/opening-and-saving-project-items.md)   
  [프로젝트 지 속성](../../extensibility/internals/project-persistence.md)   
  [프로젝트 모델의 요소](../../extensibility/internals/elements-of-a-project-model.md)   

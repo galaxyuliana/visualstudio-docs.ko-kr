@@ -17,15 +17,15 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 71fdd358c03604b196b0a57a9667f40dfb92b049
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9eea79978b7b61de1e56d787b5a4cd9797be1aa6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62977000"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704781"
 ---
 # <a name="developing-applications-with-the-workflow-designer"></a>Workflow Designer로 응용 프로그램 개발
-[!INCLUDE[wfd1](../includes/wfd1-md.md)]는 [!INCLUDE[wf](../includes/wf-md.md)] 개발 환경에 호스트되는 [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)]에서 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 응용 프로그램을 디버깅하고 그래픽을 생성하는 비주얼 디자이너 겸 디버거입니다. 여기서 템플릿 및 활동 디자이너를 사용하여 복합 워크플로 응용 프로그램, 활동 라이브러리 또는 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 서비스를 생성할 수 있습니다. [!INCLUDE[crabout](../includes/crabout-md.md)] 워크플로 참조 합니다 [Windows Workflow Foundation &#91;.NET Framework 4&#93;](http://msdn.microsoft.com/library/9a23ea6b-d600-483e-89cd-8889cfec5f66)합니다.  
+[!INCLUDE[wfd1](../includes/wfd1-md.md)]는 [!INCLUDE[wf](../includes/wf-md.md)] 개발 환경에 호스트되는 [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)]에서 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 응용 프로그램을 디버깅하고 그래픽을 생성하는 비주얼 디자이너 겸 디버거입니다. 여기서 템플릿 및 활동 디자이너를 사용하여 복합 워크플로 응용 프로그램, 활동 라이브러리 또는 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 서비스를 생성할 수 있습니다. [!INCLUDE[crabout](../includes/crabout-md.md)] 워크플로 참조 합니다 [Windows Workflow Foundation &#91;.NET Framework 4&#93;](https://msdn.microsoft.com/library/9a23ea6b-d600-483e-89cd-8889cfec5f66)합니다.  
   
  새 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 버전에서 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 이전 버전과 달라진 몇 가지 디자인 기능은 다음과 같습니다.  
   
@@ -65,8 +65,8 @@ ms.locfileid: "62977000"
  [.NET 3.0 또는 .NET 3.5 Framework를 대상으로 하는 워크플로 애플리케이션 개발](../workflow-designer/developing-workflow-applications-targeting-the-dotnet-3-0-or-dotnet-3-5-framework.md)  
  [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 하는 레거시 디자이너의 사용 지침이 들어 있습니다.  
   
- [디자이너 재호스팅 &#91;WF 샘플&#93;](http://msdn.microsoft.com/library/b676ad31-5f64-4d84-9a36-b4d7113a2f4d)  
+ [디자이너 재호스팅 &#91;WF 샘플&#93;](https://msdn.microsoft.com/library/b676ad31-5f64-4d84-9a36-b4d7113a2f4d)  
  이를 위해 디자이너를 포함하도록 적절한 WPF 레이아웃을 만드는 방법을 보여줍니다.  
   
- [사용자 지정 작업 디자이너](http://msdn.microsoft.com/library/dcf14dca-ce6d-4278-96ba-062f0a679075)  
+ [사용자 지정 작업 디자이너](https://msdn.microsoft.com/library/dcf14dca-ce6d-4278-96ba-062f0a679075)  
  이 단원에는 워크플로 디자이너에 표시할 사용자 지정 디자이너를 사용하는 활동 샘플이 포함되어 있습니다.

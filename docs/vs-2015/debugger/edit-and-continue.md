@@ -23,12 +23,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 73865d68c191d1287c1cf8a33095259bd9d659ac
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 4d5b10d3e40d889ffa9e7743d65de487c2d823cf
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971674"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698723"
 ---
 # <a name="edit-and-continue"></a>편집하며 계속하기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,13 +37,13 @@ ms.locfileid: "58971674"
   
  이 단원에 포함된 항목은 다음과 같습니다.  
   
- [방법: 코드 변경 내용을 명시적으로 적용](http://msdn.microsoft.com/89c4fce9-a3ef-432d-a840-67840b1c4be8)  
+ [방법: 코드 변경 내용을 명시적으로 적용](https://msdn.microsoft.com/89c4fce9-a3ef-432d-a840-67840b1c4be8)  
   
  [방법: 편집하며 계속하기 설정/해제](../debugger/how-to-enable-and-disable-edit-and-continue.md)  
   
  [방법: 코드 변경 중지](../debugger/how-to-stop-code-changes.md)  
   
- [실행 위치](http://msdn.microsoft.com/dd9855a7-b536-4e76-821f-27017829b996)  
+ [실행 위치](https://msdn.microsoft.com/dd9855a7-b536-4e76-821f-27017829b996)  
   
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)  
   
@@ -55,5 +55,5 @@ ms.locfileid: "58971674"
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 보안](../debugger/debugger-security.md)   
- [옵션 대화 상자, 디버깅, 편집하며 계속하기](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
+ [옵션 대화 상자, 디버깅, 편집하며 계속하기](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)   
  [디버거 기본 사항](../debugger/debugger-basics.md)

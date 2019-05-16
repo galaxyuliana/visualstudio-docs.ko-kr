@@ -22,17 +22,17 @@ caps.latest.revision: 31
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3e2140f15000b3ba270605af29ee36665c0137ee
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: ad496bb55bae8d9e08035408059e454430ab4e39
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092983"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705544"
 ---
 # <a name="walkthrough-debugging-a-parallel-application"></a>연습: 병렬 응용 프로그램 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 **병렬 스택** 및 **병렬 스택** 창을 사용하여 병렬 애플리케이션을 디버깅하는 방법을 보여줍니다. 이러한 windows 이해 하 고 사용 하는 코드의 런타임 동작을 확인 하는 데 도움이 합니다 [TPL 작업 병렬 라이브러리 ()](http://msdn.microsoft.com/library/b8f99f43-9104-45fd-9bff-385a20488a23) 또는 [동시성 런타임](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)합니다. 이 연습에서는 기본 제공 중단점이 있는 샘플 코드를 제공합니다. 또한 코드가 중단된 후에 **병렬 작업** 및 **병렬 스택** 창을 사용하여 코드를 검사하는 방법을 보여줍니다.  
+이 연습에서는 **병렬 스택** 및 **병렬 스택** 창을 사용하여 병렬 애플리케이션을 디버깅하는 방법을 보여줍니다. 이러한 windows 이해 하 고 사용 하는 코드의 런타임 동작을 확인 하는 데 도움이 합니다 [TPL 작업 병렬 라이브러리 ()](https://msdn.microsoft.com/library/b8f99f43-9104-45fd-9bff-385a20488a23) 또는 [동시성 런타임](https://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)합니다. 이 연습에서는 기본 제공 중단점이 있는 샘플 코드를 제공합니다. 또한 코드가 중단된 후에 **병렬 작업** 및 **병렬 스택** 창을 사용하여 코드를 검사하는 방법을 보여줍니다.  
   
  이 연습에서는 다음 작업 방법을 배웁니다.  
   
@@ -308,7 +308,7 @@ ms.locfileid: "60092983"
  [다중 스레드 응용 프로그램 디버깅](../debugger/walkthrough-debugging-a-parallel-application.md)   
  [Debugger Basics](../debugger/debugger-basics.md) (디버거 기본 사항)  
  [Debugging Managed Code](../debugger/debugging-managed-code.md) (관리 코드 디버그)  
- [병렬 프로그래밍](http://msdn.microsoft.com/library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   
- [동시성 런타임](http://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)   
+ [병렬 프로그래밍](https://msdn.microsoft.com/library/4d83c690-ad2d-489e-a2e0-b85b898a672d)   
+ [동시성 런타임](https://msdn.microsoft.com/library/874bc58f-8dce-483e-a3a1-4dcc9e52ed2c)   
  [병렬 스택 창 사용](../debugger/using-the-parallel-stacks-window.md)   
  [작업 창 사용](../debugger/using-the-tasks-window.md)

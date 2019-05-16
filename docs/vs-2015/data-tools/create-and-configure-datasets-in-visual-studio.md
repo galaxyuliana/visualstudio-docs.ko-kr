@@ -17,19 +17,19 @@ caps.latest.revision: 39
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b3073f79cc58296b6952d610384d06648aa6ce3d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 6864708d3e60898b32ba07b14939a5c3e31d897e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60093477"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705128"
 ---
 # <a name="create-and-configure-datasets-in-visual-studio"></a>Visual Studio에서 데이터 세트 만들기 및 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 A *데이터 집합* 데이터베이스에서 데이터를 메모리에 저장 하 고 사용 하도록 설정 하려면 변경 내용 추적을 지 원하는 개체의 집합이 만들기, 읽기, 업데이트 및 삭제 (CRUD) 작업 항상 데이터베이스에 연결할 필요가 없이 해당 데이터에 있습니다. 데이터 집합은 간단한 용으로 설계 된 *데이터 폼* 비즈니스 응용 프로그램입니다. 새 응용 프로그램에 대 한 Entity Framework를 사용 하 여 저장 하 고 메모리에서 데이터를 모델링 하는 것이 좋습니다. 데이터 집합을 사용 하려면 데이터베이스 개념에 대 한 기본 지식이 있어야 합니다.
 
- 형식화 된 만든 <xref:System.Data.DataSet> 를 사용 하 여 디자인 타임에 Visual Studio에서 클래스를 **데이터 소스 구성 마법사**합니다. 프로그래밍 방식으로 데이터 집합을 만드는 방법에 대 한 정보를 참조 하세요 [데이터 집합 만들기](http://msdn.microsoft.com/library/57629d8f-393e-4677-8b83-29ffde27f5fc)합니다.
+ 형식화 된 만든 <xref:System.Data.DataSet> 를 사용 하 여 디자인 타임에 Visual Studio에서 클래스를 **데이터 소스 구성 마법사**합니다. 프로그래밍 방식으로 데이터 집합을 만드는 방법에 대 한 정보를 참조 하세요 [데이터 집합 만들기](https://msdn.microsoft.com/library/57629d8f-393e-4677-8b83-29ffde27f5fc)합니다.
 
 ## <a name="create-a-new-dataset-by-using-the-data-source-configuration-wizard"></a>데이터 소스 구성 마법사를 사용 하 여 새 데이터 집합을 만들려면
 
@@ -90,6 +90,6 @@ A *데이터 집합* 데이터베이스에서 데이터를 메모리에 저장 �
 
 2. 끌어서를 <xref:System.Data.DataTable> 에서 클래스를 **데이터 집합** 탭의 **도구 상자** 에 **데이터 집합 디자이너**.
 
-3. 데이터 테이블을 정의 하는 열을 추가 합니다. 자세한 내용은 [방법: DataTable에 열 추가](http://msdn.microsoft.com/library/8ca21f77-b99a-47a7-a656-7cfd7a1bd9df)합니다.
+3. 데이터 테이블을 정의 하는 열을 추가 합니다. 자세한 내용은 [방법: DataTable에 열 추가](https://msdn.microsoft.com/library/8ca21f77-b99a-47a7-a656-7cfd7a1bd9df)합니다.
 
-4. 독립 실행형 테이블 구현 해야 `Fill` 독립 실행형 테이블에는 논리를 데이터로 채울 수 있습니다. 독립 실행형 데이터 테이블을 채우는 방법은 [DataAdapter에서 DataSet 채우기](http://msdn.microsoft.com/library/3fa0ac7d-e266-4954-bfac-3fbe2f913153)합니다.
+4. 독립 실행형 테이블 구현 해야 `Fill` 독립 실행형 테이블에는 논리를 데이터로 채울 수 있습니다. 독립 실행형 데이터 테이블을 채우는 방법은 [DataAdapter에서 DataSet 채우기](https://msdn.microsoft.com/library/3fa0ac7d-e266-4954-bfac-3fbe2f913153)합니다.

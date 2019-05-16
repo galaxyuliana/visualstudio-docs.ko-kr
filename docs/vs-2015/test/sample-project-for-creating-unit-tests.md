@@ -11,12 +11,12 @@ ms.assetid: db80aaf2-0652-4d3f-a8c5-2a98fd8502a2
 caps.latest.revision: 32
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c00023c7b8e624d5b97726720f0f7642a38c5a4f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 67ebbde52facf50eff534322d85a926968acdf0d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048777"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705955"
 ---
 # <a name="sample-project-for-creating-unit-tests"></a>단위 테스트를 만들기 위한 샘플 프로젝트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,9 +25,9 @@ ms.locfileid: "60048777"
   
 - [연습: 에 대 한 단위 테스트 만들기 및 실행 관리 코드](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)합니다. 이 연습에서는 단위 테스트를 작성, 사용자 지정 및 실행하고 테스트 결과를 검사하는 단계를 안내합니다.  
   
-- [연습: 테스트 실행 및 코드 검사 보기](http://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)합니다. 또한 테스트 중인 프로젝트 코드의 부분을 보여 주는 코드 검사 데이터를 확인하는 방법도 설명합니다.  
+- [연습: 테스트 실행 및 코드 검사 보기](https://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)합니다. 또한 테스트 중인 프로젝트 코드의 부분을 보여 주는 코드 검사 데이터를 확인하는 방법도 설명합니다.  
   
-- [연습: 명령줄 테스트 유틸리티 사용](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867) 이 연습에서는 MSTest.exe 명령줄 유틸리티를 사용하여 테스트를 실행하고 결과를 확인합니다.  
+- [연습: 명령줄 테스트 유틸리티 사용](https://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867) 이 연습에서는 MSTest.exe 명령줄 유틸리티를 사용하여 테스트를 실행하고 결과를 확인합니다.  
   
 ## <a name="sample-code"></a>샘플 코드  
  이 샘플에서 의도적으로 발생시켜야 하는 오류는 Debit 메서드 "m_balance += amount"의 등호 앞에 더하기 기호가 아닌 빼기 기호가 있어야 한다는 것뿐입니다.  
@@ -133,5 +133,5 @@ namespace BankAccountNS
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 만들기 및 관리 코드에 대 한 단위 테스트를 실행 합니다.](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)   
- [연습: 테스트 실행 및 코드 검사 보기](http://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
- [연습: 명령줄 테스트 유틸리티 사용](http://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867)
+ [연습: 테스트 실행 및 코드 검사 보기](https://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
+ [연습: 명령줄 테스트 유틸리티 사용](https://msdn.microsoft.com/library/52c11992-9e94-4067-a4b7-59f19d69d867)

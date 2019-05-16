@@ -18,12 +18,12 @@ caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7f50c5897f68e43071d4920f85f1a694cacbf655
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: f135221564583d2d9726bb9fa153840b1328e96f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441304"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701822"
 ---
 # <a name="publish-page-project-designer"></a>프로젝트 디자이너, 게시 페이지
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,16 +50,16 @@ ms.locfileid: "63441304"
  WPF 웹 브라우저 애플리케이션의 경우 온라인으로만 사용 가능하므로, **오프라인으로도 애플리케이션 사용 가능** 옵션을 사용할 수 없습니다.  
   
  **응용 프로그램 파일**  
- 개별 파일을 어디에 어떻게 설치할지를 지정하는 데 사용되는 [Application Files Dialog Box](http://msdn.microsoft.com/b06dff3a-b87a-4caf-996b-7a4acf8137a8)를 엽니다.  
+ 개별 파일을 어디에 어떻게 설치할지를 지정하는 데 사용되는 [Application Files Dialog Box](https://msdn.microsoft.com/b06dff3a-b87a-4caf-996b-7a4acf8137a8)를 엽니다.  
   
  **필수 구성 요소**  
  .NET Framework 같은 필수 구성 요소를 애플리케이션과 함께 설치하도록 지정하는 데 사용되는 [Prerequisites Dialog Box](../../ide/reference/prerequisites-dialog-box.md)를 엽니다.  
   
  **Updates**  
- 애플리케이션의 업데이트 동작을 지정하는 데 사용되는 [Application Updates Dialog Box](http://msdn.microsoft.com/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)를 엽니다. **온라인으로만 응용 프로그램 사용 가능** 을 선택한 경우 사용할 수 없습니다.  
+ 애플리케이션의 업데이트 동작을 지정하는 데 사용되는 [Application Updates Dialog Box](https://msdn.microsoft.com/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)를 엽니다. **온라인으로만 응용 프로그램 사용 가능** 을 선택한 경우 사용할 수 없습니다.  
   
  **옵션**  
- 추가 고급 게시 옵션을 지정하는 데 사용되는 [Publish Options Dialog Box](http://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592)를 엽니다.  
+ 추가 고급 게시 옵션을 지정하는 데 사용되는 [Publish Options Dialog Box](https://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592)를 엽니다.  
   
  **게시 버전**  
  애플리케이션의 게시 버전 번호를 설정합니다. 버전 번호가 변경되면 애플리케이션이 업데이트로 게시됩니다. 게시 버전의 각 부분(**주**, **부**, **빌드**, **수정**)에 사용할 수 있는 최대 값은 65355입니다(<xref:System.UInt16.MaxValue>). 이는 <xref:System.Version>에서 허용하는 최대 값입니다.  
@@ -70,7 +70,7 @@ ms.locfileid: "63441304"
  선택 사항입니다. 이 옵션이 선택된 경우(기본값), 애플리케이션을 게시할 때마다 게시 버전 번호의 **수정** 부분이 1씩 증가합니다. 그러면 애플리케이션이 업데이트로 게시됩니다.  
   
  **게시 마법사**  
- [Publish Wizard](http://msdn.microsoft.com/fc6abebd-13d6-48e4-a567-fbc52dad0872)를 엽니다. 게시 마법사를 완료하는 것은 **빌드** 메뉴의 **게시** 명령을 실행하는 것과 효과가 동일합니다.  
+ [Publish Wizard](https://msdn.microsoft.com/fc6abebd-13d6-48e4-a567-fbc52dad0872)를 엽니다. 게시 마법사를 완료하는 것은 **빌드** 메뉴의 **게시** 명령을 실행하는 것과 효과가 동일합니다.  
   
  **지금 게시**  
  현재 설정을 사용하여 애플리케이션을 게시합니다. **PublishWizard**에서 **마침** 단추와 동일합니다.  

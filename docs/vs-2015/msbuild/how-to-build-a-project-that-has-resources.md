@@ -14,12 +14,12 @@ caps.latest.revision: 17
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0806df31b7e1f225ecefc823cbcbdb0a72ff2058
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: fb77db891e824f5f2900ef191049e65cb2c89a98
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660270"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686523"
 ---
 # <a name="how-to-build-a-project-that-has-resources"></a>방법: 리소스를 사용하는 프로젝트 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,18 +31,18 @@ ms.locfileid: "59660270"
   
 #### <a name="to-compile-resources-with-msbuild"></a>MSBuild를 사용하여 리소스를 컴파일하려면  
   
-1.  프로젝트의 리소스 파일을 확인하고 `GenerateResource` 작업에 항목 목록 또는 파일 이름으로 전달합니다.  
+1. 프로젝트의 리소스 파일을 확인하고 `GenerateResource` 작업에 항목 목록 또는 파일 이름으로 전달합니다.  
   
-2.  출력 리소스 파일의 이름을 설정할 수 있는 `GenerateResource` 작업의 `OutputResources` 매개 변수를 지정합니다.  
+2. 출력 리소스 파일의 이름을 설정할 수 있는 `GenerateResource` 작업의 `OutputResources` 매개 변수를 지정합니다.  
   
-3.  작업의 `Output` 요소를 사용하여 `OutputResources` 매개 변수 값을 항목에 저장합니다.  
+3. 작업의 `Output` 요소를 사용하여 `OutputResources` 매개 변수 값을 항목에 저장합니다.  
   
-4.  `Output` 요소에서 생성된 항목을 다른 작업에 대한 입력으로 사용합니다.  
+4. `Output` 요소에서 생성된 항목을 다른 작업에 대한 입력으로 사용합니다.  
   
 ## <a name="example"></a>예제  
  다음 코드 예제에서는 `Output` 요소를 사용하여 `GenerateResource` 작업의 `OutputResources` 특성에 컴파일된 리소스 파일 `alpha.resources` 및 `beta.resources`가 포함되고 이러한 두 파일이 `Resources` 항목 목록 내에 배치되도록 지정하는 방법을 보여 줍니다. 이러한 .resources 파일을 같은 이름의 항목 모음으로 식별하면 해당 파일을 [Csc](../msbuild/csc-task.md) 작업 등의 다른 작업에 대한 입력으로 쉽게 사용할 수 있습니다.  
   
- 이 작업은 [Resgen.exe](http://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)에 **/compile** 스위치를 사용하는 것과 같습니다.  
+ 이 작업은 [Resgen.exe](https://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)에 **/compile** 스위치를 사용하는 것과 같습니다.  
   
  `Resgen.exe /compile alpha.resx,alpha.resources /compile beta.txt,beta.resources`  
   
@@ -83,4 +83,4 @@ ms.locfileid: "59660270"
 [MSBuild](msbuild.md)  
  [GenerateResource 작업](../msbuild/generateresource-task.md)   
  [Csc 작업](../msbuild/csc-task.md)   
- [Resgen.exe(리소스 파일 생성기)](http://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)
+ [Resgen.exe(리소스 파일 생성기)](https://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)

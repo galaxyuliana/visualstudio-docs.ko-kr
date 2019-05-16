@@ -14,12 +14,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 33dfcd989a71785918cf4d121e2a2624654a5101
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: a2d6d3bd1d0a27a12194005422910236ea0fd02c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63405662"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704405"
 ---
 # <a name="how-to-display-line-numbers-in-the-editor"></a>방법: 편집기에서 줄 번호 표시
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "63405662"
 코드에 줄 번호를 표시하거나 숨길 수 있습니다.  
   
 > [!NOTE]
-> 활성 설정에 따라 화면에 나타나는 대화 상자와 메뉴 명령이 여기에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구/설정 가져오기 및 내보내기**를 엽니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 활성 설정에 따라 화면에 나타나는 대화 상자와 메뉴 명령이 여기에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구/설정 가져오기 및 내보내기**를 엽니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="display-line-numbers-in-code"></a>코드에 줄 번호 표시  
  줄 번호는 코드에 추가되지 않으며 참조용으로만 사용됩니다. 줄 번호를 인쇄하려면 **인쇄** 대화 상자에서 **줄 번호 포함** 확인란을 선택합니다.  

@@ -21,12 +21,12 @@ caps.latest.revision: 24
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0ba48e28d5ace9dc1c07d7ec302d070d5d5f15e6
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.openlocfilehash: de804cb26eb9c51acc67445e1f1b1c0fdfabab91
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58985756"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697526"
 ---
 # <a name="publishing-clickonce-applications"></a>ClickOnce 애플리케이션 게시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -98,8 +98,8 @@ ms.locfileid: "58985756"
 |[연습: ClickOnce 배포 API에서 요청 시 위성 어셈블리 다운로드](../deployment/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md)|위성 어셈블리를 선택적 항목으로 표시하고 클라이언트 컴퓨터의 현재 문화권 설정에 필요한 어셈블리만 다운로드하는 방법을 설명합니다.|  
 |[연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)|.NET Framework 유틸리티를 사용하여 ClickOnce 응용 프로그램을 배포하는 방법을 설명합니다.|  
 |[연습: 다시 서명할 필요가 없고 브랜드 정보가 유지되는 ClickOnce 애플리케이션 수동 배포](/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015)|.NET Framework 유틸리티를 사용하여 매니페스트를 다시 서명하지 않고 ClickOnce 응용 프로그램을 배포하는 방법을 설명합니다.|  
-|[NIB: 방법: 특정 CPU 종류에 대 한 응용 프로그램 최적화](http://msdn.microsoft.com/294a75d2-4279-4b72-8298-2bea05be907a)|프로젝트에서 **대상 CPU** 또는 **플랫폼 대상** 속성을 변경하여 64비트 프로세서용으로 프로젝트를 게시하는 방법을 설명합니다.|  
-|[연습: 여러.NET Framework 버전에서 실행 하는 ClickOnce 응용 프로그램을 사용 하도록 설정](http://msdn.microsoft.com/7f4383af-ed87-4853-b4d4-02a3967a5fd9)|ClickOnce 응용 프로그램을 여러 .NET Framework 버전에 설치하고 실행할 수 있도록 설정하는 방법을 설명합니다.|  
+|[NIB: 방법: 특정 CPU 종류에 대 한 응용 프로그램 최적화](https://msdn.microsoft.com/294a75d2-4279-4b72-8298-2bea05be907a)|프로젝트에서 **대상 CPU** 또는 **플랫폼 대상** 속성을 변경하여 64비트 프로세서용으로 프로젝트를 게시하는 방법을 설명합니다.|  
+|[연습: 여러.NET Framework 버전에서 실행 하는 ClickOnce 응용 프로그램을 사용 하도록 설정](https://msdn.microsoft.com/7f4383af-ed87-4853-b4d4-02a3967a5fd9)|ClickOnce 응용 프로그램을 여러 .NET Framework 버전에 설치하고 실행할 수 있도록 설정하는 방법을 설명합니다.|  
 |[연습: ClickOnce 애플리케이션용 사용자 지정 설치 관리자 만들기](../deployment/walkthrough-creating-a-custom-installer-for-a-clickonce-application.md)|ClickOnce 응용 프로그램을 설치하는 사용자 지정 설치 관리자를 만드는 방법을 설명합니다.|  
 |[방법: 비주얼 스타일을 사용하여 WPF 애플리케이션 게시](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md)|비주얼 스타일을 사용하는 WPF 응용 프로그램을 게시할 때 발생하는 오류를 해결하기 위한 단계별 지침을 제공합니다.|  
   

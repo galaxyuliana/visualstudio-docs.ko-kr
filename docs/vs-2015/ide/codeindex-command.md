@@ -13,12 +13,12 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f9fa341b781028db1836e963c99ae5069ce8fe18
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: f16d21889421a00fc2723412f34b426f75847822
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433604"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701617"
 ---
 # <a name="codeindex-command"></a>CodeIndex 명령
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "63433604"
   
  **필요한 권한**  
   
- **CodeIndex** 명령을 사용하려면 **Team Foundation Administrators** 보안 그룹의 멤버여야 합니다. [Team Foundation Server에 대한 사용 권한 참조](http://msdn.microsoft.com/library/39997de5-b7fb-4777-b779-07de0543abe6)를 참조하세요.  
+ **CodeIndex** 명령을 사용하려면 **Team Foundation Administrators** 보안 그룹의 멤버여야 합니다. [Team Foundation Server에 대한 사용 권한 참조](https://msdn.microsoft.com/library/39997de5-b7fb-4777-b779-07de0543abe6)를 참조하세요.  
   
 > [!NOTE]
 > 관리자 자격 증명으로 로그온한 경우에도 이 명령을 실행하려면 관리자 권한 명령 프롬프트 창을 열어야 합니다. 또한 Team Foundation의 애플리케이션 계층에서 이 명령을 실행해야 합니다.  
@@ -125,5 +125,5 @@ TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Web Site"
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [TFSConfig를 사용하여 서버 구성 관리](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)   
- [TFS용 명령줄 도구](http://msdn.microsoft.com/be8c997a-b97b-4e59-97f5-04db0a601a6c)
+ [TFSConfig를 사용하여 서버 구성 관리](https://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)   
+ [TFS용 명령줄 도구](https://msdn.microsoft.com/be8c997a-b97b-4e59-97f5-04db0a601a6c)

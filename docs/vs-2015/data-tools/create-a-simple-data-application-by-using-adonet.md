@@ -14,12 +14,12 @@ caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9b41d199ab634ef5eeb2a6baaef8401919870b63
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 70fca5b1329dc9091e0672b41de0798d93aba01a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436984"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705176"
 ---
 # <a name="create-a-simple-data-application-by-using-adonet"></a>ADO.NET을 사용하여 간단한 데이터 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -135,7 +135,7 @@ ms.locfileid: "63436984"
 5. 에 **값** 열 (하지 않고 따옴표 외부), 연결 문자열을 입력 하 고 다음 변경 내용을 저장 합니다.  
   
 > [!NOTE]
-> 실제 응용 프로그램에서 연결 문자열을 안전 하 게에 설명 된 대로 저장 해야 [연결 문자열 및 구성 파일](http://msdn.microsoft.com/library/37df2641-661e-407a-a3fb-7bf9540f01e8)합니다.  
+> 실제 응용 프로그램에서 연결 문자열을 안전 하 게에 설명 된 대로 저장 해야 [연결 문자열 및 구성 파일](https://msdn.microsoft.com/library/37df2641-661e-407a-a3fb-7bf9540f01e8)합니다.  
   
 ## <a name="BKMK_retrievetheconnectionstring"></a> 연결 문자열 검색  
   
@@ -726,7 +726,7 @@ End Namespace
 |NC-12|사용 합니다 `ExecuteNonQuery` 에 대 한 메서드 `cmdNewCustomer` 실행 하는 `Sales.uspNewCustomer` 저장 프로시저. 이 저장 프로시저가 실행 될은 `INSERT` 문, 쿼리 없습니다.|  
 |NC-13|데이터베이스에서 IDENTITY 값으로 `@CustomerID` 값이 반환됩니다. 에 표시할 문자열로 변환 해야 하는 정수 이기 때문에 합니다 **고객 ID** 입력란입니다.<br /><br /> -선언 하면 `parsedCustomerID` NC-2에서 합니다.<br />-저장 된 `@CustomerID` 값 `parsedCustomerID` 나중에 사용할 수 있습니다.<br />-반환 된 고객 ID를 문자열로 변환 하 고에 삽입 `txtCustomerID.Text`합니다.|  
 |NC-14|이 샘플에서는 간단한 (비프로덕션 품질) catch 절을 추가 합니다.|  
-|NC-15|연결을 사용한 후에는 반드시 닫아야 연결 풀로 해제됩니다. 참조 [SQL Server 연결 풀링 (ADO.NET)](http://msdn.microsoft.com/library/8xx3tyca\(l=en-us,v=VS.110\).aspx)합니다.|  
+|NC-15|연결을 사용한 후에는 반드시 닫아야 연결 풀로 해제됩니다. 참조 [SQL Server 연결 풀링 (ADO.NET)](https://msdn.microsoft.com/library/8xx3tyca\(l=en-us,v=VS.110\).aspx)합니다.|  
 |NC-16|고객 이름이 있는지 확인하는 메서드를 정의합니다.<br /><br /> -텍스트 상자가 비어 있는 경우 메시지를 표시 하 고 반환 `false`이므로 계정을 만들려면 이름이 필요 합니다.<br />-텍스트 상자가 비어 있지 않은 경우 반환 `true`합니다.|  
 |NC-17|`btnPlaceOrder` 단추에 대한 클릭 이벤트 처리기에 코드를 추가합니다.|  
 |NC-18|필수 입력이 없는 경우 `uspPlaceNewOrder`가 실행되지 않도록 `btnPlaceOrder_Click` 이벤트 코드 주변의 `isPlaceOrderReady`에 대한 호출을 래핑합니다.|  

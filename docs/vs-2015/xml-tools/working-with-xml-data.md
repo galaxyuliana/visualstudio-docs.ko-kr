@@ -9,12 +9,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: aef35ff50080e9b596cc63915da77851b549bc3f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4c9b653451a467cc6ac7d48ad08d937f8f8462a5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63438869"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703224"
 ---
 # <a name="working-with-xml-data"></a>XML 데이터 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,10 +58,10 @@ XML 및 관련 기술은 [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual
  [XSLT 디버그](../xml-tools/debugging-xslt.md)  
  Visual Studio 디버거를 사용하여 스타일시트를 디버깅하는 방법을 설명합니다.  
   
- [XML 표준 참조](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
+ [XML 표준 참조](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
  XML, DTD(문서 종류 정의), XSD(XML 스키마 정의 언어), XSLT 등의 XML 기술에 대한 정보를 제공합니다.
   
- [관리 코드에서 XML 웹 서비스](http://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)  
+ [관리 코드에서 XML 웹 서비스](https://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)  
  XML Web services를 만들고 배포하는 방법 및 XML Web services에 액세스하는 방법에 대해 설명합니다.  
   
 ## <a name="see-also"></a>참고 항목  

@@ -12,12 +12,12 @@ ms.assetid: 92353a74-dc74-4f93-8762-61d6b220478c
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: d6284b31752d21ddaddb5586a342fc8cda6f21c5
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3f23c2ad4aeaf911e45b28686584d741e5c4d22f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63439922"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704131"
 ---
 # <a name="idebugbinder3"></a>IDebugBinder3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ IDebugBinder3 : IDebugBinder
  디버그 엔진 별칭, 사용자 지정 시각화 도우미 서비스 및 개체 형식 정보에 대 한 액세스를 지원 하기 위해이 인터페이스를 구현 합니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) 인터페이스를 사용 하 여이 인터페이스를 가져오는 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3)합니다.  
+ [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) 인터페이스를 사용 하 여이 인터페이스를 가져오는 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3)합니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  제공한 메서드 외에도 합니다 [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) 인터페이스에서이 인터페이스에서 다음을 구현 합니다.  

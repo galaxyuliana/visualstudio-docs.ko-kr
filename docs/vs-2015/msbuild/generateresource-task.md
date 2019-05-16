@@ -19,17 +19,17 @@ caps.latest.revision: 18
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: caa267aa44a72d180195a30b41fa7a2c03033bdf
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 712d0de957ff7f780567c927fb1b18b100f8f6ca
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668407"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703526"
 ---
 # <a name="generateresource-task"></a>GenerateResource 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-.txt 및 .rest(XML 기반 리소스 형식) 파일과 런타임 이진 실행 파일에 포함되거나 위성 어셈블리로 컴파일할 수 있는 공용 언어 런타임 이진 .resources 파일 간을 변환합니다. 이 작업은 일반적으로 .txt 또는 .resx 파일을 .resource 파일로 변환하는 데 사용됩니다. `GenerateResource` 작업은 [resgen.exe](http://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)와 기능적으로 비슷합니다.  
+.txt 및 .rest(XML 기반 리소스 형식) 파일과 런타임 이진 실행 파일에 포함되거나 위성 어셈블리로 컴파일할 수 있는 공용 언어 런타임 이진 .resources 파일 간을 변환합니다. 이 작업은 일반적으로 .txt 또는 .resx 파일을 .resource 파일로 변환하는 데 사용됩니다. `GenerateResource` 작업은 [resgen.exe](https://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)와 기능적으로 비슷합니다.  
   
 ## <a name="parameters"></a>매개 변수  
  다음 표에서는 `GenerateResource` 작업의 매개 변수에 대해 설명합니다.  
@@ -56,11 +56,11 @@ ms.locfileid: "59668407"
 |`StronglyTypedNamespace`|선택적 `String` 매개 변수입니다.<br /><br /> 강력한 형식의 리소스에 대해 생성된 클래스 소스에 사용할 네임스페이스를 지정합니다. 이 매개 변수를 지정하지 않으면 모든 강력한 형식의 리소스는 전역 네임스페이스에 있습니다.|  
 |`TLogReadFiles`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 읽기 전용 매개 변수입니다.<br /><br /> 읽기 추적 로그를 나타내는 항목의 배열을 가져옵니다.|  
 |`TLogWriteFiles`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 읽기 전용 매개 변수입니다.<br /><br /> 쓰기 추적 로그를 나타내는 항목의 배열을 가져옵니다.|  
-|`ToolArchitecture`|선택적 [String] (<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> Tracker.exe를 ResGen.exe를 생성하는 데 사용해야 하는지 여부를 결정하는 데 사용됩니다.<br /><br /> <xref:Microsoft.Build.Utilities.ExecutableType> 열거형의 멤버로 구문 분석할 수 있어야 합니다. `String.Empty`이면 추론을 사용하여 기본 아키텍처를 결정합니다. Microsoft.Build.Utilities.ExecutableType 열거형의 멤버로 구문 분석할 수 있어야 합니다.|  
-|`TrackerFrameworkPath`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> FileTracker.dll을 포함하는 적절한 .NET Framework 위치의 경로를 지정합니다.<br /><br /> 설정되면 사용자가 전달하는 FileTracker.dll의 비트가 사용하려는 ResGen.exe의 비트와 일치하는지 확인해야 합니다. 설정되지 않으면 작업이 현재 .NET Framework 버전에 따라 적절한 위치를 결정합니다.|  
-|`TrackerLogDirectory`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> 이 작업 실행 시 발생하는 추적 로그를 추가할 중간 디렉터리를 지정합니다.|  
-|`TrackerSdkPath`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 필요합니다.<br /><br /> Tracker.exe를 포함하는 적절한 Windows SDK의 경로를 지정합니다.<br /><br /> 설정되면 사용자가 전달하는 Tracker.exe의 비트가 사용하려는 ResGen.exe의 비트와 일치하는지 확인해야 합니다. 설정되지 않으면 작업이 현재 Windows SDK에 따라 적절한 위치를 결정합니다.|  
-|`TrackFileAccess`|선택적 [부울] (<!-- TODO: review code entity reference <xref:assetId:///Boolean?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> true이면 입력 파일의 디렉터리가 상대 파일 경로를 확인하는 데 사용됩니다.|  
+|`ToolArchitecture`|선택적 [String](<!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> Tracker.exe를 ResGen.exe를 생성하는 데 사용해야 하는지 여부를 결정하는 데 사용됩니다.<br /><br /> <xref:Microsoft.Build.Utilities.ExecutableType> 열거형의 멤버로 구문 분석할 수 있어야 합니다. `String.Empty`이면 추론을 사용하여 기본 아키텍처를 결정합니다. Microsoft.Build.Utilities.ExecutableType 열거형의 멤버로 구문 분석할 수 있어야 합니다.|  
+|`TrackerFrameworkPath`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> FileTracker.dll을 포함하는 적절한 .NET Framework 위치의 경로를 지정합니다.<br /><br /> 설정되면 사용자가 전달하는 FileTracker.dll의 비트가 사용하려는 ResGen.exe의 비트와 일치하는지 확인해야 합니다. 설정되지 않으면 작업이 현재 .NET Framework 버전에 따라 적절한 위치를 결정합니다.|  
+|`TrackerLogDirectory`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> 이 작업 실행 시 발생하는 추적 로그를 추가할 중간 디렉터리를 지정합니다.|  
+|`TrackerSdkPath`|Optional <!-- TODO: review code entity reference <xref:assetId:///String?qualifyHint=False&amp;autoUpgrade=True>  --> 매개 변수입니다.<br /><br /> Tracker.exe를 포함하는 적절한 Windows SDK의 경로를 지정합니다.<br /><br /> 설정되면 사용자가 전달하는 Tracker.exe의 비트가 사용하려는 ResGen.exe의 비트와 일치하는지 확인해야 합니다. 설정되지 않으면 작업이 현재 Windows SDK에 따라 적절한 위치를 결정합니다.|  
+|`TrackFileAccess`|선택적 [부울](<!-- TODO: review code entity reference <xref:assetId:///Boolean?qualifyHint=False&amp;autoUpgrade=True>  -->) 매개 변수입니다.<br /><br /> true이면 입력 파일의 디렉터리가 상대 파일 경로를 확인하는 데 사용됩니다.|  
 |`UseSourcePath`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`이면 입력 파일의 디렉터리가 상대 파일 경로를 확인하는 데 사용되도록 지정합니다.|  
   
 ## <a name="remarks"></a>설명  

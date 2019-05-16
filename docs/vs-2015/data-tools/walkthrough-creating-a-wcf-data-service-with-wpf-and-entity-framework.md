@@ -14,12 +14,12 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 56e39a8ed17cfa99bd8141e2176d42dd7d3d6274
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 12d7e9c25cdf4e0431a7e4b5e3639dc59b76790c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63424848"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703170"
 ---
 # <a name="walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework"></a>연습: WPF 및 Entity Framework를 사용하여 WCF 데이터 서비스 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "63424848"
   
 - Northwind 샘플 데이터베이스  
   
-     이 데이터베이스가 개발 컴퓨터에 없는 경우 [Microsoft 다운로드 센터](http://go.microsoft.com/fwlink/?LinkID=98088)에서 다운로드할 수 있습니다. 자세한 내용은 [샘플 데이터베이스 다운로드](http://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5)합니다.  
+     이 데이터베이스가 개발 컴퓨터에 없는 경우 [Microsoft 다운로드 센터](http://go.microsoft.com/fwlink/?LinkID=98088)에서 다운로드할 수 있습니다. 자세한 내용은 [샘플 데이터베이스 다운로드](https://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5)합니다.  
   
 ## <a name="creating-the-service"></a>서비스 만들기  
  [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 만들려면 웹 프로젝트를 추가하고 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)]을 만든 다음 이 모델에서 서비스를 만듭니다.  

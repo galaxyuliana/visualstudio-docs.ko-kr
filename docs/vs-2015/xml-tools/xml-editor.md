@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5dd1834593be7638a56eb31c70677ea9be146b8b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: cadd0bded176a44d3eb977382778dd20b68a95a2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112177"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703163"
 ---
 # <a name="xml-editor"></a>XML 편집기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,10 +74,10 @@ XML 편집기는 [!INCLUDE[msCoName](../includes/msconame-md.md)] Visual Studio 
  XML 편집기 사용자 인터페이스 구성 요소에 대해 설명합니다.  
   
 ## <a name="related-sections"></a>관련 단원  
- [텍스트, 코드 및 태그 편집](http://msdn.microsoft.com/0d9c00d7-5df4-48a3-b185-2a265f055439)  
+ [텍스트, 코드 및 태그 편집](https://msdn.microsoft.com/0d9c00d7-5df4-48a3-b185-2a265f055439)  
  텍스트 편집기에 대한 정보를 제공합니다.  
   
- [XML 표준 참조](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
+ [XML 표준 참조](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
  XML, DTD(문서 종류 정의), XSD(XML 스키마 정의 언어), XSLT 등의 XML 기술에 대한 정보를 제공합니다.  
   
 ## <a name="see-also"></a>참고 항목  

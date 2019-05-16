@@ -9,12 +9,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d42c9698c6d3a247601909909c49fa92d2d29978
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1398d7fb62943c04ca026175a3f46b282bf6da69
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62855971"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696326"
 ---
 # <a name="how-to-invoke-a-windows-communication-foundation-contract-operation-legacy"></a>방법: Windows Communication Foundation 계약 작업 호출(레거시)
 이 항목에서는 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 또는 [!INCLUDE[wfd1](../includes/wfd1-md.md)]를 대상으로 하는 레거시 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 사용하여 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] 계약 작업을 호출하는 방법에 대해 설명합니다.  
@@ -45,7 +45,7 @@ ms.locfileid: "62855971"
   
 3. 채널 토큰 노드를 확장하고 사용할 클라이언트 엔드포인트의 이름을 <xref:System.Workflow.Activities.ChannelToken.EndpointName%2A> 필드에서 지정합니다. 구성 파일에서 동일한 이름을 사용하는 엔드포인트 구성이 채널을 구성하는 데 사용됩니다.  
   
-4. 구성 파일에 엔드포인트 구성이 아직 없으면 만듭니다. 클라이언트를 구성 하는 방법에 대 한 자세한 내용은 참조 하세요. [WCF Client Overview](http://msdn.microsoft.com/library/f60d9bc5-8ade-4471-8ecf-5a07a936c82d)합니다.  
+4. 구성 파일에 엔드포인트 구성이 아직 없으면 만듭니다. 클라이언트를 구성 하는 방법에 대 한 자세한 내용은 참조 하세요. [WCF Client Overview](https://msdn.microsoft.com/library/f60d9bc5-8ade-4471-8ecf-5a07a936c82d)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [작업 선택 대화 상자 (레거시)](../workflow-designer/choose-operation-dialog-box-legacy.md)   

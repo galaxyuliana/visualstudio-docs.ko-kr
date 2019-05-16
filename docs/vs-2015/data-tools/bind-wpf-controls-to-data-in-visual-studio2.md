@@ -22,12 +22,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5c1733d6d4e60aad10896dbd2fcad16406830b83
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e37d17cbe67bd1e4e64e306831f38996a7f93c80
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437049"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697964"
 ---
 # <a name="bind-wpf-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "63437049"
 
 #### <a name="to-create-a-control-that-is-bound-to-a-single-field-of-data"></a>단일 데이터 필드에 바인딩되는 컨트롤을 만들려면
 
-1. 에 **데이터 원본** 창에서 테이블 또는 개체를 나타내는 항목을 확장 합니다. 바인딩할 열이나 속성을 나타내는 자식 항목을 찾습니다. 시각적 예제를 참조 하세요 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)합니다.
+1. 에 **데이터 원본** 창에서 테이블 또는 개체를 나타내는 항목을 확장 합니다. 바인딩할 열이나 속성을 나타내는 자식 항목을 찾습니다. 시각적 예제를 참조 하세요 [데이터 소스 창](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)합니다.
 
 2. 원하는 경우 만들 컨트롤을 선택합니다. 각 항목에는 **데이터 원본** 창 디자이너로 항목을 끌 때 만들어지는 기본 컨트롤이 있습니다. 기본 컨트롤은 항목의 기본 데이터 형식에 따라 달라집니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "63437049"
 
 #### <a name="to-create-a-control-that-is-bound-to-multiple-fields-of-data"></a>여러 데이터 필드에 바인딩되는 컨트롤을 만들려면
 
-1. 에 **데이터 원본** 창에서 테이블 또는 개체를 나타내는 항목을 선택 합니다. 시각적 예제를 참조 하세요 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)합니다.
+1. 에 **데이터 원본** 창에서 테이블 또는 개체를 나타내는 항목을 선택 합니다. 시각적 예제를 참조 하세요 [데이터 소스 창](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)합니다.
 
 2. 원하는 경우 만들 컨트롤을 선택합니다. 기본적으로 각 항목에 **데이터 원본** create로 설정 된 데이터 테이블 또는 개체를 나타내는 창을 <xref:System.Windows.Controls.DataGrid> (프로젝트가.NET Framework 4를 대상으로) 하는 경우 또는 <xref:System.Windows.Controls.ListView> (.NET Framework의 이전 버전)에 대 한 합니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "63437049"
 
 #### <a name="to-create-a-set-of-controls-that-are-bound-to-multiple-fields-of-data"></a>여러 데이터 필드에 바인딩되는 컨트롤 집합을 만들려면
 
-1. 에 **데이터 원본** 창에서 테이블 또는 개체를 나타내는 항목을 선택 합니다. 시각적 예제를 참조 하세요 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)합니다.
+1. 에 **데이터 원본** 창에서 테이블 또는 개체를 나타내는 항목을 선택 합니다. 시각적 예제를 참조 하세요 [데이터 소스 창](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)합니다.
 
 2. 선택한 항목 옆의 드롭다운 화살표를 클릭 **세부 정보**합니다.
 

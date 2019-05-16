@@ -19,12 +19,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 677af3ccbad28ed4eca3db2f98b82ef432b48676
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: e1f2ee066e448c0c039c4288c39aa13a646bc46a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972392"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697450"
 ---
 # <a name="measuring-complexity-and-maintainability-of-managed-code"></a>관리 코드의 복잡성 및 유지 관리 용이성 측정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,12 +42,12 @@ ms.locfileid: "58972392"
   
  [코드 메트릭 데이터 작업](../code-quality/working-with-code-metrics-data.md)  
   
- [방법: 코드 메트릭 결과 클립보드에 복사](http://msdn.microsoft.com/bce8fa29-e39c-4855-aab9-8346257657c5)  
+ [방법: 코드 메트릭 결과 클립보드에 복사](https://msdn.microsoft.com/bce8fa29-e39c-4855-aab9-8346257657c5)  
   
- [방법: 코드 메트릭 결과 Excel로 내보내기](http://msdn.microsoft.com/affc08f3-24e5-446d-9076-bf517663e582)  
+ [방법: 코드 메트릭 결과 Excel로 내보내기](https://msdn.microsoft.com/affc08f3-24e5-446d-9076-bf517663e582)  
   
- [방법: 결과에 따라 작업 항목 만들기](http://msdn.microsoft.com/9016393b-b5a3-4d6b-ab6d-f80bafafc0da)  
+ [방법: 결과에 따라 작업 항목 만들기](https://msdn.microsoft.com/9016393b-b5a3-4d6b-ab6d-f80bafafc0da)  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 메트릭 문제 해결](../code-quality/troubleshooting-code-metrics-issues.md)   
- [일반적인 개발 작업을 수행합니다.](http://msdn.microsoft.com/4cd9702a-1e21-4f2d-8e86-e1be4bc74f0b)
+ [일반적인 개발 작업을 수행합니다.](https://msdn.microsoft.com/4cd9702a-1e21-4f2d-8e86-e1be4bc74f0b)
