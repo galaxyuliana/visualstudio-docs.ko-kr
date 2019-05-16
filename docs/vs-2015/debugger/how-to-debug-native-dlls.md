@@ -23,18 +23,18 @@ caps.latest.revision: 20
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ea2f40119425cc558b5486a9085b92b05ba81c97
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 16a533b27e619526edab71374d922e68baf0a4b0
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63426533"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65702674"
 ---
 # <a name="how-to-debug-native-dlls"></a>방법: 네이티브 Dll 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 > [!NOTE]
-> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 도구 메뉴에서 설정 가져오기 및 내보내기를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  DLL 디버깅은 다음 위치에서 시작할 수 있습니다.  
   
@@ -44,7 +44,7 @@ ms.locfileid: "63426533"
   
 - DLL 자체를 만드는 데 사용되는 프로젝트  
   
-  실행 파일을 만드는 데 사용되는 프로젝트가 있으면 그 프로젝트부터 디버깅을 시작합니다. 그런 다음 DLL의 소스 파일을 열고 그 파일에 중단점을 설정할 수 있습니다. 이는 이 소스 파일이 실행 파일을 만드는 데 사용되는 프로젝트에 포함되지 않은 경우에도 적용됩니다. 자세한 내용은 [중단점](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)을 참조하세요.  
+  실행 파일을 만드는 데 사용되는 프로젝트가 있으면 그 프로젝트부터 디버깅을 시작합니다. 그런 다음 DLL의 소스 파일을 열고 그 파일에 중단점을 설정할 수 있습니다. 이는 이 소스 파일이 실행 파일을 만드는 데 사용되는 프로젝트에 포함되지 않은 경우에도 적용됩니다. 자세한 내용은 [중단점](https://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)을 참조하세요.  
   
   DLL을 만드는 데 사용되는 프로젝트에서 디버깅을 시작하는 경우 DLL을 디버깅하는 데 사용할 실행 파일을 지정해야 합니다.  
   

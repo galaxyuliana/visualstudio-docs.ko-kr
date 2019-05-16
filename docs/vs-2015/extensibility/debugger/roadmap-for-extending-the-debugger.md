@@ -11,12 +11,12 @@ ms.assetid: 1f4096a8-f7aa-4dfa-84e1-6d59263e70bb
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 59e12a90d241bf07a53cc98c91eef4cfc6d7d063
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 89a07bc5a5c4c8b7a6054b53610325c654355bc8
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050987"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695953"
 ---
 # <a name="roadmap-for-extending-the-debugger"></a>디버거 확장 로드맵
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "60050987"
   
      [사용자 지정 디버그 엔진 만들기](../../extensibility/debugger/creating-a-custom-debug-engine.md)  
   
-     [자습서: ATL COM을 사용 하 여 디버그 엔진 구축](http://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24)  
+     [자습서: ATL COM을 사용 하 여 디버그 엔진 구축](https://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24)  
   
      [포트 공급자 구현](../../extensibility/debugger/implementing-a-port-supplier.md)  
   

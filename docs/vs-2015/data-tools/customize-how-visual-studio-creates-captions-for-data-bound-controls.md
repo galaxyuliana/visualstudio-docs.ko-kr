@@ -20,17 +20,17 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 960100db5a257ab30431c1edee2bce9ded21d46d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 549fa4842a4e57043ddac90683d05383b7c3d44d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431177"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65693930"
 ---
 # <a name="customize-how-visual-studio-creates-captions-for-data-bound-controls"></a>Visual Studio에서 데이터 바인딩된 컨트롤에 대한 캡션을 만드는 방식 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-항목을 끌면 합니다 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) Windows Forms 디자이너를 끌어다 특별히 고려해 야 play: 두 개의 좀 더 읽기 쉬운 문자열로 캡션 레이블의 열 이름을 변경 하거나 더 많은 단어 함께 연결 하 여 찾을 수 있습니다. 이러한 레이블을 생성 하는, 설정 하 여 방식을 사용자 지정할 수 있습니다 합니다 **SmartCaptionExpression**를 **SmartCaptionReplacement**, 및 **SmartCaptionSuffix** 값 합니다 **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Data 디자이너** 레지스트리 키입니다.
+항목을 끌면 합니다 [데이터 소스 창](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) Windows Forms 디자이너를 끌어다 특별히 고려해 야 play: 두 개의 좀 더 읽기 쉬운 문자열로 캡션 레이블의 열 이름을 변경 하거나 더 많은 단어 함께 연결 하 여 찾을 수 있습니다. 이러한 레이블을 생성 하는, 설정 하 여 방식을 사용자 지정할 수 있습니다 합니다 **SmartCaptionExpression**를 **SmartCaptionReplacement**, 및 **SmartCaptionSuffix** 값 합니다 **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Data 디자이너** 레지스트리 키입니다.
 
 > [!NOTE]
 > 이 레지스트리 키는 만들 때까지 존재 하지 않습니다.

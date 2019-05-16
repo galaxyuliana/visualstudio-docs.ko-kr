@@ -14,17 +14,17 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 078230c2b80d364b68fb127f18fc21a0b931cbce
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 6c788e422ea8613b77d7d0c0460d7c026916baa3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60106672"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697148"
 ---
 # <a name="add-code-to-datasets-in-n-tier-applications"></a>n 계층 애플리케이션에서 데이터 집합에 코드 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-데이터 집합에 대 한 partial 클래스 파일을 만들고 코드를 추가 하 여 데이터 집합의 기능을 확장할 수 있습니다 (코드를 추가 하는 대신 합니다 *DatasetName*합니다. Dataset.Designer 파일)입니다. Partial 클래스를 여러 실제 파일에서 나눌 특정 클래스에 대 한 코드를 사용 합니다. 자세한 내용은 [부분](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) 하거나 [Partial 클래스 및 메서드](http://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1)합니다.
+데이터 집합에 대 한 partial 클래스 파일을 만들고 코드를 추가 하 여 데이터 집합의 기능을 확장할 수 있습니다 (코드를 추가 하는 대신 합니다 *DatasetName*합니다. Dataset.Designer 파일)입니다. Partial 클래스를 여러 실제 파일에서 나눌 특정 클래스에 대 한 코드를 사용 합니다. 자세한 내용은 [부분](https://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448) 하거나 [Partial 클래스 및 메서드](https://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1)합니다.
 
 데이터 집합을 정의 하는 코드는 데이터 집합 정의에 변경 내용이 될 때마다 생성 됩니다. 이 코드는 데이터 집합의 구성을 수정 하는 모든 마법사를 실행 하는 동안 변경한 경우에 생성 됩니다. 코드를 데이터 집합의 재생성 하는 동안 삭제를 방지 하려면 데이터 집합의 partial 클래스 파일에 코드를 추가 합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "60106672"
 
 - [N 계층 데이터 응용 프로그램 개요](../data-tools/n-tier-data-applications-overview.md)
 - [n 계층 응용 프로그램에서 TableAdapter에 코드 추가](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)
-- [TableAdapters](http://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364)
-- [TableAdapterManager 개요](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)
-- [계층적 업데이트 개요](http://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)
+- [TableAdapters](https://msdn.microsoft.com/library/09416de9-134c-4dc7-8262-6c8d81e3f364)
+- [TableAdapterManager 개요](https://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)
+- [계층적 업데이트 개요](https://msdn.microsoft.com/library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)
 - [Visual Studio의 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)

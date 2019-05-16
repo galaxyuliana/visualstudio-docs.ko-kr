@@ -12,12 +12,12 @@ caps.latest.revision: 76
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 438dd372cc2d70ecb8d1d41602751b6ce0cdf821
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 325a0c594c142ab62aba47e5c721da5ade6f179f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63446757"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704059"
 ---
 # <a name="walkthrough-creating-a-custom-directive-processor"></a>연습: 사용자 지정 지시문 프로세서 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -678,7 +678,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\*.0\TextTemplatin
 ## <a name="testing-the-directive-processor"></a>지시문 프로세서 테스트  
  지시문 프로세서를 테스트하려면 지시문 프로세서를 호출하는 텍스트 템플릿을 작성해야 합니다.  
 
- 이 예제에서 텍스트 템플릿은 지시문을 호출하고 클래스 파일에 대한 문서가 포함된 XML 파일의 이름을 전달합니다. 자세한 내용은 [XML 문서 주석](http://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199)합니다.  
+ 이 예제에서 텍스트 템플릿은 지시문을 호출하고 클래스 파일에 대한 문서가 포함된 XML 파일의 이름을 전달합니다. 자세한 내용은 [XML 문서 주석](https://msdn.microsoft.com/library/803b7f7b-7428-4725-b5db-9a6cff273199)합니다.  
 
  그런 다음 텍스트 템플릿은 지시문이 만드는 <xref:System.Xml.XmlDocument> 속성을 사용하여 XML을 탐색하고 문서 주석을 인쇄합니다.  
 

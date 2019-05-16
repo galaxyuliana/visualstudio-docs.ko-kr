@@ -18,19 +18,19 @@ caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 45588d06cddd919d8ff0f96329cce5f6054edd00
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d5c4223699c720750514aaf2b9abc18b34ae4269
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431427"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690590"
 ---
 # <a name="javascript-console-commands"></a>JavaScript Console commands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content.png "windows_and_phone_content")  
   
- 명령을 사용하여 Visual Studio의 JavaScript 콘솔 창에서 메시지를 보내고 다른 작업을 수행할 수 있습니다. 해당 창을 사용 하는 방법을 보여 주는 예제를 보려면 [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md)합니다. 이 항목의 내용은 Windows 스토어 앱, Windows Phone 스토어 앱 및 Visual Studio Tools for Apache Cordova를 사용하여 만든 앱에 적용됩니다. Cordova 앱에서 지원되는 콘솔 명령에 대한 자세한 내용은 [Debug Your App](http://msdn.microsoft.com/library/c2a4a1d4-a4e8-47ec-811f-ad207c54f4d1)를 참조하세요. Internet Explorer F12 도구에서 콘솔을 사용하는 방법에 대한 자세한 내용은 [이 항목](http://msdn.microsoft.com/library/ie/dn255006.aspx)을 참조하세요.  
+ 명령을 사용하여 Visual Studio의 JavaScript 콘솔 창에서 메시지를 보내고 다른 작업을 수행할 수 있습니다. 해당 창을 사용 하는 방법을 보여 주는 예제를 보려면 [빠른 시작: JavaScript 디버그](../debugger/quickstart-debug-javascript-using-the-console.md)합니다. 이 항목의 내용은 Windows 스토어 앱, Windows Phone 스토어 앱 및 Visual Studio Tools for Apache Cordova를 사용하여 만든 앱에 적용됩니다. Cordova 앱에서 지원되는 콘솔 명령에 대한 자세한 내용은 [Debug Your App](https://msdn.microsoft.com/library/c2a4a1d4-a4e8-47ec-811f-ad207c54f4d1)를 참조하세요. Internet Explorer F12 도구에서 콘솔을 사용하는 방법에 대한 자세한 내용은 [이 항목](https://msdn.microsoft.com/library/ie/dn255006.aspx)을 참조하세요.  
   
  JavaScript 콘솔 창이 닫혀 있는 경우 열 수 있습니다 선택 하 여 Visual Studio에서 디버그 하는 동안 **디버깅할** > **Windows** > **JavaScript 콘솔**합니다.  
   

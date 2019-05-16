@@ -1,5 +1,5 @@
 ---
-title: 편집 하며 계속 하기 대화 상자 (c + +) | Microsoft Docs
+title: 편집 하며 계속 하기 대화 상자 (C++) | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -20,12 +20,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: d7ea0ea688ae9702c7107b33ff87437ebd3656e5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: efd6d9a6628c5d5052d2195e08074e7688a71f92
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986304"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704155"
 ---
 # <a name="edit-and-continue-dialog-box-c"></a>편집하며 계속하기 대화 상자(C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,4 +35,4 @@ ms.locfileid: "58986304"
  디버그하는 동안 코드를 편집하여 오류를 수정하거나, 디버깅을 중지하고 코드를 수정하거나, 오류를 무시하고 디버깅을 계속할 수 있습니다. 수정하지 않고 계속하면 코드 변경 내용이 즉시 적용되지 않습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [옵션 대화 상자, 디버깅, 편집하며 계속하기](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)
+ [옵션 대화 상자, 디버깅, 편집하며 계속하기](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)

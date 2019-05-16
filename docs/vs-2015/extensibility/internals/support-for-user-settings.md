@@ -12,12 +12,12 @@ ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
 caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: d83c90d7e94471374f0c882f3868d16c963e4490
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 80734d9859df2e06bc51d40e1fffa40c7d97c7a7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63440090"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65691815"
 ---
 # <a name="support-for-user-settings"></a>사용자 설정 지원
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ VSPackage를 사용자가 유지 되는 상태 변수 그룹이 있는 하나 �
   
  사용자 지정 설정 지점 및 GUID 라고 하는 레지스트리 항목을 VSPackage의 설정 범주를 정의 합니다. VSPackage는 여러 설정 범주를 지원할 수 있습니다, 그리고 각각 사용자 지정 설정 지점으로 정의 합니다.  
   
-- Interop 어셈블리를 기반으로 하는 설정의 구현 (사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> 인터페이스) 레지스트리를 편집 하거나 등록자 스크립트 (.rgs 파일)를 사용 하 여 사용자 지정 설정 지점 만들어야 합니다. 자세한 내용은 [Creating Registrar Scripts](http://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35)을 참조하십시오.  
+- Interop 어셈블리를 기반으로 하는 설정의 구현 (사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> 인터페이스) 레지스트리를 편집 하거나 등록자 스크립트 (.rgs 파일)를 사용 하 여 사용자 지정 설정 지점 만들어야 합니다. 자세한 내용은 [Creating Registrar Scripts](https://msdn.microsoft.com/library/cbd5024b-8061-4a71-be65-7fee90374a35)을 참조하십시오.  
   
 - 관리 패키지 프레임 워크 (MPF)를 사용 하는 코드를 연결 하 여 사용자 지정 설정 지점을 만들어야는 <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> 각 사용자 지정 설정 지점에 대 한 vspackage입니다.  
   

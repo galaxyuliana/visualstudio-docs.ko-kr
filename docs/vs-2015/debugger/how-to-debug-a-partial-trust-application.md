@@ -18,19 +18,19 @@ caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 61b5a5d04e9c59d9c4034cb97c8ec0fd79264d48
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 030fef750cc1e0f0932de32fca1a0ffef56bc8f3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437314"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704479"
 ---
 # <a name="how-to-debug-a-partial-trust-application"></a>방법: 부분 신뢰 응용 프로그램 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows 및 콘솔 응용 프로그램에 적용됩니다.  
   
- [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md) 쉽게 활용 하는 부분 신뢰 응용 프로그램을 배포 [코드 액세스 보안](http://msdn.microsoft.com/library/859af632-c80d-4736-8d6f-1e01b09ce127) 컴퓨터에서 리소스에 대 한 액세스를 제한 합니다.  
+ [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md) 쉽게 활용 하는 부분 신뢰 응용 프로그램을 배포 [코드 액세스 보안](https://msdn.microsoft.com/library/859af632-c80d-4736-8d6f-1e01b09ce127) 컴퓨터에서 리소스에 대 한 액세스를 제한 합니다.  
   
  부분 신뢰 응용 프로그램은 어떠한 경로를 통해 설치했는지에 따라 보안 권한 및 동작이 달라지므로 디버깅하기가 어려울 수 있습니다. 부분 신뢰 응용 프로그램을 인터넷을 통해 설치한 경우에는 응용 프로그램에 권한이 거의 없습니다. 로컬 인트라넷에서 설치한 경우에는 좀 더 많은 권한이 부여되고, 로컬 컴퓨터에서 설치하면 모든 권한이 부여됩니다. 사용자 지정 권한으로 사용자 지정 영역을 설정할 수도 있습니다. 부분 신뢰 응용 프로그램은 이러한 임의의 조건 아래에서 디버깅해야 할 수 있습니다. Visual Studio를 사용하면 이와 같은 복잡한 디버깅 작업도 쉽게 수행할 수 있습니다.  
   

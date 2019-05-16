@@ -13,12 +13,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: afc89dc2b70191524830926d108a5de81fbbb647
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 9c1fabdb202d51b85eb2983360bdfd02757f7649
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971479"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65699355"
 ---
 # <a name="cvcfllang"></a>CV_CFL_LANG
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ typedef enum CV_CFL_LANG { 
  응용 프로그램 언어는 C입니다.  
   
  CV_CFL_CXX  
- 응용 프로그램 언어는 c + +입니다.  
+ 응용 프로그램 언어가 C++입니다.  
   
  CV_CFL_FORTRAN  
  응용 프로그램 언어가 FORTRAN 합니다.  
@@ -96,7 +96,7 @@ typedef enum CV_CFL_LANG { 
  응용 프로그램 언어는 Jscript입니다.  
   
  CV_CFL_MSIL  
- 응용 프로그램 언어가 알 수 없는 언어 MSIL (Microsoft Intermediate)를 사용 하 여 결과 수를 [/LTCG (링크 타임 코드 생성)](http://msdn.microsoft.com/library/788c6f52-fdb8-40c2-90af-4026ea2cf2e2) 전환 합니다.  
+ 응용 프로그램 언어가 알 수 없는 언어 MSIL (Microsoft Intermediate)를 사용 하 여 결과 수를 [/LTCG (링크 타임 코드 생성)](https://msdn.microsoft.com/library/788c6f52-fdb8-40c2-90af-4026ea2cf2e2) 전환 합니다.  
   
  CV_CFL_HLSL  
  응용 프로그램 언어는 High Level Shader Language입니다.  

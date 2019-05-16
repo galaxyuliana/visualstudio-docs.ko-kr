@@ -14,17 +14,17 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0a4bc73046ca32645ffcdc8c3f2978c9245aaec6
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: c9ac805ebea19604343d561bf553448fff2ca575
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668069"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701745"
 ---
 # <a name="quick-watch-command"></a>간략한 조사식 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-[간략한 조사식](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867) 대화 상자의 [식] 필드에 선택한 텍스트 또는 지정한 텍스트를 표시합니다. 이 대화 상자를 사용하여 디버거에서 인식되는 변수 또는 식의 현재 값이나 레지스터의 콘텐츠를 계산할 수 있습니다. 또한 비const 변수 값 또는 레지스터 콘텐츠를 변경할 수 있습니다.  
+[간략한 조사식](https://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867) 대화 상자의 [식] 필드에 선택한 텍스트 또는 지정한 텍스트를 표시합니다. 이 대화 상자를 사용하여 디버거에서 인식되는 변수 또는 식의 현재 값이나 레지스터의 콘텐츠를 계산할 수 있습니다. 또한 비const 변수 값 또는 레지스터 콘텐츠를 변경할 수 있습니다.  
   
 ## <a name="syntax"></a>구문  
   
@@ -46,7 +46,7 @@ Debug.QuickWatchq [text]
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [방법: 간략한 조사식 대화 상자 사용](http://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
+ [방법: 간략한 조사식 대화 상자 사용](https://msdn.microsoft.com/library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [Visual Studio 명령](../../ide/reference/visual-studio-commands.md)   
  [명령 창](../../ide/reference/command-window.md)   
  [찾기/명령 상자](../../ide/find-command-box.md)   

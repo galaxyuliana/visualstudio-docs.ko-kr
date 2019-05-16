@@ -10,12 +10,12 @@ ms.assetid: 289ed4f2-02ac-4899-855e-42dfe57ee05f
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: e43893af3275258c49e3e23348afb106416636a6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: fd4be229338d1a09c22b4d81384dc90f0544fa39
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113848"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65700750"
 ---
 # <a name="properties-window-overview"></a>속성 창 개요
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "60113848"
 |인터페이스 이름|설명|  
 |--------------------|-----------------|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties>|범주 목록을 제공 합니다 **속성** 창 범주에 각 속성에 매핑합니다.|  
-|[IDispatch 인터페이스](http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)|개체의 메서드 및 속성 프로그래밍 도구 및 자동화를 지 원하는 다른 응용 프로그램을 노출 합니다.|  
+|[IDispatch 인터페이스](https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)|개체의 메서드 및 속성 프로그래밍 도구 및 자동화를 지 원하는 다른 응용 프로그램을 노출 합니다.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IProvidePropertyBuilder>|호출 하는 줄임표 (...) 단추를 제공 *작성기* 개체 자체에 의해 구현 하는 모달 대화 상자 창을 열입니다. 값을 텍스트 필드에 사용자가 쉽게 형식화 되지 않은 경우 사용 합니다. 예를 들어 열려면 RGB 값을 결정 하는 색 선택은이 서비스를 사용할 수 있습니다.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>|에 표시 된 정보를 업데이트 하는 데 사용 되는 개체에 대 한 액세스를 제공 합니다 **속성** 창입니다. <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> 표시할 관련된 속성을 사용 하 여 선택할 수 있는 개체를 포함 하는 각 창에 대 한 Vspackage에 의해 구현 됩니다.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.ITypeInfo>|인터페이스 및 구조체의 필드의 메서드와 같은 개체의 형식에 대 한 정보를 제공합니다.|  

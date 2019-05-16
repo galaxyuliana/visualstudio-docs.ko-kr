@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 90aa5e77c6541b36619615fc253c55f5d78a6b45
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 43feac58c024c0eda8b8930fba05c0c92f7ac6bd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445696"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704313"
 ---
 # <a name="hosting-process-vshostexe"></a>호스팅 프로세스(vshost.exe)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "63445696"
 > 호스팅 프로세스 파일(.vshost.exe)은 Visual Studio를 통해 사용할 수 있고 애플리케이션에서 직접 실행되거나 배포되면 안 됩니다.  
   
 ## <a name="improved-debugging-performance"></a>향상된 디버깅 성능  
- 호스팅 프로세스는 애플리케이션 도메인을 만들고 디버거를 애플리케이션과 연결합니다. 이러한 작업을 수행하면 디버깅 시작 시간과 애플리케이션 실행 시작 시간 사이에 눈에 띄는 지연이 발생할 수 있습니다. 호스팅 프로세스를 통해 애플리케이션 도메인을 만들고 백그라운드에서 디버거를 연결하고 애플리케이션 실행 사이에 애플리케이션 도메인 및 디버거 상태를 저장하는 방식으로 성능을 향상할 수 있습니다. 애플리케이션 도메인에 대한 자세한 내용은 [애플리케이션 도메인](http://msdn.microsoft.com/library/113a8bbf-6875-4a72-a49d-ca2d92e19cc8)을 참조하세요.  
+ 호스팅 프로세스는 애플리케이션 도메인을 만들고 디버거를 애플리케이션과 연결합니다. 이러한 작업을 수행하면 디버깅 시작 시간과 애플리케이션 실행 시작 시간 사이에 눈에 띄는 지연이 발생할 수 있습니다. 호스팅 프로세스를 통해 애플리케이션 도메인을 만들고 백그라운드에서 디버거를 연결하고 애플리케이션 실행 사이에 애플리케이션 도메인 및 디버거 상태를 저장하는 방식으로 성능을 향상할 수 있습니다. 애플리케이션 도메인에 대한 자세한 내용은 [애플리케이션 도메인](https://msdn.microsoft.com/library/113a8bbf-6875-4a72-a49d-ca2d92e19cc8)을 참조하세요.  
   
 ## <a name="partial-trust-debugging"></a>부분 신뢰 디버깅  
  **프로젝트 디자이너**의 [보안 페이지](../ide/reference/security-page-project-designer.md)에서 응용 프로그램을 부분 신뢰 응용 프로그램으로 지정할 수 있습니다. 부분 신뢰 애플리케이션을 디버깅하려면 애플리케이션에 대한 특별한 초기화가 필요합니다. 이 초기화는 호스팅 프로세스에서 처리됩니다.  
@@ -40,4 +40,4 @@ ms.locfileid: "63445696"
  [디버깅 및 호스팅 프로세스](../debugger/debugging-and-the-hosting-process.md)   
  [방법: 호스팅 프로세스 비활성화](../ide/how-to-disable-the-hosting-process.md)   
  [직접 실행 창](../ide/reference/immediate-window.md)   
- [응용 프로그램 도메인](http://msdn.microsoft.com/library/113a8bbf-6875-4a72-a49d-ca2d92e19cc8)
+ [응용 프로그램 도메인](https://msdn.microsoft.com/library/113a8bbf-6875-4a72-a49d-ca2d92e19cc8)

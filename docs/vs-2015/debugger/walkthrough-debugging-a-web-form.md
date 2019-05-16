@@ -23,12 +23,12 @@ caps.latest.revision: 34
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 56a11c24ad8a38cc837659ac063987573c0ba492
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e46169728c10d696f8dd99eb6459b9fcf081cb45
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444314"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704929"
 ---
 # <a name="walkthrough-debugging-a-web-form"></a>연습: Web Form 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "63444314"
 > [!NOTE]
 > 이 연습을 수행하려면 서버 컴퓨터에 대한 관리자 권한이 있어야 합니다. 기본적으로 aspnet_wp.exe나 w3wp.exe 같은 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 프로세스는 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 프로세스로 실행됩니다. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]을 디버깅하려면 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]이 실행되는 컴퓨터에서 관리자 권한이 있어야 합니다. 자세한 내용은 [System Requirements](../debugger/aspnet-debugging-system-requirements.md)항목을 참조하세요.  
   
- 표시되는 대화 상자와 메뉴 명령은 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+ 표시되는 대화 상자와 메뉴 명령은 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ### <a name="to-create-the-web-form"></a>Web Form을 만들려면  
   
@@ -100,7 +100,7 @@ ms.locfileid: "63444314"
     textBox1.Text = "Button was clicked!";  
     ```  
   
-     빨간 점이 나타나며 해당 줄의 텍스트가 빨간색으로 강조 표시됩니다. 빨간 점은 중단점을 나타냅니다. 디버거에서 응용 프로그램을 실행하면 코드가 적중되는 위치에서 디버거가 실행을 중단합니다. 그런 다음 응용 프로그램의 상태를 보고 디버깅할 수 있습니다. 자세한 내용은 [중단점](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)을 참조하세요.  
+     빨간 점이 나타나며 해당 줄의 텍스트가 빨간색으로 강조 표시됩니다. 빨간 점은 중단점을 나타냅니다. 디버거에서 응용 프로그램을 실행하면 코드가 적중되는 위치에서 디버거가 실행을 중단합니다. 그런 다음 응용 프로그램의 상태를 보고 디버깅할 수 있습니다. 자세한 내용은 [중단점](https://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)을 참조하세요.  
   
 2. **디버그** 메뉴에서 **디버깅 시작**을 클릭합니다.  
   

@@ -9,12 +9,12 @@ caps.latest.revision: 134
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b090833d766e36ba597bb32e8a6c793d674add88
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 100cd424b60ce09db8c62c049b38f4c301ebe26f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63383941"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704831"
 ---
 # <a name="find-code-changes-and-other-history-with-codelens"></a>CodeLens에서 코드 변경 내용 및 기타 기록 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +64,7 @@ ms.locfileid: "63383941"
   
 - Team Foundation Server 2013 이상, Visual Studio Team Services 또는 Git  
   
-- 코드 편집기에서 팀에 연락하려는 경우[Lync 2010 이상 또는 비즈니스용 Skype](http://technet.microsoft.com/lync)  
+- 코드 편집기에서 팀에 연락하려는 경우[Lync 2010 이상 또는 비즈니스용 Skype](https://technet.microsoft.com/lync)  
   
   TFVC(Team Foundation 버전 제어) 또는 Git로 저장된 Visual C# .NET 또는 Visual Basic .NET 코드의 경우 클래스 및 메서드 수준에서 CodeLens 세부 정보를 가져옵니다(*code-element-level* 지표). Git 리포지토리가 TfGit에서 호스트되는 경우 TFS 작업 항목에 대한 링크도 가져올 수 있습니다.  
   
@@ -83,7 +83,7 @@ ms.locfileid: "63383941"
   
  ![CodeLens: TFVC에서 코드에 대 한 기록 변경 하는 가져오기](../ide/media/codelenscodechanges.png "CodeLensCodeChanges")  
   
- 기본 기간은 지난 12 개월입니다. 코드가 Team Foundation Server에 저장되는 경우 [TFSConfig 명령](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62) 을 [CodeIndex 명령](../ide/codeindex-command.md) 및 **/indexHistoryPeriod** 플래그와 함께 실행하여 변경할 수 있습니다.  
+ 기본 기간은 지난 12 개월입니다. 코드가 Team Foundation Server에 저장되는 경우 [TFSConfig 명령](https://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62) 을 [CodeIndex 명령](../ide/codeindex-command.md) 및 **/indexHistoryPeriod** 플래그와 함께 실행하여 변경할 수 있습니다.  
   
  1년 이상 전의 변경 내용을 포함하여 모든 변경 내용에 대한 자세한 기록을 보려면 **모든 파일 변경 내용 표시**를 선택합니다.  
   
@@ -222,7 +222,7 @@ ms.locfileid: "63383941"
   
 - CodeLens가 설정되어 있는지 확인합니다. 그렇게 하려면 **도구**, **옵션**, **텍스트 편집기**, **모든 언어**, **CodeLens**로 이동합니다.  
   
-- 코드가 TFS에 저장되는 경우 [CodeIndex 명령](../ide/codeindex-command.md) 과 [TFS 구성 명령](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)을 함께 사용하여 코드 인덱싱이 설정되어 있는지 확인합니다.  
+- 코드가 TFS에 저장되는 경우 [CodeIndex 명령](../ide/codeindex-command.md) 과 [TFS 구성 명령](https://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)을 함께 사용하여 코드 인덱싱이 설정되어 있는지 확인합니다.  
   
 - TFS 관련 지표는 작업 항목이 코드와 링크되어 있는 경우 및 링크된 작업 항목을 열 권한이 있는 경우에만 나타납니다. [팀 멤버 권한이 있는지 확인합니다.](/azure/devops/organizations/security/view-permissions)  
   
@@ -283,4 +283,4 @@ ms.locfileid: "63383941"
  **A:** 합니다 **로컬 버전** 화살표는이 파일의 로컬 버전에서 최신 변경 집합을 가리킵니다. 서버에 최신 변경 집합이 있는 경우, 변경 집합을 정렬하는 순서에 따라 **로컬 버전** 화살표의 위 또는 아래에 나타납니다.  
   
 ### <a name="q-can-i-manage-how-codelens-processes-code-to-show-history-and-linked-items"></a>Q: CodeLens가 코드를 처리하여 기록 및 연결된 항목을 표시하는 방법을 관리할 수 있나요?  
- **A:** 예, 코드가 TFS에 사용 합니다 [CodeIndex 명령](../ide/codeindex-command.md) 사용 하 여 합니다 [TFS 구성 명령](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)입니다.
+ **A:** 예, 코드가 TFS에 사용 합니다 [CodeIndex 명령](../ide/codeindex-command.md) 사용 하 여 합니다 [TFS 구성 명령](https://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)입니다.

@@ -30,12 +30,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d443a38750904df26fdfffc65104bcde31c8d6fc
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 93d001af54a84bdb2cd2ec00f3e8fb80174c6436
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437603"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701205"
 ---
 # <a name="creating-and-configuring-type-members-class-designer"></a>형식 멤버 만들기 및 구성(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "63437603"
 |모듈(VB에만 해당)|메서드, 속성, 필드, 이벤트, 생성자, 상수|  
   
 > [!NOTE]
-> 속성의 get 및 set 접근자에 추가 논리가 필요하지 않은 경우 자동으로 구현된 속성(C#에만 해당)을 사용하여 속성 선언을 보다 간결하게 만듭니다. 전체 시그니처를 표시하려면 **클래스 다이어그램** 메뉴에서 **멤버 형식 변경**, **전체 시그니처 표시**를 선택합니다. 자동으로 구현된 속성에 대한 자세한 내용은 [자동으로 구현된 속성](http://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7)을 참조하세요.  
+> 속성의 get 및 set 접근자에 추가 논리가 필요하지 않은 경우 자동으로 구현된 속성(C#에만 해당)을 사용하여 속성 선언을 보다 간결하게 만듭니다. 전체 시그니처를 표시하려면 **클래스 다이어그램** 메뉴에서 **멤버 형식 변경**, **전체 시그니처 표시**를 선택합니다. 자동으로 구현된 속성에 대한 자세한 내용은 [자동으로 구현된 속성](https://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7)을 참조하세요.  
   
 ## <a name="common-tasks"></a>일반 작업  
   
@@ -131,7 +131,7 @@ ms.locfileid: "63437603"
      **참고:** 바로 가기 키를 사용하여 멤버를 만들 수도 있습니다. 자세한 내용은 [클래스 다이어그램 및 클래스 세부 내용 창의 키보드 및 마우스 바로 가기(클래스 디자이너)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window-class-designer.md)를 참조하세요.  
   
 ## <a name="ModifyTypeMembers"></a> 형식 멤버 수정  
- 클래스 디자이너를 사용하여 다이어그램에 표시된 형식의 멤버를 수정할 수 있습니다. 클래스 다이어그램에 표시된 형식의 멤버 중에서 읽기 전용이 아닌 멤버만 수정할 수 있습니다. [읽기 전용 정보 표시(클래스 디자이너)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요. 형식 멤버는 디자인 화면, 속성 창 및 클래스 세부 내용 창에서 바로 편집 기능을 사용하여 수정할 수 있습니다.  
+ 클래스 디자이너를 사용하여 다이어그램에 표시된 형식의 멤버를 수정할 수 있습니다. 클래스 다이어그램에 표시된 형식의 멤버 중에서 읽기 전용이 아닌 멤버만 수정할 수 있습니다. [읽기 전용 정보 표시(클래스 디자이너)](https://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요. 형식 멤버는 디자인 화면, 속성 창 및 클래스 세부 내용 창에서 바로 편집 기능을 사용하여 수정할 수 있습니다.  
   
  클래스 세부 내용 창에 표시된 멤버는 모두 클래스 다이어그램에 있는 형식의 멤버를 나타냅니다. 멤버의 종류로는 메서드, 속성, 필드 및 이벤트 등 4가지가 있습니다.  
   
@@ -263,7 +263,7 @@ ms.locfileid: "63437603"
   
  클래스 세부 내용 창의 모든 셀은 몇 가지 예외를 제외하고 편집이 가능합니다.  
   
-- 예를 들어 형식이 참조 어셈블리에 있는 경우에는 전체 형식이 읽기 전용이 됩니다. [읽기 전용 정보 표시(클래스 디자이너)](http://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요. 클래스 디자이너에서 모양을 선택하면 클래스 세부 내용 창에 해당 모양에 대한 세부 내용이 읽기 전용 상태로 표시됩니다.  
+- 예를 들어 형식이 참조 어셈블리에 있는 경우에는 전체 형식이 읽기 전용이 됩니다. [읽기 전용 정보 표시(클래스 디자이너)](https://msdn.microsoft.com/33e2d3a9-1668-4d10-ae56-fa09b3156e0a)를 참조하세요. 클래스 디자이너에서 모양을 선택하면 클래스 세부 내용 창에 해당 모양에 대한 세부 내용이 읽기 전용 상태로 표시됩니다.  
   
 - 인덱서의 경우 이름은 읽기 전용이고 나머지 형식, 한정자, 요약 등은 편집 가능합니다.  
   

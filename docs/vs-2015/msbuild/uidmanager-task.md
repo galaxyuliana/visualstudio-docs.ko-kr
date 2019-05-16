@@ -20,12 +20,12 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 497c8f2ff8defd0acdf943f4856f0195e50366ce
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 5fd8175911def7fb1b63dc63d967c404d649e9e4
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656832"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703691"
 ---
 # <a name="uidmanager-task"></a>UidManager 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,5 +62,5 @@ ms.locfileid: "59656832"
  [작업 참조](../msbuild/wpf-msbuild-task-reference.md)   
  [MSBuild 참조](../msbuild/msbuild-reference.md)   
  [작업 참조](../msbuild/msbuild-task-reference.md)   
- [WPF 응용 프로그램 빌드(WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
- [방법: 응용 프로그램 지역화](http://msdn.microsoft.com/library/5001227e-9326-48a4-9dcd-ba1b89ee6653)
+ [WPF 응용 프로그램 빌드(WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
+ [방법: 응용 프로그램 지역화](https://msdn.microsoft.com/library/5001227e-9326-48a4-9dcd-ba1b89ee6653)

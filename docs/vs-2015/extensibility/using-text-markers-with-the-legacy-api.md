@@ -10,12 +10,12 @@ ms.assetid: 937a0b19-1216-45d5-a7ad-4fe1d6f73097
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 03b68c0fbaf92ff2c768c36ccdbea1988c99a973
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3dff5e6ecf60d389730841e99b87db584465e020
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430109"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695471"
 ---
 # <a name="using-text-markers-with-the-legacy-api"></a>텍스트 마커를 사용 하 여 레거시 API를 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "63430109"
 |[방법: 사용자 지정 텍스트 표식 만들기](../extensibility/how-to-create-custom-text-markers.md)|만들고 텍스트 보기에 사용자 지정 텍스트 표식 유형을 추가 하는 방법을 설명 합니다.|  
 |[방법: 텍스트 표식 사용](../extensibility/how-to-use-text-markers.md)|텍스트 마커를 추가 하는 방법에 설명 합니다.|  
 |[핵심 편집기 내부](../extensibility/inside-the-core-editor.md)|핵심 편집기의 기능을 설명 하 고 핵심 편집기 사용자 지정 하는 방법에 대 한 세부 정보를 제공 합니다.|  
-|[편집기 기능](http://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)|사용할 수 있는 기능에 설명 합니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 핵심 편집기입니다.|  
+|[편집기 기능](https://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)|사용할 수 있는 기능에 설명 합니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 핵심 편집기입니다.|  
   
 ## <a name="reference"></a>참조  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsPackageDefinedTextMarkerType>  

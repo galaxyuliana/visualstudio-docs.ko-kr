@@ -9,12 +9,12 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f2920f73560e622c4336a1eedc23e5034fa8ff91
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: f7ffc67bd1175a84bf5708c613661a169c093dbd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63417444"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697020"
 ---
 # <a name="debugger-user-interface-xslt"></a>디버거 사용자 인터페이스(XSLT)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "63417444"
 |`position()`|컨텍스트 크기에 상대적인 컨텍스트 노드의 위치 또는 인덱스 번호입니다.|  
 |`self::node()`|컨텍스트 노드의 값입니다.|  
   
- 자세한 내용은 [방법: 디버거 컨텍스트 변경](http://msdn.microsoft.com/library/8a69ea63-2ef0-4b4f-9521-cf8ad2e3ec5e)합니다.  
+ 자세한 내용은 [방법: 디버거 컨텍스트 변경](https://msdn.microsoft.com/library/8a69ea63-2ef0-4b4f-9521-cf8ad2e3ec5e)합니다.  
   
 ## <a name="output-window"></a>출력 창  
  출력 창에는 디버깅하는 동안 발생하는 오류 메시지 또는 보안 예외가 표시됩니다.  
@@ -101,4 +101,4 @@ ms.locfileid: "63417444"
 ## <a name="see-also"></a>참고 항목  
  [XSLT 디버깅](../xml-tools/debugging-xslt.md)   
  [Debugger Basics](../debugger/debugger-basics.md) (디버거 기본 사항)  
- [변수 창](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)
+ [변수 창](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)

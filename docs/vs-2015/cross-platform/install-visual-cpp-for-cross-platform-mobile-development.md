@@ -11,12 +11,12 @@ caps.latest.revision: 17
 author: corob-msft
 ms.author: corob
 manager: jillfra
-ms.openlocfilehash: 57aa9011043ab30e465e03beffe54e6abcc706a8
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1aa81017f1a3d73e4ade1556ab141878e8a773f7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444586"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698472"
 ---
 # <a name="install-visual-c-for-cross-platform-mobile-development"></a>플랫폼 간 모바일 개발용 Visual C++ 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "63444586"
   
   특정 디바이스 플랫폼용 앱을 빌드하려는 경우에는 다음의 몇 가지 요구 사항이 추가로 적용됩니다.  
   
-- Windows Phone 에뮬레이터 및 Android용 Microsoft Visual Studio 에뮬레이터를 사용하려면 Hyper-V를 실행할 수 있는 컴퓨터가 필요합니다. 에뮬레이터를 설치하고 실행하려면 먼저 Windows에서 Hyper-V 기능을 사용하도록 설정해야 합니다. 자세한 내용은 에뮬레이터의 [시스템 요구 사항](http://msdn.microsoft.com/4d5bb438-231a-4cd2-84b7-e9660b0e3baf)을 참조하세요.  
+- Windows Phone 에뮬레이터 및 Android용 Microsoft Visual Studio 에뮬레이터를 사용하려면 Hyper-V를 실행할 수 있는 컴퓨터가 필요합니다. 에뮬레이터를 설치하고 실행하려면 먼저 Windows에서 Hyper-V 기능을 사용하도록 설정해야 합니다. 자세한 내용은 에뮬레이터의 [시스템 요구 사항](https://msdn.microsoft.com/4d5bb438-231a-4cd2-84b7-e9660b0e3baf)을 참조하세요.  
   
 - Android SDK와 함께 제공되는 x86 Android 에뮬레이터는 Intel HAXM 드라이버를 실행할 수 있는 컴퓨터에서 가장 잘 작동합니다. 이 드라이버를 사용하려면 VT-x 및 XD 비트(Execute Disable Bit)를 지원하는 Intel x64 프로세서가 필요합니다. 자세한 내용은 [Intel ® Hardware Accelerated Execution Manager 설치 지침 - Microsoft Windows](http://go.microsoft.com/fwlink/p/?LinkId=536385)(영문)를 참조하세요.  
   

@@ -11,12 +11,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 372e19b9ebb1253bda28b4c7723a2366c90b7441
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b9bd974da022a8407c1249b4a84eac3ef6f61aec
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412137"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701898"
 ---
 # <a name="properties-of-domain-properties"></a>도메인 속성의 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,4 +53,4 @@ A *도메인 속성* 값을 보유할 수 있는 모델 요소의 기능입니�
 |**Type**|속성의 형식입니다. 사용 가능한 형식 목록에 추가 하려면 DSL 탐색기에서 dsl 루트를 마우스 오른쪽 단추로 클릭 하 고 클릭 **외부 형식 추가**합니다.|`String`|  
   
 ## <a name="see-also"></a>참고 항목  
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [도메인 특정 언어 도구 용어집](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

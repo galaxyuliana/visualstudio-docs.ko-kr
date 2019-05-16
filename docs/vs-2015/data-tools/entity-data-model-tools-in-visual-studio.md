@@ -14,12 +14,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e10279740d590b63bb3781afd3486f7952123664
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: da608c7f937a09d56b25b87625580e5047d560cc
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431932"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705042"
 ---
 # <a name="entity-data-model-tools-in-visual-studio"></a>Visual Studio에서 엔터티 데이터 모델 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,8 +53,8 @@ Entity Framework는.NET 개발자가 도메인별 개체를 사용 하 여 관�
 
 |제목|설명|
 |-----------|-----------------|
-|[ADO.NET Entity Framework](http://msdn.microsoft.com/library/a437041f-6899-4ae7-96ce-aabf528d7205)|사용 하는 방법에 설명 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] 도구는 [!INCLUDE[adonet_ef](../includes/adonet-ef-md.md)] 응용 프로그램을 만드는 제공 합니다.|
-|[엔터티 데이터 모델](http://msdn.microsoft.com/library/2dda3d5b-4582-4ba0-a91d-fcd7a1498137)|에 빌드된 응용 프로그램에서 사용 되는 데이터로 작업 하는 것에 대 한 정보 및 링크를 제공 [!INCLUDE[adonet_ef](../includes/adonet-ef-md.md)]합니다.|
+|[ADO.NET Entity Framework](https://msdn.microsoft.com/library/a437041f-6899-4ae7-96ce-aabf528d7205)|사용 하는 방법에 설명 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] 도구는 [!INCLUDE[adonet_ef](../includes/adonet-ef-md.md)] 응용 프로그램을 만드는 제공 합니다.|
+|[엔터티 데이터 모델](https://msdn.microsoft.com/library/2dda3d5b-4582-4ba0-a91d-fcd7a1498137)|에 빌드된 응용 프로그램에서 사용 되는 데이터로 작업 하는 것에 대 한 정보 및 링크를 제공 [!INCLUDE[adonet_ef](../includes/adonet-ef-md.md)]합니다.|
 |[전체.NET (콘솔, WinForms, WPF 등)에서 시작](/ef/ef6/get-started)|Entity Framework 7을 사용 하 여.NET 데스크톱 응용 프로그램을 만드는 방법에 대 한 자습서를 제공 합니다.|
 |[ASP.NET 5 응용 프로그램을 새 데이터베이스](https://docs.efproject.net/en/latest/platforms/aspnetcore/new-db.html)|Entity Framework 7을 사용 하 여 새 ASP.NET 5 응용 프로그램을 만드는 방법을 설명 합니다.|
 

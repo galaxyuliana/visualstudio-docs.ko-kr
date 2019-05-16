@@ -12,12 +12,12 @@ ms.assetid: 52e9f7fc-6fe0-4d23-890b-5673dca8c3cb
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 5de601ef0266763ddd7243e4c526edca24803335
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 39cdc7769765a7680905fca5faa49222bf0a3b6d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983368"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65700040"
 ---
 # <a name="ipropertyproxyprovider"></a>IPropertyProxyProvider
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IPropertyProxyProvider : IUnknown
  식 계산기 (EE) 구현 하는 동일한 개체에서이 인터페이스를 구현 합니다 [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) 형식 시각화 도우미는 EE 지원의 일부로 인터페이스.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 호출 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 `IDebugProperty3` 인터페이스가이 인터페이스를 가져올 수 있습니다.  
+ 호출 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 `IDebugProperty3` 인터페이스가이 인터페이스를 가져올 수 있습니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  `IPropertyProxyProvider` 인터페이스는 다음 메서드를 구현 합니다.  

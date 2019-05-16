@@ -26,12 +26,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dbbb730af965b414a907bb230a58291ec53084a3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 2882434f0638d565133efd9744a94d224d39d121
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425342"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692543"
 ---
 # <a name="save-data-back-to-the-database"></a>데이터를 다시 데이터베이스에 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -166,7 +166,7 @@ ms.locfileid: "63425342"
   
  `GetChanges` 자체적으로 변경 된 모든 레코드를 반환합니다. 이와 대조적으로 전달한 후 원하는 <xref:System.Data.DataRowState> 매개 변수로 `GetChanges` 메서드를 원하는 변경된 레코드의 하위 집합을 지정할 수 있습니다: 새로 분리 된 레코드를 삭제 표시 된 레코드를 추가 또는 수정 된 레코드입니다.  
   
- 변경 된 레코드의 하위 집합 가져오기 처리를 위해 다른 구성 요소에 레코드를 보내려고 할 때 유용 합니다. 전체 데이터 집합을 전송 하는 대신 구성 요소에서 필요로 하는 레코드만 가져와서 다른 구성 요소와 통신 하는 오버 헤드를 줄일 수 있습니다. 자세한 내용은 [방법: 변경 된 행을 검색](http://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9)합니다.  
+ 변경 된 레코드의 하위 집합 가져오기 처리를 위해 다른 구성 요소에 레코드를 보내려고 할 때 유용 합니다. 전체 데이터 집합을 전송 하는 대신 구성 요소에서 필요로 하는 레코드만 가져와서 다른 구성 요소와 통신 하는 오버 헤드를 줄일 수 있습니다. 자세한 내용은 [방법: 변경 된 행을 검색](https://msdn.microsoft.com/library/6ff0cbd0-5253-48e7-888a-144d56c2e0a9)합니다.  
   
 ## <a name="committing-changes-in-the-dataset"></a>데이터 집합의 변경 내용 커밋  
  데이터 집합에서 변경 되는 <xref:System.Data.DataRow.RowState%2A> 변경 된 행의 속성을 설정 합니다. 레코드의 원래 버전과 현재 버전은 설정, 유지 관리 하 고에서 사용자에 게 제공 된 <xref:System.Data.DataRowView.RowVersion%2A> 속성입니다. 이러한 변경 된 행의 속성에 저장 된 메타 데이터는 데이터 원본에 올바른 업데이트를 전송 하는 데 필요한 합니다.  
@@ -219,12 +219,12 @@ ms.locfileid: "63425342"
   
 - 비즈니스 계층에서 데이터의 유효성을 검사 하도록 응용 프로그램 코드를 추가 하 여 합니다. 데이터 집합을 한 곳이 수행할 수 있습니다. 데이터 집합 디자이너를 사용 하는 백 엔드 유효성 검사의 장점 중 일부를 제공 합니다.-열 및 행 값을 변경 하는 변경의 유효성을 검사 하는 기능과 같은 합니다. 자세한 내용은 [데이터 집합의 데이터 유효성 검사](../data-tools/validate-data-in-datasets.md)합니다.  
   
-- 프레젠테이션 레이어의 양식에 유효성 검사를 추가 하 여 합니다. 자세한 내용은 [Windows Forms에서 사용자 입력 유효성 검사](http://msdn.microsoft.com/library/4ec07681-1dee-4bf9-be5e-718f635a33a1)합니다.  
+- 프레젠테이션 레이어의 양식에 유효성 검사를 추가 하 여 합니다. 자세한 내용은 [Windows Forms에서 사용자 입력 유효성 검사](https://msdn.microsoft.com/library/4ec07681-1dee-4bf9-be5e-718f635a33a1)합니다.  
   
 - 데이터 원본에 데이터를 전송 하 여 백 엔드에서 데이터에서-예를 들어 데이터베이스-수락 하거나 데이터를 거부할 수 있도록 지원 합니다. 복잡 한 데이터 유효성 검사 및 오류 정보를 제공 하는 기능에는 데이터베이스를 사용 하 여 작업 하는 경우에서 제공 되는 위치에 관계 없이 데이터의 유효성을 검사 하기 때문에 실질적인 방법이 될 수 있습니다. 그러나이 방법은 응용 프로그램별 유효성 검사 요구 사항을 허용 하지 않을 수 있습니다. 또한 데이터 소스 데이터의 유효성을 검사 수 발생할 다양 한 왕복에 응용 프로그램 백 엔드에 의해 발생 하는 유효성 검사 오류 확인을 용이 하 게 하는 방법에 따라 데이터 원본에 합니다.  
   
   > [!IMPORTANT]
-  > 데이터 명령을 사용 하는 경우는 <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> 로 설정 된 속성 <xref:System.Data.CommandType>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 인증되지 않은 액세스 권한을 얻거나 데이터베이스를 손상시키기 위해 수정되었거나 추가된 SQL 문을 전송(주입)할 수도 있습니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다. 자세한 내용은 [Script Exploits Overview](http://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07)를 참조하세요.  
+  > 데이터 명령을 사용 하는 경우는 <xref:System.Data.SqlClient.SqlCommand.CommandType%2A> 로 설정 된 속성 <xref:System.Data.CommandType>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 인증되지 않은 액세스 권한을 얻거나 데이터베이스를 손상시키기 위해 수정되었거나 추가된 SQL 문을 전송(주입)할 수도 있습니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다. 자세한 내용은 [Script Exploits Overview](https://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07)를 참조하세요.  
   
   데이터 집합을 변경한 후에 데이터 원본에 변경 내용을 전송할 수 있습니다. 가장 일반적으로이 호출 하 여 수행 된 `Update` TableAdapter (또는 데이터 어댑터) 메서드. 데이터 테이블의 각 레코드 메서드 반복 어떤 유형의 업데이트가 필요한 확인 (업데이트, 삽입 또는 삭제), 한 다음 적절 한 명령을 실행 합니다.  
   
@@ -272,6 +272,6 @@ ms.locfileid: "63425342"
   
 ## <a name="see-also"></a>참고 항목  
  [TableAdapter를 사용 하 여 데이터를 업데이트 합니다.](../data-tools/update-data-by-using-a-tableadapter.md)   
- [데이터를 받기 위해 애플리케이션 준비](http://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
+ [데이터를 받기 위해 애플리케이션 준비](https://msdn.microsoft.com/library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)   
- [데이터 유효성 검사](http://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
+ [데이터 유효성 검사](https://msdn.microsoft.com/library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   

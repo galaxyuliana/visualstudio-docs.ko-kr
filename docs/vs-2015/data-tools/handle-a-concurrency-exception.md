@@ -21,12 +21,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 421360421a732935d452053630c17cda319f4b0d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 5269ec74388fa9b09a4cceabad364d19409470df
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434492"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65699743"
 ---
 # <a name="handle-a-concurrency-exception"></a>동시성 예외 처리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "63434492"
   
 4. 데이터 집합의 데이터로 채우는 `Customers` Northwind 데이터베이스의 테이블입니다.  
   
-5. 사용 된 [Visual Database Tools](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) 에 직접 액세스 하려면 Visual Studio에서를 `Customers` 데이터 테이블 및 레코드를 변경 합니다.  
+5. 사용 된 [Visual Database Tools](https://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) 에 직접 액세스 하려면 Visual Studio에서를 `Customers` 데이터 테이블 및 레코드를 변경 합니다.  
   
 6. 다른 값으로 동일한 레코드를 변경, 데이터 집합을 업데이트 하 고 동시성 오류가 발생 하는 데이터베이스에 변경 내용 쓰기 시도 합니다.  
   
@@ -55,7 +55,7 @@ ms.locfileid: "63434492"
 - 업데이트를 수행할 수 있는 권한 가진 Northwind 샘플 데이터베이스에 액세스 합니다.
   
 > [!NOTE]
-> 대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에서 설명 하는 것에서 다 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 대화 상자와 메뉴 명령은 활성 설정 또는 사용 중인 버전에 따라 도움말에서 설명 하는 것에서 다 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기  
  새 Windows 응용 프로그램을 만들어 연습을 시작 합니다.  
@@ -79,7 +79,7 @@ ms.locfileid: "63434492"
   
 1. 에 **데이터** 메뉴 선택 **새 데이터 소스 추가**합니다.  
   
-     [데이터 원본 구성](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) 마법사가 열립니다.  
+     [데이터 원본 구성](https://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) 마법사가 열립니다.  
   
 2. 에 **데이터 소스 형식 선택**화면에서 **데이터베이스**합니다.  
   

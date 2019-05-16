@@ -22,12 +22,12 @@ caps.latest.revision: 21
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ff2031aa5e690829967ccc41ca35c67df23d325b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 416e17c95290643873f52f71ec892514d183b6d0
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984009"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704569"
 ---
 # <a name="how-can-i-keep-focus-when-stepping-through-my-program"></a>프로그램에서 단계별로 실행하는 경우 어떻게 포커스를 유지할 수 있습니까?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "58984009"
  프로그램에 창 활성화에 대한 문제가 생겼습니다. 프로그램에서 단계별로 디버거를 실행하면 프로그램이 계속해서 포커스를 잃어 버리기 때문에 문제 재현 기능이 방해를 받습니다. 어떻게 해결할 수 있습니까?  
   
 ## <a name="solution"></a>솔루션  
- 다른 컴퓨터가 있을 경우 원격 디버깅을 사용합니다. 호스트에서 디버거를 실행하는 동안 원격 컴퓨터에서 프로그램을 작동시킬 수 있습니다. 자세한 내용은 [방법: 원격 컴퓨터 선택](http://msdn.microsoft.com/4332ba8e-2f0b-4f62-b96a-e762b9f3c3ba)을 참조하세요.  
+ 다른 컴퓨터가 있을 경우 원격 디버깅을 사용합니다. 호스트에서 디버거를 실행하는 동안 원격 컴퓨터에서 프로그램을 작동시킬 수 있습니다. 자세한 내용은 [방법: 원격 컴퓨터 선택](https://msdn.microsoft.com/4332ba8e-2f0b-4f62-b96a-e762b9f3c3ba)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [네이티브 코드 디버깅 FAQ](../debugger/debugging-native-code-faqs.md)   

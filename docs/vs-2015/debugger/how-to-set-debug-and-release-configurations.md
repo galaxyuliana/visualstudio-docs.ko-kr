@@ -35,12 +35,12 @@ caps.latest.revision: 48
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: da8b3b32eae5d3045216f562dc7db25fb1f3264a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 4984355c12a92529a943fe6778740ac2d7f522f8
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048194"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703657"
 ---
 # <a name="how-to-set-debug-and-release-configurations"></a>방법: 디버그 및 릴리스 구성 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,4 +71,4 @@ Visual Studio 프로젝트에는 사용하는 프로그램에 대한 별도의 �
  [C# 디버그 구성을 위한 프로젝트 설정](../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Visual Basic 디버그 구성을 위한 프로젝트 설정](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [방법: 구성 만들기 및 편집](../ide/how-to-create-and-edit-configurations.md)   
- [프로젝트 구성 디버그 및 릴리스](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)
+ [프로젝트 구성 디버그 및 릴리스](https://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)

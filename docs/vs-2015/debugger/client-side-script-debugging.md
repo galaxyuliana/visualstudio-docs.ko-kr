@@ -17,12 +17,12 @@ caps.latest.revision: 33
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c5b8108f0751cbb8848a70b99f23dd3f204ccff2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6405a35068b7be7ac93eb91f4d9100e6a840b0bb
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982160"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65702375"
 ---
 # <a name="client-side-script-debugging"></a>클라이언트 쪽 스크립트 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,11 +60,11 @@ Visual Studio 디버거는 ASP.NET 페이지의 클라이언트 쪽 스크립트
 ## <a name="debugging-ajax-script-applications"></a>AJAX 스크립트 애플리케이션 디버깅  
  AJAX 사용 웹 애플리케이션은 스크립트 코드를 매우 많이 사용하며 특수한 디버깅 문제를 발생시키는 경우가 많습니다. AJAX 디버깅 기술에 대한 자세한 내용은 다음 항목을 참조하십시오.  
   
- [Debugging and Tracing Ajax Applications Overview](http://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)에서는 원하는 모든 스크립트 문서를 열 수 있습니다.  
+ [Debugging and Tracing Ajax Applications Overview](https://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)에서는 원하는 모든 스크립트 문서를 열 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [ASP.NET 및 AJAX 애플리케이션 디버그](../debugger/debugging-aspnet-and-ajax-applications.md)   
  [스크립트 디버깅의 제한 사항](../debugger/limitations-on-script-debugging.md)   
- [변수 창](http://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)   
+ [변수 창](https://msdn.microsoft.com/library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)   
  [직접 실행 창](../ide/reference/immediate-window.md)   
- [Debugging and Tracing Ajax Applications Overview](http://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)
+ [Debugging and Tracing Ajax Applications Overview](https://msdn.microsoft.com/library/92684ea0-7bb4-4a34-9203-3aa6394ce375)

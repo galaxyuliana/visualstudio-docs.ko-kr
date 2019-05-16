@@ -13,12 +13,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 54c3bd854f824818d9656a33ccf30391f750a491
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: f9af25934a40c01c6b4cfd48dcd7419bddf322d3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080724"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698024"
 ---
 # <a name="how-to-set-clr-attributes-on-an-element"></a>방법: 요소에 CLR 특성 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,4 +46,4 @@ ms.locfileid: "60080724"
      `[` *AttributeName* `(` *ParameterName* `=` *Type* `)]`  
   
 ## <a name="see-also"></a>참고 항목  
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [도메인 특정 언어 도구 용어집](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

@@ -19,12 +19,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 081899efb202917f1ebeac97a58dd89cf5a04f53
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 08db6a5d22cacc348a9ef36fd9e9857d5b55642a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444391"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703729"
 ---
 # <a name="signfile-task"></a>SignFile 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -70,7 +70,7 @@ ms.locfileid: "63444391"
 ```  
   
 > [!NOTE]
-> 인증서 지문은 인증서의 SHA-1 해시입니다. 자세한 내용은 [신뢰할 수 있는 루트 CA 인증서의 SHA-1 해시 얻기](http://msdn.microsoft.com/dd641990-9a88-4228-a245-017797131a87)를 참조하세요.  
+> 인증서 지문은 인증서의 SHA-1 해시입니다. 자세한 내용은 [신뢰할 수 있는 루트 CA 인증서의 SHA-1 해시 얻기](https://msdn.microsoft.com/dd641990-9a88-4228-a245-017797131a87)를 참조하세요.  
   
 ## <a name="example"></a>예제  
  다음 예제에서는 `Exec` 작업을 통해 `FilesToSign` 속성으로 지정된 인증서를 사용하여 `Certificate` 항목 컬렉션에 지정된 파일에 서명을 합니다. 이 방법으로 빌드 프로세스 중에 Windows Installer 파일에 서명을 할 수 있습니다.  

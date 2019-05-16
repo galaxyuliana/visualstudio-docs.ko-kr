@@ -12,12 +12,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: f9f42fd4b43ec9aaced9d47d0c5670e6f0b0d711
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 23d344d2f350b5b7a2e376e8856c916d9baa01f2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63435166"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65702618"
 ---
 # <a name="how-to-split-a-class-into-partial-classes-class-designer"></a>방법: 클래스를 부분 클래스로 분할(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ Visual Basic의 `Partial` 키워드 또는 Visual C#의 `partial` 키워드를 �
 > [!NOTE]
 > Visual Basic에서는 partial 클래스 정의를 사용하여 Visual Studio 생성 코드와 사용자 작성 코드를 구분합니다. 코드는 별도의 소스 파일로 구분됩니다. 예를 들어, **Windows Form 디자이너**에서는 `Form`과 같은 컨트롤에 대해 partial 클래스를 정의합니다. 이런 컨트롤에서 생성된 코드를 수정해서는 안 됩니다.  
   
- Visual Basic의 부분 형식(Partial Type)에 대한 자세한 내용은 [Partial](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448)을 참조하세요.  
+ Visual Basic의 부분 형식(Partial Type)에 대한 자세한 내용은 [Partial](https://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448)을 참조하세요.  
   
 ## <a name="example"></a>예제  
  Visual Basic의 클래스 정의를 분할하려면 다음 예제와 같이 `Partial` 키워드를 사용합니다.  
@@ -76,7 +76,7 @@ public partial class Employee
 ```  
   
 ## <a name="see-also"></a>참고 항목  
- [Partial 클래스 및 메서드](http://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1)   
- [partial(형식)](http://msdn.microsoft.com/library/27320743-a22e-4c7b-b0b3-53afe3607334)   
- [partial(메서드)(C# 참조)](http://msdn.microsoft.com/library/43f40242-17e0-4452-8573-090503ad3137)   
- [부분](http://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448)
+ [Partial 클래스 및 메서드](https://msdn.microsoft.com/library/804cecb7-62db-4f97-a99f-60975bd59fa1)   
+ [partial(형식)](https://msdn.microsoft.com/library/27320743-a22e-4c7b-b0b3-53afe3607334)   
+ [partial(메서드)(C# 참조)](https://msdn.microsoft.com/library/43f40242-17e0-4452-8573-090503ad3137)   
+ [부분](https://msdn.microsoft.com/library/7adaef80-f435-46e1-970a-269fff63b448)

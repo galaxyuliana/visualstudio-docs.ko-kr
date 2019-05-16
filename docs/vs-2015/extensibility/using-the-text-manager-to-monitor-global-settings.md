@@ -11,12 +11,12 @@ ms.assetid: 023e7671-cf65-419c-9bc1-3c4ee92aa436
 caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 792c566eda53cb8a4703e8ab03982952c518d8e4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ece51450b8344ae4715a912399ec538171a26a5c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972137"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695464"
 ---
 # <a name="using-the-text-manager-to-monitor-global-settings"></a>전역 설정을 모니터링 하는 텍스트 관리자를 사용 하 여
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,4 +42,4 @@ ms.locfileid: "58972137"
   
 ## <a name="see-also"></a>참고 항목  
  [핵심 편집기 내에서](../extensibility/inside-the-core-editor.md)   
- [편집기 기능](http://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)
+ [편집기 기능](https://msdn.microsoft.com/bdac940d-1f14-4019-a01f-fd0bb3dc7198)

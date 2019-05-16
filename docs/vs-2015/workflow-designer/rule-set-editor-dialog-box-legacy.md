@@ -13,12 +13,12 @@ caps.latest.revision: 7
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: d3827ef20ae5eb67c1052b6c7f6147d736013490
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 862842bd41762b15a38254c9d5e21bf06cdca10a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63438896"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703201"
 ---
 # <a name="rule-set-editor-dialog-box-legacy"></a>규칙 집합 편집기 대화 상자(레거시)
 에 대해 설명 하는 방법을 사용 하 여는 **규칙 집합 편집기** 레거시 대화 상자 [!INCLUDE[wfd1](../includes/wfd1-md.md)]합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
@@ -76,7 +76,7 @@ ms.locfileid: "63438896"
   
   식 연산자 우선 순위는 C# 연산자 우선 순위 규칙을 따릅니다.  
   
-  조건에 대 한 자세한 내용은 참조 하세요. [워크플로에서 조건 사용](http://msdn.microsoft.com/541211f5-d382-4810-894f-71f00b34fa77)합니다.  
+  조건에 대 한 자세한 내용은 참조 하세요. [워크플로에서 조건 사용](https://msdn.microsoft.com/541211f5-d382-4810-894f-71f00b34fa77)합니다.  
   
 ### <a name="halt-and-update-functions"></a>Halt 및 Update 함수  
  **Thenactions:** 하 고 **Else 작업:** 식은 지원 **중단** 하 고 **업데이트** 함수. 사용 하는 **중단** 함수를 입력 **중단** 에 **Thenaction:** 또는 **Else 작업:** 입력란. 합니다 **중단** 작업 규칙 집합 실행이 즉시 중지 시키고 호출 코드로 컨트롤을 반환 합니다. 사용 된 **업데이트** 전방 연결과 함께 함수입니다.  

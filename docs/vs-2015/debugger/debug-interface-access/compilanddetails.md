@@ -13,12 +13,12 @@ caps.latest.revision: 22
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: c91fbd8a4fc3775272e578df43025bd7052c72ae
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 34349bf096d8bb98ae4b3de7c7a922b8d28bc4f8
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983538"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703006"
 ---
 # <a name="compilanddetails"></a>CompilandDetails
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,11 +40,11 @@ ms.locfileid: "58983538"
 |[IDiaSymbol::get_frontEndMinor](../../debugger/debug-interface-access/idiasymbol-get-frontendminor.md)|`DWORD`|컴파일러의 프런트 엔드 부 버전 번호입니다.|  
 |[IDiaSymbol::get_hasDebugInfo](../../debugger/debug-interface-access/idiasymbol-get-hasdebuginfo.md)|`BOOL`|`TRUE` 이 컴파일 대상에 디버그 정보 (DIA SDK V8.0 이상 에서만).|  
 |[IDiaSymbol::get_hasManagedCode](../../debugger/debug-interface-access/idiasymbol-get-hasmanagedcode.md)|`BOOL`|`TRUE` 이 컴파일 대상 포함 된 경우 관리 코드 (DIA SDK v8.0 이상 에서만).|  
-|[IDiaSymbol::get_hasSecurityChecks](../../debugger/debug-interface-access/idiasymbol-get-hassecuritychecks.md)|`BOOL`|`TRUE` 컴파일 대상 사용 하 여 컴파일된 경우 합니다 [/GS (버퍼 보안 검사)](http://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e) 컴파일러 스위치 (DIA SDK V8.0 이상 에서만).|  
+|[IDiaSymbol::get_hasSecurityChecks](../../debugger/debug-interface-access/idiasymbol-get-hassecuritychecks.md)|`BOOL`|`TRUE` 컴파일 대상 사용 하 여 컴파일된 경우 합니다 [/GS (버퍼 보안 검사)](https://msdn.microsoft.com/library/8d8a5ea1-cd5e-42e1-bc36-66e1cd7e731e) 컴파일러 스위치 (DIA SDK V8.0 이상 에서만).|  
 |[IDiaSymbol::get_isCVTCIL](../../debugger/debug-interface-access/idiasymbol-get-iscvtcil.md)|`BOOL`|`TRUE` 컴파일 중간 언어 (CIL (공용) 코드에서 네이티브 코드로 변환 되었습니다 하는 경우.|  
 |[IDiaSymbol::get_isDataAligned](../../debugger/debug-interface-access/idiasymbol-get-isdataaligned.md)|`BOOL`|`TRUE` 사용자 정의 형식 (UDT)에 정렬 되어 있는 경우 일부 메모리 경계 (DIA SDK V8.0 이상 에서만)를 지정 합니다.|  
-|[IDiaSymbol::get_isHotpatchable](../../debugger/debug-interface-access/idiasymbol-get-ishotpatchable.md)|`BOOL`|`TRUE` 컴파일 대상 사용 하 여 컴파일된 경우 합니다 [/hotpatch (핫 패치 가능 이미지 만들기)](http://msdn.microsoft.com/library/aad539b6-c053-4c78-8682-853d98327798) 컴파일러 스위치 (DIA SDK v8.0 이상 에서만).|  
-|[IDiaSymbol::get_isLTCG](../../debugger/debug-interface-access/idiasymbol-get-isltcg.md)|`BOOL`|`TRUE` 컴파일 대상 사용 하 여 컴파일된 경우 합니다 [/LTCG (링크 타임 코드 생성)](http://msdn.microsoft.com/library/788c6f52-fdb8-40c2-90af-4026ea2cf2e2) 컴파일러 스위치 (DIA SDK V8.0 이상 에서만).|  
+|[IDiaSymbol::get_isHotpatchable](../../debugger/debug-interface-access/idiasymbol-get-ishotpatchable.md)|`BOOL`|`TRUE` 컴파일 대상 사용 하 여 컴파일된 경우 합니다 [/hotpatch (핫 패치 가능 이미지 만들기)](https://msdn.microsoft.com/library/aad539b6-c053-4c78-8682-853d98327798) 컴파일러 스위치 (DIA SDK v8.0 이상 에서만).|  
+|[IDiaSymbol::get_isLTCG](../../debugger/debug-interface-access/idiasymbol-get-isltcg.md)|`BOOL`|`TRUE` 컴파일 대상 사용 하 여 컴파일된 경우 합니다 [/LTCG (링크 타임 코드 생성)](https://msdn.microsoft.com/library/788c6f52-fdb8-40c2-90af-4026ea2cf2e2) 컴파일러 스위치 (DIA SDK V8.0 이상 에서만).|  
 |[IDiaSymbol::get_isMSILNetmodule](../../debugger/debug-interface-access/idiasymbol-get-ismsilnetmodule.md)|`BOOL`|컴파일 대상 언어 MSIL (Microsoft Intermediate) 모듈 (DIA SDK v8.0 이상 에서만) 이면 TRUE입니다.|  
 |[IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md)|`DWORD`|소스 코드 언어입니다.|  
 |[IDiaSymbol::get_lexicalParent](../../debugger/debug-interface-access/idiasymbol-get-lexicalparent.md)|`IDiaSymbol*`|컴파일 대상에 대 한 기호입니다.|  

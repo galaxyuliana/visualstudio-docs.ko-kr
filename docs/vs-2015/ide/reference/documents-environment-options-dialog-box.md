@@ -33,12 +33,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1cd368730ec4df91840984525bf0042963587e68
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: a6616593f01218b4a7e15809f841ee3cb4e7edb0
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444715"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65700792"
 ---
 # <a name="documents-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 문서
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ms.locfileid: "63444715"
 **옵션** 대화 상자의 이 페이지를 사용하여 IDE(통합 개발 환경)에서 문서 표시를 제어하고 문서 및 파일에 대한 외부 변경 내용을 관리합니다. 이 대화 상자에 액세스하려면 **도구** 메뉴에서 **옵션**을 클릭하고 **환경** 노드에서 **문서**를 선택합니다. **문서**가 목록에 나타나지 않으면 **옵션** 대화 상자에서 **모든 설정 표시**를 선택합니다.  
   
 > [!NOTE]
-> 대화 상자에서 사용할 수 있는 옵션과 메뉴 명령의 이름 및 위치는 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 대화 상자에서 사용할 수 있는 옵션과 메뉴 명령의 이름 및 위치는 실제 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
  **저장되면 현재 문서 창 다시 사용**  
  이 옵션을 선택하면 저장된 현재 문서가 닫히고 새 문서가 같은 창에서 열립니다. 현재 문서가 저장되지 않은 경우에는 문서가 열려 있고 새 문서가 별도의 창에서 열립니다. 이 옵션을 선택 취소하면 새 문서가 항상 별도의 창에서 열립니다.  

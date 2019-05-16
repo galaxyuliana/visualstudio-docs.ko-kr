@@ -15,12 +15,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 45a4dd40e00182084686841279f81eb1de9d8a28
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c33ae053a605e50aa8d1940fc97f3c0f687b48fa
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63424576"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695332"
 ---
 # <a name="how-to-view-existing-types-class-designer"></a>방법: 기존 형식 보기(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "63424576"
    클래스 뷰의 프로젝트 노드에서 클래스 다이어그램으로 하나 이상의 형식을 끌어 놓아 프로젝트에 있는 형식을 볼 수도 있습니다.  
   
 > [!TIP]
-> 클래스 뷰가 열려 있지 않으면 **보기** 메뉴에서 클래스 뷰를 엽니다. 클래스 뷰에 대한 자세한 내용은 [클래스 및 해당 멤버 보기](http://msdn.microsoft.com/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333)를 참조하세요.  
+> 클래스 뷰가 열려 있지 않으면 **보기** 메뉴에서 클래스 뷰를 엽니다. 클래스 뷰에 대한 자세한 내용은 [클래스 및 해당 멤버 보기](https://msdn.microsoft.com/71e9e8f3-261a-4e0c-87bf-5ec48b8bf333)를 참조하세요.  
   
  다이어그램의 기본 위치에 형식을 표시하려면 클래스 뷰에서 하나 이상의 형식을 선택하고 선택한 형식을 마우스 오른쪽 단추로 클릭한 후에 **클래스 다이어그램 보기**를 선택합니다.  
   

@@ -8,12 +8,12 @@ ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 caps.latest.revision: 66
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 01b767e4b2aceeb50ca72ef6852934f4b0502b98
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 51edddcbac3815c450b2b0db7166fc7d5c593dbd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114316"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698751"
 ---
 # <a name="cross-platform-mobile-development-in-visual-studio"></a>Visual Studio에서 플랫폼 간 모바일 개발
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,7 +76,7 @@ Visual Studio를 사용하여 Android, iOS 및 Windows 디바이스용 앱을 �
 
 |**자세히**|
 |--------------------|
-|코드를 공유할 때 공유 프로젝트나 이식 가능한 클래스 라이브러리 프로젝트 중 하나를 사용할지 아니면 둘 다를 사용할지 선택<br /><br /> [플랫폼 간 코드 공유](http://blogs.msdn.com/b/dotnet/archive/2014/04/21/sharing-code-across-platforms.aspx) (.NET Framework 블로그)<br /><br /> [Sharing Code Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/)(코드 공유 옵션)(Xamarin)<br /><br /> [.NET Framework를 사용한 코드 공유 옵션](http://msdn.microsoft.com/library/dn720832.aspx) (MSDN Library)|
+|코드를 공유할 때 공유 프로젝트나 이식 가능한 클래스 라이브러리 프로젝트 중 하나를 사용할지 아니면 둘 다를 사용할지 선택<br /><br /> [플랫폼 간 코드 공유](http://blogs.msdn.com/b/dotnet/archive/2014/04/21/sharing-code-across-platforms.aspx) (.NET Framework 블로그)<br /><br /> [Sharing Code Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/)(코드 공유 옵션)(Xamarin)<br /><br /> [.NET Framework를 사용한 코드 공유 옵션](https://msdn.microsoft.com/library/dn720832.aspx) (MSDN Library)|
 
 ### <a name="WindowsHTML"></a> Windows 10 디바이스를 대상으로 지정
  ![Windows 디바이스](../cross-platform/media/windowsdevices.png "WindowsDevices")
@@ -90,7 +90,7 @@ Visual Studio를 사용하여 Android, iOS 및 Windows 디바이스용 앱을 �
 |**자세히**|
 |--------------------|
 |[유니버설 Windows 앱에 대해 알아보기](https://msdn.microsoft.com/library/windows/apps/dn894631.aspx) (Windows 개발자 센터)|
-|[첫 번째 앱 빌드](http://msdn.microsoft.com/library/windows/apps/dn609832.aspx) (Windows 개발자 센터)|
+|[첫 번째 앱 빌드](https://msdn.microsoft.com/library/windows/apps/dn609832.aspx) (Windows 개발자 센터)|
 |[UWP(유니버설 Windows 플랫폼)용 앱 개발](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
 |[UWP(유니버설 Windows 플랫폼)로 앱 마이그레이션](../misc/migrate-apps-to-the-universal-windows-platform-uwp.md)|
 
@@ -171,6 +171,6 @@ Visual Studio를 사용하여 Android, iOS 및 Windows 디바이스용 앱을 �
 
 ## <a name="see-also"></a>참고 항목
 
-- [Visual Studio 프로젝트에 Office 365 API 추가](http://msdn.microsoft.com/library/office/dn605899\(v=office.15\).aspx)
-- [Azure 모바일 서비스](http://msdn.microsoft.com/library/dn720832\(v=vs.110\).aspx)
+- [Visual Studio 프로젝트에 Office 365 API 추가](https://msdn.microsoft.com/library/office/dn605899\(v=office.15\).aspx)
+- [Azure 모바일 서비스](https://msdn.microsoft.com/library/dn720832\(v=vs.110\).aspx)
 - [Application Insights](/azure/application-insights/app-insights-overview)

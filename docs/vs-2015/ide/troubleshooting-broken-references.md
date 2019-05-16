@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 45a3f55e826133ce0fd55764e216824810ae45c4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: a436ffa96e6ca86479bdb5b4f91e30c386acc1a6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443268"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65689302"
 ---
 # <a name="troubleshooting-broken-references"></a>Troubleshooting Broken References
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ ms.locfileid: "63443268"
   이러한 문제에 대한 해결 방법은 다음과 같습니다.  
   
 > [!NOTE]
-> 어셈블리의 파일이 프로젝트 파일의 절대 경로를 사용하여 참조됩니다. 따라서 복수 개발자 환경에서 작업하는 사용자는 로컬 환경에서 참조되는 어셈블리를 놓치고 있을 수 있습니다. 이 오류를 피하려면 이러한 경우에 프로젝트 간 참조를 추가하는 것이 좋습니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) 및 [어셈블리를 사용한 프로그래밍](http://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)을 참조하세요.  
+> 어셈블리의 파일이 프로젝트 파일의 절대 경로를 사용하여 참조됩니다. 따라서 복수 개발자 환경에서 작업하는 사용자는 로컬 환경에서 참조되는 어셈블리를 놓치고 있을 수 있습니다. 이 오류를 피하려면 이러한 경우에 프로젝트 간 참조를 추가하는 것이 좋습니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9) 및 [어셈블리를 사용한 프로그래밍](https://msdn.microsoft.com/library/25918b15-701d-42c7-95fc-c290d08648d6)을 참조하세요.  
   
 ## <a name="reference-path-is-incorrect"></a>참조 경로가 잘못됨  
  프로젝트가 여러 컴퓨터에서 공유될 경우 구성 요소가 각 컴퓨터에서 서로 다른 디렉터리에 있으면 일부 참조를 찾지 못할 수 있습니다. 참조는 구성 요소 파일 이름으로 저장됩니다(예: MyComponent). 참조가 프로젝트에 추가되면 구성 요소 파일의 폴더 위치(예: C:\MyComponents\\)가 **ReferencePath** 프로젝트 속성에 추가됩니다.  
@@ -73,7 +73,7 @@ ms.locfileid: "63443268"
   
 - 참조가 컴퓨터의 또 다른 위치에 있으면 이 위치에서 참조를 읽으세요.  
   
-- 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
+- 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
   
 ## <a name="referenced-file-has-been-renamed"></a>참조된 파일의 이름이 바뀜  
  참조되는 파일의 이름이 바뀌었을 수 있습니다.  
@@ -82,15 +82,15 @@ ms.locfileid: "63443268"
   
 - 참조를 삭제하고 나서 이름이 바뀐 파일에 참조를 추가합니다.  
   
-- 참조가 컴퓨터의 또 다른 위치에 있으면 이 위치에서 참조를 읽어야 합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
+- 참조가 컴퓨터의 또 다른 위치에 있으면 이 위치에서 참조를 읽어야 합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
   
 ## <a name="network-connection-or-authentication-has-failed"></a>네트워크 연결 또는 인증에 실패함  
- 파일에 액세스할 수 없는 경우 네트워크 연결 실패 또는 인증 실패 등의 다양한 원인이 있을 수 있습니다. 각 원인에는 고유한 복구 방법이 있습니다. 예를 들어 필요한 리소스에 액세스하려면 로컬 관리자에게 문의해야 합니다. 하지만 참조를 삭제하고 참조를 사용한 코드를 수정할 수도 있습니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
+ 파일에 액세스할 수 없는 경우 네트워크 연결 실패 또는 인증 실패 등의 다양한 원인이 있을 수 있습니다. 각 원인에는 고유한 복구 방법이 있습니다. 예를 들어 필요한 리소스에 액세스하려면 로컬 관리자에게 문의해야 합니다. 하지만 참조를 삭제하고 참조를 사용한 코드를 수정할 수도 있습니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
   
 ## <a name="com-component-is-not-installed-on-computer"></a>COM 구성 요소가 컴퓨터에 설치되지 않음  
- 사용자가 COM 구성 요소에 대한 참조를 추가했고 두 번째 사용자가 이 구성 요소가 설치되지 않은 컴퓨터에서 코드를 실행하려고 하면 두 번째 사용자에게 참조가 끊어졌다는 오류 메시지가 표시됩니다. 두 번째 컴퓨터에 구성 요소를 설치하면 오류가 수정됩니다. 프로젝트에서 COM 구성 요소 참조를 사용하는 방법에 대한 자세한 내용은 [.NET Framework 애플리케이션의 COM 상호 운용성](http://msdn.microsoft.com/library/f5a72143-c268-4dff-a019-974ad940e17d)을 참조하세요.  
+ 사용자가 COM 구성 요소에 대한 참조를 추가했고 두 번째 사용자가 이 구성 요소가 설치되지 않은 컴퓨터에서 코드를 실행하려고 하면 두 번째 사용자에게 참조가 끊어졌다는 오류 메시지가 표시됩니다. 두 번째 컴퓨터에 구성 요소를 설치하면 오류가 수정됩니다. 프로젝트에서 COM 구성 요소 참조를 사용하는 방법에 대한 자세한 내용은 [.NET Framework 애플리케이션의 COM 상호 운용성](https://msdn.microsoft.com/library/f5a72143-c268-4dff-a019-974ad940e17d)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
- [프로젝트 디자이너 소개](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
+ [프로젝트 디자이너 소개](https://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [프로젝트 디자이너, 참조 페이지(Visual Basic)](../ide/reference/references-page-project-designer-visual-basic.md)   
- [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)
+ [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)

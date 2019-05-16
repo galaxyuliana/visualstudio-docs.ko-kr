@@ -19,12 +19,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: db5f46fdea66647131557b3d2cff2619e99aabc7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 719654916087e7c7f4249ff52abbed628a2c56a2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437327"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704501"
 ---
 # <a name="how-to-attach-to-script"></a>방법: 스크립트에 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "63437327"
   
 2. **프로세스에 연결** 대화 상자의 **사용 가능한 프로세스** 목록에서 연결할 스크립트 프로세스를 찾습니다. **형식** 열에서 스크립트 프로세스를 확인할 수 있습니다.  
   
-   1. 디버깅할 프로세스가 다른 컴퓨터에서 실행되고 있으면 먼저 원격 컴퓨터를 선택해야 합니다. 자세한 내용은 [방법: 원격 컴퓨터 선택](http://msdn.microsoft.com/4332ba8e-2f0b-4f62-b96a-e762b9f3c3ba)을 참조하세요.  
+   1. 디버깅할 프로세스가 다른 컴퓨터에서 실행되고 있으면 먼저 원격 컴퓨터를 선택해야 합니다. 자세한 내용은 [방법: 원격 컴퓨터 선택](https://msdn.microsoft.com/4332ba8e-2f0b-4f62-b96a-e762b9f3c3ba)을 참조하세요.  
   
    2. 프로세스가 다른 사용자 계정으로 실행되고 있으면 **모든 사용자의 프로세스 표시** 확인란을 선택합니다.  
   
@@ -59,7 +59,7 @@ ms.locfileid: "63437327"
   
    **사용 가능한 프로세스** 목록은 **프로세스** 대화 상자를 열 때 자동으로 표시됩니다. 대화 상자가 열려 있는 동안 백그라운드에서 프로세스를 시작하고 중지할 수 있습니다. 따라서 내용이 현재 상태가 아닐 수 있습니다. 언제든지 **새로 고침** 단추를 눌러 목록을 새로 고쳐 현재 프로세스 목록을 확인할 수 있습니다.  
   
-   디버깅하는 동안 여러 프로그램에 연결할 수 있지만 언제든지 디버거에서 활성화되는 프로그램은 한 개뿐입니다. 활성 프로그램은 디버그 위치 도구 모음에서 설정할 수 있습니다. 자세한 내용은 [방법: 현재 프로세스 설정](http://msdn.microsoft.com/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e)합니다.  
+   디버깅하는 동안 여러 프로그램에 연결할 수 있지만 언제든지 디버거에서 활성화되는 프로그램은 한 개뿐입니다. 활성 프로그램은 디버그 위치 도구 모음에서 설정할 수 있습니다. 자세한 내용은 [방법: 현재 프로세스 설정](https://msdn.microsoft.com/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e)합니다.  
   
    활성 프로그램에는 모든 **디버그** 메뉴 실행 명령이 적용됩니다. 프로세스 대화 상자에서 디버깅된 된 프로그램을 중단할 수 있습니다. 참조 [중단점을 사용 하 여](../debugger/using-breakpoints.md)입니다.  
   

@@ -10,12 +10,12 @@ ms.assetid: 7500c8a7-4913-4818-a88b-bfd1b9887cb6
 caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 1d34642bd805469283ad22d6b40054596ed00a9e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1d48b07dd5e4fc1fe745e3669041884c1b8eacd9
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441568"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703140"
 ---
 # <a name="how-to-update-the-status-bar"></a>방법: 상태 표시줄 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,11 +42,11 @@ ms.locfileid: "63441568"
   
 - 편집기 정보  
   
-  자세한 내용은 [상태 표시줄](http://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e)합니다.  
+  자세한 내용은 [상태 표시줄](https://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e)합니다.  
   
   IDE에서 자동으로 호출 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> 메서드의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> 구현에 문서 창을 활성화할 때입니다.  
   
   VSPackage 구현자는 상태 표시줄에서 상태 텍스트를 업데이트 하는 일을 담당 합니다. IDE 상태 텍스트 필드를 빈 텍스트로 설정 된 경우이 문자열 "READY"로 다시 설정 ("") 유휴 시간에 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [상태 표시줄](http://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e)
+ [상태 표시줄](https://msdn.microsoft.com/library/fcbc5029-1aab-4e14-adf7-419038a4935e)

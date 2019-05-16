@@ -13,12 +13,12 @@ caps.latest.revision: 24
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4d53cdee5d92a92bb7405d1ecfb669e6de25a5a0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 814327befe538bfaa102b198988e76dbd52090bb
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63432387"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705695"
 ---
 # <a name="adding-a-tracking-property-to-a-domain-specific-language-definition"></a>도메인별 언어 정의에 추적 속성 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "63432387"
   
  예를 들어, 도메인 특정 언어 도구 (DSL 도구), 도메인 클래스의 속성에는 도메인 클래스가 아니라 사용자의 이름을 사용 하 여 계산 되는 기본값이 표시 이름을 디자인 타임에 값을 변경 하거나 수 계산된 된 값으로 다시 설정 합니다.  
   
- 이 연습에서는 모델의 기본 Namespace 속성을 기반으로 기본 값이 있는 속성을 추적 하는 Namespace가 있는 도메인 특정 언어 (DSL)를 만듭니다. 속성을 추적 하는 방법에 대 한 자세한 내용은 참조 하세요. [추적 속성 정의](http://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be)합니다.  
+ 이 연습에서는 모델의 기본 Namespace 속성을 기반으로 기본 값이 있는 속성을 추적 하는 Namespace가 있는 도메인 특정 언어 (DSL)를 만듭니다. 속성을 추적 하는 방법에 대 한 자세한 내용은 참조 하세요. [추적 속성 정의](https://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be)합니다.  
   
 - 추적 속성 설명자 DSL 도구 지원입니다. 그러나 추적 속성을 추가 하려면 DSL 디자이너를 사용할 수 없습니다. 따라서 정의 및 추적 속성을 구현 하는 사용자 지정 코드를 추가 해야 합니다.  
   

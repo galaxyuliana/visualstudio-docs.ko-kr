@@ -18,12 +18,12 @@ caps.latest.revision: 28
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3fd223b0a5891bc28cdef18dcd64312812607422
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 752454f9a52807766d6eef5b2563a7b70ca0f4dd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62428477"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697390"
 ---
 # <a name="edit-and-continue-visual-c"></a>Edit and Continue (Visual C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Visual C++ 프로젝트에서 편집하며 계속하기를 사용할 수 있습�
   
  다른 업데이트 1 개선 사항으로는 취소할 수 있는 새로운 대기 대화 상자와, 파일에서 편집하며 계속하기를 지원하지 않는 경우 알리는 기능이 있습니다. 업데이트 1 개선 사항에 대 한 자세한 내용은 참조 하세요. [개선 C++ 편집 하 고 Visual Studio 2015 업데이트 1에서 계속](http://blogs.msdn.com/b/vcblog/archive/2015/11/30/improvements-for-c-edit-and-continue-in-visual-studio-2015-update-1.aspx)합니다.  
   
- Visual Studio 2013 업데이트 3에 도입된 [/Zo(최적화된 디버깅 향상)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f) 컴파일러 옵션은 [/Od((디버그) 비활성화)](http://msdn.microsoft.com/library/aafb762y.aspx) 옵션 없이 컴파일된 이진에 대한 .pdb(기호) 파일에 정보를 더 추가합니다.  
+ Visual Studio 2013 업데이트 3에 도입된 [/Zo(최적화된 디버깅 향상)](https://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f) 컴파일러 옵션은 [/Od((디버그) 비활성화)](https://msdn.microsoft.com/library/aafb762y.aspx) 옵션 없이 컴파일된 이진에 대한 .pdb(기호) 파일에 정보를 더 추가합니다.  
   
  **/Zo** 편집 하며 계속 하기가 비활성화 됩니다. [방법: 최적화된 코드 디버그](../debugger/how-to-debug-optimized-code.md)를 참조하세요.  
   
@@ -70,7 +70,7 @@ Visual C++ 프로젝트에서 편집하며 계속하기를 사용할 수 있습�
 ## <a name="BKMK_How_to_reset_the_point_of_execution"></a> 실행 지점을 다시 설정하는 방법  
  일부 코드를 변경하면 편집하며 계속하기에서 변경 내용을 적용할 때 실행 위치가 새로운 위치로 이동할 수 있습니다. 편집하며 계속하기에서는 실행 위치를 가능한 한 정확하게 지정하지만 결과가 올바르지 않은 경우도 있습니다.  
   
- Visual C++에서는 실행 위치가 변경되면 이를 알리는 대화 상자가 표시됩니다. 디버깅을 계속하기 전에 실행 위치가 올바른지 확인해야 합니다. 실행 위치가 올바르지 않으면 **다음 문 설정** 명령을 사용합니다. 자세한 내용은 [다음에 실행할 문 설정](http://msdn.microsoft.com/library/y740d9d3.aspx#BKMK_Set_the_next_statement_to_execute)을 참조하세요.  
+ Visual C++에서는 실행 위치가 변경되면 이를 알리는 대화 상자가 표시됩니다. 디버깅을 계속하기 전에 실행 위치가 올바른지 확인해야 합니다. 실행 위치가 올바르지 않으면 **다음 문 설정** 명령을 사용합니다. 자세한 내용은 [다음에 실행할 문 설정](https://msdn.microsoft.com/library/y740d9d3.aspx#BKMK_Set_the_next_statement_to_execute)을 참조하세요.  
   
 ## <a name="BKMK_How_to_work_with_stale_code"></a> 부실 코드 작업 방법  
  편집하며 계속하기로 실행 파일에 코드 변경 내용을 즉시 적용할 수 없는 경우도 있지만 디버깅을 계속할 경우 나중에 코드 변경 내용을 적용할 수 있습니다. 이는 현재 함수를 호출하는 함수를 편집하거나 호출 스택에 있는 함수에 64바이트 이상의 새 변수를 추가할 때 발생합니다.  

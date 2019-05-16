@@ -29,12 +29,12 @@ caps.latest.revision: 19
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6cf5025fdbb640b9f77e0782a7db77503fc618a4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 60f8da2430e1c84af3c26be31c6de561291c8c6e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62428237"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695289"
 ---
 # <a name="diagnostic-messages-in-the-output-window"></a>출력 창에 표시되는 진단 메시지
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "62428237"
 ## <a name="see-also"></a>참고 항목  
  [디버거 보안](../debugger/debugger-security.md)   
  [출력 창](../ide/reference/output-window.md)   
- [애플리케이션 추적 및 조율](http://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)   
- [계측 및 추적 소개](http://msdn.microsoft.com/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)   
+ [애플리케이션 추적 및 조율](https://msdn.microsoft.com/library/773b6fc4-9013-4322-b728-5dec7a72e743)   
+ [계측 및 추적 소개](https://msdn.microsoft.com/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)   
  [C#, F# 및 Visual Basic 프로젝트 형식](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [관리 코드 디버그](../debugger/debugging-managed-code.md)

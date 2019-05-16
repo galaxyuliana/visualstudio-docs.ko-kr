@@ -23,12 +23,12 @@ caps.latest.revision: 54
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 816db8b2bc5d78541dc089d75ff155b98231ffd5
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 5169f59ec12482fd35e09d4eb226277b7fb01455
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63435648"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704541"
 ---
 # <a name="javascript-memory"></a>JavaScript 메모리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -382,15 +382,15 @@ if (performance && performance.mark) {
   
 - 사용자가 새 페이지로 이동한 후 우연히 메모리에 남겨진 개체를 찾습니다. 이것은 메모리 문제의 일반적인 원인입니다. 예:  
   
-    - [URL.CreateObjectUrl](http://msdn.microsoft.com/library/windows/apps/hh453196.aspx) 함수를 잘못 사용하면 이 문제가 발생할 수 있습니다.  
+    - [URL.CreateObjectUrl](https://msdn.microsoft.com/library/windows/apps/hh453196.aspx) 함수를 잘못 사용하면 이 문제가 발생할 수 있습니다.  
   
-    - 일부 개체는 사용할 `dispose` 메서드 및 권장 사항을 제공할 수 있습니다. 예를 들어 목록의 `dispose` 메서드를 호출한 다음 페이지에서 벗어날 경우 [WinJS.Binding.List](http://msdn.microsoft.com/library/windows/apps/Hh700774.aspx) 에서 `createFiltered` 를 호출해야 합니다.  
+    - 일부 개체는 사용할 `dispose` 메서드 및 권장 사항을 제공할 수 있습니다. 예를 들어 목록의 `dispose` 메서드를 호출한 다음 페이지에서 벗어날 경우 [WinJS.Binding.List](https://msdn.microsoft.com/library/windows/apps/Hh700774.aspx) 에서 `createFiltered` 를 호출해야 합니다.  
   
     - 하나 이상의 이벤트 수신기를 제거해야 할 수 있습니다. 자세한 내용은 [View DOM event listeners](../debugger/view-dom-event-listeners.md)을 참조하세요.  
   
 - JavaScript 메모리 분석기에 대한 Build 2013 컨퍼런스에서 [이 비디오](http://channel9.msdn.com/Events/Build/2013/3-316) 의 뒷부분을 시청하세요.  
   
-- [Windows 스토어 앱에서 메모리 관리](http://msdn.microsoft.com/magazine/jj651575.aspx)를 참조합니다.  
+- [Windows 스토어 앱에서 메모리 관리](https://msdn.microsoft.com/magazine/jj651575.aspx)를 참조합니다.  
   
 - 임시로 코드를 수정하여 문제를 격리하는 방법도 있습니다. 예를 들어, 다음을 수행합니다.  
   

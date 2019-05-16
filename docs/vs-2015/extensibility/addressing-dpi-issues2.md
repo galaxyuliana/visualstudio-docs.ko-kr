@@ -6,12 +6,12 @@ ms.assetid: 359184aa-f5b6-4b6c-99fe-104655b3a494
 caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 70b20a463563c54ce0b8ac81b9acab042b0389eb
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9b8bc5963ba9263d72800cc473cfa56324884ace
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443954"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65699265"
 ---
 # <a name="addressing-dpi-issues"></a>DPI 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -228,7 +228,7 @@ xmlns:vsui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.V
 ## <a name="enabling-hdpi-support-to-the-weboc"></a>WebOC HDPI 지원을 사용 하도록 설정  
  기본적으로 WebOC 컨트롤 (예: WPF 또는 IWebBrowser2 인터페이스에서 WebBrowser 컨트롤) HDPI 검색 및 지원을 사용 하도록 설정 하지 않습니다. 결과 고해상도 디스플레이에 너무 작으면 콘텐츠 표시를 사용 하 여 포함 된 컨트롤 됩니다. 다음 특정 웹 WebOC 인스턴스에서 높은 DPI 지원을 사용 하도록 설정 하는 방법을 설명 합니다.  
   
- IDocHostUIHandler 인터페이스 구현 (MSDN 문서를 참조 합니다 [IDocHostUIHandler](http://msdn.microsoft.com/library/aa753260.aspx) 인터페이스):  
+ IDocHostUIHandler 인터페이스 구현 (MSDN 문서를 참조 합니다 [IDocHostUIHandler](https://msdn.microsoft.com/library/aa753260.aspx) 인터페이스):  
   
 ```idl  
 [ComImport, InterfaceType(ComInterfaceType.InterfaceIsIUnknown),  
@@ -307,7 +307,7 @@ public interface IDocHostUIHandler
     }   
 ```  
   
- 필요에 따라 ICustomDoc 인터페이스를 구현 (MSDN 문서를 참조 합니다 [ICustomDoc](http://msdn.microsoft.com/library/aa753272.aspx) 인터페이스):  
+ 필요에 따라 ICustomDoc 인터페이스를 구현 (MSDN 문서를 참조 합니다 [ICustomDoc](https://msdn.microsoft.com/library/aa753272.aspx) 인터페이스):  
   
 ```idl  
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown),  

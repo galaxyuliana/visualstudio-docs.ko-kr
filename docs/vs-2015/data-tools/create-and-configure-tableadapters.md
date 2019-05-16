@@ -20,12 +20,12 @@ caps.latest.revision: 33
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 759cf18033adb962a6ccb97a31802963e12ba5c4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: ab802e36a527952a0f0b789445bbdee8224af9d2
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431213"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705013"
 ---
 # <a name="create-and-configure-tableadapters"></a>TableAdapter 만들기 및 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,9 +34,9 @@ Tableadapter 응용 프로그램과 데이터베이스 간에 통신을 제공�
   
  다음 작업 중 하나를 수행 하는 경우에 Tableadapter는 만들어집니다.  
   
-- 실행 된 [데이터 소스 구성 마법사](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) 중 하나를 선택 하 고는 **데이터베이스** 또는 **웹 서비스** 데이터 원본 유형입니다.  
+- 실행 된 [데이터 소스 구성 마법사](https://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f) 중 하나를 선택 하 고는 **데이터베이스** 또는 **웹 서비스** 데이터 원본 유형입니다.  
   
-- 데이터베이스 개체를 끌어 [서버 탐색기](http://msdn.microsoft.com/library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d) 에 **데이터 집합 디자이너**합니다.  
+- 데이터베이스 개체를 끌어 [서버 탐색기](https://msdn.microsoft.com/library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d) 에 **데이터 집합 디자이너**합니다.  
   
   새 TableAdapter를 만들를 도구 상자에서 TableAdapter의 빈 영역을 끌어 데이터 원본으로 구성 합니다 **데이터 집합 디자이너** 화면.  
   

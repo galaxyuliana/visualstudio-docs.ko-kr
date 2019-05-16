@@ -13,12 +13,12 @@ caps.latest.revision: 8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a94fbfd319489df0ac3bcbaf474c6a58cef66868
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9baa358c3728c6cbedc5f8768b29ba7efe64b399
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63432382"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703283"
 ---
 # <a name="how-to-create-a-workflow-activity-library-legacy"></a>방법: 워크플로 활동 라이브러리 만들기(레거시)
 [!INCLUDE[wfd1](../includes/wfd1-md.md)]에서 제공하는 레거시 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용하여 워크플로 활동 라이브러리 프로젝트를 만들려면 다음 단계를 따릅니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
@@ -52,5 +52,5 @@ ms.locfileid: "63432382"
  [레거시 워크플로 프로젝트 만들기](../workflow-designer/creating-legacy-workflow-projects.md)   
  [레거시 활동 디자이너 사용](../workflow-designer/using-the-legacy-activity-designer.md)   
  [레거시 워크플로 활동](../workflow-designer/legacy-workflow-activities.md)   
- [워크플로 활동 개발](http://msdn.microsoft.com/19876dfc-dfa5-4d52-b1f5-1d087474cc52)   
- [Windows Workflow Foundation 활동](http://msdn.microsoft.com/192c4c1e-afb6-4f58-ab11-2b5bbbc2d2c0)
+ [워크플로 활동 개발](https://msdn.microsoft.com/19876dfc-dfa5-4d52-b1f5-1d087474cc52)   
+ [Windows Workflow Foundation 활동](https://msdn.microsoft.com/192c4c1e-afb6-4f58-ab11-2b5bbbc2d2c0)

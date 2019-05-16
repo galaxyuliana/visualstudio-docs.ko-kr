@@ -12,12 +12,12 @@ ms.assetid: 704e932d-2325-410e-89c4-ce88c6ec19da
 caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: a5d102a4a9cf7946e135ec8f6cdbff44015d3b47
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: ad398380c7c951b99e7d84283355ee9d31955173
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983498"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704726"
 ---
 # <a name="ieedatastorage"></a>IEEDataStorage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IEEDataStorage : IUnknown
  바이트 배열을 나타내는 데이 인터페이스를 구현 하는 식 계산기 (EE) (형식 시각화 도우미에서 사용 하 여 검색을 통해 데이터를 변경 하는 [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) 인터페이스). 일반적으로 EE 외부 형식 시각화 도우미를 지원 하기 위해이 인터페이스를 구현 합니다.  
   
 ## <a name="notes-for-callers"></a>호출자에 대 한 정보  
- 메서드는 `IPropertyProxyEESide` 모든 인터페이스는이 인터페이스를 반환 합니다. 호출 [GetPropertyProxy](../../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md) 가져오려고 합니다 [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) 인터페이스입니다. 호출 [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) 얻기 위해 인터페이스의 [IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md) 인터페이스입니다.  
+ 메서드는 `IPropertyProxyEESide` 모든 인터페이스는이 인터페이스를 반환 합니다. 호출 [GetPropertyProxy](../../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md) 가져오려고 합니다 [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) 인터페이스입니다. 호출 [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) 에 [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) 얻기 위해 인터페이스의 [IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md) 인터페이스입니다.  
   
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  `IEEDataStorage` 인터페이스는 다음 메서드를 구현 합니다.  

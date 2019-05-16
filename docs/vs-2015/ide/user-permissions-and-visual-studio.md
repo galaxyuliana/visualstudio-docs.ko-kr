@@ -14,12 +14,12 @@ caps.latest.revision: 17
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0d8ba826e332141a3ee53a70185f0e8e18e465f4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 8bc4920c32d781d31a6aed88699efccf8be6b774
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443215"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703985"
 ---
 # <a name="user-permissions-and-visual-studio"></a>사용자 권한 및 Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,17 +36,17 @@ ms.locfileid: "63443215"
 |설치|Visual Studio 설치|[Visual Studio 2015 설치](../install/install-visual-studio-2015.md)|
 ||Visual Studio 평가판에서 업그레이드|[방법: Visual Studio Trial Edition에서 업그레이드](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)|
 ||로컬 도움말 콘텐츠 설치, 업데이트 또는 제거|[로컬 콘텐츠 설치 및 관리](../ide/install-and-manage-local-content.md)|
-|애플리케이션 종류|SharePoint 2010용 솔루션 개발|[SharePoint 솔루션 개발 요구 사항](http://msdn.microsoft.com/library/ae8ff69d-4540-4380-ab0b-845f7108e89c)|
+|애플리케이션 종류|SharePoint 2010용 솔루션 개발|[SharePoint 솔루션 개발 요구 사항](https://msdn.microsoft.com/library/ae8ff69d-4540-4380-ab0b-845f7108e89c)|
 ||[!INCLUDE[win8_appstore_long](../includes/win8-appstore-long-md.md)]의 개발자 라이선스 취득|[개발자 라이선스 얻기(Windows 스토어 앱)](http://go.microsoft.com/fwlink/?LinkID=241313)|
 |도구 상자|**도구 상자**에 클래식 COM 컨트롤 추가.|[도구 상자 사용](../ide/using-the-toolbox.md)|
-|추가 기능|IDE에서 기본 COM을 사용하여 작성한 추가 기능 설치 및 사용|[추가 기능 및 마법사 만들기](http://msdn.microsoft.com/library/c5a47c21-6668-4de3-898d-afa969317e73)|
-|빌드|구성 요소를 등록하는 빌드 후 이벤트 사용|[사용자 지정 빌드 단계 및 빌드 이벤트 이해](http://msdn.microsoft.com/library/beb2f017-3e9f-4b2c-9b57-2572fd2628e4)|
-||C++ 프로젝트를 빌드할 때 등록 단계 포함|[사용자 지정 빌드 단계 및 빌드 이벤트 이해](http://msdn.microsoft.com/library/beb2f017-3e9f-4b2c-9b57-2572fd2628e4)|
+|추가 기능|IDE에서 기본 COM을 사용하여 작성한 추가 기능 설치 및 사용|[추가 기능 및 마법사 만들기](https://msdn.microsoft.com/library/c5a47c21-6668-4de3-898d-afa969317e73)|
+|빌드|구성 요소를 등록하는 빌드 후 이벤트 사용|[사용자 지정 빌드 단계 및 빌드 이벤트 이해](https://msdn.microsoft.com/library/beb2f017-3e9f-4b2c-9b57-2572fd2628e4)|
+||C++ 프로젝트를 빌드할 때 등록 단계 포함|[사용자 지정 빌드 단계 및 빌드 이벤트 이해](https://msdn.microsoft.com/library/beb2f017-3e9f-4b2c-9b57-2572fd2628e4)|
 |디버깅|높은 권한으로 실행되는 애플리케이션 디버깅|[디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)|
 ||ASP.NET 웹 사이트와 같이 다른 사용자 계정으로 실행되는 애플리케이션 디버깅|[ASP.NET 및 AJAX 애플리케이션 디버그](../debugger/debugging-aspnet-and-ajax-applications.md)|
-||XBAP(XAML 브라우저 애플리케이션) 영역에서 디버깅|[WPF 호스트(PresentationHost.exe)](http://msdn.microsoft.com/library/3215bfa1-722c-4ac8-a7c5-bdd02d30afbd)|
+||XBAP(XAML 브라우저 애플리케이션) 영역에서 디버깅|[WPF 호스트(PresentationHost.exe)](https://msdn.microsoft.com/library/3215bfa1-722c-4ac8-a7c5-bdd02d30afbd)|
 ||에뮬레이터를 사용하여 Microsoft Azure용 클라우드 서비스 프로젝트 디버깅|[Visual Studio에서 Azure 클라우드 서비스 또는 가상 컴퓨터 디버깅](http://go.microsoft.com/fwlink/?LinkId=266725)|
-||원격 디버깅을 위한 방화벽 구성|[디바이스에서 원격 도구 설정](http://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)|
+||원격 디버깅을 위한 방화벽 구성|[디바이스에서 원격 도구 설정](https://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)|
 |성능 도구|애플리케이션 프로파일링|[초보자를 위한 성능 프로파일링 지침](../profiling/beginners-guide-to-performance-profiling.md)|
 |배포|로컬 컴퓨터에서 IIS(인터넷 정보 서비스)에 웹 애플리케이션 배포|[Deploying an ASP.NET Web Application to a Hosting Provider using Visual Studio or Visual Web Developer: Deploying to IIS as a Test Environment](http://go.microsoft.com/fwlink/?LinkId=266478)(Visual Studio 또는 Visual Web Developer를 사용하여 호스팅 제공업체에 ASP.NET 웹 애플리케이션 배포: IIS에 테스트 환경으로 배포)|
 |Microsoft에 사용자 의견 제공|Visual Studio 사용자 환경 개선 프로그램 참여 방법 변경|[방법: 사용자 의견 보내기](../misc/how-to-send-feedback-about-visual-studio.md)|

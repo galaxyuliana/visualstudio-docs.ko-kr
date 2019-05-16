@@ -9,17 +9,17 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 69ca24f45384ef650c4a692a8ec0afc079f19bac
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: f2081b302bfb288b08119913081154b970fadcda
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425367"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692574"
 ---
 # <a name="query-datasets"></a>데이터 세트 쿼리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-데이터 집합의 특정 레코드를 검색 하려면 FindBy 메서드를 사용 하 여 DataTable에서, 테이블의 행 컬렉션을 통해 사용자 고유의 foreach 루프를 작성 또는 사용 하 여 [LINQ to DataSet](http://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17)합니다. LINQ to DataSet입니다.  
+데이터 집합의 특정 레코드를 검색 하려면 FindBy 메서드를 사용 하 여 DataTable에서, 테이블의 행 컬렉션을 통해 사용자 고유의 foreach 루프를 작성 또는 사용 하 여 [LINQ to DataSet](https://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17)합니다. LINQ to DataSet입니다.  
   
 ## <a name="dataset-case-sensitivity"></a>데이터 집합의 대/소문자 구분  
  데이터 집합 내에서 테이블 및 열 이름은 기본적으로 대/소문자-즉, "Customers" 라는 데이터 집합의 테이블 수 수 라고도 "고객"을 선택 합니다. SQL 나열할 SQL Server를 포함 하 여 여러 데이터베이스의 명명 규칙 일치, 기본 동작은 대/소문자를 통해서만 데이터 요소의 이름을 구별할 수 없으며 합니다.  
@@ -65,7 +65,7 @@ ms.locfileid: "63425367"
   
  사용할 수는 <xref:System.Data.DataRelation> 호출 하 여 관련된 레코드를 찾을 개체입니다 합니다 <xref:System.Data.DataRow.GetChildRows%2A> 메서드의 <xref:System.Data.DataRow> 부모 테이블에서. 이 메서드는 관련 된 자식 레코드의 배열을 반환합니다. 하거나 호출할 수 있습니다 합니다 <xref:System.Data.DataRow.GetParentRow%2A> 메서드는 <xref:System.Data.DataRow> 자식 테이블의 합니다. 이 메서드는 단일 <xref:System.Data.DataRow> 부모 테이블에서.  
   
- 이 페이지는 형식화 된 데이터 집합을 사용 하는 예제를 제공 합니다. 형식화 되지 않은 데이터 집합에서 관계를 탐색 하는 방법에 대 한 내용은 [Datarelation 탐색](http://msdn.microsoft.com/library/e5e673f4-9b44-45ae-aaea-c504d1cc5d3e)합니다.  
+ 이 페이지는 형식화 된 데이터 집합을 사용 하는 예제를 제공 합니다. 형식화 되지 않은 데이터 집합에서 관계를 탐색 하는 방법에 대 한 내용은 [Datarelation 탐색](https://msdn.microsoft.com/library/e5e673f4-9b44-45ae-aaea-c504d1cc5d3e)합니다.  
   
 > [!NOTE]
 > Windows Forms 응용 프로그램에서 작업 하 고 데이터 바인딩 기능을 사용 하 여 데이터를 표시 하는 경우 디자이너에서 생성 된 양식 응용 프로그램에 대 한 충분 한 기능을 제공할 수 있습니다. 자세한 내용은 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다.  

@@ -18,19 +18,19 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 6b263dd4e00fcb7a519ab89ecc693bd6216e0eeb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0c27ec5be48b37f95068a2be6c8605a97d122d21
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097156"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705010"
 ---
 # <a name="create-a-windows-forms-user-control-that-supports-complex-data-binding"></a>복합 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Windows 애플리케이션에서 폼에 데이터를 표시할 때는 **도구 상자**에서 기존 컨트롤을 선택할 수도 있고, 표준 컨트롤에서는 제공되지 않는 기능이 애플리케이션에 필요한 경우에는 사용자 지정 컨트롤을 작성할 수도 있습니다. 이 연습에서는 <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>를 구현하는 컨트롤을 만드는 방법을 보여줍니다. <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>를 구현하는 컨트롤은 데이터에 바인딩할 수 있는 `DataSource` 및 `DataMember` 속성을 포함합니다. 이러한 컨트롤은 <xref:System.Windows.Forms.DataGridView> 또는 <xref:System.Windows.Forms.ListBox>와 비슷합니다.  
   
- 컨트롤 작성에 대 한 자세한 내용은 참조 하세요. [디자인 타임에 Windows Forms 컨트롤 개발](http://msdn.microsoft.com/library/e5a8e088-7ec8-4fd9-bcb3-9078fd134829)합니다.  
+ 컨트롤 작성에 대 한 자세한 내용은 참조 하세요. [디자인 타임에 Windows Forms 컨트롤 개발](https://msdn.microsoft.com/library/e5a8e088-7ec8-4fd9-bcb3-9078fd134829)합니다.  
   
  데이터 바인딩 시나리오에 사용할 컨트롤을 작성할 때는 다음 데이터 바인딩 특성 중 하나를 구현해야 합니다.  
   
@@ -52,9 +52,9 @@ Windows 애플리케이션에서 폼에 데이터를 표시할 때는 **도구 �
   
 - `ComplexBindingProperty` 특성을 구현합니다.  
   
-- 사용 하 여 데이터 집합을 만들 합니다 [데이터 소스 구성 마법사](http://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f)합니다.  
+- 사용 하 여 데이터 집합을 만들 합니다 [데이터 소스 구성 마법사](https://msdn.microsoft.com/library/c4df7de5-5da0-4064-940c-761dd6d9e28f)합니다.  
   
-- 설정 합니다 **고객** 테이블에 [데이터 소스 창](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) 새 복합 컨트롤을 사용 하 합니다.  
+- 설정 합니다 **고객** 테이블에 [데이터 소스 창](https://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) 새 복합 컨트롤을 사용 하 합니다.  
   
 - 끌어와 새 컨트롤을 추가 합니다 **데이터 소스 창** 끌어다 **Form1**합니다.  
   
@@ -72,7 +72,7 @@ Windows 애플리케이션에서 폼에 데이터를 표시할 때는 **도구 �
   
 2. 프로젝트 이름을 **ComplexControlWalkthrough**로 지정합니다.  
   
-3. 선택 **Windows 응용 프로그램**, 클릭 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
+3. 선택 **Windows 응용 프로그램**, 클릭 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](https://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
   
      **ComplexControlWalkthrough** 프로젝트가 만들어져 **솔루션 탐색기**에 추가됩니다.  
   
@@ -173,4 +173,4 @@ Windows 애플리케이션에서 폼에 데이터를 표시할 때는 **도구 �
 ## <a name="see-also"></a>참고 항목  
  [Visual Studio에서 데이터에 Windows Forms 컨트롤 바인딩](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [데이터 소스 창에서 끌어올 때 만들 컨트롤 설정](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)   
- [Windows Forms 컨트롤](http://msdn.microsoft.com/library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a)
+ [Windows Forms 컨트롤](https://msdn.microsoft.com/library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a)

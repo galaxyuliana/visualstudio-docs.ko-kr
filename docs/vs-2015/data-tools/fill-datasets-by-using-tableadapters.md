@@ -22,12 +22,12 @@ caps.latest.revision: 35
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0d4fca66296f4437d3c9af55142d9fdbc56f21b7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: fb06c1d97c854aae05d993c086069e10e35518f5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431954"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704978"
 ---
 # <a name="fill-datasets-by-using-tableadapters"></a>TableAdapters를 사용하여 데이터 세트 채우기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ TableAdapter 구성 요소를 기반으로 쿼리 또는 저장된 프로시저 
  [!code-vb[VbRaddataTableAdapters#7](../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Class1.vb#7)]  
   
 ## <a name="associated-datatable-schema"></a>DataTable 스키마와 연결된  
- TableAdapter를 만든, 초기 쿼리를 사용 하거나 TableAdapter의 스키마를 정의 하는 저장된 프로시저의 연결 된 경우 <xref:System.Data.DataTable>합니다. 이 초기 쿼리를 실행 하거나 TableAdapter의 호출 하 여 저장 프로시저 `Fill` 메서드 (연결 된 TableAdapter 채우는 <xref:System.Data.DataTable>). 연결된 된 데이터 테이블의 스키마에는 TableAdapter의 주 쿼리에 변경 내용이 반영 됩니다. 예를 들어, 연결된 된 데이터 테이블에서 열을 제거도 기본 쿼리에서 열을 제거 합니다. TableAdapter에 대 한 추가 쿼리가 기본 쿼리에 포함 하지 않은 열을 반환 하는 SQL 문을 사용 하 여, 디자이너 주 쿼리 및 추가 쿼리 간의 열 변경 내용을 동기화 하려고 합니다. 자세한 내용은 [방법: Tableadapter 편집](http://msdn.microsoft.com/library/ca178745-e35a-45f1-a395-23cddfd8f855)합니다.  
+ TableAdapter를 만든, 초기 쿼리를 사용 하거나 TableAdapter의 스키마를 정의 하는 저장된 프로시저의 연결 된 경우 <xref:System.Data.DataTable>합니다. 이 초기 쿼리를 실행 하거나 TableAdapter의 호출 하 여 저장 프로시저 `Fill` 메서드 (연결 된 TableAdapter 채우는 <xref:System.Data.DataTable>). 연결된 된 데이터 테이블의 스키마에는 TableAdapter의 주 쿼리에 변경 내용이 반영 됩니다. 예를 들어, 연결된 된 데이터 테이블에서 열을 제거도 기본 쿼리에서 열을 제거 합니다. TableAdapter에 대 한 추가 쿼리가 기본 쿼리에 포함 하지 않은 열을 반환 하는 SQL 문을 사용 하 여, 디자이너 주 쿼리 및 추가 쿼리 간의 열 변경 내용을 동기화 하려고 합니다. 자세한 내용은 [방법: Tableadapter 편집](https://msdn.microsoft.com/library/ca178745-e35a-45f1-a395-23cddfd8f855)합니다.  
   
 ## <a name="tableadapter-update-commands"></a>TableAdapter 업데이트 명령  
  TableAdapter의 업데이트 기능은 TableAdapter 마법사에서 기본 쿼리에 사용할 수 있는 얼 만큼의 정보에 따라 다릅니다. 예를 들어, 여러 테이블 (조인)의 값, 스칼라 값, 뷰 또는 집계 함수의 결과 인출 하도록 구성 된 Tableadapter 처음에 기본 데이터베이스로 업데이트를 보낼 수 있는 기능을 사용 하 여 만들어지지 않습니다. 그러나 INSERT, UPDATE 및 DELETE 명령에서 수동으로 구성할 수 있습니다 합니다 **속성** 창입니다.  
@@ -106,7 +106,7 @@ TableAdapter 구성 요소를 기반으로 쿼리 또는 저장된 프로시저 
  이러한 직접 메서드를 만드는 않으려면 TableAdapter의 설정 **GenerateDbDirectMethods** 속성을 `false` (에 **속성** 창). TableAdapter에 추가 되는 추가 쿼리는 독립 실행형-이러한 메서드를 생성 하지는 않습니다.  
   
 ## <a name="tableadapter-support-for-nullable-types"></a>TableAdapter nullable 형식 지원  
- Tableadapter에 nullable 형식 지원 `Nullable(Of T)` 고 `T?`입니다. Visual Basic의 nullable 형식에 대한 자세한 내용은 [Nullable 값 형식](http://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6)을 참조하세요. C#의 nullable 형식에 대 한 자세한 내용은 참조 하세요. [Nullable 형식 사용](http://msdn.microsoft.com/library/0bacbe72-ce15-4b14-83e1-9c14e6380c28)합니다.  
+ Tableadapter에 nullable 형식 지원 `Nullable(Of T)` 고 `T?`입니다. Visual Basic의 nullable 형식에 대한 자세한 내용은 [Nullable 값 형식](https://msdn.microsoft.com/library/9ac3b602-6f96-4e6d-96f7-cd4e81c468a6)을 참조하세요. C#의 nullable 형식에 대 한 자세한 내용은 참조 하세요. [Nullable 형식 사용](https://msdn.microsoft.com/library/0bacbe72-ce15-4b14-83e1-9c14e6380c28)합니다.  
   
 ## <a name="security"></a>보안  
  데이터 명령을 사용 하는 경우는 `CommandType` 속성이 설정 <xref:System.Data.CommandType>, 신중 하 게 데이터베이스에 전달 하기 전에 클라이언트에서 전송 되는 정보를 확인 합니다. 악의적인 사용자가 인증되지 않은 액세스 권한을 얻거나 데이터베이스를 손상시키기 위해 수정되었거나 추가된 SQL 문을 전송(주입)할 수도 있습니다. 데이터베이스에 사용자 입력을 전송 하기 전에 항상 정보가 유효한 지 확인 합니다. 매개 변수가 있는 쿼리 또는 저장된 프로시저를 가능 하면 항상 사용 하는 것이 좋습니다.  

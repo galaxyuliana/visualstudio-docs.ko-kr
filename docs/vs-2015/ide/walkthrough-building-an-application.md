@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ec0071cb8bf990974c700ce296ebeb86b5ad8c17
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: a7b3921d9ef11ba01cad6d25f69f3a484e27c929
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045475"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698300"
 ---
 # <a name="walkthrough-building-an-application"></a>연습: 응용 프로그램 빌드
 
@@ -78,7 +78,7 @@ ms.locfileid: "60045475"
 
 ## <a name="BKMK_CreateBuildConfig"></a> 사용자 지정 빌드 구성 만들기
 
-솔루션을 만들면 솔루션에 대한 디버그 및 릴리스 빌드 구성과 해당 기본 플랫폼 대상이 자동으로 정의됩니다. 나중에 이러한 구성을 사용자 지정하거나 고유한 구성을 만들 수 있습니다. 빌드 구성은 빌드 형식을 지정합니다. 빌드 플랫폼은 애플리케이션이 해당 구성에 대한 대상으로 지정하는 운영 체제를 지정합니다. 자세한 내용은 [빌드 구성 이해](../ide/understanding-build-configurations.md), [빌드 플랫폼 이해](../ide/understanding-build-platforms.md) 및 [디버그 및 릴리스 프로젝트 구성](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)을 참조하세요.
+솔루션을 만들면 솔루션에 대한 디버그 및 릴리스 빌드 구성과 해당 기본 플랫폼 대상이 자동으로 정의됩니다. 나중에 이러한 구성을 사용자 지정하거나 고유한 구성을 만들 수 있습니다. 빌드 구성은 빌드 형식을 지정합니다. 빌드 플랫폼은 애플리케이션이 해당 구성에 대한 대상으로 지정하는 운영 체제를 지정합니다. 자세한 내용은 [빌드 구성 이해](../ide/understanding-build-configurations.md), [빌드 플랫폼 이해](../ide/understanding-build-platforms.md) 및 [디버그 및 릴리스 프로젝트 구성](https://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)을 참조하세요.
 
 **구성 관리자** 대화 상자를 사용하여 구성 및 플랫폼 설정을 변경하거나 만들 수 있습니다. 이 절차에서는 테스트용 빌드 구성을 만듭니다.
 
@@ -197,9 +197,9 @@ ms.locfileid: "60045475"
 
     빌드 정보에는 빌드가 시작된 시간(시작 부분에 있음), 파일이 처리된 순서 및 프로세스를 완료하는 데 걸린 시간(끝 부분에 있음)이 포함됩니다. 이 정보에는 빌드하는 동안 Visual Studio에서 실행하는 실제 컴파일러 구문도 포함됩니다.
 
-    예를 들어 Visual C# 빌드에서 [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) 옵션은 이 항목에서 이전에 지정한 경고 코드, 1762를 세 개의 다른 경고와 함께 나열합니다.
+    예를 들어 Visual C# 빌드에서 [/nowarn](https://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) 옵션은 이 항목에서 이전에 지정한 경고 코드, 1762를 세 개의 다른 경고와 함께 나열합니다.
 
-    Visual Basic 빌드에서 [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83)은 제외할 특정 경고를 포함하지 않으므로 경고가 나타나지 않습니다.
+    Visual Basic 빌드에서 [/nowarn](https://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83)은 제외할 특정 경고를 포함하지 않으므로 경고가 나타나지 않습니다.
 
    > [!TIP]
    > Ctrl+F 키를 선택하여 **찾기** 대화 상자를 표시하면 **출력** 창의 내용을 검색할 수 있습니다.
@@ -264,6 +264,6 @@ ms.locfileid: "60045475"
 
 ## <a name="see-also"></a>참고 항목
 
-- [연습: 프로젝트 빌드(C++)](http://msdn.microsoft.com/library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)
-- [ASP.NET 웹 애플리케이션 프로젝트 미리 컴파일 개요](http://msdn.microsoft.com/b940abbd-178d-4570-b441-52914fa7b887)
+- [연습: 프로젝트 빌드(C++)](https://msdn.microsoft.com/library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)
+- [ASP.NET 웹 애플리케이션 프로젝트 미리 컴파일 개요](https://msdn.microsoft.com/b940abbd-178d-4570-b441-52914fa7b887)
 - [연습: MSBuild 사용](../msbuild/walkthrough-using-msbuild.md)

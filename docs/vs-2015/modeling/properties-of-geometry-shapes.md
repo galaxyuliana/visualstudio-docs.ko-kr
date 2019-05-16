@@ -13,12 +13,12 @@ caps.latest.revision: 23
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b8d848372521baebb48cb5b3924744e88970a728
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 6646f67db427e291fd62b731c31109eaab16f991
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982342"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701638"
 ---
 # <a name="properties-of-geometry-shapes"></a>기하 도형의 속성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -56,4 +56,4 @@ ms.locfileid: "58982342"
 |Help Keyword|이 셰이프에 대 한 F1 도움말을 인덱싱하는 데는 키워드입니다.|\<없음 >|  
   
 ## <a name="see-also"></a>참고 항목  
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [도메인 특정 언어 도구 용어집](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

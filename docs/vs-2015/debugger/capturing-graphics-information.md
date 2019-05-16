@@ -13,12 +13,12 @@ caps.latest.revision: 44
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 9fbdaf845d780935b238bac2ba2c2e7cb0c53b59
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1b78492ccd5c2666da5ffc503cdf126842431478
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437823"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65702547"
 ---
 # <a name="capturing-graphics-information"></a>그래픽 정보 캡처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,7 +79,7 @@ Visual Studio Graphics Analyzer를 사용하여 렌더링 문제 및 성능 문�
 ## <a name="capturing-graphics-information-remotely"></a>원격으로 그래픽 정보 캡처  
  그래픽 정보는 로컬 컴퓨터, 원격 컴퓨터 또는 원격 장치에서 실행되는 응용 프로그램에서 캡처할 수 있습니다. 원격 캡처는 [!INCLUDE[winblue_client_2](../includes/winblue-client-2-md.md)] 컴퓨터 및 [!INCLUDE[winblue_winrt_2](../includes/winblue-winrt-2-md.md)] 장치에서 지원됩니다. 원격으로 실행되는 응용 프로그램에서 그래픽 정보를 캡처하려면 원격 디버깅을 위해 프로젝트를 구성하고 앞에서 설명한 대로 그래픽 진단 모드로 응용 프로그램을 실행합니다. 원격 컴퓨터에서 실행되는 응용 프로그램 및 캡처한 그래픽 정보를 개발 시스템에 기록합니다.  
   
- 원격 디버깅을 위한 프로젝트 구성 방법은 개발 중인 응용 프로그램 종류와 사용 중인 프로그래밍 언어의 종류에 따라 달라집니다. Windows 스토어 앱 원격 디버깅을 구성 하는 방법에 대 한 정보를 참조 하세요 [Windows 스토어 앱 실행을 원격 컴퓨터에서](../debugger/run-windows-store-apps-on-a-remote-machine.md)합니다. Windows 데스크톱 앱에 대 한 원격 디버깅을 구성 하는 방법에 대 한 자세한 내용은 [설정 원격 디버깅 Visual Studio 프로젝트에 대 한](http://msdn.microsoft.com/library/ec332dc4-400a-498b-a0e6-c8dcf10fef8a)합니다.  
+ 원격 디버깅을 위한 프로젝트 구성 방법은 개발 중인 응용 프로그램 종류와 사용 중인 프로그래밍 언어의 종류에 따라 달라집니다. Windows 스토어 앱 원격 디버깅을 구성 하는 방법에 대 한 정보를 참조 하세요 [Windows 스토어 앱 실행을 원격 컴퓨터에서](../debugger/run-windows-store-apps-on-a-remote-machine.md)합니다. Windows 데스크톱 앱에 대 한 원격 디버깅을 구성 하는 방법에 대 한 자세한 내용은 [설정 원격 디버깅 Visual Studio 프로젝트에 대 한](https://msdn.microsoft.com/library/ec332dc4-400a-498b-a0e6-c8dcf10fef8a)합니다.  
   
  이후에는 정보가 캡처된 위치에 관계없이 원격 컴퓨터 또는 장치를 사용하여 그래픽 정보를 재생할 수 있습니다. 자세한 내용은 [방법: 그래픽 진단 재생 머신 변경](../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md)을 참조하세요.  
   

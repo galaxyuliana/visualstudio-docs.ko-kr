@@ -12,12 +12,12 @@ caps.latest.revision: 26
 author: mikeblome
 ms.author: mblome
 manager: jillfra
-ms.openlocfilehash: 198a848f953881af5a7ac4b042c74b368d202d06
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 022966ae483b958da6032769e219f4ab6750f330
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425895"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696424"
 ---
 # <a name="how-to-upgrade-visual-c-projects-to-visual-studio-2015"></a>방법: Visual C++ 프로젝트를 Visual Studio 2015로 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,4 +54,4 @@ Visual Studio 2017에 대한 최신 설명서는 [Visual C++ 포팅 및 업그�
  [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)]에서 사용자 지정 플랫폼 도구 집합으로 계속 작업하려면 해당 도구 집합이 %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\PlatformToolsets\(x86 컴퓨터) 또는 %ProgramFiles (x86)%\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\PlatformToolsets\(x64 컴퓨터)에 있어야 합니다. 사용자 지정 플랫폼 도구 집합을 만드는 방법에 대한 자세한 내용은 Visual C++ 팀 블로그에서 [C++ 네이티브 멀티 타기팅](http://go.microsoft.com/fwlink/?LinkId=248587) 을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [Visual C++ 포팅 및 업그레이드 가이드](http://msdn.microsoft.com/library/f5fbcc3d-aa72-41a6-ad9a-a706af2166fb) [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)
+ [Visual C++ 포팅 및 업그레이드 가이드](https://msdn.microsoft.com/library/f5fbcc3d-aa72-41a6-ad9a-a706af2166fb) [Visual Studio 프로젝트 포팅, 마이그레이션, 업그레이드](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)

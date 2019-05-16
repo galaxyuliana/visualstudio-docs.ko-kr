@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: db5b2df99a887511351e6b5bd120968edf7c53cb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 72af15a510fffedf4986f292058377989bb20973
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080867"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65695555"
 ---
 # <a name="display-data-in-blend"></a>Blend에서 데이터 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ ms.locfileid: "60080867"
  **짧은 비디오 시청:** ![설치 된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [XML 데이터 원본 만들기](https://www.youtube.com/watch?v=RjQueappjqk&feature=youtube_gdata)합니다.  
   
 ## <a name="LiveStore"></a> 스토어 또는 Phone 앱에 라이브 데이터 표시  
- [데이터 및 파일(XAML) 작업](http://msdn.microsoft.com/library/windows/apps/xaml/br229562.aspx)을 참조하세요.  
+ [데이터 및 파일(XAML) 작업](https://msdn.microsoft.com/library/windows/apps/xaml/br229562.aspx)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [Blend for Visual Studio를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

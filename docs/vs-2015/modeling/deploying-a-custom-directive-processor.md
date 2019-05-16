@@ -11,12 +11,12 @@ caps.latest.revision: 20
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c485209f47e2d119fe469a59fe379f7cabe03813
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 14bb73043a3c206f5b7397717a113e479a4163d7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63422584"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65699683"
 ---
 # <a name="deploying-a-custom-directive-processor"></a>사용자 지정 지시문 처리기 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "63422584"
   
  이러한 방법은 다음과 같습니다.  
   
-- [Visual Studio 확장 (VSIX)](http://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832)합니다. 자신이 사용하는 컴퓨터와 다른 컴퓨터 둘 다에 지시문 프로세서를 설치하고 제거하는 방법을 제공합니다. 일반적으로 동일한 VSIX에 다른 기능을 패키지할 수도 있습니다.  
+- [Visual Studio 확장 (VSIX)](https://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832)합니다. 자신이 사용하는 컴퓨터와 다른 컴퓨터 둘 다에 지시문 프로세서를 설치하고 제거하는 방법을 제공합니다. 일반적으로 동일한 VSIX에 다른 기능을 패키지할 수도 있습니다.  
   
 - [VSPackage](../extensibility/internals/vspackages.md). 지시문 프로세서 외에 다른 기능이 포함된 VSPackage를 정의하는 경우 지시문 프로세서를 등록하는 간편한 방법이 있습니다.  
   
@@ -34,7 +34,7 @@ ms.locfileid: "63422584"
   [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 또는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 텍스트 템플릿을 변형하려는 경우에만 이러한 방법 중 하나를 사용해야 합니다. 응용 프로그램에서 사용자 지정 호스트를 사용하는 경우 사용자 지정 호스트는 각 지시문의 지시문 프로세서를 찾는 작업을 담당합니다.  
   
 ## <a name="deploying-a-directive-processor-in-a-vsix"></a>VSIX로 지시문 프로세서 배포  
- 사용자 지정 지시문 프로세서를 추가할 수 있습니다는 [Visual Studio 확장 (VSIX)](http://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832)합니다.  
+ 사용자 지정 지시문 프로세서를 추가할 수 있습니다는 [Visual Studio 확장 (VSIX)](https://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832)합니다.  
   
  다음 두 항목이 .vsix 파일에 포함되어 있는지 확인해야 합니다.  
   

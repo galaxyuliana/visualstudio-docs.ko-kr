@@ -20,12 +20,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 46e5990b92dae5086d2986c8df9c8ba4106e913c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 77fd48cd8e64be296231ff847b31d940d3d5831c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62428588"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704153"
 ---
 # <a name="edit-and-continue-dialog-box"></a>편집하며 계속하기 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,4 +37,4 @@ ms.locfileid: "62428588"
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 보안](../debugger/debugger-security.md)   
- [옵션 대화 상자, 디버깅, 편집하며 계속하기](http://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)
+ [옵션 대화 상자, 디버깅, 편집하며 계속하기](https://msdn.microsoft.com/library/009d225f-ef65-463f-a146-e4c518f86103)

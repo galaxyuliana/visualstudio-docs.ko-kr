@@ -8,12 +8,12 @@ ms.assetid: 0fa335fd-e442-448f-913f-25a19df90a93
 caps.latest.revision: 8
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ef42f7710598906310b77bd834adf04b21d6bfc2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 8bbf75bfe218945453d25440c868a95675168631
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445861"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65705895"
 ---
 # <a name="using-microsoftvisualstudiotesttoolsunittesting-members-in-unit-tests"></a>단위 테스트에서 Microsoft.VisualStudio.TestTools.UnitTesting 멤버 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "63445861"
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceElementCollection>
 
 ## <a name="attributes-used-to-establish-a-calling-order"></a>호출 순서를 설정하는 데 사용되는 특성
- 다음 특성 중 하나를 사용하여 데코레이팅도니 코드 요소는 지정하는 즉시 호출됩니다. 자세한 내용은 [단위 테스트 분석](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)을 참조하세요.
+ 다음 특성 중 하나를 사용하여 데코레이팅도니 코드 요소는 지정하는 즉시 호출됩니다. 자세한 내용은 [단위 테스트 분석](https://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)을 참조하세요.
 
 ### <a name="for-assemblies"></a>어셈블리
  AssemblyInitialize 및 AssemblyCleanup은 어셈블리를 로드한 직후와 어셈블리를 언로드하기 직전에 호출됩니다.
@@ -64,7 +64,7 @@ ms.locfileid: "63445861"
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestCleanupAttribute>
 
 ## <a name="attributes-used-to-identify-test-classes-and-methods"></a>테스트 클래스 및 메서드를 식별하는 데 사용되는 특성
- 모든 테스트 클래스에는 TestClass 특성이 있어야 하며 모든 테스트 메서드에는 TestMethod 특성이 있어야 합니다. 자세한 내용은 [단위 테스트 분석](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)을 참조하세요.
+ 모든 테스트 클래스에는 TestClass 특성이 있어야 하며 모든 테스트 메서드에는 TestMethod 특성이 있어야 합니다. 자세한 내용은 [단위 테스트 분석](https://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)을 참조하세요.
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute>
 
@@ -118,7 +118,7 @@ ms.locfileid: "63445861"
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.CssProjectStructureAttribute>
 
 ## <a name="classes-used-with-private-accessors"></a>전용 접근자와 함께 사용되는 클래스
- [publicize를 사용하여 전용 접근자 만들기](http://msdn.microsoft.com/2056c6a7-6672-42a7-8f53-fead33c56deb)에서 설명하는 것처럼 전용 메서드에 대한 단위 테스트를 생성할 수 있습니다. 이러한 단위 테스트 생성에서는 PrivateObject 클래스의 개체를 인스턴스화하는 전용 접근자 클래스가 만들어집니다. PrivateObject 클래스는 전용 접근자 프로세스의 일부분으로 리플렉션을 사용하는 래퍼 클래스입니다. PrivateType 클래스도 이와 유사하지만 전용 인스턴스 메서드를 호출하는 대신 전용 정적 메서드를 호출하는 데 사용됩니다.
+ [publicize를 사용하여 전용 접근자 만들기](https://msdn.microsoft.com/2056c6a7-6672-42a7-8f53-fead33c56deb)에서 설명하는 것처럼 전용 메서드에 대한 단위 테스트를 생성할 수 있습니다. 이러한 단위 테스트 생성에서는 PrivateObject 클래스의 개체를 인스턴스화하는 전용 접근자 클래스가 만들어집니다. PrivateObject 클래스는 전용 접근자 프로세스의 일부분으로 리플렉션을 사용하는 래퍼 클래스입니다. PrivateType 클래스도 이와 유사하지만 전용 인스턴스 메서드를 호출하는 대신 전용 정적 메서드를 호출하는 데 사용됩니다.
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.PrivateObject>
 

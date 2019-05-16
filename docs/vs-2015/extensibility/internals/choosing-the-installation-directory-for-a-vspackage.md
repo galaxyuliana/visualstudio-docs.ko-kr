@@ -10,12 +10,12 @@ ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
 caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: d8812ce6eef882f4f1b4effe97320492a34e0f2d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: c4100c045181f32e51abcc59116a69cad6cc33b5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970967"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697242"
 ---
 # <a name="choosing-the-installation-directory-for-a-vspackage"></a>VSPackage용 설치 디렉터리 선택
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -64,4 +64,4 @@ VSPackage 및 해당 지원 파일을 사용자의 파일 시스템에 있어야
 ## <a name="see-also"></a>참고 항목  
  [공유 및 버전 관리 Vspackage 중에서 선택](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)   
  [Vspackage 관리](../../extensibility/managing-vspackages.md)   
- [관리 되는 패키지 등록](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+ [관리 되는 패키지 등록](https://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

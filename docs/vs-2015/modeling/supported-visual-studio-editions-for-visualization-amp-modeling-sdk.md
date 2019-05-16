@@ -11,12 +11,12 @@ caps.latest.revision: 29
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 19b4c45e72c90d8f1cee3130475767003a6d7cf7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a8104eb9aa2d340545fb4cbfbd2e46286d953375
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63411517"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696874"
 ---
 # <a name="supported-visual-studio-editions-for-visualization-amp-modeling-sdk"></a>시각화에 대 한 지원 되는 Visual Studio 버전 &amp; 모델링 SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,4 +47,4 @@ ms.locfileid: "63411517"
 > DSL Shell 제품에서 실행할 수 있도록 설정 해야 합니다 **VS 버전 지원** 확장 매니페스트에서 필드입니다. 자세한 내용은 [도메인 특정 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [도메인 특정 언어 도구 용어집](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

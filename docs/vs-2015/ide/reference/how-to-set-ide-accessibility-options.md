@@ -11,12 +11,12 @@ caps.latest.revision: 25
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: dbd746a52084d2a2fc90a0c6890e20687fe7ee26
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 4ee29fd6309db34d4e0e4a013149e268051ab0e5
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63405635"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704390"
 ---
 # <a name="how-to-set-ide-accessibility-options"></a>방법: IDE 내게 필요한 옵션 설정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,12 +26,12 @@ ms.locfileid: "63405635"
  또한 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서는 가장 자주 입력되는 문자의 접근성을 높이는 Dvorak 키보드 레이아웃을 지원합니다. [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]에서 제공되는 기본 바로 가기 키를 사용자 지정할 수도 있습니다. 자세한 내용은 [바로 가기 키 식별 및 사용자 지정](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)을 참조하세요.  
   
 > [!NOTE]
-> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
+> 표시되는 대화 상자와 메뉴 명령은 활성 설정이나 버전에 따라 도움말에서 설명하는 것과 다를 수 있습니다. 설정을 변경하려면 **도구** 메뉴에서 **설정 가져오기 및 내보내기** 를 선택합니다. 자세한 내용은 [Visual Studio에서 개발 설정 사용자 지정](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)을 참조하세요.  
   
 ## <a name="editors-dialogs-and-tool-windows"></a>편집기, 대화 상자 및 도구 창  
  기본적으로 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]의 대화 상자와 도구 창에서는 운영 체제와 같은 글꼴 크기 및 색을 사용합니다. IDE, 대화 상자, 도구 모음 및 도구 창의 프레임에 대한 색 설정은 색 테마인 밝은 테마 또는 어두운 테마에 따라 결정됩니다. [옵션 대화 상자, 환경, 일반](../../ide/reference/general-environment-options-dialog-box.md)에서 현재 색 테마를 변경할 수 있습니다.  
   
- 편집기의 코드 보기에서 팝업 창을 표시할 수도 있습니다. 이러한 창에는 현재 개체의 사용 가능한 멤버 함수나 문을 완성하기 위한 매개 변수가 표시될 수 있습니다. 입력이 어려울 경우 이러한 창이 유용할 수 있습니다. 그러나 이러한 창은 코드 편집기에 집중하는 데 방해가 되어 일부 사용자에게 문제가 될 수 있습니다. [옵션] 대화 상자를 열고 **옵션** 대화 상자의 **텍스트 편집기**, **모든 언어**, **일반** 페이지에서 **멤버 목록 자동 표시** 및 **매개 변수 정보**를 선택 취소하여 이러한 창을 끌 수 있습니다. 자세한 내용은 [방법: 일반 편집기 옵션 설정](http://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)을 참조하세요.  
+ 편집기의 코드 보기에서 팝업 창을 표시할 수도 있습니다. 이러한 창에는 현재 개체의 사용 가능한 멤버 함수나 문을 완성하기 위한 매개 변수가 표시될 수 있습니다. 입력이 어려울 경우 이러한 창이 유용할 수 있습니다. 그러나 이러한 창은 코드 편집기에 집중하는 데 방해가 되어 일부 사용자에게 문제가 될 수 있습니다. [옵션] 대화 상자를 열고 **옵션** 대화 상자의 **텍스트 편집기**, **모든 언어**, **일반** 페이지에서 **멤버 목록 자동 표시** 및 **매개 변수 정보**를 선택 취소하여 이러한 창을 끌 수 있습니다. 자세한 내용은 [방법: 일반 편집기 옵션 설정](https://msdn.microsoft.com/704e4a7b-2162-4bed-8a47-f4f6ffec98c2)을 참조하세요.  
   
  자신의 작업 방식에 가장 적합하게 IDE(통합 개발 환경)에서 창을 다시 정렬할 수 있습니다. 각 도구 창을 도킹 또는 고정 해제하거나, 숨기거나, 자동으로 숨길 수 있습니다.  
   

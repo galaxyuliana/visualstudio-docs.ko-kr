@@ -11,12 +11,12 @@ ms.assetid: 1a062dcb-8a8f-40dd-bea9-3d10f9448966
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2efdbe1027bc3a85ed9eef02db9cec3d10504fca
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: 679bf567d2f44564d31d70b62c8663e665e1ea65
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985298"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697282"
 ---
 # <a name="context-parameters"></a>컨텍스트 매개 변수
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -66,4 +66,4 @@ ms.locfileid: "58985298"
  [사용자 지정 매개 변수](../../extensibility/internals/custom-parameters.md)   
  [마법사](../../extensibility/internals/wizards.md)   
  [마법사 (합니다. Vsz) 파일](../../extensibility/internals/wizard-dot-vsz-file.md)   
- [마법사를 시작 하는 것에 대 한 컨텍스트 매개 변수](http://msdn.microsoft.com/library/051a10f4-9e45-4604-b344-123044f33a24)
+ [마법사를 시작 하는 것에 대 한 컨텍스트 매개 변수](https://msdn.microsoft.com/library/051a10f4-9e45-4604-b344-123044f33a24)

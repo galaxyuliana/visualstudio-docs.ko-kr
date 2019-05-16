@@ -12,12 +12,12 @@ caps.latest.revision: 62
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2534726de9f4aeb015753e0b1ea6870f2120e014
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: f4fb99a7f7fcd7c91003bc7d74cf0ef6639cf773
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425907"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698032"
 ---
 # <a name="msbuild"></a>MSBuild
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "63425907"
   
  Visual Studio는 MSBuild를 사용하여 관리되는 프로젝트를 로드하고 빌드합니다. Visual Studio의 프로젝트 파일(.csproj, .vbproj, vcxproj 등)에는 IDE를 사용하여 프로젝트를 빌드할 때 실행되는 MSBuild XML 코드가 들어 있습니다. Visual Studio 프로젝트는 필요한 모든 설정을 가져오고 일반적인 개발 작업을 수행하는 프로세스를 빌드하지만 Visual Studio 내에서 또는 XML 편집기를 사용하여 확장하거나 수정할 수 있습니다.  
   
- C++의 MSBuild에 대한 자세한 내용은 [MSBuild (Visual C++)](http://msdn.microsoft.com/library/7a1be7ff-0312-4669-adf2-5f5bf507d560)를 참조하세요.  
+ C++의 MSBuild에 대한 자세한 내용은 [MSBuild (Visual C++)](https://msdn.microsoft.com/library/7a1be7ff-0312-4669-adf2-5f5bf507d560)를 참조하세요.  
   
  다음 예제에서는 Visual Studio IDE 대신 MSBuild 명령줄을 사용하여 빌드를 실행할 수 있는 경우를 보여 줍니다.  
   
@@ -49,7 +49,7 @@ ms.locfileid: "63425907"
   Visual Studio IDE에서 코드를 작성하지만 MSBuild를 사용하여 빌드를 실행할 수 있습니다. 또는 개발 컴퓨터의 IDE에서 코드를 빌드하지만 MSBuild 명령줄을 사용하여 여러 개발자로부터 통합된 코드를 빌드할 수 있습니다.  
   
 > [!NOTE]
-> Team Foundation Build를 사용하여 애플리케이션을 자동으로 컴파일, 테스트 및 배포할 수 있습니다. 개발자가 코드를 체크 인할 때(예: 연속 통합 전략의 일부로) 또는 일정에 따라(예: 야간 빌드 확인 테스트 빌드) 빌드 시스템에서 빌드를 자동으로 실행할 수 있습니다. Team Foundation Build는 MSBuild를 사용하여 코드를 컴파일합니다. 자세한 내용은 [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
+> Team Foundation Build를 사용하여 애플리케이션을 자동으로 컴파일, 테스트 및 배포할 수 있습니다. 개발자가 코드를 체크 인할 때(예: 연속 통합 전략의 일부로) 또는 일정에 따라(예: 야간 빌드 확인 테스트 빌드) 빌드 시스템에서 빌드를 자동으로 실행할 수 있습니다. Team Foundation Build는 MSBuild를 사용하여 코드를 컴파일합니다. 자세한 내용은 [애플리케이션 빌드](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
   
  이 항목에서는 MSBuild에 대해 간략하게 설명합니다. 입문용 자습서는 [연습: MSBuild 사용](../msbuild/walkthrough-using-msbuild.md)을 참조하세요.  
   

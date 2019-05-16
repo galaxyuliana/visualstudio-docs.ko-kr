@@ -11,12 +11,12 @@ caps.latest.revision: 14
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 209f56d8222d4cc446d15f8eedd4d89b08993c5a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b38d36c1fdc0033115f1d7a4cf18265dc1f2a3ab
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62548585"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696357"
 ---
 # <a name="visual-c-enumerations-in-class-designer"></a>클래스 디자이너의 Visual C++ 열거형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,8 +43,8 @@ enum class CardSuit {
   
  클래스 다이어그램의 C++ 열거형 도형은 레이블이 **Enum** 또는 **Enum 클래스**로 표시되고, 파란색이 아니라 분홍색이며, 왼쪽 및 위쪽 여백에 색이 지정된 테두리가 있다는 점을 제외하고 구조체 도형과 모양 및 기능이 유사합니다. 열거형 도형과 구조체 도형에는 사각형 모서리가 있습니다.  
   
- `enum` 형식을 사용하는 방법에 대한 자세한 내용은 [열거형](http://msdn.microsoft.com/library/081829db-5dca-411e-a53c-bffef315bcb3)을 참조하세요.  
+ `enum` 형식을 사용하는 방법에 대한 자세한 내용은 [열거형](https://msdn.microsoft.com/library/081829db-5dca-411e-a53c-bffef315bcb3)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual C++ 코드 작업(클래스 디자이너)](../ide/working-with-visual-cpp-code-class-designer.md)   
- [열거형](http://msdn.microsoft.com/library/081829db-5dca-411e-a53c-bffef315bcb3)
+ [열거형](https://msdn.microsoft.com/library/081829db-5dca-411e-a53c-bffef315bcb3)

@@ -11,12 +11,12 @@ caps.latest.revision: 20
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: ab699ad2a70a63fe3f8124cc87960f104a3b4cc2
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 0cef64ae0b1aa5c6fee6422675e10b65c4713d2c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59663312"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65703247"
 ---
 # <a name="msbuild-concepts"></a>MSBuild 개념
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "59663312"
 |[작업](../msbuild/msbuild-tasks.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 사용할 수 있는 실행 코드 단위를 만들어 원자 빌드 작업을 수행하는 방법을 보여 줍니다.|  
 |[속성 및 항목 비교](../msbuild/comparing-properties-and-items.md)|MSBuild 속성 및 항목을 비교합니다. 속성과 항목은 둘 다 작업에 정보를 전달하고, 조건을 평가한 다음 프로젝트 파일 전체에서 참조할 수 있는 값을 저장하는 데 사용됩니다.|  
 |[MSBuild 특수 문자](../msbuild/msbuild-special-characters.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]가 특정 컨텍스트에서 특수하게 사용하기 위해 예약하는 일부 문자를 이스케이프하는 방법을 설명합니다.|  
-|[연습: 처음부터 새로 MSBuild 프로젝트 파일 만들기](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|텍스트 편집기만을 사용해서 기본 프로젝트 파일을 증분 방식으로 만드는 방법을 보여 줍니다.|  
+|[연습: 처음부터 MSBuild 프로젝트 파일 만들기](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|텍스트 편집기만을 사용해서 기본 프로젝트 파일을 증분 방식으로 만드는 방법을 보여 줍니다.|  
 |[연습: MSBuild 사용](../msbuild/walkthrough-using-msbuild.md)|MSBuild의 구성 요소를 소개하고 Visual Studio IDE(통합 개발 환경)를 닫지 않고 MSBuild 프로젝트를 작성, 조작 및 디버깅하는 방법을 보여 줍니다.|  
 |[MSBuild 참조](../msbuild/msbuild-reference.md)|참조 정보를 포함하는 문서에 대한 링크입니다.|  
-|[MSBuild](http://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c)|프로젝트 파일용 XML 스키마에 대해 간략하게 소개하고 이 스키마가 소프트웨어를 빌드하는 프로세스를 제어하는 방법을 보여 줍니다.|
+|[MSBuild](https://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c)|프로젝트 파일용 XML 스키마에 대해 간략하게 소개하고 이 스키마가 소프트웨어를 빌드하는 프로세스를 제어하는 방법을 보여 줍니다.|

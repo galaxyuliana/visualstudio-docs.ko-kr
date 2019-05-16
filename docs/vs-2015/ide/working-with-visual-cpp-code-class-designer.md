@@ -19,12 +19,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: faf99505c556594ad1281b0341ac1cad9acbae81
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: ebe8c65748ba0380a7c4f171d940c3d78f52a577
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443387"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698076"
 ---
 # <a name="working-with-visual-c-code-class-designer"></a>Visual C++ 코드 사용(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "63443387"
 ### <a name="type-resolution-issues"></a>형식 확인 문제  
  클래스 디자이너에서는 다음과 같은 경우에 형식을 확인할 수 없습니다.  
   
-- 클래스 다이어그램이 속한 프로젝트에서 참조되지 않는 프로젝트나 어셈블리에 형식이 있습니다. 이 오류를 수정하려면 해당 형식을 포함하는 프로젝트나 어셈블리에 대한 참조를 추가합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
+- 클래스 다이어그램이 속한 프로젝트에서 참조되지 않는 프로젝트나 어셈블리에 형식이 있습니다. 이 오류를 수정하려면 해당 형식을 포함하는 프로젝트나 어셈블리에 대한 참조를 추가합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
   
 - 형식이 올바른 범위에 있지 않아 클래스 디자이너에서 해당 형식을 찾을 수 없습니다. 이 경우 코드에 `using`, `imports` 또는 `#include` 문이 누락되지 않았는지 확인합니다. 또한 해당 형식이나 관련 형식을 원래 있던 네임스페이스 밖으로 이동하지 않았는지 확인합니다.  
   
@@ -77,7 +77,7 @@ ms.locfileid: "63443387"
   
 - 입력한 형식이 클래스 디자이너에서 지원되는지 확인합니다. [C++ 코드 요소에 대한 제한 사항](#limitations)을 참조하세요.  
   
-- 형식을 확인해 보세요. 프로젝트 또는 클래스 다이어그램이 속한 프로젝트에서 참조되지 않는 어셈블리 형식이 있을 수 있습니다. 이 오류를 수정하려면 해당 형식을 포함하는 프로젝트나 어셈블리에 대한 참조를 추가합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
+- 형식을 확인해 보세요. 프로젝트 또는 클래스 다이어그램이 속한 프로젝트에서 참조되지 않는 어셈블리 형식이 있을 수 있습니다. 이 오류를 수정하려면 해당 형식을 포함하는 프로젝트나 어셈블리에 대한 참조를 추가합니다. 자세한 내용은 [NIB 방법: 참조 추가 대화 상자를 사용하여 참조 추가 또는 제거](https://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)를 참조하세요.  
   
 - 클래스 디자이너에서 찾을 수 있도록 형식이 올바른 범위에 있는지 확인하세요. 이 경우 코드에 `using`, `imports` 또는 `#include` 문이 누락되지 않았는지 확인합니다. 또한 해당 형식이나 관련 형식을 원래 있던 네임스페이스 밖으로 이동하지 않았는지 확인합니다.  
   

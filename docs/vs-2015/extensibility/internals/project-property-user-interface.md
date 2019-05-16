@@ -12,12 +12,12 @@ ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
 caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 2b54c6ba8f3daefa53f00478c1d7e4573311cfb6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 31840c40f2a494ffd32f5241e2770938138877e9
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62429160"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65704093"
 ---
 # <a name="project-property-user-interface"></a>프로젝트 속성 사용자 인터페이스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,8 +55,8 @@ ms.locfileid: "62429160"
   
   프로젝트 하위 집계 형식 때문에 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 개체를 제어 하는 이러한 속성의 정의 재정의할 수 있습니다 **속성 페이지** 대화 상자가 표시 됩니다. 프로젝트 하위 형식 내부 기본 프로젝트에서 이러한 속성을 검색 하 고 추가 하거나 제거할 수 Clsid 필요에 따라 합니다.  
   
-  프로젝트 하위 형식으로 추가 하는 새 속성 페이지에는 기본 프로젝트 구현과에서 프로젝트 구성 찾아보기 개체가 전달 됩니다. 이 프로젝트 구성 찾아보기 개체 Automation Extender를 지원합니다. AutomationExtenders에 대 한 자세한 내용은 참조 하세요. [구현 및 Automation Extender를 사용 하 여](http://msdn.microsoft.com/library/0d5c218c-f412-4b28-ab0c-33a611f62356)입니다. 프로젝트 하위 형식 호출에 의해 구현 된 속성 페이지 <xref:EnvDTE.Project.Extender%2A> 기본 프로젝트의 구성 찾아보기 개체를 확장 하는 자체 프로젝트 하위 형식 구성 찾아보기 개체를 검색 합니다.  
+  프로젝트 하위 형식으로 추가 하는 새 속성 페이지에는 기본 프로젝트 구현과에서 프로젝트 구성 찾아보기 개체가 전달 됩니다. 이 프로젝트 구성 찾아보기 개체 Automation Extender를 지원합니다. AutomationExtenders에 대 한 자세한 내용은 참조 하세요. [구현 및 Automation Extender를 사용 하 여](https://msdn.microsoft.com/library/0d5c218c-f412-4b28-ab0c-33a611f62356)입니다. 프로젝트 하위 형식 호출에 의해 구현 된 속성 페이지 <xref:EnvDTE.Project.Extender%2A> 기본 프로젝트의 구성 찾아보기 개체를 확장 하는 자체 프로젝트 하위 형식 구성 찾아보기 개체를 검색 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  <xref:EnvDTE.IFilterProperties>   
- [속성 페이지 대화 상자](http://msdn.microsoft.com/4a3d34ac-ed03-45e8-ae60-a0e1aad300e4)
+ [속성 페이지 대화 상자](https://msdn.microsoft.com/4a3d34ac-ed03-45e8-ae60-a0e1aad300e4)
