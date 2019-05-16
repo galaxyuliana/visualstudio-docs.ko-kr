@@ -11,12 +11,12 @@ ms.assetid: ecd20da8-b04b-4141-a8f4-a2ef91dd597a
 caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 5dab1d68b9cf3e69c2f7a4a03d6e91a4fbab1907
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a11f05edb4e7d476fdbcab82d365f9327dd4869a
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63440796"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685280"
 ---
 # <a name="vspackage-registration"></a>VSPackage 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ Vspackage advise 해야 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 는 설�
 > [!NOTE]
 > VSPackage 개발 중에 자체 등록을 사용 하 여 허용 되는 사례입니다. 그러나 [!INCLUDE[vsipprvsip](../../includes/vsipprvsip-md.md)] 파트너 설치의 일부로 자동으로 등록을 사용 하 여 해당 제품을 제공할 수 없습니다.  
   
- Windows Installer 패키지에 대 한 레지스트리 항목 레지스트리 테이블에서 일반적으로 수행 됩니다. 또한 레지스트리 테이블의 파일 확장명을 등록할 수 있습니다. 그러나 Windows Installer ProgId (프로그래밍 식별자), 클래스, 확장 및 동사 테이블을 통해 기본 제공 지원을 제공합니다. 자세한 내용은 [데이터베이스 테이블](http://msdn.microsoft.com/library/aa368259\(VS.85\).aspx)합니다.  
+ Windows Installer 패키지에 대 한 레지스트리 항목 레지스트리 테이블에서 일반적으로 수행 됩니다. 또한 레지스트리 테이블의 파일 확장명을 등록할 수 있습니다. 그러나 Windows Installer ProgId (프로그래밍 식별자), 클래스, 확장 및 동사 테이블을 통해 기본 제공 지원을 제공합니다. 자세한 내용은 [데이터베이스 테이블](https://msdn.microsoft.com/library/aa368259\(VS.85\).aspx)합니다.  
   
  레지스트리 항목 선택한 side-by-side-전략에 대 한 적절 한 구성 요소와 연결 되어 있는지 확인 해야 합니다. 예를 들어, 공유 파일에 대 한 레지스트리 항목은 해당 파일의 Windows Installer 구성 요소를 사용 하 여 연결 해야 합니다. 마찬가지로, 버전별 파일에 대 한 레지스트리 항목은 해당 파일의 구성 요소를 사용 하 여 연결 해야 합니다. 그렇지 않으면을 설치 하거나 한 버전의 VSPackage 제거 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 다른 버전의 VSPackage를 손상 시킬 수 있습니다. 자세한 내용은 참조 하세요. [Visual Studio의 여러 버전 지원](../../extensibility/supporting-multiple-versions-of-visual-studio.md)  
   
@@ -58,5 +58,5 @@ Vspackage advise 해야 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 는 설�
 - 형식 라이브러리와 같은 네트워크 리소스에 대 한 액세스 구성 요소가 원본에서 실행으로 지정 및 SelfReg 테이블에 포함 된 자동 등록 코드를 정의할 수 있습니다. 설치 구성 요소 관리자 설치 중에 실패를 발생할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
- [관리 되는 패키지 등록](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+ [Windows Installer](https://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
+ [관리 되는 패키지 등록](https://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

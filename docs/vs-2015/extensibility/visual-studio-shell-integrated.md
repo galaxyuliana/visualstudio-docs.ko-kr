@@ -11,12 +11,12 @@ ms.assetid: 0b40d495-f17f-4bb9-ace8-b365a7172784
 caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 736031f1de24144f7b5f68ed44710e0c894df41a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 664363740737eb72213b4818b104aa14c3667a14
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445731"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690921"
 ---
 # <a name="visual-studio-shell-integrated"></a>Visual Studio Shell (통합)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,4 +79,4 @@ Visual Studio 통합 셸에 통합된 개발 환경 (IDE), 디버거 및 소스 
 - Visual Studio 언어 없음 또는 해당 관련된 프로젝트 템플릿 또는 프로젝트 항목 템플릿을 integrated shell에 포함 됩니다. 다른 기능의 언어별 구현할 필요 없이 예에서는 Visual Basic 코드 조각에 대 한 포함 됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [Visual Studio 개요 확장](http://msdn.microsoft.com/library/3e9078d7-2763-4cc4-8e20-fac69d747f59)
+ [Visual Studio 개요 확장](https://msdn.microsoft.com/library/3e9078d7-2763-4cc4-8e20-fac69d747f59)
