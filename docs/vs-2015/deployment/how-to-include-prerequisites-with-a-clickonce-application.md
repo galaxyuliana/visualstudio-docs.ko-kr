@@ -37,7 +37,7 @@ ms.locfileid: "65697664"
 4. 찾을 합니다 **이름을** 포함 하는 요소 **http://go.microsoft.com/fwlink**, URL을 복사 합니다. **LinkID** 부분을 포함합니다.  
   
     > [!NOTE]
-    > 없으면 **이름** 요소에 포함 되어 **http://go.microsoft.com/fwlink**엽니다는 **Product.xml** 필수 구성 요소에 대 한 루트 폴더에 파일을 찾습니다는 **fwlink** 문자열입니다.  
+    > 없으면 **이름** 요소에 포함 되어 **http://go.microsoft.com/fwlink** 엽니다는 **Product.xml** 필수 구성 요소에 대 한 루트 폴더에 파일을 찾습니다는 **fwlink** 문자열입니다.  
   
     > [!IMPORTANT]
     > 일부 필수 구성 요소에는 여러 개의 설치 관리자 패키지가 있습니다(예: 32비트 또는 64비트 시스템). 여러 **이름** 요소에 **fwlink**가 있을 경우 각각에 대해 나머지 단계를 반복해야 합니다.  

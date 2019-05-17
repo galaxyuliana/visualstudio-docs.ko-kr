@@ -103,7 +103,7 @@ ms.locfileid: "63418322"
 
     - 파일을 저장한 후 닫습니다.
 
-11. 솔루션을 빌드합니다. 작성된 된 파일에 배포 됩니다 **%USERPROFILE%\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\MSIT\ RegExLangServ\\** 합니다.
+11. 솔루션을 빌드합니다. 작성된 된 파일에 배포 됩니다 **%USERPROFILE%\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\MSIT\RegExLangServ\\** 합니다.
 
 12. 디버깅을 시작합니다. Visual Studio의 두 번째 인스턴스가 열립니다.
 
