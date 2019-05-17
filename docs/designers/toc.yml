@@ -1,12 +1,15 @@
 - name: 사용자 인터페이스 디자인
-  href: designing-user-interfaces.md
   items:
-    - name: Visual Studio에서 XAML 디자인
-      href: designing-xaml-in-visual-studio.md
+    - name: 도구 방향
+      href: designing-user-interfaces.md
+    - name: XAML
       items:
+        - name: Visual Studio에서 XAML 디자인
+          href: designing-xaml-in-visual-studio.md
         - name: XAML 디자이너
-          href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
           items:
+            - name: 개요
+              href: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
             - name: 요소 작업
               href: working-with-elements-in-xaml-designer.md
             - name: 개체를 레이아웃 컨테이너로 구성
@@ -22,8 +25,9 @@
             - name: XAML 오류 및 경고
               href: xaml-errors-warnings.md
         - name: Blend for Visual Studio
-          href: creating-a-ui-by-using-blend-for-visual-studio.md
           items:
+            - name: 개요
+              href: creating-a-ui-by-using-blend-for-visual-studio.md
             - name: 컨트롤을 삽입하고 해당 동작을 수정
               href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
             - name: '이미지, 비디오 및 오디오 클립 삽입'
@@ -37,8 +41,9 @@
             - name: 데이터 표시
               href: display-data-in-blend.md
             - name: 바로 가기 키 및 보조 키
-              href: keyboard-shortcuts-and-modifier-keys-in-blend.md
               items:
+                - name: 개요
+                  href: keyboard-shortcuts-and-modifier-keys-in-blend.md
                 - name: 바로 가기 키
                   href: keyboard-shortcuts-in-blend.md
                 - name: 아트보드 보조 키
@@ -50,23 +55,24 @@
             - name: 접근성 제품 및 서비스(Blend)
               href: accessibility-products-and-services-blend.md
     - name: WPF(Windows Presentation Foundation)
-      href: getting-started-with-wpf.md
       items:
+        - name: 시작
+          href: getting-started-with-wpf.md
         - name: WPF 개요
           href: introduction-to-wpf.md
-        - name: LINQ to XML로 WPF 데이터 바인딩
-          href: wpf-data-binding-with-linq-to-xml-overview.md
+        - name: 데이터 바인딩
           items:
+            - name: LINQ to XML로 WPF 데이터 바인딩
+              href: wpf-data-binding-with-linq-to-xml-overview.md
             - name: LINQ to XML 동적 속성
-              href: linq-to-xml-dynamic-properties.md
               items:
+                - name: 개요
+                  href: linq-to-xml-dynamic-properties.md
                 - name: XAttribute 클래스 동적 속성
-                  href: xattribute-class-dynamic-properties.md
                   items:
                     - name: Value(XAttribute 동적 속성)
                       href: value-xattribute-dynamic-property.md
                 - name: XElement 클래스 동적 속성
-                  href: xelement-class-dynamic-properties.md
                   items:
                     - name: Attribute(XElement 동적 속성)
                       href: attribute-xelement-dynamic-property.md
@@ -81,39 +87,42 @@
                     - name: Xml(XElement 동적 속성)
                       href: xml-xelement-dynamic-property.md
                 - name: 예제
-                  href: wpf-data-binding-using-linq-to-xml-example.md
                   items:
+                    - name: LINQ to XML을 사용한 WPF 데이터 바인딩
+                      href: wpf-data-binding-using-linq-to-xml-example.md
                     - name: LinqToXmlDataBinding 예제 빌드 및 실행
                       href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
                     - name: '연습: LINQ to XML 데이터 바인딩'
                       href: walkthrough-linqtoxmldatabinding-example.md
-                      items:
-                        - name: L2DBForm.xaml 소스 코드
-                          href: l2dbform-xaml-source-code.md
-                        - name: L2DBForm.xaml.cs 소스 코드
-                          href: l2dbform-xaml-cs-source-code.md
-    - name: 게임 및 앱을 위한 3D 자산 작업
-      href: working-with-3-d-assets-for-games-and-apps.md
+                    - name: L2DBForm.xaml 소스 코드
+                      href: l2dbform-xaml-source-code.md
+                    - name: L2DBForm.xaml.cs 소스 코드
+                      href: l2dbform-xaml-cs-source-code.md
+    - name: 3D 자산
       items:
-        - name: 질감 및 이미지 작업
-          href: working-with-textures-and-images.md
+        - name: 게임 및 앱을 위한 3D 자산 작업
+          href: working-with-3-d-assets-for-games-and-apps.md
+        - name: '방법: 게임 또는 앱에서 3D 자산 사용'
+          href: using-3-d-assets-in-your-game-or-app.md
+        - name: 질감 및 이미지
           items:
+            - name: 질감 및 이미지 작업
+              href: working-with-textures-and-images.md
             - name: 이미지 편집기
               href: image-editor.md
             - name: 이미지 편집기 예제
-              href: image-editor-examples.md
               items:
                 - name: 기본 질감 만들기
                   href: how-to-create-a-basic-texture.md
                 - name: MIP 수준 만들기 및 수정
                   href: how-to-create-and-modify-mip-levels.md
-        - name: 3D 모델 작업
-          href: working-with-3-d-models.md
+        - name: 3D 모델
           items:
+            - name: 3D 모델 작업
+              href: working-with-3-d-models.md
             - name: 모델 편집기
               href: model-editor.md
             - name: 모델 편집기 예제
-              href: model-editor-examples.md
               items:
                 - name: 기본 3D 모델 만들기
                   href: how-to-create-a-basic-3-d-model.md
@@ -123,14 +132,16 @@
                   href: how-to-model-3-d-terrain.md
                 - name: 3D 모델에 셰이더 적용
                   href: how-to-apply-a-shader-to-a-3-d-model.md
-        - name: 셰이더 작업
-          href: working-with-shaders.md
+        - name: 셰이더
           items:
+            - name: 셰이더 작업
+              href: working-with-shaders.md
             - name: 셰이더 디자이너
               href: shader-designer.md
             - name: 셰이더 디자이너 노드
-              href: shader-designer-nodes.md
               items:
+                - name: 개요
+                  href: shader-designer-nodes.md
                 - name: 상수 노드
                   href: constant-nodes.md
                 - name: 매개 변수 노드
@@ -144,7 +155,6 @@
                 - name: 필터 노드
                   href: filter-nodes.md
             - name: 셰이더 디자이너 예제
-              href: shader-designer-examples.md
               items:
                 - name: 기본 색 셰이더 만들기
                   href: how-to-create-a-basic-color-shader.md
@@ -162,8 +172,7 @@
                   href: walkthrough-creating-a-realistic-3-d-billiard-ball.md
                 - name: 셰이더 내보내기
                   href: how-to-export-a-shader.md
-        - name: 게임 또는 앱에서 3D 자산 사용
-          href: using-3-d-assets-in-your-game-or-app.md
+        - name: 질감 내보내기
           items:
             - name: 밉 맵을 포함하는 질감 내보내기
               href: how-to-export-a-texture-that-contains-mipmaps.md

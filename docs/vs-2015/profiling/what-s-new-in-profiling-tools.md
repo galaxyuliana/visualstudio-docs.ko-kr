@@ -12,14 +12,14 @@ caps.latest.revision: 47
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0fc61a68e363c7a1616b35fb9ebc875e88550885
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.openlocfilehash: ef76180bef1b643bb1f3ba3255b5b46dafdca272
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54791521"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65694994"
 ---
-# <a name="what39s-new-in-profiling-tools"></a>새로운&#39;프로 파일링 도구 기능
+# <a name="what39s-new-in-profiling-tools"></a>프로파일링 도구의 새로운 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio 2015 업데이트 1 디버깅 및 진단의 모든 새로운 기능에 대한 자세한 내용은 [Visual Studio 2015 업데이트 1 릴리스 정보](https://www.visualstudio.com/news/vs2015-update1-vs#debug)를 참조하세요.  
@@ -29,13 +29,13 @@ Visual Studio 2015 업데이트 1 디버깅 및 진단의 모든 새로운 기�
 ## <a name="whats-new-in-update-1"></a>업데이트 1의 새로운 기능  
  Visual Studio 2015 업데이트 1부터 디버거를 종료하지 않고 CPU 사용의 기능별 분석 결과를 볼 수 있습니다. 자세한 내용은 [Visual Studio 2015의 디버거에서 CPU 프로파일링](http://blogs.msdn.com/b/visualstudioalm/archive/2015/10/29/profile-your-cpu-in-the-debugger-in-visual-studio-2015.aspx)을 참조하세요.  
   
- **진단 도구** 창의 **이벤트** 탭에 검색 및 필터 옵션을 추가했습니다. 자세한 내용은 [프로 파일링 디버거 통합](http://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859) 하 고 [진단 도구 창의 이벤트 탭 검색 및 필터링](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx)합니다.  
+ **진단 도구** 창의 **이벤트** 탭에 검색 및 필터 옵션을 추가했습니다. 자세한 내용은 [디버거 통합 프로파일링](https://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859) 및 [진단 도구 창의 이벤트 탭 검색 및 필터링](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx)을 참조하세요.  
   
 ## <a name="diagnostics-with-debugging-ui-and-hotkey-changes"></a>디버깅 UI 및 변경된 바로 가기 키를 사용하여 진단  
  이제 디버깅 하는 동안 새 **진단 도구** 창에서 진단 도구를 실행할 수 있습니다. 이 창은 자동으로 표시되지만 새 메뉴 항목 **진단 도구 표시** (바로 가기 키 **Ctrl+Alt+F2**)를 사용하여 열 수도 있습니다.  
   
 ## <a name="diagnostics-without-debugging-ui-and-hotkey-changes"></a>디버깅 UI 및 변경된 바로 가기 키를 사용하지 않고 진단  
- 디버깅 하지 않고 진단 실행,로 이동 **디버그 / 디버깅 하지 않고 진단 시작 도구** 또는 **디버그 / Profiler / 성능 Profiler...** . Visual Studio 2013에서는 **분석/성능 및 진단** 또는 **디버그/성능 및 진단**에서 이 기능을 찾을 수 있습니다.  
+ 디버깅하지 않고 진단을 실행하려면 **디버그/디버그하지 않고 진단 도구 시작** 또는 **디버그/프로파일러/성능 프로파일러...** 로 이동합니다. Visual Studio 2013에서는 **분석/성능 및 진단** 또는 **디버그/성능 및 진단**에서 이 기능을 찾을 수 있습니다.  
   
  이제 **성능 탐색기** 를 **디버그/프로파일러/성능 탐색기**에서 찾을 수 있습니다. Visual Studio 2013에서는 **분석/프로파일러**에서 이 기능을 찾을 수 있습니다.  
   

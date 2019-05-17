@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ec4e48bdd1a7f8701f46ed84296f7aad4490d08a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0dce682aad7ab0d049488a6da9b8ab4f3b444d88
+ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62977397"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65531700"
 ---
 # <a name="import-element-msbuild"></a>Import 요소(MSBuild)
 한 프로젝트 파일의 내용을 다른 프로젝트 파일로 가져옵니다.
@@ -46,6 +46,7 @@ ms.locfileid: "62977397"
 |---------------|-----------------|
 |`Project`|필수 특성입니다.<br /><br /> 가져올 프로젝트 파일의 경로입니다. 경로에 와일드카드를 포함할 수 있습니다. 일치하는 파일은 정렬된 순서로 가져오게 됩니다. 이 기능을 사용하여, 디렉터리에 코드 파일을 추가함으로써 프로젝트에 코드를 추가할 수 있습니다.|
 |`Condition`|선택적 특성입니다.<br /><br /> 평가할 조건입니다. 자세한 내용은 [조건](../msbuild/msbuild-conditions.md)을 참조하세요.|
+|`Sdk`| 선택적 특성입니다.<br /><br /> 프로젝트 SDK를 참조합니다.|
 
 ### <a name="child-elements"></a>자식 요소
  없음

@@ -1,5 +1,5 @@
 ---
-title: '방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기'
+title: Direct2D 및 JavaScript 애플리케이션에 대한 텍스처 내보내기
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 241c25fe-764e-4e1b-ad32-b1377dcbb605
@@ -8,14 +8,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 803129ea758a6648c0caa8303e1d191c0e8a74f5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c878d898aa12644cc7a53ee9f12b351cd54c9d8d
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62844386"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65459200"
 ---
-# <a name="how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps"></a>방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기
+# <a name="how-to-export-a-texture-for-use-with-direct2d-or-javascript-apps"></a>방법: Direct2D 또는 JavaScript 앱과 함께 사용하기 위해 텍스처 내보내기
 
 이미지 콘텐츠 파이프라인은 Direct2D의 내부 렌더링 규칙에 부합되는 질감을 생성할 수 있습니다. 이 종류의 질감은 Direct2D를 사용하는 앱 및 JavaScript를 사용하여 만든 UWP 앱에서 사용하는 데 적합합니다.
 
@@ -39,11 +39,11 @@ Direct2D의 컨텍스트에서 사용되는 질감은 이러한 Direct2D 내부 
 
 - 다음 블록 압축 형식 중 하나를 사용하여 질감을 *.dds* 형식으로 제공해야 합니다.
 
-    - BC1_UNORM 압축
+   - BC1_UNORM 압축
 
-    - BC2_UNORM 압축
+   - BC2_UNORM 압축
 
-    - BC3_UNORM 압축
+   - BC3_UNORM 압축
 
 - MIP 맵은 지원되지 않습니다.
 

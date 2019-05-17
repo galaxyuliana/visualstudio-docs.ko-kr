@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 94a52d81dd5e3b15340a2d58702600388b150001
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5aa67bd32f6895e4e1dfc4e7c558bc3bc0d8001b
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62999767"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461487"
 ---
 # <a name="overview-of-microsoft-intellitest"></a>Microsoft IntelliTest 개요
 
@@ -115,8 +115,7 @@ IntelliTest는 [매개 변수가 있는 단위 테스트](test-generation.md#par
 
 또한 프로그램을 다시 실행할 때 외부 소스의 값이 변경될 경우 프로그램을 비결정적으로 간주합니다. 이 경우 IntelliTest가 프로그램 실행을 제어할 수 없어서 해당 검색은 비효율적인 것이 됩니다.
 
-때때로 언제 이 문제가 발생하는지가 분명하지 않습니다.
-다음 예제를 살펴보세요.
+때때로 언제 이 문제가 발생하는지가 분명하지 않습니다. 다음 예제를 살펴보세요.
 
 * **GetHashCode()** 메서드의 결과가 비관리 코드에 의해 제공되고 예측할 수 없습니다.
 * **System.Random** 클래스가 현재 시스템 시간을 사용하여 실제로 무작위 값을 제공합니다.

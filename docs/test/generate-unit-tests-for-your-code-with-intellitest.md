@@ -9,14 +9,14 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: ec9d40d889964c3b0f369b87d8cd2c2312aaea18
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c9670182432b1c6bc1e763e014b04b193c399330
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62950876"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461216"
 ---
-# <a name="generate-unit-tests-for-your-code-with-intellitest"></a>IntelliTest를 사용하여 코드에 대한 단위 테스트 생성
+# <a name="how-to-generate-unit-tests-by-using-intellitest"></a>방법: IntelliTest를 사용하여 단위 테스트 생성
 
 IntelliTest는 .NET 코드를 탐색하여 테스트 데이터 및 단위 테스트 도구 모음을 생성합니다. 코드의 모든 문에 대해 해당 문을 실행할 테스트 입력이 생성됩니다. 코드의 모든 조건부 분기에 대해 사례 분석이 수행됩니다. 예를 들어 `if` 문, 어설션 및 예외를 throw할 수 있는 모든 작업이 분석됩니다. 이 분석은 각 메서드에 대해 매개 변수가 있는 단위 테스트용 테스트 데이터를 생성하는 데 사용됩니다(높은 코드 검사가 포함된 단위 테스트 생성).
 
@@ -26,33 +26,33 @@ IntelliTest를 실행하면 오류가 발생하는 테스트를 쉽게 확인하
 
 **IntelliTest 만들기** 및 **IntelliTest 실행** 메뉴 명령:
 
-* Visual Studio 2015 이상의 Enterprise Edition에서만 사용할 수 있습니다.
+* Visual Studio의 Enterprise Edition에서만 사용할 수 있습니다.
 
 * .NET Framework를 대상으로 하는 C# 코드만 지원합니다.
 
-* [확장 가능](#extend-framework)하고 MSTest, MSTest V2, NUnit, xUnit 형식으로 테스트 내보내기를 지원합니다.
+* [확장 가능](#extend-framework)하고 MSTest, MSTest V2, NUnit 및 xUnit 형식으로 테스트 내보내기를 지원합니다.
 
 * x64 구성을 지원하지 않습니다.
 
 ## <a name="explore-use-intellitest-to-explore-your-code-and-generate-unit-tests"></a>탐색: IntelliTest를 사용하여 코드 경로를 탐색하고 단위 테스트 생성
 
-단위 테스트를 생성하려면 형식이 공용이어야 합니다. 그렇지 않은 경우 먼저 [단위 테스트를 만든](#NoRun) 후에 생성합니다.
+단위 테스트를 생성하려면 형식이 공용이어야 합니다.
 
-1. Visual Studio에서 솔루션을 엽니다. 그런 다음 테스트할 메서드가 있는 클래스 파일을 엽니다.
+1. Visual Studio에서 솔루션을 연 다음, 테스트할 메서드가 있는 클래스 파일을 엽니다.
 
-2. 코드에서 메서드를 마우스 오른쪽 단추로 클릭하고 **IntelliTest 실행** 을 선택하여 메서드의 코드에 대한 단위 테스트를 생성합니다.
+2. 메서드를 마우스 오른쪽 단추로 클릭하고 **IntelliTest 실행**을 선택하여 메서드의 코드에 대한 단위 테스트를 생성합니다.
 
-     ![메서드를 마우스 오른쪽 단추로 클릭하여 단위 테스트 생성](../test/media/runpex.png)
+   ![메서드를 마우스 오른쪽 단추로 클릭하여 단위 테스트 생성](../test/media/runpex.png)
 
-     IntelliTest는 서로 다른 입력을 사용하여 코드를 여러 번 실행합니다. 각 실행은 입력 테스트 데이터 및 결과 출력 또는 예외와 함께 표에 나타납니다.
+   IntelliTest는 서로 다른 입력을 사용하여 코드를 여러 번 실행합니다. 각 실행은 입력 테스트 데이터 및 결과 출력 또는 예외와 함께 표에 나타납니다.
 
-     ![탐색 결과 창은 테스트와 함께 표시됨](../test/media/pexexplorationresults.png)
+   ![탐색 결과 창은 테스트와 함께 표시됨](../test/media/pexexplorationresults.png)
 
-     클래스의 모든 공용 메서드에 대해 단위 테스트를 생성하려는 경우 특정 메서드가 아니라 해당 클래스를 마우스 오른쪽 단추로 클릭하면 됩니다. 그런 다음 **IntelliTest 실행**을 선택합니다. **탐색 결과** 창의 드롭다운 목록을 사용하여 클래스의 각 메서드에 대한 단위 테스트 및 입력 데이터를 표시합니다.
+클래스의 모든 공용 메서드에 대해 단위 테스트를 생성하려는 경우 특정 메서드가 아닌 해당 클래스를 마우스 오른쪽 단추로 클릭한 다음, **IntelliTest 실행**을 선택합니다. **탐색 결과** 창의 드롭다운 목록을 사용하여 클래스의 각 메서드에 대한 단위 테스트 및 입력 데이터를 표시합니다.
 
-     ![테스트 결과를 선택하여 목록에서 보기](../test/media/selectpextest.png)
+![테스트 결과를 선택하여 목록에서 보기](../test/media/selectpextest.png)
 
-     통과한 테스트의 경우, 결과 열에 보고된 결과가 코드에 대한 예상과 일치하는지 확인합니다. 테스트가 실패하는 경우 코드를 적절하게 수정하세요. 그런 다음 IntelliTest를 다시 실행하여 수정 사항의 유효성을 검사합니다.
+통과한 테스트의 경우, 결과 열에 보고된 결과가 코드에 대한 예상과 일치하는지 확인합니다. 테스트가 실패하는 경우 코드를 적절하게 수정하세요. 그런 다음 IntelliTest를 다시 실행하여 수정 사항의 유효성을 검사합니다.
 
 ## <a name="persist-save-the-unit-tests-as-a-regression-suite"></a>유지: 단위 테스트를 재발 테스트 모음으로 저장
 
@@ -102,7 +102,7 @@ IntelliTest를 실행하면 오류가 발생하는 테스트를 쉽게 확인하
 
 **A:** 예외가 발생하지 않을 경우에는 다른 단위 테스트처럼 통과합니다. 어설션이 실패하거나 테스트 중인 코드가 처리되지 않은 예외를 throw하는 경우에는 실패합니다.
 
- 특정 예외가 throw되어도 성공할 수 있는 테스트가 있는 경우, 요구 사항에 따라 테스트 메서드, 테스트 클래스 또는 어셈블리 수준에서 다음 속성 중 하나를 설정할 수 있습니다.
+특정 예외가 throw되어도 성공할 수 있는 테스트가 있는 경우, 요구 사항에 따라 테스트 메서드, 테스트 클래스 또는 어셈블리 수준에서 다음 속성 중 하나를 설정할 수 있습니다.
 
 - **PexAllowedExceptionAttribute**
 
@@ -114,29 +114,29 @@ IntelliTest를 실행하면 오류가 발생하는 테스트를 쉽게 확인하
 
 ### <a name="q-can-i-add-assumptions-to-the-parameterized-unit-test"></a>Q: 매개 변수가 있는 단위 테스트에 가정을 추가할 수 있습니까?
 
-**A:** 예, 가정을 사용하여 특정 메서드에 대한 단위 테스트에 필요하지 않은 테스트 데이터를 지정할 수 있습니다. 가정을 추가하려면 <xref:Microsoft.Pex.Framework.PexAssume> 클래스를 사용합니다. 예를 들어 다음과 같이 lengths 변수가 null이 아니라는 가정을 추가할 수 있습니다.
+**A:** 예, 가정을 사용하여 특정 메서드에 대한 단위 테스트에 필요하지 않은 테스트 데이터를 지정할 수 있습니다. 가정을 추가하려면 <xref:Microsoft.Pex.Framework.PexAssume> 클래스를 사용합니다. 예를 들어 다음과 같이 `lengths` 변수가 null이 아니라는 가정을 추가할 수 있습니다.
 
- `PexAssume.IsNotNull(lengths);`
+`PexAssume.IsNotNull(lengths);`
 
- 가정을 추가하고 IntelliTest를 다시 실행하면 더 이상 관련이 없는 테스트 데이터가 제거됩니다.
+가정을 추가하고 IntelliTest를 다시 실행하면 더 이상 관련이 없는 테스트 데이터가 제거됩니다.
 
 ### <a name="q-can-i-add-assertions-to-the-parameterized-unit-test"></a>Q: 매개 변수가 있는 단위 테스트에 어설션을 추가할 수 있습니까?
 
 **A:** 예, IntelliTest는 단위 테스트를 실행할 때 명령문에서 어설션된 항목이 실제로 올바른지 확인합니다. 어설션을 추가하려면 테스트 프레임워크와 함께 제공되는 <xref:Microsoft.Pex.Framework.PexAssert> 클래스 또는 어설션 API를 사용합니다. 예를 들어 두 변수가 동일하다는 어설션을 추가할 수 있습니다.
 
- `PexAssert.AreEqual(a, b);`
+`PexAssert.AreEqual(a, b);`
 
- 어설션을 추가하고 IntelliTest를 다시 실행하면 IntelliTest가 어설션이 유효한지 확인하고 유효하지 않을 경우 테스트가 실패합니다.
+어설션을 추가하고 IntelliTest를 다시 실행하면 어설션이 유효한지 확인하고 유효하지 않을 경우 테스트가 실패합니다.
 
 ### <a name="NoRun"></a> Q: IntelliTest를 먼저 실행하지 않고 매개 변수가 있는 단위 테스트를 생성할 수 있나요?
 
 **A:** 예, 클래스 또는 메서드를 마우스 오른쪽 단추로 클릭한 다음, **IntelliTest 만들기**를 선택합니다.
 
- ![편집기를 마우스 오른쪽 단추로 클릭하고 IntelliTest 만들기 선택](../test/media/pexcreateintellitest.png)
+![편집기를 마우스 오른쪽 단추로 클릭하고 IntelliTest 만들기 선택](../test/media/pexcreateintellitest.png)
 
- 기본 형식을 적용하여 테스트를 생성하거나 프로젝트 및 테스트 이름 지정 방법을 변경합니다. 새 테스트 프로젝트를 만들거나 기존 프로젝트에 테스트를 저장할 수 있습니다.
+기본 형식을 적용하여 테스트를 생성하거나 프로젝트 및 테스트 이름 지정 방법을 변경합니다. 새 테스트 프로젝트를 만들거나 기존 프로젝트에 테스트를 저장할 수 있습니다.
 
- ![MSTest 기본값을 사용하여 IntelliTest 만들기](../test/media/pexcreateintellitestmstest.png)
+![MSTest 기본값을 사용하여 IntelliTest 만들기](../test/media/pexcreateintellitestmstest.png)
 
 <a name="extend-framework"></a>
 ### <a name="q-can-i-use-other-unit-test-frameworks-with-intellitest"></a>Q: IntelliTest와 함께 다른 단위 테스트 프레임워크를 사용할 수 있나요?

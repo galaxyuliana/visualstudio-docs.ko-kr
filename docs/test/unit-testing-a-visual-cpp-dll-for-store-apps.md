@@ -1,18 +1,18 @@
 ---
 title: UWP 앱의 Visual C++ DLL 테스트 방법
-ms.date: 02/15/2018
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: mblome
 manager: jillfra
 ms.workload:
 - uwp
 author: mikeblome
-ms.openlocfilehash: 20749240e95d167d1b0268b2605ffeede8cf797a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 01a7b6cfb6587baf5ae80b04178cbdc36e373b86
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62562622"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226363"
 ---
 # <a name="how-to-test-a-visual-c-dll"></a>Visual C++ DLL 테스트 방법
 
@@ -24,15 +24,27 @@ ms.locfileid: "62562622"
 
 ## <a name="Create_the_solution_and_the_unit_test_project"></a> 솔루션 및 단위 테스트 프로젝트 만들기
 
-1. **파일** 메뉴에서 **새로 만들기** > **새 프로젝트**를 선택합니다.
+::: moniker range="vs-2019"
 
-2. 새 프로젝트 대화 상자에서 **설치됨** > **Visual C++** 를 확장하고 **Windows 유니버설**을 선택합니다. 그런 다음 프로젝트 템플릿 목록에서 **유닛 테스트 앱(유니버설 Windows)** 을 선택합니다.
+먼저 새 테스트 프로젝트를 만듭니다. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트 추가** 대화 상자에 "test"를 입력한 다음, **언어**를 C++로 설정합니다. 그런 다음 프로젝트 템플릿 목록에서 **유닛 테스트 앱(유니버설 Windows)** 을 선택합니다.
 
-3. 프로젝트 이름을 `RooterLibTests`로 지정하고 위치를 지정합니다. 솔루션 이름을 `RooterLib`로 지정하고 **솔루션용 디렉터리 만들기**가 선택되어 있는지 확인합니다.
+   ![새 UWP 테스트 프로젝트 만들기](media/vs-2019/cpp-new-uwp-test-project-vs2019.png)
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+먼저 새 테스트 프로젝트를 만듭니다. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트** 대화 상자에서 **설치됨** > **Visual C++** 를 확장하고 **Windows 유니버설**을 선택합니다. 그런 다음 프로젝트 템플릿 목록에서 **유닛 테스트 앱(유니버설 Windows)** 을 선택합니다.
+
+::: moniker-end
+
+1. 새 프로젝트 대화 상자에서 **설치됨** > **Visual C++** 를 확장하고 **Windows 유니버설**을 선택합니다. 그런 다음 프로젝트 템플릿 목록에서 **유닛 테스트 앱(유니버설 Windows)** 을 선택합니다.
+
+2. 프로젝트 이름을 `RooterLibTests`로 지정하고 위치를 지정합니다. 솔루션 이름을 `RooterLib`로 지정하고 **솔루션용 디렉터리 만들기**가 선택되어 있는지 확인합니다.
 
      ![솔루션, 프로젝트 이름 및 위치 지정](../test/media/ute_cpp_windows_unittestlib_createspecs.png)
 
-4. 새 프로젝트에서 **unittest1.cpp**를 엽니다.
+3. 새 프로젝트에서 **unittest1.cpp**를 엽니다.
 
      ![unittest1.cpp](../test/media/ute_cpp_windows_unittest1_cpp.png)
 
@@ -67,13 +79,24 @@ ms.locfileid: "62562622"
 
 ## <a name="Add_the_DLL_project_to_the_solution"></a> 솔루션에 DLL 프로젝트 추가
 
-1. **솔루션 탐색기**에서 솔루션 이름을 선택합니다. 바로 가기 메뉴에서 **추가**를 선택한 다음 **새 프로젝트 추가**를 선택합니다.
+::: moniker range="vs-2019"
 
-     ![RooterLib 프로젝트 만들기](../test/media/ute_cpp_windows_rooterlib_create.png)
+**솔루션 탐색기**에서 솔루션 이름을 선택합니다. 바로 가기 메뉴에서 **추가**를 선택한 다음, **새 프로젝트**를 선택합니다. **새 프로젝트 추가** 대화 상자에서 **언어**를 C++로 설정하고 검색 상자에 "DLL"을 입력합니다. 결과 목록에서 **단위 테스트 앱(유니버설 Windows - C++/CX)** 을 선택합니다.
 
-2. **새 프로젝트 추가** 대화 상자에서 **DLL(UWP 앱)** 을 선택합니다.
+![RooterLib 프로젝트 만들기](../test/media/vs-2019/cpp-new-uwp-test-project-vs2019.png)
 
-3. *RooterLib.h* 파일에 다음 코드를 추가합니다.
+::: moniker-end
+
+::: moniker range="vs-2017"
+**솔루션 탐색기**에서 솔루션 이름을 선택합니다. 바로 가기 메뉴에서 **추가**를 선택한 다음, **새 프로젝트**를 선택합니다.
+
+![RooterLib 프로젝트 만들기](../test/media/ute_cpp_windows_rooterlib_create.png)
+
+::: moniker-end
+
+1. **새 프로젝트 추가** 대화 상자에서 **DLL(UWP 앱)** 을 선택합니다.
+
+2. *RooterLib.h* 파일에 다음 코드를 추가합니다.
 
     ```cpp
     // The following ifdef block is the standard way of creating macros which make exporting
@@ -99,7 +122,7 @@ ms.locfileid: "62562622"
 
      `CRooterLib` 클래스는 생성자와 `SqareRoot` 평가자 메서드를 선언합니다.
 
-4. 명령줄에 ROOTERLIB_EXPORTS 기호를 추가합니다.
+3. 명령줄에 ROOTERLIB_EXPORTS 기호를 추가합니다.
 
     1. **솔루션 탐색기**에서 **RooterLib** 프로젝트를 선택한 다음, 바로 가기 메뉴에서 **속성**을 선택합니다.
 
@@ -109,7 +132,7 @@ ms.locfileid: "62562622"
 
     3. **전처리기 정의** 목록에서 **\<편집...>** 을 선택한 다음, **전처리기 정의** 대화 상자에서 `ROOTERLIB_EXPORTS`를 추가합니다.
 
-5. 선언된 함수의 최소 구현을 추가합니다. *RooterLib.cpp*를 열고 다음 코드를 추가합니다.
+4. 선언된 함수의 최소 구현을 추가합니다. *RooterLib.cpp*를 열고 다음 코드를 추가합니다.
 
     ```cpp
     // constructor

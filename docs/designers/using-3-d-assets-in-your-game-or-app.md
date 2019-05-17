@@ -15,14 +15,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0cb6b6d7969742f4cd1c155e800464a6f645649d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c595f4c8f344cfb9e8678d8f9c425a564baa9e4b
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62892907"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65459106"
 ---
-# <a name="use-3d-assets-in-your-game-or-app"></a>게임 또는 앱에서 3D 자산 사용
+# <a name="how-to-use-3d-assets-in-your-game-or-app"></a>방법: 게임 또는 앱에서 3D 자산 사용
 
 이 문서에서는 Visual Studio에서 3D 자산을 처리하여 빌드에 포함하는 방법에 대해 설명합니다.
 
@@ -34,7 +34,9 @@ Visual Studio에서 도구를 사용하여 3D 자산을 만들면 그 다음 단
 
 ### <a name="to-add-the-build-customizations-to-your-project"></a>프로젝트에 빌드 사용자 지정을 추가하려면
 
-1. **솔루션 탐색기**에서 프로젝트에 대한 바로 가기 메뉴를 연 다음, **빌드 종속성** > **빌드 사용자 지정**을 차례로 선택합니다. **Visual C++ 빌드 사용자 지정 파일** 대화 상자가 표시됩니다.
+1. **솔루션 탐색기**에서 프로젝트에 대한 바로 가기 메뉴를 연 다음, **빌드 종속성** > **빌드 사용자 지정**을 차례로 선택합니다.
+
+   **Visual C++ 빌드 사용자 지정 파일** 대화 상자가 표시됩니다.
 
 2. **사용 가능한 빌드 사용자 지정 파일**에서는 다음 테이블에서 설명한 대로 프로젝트에서 사용하려는 자산 형식에 해당하는 확인란을 선택합니다.
 
@@ -47,11 +49,14 @@ Visual Studio에서 도구를 사용하여 3D 자산을 만들면 그 다음 단
 3. **확인** 단추를 선택합니다.
 
 ## <a name="include-assets-in-your-build"></a>빌드에 자산 포함
- 이제 프로젝트에서는 사용자가 사용하려는 여러 종류의 3D 자산에 대해 알고 있으므로 그 다음으로는 어떤 파일이 3D 파일이고 이러한 파일이 어떤 종류의 자산인지 프로젝트에 알립니다.
+
+이제 프로젝트에서는 사용자가 사용하려는 여러 종류의 3D 자산에 대해 알고 있으므로 그 다음으로는 어떤 파일이 3D 파일이고 이러한 파일이 어떤 종류의 자산인지 프로젝트에 알립니다.
 
 ### <a name="to-add-an-asset-to-your-build"></a>빌드에 자산을 추가하려면
 
-1. **솔루션 탐색기**의 프로젝트에서 자산의 바로 가기 메뉴를 연 다음 **속성**을 선택합니다. 자산의 **속성 페이지** 대화 상자가 표시됩니다.
+1. **솔루션 탐색기**의 프로젝트에서 자산의 바로 가기 메뉴를 연 다음 **속성**을 선택합니다.
+
+   자산의 **속성 페이지** 대화 상자가 표시됩니다.
 
 2. **구성** 및 **플랫폼** 속성이 변경 내용을 적용하려는 값으로 설정되어 있는지 확인합니다.
 
@@ -76,7 +81,9 @@ Visual Studio에서 도구를 사용하여 3D 자산을 만들면 그 다음 단
 
 ### <a name="to-configure-content-pipeline-properties"></a>콘텐츠 파이프라인 속성을 구성하려면
 
-1. **솔루션 탐색기**의 프로젝트에서 자산 파일의 바로 가기 메뉴를 연 다음 **속성**을 선택합니다. 자산의 **속성 페이지** 대화 상자가 표시됩니다.
+1. **솔루션 탐색기**의 프로젝트에서 자산 파일의 바로 가기 메뉴를 연 다음 **속성**을 선택합니다.
+
+   자산의 **속성 페이지** 대화 상자가 표시됩니다.
 
 2. **구성** 및 **플랫폼** 속성이 변경 내용을 적용하려는 값으로 설정되어 있는지 확인합니다.
 
@@ -208,6 +215,6 @@ cbuffer MiscVars : register(b3)
 |-----------|-----------------|
 |[방법: 밉 맵을 포함하는 질감 내보내기](../designers/how-to-export-a-texture-that-contains-mipmaps.md)|이미지 콘텐츠 파이프라인을 사용하여 미리 계산된 Mip 맵이 포함된 질감을 내보내는 방법에 대해 설명합니다.|
 |[방법: 미리 증가된 알파를 사용하는 질감 내보내기](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)|이미지 콘텐츠 파이프라인을 사용하여 사전 곱셈된 알파 값이 포함된 질감을 내보내는 방법에 대해 설명합니다.|
-|[방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|이미지 콘텐츠 파이프라인을 사용하여 Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 내보내는 방법에 대해 설명합니다.|
+|[방법: Direct2D 또는 JavaScript 앱과 함께 사용하기 위해 텍스처 내보내기](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|이미지 콘텐츠 파이프라인을 사용하여 Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 내보내는 방법에 대해 설명합니다.|
 |[게임 및 앱을 위한 3D 자산 작업](../designers/working-with-3-d-assets-for-games-and-apps.md)|Visual Studio에서 질감 및 이미지, 3D 모델 및 셰이더를 비롯한 3D 자산을 만들고 조작할 수 있는 편집 도구에 대해 설명합니다.|
 |[방법: 셰이더 내보내기](../designers/how-to-export-a-shader.md)|셰이더 디자이너에서 셰이더를 내보내는 방법을 설명합니다.|
