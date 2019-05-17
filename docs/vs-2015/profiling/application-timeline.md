@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 5d49b870b83eeb4bce48c562f3944aacef871cd2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 0dee5cff8700e5748832792c1056b51a878e3f3b
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431062"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696890"
 ---
 # <a name="application-timeline"></a>애플리케이션 타임라인
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,10 +38,10 @@ ms.locfileid: "63431062"
 5. Windows 7  
   
 > [!NOTE]
-> **응용 프로그램 타임라인** 데이터와 함께 CPU 사용량 데이터 및 에너지 소비량 데이터를 수집하고 분석할 수 있습니다. 참조 [디버깅 하지 않고 프로 파일링 도구 실행](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)  
+> **응용 프로그램 타임라인** 데이터와 함께 CPU 사용량 데이터 및 에너지 소비량 데이터를 수집하고 분석할 수 있습니다. 참조 [디버깅 하지 않고 프로 파일링 도구 실행](https://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)  
   
 ## <a name="BKMK_Collect_Timeline_data_for_your_app"></a> 응용 프로그램 타임라인 데이터 수집  
- 로컬 시스템, 연결된 디바이스, Visual Studio 시뮬레이터 또는 에뮬레이터, 또는 원격 디바이스에서 앱 응답성을 프로파일링할 수 있습니다. 참조 [디버깅 하지 않고 프로 파일링 도구 실행](http://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)합니다.  
+ 로컬 시스템, 연결된 디바이스, Visual Studio 시뮬레이터 또는 에뮬레이터, 또는 원격 디바이스에서 앱 응답성을 프로파일링할 수 있습니다. 참조 [디버깅 하지 않고 프로 파일링 도구 실행](https://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)합니다.  
   
 > [!TIP]
 > 가능한 경우 디바이스에서 앱을 직접 실행합니다. 시뮬레이터에서 또는 원격 데스크톱 연결을 통해 관찰한 응용 프로그램 성능은 디바이스의 실제 성능과 다를 수 있습니다. 반면에 Visual Studio 원격 도구를 사용하여 데이터를 수집하면 성능 데이터에 영향을 주지 않습니다.  
@@ -121,5 +121,5 @@ ms.locfileid: "63431062"
   
 ## <a name="see-also"></a>참고 항목  
  [WPF 팀 블로그: WPF 응용 프로그램에 대 한 새로운 UI 성능 분석 도구](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)   
- [C++, C# 및 Visual Basic을 사용하는 Windows 스토어 앱의 성능 모범 사례](http://msdn.microsoft.com/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
- [WPF 응용 프로그램 성능 최적화](http://msdn.microsoft.com/library/ac8c6aa3-3c68-4a24-9827-3b6c829c1ebf)
+ [C++, C# 및 Visual Basic을 사용하는 Windows 스토어 앱의 성능 모범 사례](https://msdn.microsoft.com/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
+ [WPF 응용 프로그램 성능 최적화](https://msdn.microsoft.com/library/ac8c6aa3-3c68-4a24-9827-3b6c829c1ebf)

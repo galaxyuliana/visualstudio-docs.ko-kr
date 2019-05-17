@@ -19,12 +19,12 @@ caps.latest.revision: 49
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: cdfcb6bb07f167ea1da81101ae00613a5b2fac93
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7aca98a97919a741f43c3c746d96fc8e89cb9ea6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63440952"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674227"
 ---
 # <a name="link-model-elements-and-work-items"></a>모델 요소 및 작업 항목 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -140,7 +140,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
 1. **Team Explorer**에서 모델 요소가 작업 항목에 연결된 팀 프로젝트에 연결되어 있는지 확인합니다.  
   
     > [!NOTE]
-    > 링크된 모델 요소를 보려면 Team Web Access가 아닌 팀 탐색기를 사용해야 합니다. 작업 영역이 모델링 다이어그램 또는 요소가 포함된 모델링 프로젝트에 매핑되었는지 확인합니다. 작업 영역이 없으면 만들어야 합니다. [문제 해결](#Troubleshooting) 및 [작업 영역 만들기 및 사용](http://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a)을 참조하세요.  
+    > 링크된 모델 요소를 보려면 Team Web Access가 아닌 팀 탐색기를 사용해야 합니다. 작업 영역이 모델링 다이어그램 또는 요소가 포함된 모델링 프로젝트에 매핑되었는지 확인합니다. 작업 영역이 없으면 만들어야 합니다. [문제 해결](#Troubleshooting) 및 [작업 영역 만들기 및 사용](https://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a)을 참조하세요.  
   
 2. 작업 영역을 열고 **링크**를 선택합니다. **모델 링크**에서 링크된 모델 요소에 대한 바로 가기 메뉴를 엽니다. **링크된 항목 열기**를 선택합니다.  
   
@@ -168,7 +168,7 @@ Visual Studio의 모델 요소와 Team Foundation Server 또는 Visual Studio Te
   
 |**문제**|**가능한 원인**|**해결**|  
 |---------------|------------------------|--------------------|  
-|링크를 해제할 모델 요소를 찾을 수 없습니다.|해당 요소가 [!INCLUDE[esprscc](../includes/esprscc-md.md)]에 있는 모델링 프로젝트의 다이어그램에 있을 수 있습니다. 다이어그램에 매핑되는 작업 영역이 없을 수 있습니다.|작업 영역을 모델링 프로젝트와 다이어그램에 매핑합니다. 작업 영역이 없으면 만들어야 합니다.<br /><br /> 이 문제에 대해 나타나는 오류 메시지에는 작업 영역을 매핑하는 데 사용할 수 있는 경로가 포함됩니다.<br /><br /> [작업 영역 만들기 및 사용](http://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a)을 참조하세요.|  
+|링크를 해제할 모델 요소를 찾을 수 없습니다.|해당 요소가 [!INCLUDE[esprscc](../includes/esprscc-md.md)]에 있는 모델링 프로젝트의 다이어그램에 있을 수 있습니다. 다이어그램에 매핑되는 작업 영역이 없을 수 있습니다.|작업 영역을 모델링 프로젝트와 다이어그램에 매핑합니다. 작업 영역이 없으면 만들어야 합니다.<br /><br /> 이 문제에 대해 나타나는 오류 메시지에는 작업 영역을 매핑하는 데 사용할 수 있는 경로가 포함됩니다.<br /><br /> [작업 영역 만들기 및 사용](https://msdn.microsoft.com/library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a)을 참조하세요.|  
 |링크된 모델 요소를 찾을 수 없습니다.|연결된 요소가 이동되거나 이름이 바뀌거나 삭제된 다이어그램에 있을 수 있습니다.|1.  작업 항목에서 모델 요소에 대한 링크를 삭제합니다.<br />2.  작업 항목에서 모델 요소에 연결되는 새 링크를 만듭니다.|  
 |작업 항목에 있어야 할 링크된 모델 요소가 없습니다.|작업 항목에는 작업 항목에서 링크를 만든 경우에만 링크된 계층 요소가 표시됩니다. 팀에서 [!INCLUDE[esprscc](../includes/esprscc-md.md)]를 사용하지 않는 경우 다이어그램의 로컬 경로가 링크를 만드는 데 사용됩니다. 모델링 프로젝트와 해당 다이어그램이 [!INCLUDE[esprscc](../includes/esprscc-md.md)]에 있으면 프로젝트에 액세스할 수 있는 모든 팀 멤버가 작업 항목에서 연결된 요소를 볼 수 있습니다.|작업 항목을 새로 고쳐 보세요.|  
 |작업 항목에서 모델 요소에 대한 링크를 삭제해도 작업 항목에 대한 모델 요소의 링크가 삭제되지 않습니다.||모델 요소에서 시작하는 작업 항목에 대한 링크를 삭제하세요.|  

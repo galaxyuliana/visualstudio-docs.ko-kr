@@ -41,12 +41,12 @@ caps.latest.revision: 63
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: fa7f571a797df6ecd7a2967ba1cefa3d99a0463b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: cadaf069bb53c9d212e6de5ebd6ea2cf9efe7bb1
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064572"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65684526"
 ---
 # <a name="using-breakpoints"></a>중단점 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -167,7 +167,7 @@ ms.locfileid: "60064572"
    디버거에서 인식하는 모든 유효한 식은 조건이 될 수 있습니다. 유효한 식에 대한 자세한 내용은 [Expressions in the Debugger](../debugger/expressions-in-the-debugger.md)을 참조하세요.  
   
 ## <a name="using-object-ids-in-breakpoint-conditions-c-and-f"></a>중단점 조건에서 개체 ID 사용(C# 및 F#)  
- 특정 개체의 동작을 관찰하려는 경우가 있습니다. 예를 들어 개체가 컬렉션에 두 번 이상 삽입된 이유를 확인할 수 있습니다. C# 및 F#에서 [참조 형식](http://msdn.microsoft.com/library/801cf030-6e2d-4a0d-9daf-1431b0c31f47) 의 특정 인스턴스에 대한 개체 ID를 만들고 중단점 조건에서 사용할 수 있습니다. 개체 ID는 CLR(공용 언어 런타임) 디버깅 서비스에 의해 생성되고 개체와 연결됩니다.  개체 ID를 만들려면 다음을 수행합니다.  
+ 특정 개체의 동작을 관찰하려는 경우가 있습니다. 예를 들어 개체가 컬렉션에 두 번 이상 삽입된 이유를 확인할 수 있습니다. C# 및 F#에서 [참조 형식](https://msdn.microsoft.com/library/801cf030-6e2d-4a0d-9daf-1431b0c31f47) 의 특정 인스턴스에 대한 개체 ID를 만들고 중단점 조건에서 사용할 수 있습니다. 개체 ID는 CLR(공용 언어 런타임) 디버깅 서비스에 의해 생성되고 개체와 연결됩니다.  개체 ID를 만들려면 다음을 수행합니다.  
   
 1. 개체를 만들고 일정 시간 후에 코드에서 중단점을 설정합니다.  
   

@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 126aa1ad57aa5f8961803b8443365c208f5623ff
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c3f1533df24af802ae0c9950d4765ea0a0bf04da
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63421247"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65693545"
 ---
 # <a name="walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service"></a>연습: Azure 모바일 서비스에 연결 된 WPF 데스크톱 응용 프로그램 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
   
 - 활성 Microsoft Azure 계정.  
   
-    - [여기](http://azure.microsoft.com/pricing/free-trial/)서 무료 평가판 계정을 등록할 수 있습니다.  
+    - [여기](https://azure.microsoft.com/pricing/free-trial/)서 무료 평가판 계정을 등록할 수 있습니다.  
   
     - [MSDN 구독자 혜택](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F)을 활성화할 수 있습니다. MSDN을 구독하면 매달 유료 Azure 서비스에 사용할 수 있는 크레딧이 제공됩니다.  
   
@@ -566,7 +566,7 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
   
  색, 모양, 그래픽 및 심지어 애니메이션을 추가하여 사용자 인터페이스를 보다 매력적으로 만들 수 있습니다. [Visual Studio 및 Blend for Visual Studio에서 XAML 디자인](../designers/designing-xaml-in-visual-studio.md)을 참조하세요.  
   
- Azure 모바일 서비스를 사용하여 기존 SQL 데이터베이스 또는 다른 데이터 원본에 연결할 수 있습니다. [모바일 서비스 설명서](http://azure.microsoft.com/services/app-service/mobile/)를 참조하세요.  
+ Azure 모바일 서비스를 사용하여 기존 SQL 데이터베이스 또는 다른 데이터 원본에 연결할 수 있습니다. [모바일 서비스 설명서](https://azure.microsoft.com/services/app-service/mobile/)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [연습: 내 첫 WPF 데스크톱 응용 프로그램](../designers/walkthrough-my-first-wpf-desktop-application2.md)   

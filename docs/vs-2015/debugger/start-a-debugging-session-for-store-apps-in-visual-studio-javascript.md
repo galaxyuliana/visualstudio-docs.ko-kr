@@ -17,12 +17,12 @@ caps.latest.revision: 27
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 630b2896e7446cf62982dd62ed12f9f7b7ca4aa9
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4b4e861c8985ee37a8c2d9b7f9286d6284bb4f91
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63427290"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685032"
 ---
 # <a name="start-a-debugging-session-for-store-apps-in-visual-studio-javascript"></a>Visual Studio에서 스토어 앱에 대한 디버깅 세션 시작(JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -213,7 +213,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
 ### <a name="BKMK_Set_the_app_to_run_in_debug_mode"></a> 응용 프로그램이 디버그 모드에서 실행되도록 설정
 
-1. 응용 프로그램이 설치된 디바이스에 Visual Studio 원격 도구를 설치합니다. 참조 [원격 도구 설치](http://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools)합니다.
+1. 응용 프로그램이 설치된 디바이스에 Visual Studio 원격 도구를 설치합니다. 참조 [원격 도구 설치](https://msdn.microsoft.com/library/windows/apps/hh441469.aspx#BKMK_Installing_the_Remote_Tools)합니다.
 
 2. 시작 메뉴에서 `Debuggable Package Manager`를 검색한 다음 시작합니다.
 

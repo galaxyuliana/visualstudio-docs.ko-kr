@@ -60,12 +60,12 @@ caps.latest.revision: 46
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: bba1d1b45c47a61f85bf37d4768a8f05ba0c3e87
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 23dd08e95100f186c172fff2cfa6a392bd11eee4
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63439785"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698095"
 ---
 # <a name="writing-code-in-the-code-and-text-editor"></a>코드 및 텍스트 편집기에서 코드 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -188,7 +188,7 @@ Visual Studio의 "탐색" 명령은 코드 파일, 파일 경로 및 코드 기�
 
  언어별 편집기 옵션에 대한 자세한 내용은 다음을 참조하세요.  
 
-- [Visual Basic 설정](http://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
+- [Visual Basic 설정](https://msdn.microsoft.com/library/2712b3b1-18f2-430c-ae91-28468bbf5f32)  
 
 - [C#용 Visual Studio 개발 환경 사용](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 

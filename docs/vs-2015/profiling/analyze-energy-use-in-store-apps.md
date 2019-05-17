@@ -14,12 +14,12 @@ caps.latest.revision: 39
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 67dd471808b938428d1c9e3f2d5b10c36f2bc914
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c2b25d0fa57659b3081b54c51b7493621423188f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63435111"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65696997"
 ---
 # <a name="analyze-energy-use-in-store-apps"></a>스토어 앱의 에너지 사용 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,12 +55,12 @@ Visual Studio **에너지 소비** 프로파일러를 사용하면 자체 배터
   
  **C#, Visual Basic, C++ 코드에 표시 추가**  
   
- C#, Visual Basic, C++ 코드에 사용자 표시를 추가하려면 먼저 [Windows.Foundation.Diagnostics LoggingChannel](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.aspx) 개체를 만듭니다. 그런 다음 [LoggingChannel.LogMessage](http://msdn.microsoft.com/library/windows/apps/dn264210.aspx) 메서드의 표시할 코드의 지점에 호출을 삽입합니다. 호출에 [LoggingLevel.Information](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.logginglevel.aspx) 을 사용합니다.  
+ C#, Visual Basic, C++ 코드에 사용자 표시를 추가하려면 먼저 [Windows.Foundation.Diagnostics LoggingChannel](https://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.aspx) 개체를 만듭니다. 그런 다음 [LoggingChannel.LogMessage](https://msdn.microsoft.com/library/windows/apps/dn264210.aspx) 메서드의 표시할 코드의 지점에 호출을 삽입합니다. 호출에 [LoggingLevel.Information](https://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.logginglevel.aspx) 을 사용합니다.  
   
  메서드가 실행되면 프로파일링 데이터에 사용자 표시와 메시지가 추가됩니다.  
   
 > [!NOTE]
-> - Windows.Foundation.Diagnostics LoggingChannel은 [Windows.Foundation.IClosable](http://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) 인터페이스를 구현합니다(C# 및 VB에서 [System.IDisposable](http://msdn.microsoft.com/library/System.IDisposable.aspx) 로 프로젝션됨). 운영 체제 리소스 누수를 방지하려면 로깅 채널이 완료될 때 [LoggingChannel.Close](http://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)(C# 및 VB에서는 Windows.Foundation.Diagnostics.LoggingChannel.Dispose)를 호출합니다.  
+> - Windows.Foundation.Diagnostics LoggingChannel은 [Windows.Foundation.IClosable](https://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) 인터페이스를 구현합니다(C# 및 VB에서 [System.IDisposable](https://msdn.microsoft.com/library/System.IDisposable.aspx) 로 프로젝션됨). 운영 체제 리소스 누수를 방지하려면 로깅 채널이 완료될 때 [LoggingChannel.Close](https://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)(C# 및 VB에서는 Windows.Foundation.Diagnostics.LoggingChannel.Dispose)를 호출합니다.  
 >   - 열린 각 로깅 채널의 이름은 고유해야 합니다. 동일한 이름의 새 로깅 채널을 삭제되지 않은 채널로 만들려고 하면 예외가 발생합니다.  
   
  예제는 Windows SDK 샘플 [LoggingSession 샘플](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) 을 참조하세요.  
@@ -148,7 +148,7 @@ if (performance && performance.mark) {
   
 ## <a name="BKMK_Other_resources"></a> 기타 리소스  
   
-- Windows 개발자 센터에 나와 있는 **C#/VB/C++ 및 XAML** 및 [JavaScript 및 HTML](http://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) 의 [연결 상태 및 원가 관리](http://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) 섹션에서는 앱이 네트워크 트래픽 비용을 최소화하는 데 사용할 수 있는 네트워크 연결 정보를 제공하는 Windows API에 대해 설명합니다.  
+- Windows 개발자 센터에 나와 있는 **C#/VB/C++ 및 XAML** 및 [JavaScript 및 HTML](https://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) 의 [연결 상태 및 원가 관리](https://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) 섹션에서는 앱이 네트워크 트래픽 비용을 최소화하는 데 사용할 수 있는 네트워크 연결 정보를 제공하는 Windows API에 대해 설명합니다.  
   
      Windows 스토어 앱에 대한 Visual Studio 시뮬레이터를 사용하여 네트워크 정보 API의 데이터 연결 속성을 시뮬레이트할 수 있습니다.  [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하십시오.  
   

@@ -24,12 +24,12 @@ caps.latest.revision: 29
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 65c802964a03fdfe99e4f2f51988de36a806dcbd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: f167b3e9d27145284defa2ff491bb9ce0085f2a3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60090890"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65684906"
 ---
 # <a name="supported-code-changes-c"></a>지원되는 코드 변경(C++)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,7 +71,7 @@ Visual C++용 편집하며 계속하기에서는 대부분의 코드 변경 유�
 ## <a name="BKMK_Unsupported_scenarios"></a> 지원되지 않는 시나리오  
  다음과 같은 디버깅 시나리오에서는 C/C++의 편집하며 계속하기를 사용할 수 없습니다.  
   
--  [/Zo(최적화된 디버깅 향상)](http://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)로 컴파일한 네이티브 앱 디버그  
+-  [/Zo(최적화된 디버깅 향상)](https://msdn.microsoft.com/library/eea8d89a-7fe0-4fe1-86b2-7689bbebbd7f)로 컴파일한 네이티브 앱 디버그  
   
 - Visual Studio 2015 업데이트 1 이전의 Visual Studio 버전에서 Windows 스토어 앱 또는 구성 요소를 디버그합니다. Visual Studio 2015 업데이트 1부터는 `/ZI` 스위치로  `/bigobj` 컴파일러 스위치를 지원하기 때문에 Windows 스토어 C++ 앱 및 DirectX 앱에서 편집하며 계속하기를 사용할 수 있습니다.  `/FASTLINK` 컴파일러 스위치를 지원하기 때문에 Windows 스토어 C++ 앱 및 DirectX 앱에서 편집하며 계속하기를 사용할 수 있습니다.  
   
@@ -141,7 +141,7 @@ Visual C++용 편집하며 계속하기에서는 대부분의 코드 변경 유�
 3. **미리 컴파일 허용** 확인란 선택을 취소합니다.  
   
 ## <a name="BKMK_IDL_Attribute_Limitations"></a> IDL 특성 제한 사항  
- 편집하며 계속하기는 IDL(인터페이스 정의) 파일을 다시 생성하지 않습니다. 따라서 디버깅하는 동안 IDL 특성의 변경 내용이 반영되지 않습니다. IDL 특성을 변경한 결과를 확인하려면 디버깅을 중단하고 앱을 다시 빌드해야 합니다. 편집하며 계속하기는 IDL 특성이 변경되어도 오류나 경고를 생성하지 않습니다. 자세한 내용은 [IDL 특성](http://msdn.microsoft.com/library/04c596f4-c97b-4952-8053-316678b1d0b6)을 참조하세요.  
+ 편집하며 계속하기는 IDL(인터페이스 정의) 파일을 다시 생성하지 않습니다. 따라서 디버깅하는 동안 IDL 특성의 변경 내용이 반영되지 않습니다. IDL 특성을 변경한 결과를 확인하려면 디버깅을 중단하고 앱을 다시 빌드해야 합니다. 편집하며 계속하기는 IDL 특성이 변경되어도 오류나 경고를 생성하지 않습니다. 자세한 내용은 [IDL 특성](https://msdn.microsoft.com/library/04c596f4-c97b-4952-8053-316678b1d0b6)을 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)
