@@ -1,18 +1,18 @@
 ---
 title: C++에 대한 Microsoft 단위 테스트 프레임워크 사용
-ms.date: 11/15/2017
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: mblome
-manager: jillfra
+manager: markl
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: 14f2b1e5267bd5c9ce35375c6cf6438406aa3e80
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 607956b93014fd1058f4a43ea17f6ba341752222
+ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62970355"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65461475"
 ---
 # <a name="use-the-microsoft-unit-testing-framework-for-c-in-visual-studio"></a>Visual Studio에서 Microsoft Unit Testing Framework for C++ 사용
 
@@ -52,10 +52,12 @@ DLL에서 내보내지 않은 함수 테스트 등, 일부 경우에는 테스�
 ## <a name="run-the-tests"></a>테스트 실행
 
 1. **테스트** 메뉴에서 **Windows** > **테스트 탐색기**를 선택합니다.
-2. 창에 일부 테스트가 표시되지 않는 경우 **솔루션 탐색기**에서 노드를 마우스 오른쪽 단추로 클릭하고 **빌드** 또는 **다시 빌드**를 선택하여 테스트 프로젝트를 빌드합니다. 
 
-3. **테스트 탐색기**에서 **모두 실행**을 선택하거나 실행하려는 특정 테스트를 선택합니다. 테스트를 마우스 오른쪽 단추로 클릭하면 중단점을 사용하는 디버그 모드에서 실행 등, 다른 옵션이 표시됩니다.
-4. **출력 창**의 드롭다운에서 **테스트**를 선택하여 `Logger` 클래스가 작성한 메시지를 확인합니다.
+1. 창에 일부 테스트가 표시되지 않는 경우 **솔루션 탐색기**에서 노드를 마우스 오른쪽 단추로 클릭하고 **빌드** 또는 **다시 빌드**를 선택하여 테스트 프로젝트를 빌드합니다. 
+
+1. **테스트 탐색기**에서 **모두 실행**을 선택하거나 실행하려는 특정 테스트를 선택합니다. 테스트를 마우스 오른쪽 단추로 클릭하면 중단점을 사용하는 디버그 모드에서 실행 등, 다른 옵션이 표시됩니다.
+
+1. **출력 창**의 드롭다운에서 **테스트**를 선택하여 `Logger` 클래스가 작성한 메시지를 확인합니다.
 
    ![테스트 메시지를 표시하는 C++ 출력 창](media/cpp-test-output-window.png)
 

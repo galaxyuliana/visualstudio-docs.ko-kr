@@ -12,10 +12,11 @@
 ### [소프트웨어 다운로드](subscriber-downloads.md)
 #### [사용 가능한 소프트웨어 다운로드 목록](software-download-list.md)
 ### [제품 키 받기 및 관리](product-keys.md)
+### [GitHub Enterprise가 포함된 Visual Studio](access-github.md)
+### [구독자 혜택](subscriber-benefits.md)
 ### Visual Studio Dev Essentials
 #### [Visual Studio Dev Essentials 가입](join-dev-essentials.md)
 #### [Visual Studio Dev Essentials 옵트아웃](leave-vsde.md)
-### [구독자 혜택](subscriber-benefits.md)
 ## 구독자 혜택 사용
 ### 도구
 #### [Visual Studio IDE](vs-ide-benefit.md)
@@ -72,6 +73,7 @@
 #### [최대 사용량](maximum-usage.md)
 #### [만료된 구독](handle-expired-license.md)
 #### [개인 전자 메일 로그인이 있는 구독자](personal-email-sign-ins.md)
+### [GitHub Enterprise가 포함된 Visual Studio 관리](assign-github.md)
 ## Visual Studio 구독 취득
 ### [구독 옵션 비교](https://visualstudio.microsoft.com/vs/pricing)
 ### 클라우드 구독 구입

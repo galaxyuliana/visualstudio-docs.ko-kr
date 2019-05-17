@@ -1,12 +1,12 @@
 - name: 아키텍처 분석 및 모델링
   items:
-    - name: 아키텍처 분석 및 모델링
+    - name: 개요 및 문서 참조
       href: analyze-and-model-your-architecture.md
     - name: Visual Studio 2017의 디자인에 대한 새로운 기능
       href: what-s-new-for-design-in-visual-studio.md
     - name: 시각화 및 모델링을 사용하여 디자인 변경
       href: scenario-change-your-design-using-visualization-and-modeling.md
-    - name: 코드 시각화
+    - name: 코드 맵 및 종속성 다이어그램
       items:
         - name: 코드 시각화
           href: visualize-code.md
@@ -32,7 +32,7 @@
           href: directed-graph-markup-language-dgml-reference.md
         - name: 코드에서 종속성 다이어그램 만들기
           href: create-layer-diagrams-from-your-code.md
-    - name: 앱용 모델 만들기
+    - name: 모델 만들기 및 공유
       items:
         - name: 앱용 모델 만들기
           href: create-models-for-your-app.md
@@ -40,7 +40,7 @@
           href: layer-diagrams-reference.md
         - name: '종속성 다이어그램: 지침'
           href: layer-diagrams-guidelines.md
-        - name: 모델 공유 및 다이어그램 내보내기
+        - name: 모델 공유
           items:
             - name: 모델 공유 및 다이어그램 내보내기
               href: share-models-and-exporting-diagrams.md
@@ -48,7 +48,7 @@
               href: read-models-and-diagrams-in-other-visual-studio-editions.md
             - name: 다이어그램을 이미지로 내보내기
               href: export-diagrams-as-images.md
-    - name: 개발 프로세스에서 모델 사용
+    - name: 모델 사용
       items:
         - name: 개발 프로세스에서 모델 사용
           href: use-models-in-your-development-process.md
@@ -64,7 +64,7 @@
           href: visual-studio-architecture-tooling-guidance.md
     - name: 개발하는 동안 시스템 유효성 검사
       items:
-        - name: 개발하는 동안 시스템 유효성 검사
+        - name: 유효성 검사 작업 및 리소스
           href: validate-your-system-during-development.md
         - name: 모델에서 테스트 개발
           href: develop-tests-from-a-model.md
@@ -72,7 +72,8 @@
           href: validate-code-with-layer-diagrams.md
     - name: 종속성 다이어그램 확장
       items:
-        - name: 종속성 다이어그램 확장
+        - name: 개요 및 요구 사항
+          displayName: Extend dependency diagrams
           href: extend-layer-diagrams.md
         - name: 종속성 다이어그램에 명령 및 제스처 추가
           href: add-commands-and-gestures-to-layer-diagrams.md
@@ -82,7 +83,8 @@
           href: add-custom-properties-to-layer-diagrams.md
     - name: Visual Studio용 모델링 SDK - 도메인별 언어
       items:
-        - name: Visual Studio용 모델링 SDK - 도메인별 언어
+        - name: 개요
+          displayName: Modeling SDK for Visual Studio
           href: modeling-sdk-for-visual-studio-domain-specific-languages.md
         - name: 도메인 특정 언어 시작
           href: getting-started-with-domain-specific-languages.md
@@ -92,13 +94,13 @@
           href: how-to-define-a-domain-specific-language.md
         - name: 도메인 특정 언어 사용자 지정 및 확장
           items:
-            - name: 도메인 특정 언어 사용자 지정 및 확장
+            - name: 개요 및 문서 참조
+              displayName: Customize and Extend a Domain-Specific Language
               href: customizing-and-extending-a-domain-specific-language.md
             - name: 다이어그램의 프레젠테이션 사용자 지정
               items:
-                - name: 다이어그램의 프레젠테이션 사용자 지정
-                  href: customizing-presentation-on-the-diagram.md
                 - name: 모양 및 연결선 정의
+                  displayName: Customize presentation on the diagram
                   href: defining-shapes-and-connectors.md
                 - name: '색, 선 스타일 및 기타 모양 속성 제어'
                   href: controlling-color-line-style-and-other-shape-properties.md
@@ -124,9 +126,8 @@
               href: domain-path-syntax.md
             - name: 모델 요소의 속성
               items:
-                - name: 모델 요소의 속성
-                  href: properties-of-model-elements.md
                 - name: DSL 정의의 속성
+                  displayName: Model element properties
                   href: properties-of-a-dsl-definition.md
                 - name: 도메인 클래스의 속성
                   href: properties-of-domain-classes.md
@@ -154,9 +155,10 @@
                   href: properties-of-connectors.md
             - name: DSL 라이브러리를 사용하여 DSL 간에 클래스 공유
               href: sharing-classes-between-dsls-by-using-a-dsl-library.md
-        - name: 도메인 특정 언어를 사용자 지정하는 코드 작성
+        - name: 도메인 특정 언어 사용자 지정
           items:
-            - name: 도메인 특정 언어를 사용자 지정하는 코드 작성
+            - name: DSL을 사용자 지정하는 코드 작성
+              displayName: Customize a Domain-Specific Language
               href: writing-code-to-customise-a-domain-specific-language.md
             - name: 생성된 클래스 재정의 및 확장
               href: overriding-and-extending-the-generated-classes.md
@@ -186,9 +188,8 @@
           href: validation-in-a-domain-specific-language.md
         - name: 사용자 명령 및 작업 작성
           items:
-            - name: 사용자 명령 및 작업 작성
-              href: writing-user-commands-and-actions.md
             - name: 도메인 특정 언어에서 표준 메뉴 명령 수정
+              displayName: Write User Commands and Actions
               href: how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md
             - name: 바로 가기 메뉴에 명령 추가
               href: how-to-add-a-command-to-the-shortcut-menu.md
@@ -200,7 +201,8 @@
               href: how-to-access-and-constrain-the-current-selection.md
         - name: 변경 내용에 응답 및 전파
           items:
-            - name: 변경 내용에 응답 및 전파
+            - name: 개요 및 참조
+              displayName: Respond to and Propagate Changes
               href: responding-to-and-propagating-changes.md
             - name: 계산된 저장소 속성 및 사용자 지정 저장소 속성
               href: calculated-and-custom-storage-properties.md
@@ -214,7 +216,8 @@
               href: updating-shapes-and-connectors-to-reflect-the-model.md
         - name: 도메인 특정 언어에서 코드 생성
           items:
-            - name: 도메인 특정 언어에서 코드 생성
+            - name: 개요
+              displayName: Generate Code from a Domain-Specific Language
               href: generating-code-from-a-domain-specific-language.md
             - name: 텍스트 템플릿에서 모델에 액세스
               href: accessing-models-from-text-templates.md
@@ -230,9 +233,8 @@
           href: customizing-file-storage-and-xml-serialization.md
         - name: 도메인 특정 언어 솔루션 배포
           items:
-            - name: 도메인 특정 언어 솔루션 배포
-              href: deploying-domain-specific-language-solutions.md
             - name: DSL의 MSI 및 VSIX 배포
+              displayName: Deploy Domain-Specific Language Solutions
               href: msi-and-vsix-deployment-of-a-dsl.md
             - name: 하나의 솔루션에 여러 DSL 포함
               href: multiple-dsls-in-one-solution.md
@@ -244,8 +246,6 @@
           href: creating-a-wpf-based-domain-specific-language.md
         - name: 도메인 특정 언어 솔루션 작업
           items:
-            - name: 도메인 특정 언어 솔루션 작업
-              href: working-with-domain-specific-language-solutions.md
             - name: 도메인별 언어 정보
               href: about-domain-specific-languages.md
             - name: 도메인별 언어 도구 개요
@@ -272,11 +272,12 @@
           href: api-reference-for-modeling-sdk-for-visual-studio.md
     - name: 코드 생성 및 T4 텍스트 템플릿
       items:
-        - name: 코드 생성 및 T4 텍스트 템플릿
+        - name: 개요
+          displayName: Code Generation and T4 Text Templates
           href: code-generation-and-t4-text-templates.md
         - name: T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성
           items:
-            - name: T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성
+            - name: 개요 및 방법
               href: design-time-code-generation-by-using-t4-text-templates.md
             - name: '연습: 텍스트 템플릿을 사용하여 코드 생성'
               href: walkthrough-generating-code-by-using-text-templates.md
@@ -290,11 +291,13 @@
           href: run-time-text-generation-with-t4-text-templates.md
         - name: T4 텍스트 템플릿 쓰기
           items:
-            - name: T4 텍스트 템플릿 쓰기
+            - name: 개요
+              displayName: Write a T4 Text Template
               href: writing-a-t4-text-template.md
             - name: T4 텍스트 템플릿 지시문
               items:
-                - name: T4 텍스트 템플릿 지시문
+                - name: 지시문 개요 및 참조
+                  displayName: T4 Text Template Directives
                   href: t4-text-template-directives.md
                 - name: T4 템플릿 지시문
                   href: t4-template-directive.md
@@ -316,7 +319,7 @@
               href: text-template-utility-methods.md
             - name: 텍스트 템플릿에서 Visual Studio 또는 다른 호스트에 액세스
               href: accessing-visual-studio-or-other-hosts-from-a-text-template.md
-            - name: 텍스트 템플릿에서 이스케이프 시퀀스 사용
+            - name: 이스케이프 시퀀스
               items:
                 - name: 텍스트 템플릿에서 이스케이프 시퀀스 사용
                   href: using-escape-sequences-in-text-templates.md
@@ -330,11 +333,12 @@
           href: how-to-dot-dot-dot-with-text-templates.md
         - name: T4 텍스트 변환 사용자 지정
           items:
-            - name: T4 텍스트 변환 사용자 지정
+            - name: 개요 및 문서 참조
+              displayName: Customize T4 Text Transformation
               href: customizing-t4-text-transformation.md
             - name: 텍스트 템플릿 변환 프로세스
               href: the-text-template-transformation-process.md
-            - name: 사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기
+            - name: 사용자 지정 지시문 프로세서
               items:
                 - name: 사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기
                   href: creating-custom-t4-text-template-directive-processors.md
@@ -344,7 +348,7 @@
                   href: walkthrough-creating-a-custom-directive-processor.md
             - name: VS 확장에서 텍스트 변환 호출
               href: invoking-text-transformation-in-a-vs-extension.md
-            - name: 사용자 지정 호스트를 사용하여 텍스트 템플릿 처리
+            - name: 사용자 지정 호스트
               items:
                 - name: 사용자 지정 호스트를 사용하여 텍스트 템플릿 처리
                   href: processing-text-templates-by-using-a-custom-host.md

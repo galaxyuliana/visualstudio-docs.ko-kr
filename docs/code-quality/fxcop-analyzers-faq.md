@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 6d8e3f3288c6a64b35a1de59fe0f317b6283b805
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ab7816e7e1472101f0e84c05a4975f19e3902e27
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62816425"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65613560"
 ---
 # <a name="frequently-asked-questions-about-fxcop-and-fxcop-analyzers"></a>FxCop 및 FxCop 분석기에 대한 질문과 대답
 
@@ -43,7 +43,7 @@ FxCop 분석기를 실행하려면 먼저 [NuGet 패키지를 설치합니다](i
 
 ## <a name="i-get-warning-ca0507-even-after-ive-installed-the-fxcop-analyzers-nuget-package"></a>FxCop 분석기 NuGet 패키지를 설치한 후에도 경고 CA0507이 표시됨
 
-FxCop 분석기를 설치했지만 경고 CA0507 **“코드 분석 실행”이 더 이상 사용되지 않고 대신 FxCop 분석기가 빌드 중 실행됩니다.** 가 계속 표시되는 경우에는 프로젝트 파일에서 **RunCodeAnalysis** msbuild 속성을 **false**로 설정해야 할 수 있습니다. 이렇게 설정하지 않으면 각 빌드 후에 정적 코드 분석이 실행됩니다.
+FxCop 분석기를 설치했지만 경고 CA0507 **""코드 분석 실행"이 더 이상 사용되지 않고 대신 FxCop 분석기가 빌드 중 실행됩니다."** 가 계속 표시되는 경우에는 프로젝트 파일에서 **RunCodeAnalysis** msbuild 속성을 **false**로 설정해야 할 수 있습니다. 이렇게 설정하지 않으면 각 빌드 후에 정적 코드 분석이 실행됩니다.
 
 ```xml
 <RunCodeAnalysis>false</RunCodeAnalysis>

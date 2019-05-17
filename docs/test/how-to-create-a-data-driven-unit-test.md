@@ -1,6 +1,6 @@
 ---
 title: 데이터 기반 단위 테스트 만들기
-ms.date: 11/04/2016
+ms.date: 05/08/2019
 ms.topic: conceptual
 f1_keywords:
 - vs.test.testresults.unittest.datadriven
@@ -14,16 +14,16 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 58b7348a1bd46b426339effbe259e6f5058c769b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 931a9c01bf7c8854d78e1385dbbd9a27b98cfdd7
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62979242"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65615436"
 ---
 # <a name="how-to-create-a-data-driven-unit-test"></a>방법: 데이터 기반 단위 테스트 만들기
 
-관리 코드에 Microsoft 단위 테스트 프레임워크를 사용하면 데이터 소스에서 테스트 메서드에 사용된 값을 검색하도록 단위 테스트 메서드를 설정할 수 있습니다. 이 메서드는 데이터 소스의 각 행을 대상으로 연속 실행되므로 단일 메서드를 사용하여 다양한 입력을 쉽게 테스트할 수 있습니다.
+관리 코드용 Microsoft 단위 테스트 프레임워크를 사용하여 데이터 원본에서 값을 검색하도록 단위 테스트 메서드를 설정할 수 있습니다. 이 메서드는 데이터 소스의 각 행을 대상으로 연속 실행되므로 단일 메서드를 사용하여 다양한 입력을 쉽게 테스트할 수 있습니다.
 
 데이터 기반 단위 테스트를 만드는 단계는 다음과 같습니다.
 
@@ -43,13 +43,13 @@ ms.locfileid: "62979242"
 
 2. 계좌에 대한 트랜잭션을 관리하는 `MyBank`의 `BankDb` 프로젝트.
 
-3. 모든 트랜잭션이 은행에 이로운지 확인하기 위해 수학적 함수를 실행하는 `DbBank` 프로젝트의 `Maths` 클래스.
+3. 모든 트랜잭션이 은행에 이로운지 확인하기 위해 수학적 함수를 실행하는 `BankDb` 프로젝트의 `Maths` 클래스.
 
 4. `BankDb` 구성 요소의 동작을 테스트하기 위한 `BankDbTests` 단위 테스트 프로젝트.
 
 5. `Maths` 클래스의 동작을 확인하기 위한 `MathsTests` 단위 테스트 클래스.
 
-루프를 사용하여 두 개의 정수를 더하는 `Maths`의 메서드를 테스트하게 됩니다.
+루프를 사용하여 두 개의 정수를 추가하는 `Maths`의 메서드를 테스트합니다.
 
 ```csharp
 public int AddIntegers(int first, int second)
@@ -88,6 +88,9 @@ public TestContext TestContext
 
 테스트 메서드에서 `TestContext`의 `DataRow` 인덱서 속성을 통해 데이터에 액세스합니다.
 
+> [!NOTE]
+> .NET Core는 [DataSource](xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute) 특성을 지원하지 않습니다. .NET Core 또는 UWP 단위 테스트 프로젝트에서 이 방식으로 테스트 데이터에 액세스하려고 하면 **"'TestContext'에는 'DataRow'에 대한 정의가 포함되어 있지 않으며, 'TestContext' 유형의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'DataRow'를 찾을 수 없음(using 지시문이나 어셈블리 참조가 누락되었나요?)"** 과 유사한 오류가 표시됩니다.
+
 ## <a name="write-the-test-method"></a>테스트 메서드 작성
 
 `AddIntegers`에 대한 테스트 메서드는 매우 간단합니다. 데이터 소스의 각 행을 대상으로 **FirstNumber** 및 **SecondNumber** 열 값을 매개 변수로 사용하여 `AddIntegers`를 호출하고 **Sum** 열 값에 대한 반환 값을 확인합니다.
@@ -110,7 +113,7 @@ public void AddIntegers_FromDataSourceTest()
 }
 ```
 
-`Assert` 메서드에는 실패한 반복의 `x` 및 `y` 값을 표시하는 메시지가 포함됩니다. 기본적으로 어설션된 값 `expected` 및 `actual`은 이미 실패한 테스트의 세부 정보에 포함되어 있습니다.
+`Assert` 메서드에는 실패한 반복의 `x` 및 `y` 값을 표시하는 메시지가 포함됩니다. 기본적으로 어설션된 값 `expected` 및 `actual`은 실패한 테스트 세부 정보에 이미 포함되어 있습니다.
 
 ### <a name="specify-the-datasourceattribute"></a>DataSourceAttribute 지정
 

@@ -18,12 +18,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: facbbf5903d683ea3a13bdd875dfe2b6c63b6367
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: cd932b1748d5c400c6ab64a56b16d1b6a1458c71
+ms.sourcegitcommit: 3fe6bed9ef8fb1478106645f655c7472009ae43a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62786405"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "64850757"
 ---
 # <a name="import-or-export-installation-configurations"></a>설치 구성 가져오기 또는 내보내기
 
@@ -48,7 +48,7 @@ ms.locfileid: "62786405"
 
    ![Visual Studio 설치 관리자의 제품 카드에서 구성 내보내기](../install/media/vs-2019/vs-installer-export-config.png)
 
-1. .vconfig 파일을 저장할 위치로 이동하거나 위치를 찾아본 후 **세부 정보 검토**를 선택합니다.
+1. .vsconfig 파일을 저장할 위치로 이동하거나 위치를 찾아본 다음, **세부 정보 검토**를 선택합니다.
 
    ![Visual Studio 설치 관리자에서 구성 내보내기](../install/media/vs-2019/export-configuration-confirmation.png)
 
@@ -62,7 +62,7 @@ ms.locfileid: "62786405"
 
 1. 제품 카드에서 **기타** 단추를 선택한 후 **구성 가져오기**를 선택합니다.
 
-1. 가져올 .vconfig 파일을 찾은 후 **세부 정보 검토**를 선택합니다.
+1. 가져올 .vsconfig 파일을 찾은 다음, **세부 정보 검토**를 선택합니다.
 
 1. 원하는 워크로드 및 구성 요소를 가져왔는지 확인한 후 **닫기**를 선택합니다.
 

@@ -1,18 +1,18 @@
 ---
 title: '방법: C++ DLL의 단위 테스트 작성'
-ms.date: 11/04/2017
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: mblome
-manager: jillfra
+manager: markl
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: 960eb242a8b03b863f1b4e38e0cb8cae53eed469
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 427b481da6feca902fda0e3058974034c72fe6f4
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62819799"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226283"
 ---
 # <a name="how-to-write-unit-tests-for-c-dlls"></a>방법: C++ DLL의 단위 테스트 작성
 
@@ -38,13 +38,12 @@ ms.locfileid: "62819799"
 
 1. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 차례로 선택합니다.
 
-     대화 상자에서 **설치됨** > **템플릿** > **Visual C++** > **테스트**를 차례로 확장합니다.
+     **Visual Studio 2017 및 이전 버전**: **설치됨** > **템플릿** > **Visual C++** > **테스트**를 차례로 확장합니다.
+     **Visual Studio 2019**: **언어**를 C++로 설정하고 검색 상자에 "test"를 입력합니다.
 
      **기본 단위 테스트 프로젝트** 템플릿을 선택하거나, 원하는 설치된 프레임워크를 선택합니다. Google Test나 Boost.Test 같은 다른 템플릿을 선택해도 기본 원칙은 같고 세부 정보가 일부 달라집니다.
 
      이 연습에서 테스트 프로젝트 이름은 `NativeRooterTest`입니다.
-
-     ![C++ 단위 테스트 프로젝트를 만드는 중](../test/media/utecpp01.png)
 
 2. 새 프로젝트에서 **unittest1.cpp**를 조사합니다.
 
@@ -85,11 +84,45 @@ ms.locfileid: "62819799"
 
 ## <a name="create_dll_project"></a> DLL 프로젝트 만들기
 
-1. **Win32 프로젝트** 템플릿을 사용해서 **Visual C++** 프로젝트를 만듭니다.
+::: moniker range="vs-2019"
+
+다음 단계에서는 Visual Studio 2019에서 DLL 프로젝트를 만드는 방법을 보여줍니다.
+
+1. **Windows 데스크톱 마법사**를 사용하여 C++ 프로젝트 만들기: **솔루션 탐색기**에서 솔루션 이름을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다. **언어**를 C++로 설정한 다음, 검색 상자에 "windows"를 입력합니다. 결과 목록에서 **Windows 데스크톱 마법사**를 선택합니다. 
 
      이 연습에서 프로젝트 이름은 `RootFinder`입니다.
 
-     ![C++ Win32 프로젝트를 만드는 중](../test/media/utecpp05.png)
+2. **만들기**를 누룹니다. 다음 대화 상자의 **애플리케이션 형식**에서 **동적 연결 라이브러리(dll)** 를 선택하고 **기호 내보내기**도 확인합니다.
+
+     **내보내기 기호** 옵션은 내보낸 메서드를 선언하는 데 사용할 수 있는 편리한 매크로를 생성합니다.
+
+     ![DLL에 대한 C++ 프로젝트 마법사 집합 및 기호 내보내기](../test/media/vs-2019/windows-desktop-project-dll.png)
+
+3. 주 *.h* 파일에서 내보낸 함수를 선언합니다.
+
+     ![새 DLL 코드 프로젝트 및 API 매크로가 있는 .h 파일](../test/media/utecpp07.png)
+
+     `__declspec(dllexport)` 선언자는 클래스의 공용 및 보호되는 멤버가 DLL 외부에 표시되도록 만듭니다. 자세한 내용은 [Using dllimport and dllexport in C++ Classes](/cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes)을 참조하세요.
+
+4. 주 *.cpp* 파일에서 함수에 대한 최소한의 본문을 추가합니다.
+
+    ```cpp
+        // Find the square root of a number.
+        double CRootFinder::SquareRoot(double v)
+        {
+            return 0.0;
+        }
+    ```
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+다음 단계에서는 Visual Studio 2017에서 DLL 프로젝트를 만드는 방법을 보여줍니다.
+
+1. **Win32 프로젝트** 템플릿을 사용하여 C++ 프로젝트를 만듭니다.
+
+     이 연습에서 프로젝트 이름은 `RootFinder`입니다.
 
 2. Win32 애플리케이션 마법사에서 **DLL** 및 **내보내기 기호** 를 선택합니다.
 
@@ -112,6 +145,8 @@ ms.locfileid: "62819799"
             return 0.0;
         }
     ```
+
+::: moniker-end
 
 ## <a name="make_functions_visible"></a> DLL 프로젝트에 테스트 프로젝트 연결
 

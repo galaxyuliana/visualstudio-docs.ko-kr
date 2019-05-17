@@ -1,18 +1,18 @@
 ---
 title: C++ DLL의 단위 테스트 작성
-ms.date: 11/04/2017
+ms.date: 05/01/2019
 ms.topic: conceptual
 ms.author: mblome
-manager: jillfra
+manager: markl
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: 7606f9f9b521d4bc752b99ad70237ef4ac6bc30e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ecd26aeae5e0a236bf776477ab3dca0e528e8200
+ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62821052"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65226090"
 ---
 # <a name="write-unit-tests-for-c-dlls-in-visual-studio"></a>Visual Studio에서 C++ DLL에 대한 단위 테스트 작성
 
@@ -56,7 +56,17 @@ ms.locfileid: "62821052"
 
   1. 기본 단위 테스트 프로젝트를 만듭니다.
 
-      1. **파일** 메뉴에서 **새로 만들기** > **프로젝트** > **Visual C++** > **테스트** > **C++ 단위 테스트 프로젝트**를 차례로 선택합니다.
+      ::: moniker range="vs-2019"
+
+      1. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트 추가** 대화 상자에서 **언어**를 C++로 설정하고 검색 상자에 "test"를 입력합니다. 그런 다음, **네이티브 단위 테스트 프로젝트**를 선택합니다.
+
+      ::: moniker-end
+
+      ::: moniker range="vs-2017"
+
+      1. **파일** 메뉴에서 **새로 만들기** > **프로젝트** > **Visual C++** > **테스트** > **C++ 단위 테스트 프로젝트**를 선택합니다.
+
+      ::: moniker-end
 
   2. **솔루션 탐색기**의 테스트 프로젝트 바로 가기 메뉴에서 **참조**를 선택합니다. 프로젝트 **속성** 창이 열립니다.
 
@@ -80,7 +90,17 @@ ms.locfileid: "62821052"
 
   1. 기본 단위 테스트 프로젝트를 만듭니다.
 
-      1. **파일** 메뉴에서 **새로 만들기** > **프로젝트** > **Visual C++** > **테스트** > **기본 단위 테스트 프로젝트**를 차례로 선택합니다.
+      ::: moniker range="vs-2019"
+
+      1. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 차례로 선택합니다. **새 프로젝트 추가** 대화 상자에서 **언어**를 C++로 설정하고 검색 상자에 "test"를 입력합니다. 그런 다음, **네이티브 단위 테스트 프로젝트**를 선택합니다.
+
+      ::: moniker-end
+      
+      ::: moniker range="vs-2017"
+
+      1. **파일** 메뉴에서 **새로 만들기** > **프로젝트** > **Visual C++** > **테스트** > **C++ 단위 테스트 프로젝트**를 선택합니다.
+
+      ::: moniker-end
 
   2. **솔루션 탐색기**의 테스트 프로젝트 바로 가기 메뉴에서 **속성**을 선택합니다.
 

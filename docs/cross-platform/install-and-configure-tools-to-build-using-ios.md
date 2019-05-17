@@ -1,7 +1,7 @@
 ---
 title: iOS를 사용하여 빌드할 도구 설치 및 구성 | Microsoft 문서
 ms.custom: ''
-ms.date: 05/21/2018
+ms.date: 05/13/2019
 ms.technology: vs-ide-mobile
 ms.topic: conceptual
 dev_langs:
@@ -12,12 +12,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: 1bc67385a69f7f96288074afd4c7e5f9cefe8805
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 06449d299fdfd54bdb2526d16897e815900a9c1c
+ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62818502"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65614444"
 ---
 # <a name="install-and-configure-tools-to-build-using-ios"></a>iOS를 사용하여 빌드할 도구 설치 및 구성
 
@@ -32,13 +32,15 @@ iOS를 사용하여 빌드하는 도구를 설치한 경우 Visual Studio 및 Ma
 
 원격 에이전트를 설치 및 사용하여 iOS용 코드를 개발하려면 다음 필수 조건이 있어야 합니다.
 
-- OS X Mavericks(버전 10.9) 이상을 실행하는 Mac 컴퓨터
+- macOS Mojave 버전 10.14 이상을 실행하는 Mac 컴퓨터
 
 - [Apple ID](https://appleid.apple.com/)
 
-- Apple의 활성 [iOS 개발자 프로그램](https://developer.apple.com/programs/ios/) 계정
+- 활성 [Apple 개발자 프로그램](https://developer.apple.com/programs/) 계정
 
-- [Xcode](https://developer.apple.com/xcode/downloads/) 버전 6 이상.
+   배포용이 아닌 테스트용으로 iOS 디바이스에 테스트용 로드 앱을 허용하는 체험 계정을 가져올 수 있습니다.
+
+- [Xcode](https://developer.apple.com/xcode/downloads/) 버전 10.2.1 이상
 
    Xcode는 앱 스토어에서 다운로드할 수 있습니다.
 
@@ -48,23 +50,22 @@ iOS를 사용하여 빌드하는 도구를 설치한 경우 Visual Studio 및 Ma
 
    `xcode-select --install`
 
-- Xcode에서 구성된 iOS 서명 ID
+- Xcode에서 앱을 서명하는 서명 ID로 구성된 Apple ID 계정
 
-   iOS 서명 ID를 얻는 방법에 대한 자세한 내용은 iOS 개발자 라이브러리에서 [서명 ID 및 인증서 유지 관리](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html)를 참조하세요. Xcode에서 서명 ID를 보거나 설정하려면 **Xcode** 메뉴를 열고 **기본 설정**을 선택합니다. **계정** 을 선택하고 Apple ID를 선택한 다음 **세부 정보 보기** 단추를 선택합니다.
+   Xcode에서 서명 ID를 보거나 설정하려면 **Xcode** 메뉴를 열고 **기본 설정**을 선택합니다. **계정** 을 선택하고 Apple ID를 선택한 다음 **세부 정보 보기** 단추를 선택합니다. 자세한 지침은 [Apple ID 계정 추가](https://help.apple.com/xcode/mac/current/#/devaf282080a)를 참조하세요.
+   
+   서명 요구 사항에 대한 자세한 내용은 [앱 서명이란](https://help.apple.com/xcode/mac/current/#/dev3a05256b8)을 참조하세요. 
 
 - 개발에 iOS 디바이스를 사용하는 경우 디바이스에 대해 Xcode에서 구성된 프로비저닝 프로필
 
-   프로비전 프로필을 만드는 방법에 대한 자세한 내용은 iOS 개발자 라이브러리에서 [멤버 센터를 사용하여 프로비전 프로필 만들기](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW24)를 참조하세요.
+   Xcode는 필요에 따라 서명 인증서를 생성하는 자동 서명 기능을 제공합니다. Xcode 자동 서명에 대한 자세한 내용은 [자동 서명](https://help.apple.com/xcode/mac/current/#/dev80cc24546)을 참조하세요.
 
-- [Node.js](https://nodejs.org/)
+   수동 서명을 수행하려면 앱에 대한 프로비저닝 프로필을 만들어야 합니다. 프로비저닝 프로필을 만드는 방법에 대한 자세한 내용은 [개발 프로비저닝 프로필 만들기](https://help.apple.com/developer-account/#/devf2eb157f8)를 참조하세요. 
 
-   Mac에서 Node.js의 LTS(최신 장기 지원) 버전 8.x를 설치합니다. 다른 최신 릴리스 버전은 vcremote에 사용된 일부 모듈을 지원하지 않을 수 있으며 vcremote 설치가 실패할 수 있습니다.
+- [Node.js](https://nodejs.org/) 버전 8.11.3 및 npm 버전 5.6.0
 
-- npm의 업데이트된 버전
+   Mac에 Node.js 버전 8.11.3을 설치합니다. Node.js 패키지를 설치하는 경우 npm 버전 5.6.0과 함께 제공되어야 합니다. 다른 버전의 Node.js 및 npm은 원격 에이전트 vcremote에 사용된 일부 모듈을 지원하지 않을 수 있으므로 vcremote 설치가 실패할 수 있습니다.
 
-   Node.js와 함께 제공된 npm 버전이 vcremote를 설치할 수 있을 만큼 최신 버전이 아닐 수 있습니다. npm을 업데이트하려면 Mac에서 터미널 앱을 열고 다음 명령을 입력합니다.
-
-   `sudo npm install -g npm@latest`
 
 ## <a name="Install"></a> iOS용 원격 에이전트 설치
 
@@ -131,7 +132,7 @@ Visual Studio에서 호스트 이름을 사용하여 원격 에이전트를 구�
 
 Visual Studio에서 원격 에이전트에 연결하려면 Visual Studio 옵션에서 원격 구성을 지정해야 합니다.
 
-#### <a name="to-configure-the-remote-agent-from-visual-studio"></a>Visual Studio에서 원격 에이전트를 구성하려면
+### <a name="to-configure-the-remote-agent-from-visual-studio"></a>Visual Studio에서 원격 에이전트를 구성하려면
 
 1. Mac에서 에이전트가 실행되고 있지 않은 경우 [원격 에이전트 시작](#Start)의 단계를 따르세요. Visual Studio가 성공적으로 쌍을 이루고 연결한 다음 프로젝트를 빌드하려면 Mac에서 vcremote를 실행해야 합니다.
 
@@ -168,7 +169,7 @@ Visual Studio는 사용할 때마다 동일한 정보를 사용하여 Mac의 원
 
 원격 에이전트를 처음 시작하는 경우 생성된 PIN은 제한된 시간(기본적으로 10분) 동안만 유효합니다. 시간이 만료되기 전에 Visual Studio를 원격 에이전트와 쌍으로 연결하지 않으면 새 PIN을 생성해야 합니다.
 
-#### <a name="to-generate-a-new-pin"></a>새 PIN을 생성하려면
+### <a name="to-generate-a-new-pin"></a>새 PIN을 생성하려면
 
 1. 에이전트를 중지합니다(또는 Mac에서 두 번째 터미널 앱 창을 열고 여기에 명령 입력).
 
@@ -182,7 +183,7 @@ Visual Studio는 사용할 때마다 동일한 정보를 사용하여 Mac의 원
 
 보안을 위해, Visual Studio를 원격 에이전트와 연결하는 서버 인증서는 Mac의 IP 주소 또는 호스트 이름에 연결되어 있습니다. 이러한 값이 변경되면 새 서버 인증서를 생성한 후 Visual Studio를 새 값으로 다시 구성해야 합니다.
 
-#### <a name="to-generate-a-new-server-certificate"></a>새 서버 인증서를 생성하려면
+### <a name="to-generate-a-new-server-certificate"></a>새 서버 인증서를 생성하려면
 
 1. vcremote 에이전트를 중지합니다.
 
@@ -204,7 +205,7 @@ Visual Studio는 사용할 때마다 동일한 정보를 사용하여 Mac의 원
 
 다양한 명령줄 옵션을 사용하여 원격 에이전트를 구성할 수 있습니다. 예를 들어 빌드 요청을 수신할 포트와 파일 시스템에 유지할 최대 빌드 수를 지정할 수 있습니다. 기본적으로 해당 제한은 10개 빌드입니다. 원격 에이전트는 종료 시 최대값을 초과하는 빌드를 제거합니다.
 
-#### <a name="to-configure-the-remote-agent"></a>원격 에이전트를 구성하려면
+### <a name="to-configure-the-remote-agent"></a>원격 에이전트를 구성하려면
 
 - 원격 에이전트 명령의 전체 목록을 보려면 터미널 앱에서 다음을 입력합니다.
 
@@ -233,6 +234,50 @@ Visual Studio는 사용할 때마다 동일한 정보를 사용하여 Mac의 원
    `vcremote --config config_file_path`
 
    여기서 *config_file_path* 는 JSON 형식의 구성 파일 경로입니다. 시작 옵션과 해당 값에 대시가 포함되어서는 안 됩니다.
+
+## <a name="troubleshoot-the-remote-agent"></a>원격 에이전트 문제 해결
+
+### <a name="debugging-on-an-ios-device"></a>iOS 디바이스에서 디버깅
+
+iOS 디바이스에서 디버깅이 작동하지 않는 경우 iOS 디바이스와 통신하는 데 사용되는 [ideviceinstaller](https://github.com/libimobiledevice/ideviceinstaller) 도구에 문제가 있을 수 있습니다. 이 도구는 일반적으로 vcremote를 설치하는 동안 Homebrew에서 설치됩니다. 문제를 해결하려면 아래 단계를 수행합니다.
+
+터미널 앱을 열고 다음을 순서대로 실행하여 ideviceinstaller 및 해당 종속성을 업데이트합니다.
+
+1. Homebrew가 업데이트되었는지 확인
+
+   `brew update`
+
+1. libimobiledevice 및 usbmuxd 제거
+
+   `brew uninstall --ignore-dependencies libimobiledevice`
+
+   `brew uninstall --ignore-dependencies usbmuxd`
+
+1. 최신 버전의 libimobiledevice 및 usbmuxd 설치
+
+   `brew install --HEAD usbmuxd`
+
+   `brew unlink usbmuxd`
+
+   `brew link usbmuxd`
+
+   `brew install --HEAD libimobiledevice`
+
+1. ideviceinstaller 제거 및 다시 설치
+
+   `brew uninstall ideviceinstaller`
+
+   `brew install ideviceinstaller`
+
+해당 ideviceinstaller가 디바이스에 설치된 앱을 나열하여 디바이스와 통신할 수 있는지 확인합니다.
+
+`ideviceinstaller -l`
+
+`/var/db/lockdown` 폴더에 액세스할 수 없는 ideviceinstaller 오류가 발생하는 경우 다음을 사용하여 폴더의 권한을 변경합니다.
+
+`sudo chmod 777 /var/db/lockdown`
+    
+그런 다음, ideviceinstaller가 디바이스와 통신할 수 있는지 다시 확인합니다.
 
 ## <a name="see-also"></a>참고 항목
 
