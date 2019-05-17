@@ -119,7 +119,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 
 ```
 
- 제공한 정보는 [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) 요소 동일 하 게 유지 합니다. 합니다  **\<VSTemplateContainer >** 요소 관련 템플릿의.vstemplate 파일을 가리킵니다.
+ 제공한 정보는 [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) 요소 동일 하 게 유지 합니다. 합니다 **\<VSTemplateContainer>** 요소 관련 템플릿의.vstemplate 파일을 가리킵니다.
 
  Visual Studio 2015에서 만든 기본 항목.vstemplate 파일은 다음과 같습니다.
 
@@ -171,7 +171,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 </VSTemplateManifest>
 ```
 
- 제공한 정보는  **\<TemplateData >** 요소 동일 하 게 유지 합니다. 합니다  **\<VSTemplateContainer >** 요소 관련 템플릿의.vstemplate 파일을 가리킵니다.
+ 제공한 정보는  **\<TemplateData >** 요소 동일 하 게 유지 합니다. 합니다 **\<VSTemplateContainer>** 요소 관련 템플릿의.vstemplate 파일을 가리킵니다.
 
  .Vstman 파일의 다양 한 요소에 대 한 자세한 내용은 참조 하세요. [Visual Studio 템플릿 매니페스트 스키마 참조](../extensibility/visual-studio-template-manifest-schema-reference.md)합니다.
 
