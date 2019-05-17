@@ -8,16 +8,16 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 44b8e31fea497bff928ce19e5cb165c7809883cb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d9b268c0c15ce468ca40a90583c5b7310364c189
+ms.sourcegitcommit: 283f2dbce044a18e9f6ac6398f6fc78e074ec1ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62892388"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65805108"
 ---
 # <a name="add-a-language-server-protocol-extension"></a>언어 서버 프로토콜 확장 추가
 
-언어 서버 프로토콜 (LSP)는 언어 서비스 기능을 다양 한 코드 편집기를 제공 하는 데 사용 되는 JSON RPC v2.0의 형태로 일반적인 프로토콜입니다. 프로토콜을 사용 하 여 개발자 언어 오류를 진단, IntelliSense와 같은 서비스 기능을 제공 하면 귀하의 LSP를 지 원하는 다양 한 코드 편집기에 모든 등 참조 찾기에 단일 언어 서버를 작성할 수 있습니다. 일반적으로 Visual Studio에서 언어 서비스를 추가할 수 있습니다 TextMate 문법 파일을 사용 하 여 Visual Studio 확장성 Api의 전체 집합을 사용 하 여 사용자 지정 언어 서비스를 작성 또는 구문 강조 표시와 같은 기본 기능을 제공 하에 다양 한 데이터를 제공 합니다. 이제 지원 하면 귀하의 LSP는 세 번째 옵션을 제공 합니다.
+언어 서버 프로토콜 (LSP)는 언어 서비스 기능을 다양 한 코드 편집기를 제공 하는 데 사용 되는 JSON RPC v2.0의 형태로 일반적인 프로토콜입니다. 프로토콜을 사용할 경우 개발자가 IntelliSense, 오류를 진단, 모든 참조 및 LSP를 지 원하는 다양 한 코드 편집기를 찾을 같은 언어 서비스를 제공 하는 단일 언어 서버 기능 작성할 수 있습니다. 일반적으로 Visual Studio에서 언어 서비스에 추가할 수 있습니다 TextMate 문법 파일을 사용 하 여 구문 강조 표시와 같은 기본 기능을 제공 하 여 수 있도록 Visual Studio 확장성 Api의 전체 집합을 사용 하는 사용자 지정 언어 서비스를 작성 하 여 다양 한 데이터입니다. LSP 지 원하는 Visual Studio는 세 번째 옵션이 있습니다.
 
 ![Visual Studio에서 언어 서버 프로토콜 서비스](media/lsp-service-in-VS.png)
 
@@ -25,23 +25,23 @@ ms.locfileid: "62892388"
 
 ![언어 서버 프로토콜 구현](media/lsp-implementation.png)
 
-이 문서에는 언어 LSP 기반 서버를 사용 하는 Visual Studio 확장 프로그램을 만드는 방법을 설명 합니다. 언어 LSP 기반 서버를 미리 만들어 둔 Visual Studio에 통합 하려는 가정 합니다.
+이 문서에는 언어 LSP 기반 서버를 사용 하는 Visual Studio 확장 프로그램을 만드는 방법을 설명 합니다. 언어 LSP 기반 서버를 이미 개발한 Visual Studio에 통합 하려는 가정 합니다.
 
-Visual Studio 내에서 지원에 대 한 언어 서버와 통신할 수 있는 스트림 기반 전송 메커니즘을 통해 클라이언트 (Visual Studio) 예를 들어:
+Visual Studio 내에서 지원에 대 한 언어 서버와 통신할 수와 스트림 기반 전송 메커니즘을 통해 클라이언트 (Visual Studio) 예:
 
 * 표준 입력/출력 스트림
 * 명명 된 파이프
 * 소켓 (TCP 전용)
 
-LSP 및 Visual Studio에서 지원을의 목적은 Visual Studio 제품의 일부분이 아닌 온 보 딩 언어 서비스 하는 것입니다. Visual Studio에서 기존 언어 서비스 (예: C#)를 확장 하는 것이 아닙니다. 기존 언어를 확장 하려면 언어 서비스의 확장성 가이드를 참조 하세요 (예를 들어 합니다 [.NET 컴파일러 플랫폼 "Roslyn"](../extensibility/dotnet-compiler-platform-roslyn-extensibility.md)).
+LSP 및 Visual Studio에서 지원을의 목적은 Visual Studio 제품의 일부분이 아닌 온 보 딩 언어 서비스 하는 것입니다. 기존 언어 서비스 확장을 위한 (같은 C#) Visual Studio에서. 기존 언어를 확장 하려면 언어 서비스의 확장성 가이드를 참조 하세요 (예를 들어 합니다 [.NET 컴파일러 플랫폼 "Roslyn"](../extensibility/dotnet-compiler-platform-roslyn-extensibility.md)).
 
 프로토콜 자체에 대 한 자세한 내용은 설명서를 참조 [여기](https://github.com/Microsoft/language-server-protocol)합니다.
 
 샘플 언어 server 또는 Visual Studio Code에 기존 언어 서버를 통합 하는 방법 참조 설명서를 만드는 방법에 대 한 자세한 내용은 [여기](https://code.visualstudio.com/docs/extensions/example-language-server)합니다.
 
-## <a name="language-server-protocol-features-supported"></a>지원 되는 언어 서버 프로토콜 기능
+## <a name="language-server-protocol-supported-features"></a>지원 되는 기능 언어 서버 프로토콜
 
-지금 Visual Studio에서 다음과 같은 LSP 기능이 지원 됩니다.
+다음 표에서 Visual Studio에서 지원 되는 LSP 기능을 보여줍니다.
 
 메시지 | Visual Studio에서 지지도
 --- | ---
@@ -86,18 +86,20 @@ textDocument/documentLink |
 documentLink/resolve |
 textDocument/rename | 예
 
-## <a name="getting-started"></a>시작
+## <a name="get-started"></a>시작
 
 > [!NOTE]
-> Visual Studio 15.8 미리 보기 3, 공용 언어 서버 프로토콜에 대 한 지원부터 Visual Studio에 빌드됩니다. 미리 보기를 사용 하 여 LSP 확장 구축 하는 경우 [언어 서버 클라이언트 VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) 버전인을 15.8 미리 보기 3 이상으로 업그레이드 한 후 작업을 하지 않을 것입니다. 작업을 다시 LSP 확장을 가져오려면 다음을 수행 해야 합니다.
+> Visual Studio 2017 버전 15.8, 공용 언어 서버 프로토콜에 대 한 지원부터 Visual Studio에 빌드됩니다. 미리 보기를 사용 하 여 LSP 확장 구축 하는 경우 [언어 서버 클라이언트 VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) 버전인 15.8 이상 버전으로 업그레이드 한 후 작업을 하지 않을 것입니다. 작업을 다시 LSP 확장을 가져오려면 다음을 수행 해야 합니다.
 >
-> 1. Microsoft Visual Studio 언어 서버 프로토콜 Preview VSIX를 제거 합니다. 15.8 Preview 4부터 Visual Studio에서 업그레이드를 수행 될 때마다 자동으로 감지 하 고 업그레이드 프로세스를 VSIX preview를 제거 합니다.
+> 1. Microsoft Visual Studio 언어 서버 프로토콜 Preview VSIX를 제거 합니다.
+>
+>    15.8 버전부터 때마다 업그레이드를 수행한 Visual studio 미리 보기 VSIX 자동으로 감지 되 고 제거 합니다.
 >
 > 2. 에 대 한 미리 보기가 아닌 최신 Nuget 참조를 업데이트할 [LSP 패키지](https://www.nuget.org/packages/Microsoft.VisualStudio.LanguageServer.Client)합니다.
 >
 > 3. VSIX 매니페스트에 종속성을 Microsoft Visual Studio 언어 서버 프로토콜 미리 보기 VSIX를 제거 합니다.
 >
-> 4. VSIX 설치 대상에 대 한 하한값으로 Visual Studio 15.8 미리 보기 3을 지정 해야 합니다.
+> 4. VSIX에 Visual Studio 2017 버전 15.8 지정 되었는지 확인 미리 보기 3 설치 대상에 대 한 하한값입니다.
 >
 > 5. 다시 빌드하고 다시 배포 합니다.
 
@@ -105,13 +107,13 @@ textDocument/rename | 예
 
 언어 LSP 기반 서버를 사용 하는 언어 서비스 확장을 만들려면 먼저 했는지 확인 합니다 **Visual Studio 확장 개발** 워크 로드가 VS 인스턴스에 대 한 설치 합니다.
 
-다음으로 이동 하 여 새 빈 VSIXProject를 만듭니다 **파일** > **새 프로젝트** > **Visual C#**  >   **확장성** > **VSIX 프로젝트**:
+다음으로 이동 하 여 새 VSIX 프로젝트를 만듭니다 **파일** > **새 프로젝트** > **시각적 C#**   >  **확장성** > **VSIX 프로젝트**:
 
 ![vsix 프로젝트 만들기](media/lsp-vsix-project.png)
 
 ### <a name="language-server-and-runtime-installation"></a>언어 서버 및 런타임 설치
 
-기본적으로 서버를 지 원하는 언어 LSP 기반 Visual Studio에서 만든 확장 언어 서버 자체 또는 실행 하는 데 필요한 런타임 포함 되지 않습니다. 확장 개발자는 language 서버와 필요한 런타임을 배포 하는 일을 담당 합니다. 이렇게 하는 방법은 여러 가지가 있습니다.
+기본적으로 서버를 지 원하는 언어 LSP 기반 Visual Studio에서 만든 확장 언어 서버 자체 또는 실행 하는 데 필요한 런타임 포함 하지 않습니다. 확장 개발자는 language 서버와 필요한 런타임을 배포 하는 일을 담당 합니다. 이렇게 하는 방법은 여러 가지가 있습니다.
 
 * 언어 서버 콘텐츠 파일로 VSIX에 포함할 수 있습니다.
 * 언어 서버를 설치 하려면 MSI 만들기 및/또는 런타임 필요 합니다.
@@ -123,18 +125,19 @@ LSP는 언어에 대 한 텍스트 색 지정을 제공 하는 방법에 대 한
 
 1. 확장 내에서 "문법" 라는 폴더를 만듭니다 (또는 원하는 수)입니다.
 
-2. 내 합니다 *문법* 폴더를 포함  *\*.tmlanguage*를  *\*.plist*를  *\*.tmtheme*, 또는  *\*.json* 파일을 사용자 지정 색 지정을 제공 합니다.
+2. 내 합니다 *문법* 폴더를 포함  *\*.tmlanguage*를  *\*.plist*를  *\*.tmtheme*, 또는  *\*.json* 원하는 사용자 지정 색 지정을 제공 하는 파일입니다.
 
-3. 선택한 파일을 마우스 오른쪽 단추로 클릭 **속성**합니다. 변경 합니다 **빌드** 작업을 **콘텐츠** 하며 **VSIX에 포함** 속성을 true로 합니다.
+   > [!TIP]
+   > A *.tmtheme* 파일은 Visual Studio 분류 (명명 된 색 키) 범위를 매핑하는 방법을 정의 합니다. 지침에 대 한 전역 참조할 수 있습니다 *.tmtheme* 파일을 *%ProgramFiles (x86) %\Microsoft Visual Studio\\\<버전 >\\\<SKU > \Common7\ IDE\CommonExtensions\Microsoft\TextMate\Starterkit\Themesg* 디렉터리입니다.
 
-4. 만들기는 *.pkgdef* 파일과 비슷한이 줄을 추가 합니다.
+3. 만들기는 *.pkgdef* 파일과 비슷한이 줄을 추가 합니다.
 
     ```
     [$RootKey$\TextMate\Repositories]
     "MyLang"="$PackageFolder$\Grammars"
     ```
 
-5. 선택한 파일을 마우스 오른쪽 단추로 클릭 **속성**합니다. 변경 합니다 **빌드** 작업을 **콘텐츠** 하며 **VSIX에 포함** 속성을 true로 합니다.
+4. 선택한 파일을 마우스 오른쪽 단추로 클릭 **속성**합니다. 변경 합니다 **빌드** 작업을 **콘텐츠** 변경 하 고는 **VSIX에 포함** 속성을 **true**합니다.
 
 이전 단계를 완료 한 후를 *문법* 폴더가 패키지의 설치에 추가 됩니다 리포지토리 원본 디렉터리 라는 'MyLang' ('MyLang' 명확성을 위해 이름만 이며 고유한 문자열일 수 있습니다). 모든 문법 (*.tmlanguage* 파일) 및 테마 파일 (*.tmtheme* 파일)이 디렉터리는 미래를 선택 하 고 TextMate와 함께 제공 되는 기본 제공 문법 대체 합니다. 열려 있는 파일의 확장명과 일치 하는 문법 파일의 선언 된 확장, TextMate 개입 됩니다.
 
@@ -147,9 +150,9 @@ VSIX 프로젝트를 만든 후 다음 NuGet 패키지를 프로젝트에 추가
 * [Microsoft.VisualStudio.LanguageServer.Client](https://www.nuget.org/packages/Microsoft.VisualStudio.LanguageServer.Client)
 
 > [!NOTE]
-> 이전 단계를 완료 한 후 NuGet 패키지에는 종속성을 가져오고, Newtonsoft.Json 및 StreamJsonRpc 패키지도 프로젝트에 추가 됩니다. **Visual Studio의 버전에 해당 새 버전을 설치할 것이 확실 하지 않은 경우 이러한 패키지를 업데이트 하지 않으면 하는 확장 대상**합니다. 어셈블리는 포함 되지 않습니다-VSIX에 대신 이러한 픽업 됩니다 Visual Studio 설치 디렉터리에서. 확장 프로그램 사용자의 컴퓨터에 설치 된 것 보다 최신 버전의 어셈블리를 참조 하는 경우 *작동 하지 것입니다*합니다.
+> 이전 단계를 완료 한 후 NuGet 패키지에는 종속성을 가져오고, Newtonsoft.Json 및 StreamJsonRpc 패키지도 프로젝트에 추가 됩니다. **Visual Studio의 버전에 해당 새 버전을 설치할 것이 확실 하지 않은 경우 이러한 패키지를 업데이트 하지 않으면 하는 확장 대상**합니다. 어셈블리; VSIX에 포함 되지 않습니다. 대신, 이러한 선택 됩니다 Visual Studio 설치 디렉터리에서. 사용자의 컴퓨터에 설치 된 것 보다 최신 버전의 어셈블리를 참조 하는 경우에 확장 작동 하지 않습니다.
 
-구현 하는 새 클래스를 만들 수 있습니다 합니다 [ILanguageClient](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient?view=visualstudiosdk-2017) 인터페이스, 언어 LSP 기반 서버에 연결 하는 언어 클라이언트에 필요한 기본 인터페이스입니다.
+구현 하는 새 클래스를 만들 수 있습니다 합니다 [ILanguageClient](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient?view=visualstudiosdk-2017) LSP 기반 언어 서버에 연결 하는 언어 클라이언트에 필요한 기본 인터페이스는 인터페이스입니다.
 
 다음은 샘플입니다.
 
@@ -214,7 +217,7 @@ namespace MockLanguageExtension
 
 구현 해야 하는 기본 메서드는 [OnLoadedAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient.onloadedasync?view=visualstudiosdk-2017) 하 고 [ActivateAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient.activateasync?view=visualstudiosdk-2017)합니다. [OnLoadedAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient.onloadedasync?view=visualstudiosdk-2017) Visual Studio 확장 로드 및 언어 서버를 시작할 준비가 때 호출 됩니다. 이 메서드를 호출할 수 있습니다 합니다 [StartAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient.startasync?view=visualstudiosdk-2017) 대리자 언어 서버 시작 되어야 하거나 추가 논리를 수행 하 고 호출 신호를 즉시 [StartAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient.startasync?view=visualstudiosdk-2017) 나중입니다. **언어 서버를 활성화 하려면 StartAsync 시점에서 호출 해야 합니다.**
 
-[ActivateAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient.activateasync?view=visualstudiosdk-2017) 메서드를 호출 하 여 최종적으로 호출 되는 [StartAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient.startasync?view=visualstudiosdk-2017) 대리자를 언어 서버를 시작 하 고 연결을 설정 하는 논리가 포함 합니다. 서버에 쓰고 서버에서 읽기 위한 스트림을 포함 하는 연결 개체를 반환 합니다. 여기에 throw 된 예외 포착 되 고 Visual Studio에서 InfoBar 메시지를 통해 사용자에 게 표시 됩니다.
+[ActivateAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient.activateasync?view=visualstudiosdk-2017) 메서드를 호출 하 여 최종적으로 호출 되는 [StartAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient.startasync?view=visualstudiosdk-2017) 대리자입니다. 언어 서버를 시작 하 고 연결을 설정 논리를 포함 합니다. 서버에 쓰고 서버에서 읽기 위한 스트림을 포함 하는 연결 개체를 반환 합니다. 여기에 throw 된 예외 포착 되 고 Visual Studio에서 InfoBar 메시지를 통해 사용자에 게 표시 됩니다.
 
 ### <a name="activation"></a>활성화
 
@@ -235,7 +238,7 @@ VSIX 매니페스트 디자이너를 열고로 이동 합니다 **자산** 탭:
 
 ![MEF 자산 추가](media/lsp-add-asset.png)
 
-새 자산을 만들려면 새로 만들기를 클릭 합니다.
+클릭 **새로 만들기** 새 자산을 만들려면:
 
 ![MEF 자산을 정의 합니다.](media/lsp-define-asset.png)
 
@@ -247,7 +250,7 @@ VSIX 매니페스트 디자이너를 열고로 이동 합니다 **자산** 탭:
 
 현재 LSP 기반 언어 서버 확장 프로그램을 로드 하는 유일한 방법은 파일 콘텐츠 형식에 따라 됩니다. 즉, 언어 클라이언트 클래스를 정의 하는 경우 (구현 [ILanguageClient](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclient?view=visualstudiosdk-2017)), 형식을 정의 해야 합니다를 열 때 사용자 지정 확장을 로드 하면 파일입니다. 에 정의 된 콘텐츠 형식과 일치 하는 파일이 열린 경우 다음 확장 로드 되지 않습니다.
 
-하나 이상의 ContentTypeDefinition 클래스 정의 통해 이루어집니다.
+하나 이상의 정의 통해 이렇게 `ContentTypeDefinition` 클래스:
 
 ```csharp
 namespace MockLanguageExtension
@@ -267,7 +270,7 @@ namespace MockLanguageExtension
 }
 ```
 
-이전 예에서 끝나는 파일에 대 한 콘텐츠 형식 정의 만들어집니다 *.bar* 파일 확장명입니다. 이름 "bar"를 지정 하는 콘텐츠 형식 정의 하 고 **해야 합니다** 에서 파생 [CodeRemoteContentTypeName](/dotnet/api/microsoft.visualstudio.languageserver.client.coderemotecontentdefinition.coderemotecontenttypename?view=visualstudiosdk-2017)합니다.
+이전 예에서 끝나는 파일에 대 한 콘텐츠 형식 정의 만들어집니다 *.bar* 파일 확장명입니다. 콘텐츠 형식 정의 이름 "bar"을 지정 하는 및에서 파생 되어야 합니다 [CodeRemoteContentTypeName](/dotnet/api/microsoft.visualstudio.languageserver.client.coderemotecontentdefinition.coderemotecontenttypename?view=visualstudiosdk-2017)합니다.
 
 콘텐츠 형식 정의 추가한 후 다음 언어 클라이언트 클래스의 클라이언트 언어 확장을 로드 해야 할 때 정의할 수 있습니다.
 
@@ -289,7 +292,7 @@ LSP 언어 서버에 대 한 지원을 추가 하지 않아도 Visual Studio에�
 
 LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아래이 단계를 수행 합니다.
 
-1. JSON 파일을 추가 (예를 들어 *MockLanguageExtensionSettings.json*) 설정 및 기본값을 포함 하는 프로젝트에서. 예를 들어:
+1. JSON 파일을 추가 (예를 들어 *MockLanguageExtensionSettings.json*) 설정 및 기본값을 포함 하는 프로젝트입니다. 예를 들어:
 
     ```json
     {
@@ -297,7 +300,7 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
     }
     ```
 
-2. JSON 파일을 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다. 변경 된 **빌드** "콘텐츠"에 대 한 작업 및 "VSIX에 포함 ' 속성을 true로 합니다.
+2. JSON 파일을 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다. 변경 된 **빌드** "콘텐츠"에 대 한 작업 및 "VSIX에 포함 ' 속성을 **true**합니다.
 
 3. ConfigurationSections를 구현 하 고 JSON 파일에 정의 된 설정에 대 한 접두사의 목록을 반환 합니다 (Visual Studio Code에서이 매핑할 package.json에서 구성 섹션 이름):
 
@@ -325,7 +328,7 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
     @="$PackageFolder$\MockLanguageExtensionSettings.json"
     ```
 
-5. .Pkgdef 파일을 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다. 변경 합니다 **빌드** 작업을 **콘텐츠** 하며 **VSIX에 포함** 속성을 true로 합니다.
+5. .Pkgdef 파일을 마우스 오른쪽 단추로 클릭 하 고 선택 **속성**합니다. 변경 합니다 **빌드** 작업을 **콘텐츠** 하며 **VSIX에 포함** 속성을 **true**합니다.
 
 6. 엽니다는 *source.extension.vsixmanifest* 파일을 자산에 추가 합니다 **자산** 탭:
 
@@ -347,12 +350,12 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
     }
     ```
 
-### <a name="enabling-diagnostics-tracing"></a>진단 추적을 사용 하도록 설정
+### <a name="enable-diagnostics-tracing"></a>진단 추적을 사용 하도록 설정
 
 클라이언트와 서버 문제를 디버깅할 때 유용할 수 있는 모든 메시지를 출력 하도록 진단 추적을 사용할 수 있습니다. 진단 추적을 사용 하려면 다음을 수행 합니다.
 
-4. 작업 영역 설정 파일을 만들거나 엽니다 *VSWorkspaceSettings.json* ("사용자의 작업 영역에 대 한 설정을 편집" 참조).
-5. 설정 json 파일에 다음 줄을 추가 합니다.
+1. 작업 영역 설정 파일을 만들거나 엽니다 *VSWorkspaceSettings.json* ("사용자의 작업 영역에 대 한 설정을 편집" 참조).
+2. 설정 json 파일에 다음 줄을 추가 합니다.
 
 ```json
 {
@@ -361,6 +364,7 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
 ```
 
 추적의 자세한 정도 대 한 가능한 값을 세 가지가 있습니다.
+
 * "꺼짐": 완전히 해제 추적
 * "메시지": 추적 켜져 있지만 유일한 메서드 이름과 응답 ID를 추적 합니다.
 * "Verbose": 추적 설정 전체 rpc 메시지 추적 됩니다.
@@ -371,7 +375,7 @@ LSP 언어 서비스 확장에 설정에 대 한 지원을 추가 하려면 아�
 
 메시지 전달 및 표준 언어 서버 프로토콜의 일부분이 아닌 언어 서버에서 메시지 수신을 용이 하 게 진행에서 Api 있습니다. 사용자 지정 메시지를 처리 하려면 구현 [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017) 언어 클라이언트 클래스의 인터페이스입니다. [VS StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) 라이브러리 언어 클라이언트 및 서버 언어 간의 사용자 지정 메시지 전송에 사용 됩니다. 다른 Visual Studio 확장명 마찬가지로 LSP 언어 클라이언트 확장 이므로 결정할 수 있습니다 (LSP에서 지원 되지 않습니다)는 추가 기능을 추가 하려면 (다른 Visual Studio Api 사용) Visual Studio에 사용자 지정 메시지를 통해 확장 프로그램에서.
 
-#### <a name="receiving-custom-messages"></a>사용자 지정 메시지를 수신합니다.
+#### <a name="receive-custom-messages"></a>사용자 지정 메시지를 수신 합니다.
 
 언어 서버에서 사용자 지정 메시지를 수신 하려면 구현 합니다 [CustomMessageTarget](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage.custommessagetarget?view=visualstudiosdk-2017) 속성을 [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017) 사용자 지정 메시지를 처리 하는 방법을 알고 있는 개체를 반환 하 고 . 아래 예제:
 
@@ -406,7 +410,7 @@ internal class MockCustomLanguageClient : MockLanguageClient, ILanguageClientCus
 }
 ```
 
-#### <a name="sending-custom-messages"></a>사용자 지정 메시지 보내기
+#### <a name="send-custom-messages"></a>사용자 지정 메시지 보내기
 
 언어 서버에 사용자 지정 메시지를 보내도록 구현 된 [AttachForCustomMessageAsync](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage.attachforcustommessageasync?view=visualstudiosdk-2017) 메서드를 [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017)합니다. 이 메서드는 language 서버 시작 및 메시지를 받을 준비가 되 면 호출 됩니다. A [JsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/src/StreamJsonRpc/JsonRpc.cs) 개체가 사용 하 여 언어 서버에 메시지를 보낼 유지할 수 있습니다 매개 변수로 전달 됩니다 [VS StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) Api. 아래 예제:
 
@@ -480,7 +484,7 @@ Visual Studio에서 LSP 클라이언트 API를 사용 하 여 샘플 확장 프�
 
 **Visual Studio에서 다양 한 기능 지원을 제공 하기 위해 내 LSP 언어 서버를 보완 하기 위해 사용자 지정 프로젝트 시스템을 구축 하려는 그렇게 하는 방법에 대 한 할?**
 
-Visual Studio 언어 LSP 기반 서버에 대 한 지원에 의존 합니다 [폴더 열기 기능](https://devblogs.microsoft.com/visualstudio/open-any-folder-with-visual-studio-15-preview/) 사용자 지정 프로젝트 시스템을 요구 하지 않도록 특별히 설계 되었습니다. 지침에 따라 사용자 고유의 사용자 지정 프로젝트 시스템을 빌드할 수 있습니다 [여기](https://github.com/Microsoft/VSProjectSystem), 하지만 설정과 같은 일부 기능은 작동 하지 않을 수 있습니다. LSP 언어 서버에 대 한 기본 초기화 논리 되므로 언어 서버 수 있으며 되도록 초기화 하는 동안 사용자 지정 논리를 제공 해야 할 수는 사용자 지정 프로젝트 시스템을 사용 하면 현재 열려 있는 폴더의 루트 폴더 위치를 전달 하는 것 제대로 시작 합니다.
+Visual Studio 언어 LSP 기반 서버에 대 한 지원에 의존 합니다 [폴더 열기 기능](https://devblogs.microsoft.com/visualstudio/open-any-folder-with-visual-studio-15-preview/) 사용자 지정 프로젝트 시스템을 요구 하지 않도록 설계 되었습니다. 지침에 따라 사용자 고유의 사용자 지정 프로젝트 시스템을 빌드할 수 있습니다 [여기](https://github.com/Microsoft/VSProjectSystem), 하지만 설정과 같은 일부 기능은 작동 하지 않을 수 있습니다. LSP 언어 서버에 대 한 기본 초기화 논리 되므로 언어 서버 수 있으며 되도록 초기화 하는 동안 사용자 지정 논리를 제공 해야 할 수는 사용자 지정 프로젝트 시스템을 사용 하면 현재 열려 있는 폴더의 루트 폴더 위치를 전달 하는 것 제대로 시작 합니다.
 
 **디버거 지원을 추가 하려면 어떻게 해야 하나요?**
 
@@ -493,3 +497,7 @@ Visual Studio 언어 LSP 기반 서버에 대 한 지원에 의존 합니다 [�
 **내 완료 된 LSP 언어 서버 VSIX 게시는 무엇 인가요?**
 
 Marketplace 지침을 참조 하세요 [여기](walkthrough-publishing-a-visual-studio-extension.md)합니다.
+
+## <a name="see-also"></a>참고자료
+
+- [다른 언어용 Visual Studio 편집기 지원 추가](../ide/adding-visual-studio-editor-support-for-other-languages.md)
