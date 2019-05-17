@@ -33,12 +33,12 @@ caps.latest.revision: 40
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6e50f19c4889e5f15c7dc3d458d1347912ecbc1d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: be15b683a6e173d813ea13eaa0cc400a40e68206
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63439171"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65690514"
 ---
 # <a name="managing-exceptions-with-the-debugger"></a>디버거를 사용한 예외 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -186,5 +186,5 @@ public class GenericException<T> : Exception
  [방법: 예외 발생 후 시스템 코드 검사](../debugger/how-to-examine-system-code-after-an-exception.md)   
  [방법: 네이티브 런타임 검사 사용](../debugger/how-to-use-native-run-time-checks.md)   
  [C 런타임 라이브러리 없이 런타임을 사용 하 여 확인](../debugger/using-run-time-checks-without-the-c-run-time-library.md)   
- [예외 도우미](http://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb)   
+ [예외 도우미](https://msdn.microsoft.com/library/992892ac-9d52-44cc-bf09-b44bfc5befeb)   
  [디버거 기본 사항](../debugger/debugger-basics.md)

@@ -20,12 +20,12 @@ caps.latest.revision: 10
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 313c189a05ae2a4e338c6f6bb9d7e9341e34284c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a2256dfde39c761258ffb63ec6bbd9473e1be385
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63446124"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65687588"
 ---
 # <a name="quickstart-debug-javascript-using-the-console"></a>빠른 시작: 콘솔을 사용하여 JavaScript 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -283,4 +283,4 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
  [HTML, CSS 및 JavaScript 샘플 코드 디버그](../debugger/debug-html-css-and-javascript-sample-code.md)   
  [빠른 시작: HTML 및 CSS 디버그](../debugger/quickstart-debug-html-and-css.md)   
  [WebView 컨트롤 디버그](../debugger/debug-a-webview-control.md)   
- [기술 지원 및 접근성](http://msdn.microsoft.com/library/tzbxw1af\(VS.120\).aspx)
+ [기술 지원 및 접근성](https://msdn.microsoft.com/library/tzbxw1af\(VS.120\).aspx)

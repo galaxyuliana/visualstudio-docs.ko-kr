@@ -10,12 +10,12 @@ helpviewer_keywords:
 ms.assetid: bb84a79e-cd4c-4a58-8871-2513e7119b6e
 caps.latest.revision: 38
 manager: jillfra
-ms.openlocfilehash: 54026b770a0de7780e950a3e30e649cb67ce1d3b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ddf67fba3ae603dbd31d4628c61a6f14cc2441c4
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62822551"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686942"
 ---
 # <a name="extending-the-toolbox"></a>도구 상자 확장
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구 상자** 에서 IDE의 끌어서 놓기 메커니즘을 통해 편집기 및 디자이너에 기능을 제공하는 개체의 컬렉션을 제공합니다.  
@@ -37,10 +37,10 @@ ms.locfileid: "62822551"
  VSPackage가 **도구 상자**의 내용 및 모양을 관리할 수 있는 방법을 설명합니다.  
   
 ## <a name="related-sections"></a>관련 단원  
- [방법: 도구 상자 창 관리](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
+ [방법: 도구 상자 창 관리](https://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
  **IDE(통합 개발 환경)에서** 도구 상자 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 로 작업하는 방법을 설명합니다.  
   
- [방법: 도구 상자 제어](http://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)  
+ [방법: 도구 상자 제어](https://msdn.microsoft.com/library/c9d8a18a-d2bc-43d4-a803-601bfc6a6599)  
  자동화 프로그래밍 모델을 사용하여 **도구 상자** 를 관리하는 방법을 설명합니다.  
   
  [Visual Studio의 다른 부분 확장](../extensibility/extending-other-parts-of-visual-studio.md)  

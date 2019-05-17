@@ -11,17 +11,17 @@ caps.latest.revision: 22
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a7a27b2744247bba78575b0387a958bda5990d8c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: c839350dd37f71d4f3368e077f4d9afe1b2bb2f4
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60071618"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65701951"
 ---
 # <a name="walkthrough-binding-to-data-in-xaml-designer"></a>연습: XAML 디자이너의 데이터 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바인딩 속성을 설정할 수 있습니다. 이 연습의 예제에서는 데이터를 컨트롤에 바인딩하는 방법을 보여줍니다. 특히 이 연습에서는 `ItemCount`라는 [DependencyProperty](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dependencyproperty.aspx)가 포함된 간단한 쇼핑 카트 클래스를 만든 다음, [TextBlock](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock.aspx) 컨트롤의 **Text** 속성에 `ItemCount` 속성을 바인딩하는 방법을 보여 줍니다.  
+XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바인딩 속성을 설정할 수 있습니다. 이 연습의 예제에서는 데이터를 컨트롤에 바인딩하는 방법을 보여줍니다. 특히 이 연습에서는 `ItemCount`라는 [DependencyProperty](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.dependencyproperty.aspx)가 포함된 간단한 쇼핑 카트 클래스를 만든 다음, [TextBlock](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock.aspx) 컨트롤의 **Text** 속성에 `ItemCount` 속성을 바인딩하는 방법을 보여 줍니다.  
   
 ### <a name="to-create-a-class-to-use-as-a-data-source"></a>데이터 소스로 사용할 클래스를 만들려면  
   
@@ -66,7 +66,7 @@ XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바
     End Class  
     ```  
   
-     이 코드는 [PropertyMetadata](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.propertymetadata.aspx) 개체를 사용하여 기본 항목 수로 값 0을 설정합니다.  
+     이 코드는 [PropertyMetadata](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.propertymetadata.aspx) 개체를 사용하여 기본 항목 수로 값 0을 설정합니다.  
   
 5. **파일** 메뉴에서 **빌드**, **솔루션 빌드**를 차례로 선택합니다.  
   
@@ -74,7 +74,7 @@ XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바
   
 1. [솔루션 탐색기]에서 MainWindow.xaml에 대한 바로 가기 메뉴를 연 다음 **뷰 디자이너**를 선택합니다.  
   
-2. 도구 상자에서 [그리드](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx) 컨트롤을 선택하여 양식에 추가합니다.  
+2. 도구 상자에서 [그리드](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx) 컨트롤을 선택하여 양식에 추가합니다.  
   
 3. `Grid`를 선택하고, [속성] 창에서 **DataContext** 속성 옆에 있는 **새로 만들기** 단추를 선택합니다.  
   
@@ -100,4 +100,4 @@ XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바
   
 ## <a name="see-also"></a>참고 항목  
  [XAML 디자이너를 사용하여 UI 만들기](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)   
- [NIB: 값 변환기 추가 대화 상자](http://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)
+ [NIB: 값 변환기 추가 대화 상자](https://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)

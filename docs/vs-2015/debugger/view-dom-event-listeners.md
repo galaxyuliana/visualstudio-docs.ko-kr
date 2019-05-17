@@ -17,12 +17,12 @@ caps.latest.revision: 26
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 945edb462b1ba849a3a1b9fd6797c8393b651163
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 64d4892080aaf0cf04e4b208b1a0bdb7a7a4480d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437677"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65693582"
 ---
 # <a name="view-dom-event-listeners"></a>DOM 이벤트 수신기 보기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -76,9 +76,9 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
      합니다 **이벤트** 탭 계층 목록에서 선택 하는 모든 요소에 대 한 이벤트 수신기가 표시 됩니다.
 
 ### <a name="Tips"></a> 이벤트 수신기를 사용 하 여 문제를 해결 하기 위한 팁
- 일부 앱 시나리오에서는 이벤트 수신기 제거 해야 합니다 명시적으로 사용 하 여 [removeEventListener](http://msdn.microsoft.com/library/ie/ff975250\(v=vs.85\).aspx)합니다. 사용 된 **이벤트** 코드를 실행 하는 동안 DOM 요소에서 이벤트 수신기가 제거 되었는지 여부를 테스트 하려면 DOM 탐색기에서 탭 합니다. 아래 이러한 유형의 문제를 해결할 수 있는 팁이 몇 가지 나와 있습니다.
+ 일부 앱 시나리오에서는 이벤트 수신기 제거 해야 합니다 명시적으로 사용 하 여 [removeEventListener](https://msdn.microsoft.com/library/ie/ff975250\(v=vs.85\).aspx)합니다. 사용 된 **이벤트** 코드를 실행 하는 동안 DOM 요소에서 이벤트 수신기가 제거 되었는지 여부를 테스트 하려면 DOM 탐색기에서 탭 합니다. 아래 이러한 유형의 문제를 해결할 수 있는 팁이 몇 가지 나와 있습니다.
 
-- Visual Studio에서 구현 되는 단일 페이지 탐색 모델을 사용 하는 앱에 대 한 [프로젝트 템플릿](http://msdn.microsoft.com/library/windows/apps/hh758331.aspx), 일반적으로 페이지의 일부인 DOM 요소 등의 개체에 대 한 등록 된 이벤트 수신기를 제거할 필요는 없습니다. 이 시나리오에서 DOM 요소 및 연결된 이벤트 수신기는 수명이 동일하고 가비지 수집될 수 있습니다.
+- Visual Studio에서 구현 되는 단일 페이지 탐색 모델을 사용 하는 앱에 대 한 [프로젝트 템플릿](https://msdn.microsoft.com/library/windows/apps/hh758331.aspx), 일반적으로 페이지의 일부인 DOM 요소 등의 개체에 대 한 등록 된 이벤트 수신기를 제거할 필요는 없습니다. 이 시나리오에서 DOM 요소 및 연결된 이벤트 수신기는 수명이 동일하고 가비지 수집될 수 있습니다.
 
 - DOM 요소 또는 개체의 수명이 연결된 수신기와 다르면 `removeEventListener` 메서드를 호출해야 할 수 있습니다. 예를 들어 `window.onresize` 이벤트를 사용하는 경우 이벤트를 처리하는 페이지를 벗어나 탐색하면 이벤트 수신기를 제거해야 할 수 있습니다.
 

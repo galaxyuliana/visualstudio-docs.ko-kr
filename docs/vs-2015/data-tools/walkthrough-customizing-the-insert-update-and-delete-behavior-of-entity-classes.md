@@ -9,19 +9,19 @@ caps.latest.revision: 6
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a753ac6691e419267fdca34ed5e78a9a5b3cfdd3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: db27e8665d74477f3bb668831cbfaeef00d622bd
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63424795"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65700224"
 ---
 # <a name="walkthrough-customizing-the-insert-update-and-delete-behavior-of-entity-classes"></a>연습: 엔터티 클래스의 삽입, 업데이트 및 삭제 동작 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-합니다 [Visual Studio에서 SQL Tools TO](../data-tools/linq-to-sql-tools-in-visual-studio2.md) 만들고 편집 하기 위한 시각적 디자인 화면을 제공 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 데이터베이스의 개체를 기반으로 하는 클래스 (엔터티 클래스). 사용 하 여 [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655), SQL 데이터베이스에 액세스 하려면 LINQ 기술을 사용할 수 있습니다. 자세한 내용은 [LINQ(Language-Integrated Query)](http://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d)를 참조하세요.  
+합니다 [Visual Studio에서 SQL Tools TO](../data-tools/linq-to-sql-tools-in-visual-studio2.md) 만들고 편집 하기 위한 시각적 디자인 화면을 제공 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 데이터베이스의 개체를 기반으로 하는 클래스 (엔터티 클래스). 사용 하 여 [LINQ to SQL](https://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655), SQL 데이터베이스에 액세스 하려면 LINQ 기술을 사용할 수 있습니다. 자세한 내용은 [LINQ(Language-Integrated Query)](https://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d)를 참조하세요.  
   
- 기본적으로 업데이트를 수행하는 논리는 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 런타임에서 제공합니다. 런타임에서는 열 정의 및 기본 키 정보와 같은 테이블 스키마를 기반으로 기본 Insert, Update 및 Delete 문을 만듭니다. 기본 동작을 사용하지 않으려면 업데이트 동작을 구성하고 데이터베이스의 데이터 작업에 필요한 삽입, 업데이트 및 삭제를 수행하기 위한 특정 저장 프로시저를 지정할 수 있습니다. 엔터티 클래스가 뷰에 매핑되는 때와 같이 기본 동작이 생성되지 않은 경우에도 이렇게 할 수 있습니다. 또한 저장 프로시저를 통해 데이터베이스의 테이블에 액세스해야 하는 경우에 기본 업데이트 동작을 재정의할 수 있습니다. 자세한 내용은 [사용자 지정 작업에서 사용 하 여 저장 프로시저](http://msdn.microsoft.com/library/aedbecc1-c33c-4fb4-8861-fdf7e1dc6b8a)합니다.  
+ 기본적으로 업데이트를 수행하는 논리는 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 런타임에서 제공합니다. 런타임에서는 열 정의 및 기본 키 정보와 같은 테이블 스키마를 기반으로 기본 Insert, Update 및 Delete 문을 만듭니다. 기본 동작을 사용하지 않으려면 업데이트 동작을 구성하고 데이터베이스의 데이터 작업에 필요한 삽입, 업데이트 및 삭제를 수행하기 위한 특정 저장 프로시저를 지정할 수 있습니다. 엔터티 클래스가 뷰에 매핑되는 때와 같이 기본 동작이 생성되지 않은 경우에도 이렇게 할 수 있습니다. 또한 저장 프로시저를 통해 데이터베이스의 테이블에 액세스해야 하는 경우에 기본 업데이트 동작을 재정의할 수 있습니다. 자세한 내용은 [사용자 지정 작업에서 사용 하 여 저장 프로시저](https://msdn.microsoft.com/library/aedbecc1-c33c-4fb4-8861-fdf7e1dc6b8a)합니다.  
   
 > [!NOTE]
 > 이 연습을 수행하려면 Northwind 데이터베이스의 **InsertCustomer**, **UpdateCustomer** 및 **DeleteCustomer** 저장 프로시저를 사용할 수 있어야 합니다.
@@ -65,7 +65,7 @@ ms.locfileid: "63424795"
     > [!NOTE]
     > [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 및 C# 프로젝트에서 지원됩니다. 따라서 이러한 언어 중 하나로 새 프로젝트를 만듭니다.  
   
-3. 클릭 합니다 **Windows Forms 응용 프로그램** 템플릿과 클릭 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](http://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
+3. 클릭 합니다 **Windows Forms 응용 프로그램** 템플릿과 클릭 **확인**합니다. 자세한 내용은 [클라이언트 응용 프로그램](https://msdn.microsoft.com/library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68)합니다.  
   
      UpdatingwithSProcsWalkthrough 프로젝트가 만들어지고 추가할 **솔루션 탐색기**합니다.  
   
@@ -253,14 +253,14 @@ ms.locfileid: "63424795"
 ## <a name="next-steps"></a>다음 단계  
  응용 프로그램 요구 사항에 따라 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 엔터티 클래스를 만든 후 몇 단계를 더 수행할 수도 있습니다. 이 응용 프로그램에서 개선할 수 있는 몇 가지 사항은 다음과 같습니다.  
   
-- 업데이트 동안 동시성 검사를 구현합니다. 내용은 [낙관적 동시성: 개요](http://msdn.microsoft.com/library/c2e38512-d0c8-4807-b30a-cb7e30338694)합니다.  
+- 업데이트 동안 동시성 검사를 구현합니다. 내용은 [낙관적 동시성: 개요](https://msdn.microsoft.com/library/c2e38512-d0c8-4807-b30a-cb7e30338694)합니다.  
   
-- LINQ 쿼리를 추가하여 데이터를 필터링합니다. 정보를 참조 하세요 [LINQ 쿼리 (C#) 소개](http://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)합니다.  
+- LINQ 쿼리를 추가하여 데이터를 필터링합니다. 정보를 참조 하세요 [LINQ 쿼리 (C#) 소개](https://msdn.microsoft.com/library/37895c02-268c-41d5-be39-f7d936fa88a8)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
- [LINQ to SQL 쿼리](http://msdn.microsoft.com/library/f4897aaa-7f44-4c20-a471-b948c2971aae)   
+ [LINQ to SQL](https://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655)   
+ [LINQ to SQL 쿼리](https://msdn.microsoft.com/library/f4897aaa-7f44-4c20-a471-b948c2971aae)   
  [DataContext 메서드 (O/R 디자이너)](../data-tools/datacontext-methods-o-r-designer.md)   
  [방법: 업데이트, 삽입 및 삭제 (O/R 디자이너)를 수행 하는 저장된 프로시저를 할당 합니다.](../data-tools/how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md)   
- [PAVE Visual Studio 2012의 데이터 응용 프로그램 개발의 새로운 기능](http://msdn.microsoft.com/3d50d68f-5f44-4915-842f-6d42fce793f1)
+ [PAVE Visual Studio 2012의 데이터 응용 프로그램 개발의 새로운 기능](https://msdn.microsoft.com/3d50d68f-5f44-4915-842f-6d42fce793f1)
