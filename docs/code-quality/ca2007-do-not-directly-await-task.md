@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 dev_langs:
 - CSharp
-ms.openlocfilehash: bf3e13697f39f7d0f531549d4c018b9f42872596
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3f35e450f17a671b800d003b94ceb5ebc2321c90
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62545230"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65841417"
 ---
 # <a name="ca2007-do-not-directly-await-a-task"></a>CA2007: 작업을 직접 대기하지 마세요.
 
@@ -76,7 +76,7 @@ public async Task Execute()
 
 이 규칙에서 값을 반환 하지 않는 비동기 메서드를 제외 하려는 지 여부를 구성할 수 있습니다. 이러한 종류의 메서드를 제외 하려면 프로젝트에서.editorconfig 파일에 다음 키-값 쌍을 추가:
 
-```
+```ini
 # Package version 2.9.0 and later
 dotnet_code_quality.CA2007.exclude_async_void_methods = true
 
@@ -86,7 +86,7 @@ dotnet_code_quality.CA2007.skip_async_void_methods = true
 
 이 규칙을 적용할 어셈블리 종류 출력을 구성할 수 있습니다. 예를 들어 코드에이 규칙이 적용 되도록 생성 하는 콘솔 응용 프로그램 또는 동적 연결된 라이브러리 (즉, 없습니다 UI 앱), 프로젝트에서.editorconfig 파일에 다음 키-값 쌍을 추가 합니다.
 
-```
+```ini
 dotnet_code_quality.CA2007.output_kind = ConsoleApplication, DynamicallyLinkedLibrary
 ```
 

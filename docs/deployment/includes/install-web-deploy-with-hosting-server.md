@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 0fc18fab56f5b46ef097cdf699e4f0569dc190c9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62904460"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65846414"
 ---
 호스팅 서버용 웹 배포 3.6은 UI에서 게시 설정 파일을 만들 수 있는 추가 구성 기능을 제공합니다.
 

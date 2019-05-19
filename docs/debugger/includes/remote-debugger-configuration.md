@@ -14,11 +14,11 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 ms.openlocfilehash: d89dbc0b752c2b8c538ec53769c166b6edbd802f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62902884"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65839816"
 ---
 1. 원격 컴퓨터의 찾기 및 시작 합니다 **원격 디버거** 에서 합니다 **시작** 메뉴. 
    
