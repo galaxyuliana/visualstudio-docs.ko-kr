@@ -1,6 +1,6 @@
 ---
 title: 'CA1812: 인스턴스화되지 않은 내부 클래스를 사용하지 마세요.'
-ms.date: 11/04/2016
+ms.date: 05/16/2019
 ms.topic: reference
 f1_keywords:
 - CA1812
@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 08d8b907e4a211b0735f07377c21dec1c0a982c9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: def22bd4aee4f64b5e14f2bbe7978a0dfa061261
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62796906"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65841437"
 ---
 # <a name="ca1812-avoid-uninstantiated-internal-classes"></a>CA1812: 인스턴스화되지 않은 내부 클래스를 사용하지 마세요.
 
@@ -32,7 +32,7 @@ ms.locfileid: "62796906"
 
 ## <a name="cause"></a>원인
 
-어셈블리 수준 형식의 인스턴스가 어셈블리에서 코드에 의해 만들어지지 않습니다.
+내부 (어셈블리 수준) 형식은 인스턴스화되지 합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -50,19 +50,17 @@ ms.locfileid: "62796906"
 
 - 컴파일러에서 내보낸 배열 형식
 
-- 인스턴스화할 수 없습니다 및 정의 하는 형식을 `static` (`Shared` Visual Basic의) 메서드만 있습니다.
+- 인스턴스화할 수 없습니다만 정의 하는 형식 [ `static` ](/dotnet/csharp/language-reference/keywords/static) ([ `Shared` Visual Basic의](/dotnet/visual-basic/language-reference/modifiers/shared)) 메서드.
 
-적용 하는 경우 <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute?displayProperty=fullName> 분석 되는 어셈블리에이 규칙으로 표시 되는 생성자에서 발생 하지 것입니다 `internal` 다른 필드가 사용 되 고 있는지 여부를 알 수 없습니다 때문에 `friend` 어셈블리입니다.
-
-외부 독립 실행형 FxCop 모든 경우에 발생 내부 생성자에 Visual Studio 코드 분석에서이 제한을 해결할 수, 하는 경우에 `friend` 어셈블리는 분석에 포함 합니다.
+적용 하는 경우는 <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute?displayProperty=fullName> 분석 되는 어셈블리에이 규칙은 플래그 형식으로 표시 된 [ `internal` ](/dotnet/csharp/language-reference/keywords/internal) ([ `Friend` Visual Basic의](/dotnet/visual-basic/language-reference/modifiers/friend)) 필드 일 수 있으므로 friend 어셈블리를 사용합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-이 규칙 위반 문제를 해결 하 고, 형식을 제거 또는 사용 하는 코드를 추가 합니다. 형식을 정적 메서드만 있으면 컴파일러가 기본 public 인스턴스 생성자를 내보내는 하지 않도록 하려면 형식에 다음 중 하나를 추가 합니다.
+이 규칙 위반 문제를 해결 하 고, 형식을 제거 또는 사용 하는 코드를 추가 합니다. 형식 포함 되 면 `static` 메서드는 다음 중 하나를 컴파일러가 기본 public 인스턴스 생성자를 내보내는 하지 않도록 하려면 형식에 추가 합니다.
 
 - .NET Framework 버전 1.0 및 1.1을 대상으로 하는 형식에 대 한 개인 생성자입니다.
 
-- 합니다 `static` (`Shared` Visual basic에서) 한정자를 대상으로 하는 형식 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]합니다.
+- 합니다 `static` 한정자 C# 대상으로 하는 형식 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] 이상.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 
@@ -70,9 +68,9 @@ ms.locfileid: "62796906"
 
 - 클래스가 만들어질 바인딩된 리플렉션 메서드를 통해 같은 <xref:System.Activator.CreateInstance%2A?displayProperty=fullName>합니다.
 
-- 클래스는 런타임 또는 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]에 의해 자동으로 만들어집니다. 이러한 예로 <xref:System.Configuration.IConfigurationSectionHandler?displayProperty=fullName> 또는 <xref:System.Web.IHttpHandler?displayProperty=fullName>를 구현하는 클래스를 들 수 있습니다.
+- 클래스는 런타임 또는 ASP.NET에 의해 자동으로 생성 됩니다. 자동으로 생성된 된 클래스의 예로 구현 하는 <xref:System.Configuration.IConfigurationSectionHandler?displayProperty=fullName> 또는 <xref:System.Web.IHttpHandler?displayProperty=fullName>합니다.
 
-- 클래스는 새 제약 조건이 있는 제네릭 형식 매개 변수로 전달 됩니다. 예를 들어, 다음 예제에서는이 규칙을 발생 합니다.
+- 클래스는 형식 매개 변수로 전달 되는 [ `new` 제약 조건](/dotnet/csharp/language-reference/keywords/new-constraint)합니다. 다음 예제에서는 규칙 CA1812로 플래그가 지정 됩니다.
 
     ```csharp
     internal class MyClass
@@ -88,17 +86,13 @@ ms.locfileid: "62796906"
             return new T();
         }
     }
-    // [...]
+
     MyGeneric<MyClass> mc = new MyGeneric<MyClass>();
     mc.Create();
     ```
 
-  이러한 상황에서이 경고를 표시 하는 것이 좋습니다.
-
 ## <a name="related-rules"></a>관련된 규칙
 
-[CA1811: 호출 되지 않는 전용 코드를 방지 합니다.](../code-quality/ca1811-avoid-uncalled-private-code.md)
-
-[CA1801: 사용 되지 않는 매개 변수를 검토](../code-quality/ca1801-review-unused-parameters.md)
-
-[CA1804: 사용 되지 않는 로컬 항목을 제거](../code-quality/ca1804-remove-unused-locals.md)
+- [CA1811: 호출 되지 않는 전용 코드를 방지 합니다.](../code-quality/ca1811-avoid-uncalled-private-code.md)
+- [CA1801: 사용 되지 않는 매개 변수를 검토](../code-quality/ca1801-review-unused-parameters.md)
+- [CA1804: 사용 되지 않는 로컬 항목을 제거](../code-quality/ca1804-remove-unused-locals.md)

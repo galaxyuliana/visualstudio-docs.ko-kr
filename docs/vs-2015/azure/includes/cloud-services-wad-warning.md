@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 0170c6ed655ce54e2dbadf57341dff56616186ec
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62964748"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65844808"
 ---
 > [!WARNING]
 > 기존 역할에서 진단을 사용하도록 설정한 경우 패키지를 배포하면 이미 설정한 모든 확장이 비활성화됩니다. 여기에는 다음이 포함됩니다.

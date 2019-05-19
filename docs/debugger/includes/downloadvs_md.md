@@ -14,10 +14,10 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 ms.openlocfilehash: bccfb9eee59aba9397f57b773cb06c3d2de89f9f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62848806"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65839758"
 ---
 [Visual Studio 커뮤니티 다운로드](https://visualstudio.microsoft.com/vs/#downloadvs) 또는 [Visual Studio 버전 비교](https://visualstudio.microsoft.com/vs/compare/)

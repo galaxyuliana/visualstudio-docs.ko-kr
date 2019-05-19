@@ -18,12 +18,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: b794eb7c7a258a843763b2c68902000031c17eb3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ca9c4681cc19917ef965a4c8577e9559d71dd4be
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62807149"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65841955"
 ---
 # <a name="ca1715-identifiers-should-have-correct-prefix"></a>CA1715: 식별자에는 올바른 접두사를 사용해야 합니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "62807149"
 
 이 규칙에서 단일 문자 형식 매개 변수를 제외할 것인지 여부를 구성할 수 있습니다. 예를 들어 지정 하는이 규칙 *안* 단일 문자 형식 매개 변수를 분석, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 중 하나를 추가 합니다.
 
-```
+```ini
 # Package version 2.9.0 and later
 dotnet_code_quality.CA1715.exclude_single_letter_type_parameters = true
 
@@ -77,7 +77,7 @@ dotnet_code_quality.CA2007.allow_single_letter_type_parameters = true
 
 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
 
-```
+```ini
 dotnet_code_quality.ca1715.api_surface = private, internal
 ```
 

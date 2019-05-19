@@ -10,12 +10,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: e66b75160df0e8ecf9d33601ee383ec71cd62c4d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5a4b80b8ede1ab2b8d858ed7378f318f2eebe5fa
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62806481"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65841530"
 ---
 # <a name="ca3008-review-code-for-xpath-injection-vulnerabilities"></a>CA3008: 코드에서 XPath 삽입 취약성에 대해 검토합니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "62806481"
 
 ## <a name="rule-description"></a>규칙 설명
 
-신뢰할 수 없는 입력에서 작업할 때 XPath 주입 공격에 주의 해야 합니다. 신뢰할 수 없는 입력을 사용 하 여 XPath 쿼리를 구성할 공격자가 악의적 의도 하지 않은 결과 반환 하도록 쿼리를 조작 하 고 가능한 쿼리 XML의 콘텐츠를 공개할 수 있습니다. 
+신뢰할 수 없는 입력에서 작업할 때 XPath 주입 공격에 주의 해야 합니다. 신뢰할 수 없는 입력을 사용 하 여 XPath 쿼리를 구성할 공격자가 악의적 의도 하지 않은 결과 반환 하도록 쿼리를 조작 하 고 가능한 쿼리 XML의 콘텐츠를 공개할 수 있습니다.
 
 이 규칙은 입력 XPath 식에 도달 하는 HTTP 요청을 찾으려고 합니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "62806481"
 > 이 규칙은 어셈블리 간에 데이터를 추적할 수 없습니다. 예를 들어, 하나의 어셈블리 HTTP 요청 입력을 읽고 하 다음 XPath 쿼리를 수행 하는 다른 어셈블리에 전달 하는 경우이 규칙 경고를 생성 하지 않습니다.
 
 > [!NOTE]
-> 이 규칙 메서드 호출에서 데이터 흐름은 분석 깊이에 구성할 수 있는 제한이 있습니다. 참조 [Configuration Analyzer](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) 에서 제한을 구성 하는 방법에 대 한 `.editorconfig` 파일입니다.
+> 이 규칙 메서드 호출에서 데이터 흐름은 분석 깊이에 구성할 수 있는 제한이 있습니다. 참조 [분석기 구성](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md#dataflow-analysis) EditorConfig 파일에 제한을 구성 하는 방법에 대 한 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
@@ -92,7 +92,7 @@ Partial Public Class WebForm
 
     Protected Sub Page_Load(sender As Object, e As EventArgs)
         Dim operation As String = Me.Request.Form("operation")
-        
+
         ' If an attacker uses this for input:
         '     ' or 'a' = 'a
         ' Then the XPath query will be:
