@@ -103,12 +103,10 @@
           href: using-rule-sets-to-group-code-analysis-rules.md
         - name: 분석기 패키지에 대한 규칙 집합
           href: analyzer-rule-sets.md
-        - name: 관리 코드에 대한 규칙 집합
-          items:
-            - name: 관리 코드에 대한 규칙 집합
-              href: how-to-configure-code-analysis-for-a-managed-code-project.md
-            - name: ASP.NET 웹 앱에 대한 코드 분석 구성
-              href: how-to-configure-code-analysis-for-an-aspnet-web-application.md
+        - name: 정적 코드 분석에 대한 규칙 집합 구성
+          href: how-to-configure-code-analysis-for-a-managed-code-project.md
+        - name: ASP.NET 웹 앱에 대한 코드 분석 구성
+          href: how-to-configure-code-analysis-for-an-aspnet-web-application.md
         - name: C++ 코드에 대한 규칙 집합
           href: using-rule-sets-to-specify-the-cpp-rules-to-run.md
         - name: 사용자 지정 규칙 집합 만들기
