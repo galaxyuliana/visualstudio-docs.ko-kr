@@ -35,7 +35,7 @@ VSIX 프로젝트 템플릿 확장을 만들거나 기존 확장 프로그램 �
 
     2. **프로젝트** 메뉴에서 **템플릿 내보내기**를 클릭합니다. 마법사의 단계를 완료 합니다.
 
-         A *.zip* 에서 파일이 만들어질 *%USERPROFILE%\My Documents\Visual Studio {version} \My 내보낸 템플릿\\*합니다.
+         A *.zip* 에서 파일이 만들어질 *%USERPROFILE%\My Documents\Visual Studio {version} \My 내보낸 템플릿\\* 합니다.
 
 2. 빈 VSIX 프로젝트를 만듭니다.
 
