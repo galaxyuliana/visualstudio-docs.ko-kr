@@ -80,8 +80,6 @@
           href: unit-tests-for-generic-methods.md
         - name: 이전 버전의 .NET Framework를 대상으로 사용하도록 단위 테스트 구성
           href: how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md
-        - name: 단위 테스트를 만들기 위한 샘플 프로젝트
-          href: sample-project-for-creating-unit-tests.md
     - name: C/C++ Code용 유닛 테스트
       items:
         - name: C/C++ Code용 단위 테스트 작성
@@ -119,6 +117,7 @@
 - name: Live Unit Testing
   items:
     - name: 소개
+      displayName: Live Unit Testing introduction
       href: live-unit-testing-intro.md
     - name: Live Unit Testing의 새로운 기능
       href: live-unit-testing-whats-new.md
@@ -147,6 +146,7 @@
             - name: 테스트 조합 모델
               items:
                 - name: 개요
+                  displayName: Test mix models
                   href: emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md
                 - name: 테스트 조합 모델 편집
                   href: edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md
@@ -196,8 +196,6 @@
               items:
                 - name: 로깅 설정 수정
                   href: modify-load-test-logging-settings.md
-                - name: 최대 로그 크기
-                  href: how-to-specify-the-maximum-size-for-the-log-file.md
                 - name: 실패한 테스트
                   href: how-to-specify-if-test-failures-are-saved-to-test-logs.md
             - name: 타이밍 정보 스토리지
@@ -227,6 +225,7 @@
     - name: 테스트 컨트롤러 및 테스트 에이전트
       items:
         - name: 개요
+          displayName: Test controllers and test agents
           href: configure-test-agents-and-controllers-for-load-tests.md
         - name: 요구 사항
           href: test-controller-and-test-agent-requirements-for-load-testing.md
@@ -348,16 +347,18 @@
               href: how-to-delete-load-test-results-from-a-repository.md
         - name: 결과 뷰어용 추가 기능 만들기
           href: how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md
-- name: UI 테스트 자동화
+- name: 코딩된 UI 테스트를 사용하여 UI 자동화
   items:
     - name: 개요
+      displayName: Coded UI test
       href: use-ui-automation-to-test-your-code.md
     - name: '연습: 코딩된 UI 테스트 만들기, 편집 및 유지 관리'
       href: walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md
     - name: 코딩된 UI 테스트를 사용하여 UWP 앱 테스트
       href: test-uwp-app-with-coded-ui-test.md
-    - name: UWP 컨트롤에 대한 고유한 Automation 속성 설정
-      href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
+      items:
+        - name: UWP 컨트롤에 대한 고유한 Automation 속성 설정
+          href: set-a-unique-automation-property-for-windows-store-controls-for-testing.md
     - name: 코딩된 UI 테스트에서 HTML5 컨트롤 사용
       href: using-html5-controls-in-coded-ui-tests.md
     - name: 데이터 기반의 코딩된 UI 테스트 만들기
