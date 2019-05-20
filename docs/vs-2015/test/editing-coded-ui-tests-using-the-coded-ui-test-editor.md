@@ -12,12 +12,12 @@ ms.assetid: 76435c4b-593e-43a3-a9fe-709a7f9f5e0f
 caps.latest.revision: 42
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 2cb53bfc500edbf46f277dd86e2c035461d9f9af
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 5ca980b9f51b5c66b5ddfde18c0fb464c73faf99
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63416499"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686567"
 ---
 # <a name="editing-coded-ui-tests-using-the-coded-ui-test-editor"></a>코딩된 UI 테스트 편집기를 사용하여 코딩된 UI 테스트 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +75,7 @@ UI 작업 속성 편집
   
  UI 작업에 대한 속성을 수정하려면 **UI 작업** 창에서 속성을 편집하려는 UI 작업이 포함된 테스트 메서드를 확장하고, 해당 UI 작업을 선택한 다음, 속성 창을 사용해 속성을 수정합니다.  
   
- 예를 들어 서버를 사용할 수 없는 상황이며 웹 브라우저에 나오는 **웹 페이지 ‘<http://Contoso1/default.aspx’>** 로 이동과 관련된 UI 작업이 있는 경우 이 URL을 `‘ http://Contoso2/default.aspx’`로 변경할 수 있습니다.  
+ 예를 들어 서버를 사용할 수 없는 상황이며 웹 브라우저에 나오는 **웹 페이지 ‘<http://Contoso1/default.aspx’>** 로 이동과 관련된 UI 작업이 있는 경우 이 URL을 `‘http://Contoso2/default.aspx’`로 변경할 수 있습니다.  
   
  ![컨트롤 속성](../test/media/codeduitestcontrolprop.png "CodedUITestControlProp")  
 컨트롤 속성 편집  
@@ -219,5 +219,5 @@ UI 작업 속성 편집
  [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
  [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [데이터 기반의 코딩된 UI 테스트 만들기](../test/creating-a-data-driven-coded-ui-test.md)   
- [기존 작업 기록에서 코딩된 UI 테스트 생성](http://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)   
+ [기존 작업 기록에서 코딩된 UI 테스트 생성](https://msdn.microsoft.com/library/56736963-9027-493b-b5c4-2d4e86d1d497)   
  [연습: 코딩된 UI 테스트 만들기, 편집 및 유지 관리](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
