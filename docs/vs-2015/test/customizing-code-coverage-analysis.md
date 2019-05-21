@@ -8,12 +8,12 @@ ms.assetid: f6337c35-acae-4c5f-b5d9-ac5ff687ef18
 caps.latest.revision: 18
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: ef0a8d1867114cd655f1e361cf0401dab6bce1a5
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 15093cc6af6e61384c393b1c3e435df3840a2811
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63416652"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65686448"
 ---
 # <a name="customizing-code-coverage-analysis"></a>코드 검사 분석 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -181,7 +181,7 @@ ms.locfileid: "63416652"
  **테스트**, **테스트 설정**, **테스트 설정 파일 선택**을 차례로 선택하고 .runsettings 파일을 선택합니다. 테스트 설정 메뉴에 파일이 나타나고 해당 파일을 선택 또는 취소할 수 있습니다. 파일이 선택된 상태에서 **코드 검사 분석**을 사용할 때마다 .runsettings 파일이 적용됩니다.  
   
 ### <a name="to-customize-run-settings-in-a-command-line-test"></a>명령줄 테스트에서 실행 설정을 사용자 지정하려면  
- 명령줄에서 테스트를 실행하려면 vstest.console.exe를 사용합니다. 설정 파일은 이 유틸리티의 매개 변수입니다. 자세한 내용은 [명령줄에서 VSTest.console 사용](http://msdn.microsoft.com/library/852812d8-b3bb-407e-bc43-04d511fcb27a)을 참조하세요.  
+ 명령줄에서 테스트를 실행하려면 vstest.console.exe를 사용합니다. 설정 파일은 이 유틸리티의 매개 변수입니다. 자세한 내용은 [명령줄에서 VSTest.console 사용](https://msdn.microsoft.com/library/852812d8-b3bb-407e-bc43-04d511fcb27a)을 참조하세요.  
   
 1. Visual Studio 개발자 명령 프롬프트를 시작합니다.  
   
@@ -202,7 +202,7 @@ ms.locfileid: "63416652"
   
 3. **프로세스** 페이지에서 **자동화된 테스트**, **테스트 소스**, **실행 설정**을 확장합니다. **.runsettings** 파일을 선택합니다.  
   
-   - <em>하지만 **테스트 소스** 대신 **테스트 어셈블리</em>* 가 나타납니다. 실행 설정** 필드를 설정하려고 하면 .testsettings 파일만 선택할 수 있습니다.*  
+   - <em>하지만 **테스트 소스** 대신 **테스트 어셈블리</em>* 가 나타납니다. **실행 설정** 필드를 설정하려고 하면 .testsettings 파일만 선택할 수 있습니다.*  
   
       **자동화된 테스트**에서 **테스트 어셈블리**를 선택한 다음 줄 끝에서 **[...]** 를 선택합니다. **테스트 실행 추가/편집** 대화 상자에서 **Test Runner**를 **Visual Studio Test Runner**로 설정합니다.  
   
@@ -237,7 +237,7 @@ Note that searching for symbols increases code coverage runtime. So keep this sm
 <!--  
 About include/exclude lists:  
 Empty "Include" clauses imply all; empty "Exclude" clauses imply none.  
-Each element in the list is a regular expression (ECMAScript syntax). See http://msdn.microsoft.com/library/2k3te2cs.aspx.  
+Each element in the list is a regular expression (ECMAScript syntax). See https://msdn.microsoft.com/library/2k3te2cs.aspx.  
 An item must first match at least one entry in the include list to be included.  
 Included items must then not match any entries in the exclude list to remain included.  
 -->  
