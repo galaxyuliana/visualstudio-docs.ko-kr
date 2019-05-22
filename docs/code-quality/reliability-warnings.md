@@ -14,17 +14,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 74c1a5202b05b3ffe6f9b6c5b24804fb259287c4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 009422eaf9ac81af6e8f9d48732655b2528c85a0
+ms.sourcegitcommit: 92a04c57ac0a49f304fa2ea5043436f30068c3cd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62825340"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "65976142"
 ---
 # <a name="reliability-warnings"></a>안정성 경고
-안정성 경고 올바른 메모리 및 스레드 사용과 같은 라이브러리 및 응용 프로그램 안정성을 지원합니다.
 
-## <a name="in-this-section"></a>섹션 내용
+안정성 경고 올바른 메모리 및 스레드 사용과 같은 라이브러리 및 응용 프로그램 안정성을 지원합니다. 안정성 규칙은 다음과 같습니다.
 
 |규칙|설명|
 |----------|-----------------|
@@ -34,3 +33,4 @@ ms.locfileid: "62825340"
 |[CA2003: 파이버를 스레드로 취급 하지 마십시오](../code-quality/ca2003-do-not-treat-fibers-as-threads.md)|관리 되는 스레드가 Win32 스레드라고 취급 됩니다.|
 |[CA2004: GC에 대 한 호출을 제거 합니다. KeepAlive](../code-quality/ca2004-remove-calls-to-gc-keepalive.md)|SafeHandle 사용 하도록 변환 하는 경우 GC에 대 한 모든 호출을 제거 합니다. KeepAlive (개체)입니다. 이 경우 클래스 GC를 호출할 필요가 없습니다. KeepAlive를 종료 자가 없는 있지만 OS를 마무리 하려면 SafeHandle 사용을 가정 하에 대 한 처리 합니다.|
 |[CA2006: 네이티브 리소스를 캡슐화 하기 위해 SafeHandle 사용](../code-quality/ca2006-use-safehandle-to-encapsulate-native-resources.md)|관리 코드에 IntPtr을 사용하는 것은 잠재적인 보안 및 안정성 문제를 나타냅니다. IntPtr을 사용할 때마다 SafeHandle 또는 유사한 기술을 대신 사용해야 하는지 여부를 결정하도록 검토해야 합니다.|
+|[CA2007: 직접 작업을 기다리지 않습니다](../code-quality/ca2007-do-not-directly-await-task.md)|비동기 메서드이기 [기다리는](/dotnet/csharp/language-reference/keywords/await) 는 <xref:System.Threading.Tasks.Task> 직접.|
