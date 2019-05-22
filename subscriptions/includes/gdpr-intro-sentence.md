@@ -5,11 +5,11 @@ ms.topic: include
 author: eross-msft
 ms.author: lizross
 ms.openlocfilehash: 69ce0da83eaa2e1122dbf3583cdaa75aede9f03f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62946210"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65846477"
 ---
 > [!NOTE]
 > 이 문서에서는 디바이스 또는 서비스에서 개인 데이터를 삭제하는 방법에 대한 단계를 제공합니다. GDPR에 따른 의무를 이행하는 데 이 문서를 참고할 수도 있습니다. GDPR에 대한 일반 정보를 찾고 있는 경우 [서비스 신뢰 포털](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)의 GDPR 섹션을 참조하세요.

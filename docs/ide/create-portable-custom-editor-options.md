@@ -7,12 +7,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a3518133ef269c76e1689d8d68583a2d6a0d09b1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9426b2b7cd9467353f129e9376b0f83cf2f620a3
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62794136"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65845988"
 ---
 # <a name="create-portable-custom-editor-settings-with-editorconfig"></a>EditorConfig를 사용하여 휴대용, 사용자 지정 편집기 설정 만들기
 
@@ -20,7 +20,13 @@ ms.locfileid: "62794136"
 
 Visual Studio를 포함하여 다양한 코드 편집기와 IDE에서 EditorConfig 설정이 지원됩니다. 코드를 이용하여 휴대할 수 있는 구성 요소이며 Visual Studio 외부에서도 코딩 스타일을 적용할 수 있습니다.
 
-Visual Studio에서 프로젝트에 EditorConfig 파일을 추가할 때 문서의 서식을 지정(기본 프로필의 **편집** > **고급** > **문서 서식** 또는 **Ctrl**+**K**, **Ctrl**+**D**)하지 않으면 기존 코드의 서식이 변경되지 않습니다. 하지만 새로운 코드 줄은 EditorConfig 설정에 따라 서식이 지정됩니다. **문서 서식**을 [**서식 지정** 옵션 페이지](reference/options-text-editor-csharp-formatting.md#format-document-settings)에 적용하려는 EditorConfig 설정을 정의할 수 있습니다.
+Visual Studio에서 프로젝트에 EditorConfig 파일을 추가할 때 문서의 서식을 지정(기본 프로필의 **편집** > **고급** > **문서 서식** 또는 **Ctrl**+**K**, **Ctrl**+**D**)하지 않으면 기존 코드의 서식이 변경되지 않습니다. 하지만 새로운 코드 줄은 EditorConfig 설정에 따라 서식이 지정됩니다.
+
+::: moniker range="vs-2017"
+
+**문서 서식**을 [**서식 지정** 옵션 페이지](reference/options-text-editor-csharp-formatting.md#format-document-settings)에 적용하려는 EditorConfig 설정을 정의할 수 있습니다.
+
+::: moniker-end
 
 > [!NOTE]
 > 이 토픽은 Windows의 Visual Studio에 적용됩니다. Mac용 Visual Studio는 [Mac용 Visual Studio의 EditorConfig](/visualstudio/mac/editorconfig)를 참조하세요.
@@ -73,7 +79,7 @@ EditorConfig 파일을 프로젝트나 코드베이스에 추가해도 기존 �
 
 1. 다음과 같이 원하는 대로 파일을 편집합니다.
 
-   ```EditorConfig
+   ```ini
    root = true
 
    [*.{cs,vb}]
@@ -104,7 +110,7 @@ EditorConfig 설정의 일부 또는 전부를 재정의하려면 이러한 재�
 
 설정의 전부가 아닌 일부를 재정의하려는 경우 *.editorconfig* 파일에서 해당 설정만 지정하면 됩니다. 하위 수준 파일에 명시적으로 나열된 속성만 재정의됩니다. 상위 수준 *.editorconfig* 파일의 다른 설정은 계속 적용됩니다. _모든_ 상위 수준 *.editorconfig* 파일에서 이 코드베이스 부분에 적용된 설정이 _없음_을 확인하려면 ```root=true``` 속성을 하위 수준 *.editorconfig* 파일에 추가합니다.
 
-```EditorConfig
+```ini
 # top-most EditorConfig file
 root = true
 ```
@@ -135,7 +141,7 @@ EditorConfig 파일을 편집한 후 새 설정을 적용하려면 코드 파일
 
 다음 콘텐츠를 포함하여 *.editorconfig*라는 새 파일을 프로젝트에 추가합니다. `[*.cs]` 설정은 이 변경 내용이 이 프로젝트의 C# 코드 파일에만 적용된다는 것을 의미합니다.
 
-```EditorConfig
+```ini
 # Top-most EditorConfig file
 root = true
 

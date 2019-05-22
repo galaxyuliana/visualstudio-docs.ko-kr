@@ -10,12 +10,12 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: abae34aad980d42018c217e150ea72b5896e436e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 15c4ba33dda8e1e3220d8285e35000061fedd99f
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62816072"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65676723"
 ---
 # <a name="use-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 사용
 
@@ -202,7 +202,7 @@ Visual Studio를 사용하여 다양한 Unity 플레이어의 개발 빌드를 �
 
    PDB 파일은 DLL의 디버깅 기호를 포함하며 DLL 코드를 소스 코드 형태로 매핑하므로 디버깅에 필요합니다. 레거시 런타임을 대상으로 지정하면 Visual Studio Tools for Unity에서는 DLL 및 PDB의 정보를 사용하여 레거시 Unity 스크립팅 엔진에서 사용되는 디버그 기호 형식인 DLL.MDB 파일을 만듭니다. 새 런타임을 대상으로 지정하고 이식 가능한 PDB를 사용하면 새 Unity 런타임이 기본적으로 이식 가능한 PDB를 사용할 수 있으므로 Visual Studio Tools for Unity에서는 기호 변환을 수행하지 않습니다.
    
-   PDB 생성에 대한 자세한 내용은 [여기](https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-set-debug-and-release-configurations?view=vs-2019)에서 확인할 수 있습니다. 새 런타임을 대상으로 지정하는 경우 이식 가능한 PDB를 제대로 생성하려면 “디버깅 정보”가 “이식 가능”으로 설정되어 있는지 확인하세요. 레거시 런타임을 대상으로 지정하는 경우에는 “전체”를 사용해야 합니다.
+   PDB 생성에 대한 자세한 내용은 [여기](https://docs.microsoft.com/visualstudio/debugger/how-to-set-debug-and-release-configurations)에서 확인할 수 있습니다. 새 런타임을 대상으로 지정하는 경우 이식 가능한 PDB를 제대로 생성하려면 “디버깅 정보”가 “이식 가능”으로 설정되어 있는지 확인하세요. 레거시 런타임을 대상으로 지정하는 경우에는 “전체”를 사용해야 합니다.
 
 4. 코드를 디버그합니다. 이제 Unity 프로젝트의 소스 코드와 함께 DLL 소스 코드를 디버그할 수 있으며 중단점 및 단계별 코드 실행 등 익숙한 디버깅 기능을 모두 사용할 수 있습니다.
 
