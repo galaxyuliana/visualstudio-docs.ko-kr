@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Azure 혜택을 활성화하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 2c78f4d88cf42197691fa798af115c16227bd2a1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c47012e0a06c4e4b44833b0f6727d3c7a79fd13c
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62948474"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65685916"
 ---
 # <a name="use-microsoft-azure-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 Microsoft Azure 사용
 
@@ -102,7 +102,7 @@ Microsoft 계정에서 **다른** 구독 수준의 다른 활성 Visual Studio �
 
 구독에 지출 한도가 있고 만료되기 전에 조치를 취하지 않은 경우 Azure 구독의 사용자 Azure 구독을 사용할 수 없습니다. 종량제 상품으로 변환하여 계속 사용하려면 결제 수단을 추가하고 [지출 한도를 제거](/azure/billing/billing-spending-limit/)합니다.
 
-이 Visual Studio Azure 구독을 계속 사용하지 않으려면 언제든지 가상 머신 및 데이터베이스와 같은 리소스를 다른 Azure 구독으로 전송하고 이 구독을 [취소](http://azure.microsoft.com/support/cancel-account/)할 수도 있습니다.
+이 Visual Studio Azure 구독을 계속 사용하지 않으려면 언제든지 가상 머신 및 데이터베이스와 같은 리소스를 다른 Azure 구독으로 전송하고 이 구독을 [취소](https://azure.microsoft.com/support/cancel-account/)할 수도 있습니다.
 
 이 이메일이 잘못되었다고 생각된다면 [Azure 고객 지원팀](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade)으로 문의하세요.
 

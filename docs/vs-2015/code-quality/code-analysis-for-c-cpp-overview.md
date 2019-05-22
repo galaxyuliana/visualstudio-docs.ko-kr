@@ -22,12 +22,12 @@ caps.latest.revision: 27
 author: mikeblome
 ms.author: mblome
 manager: jillfra
-ms.openlocfilehash: bc84b3f89aa819755a689a0798aea7fbb8147510
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.openlocfilehash: fce0fb33f6c536386754b10b11e724a603f0a2a6
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54805639"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65698018"
 ---
 # <a name="code-analysis-for-cc-overview"></a>C/C++용 코드 분석 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ C/C++ 코드 분석 도구는 C/C++ 소스 코드에서 발생할 수 있는 오
  개발자가 분석 도구를 자연스럽게 사용할 수 있도록 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE 내에 분석 도구가 완전히 통합되었습니다. 빌드 프로세스 중 소스 코드에 대해 생성된 모든 경고가 오류 목록에 표시됩니다. 경고를 유발한 소스 코드로 이동할 수 있으며, 문제의 원인과 가능한 해결책에 대한 추가 정보를 볼 수 있습니다.  
   
 ## <a name="pragma-support"></a>#pragma 지원  
- 개발자는 `#pragma` 지시문을 사용하여 경고를 오류로 처리하고, 경고를 설정 또는 해제하고, 개별 코드 줄에 대한 경고를 표시하지 않을 수 있습니다. 자세한 내용은 [방법: 특정 C/C++ 경고에 대한 코드 분석 설정 및 해제](http://msdn.microsoft.com/910b8518-71f1-4b2e-b012-70647795642a).  
+ 개발자는 `#pragma` 지시문을 사용하여 경고를 오류로 처리하고, 경고를 설정 또는 해제하고, 개별 코드 줄에 대한 경고를 표시하지 않을 수 있습니다. 자세한 내용은 [방법: 특정 C/C++ 경고에 대한 코드 분석 설정 및 해제](https://msdn.microsoft.com/910b8518-71f1-4b2e-b012-70647795642a).  
   
 ## <a name="annotation-support"></a>주석 지원  
  주석은 코드 분석의 정확도를 개선합니다. 주석은 함수 매개 변수 및 반환 형식의 사전 및 사후 조건에 대한 추가 정보를 제공합니다. 자세한 내용은 [방법: _analysis_assume을 사용하여 추가 코드 정보 지정](../code-quality/how-to-specify-additional-code-information-by-using-analysis-assume.md)  
@@ -47,7 +47,7 @@ C/C++ 코드 분석 도구는 C/C++ 소스 코드에서 발생할 수 있는 오
  모든 소스 코드 체크 인이 특정 정책에 따라 수행되도록 하는 것이 좋습니다. 특히 해당 분석이 가장 최근의 로컬 빌드 단계로 실행되었는지 확인하는 것이 좋습니다. 코드 분석 체크 인 정책을 사용하도록 설정하는 방법에 대한 자세한 내용은 [코드 분석 체크 인 정책 만들기 및 사용](../code-quality/creating-and-using-code-analysis-check-in-policies.md)을 참조하세요.  
   
 ## <a name="team-build-integration"></a>팀 빌드 통합  
- 빌드 시스템의 통합된 기능을 사용하여 빌드 프로세스의 [!INCLUDE[esprtfs](../includes/esprtfs-md.md)] 단계로 코드 분석 도구를 실행할 수 있습니다. 자세한 내용은 [애플리케이션 빌드](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
+ 빌드 시스템의 통합된 기능을 사용하여 빌드 프로세스의 [!INCLUDE[esprtfs](../includes/esprtfs-md.md)] 단계로 코드 분석 도구를 실행할 수 있습니다. 자세한 내용은 [애플리케이션 빌드](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
   
 ## <a name="command-line-support"></a>명령줄 지원  
  다음 예에 나와 있는 것처럼 개발자는 개발 환경 내에 완전히 통합된 기능 외에 명령줄에서도 분석 도구를 사용할 수 있습니다.  

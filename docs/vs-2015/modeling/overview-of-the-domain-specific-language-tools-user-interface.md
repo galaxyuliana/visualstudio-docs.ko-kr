@@ -13,12 +13,12 @@ caps.latest.revision: 27
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 73d515c03b7966e3434a2fc2507d3ad5f8d13c1b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c75032649e76bb927011c3bb0a34bbcd0a11c55e
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62569114"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65674960"
 ---
 # <a name="overview-of-the-domain-specific-language-tools-user-interface"></a>도메인별 언어 도구 사용자 인터페이스 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,5 +52,5 @@ ms.locfileid: "62569114"
   
 ## <a name="see-also"></a>참고 항목  
  [도메인 특정 언어 도구 개요](../modeling/overview-of-domain-specific-language-tools.md)   
- [도메인 특정 언어 도구 용어집](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)   
+ [도메인 특정 언어 도구 용어집](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)   
  [도메인별 언어 사용자 지정 및 확장](../modeling/customizing-and-extending-a-domain-specific-language.md)

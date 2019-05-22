@@ -7,12 +7,12 @@ ms.date: 10/03/2017
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Microsoft 제품을 찾고 다운로드하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 5aec4ca179f5adc77a01538807ae3498c69964ae
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b0808da563ca37b675bb5f79841db25c40ecf5f7
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62953733"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697777"
 ---
 # <a name="using-subscriber-downloads-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 구독자 다운로드 사용
 구독자 혜택의 일환으로 다양한 소프트웨어 다운로드에 액세스할 수 있습니다.
@@ -31,7 +31,7 @@ ms.locfileid: "62953733"
 - **중복 소프트웨어입니다.** Office 제품군, 독립 실행형 Office 다운로드 및 제품 키 선택은 Office가 포함된 구독에서 더 이상 사용할 수 없습니다. 다운로드 및 제품 키는 동일한 버전의 해당 최상위 Office 제품군에서 사용할 수 있습니다.  예를 들어 PowerPoint 2010을 검색하면 검색 결과가 생성되지 않습니다.  그러나 Office 2010(PowerPoint 2010이 포함된 Office 제품군)을 검색하면 해당 제품군을 다운로드할 수 있습니다.
 
 ## <a name="what-do-i-get"></a>무엇을 얻을 수 있나요?
-다운로드 수와 유형은 구독 수준과 프로그램 멤버 자격에 따라 다릅니다.  예를 들어 Visual Studio Enterprise 표준 구독이 있는 구독자는 Microsoft 파트너 네트워크 또는 BizSpark 프로그램 구독을 통해 구독을 가져오는 구독자와 다른 다운로드를 사용할 수 있습니다.  각 구독 수준에서 사용할 수 있는 다운로드에 대한 자세한 내용은 [혜택 수준별 제품](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Products_by_Benefit_Level.xlsx) 목록을 다운로드하세요.
+다운로드 수와 유형은 구독 수준과 프로그램 멤버 자격에 따라 다릅니다.  예를 들어 Visual Studio Enterprise 표준 구독이 있는 구독자는 Microsoft 파트너 네트워크 또는 BizSpark 프로그램 구독을 통해 구독을 가져오는 구독자와 다른 다운로드를 사용할 수 있습니다.  각 구독 수준에서 사용할 수 있는 다운로드에 대한 자세한 내용은 [혜택 수준별 제품](http://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) 목록을 다운로드하세요.
 
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
 

@@ -16,12 +16,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 3cdd9f0b46c578f713b7f2af2940f4d7742df19a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a5778764bb065ae6da53016c2c9bbb557db20c51
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62557218"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65847374"
 ---
 # <a name="net-coding-convention-settings-for-editorconfig"></a>EditorConfig에 대한 .NET 코딩 규칙 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "62557218"
 
 > [!TIP]
 > - .editorconfig 파일에서 코딩 규칙을 정의할 때 Visual Studio에 빌드된 [코드 스타일 분석기](../code-quality/roslyn-analyzers-overview.md)의 코드 분석 방법을 구성합니다. .editorconfig 파일은 이러한 분석기에 대한 구성 파일입니다.
-> - Visual Studio의 코드 스타일 기본 설정은 [텍스트 편집기 옵션](code-styles-and-quick-actions.md) 대화 상자에서 설정할 수도 있습니다. 하지만 .editorconfig 설정이 먼저 적용되며 **옵션**에서 지정하는 기본 설정은 특정 프로젝트와 연결되어 있지 않습니다.
+> - Visual Studio의 코드 스타일 기본 설정은 [텍스트 편집기 옵션](code-styles-and-code-cleanup.md) 대화 상자에서 설정할 수도 있습니다. 하지만 .editorconfig 설정이 먼저 적용되며 **옵션**에서 지정하는 기본 설정은 특정 프로젝트와 연결되어 있지 않습니다.
 
 이 문서의 끝부분에 [예제 .editorconfig 파일](#example-editorconfig-file)이 있습니다.
 
@@ -239,7 +239,7 @@ AddHandler Elapsed, AddressOf Handler
 
 이러한 규칙은 *.editorconfig* 파일에서 다음과 같이 표시될 수 있습니다.
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_qualification_for_field = false:suggestion
@@ -307,7 +307,7 @@ Dim local = Int32.MaxValue
 
 이러한 규칙은 *.editorconfig* 파일에서 다음과 같이 표시될 수 있습니다.
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
@@ -408,7 +408,7 @@ End Class
 
 이러한 규칙은 *.editorconfig* 파일에서 다음과 같이 표시될 수 있습니다.
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_require_accessibility_modifiers = always:suggestion
@@ -530,7 +530,7 @@ Dim v = a.b.Length
 
 이러한 규칙은 *.editorconfig* 파일에서 다음과 같이 표시될 수 있습니다.
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:silent
@@ -822,7 +822,7 @@ End If
 
 이러한 규칙은 *.editorconfig* 파일에서 다음과 같이 표시될 수 있습니다.
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_object_initializer = true:suggestion
@@ -898,7 +898,7 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 
 이러한 규칙은 *.editorconfig* 파일에서 다음과 같이 표시될 수 있습니다.
 
-```EditorConfig
+```ini
 # CSharp and Visual Basic code style settings:
 [*.{cs,vb}]
 dotnet_style_coalesce_expression = true:suggestion
@@ -968,7 +968,7 @@ bool f = this.Init();
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_var_for_built_in_types = true:suggestion
@@ -1115,7 +1115,7 @@ public int Age { get { return _age; } set { _age = value; } }
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_expression_bodied_methods = false:silent
@@ -1170,7 +1170,7 @@ if (s != null) {...}
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
@@ -1205,7 +1205,7 @@ if (int.TryParse(value, out i) {...}
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_inlined_variable_declaration = true:suggestion
@@ -1287,7 +1287,7 @@ fibonacci = (int n) =>
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_simple_default_expression = true:suggestion
@@ -1339,7 +1339,7 @@ if (func != null) { func(args); }
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_style_throw_expression = true:suggestion
@@ -1373,7 +1373,7 @@ if (test) this.Display();
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_braces = true:silent
@@ -1458,7 +1458,7 @@ using System.Threading.Tasks;
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # .NET formatting settings:
 [*.{cs,vb}]
 dotnet_sort_system_directives_first = true
@@ -1486,7 +1486,7 @@ using Octokit;
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # .NET formatting settings:
 [*.{cs,vb}]
 dotnet_separate_import_directive_groups = true
@@ -1683,7 +1683,7 @@ var q = from a in e from b in e
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp formatting settings:
 [*.cs]
 csharp_new_line_before_open_brace = methods, properties, control_blocks, types
@@ -1832,7 +1832,7 @@ class C
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp formatting settings:
 [*.cs]
 csharp_indent_case_contents = true
@@ -2127,7 +2127,7 @@ void Goo(int x)
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp formatting settings:
 [*.cs]
 csharp_space_after_cast = true
@@ -2190,7 +2190,7 @@ public int MyProperty
 
 예제 *.editorconfig* 파일:
 
-```EditorConfig
+```ini
 # CSharp formatting settings:
 [*.cs]
 csharp_preserve_single_line_statements = true
@@ -2201,7 +2201,7 @@ csharp_preserve_single_line_blocks = true
 
 다음은 시작하는 데 도움이 되는 기본 옵션의 예제 *.editorconfig* 파일입니다.
 
-```EditorConfig
+```ini
 ###############################
 # Core EditorConfig Options   #
 ###############################

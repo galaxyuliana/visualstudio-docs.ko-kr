@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: video
-ms.openlocfilehash: 8b67296dc4ad77977ce6ba0399e9d9b4207e2c7f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9f96354d9e460cebd81f52712f74dc6226f8706d
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62989118"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65697602"
 ---
 # <a name="include-a-nuget-package-in-your-project"></a>프로젝트에 NuGet 패키지 포함
 
@@ -51,7 +51,7 @@ Mac용 Visual Studio에서 프로젝트를 연 상태로 **Solution Pad**의 **�
 
 * **참조** 노드는 NuGet 패키지의 일부인 모든 어셈블리의 목록을 포함합니다.
 * **패키지** 노드는 다운로드한 각 NuGet 패키지를 표시합니다. 이 목록에서 패키지를 업데이트하거나 제거할 수 있습니다.
-* **packages.config** 파일이 프로젝트에 추가됩니다. 이 XML 파일은 이 프로젝트에서 참조하는 패키지 버전을 IDE에서 추적하는 데 사용됩니다. 이 파일은 직접 편집해서는 안 되며, 버전 제어를 통해 보관해야 합니다. packages.config 파일 대신 project.json 파일을 사용할 수 있습니다. project.json 파일은 NuGet 3에 도입된 새로운 패키지 파일 형식으로, 전이적 복원을 지원합니다. project.json에 대한 자세한 내용은 [NuGet 설명서](http://docs.microsoft.com/NuGet/Schema/Project-Json)에서 확인할 수 있습니다. project.json 파일은 수동으로 추가해야 하고 Mac용 Visual Studio에서 project.json 파일을 사용하려면 프로젝트를 닫은 후 다시 열어야 합니다.
+* **packages.config** 파일이 프로젝트에 추가됩니다. 이 XML 파일은 이 프로젝트에서 참조하는 패키지 버전을 IDE에서 추적하는 데 사용됩니다. 이 파일은 직접 편집해서는 안 되며, 버전 제어를 통해 보관해야 합니다. packages.config 파일 대신 project.json 파일을 사용할 수 있습니다. project.json 파일은 NuGet 3에 도입된 새로운 패키지 파일 형식으로, 전이적 복원을 지원합니다. project.json에 대한 자세한 내용은 [NuGet 설명서](https://docs.microsoft.com/NuGet/Schema/Project-Json)에서 확인할 수 있습니다. project.json 파일은 수동으로 추가해야 하고 Mac용 Visual Studio에서 project.json 파일을 사용하려면 프로젝트를 닫은 후 다시 열어야 합니다.
 
 ## <a name="using-nuget-packages"></a>NuGet 패키지 사용하기
 

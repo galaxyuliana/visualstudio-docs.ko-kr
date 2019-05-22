@@ -1,11 +1,11 @@
 ---
 ms.topic: include
 ms.openlocfilehash: 47c390fbc7a6f84c25d4bde0317985bd149cae2f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62429093"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65845818"
 ---
 1. Visual Studio를 시작하고 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
