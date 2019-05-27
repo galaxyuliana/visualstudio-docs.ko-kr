@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 887002086b50198ba192bde3f19390d3267a5c9d
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 7e00147917a1f06d2f661098686bd85a854c0670
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457333"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212005"
 ---
 # <a name="idebugproviderprogramnode2unmarshaldebuggeeinterface"></a>IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 프로세스 경계를 넘어 지정된 된 인터페이스를 가져옵니다.
@@ -42,13 +42,11 @@ int UnmarshalDebuggeeInterface(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `riid`\
+`riid`\
+[in] 가져올 인터페이스의 GUID입니다.
 
- [in] 가져올 인터페이스의 GUID입니다.
-
- `ppvObject`\
-
- [out] 원하는 인터페이스를 구현 하는 개체를 반환 합니다. [C++]이 원하는 인터페이스 형식에 직접 캐스팅 될 수 있습니다. [C#]를 사용 합니다 <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> 원하는 인터페이스를 가져올 방법.
+`ppvObject`\
+[out] 원하는 인터페이스를 구현 하는 개체를 반환 합니다. [C++]이 원하는 인터페이스 형식에 직접 캐스팅 될 수 있습니다. [C#]를 사용 합니다 <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> 원하는 인터페이스를 가져올 방법.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

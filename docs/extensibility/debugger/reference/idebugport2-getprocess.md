@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 64d165fedf791e26cf291ed4b6255de81873953a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: b0e9ac6654748e05781db6967b93e3d3b4068d61
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62871818"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66209115"
 ---
 # <a name="idebugport2getprocess"></a>IDebugPort2::GetProcess
 지정 된 포트에서 실행 중인 프로세스를 가져옵니다.
@@ -38,19 +41,17 @@ int GetProcess( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ProcessId`
+## <a name="parameters"></a>매개 변수
+`ProcessId`\
+[in] [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) 프로세스 식별자를 지정 하는 구조입니다.
 
- [in] [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) 프로세스 식별자를 지정 하는 구조입니다.
-
- `ppProcess`
-
- [out] 반환 된 [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) 프로세스를 나타내는 개체입니다.
+`ppProcess`\
+[out] 반환 된 [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) 프로세스를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md)

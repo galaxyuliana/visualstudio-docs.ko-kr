@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4bd4a1a93a1dd7e4049efd886d5eca1f292d561b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: e284565ad4e30a4a7aa766ea7150b02281aad3ed
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876739"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66206480"
 ---
 # <a name="idebugcomplussymbolprovidergetattributedclassesinmodule"></a>IDebugComPlusSymbolProvider::GetAttributedClassesinModule
 지정 된 모듈의 지정된 된 특성을 사용 하 여 클래스를 검색합니다.
@@ -41,22 +44,18 @@ int GetAttributedClassesinModule (
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`ulAppDomainID`
+## <a name="parameters"></a>매개 변수
+`ulAppDomainID`\
+[in] 응용 프로그램 도메인의 식별자입니다.
 
- [in] 응용 프로그램 도메인의 식별자입니다.
+`guidModule`\
+[in] 모듈의 고유 식별자입니다.
 
-`guidModule`
+`pstrAttribute`\
+[in] 특성 문자열입니다.
 
- [in] 모듈의 고유 식별자입니다.
-
-`pstrAttribute`
-
- [in] 특성 문자열입니다.
-
-`ppEnum`
-
- [out] 특성이 정의 된 클래스의 열거형을 반환 합니다.
+`ppEnum`\
+[out] 특성이 정의 된 클래스의 열거형을 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -152,5 +151,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

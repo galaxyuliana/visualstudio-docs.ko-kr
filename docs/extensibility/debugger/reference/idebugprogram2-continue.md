@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fd13d67917a395eb33e26a53e0db1fed7340c9c6
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: b0b92f5b3c1e60c58bebb21fde5612e4fffc0340
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412851"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66200424"
 ---
 # <a name="idebugprogram2continue"></a>IDebugProgram2::Continue
 중지 된 상태에서이 프로그램 실행을 계속 합니다. 이전 실행 상태 (예: 단계)은 유지, 프로그램이 다시 실행을 시작 하 고 있습니다.
@@ -39,10 +42,8 @@ int Continue( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pThread`
-
- [in] [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) 스레드를 나타내는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`pThread` [in] [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) 스레드를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -53,6 +54,6 @@ int Continue( 
 > [!WARNING]
 > Stopping 이벤트 또는 직접 (동기) 이벤트를 전송 하지 마십시오 [이벤트](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) 이 호출을 처리 하는 동안 그렇지 않은 경우 디버거가 중단 될 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

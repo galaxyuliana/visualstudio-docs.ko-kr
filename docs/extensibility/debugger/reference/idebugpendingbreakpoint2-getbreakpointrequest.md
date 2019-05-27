@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 31c49f81fc28420dc95cc2c263d4bba41d6c041b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: c753df9d2acb24dbb0950158ebf2dd399b8d24a9
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62842732"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66209569"
 ---
 # <a name="idebugpendingbreakpoint2getbreakpointrequest"></a>IDebugPendingBreakpoint2::GetBreakpointRequest
 이 보류 중인 중단점을 만드는 데 사용한 중단점 요청을 가져옵니다.
@@ -37,14 +40,13 @@ int GetBreakpointRequest( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppBPRequest`
-
- [out] 반환 된 [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) 중단점 보류 중인이 만드는 데 사용한 중단점 요청을 나타내는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`ppBPRequest`\
+[out] 반환 된 [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) 중단점 보류 중인이 만드는 데 사용한 중단점 요청을 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 중단점 삭제 된 경우.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)

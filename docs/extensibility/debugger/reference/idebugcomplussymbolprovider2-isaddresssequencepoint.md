@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dc56d0bda7d8b1797c29db6c2e72a5efc3d586d2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: e2ebf5c3a27f29b580088b891b3e0d4260aba447
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876406"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205926"
 ---
 # <a name="idebugcomplussymbolprovider2isaddresssequencepoint"></a>IDebugComPlusSymbolProvider2::IsAddressSequencePoint
 지정 된 디버그 주소 시퀀스 위치를 결정 합니다.
@@ -35,10 +38,9 @@ int IsAddressSequencePoint(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pAddress`
-
- [in] 디버그 하 여 표시 되는 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
+## <a name="parameters"></a>매개 변수
+`pAddress`\
+[in] 디버그 하 여 표시 되는 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
 디버그 주소 시퀀스 포인트가 이면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE`합니다.
@@ -84,5 +86,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

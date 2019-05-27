@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c570c7afe8721c757bae9352f70361d5b6cf392a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: c884d9ac404aecfa2edaadb2949ce0556da01bfe
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62921990"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205578"
 ---
 # <a name="idebugcoreserver3createinstanceinserver"></a>IDebugCoreServer3::CreateInstanceInServer
 서버에서 디버그 엔진의 인스턴스를 만듭니다.
@@ -44,30 +47,25 @@ int CreateInstanceInServer(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `szDll`
+## <a name="parameters"></a>매개 변수
+`szDll`\
+[in] 에 지정 된 CLSID를 구현 하는 dll에 대 한 경로 `clsidObject` 매개 변수입니다. 이것이 `NULL`, 다음 COM의 `CoCreateInstance` 함수를 호출 합니다.
 
- [in] 에 지정 된 CLSID를 구현 하는 dll에 대 한 경로 `clsidObject` 매개 변수입니다. 이것이 `NULL`, 다음 COM의 `CoCreateInstance` 함수를 호출 합니다.
+`wLangId`\
+[in] 디버그 엔진의 로캘입니다. 이 경우 0를 수 있습니다 합니다 [SetLocale](../../../extensibility/debugger/reference/idebugengine2-setlocale.md) 메서드를 호출 해야 합니다.
 
- `wLangId`
+`clsidObject`\
+[in] 만들려는 디버그 엔진의 CLSID입니다.
 
- [in] 디버그 엔진의 로캘입니다. 이 경우 0를 수 있습니다 합니다 [SetLocale](../../../extensibility/debugger/reference/idebugengine2-setlocale.md) 메서드를 호출 해야 합니다.
+`riid`\
+[in] 클래스 개체에서 검색할 특정 인터페이스의 인터페이스 ID입니다.
 
- `clsidObject`
-
- [in] 만들려는 디버그 엔진의 CLSID입니다.
-
- `riid`
-
- [in] 클래스 개체에서 검색할 특정 인터페이스의 인터페이스 ID입니다.
-
- `ppvObject`
-
- [out] `IUnknown` 인스턴스화된 개체의 인터페이스입니다. 캐스트 또는이 개체는 원하는 인터페이스를 마샬링하십시오.
+`ppvObject`\
+[out] `IUnknown` 인스턴스화된 개체의 인터페이스입니다. 캐스트 또는이 개체는 원하는 인터페이스를 마샬링하십시오.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCoreServer3](../../../extensibility/debugger/reference/idebugcoreserver3.md)
 - [SetLocale](../../../extensibility/debugger/reference/idebugengine2-setlocale.md)

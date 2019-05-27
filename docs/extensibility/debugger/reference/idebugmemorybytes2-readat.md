@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f787ad06b4e7d612007b6448287b5062ae1b0efd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: a8b93aa895588f743f4cc7c6b6adfa207590936d
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62873313"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66210566"
 ---
 # <a name="idebugmemorybytes2readat"></a>IDebugMemoryBytes2::ReadAt
 지정된 된 위치에서 시작 하는 바이트 시퀀스를 읽습니다.
@@ -45,26 +48,21 @@ int ReadAt(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pStartContext`
+## <a name="parameters"></a>매개 변수
+`pStartContext`\
+[in] 합니다 [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) 바이트를 읽기 시작할 위치를 지정 하는 개체입니다.
 
- [in] 합니다 [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) 바이트를 읽기 시작할 위치를 지정 하는 개체입니다.
+`dwCount`\
+[in] 읽을 바이트 수입니다. 또한의 길이 지정 된 `rgbMemory` 배열입니다.
 
- `dwCount`
+`rgbMemory`\
+[out에서] 실제로 읽은 바이트를 사용 하 여 입력 하는 배열입니다.
 
- [in] 읽을 바이트 수입니다. 또한의 길이 지정 된 `rgbMemory` 배열입니다.
+`pdwRead`\
+[out] 실제로 읽은 연속 된 바이트 수를 반환 합니다.
 
- `rgbMemory`
-
- [out에서] 실제로 읽은 바이트를 사용 하 여 입력 하는 배열입니다.
-
- `pdwRead`
-
- [out] 실제로 읽은 연속 된 바이트 수를 반환 합니다.
-
- `pdwUnreadable`
-
- [out에서] 읽을 수 없는 바이트 수를 반환합니다. 클라이언트가 읽을 수 없는 바이트 수를 원하는 경우 null 값이 될 수 있습니다.
+`pdwUnreadable`\
+[out에서] 읽을 수 없는 바이트 수를 반환합니다. 클라이언트가 읽을 수 없는 바이트 수를 원하는 경우 null 값이 될 수 있습니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -78,6 +76,6 @@ int ReadAt(
 
  이 경우 때문에 `*pdwRead + *pdwUnreadable < dwCount`를 호출자에 게 요청 된 원래 100의 나머지 30 바이트 읽기를 추가로 호출 해야 합니다. 및 [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) 전달 된 개체는 `pStartContext` 매개 변수 이동 70입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)
 - [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

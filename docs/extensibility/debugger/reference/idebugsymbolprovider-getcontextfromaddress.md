@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 62c24adcc94b6dff82d3529658b563f811745c28
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: a7697f22dc6c40b9b4e3de08bf6f27f0ed459482
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226546"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66207204"
 ---
 # <a name="idebugsymbolprovidergetcontextfromaddress"></a>IDebugSymbolProvider::GetContextFromAddress
 이 메서드는 문서 컨텍스트에 디버그 주소를 매핑합니다.
@@ -42,13 +42,11 @@ int GetContextFromAddress(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pAddress`\
+`pAddress`\
+[in] 에 표시 된 대로 디버그 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
 
- [in] 에 표시 된 대로 디버그 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
-
- `ppDocContext`\
-
- [out] 에 표시 된 대로 문서 컨텍스트를 반환 합니다는 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 인터페이스입니다.
+`ppDocContext`\
+[out] 에 표시 된 대로 문서 컨텍스트를 반환 합니다는 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

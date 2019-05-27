@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4a67286b4732436c2a680e13e90740ca9faff299
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 9824eb198a491e537500de23b03a2f218767200d
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62842765"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66209500"
 ---
 # <a name="idebugpendingbreakpoint2setcondition"></a>IDebugPendingBreakpoint2::SetCondition
 설정 하거나 연결 된 보류 중인 중단점 조건을 변경 합니다.
@@ -37,10 +40,9 @@ int SetCondition( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `bpCondition`
-
- [in] A [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) 설정 하는 조건을 지정 하는 구조입니다.
+## <a name="parameters"></a>매개 변수
+`bpCondition`\
+[in] A [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md) 설정 하는 조건을 지정 하는 구조입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -48,6 +50,6 @@ int SetCondition( 
 ## <a name="remarks"></a>설명
  보류 중인 중단점을 사용 하 여 이전에 연관 된 모든 상태는 손실 됩니다. 중단점 보류 중인이 바인딩된 모든 중단점 해당 조건에 지정 된 값으로 설정 하기 위해 호출 되는 `bpCondition` 매개 변수입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [BP_CONDITION](../../../extensibility/debugger/reference/bp-condition.md)

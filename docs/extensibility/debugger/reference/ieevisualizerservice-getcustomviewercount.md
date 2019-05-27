@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 750094cef6e207ef1a77196dab53b28ebdc7838b
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: e48124f8b53c402bb8e4b352a8abb141b0da43ba
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65223650"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203679"
 ---
 # <a name="ieevisualizerservicegetcustomviewercount"></a>IEEVisualizerService::GetCustomViewerCount
 이 메서드는이 서비스에서 사용할 수 있는 형식 시각화 도우미의 수를 가져옵니다.
@@ -40,9 +40,8 @@ int GetCustomViewerCount(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pcelt`\
-
- [out] 사용 가능한 형식 시각화 도우미를 반환합니다.
+`pcelt`\
+[out] 사용 가능한 형식 시각화 도우미를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

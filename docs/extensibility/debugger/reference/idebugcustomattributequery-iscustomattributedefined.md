@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8a907d6460a9bf31e501ed4c2239cb31112a39f5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: d3afa7f2500d891de314df20fc0ed034c62dfe1a
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876039"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205243"
 ---
 # <a name="idebugcustomattributequeryiscustomattributedefined"></a>IDebugCustomAttributeQuery::IsCustomAttributeDefined
 지정된 된 사용자 지정 특성은 정의 된 경우를 결정 합니다.
@@ -35,10 +38,9 @@ int IsCustomAttributeDefined(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pszCustomAttributeName`
-
- [in] 사용자 지정 특성의 이름입니다.
+## <a name="parameters"></a>매개 변수
+`pszCustomAttributeName`\
+[in] 사용자 지정 특성의 이름입니다.
 
 ## <a name="return-value"></a>반환 값
 사용자 지정 특성에 정의 된 경우 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE`합니다.
@@ -83,5 +85,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)

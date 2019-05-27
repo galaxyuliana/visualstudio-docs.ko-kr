@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ba458d72fe12ce402129f60059347cb28b102686
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 9835275df1f332e69b13d886ab79d68588699e9d
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876384"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205824"
 ---
 # <a name="idebugcomplussymbolprovider2loadsymbolswithcormodule"></a>IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
 로드는 지정 된 기호를 디버그 합니다 **ICorDebugModule** 개체입니다.
@@ -47,34 +50,27 @@ int LoadSymbolsWithCorModule(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`ulAppDomainID`
+## <a name="parameters"></a>매개 변수
+`ulAppDomainID`\
+[in] 응용 프로그램 도메인의 식별자입니다.
 
- [in] 응용 프로그램 도메인의 식별자입니다.
+`guidModule`\
+[in] 모듈의 고유 식별자입니다.
 
-`guidModule`
+`baseAddress`\
+[in] 기본 메모리 주소입니다.
 
- [in] 모듈의 고유 식별자입니다.
+`pUnkMetadataImport`\
+[in] 디버그 기호 메타 데이터가 포함 된 개체입니다.
 
-`baseAddress`
+`pUnkCorDebugModule`\
+[in] 구현 하는 개체를 [ICorDebugModule 인터페이스](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface)합니다.
 
- [in] 기본 메모리 주소입니다.
+`bstrModuleName`\
+[in] 모듈의 이름입니다.
 
-`pUnkMetadataImport`
-
- [in] 디버그 기호 메타 데이터가 포함 된 개체입니다.
-
-`pUnkCorDebugModule`
-
- [in] 구현 하는 개체를 [ICorDebugModule 인터페이스](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface)합니다.
-
-`bstrModuleName`
-
- [in] 모듈의 이름입니다.
-
-`bstrSymSearchPath`
-
- [in] 기호 파일을 검색할 경로입니다.
+`bstrSymSearchPath`\
+[in] 기호 파일을 검색할 경로입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -174,5 +170,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

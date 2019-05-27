@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9048dc633dd9cc74a9d27c54ff9b0fba16cc7ac1
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: c9e660e27397c530d4ef06c8ddfa3312ee4888cb
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458976"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203721"
 ---
 # <a name="idebugprogramprovider2watchforproviderevents"></a>IDebugProgramProvider2::WatchForProviderEvents
 프로세스를 포트 이벤트의 알림을 받을 수 있습니다.
@@ -50,9 +50,8 @@ int WatchForProviderEvents(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `Flags`\
-
- [in] 플래그의 조합 된 [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) 열거형입니다. 이 호출에 대 한 일반 플래그는 다음과 같습니다.
+`Flags`\
+[in] 플래그의 조합 된 [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) 열거형입니다. 이 호출에 대 한 일반 플래그는 다음과 같습니다.
 
 |플래그|설명|
 |----------|-----------------|
@@ -61,25 +60,20 @@ int WatchForProviderEvents(
 |`PFLAG_ATTACHED_TO_DEBUGGEE`|호출자에 연결 되었지만 디버거에서 실행 되지 않습니다.|
 |`PFLAG_REASON_WATCH`|호출자는 이벤트를 조사 하려고 합니다. 이 플래그를 설정 하지 않으면. 그런 다음 콜백 이벤트 제거 되 고 호출자에 게는 더 이상 알림을 받습니다.|
 
- `pPort`\
+`pPort`\
+[in] 포트는 호출 프로세스에서 실행 됩니다.
 
- [in] 포트는 호출 프로세스에서 실행 됩니다.
+`processId`\
+[in] [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) 구조에서 해당 프로그램을 포함 하는 프로세스의 ID를 보유 합니다.
 
- `processId`\
+`EngineFilter`\
+[in] 디버그 엔진 프로세스에 연결 된 Guid의 배열입니다.
 
- [in] [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) 구조에서 해당 프로그램을 포함 하는 프로세스의 ID를 보유 합니다.
+`guidLaunchingEngine`\
+[in] \(있는 경우)이이 프로세스를 시작 하는 디버그 엔진의 GUID입니다.
 
- `EngineFilter`\
-
- [in] 디버그 엔진 프로세스에 연결 된 Guid의 배열입니다.
-
- `guidLaunchingEngine`\
-
- [in] \(있는 경우)이이 프로세스를 시작 하는 디버그 엔진의 GUID입니다.
-
- `pEventCallback`\
-
- [in] [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) 이벤트 알림을 받는 개체입니다.
+`pEventCallback`\
+[in] [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) 이벤트 알림을 받는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

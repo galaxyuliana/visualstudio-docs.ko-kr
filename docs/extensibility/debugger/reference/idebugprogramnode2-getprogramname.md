@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c3afc604d1470b994dac977b3a176ee855ad4a76
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: dc941f0bf88a6e41b81bfdbf6f6c948c34e8e477
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65459046"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203813"
 ---
 # <a name="idebugprogramnode2getprogramname"></a>IDebugProgramNode2::GetProgramName
 프로그램의 이름을 가져옵니다.
@@ -41,8 +41,7 @@ int GetProgramName (
 
 ## <a name="parameters"></a>매개 변수
 `pbstrProgramName`\
-
- [out] 프로그램의 이름을 반환합니다.
+[out] 프로그램의 이름을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

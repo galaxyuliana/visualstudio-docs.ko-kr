@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 60341aa39a61f7179d0b913ec78aca10fae5b84c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: f255d509d69741dd99c9f6dac3ce298d7e5fa0bd
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62921674"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205300"
 ---
 # <a name="idebugcustomattributequerygetcustomattributebyname"></a>IDebugCustomAttributeQuery::GetCustomAttributeByName
 이름이 지정 된 사용자 지정 특성을 검색 합니다.
@@ -39,18 +42,15 @@ int GetCustomAttributeByName(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pszCustomAttributeName`
+## <a name="parameters"></a>매개 변수
+`pszCustomAttributeName`\
+[in] 사용자 지정 특성의 이름입니다.
 
- [in] 사용자 지정 특성의 이름입니다.
-
-`ppBlob`
-
+`ppBlob`\
 [out에서] 사용자 지정 특성 데이터가 포함 된 바이트 배열입니다.
 
-`pdwLen`
-
- [out] 바이트의 길이 `ppBlob` 매개 변수입니다.
+`pdwLen`\
+[out] 바이트의 길이 `ppBlob` 매개 변수입니다.
 
 ## <a name="return-value"></a>반환 값
 성공하면 `S_OK`를 반환합니다. 사용자 지정 특성이 없으면 반환 `S_FALSE`합니다. 그러지 않으면 오류 코드가 반환됩니다.
@@ -93,5 +93,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCustomAttributeQuery](../../../extensibility/debugger/reference/idebugcustomattributequery.md)

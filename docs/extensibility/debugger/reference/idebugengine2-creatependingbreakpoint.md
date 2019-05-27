@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 72719a2dc6d424487c0fdd6b5850ff7f1d1e29aa
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: b45571e1d2d796c0b37c592cf1461b60e0f28186
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62920886"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66207701"
 ---
 # <a name="idebugengine2creatependingbreakpoint"></a>IDebugEngine2::CreatePendingBreakpoint
 디버그 엔진 (DE)에서 보류 중인 중단점을 만듭니다.
@@ -38,14 +41,12 @@ int CreatePendingBreakpoint(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pBPRequest`
+## <a name="parameters"></a>매개 변수
+`pBPRequest`\
+[in] [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) 만들려면 보류 중인 중단점을 설명 하는 개체입니다.
 
- [in] [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) 만들려면 보류 중인 중단점을 설명 하는 개체입니다.
-
-`ppPendingBP`
-
- [out] 반환 된 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 보류 중인 중단점을 나타내는 개체입니다.
+`ppPendingBP`\
+[out] 반환 된 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 보류 중인 중단점을 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 일반적으로 반환 합니다 `E_FAIL` 경우는 `pBPRequest` 매개 변수는 DE 경우를 지 원하는 모든 언어에 맞지 않습니다를 `pBPRequest` 매개 변수가 잘못 되었거나 완전 하지 않습니다.
@@ -71,7 +72,7 @@ HRESULT CProgram::CreatePendingBreakpoint(IDebugBreakpointRequest2* pBPRequest, 
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)
 - [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)
