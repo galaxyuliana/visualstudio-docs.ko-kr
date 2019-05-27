@@ -1,5 +1,5 @@
 ---
-title: 패키징 및 배포 프로젝트 항목에는 정보 제공 | Microsoft Docs
+title: 프로젝트 항목에 패키징 및 배포 정보
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -24,12 +24,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4b2bf1fc1b011b79fdd8123218a78ac91a14579b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a9af945ff377b30925a51875db205bcd882f4585
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62550503"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177704"
 ---
 # <a name="provide-packaging-and-deployment-information-in-project-items"></a>프로젝트 항목에 패키징 및 배포 정보를 제공 합니다.
   모든 SharePoint 프로젝트 항목 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 프로젝트는 SharePoint에 배포 될 때 추가 데이터를 제공 하는 데 사용할 수 있는 속성이 있습니다. 속성은 다음과 같습니다.
@@ -57,7 +57,7 @@ ms.locfileid: "62550503"
 
  모든 프로젝트 항목 동일 기능 속성 값은 기능 매니페스트에서 함께 병합 됩니다. 그러나 일치 하지 않는 값을 사용 하 여 동일한 기능 속성 키를 지정 하는 두 개의 다른 프로젝트 항목, 유효성 검사 오류가 발생 합니다.
 
- 기능 속성 기능 파일을 직접 추가할 수 (*.feature*)를 호출 합니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 개체 모델 메서드 <xref:Microsoft.VisualStudio.SharePoint.Features.IPropertyCollection.Add%2A>합니다. 이 메서드를 사용 하는 경우 기능 파일에 직접 추가 하는 속성에도 기능 속성에 동일한 기능 속성 값을 추가 하는 방법에 대 한 동일한 규칙이 적용 되도록 주의 합니다.
+ 기능 속성 기능 파일을 직접 추가할 수 ( *.feature*)를 호출 합니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 개체 모델 메서드 <xref:Microsoft.VisualStudio.SharePoint.Features.IPropertyCollection.Add%2A>합니다. 이 메서드를 사용 하는 경우 기능 파일에 직접 추가 하는 속성에도 기능 속성에 동일한 기능 속성 값을 추가 하는 방법에 대 한 동일한 규칙이 적용 되도록 주의 합니다.
 
 ## <a name="feature-receiver"></a>기능 수신기
  기능 수신기는 프로젝트 항목에 특정 이벤트가 발생할 때 실행 되는 코드의 기능을 포함 합니다. 예를 들어, 기능을 설치, 활성화 또는 업그레이드할 때 실행 되는 기능 수신기를 정의할 수 있습니다. 에 설명 된 대로 기능에 직접 추가 하는 기능 수신기를 추가 하는 한 가지 방법은 [연습: 기능 이벤트 수신자 추가](../sharepoint/walkthrough-add-feature-event-receivers.md)합니다. 기능 수신기 클래스 이름 및 어셈블리에서 참조 하는 두 번째 방법은 합니다 **기능 수신기** 속성입니다.
@@ -68,7 +68,7 @@ ms.locfileid: "62550503"
 ### <a name="reference-method"></a>Reference 메서드
  기능 수신기를 추가 하는 또 다른 방법은 사용 하는 것은 **기능 수신기** 기능 수신기 어셈블리를 참조 하려면 프로젝트 항목의 속성입니다. 기능 수신기 속성 값에는 두 가지 하위에 있습니다. **어셈블리** 하 고 **클래스 이름**합니다. 해당 정규화 된 어셈블리를 사용 해야 합니다 "강력한" 이름과 클래스 이름에는 전체 형식 이름 이어야 합니다. 자세한 내용은 [강력한 이름의 어셈블리](http://go.microsoft.com/fwlink/?LinkID=169573)를 참조하세요. SharePoint에 솔루션을 배포한 후 기능 참조 된 기능 수신기를 사용 하 여 기능 이벤트를 처리 합니다.
 
- 솔루션 빌드 시간에 기능을 기능에 받는 사람 속성 값 및 해당 프로젝트가 SharePoint 솔루션의 기능 매니페스트에서 Feature 요소에 ReceiverAssembly와 ReceiverClass 속성을 설정 하려면 병합 (*.wsp* ) 파일입니다. 따라서 어셈블리 이름과 클래스의 속성 값을 프로젝트 항목 및 기능을 모두 지정한 경우 프로젝트 항목 및 기능 속성 값이 일치 해야 합니다. 값이 일치 하지 않는 경우 유효성 검사 오류를 받게 됩니다. 프로젝트 항목을 하려는 경우 해당 기능은 아닌 다른 기능 수신기 어셈블리 참조를 사용 하 여, 다른 기능으로 이동 합니다.
+ 솔루션 빌드 시간에 기능을 기능에 받는 사람 속성 값 및 해당 프로젝트가 SharePoint 솔루션의 기능 매니페스트에서 Feature 요소에 ReceiverAssembly와 ReceiverClass 속성을 설정 하려면 병합 ( *.wsp* ) 파일입니다. 따라서 어셈블리 이름과 클래스의 속성 값을 프로젝트 항목 및 기능을 모두 지정한 경우 프로젝트 항목 및 기능 속성 값이 일치 해야 합니다. 값이 일치 하지 않는 경우 유효성 검사 오류를 받게 됩니다. 프로젝트 항목을 하려는 경우 해당 기능은 아닌 다른 기능 수신기 어셈블리 참조를 사용 하 여, 다른 기능으로 이동 합니다.
 
  패키지에 자체 어셈블리 파일 포함 해야 서버에 설치 되지 않은 기능 수신기 어셈블리를을 참조 하는 경우 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 를 추가 하지 않습니다. 어셈블리 파일 시스템의 복사할 기능을 배포할 때 [!INCLUDE[TLA#tla_gac](../sharepoint/includes/tlasharptla-gac-md.md)] 또는 SharePoint 실제 디렉터리의 Bin 폴더입니다. 자세한 내용은 방법: [방법: 추가 어셈블리 추가 및 제거](../sharepoint/how-to-add-and-remove-additional-assemblies.md)합니다.
 

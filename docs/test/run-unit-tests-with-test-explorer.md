@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fa24dedd776a0866d5de23fbacd31b32c2d55145
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f151b722b1425024ac2abe81f6d873bf10b01628
+ms.sourcegitcommit: 0ef51e3517436a85cfb85bf492722d566ce602c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62946089"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65934500"
 ---
 # <a name="run-unit-tests-with-test-explorer"></a>테스트 탐색기를 사용하여 단위 테스트 실행
 
@@ -58,7 +58,7 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 |![빌드 후 실행](../test/media/ute_runafterbuild_btn.png)|각 로컬 빌드 후에 단위 테스트를 실행하려면 표준 메뉴에서 **테스트**를 선택한 다음, **테스트 탐색기** 도구 모음에서 **빌드 후 테스트 실행**을 선택합니다.|
 
 > [!NOTE]
-> 각 빌드 후에 단위 테스트를 실행하려면 Visual Studio Enterprise 버전이 필요합니다.
+> 각 빌드 후에 단위 테스트를 실행하려면 Visual Studio 2017 Enterprise 또는 Visual Studio 2019가 필요합니다. Visual Studio 2019의 경우 Enterprise 뿐만 아니라 Community 및 Professional에도 포함되었습니다.
 
 ## <a name="view-test-results"></a>테스트 결과 보기
 
@@ -200,7 +200,7 @@ Visual Studio 코드 검사 도구를 사용하여 실제로 단위 테스트를
 
 솔루션에서 테스트 메서드에 대한 코드 검사를 실행하려면
 
-1. Visual Studio 메뉴에서 **테스트** 를 선택한 다음 **코드 검사 분석**을 선택합니다.
+1. 메뉴 모음에서 **테스트**를 선택한 다음, **코드 검사 분석**을 선택합니다.
 
 2. 하위 메뉴에서 다음 명령 중 하나를 선택합니다.
 

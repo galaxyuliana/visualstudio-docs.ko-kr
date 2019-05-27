@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e5bcbfe60284cb254054e66b9e03b5e0e31ce4b1
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 87818a12945e76f68ba3b96a7f90c38640a0aa39
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65224121"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199248"
 ---
 # <a name="ieedatastoragegetsize"></a>IEEDataStorage::GetSize
 이 개체에 포함 된 바이트 수를 반환 합니다.
@@ -40,9 +40,8 @@ int GetSize(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `size`\
-
- [out] 이 개체에 포함 된 바이트 수입니다.
+`size`\
+[out] 이 개체에 포함 된 바이트 수입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ba770dec92054f68c3cb95433d2a2c83bdb37bce
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 4b9534c144ae08a6fa5791518fea7d463819140b
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457460"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212952"
 ---
 # <a name="idebugreference2getderivedmostreference"></a>IDebugReference2::GetDerivedMostReference
 참조의 가장 많이 파생 참조를 가져옵니다. 나중에 사용하기 위해 예약되어 있습니다.
@@ -40,9 +40,8 @@ int GetDerivedMostReference( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `ppDerivedMost`\
-
- [out] 반환 된 [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) 가장 많이 파생 속성을 나타내는 개체입니다.
+`ppDerivedMost`\
+[out] 반환 된 [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) 가장 많이 파생 속성을 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  항상 `E_NOTIMPL`를 반환합니다.

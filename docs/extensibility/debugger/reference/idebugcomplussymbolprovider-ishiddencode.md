@@ -10,12 +10,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b0c9ef5f6000d3d8b3e446dddc460928e6bf626b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 12e2acecb92bece536824c4fe64213cbe4e768ea
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876588"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66206172"
 ---
 # <a name="idebugcomplussymbolproviderishiddencode"></a>IDebugComPlusSymbolProvider::IsHiddenCode
 지정한 디버거 주소의 코드 숨겨지는지 여부를 결정 합니다.
@@ -34,10 +37,9 @@ int IsHiddenCode(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pAddress`
-
- [in] 가 나타낸 디버그 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
+## <a name="parameters"></a>매개 변수
+`pAddress`\
+[in] 가 나타낸 디버그 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
 코드는 숨겨져 있는 경우 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE`합니다.
@@ -90,5 +92,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

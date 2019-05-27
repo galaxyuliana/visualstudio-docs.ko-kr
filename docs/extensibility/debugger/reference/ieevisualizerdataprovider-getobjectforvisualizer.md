@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 08fd3c2d82e3e2bef3098770fdfbcf7cdfe95f7c
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: a7818e6f8d56faf0a242b8dddf68fe7bffa24d0a
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65224030"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212976"
 ---
 # <a name="ieevisualizerdataprovidergetobjectforvisualizer"></a>IEEVisualizerDataProvider::GetObjectForVisualizer
 이 메서드는이 시각화 도우미를 나타내는 개체를 가져옵니다.
@@ -40,9 +40,8 @@ int GetObjectForVisualizer(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `ppObject`\
-
- [out] 이 시각화 도우미에서 표시 하는 개체
+`ppObject`\
+[out] 이 시각화 도우미에서 표시 하는 개체
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

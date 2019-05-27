@@ -1,18 +1,18 @@
 ---
 title: C++에 대한 Microsoft 단위 테스트 프레임워크 사용
-ms.date: 05/01/2019
+ms.date: 05/20/2019
 ms.topic: conceptual
 ms.author: mblome
 manager: markl
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: 607956b93014fd1058f4a43ea17f6ba341752222
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 56ed33ed5fa769a3bf830bcb2f57264c1a9ff531
+ms.sourcegitcommit: 0ef51e3517436a85cfb85bf492722d566ce602c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65461475"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65934482"
 ---
 # <a name="use-the-microsoft-unit-testing-framework-for-c-in-visual-studio"></a>Visual Studio에서 Microsoft Unit Testing Framework for C++ 사용
 
@@ -30,16 +30,16 @@ DLL에서 내보내지 않은 함수 테스트 등, 일부 경우에는 테스�
 
    1. **솔루션 탐색기**에서 테스트하는 프로그램에 대한 프로젝트 노드를 마우스 오른쪽 단추로 클릭한 다음, **속성** > **구성 속성** > **VC++ 디렉터리**를 선택합니다.
 
-   2. 다음 행에서 아래쪽 화살표를 클릭하고 **\<Edit>** 를 선택합니다.
+   2. 다음 행에서 아래쪽 화살표를 클릭하고 **\<편집>** 을 선택합니다. 이 경로를 추가합니다.
 
       | 디렉터리 | 속성 |
       |-| - |
-      | **포함 디렉터리** | **$(VCInstallDir)UnitTest\include;$(IncludePath)** |
-      | **라이브러리 디렉터리** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)** |
+      | **포함 디렉터리** | **$(VCInstallDir)Auxiliary\VS\UnitTest\include** |
+      | **라이브러리 디렉터리** | **$(VCInstallDir)Auxiliary\VS\UnitTest\lib** |
 
 2. C++ 단위 테스트 파일 추가:
 
-   - **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **추가** > **새 항목** > **C++ 단위 테스트**를 선택합니다.
+   - **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **추가** > **새 항목** > **C++ 파일(.cpp)** 을 선택합니다.
 
 ## <a name="write-the-tests"></a>테스트 작성
 

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f399c82e5bc5619e0690cb27245baab9944c9377
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 06d2c04cdfacc2723e716eff88d3d5acf6c229b6
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62874618"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199995"
 ---
 # <a name="idebugerrorbreakpointresolution2getresolutioninfo"></a>IDebugErrorBreakpointResolution2::GetResolutionInfo
 중단점 오류 해결 정보를 가져옵니다.
@@ -38,13 +41,11 @@ int GetResolutionInfo( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`dwFields`
-
+## <a name="parameters"></a>매개 변수
+`dwFields`\
 [in] 플래그의 조합을 [BPERESI_FIELDS](../../../extensibility/debugger/reference/bperesi-fields.md) 의 필드를 결정 하는 열거형 `pErrorResolutionInfo` 작성 됩니다.
 
-`pErrorResolutionInfo`
-
+`pErrorResolutionInfo`\
 [out에서] 합니다 [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) 구조 채워진 중단점 해결에 대 한 설명을 사용 하 여 로그인 합니다.
 
 ## <a name="return-value"></a>반환 값
@@ -151,7 +152,7 @@ HRESULT CDebugErrorBreakpointResolution::CopyBP_ERROR_RESOLUTION_INFO(
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)
 - [BPERESI_FIELDS](../../../extensibility/debugger/reference/bperesi-fields.md)

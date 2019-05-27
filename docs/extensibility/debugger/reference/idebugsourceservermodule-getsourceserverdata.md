@@ -13,12 +13,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ee55c7637272da536830f00607719fae9f234b4d
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 73b5dd57a9e4c4de917e0fca744388b02345f0bb
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457559"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66208759"
 ---
 # <a name="idebugsourceservermodulegetsourceserverdata"></a>IDebugSourceServerModule::GetSourceServerData
 원본 서버 정보를 검색합니다.
@@ -41,12 +41,10 @@ public int GetSourceServerData(
 
 ## <a name="parameters"></a>매개 변수
 `pDataByteCount`\
-
- [out] 데이터 배열의 바이트 수입니다.
+[out] 데이터 배열의 바이트 수입니다.
 
 `ppData`\
-
- [out] 데이터 배열에 대 한 참조입니다.
+[out] 데이터 배열에 대 한 참조입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

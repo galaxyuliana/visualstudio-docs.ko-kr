@@ -10,12 +10,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e8b309af47aed94c45eca418b390be041f66f609
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: c86b97fd2437f19e280d9cf9e81454cceee9e47f
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62921199"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199173"
 ---
 # <a name="idebugdocumentpositionoffset2getrange"></a>IDebugDocumentPositionOffset2::GetRange
 현재 문서 위치에 대 한 범위를 검색합니다.
@@ -36,14 +39,12 @@ public int GetRange(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pdwBegOffset`
+## <a name="parameters"></a>매개 변수
+`pdwBegOffset`\
+[out에서] 범위의 시작 위치에 대 한 오프셋입니다. 이 정보는 필요 하지 않은 경우 null 값이 매개 변수를 설정 합니다.
 
- [out에서] 범위의 시작 위치에 대 한 오프셋입니다. 이 정보는 필요 하지 않은 경우 null 값이 매개 변수를 설정 합니다.
-
- `pdwEndOffset`
-
- [out에서] 범위의 끝 위치에 대 한 오프셋입니다. 이 정보는 필요 하지 않은 경우 null 값이 매개 변수를 설정 합니다.
+`pdwEndOffset`\
+[out에서] 범위의 끝 위치에 대 한 오프셋입니다. 이 정보는 필요 하지 않은 경우 null 값이 매개 변수를 설정 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -58,6 +59,6 @@ Line 6: x = 1;
 
  줄 5에는 디버그 중인 프로그램 코드가 없는 기여 합니다. 다섯 번째 줄에 중단점을 설정 하는 디버거 코드를 적용 하는 첫 번째 줄의 일정량을 앞으로 검색 DE를 하려는 경우 디버거가 중단점 수 올바르게 배치 하는 추가 후보 줄을 포함 하는 범위를 지정 합니다. DE 중단점을 수락할 수 있는 줄을 찾을 때까지 해당 줄을 통해 앞으로 검색 한 다음 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugDocumentPositionOffset2](../../../extensibility/debugger/reference/idebugdocumentpositionoffset2.md)
 - [GetRange](../../../extensibility/debugger/reference/idebugdocumentposition2-getrange.md)

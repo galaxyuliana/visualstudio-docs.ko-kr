@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b062e17767fdbcfe1bf9efe6c0be197eb2638a1e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 1478a89bbc311b9f9ebc9892c6be08f1ad7169e6
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62877172"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66202318"
 ---
 # <a name="idebugbreakpointboundevent2enumboundbreakpoints"></a>IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 이 이벤트에 바인딩된 중단점의 열거자를 만듭니다.
@@ -36,10 +39,9 @@ int EnumBoundBreakpoints( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`ppEnum`
-
- [out] 반환 된 [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) 이 이벤트에서 바인딩된 모든 중단점을 열거 하는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`ppEnum`\
+[out] 반환 된 [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) 이 이벤트에서 바인딩된 모든 중단점을 열거 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우 바인딩된 중단점; 그렇지 않으면 오류 코드를 반환 합니다.
@@ -75,7 +77,7 @@ STDMETHODIMP CBreakpointSetDebugEventBase::EnumBoundBreakpoints(
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md)
 - [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)
 - [GetPendingBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointboundevent2-getpendingbreakpoint.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4f253fc622beb6eee3490b77a1531b0b2096f14a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: e1bfc8b813f1016f3c040d47120675f881b92020
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62877045"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203133"
 ---
 # <a name="idebugcanstopevent2getreason"></a>IDebugCanStopEvent2::GetReason
 디버그 엔진 (DE)를 중지 하려고 하는 이유는 이유를 가져옵니다.
@@ -36,10 +39,9 @@ int GetReason( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pcr`
-
- [out] 값을 반환 합니다 [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md) 이 이벤트에 대 한 이유를 설명 하는 열거형입니다.
+## <a name="parameters"></a>매개 변수
+`pcr`\
+[out] 값을 반환 합니다 [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md) 이 이벤트에 대 한 이유를 설명 하는 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -49,7 +51,7 @@ int GetReason( 
 
  중지 이유 일 수 있습니다 `CANSTOP_ENTRYPOINT`는 DE 즉 진입점에 도달 했습니다 또는 `CANSTOP_STEPIN`, 함수 한 단계씩에 DE 의미 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCanStopEvent2](../../../extensibility/debugger/reference/idebugcanstopevent2.md)
 - [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md)
 - [CanStop](../../../extensibility/debugger/reference/idebugcanstopevent2-canstop.md)

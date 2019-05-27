@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3c87339e26e5b08fbcbdcde94d43c9f0009e1a22
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7ae0b2f606b4fe04ad390712f48ac1e06ff9bb86
+ms.sourcegitcommit: 283f2dbce044a18e9f6ac6398f6fc78e074ec1ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62975653"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65805323"
 ---
 # <a name="add-visual-studio-editor-support-for-other-languages"></a>다른 언어에 대한 Visual Studio 편집기 지원 추가
 
@@ -33,7 +33,7 @@ Visual Studio 편집기에서 다양한 컴퓨터 언어 읽기 및 탐색을 �
 
 ![Perl 스크립트의 구문 색 지정](../ide/media/vside_perledit.png)
 
-Visual Studio는 현재 [TextMate 문법](https://manual.macromates.com/en/language_grammars)을 사용하여 다음 언어에 대해 구문 색 지정 및 기본 문 완성을 지원합니다. 자주 사용하는 언어가 표에 없는 경우 걱정하지 마세요. 직접 추가할 수 있습니다.
+Visual Studio는 현재 [TextMate 문법](https://manual.macromates.com/en/language_grammars)을 사용하여 다음 언어에 대해 구문 색 지정 및 기본 문 완성을 지원합니다. 자주 사용하는 언어가 표에 없는 경우 걱정하지 마세요.&mdash;직접 추가할 수 있습니다.
 
 |||||||
 |-|-|-|-|-|-|
@@ -46,21 +46,21 @@ Visual Studio는 현재 [TextMate 문법](https://manual.macromates.com/en/langu
 
 구문 색 지정 및 기본 문 완성 기능 외에도 Visual Studio에는 [탐색](https://blogs.msdn.microsoft.com/benwilli/2015/04/09/visual-studio-tip-3-use-navigate-to/) 기능이 있습니다. 이 기능을 사용하면 코드 파일, 파일 경로 및 코드 기호를 빠르게 검색할 수 있습니다. Visual Studio는 다음 언어에 대해 탐색 기능을 지원합니다.
 
+- C#
+
+- C++
+
+- TypeScript
+
+- JavaScript
+
+- Visual Basic
+
 - 이동
 
 - Java
 
-- JavaScript
-
 - PHP
-
-- TypeScript
-
-- Visual Basic
-
-- Visual C++
-
-- C#
 
 지정된 언어에 대한 지원이 아직 설치되지 않은 경우에도 이러한 모든 파일 형식에는 앞에서 설명한 기능이 있습니다. 일부 언어에 대한 특수 지원을 설치하면 IntelliSense 등의 추가 언어 지원이나 전구와 같은 기타 고급 언어 기능이 제공됩니다.
 
@@ -76,7 +76,7 @@ Visual Studio에 대한 새 TextMate 문법을 다음 폴더에 추가합니다.
 
 |폴더 이름|설명|
 |-----------------|-----------------|
-|\\*\<언어 이름>*|언어 폴더입니다. *\<언어 이름>* 을 해당 언어의 이름으로 바꿉니다. 예를 들어 *\Matlab*으로 바꿉니다.|
+|\\ *\<언어 이름>*|언어 폴더입니다. *\<언어 이름>* 을 해당 언어의 이름으로 바꿉니다. 예를 들어 *\Matlab*으로 바꿉니다.|
 |*\Syntaxes*|문법 폴더입니다. 언어의 문법 *.json* 파일(예: *Matlab.json*)이 들어 있습니다.|
 |*\Snippets*|코드 조각 폴더입니다. 언어의 코드 조각이 들어 있습니다.|
 
@@ -89,5 +89,6 @@ TextMate 문법을 만드는 방법에 대한 자세한 내용은 [TextMate – 
 
 ## <a name="see-also"></a>참고 항목
 
+- [언어 서버 프로토콜 확장 추가](../extensibility/adding-an-lsp-extension.md)
 - [연습: 코드 조각 만들기](../ide/walkthrough-creating-a-code-snippet.md)
 - [연습: 명령문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)

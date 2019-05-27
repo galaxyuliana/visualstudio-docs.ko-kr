@@ -8,16 +8,16 @@ Ms.date: 06/25/2018
 Ms.topic: landing-page
 Description: Visual Studio 구독에 오신 것을 환영합니다.
 Searchscope: VS Subscription
-ms.openlocfilehash: bac5cbd1ae0da5d4607b566af898c28efc0876ad
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 939922aa418ee94d3018ac5f5743c31181e5e875
+ms.sourcegitcommit: 92a04c57ac0a49f304fa2ea5043436f30068c3cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62579944"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "65976107"
 ---
 # <a name="visual-studio-subscriptions"></a>Visual Studio 구독
 
-Visual Studio 구독은 Windows, iOS, Android, Linux 등을 비롯한 기본 플랫폼 및 장치에서 유용한 애플리케이션을 만들고 배포하고 관리하는 데 필요한 포괄적인 리소스 집합입니다.  구독 혜택으로는 개발자 도구, 클라우드 서비스 및 소프트웨어, 교육에 대한 액세스와 개발 및 테스트 요구 사항에 대한 지원이 있습니다.
+Visual Studio 구독은 Windows, iOS, Android, Linux 등을 비롯한 기본 플랫폼 및 디바이스에서 유용한 응용 프로그램을 만들고 배포하고 관리하는 데 필요한 포괄적인 리소스 집합입니다.  구독 혜택으로는 개발자 도구, 클라우드 서비스 및 소프트웨어, 교육에 대한 액세스와 개발 및 테스트 요구 사항에 대한 지원이 있습니다.
 
 ## <a name="get-started"></a>시작
 
@@ -109,7 +109,7 @@ Visual Studio 구독은 Windows, iOS, Android, Linux 등을 비롯한 기본 플
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Visual Studio for Mac</h3>
+                        <h3>Mac용 Visual Studio</h3>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@ Microsoft에서는 사용자가 구독을 훨씬 더 유용하게 사용할 수 
                         <p>최신 버전의 Visual Studio에 액세스하세요. PC 또는 Mac에서 Android, iOS, Windows, macOS, 웹 및 클라우드 앱 개발을 위한 완벽한 기능을 갖춘 IDE와 기타 플랫폼 간 도구에 액세스할 수 있습니다.</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
-                            <li>Visual Studio for Mac</li>
+                            <li>Mac용 Visual Studio</li>
                             <li>Azure DevOps Server 및 CAL</li>
                         </ul>
                     </div>
@@ -169,7 +169,7 @@ Microsoft에서는 사용자가 구독을 훨씬 더 유용하게 사용할 수 
                 <div class="card">
                     <div class="cardText">
                         <h3>Cloud Services</h3>
-                        <p>Visual Studio 구독이 있으면 월간 Azure 크레딧을 받고 Azure 서비스에 무료로 액세스할 뿐만 아니라 개발 및 테스트 요금 할인 혜택을 누리고 미리 구성된 가상 머신으로 구독자 전용 이미지 갤러리에 단독으로 액세스할 수 있습니다. 구독에 따라 클라우드 서비스에는 다음이 포함될 수 있습니다.</p>
+                        <p>Visual Studio 구독을 통해 Azure 서비스에 액세스할 수 있는 월간 Azure 크레딧을 받고, 개발 및 테스트 요금 할인 혜택을 누리고, 미리 구성된 가상 머신으로 구독자 전용 이미지 갤러리에 단독으로 액세스할 수 있습니다. 구독에 따라 클라우드 서비스에는 다음이 포함될 수 있습니다.</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-azure">Azure</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-visual-studio-app-center">Visual Studio App Center</a></li>

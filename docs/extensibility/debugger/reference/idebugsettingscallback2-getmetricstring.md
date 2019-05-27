@@ -14,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d3fdfd604f28f6657b27ef0e81ca4ce5855d97df
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: bc49529f5652475ad9f7528fd229e0354ee055d4
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457287"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212041"
 ---
 # <a name="idebugsettingscallback2getmetricstring"></a>IDebugSettingsCallback2::GetMetricString
 이름이 지정 된 메트릭 값 문자열을 검색 합니다.
@@ -45,21 +45,17 @@ private int GetMetricString(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pszType`\
+`pszType`\
+[in] 메트릭의 유형입니다.
 
- [in] 메트릭의 유형입니다.
+`guidSection`\
+[in] 섹션의 고유 식별자입니다.
 
- `guidSection`\
+`pszMetric`\
+[in] 메트릭의 이름입니다.
 
- [in] 섹션의 고유 식별자입니다.
-
- `pszMetric`\
-
- [in] 메트릭의 이름입니다.
-
- `pbstrValue`\
-
- [out] 메트릭 값 문자열을 반환합니다.
+`pbstrValue`\
+[out] 메트릭 값 문자열을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

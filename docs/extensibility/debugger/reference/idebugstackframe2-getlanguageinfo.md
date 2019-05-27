@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 87cdfcaa59fabb983d85d154bca48a381ebf8819
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: c5b6b5a94b38e1d057e51fe8f3ad8ed8e0003e4e
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457562"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203287"
 ---
 # <a name="idebugstackframe2getlanguageinfo"></a>IDebugStackFrame2::GetLanguageInfo
 이 스택 프레임과 연결 된 언어를 가져옵니다.
@@ -42,13 +42,11 @@ int GetLanguageInfo ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pbstrLanguage`\
+`pbstrLanguage`\
+[out] 이 스택 프레임과 연결 된 메서드를 구현 하는 언어의 이름을 반환 합니다.
 
- [out] 이 스택 프레임과 연결 된 메서드를 구현 하는 언어의 이름을 반환 합니다.
-
- `pguidLanguage`\
-
- [out] 반환 된 `GUID` 언어입니다. 에 대 한는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 언어, 예를 들어, 다음 돌아오게 됩니다.
+`pguidLanguage`\
+[out] 반환 된 `GUID` 언어입니다. 에 대 한는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 언어, 예를 들어, 다음 돌아오게 됩니다.
 
 -   `guidVBScriptLang`\
 

@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d758d6c34563a2915e295514380cf07c847d86c4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 046064aedf82a1f0babf50971a0d28fdcc826ada
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62919745"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211729"
 ---
 # <a name="idebugexpressionevaluator2setcallback"></a>IDebugExpressionEvaluator2::SetCallback
 식 계산기를 (EE) 메트릭 설정의 읽을 디버거 엔진 (DE)를 사용 하는 콜백 인터페이스를 지정할 수 있습니다.
@@ -35,10 +38,9 @@ int SetCallback (
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pCallback`
-
- [in] 설정 콜백에 대 한 사용 하는 인터페이스입니다.
+## <a name="parameters"></a>매개 변수
+`pCallback`\
+[in] 설정 콜백에 대 한 사용 하는 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -74,5 +76,5 @@ HRESULT CEE::SetCallback(IDebugSettingsCallback2* in_pCallback)
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

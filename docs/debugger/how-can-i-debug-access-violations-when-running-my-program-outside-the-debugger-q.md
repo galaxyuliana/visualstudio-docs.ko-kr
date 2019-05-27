@@ -1,5 +1,5 @@
 ---
-title: 디버거 외부에서 앱을 실행 하는 경우 액세스 위반 디버깅 | Microsoft Docs
+title: 디버거 외부에서 앱을 실행 하는 경우 액세스 위반 디버깅
 ms.custom: seodec18
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 657d8730f923d144d0691afe921ad5eaf9337a42
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d42dd206117885a23a6c1c15c712be4dc4cd8fe2
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62895095"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177668"
 ---
 # <a name="how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger"></a>디버거 외부에서 프로그램을 실행하는 경우 액세스 위반을 어떻게 디버깅할 수 있습니까?
 

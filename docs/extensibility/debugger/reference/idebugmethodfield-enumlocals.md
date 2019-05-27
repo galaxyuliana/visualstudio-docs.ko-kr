@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6e8c39adaca6c394b631542d57d74ed4818501b4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 5a99fb1e0b8b32f98d06f34ac39b8dfd781cdc62
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62872926"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211975"
 ---
 # <a name="idebugmethodfieldenumlocals"></a>IDebugMethodField::EnumLocals
 메서드는 선택한 지역 변수에 대 한 열거자를 만듭니다.
@@ -38,14 +41,12 @@ int EnumLocals(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pAddress`
+## <a name="parameters"></a>매개 변수
+`pAddress`\
+[in] [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 는 컨텍스트 또는 범위의 지역 변수를 선택 하는 디버그 주소를 나타내는 개체입니다.
 
- [in] [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 는 컨텍스트 또는 범위의 지역 변수를 선택 하는 디버그 주소를 나타내는 개체입니다.
-
-`ppLocals`
-
- [out] 반환 합니다는 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 지역 목록을 나타내는 개체;이 고, 그렇지 지역 없는 경우 null 값을 반환 합니다.
+`ppLocals`\
+[out] 반환 합니다는 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 지역 목록을 나타내는 개체;이 고, 그렇지 지역 없는 경우 null 값을 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 S_OK를 반환 하거나 로컬 항목 없음 없으면 S_FALSE를 반환 합니다. 그러지 않으면 오류 코드가 반환됩니다.
@@ -75,7 +76,7 @@ public void func(int index)
 
 합니다 [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md) 개체가 나타내는 `func` 메서드 자체입니다. 호출를 `EnumLocals` 메서드는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 로 설정 합니다 `Inner Scope 1` 주소 포함 하는 열거형을 반환 합니다.는 `temp1` 예를 들어 변수.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

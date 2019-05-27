@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 87b72f7bf9d91f7e59bd5550149ed7cf09f8827d
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 68efedbf9e8fa19025c7e7f1e47ed70cc1e9d1cc
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458108"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66198711"
 ---
 # <a name="ipropertyproxyeesideresolveassemblyref"></a>IPropertyProxyEESide::ResolveAssemblyRef
 지정 된 관리 되는 어셈블리 참조의 위치를 결정합니다.
@@ -48,25 +48,20 @@ int ResolveAssemblyRef(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `assemName`\
+`assemName`\
+[in] 확인할 어셈블리의 이름입니다.
 
- [in] 확인할 어셈블리의 이름입니다.
+`assemBytes`\
+[out] 반환 된 [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) 참조와 연결 된 어셈블리 바이트를 포함 하는 개체입니다.
 
- `assemBytes`\
+`assemPdb`\
+[out] 반환 된 `IEEDataStorage` 이 참조와 연결 된 데이터를 저장 하는 기호를 포함 하는 개체입니다.
 
- [out] 반환 된 [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md) 참조와 연결 된 어셈블리 바이트를 포함 하는 개체입니다.
+`assemLocation`\
+[out] 이 참조의 경로 위치를 반환합니다.
 
- `assemPdb`\
-
- [out] 반환 된 `IEEDataStorage` 이 참조와 연결 된 데이터를 저장 하는 기호를 포함 하는 개체입니다.
-
- `assemLocation`\
-
- [out] 이 참조의 경로 위치를 반환합니다.
-
- `alr`\
-
- [out] 값을 반환 합니다 [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md) 이 참조의이 어셈블리의 위치를 나타내는 열거형입니다.
+`alr`\
+[out] 값을 반환 합니다 [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md) 이 참조의이 어셈블리의 위치를 나타내는 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

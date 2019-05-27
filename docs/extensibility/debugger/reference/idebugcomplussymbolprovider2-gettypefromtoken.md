@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 360ee8cb970dd4a1c181061e4ed99d9c6e06b452
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: c96d8b94142f9751412df90d3e46240631aa96f9
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876489"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205948"
 ---
 # <a name="idebugcomplussymbolprovider2gettypefromtoken"></a>IDebugComPlusSymbolProvider2::GetTypeFromToken
 해당 토큰을 지정 하는 형식을 검색 합니다.
@@ -41,22 +44,18 @@ int GetTypeFromToken(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`appDomain`
+## <a name="parameters"></a>매개 변수
+`appDomain`\
+[in] 응용 프로그램 도메인의 식별자입니다.
 
- [in] 응용 프로그램 도메인의 식별자입니다.
+`guidModule`\
+[in] 모듈의 고유 식별자입니다.
 
-`guidModule`
+`tdToken`\
+[in] 검색할 형식의 토큰입니다.
 
- [in] 모듈의 고유 식별자입니다.
-
-`tdToken`
-
- [in] 검색할 형식의 토큰입니다.
-
-`ppField`
-
- [out] 나타내는 형식을 반환 합니다 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)합니다.
+`ppField`\
+[out] 나타내는 형식을 반환 합니다 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -90,5 +89,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

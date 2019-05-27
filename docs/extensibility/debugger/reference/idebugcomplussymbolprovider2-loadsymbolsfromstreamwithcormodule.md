@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 472a83212bdd71bd1747fa54e4bf3d2bda51434e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 487f98f992a1b6caf2d4359c9840fd568b023805
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876357"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205896"
 ---
 # <a name="idebugcomplussymbolprovider2loadsymbolsfromstreamwithcormodule"></a>IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule
 지정 된 데이터 스트림에서 디버그 기호를 로드 합니다 **ICorDebugModule** 개체입니다.
@@ -45,30 +48,24 @@ int LoadSymbolsFromStreamWithCorModule(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`ulAppDomainID`
+## <a name="parameters"></a>매개 변수
+`ulAppDomainID`\
+[in] 응용 프로그램 도메인의 식별자입니다.
 
- [in] 응용 프로그램 도메인의 식별자입니다.
+`guidModule`\
+[in] 모듈의 고유 식별자입니다.
 
-`guidModule`
+`baseAddress`\
+[in] 기본 메모리 주소입니다.
 
- [in] 모듈의 고유 식별자입니다.
+`pUnkMetadataImport`\
+[in] 기호 메타 데이터가 포함 된 개체입니다.
 
-`baseAddress`
+`pUnkCorDebugModule`\
+[in] 구현 하는 개체를 [ICorDebugModule 인터페이스](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface)합니다.
 
- [in] 기본 메모리 주소입니다.
-
-`pUnkMetadataImport`
-
- [in] 기호 메타 데이터가 포함 된 개체입니다.
-
-`pUnkCorDebugModule`
-
- [in] 구현 하는 개체를 [ICorDebugModule 인터페이스](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface)합니다.
-
-`pStream`
-
- [in] 로드 하는 디버그 기호를 포함 하는 데이터 스트림.
+`pStream`\
+[in] 로드 하는 디버그 기호를 포함 하는 데이터 스트림.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -146,5 +143,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugComPlusSymbolProvider2](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2.md)

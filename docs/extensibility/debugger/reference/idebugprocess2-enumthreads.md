@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f1ca619fe00ca29fb8788a450fab1ec5237be984
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: ce6a4061992fd0b5c1328f2bd6c7dd1c688dfd80
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62870916"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66202665"
 ---
 # <a name="idebugprocess2enumthreads"></a>IDebugProcess2::EnumThreads
 프로세스에서 실행 중인 모든 스레드의 목록을 검색 합니다.
@@ -36,10 +39,9 @@ int EnumThreads(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppEnum`
-
- [out] 반환 된 [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) 프로세스에서 모든 프로그램에서 모든 스레드의 목록을 포함 하는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`ppEnum`\
+[out] 반환 된 [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) 프로세스에서 모든 프로그램에서 모든 스레드의 목록을 포함 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -49,7 +51,7 @@ int EnumThreads(
 
  이 메서드는 중복 항목 없이 프로세스의 스레드 목록을 표시합니다. 그렇지 않은 경우 특정 프로그램에서 실행 중인 스레드를 열거 하려면 사용 합니다 [EnumThreads](../../../extensibility/debugger/reference/idebugprogram2-enumthreads.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)
 - [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

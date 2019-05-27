@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e736c14b1a87188f45658a51cff0c123553332e9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 58480e52e86fc4603648d9f534cb03e944a8dde8
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62917504"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212892"
 ---
 # <a name="idebugprocessex2detach"></a>IDebugProcessEx2::Detach
 이 메서드는 세션에서 프로세스를 디버깅 이상는 프로세스에 알립니다.
@@ -36,10 +39,9 @@ int Detach(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pSession`
-
- [in] 이 프로세스에서 분리 하려면 세션을 고유 하 게 식별 하는 값입니다.
+## <a name="parameters"></a>매개 변수
+`pSession`\
+[in] 이 프로세스에서 분리 하려면 세션을 고유 하 게 식별 하는 값입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -47,5 +49,5 @@ int Detach(
 ## <a name="remarks"></a>설명
  인터페이스에 전달 된 `pSession` 쿠키로 서만 처리할지,이 프로세스에 연결 하는 원래 세션 디버그 관리자를 고유 하 게 식별 하는 값은 제공 된 인터페이스의 메서드는 작동 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProcessEx2](../../../extensibility/debugger/reference/idebugprocessex2.md)

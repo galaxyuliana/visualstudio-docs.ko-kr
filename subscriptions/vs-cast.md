@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에서 제공하는 CAST Highlight 혜택 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: a96b314a22bf3036167b0d7b1bb6077edee01f59
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 852327a7bcedb93a9ac7d2644ee5e9ab1e182e42
+ms.sourcegitcommit: 283f2dbce044a18e9f6ac6398f6fc78e074ec1ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62947912"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65805338"
 ---
 # <a name="the-cast-highlight-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 CAST Highlight 혜택
 
@@ -52,7 +52,7 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
    >
    > *현재 귀하의 CAST Highlight 활성화 및 액세스 요청을 검토 중입니다. 48시간 내에 결과를 알려드리겠습니다.*
    >
-   > *감사합니다.*
+   > *감사합니다.* 
    > *Greg 드림*
 
 요청이 승인되면 계정 만들기가 성공했음을 확인하고 활성화 링크를 클릭하여 활성화 프로세스를 완료하라는 두 번째 이메일을 받게 됩니다.
@@ -72,7 +72,7 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
    > - 비디오 자습서 - [포트폴리오 구성](https://www.youtube.com/watch?v=MDm8ln4vuGE)
    > - 비디오 자습서 - [앱 온보딩](https://www.youtube.com/watch?v=x-7Dsn3Rmw4)
    >
-   > *감사합니다.*
+   > *감사합니다.* 
    > *Greg 드림*
 
    > [!NOTE]
@@ -107,6 +107,6 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
 
 ## <a name="next-steps"></a>다음 단계
 
-구독과 함께 제공되는 Azure 혜택을 아직 활성화하지 않은 경우 [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)를 방문하여 [도구] 범주의 Azure 타일을 클릭하고, Azure 구독을 설정하고, 무료 Azure 크레딧을 사용합니다.
+구독과 함께 제공되는 Azure 혜택을 아직 활성화하지 않은 경우 [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)를 방문하여 도구 범주의 Azure 타일을 클릭하고, Azure 구독을 설정하고, Azure 크레딧을 사용합니다.
 
 그리고 Greg의 이메일에 언급된 데모, 사용자 가이드 및 자습서 비디오를 확인하세요.

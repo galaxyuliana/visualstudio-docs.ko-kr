@@ -10,12 +10,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e3644a8d8b8834056e5cf61fc8647d5c47056208
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: c1c88d5b719b8d800ef13f890bb65cd5f6b68d58
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62917491"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66200470"
 ---
 # <a name="idebugprocessquerypropertiesqueryproperties"></a>IDebugProcessQueryProperties::QueryProperties
 이 메서드는 디버깅 프로세스의 지정 된 속성 값에 대 한 쿼리.
@@ -36,14 +39,12 @@ int QueryProperties(
    out object[ ]              rgtPropValues);
 ```
 
-#### <a name="parameters"></a>매개 변수
- `celt`
+## <a name="parameters"></a>매개 변수
+`celt`\
+[in] 속성 정 및 속성 값을 포함 하는 배열의 크기입니다.
 
- [in] 속성 정 및 속성 값을 포함 하는 배열의 크기입니다.
-
- `dwPropType`
-
- [in] 쿼리 속성 정의가 포함 된 배열입니다. 가능한 값은 다음과 같습니다.
+`dwPropType`\
+[in] 쿼리 속성 정의가 포함 된 배열입니다. 가능한 값은 다음과 같습니다.
 
 - PROCESS_PROPERTY_COMMAND_LINE = 1
 
@@ -51,7 +52,8 @@ int QueryProperties(
 
 - PROCESS_PROPERTY_ENVIRONMENT_VARIABLES = 3
 
-  `pvarPropValue` [out] 속성 값이 포함 된 배열입니다.
+`pvarPropValue`\
+[out] 속성 값이 포함 된 배열입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -59,5 +61,5 @@ int QueryProperties(
 ## <a name="remarks"></a>설명
  이 메서드는 거의 없습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProcessQueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties.md)

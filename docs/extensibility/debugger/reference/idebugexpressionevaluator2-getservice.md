@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ac6f73e31e7e15a2ffd86e2d969f98a686fbd004
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: b775963f9ab708e92a37cda9a3ff50bc67c9b2cf
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62842934"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211755"
 ---
 # <a name="idebugexpressionevaluator2getservice"></a>IDebugExpressionEvaluator2::GetService
 고유 식별자를 지정 된 서비스 개체를 검색 합니다.
@@ -37,14 +40,12 @@ int GetService (
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `uid`
+## <a name="parameters"></a>매개 변수
+`uid`\
+[in] 검색할 서비스의 고유 식별자입니다.
 
- [in] 검색할 서비스의 고유 식별자입니다.
-
- `ppService`
-
- [out] 서비스를 나타내는 개체를 반환 합니다.
+`ppService`\
+[out] 서비스를 나타내는 개체를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -52,5 +53,5 @@ int GetService (
 ## <a name="remarks"></a>설명
  다른 식 계산기에서 서비스를 얻기 위한 타사 식 계산기는 에서도 사용할 수 있습니다. 예를 들어,이 메서드가 기본 식 계산기에서 시각화 도우미 서비스에 대 한 인터페이스를 가져오는 데 사용할 수 없습니다. 타사 식 계산기가이 인터페이스를 구현 해야 할 가능성이 높습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugExpressionEvaluator2](../../../extensibility/debugger/reference/idebugexpressionevaluator2.md)

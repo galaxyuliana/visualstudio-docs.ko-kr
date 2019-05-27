@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4c7219f3940eb101c652725b5d7a180206108b85
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7ec665e3da8961b801c7e95efaee8bff3994b6b4
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62875836"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205619"
 ---
 # <a name="idebugcoreserver2getportsupplier"></a>IDebugCoreServer2::GetPortSupplier
 특정 포트 공급자를 검색합니다.
@@ -38,18 +41,16 @@ int GetPortSupplier( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `guidPortSupplier`
+## <a name="parameters"></a>매개 변수
+`guidPortSupplier`\
+[in] 검색할 포트 공급자의 GUID입니다.
 
- [in] 검색할 포트 공급자의 GUID입니다.
-
- `ppPortSupplier`
-
- [out] 반환 된 [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) 원하는 포트 공급자를 나타내는 개체입니다.
+`ppPortSupplier`\
+[out] 반환 된 [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) 원하는 포트 공급자를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)

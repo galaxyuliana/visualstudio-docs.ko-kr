@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0e10c77fb7e4fd3e7a679e9954140760c282952b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: b7caebed7f3f9375a7b41fd68e43e6dbb6d21f37
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62917655"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66208776"
 ---
 # <a name="idebugprocess3sethostingprocesslanguage"></a>IDebugProcess3::SetHostingProcessLanguage
 이 메서드는 프로세스에서 호스트 되는 언어를 설정 합니다. 이 언어 적절 한 식 계산기를 로드 하려면 디버그 엔진 (DE)에서 사용할 수 있습니다.
@@ -36,10 +39,9 @@ int SetHostingProcessLanguage(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `guidLang`
-
- [in] `GUID` 는 DE 사용 해야 하는 언어입니다. 지정할 `GUID_NULL` (C++) 또는 `Guid.Empty` (C#)는 기본 언어를 사용 하는 DE 있어야 합니다.
+## <a name="parameters"></a>매개 변수
+`guidLang`\
+[in] `GUID` 는 DE 사용 해야 하는 언어입니다. 지정할 `GUID_NULL` (C++) 또는 `Guid.Empty` (C#)는 기본 언어를 사용 하는 DE 있어야 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -47,6 +49,6 @@ int SetHostingProcessLanguage(
 ## <a name="remarks"></a>설명
 - [GetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-gethostingprocesslanguage.md) 현재 언어 설정 검색에 사용할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)
 - [GetHostingProcessLanguage](../../../extensibility/debugger/reference/idebugprocess3-gethostingprocesslanguage.md)

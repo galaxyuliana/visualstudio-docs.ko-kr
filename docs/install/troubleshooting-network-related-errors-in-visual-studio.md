@@ -1,7 +1,7 @@
 ---
 title: 네트워크 또는 프록시 오류 문제 해결
 description: 방화벽 또는 프록시 서버 배후에서 Visual Studio를 설치하거나 사용할 때 발생할 수 있는 네트워크 또는 프록시 관련 오류에 대한 솔루션을 찾습니다.
-ms.date: 03/30/2019
+ms.date: 05/22/2019
 ms.topic: troubleshooting
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: e98f06a2dabd6627fbc70b1d072d0e34924c6691
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 719922f8cfcae78f5c082e838528a77bbd66d073
+ms.sourcegitcommit: 92a04c57ac0a49f304fa2ea5043436f30068c3cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62968134"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "65976227"
 ---
 # <a name="troubleshooting-network-related-errors-when-you-install-or-use-visual-studio"></a>Visual Studio 설치 또는 사용 시의 네트워크 관련 오류 문제 해결
 
@@ -36,13 +36,13 @@ ms.locfileid: "62968134"
 
 - Visual Studio를 다시 시작합니다. 프록시 인증 대화 상자가 나타납니다. 대화 상자에 메시지가 표시되면 자격 증명을 입력합니다.
 
-- Visual Studio를 다시 시작해도 문제가 해결되지 않으면 프록시 서버에서 http:&#47;&#47;go.microsoft.com 주소가 아닌 &#42;.visualStudio.com 주소에 대한 자격 증명을 입력하라는 메시지를 표시하기 때문일 수 있습니다. 이러한 서버에 대해 다음 URL을 허용 목록에 포함하여 Visual Studio에서 모든 로그인 시나리오의 차단을 해제하는 것이 좋습니다.
+- Visual Studio를 다시 시작해도 문제가 해결되지 않으면 프록시 서버에서 http:&#47;&#47;go.microsoft.com 주소가 아닌 &#42;.visualStudio.microsoft.com 주소에 대한 자격 증명을 입력하라는 메시지를 표시하기 때문일 수 있습니다. 이러한 서버에 대해 다음 URL을 허용 목록에 포함하여 Visual Studio에서 모든 로그인 시나리오의 차단을 해제하는 것이 좋습니다.
 
     - &#42;.windows.net
 
     - &#42;.microsoftonline.com
 
-    - &#42;.visualstudio.com
+    - &#42;.visualstudio.microsoft.com
 
     - &#42;.microsoft.com
 
@@ -120,7 +120,7 @@ Visual Studio는 TLS(전송 계층 보안) 1.2 프로토콜을 사용하여 네�
 
 - &#42;.azurewebsites.net(Azure 연결의 경우)
 
-- &#42;.visualstudio.com
+- &#42;.visualstudio.microsoft.com
 
 - cdn.vsassets.io(콘텐츠 배달 네트워크 또는 CDN, 콘텐츠 호스트)
 

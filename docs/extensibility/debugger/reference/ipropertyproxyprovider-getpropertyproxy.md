@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 2a05a903578e49b1b8ffefe0b0bb13fb693c993c
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 958b3571a5bfabbd609e3ca62bcdfe9b5a6171ca
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458079"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212849"
 ---
 # <a name="ipropertyproxyprovidergetpropertyproxy"></a>IPropertyProxyProvider::GetPropertyProxy
 지정 된 프록시 ID에 대 한 속성 프록시 인터페이스를 검색합니다.
@@ -42,13 +42,11 @@ int GetPropertyProxy(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `dwID`\
+`dwID`\
+[in] Desired 속성 프록시의 ID입니다.
 
- [in] Desired 속성 프록시의 ID입니다.
-
- `proxy`\
-
- [out] 반환 된 [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) 개체입니다.
+`proxy`\
+[out] 반환 된 [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

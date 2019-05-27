@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7d11a8a5bf3a0fc66487b8a0e58cd98aefdbd255
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 12dc3ff9dadc1ea09e14045377096fa149a6c51d
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62922983"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203168"
 ---
 # <a name="idebugcanstopevent2getcodecontext"></a>IDebugCanStopEvent2::GetCodeContext
 이 이벤트의 위치를 설명 하는 코드 컨텍스트를 가져옵니다.
@@ -36,10 +39,9 @@ int GetCodeContext( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppCodeContext`
-
- [out] 반환 된 [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 현재 코드 위치를 나타내는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`ppCodeContext`\
+[out] 반환 된 [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 현재 코드 위치를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -49,7 +51,7 @@ int GetCodeContext( 
 
  소스 코드 줄을 향하도록 인 문서 컨텍스트를 가져오려면 호출 합니다 [GetDocumentContext](../../../extensibility/debugger/reference/idebugcanstopevent2-getdocumentcontext.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCanStopEvent2](../../../extensibility/debugger/reference/idebugcanstopevent2.md)
 - [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)
 - [GetDocumentContext](../../../extensibility/debugger/reference/idebugcanstopevent2-getdocumentcontext.md)

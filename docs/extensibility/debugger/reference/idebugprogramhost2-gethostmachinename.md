@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f8cc1a3581ffd46bb345bcbbeb135f7ebe296fff
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: acdc2bc8bf92604994acc32e98e4dca5b58f1b05
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62916851"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203968"
 ---
 # <a name="idebugprogramhost2gethostmachinename"></a>IDebugProgramHost2::GetHostMachineName
 이 프로그램을 호스트 하는 프로세스에서 실행 되는 컴퓨터의 이름을 가져옵니다.
@@ -36,13 +39,12 @@ int GetHostMachineName( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pbstrHostMachineName`
-
- [out] 컴퓨터의 이름을 반환합니다.
+## <a name="parameters"></a>매개 변수
+`pbstrHostMachineName`\
+[out] 컴퓨터의 이름을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgramHost2](../../../extensibility/debugger/reference/idebugprogramhost2.md)

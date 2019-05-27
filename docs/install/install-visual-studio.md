@@ -20,12 +20,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 0d4ad3767e8ee6076f45deefa5c532b62175520f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3ec34dc0f4f2794f853b8e70670d4d3f59e7bae3
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62974944"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65692315"
 ---
 # <a name="install-visual-studio"></a>Visual Studio 설치
 
@@ -203,7 +203,7 @@ Workloads 기능을 사용하여 Visual Studio 설치를 사용자 지정하지 
 
 기본 언어를 변경할 수 있는 다른 방법은 명령줄에서 설치 관리자를 실행하는 것입니다. 예를 들어 `vs_installer.exe --locale en-US` 명령을 사용하여 설치 관리자를 영어로 강제 실행할 수 있습니다. 설치 관리자는 다음에 실행될 때 이 설정을 기억합니다. 설치 관리자는 zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr과 같은 언어 토큰을 지원합니다.
 
-## <a name="step-7---change-the-installation-location-optional"></a>7단계 - 설치 위치 변경(선택 사항)
+## <a name="step-7---select-the-installation-location-optional"></a>7단계 - 설치 위치 선택(선택 사항)
 
 ::: moniker range="vs-2017"
 
@@ -217,7 +217,7 @@ Workloads 기능을 사용하여 Visual Studio 설치를 사용자 지정하지 
 
 시스템 드라이브에서 Visual Studio의 설치 공간을 줄일 수 있습니다. 다운로드 캐시, 공유 구성 요소, SDK 및 도구를 다른 드라이브로 이동하고 Visual Studio를 가장 빠르게 실행되는 드라이브에 유지하도록 선택할 수 있습니다.
 
-  ![Visual Studio 2019 - 설치 위치 변경](media/vs-2019/vs-installer-installation-locations.png "설치 위치 변경")
+  ![Visual Studio 2019 - 설치 위치 선택](media/vs-2019/vs-installer-installation-locations.png "설치 위치 선택")
 
 ::: moniker-end
 

@@ -6,7 +6,7 @@ keywords: ''
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 05/07/2019
+ms.date: 05/22/2019
 ms.topic: reference
 helpviewer_keywords: ''
 ms.custom: seodec18
@@ -14,12 +14,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 7a3d02ad903daba40da5ac0c9a9ebbb320747a49
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: f6a3af52204bb75153e1b39eabcf78b1c0ca0688
+ms.sourcegitcommit: 92a04c57ac0a49f304fa2ea5043436f30068c3cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65461345"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "65976181"
 ---
 # <a name="visual-studio-build-numbers-and-release-dates"></a>Visual Studio 빌드 번호 및 릴리스 날짜
 
@@ -31,6 +31,9 @@ ms.locfileid: "65461345"
 
 | **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.1.0 | Release | 2019년 5월 21일 | 16.1.28917.181 |
+| 16.2.0 | 미리 보기 1 | 2019년 5월 21일 | 16.2.28917.182 |
+| 16.0.4 | Release | 2019년 5월 14일 | 16.0.28803.452 |
 | 16.1.0 | 미리 보기 3 | 2019년 5월 6일 | 16.1.28902.138 |
 | 16.0.3 | Release | 2019년 4월 30일 | 16.0.28803.352 |
 | 16.1.0 | Preview 2 | 2019년 4월 23일 | 16.1.28822.285 |
@@ -72,10 +75,12 @@ ms.locfileid: "65461345"
 
 | **Version**| **채널** | **릴리스 날짜** | **빌드 버전** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.12 | Release | 2019년 5월 14일 | 15.9.28307.665 |
+| 15.0.23 | Release | 2019년 5월 14일 | 15.0.26228.85 |
 | 15.9.11 | Release | 2019년 4월 2일 | 15.9.28307.586 |
 | 15.9.10 | Release | 2019년 3월 25일 | 15.9.28307.557 |
 | 15.9.9 | Release | 2019년 3월 12일 | 15.9.28307.518 |
-| 15.0.21 | Release | 2019년 3월 12일 | 15.0.26228.76 |
+| 15.0.22 | Release | 2019년 3월 12일 | 15.0.26228.76 |
 | 15.9.8 | Release | 2019년 3월 5일 | 15.9.28307.481 |
 | 15.9.7 | Release | 2019년 2월 12일 | 15.9.28307.423 |
 | 15.0.21 | Release | 2019년 2월 12일 | 15.0.26228.73 |

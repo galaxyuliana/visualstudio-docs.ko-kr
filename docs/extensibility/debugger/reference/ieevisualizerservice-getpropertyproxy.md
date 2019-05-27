@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 64a05032118588679efcc455953b76227a973319
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 4779bb213f67527c62876410e2fdc92263754ae9
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65225859"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203664"
 ---
 # <a name="ieevisualizerservicegetpropertyproxy"></a>IEEVisualizerService::GetPropertyProxy
 이 메서드는 속성 개체에 대 한 프록시를 반환합니다.
@@ -42,13 +42,11 @@ int GetPropertyProxy(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `dwID`\
+`dwID`\
+[in] 검색할 속성 프록시의 ID입니다.
 
- [in] 검색할 속성 프록시의 ID입니다.
-
- `proxy`\
-
- [out] 원하는 구현 하는 프록시를 [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) 인터페이스입니다.
+`proxy`\
+[out] 원하는 구현 하는 프록시를 [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

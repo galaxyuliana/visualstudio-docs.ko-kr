@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 14debc141236558090116ff40f3f515c189b70ef
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: f0f11c3b1770ca32b34f7a5480d5d56acc2b2478
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62919991"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66201042"
 ---
 # <a name="idebugexpressioncontext2parsetext"></a>IDebugExpressionContext2::ParseText
 이후 평가 대 한 텍스트 형태로 식을 구문 분석합니다.
@@ -46,30 +49,24 @@ int ParseText(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pszCode`
+## <a name="parameters"></a>매개 변수
+`pszCode`\
+[in] 구문 분석할 식입니다.
 
- [in] 구문 분석할 식입니다.
+`dwFlags`\
+[in] 플래그의 조합 된 [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) 구문 분석을 제어 하는 열거형입니다.
 
-`dwFlags`
+`nRadix`\
+[in] 숫자 정보를 구문 분석 하는 데 사용할 기 수 `pszCode`입니다.
 
- [in] 플래그의 조합 된 [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) 구문 분석을 제어 하는 열거형입니다.
+`ppExpr`\
+[out] 반환 된 [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) 바인딩 및 평가 되지 않은 구문 분석된 된 식을 나타내는 개체입니다.
 
-`nRadix`
+`pbstrError`\
+[out] 식에 오류가 포함 된 오류 메시지를 반환 합니다.
 
- [in] 숫자 정보를 구문 분석 하는 데 사용할 기 수 `pszCode`입니다.
-
-`ppExpr`
-
- [out] 반환 된 [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) 바인딩 및 평가 되지 않은 구문 분석된 된 식을 나타내는 개체입니다.
-
-`pbstrError`
-
- [out] 식에 오류가 포함 된 오류 메시지를 반환 합니다.
-
-`pichError`
-
- [out] 오류 메시지의 문자 인덱스를 반환 `pszCode` 식에 오류가 포함 되어 있습니다.
+`pichError`\
+[out] 오류 메시지의 문자 인덱스를 반환 `pszCode` 식에 오류가 포함 되어 있습니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -128,7 +125,7 @@ HRESULT CEnvBlock::ParseText(
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md)
 - [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md)
 - [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)

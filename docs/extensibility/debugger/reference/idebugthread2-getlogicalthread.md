@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9e57d3deac01b00f1f332b34075d74f6402235f4
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: d4273d1c8bff6f07fdcf12b5b324d8d42eb08799
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65224040"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199708"
 ---
 # <a name="idebugthread2getlogicalthread"></a>IDebugThread2::GetLogicalThread
 디버그 엔진에서이 메서드를 구현 하지 않습니다.
@@ -42,13 +42,11 @@ int GetLogicalThread( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pStackFrame`\
+`pStackFrame`\
+[in] [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) 스택 프레임을 나타내는 개체입니다.
 
- [in] [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) 스택 프레임을 나타내는 개체입니다.
-
- `ppLogicalThread`\
-
- [out] 반환 된 `IDebugLogicalThread2` 관련된 논리 스레드를 나타내는 인터페이스입니다. 디버그 엔진 구현이 null 값으로 설정 해야 합니다.
+`ppLogicalThread`\
+[out] 반환 된 `IDebugLogicalThread2` 관련된 논리 스레드를 나타내는 인터페이스입니다. 디버그 엔진 구현이 null 값으로 설정 해야 합니다.
 
 ## <a name="return-value"></a>반환 값
  디버그 엔진 구현에서는 항상 반환 `E_NOTIMPL`합니다.

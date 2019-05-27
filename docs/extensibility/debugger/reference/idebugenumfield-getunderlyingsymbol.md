@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9b6b90f388f93bc7cfc2c246c529217bcdb00fa9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: be45bf7ef78b00b5c0c381be54bf15ccea773144
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62920269"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66200147"
 ---
 # <a name="idebugenumfieldgetunderlyingsymbol"></a>IDebugEnumField::GetUnderlyingSymbol
 이 메서드는 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 열거형의 이름을 나타내는입니다.
@@ -36,10 +39,9 @@ int GetUnderlyingSymbol(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppField`
-
- [out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 이 열거형의 이름을 설명 합니다.
+## <a name="parameters"></a>매개 변수
+`ppField`\
+[out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 이 열거형의 이름을 설명 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -47,7 +49,7 @@ int GetUnderlyingSymbol(
 ## <a name="remarks"></a>설명
  열거형의 이름을 사용 하 여 메모리 위치에 바인딩되는 열거형의 형식 포함 [바인딩할](../../../extensibility/debugger/reference/idebugbinder-bind.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)

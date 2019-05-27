@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1416092661ee26bff773ea1a439c241a0f5c5fc6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 037dc4232753bbae8e15a0a2cf4bd42781910cb9
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62921517"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66204722"
 ---
 # <a name="idebugdocumentcontext2compare"></a>IDebugDocumentContext2::Compare
 문서 컨텍스트를 지정 된 배열에이 문서 컨텍스트를 비교합니다.
@@ -42,22 +45,18 @@ int Compare( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `compare`
+## <a name="parameters"></a>매개 변수
+`compare`\
+[in] 값을 [DOCCONTEXT_COMPARE](../../../extensibility/debugger/reference/doccontext-compare.md) 비교의 형식을 지정 하는 열거형입니다.
 
- [in] 값을 [DOCCONTEXT_COMPARE](../../../extensibility/debugger/reference/doccontext-compare.md) 비교의 형식을 지정 하는 열거형입니다.
+`rgpDocContextSet`\
+[in] 배열을 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 비교할 문서 컨텍스트를 나타내는 개체입니다.
 
- `rgpDocContextSet`
+`dwDocContextSetLen`\
+[in] 비교할 문서 컨텍스트에 배열의 길이입니다.
 
- [in] 배열을 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 비교할 문서 컨텍스트를 나타내는 개체입니다.
-
- `dwDocContextSetLen`
-
- [in] 비교할 문서 컨텍스트에 배열의 길이입니다.
-
- `pdwDocContext`
-
- [out] 에 대 한 인덱스를 반환 합니다.는 `rgpDocContextSet` 비교를 만족 하는 첫 번째 문서 컨텍스트의 배열입니다.
+`pdwDocContext`\
+[out] 에 대 한 인덱스를 반환 합니다.는 `rgpDocContextSet` 비교를 만족 하는 첫 번째 문서 컨텍스트의 배열입니다.
 
 ## <a name="return-value"></a>반환 값
  반환 `S_OK` 와 일치 하는 경우. 반환 `S_FALSE` 항목이 일치 항목이 없는 경우. 그러지 않으면 오류 코드가 반환됩니다.
@@ -65,6 +64,6 @@ int Compare( 
 ## <a name="remarks"></a>설명
  합니다 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 배열에 전달 되는 개체를 구현 하는 디버그 엔진에 의해 구현 되어야 합니다 `IDebugDocumentContext2` 개체이 고, 그렇지 않으면 호출 되는 비교가 유효 하지 않습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
 - [DOCCONTEXT_COMPARE](../../../extensibility/debugger/reference/doccontext-compare.md)

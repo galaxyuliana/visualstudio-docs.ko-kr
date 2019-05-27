@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab1ea05511369d36b881afcaf7c161f796fd4925
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 29f9b8ce9e235fc25a1c52930bbf31ec8d8cf557
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62875318"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66207786"
 ---
 # <a name="idebugengine2attach"></a>IDebugEngine2::Attach
 프로그램 또는 프로그램을 디버그 엔진 (DE)에 연결합니다. DE 실행 중인 in-process로 SDM 때 세션 디버그 관리자 (SDM)에서 호출 됩니다.
@@ -44,26 +47,21 @@ int Attach( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pProgram`
+## <a name="parameters"></a>매개 변수
+`pProgram`\
+[in] 배열을 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 프로그램에 연결을 나타내는 개체입니다. 이들은 포트 프로그램입니다.
 
- [in] 배열을 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 프로그램에 연결을 나타내는 개체입니다. 이들은 포트 프로그램입니다.
+`rgpProgramNodes`\
+[in] 배열을 [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 각 프로그램에 대 한 프로그램 노드를 나타내는 개체입니다. 이 배열에 있는 프로그램 노드 에서처럼 동일한 프로그램을 나타내는 `pProgram`합니다. 프로그램 노드는 DE 연결할 프로그램을 식별할 수 있도록 제공 됩니다.
 
- `rgpProgramNodes`
+`celtPrograms`\
+[in] 프로그램 및/또는의 프로그램 노드 개수는 `pProgram` 고 `rgpProgramNodes` 배열입니다.
 
- [in] 배열을 [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 각 프로그램에 대 한 프로그램 노드를 나타내는 개체입니다. 이 배열에 있는 프로그램 노드 에서처럼 동일한 프로그램을 나타내는 `pProgram`합니다. 프로그램 노드는 DE 연결할 프로그램을 식별할 수 있도록 제공 됩니다.
+`pCallback`\
+[in] 합니다 [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 개체 SDM에 디버그 이벤트를 보내는 데 사용 됩니다.
 
- `celtPrograms`
-
- [in] 프로그램 및/또는의 프로그램 노드 개수는 `pProgram` 고 `rgpProgramNodes` 배열입니다.
-
- `pCallback`
-
- [in] 합니다 [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 개체 SDM에 디버그 이벤트를 보내는 데 사용 됩니다.
-
- `dwReason`
-
- [in] 값을 [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) 이러한 프로그램을 연결 하는 것에 대 한 이유를 지정 하는 열거형입니다. 자세한 내용은 설명 섹션을 참조하세요.
+`dwReason`\
+[in] 값을 [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) 이러한 프로그램을 연결 하는 것에 대 한 이유를 지정 하는 열거형입니다. 자세한 내용은 설명 섹션을 참조하세요.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -91,7 +89,7 @@ int Attach( 
 
    제공한 배열에서 프로그램 노드의 메서드를 호출 하기 전에 `pProgram` 또는 `rgpProgramNodes`, 가장을 사용 하면 필요한 경우에서 사용할 수 있어야 합니다 `IDebugProgram2` 프로그램 노드를 나타내는 인터페이스입니다. 일반적으로 단,이 단계가 필요 하지 않습니다. 자세한 내용은 [보안 문제](../../../extensibility/debugger/security-issues.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

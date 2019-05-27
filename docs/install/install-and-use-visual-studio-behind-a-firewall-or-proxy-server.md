@@ -1,7 +1,7 @@
 ---
 title: 방화벽 또는 프록시 서버 뒤에 설치 및 사용
 description: 조직에서 방화벽 또는 프록시 서버를 사용하는 경우 허용 목록에 추가하거나 열려는 도메인 URL, 포트 및 프로토콜을 검토합니다.
-ms.date: 03/30/2019
+ms.date: 05/22/2019
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 227525b08e45832041b573fbb7cf3719484d1b8e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 38a243c965199e75622ceff43e742424d3e4977a
+ms.sourcegitcommit: 92a04c57ac0a49f304fa2ea5043436f30068c3cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62974711"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "65976211"
 ---
 # <a name="install-and-use-visual-studio-and-azure-services-behind-a-firewall-or-proxy-server"></a>방화벽 또는 프록시 서버 배후에서 Visual Studio와 Azure 서비스 설치 및 사용
 
@@ -37,7 +37,7 @@ ms.locfileid: "62974711"
 
 ## <a name="install-visual-studio"></a>Visual Studio 설치
 
-### <a name="urls-to-whitelist"></a>허용 목록에 추가할 URL
+### <a name="urls-to-add-to-an-allow-list"></a>허용 목록에 추가할 URL
 
 Visual Studio 설치 관리자는 다양한 도메인과 다운로드 서버에서 파일을 다운로드하기 때문에 UI 또는 배포 스크립트에서 다음 도메인 URL을 신뢰할 수 있는 도메인으로 허용 목록에 추가하는 것이 좋습니다.
 
@@ -79,7 +79,7 @@ Visual Studio 설치 관리자는 다양한 도메인과 다운로드 서버에�
 
 ## <a name="use-visual-studio-and-azure-services"></a>Visual Studio 및 Azure 서비스 사용
 
-### <a name="urls-to-whitelist-and-ports-and-protocols-to-open"></a>허용 목록에 추가할 URL 및 여는 포트와 프로토콜
+### <a name="urls-to-add-to-an-allow-list-and-ports-and-protocols-to-open"></a>허용 목록에 추가할 URL 및 여는 포트와 프로토콜
 
 방화벽이나 프록시 서버 배후에서 Visual Studio 또는 Azure 서비스를 사용할 때 필요한 모든 요소에 액세스할 수 있도록 하려면 다음 URL을 허용 목록에 추가하고 다음 포트와 프로토콜을 여는 것이 좋습니다.
 

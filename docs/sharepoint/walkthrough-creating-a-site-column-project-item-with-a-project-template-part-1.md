@@ -1,5 +1,5 @@
 ---
-title: '연습: 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기, 1 부 | Microsoft Docs'
+title: 프로젝트 템플릿, 1 부를 사용 하 여 사이트 열 프로젝트 항목 만들기
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 34808d70a7df1bf5d030e4205de34ff3ec4d03b2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 60e4f4e035b381b8bfda8e14ee705471b0fad2b8
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430400"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177551"
 ---
 # <a name="walkthrough-create-a-site-column-project-item-with-a-project-template-part-1"></a>연습: 1 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기
   SharePoint 프로젝트는 하나 이상의 SharePoint 프로젝트 항목에 대 한 컨테이너입니다. SharePoint 프로젝트 항목 형식을 사용자를 만들고 프로젝트 템플릿을 사용 하 여 연결 하 여 Visual Studio에서 SharePoint 프로젝트 시스템을 확장할 수 있습니다. 이 연습에서는 사이트 열을 만들기 위한 프로젝트 항목 형식을 정의 하 고 사이트 열 프로젝트 항목을 포함 하는 새 프로젝트를 만드는 데 사용할 수 있는 프로젝트 템플릿을 만듭니다.

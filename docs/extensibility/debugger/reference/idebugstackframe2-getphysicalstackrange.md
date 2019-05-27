@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 341a4d2da740d2907172fb7761dc0c18d13d1456
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: ac507c2eac00d025a36bed3e4c3461a6b3fab2f0
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457276"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212858"
 ---
 # <a name="idebugstackframe2getphysicalstackrange"></a>IDebugStackFrame2::GetPhysicalStackRange
 스택 프레임과 연결 된 물리적 주소 범위의 컴퓨터 종속 표현을 가져옵니다.
@@ -42,13 +42,11 @@ int GetPhysicalStackRange ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `paddrMin`\
+`paddrMin`\
+[out] 이 스택 프레임과 연결 된 가장 낮은 물리적 주소를 반환 합니다.
 
- [out] 이 스택 프레임과 연결 된 가장 낮은 물리적 주소를 반환 합니다.
-
- `paddrMax`\
-
- [out] 이 스택 프레임과 연결 된 가장 높은 물리적 주소를 반환 합니다.
+`paddrMax`\
+[out] 이 스택 프레임과 연결 된 가장 높은 물리적 주소를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

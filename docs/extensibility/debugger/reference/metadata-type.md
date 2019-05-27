@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 3541181e0141e20381be7cdd24a45d7c7a0704ec
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 72434834af748ae9c11b9ac8a43d1f71848aca81
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458049"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212781"
 ---
 # <a name="metadatatype"></a>METADATA_TYPE
 이 구조체는 메타 데이터에서 가져온 필드 형식에 대 한 정보를 지정 합니다.
@@ -45,15 +45,12 @@ public struct METADATA_TYPE {
 
 ## <a name="parameters"></a>매개 변수
  `ulAppDomainID`\
-
  기호 가져온 응용 프로그램의 ID입니다. 이 응용 프로그램의 인스턴스를 고유 하 게 식별에 사용 됩니다.
 
  `guidModule`\
-
  이 필드를 포함 하는 모듈의 GUID입니다.
 
  `tokClass`\
-
  이 형식의 메타 데이터 토큰 ID입니다.
 
  [C++] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.

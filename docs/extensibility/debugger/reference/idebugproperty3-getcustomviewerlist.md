@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 82b2e6da51b695bdc6fd2fd031a1f9decf484daa
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 78060933846d60d1e8721cda676ac837ea2bff06
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457653"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66200187"
 ---
 # <a name="idebugproperty3getcustomviewerlist"></a>IDebugProperty3::GetCustomViewerList
 이 속성과 연결 된 사용자 지정 뷰어에 목록을 가져옵니다.
@@ -47,20 +47,16 @@ int GetCustomViewerList(
 
 ## <a name="parameters"></a>매개 변수
 `celtSkip`\
-
- [in] 보기 권한자를 건너뛸 수입니다.
+[in] 보기 권한자를 건너뛸 수입니다.
 
 `celtRequested`\
-
- [in] 검색할 검토자 수 (도의 크기를 지정 합니다 `rgViewers` 배열)입니다.
+[in] 검색할 검토자 수 (도의 크기를 지정 합니다 `rgViewers` 배열)입니다.
 
 `rgViewers`\
-
- [out에서] 배열을 [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) 구조를 채울 수 있습니다.
+[out에서] 배열을 [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) 구조를 채울 수 있습니다.
 
 `pceltFetched`\
-
- [out] 뷰어 실제 수를 반환 합니다.
+[out] 뷰어 실제 수를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

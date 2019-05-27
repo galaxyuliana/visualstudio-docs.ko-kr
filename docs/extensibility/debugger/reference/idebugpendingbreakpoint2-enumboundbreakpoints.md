@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e1024ecc5c1676a7873f11ac7b6866b0e181fde6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 1edb377be8a080a51f279ceb5ffc63783d4deeff
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62842626"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66209605"
 ---
 # <a name="idebugpendingbreakpoint2enumboundbreakpoints"></a>IDebugPendingBreakpoint2::EnumBoundBreakpoints
 이 보류 중인 중단점에서 바인딩된 모든 중단점을 열거 합니다.
@@ -37,10 +40,9 @@ int EnumBoundBreakpoints( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppEnum`
-
- [out] 반환 된 [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) 바인딩된 중단점을 열거 하는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`ppEnum`\
+[out] 반환 된 [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md) 바인딩된 중단점을 열거 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 중단점 삭제 된 경우.
@@ -118,6 +120,6 @@ HRESULT CPendingBreakpoint::EnumBoundBreakpoints(IEnumDebugBoundBreakpoints2** p
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [IEnumDebugBoundBreakpoints2](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2.md)

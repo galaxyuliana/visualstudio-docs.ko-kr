@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f55915297daa877b2a7e73ab0cccda1a2d70b991
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: bdc0dc1155c3ceffa5e784279f113a8c7d30a168
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62918268"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66209063"
 ---
 # <a name="idebugportex2getportprocessid"></a>IDebugPortEx2::GetPortProcessId
 포트의 프로세스 ID를 가져옵니다.
@@ -36,10 +39,9 @@ int GetPortProcessId ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pdwProcessId`
-
- [out] 포트의 실제 프로세스 ID를 반환합니다.
+## <a name="parameters"></a>매개 변수
+`pdwProcessId`\
+[out] 포트의 실제 프로세스 ID를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -47,5 +49,5 @@ int GetPortProcessId ( 
 ## <a name="remarks"></a>설명
  Win32 런타임에서 예를 들어, 일반적으로 호출 Win32 함수 `GetCurrentProcessId` 실제 프로세스 ID를 가져옵니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)

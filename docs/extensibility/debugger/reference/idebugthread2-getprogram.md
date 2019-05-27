@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 44f673690341c6a20b250f401265fe2db9fd5727
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 962a73c20e324b28a27b7cadb2459d3000fed2b7
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65224101"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199622"
 ---
 # <a name="idebugthread2getprogram"></a>IDebugThread2::GetProgram
 스레드가 실행 되는 프로그램을 가져옵니다.
@@ -40,9 +40,8 @@ int GetProgram ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `ppProgram`\
-
- [out] 반환 된 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 에이 스레드가 실행 중인 프로그램을 나타내는 개체.
+`ppProgram`\
+[out] 반환 된 [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 에이 스레드가 실행 중인 프로그램을 나타내는 개체.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

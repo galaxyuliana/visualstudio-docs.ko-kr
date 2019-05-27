@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cae097b5ce02993fc125aafaffded32a35dde0a5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: bba8147c79ef00ede0a0aac0f0841053c7f2ef43
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62874575"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66201095"
 ---
 # <a name="idebugexceptionevent2passtodebuggee"></a>IDebugExceptionEvent2::PassToDebuggee
 예외를 삭제 해야 하는 경우 또는 예외 실행을 다시 시작할 때 디버깅 중인 프로그램에 전달 되어야 합니다 있는지 여부를 지정 합니다.
@@ -36,10 +39,9 @@ int PassToDebuggee(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `fPass`
-
- [in] 0이 아닌 값 (`TRUE`) 예외 0 또는 실행을 다시 시작할 때 디버깅 중인 프로그램에 전달 되어야 하는 경우 (`FALSE`) 예외를 삭제 해야 하는 경우.
+## <a name="parameters"></a>매개 변수
+`fPass`\
+[in] 0이 아닌 값 (`TRUE`) 예외 0 또는 실행을 다시 시작할 때 디버깅 중인 프로그램에 전달 되어야 하는 경우 (`FALSE`) 예외를 삭제 해야 하는 경우.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -49,7 +51,7 @@ int PassToDebuggee(
 
  IDE 나타날 수는 [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md) 이벤트 및 호출 합니다 [계속](../../../extensibility/debugger/reference/idebugprogram2-continue.md) 메서드. 디버그 엔진 (DE) 경우를 처리 하는 기본 동작이 있어야 합니다.는 `PassToDebuggee` 메서드가 호출 되지 않습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugExceptionEvent2](../../../extensibility/debugger/reference/idebugexceptionevent2.md)
 - [CanPassToDebuggee](../../../extensibility/debugger/reference/idebugexceptionevent2-canpasstodebuggee.md)
 - [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md)

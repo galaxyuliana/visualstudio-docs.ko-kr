@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 2ac7e834b948d663ea9b537b36720864f25fe94c
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: ff2e7583577f8626ed4cd1ad71e2c5a83d30eb00
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65225965"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199591"
 ---
 # <a name="idebugthread2getthreadid"></a>IDebugThread2::GetThreadId
 시스템 스레드 식별자를 가져옵니다.
@@ -41,8 +41,7 @@ int GetThreadId (
 
 ## <a name="parameters"></a>매개 변수
 `pdwThreadId`\
-
- [out] 시스템 스레드 식별자를 반환합니다.
+[out] 시스템 스레드 식별자를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

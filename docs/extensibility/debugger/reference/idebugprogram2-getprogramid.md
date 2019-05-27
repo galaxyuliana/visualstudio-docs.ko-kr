@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a3dfec12193efda49a520a40418b93f2d4cef6b1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: ca86175d34cc1bfd54882adda7e1f7cb464fb22f
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62870194"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212642"
 ---
 # <a name="idebugprogram2getprogramid"></a>IDebugProgram2::GetProgramId
 이 프로그램에 대 한 GUID를 가져옵니다.
@@ -36,10 +39,9 @@ int GetProgramId( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pguidProgramId`
-
- [out] 반환 된 `GUID` 이 프로그램에 대 한 합니다.
+## <a name="parameters"></a>매개 변수
+`pguidProgramId`\
+[out] 반환 된 `GUID` 이 프로그램에 대 한 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -47,7 +49,7 @@ int GetProgramId( 
 ## <a name="remarks"></a>설명
  디버그 엔진 (DE)에 전달 된 원래 프로그램 식별자를 반환 해야 합니다 [OnAttach](../../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) 또는 [연결](../../../extensibility/debugger/reference/idebugengine2-attach.md) 메서드. 따라서 프로그램의 id 간에 디버거 구성 요소입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [OnAttach](../../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md)
 - [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 188cc4e8b1c58a7fd8f9f1c99b8d5f544710ef8c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 02bc1245026480f97bcc21f1af086f87284022df
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62875850"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205420"
 ---
 # <a name="idebugcustomattributegetattributebytes"></a>IDebugCustomAttribute::GetAttributeBytes
 바이트의 blob으로 특성 정보를 가져옵니다.
@@ -38,14 +41,12 @@ int GetAttributeBytes(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppBlob`
+## <a name="parameters"></a>매개 변수
+`ppBlob`\
+[out에서] 특성 (바이트)를 사용 하 여 입력은 배열입니다.
 
- [out에서] 특성 (바이트)를 사용 하 여 입력은 배열입니다.
-
- `pdwLen`
-
- [out에서] 반환할 바이트의 최대 수를 지정 된 `ppBlob` 배열 및 배열에 실제로 기록 된 바이트 수를 반환 합니다.
+`pdwLen`\
+[out에서] 반환할 바이트의 최대 수를 지정 된 `ppBlob` 배열 및 배열에 실제로 기록 된 바이트 수를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -55,5 +56,5 @@ int GetAttributeBytes(
 
  특성 바이트는 사용자 지정 특성의 원시 데이터를 나타냅니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCustomAttribute](../../../extensibility/debugger/reference/idebugcustomattribute.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7e6275f67e07c88cb337c77bc672394af539b8e2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 780f1c357ef4c8f8a8114689e7495f7882af9723
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62875949"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66205200"
 ---
 # <a name="idebugcustomattributequery2getcustomattributebyname"></a>IDebugCustomAttributeQuery2::GetCustomAttributeByName
 사용자 지정 특성의 이름이 지정 된 사용자 지정 특성 (바이트)를 가져옵니다.
@@ -40,18 +43,15 @@ int GetCustomAttributeByName(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pszCustomAttributeName`
+## <a name="parameters"></a>매개 변수
+`pszCustomAttributeName`\
+[in] 검색할 사용자 지정 특성의 이름을 포함 하는 문자열입니다.
 
- [in] 검색할 사용자 지정 특성의 이름을 포함 하는 문자열입니다.
+`ppBlob`\
+[out에서] 사용자 지정 특성 (바이트)를 사용 하 여 입력은 배열입니다.
 
- `ppBlob`
-
- [out에서] 사용자 지정 특성 (바이트)를 사용 하 여 입력은 배열입니다.
-
- `pdwLen`
-
- [out에서] 반환할 바이트의 최대 수를 지정 된 `ppBlob` 배열 및 배열에 실제로 기록 된 바이트 수를 반환 합니다.
+`pdwLen`\
+[out에서] 반환할 바이트의 최대 수를 지정 된 `ppBlob` 배열 및 배열에 실제로 기록 된 바이트 수를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 하거나 사용자 지정 특성이 없으면 S_FALSE를 반환 합니다. 그러지 않으면 오류 코드가 반환됩니다.
@@ -63,6 +63,6 @@ int GetCustomAttributeByName(
 
  경우는 `ppBlob` 고 `pdwLen` 매개 변수가 null 값으로 설정, 사용자 지정 특성 단순히 있는지 확인 하기 위해이 메서드를 사용할 수 있습니다. 쉬운 대 안으로 것 인데, 호출 하 여 [IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery2-iscustomattributedefined.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCustomAttributeQuery2](../../../extensibility/debugger/reference/idebugcustomattributequery2.md)
 - [IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery2-iscustomattributedefined.md)

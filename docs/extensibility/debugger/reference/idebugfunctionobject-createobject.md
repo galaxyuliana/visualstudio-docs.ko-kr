@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 54d1e6c21cdf4e16db69cbad0947e864e7c1847e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 5877f43402d2bac8284be8d24d0c94cd2052a313
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62919410"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66200852"
 ---
 # <a name="idebugfunctionobjectcreateobject"></a>IDebugFunctionObject::CreateObject
 생성자를 사용 하 여 개체를 만듭니다.
@@ -42,22 +45,18 @@ int CreateObject(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pConstructor`
+## <a name="parameters"></a>매개 변수
+`pConstructor`\
+[in] [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) 만들려는 개체의 생성자를 나타내는 개체입니다.
 
- [in] [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) 만들려는 개체의 생성자를 나타내는 개체입니다.
+`dwArgs`\
+[in] 매개 변수 개수는 `pArg` 배열입니다. 생성자에 전달 된 매개 변수의 수를 나타냅니다.
 
- `dwArgs`
+`pArg`\
+[in] 배열을 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 생성자에 전달 된 매개 변수를 나타내는 개체입니다.
 
- [in] 매개 변수 개수는 `pArg` 배열입니다. 생성자에 전달 된 매개 변수의 수를 나타냅니다.
-
- `pArg`
-
- [in] 배열을 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 생성자에 전달 된 매개 변수를 나타내는 개체입니다.
-
- `ppObject`
-
- [out] 반환 된 `IDebugObject` 새로 만든된 개체를 나타내는입니다.
+`ppObject`\
+[out] 반환 된 `IDebugObject` 새로 만든된 개체를 나타내는입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -67,6 +66,6 @@ int CreateObject(
 
  개체 매개 변수는 생성자가 필요 하지 않으면 하는 경우 호출 된 [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)
 - [CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md)

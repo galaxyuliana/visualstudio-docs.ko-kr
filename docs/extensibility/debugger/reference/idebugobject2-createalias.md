@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 226d584a2773a342b8247ff337e686be2da6bf9b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: b2463095269103bcc6d2387451b4474af70698d9
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62843037"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66202367"
 ---
 # <a name="idebugobject2createalias"></a>IDebugObject2::CreateAlias
 고유 ID 또는이 개체에 대 한 별칭을 만들거나 기존 별칭을 반환 합니다.
@@ -36,10 +39,9 @@ int CreateAlias(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppAlias`
-
- [out] 새로운 (또는 기존) 별칭입니다.
+## <a name="parameters"></a>매개 변수
+`ppAlias`\
+[out] 새로운 (또는 기존) 별칭입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -47,6 +49,6 @@ int CreateAlias(
 ## <a name="remarks"></a>설명
  별칭은 메모리에 개체는 특정 개체를 나타내는 레이블입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

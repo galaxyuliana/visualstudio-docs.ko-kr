@@ -16,10 +16,10 @@
   items:
     - name: Visual Studio 설치
       href: install/install-visual-studio.md
-    - name: 계정
+    - name: 개인 설정 계정
       items:
         - name: Visual Studio에 로그인
-          displayName: peronalization accounts
+          displayName: personalization accounts
           href: ide/signing-in-to-visual-studio.md
         - name: Work with multiple user accounts
           href: ide/work-with-multiple-user-accounts.md
@@ -43,15 +43,13 @@
       href: install/update-visual-studio.md
     - name: Visual Studio 수정
       href: install/modify-visual-studio.md
-    - name: 도움말 뷰어 설치
-      href: help-viewer/installation.md
     - name: Visual Studio 복구
       href: install/repair-visual-studio.md
     - name: Visual Studio 제거
       href: install/uninstall-visual-studio.md
     - name: Visual Studio 관리자 가이드
       items:
-        - name: 관리자 가이드
+        - name: 개요
           href: install/visual-studio-administrator-guide.md
         - name: 명령줄 사용
           items:
@@ -138,6 +136,8 @@
           href: install/advanced-build-tools-container.md
         - name: 알려진 컨테이너 관련 문제
           href: install/build-tools-container-issues.md
+    - name: 도움말 뷰어 설치
+      href: help-viewer/installation.md
 - name: 빠른 시작
   items:
     - name: Visual Studio 오리엔테이션
@@ -231,6 +231,8 @@
               items:
                 - name: 프로젝트 및 항목 템플릿 만들기
                   href: ide/creating-project-and-item-templates.md
+                - name: 템플릿에 태그 추가
+                  href: ide/template-tags.md
                 - name: 프로젝트 템플릿 만들기
                   href: ide/how-to-create-project-templates.md
                 - name: 다중 프로젝트 템플릿 만들기

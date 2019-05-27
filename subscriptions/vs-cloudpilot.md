@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에서 제공하는 CloudPilot 혜택 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: f251073337c862e0d96fb3550b163da29ce8f42e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 78c72f68c8553e7e80b6f26846c19ffcb5f91184
+ms.sourcegitcommit: 283f2dbce044a18e9f6ac6398f6fc78e074ec1ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62948429"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65805361"
 ---
 # <a name="the-cloudpilot-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 CloudPilot 혜택
 
@@ -86,4 +86,4 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
 
 ## <a name="next-steps"></a>다음 단계
 
-구독과 함께 제공되는 Azure 혜택을 아직 활성화하지 않은 경우 [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)를 방문하여 [도구] 범주의 Azure 타일을 클릭하고, Azure 구독을 설정하고, 무료 Azure 크레딧을 사용합니다.
+구독과 함께 제공되는 Azure 혜택을 아직 활성화하지 않은 경우 [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)를 방문하여 도구 범주의 Azure 타일을 클릭하고, Azure 구독을 설정하고, Azure 크레딧을 사용합니다.

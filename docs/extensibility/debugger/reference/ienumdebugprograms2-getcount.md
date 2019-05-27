@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 795404d0cae2dd5cbf4f6f913b3ba71cf3fe34a0
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 656ef6cd8bab9ed1946dd8e04a81c93aa428324e
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65223433"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66210670"
 ---
 # <a name="ienumdebugprograms2getcount"></a>IEnumDebugPrograms2::GetCount
 열거형의 요소 수를 반환합니다.
@@ -40,9 +40,8 @@ int GetCount(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pcelt`\
-
- [out] 열거형의 요소 수를 반환합니다.
+`pcelt`\
+[out] 열거형의 요소 수를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

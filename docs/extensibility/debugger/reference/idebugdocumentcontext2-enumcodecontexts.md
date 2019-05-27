@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dffee73c9412bd9732ca3dd80aef8b9cb6fdabfd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 71c3fda7da3b676a3a878e17192eca7ae19a5f66
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62921494"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66204716"
 ---
 # <a name="idebugdocumentcontext2enumcodecontexts"></a>IDebugDocumentContext2::EnumCodeContexts
 이 문서 컨텍스트와 연결 된 모든 코드 컨텍스트 목록을 검색 합니다.
@@ -36,10 +39,8 @@ int EnumCodeContexts(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`ppEnumCodeCxts`
-
- [out] 반환 된 [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md) 코드 컨텍스트의 목록을 포함 하는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`ppEnumCodeCxts`\
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -106,6 +107,6 @@ HRESULT CDebugContext::EnumCodeContexts(IEnumDebugCodeContexts2 **ppEnumCodeCxts
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
 - [IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md)

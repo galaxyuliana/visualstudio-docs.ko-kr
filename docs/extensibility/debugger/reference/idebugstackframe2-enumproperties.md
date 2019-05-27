@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: fecff3d6a992360f2fec385e93d88a65b368db9f
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 427e76036329eef95398787a87d795538c480ba7
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457499"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66208712"
 ---
 # <a name="idebugstackframe2enumproperties"></a>IDebugStackFrame2::EnumProperties
 스택 프레임을 로컬 변수와 같은 연관 된 속성에 대 한 열거자를 만듭니다.
@@ -50,29 +50,23 @@ int EnumProperties ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `dwFieldSpec`\
+`dwFieldSpec`\
+[in] 플래그의 조합을 합니다 [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) 열거형의 열거 된 필드를 지정 하는 [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 채울 구조체가 합니다.
 
- [in] 플래그의 조합을 합니다 [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) 열거형의 열거 된 필드를 지정 하는 [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 채울 구조체가 합니다.
+`nRadix`\
+[in] 모든 숫자 정보를 서식 지정 하는 데 사용할 기 수입니다.
 
- `nRadix`\
+`refiid`\
+[in] 선택 하는 데 사용 하는 필터의 GUID [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 구조체가 같은 열거 되도록 `guidFilterLocals`합니다.
 
- [in] 모든 숫자 정보를 서식 지정 하는 데 사용할 기 수입니다.
+`dwTimeout`\
+[in] 이 메서드에서 반환 되기 전에 대기할 밀리초에서는 최대 시간입니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
 
- `refiid`\
+`pcelt`\
+[out] 열거 속성의 수를 반환 합니다. 호출할 때와 동일 합니다 [GetCount](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2-getcount.md) 메서드.
 
- [in] 선택 하는 데 사용 하는 필터의 GUID [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 구조체가 같은 열거 되도록 `guidFilterLocals`합니다.
-
- `dwTimeout`\
-
- [in] 이 메서드에서 반환 되기 전에 대기할 밀리초에서는 최대 시간입니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
-
- `pcelt`\
-
- [out] 열거 속성의 수를 반환 합니다. 호출할 때와 동일 합니다 [GetCount](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2-getcount.md) 메서드.
-
- `ppEnum`\
-
- [out] 반환 된 [IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) desired 속성의 목록을 포함 하는 개체입니다.
+`ppEnum`\
+[out] 반환 된 [IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) desired 속성의 목록을 포함 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

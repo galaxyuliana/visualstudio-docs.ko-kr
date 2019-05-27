@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: fa66f61c7e72f1c629fe664baf2c2a5dcc9631e2
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 7d9e2ff4b853baec5da19b4c62cffe4e86102736
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458885"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211596"
 ---
 # <a name="idebugproperty2getextendedinfo"></a>IDebugProperty2::GetExtendedInfo
 확장 속성에 대 한 정보를 가져옵니다.
@@ -42,13 +42,11 @@ int GetExtendedInfo ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `guidExtendedInfo`\
+`guidExtendedInfo`\
+[in] 검색할 확장 정보의 형식을 결정 하는 GUID입니다. 세부 정보에 대 한 설명을 참조 하세요.
 
- [in] 검색할 확장 정보의 형식을 결정 하는 GUID입니다. 세부 정보에 대 한 설명을 참조 하세요.
-
- `pExtendedInfo`\
-
- [out] 반환 된 `VARIANT` (C++) 또는 개체 (C#)는 확장된 속성 정보를 검색할 수입니다. 예를 들어이 매개 변수를 반환할 수 있습니다는 `IUnknown` 에 대해 쿼리할 수 있는 인터페이스를 [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md) 인터페이스입니다. 세부 정보에 대 한 설명을 참조 하세요.
+`pExtendedInfo`\
+[out] 반환 된 `VARIANT` (C++) 또는 개체 (C#)는 확장된 속성 정보를 검색할 수입니다. 예를 들어이 매개 변수를 반환할 수 있습니다는 `IUnknown` 에 대해 쿼리할 수 있는 인터페이스를 [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md) 인터페이스입니다. 세부 정보에 대 한 설명을 참조 하세요.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 반환 `S_GETEXTENDEDINFO_NO_EXTENDEDINFO` 검색할 확장된 정보가 없는 경우.

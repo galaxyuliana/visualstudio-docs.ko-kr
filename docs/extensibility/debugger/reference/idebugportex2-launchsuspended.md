@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a8d946097d7a8f50cab65b41aaef73654dfbd18a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: d554c4906867ca28cfab295ebea80cca15dcc879
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62918314"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66209012"
 ---
 # <a name="idebugportex2launchsuspended"></a>IDebugPortEx2::LaunchSuspended
 실행 파일을 시작합니다.
@@ -50,38 +53,30 @@ int LaunchSuspended( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pszExe`
+## <a name="parameters"></a>매개 변수
+`pszExe`\
+[in] 시작할 실행 파일의 이름입니다. 전체 경로 또는 상대에 지정 된 작업 디렉터리에이 수는 `pszDir` 매개 변수입니다.
 
- [in] 시작할 실행 파일의 이름입니다. 전체 경로 또는 상대에 지정 된 작업 디렉터리에이 수는 `pszDir` 매개 변수입니다.
+`pszArgs`\
+[in] 실행 파일에 전달할 인수입니다. 인수가 없는 경우 null 값이 될 수 있습니다.
 
- `pszArgs`
+`pszDir`\
+[in] 실행 파일에서 사용 하는 작업 디렉터리의 이름입니다. 작업 디렉터리가 필요한 경우 null 값이 될 수 있습니다.
 
- [in] 실행 파일에 전달할 인수입니다. 인수가 없는 경우 null 값이 될 수 있습니다.
+`bstrEnv`\
+[in] 환경 블록 뒤에 추가 NULL 종결자를 null로 끝나는 문자열입니다.
 
- `pszDir`
+`hStdInput`\
+[in] 대체 입력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
 
- [in] 실행 파일에서 사용 하는 작업 디렉터리의 이름입니다. 작업 디렉터리가 필요한 경우 null 값이 될 수 있습니다.
+`hStdOutput`\
+[in] 대체 출력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
 
- `bstrEnv`
+`hStdError`\
+[in] 대체 오류 출력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
 
- [in] 환경 블록 뒤에 추가 NULL 종결자를 null로 끝나는 문자열입니다.
-
- `hStdInput`
-
- [in] 대체 입력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
-
- `hStdOutput`
-
- [in] 대체 출력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
-
- `hStdError`
-
- [in] 대체 오류 출력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
-
- `ppPortProcess`
-
- [out] 반환 된 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 시작된 프로세스를 나타내는 개체입니다.
+`ppPortProcess`\
+[out] 반환 된 [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) 시작된 프로세스를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -91,7 +86,7 @@ int LaunchSuspended( 
 
  또한 디버그 엔진에서 프로그램을 시작할 수 있습니다. 세부 정보를 참조 하세요 [프로그램을 실행할](../../../extensibility/debugger/launching-a-program.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [ResumeProcess](../../../extensibility/debugger/reference/idebugportex2-resumeprocess.md)

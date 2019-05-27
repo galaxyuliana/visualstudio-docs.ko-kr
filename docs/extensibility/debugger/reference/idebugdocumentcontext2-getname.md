@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2c770c339399aaf01fee9598318c94266a391c55
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: ec18ff6e906dd62383a7ff72dbb4502c7f8ba301
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62921471"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66204641"
 ---
 # <a name="idebugdocumentcontext2getname"></a>IDebugDocumentContext2::GetName
 이 문서 컨텍스트를 포함 하는 문서의 표시할 수 있는 이름을 가져옵니다.
@@ -38,14 +41,12 @@ int GetName(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`gnType`
+## <a name="parameters"></a>매개 변수
+`gnType`\
+[in] 값을 [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) 반환할 이름의 형식을 지정 하는 열거형입니다.
 
- [in] 값을 [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md) 반환할 이름의 형식을 지정 하는 열거형입니다.
-
-`pbstrFileName`
-
- [out] 파일의 이름을 반환합니다.
+`pbstrFileName`\
+[out] 파일의 이름을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -93,6 +94,6 @@ HRESULT CDebugContext::GetName(GETNAME_TYPE gnType, BSTR* pbstrFileName)
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)
 - [GETNAME_TYPE](../../../extensibility/debugger/reference/getname-type.md)

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 07d933562feb3a349fda8533d1d25cd46ec84b4d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 4a9da518d36c570bd53fa44118972366f9bf6ab4
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62875999"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66204952"
 ---
 # <a name="idebugdisassemblystream2getscope"></a>IDebugDisassemblyStream2::GetScope
 디스어셈블리 스트림의 범위를 가져옵니다.
@@ -36,10 +39,9 @@ int GetScope( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pdwScope`
-
- [out] 값을 반환 합니다 [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md) 디스어셈블리 스트림에이 범위를 설명 하는 열거형입니다.
+## <a name="parameters"></a>매개 변수
+`pdwScope`\
+[out] 값을 반환 합니다 [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md) 디스어셈블리 스트림에이 범위를 설명 하는 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -47,6 +49,6 @@ int GetScope( 
 ## <a name="remarks"></a>설명
  예를 들어 범위는 디스어셈블리는 함수 또는 전체 모듈을 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugDisassemblyStream2](../../../extensibility/debugger/reference/idebugdisassemblystream2.md)
 - [DISASSEMBLY_STREAM_SCOPE](../../../extensibility/debugger/reference/disassembly-stream-scope.md)
