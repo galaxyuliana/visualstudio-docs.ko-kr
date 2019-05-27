@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f700a6f6ff06fb37660419c46a394a0449d976bf
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: de41c3f611383afabfd6fe051edb8dbe83d266b4
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62871291"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66202759"
 ---
 # <a name="idebugprocess2attach"></a>IDebugProcess2::Attach
 세션 디버그 관리자 (SDM) 프로세스에 연결 합니다.
@@ -42,22 +45,18 @@ int Attach( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pCallback`
+## <a name="parameters"></a>매개 변수
+`pCallback`\
+[in] [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 디버그 이벤트 알림에 사용 되는 개체입니다.
 
- [in] [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 디버그 이벤트 알림에 사용 되는 개체입니다.
+`rgguidSpecificEngines`\
+[in] 배열 프로세스에서 실행 되는 프로그램을 디버그 하는 데 사용할 디버그 엔진의 Guid입니다. 이 매개 변수는 null 값일 수 있습니다. 세부 정보에 대 한 설명을 참조 하세요.
 
- `rgguidSpecificEngines`
+`celtSpecificEngines`\
+[in] 수가 디버그 엔진에 `rgguidSpecificEngines` 배열과의 크기는 `rghrEngineAttach` 배열입니다.
 
- [in] 배열 프로세스에서 실행 되는 프로그램을 디버그 하는 데 사용할 디버그 엔진의 Guid입니다. 이 매개 변수는 null 값일 수 있습니다. 세부 정보에 대 한 설명을 참조 하세요.
-
- `celtSpecificEngines`
-
- [in] 수가 디버그 엔진에 `rgguidSpecificEngines` 배열과의 크기는 `rghrEngineAttach` 배열입니다.
-
- `rghrEngineAttach`
-
- [out에서] 디버그 엔진에서 반환 된 HRESULT 코드의 배열입니다. 에 지정 된이 배열의 크기는 `celtSpecificEngines` 매개 변수입니다. 각 코드는 일반적으로 `S_OK` 또는 `S_ATTACH_DEFERRED`합니다. 후자는 DE 없는 프로그램에 현재 연결 되어 있는지 나타냅니다.
+`rghrEngineAttach`\
+[out에서] 디버그 엔진에서 반환 된 HRESULT 코드의 배열입니다. 에 지정 된이 배열의 크기는 `celtSpecificEngines` 매개 변수입니다. 각 코드는 일반적으로 `S_OK` 또는 `S_ATTACH_DEFERRED`합니다. 후자는 DE 없는 프로그램에 현재 연결 되어 있는지 나타냅니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 다음 표에서 가능한 다른 값을 보여 줍니다.
@@ -73,6 +72,6 @@ int Attach( 
 
  프로세스에서 발생 하는 모든 디버그 이벤트가 전송 되는 지정 된 [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 개체입니다. 이 `IDebugEventCallback2` SDM이이 메서드를 호출 하는 경우 개체는 제공 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

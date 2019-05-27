@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d1b82921c2d08ed74ba05bb2ccf8ecfb642fa9cc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 6c4a6c18f2203a1e03751423ce9bc972be9e4801
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62923117"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203991"
 ---
 # <a name="idebugbreakpointresolution2getresolutioninfo"></a>IDebugBreakpointResolution2::GetResolutionInfo
 이 중단점을 설명 하는 중단점 해결 정보를 가져옵니다.
@@ -38,14 +41,12 @@ int GetResolutionInfo( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwFields`
+## <a name="parameters"></a>매개 변수
+`dwFields`\
+[in] 플래그의 조합을 [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md) 의 필드를 결정 하는 열거형을 `pBPResolutionInfo` 작성 해야 할 매개 변수는 합니다.
 
- [in] 플래그의 조합을 [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md) 의 필드를 결정 하는 열거형을 `pBPResolutionInfo` 작성 해야 할 매개 변수는 합니다.
-
- `pBPResolutionInfo`
-
- [out] 합니다 [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) 이 중단점에 대 한 정보로 채워질 구조입니다.
+`pBPResolutionInfo`\
+[out] 합니다 [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) 이 중단점에 대 한 정보로 채워질 구조입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다.
@@ -140,7 +141,7 @@ HRESULT CDebugBreakpointResolution::CopyBP_RESOLUTION_INFO(
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)
 - [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)
 - [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md)

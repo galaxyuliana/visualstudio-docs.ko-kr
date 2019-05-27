@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2212738a2d2d14ec454cfd42db44f812f72a035a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 55037d4a7dbc25cb422929020cf674eb41fbfe93
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62920178"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66204135"
 ---
 # <a name="idebugexpression2evaluateasync"></a>IDebugExpression2::EvaluateAsync
 이 메서드는 비동기적으로 식을 계산 합니다.
@@ -38,14 +41,12 @@ int EvaluateAsync(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`dwFlags`
+## <a name="parameters"></a>매개 변수
+`dwFlags`\
+[in] 플래그의 조합 된 [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) 식 계산을 제어 하는 열거형입니다.
 
- [in] 플래그의 조합 된 [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) 식 계산을 제어 하는 열거형입니다.
-
-`pExprCallback`
-
- [in] 이 매개 변수는 항상 null 값입니다.
+`pExprCallback`\
+[in] 이 매개 변수는 항상 null 값입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 일반적인 오류 코드가입니다.
@@ -74,7 +75,7 @@ HRESULT CExpression::EvaluateAsync(EVALFLAGS dwFlags,
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
 - [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)
 - [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)

@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 6d806b5dc129e2d82c0b6a1aa49fc1f26a2dd393
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 2549793df7799c86d610bb65871746516c6a66d4
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457921"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211520"
 ---
 # <a name="idebugproperty2getmemorycontext"></a>IDebugProperty2::GetMemoryContext
 속성 값의 메모리 컨텍스트를 가져옵니다.
@@ -40,9 +40,8 @@ int GetMemoryContext(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `ppMemory`\
-
- [out] 반환 된 [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) 이 속성과 연결 된 메모리를 나타내는 개체입니다.
+`ppMemory`\
+[out] 반환 된 [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) 이 속성과 연결 된 메모리를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 반환 `S_GETMEMORYCONTEXT_NO_MEMORY_CONTEXT` 검색할 메모리 컨텍스트가 있는 경우.

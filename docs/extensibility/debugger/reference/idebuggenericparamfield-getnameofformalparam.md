@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8e927c6fb85a4e654224f95564f6575141783137
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 46d9b64b02379f6d9e4bc14c6852d1096c1f565b
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62873463"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211822"
 ---
 # <a name="idebuggenericparamfieldgetnameofformalparam"></a>IDebugGenericParamField::GetNameOfFormalParam
 이 제네릭 매개 변수의 이름을 검색합니다.
@@ -35,10 +38,9 @@ int GetNameOfFormalParam (
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pbstrName`
-
- [out] 이 제네릭 매개 변수의 이름입니다.
+## <a name="parameters"></a>매개 변수
+`pbstrName`\
+[out] 이 제네릭 매개 변수의 이름입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -65,5 +67,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugGenericParamField](../../../extensibility/debugger/reference/idebuggenericparamfield.md)

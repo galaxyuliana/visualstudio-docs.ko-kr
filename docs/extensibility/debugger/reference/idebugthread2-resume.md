@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 5fc7b8f5cf5cd5360a60e8c6fbf3b6bf43415575
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 3b96ddd99c2d3377a5c48bb40660e17671ded0ca
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65225994"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199522"
 ---
 # <a name="idebugthread2resume"></a>IDebugThread2::Resume
 스레드의 실행을 다시 시작합니다.
@@ -40,9 +40,8 @@ int Resume ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pdwSuspendCount`\
-
- [out] 작업을 다시 시작 후 일시 중단 횟수를 반환합니다.
+`pdwSuspendCount`\
+[out] 작업을 다시 시작 후 일시 중단 횟수를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

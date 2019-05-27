@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c2714a038c2cede4b351de92454bb74a5052805c
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 5b78afc3ace3764856fd0a83899be2eae597239e
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65223581"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203671"
 ---
 # <a name="ieevisualizerservicegetcustomviewerlist"></a>IEEVisualizerService::GetCustomViewerList
 이 메서드는이 서비스에서 인식 되는 형식 시각화 도우미의 목록을 반환 합니다.
@@ -46,21 +46,17 @@ int GetCustomViewerList(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `celtSkip`\
+`celtSkip`\
+[in] 시각화 도우미를 건너뛸 수 있습니다.
 
- [in] 시각화 도우미를 건너뛸 수 있습니다.
+`celRequested`\
+[in] 시각화 도우미를 검색할 수 (또한의 크기를 지정 된 `rgViewers` 배열)입니다.
 
- `celRequested`\
+`rgViewers`\
+[out에서] 배열을 [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) 구조를 채울 수 있습니다.
 
- [in] 시각화 도우미를 검색할 수 (또한의 크기를 지정 된 `rgViewers` 배열)입니다.
-
- `rgViewers`\
-
- [out에서] 배열을 [DEBUG_CUSTOM_VIEWER](../../../extensibility/debugger/reference/debug-custom-viewer.md) 구조를 채울 수 있습니다.
-
- `pceltFetched`\
-
- [out] 실제로 검색 하는 시각화 도우미의 수입니다.
+`pceltFetched`\
+[out] 실제로 검색 하는 시각화 도우미의 수입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

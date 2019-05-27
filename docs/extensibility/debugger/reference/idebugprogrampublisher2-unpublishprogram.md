@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 90d56149d4e942c8fe5206fad3ce740f510a451d
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 8ce275d0875970fe23ed20d624df6d3b94489757
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458938"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211667"
 ---
 # <a name="idebugprogrampublisher2unpublishprogram"></a>IDebugProgramPublisher2::UnpublishProgram
 디버깅 하도록 사용할 수 없는 프로그램을 만듭니다.
@@ -40,9 +40,8 @@ int UnpublishProgram(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pDebuggeeInterface`\
-
- [in] `IUnknown` 프로그램에 대 한 인터페이스입니다. 제공 된 동일한 값을 [PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md) 메서드 제거할 프로그램을 고유 하 게 식별 하 고 (즉, 쿠키로 사용 됩니다).
+`pDebuggeeInterface`\
+[in] `IUnknown` 프로그램에 대 한 인터페이스입니다. 제공 된 동일한 값을 [PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md) 메서드 제거할 프로그램을 고유 하 게 식별 하 고 (즉, 쿠키로 사용 됩니다).
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

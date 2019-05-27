@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5c674b73ad6ec45b1e388f62fbd3103afb5daedb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 05222901081fe3ba93f4648f3a2689d3d9a5c6ea
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62918113"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66204472"
 ---
 # <a name="idebugportsupplier2addport"></a>IDebugPortSupplier2::AddPort
 포트를 추가합니다.
@@ -38,14 +41,12 @@ int AddPort( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pRequest`
+## <a name="parameters"></a>매개 변수
+`pRequest`\
+[in] [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) 추가할 포트를 설명 하는 개체입니다.
 
- [in] [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) 추가할 포트를 설명 하는 개체입니다.
-
- `ppPort`
-
- [out] 반환 된 [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) 포트를 나타내는 개체입니다.
+`ppPort`\
+[out] 반환 된 [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) 포트를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -53,7 +54,7 @@ int AddPort( 
 ## <a name="remarks"></a>설명
  이 메서드는 실제로 active 포트의 포트 공급자의 내부 목록에 추가할 뿐 아니라 요청 된 포트를 만듭니다. 합니다 [CanAddPort](../../../extensibility/debugger/reference/idebugportsupplier2-canaddport.md) 가능한 시간이 많이 걸리는 지연 되지 않도록 하려면 메서드를 처음 호출할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
 - [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

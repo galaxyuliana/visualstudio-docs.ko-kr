@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bdfa97ccdbf139ce28ec58c07864551c4e6a7d5a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 01465a0b921d61a07c4d31c8d4d4ba4b70e5bafd
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62922644"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66206851"
 ---
 # <a name="idebugclassfieldenumnestedenums"></a>IDebugClassField::EnumNestedEnums
 이 클래스의 중첩 된 열거자에 대 한 열거자를 만듭니다.
@@ -36,10 +39,9 @@ int EnumNestedEnums(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`ppEnum`
-
- [out] 반환 된 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 중첩 된 열거형의 목록을 나타내는 개체입니다. 중첩 된 열거형에 없는 경우 null 값을 반환 합니다.
+## <a name="parameters"></a>매개 변수
+`ppEnum`\
+[out] 반환 된 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 중첩 된 열거형의 목록을 나타내는 개체입니다. 중첩 된 열거형에 없는 경우 null 값을 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 S_OK를 반환 하거나 중첩 된 열거자에 없는 경우 S_FALSE를 반환 합니다. 그러지 않으면 오류 코드가 반환됩니다.
@@ -57,7 +59,7 @@ class RootClass {
 
 `EnumNestedEnums` 메서드는 반환를 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 하나가 포함 된 개체 [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md) 을 나타내는 개체를 `NestedEnum` 열거형입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [IDebugEnumField](../../../extensibility/debugger/reference/idebugenumfield.md)

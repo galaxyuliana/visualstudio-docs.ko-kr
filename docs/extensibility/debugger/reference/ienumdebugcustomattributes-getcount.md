@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 567e53d92ded6b6ba37c149ff48c8473c98fcc34
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 203a23e6b9aad22f45d2ff41431614f56d5140bc
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65225839"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66208282"
 ---
 # <a name="ienumdebugcustomattributesgetcount"></a>IEnumDebugCustomAttributes::GetCount
 열거자의 사용자 지정 특성의 수를 가져옵니다.
@@ -40,9 +40,8 @@ int GetCount(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pcelt`\
-
- [out] 열거형의 요소 수를 반환합니다.
+`pcelt`\
+[out] 열거형의 요소 수를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

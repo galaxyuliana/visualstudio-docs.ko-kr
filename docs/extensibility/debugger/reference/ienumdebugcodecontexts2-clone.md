@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: aabff099408be8dcaceb7837208ce300be2c2d3b
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: a75c1833eccad8350cfb17264cc531daf8f5e0a7
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65223386"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66208438"
 ---
 # <a name="ienumdebugcodecontexts2clone"></a>IEnumDebugCodeContexts2::Clone
 별도 개체와 현재 열거형의 복사본을 반환합니다.
@@ -40,9 +40,8 @@ int Clone(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `ppEnum`\
-
- [out] 이 열거형은 개별 개체로 복사본을 반환 합니다.
+`ppEnum`\
+[out] 이 열거형은 개별 개체로 복사본을 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

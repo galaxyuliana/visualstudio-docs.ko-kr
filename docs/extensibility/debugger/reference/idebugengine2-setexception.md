@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 288e77ce539a26764a897656c79649720be2438e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 5146b730e6e58e99c22f73bd95cd500e5450ac06
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62920927"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66207563"
 ---
 # <a name="idebugengine2setexception"></a>IDebugEngine2::SetException
 디버그 엔진 (DE) 지정 된 예외를 처리 하는 방법을 지정 합니다.
@@ -36,10 +39,9 @@ int SetException( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pException`
-
- [in] [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) 예외 및 디버깅 하는 방법을 설명 하는 구조입니다.
+## <a name="parameters"></a>매개 변수
+`pException`\
+[in] [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md) 예외 및 디버깅 하는 방법을 설명 하는 구조입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -47,6 +49,6 @@ int SetException( 
 ## <a name="remarks"></a>설명
  첫 번째 기회에 예외를 생성 하는 프로그램을 중지, 기회, 두 번째는 DE 지시할 수 있었습니다 또는 전혀 그렇지 않습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [EXCEPTION_INFO](../../../extensibility/debugger/reference/exception-info.md)

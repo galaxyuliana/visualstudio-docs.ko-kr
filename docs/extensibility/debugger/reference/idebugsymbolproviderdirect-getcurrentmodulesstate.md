@@ -14,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4db91b1495484adff076e959021b4791f1e62a29
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 9d67c266295a69fe3f045aa5329b0f6667766128
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458227"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66207024"
 ---
 # <a name="idebugsymbolproviderdirectgetcurrentmodulesstate"></a>IDebugSymbolProviderDirect::GetCurrentModulesState
 기호 공급자 멤버인 기호 그룹에 대 한 정보를 검색 합니다.
@@ -41,13 +41,11 @@ int GetCurrentModulesState(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pState`\
+`pState`\
+[out] 기호 공급자 그룹의 상태입니다.
 
- [out] 기호 공급자 그룹의 상태입니다.
-
- `count`\
-
- [out] 그룹의 모듈 수입니다.
+`count`\
+[out] 그룹의 모듈 수입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

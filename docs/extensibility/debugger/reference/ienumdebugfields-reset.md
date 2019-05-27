@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a6bf669261a3ece31e452227b7c93d7ce8bf07c1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 4b123d1fa644873619d1db512da42031d2ee15ea
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62914637"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66208048"
 ---
 # <a name="ienumdebugfieldsreset"></a>IEnumDebugFields::Reset
 이 메서드는 첫 번째 요소를 열거형을 초기화합니다.
@@ -41,6 +44,6 @@ int Reset();
 ## <a name="remarks"></a>설명
  이 메서드를 호출한 다음 호출 후 [다음](../../../extensibility/debugger/reference/ienumdebugfields-next.md) 열거형의 첫 번째 요소를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [다음](../../../extensibility/debugger/reference/ienumdebugfields-next.md)

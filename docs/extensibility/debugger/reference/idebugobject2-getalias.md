@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7d08d9108ed4a433bcbcb17d6d4587532542b303
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7e9a40db04342bcf75f6099c9143c38bf8b83482
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62872465"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66210046"
 ---
 # <a name="idebugobject2getalias"></a>IDebugObject2::GetAlias
 있는 경우이 개체와 연결 된 별칭을 가져옵니다.
@@ -36,10 +39,9 @@ int GetAlias(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppAlias`
-
- [out] 반환 된 [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) 이 개체에 대 한 별칭을 나타내는 개체, 그렇지 않으면 null 값을 반환 합니다.
+## <a name="parameters"></a>매개 변수
+`ppAlias`\
+[out] 반환 된 [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) 이 개체에 대 한 별칭을 나타내는 개체, 그렇지 않으면 null 값을 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -47,6 +49,6 @@ int GetAlias(
 ## <a name="remarks"></a>설명
  에 대 한 호출을 사용 하 여 개체에 대 한 별칭이 만들어집니다 합니다 [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

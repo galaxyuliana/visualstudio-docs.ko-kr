@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bbbc610dad6ab5915efe07718ad9a80592af4034
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 92467655a8f3baaf347a28a30fbeb40fc0b3731c
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62872992"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66210344"
 ---
 # <a name="idebugmethodfieldenumalllocals"></a>IDebugMethodField::EnumAllLocals
 컴파일러에서 내부적으로 생성 된 항목을 포함 하 여 메서드의 모든 로컬 변수에 대 한 열거자를 만듭니다.
@@ -38,14 +41,12 @@ int EnumAllLocals(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pAddress`
+## <a name="parameters"></a>매개 변수
+`pAddress`\
+[in] [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 특정 범위 또는 컨텍스트를 가리키는 메서드 내에서 디버그 주소를 나타내는 개체입니다.
 
- [in] [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 특정 범위 또는 컨텍스트를 가리키는 메서드 내에서 디버그 주소를 나타내는 개체입니다.
-
- `ppLocals`
-
- [out] 반환 합니다는 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 지정된 된 범위에서 모든 지역 목록을 나타내는 개체;이 고, 그렇지 없는 지역 변수를 나타내는 null 값을 반환 합니다.
+`ppLocals`\
+[out] 반환 합니다는 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 지정된 된 범위에서 모든 지역 목록을 나타내는 개체;이 고, 그렇지 없는 지역 변수를 나타내는 null 값을 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 하거나 로컬 항목 없음 없으면 S_FALSE를 반환 합니다. 그러지 않으면 오류 코드가 반환됩니다.
@@ -55,7 +56,7 @@ int EnumAllLocals(
 
  메서드는 컨텍스트 또는 블록에 대 한 여러 범위를 포함할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

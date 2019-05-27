@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 12ad4db6583c702115f5c97b2fa2c4485c891298
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: cce3c1b2fbe4c97de8a61355b6b2d7098512df12
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458573"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66208650"
 ---
 # <a name="idebugstackframe2getcodecontext"></a>IDebugStackFrame2::GetCodeContext
 이 스택 프레임에 대 한 코드 컨텍스트를 가져옵니다.
@@ -40,9 +40,8 @@ int GetCodeContext ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `ppCodeCxt`\
-
- [out] 반환 된 [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 이 스택 프레임에서 현재 명령 포인터를 나타내는 개체입니다.
+`ppCodeCxt`\
+[out] 반환 된 [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 이 스택 프레임에서 현재 명령 포인터를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

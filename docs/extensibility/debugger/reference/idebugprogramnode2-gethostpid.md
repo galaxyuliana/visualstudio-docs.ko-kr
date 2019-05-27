@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 03ac1d4f979c6b6ce504160216d42f055820d69c
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: a8c3d6a3509e9b415b2c006e16eb5056eb79d065
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457807"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203917"
 ---
 # <a name="idebugprogramnode2gethostpid"></a>IDebugProgramNode2::GetHostPid
 프로그램을 호스트 하는 프로세스에 대 한 시스템 프로세스 식별자를 가져옵니다.
@@ -40,9 +40,8 @@ int GetHostPid ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pdwHostPid`\
-
- [out] 호스팅 프로세스에 대 한 시스템 프로세스 식별자를 반환합니다.
+`pdwHostPid`\
+[out] 호스팅 프로세스에 대 한 시스템 프로세스 식별자를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

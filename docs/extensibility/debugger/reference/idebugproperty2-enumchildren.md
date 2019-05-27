@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e7158649ee3965127b5bdeba42619eaa676cfaa0
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: aed98522d98162c13d6cfbcbc61df2a989f35434
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458915"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211625"
 ---
 # <a name="idebugproperty2enumchildren"></a>IDebugProperty2::EnumChildren
 속성의 자식 목록을 검색합니다.
@@ -52,33 +52,26 @@ int EnumChildren ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `dwFields`\
+`dwFields`\
+[in] 플래그의 조합을 합니다 [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) 열거형의 열거 된 필드를 지정 하는 [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 채울 구조체가 합니다.
 
- [in] 플래그의 조합을 합니다 [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) 열거형의 열거 된 필드를 지정 하는 [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 채울 구조체가 합니다.
+`dwRadix`\
+[in] 모든 숫자 정보를 서식 지정 하는 데 사용할 기 수를 지정 합니다.
 
- `dwRadix`\
+`guidFilter`\
+[in] 사용 하 여 사용 하는 필터의 GUID를 `dwAttribFilter` 및 `pszNameFilter` 매개 변수는 선택 `DEBUG_PROPERTY_INFO` 열거할 자식은 합니다. 예를 들어 `guidFilterLocals` 로컬 변수에 대 한 필터입니다.
 
- [in] 모든 숫자 정보를 서식 지정 하는 데 사용할 기 수를 지정 합니다.
+`dwAttribFilter`\
+[in] 플래그의 조합을 합니다 [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md) 열거할 예를 들어 개체의 유형을 지정 하는 열거형 `DBG_ATTRIB_METHOD` 이 속성의 자식일 수 있는 모든 메서드에 대 한 합니다. 와 함께 사용 합니다 `guidFilter` 고 `pszNameFilter` 매개 변수입니다.
 
- `guidFilter`\
+`pszNameFilter`\
+[in] 사용한 필터의 이름을 합니다 `guidFilter` 및 `dwAttribFilter` 매개 변수는 선택 `DEBUG_PROPERTY_INFO` 자식은을 열거할 수. 예를 들어, "MyX" 필터 "MyX." 라는 이름의 모든 자식에 대 한이 매개 변수를 설정
 
- [in] 사용 하 여 사용 하는 필터의 GUID를 `dwAttribFilter` 및 `pszNameFilter` 매개 변수는 선택 `DEBUG_PROPERTY_INFO` 열거할 자식은 합니다. 예를 들어 `guidFilterLocals` 로컬 변수에 대 한 필터입니다.
+`dwTimeout`\
+[in] 이 메서드에서 반환 되기 전에 대기할 밀리초 단위로 최대 시간을 지정 합니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
 
- `dwAttribFilter`\
-
- [in] 플래그의 조합을 합니다 [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md) 열거할 예를 들어 개체의 유형을 지정 하는 열거형 `DBG_ATTRIB_METHOD` 이 속성의 자식일 수 있는 모든 메서드에 대 한 합니다. 와 함께 사용 합니다 `guidFilter` 고 `pszNameFilter` 매개 변수입니다.
-
- `pszNameFilter`\
-
- [in] 사용한 필터의 이름을 합니다 `guidFilter` 및 `dwAttribFilter` 매개 변수는 선택 `DEBUG_PROPERTY_INFO` 자식은을 열거할 수. 예를 들어, "MyX" 필터 "MyX." 라는 이름의 모든 자식에 대 한이 매개 변수를 설정
-
- `dwTimeout`\
-
- [in] 이 메서드에서 반환 되기 전에 대기할 밀리초 단위로 최대 시간을 지정 합니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
-
- `ppEnum`\
-
- [out] 반환 된 [IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) 자식 속성의 목록을 포함 하는 개체입니다.
+`ppEnum`\
+[out] 반환 된 [IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) 자식 속성의 목록을 포함 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다.

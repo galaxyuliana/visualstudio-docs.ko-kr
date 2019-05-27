@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 158e24a57838d7f7a1c7221fc243455b5a4bd2bc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: fa9294649cae2944ad085a43ac422470995a77b3
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62874237"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66201084"
 ---
 # <a name="idebugexpression2evaluatesync"></a>IDebugExpression2::EvaluateSync
 이 메서드는 동기적으로 식을 계산 합니다.
@@ -42,22 +45,18 @@ int EvaluateSync(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`dwFlags`
+## <a name="parameters"></a>매개 변수
+`dwFlags`\
+[in] 플래그의 조합 된 [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) 식 계산을 제어 하는 열거형입니다.
 
- [in] 플래그의 조합 된 [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) 식 계산을 제어 하는 열거형입니다.
+`dwTimeout`\
+[in] 이 메서드에서 반환 되기 전에 대기할 밀리초에서는 최대 시간입니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
 
-`dwTimeout`
+`pExprCallback`\
+[in] 이 매개 변수는 항상 null 값입니다.
 
- [in] 이 메서드에서 반환 되기 전에 대기할 밀리초에서는 최대 시간입니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
-
-`pExprCallback`
-
- [in] 이 매개 변수는 항상 null 값입니다.
-
-`ppResult`
-
- [out] 반환 된 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 식 계산의 결과 포함 하는 개체입니다.
+`ppResult`\
+[out] 반환 된 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 식 계산의 결과 포함 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 몇 가지 일반적인 오류 코드:
@@ -118,7 +117,7 @@ HRESULT CExpression::EvalExpression(BOOL bSynchronous,
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)
 - [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

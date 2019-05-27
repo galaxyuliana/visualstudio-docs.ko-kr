@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3799043b82a4e0d0993e7de255f69592c6b89534
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 1f04fedb2fe5215e7ce2c80d12e2a3e2e58bb7e9
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62875274"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212499"
 ---
 # <a name="idebugengine3setsymbolpath"></a>IDebugEngine3::SetSymbolPath
 디버깅 기호가 검색 하는 경로 경로 설정 합니다.
@@ -40,13 +43,16 @@ int SetSymbolPath(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
+## <a name="parameters"></a>매개 변수
 
-|매개 변수|설명|
-|---------------|-----------------|
-|`szSymbolSearchPath`|[in] 기호 검색 경로 또는 경로 포함 하는 문자열입니다. 자세한 내용은 "주의"를 참조 하십시오. null일 수 없습니다.|
-|`szSymbolCachePath`|[in] 기호를 캐시할 수 있는 로컬 경로 포함 하는 문자열입니다. null일 수 없습니다.|
-|`Flags`|[in] 사용 되지 않습니다. 항상 0으로 설정 합니다.|
+`szSymbolSearchPath`\
+[in] 기호 검색 경로 또는 경로 포함 하는 문자열입니다. 자세한 내용은 "주의"를 참조 하십시오. null일 수 없습니다.
+
+`szSymbolCachePath`\
+[in] 기호를 캐시할 수 있는 로컬 경로 포함 하는 문자열입니다. null일 수 없습니다.
+
+`Flags`\
+[in] 사용 되지 않습니다. 항상 0으로 설정 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -62,6 +68,6 @@ int SetSymbolPath(
 
  합니다 [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md) 메서드 기호의 실제 로드를 수행 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md)
 - [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)

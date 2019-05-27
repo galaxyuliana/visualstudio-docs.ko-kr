@@ -13,12 +13,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: f52205cd530e638146abe423890d6477fe62b45d
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 524598a4fdac3e9b06a91623d6ff2d37a1919ffa
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457328"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212079"
 ---
 # <a name="idebugsettingscallback2getmetricdword"></a>IDebugSettingsCallback2::GetMetricDword
 이름이 지정 된 메트릭 값을 검색 합니다.
@@ -44,21 +44,17 @@ private int GetMetricDword(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pszType`\
+`pszType`\
+[in] 메트릭의 유형입니다.
 
- [in] 메트릭의 유형입니다.
+`guidSection`\
+[in] 섹션의 고유 식별자입니다.
 
- `guidSection`\
+`pszMetric`\
+[in] 메트릭의 이름입니다.
 
- [in] 섹션의 고유 식별자입니다.
-
- `pszMetric`\
-
- [in] 메트릭의 이름입니다.
-
- `pdwValue`\
-
- [out] 메트릭 값을 반환합니다.
+`pdwValue`\
+[out] 메트릭 값을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

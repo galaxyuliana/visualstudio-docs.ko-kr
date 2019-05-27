@@ -43,6 +43,8 @@
                   href: fxcop-analyzer-options.md
             - name: 정적 코드 분석에서 마이그레이션
               href: fxcop-analyzers.yml
+            - name: 포팅된 규칙
+              href: fxcop-rule-port-status.md
         - name: 분석기 FAQ
           href: analyzers-faq.md
         - name: Roslyn 분석기 설치

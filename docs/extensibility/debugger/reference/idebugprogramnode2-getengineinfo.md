@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c31d3a858af2886a27a51e22e131cb89b2234d6e
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 7ef0ce265bc63ce9a00fd748c50a338d52294557
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65459072"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211694"
 ---
 # <a name="idebugprogramnode2getengineinfo"></a>IDebugProgramNode2::GetEngineInfo
 이름 및 프로그램을 실행 하는 디버그 엔진 (DE)의 식별자를 가져옵니다.
@@ -42,13 +42,11 @@ int GetEngineInfo(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pbstrEngine`\
+`pbstrEngine`\
+[out] 프로그램을 실행 하는 DE의 이름을 반환 합니다 (C++-특정: 호출자 엔진의 이름을 원하는 임을 나타내는 null 포인터 수)입니다.
 
- [out] 프로그램을 실행 하는 DE의 이름을 반환 합니다 (C++-특정: 호출자 엔진의 이름을 원하는 임을 나타내는 null 포인터 수)입니다.
-
- `pguidEngine`\
-
- [out] 프로그램을 실행 하는 DE의 전역 고유 식별자를 반환 합니다 (C++-특정: 호출자가 엔진의 GUID에 관심이 없는 나타내는 null 포인터 수)입니다.
+`pguidEngine`\
+[out] 프로그램을 실행 하는 DE의 전역 고유 식별자를 반환 합니다 (C++-특정: 호출자가 엔진의 GUID에 관심이 없는 나타내는 null 포인터 수)입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

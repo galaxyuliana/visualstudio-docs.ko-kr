@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8d6dd1d1b28ac4419604635b68767237eb6ce7d4
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 40c0cd23c8f89707bf1ef166b9059819448048e2
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458954"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211679"
 ---
 # <a name="idebugprogrampublisher2publishprogramnode"></a>IDebugProgramPublisher2::PublishProgramNode
 프로그램 노드를 사용할 수 있도록 디버그 엔진 (DEs)에서 사용 되 고 세션 디버그 관리자 (SDM).
@@ -40,9 +40,8 @@ int PublishProgramNode(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pProgramNode`\
-
- [in] [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 사용할 수 있도록 프로그램 노드를 나타내는 개체입니다.
+`pProgramNode`\
+[in] [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 사용할 수 있도록 프로그램 노드를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

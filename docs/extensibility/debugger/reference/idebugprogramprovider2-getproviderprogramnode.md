@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 594fef8a83c01b4bad4d47fdb206d64e445ad515
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 641a3420dac230a62e7a6ba509547ba85efee372
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65459025"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203746"
 ---
 # <a name="idebugprogramprovider2getproviderprogramnode"></a>IDebugProgramProvider2::GetProviderProgramNode
 특정 프로그램에 대 한 프로그램 노드를 검색 합니다.
@@ -50,9 +50,8 @@ int GetProviderProgramNode(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `Flags`\
-
- [in] 플래그의 조합 된 [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) 열거형입니다. 이 호출에 대 한 일반 플래그는 다음과 같습니다.
+`Flags`\
+[in] 플래그의 조합 된 [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) 열거형입니다. 이 호출에 대 한 일반 플래그는 다음과 같습니다.
 
 |플래그|설명|
 |----------|-----------------|
@@ -60,25 +59,20 @@ int GetProviderProgramNode(
 |`PFLAG_DEBUGGEE`|호출자에 게 현재 디버깅 중인 (마샬링 하는 방법에 대 한 자세한 내용은 각 노드에 대해 반환 됩니다).|
 |`PFLAG_ATTACHED_TO_DEBUGGEE`|호출자에 연결 되었지만 디버거에서 실행 되지 않습니다.|
 
- `pPort`\
+`pPort`\
+[in] 포트는 호출 프로세스에서 실행 됩니다.
 
- [in] 포트는 호출 프로세스에서 실행 됩니다.
+`processId`\
+[in] [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) 구조에서 해당 프로그램을 포함 하는 프로세스의 ID를 보유 합니다.
 
- `processId`\
+`guidEngine`\
+[in] GUID (해당 되는 경우) 프로그램에 연결 된 디버그 엔진입니다.
 
- [in] [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) 구조에서 해당 프로그램을 포함 하는 프로세스의 ID를 보유 합니다.
+`programId`\
+[in] 프로그램 노드를 프로그램의 ID입니다.
 
- `guidEngine`\
-
- [in] GUID (해당 되는 경우) 프로그램에 연결 된 디버그 엔진입니다.
-
- `programId`\
-
- [in] 프로그램 노드를 프로그램의 ID입니다.
-
- `ppProgramNode`\
-
- [out] [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 요청 된 프로그램이 노드를 나타내는 개체입니다.
+`ppProgramNode`\
+[out] [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 요청 된 프로그램이 노드를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

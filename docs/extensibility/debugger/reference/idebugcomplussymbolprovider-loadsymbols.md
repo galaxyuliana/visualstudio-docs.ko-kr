@@ -11,12 +11,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4c19070dce95a1f88398fe57d03e9d578086e9ae
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: fa910e483e4c743058d3671d8b873c5f88b4269e
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62922451"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66206154"
 ---
 # <a name="idebugcomplussymbolproviderloadsymbols"></a>IDebugComPlusSymbolProvider::LoadSymbols
 메모리의 지정 된 디버그 기호를 로드합니다.
@@ -45,30 +48,24 @@ int LoadSymbols(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`ulAppDomainID`
+## <a name="parameters"></a>매개 변수
+`ulAppDomainID`\
+[in] 응용 프로그램 도메인의 식별자입니다.
 
- [in] 응용 프로그램 도메인의 식별자입니다.
+`guidModule`\
+[in] mondule의 고유 식별자입니다.
 
-`guidModule`
+`baseAddress`\
+[in] 기본 메모리 주소입니다.
 
- [in] mondule의 고유 식별자입니다.
+`pUnkMetadataImport`\
+[in] 기호 메타 데이터가 포함 된 개체입니다.
 
-`baseAddress`
+`bstrModuleName`\
+[in] 모듈의 이름입니다.
 
- [in] 기본 메모리 주소입니다.
-
-`pUnkMetadataImport`
-
- [in] 기호 메타 데이터가 포함 된 개체입니다.
-
-`bstrModuleName`
-
- [in] 모듈의 이름입니다.
-
-`bstrSymSearchPath`
-
- [in] 기호 파일을 검색할 경로입니다.
+`bstrSymSearchPath`\
+[in] 기호 파일을 검색할 경로입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -89,5 +86,5 @@ HRESULT CDebugSymbolProvider::LoadSymbols(
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

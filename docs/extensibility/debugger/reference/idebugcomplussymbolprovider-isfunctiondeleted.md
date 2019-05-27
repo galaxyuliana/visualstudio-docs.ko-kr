@@ -10,12 +10,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0d056b14da0b41cf26278fc1e8cd0087332b682f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: e2a90093938493b4d44f734e470951bb5a385e92
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62922677"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66206254"
 ---
 # <a name="idebugcomplussymbolproviderisfunctiondeleted"></a>IDebugComPlusSymbolProvider::IsFunctionDeleted
 지정 된 디버그 주소에서 함수를 삭제 하도록 확인 합니다.
@@ -34,10 +37,9 @@ int IsFunctionDeleted(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pAddress`
-
- [in] 디버그 주소 표시를 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다. 이 주소는 METHOD_ADDRESS 여야 합니다.
+## <a name="parameters"></a>매개 변수
+`pAddress`\
+[in] 디버그 주소 표시를 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다. 이 주소는 METHOD_ADDRESS 여야 합니다.
 
 ## <a name="return-value"></a>반환 값
 함수 삭제 되 면 반환 `S_OK`합니다. 함수가 있는 경우 반환 `S_FALSE`합니다.
@@ -90,5 +92,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugComPlusSymbolProvider](../../../extensibility/debugger/reference/idebugcomplussymbolprovider.md)

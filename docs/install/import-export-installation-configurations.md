@@ -1,8 +1,8 @@
 ---
 title: 설치 구성 가져오기 또는 내보내기
 titleSuffix: ''
-description: Visual Studio에서 가져오기/내보내기 구성 기능을 사용하는 방법 알아보기
-ms.date: 04/19/2019
+description: 다른 사용자와 공유하기 위해 설치 구성을 .vsconfig 파일로 내보내고 가져와 복제하는 방법을 알아봅니다.
+ms.date: 05/18/2019
 ms.topic: conceptual
 f1_keywords:
 - vs.about
@@ -18,16 +18,16 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: cd932b1748d5c400c6ab64a56b16d1b6a1458c71
-ms.sourcegitcommit: 3fe6bed9ef8fb1478106645f655c7472009ae43a
+ms.openlocfilehash: 8150aa3369eb385ebad865d261f9e8c2d71d7dbe
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "64850757"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65849030"
 ---
 # <a name="import-or-export-installation-configurations"></a>설치 구성 가져오기 또는 내보내기
 
-설치 구성 파일을 사용하여 조직에서 Visual Studio를 구성할 수 있습니다. 이렇게 하려면 Visual Studio 설치 관리자를 사용하여 워크로드 및 구성 요소 정보를 .vsconfig 파일로 내보내면 됩니다. 그런 다음, 구성을 새 설치 또는 기존 설치로 가져올 수 있습니다.
+설치 구성 파일을 사용하여 조직에서 Visual Studio를 구성할 수 있습니다. 이렇게 하려면 Visual Studio 설치 관리자를 사용하여 워크로드 및 구성 요소 정보를 .vsconfig 파일로 내보내면 됩니다. 그런 다음, 구성을 새 설치 또는 기존 설치로 가져오고 다른 사용자와 공유할 수 있습니다.
 
 방법은 다음과 같습니다.
 

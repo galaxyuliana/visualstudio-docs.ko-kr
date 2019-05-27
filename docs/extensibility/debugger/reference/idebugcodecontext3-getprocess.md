@@ -10,12 +10,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 81ee68246aa999c8ac610b9590f914388e6fbbf2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 598bb33739a31bd09c733dddb3279d043cd68c81
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876941"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66206647"
 ---
 # <a name="idebugcodecontext3getprocess"></a>IDebugCodeContext3::GetProcess
 디버그 프로세스의 인터페이스에 대 한 참조를 검색합니다.
@@ -34,10 +37,9 @@ public int GetProcess(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`ppProcess`
-
- [out] 디버그 프로세스 인터페이스에 대 한 참조입니다.
+## <a name="parameters"></a>매개 변수
+`ppProcess`\
+[out] 디버그 프로세스 인터페이스에 대 한 참조입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -65,5 +67,5 @@ Error:
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCodeContext3](../../../extensibility/debugger/reference/idebugcodecontext3.md)

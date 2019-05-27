@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fe8b6768bf67cab4a4d69e82c509db0bd6f93543
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: b1b03fe660cd6b909c1d86871556e4f0e6ecb945
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62917263"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212289"
 ---
 # <a name="idebugprogram2getengineinfo"></a>IDebugProgram2::GetEngineInfo
 이 프로그램을 실행 하는 디버그 엔진 (DE)의 GUID와 이름을 가져옵니다.
@@ -38,14 +41,12 @@ int GetEngineInfo( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pbstrEngine`
+## <a name="parameters"></a>매개 변수
+`pbstrEngine`\
+[out] 이 프로그램을 실행 하는 DE의 이름을 반환 합니다.
 
- [out] 이 프로그램을 실행 하는 DE의 이름을 반환 합니다.
-
- `pguidEngine`
-
- [out] 이 프로그램을 실행 하는 DE의 GUID를 반환 합니다.
+`pguidEngine`\
+[out] 이 프로그램을 실행 하는 DE의 GUID를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -53,5 +54,5 @@ int GetEngineInfo( 
 ## <a name="remarks"></a>설명
  각 장치 id에 대 한 고유 GUID를 정의합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

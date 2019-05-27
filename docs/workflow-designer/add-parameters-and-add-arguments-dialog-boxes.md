@@ -1,5 +1,5 @@
 ---
-title: 워크플로 디자이너-매개 변수를 추가 및 인수 추가 대화 상자
+title: '워크플로 디자이너: 추가 매개 변수 및 인수 추가 대화 상자'
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,12 +10,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: f9ad4828eb3103ebbd014420e71c23f5411d9729
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7acb273430ac2dea8bc1f95a5c9a6e5c1d45c6f5
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62993373"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177739"
 ---
 # <a name="add-parameters-and-add-arguments-dialog-boxes"></a>매개 변수 추가 및 인수 추가 대화 상자
 

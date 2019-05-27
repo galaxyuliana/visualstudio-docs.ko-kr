@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 제공되는 구독, 적용되는 규칙 및 MPN에서 제공되는 구독의 수에 대한 세부 정보입니다.
 searchscope: VS Subscription
-ms.openlocfilehash: c7e58cd53ccbab31e90f2fc73a07b1011473777e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a91dc4954a7455505867027a365f5a23a3ef0a46
+ms.sourcegitcommit: 283f2dbce044a18e9f6ac6398f6fc78e074ec1ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62945403"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65805301"
 ---
 # <a name="visual-studio-subscriptions-offered-to-partners-in-the-microsoft-partner-network-mpn"></a>MPN(Microsoft 파트너 네트워크)의 파트너에게 제공된 Visual Studio 구독 관리
 역량을 구하거나 MPN에서 Action Pack을 구매하는 파트너는 Visual Studio 구독을 사용할 자격이 있습니다. 이러한 구독은 사용자별로 라이선스가 발급되며 파트너 회사에 근무하는 특정 지명 사용자에게 할당된 경우만 유효합니다.
@@ -52,7 +52,7 @@ Action Pack을 통해 파트너는 **3개의 Visual Studio Professional(MPN) 구
 - Windows Enterprise -- 개발 및 테스트용으로만 사용하려면 최신 버전만 해당
 - Windows Server -- 개발 및 테스트용으로만 사용하려면 최신 버전만 해당
 
-또한 Visual Studio Professional(MPN) 구독자는 SQL Server Developer Edition을 포함해 개발을 위한 무료 소프트웨어를 다운로드해 사용할 수 있습니다.
+또한 Visual Studio Professional(MPN) 구독자는 SQL Server Developer Edition을 포함해 개발을 위한 소프트웨어를 다운로드해 사용할 수 있습니다.
 
 Visual Studio Professional(MPN) 구독에는 Azure DevOps Services 혜택, 월간 Azure 크레딧, 기술 지원, 교육 또는 상업적으로 제공된 Visual Studio 구독으로 사용할 수 있는 다른 구독자 혜택이 포함되지 않습니다.
 
