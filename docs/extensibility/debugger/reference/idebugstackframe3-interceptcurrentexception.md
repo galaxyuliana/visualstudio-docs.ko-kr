@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c38d8c1c2f06701d1e0a34560b674aa62292a803
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 4341542c48465af026280d5b7b13a8e10bafe40a
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457408"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203256"
 ---
 # <a name="idebugstackframe3interceptcurrentexception"></a>IDebugStackFrame3::InterceptCurrentException
 현재 예외를 차단 하려는 경우 현재 스택 프레임에는 디버거에서 호출 됩니다.
@@ -42,13 +42,11 @@ int InterceptCurrentException(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `dwFlags`\
+`dwFlags`\
+[in] 다양 한 작업을 지정합니다. 현재만 합니다 [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md) 값 `IEA_INTERCEPT` 은 지원 되며 지정 해야 합니다.
 
- [in] 다양 한 작업을 지정합니다. 현재만 합니다 [INTERCEPT_EXCEPTION_ACTION](../../../extensibility/debugger/reference/intercept-exception-action.md) 값 `IEA_INTERCEPT` 은 지원 되며 지정 해야 합니다.
-
- `pqwCookie`\
-
- [out] 특정 예외를 식별 하는 고유 값입니다.
+`pqwCookie`\
+[out] 특정 예외를 식별 하는 고유 값입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.

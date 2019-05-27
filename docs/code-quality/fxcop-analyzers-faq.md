@@ -1,7 +1,7 @@
 ---
 title: FxCop 코드 분석 및 FxCop 분석기
 ms.date: 09/06/2018
-ms.topic: overview
+ms.topic: conceptual
 helpviewer_keywords:
 - code analysis FAQ
 author: gewarren
@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: ab7816e7e1472101f0e84c05a4975f19e3902e27
-ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
-ms.translationtype: HT
+ms.openlocfilehash: 0415617c5e4106b72cc713f4296b48e94427e6e5
+ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "65613560"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "66037261"
 ---
 # <a name="frequently-asked-questions-about-fxcop-and-fxcop-analyzers"></a>FxCop 및 FxCop 분석기에 대한 질문과 대답
 
@@ -49,7 +49,11 @@ FxCop 분석기를 설치했지만 경고 CA0507 **""코드 분석 실행"이 �
 <RunCodeAnalysis>false</RunCodeAnalysis>
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="which-rules-have-been-ported-to-fxcop-analyzers"></a>규칙은 FxCop 분석기에 이식 되었으며?
+
+에 대 한 정적 코드 분석 규칙에 이식 되었으며 자세한 [FxCop 분석기](install-fxcop-analyzers.md)를 참조 하십시오 [Fxcop 규칙 포트 상태](fxcop-rule-port-status.md)합니다.
+
+## <a name="see-also"></a>참고자료
 
 - [.NET Compiler Platform 분석기 개요](roslyn-analyzers-overview.md)
 - [분석기 시작](fxcop-analyzers.yml)

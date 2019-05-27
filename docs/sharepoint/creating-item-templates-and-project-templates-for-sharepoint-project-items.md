@@ -1,5 +1,5 @@
 ---
-title: 항목 템플릿 및 프로젝트 템플릿 만들기 SharePoint 프로젝트 항목에 대 한 | Microsoft Docs
+title: 항목이 SharePoint에 대 한 템플릿/프로젝트 템플릿 프로젝트 항목
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 1f8332b12b05c1d5db1f09afabacbba5e8ba83e9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8f41783689e572ca823788e1a8dbcf772f07e924
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62952694"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177622"
 ---
 # <a name="create-item-templates-and-project-templates-for-sharepoint-project-items"></a>SharePoint 프로젝트 항목에 대 한 프로젝트 템플릿과 항목 템플릿 만들기
 
@@ -66,7 +66,7 @@ ms.locfileid: "62952694"
 |A *.vstemplate* 파일|이 파일에 템플릿을 표시 하는 데 필요한 정보를 사용 하 여 Visual Studio를 제공 합니다 **새 프로젝트** 대화 상자 및 템플릿에서 프로젝트를 만들려면. 자세한 내용은 [Visual Studio 템플릿 메타 데이터 파일](/previous-versions/visualstudio/visual-studio-2010/xsxc3ete\(v\=vs.100\))합니다.|
 |A *.csproj* 하거나 *.vbproj* 파일|프로젝트 파일입니다. 내용 및 프로젝트의 구성 설정을 정의합니다.|
 |*Package.package*|이 파일은 프로젝트에 대 한 배포 패키지를 정의 합니다. 패키지 디자이너를 사용 하 여 솔루션 패키지를 프로젝트에 대 한 사용자 지정 하는 경우 Visual Studio 솔루션 패키지에 대 한 데이터를이 파일에 저장 합니다.<br /><br /> 사용자 지정 SharePoint 프로젝트 템플릿을 만들 때만 필요한의 최소 구성 요소를 포함 하는 것이 좋습니다 합니다 *Package.package* 파일 및 Api를 사용 하 여 솔루션 패키지를 구성 하는 <xref:Microsoft.VisualStudio.SharePoint.Packages> 프로젝트 템플릿과 사용 하 여 연결 된 확장의 네임 스페이스입니다. 이 작업을 수행 하는 경우 프로젝트 템플릿을의 구조에 향후 변경 사항에서 보호 되는 *Package.package* 파일입니다. 만드는 방법을 보여 주는 예제는 *Package.package* 최소한의 필요한를 사용 하 여 파일 콘텐츠를 참조 하십시오 [연습: 1 부 프로젝트 템플릿을 사용 하 여 사이트 열 프로젝트 항목 만들기](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md)합니다.<br /><br /> 수정 하려는 경우는 *Package.package* 파일을 직접,에서 스키마를 사용 하 여 콘텐츠를 확인할 수 있습니다 *% Program Files (x86)%\Microsoft Visual Studio 11.0\Xml\Schemas\PackageModelSchema.xsd* .|
-|*Package.Template.xml*|이 파일은 솔루션 매니페스트 파일에 대 한 기본 제공 (*manifest.xml*) SharePoint 솔루션 패키지 (*.wsp*) 프로젝트에서 생성 됩니다. 프로젝트 형식의 사용자가 변경할 수 없습니다는 몇 가지 동작을 지정 하려는 경우이 파일에 콘텐츠를 추가할 수 있습니다. 자세한 내용은 참조 하세요. [문서 블록: 솔루션](http://go.microsoft.com/fwlink/?LinkId=169186) 하 고 [솔루션 스키마](http://go.microsoft.com/fwlink/?LinkId=177794)합니다.<br /><br /> 프로젝트에서 솔루션 패키지를 빌드할 때 Visual Studio의 콘텐츠를 병합 하는 합니다 *Package.package* 하며 *Package.Template.xml* 솔루션 파일 매니페스트 파일. 솔루션 패키지를 작성 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: MSBuild 작업을 사용 하 여 SharePoint 솔루션 패키지 만들기](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)합니다.|
+|*Package.Template.xml*|이 파일은 솔루션 매니페스트 파일에 대 한 기본 제공 (*manifest.xml*) SharePoint 솔루션 패키지 ( *.wsp*) 프로젝트에서 생성 됩니다. 프로젝트 형식의 사용자가 변경할 수 없습니다는 몇 가지 동작을 지정 하려는 경우이 파일에 콘텐츠를 추가할 수 있습니다. 자세한 내용은 참조 하세요. [문서 블록: 솔루션](http://go.microsoft.com/fwlink/?LinkId=169186) 하 고 [솔루션 스키마](http://go.microsoft.com/fwlink/?LinkId=177794)합니다.<br /><br /> 프로젝트에서 솔루션 패키지를 빌드할 때 Visual Studio의 콘텐츠를 병합 하는 합니다 *Package.package* 하며 *Package.Template.xml* 솔루션 파일 매니페스트 파일. 솔루션 패키지를 작성 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: MSBuild 작업을 사용 하 여 SharePoint 솔루션 패키지 만들기](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)합니다.|
 
  다음 표에서 프로젝트 템플릿에 포함 될 수 있는 선택적 파일을 나열 합니다.
 

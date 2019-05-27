@@ -1,5 +1,5 @@
 ---
-title: '방법: 프로그래밍 방식으로 자동으로 채울 범위 증분 변경 되는 데이터'
+title: 증분 방식으로 데이터 범위를 프로그래밍 방식으로 변경 하는 자동 채우기
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: edb3a1bfaad8d662fb51a8527da6bef183fd05c4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a514f83d12cd00c4a7792ae0bf2483fdd916897a
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63428177"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177695"
 ---
 # <a name="how-to-programmatically-automatically-fill-ranges-with-incrementally-changing-data"></a>방법: 프로그래밍 방식으로 자동으로 채울 범위 증분 변경 되는 데이터
   합니다 <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> 메서드는 <xref:Microsoft.Office.Interop.Excel.Range> 개체 값을 사용 하 여 워크시트의 범위를 자동으로 채울 수 있습니다. 대부분의 경우는 <xref:Microsoft.Office.Interop.Excel.Range.AutoFill%2A> 메서드 점진적으로 증가 또는 감소 하는 값 범위에서 저장소를 사용 합니다. 선택적 상수를 제공 하 여 동작을 지정할 수는 <xref:Microsoft.Office.Interop.Excel.XlAutoFillType> 열거형입니다.

@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e374860bcd80f0a199e5dc55b4b556d94d99aba6
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: a2aa0d07fbc1978e5e65db409b90d1a289cd4bc2
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65460935"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212776"
 ---
 # <a name="modulesymbolsearchinfo"></a>MODULE_SYMBOL_SEARCH_INFO
 
@@ -46,11 +46,9 @@ public struct MODULE_SYMBOL_SEARCH_INFO {
 ## <a name="members"></a>멤버
 
 `dwValidFields`\
-
 플래그의 조합 된 [SYMBOL_SEARCH_INFO_FIELDS](../../../extensibility/debugger/reference/symbol-search-info-fields.md) 이 구조에서 설명한 검색 정보의 종류를 지정 하는 열거형입니다.
 
 `bstrVerboseSearchInfo`\
-
 검색 경로 및 단일 문자열로 연결 하는 결과입니다.
 
 ## <a name="remarks"></a>설명

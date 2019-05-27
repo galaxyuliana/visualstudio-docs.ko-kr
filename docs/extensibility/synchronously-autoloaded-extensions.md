@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ad3831fb06d23f622f85a55f5efd0a5650ca5e47
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d23a19ad42f665f471274ee75f328056dd55b17d
+ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62799024"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "66037098"
 ---
 # <a name="synchronously-autoloaded-extensions"></a>동기적으로 자동 로드된 확장
 
@@ -29,7 +29,7 @@ ms.locfileid: "62799024"
 
 - 클릭할 **이 메시지를 다시 표시 안 함** 여 알림을 해제 합니다. 이 옵션을 선택 하면 모든 향후 알림용으로만 동기적으로 자동 확장도 차단 합니다. 사용자는 다른 Visual Studio 기능에 대 한 알림을 계속 됩니다.
 
-### <a name="performance-manager-dialog"></a>성능 관리자 대화 상자
+## <a name="performance-manager-dialog"></a>성능 관리자 대화 상자
 
 ![성능 관리자 대화 상자](media/performance-manager.png)
 
@@ -39,3 +39,17 @@ ms.locfileid: "62799024"
 * 사용자가 마이그레이션 진행률에 대 한 공급 업체 확장을 요청할 수 있습니다.
 
 확장 작성자가 마이그레이션에 대 한 지침을 찾을 수 있는 비동기 autoload 패키지 [AsyncPackage로 마이그레이션](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/AsyncPackageMigration).
+
+## <a name="specify-synchronous-autoload-settings-using-group-policy"></a>그룹 정책을 사용 하 여 동기 autoload 설정 지정
+
+기본적으로 Visual Studio 설치 블록 동기 autoload Visual Studio 2019 업데이트 1에서 시작합니다. 그룹 정책을 사용 하도록 설정 하면 개별 컴퓨터에서 동기 autoload를 허용 하도록 Visual Studio를 구성할 수 있습니다. 이렇게 하려면 다음 키에 레지스트리 기반 정책을 설정합니다.
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SynchronousAutoload**
+
+항목 = **허용**
+
+값 = (DWORD)
+* **0** 동기 autoload 허용 되지 않습니다
+* **1** 동기 autoload 허용 됩니다
+
+Visual Studio 2019 업데이트 1에서 동기 autoload 설정에 대 한 자세한 내용은 참조는 [동기 Autoload 동작](https://aka.ms/AA52xzw) 페이지입니다.

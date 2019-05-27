@@ -59,7 +59,7 @@ sections:
         columns: 2
         items:
           - href: 'roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis'
-            html: <p>정적 (FxCop) 및 분석기 패키지 코드 분석의 차이점에 알아봅니다.</p>
+            html: <p>정적 (FxCop) 및 분석기 코드 분석의 차이점에 알아봅니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_learn-about.svg'
             title: 어떻게 다릅니까?
@@ -68,6 +68,11 @@ sections:
             image:
               src: 'https://docs.microsoft.com/media/common/i_setup.svg'
             title: FxCop 분석기 설치
+          - href: fxcop-rule-port-status.md
+            html: <p>FxCop 분석기에 이식 되었으며 정적 코드 분석 FxCop 규칙을 나열 합니다.</p>
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_upgrade.svg'
+            title: 이식 및 unported 규칙
           - href: 'use-roslyn-analyzers.md#command-line-usage'
             html: <p>일반적으로 명령줄에서 코드 분석을 실행 하는 경우 명령줄에서 분석기를 사용 하는 방법에 알아봅니다.</p>
             image:

@@ -1,5 +1,5 @@
 ---
-title: WPF 및 Entity Framework 6을 사용하여 간단한 데이터 애플리케이션 만들기
+title: WPF 및 Entity Framework 6을 사용 하 여 간단한 데이터 응용 프로그램
 ms.date: 08/22/2017
 ms.topic: conceptual
 dev_langs:
@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: f5d65ff675329fdc714026ce6fe04ee3bd93086f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d67ca69856f48ec916f27498798cbb58efb3e5ac
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62568658"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177375"
 ---
 # <a name="create-a-simple-data-application-with-wpf-and-entity-framework-6"></a>WPF 및 Entity Framework 6을 사용하여 간단한 데이터 애플리케이션 만들기
 

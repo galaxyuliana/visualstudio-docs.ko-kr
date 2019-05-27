@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ef63656e645611e13bfc6e0fcf1fb3a5cc339abc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7000e72ee69b90d873dd85689b97157e83dc6856
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876956"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212879"
 ---
 # <a name="idebugbreakpointrequest2getlocationtype"></a>IDebugBreakpointRequest2::GetLocationType
 이 중단점 요청의 중단점 위치 유형을 가져옵니다.
@@ -36,10 +39,9 @@ int GetLocationType(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pBPLocationType`
-
- [out] 값을 반환 합니다 [BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp-location-type.md) 이 중단점 요청의 위치를 설명 하는 열거형입니다.
+## <a name="parameters"></a>매개 변수
+`pBPLocationType`\
+[out] 값을 반환 합니다 [BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp-location-type.md) 이 중단점 요청의 위치를 설명 하는 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_FAIL` 경우는 `bpLocation` 연결 된 필드 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) 구조가 잘못 되었습니다.
@@ -78,7 +80,7 @@ HRESULT CDebugBreakpointRequest::GetLocationType(BP_LOCATION_TYPE* pBPLocationTy
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)
 - [BP_LOCATION_TYPE](../../../extensibility/debugger/reference/bp-location-type.md)
 - [BPREQI_FIELDS](../../../extensibility/debugger/reference/bpreqi-fields.md)

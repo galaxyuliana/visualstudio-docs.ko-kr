@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 265b30e8a9b3e223b9007c85082113232d76ab09
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e66eb7fc2915514b91135e8c89843a0d979abf4a
+ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62929046"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65845901"
 ---
 # <a name="first-look-at-deployment-in-visual-studio"></a>먼저 Visual Studio의 배포 살펴보기
 
@@ -40,7 +40,7 @@ ms.locfileid: "62929046"
 
 로컬 폴더에 배포는 일반적으로 테스트에 또는 다른 도구가 최종 배포에 사용되는 스테이징된 배포를 시작하는 데 사용됩니다.
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python** 및 **.NET Core**: 게시 도구를 사용하여 로컬 폴더에 배포합니다. 사용 가능한 정확한 옵션은 앱 형식에 따라 달라집니다. 솔루션 탐색기에서 프로젝트를 마우스 오른쪽 단추로 클릭하고 **게시**를 선택합니다. (모든 게시 프로필을 이전에 구성한 경우 **새 프로필 만들기**를 클릭해야 합니다.) 다음으로 **폴더**를 선택합니다. 자세한 내용은 [로컬 폴더에 배포](quickstart-deploy-to-local-folder.md)를 참조하세요.
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python** 및 **.NET Core**: 게시 도구를 사용하여 로컬 폴더에 배포합니다. 사용 가능한 정확한 옵션은 앱 형식에 따라 달라집니다. 솔루션 탐색기에서 프로젝트를 마우스 오른쪽 단추로 클릭하고 **게시**를 선택합니다. (모든 게시 프로필을 이전에 구성하지 않은 경우 **새 프로필 만들기**를 클릭해야 합니다.) 다음으로 **폴더**를 선택합니다. 자세한 내용은 [로컬 폴더에 배포](quickstart-deploy-to-local-folder.md)를 참조하세요.
 
     ![게시 선택](../deployment/media/quickstart-publish.png)
 
@@ -48,7 +48,7 @@ ms.locfileid: "62929046"
 
 ## <a name="publish-to-azure"></a>Azure에 게시
 
-- **ASP.NET**, **ASP.NET Core**, **Python** 및 **Node.js.**: 다음 방법 중 하나를 사용하여 Azure App Service 또는 Azure App Service Linux(컨테이너 사용)에 게시합니다.
+- **ASP.NET**, **ASP.NET Core**, **Python** 및 **Node.js.** : 다음 방법 중 하나를 사용하여 Azure App Service 또는 Azure App Service Linux(컨테이너 사용)에 게시합니다.
 
   - 연속(또는 자동) 배포 앱의 경우 Azure DevOps를 [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azdevops)과 함께 사용합니다.
 

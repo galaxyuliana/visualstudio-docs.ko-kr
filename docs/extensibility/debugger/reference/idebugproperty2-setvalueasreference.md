@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ec4ee2e7ca497a6bd3429447a1d66d6b216259cf
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 5821518a40cb474f17bf1c7fc1ef41326f2bffcb
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457778"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66200230"
 ---
 # <a name="idebugproperty2setvalueasreference"></a>IDebugProperty2::SetValueAsReference
 지정한 참조의 값이 속성의 값을 설정 합니다.
@@ -46,21 +46,17 @@ int SetValueAsReference(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `rgpArgs`\
+`rgpArgs`\
+[in] 관리 되는 코드 속성 setter에 전달할 인수 배열입니다. 속성 setter 인수를 사용 하지 않는 경우 또는 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 개체는 이러한 속성 setter를 나타내지 않습니다 `rgpArgs` null 값 이어야 합니다. 이 매개 변수는 일반적으로 null 값입니다.
 
- [in] 관리 되는 코드 속성 setter에 전달할 인수 배열입니다. 속성 setter 인수를 사용 하지 않는 경우 또는 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 개체는 이러한 속성 setter를 나타내지 않습니다 `rgpArgs` null 값 이어야 합니다. 이 매개 변수는 일반적으로 null 값입니다.
+`dwArgCount`\
+[in] 인수 개수는 `rgpArgs` 배열입니다.
 
- `dwArgCount`\
+`pValue`\
+[in] 형식의 참조는 [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) 개체를 사용 하 여이 속성을 설정할 값입니다.
 
- [in] 인수 개수는 `rgpArgs` 배열입니다.
-
- `pValue`\
-
- [in] 형식의 참조는 [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) 개체를 사용 하 여이 속성을 설정할 값입니다.
-
- `dwTimeout`\
-
- [in] 기간 밀리초에서 값을 설정 하는 데 있습니다. 일반적인 값은 `INFINITE`합니다. 이 가능한 모든 계산을 사용할 수 있는 시간에 영향을 줍니다.
+`dwTimeout`\
+[in] 기간 밀리초에서 값을 설정 하는 데 있습니다. 일반적인 값은 `INFINITE`합니다. 이 가능한 모든 계산을 사용할 수 있는 시간에 영향을 줍니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 반환 코드, 일반적으로 다음 중 하나:

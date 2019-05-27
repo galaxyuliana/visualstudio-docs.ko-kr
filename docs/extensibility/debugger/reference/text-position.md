@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 960fa95f583ddafdc401432ff551e8597fb956bd
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 262f5209898ffa4d66087a1e9f1896df51a0c72a
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458341"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212705"
 ---
 # <a name="textposition"></a>TEXT_POSITION
 지정된 된 텍스트의 줄 및 열 위치를 설명 합니다.
@@ -44,11 +44,9 @@ public struct TEXT_POSITION { 
 ## <a name="members"></a>멤버
 
 `dwLine`\
-
 소스 파일의 줄 인덱스입니다.
 
 `dwColumn`\
-
 줄에 문자 오프셋입니다.
 
 ## <a name="remarks"></a>설명

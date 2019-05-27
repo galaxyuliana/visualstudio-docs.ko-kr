@@ -1,5 +1,5 @@
 ---
-title: 정보 권한 관리 및 관리 코드 확장명 개요
+title: 정보 권한 관리 및 관리 코드 확장
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 109f6b85653a842f7c6fc9ce2d2c09b74113bbc7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ca8f9d77681e3f11312e5e908a58ac2e292f581b
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62583922"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177743"
 ---
 # <a name="information-rights-management-and-managed-code-extensions-overview"></a>정보 권한 관리 및 관리 코드 확장명 개요
   Microsoft Office Word 및 Microsoft Office Excel IRM 정보 권한 관리 (), 권한이 없는 사용자가 보거나 중요 한 정보를 변경 되지 않도록 도움이 될 수 있는 기능을 제공 합니다. 정보 권한 관리의 작동 원리에 대 한 자세한 내용은 특정 Office 응용 프로그램에서 도움말을 참조 합니다.

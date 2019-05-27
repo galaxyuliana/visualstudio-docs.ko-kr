@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 7fcf99f290938a6f51ce1e59ac1e14966206ee5b
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 8eb68be0164b7fd558c5f5a02c476db9e641d574
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65459056"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199000"
 ---
 # <a name="idebugprogramnode2gethostname"></a>IDebugProgramNode2::GetHostName
 프로그램을 호스팅하는 프로세스의 이름을 가져옵니다.
@@ -43,12 +43,10 @@ int GetHostName (
 
 ## <a name="parameters"></a>매개 변수
 `dwHostNameType`\
-
- [in] 값을 [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) 반환할 이름의 형식을 지정 하는 열거형입니다.
+[in] 값을 [GETHOSTNAME_TYPE](../../../extensibility/debugger/reference/gethostname-type.md) 반환할 이름의 형식을 지정 하는 열거형입니다.
 
 `pbstrHostName`\
-
- [out] 호스팅 프로세스의 이름을 반환합니다.
+[out] 호스팅 프로세스의 이름을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 10e94460dfd65294536fcb116099ba10c357d845
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 42112f1956ebc2d8c4727bd68f627ad06cf3ee4a
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65461132"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212797"
 ---
 # <a name="metadataaddresslocal"></a>METADATA_ADDRESS_LOCAL
 
@@ -47,17 +47,14 @@ public struct METADATA_ADDRESS_LOCAL {
 ## <a name="members"></a>멤버
 
 `tokMethod`\
-
 메서드 또는 함수의 ID 지역 변수는 부분입니다.
 
 [C++] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.
 
 `pLocal`\
-
 이 구조를 나타내는 해당 주소가 토큰입니다.
 
 `dwIndex`\
-
 메서드 또는 함수 또는 다른 값 (언어별)이 지역 변수의 인덱스를 수 있습니다.
 
 ## <a name="remarks"></a>설명

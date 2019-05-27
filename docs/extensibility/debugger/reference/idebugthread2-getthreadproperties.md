@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 122071435d4bc2e5784abcc7a9a8c16c2c08e311
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: ec34fc2bc8d7dea08580903788ef271f7167cf8a
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226183"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199559"
 ---
 # <a name="idebugthread2getthreadproperties"></a>IDebugThread2::GetThreadProperties
 이 스레드를 설명 하는 속성을 가져옵니다.
@@ -43,12 +43,10 @@ int GetThreadProperties (
 
 ## <a name="parameters"></a>매개 변수
 `dwFields`\
-
- [in] 플래그의 조합 된 [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) 의 필드를 결정 하는 열거형 `ptp` 작성 해야 할 합니다.
+[in] 플래그의 조합 된 [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) 의 필드를 결정 하는 열거형 `ptp` 작성 해야 할 합니다.
 
 `ptp`\
-
- [out에서] A [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) 구조 스레드의 속성을 사용 하 여 입력 됩니다.
+[out에서] A [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md) 구조 스레드의 속성을 사용 하 여 입력 됩니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

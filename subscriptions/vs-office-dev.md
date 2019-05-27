@@ -7,16 +7,16 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Office 365 개발자 혜택을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 31dae1adaaa4fd500357988471718f6ea074a40c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3ae71e50ab93cbc17cdf6f4cd4e550a627b0f600
+ms.sourcegitcommit: 0ef51e3517436a85cfb85bf492722d566ce602c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62947235"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65934589"
 ---
 # <a name="the-office-365-developer-subscription-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Office 365 개발자 구독 혜택
 
-선택한 Visual Studio Enterprise 구독을 사용하는 구독자에게는 Office 365 개발자 구독 혜택이 제공됩니다.  Office 365 개발자 구독을 통해 Microsoft Office 및 Microsoft SharePoint용 개발, 테스트 및 추가 기능 배포를 사용할 수 있습니다.  이 혜택은 하나의 테넌트 및 최대 25명의 사용자에 허용됩니다.
+Visual Studio 구독을 선택한 구독자에게는 Office 365 개발자 구독 혜택이 제공됩니다.  Office 365 개발자 구독을 통해 Microsoft Office 및 Microsoft SharePoint용 개발, 테스트 및 추가 기능 배포를 사용할 수 있습니다.  이 혜택은 하나의 테넌트 및 최대 25명의 사용자에 허용됩니다.
 
 ## <a name="activation-steps"></a>활성화 단계
 
@@ -67,13 +67,13 @@ Office 365 개발자 구독에 대해 자세히 알아보려면 [Office 365 개�
 | 구독 수준                                                 |     채널                                            | 이점                                                          | 갱신 가능?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, 선택한 NFR<sup>1</sup> | Included      |  예          |
-| Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 사용할 수 없음                                                            |해당 없음         |
+| Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | Included                                                            |예         |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용할 수 없음                                             |  해당 없음         |
 | MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              | 해당 없음         |
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |해당 없음 |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-<sup>1</sup> *포함:  NFR(전매 금지), VSIP(Visual Studio 업계 파트너), FTE, BizSpark, MCT 소프트웨어 및 서비스 개발자, MCT Software & Services.  제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Most Valuable Professional), RD(Regional Director)*
+<sup>1</sup> *포함:  NFR(전매 금지), VSIP(Visual Studio 업계 파트너), FTE, BizSpark, MCT 소프트웨어 및 서비스 개발자, MCT Software & Services.  제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Most Valuable Professional), RD(Regional Director)
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.

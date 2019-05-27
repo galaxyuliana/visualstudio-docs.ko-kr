@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8579504f549cb078fee178127c7396896fce5313
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 80fc504752e181ec75da32f2d1da5dcbf902daf7
+ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63399409"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "66037394"
 ---
 # <a name="general-debugging-options"></a>일반 디버깅 옵션
 
@@ -136,7 +136,7 @@ dll의 내보내기 테이블에서 사용할 수 있는 기호를 확인하려�
 
 - **애플리케이션에서 런타임 도구 표시**: 표시 합니다 **라이브 시각적 트리** 디버깅 중인 XAML 응용 프로그램의 주 창에서 도구 모음에 명령 합니다. 이 옵션은 Visual Studio 2015 업데이트 2에서 도입 되었습니다.
 
-- **XAML 편집하며 계속하기 사용**:   편집을 사용 하 고 XAML 코드를 사용 하 여 기능을 계속 수 있습니다.
+- **XAML 핫 다시 로드를 사용 하도록 설정**: 앱이 실행 하는 경우 XAML 코드를 사용 하 여 XAML 핫 다시 로드 기능을 사용할 수 있습니다. (이 기능은 이전에 호출한 "XAML 편집 하며 계속 하기")
 
 **디버그하는 동안 진단 도구 사용**: 디버깅하는 동안 **진단 도구** 창이 나타납니다.
 

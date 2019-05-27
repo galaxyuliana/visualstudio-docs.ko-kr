@@ -8,12 +8,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e9882fd89e149a8b24813ec9edb53e86b0e72b59
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fc04de6de270053e20e05a30312a298e9e6e2f0f
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62891227"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177344"
 ---
 # <a name="create-a-software-development-kit"></a>소프트웨어 개발 키트 만들기
 소프트웨어 개발 키트 (SDK)은 Visual Studio에서 단일 항목으로 참조할 수 있는 Api 컬렉션입니다. 합니다 **참조 관리자** 대화 상자는 프로젝트에 관련 된 모든 Sdk를 나열 합니다. 프로젝트에 SDK를 추가 하면 Api는 Visual Studio에서 사용할 수 있습니다.
@@ -34,7 +34,7 @@ ms.locfileid: "62891227"
  플랫폼 Sdk 플랫폼용 앱을 개발 해야 합니다. 예를 들어 합니다 [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK에 대 한 앱을 개발 해야 [!INCLUDE[win81](../debugger/includes/win81_md.md)]합니다.
 
 ### <a name="installation"></a>설치
- 모든 플랫폼 Sdk를 설치할*HKLM\Software\Microsoft\Microsoft Sdk\\[TPV] [TPI] \v\\ @InstallationFolder [SDK 루트] =* 합니다. 따라서 합니다 [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK에 설치 됩니다 *HKLM\Software\Microsoft\Microsoft SDKs\Windows\v8.1*합니다.
+ 모든 플랫폼 Sdk를 설치할 *HKLM\Software\Microsoft\Microsoft Sdk\\[TPV] [TPI] \v\\ @InstallationFolder [SDK 루트] =* 합니다. 따라서 합니다 [!INCLUDE[win81](../debugger/includes/win81_md.md)] SDK에 설치 됩니다 *HKLM\Software\Microsoft\Microsoft SDKs\Windows\v8.1*합니다.
 
 ### <a name="layout"></a>레이아웃
  플랫폼 Sdk에는 다음 레이아웃을 제공 됩니다.
@@ -74,7 +74,7 @@ ms.locfileid: "62891227"
 
 1. 레지스트리 키에서이 지정 합니다.
 
-     **HKLM\Software\Microsoft\Microsoft SDKs\<target platform>\v<platform version number\>\ExtensionSDKs\<SDKName>\<SDKVersion>**\
+     **HKLM\Software\Microsoft\Microsoft SDKs\<target platform>\v<platform version number\>\ExtensionSDKs\<SDKName>\<SDKVersion>** \
 
      값이 있는 (기본값) 하위 키를 추가 하 고 `<path to SDK><SDKName><SDKVersion>`입니다.
 
@@ -104,7 +104,7 @@ ms.locfileid: "62891227"
 
 2. *참조* 폴더: Api를 포함 하는 이진 파일. Windows 메타 데이터 (WinMD) 파일이 나 어셈블리 될 수 있습니다.
 
-3. *재배포 가능 패키지* 폴더: 런타임/디버깅을 위해 필요 하 고 사용자의 응용 프로그램의 일부로 패키지 가져오기는 파일에 있습니다. 아래에 있는 모든 이진 파일을 배치할 *\redist\\< 구성\>\\< arch\>*, 이진 이름 고유성을 보장 하려면 다음 형식 이어야 하 고: *]* \<회사 >. \<제품 >. \<용도 >. \<확장 ><em>합니다. 예를 들어 *Microsoft.Cpp.Build.dll</em>합니다. 아래에 있는 다른 Sdk (예: javascript, css, pri, xaml, png 및 jpg 파일)에서 파일 이름이 충돌할 수 있습니다 하는 이름 가진 모든 파일을 배치할 <em>\redist\\< 구성\>\\<arch\> \\< sdkname\> \* XAML과 사용 하 여 연결 된 파일을 제외 하 고 제어 합니다. 아래에 있는 이러한 파일은 * \redist\\< config\>\\< arch\>\\< componentname\>\\</em>합니다.
+3. *재배포 가능 패키지* 폴더: 런타임/디버깅을 위해 필요 하 고 사용자의 응용 프로그램의 일부로 패키지 가져오기는 파일에 있습니다. 아래에 있는 모든 이진 파일을 배치할 *\redist\\< 구성\>\\< arch\>* , 이진 이름 고유성을 보장 하려면 다음 형식 이어야 하 고: *]* \<회사 >. \<제품 >. \<용도 >. \<확장 ><em>합니다. 예를 들어 *Microsoft.Cpp.Build.dll</em>합니다. 아래에 있는 다른 Sdk (예: javascript, css, pri, xaml, png 및 jpg 파일)에서 파일 이름이 충돌할 수 있습니다 하는 이름 가진 모든 파일을 배치할 <em>\redist\\< 구성\>\\<arch\> \\< sdkname\> \* XAML과 사용 하 여 연결 된 파일을 제외 하 고 제어 합니다. 아래에 있는 이러한 파일은 * \redist\\< config\>\\< arch\>\\< componentname\>\\</em>합니다.
 
 4. *DesignTime* 폴더:만 사전-run/디버깅에 필요한 파일 시간 및 사용자의 응용 프로그램의 일부분으로 패키지할 수 없습니다. XML 문서, 라이브러리, 헤더, 도구 상자 디자인 타임 이진 파일, MSBuild 아티팩트 등 될 수 있습니다. 네이티브 프로젝트를 사용 해야 합니다. 대상으로 하는 모든 SDK를 *SDKName.props* 파일입니다. 다음이 유형의 파일의 예제를 보여 줍니다.
 
@@ -161,7 +161,7 @@ MoreInfo = "https://msdn.microsoft.com/MySDK">
 
 2. ProductFamilyName: 전체 SDK 제품 이름입니다. 예를 들어를 [!INCLUDE[winjs_long](../debugger/includes/winjs_long_md.md)] SDK "Microsoft.WinJS" SDK 제품 패밀리의 동일한 제품군에 속하는 "Microsoft.WinJS.1.0" 및 "Microsoft.WinJS.2.0" 라고 합니다. 이 특성에는 Visual Studio 및 MSBuild 해당 연결을 만들 수 있습니다. 이 특성이 없는 경우 SDK 이름 제품 제품군 이름으로 사용 됩니다.
 
-3. FrameworkIdentity: 이 특성의 값은 소비 응용 프로그램의 매니페스트를 넣을 하나 이상의 Windows 구성 요소 라이브러리 종속성을 지정 합니다. 이 특성은 Windows 구성 요소 라이브러리에만 적용 됩니다.
+3. FrameworkIdentity: 하나 이상의 Windows 구성 요소 라이브러리에 대 한 종속성을 지정합니다. 이 특성의 값은 사용 중인 앱의 매니페스트에 배치 됩니다. 이 특성은 Windows 구성 요소 라이브러리에만 적용 됩니다.
 
 4. TargetFramework: 참조 관리자 및 도구 상자에서 사용할 수 있는 Sdk를 지정 합니다. 예를 들어 이것은 대상 프레임 워크 모니커의 목록을 세미콜론으로 구분 된 ".NET Framework, 버전 = v2.0;.NET Framework, 버전 v4.5.1 =". 여러 버전의 동일한 대상 프레임 워크의 지정 된 경우 참조 관리자는 필터링 용도로 지정된 된 가장 낮은 버전을 사용 합니다. 예를 들어 경우 ".NET Framework, 버전 v2.0; = 버전,.NET Framework v4.5.1 ="를 지정 하면 참조 관리자를 사용 하 여 ".NET Framework, 버전 v2.0 =". 특정 대상 프레임 워크 프로필을 지정 된 경우 해당 프로필에만 필터링 목적으로 하는 것에 대 한 참조 매니저가 사용 됩니다. 예를 들어, "Silverlight 버전 v4.0, 프로필 = WindowsPhone =" 지정 된 참조 관리자에만 Windows Phone 프로필에 대 한 필터 전체 Silverlight 4.0 Framework를 대상으로 프로젝트 참조 관리자에서 SDK를 표시 하지 않습니다.
 

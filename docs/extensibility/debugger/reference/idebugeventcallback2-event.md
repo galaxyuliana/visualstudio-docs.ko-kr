@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 461c2487c18cb6edc5601868c0f9644d7b8eeac1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: a947f473fe7dc1fcf3e7b5b2b96d13edc3098218
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62874606"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66201155"
 ---
 # <a name="idebugeventcallback2event"></a>IDebugEventCallback2::Event
 디버그 이벤트의 알림을 보냅니다.
@@ -48,34 +51,27 @@ int Event( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pEngine`
+## <a name="parameters"></a>매개 변수
+`pEngine`\
+[in] [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) 이 이벤트를 전송 하는 디버그 엔진 (DE)를 나타내는 개체입니다. 독일은이 매개 변수를 입력 해야 합니다.
 
- [in] [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) 이 이벤트를 전송 하는 디버그 엔진 (DE)를 나타내는 개체입니다. 독일은이 매개 변수를 입력 해야 합니다.
+`pProcess`\
+[in] [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) 이벤트가 발생 하는 프로세스를 나타내는 개체입니다. 이 매개 변수는 세션 디버그 관리자 (SDM)에서 채워집니다. 독일에는 항상이 매개 변수에 대해 null 값을 전달합니다.
 
- `pProcess`
+`pProgram`\
+[in] [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 이 이벤트가 발생 하는 프로그램을 나타내는 개체입니다. 대부분의 이벤트에 대 한이 매개 변수가 아닌 경우 null 값
 
- [in] [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) 이벤트가 발생 하는 프로세스를 나타내는 개체입니다. 이 매개 변수는 세션 디버그 관리자 (SDM)에서 채워집니다. 독일에는 항상이 매개 변수에 대해 null 값을 전달합니다.
+`pThread`\
+[in] [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) 이 이벤트가 발생 하는 스레드를 나타내는 개체입니다. 중지 이벤트에 대 한 스택 프레임은이 매개 변수에서 가져온 대로이 매개 변수 null 값이 될 수 없습니다.
 
- `pProgram`
+`pEvent`\
+[in] [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) 디버그 이벤트를 나타내는 개체입니다.
 
- [in] [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 이 이벤트가 발생 하는 프로그램을 나타내는 개체입니다. 대부분의 이벤트에 대 한이 매개 변수가 아닌 경우 null 값
+`riidEvent`\
+[in] 얻을 수 있는 이벤트 인터페이스를 식별 하는 GUID는 `pEvent` 매개 변수입니다.
 
- `pThread`
-
- [in] [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) 이 이벤트가 발생 하는 스레드를 나타내는 개체입니다. 중지 이벤트에 대 한 스택 프레임은이 매개 변수에서 가져온 대로이 매개 변수 null 값이 될 수 없습니다.
-
- `pEvent`
-
- [in] [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) 디버그 이벤트를 나타내는 개체입니다.
-
- `riidEvent`
-
- [in] 얻을 수 있는 이벤트 인터페이스를 식별 하는 GUID는 `pEvent` 매개 변수입니다.
-
- `dwAttrib`
-
- [in] 플래그의 조합 된 [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md) 열거형입니다.
+`dwAttrib`\
+[in] 플래그의 조합 된 [EVENTATTRIBUTES](../../../extensibility/debugger/reference/eventattributes.md) 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -85,7 +81,7 @@ int Event( 
 
  모든 디버그 이벤트는 이벤트 자체 비동기 인지 여부에 관계 없이 비동기적으로 게시 됩니다. DE이이 메서드를 호출 하는 경우 반환 값을 나타내지 않습니다 이벤트가 처리 된 여부를 이벤트를 받은 있는지 여부를 합니다. 사실 대부분의 상황에서 이벤트 처리 되지 않았습니다이 메서드가 반환 될 때입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)
 - [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

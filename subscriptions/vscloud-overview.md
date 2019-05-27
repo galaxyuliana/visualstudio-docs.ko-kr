@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 장기 계약 없이 월간 또는 연간 기준으로 Visual Studio Professional 또는 Visual Studio Enterprise를 임대합니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 0f20db92099dfadadf710e9f3da24846b10406ac
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5927078aaf4001f569af9aafbc57575cf92fc980
+ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62978905"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65679323"
 ---
 # <a name="buy-visual-studio-professional-and-visual-studio-enterprise-cloud-subscriptions"></a>Visual Studio Enterprise 및 Visual Studio Professional 클라우드 구독 구입
 
@@ -113,10 +113,10 @@ A:  고객은 새 Visual Studio 클라우드 연간 구독을 구입할 수 없�
 A:  기존 고객에게는 영향이 없습니다. 신규 고객은 Visual Studio 월간 구독을 구입하거나 볼륨 라이선스와 같은 다른 채널로 이동하여 Visual Studio 구독을 구매할 것인지 결정해야 합니다.
 
 #### <a name="q-what-if-i-want-to-increase-the-number-of-subscriptions-for-my-customers"></a>Q: 고객의 구독 수를 늘리려면 어떻게 해야 하나요?
-A:  관리자는 [https://manage.visualstudio.com](https://manage.visualstudio.com)을 방문하여 이 문서의 지침에 따라 구독 수를 늘리면 계속 구독의 수를 늘릴 수 있습니다.
+A: 특정 월에 구입한 연간 구독은 1년 전체에 대해 즉시 요금이 청구되며 해당 1년 동안 유효합니다. 따라서 관리자는 구매 당월의 라이선스 수만 수정하면 됩니다(1년 동안 유효하고 1년에 대해 청구됨). 구매 당월이 지나면 구독 수를 늘릴 수 없습니다.
 
 #### <a name="q-what-if-i-want-to-decrease-the-number-of-subscriptions-for-my-customers"></a>Q: 고객의 구독 수를 줄일려면 어떻게 해야 하나요?
-A:  관리자는 [https://manage.visualstudio.com](https://manage.visualstudio.com)을 방문하여 이 문서의 지침에 따라 구독 수를 줄이면 계속 구독의 수를 줄일 수 있습니다.
+A:  관리자는 [https://manage.visualstudio.com](https://manage.visualstudio.com)을 방문하여 이 문서의 지침에 따라 구독 수를 줄이면 계속 구독의 수를 줄일 수 있습니다. 시스템은 비례 배분된 크레딧을 생성하지 **않습니다**. 환불을 받으려면 Azure 청구 팀에 문의해야 합니다.
 
 #### <a name="q-if-my-customers-cancel-their-subscriptions-will-they-be-able-to-buy-more-annual-cloud-subscriptions-later"></a>Q: 고객이 구독을 취소하면 나중에 더 많은 연간 클라우드 구독을 구입할 수 있나요?
 A:  다른 클라우드 연간 구독을 구입할 수 없지만 Visual Studio 구독을 구입할 수 있는 여러 옵션이 있습니다.  [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)에서 자세히 알아보세요.

@@ -383,6 +383,8 @@
               href: ca1505-avoid-unmaintainable-code.md
             - name: 'CA1506: 클래스를 지나치게 많이 결합하지 마세요.'
               href: ca1506-avoid-excessive-class-coupling.md
+            - name: 'CA1507: 문자열 대신 nameof 사용'
+              href: ca1507.md
         - name: 이동성 경고
           items:
             - name: 이동성 경고

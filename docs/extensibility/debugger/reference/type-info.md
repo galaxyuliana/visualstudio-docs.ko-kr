@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: bbb64acfd71a6208fde3a5c3f84d6c5886ece72f
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 9edb111c15c83fc6da8df2cea1eed96aed9252b0
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65460734"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212694"
 ---
 # <a name="typeinfo"></a>TYPE_INFO
 이 구조는 다양 한 종류의 필드의 형식에 대 한 정보를 지정합니다.
@@ -51,15 +51,12 @@ public struct TYPE_INFO {
  값을 [dwTYPE_KIND](../../../extensibility/debugger/reference/dwtype-kind.md) 합집합을 해석 하는 방법을 결정 하는 열거형입니다.
 
  `type.typeMeta`\
-
  [C++ 만] 포함 된 [METADATA_TYPE](../../../extensibility/debugger/reference/metadata-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_METADATA`합니다.
 
  `type.typePdb`\
-
  [C++ 만] 포함 된 [PDB_TYPE](../../../extensibility/debugger/reference/pdb-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_PDB`합니다.
 
  `type.typeBuilt`\
-
  [C++ 만] 포함 된 [BUILT_TYPE](../../../extensibility/debugger/reference/built-type.md) 경우 구조체 `dwKind` 는 `TYPE_KIND_BUILT`합니다.
 
  `type.unused`\
@@ -69,7 +66,6 @@ public struct TYPE_INFO {
  공용 구조체의 이름입니다.
 
  `unionmember`\
-
  [C# 만] 적절 한 구조 형식에이에 따라 마샬링 `dwKind`합니다.
 
 ## <a name="remarks"></a>설명
