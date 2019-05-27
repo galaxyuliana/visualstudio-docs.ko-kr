@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a0a5ad3d7651e89c2ef864a184155e8b0a430d79
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: ffc9dc5e7383c17dbcf55e514da9dfb2c452f81d
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62872733"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203109"
 ---
 # <a name="idebugmodule2getinfo"></a>IDebugModule2::GetInfo
 이 모듈에 대 한 정보를 가져옵니다.
@@ -39,14 +42,12 @@ int GetInfo( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwFields`
+## <a name="parameters"></a>매개 변수
+`dwFields`\
+[in] 플래그의 조합을 [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md) 의 필드를 지정 하는 열거형 `pInfo` 작성 됩니다.
 
- [in] 플래그의 조합을 [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md) 의 필드를 지정 하는 열거형 `pInfo` 작성 됩니다.
-
- `pInfo`
-
- [out에서] A [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 는 모듈에 대 한 설명을 포함 하는 구조입니다.
+`pInfo`\
+[out에서] A [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 는 모듈에 대 한 설명을 포함 하는 구조입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -54,7 +55,7 @@ int GetInfo( 
 ## <a name="remarks"></a>설명
  합니다 [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) 구조에 표시 되는 모듈의 이름을 포함 합니다 **모듈** 창입니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)
 - [MODULE_INFO_FIELDS](../../../extensibility/debugger/reference/module-info-fields.md)
 - [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)

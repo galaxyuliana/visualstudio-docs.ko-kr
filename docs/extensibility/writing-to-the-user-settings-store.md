@@ -1,6 +1,6 @@
 ---
 title: 사용자 설정 저장소에 쓰기 | Microsoft Docs
-ms.date: 11/04/2016
+ms.date: 05/23/2019
 ms.topic: conceptual
 ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
 author: gregvanl
@@ -8,36 +8,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5741b286af454493f543b2c39c894341c87df1b1
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: fe8187fe11f4818433aed847a7bc67d4a889ad3a
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444905"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66206879"
 ---
 # <a name="writing-to-the-user-settings-store"></a>사용자 설정 저장소에 쓰기
 사용자 설정은의 것과 같은 쓰기 설정 된 **도구 / 옵션** 대화 상자, 속성 창 및 기타 특정 대화 상자. Visual Studio 확장 적은 양의 데이터를 저장 하려면이 사용할 수 있습니다. 이 연습에서 읽고 써서 사용자 설정 저장소를 Visual studio 외부 도구로 메모장을 추가 하는 방법을 보여 줍니다.
-
-### <a name="backing-up-your-user-settings"></a>사용자 설정 백업
-
-1. 디버그 하는 절차를 반복 하는 외부 도구 설정을 다시 수 있어야 합니다. 이렇게 하려면 필요에 따라 복원할 수 있도록 원래 설정을 저장 해야 합니다.
-
-2. Regedit.exe를 엽니다.
-
-3. Navigate to HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\\.
-
-    > [!NOTE]
-    > \14.0Exp\ 및 없습니다 \14.0 포함 하는 키에서 찾으려는 있는지\\합니다. Visual Studio의 실험적 인스턴스를 실행 하면 사용자 설정과 레지스트리 하이브에 "14.0Exp" 됩니다.
-
-4. \External Tools\ 하위 키를 마우스 오른쪽 단추로 누른 **내보내기**합니다. 했는지 **선택한 분기** 을 선택 합니다.
-
-5. 결과 외부 Tools.reg 파일을 저장 합니다.
-
-6. 외부 도구 설정을 다시 설정 하려는 경우 HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0Exp\External Tools\ 레지스트리 키를 선택 하 고 클릭 나중 **삭제** 상황에 맞는 메뉴입니다.
-
-7. 경우는 **확인 키 삭제** 대화 상자가 나타나면 **예**합니다.
-
-8. 이전에 저장 된 외부 Tools.reg 파일을 마우스 오른쪽 단추로 클릭, 클릭 **로 열기**를 클릭 하 고 **레지스트리 편집기**합니다.
 
 ## <a name="writing-to-the-user-settings-store"></a>사용자 설정 저장소에 쓰기
 

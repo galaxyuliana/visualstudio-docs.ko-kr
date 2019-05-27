@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: d50ce2b695fa332057abd91ab54c5966c277ba45
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: b73b021201a3fc11509c429eda3877c24d6be6e3
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65461264"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66210125"
 ---
 # <a name="interceptexceptionaction"></a>INTERCEPT_EXCEPTION_ACTION
 예외를 가로챌 때 수행할 작업을 지정 합니다.
@@ -45,7 +45,6 @@ public enum enum_INTERCEPT_EXCEPTION_ACTION
 ## <a name="parameters"></a>매개 변수
 
 `IEA_INTERCEPT`\
-
 현재 예외를 가로챌 수 있습니다. 현재 지원 되는 유일한 값 이며 지정 해야 합니다.
 
 ## <a name="remarks"></a>설명

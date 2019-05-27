@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7f841960eec9274139307f5fcc1bcaea9bb9fb8e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 37ff30958d0f8343c5dc77c441087334524d3cd1
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412877"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212545"
 ---
 # <a name="idebugprogram2step"></a>IDebugProgram2::Step
 단계를 수행합니다.
@@ -43,18 +46,15 @@ int Step( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pThread`
+## <a name="parameters"></a>매개 변수
+`pThread`\
+[in] [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) 단계별 중인 스레드를 나타내는 개체입니다.
 
- [in] [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md) 단계별 중인 스레드를 나타내는 개체입니다.
+`sk`\
+[in] 값을 [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) 단계의 종류를 지정 하는 열거형입니다.
 
- `sk`
-
- [in] 값을 [STEPKIND](../../../extensibility/debugger/reference/stepkind.md) 단계의 종류를 지정 하는 열거형입니다.
-
- `step`
-
- [in] 값을 [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) 지정 열거형 단계의 단위 (예를 들어, 문 또는 명령).
+`step`\
+[in] 값을 [STEPUNIT](../../../extensibility/debugger/reference/stepunit.md) 지정 열거형 단계의 단위 (예를 들어, 문 또는 명령).
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -65,7 +65,7 @@ int Step( 
 > [!WARNING]
 > Stopping 이벤트 또는 직접 (동기) 이벤트를 전송 하지 마십시오 [이벤트](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) 이 호출을 처리 하는 동안 그렇지 않은 경우 디버거가 중단 될 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

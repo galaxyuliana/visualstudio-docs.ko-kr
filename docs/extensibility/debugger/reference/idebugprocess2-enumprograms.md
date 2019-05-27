@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2c044961a4b360c028c560adbea3d6faee09ee49
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: d7d3abe711ae75340826a2d5aa4755ad0d62b40e
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62917883"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66202753"
 ---
 # <a name="idebugprocess2enumprograms"></a>IDebugProcess2::EnumPrograms
 이 프로세스에 의해 포함 된 모든 프로그램의 목록을 검색 합니다.
@@ -36,14 +39,13 @@ int EnumPrograms( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppEnum`
-
- [out] 반환 된 [IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md) 프로세스에서 모든 프로그램의 목록을 포함 하는 개체입니다.
+## <a name="parameters"></a>매개 변수
+`ppEnum`\
+[out] 반환 된 [IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md) 프로세스에서 모든 프로그램의 목록을 포함 하는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)
 - [IEnumDebugPrograms2](../../../extensibility/debugger/reference/ienumdebugprograms2.md)

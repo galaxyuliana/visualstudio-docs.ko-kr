@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bf62392118ed3ddfb2dfbfca06588f0935f3192d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: f5d2f02621b91a8a39b38788072f8099178858c0
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62918719"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66210312"
 ---
 # <a name="idebugmethodfieldenumarguments"></a>IDebugMethodField::EnumArguments
 메서드를 호출 하는 데 필요한 각 인수의 형식에 대 한 열거자를 만듭니다.
@@ -36,10 +39,9 @@ int EnumArguments(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppParams`
-
- [out] 반환 된 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 인수 형식 목록을 나타내는 개체입니다. 인수가 없는 경우 null 값을 반환 합니다.
+## <a name="parameters"></a>매개 변수
+`ppParams`\
+[out] 반환 된 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 인수 형식 목록을 나타내는 개체입니다. 인수가 없는 경우 null 값을 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 또는 인수가 없으면 S_FALSE를 반환 합니다. 그러지 않으면 오류 코드가 반환됩니다.
@@ -49,7 +51,7 @@ int EnumArguments(
 
  매개 변수의 이름을 유형과 함께 필요한 경우 호출 된 [EnumParameters](../../../extensibility/debugger/reference/idebugmethodfield-enumparameters.md) 메서드.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

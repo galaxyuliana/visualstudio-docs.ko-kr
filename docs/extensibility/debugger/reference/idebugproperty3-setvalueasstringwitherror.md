@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: c71691befc9c0521c935dade9ebdacbb9921173e
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 84ef9df62bab7f5a37bc0126ef062f8e6a2306bd
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458812"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212265"
 ---
 # <a name="idebugproperty3setvalueasstringwitherror"></a>IDebugProperty3::SetValueAsStringWithError
 이 속성의 값을 설정 하 고 필요한 경우에 오류 메시지를 반환 합니다.
@@ -47,20 +47,16 @@ int SetValueAsStringWithError(
 
 ## <a name="parameters"></a>매개 변수
 `pszValue`\
-
- [in] 설정할 값입니다.
+[in] 설정할 값입니다.
 
 `dwRadix`\
-
- [in] 기 수 설정 되는 값입니다.
+[in] 기 수 설정 되는 값입니다.
 
 `dwTimeout`\
-
- [in] 설정할 값에 대 한 대기 시간의 길이 (`INFINITE` 의미 무기한 대기).
+[in] 설정할 값에 대 한 대기 시간의 길이 (`INFINITE` 의미 무기한 대기).
 
 `errorString`\
-
- [out] 값을 설정할 때 오류가 발생에 발생 한 경우이 오류가 발생 한 이유를 보유 합니다.
+[out] 값을 설정할 때 오류가 발생에 발생 한 경우이 오류가 발생 한 이유를 보유 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

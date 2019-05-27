@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 797a18b678e815411b7ea7860e44ea6159caa2b5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 829ee652ce1d1d2ebb713d4b52e1ea255624f07d
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62872409"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66209841"
 ---
 # <a name="idebugobject2getfield"></a>IDebugObject2::GetField
 이 개체의 형식을 가져옵니다.
@@ -36,10 +39,9 @@ int GetField(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppField`
-
- [out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) null 값이 없으면 개체.
+## <a name="parameters"></a>매개 변수
+`ppField`\
+[out] 반환 된 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) null 값이 없으면 개체.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -47,6 +49,6 @@ int GetField(
 ## <a name="remarks"></a>설명
  필드에는 개체의 유형을 설명합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

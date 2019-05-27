@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ee4f7ec068b3daa77692d4ab64d327ebb8f61766
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: e9a301bcba6e1fd98e1efbe2c051f2ea27801483
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457392"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66210895"
 ---
 # <a name="idebugstackframe2getexpressioncontext"></a>IDebugStackFrame2::GetExpressionContext
 스레드 스택 프레임을 현재 컨텍스트에서 식 계산에 대 한 계산 컨텍스트를 가져옵니다.
@@ -40,9 +40,8 @@ int GetExpressionContext ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `ppExprCxt`\
-
- [out] 반환 된 [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md) 식 계산에 대 한 컨텍스트를 나타내는 개체입니다.
+`ppExprCxt`\
+[out] 반환 된 [IDebugExpressionContext2](../../../extensibility/debugger/reference/idebugexpressioncontext2.md) 식 계산에 대 한 컨텍스트를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

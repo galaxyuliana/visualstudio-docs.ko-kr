@@ -13,12 +13,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 49f30f6b5bb1231f6bcbd77097454ae7a73a7a2c
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 45dadc5d3292d989163df085e00f61207940d442
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458587"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212067"
 ---
 # <a name="idebugsettingscallback2getmetricguid"></a>IDebugSettingsCallback2::GetMetricGuid
 이름이 지정 된 메트릭의 고유 식별자를 검색 합니다.
@@ -44,21 +44,17 @@ private int GetMetricGuid(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pszType`\
+`pszType`\
+[in] 메트릭의 유형입니다.
 
- [in] 메트릭의 유형입니다.
+`guidSection`\
+[in] 섹션의 고유 식별자입니다.
 
- `guidSection`\
+`pszMetric`\
+[in] 메트릭의 이름입니다.
 
- [in] 섹션의 고유 식별자입니다.
-
- `pszMetric`\
-
- [in] 메트릭의 이름입니다.
-
- `pguidValue`\
-
- [out] 메트릭의 고유 식별자를 반환합니다.
+`pguidValue`\
+[out] 메트릭의 고유 식별자를 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

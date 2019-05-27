@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9967351e4b0654a21cab21c2f17eedcbcb471fff
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7afcf34153c6910820068cfbea7e67b08568223a
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62919396"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212181"
 ---
 # <a name="idebugfieldgetkind"></a>IDebugField::GetKind
 이 메서드는 필드의 종류를 가져옵니다.
@@ -36,14 +39,13 @@ int GetKind(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pdwKind`
-
- [out] 필드의 종류를 조합으로 반환 [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) 상수입니다.
+## <a name="parameters"></a>매개 변수
+`pdwKind`\
+[out] 필드의 종류를 조합으로 반환 [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) 상수입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)
 - [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md)

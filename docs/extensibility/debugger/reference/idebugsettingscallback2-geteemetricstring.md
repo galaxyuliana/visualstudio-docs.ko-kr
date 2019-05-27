@@ -13,12 +13,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 58132d73cd532acd0c89ad5258c6ba4a59b905fa
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: a3cad87c74a00f2feac4390921be032ed3f8b6cc
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458616"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212095"
 ---
 # <a name="idebugsettingscallback2geteemetricstring"></a>IDebugSettingsCallback2::GetEEMetricString
 해당 이름이 지정 하는 식 계산기 메트릭의 값 문자열을 검색 합니다.
@@ -44,21 +44,17 @@ private int GetEEMetricString(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `guidLang`\
+`guidLang`\
+[in] 프로그래밍 언어의 고유 식별자입니다.
 
- [in] 프로그래밍 언어의 고유 식별자입니다.
+`guidVendor`\
+[in] 공급 업체의 고유 식별자입니다.
 
- `guidVendor`\
+`pszMetric`\
+[in] 메트릭의 이름입니다.
 
- [in] 공급 업체의 고유 식별자입니다.
-
- `pszMetric`\
-
- [in] 메트릭의 이름입니다.
-
- `pbstrValue`\
-
- [out] 메트릭 값 문자열을 반환합니다.
+`pbstrValue`\
+[out] 메트릭 값 문자열을 반환합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

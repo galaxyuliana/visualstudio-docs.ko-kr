@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2de204f3d95147d3250e570fa785ecccf68b4634
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 363018d13cfeee1691881f4d8b814cdd0b2dfa35
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412770"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212342"
 ---
 # <a name="idebugprogram2getencupdate"></a>IDebugProgram2::GetENCUpdate
 이 메서드는이 프로그램에 대 한 편집 및 계속 (ENC) 업데이트를 가져옵니다. 사용자 지정 디버그 엔진을 항상 반환 `E_NOTIMPL`합니다.
@@ -36,10 +39,9 @@ int GetENCUpdate(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppUpdate`
-
- [out] 이 프로그램을 업데이트 하는 내부 인터페이스를 반환 합니다.
+## <a name="parameters"></a>매개 변수
+`ppUpdate`\
+[out] 이 프로그램을 업데이트 하는 내부 인터페이스를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -47,5 +49,5 @@ int GetENCUpdate(
 > [!NOTE]
 > 사용자 지정 디버그 엔진을 항상 반환 `E_NOTIMPL`합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

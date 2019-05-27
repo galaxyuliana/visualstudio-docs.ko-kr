@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2b54c84c5f5c13424354c65201d290fbef83e055
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: ea35bcdef843756124fe7102167e35694d9fa1b4
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62873165"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66210359"
 ---
 # <a name="idebugmessageevent2setresponse"></a>IDebugMessageEvent2::SetResponse
 메시지 상자에서 모든 경우에 응답을 설정 합니다.
@@ -37,14 +40,13 @@ int SetResponse( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `dwResponse`
-
- [in] Win32의 규칙을 사용 하 여 응답을 지정 `MessageBox` 함수입니다. 참조 된 [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) 세부 정보에 대 한 함수입니다.
+## <a name="parameters"></a>매개 변수
+`dwResponse`\
+[in] Win32의 규칙을 사용 하 여 응답을 지정 `MessageBox` 함수입니다. 참조 된 [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) 세부 정보에 대 한 함수입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugMessageEvent2](../../../extensibility/debugger/reference/idebugmessageevent2.md)
 - [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox)

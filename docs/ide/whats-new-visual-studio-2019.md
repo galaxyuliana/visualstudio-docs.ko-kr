@@ -2,7 +2,7 @@
 title: Visual Studio 2019의 새로운 기능
 titleSuffix: ''
 description: Visual Studio 2019의 새로운 기능을 알아보세요.
-ms.date: 04/23/2019
+ms.date: 05/22/2019
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -15,16 +15,16 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 3093641ad07ad3ae0f4796c2064c3e6901ae03ba
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: e22463ad6a50270412652b2797628010e169b1ba
+ms.sourcegitcommit: 92a04c57ac0a49f304fa2ea5043436f30068c3cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63432026"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "65976242"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Visual Studio 2019의 새로운 기능
 
-**[16.0 릴리스](/visualstudio/releases/2019/release-notes/)용으로 업데이트됨**
+**[16.1 릴리스](/visualstudio/releases/2019/release-notes/)용으로 업데이트됨**
 
 >[!div class="button"]
 >[Visual Studio 2019 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
@@ -63,7 +63,7 @@ C#에서 코드 구성을 더 쉽게 만드는 매우 유용한 새로운 리팩
 
 ### <a name="intellicode"></a>IntelliCode
 
-[Visual Studio IntelliCode](/visualstudio/intellicode/)는 AI(인공 지능)를 사용하여 소프트웨어 개발 작업을 개선하는 확장입니다. IntelliCode는 각각 100개 이상의 별이 달린 GitHub의 오픈 소스 프로젝트 2,000개를 학습하여 권장 사항을 생성합니다.
+[Visual Studio IntelliCode](/visualstudio/intellicode/)는 AI(인공 지능)를 사용하여 소프트웨어 개발 작업을 개선합니다. IntelliCode는 각각 100개 이상의 별이 달린 GitHub의 오픈 소스 프로젝트 2,000개를 학습하여 권장 사항을 생성합니다.
 
  ![Visual Studio 2019의 IntelliCode 애니메이션](media/vs-2019/IntelliCode.gif)
 
@@ -74,23 +74,33 @@ Visual Studio IntelliCode로 생산성을 높이는 몇 가지 방법이 있습�
 * 찾기 어려운 코드 문제 발견
 * 정말 중요한 영역으로 주의를 끌어 코드 검토에 집중
 
-Visual Studio용 IntelliCode 확장을 처음 소개할 때는 C#만 지원했습니다. 이제 Visual Studio에서 C++ 및 XAML 지원도 추가되었습니다.
+IntelliCode를 Visual Studio용 확장을 처음 소개할 때는 C#만 지원했습니다. 이제 **16.1부터** C# 및 XAML 지원도 “기본으로” 추가되었습니다. (그러나 C++ 및 TypeScript/JavaScript에 대한 지원은 계속 미리 보기 상태입니다.)
 
 C#을 사용하는 분들을 위해 사용자 고유의 코드에서 사용자 지정 모델을 학습하는 기능도 추가되었습니다.
 
-IntelliCode에 대한 자세한 내용은 [Code more, scroll less with Visual Studio IntelliCode](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/)(Visual Studio IntelliCode를 사용하여 더 많이 코딩, 더 적게 스크롤) 블로그 게시물을 참조하세요.
+IntelliCode에 대한 자세한 내용은 [IntelliCode 및 미리 보기의 일반 제공 발표](https://devblogs.microsoft.com/visualstudio/announcing-the-general-availability-of-intellicode-plus-a-sneak-peek/) 및 [Visual Studio IntelliCode로 코드는 더 많이, 스크롤은 적게](https://devblogs.microsoft.com/visualstudio/code-more-scroll-less-with-visual-studio-intellicode/) 블로그 게시물을 참조하세요.
 
 ### <a name="code-cleanup"></a>코드 정리
 
 새로운 문서 상태 표시기와 새로운 코드 정리 명령이 쌍으로 제공됩니다. 이 새 명령을 사용하여 단추 클릭 한 번으로 경고 및 제한 사항을 식별하고 수정할 수 있습니다.
 
-정리는 코드를 포맷하고 [현재 설정](code-styles-and-quick-actions.md) 및 [.editorconfig 파일](create-portable-custom-editor-options.md)에서 제안하는 코드 수정 사항을 적용합니다.
+정리는 코드를 포맷하고 [현재 설정](code-styles-and-code-cleanup.md) 및 [.editorconfig 파일](create-portable-custom-editor-options.md)에서 제안하는 코드 수정 사항을 적용합니다.
 
    ![Visual Studio 2019의 새 코드 정리 컨트롤 스크린샷](media/vs-2019/code-cleanup-profile.png)
 
 수정 도구 컬렉션을 프로필로 저장할 수도 있습니다. 예를 들어 코딩하는 동안 자주 적용하는 작은 대상 지정 수정 도구 세트가 있고 코드 검토 전에 적용할 다른 포괄적인 수정 도구 세트가 있는 경우 이러한 여러 작업을 처리하도록 프로필을 구성할 수 있습니다.
 
    ![Visual Studio 2019의 새 코드 정리 컨트롤 스크린샷](media/vs-2019/code-cleanup-profile-configure.png)
+
+### <a name="per-monitor-aware-pma-rendering"></a>PMA(모니터별 인식) 렌더링
+
+여러 디스플레이 배율 인수를 사용하여 구성된 모니터를 사용하거나, 디스플레이 배율 인수가 주 디바이스와 다른 머신에 원격으로 연결하는 경우 Visual Studio가 흐리게 보이거나 잘못된 배율로 렌더링될 수 있습니다.
+
+Visual Studio 2019 릴리스부터 Visual Studio를 PMA(모니터별 인식) 애플리케이션으로 만들게 됩니다. 이제 Visual Studio에서 사용하는 표시 배율에 관계없이 정확하게 렌더링됩니다.
+
+   ![Visual Studio 2019의 PMA(모니터별 인식) 렌더링](media/vs-2019/pma-dpi-scaling.png)
+
+자세한 내용은 [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/)(Visual Studio 2019를 사용하여 다중 모니터 경험 향상) 블로그 게시물을 참조하세요.
 
 ## <a name="collaborate"></a>공동 작업
 
@@ -104,7 +114,7 @@ Visual Studio 2019를 열면 새 시작 창이 표시됩니다.
 
    ![Visual Studio 2019의 새 시작 창 스크린샷](media/vs-2019/start-window-dark.png)
 
-시작 창은 신속하게 코딩할 수 있는 몇 가지 옵션을 제공합니다. 먼저 리포지토리에서 코드를 복제하거나 체크 아웃하는 옵션이 배치되었습니다.  
+시작 창은 신속하게 코딩할 수 있는 몇 가지 옵션을 제공합니다. 먼저 리포지토리에서 코드를 복제하거나 체크 아웃하는 옵션이 배치되었습니다.
 
    ![Visual Studio 2019의 ‘Git 우선’ 환경 애니메이션](media/vs-2019/git-first.gif)
 
@@ -128,7 +138,7 @@ Visual Studio 2019를 열면 새 시작 창이 표시됩니다.
 
    ![Visual Studio 2019의 새 시작 창 스크린샷](media/vs-2019/pr-experience.png)
 
-지금 시작하려면 Visual Studio Marketplace에서 [Visual Studio에 대한 끌어오기 요청](https://aka.ms/pr4vs) 확장을 다운로드하세요.
+자세한 내용은 [Visual Studio 끌어오기 요청 확장을 사용하여 코드 검토](https://devblogs.microsoft.com/visualstudio/code-reviews-using-the-visual-studio-pull-requests-extension/) 블로그 게시물을 참조하세요.
 
 ## <a name="debug"></a>디버그
 
@@ -170,7 +180,7 @@ Azure VM에서 실행되는 ASP.NET(Core 및 데스크톱) 애플리케이션을
 
 ## <a name="whats-next"></a>새로운 기능
 
-Visual Studio 2019는 개발 환경을 훨씬 더 좋게 만들어 줄 수 있는 새 기능으로 자주 업데이트됩니다. 최신 혁신 기능을 자세히 알아보려면 [The Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/)(Visual Studio 블로그)를 확인하세요. 미리 보기에서 현재까지 릴리스된 내용에 대한 기록은 [미리 보기 릴리스 노트](/visualstudio/releases/2019/release-notes-preview/)를 살펴보세요.
+Visual Studio 2019는 개발 환경을 훨씬 더 좋게 만들어 줄 수 있는 새 기능으로 자주 업데이트됩니다. 최신 혁신 기능을 자세히 알아보려면 [Visual Studio 블로그](https://devblogs.microsoft.com/visualstudio/)를 확인하세요. 미리 보기에서 현재까지 릴리스된 내용에 대한 기록은 [미리 보기 릴리스 노트](/visualstudio/releases/2019/release-notes-preview/)를 살펴보세요.
 
 Visual Studio 2019에서 진행 중인 다른 기능에 대해 더 알고 싶은가요? [Visual Studio 로드맵](/visualstudio/productinfo/vs-roadmap/)을 참조하세요.
 
@@ -178,9 +188,9 @@ Visual Studio 2019에서 진행 중인 다른 기능에 대해 더 알고 싶은
 
 피드백을 보낼 때는 Visual Studio 팀에 피드백을 보내는 이유도 함께 알려 주세요. Microsoft는 고객 여러분의 피드백을 소중하게 생각하며, Microsoft에서 추진하는 업무에 큰 역할을 합니다.
 
-* Visual Studio 개선 방안에 대한 의견이 있는 분들은 [의견 보내기](talk-to-us.md#i-want-to-make-a-suggestion-about-visual-studio-features) 도구를 사용하여 의견을 보내주세요.
+* Visual Studio 개선 방안에 대한 의견이 있는 분들은 [기능 제안](suggest-a-feature.md) 도구를 사용하여 의견을 보내주세요.
 
-* 시스템 중단, 충돌 또는 기타 성능 문제가 발생하는 경우 [문제 보고](talk-to-us.md#i-want-to-report-a-problem-with-visual-studio) 도구를 사용하여 간편하게 재현 단계 및 지원 파일을 공유할 수 있습니다.
+* 시스템 중단, 충돌 또는 기타 성능 문제가 발생하는 경우 [문제 보고](how-to-report-a-problem-with-visual-studio.md) 도구를 사용하여 간편하게 재현 단계 및 지원 파일을 공유할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 
@@ -188,4 +198,5 @@ Visual Studio 2019에서 진행 중인 다른 기능에 대해 더 알고 싶은
 * [Visual Studio 2019 릴리스 정보](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 SDK의 새로운 기능](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Visual Studio 2019 for Mac is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-is-now-available/)(현재 사용 가능한 Mac용 Visual Studio 2019)
+* [Microsoft 빌드 2019 회의](https://www.microsoft.com/build)
 * [Microsoft Connect(); 2018 회의](https://www.microsoft.com/connectevent)

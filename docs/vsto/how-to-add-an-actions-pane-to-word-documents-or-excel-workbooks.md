@@ -1,5 +1,5 @@
 ---
-title: '방법: Word 문서 또는 Excel 통합 문서에 작업 창 추가'
+title: Word 문서 또는 Excel 통합 문서에 작업 창 추가
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f9696640358626c254f1792fc29a31a41d4bafb3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: aed3ace3765bb9f160117503deb7373e12e510ad
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63427902"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177777"
 ---
 # <a name="how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks"></a>방법: Word 문서 또는 Excel 통합 문서에 작업 창 추가
   작업 창에는 Microsoft Office Word 문서 또는 Microsoft Excel 통합 문서를 추가 하려면 먼저 Windows Forms 사용자 정의 컨트롤을 만듭니다. 그런 다음 사용자 정의 컨트롤을 추가 합니다 <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> 의 속성을 `ThisDocument.ActionsPane` 필드 (Word) 또는 `ThisWorkbook.ActionsPane` 프로젝트에서 필드 (Excel).

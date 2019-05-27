@@ -13,12 +13,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 12005f27e533d491451695925253137fb172ccd6
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 5205cfbda0420e45fc1e22dac678d97975f937a8
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457623"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212164"
 ---
 # <a name="idebugsettingscallback2enumees"></a>IDebugSettingsCallback2::EnumEEs
 언어 및 공급 업체 식별자를 지정 된 사용 가능한 식 계산기를 열거 합니다.
@@ -44,21 +44,17 @@ public int EnumEEs(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `celtBuffer`\
+`celtBuffer`\
+[in] 요소 수를 `pceltEEs` 버퍼입니다.
 
- [in] 요소 수를 `pceltEEs` 버퍼입니다.
+`rgguidLang`\
+[out에서] 프로그래밍 언어에 대 한 고유 식별자입니다.
 
- `rgguidLang`\
+`rgguidVendor`\
+[out에서] 공급 업체에 대 한 고유 식별자입니다.
 
- [out에서] 프로그래밍 언어에 대 한 고유 식별자입니다.
-
- `rgguidVendor`\
-
- [out에서] 공급 업체에 대 한 고유 식별자입니다.
-
- `pceltEEs`\
-
- [out에서] 식 계산기의 배열입니다.
+`pceltEEs`\
+[out에서] 식 계산기의 배열입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

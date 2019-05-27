@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 9f088bcfeebb570be911fbc8e37bed5995767ac9
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: cefde77199f4348cb93fd387291f3a991bf4d50c
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457729"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211470"
 ---
 # <a name="idebugproperty2getpropertyinfo"></a>IDebugProperty2::GetPropertyInfo
 가져옵니다 합니다 [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 속성을 설명 하는 구조입니다.
@@ -50,29 +50,23 @@ int GetPropertyInfo ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `dwFields`\
+`dwFields`\
+[in] 값의 조합 합니다 [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) 데이터를 입력할 수 있는 필드를 지정 하는 열거형은 `pPropertyInfo` 구조입니다.
 
- [in] 값의 조합 합니다 [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) 데이터를 입력할 수 있는 필드를 지정 하는 열거형은 `pPropertyInfo` 구조입니다.
+`nRadix`\
+[in] 모든 숫자 정보를 서식 지정 하는 데 사용할 기 수입니다.
 
- `nRadix`\
+`dwTimeout`\
+[in] 이 메서드에서 반환 되기 전에 대기할 밀리초 단위로 최대 시간을 지정 합니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
 
- [in] 모든 숫자 정보를 서식 지정 하는 데 사용할 기 수입니다.
+`rgpArgs`\
+[out에서] 사용 하도록 예약 됩니다. null 값으로 설정 합니다.
 
- `dwTimeout`\
+`dwArgCount`\
+[in] 사용 하도록 예약 됩니다. 0으로 설정 합니다.
 
- [in] 이 메서드에서 반환 되기 전에 대기할 밀리초 단위로 최대 시간을 지정 합니다. 사용 하 여 `INFINITE` 무기한 대기 합니다.
-
- `rgpArgs`\
-
- [out에서] 사용 하도록 예약 됩니다. null 값으로 설정 합니다.
-
- `dwArgCount`\
-
- [in] 사용 하도록 예약 됩니다. 0으로 설정 합니다.
-
- `pPropertyInfo`\
-
- [out] A [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 구조는이 속성에 대 한 설명을 채워집니다.
+`pPropertyInfo`\
+[out] A [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 구조는이 속성에 대 한 설명을 채워집니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다.

@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 0b6aca1ef95a8ae88301181955828f08c7c38bed
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 918b61856577ae730ca72f180e614ee3982c917b
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226712"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199482"
 ---
 # <a name="idebugthread2setnextstatement"></a>IDebugThread2::SetNextStatement
 지정 된 코드 컨텍스트에 현재 명령 포인터를 설정합니다.
@@ -42,12 +42,11 @@ int SetNextStatement ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pStackFrame`\
- 사용 하도록 예약 됩니다. null 값으로 설정 합니다.
+`pStackFrame`\
+사용 하도록 예약 됩니다. null 값으로 설정 합니다.
 
- `pCodeContext`\
-
- [in] [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 실행 될 코드 위치를 설명 하는 개체 및 컨텍스트.
+`pCodeContext`\
+[in] [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) 실행 될 코드 위치를 설명 하는 개체 및 컨텍스트.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 다음 표에서 가능한 다른 값을 보여 줍니다.

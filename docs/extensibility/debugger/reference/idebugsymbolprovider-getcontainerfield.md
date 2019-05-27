@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8936ab07f4df7b2e2295fae4192bca79205429ac
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 3a0d128666d3836495dd3169720bc6e58f6ef11e
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65224152"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66207265"
 ---
 # <a name="idebugsymbolprovidergetcontainerfield"></a>IDebugSymbolProvider::GetContainerField
 이 메서드는 디버그 주소를 포함 하는 필드를 가져옵니다.
@@ -42,13 +42,11 @@ int GetContainerField(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pAddress`\
+`pAddress`\
+[in] 에 표시 된 대로 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
 
- [in] 에 표시 된 대로 주소는 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 인터페이스입니다.
-
- `ppContainerField`\
-
- [out] 나타내는 컨테이너 필드를 반환 합니다는 [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) 인터페이스입니다.
+`ppContainerField`\
+[out] 나타내는 컨테이너 필드를 반환 합니다는 [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md) 인터페이스입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

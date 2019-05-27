@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a39725f316e63b8c6768471164b69feb47c05728
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 34ab8274dc8831cabc4ac8d82627cd5e4560827c
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62867240"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66208070"
 ---
 # <a name="ienumdebugfieldsnext"></a>IEnumDebugFields::Next
 이 메서드는 열거형에서 다음 요소 집합을 반환합니다.
@@ -40,18 +43,15 @@ int Next(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `celt`
+## <a name="parameters"></a>매개 변수
+`celt`\
+[in] 검색할 요소의 수입니다. 또한 최대 크기를 지정 된 `rgelt` 배열입니다.
 
- [in] 검색할 요소의 수입니다. 또한 최대 크기를 지정 된 `rgelt` 배열입니다.
+`rgelt`\
+[out에서] 배열을 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 채울 요소입니다.
 
- `rgelt`
-
- [out에서] 배열을 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 채울 요소입니다.
-
- `pceltFetched`
-
- [out] 에 실제로 반환 된 요소의 수를 반환 합니다. `rgelt`합니다.
+`pceltFetched`\
+[out] 에 실제로 반환 된 요소의 수를 반환 합니다. `rgelt`합니다.
 
 ## <a name="return-value"></a>반환 값
  성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 요소의 요청 된 수보다 적은; 반환 될 수 있으면이 고, 그렇지 오류 코드를 반환 합니다.

@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2ab8bc16da26b1c47ecdda79db361e24b68e2e82
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 11492bf05ae7264263c9347304cc01ae3cf3d89b
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876890"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66204021"
 ---
 # <a name="idebugbreakpointresolution2getbreakpointtype"></a>IDebugBreakpointResolution2::GetBreakpointType
 이 확인을 나타내는 중단점의 형식을 가져옵니다.
@@ -36,10 +39,9 @@ int GetBreakpointType( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pBPType`
-
- [out] 값을 반환 합니다 [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) 이 중단점의 형식을 지정 하는 열거형입니다.
+## <a name="parameters"></a>매개 변수
+`pBPType`\
+[out] 값을 반환 합니다 [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md) 이 중단점의 형식을 지정 하는 열거형입니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. E_FAIL을 반환 하는 경우는 `bpResLocation` 연결 된 필드 [BP_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-resolution-info.md) 구조가 잘못 되었습니다.
@@ -81,7 +83,7 @@ HRESULT CDebugBreakpointResolution::GetBreakpointType(BP_TYPE* pBPType)
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md)
 - [BP_TYPE](../../../extensibility/debugger/reference/bp-type.md)
 - [BPRESI_FIELDS](../../../extensibility/debugger/reference/bpresi-fields.md)

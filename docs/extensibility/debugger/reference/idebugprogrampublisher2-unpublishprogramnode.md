@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 00c78b4390d519cb8b37d0af17e1e61a8127d080
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 8d97d7d67252596ccc9c652f09cc433b6dd5b053
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458934"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211635"
 ---
 # <a name="idebugprogrampublisher2unpublishprogramnode"></a>IDebugProgramPublisher2::UnpublishProgramNode
 가용성을 디버그 엔진 (DEs) 및 세션 디버그 관리자 (SDM)에서 지정한 프로그램 노드를 제거 합니다.
@@ -40,9 +40,8 @@ int UnpublishProgramNode(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pProgramNode`\
-
- [in] [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 제거할 프로그램 노드를 나타내는 개체입니다.
+`pProgramNode`\
+[in] [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) 제거할 프로그램 노드를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

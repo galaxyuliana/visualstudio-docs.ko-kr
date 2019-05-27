@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3eb4eae82dd11d58734ed114886c9ec121b60b69
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 62ee27d9780ba1bb3941320604ade1d3cf16e5fc
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62875189"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203315"
 ---
 # <a name="idebugdocumenttext2gettext"></a>IDebugDocumentText2::GetText
 문서의 지정된 된 위치에서 텍스트를 검색합니다.
@@ -42,22 +45,18 @@ int GetText(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
-`pos`
+## <a name="parameters"></a>매개 변수
+`pos`\
+[in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 검색할 텍스트의 위치를 나타내는 구조입니다.
 
- [in] A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 검색할 텍스트의 위치를 나타내는 구조입니다.
+`cMaxChars`\
+[in] 검색할 텍스트 문자의 최대 수입니다.
 
-`cMaxChars`
+`pText`\
+[out에서] 원하는 텍스트를 채울 수 있는 버퍼에 대 한 포인터입니다. 이 버퍼는 이상 포함할 수 있어야 합니다. `cMaxChars` 와이드 문자 수입니다.
 
- [in] 검색할 텍스트 문자의 최대 수입니다.
-
-`pText`
-
- [out에서] 원하는 텍스트를 채울 수 있는 버퍼에 대 한 포인터입니다. 이 버퍼는 이상 포함할 수 있어야 합니다. `cMaxChars` 와이드 문자 수입니다.
-
-`pcNumChars`
-
- [out] 실제로 검색 하는 문자 수를 반환 합니다.
+`pcNumChars`\
+[out] 실제로 검색 하는 문자 수를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -101,6 +100,6 @@ namespace Mynamespace
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
 - [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

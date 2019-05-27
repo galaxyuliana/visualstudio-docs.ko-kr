@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 21ae1d4c16ce422d2baed2bd71ab5d0aa8b92e0c
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: b087997fab72e71abf4380df6d5c03910d1a57eb
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457663"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212249"
 ---
 # <a name="idebugproperty3getstringchars"></a>IDebugProperty3::GetStringChars
 이 속성을 사용 하 여 연결 된 문자열을 검색 하 고 사용자가 제공한 버퍼에 저장 합니다.
@@ -45,18 +45,15 @@ int GetStringChars(
 
 ## <a name="parameters"></a>매개 변수
 `buflen`\
-
- [in] 최대 문자 수는 사용자가 제공한 버퍼를 포함할 수 있습니다.
+[in] 최대 문자 수는 사용자가 제공한 버퍼를 포함할 수 있습니다.
 
 `rgString`\
-
- [out] 문자열을 반환합니다.
+[out] 문자열을 반환합니다.
 
  [C++ 만], `rgString` 문자열의 유니코드 문자를 받는 버퍼에 대 한 포인터입니다. 이 버퍼 이상 이어야 합니다 `buflen` 크기에서 (바이트 아님) 문자입니다.
 
 `pceltFetched`\
-
- [out] 여기서 실제로 버퍼에 저장 하는 문자 수가 반환 됩니다. (일 수 있습니다 `NULL` 에서 C++.)
+[out] 여기서 실제로 버퍼에 저장 하는 문자 수가 반환 됩니다. (일 수 있습니다 `NULL` 에서 C++.)
 
 ## <a name="return-value"></a>반환 값
 성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다.

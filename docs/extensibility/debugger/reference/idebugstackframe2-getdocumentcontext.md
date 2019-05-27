@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 253235913afecc2895f6aa37e6cd1a06dc9685dd
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: d8807f0bfe039fdf1cdaef8a7ce2ac0e269b59e5
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458552"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66208643"
 ---
 # <a name="idebugstackframe2getdocumentcontext"></a>IDebugStackFrame2::GetDocumentContext
 이 스택 프레임에 대 한 문서 컨텍스트를 가져옵니다.
@@ -40,9 +40,8 @@ int GetDocumentContext ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `ppCxt`\
-
- [out] 반환 된 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 소스 문서의 현재 위치를 나타내는 개체입니다.
+`ppCxt`\
+[out] 반환 된 [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) 소스 문서의 현재 위치를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

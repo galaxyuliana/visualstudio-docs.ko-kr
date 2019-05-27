@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 47013153326bd2c86dd897d519fa87a64f9464ed
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 42eb6fda98d417483387211aaffcbf6260c61864
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65458906"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211534"
 ---
 # <a name="idebugproperty2getmemorybytes"></a>IDebugProperty2::GetMemoryBytes
 속성의 값을 구성 하는 메모리 바이트 수를 가져옵니다.
@@ -40,9 +40,8 @@ int GetMemoryBytes ( 
 ```
 
 ## <a name="parameters"></a>매개 변수
- `ppMemoryBytes`\
-
- [out] 반환 된 [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) 속성의 값을 포함 하는 메모리를 검색 하는 데 사용할 수 있습니다.
+`ppMemoryBytes`\
+[out] 반환 된 [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) 속성의 값을 포함 하는 메모리를 검색 하는 데 사용할 수 있습니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 반환 `S_GETMEMORYBYTES_NO_MEMORY_BYTES` 검색할 메모리 바이트가 없는 경우.

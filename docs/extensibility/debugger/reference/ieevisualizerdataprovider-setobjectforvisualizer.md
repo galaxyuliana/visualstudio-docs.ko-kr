@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: cd7bd4bfd113da8cfd311d1022967d8c99f915b5
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 31bc89e248d609e8b828d4cc5b9ac41c8e15c70c
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65223953"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203699"
 ---
 # <a name="ieevisualizerdataprovidersetobjectforvisualizer"></a>IEEVisualizerDataProvider::SetObjectForVisualizer
 이 메서드는 시각화 도우미를 나타내는 개체를 변경 합니다.
@@ -44,17 +44,14 @@ int SetObjectForVisualizer(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `pNewObject`\
+`pNewObject`\
+[in] 개체 집합입니다.
 
- [in] 개체 집합입니다.
+`error`\
+[out] 개체를 설정할 때 오류가 발생에 발생 한 경우이 문자열 오류 메시지를 보유 합니다.
 
- `error`\
-
- [out] 개체를 설정할 때 오류가 발생에 발생 한 경우이 문자열 오류 메시지를 보유 합니다.
-
- `pException`\
-
- [out] 오류가 있는 경우이 개체는 예외 정보를 보유 합니다.
+`pException`\
+[out] 오류가 있는 경우이 개체는 예외 정보를 보유 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

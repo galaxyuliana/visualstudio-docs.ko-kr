@@ -14,12 +14,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: e401e009cd4119704e72dec09614ec013aa9eee0
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: cbd7bd7655769668ce2a279150f444fd196235fb
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65223554"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212607"
 ---
 # <a name="ieevisualizerservicegetvaluedisplaystringcount"></a>IEEVisualizerService::GetValueDisplayStringCount
 지정 된 속성 또는 필드에 대해 표시할 문자열 값을 검색 합니다.
@@ -43,17 +43,14 @@ int GetValueDisplayStringCount (
 ```
 
 ## <a name="parameters"></a>매개 변수
- `displayKind`\
+`displayKind`\
+[in] 값을 [DisplayKind](../../../extensibility/debugger/reference/displaykind.md) 열거형입니다.
 
- [in] 값을 [DisplayKind](../../../extensibility/debugger/reference/displaykind.md) 열거형입니다.
+`propertyOrField`\
+[in] [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 속성 또는 필드를 나타내는 인터페이스입니다.
 
- `propertyOrField`\
-
- [in] [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 속성 또는 필드를 나타내는 인터페이스입니다.
-
- `pcelt`\
-
- [out] 표시할 문자열 값의 수를 반환 합니다.
+`pcelt`\
+[out] 표시할 문자열 값의 수를 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.

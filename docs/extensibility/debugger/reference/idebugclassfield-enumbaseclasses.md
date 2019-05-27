@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 74889ed04dceb133c80467d20f723f9561b6e25c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7a5e58899f260f6fdeb9cf33c1e9f2e77a283ada
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62922767"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203227"
 ---
 # <a name="idebugclassfieldenumbaseclasses"></a>IDebugClassField::EnumBaseClasses
 이 클래스의 기본 클래스에 대 한 열거자를 만듭니다.
@@ -36,10 +39,10 @@ int EnumBaseClasses(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppEnum`
+## <a name="parameters"></a>매개 변수
+`ppEnum`\
 
- [out] 반환 된 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 기본 클래스의 목록을 나타내는 개체입니다. 기본 클래스가 없고 없으면 null 값을 반환 합니다.
+[out] 반환 된 [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) 기본 클래스의 목록을 나타내는 개체입니다. 기본 클래스가 없고 없으면 null 값을 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환, 기본 클래스가 없고 없으면 S_SH_NO_BASE_CLASSES를 반환 합니다 (및 `ppEnum` 매개 변수는 null 값으로 설정)이 고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -56,6 +59,6 @@ class MyClass : Level2 { }
 
  열거형 기본 클래스를 순서 대로 반환 `Level2`, `Level1`, `Root`합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)

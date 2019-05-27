@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ccfea65f7f24b3d48fc5ec5d68028c72b9b4eece
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: fec036357fb92563eba81c919ab32fea2e58c3b3
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62872452"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66211272"
 ---
 # <a name="idebugobjectsetvalue"></a>IDebugObject::SetValue
 연속 된 일련의 바이트에서 개체의 값을 설정 합니다.
@@ -38,14 +41,12 @@ int SetValue(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pValue`
+## <a name="parameters"></a>매개 변수
+`pValue`\
+[in] 새 값을 나타내는 바이트 배열입니다.
 
- [in] 새 값을 나타내는 바이트 배열입니다.
-
- `nSize`
-
- [in] 크기 (바이트)에서 값입니다.
+`nSize`\
+[in] 크기 (바이트)에서 값입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
@@ -53,6 +54,6 @@ int SetValue(
 ## <a name="remarks"></a>설명
  배열의 값이 복사 됩니다 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 개체를 기존 값을 대체 합니다. 새 값의 크기는 기존 값 보다 작거나 클 수 있습니다. 이 `IDebugObject` null 참조일 수 없습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)
 - [GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)

@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 23c0db65c257547bd57e6382e6da806a852ea367
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: ff32c9368cf3b608452eaba782196a2266f49a48
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62872230"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66209720"
 ---
 # <a name="idebugpendingbreakpoint2canbind"></a>IDebugPendingBreakpoint2::CanBind
 이 보류 중인 중단점 코드 위치에 바인딩할 수 있는지 여부를 결정 합니다.
@@ -37,10 +40,9 @@ int CanBind ( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `ppErrorEnum`
-
- [out] 반환을 [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) 개체의 목록을 포함 하는 [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) 개체 오류가 있을 수 있습니다.
+## <a name="parameters"></a>매개 변수
+`ppErrorEnum`\
+[out] 반환을 [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) 개체의 목록을 포함 하는 [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) 개체 오류가 있을 수 있습니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK.` 반환 `S_FALSE` 중단점을 바인딩할 수 없는 경우이 경우 오류를 반환한는 `ppErrorEnum` 매개 변수입니다. 그러지 않으면 오류 코드가 반환됩니다. 반환 `E_BP_DELETED` 중단점 삭제 된 경우.
@@ -136,7 +138,7 @@ HRESULT CPendingBreakpoint::CanBind(IEnumDebugErrorBreakpoints2** ppErrorEnum)
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md)
 - [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)

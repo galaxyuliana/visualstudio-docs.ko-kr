@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4c0572bfa8ebe1b70548483b17c58d08c8a0f9ca
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 41a644c2e0fb36cd39d55bf853f8362033eec8a0
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62920368"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212418"
 ---
 # <a name="idebugengineprogram2watchforexpressionevaluationonthread"></a>IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 허용 하거나 허용 하지 않습니다 프로그램을 중지 하는 경우에 특정 스레드에서 발생 되는 식 계산.
@@ -44,26 +47,21 @@ int WatchForExpressionEvaluationOnThread( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pOriginatingProgram`
+## <a name="parameters"></a>매개 변수
+`pOriginatingProgram`\
+[in] [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 식을 평가 하는 프로그램을 나타내는 개체입니다.
 
- [in] [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) 식을 평가 하는 프로그램을 나타내는 개체입니다.
+`dwTid`\
+[in] 스레드의 식별자를 지정합니다.
 
- `dwTid`
+`dwEvalFlags`\
+[in] 플래그의 조합을 합니다 [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) 평가 수행 하는 방법을 지정 하는 열거형입니다.
 
- [in] 스레드의 식별자를 지정합니다.
+`pExprCallback`\
+[in] [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 개체 식 평가 중에 발생 하는 디버그 이벤트를 보내는 데 사용 됩니다.
 
- `dwEvalFlags`
-
- [in] 플래그의 조합을 합니다 [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) 평가 수행 하는 방법을 지정 하는 열거형입니다.
-
- `pExprCallback`
-
- [in] [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 개체 식 평가 중에 발생 하는 디버그 이벤트를 보내는 데 사용 됩니다.
-
- `fWatch`
-
- [in] 0이 아닌 경우 (`TRUE`)를 구분 하는 스레드에서 식 평가 허용 `dwTid`이 고, 그렇지 않으면 0 (`FALSE`) 해당 스레드에서 식 평가 허용 하지 않습니다.
+`fWatch`\
+[in] 0이 아닌 경우 (`TRUE`)를 구분 하는 스레드에서 식 평가 허용 `dwTid`이 고, 그렇지 않으면 0 (`FALSE`) 해당 스레드에서 식 평가 허용 하지 않습니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -73,7 +71,7 @@ int WatchForExpressionEvaluationOnThread( 
 
  한 프로그램에서 식 계산 함수 평가 또는 모든 평가 인해 다른에서 실행 되도록 코드 않을 `IDispatch` 속성입니다. 이 때문에이 메서드는 실행 하 고이 프로그램에서 스레드를 중지할 수 있습니다 하는 경우에 완료 식 평가 사용 됩니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugEngineProgram2](../../../extensibility/debugger/reference/idebugengineprogram2.md)
 - [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

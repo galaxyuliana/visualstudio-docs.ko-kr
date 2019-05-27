@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 017ba5823d33f32465dc58d3340ba8cd40712013
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 61c5da18ebbf3a2db1fbbaad05691386f37c68bf
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226532"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66203474"
 ---
 # <a name="ienumdebugobjectsskip"></a>IEnumDebugObjects::Skip
 이 메서드는 지정 된 개수의 요소를 건너뜁니다.
@@ -40,9 +40,8 @@ int Skip(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `celt`\
-
- [in] 건너뛸 요소 수입니다.
+`celt`\
+[in] 건너뛸 요소 수입니다.
 
 ## <a name="return-value"></a>반환 값
  성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 경우 `celt` 나머지 요소 수보다 큽니다; 그렇지 않으면 오류 코드를 반환 합니다.

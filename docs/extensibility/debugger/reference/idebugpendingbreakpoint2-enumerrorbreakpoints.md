@@ -13,12 +13,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3030eb1a272b7142d942c05d3320c67c51f2bd90
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7839a5f665f5d8869f71417ccd4b582c315b6acc
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62872184"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66209584"
 ---
 # <a name="idebugpendingbreakpoint2enumerrorbreakpoints"></a>IDebugPendingBreakpoint2::EnumErrorBreakpoints
 이 보류 중인 중단점에서 발생 하는 모든 오류 중단점의 목록을 가져옵니다.
@@ -39,14 +42,12 @@ int EnumErrorBreakpoints( 
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `bpErrorType`
+## <a name="parameters"></a>매개 변수
+`bpErrorType`\
+[in] 값을 조합 합니다 [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md) 열거 하는 오류 유형을 선택 하는 열거형입니다.
 
- [in] 값을 조합 합니다 [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md) 열거 하는 오류 유형을 선택 하는 열거형입니다.
-
- `ppEnum`
-
- [out] 반환 된 [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) 개체의 목록을 포함 하는 [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) 개체입니다.
+`ppEnum`\
+[out] 반환 된 [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) 개체의 목록을 포함 하는 [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_BP_DELETED` 중단점 삭제 된 경우.
@@ -126,7 +127,7 @@ HRESULT CPendingBreakpoint::EnumErrorBreakpoints(
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
 - [BP_ERROR_TYPE](../../../extensibility/debugger/reference/bp-error-type.md)
 - [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md)

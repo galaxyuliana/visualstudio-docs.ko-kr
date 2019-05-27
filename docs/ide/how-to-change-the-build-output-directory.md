@@ -1,6 +1,6 @@
 ---
 title: '방법: 빌드 출력 디렉터리 변경'
-ms.date: 11/04/2016
+ms.date: 05/15/2019
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,32 +11,43 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6ea7cae6dd709e407a5c1a9832092586d217689b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b0fda2363ec63572f29c6687cc10ee9a7ee06c76
+ms.sourcegitcommit: 283f2dbce044a18e9f6ac6398f6fc78e074ec1ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62824232"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65805044"
 ---
 # <a name="how-to-change-the-build-output-directory"></a>방법: 빌드 출력 디렉터리 변경
 
-프로젝트에서 생성된 구성별로(디버그, 릴리스 또는 둘 다) 출력의 위치를 지정할 수 있습니다.
-
-> [!NOTE]
-> **설치** 프로젝트가 있는 경우 이 문서 끝의 참고 사항을 참조하세요.
+구성별로(디버그, 릴리스 또는 둘 다) 프로젝트에서 생성된 출력의 위치를 지정할 수 있습니다.
 
 ## <a name="change-the-build-output-directory"></a>빌드 출력 디렉터리 변경
 
-1. 메뉴 모음에서 **프로젝트** > **\<Appname> 속성**을 선택합니다. **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택할 수도 있습니다.
+1. 프로젝트 속성 페이지를 열려면 **솔루션 탐색기**에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
-2. Visual Basic 프로젝트의 경우 **컴파일** 탭을 선택합니다. C# 프로젝트의 경우 **빌드** 탭을 선택합니다. C++ 프로젝트 또는 JavaScript 프로젝트의 경우 **일반** 탭을 선택합니다.
+2. 프로젝트 형식에 따라 적절한 탭을 선택합니다.
 
-3. 맨 위의 구성 드롭다운에서 출력 파일 위치를 변경하려는 구성(디버그, 릴리스 또는 둘 다)을 선택합니다.
+   - C#의 경우 **빌드** 탭을 선택합니다.
+   - Visual Basic의 경우 **컴파일** 탭을 선택합니다.
+   - C++ 또는 JavaScript의 경우 **일반** 탭을 선택합니다.
 
-     출력 경로 항목(Visual Basic의 경우 **빌드 출력 경로**, Visual C++의 경우 **출력 디렉터리**, JavaScript 및 C#의 경우 **출력 경로**)을 찾습니다. 프로젝트 디렉터리를 기준으로 새 빌드 출력 디렉터리를 지정합니다.
+3. 맨 위의 구성 드롭다운에서 출력 파일 위치를 변경하려는 구성(**디버그**, **릴리스** 또는 **둘 다**)을 선택합니다.
 
-> [!NOTE]
-> 설치 프로젝트의 **출력 파일 이름** 상자는 프로젝트 파일의 위치는 변경하지 않고 *Setup.exe* 파일의 위치만 변경합니다. 자세한 내용은 **배포 프로젝트 속성 대화 상자, 구성 속성, 빌드**를 참조하세요.
+4. 페이지의 출력 경로 항목을 찾습니다. &mdash;프로젝트 유형에 따라 달라집니다.
+
+   - C# 및 JavaScript 프로젝트의 **출력 경로**
+   - Visual Basic 프로젝트의 **빌드 출력 경로**
+   - Visual C++ 프로젝트의 **출력 디렉터리**
+
+   (루트 프로젝트 디렉터리에 대해 절대 또는 상대로) 출력을 생성할 경로를 입력하거나, **찾아보기**를 선택하여 해당 폴더를 찾아봅니다.
+
+   ![Visual Studio C#프로젝트의 출력 경로 속성](media/output-path.png)
+
+> [!TIP]
+> 지정한 위치에 출력이 생성되지 않는 경우 Visual Studio의 메뉴 모음에서 선택하여 해당 구성(예를 들어 **디버그** 또는 **릴리스**)을 빌드 중인지 확인합니다.
+>
+> ![Visual Studio 2019의 빌드 구성 선택기](media/build-configuration-chooser.png)
 
 ## <a name="see-also"></a>참고 항목
 

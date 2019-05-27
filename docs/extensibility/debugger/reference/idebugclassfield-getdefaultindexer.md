@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d884b8e066b539b925e50d4f49f65168ca6156c0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: eaaddbe6bb223e8e2987f8310f1d8e08d5602a01
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62922819"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66206828"
 ---
 # <a name="idebugclassfieldgetdefaultindexer"></a>IDebugClassField::GetDefaultIndexer
 기본 인덱서의 이름을 가져옵니다.
@@ -36,10 +39,8 @@ int GetDefaultIndexer(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pbstrIndexer`
-
- [out] 기본 인덱서 이름을 포함 하는 문자열을 반환 합니다.
+## <a name="parameters"></a>매개 변수
+`pbstrIndexer` [out] 기본 인덱서 이름을 포함 하는 문자열을 반환 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 S_OK를 반환 하거나 기본 인덱서가 없습니다 S_FALSE를 반환 합니다. 그러지 않으면 오류 코드가 반환됩니다.
@@ -77,5 +78,5 @@ Function GetItem(Index as Integer) as Integer
 End Function
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)
