@@ -12,12 +12,15 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6cfdfb05d45996e87ea749dffa89915a175d9274
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 0ad964c4f9759368d6d687386274e221bb7cf73a
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62920711"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66212478"
 ---
 # <a name="idebugenginelaunch2launchsuspended"></a>IDebugEngineLaunch2::LaunchSuspended
 이 메서드는 디버그 엔진 (DE)를 사용 하 여 프로세스를 시작합니다.
@@ -60,58 +63,45 @@ int LaunchSuspended(
 );
 ```
 
-#### <a name="parameters"></a>매개 변수
- `pszMachine`
+## <a name="parameters"></a>매개 변수
+`pszMachine`\
+[in] 프로세스를 시작 하는 컴퓨터의 이름입니다. Null 값을 사용 하 여 로컬 컴퓨터를 지정 합니다.
 
- [in] 프로세스를 시작 하는 컴퓨터의 이름입니다. Null 값을 사용 하 여 로컬 컴퓨터를 지정 합니다.
+`pPort`\
+[in] 합니다 [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) 에서 프로그램이 실행 되는 포트를 나타내는 인터페이스입니다.
 
- `pPort`
+`pszExe`\
+[in] 시작할 실행 파일의 이름입니다.
 
- [in] 합니다 [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) 에서 프로그램이 실행 되는 포트를 나타내는 인터페이스입니다.
+`pszArgs`\
+[in] 실행 파일에 전달할 인수입니다. 인수가 없는 경우 null 값이 될 수 있습니다.
 
- `pszExe`
+`pszDir`\
+[in] 실행 파일에서 사용 하는 작업 디렉터리의 이름입니다. 작업 디렉터리가 필요한 경우 null 값이 될 수 있습니다.
 
- [in] 시작할 실행 파일의 이름입니다.
+`bstrEnv`\
+[in] 환경 블록 뒤에 추가 NULL 종결자를 NULL로 끝나는 문자열입니다.
 
- `pszArgs`
+`pszOptions`\
+[in] 실행 파일에 대 한 옵션입니다.
 
- [in] 실행 파일에 전달할 인수입니다. 인수가 없는 경우 null 값이 될 수 있습니다.
+`dwLaunchFlags`\
+[in] 지정 된 [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md) 세션에 대 한 합니다.
 
- `pszDir`
+`hStdInput`\
+[in] 대체 입력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
 
- [in] 실행 파일에서 사용 하는 작업 디렉터리의 이름입니다. 작업 디렉터리가 필요한 경우 null 값이 될 수 있습니다.
+`hStdOutput`\
+[in] 대체 출력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
 
- `bstrEnv`
+`hStdError`\
+[in] 대체 오류 출력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
 
- [in] 환경 블록 뒤에 추가 NULL 종결자를 NULL로 끝나는 문자열입니다.
+`pCallback`\
+[in] 합니다 [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 디버거 이벤트를 받는 개체입니다.
 
- `pszOptions`
-
- [in] 실행 파일에 대 한 옵션입니다.
-
- `dwLaunchFlags`
-
- [in] 지정 된 [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md) 세션에 대 한 합니다.
-
- `hStdInput`
-
- [in] 대체 입력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
-
- `hStdOutput`
-
- [in] 대체 출력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
-
- `hStdError`
-
- [in] 대체 오류 출력 스트림으로 처리 합니다. 리디렉션 필요 하지 않은 경우에 0 일 수 있습니다.
-
- `pCallback`
-
- [in] 합니다 [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) 디버거 이벤트를 받는 개체입니다.
-
- `ppDebugProcess`
-
- [out] 결과 반환 [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) 시작된 프로세스를 나타내는 개체입니다.
+`ppDebugProcess`\
+[out] 결과 반환 [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md) 시작된 프로세스를 나타내는 개체입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
@@ -121,7 +111,7 @@ int LaunchSuspended(
 
  합니다 [ResumeProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md) 메서드가 호출 되어 일시 중단된 된 상태에서 프로세스를 성공적으로 실행 된 후 프로세스를 시작 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugEngineLaunch2](../../../extensibility/debugger/reference/idebugenginelaunch2.md)
 - [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)
 - [LAUNCH_FLAGS](../../../extensibility/debugger/reference/launch-flags.md)

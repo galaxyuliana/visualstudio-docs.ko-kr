@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 8d9c00f21ab39d5785acb0090b16b5b1fc193699
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 7edce84f512dd31963f38215e0d86e24c3d73b37
+ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65224182"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66199276"
 ---
 # <a name="ieedatastoragegetdata"></a>IEEDataStorage::GetData
 개체에서 지정 된 바이트 수를 검색합니다.
@@ -44,17 +44,14 @@ int GetData(
 ```
 
 ## <a name="parameters"></a>매개 변수
- `dataSize`\
+`dataSize`\
+[in] 검색할 바이트 수 (의 `data` 배열 최소 바이트이 수가이 보유 해야 합니다).
 
- [in] 검색할 바이트 수 (의 `data` 배열 최소 바이트이 수가이 보유 해야 합니다).
+`sizeGotten`\
+[out] 실제로 검색 하는 바이트 수를 반환 합니다.
 
- `sizeGotten`\
-
- [out] 실제로 검색 하는 바이트 수를 반환 합니다.
-
- `data`\
-
- [out에서] 요청한 데이터를로 채워질 배열입니다.
+`data`\
+[out에서] 요청한 데이터를로 채워질 배열입니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.
