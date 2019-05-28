@@ -81,6 +81,8 @@
               href: install/disable-or-move-the-package-cache.md
             - name: Visual Studio 배포에 대한 업데이트 제어
               href: install/controlling-updates-to-visual-studio-deployments.md
+            - name: 서비스 기준선에서 Visual Studio 업데이트
+              href: install/update-servicing-baseline.md
         - name: 설치 관리
           items:
             - name: Visual Studio 인스턴스 검색 및 관리 도구
