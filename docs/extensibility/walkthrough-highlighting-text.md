@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - highlight text
 ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 085d2aff138be1d6beecc5e0895437e92d88da87
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e7ae97c500ced1da67013fd6f12307edc0828dbf
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444998"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66312476"
 ---
 # <a name="walkthrough-highlight-text"></a>연습: 텍스트를 강조 표시
 Managed Extensibility Framework (MEF) 구성 요소 파트를 만들어 편집기로 다양 한 시각 효과 추가할 수 있습니다. 이 연습에서는 텍스트 파일에서 현재 단어의 모든 발생을 강조 표시 하는 방법을 보여 줍니다. 단어 텍스트 파일에서 한 번 이상 발생 하 고 한 번에 캐럿을 배치 하는 경우 모든 강조 표시 됩니다.

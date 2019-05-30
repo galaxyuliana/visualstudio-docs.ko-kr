@@ -6,17 +6,17 @@ helpviewer_keywords:
 - programs, registration
 - debugging [Debugging SDK], program registration
 ms.assetid: d726a161-7db3-4ef4-b258-9f6a5be68418
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 162f8df09b1f6ce9372a57728d653d5d3c20a551
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 60bc94efb9d3b2026de31c6018b466d432bf98f8
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415730"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66315952"
 ---
 # <a name="register-the-program"></a>등록 프로그램
 디버그 엔진에 대 한 포트를을 가져온 후 표시를 [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) 인터페이스는 프로그램을 디버깅을 사용 하도록 설정 하는 다음 단계는 포트를 등록 합니다. 등록 되 면 프로그램은 다음 방법 중 하나에서 디버깅을 위해 제공 됩니다.

@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::Equal method
 ms.assetid: 75369fe6-ddd3-497d-80d1-2488e6100e9f
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: bfee65537512398cad2f4b86d51ebefac230fb1c
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 8af316c9669b00ae8316888c6a7072d4737dd23d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66212220"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66352660"
 ---
 # <a name="idebugfieldequal"></a>IDebugField::Equal
 이 메서드는 같음에 대 한 지정된 된 필드를 사용 하 여이 필드를 비교합니다.

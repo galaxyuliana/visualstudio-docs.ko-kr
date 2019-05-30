@@ -6,17 +6,17 @@ helpviewer_keywords:
 - .msi files, VSPackages
 - msi files, VSPackages
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1194dba5069913d01a6e4858801ea2890db94224
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: da68fa0a6c115a09ba2050f8c84ea6700ee4fc76
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910704"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66315783"
 ---
 # <a name="author-a-windows-installer-package"></a>Windows Installer 패키지를 작성 합니다.
 데이터 드라이브는 Windows Installer 모델입니다. 레지스트리 항목을 쓰고 파일을 복사 하는 절차 스크립트를 작성 하는 대신 예를 들어 만든 파일 및 레지스트리 데이터를 포함 하는 데이터베이스 테이블의 행과 열입니다.

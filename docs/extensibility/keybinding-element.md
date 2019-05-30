@@ -6,22 +6,22 @@ helpviewer_keywords:
 - VSCT XML schema elements, KeyBindings
 - KeyBinding element (VSCT XML schema)
 ms.assetid: e55a1098-15df-42a9-9f87-e3a99cf437dd
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1eac2d38e0444cb6ee6624863d1cb3e33bae3314
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9c3bc5e10c928c50bca1ea3879531885f4580519
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62856626"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66309636"
 ---
 # <a name="keybinding-element"></a>KeyBinding 요소
 KeyBinding 요소는 명령에 대 한 바로 가기 키를 지정합니다.
 
- 명령에는 상호 연결 된 단일 및 이중 키 바인딩을 가질 수 있습니다. 단일 키 바인딩을 예로 **Ctrl**+**S** 에 대 한 합니다 **저장** 명령입니다. 이중 키 바인딩을 두 개의 연속 키 조합의 명령을 트리거할 필요 합니다. 이중 키 바인딩을 예로 <strong>Ctrl*+</strong>K<strong>를</strong>Ctrl<strong>+</strong>K** 책갈피를 설정 합니다.
+ 명령에는 상호 연결 된 단일 및 이중 키 바인딩을 가질 수 있습니다. 단일 키 바인딩을 예로 **Ctrl**+**S** 에 대 한 합니다 **저장** 명령입니다. 이중 키 바인딩을 두 개의 연속 키 조합의 명령을 트리거할 필요 합니다. 이중 키 바인딩을 예로 <strong>Ctrl *+</strong>K<strong>를</strong>Ctrl<strong>+</strong>K** 책갈피를 설정 합니다.
 
 ## <a name="syntax"></a>구문
 

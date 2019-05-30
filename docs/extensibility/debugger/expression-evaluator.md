@@ -7,17 +7,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation
 ms.assetid: f9381b2f-99aa-426c-aea0-d9c15f3c859b
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c33fff3d8b5bd30ecec1b566e550d14e4cb68c11
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c9f990225cbff539281122d21d4773f6611f694f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62925806"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66353765"
 ---
 # <a name="expression-evaluator"></a>식 계산기
 식 계산기 (EE)를 IDE 중단 모드에 있을 때 사용자가 볼 수 있도록 하는 언어 구문 분석 하 고 런타임 시 변수 및 식 평가를 구문을 검사 합니다.

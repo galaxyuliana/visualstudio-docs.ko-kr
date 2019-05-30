@@ -7,17 +7,17 @@ helpviewer_keywords:
 - font and color control [Visual Studio SDK], persistence
 - colors, accessing stored settings
 ms.assetid: beba7174-e787-45c2-b6ff-a60f67ad4998
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c270c67d21c023310df5b25c015afa754787a33f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fcc0d8ad5b195b15652e8af3a2f1400827f8c628
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62843880"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66313690"
 ---
 # <a name="access-stored-font-and-color-settings"></a>저장 된 글꼴 및 색 설정에 액세스
 
@@ -25,7 +25,7 @@ Visual Studio 통합된 개발 환경 (IDE) 저장 레지스트리에서 글꼴 
 
 ## <a name="to-initiate-state-persistence-of-fonts-and-colors"></a>글꼴 및 색의 상태 지 속성을 시작 하려면
 
-글꼴 및 색 정보는 다음 레지스트리 위치에는 범주별으로 저장 됩니다. [HKCU\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio 버전 >* \FontAndColors\\  *\<CategoryGUID >*] 여기서  *\<CategoryGUID >* 범주 GUID입니다.
+글꼴 및 색 정보는 다음 레지스트리 위치에는 범주별으로 저장 됩니다. [HKCU\SOFTWARE\Microsoft \Visual Studio\\ *\<Visual Studio 버전 >* \FontAndColors\\  *\<CategoryGUID >* ] 여기서  *\<CategoryGUID >* 범주 GUID입니다.
 
 따라서에 지 속성을 시작 하려면 VSPackage 수행 해야 합니다.
 

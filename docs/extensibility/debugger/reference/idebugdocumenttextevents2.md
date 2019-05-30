@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentTextEvents2 interface
 ms.assetid: a10cbb6b-11a8-4056-b42a-2ecebf0e690d
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e24568d307db694d30a5e87630f47f764a036427
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 56ecf7c81c2be90b975785cc8f07f11af2aa2a7e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62921286"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351351"
 ---
 # <a name="idebugdocumenttextevents2"></a>IDebugDocumentTextEvents2
 이 인터페이스는 Visual Studio 디버그 엔진에 의해 제공 되는 소스 문서의 변경 내용을 알릴 사용 됩니다.
@@ -56,6 +56,6 @@ IDebugDocumentTextEvents2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)
 - [IDebugDocument2](../../../extensibility/debugger/reference/idebugdocument2.md)

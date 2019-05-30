@@ -6,17 +6,17 @@ helpviewer_keywords:
 - colorable items
 - language services, custom colorable items
 ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 35a3b7a82431354345c7a7b583b35891657350f3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: fd1d18a6fe142a3b405742dd9e74c1376e713687
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415181"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66312907"
 ---
 # <a name="custom-colorable-items"></a>사용자 지정 색 항목
 언어 서비스의 일부로 사용자 지정 색 항목을 구현 하 여 형식 목록을 키워드 및 주석 등의 색을 지정 재정의할 수 있습니다.

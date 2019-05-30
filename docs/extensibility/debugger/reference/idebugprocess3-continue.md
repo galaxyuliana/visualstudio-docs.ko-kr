@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess3::Continue
 ms.assetid: 57506242-5763-4c08-adb9-8a78ce02cebb
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: efd05ffb3d8b6d14f7e1e7732426b1ae453d2f49
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: a7d20a375644cbbac975f62db216377f271a2675
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66202467"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66314040"
 ---
 # <a name="idebugprocess3continue"></a>IDebugProcess3::Continue
 계속 중지 된 상태에서이 프로세스를 실행 합니다. 이전 실행 상태 (예: 단계)은 유지, 프로세스를 다시 실행을 시작 합니다.

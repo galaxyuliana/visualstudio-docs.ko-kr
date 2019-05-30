@@ -6,17 +6,17 @@ helpviewer_keywords:
 - interop assemblies, determining command status
 - command handling with interop assemblies, status
 ms.assetid: 2f5104d1-7b4c-4ca0-a626-50530a8f7f5c
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: eab1768a44a85b2675a8bc2abf10f318a8902f94
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 33efc0bf393746a80b0881dacae01eaafe65bb8e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62861229"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351619"
 ---
 # <a name="determine-command-status-by-using-interop-assemblies"></a>Interop 어셈블리를 사용 하 여 명령 상태를 확인 합니다.
 VSPackage 해야 기록해 상태의 명령 처리할 수 있습니다. VSPackage 내에서 처리 명령을 설정 또는 해제 하는 경우 환경이 확인할 수 없습니다. 이 명령은 상태에 대 한 환경에 알림을 보내야 VSPackage의 경우, 예를 들어 일반 상태 같은 명령은 **잘라내기**를 **복사본**, 및 **붙여넣기**합니다.

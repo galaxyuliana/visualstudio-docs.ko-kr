@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier3 interface
 ms.assetid: e458cd02-2370-4435-8953-17d7a60ce152
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ca7113a1b108713b5dd7cf0f17511cec39a1b8b6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: b471e0799409e68b5a843e39975f54f2ce3b5bc5
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62917999"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66314157"
 ---
 # <a name="idebugportsupplier3"></a>IDebugPortSupplier3
 이 인터페이스는 호출자가 포트 공급자 (디스크에 쓴 후)에서 디버거는 호출 간에 포트를 유지 하 고 다음 유지 해당 포트의 목록을 받을 수 있는지 여부를 확인할 수 있습니다.
@@ -54,6 +54,6 @@ IDebugPortSupplier3 : IDebugPortSupplier2
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)

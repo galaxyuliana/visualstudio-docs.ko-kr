@@ -5,20 +5,20 @@ ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, designing
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1e70a64e01e388af61127fd76f4a2fcee8e5a9b9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bc088ac5c534e77de2aae919019396ccf2c344e2
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910774"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66312108"
 ---
 # <a name="design-xml-command-table-vsct-files"></a>XML 명령 테이블 (.vsct) 파일 디자인
-XML 명령 테이블 (*.vsct*) 파일에는 레이아웃 및 VSPackage에 대 한 명령 항목의 모양을 설명 합니다. 명령 항목 단추, 콤보 상자, 메뉴, 도구 모음 및 명령 항목 그룹에 포함 됩니다. 이 문서에서는 XML 명령 테이블 파일, 메뉴 및 명령 항목에 미치는 및 만드는 방법을 설명 합니다.
+XML 명령 테이블 ( *.vsct*) 파일에는 레이아웃 및 VSPackage에 대 한 명령 항목의 모양을 설명 합니다. 명령 항목 단추, 콤보 상자, 메뉴, 도구 모음 및 명령 항목 그룹에 포함 됩니다. 이 문서에서는 XML 명령 테이블 파일, 메뉴 및 명령 항목에 미치는 및 만드는 방법을 설명 합니다.
 
 ## <a name="commands-menus-groups-and-the-vsct-file"></a>명령, 메뉴, 그룹 및.vsct 파일
  합니다 *.vsct* 파일 명령, 메뉴 및 명령 그룹을 구성 합니다. XML 태그를 *.vsct* 나타내는 명령 단추, 명령 배치 및 비트맵과 같은 연결 된 다른 항목과 함께 이러한 각 항목 파일입니다.

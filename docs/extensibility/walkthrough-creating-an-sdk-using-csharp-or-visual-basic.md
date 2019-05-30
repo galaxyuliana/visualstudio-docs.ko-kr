@@ -3,20 +3,20 @@ title: '연습: 사용 하 여 SDK 만들기 C# 또는 Visual Basic | Microsoft 
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: 007da4e5e534ce6f9d8563011c0284432e4d9c19
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 6bb9ae53dfb2e849c35c05fe5187cddcf301622c
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226116"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66312637"
 ---
 # <a name="walkthrough-create-an-sdk-using-c-or-visual-basic"></a>연습: 사용 하 여 SDK 만들기 C# 또는 Visual Basic
 이 연습에서는 Visual C#을 사용 하 여 간단한 수학 라이브러리 SDK를 만들고 다음 SDK는 Visual Studio 확장 (VSIX)로 패키지 하는 방법에 알아봅니다. 다음 절차를 완료 합니다.

@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - language services
 ms.assetid: e03199a6-ad5f-4075-bfba-8d36865112b7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f01784cd21bbc0a29a6216525e626a8fa992e0ba
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a27fc9ec55b301dc3355e03e2e86e968752fbbd0
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62856597"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66309530"
 ---
 # <a name="language-services-and-the-core-editor"></a>언어 서비스 및 핵심 편집기
 Visual Studio의 편집기는 언어 서비스를 사용 하 여 자주 연결 됩니다. 무엇 보다도 언어 서비스 구문 색 지정, 문 완성, IntelliSense 및 텍스트 서식 지정을 제공합니다.

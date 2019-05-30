@@ -6,17 +6,17 @@ helpviewer_keywords:
 - VSPackages, debugging
 - VSPackages, troubleshooting
 ms.assetid: bb3d3322-0e5e-4dd5-b93a-24d5fbcd2ffd
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8d6aca6166486d0eda1a4a92167c0e8d6a8a2924
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 53888f85a41fdd5bef3985c4da986609a032e377
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415524"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66309345"
 ---
 # <a name="how-to-use-the-activity-log"></a>방법: 활동 로그 사용
 Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기능은 소매 환경에서 Vspackage를 디버깅 하는 데 특히 유용 합니다.
@@ -48,7 +48,7 @@ Vspackage는 활동 로그에 메시지를 작성할 수 있습니다. 이 기�
 
 2. Visual Studio를 닫으면 Visual Studio 데이터에 대 한 하위 폴더에서 활동 로그를 확인:
 
-   <em>*%AppData%</em>\Microsoft\VisualStudio\\\<version>\ActivityLog.xml*.
+   <em> *%AppData%</em>\Microsoft\VisualStudio\\\<version>\ActivityLog.xml*.
 
 3. 임의의 텍스트 편집기를 사용 하 여 활동 로그를 엽니다. 다음은 일반적인 항목:
 

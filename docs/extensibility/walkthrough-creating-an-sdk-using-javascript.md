@@ -3,17 +3,17 @@ title: '연습: JavaScript를 사용 하 여 SDK 만들기 | Microsoft Docs'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: a8c89d5d-5b78-4435-817f-c5f25ca6d715
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f15dc7ef3c5ab06857307081511f1c9aa2285566
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 61f18d2d7412b84827aaa9b6a229c80019716df4
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62796345"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66312544"
 ---
 # <a name="walkthrough-create-an-sdk-using-javascript"></a>연습: JavaScript를 사용 하 여 SDK 만들기
 이 연습에서는 JavaScript는 간단한 수학 SDK는 Visual Studio 확장 (VSIX)로 만들기를 사용 하는 방법을 설명 합니다.  이 연습에서는 이러한 부분으로 구분 됩니다.
@@ -132,7 +132,7 @@ ms.locfileid: "62796345"
 
 18. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 **SimpleMathVSIX** 프로젝트 **빌드**합니다.
 
-19. 빌드 프로젝트의 바로 가기 메뉴에서 성공적으로 완료 한 후 선택할 **파일 탐색기에서 폴더 열기**합니다. 이동할 **\bin\debug\\**, 실행 및 `SimpleMathVSIX.vsix` 설치 합니다.
+19. 빌드 프로젝트의 바로 가기 메뉴에서 성공적으로 완료 한 후 선택할 **파일 탐색기에서 폴더 열기**합니다. 이동할 **\bin\debug\\** , 실행 및 `SimpleMathVSIX.vsix` 설치 합니다.
 
 20. 선택 된 **설치** 단추를 통해 설치를 완료 합니다.
 

@@ -3,17 +3,17 @@ title: '연습: 사용 하 여 SDK 만들기 C++ | Microsoft Docs'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 36ea793b-3832-41a1-b906-69e680ad5e1d
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 74133386d2dbd6d6b3ccb099a0b9231bc9deb073
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a60194c6512b67e1e3e90389b0221b6cdb8a5226
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62796505"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66312694"
 ---
 # <a name="walkthrough-create-an-sdk-using-c"></a>연습: 사용 하 여 SDK 만들기C++
 이 연습에는 네이티브를 만드는 방법을 보여 줍니다 C++ 수학 라이브러리 SDK, SDK로는 VSIX Visual Studio Extension (), 패키지 및를 사용 하 여 앱을 만듭니다. 이 연습에서는 이러한 단계로 구분 됩니다.
@@ -59,7 +59,7 @@ ms.locfileid: "62796505"
 
 1. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 **솔루션 'NativeMath'** 를 선택한 후 **추가** > **새 프로젝트**.
 
-2. 템플릿 목록에서 확장 **Visual C#** > **확장성**를 선택한 후 **VSIX 프로젝트**합니다. 에 **이름** 상자에서 지정 **NativeMathVSIX**를 선택한 후는 **확인** 단추입니다.
+2. 템플릿 목록에서 확장 **Visual C#**  > **확장성**를 선택한 후 **VSIX 프로젝트**합니다. 에 **이름** 상자에서 지정 **NativeMathVSIX**를 선택한 후는 **확인** 단추입니다.
 
 3. **솔루션 탐색기**에 대 한 바로 가기 메뉴를 열고 **source.extension.vsixmanifest**를 선택한 후 **코드 보기**합니다.
 

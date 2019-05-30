@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - VSPackages, installation directory
 ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: be54c19a1e09b610611c8791d62d012ebdaf5ae8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 249efe70cdcc2cf8ef600ca4d9e009e094e1b105
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62862051"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66309115"
 ---
 # <a name="choose-the-installation-directory-for-a-vspackage"></a>VSPackage 용 설치 디렉터리를 선택 합니다.
 VSPackage 및 해당 지원 파일을 사용자의 파일 시스템에 있어야 합니다. 위치는 VSPackage는 관리 또는 사용자 선택을 확인 하 고-side-by-side 버전 관리 체계를 관리 되지 않는 하는지 여부에 따라 달라 집니다.
@@ -55,7 +55,7 @@ VSPackage 및 해당 지원 파일을 사용자의 파일 시스템에 있어야
 
 4. 기본 보조 언어를 사용 하 여 시스템 기본값 LCID입니다.
 
-5. 미국 영어 (*. \1033* 하거나 *. \0x409*).
+5. 미국 영어 ( *. \1033* 하거나 *. \0x409*).
 
 VSPackage DLL에 리소스가 포함 된 경우와 **SatelliteDll\DllName** 레지스트리 항목을 가리키는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 위의 순서를 로드 하려고 합니다.
 
