@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject::GetValue method
 ms.assetid: eec6051e-8ecb-49fa-bdd4-dd786f211692
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 4e6fd1d3b4d7effe0f4c6f5f0434a01422345f00
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 59d58e136045bb4177755c981f91974f9ac2fa77
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66202875"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66323643"
 ---
 # <a name="idebugobjectgetvalue"></a>IDebugObject::GetValue
 연속 된 일련의 바이트로으로 개체의 값을 가져옵니다.

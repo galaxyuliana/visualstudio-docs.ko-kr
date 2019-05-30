@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - automation [Visual Studio SDK]
 ms.assetid: 44de482d-93c8-41a4-843c-cefda995a03e
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2ebe9a3d1c314a8e3b15ae7588f38abfd50518d4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 47e6686c82dcb0272fa9b3b3c4d3b7c73afe4475
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910725"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66335439"
 ---
 # <a name="contribute-to-the-automation-model"></a>자동화 모델에 참여
 Visual Studio 환경 사용자 지정에 대 한 일련의 자동화 인터페이스를 제공 합니다. 자동화 모델에는 최종 사용자가 Visual Studio 추가 기능 및 확장을 만들 수 있는 개체 모델이입니다.

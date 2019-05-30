@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugAlias::Dispose method
 ms.assetid: e84909a4-d378-4f48-bf25-2c014c77c8e3
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d35b5819aa0354581721f02a931aa7bdf679b70d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: c84fc6887eb2594f9665924bd3eafa5452a3135c
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56714961"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66330272"
 ---
 # <a name="idebugaliasdispose"></a>IDebugAlias::Dispose
 제거에 대 한이 별칭을 표시합니다.
@@ -32,7 +35,7 @@ HRESULT Dispose();
 int Dispose();
 ```
 
-#### <a name="parameters"></a>매개 변수
+## <a name="parameters"></a>매개 변수
  없음
 
 ## <a name="return-value"></a>반환 값
@@ -41,5 +44,5 @@ int Dispose();
 ## <a name="remarks"></a>설명
  이 메서드가 호출 되 면 별칭 더 이상 사용할 수 없습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

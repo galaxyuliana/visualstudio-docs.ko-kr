@@ -4,16 +4,16 @@ ms.date: 06/25/2017
 ms.topic: conceptual
 ms.assetid: 2d6cf53c-011e-4c9e-9935-417edca8c486
 author: willbrown
-ms.author: gregvanl
+ms.author: madsk
 manager: justinclareburt
 ms.workload:
 - willbrown
-ms.openlocfilehash: 1014d76473511df9b73cae371e5e5dea2364f8b2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4680adaf23abd01e72901c9a470633addbf0d924
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62862810"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66324892"
 ---
 # <a name="how-to-make-extensions-compatible-with-visual-studio-2017-and-visual-studio-2015"></a>방법: 확장을 Visual Studio 2017 및 Visual Studio 2015와 호환 되도록
 
@@ -51,7 +51,7 @@ ms.locfileid: "62862810"
 
 ## <a name="ensure-there-is-no-reference-to-projectjson"></a>Project.json에 대 한 참조가 없으므로 확인
 
-이 문서의 뒷부분에서 조건부 import 문을에 삽입 됩니다 여 **.csproj* 파일입니다. 이 NuGet 참조에 저장 된 경우 작동 하지 않습니다 *project.json*합니다. 따라서 것이 좋습니다. 모든 NuGet 참조를 이동 합니다 *packages.config* 파일입니다.
+이 문서의 뒷부분에서 조건부 import 문을에 삽입 됩니다 여 * *.csproj* 파일입니다. 이 NuGet 참조에 저장 된 경우 작동 하지 않습니다 *project.json*합니다. 따라서 것이 좋습니다. 모든 NuGet 참조를 이동 합니다 *packages.config* 파일입니다.
 프로젝트에 포함 된 경우는 *project.json* 파일:
 
 * 에 대 한 참조를 기록해 *project.json*합니다.

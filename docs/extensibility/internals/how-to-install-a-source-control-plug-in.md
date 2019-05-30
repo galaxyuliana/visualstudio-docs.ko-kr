@@ -6,17 +6,17 @@ helpviewer_keywords:
 - installation [Visual Studio SDK], source control plug-ins
 - source control plug-ins, installing
 ms.assetid: 9e2e01d9-7beb-42b2-99b2-86995578afda
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e2835ab64d5665c00c404294ec12019d2b981654
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9de10f1aebd47093a3cc3f41343e73cefdde473a
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63420519"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66334920"
 ---
 # <a name="how-to-install-a-source-control-plug-in"></a>방법: 소스 제어 플러그 인 설치
 소스 제어 플러그 인을 만드는 세 가지 단계가 포함 됩니다.
@@ -64,7 +64,7 @@ ms.locfileid: "63420519"
 
 3. 하위 키를 추가 **SourceCodeControlProvider**아래에 있는 합니다 **HKEY_LOCAL_MACHINE** 키를 **소프트웨어** 하위 키입니다.
 
-    레지스트리 항목을이 하위 키 아래 **ProviderRegKey** 단계 1 레지스트리의에 배치 하는 하위 키를 나타내는 문자열로 설정 됩니다. 패턴이 **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\ProviderRegKey** = *소프트웨어\\< 회사 이름\>\\< 제품 이름 \>*.
+    레지스트리 항목을이 하위 키 아래 **ProviderRegKey** 단계 1 레지스트리의에 배치 하는 하위 키를 나타내는 문자열로 설정 됩니다. 패턴이 **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\ProviderRegKey** = *소프트웨어\\< 회사 이름\>\\< 제품 이름 \>* .
 
     이 하위 키에 대 한 샘플 콘텐츠는 다음과 같습니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "63420519"
 
 4. 명명 된 하위 키를 만듭니다 **InstalledSCCProviders** 아래를 **SourceCodeControlProvider** 하위, 키 및 해당 하위 키 아래에 있는 하나의 항목을 배치 합니다.
 
-    이 항목의 이름 (동일 SCCServerName 항목에 대 한 지정 된 값), 공급자의 사용자가 읽을 수 있는 이름을 이며 값, 이번에 1 단계에서 만든 하위 키입니다. 패턴이 **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\\< 표시 이름\>** = *소프트웨어\\< 회사 이름을\>\\< 제품 이름\>* 합니다.
+    이 항목의 이름 (동일 SCCServerName 항목에 대 한 지정 된 값), 공급자의 사용자가 읽을 수 있는 이름을 이며 값, 이번에 1 단계에서 만든 하위 키입니다. 패턴이 **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\\< 표시 이름\>**  = *소프트웨어\\< 회사 이름을\>\\< 제품 이름\>* 합니다.
 
     예를 들어:
 

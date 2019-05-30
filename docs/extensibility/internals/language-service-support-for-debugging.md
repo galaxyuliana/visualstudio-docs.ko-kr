@@ -6,17 +6,17 @@ helpviewer_keywords:
 - debugger, language support
 - language services, debugging support
 ms.assetid: 7a44067f-a410-4a6a-84d2-bda5184140bc
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b42e11974a0522b8f4a6553c5606197915617d38
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8d4946c25aeac2d677b7a527a3d2bb338db3aa31
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62860074"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66333643"
 ---
 # <a name="language-service-support-for-debugging"></a>디버깅에 대한 언어 서비스 지원
 언어 서비스를 통해 디버거를 지 원하는 기능을 제공할 수는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageDebugInfo> 인터페이스입니다. 이러한 기능은 다음 중단점 유효성 검사 및 식의 목록을 제공 합니다 **자동** 창입니다.
