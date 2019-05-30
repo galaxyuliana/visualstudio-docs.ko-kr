@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - context menus
 ms.assetid: 44fd9e6a-6d42-4aba-80ba-f37fa0070f1d
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 19838bbc1dfeeb0a0df9e1e1ce409557b6a28f1e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d5534d0895e35e252364b491858a694a1f5b726a
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62926667"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66341727"
 ---
 # <a name="context-menus"></a>상황에 맞는 메뉴
 상황에 맞는 메뉴 클라이언트 영역의 활성 지역에서 단추로 클릭할 때 표시 되 고 마우스 오른쪽 단추를 놓을 때의 선택을 취소 합니다.

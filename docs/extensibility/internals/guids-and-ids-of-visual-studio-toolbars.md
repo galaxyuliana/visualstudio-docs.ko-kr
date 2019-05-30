@@ -11,17 +11,17 @@ helpviewer_keywords:
 - tool window toolbar
 - guid
 ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4a9dc406665dc754f0c57c401f672cd4799183ef
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 62384942bb0577860161f8ae11d2eb6e787257bf
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63418449"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328892"
 ---
 # <a name="guids-and-ids-of-visual-studio-toolbars"></a>Guid 및 Id의 Visual Studio 도구 모음
 이 항목에서는 Visual Studio 통합된 개발 환경 (IDE)에 포함 된 도구 모음의 GUID 및 ID 값을 열거 하 고 포함 된 그룹의 키를 누릅니다. 이러한 값에 정의 된 *.vsct* Visual Studio SDK의 일부로 설치 되는 파일입니다. 자세한 내용은 [IDE 정의 명령, 메뉴 및 그룹](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)합니다.

@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccDiff function
 ms.assetid: d49bc8c5-f631-4153-9d3c-feb3564da305
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ed96b7c893ba3ececb33be5dda55093b70c28659
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 52da17cbb7f6349d99a04709bbe469501394d4e5
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434685"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66327512"
 ---
 # <a name="sccdiff-function"></a>SccDiff 함수
 이 함수 표시 (또는 확인만 필요한 경우)에서 차이점 (로컬 디스크)의 현재 파일 및 해당 마지막 체크 인 버전 원본 제어 시스템입니다.

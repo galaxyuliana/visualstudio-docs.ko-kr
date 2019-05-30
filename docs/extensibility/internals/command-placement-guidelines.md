@@ -7,17 +7,17 @@ helpviewer_keywords:
 - small command sets
 - command sets
 ms.assetid: 63b3478e-e08a-420b-a0ec-76767e0cb289
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0c04ea981fc190b2e0074e767e086303e6950f2a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f4cc3dfa8aaeba01709ae74ca9a1d9d54f3c1743
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62861665"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66342122"
 ---
 # <a name="command-placement-guidelines"></a>명령 배치 지침
 Visual Studio 통합된 개발 환경 (IDE)에 명령을 배치에 대 한 모범 사례는 명령 집합의 크기에 따라 달라 집니다. 명령을 정의 하 고 정보에 따라 배치 *.vsct* 파일입니다.

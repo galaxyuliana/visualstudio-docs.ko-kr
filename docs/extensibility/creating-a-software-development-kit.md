@@ -3,17 +3,17 @@ title: 소프트웨어 개발 키트 만들기 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fc04de6de270053e20e05a30312a298e9e6e2f0f
-ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
+ms.openlocfilehash: 6ad14712653aeca146ffe00cc5c79fd044ce2a4b
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66177344"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66345382"
 ---
 # <a name="create-a-software-development-kit"></a>소프트웨어 개발 키트 만들기
 소프트웨어 개발 키트 (SDK)은 Visual Studio에서 단일 항목으로 참조할 수 있는 Api 컬렉션입니다. 합니다 **참조 관리자** 대화 상자는 프로젝트에 관련 된 모든 Sdk를 나열 합니다. 프로젝트에 SDK를 추가 하면 Api는 Visual Studio에서 사용할 수 있습니다.

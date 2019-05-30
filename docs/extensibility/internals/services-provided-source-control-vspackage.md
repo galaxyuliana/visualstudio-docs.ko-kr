@@ -6,17 +6,17 @@ helpviewer_keywords:
 - services, source control packages
 - source control packages, services
 ms.assetid: 9db07d70-87d2-4401-bc88-e3a49d81e9a2
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4f9a4a873f2b6b3f41bd86d046bc187c17f063f1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 72c95b0cf5b89588f5436663046829dc589bc9f2
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62908743"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66322664"
 ---
 # <a name="services-provided-source-control-vspackage"></a>제공된 서비스(소스 제어 VSPackage)
 서비스는 있는 기능 및 Visual Studio 통합된 개발 환경 (IDE)와 해당 설치 Vspackage Vspackage 간에 공유 되는 기본 메커니즘입니다. 서비스 및 Visual Studio IDE에서 중요도의 자세한 설명을 참조 하세요[사용 및 제공 서비스](../../extensibility/using-and-providing-services.md)합니다.

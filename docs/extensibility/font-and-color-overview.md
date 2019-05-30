@@ -6,17 +6,17 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], font and color
 - font and color control [Visual Studio SDK], editors
 ms.assetid: 2203e4e7-8b7f-44ec-8884-6ff718d4f278
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: da93d4f98bf3795c2dd60b02f9cf5b332b022ad2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 790a9f8bbed02a5135897f33db7fac1af3ad89d9
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62863557"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66342560"
 ---
 # <a name="font-and-color-overview"></a>글꼴 및 색 개요
 이 항목의 텍스트 글꼴 및 색 설정에 설명 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)입니다. 범주 및 표시 항목의 개념 소개 하 고 Vspackage 및 핵심 편집기 텍스트 특성을 사용 하는 방법에 대해 설명 합니다.

@@ -6,17 +6,17 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], opening
 - projects [Visual Studio SDK], opening standard editors
 ms.assetid: d5ce10f9-047a-4b74-aa1d-295128898b89
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f34a239628c3ed9e8bccaa8590cb22100d7d290f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1c85ab7f10881d76fbefea471851007f3d13da9b
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62862916"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66325455"
 ---
 # <a name="how-to-open-standard-editors"></a>방법: 표준 편집기 열기
 표준 편집기를 열면 IDE 파일에 대 한 프로젝트별 편집기를 지정 하는 대신 지정 된 파일 형식에 대해 표준 편집기를 확인 하 게 있습니다.

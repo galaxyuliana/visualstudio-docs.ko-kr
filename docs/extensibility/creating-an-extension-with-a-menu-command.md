@@ -8,17 +8,17 @@ helpviewer_keywords:
 - tutorials
 - visual studio package
 ms.assetid: f97104c8-2bcb-45c7-a3c9-85abeda8df98
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3e8e98a20fafc825af0cf9486c8a9939c02e3b5f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fb18792e2d0d357bb131af6c12e97425cd72fd05
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62891066"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66345367"
 ---
 # <a name="create-an-extension-with-a-menu-command"></a>메뉴 명령을 사용 하 여 확장 만들기
 
@@ -32,7 +32,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 
 1. 라는 VSIX 프로젝트를 만듭니다 **FirstMenuCommand**합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다 합니다 **새 프로젝트** "vsix"를 검색 하 여 대화 상자.
 
-2. 프로젝트를 열면 라는 사용자 지정 명령 항목 템플릿을 추가 **FirstCommand**합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#** > **확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 *FirstCommand.cs*합니다.
+2. 프로젝트를 열면 라는 사용자 지정 명령 항목 템플릿을 추가 **FirstCommand**합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#**  > **확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 *FirstCommand.cs*합니다.
 
 3. 프로젝트를 빌드하고 디버깅을 시작합니다.
 

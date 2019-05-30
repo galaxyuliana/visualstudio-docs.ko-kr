@@ -3,17 +3,17 @@ title: Visual Studio의 복합 패턴 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: e48ecfb2-f4b5-4d3a-b4a2-7a4d62fa4ec0
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 686239ed719a74cc91d9aec1412c81f38ecdd956
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 24ecf0e87a954afc2577c5e374bd22ac9da024be
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63387480"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66335397"
 ---
 # <a name="composite-patterns-for-visual-studio"></a>Visual Studio의 복합 패턴
 복합 패턴 고유 구성의 상호 작용 및 설계 요소를 결합 합니다. 일관성 관련 하 여 Visual Studio에서 가장 중요 한 복합 패턴 중 일부는 다음과 같습니다.

@@ -7,17 +7,17 @@ helpviewer_keywords:
 - update extension
 - new package version
 ms.assetid: 93f79774-7b79-4dd6-94ad-13698f72c257
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4eb438db5fd911ed93f7072902281815633d06a7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 237a1139a7a314cf99b5edbd8993abefe04592c8
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415456"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66324865"
 ---
 # <a name="how-to-update-a-visual-studio-extension"></a>방법: Visual Studio 확장 기능 업데이트
 사용 하 여 시스템에서 Visual Studio 확장을 업데이트할 수 있습니다 **확장 및 업데이트** 업데이트 된 버전을 설치 합니다. 확장의 업데이트 된 버전을 만들면 VSIX 매니페스트의 버전 번호를 증가 시켜 업데이트 되었음을 표시할 수 있습니다.

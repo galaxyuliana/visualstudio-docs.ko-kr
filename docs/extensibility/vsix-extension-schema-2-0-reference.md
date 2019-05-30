@@ -6,17 +6,17 @@ helpviewer_keywords:
 - vsix
 - extension schema
 ms.assetid: 0da81b98-f5e3-40d3-ba9a-94551378d0b4
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7cf2840c22bcddb9090cb078be6a8ad53d1ca1aa
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 2c6672fea1f3998f46c171ab7e9164291e12588f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63411136"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66322861"
 ---
 # <a name="vsix-extension-schema-20-reference"></a>VSIX 확장 스키마 2.0 참조
 VSIX 배포 매니페스트 파일에는 VSIX 패키지의 내용을 설명합니다. 스키마 파일 형식이 적용 됩니다. 이 스키마의 버전 2.0 추가 하는 사용자 지정 형식 및 특성을 지원 합니다.  매니페스트의 스키마가 확장 가능 합니다. 매니페스트 로더는 XML 요소 및 인식 하지 못하는 특성을 무시 합니다.

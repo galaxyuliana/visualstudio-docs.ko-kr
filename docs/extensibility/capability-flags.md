@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, capability flags
 ms.assetid: a3f6071c-eac8-4bcd-8ffd-8d0a2d24a252
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 12dfcdf646d6584890e8f78cbe561a84d6f00752
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0d8f14be1922bb82c2a169e38f370c11231f59f0
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62891638"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66321139"
 ---
 # <a name="capability-flags"></a>기능 플래그
 SCC_CAP_*xxx* 플래그는 비트 플래그는 소스 제어 플러그 인의 기능을 나타내는 데 사용 합니다. SCC_EXCAP_*xxx* 플래그는 정수 값으로 확인 및 확장 된 기능을 나타내는 플래그를 증분 합니다.
@@ -73,7 +73,7 @@ SCC_CAP_*xxx* 플래그는 비트 플래그는 소스 제어 플러그 인의 �
 |`SCC_EXCAP_ADD_FILES_FROM_SCC`|6|지원 합니다 [SccAddFilesFromSCC](../extensibility/sccaddfilesfromscc-function.md)합니다.|
 |`SCC_EXCAP_GET_USER_OPTIONS`|7|지원 합니다 [SccGetUserOption](../extensibility/sccgetuseroption-function.md)합니다.|
 |`SCC_EXCAP_THREADSAFE_QUERY_INFO`|8|SccQueryInfo 여러 스레드에서 호출을 지원 합니다.|
-|`SCC_EXCAP_REMOVE_DIR`|10|SccRemoveDir 함수를 지원합니다.|
+|`SCC_EXCAP_REMOVE_DIR`|9|SccRemoveDir 함수를 지원합니다.|
 |`SCC_EXCAP_DELETE_CHECKEDOUT`|10|체크 아웃 된 파일을 삭제할 수 있습니다.|
 |`SCC_EXCAP_RENAME_CHECKEDOUT`|11|체크 아웃 된 파일 이름을 바꿀 수 있습니다.|
 

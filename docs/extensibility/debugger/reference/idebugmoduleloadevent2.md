@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugModuleLoadEvent2 interface
 ms.assetid: 7d26fb23-5d49-4ba7-b7c5-3aed4d7be81e
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 689fd873bc753e885f0e1efad177a26d524bb030
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: caca1e79ef99e4bc5e7dd830ed20e717a2fa684f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62918543"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66323731"
 ---
 # <a name="idebugmoduleloadevent2"></a>IDebugModuleLoadEvent2
 이 인터페이스를 모듈 로드 되거나 언로드될 때 디버그 엔진 (DE)에서 세션 디버그 관리자 (SDM)에 전송 됩니다.
@@ -51,7 +51,7 @@ IDebugModuleLoadEvent2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

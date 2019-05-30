@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEnumField::GetStringFromValue method
 ms.assetid: 5f95fd0c-fdce-497f-9f54-2ad8749494e9
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 25becdae62dbdda78e04404528eeb099a4914265
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: cd7466e5390cff747532dca0343680cf359db46a
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66212399"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66345083"
 ---
 # <a name="idebugenumfieldgetstringfromvalue"></a>IDebugEnumField::GetStringFromValue
 이 메서드는 해당 값을 지정 된 열거형 상수의 이름을 가져옵니다.

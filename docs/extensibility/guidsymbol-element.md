@@ -6,17 +6,17 @@ helpviewer_keywords:
 - VSCT XML schema elements, GuidSymbol
 - GuidSymbol element (VSCT XML schema)
 ms.assetid: 11fb3545-8974-4776-9a54-6b6e7739ae31
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fe1d3b39e07862192082eb4950bd268dfcebd175
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bebcec561f915bd8223d0adc183293a1760c261d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62863028"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66342209"
 ---
 # <a name="guidsymbol-element"></a>GuidSymbol 요소
 `GuidSymbol` 요소 메뉴, 그룹 또는 명령을 나타내는 guid: id 쌍의 GUID를 포함 합니다. ID에서 제공 되는 `IDSymbol` 요소에는 `GuidSymbol` 요소입니다. `GuidSymbol` 요소에는 `name` 에 포함 된 GUID 친숙 한 이름을 제공 하는 특성을 `value` 특성.

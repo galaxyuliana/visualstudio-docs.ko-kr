@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], enabling for programs
 ms.assetid: 61d24820-0cd9-48b6-8674-6813f7493237
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1f301de66421ef1327b86d900305cb4ecbfb5623
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b939b692e4e93243f5f346fcd2fcb2872e989615
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62889696"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66341637"
 ---
 # <a name="enable-a-program-to-be-debugged"></a>디버깅할 프로그램 사용 설정
 디버그 엔진 (DE) 프로그램을 디버그하기 전에 먼저는 DE 시작 하거나 기존 프로그램에 연결 합니다.

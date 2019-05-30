@@ -6,17 +6,17 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], adding and opening solutions
 - source control plug-ins, adding and opening solutions
 ms.assetid: 5b3b5b08-5e9b-41be-ac72-c63957faed22
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2ba64bdcf299f52d0200e1fa66dead11a8824c14
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1e490ac500d5598866dbf66e3562dbb156fecb6e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63429982"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66331093"
 ---
 # <a name="test-area-1-add-toopen-from-source-control"></a>테스트 영역 1: 소스 제어에서 열기 / 추가
 이 소스 제어 플러그 인 테스트 영역에서는 소스 제어에서 프로젝트 또는 솔루션을 배치 하 고 소스 제어에서 검색 합니다.

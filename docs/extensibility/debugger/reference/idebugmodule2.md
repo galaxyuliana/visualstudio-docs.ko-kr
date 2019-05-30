@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugModule2 interface
 ms.assetid: 24c2a126-f4ab-4891-8509-8ef99b994c08
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a6d2e7ae091964cd810acfcddcc4ea5ab81943c4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: b621ae3b1408bc4af371243a1c34909117d40576
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62872844"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66323930"
 ---
 # <a name="idebugmodule2"></a>IDebugModule2
 이 인터페이스는 모듈을 나타냅니다-프로그램에서 실행 파일 단위 이므로, DLL 등입니다.
@@ -56,7 +56,7 @@ IDebugModule2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)
 - [GetModule](../../../extensibility/debugger/reference/idebugmoduleloadevent2-getmodule.md)

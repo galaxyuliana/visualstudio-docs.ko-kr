@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - CONTEXT_INFO structure
 ms.assetid: 6b513f4e-e7b0-4969-adf0-2205ccc1e09b
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c41a155fb3a85bcb9f0b0e5eae461f2ae172c7e2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 6c50d5ea930f05d22b68416978909cceca17727d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56709982"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66346459"
 ---
 # <a name="contextinfo"></a>CONTEXT_INFO
 이 구조는 메모리 컨텍스트 또는 코드 컨텍스트를 설명합니다.
@@ -49,19 +52,26 @@ public struct CONTEXT_INFO {
 ```
 
 ## <a name="members"></a>멤버
-그의 플래그의 조합 dwFields [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md) 채워진 필드를 지정 하는 열거형<strong>합니다.</strong>
+`dwFields`\
+그의 플래그의 조합을 [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md) 채워진 필드를 지정 하는 열거형<strong>합니다.</strong>
 
-bstrModuleUrl 컨텍스트가 있는 모듈의 이름입니다.
+`bstrModuleUrl`\
+컨텍스트가 있는 모듈의 이름입니다.
 
-bstrFunction 컨텍스트가 있는 함수 이름입니다.
+`bstrFunction`\
+컨텍스트가 있는 함수 이름입니다.
 
-posFunctionOffset [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 코드 컨텍스트와 연결 된 함수의 줄 및 열 오프셋을 식별 하는 구조입니다.
+`posFunctionOffset`\
+A [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 코드 컨텍스트와 연결 된 함수의 줄 및 열 오프셋을 식별 하는 구조입니다.
 
-bstrAddress 지정된 된 컨텍스트 위치한 코드 주소입니다.
+`bstrAddress`\
+지정된 된 컨텍스트 위치한 코드 주소입니다.
 
-bstrAddressOffset 지정된 된 컨텍스트 위치한 코드에서 주소의 오프셋입니다.
+`bstrAddressOffset`\
+지정된 된 컨텍스트 위치한 코드에서 주소의 오프셋입니다.
 
-절대 메모리 주소를 지정된 된 컨텍스트 위치한 bstrAddressAbsolute 합니다.
+`bstrAddressAbsolute`\
+지정 된 컨텍스트가 있는 메모리의 절대 주소입니다.
 
 ## <a name="remarks"></a>설명
 이 구조에 대 한 호출에서 반환 되는 [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md) 메서드.
@@ -75,7 +85,7 @@ bstrAddressOffset 지정된 된 컨텍스트 위치한 코드에서 주소의 �
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)
 - [CONTEXT_INFO_FIELDS](../../../extensibility/debugger/reference/context-info-fields.md)

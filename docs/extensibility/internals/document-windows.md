@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio SDK, document windows
 ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 490c39b9e97ad6a55ca2d1695d31b85ecc13dc57
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 844176b2db6074a33ac2e612c47d3779031836df
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63418593"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66345472"
 ---
 # <a name="document-windows"></a>문서 창
 Visual Studio에서를 *문서 창* (MDI) 다중 문서 인터페이스 창과 사용 하 여 연결 된 자식 프레임된 창입니다. 문서 일반적으로 사용 하는 표시 하 고 소스 코드 또는 텍스트를 수정 하지만 다른 기능 종류를 호스팅할 수도 있습니다. 문서 창:

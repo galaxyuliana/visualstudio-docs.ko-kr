@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - DBGPROP_ATTRIB_FLAGS enumerations
 ms.assetid: 2f13e601-dadc-476e-a8ec-01c4515082e7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 831d1326d88e70ffaba2cc0c242c55d7325be705
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: fde7ac384a6b2de293fc9baf0075438c9c609236
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689332"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66346291"
 ---
 # <a name="dbgattribflags"></a>DBG_ATTRIB_FLAGS
 에 대 한 다양 한 특성에 설명 합니다는 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 요소나 [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) 인터페이스입니다. 멤버는 [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 구조입니다.
@@ -163,98 +166,142 @@ public const int DBG_ATTRIB_MULTI_CUSTOM_VIEWERS = 0x0001000000000000
 ```
 
 ## <a name="members"></a>멤버
- DBG_ATTRIB_NONE 특성이 없음을 나타냅니다.
+ `DBG_ATTRIB_NONE`\
+ 특성이 없음을 나타냅니다.
 
- DBG_ATTRIB_ALL 모든 특성을 나타냅니다.
+ `DBG_ATTRIB_ALL`\
+ 모든 특성을 나타냅니다.
 
- DBG_ATTRIB_OBJ_IS_EXPANDABLE 참조 또는 속성에 자식이 있음을 나타냅니다.
+ `DBG_ATTRIB_OBJ_IS_EXPANDABLE`\
+ 참조 또는 속성에 자식이 있음을 나타냅니다.
 
- DBG_ATTRIB_OBJ_HAS_ID이이 개체의 ID를 만들어졌음을 나타냅니다.
+ `DBG_ATTRIB_OBJ_HAS_ID`\
+ 이 개체의 ID가 생성 되었음을 나타냅니다.
 
- DBG_ATTRIB_OBJ_CAN_HAVE_ID이이 개체의 ID를 만들 수 있음을 나타냅니다.
+ `DBG_ATTRIB_OBJ_CAN_HAVE_ID`\
+ 이 개체의 ID를 만들 수 있음을 나타냅니다.
 
- DBG_ATTRIB_VALUE_READONLY 값 읽기 전용임을 나타냅니다.
+ `DBG_ATTRIB_VALUE_READONLY`\
+ 값이 읽기 전용임을 나타냅니다.
 
- DBG_ATTRIB_VALUE_ERROR 값 오류 인지를 나타냅니다.
+ `DBG_ATTRIB_VALUE_ERROR`\
+ 오류 값 임을 나타냅니다.
 
- DBG_ATTRIB_VALUE_SIDE_EFFECT 평가 부작용을 나타냅니다.
+ `DBG_ATTRIB_VALUE_SIDE_EFFECT`\
+ 평가 부작용을 나타냅니다.
 
- DBG_ATTRIB_OVERLOADED_CONTAINER이이 속성은 실제로 오버 로드의 컨테이너를 나타냅니다.
+ `DBG_ATTRIB_OVERLOADED_CONTAINER`\
+ 이 속성은 실제로 오버 로드의 컨테이너를 나타냅니다.
 
- 나타내는 DBG_ATTRIB_VALUE_BOOLEAN 값 `DEBUG_PROPERTY_INFO::bstrValue` 부울입니다.
+ `DBG_ATTRIB_VALUE_BOOLEAN`\
+ 함을 값 `DEBUG_PROPERTY_INFO::bstrValue` 부울입니다.
 
- 나타내는 DBG_ATTRIB_VALUE_BOOLEAN_TRUE 값 `DEBUG_PROPERTY_INFO::bstrValue` 부울 및 `TRUE`합니다.
+ `DBG_ATTRIB_VALUE_BOOLEAN_TRUE`\
+ 함을 값 `DEBUG_PROPERTY_INFO::bstrValue` 부울 및 `TRUE`합니다.
 
- 나타내는 DBG_ATTRIB_VALUE_INVALID 값 `DEBUG_PROPERTY_INFO::bstrValue` 올바르지 않습니다.
+ `DBG_ATTRIB_VALUE_INVALID`\
+ `DEBUG_PROPERTY_INFO::bstrValue`의 값이 유효하지 않음을 나타냅니다.
 
- 나타내는 DBG_ATTRIB_VALUE_NAT 값 `DEBUG_PROPERTY_INFO::bstrValue` 는 "*것 없습니다*" (NAT). NAT는 지연 된 잘못 된 예외를 나타내는 Intel 64 비트 프로세서의 레지스터 플래그를 설명 합니다.
+ `DBG_ATTRIB_VALUE_NAT`\
+ 함을 값 `DEBUG_PROPERTY_INFO::bstrValue` 는 "*것 없습니다*" (NAT). NAT는 지연 된 잘못 된 예외를 나타내는 Intel 64 비트 프로세서의 레지스터 플래그를 설명 합니다.
 
- 나타내는 DBG_ATTRIB_VALUE_AUTOEXPANDED 값 `DEBUG_PROPERTY_INFO::bstrValue` 자동 확장 되었습니다 수 있습니다.
+ `DBG_ATTRIB_VALUE_AUTOEXPANDED`\
+ 함을 값 `DEBUG_PROPERTY_INFO::bstrValue` 자동 확장 되었습니다 수 있습니다.
 
- DBG_ATTRIB_VALUE_TIMEOUT 나타내는 평가 시간이 초과 되었습니다.
+ `DBG_ATTRIB_VALUE_TIMEOUT`\
+ 평가 시간이 초과 되었습니다를 나타냅니다.
 
- 나타내는 DBG_ATTRIB_VALUE_RAW_STRING 값 `DEBUG_PROPERTY_INFO::bstrValue` 원시 문자열로 나타낼 수 있습니다.
+ `DBG_ATTRIB_VALUE_RAW_STRING`\
+ 함을 값 `DEBUG_PROPERTY_INFO::bstrValue` 원시 문자열로 나타낼 수 있습니다.
 
- 이 속성은 연결 된 하나 이상의 사용자 지정 뷰어 DBG_ATTRIB_VALUE_CUSTOM_VIEWER 나타냅니다.
+ `DBG_ATTRIB_VALUE_CUSTOM_VIEWER`\
+ 이 속성에 연결 된 하나 이상의 사용자 지정 뷰어 있음을 나타냅니다.
 
- DBG_ATTRIB_ACCESS_NONE 종단점이 없는 개체를 나타냅니다 `public`, `private`, 또는 `protected` 액세스를 입력 합니다.
+ `DBG_ATTRIB_ACCESS_NONE`\
+ 에 있는 개체를 나타냅니다 `public`, `private`, 또는 `protected` 액세스를 입력 합니다.
 
- DBG_ATTRIB_ACCESS_PUBLIC 공용 액세스 권한이 있는 개체를 나타냅니다.
+ `DBG_ATTRIB_ACCESS_PUBLIC`\
+ 공용 액세스 권한이 있는 개체를 나타냅니다.
 
- DBG_ATTRIB_ACCESS_PRIVATE 개인 액세스 권한이 있는 개체를 나타냅니다.
+ `DBG_ATTRIB_ACCESS_PRIVATE`\
+ 개인 액세스 권한이 있는 개체를 나타냅니다.
 
- DBG_ATTRIB_ACCESS_PROTECTED 보호 액세스 권한이 있는 개체를 나타냅니다.
+ `DBG_ATTRIB_ACCESS_PROTECTED`\
+ 보호 액세스 권한이 있는 개체를 나타냅니다.
 
- DBG_ATTRIB_ACCESS_FINAL 최종 액세스 권한이 있는 개체를 나타냅니다.
+ `DBG_ATTRIB_ACCESS_FINAL`\
+ 최종 액세스 권한이 있는 개체를 나타냅니다.
 
- 특성 액세스 추출할 DBG_ATTRIB_ACCESS_ALL 마스크 `DBG_ATTRIB_FLAGS`합니다.
+ `DBG_ATTRIB_ACCESS_ALL`\
+ 마스크의 액세스 특성을 추출할 `DBG_ATTRIB_FLAGS`합니다.
 
- 지정 된 저장소 형식이 없습니다 DBG_ATTRIB_STORAGE_NONE 나타냅니다.
+ `DBG_ATTRIB_STORAGE_NONE`\
+ 저장소 형식이 지정 되지 않은 임을 나타냅니다.
 
- 전역 저장소 DBG_ATTRIB_STORAGE_GLOBAL 나타냅니다.
+ `DBG_ATTRIB_STORAGE_GLOBAL`\
+ 전역 저장소를 나타냅니다.
 
- 정적 저장소 DBG_ATTRIB_STORAGE_STATIC 나타냅니다.
+ `DBG_ATTRIB_STORAGE_STATIC`\
+ 정적 저장소를 나타냅니다.
 
- 레지스터에서 저장소 DBG_ATTRIB_STORAGE_REGISTER 나타냅니다.
+ `DBG_ATTRIB_STORAGE_REGISTER`\
+ 레지스터에 저장소를 나타냅니다.
 
- 특성 저장소를 추출 하려면 DBG_ATTRIB_STORAGE_ALL 마스크 `DBG_ATTRIB_FLAGS`합니다.
+ `DBG_ATTRIB_STORAGE_ALL`\
+ 저장소 특성을 추출 하는 마스크 `DBG_ATTRIB_FLAGS`합니다.
 
- DBG_ATTRIB_TYPE_NONE 어떠한 형식 한정자 임을 나타냅니다.
+ `DBG_ATTRIB_TYPE_NONE`\
+ 어떠한 형식 한정자 임을 나타냅니다.
 
- DBG_ATTRIB_TYPE_VIRTUAL 개체 유형의 가상 임을 나타냅니다.
+ `DBG_ATTRIB_TYPE_VIRTUAL`\
+ 개체의 형식 가상 임을 나타냅니다.
 
- DBG_ATTRIB_TYPE_CONSTANT 개체의 형식 상수를 나타냅니다.
+ `DBG_ATTRIB_TYPE_CONSTANT`\
+ 개체 형식이 상수임을 나타냅니다.
 
- DBG_ATTRIB_TYPE_SYNCHRONIZED 개체 유형의 동기화 있는지를 나타냅니다.
+ `DBG_ATTRIB_TYPE_SYNCHRONIZED`\
+ 개체 유형의 동기화 있는지를 나타냅니다.
 
- DBG_ATTRIB_TYPE_VOLATILE 개체 유형의 일시적 임을 나타냅니다.
+ `DBG_ATTRIB_TYPE_VOLATILE`\
+ 개체의 형식 일시적 임을 나타냅니다.
 
- 특성 유형을 추출 DBG_ATTRIB_TYPE_ALL 마스크 `DBG_ATTRIB_FLAGS`합니다.
+ `DBG_ATTRIB_TYPE_ALL`\
+ 형식 특성을 추출 하는 마스크 `DBG_ATTRIB_FLAGS`합니다.
 
- DBG_ATTRIB_DATA이이 개체는 데이터 필드를 나타냅니다.
+ `DBG_ATTRIB_DATA`\
+ 이 개체는 데이터 필드를 나타냅니다.
 
- DBG_ATTRIB_METHOD이이 개체는 메서드를 나타냅니다.
+ `DBG_ATTRIB_METHOD`\
+ 이 개체는 메서드를 나타냅니다.
 
- DBG_ATTRIB_PROPERTY이이 개체 속성 임을 나타냅니다.
+ `DBG_ATTRIB_PROPERTY`\
+ 이 개체 속성 임을 나타냅니다.
 
- DBG_ATTRIB_CLASS이이 개체는 클래스를 나타냅니다.
+ `DBG_ATTRIB_CLASS`\
+ 이 개체는 클래스를 나타냅니다.
 
- DBG_ATTRIB_BASECLASS이이 개체는 기본 클래스를 나타냅니다.
+ `DBG_ATTRIB_BASECLASS`\
+ 이 개체는 기본 클래스를 나타냅니다.
 
- DBG_ATTRIB_INTERFACE이이 개체는 인터페이스를 나타냅니다.
+ `DBG_ATTRIB_INTERFACE`\
+ 이 개체는 인터페이스를 나타냅니다.
 
- DBG_ATTRIB_INNERCLASS이이 개체는 내부 클래스를 나타냅니다.
+ `DBG_ATTRIB_INNERCLASS`\
+ 이 개체는 내부 클래스를 나타냅니다.
 
- 이 개체는 DBG_ATTRIB_MOSTDERIVED 나타냅니다 '*가장 많이 파생 된*'. 용어 "*가장 많이 파생 된*" 개체의 실제 형식 및 해당 참조 형식이 아닌 것을 의미 합니다.
+ `DBG_ATTRIB_MOSTDERIVED`\
+ 이 개체가 나타내는 '*가장 많이 파생 된*'. 용어 "*가장 많이 파생 된*" 개체의 실제 형식 및 해당 참조 형식이 아닌 것을 의미 합니다.
 
- DBG_ATTRIB_CHILD_ALL 나타냅니다 마스크가 `DBG_ATTRIB_DATA` 를 통해 `DBG_ATTRIB_MOSTDERIVED`합니다.
+ `DBG_ATTRIB_CHILD_ALL`\
+ 마스크는 나타냅니다 `DBG_ATTRIB_DATA` 를 통해 `DBG_ATTRIB_MOSTDERIVED`합니다.
 
- 개체에 연결 된 여러 사용자 지정 뷰어 DBG_ATTRIB_MULTI_CUSTOM_VIEWERS 나타냅니다.
+ `DBG_ATTRIB_MULTI_CUSTOM_VIEWERS`\
+ 개체에 연결 된 여러 사용자 지정 뷰어 있음을 나타냅니다.
 
 ## <a name="remarks"></a>설명
 
 > [!NOTE]
->  이 열거형의 값을 C#에 대 한 어셈블리에서 실제로 정의 되지 않습니다. 대신 정의 소스 파일을 복사 해야 합니다.
+> 이 열거형의 값을 C#에 대 한 어셈블리에서 실제로 정의 되지 않습니다. 대신 정의 소스 파일을 복사 해야 합니다.
 
  이러한 플래그에 대 한 인수로 전달 하는 경우 예를 들어 개체의 자식을 필터링 할 수도 있습니다 [EnumChildren](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md)합니다. 비트 값을 결합할 수 있습니다 `OR`합니다.
 
@@ -267,7 +314,7 @@ public const int DBG_ATTRIB_MULTI_CUSTOM_VIEWERS = 0x0001000000000000
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md)

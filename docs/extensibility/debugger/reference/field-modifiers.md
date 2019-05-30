@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - FIELD_MODIFIERS enumeration
 ms.assetid: 1e44681c-1f03-41a9-9c04-b79f231b0822
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b22559af26a0a5f6c8af68726a5ba336e1bcfb4a
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 10538f3728647a716a9f3f964a3deedf2a5ae5c9
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689631"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66324491"
 ---
 # <a name="fieldmodifiers"></a>FIELD_MODIFIERS
 필드 형식에 대 한 한정자를 지정합니다.
@@ -101,58 +104,84 @@ public enum enum_FIELD_MODIFIERS {
 };
 ```
 
-## <a name="members"></a>멤버
-FIELD_MOD_ACCESS_TYPE 필드에 액세스할 수 없습니다 나타냅니다.
+## <a name="fields"></a>필드
+`FIELD_MOD_ACCESS_TYPE`\
+필드에 액세스할 수 없습니다 나타냅니다.
 
-FIELD_MOD_ACCESS_PUBLIC 필드에 대 한 공용 액세스를 나타냅니다.
+`FIELD_MOD_ACCESS_PUBLIC`\
+필드에 대 한 공용 액세스에 있음을 나타냅니다.
 
-FIELD_MOD_ACCESS_PROTECTED 필드에 보호 된 액세스 권한을 나타냅니다.
+`FIELD_MOD_ACCESS_PROTECTED`\
+필드에 보호 된 액세스 권한을 나타냅니다.
 
-FIELD_MOD_ACCESS_PRIVATE 필드에 개인 권한이 있음을 나타냅니다.
+`FIELD_MOD_ACCESS_PRIVATE`\
+필드에 대 한 개인 액세스 있음을 나타냅니다.
 
-FIELD_MOD_NOMODIFIERS는 필드에 한정자가 없는 것을 나타냅니다.
+`FIELD_MOD_NOMODIFIERS`\
+필드 한정자가 없습니다에 있음을 나타냅니다.
 
-FIELD_MOD_STATIC 정적 필드 인지를 나타냅니다.
+`FIELD_MOD_STATIC`\
+정적 필드 임을 나타냅니다.
 
-FIELD_MOD_CONSTANT 상수 필드 임을 나타냅니다.
+`FIELD_MOD_CONSTANT`\
+필드는 상수를 나타냅니다.
 
-FIELD_MOD_TRANSIENT 필드 일시적 임을 나타냅니다.
+`FIELD_MOD_TRANSIENT`\
+필드 일시적 임을 나타냅니다.
 
-FIELD_MOD_VOLATILE 필드 일시적 임을 나타냅니다.
+`FIELD_MOD_VOLATILE`\
+Volatile 필드 임을 나타냅니다.
 
-FIELD_MOD_ABSTRACT 필드 추상 임을 나타냅니다.
+`FIELD_MOD_ABSTRACT`\
+필드 추상 임을 나타냅니다.
 
-FIELD_MOD_NATIVE 필드 네이티브 임을 나타냅니다.
+`FIELD_MOD_NATIVE`\
+기본 필드 임을 나타냅니다.
 
-FIELD_MOD_SYNCHRONIZED 필드는 동기화 하는 것을 나타냅니다.
+`FIELD_MOD_SYNCHRONIZED`\
+필드는 동기화 하는 것을 나타냅니다.
 
-FIELD_MOD_VIRTUAL 필드 가상 임을 나타냅니다.
+`FIELD_MOD_VIRTUAL`\
+가상 필드 임을 나타냅니다.
 
-FIELD_MOD_INTERFACE 인터페이스 필드 임을 나타냅니다.
+`FIELD_MOD_INTERFACE`\
+인터페이스 필드 임을 나타냅니다.
 
-FIELD_MOD_FINAL 필드 최종 임을 나타냅니다.
+`FIELD_MOD_FINAL`\
+마지막 필드 임을 나타냅니다.
 
-FIELD_MOD_SENTINEL 센티널 필드 임을 나타냅니다.
+`FIELD_MOD_SENTINEL`\
+필드는 sentinel 임을 나타냅니다.
 
-FIELD_MOD_INNERCLASS 필드는 내부 클래스를 나타냅니다.
+`FIELD_MOD_INNERCLASS`\
+필드는 내부 클래스를 나타냅니다.
 
-FIELD_TYPE_OPTIONAL 필드 선택 사항임을 나타냅니다.
+`FIELD_TYPE_OPTIONAL`\
+필드 선택 사항임을 나타냅니다.
 
-FIELD_MOD_BYREF 필드 참조 인수 임을 나타냅니다. 이 특히 메서드 인수입니다.
+`FIELD_MOD_BYREF`\
+필드 참조 인수 임을 나타냅니다. 이 특히 메서드 인수입니다.
 
-FIELD_MOD_HIDDEN 나타냅니다는 필드 숨겨진 또는 다른 컨텍스트에 나오는 여야 합니다 예를 들어 [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] 정적 지역 변수입니다.
+`FIELD_MOD_HIDDEN`\
+필드 또는 숨겨진 다른 컨텍스트에 나오는 수 해야 나타냅니다. 예를 들어 [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] 정적 지역 변수입니다.
 
-FIELD_MOD_MARSHALASOBJECT 임을 나타내는 필드를 사용 하 여 개체를 `IUnknown` 인터페이스입니다.
+`FIELD_MOD_MARSHALASOBJECT`\
+필드를 사용 하 여 개체를 나타냄을 `IUnknown` 인터페이스입니다.
 
-필드에는 특별 한 이름, 예를 들어 FIELD_MOD_SPECIAL_NAME 나타냅니다 `.ctor` 생성자에 대 한 ([!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] 만).
+`FIELD_MOD_SPECIAL_NAME`\
+필드에는 특별 한 이름, 예를 들어 나타냅니다 `.ctor` 생성자에 대 한 ([!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] 만).
 
-FIELD_MOD_HIDEBYSIG 필드가 나타내는 합니다 `Overloads` 적용할 키워드 ([!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] 만).
+`FIELD_MOD_HIDEBYSIG`\
+필드에 있음을 나타냅니다 합니다 `Overloads` 적용할 키워드 ([!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] 만).
 
-FIELD_MOD_WRITEONLY 쓰기 전용 필드 임을 나타냅니다. 이 값에 포함 되지 않습니다 `FIELD_MOD_ALL`함수 실행에만 이러한 쓰기 전용 필드를 사용 하는 합니다. 사용자에 대 한 명시적으로 요청 해야 `FIELD_MOD_WRITEONLY` 필드입니다.
+`FIELD_MOD_WRITEONLY`\
+쓰기 전용 필드 임을 나타냅니다. 이 값에 포함 되지 않습니다 `FIELD_MOD_ALL`함수 실행에만 이러한 쓰기 전용 필드를 사용 하는 합니다. 사용자에 대 한 명시적으로 요청 해야 `FIELD_MOD_WRITEONLY` 필드입니다.
 
-FIELD_MOD_ACCESS_MASK 필드 액세스에 대 한 마스크를 나타냅니다.
+`FIELD_MOD_ACCESS_MASK`\
+필드 액세스에 대 한 마스크를 나타냅니다.
 
-FIELD_MOD_MASK 필드 한정자에 대 한 마스크를 나타냅니다.
+`FIELD_MOD_MASK`\
+필드 한정자에 대 한 마스크를 나타냅니다.
 
 ## <a name="remarks"></a>설명
 에 사용 되는 합니다 `dwModifiers` 의 멤버는 [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md) 구조입니다.
@@ -166,7 +195,7 @@ FIELD_MOD_MASK 필드 한정자에 대 한 마스크를 나타냅니다.
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [FIELD_INFO](../../../extensibility/debugger/reference/field-info.md)
 - [EnumFields](../../../extensibility/debugger/reference/idebugcontainerfield-enumfields.md)

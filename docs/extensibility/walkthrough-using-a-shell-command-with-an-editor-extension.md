@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - add a menu command
 ms.assetid: 08526848-a442-4cd4-afa1-b2eac2005adb
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d0eade1bf17955bce52ea53b159f23102afb74b8
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b89d4d4356245929bbd8ada7790729e78da3d15d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63444924"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328145"
 ---
 # <a name="walkthrough-use-a-shell-command-with-an-editor-extension"></a>연습: 편집기 확장에서 셸 명령 사용
 VSPackage에서 편집기 메뉴 명령과 같은 기능을 추가할 수 있습니다. 이 연습에서는 adornment 메뉴 명령을 호출 하 여 편집기에서 텍스트 뷰를 추가 하는 방법을 보여 줍니다.
@@ -38,7 +38,7 @@ VSPackage에서 편집기 메뉴 명령과 같은 기능을 추가할 수 있습
 
 ## <a name="add-a-mef-extension-to-the-command-extension"></a>MEF 확장 명령 확장에 추가
 
-1. **솔루션 탐색기**솔루션 노드를 마우스 오른쪽 단추로 클릭, 클릭 **추가**를 클릭 하 고 **새 프로젝트**합니다. 에 **새 프로젝트 추가** 대화 상자, 클릭 **확장성** 아래 **Visual C#**, 다음 **VSIX 프로젝트**합니다. 프로젝트 이름을 `CommentAdornmentTest`로 지정합니다.
+1. **솔루션 탐색기**솔루션 노드를 마우스 오른쪽 단추로 클릭, 클릭 **추가**를 클릭 하 고 **새 프로젝트**합니다. 에 **새 프로젝트 추가** 대화 상자, 클릭 **확장성** 아래 **Visual C#** , 다음 **VSIX 프로젝트**합니다. 프로젝트 이름을 `CommentAdornmentTest`로 지정합니다.
 
 2. 이 프로젝트를 VSPackage 강력한 이름의 어셈블리와 상호 작용을 하기 때문에 어셈블리를 서명 해야 합니다. VSPackage 어셈블리에 대해 이미 만들어진 키 파일을 재사용할 수 있습니다.
 

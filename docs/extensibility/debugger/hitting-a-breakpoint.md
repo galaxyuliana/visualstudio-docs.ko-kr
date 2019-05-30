@@ -6,17 +6,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], hitting breakpoints
 - breakpoints, hitting
 ms.assetid: a77816e3-b15b-46a0-90cd-be7242e4d6c9
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1286af8222703028d5a8a1bd2dbb0d990ca7e30c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6d95abd66f248ca994d7712f1bf51519022de9d7
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62889907"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66344040"
 ---
 # <a name="hit-a-breakpoint"></a>중단점 도달
 다음 섹션에서는 디버그 엔진 (DE)를 실행 하거나 단계별로 실행 하는 동안 중단점에 도달 하면 프로세스를 설명 합니다.

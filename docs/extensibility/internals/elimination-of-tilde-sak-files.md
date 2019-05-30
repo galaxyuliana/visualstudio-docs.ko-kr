@@ -7,17 +7,17 @@ helpviewer_keywords:
 - ~sak files
 - source control plug-ins, ~SAK files
 ms.assetid: 5277b5fa-073b-4bd1-8ba1-9dc913aa3c50
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 96704b52fb31085fad7546687a8803c85bcfbb47
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e409a08ba295bb55eb1fcfcd2a048a9bdb5ea7c9
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63418635"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66327530"
 ---
 # <a name="elimination-of-sak-files"></a>제거 ~ SAK 파일
 원본 제어 플러그 인 API 1.2에서는 *~ SAK* 기능 플래그를 통해 파일 대체 되었으며 원본 여부를 검색 하는 새 함수 제어 플러그 인 지원 합니다 *MSSCCPRJ* 파일 및 공유 체크 아웃 합니다.
