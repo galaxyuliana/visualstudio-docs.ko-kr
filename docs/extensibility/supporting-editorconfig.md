@@ -1,5 +1,5 @@
 ---
-title: Visual Studio에서 EditorConfig 지원 하도록 언어 서비스 확장 | Microsoft Docs
+title: EditorConfig 지원 하도록 언어 서비스 확장
 ms.date: 11/22/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3c29c22ae4539d874ffc08c9ce5adf94ab33d404
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: MT
+ms.openlocfilehash: be9502569fd57da630da949ba14bbfc5e9045a22
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62799862"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261809"
 ---
 # <a name="supporting-editorconfig-for-your-language-service"></a>EditorConfig 언어 서비스에 대 한 지원
 

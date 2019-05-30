@@ -12,12 +12,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 1283b447f750c3485029085d2669215abbf65dfd
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: fc45c25dcc9de1cdf1991525401e2d53bd86cdb3
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65695988"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261996"
 ---
 # <a name="tutorial-create-a-nodejs-and-react-app-in-visual-studio"></a>자습서: Visual Studio에서 Node.js 및 React 앱 만들기
 
@@ -378,7 +378,7 @@ webpack은 브라우저에서 실행될 수 있도록 JavaScript 파일을 번�
     ::: moniker range=">=vs-2019"
 
     > [!NOTE]
-    > **디버그** 도구 모음에서 **브라우저 선택...** >를 선택하고, **추가**를 선택한 다음, **인수** 필드에서 플래그를 설정하여 브라우저 시작 시 `--remote-debugging-port` 플래그를 설정할 수도 있습니다. **디버깅 포함 Chrome**과 같은 친숙한 다른 브라우저 이름을 사용하세요. 자세한 내용은 [릴리스 정보](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview#browser-cli-params-support)를 참조하세요.
+    > **디버그** 도구 모음에서 **브라우저 선택...** >를 선택하고, **추가**를 선택한 다음, **인수** 필드에서 플래그를 설정하여 브라우저 시작 시 `--remote-debugging-port` 플래그를 설정할 수도 있습니다. **디버깅 포함 Chrome**과 같은 친숙한 다른 브라우저 이름을 사용하세요. 자세한 내용은 [릴리스 정보](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-preview)를 참조하세요.
 
     ::: moniker-end
 

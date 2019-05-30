@@ -9,12 +9,12 @@ caps.latest.revision: 12
 author: conceptdev
 ms.author: crdun
 manager: jillfra
-ms.openlocfilehash: d2959164c9c585ae2661517922464dd63845a836
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4532b7e566bbd315d9acbdef43198e0f91f5f195
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443050"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263548"
 ---
 # <a name="getting-started-with-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ ms.locfileid: "63443050"
   
  또는 Unity를 처음 접하는 경우 기본 자습서를 사용하여 작은 항목부터 시작합니다. Unity 학습 페이지를 방문하여 시작에 사용할 수 있는 예제 프로젝트에 대한 자습서와 학습할 수 있는 단원을 찾아 Unity로 게임을 빌드합니다. Unity 학습 페이지에는 여러 다른 게임에 대한 따라하기 쉬운 자습서가 있습니다.  
   
- [자습서-Unity 학습 페이지](http://unity3d.com/learn/tutorials/modules)  
+ [Tutorials – Unity Learn page](https://learn.unity.com/tutorials)(자습서-Unity 학습 페이지)  
   
 #### <a name="2---configure-unity-editor-to-use-visual-studio-tools-for-unity"></a>2 - Visual Studio Tools for Unity를 사용하여 Unity 편집기 구성  
  프로젝트에서 Visual Studio Tools for Unity를 사용할 수 있게 하려면 Visual Studio를 외부 스크립트 편집기로 설정하면 됩니다. Unity 편집기의 주 메뉴에서 **편집, 기본 설정**을 선택한 다음 **Unity 기본 설정** 대화 상자에서 **외부 도구**를 선택합니다. **외부 스크립트 편집기** 속성을 사용하려는 Visual Studio 버전으로 설정하고(이 Visual Studio 버전에 대한 Visual Studio Tools for Unity를 설치해야 함) **편집기 연결** 속성이 설정되어 있는지 확인합니다.  
@@ -90,7 +90,7 @@ ms.locfileid: "63443050"
   
  또는 Unity를 처음 접하는 경우 기본 자습서를 사용하여 작은 항목부터 시작합니다. Unity 학습 페이지를 방문하여 시작에 사용할 수 있는 예제 프로젝트에 대한 자습서와 학습할 수 있는 단원을 찾아 Unity로 게임을 빌드합니다. Unity 학습 페이지에는 여러 다른 게임에 대한 따라하기 쉬운 자습서가 있습니다.  
   
- [자습서-Unity 학습 페이지](http://unity3d.com/learn/tutorials/modules)  
+ [Tutorials – Unity Learn page](https://learn.unity.com/tutorials)(자습서-Unity 학습 페이지)  
   
 #### <a name="2---configure-unity-editor-to-use-visual-studio-tools-for-unity"></a>2 - Visual Studio Tools for Unity를 사용하여 Unity 편집기 구성  
  기존 Unity 프로젝트에서 시작하거나 프로젝트를 만들 때 Visual Studio Tools unitypackage를 가져오지 않은 경우 지금 unitypackage를 가져와야 합니다. Unity 편집기의 주 메뉴에서 **자산, 패키지 가져오기, Visual Studio 2015 Tools** 를 선택합니다(사용 중인 Visual Studio의 버전에 대한 옵션을 참조해야 합니다).  

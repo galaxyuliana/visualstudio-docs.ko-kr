@@ -8,12 +8,12 @@ ms.assetid: 30f137e6-595d-4ce7-b8f5-415b07c1caa2
 caps.latest.revision: 33
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 8a719a1420d4d2e64438865a41cc24da114fbc2d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 90517c46d8fa92d58e73e976f593a1bcfbfac9b1
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443060"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263565"
 ---
 # <a name="build-apps-with-native-ui-using-xamarin-in-visual-studio"></a>Visual Studio에서 Xamarin을 사용하여 네이티브 UI로 앱 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "63443060"
 > [!TIP]
 > [GitHub의 mobile-samples 리포지토리](https://github.com/xamarin/mobile-samples/tree/master/Weather)에서 이 프로젝트에 대한 전체 소스 코드를 찾을 수 있습니다.
 >
-> 어려움이 있거나 오류가 발생하면 [forums.xamarin.com](http://forums.xamarin.com)에 질문을 게시하세요. Xamarin에 필요한 최신 SDK로 업데이트하면 많은 오류를 해결할 수 있습니다. 자세한 내용은 각 플랫폼에 대한 [Xamarin 릴리스 정보](https://developer.xamarin.com/releases/)에 설명되어 있습니다.
+> 어려움이 있거나 오류가 발생하면 [forums.xamarin.com](http://forums.xamarin.com)에 질문을 게시하세요. Xamarin에 필요한 최신 SDK로 업데이트하면 많은 오류를 해결할 수 있습니다. 자세한 내용은 각 플랫폼에 대한 [Xamarin 릴리스 정보](https://developer.xamarin.com/)에 설명되어 있습니다.
 >
 > [!NOTE]
 > Xamarin 개발자 설명서에서는 아래와 같이 빠른 시작 및 심층 분석 섹션이 둘 다 포함된 여러 가지 연습도 제공합니다. 이러한 모든 페이지에서 Visual Studio 관련 연습을 보려면 페이지 오른쪽 위에서 "Visual Studio"를 선택해야 합니다.
@@ -63,13 +63,13 @@ ms.locfileid: "63443060"
 
 2. 확인을 클릭하여 솔루션을 만든 후에는 몇 개의 개별 프로젝트가 만들어집니다.
 
-   - **WeatherApp(이식 가능)**: 일반적인 비즈니스 논리 및 Xamarin.Forms를 사용하는 UI 코드를 포함하여 플랫폼 간에 공유되는 코드를 작성하는 PCL입니다.
+   - **WeatherApp(이식 가능)** : 일반적인 비즈니스 논리 및 Xamarin.Forms를 사용하는 UI 코드를 포함하여 플랫폼 간에 공유되는 코드를 작성하는 PCL입니다.
 
    - **WeatherApp.Droid**: 네이티브 Android 코드를 포함하는 프로젝트. 이 프로젝트가 기본 시작 프로젝트로 설정됩니다.
 
    - **WeatherApp.iOS**: 네이티브 iOS 코드를 포함하는 프로젝트
 
-   - **WeatherApp.WinPhone(Windows Phone 8.1)**: 네이티브 Windows Phone 코드를 포함하는 프로젝트
+   - **WeatherApp.WinPhone(Windows Phone 8.1)** : 네이티브 Windows Phone 코드를 포함하는 프로젝트
 
      각 네이티브 프로젝트 내에서 해당 플랫폼에 대한 네이티브 디자이너에 액세스하여 플랫폼 특정 화면을 구현할 수 있습니다.
 

@@ -1,5 +1,5 @@
 ---
-title: '방법: 디자이너를 사용 하 여 ClickOnce 응용 프로그램의 URL 활성화 해제 | Microsoft Docs'
+title: 디자이너를 사용 하는 ClickOnce 앱의 URL 활성화를 사용 하지 않도록 설정
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c4da1ba726253891ef7df2ccfde8a667ac11ad8d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b8296f08c29b3259c19393a860ee34f6c3f05a42
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62928593"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263283"
 ---
 # <a name="how-to-disable-url-activation-of-clickonce-applications-by-using-the-designer"></a>방법: 디자이너를 통해 ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정
 일반적으로 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램은 웹 서버에서 설치 된 후에 즉시 자동으로 시작 됩니다. 보안상의 이유로이 동작을 사용 하지 않도록 설정 하 여 사용자가 응용 프로그램을 시작 하도록 설정할 수 있습니다 합니다 **시작** 메뉴 대신 합니다. 다음 절차에서는 URL 활성화를 사용하지 않도록 설정하는 방법에 대해 설명합니다.

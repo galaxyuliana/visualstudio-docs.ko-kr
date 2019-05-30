@@ -22,12 +22,12 @@ caps.latest.revision: 50
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 2dd7d3f41790fac7a37fc3a98d728757f5bad967
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 47db517bfb75d81785e910d1dd166ac83ddb2fcb
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65704684"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261652"
 ---
 # <a name="general-debugging-options-dialog-box"></a>옵션 대화 상자, 디버깅, 일반
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -164,7 +164,7 @@ ms.locfileid: "65704684"
   표시 합니다 **라이브 시각적 트리** 디버깅 중인 XAML 응용 프로그램의 주 창에서 도구 모음에 명령 합니다. 이 옵션은 Visual Studio 2015 업데이트 2에서 도입 되었습니다.  
   
   **디버깅 하는 동안 진단 도구를 사용 하도록 설정**  
-  디버깅하는 동안 **진단 도구** 창이 나타납니다. 자세한 내용은 [프로 파일링 디버거 통합](https://msdn.microsoft.com/library/a1f40370-7b61-42c2-afc4-0e13eba98859)합니다.  
+  디버깅하는 동안 **진단 도구** 창이 나타납니다. 자세한 내용은 [프로 파일링 디버거 통합](/visualstudio/profiling/running-profiling-tools-with-or-without-the-debugger)합니다.  
   
   **디버깅 중에 경과한 시간 성능 팁 표시**  
   디버깅 중에 지정된 메서드를 호출하는 데 경과된 시간이 코드 창에 표시됩니다.  

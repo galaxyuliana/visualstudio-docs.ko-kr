@@ -1,5 +1,6 @@
 ---
-title: 사용자 지정 프로젝트 및 Visual Studio 2017에 대 한 항목 템플릿 업그레이드 | Microsoft Docs
+title: Visual Studio 2017에 대 한 사용자 지정 프로젝트 및 항목 템플릿 업그레이드
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
@@ -9,12 +10,12 @@ manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: cb4defa206d176e57804e6d2473262568cd5edbf
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 39dbe74c8f59171461cca04fc9015782e21fe9da
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434208"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261795"
 ---
 # <a name="upgrade-custom-project-and-item-templates-for-visual-studio-2017"></a>사용자 지정 프로젝트 및 항목 템플릿을 Visual Studio 2017에 대 한 업그레이드
 
@@ -26,7 +27,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 
 ## <a name="template-scanning"></a>템플릿 검색
 
-이전 버전의 Visual Studio **devenv /setup** 하거나 **devenv /installvstemplates** 프로젝트 및 항목 템플릿을 찾으려면 로컬 디스크를 검색 합니다. Visual Studio 2017부터 검색 사용자 수준 위치에 대해서만 수행 됩니다. 기본 사용자 수준 위치가 **%USERPROFILE%\Documents\\< Visual Studio 버전\>\Templates\\**합니다. 이 위치를 사용 하 여 생성 된 템플릿에 대 한 합니다 **프로젝트** > **템플릿 내보내기...**  명령 경우 합니다 **자동으로 템플릿을 Visual Studio로 가져오기** 마법사에서 옵션을 선택 합니다.
+이전 버전의 Visual Studio **devenv /setup** 하거나 **devenv /installvstemplates** 프로젝트 및 항목 템플릿을 찾으려면 로컬 디스크를 검색 합니다. Visual Studio 2017부터 검색 사용자 수준 위치에 대해서만 수행 됩니다. 기본 사용자 수준 위치가 **%USERPROFILE%\Documents\\< Visual Studio 버전\>\Templates\\** 합니다. 이 위치를 사용 하 여 생성 된 템플릿에 대 한 합니다 **프로젝트** > **템플릿 내보내기...**  명령 경우 합니다 **자동으로 템플릿을 Visual Studio로 가져오기** 마법사에서 옵션을 선택 합니다.
 
 기타 (비 사용자) 위치에 대 한 서식 파일의 다른 특성과 위치를 지정 하는 manifest(.vstman) 파일을 포함 해야 합니다. .Vstman 파일은 템플릿에 사용.vstemplate 파일과 함께 생성 됩니다. .Vsix를 사용 하 여 확장을 설치 하면 Visual Studio 2017에서 확장을 다시 컴파일하여이 수행할 수 있습니다. 하지만.msi를 사용 하는 경우 수동으로 변경 해야 합니다. 이러한 변경을 수행 하기 위해 필요한 목록은 참조 하세요. **와 함께 설치 된 확장에 대 한 업그레이드를 합니다. MSI** 나중에이 페이지입니다.
 
@@ -34,7 +35,7 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 
 1. Visual Studio 2017에서 솔루션을 엽니다. 코드를 업그레이드 하 라는 메시지가 표시 됩니다. **확인**을 클릭합니다.
 
-2. 업그레이드를 완료 한 후에 설치 대상 버전을 변경 하는 것이 해야 합니다. VSIX 프로젝트에서 source.extension.vsixmanifest 파일을 열고 선택 합니다 **설치 대상** 탭 합니다. 경우는 **버전 범위** 필드가 **[14.0]**, 클릭 **편집** Visual Studio 2017을 포함 하도록 변경 합니다. 로를 설정 하는 예를 들어 **[14.0,15.0]** 또는 Visual Studio 2015 또는 Visual Studio 2017 확장을 설치 하려면 **[15.0]** 방금 Visual Studio 2017을 설치 합니다.
+2. 업그레이드를 완료 한 후에 설치 대상 버전을 변경 하는 것이 해야 합니다. VSIX 프로젝트에서 source.extension.vsixmanifest 파일을 열고 선택 합니다 **설치 대상** 탭 합니다. 경우는 **버전 범위** 필드가 **[14.0]** , 클릭 **편집** Visual Studio 2017을 포함 하도록 변경 합니다. 로를 설정 하는 예를 들어 **[14.0,15.0]** 또는 Visual Studio 2015 또는 Visual Studio 2017 확장을 설치 하려면 **[15.0]** 방금 Visual Studio 2017을 설치 합니다.
 
 3. 코드를 다시 컴파일해야 합니다.
 

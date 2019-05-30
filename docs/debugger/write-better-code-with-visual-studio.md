@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6bfbcf9a63a01d391cbbc65067793d75d42899c1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8b34e23b1bc7972563d6d8d014ba0728dc637b34
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62901326"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262138"
 ---
 # <a name="debugging-techniques-and-tools-to-help-you-write-better-code"></a>디버깅 기술 및 더 나은 코드를 작성할 수 있도록 도구
 
@@ -294,7 +294,7 @@ catch (SerializationException)
     }
     ```
 
-* 알 수 없는 포함할 수 있는 함수 앱에서는 특별히 해당 외부 데이터 (예: 웹 요청)와 상호 작용, 예외에 대해 함수는 throw 가능성이 확인 하려면 설명서를 참조 합니다. 이 응용 프로그램을 디버깅 및 적절 한 오류 처리에 대 한 중요 한 정보를 수 있습니다.
+* 알 수 없는 포함할 수 있는 함수 앱에서 특히 외부 데이터 (예: 웹 요청)와 상호 작용, 예외에 대해 함수는 throw 가능성이 확인 하려면 설명서를 참조 합니다. 이 응용 프로그램을 디버깅 및 적절 한 오류 처리에 대 한 중요 한 정보를 수 있습니다.
 
 샘플 앱에 대 한 해결 합니다 `SerializationException` 에 `GetJsonData` 메서드를 변경 하 여 `4o` 에 `40`.
 

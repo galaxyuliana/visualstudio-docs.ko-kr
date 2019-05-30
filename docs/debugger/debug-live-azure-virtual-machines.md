@@ -1,5 +1,5 @@
 ---
-title: 라이브 ASP.NET Azure Virtual Machines 및 Azure Virtual Machine Scale Sets 디버그
+title: 라이브 ASP.NET Azure virtual machines를 디버그 및 확장 집합
 description: 스냅숏 디버거로 snappoint를 설정하고 스냅숏을 보는 방법을 알아봅니다.
 ms.custom: ''
 ms.date: 02/06/2019
@@ -13,12 +13,12 @@ monikerRange: '>= vs-2019'
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: 2880b8bee25a79f5f182043ffed5c50c4512d033
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 38cf8b5c2af174b026c507fc5c668f826707adf3
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63399429"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263352"
 ---
 # <a name="debug-live-aspnet-apps-on-azure-virtual-machines-and-azure-virtual-machine-scale-sets-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용하여 Azure Virtual Machines 및 Azure Virtual Machine Scale Sets의 라이브 ASP.NET 앱 디버그
 

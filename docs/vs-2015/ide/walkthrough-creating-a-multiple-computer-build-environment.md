@@ -12,12 +12,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7969ca0a5900ae08d1aac6634f961d45bbfac564
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: a33911ffe8c28dd84166e3e16ac6b7f0f48f583c
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65674161"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263022"
 ---
 # <a name="walkthrough-creating-a-multiple-computer-build-environment"></a>연습: 여러 컴퓨터 빌드 환경 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -197,7 +197,7 @@ ms.locfileid: "65674161"
   
    - \Microsoft.VC110.OPENMP\vcomp110.dll  
   
-5. [디버그 실행 파일을 실행하기 위한 테스트 컴퓨터 준비](https://msdn.microsoft.com/library/f0400989-cc2e-4dce-9788-6bdbe91c6f5a)에 설명된 대로 다음 파일만 \Debug_NonRedist\x86\ 또는 \Debug_NonRedist\x64\ 폴더에서 빌드 컴퓨터로 복사됩니다. 다른 파일은 복사할 수 없습니다.  
+5. [디버그 실행 파일을 실행하기 위한 테스트 컴퓨터 준비](/cpp/windows/preparing-a-test-machine-to-run-a-debug-executable)에 설명된 대로 다음 파일만 \Debug_NonRedist\x86\ 또는 \Debug_NonRedist\x64\ 폴더에서 빌드 컴퓨터로 복사됩니다. 다른 파일은 복사할 수 없습니다.  
   
    - \Microsoft.VC110.DebugCRT\msvcp110d.dll  
   
@@ -424,5 +424,5 @@ ms.locfileid: "65674161"
          네이티브 64비트 빌드의 경우 64비트 MSBuild를 가리킵니다.  
   
 ## <a name="see-also"></a>참고 항목  
- [디버그 실행 파일을 실행하기 위한 테스트 컴퓨터 준비](https://msdn.microsoft.com/library/f0400989-cc2e-4dce-9788-6bdbe91c6f5a)   
+ [디버그 실행 파일을 실행하기 위한 테스트 컴퓨터 준비](/cpp/windows/preparing-a-test-machine-to-run-a-debug-executable)   
  [명령줄 참조](../msbuild/msbuild-command-line-reference.md)

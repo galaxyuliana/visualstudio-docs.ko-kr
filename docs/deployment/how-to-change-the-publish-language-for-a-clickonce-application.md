@@ -1,5 +1,5 @@
 ---
-title: '방법: 변경 된 ClickOnce 응용 프로그램에 대 한 게시 되는 언어 | Microsoft Docs'
+title: ClickOnce 응용 프로그램에 대 한 언어를 게시 하는 변경
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 88114080b8de02b3aaba52b0a48fd09d58ec5818
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e80a65b65d75d925decdf60b633a7d51ea9bafce
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63406650"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263170"
 ---
 # <a name="how-to-change-the-publish-language-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 게시 언어 변경
 

@@ -1,5 +1,5 @@
 ---
-title: '방법: ClickOnce 배포 시에서 개별 필수 구성 요소에 대 한 지원 URL 지정 | Microsoft Docs'
+title: ClickOnce 배포의 필수 구성 요소에 대 한 지원 URL
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6f79aec7a8882f87bc98f822d4fb4f0c1961bd69
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: cf115ad6ce8fb589e9b1c617f40053cf95af2b9c
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62928600"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263213"
 ---
 # <a name="how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment"></a>방법: ClickOnce 배포 시 개별 필수 구성 요소에 대한 지원 URL 지정
 A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 필수 구성 요소에 대 한 클라이언트 컴퓨터에서 사용할 수 있어야 하는 다양 한 테스트 수를 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 실행 합니다. 이러한 종속성의 필수 최소 버전을 포함 합니다 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], 운영 체제와 전역 어셈블리 캐시 (GAC)에 미리 설치 해야 하는 모든 어셈블리의 버전입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]그러나 없습니다 스스로 설치 필수 구성이 요소 중 하나; 필수 구성 요소가 없는 경우 단순히 설치를 중지 하 고 설치에 실패 한 이유를 설명 하는 대화 상자를 표시 합니다.

@@ -1,5 +1,5 @@
 ---
-title: '방법: ClickOnce 배포 오류에 대 한 사용자 지정 로그 파일 위치 설정 | Microsoft Docs'
+title: ClickOnce 배포 오류에 대 한 사용자 지정 로그 파일 위치 설정
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9e247034b22b7fef8e83235cc6666d282720a219
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: cbfdbb73d7b7cc1e3dc92e59a1c0dd8d5093269e
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63406703"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263222"
 ---
 # <a name="how-to-set-a-custom-log-file-location-for-clickonce-deployment-errors"></a>방법: ClickOnce 배포 오류에 대한 사용자 지정 로그 파일 위치 설정
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 모든 배포에 대 한 활성화 로그 파일을 유지 관리합니다. 이러한 로그 문서를 설치 하 고 초기화 하는 모든 오류를 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 합니다. 기본적으로 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 각 배포 활성화에 대해 하나의 로그 파일을 만듭니다. 이러한 로그 파일 임시 인터넷 파일 폴더에 저장 합니다. 배포에 대 한 로그 파일 활성화 오류가 발생 하 고 사용자가 클릭할 때 사용자에 게 표시 됩니다 **세부 정보** 결과 오류 대화 상자에서.

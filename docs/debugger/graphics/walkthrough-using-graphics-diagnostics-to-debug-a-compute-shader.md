@@ -1,5 +1,5 @@
 ---
-title: '연습: 그래픽 진단을 사용 하 여 계산 셰이더를 디버깅 하려면 | Microsoft Docs'
+title: 그래픽 진단을 사용 하 여 계산 셰이더 디버깅
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 69287456-644b-4aff-bd03-b1bbb2abb82a
@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2ffdbee23ff363f7c0f1e843c30f09551f38ab3b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 19ae8472aaafbad1a04485ff2e3a2637f345bc00
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62849169"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262858"
 ---
 # <a name="walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader"></a>연습: 그래픽 진단을 사용하여 컴퓨팅 셰이더 디버그
 이 연습에서는 Visual Studio 그래픽 진단 도구를 사용하여 잘못된 결과를 생성하는 컴퓨팅 셰이더를 조사하는 방법을 보여 줍니다.

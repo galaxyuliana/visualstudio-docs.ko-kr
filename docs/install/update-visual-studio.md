@@ -15,12 +15,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a64256f44e9de5bbfd9e65dd6410b9911aaf5075
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7e1fbc0bf5412888f246a1f396b146780013b6c6
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62997798"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263060"
 ---
 # <a name="update-visual-studio-to-the-most-recent-release"></a>Visual Studio를 최신 릴리스 버전으로 업데이트
 
@@ -28,7 +28,7 @@ ms.locfileid: "62997798"
 
 항상 최신 기능, 수정 사항 및 개선 사항을 얻을 수 있도록 [최신 버전](/visualstudio/releasenotes/vs2017-relnotes/)의 Visual Studio 2017로 업데이트하는 것이 좋습니다.
 
-그리고 다음 버전을 시도해 보려면 Visual Studio 2019의 [릴리스 후보](//visualstudio/releases/2019/release-notes/)도 다운로드하세요.
+그리고 다음 버전을 시도해 보려면 Visual Studio 2019의 [릴리스 후보](/visualstudio/releases/2019/release-notes/)도 다운로드하세요.
 
 > [!IMPORTANT]
 > Visual Studio를 설치, 업데이트 또는 수정하려면 관리 권한이 있는 계정으로 로그온해야 합니다. 자세한 내용은 [사용자 권한 및 Visual Studio](../ide/user-permissions-and-visual-studio.md)를 참조하세요.

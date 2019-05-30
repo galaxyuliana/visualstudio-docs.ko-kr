@@ -18,17 +18,17 @@ caps.latest.revision: 34
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 17b906f721bea6e4183575eced962e9ed830cda1
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 592bf358c24bee146290e8b3a00e28a0870f452d
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65675452"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263797"
 ---
 # <a name="clickonce-security-and-deployment"></a>ClickOnce 보안 및 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 게시 및 Visual Basic 및 Visual C#을 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 합니다. 시각적 개체를 배포 하는 방법은 C++ 응용 프로그램을 참조 하세요 [시각적 개체에 대 한 ClickOnce 배포 C++ 응용 프로그램](https://msdn.microsoft.com/library/9988c546-0936-452c-932f-9c76daa42157)합니다.  
+[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 게시 및 Visual Basic 및 Visual C#을 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 합니다. 시각적 개체를 배포 하는 방법은 C++ 응용 프로그램을 참조 하세요 [시각적 개체에 대 한 ClickOnce 배포 C++ 응용 프로그램](/cpp/windows/clickonce-deployment-for-visual-cpp-applications)합니다.  
   
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포는 배포에서 세 가지 주요 문제를 극복 합니다.  
   

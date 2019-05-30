@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.technology: vs-ide-mobile
 ms.workload:
 - apexprodleads
-ms.openlocfilehash: d9c50abb749829843c7794688b94bf84f5bc1fb3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 126e7058a16738d38ea78c2e71cb5476d3718a93
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62824921"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261100"
 ---
 # <a name="mobile-development-with-c-documentation"></a>C++을 사용한 모바일 개발 설명서
 
@@ -104,7 +104,7 @@ Visual Studio에서 iOS, Android 및 Windows 디바이스용 네이티브 C++ �
                 <div class="card">
                     <div class="cardText">
                         <h3>플랫폼</h3>
-                        <p><a href="/cpp/windows/universal-windows-apps-cpp">UWP(유니버설 Windows 플랫폼) 설명서</a></p>
+                        <p><a href="/cpp/cppcx/universal-windows-apps-cpp">UWP(유니버설 Windows 플랫폼) 설명서</a></p>
                         <p><a href="https://developer.apple.com/reference">iOS API 설명서</a></p>
                         <p><a href="https://developer.android.com/guide/index.html">Android API 설명서</a></p>
                     </div>

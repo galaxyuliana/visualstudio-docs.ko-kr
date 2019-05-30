@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a684002360f59d33e61c40261afc1bfd515511e3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9fd0035ca0764f3673e07b4e3289b87773c8349b
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63408515"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261329"
 ---
 # <a name="microsoft-visual-studio-debugger-exception-thrown-dialog-box"></a>Microsoft Visual Studio Debugger(예외 throw) 대화 상자
 프로그램에 예외가 발생하면 나타나는 대화 상자입니다. 이 대화 상자는 throw된 예외의 종류를 보고합니다. 코드를 통해 이 예외를 처리해야 합니다. 선택할 수 있는 예외 처리 옵션은 다음과 같습니다.
@@ -44,4 +44,4 @@ ms.locfileid: "63408515"
 ## <a name="see-also"></a>참고 항목
 - [디버거를 사용한 예외 관리](../debugger/managing-exceptions-with-the-debugger.md)
 - [예외에 대한 모범 사례](/dotnet/standard/exceptions/best-practices-for-exceptions)
-- [예외 처리](/cpp/windows/exception-handling-cpp-component-extensions)
+- [예외 처리](/cpp/extensions/exception-handling-cpp-component-extensions)

@@ -1,5 +1,5 @@
 ---
-title: '방법: _Analysis_assume을 사용하여 추가 코드 정보 지정'
+title: 코드 분석 힌트를 사용 하 여 _Analysis_assume
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -12,12 +12,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - multiple
-ms.openlocfilehash: 25ce2a97acd248e546fdfab1a1b5c3f22e085f0c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 09db0ff784c7d8fa5a9889487f6090ad9afbfea0
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63403114"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66260865"
 ---
 # <a name="how-to-specify-additional-code-information-by-using-analysisassume"></a>방법: _Analysis_assume을 사용하여 추가 코드 정보 지정
 C 용 코드 분석 도구에 대 한 힌트를 제공할 수 있습니다 /C++ 분석을 처리 하 고 경고를 줄이는 데 도움이 되는 코드입니다. 추가 정보를 제공 하려면 다음 함수를 사용 합니다.
