@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - language services, migrating
 ms.assetid: e0f666a0-92a7-4f9c-ba79-d05b13fb7f11
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7272de0eccf77aff3956a3371e206cd1cbb2141a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 43e4a119ae84f7b86b9b1a54f1f55dc2ffa78b15
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63418322"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66349264"
 ---
 # <a name="migrating-a-legacy-language-service"></a>레거시 언어 서비스 마이그레이션
 프로젝트를 업데이트 하 고 source.extension.vsixmanifest 파일을 프로젝트에 추가 하 여 Visual Studio의 이후 버전으로는 레거시 언어 서비스를 마이그레이션할 수 있습니다. Visual Studio 편집기를 조정 하는 언어 서비스 자체 이전과 같이 작동 계속 됩니다.
@@ -57,7 +57,7 @@ ms.locfileid: "63418322"
 
     - 에 **응용 프로그램** 탭에서 변경 **대상 프레임 워크** 하 **4.6.1**합니다.
 
-    - 에 **디버그** 탭의 **시작 외부 프로그램** 상자에 입력  **\<Visual Studio 설치 경로 > \Common7\IDE\devenv.exe.**.
+    - 에 **디버그** 탭의 **시작 외부 프로그램** 상자에 입력  **\<Visual Studio 설치 경로 > \Common7\IDE\devenv.exe.** .
 
          에 **명령줄 인수** 상자에 입력 /**rootsuffix Exp**합니다.
 

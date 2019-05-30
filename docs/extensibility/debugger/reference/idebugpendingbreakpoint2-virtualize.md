@@ -8,20 +8,20 @@ helpviewer_keywords:
 - Virtualize method
 - IDebugPendingBreakpoint2::Virtualize method
 ms.assetid: 58c8e9a5-4494-47c2-bddb-56f628da6a2d
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: ae4ad29e199012f9a311f3e702580dae13143750
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: f805c00e2a8cc595477348ba9f3dd617b61a1dfd
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66209415"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66339058"
 ---
 # <a name="idebugpendingbreakpoint2virtualize"></a>IDebugPendingBreakpoint2::Virtualize
 중단점 보류 중인이 가상화 된 상태를 토글합니다. 보류 중인 중단점은 가상화 된 경우 새 코드를 프로그램에 로드 될 때마다 사용자에 게 바인딩하지 디버그 엔진 시도가입니다.

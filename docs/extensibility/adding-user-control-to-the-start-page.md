@@ -7,18 +7,18 @@ helpviewer_keywords:
 - custom start page
 - start page assembly
 ms.assetid: 5b7997db-af6f-4fa9-a128-bceb42bddaf1
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 5a5e8d752122432e27d7b6845f6d144856746387
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c662374b8ed0abc7e1c178fb4ff07d5033de8a54
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62891817"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66352299"
 ---
 # <a name="add-user-control-to-the-start-page"></a>시작 페이지에 사용자 정의 컨트롤 추가
 
@@ -179,7 +179,7 @@ WPF 사용자 컨트롤을 구현 하려면 XAML의 사용자 인터페이스 (U
 
 1. XAML 파일에 및 지원 텍스트 파일 또는 태그 파일에 복사 합니다 *%USERPROFILE%\My Documents\Visual Studio 2015\StartPages\\*  폴더입니다.
 
-2. 시작 페이지에서 모든 컨트롤 또는 Visual Studio가 설치 되지 않은 어셈블리의 형식을 참조 하는 경우 어셈블리를 복사한 다음에 붙여 넣습니다 _Visual Studio 설치 폴더_**\Common7\IDE\ PrivateAssemblies\\**합니다.
+2. 시작 페이지에서 모든 컨트롤 또는 Visual Studio가 설치 되지 않은 어셈블리의 형식을 참조 하는 경우 어셈블리를 복사한 다음에 붙여 넣습니다 _Visual Studio 설치 폴더_ **\Common7\IDE\ PrivateAssemblies\\** 합니다.
 
 3. Visual Studio 명령 프롬프트에서 입력 **devenv /rootsuffix Exp** Visual Studio의 실험적 인스턴스를 엽니다.
 

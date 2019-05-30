@@ -5,19 +5,19 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - text markers
 ms.assetid: 937a0b19-1216-45d5-a7ad-4fe1d6f73097
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b443c4530a71897d11731c023af57215eac8706a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b6f3662b5107d517f19b4803a37de4ebcf235bc9
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434197"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66353480"
 ---
-# <a name="using-text-markers-with-the-legacy-api"></a>텍스트 마커를 사용 하 여 레거시 API를 사용 하 여
+# <a name="using-text-markers-with-the-legacy-api"></a>레거시 API에서 텍스트 표식 사용
 텍스트 마커 부동 표시에 영향을 줄 수 있는 버퍼의 텍스트 범위 및 텍스트 영역의 동작은 합니다. 표식은 중단점, 책갈피, 물결 무늬 밑줄 및 읽기 전용 영역을 포함 합니다. 텍스트 마커 구문 색 지정 기본적으로 다릅니다. 구문 색 지정은 텍스트 영역을 사용 하 여 연결 된 언어 구문의 통신 하는 빠른 방법은 합니다. 속도가 중요 한 Windows 화면에는 연결 하는 경우에 일반적으로 구문 색 지정 요청 됩니다. 구문 색 지정만 텍스트의 색을 변경합니다. 텍스트 마커는 다른 여러 텍스트 속성을 변경할 수 있습니다. 텍스트 마커 "float"를 업데이트 하 고 특별 한 동작을 적용할 수의 색을 지정 합니다.
 
  텍스트 마커를 사용 하 여 연결 된 성능 오버 헤드 때문에 텍스트 버퍼에 대 한 많은 표식을 만들지 마십시오. 각 표식에는 사용자 편집 하는 버퍼의 내용이 될 때마다 업데이트 됩니다.
