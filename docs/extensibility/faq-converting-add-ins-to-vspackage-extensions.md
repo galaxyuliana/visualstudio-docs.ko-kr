@@ -3,17 +3,17 @@ title: 'FAQ: 추가 기능을 VSPackage 확장으로 변환 | Microsoft Docs'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 3a01d333-6e31-423f-ae06-5091a4fcb7a9
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4678d79c7d2b1e19ab96502778ce51f8a3226010
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9e40d9b7ca3d942a78ef9045bc7aaa5d0f7ea74d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63417184"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66342648"
 ---
 # <a name="faq-converting-add-ins-to-vspackage-extensions"></a>FAQ: 추가 기능을 VSPackage 확장으로 변환
 추가 기능은 이제 사용되지 않습니다. 새 Visual Studio 확장을 하려면 VSIX 확장 프로그램을 만드는 해야 합니다. 다음은 Visual Studio 추가 기능에서 VSIX 확장을 변환 하는 방법에 대 한 일부 자주 묻는 질문에 대 한 답변입니다.

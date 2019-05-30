@@ -3,17 +3,17 @@ title: 유니버설 Windows 프로젝트 관리 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 47926aa1-3b41-410d-bca8-f77fc950cbe7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 28f6cf6424799cfbe68734d8fa077eea3c2b2c1a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 39ab595bd607f8530f899ca803a0dfeaa5178542
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62907045"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66340554"
 ---
 # <a name="manage-universal-windows-projects"></a>유니버설 Windows 프로젝트 관리
 
@@ -293,7 +293,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
     output.OutputStringThreadSafe("set active project: " + platformCaption +'\n');
     ```
 
-16. 이제 사용해 보세요. F5 키를 눌러 실험적 인스턴스를 시작 합니다. 실험적 인스턴스에서 C# 유니버설 허브 앱 프로젝트를 만듭니다 (에 **새 프로젝트** 대화 상자에서 **Visual C#** > **Windows**  >   **Windows 8** > **유니버설** > **허브 앱**). 솔루션이 로드 된 후 이동 합니다 **도구** 메뉴를 클릭 **TestUniversalProject 호출**, 다음 텍스트를 확인 하 고는 **출력** 창. 다음과 같은 정보가 표시됩니다.
+16. 이제 사용해 보세요. F5 키를 눌러 실험적 인스턴스를 시작 합니다. 실험적 인스턴스에서 C# 유니버설 허브 앱 프로젝트를 만듭니다 (에 **새 프로젝트** 대화 상자에서 **Visual C#**  > **Windows**  >   **Windows 8** > **유니버설** > **허브 앱**). 솔루션이 로드 된 후 이동 합니다 **도구** 메뉴를 클릭 **TestUniversalProject 호출**, 다음 텍스트를 확인 하 고는 **출력** 창. 다음과 같은 정보가 표시됩니다.
 
     ```
     Found shared project: HubApp.Shared

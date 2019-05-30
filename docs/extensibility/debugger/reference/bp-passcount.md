@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_PASSCOUNT structure
 ms.assetid: 791ac175-b897-4c70-873e-240da7e0ac89
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 4ef8b2d927fab7637d92ac8061b3580c16db96e3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 3fd1ab73a20b319af6c9464062113f4e8f2d64fa
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56710918"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66353017"
 ---
 # <a name="bppasscount"></a>BP_PASSCOUNT
 조건부 중단점을 발생 횟수 및 조건을 설명 합니다.
@@ -39,9 +42,11 @@ public struct BP_PASSCOUNT {
 ```
 
 ## <a name="members"></a>멤버
-`dwPassCount` 이 발생 하기 전에 중단점을 통해 전달 횟수입니다.
+`dwPassCount`\
+이 발생 하기 전에 중단점을 통해 전달 횟수입니다.
 
-`stylePassCount` 값을 [BP_PASSCOUNT_STYLE](../../../extensibility/debugger/reference/bp-passcount-style.md) 중단점의 스타일을 지정 하는 열거형 전달할 수 있습니다.
+`stylePassCount`\
+값을 [BP_PASSCOUNT_STYLE](../../../extensibility/debugger/reference/bp-passcount-style.md) 중단점의 스타일을 지정 하는 열거형 전달할 수 있습니다.
 
 ## <a name="remarks"></a>설명
 이 구조체의 멤버인 합니다 [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md) 구조입니다.
@@ -55,7 +60,7 @@ public struct BP_PASSCOUNT {
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)
 - [SetPassCount](../../../extensibility/debugger/reference/idebugboundbreakpoint2-setpasscount.md)

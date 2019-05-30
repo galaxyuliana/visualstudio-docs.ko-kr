@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - project types [Visual Studio SDK]
 ms.assetid: 09991589-2300-430e-b6a4-7f2b95fe676f
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 16031cbe5152c49c56b4c151e85b01ecf2f91a21
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bc60ae68f008cefd468af8a688e9aae9241ca3be
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62859577"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318965"
 ---
 # <a name="project-type-essentials"></a>프로젝트 형식 필수 항목
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 같은 언어에 대 한 여러 프로젝트 유형이 포함 되어 있습니다 [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] 또는 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]합니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 또한 사용자 고유의 프로젝트 형식을 만들 수 있습니다.

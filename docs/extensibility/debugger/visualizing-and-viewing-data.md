@@ -6,17 +6,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], viewing data
 - debugging [Debugging SDK], visualizing data
 ms.assetid: 699dd0f5-7569-40b3-ade6-d0fe53e832bc
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 852616ac77096a5b31078d64051f67f6cbb3ecb6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8b29d1135df370232324edec9d1bd4a23397b17e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62912831"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66348347"
 ---
 # <a name="visualizing-and-viewing-data"></a>데이터 시각화 및 보기
 개발자에 게 신속 하 게 의미 있는 방식으로 시각화 도우미 및 데이터를 제공 하는 사용자 지정 뷰어를 입력 합니다. 식 계산기 (EE) 수 뿐만 아니라 타사 형식 시각화 도우미를 지원 뿐만 아니라 자체 사용자 지정 뷰어를 제공 합니다.

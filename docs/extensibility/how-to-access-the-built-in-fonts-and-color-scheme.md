@@ -7,17 +7,17 @@ helpviewer_keywords:
 - font and color control [Visual Studio SDK], categories
 - colors, accessing built-in schemes
 ms.assetid: 6905845e-e88e-4805-adcf-21da39108ec7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 71797d3e080ad4fbbb1256914e98bc3a62f9fb01
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 2abc6606d33e4b59faeb1838bcb173fd51a28616
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415521"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66340983"
 ---
 # <a name="how-to-access-the-built-in-fonts-and-color-ccheme"></a>방법: 기본 제공 글꼴을 액세스 및 ccheme 색
 Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연결 된 글꼴 및 색 구성표를 있습니다. 이 체계를 통해 액세스할 수 있습니다는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> 인터페이스입니다.
@@ -41,7 +41,7 @@ Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연�
     > [!NOTE]
     > 사용 하 여 글꼴 및 색 데이터를 검색 하는 경우는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> 다른 인터페이스를 Vspackage를 사용 하 여이 GUID 기본 제공 정보를 참조 합니다.
 
-2. 범주 이름 VSPackage의 리소스 내에서 문자열 테이블에 추가 해야 합니다 (*.rc*) 파일을 IDE에서 표시 하는 경우 필요에 따라 지역화 될 수 있도록 합니다.
+2. 범주 이름 VSPackage의 리소스 내에서 문자열 테이블에 추가 해야 합니다 ( *.rc*) 파일을 IDE에서 표시 하는 경우 필요에 따라 지역화 될 수 있도록 합니다.
 
      자세한 내용은 [추가 또는 삭제 하는 문자열](/cpp/windows/adding-or-deleting-a-string)합니다.
 
@@ -49,7 +49,7 @@ Visual Studio 통합된 개발 환경 (IDE) 편집기 창과 사용 하 여 연�
 
 1. 특수 한 유형의 다음 위치에 레지스트리 항목 범주를 생성 합니다.
 
-     *[HKLM\SOFTWARE\Microsoft \Visual Studio\\\<Visual Studio version>\FontAndColors\\\<Category>*]
+     *[HKLM\SOFTWARE\Microsoft \Visual Studio\\\<Visual Studio version>\FontAndColors\\\<Category>* ]
 
      *\<범주 >* 범주의 지역화 되지 않은 이름입니다.
 

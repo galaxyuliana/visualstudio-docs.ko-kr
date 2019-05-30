@@ -9,17 +9,17 @@ helpviewer_keywords:
 - Add New Project dialog box
 - registry, Add New Project dialog box
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bd61d4bf97ce25d291268856a3e85729c98c1312
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 84beaf97bda8d94872be22c6f5d247a746d1ecd3
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62859481"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66319506"
 ---
 # <a name="registering-project-and-item-templates"></a>프로젝트 템플릿 및 항목 템플릿 등록
 프로젝트 형식에는 해당 프로젝트 및 프로젝트 항목 템플릿을 위치한 디렉터리를 등록 해야 합니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 에 표시할 작업을 결정 하 여 프로젝트 형식과 연결 된 등록 정보를 사용 하는 **새 프로젝트 추가** 하 고 **새 항목 추가** 대화 상자.
@@ -117,7 +117,8 @@ ms.locfileid: "62859481"
  \WizardFiles
 
 ## <a name="see-also"></a>참고 항목
+
 - [프로젝트 및 프로젝트 항목 템플릿 추가](../../extensibility/internals/adding-project-and-project-item-templates.md)
 - [마법사](../../extensibility/internals/wizards.md)
-- [응용 프로그램 지역화](../../ide/localizing-applications.md)
+- [응용 프로그램 지역화](../../ide/globalizing-and-localizing-applications.md)
 - [일반적으로 프로젝트를 확장하는 데 사용되는 개체에 대한 CATID](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)

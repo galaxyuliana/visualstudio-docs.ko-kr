@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], design decisions
 ms.assetid: 5f60ec1a-5a74-4362-8293-817a4dd73872
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3e17e5a88b958c1361e7f8b3db70d7599f44f766
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bb09884511c8a2070e49e12d38084c12a2907b19
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62858992"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66322572"
 ---
 # <a name="source-control-design-decisions"></a>소스 제어 디자인 결정
 소스 제어를 구현 하는 경우 다음 디자인 결정 사항은 프로젝트에 대 한 고려 되어야 합니다.

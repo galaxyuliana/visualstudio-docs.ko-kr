@@ -7,17 +7,17 @@ helpviewer_keywords:
 - code snippets, supporting in language services [managed package framework]
 - language services [managed package framework], supporting code snippets
 ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 08c30f723c6dbdb7359b1fd1d7648a38e71ab161
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: dfa3bfa86d39bcd430d96c3d71f192e9a69a9400
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63428813"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66322421"
 ---
 # <a name="support-for-code-snippets-in-a-legacy-language-service"></a>레거시 언어 서비스의 코드 조각 지원
 코드 조각은 소스 파일에 삽입 되는 코드입니다. 코드 조각 자체는 XML 기반 서식 파일 필드 집합이 포함 된 경우 이러한 필드에는 코드 조각이 삽입 되 고 코드 조각 삽입 되는 컨텍스트에 따라 다른 값을 가질 수 후 강조 표시 됩니다. 코드 조각을 삽입 한 후에 즉시 코드 조각 언어 서비스에 서식을 지정할 수 있습니다.
@@ -50,7 +50,7 @@ ms.locfileid: "63428813"
 
  코드 조각 템플릿 파일이 저장 되어 있는 두 위치는 일반적으로: 언어를 설치 하는 1) 위치 하 고 2) 사용자의 폴더에 있습니다. 이러한 위치는 레지스트리에 추가 되므로 Visual Studio **코드 조각 관리자** 조각을 찾을 수 있습니다. 사용자의 폴더는 사용자가 만든 조각을 저장 됩니다.
 
- 설치 된 코드 조각 템플릿 파일에 대 한 일반적인 폴더 레이아웃은 다음과 같습니다: *[InstallRoot]*\\ *[TestLanguage]* \Snippets\\ *[LCID*\Snippets 합니다.
+ 설치 된 코드 조각 템플릿 파일에 대 한 일반적인 폴더 레이아웃은 다음과 같습니다: *[InstallRoot]* \\ *[TestLanguage]* \Snippets\\ *[LCID*\Snippets 합니다.
 
  *[InstallRoot]*  언어에 설치 된 폴더입니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "63428813"
 
  *[LCID]*  로캘 ID입니다. 이 어떻게 지역화 된 버전의 코드 조각 저장 됩니다. 예를 들어 영어에 대 한 로캘 ID가 1033 이면 따라서 *[LCID]* 1033으로 바뀝니다.
 
- 추가 파일을 제공 해야 하는 인덱스 파일이 며, 일반적으로 SnippetsIndex.xml 또는 ExpansionsIndex.xml (.xml으로 끝나는 유효한 파일을 사용할 수 있음)를 호출 하며 이 파일은 일반적으로에 저장 합니다 *[InstallRoot]*\\ *[TestLanguage]* 폴더 코드 조각 폴더와 언어 ID의 정확한 위치 및 언어의 GUID를 지정 합니다. 코드 조각을 사용 하는 서비스입니다. 인덱스 파일의 정확한 경로 "레지스트리 항목 설치"의 뒷부분에 설명 된 대로 레지스트리에 배치 됩니다. SnippetsIndex.xml 파일의 예는 다음과 같습니다.
+ 추가 파일을 제공 해야 하는 인덱스 파일이 며, 일반적으로 SnippetsIndex.xml 또는 ExpansionsIndex.xml (.xml으로 끝나는 유효한 파일을 사용할 수 있음)를 호출 하며 이 파일은 일반적으로에 저장 합니다 *[InstallRoot]* \\ *[TestLanguage]* 폴더 코드 조각 폴더와 언어 ID의 정확한 위치 및 언어의 GUID를 지정 합니다. 코드 조각을 사용 하는 서비스입니다. 인덱스 파일의 정확한 경로 "레지스트리 항목 설치"의 뒷부분에 설명 된 대로 레지스트리에 배치 됩니다. SnippetsIndex.xml 파일의 예는 다음과 같습니다.
 
 ```
 <?xml version="1.0" encoding="utf-8" ?>

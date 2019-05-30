@@ -6,17 +6,17 @@ helpviewer_keywords:
 - font and color control [Visual Studio SDK], categories
 - custom categories
 ms.assetid: 99311a93-d642-4344-bbf9-ff6e7fa5bf7f
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 124b1a1f5e6bbf0f07bf8533940820d4f5ca9247
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4eeb8af06ee4e3285e15afbb3571fb2845adef98
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63418844"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66321396"
 ---
 # <a name="implement-custom-categories-and-display-items"></a>사용자 지정 범주를 구현 하 고 항목을 표시
 VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 사용자 지정 범주 및 표시 항목을 통해 통합된 개발 환경 (IDE)입니다.
@@ -45,7 +45,7 @@ VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!
 
 ## <a name="to-create-or-identify-categories"></a>만들거나 범주를 식별 합니다.
 
-- 특수 한 유형의 범주 아래에 레지스트리 항목을 생성 *[HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio 버전 >*\FontAndColors\\ `<Category>`]*
+- 특수 한 유형의 범주 아래에 레지스트리 항목을 생성 *[HKLM\SOFTWARE\Microsoft \Visual Studio\\* \<Visual Studio 버전 > *\FontAndColors\\ `<Category>`]*
 
    *\<범주 >* 범주의 지역화 되지 않은 이름입니다.
 
@@ -60,7 +60,7 @@ VSPackage를 해당 텍스트의 색 및 글꼴의 제어를 제공할 수는 [!
 
 ## <a name="to-create-or-identify-groups"></a>그룹을 만들거나 식별 하려면
 
-- 특수 한 유형의 범주 아래에 레지스트리 항목을 생성 *[HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio 버전 >*\FontAndColors\\*  \<그룹 >*]*
+- 특수 한 유형의 범주 아래에 레지스트리 항목을 생성 *[HKLM\SOFTWARE\Microsoft \Visual Studio\\* \<Visual Studio 버전 > *\FontAndColors\\*  \<그룹 > *]*
 
    *\<그룹 >* 그룹의 지역화 되지 않은 이름입니다.
 

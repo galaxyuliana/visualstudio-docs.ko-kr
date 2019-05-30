@@ -3,17 +3,17 @@ title: Hello World 확장 자습서 | Microsoft Docs
 ms.date: 03/14/2019
 ms.topic: conceptual
 ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3beedce039d1c093b5dfebce07b09d7d3a5795dc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4c3bbafcf138c60b65940bcee73c74f56cf6e2fd
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62912310"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66342857"
 ---
 # <a name="create-your-first-extension-hello-world"></a>첫 번째 확장을 만듭니다. Hello World
 
@@ -156,7 +156,7 @@ HelloWorld 프로젝트에 표시 됩니다 **솔루션 탐색기**합니다.
 
 ::: moniker-end
 
-2단계. 에 **도구** 메뉴의 **실험적 인스턴스**, 클릭 **Say Hello World!**.
+2단계. 에 **도구** 메뉴의 **실험적 인스턴스**, 클릭 **Say Hello World!** .
 
 ![최종 결과](media/hello-world-final-result.png)
 

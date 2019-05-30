@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - command handling
 ms.assetid: 78f67d92-77f7-45cb-ad75-6e3346379cc3
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1517410c58646bad2333db95b6f666937d890303
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 52c47e7dca715859408f1697fd31f1a1a2cf534b
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62926912"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66315561"
 ---
 # <a name="command-handling"></a>명령 처리
 편집기 새 명령을 정의할 수 있습니다. 명령은 상황에 맞는 메뉴 또는 도구 모음 메뉴에서 일반적으로 표시 됩니다.

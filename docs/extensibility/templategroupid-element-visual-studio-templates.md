@@ -9,17 +9,17 @@ helpviewer_keywords:
 - TemplateGroupID element [Visual Studio Templates]
 - <TemplateGroupID> element [Visual Studio Templates]
 ms.assetid: bce7b49a-90bc-4691-aff3-a87e209f6d83
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f9219b764125727509807cc6f2b9fdf6400e97f2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4b4e0ccae38b79cf8efb4b7b426fb65ae909c5d5
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62432150"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66316598"
 ---
 # <a name="templategroupid-element-visual-studio-templates"></a>TemplateGroupID 요소(Visual Studio 템플릿)
 항목 템플릿이 표시되는 프로젝트 종류를 지정합니다. 이 요소는 상당한 [ShowByDefault (Visual Studio 템플릿)](../extensibility/showbydefault-visual-studio-templates.md) 로 설정 된 `false`합니다. 때 [ShowByDefault (Visual Studio 템플릿)](../extensibility/showbydefault-visual-studio-templates.md) 로 설정 된 `true`, 항목 템플릿에 모든 프로젝트 형식에서 사용할 수 있습니다.
@@ -55,7 +55,7 @@ ms.locfileid: "62432150"
 ## <a name="remarks"></a>설명
  `TemplateGroupID`는 요소입니다.
 
- 값을 `TemplateGroupID` 프로젝트 시스템 등록 함께 사용 하는 요소 (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 번호 >* \Projects\\) 에 표시 되는 템플릿을 필터링 하는 **새 항목 추가** 대화 상자.
+ 값을 `TemplateGroupID` 프로젝트 시스템 등록 함께 사용 하는 요소 (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\ *\<버전 번호 >* \Projects\\) 에 표시 되는 템플릿을 필터링 하는 **새 항목 추가** 대화 상자.
 
 |Visual C++ 값|의미|
 |------------------------|-------------|

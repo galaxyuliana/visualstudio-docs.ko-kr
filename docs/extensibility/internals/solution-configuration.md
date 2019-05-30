@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - solution configurations
 ms.assetid: f22cfc75-3e31-4e0d-88a9-3ca99539203b
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e2683c3a2ea80aad341b7fab4fb35d13ea5379c7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: be7d265db26c31bbec3527ad2bb60e127b1dc9c0
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63429045"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66322629"
 ---
 # <a name="solution-configuration"></a>솔루션 구성
 솔루션 구성은 솔루션 수준 속성을 저장합니다. 동작을 직접 실행 합니다 **시작** (F5) 키 및 **빌드** 명령입니다. 기본적으로 이러한 명령을 빌드 및 디버그 구성을 시작 합니다. 두 명령 모두 솔루션 구성의 컨텍스트에서 실행 됩니다. 즉, 사용자가 시작 하 고 모든 활성 솔루션 설정을 통해 구성 된 빌드를 F5를 기대할 수 있습니다. 환경 빌드 및 실행에 연결할 때 프로젝트 대신 솔루션에 대 한 최적화 하도록 설계 되었습니다.

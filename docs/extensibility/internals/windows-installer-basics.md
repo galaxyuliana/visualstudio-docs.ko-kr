@@ -6,17 +6,17 @@ helpviewer_keywords:
 - Windows Installer, VSPackages
 - VSPackages, Windows Installer basics
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9978e12d5b4d94a5f860bfdd5d3dc90ae6fef3ad
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: fc52f846d7883d32f567df449a93c2626a710f81
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431023"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66323055"
 ---
 # <a name="windows-installer-basics"></a>Windows Installer 기본 사항
 Windows 설치 관리자를 설치 하 고 Windows 설치 관리자 구성 요소 (WICs 또는 구성 요소 라고도 함) 라는 단위로 이러한 작업을 수행 합니다. 응용 프로그램 또는 사용자의 컴퓨터에서 소프트웨어 제품 제거. 설치 및 Windows Installer를 사용 하 여 설정에 대 한 계산 참조의 기본 단위는 각 WIC를 식별 하는 GUID입니다.

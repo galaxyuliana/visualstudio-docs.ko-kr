@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - we site projects, templates
 ms.assetid: 37173c97-486b-4b3c-8ed3-cf5890c4de23
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fc5370db9c090fe5a7dcd9852d3df94e05f08e1f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8e9229a2614d2d797a5a2159df5b18a92850edbd
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62856859"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66323287"
 ---
 # <a name="web-site-support-templates"></a>웹 사이트 지원 템플릿
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 웹 사이트 프로젝트 및 항목 템플릿을 처음부터 새 웹 사이트 프로젝트와 항목을 만들 필요성을 제거 하 여 개발 프로세스를 가속화 하는 재사용 가능한 및 사용자 지정 가능한 웹 사이트 프로젝트 및 항목 스텁을 제공 합니다. 에 대 한 자세한 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 을 참조 하십시오 [프로젝트 및 항목 템플릿 만들기](../../ide/creating-project-and-item-templates.md)합니다.

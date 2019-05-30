@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio SDK, upgrading
 ms.assetid: 22491cdc-8f04-4e1c-8eb4-ff33798ec792
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1fc518281880923f92caf5c517254dc424b49b5c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9f8a2ec71db9b11ebcbe20ba780a0f142fc30a0d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415288"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318422"
 ---
 # <a name="how-to-migrate-extensibility-projects-to-visual-studio-2015"></a>방법: Visual Studio 2015로 확장성 프로젝트 마이그레이션
 확장 프로그램을 업그레이드 하는 방법을 다음과 같습니다.
@@ -35,7 +35,7 @@ ms.locfileid: "63415288"
 
 4. 솔루션을 빌드합니다. 빌드 파일에 배포 됩니다.
 
-     *%LOCALAPPDATA%\Microsoft\VisualStudio.14.0Exp\Extensions\\< 이름 작성\>\\< 프로젝트 이름\>\\< 프로젝트 버전\>\\*합니다.
+     *%LOCALAPPDATA%\Microsoft\VisualStudio.14.0Exp\Extensions\\< 이름 작성\>\\< 프로젝트 이름\>\\< 프로젝트 버전\>\\* 합니다.
 
 ### <a name="to-update-an-extensibility-project-to-nuget-vs-sdk-reference-assemblies"></a>확장성 프로젝트를 NuGet VS SDK 참조 어셈블리를 업데이트 하려면
 

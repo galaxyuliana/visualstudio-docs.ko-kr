@@ -6,17 +6,17 @@ helpviewer_keywords:
 - statement completion
 - language services, statement completion
 ms.assetid: 617439dc-3f0e-4e5f-b346-3e4e7fcf3c1b
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dcc86d8c43703b0274c5282c9f4f843f760e697c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 5c6e157505b146b9c1ca37f508311c9e80958be6
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63428903"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66322445"
 ---
 # <a name="statement-completion-in-a-legacy-language-service"></a>레거시 언어 서비스의 명령문 완성
 문 완성 하는 언어 서비스는 언어 키워드 또는 핵심 편집기에 입력 시작 하는 요소를 완료 하는 사용자를 사용 하면 프로세스. 이 항목에는 문 완성 작동 원리 및 언어 서비스에서 구현 하는 방법을 설명 합니다.

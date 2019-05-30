@@ -7,17 +7,17 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], opening project-specific editors
 - projects [Visual Studio SDK], opening folders
 ms.assetid: 83e56d39-c97b-4c6b-86d6-3ffbec97e8d1
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8482f2704fe81482d95c2c8e73ae6e8c8ffd272d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 2e85913f6eead81bcbc2424ef1087f64a3f2446e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63417131"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66319248"
 ---
 # <a name="how-to-open-project-specific-editors"></a>방법: 프로젝트별 편집기 열기
 프로젝트에서 열려 있는 항목 파일을 기본적으로 해당 프로젝트에 대 한 특정 편집기에 바인딩되어 있으면 프로젝트 프로젝트별 편집기를 사용 하 여 파일을 열어야 합니다. 파일은 편집기를 선택 하는 IDE 메커니즘으로 위임할 수 없습니다. 예를 들어 표준 비트맵 편집기를 사용 하는 대신 프로젝트에 고유한 파일의 정보를 인식 하는 특정 비트맵 편집기를 지정 하려면이 프로젝트별 편집기 옵션을 사용할 수 있습니다.

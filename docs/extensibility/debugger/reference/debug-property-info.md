@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - DEBUG_PROPERTY_INFO structure
 ms.assetid: 5a085d18-62c6-4740-b9e9-3f5db6bfdf7f
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 11facd5b7de76aa407ef28366b789870cdad03c4
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7804cfad48d5029e16619b5ae524fa6e761f11b4
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56710060"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66346175"
 ---
 # <a name="debugpropertyinfo"></a>DEBUG_PROPERTY_INFO
 디버그 속성에 대 한 정보를 포함합니다.
@@ -49,19 +52,26 @@ public struct DEBUG_PROPERTY_INFO {
 ```
 
 ## <a name="members"></a>멤버
-플래그는 dwValidFields 조합 합니다 [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) 어떤 필드가 채워지는 지정 하는 열거형입니다.
+`dwValidFields`\
+플래그의 조합을 합니다 [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md) 어떤 필드가 채워지는 지정 하는 열거형입니다.
 
-bstrFullName 속성의 전체 이름입니다.
+`bstrFullName`\
+속성의 전체 이름입니다.
 
-bstrName 컨텍스트 내에서 속성 이름입니다.
+`bstrName`\
+컨텍스트 내에서 속성 이름입니다.
 
-bstrType 속성 형식이 지정 된 문자열로 입력 합니다.
+`bstrType`\
+서식이 지정 된 문자열 속성 형식입니다.
 
-bstrValue 문자열로 서식이 지정 된 속성 값입니다.
+`bstrValue`\
+서식이 지정 된 문자열 속성 값입니다.
 
-속성을 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 이 구조에서 설명 하는 개체입니다.
+`pProperty`\
+합니다 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 이 구조에서 설명 하는 개체입니다.
 
-플래그는 dwAttrib 조합 합니다 [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md) 이 속성의 특성을 설명 하는 열거형입니다.
+`dwAttrib`\
+플래그의 조합 된 [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md) 이 속성의 특성을 설명 하는 열거형입니다.
 
 ## <a name="remarks"></a>설명
 속성은 개체 이름, 형식 및 값이 있는 계층적 특성입니다. 예를 들어, 지역 변수, 매개 변수, 조사식 변수 및 식 및 레지스터 속성을 설명할 수 있습니다.
@@ -75,7 +85,7 @@ bstrValue 문자열로 서식이 지정 된 속성 값입니다.
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [DEBUGPROP_INFO_FLAGS](../../../extensibility/debugger/reference/debugprop-info-flags.md)
 - [DBG_ATTRIB_FLAGS](../../../extensibility/debugger/reference/dbg-attrib-flags.md)

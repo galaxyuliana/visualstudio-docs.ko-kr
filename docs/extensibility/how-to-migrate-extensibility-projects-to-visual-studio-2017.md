@@ -3,18 +3,18 @@ title: '방법: Visual Studio 2017로 확장성 프로젝트 마이그레이션 
 ms.date: 11/09/2016
 ms.topic: conceptual
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 3d55055734233a385f4a6d24f8925af2f0829fe3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 802c55844be14192ea5bd5de1870e27e2063ccad
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62863657"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66319317"
 ---
 # <a name="how-to-migrate-extensibility-projects-to-visual-studio-2017"></a>방법: Visual Studio 2017로 확장성 프로젝트 마이그레이션
 
@@ -31,7 +31,7 @@ ms.locfileid: "62863657"
 
 모든 VSIX 프로젝트에는 Visual Studio 2017에는 주 버전 단방향 업그레이드가 필요 합니다.
 
-프로젝트 파일 (예를 들어 **.csproj*) 업데이트 됩니다.
+프로젝트 파일 (예를 들어 * *.csproj*) 업데이트 됩니다.
 
 * MinimumVisualStudioVersion-이제 15.0으로 설정 합니다.
 * OldToolsVersion (하는 경우 이전에 존재)-이제 14.0으로 설정

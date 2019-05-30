@@ -7,17 +7,17 @@ helpviewer_keywords:
 - project system
 - tutorial
 ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ced39d928b2d0d02c7008d6b44c934ccd053b09b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 19c73e47e8c07ebcf7c1124e6e59d80f76101458
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63409998"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66341650"
 ---
 # <a name="create-a-basic-project-system-part-1"></a>1 부 기본 프로젝트 시스템을 만들려면
 Visual Studio에서 프로젝트는 개발자가 소스 코드 파일 및 기타 자산을 구성 하는 데 사용할 컨테이너를 사용 합니다. 프로젝트에서 솔루션의 자식으로 표시 합니다 **솔루션 탐색기**합니다. 프로젝트를 사용 하 여 구성, 빌드, 디버그 및 소스 코드를 배포 및 웹 서비스, 데이터베이스 및 기타 리소스에 대 한 참조를 만들 수 있습니다.
@@ -224,7 +224,7 @@ Templates
 
     다시 작성 프로젝트 템플릿을 등록합니다.
 
-   매개 변수 `defaultProjectExtension` 하 고 `possibleProjectExtensions` 프로젝트 파일 이름 확장명으로 설정 됩니다 (*.myproj*). `projectTemplatesDirectory` 매개 변수 설정의 상대 경로 *템플릿* 폴더입니다. 빌드 중에이 경로 전체 빌드를 변환 하 고 프로젝트 시스템을 등록 하려면 레지스트리를 추가할 수 됩니다.
+   매개 변수 `defaultProjectExtension` 하 고 `possibleProjectExtensions` 프로젝트 파일 이름 확장명으로 설정 됩니다 ( *.myproj*). `projectTemplatesDirectory` 매개 변수 설정의 상대 경로 *템플릿* 폴더입니다. 빌드 중에이 경로 전체 빌드를 변환 하 고 프로젝트 시스템을 등록 하려면 레지스트리를 추가할 수 됩니다.
 
 ## <a name="test-the-template-registration"></a>템플릿 등록 테스트
  템플릿 등록 하면 Visual Studio 프로젝트 템플릿 폴더의 위치가 Visual Studio 템플릿 이름 및 아이콘에 표시 될 수 있도록 합니다 **새 프로젝트** 대화 상자.

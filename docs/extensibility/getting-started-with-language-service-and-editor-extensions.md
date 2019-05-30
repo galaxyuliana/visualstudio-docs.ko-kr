@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
 ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: acb18a6471a7d2debbb20107dc780f67857327ad
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7bd39ab8abde2fdbe337073e7cfaa7ea457b022f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66342441"
 ---
 # <a name="get-started-with-language-service-and-editor-extensions"></a>언어 서비스 및 편집기 확장 시작
 고유한 프로그래밍 언어 또는 모든 콘텐츠 형식에 개요, 중괄호 일치, IntelliSense 및 light bulbs와 같은 언어 서비스 기능을 추가 하려면 편집기 확장을 사용할 수 있습니다. Visual Studio 편집기에서 색 지정, 여백, 프로그램 및 기타 시각적 요소 예를 들어 텍스트의 동작과 모양을 사용자 지정할 수도 있습니다. 또한 고유한 형식의 콘텐츠를 정의 하 고 콘텐츠에 표시 되는 텍스트 보기의 동작과 모양을 지정할 수 있습니다.

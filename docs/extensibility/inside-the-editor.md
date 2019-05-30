@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - architecture
 ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3979138944671ff2809f4f73beb0a28b222ec5ff
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 155d760ee546b1e35b733a00ac9a67722742f9b5
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62861767"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66340797"
 ---
 # <a name="inside-the-editor"></a>편집기 내에서
 
@@ -108,7 +108,7 @@ ms.locfileid: "62861767"
 
 #### <a name="spans-and-normalizedspancollections"></a>범위 및 NormalizedSpanCollections
 
-<xref:Microsoft.VisualStudio.Text.Span> 텍스트 스냅숏에 있는 텍스트 범위를 적용할 수 있는 간격을 나타냅니다. 범위는 0을 포함 하 여 모든 위치에서 시작할 수 있도록 스냅숏 위치는 0부터 시작 합니다. 합니다 `End` 범위의 속성은 합계에 해당 `Start` 속성 및 해당 `Length` 속성입니다. A `Span` 으로 인덱싱된 문자를 포함 하지는 `End` 속성입니다. 시작 된 범위를 예를 들어 = 5이 고 길이 = 3에 끝 = 8, 5, 6 및 7 위치에 있는 문자를 포함 하 고 있습니다. 이 범위에 대 한 표기법은 5..8) 합니다.
+<xref:Microsoft.VisualStudio.Text.Span> 텍스트 스냅숏에 있는 텍스트 범위를 적용할 수 있는 간격을 나타냅니다. 범위는 0을 포함 하 여 모든 위치에서 시작할 수 있도록 스냅숏 위치는 0부터 시작 합니다. 합니다 `End` 범위의 속성은 합계에 해당 `Start` 속성 및 해당 `Length` 속성입니다. A `Span` 으로 인덱싱된 문자를 포함 하지는 `End` 속성입니다. 시작 된 범위를 예를 들어 = 5이 고 길이 = 3에 끝 = 8, 5, 6 및 7 위치에 있는 문자를 포함 하 고 있습니다. 이 범위에 대 한 표기법은 [5..8) 합니다.
 
 두 범위 공통점은 모든 위치에서 끝 위치를 포함 하는 경우 교차 합니다. 따라서 교차 [3, 5) 및 [2, 7)는 [3, 5) 및 교차 [3, 5) 및 [5, 7)는 [5, 5). (있음을 [5, 5)는 빈 범위입니다.)
 
