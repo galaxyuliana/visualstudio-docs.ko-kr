@@ -16,12 +16,12 @@ caps.latest.revision: 12
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 656ebd6f8b1e720afd129bca3d53712526fc914f
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.openlocfilehash: b3904a9fcb2e15190018dbc4caabe925690e023f
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002656"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263703"
 ---
 # <a name="error-the-web-server-could-not-find-the-requested-resource"></a>오류: 웹 서버에서 요청한 리소스를 찾을 수 없습니다
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,5 +35,5 @@ ms.locfileid: "59002656"
  IIS 문제 해결에 대한 자세한 내용은 [IIS 관리](http://go.microsoft.com/fwlink/?LinkId=255872)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
- [UrlScan 보안 도구](https://www.iis.net/downloads/microsoft/urlscan)   
+ [UrlScan 보안 도구](/iis/extensions/working-with-urlscan/urlscan-3-reference)   
  [오류: 웹 서버가 잠겨 있기 때문에 디버깅을 사용하기 위해 필요한 DEBUG 동사를 사용할 수 없습니다.](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)

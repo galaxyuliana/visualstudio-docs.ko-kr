@@ -10,12 +10,12 @@ ms.author: crdun
 manager: crdun
 ms.workload:
 - multiple
-ms.openlocfilehash: 55b863d1bff16fb0170e749d00ebb212588b2dd3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: ebbbd2eb0cf47763868a6c23ef2637bdd4009b2e
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63403034"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261048"
 ---
 # <a name="troubleshoot-the-visual-studio-emulator-for-android"></a>Android용 Visual Studio 에뮬레이터 문제 해결
 이 항목에는 Android용 Visual Studio 에뮬레이터를 사용하는 동안 발생할 수 있는 문제를 해결하는 데 도움이 되는 정보가 들어 있습니다.
@@ -143,7 +143,7 @@ ms.locfileid: "63403034"
 
 - 최소 하드웨어 요구 사항이 충족되는지와 BIOS 설정이 올바른지 확인합니다.
 
-   이 에뮬레이터와 Windows 8 Hyper-V에는 SLAT(두 번째 수준 주소 변환)를 지원하는 64비트 프로세서가 필요합니다. Intel의 경우는 기본적으로 Core i3, i5 또는 i7 프로세서(또는 여러 Xeon 모델 하나)가 필요합니다. AMD 칩의 목록은 [여기](http://support.amd.com/en-us)에서 확인할 수 있습니다.
+   이 에뮬레이터와 Windows 8 Hyper-V에는 SLAT(두 번째 수준 주소 변환)를 지원하는 64비트 프로세서가 필요합니다. Intel의 경우는 기본적으로 Core i3, i5 또는 i7 프로세서(또는 여러 Xeon 모델 하나)가 필요합니다. AMD 칩의 목록은 [여기](https://www.amd.com/en/support)에서 확인할 수 있습니다.
 
   1. 사용하는 컴퓨터가 [시스템 요구 사항](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)을 충족하는지 확인합니다.
 
@@ -303,7 +303,7 @@ ms.locfileid: "63403034"
  **추가 도구** 창에서 스크린샷 탭을 사용하여 스크린샷을 찍었으나 결과 이미지 크기가 예상과 다른 경우 **캡처**를 선택하기 전에 화면의 확대/축소 수준을 조정해야 할 수 있습니다. 에뮬레이터는 호스트 PC 모니터의 화면 해상도로 스크린샷을 찍습니다.
 
 ## <a name="OpenGL"></a> 에뮬레이터가 OpenGL 콘텐츠를 렌더링하지 못함
- 에뮬레이터는 호스트 컴퓨터의 GPU를 사용하여 OpenGL 콘텐츠를 렌더링하고 ANGLE 프로젝트를 사용하여 DirectX와의 사이에서 이러한 호출을 변환합니다. 애플리케이션이 장치에서는 올바르게 렌더링하지만 에뮬레이터에서는 그렇지 못할 경우 장치가 잘못된 OpenGL 호출을 완화시키는 것일 수 있습니다(예: 일치하지 않는 셰이더 변수 사용).
+ 에뮬레이터는 호스트 컴퓨터의 GPU를 사용하여 OpenGL 콘텐츠를 렌더링하고 ANGLE 프로젝트를 사용하여 DirectX와의 사이에서 이러한 호출을 변환합니다. 응용 프로그램이 디바이스에서는 올바르게 렌더링하지만 에뮬레이터에서는 그렇지 못할 경우 디바이스가 잘못된 OpenGL 호출을 완화시키는 것일 수 있습니다(예: 일치하지 않는 셰이더 변수 사용).
 
 ## <a name="Multitouch"></a> 에뮬레이터가 멀티 터치 제스처에 응답하지 않음
  일부 경우에는 에뮬레이터가 시작되지만 터치 지원 디스플레이의 직접적인 조작을 통해 또는 에뮬레이터 도구 모음의 멀티 터치 도구를 사용하여 멀티 터치에 응답하지 않습니다. 이러한 경우 에뮬레이터 도구 모음에서 **회전** 단추를 선택하고 멀티 터치를 다시 사용해 봅니다. 문제가 계속되면 [에뮬레이터가 OpenGL 콘텐츠를 렌더링하지 못함](#OpenGL) 문제를 확인하세요.

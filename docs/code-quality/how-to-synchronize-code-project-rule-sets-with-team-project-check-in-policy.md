@@ -1,5 +1,5 @@
 ---
-title: '방법: 코드 프로젝트 규칙 세트를 팀 프로젝트 체크 인 정책과 동기화'
+title: 체크 인 정책과 동기화 프로젝트 규칙 집합
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bd92cbb5dfee83a4a2b92729a8fde3846a5e5475
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 80d13afe27eab28c88d2513b6c8be986ab1c960a
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62815840"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66260844"
 ---
 # <a name="how-to-synchronize-code-project-rule-sets-with-an-azure-devops-project-check-in-policy"></a>방법: Azure DevOps 프로젝트 체크 인 정책을 사용 하 여 코드 프로젝트 규칙 집합 동기화
 

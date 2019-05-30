@@ -1,5 +1,5 @@
 ---
-title: 서버 및 ClickOnce 배포에서 클라이언트 구성 문제 | Microsoft Docs
+title: ClickOnce 배포에서 서버/클라이언트 구성 문제
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5be4e6546d5900fbd3274ab1eb8d55622fb2c58b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 49ff55e2a261e86ec5aae09573d6ac40c74c0091
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63406779"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263471"
 ---
 # <a name="server-and-client-configuration-issues-in-clickonce-deployments"></a>ClickOnce 배포 시 서버 및 클라이언트 구성 문제
 인터넷 정보 서비스 (IIS)를 사용 하 여 Windows Server에서 배포에는 Windows에서 인식 하지 못하는 파일 형식을 포함 하 고 Microsoft Word 파일을 같은 IIS는 해당 파일을 전송할 거부 하 고 배포에 실패 합니다.
@@ -128,7 +128,7 @@ ms.locfileid: "63406779"
 ## <a name="http-compression-issues"></a>HTTP 압축 문제
  사용 하 여 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], HTTP 압축을 사용 하는 다운로드, 클라이언트에 보내는 데이터 스트림을 압축 GZIP 알고리즘을 사용 하는 웹 서버 기술이 수행할 수 있습니다. 클라이언트-이 경우 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]-파일을 읽기 전에 스트림의 압축을 해제 합니다.
 
- IIS를 사용 하는 경우에 HTTP 압축을 쉽게 사용할 수 있습니다. 그러나 HTTP 압축을 사용 하도록 설정 하면 활성화만 됩니다 특정 파일 형식에 대 한-즉, HTML 및 텍스트 파일입니다. 어셈블리에 대 한 압축을 사용 하도록 설정 하려면 (*.dll*), XML (*.xml*), 배포 매니페스트 (*.application*), 및 응용 프로그램 매니페스트 (*.manifest*), 이러한 파일의 IIS에서 압축할 형식 형식 목록에 추가 해야 합니다. 파일 형식 배포에 추가할 때까지 텍스트 및 HTML 파일은 압축 됩니다.
+ IIS를 사용 하는 경우에 HTTP 압축을 쉽게 사용할 수 있습니다. 그러나 HTTP 압축을 사용 하도록 설정 하면 활성화만 됩니다 특정 파일 형식에 대 한-즉, HTML 및 텍스트 파일입니다. 어셈블리에 대 한 압축을 사용 하도록 설정 하려면 ( *.dll*), XML ( *.xml*), 배포 매니페스트 ( *.application*), 및 응용 프로그램 매니페스트 ( *.manifest*), 이러한 파일의 IIS에서 압축할 형식 형식 목록에 추가 해야 합니다. 파일 형식 배포에 추가할 때까지 텍스트 및 HTML 파일은 압축 됩니다.
 
  IIS에 대 한 자세한 내용은 참조 하세요. [HTTP 압축에 대 한 추가 문서 유형을 지정 하는 방법을](http://go.microsoft.com/fwlink/?LinkId=178459)합니다.
 

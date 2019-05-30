@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b81351deb31ffa9c66838ba39eebd6d2a138003e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: c0c7cac1a5cedc154fdc771ef4615a79c7ead1cd
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654427"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263842"
 ---
 # <a name="integration-of-xml-literals-with-xml-schema-explorer"></a>XML 리터럴과 XML 스키마 탐색기와의 통합
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ Visual Basic XML 조각을 Visual Basic 코드에 직접 통합할 수 있습니
   
  ![Visual Basic XML 리터럴; XML 스키마 탐색기](../xml-tools/media/vbxmlliteralswithxmlschemaexplorer2.gif "VBXMLLiteralsWithXMLSchemaExplorer2")  
   
- 이 기능은 Visual Studio 2008 SP1에서 도입되었습니다. 세부 정보에서이 기능을 설명 하는 인터뷰를 시청 하려면 [Channel 9 인터뷰: Visual Studio 2008 SP1의 XML 스키마 탐색기](http://go.microsoft.com/fwlink/?LinkId=140183)합니다.  
+ 이 기능은 Visual Studio 2008 SP1에서 도입되었습니다. 세부 정보에서이 기능을 설명 하는 인터뷰를 시청 하려면 [Channel 9 인터뷰: Visual Studio 2008 SP1의 XML 스키마 탐색기](https://channel9.msdn.com/Blogs/funkyonex/XML-Schema-Explorer-in-Visual-Studio-2008-SP1)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: XML 리터럴과 함께 XML 스키마 디자이너 사용](../xml-tools/how-to-use-the-xml-schema-designer-with-xml-literals.md)

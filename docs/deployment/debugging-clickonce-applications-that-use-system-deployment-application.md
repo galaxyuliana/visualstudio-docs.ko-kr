@@ -1,5 +1,5 @@
 ---
-title: System.Deployment.Application을 사용 하는 ClickOnce 응용 프로그램 디버그 | Microsoft Docs
+title: System.Deployment.Application을 사용 하는 ClickOnce 앱 디버그
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1efa919349535a2cb73ca80f2015ef0d0df93cd7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d70697e3523fcb12384cb51415f73ebd210f45c9
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62928998"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262005"
 ---
 # <a name="debug-clickonce-applications-that-use-systemdeploymentapplication"></a>System.Deployment.Application을 사용하는 ClickOnce 애플리케이션 디버그
 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포를 사용 하면 응용 프로그램 업데이트 되는 방식을 구성할 수 있습니다. 그러나 사용 및 사용자 지정 하는 경우 고급 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 제공한 배포 개체 모델에 액세스 해야 배포 기능을 <xref:System.Deployment.Application>입니다. 사용할 수는 <xref:System.Deployment.Application> 와 같은 고급 작업에 대 한 Api:

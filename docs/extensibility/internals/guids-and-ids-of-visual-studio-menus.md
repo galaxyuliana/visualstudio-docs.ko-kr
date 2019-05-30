@@ -15,12 +15,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 16871ba1115407e2665886d84b72594470f91287
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 9f858bec8ff025061603c72eda4ff6fc6d36549c
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63420616"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263634"
 ---
 # <a name="guids-and-ids-of-visual-studio-menus"></a>Guid 및 Id의 Visual Studio 메뉴
 이 문서에서는 메뉴 및 Visual Studio 메뉴 모음에서 그룹의 GUID 및 ID 값을 열거합니다. 이러한 값에 정의 된 *.vsct* Visual Studio SDK의 일부로 설치 되는 파일입니다. 자세한 내용은 [IDE 정의 명령, 메뉴 및 그룹](../../extensibility/internals/ide-defined-commands-menus-and-groups.md)합니다.
@@ -56,6 +56,7 @@ ms.locfileid: "63420616"
 |빌드|IDM_VS_MENU_BUILD|
 |형식|IDM_VS_MENU_FORMAT|
 |도구|IDM_VS_MENU_TOOLS|
+|확장|IDM_VS_MENU_EXTENSIONS|
 |창|IDM_VS_MENU_WINDOW|
 |추가 기능|IDM_VS_MENU_ADDINS|
 |커뮤니티|IDM_VS_MENU_COMMUNITY|

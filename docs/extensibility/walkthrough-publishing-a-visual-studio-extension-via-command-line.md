@@ -1,5 +1,5 @@
 ---
-title: '연습: 명령줄을 통해 Visual Studio 확장 기능 게시 | Microsoft Docs'
+title: 명령줄을 사용 하 여 확장 게시
 ms.date: 07/12/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,12 +11,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a2d68554ed982313e631938401f855a47dd9a35a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: MT
+ms.openlocfilehash: be9585158235dadb6e415e88e42e2d324ba8fcbe
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62966268"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261676"
 ---
 # <a name="walkthrough-publishing-a-visual-studio-extension-via-command-line"></a>연습: 명령줄을 통해 Visual Studio 확장 기능 게시
 

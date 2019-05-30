@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - register file types
 ms.assetid: 54846779-8290-48de-90ab-81011559d9a5
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8f4aad26418c61ea450d697e294203b7f844577f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b40bdb51a1238bc87ca19ab4896396fe26f7d766
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62862929"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66340773"
 ---
 # <a name="how-to-register-editor-file-types"></a>방법: 편집기 파일 형식 등록
 일부분으로 제공 하는 등록 특성을 사용 하 여 편집기 파일 형식을 등록 하는 가장 쉬운 방법은는 [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] 관리 되는 패키지 프레임 워크 (MPF) 클래스입니다. 네이티브에서 패키지를 구현 하는 경우 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], 편집기 및 연결 된 확장을 등록 하는 레지스트리 스크립트를 작성할 수도 있습니다.

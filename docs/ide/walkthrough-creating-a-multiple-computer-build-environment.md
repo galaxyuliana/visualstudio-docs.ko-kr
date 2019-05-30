@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d2ca4e45c83aa3291b922694ebd16df5ab7fc35e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9b6f956adee315cc8c5d229a237e953de67f9c16
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62581641"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262947"
 ---
 # <a name="walkthrough-create-a-multiple-computer-build-environment"></a>연습: 여러 컴퓨터 빌드 환경 만들기
 
@@ -169,7 +169,7 @@ ms.locfileid: "62581641"
 
     - \Microsoft.VC110.OPENMP\vcomp110.dll
 
-5. [디버그 실행 파일을 실행하기 위한 테스트 컴퓨터 준비](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable)에 설명된 대로 다음 파일만 *Debug_NonRedist\x86* 또는 *Debug_NonRedist\x64* 폴더에서 빌드 컴퓨터로 복사됩니다. 다른 파일은 복사할 수 없습니다.
+5. [디버그 실행 파일을 실행하기 위한 테스트 컴퓨터 준비](/cpp/windows/preparing-a-test-machine-to-run-a-debug-executable)에 설명된 대로 다음 파일만 *Debug_NonRedist\x86* 또는 *Debug_NonRedist\x64* 폴더에서 빌드 컴퓨터로 복사됩니다. 다른 파일은 복사할 수 없습니다.
 
     - \Microsoft.VC110.DebugCRT\msvcp110d.dll
 
@@ -407,5 +407,5 @@ Visual Studio 프로젝트 및 솔루션은 Azure Pipelines를 사용하여 빌�
 
 ## <a name="see-also"></a>참고 항목
 
-- [디버그 실행 파일을 실행하기 위한 테스트 컴퓨터 준비](/cpp/ide/preparing-a-test-machine-to-run-a-debug-executable)
+- [디버그 실행 파일을 실행하기 위한 테스트 컴퓨터 준비](/cpp/windows/preparing-a-test-machine-to-run-a-debug-executable)
 - [명령줄 참조](../msbuild/msbuild-command-line-reference.md)

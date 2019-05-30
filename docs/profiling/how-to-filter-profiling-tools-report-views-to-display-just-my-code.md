@@ -1,5 +1,5 @@
 ---
-title: '방법: 내 코드만 표시하도록 프로파일링 도구 보고서 보기 필터링 | Microsoft Docs'
+title: 내 코드만 표시하도록 프로파일링 도구 보고서 보기 필터링
 ms.date: 02/15/2018
 ms.topic: conceptual
 author: mikejo5000
@@ -7,12 +7,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b11d3c177f880894a2f47abd8e80e7796c7923ef
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c65c249c8d744dd01ef67d4836f9aa7066370fa0
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62973951"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261395"
 ---
 # <a name="how-to-filter-profiling-tools-report-views-to-display-just-my-code"></a>방법: 내 코드만 표시하도록 프로파일링 도구 보고서 보기 필터링
 

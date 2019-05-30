@@ -13,12 +13,12 @@ author: bowdenk7
 ms.author: wilkelly
 manager: jillfra
 monikerRange: vs-2017
-ms.openlocfilehash: 58de705d90567723f98bfb472f808da7101a624e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c86dd5090d2cee6c49bd97f0895bba397e10c1ae
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62553378"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263038"
 ---
 # <a name="javascript-in-visual-studio-2017"></a>Visual Studio 2017의 JavaScript
 
@@ -247,7 +247,7 @@ IntelliSense 작동 방식에 대한 자세한 내용은 [JavaScript IntelliSens
 ### <a name="vsdoc"></a>VSDoc
 
 VSDocs라고도 하는 XML 문서 주석은 이전에 IntelliSense 결과를 향상하는 데 사용할 추가 데이터로 소스 코드를 데코레이트하는 데 사용할 수 있었습니다.
-VSDoc는 이제 더 쉽게 작성할 수 있고 JavaScript의 표준으로 승인되는 [JSDoc](http://usejsdoc.org/about-getting-started.html)를 위해 더 이상 지원되지 않습니다.
+VSDoc는 이제 더 쉽게 작성할 수 있고 JavaScript의 표준으로 승인되는 [JSDoc](https://jsdoc.app/about-getting-started.html)를 위해 더 이상 지원되지 않습니다.
 
 ### <a name="intellisensejs-extensions"></a>`.intellisense.js` 확장
 

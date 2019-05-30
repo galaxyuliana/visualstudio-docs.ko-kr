@@ -1,5 +1,5 @@
 ---
-title: '연습: ClickOnce 배포 API 사용 하 여 요청 시 위성 어셈블리 다운로드 | Microsoft Docs'
+title: ClickOnce 배포 API에서 요청 시 위성 어셈블리 다운로드
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8a1aa828f0f4a84f1a8dce3055f3719a3c11520e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 34cde3a2444525e48455e445894fd5ab1c66fab8
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63405935"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262963"
 ---
 # <a name="walkthrough-download-satellite-assemblies-on-demand-with-the-clickonce-deployment-api"></a>연습: ClickOnce 배포 API 사용 하 여 요청 시 위성 어셈블리 다운로드
 위성 어셈블리를 사용하면 Windows Forms 애플리케이션을 여러 문화권에 맞게 구성할 수 있습니다. *위성 어셈블리* 는 응용 프로그램의 기본 문화권 이외의 문화권을 위한 응용 프로그램 리소스가 포함된 어셈블리입니다.
@@ -54,7 +54,7 @@ ms.locfileid: "63405935"
 
 4. **파일** 탭을 클릭합니다.
 
-5. **줄임표** 단추(**...**)를 클릭하고 *Resgen.exe*를 사용하여 생성한 위성 어셈블리를 비롯한 애플리케이션의 모든 어셈블리와 파일이 포함된 디렉터리를 선택합니다. (위성 어셈블리의 이름은 *\<isoCode>\ApplicationName.resources.dll* 형식입니다. 여기에서 \<isoCode>는 RFC 1766 형식의 언어 식별자입니다.)
+5. **줄임표** 단추( **...** )를 클릭하고 *Resgen.exe*를 사용하여 생성한 위성 어셈블리를 비롯한 애플리케이션의 모든 어셈블리와 파일이 포함된 디렉터리를 선택합니다. (위성 어셈블리의 이름은 *\<isoCode>\ApplicationName.resources.dll* 형식입니다. 여기에서 \<isoCode>는 RFC 1766 형식의 언어 식별자입니다.)
 
 6. **채우기** 를 클릭하여 배포에 파일을 추가합니다.
 

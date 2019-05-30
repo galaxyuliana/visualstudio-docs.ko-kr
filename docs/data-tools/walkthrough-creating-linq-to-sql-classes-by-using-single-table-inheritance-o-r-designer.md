@@ -1,5 +1,5 @@
 ---
-title: '연습: 단일 테이블 상속을 사용하여 LINQ to SQL 클래스 만들기(O-R 디자이너)'
+title: LINQ to SQL 클래스 단일 테이블 상속 (O-r 디자이너)
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 7bb6562c0eb74f537efb25be031e9c9be46d64b6
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3c99023f57cec8b920518ac702cf5c71988a163c
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63402686"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262876"
 ---
 # <a name="walkthrough-create-linq-to-sql-classes-by-using-single-table-inheritance-or-designer"></a>연습: 단일 테이블 상속 (O/R 디자이너)를 사용 하 여 LINQ to SQL 클래스 만들기
 합니다 [Visual Studio에서 LINQ to SQL 도구](../data-tools/linq-to-sql-tools-in-visual-studio2.md) 관계형 시스템에서 일반적으로 구현 되므로 단일 테이블 상속을 지원 합니다. 이 연습에서 제공한 일반 단계에 따라 확장을 [방법: O/R 디자이너를 사용 하 여 상속 구성](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md) 항목에서 상속 사용을 보여 주기 위해 몇 가지 실제 데이터를 제공 하 고는 [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)]합니다.

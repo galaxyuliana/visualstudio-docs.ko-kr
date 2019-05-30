@@ -12,12 +12,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: f24e3460cb1298a36d0365781aa82cf55d8478d3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 261d26307a212fa44506b21caadf4b7351453e06
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62824800"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261088"
 ---
 # <a name="install-cross-platform-mobile-development-with-c"></a>C++를 사용하여 플랫폼 간 모바일 개발 설치
 
@@ -74,7 +74,7 @@ Visual Studio 2017용 Visual Studio 설치 관리자에는 Visual Studio에서 A
 1. Visual Studio를 엽니다.
 
 > [!NOTE]
-> Visual Studio 2015를 사용하는 경우 [플랫폼 간 모바일 개발용 Visual C++ 설치(Visual Studio 2015)](/cross-platform/install-visual-cpp-for-cross-platform-mobile-development?view=vs-2015)를 참조하세요.
+> Visual Studio 2015를 사용하는 경우 [플랫폼 간 모바일 개발용 Visual C++ 설치(Visual Studio 2015)](install-visual-cpp-for-cross-platform-mobile-development.md?view=vs-2015)를 참조하세요.
 
 ## <a name="install-tools-for-ios"></a>Install tools for iOS
 

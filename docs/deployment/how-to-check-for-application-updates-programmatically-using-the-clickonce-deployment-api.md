@@ -1,5 +1,5 @@
 ---
-title: '방법: ClickOnce 배포 API를 사용 하 여 프로그래밍 방식으로 응용 프로그램 업데이트 확인 | Microsoft Docs'
+title: ClickOnce 배포 API를 사용 하 여 자동 앱 업데이트
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 90499ae5dadac705d759270996f647b2d1a65445
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9f47c82311f26c5ca469f03783b785545bda2182
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63406594"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66260828"
 ---
 # <a name="how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api"></a>방법: ClickOnce 배포 API를 사용하여 프로그래밍 방식으로 애플리케이션 업데이트 확인
 ClickOnce 배포 후 응용 프로그램을 업데이트 하는 두 가지를 제공 합니다. 첫 번째 방법은 특정 간격에 따라 업데이트에 대 한 자동으로 확인 하도록 ClickOnce 배포를 구성할 수 있습니다. 두 번째 메서드를 사용 하는 코드를 작성할 수 있습니다는 <xref:System.Deployment.Application.ApplicationDeployment> 클래스 업데이트를 확인 하려면 사용자 요청과 같은 이벤트를 기반으로 합니다.

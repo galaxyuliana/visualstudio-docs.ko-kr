@@ -1,5 +1,5 @@
 ---
-title: '방법: 테이블 및 보기에 매핑된 LINQ to SQL 클래스 만들기(O-R 디자이너)'
+title: LINQ to SQL 클래스 (O-r 디자이너)에 대 한 테이블/뷰 매핑
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 0fb78bbc-7a78-4ab4-b32f-85ece912e660
@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 1b9fb62fe3b6d92c617fc89f083aadcd262579e4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b4a923dd102d93aaf7ed545c022f5f12087f8a6b
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62567011"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66260592"
 ---
 # <a name="how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-or-designer"></a>방법: 테이블 및 보기에 매핑된 LINQ to SQL 클래스 만들기(O/R 디자이너)
 

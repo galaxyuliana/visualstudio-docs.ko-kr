@@ -8,12 +8,12 @@ ms.assetid: 5161b533-2127-4172-b473-d4ffc76ff05b
 caps.latest.revision: 17
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4b3c709c2d7a83e4b144232a491dabf205ea46f7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9e1ac0eb389a6f1747ef713cd99f9bb3006ff6b9
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63446190"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261642"
 ---
 # <a name="quick-start-test-driven-development-with-test-explorer"></a>빠른 시작: 테스트 탐색기를 사용한 테스트 기반 개발
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,10 +65,10 @@ ms.locfileid: "63446190"
 > 표시되는 결과는 최근 실행에 대한 결과입니다. 결과 색상 막대에는 실행된 테스트에 대한 결과만 표시됩니다. 예를 들어, 여러 테스트를 실행했지만 그 중 일부가 실패하고 성공한 테스트만 실행할 경우 결과 모음에 모두 녹색으로 표시됩니다.  
   
 > [!NOTE]
-> 테스트가 표시되지 않으면 어댑터를 설치하여 테스트 탐색기를 사용 중인 테스트 프레임워크에 연결했는지 확인하십시오. 자세한 내용은 [다른 테스트 프레임 워크를 사용 하 여](/visualstudio/test/getting-started-with-unit-testing#use-a-different-unit-test-framework)입니다.  
+> 테스트가 표시되지 않으면 어댑터를 설치하여 테스트 탐색기를 사용 중인 테스트 프레임워크에 연결했는지 확인하십시오. 자세한 내용은 [다른 테스트 프레임 워크를 사용 하 여](/visualstudio/test/getting-started-with-unit-testing#use-a-third-party-test-framework)입니다.  
   
 ## <a name="walkthrough"></a> 연습: 단위 테스트를 사용 하 여 메서드 개발  
- 이 연습에서는 Microsoft 단위 테스트 프레임워크를 사용하여 C#에서 테스트 메서드를 개발하는 방법을 보여 줍니다. 다른 언어에 맞게 쉽게 조정할 수 있으며 NUnit과 같은 다른 테스트 프레임워크에도 사용할 수 있습니다. 자세한 내용은 [Usa 다른 테스트 프레임 워크](/visualstudio/test/getting-started-with-unit-testing#use-a-different-unit-test-framework)합니다.  
+ 이 연습에서는 Microsoft 단위 테스트 프레임워크를 사용하여 C#에서 테스트 메서드를 개발하는 방법을 보여 줍니다. 다른 언어에 맞게 쉽게 조정할 수 있으며 NUnit과 같은 다른 테스트 프레임워크에도 사용할 수 있습니다. 자세한 내용은 [다른 테스트 프레임 워크를 사용 하 여](/visualstudio/test/getting-started-with-unit-testing#use-a-third-party-test-framework)입니다.  
   
 #### <a name="creating-the-test-and-method"></a>테스트 및 메서드 만들기  
   

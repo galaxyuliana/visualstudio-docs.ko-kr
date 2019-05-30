@@ -10,12 +10,12 @@ ms.author: gregvanl
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b3c996b8b97217deb130d8e11a68b7efae01ee05
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: MT
+ms.openlocfilehash: e1d424b7af82a423b4d227b77cd77a63eba2559c
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62843763"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261309"
 ---
 # <a name="add-search-to-a-tool-window"></a>도구 창에 검색 추가
 를 작성 하거나 도구 창 확장 프로그램에서 업데이트할 때 Visual Studio에서 다른 곳에 표시 되는 동일한 검색 기능을 추가할 수 있습니다. 이 기능에는 다음 기능이 포함 됩니다.
@@ -106,7 +106,7 @@ ms.locfileid: "62843763"
      도구 창의 맨 위에 있는 검색 컨트롤을 사용 하 여 표시를 **검색** 워터 마크와는 돋보기 모양 아이콘이 있습니다. 그러나 검색 프로세스가 구현 되어 있지 않은 때문에 검색 아직 작동 하지 않습니다.
 
 ## <a name="to-add-the-search-implementation"></a>검색 구현을 추가 하려면
- 검색을 사용 하는 <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>처럼 이전 절차에서 도구 창을 검색 호스트를 만듭니다. 이 호스트를 설정 하 고 항상 백그라운드 스레드에서 발생 하는 검색 프로세스를 관리 합니다. 때문에 <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> 클래스를 검색의 검색 호스트 및 설정의 생성을 관리, 사용자 검색 작업 만들기 및 검색 메서드를 제공 합니다. 검색 프로세스는 백그라운드 스레드에서 발생 하 고 도구 창 컨트롤에 대 한 호출이 UI 스레드에서 발생 합니다. 따라서 사용 해야 합니다는 <xref:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke%2A> 컨트롤과 처리에서 모든 통화를 관리 하는 방법입니다.
+ 검색을 사용 하는 <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>처럼 이전 절차에서 도구 창을 검색 호스트를 만듭니다. 이 호스트를 설정 하 고 항상 백그라운드 스레드에서 발생 하는 검색 프로세스를 관리 합니다. 때문에 <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> 클래스를 검색의 검색 호스트 및 설정의 생성을 관리, 사용자 검색 작업 만들기 및 검색 메서드를 제공 합니다. 검색 프로세스는 백그라운드 스레드에서 발생 하 고 도구 창 컨트롤에 대 한 호출이 UI 스레드에서 발생 합니다. 따라서를 사용 해야 합니다 [ThreadHelper.Invoke*](https://msdn.microsoft.com/data/ee197798(v=vs.85)) 컨트롤과 처리에서 모든 통화를 관리 하는 방법입니다.
 
 1. 에 *TestSearch.cs* 파일을 다음 추가 `using` 문:
 
@@ -127,7 +127,7 @@ ms.locfileid: "62843763"
 
     - 재정의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch%2A> 검색 작업을 만드는 방법.
 
-    - 재정의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> 입력란의 상태를 복원 하는 방법입니다. 이 메서드는 검색 작업 및 사용자 설정 하거나 옵션 또는 필터 unsets 경우 사용자가 취소할 때 호출 됩니다. 둘 다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch%2A> 고 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> UI 스레드에서 호출 됩니다. 따라서 이용 하 여 텍스트 상자에 액세스할 필요가 없습니다를 <xref:Microsoft.VisualStudio.Shell.ThreadHelper.Invoke%2A> 메서드.
+    - 재정의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> 입력란의 상태를 복원 하는 방법입니다. 이 메서드는 검색 작업 및 사용자 설정 하거나 옵션 또는 필터 unsets 경우 사용자가 취소할 때 호출 됩니다. 둘 다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.CreateSearch%2A> 고 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowSearch.ClearSearch%2A> UI 스레드에서 호출 됩니다. 따라서 이용 하 여 텍스트 상자에 액세스할 필요가 없습니다 합니다 [ThreadHelper.Invoke*](https://msdn.microsoft.com/data/ee197798(v=vs.85)) 메서드.
 
     - 이라고 하는 클래스를 만듭니다 `TestSearchTask` 에서 상속 되는 <xref:Microsoft.VisualStudio.Shell.VsSearchTask>의 기본 구현을 제공 하는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSearchTask>합니다.
 
@@ -471,7 +471,7 @@ ms.locfileid: "62843763"
 
 6. 필터를 선택 합니다.
 
-     검색 상자에 **줄: "짝수"**, 다음과 같은 결과가 나타납니다.
+     검색 상자에 **줄: "짝수"** , 다음과 같은 결과가 나타납니다.
 
      좋은 2
 

@@ -1,5 +1,5 @@
 ---
-title: '연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 위성 어셈블리 다운로드 | Microsoft Docs'
+title: ClickOnce 디자이너를 사용 하 여 요청 시 위성 어셈블리 다운로드
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -20,12 +20,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cb3003ebf8fe102caac1dabfb4c87de521a57c77
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: f510ef4ad81188997e1d572e7aa3b52b65883269
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63405901"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263410"
 ---
 # <a name="walkthrough-download-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer"></a>연습: ClickOnce 배포 디자이너를 사용 하 여 API 사용 하 여 요청 시 위성 어셈블리 다운로드
 위성 어셈블리를 사용하면 Windows Forms 애플리케이션을 여러 문화권에 맞게 구성할 수 있습니다. *위성 어셈블리* 는 응용 프로그램의 기본 문화권 이외의 문화권을 위한 응용 프로그램 리소스가 포함된 어셈블리입니다.

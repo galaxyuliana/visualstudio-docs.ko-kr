@@ -17,15 +17,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 86c69070a6c954ccf01581690e11237fea4e52c7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7b634b25c7bfaf71294993cc48c960508d764839
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63406759"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263239"
 ---
 # <a name="clickonce-security-and-deployment"></a>ClickOnce 보안 및 배포
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 게시 및 Visual Basic 및 Visual C#을 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 합니다. 시각적 개체를 배포 하는 방법은 C++ 응용 프로그램을 참조 하세요 [시각적 개체에 대 한 ClickOnce 배포 C++ 응용 프로그램](/cpp/ide/clickonce-deployment-for-visual-cpp-applications)합니다.
+[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 설치 하 고 최소한의 사용자 상호 작용을 사용 하 여 실행할 수 있는 자동 업데이트 Windows 기반 응용 프로그램을 만들 수 있게 해 주는 배포 기술입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 게시 및 Visual Basic 및 Visual C#을 사용 하 여 프로젝트를 개발한 경우 ClickOnce 기술을 사용 하 여 배포 된 응용 프로그램 업데이트에 대 한 전체 지원을 제공 합니다. 시각적 개체를 배포 하는 방법은 C++ 응용 프로그램을 참조 하세요 [시각적 개체에 대 한 ClickOnce 배포 C++ 응용 프로그램](/cpp/windows/clickonce-deployment-for-visual-cpp-applications)합니다.
 
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포는 배포에서 세 가지 주요 문제를 극복 합니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "63406759"
   과거에는 이러한 문제로 인해 개발자를 Windows 기반 응용 프로그램을 쉽게 설치에 대 한 풍부한 사용자 인터페이스를 희생 하는 대신 웹 응용 프로그램을 만들어야 합니다. 사용 하 여 배포 된 응용 프로그램을 사용 하 여 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], 두 기술의 장점을 모두 활용할 수 있습니다.
 
 ## <a name="what-is-a-clickonce-application"></a>ClickOnce 애플리케이션이란?
- A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램은 모든 Windows Presentation Foundation (*.xbap*), Windows Forms (*.exe*), 콘솔 응용 프로그램 (*.exe*), 또는 Office 솔루션 (*.dll*)를 사용 하 여 게시 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 기술 합니다. 게시할 수는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 세 가지 방법으로 응용 프로그램: 웹 페이지, 네트워크 파일 공유 또는 CD-ROM 같은 미디어에서. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 최종 사용자의 컴퓨터에 설치 하 고 컴퓨터를 오프 라인으로 또는 영구적으로 최종 사용자의 컴퓨터에 아무것도 설치 하지 않고 온라인 전용 모드에서 실행할 수 있습니다 하는 경우에 로컬로 실행할 수 있습니다. 자세한 내용은 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)합니다.
+ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램은 모든 Windows Presentation Foundation ( *.xbap*), Windows Forms ( *.exe*), 콘솔 응용 프로그램 ( *.exe*), 또는 Office 솔루션 ( *.dll*)를 사용 하 여 게시 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 기술 합니다. 게시할 수는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 세 가지 방법으로 응용 프로그램: 웹 페이지, 네트워크 파일 공유 또는 CD-ROM 같은 미디어에서. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 최종 사용자의 컴퓨터에 설치 하 고 컴퓨터를 오프 라인으로 또는 영구적으로 최종 사용자의 컴퓨터에 아무것도 설치 하지 않고 온라인 전용 모드에서 실행할 수 있습니다 하는 경우에 로컬로 실행할 수 있습니다. 자세한 내용은 [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)합니다.
 
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 수 자동 업데이트 됩니다. 이러한 최신 버전 사용 가능 하며 자동으로 업데이트 된 파일을 바꿀으로 확인할 수 있습니다. 개발자는 업데이트 동작을 지정할 수 있으며, 네트워크 관리자는 강제 업데이트 지정과 같은 업데이트 전략을 제어할 수 있습니다. 업데이트 수 롤백할 수도 이전 버전으로 최종 사용자 또는 관리자가 있습니다. 자세한 내용은 [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "63406759"
 ## <a name="how-clickonce-deployment-works"></a>ClickOnce 배포 작동 방식
  핵심 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 아키텍처는 기반으로 두 개의 XML 매니페스트 파일: 응용 프로그램 매니페스트 및 배포 매니페스트 합니다. 파일을 사용 하 여 ClickOnce 응용 프로그램에서 설치 되어 있는, 업데이트 하는 방법 및 업데이트할 시기에 대해 설명 합니다.
 
-### <a name="publish-clickonce-applications"></a>ClickOnce 응용 프로그램 게시
+### <a name="publish-clickonce-applications"></a>ClickOnce 애플리케이션 게시
  응용 프로그램 매니페스트는 응용 프로그램 자체를 설명합니다. 어셈블리, 종속성 및 응용 프로그램, 필요한 권한, 그리고 업데이트 사용할 수 있는 위치를 구성 하는 파일을 포함 합니다. Visual Studio 또는 매니페스트 생성 및 편집 도구에서 게시 마법사를 사용 하 여 응용 프로그램 매니페스트를 작성 하는 응용 프로그램 개발자 (*Mage.exe*)에 [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]합니다. 자세한 내용은 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.
 
  배포 매니페스트는 애플리케이션이 배포되는 방법을 기술합니다. 이 응용 프로그램 매니페스트의 위치 및 클라이언트를 실행 해야 하는 응용 프로그램의 버전을 포함 합니다.

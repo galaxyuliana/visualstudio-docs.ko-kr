@@ -1,5 +1,5 @@
 ---
-title: URL 선택기 대화 상자 (Visual Studio에서 SharePoint 개발) | Microsoft Docs
+title: URL 선택기 대화 상자 (SharePoint 개발)
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 8d8f193e50053b5cdf0b89cf41b09471c513ee9d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 991693c3379e008a2a907efd3127290c7e804c22
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63007954"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261938"
 ---
 # <a name="url-picker-dialog-box-sharepoint-development-in-visual-studio"></a>URL 선택기 대화 상자 (Visual Studio에서 SharePoint 개발)
   URL 선택기 대화 상자에서 프로젝트에 있거나 SharePoint를 실행하는 로컬 서버에 있는 마스터 페이지 파일 또는 이미지 파일과 같은 파일을 선택할 수 있습니다.

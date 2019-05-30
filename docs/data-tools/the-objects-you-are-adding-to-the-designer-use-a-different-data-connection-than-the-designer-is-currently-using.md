@@ -1,5 +1,5 @@
 ---
-title: 디자이너에 추가하려는 개체가 현재 디자이너가 사용 중인 것과 다른 데이터 연결을 사용합니다.
+title: 다른 데이터 연결을 사용 하 여 디자이너에 추가 된 개체
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 332ed2f3-3377-4d51-8e3b-fdb98231978e
@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 22307115893407fa4703475e727b1e77355cad57
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: c85e0c17eeb4cfbd786faac338c8b908c5a7f363
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65460549"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66260933"
 ---
 # <a name="the-objects-you-are-adding-to-the-designer-use-a-different-data-connection-than-the-designer"></a>디자이너에 추가 하려는 개체가 디자이너 보다 다양 한 데이터 연결을 사용 하 여
 

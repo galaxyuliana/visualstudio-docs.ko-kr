@@ -1,5 +1,5 @@
 ---
-title: '연습: 다시 서명 하는 필요가 없고 브랜드 정보가 유지 되는 ClickOnce 응용 프로그램 수동 배포 | Microsoft Docs'
+title: 수동으로 ClickOnce 배포 브랜딩 유지 하는 앱
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 50febcb027ec51b62bdde7ea06a7112470cdc247
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 47db202d07fd88bfb5e922964caf2cdd5008c6fd
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63405851"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263421"
 ---
 # <a name="walkthrough-manually-deploy-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information"></a>연습: 수동으로 다시 서명할 필요가 없습니다 없고 브랜드 정보가 유지 되는 ClickOnce 응용 프로그램 배포
 만들 때는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 및 고객 게시할 수 있도록 제공 및 배포, 고객에 일반적으로 배포 매니페스트를 업데이트 하 고 다시 서명 해야 했습니다. 여전히 대부분의 경우에는 이러한 방식이 사용 되 고 있지만,.NET Framework 3.5를 사용 하면 만들려는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 새 배포 매니페스트를 다시 생성할 필요 없이 고객에 게 배포할 수 있는 배포 합니다. 자세한 내용은 [다시 서명 하지 않고 테스트 및 프로덕션 서버용 ClickOnce 배포 응용 프로그램](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md)합니다.
@@ -127,7 +127,7 @@ ms.locfileid: "63405851"
 
 13. 선택 **파일**하십시오 **저장** 메뉴에서 응용 프로그램 매니페스트에 저장 합니다. 저장할 때 응용 프로그램 매니페스트에 서명 하 라는 메시지가 표시 됩니다.
 
-14. 파일 시스템에 파일로 저장 된 인증서에 있는 경우 사용 합니다 **인증서 파일로 서명** 옵션을 줄임표를 사용 하 여 파일 시스템에서 인증서를 선택 (**...** ) 단추입니다.
+14. 파일 시스템에 파일로 저장 된 인증서에 있는 경우 사용 합니다 **인증서 파일로 서명** 옵션을 줄임표를 사용 하 여 파일 시스템에서 인증서를 선택 ( **...** ) 단추입니다.
 
      또는
 
