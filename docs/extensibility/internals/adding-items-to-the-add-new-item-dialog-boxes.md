@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Add New Item dialog box, adding items
 ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 101bc22cd33b3438e0dc82542c20b1bb103cb617
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 61a9921103bf5954061fbb61c405ba1d36ffb782
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63418684"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328061"
 ---
 # <a name="add-items-to-the-add-new-item-dialog-box"></a>새 항목 추가 대화 상자에 항목 추가
 항목을 추가 하기 위한 프로세스를 **새 항목 추가** 레지스트리 키를 사용 하 여 대화 상자를 시작 합니다. 다음 레지스트리 항목에 표시 된 대로 합니다 **AddItemTemplates** 섹션에서 사용할 수 있는 어떤 항목에 있는 디렉터리의 이름과 경로 포함 합니다 **새 항목 추가** 대화 상자에 배치 됩니다.

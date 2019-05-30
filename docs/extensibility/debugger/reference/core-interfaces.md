@@ -5,17 +5,17 @@ ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], core interfaces
 ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 37e8b8e47b306f8b99e378cf407c0faf0955c737
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 76381731da62507217fb4408f20be6e8c35baa56
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60084871"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66346367"
 ---
 # <a name="core-interfaces"></a>Core 인터페이스
 다음 인터페이스는 디버거를 사용 하 여 확장에 대 한 핵심 인터페이스는 [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)]합니다.
@@ -303,6 +303,6 @@ ms.locfileid: "60084871"
 |[IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)|EE|형식 시각화 도우미에 전달할 데이터에 대 한 액세스를 가져오기 위한 메서드를 제공 합니다.|
 |[IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md)|EE|에 대 한 액세스를 제공 하는 속성을 나타내면 [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) 구현 합니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [API 참조](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
 - [사용자 지정 디버그 엔진 만들기](../../../extensibility/debugger/creating-a-custom-debug-engine.md)

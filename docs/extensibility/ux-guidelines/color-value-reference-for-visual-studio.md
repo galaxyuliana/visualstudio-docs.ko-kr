@@ -3,18 +3,18 @@ title: 색 값 참조
 description: '참조: 새 Visual Studio 색 토큰을 만들기에 대 한 16 진수 코드'
 keywords: 색, 16 진수 코드, 색상, 테마 UI, 테마 설정
 author: brickgeorge
-ms.author: gregvanl
+ms.author: madsk
 ms.date: 08/04/2017
 ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25
 ms.reviewer: Jamie.Young
 manager: jillfra
-ms.openlocfilehash: 64d2396215ab8c27607e5d1734cdc8cdfe675db6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ea37231dd31667389d9f08872eadbfdf26375bb2
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62805543"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66337995"
 ---
 # <a name="color-value-reference-for-visual-studio"></a>Visual Studio에 대 한 색 값 참조
 
