@@ -3,17 +3,17 @@ title: Visual Studio에 대 한 색 공유 | Microsoft Docs
 ms.date: 04/26/2017
 ms.topic: conceptual
 ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7e873250488bff50519cc12060841110325a48e8
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 8b36b7c123f4da9ca3ab7a6f33a972345cdf70e6
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430227"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66310784"
 ---
 # <a name="shared-colors-for-visual-studio"></a>Visual Studio에 대 한 공유 색
 일반적인 Visual Studio 셸 요소를 사용 하는 UI를 디자인할 때나 사용자 인터페이스 요소를 유사한 기능과 일치 원하는 이름을 사용 하 여 기존 토큰 패키지 정의 파일에서 선택 하 고 색을 할당 합니다. 이렇게 하면 UI가 전체 Visual Studio 환경과 일관성 있게 유지되며 테마를 추가하거나 업데이트할 경우 자동으로 업데이트됩니다.

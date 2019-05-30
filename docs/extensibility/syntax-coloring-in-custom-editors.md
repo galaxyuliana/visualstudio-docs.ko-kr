@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - syntax coloring
 ms.assetid: 74900b9a-baef-432a-8231-4568fb5e19ad
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e5e627d758a1249a1e9b5e877255a67cfb255cf9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ff717c8586e22d82a79344dd3c134c604f868d10
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62799069"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66316645"
 ---
 # <a name="syntax-coloring-in-custom-editors"></a>사용자 지정 편집기의 구문 색 지정
 핵심 편집기를 포함 하 여 visual Studio 환경 SDK 편집기를 특정 구문 항목을 식별 하 여 지정 된 문서 보기에 대 한 지정 된 색을 사용 하 여 표시할 언어 서비스를 사용 합니다.

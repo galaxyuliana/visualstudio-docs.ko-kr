@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - DUMPTYPE enumeration
 ms.assetid: ea8160db-8732-4056-a1d7-892ef72da71e
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 07525b118d2a9ee27c52c87e68dd078d0a67054c
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 7edb3129733aec29bb5eda64d388024bec4d5ece
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56697132"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318197"
 ---
 # <a name="dumptype"></a>DUMPTYPE
 덤프 하는 데 얼마나 많은 프로그램의 상태 (예: 실행 중인 스레드, 스택 프레임 및 현재 명령 주소)를 지정 합니다.
@@ -39,10 +42,12 @@ public enum enum_DUMPTYPE {
 };
 ```
 
-## <a name="members"></a>멤버
-DUMP_MINIDUMP 작은, compact 덤프를 지정합니다.
+## <a name="fields"></a>필드
+`DUMP_MINIDUMP`\
+작은, compact 덤프를 지정합니다.
 
-DUMP_FULLDUMP 큰, 전체 덤프를 지정합니다.
+`DUMP_FULLDUMP`\
+큰, 전체 덤프를 지정합니다.
 
 ## <a name="remarks"></a>설명
 인수로 전달 된 [WriteDump](../../../extensibility/debugger/reference/idebugprogram2-writedump.md) 메서드.
@@ -54,6 +59,6 @@ DUMP_FULLDUMP 큰, 전체 덤프를 지정합니다.
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [WriteDump](../../../extensibility/debugger/reference/idebugprogram2-writedump.md)

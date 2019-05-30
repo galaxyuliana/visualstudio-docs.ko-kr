@@ -8,17 +8,17 @@ helpviewer_keywords:
 - IVsAppCommandLine::GetOption method
 - command line, switches
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 376dcee6f23ec2633efe1b23f77552ebf33341f2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: de0044544a97134380900d3e55f54c8fb34431fd
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62891839"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66352344"
 ---
 # <a name="add-command-line-switches"></a>명령줄 스위치를 추가 합니다.
 VSPackage에 적용 되는 명령줄 스위치를 추가할 수 있습니다 때 *devenv.exe* 실행 됩니다. 사용 하 여 <xref:Microsoft.VisualStudio.Shell.ProvideAppCommandLineAttribute> 스위치와 해당 속성의 이름을 선언 합니다. 이 예제에서는 myswitch 인 스위치 라는 VSPackage의 서브 클래스에 대 한 항목이 **AddCommandSwitchPackage** 인수 없이 및 자동으로 로드 하는 VSPackage를 사용 하 여 합니다.

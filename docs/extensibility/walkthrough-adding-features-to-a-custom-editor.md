@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - add features
 ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: afbde92cd666e0e67b1e70b0b4899c09d8b5b3e7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 50565363f2fc88e40816bdfc4773e436e960ee06
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63411068"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66312892"
 ---
 # <a name="walkthrough-add-features-to-a-custom-editor"></a>연습: 사용자 지정 편집기에 기능 추가
 사용자 지정 편집기를 만든 후에 더 많은 기능을 추가할 수 있습니다.

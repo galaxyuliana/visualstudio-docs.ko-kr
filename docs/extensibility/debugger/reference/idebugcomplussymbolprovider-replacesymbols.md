@@ -6,20 +6,20 @@ helpviewer_keywords:
 - ReplaceSymbols
 - IDebugComPlusSymbolProvider::ReplaceSymbols
 ms.assetid: 82fbc8db-c4b1-432f-bec9-1a9dc09570be
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b395f49a8f222edb97e43610ae625fd154d8f320
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 15af82459df5b2c8406280287115fbe345a63788
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66206116"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66352814"
 ---
 # <a name="idebugcomplussymbolproviderreplacesymbols"></a>IDebugComPlusSymbolProvider::ReplaceSymbols
 지정된 된 데이터 스트림에 있는 현재 디버그 기호를 바꿉니다.

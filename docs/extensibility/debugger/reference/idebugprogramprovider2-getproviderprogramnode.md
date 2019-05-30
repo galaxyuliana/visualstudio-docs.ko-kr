@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramProvider2::GetProviderProgramNode
 ms.assetid: e62e8e83-acbb-4c52-aedf-ffbd4670db29
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 641a3420dac230a62e7a6ba509547ba85efee372
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 7629a60f3393f996a456c907ec150be202a0bb94
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66203746"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66349815"
 ---
 # <a name="idebugprogramprovider2getproviderprogramnode"></a>IDebugProgramProvider2::GetProviderProgramNode
 특정 프로그램에 대 한 프로그램 노드를 검색 합니다.

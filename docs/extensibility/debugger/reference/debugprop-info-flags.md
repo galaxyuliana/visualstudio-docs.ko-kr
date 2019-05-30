@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - DBGPROP_INFO_FLAGS enumeration
 ms.assetid: 1c7fe777-615e-4929-9ed4-970d9fe0eb81
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 131e014e3714df708c5ef1526ecb911531c5a5c3
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: ae512bec8f88be81a0c45ddf541c94d78b483284
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689111"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318381"
 ---
 # <a name="debugpropinfoflags"></a>DEBUGPROP_INFO_FLAGS
 디버그 속성 개체에 대 한 검색 정보를 지정 합니다.
@@ -67,32 +70,45 @@ public enum enum_DEBUGPROP_INFO_FLAGS {
 };
 ```
 
-## <a name="members"></a>멤버
-DEBUGPROP_INFO_FULLNAME 초기화/사용 된 `bstrFullName` 필드입니다.
+## <a name="fields"></a>필드
+`DEBUGPROP_INFO_FULLNAME`\
+초기화/사용 된 `bstrFullName` 필드입니다.
 
-DEBUGPROP_INFO_NAME 초기화/사용 된 `bstrName` 필드입니다.
+`DEBUGPROP_INFO_NAME`\
+초기화/사용 된 `bstrName` 필드입니다.
 
-DEBUGPROP_INFO_TYPE 초기화/사용 된 `bstrType` 필드입니다.
+`DEBUGPROP_INFO_TYPE`\
+초기화/사용 된 `bstrType` 필드입니다.
 
-DEBUGPROP_INFO_VALUE 초기화/사용 된 `bstrValue` 필드입니다.
+`DEBUGPROP_INFO_VALUE`\
+초기화/사용 된 `bstrValue` 필드입니다.
 
-DEBUGPROP_INFO_ATTRIB 초기화/사용 된 `dwAttrib` 필드입니다.
+`DEBUGPROP_INFO_ATTRIB`\
+초기화/사용 된 `dwAttrib` 필드입니다.
 
-DEBUGPROP_INFO_PROP 초기화/사용 된 `pProperty` 포함 된 필드를 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 인터페이스입니다.
+`DEBUGPROP_INFO_PROP`\
+초기화/사용 된 `pProperty` 포함 된 필드를 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 인터페이스입니다.
 
-DEBUGPROP_INFO_VALUE_AUTOEXPAND 지정 값 필드는이 형식의 개체에 대 한 사용 가능한 경우 자동 확장 값을 포함 해야 합니다.
+`DEBUGPROP_INFO_VALUE_AUTOEXPAND`\
+값 필드는이 형식의 개체에 대 한 사용 가능한 경우 자동 확장 값이 포함 됩니다 지정 합니다.
 
-DEBUGPROP_INFO_VALUE_NOFUNCEVAL 사용 되지 않습니다.
+`DEBUGPROP_INFO_VALUE_NOFUNCEVAL`\
+더 이상 사용되지 않습니다.
 
-또한 값 이나 멤버를 반환 하지 DEBUGPROP_INFO_VALUE_RAW 않습니다 (즉, 포맷 안 함 값).
+`DEBUGPROP_INFO_VALUE_RAW`\
+또한 값 이나 멤버를 반환 하지 않습니다 (즉, 포맷 안 함 값).
 
-합성 된 특수 한 값을 반환 하지 DEBUGPROP_INFO_VALUE_NO_TOSTRING 않습니다 (예를 들어 호출 하지 마십시오 `ToString()` 값을 생성 하는 개체에).
+`DEBUGPROP_INFO_VALUE_NO_TOSTRING`\
+합성 된 특수 한 값을 반환 하지 않습니다 (예를 들어 호출 하지 마십시오 `ToString()` 값을 생성 하는 개체).
 
-플래그가 설정 되지 않음 DEBUGPROP_INFO_NONE 지정 합니다.
+`DEBUGPROP_INFO_NONE`\
+플래그가 설정 되어 있는지를 지정 합니다.
 
-DEBUGPROP_INFO_STANDARD 초기화/사용 된 `dwAttrib`, `bstrName`, `bstrType`, 및 `bstrValue` 필드입니다.
+`DEBUGPROP_INFO_STANDARD`\
+초기화/사용 된 `dwAttrib`, `bstrName`, `bstrType`, 및 `bstrValue` 필드입니다.
 
-DEBUGPROP_INFO_All 모든 플래그 마스크를 나타냅니다.
+`DEBUGPROP_INFO_All`\
+모든 플래그 마스크를 나타냅니다.
 
 ## <a name="remarks"></a>설명
 이러한 값에 전달 되는 [GetPropertyInfo](../../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md)를 [EnumChildren](../../../extensibility/debugger/reference/idebugproperty2-enumchildren.md), 및 [EnumProperties](../../../extensibility/debugger/reference/idebugstackframe2-enumproperties.md) 를 초기화할 수 있는 필드를 나타내는 방법을 [ DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 구조입니다.
@@ -108,7 +124,7 @@ DEBUGPROP_INFO_All 모든 플래그 마스크를 나타냅니다.
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)
 - [GetPropertyInfo](../../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md)

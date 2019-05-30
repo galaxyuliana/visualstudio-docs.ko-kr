@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetCurrentLocation
 ms.assetid: 512302f1-12b1-4107-8a6e-c5bc878ce1c3
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 64e65d6c8d828685bbf5b07fe46260189db3b806
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 87adb08b6907fc07363372ab2e41377fc37957f5
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66204981"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351723"
 ---
 # <a name="idebugdisassemblystream2getcurrentlocation"></a>IDebugDisassemblyStream2::GetCurrentLocation
 현재 코드 위치를 나타내는 코드 위치 식별자를 반환 합니다.

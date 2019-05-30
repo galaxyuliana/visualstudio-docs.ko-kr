@@ -7,17 +7,17 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], hidden text
 - language services, implementing hidden text regions
 ms.assetid: 1c1dce9f-bbe2-4fc3-a736-5f78a237f4cc
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c228f74ea98286f7a4692eafdde67ecc15ecdea9
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
-ms.translationtype: HT
+ms.openlocfilehash: c3d1088399256a4d5b16fa269ce022800ed645b1
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263608"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351024"
 ---
 # <a name="how-to-provide-hidden-text-support-in-a-legacy-language-service"></a>방법: 레거시 언어 서비스의 숨겨진된 텍스트 지원 제공
 개요 영역 외에도 숨겨진된 텍스트 영역을 만들 수 있습니다. 클라이언트에서 제어 되 나 편집기 제어 숨겨진된 텍스트 영역 수 및 텍스트 영역을 완전히 숨기는 데 사용 됩니다. 편집기는 가로선으로 숨겨진된 영역을 표시합니다. 이러한 예로 **스크립트만** HTML 편집기에서 보기.

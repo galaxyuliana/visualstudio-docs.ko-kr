@@ -9,17 +9,17 @@ helpviewer_keywords:
 - templates [Visual Studio], wizards
 - IWizard interface
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c4ff83c2d4d28b6393f7f6d03b01e35d9cc0aa4f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 366244285892820039a5a0f7950a709d170b4527
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62911383"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66352037"
 ---
 # <a name="how-to-use-wizards-with-project-templates"></a>방법: 프로젝트 템플릿에 마법사 사용
 
@@ -218,9 +218,9 @@ Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와
 
 5. 솔루션을 다시 빌드합니다.
 
-6. 이제 key.snk 파일로 MyProjectWizard 프로젝트 디렉터리에 있습니다 (*\<디스크 위치 > \MyProjectTemplate\MyProjectWizard\key.snk*). 복사 합니다 *key.snk* 파일입니다.
+6. 이제 key.snk 파일로 MyProjectWizard 프로젝트 디렉터리에 있습니다 ( *\<디스크 위치 > \MyProjectTemplate\MyProjectWizard\key.snk*). 복사 합니다 *key.snk* 파일입니다.
 
-7. 출력 디렉터리로 이동 하 고 어셈블리를 찾습니다 (*\<디스크 위치 > \MyProjectTemplate/MyProjectWizard\bin\Debug\MyProjectWizard.dll*). 붙여넣기 합니다 *key.snk* 여기 파일입니다. (반드시 필요 하지 않습니다 하지만는 다음 단계를 쉽게 가져옵니다.)
+7. 출력 디렉터리로 이동 하 고 어셈블리를 찾습니다 ( *\<디스크 위치 > \MyProjectTemplate/MyProjectWizard\bin\Debug\MyProjectWizard.dll*). 붙여넣기 합니다 *key.snk* 여기 파일입니다. (반드시 필요 하지 않습니다 하지만는 다음 단계를 쉽게 가져옵니다.)
 
 8. 명령 창을 열고 있는 어셈블리를 만든 디렉터리로 변경 합니다.
 

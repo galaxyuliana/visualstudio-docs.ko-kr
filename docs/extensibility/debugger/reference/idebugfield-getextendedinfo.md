@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::GetExtendedInfo method
 ms.assetid: 46c0dd4d-4fd5-4efd-a908-71e4248e8e8d
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: fc37cd9cff4956d000441a632f84a6155f9b9586
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 3ddae4ea7ecc58d67279ae638d19bf95ec2cc591
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66212210"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66352651"
 ---
 # <a name="idebugfieldgetextendedinfo"></a>IDebugField::GetExtendedInfo
 이 메서드 확장 필드에 대 한 정보를 가져옵니다.

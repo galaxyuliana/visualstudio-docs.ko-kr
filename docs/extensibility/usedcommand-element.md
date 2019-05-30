@@ -6,17 +6,17 @@ helpviewer_keywords:
 - UsedCommands element (VSCT XML schema)
 - VSCT XML schema elements, UsedCommands
 ms.assetid: 99cd05d3-644a-42ff-b289-8458cd1b20c0
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 50cac2607a27443ef5a24ce00f34425ca418c513
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 36dbfa484b69832c67c7a1dd28f217706e1a91a6
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62798415"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66316315"
 ---
 # <a name="usedcommand-element"></a>UsedCommand 요소
 다른.vsct 파일에 정의 된 명령에 액세스 하기 위해 VSPackage를 사용 하도록 설정 합니다. 예를 들어 VSPackage는 표준을 **복사본** 명령에 정의 된는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 셸을 추가할 수 명령을 메뉴나 도구 모음을 다시 구현 하지 않고도 합니다.

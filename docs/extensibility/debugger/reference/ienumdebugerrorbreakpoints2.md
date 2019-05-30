@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugErrorBreakpoints2
 ms.assetid: ffdad73d-969a-45ef-9ad1-7f5d3b814018
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: bca2f3c93b7979413a9f0ea4dcaa5b521a362bd4
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: d204b29b46e257d4ca0b8c4102c3a64e9e78adf1
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65225554"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66317238"
 ---
 # <a name="ienumdebugerrorbreakpoints2"></a>IEnumDebugErrorBreakpoints2
 이 인터페이스는 보류 중인 중단점을 사용 하 여 연결 된 오류 중단점을 열거 합니다.

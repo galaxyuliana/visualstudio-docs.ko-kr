@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IEEVisualizerDataProvider::GetObjectForVisualizer method
 ms.assetid: bd5376fc-13b4-40b7-9a5d-7ba8289f1b24
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a7818e6f8d56faf0a242b8dddf68fe7bffa24d0a
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: a10630ee8c74af333958e7115c660872ac26f78f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66212976"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66350217"
 ---
 # <a name="ieevisualizerdataprovidergetobjectforvisualizer"></a>IEEVisualizerDataProvider::GetObjectForVisualizer
 이 메서드는이 시각화 도우미를 나타내는 개체를 가져옵니다.

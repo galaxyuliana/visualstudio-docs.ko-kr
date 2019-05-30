@@ -7,17 +7,17 @@ helpviewer_keywords:
 - VSPackages, creating reusable button groups
 - buttons, creating reusable groups
 ms.assetid: 0c561617-fb86-476d-8bd1-c6e5e7464c65
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 48ab55b58eee8f6444b253c09db1eeedcc8c5692
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 454e42ba0b99d47048fa54527e8771f8294dcbc9
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63411350"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351985"
 ---
 # <a name="create-reusable-groups-of-buttons"></a>단추의 다시 사용할 수 있는 그룹 만들기
 명령 그룹은 항상 함께 나타나는 메뉴 또는 도구 모음의 명령 모음입니다. CommandPlacements 부분에서 다른 부모 메뉴에 할당 하 여 다시 사용할 수 있는 명령 그룹을 *.vsct* 파일입니다.
@@ -28,7 +28,7 @@ ms.locfileid: "63411350"
 
 1. 라는 VSIX 프로젝트를 만듭니다 `ReusableButtons`합니다. 자세한 내용은 [메뉴 명령을 사용 하 여 확장 프로그램을 만들려면](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.
 
-2. 프로젝트를 열면 라는 사용자 지정 명령 항목 템플릿을 추가 **ReusableCommand**합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#** > **확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 *ReusableCommand.cs*합니다.
+2. 프로젝트를 열면 라는 사용자 지정 명령 항목 템플릿을 추가 **ReusableCommand**합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#**  > **확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 *ReusableCommand.cs*합니다.
 
 3. 에 *.vsct* 파일, 기호 섹션으로 이동 하 고, 그룹 및 프로젝트에 대 한 명령이 포함 된 GuidSymbol 요소를 찾습니다. 그 이름은 guidReusableCommandPackageCmdSet 합니다.
 

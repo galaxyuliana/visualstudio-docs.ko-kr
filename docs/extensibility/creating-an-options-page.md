@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], creating
 ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7b04977a15dfa082674b7661588b496d1a3c494d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b0b8108470d5f9f14c76e422591a536648b5485e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62891021"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66350982"
 ---
 # <a name="create-an-options-page"></a>옵션 페이지 만들기
 
@@ -247,7 +247,7 @@ ms.locfileid: "62891021"
 
      이 코드는 호출 <xref:Microsoft.VisualStudio.Shell.Package.GetDialogPage%2A> 만들거나 검색 하는 `OptionPageGrid` 인스턴스. `OptionPageGrid` 호출 <xref:Microsoft.VisualStudio.Shell.DialogPage.LoadSettingsFromStorage%2A> 해당 옵션은 공용 속성을 로드 합니다.
 
-2. 이제 라는 사용자 지정 명령 항목 서식 파일을 추가할 **MyToolsOptionsCommand** 값을 표시 합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#** > **확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 *MyToolsOptionsCommand.cs*합니다.
+2. 이제 라는 사용자 지정 명령 항목 서식 파일을 추가할 **MyToolsOptionsCommand** 값을 표시 합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#**  > **확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 *MyToolsOptionsCommand.cs*합니다.
 
 3. 에 *MyToolsOptionsCommand* 파일에서 명령의의 본문으로 바꿉니다. `ShowMessageBox` 메서드를 다음:
 

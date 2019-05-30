@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCustomAttribute::GetParentField
 ms.assetid: bcdfdf37-bfcf-4988-a7b8-4c731d0af1b0
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: a6bdb5daee7fa0c2b8dc5228998a8ac0fd22fec0
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 6a99310520109dad6a1b8084405119e0a106ad89
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66205327"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66350056"
 ---
 # <a name="idebugcustomattributegetparentfield"></a>IDebugCustomAttribute::GetParentField
 사용자 지정 특성에 연결 된 필드를 가져옵니다.

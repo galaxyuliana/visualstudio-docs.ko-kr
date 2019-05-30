@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - DisassemblyData structure
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f48d9eb61a3f017f61ef717a27e89cb7426bad26
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: edc91cf8599a8591b70d14c49611ff64d5e957e6
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56712478"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318234"
 ---
 # <a name="disassemblydata"></a>DisassemblyData
 표시할 통합된 개발 환경 (IDE)에 대 한 하나의 디스어셈블리 명령을 설명 합니다.
@@ -61,33 +64,45 @@ public struct DisassemblyData { 
 ```
 
 ## <a name="members"></a>멤버
-`dwFields` 합니다 [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md) 채워진 필드를 지정 하는 상수입니다.
+`dwFields`\
+합니다 [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md) 채워진 필드를 지정 하는 상수입니다.
 
-`bstrAddress` 일부 시작 지점 (일반적으로 연결 된 함수의 시작)에서 오프셋으로 주소입니다.
+`bstrAddress`\
+일부 시작 지점 (일반적으로 연결 된 함수의 시작)에서 오프셋으로 주소입니다.
 
-`bstrCodeBytes` 이 명령에 대 한 코드 바이트입니다.
+`bstrCodeBytes`\
+이 명령에 대 한 코드 바이트입니다.
 
-`bstrOpcode` 이 명령에 대 한 opcode입니다.
+`bstrOpcode`\
+이 명령에 대 한 opcode입니다.
 
-`bstrOperands` 이 명령에 대 한 피연산자입니다.
+`bstrOperands`\
+이 명령에 대 한 피연산자입니다.
 
-`bstrSymbol` 기호 이름을 있으면 주소 (공용 기호, 레이블 및 등)를 사용 하 여 연결 합니다.
+`bstrSymbol`\
+기호 이름을 있으면 주소 (공용 기호, 레이블 및 등)를 사용 하 여 연결 합니다.
 
-`uCodeLocationId` 디스어셈블된이 줄의 코드 위치 식별자입니다. 한 줄의 코드 컨텍스트 주소를 다른 코드 컨텍스트 주소 보다 큰 다음 첫 번째 디스어셈블된 코드 위치 식별자를 두 번째 코드 위치 식별자를 초과할 수도 있습니다.
+`uCodeLocationId`\
+디스어셈블된이 줄의 코드 위치 식별자입니다. 한 줄의 코드 컨텍스트 주소를 다른 코드 컨텍스트 주소 보다 큰 다음 첫 번째 디스어셈블된 코드 위치 식별자를 두 번째 코드 위치 식별자를 초과할 수도 있습니다.
 
-`posBeg` 합니다 [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 디스어셈블리 데이터 시작 하는 문서에는 위치에 해당 하는 합니다.
+`posBeg`\
+합니다 [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 디스어셈블리 데이터 시작 하는 문서에는 위치에 해당 하는 합니다.
 
-`posEnd` 합니다 [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 디스어셈블리 데이터 끝나는 문서의 위치에 해당 하는 합니다.
+`posEnd`\
+합니다 [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) 디스어셈블리 데이터 끝나는 문서의 위치에 해당 하는 합니다.
 
-`bstrDocumentUrl` 파일 이름으로 나타낼 수 있는 텍스트 문서에 대 한 합니다 `bstrDocumentUrl` 소스를 찾을 수 있는, 파일 이름 필드는 채웁니다 형식을 사용 하 여 `file://file name`입니다.
+`bstrDocumentUrl`\
+파일 이름으로 나타낼 수 있는 텍스트 문서에 대 한 합니다 `bstrDocumentUrl` 소스를 찾을 수 있는, 파일 이름 필드는 채웁니다 형식을 사용 하 여 `file://file name`입니다.
 
 파일 이름으로 표현할 수 없는 텍스트 문서에 대 한 `bstrDocumentUrl` 문서에 대 한 고유 식별자 이며 디버그 엔진 구현 해야 합니다 [GetDocument](../../../extensibility/debugger/reference/idebugdisassemblystream2-getdocument.md) 메서드.
 
 이 필드는 체크섬에 대 한 추가 정보를 포함할 수도 있습니다. 세부 정보에 대 한 설명을 참조 하세요.
 
-`dwByteOffset` 명령 코드 줄의 시작 부분에서 바이트 수입니다.
+`dwByteOffset`\
+명령 코드 줄의 시작 부분에서 바이트 수입니다.
 
-`dwFlags` 합니다 [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md) 활성화 되어 있는 플래그를 지정 하는 상수입니다.
+`dwFlags`\
+합니다 [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md) 활성화 되어 있는 플래그를 지정 하는 상수입니다.
 
 ## <a name="remarks"></a>설명
 각 `DisassemblyData` 구조 디스어셈블리의 명령 하나에서 설명 합니다. 이러한 구조체의 배열에서 반환 되는 [읽기](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md) 메서드.
@@ -211,7 +226,7 @@ namespace MyNamespace
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)
 - [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md)

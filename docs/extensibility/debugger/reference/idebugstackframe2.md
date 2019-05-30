@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugStackFrame2 interface
 ms.assetid: bd212a6a-dcc6-4756-a77a-e8dfda38b104
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1bf7380fb2a18cbf3d865d092f95ec0612645287
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 72ee1190c3a1bf45807939c26dd0951cb5636203
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457589"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66352085"
 ---
 # <a name="idebugstackframe2"></a>IDebugStackFrame2
 이 인터페이스는 특정 스레드에서 호출 스택에서 단일 스택 프레임을 나타냅니다.

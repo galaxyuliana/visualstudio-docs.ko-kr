@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugThreads2::Skip
 ms.assetid: eab068d4-1f8d-44cd-bc54-92a10fe23de6
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b155657611a503a41d3389ed95b7f0a6ba3ee639
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 5470c425e9a7f60b1d7f816bfcd4863ee9424b12
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66211093"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66350806"
 ---
 # <a name="ienumdebugthreads2skip"></a>IEnumDebugThreads2::Skip
 지정 된 개수의 요소를 건너뜁니다.

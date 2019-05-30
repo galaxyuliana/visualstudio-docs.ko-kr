@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - editor factories
 ms.assetid: cf4e8164-3546-441d-b465-e8a836ae7216
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f5c6b6dc6f02bfc22e6a02f708deefe4208d91ff
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 95932b249c4ea64d14ea8ced72c1e609503ed23f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62912632"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66353403"
 ---
 # <a name="editor-factories"></a>편집기 팩터리
 편집기 팩터리를 편집기 개체를 만들고 실제 뷰 라고 창 프레임에 넣습니다. 문서 데이터 및 편집기 및 디자이너를 만드는 데 필요한 문서 뷰 개체를 만듭니다. 편집기 팩터리를 Visual Studio 핵심 편집기 및 모든 표준 편집기를 만들 필요 합니다. 편집기 팩터리를 사용 하 여 사용자 지정 편집기를 만들 수도 있습니다.

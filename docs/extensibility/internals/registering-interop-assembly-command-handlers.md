@@ -6,17 +6,17 @@ helpviewer_keywords:
 - interop assemblies, command handlers
 - command handling with interop assemblies, registering
 ms.assetid: 303cd399-e29d-4ea1-8abe-5e0b59c12a0c
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b07f018a35874e2ffc3f3be825abb227f2996aea
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b3e90ffc6b065b6d69bbe09bfe1887764ccc9955
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425464"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66353327"
 ---
 # <a name="registering-interop-assembly-command-handlers"></a>Interop 어셈블리 명령 처리기를 등록
 VSPackage를 등록 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 는 통합된 개발 환경 (IDE)는 해당 명령을 올바르게 라우팅합니다.
@@ -28,10 +28,10 @@ VSPackage를 등록 해야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_
 - [명령 테이블 형식을 참조](https://msdn.microsoft.com/library/09e9c6ef-9863-48de-9483-d45b7b7c798f) 리소스가 관리 되지 않는 위성 dll UI에에서 있습니다.
 
 ## <a name="command-handler-registration-of-a-vspackage"></a>VSPackage의 명령 처리기 등록
- 사용자 인터페이스 (UI)에 대 한 처리기 역할을 하는 VSPackage-기반된 명령을 VSPackage의 이름을 딴 하는 레지스트리 항목이 있어야 `GUID`합니다. 이 레지스트리 항목 VSPackage의 UI 리소스 파일과 해당 파일 내에서 메뉴 리소스의 위치를 지정 합니다. HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio 아래에 있는 레지스트리 항목 자체\\*\<버전 >* \Menus, 여기서  *\<버전 >* 버전이 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]예를 들어 9.0, 합니다.
+ 사용자 인터페이스 (UI)에 대 한 처리기 역할을 하는 VSPackage-기반된 명령을 VSPackage의 이름을 딴 하는 레지스트리 항목이 있어야 `GUID`합니다. 이 레지스트리 항목 VSPackage의 UI 리소스 파일과 해당 파일 내에서 메뉴 리소스의 위치를 지정 합니다. HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio 아래에 있는 레지스트리 항목 자체\\ *\<버전 >* \Menus, 여기서  *\<버전 >* 버전이 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]예를 들어 9.0, 합니다.
 
 > [!NOTE]
-> HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio의 루트 경로\\*\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 셸 초기화 됩니다. 루트 경로 대 한 자세한 내용은 참조 하세요. [Windows Installer를 사용 하 여 Vspackage 설치](../../extensibility/internals/installing-vspackages-with-windows-installer.md)합니다.
+> HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio의 루트 경로\\ *\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 셸 초기화 됩니다. 루트 경로 대 한 자세한 내용은 참조 하세요. [Windows Installer를 사용 하 여 Vspackage 설치](../../extensibility/internals/installing-vspackages-with-windows-installer.md)합니다.
 
 ### <a name="the-ctmenu-resource-registry-entry"></a>CTMENU 리소스 레지스트리 항목
  레지스트리 항목의 구조는:

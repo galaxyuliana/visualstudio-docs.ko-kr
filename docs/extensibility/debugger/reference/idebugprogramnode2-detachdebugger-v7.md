@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramNode2::DetachDebugger
 - IDebugProgramNode2::DetachDebugger_V7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0b7d97e277a3f7f327bf8830e49507d28e82568f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 241db5db55897932120b3253ff5185cb852ea77b
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62869840"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351212"
 ---
 # <a name="idebugprogramnode2detachdebuggerv7"></a>IDebugProgramNode2::DetachDebugger_V7
 
@@ -47,6 +50,6 @@ int DetachDebugger_V7 ();
 
 이 메서드는 디버거가 예기치 않게 종료 되는 경우 호출 됩니다. 이 메서드를 호출 하는 경우는 DE에서 분리 된 사용자 처럼 프로그램을 재개 해야 합니다. 디버그 이벤트가 더 이상 전송 되어야 합니다. 프로그램은 디버거의 다른 인스턴스에서 연결 가능한 상태에 있어야 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)

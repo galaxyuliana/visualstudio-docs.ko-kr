@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccGetProjPath function
 ms.assetid: 1079847e-d45f-4cb8-9d92-1e01ce5d08f6
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: abc7ecf0bb35f61785041d03f871409bbe499854
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b31a17e89003967aef6a423dda87572b4a07c387
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434605"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66353674"
 ---
 # <a name="sccgetprojpath-function"></a>SccGetProjPath 함수
 이 함수는 프로젝트 경로 소스 제어 플러그 인에 의미 있는 문자열에 대 한 라는 메시지입니다. 사용자가 있는 경우 라고 합니다.

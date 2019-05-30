@@ -7,17 +7,17 @@ helpviewer_keywords:
 - menus, adding menu controllers to toolbars
 - menu controllers, adding to toolbars
 ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2938da8f5f24c5c60cfe8d09423be886de1d0c86
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: eaa53a9bf8d33ad145d75bdb2d72e6820f806711
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62843854"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66349804"
 ---
 # <a name="add-a-menu-controller-to-a-toolbar"></a>도구 모음에 메뉴 컨트롤러 추가
 이 연습은 합니다 [도구 창에 도구 모음을 추가](../extensibility/adding-a-toolbar-to-a-tool-window.md) 연습 및 도구 창 도구 모음에 메뉴 컨트롤러를 추가 하는 방법을 보여 줍니다. 여기에 나와 있는 단계도 적용할 수 있습니다에서 만든 도구 모음에는 [도구 모음 추가](../extensibility/adding-a-toolbar.md) 연습 합니다.
