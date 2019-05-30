@@ -6,20 +6,20 @@ helpviewer_keywords:
 - user interface, source control packages
 - source control packages, user interface
 ms.assetid: f35ddb24-53bf-461e-b34f-7414f657c082
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 09ab1bb7e44ee2772023a73632ca194796bbb33e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9d27fe21fb577f2e3610bf30109aa8c0b7f17a12
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910070"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66312192"
 ---
 # <a name="custom-user-interface-source-control-vspackage"></a>사용자 지정 사용자 인터페이스 (소스 제어 VSPackage)
-VSPackage는 해당 메뉴 항목 및 Visual Studio 명령 테이블을 통해 기본 상태로 선언 (*.vsct*) 파일입니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)는 VSPackage가 로드 될 때까지 기본 상태로 메뉴 항목을 표시 합니다. 이후에 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 메뉴 항목을 사용할지 여부를 호출 합니다.
+VSPackage는 해당 메뉴 항목 및 Visual Studio 명령 테이블을 통해 기본 상태로 선언 ( *.vsct*) 파일입니다. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE)는 VSPackage가 로드 될 때까지 기본 상태로 메뉴 항목을 표시 합니다. 이후에 <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> 메뉴 항목을 사용할지 여부를 호출 합니다.
 
  VSPackage 명령 사용자 인터페이스 (UI) 컨텍스트에 따라 VSPackage를 자동으로 로드할 수 있도록 레지스트리 키를 설정할 수 있습니다, 그리고 방금 특정 UI 컨텍스트로 전환 하는 대신 요청 시 VSPackage가 로드 되지만 일반적으로 소스 제어 합니다. 에 대 한 자세한 내용은 합니다 **AutoLoadPackages** 레지스트리 키를 참조 하십시오 [관리 Vspackage](../../extensibility/managing-vspackages.md)합니다.
 

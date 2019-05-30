@@ -1,5 +1,5 @@
 ---
-title: '연습: 엔터티 클래스의 삽입, 업데이트 및 삭제 동작 사용자 지정'
+title: 엔터티 클래스의 삽입/업데이트/삭제 동작 사용자 지정
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: e869ae13c9d7ec82cb4d70fb5f3c5fce355691d5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 189516fe90863d80467dc3070dcc6b44a4a492a0
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62565409"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262903"
 ---
 # <a name="walkthrough-customize-the-insert-update-and-delete-behavior-of-entity-classes"></a>연습: 엔터티 클래스의 삽입, 업데이트 및 삭제 동작 사용자 지정
 
@@ -195,7 +195,7 @@ LINQ에서 SQL 데이터 원본 항목을 끌어 엔터티 클래스에 바인�
 
 5. **속성** 창에서 **삽입** 속성을 선택합니다.
 
-6. **런타임 사용** 옆의 줄임표(**...**) 를 클릭하여 **동작 구성** 대화 상자를 엽니다.
+6. **런타임 사용** 옆의 줄임표( **...** ) 를 클릭하여 **동작 구성** 대화 상자를 엽니다.
 
 7. **사용자 지정**을 선택합니다.
 

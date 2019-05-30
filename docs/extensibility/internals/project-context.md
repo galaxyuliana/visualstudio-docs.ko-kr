@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], opening items
 ms.assetid: d1803f4a-24eb-44b0-b5d2-cb40c15534be
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 800a28d9829600821014aab17b36ca8506fd044a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 175ee37628b1794377a6b4e9e94cef52466cd291
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62859626"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328352"
 ---
 # <a name="project-context"></a>프로젝트 컨텍스트
 사용자 추가, 프로젝트 및 프로젝트 항목을 사용 하 여 작동 하는 경우 IDE 다양 한 작업을 수행할지 결정할 프로젝트 컨텍스트의 개념을 사용 합니다.

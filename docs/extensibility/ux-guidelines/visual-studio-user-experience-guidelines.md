@@ -3,17 +3,17 @@ title: Visual Studio 사용자 환경 지침 | Microsoft Docs
 ms.date: 10/05/2018
 ms.topic: conceptual
 ms.assetid: 3abbe495-cbbc-4982-a809-38bda34553a7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6345fa74d78ab50229cb692ece58723fea38124a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b1f82142a66ad5c967e8f790e6dc70fca6b53496
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62553655"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66310753"
 ---
 # <a name="visual-studio-user-experience-guidelines"></a>Visual Studio 사용자 환경 지침
 Visual Studio에 대 한 새로운 기능을 디자인 하는 경우 Visual Studio 사용자 환경 지침을 따릅니다. 다음이 지침에는 일반적인 사용자 모델과 상호 작용 패턴에 대 한 정보 때문에 새 사용자 인터페이스 (UI) 디자이너에는 원활 하 고 개발 환경 내에서 일관 된 사용자 환경을 만들 수 있습니다.

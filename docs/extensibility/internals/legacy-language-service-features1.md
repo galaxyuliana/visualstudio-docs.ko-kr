@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - language services [managed package framework]
 ms.assetid: a646e4f0-767d-4cd1-8e1a-9a2aa210a1b7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d2a1eea79b0ac2d80fb2b75043d4462e73928798
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b8fead42087699deb257b29093ee4349bbc8ef78
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62909556"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66333630"
 ---
 # <a name="legacy-language-service-features"></a>레거시 언어 서비스 기능
 하나 이상의 관리 되는 패키지 프레임 워크 (MPF) 언어 서비스를 지원할 수 있습니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 구문 강조 표시, IntelliSense 및 중단점 유효성 검사와 같은 기능을 합니다. 각 기능 독립적으로 구현할 수 있지만 파서와 스캐너만 해야 하는 구문 강조 표시를 제외 하 고 스캐너 모두 필요 합니다.

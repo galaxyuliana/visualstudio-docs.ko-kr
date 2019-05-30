@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocument2::GetName
 ms.assetid: 6f09ff09-b0cf-4472-8fc8-143991f0ceb1
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1e653f7f735be43f2edeb4bd3c7935d3c89a9e58
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 31eddcc07adc181e179c3f3edba669fff85fa565
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66204747"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66310273"
 ---
 # <a name="idebugdocument2getname"></a>IDebugDocument2::GetName
 여러 형식 중 하나로 문서의 이름을 가져옵니다.

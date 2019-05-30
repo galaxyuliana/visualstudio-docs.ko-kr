@@ -3,17 +3,17 @@ title: Creating an Extension with 도구 창 | Microsoft Docs
 ms.date: 3/16/2019
 ms.topic: conceptual
 ms.assetid: 585b0a3a-f85b-4f92-81bb-9ca499bb8a89
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2741a7f9d27c303981ed4b179e3fe3d7cd63f020
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b5a38c9912be87c94c79076675b5db25663fb5f0
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62926463"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66345440"
 ---
 # <a name="create-an-extension-with-a-tool-window"></a>도구 창으로 확장 프로그램을 만들려면
 
@@ -27,7 +27,7 @@ ms.locfileid: "62926463"
 
 1. 라는 VSIX 프로젝트를 만듭니다 **FirstWindow**합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다 합니다 **새 프로젝트** "vsix"를 검색 하 여 대화 상자.
 
-2. 프로젝트를 열면 라는 도구 창 항목 템플릿을 추가 **MyWindow**합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#** > **확장성** 선택한 **사용자 지정 도구 창을**합니다. 에 **이름을** 창의 맨 아래에 있는 필드에 도구 창 파일 이름을 *MyWindow.cs*합니다.
+2. 프로젝트를 열면 라는 도구 창 항목 템플릿을 추가 **MyWindow**합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#**  > **확장성** 선택한 **사용자 지정 도구 창을**합니다. 에 **이름을** 창의 맨 아래에 있는 필드에 도구 창 파일 이름을 *MyWindow.cs*합니다.
 
 3. 프로젝트를 빌드하고 디버깅을 시작합니다.
 

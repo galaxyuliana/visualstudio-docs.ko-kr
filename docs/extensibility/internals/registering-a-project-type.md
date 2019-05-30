@@ -7,17 +7,17 @@ helpviewer_keywords:
 - registry, new project types
 - registration, new project types
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fccd422a0f24a65532e648a1254aecedc484903e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b950ea6dde73ecb7f20ef45e945106e8711aefb0
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63425664"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66353358"
 ---
 # <a name="registering-a-project-type"></a>프로젝트 형식 등록
 레지스트리 항목을 사용 하도록 설정 하는 새 프로젝트 형식을 만들면 만들어야 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 인식 및 프로젝트 형식을 사용 하 여 작동 합니다. 일반적으로 레지스트리 스크립트 (.rgs) 파일을 사용 하 여 이러한 레지스트리 항목을 만듭니다.

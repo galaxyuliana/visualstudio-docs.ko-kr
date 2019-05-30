@@ -6,17 +6,17 @@ helpviewer_keywords:
 - project configurations
 - configuration options, about configuration options
 ms.assetid: f4ad4dd3-b39e-42df-ad89-d403cdf24a2b
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 791c50e6839190fa3700c335896f24f0714a64bc
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b27df2b9b93276ade06f97c9e80fd0c0483ef963
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415149"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66309993"
 ---
 # <a name="configuration-options-overview"></a>구성 옵션 개요
 프로젝트에 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 여러 구성을 빌드할 수 있는, 디버깅, 실행 및/또는 배포를 지원할 수 있습니다. 구성에는 명명된 된 집합의 속성, 일반적으로 컴파일러 스위치 및 파일 위치를 사용 하 여 설명 된 빌드 형식입니다. 기본적으로 새 솔루션에는 두 가지 구성이 포함 될 *디버그* 하 고 *릴리스*합니다. 이러한 구성은 특정 솔루션 및/또는 프로젝트 요구 사항에 맞게 수정 또는 해당 기본 설정을 사용 하 여 적용할 수 있습니다. 일부 패키지는 두 가지 방법으로 빌드할 수 있습니다: ActiveX 편집기 또는 내부 구성 요소로 합니다. 그러나 여러 구성을 지원 하기 위해 프로젝트 필요가 없습니다. 사용 가능한 하나의 구성만 있으면 해당 구성은 모든 솔루션 구성에 매핑됩니다.

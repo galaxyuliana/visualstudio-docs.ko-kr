@@ -3,17 +3,17 @@ title: Visual Studio 용 UX Essentials | Microsoft Docs
 ms.date: 04/26/2017
 ms.topic: conceptual
 ms.assetid: a793cf7a-f230-43ce-88d0-fa5d6f1aa9c7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2e97aa60a983eef3034eab28f7835edc1abb6734
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 45e4f1389317c67665d1b03e936a33380cb7ecf2
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62951882"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66310802"
 ---
 # <a name="ux-essentials-for-visual-studio"></a>UX Essentials for Visual Studio
 
@@ -134,10 +134,10 @@ Internet Explorer, Office 및 Visual Studio에 일반적인 패턴에 따라이 
 #### <a name="underlining-used-as-a-group-label-not-a-hyperlink"></a>하이퍼링크 없습니다을 그룹 레이블로 사용 되는 밑줄 표시
  하이퍼링크에 대 한 밑줄 텍스트를 사용 해야 합니다.
 
- **잘못 된:**\
+ **잘못 된:** \
  ![밑줄이 그어진된 텍스트 하이퍼링크 하지 않은 경우 Visual Studio 안티패턴 ](../../extensibility/ux-guidelines/media/0102-g_grouplabelincorrect.png "0102 g_GroupLabelIncorrect")<br />밑줄이 그어진된 텍스트 하이퍼링크 하지 않은 경우 Visual Studio 안티패턴
 
- **좋은:**\
+ **좋은:** \
  ![올바르게 스타일 아닌 하이퍼링크 텍스트 표시 되지 않은 환경 글꼴로 표시 합니다. ](../../extensibility/ux-guidelines/media/0102-h_grouplabelcorrect.png "0102 h_GroupLabelCorrect")<br />올바르게 스타일 아닌 하이퍼링크 텍스트 표시 되지 않은 환경 글꼴로 표시 합니다.
 
 #### <a name="clicking-on-a-check-box-results-in-a-pop-up-dialog"></a>팝업 대화 상자에서 확인란 결과 클릭

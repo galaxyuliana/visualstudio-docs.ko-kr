@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - project configurations, output
 ms.assetid: a4517f73-45af-4745-9d7f-9fddf887b636
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a7ac9c63a8524de17541a46f4fecb9e8d9a5ff69
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 5f1fa63a0e3143be6f8133b2a8ae3a57fe6857a9
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63423300"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328376"
 ---
 # <a name="project-configuration-for-output"></a>출력에 대한 프로젝트 구성
 모든 구성에는 실행 파일 또는 리소스 파일과 같은 출력 항목을 생성 하는 빌드 프로세스의 집합을 지원할 수 있습니다. 이러한 출력 항목은 사용자에 게 개인 및 관련된 형식의 실행 파일 (.exe,.dll,.lib) 및 원본 파일 (.idl,.h 파일)와 같은 출력을 연결 하는 그룹에 배치할 수 있습니다.
