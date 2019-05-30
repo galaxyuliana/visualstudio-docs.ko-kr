@@ -5,17 +5,17 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessSecurity interface
 ms.assetid: 8a52ddca-bd99-49c0-9778-469dce7abd44
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 12c1cc5af90fa0ff337a105f6d3d7232b72ab6ac
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 74202c4342ae5880f277299b6bb94dcdadff26f5
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62917436"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66311416"
 ---
 # <a name="idebugprocesssecurity"></a>IDebugProcessSecurity
 `IDebugProcessSecurity` 포트 공급자 프로세스에 연결 되지 않음을 안전 하 게 사용자에 게 경고에 의해 구현 됩니다.
@@ -44,7 +44,7 @@ IDebugProcessSecurity : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [포트](../../../extensibility/debugger/ports.md)
 - [포트 공급자](../../../extensibility/debugger/port-suppliers.md)
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)

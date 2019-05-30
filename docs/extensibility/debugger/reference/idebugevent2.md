@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEvent2 interface
 ms.assetid: de3d714d-96fb-4e12-b66b-a75391472153
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7e70767bab6453f3c3d96b58c8be049a832dc6ad
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: f87184481c5d01e74d284b175078b67f6f2612d1
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62920204"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66310604"
 ---
 # <a name="idebugevent2"></a>IDebugEvent2
 이 인터페이스는 모두 중단점에서 중지 하는 등의 중요 한 디버그 정보 및 디버깅 메시지와 같은 중요 하지 않은 정보를 전달 하기 위해 사용 됩니다.
@@ -51,7 +51,7 @@ IDebugEvent2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md)
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

@@ -6,17 +6,17 @@ helpviewer_keywords:
 - tool windows, configuring
 - tool windows, appearance
 ms.assetid: 502a4926-bb83-473e-94e2-8e833c5f8b53
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 663bc7a2add5e436cb7b0166387d6e3638087a1a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4498cc0bf7a1a9eab69ecc16b4fb31c3c5e4048c
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62432163"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66316395"
 ---
 # <a name="tool-window-display-configuration"></a>도구 창 표시 구성
 VSPackage는 도구 창, 기본 위치, 크기, 도킹 스타일 및 다른 표시 유형 정보를 등록 하는 경우 옵션 값에 지정 됩니다. 도구 창 등록에 대 한 자세한 내용은 참조 하세요. [레지스트리에서 Windows 도구](../extensibility/tool-windows-in-the-registry.md)

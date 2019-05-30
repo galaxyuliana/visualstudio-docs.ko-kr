@@ -3,17 +3,17 @@ title: 언어 서버 프로토콜 확장 추가 | Microsoft Docs
 ms.date: 11/14/2017
 ms.topic: conceptual
 ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d9b268c0c15ce468ca40a90583c5b7310364c189
-ms.sourcegitcommit: 283f2dbce044a18e9f6ac6398f6fc78e074ec1ed
+ms.openlocfilehash: 7518a9086d5923c7b6ad71f07227b76517934b56
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65805108"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66352328"
 ---
 # <a name="add-a-language-server-protocol-extension"></a>언어 서버 프로토콜 확장 추가
 
@@ -139,7 +139,7 @@ LSP는 언어에 대 한 텍스트 색 지정을 제공 하는 방법에 대 한
 
 4. 선택한 파일을 마우스 오른쪽 단추로 클릭 **속성**합니다. 변경 합니다 **빌드** 작업을 **콘텐츠** 변경 하 고는 **VSIX에 포함** 속성을 **true**합니다.
 
-이전 단계를 완료 한 후를 *문법* 폴더가 패키지의 설치에 추가 됩니다 리포지토리 원본 디렉터리 라는 'MyLang' ('MyLang' 명확성을 위해 이름만 이며 고유한 문자열일 수 있습니다). 모든 문법 (*.tmlanguage* 파일) 및 테마 파일 (*.tmtheme* 파일)이 디렉터리는 미래를 선택 하 고 TextMate와 함께 제공 되는 기본 제공 문법 대체 합니다. 열려 있는 파일의 확장명과 일치 하는 문법 파일의 선언 된 확장, TextMate 개입 됩니다.
+이전 단계를 완료 한 후를 *문법* 폴더가 패키지의 설치에 추가 됩니다 리포지토리 원본 디렉터리 라는 'MyLang' ('MyLang' 명확성을 위해 이름만 이며 고유한 문자열일 수 있습니다). 모든 문법 ( *.tmlanguage* 파일) 및 테마 파일 ( *.tmtheme* 파일)이 디렉터리는 미래를 선택 하 고 TextMate와 함께 제공 되는 기본 제공 문법 대체 합니다. 열려 있는 파일의 확장명과 일치 하는 문법 파일의 선언 된 확장, TextMate 개입 됩니다.
 
 ## <a name="create-a-simple-language-client"></a>간단한 언어 클라이언트 만들기
 

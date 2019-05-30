@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - SccUninitialize function
 ms.assetid: 17cf5337-d251-4422-bc96-93fe7d48f2ae
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fae6cf7d86d57152446e8acc9e87a0fcbb3d12db
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f71e34352150143c7db207ed31ea6e879f97ca18
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62433034"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66338491"
 ---
 # <a name="sccuninitialize-function"></a>SccUninitialize 함수
 이 함수에 대 한 이전 호출에서 만든 연결 나 할당 정리 합니다 [SccInitialize](../extensibility/sccinitialize-function.md) 소스 제어 플러그 인 종료에 대 한 준비 합니다.

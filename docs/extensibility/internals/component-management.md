@@ -6,22 +6,22 @@ helpviewer_keywords:
 - installation [Visual Studio SDK], components
 - installation [Visual Studio SDK], file management
 ms.assetid: 029bffa2-6841-4caa-a41a-442467e1aedc
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1ef2edb8996984f943ce3d7ec168eed0692f2493
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 477079cdb0349b2299b5cb829770800a4930958d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910385"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66310010"
 ---
 # <a name="component-management"></a>구성 요소 관리
 Windows 설치 관리자에서 작업의 단위는 Windows 설치 관리자 구성 요소 (WICs 또는 구성 요소 라고도 함) 라고 합니다. 설치 및 Windows Installer를 사용 하는 설정에 대 한 계산 참조의 기본 단위는 각 WIC를 식별 하는 GUID입니다.
 
- 이 토론의 Windows Installer 사용 한다고 가정 여러 제품을 사용 하 여 VSPackage 설치 관리자를 만들 수 있습니다, 있지만 (*.msi*) 파일입니다. 설치 관리자를 만들 때 발생 하는 모든 시간에 올바른 참조 카운팅 있도록 파일 배포 올바르게 관리 해야 합니다. 따라서 다른 버전의 제품 및 하지 않습니다 방해 또는 서로 다양 한 설치 중단 시나리오를 제거 합니다.
+ 이 토론의 Windows Installer 사용 한다고 가정 여러 제품을 사용 하 여 VSPackage 설치 관리자를 만들 수 있습니다, 있지만 ( *.msi*) 파일입니다. 설치 관리자를 만들 때 발생 하는 모든 시간에 올바른 참조 카운팅 있도록 파일 배포 올바르게 관리 해야 합니다. 따라서 다른 버전의 제품 및 하지 않습니다 방해 또는 서로 다양 한 설치 중단 시나리오를 제거 합니다.
 
  Windows 설치 관리자에서 구성 요소 수준에서 발생 참조 수를 계산 합니다. 리소스를 신중 하 게 구성 해야 합니다-파일, 레지스트리 항목을 등에-구성 요소에 있습니다. 다른 수준의 조직, 모듈, 기능, 제품 등과 같은-다양 한 시나리오에서 도움이 되는 합니다. 자세한 내용은 [Windows Installer 기본 사항](../../extensibility/internals/windows-installer-basics.md)합니다.
 

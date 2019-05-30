@@ -7,17 +7,17 @@ helpviewer_keywords:
 - language services [managed package framework], outlining
 - outlining, supporting in language services [managed package framework]
 ms.assetid: 7b5578b4-a20a-4b94-ad4c-98687ac133b9
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7aa01918b8de718fc26c0dc0249615b327150020
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7af8ab4615cff7462a47dfb11b193660eb62274c
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63422865"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66314876"
 ---
 # <a name="outlining-in-a-legacy-language-service"></a>레거시 언어 서비스의 개요 표시
 개요 개요 또는 개요로 복잡 한 프로그램을 축소할 수 있습니다. 예를 들어 C#의 모든 메서드는 메서드 시그니처를 보여 주는 단일 줄으로 축소할 수 있습니다. 또한 구조체와 클래스 구조 및 클래스의 이름만 표시 하도록 축소할 수 있습니다. 단일 메서드 내에서 복잡 한 논리 축소할 수 있습니다와 같은 문 첫 번째 줄만 표시 하 여 전체 흐름을 나타내기 위해 `foreach`, `if`, 및 `while`합니다.

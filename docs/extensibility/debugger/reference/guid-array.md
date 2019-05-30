@@ -5,17 +5,20 @@ ms.topic: reference
 helpviewer_keywords:
 - GUID_ARRAY structure
 ms.assetid: 9e12500c-2c1c-49b1-a0ba-e08366c97eb8
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: eed39ee4446e66e1e7b1700d97ad680eb62c2523
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: d53413ee56700fe39470d3bbc3229f4b8b668373
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56704971"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66317537"
 ---
 # <a name="guidarray"></a>GUID_ARRAY
 사용할 디버그 엔진에 대 한 고유 식별자의 배열을 설명합니다.
@@ -38,10 +41,12 @@ public struct GUID_ARRAY
 }
 ```
 
-## <a name="terms"></a>용어
-dwCount 배열에 있는 고유 식별자의 수입니다.
+## <a name="members"></a>멤버
+`dwCount`\
+배열에 있는 고유 식별자의 수입니다.
 
-고유 식별자가 포함 된 멤버의 배열입니다.
+`Members`\
+고유 식별자가 포함 된 배열입니다.
 
 ## <a name="remarks"></a>설명
 이 구조에서 반환 되는 [GetEngineFilter](../../../extensibility/debugger/reference/idebugprocess3-getenginefilter.md) 메서드.
@@ -53,6 +58,6 @@ dwCount 배열에 있는 고유 식별자의 수입니다.
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetEngineFilter](../../../extensibility/debugger/reference/idebugprocess3-getenginefilter.md)
