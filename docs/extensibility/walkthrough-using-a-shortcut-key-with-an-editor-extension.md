@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - link keystrokes to commands
 ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0e8d4acb5bc43a174187fa74714a9ff24ef0a67c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5707e83545d2008f8e8ec042ea61208220887204
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62964484"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318507"
 ---
 # <a name="walkthrough-use-a-shortcut-key-with-an-editor-extension"></a>연습: 편집기 확장을 사용 하 여 바로 가기 키를 사용 합니다.
 편집기 확장에서 바로 가기 키에 대응할 수 있습니다. 다음 연습에는 바로 가기 키를 사용 하 여 보기 장식 텍스트 뷰를 추가 하는 방법을 보여 줍니다. 이 연습에서는 뷰포트 adornment 편집기 템플릿을 기준으로 하며 장식을 사용 하 여 추가할 수 있도록는 + 문자입니다.
@@ -108,7 +108,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
     }
     ```
 
-7. 구현 합니다 `Exec()` 메서드를 추가 하도록 자주색 상자 보기로 더하기 기호 (**+**) 문자를 입력 합니다.
+7. 구현 합니다 `Exec()` 메서드를 추가 하도록 자주색 상자 보기로 더하기 기호 ( **+** ) 문자를 입력 합니다.
 
     ```csharp
     int IOleCommandTarget.Exec(ref Guid pguidCmdGroup, uint nCmdID, uint nCmdexecopt, IntPtr pvaIn, IntPtr pvaOut)
@@ -237,7 +237,7 @@ Visual Studio 2017 버전 15.6 편집기 확장에서 명령을 처리 하는 �
    }
    ```
 
-6. 구현 합니다 `ExecuteCommand()` 메서드를 추가 하도록 자주색 상자 보기로 더하기 기호 (**+**) 문자를 입력 합니다.
+6. 구현 합니다 `ExecuteCommand()` 메서드를 추가 하도록 자주색 상자 보기로 더하기 기호 ( **+** ) 문자를 입력 합니다.
 
    ```csharp
    public bool ExecuteCommand(TypeCharCommandArgs args, CommandExecutionContext executionContext)

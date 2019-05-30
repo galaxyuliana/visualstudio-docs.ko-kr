@@ -7,17 +7,17 @@ helpviewer_keywords:
 - toolbox
 - windows forms
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a3c423361b860c5769d9555409b44973fdc25896
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3887a2d54f2744504f587b848bc1395090c3904c
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62891096"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66345405"
 ---
 # <a name="create-a-windows-forms-toolbox-control"></a>Windows Forms 도구 상자 컨트롤 만들기
 
@@ -35,7 +35,7 @@ Windows Forms 도구 상자 컨트롤 템플릿은 정의 되지 않은 사용�
 
 1. 라는 VSIX 프로젝트를 만듭니다 `MyWinFormsControl`합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다는 **새 프로젝트** 대화 상자에서 "vsix"를 검색 합니다.
 
-2. 프로젝트를 열면 추가 된 **Windows Forms 도구 상자 컨트롤** 이라는 항목 템플릿을 `Counter`합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#** > **확장성** 선택 하 고 **Windows Forms 도구 상자 컨트롤**
+2. 프로젝트를 열면 추가 된 **Windows Forms 도구 상자 컨트롤** 이라는 항목 템플릿을 `Counter`합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#**  > **확장성** 선택 하 고 **Windows Forms 도구 상자 컨트롤**
 
 3. 사용자 정의 컨트롤을 추가 하는이 `ProvideToolboxControlAttribute` <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute> 에서 컨트롤을 배치할를 **도구 상자**, 및 **Microsoft.VisualStudio.ToolboxControl** 배포용 VSIX 매니페스트의 자산 항목.
 

@@ -6,17 +6,17 @@ helpviewer_keywords:
 - debug engines, launching
 - programs, launching
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c069e082d4bd9a11278a63d33a68822e528db795
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d9488c002e78828471374b954550843e16ff0e6b
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63409984"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66344080"
 ---
 # <a name="launch-a-program"></a>프로그램 실행
 프로그램을 디버깅 하려는 사용자를 눌러도 **F5** IDE에서 디버거를 실행 합니다. 이 일련의 궁극적으로 IDE의 다시 연결 되거나 연결 프로그램에 다음과 같이 되는 디버그 엔진 (DE)에 연결 하는 이벤트를 시작 합니다.

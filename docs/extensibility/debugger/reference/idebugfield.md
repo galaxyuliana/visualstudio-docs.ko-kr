@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField interface
 ms.assetid: adecdd1c-b1b9-4027-92da-74cbe910636f
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a036f6d08c6f88a30f8a8c9ab6d0d2e847065854
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 80def3f9c3d270ebd6f2217f6ce39f07ef27b119
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62873920"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66337517"
 ---
 # <a name="idebugfield"></a>IDebugField
 이 인터페이스는 필드를, 즉, 기호 또는 형식에 대 한 설명을 나타냅니다.
@@ -69,5 +69,5 @@ weather stormy;
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [기호 공급자 인터페이스](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)

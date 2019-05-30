@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer3 interface
 ms.assetid: 51f5f41b-a5a4-4df0-a703-41f3d1811d7f
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 629e35e8756be1dfa6df9f21eda02624b4c363de
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 7f9a8e6e16aa9279bb7324f5d08f0da3035f2b85
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62921907"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66343988"
 ---
 # <a name="idebugcoreserver3"></a>IDebugCoreServer3
 이 인터페이스에서 프로세스가 실행 중인 서버에 대 한 정보에 액세스할 수 있습니다.
@@ -58,6 +58,6 @@ IDebugCoreServer3 : IDebugCoreServer2
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)
 - [GetServer](../../../extensibility/debugger/reference/idebugdefaultport2-getserver.md)

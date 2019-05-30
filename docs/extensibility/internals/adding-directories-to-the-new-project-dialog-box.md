@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - New Project dialog box, extending
 ms.assetid: 53b328f5-20bb-49a3-bf9e-1818f4fbdf50
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9d8e68413795b7004542ee312dcb27492e55e7f0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5e81d09c2a4e97ca5f3da112e593b04b219e6314
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910784"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66327997"
 ---
 # <a name="add-directories-to-the-new-project-dialog-box"></a>새 프로젝트 대화 상자에 디렉터리 추가
 새 프로젝트 형식을 만들면도 등록할 수 있습니다에 새 디렉터리를 **새 프로젝트** 대화 상자를 템플릿으로 사용 하기 위해 표시 합니다. 다음 코드 예제에서는 노드 라고도 하며 새 디렉터리를 등록 하는 방법에 설명 합니다. 예제에서는 VSPackage에 의해 노출 되는 템플릿 *CLSID_Package*, 등록 됩니다. 결과적으로 좌 변의 합니다 **새 프로젝트** 대화 상자에 따른 이름으로 추가 노드를 제공 합니다 *Folder_Label_ResID* 리소스. 이 리소스는 VSPackage 위성 DLL에서에서 로드 됩니다.

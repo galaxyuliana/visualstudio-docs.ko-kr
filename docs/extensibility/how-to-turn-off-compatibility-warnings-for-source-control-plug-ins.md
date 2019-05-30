@@ -6,17 +6,17 @@ helpviewer_keywords:
 - source control plug-ins, turning off compatibility warnings
 - compatibility warnings, turning off
 ms.assetid: ba318e12-921b-4b7a-a8c2-12c712be1dbf
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: a1a113dc3b4a4b3a8a4482dd092878851d740c6e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6dc8edcb6ee10be8b020424d8f8c247770a98f27
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62911698"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66324803"
 ---
 # <a name="how-to-turn-off-compatibility-warnings-for-source-control-plug-ins"></a>방법: 원본 제어 플러그 인에 대 한 호환성 경고 해제
 사용자의 소스 제어를 적용 하는 경우 몇 가지 호환성 경고가 표시 될 수 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]입니다. 경고 표시를 소스 제어 플러그 인의 기능에 따라 달라 집니다 있으며 자세한 다음과 같이 해제할 수 있습니다.

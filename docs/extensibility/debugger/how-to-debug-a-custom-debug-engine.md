@@ -6,17 +6,17 @@ helpviewer_keywords:
 - debug engines, debugging
 - debugging [Debugging SDK], custom debug engines
 ms.assetid: df27a8d6-3938-45ff-b47f-b684e80b38a0
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 255d752e09a14e784de276fbed0d86a587bc4512
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 992440dd137b5622f4c619f1f81008eb38e1ff5f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63411237"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66334822"
 ---
 # <a name="how-to-debug-a-custom-debug-engine"></a>방법: 사용자 지정 디버그 엔진 디버그
 프로젝트 형식에서 디버그 엔진 (DE)를 시작 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> 메서드. 즉, 인스턴스의 제어 하는 DE 시작 되는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 프로젝트 형식을 제어 합니다. 그러나 해당 인스턴스의 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 는 DE를 디버깅할 수 없습니다. 다음에 사용자 지정 DE 디버깅할 수 있도록 하는 단계는 같습니다.

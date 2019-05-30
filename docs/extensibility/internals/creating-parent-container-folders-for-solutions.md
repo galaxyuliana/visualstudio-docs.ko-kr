@@ -6,17 +6,17 @@ helpviewer_keywords:
 - solutions, creating parent containers
 - source control plug-ins, creating parent containers
 ms.assetid: 961e68ed-2603-4479-a306-330eda2b2efa
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b9b48cb7862b23df325b35bba0cb3e197573e3c0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d50800e527c6e79100bf699172f7fc30881b3299
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910740"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66332741"
 ---
 # <a name="create-parent-container-folders-for-solutions"></a>부모 솔루션에 대 한 컨테이너 폴더 만들기
 원본 제어 플러그 인 API 버전 1.2에는 사용자 솔루션 내에서 모든 웹 프로젝트에 대 한 단일 루트 원본 제어 대상을 지정할 수 있습니다. 이 단일 루트를 슈퍼 통합 루트 (도메인 이름 얻기) 라고 합니다.

@@ -6,17 +6,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], registering port suppliers
 - port suppliers, registering
 ms.assetid: fb057052-ee16-4272-8e16-a4da5dda0ad4
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c662b9b813be33ca57c8c31dff69eb86968ab3eb
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 26767193c4489405432054ee94beb195ce8448d7
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63411222"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66344265"
 ---
 # <a name="implement-and-register-a-port-supplier"></a>구현 하 고 포트 공급자 등록
 포트 공급자의 역할 추적에 프로세스를 관리 하는 포트를 제공 하는 것입니다. 포트를 만들 수 해야 하는 경우 포트 공급자 CoCreate를 사용 하 여 포트 공급자의 GUID (세션 디버그 관리자 [SDM] 사용 프로젝트 시스템에서 지정 하는 사용자가 선택한 또는 포트 공급자 포트 공급자)를 사용 하 여 인스턴스화됩니다. SDM 호출 [CanAddPort](../../extensibility/debugger/reference/idebugportsupplier2-canaddport.md) 모든 포트를 추가할 수 있는지 확인 합니다. 새 포트를 호출 하 여 요청 된 경우 포트를 추가할 수 있습니다 [포트 추가](../../extensibility/debugger/reference/idebugportsupplier2-addport.md) 전달 하는 [IDebugPortRequest2](../../extensibility/debugger/reference/idebugportrequest2.md) 는 포트에 설명 합니다. `AddPort` 나타내는 새 포트를 반환 합니다는 [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) 인터페이스입니다.

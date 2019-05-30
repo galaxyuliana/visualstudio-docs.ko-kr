@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgram2::Execute
 ms.assetid: f7205ce8-0ac6-4fcd-b6ec-b720b4fcaccf
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 29839e2f2adb4a0e560b5b58d4226fd61596128c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 27730528b552e4a545725a7a7463475be6038bba
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412860"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66329815"
 ---
 # <a name="idebugprogram2execute"></a>IDebugProgram2::Execute
 중지 된 상태에서이 프로그램 실행을 계속 합니다. 이전 실행 상태 (예: 단계)의 선택이 취소 되어, 프로그램이 다시 실행을 시작 하 고 있습니다.
@@ -46,7 +49,7 @@ int Execute();
 > [!WARNING]
 > Stopping 이벤트 또는 직접 (동기) 이벤트를 전송 하지 마십시오 [이벤트](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) 이 호출을 처리 하는 동안 그렇지 않은 경우 디버거가 중단 될 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
 - [Resume](../../../extensibility/debugger/reference/idebugthread2-resume.md)

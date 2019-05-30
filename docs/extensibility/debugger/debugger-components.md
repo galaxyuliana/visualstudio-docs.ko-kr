@@ -7,17 +7,17 @@ helpviewer_keywords:
 - components [Visual Studio SDK], debugging
 - debugging [Debugging SDK], components
 ms.assetid: 8b8ab77f-a134-495c-be42-3bc51aa62dfb
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 04865145afc5df7edc21611511878263021d4e37
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 28afdd7f12e7d83b042f5c705c85fa567fdbb979
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62890008"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66345888"
 ---
 # <a name="debugger-components"></a>디버거 구성 요소
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 디버거는 VSPackage로 구현 되었으며 전체 디버그 세션을 관리 합니다. 디버그 세션에는 다음 요소가 구성 됩니다.

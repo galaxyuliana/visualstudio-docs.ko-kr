@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, functions
 ms.assetid: 4b0536dd-4f92-4ef2-9031-4548281f37aa
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c7d22e191eecb3c650744c6ddbaa815de479752a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9426d4f1f673d0d82c6ce3fd84c76a1c42d8ec4e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62800157"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66331924"
 ---
 # <a name="source-control-plug-in-api-functions"></a>소스 제어 플러그 인 API 함수
 원본 제어 플러그 인 API는이 API에 따라 플러그 인 소스 컨트롤에 의해 구현 되어야 하는 다음 함수를 제공 합니다. 비트 플래그를 사용 하 여 연결 된 각 함수와 의미 체계의 서명 및 다른 매개 변수는이 문서에 자세히 설명 합니다.

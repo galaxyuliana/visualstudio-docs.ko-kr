@@ -3,17 +3,17 @@ title: 솔루션 확장 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 5cb60183-2a87-4551-a19f-c7c4e65d60c0
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2b34803ac047c411f3e77652949841227caef38e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1fd58ea0f898f1840d63a436b4fe28787e89e613
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62863415"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66313016"
 ---
 # <a name="extend-solutions"></a>솔루션 확장
 솔루션은 그룹 응용 프로그램을 만들기 위해 함께 작동 하는 하나 이상의 프로젝트입니다.

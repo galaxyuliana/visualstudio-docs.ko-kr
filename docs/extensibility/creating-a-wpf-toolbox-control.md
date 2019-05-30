@@ -7,17 +7,17 @@ helpviewer_keywords:
 - toolbox
 - wpf
 ms.assetid: 9cc34db9-b0d1-4951-a02f-7537fbbb51ad
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 811c87f73d1122b3e97ffdef9b4d3f6c044ce941
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fc124c767ac9a84e62c17fb868e1dc114642f884
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62926421"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66349037"
 ---
 # <a name="create-a-wpf-toolbox-control"></a>WPF 도구 상자 컨트롤 만들기
 
@@ -31,7 +31,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 
 1. 라는 VSIX 프로젝트를 만듭니다 `MyToolboxControl`합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다 합니다 **새 프로젝트** "vsix"를 검색 하 여 대화 상자.
 
-2. 프로젝트를 열면 추가 된 **WPF 도구 상자 컨트롤** 이라는 항목 템플릿을 `MyToolboxControl`합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#** > **확장성** 선택한 **WPF 도구 상자 컨트롤**합니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 *MyToolboxControl.cs*합니다.
+2. 프로젝트를 열면 추가 된 **WPF 도구 상자 컨트롤** 이라는 항목 템플릿을 `MyToolboxControl`합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가** > **새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C#**  > **확장성** 선택한 **WPF 도구 상자 컨트롤**합니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 *MyToolboxControl.cs*합니다.
 
     솔루션에는 이제, 사용자 지정 컨트롤이 포함 된를 `ProvideToolboxControlAttribute` <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute> 컨트롤을 추가 하는 합니다 **도구 상자**, 및 **Microsoft.VisualStudio.ToolboxControl** 에 대 한 VSIX 매니페스트의 자산 항목  배포 합니다.
 

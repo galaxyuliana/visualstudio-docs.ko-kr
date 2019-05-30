@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - DOCCONTEXT_COMPARE enumeration
 ms.assetid: ed947c34-b07e-4b69-8381-b6e7cb842862
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e36e9c3c0870cb81dd02f646636eeb758f1ddb62
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: f31b33eeb782e71a87103d26a3bb78175611644e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56686251"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318140"
 ---
 # <a name="doccontextcompare"></a>DOCCONTEXT_COMPARE
 두 문서 컨텍스트를 비교 하기 위한 조건을 지정 합니다.
@@ -43,14 +46,18 @@ enum enum_DOCCONTEXT_COMPARE {
 };
 ```
 
-## <a name="members"></a>멤버
-DOCCONTEXT_EQUAL 대상 문서 컨텍스트에 해당 목록의 첫 번째 문서 컨텍스트를 찾습니다.
+## <a name="fields"></a>필드
+`DOCCONTEXT_EQUAL`\
+대상 문서 컨텍스트에 해당 목록의 첫 번째 문서 컨텍스트를 찾습니다.
 
-DOCCONTEXT_LESS_THAN 대상 문서 컨텍스트를 보다 작은 목록의 첫 번째 문서 컨텍스트를 찾습니다.
+`DOCCONTEXT_LESS_THAN`\
+대상 문서 컨텍스트를 보다 작은 목록의 첫 번째 문서 컨텍스트를 찾습니다.
 
-DOCCONTEXT_GREATER_THAN 대상 문서 컨텍스트 보다 큰 목록에서 첫 번째 문서 컨텍스트를 찾습니다.
+`DOCCONTEXT_GREATER_THAN`\
+대상 문서 컨텍스트 보다 큰 목록에서 첫 번째 문서 컨텍스트를 찾습니다.
 
-DOCCONTEXT_SAME_DOCUMENT 대상 문서 컨텍스트 같은 문서에 있는 목록의 첫 번째 문서 컨텍스트를 찾습니다.
+`DOCCONTEXT_SAME_DOCUMENT`\
+대상 문서 컨텍스트 같은 문서에 있는 목록의 첫 번째 문서 컨텍스트를 찾습니다.
 
 ## <a name="remarks"></a>설명
 인수로 전달 된 [비교](../../../extensibility/debugger/reference/idebugdocumentcontext2-compare.md) 메서드.
@@ -64,6 +71,6 @@ DOCCONTEXT_SAME_DOCUMENT 대상 문서 컨텍스트 같은 문서에 있는 목�
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [Compare](../../../extensibility/debugger/reference/idebugdocumentcontext2-compare.md)

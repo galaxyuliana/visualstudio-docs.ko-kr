@@ -7,21 +7,21 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugAlias interface
 ms.assetid: 3cc4c9a4-7805-4239-b00e-eb4a024f3c55
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5fbf93b3675e81c1774fc018b14c3c7f66641381
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 29b7a8bca687ff2992c5e3fb92cb0cc6c8a1740d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56723099"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66338134"
 ---
 # <a name="idebugalias"></a>IDebugAlias
 > [!IMPORTANT]
->  Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 정보를 참조 하세요 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
+> Visual Studio 2015에서 식 계산기를 구현 하는 이러한 방식으로 사용 되지 않습니다. CLR 식 계산기를 구현 하는 방법에 대 한 정보를 참조 하세요 [CLR 식 계산기](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 하 고 [관리 되는 식 계산기 샘플](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)합니다.
 
  변수에 대 한 숫자 별칭을 나타냅니다. 별칭은 변수에 다른 이름을 하기만 하면 됩니다.
 
@@ -57,7 +57,7 @@ IDebugAlias : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [식 계산 인터페이스](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md)
 - [FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md)

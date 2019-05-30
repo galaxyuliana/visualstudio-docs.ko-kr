@@ -6,17 +6,17 @@ helpviewer_keywords:
 - glyphs, source control packages
 - source control packages, glyphs
 ms.assetid: b9413b08-b3c3-4fc3-a6e0-3dc0db3652d7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f66613c5f5b8b6e48efda17330f66cdb87a06cf9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d30682a85551aab062824688b635260c30df63f9
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62909915"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66321342"
 ---
 # <a name="glyph-control-source-control-vspackage"></a>문자 모양 제어 (소스 제어 VSPackage)
 전체 통합 소스 제어 Vspackage를 사용할 수 있는 부분은 원본 제어에서 항목의 상태를 나타내는 고유한 문자 모양을 표시 하는 기능입니다.

@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - text buffer events
 ms.assetid: 9be49e9f-1864-41c2-8a3c-f66895881341
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 85c59ffd5b0289edf3b36fbd2ef7d0a62313af72
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6851d6f3cbf622794dbf817ec42d941c943add52
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62798880"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66316524"
 ---
 # <a name="text-buffer-events-in-the-legacy-api"></a>기존 API에서 텍스트 버퍼 이벤트
 텍스트 버퍼 개체는 다양 한 상황에 응답할 수 있도록 여러 가지 이벤트를 내보냅니다.

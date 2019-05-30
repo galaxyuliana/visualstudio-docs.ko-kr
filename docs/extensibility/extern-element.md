@@ -8,20 +8,20 @@ helpviewer_keywords:
 - VSCT XML schema elements, Extern
 - Extern element (VSCT XML schema)
 ms.assetid: db6c3ddd-a1ba-450a-897a-bb568a5377fc
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1d62d52d490994889f7e9186fb74ea148cb52a06
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 34e38618a153aa74bdc2449895272fc9e399c82d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62911897"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66342794"
 ---
 # <a name="extern-element"></a>Extern 요소
-Extern 요소는 모든 외부 헤더가 참조 (*.h*)를 병합 하는 파일을 *.vsct* 컴파일 타임에 파일입니다. VSCT 컴파일러인 지정 되거나 참조 포함 경로에 병합할 파일 이어야 합니다는 [Include 요소](../extensibility/include-element.md)합니다. 기타 파일이 될 수 있습니다 *.vsct* 파일 또는 C++ 헤더 파일입니다.
+Extern 요소는 모든 외부 헤더가 참조 ( *.h*)를 병합 하는 파일을 *.vsct* 컴파일 타임에 파일입니다. VSCT 컴파일러인 지정 되거나 참조 포함 경로에 병합할 파일 이어야 합니다는 [Include 요소](../extensibility/include-element.md)합니다. 기타 파일이 될 수 있습니다 *.vsct* 파일 또는 C++ 헤더 파일입니다.
 
  폼의 헤더 파일에 정의 해야 "#define [기호] [Value]" 값을 이전에 정의 된 경우 다른 기호를 수 있습니다. 명령은 항목의 조건문에서 정의 사용할 수 있습니다. 실제로 사용 되는 모든 기호는 무시 됩니다.
 

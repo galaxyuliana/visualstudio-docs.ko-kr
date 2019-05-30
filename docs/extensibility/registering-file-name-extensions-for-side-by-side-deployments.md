@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - file extensions, registering for side-by-side
 ms.assetid: 9ab046a2-147d-4167-aa14-7d661b1eaaa5
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 996f911f37b8226065feb4da311f736dd910550b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9bdfb562ddfcce2584b8868c3c931c21f9dbc127
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62805989"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66334224"
 ---
 # <a name="register-file-name-extensions-for-side-by-side-deployments"></a>Side-by-side-배포에 대 한 파일 이름 확장명 등록
 Side-by-side-환경에 배포 하는 Vspackage, 파일의 올바른 버전을 사용 하 여 연결할 파일 이름 확장명을 등록 해야 합니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다. 버전별 파일 이름 확장명을 사용 하지 않으면 등록을 사용 하면 프로젝트를 열고 적절 한 버전의 항목 파일을 프로젝트에 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]입니다.

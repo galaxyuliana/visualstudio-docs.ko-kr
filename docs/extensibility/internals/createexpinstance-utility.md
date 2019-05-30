@@ -9,17 +9,17 @@ helpviewer_keywords:
 - createexpinstance
 - createexpinst
 ms.assetid: 03779774-9401-49ae-997c-0c3ab25ed0d5
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2c4f77d0eba4ca974522534c69d554af9d807a9d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ed03833b6c109ca78feb86c1cfe41fa453022c66
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62861921"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66341911"
 ---
 # <a name="createexpinstance-utility"></a>CreateExpInstance 유틸리티
 사용 된 **CreateExpInstance** 유틸리티를 만들거나 다시 설정 하거나 Visual Studio의 실험적 인스턴스를 삭제 합니다. 디버그 하 고 내부 제품을 변경 하지 않고 Visual Studio 확장을 테스트 하는 실험적 인스턴스를 사용할 수 있습니다.
@@ -44,7 +44,7 @@ CreateExpInstance.exe [/Create | /Reset | /Clean] /VSInstance=VsInstance /RootSu
 ## <a name="remarks"></a>설명
  Visual Studio 확장에서 작업 하는 경우 기본 실험적 인스턴스를 열고 현재 확장을 설치 하려면 F5를 눌러 수 있습니다. 실험적 인스턴스를 사용할 수 있는 경우 Visual Studio는 기본 설정을 포함 하는 것을 만듭니다.
 
- 실험적 인스턴스에서의 기본 위치는 Visual Studio 버전 번호에 따라 달라 집니다. 예를 들어, Visual Studio 2015에 대 한 위치가 *%localappdata%\Microsoft\VisualStudio\14.0Exp\\*합니다. 디렉터리 위치에 있는 모든 파일에는 해당 인스턴스의 일부로 간주 됩니다. 추가 실험적 인스턴스를 기본 위치는 디렉터리 이름을 변경 하지 않으면 Visual Studio에서 로드 되지 않습니다.
+ 실험적 인스턴스에서의 기본 위치는 Visual Studio 버전 번호에 따라 달라 집니다. 예를 들어, Visual Studio 2015에 대 한 위치가 *%localappdata%\Microsoft\VisualStudio\14.0Exp\\* 합니다. 디렉터리 위치에 있는 모든 파일에는 해당 인스턴스의 일부로 간주 됩니다. 추가 실험적 인스턴스를 기본 위치는 디렉터리 이름을 변경 하지 않으면 Visual Studio에서 로드 되지 않습니다.
 
  Visual Studio 실험적 인스턴스를 열었을 때 시스템 레지스트리를 액세스 하지 않습니다. 이 레지스트리 하이브의 실험적 버전을 사용 하는 Visual Studio의 이전 버전에서 서로 다릅니다.
 

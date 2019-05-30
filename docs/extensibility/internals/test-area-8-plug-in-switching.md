@@ -6,17 +6,17 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], switching plug-ins
 - source control plug-ins, switching
 ms.assetid: 01370792-b5da-4e46-9ce2-7dd326587141
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b308fb97a55f61645d038c9a81445f4561415e9b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6af0a0333131697526d1ffcc8394f7bfe81ca6b4
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62908871"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66327805"
 ---
 # <a name="test-area-8-plug-in-switching"></a>테스트 영역 8: 플러그 인 전환
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 사용자 인터페이스 (UI) 현재 소스 제어 플러그 인을 변경 해야 합니다. 이 테스트 영역은 소스 제어 솔루션에 사용할 플러그 인 선택 프로세스에 대 한 테스트 사례를 제공 합니다.

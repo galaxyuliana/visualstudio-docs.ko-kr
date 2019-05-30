@@ -6,23 +6,23 @@ helpviewer_keywords:
 - commands
 - commands, implementation
 ms.assetid: 097108c3-f758-4b87-89d6-b32d12d9041a
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c176a558d7d5956c1d41593f5d0cc71184a9a820
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e1644cfa71296c4233cf17b6b225933aeeb3d477
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62861695"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66342170"
 ---
 # <a name="command-design"></a>명령 디자인
 VSPackage에 명령을 추가할 때 표시할 경우, 사용 가능한 경우 및 처리 하는 방법 지정 해야 합니다.
 
 ## <a name="define-commands"></a>명령 정의
- 새 명령을 정의 하려면 Visual Studio 명령 테이블을 포함 합니다 (*.vsct*) VSPackage 프로젝트 파일에에서 있습니다. Visual Studio 패키지 템플릿을 사용 하 여 VSPackage를 만든 경우 프로젝트는 이러한 파일 중 하나가 포함 되어 있습니다. 자세한 내용은 [Visual Studio 명령 테이블 (.vsct) 파일](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)합니다.
+ 새 명령을 정의 하려면 Visual Studio 명령 테이블을 포함 합니다 ( *.vsct*) VSPackage 프로젝트 파일에에서 있습니다. Visual Studio 패키지 템플릿을 사용 하 여 VSPackage를 만든 경우 프로젝트는 이러한 파일 중 하나가 포함 되어 있습니다. 자세한 내용은 [Visual Studio 명령 테이블 (.vsct) 파일](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)합니다.
 
  Visual Studio는 모든 병합 합니다 *.vsct* 찾습니다 파일 명령을 표시할 수 있도록 합니다. 이러한 파일 이진 VSPackage 별개 이기 때문에 Visual Studio 명령을 찾기 위해 패키지를 로드 하지 않아도 됩니다. 자세한 내용은 [사용자 인터페이스 요소를 추가 하는 방법: Vspackage](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)합니다.
 
@@ -36,7 +36,7 @@ VSPackage에 명령을 추가할 때 표시할 경우, 사용 가능한 경우 �
 ## <a name="visual-studio-command-environment"></a>Visual Studio 명령 환경
  Visual Studio는 임의 개수의 Vspackage 호스트할 수 있습니다 하 고 각 명령 집합 자체에 기여할 수 있습니다. 환경에는 현재 작업에 적합 한 명령만 표시 합니다. 자세한 내용은 [가용성 명령을](../../extensibility/internals/command-availability.md) 하 고 [선택 컨텍스트 개체](../../extensibility/internals/selection-context-objects.md)합니다.
 
- 새 명령, 메뉴, 도구 모음 또는 바로 가기 메뉴를 정의 하는 VSPackage는 네이티브 또는 관리 되는 어셈블리에서 리소스를 참조 하는 레지스트리 항목을 통해 설치 시 Visual studio 명령 정보를 제공 합니다. 각 리소스는 이진 데이터 리소스를 참조 합니다 (*.cto*)는 Visual Studio 명령 테이블을 컴파일할 때 생성 되는 파일 (*.vsct*) 파일입니다. 이 통해 Visual Studio의 모든 설치 된 VSPackage를 로드 하지 않고도 병합 된 명령 집합, 메뉴 및 도구 모음을 제공 합니다.
+ 새 명령, 메뉴, 도구 모음 또는 바로 가기 메뉴를 정의 하는 VSPackage는 네이티브 또는 관리 되는 어셈블리에서 리소스를 참조 하는 레지스트리 항목을 통해 설치 시 Visual studio 명령 정보를 제공 합니다. 각 리소스는 이진 데이터 리소스를 참조 합니다 ( *.cto*)는 Visual Studio 명령 테이블을 컴파일할 때 생성 되는 파일 ( *.vsct*) 파일입니다. 이 통해 Visual Studio의 모든 설치 된 VSPackage를 로드 하지 않고도 병합 된 명령 집합, 메뉴 및 도구 모음을 제공 합니다.
 
 ### <a name="command-organization"></a>명령 조직
  환경에는 그룹, 우선 순위 및 메뉴 명령을 배치합니다.

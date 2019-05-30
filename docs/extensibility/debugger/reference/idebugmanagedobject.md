@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugManagedObject interface
 ms.assetid: 3ae09d34-112c-4285-80ee-9f7f8dc414d7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: be68741a7a2049348139ef05c6b4a674a538249f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 6744ae98a0210a6832bce1bdb0cd68f08145f3eb
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63413785"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66349408"
 ---
 # <a name="idebugmanagedobject"></a>IDebugManagedObject
 > [!IMPORTANT]
@@ -55,6 +55,6 @@ IDebugManagedObject : IDebugObject
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [식 계산 인터페이스](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)
 - [Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject-evaluate.md)

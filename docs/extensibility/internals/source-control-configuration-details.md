@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], configuration details
 ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 59aa3ac36e989b2e2e1af2e36e8360ef53cb8438
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 917354534ee3dbb2b615ec031f0a41c31bd88235
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63428991"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66322577"
 ---
 # <a name="source-control-configuration-details"></a>소스 제어 구성 세부 정보
 소스 제어를 구현 하려면 다음을 수행 하 여 편집기나 프로젝트 시스템을 올바르게 구성 해야 합니다.

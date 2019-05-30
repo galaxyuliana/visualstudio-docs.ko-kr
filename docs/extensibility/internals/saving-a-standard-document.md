@@ -7,17 +7,17 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], saving standard documents
 - persistence, saving standard documents
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 460b948ea7b5bace1b91143d46a4ca2f4c823608
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4f46d63e9f1145711bd3a32f6fd24e7b61814922
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62859153"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318672"
 ---
 # <a name="saving-a-standard-document"></a>표준 문서 저장
 환경 저장, 다른 이름으로 저장 및 모두 저장 명령을 처리합니다. 사용자가 선택 하는 경우 **저장**, **다른 이름으로 저장**, 또는 **모두 저장** 에서 **파일** 메뉴에 솔루션을 닫습니다는  **모두 저장**, 다음 프로세스가 발생 합니다.

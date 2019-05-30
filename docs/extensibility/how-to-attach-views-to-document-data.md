@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - attach views to document data
 ms.assetid: f92c0838-45be-42b8-9c55-713e9bb8df07
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b53748546633f8944ef0bd47ebc01326b322165e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c42ccdb817ab4a7594922e90e9df3e345c693c11
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63417121"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66340985"
 ---
 # <a name="how-to-attach-views-to-document-data"></a>방법: 문서 데이터에 보기 연결
 새 문서 보기에 있는 경우에 기존 문서 데이터 개체에 연결할 수 있습니다.

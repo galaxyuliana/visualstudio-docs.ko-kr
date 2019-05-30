@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - BP_ERROR_TYPE enumeration
 ms.assetid: c483eaab-db29-46de-bfdb-5c2a9a9cfb68
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 2964c833abfa25b57678680f8b821f992cb31de8
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 3dc51691d4d424ee4d1c1a450f1e4e32b78e0e6e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56689189"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66319304"
 ---
 # <a name="bperrortype"></a>BP_ERROR_TYPE
 중단점 오류 유형을 지정 합니다.
@@ -57,28 +60,39 @@ public enum enum_BP_ERROR_TYPE {
 };
 ```
 
-## <a name="members"></a>멤버
-BPET_NONE 없습니다 중단점 오류를 지정합니다.
+## <a name="fields"></a>필드
+`BPET_NONE`\
+중단점 오류 없음를 지정합니다.
 
-BPET_TYPE_WARNING 경고 스타일 중단점 오류를 지정합니다.
+`BPET_TYPE_WARNING`\
+경고 스타일 중단점 오류를 지정합니다.
 
-BPET_TYPE_ERROR 오류 스타일 중단점 오류를 지정 합니다.
+`BPET_TYPE_ERROR`\
+오류-스타일 중단점 오류를 지정 합니다.
 
-BPET_SEV_HIGH는 심각도 높은 중단점 오류를 지정합니다.
+`BPET_SEV_HIGH`\
+심각도 높은 중단점 오류를 지정합니다.
 
-BPET_SEV_GENERAL 보통 심각도 중단점 오류를 지정합니다.
+`BPET_SEV_GENERAL`\
+중간 심각도 중단점 오류를 지정합니다.
 
-BPET_SEV_LOW는 심각도 낮은 중단점 오류를 지정합니다.
+`BPET_SEV_LOW`\
+심각도 낮은 중단점 오류를 지정합니다.
 
-BPET_TYPE_MASK은 마스크 스타일 중단점 오류를 지정합니다.
+`BPET_TYPE_MASK`\
+마스크 스타일 중단점 오류를 지정합니다.
 
-BPET_SEV_MASK은 심각도 마스크 스타일 중단점 오류를 지정합니다.
+`BPET_SEV_MASK`\
+심각도 마스크 스타일 중단점 오류를 지정합니다.
 
-BPET_GENERAL_WARNING 일반 경고 스타일 중단점 오류를 지정합니다.
+`BPET_GENERAL_WARNING`\
+일반 경고 스타일 중단점 오류를 지정합니다.
 
-BPET_GENERAL_ERROR 일반 오류 스타일 중단점 오류를 지정합니다.
+`BPET_GENERAL_ERROR`\
+일반 오류 스타일 중단점 오류를 지정합니다.
 
-BPET_ALL 모든 중단점 오류 형식을 지정합니다.
+`BPET_ALL`\
+모든 중단점 오류 형식을 지정합니다.
 
 ## <a name="remarks"></a>설명
 이러한 값을 비트 결합할 수 있습니다 `OR` 사용 및는 `dwType` 의 멤버는 [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) 구조입니다. 매개 변수로 전달 된 [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md) 메서드.
@@ -92,7 +106,7 @@ BPET_ALL 모든 중단점 오류 형식을 지정합니다.
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)
 - [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md)

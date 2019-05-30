@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - DEBUG_CUSTOM_VIEWER structure
 ms.assetid: 8e0ef3f0-0107-48e8-a037-6e52b4c4ed9d
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f50f46376e21694bebeb4f13ab8ed8e658838bf2
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 2ba4af7ef465a4d98f78eccc9f7dce7dd4fa43aa
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56680458"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66346191"
 ---
 # <a name="debugcustomviewer"></a>DEBUG_CUSTOM_VIEWER
 사용자 지정 뷰어를 식별 하는 구조체 시각화 도우미를 입력 합니다.
@@ -47,17 +50,23 @@ public struct DEBUG_CUSTOM_VIEWER {
 ```
 
 ## <a name="members"></a>멤버
-dwID 여러 뷰어 또는 하나에 의해 구현 되는 시각화 도우미를 구분 하기 위해 ID `GUID`합니다.
+`dwID`\
+여러 뷰어 또는 하나에 의해 구현 되는 시각화 도우미를 구분 하기 위해 ID `GUID`합니다.
 
-bstrMenuName 드롭 다운 메뉴에 나타나는 텍스트입니다.
+`bstrMenuName`\
+드롭다운 메뉴에 나타나는 텍스트입니다.
 
-사용자 지정 뷰어 또는 형식 시각화 도우미 (이어야 함 null 값을 사용 하지 않는 경우)의 bstrDescription는 설명입니다.
+`bstrDescription`\
+사용자 지정 뷰어 또는 형식 시각화 도우미 (이어야 함 null 값을 사용 하지 않는 경우)의 설명입니다.
 
-guidLang 제공 식 계산기의 언어입니다.
+`guidLang`\
+제공 하는 식 계산기의 언어입니다.
 
-guidVendor 공급 업체의 식 계산기를 제공 합니다.
+`guidVendor`\
+제공 하는 식 계산기의 공급 업체입니다.
 
-bstrMetric는 메트릭 사용자 지정 뷰어 또는 형식 시각화 도우미 `CLSID` 저장 됩니다.
+`bstrMetric`\
+메트릭 사용자 지정 뷰어 또는 형식 시각화 도우미 `CLSID` 저장 됩니다.
 
 ## <a name="remarks"></a>설명
 호출 하 여이 구조체의 목록이 반환 됩니다 합니다 [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md) 메서드 (및 확장에 의해 합니다 [GetCustomViewerList](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md) 메서드).
@@ -69,7 +78,7 @@ bstrMetric는 메트릭 사용자 지정 뷰어 또는 형식 시각화 도우�
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)
 - [GetCustomViewerList](../../../extensibility/debugger/reference/ieevisualizerservice-getcustomviewerlist.md)

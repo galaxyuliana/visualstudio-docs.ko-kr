@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugAddress2 interface
 ms.assetid: b150e0ed-4ac0-4f8c-9732-4b3e54b9d243
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 10af641162fe9d254eaa3c0c2f5efbf841dc154e
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 66fd149bc3eed7633586c156f6493c8febcbeaac
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56677645"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66330356"
 ---
 # <a name="idebugaddress2"></a>IDebugAddress2
 이 인터페이스는 주소의 개체를 소유 하는 프로세스의 ID에 대 한 액세스는이 인터페이스에서 표시를 제공 합니다.
@@ -48,6 +48,6 @@ IDebugAddress2 : IDebugAddress
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [기호 공급자 인터페이스](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)
 - [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)

@@ -8,17 +8,17 @@ helpviewer_keywords:
 - Visual Studio, integrating programming languages
 - programming languages, integrating into Visual Studio
 ms.assetid: c15e0ccb-e7c5-4dbb-affb-fe3d3244debe
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cf8b6c509e8a748060656f83f760fd245b852157
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 6259adde14f6579b43d63adc44a66b02aea3957f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63418360"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66344886"
 ---
 # <a name="legacy-language-service-essentials"></a>레거시 언어 서비스 필수 항목
 Visual Studio 프로그래밍 언어를 통합 하도록 언어 서비스를 제공 해야 합니다. 이 항목에서는 레거시 언어 서비스에서 제공 되는 기능을 설명 합니다.

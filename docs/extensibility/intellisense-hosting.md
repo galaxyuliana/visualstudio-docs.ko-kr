@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - IntelliSense hosting
 ms.assetid: 20c61f8a-d32d-47e2-9c67-bf721e2cbead
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6e4f6ae0f2df20cefefb8a086fbd383d98a6d5cd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3c6c721f62dbb9e586f85a9773666456a274341c
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910627"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328038"
 ---
 # <a name="intellisense-hosting"></a>IntelliSense 호스팅
 Visual Studio IntelliSense 호스팅 수 있습니다. Visual Studio 텍스트 편집기에서 호스트 되지 않는 코드에 대 한 IntelliSense를 제공 하면 IntellSense 있습니다 호스팅.

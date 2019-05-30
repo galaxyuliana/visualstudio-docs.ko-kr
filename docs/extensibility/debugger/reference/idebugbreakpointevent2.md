@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointEvent2 interface
 ms.assetid: 50b3a7a7-331b-42c8-922c-ff3522ebe1da
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fa79f31fd0fc895c67325a32dcbe12a28ff3afc4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 223a33e39847382ecd25f50c320ab68a2b0e8079
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62876986"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66330366"
 ---
 # <a name="idebugbreakpointevent2"></a>IDebugBreakpointEvent2
 디버그 엔진 (DE) 프로그램이 중단점에서 중지 되 면 (SDM) 세션 디버그 관리자에 게이 인터페이스를 보냅니다.
@@ -48,6 +48,6 @@ IDebugBreakpointEvent2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)
 - [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

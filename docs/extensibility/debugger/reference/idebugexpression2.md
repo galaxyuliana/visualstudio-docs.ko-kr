@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpression2 interface
 ms.assetid: f5e4b124-1e30-47c8-a511-80084a02dba5
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b8027f34b48b4a160c19f14f0d9cbfb8194a506f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 694db3cc5292f11f1718a51e31deec4a8e456b54
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62919974"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66325974"
 ---
 # <a name="idebugexpression2"></a>IDebugExpression2
 이 인터페이스 바인딩 및 평가 대 한 구문 분석 된 식을 준비를 나타냅니다.
@@ -57,6 +57,6 @@ IDebugExpression2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [GetExpression](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getexpression.md)

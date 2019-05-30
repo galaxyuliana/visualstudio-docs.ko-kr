@@ -6,17 +6,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], launching the debugger
 - debugger [Debugging SDK], launching
 ms.assetid: f24da1a1-f923-48b4-989f-18a22b581d1b
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7ffe0405b1e07bfb7825607e17088f0f75796197
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 99b8dcd9647cf9a55bd5cc29d082c8d79e57f302
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62889438"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66353844"
 ---
 # <a name="launch-the-debugger"></a>디버거를 시작 합니다.
 디버거 시작 메서드 및 해당 적절 한 특성을 사용 하 여 이벤트의 순서를 전송 해야 합니다.

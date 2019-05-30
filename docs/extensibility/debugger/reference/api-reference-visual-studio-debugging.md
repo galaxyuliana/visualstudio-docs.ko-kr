@@ -5,17 +5,17 @@ ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], API reference
 ms.assetid: e4e429da-3667-41f7-9158-a8207d13e91a
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7d415644897d7dd481f47c93a3b951db23fda843
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+ms.openlocfilehash: 7f880596854eb376d386bc6a96d789c54767f39d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56686355"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351856"
 ---
 # <a name="api-reference-visual-studio-debugging"></a>API 참조(Visual Studio 디버깅)
 참조 섹션 구문 및 모든 API 요소에 대 한 사용법을 보여 주는 가이드 API에 대 한 개념적인 개요 및 다양 한 코드 예제를 포함 합니다. 모든 참조는 범주별으로 사전순으로 나열 됩니다.
@@ -37,12 +37,12 @@ ms.locfileid: "56686355"
 |E_ACCESSDENIED|일반 액세스 거부 오류가 발생 합니다.|0x80070005|
 
 > [!NOTE]
->  경우는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 반환 메서드를 디버깅 `S_OK`를 매개 변수에 대 한 포인터는 유효한 모든, 즉, 유효성을 검사 하지 out 매개 변수가 포인터에서 수행 되는 가정 때 `S_OK` 반환 됩니다.
+> 경우는 [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] 반환 메서드를 디버깅 `S_OK`를 매개 변수에 대 한 포인터는 유효한 모든, 즉, 유효성을 검사 하지 out 매개 변수가 포인터에서 수행 되는 가정 때 `S_OK` 반환 됩니다.
 >
 > [!NOTE]
->  잘못 된 또는 `NULL` [out] 매개 변수 IDE에서 충돌이 발생할 수 있습니다.
+> 잘못 된 또는 `NULL` [out] 매개 변수 IDE에서 충돌이 발생할 수 있습니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [인터페이스](../../../extensibility/debugger/reference/interfaces-visual-studio-debugging.md)
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)

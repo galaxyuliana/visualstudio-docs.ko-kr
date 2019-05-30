@@ -7,17 +7,17 @@ helpviewer_keywords:
 - designers [Visual Studio SDK], exposing types
 - custom tools, exposing types to visual designers
 ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ffd060ca442d0979c76781ae4467b28af69a42b3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 04f1c3608159ba305646dc9c39a98d92d7571073
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415202"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66332265"
 ---
 # <a name="expose-types-to-visual-designers"></a>비주얼 디자이너에 형식 노출
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 비주얼 디자이너를 표시 하려면 디자인 타임에 클래스 및 형식 정의에 대 한 액세스를 있어야 합니다. 클래스는 미리 정의 된 집합 (참조 및 해당 종속성)은 현재 프로젝트의 전체 종속성 집합을 포함 하는 어셈블리에서에서 로드 됩니다. 비주얼 디자이너에 대 한 액세스 클래스 및 사용자 지정 도구에서 생성 된 파일에 정의 된 형식에 필요한 수도 있습니다.

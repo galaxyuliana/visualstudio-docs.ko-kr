@@ -3,32 +3,32 @@ title: Visual Studio 템플릿 매니페스트 스키마 참조 | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: bc7d0a81-0df5-41a9-a912-1b30e5da1d13
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b447225580505959697e14f0c85855452906aa18
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 52a421986e076d2badc6dc7eb76247d243da155b
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108856"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66323019"
 ---
 # <a name="visual-studio-template-manifest-schema-reference"></a>Visual Studio 템플릿 매니페스트 스키마 참조
-이 스키마에는 Visual Studio 템플릿 매니페스트의 형식을 설명 합니다 (*.vstman*) Visual Studio 프로젝트 또는 항목 템플릿에 대해 생성 되는 파일입니다. 또한 스키마 위치 및 템플릿에 대 한 기타 관련 정보를 설명합니다.
+이 스키마에는 Visual Studio 템플릿 매니페스트의 형식을 설명 합니다 ( *.vstman*) Visual Studio 프로젝트 또는 항목 템플릿에 대해 생성 되는 파일입니다. 또한 스키마 위치 및 템플릿에 대 한 기타 관련 정보를 설명합니다.
 
  : 있기 때문에 별도 항목 및 프로젝트 템플릿 디렉터리, 매니페스트 되지 다양 한 항목 및 프로젝트 템플릿이 있어야 합니다.
 
 > [!IMPORTANT]
->  이 매니페스트는 Visual Studio 2017부터 사용할 수 있습니다.
+> 이 매니페스트는 Visual Studio 2017부터 사용할 수 있습니다.
 
 ## <a name="vstemplatemanifest-element"></a>VSTemplateManifest 요소
  매니페스트의 루트 요소입니다.
 
 ### <a name="attributes"></a>특성
 
-- **버전**: 템플릿 매니페스트 버전을 나타내는 문자열입니다. 필수 요소.
+- **버전** 템플릿 매니페스트 버전을 나타내는 문자열입니다. 필수 요소.
 
 - **로캘**: 로캘 또는 로캘의 템플릿 매니페스트를 나타내는 문자열입니다. 로캘 값을 모든 서식 파일에 적용 됩니다. 각 로캘에 대해 별도 매니페스트를 사용 해야 합니다. 선택 사항입니다.
 
@@ -122,7 +122,7 @@ ms.locfileid: "60108856"
  다음 코드는 항목 템플릿의 예로 *.vstman* 파일입니다.
 
 ```xml
-VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+<VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
   <VSTemplateContainer TemplateType="Item">
     <RelativePathOnDisk>CSharp\1033\ItemTemplate1</RelativePathOnDisk>
     <TemplateFileName>ItemTemplate1.vstemplate</TemplateFileName>

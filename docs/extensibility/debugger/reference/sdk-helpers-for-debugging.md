@@ -9,17 +9,17 @@ helpviewer_keywords:
 - dbgmetric.h
 - metrics [Debugging SDK]
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0d57e764158531456bfcdba6d4915eef42aebd3d
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 74b9047ef6df1e6bf20a5b5a95e40e27ed1b1926
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65460903"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66329210"
 ---
 # <a name="sdk-helpers-for-debugging"></a>디버깅을 위한 SDK 도우미
 이러한 함수 및 선언 기호 공급자, 식 계산기 및 디버그 엔진 구현에 대 한 전역 도우미 함수는 C++입니다.
@@ -239,7 +239,7 @@ HRESULT EnumMetricSections(
 > [!NOTE]
 > 대부분의 경우 HKEY_LOCAL_MACHINE 키에 메트릭이 기록 됩니다. 그러나 때로는 HKEY_CURRENT_USER 됩니다 대상 키입니다. Dbgmetric.lib 두 키를 처리합니다. HKEY_CURRENT_USER 검색 메트릭의 가져올 때 가장 먼저 다음 HKEY_LOCAL_MACHINE입니다. 메트릭, 설정 되 면 매개 변수를 사용 하는 최상위 키를 지정 합니다.
 
- *[레지스트리 키]*\
+ *[레지스트리 키]* \
 
  `Software`\
 
@@ -247,11 +247,11 @@ HRESULT EnumMetricSections(
 
  `VisualStudio`\
 
- *[version root]*\
+ *[version root]* \
 
- *[metric root]*\
+ *[metric root]* \
 
- *[메트릭 유형]*\
+ *[메트릭 유형]* \
 
  *[metric] = [metric value]*
 
@@ -276,9 +276,9 @@ HRESULT EnumMetricSections(
 
  `Engine`\
 
- *[engine guid]*\
+ *[engine guid]* \
 
- `CLSID` = *[클래스 guid]*
+ `CLSID` =  *[클래스 guid]*
 
  *[metric] = [metric value]*
 
@@ -288,9 +288,9 @@ HRESULT EnumMetricSections(
 
  `PortSupplier`\
 
- `0` = *[포트 공급자 guid]*
+ `0` =  *[포트 공급자 guid]*
 
- `1` = *[포트 공급자 guid]*
+ `1` =  *[포트 공급자 guid]*
 
 |자리 표시자|설명|
 |-----------------|-----------------|
@@ -303,9 +303,9 @@ HRESULT EnumMetricSections(
 
  `PortSupplier`\
 
- *[포트 공급자 guid]*\
+ *[포트 공급자 guid]* \
 
- `CLSID` = *[클래스 guid]*
+ `CLSID` =  *[클래스 guid]*
 
  *[metric] = [metric value]*
 
@@ -321,11 +321,11 @@ HRESULT EnumMetricSections(
 
  `SymbolProvider`\
 
- *[기호 공급자 guid]*\
+ *[기호 공급자 guid]* \
 
  `file`\
 
- `CLSID` = *[클래스 guid]*
+ `CLSID` =  *[클래스 guid]*
 
  *[metric] = [metric value]*
 
@@ -333,7 +333,7 @@ HRESULT EnumMetricSections(
 
  `metadata`\
 
- `CLSID` = *[클래스 guid]*
+ `CLSID` =  *[클래스 guid]*
 
  *[metric] = [metric value]*
 
@@ -352,11 +352,11 @@ HRESULT EnumMetricSections(
 
  `ExpressionEvaluator`\
 
- *[언어 guid]*\
+ *[언어 guid]* \
 
- *[vendor guid]*\
+ *[vendor guid]* \
 
- `CLSID` = *[클래스 guid]*
+ `CLSID` =  *[클래스 guid]*
 
  *[metric] = [metric value]*
 
@@ -364,9 +364,9 @@ HRESULT EnumMetricSections(
 
  `Engine`\
 
- `0` = *[디버그 엔진 guid]*
+ `0` =  *[디버그 엔진 guid]*
 
- `1` = *[디버그 엔진 guid]*
+ `1` =  *[디버그 엔진 guid]*
 
 |자리 표시자|설명|
 |-----------------|-----------------|
@@ -380,7 +380,7 @@ HRESULT EnumMetricSections(
 
  `EEExtensions`\
 
- *[extension guid]*\
+ *[extension guid]* \
 
  *[metric] = [metric value]*
 
@@ -395,17 +395,17 @@ HRESULT EnumMetricSections(
 
  `Exception`\
 
- *[디버그 엔진 guid]*\
+ *[디버그 엔진 guid]* \
 
- *[예외 유형]*\
+ *[예외 유형]* \
 
- *[exception]*\
-
- *[metric] = [metric value]*
+ *[exception]* \
 
  *[metric] = [metric value]*
 
- *[exception]*\
+ *[metric] = [metric value]*
+
+ *[exception]* \
 
  *[metric] = [metric value]*
 

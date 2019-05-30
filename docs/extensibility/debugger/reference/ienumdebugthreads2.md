@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugThreads2
 ms.assetid: 1854f078-3b49-42c2-b65b-33e3b506fd63
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 76a7267690f359d960a0c5e9b6f6a1c502d5d4f1
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: a6d8f869e519d9500f1ea8f3bb33a3ee098f5cfd
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65461174"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66325411"
 ---
 # <a name="ienumdebugthreads2"></a>IEnumDebugThreads2
 이 인터페이스는 현재 디버그 세션에서 실행 중인 스레드를 열거 합니다.

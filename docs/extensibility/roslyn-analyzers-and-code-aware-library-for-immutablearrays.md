@@ -3,17 +3,17 @@ title: Roslyn 분석기 및 코드 인식 라이브러리 ImmutableArrays에 대
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 28ddaafc8ab4ddbaef1d7e42faedc2229664c6e6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a0c2eed45ce27fb108b0cdd0c84f64e4e253c9c1
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62433333"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66334165"
 ---
 # <a name="roslyn-analyzers-and-code-aware-library-for-immutablearrays"></a>Roslyn 분석기 및 ImmutableArrays에 대 한 코드 인식 라이브러리
 
@@ -25,7 +25,7 @@ ms.locfileid: "62433333"
 
 * Visual Studio 2015 (하지는 Express Edition) 또는 이후 버전입니다. 무료 따르면 [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
 * [Visual Studio SDK](../extensibility/visual-studio-sdk.md). Visual Studio를 설치 하는 경우를 확인할 수도 있습니다 **Visual Studio 확장성 도구** 아래에서 **일반 도구** 동시에 SDK를 설치 합니다. Visual Studio를 이미 설치한 경우 설치할 수도 있습니다이 SDK 주 메뉴로 이동 하 여 **파일** > **새로 만들기** > **프로젝트**, 선택 **C#** 왼쪽된 탐색 창에서을 차례로 선택 **확장성**합니다. 선택 하는 경우는 "**Visual Studio 확장성 도구를 설치할**" 이동 경로 탐색 프로젝트 템플릿을 묻는 다운로드 하 여 SDK를 설치 합니다.
-* [.NET 컴파일러 플랫폼 ("Roslyn") SDK](https://aka.ms/roslynsdktemplates)합니다. 주 메뉴로 이동 하 여이 SDK를 설치할 수도 있습니다 **파일** > **새로 만들기** > **프로젝트**, 선택 **C#** 왼쪽된 탐색 창에서을 차례로 선택 **확장성**합니다. 선택 하는 경우 "**.NET Compiler Platform SDK 다운로드**" 이동 경로 탐색 프로젝트 템플릿을 묻는 다운로드 하 여 SDK를 설치 합니다. 이 SDK에 포함 된 [Roslyn 구문 시각화 도우미](https://github.com/dotnet/roslyn/wiki/Syntax%20Visualizer)합니다. 코드 모델 유형을 파악이 유용한 도구를 사용 하면 확인 해야 할 사용자 분석기에서입니다. 분석기 인프라 코드만 필요한 경우를 실행 하 고 관련 코드 분석에 집중할 수 있도록 특정 코드 모델 형식에 대 한 코드를 호출 합니다.
+* [.NET 컴파일러 플랫폼 ("Roslyn") SDK](https://aka.ms/roslynsdktemplates)합니다. 주 메뉴로 이동 하 여이 SDK를 설치할 수도 있습니다 **파일** > **새로 만들기** > **프로젝트**, 선택 **C#** 왼쪽된 탐색 창에서을 차례로 선택 **확장성**합니다. 선택 하는 경우 " **.NET Compiler Platform SDK 다운로드**" 이동 경로 탐색 프로젝트 템플릿을 묻는 다운로드 하 여 SDK를 설치 합니다. 이 SDK에 포함 된 [Roslyn 구문 시각화 도우미](https://github.com/dotnet/roslyn/wiki/Syntax%20Visualizer)합니다. 코드 모델 유형을 파악이 유용한 도구를 사용 하면 확인 해야 할 사용자 분석기에서입니다. 분석기 인프라 코드만 필요한 경우를 실행 하 고 관련 코드 분석에 집중할 수 있도록 특정 코드 모델 형식에 대 한 코드를 호출 합니다.
 
 ## <a name="whats-the-problem"></a>문제가 뭔가요?
 
@@ -298,7 +298,7 @@ private async Task<Document> ChangeToImmutableArrayEmpty(
 
 이제 눌러도 **F5** Visual Studio의 두 번째 인스턴스에서 분석기를 실행 합니다. 이전에 사용한 콘솔 프로젝트를 엽니다. 새 개체 생성 식에 대 한 위치에 나타날 전구를 표시 하는 이제 `ImmutableArray<int>`합니다. 키를 누르면 **Ctrl**+**합니다.** (기간), 수정, 코드를 다음 표시 되 고 전구 UI에서에서 미리 보기를 자동으로 생성 된 코드 차이 표시 됩니다. Roslyn을이 만듭니다.
 
-**Pro 팁:** Visual Studio의 두 번째 인스턴스를 시작 하 고 코드 수정 사항을 사용 하 여 밝은 전구 표시 되지 않는 경우 Visual Studio 구성 요소 캐시를 지우려면 해야 할 수 있습니다. Visual Studio의 Visual Studio 최신 구성 요소를 선택 해야 하므로 구성 요소 다시 검사를 강제로 캐시 지우기. 먼저 Visual Studio의 두 번째 인스턴스를 종료 합니다. 그런 다음, **Windows 탐색기**, 이동할 *%LOCALAPPDATA%\Microsoft\VisualStudio\16.0Roslyn\\*합니다. ("16.0" 변경 버전 Visual Studio를 사용 하 여.) 하위 디렉터리를 삭제 *ComponentModelCache*합니다.
+**Pro 팁:** Visual Studio의 두 번째 인스턴스를 시작 하 고 코드 수정 사항을 사용 하 여 밝은 전구 표시 되지 않는 경우 Visual Studio 구성 요소 캐시를 지우려면 해야 할 수 있습니다. Visual Studio의 Visual Studio 최신 구성 요소를 선택 해야 하므로 구성 요소 다시 검사를 강제로 캐시 지우기. 먼저 Visual Studio의 두 번째 인스턴스를 종료 합니다. 그런 다음, **Windows 탐색기**, 이동할 *%LOCALAPPDATA%\Microsoft\VisualStudio\16.0Roslyn\\* 합니다. ("16.0" 변경 버전 Visual Studio를 사용 하 여.) 하위 디렉터리를 삭제 *ComponentModelCache*합니다.
 
 ## <a name="talk-video-and-finish-code-project"></a>비디오 설명 및 코드 프로젝트를 완료 합니다.
 

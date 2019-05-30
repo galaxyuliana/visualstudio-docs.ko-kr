@@ -6,18 +6,18 @@ helpviewer_keywords:
 - package start page
 - deploy start page
 ms.assetid: 4a7eb360-de83-41d5-be53-3cfb160d19f9
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 3f09f03a3404bbde346370149f210bf45e6e2306
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5a84ba2ff92463ebea177fc5c3b04810de7ae817
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62864051"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66348217"
 ---
 # <a name="deploy-custom-start-pages"></a>사용자 지정 시작 페이지를 배포 합니다.
 

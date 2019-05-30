@@ -5,17 +5,20 @@ ms.topic: reference
 helpviewer_keywords:
 - DisplayKind enumeration
 ms.assetid: 940968c5-6065-4bda-8ee6-c31597db4d71
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1bbb4af7b4269376d912ba312cfe8aacfef2e4ff
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 8c15726a3725b756e646e73804643f6b1ab36374
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56692764"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318271"
 ---
 # <a name="displaykind"></a>DisplayKind
 유효한 값에서 수행 되는 정보의 종류를 나타내는 열거를 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 개체 및 사용자에 게 표시 합니다.
@@ -41,12 +44,15 @@ public enum enum_DisplayKind
 };
 ```
 
-#### <a name="parameters"></a>매개 변수
-필드의 DisplayKind_Value 값입니다.
+## <a name="fields"></a>필드
+`DisplayKind_Value`\
+필드의 값입니다.
 
-필드의 DisplayKind_Name 이름입니다.
+`DisplayKind_Name`\
+필드의 이름입니다.
 
-필드의 DisplayKind_Type 형식입니다.
+`DisplayKind_Type`\
+필드의 형식입니다.
 
 ## <a name="requirements"></a>요구 사항
 헤더: Ee.h
@@ -55,6 +61,6 @@ public enum enum_DisplayKind
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [GetValueDisplayStringCount](../../../extensibility/debugger/reference/ieevisualizerservice-getvaluedisplaystringcount.md)

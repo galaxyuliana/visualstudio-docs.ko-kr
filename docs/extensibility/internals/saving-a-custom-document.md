@@ -7,17 +7,17 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], saving custom documents
 - editors [Visual Studio SDK], saving custom documents
 ms.assetid: 040b36d6-1f0a-4579-971c-40fbb46ade1d
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 0f02c4a98920fc575b5ab7c557dd469deb76a586
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b90938e44b4227f8aad43542fc99136745a8af4e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63427464"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318738"
 ---
 # <a name="saving-a-custom-document"></a>사용자 지정 문서 저장
 환경 핸들을 **저장**를 **다른 이름으로 저장**, 및 **모두 저장** 명령입니다. 사용자가 클릭 하면 **저장**, **다른 이름으로 저장**, **또는 모두 저장** 에 **파일** 메뉴 Save All, 다음에 솔루션을 닫습니다 프로세스가 발생합니다.

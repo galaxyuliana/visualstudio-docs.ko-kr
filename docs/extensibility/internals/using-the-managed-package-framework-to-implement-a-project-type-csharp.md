@@ -7,17 +7,17 @@ helpviewer_keywords:
 - MPF projects
 - managed package framework, creating projects
 ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8f233e2256fc4baef9ee6ca7f07d3d7b71b68b47
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a36dcb0ba8b55b6f3dece44e0fe7872e8696404f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62908424"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66324641"
 ---
 # <a name="using-the-managed-package-framework-to-implement-a-project-type-c"></a>관리 패키지 프레임워크를 사용하여 프로젝트 형식 구현(C#)
 관리 패키지 프레임 워크 (MPF)는 C#을 사용 하거나 사용자 고유의 프로젝트 형식 구현에서 상속 하는 클래스를 제공 합니다. MPF는 프로젝트 형식의 특정 구현에 집중할 수 자유롭게 다양 한 Visual Studio에서는 프로젝트 형식에 제공 하려면 인터페이스를 구현 합니다.

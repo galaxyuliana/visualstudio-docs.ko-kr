@@ -6,17 +6,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], implementing port suppliers
 - port suppliers, implementing
 ms.assetid: 6b8579df-58df-4c7f-8112-6015993e8765
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5d6875baf72d94494a1abaea9260e344b236f83c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: dd5ba2a96b94cce65dc901a523232b1c3e0a45b9
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62925587"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66349980"
 ---
 # <a name="implement-a-port-supplier"></a>포트 공급자 구현
 포트 공급자 세션 디버그 관리자 (SDM)에 대 한 요청 포트를 제공합니다. 포트 공급자를 비 DCOM 컴퓨터 또는 새 장치를 지원 해야 하는 경우에 디버그할 때 구현 되어야 합니다. 예를 들어 휴대 전화에 디버깅을 제공 하려면 (아마도 통해 IR 또는 셀 연결) 들의 휴대 전화에 연결 및 프로세스와 휴대폰에서 실행 중인 프로그램을 열거 하는 포트를 제공 하는 포트 공급자를 설정할 수 있습니다.

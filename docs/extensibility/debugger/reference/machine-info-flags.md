@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - MACHINE_INFO_FLAGS enumeration
 ms.assetid: 1482095d-9a2e-4ef1-9e14-362c0b85194e
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 19fb88886d55e38427599a9385485eed8a1bfc07
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 77d2c9af733f192526970d08d0ae3d24d2a5bf3f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65461052"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66339231"
 ---
 # <a name="machineinfoflags"></a>MACHINE_INFO_FLAGS
 컴퓨터에 설명 하는 데 사용 합니다.

@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - BPERESI_FIELDS enumeration
 ms.assetid: dd7dd89c-1043-46a1-a929-099cc039c344
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 488c2b1a96d01e0e7dfa9868d2f7e5111adc4e2d
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: f9db96713ba8bb0f3cd421c48ef602e25c2d25a1
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56699433"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66350532"
 ---
 # <a name="bperesifields"></a>BPERESI_FIELDS
 중단점의 실패 한 확인에 대 한 검색할 정보를 지정 합니다.
@@ -47,18 +50,24 @@ public enum enum_BPERESI_FIELDS {
 };
 ```
 
-## <a name="members"></a>멤버
-PERESI_BPRESLOCATION 초기화/사용 합니다 `bpResLocation` (중단점 해결 위치) 필드를 [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) 구조입니다.
+## <a name="fields"></a>필드
+`PERESI_BPRESLOCATION`\
+초기화/사용 합니다 `bpResLocation` (중단점 해결 위치) 필드를 [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) 구조입니다.
 
-BPERESI_PROGRAM 초기화/사용 된 `pProgram` 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
+`BPERESI_PROGRAM`\
+초기화/사용 된 `pProgram` 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
 
-BPERESI_THREAD 초기화/사용 된 `pThread` 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
+`BPERESI_THREAD`\
+초기화/사용 된 `pThread` 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
 
-BPERESI_MESSAGE 초기화/사용 된 `bstrMessage` 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
+`BPERESI_MESSAGE`\
+초기화/사용 된 `bstrMessage` 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
 
-BPERESI_TYPE 초기화/사용 합니다 `dwType` (중단점 형식) 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
+`BPERESI_TYPE`\
+초기화/사용 합니다 `dwType` (중단점 형식) 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
 
-BPERESI_ALLFIELDS 초기화/사용의 모든 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
+`BPERESI_ALLFIELDS`\
+초기화/사용의 모든 필드는 `BP_ERROR_RESOLUTION_INFO` 구조입니다.
 
 ## <a name="remarks"></a>설명
 매개 변수로 전달 합니다 [GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md) 의 필드를 표시 하는 방법 합니다 [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md) 구조는 초기화할.
@@ -74,7 +83,7 @@ BPERESI_ALLFIELDS 초기화/사용의 모든 필드는 `BP_ERROR_RESOLUTION_INFO
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)
 - [GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md)

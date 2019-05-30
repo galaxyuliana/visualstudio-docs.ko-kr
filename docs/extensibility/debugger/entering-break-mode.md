@@ -6,17 +6,17 @@ helpviewer_keywords:
 - break mode
 - debugging [Debugging SDK], entering break mode
 ms.assetid: e9a8a241-cd21-4d4e-999a-283554c288b1
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8da96c1df3423665ed223fecdd43007ba5a6e671
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a57ec499941e8e07d93d1917b9d12f5dfd7aca79
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62925757"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66341567"
 ---
 # <a name="enter-break-mode"></a>중단 모드를 입력 합니다.
 다음 정보는 함수를 한 단계씩 실행, 실행, 커서에 있는 소스 코드의 줄으로 또는 중단점까지 실행 후 중단점을 발견할 때 발생 하는 프로세스를 설명 합니다.

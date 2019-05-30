@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExceptionEvent2 interface
 ms.assetid: 53d32e59-a84b-4710-833e-c5ab08100516
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ffab06f0c0c97814dc16708e2fec5d1b805b67c2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 3fd2a449c71b69c654cd19846990f7b722f706de
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62920131"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66325986"
 ---
 # <a name="idebugexceptionevent2"></a>IDebugExceptionEvent2
 디버그 엔진 (DE)는 현재 실행 중인 프로그램에 예외가 throw 되 면 (SDM) 세션 디버그 관리자에 게이 인터페이스를 보냅니다.
@@ -54,7 +54,7 @@ IDebugExceptionEvent2 : IUnknown
 ## <a name="remarks"></a>설명
  이벤트를 보내기 전에 DE 확인 하는 경우이 예외 이벤트가 지정 된 첫째 또는 둘째 예외에 대 한 이전 호출 [SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md)합니다. 첫째 예외를 지정 된 경우는 `IDebugExceptionEvent2` SDM에 이벤트가 전송 됩니다. 그렇지 않은 경우는 DE 예외를 처리 하는 응용 프로그램에 제공 합니다. 없음 예외 처리기가 제공 하 고 예외를 두 번째 예외를으로 지정 된 경우는 `IDebugExceptionEvent2` SDM에 이벤트가 전송 됩니다. 그렇지 않으면는 DE 프로그램의 실행을 다시 시작 하 고 운영 체제 또는 런타임 예외를 처리 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md)
 - [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)

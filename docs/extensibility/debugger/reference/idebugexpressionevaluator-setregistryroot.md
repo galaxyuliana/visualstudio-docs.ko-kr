@@ -7,20 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpressionEvaluator::SetRegistryRoot method
 ms.assetid: 790886d8-1975-4d3c-9a75-cd86c1faf4ca
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 64c18794e638c9f6af34ab670400662cb89df93c
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: d2f64272b38b6a41e8637e884f19da62d2fd1a1e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66211777"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66325603"
 ---
 # <a name="idebugexpressionevaluatorsetregistryroot"></a>IDebugExpressionEvaluator::SetRegistryRoot
 이 메서드는 레지스트리 루트를 설정합니다. Side-by-side-디버깅에 사용 합니다.

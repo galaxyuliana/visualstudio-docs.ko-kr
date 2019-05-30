@@ -7,17 +7,17 @@ helpviewer_keywords:
 - project system
 - tutorial
 ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d23c0803bb81b34156d2cdb56e54388ba3cc5661
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d6dfcae8855c2bdb821f61be65de39282db87dfd
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62926806"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66337005"
 ---
 # <a name="create-a-basic-project-system-part-2"></a>2 부 기본 프로젝트 시스템을 만들려면
 이 시리즈의 첫 번째 연습의 [1 부 기본 프로젝트 시스템을 만들려면](../extensibility/creating-a-basic-project-system-part-1.md), 기본 프로젝트 시스템을 만드는 방법을 보여 줍니다. 이 연습에서는 Visual Studio 템플릿, 속성 페이지 및 기타 기능을 추가 하 여 기본 프로젝트 시스템에 작성 합니다. 이 시작 하기 전에 첫 번째 연습을 완료 해야 합니다.
@@ -42,7 +42,7 @@ ms.locfileid: "62926806"
 ## <a name="create-a-visual-studio-template"></a>Visual Studio 템플릿 만들기
 - [1 부 기본 프로젝트 시스템을 만들려면](../extensibility/creating-a-basic-project-system-part-1.md) 기본 프로젝트 템플릿을 만들고 프로젝트 시스템에 추가 하는 방법을 보여 줍니다. 또한를 사용 하 여 Visual Studio를 사용 하 여이 템플릿을 등록 하는 방법을 보여 줍니다는 <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> 의 전체 경로 기록 하는 특성을 *\\Templates\Projects\SimpleProject\\* 시스템의 폴더 레지스트리입니다.
 
-Visual Studio 템플릿을 사용 하 여 (*.vstemplate* 파일)에 템플릿을 표시 되는 방식을 제어할 수 있습니다 기본 프로젝트 템플릿을 대신 합니다 **새 프로젝트** 대화 상자 및 템플릿 매개 변수는 방법 대체 합니다. A *.vstemplate* 파일은 프로젝트 시스템 템플릿을 사용 하 여 프로젝트를 만들면 포함 되도록 소스 파일은 하는 방법을 설명 하는 XML 파일입니다. 프로젝트 시스템 자체를 수집 하 여 빌드됩니다를 *.vstemplate* 파일 및 소스 파일을 *.zip* 파일을 복사 하 여 배포 및를 *.zip* 수 있는 위치에 파일 Visual Studio에 알려진 합니다. 이 프로세스는이 연습의 뒷부분에서 자세히 설명 합니다.
+Visual Studio 템플릿을 사용 하 여 ( *.vstemplate* 파일)에 템플릿을 표시 되는 방식을 제어할 수 있습니다 기본 프로젝트 템플릿을 대신 합니다 **새 프로젝트** 대화 상자 및 템플릿 매개 변수는 방법 대체 합니다. A *.vstemplate* 파일은 프로젝트 시스템 템플릿을 사용 하 여 프로젝트를 만들면 포함 되도록 소스 파일은 하는 방법을 설명 하는 XML 파일입니다. 프로젝트 시스템 자체를 수집 하 여 빌드됩니다를 *.vstemplate* 파일 및 소스 파일을 *.zip* 파일을 복사 하 여 배포 및를 *.zip* 수 있는 위치에 파일 Visual Studio에 알려진 합니다. 이 프로세스는이 연습의 뒷부분에서 자세히 설명 합니다.
 
 1. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]를 수행 하 여 만든 SimpleProject 솔루션을 엽니다 [1 부 기본 프로젝트 시스템을 만들려면](../extensibility/creating-a-basic-project-system-part-1.md)합니다.
 

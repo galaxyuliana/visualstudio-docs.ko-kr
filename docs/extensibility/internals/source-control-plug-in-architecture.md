@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, architecture
 ms.assetid: 35351d4c-9414-409b-98fc-f2023e2426b7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 6ff9c73ebbe976df7c3d25304280e743cad0423c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 75b283a2013b67b28d90ba8a47dbee41cae1f848
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62908521"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66322539"
 ---
 # <a name="source-control-plug-in-architecture"></a>소스 제어 플러그 인 아키텍처
 소스 제어 지원에 추가할 수 있습니다는 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 구현 하 고 소스 제어 플러그 인을 연결 하 여 통합된 개발 환경 (IDE)입니다. IDE는 잘 정의 된 원본 제어 플러그 인 API를 통해 플러그 인 소스 제어에 연결합니다. IDE 도구 모음 및 메뉴 명령으로 구성 된 사용자 인터페이스 (UI)를 제공 하 여 원본 제어 시스템의 버전 제어 기능을 노출 합니다. 소스 제어 플러그 인 소스 제어 기능을 구현합니다.

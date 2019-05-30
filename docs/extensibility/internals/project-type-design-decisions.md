@@ -8,17 +8,17 @@ helpviewer_keywords:
 - project types, items
 - project types, design decisions
 ms.assetid: f68671fe-fd7a-4e56-a0b5-330b0f1fedb1
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 5e420261810cec793cc553eac83bbc97edd1fb1c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 697b09ff5725de954963f7583271ac9ebd6814a8
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62909116"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328119"
 ---
 # <a name="project-type-design-decisions"></a>프로젝트 형식 디자인 결정
 새 프로젝트 형식을 만들기 전에 프로젝트 형식에 대 한 몇 가지 디자인 결정 해야 합니다. 프로젝트를 포함 하는 항목, 프로젝트 파일은 유지 하는 방법 및 어떤 약정 모델 유형을 사용할지 결정 해야 합니다.

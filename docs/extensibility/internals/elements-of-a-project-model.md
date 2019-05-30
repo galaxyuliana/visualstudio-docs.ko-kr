@@ -7,17 +7,17 @@ helpviewer_keywords:
 - project models
 - projects [Visual Studio SDK], elements
 ms.assetid: a1dbe0dc-68da-45d7-8704-5b43ff7e4fc4
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7e14086ea395ffe65a52f47d0bfaa320fb19bc8f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1b37997c4245d8234d72ae14a9dda23f44fe2b26
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910082"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351580"
 ---
 # <a name="elements-of-a-project-model"></a>프로젝트 모델의 요소
 모든 프로젝트에서 구현 및 인터페이스 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 기본 구조를 공유 합니다: 프로젝트 형식에 대 한 프로젝트 모델. 개발 하는 VSPackage가 프로젝트 모델의 디자인 관련 결정 사항을 준수 하 고 IDE에서 제공 하는 전역 기능와 함께 작동 하는 개체를 만듭니다. 프로젝트 항목을 유지 하는 방법을 제어할 수 있지만 예를 들어 제어 하지 않으면 파일을 유지 해야 하는 알림입니다. 사용자는 열린 항목에 포커스를 배치 하 고 선택 하는 경우 **저장** 에 **파일** 메뉴에서를 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 메뉴 모음 프로젝트 형식 코드 해야 IDE에서 명령 가로채기, 파일을 보존 및 파일을 더 이상 변경 알림을 IDE에 다시 보냅니다.

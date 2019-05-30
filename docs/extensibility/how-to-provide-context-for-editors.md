@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - provide context
 ms.assetid: 12df4d06-df6b-4eaf-a7bf-c83655a0c683
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f37550dbea8b3633c79358822fa8f2bdf1ecb6d0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: bc482050422a9481bddc2902832376fa9dc0c29a
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63417155"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66325373"
 ---
 # <a name="how-to-provide-context-for-editors"></a>방법: 편집기에 대 한 컨텍스트를 제공 합니다.
 편집기에 대 한는 컨텍스트는 편집기에 포커스가 또는 도구 창에 포커스를 이동 된 직전 포커스가 있던 경우에 활성화 됩니다. 다음 태스크를 수행 하 여 편집기에 대 한 컨텍스트를 제공할 수 있습니다.

@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugSymbolProvider interface
 ms.assetid: df5f095f-1dee-46f9-84cf-92417c71d5fb
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 98bd86cd219ec2604816e290f75e02d1f9530a53
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 6275cc68ac7bd9948416046f851e778ee51a83dd
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65457626"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66347477"
 ---
 # <a name="idebugsymbolprovider"></a>IDebugSymbolProvider
 이 인터페이스는 기호 및 필드로 반환 형식을 제공 하는 기호 공급자를 나타냅니다.

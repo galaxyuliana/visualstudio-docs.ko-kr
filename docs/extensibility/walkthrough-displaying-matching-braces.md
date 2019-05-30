@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - brace matching
 ms.assetid: 5af08ac7-1d08-4ccf-997e-01aa6cb3d3d7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ae1b0f45d119b759d6618630a65353eff4415c78
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8bbea179eb2140706ee868a8a48215e7f490f57d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62795997"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66312528"
 ---
 # <a name="walkthrough-display-matching-braces"></a>연습: 일치 하는 중괄호를 표시 합니다.
 중괄호 일치 하려면 중괄호를 정의 하 고 때 중괄호 중 하나에 캐럿이 여는 중괄호를 텍스트 표식 태그를 추가 하 여 일치 하는 등의 언어 기반 기능을 구현 합니다. 언어의 컨텍스트에서 중괄호를 정의 하 고, 고유한 파일 이름 확장명 및 콘텐츠 형식 정의 하 고, 입력 하거나 기존 콘텐츠 형식 (예: "text")에 태그를 적용 하는 태그를 적용할 수 있습니다. 다음 연습에는 중괄호 일치 하는 "text" 콘텐츠 형식에 대 한 태그를 적용 하는 방법을 보여 줍니다.

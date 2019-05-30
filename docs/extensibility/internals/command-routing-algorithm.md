@@ -6,17 +6,17 @@ helpviewer_keywords:
 - commands, routing
 - command routing
 ms.assetid: 998b616b-bd08-45cb-845f-808efb8c33bc
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 591a5bdbeaa8724eb51d5755066b382c08740bf9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c98e145961f8d98c7ea939bd051a94ee68cd93f4
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62910399"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66342106"
 ---
 # <a name="command-routing-algorithm"></a>명령 라우팅 알고리즘
 Visual Studio에서 명령은 다양 한 다른 구성 요소에서 처리 됩니다. 명령 (라고도 전역)은 가장 바깥쪽 컨텍스트를 현재 선택 영역을 기반으로 하는 가장 안쪽의 컨텍스트에서 라우팅됩니다. 자세한 내용은 [가용성 명령을](../../extensibility/internals/command-availability.md)합니다.

@@ -6,17 +6,17 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, and common language runtime
 ms.assetid: b36c1eb5-1aaf-48a6-b287-ee7a273d2b1c
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: e6fdbdcdf292d90fc63758c2b7d183225e63a850
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 803dbb75a5cc9ad2b4fc81310c3b564994fea734
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63411312"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351303"
 ---
 # <a name="common-language-runtime-and-expression-evaluation"></a>공용 언어 런타임 및 식 평가
 > [!IMPORTANT]
@@ -29,7 +29,7 @@ ms.locfileid: "63411312"
 
  식을 구문 분석 되 면 각 데이터 개체를 평가 하는 기호 공급자 (SP) 라고 합니다. 예를 들어, "A"가 정의 하는 경우 둘 이상의 메서드를 질문에서 "A는?" 값을 조사할 수 있습니다 전에 응답 해야 합니다. SP에서 반환한 응답은 "다섯 번째 스택 프레임에 세 번째 item" 또는 "정적 메모리의 시작 부분을 벗어나면 50 바이트는이 메서드를 할당 합니다."
 
- CLR 컴파일러 프로그램 자체에 대 한 MSIL을 생성 하는 것 외에도 프로그램 데이터베이스에 기록 되는 매우 설명이 포함 된 디버깅 정보를 생성할 수도 있습니다 (*.pdb*) 파일입니다. 전용 언어 컴파일러를 같은 형식으로 CLR 컴파일러에 디버그 정보를 생성 하는 경우 CLR의 SP 하는 언어의 명명 된 데이터 개체를 식별할 수 있습니다. 명명 된 데이터 개체를 식별 한 후 EE 바인더 개체를 해당 개체의 값을 보유 하는 메모리 영역에 데이터 개체를 연결 (또는 바인딩)를 사용 합니다. 다음는 DE 가져오거나 데이터 개체에 대 한 새 값을 설정할 수 있습니다.
+ CLR 컴파일러 프로그램 자체에 대 한 MSIL을 생성 하는 것 외에도 프로그램 데이터베이스에 기록 되는 매우 설명이 포함 된 디버깅 정보를 생성할 수도 있습니다 ( *.pdb*) 파일입니다. 전용 언어 컴파일러를 같은 형식으로 CLR 컴파일러에 디버그 정보를 생성 하는 경우 CLR의 SP 하는 언어의 명명 된 데이터 개체를 식별할 수 있습니다. 명명 된 데이터 개체를 식별 한 후 EE 바인더 개체를 해당 개체의 값을 보유 하는 메모리 영역에 데이터 개체를 연결 (또는 바인딩)를 사용 합니다. 다음는 DE 가져오거나 데이터 개체에 대 한 새 값을 설정할 수 있습니다.
 
  전용 컴파일러를 호출 하 여 정보를 디버깅 하는 CLR을 제공할 수는 `ISymbolWriter` 인터페이스 (네임 스페이스의.NET Framework에 정의 되어 있는 `System.Diagnostics.SymbolStore`). MSIL로 컴파일 하 고 이러한 인터페이스를 통해 디버그 정보를 작성, CLR DE 및 SP. 전용 컴파일러를 사용할 수 있습니다. 이 크게 Visual Studio IDE 자체 언어 통합 간소화 합니다.
 

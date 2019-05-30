@@ -5,20 +5,20 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugProgram3::ExecuteOnThread
 ms.assetid: 2f5211e3-7a3f-47bf-9595-dfc8b4895d0d
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 1edd974c934aab5fe3a5c3679190af5ce6039120
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 798a0caca394a21d6ee12a99efeacb2f27f6969c
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66212563"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66343597"
 ---
 # <a name="idebugprogram3executeonthread"></a>IDebugProgram3::ExecuteOnThread
 디버거가 프로그램을 실행합니다. 스레드는 스레드를 사용자가 프로그램을 실행 하는 경우 보고 디버거 정보를 제공 해에 반환 됩니다.

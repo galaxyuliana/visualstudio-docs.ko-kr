@@ -7,17 +7,17 @@ helpviewer_keywords:
 - project files
 - project files, saving data
 ms.assetid: a3d4b15b-a91e-41ba-b235-e62632d11bc5
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 53e227b2fdf97c406a86b31cee2a3c450948ee6b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: f1fc94b1fcb2529b41f1c74e2c6bfb9758171669
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434787"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66334056"
 ---
 # <a name="save-data-in-project-files"></a>프로젝트 파일에서 데이터를 저장 합니다.
 프로젝트 하위 형식 저장 하 고 프로젝트 파일에서 하위 형식의 특정 데이터를 검색할 수 있습니다. 관리 패키지 프레임 워크 (MPF)는이 작업을 수행 하는 두 가지 인터페이스를 제공 합니다.

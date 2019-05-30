@@ -6,17 +6,17 @@ helpviewer_keywords:
 - TaskScheduler class [.NET Framework debug engines]
 - debug engines, TaskScheduler class [.NET Framework]
 ms.assetid: 87f1c969-0217-4464-8907-7609c1bf61d3
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: cf7b693c058cd69ab2dcb79be787cf5a16d8f8a0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 865e12819a5e7325886c0f7f5d8425a6b3d2e393
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62864025"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66331327"
 ---
 # <a name="taskscheduler-class---internal-members"></a>TaskScheduler 클래스-내부 멤버
 이 문서에서는 설명의 internal 멤버를 <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> 도움이 되는 클래스 사용자 지정 디버거를 구현 합니다. 이 클래스에 대 한 일반 정보에 대 한 참조를 <xref:System.Threading.Tasks.TaskScheduler> 참조 문서입니다.

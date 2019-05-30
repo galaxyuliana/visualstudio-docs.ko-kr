@@ -7,17 +7,17 @@ helpviewer_keywords:
 - VSPackages, uninstalling
 - uninstalling VSPackages
 ms.assetid: c4575ac7-82da-4af8-a375-ea756a101fbf
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: b5f75ee93b856442fd12560d198086489668fd9d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4ddb09668d3114c055ddac1e4fb677a46754f388
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63429855"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66344755"
 ---
 # <a name="uninstalling-a-vspackage-with-windows-installer"></a>Windows Installer를 사용하여 VSPackage 제거
 대부분의 경우 Windows 설치 관리자를 제거할 수 VSPackage에서 방금 수행한 VSPackage를 설치 하려면 "취소"입니다. 사용자 지정 작업에서 설명한 [명령은 해야 수 실행 한 후 설치](../../extensibility/internals/commands-that-must-be-run-after-installation.md) 도 제거 후 실행 해야 합니다. Devenv.exe 호출 하 여 설치 및 제거에 모두에 대 한 InstallFinalize 표준 작업 바로 전에 발생 하므로 두 경우 모두 CustomAction 및 InstallExecuteSequence 테이블 항목에 제공 합니다.

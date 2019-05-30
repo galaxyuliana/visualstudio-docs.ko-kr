@@ -7,17 +7,20 @@ f1_keywords:
 helpviewer_keywords:
 - FIELD_INFO structure
 ms.assetid: bfafef6d-0c83-43d7-a779-1f0d24b166a1
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 83cdacae192ad1286203139432a0eacd632b8511
-ms.sourcegitcommit: b0d8e61745f67bd1f7ecf7fe080a0fe73ac6a181
+dev_langs:
+- CPP
+- CSharp
+ms.openlocfilehash: 352e4bdf6c79dc67f0bf396cb1164e96e80fbf5f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56694232"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66337697"
 ---
 # <a name="fieldinfo"></a>FIELD_INFO
 이 구조는 지역 변수, 매개 변수 또는 다른 필드를 설명합니다.
@@ -45,15 +48,20 @@ public struct FIELD_INFO {
 ```
 
 ## <a name="members"></a>멤버
-플래그는 dwFields 조합을 [FIELD_INFO_FIELDS](../../../extensibility/debugger/reference/field-info-fields.md) 채워지는 멤버를 지정 하는 열거형입니다.
+`dwFields`\
+플래그의 조합을 [FIELD_INFO_FIELDS](../../../extensibility/debugger/reference/field-info-fields.md) 채워지는 멤버를 지정 하는 열거형입니다.
 
-bstrFullName 필드의 전체 이름입니다.
+`bstrFullName`\
+필드의 전체 이름입니다.
 
-bstrName 필드의 짧은 이름입니다.
+`bstrName`\
+필드의 짧은 이름입니다.
 
-bstrType 필드의 형식입니다.
+`bstrType`\
+필드의 형식입니다.
 
-플래그는 dwModifiers 조합 합니다 [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md) 필드를 설명 하는 열거형입니다.
+`dwModifiers`\
+플래그의 조합을 합니다 [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md) 필드를 설명 하는 열거형입니다.
 
 ## <a name="remarks"></a>설명
 이 구조에 전달 되는 [GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md) 메서드 위치에서 채워집니다.
@@ -65,7 +73,7 @@ bstrType 필드의 형식입니다.
 
 어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [클래스 및 공용 구조체](../../../extensibility/debugger/reference/structures-and-unions.md)
 - [FIELD_INFO_FIELDS](../../../extensibility/debugger/reference/field-info-fields.md)
 - [FIELD_MODIFIERS](../../../extensibility/debugger/reference/field-modifiers.md)

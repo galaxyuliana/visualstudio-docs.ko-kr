@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], about source control
 ms.assetid: 3a46e4eb-e677-49c3-8647-d927d035a19a
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c4bd2a688e2a10bf0b931851b0d4366684820bf1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9dd54872325766b432af7e3104e7ab9f431b79d7
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62859010"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66322516"
 ---
 # <a name="source-control-integration-overview"></a>소스 제어 통합 개요
 이 섹션에서는 Visual Studio 소스 제어;에 통합 하는 두 가지 방법 비교 소스 제어 플러그 인 및 원본 제어 솔루션을 제공 하 고 새 소스 제어 기능을 강조 표시 하는 VSPackage는 합니다. Visual Studio 자동 솔루션 기반 전환 뿐 아니라 소스 제어 Vspackage와 원본 제어 플러그 인 간에 수동 전환할 수 있습니다.

@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - error markers
 ms.assetid: e8e78514-5720-4fc2-aa43-00b6af482e38
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 67ef0d68df50d89f0ec22631a731ea9eb50dad46
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 96c6e1cc5c26819854099a0b7a493472fca8155e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63415488"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66351928"
 ---
 # <a name="how-to-implement-error-markers"></a>방법: 오류 마커를 구현 합니다.
 오류 표식 (또는 빨간색 물결 무늬 밑줄)은 가장 어려운 구현 하려면 텍스트 편집기 사용자 지정 합니다. 그러나 VSPackage의 사용자에 게 혜택을 제공 하는 데 비용이 훨씬 보다 클 수 있습니다. 약간 오류 표식에 언어 파서 하다 구불구불한 또는 물결 모양의 빨간색 선으로 잘못 된 고 판단 되는 텍스트를 표시 합니다. 잘못 된 코드를 시각적으로 표시 하 여 프로그래머에 게 도움이 됩니다.

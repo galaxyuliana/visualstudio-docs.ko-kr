@@ -6,17 +6,17 @@ helpviewer_keywords:
 - IVsLanguageInfo interface
 - language services, objects
 ms.assetid: 03b2d507-f463-417e-bc22-bdac68eeda52
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c5c907885e91cc3b7765ff94528a30a84b17ee46
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3a626111fc1f2eb8790cdfe2a146f63eba7fbab3
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62909567"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66333483"
 ---
 # <a name="legacy-language-service-interfaces"></a>레거시 언어 서비스 인터페이스
 모든 특정 프로그래밍 언어에 대해 한 번에 언어 서비스의 인스턴스가 하나만 수 있습니다. 그러나 단일 언어 서비스는 둘 이상의 편집기를 사용할 수 있습니다.

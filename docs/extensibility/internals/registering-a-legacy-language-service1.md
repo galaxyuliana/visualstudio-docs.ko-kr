@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - language services [managed package framework], registering
 ms.assetid: d33b08af-09e0-4c79-87b2-5536b27fbacf
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 72d82bca64870c65efaeaa58077b90cecf073be5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e30123d0514acc935a1caf475c01086ca9aab62e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62859445"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66341404"
 ---
 # <a name="registering-a-legacy-language-service"></a>레거시 언어 서비스 등록
 VSPackage에서 제공 되는 언어 서비스에서 관리 되는 패키지 프레임 워크에 MPF (), (참조 [Vspackage](../../extensibility/internals/vspackages.md))으로 등록 됩니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 레지스트리 키 및 항목을 추가 하 여 합니다. 이 등록 프로세스는 부분적으로 설치 하는 동안 및 런타임 시 일부에서 수행 됩니다.

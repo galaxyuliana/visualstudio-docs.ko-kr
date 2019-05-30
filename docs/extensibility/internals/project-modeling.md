@@ -6,17 +6,17 @@ helpviewer_keywords:
 - automation [Visual Studio SDK], implementing project objects
 - project models, automation
 ms.assetid: c8db8fdb-88c1-4b12-86fe-f3c30a18f9ee
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3a2ae395d94d76fd2b11de33cc6d5053d8b92432
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 11f865a0c39f67b0505a16b209511943756a6981
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62859668"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328286"
 ---
 # <a name="project-modeling"></a>프로젝트 모델링
 표준 프로젝트 개체를 구현 하는 프로젝트에 대 한 자동화를 제공 하는 다음 단계: 합니다 <xref:EnvDTE.Projects> 및 `ProjectItems` 컬렉션에 `Project` 및 <xref:EnvDTE.ProjectItem> 구현에 고유한 나머지 개체와 개체;. 이러한 표준 개체 Dteinternal.h 파일에 정의 됩니다. 표준 개체 구현의 BscPrj 샘플에서 제공 됩니다. Side-by-side-는 표준 프로젝트 개체를 만들려면 모델으로 이러한 클래스를 사용할 수 있습니다 다른 프로젝트 형식에서 프로젝트 개체를 사용 하 여 합니다.

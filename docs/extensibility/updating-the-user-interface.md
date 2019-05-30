@@ -6,17 +6,17 @@ helpviewer_keywords:
 - user interfaces, updating
 - commands, updating UI
 ms.assetid: 376e2f56-e7bf-4e62-89f5-3dada84a404b
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: d3745cd73e09031b747b6bd17973abb97196ce46
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2cec2e3a1049f59fa585e4f3a7b0bd608740ccfa
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62798419"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66316354"
 ---
 # <a name="updating-the-user-interface"></a>사용자 인터페이스 업데이트
 명령을 구현한 후에 새 명령의 상태를 사용 하 여 사용자 인터페이스를 업데이트 하는 코드를 추가할 수 있습니다.

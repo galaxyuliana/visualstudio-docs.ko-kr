@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debug engines
 ms.assetid: 148b1efc-ca07-4d8e-bdfc-c723a760c620
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c49bbe85f24291c9a173bb513ebc3810148a26b6
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 9e7e5afa4e68d37254c3cb07f1bafa2b48ee787a
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63411289"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66336540"
 ---
 # <a name="debug-engine"></a>디버그 엔진
 디버그 엔진 (DE) 작동 인터프리터 또는 운영 시스템 실행 제어, 중단점 및 식 평가 같은 디버깅 서비스를 제공 합니다. DE는 디버그 중인 프로그램의 상태를 모니터링 하는 일을 담당 합니다. 이 위해 수행 하는 DE 어떤 방법이 지원 되는 런타임에서 사용 가능한 런타임에서 CPU 또는 Api에서 제공 하는지 여부를 사용 합니다.

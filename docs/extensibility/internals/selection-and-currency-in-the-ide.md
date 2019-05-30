@@ -8,17 +8,17 @@ helpviewer_keywords:
 - selection, Visual Studio IDE
 - IDE, currency
 ms.assetid: 2f6f18d1-acd8-454d-a856-9a4d81155052
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 612549e9aceb7a9bad6da2a5388dedd277469bad
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 23ce55a85fd6f1408c623a49fc16b8766c535dfc
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62908783"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66318705"
 ---
 # <a name="selection-and-currency-in-the-ide"></a>IDE의 선택 및 통화
 합니다 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 통합된 개발 환경 (IDE) 선택을 사용 하 여 현재 선택한 개체 사용자에 대 한 정보를 유지 관리 *상황에 맞는*합니다. 선택 항목 컨텍스트를 사용 하 여 Vspackage 두 가지 방법으로 추적 하는 통화로 포함이 될 수 있습니다.

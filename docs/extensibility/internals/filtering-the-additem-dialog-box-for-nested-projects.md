@@ -6,17 +6,17 @@ helpviewer_keywords:
 - filtering, nested projects
 - nested projects, AddItem dialog box filtering
 ms.assetid: 5b3e352e-7f18-4f66-be16-b0ad55637ce5
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 38b56753bfc56a1143d8c5423ddf7714f0b2f21e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bc3ff1f85e8c8c71bf8ef16e6fe0c89bf3613f4d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62861106"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328956"
 ---
 # <a name="filter-the-additem-dialog-box-for-nested-projects"></a>중첩 된 프로젝트에 대 한 항목 추가 대화 상자를 필터링 합니다.
 표시 하는 경우는 **AddItem** 중첩 된 프로젝트의 경우 부모 프로젝트 대화 상자 대화 상자에서 표시 되는 항목을 제어할 수 있습니다.

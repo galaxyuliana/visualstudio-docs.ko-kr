@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2 interface
 ms.assetid: 1f0e9ac0-6dfb-461a-976c-888d82144cdb
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 86458a501ba1bb321727663b6c8b995d329904f7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: ce60ffb1143dd763ea14390b0b55e105f74d1b53
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62920861"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66352565"
 ---
 # <a name="idebugengine2"></a>IDebugEngine2
 이 인터페이스는 디버그 엔진을 (DE)를 나타냅니다. 중단점을 설정 하 여 예외를 지우면 만들기에서 다양 한 디버깅 세션을 관리 하는 것이 됩니다.
@@ -60,6 +60,6 @@ IDebugEngine2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)
 - [GetEngine](../../../extensibility/debugger/reference/idebugenginecreateevent2-getengine.md)

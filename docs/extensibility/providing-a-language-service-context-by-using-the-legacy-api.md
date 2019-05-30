@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], legacy - language service context
 ms.assetid: daa2df22-9181-4bad-b007-a7d40302bce1
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 66e8da821657dc1aefd8563f3826891cb75e1792
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3cdb7c2ff3d759581569d0f3681ce1b2f9cef39c
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62805972"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66334429"
 ---
 # <a name="provide-a-language-service-context-by-using-the-legacy-api"></a>기존 API를 사용 하 여 언어 서비스 컨텍스트를 제공 합니다.
 두 가지 옵션을 사용 하 여 사용자 컨텍스트를 제공 하는 언어 서비스는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 핵심 편집기: 텍스트 표식 컨텍스트를 제공 하거나 모든 사용자 컨텍스트를 제공 합니다. 여기에 각 간의 차이점 요약 되어 있습니다.

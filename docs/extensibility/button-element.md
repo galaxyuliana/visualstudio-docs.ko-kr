@@ -6,17 +6,17 @@ helpviewer_keywords:
 - Buttons element (VSCT XML schema)
 - VSCT XML schema elements, Buttons
 ms.assetid: 96dccf51-2b00-4700-9d28-924b34c21ecd
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1e62436d32d85c76685c86ea0da396dacae1bf3f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e10b4f8749aa7e42a7fb95afb31d98907e45d05f
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62891702"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66321292"
 ---
 # <a name="button-element"></a>Button 요소
 사용자가 상호 작용할 수 있는 요소를 정의 합니다. 다른 종류의 단추 수 있습니다. 단추, MenuButton, 및 SplitDropDown 합니다.

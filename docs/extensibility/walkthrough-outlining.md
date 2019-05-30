@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - outlining
 ms.assetid: d75a44aa-265a-44d4-9c28-457f59c4ff9f
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 908b2f2b7a0dc055065abd96df3eb4495ad30ce8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: df269c3018d850ed2d5ae7435b82eb4f3aee4e1a
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965056"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66320618"
 ---
 # <a name="walkthrough-outlining"></a>연습: 개요
 개요 확장 또는 축소 하려는 텍스트 영역의 종류를 정의 하 여 같은 언어 기반 기능을 설정 합니다. 언어 서비스의 컨텍스트에서 영역을 정의 또는 하거나 정의할 수 있습니다 고유한 파일 이름 확장명 및 콘텐츠 유형 및 영역 정의 해당 형식에만 적용할 지역 정의 기존 콘텐츠 형식 (예: "text")를 적용 합니다. 이 연습에서는 정의 개요 영역을 표시 하는 방법을 보여 줍니다.
@@ -34,9 +34,9 @@ ms.locfileid: "62965056"
 3. 기존 클래스 파일을 삭제합니다.
 
 ## <a name="implement-an-outlining-tagger"></a>개요는 태거 구현
- 태그의 종류별로 개요 영역 표시 됩니다 (<xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>). 이 태그는 표준 동작 개요를 제공 합니다. 윤곽선이 있는 영역을 확장 하거나 축소할 수 있습니다. 윤곽선이 있는 지역에 더하기 기호 표시 됩니다 (**+**) 축소 된 경우 또는 빼기 기호 (**-**)를 확장 하 고 확장 된 영역 세로 선 경계선은입니다.
+ 태그의 종류별로 개요 영역 표시 됩니다 (<xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>). 이 태그는 표준 동작 개요를 제공 합니다. 윤곽선이 있는 영역을 확장 하거나 축소할 수 있습니다. 윤곽선이 있는 지역에 더하기 기호 표시 됩니다 ( **+** ) 축소 된 경우 또는 빼기 기호 ( **-** )를 확장 하 고 확장 된 영역 세로 선 경계선은입니다.
 
- 다음 단계를 대괄호를 구분 하는 모든 지역에 대 한 개요 영역을 만들 수 있는 한 태거를 정의 하는 방법을 보여 줍니다 (**[** 하십시오 **]**).
+ 다음 단계를 대괄호를 구분 하는 모든 지역에 대 한 개요 영역을 만들 수 있는 한 태거를 정의 하는 방법을 보여 줍니다 ( **[** 하십시오 **]** ).
 
 ### <a name="to-implement-an-outlining-tagger"></a>개요는 태거를 구현 하려면
 
@@ -129,7 +129,7 @@ ms.locfileid: "62965056"
     ]
     ```
 
-4. 양쪽 대괄호를 포함 하는 개요 영역 없어야 합니다. 개요 영역을 축소 하 고 여는 중괄호의 왼쪽에 빼기 기호를 클릭 해야 합니다. 경우 영역을 축소 줄임표 기호 (*...* ) 축소 된 영역 및 텍스트가 포함 된 팝업의 왼쪽에 나타날 **가리킨 항목 텍스트** 줄임표 위로 포인터를 이동 하면 표시 됩니다.
+4. 양쪽 대괄호를 포함 하는 개요 영역 없어야 합니다. 개요 영역을 축소 하 고 여는 중괄호의 왼쪽에 빼기 기호를 클릭 해야 합니다. 경우 영역을 축소 줄임표 기호 ( *...* ) 축소 된 영역 및 텍스트가 포함 된 팝업의 왼쪽에 나타날 **가리킨 항목 텍스트** 줄임표 위로 포인터를 이동 하면 표시 됩니다.
 
 ## <a name="see-also"></a>참고자료
 - [연습: 파일 이름 확장명에 콘텐츠 형식 링크](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

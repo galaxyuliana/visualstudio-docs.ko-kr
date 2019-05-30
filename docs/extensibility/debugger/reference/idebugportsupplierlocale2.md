@@ -5,17 +5,17 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugPortSupplierLocale2 interface
 ms.assetid: 910e7220-da2a-4339-9fff-9fb1bad3c28c
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 252c1e39af112b305b66a92fcfc3f329b743eae0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 1f691bba978243e75511996caee38df09baa3c3e
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62917909"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66353295"
 ---
 # <a name="idebugportsupplierlocale2"></a>IDebugPortSupplierLocale2
 포트 공급자에 대 한 로캘 지원을 제공합니다.
@@ -43,7 +43,7 @@ IDebugPortSupplierLocale2 : IUnknown
 
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 - [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)
 - [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)
 - [IDebugPortSupplier3](../../../extensibility/debugger/reference/idebugportsupplier3.md)

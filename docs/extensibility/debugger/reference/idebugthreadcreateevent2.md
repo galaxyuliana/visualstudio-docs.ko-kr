@@ -7,17 +7,17 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThreadCreateEvent2
 ms.assetid: aee34a14-4f9c-4ad3-845f-c96ee938cefd
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 9b9003ebe3ec38d85322c9c856f9c60916c32a57
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: c2bff87f7d8bef0c548b973492c15a549430c1e1
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226056"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66320021"
 ---
 # <a name="idebugthreadcreateevent2"></a>IDebugThreadCreateEvent2
 이 인터페이스는 디버그 중인 프로그램에서 스레드를 만들 때 세션 디버그 관리자 (SDM)에 디버그 엔진 (DE)에서 전송 됩니다.

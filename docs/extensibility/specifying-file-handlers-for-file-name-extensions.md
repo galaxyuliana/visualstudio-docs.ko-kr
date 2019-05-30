@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - file extensions, specifying file handlers
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 7b56df6c315d0612d6139fcda8b94f5d1b33b12a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7a80c17fc6de0efe691b1c36e4421cb2b62cbd00
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63434552"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66331781"
 ---
 # <a name="specifying-file-handlers-for-file-name-extensions"></a>파일 이름 확장명에 대한 파일 처리기 지정
 다양 한 방법으로 특정 파일 확장명을 가진 파일을 처리 하는 응용 프로그램을 확인할 수 있습니다. OpenWithList 및 Openwithprogid 동사에는 파일 확장명에 대 한 레지스트리 항목에서 파일 처리기를 지정 하려면 두 가지 있습니다.
@@ -47,7 +47,7 @@ HKEY_CLASSES_ROOT\
 |--------------------|----------------------|
 |.extension|ProductName. extension.versionMajor.versionMinor|
 
- 특정 파일 확장명을 HKEY_CLASSES_ROOT를 값으로 버전이 지정 된 Progid를 추가 하 여 열 수 있는 다른 응용 프로그램을 등록할 수 있습니다\\*\<확장 >* \OpenWithProgids 키입니다. 이 레지스트리 키에는 파일 확장명과 연결 된 대체 Progid의 목록을 포함 합니다. 나열 된 Progid와 관련 된 응용 프로그램에 표시 합니다 **열기**_Product Name_ 하위 메뉴. 동일한 응용 프로그램 모두에 지정 된 경우는 `OpenWithList` 및 `OpenWithProgids` 운영 체제 키 중복 항목을 병합 합니다.
+ 특정 파일 확장명을 HKEY_CLASSES_ROOT를 값으로 버전이 지정 된 Progid를 추가 하 여 열 수 있는 다른 응용 프로그램을 등록할 수 있습니다\\ *\<확장 >* \OpenWithProgids 키입니다. 이 레지스트리 키에는 파일 확장명과 연결 된 대체 Progid의 목록을 포함 합니다. 나열 된 Progid와 관련 된 응용 프로그램에 표시 합니다 **열기**_Product Name_ 하위 메뉴. 동일한 응용 프로그램 모두에 지정 된 경우는 `OpenWithList` 및 `OpenWithProgids` 운영 체제 키 중복 항목을 병합 합니다.
 
 > [!NOTE]
 > `OpenWithProgids` 키 Windows XP 에서만 지원 됩니다. 다른 운영 체제에서이 키를 무시 하기 때문에 사용 하지 마십시오 것만 등록이 파일 처리기. 이 키를 사용 하 여 Windows XP에서 더 나은 사용자 환경을 제공 합니다.

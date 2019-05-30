@@ -6,17 +6,17 @@ helpviewer_keywords:
 - project models, objects and interfaces
 - project models, services
 ms.assetid: b2f572d3-b26d-4846-92d1-84055fac141a
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 3e7139b92467c0b6622accce9530abf3e75fcea0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6966f7a0dbde78e996f81adc4d8d8d406489d298
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62859613"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66328399"
 ---
 # <a name="project-model-core-components"></a>프로젝트 모델 핵심 구성 요소
 다음 표에서 프로젝트 모델을 확장 합니다. 테이블에 인터페이스 및 인터페이스 모델 및 특정 개체와 연결 된 서비스에서 식별 된 서비스의 간략 한 설명을 제공 합니다. 또한 테이블에는 다른 인터페이스 프로젝트 생성 및 유지 관리의 특정 프로젝트 형식 요구 사항에 따라에서는 선택 사항에 자세히 설명 합니다.

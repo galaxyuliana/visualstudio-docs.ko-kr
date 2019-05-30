@@ -8,17 +8,17 @@ helpviewer_keywords:
 - syntax highlighting, supporting in language services [managed package framework]
 - language services [managed package framework], colorization
 ms.assetid: 1ca1736a-f554-42e4-a9c7-fe8c3c1717df
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ab4cd40393efcf0e3b5f037d2f0818319b60c890
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: edbb7f2dca6bc0bc28a328276680dd9e273f4176
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63429904"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66331141"
 ---
 # <a name="syntax-colorizing-in-a-legacy-language-service"></a>레거시 언어 서비스의 구문 색 지정
 구문 색 지정에는 서로 다른 색 및 스타일에 소스 파일에 표시 되는 프로그래밍 언어의 다양 한 요소를 발생 시키는 기능입니다. 이 기능을 지원 하려면 파서 또는 어휘 요소 또는 파일에는 토큰의 형식을 식별할 수는 스캐너를 제공 해야 합니다. 다양 한 언어 키워드, 구분 기호 (예: 괄호 또는 중괄호) 및 주석을 가지에서 색을 지정 하 여 구분 합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "63429904"
  편집기로 반환 되는 색 정보는 색 항목 목록에는 인덱스입니다. 각 색 항목 색 값 및 글꼴 특성 집합이 굵게 지정 또는 취소선 합니다. 편집기의 기본 언어 서비스를 사용할 수 있는 색 항목 집합을 제공 합니다. 각 토큰 형식에 대 한 적절 한 색 인덱스를 지정 해야 할 됩니다. 그러나 토큰에 대 한 사용자 지정 색 항목을 제공한 인덱스 집합을 제공 하 고 사용자 고유의 기본 목록 대신 색 항목 목록을 참조할 수 있습니다. 설정 해야 합니다 `RequestStockColors` 레지스트리 항목을 0 (지정 하지 마십시오를 `RequestStockColors` 모든 항목) 사용자 지정 색을 지원 하기 위해. 이 레지스트리 항목을 명명된 된 매개 변수를 사용 하 여 설정할 수 있습니다는 <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> 사용자 정의 특성입니다. 언어 서비스를 등록 하 고 해당 옵션 설정에 대 한 자세한 내용은 참조 하세요. [레거시 언어 서비스 등록](../../extensibility/internals/registering-a-legacy-language-service1.md)합니다.
 
 ## <a name="custom-colorable-items"></a>사용자 지정 색 항목
- 사용자 고유의 사용자 지정 색 항목을 제공 하려면 재정의 해야 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.GetItemCount%2A> 및 <xref:Microsoft.VisualStudio.Package.LanguageService.GetColorableItem%2A> 메서드를 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스입니다. 첫 번째 방법은 언어 서비스가 지 원하는 사용자 지정 색 항목 수를 반환 하 고 두 번째 인덱스 별로 사용자 지정 색 항목을 가져옵니다. 사용자 지정 색 항목의 기본 목록을 만듭니다. 언어 서비스의 생성자에서 각 색 항목 이름으로 제공 하기만 하면 됩니다. Visual Studio는 사용자가 다양 한 색 항목을 선택 하는 경우를 자동으로 처리 합니다. 이 이름이 표시 됩니다는 **글꼴 및 색** 속성 페이지를 **옵션** 대화 상자 (Visual Studio에서 사용할 수 있습니다 **도구** 메뉴)이이 이름을 결정 하 고 사용자가 재정의 되는 색입니다. 사용자의 선택 레지스트리에서 캐시에 저장 되 고 색 이름으로 액세스 합니다. 합니다 **글꼴 및 색** ; 언어 이름의 각 색 이름 앞에 사용자 지정 색을 그룹화 할 수 있습니다 있도록 알파벳 순서로 색 이름 중 모든 속성 페이지 나열 예를 들어, "**TestLanguage-주석**"및"**TestLanguage 키워드가**"입니다. 형식에 의해 색 항목을 그룹화 할 수 있습니다 또는 "**(TestLanguage) 주석**"및"**키워드 (TestLanguage)**"입니다. 언어 이름으로 그룹화는 것이 좋습니다.
+ 사용자 고유의 사용자 지정 색 항목을 제공 하려면 재정의 해야 합니다 <xref:Microsoft.VisualStudio.Package.LanguageService.GetItemCount%2A> 및 <xref:Microsoft.VisualStudio.Package.LanguageService.GetColorableItem%2A> 메서드를 <xref:Microsoft.VisualStudio.Package.LanguageService> 클래스입니다. 첫 번째 방법은 언어 서비스가 지 원하는 사용자 지정 색 항목 수를 반환 하 고 두 번째 인덱스 별로 사용자 지정 색 항목을 가져옵니다. 사용자 지정 색 항목의 기본 목록을 만듭니다. 언어 서비스의 생성자에서 각 색 항목 이름으로 제공 하기만 하면 됩니다. Visual Studio는 사용자가 다양 한 색 항목을 선택 하는 경우를 자동으로 처리 합니다. 이 이름이 표시 됩니다는 **글꼴 및 색** 속성 페이지를 **옵션** 대화 상자 (Visual Studio에서 사용할 수 있습니다 **도구** 메뉴)이이 이름을 결정 하 고 사용자가 재정의 되는 색입니다. 사용자의 선택 레지스트리에서 캐시에 저장 되 고 색 이름으로 액세스 합니다. 합니다 **글꼴 및 색** ; 언어 이름의 각 색 이름 앞에 사용자 지정 색을 그룹화 할 수 있습니다 있도록 알파벳 순서로 색 이름 중 모든 속성 페이지 나열 예를 들어, "**TestLanguage-주석**"및"**TestLanguage 키워드가**"입니다. 형식에 의해 색 항목을 그룹화 할 수 있습니다 또는 " **(TestLanguage) 주석**"및"**키워드 (TestLanguage)** "입니다. 언어 이름으로 그룹화는 것이 좋습니다.
 
 > [!CAUTION]
 > 기존 색 항목 이름과 충돌 하지 않도록 하려면 색 항목 이름에 언어 이름을 포함 하는 것이 좋습니다.

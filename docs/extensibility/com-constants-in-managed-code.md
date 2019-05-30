@@ -5,17 +5,17 @@ ms.topic: conceptual
 helpviewer_keywords:
 - managed VSPackages, COM constants and macros
 ms.assetid: b6663608-b049-44b0-a75b-080fdc5faafc
-author: gregvanl
-ms.author: gregvanl
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: fe6be9387af4f48d55375ab262dc377f7f23acd0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d855142ad51f5433fbf0053cfbcfc1d8bef8871d
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62891529"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66350719"
 ---
 # <a name="com-constants-in-managed-code"></a>관리 코드의 COM 상수
 관리 패키지 프레임 워크 (MPF) 관리 코드에 사용 가능한 몇 가지 표준 COM 상수를 만듭니다. 이러한 상수는 참조용 아래 나열 됩니다.
