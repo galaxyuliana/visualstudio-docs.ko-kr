@@ -102,7 +102,7 @@ Visual Studio Just-에-시간을 표시 하는 경우 수행 해야 하는 작�
 
      Windows Forms 응용 프로그램의 디버깅을 사용 하면 시간을에 다음과 같은 추가 단계를 수행 해야 합니다.
 
-2. 설정 합니다 `jitDebugging` 값을 `true` 에 `system.windows.form` 합니다 machine.config 섹션 또는  *\<응용 프로그램 이름 >*. exe.config 파일:
+2. 설정 합니다 `jitDebugging` 값을 `true` 에 `system.windows.form` 합니다 machine.config 섹션 또는  *\<응용 프로그램 이름 >* . exe.config 파일:
 
     ```
     <configuration>
@@ -165,7 +165,7 @@ static void Main(string[] args)
 
  아래 **사용 가능한 디버거**, 것을 확인할 수는 **Microsoft Visual Studio 2015의 새 인스턴스** 줄을 선택 합니다. 이미 선택 되지 않은 경우 지금 선택할.
 
- 창의 맨 아래 **선택한 디버거를 사용 하 여 디버깅 하 시겠습니까?**, 클릭 **예**합니다.
+ 창의 맨 아래 **선택한 디버거를 사용 하 여 디버깅 하 시겠습니까?** , 클릭 **예**합니다.
 
  Visual Studio의 새 인스턴스를에서 예외를 throw 하는 줄에서 중지 된 실행과 ThrowsNullException 프로젝트를 엽니다.
 

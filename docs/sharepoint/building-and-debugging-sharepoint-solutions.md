@@ -24,11 +24,11 @@ ms.locfileid: "62988133"
   일반적으로 SharePoint 솔루션 빌드 및 디버깅 같습니다 빌드 및 기타 유형의 프로젝트를 디버깅 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다. 이 섹션의 항목에서는 차이점에 대해 설명합니다.
 
 ## <a name="project-output-for-sharepoint-solutions"></a>SharePoint 솔루션에 대 한 프로젝트 출력
- 어셈블리 및 솔루션 패키지를 만들 SharePoint 솔루션 구축 (*.wsp*) 파일입니다. 다음 표에서 빌드하는 동안 이러한 파일의 위치를 보여 줍니다.
+ 어셈블리 및 솔루션 패키지를 만들 SharePoint 솔루션 구축 ( *.wsp*) 파일입니다. 다음 표에서 빌드하는 동안 이러한 파일의 위치를 보여 줍니다.
 
 |항목 빌드|출력 폴더|
 |----------------|-------------------|
-|어셈블리, 프로그램 데이터베이스 (*.pdb*), 및 *.wsp* 파일입니다.|*\<프로젝트 이름 > \bin\debug* 나  *\<ProjectName > \bin\release*|
+|어셈블리, 프로그램 데이터베이스 ( *.pdb*), 및 *.wsp* 파일입니다.|*\<프로젝트 이름 > \bin\debug* 나  *\<ProjectName > \bin\release*|
 |SharePoint 프로젝트 항목 파일입니다.|*\<프로젝트 이름 > \pkg\debug* 나  *\<ProjectName > \pkg\release*|
 |중간 파일을 빌드하십시오.|*\<프로젝트 이름 > \obj\debug* 나  *\<ProjectName > \obj\release*|
 |중간 파일을 패키지 합니다.|*\<프로젝트 이름 > \pkgobj\debug* 나  *\<ProjectName > \pkgobj\release*|

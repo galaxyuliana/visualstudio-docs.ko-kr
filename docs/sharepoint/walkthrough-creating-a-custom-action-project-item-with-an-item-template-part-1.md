@@ -1,5 +1,5 @@
 ---
-title: '연습: 항목 템플릿을 사용 하 여 사용자 지정 작업 프로젝트 항목 만들기, 1 부 | Microsoft Docs'
+title: 항목 템플릿, 1 부를 사용 하 여 사용자 지정 작업 프로젝트 항목 만들기
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9417c2116dde909bda948e7d9140d7f52b090d68
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3e00d87079fe4986dc378540c1456508c2afa0b7
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430484"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401122"
 ---
 # <a name="walkthrough-create-a-custom-action-project-item-with-an-item-template-part-1"></a>연습: 항목 템플릿, 1 부를 사용 하 여 사용자 지정 작업 프로젝트 항목 만들기
   고유한 프로젝트 항목 형식을 생성 하 여 Visual Studio에서 SharePoint 프로젝트 시스템을 확장할 수 있습니다. 이 연습에서는 SharePoint 사이트에서 사용자 지정 작업을 만들려면 SharePoint 프로젝트에 추가할 수 있는 프로젝트 항목을 만들게 됩니다. 사용자 지정 작업에 메뉴 항목을 추가 합니다 **사이트 작업** SharePoint 사이트의 메뉴.

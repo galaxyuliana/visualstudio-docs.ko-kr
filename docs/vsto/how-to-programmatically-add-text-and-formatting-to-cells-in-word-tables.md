@@ -1,5 +1,5 @@
 ---
-title: '방법: 프로그래밍 방식으로 추가 되는 텍스트 및 Word 표 셀에에서 서식 지정'
+title: 텍스트 및 프로그래밍 방식으로 Word 표 셀에 서식을 추가합니다
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a415e55c263534ee4b29e5b45e24ad471d68fe0e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: cdab1877cf2114f7828dbd65786cf8758d77d0f3
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62817478"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402009"
 ---
 # <a name="how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables"></a>방법: 프로그래밍 방식으로 추가 되는 텍스트 및 Word 표 셀에에서 서식 지정
   각 테이블은 셀 컬렉션으로 이루어져 있습니다. 각 개별 <xref:Microsoft.Office.Interop.Word.Cell> 개체는 테이블의 한 셀을 나타냅니다. 테이블의 해당 위치로 각 셀을 참조합니다. 이 예제에서는 테이블의 첫 행과 첫 열에 있는 셀을 참조하고, 셀에 텍스트를 추가하고, 서식을 적용합니다.

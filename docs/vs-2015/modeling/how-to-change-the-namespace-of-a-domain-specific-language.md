@@ -49,7 +49,7 @@ ms.locfileid: "65690559"
   
 10. Visual Studio 실험적 인스턴스 다시 설정 합니다.  
   
-    1. 삭제할 **\Users\\**_{name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**  
+    1. 삭제할 **\Users\\** _{name}_ **\AppData\Local\Microsoft\VisualStudio\\\*Exp**  
   
     2. Windows에서 **시작** 메뉴에서 선택 **모든 프로그램**를 **Microsoft Visual Studio 2010 SDK**를 **도구**, **다시 설정 합니다 실험적 인스턴스에서**합니다.  
   

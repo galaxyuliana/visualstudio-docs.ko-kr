@@ -39,7 +39,7 @@ ms.locfileid: "62898586"
 
 2. **게시** 탭을 클릭합니다.
 
-3. 설치 URL 필드에는 형식을 사용 하 여 정규화 된 URL을 사용 하 여 설치 위치를 입력 *http://www.microsoft.com/ApplicationName*, 또는 형식을 사용 하 여 UNC 경로  *\\\Server\ApplicationName*.
+3. 설치 URL 필드에는 형식을 사용 하 여 정규화 된 URL을 사용 하 여 설치 위치를 입력 *http://www.microsoft.com/ApplicationName* , 또는 형식을 사용 하 여 UNC 경로  *\\\Server\ApplicationName*.
 
 ## <a name="see-also"></a>참고자료
 - [방법: Visual Studio의 파일 복사 위치 지정](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)

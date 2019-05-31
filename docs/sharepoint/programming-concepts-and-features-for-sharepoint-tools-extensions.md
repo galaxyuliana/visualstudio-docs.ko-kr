@@ -1,5 +1,5 @@
 ---
-title: SharePoint 도구 확장에 대 한 프로그래밍 개념 및 기능 | Microsoft Docs
+title: 프로그래밍 개념 및 SharePoint 도구 확장의 기능
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 2fc538b8a13458d82d23fe6039eb9c1e9406be52
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 215beaf21d704927792ae316df9b4c0ef3f98c44
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62562483"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401747"
 ---
 # <a name="programming-concepts-and-features-for-sharepoint-tools-extensions"></a>SharePoint 도구 확장의 프로그래밍 개념 및 기능
   몇 가지 중요 한 프로그래밍 개념와 Visual Studio에서 SharePoint 도구와 관련 된 기능입니다. 이러한 개념 및 기능 대부분의 SharePoint 도구 확장에서 중요 한 역할을 수행 합니다.

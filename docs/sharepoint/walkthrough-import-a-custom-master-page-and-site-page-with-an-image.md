@@ -1,5 +1,5 @@
 ---
-title: '연습: 사용자 지정 마스터 페이지를 가져오고 사이트 페이지를 이미지로 | Microsoft Docs'
+title: 사용자 지정 마스터 페이지 및 이미지를 사용 하 여 사이트 페이지 가져오기
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c303ab86409a082c3a6817adc526ded432ea54bf
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8bd2d9054571e52bc9fbb3906bc1880bb94e407a
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62834389"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66400901"
 ---
 # <a name="walkthrough-import-a-custom-master-page-and-site-page-with-an-image"></a>연습: 사용자 지정 마스터 페이지 및 사이트 페이지를 이미지로 가져오기
   이 연습에서는 SharePoint 사용자 지정 마스터 페이지와 이미지가 있는 사이트 페이지를 가져오는 방법을 보여는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트입니다.
@@ -27,7 +27,7 @@ ms.locfileid: "62834389"
 
 - SharePoint Designer에서 이미지를 사용 하 여 사용자 지정 마스터 페이지 및 사이트 페이지를 만듭니다.
 
-- SharePoint 솔루션에 사용자 지정 마스터 페이지, 이미지 및 사이트 페이지를 내보내기 (*.wsp*) 파일입니다.
+- SharePoint 솔루션에 사용자 지정 마스터 페이지, 이미지 및 사이트 페이지를 내보내기 ( *.wsp*) 파일입니다.
 
 - 가져오기 및 배포 합니다 *.wsp* 파일을 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 솔루션 패키지 가져오기 프로젝트를 사용 하 여 SharePoint 프로젝트입니다.
 
@@ -127,7 +127,7 @@ ms.locfileid: "62834389"
 6. 업데이트 된 사이트 페이지를 저장 합니다.
 
 ## <a name="export-the-items-from-sharepoint"></a>SharePoint에서 항목 내보내기
- SharePoint 솔루션을 SharePoint에서 항목을 내보낼 (*.wsp*) 파일입니다.
+ SharePoint 솔루션을 SharePoint에서 항목을 내보낼 ( *.wsp*) 파일입니다.
 
 #### <a name="to-export-items-from-sharepoint-designer"></a>SharePoint Designer에서 항목을 내보내려면
 

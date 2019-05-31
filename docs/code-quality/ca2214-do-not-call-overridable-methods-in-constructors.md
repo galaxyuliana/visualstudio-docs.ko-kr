@@ -1,6 +1,6 @@
 ---
 title: 'CA2214: 재정의 가능한 메서드를 생성자에서 호출하지 마십시오.'
-ms.date: 11/04/2016
+ms.date: 05/29/2016
 ms.topic: reference
 f1_keywords:
 - DoNotCallOverridableMethodsInConstructors
@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: ef2a5631247f882a70ae94877da02f576ff04a5d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8e05e6925085b27de3001c8ff62d8a3c6e69a88f
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62796707"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401307"
 ---
 # <a name="ca2214-do-not-call-overridable-methods-in-constructors"></a>CA2214: 재정의 가능한 메서드를 생성자에서 호출하지 마십시오.
 
@@ -41,6 +41,9 @@ ms.locfileid: "62796707"
 
 가상 메서드가 호출 되 면 런타임까지 메서드를 실행 하는 실제 형식을 선택 하지 않았습니다. 생성자는 가상 메서드를 호출 하는 경우 가능 메서드를 호출 하는 인스턴스에 대해 생성자가 실행 되지 않도록 합니다.
 
+> [!NOTE]
+> 이 규칙의 이진 분석 구현에는 다양 한 진단 메시지의 " **\[생성자 이름] 클래스에 의해 정의 된 가상 메서드 호출에서 발생 하는 호출 체인이 포함 되어 있습니다. 의도 하지 않은 결과 대 한 다음 호출 스택을 검토**"입니다. 합니다 [FxCop 분석기](install-fxcop-analyzers.md) 이 규칙의 구현을의 진단 메시지에 "**생성자에 재정의 가능한 메서드를 호출 하지 마십시오**"입니다.
+
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
 이 규칙 위반 문제를 해결 하는 형식의 생성자 내에서 형식의 가상 메서드를 호출 하지 마세요.
@@ -51,7 +54,7 @@ ms.locfileid: "62796707"
 
 ## <a name="example"></a>예제
 
-다음 예제에서는이 규칙을 위반의 효과 보여 줍니다. 테스트 응용 프로그램의 인스턴스를 만듭니다 `DerivedType`, 기본 클래스인 경우 (`BadlyConstructedType`) 생성자를 실행 합니다. `BadlyConstructedType`생성자의 가상 메서드를 올바르게 호출 `DoSomething`합니다. 출력에서 볼 수 있듯이 `DerivedType.DoSomething()` 실행 되 고 되기 전에 `DerivedType`의 생성자를 실행 합니다.
+다음 예제에서는이 규칙을 위반의 효과 보여 줍니다. 테스트 응용 프로그램의 인스턴스를 만듭니다 `DerivedType`, 기본 클래스인 경우 (`BadlyConstructedType`) 생성자를 실행 합니다. `BadlyConstructedType`생성자의 가상 메서드를 올바르게 호출 `DoSomething`합니다. 출력에서 볼 수 있듯이 `DerivedType.DoSomething()` 하기 전에 실행 `DerivedType`의 생성자를 실행 합니다.
 
 [!code-csharp[FxCop.Usage.CtorVirtual#1](../code-quality/codesnippet/CSharp/ca2214-do-not-call-overridable-methods-in-constructors_1.cs)]
 [!code-vb[FxCop.Usage.CtorVirtual#1](../code-quality/codesnippet/VisualBasic/ca2214-do-not-call-overridable-methods-in-constructors_1.vb)]

@@ -1,5 +1,5 @@
 ---
-title: SharePoint의 프로그래밍 모델 개요 도구 확장 | Microsoft Docs
+title: SharePoint의 프로그래밍 모델 개요 도구 확장
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c8f746c3ee084613a10b89bd492a6174ffb49012
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: dbb496b077f1ff55fda53d3325765e8e58911096
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63421292"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401777"
 ---
 # <a name="overview-of-the-programming-model-of-sharepoint-tools-extensions"></a>SharePoint의 프로그래밍 모델 개요 도구 확장
   Visual Studio에서 SharePoint 도구의 확장을 만드는 경우 SharePoint 도구에서 노출하는 확장성 인터페이스를 하나 이상 구현하여 시작합니다. 대부분의 경우 SharePoint 도구에서 제공하는 다른 형식을 사용하여 확장에서 기능도 구현합니다. 일부 시나리오에서는 Visual Studio 및 SharePoint에서 제공하는 다른 개체 모델의 형식을 사용할 수도 있습니다. 각 개체 모델의 용도 이해 하 고 SharePoint 도구의 확장을 만들려면 서로 사용 하는 방법을 알고 있어야 합니다.

@@ -1,5 +1,5 @@
 ---
-title: '연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램을 디버깅 | Microsoft Docs'
+title: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램 디버그
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6cf4cd222c511d1ae9071d07f0fab517e36eb30e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 59407696743b15262db83f915feb075a10e22225
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965247"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401038"
 ---
 # <a name="walkthrough-debug-a-sharepoint-application-by-using-intellitrace"></a>연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램 디버그
 

@@ -39,7 +39,7 @@ ms.locfileid: "63447062"
 
 - 표준에서 상대 또는 절대 경로 Windows 형식으로 *C:\Deploy\MyApplication* 하거나 *\MyApplication*합니다.
 
-- 범용 명명 규칙 (UNC) 경로 같은  *\\\ServerName\MyApplication\\*합니다.
+- 범용 명명 규칙 (UNC) 경로 같은  *\\\ServerName\MyApplication\\* 합니다.
 
 - URL의 웹 사이트와 같은 http://www.microsoft.com/MyApplication합니다.
 

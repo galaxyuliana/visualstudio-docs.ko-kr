@@ -63,9 +63,9 @@ ms.locfileid: "65687321"
 
  이 예제의 결과는 다음과 같습니다.
 
- **SecuredTypeWithFields의 인스턴스를 만드는 중입니다.**
+ **SecuredTypeWithFields의 인스턴스를 만드는 중입니다.** 
 **보안 된 형식 필드: 22, 33**
-**보안 된 형식의 필드를 변경 하는 중...**
+**보안 된 형식의 필드를 변경 하는 중...** 
 **캐시 개체 필드: 99, 33**
 ## <a name="related-rules"></a>관련된 규칙
  [CA1051: 표시 되는 인스턴스 필드 선언 하지 마십시오.](../code-quality/ca1051-do-not-declare-visible-instance-fields.md)

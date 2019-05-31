@@ -1,5 +1,5 @@
 ---
-title: '연습: 비즈니스 데이터를 사용 하 여 SharePoint에 외부 목록 만들기 | Microsoft Docs'
+title: 비즈니스 데이터를 사용 하 여 SharePoint에서 외부 목록 만들기
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -19,12 +19,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 45f0a896db97d489d58036ea226962550b512665
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: cf9c7d13e6aaac85d3bac4254247a3c07b39b5c3
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965221"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401063"
 ---
 # <a name="walkthrough-create-an-external-list-in-sharepoint-by-using-business-data"></a>연습: 비즈니스 데이터를 사용 하 여 SharePoint에 외부 목록 만들기
 
@@ -70,7 +70,7 @@ ms.locfileid: "62965221"
 
      **새 항목 추가** 대화 상자가 열립니다.
 
-8. 에 **템플릿을** 창 선택 **비즈니스 데이터 연결 모델 (팜 솔루션만 해당)**, 프로젝트 이름을 **adventureworkscontacts로 지정한**를 선택한 다음 합니다 **추가** 단추입니다.
+8. 에 **템플릿을** 창 선택 **비즈니스 데이터 연결 모델 (팜 솔루션만 해당)** , 프로젝트 이름을 **adventureworkscontacts로 지정한**를 선택한 다음 합니다 **추가** 단추입니다.
 
 ## <a name="add-data-access-classes-to-the-project"></a>데이터 액세스 클래스를 프로젝트에 추가
 

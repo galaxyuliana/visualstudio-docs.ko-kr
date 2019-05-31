@@ -215,9 +215,9 @@ Visual Studio에서는 사용자가 템플릿을 사용하여 프로젝트를 �
   
 5. 솔루션을 다시 빌드합니다.  
   
-6. 이제 key.snk 파일로 MyProjectWizard 프로젝트 디렉터리에 있습니다 (**\<디스크 위치 > \MyProjectTemplate\MyProjectWizard\key.snk**). Key.snk 파일로 복사 합니다.  
+6. 이제 key.snk 파일로 MyProjectWizard 프로젝트 디렉터리에 있습니다 ( **\<디스크 위치 > \MyProjectTemplate\MyProjectWizard\key.snk**). Key.snk 파일로 복사 합니다.  
   
-7. 출력 디렉터리로 이동 하 고 어셈블리를 찾습니다 (**\<디스크 위치 > \MyProjectTemplate/MyProjectWizard\bin\Debug\MyProjectWizard.dll**). 여기에 key.snk 파일을 붙여 넣습니다. (반드시 필요 하지 않습니다 하지만는 다음 단계를 쉽게 가져옵니다.)  
+7. 출력 디렉터리로 이동 하 고 어셈블리를 찾습니다 ( **\<디스크 위치 > \MyProjectTemplate/MyProjectWizard\bin\Debug\MyProjectWizard.dll**). 여기에 key.snk 파일을 붙여 넣습니다. (반드시 필요 하지 않습니다 하지만는 다음 단계를 쉽게 가져옵니다.)  
   
 8. 명령 창을 열고 있는 어셈블리를 만든 디렉터리로 변경 합니다.  
   

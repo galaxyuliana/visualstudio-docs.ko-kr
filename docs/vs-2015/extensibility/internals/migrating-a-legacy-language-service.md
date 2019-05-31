@@ -59,7 +59,7 @@ ms.locfileid: "63434385"
   
     - 에 **응용 프로그램** 탭에서 변경 **대상 프레임 워크** 하 **4.6.1**합니다.  
   
-    - 에 **디버그** 탭의 **시작 외부 프로그램** 상자에 입력  **\<Visual Studio 설치 경로 > \Common7\IDE\devenv.exe.**.  
+    - 에 **디버그** 탭의 **시작 외부 프로그램** 상자에 입력  **\<Visual Studio 설치 경로 > \Common7\IDE\devenv.exe.** .  
   
          에 **명령줄 인수** 상자에 입력 /**rootsuffix Exp**합니다.  
   
@@ -105,7 +105,7 @@ ms.locfileid: "63434385"
   
     - 파일을 저장한 후 닫습니다.  
   
-11. 솔루션을 빌드합니다. 작성된 된 파일에 배포 됩니다 **%USERPROFILE%\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\MSIT\ RegExLangServ\\**합니다.  
+11. 솔루션을 빌드합니다. 작성된 된 파일에 배포 됩니다 **%USERPROFILE%\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\MSIT\ RegExLangServ\\** 합니다.  
   
 12. 디버깅을 시작합니다. Visual Studio의 두 번째 인스턴스가 열립니다.  
   

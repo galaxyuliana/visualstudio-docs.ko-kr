@@ -1,5 +1,5 @@
 ---
-title: '방법: 제한 된 권한으로 문서 뒤에서 실행 하는 코드를 허용 합니다.'
+title: 제한 된 권한으로 문서 뒤에서 실행 하는 코드를 허용 합니다.
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a5e65c086b69a712b2df5a1a12939b41828ad198
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 32e42954958fda71d54c3c0ac2685928644e7461
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445338"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402254"
 ---
 # <a name="how-to-permit-code-to-run-behind-documents-with-restricted-permissions"></a>방법: 제한 된 권한으로 문서 뒤에서 실행 하는 코드를 허용 합니다.
   문서 또는 통합 문서에 사용 권한을 제한 하도록 Microsoft Office의 정보 권한 관리 (IRM) 기능을 사용할 수 있습니다. 기본적으로 제한 된 Microsoft Office Word 문서 또는 Microsoft Office Excel 통합 문서 코드 실행 허용 되지 않습니다. 솔루션이 작동 하 고 관리 코드 확장 개체 모델에 액세스할 수 있도록 기본값을 변경할 수 있습니다.

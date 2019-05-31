@@ -15,7 +15,7 @@ ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 53d1f6628ff9df48879a34417b7d89223d848dd8
 ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/23/2019
 ms.locfileid: "58982754"
@@ -58,7 +58,7 @@ ms.locfileid: "58982754"
 ## <a name="remarks"></a>설명  
  `TemplateGroupID`는 요소입니다.  
   
- 값을 `TemplateGroupID` 프로젝트 시스템 등록 함께 사용 하는 요소 (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 번호 >* \Projects\\) 에 표시 되는 템플릿을 필터링 하는 **새 항목 추가** 대화 상자.  
+ 값을 `TemplateGroupID` 프로젝트 시스템 등록 함께 사용 하는 요소 (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\ *\<버전 번호 >* \Projects\\) 에 표시 되는 템플릿을 필터링 하는 **새 항목 추가** 대화 상자.  
   
 |Visual C++ 값|의미|  
 |------------------------|-------------|  

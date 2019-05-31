@@ -34,7 +34,7 @@ ms.locfileid: "63435978"
   
 1. 다음과 같이 레지스트리 항목을 만듭니다.  
   
-    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* \Text Editor\External Markers\\*\<MarkerGUID>*  
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\ *\<Version>* \Text Editor\External Markers\\ *\<MarkerGUID>*  
   
     <em>\<MarkerGUID ></em>되는 `GUID` 추가할 마커를 식별 하는 데 사용  
   
@@ -43,9 +43,9 @@ ms.locfileid: "63435978"
     *\<PackageGUID >* 자동화 개체를 구현 하는 VSPackage의 GUID입니다.  
   
    > [!NOTE]
-   > 루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 >* 자세한 내용은 Visual Studio 셸이 초기화 될 때를 대체 루트로 재정의할 수 있습니다 [명령줄 스위치](../extensibility/command-line-switches-visual-studio-sdk.md)합니다.  
+   > 루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\ *\<버전 >* 자세한 내용은 Visual Studio 셸이 초기화 될 때를 대체 루트로 재정의할 수 있습니다 [명령줄 스위치](../extensibility/command-line-switches-visual-studio-sdk.md)합니다.  
   
-2. HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio 아래 4 개의 값을 만듭니다\\*\<버전 >* \Text Editor\External 표식\\*\<MarkerGUID >*  
+2. HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio 아래 4 개의 값을 만듭니다\\ *\<버전 >* \Text Editor\External 표식\\ *\<MarkerGUID >*  
   
    - (기본값)  
   

@@ -1,5 +1,5 @@
 ---
-title: '연습: SharePoint 워크플로 솔루션 만들기 및 디버깅 | Microsoft Docs'
+title: SharePoint 워크플로 솔루션을 디버그 및 만들기
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: ad39c8b8bad373cd7892a1eeda89b149622913a7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 51682ba54d6a6ae0698ade6bb52d5972cd63111f
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430361"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401052"
 ---
 # <a name="walkthrough-create-and-debug-a-sharepoint-workflow-solution"></a>연습: 만들고 SharePoint 워크플로 솔루션을 디버그 합니다.
   이 연습에는 기본 순차 워크플로 템플릿을 만드는 방법을 보여 줍니다. 워크플로 문서를 검토 했는지 여부를 결정 하는 공유 문서 라이브러리의 속성을 확인 합니다. 문서를 검토 하는 경우 워크플로가 완료 됩니다.

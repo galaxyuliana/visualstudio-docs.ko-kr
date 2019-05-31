@@ -33,14 +33,14 @@ VSPackage를 사용자가 유지 되는 상태 변수 그룹이 있는 하나 �
      단일 VSPackage는 여러 사용자 지정 설정 지점을 지원, 각 사용자 지정 설정 지점은 별도 클래스로 구현 되 고 각각의 고유 인스턴스를 등록 된 경우는 <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> 클래스입니다. 따라서 클래스를 구현 하는 설정을 여러 개 설정 범주를 지원할 수 있습니다.  
   
 ## <a name="custom-settings-point-registry-entry-details"></a>사용자 지정 설정 지점 레지스트리 항목 세부 정보  
- 다음 위치에 레지스트리 항목을 사용자 지정 설정 지점은 생성 됩니다. HKLM\Software\Microsoft\VisualStudio\\*\<버전 >* \UserSettings\\`<CSPName>`여기서 `<CSPName>` 에서 VSPackage에서 지 원하는 사용자 지정 설정 지점 이름으로는 및  *\<버전 >* 의 버전이 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], 예를 들어 8.0입니다.  
+ 다음 위치에 레지스트리 항목을 사용자 지정 설정 지점은 생성 됩니다. HKLM\Software\Microsoft\VisualStudio\\ *\<버전 >* \UserSettings\\`<CSPName>`여기서 `<CSPName>` 에서 VSPackage에서 지 원하는 사용자 지정 설정 지점 이름으로는 및  *\<버전 >* 의 버전이 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], 예를 들어 8.0입니다.  
   
 > [!NOTE]
-> 루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 통합된 개발 환경 (IDE)가 초기화 합니다. 자세한 내용은 [명령줄 스위치](../../extensibility/command-line-switches-visual-studio-sdk.md)합니다.  
+> 루트 경로의 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\ *\<버전 >* 대체를 사용 하 여 재정의할 수 있습니다 때 루트는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 통합된 개발 환경 (IDE)가 초기화 합니다. 자세한 내용은 [명령줄 스위치](../../extensibility/command-line-switches-visual-studio-sdk.md)합니다.  
   
  레지스트리 항목의 구조는 아래 나와 있습니다.  
   
- HKLM\Software\Microsoft\VisualStudio\\*\<Version>* \UserSettings\  
+ HKLM\Software\Microsoft\VisualStudio\\ *\<Version>* \UserSettings\  
   
  `<CSPName`> = ' #12345 ' s  
   
