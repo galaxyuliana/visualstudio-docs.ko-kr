@@ -148,7 +148,7 @@ ms.locfileid: "63426943"
      `[VSShell::ProvideMenuResource("1000.ctmenu", version: 2 )]`  
   
 ## <a name="CommandSet"></a> 명령의 동작을 정의 합니다.  
- DS에는 DslPackage\GeneratedCode\CommandSet.cs에서 선언된 partial 클래스에서 구현되는 일부 명령이 이미 포함되어 있습니다. 새 명령을 추가하려면 같은 클래스의 partial 선언을 포함하는 새 파일을 만들어 이 클래스를 확장해야 합니다. 클래스의 이름은 일반적으로  *\<d s l 이름 >*`CommandSet`합니다. 먼저 클래스 이름을 확인하고 해당 내용을 검사하면 유용합니다.  
+ DS에는 DslPackage\GeneratedCode\CommandSet.cs에서 선언된 partial 클래스에서 구현되는 일부 명령이 이미 포함되어 있습니다. 새 명령을 추가하려면 같은 클래스의 partial 선언을 포함하는 새 파일을 만들어 이 클래스를 확장해야 합니다. 클래스의 이름은 일반적으로  *\<d s l 이름 >* `CommandSet`합니다. 먼저 클래스 이름을 확인하고 해당 내용을 검사하면 유용합니다.  
   
  명령 집합 클래스는 <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>에서 파생됩니다.  
   

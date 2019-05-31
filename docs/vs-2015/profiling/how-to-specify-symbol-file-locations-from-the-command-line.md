@@ -48,7 +48,7 @@ ms.locfileid: "63436919"
   
 2. 다음 구문을 사용하여 **_NT_SYMBOL_PATH** 환경 변수 또는 VSPerfReport /SymbolPath 옵션을 설정합니다.  
   
-    **srv\\*** *LocalStore* **\*http://msdl.microsoft.com/downloads/symbols**  
+    **srv\\** * *LocalStore* **\*http://msdl.microsoft.com/downloads/symbols**  
   
     여기서 *LocalStore*는 사용자가 만든 로컬 디렉터리의 경로입니다.  
   

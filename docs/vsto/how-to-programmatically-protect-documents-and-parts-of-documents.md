@@ -1,5 +1,5 @@
 ---
-title: '방법: 프로그래밍 방식으로 문서 및 문서의 일부 보호'
+title: 프로그래밍 방식으로 문서 및 문서의 일부 보호
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 62d84dcb7ce22f1199d12a958250a465cd25a49c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 30cb3d0b9ad04a3a0195f3b58ba5856de94d09d4
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412460"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402184"
 ---
 # <a name="how-to-programmatically-protect-documents-and-parts-of-documents"></a>방법: 프로그래밍 방식으로 문서 및 문서의 일부 보호
   Microsoft Office Word 문서에 보호를 추가하여 사용자의 문서 편집을 방지할 수 있습니다.

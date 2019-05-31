@@ -46,7 +46,7 @@ ms.locfileid: "62993502"
 
 10. Visual Studio 실험적 인스턴스 다시 설정 합니다.
 
-    1. 삭제할 **\Users\\**_{name}_**\AppData\Local\Microsoft\VisualStudio\\\*Exp**합니다.
+    1. 삭제할 **\Users\\** _{name}_ **\AppData\Local\Microsoft\VisualStudio\\\*Exp**합니다.
 
     2. 에 Windows **시작** 메뉴에서 선택 **프로그램도** > **Microsoft Visual Studio 2010 SDK** > **도구**  >  **실험적 인스턴스 재설정**합니다.
 

@@ -43,7 +43,7 @@ ms.locfileid: "62967398"
 ## <a name="identifiers-for-sharepoint-project-items"></a>SharePoint 프로젝트 항목에 대 한 식별자
  각 SharePoint 프로젝트 항목에 해당 문자열 식별자입니다. 다음 작업을 수행 하려는 경우 프로젝트 항목에 대 한 식별자를 알고 있어야 합니다.
 
-- 프로젝트 항목에 대 한 확장을 만듭니다. 생성자로 확장 하려는 프로젝트 항목에 대 한 식별자를 전달 해야 하는 경우에 <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectItemTypeAttribute>합니다. 모든 프로젝트 항목 형식에 대 한 확장 프로그램을 만들려면, 전달 된 **\\*** 문자열 값입니다.
+- 프로젝트 항목에 대 한 확장을 만듭니다. 생성자로 확장 하려는 프로젝트 항목에 대 한 식별자를 전달 해야 하는 경우에 <xref:Microsoft.VisualStudio.SharePoint.SharePointProjectItemTypeAttribute>합니다. 모든 프로젝트 항목 형식에 대 한 확장 프로그램을 만들려면, 전달 된 **\\** * 문자열 값입니다.
 
 - 프로그래밍 방식으로 프로젝트에 프로젝트 항목을 추가 합니다. 프로젝트 항목에 대 한 식별자를 전달 해야 하는 경우에 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemCollection.Add%2A> 메서드.
 

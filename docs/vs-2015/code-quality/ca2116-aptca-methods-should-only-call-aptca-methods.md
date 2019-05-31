@@ -71,7 +71,7 @@ ms.locfileid: "65687350"
 
  이 예제의 결과는 다음과 같습니다.
 
- **전체 신뢰: 요청에 대 한 요청에 실패 했습니다.**
+ **전체 신뢰: 요청에 대 한 요청에 실패 했습니다.** 
 **ClassRequiringFullTrust.DoWork 호출 되었습니다.**
 ## <a name="related-rules"></a>관련된 규칙
  [CA2117: APTCA 형식은 APTCA 기본 형식만 확장 해야](../code-quality/ca2117-aptca-types-should-only-extend-aptca-base-types.md)

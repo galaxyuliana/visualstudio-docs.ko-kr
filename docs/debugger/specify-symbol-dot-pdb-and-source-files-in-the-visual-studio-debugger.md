@@ -30,14 +30,14 @@ ms.workload:
 - multiple
 ms.openlocfilehash: c5d7d5fa0a53ead2f49f89df37943d734a1b73fb
 ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2019
 ms.locfileid: "60045344"
 ---
 # <a name="specify-symbol-pdb-and-source-files-in-the-visual-studio-debugger-c-c-visual-basic-f"></a>Visual Studio 디버거에서 기호 (.pdb) 및 원본 파일 지정 (C#, C++, Visual Basic의 경우 F#)
 
-프로그램 데이터베이스 (*.pdb*) 기호 파일이 라고도 하는 파일을이 식별자에 매핑하고 해당 식별자에 프로젝트의 소스 코드에서 문 및 지침에 컴파일된 앱.
+프로그램 데이터베이스 ( *.pdb*) 기호 파일이 라고도 하는 파일을이 식별자에 매핑하고 해당 식별자에 프로젝트의 소스 코드에서 문 및 지침에 컴파일된 앱.
 
 디버그 빌드 구성 표준 Visual Studio IDE에서 프로젝트를 빌드할 때 컴파일러는 적절 한 기호 파일을 만듭니다. 할 수도 있습니다 [코드에서 기호 옵션을 설정할](#compiler-symbol-options)합니다.
 
@@ -62,7 +62,7 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
 
 디버거가 기호 파일은 다음 위치에도 검색합니다.
 
-1. DLL 또는 실행 파일 내의 지정 된 위치 (*.exe*) 파일입니다.
+1. DLL 또는 실행 파일 내의 지정 된 위치 ( *.exe*) 파일입니다.
 
    기본적으로 DLL을 만든 경우 또는 *.exe* 전체 경로 파일 이름을 연결 된 컴퓨터에 링커 파일 배치 *.pdb* DLL의 파일 또는 *.exe* 파일입니다. 디버거에서 기호 파일 위치에 존재 하는지 확인 합니다.
 
@@ -177,7 +177,7 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
 
   - *VC\<x>.pdb* 여기서 *\<x>* 는 Visual C++의 버전을 나타냅니다(예: *VC11.pdb*).
 
-    합니다 *VC\<x >.pdb* 파일 개별 개체 파일에 대 한 모든 디버깅 정보를 저장 하 고, 프로젝트 메이크파일과 동일한 디렉터리에 상주 합니다. 때마다 C 개체 파일을 생성 /C++ 컴파일러에 디버그 정보를 병합 *VC\<x >.pdb*합니다. 와 같은 공통 헤더 파일은 모든 소스 파일에 포함 하는 경우에  *\<windows.h >*, 해당 헤더의 typedef는 모든 개체 파일 보다는 한 번만 저장 됩니다. 삽입되는 정보에는 유형 정보가 포함되지만 함수 정의와 같은 기호 정보는 포함되지 않습니다.
+    합니다 *VC\<x >.pdb* 파일 개별 개체 파일에 대 한 모든 디버깅 정보를 저장 하 고, 프로젝트 메이크파일과 동일한 디렉터리에 상주 합니다. 때마다 C 개체 파일을 생성 /C++ 컴파일러에 디버그 정보를 병합 *VC\<x >.pdb*합니다. 와 같은 공통 헤더 파일은 모든 소스 파일에 포함 하는 경우에  *\<windows.h >* , 해당 헤더의 typedef는 모든 개체 파일 보다는 한 번만 저장 됩니다. 삽입되는 정보에는 유형 정보가 포함되지만 함수 정의와 같은 기호 정보는 포함되지 않습니다.
 
   - *\<project>.pdb*
 

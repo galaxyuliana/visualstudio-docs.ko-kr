@@ -72,9 +72,9 @@ ms.locfileid: "65687395"
 
  이 예제의 결과는 다음과 같습니다.
 
- **요청: 호출자의 Deny가 어설션된 권한을 사용 하 여 요청 시 적용 되지 않습니다.**
-**LinkDemand: 호출자의 거부 된 어설션된 권한 LinkDemand에 영향을 주지 합니다.**
-**LinkDemand: 호출자의 거부 LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다.**
+ **요청: 호출자의 Deny가 어설션된 권한을 사용 하 여 요청 시 적용 되지 않습니다.** 
+**LinkDemand: 호출자의 거부 된 어설션된 권한 LinkDemand에 영향을 주지 합니다.** 
+**LinkDemand: 호출자의 거부 LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다.** 
 **LinkDemand: 이 Deny LinkDemand로 보호 된 코드를 사용 하 여 효과가 없습니다.**
 ## <a name="see-also"></a>참고 항목
  <xref:System.Security.CodeAccessPermission.PermitOnly%2A?displayProperty=fullName> <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>

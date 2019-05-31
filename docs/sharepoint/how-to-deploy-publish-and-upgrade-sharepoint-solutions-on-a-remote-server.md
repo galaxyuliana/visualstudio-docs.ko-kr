@@ -1,5 +1,5 @@
 ---
-title: '방법: 배포, 게시 및 원격 서버에 SharePoint 솔루션 업그레이드 | Microsoft Docs'
+title: 배포, 게시 및 SharePoint 솔루션을 원격으로 업그레이드
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: fdaebbc8901330236769331453501bebdd3f98a3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c8e9c46a9acaf8c70fa434514785276f9ba343d4
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62813945"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401439"
 ---
 # <a name="how-to-deploy-publish-and-upgrade-sharepoint-solutions-on-a-remote-server"></a>방법: 배포, 게시 및 원격 서버에 SharePoint 솔루션 업그레이드
   로컬 시스템에 SharePoint 솔루션을 배포 하는 것 외에도 원격 사이트 또는 로컬 SharePoint 사이트 샌드박스 SharePoint 솔루션을 게시할 수 있습니다. 원격 게시 프로세스 복사 합니다 *.wsp* 파일을 SharePoint 서버 솔루션을 설치 하 고 솔루션의 인증을 사용 하도록 설정 합니다. 변경한 후에 원격 SharePoint 솔루션 설치를 업그레이드할 수 있습니다.
@@ -35,9 +35,9 @@ ms.locfileid: "62813945"
 
 4. 선택 된 **게시** 단추입니다.
 
-5. 사용자 인증이 필요한 경우 원격 서버에 로그온 합니다.
+5. 사용자 인증이 필요한 경우 원격 서버에 로그인 합니다.
 
-     Visual Studio에 게시 진행률이 나타납니다 **출력** 창입니다. 프로세스가 완료 되 면, 솔루션 (*.wsp*) 파일은 원격 SharePoint 서버에 설치 됩니다. 그러나이 아직 활성화 되지 전에 SharePoint에서 사용할 수 있습니다.
+     Visual Studio에 게시 진행률이 나타납니다 **출력** 창입니다. 프로세스가 완료 되 면, 솔루션 ( *.wsp*) 파일은 원격 SharePoint 서버에 설치 됩니다. 그러나이 아직 활성화 되지 전에 SharePoint에서 사용할 수 있습니다.
 
 6. 에 **솔루션 갤러리** 페이지에서 SharePoint 응용 프로그램을 선택한 다음 리본 메뉴를 선택 합니다 **활성화** 단추입니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "62813945"
 
 7. 선택 된 **게시** 단추입니다.
 
-8. 사용자 인증이 필요한 경우 원격 서버에 로그온 합니다.
+8. 사용자 인증이 필요한 경우 원격 서버에 로그인 합니다.
 
      로그인 경우 원격 서버에 최근에, 인증을 필요한 수 없습니다.
 

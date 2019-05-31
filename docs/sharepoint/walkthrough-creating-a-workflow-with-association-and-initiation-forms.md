@@ -1,5 +1,5 @@
 ---
-title: '연습: 연결 및 초기화 폼이 있는 워크플로 만들기 | Microsoft Docs'
+title: 연결 및 초기화 폼을 사용 하 여 워크플로 만들기
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 08c63966528a2ae34d5a9d776ee111ecee96b22f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b64d1c9fbbd81a21ab268dfa29287895bd355197
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430374"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401162"
 ---
 # <a name="walkthrough-create-a-workflow-with-association-and-initiation-forms"></a>연습: 연결 및 초기화 폼을 사용 하 여 워크플로 만들기
   이 연습에는 연결 및 초기화 폼의 사용을 통합 하는 기본 순차 워크플로 만드는 방법을 보여 줍니다. 이 SharePoint 관리자 (연결 형식)가 처음 연결할 때 및 워크플로 (양식)가 시작 될 때 워크플로에 추가 하는 매개 변수를 사용 하도록 설정 하는 ASPX 폼입니다.

@@ -177,7 +177,7 @@ ms.locfileid: "63438546"
 
 5. 데이터베이스에 연결을 사용 하지 않도록 설정 합니다. 데이터베이스 서버에 있는 경우 컴퓨터에서 네트워크 케이블을 분리 하거나 데이터베이스가 개발 컴퓨터의 경우 SQL Server 서비스를 중지 합니다.
 
-6. Excel을 연 다음 엽니다 **내 마스터 Detail.xlsx** 에서 합니다 *\bin* 디렉터리 (*\My Master-Detail\bin* Visual basic에서 또는 *\My Master-Detail\bin\ 디버그* C#에서).
+6. Excel을 연 다음 엽니다 **내 마스터 Detail.xlsx** 에서 합니다 *\bin* 디렉터리 ( *\My Master-Detail\bin* Visual basic에서 또는 *\My Master-Detail\bin\ 디버그* C#에서).
 
 7. 일부 끊기면 워크시트 정상적으로 작동 하는지 확인 하려면 레코드를 스크롤하십시오.
 

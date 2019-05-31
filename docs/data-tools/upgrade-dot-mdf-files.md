@@ -23,7 +23,7 @@ ms.locfileid: "62565162"
 ---
 # <a name="upgrade-mdf-files"></a>.mdf 파일 업그레이드
 
-이 항목에서는 데이터베이스 파일을 업그레이드 하는 방법을 설명 합니다 (*.mdf*) 최신 버전의 Visual Studio를 설치 합니다. 다음 작업에 대 한 지침을 포함 합니다.
+이 항목에서는 데이터베이스 파일을 업그레이드 하는 방법을 설명 합니다 ( *.mdf*) 최신 버전의 Visual Studio를 설치 합니다. 다음 작업에 대 한 지침을 포함 합니다.
 
 - 최신 버전의 SQL Server Express LocalDB를 사용 하는 데이터베이스 파일을 업그레이드
 
@@ -33,7 +33,7 @@ ms.locfileid: "62565162"
 
 - 기본 데이터베이스 엔진이 SQL Server Express 확인
 
-Visual Studio를 사용 하 여 데이터베이스 파일을 포함 하는 프로젝트를 열려면 (*.mdf*) 이전 버전의 SQL Server Express 또는 LocalDB를 사용 하 여 생성 된 합니다. 그러나 SQL Server Express 또는 Visual Studio와 동일한 컴퓨터에 설치 하는 LocalDB의 버전을 계속 하려면 Visual Studio에서 프로젝트를 개발 해야 또는 데이터베이스 파일을 업그레이드 해야 합니다. 데이터베이스 파일을 업그레이드 하는 경우에 이전 버전의 SQL Server Express 또는 LocalDB를 사용 하 여 액세스할 수 없습니다.
+Visual Studio를 사용 하 여 데이터베이스 파일을 포함 하는 프로젝트를 열려면 ( *.mdf*) 이전 버전의 SQL Server Express 또는 LocalDB를 사용 하 여 생성 된 합니다. 그러나 SQL Server Express 또는 Visual Studio와 동일한 컴퓨터에 설치 하는 LocalDB의 버전을 계속 하려면 Visual Studio에서 프로젝트를 개발 해야 또는 데이터베이스 파일을 업그레이드 해야 합니다. 데이터베이스 파일을 업그레이드 하는 경우에 이전 버전의 SQL Server Express 또는 LocalDB를 사용 하 여 액세스할 수 없습니다.
 
 수 또한 하 라는 메시지가 파일의 버전의 SQL Server Express 또는 현재 설치 된 LocalDB 인스턴스와 호환 되지 않습니다 경우는 이전 버전의 SQL Server Express 또는 LocalDB를 통해 만든 데이터베이스 파일을 업그레이드 합니다. 문제를 해결 하려면 Visual Studio 하 라는 메시지가 나타납니다 파일을 업그레이드 합니다.
 

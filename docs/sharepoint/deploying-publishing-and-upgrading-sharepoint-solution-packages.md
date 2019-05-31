@@ -1,5 +1,5 @@
 ---
-title: 배포, 게시 및 SharePoint 솔루션 패키지 업그레이드 | Microsoft Docs
+title: 배포, 게시 및 SharePoint 솔루션 패키지를 업그레이드 합니다.
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a49ad82cc6cbb2eef8a8746b2c94575925ab1ddd
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 7c41b36766e112dc86bd15c7a2bec48633c35b57
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436731"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402035"
 ---
 # <a name="deploy-publish-and-upgrade-sharepoint-solution-packages"></a>배포, 게시 및 SharePoint 솔루션 패키지를 업그레이드 합니다.
   Visual Studio에서 SharePoint 솔루션을 개발한 후 로컬 SharePoint 서버에 해당 패키지 (.wsp) 파일을 배포 하거나 원격 또는 로컬 SharePoint 서버에 게시 합니다. 파일을 배포 하는 경우 패키지 파일 (.wsp) 배포 되는 방식을 사용자 지정할 수 있습니다.

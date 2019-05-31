@@ -24,12 +24,12 @@ ms.locfileid: "62973957"
 
  다음 구문을 사용하여 비교 보고서를 만듭니다.
 
- **VSPerfReport /diff**  `VspFileName1` *VspFileName2* [**/**`Options`]
+ **VSPerfReport /diff**  `VspFileName1` *VspFileName2* [ **/** `Options`]
 
  다음 표에서 **VSPerfReport /diff** 명령줄에 옵션을 추가할 수 있습니다.
 
 |옵션|설명|
 |------------|-----------------|
-|**DiffThreshold:**[*Value*]|이 백분율 임계값보다 낮으면 차이를 무시합니다. 또한 이 임계값보다 낮은 값을 갖는 새 데이터는 표시되지 않습니다.|
+|**DiffThreshold:** [*Value*]|이 백분율 임계값보다 낮으면 차이를 무시합니다. 또한 이 임계값보다 낮은 값을 갖는 새 데이터는 표시되지 않습니다.|
 |**DiffTable:** *TableName*|이 테이블을 사용하여 파일을 비교합니다. 기본적으로 함수 테이블이 사용됩니다. **VSPerfReport /querydifftables**에 나열된 식별자를 지정합니다.|
 |**DiffColumn:** *ColumnName*|이 열을 사용하여 값을 비교합니다. 기본적으로 전용 샘플 백분율 열이 사용됩니다. **VSPerfReport /querydifftables**에 나열된 식별자를 지정합니다.|

@@ -73,7 +73,7 @@ ms.locfileid: "63441877"
  프로젝트를 빌드할 때마다 데이터 세트가 비워지고 다시 만들어집니다. 캐시된 데이터 세트를 디버그하려면 Visual Studio 외부에서 문서를 열고 디버거를 연결해야 합니다.
 
 ## <a name="debug-word-document-projects-based-on-the-word-97-2003-document-doc-format"></a>Word 97-2003 문서를 기반으로 디버그 Word 문서 프로젝트 (*.doc) 형식
- Word 97-2003 문서를 기반으로 Word 문서 프로젝트를 디버그 하려면 (*/*.doc*) 형식으로 신뢰할 수 있는 폴더 목록에 프로젝트 폴더를 추가 해야 합니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 참조 하세요. [문서에 신뢰 부여](../vsto/granting-trust-to-documents.md)합니다.
+ Word 97-2003 문서를 기반으로 Word 문서 프로젝트를 디버그 하려면 ( */* .doc*) 형식으로 신뢰할 수 있는 폴더 목록에 프로젝트 폴더를 추가 해야 합니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 참조 하세요. [문서에 신뢰 부여](../vsto/granting-trust-to-documents.md)합니다.
 
 ## <a name="debug-disabled-add-ins"></a>디버그 추가 기능을 사용 하지 않도록 설정
  Microsoft Office 애플리케이션에서는 예기치 않게 동작하는 VSTO 추가 기능을 사용하지 않도록 설정할 수 있습니다. Microsoft Office 애플리케이션에서는 애플리케이션이 시작될 때마다 문제가 있는 코드가 로드되지 않도록 하는 VSTO 추가 기능을 사용하지 않도록 설정합니다. 그러나 일반적인 디버깅 중에는 예기치 않은 동작이 쉽게 발생할 수 있습니다. VSTO 추가 기능을 다시 활성화 하는 방법에 대 한 정보를 참조 하세요. [방법: VSTO 추가 기능을 비활성화 된 다시 사용 하도록 설정](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)합니다.

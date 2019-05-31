@@ -1,5 +1,5 @@
 ---
-title: '방법: 추가 및 패키지 디자이너를 사용 하 여 패키지에 기능과 항목 제거 | Microsoft Docs'
+title: '패키지 디자이너: 추가 및 패키지에 기능과 항목 제거'
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 654773f5a5e46960f8c015cc6f731e16332fcdd7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fbd44bbf3b337815c8c72cea66dd4d56fc645ade
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62966980"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401606"
 ---
 # <a name="how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer"></a>방법: 추가 및 패키지 디자이너를 사용 하 여 패키지에 기능과 항목 제거
   SharePoint 솔루션을 만들 때 Visual Studio 솔루션의 패키지에 기본 SharePoint 기능을 추가 합니다. 최종 배포 하기 전에 추가할 수 있으며 SharePoint 프로젝트 항목 및 SharePoint 패키지를 수정 하는 기능을 제거할 수 있습니다.

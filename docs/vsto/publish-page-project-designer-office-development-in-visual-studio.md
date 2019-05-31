@@ -36,7 +36,7 @@ ms.locfileid: "63447020"
 
  게시 폴더 위치는 Visual Studio가 빌드에서 매니페스트, 어셈블리 및 기타 파일과 같은 솔루션 파일을 복사하는 디렉터리입니다. 이 디렉터리에 쓰기 권한이 있어야 합니다.
 
- 옵션에는 로컬 컴퓨터, UNC 파일 공유 또는 HTTP/HTTPS 웹 사이트가 포함됩니다. 경로 로컬 일 수 있습니다 (*c:\foldername\publishfolder*), 상대 (*게시\\*), 또는 정규화 된 위치 (*\\\servername\foldername* 또는 http://<em>servername/foldername</em>).
+ 옵션에는 로컬 컴퓨터, UNC 파일 공유 또는 HTTP/HTTPS 웹 사이트가 포함됩니다. 경로 로컬 일 수 있습니다 (*c:\foldername\publishfolder*), 상대 (*게시\\* ), 또는 정규화 된 위치 ( *\\\servername\foldername* 또는 http://<em>servername/foldername</em>).
 
  게시 위치는 기본적으로 *http://localhost/projectname/* IIS가 설치 되어 있는 경우 또는 *게시\\*  IIS가 설치 되어 있지 않은 경우 디렉터리입니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "63447020"
 
  설치 폴더 URL은 최종 사용자가 사용자 지정을 설치하는 디렉터리입니다. 또한 솔루션에서 업데이트를 확인하는 데 사용하는 경로이기도 합니다. 경로는 게시 폴더 위치와 동일할 수 있지만 이것이 요구 사항은 아닙니다.
 
- 옵션에는 로컬 컴퓨터, UNC 파일 공유 또는 HTTP/HTTPS 웹 사이트가 포함됩니다. 경로 로컬 일 수 있습니다 (*c:\foldername\publishfolder*), 상대 (*게시\\*), 또는 정규화 된 위치 (*\\\servername\foldername* 또는 http://<em>servername/foldername</em>). 모든 HTTP/HTTPS 위치는 US ASCII 문자로 만들어야 합니다. 유니코드 문자는 지원되지 않습니다.
+ 옵션에는 로컬 컴퓨터, UNC 파일 공유 또는 HTTP/HTTPS 웹 사이트가 포함됩니다. 경로 로컬 일 수 있습니다 (*c:\foldername\publishfolder*), 상대 (*게시\\* ), 또는 정규화 된 위치 ( *\\\servername\foldername* 또는 http://<em>servername/foldername</em>). 모든 HTTP/HTTPS 위치는 US ASCII 문자로 만들어야 합니다. 유니코드 문자는 지원되지 않습니다.
 
  설치 경로가 설정된 경우 사용자가 사용자 지정을 설치하려면 해당 위치에 사용자 지정 파일이 있어야 합니다. 최종 배포 위치를 알고 있는 경우에만 위치를 설정해야 합니다.
 

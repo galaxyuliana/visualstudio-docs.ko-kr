@@ -61,14 +61,14 @@ ms.locfileid: "63438900"
   
  **/Trace** 옵션을 사용하여 .NET 메모리 데이터와 함께 자세한 타이밍 정보를 포함할 수도 있습니다.  
   
- **vsperfaspnetcmd /memory**[**:lifetime**] **/trace**`websiteUrl`  
+ **vsperfaspnetcmd /memory**[ **:lifetime**] **/trace**`websiteUrl`  
   
 ## <a name="to-collect-tier-interaction-data"></a>계층 상호 작용 데이터를 수집하려면  
   
 > [!WARNING]
 > TIP(계층 상호 작용 프로파일) 데이터는 [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)], [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] 또는 [!INCLUDE[vs_pro_current_short](../includes/vs-pro-current-short-md.md)]을 사용해서 수집할 수 있습니다. 그러나 계층 상호 작용 프로파일링 데이터는 [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)] 및 [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)]에서만 볼 수 있습니다.  
 >   
-> Windows 8 또는 Windows Server 2012에서 TIP 데이터를 수집하려면 계측(**/trace**) 옵션을 사용해야 합니다.  
+> Windows 8 또는 Windows Server 2012에서 TIP 데이터를 수집하려면 계측( **/trace**) 옵션을 사용해야 합니다.  
   
  샘플링 데이터와 함께 계층 상호 작용 데이터를 수집하려면 다음 명령을 사용합니다.  
   
@@ -80,14 +80,14 @@ ms.locfileid: "63438900"
   
  .NET 메모리 데이터와 함께 계층 상호 작용 데이터를 수집하려면 다음 명령을 사용합니다.  
   
- **vsperfaspnetcmd /memory**[**:lifetime**] **/tip**_websiteUrl_  
+ **vsperfaspnetcmd /memory**[ **:lifetime**] **/tip**_websiteUrl_  
   
 ## <a name="UsingNoWait"></a> /NoWait 옵션 사용  
  기본적으로 명령 프롬프트는 **vsperfaspnetcmd** 명령을 실행한 후에 원래 상태로 돌아오지 않습니다. 다음 구문 옵션을 사용하면 명령 프롬프트가 원래 상태로 돌아오도록 강제 지정할 수 있습니다. 그러면 명령 프롬프트 창에서 다른 작업을 수행할 수 있습니다. 프로파일링을 종료하려면 별도의 **vsperfaspnetcmd** 명령에서 **/shutdown** 옵션을 사용합니다.  
   
  프로파일링을 시작하려면 다음 명령을 사용합니다.  
   
- **vsperfaspnetcmd** [*/Options*] **/nowait**_websiteUrl_  
+ **vsperfaspnetcmd** [ */Options*] **/nowait**_websiteUrl_  
   
  프로파일링을 종료하려면 다음 명령을 사용합니다.  
   

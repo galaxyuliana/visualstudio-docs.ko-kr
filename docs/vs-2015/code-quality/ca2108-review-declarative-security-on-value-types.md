@@ -56,7 +56,7 @@ ms.locfileid: "65687362"
 
  이 예제의 결과는 다음과 같습니다.
 
- **구조 사용자 지정 생성자: 요청이 실패 했습니다.**
+ **구조 사용자 지정 생성자: 요청이 실패 했습니다.** 
 **새 값 SecuredTypeStructure 100 100**
 **SecuredTypeStructure 200 200 새 값**
 ## <a name="see-also"></a>참고 항목

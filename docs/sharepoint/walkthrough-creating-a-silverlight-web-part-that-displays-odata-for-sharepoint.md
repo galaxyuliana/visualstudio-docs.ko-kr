@@ -1,5 +1,5 @@
 ---
-title: '연습: SharePoint 용 OData를 표시 하는 Silverlight 웹 파트 만들기 | Microsoft Docs'
+title: SharePoint 용 OData를 표시 하는 Silverlight 웹 파트 만들기
 ms.date: 02/22/2017
 ms.topic: conceptual
 f1_keywords:
@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: c58762c1060475a85de643ed52fffcc9f311bd96
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: f248ce4403e771d9ab8b6d13fe55fd5ca1c960d4
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430397"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401127"
 ---
 # <a name="walkthrough-create-a-silverlight-web-part-that-displays-odata-for-sharepoint"></a>연습: SharePoint 용 OData를 표시 하는 Silverlight 웹 파트 만들기
   SharePoint 2010 OData를 사용 하 여 해당 목록 데이터를 노출합니다. SharePoint에서 OData 서비스는 RESTful 서비스 ListData.svc에 의해 구현 됩니다. 이 연습에서는 Silverlight 응용 프로그램을 호스트 하는 SharePoint 웹 파트를 만드는 방법을 보여 줍니다. Silverlight 응용 프로그램 ListData.svc를 사용 하 여 SharePoint 알림 목록 정보를 표시 합니다. 자세한 내용은 [SharePoint Foundation REST 인터페이스](http://go.microsoft.com/fwlink/?LinkId=225999) 하 고 [개방형 데이터 프로토콜](http://go.microsoft.com/fwlink/?LinkId=226000)합니다.
@@ -57,7 +57,7 @@ ms.locfileid: "63430397"
 
 7. 에 **Silverlight 웹 파트를 연결 하 시겠습니까** 부분을 **Silverlight 구성 정보를 지정** 페이지를 선택는 **새 Silverlight 프로젝트 만들기 및 웹 파트와 연결할** 옵션 단추입니다.
 
-8. 변경 합니다 **이름** 하 **SLApplication**설정 **언어** 를 **Visual Basic** 또는 **Visual C#**, 설정한 후 **Silverlight 버전** 하 **Silverlight 4.0**합니다.
+8. 변경 합니다 **이름** 하 **SLApplication**설정 **언어** 를 **Visual Basic** 또는 **Visual C#** , 설정한 후 **Silverlight 버전** 하 **Silverlight 4.0**합니다.
 
 9. 선택 된 **완료** 단추입니다. 프로젝트에 나타납니다 **솔루션 탐색기**합니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "63430397"
     > [!NOTE]
     > Visual Basic을 사용 하는 경우에 선택 해야 합니다 **모든 파일 표시** 맨 위에 있는 아이콘 **솔루션 탐색기** 표시 하는 **참조** 노드.
 
-3. 주소 상자에는 **서비스 참조 추가** 대화 상자와 같은 SharePoint 사이트의 URL을 입력 합니다 **http://MySPSite**를 선택한 후는 **이동** 단추입니다.
+3. 주소 상자에는 **서비스 참조 추가** 대화 상자와 같은 SharePoint 사이트의 URL을 입력 합니다 **http://MySPSite** 를 선택한 후는 **이동** 단추입니다.
 
      Silverlight에서는 ListData.svc SharePoint OData 서비스를 찾고, 전체 서비스 URL로 주소를 대체 합니다. 예를 들어 http://myserver 가 http://myserver/_vti_bin/ListData.svc합니다.
 
