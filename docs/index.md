@@ -6,12 +6,12 @@ titleSuffix: ''
 description: Visual Studio를 사용하여 선택한 언어로 플랫폼 및 디바이스의 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.
 ms.topic: hub-page
 ms.custom: seodec18
-ms.openlocfilehash: f63b848481a43a9684424b31fe36c3436faff021
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d2a81b150a73e37089d678ff4174b4b4bec78572
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62944759"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402129"
 ---
 <!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
@@ -132,7 +132,7 @@ Visual Basic </a>
                                                         </td>
                                                         <td style="border-top-color:transparent!important;padding-left:0;">
                                                             <ul class="noBullet">                                     <li>
-                                                                    <a class="barLink" href="/cpp/get-started/">
+                                                                    <a class="barLink" href="/cpp/get-started/tutorial-console-cpp">
                                                                         <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="C++ icon">
 C++ </a>
                                                                 </li>
