@@ -13,12 +13,12 @@ monikerRange: '>= vs-2019'
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: 3a81f6aa138b361a44a272ebda3557d27a914c64
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 53dce8b6b468dd5754b5708afccdcbe6cb908d1d
+ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62854212"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66432221"
 ---
 # <a name="record-and-replay-live-aspnet-apps-on-azure-virtual-machines-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용 하 여 Azure virtual machines의 기록 및 재생 라이브 ASP.NET 앱
 
@@ -44,7 +44,7 @@ TTD 녹음/녹화를 캡처할 응용 프로그램이 중단 되지 됩니다. �
 * 시간 여행 디버깅 하는 것은 다음 Azure VM 웹 앱을 사용할 수 있습니다.
   * ASP.NET 응용 프로그램 (AMD64).NET Framework 4.8 이상을 실행 하 고 있습니다.
 
-## <a name="open-your-project-and-start-the-snapshot-debugger-with-time-travel-debugging-enabled"></a>프로젝트를 열고 시간 여행 디버깅 하도록 설정한 스냅숏 디버거를 시작 합니다.
+## <a name="start-the-snapshot-debugger-with-time-travel-debugging-enabled"></a>시간 여행 디버깅 하도록 설정한 스냅숏 디버거를 시작 합니다.
 
 1. 프로젝트를 열고 시간을 수집 하려는에 대 한 기록 이동 합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: '방법: 그래프 뷰를 사용 하 여 XML 스키마에서 스키마 집합 개요 디자이너 보기'
+title: 'XML 스키마 디자이너: 그래프 뷰를 사용 하 여 스키마 집합 개요'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c0df4b0d-52ef-4a6c-9676-1d8311aad7c7
@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5539f698ba4b4c0998d23e413d2d71ac14e810e7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e0a0fc62a0d6dfe772a550f33cafa02bc5bc1bf3
+ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63001958"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66432165"
 ---
 # <a name="how-to-get-an-overview-of-a-schema-set-using-the-graph-view"></a>방법: 그래프 뷰를 사용 하 여 설정 하는 스키마 개요
 
