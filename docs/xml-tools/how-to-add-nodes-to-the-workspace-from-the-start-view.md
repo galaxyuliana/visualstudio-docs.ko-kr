@@ -1,5 +1,5 @@
 ---
-title: XML 스키마 디자이너 시작 뷰에서 작업 영역에 노드 추가
+title: XML 스키마 디자이너에서 시작 뷰에서 작업 영역에 노드 추가
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 3fc7af94-dcb8-4226-a577-43f03664388b
@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ad76a2606d5e6fedec162cea4a89505efbb8b39f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1a62b2225eec77b2b7e2a9f00af0ff5492640c19
+ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62996864"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66432174"
 ---
 # <a name="how-to-add-nodes-to-the-workspace-from-the-start-view"></a>방법: 시작 뷰에서 작업 영역에 노드 추가
 

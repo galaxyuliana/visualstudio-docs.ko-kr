@@ -1,5 +1,5 @@
 ---
-title: '워크플로 디자이너-방법: 활동 대리자 정의 및 사용'
+title: '워크플로 디자이너: 활동 대리자 정의 및 사용'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c68e42ad-3ec0-4c2d-b104-fe36c6d83b5e
@@ -8,12 +8,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 25f844acefed50b5bb35e3b1d8c6a570e11ca194
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 34cb06bbc5c9575f5a10507a8015c9819e7b533b
+ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62949523"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66431789"
 ---
 # <a name="how-to-define-and-consume-activity-delegates-in-the-workflow-designer"></a>방법: 워크플로 디자이너에서 활동 대리자 정의 및 사용
 
@@ -52,7 +52,7 @@ ms.locfileid: "62949523"
 
 14. 에 **변수 형식** 열 선택 **Int32**합니다. 유지 된 **범위** 으로 **하는 동안**, 및 **기본** 열은 비워 둠.
 
-15. 설정 합니다 **조건** 의 속성을 <xref:System.Activities.Statements.While> 활동을 **인덱스 < Items.Length;**.
+15. 설정 합니다 **조건** 의 속성을 <xref:System.Activities.Statements.While> 활동을 **인덱스 < Items.Length;** .
 
 16. 끌어서는 <xref:System.Activities.Statements.InvokeDelegate> 활동에서를 **기본** 에 도구 상자의 섹션을 **본문** 의 <xref:System.Activities.Statements.While> 활동입니다.
 
@@ -76,11 +76,11 @@ ms.locfileid: "62949523"
 
 3. 끌어서를 **MyForEach** 활동을 도구 상자에서 디자이너 화면으로 합니다. 작업은 프로젝트와 동일한 이름 사용 하 여 도구 상자의 섹션.
 
-4. 설정 합니다 **항목** 의 속성을 **MyForEach** 활동을 **new Object {1, "abc"}**.
+4. 설정 합니다 **항목** 의 속성을 **MyForEach** 활동을 **new Object {1, "abc"}** .
 
 5. 끌어서를 <xref:System.Activities.Statements.WriteLine> 활동에서를 **기본** 에 도구 상자의 섹션을 **Delegate: Body** 섹션을 **MyForEach** 활동입니다.
 
-6. 설정 합니다 **텍스트** 의 속성을 <xref:System.Activities.Statements.WriteLine> 활동을 **argument.tostring ()**.
+6. 설정 합니다 **텍스트** 의 속성을 <xref:System.Activities.Statements.WriteLine> 활동을 **argument.tostring ()** .
 
 워크플로가 실행 되 면 다음 출력이 콘솔에 표시:
 
