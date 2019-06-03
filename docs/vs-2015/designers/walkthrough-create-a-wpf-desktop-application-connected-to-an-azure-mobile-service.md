@@ -43,7 +43,7 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
   
 3. 템플릿 목록에서 **WPF 애플리케이션** 템플릿을 선택합니다.  
   
-4.  **이름** 텍스트 상자에 `WPFQuickStart`를 입력하고 **확인** 단추를 선택합니다.  
+4. **이름** 텍스트 상자에 `WPFQuickStart`를 입력하고 **확인** 단추를 선택합니다.  
   
      프로젝트가 생성되고 프로젝트 파일이 **솔루션 탐색기**에 추가된 다음 **MainWindow.xaml** 이라는 기본 애플리케이션 창에 대한 디자이너가 표시됩니다.  
   
@@ -76,7 +76,7 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
   
 3. **공통** 폴더에 대한 바로 가기 메뉴를 열고 **추가**, **사용자 정의 컨트롤**을 선택합니다.  
   
-4.  **새 항목 추가** 대화 상자에서 이름 필드를 선택하고 `QuickStartTask`를 입력한 후 **추가** 단추를 선택합니다.  
+4. **새 항목 추가** 대화 상자에서 이름 필드를 선택하고 `QuickStartTask`를 입력한 후 **추가** 단추를 선택합니다.  
   
      사용자 정의 컨트롤이 프로젝트에 추가되고 **QuickStartTask.xaml** 파일이 디자이너에서 열립니다.  
   
@@ -212,7 +212,7 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
     xmlns:local=”clr-namespace:WPFQuickStart.Common”  
     ```  
   
-3.  **속성** 창에서 **Common** 범주 노드를 확장하고 **Title** 속성을 선택한 다음 `WPF Todo List` 를 입력하고 **Enter** 키를 누릅니다.  
+3. **속성** 창에서 **Common** 범주 노드를 확장하고 **Title** 속성을 선택한 다음 `WPF Todo List` 를 입력하고 **Enter** 키를 누릅니다.  
   
      XAML 창의 **Title** 요소가 새 값과 일치하도록 변경됩니다. XAML 창 또는 **속성** 창에서 XAML 속성을 수정할 수 있으며 변경 내용이 동기화됩니다.  
   
@@ -509,7 +509,7 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
   
 1. Microsoft Azure 포털에서 모바일 서비스 이름 옆에 있는 오른쪽 화살표를 선택한 다음 메뉴 모음에서 **데이터**, **테이블 추가** 링크를 차례로 선택합니다.  
   
-2.  **새 테이블 만들기** 대화 상자의 **테이블 이름** 텍스트 상자에 `TodoItem`를 입력한 후 **완료** (확인 표시) 단추를 선택합니다.  
+2. **새 테이블 만들기** 대화 상자의 **테이블 이름** 텍스트 상자에 `TodoItem`를 입력한 후 **완료** (확인 표시) 단추를 선택합니다.  
   
      테이블이 생성될 때까지 기다린 후 최종 절차로 넘어갑니다.  
   
@@ -527,7 +527,7 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
     Imports Microsoft.WindowsAzure.MobileServices  
     ```  
   
-3.  *YOUR-SERVICE_HERE* 를 서비스의 URL 이름으로 바꾸고 *YOUR-KEY-HERE* 를 이전 절차에서 복사한 응용 프로그램 키로 바꿔 다음 선언을 클래스에 추가합니다.  
+3. *YOUR-SERVICE_HERE* 를 서비스의 URL 이름으로 바꾸고 *YOUR-KEY-HERE* 를 이전 절차에서 복사한 응용 프로그램 키로 바꿔 다음 선언을 클래스에 추가합니다.  
   
     ```csharp  
     public static MobileServiceClient MobileService = new MobileServiceClient(  
@@ -549,7 +549,7 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
   
 1. 메뉴 모음에서 **디버그**, **디버깅 시작** 을 차례로 선택합니다(또는 F5 키를 누름).  
   
-2.  **Insert a TodoItem** 텍스트 상자에 `Do something`를 입력한 후 **저장** 단추를 선택합니다.  
+2. **Insert a TodoItem** 텍스트 상자에 `Do something`를 입력한 후 **저장** 단추를 선택합니다.  
   
 3. Enter `Do something else`를 입력한 후 **저장** 단추를 다시 선택합니다.  
   

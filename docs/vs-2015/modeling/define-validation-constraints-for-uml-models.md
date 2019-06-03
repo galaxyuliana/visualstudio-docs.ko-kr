@@ -55,7 +55,7 @@ ms.locfileid: "63422719"
     자세한 내용은 [유효성 검사 제약 조건 평가](#Implementing)를 참조하세요.  
   
    > [!IMPORTANT]
-   >  **.cs** 파일에 다음 `using` 문이 포함되어 있는지 확인합니다.  
+   > **.cs** 파일에 다음 `using` 문이 포함되어 있는지 확인합니다.  
    >   
    >  `using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;`  
   
@@ -372,7 +372,7 @@ context.LogError(... , usecase);
   
     1. **솔루션 탐색기**의 VSIX 프로젝트 바로 가기 메뉴에서 **Windows 탐색기에서 폴더 열기**를 선택합니다.  
   
-    2. 파일을 찾습니다 **bin\\\*\\**_YourProject_**.vsix**  
+    2. 파일을 찾습니다 **bin\\\*\\** _YourProject_ **.vsix**  
   
 2. 확장을 설치할 대상 컴퓨터에 **.vsix** 파일을 복사합니다. 이 컴퓨터는 사용 중인 컴퓨터이거나 다른 컴퓨터일 수 있습니다.  
   

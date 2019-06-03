@@ -14,7 +14,7 @@ ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: cf370b4ca0e0a4d14c482c6ece46b79d2d224d34
 ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2019
 ms.locfileid: "60049739"
@@ -97,7 +97,7 @@ Visual Studio에서 모델링 다이어그램에 대한 확장을 정의할 수 
   
 #### <a name="to-run-an-extension-during-its-development"></a>개발 중에 확장을 실행하려면  
   
-1.  [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **디버그** 메뉴에서 **Start 디버그ging**을 선택합니다.  
+1. [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] **디버그** 메뉴에서 **Start 디버그ging**을 선택합니다.  
   
      프로젝트가 빌드되고, [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 의 새 인스턴스가 실험적 모드에서 시작됩니다.  
   
@@ -116,7 +116,7 @@ Visual Studio에서 모델링 다이어그램에 대한 확장을 정의할 수 
   
     1. **솔루션 탐색기**의 프로젝트 바로 가기 메뉴에서 **Windows 탐색기에서 폴더 열기**를 선택합니다.  
   
-    2. 파일을 찾습니다 **bin\\\*\\**_YourProject_**.vsix**  
+    2. 파일을 찾습니다 **bin\\\*\\** _YourProject_ **.vsix**  
   
 2. 확장을 설치할 대상 컴퓨터에 **.vsix** 파일을 복사합니다. 이 컴퓨터는 사용 중인 컴퓨터이거나 다른 컴퓨터일 수 있습니다.  
   
