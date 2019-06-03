@@ -1,5 +1,5 @@
 ---
-title: 문제 해결 및 알려진 문제(Visual Studio Tools for Unity) | Microsoft Docs
+title: 문제 해결 및 알려진 문제(VS Tools for Unity)
 ms.custom: ''
 ms.date: 07/03/2018
 ms.technology: vs-unity-tools
@@ -10,12 +10,12 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: 57249507373199d217079a9b18c483fee9a51098
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d6856ff73f9aab2325a31e164e7983a919097d46
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62815588"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261122"
 ---
 # <a name="troubleshooting-and-known-issues-visual-studio-tools-for-unity"></a>문제 해결 및 알려진 문제(Visual Studio Tools for Unity)
 
@@ -54,7 +54,7 @@ MEF 캐시를 다시 설정하려면 다음 폴더를 제거해 보세요. 먼�
 
 Parse, FMOD, UMP(Universal Media Player), ZFBrowser 또는 Embedded Browser와 같이 몇 가지 Unity 플러그 인은 네이티브 스레드를 사용합니다. 플러그인에서 네이티브 스레드를 런타임에 연결할 때 발생하는 문제이며, 이는 OS에 대한 호출을 차단합니다. 즉 Unity에서 디버거(또는 도메인 다시 로드)에 대한 해당 스레드를 중단하고 정지할 수 없습니다.
 
-FMOD의 경우 일시적인 해결 방법이 있습니다. 즉, `FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE` 초기화 [플래그](https://www.fmod.org/docs/content/generated/FMOD_STUDIO_INITFLAGS.html)를 전달하여 비동기 처리를 비활성화하고 주 스레드에서 모든 처리를 수행할 수 있습니다.
+FMOD의 경우 일시적인 해결 방법이 있습니다. 즉, `FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE` 초기화 [플래그](https://www.fmod.com/resources/documentation-studio?version=2.0&page=https://fmod.com/resources/documentation-api?version=2.0&page=studio-api-system.html#fmod_studio_initflags)를 전달하여 비동기 처리를 비활성화하고 주 스레드에서 모든 처리를 수행할 수 있습니다.
 
 ## <a name="incompatible-project-in-visual-studio"></a>Visual Studio에서 호환되지 않는 프로젝트
 

@@ -1,5 +1,5 @@
 ---
-title: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 애플리케이션 통계 수집 | Microsoft 문서
+title: 프로파일러 명령줄을 사용하여 독립 실행형 앱 통계 수집
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 233934f9206e71a4051dbbcd17efc6001656ddfe
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 78dbda79e4bff6aaaf5c98ca6c92487c98781d39
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63440230"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263446"
 ---
 # <a name="collect-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line"></a>프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 애플리케이션 통계 수집
 이 섹션에서는 명령줄 도구에서 샘플링 방법을 사용하여 클라이언트(독립 실행형) 애플리케이션에 대한 성능 통계를 수집하기 위한 절차 및 옵션을 설명합니다.

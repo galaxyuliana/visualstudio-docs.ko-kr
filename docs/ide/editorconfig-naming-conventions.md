@@ -10,18 +10,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4385ad73b29f1266bb368a781da11279f887942b
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: 68840957a0c152add06804eac58f3d24afa1e846
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65847367"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261972"
 ---
 # <a name="net-naming-conventions-for-editorconfig"></a>EditorConfig에 대한 .NET 명명 규칙
 
 명명 규칙은 클래스, 속성 및 메서드와 같은 코드 요소의 이름을 지정합니다. 예를 들어 공용 멤버가 대문자로 시작해야 하고 비동기 메서드가 “Async”로 끝나야 한다고 지정할 수 있습니다. [.editorconfig 파일](../ide/create-portable-custom-editor-options.md)에서 이러한 규칙을 지정하여 적용할 수 있습니다. 명명 규칙 위반은 규칙에서 선택한 심각도에 따라 **오류 목록** 또는 이름의 제안 중 하나에서 표시될 수 있습니다. 위반을 확인하기 위해 프로젝트를 빌드하지 않아도 됩니다.
 
-명명 규칙은 EditorConfig 파일에서 가장 구체적인 규칙부터 가장 덜 구체적인 규칙으로 정렬되어야 합니다. 적용할 수 있는 첫 번째 규칙은 적용되는 유일한 규칙이 됩니다. 그러나 동일한 이름의 규칙 ‘속성’이 여러 개 있는 경우 가장 최근에 발견된 해당 이름의 속성이 우선 적용됩니다. 자세한 내용은 [파일 계층 구조 및 우선 순위](create-portable-custom-editor-options.md#file-hierarchy-and-precedence)를 참조하세요.
+명명 규칙은 EditorConfig 파일에서 가장 구체적인 규칙부터 가장 덜 구체적인 규칙으로 정렬되어야 합니다. 적용할 수 있는 첫 번째 규칙은 적용되는 유일한 규칙이 됩니다. 그러나 동일한 이름의 규칙 ‘속성’이 여러 개 있는 경우 가장 최근에 발견된 해당 이름의 속성이 우선 적용됩니다.  자세한 내용은 [파일 계층 구조 및 우선 순위](create-portable-custom-editor-options.md#file-hierarchy-and-precedence)를 참조하세요.
 
 각 명명 규칙에서는 아래에서 설명한 속성을 사용하여 적용할 기호, 명명 스타일 및 규칙에 적용할 심각도를 지정해야 합니다. 속성의 순서는 중요하지 않습니다.
 
@@ -109,7 +109,7 @@ ms.locfileid: "65847367"
    > [!NOTE]
    > `static` 또는 `shared` 기호에 대한 명명 규칙이 있는 경우 암시적으로 static인 `const` 기호에도 적용됩니다. `static` 명명 규칙을 `const` 기호에 적용하지 않으려면 `const` 기호에 대한 별도의 명명 규칙을 만듭니다.
 
-명명 규칙은 `required_modifiers`에 지정된 ‘모든’ 한정자가 있는 시그니처와 일치시킵니다. 이 속성을 생략하면 빈 목록의 기본값이 사용되므로 일치 항목에 특정 한정자가 필요하지 않습니다. 즉, 기호 한정자가 이 규칙의 적용 여부에 영향을 주지 않습니다.
+명명 규칙은 `required_modifiers`에 지정된 ‘모든’ 한정자가 있는 시그니처와 일치시킵니다.  이 속성을 생략하면 빈 목록의 기본값이 사용되므로 일치 항목에 특정 한정자가 필요하지 않습니다. 즉, 기호 한정자가 이 규칙의 적용 여부에 영향을 주지 않습니다.
 
 > [!TIP]
 > `required_modifiers`에 대해 `*` 값을 지정하지 마세요. 대신 `required_modifiers` 속성을 모두 생략하며 명명 규칙은 모든 종류의 한정자에 적용됩니다.
@@ -209,6 +209,6 @@ dotnet_naming_rule.public_members_must_be_capitalized.severity = warning
 
 ## <a name="see-also"></a>참고 항목
 
+- [Roslyn 명명 규칙](https://github.com/dotnet/roslyn/blob/master/.editorconfig#L63)
 - [.NET 언어 및 서식 지정 규칙](../ide/editorconfig-code-style-settings-reference.md)
 - [휴대용, 사용자 지정 편집기 옵션 만들기](../ide/create-portable-custom-editor-options.md)
-- [.NET 컴파일러 플랫폼 .editorconfig 파일](https://github.com/dotnet/roslyn/blob/master/.editorconfig)

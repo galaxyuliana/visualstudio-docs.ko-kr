@@ -5,16 +5,16 @@ description: Visual Studio 작업 및 구성 요소 ID를 사용하여 기존 Wi
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 04/02/2019
+ms.date: 05/21/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
-ms.openlocfilehash: 333ecaa39fb0f3ea736b2b2a3efc6980b1ff8d87
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: 7f6586ec44eae10d145271c5bb6f3b962ebe4e83
+ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65848945"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "66037127"
 ---
 ## <a name="azure-development-build-tools"></a>Azure 개발 빌드 도구
 
@@ -28,13 +28,13 @@ ms.locfileid: "65848945"
 --- | --- | --- | ---
 Microsoft.Net.Component.4.7.2.SDK | .NET Framework 4.7.2 SDK | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 타기팅 팩 | 16.0.28517.75 | 필수
-Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 개발 도구 | 16.0.28516.191 | 필수
+Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 개발 도구 | 16.1.28811.260 | 필수
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure 작성 도구 | 16.0.28625.61 | 필수
 Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러리 | 16.0.28315.86 | 필수
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services 빌드 도구 | 16.0.28625.61 | 필수
 Microsoft.VisualStudio.Component.DockerTools.BuildTools | 컨테이너 개발 도구 - 빌드 도구 | 16.0.28625.61 | 필수
-Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.0.28625.61 | 필수
-Microsoft.VisualStudio.Component.TypeScript.3.3 | TypeScript 3.3 SDK | 16.0.28625.61 | 필수
+Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.1.28829.92 | 필수
+Microsoft.VisualStudio.Component.TypeScript.3.4 | TypeScript 3.4 SDK | 16.0.28829.92 | 필수
 Microsoft.VisualStudio.Wcf.BuildTools.ComponentGroup | Windows Communication Foundation 빌드 도구 | 16.0.28516.191 | 필수
 Microsoft.VisualStudio.Web.BuildTools.ComponentGroup | 웹 개발 빌드 도구 | 16.0.28516.191 | 필수
 Microsoft.Net.Component.4.5.1.TargetingPack | .NET Framework 4.5.1 타기팅 팩 | 16.0.28517.75 | 권장
@@ -77,7 +77,7 @@ Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 타기팅 팩 | 1
 Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 타기팅 팩 | 16.0.28517.75 | 권장
 Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 개발 도구 | 16.0.28516.191 | 권장
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# 및 Visual Basic Roslyn 컴파일러 | 16.0.28714.129 | 권장
-Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# 및 Visual Basic | 16.0.28625.61 | 권장
+Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# 및 Visual Basic | 16.1.28829.92 | 권장
 Microsoft.VisualStudio.Component.SQL.SSDTBuildSku | SQL Server Data Tools - 빌드 도구 | 16.0.28315.86 | 권장
 
 ## <a name="net-desktop-build-tools"></a>.NET 데스크톱 빌드 도구
@@ -93,7 +93,7 @@ Microsoft.VisualStudio.Component.SQL.SSDTBuildSku | SQL Server Data Tools - 빌�
 Microsoft.Component.MSBuild | MSBuild | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.6.1.SDK | .NET Framework 4.6.1 SDK | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 타기팅 팩 | 16.0.28517.75 | 필수
-Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.0.28625.61 | 필수
+Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.1.28829.92 | 필수
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# 및 Visual Basic Roslyn 컴파일러 | 16.0.28714.129 | 필수
 Microsoft.Component.ClickOnce.MSBuild | ClickOnce 빌드 도구 | 16.0.28625.61 | 권장
 Microsoft.Net.Component.4.5.1.TargetingPack | .NET Framework 4.5.1 타기팅 팩 | 16.0.28517.75 | 권장
@@ -145,7 +145,7 @@ Microsoft.VisualStudio.Component.Roslyn.Compiler | C# 및 Visual Basic Roslyn �
 --- | --- | --- | ---
 Microsoft.Net.Core.Component.SDK.2.2 | .NET Core 2.2 개발 도구 | 16.0.28621.142 | 필수
 Microsoft.NetCore.BuildTools.ComponentGroup | .NET Core 빌드 도구 | 16.0.28516.191 | 필수
-Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.0.28625.61 | 필수
+Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.1.28829.92 | 필수
 
 ## <a name="nodejs-build-tools"></a>Node.js 빌드 도구
 
@@ -158,7 +158,7 @@ Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작�
 구성 요소 ID | name | 버전 | 종속성 유형
 --- | --- | --- | ---
 Microsoft.VisualStudio.Component.Node.Build | Node.js MSBuild 지원 | 16.0.28517.75 | 필수
-Microsoft.VisualStudio.Component.TypeScript.3.3 | TypeScript 3.3 SDK | 16.0.28625.61 | 필수
+Microsoft.VisualStudio.Component.TypeScript.3.4 | TypeScript 3.4 SDK | 16.0.28829.92 | 필수
 
 ## <a name="officesharepoint-build-tools"></a>Office/SharePoint 빌드 도구
 
@@ -178,9 +178,9 @@ Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 타기팅 팩
 Microsoft.Net.Component.4.7.2.SDK | .NET Framework 4.7.2 SDK | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 타기팅 팩 | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 타기팅 팩 | 16.0.28517.75 | 필수
-Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 개발 도구 | 16.0.28516.191 | 필수
-Microsoft.VisualStudio.Component.NuGet | NuGet 패키지 관리자 | 16.0.28625.61 | 필수
-Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.0.28625.61 | 필수
+Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 개발 도구 | 16.1.28811.260 | 필수
+Microsoft.VisualStudio.Component.NuGet | NuGet 패키지 관리자 | 16.1.28829.92 | 필수
+Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.1.28829.92 | 필수
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# 및 Visual Basic Roslyn 컴파일러 | 16.0.28714.129 | 필수
 Microsoft.VisualStudio.Component.Sharepoint.BuildTools | Office/SharePoint 개발 빌드 도구 | 16.0.28625.61 | 필수
 Microsoft.VisualStudio.Component.Workflow.BuildTools | Windows Workflow Foundation 빌드 도구 | 16.0.28315.86 | 필수
@@ -212,17 +212,17 @@ Microsoft.Net.ComponentGroup.4.7.DeveloperTools | .NET Framework 4.7 개발 도�
 --- | --- | --- | ---
 Microsoft.Component.MSBuild | MSBuild | 16.0.28517.75 | 필수
 Microsoft.Component.NetFX.Native | .NET 네이티브 | 16.0.28315.86 | 필수
-Microsoft.Component.VC.Runtime.OSSupport | v142 빌드 도구용 C++ 유니버설 Windows 플랫폼 런타임 | 16.0.28625.61 | 필수
 Microsoft.Net.Component.4.7.1.SDK | .NET Framework 4.7.1 SDK | 16.0.28517.75 | 필수
 Microsoft.Net.Core.Component.SDK.2.1 | .NET Core 2.1 개발 도구 | 16.0.28621.142 | 필수
-Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.0.28625.61 | 필수
+Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.1.28829.92 | 필수
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# 및 Visual Basic Roslyn 컴파일러 | 16.0.28714.129 | 필수
-Microsoft.VisualStudio.Component.VC.Tools.ARM | MSVC v142 – VS 2019 C++ ARM 빌드 도구(v14.20) | 16.0.28625.61 | 필수
-Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v142 – VS 2019 C++ x64/x86 빌드 도구(v14.20) | 16.0.28625.61 | 필수
-Microsoft.VisualStudio.ComponentGroup.UWP.BuildTools | 유니버설 Windows 플랫폼 빌드의 필수 구성 요소 | 16.0.28621.142 | 필수
+Microsoft.VisualStudio.Component.VC.Tools.ARM | MSVC v142 – VS 2019 C++ ARM 빌드 도구(v14.21) | 16.1.28829.92 | 필수
+Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 빌드 도구(v14.21) | 16.1.28829.92 | 필수
+Microsoft.VisualStudio.ComponentGroup.UWP.BuildTools | 유니버설 Windows 플랫폼 빌드의 필수 구성 요소 | 16.1.28811.260 | 필수
 Microsoft.VisualStudio.Component.Windows10SDK.17763 | Windows 10 SDK(10.0.17763.0) | 16.0.28517.75 | 권장
 Microsoft.VisualStudio.Component.Windows10SDK.16299 | Windows 10 SDK(10.0.16299.0) | 16.0.28517.75 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.17134 | Windows 10 SDK(10.0.17134.0) | 16.0.28517.75 | Optional
+Microsoft.VisualStudio.Component.Windows10SDK.18362 | Windows 10 SDK(10.0.18362.0) | 16.1.28829.92 | Optional
 
 ## <a name="c-build-tools"></a>C++ 빌드 도구
 
@@ -239,7 +239,7 @@ Microsoft.VisualStudio.Component.VC.Redist.14.Latest | C++ 2019 재배포 가능
 Microsoft.VisualStudio.Component.Windows10SDK | Windows 유니버설 C 런타임 | 16.0.28315.86 | 필수
 Microsoft.VisualStudio.Component.TestTools.BuildTools | 테스트 도구 핵심 기능 - 빌드 도구 | 16.0.28315.86 | 권장
 Microsoft.VisualStudio.Component.VC.CMake.Project | Windows용 C++ CMake 도구 | 16.0.28625.61 | 권장
-Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v142 – VS 2019 C++ x64/x86 빌드 도구(v14.20) | 16.0.28625.61 | 권장
+Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 빌드 도구(v14.21) | 16.1.28829.92 | 권장
 Microsoft.VisualStudio.Component.Windows10SDK.17763 | Windows 10 SDK(10.0.17763.0) | 16.0.28517.75 | 권장
 Microsoft.Component.MSBuild | MSBuild | 16.0.28517.75 | Optional
 Microsoft.Component.VC.Runtime.UCRTSDK | Windows 유니버설 CRT SDK | 16.0.28625.61 | Optional
@@ -250,13 +250,14 @@ Microsoft.VisualStudio.Component.TextTemplating | 텍스트 템플릿 변환 | 1
 Microsoft.VisualStudio.Component.VC.140 | MSVC v140 - VS 2015 C++ 빌드 도구(v14.00) | 16.0.28625.61 | Optional
 Microsoft.VisualStudio.Component.VC.ATL | v142 빌드 도구용 C++ ATL(x86 및 x64) | 16.0.28625.61 | Optional
 Microsoft.VisualStudio.Component.VC.ATLMFC | v142 빌드 도구용 C++ MFC(x86 및 x64) | 16.0.28625.61 | Optional
-Microsoft.VisualStudio.Component.VC.CLI.Support | v142 빌드 도구용 C++/CLI 지원 | 16.0.28625.61 | Optional
+Microsoft.VisualStudio.Component.VC.CLI.Support | v142 빌드 도구용 C++/CLI 지원(14.21) | 16.1.28829.92 | Optional
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ 핵심 기능 | 16.0.28625.61 | Optional
+Microsoft.VisualStudio.Component.VC.Llvm.Clang | Windows için clang derleyicisi | 16.1.28916.169 | Optional
 Microsoft.VisualStudio.Component.VC.Modules.x86.x64 | v142 빌드 도구용 C++ 모듈(x64/x86 – 실험적) | 16.0.28625.61 | Optional
-Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 – VS 2017 C++ x64/x86 빌드 도구(v14.16) | 16.0.28625.61 | Optional
+Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 – VS 2017 C++ x64/x86 빌드 도구(v14.16) | 16.1.28829.92 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.16299 | Windows 10 SDK(10.0.16299.0) | 16.0.28517.75 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.17134 | Windows 10 SDK(10.0.17134.0) | 16.0.28517.75 | Optional
-Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Core | Visual C++ 핵심 데스크톱 기능 | 16.0.28315.86 | Optional
+Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Core | C++ 핵심 데스크톱 기능 | 16.1.28916.169 | Optional
 
 ## <a name="visual-studio-extension-development"></a>Visual Studio 확장 개발
 
@@ -272,16 +273,16 @@ Microsoft.Component.MSBuild | MSBuild | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 타기팅 팩 | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.7.2.SDK | .NET Framework 4.7.2 SDK | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 타기팅 팩 | 16.0.28517.75 | 필수
-Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 개발 도구 | 16.0.28516.191 | 필수
-Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.0.28625.61 | 필수
+Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 개발 도구 | 16.1.28811.260 | 필수
+Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.1.28829.92 | 필수
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# 및 Visual Basic Roslyn 컴파일러 | 16.0.28714.129 | 필수
 Microsoft.VisualStudio.Component.VSSDKBuildTools | Visual Studio SDK Build Tools Core | 16.0.28315.86 | 필수
 Microsoft.VisualStudio.ComponentGroup.VisualStudioExtensionBuildTools.Prerequisites | Visual Studio 확장 개발 필수 구성 요소 | 16.0.28528.71 | 필수
 Component.Dotfuscator | PreEmptive Protection - Dotfuscator | 16.0.28528.71 | Optional
-Microsoft.Component.VC.Runtime.OSSupport | v142 빌드 도구용 C++ 유니버설 Windows 플랫폼 런타임 | 16.0.28625.61 | Optional
+Microsoft.Component.VC.Runtime.OSSupport | v142 빌드 도구용 C++ 유니버설 Windows 플랫폼 런타임 | 16.1.28811.260 | Optional
 Microsoft.VisualStudio.Component.VC.ATL | v142 빌드 도구용 C++ ATL(x86 및 x64) | 16.0.28625.61 | Optional
 Microsoft.VisualStudio.Component.VC.ATLMFC | v142 빌드 도구용 C++ MFC(x86 및 x64) | 16.0.28625.61 | Optional
-Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v142 – VS 2019 C++ x64/x86 빌드 도구(v14.20) | 16.0.28625.61 | Optional
+Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v142 - VS 2019 C++ x64/x86 빌드 도구(v14.21) | 16.1.28829.92 | Optional
 
 ## <a name="web-development-build-tools"></a>웹 개발 빌드 도구
 
@@ -295,9 +296,9 @@ Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v142 – VS 2019 C++ x6
 --- | --- | --- | ---
 Microsoft.Net.Component.4.7.2.SDK | .NET Framework 4.7.2 SDK | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 타기팅 팩 | 16.0.28517.75 | 필수
-Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 개발 도구 | 16.0.28516.191 | 필수
-Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.0.28625.61 | 필수
-Microsoft.VisualStudio.Component.TypeScript.3.3 | TypeScript 3.3 SDK | 16.0.28625.61 | 필수
+Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 개발 도구 | 16.1.28811.260 | 필수
+Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.1.28829.92 | 필수
+Microsoft.VisualStudio.Component.TypeScript.3.4 | TypeScript 3.4 SDK | 16.0.28829.92 | 필수
 Microsoft.VisualStudio.Web.BuildTools.ComponentGroup | 웹 개발 빌드 도구 | 16.0.28516.191 | 필수
 Microsoft.Component.ClickOnce.MSBuild | ClickOnce 빌드 도구 | 16.0.28625.61 | 권장
 Microsoft.Net.Component.4.5.1.TargetingPack | .NET Framework 4.5.1 타기팅 팩 | 16.0.28517.75 | 권장
@@ -340,10 +341,10 @@ Microsoft.Net.Core.Component.SDK.2.2 | .NET Core 2.2 개발 도구 | 16.0.28621.
 Microsoft.Component.MSBuild | MSBuild | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.6.1.SDK | .NET Framework 4.6.1 SDK | 16.0.28517.75 | 필수
 Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 타기팅 팩 | 16.0.28517.75 | 필수
-Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.0.28625.61 | 필수
+Microsoft.VisualStudio.Component.NuGet.BuildTools | NuGet 대상 및 빌드 작업 | 16.1.28829.92 | 필수
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# 및 Visual Basic Roslyn 컴파일러 | 16.0.28714.129 | 필수
 Component.Android.SDK27 | Android SDK 설치(API 레벨 27) | 16.0.28517.75 | Optional
-Component.OpenJDK | OpenJDK(Microsoft 배포) | 16.0.28625.61 | Optional
+Component.OpenJDK | OpenJDK(Microsoft 배포) | 16.1.28811.260 | Optional
 
 ## <a name="unaffiliated-components"></a>독립적 구성 요소
 
@@ -352,6 +353,25 @@ Component.OpenJDK | OpenJDK(Microsoft 배포) | 16.0.28625.61 | Optional
 구성 요소 ID | name | 버전
 --- | --- | ---
 Microsoft.Net.Core.Component.SDK.1x | .NET Core 1.0 - 1.1 개발 도구 | 16.0.28621.142
+Microsoft.VisualStudio.Component.VC.14.20.ARM | MSVC v142 - VS 2019 C++ ARM 빌드 도구(v14.20) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.ARM.Spectre | MSVC v142 - VS 2019 C++ ARM 스펙터 완화 라이브러리(v14.20) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.ARM64 | MSVC v142 – VS 2019 C++ ARM64 빌드 도구(v14.20) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.ARM64.Spectre | MSVC v142 – VS 2019 C++ ARM64 스펙터 완화 라이브러리(v14.20) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.ATL | v142 빌드 도구용 C++ v14.20 ATL(x86 & x64) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.ATL.ARM | v142 빌드 도구용 C++ v14.20 ATL(ARM) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.ATL.ARM.Spectre | 스펙터 완화를 지원하는 v142 빌드 도구용 C++ v14.20 ATL(ARM) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.ATL.ARM64 | v142 빌드 도구용 C++ v14.20 ATL(ARM64) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.ATL.ARM64.Spectre | 스펙터 완화를 지원하는 v142 빌드 도구용 C++ v14.20 ATL(ARM64) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.ATL.Spectre | 스펙터 완화를 지원하는 v142 빌드 도구용 C++ v14.20 ATL(x86 및 x64) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.CLI.Support | v142 빌드 도구용 C++/CLI 지원(14.20) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.MFC | v142 빌드 도구용 C++ v14.20 MFC(x86 및 x64) | 16.1.28916.169
+Microsoft.VisualStudio.Component.VC.14.20.MFC.ARM | v142 빌드 도구용 C++ v14.20 MFC(ARM) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.MFC.ARM.Spectre | 스펙터 완화를 지원하는 v142 빌드 도구용 C++ v14.20 MFC(ARM) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.MFC.ARM64 | v142 빌드 도구용 C++ v14.20 MFC(ARM64) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.MFC.ARM64.Spectre | 스펙터 완화를 지원하는 v142 빌드 도구용 C++ v14.20 MFC(ARM64) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.MFC.Spectre | 스펙터 완화를 지원하는 v142 빌드 도구용 C++ v14.20 MFC(x86 및 x64) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.x86.x64 | MSVC v142 – VS 2019 C++ x64/x86 빌드 도구(v14.20) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.14.20.x86.x64.Spectre | MSVC v142 – VS 2019 C++ x64/x86 스펙터 완화 라이브러리(v14.20) | 16.1.28829.92
 Microsoft.VisualStudio.Component.VC.ATL.ARM | v142 빌드 도구용 C++ ATL(ARM) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.ATL.ARM.Spectre | 스펙터 완화를 지원하는 v142 빌드 도구용 C++ ATL(ARM) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.ATL.ARM64 | v142 빌드 도구용 C++ ATL(ARM64) | 16.0.28625.61
@@ -363,26 +383,26 @@ Microsoft.VisualStudio.Component.VC.MFC.ARM.Spectre | 스펙터 완화를 지원
 Microsoft.VisualStudio.Component.VC.MFC.ARM64 | v142 빌드 도구용 C++ MFC(ARM64) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.MFC.ARM64.Spectre | 스펙터 완화를 지원하는 v142 빌드 도구용 C++ MFC(ARM64) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.Redist.MSM | C++ 2019 재배포 가능 MSM | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.Runtimes.ARM.Spectre | MSVC v142 – VS 2019 C++ ARM 스펙터 완화 라이브러리(v14.20) | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.Runtimes.ARM64.Spectre | MSVC v142 – VS 2019 C++ ARM64 스펙터 완화 라이브러리(v14.20) | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.Runtimes.x86.x64.Spectre | MSVC v142 – VS 2019 C++ x64/x86 스펙터 완화 라이브러리(v14.20)  | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.Tools.ARM64 | MSVC v142 – VS 2019 C++ ARM64 빌드 도구(v14.20) | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.v141.ARM | MSVC v141 – VS 2017 C++ ARM 빌드 도구(v14.16) | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.v141.ARM.Spectre | MSVC v141 – VS 2017 C++ ARM 스펙터 완화 라이브러리(v14.16) | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.v141.ARM64 | MSVC v141 – VS 2017 C++ ARM64 빌드 도구(v14.16) | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.v141.ARM64.Spectre | MSVC v141 – VS 2017 C++ ARM64 스펙터 완화 라이브러리(v14.16) | 16.0.28625.61
+Microsoft.VisualStudio.Component.VC.Runtimes.ARM.Spectre | MSVC v142 – VS 2019 C++ ARM 스펙터 완화 라이브러리(v14.21) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.Runtimes.ARM64.Spectre | MSVC v142 – VS 2019 C++ ARM64 스펙터 완화 라이브러리(v14.21) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.Runtimes.x86.x64.Spectre | MSVC v142 – VS 2019 C++ x64/x86 스펙터 완화 라이브러리(v14.21)  | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.Tools.ARM64 | MSVC v142 – VS 2019 C++ ARM64 빌드 도구(v14.21) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.v141.ARM | MSVC v141 – VS 2017 C++ ARM 빌드 도구(v14.16) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.v141.ARM.Spectre | MSVC v141 – VS 2017 C++ ARM 스펙터 완화 라이브러리(v14.16) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.v141.ARM64 | MSVC v141 – VS 2017 C++ ARM64 빌드 도구(v14.16) | 16.1.28829.92
+Microsoft.VisualStudio.Component.VC.v141.ARM64.Spectre | MSVC v141 – VS 2017 C++ ARM64 스펙터 완화 라이브러리(v14.16) | 16.1.28829.92
 Microsoft.VisualStudio.Component.VC.v141.ATL | v141 빌드 도구용 C++ ATL(x86 및 x64) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.ATL.ARM | v141 빌드 도구용 C++ ATL(ARM) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.ATL.ARM.Spectre | 스펙터 완화를 지원하는 v141 빌드 도구용 C++ ATL(ARM) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.ATL.ARM64 | v141 빌드 도구용 C++ ATL(ARM64) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.ATL.ARM64.Spectre | 스펙터 완화를 지원하는 v141 빌드 도구용 C++ ATL(ARM64) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.ATL.Spectre | 스펙터 완화를 지원하는 v141 빌드 도구용 C++ ATL(x86 및 x64) | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.v141.CLI.Support | v141 빌드 도구용 C++/CLI 지원 | 16.0.28625.61
+Microsoft.VisualStudio.Component.VC.v141.CLI.Support | v141 빌드 도구용 C++/CLI 지원(14.16) | 16.1.28829.92
 Microsoft.VisualStudio.Component.VC.v141.MFC | v141 빌드 도구용 C++ MFC(x86 및 x64) | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.v141.MFC.ARM | v141 빌드 도구용 C++ MFC(ARM) | 16.0.28625.61
+Microsoft.VisualStudio.Component.VC.v141.MFC.ARM | v141 빌드 도구용 C++ MFC(ARM) | 16.1.28916.169
 Microsoft.VisualStudio.Component.VC.v141.MFC.ARM.Spectre | 스펙터 완화를 지원하는 v141 빌드 도구용 C++ MFC(ARM) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.MFC.ARM64 | v141 빌드 도구용 C++ MFC(ARM64) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.MFC.ARM64.Spectre | 스펙터 완화를 지원하는 v141 빌드 도구용 C++ MFC(ARM64) | 16.0.28625.61
 Microsoft.VisualStudio.Component.VC.v141.MFC.Spectre | 스펙터 완화를 지원하는 v141 빌드 도구용 C++ MFC(x86 및 x64) | 16.0.28625.61
-Microsoft.VisualStudio.Component.VC.v141.x86.x64.Spectre | MSVC v141 – VS 2017 C++ x64/x86 스펙터 완화 라이브러리(v14.16) | 16.0.28625.61
-Microsoft.VisualStudio.Component.WinXP | VS 2017(v141) 도구용 C++ Windows XP 지원[사용되지 않음] | 16.0.28625.61
+Microsoft.VisualStudio.Component.VC.v141.x86.x64.Spectre | MSVC v141 – VS 2017 C++ x64/x86 스펙터 완화 라이브러리(v14.16) | 16.1.28829.92
+Microsoft.VisualStudio.Component.WinXP | VS 2017(v141) 도구용 C++ Windows XP 지원[사용되지 않음] | 16.1.28811.260

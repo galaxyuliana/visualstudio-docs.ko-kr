@@ -1,5 +1,5 @@
 ---
-title: 프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 자세한 타이밍 데이터 수집 | Microsoft 문서
+title: '프로파일러 명령줄: 독립 실행형 앱에 대한 타이밍 데이터 세부 사항'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8bae9bbdff28312c36af91af57368d6b87028d44
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 13bc632d70b3d477b70f6e947e55d5c82c6ab064
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62581342"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262884"
 ---
 # <a name="collect-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line"></a>프로파일러 명령줄을 사용하여 독립 실행형 애플리케이션에 대한 자세한 타이밍 데이터 수집
 이 섹션에서는 명령줄 도구에서 계측 방법을 사용하여 클라이언트(독립 실행형) 구성 요소에 대한 자세한 성능 데이터를 수집하기 위한 절차 및 옵션을 설명합니다.

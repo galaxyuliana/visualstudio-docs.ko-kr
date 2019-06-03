@@ -1,21 +1,19 @@
 ---
-title: Azure Cloud Services 및 가상 머신에 대한 진단 설정 | Microsoft Docs
+title: Azure Cloud Services 및 가상 머신에 대한 진단
 description: Visual Studio에서 Azure Cloud Services 및 VM(가상 머신) 디버깅을 위해 진단을 설정하는 방법을 설명합니다.
-author: mikejo5000
+author: ghogen
 manager: jillfra
 ms.assetid: e70cd7b4-6298-43aa-adea-6fd618414c26
 ms.topic: conceptual
 ms.workload: azure-vs
 ms.date: 06/28/2018
 ms.author: mikejo
-ms.prod: visual-studio-dev14
-ms.technology: vs-azure
-ms.openlocfilehash: 45e0eca12ecde6c6ede2e290f109ef04ce2035ff
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0b212ee44809f925bb4d2d78efc972a4986602a5
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62556422"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177331"
 ---
 # <a name="set-up-diagnostics-for-azure-cloud-services-and-virtual-machines"></a>Azure Cloud Services 및 Virtual Machines에 대한 진단 설정
 Azure 클라우드 서비스 또는 가상 머신 문제를 해결해야 하는 경우 Visual Studio를 사용하여 Azure Diagnostics를 보다 쉽게 설정할 수 있습니다. 진단은 클라우드 서비스를 실행하는 가상 머신 및 가상 머신 인스턴스에서 시스템 데이터와 로깅 데이터를 캡처합니다. 진단 데이터는 사용자가 선택한 저장소 계정으로 전송됩니다. Azure의 진단 로깅에 대한 자세한 내용은 [Azure App Service에서 웹앱에 대해 진단 로깅 사용](/azure/app-service/web-sites-enable-diagnostic-log)을 참조하세요.

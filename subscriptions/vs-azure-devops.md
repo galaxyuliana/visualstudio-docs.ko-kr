@@ -7,12 +7,12 @@ ms.date: 09/19/2018
 ms.topic: conceptual
 description: Azure DevOps를 Visual Studio 구독자로 사용할 수 있는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 9c10a8ec7e8ec71bee29f707e9abb8eb43f2b3c3
-ms.sourcegitcommit: bd519d1da375e374016f94a44c295d3253f61a8c
+ms.openlocfilehash: dbd08914123455fe0fc9db6dd6927dfe9e49b22e
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "64945154"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177726"
 ---
 # <a name="azure-devops-benefits-for-visual-studio-subscribers"></a>Visual Studio 구독자용 Azure DevOps 혜택
 
@@ -26,12 +26,16 @@ Visual Studio 구독을 활성화하는 데 사용한 것과 동일한 ID 또는
 
 | 구독 수준                                                 |     채널                                            | 이점                                                          | 갱신 가능?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise(표준, 월간 클라우드)   | VL, Azure, 일반 정품, 선택한 NFR<sup>1</sup>, FTE  | Azure Boards & Repos(기본), Azure Test Plans, Azure Artifacts, Azure Pipelines(자체 호스트됨)       |  예          |
-| Visual Studio Professional(표준, 월간 클라우드) | VL, Azure, 일반 정품,                                        | Azure Boards & Repos(기본)                                                            |  예          |
+| Visual Studio Enterprise(표준, 월간 클라우드)   | VL, Azure, 일반 정품, 선택한 NFR<sup>1</sup>, FTE  | Azure Boards & Repos(기본), Azure Test Plans, Azure Artifacts<sup>2</sup>, Azure Pipelines(자체 호스트됨)       |  예          |
+| Visual Studio Professional(표준, 월간 클라우드) | VL, Azure, 일반 정품,                                        | Azure Boards & Repos(기본), Azure Artifacts<sup>2</sup>                                                            |  예          |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | Azure Boards & Repos(기본), Azure Test Plans                                              |  예          |
 | MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | Azure Boards & Repos(기본), Azure Test Plans                                              |  예          |
 
 <sup>1</sup> 포함: *NFR(전매금지), MVP(Most Valuable Professional), RD(Regional Director), VSIP(Visual Studio Industry Partner), Microsoft 파트너 네트워크(Enterprise), BizSpark, MCT Software & Services Developer, 제외: MCT Software & Services, Imagine.*
+
+<sup>2</sup>  *무료로 2GB 포함*
+
+
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.

@@ -1,5 +1,5 @@
 ---
-title: Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구 | Microsoft Docs
+title: Windows 8 및 Windows Server 2012 앱의 성능 도구
 ms.date: 06/19/2017
 ms.topic: conceptual
 author: mikejo5000
@@ -7,12 +7,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8258c259b7f065e28ba7a6e199ddddb432dfb4b6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 69b817af15b782ebd1e281d51855d62b11e8f470
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62798199"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262949"
 ---
 # <a name="performance-tools-on-windows-8-and-windows-server-2012-applications"></a>Windows 8 및 Windows Server 2012 애플리케이션의 성능 도구
 
@@ -70,7 +70,7 @@ Windows 8에서는 계측 방법을 사용한 프로파일링이 변경되지 �
 
 두 도구는 로컬 컴퓨터에서 사용하기 위해 Visual Studio와 함께 설치됩니다.
 
-Visual Studio가 설치되지 않은 장치에서 애플리케이션을 프로파일링하려면 다음 중 하나를 수행합니다.
+Visual Studio가 설치되지 않은 디바이스에서 응용 프로그램을 프로파일링하려면 다음 중 하나를 수행합니다.
 
 - [MSDN 웹 사이트](http://go.microsoft.com/fwlink/?LinkID=219549)에서 Visual Studio용 원격 도구의 일부로 도구를 다운로드합니다.
 
@@ -109,7 +109,7 @@ Visual Studio가 설치되지 않은 장치에서 애플리케이션을 프로�
 
 **원격 컴퓨터에서 TIP 데이터 수집**
 
-원격 머신에서 계층 상호 작용 데이터를 수집하려면 **vs\_profiler\_**_\<Platform>_**\_**_\<Language>_**.exe** 파일을 Visual Studio 머신의 *%VSInstallDir%\Team Tools\Performance Tools\Setups* 폴더에서 원격 컴퓨터로 복사하여 설치해야 합니다. [원격 디버깅](../debugger/remote-debugging.md) 다운로드 패키지의 프로파일링 도구는 사용할 수 없습니다.
+원격 머신에서 계층 상호 작용 데이터를 수집하려면 **vs\_profiler\_** _\<Platform>_ **\_** _\<Language>_ **.exe** 파일을 Visual Studio 머신의 *%VSInstallDir%\Team Tools\Performance Tools\Setups* 폴더에서 원격 컴퓨터로 복사하여 설치해야 합니다. [원격 디버깅](../debugger/remote-debugging.md) 다운로드 패키지의 프로파일링 도구는 사용할 수 없습니다.
 
 [VSPerfCmd](../profiling/vsperfcmd.md) 또는 [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md)를 사용하여 프로파일링 데이터를 수집할 수 있습니다.
 

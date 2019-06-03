@@ -1,5 +1,5 @@
 ---
-title: 프로파일러 명령줄을 사용하여 서비스에 대한 동시성 데이터 수집 | Microsoft 문서
+title: 프로파일러 명령줄을 사용하여 서비스에 대한 동시성 데이터 가져오기
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 275aacba-b2af-4d34-8931-ee30d777a256
@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5df8fa1b0e0d9c76595c29958641de628e5e8b78
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 4fba5c02846fa13cb0929a63e4007acb7db58535
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63440215"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66262986"
 ---
 # <a name="collect-concurrency-data-for-a-service-by-using-the-profiler-command-line"></a>프로파일러 명령줄을 사용하여 서비스에 대한 동시성 데이터 수집
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구의 동시성 방법을 사용하면 CPU 사용률, 스레드 경합, 스레드 마이그레이션, 동기화 지연, 겹친 IO 영역 및 기타 시스템 이벤트를 보여 주는 리소스 경합 데이터 및 스레드 작업 데이터를 수집할 수 있습니다.

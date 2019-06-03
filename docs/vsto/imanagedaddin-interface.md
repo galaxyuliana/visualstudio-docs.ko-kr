@@ -56,13 +56,13 @@ interface IManagedAddin : IUnknown
 
 1. 애플리케이션에서는 다음 레지스트리 키에서 항목을 검색하여 VSTO 추가 기능을 찾습니다.
 
-    **HKEY_CURRENT_USER\Software\Microsoft\Office\\*\<응용 프로그램 이름 >* \Addins\\**
+    **HKEY_CURRENT_USER\Software\Microsoft\Office\\ *\<응용 프로그램 이름 >* \Addins\\**
 
     이 레지스트리 키의 각 항목은 VSTO 추가 기능의 고유 ID입니다. 일반적으로 VSTO 추가 기능 어셈블리의 이름입니다.
 
 2. 애플리케이션은 각 VSTO 추가 기능에 대한 항목에서 `Manifest` 항목을 찾습니다.
 
-    관리 되는 VSTO 추가 기능 매니페스트의 전체 경로 저장할 수는 `Manifest` 아래에 항목이 **HKEY_CURRENT_USER\Software\Microsoft\Office\\_\<응용 프로그램 이름 >_ \Addins\\  _\<-add-in ID >_** 합니다. 매니페스트는 VSTO 추가 기능을 로드하는 데 사용되는 정보를 제공하는 파일(일반적으로 XML 파일)입니다.
+    관리 되는 VSTO 추가 기능 매니페스트의 전체 경로 저장할 수는 `Manifest` 아래에 항목이 **HKEY_CURRENT_USER\Software\Microsoft\Office\\ _\<응용 프로그램 이름 >_ \Addins\\  _\<-add-in ID >_ **합니다. 매니페스트는 VSTO 추가 기능을 로드하는 데 사용되는 정보를 제공하는 파일(일반적으로 XML 파일)입니다.
 
 3. 애플리케이션에서 `Manifest` 항목을 찾으면 관리되는 VSTO 추가 기능 로더 구성 요소를 로드하려고 합니다. 응용 프로그램 IManagedAddin 인터페이스를 구현 하는 COM 개체를 생성 하 여이 작업을 수행 합니다.
 
@@ -70,7 +70,7 @@ interface IManagedAddin : IUnknown
 
 4. 애플리케이션은 [IManagedAddin::Load](../vsto/imanagedaddin-load.md) 메서드를 호출하여 `Manifest` 항목의 값을 전달합니다.
 
-5.  [IManagedAddin::Load](../vsto/imanagedaddin-load.md) 메서드는 로드 중인 VSTO 추가 기능을 위한 보안 정책 및 응용 프로그램 도메인을 구성하는 등 VSTO 추가 기능을 로드하는 데 필요한 작업을 수행합니다.
+5. [IManagedAddin::Load](../vsto/imanagedaddin-load.md) 메서드는 로드 중인 VSTO 추가 기능을 위한 보안 정책 및 응용 프로그램 도메인을 구성하는 등 VSTO 추가 기능을 로드하는 데 필요한 작업을 수행합니다.
 
    레지스트리에 대 한 자세한 내용은 Microsoft Office 응용 프로그램 검색 하 고 로드를 사용 하는 키 관리 되는 VSTO 추가 기능을 참조 하십시오 [VSTO 추가 기능에 대 한 레지스트리 항목](../vsto/registry-entries-for-vsto-add-ins.md)합니다.
 

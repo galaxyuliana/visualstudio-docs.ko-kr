@@ -1,5 +1,5 @@
 ---
-title: 프로파일러 샘플링 방법을 사용하여 서비스에 대한 애플리케이션 통계 수집 | Microsoft 문서
+title: 프로파일러 샘플링 방법을 사용하여 애플리케이션 통계 수집
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 07840ab2-3a92-4744-ac87-48b19e0ceecd
@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b9e71f1d8219f61946bc8242514429130530fb12
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: f9b2de87e77abc701f14211cb49e82220c4c935d
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63440236"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263003"
 ---
 # <a name="collect-application-statistics-for-services-by-using-the-profiler-sampling-method"></a>프로파일러 샘플링 방법을 사용하여 서비스에 대한 애플리케이션 통계 수집
 이 섹션에서는 명령줄에서 샘플링 방법을 사용하여 Windows 서비스에 대한 성능 통계를 수집하기 위한 절차 및 옵션을 설명합니다.

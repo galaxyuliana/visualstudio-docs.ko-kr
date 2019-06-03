@@ -1,5 +1,5 @@
 ---
-title: 클래스 뷰, 호출 계층 구조, 개체 브라우저 및 코드 정의 창을 사용하여 코드 구조 보기
+title: 클래스 뷰, 호출 계층 구조, 개체 브라우저, 코드 정의 창
 ms.date: 05/18/2018
 ms.topic: conceptual
 f1_keywords:
@@ -25,12 +25,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9d1072e6e9a2b097d9d2f50cc372ee8ba621e3d3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9e2ec8e3e51036749030036eee6ff1d268a44f69
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62582083"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263076"
 ---
 # <a name="view-the-structure-of-code-using-different-tool-windows"></a>다른 도구 창을 사용하여 코드 구조 보기
 
@@ -38,7 +38,7 @@ ms.locfileid: "62582083"
 
 또한 **솔루션 탐색기**를 사용하면 여러 도구 창 간에 전환하지 않고도 프로젝트의 형식 및 멤버를 찾아보고 기호를 검색하고 메서드의 호출 계층 구조를 확인하고 기호 참조를 찾는 등의 작업을 수행할 수 있습니다.
 
-Visual Studio Enterprise Edition이 있는 경우 ‘코드 맵’을 사용하여 코드의 구조와 전체 솔루션에서의 해당 종속성을 시각화할 수 있습니다. 자세한 내용은 [코드 맵으로 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)을 참조하세요.
+Visual Studio Enterprise Edition이 있는 경우 ‘코드 맵’을 사용하여 코드의 구조와 전체 솔루션에서의 해당 종속성을 시각화할 수 있습니다.  자세한 내용은 [코드 맵으로 종속성 매핑](../modeling/map-dependencies-across-your-solutions.md)을 참조하세요.
 
 ## <a name="class-view-visual-basic-c-c"></a>클래스 뷰(Visual Basic, C#, C++)
 
@@ -56,7 +56,7 @@ Visual Studio Enterprise Edition이 있는 경우 ‘코드 맵’을 사용하�
 
 |||
 |-|-|
-|**새 폴더**|자주 사용하는 요소를 구성할 수 있는 가상 폴더 또는 하위 폴더를 만듭니다. 해당 요소는 활성 솔루션(*.suo*) 파일에 저장됩니다. 코드에서 요소의 이름을 바꾸거나 요소를 삭제하면 가상 폴더에 오류 노드로 표시될 수 있습니다. 이 문제를 해결하려면 오류 노드를 삭제합니다. 요소의 이름을 바꾼 경우 해당 요소를 프로젝트 계층 구조에서 폴더로 다시 이동할 수 있습니다.|
+|**새 폴더**|자주 사용하는 요소를 구성할 수 있는 가상 폴더 또는 하위 폴더를 만듭니다. 해당 요소는 활성 솔루션( *.suo*) 파일에 저장됩니다. 코드에서 요소의 이름을 바꾸거나 요소를 삭제하면 가상 폴더에 오류 노드로 표시될 수 있습니다. 이 문제를 해결하려면 오류 노드를 삭제합니다. 요소의 이름을 바꾼 경우 해당 요소를 프로젝트 계층 구조에서 폴더로 다시 이동할 수 있습니다.|
 |**뒤로**|이전에 선택한 항목으로 이동합니다.|
 |**앞으로**|선택한 다음 항목으로 이동합니다.|
 |**클래스 다이어그램 보기**(관리 코드 프로젝트에만 해당)|**클래스 뷰**에서 네임스페이스 또는 형식을 선택할 때 사용할 수 있게 됩니다. 네임스페이스를 선택한 경우 클래스 다이어그램이 모든 형식을 보여 줍니다. 형식을 선택한 경우 클래스 다이어그램이 해당 형식만 보여 줍니다.|

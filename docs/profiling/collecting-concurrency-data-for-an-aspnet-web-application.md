@@ -1,5 +1,5 @@
 ---
-title: 프로파일러 명령줄을 사용하여 ASP.NET 웹 애플리케이션에 대한 동시성 데이터 수집 | Microsoft Docs
+title: ASP.NET 웹앱 동시성 데이터를 가져오기 위한 프로파일러 명령줄
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: 7b1a99f3007a87738f55d0b13fa8943ded925266
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d7ff0ff01e7f99592e33035c7d9502d3b83fc859
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62960363"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263755"
 ---
 # <a name="collect-concurrency-data-for-an-aspnet-web-application-using-the-profiler-command-line"></a>프로파일러 명령줄을 사용하여 ASP.NET 웹 애플리케이션에 대한 동시성 데이터 수집
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구의 동시성 방법을 사용하면 리소스 경합 데이터를 수집할 수 있습니다.

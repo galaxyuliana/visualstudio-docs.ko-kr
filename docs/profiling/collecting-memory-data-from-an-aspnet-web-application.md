@@ -1,5 +1,5 @@
 ---
-title: 프로파일러 명령줄을 사용하여 ASP.NET 웹 애플리케이션의 메모리 데이터 수집 | Microsoft Docs
+title: 프로파일러 명령줄을 사용하여 ASP.NET 웹앱 메모리 데이터 가져오기
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - aspnet
-ms.openlocfilehash: a9e6bfce4b9137283a9413168fe320e292195c12
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 03851869b2067efd014752ab854f30c2d4874711
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63405866"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263537"
 ---
 # <a name="collect-memory-data-from-an-aspnet-web-application-by-using-the-profiler-command-line"></a>프로파일러 명령줄을 사용하여 ASP.NET 웹 애플리케이션의 메모리 데이터 수집
 이 섹션에서는 **VSPerfCmd** 명령줄 도구를 사용하여 ASP.NET 웹 애플리케이션에 대한 메모리 할당 및 개체 수명 데이터를 수집하기 위한 절차 및 옵션을 설명합니다.
