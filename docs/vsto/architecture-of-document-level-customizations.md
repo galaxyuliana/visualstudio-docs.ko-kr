@@ -84,18 +84,18 @@ ms.locfileid: "63440377"
 
 |Excel|단어|
 |-----------|----------|
-|Excel 통합 문서 (*.xlsx*)<br /><br /> Excel 매크로 사용 통합 문서 (*.xlsm*)<br /><br /> Excel 이진 통합 문서 (*.xlsb*)<br /><br /> Excel 97-2003 통합 문서 (*.xls*)<br /><br /> Excel 서식 파일 (*.xltx*)<br /><br /> Excel 매크로 사용 서식 파일 (*.xltm*)<br /><br /> Excel 97-2003 서식 파일 (*.xlt*)|Word 문서 (*.docx*)<br /><br /> Word 매크로 사용 문서 (*.docm*)<br /><br /> Word 97-2003 문서 (*.doc*)<br /><br /> Word 서식 파일 (*.dotx*)<br /><br /> Word 매크로 사용 서식 파일 (*.dotm*)<br /><br /> Word 97-2003 서식 파일 (*.dot*)|
+|Excel 통합 문서 ( *.xlsx*)<br /><br /> Excel 매크로 사용 통합 문서 ( *.xlsm*)<br /><br /> Excel 이진 통합 문서 ( *.xlsb*)<br /><br /> Excel 97-2003 통합 문서 ( *.xls*)<br /><br /> Excel 서식 파일 ( *.xltx*)<br /><br /> Excel 매크로 사용 서식 파일 ( *.xltm*)<br /><br /> Excel 97-2003 서식 파일 ( *.xlt*)|Word 문서 ( *.docx*)<br /><br /> Word 매크로 사용 문서 ( *.docm*)<br /><br /> Word 97-2003 문서 ( *.doc*)<br /><br /> Word 서식 파일 ( *.dotx*)<br /><br /> Word 매크로 사용 서식 파일 ( *.dotm*)<br /><br /> Word 97-2003 서식 파일 ( *.dot*)|
 
- 지원되는 형식의 문서에 대해서만 관리 코드 확장을 디자인해야 합니다. 그렇지 않으면 애플리케이션에서 문서가 열릴 때 특정 이벤트가 발생하지 않을 수 있습니다. 예를 들어 합니다 <xref:Microsoft.Office.Tools.Excel.Workbook.Open> Excel XML 스프레드시트 형식이 나 웹 페이지를 저장 하는 통합 문서를 사용 하 여 관리 코드 확장을 사용 하는 경우에 이벤트가 발생 하지 않습니다 (*.htm*; *.html*) 형식입니다.
+ 지원되는 형식의 문서에 대해서만 관리 코드 확장을 디자인해야 합니다. 그렇지 않으면 애플리케이션에서 문서가 열릴 때 특정 이벤트가 발생하지 않을 수 있습니다. 예를 들어 합니다 <xref:Microsoft.Office.Tools.Excel.Workbook.Open> Excel XML 스프레드시트 형식이 나 웹 페이지를 저장 하는 통합 문서를 사용 하 여 관리 코드 확장을 사용 하는 경우에 이벤트가 발생 하지 않습니다 ( *.htm*; *.html*) 형식입니다.
 
 ### <a name="support-for-word-documents-that-have-xml-file-name-extensions"></a>.Xml 파일 이름 확장명을 가진 Word 문서에 대 한 지원
  문서 수준 프로젝트 템플릿에서는 다음과 같은 파일 형식을 기반으로 프로젝트를 만드는 것을 허용하지 않습니다.
 
-- Word XML 문서 (*\*xml*).
+- Word XML 문서 ( *\*xml*).
 
-- Word 2003 XML 문서 (*\*xml*).
+- Word 2003 XML 문서 ( *\*xml*).
 
-  최종 사용자가 이러한 파일 형식으로 사용자 지정을 사용하도록 하려면 위의 표에 지정된 지원되는 파일 형식 중 하나를 사용하는 사용자 지정을 빌드하고 배포합니다. 사용자 지정을 설치한 후 최종 사용자가 문서를 저장할 수 Word XML 문서에서 (*\*xml*) 형식 또는 Word 2003 XML 문서 (*\*xml*) 형식 및 사용자 지정 계속 예상 대로 작동 합니다.
+  최종 사용자가 이러한 파일 형식으로 사용자 지정을 사용하도록 하려면 위의 표에 지정된 지원되는 파일 형식 중 하나를 사용하는 사용자 지정을 빌드하고 배포합니다. 사용자 지정을 설치한 후 최종 사용자가 문서를 저장할 수 Word XML 문서에서 ( *\*xml*) 형식 또는 Word 2003 XML 문서 ( *\*xml*) 형식 및 사용자 지정 계속 예상 대로 작동 합니다.
 
 ## <a name="Components"></a> 사용자 지정 구성 요소
  사용자 지정의 주요 구성 요소는 문서와 어셈블리입니다. 이러한 구성 요소 외에 Microsoft Office 애플리케이션이 사용자 지정을 검색하고 로드하는 방식에서 중요한 역할을 하는 몇 가지 다른 부분이 있습니다.
@@ -139,7 +139,7 @@ ms.locfileid: "63440377"
 
 8. [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 은 사용자 지정 어셈블리를 응용 프로그램 도메인에 로드합니다.
 
-9.  [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 이 사용자 지정 어셈블리에서 **Startup** 이벤트 처리기를 호출합니다. 자세한 내용은 참조 하세요. [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)
+9. [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 이 사용자 지정 어셈블리에서 **Startup** 이벤트 처리기를 호출합니다. 자세한 내용은 참조 하세요. [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)
 
 ## <a name="see-also"></a>참고자료
 - [Visual Studio에서 Office 솔루션의 아키텍처](../vsto/architecture-of-office-solutions-in-visual-studio.md)

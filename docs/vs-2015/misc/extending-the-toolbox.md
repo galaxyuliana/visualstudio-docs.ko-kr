@@ -18,7 +18,7 @@ ms.lasthandoff: 05/15/2019
 ms.locfileid: "65686942"
 ---
 # <a name="extending-the-toolbox"></a>도구 상자 확장
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구 상자** 에서 IDE의 끌어서 놓기 메커니즘을 통해 편집기 및 디자이너에 기능을 제공하는 개체의 컬렉션을 제공합니다.  
+[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구 상자** 에서 IDE의 끌어서 놓기 메커니즘을 통해 편집기 및 디자이너에 기능을 제공하는 개체의 컬렉션을 제공합니다.  
   
  VSPackage는 다음과 같은 두 가지 기본 방법으로 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] **도구 상자**작업을 수행합니다.  
   

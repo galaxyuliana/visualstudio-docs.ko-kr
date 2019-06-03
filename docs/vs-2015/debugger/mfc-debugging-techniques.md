@@ -162,7 +162,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
 ### <a name="BKMK_Taking_memory_snapshots"></a> 메모리 스냅숏 만들기  
   
-1.  [CMemoryState](https://msdn.microsoft.com/8fade6e9-c6fb-4b2a-8565-184a912d26d2) 개체를 만들고 [CMemoryState::Checkpoint](https://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a) 멤버 함수를 호출합니다. 그러면 첫 번째 메모리 스냅숏이 만들어집니다.  
+1. [CMemoryState](https://msdn.microsoft.com/8fade6e9-c6fb-4b2a-8565-184a912d26d2) 개체를 만들고 [CMemoryState::Checkpoint](https://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a) 멤버 함수를 호출합니다. 그러면 첫 번째 메모리 스냅숏이 만들어집니다.  
   
 2. 프로그램이 메모리 할당 작업과 할당 취소 작업을 수행하면 다른 `CMemoryState` 개체를 만들고 해당 개체에 대해 `Checkpoint` 를 호출합니다. 그러면 메모리 사용에 대한 두 번째 스냅숏이 만들어집니다.  
   
@@ -191,7 +191,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
    #endif  
    ```  
   
-    메모리를 검사하는 문은 프로그램의 디버그 버전에서만 컴파일되도록 `#ifdef`[_DEBUG](https://msdn.microsoft.com/library/a9901568-4846-4731-a404-399d947e2e7a)/ **#endif** 블록으로 묶어야 합니다.  
+    메모리를 검사하는 문은 프로그램의 디버그 버전에서만 컴파일되도록 `#ifdef`[_DEBUG](https://msdn.microsoft.com/library/a9901568-4846-4731-a404-399d947e2e7a)/  **#endif** 블록으로 묶어야 합니다.  
   
     이제 메모리 누수가 확인되었으므로 다른 멤버 함수인 [CMemoryState::DumpStatistics](https://msdn.microsoft.com/library/90d5f281-b92f-4725-a996-23ab94cf4b5d) 를 사용하여 해당 위치를 찾을 수 있습니다.  
   
@@ -364,7 +364,7 @@ Phone #: 581-0215
 #### <a name="BKMK_Customizing_object_dumps"></a> 개체 덤프 사용자 지정  
  [CObject](https://msdn.microsoft.com/library/95e9acd3-d9eb-4ac0-b52b-ca4a501a7a3a)에서 클래스를 파생시키는 경우 `Dump` DumpAllObjectsSince [를 사용하여](https://msdn.microsoft.com/library/a7f89034-bca4-4786-88d5-1571a5425ab2) 출력 창 [으로 개체를 덤프할 때](../ide/reference/output-window.md)멤버 함수를 재정의하여 추가 정보를 제공할 수 있습니다.  
   
- `Dump` 함수는 덤프 컨텍스트([CDumpContext](https://msdn.microsoft.com/library/98c52b2d-14b5-48ed-b423-479a4d1c60fa))에 개체 멤버 변수의 텍스트 표현을 작성합니다. 덤프 컨텍스트는 I/O 스트림과 유사합니다. 추가 연산자(**<<**)를 사용하여 `CDumpContext`를 단순히 호출할 뿐입니다.  
+ `Dump` 함수는 덤프 컨텍스트([CDumpContext](https://msdn.microsoft.com/library/98c52b2d-14b5-48ed-b423-479a4d1c60fa))에 개체 멤버 변수의 텍스트 표현을 작성합니다. 덤프 컨텍스트는 I/O 스트림과 유사합니다. 추가 연산자( **<<** )를 사용하여 `CDumpContext`를 단순히 호출할 뿐입니다.  
   
  `Dump` 함수를 재정의하려면 먼저 `Dump` 의 기본 클래스 버전을 호출하여 기본 클래스 개체의 내용을 덤프해야 합니다. 그런 다음 파생 클래스의 각 멤버 변수에 대한 텍스트 설명과 값을 출력하십시오.  
   
@@ -444,7 +444,7 @@ pMyPerson->Dump( afxDump );
   
    4. **다음에서 설정 복사** 목록에서 **릴리스**를 선택합니다.  
   
-   5.  **확인** 을 클릭하여 **새 프로젝트 구성**대화 상자를 닫습니다.  
+   5. **확인** 을 클릭하여 **새 프로젝트 구성**대화 상자를 닫습니다.  
   
    6. **구성 관리자** 대화 상자를 닫습니다.  
   
