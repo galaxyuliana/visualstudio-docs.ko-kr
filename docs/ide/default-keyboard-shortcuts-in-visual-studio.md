@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4e8cea36eeed3e09f1d88ad08f95f816d5206d65
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a0fb75badac32d09dff241cd4f339a89d6cc558d
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62962043"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261327"
 ---
 # <a name="default-keyboard-shortcuts-in-visual-studio"></a>Visual Studio의 기본 바로 가기 키
 
@@ -125,7 +125,8 @@ ms.locfileid: "62962043"
 |디버그.한단계씩코드실행|**Shift+Alt+F11**|
 |디버그.프로시저나가기|**Shift+F11**|
 |디버그.현재프로세스프로시저나가기|**Ctrl+Shift+Alt+F11**|
-|디버그.프로시저단위실행|**F10**|
+|디버그.프로시저단위실행|**F10**(디버깅할 때: 작업을 통해 단계 수행)|
+|디버그.프로시저단위실행|**F10**(디버깅하지 않을 때: 디버깅을 시작하고 사용자 코드의 첫째 줄에서 중지)|
 |디버그.현재프로세스프로시저단위실행|**Ctrl+Alt+F10**|
 |디버그.디버깅중지|**Shift+F5**|
 |Debug.StopPerformanceAnalysis|**Shift+Alt+F2**|
@@ -267,9 +268,9 @@ ms.locfileid: "62962043"
 |프로젝트.새항목추가|**Ctrl+Shift+A**|
 |Project.ClassWizard|**Ctrl+Shift+A**|
 |프로젝트.재정의|**Ctrl+Alt+Ins**|
-|Project.Previewchanges|**Alt+;**, **Alt+C**|
-|Project.Publishselectedfiles|**Alt+;**, **Alt+P**|
-|Project.Replaceselectedfilesfromserver|**Alt+;**, **Alt+R**|
+|Project.Previewchanges|**Alt+;** , **Alt+C**|
+|Project.Publishselectedfiles|**Alt+;** , **Alt+P**|
+|Project.Replaceselectedfilesfromserver|**Alt+;** , **Alt+R**|
 
 ### <a name="bkmk_projectContext"></a> 프로젝트 및 솔루션 상황에 맞는 메뉴
 
@@ -293,9 +294,9 @@ ms.locfileid: "62962043"
 
 |명령|바로 가기 키|
 |--------------| - |
-|SolutionExplorer.OpenFilesFilter|**Ctrl+[**, **O**(문자 ‘O’)<br /><br /> 또는<br /><br /> **Ctrl+[**, **Ctrl+O**(문자 ‘O’)|
-|SolutionExplorer.PendingChangesFilter|**Ctrl+[**, **P**<br /><br /> 또는<br /><br /> **Ctrl+[**, **Ctrl+P**|
-|SolutionExplorer.SyncWithActiveDocument|**Ctrl+[**, **S**<br /><br /> 또는<br /><br /> **Ctrl+[**, **Ctrl+S**|
+|SolutionExplorer.OpenFilesFilter|**Ctrl+[** , **O**(문자 ‘O’)<br /><br /> 또는<br /><br /> **Ctrl+[** , **Ctrl+O**(문자 ‘O’)|
+|SolutionExplorer.PendingChangesFilter|**Ctrl+[** , **P**<br /><br /> 또는<br /><br /> **Ctrl+[** , **Ctrl+P**|
+|SolutionExplorer.SyncWithActiveDocument|**Ctrl+[** , **S**<br /><br /> 또는<br /><br /> **Ctrl+[** , **Ctrl+S**|
 
 ### <a name="bkmk_team"></a> 팀
 
@@ -803,7 +804,7 @@ ms.locfileid: "62962043"
 | 편집.중괄호로이동확장 | **Ctrl+Shift+]** |
 | Edit.GotoRecent | **Ctrl+T,R** |
 | Edit.GotoNextIssueinFile | **Alt+PgDn** |
-| Edit.GotoPreviousIssueinFile  **Alt+PgUp** |
+| Edit.GotoPreviousIssueinFile | **Alt+PgUp** |
 | 편집.선택영역숨기기 | **Ctrl+M, Ctrl+H** |
 | 편집.필터수준높임 | **Alt+.** |
 | 편집.증분검색 | **Ctrl+I** |

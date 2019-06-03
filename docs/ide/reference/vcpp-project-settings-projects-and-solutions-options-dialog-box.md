@@ -1,5 +1,5 @@
 ---
-title: 옵션 대화 상자, 프로젝트 및 솔루션, VC++ 프로젝트 설정
+title: C++ 프로젝트 설정 옵션
 ms.date: 08/02/2017
 ms.topic: reference
 f1_keywords:
@@ -18,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 2d3f81659930f75cda3c4ec0873837f7486e8b60
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 186db68e9b69b98a9fe9d9a2a8c8941302304cb2
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62789333"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263084"
 ---
 # <a name="vc-project-settings-projects-and-solutions-options-dialog-box"></a>옵션 대화 상자, 프로젝트 및 솔루션, VC++ 프로젝트 설정
 이 대화 상자를 사용하면 로깅, 성능 및 지원 파일 형식과 관련된 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 빌드 및 프로젝트 설정을 정의할 수 있습니다.

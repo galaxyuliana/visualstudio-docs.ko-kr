@@ -7,12 +7,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 735874abd1f62ecf121713a18ab05b58d20d908e
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: cf1c226fceff6ea17a7f83d750a93d6406a31c7d
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65686089"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263725"
 ---
 # <a name="update-an-existing-application-for-msbuild-15"></a>MSBuild 15에 대한 기존 애플리케이션 업데이트
 
@@ -71,15 +71,17 @@ Microsoft.Build.Locator 패키지를 참조하면 애플리케이션에서 버�
 
 *Microsoft.Build.\*.dll* 어셈블리를 포함하지 않는지 확인하도록 프로젝트를 빌드하고 출력 디렉터리를 검사합니다(*Microsoft.Build.Locator.dll* 이외, 다음 단계에서 추가됨).
 
-### <a name="add-package-reference"></a>패키지 참조 추가
+### <a name="add-package-reference-for-microsoftbuildlocator"></a>Microsoft.Build.Locator에 대한 패키지 참조 추가
 
-[Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/)에 NuGet 패키지 참조를 추가합니다.
+[Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/)에 대한 NuGet 패키지 참조를 추가합니다.
 
 ```xml
     <PackageReference Include="Microsoft.Build.Locator">
       <Version>1.1.2</Version>
     </PackageReference>
 ```
+
+Microsoft.Build.Locator 패키지에 대한 `ExcludeAssets=runtime`을 지정하지 마십시오.
 
 ### <a name="register-instance-before-calling-msbuild"></a>MSBuild를 호출하기 전에 인스턴스 등록
 

@@ -1,5 +1,5 @@
 ---
-title: '자습서: C#에서 WPF(Windows Presentation Foundation)를 사용한 Hello World 앱'
+title: C#에서 WPF를 사용하는 Hello World 앱
 description: WPF(Windows Presentation Foundation) UI 프레임워크를 사용하는 C#을 통해 Visual Basic으로 간단한 Windows 데스크톱 .NET 앱을 만듭니다.
 ms.custom: seodec18, get-started
 ms.date: 03/28/2019
@@ -14,12 +14,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: c098aba51b4b2340ab4094971e3509af42c6c8ed
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bcff4d75361d3758321360cc051bf5040dbb61ac
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62426533"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66261699"
 ---
 # <a name="tutorial-create-a-simple-application-with-c"></a>자습서: C\#으로 간단한 애플리케이션 만들기
 
@@ -62,7 +62,7 @@ Visual Studio에서 애플리케이션을 만들 때 먼저 프로젝트와 솔�
 
      ![메뉴 모음에서 파일, 새로 만들기, 프로젝트를 선택합니다.](../media/exploreide-filenewproject.png)
 
-1. **새 프로젝트** 대화 상자에서 **설치** > **Visual C#** > **Windows 데스크톱** 범주를 선택한 다음, **WPF 앱(.NET Framework)** 템플릿을 선택합니다. 프로젝트의 이름을 **HelloWPFApp**로 지정하고 **확인**을 선택합니다.
+1. **새 프로젝트** 대화 상자에서 **설치** > **Visual C#**  > **Windows 데스크톱** 범주를 선택한 다음, **WPF 앱(.NET Framework)** 템플릿을 선택합니다. 프로젝트의 이름을 **HelloWPFApp**로 지정하고 **확인**을 선택합니다.
 
      ![Visual Studio 새 프로젝트 대화 상자의 WPF 앱 템플릿](media/exploreide-newprojectcsharp.png)
 
@@ -85,7 +85,7 @@ HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기*
 
    !['새 프로젝트 만들기' 창 보기](../../get-started/media/vs-2019/start-window-create-new-project.png)
 
-2. **새 프로젝트 만들기** 화면에서 “WPF”를 검색하고 **WPF 앱(.NET Framework)**, **다음**을 차례로 선택합니다.
+2. **새 프로젝트 만들기** 화면에서 “WPF”를 검색하고 **WPF 앱(.NET Framework)** , **다음**을 차례로 선택합니다.
 
    !['새 프로젝트 만들기' 대화 상자의 WPF 앱 템플릿](media/vs-2019/exploreide-newprojectcsharp-vs2019.png)
 
@@ -308,7 +308,7 @@ IsChecked="True"
 
 3. **빌드** > **솔루션 빌드**를 선택하여 솔루션을 빌드합니다.
 
-축하합니다. 이 자습서를 마쳤습니다. 솔루션 및 프로젝트 디렉터리(*...\HelloWPFApp\HelloWPFApp\bin\Release*)에서 빌드한 *.exe*를 찾을 수 있습니다.
+축하합니다. 이 자습서를 마쳤습니다. 솔루션 및 프로젝트 디렉터리( *...\HelloWPFApp\HelloWPFApp\bin\Release*)에서 빌드한 *.exe*를 찾을 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -13,12 +13,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: cd2294d3018aba3d2e7ff8a0c0737b32a05214c0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ce2fe1d40c0aeddf12a898919150a32c0c77d72e
+ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62974256"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66177623"
 ---
 # <a name="install-build-tools-into-a-container"></a>Build Tools를 컨테이너에 설치
 
@@ -64,12 +64,12 @@ Visual Studio Build Tools(및 상위 수준의 Visual Studio)에서 설치하는
 
 1. [**기본** 단추를 **고급**으로 전환](https://docs.docker.com/docker-for-windows/#edit-the-daemon-configuration-file)합니다.
 
-1. 다음 JSON 배열 속성을 추가하여 디스크 공간을 120GB(Build Tools의 확장도 수용할 만큼 충분한 크기 이상)로 늘립니다.
+1. 다음 JSON 배열 속성을 추가하여 디스크 공간을 127GB(Build Tools의 확장도 수용할 만큼 충분한 크기 이상)로 늘립니다.
 
    ```json
    {
      "storage-opts": [
-       "size=120GB"
+       "size=127G"
      ]
    }
    ```
@@ -83,10 +83,12 @@ Visual Studio Build Tools(및 상위 수준의 Visual Studio)에서 설치하는
      "debug": true,
      "experimental": true,
      "storage-opts": [
-       "size=120GB"
+       "size=127G"
      ]
    }
    ```
+
+   자세한 구성 옵션 및 팁은 [Windows의 Docker 엔진](https://docs.microsoft.com/virtualization/windowscontainers/manage-docker/configure-docker-daemon)을 참조하세요.
 
 1. **적용**을 클릭합니다.
 
@@ -100,17 +102,17 @@ Visual Studio Build Tools(및 상위 수준의 Visual Studio)에서 설치하는
 
 1. 관리자 권한 명령 프롬프트에서 "%ProgramData%\Docker\config\daemon.json"(또는 `dockerd --config-file`에 지정한 모든 내용)을 편집합니다.
 
-1. 다음 JSON 배열 속성을 추가하여 디스크 공간을 120GB(Build Tools의 확장도 수용할 만큼 충분한 크기 이상)로 늘립니다.
+1. 다음 JSON 배열 속성을 추가하여 디스크 공간을 127GB(Build Tools의 확장도 수용할 만큼 충분한 크기 이상)로 늘립니다.
 
    ```json
    {
      "storage-opts": [
-       "size=120GB"
+       "size=120G"
      ]
    }
    ```
 
-   이 속성은 이미 있는 모든 항목에 추가됩니다.
+   이 속성은 이미 있는 모든 항목에 추가됩니다. 자세한 구성 옵션 및 팁은 [Windows의 Docker 엔진](https://docs.microsoft.com/virtualization/windowscontainers/manage-docker/configure-docker-daemon)을 참조하세요.
  
 1. 파일을 저장한 후 닫습니다.
 
@@ -148,8 +150,8 @@ Visual Studio Build Tools(및 상위 수준의 Visual Studio)에서 설치하는
    ```dockerfile
    # escape=`
 
-   # Use the latest Windows Server Core image with .NET Framework 4.7.1.
-   FROM microsoft/dotnet-framework:4.7.1
+   # Use the latest Windows Server Core image with .NET Framework 4.7.2.
+   FROM mcr.microsoft.com/dotnet/framework/sdk:4.7.2-windowsservercore-ltsc2019
 
    # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
@@ -175,11 +177,11 @@ Visual Studio Build Tools(및 상위 수준의 Visual Studio)에서 설치하는
    ```
 
    > [!WARNING]
-   > microsoft/windowsservercore에 이미지를 직접 베이스하는 경우 .NET Framework는 제대로 설치되지 않을 수 있으며 설치 오류가 표시되지 않습니다. 관리 코드는 설치가 완료된 후 실행되지 않을 수 있습니다. 대신, [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) 이상에서 이미지를 베이스합니다. 또한 버전 4.7.1 이상 태그가 지정된 이미지는 `RUN` 및 `ENTRYPOINT` 지침 실패로 이어지는 기본값 `SHELL`로 PowerShell을 사용할 수 있습니다.
+   > 이미지가 직접 microsoft/windowsservercore 또는 mcr.microsoft.com/windows/servercore를 기반으로 하는 경우([Microsoft 신디케이트 컨테이너 카탈로그](https://azure.microsoft.com/en-us/blog/microsoft-syndicates-container-catalog/) 참조) .NET Framework가 올바로 설치되지 않을 수 있으며 설치 오류 표시가 되지 않습니다. 관리 코드는 설치가 완료된 후 실행되지 않을 수 있습니다. 대신, [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) 이상에서 이미지를 베이스합니다. 또한 버전 4.7.1 이상 태그가 지정된 이미지는 `RUN` 및 `ENTRYPOINT` 지침 실패로 이어지는 기본값 `SHELL`로 PowerShell을 사용할 수 있습니다.
    >
    > Visual Studio 2017 버전 15.8 또는 이전 버전(제품)이 mcr\.microsoft\.com\/windows\/servercore:1809 이상에 제대로 설치되지 않습니다. 오류가 표시되지 않습니다.
    >
-   > 자세한 내용은 [컨테이너의 알려진 문제](build-tools-container-issues.md)를 참조하세요.
+   > 어떤 호스트 OS 버전에 어떤 컨테이너 OS 버전이 지원되는지 확인하려면 [Windows 컨테이너 버전 호환성](https://docs.microsoft.com/virtualization/windowscontainers/deploy-containers/version-compatibility)을 참조하고, 알려진 문제의 경우에는 [알려진 컨테이너 관련 문제](build-tools-container-issues.md)를 참조하세요.
 
    ::: moniker-end
 
@@ -188,8 +190,8 @@ Visual Studio Build Tools(및 상위 수준의 Visual Studio)에서 설치하는
    ```dockerfile
    # escape=`
 
-   # Use the latest Windows Server Core image with .NET Framework 4.7.1.
-   FROM microsoft/dotnet-framework:4.7.1
+   # Use the latest Windows Server Core image with .NET Framework 4.8.
+   FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
 
    # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
@@ -217,7 +219,7 @@ Visual Studio Build Tools(및 상위 수준의 Visual Studio)에서 설치하는
    > [!WARNING]
    > microsoft/windowsservercore에 이미지를 직접 베이스하는 경우 .NET Framework는 제대로 설치되지 않을 수 있으며 설치 오류가 표시되지 않습니다. 관리 코드는 설치가 완료된 후 실행되지 않을 수 있습니다. 대신, [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) 이상에서 이미지를 베이스합니다. 또한 버전 4.7.1 이상 태그가 지정된 이미지는 `RUN` 및 `ENTRYPOINT` 지침 실패로 이어지는 기본값 `SHELL`로 PowerShell을 사용할 수 있습니다.
    >
-   > 자세한 내용은 [컨테이너의 알려진 문제](build-tools-container-issues.md)를 참조하세요.
+   > 어떤 호스트 OS 버전에 어떤 컨테이너 OS 버전이 지원되는지 확인하려면 [Windows 컨테이너 버전 호환성](https://docs.microsoft.com/virtualization/windowscontainers/deploy-containers/version-compatibility)을 참조하고, 알려진 문제의 경우에는 [알려진 컨테이너 관련 문제](build-tools-container-issues.md)를 참조하세요.
 
    ::: moniker-end
 

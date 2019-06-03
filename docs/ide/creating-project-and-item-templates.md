@@ -10,12 +10,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 30a20e5810d5c361fddf8cd934863fcb1186b5d0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 83ac401b67444d4fdd467d5aefeb46bccb5e7e84
+ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62793454"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "66037004"
 ---
 # <a name="project-and-item-templates"></a>프로젝트 및 항목 템플릿
 
@@ -47,7 +47,7 @@ ms.locfileid: "62793454"
 
 ::: moniker-end
 
-   *.vstemplate* 파일에 대한 자세한 내용은 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.
+   *.vstemplate* 파일에 대한 자세한 내용은 [템플릿 태그](template-tags.md) 및 [템플릿 매개 변수](../ide/template-parameters.md)를 참조하세요.
 
 이러한 파일이 *.zip* 파일로 압축되어 올바른 폴더에 배치되면 Visual Studio에서는 다음 위치에 이를 자동으로 표시합니다.
 
@@ -71,6 +71,7 @@ ms.locfileid: "62793454"
 
 - [방법: 프로젝트 템플릿 만들기](../ide/how-to-create-project-templates.md)
 - [방법: 항목 템플릿 만들기](../ide/how-to-create-item-templates.md)
+- [템플릿 태그](template-tags.md)
 - [템플릿 매개 변수](../ide/template-parameters.md)
 - [템플릿 사용자 지정](../ide/customizing-project-and-item-templates.md)
 - [Visual Studio 템플릿의 NuGet 패키지](/nuget/visual-studio-extensibility/visual-studio-templates)

@@ -1,8 +1,8 @@
 ---
-title: '자습서: Visual Basic에서 WPF(Windows Presentation Foundation)를 사용한 Hello World 앱'
+title: Visual Basic에서 WPF를 사용하는 Hello World 앱
 description: WPF(Windows Presentation Foundation) UI 프레임워크를 사용하는 Visual Studio를 통해 Visual Basic으로 간단한 Windows 데스크톱 .NET 앱을 만듭니다.
 ms.custom: seodec18, get-started
-ms.date: 03/14/2019
+ms.date: 04/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: d1fcb7b139e374f49df84fe17b8e12ea6aa6b625
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f56482dbbe76722e8b8d55fad01d283de2dc113e
+ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965935"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "66263622"
 ---
 # <a name="tutorial-create-a-simple-application-with-visual-basic"></a>자습서: Visual Basic으로 간단한 애플리케이션 만들기
 
@@ -81,7 +81,7 @@ HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기*
 
 1. Visual Studio 2019를 엽니다.
 
-2. **새 프로젝트 만들기** 화면에서 “WPF”를 검색하고 **WPF 앱(.NET Framework)**, **다음**을 차례로 선택합니다.
+2. **새 프로젝트 만들기** 화면에서 “WPF”를 검색하고 **WPF 앱(.NET Framework)** , **다음**을 차례로 선택합니다.
 
    ![Visual Studio 새 프로젝트 대화 상자의 WPF 앱 템플릿](media/vs-2019/exploreide-newprojectvb-vs2019.png)
 
@@ -131,7 +131,7 @@ MainWindow에 보다 구체적인 이름을 지정하겠습니다.
 XAML 태그는 다음 예제와 유사합니다.
 
 ```xaml
-<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+<TextBlock HorizontalAlignment="Left" Margin="381,100,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 ```
 
 ### <a name="customize-the-text-in-the-text-block"></a>텍스트 블록의 텍스트 사용자 지정
@@ -298,9 +298,20 @@ IsChecked="True"
 
 3. **빌드** > **솔루션 빌드**를 선택하여 솔루션을 빌드합니다.
 
-축하합니다. 이 자습서를 마쳤습니다. 솔루션 및 프로젝트 디렉터리(*...\HelloWPFApp\HelloWPFApp\bin\Release*)에서 빌드한 *.exe*를 찾을 수 있습니다.
+축하합니다. 이 자습서를 마쳤습니다. 솔루션 및 프로젝트 디렉터리( *...\HelloWPFApp\HelloWPFApp\bin\Release*)에서 빌드한 *.exe*를 찾을 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 
-- [Visual Studio 2017의 새로운 기능](../../ide/whats-new-visual-studio.md)
+::: moniker range="vs-2017"
+
+- [Visual Studio 2017의 새로운 기능](../../ide/whats-new-visual-studio-2017.md)
 - [생산성 팁](../../ide/productivity-tips-for-visual-studio.md)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+- [Visual Studio 2019의 새로운 기능](../../ide/whats-new-visual-studio-2019.md)
+- [생산성 팁](../../ide/productivity-tips-for-visual-studio.md)
+
+::: moniker-end
