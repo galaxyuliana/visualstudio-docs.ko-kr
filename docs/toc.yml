@@ -126,8 +126,8 @@
                   href: install/workload-component-id-vs-test-professional.md
                 - name: Visual Studio Feedback Client
                   href: install/workload-component-id-vs-feedback-client.md
-                - name: 패키지 페이로드 변경 내용
-                  href: install/changed-payloads.md
+            - name: 패키지 페이로드 변경 내용
+              href: install/changed-payloads.md
             - name: Visual Studio 빌드 번호 및 릴리스 날짜
               href: install/visual-studio-build-numbers-and-release-dates.md
     - name: Azure 가상 머신에서 Visual Studio 사용
