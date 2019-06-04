@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a002c3876eecf0f31a8d104fa235b1208af90699
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f526cc8d5ff7835b3d0b942325f5755898fad147
+ms.sourcegitcommit: c6249a8f3054db881ba62f4e80bf006d440f5a2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62929138"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66462149"
 ---
 # <a name="write-and-debug-running-xaml-code-with-xaml-hot-reload-in-visual-studio"></a>작성 하 고 Visual Studio에서 XAML 핫 다시 로드를 사용 하 여 실행 중인 XAML 코드를 디버그 합니다.
 
@@ -47,7 +47,7 @@ XAML 핫 다시 로드 이러한 시나리오에서 특히 유용 합니다.
 |앱의 페이지/창에서 같은 리소스 사전에서 리소스 개체를 만들 또는 *App.xaml*|지원되지 않음|지원됨|예: 추가 된 ```SolidColorBrush``` 사용에 대 한 리소스 사전에는 ```StaticResource```.</br>참고: 정적 리소스, 스타일 변환기 및 리소스 사전에 기록 되는 다른 요소 수 적용 하 고 사용 XAML 핫 다시 로드를 사용 하는 동안. 리소스의 생성만 지원 되지 않습니다.</br> 리소스 사전을 변경 ```Source``` 속성입니다.| 
 |앱이 실행 되는 동안 새로운 컨트롤, 클래스, windows 또는 기타 파일 프로젝트에 추가|지원되지 않음|지원되지 않음|없음|
 |NuGet 패키지 관리 (추가/제거/업데이트 패키지)|지원되지 않음|지원되지 않음|없음|
-|{X:bind} 태그 확장을 사용 하는 바인딩 데이터 변경|N/A|Visual Studio 2019 및 이상 버전에서 지원|Visual Studio 2018 또는 이전 버전에서 지원 되지 않습니다.|
+|{X:bind} 태그 확장을 사용 하는 바인딩 데이터 변경|N/A|Visual Studio 2019 및 이상 버전에서 지원|Visual Studio 2017 또는 이전 버전에서 지원 되지 않습니다.|
 
 ## <a name="error-messages"></a>오류 메시지
 
