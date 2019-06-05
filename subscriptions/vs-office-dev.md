@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Office 365 개발자 혜택을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 3ae71e50ab93cbc17cdf6f4cd4e550a627b0f600
-ms.sourcegitcommit: 0ef51e3517436a85cfb85bf492722d566ce602c4
+ms.openlocfilehash: 100b9992f13a419b9207adb9ba976b8f6417617f
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "65934589"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501192"
 ---
 # <a name="the-office-365-developer-subscription-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Office 365 개발자 구독 혜택
 
@@ -73,7 +73,7 @@ Office 365 개발자 구독에 대해 자세히 알아보려면 [Office 365 개�
 | Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |해당 없음 |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
 
-<sup>1</sup> *포함:  NFR(전매 금지), VSIP(Visual Studio 업계 파트너), FTE, BizSpark, MCT 소프트웨어 및 서비스 개발자, MCT Software & Services.  제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Most Valuable Professional), RD(Regional Director)
+<sup>1</sup> *포함:  NFR(전매 금지), VSIP(Visual Studio 업계 파트너), FTE, BizSpark, MCT 소프트웨어 및 서비스 개발자, MCT Software & Services.  제외:  MPN(Microsoft 파트너 네트워크), Imagine, MVP(Most Valuable Professional), RD(Regional Director)*
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
@@ -82,6 +82,6 @@ Office 365 개발자 구독에 대해 자세히 알아보려면 [Office 365 개�
 
 ## <a name="support-resources"></a>지원 리소스
 
-- Office 개발자 구독과 관련하여 도움이 필요하세요? [Office 개발자 센터](https://developer.microsoft.com/office)에서 [지원](https://developer.microsoft.com/office/support) 리소스를 확인하세요.
+- Office 개발자 구독과 관련하여 도움이 필요하세요? [Office 개발자 센터](https://developer.microsoft.com/office)에서 [지원](https://developer.microsoft.com/office/docs#officecommunity) 리소스를 확인하세요.
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
