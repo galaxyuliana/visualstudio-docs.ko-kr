@@ -7,12 +7,12 @@ ms.date: 05/03/2018
 ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 61432695-5B12-4257-B250-48D37EED106D
-ms.openlocfilehash: ed84e5478ae7a15905a5555a318bd656c664710e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 82f3426cbba06a27f2d2f74fdd167f003ebb3eae
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62997513"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501081"
 ---
 # <a name="javascript-and-typescript-support"></a>JavaScript 및 TypeScript 지원
 
@@ -39,7 +39,7 @@ Mac용 Visual Studio는 [JavaScript 언어 서비스](/visualstudio/ide/javascri
 Mac용 Visual Studio의 JavaScript IntelliSense는 형식 유추, JSDoc 또는 TypeScript 선언에 기반을 둘 수 있습니다.
 
 - **형식 유추** - 개체의 형식이 주변 코드 컨텍스트에 의해 결정됩니다. 자세한 내용은 Visual Studio의 [형식 유추 기반의 IntelliSense](/visualstudio/ide/javascript-intellisense#intellisense-based-on-type-inference) 관련 섹션을 참조하세요.
-- **JSDoc** – 형식 유추가 올바른 형식 정보를 제공하지 않는 경우가 가끔 있습니다. 이 경우 [JSDoc](http://usejsdoc.org/about-getting-started.html) 주석을 통해 형식 정보가 명시적으로 제공될 수 있습니다. 자세한 내용은 Visual Studio의 [JSDoc 기반의 IntelliSense](/visualstudio/ide/javascript-intellisense#intellisense-based-on-jsdoc) 관련 섹션을 참조하세요.
+- **JSDoc** – 형식 유추가 올바른 형식 정보를 제공하지 않는 경우가 가끔 있습니다. 이 경우 [JSDoc](https://jsdoc.app/about-getting-started.html) 주석을 통해 형식 정보가 명시적으로 제공될 수 있습니다. 자세한 내용은 Visual Studio의 [JSDoc 기반의 IntelliSense](/visualstudio/ide/javascript-intellisense#intellisense-based-on-jsdoc) 관련 섹션을 참조하세요.
 - **TypeScript 선언 파일** – JavaScript IntelliSense에 대한 값을 제공하기 위해 `.d.ts` 파일이 사용됩니다. 이 파일에 선언된 형식은 JSDoc 주석 형식으로 사용할 수 있습니다. 자세한 내용은 Visual Studio의 [TypeScript 선언 파일 기반의 IntelliSense](/visualstudio/ide/javascript-intellisense#intellisense-based-on-typescript-declaration-files) 섹션을 참조하세요.
 
     ![typescript 정의 파일 추가](media/javascript-image3.png)

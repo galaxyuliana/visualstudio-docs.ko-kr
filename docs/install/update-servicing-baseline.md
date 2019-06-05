@@ -13,18 +13,18 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 8928feffed77f8bfbb3787bd9a20737b9c7b3f9e
-ms.sourcegitcommit: 19ec963ed6d585719cb83ba677434ea6580e0d1f
+ms.openlocfilehash: 36bbec66e822d7e1daebcadbeeba30e166747368
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66213784"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501128"
 ---
 # <a name="update-visual-studio-while-on-a-servicing-baseline"></a>서비스 기준선에서 Visual Studio 업데이트
 
-Visual Studio 2019는 [제품 수명 주기](/visualstudio/productinfo/release-rhythm.md#release-channel-updates) 동안 자주 업데이트가 이루어질 것입니다. 여기에는 새로운 기능과 구성 요소가 포함된 소소한 릴리스 업데이트(예: 16.1-16.0) 및 중요한 문제에 대한 집중적 해결만 포함된 업데이트(예: 16.0.4-16.0.5)가 모두 포함됩니다. 
+Visual Studio 2019는 [제품 수명 주기](/visualstudio/productinfo/release-rhythm#release-channel-updates) 동안 자주 업데이트가 이루어질 것입니다. 여기에는 새로운 기능과 구성 요소가 포함된 소소한 릴리스 업데이트(예: 16.1-16.0) 및 중요한 문제에 대한 집중적 해결만 포함된 업데이트(예: 16.0.4-16.0.5)가 모두 포함됩니다. 
 
-엔터프라이즈 관리자는 다음 서비스 기준선의 릴리스 이후 1년 동안 서비스 업데이트가 지원되는 서비스 기준선에 클라이언트를 유지할 수 있습니다. 이것으로 개발자와 관리자는 새로운 기능, 버그 수정 또는 새로운 부분 업데이트에 포함된 구성 요소를 더욱 유연하게 채택할 수 있습니다. 첫 번째 서비스 기준선은 16.0.x입니다. 자세한 내용은 [Enterprise 및 Professional 고객을 위한 지원 옵션](/visualstudio/releases/2019/servicing.md#support-options-for-enterprise-and-professional-customers)을 참조하세요.
+엔터프라이즈 관리자는 다음 서비스 기준선의 릴리스 이후 1년 동안 서비스 업데이트가 지원되는 서비스 기준선에 클라이언트를 유지할 수 있습니다. 이것으로 개발자와 관리자는 새로운 기능, 버그 수정 또는 새로운 부분 업데이트에 포함된 구성 요소를 더욱 유연하게 채택할 수 있습니다. 첫 번째 서비스 기준선은 16.0.x입니다. 자세한 내용은 [Enterprise 및 Professional 고객을 위한 지원 옵션](https://docs.microsoft.com/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers)을 참조하세요.
 
 ## <a name="how-to-get-onto-a-servicing-baseline"></a>서비스 기준선을 확인하는 방법
 

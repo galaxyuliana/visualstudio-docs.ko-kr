@@ -14,12 +14,12 @@ dev_langs:
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: a3925fcac62dfee9f448bd826dc7948f8b08d498
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b1796ca10226e4aa5d0242bea89cc01f8452cf9e
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62944084"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402081"
 ---
 # <a name="tutorial-open-a-project-from-a-repo"></a>자습서: 리포지토리에서 프로젝트 열기
 
@@ -177,9 +177,9 @@ ms.locfileid: "62944084"
 
 Visual Studio로 코딩할 준비가 되면 다음 언어별 자습서를 자세히 살펴보세요.
 
-- [Visual Studio 자습서 | **C#**](./csharp/index.yml)
+- [Visual Studio 자습서 | **C#** ](./csharp/index.yml)
 - [Visual Studio 자습서 | **Visual Basic**](./visual-basic/index.yml)
-- [Visual Studio 자습서 | **C++**](/cpp/get-started/)
+- [Visual Studio 자습서 | **C++** ](/cpp/get-started/tutorial-console-cpp)
 - [Visual Studio 자습서 | **Python**](/visualstudio/python/)
 - [Visual Studio 자습서 | **JavaScript**, **TypeScript** 및 **Node.js**](/visualstudio/javascript/)
 
