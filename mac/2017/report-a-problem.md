@@ -6,12 +6,12 @@ author: jmatthiesen
 ms.author: jomatthi
 ms.date: 11/16/2018
 ms.assetid: 1C7AC52E-754E-473F-A5B5-00C3A40DAACD
-ms.openlocfilehash: 510bdac23b29289687441b8a82620a1cede7542b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3513f4e120db3bab61348f0ee1f0f452d09ded15
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62988936"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501004"
 ---
 # <a name="how-to-report-a-problem-in-visual-studio-for-mac"></a>Mac용 Visual Studio에서 문제를 보고하는 방법
 
@@ -58,7 +58,7 @@ Mac용 Visual Studio와 관련된 문제를 보고하려면 메뉴 모음에서 
 
 1. **제출**을 선택하여 이미지 및 로그 파일과 함께 보고서를 보냅니다.
 
-   수집되는 데이터에 대한 자세한 내용은 [수집한 데이터](/visualstudio/ide/developer-community-privacy.md#data-we-collect)를 참조하세요.
+   수집되는 데이터에 대한 자세한 내용은 [수집한 데이터](/visualstudio/ide/developer-community-privacy#data-we-collect)를 참조하세요.
 
 ## <a name="search-for-solutions-or-provide-feedback"></a>솔루션 검색 또는 피드백 제공
 
