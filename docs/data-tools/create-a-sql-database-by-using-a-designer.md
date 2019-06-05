@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: afb73b316dd54284073c3d878fb35b4bb6090e08
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6f227a7948f5a842120341432c03747119988ddf
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62569998"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501069"
 ---
 # <a name="create-a-database-and-add-tables-in-visual-studio"></a>데이터베이스를 만들고 Visual Studio에서 테이블을 추가 합니다.
 
@@ -26,7 +26,19 @@ ms.locfileid: "62569998"
 
 ## <a name="prerequisites"></a>전제 조건
 
-이 연습을 완료 하려면 선택적 있어야 **데이터 저장소 및 처리** 워크 로드가 Visual Studio에서 설치 합니다. 을 설치 하려면 엽니다 **Visual Studio 설치 관리자** 선택한 **자세한** > **수정** 수정 하려는 Visual Studio 버전 옆에 있는 (있는 경우 두 개 하나의 설치 된 버전)입니다. 에 **워크 로드** 탭의 **웹 및 클라우드**, 선택 **데이터 저장 및 처리**를 클릭 하 고 **수정** 워크 로드를 추가 하려면 Visual Studio입니다.
+이 연습을 완료 하려면 선택적 있어야 **데이터 저장소 및 처리** 워크 로드가 Visual Studio에서 설치 합니다. 을 설치 하려면 엽니다 **Visual Studio 설치 관리자** 선택한 **수정** 하거나 **자세한** > **수정** 버전 옆에 있는 Visual Studio를 수정 하려고 합니다.
+
+::: moniker range=">=vs-2019"
+
+에 **워크 로드** 탭의 **기타 도구 집합**, 선택 **데이터 저장 및 처리**를 클릭 하 고 **수정** 워크 로드를 추가 하려면 Visual Studio입니다.
+
+::: moniker-end
+
+::: moniker range="=vs-2017"
+
+에 **워크 로드** 탭의 **웹 및 클라우드**, 선택 **데이터 저장 및 처리**를 클릭 하 고 **수정** 워크 로드를 추가 하려면 Visual Studio입니다.
+
+::: moniker-end
 
 ## <a name="create-a-project-and-a-local-database-file"></a>프로젝트 및 로컬 데이터베이스 파일 만들기
 
