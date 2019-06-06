@@ -12,18 +12,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 38a2bce9e3343c4439eaf033ccfb8d6e58b01baa
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 81c4d6ba7cc4ae870c74733a4e78733c023e3f58
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62540696"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66713972"
 ---
 # <a name="overview-of-static-code-analysis-for-managed-code-in-visual-studio"></a>Visual Studio에서 관리 되는 코드에 대 한 정적 코드 분석 개요
 
 Visual Studio는 두 가지 방법으로 관리 되는 코드의 코드 분석을 수행할 수 있습니다: 사용 하 여 *FxCop* 자세한 최신와 관리 되는 어셈블리의 정적 분석 *Roslyn 분석기*합니다. 이 항목에서는 FxCop 정적 코드 분석을 설명 합니다. 코드 분석기를 사용 하 여 코드를 분석 하는 방법에 대 한 자세한 내용은 참조 하세요 [개요의 Roslyn 분석기](../code-quality/roslyn-analyzers-overview.md)합니다.
 
-관리 코드에 대한 코드 분석에서는 관리되는 어셈블리를 분석하고, Microsoft .NET Framework 디자인 지침에 설정된 프로그래밍 및 디자인 규칙의 위반과 같은 어셈블리 관련 정보를 보고합니다.
+관리 코드에 대 한 코드 분석 관리 되는 어셈블리를 분석 하 고에 명시 하는 프로그래밍 및 디자인 규칙의 위반과 같은 어셈블리 관련 정보를 보고 합니다 [.NET 디자인 지침](/dotnet/standard/design-guidelines/)합니다.
 
 분석 도구는 분석하는 동안 수행하는 검사를 경고 메시지로 나타냅니다. 경고 메시지는 관련 프로그래밍 및 디자인 문제를 식별하며 가능한 경우 문제 해결 방법에 대한 정보를 제공합니다.
 

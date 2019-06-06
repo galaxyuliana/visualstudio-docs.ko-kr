@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: c672103c0426f2d49eb47aa41014ee13ff0ecae9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b15776b67ded2fc813f1b8bcf82d8aa91f212346
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62565960"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715035"
 ---
 # <a name="save-data-from-an-object-to-a-database"></a>개체에서 데이터베이스로 데이터 저장
 
@@ -72,7 +72,7 @@ TableAdapter의 DBDirect 메서드 중 하나에 개체에서 값을 전달 하 
      [!code-csharp[VbRaddataSaving#25](../data-tools/codesnippet/CSharp/save-data-from-an-object-to-a-database_3.cs)]
      [!code-vb[VbRaddataSaving#25](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_3.vb)]
 
-## <a name="net-framework-security"></a>.NET Framework 보안
+## <a name="net-security"></a>.NET 보안
 
 선택한 수행할 수 있는 권한이 있어야 합니다. `INSERT`, `UPDATE`, 또는 `DELETE` 데이터베이스의 테이블에 있습니다.
 

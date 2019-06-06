@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c22da2a31be1389ca0b60df6cc64ac6c9155ad69
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8ec10f226ad139ffbeb46badc6ef3dd6c384af91
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62852497"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714946"
 ---
 # <a name="debug-dlls-in-visual-studio-c-c-visual-basic-f"></a>Visual Studio에서 Dll 디버깅 (C#, C++, Visual Basic의 경우 F#)
 
@@ -84,7 +84,7 @@ C /C++ 프로젝트에서에서 설정할 수 있습니다 헤더 및 LIB 파일
 
 1. **확인**을 선택합니다.
 
-대 한 자세한 내용은 C++ 프로젝트 설정을 참조 하세요 [속성 페이지 (Visual C++)](/cpp/ide/property-pages-visual-cpp)합니다.
+대 한 자세한 내용은 C++ 프로젝트 설정을 참조 하세요 [속성 페이지 (Visual C++)](/cpp/build/reference/property-pages-visual-cpp)합니다.
 
 ## <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> 디버그 버전 빌드
 

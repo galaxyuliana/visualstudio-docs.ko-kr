@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: f666dc71aaf9683d9a7c936cc4985e97146d9454
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: 66bb2b2229608c1a7710b7c5c71cbc0d701234e3
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65842522"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714381"
 ---
 # <a name="ca1003-use-generic-event-handler-instances"></a>CA1003: 제네릭 이벤트 처리기 인스턴스를 사용하세요.
 
@@ -41,7 +41,7 @@ ms.locfileid: "65842522"
 
 ## <a name="rule-description"></a>규칙 설명
 
-.NET을 하기 전에 이벤트 처리기에 사용자 지정 정보를 전달 하기 위해 새 대리자를 선언 해야 했습니다에서 파생 된 클래스를 지정 하는 <xref:System.EventArgs?displayProperty=fullName> 클래스입니다. .NET에서 더 이상 마찬가지입니다. 도입 된.NET Framework의 <xref:System.EventHandler%601?displayProperty=fullName> 대리자, 제네릭 대리자에서 파생 되는 모든 클래스를 허용 하는 <xref:System.EventArgs> 이벤트 처리기와 함께 사용할 수 있습니다.
+.NET을 하기 전에 이벤트 처리기에 사용자 지정 정보를 전달 하기 위해 새 대리자를 선언 해야 했습니다에서 파생 된 클래스를 지정 하는 <xref:System.EventArgs?displayProperty=fullName> 클래스입니다. .NET에서는 제네릭 <xref:System.EventHandler%601?displayProperty=fullName> 에서 파생 되는 모든 클래스를 사용 하는 대리자 <xref:System.EventArgs> 이벤트 처리기와 함께 사용할 수 있습니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 

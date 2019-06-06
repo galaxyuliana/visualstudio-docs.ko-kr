@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: def22bd4aee4f64b5e14f2bbe7978a0dfa061261
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: a0d55af3c5522c6bb9aa3ad8a023f070c187ca6f
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65841437"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714260"
 ---
 # <a name="ca1812-avoid-uninstantiated-internal-classes"></a>CA1812: 인스턴스화되지 않은 내부 클래스를 사용하지 마세요.
 
@@ -58,9 +58,9 @@ ms.locfileid: "65841437"
 
 이 규칙 위반 문제를 해결 하 고, 형식을 제거 또는 사용 하는 코드를 추가 합니다. 형식 포함 되 면 `static` 메서드는 다음 중 하나를 컴파일러가 기본 public 인스턴스 생성자를 내보내는 하지 않도록 하려면 형식에 추가 합니다.
 
-- .NET Framework 버전 1.0 및 1.1을 대상으로 하는 형식에 대 한 개인 생성자입니다.
-
 - 합니다 `static` 한정자 C# 대상으로 하는 형식 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] 이상.
+
+- .NET Framework 버전 1.0 및 1.1을 대상으로 하는 형식에 대 한 개인 생성자입니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 

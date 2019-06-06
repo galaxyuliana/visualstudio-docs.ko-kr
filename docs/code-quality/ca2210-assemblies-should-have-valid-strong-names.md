@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e596f2e970df487a31628ab0bd29051172b950e4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 89edba30a95d61268aebb26de8d973f6201c0fcf
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62796681"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714756"
 ---
 # <a name="ca2210-assemblies-should-have-valid-strong-names"></a>CA2210: 어셈블리에는 올바른 강력한 이름을 사용해야 합니다.
 
@@ -64,11 +64,11 @@ ms.locfileid: "62796681"
 
 다음 절차 중 하나를 사용 합니다.
 
-- .NET Framework SDK에서 제공 하는 어셈블리 링커 도구 (Al.exe)을 사용 합니다.
+- 사용 된 [어셈블리 링커 (Al.exe) 도구](/dotnet/framework/tools/al-exe-assembly-linker)합니다.
+
+- .NET Framework 2.0에 대 한 중 하나를 사용 합니다 `/keyfile` 나 `/keycontainer` 컴파일러 옵션 [/KEYFILE (지정 서명할 키 또는 키 쌍을 어셈블리)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) 또는 [/KEYCONTAINER (어셈블리에 서명할 키 컨테이너 지정)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) 링커 옵션 C++).
 
 - .NET Framework v1.0 또는 v1.1에 대 한 중 하나를 사용 합니다 <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> 또는 <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> 특성입니다.
-
-- 에 대 한 합니다 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]를 사용 하 여 합니다 `/keyfile` 또는 `/keycontainer` 컴파일러 옵션 [/KEYFILE (지정 서명할 키 또는 키 쌍을 어셈블리)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) 또는 [/KEYCONTAINER (어셈블리에 서명할 키 컨테이너 지정)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) 링커 옵션 C++).
 
 ### <a name="sign-your-assembly-with-a-strong-name-in-visual-studio"></a>Visual Studio에서 강력한 이름의 어셈블리에 서명합니다
 
@@ -90,7 +90,7 @@ ms.locfileid: "62796681"
 
 ### <a name="sign-your-assembly-with-a-strong-name-outside-visual-studio"></a>Visual Studio 외부에서 강력한 이름의 어셈블리에 서명합니다
 
-.NET Framework SDK에서 제공 하는 강력한 이름 도구 (Sn.exe)를 사용 합니다. 자세한 내용은 [Sn.exe(강력한 이름 도구)](/dotnet/framework/tools/sn-exe-strong-name-tool)를 참조하세요.
+사용 된 [강력한 이름 도구 (Sn.exe)](/dotnet/framework/tools/sn-exe-strong-name-tool)합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 

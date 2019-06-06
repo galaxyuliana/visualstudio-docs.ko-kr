@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 4d7236b77a7dd0a81f8a7846c0eba28e3b520cdd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a17c5bdc9e21bdf877206b1dc28596c251049455
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62545591"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714741"
 ---
 # <a name="ca1813-avoid-unsealed-attributes"></a>CA1813: 봉인되지 않은 특성을 사용하지 마세요.
 
@@ -39,7 +39,7 @@ ms.locfileid: "62545591"
 
 ## <a name="rule-description"></a>규칙 설명
 
-.NET Framework 클래스 라이브러리는 사용자 지정 특성을 검색 하는 메서드를 제공 합니다. 기본적으로 이러한 메서드는 특성 상속 계층을 검색합니다. 예를 들어 <xref:System.Attribute.GetCustomAttribute%2A?displayProperty=fullName> 지정된 된 특성 형식이 나 지정된 된 특성 형식이 확장 하는 모든 특성 형식 검색 합니다. 특성을 봉인 상속 계층을 통해 검색을 제거 하 고 성능을 향상 시킬 수 있습니다.
+.NET은 사용자 지정 특성을 검색 하는 메서드를 제공 합니다. 기본적으로 이러한 메서드는 특성 상속 계층을 검색합니다. 예를 들어 <xref:System.Attribute.GetCustomAttribute%2A?displayProperty=fullName> 지정된 된 특성 형식이 나 지정된 된 특성 형식이 확장 하는 모든 특성 형식 검색 합니다. 특성을 봉인 상속 계층을 통해 검색을 제거 하 고 성능을 향상 시킬 수 있습니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 

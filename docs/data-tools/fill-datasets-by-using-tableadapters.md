@@ -19,19 +19,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: eb1fdf57be1630468ee3990028a417565a914639
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 30a2860ae1dfb9d428f65812590675fccb42cfe5
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62566923"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715189"
 ---
 # <a name="fill-datasets-by-using-tableadapters"></a>TableAdapters를 사용하여 데이터 세트 채우기
 
 TableAdapter 구성 요소를 기반으로 쿼리 또는 저장된 프로시저 수를 지정 하는 하나 이상의 데이터베이스에서 데이터를 사용 하 여 데이터 집합을 채웁니다. Tableadapter를 수행할 수도 있습니다 추가, 업데이트 및 데이터 집합에 수행한 변경 내용을 유지 하려면 데이터베이스를 삭제 합니다. 또한 특정 테이블에 관련 되지 않은 전역 명령을 실행할 수 있습니다.
 
 > [!NOTE]
-> Tableadapter는 Visual Studio 디자이너에서 생성 됩니다. 데이터 집합을 프로그래밍 방식으로 만들려는 경우에.NET Framework 클래스는 DataAdapter를 사용 합니다.
+> Tableadapter는 Visual Studio 디자이너에서 생성 됩니다. 데이터 집합을 프로그래밍 방식으로 만들려는 경우에.NET 클래스는 DataAdapter를 사용 합니다.
 
 TableAdapter 작업에 대 한 자세한 내용은 다음이 항목 중 하나에 직접 건너뛸 수 있습니다.
 

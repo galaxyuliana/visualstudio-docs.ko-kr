@@ -47,12 +47,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 00873cd84b5a6d89469de26ed982b98d2dffa27c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5cd6cf11bce8b3b60a41b8306afed081a4ac5472
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62567119"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715216"
 ---
 # <a name="dataset-tools-in-visual-studio"></a>Visual Studio의 데이터 세트 도구
 
@@ -61,7 +61,7 @@ ms.locfileid: "62567119"
 
 `DataSet` 개체는 기본적으로 최소 데이터베이스는 메모리 내 개체입니다. 있기 `DataTable`, `DataColumn`, 및 `DataRow` 저장 하 고 열려 있는 연결을 유지 관리 하지 않고도 하나 이상의 데이터베이스에서 데이터를 수정할 수 있는 개체입니다. 데이터 집합 업데이트를 추적 하 고 응용 프로그램에 다시 연결 되는 경우 데이터베이스에 다시 전송 될 수 있도록 해당 데이터를 변경 하는 방법에 대 한 정보를 유지 관리 합니다.
 
-데이터 집합 및 관련된 클래스에 정의 된는 <xref:System.Data?displayProperty=fullName> .NET Framework 클래스 라이브러리의 네임 스페이스입니다. 만들기 및 ADO.NET을 사용 하 여 코드에서 동적으로 데이터 집합을 수정할 수 있습니다. 이 섹션의에서 설명서에서는 Visual Studio 디자이너를 사용 하 여 데이터 집합을 사용 하는 방법을 보여 줍니다. 디자이너를 사용 하 여 만든 데이터 집합 **TableAdapter** 데이터베이스와 상호 작용 하는 개체입니다. 프로그래밍 방식으로 만든 데이터 집합 사용 **DataAdapter** 개체입니다. 프로그래밍 방식으로 데이터 집합을 만드는 방법에 대 한 자세한 내용은 [Dataadapter 및 Datareader](/dotnet/framework/data/adonet/dataadapters-and-datareaders)합니다.
+데이터 집합 및 관련된 클래스에 정의 된는 <xref:System.Data?displayProperty=fullName> .NET api에서 네임 스페이스입니다. 만들기 및 ADO.NET을 사용 하 여 코드에서 동적으로 데이터 집합을 수정할 수 있습니다. 이 섹션의에서 설명서에서는 Visual Studio 디자이너를 사용 하 여 데이터 집합을 사용 하는 방법을 보여 줍니다. 디자이너를 사용 하 여 만든 데이터 집합 **TableAdapter** 데이터베이스와 상호 작용 하는 개체입니다. 프로그래밍 방식으로 만든 데이터 집합 사용 **DataAdapter** 개체입니다. 프로그래밍 방식으로 데이터 집합을 만드는 방법에 대 한 자세한 내용은 [Dataadapter 및 Datareader](/dotnet/framework/data/adonet/dataadapters-and-datareaders)합니다.
 
 경우 데이터베이스에서 데이터 읽기 및 업데이트를 수행 하지 해야 하 고, 추가 하거나 삭제 하는 응용 프로그램을 가져올 수 있습니다 일반적으로 더 나은 성능을 사용 하 여는 `DataReader` 제네릭에 데이터를 검색할 개체 `List` 개체나 다른 컬렉션 개체입니다. 데이터를 표시 하는 경우 바인딩할 수 있습니다 데이터 사용자 인터페이스는 컬렉션입니다.
 

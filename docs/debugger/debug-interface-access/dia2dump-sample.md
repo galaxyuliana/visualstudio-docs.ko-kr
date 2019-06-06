@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3f5b353986cf77c554b277975fabb1cb755faba3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1c8b92ae2f607ae449b7b4392fc3638fcdcb6a80
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62554872"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715348"
 ---
 # <a name="dia2dump-sample"></a>Dia2dump 샘플
 
@@ -42,9 +42,9 @@ Dia2dump 샘플 Visual Studio와 함께 설치 되 고 솔루션 및 원본 파�
 
 1. **솔루션 탐색기**, Dia2Dump 프로젝트 (솔루션 아님)를 선택 합니다.
 
-1. 프로젝트의 **속성 페이지** 대화 상자를 엽니다. 자세한 내용은 [프로젝트 속성 작업](/cpp/ide/working-with-project-properties)을 참조하세요.
+1. 프로젝트의 **속성 페이지** 대화 상자를 엽니다. 자세한 내용은 [프로젝트 속성 작업](/cpp/build/working-with-project-properties)을 참조하세요.
 
-1. 엽니다는 **구성 속성** > **C /C++** > **일반** 속성 페이지.
+1. 엽니다는 **구성 속성** > **C /C++**  > **일반** 속성 페이지.
 
 1. 에 **Additional Include Directories** 속성을 dropdown 컨트롤을 선택 하 고 선택 **편집**합니다.
 

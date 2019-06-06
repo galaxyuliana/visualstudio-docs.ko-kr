@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ee7e96009d689fec48d242f4db1790e6e0eacafa
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: f9a3d2ef30018c7fe57f1e7d728ba1dd152f56f5
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65842362"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714285"
 ---
 # <a name="ca1030-use-events-where-appropriate"></a>CA1030: 적절한 경우 이벤트를 사용하세요.
 
@@ -45,11 +45,11 @@ ms.locfileid: "65842362"
 
 이 규칙에서는 보통 이벤트에 사용되는 이름을 갖는 메서드를 찾아냅니다. 이벤트는 관찰자 또는 게시-구독 디자인 패턴에 따라 사용 하면 하나의 개체에서 상태 변경을 다른 개체에 전달 해야 합니다. 명확 하 게 정의 된 상태 변경에 대 한 응답에는 메서드가 호출 되는 경우 이벤트 처리기에서 메서드를 호출 해야 합니다. 메서드를 호출하는 개체는 메서드를 직접 호출하는 대신 이벤트를 발생시켜야 합니다.
 
-이벤트의 몇 가지 일반적인 예는 사용자 인터페이스 응용 프로그램 단추 클릭과 같은 사용자 작업을 실행할 코드의 세그먼트를 발생 하는 위치에 있습니다. .NET Framework 이벤트 모델에 사용자 인터페이스를 제한 되지 않습니다. 사용 해야 원하는 위치에 하나 이상의 개체 상태가 변경 통신 해야 합니다.
+이벤트의 몇 가지 일반적인 예는 사용자 인터페이스 응용 프로그램 단추 클릭과 같은 사용자 작업을 실행할 코드의 세그먼트를 발생 하는 위치에 있습니다. .NET 이벤트 모델을 사용자 인터페이스에 제한 되지 않습니다. 사용 해야 원하는 위치에 하나 이상의 개체 상태가 변경 통신 해야 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-개체의 상태가 변경 될 때 메서드가 호출 되는 경우.NET 이벤트 모델을 사용 하도록 디자인을 변경 하는 것이 좋습니다.
+개체의 상태가 변경 될 때 메서드가 호출 되는 경우에.NET 이벤트 모델을 사용 하도록 디자인을 변경 하는 것이 좋습니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 
