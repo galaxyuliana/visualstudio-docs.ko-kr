@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: c606a55be00ac8e44d54bad289076498e2655af1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a424e3c884d47b7deb848b418fbf0f3344d6c379
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62546416"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714737"
 ---
 # <a name="ca1410-com-registration-methods-should-be-matched"></a>CA1410: COM 등록 메서드는 일치해야 합니다.
 
@@ -34,25 +34,31 @@ ms.locfileid: "62546416"
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
- 형식으로 표시 되는 메서드를 선언 합니다 <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute?displayProperty=fullName> 특성으로 표시 되는 메서드를 선언 하지 않습니다 하지만 <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute?displayProperty=fullName> 특성 또는 그 반대로 합니다.
+
+형식으로 표시 되는 메서드를 선언 합니다 <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute?displayProperty=fullName> 특성으로 표시 되는 메서드를 선언 하지 않습니다 하지만 <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute?displayProperty=fullName> 특성 또는 그 반대로 합니다.
 
 ## <a name="rule-description"></a>규칙 설명
- .NET Framework 형식을 만드는 구성 요소 개체 모델 (COM) 클라이언트용 형식은 먼저 등록 되어야 합니다. 사용 가능한 경우로 표시 된 메서드는 <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute> 특성 사용자 지정 코드를 실행 하는 등록 프로세스 동안 호출 됩니다. 로 표시 된 해당 메서드는 <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute> 등록 메서드 작업을 되돌리기 위해 등록 프로세스 동안 특성 이라고 합니다.
+
+.NET 형식을 만드는 구성 요소 개체 모델 (COM) 클라이언트용 형식은 먼저 등록 되어야 합니다. 사용 가능한 경우로 표시 된 메서드는 <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute> 특성 사용자 지정 코드를 실행 하는 등록 프로세스 동안 호출 됩니다. 로 표시 된 해당 메서드는 <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute> 등록 메서드 작업을 되돌리기 위해 등록 프로세스 동안 특성 이라고 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
- 이 규칙 위반 문제를 해결 하려면 해당 등록 또는 등록 취소 메서드를 추가 합니다.
+
+이 규칙 위반 문제를 해결 하려면 해당 등록 또는 등록 취소 메서드를 추가 합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
- 이 규칙에서는 경고를 표시해야 합니다.
+
+이 규칙에서는 경고를 표시해야 합니다.
 
 ## <a name="example"></a>예제
- 다음 예제에서는 규칙을 위반 하는 형식을 보여 줍니다. 코드를 주석 처리 된 위반에 대 한 수정 프로그램을 보여 줍니다.
 
- [!code-csharp[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/CSharp/ca1410-com-registration-methods-should-be-matched_1.cs)]
- [!code-vb[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/VisualBasic/ca1410-com-registration-methods-should-be-matched_1.vb)]
+다음 예제에서는 규칙을 위반 하는 형식을 보여 줍니다. 코드를 주석 처리 된 위반에 대 한 수정 프로그램을 보여 줍니다.
+
+[!code-csharp[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/CSharp/ca1410-com-registration-methods-should-be-matched_1.cs)]
+[!code-vb[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/VisualBasic/ca1410-com-registration-methods-should-be-matched_1.vb)]
 
 ## <a name="related-rules"></a>관련된 규칙
- [CA1411: COM 등록 메서드를 표시 해야 합니다.](../code-quality/ca1411-com-registration-methods-should-not-be-visible.md)
+
+[CA1411: COM 등록 메서드를 표시 해야 합니다.](../code-quality/ca1411-com-registration-methods-should-not-be-visible.md)
 
 ## <a name="see-also"></a>참고자료
 

@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f1fe4ebce3a49c4aa626515e22eacd1c8e263847
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f6d4776f6bcbf89e95301bd2c7ef4f6f6b5680d9
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62797494"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714352"
 ---
 # <a name="ca1304-specify-cultureinfo"></a>CA1304: CultureInfo를 지정하세요.
 
@@ -40,7 +40,7 @@ ms.locfileid: "62797494"
 
 ## <a name="rule-description"></a>규칙 설명
 
-경우는 <xref:System.Globalization.CultureInfo> 또는 <xref:System.IFormatProvider?displayProperty=nameWithType> 개체가 제공 되지 않으면, 오버 로드 된 멤버에서 제공 하는 기본 값이 모든 로캘에서 원하는 효과 없을 수 있습니다. 또한.NET Framework 멤버 기본 문화권을 선택 하 고 코드에 대해 올바르지 않을 수 있다는 가정 하에 따라 서식 지정 합니다. 코드 시나리오에 대 한 예상 대로 작동을 위해 다음 지침에 따라 문화권별 형식 정보를 제공 해야 합니다.
+경우는 <xref:System.Globalization.CultureInfo> 또는 <xref:System.IFormatProvider?displayProperty=nameWithType> 개체가 제공 되지 않으면, 오버 로드 된 멤버에서 제공 하는 기본 값이 모든 로캘에서 원하는 효과 없을 수 있습니다. 또한.NET 멤버 기본 문화권을 선택 하 고 코드에 대해 올바르지 않을 수 있다는 가정 하에 따라 서식 지정 합니다. 코드 시나리오에 대 한 예상 대로 작동을 위해 다음 지침에 따라 문화권별 형식 정보를 제공 해야 합니다.
 
 - 사용자에 게 표시할 값을 현재 문화권을 사용 합니다. <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType>을 참조하세요.
 

@@ -17,12 +17,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: a3fb276b3efb0d437d66d3e38c9e55b45b43e9c6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 64fc4735fd95c611dd1c2d905be6fa5b45c84664
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62566344"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715024"
 ---
 # <a name="insert-new-records-into-a-database"></a>데이터베이스에 새 레코드 삽입
 
@@ -80,7 +80,7 @@ Tableadapter에는 응용 프로그램의 요구 사항에 따라 데이터베�
 [!code-vb[VbRaddataSaving#16](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_3.vb)]
 [!code-csharp[VbRaddataSaving#16](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_3.cs)]
 
-## <a name="net-framework-security"></a>.NET Framework 보안
+## <a name="net-security"></a>.NET 보안
 
 연결 하려는 데이터베이스 뿐만 아니라 원하는 테이블에 삽입을 수행할 수 있는 권한이 있는 사용 권한이 있어야 합니다.
 

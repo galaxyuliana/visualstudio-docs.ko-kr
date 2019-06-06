@@ -16,12 +16,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: b96ca08b51bb5145357ef921bde753e133062203
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: eda86085a5a2b8ba8e42116005890d2bda0b1dca
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62797538"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714683"
 ---
 # <a name="ca1305-specify-iformatprovider"></a>CA1305: IFormatProvider를 지정하세요.
 
@@ -36,7 +36,7 @@ ms.locfileid: "62797538"
 
 메서드 또는 생성자를 받아들이는 오버 로드가 있는 하나 이상의 멤버를 호출을 <xref:System.IFormatProvider?displayProperty=fullName> 매개 변수 및 메서드 또는 생성자는 오버 로드를 호출 하지 않습니다는 <xref:System.IFormatProvider> 매개 변수입니다.
 
-이 규칙 무시 무시로 설명 하는.NET Framework 메서드를 호출 하 여 <xref:System.IFormatProvider> 매개 변수입니다. 규칙에는 다음 메서드는 무시:
+이 규칙 무시 무시로 설명 하는.NET 메서드를 호출 하 여 <xref:System.IFormatProvider> 매개 변수입니다. 규칙에는 다음 메서드는 무시:
 
 - <xref:System.Activator.CreateInstance%2A?displayProperty=nameWithType>
 - <xref:System.Resources.ResourceManager.GetObject%2A?displayProperty=nameWithType>
@@ -44,7 +44,7 @@ ms.locfileid: "62797538"
 
 ## <a name="rule-description"></a>규칙 설명
 
-경우는 <xref:System.Globalization.CultureInfo?displayProperty=nameWithType> 또는 <xref:System.IFormatProvider> 개체가 제공 되지 않으면, 오버 로드 된 멤버에서 제공 하는 기본 값이 모든 로캘에서 원하는 효과 없을 수 있습니다. 또한.NET Framework 멤버 기본 문화권을 선택 하 고 코드에 대해 올바르지 않을 수 있다는 가정 하에 따라 서식 지정 합니다. 코드를 시나리오에 대 한 예상 대로 작동 하는지 확인 하려면 다음 지침에 따라 문화권별 형식 정보를 제공 해야 합니다.
+경우는 <xref:System.Globalization.CultureInfo?displayProperty=nameWithType> 또는 <xref:System.IFormatProvider> 개체가 제공 되지 않으면, 오버 로드 된 멤버에서 제공 하는 기본 값이 모든 로캘에서 원하는 효과 없을 수 있습니다. 또한.NET 멤버 기본 문화권을 선택 하 고 코드에 대해 올바르지 않을 수 있다는 가정 하에 따라 서식 지정 합니다. 코드를 시나리오에 대 한 예상 대로 작동 하는지 확인 하려면 다음 지침에 따라 문화권별 형식 정보를 제공 해야 합니다.
 
 - 사용자에 게 표시할 값을 현재 문화권을 사용 합니다. <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType>을 참조하세요.
 

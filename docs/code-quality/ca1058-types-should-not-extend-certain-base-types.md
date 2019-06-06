@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 44aaead9e00a1fb279666dfc55d4e9496e21139e
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: 4157316756e4b180f6fb49082bf60927ddb43707
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65842099"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714800"
 ---
 # <a name="ca1058-types-should-not-extend-certain-base-types"></a>CA1058: 형식은 특정 기본 형식을 확장하면 안 됩니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "65842099"
 
 ## <a name="rule-description"></a>규칙 설명
 
-.NET Framework 버전 1에 대 한 것을 권장 했습니다에서 새 예외를 파생 시키는 <xref:System.ApplicationException>합니다. 새 예외에서 파생 되어야 하 고는 권장 사항이 변경 되었습니다 <xref:System.Exception?displayProperty=fullName> 또는 해당 하위 클래스 중 하나는 <xref:System> 네임 스페이스입니다.
+예외에서 파생 되어야 <xref:System.Exception?displayProperty=fullName> 또는 해당 하위 클래스 중 하나는 <xref:System> 네임 스페이스입니다.
 
 서브 클래스를 만들지 마십시오 <xref:System.Xml.XmlDocument> 기본 개체 모델 또는 데이터 원본 XML 뷰를 만들려는 경우입니다.
 

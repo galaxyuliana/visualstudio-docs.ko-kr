@@ -35,12 +35,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 57b66473333bfe5e22c3f5aca47764bb789a33cd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3032c73d92f69e6380427bfc675ee263a3eb013f
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62564840"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714477"
 ---
 # <a name="windows-communication-foundation-services-and-wcf-data-services-in-visual-studio"></a>Windows Communication Foundation 서비스 및 Visual Studio의 WCF.NET 데이터 서비스
 
@@ -56,7 +56,7 @@ WCF Data Services는 표준 OData (개방형 데이터) 프로토콜의 구현�
 
 ### <a name="wcf-programming-model"></a>WCF 프로그래밍 모델
 
-WCF 프로그래밍 모델을 기반으로 두 엔터티 간의 통신: WCF 서비스와 WCF 클라이언트입니다. 프로그래밍 모델에 캡슐화 되는 <xref:System.ServiceModel> .NET Framework의 네임 스페이스입니다.
+WCF 프로그래밍 모델을 기반으로 두 엔터티 간의 통신: WCF 서비스와 WCF 클라이언트입니다. 프로그래밍 모델에 캡슐화 되는 <xref:System.ServiceModel> .net에서 네임 스페이스입니다.
 
 ### <a name="wcf-service"></a>WCF 서비스
 
@@ -228,7 +228,7 @@ Windows Communication Foundation (WCF) 서비스에서 대부분의 메서드는
 
 ## <a name="how-to-configure-a-service-to-reuse-existing-types"></a>방법: 기존 형식 다시 사용 하려면 서비스 구성
 
-서비스 참조를 프로젝트에 추가 되 면 서비스에 정의 된 모든 형식은 로컬 프로젝트에서 생성 됩니다. 대부분의 경우 서비스에는 일반적인.NET Framework 형식을 사용 하는 경우 또는 형식 공유 라이브러리에 정의 된 경우 중복 된 형식이 만들어집니다.
+서비스 참조를 프로젝트에 추가 되 면 서비스에 정의 된 모든 형식은 로컬 프로젝트에서 생성 됩니다. 대부분의 경우 서비스에는 일반적인.NET 형식에서 사용 하는 경우 또는 형식 공유 라이브러리에 정의 된 경우 중복 된 형식이 만들어집니다.
 
 이 문제를 방지 하려면 참조 된 어셈블리의 형식에에서는 기본적으로 공유 됩니다. 하나 이상의 어셈블리에 대해 형식 공유를 사용 하지 않도록 설정 하려는 경우 가능 하므로 합니다 **서비스 참조 구성** 대화 상자.
 

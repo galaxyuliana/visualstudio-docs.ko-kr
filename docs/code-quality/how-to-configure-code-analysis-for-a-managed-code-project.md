@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 555017cc49beba849ba9008c52950a70cd067a73
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: f3c8fbde60e247ca9ec5fe82c9a16f28aded2abc
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65676289"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715055"
 ---
 # <a name="how-to-configure-static-code-analysis-for-managed-code"></a>방법: 관리 코드에 대 한 정적 코드 분석 구성
 
@@ -29,7 +29,7 @@ ASP.NET 웹 응용 프로그램에 대해 설정 하는 규칙을 구성 하는 
 > [!NOTE]
 > 이 문서에 적용 됩니다 정적 코드 분석 되지 않습니다 [Roslyn 분석기](use-roslyn-analyzers.md), 빌드 후 코드 분석을 실행 하지는 합니다.
 
-## <a name="to-configure-a-rule-set-for-a-net-framework-project"></a>.NET Framework 프로젝트에 대해 설정 하는 규칙을 구성 하려면
+## <a name="configure-a-rule-set-for-a-net-framework-project"></a>.NET Framework 프로젝트에 대 한 설정 규칙 구성
 
 1. 엽니다는 **코드 분석** 프로젝트의 속성 페이지의 탭 합니다. 다음 방법 중 하나에서이 수행할 수 있습니다.
 

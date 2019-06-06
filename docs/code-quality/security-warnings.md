@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e8d2dadbb4bbd17b1ee1856dd896d78b0faef2cd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c52db730e471d845989b8fdfbadd259b5d166e8f
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62825281"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715231"
 ---
 # <a name="security-warnings"></a>보안 경고
 
@@ -36,7 +36,7 @@ ms.locfileid: "62825281"
 |[CA2104: 읽기 전용 참조 형식을 선언 하지 마십시오.](../code-quality/ca2104-do-not-declare-read-only-mutable-reference-types.md)|외부에서 볼 수 있는 형식에 변경 가능한 참조 형식인, 외부에서 볼 수 있는 읽기 전용 필드가 포함되었습니다. 변경 가능한 형식은 해당 인스턴스 데이터를 수정할 수 있는 형식을 말합니다.|
 |[CA2105: 배열 필드는 읽기 전용 이면 안](../code-quality/ca2105-array-fields-should-not-be-read-only.md)|배열이 들어 있는 필드에 read-only(Visual Basic의 경우 ReadOnly) 한정자를 적용하면 필드를 변경하여 다른 배열을 참조할 수 없습니다. 그러나 읽기 전용 필드에 저장된 배열의 요소는 변경할 수 있습니다.|
 |[CA2106: 보안 어설션](../code-quality/ca2106-secure-asserts.md)|메서드에서 권한을 어설션하는데 호출자에 대해 보안 검사가 수행되지 않습니다. 보안 검사를 수행하지 않고 보안 권한을 어설션하면 코드에 보안상 취약한 부분이 남아 있을 수 있습니다.|
-|[CA2107: Deny 및 permitonly 검토](../code-quality/ca2107-review-deny-and-permit-only-usage.md)|PermitOnly 메서드와 CodeAccessPermission.Deny 보안 동작은 .NET Framework 보안에 대해 잘 알고 있는 경우에만 사용해야 합니다. 이러한 보안 동작을 사용하는 코드는 보안 검토를 거쳐야 합니다.|
+|[CA2107: Deny 및 permitonly 검토](../code-quality/ca2107-review-deny-and-permit-only-usage.md)|Permitonly 메서드와 CodeAccessPermission.Deny 보안 동작은 사용할.NET 보안의 한 고급 지식이 있는 해야만 합니다. 이러한 보안 동작을 사용하는 코드는 보안 검토를 거쳐야 합니다.|
 |[CA2108: 값 형식에서 선언적 보안을 검토 합니다.](../code-quality/ca2108-review-declarative-security-on-value-types.md)|public 또는 protected 값 형식이 데이터 액세스 또는 링크 요청에 의해 보안됩니다.|
 |[CA2109: 표시 되는 이벤트 처리기를 검토 합니다.](../code-quality/ca2109-review-visible-event-handlers.md)|public 또는 protected 이벤트 처리 메서드를 발견했습니다. 이벤트 처리 메서드는 반드시 필요한 경우를 제외하고 노출하면 안 됩니다.|
 |[CA2111: 포인터를 표시 해야 합니다.](../code-quality/ca2111-pointers-should-not-be-visible.md)|포인터가 전용, 내부 또는 읽기 전용이 아닙니다. 악의적인 코드에서는 해당 포인터 값을 변경하여 메모리 내 임의의 위치에 액세스할 수 있게 되거나 애플리케이션 또는 시스템 오류를 발생시킬 수 있습니다.|

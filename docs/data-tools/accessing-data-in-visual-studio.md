@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 16cbdb0a673f503dcee49b7a323d1453ee93532a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5403803a4da0821978a8c6bbfc31e45c31104640
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62818230"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715264"
 ---
 # <a name="access-data-in-visual-studio"></a>Visual Studio에서 데이터 액세스
 
@@ -152,6 +152,6 @@ C++Microsoft Azure Storage를 사용 하는 프로그램에서 사용할 수는 
 
 [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/)&mdash;C# 및 Visual Basic 및 관계형 데이터베이스, XML 문서, 데이터 집합 및 메모리 내 컬렉션을 쿼리 하기 위한 일반적인 모델에 기본 제공 쿼리 기능을 설명 합니다.
 
-[Visual Studio의 XML 도구](../xml-tools/xml-tools-in-visual-studio.md)&mdash;XML 데이터를 XSLT 디버깅,.NET Framework XML 기능을 사용 하 여 작업 및 XML 쿼리 아키텍처에 설명 합니다.
+[Visual Studio의 XML 도구](../xml-tools/xml-tools-in-visual-studio.md)&mdash;XML 데이터를 디버깅 XSLT.NET XML 기능을 사용 하 여 작업 및 XML 쿼리 아키텍처에 설명 합니다.
 
-[XML 문서 및 데이터](/dotnet/standard/data/xml/index)&mdash;포괄적이 고 통합 된.NET Framework에서 데이터 및 XML 문서를 사용 하는 클래스 집합에 대해 간략하게 설명 합니다.
+[XML 문서 및 데이터](/dotnet/standard/data/xml/index)&mdash;포괄적이 고 통합 된 XML 문서 및.NET의 데이터를 사용 하는 클래스 집합에 대해 간략하게 설명 합니다.

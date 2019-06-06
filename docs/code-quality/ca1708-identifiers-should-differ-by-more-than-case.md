@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dc6923c4fd575d61b4854d9bb7d32f541bdda162
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: 059770b28b9e885608769f3844f91097a16d66cf
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65841995"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714247"
 ---
 # <a name="ca1708-identifiers-should-differ-by-more-than-case"></a>CA1708: 식별자에는 대/소문자만 다른 이름을 사용할 수 없습니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "65841995"
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 
-이 규칙에서는 경고를 표시해야 합니다. 라이브러리는.NET Framework에서 사용 가능한 모든 언어에서 사용 하지 못할 수 있습니다.
+이 규칙에서는 경고를 표시해야 합니다. 라이브러리는.NET에서 사용 가능한 모든 언어에서 사용 하지 못할 수 있습니다.
 
 ## <a name="configurability"></a>용이성
 

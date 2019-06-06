@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: b049f55d9361b409504cd798b7c878efb5c79ee6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 99d53296ad72aef1910a39299be64c7cb03dd49a
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62806810"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714725"
 ---
 # <a name="ca2205-use-managed-equivalents-of-win32-api"></a>CA2205: Win32 API의 동일한 관리형 기능을 사용하세요.
 
@@ -35,7 +35,7 @@ ms.locfileid: "62806810"
 
 ## <a name="cause"></a>원인
 
-플랫폼 호출 메서드가 정의 되었고 이와 동일한 기능을 사용 하 여 메서드는.NET Framework 클래스 라이브러리에 있습니다.
+플랫폼 호출 메서드가 정의 되었고.NET에서 이와 동일한 기능을 사용 하 여 메서드가 있습니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
