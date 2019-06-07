@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: f567fa1d1f793395532efac5991b01c5087b638a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c94f1b2709f3541692a0dfcd2a92559135639c2a
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62545765"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744584"
 ---
 # <a name="ca1804-remove-unused-locals"></a>CA1804: 사용되지 않는 로컬 항목을 제거하세요.
 
@@ -40,7 +40,11 @@ ms.locfileid: "62545765"
  사용되지 않는 지역 변수와 불필요한 할당으로 어셈블리의 크기가 증가하고 성능이 저하될 수 있습니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
- 이 규칙 위반 문제를 해결 하려면 제거 하거나 지역 변수를 사용 합니다. C# 컴파일러 되는 포함 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] 사용 되지 않는 로컬 변수를 제거 때는 `optimize` 옵션을 사용 합니다.
+
+이 규칙 위반 문제를 해결 하려면 제거 하거나 지역 변수를 사용 합니다.
+
+> [!NOTE]
+> C# 컴파일러는 사용 되지 않는 로컬 변수를 제거 경우를 `optimize` 옵션을 사용 합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
  컴파일러는 변수를 내보낸 경우이 규칙에서 경고를 표시 합니다. 또한 성능 및 코드 유지 관리 주요 관심사 없는 경우에이 규칙에서 경고를 표시 하거나 규칙을 사용 하지 않으려면 안전 합니다.

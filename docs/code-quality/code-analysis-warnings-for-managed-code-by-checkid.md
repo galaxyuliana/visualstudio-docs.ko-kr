@@ -260,12 +260,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 87461cfe06ac1c038176c3b9d4dcd513733e8d43
-ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
+ms.openlocfilehash: a36eb66e0308fddbc17e5ea9627562c2939f4bd7
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66714517"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745479"
 ---
 # <a name="code-analysis-warnings-for-managed-code-by-checkid"></a>관리 코드 CheckId 별 코드 분석 경고
 
@@ -492,7 +492,7 @@ ms.locfileid: "66714517"
 | CA2225 | [CA2225: 연산자 오버 로드는 명명 된 대체](../code-quality/ca2225-operator-overloads-have-named-alternates.md) |연산자 오버로드가 감지되었으며 예상되는 이름의 대체 메서드를 찾을 수 없습니다. 명명된 대체 멤버는 해당 연산자와 동일한 기능에 액세스할 수 있도록 해주며, 오버로드된 연산자가 지원되지 않는 언어로 프로그래밍하는 개발자에게 제공됩니다. |
 | CA2226 | [CA2226: 연산자에는 대칭 오버 로드가 있어야 합니다.](../code-quality/ca2226-operators-should-have-symmetrical-overloads.md) | 형식이 같음 연산자 또는 같지 않음 연산자를 구현하면서 그 반대 연산자를 구현하지 않습니다. |
 | CA2227 |[CA2227: 컬렉션 속성은 읽기 전용 이어야](../code-quality/ca2227-collection-properties-should-be-read-only.md) |쓰기 가능한 컬렉션 속성을 통해 사용자는 컬렉션을 다른 컬렉션으로 바꿀 수 있습니다. 읽기 전용 속성은 컬렉션을 바꾸지 못하도록 하지만 개별 멤버를 설정하는 것은 여전히 가능합니다. |
-| CA2228 | [CA2228: 릴리스되지 않은 리소스 형식을 제공 하지 마십시오.](../code-quality/ca2228-do-not-ship-unreleased-resource-formats.md) | .NET Framework의 시험판 버전을 사용 하 여 빌드된 리소스 파일은 지원 되는 버전의.NET Framework에서 사용 하지 못할 수 있습니다. |
+| CA2228 | [CA2228: 릴리스되지 않은 리소스 형식을 제공 하지 마십시오.](../code-quality/ca2228-do-not-ship-unreleased-resource-formats.md) | 시험판 버전의.NET을 사용 하 여 빌드된 리소스 파일은 지원 되는 버전의.NET에서 사용 하지 못할 수 있습니다. |
 | CA2229 | [CA2229: serialization 생성자를 구현하십시오.](../code-quality/ca2229-implement-serialization-constructors.md) | 이 규칙 위반 문제를 해결하려면 serialization 생성자를 구현합니다. 봉인 클래스의 경우에는 생성자를 private으로 만들고, 그 밖의 경우에는 protected로 만듭니다. |
 | CA2230 | [CA2230: 가변 인수로 params를 사용](../code-quality/ca2230-use-params-for-variable-arguments.md) | public 또는 protected 형식에 params 키워드 대신 VarArgs 호출 규칙을 사용하는 public 또는 protected 메서드가 들어 있습니다. |
 | CA2231 | [CA2231: ValueType.Equals를 재정의할 때 같음 연산자를 오버로드하십시오.](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md) | 값 형식이 Object.Equals를 재정의하지만 같음 연산자를 구현하지 않습니다. |

@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f45b8c07cf03dc83969c3500c80b8ee215e3ad69
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 42756b21e631ec14e9c590833f6f0e95a317cc22
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62898726"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747466"
 ---
 # <a name="ltrelatedproductsgt-element-bootstrapper"></a>&lt;RelatedProducts&gt; 요소 (부트스트래퍼)
 `RelatedProducts` 요소에 종속 되거나 현재 제품에 포함 된 다른 제품을 정의 합니다.
@@ -74,7 +74,7 @@ ms.locfileid: "62898726"
 |`Code`|에 지정 된 대로 포함된 된 제품의 코드명 합니다 `ProductCode` 특성을 `Product` 요소. 자세한 내용은 [ \<제품 > 요소](../deployment/product-element-bootstrapper.md)합니다.|
 
 ## <a name="example"></a>예제
- 다음 코드 예제에서는 지정 된 Microsoft 설치 관리자가 설치 되어 있는지를 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], 별도 설치 필요 하지 것입니다.
+ 다음 코드 예제에서는 Microsoft Installer.NET Framework와 함께 설치 하 고 따라서 별도 설치 하지 않아도 됩니다 지정 합니다.
 
 ```xml
 <RelatedProducts>

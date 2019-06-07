@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: b622fc77884acde5b81d886628afce9f077e86a8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7ca5f71d386f48b36fcb1126a1e0467b40ef8d73
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62567975"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745575"
 ---
 # <a name="configure-service-reference-dialog-box"></a>서비스 참조 구성 대화 상자
 
@@ -98,7 +98,7 @@ ms.locfileid: "62567975"
  **웹 참조 추가** 대화 상자를 표시합니다.
 
 > [!NOTE]
-> 이 옵션의 2.0 버전을 대상으로 하는 프로젝트에만 사용 해야는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다.
+> 이 옵션은.NET Framework 버전 2.0을 대상으로 하는 프로젝트만 사용 해야 합니다.
 >
 > [!NOTE]
 > 합니다 **웹 참조 추가** 단추 때만 사용할 수는 **서비스 참조 구성** 에서 대화 상자가 표시 됩니다는 **서비스 참조 추가 대화 상자**합니다.

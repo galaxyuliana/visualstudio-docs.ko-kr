@@ -19,12 +19,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 30a2860ae1dfb9d428f65812590675fccb42cfe5
-ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
+ms.openlocfilehash: f0047ee38a6fda4738c773c36a85e14cba1e37fe
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66715189"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745534"
 ---
 # <a name="fill-datasets-by-using-tableadapters"></a>TableAdapters를 사용하여 데이터 세트 채우기
 
@@ -85,7 +85,7 @@ Tableadapter 구성 캡슐화 하 여 표준 데이터 어댑터의 기능을 �
 
 ## <a name="tableadapter-methods-and-properties"></a>TableAdapter 메서드 및 속성
 
-TableAdapter 클래스를 부분을 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]입니다. 즉, 설명서에서를 찾을 수 없습니다. 있습니다 또는 **개체 브라우저**합니다. 앞에서 언급 한 마법사 중 하나를 사용 하면 디자인 타임에 생성 됩니다. 만들 때 TableAdapter에 할당 된 이름은 사용 하는 테이블의 이름을 기반으로 합니다. 예를 들어, 명명 된 데이터베이스의 테이블을 기반으로 TableAdapter를 만들 때 `Orders`, TableAdapter 이름은 `OrdersTableAdapter`합니다. TableAdapter의 클래스 이름을 사용 하 여 변경할 수 있습니다 합니다 **이름을** 속성에는 **데이터 집합 디자이너**합니다.
+TableAdapter 클래스는.NET 형식이 아닙니다. 즉, 설명서에서를 찾을 수 없습니다. 있습니다 또는 **개체 브라우저**합니다. 앞에서 언급 한 마법사 중 하나를 사용 하면 디자인 타임에 생성 됩니다. 만들 때 TableAdapter에 할당 된 이름은 사용 하는 테이블의 이름을 기반으로 합니다. 예를 들어, 명명 된 데이터베이스의 테이블을 기반으로 TableAdapter를 만들 때 `Orders`, TableAdapter 이름은 `OrdersTableAdapter`합니다. TableAdapter의 클래스 이름을 사용 하 여 변경할 수 있습니다 합니다 **이름을** 속성에는 **데이터 집합 디자이너**합니다.
 
 다음은 일반적으로 사용 되는 메서드 및 Tableadapter의 속성입니다.
 
@@ -122,7 +122,7 @@ Tableadapter에 nullable 형식 지원 `Nullable(Of T)` 고 `T?`입니다. Visua
 
 기본적으로 관련된 테이블이 포함 된 데이터 집합을 만들 때 TableAdapterManager 클래스를 생성 합니다. 클래스 생성을 방지 하려면 값을 변경 합니다 `Hierarchical Update` false 데이터 집합의 속성입니다. Windows Form 또는 WPF 페이지의 디자인 화면으로 관계가 있는 테이블을 끌어 놓으면 Visual Studio 클래스의 멤버 변수를 선언 합니다. 데이터 바인딩을 사용 하지 않는 경우 수동으로 변수를 선언 해야 합니다.
 
-TableAdapterManager 클래스가 아닌 부분을 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]입니다. 따라서 설명서에서를 찾을 수 없습니다. 데이터 집합 만들기 프로세스의 일부로 디자인 타임에 생성 됩니다.
+TableAdapterManager 클래스는.NET 형식이 아닙니다. 따라서 설명서에서를 찾을 수 없습니다. 데이터 집합 만들기 프로세스의 일부로 디자인 타임에 생성 됩니다.
 
 다음은 자주 사용 되는 메서드 및 속성을 `TableAdapterManager` 클래스:
 

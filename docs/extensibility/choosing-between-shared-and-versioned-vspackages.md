@@ -12,17 +12,17 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 96eea3cb0abe4c0e1151b15680bbab984f9131c5
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: de7bb2ee0335322e0b089fd2af81026b1f6bd1ca
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66321019"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747785"
 ---
 # <a name="choose-between-shared-and-versioned-vspackages"></a>공유 및 버전 관리 Vspackage 중에서 선택
 다른 버전의 Visual Studio는 동일한 컴퓨터에 공존할 수 있습니다. Vspackage의 혼합을 지원할 수 있습니다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 버전입니다.
 
- 두 가지 전략, 공유 전략 또는 버전이 있는 전략 중 하나를 통해 Vspackage의 side-by-side-설치를 사용할 수 있습니다. 여러 버전의 현재 상태를 수용 하는 둘 다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 버전의 연결을 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ 두 가지 전략, 공유 전략 또는 버전이 있는 전략 중 하나를 통해 Vspackage의 side-by-side-설치를 사용할 수 있습니다. 여러 버전의 현재 상태를 수용 하는 둘 다 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] .NET Framework의 버전을 연결 합니다.
 
  공유 전략의 여러 버전에서 사용 하기 위해 하나의 VSPackage 등록 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다. 버전 관리 전략의 여러 VSPackage Dll이 설치의 각 버전에 대해 하나씩 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 지원 합니다.
 

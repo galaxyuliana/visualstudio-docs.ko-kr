@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 49ff55e2a261e86ec5aae09573d6ac40c74c0091
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 71b9df9a8422d1b24a3e5476005942113356c353
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263471"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747420"
 ---
 # <a name="server-and-client-configuration-issues-in-clickonce-deployments"></a>ClickOnce 배포 시 서버 및 클라이언트 구성 문제
 인터넷 정보 서비스 (IIS)를 사용 하 여 Windows Server에서 배포에는 Windows에서 인식 하지 못하는 파일 형식을 포함 하 고 Microsoft Word 파일을 같은 IIS는 해당 파일을 전송할 거부 하 고 배포에 실패 합니다.
@@ -41,7 +41,7 @@ ms.locfileid: "66263471"
 
   선택을 취소 하 여이 옵션을 해제할 수는 있지만 합니다 **".deploy" 파일 확장명을 사용 하 여** 옵션을 합니다 [Publish Options Dialog Box](/previous-versions/visualstudio/visual-studio-2010/7z83t16a(v=vs.100)), 모든 파일 확장명을 차단 해제 하려면 웹 서버를 구성 해야 하는 경우 응용 프로그램에서 사용 합니다.
 
-  구성 해야 합니다 *.manifest*를 *.application*, 및 *.deploy*예를 들어, IIS를 설치 하지 않은 위치를 사용 하는 경우는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], 경우 또는 다른 웹 서버 (예: Apache)를 사용합니다.
+  구성 해야 합니다 *.manifest*를 *.application*, 및 *.deploy*, 예를 들어, IIS를 설치 하지 않은.NET Framework를 사용 하는 경우 또는 있다면 다른 웹 서버 (예: Apache)를 사용합니다.
 
 ## <a name="clickonce-and-secure-sockets-layer-ssl"></a>ClickOnce 및 Secure Sockets Layer (SSL)
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램이 작동 제대로 SSL을 통해 Internet Explorer에서 SSL 인증서에 대 한 프롬프트를 발생 하는 경우를 제외 하 고 있습니다. 프롬프트 만료 등 사이트 이름이 일치 하지 않는 경우 인증서 또는 인증서를 사용 하 여 문제가 있을 때 발생할 수 있습니다. 있도록 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] SSL 연결을 통해 작업, 인증서, 최신 되었고 인증서 데이터를 사이트 데이터와 일치 하는지 확인 합니다.
@@ -121,7 +121,7 @@ ms.locfileid: "66263471"
   Windows Server에서 MIME 형식을 구성 하는 특정 지침은 Microsoft 기술 자료 문서 KB326965 참조, "IIS 6.0 처리 하지 않는 경우 알 수 없는 MIME 형식"에서 [ http://support.microsoft.com/default.aspx?scid=kb; en-우리; 326965](http://support.microsoft.com/default.aspx?scid=kb;en-us;326965)합니다.
 
 ## <a name="content-type-mappings"></a>콘텐츠 형식 매핑
- 에 대 한 HTTP, 콘텐츠 형식 (MIME 형식이 라고도 함)를 통해 게시 하는 경우는 *.application* 파일은 "application/x-ms-응용 프로그램입니다." 이어야 합니다. 있는 경우 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] 서버에 설치, 설정 됩니다를 자동으로 합니다. 이 설치 되지 않은 경우에 대 한 MIME 유형 연결을 만들어야 합니다 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 vroot (또는 전체 서버).
+ 에 대 한 HTTP, 콘텐츠 형식 (MIME 형식이 라고도 함)를 통해 게시 하는 경우는 *.application* 파일은 "application/x-ms-응용 프로그램입니다." 이어야 합니다. 서버에 설치 하는.NET Framework 2.0에 있는 경우이 설정이 적용 됩니다를 자동으로 합니다. 이 설치 되지 않은 경우에 대 한 MIME 유형 연결을 만들어야 합니다 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 vroot (또는 전체 서버).
 
  IIS 서버를 사용 하 여 배포 하는 경우 실행할 <em>inetmgr.</em> exe에 대 한 "application/x-ms-응용 프로그램의" 새 콘텐츠 형식을 추가 합니다 *.application* 확장 합니다.
 

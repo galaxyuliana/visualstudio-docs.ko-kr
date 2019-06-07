@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 15c02312d5c257f13b9c0394790bc8a2611d7972
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e19ec88a4dec7a13ecc3d77e5d4fc1f04bb114bd
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62949801"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747796"
 ---
 # <a name="workflow-project-templates"></a>워크플로 프로젝트 템플릿
 
@@ -67,7 +67,7 @@ Visual Studio는 4 개의 서로 다른 워크플로 프로젝트 템플릿을 �
 사용자 지정 활동 디자이너를 구현 하는 방법의 예제를 참조 하세요. [방법: 사용자 지정 활동 디자이너를 만드는](/dotnet/framework/windows-workflow-foundation/how-to-create-a-custom-activity-designer)합니다.
 
 > [!NOTE]
-> 기본.NET Framework 활동 및 사용자 지정 활동에 대 한 사용자 지정 활동 디자이너를 사용할 수 있습니다.
+> 기본.NET 활동 및 사용자 지정 활동에 대 한 사용자 지정 활동 디자이너를 사용할 수 있습니다.
 
 ## <a name="see-also"></a>참고자료
 

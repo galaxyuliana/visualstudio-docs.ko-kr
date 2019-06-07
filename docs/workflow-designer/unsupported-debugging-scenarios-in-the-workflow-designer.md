@@ -8,18 +8,16 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 83c9b1158319b580bc860982b6c51c9c28edf5af
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 62d8a2ad847ef1b9aaad02b2739e8154b3148425
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62433879"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747264"
 ---
 # <a name="unsupported-debugging-scenarios-in-the-workflow-designer"></a>Workflow Designer에서 지원되지 않는 디버깅 시나리오
 
-.NET Framework 4에서 워크플로 디자이너에는 많은 새로운 기능이 추가 하지만 여전히 몇 가지 디버깅 시나리오가 지원 되지 않습니다.
-
-다음은 지원 되지 않는 디버깅 시나리오 워크플로 디자이너입니다.
+워크플로 디자이너는 다음과 같은 디버깅 시나리오를 지원 하지 않습니다.
 
 - 코드를 편집한 후에는 실행을 계속할 수 없습니다.
 
@@ -29,7 +27,7 @@ ms.locfileid: "62433879"
 
 - Workflow Designer를 사용하지 않고 코드로 만든 워크플로는 Workflow Designer를 사용하여 디버깅할 수 없습니다.
 
-- .NET Framework 4 디자이너에서 이전 버전의 Windows WF (Workflow Foundation)에서 만든 워크플로 디버깅할 수 없습니다.
+- .NET Framework 4에서 이상 버전의 Windows WF (Workflow Foundation)에서 만든 워크플로 디버깅할 수 없습니다.
 
 - 활동 또는 <xref:System.Activities.Statements.Flowchart> 노드 간 링크에는 중단점을 정의할 수 없습니다.
 

@@ -1,20 +1,21 @@
 ---
-title: DTE를 사용 하 여 Visual Studio를 시작 합니다.
+title: DTE를 사용하여 Visual Studio 시작
+titleSuffix: ''
 ms.date: 04/26/2019
 ms.topic: conceptual
 author: gewarren
-ms.author: ''
+ms.author: gewarren
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f597c1a8312edde94539285d68750f0cf127790e
-ms.sourcegitcommit: 62f42113ae4dae1ddfff1c4e02445acc09913445
+ms.openlocfilehash: 399f98964dca29eccfd7d3c2bb691205f373a3b3
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "64879360"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747012"
 ---
-# <a name="launch-visual-studio-using-dte"></a>DTE를 사용 하 여 Visual Studio를 시작 합니다.
+# <a name="launch-visual-studio-using-dte"></a>DTE를 사용하여 Visual Studio 시작
 
 DTE를 사용 하 여 Visual Studio를 시작 하는 장치는 Visual Studio 2017부터 이전 버전의 Visual Studio를 시작 하려면 다릅니다. 이 변경 되므로 해야 Visual Studio 2017 및 이후 지원-나란히 설치의 주요 릴리스 (예를 들어, 있습니다 릴리스 버전과 함께 설치 되어 미리 보기).
 

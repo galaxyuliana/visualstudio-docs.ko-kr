@@ -16,18 +16,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: de3ca40696549ad9208ffd181f8dbc4e7f092b5d
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 38418a1ca11c23ab12d64deadfb91079bc957493
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263198"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747488"
 ---
 # <a name="how-to-use-clickonce-to-deploy-applications-that-can-run-on-multiple-versions-of-the-net-framework"></a>방법: ClickOnce를 사용하여 여러 버전의 .NET Framework에서 실행할 수 있는 애플리케이션 배포
 ClickOnce 배포 기술을 사용 하 여 여러 버전의.NET Framework를 대상으로 하는 응용 프로그램을 배포할 수 있습니다. 그러려면 생성 하 고 응용 프로그램 및 배포 매니페스트를 업데이트 합니다.
 
 > [!NOTE]
-> 여러 버전의.NET Framework를 대상으로 응용 프로그램을 변경 하기 전에 여러 버전의.NET Framework를 사용 하 여 응용 프로그램을 실행 해야 합니다. 공용 언어 런타임 버전 간에 다릅니다. [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] .NET Framework 2.0,.NET Framework 3.0 및.NET Framework 3.5를 비교 합니다.
+> 여러 버전의.NET Framework를 대상으로 응용 프로그램을 변경 하기 전에 여러 버전의.NET Framework를 사용 하 여 응용 프로그램을 실행 해야 합니다. 버전 공용 언어 런타임은.NET Framework 2.0,.NET Framework 3.0 및.NET Framework 3.5와.NET Framework 4 간에 다릅니다.
 
  이 프로세스에는 다음 단계가 필요합니다.
 
@@ -88,7 +88,7 @@ ClickOnce 배포 기술을 사용 하 여 여러 버전의.NET Framework를 대�
    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" group="framework">
    ```
 
-3. 버전 번호를 업데이트 합니다 `<assemblyIdentity>` 최소 공통 분모는.NET Framework의 버전 번호를 Microsoft.Windows.CommonLanguageRuntime에 대 한 요소입니다. 예를 들어, 응용 프로그램이.NET Framework 3.5를 대상으로 하는 경우 및 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)], 2.0.50727.0 사용 하 여 버전 번호 및 XML은 다음과 같습니다.
+3. 버전 번호를 업데이트 합니다 `<assemblyIdentity>` 최소 공통 분모는.NET Framework의 버전 번호를 Microsoft.Windows.CommonLanguageRuntime에 대 한 요소입니다. 예를 들어, 응용 프로그램에서.NET Framework 3.5 및.NET Framework 4를 대상으로 하는 경우 2.0.50727.0 사용 하 여 버전 번호 및 XML 다음과 같이 표시 됩니다.
 
    ```xml
    <dependency>

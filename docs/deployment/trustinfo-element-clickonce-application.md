@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e3dd75e8c88f87991abbdaa74a711b8f3c7324b5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4d6ac13c6eb76bff5ffc07043fd20063700237fc
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62927301"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745589"
 ---
 # <a name="lttrustinfogt-element-clickonce-application"></a>&lt;trustInfo&gt; 요소(ClickOnce 애플리케이션)
 애플리케이션을 클라이언트 컴퓨터에서 실행하는 데 필요한 최소 보안 권한을 설명합니다.
@@ -87,7 +87,7 @@ ms.locfileid: "62927301"
      필수. 권한의 버전을 알려 줍니다. 일반적으로 이 값은 `1`입니다.
 
 ## <a name="ipermission"></a>IPermission
- 선택 사항입니다. 이 요소는 `PermissionSet` 요소의 자식입니다. `IPermission` 요소는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]의 권한 클래스를 완전히 알려 줍니다. `IPermission` 요소에는 다음 특성이 있지만 권한 클래스의 속성에 해당하는 추가 특성이 있을 수 있습니다. 특정 권한에 대한 구문을 확인하려면 Security.config 파일에 나열된 예제를 참조하세요.
+ 선택 사항입니다. 이 요소는 `PermissionSet` 요소의 자식입니다. `IPermission` .NET Framework의 권한 클래스를 완벽 하 게 식별 하는 요소입니다. `IPermission` 요소에는 다음 특성이 있지만 권한 클래스의 속성에 해당하는 추가 특성이 있을 수 있습니다. 특정 권한에 대한 구문을 확인하려면 Security.config 파일에 나열된 예제를 참조하세요.
 
 - `class`
 

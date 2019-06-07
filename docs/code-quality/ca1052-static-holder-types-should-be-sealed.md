@@ -18,12 +18,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 346a7f4cc7c7a8e6f579f94c6294ce9577fa01c7
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: 4886a11d7d207523785b9d568226ae98a9e97b28
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65842088"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744587"
 ---
 # <a name="ca1052-static-holder-types-should-be-sealed"></a>CA1052: 정적 소유자 형식은 sealed여야 합니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "65842088"
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-이 규칙 위반 문제를 해결 하는 형식 표시 `sealed` 또는 `NotInheritable`합니다. .NET Framework 2.0을 대상으로 하는 경우 더 나은 방법으로 형식을 표시 하는 것 이상을 `static` 또는 `Shared`합니다. 이런 방식으로 만들어지는 클래스를 방지 하기 위해 개인 생성자를 선언할 필요가 없습니다.
+이 규칙 위반 문제를 해결 하는 형식 표시 `sealed` 또는 `NotInheritable`합니다. 프로젝트 대상.NET Framework 2.0 이상 버전을 더 나은 방법으로 형식을 표시 하는 경우 `static` 또는 `Shared`합니다. 이런 방식으로 만들어지는 클래스를 방지 하기 위해 개인 생성자를 선언할 필요가 없습니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
 

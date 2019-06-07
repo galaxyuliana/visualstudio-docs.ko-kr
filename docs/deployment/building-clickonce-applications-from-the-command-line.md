@@ -16,15 +16,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fcab7ac3bb2a7983d8500b6f27f910fa33fc1efe
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fc3cdf49746340c76855e9afb000c754464d6223
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62929164"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746080"
 ---
 # <a name="build-clickonce-applications-from-the-command-line"></a>명령줄에서 ClickOnce 애플리케이션 빌드
-[!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], 통합된 개발 환경 (IDE)에서 만들어진 경우에 명령줄에서 프로젝트를 빌드할 수 있습니다. 사용 하 여 만든 프로젝트를 다시 작성할 수는 사실 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] 만 있는 다른 컴퓨터에는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 설치 합니다. 이 자동화 된 프로세스를 사용 하 여 빌드를 재현할 수 있습니다, 그리고 예를 들어, 중앙 빌드에서 랩 또는 사용 하 여 고급 스크립팅 기술 자체는 프로젝트 빌드 범위를 벗어납니다.
+[!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], 통합된 개발 환경 (IDE)에서 만들어진 경우에 명령줄에서 프로젝트를 빌드할 수 있습니다. 사용 하 여 만든 프로젝트를 다시 작성할 수는 사실 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] 만.NET Framework가 설치 된 다른 컴퓨터에 있습니다. 이 자동화 된 프로세스를 사용 하 여 빌드를 재현할 수 있습니다, 그리고 예를 들어, 중앙 빌드에서 랩 또는 사용 하 여 고급 스크립팅 기술 자체는 프로젝트 빌드 범위를 벗어납니다.
 
 ## <a name="use-msbuild-to-reproduce-clickonce-application-deployments"></a>ClickOnce 응용 프로그램 배포를 재현 하는 MSBuild를 사용 합니다.
  프로젝트를 빌드하고 만들려면 MSBuild 시스템은 명령줄에서 msbuild /target:publish를 호출 하면 알려줍니다는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] publish 폴더에 응용 프로그램입니다. 선택와 동일 합니다 **게시** IDE에서 명령을 합니다.
@@ -73,7 +73,7 @@ ms.locfileid: "62929164"
 
 5. `msbuild /target:publish`을 입력합니다.
 
-   위의 단계는 전체를 생성 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 라는 프로젝트의 하위 폴더에 응용 프로그램 배포 **게시**합니다. *CmdLineDemo.application* 되는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 매니페스트 합니다. 폴더 *CmdLineDemo_1.0.0.0* 파일이 *CmdLineDemo.exe* 하 고 *CmdLineDemo.exe.manifest*의 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 매니페스트 합니다. *Setup.exe* 는 기본적으로 설치 하도록 구성 된 부트스트래퍼를 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]입니다. DotNetFX 폴더에 대 한 재배포 가능 패키지를 포함 합니다 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다. 웹을 통해 또는 UNC 또는 CD/DVD를 통해 응용 프로그램을 배포 하는 데 필요한 파일의 전체 집합입니다.
+   위의 단계는 전체를 생성 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 라는 프로젝트의 하위 폴더에 응용 프로그램 배포 **게시**합니다. *CmdLineDemo.application* 되는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 매니페스트 합니다. 폴더 *CmdLineDemo_1.0.0.0* 파일이 *CmdLineDemo.exe* 하 고 *CmdLineDemo.exe.manifest*의 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 매니페스트 합니다. *Setup.exe* 기본적으로.NET Framework를 설치 하도록 구성 된 부트스트래퍼를 됩니다. DotNetFX 폴더에.NET Framework 재배포 가능 파일이 포함 되어 있습니다. 웹을 통해 또는 UNC 또는 CD/DVD를 통해 응용 프로그램을 배포 하는 데 필요한 파일의 전체 집합입니다.
 
 ## <a name="publish-properties"></a>속성 게시
  위 절차의 응용 프로그램을 게시할 때 다음 속성을 게시 마법사가 프로젝트 파일에 삽입 됩니다. 이러한 속성에 직접 영향을 하는 방법을 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 생성 됩니다.

@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c5766beb87626efd11ba50422d5f811d1ae1d91e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a8bc56bf980bba6326b3615b6892ec555b795ec8
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62898700"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747406"
 ---
 # <a name="ltstringsgt-element-bootstrapper"></a>&lt;문자열&gt; 요소 (부트스트래퍼)
 제품 이름, 패키지 이름 및 설치 오류 메시지에 대 한 지역화 된 문자열을 정의합니다.
@@ -52,7 +52,7 @@ ms.locfileid: "62898700"
 |`Name`|필수 요소. 문자열의 이름입니다.|
 
 ## <a name="example"></a>예제
- 다음 코드 예제 모두에 대 한 영어 문자열이 지정 된 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 설치 관리자입니다.
+ 다음 코드 예제에서는.NET Framework 설치 관리자에 대 한 모든 영어 문자열을 지정합니다.
 
 ```xml
 <Strings>

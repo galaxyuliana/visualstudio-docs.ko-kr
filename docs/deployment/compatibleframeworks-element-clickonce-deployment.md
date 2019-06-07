@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 06b96327205369d0280a865b632801edbf199745
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 99db3d51414197df469aaa2eabe97e0967c31b05
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63407860"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746035"
 ---
 # <a name="ltcompatibleframeworksgt-element-clickonce-deployment"></a>&lt;compatibleFrameworks&gt; 요소 (ClickOnce 배포)
 이 응용 프로그램이 설치 및 실행할 수 있는 .NET Framework의 버전을 식별합니다.
@@ -41,7 +41,7 @@ ms.locfileid: "63407860"
 ```
 
 ## <a name="elements-and-attributes"></a>요소 및 특성
- 합니다 `compatibleFrameworks` 요소는 필수 배포 매니페스트는 대상에 대 한 합니다 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에서 제공 하는 런타임 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 이상. 합니다 `compatibleFrameworks` 요소 하나 이상 포함 `framework` 이 응용 프로그램 실행 될 수 있는.NET Framework 버전을 지정 하는 요소입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 런타임 첫 번째 응용 프로그램을 실행 합니다 사용 가능한 `framework` 이 목록에 있습니다.
+ `compatibleFrameworks` 배포 매니페스트는 대상에 대 한 요소는 필수는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 런타임 또는 나중에.NET Framework 4에서 제공 합니다. 합니다 `compatibleFrameworks` 요소 하나 이상 포함 `framework` 이 응용 프로그램 실행 될 수 있는.NET Framework 버전을 지정 하는 요소입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 런타임 첫 번째 응용 프로그램을 실행 합니다 사용 가능한 `framework` 이 목록에 있습니다.
 
  다음 표에서 특성은는 `compatibleFrameworks` 요소를 지원 합니다.
 
@@ -61,7 +61,7 @@ ms.locfileid: "63407860"
 ## <a name="remarks"></a>설명
 
 ## <a name="example"></a>예제
- 다음 코드 예제는 `compatibleFrameworks` 요소에는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 매니페스트 합니다. 이 배포에서 실행할 수는 [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)]합니다. 실행할 수도 있습니다는 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 의 상위 집합 이므로 [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)]합니다.
+ 다음 코드 예제는 `compatibleFrameworks` 요소에는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 매니페스트 합니다. 이 배포에서 실행할 수는 [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)]합니다. 상위 집합 이므로.NET Framework 4에서 실행할 수도 있습니다는 [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)]합니다.
 
 ```xml
 <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">

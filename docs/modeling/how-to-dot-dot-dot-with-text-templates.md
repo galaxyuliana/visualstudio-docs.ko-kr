@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 89436ba28cd47463709fca9b7d6293dab934b549
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c3bbcbb078925f36204c472c27821e6ba94fa4e0
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62993549"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747545"
 ---
 # <a name="how-to--with-text-templates"></a>텍스트 템플릿 사용 방법
 Visual Studio에서 텍스트 템플릿은 모든 종류의 텍스트를 생성 하는 데 도움이 제공합니다. 텍스트 템플릿 텍스트를 생성 하려면 프로젝트 코드의 일부를 생성 하기 위해 디자인 타임 및 런타임에 응용 프로그램의 일부로 사용할 수 있습니다. 이 항목에서는 가장 자주 요약 "어떻게 할까요?" 라는 메시지가 표시 질문입니다.
@@ -45,13 +45,14 @@ Visual Studio에서 텍스트 템플릿은 모든 종류의 텍스트를 생성 
      코드에서 사용 하 여 `this.Host.ResolvePath(filename)` 파일의 전체 경로를 가져옵니다.
 
 ### <a name="invoke-methods-from-a-template"></a>템플릿에서 메서드를 호출 합니다.
- 메서드가 이미 있는 경우, 예를 들어 표준 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 클래스:
+
+메서드가 이미 있는 경우, 예를 들어,.NET 클래스:
 
 - 사용 합니다 \<#@assembly#> 어셈블리를 로드 하 고 사용 하는 지시문 \<#@import#> 네임 스페이스 컨텍스트를 설정 합니다. 자세한 내용은 [T4 Import 지시문](../modeling/t4-import-directive.md)합니다.
 
    자주 어셈블리의 동일한 집합을 사용 하 고 import 지시문, 경우에 지시문 프로세서를 작성 하는 것이 좋습니다. 각 템플릿에 모델 파일과 어셈블리를 로드 하 고 네임 스페이스 컨텍스트를 설정할 수는 지시문 프로세서를 호출할 수 있습니다. 자세한 내용은 [사용자 지정 T4 텍스트 템플릿 지시문 프로세서 만들기](../modeling/creating-custom-t4-text-template-directive-processors.md)합니다.
 
-  작성 하는 경우 메서드를 직접.
+작성 하는 경우 메서드를 직접.
 
 - 런타임 텍스트 템플릿을 작성 하는 경우에 런타임 텍스트 템플릿에 같은 이름을 가진 partial 클래스 정의 작성 합니다. 이 클래스에 추가 메서드를 추가 합니다.
 

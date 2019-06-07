@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c2d337a1ed97524dc04c8154fe2b074baf0921ca
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5c7a915301dabc0afcfae450c87a435d12e10d15
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62927459"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745661"
 ---
 # <a name="troubleshoot-specific-errors-in-clickonce-deployments"></a>ClickOnce 배포 관련 오류 문제 해결
 이 문서에서는 배포 하는 경우 발생할 수 있는 다음과 같은 일반적인 오류가 나열 된 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 하 고 각 문제를 해결 하는 단계를 제공 합니다.
@@ -36,7 +36,7 @@ ms.locfileid: "62927459"
 
  먼저 서버에 연결 하도록 구성 되어 있는지 확인 합니다 *.application* 콘텐츠 형식 "application/x-ms-application"입니다.
 
- 서버가 올바르게 구성 되어, 경우에 확인을 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] 컴퓨터에 설치 됩니다. 경우는 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] 가 설치 되어 계속 나타나면이 문제를 제거 하 고 다시 설치 하 고는 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] 를 다시 클라이언트에서 콘텐츠 형식을 등록 합니다.
+ 서버가 올바르게 구성 되어, 경우에.NET Framework 2.0이 컴퓨터에 설치 되어 있는지 확인 합니다. .NET Framework 2.0이 설치 된 경우이 문제가 계속 나타나면 시도 제거 하 고 콘텐츠를 다시 등록 하는.NET Framework 2.0을 다시 설치 하면 클라이언트에서 입력 합니다.
 
 #### <a name="error-message-says-unable-to-retrieve-application-files-missing-in-deployment-or-application-download-has-been-interrupted-check-for-network-errors-and-try-again-later"></a>오류 메시지가 표시 되 면 "응용 프로그램을 검색할 수 없습니다. 배포에서 누락 된 파일"또는"응용 프로그램 다운로드가 중단 되었습니다, 네트워크 오류를 확인 하 고 나중에 다시 시도"
  이 메시지는 하나 이상의 파일에서 참조 하 고 나타냅니다는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 매니페스트를 다운로드할 수 없습니다. 이 오류를 디버그 하는 가장 쉬운 방법은 URL 다운로드를 시도 하는 것을 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 라는 다운로드할 수 없습니다. 일부 원인은 다음과 같습니다.

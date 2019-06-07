@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 086c4546d72042d2b2c7c1789cdf1695bc54b81d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2e57607cdfa8790c9b9fd4e692956f7bb823981a
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62808549"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744863"
 ---
 # <a name="ca1903-use-only-api-from-targeted-framework"></a>CA1903: 대상 프레임워크의 API만 사용하세요.
 
@@ -46,7 +46,7 @@ ms.locfileid: "62808549"
 |.NET Framework 3.5|.NET Framework 3.5 SP1|
 |.NET Framework 4|N/A|
 
- 프로젝트의 대상 프레임 워크를 변경 하려면을 참조 하세요 [특정.NET Framework 버전 대상 지정](../ide/visual-studio-multi-targeting-overview.md)합니다.
+ 프로젝트의 대상 프레임 워크를 변경 하려면 참조 [방법: 버전의.NET 대상](../ide/how-to-target-a-version-of-the-dotnet-framework.md)합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  서비스 팩에 대 한 종속성을 제거 하려면 새 멤버 또는 형식의 모든 사용을 제거 합니다. 의도적인 종속성 인 경우 경고를 억제 또는이 규칙을 해제 합니다.
@@ -67,4 +67,4 @@ ms.locfileid: "62808549"
 ## <a name="see-also"></a>참고자료
 
 - [Portability Warnings](../code-quality/portability-warnings.md)
-- [특정 대상 .NET Framework 버전 지정](../ide/visual-studio-multi-targeting-overview.md)
+- [개요를 대상으로 하는 프레임 워크](../ide/visual-studio-multi-targeting-overview.md)

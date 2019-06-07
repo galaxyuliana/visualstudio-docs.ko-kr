@@ -28,12 +28,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c5d7d5fa0a53ead2f49f89df37943d734a1b73fb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.openlocfilehash: 2f2343d71d2ed0745f9c5a2a799c3018a2e64945
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045344"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746259"
 ---
 # <a name="specify-symbol-pdb-and-source-files-in-the-visual-studio-debugger-c-c-visual-basic-f"></a>Visual Studio 디버거에서 기호 (.pdb) 및 원본 파일 지정 (C#, C++, Visual Basic의 경우 F#)
 
@@ -76,7 +76,7 @@ Visual Studio IDE에서 프로젝트를 디버깅할 때 디버거는 자동으�
 
      기호 서버를 사용할 수는 다음과 같습니다.
 
-     **공용 Microsoft 기호 서버**: 시스템 DLL 이나 타사 라이브러리를 호출 하는 동안 발생 하는 충돌을 디버깅 하려면 해야 시스템 *.pdb* 파일입니다. 시스템 *.pdb* Windows Dll에 대 한 기호를 포함 하는 파일 *.exe* 파일 및 장치 드라이버입니다. Windows 운영 체제, MDAC, IIS, ISA, 기호를 가져올 수 있습니다 및 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 공용 Microsoft 기호 서버에서.
+     **공용 Microsoft 기호 서버**: 시스템 DLL 이나 타사 라이브러리를 호출 하는 동안 발생 하는 충돌을 디버깅 하려면 해야 시스템 *.pdb* 파일입니다. 시스템 *.pdb* Windows Dll에 대 한 기호를 포함 하는 파일 *.exe* 파일 및 장치 드라이버입니다. 공용 Microsoft 기호 서버에서 Windows 운영 체제, MDAC, IIS, ISA 및.NET Framework에 대 한 기호를 가져올 수 있습니다.
 
      **내부 네트워크 또는 로컬 머신의 기호 서버**: 팀이나 회사는 사용자 고유 제품에 사용하기 위해서나 외부 소스의 기호에 대한 캐시로 기호 서버를 만들 수 있습니다. 기호 서버가 사용자의 컴퓨터에 있을 수도 있습니다.
 

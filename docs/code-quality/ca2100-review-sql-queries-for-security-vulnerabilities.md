@@ -19,12 +19,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 5387ce65532cb532192191bd67f29cc7af6e28c0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b3ba92e154e3091f6ec483ba469c3fe60f50ec61
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62545295"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66744813"
 ---
 # <a name="ca2100-review-sql-queries-for-security-vulnerabilities"></a>CA2100: 보안상 취약한 부분이 있는지 SQL 쿼리를 검토하십시오.
 
@@ -36,7 +36,8 @@ ms.locfileid: "62545295"
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
- 설정 하는 메서드는 <xref:System.Data.IDbCommand.CommandText%2A?displayProperty=fullName> 메서드에 문자열 인수 로부터 기본 제공 되는 문자열을 사용 하 여 속성입니다.
+
+설정 하는 메서드는 <xref:System.Data.IDbCommand.CommandText%2A?displayProperty=fullName> 메서드에 문자열 인수 로부터 기본 제공 되는 문자열을 사용 하 여 속성입니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -48,7 +49,7 @@ ms.locfileid: "62545295"
 
 - 명령 문자열을 만들기 전에 형식과 콘텐츠 모두에 대 한 사용자 입력의 유효성을 검사 합니다.
 
-다음.NET Framework 형식이 구현 된 <xref:System.Data.IDbCommand.CommandText%2A> 속성 또는 문자열 인수를 사용 하 여 속성을 설정 하는 생성자를 제공 합니다.
+다음.NET 유형은 구현 된 <xref:System.Data.IDbCommand.CommandText%2A> 속성 또는 문자열 인수를 사용 하 여 속성을 설정 하는 생성자를 제공 합니다.
 
 - <xref:System.Data.Odbc.OdbcCommand?displayProperty=fullName> 및 <xref:System.Data.Odbc.OdbcDataAdapter?displayProperty=fullName>
 
@@ -60,32 +61,36 @@ ms.locfileid: "62545295"
 
 형식의 ToString 메서드는 명시적 또는 암시적으로 사용 될 때이 규칙은 위반 했음을 알 수 있습니다. 쿼리 문자열을 생성 합니다. 다음은 예제입니다.
 
-```
+```csharp
 int x = 10;
 string query = "SELECT TOP " + x.ToString() + " FROM Table";
 ```
 
- 악의적인 사용자 tostring () 메서드를 재정의할 수 있으므로 규칙을 위반 합니다.
+악의적인 사용자 tostring () 메서드를 재정의할 수 있으므로 규칙을 위반 합니다.
 
- 또한 규칙 ToString 암시적으로 사용 되는 경우에 위반 됩니다.
+또한 규칙 ToString 암시적으로 사용 되는 경우에 위반 됩니다.
 
-```
+```csharp
 int x = 10;
 string query = String.Format("SELECT TOP {0} FROM Table", x);
 ```
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
- 이 규칙 위반 문제를 해결 하려면 매개 변수가 있는 쿼리를 사용 합니다.
+
+이 규칙 위반 문제를 해결 하려면 매개 변수가 있는 쿼리를 사용 합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
- 명령 텍스트에 사용자 입력이 없는 경우이 규칙에서 경고를 표시 하지 않아도 안전 합니다.
+
+명령 텍스트에 사용자 입력이 없는 경우이 규칙에서 경고를 표시 하지 않아도 안전 합니다.
 
 ## <a name="example"></a>예제
- 다음 예제에서는 메서드를 보여 줍니다 `UnsafeQuery`에서 규칙을 위반 하는 메서드는 `SaferQuery`, 매개 변수가 있는 명령 문자열을 사용 하 여 규칙을 충족 하는 합니다.
 
- [!code-vb[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/VisualBasic/ca2100-review-sql-queries-for-security-vulnerabilities_1.vb)]
- [!code-csharp[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CSharp/ca2100-review-sql-queries-for-security-vulnerabilities_1.cs)]
- [!code-cpp[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CPP/ca2100-review-sql-queries-for-security-vulnerabilities_1.cpp)]
+다음 예제에서는 메서드를 보여 줍니다 `UnsafeQuery`에서 규칙을 위반 하는 메서드는 `SaferQuery`, 매개 변수가 있는 명령 문자열을 사용 하 여 규칙을 충족 하는 합니다.
+
+[!code-vb[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/VisualBasic/ca2100-review-sql-queries-for-security-vulnerabilities_1.vb)]
+[!code-csharp[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CSharp/ca2100-review-sql-queries-for-security-vulnerabilities_1.cs)]
+[!code-cpp[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CPP/ca2100-review-sql-queries-for-security-vulnerabilities_1.cpp)]
 
 ## <a name="see-also"></a>참고자료
- [보안 개요](/dotnet/framework/data/adonet/security-overview)
+
+- [보안 개요](/dotnet/framework/data/adonet/security-overview)

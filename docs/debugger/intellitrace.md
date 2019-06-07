@@ -11,21 +11,19 @@ helpviewer_keywords:
 - IntelliTrace, debugging applications
 - debugger, (See also IntelliTrace [Visual Studio ALM])
 - debugging, (See also IntelliTrace [Visual Studio ALM])
-- IntelliTrace, collecting data from Test Manager
 - IntelliTrace
-- Test Manager, debugging with IntelliTrace
 - IntelliTrace, debugging after a crash
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cf491eae46c22d0804c66ab51071740e42de631c
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: d297b883c4d5217a0175c739bf460872d464503f
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65678816"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746667"
 ---
 # <a name="intellitrace-for-visual-studio-enterprise-c-visual-basic-c"></a>Visual Studio Enterprise에 대 한 IntelliTrace (C#, Visual Basic의 경우 C++)
 
@@ -44,7 +42,6 @@ Visual Studio Enterprise Edition(Professional 또는 Community Edition 아님)�
 |||
 |-|-|
 |**IntelliTrace를 사용하여 애플리케이션 디버그:**<br /><br /> - 이전 이벤트를 보여 줍니다.<br />- 이전 이벤트의 호출 정보를 보여 줍니다.<br />- 내 IntelliTrace 세션을 저장합니다.<br />- IntelliTrace에서 수집하는 데이터를 제어합니다.|- [IntelliTrace를 사용 하 여 이전 앱 상태를 검사 합니다.](../debugger/view-historical-application-state.md)<br />- [연습: IntelliTrace 사용](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace 기능](../debugger/intellitrace-features.md)<br />- [기록 디버깅](../debugger/historical-debugging.md)|
-|**Test Manager에서 테스트 세션 동안 IntelliTrace 데이터 수집**|- [수동 테스트에서 추가 진단 데이터 수집](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
 |**배포된 애플리케이션에서 IntelliTrace 데이터 수집**|- [IntelliTrace 독립 실행형 수집기 사용](../debugger/using-the-intellitrace-stand-alone-collector.md)|
 |**IntelliTrace 로그 파일(.iTrace 파일)에서 디버깅 시작**|- [저장된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)|
 
@@ -61,7 +58,7 @@ Visual Studio Enterprise Edition(Professional 또는 Community Edition 아님)�
 
 ## <a name="IntelliTraceVSTraditional"></a> IntelliTrace로 디버깅하는 이유는 무엇인가요?
 
-전통적인 디버깅이나 ‘라이브’ 디버깅은 이전 이벤트에 대해 제한된 데이터를 사용하여 애플리케이션의 현재 상태만 보여 줍니다. 응용 프로그램의 현재 상태를 기반으로 이러한 이벤트를 유추하거나 응용 프로그램을 다시 실행하여 이러한 이벤트를 다시 만들어야 합니다.
+전통적인 디버깅이나 ‘라이브’ 디버깅은 이전 이벤트에 대해 제한된 데이터를 사용하여 애플리케이션의 현재 상태만 보여 줍니다.  응용 프로그램의 현재 상태를 기반으로 이러한 이벤트를 유추하거나 응용 프로그램을 다시 실행하여 이러한 이벤트를 다시 만들어야 합니다.
 
 IntelliTrace는 이러한 시점에 특정 이벤트와 데이터를 기록하여 전통적인 디버깅 경험을 확장합니다. 이렇게 하면 특히 버그가 발생한 위치를 지나친 경우 응용 프로그램을 다시 시작하지 않고 어떤 일이 발생했는지 확인할 수 있습니다. IntelliTrace는 전통적인 디버깅 중에 기본적으로 켜지며 데이터를 표시하지 않고 자동으로 수집합니다. 이렇게 하면 전통적인 디버깅과 IntelliTrace 디버깅 사이를 쉽게 전환하여 기록된 정보를 볼 수 있습니다. 참조 [IntelliTrace 기능](../debugger/intellitrace-features.md) 고 [데이터는 IntelliTrace 수집?](#WhatData)
 
@@ -70,8 +67,6 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 다음 소스의 IntelliTrace 데이터를 저장할 수 있습니다.
 
 - Visual Studio 2015 Enterprise 이상 버전 또는 이전 버전의 Visual Studio Ultimate의 IntelliTrace 세션입니다.
-
-- Microsoft Test Manager의 테스트 세션
 
 - Microsoft Monitoring Agent 단독으로 또는 System Center 2012와 함께 사용할 때 IIS에서 호스팅된 ASP.NET 웹 앱 또는 배포에서 실행 중인 SharePoint 2010 및 SharePoint 2013 응용 프로그램. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md) 하 고 [Microsoft Monitoring Agent를 사용 하 여 모니터링](https://technet.microsoft.com/library/dn465153.aspx)합니다.
 
@@ -84,10 +79,6 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 - 예외가 발생합니다.
 
      IntelliTrace가 없으면 예외에 대한 메시지가 표시되지만 예외를 일으킨 이벤트에 대한 많은 정보를 갖지 못하게 됩니다. 호출 스택을 검사하여 예외를 초래한 호출 체인을 확인할 수 있지만 이러한 호출 중 발생한 이벤트 시퀀스는 확인할 수 없습니다. IntelliTrace를 사용하면 예외가 발생하기 전에 발생한 이벤트를 검사할 수 있습니다.
-
-- 응용 프로그램이 테스트 컴퓨터에서 충돌하더라도 개발 컴퓨터에서는 성공적으로 실행됩니다.
-
-     Microsoft Test Manager에서 IntelliTrace 데이터를 수집하고 데이터를 .iTrace 파일에 저장하며 이 파일을 향후 조사를 위해 Team Foundation Server 작업 항목에 첨부할 수 있습니다. 참조 [수동 테스트에서 추가 진단 데이터 수집](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts) 하 고 [사용 하 여 저장 된 IntelliTrace 데이터](../debugger/using-saved-intellitrace-data.md)입니다.
 
 - 배포된 응용 프로그램에서 버그 또는 충돌이 발생합니다.
 

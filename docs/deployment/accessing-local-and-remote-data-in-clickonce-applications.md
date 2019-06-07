@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1feb0dc2282dff39b3895ed0e63a0fdefeb65872
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 2c2a4f2e9fe66ab049113111f13338cdced4e39e
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63406614"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746078"
 ---
 # <a name="access-local-and-remote-data-in-clickonce-applications"></a>ClickOnce 애플리케이션의 로컬 및 원격 데이터 액세스
 대부분 애플리케이션에서는 데이터를 사용하거나 생성합니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]에서는 로컬에서 또는 원격으로 데이터를 읽고 쓰는 다양한 옵션을 제공합니다.
@@ -37,7 +37,7 @@ ms.locfileid: "63406614"
 ### <a name="clickonce-data-directory"></a>ClickOnce 데이터 디렉터리
  로컬 컴퓨터에 설치된 모든 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션에는 사용자의 Documents and Settings 폴더에 저장된 데이터 디렉터리가 있습니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램에 포함되고 “데이터" 파일로 표시된 모든 파일은 응용 프로그램이 설치될 때 이 디렉터리에 복사됩니다. 데이터 파일의 파일 형식은 가장 자주 사용되는 텍스트, XML 및 데이터베이스 파일(예: Microsoft Access .mdb 파일)이 될 수 있습니다.
 
- 데이터 디렉터리는 애플리케이션이 명시적으로 저장 및 유지 관리하는 데이터인 애플리케이션에서 관리되는 데이터에 사용됩니다. 애플리케이션 매니페스트에서 “데이터"로 표시되지 않은 모든 정적, 독립적 파일은 애플리케이션 디렉터리에 있습니다. 이 디렉터리에는 애플리케이션의 실행(*.exe*) 파일 및 어셈블리가 있습니다.
+ 데이터 디렉터리는 애플리케이션이 명시적으로 저장 및 유지 관리하는 데이터인 애플리케이션에서 관리되는 데이터에 사용됩니다. 애플리케이션 매니페스트에서 “데이터"로 표시되지 않은 모든 정적, 독립적 파일은 애플리케이션 디렉터리에 있습니다. 이 디렉터리에는 애플리케이션의 실행( *.exe*) 파일 및 어셈블리가 있습니다.
 
 > [!NOTE]
 > [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램이 제거되면 데이터 디렉터리도 제거됩니다. 문서와 같이 최종 사용자가 관리하는 데이터를 저장하는 데 절대 데이터 디렉터리를 사용하지 마세요.
@@ -60,7 +60,7 @@ ms.locfileid: "63406614"
 
  <xref:System.Windows.Forms.Application> 클래스에서 관련 변수(예: <xref:System.Windows.Forms.Application.LocalUserAppDataPath%2A>)를 사용하여 데이터 디렉터리 경로를 가져올 수도 있습니다.
 
- 기타 파일 형식을 조작하려면 추가 권한이 필요할 수 있습니다. 예를 들어, Access 데이터베이스를 사용 하려는 경우 (*.mdb*) 파일을 응용 프로그램 관련 사용 하려면 완전 신뢰를 가정 합니다 \<xref:System.Data > 클래스입니다.
+ 기타 파일 형식을 조작하려면 추가 권한이 필요할 수 있습니다. 예를 들어, Access 데이터베이스를 사용 하려는 경우 ( *.mdb*) 파일을 응용 프로그램 관련 사용 하려면 완전 신뢰를 가정 합니다 \<xref:System.Data > 클래스입니다.
 
 #### <a name="data-directory-and-application-versions"></a>데이터 디렉터리 및 애플리케이션 버전
  각 애플리케이션 버전에는 다른 버전에서 격리된 고유한 데이터 디렉터리가 있습니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]에서는 응용 프로그램에 런타임에 새 데이터 파일을 만들 위치가 있도록 데이터 파일이 배포에 포함되는지와 관계없이 이 디렉터리를 만듭니다. 새 응용 프로그램 버전이 설치될 때 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]에서는 기존 데이터 파일이 원래 배포에 포함되거나 응용 프로그램에서 만들어지는지와 관계없이 모든 기존 데이터 파일을 이전 버전의 데이터 디렉터리에서 새 버전의 데이터 디렉터리로 복사합니다.
@@ -72,7 +72,7 @@ ms.locfileid: "63406614"
 ### <a name="isolated-storage"></a>격리된 스토리지
  격리된 저장소는 단순 API를 사용하여 파일을 만들고 파일에 액세스하기 위한 API를 제공합니다. 저장된 파일의 실제 위치는 개발자 및 사용자에게 표시되지 않습니다.
 
- 격리된 저장소는 모든 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 버전에서 작동합니다. 격리된 저장소는 추가적인 권한을 부여할 필요 없이 부분적으로 신뢰할 수 있는 애플리케이션에서도 작동합니다. 애플리케이션이 부분 신뢰로 실행되어야 하지만 애플리케이션 특정 데이터를 유지 관리해야 하면 격리된 저장소를 사용해야 합니다.
+ 격리 된 저장소는 모든 버전의.NET Framework에서 작동합니다. 격리된 저장소는 추가적인 권한을 부여할 필요 없이 부분적으로 신뢰할 수 있는 애플리케이션에서도 작동합니다. 애플리케이션이 부분 신뢰로 실행되어야 하지만 애플리케이션 특정 데이터를 유지 관리해야 하면 격리된 저장소를 사용해야 합니다.
 
  자세한 내용은 [격리된 저장소](/dotnet/standard/io/isolated-storage)을 참조하세요.
 
@@ -98,7 +98,7 @@ ms.locfileid: "63406614"
  보안 제한으로 인해 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션이 웹 서버에 액세스할 수 없으면 애플리케이션은 해당 웹 사이트에 대한 <xref:System.Net.WebPermission> 을 어설션해야 합니다. 에 대 한 보안 권한을 높이 방법에 대 한 자세한 내용은 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 참조 하세요 [ClickOnce 보안 응용 프로그램](../deployment/securing-clickonce-applications.md)합니다.
 
 ### <a name="access-data-through-an-xml-web-service"></a>XML 웹 서비스를 통해 데이터에 액세스
- 데이터를 XML Web service로 노출하면 XML Web service 프록시를 통해 데이터에 액세스할 수 있습니다. 프록시는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]을(를) 사용하여 만든 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 클래스입니다. 고객 검색, 주문 제출 등의 XML Web service 작업은 프록시에서 메서드로 노출됩니다. 이를 통해 원시 텍스트 또는 XML 파일보다 훨씬 더 쉽게 Web services를 사용할 수 있습니다.
+ 데이터를 XML Web service로 노출하면 XML Web service 프록시를 통해 데이터에 액세스할 수 있습니다. 프록시는.NET Framework 클래스 중 하나를 사용 하 여 만든 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]합니다. 고객 검색, 주문 제출 등의 XML Web service 작업은 프록시에서 메서드로 노출됩니다. 이를 통해 원시 텍스트 또는 XML 파일보다 훨씬 더 쉽게 Web services를 사용할 수 있습니다.
 
  XML Web service가 HTTP를 통해 작동할 경우 서비스는 <xref:System.Net.WebClient> 및 <xref:System.Net.HttpWebRequest> 클래스와 같은 보안 제한 사항이 적용됩니다.
 
