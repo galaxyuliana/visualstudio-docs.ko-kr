@@ -1,7 +1,7 @@
 ---
 title: 변경 로그(Visual Studio Tools for Unity, Windows) | Microsoft Docs
 ms.custom: ''
-ms.date: 04/02/2019
+ms.date: 05/28/2019
 ms.technology: vs-unity-tools
 ms.topic: conceptual
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -10,15 +10,75 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: f6523f958d334108eb6a3fbe9e5c44e416ff8df7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: acf80d1c700c0ac6c889ecd786a53cccda8604f3
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63403193"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66327350"
 ---
 # <a name="change-log-visual-studio-tools-for-unity-windows"></a>변경 로그(Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity에 대한 변경 로그입니다.
+
+## <a name="4110"></a>4.1.1.0
+ 릴리스 날짜: 2019년 5월 24일
+
+### <a name="new-features"></a>새 기능
+
+- **통합:**
+
+    - MonoBehaviour API가 2019.1로 업데이트되었습니다.
+
+### <a name="bug-fixes"></a>버그 수정
+
+- **통합:**
+
+    - 간단한 빌드가 사용되는 경우 출력에 대한 경고 및 오류 보고 문제가 해결되었습니다.
+    
+    - 간단한 빌드 성능 문제가 해결되었습니다.
+
+## <a name="4100"></a>4.1.0.0
+ 릴리스 날짜: 2019년 5월 21일
+
+### <a name="new-features"></a>새 기능
+
+- **통합:**
+
+    - 프로젝트를 더 빠르게 다시 로드하기 위한 새 배치 API에 대한 지원이 추가되었습니다.
+    
+    - IntelliSense 오류 및 경고를 사용하기 위해 Unity 프로젝트에 대한 전체 빌드를 사용하지 않도록 설정했습니다. 실제로 Unity는 내부적으로 수행하는 작업을 나타내는 클래스 라이브러리 프로젝트를 사용하여 Visual Studio 솔루션을 만듭니다. 즉, Visual Studio에서 이루어진 빌드의 결과는 컴파일 파이프라인이 닫혀 있기 때문에 Unity에서 절대 사용하거나 선택하지 않습니다. Visual Studio에서 이루어지는 빌드는 아무런 결과 없이 리소스를 소비하기만 합니다. 도구 또는 종속된 설치 프로그램을 갖고 있어 전체 빌드가 필요한 경우에는 이 최적화를 사용하지 않도록 설정할 수 있습니다(도구/옵션/Tools for Unity/프로젝트의 전체 빌드 사용 안 함). 
+
+    - Unity 프로젝트를 로드하는 경우 UPE(Unity 프로젝트 탐색기)를 자동으로 표시합니다. UPE는 솔루션 탐색기 옆에 고정됩니다.
+    
+    - Unity 2019.x에서 프로젝트 이름 추출 메커니즘을 업데이트했습니다.
+
+    - UPE에 Unity 패키지에 대한 지원이 추가되었습니다. 참조 패키지(```Packages``` 폴더에서 manifest.json 사용) 및 로컬 패키지(```Packages``` 폴더에 포함)만 볼 수 있습니다.
+    
+- **Project Generation:**
+
+    - 솔루션 파일을 처리할 때 외부 속성을 보존합니다.
+
+- **평가:**
+
+    - 정규화된 별칭 이름에 대한 지원이 추가되었습니다(아직은 전역 네임스페이스만). 따라서 식 계산기는 이제 global::namespace.type 양식을 사용하는 형식을 허용합니다.
+    
+    - 포인터 역참조 ```*(pointer+index)``` 양식과 의미상 동일한 ```pointer[index]``` 양식에 대한 지원이 추가되었습니다.
+
+### <a name="bug-fixes"></a>버그 수정
+
+- **통합:**
+
+    - Microsoft.VisualStudio.MPF의 종속성 문제가 해결되었습니다.
+    
+    - 프로젝트를 로드하지 않은 상태에서 UWP 플레이어가 첨부되는 문제가 해결되었습니다.
+    
+    - Visual Studio가 아직 첨부되지 않은 경우 자산 데이터베이스의 새로 고침이 자동으로 이루어지는 문제가 해결되었습니다.
+    
+    - 레이블 및 확인란의 테마 문제가 해결되었습니다.
+    
+- **디버거:**
+
+    - 정적 생성자의 단계별 실행 문제가 해결되었습니다.
 
 ## <a name="4005"></a>4.0.0.5
  릴리스 날짜: 2019년 2월 27일

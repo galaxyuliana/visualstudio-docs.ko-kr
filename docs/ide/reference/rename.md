@@ -12,12 +12,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 48e45373c41358ba3e9c2d70222ace07cdf1b59e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2b18f5763d68487e7642f5632c05516d2f1bd9e2
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62812111"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66500946"
 ---
 # <a name="rename-a-code-symbol-refactoring"></a>코드 기호 이름 바꾸기 래픽터링
 
@@ -37,7 +37,7 @@ ms.locfileid: "62812111"
 
 1. 이름을 바꿀 항목을 강조 표시하거나 항목 내부에 텍스트 커서를 놓습니다.
 
-   - C#: 
+   - C#:
 
        ![강조 표시된 코드 - C#](media/rename-highlight-cs.png)
 
@@ -55,7 +55,7 @@ ms.locfileid: "62812111"
 
 3. 항목의 이름을 바꾸려면 새 이름을 입력하면 됩니다.
 
-   - C#: 
+   - C#:
 
       ![애니메이션 이름 바꾸기 - C#](media/rename-animated-cs.gif)
 
@@ -68,10 +68,13 @@ ms.locfileid: "62812111"
 
 4. 변경 내용에 만족할 경우 **적용** 단추를 선택하거나 **Enter** 키를 누르면 변경 내용이 커밋됩니다.
 
-> [!NOTE]
-> 충돌을 일으키는 기존 이름을 사용할 경우 **이름 바꾸기** 상자에 경고가 표시됩니다.
->
-> ![이름 바꾸기 충돌](media/rename-conflict-cs.png)
+## <a name="remarks"></a>주의
+
+- 충돌을 일으키는 기존 이름을 사용할 경우 **이름 바꾸기** 상자에 경고가 표시됩니다.
+
+   ![이름 바꾸기 충돌](media/rename-conflict-cs.png)
+
+- 기호의 이름을 바꾸는 다른 방법은 편집기에서 해당 이름을 변경하는 것입니다. 그런 다음 커서를 기호 이름에 놓고 **Ctrl**+**을 누릅니다.** 또는 나타나는 전구 아이콘 메뉴를 확장한 후 **이름 바꾸기\<를 선택하여 이전 이름을 \<새 이름**으로 바꿉니다.
 
 ## <a name="see-also"></a>참고 항목
 

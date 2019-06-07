@@ -1,6 +1,6 @@
 ---
 title: '1단계: Windows Forms 애플리케이션 프로젝트 만들기'
-ms.date: 03/23/2019
+ms.date: 06/01/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7f529d737816406b3a4f6aa9921a8dc6b902d2fb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1b28b69f2a5f2b02c483c5d6813943297b13f173
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62979868"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501062"
 ---
 # <a name="step-1-create-a-windows-forms-application-project"></a>1단계: Windows Forms 애플리케이션 프로젝트 만들기
 
@@ -28,14 +28,13 @@ ms.locfileid: "62979868"
 
 ## <a name="open-visual-studio-2017"></a>Visual Studio 2017을 엽니다.
 
-1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다. 대화 상자는 다음과 같습니다.
+1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다. 대화 상자가 다음 스크린샷과 유사하게 표시될 것입니다.
 
-     ![새 프로젝트 대화 상자](../ide/media/newprojectdialogcallouts.png)<br/>
-***새 프로젝트** 대화 상자*
+     ![새 프로젝트 대화 상자](../ide/media/newprojectdialogcallouts.png)<br/>***새 프로젝트*** *대화 상자*
 
-2. **새 프로젝트** 대화 상자의 왼쪽에서 **Visual C#** 또는 **Visual Basic**을 선택합니다.
+2. **새 프로젝트** 대화 상자의 왼쪽에서 **Visual C#** 또는 **Visual Basic**을 선택한 다음 **Windows 데스크톱**을 선택합니다.
 
-3. 템플릿 목록에서 **Windows Forms 앱(.NET Framework)** 을 선택합니다. 새 폼의 이름을 **PictureViewer**로 지정한 후 **확인** 단추를 선택합니다.
+3. 템플릿 목록에서 **Windows Forms 앱(.NET Framework)** 을 선택합니다. 새 폼의 이름을 *PictureViewer*로 지정한 후 **확인** 단추를 선택합니다.
 
     >[!NOTE]
     >**Windows Forms 앱(.NET Framework)** 템플릿이 표시되지 않을 경우 Visual Studio 설치 관리자를 사용하여 **.NET 데스크톱 개발** 워크로드를 설치합니다.<br/><br/>![Visual Studio 설치 관리자의 .NET 데스크톱 개발 워크로드](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> 자세한 내용은 [Visual Studio 설치](../install/install-visual-studio.md) 페이지를 참조하세요.
@@ -50,7 +49,7 @@ ms.locfileid: "62979868"
 
    !['새 프로젝트 만들기' 창 보기](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. **새 프로젝트 만들기** 창의 검색 상자에 *Windows Forms*를 입력합니다. 그런 다음, 언어 목록에서 **Visual Basic**을 선택한 다음, 플랫폼 목록에서 **Windows**를 선택합니다. 
+1. **새 프로젝트 만들기** 창의 검색 상자에 *Windows Forms*를 입력합니다. 그런 다음, 언어 목록에서 **Visual Basic**을 선택한 다음, 플랫폼 목록에서 **Windows**를 선택합니다.
 
    언어 및 플랫폼 필터를 적용한 후 **Windows Forms 앱(.NET Framework)** 템플릿을 선택하고 **다음**을 선택합니다.
 
@@ -59,13 +58,13 @@ ms.locfileid: "62979868"
    > [!NOTE]
    > **Windows Forms 앱(.NET Framework)** 템플릿이 표시되지 않는 경우 **새 프로젝트를 만들기** 창에서 설치할 수 있습니다. **원하는 항목을 찾을 수 없나요?** 메시지에서 **추가 도구 및 기능 설치** 링크를 선택합니다.
    >
-   > !['새 프로젝트 만들기' 창의 '원하는 항목을 찾을 수 없음' 메시지에서 '추가 도구 및 기능 설치' 링크](../get-started/media/vs-2019/not-finding-what-looking-for.png) 
-   > 
+   > !['새 프로젝트 만들기' 창의 '원하는 항목을 찾을 수 없음' 메시지에서 '추가 도구 및 기능 설치' 링크](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
    > 그런 다음, Visual Studio 설치 관리자에서 **.NET 데스크톱 개발** 워크로드를 선택합니다.
-   > 
+   >
    > ![Visual Studio 설치 관리자의 .NET Core 워크로드](../ide/media/install-dot-net-desktop-env.png)
    >
-   > 그런 다음, Visual Studio 설치 관리자에서 **수정** 단추를 선택합니다. 작업 내용을 저장하라는 메시지가 나타날 수 있습니다. 그럴 경우 그렇게 하세요. 다음으로, **계속**을 선택하여 워크로드를 설치합니다. 
+   > 그런 다음, Visual Studio 설치 관리자에서 **수정** 단추를 선택합니다. 작업 내용을 저장하라는 메시지가 나타날 수 있습니다. 그럴 경우 그렇게 하세요. 다음으로, **계속**을 선택하여 워크로드를 설치합니다.
 
 1. **새 프로젝트 구성** 창의 **프로젝트 이름** 상자에 *PictureViewer*를 입력합니다. 그런 다음, **만들기**를 선택합니다.
 

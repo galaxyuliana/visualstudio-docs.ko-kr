@@ -13,22 +13,20 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a0fb75badac32d09dff241cd4f339a89d6cc558d
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 55e035ab0c3702c571b69b555d99adbf7cb0b7e9
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66261327"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501180"
 ---
 # <a name="default-keyboard-shortcuts-in-visual-studio"></a>Visual Studio의 기본 바로 가기 키
 
 키보드 접근성에 대한 자세한 내용은 [접근성 팁과 요령](../ide/reference/accessibility-tips-and-tricks.md) 및 [방법: 단독으로 키보드 사용](../ide/reference/how-to-use-the-keyboard-exclusively.md)을 참조하세요.
 
-해당 바로 가기 키를 선택하여 Visual Studio의 다양한 명령 및 창에 액세스할 수 있습니다. 이 항목에는 Visual Studio를 설치할 때 선택한 일반 개발 프로필의 기본 바로 가기 목록이 나와 있습니다. 선택한 프로필에 관계없이 **옵션** 대화 상자를 열고 **환경** 노드를 확장한 다음 **키보드**를 선택하여 명령의 바로 가기를 확인할 수 있습니다. 또한 지정한 명령에 다른 바로 가기를 할당하여 바로 가기를 사용자 지정할 수도 있습니다.
+해당 바로 가기 키를 선택하여 Visual Studio의 다양한 명령 및 창에 액세스할 수 있습니다. 이 항목에는 Visual Studio를 설치할 때 선택한 **일반** 프로필의 기본 바로 가기 목록이 나와 있습니다. 선택한 프로필에 관계없이 **옵션** 대화 상자를 열고 **환경** 노드를 확장한 다음 **키보드**를 선택하여 명령의 바로 가기를 확인할 수 있습니다. 또한 지정한 명령에 다른 바로 가기를 할당하여 바로 가기를 사용자 지정할 수도 있습니다.
 
 일반적인 바로 가기 키 목록과 기타 생산성 정보는 [Visual Studio에서 자주 사용되는 명령의 기본 바로 가기 키](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md), [키보드 팁](../ide/tips-and-tricks-for-visual-studio.md) 및 [생산성 팁](../ide/productivity-tips-for-visual-studio.md)을 참조하세요.
-
-다음 표의 섹션에는 Visual Studio의 어디서나 바로 가기 키를 사용하여 액세스할 수 있는 전역 명령이 나와 있습니다.
 
 |||||
 |-|-|-|-|
@@ -40,7 +38,9 @@ ms.locfileid: "66261327"
 |[디버거 상황에 맞는 메뉴](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)|[기타 상황에 맞는 메뉴](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)|[Team Foundation 상황에 맞는 메뉴](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)|[Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)|
 |[진단 허브](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)||||
 
-## <a name="bkmk_global"></a> 전역
+## <a name="global-shortcuts"></a>전역 바로 가기
+
+이러한 바로 가기 키는 *전역*이므로 Visual Studio 창에 포커스가 있을 때 사용할 수 있습니다.
 
 ### <a name="bkmk_analyze"></a> 분석
 
@@ -161,6 +161,7 @@ ms.locfileid: "66261327"
 |편집.잘라내기|**Ctrl+X**<br /><br /> 또는<br /><br /> **Shift+Delete**|
 |편집.클립보드링순환|**Ctrl+Shift+V**<br /><br /> 또는<br /><br /> **Ctrl+Shift+Ins**|
 |편집.삭제|**삭제**|
+|Edit.Duplicate|**Ctrl+D**|
 |편집.찾기|**Ctrl+F**|
 |편집.모든참조찾기|**Shift+F12**|
 |편집.파일에서찾기|**Ctrl+Shift+F**|
@@ -170,11 +171,12 @@ ms.locfileid: "66261327"
 |편집.이전찾기선택|**Ctrl+Shift+F3**|
 |Edit.GenerateMethod|**Ctrl+K, Ctrl+M**|
 |편집.이동|**Ctrl+G**|
+|Edit.GoToAll|**Ctrl+,** 또는 **Ctrl+T**|
 |편집.선언으로이동|**Ctrl+F12**|
 |편집.정의로이동|**F12**|
-|편집.찾기콤보상자로이동|**Ctrl+D**|
-|편집.다음위치로이동|**F8**|
-|편집.이전위치로이동|**Shift+F8**|
+|Edit.GoToMember|**Ctrl+1, Ctrl+M** 또는 **Ctrl+1, M** 또는 **Alt+\\**|
+|편집.다음위치로이동|**F8**(오류 목록 또는 출력 창의 다음 오류)|
+|편집.이전위치로이동|**Shift+F8**(오류 목록 또는 출력 창의 이전 오류)|
 |편집.코드조각삽입|**Ctrl+K, Ctrl+X**|
 |편집.컨트롤아래로이동|**Ctrl+아래쪽 화살표**|
 |편집.모눈아래로컨트롤이동|**아래쪽 화살표**|
@@ -184,10 +186,9 @@ ms.locfileid: "66261327"
 |편집.모눈오른쪽으로컨트롤이동|**오른쪽 화살표**|
 |편집.컨트롤위로이동|**Ctrl+위쪽 화살표**|
 |편집.모눈위로컨트롤이동|**위쪽 화살표**|
-|편집.탐색|**Ctrl+,**|
 |편집.다음책갈피|**Ctrl+K, Ctrl+N**|
 |편집.폴더의다음책갈피|**Ctrl+Shift+K, Ctrl+Shift+N**|
-|Edit.OpenFile|**Ctrl+Shift+G**|
+|Edit.OpenFile|**Ctrl+Shift+G**(커서 아래에 파일 이름이 열림)|
 |편집.붙여넣기|**Ctrl+V**<br /><br /> 또는<br /><br /> **Shift+Ins**|
 |편집.이전책갈피|**Ctrl+K, Ctrl+P**|
 |편집.폴더의이전책갈피|**Ctrl+Shift+K, Ctrl+Shift+P**|
@@ -346,7 +347,6 @@ ms.locfileid: "66261327"
 |Tools.AttachtoProcess|**Ctrl+Alt+P**|
 |도구.코드조각관리자|**Ctrl+K, Ctrl+B**|
 |Tools.ForceGC|**Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12**|
-|도구.명령줄로이동|**Ctrl+/**|
 
 ### <a name="bkmk_view"></a> 보기
 
@@ -354,7 +354,7 @@ ms.locfileid: "66261327"
 |--------------| - |
 |View.AllWindows|**Shift+Alt+M**|
 |View.ArchitectureExplorer|**Ctrl+\\, Ctrl+R**|
-|View.Backward|**Alt+왼쪽 화살표**|
+|View.Backward|**Alt+왼쪽 화살표**(텍스트 편집기의 View.NavigateBackward와 다른 기능 수행)|
 |보기.책갈피창|**Ctrl+K, Ctrl+W**|
 |보기.다음찾아보기|**Ctrl+Shift+1**|
 |보기.이전찾아보기|**Ctrl+Shift+2**|
@@ -369,7 +369,7 @@ ms.locfileid: "66261327"
 |보기.오류목록|**Ctrl+\\, E**<br /><br /> 또는<br /><br /> **Ctrl+\\, Ctrl+E**|
 |보기.F#Interactive|**Ctrl+Alt+F**|
 |보기.기호찾기결과|**Ctrl+Alt+F12**|
-|View.Forward|**Alt+오른쪽 화살표**|
+|View.Forward|**Alt+오른쪽 화살표**(텍스트 편집기의 View.NavigateForward와 다른 기능 수행)|
 |보기.정방향검색컨텍스트|**Ctrl+Shift+7**|
 |보기.전체화면|**Shift+Alt+Enter**|
 |보기.뒤로탐색|**Ctrl+-**|
@@ -379,7 +379,7 @@ ms.locfileid: "66261327"
 |보기.개체브라우저|**Ctrl+Alt+J**|
 |보기.개체브라우저검색콤보상자로이동|**Ctrl+K, Ctrl+R**|
 |보기.출력|**Ctrl+Alt+O**(문자 ‘O’)|
-|View.PopBrowseContex|**Ctrl+Shift+8**|
+|View.PopBrowseContext|**Ctrl+Shift+8**(C++만 해당)|
 |보기.속성창|**F4**|
 |보기.속성페이지|**Shift+F4**|
 |보기.리소스뷰|**Ctrl+Shift+E**|
@@ -779,7 +779,6 @@ ms.locfileid: "66261327"
 | 편집.오른쪽문자로 | **오른쪽 화살표** |
 | 편집.오른쪽문자까지선택 | **Shift+오른쪽 화살표** |
 | 편집.오른쪽문자까지열확장선택 | **Shift+Alt+오른쪽 화살표** |
-| 편집.문자바꾸기 | **Ctrl+T** |
 | 편집.책갈피지우기 | **Ctrl+K, Ctrl+L** |
 | 편집.전체개요축소 | **Ctrl+M, Ctrl+A** |
 | 편집.현재영역축소 | **Ctrl+M, Ctrl+S** |

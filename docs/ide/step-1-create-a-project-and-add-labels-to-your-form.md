@@ -1,6 +1,6 @@
 ---
 title: '1단계: 프로젝트 만들기 및 양식에 레이블 추가'
-ms.date: 11/04/2016
+ms.date: 05/31/2019
 ms.topic: conceptual
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -10,12 +10,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d32ae922726a13416086e982679483ae36f2ad0e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3c04e0700a9913548b33e1ef3e9092f774cddc77
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62949139"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501142"
 ---
 # <a name="step-1-create-a-project-and-add-labels-to-your-form"></a>1단계: 프로젝트 만들기 및 양식에 레이블 추가
 
@@ -24,17 +24,20 @@ ms.locfileid: "62949139"
 > [!NOTE]
 > 이 항목은 기본 코딩 개념에 대해 설명하는 자습서 시리즈의 일부입니다. 자습서에 대한 개요는 [자습서 2: 시간이 지정된 수학 퀴즈 만들기](../ide/tutorial-2-create-a-timed-math-quiz.md)를 참조하세요.
 
-## <a name="to-create-a-project-and-set-properties-for-a-form"></a>프로젝트를 만들고 폼의 속성을 설정하려면
+## <a name="to-create-a-project-for-a-form"></a>양식에 대한 프로젝트를 만들려면
 
 ::: moniker range="vs-2017"
 
 1. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
-1. **설치된 템플릿** 목록에서 **C#** 또는 **Visual Basic**을 선택합니다.
+1. **새 프로젝트** 대화 상자의 왼쪽에서 **Visual C#** 또는 **Visual Basic**을 선택한 다음 **Windows 데스크톱**을 선택합니다.
 
-1. 템플릿 목록에서 **Windows Forms 애플리케이션** 템플릿을 선택하고 이름을 **MathQuiz**로 지정한 다음, **확인** 단추를 선택합니다.
+1. 템플릿 목록에서 **Windows Forms 앱(.NET Framework)** 템플릿을 선택하고 이름을 *MathQuiz*로 지정한 다음 **확인** 단추를 선택합니다.
 
-     선택한 프로그래밍 언어에 따라 *Form1.cs* 또는 *Form1.vb*라는 폼이 표시됩니다.
+    선택한 프로그래밍 언어에 따라 *Form1.cs* 또는 *Form1.vb*라는 폼이 표시됩니다.
+
+   > [!NOTE]
+   > **Windows Forms 앱(.NET Framework)** 템플릿이 표시되지 않을 경우 Visual Studio 설치 관리자를 사용하여 **.NET 데스크톱 개발** 워크로드를 설치합니다.<br/><br/>![Visual Studio 설치 관리자의 .NET 데스크톱 개발 워크로드](../ide/media/dot-net-desktop-dev-workload.png)<br/><br/> 자세한 내용은 [Visual Studio 설치](../install/install-visual-studio.md) 페이지를 참조하세요.
 
 ::: moniker-end
 
@@ -42,15 +45,32 @@ ms.locfileid: "62949139"
 
 1. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
 
-1. 검색 상자에 “WPF”를 입력하고 **WPF 앱(.NET Framework)** 을 선택한 후 **다음**을 선택합니다.
+   !['새 프로젝트 만들기' 창 보기](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-   **WPF 앱(.NET Framework)** 템플릿이 표시되지 않는 경우 Visual Studio 설치 관리자를 사용하여 **.NET 데스크톱 개발** 워크로드를 설치합니다.
+1. **새 프로젝트 만들기** 창의 검색 상자에 *Windows Forms*를 입력합니다.
 
-1. 프로젝트 이름을 **MathQuiz**로 지정하고 **만들기**를 선택합니다.
+1. **Windows Forms 앱(.NET Framework)** 템플릿을 선택한 후 **다음**을 선택합니다.
+
+   ![Windows Forms 앱(.NET Framework)용 Visual Basic 템플릿 선택](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+
+   > [!NOTE]
+   > **Windows Forms 앱(.NET Framework)** 템플릿이 표시되지 않는 경우 **새 프로젝트를 만들기** 창에서 설치할 수 있습니다. **원하는 항목을 찾을 수 없나요?** 메시지에서 **추가 도구 및 기능 설치** 링크를 선택합니다.
+   >
+   > !['새 프로젝트 만들기' 창의 '원하는 항목을 찾을 수 없음' 메시지에서 '추가 도구 및 기능 설치' 링크](../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
+   > 그런 다음, Visual Studio 설치 관리자에서 **.NET 데스크톱 개발** 워크로드를 선택합니다.
+   >
+   > ![Visual Studio 설치 관리자의 .NET Core 워크로드](../ide/media/install-dot-net-desktop-env.png)
+   >
+   > 그런 다음, Visual Studio 설치 관리자에서 **수정** 단추를 선택합니다. 작업 내용을 저장하라는 메시지가 나타날 수 있습니다. 그럴 경우 그렇게 하세요. 다음으로, **계속**을 선택하여 워크로드를 설치합니다.
+
+1. **새 프로젝트 구성** 창에서 **프로젝트 이름** 상자에 *MathQuiz*를 입력합니다. 그런 다음, **만들기**를 선택합니다.
 
 ::: moniker-end
 
-1. 폼을 선택한 다음 **Text** 속성을 **수학 퀴즈**로 변경합니다.
+## <a name="to-set-properties-for-a-form"></a>양식의 속성을 설정하려면
+
+1. Visual Studio에서 양식(프로그래밍 언어에 따라 *Form1.cs* 또는 *Form1.vb*)을 선택한 다음 **텍스트** 속성을 **Math Quiz**로 변경합니다.
 
      **속성** 창에는 폼 속성이 포함되어 있습니다.
 
@@ -80,7 +100,7 @@ ms.locfileid: "62949139"
 
 6. **속성** 창에서 **Text** 속성을 선택한 다음, **백스페이스** 키를 선택하여 속성 값을 지웁니다.
 
-7. **Font** 속성 옆의 더하기 기호(**+**)를 선택한 다음, **Size** 속성의 값을 **15.75**로 변경합니다.
+7. **Font** 속성 옆의 더하기 기호( **+** )를 선택한 다음, **Size** 속성의 값을 **15.75**로 변경합니다.
 
      다음 그림과 같이 여러 가지 글꼴 속성을 변경할 수 있습니다.
 
@@ -116,11 +136,11 @@ ms.locfileid: "62949139"
 
      공백 줄을 사용하여 세 레이블을 일정한 간격으로 정렬할 수 있습니다.
 
-11. 두 번째 레이블의 **Text** 속성 값을 **+**(더하기 기호)로 설정합니다.
+11. 두 번째 레이블의 **Text** 속성 값을 **+** (더하기 기호)로 설정합니다.
 
 12. 세 번째 레이블의 **(Name)** 속성 값을 **plusRightLabel**로 설정합니다.
 
-13. 네 번째 레이블의 **Text** 속성 값을 **=**(등호)로 설정합니다.
+13. 네 번째 레이블의 **Text** 속성 값을 **=** (등호)로 설정합니다.
 
 14. **도구 상자**에서 <xref:System.Windows.Forms.NumericUpDown> 컨트롤을 추가한 후 글꼴 크기를 **18**로, 너비를 **100**으로 설정합니다.
 
@@ -144,7 +164,7 @@ ms.locfileid: "62949139"
 
      공백 줄을 사용하여 두 행 사이에 충분한 간격을 둘 수 있습니다.
 
-3. 두 번째 레이블의 **Text** 속성 값을 **-**(빼기 기호)로 변경합니다.
+3. 두 번째 레이블의 **Text** 속성 값을 **-** (빼기 기호)로 변경합니다.
 
 4. 첫 번째 물음표 레이블의 이름을 **minusLeftLabel**로 지정합니다.
 

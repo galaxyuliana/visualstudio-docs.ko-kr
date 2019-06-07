@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 88e4f63646883c8d48dbd62fbd03deaddff8b8e2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 06432ac0e882df506e4379a2f2cbffcf52c79f42
+ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62975595"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66332759"
 ---
 # <a name="how-to-add-class-diagrams-to-projects"></a>방법: 프로젝트에 클래스 다이어그램 추가
 
@@ -71,6 +71,9 @@ ms.locfileid: "62975595"
 **솔루션 탐색기**나 클래스 뷰에서 프로젝트를 마우스 오른쪽 단추로 클릭하고 **보기**, **클래스 다이어그램 보기**를 차례로 선택합니다.
 
 자동으로 채워진 클래스 다이어그램이 만들어집니다.
+
+> [!NOTE]
+> .NET Core 프로젝트에서는 아직 클래스 디자이너를 사용할 수 없습니다.
 
 ## <a name="see-also"></a>참고 항목
 

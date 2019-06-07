@@ -7,12 +7,12 @@ ms.date: 03/14/2018
 ms.topic: conceptual
 description: MPSA(Microsoft 제품 및 서비스 계약)에서 Visual Studio 구독
 searchscope: VS Subscription
-ms.openlocfilehash: cf0a6c0c7f09cefa70edd0af1dcedf46afdf81bf
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ac051650c26dc2dbb7c6ee6d9405963536dd98c9
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63002316"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402169"
 ---
 # <a name="visual-studio-subscriptions-in-a-microsoft-products-and-services-agreement-mpsa"></a>MPSA(Microsoft 제품 및 서비스 계약)에서 Visual Studio 구독
 
@@ -64,4 +64,4 @@ MPSA 고객으로서 MPSA을 통해 구매한 자산을 관리할 수 있는 포
 
 MPSA 지원: **1-866-200-9611**, 월요일-금요일 오전 5시 30분에서 오후 5시 30분까지(태평양 표준시) 문의 가능
 
-이메일: ngvlsup@microsoft.com
+온라인: https://support.microsoft.com/supportrequestform/2afa6f15-b710-db46-909a-8346017c802f?sl=enampsc=US
