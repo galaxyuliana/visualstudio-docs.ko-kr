@@ -7,12 +7,12 @@ ms.date: 2/13/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 기술 지원 혜택을 활성화하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 5464157d27833781edbcbe041d17ad5ecab5eebb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e9b0d4c829f2ff6605885a26eec0a3ebd34282dd
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62811534"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402025"
 ---
 # <a name="activate-and-use-the-technical-support-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 기술 지원 혜택 활성화 및 사용
 
@@ -28,7 +28,7 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
 
 ## <a name="how-to-activate-the-benefit"></a>혜택을 활성화하는 방법
 
-1.  https://my.visualstudio.com/Benefits 로 이동하여 지원 섹션까지 아래로 스크롤하고, 기술 지원 타일에서 **채팅하여 활성화**를 클릭합니다.
+1. https://my.visualstudio.com/Benefits 로 이동하여 지원 섹션까지 아래로 스크롤하고, 기술 지원 타일에서 **채팅하여 활성화**를 클릭합니다.
     > [!div class="mx-imgBorder"]
     > ![기술 지원 혜택 타일](_img/vs-tech-support/vs-tech-support-tile.png)
 2. 이렇게 하면 **계약 ID** 및 **액세스 ID**를 만들고 이메일을 통해 제공하여 기록을 위해 사용할 수 있는 담당자와 채팅 세션이 시작됩니다.
@@ -90,6 +90,9 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
 
    > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 인시던트 제출 - 계획 선택](_img/vs-tech-support/vs-tech-support-choose-plan.png)
+
+   > [!NOTE]
+   > 지원 플랜을 보지 않으려면 이전 페이지로 돌아가서 다시 **다음**을 클릭합니다.  지원 플랜을 표시하지 못한 경우 지원 문제 텍스트를 클립보드에 복사하고 페이지를 새로 고친 다음 지원 문제를 다시 만듭니다.
 
 6. 나머지 단계(심각도, 연락처 정보, 검토)를 완료합니다.   인시던트를 제출하면 인시던트가 성공적으로 제출되었고 그 사례에 대한 파일을 업로드할 수 있다는 확인 메시지가 나타납니다. 지원 전문가가 해당 인시던트에 할당되고, 선택한 연락 방법을 사용하여 문제를 해결하기 위해 사용자에게 연락합니다.
 

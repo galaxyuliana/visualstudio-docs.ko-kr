@@ -1,5 +1,5 @@
 ---
-title: 스텁을 사용하여 단위 테스트를 위한 애플리케이션 부분 격리
+title: 스텁을 사용하여 테스트를 위한 앱 부분 격리
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.author: gewarren
@@ -10,12 +10,12 @@ author: gewarren
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: 08631af916947021f37bfb3c73b821ba37e3b462
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b88905df0c99eb66c64e529610d6713801fceece
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62961974"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401720"
 ---
 # <a name="use-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing"></a>스텁을 사용하여 단위 테스트를 위한 애플리케이션의 여러 부분을 서로 격리
 
@@ -228,9 +228,9 @@ class TestMyComponent
     public void TestVariableContosoPrice()
     {
         // Arrange:
-        int priceToReturn;
-        string companyCodeUsed;
-        var componentUnderTest = new StockAnalyzer(new StubIStockFeed()
+        int priceToReturn = 345;
+        string companyCodeUsed = "";
+        var componentUnderTest = new StockAnalyzer(new StockAnalysis.Fakes.StubIStockFeed()
             {
                GetSharePriceString = (company) =>
                   {
@@ -240,8 +240,6 @@ class TestMyComponent
                      return priceToReturn;
                   };
             };
-        // Set the value that will be returned by the stub:
-        priceToReturn = 345;
 
         // Act:
         int actualResult = componentUnderTest.GetContosoPrice();
@@ -263,7 +261,7 @@ Class TestMyComponent
     <TestMethod()> _
     Public Sub TestVariableContosoPrice()
         ' Arrange:
-        Dim priceToReturn As Integer
+        Dim priceToReturn As Integer = 345
         Dim companyCodeUsed As String = ""
         Dim stockFeed As New StockAnalysis.Fakes.StubIStockFeed()
         With stockFeed
@@ -278,8 +276,6 @@ Class TestMyComponent
         End With
         ' Create an object to test:
         Dim componentUnderTest As New StockAnalyzer(stockFeed)
-        ' Set the value that will be returned by the stub:
-        priceToReturn = 345
 
         ' Act:
         Dim actualResult As Integer = componentUnderTest.GetContosoPrice()
@@ -408,7 +404,7 @@ public void TestGetValue()
     }
 ```
 
-이 클래스에서 생성한 스텁에서, DoAbstract() 및 DoVirtual()에 대한 대리자를 설정할 수 있지만 DoConcrete()에 대한 대리자는 설정할 수 없습니다.
+이 클래스에서 생성한 스텁에서 `DoAbstract()` 및 `DoVirtual()`에 대한 대리자 메서드를 설정할 수 있지만 `DoConcrete()`에 대한 대리자 메서드는 설정할 수 없습니다.
 
 ```csharp
 // unit test
@@ -437,9 +433,9 @@ Assert.AreEqual(43,stub.DoVirtual(1));
 
 ## <a name="stub-limitations"></a>스텁 제한
 
-1. 포인터가 포함된 메서드 시그니처는 지원되지 않습니다.
+- 포인터가 포함된 메서드 시그니처는 지원되지 않습니다.
 
-2. 스텁 형식은 가상 메서드 디스패치에 의존하므로 봉인 클래스 또는 정적 메서드는 스텁할 수 없습니다. 이러한 경우 [shim을 사용하여 유닛 테스트를 위한 다른 어셈블리에서 애플리케이션 격리](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)에서 설명한 대로 shim 형식을 사용합니다.
+- 스텁 형식은 가상 메서드 디스패치에 의존하므로 봉인 클래스 또는 정적 메서드는 스텁할 수 없습니다. 이러한 경우 [shim을 사용하여 유닛 테스트를 위한 다른 어셈블리에서 애플리케이션 격리](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)에서 설명한 대로 shim 형식을 사용합니다.
 
 ## <a name="change-the-default-behavior-of-stubs"></a>스텁의 기본 동작 변경
 

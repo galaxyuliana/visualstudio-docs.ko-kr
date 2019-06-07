@@ -3,7 +3,7 @@ title: '자습서: C# 및 ASP.NET Core 시작'
 titleSuffix: ''
 description: C#을 사용하여 단계별로 Visual Studio에서 ASP.NET Core 웹앱을 만드는 방법을 알아봅니다.
 ms.custom: seodec18, get-started
-ms.date: 03/23/2019
+ms.date: 05/29/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -16,12 +16,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: 191be9ea5433351f6f89366cc2240d8b0801e54b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 00423f3affa5c882137ee19c355252acbf23c976
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62972097"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402123"
 ---
 # <a name="tutorial-get-started-with-c-and-aspnet-core-in-visual-studio"></a>자습서: Visual Studio에서 C# 및 ASP.NET Core 시작
 
@@ -61,7 +61,7 @@ Visual Studio를 이미 설치한 경우 최신 릴리스를 실행하고 있는
 
 2. 상단 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
-3. 왼쪽 창의 **새 프로젝트** 대화 상자에서 **Visual C#**, **Web**을 차례로 확장한 후 **.NET Core**를 선택합니다. 가운데 창에서 **ASP.NET Core 웹 애플리케이션**을 선택합니다. 그런 다음, 파일 이름을 *MyCoreApp*으로 지정하고, **확인**을 선택합니다.
+3. 왼쪽 창의 **새 프로젝트** 대화 상자에서 **Visual C#** , **Web**을 차례로 확장한 후 **.NET Core**를 선택합니다. 가운데 창에서 **ASP.NET Core 웹 애플리케이션**을 선택합니다. 그런 다음, 파일 이름을 *MyCoreApp*으로 지정하고, **확인**을 선택합니다.
 
    ![Visual Studio IDE의 새 프로젝트 대화 상자의 ASP.NET Core 웹 애플리케이션 프로젝트 템플릿](media/csharp-aspnet-choose-template-name-razor-mycoreapp-file.png)
 
@@ -98,7 +98,7 @@ Visual Studio를 이미 설치한 경우 최신 릴리스를 실행하고 있는
    ![새 ASP.NET Core 웹 애플리케이션 대화 상자](media/new-project-csharp-aspnet-razor-web-app.png)
 
    > [!NOTE]
-   > 맨 위 드롭다운 메뉴에서 **ASP.NET Core 2.1** 이상을 볼 수 없는 경우 Visual Studio의 최신 릴리스를 실행하고 있는지 확인합니다. 설치를 업데이트하는 방법에 대한 자세한 내용은 [Visual Studio를 최신 릴리스로 업데이트](../../install/update-visual-studio.md) 페이지를 참조하세요.
+   > 맨 위 드롭다운 메뉴에서 **ASP.NET Core 2.1**을 볼 수 없는 경우 Visual Studio의 최신 릴리스를 실행하고 있는지 확인합니다. 설치를 업데이트하는 방법에 대한 자세한 내용은 [Visual Studio를 최신 릴리스로 업데이트](../../install/update-visual-studio.md) 페이지를 참조하세요.
 
 ::: moniker-end
 
@@ -108,7 +108,7 @@ Visual Studio를 이미 설치한 경우 최신 릴리스를 실행하고 있는
 
    !['새 프로젝트 만들기' 창 보기](../../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. **새 프로젝트 만들기** 창에서 검색 상자에 *ASP.NET*을 입력합니다. 그런 다음, 언어 목록에서 **C#** 을 선택한 다음, 플랫폼 목록에서 **Windows**를 선택합니다. 
+1. **새 프로젝트 만들기** 창에서 검색 상자에 *ASP.NET*을 입력합니다. 그런 다음, 언어 목록에서 **C#** 을 선택한 다음, 플랫폼 목록에서 **Windows**를 선택합니다.
 
    언어 및 플랫폼 필터를 적용한 후 **ASP.NET Core 웹 애플리케이션** 템플릿을 선택한 후, **다음**을 선택합니다.
 
@@ -117,19 +117,19 @@ Visual Studio를 이미 설치한 경우 최신 릴리스를 실행하고 있는
    > [!NOTE]
    > **ASP.NET Core 웹 애플리케이션** 템플릿이 표시되지 않으면 **새 프로젝트를 만들기** 창에서 설치할 수 있습니다. **원하는 항목을 찾을 수 없나요?** 메시지에서 **추가 도구 및 기능 설치** 링크를 선택합니다.
    >
-   > !['새 프로젝트 만들기' 창의 '원하는 항목을 찾을 수 없음' 메시지에서 '추가 도구 및 기능 설치' 링크](../../get-started/media/vs-2019/not-finding-what-looking-for.png) 
-   > 
+   > !['새 프로젝트 만들기' 창의 '원하는 항목을 찾을 수 없음' 메시지에서 '추가 도구 및 기능 설치' 링크](../../get-started/media/vs-2019/not-finding-what-looking-for.png)
+   >
    > 그런 다음, Visual Studio 설치 관리자에서 **ASP.NET 및 웹 개발** 워크로드를 선택합니다.
    >
    > ![Visual Studio Installer에서 .NET Core 플랫폼 간 개발 워크로드](../../get-started/media/aspnet-core-web-dev-workload.png)
    >
-   > 그런 다음, Visual Studio 설치 관리자에서 **수정** 단추를 선택합니다. 작업 내용을 저장하라는 메시지가 나타날 수 있습니다. 그럴 경우 그렇게 하세요. 다음으로, **계속**을 선택하여 워크로드를 설치합니다. 그런 다음, 이 "[프로젝트 만들기](#create-a-project)" 프로시저의 2단계로 돌아갑니다.
+   > 그런 다음, Visual Studio 설치 관리자에서 **수정** 단추를 선택합니다. 작업을 저장하라는 메시지가 표시되면 저장합니다. 다음으로, **계속**을 선택하여 워크로드를 설치합니다. 그런 다음, 이 "[프로젝트 만들기](#create-a-project)" 프로시저의 2단계로 돌아갑니다.
 
 1. **새 프로젝트 구성** 창에서 **프로젝트 이름** 상자에 *MyCoreApp*을 입력합니다. 그런 다음, **만들기**를 선택합니다.
 
    !['새 프로젝트 구성' 창에서 프로젝트의 이름을 'MyCoreApp'으로 지정합니다.](./media/vs-2019/csharp-name-your-aspnet-mycoreapp-project.png)
 
-1. **새 ASP.NET Core 웹 애플리케이션 만들기** 창의 위쪽 드롭다운 메뉴에 **ASP.NET Core 2.1** 이상이 표시되는지 확인합니다. 그런 다음, 예제 Razor Pages가 포함된 **웹 애플리케이션**을 선택합니다. 다음으로, **만들기**를 선택합니다.
+1. **새 ASP.NET Core 웹 애플리케이션 만들기** 창의 위쪽 드롭다운 메뉴에 **ASP.NET Core 2.1**이 표시되는지 확인합니다. 그런 다음, 예제 Razor Pages가 포함된 **웹 애플리케이션**을 선택합니다. 다음으로, **만들기**를 선택합니다.
 
    !['새 ASP.NET Core 웹 애플리케이션 만들기' 창](./media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
 
@@ -182,14 +182,11 @@ Visual Studio를 이미 설치한 경우 최신 릴리스를 실행하고 있는
      > [!NOTE]
      > **'IIS Express' 웹 서버에 연결할 수 없습니다**라는 오류 메시지가 발생하면 Visual Studio를 닫은 후 마우스 오른쪽 단추 클릭 또는 상황에 맞는 메뉴에서 **관리자 권한으로 실행** 옵션을 사용하여 엽니다. 그런 다음 애플리케이션을 다시 실행합니다.
      >
-     > IIS SSL Express 인증서를 허용할 것인지를 묻는 메시지가 표시될 수도 있습니다. 웹 브라우저에서 코드를 보려면 **예**를 선택한 다음, 후속 보안 경고 메시지가 표시되면 **예**를 선택합니다. 
+     > IIS SSL Express 인증서를 허용할 것인지를 묻는 메시지가 표시될 수도 있습니다. 웹 브라우저에서 코드를 보려면 **예**를 선택한 다음, 후속 보안 경고 메시지가 표시되면 **예**를 선택합니다.
 
 1. Visual Studio가 브라우저 창을 시작합니다. 메뉴 모음에 **홈**, **정보** 및 **연락처** 페이지가 표시됩니다. 표시되지 않으면 “햄버거” 메뉴 항목을 선택하여 표시합니다.
 
     ![웹앱의 메뉴 모음에서 “햄버거” 메뉴 항목 선택](media/csharp-aspnet-razor-browser-page.png)
-
-     > [!TIP]
-     > 브라우저 창에서 프로젝트를 열면 Visual Studio 코드 편집기에서 코드를 편집할 수 없습니다. 
 
 1. 메뉴 모음에서 **정보**를 선택합니다.
 
@@ -199,7 +196,7 @@ Visual Studio를 이미 설치한 경우 최신 릴리스를 실행하고 있는
 
    ![About 페이지에서 텍스트 보기](media/csharp-aspnet-razor-browser-page-about.png)
 
-1. 브라우저 창을 열어둔 상태에서 Visual Studio로 돌아갑니다.
+1. Visual Studio로 돌아가서 **Shift+F5**를 눌러 디버그 모드를 중지합니다. 그러면 브라우저 창의 프로젝트도 닫힙니다.
 
 1. Visual Studio에서 **About.cshtml**을 선택합니다. 그런 다음, _additional_ 단어를 삭제하고 이 위치에 _file and directory_ 단어를 추가합니다.
 
@@ -235,7 +232,7 @@ Visual Studio를 이미 설치한 경우 최신 릴리스를 실행하고 있는
 
    ![“using System;” 지시문 추가](media/csharp-aspnet-razor-add-usings.png)
 
-1. **Ctrl**+**S**를 눌러 변경 내용을 저장하고 웹 브라우저에서 앱을 새로 고칩니다.
+1. **Ctrl**+**S**를 눌러 변경 내용을 저장한 다음 **F5**를 눌러 웹 브라우저에 프로젝트를 엽니다.
 
 1. 웹 사이트 위쪽에서 **정보**를 선택하여 변경 내용을 확인합니다.
 
@@ -251,7 +248,7 @@ Visual Studio를 이미 설치한 경우 최신 릴리스를 실행하고 있는
 
 [C#](/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)은 강력하면서도 쉽게 배울 수 있게 설계된 형식이 안전한 개체 지향 프로그래밍 언어입니다.
 
-### <a name="what-is-aspnet-core"></a>ASP.NET Core란? 
+### <a name="what-is-aspnet-core"></a>ASP.NET Core란?
 
 ASP.NET Core는 웹앱 및 서비스처럼 인터넷으로 연결된 애플리케이션을 빌드하기 위한 오픈 소스의 플랫폼 간 프레임워크입니다. ASP.NET Core 앱은 .NET Framework 또는.NET Core에서 실행할 수 있습니다. Windows, Mac 및 Linux에서 ASP.NET Core 앱을 플랫폼 간에 개발하여 실행할 수 있습니다. ASP.NET Core는 [GitHub](https://github.com/aspnet/home)에서 오픈 소스로 제공됩니다.
 

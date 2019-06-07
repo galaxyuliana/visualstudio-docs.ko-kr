@@ -8,16 +8,16 @@ helpviewer_keywords:
 author: angelosp
 ms.author: angelpe
 manager: jillfra
-ms.openlocfilehash: 58e727c6335dd391abab4f50a110d361a658e00a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b40d943e2e05f380b5c8111db39c9cf13c8b3bf8
+ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62548955"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66432264"
 ---
-# <a name="customize-file-nesting-in-solution-explorer"></a>솔루션 탐색기에서 파일 중첩 사용자 지정
+# <a name="file-nesting-in-solution-explorer"></a>솔루션 탐색기에서 파일 중첩
 
-**솔루션 탐색기**에서 관련 파일을 중첩하는 것은 새로운 방법이 아니지만, 지금까지는 중첩 규칙을 제어할 수 없었습니다. 사전 설정 **끄기**, **기본값** 및 **웹** 중에서 선택할 수 있지만, 원하는 대로 정확하게 중첩을 사용자 지정할 수도 있습니다. 솔루션별 설정 및 프로젝트별 설정을 만들 수도 있지만 나중에 모든 설정을 추가로 생성할 수 있습니다. 먼저 기본적으로 제공되는 기능을 살펴보겠습니다.
+**솔루션 탐색기**는 관련 파일들을 중첩시켜 보다 쉽게 찾고 정리할 수 있도록 합니다. 예를 들어 Windows Forms 양식을 프로젝트에 추가하면 양식의 코드 파일이 **솔루션 탐색기**의 양식 아래에 중첩됩니다. ASP.NET Core 프로젝트에서는 파일 중첩을 한 단계 더 수행할 수 있습니다. 파일 중첩 미리 설정을 **끄기**, **기본값**, **웹** 중에서 선택할 수 있습니다. [새 파일의 중첩 방식을 사용자 지정](#customize-file-nesting)하거나 [솔루션별 설정 및 프로젝트별 설정을 만들 수도 있습니다](#create-project-specific-settings).
 
 > [!NOTE]
 > 이 기능은 현재 ASP.NET Core 프로젝트에만 지원됩니다.
@@ -56,7 +56,7 @@ ms.locfileid: "62548955"
 
 * **pathSegment**: *jquery.js* 아래에 *jquery.min.js*를 중첩하려면 이 규칙 형식을 사용합니다.
 
-* **allExtensions**: *file.js* 아래에 *file.**를 중첩하려면 이 규칙 형식을 사용합니다.
+* **allExtensions**: *file.js* 아래에 *file.* *를 중첩하려면 이 규칙 형식을 사용합니다.
 
 * **fileToFile**: *.bowerrc* 아래에 *bower.json*을 중첩하려면 이 규칙 형식을 사용합니다.
 
@@ -128,7 +128,7 @@ ms.locfileid: "62548955"
 
 ![사용자 지정 파일 중첩 규칙 활성화](media/filenesting_activatecustom.png)
 
-## <a name="create-solution-specific-and-project-specific-settings"></a>솔루션별 설정 및 프로젝트별 설정 만들기
+## <a name="create-project-specific-settings"></a>프로젝트별 설정 만들기
 
 각 솔루션 및 프로젝트의 오른쪽 클릭 메뉴(상황에 맞는 메뉴)를 통해 솔루션별 설정 및 프로젝트별 설정을 만들 수 있습니다.
 
@@ -142,7 +142,7 @@ ms.locfileid: "62548955"
 
 솔루션별 설정 및 프로젝트별 설정을 소스 제어에 체크인할 수 있으며, 코드베이스를 작업하는 전체 팀이 이를 공유할 수 있습니다.
 
-## <a name="disable-global-file-nesting-rules-for-a-particular-solution-or-project"></a>특정 솔루션 또는 프로젝트에 대한 전역 파일 중첩 규칙 사용 안 함
+## <a name="disable-file-nesting-rules-for-a-project"></a>프로젝트에 파일 중첩 규칙 사용 안 함
 
 공급자에 대해 **추가** 대신 **제거** 작업을 사용하여 특정 솔루션 또는 프로젝트에 대한 기존 전역 파일 중첩 규칙을 사용하지 않을 수 있습니다. 예를 들어, 다음 설정 코드를 프로젝트에 추가하면 이 특정 프로젝트에 대해 전역으로 존재할 수 있는 모든 **pathSegment** 규칙이 비활성화됩니다.
 
@@ -157,3 +157,4 @@ ms.locfileid: "62548955"
 ## <a name="see-also"></a>참고 항목
 
 - [IDE 개인 설정](../ide/personalizing-the-visual-studio-ide.md)
+- [Visual Studio의 솔루션 및 프로젝트](solutions-and-projects-in-visual-studio.md)

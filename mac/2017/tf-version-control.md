@@ -7,12 +7,12 @@ ms.date: 09/05/2018
 ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
-ms.openlocfilehash: 1d560e3fd383e3db19c664bf027470c8da224fd2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 73c068ed1fcd03564638961e3d4e6dce7f7d6ed2
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62987487"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501224"
 ---
 # <a name="connecting-to-team-foundation-version-control"></a>Team Foundation 버전 제어에 연결
 
@@ -157,7 +157,7 @@ TFS에 연결하려면 서버 세부 정보와 계정 자격 증명을 입력합
 
 기본 인증을 사용하려면 다음 단계에 따라 Azure DevOps Services에서 **대체 인증 자격 증명**을 활성화해야 합니다.
 
-1. 소유자로 Azure DevOps 조직에 로그인합니다(https://dev.azure.com/{organization}/{project}).
+1. Azure DevOps 조직 소유자로 로그인합니다(https:\//dev.azure.com/{organization}/{project}).
 
 2. 조직 도구 모음에서 기어 아이콘을 선택하고 **정책**을 선택합니다.
 

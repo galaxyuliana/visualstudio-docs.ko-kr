@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 author: gewarren
-ms.openlocfilehash: 173cc6711f46d7fddad92c3ac871809dda100f36
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 7c588966a957cf6d3127e03c67ad1a1d605fabce
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65704649"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66401727"
 ---
 # <a name="walkthrough-create-and-run-unit-tests-for-managed-code"></a>연습: 관리 코드에 대한 단위 테스트 만들기 및 실행
 
@@ -365,9 +365,9 @@ public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
 
 ### <a name="continue-the-analysis"></a>분석 계속 수행
 
-하지만 마지막 두 테스트 메서드는 문제가 있습니다. 테스트가 실행될 때 테스트 중인 메서드의 어떤 조건이 예외를 throw하는지를 확신할 수 없습니다. 마이너스 차변 금액 또는 잔고보다 큰 금액이라는 두 가지 조건을 구별하는 몇 가지 방법으로 테스트에서 신뢰도를 높일 수 있습니다.
+테스트 중인 메서드를 추가로 개선할 수 있습니다. 현재 구현에서는 어떤 조건(`amount > m_balance` 또는 `amount < 0`)으로 인해서 테스트 중에 예외가 throw되는지 알 수 있는 방법이 없습니다. `ArgumentOutOfRangeException`이 메서드의 어떤 지점에서 throw되었다는 사실만 알고 있습니다. `BankAccount.Debit`에서 어떤 조건으로 인해 예외가 throw되었는지 알 수 있다면 더 나을 것이므로(`amount > m_balance` 또는 `amount < 0`) 인수에 대한 온전성 검사를 정확히 수행하는 메서드임을 확인할 수 있습니다.
 
-테스트 중인 메서드를 다시 살펴보면 인수 이름을 매개 변수로 받는 `ArgumentOutOfRangeException` 생성자가 두 조건문 모두에 사용된다는 사실을 알 수 있습니다.
+테스트 중인 메서드(`BankAccount.Debit`)를 다시 살펴보면 인수 이름을 매개 변수로 받는 `ArgumentOutOfRangeException` 생성자가 두 조건문 모두에 사용된다는 사실을 알 수 있습니다.
 
 ```csharp
 throw new ArgumentOutOfRangeException("amount");

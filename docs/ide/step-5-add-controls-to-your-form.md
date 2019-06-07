@@ -8,12 +8,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4f1662f484d8738c381f704732389537b0ac3ad5
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 4f091ea0841ac66cd106c3fa613f1219ddaaffcf
+ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431485"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66501196"
 ---
 # <a name="step-5-add-controls-to-your-form"></a>5단계: 양식에 컨트롤 추가
 이 단계에서는 <xref:System.Windows.Forms.PictureBox> 컨트롤 및 <xref:System.Windows.Forms.CheckBox> 컨트롤과 같은 컨트롤을 폼에 추가합니다. 폼에 <xref:System.Windows.Forms.Button> 컨트롤을 추가합니다.
@@ -30,8 +30,7 @@ ms.locfileid: "63431485"
 
 4. 새 **PictureBox** 컨트롤을 클릭하여 선택한 다음, 새 PictureBox 컨트롤의 검은색 삼각형을 선택하여 다음 그림과 같이 작업 목록을 표시합니다.
 
-     ![PictureBox 작업](../ide/media/express_pictureboxtasks.png)
-**PictureBox** 작업
+     ![PictureBox 작업](../ide/media/express_pictureboxtasks.png)<br/>***PictureBox*** *작업*
 
     > [!NOTE]
     > TableLayoutPanel에 실수로 잘못된 컨트롤 형식을 추가한 경우 삭제할 수 있습니다. 컨트롤을 마우스 오른쪽 단추로 클릭하고 상황에 맞는 메뉴에서 **삭제**를 선택합니다. 메뉴 모음을 사용하여 폼에서 컨트롤을 제거할 수도 있습니다. 메뉴 모음에서 **편집** > **실행 취소** 또는 **편집** > **삭제**를 선택합니다.
@@ -45,8 +44,7 @@ ms.locfileid: "63431485"
 
 7. 폼에서 **TableLayoutPanel**을 선택한 다음, CheckBox 컨트롤을 폼에 추가합니다. **도구 상자**에서 **CheckBox** 항목을 두 번 클릭하여 새 CheckBox 컨트롤을 테이블의 사용 가능한 다음 셀에 추가합니다. PictureBox가 TableLayoutPanel의 처음 두 셀을 차지하므로 CheckBox 컨트롤은 왼쪽 아래 셀에 추가됩니다. 다음 그림과 같이 **Text** 속성을 선택하고 단어 **늘이기**를 입력합니다.
 
-     ![Stretch 속성이 있는 TextBox 컨트롤](../ide/media/express_pictureviewercheckbox.png)
-**Stretch** 속성이 있는 **TextBox** 컨트롤
+     ![Stretch 속성이 있는 TextBox 컨트롤](../ide/media/express_pictureviewercheckbox.png)<br/>***Stretch*** *속성*이 있는 ***TextBox*** *컨트롤*
 
 8. 폼에서 **TableLayoutPanel**을 선택하고 **도구 상자**에서 TableLayoutPanel 컨트롤이 있는 **컨테이너** 그룹으로 이동한 다음, **FlowLayoutPanel** 항목을 두 번 클릭하여 PictureBox의 마지막 셀(오른쪽 맨 아래)에 새 컨트롤을 추가합니다. 그런 다음 FlowLayoutPanel의 검정색 삼각형 작업 목록에서 **부모 컨테이너에서 도킹**을 선택하거나 FlowLayoutPanel의 **Dock** 속성을 **채우기**로 설정하여 FlowLayoutPanel을 TableLayoutPanel에 도킹합니다.
 
@@ -71,8 +69,7 @@ ms.locfileid: "63431485"
 
 5. **닫기** 단추를 클릭하여 선택합니다. **Ctrl** 키를 누른 채로 다른 세 개의 단추를 선택하여 모든 단추가 선택되도록 합니다. 모든 단추가 선택된 상태로 **속성** 창으로 이동하여 **AutoSize** 속성까지 위로 스크롤합니다. 이 속성은 단추의 모든 텍스트에 맞게 자동으로 단추 크기가 조정되도록 합니다. 이 속성을 **true**로 설정합니다. 이제 단추가 적절한 크기로 조정되고 올바른 순서로 정렬됩니다. 네 개의 단추가 모두 선택되어 있는 동안에는 네 단추의 **AutoSize** 속성을 동시에 변경할 수 있습니다. 다음 그림에서는 네 개의 단추를 보여 줍니다.
 
-     ![단추가 네 개 있는 사진 뷰어](../ide/media/express_autosize.png)
-단추가 네 개 있는 **사진 뷰어**
+     ![단추가 네 개 있는 사진 뷰어](../ide/media/express_autosize.png)<br/>*단추가 네 개 있는* ***사진 뷰어***
 
 6. 이제 프로그램을 다시 실행하여 새로 레이아웃된 폼을 확인합니다. 단추와 확인란을 선택해도 아직 아무런 동작이 수행되지 않지만 곧 동작하게 될 것입니다.
 

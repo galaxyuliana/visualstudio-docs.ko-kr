@@ -16,12 +16,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: 5e9cc4f579b5913d5be3030828cad1a799efcd72
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 740d6336ab4258d3111dd6708de859108e22365e
+ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62840448"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66402063"
 ---
 # <a name="step-2-create-your-first-aspnet-core-web-app"></a>2단계: 첫 번째 ASP.NET Core 웹앱 만들기
 
@@ -111,6 +111,9 @@ public void OnGet()
 ```
 
 이제 앱으로 이동할 때 브라우저에서 실제 서버 시간이 표시되어야 합니다.
+
+> [!NOTE]
+> ToShortDateTimeString의 출력 형식은 현재 문화 설정에 따라 다르기 때문에 실제 출력은 이미지와 다를 수 있습니다. <xref:System.DateTime.ToShortTimeString>을 참조하세요.
 
 ![브라우저의 Visual Studio 2019 ASP.NET Core 프로젝트](media/vs-2019/vs2019-app-fixed-in-browser.png)
 

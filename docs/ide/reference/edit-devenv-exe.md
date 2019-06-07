@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 26433d62a68b28450a56eee1282376733acfe55c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8f0eb7cab3b1bc764f663cd647811928510281e8
+ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62838804"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66432008"
 ---
 # <a name="edit-devenvexe"></a>/Edit (devenv.exe)
 
@@ -44,6 +44,8 @@ devenv /Edit [File1[ FileN]...]
 파일이 지정되지 않으면 기존 Visual Studio 인스턴스가 포커스를 받습니다. 파일이 지정되지 않고 Visual Studio 인스턴스가 없으면 간소화된 창 레이아웃으로 인스턴스가 만들어집니다.
 
 기존 Visual Studio 인스턴스가 모달 상태인 경우 Visual Studio가 모달 상태를 종료하면 파일이 기존 인스턴스에서 열립니다. 예를 들어 이 경우는 [[옵션] 대화 상자](../../ide/reference/options-dialog-box-visual-studio.md)가 열릴 때 발생할 수 있습니다.
+
+Visual Studio의 인스턴스를 둘 이상 연 경우 가장 최근에 열린 인스턴스에서 파일이 열립니다.
 
 ## <a name="example"></a>예제
 
