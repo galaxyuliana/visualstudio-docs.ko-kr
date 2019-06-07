@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9d2350a495bf0540f77ff6f0d4222b18431e1586
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9bf1985e63fef0f567cb3a765915f5c6f73cdc59
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62540874"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745205"
 ---
 # <a name="code-analysis-application-errors"></a>코드 분석 응용 프로그램 오류
 
@@ -47,7 +47,7 @@ ms.locfileid: "62540874"
 |[CA0066](ca0066.md)|값 '*VersionID*'에 제공 된 **/targetframeworkversion** 인식 된 버전이 아닙니다.|
 |[CA0067](ca0067.md)|디렉터리를 찾을 수 없습니다.|
 |[CA0068](ca0068.md)|디버그 대상 어셈블리에 대 한 정보를 찾을 수 없습니다 *'AssemblyName'* 합니다.|
-|[CA0069](ca0069.md)|다른 플랫폼을 사용합니다. *FrameworkVersion1* 찾을 수 없습니다. 사용 하 여 *FrameworkVersion2* 대신 합니다. 최상의 분석 결과 얻으려면 올바른.NET Framework 설치 되어 있는지 확인 합니다.|
+|[CA0069](ca0069.md)|다른 플랫폼을 사용합니다. *FrameworkVersion1* 찾을 수 없습니다. 사용 하 여 *FrameworkVersion2* 대신 합니다. 최상의 분석 결과 대 한 올바른 프레임 워크 버전이 설치 되어 있는지를 확인 합니다.|
 |[CA0070](ca0070.md)|어셈블리 또는 보안 권한으로 인해 형식을 로드할 수 없습니다.|
 |[CA0501](ca0501.md)|출력 보고서를 읽을 수 없습니다.|
 |[CA0502](ca0502.md)|지원 되지 않는 언어입니다.|

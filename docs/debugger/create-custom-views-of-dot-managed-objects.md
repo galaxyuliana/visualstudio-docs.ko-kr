@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 733f3ec7573287e934f8a5f0167db89c0683759a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 911f0423184f22919be016691b9333b2f62d1b61
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62564010"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744793"
 ---
 # <a name="create-custom-views-of-objects-c-visual-basic-c"></a>개체의 사용자 지정 뷰 만들기 (C#, Visual Basic의 경우 C++)
 Visual Studio에서 디버거 변수 창에 데이터 형식이 표시되는 방식을 사용자 지정할 수 있습니다.
@@ -41,7 +41,7 @@ Visual Studio에서 디버거 변수 창에 데이터 형식이 표시되는 방
 
 C#, Visual Basic 및 C++ (C++/CLI 코드에만 해당)를 사용 하 여 사용자 지정 데이터에 대 한 확장을 추가할 수 있습니다 <xref:System.Diagnostics.DebuggerTypeProxyAttribute>를 <xref:System.Diagnostics.DebuggerDisplayAttribute>, 및 <xref:System.Diagnostics.DebuggerBrowsableAttribute>합니다.
 
-[!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] 코드에서 Visual Basic은 DebuggerBrowsable 특성을 지원하지 않습니다. 최신 버전의 .NET Framework에서는 이러한 제한 사항이 제거되었습니다.
+.NET Framework 2.0 코드에서 Visual Basic은 DebuggerBrowsable 특성을 지원 하지 않습니다. 최신 버전의 .NET Framework에서는 이러한 제한 사항이 제거되었습니다.
 
 ## <a name="visualizers"></a>시각화 도우미
 

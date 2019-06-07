@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3f3a1ee08fec613522be5247842e10ced1c032e7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 81a12f400ee870798759237e202d2ca358fefa69
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62898713"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747520"
 ---
 # <a name="ltpackagefilesgt-element-bootstrapper"></a>&lt;PackageFiles&gt; 요소 (부트스트래퍼)
 합니다 `PackageFiles` 요소에 포함 되어 `PackageFile` 의 결과로 실행 설치 패키지를 정의 하는 요소는 `Command` 요소입니다.
@@ -62,7 +62,7 @@ ms.locfileid: "62898713"
 | `Hash` | 선택 사항입니다. 패키지 파일의 SHA1 해시를 합니다. 설치 시 파일의 무결성을 확인 하는이 사용 됩니다. 패키지 파일에서 동일한 해시를 계산할 수 없습니다 패키지가 설치 되지 않습니다. |
 
 ## <a name="example"></a>예제
- 다음 코드 예제에 대 한 패키지 정의 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 재배포 가능 패키지 및 해당 종속성, Windows Installer 등입니다.
+ 다음 코드 예제에서는.NET Framework 재배포 가능 패키지 및 Windows Installer와 같은 해당 종속성에 대 한 패키지를 정의합니다.
 
 ```xml
 <PackageFiles>

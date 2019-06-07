@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fc32ed6c4e696b18e89822baff461da0873a7ed5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d6dca2c7838ce40f8d24e3afbd898206d0cb9191
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62898109"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747447"
 ---
 # <a name="ltproductgt-element-bootstrapper"></a>&lt;제품&gt; 요소 (부트스트래퍼)
 `Product` 요소는 제품 파일 내의 최상위 XML 요소입니다.
@@ -145,7 +145,7 @@ ProductCode
 |`ProductCode`|제품에 대 한 고유 식별자입니다.|
 
 ## <a name="example"></a>예제
- 다음 코드 예제에는 설치에 대 한 완전 한 제품 파일을 보여 줍니다는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다.
+ 다음 코드 예제에는.NET Framework 설치에 대 한 완전 한 제품 파일을 보여 줍니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>

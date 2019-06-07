@@ -14,19 +14,19 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 2fb4d0dfaeb944700757c9ceec222dbd62dab9dd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0fd30fb1b181224b61b96670553ef5aa6ff0f721
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62850673"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745275"
 ---
 # <a name="error-mixed-mode-debugging-is-supported-only-when-using-microsoft-net-framework-20-or-greater"></a>오류: 혼합 모드 디버깅은 Microsoft .NET Framework 2.0 이상을 사용할 때만 지원됩니다.
-네이티브 코드와 관리 코드가 혼합된 코드를 디버깅하려면 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 버전 2.0, 3.0, 3.5 또는 4가 필요합니다. 이전 버전 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]를 사용한 혼합 모드 디버깅은 지원되지 않습니다.
+혼합된 네이티브 및 관리 코드를 디버깅 하려면.NET Framework 버전 2.0, 3.0 있어야 합니다. 필요합니다. 혼합 모드 디버깅 이전 버전의.NET Framework를 사용 하 여 지원 되지 않습니다.
 
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면
 
-- [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]를 버전 2.0, 3.0, 3.5 또는 4로 업그레이드합니다.
+- .NET Framework 버전 2.0, 3.0, 3.5 또는 4.0으로 업그레이드 합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [Remote Debugging](../debugger/remote-debugging.md)

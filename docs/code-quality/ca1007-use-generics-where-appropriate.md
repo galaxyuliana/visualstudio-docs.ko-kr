@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: f1cf2939f0484c6defb76b88fb072fcd4b51849b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ce4f72ba56b27d87d785ca561bad0de6e59dfdc2
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62779719"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744773"
 ---
 # <a name="ca1007-use-generics-where-appropriate"></a>CA1007: 적합한 제네릭을 사용하세요.
 
@@ -34,7 +34,7 @@ ms.locfileid: "62779719"
 |변경 수준|주요 변경|
 
 ## <a name="cause"></a>원인
- 형식의 참조 매개 변수를 포함 하는 외부에 표시 되는 메서드 <xref:System.Object?displayProperty=fullName>, 및 포함 된 어셈블리 대상을 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]합니다.
+ 형식의 참조 매개 변수를 포함 하는 외부에 표시 되는 메서드 <xref:System.Object?displayProperty=fullName>를 포함 하는 어셈블리에.NET Framework 2.0만 대상으로 하 고 있습니다.
 
 ## <a name="rule-description"></a>규칙 설명
  참조 매개 변수는 사용 하 여 수정 된 매개 변수를 `ref` (`ByRef` 에서 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) 키워드입니다. 참조 매개 변수에 제공 되는 인수 형식을 참조 매개 변수 형식과 정확히 일치 해야 합니다. 참조 매개 변수 형식에서 파생 된 형식을 사용 하려면 먼저 형식 캐스팅 하 고 참조 매개 변수 형식의 변수에 할당 해야 합니다. 제약 조건 참조 매개 변수 형식 형식으로 먼저 캐스트 하지 않고 메서드에 전달할 수에 따라 모든 형식을 허용 하는 제네릭 메서드를 사용 합니다.

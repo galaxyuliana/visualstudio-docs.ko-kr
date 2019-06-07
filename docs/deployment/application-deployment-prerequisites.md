@@ -19,16 +19,16 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6a4bf5545deecccb647b5113c4335539c6acb488
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 8206e199acc3ccb76cf89603d48bed0173129218
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63408583"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746055"
 ---
 # <a name="application-deployment-prerequisites"></a>애플리케이션 배포 필수 구성 요소
 
-응용 프로그램을 설치 하 고 성공적으로 실행 하도록 먼저 응용 프로그램을 대상 컴퓨터에 종속 되어 있는 모든 구성 요소를 설치 합니다. 사용 하 여 생성 하는 예를 들어, 대부분의 응용 프로그램입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에 대 한 종속성을 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]입니다. 이 경우 응용 프로그램을 설치 하기 전에 올바른 버전의 공용 언어 런타임 대상 컴퓨터에 있는 이어야 합니다.
+응용 프로그램을 설치 하 고 성공적으로 실행 하도록 먼저 응용 프로그램을 대상 컴퓨터에 종속 되어 있는 모든 구성 요소를 설치 합니다. 사용 하 여 생성 하는 예를 들어, 대부분의 응용 프로그램입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] .NET Framework에 대 한 종속성입니다. 이 경우 응용 프로그램을 설치 하기 전에 올바른 버전의 공용 언어 런타임 대상 컴퓨터에 있는 이어야 합니다.
 
  이러한 필수 구성이 요소를 선택할 수 있습니다 합니다 **필수 조건 대화 상자** 설치의 일부로.NET Framework 및 모든 다른 재배포 가능 패키지를 설치 합니다. 이러한 방식을 *부트스트래핑*이라고 합니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Windows 실행 프로그램을 생성 *Setup.exe*, 라고도 *부트스트래퍼*합니다. 부트스트래퍼는 응용 프로그램을 실행하기 전에 이러한 필수 구성 요소를 설치합니다. 이러한 필수 구성이 요소를 선택 하는 방법에 대 한 자세한 내용은 참조 하세요. [필수 조건 대화 상자](../ide/reference/prerequisites-dialog-box.md)합니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "63408583"
 | **-?, -h, -help** | 도움말 대화 상자를 표시합니다. |
 | **-url, -componentsurl** | 이 설치를 위한 저장된 URL 및 구성 요소 URL을 표시합니다. |
 | **-url=** `location` | *Setup.exe*가 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 찾을 URL을 설정합니다. |
-| **-componentsurl=** `location` | *Setup.exe*가 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 등의 종속성을 찾을 URL을 설정합니다. |
+| **-componentsurl=** `location` | URL을 설정 하는 *Setup.exe* 는.NET Framework와 같은 종속성을 찾습니다. |
 | **-homesite=** `true` **&#124;** `false` | 때 `true`, 공급 업체의 사이트에서 기본 위치에서 종속성을 다운로드 합니다. 이 설정을 재정의 합니다 **-componentsurl** 설정 합니다. 때 `false`에 의해 지정 된 URL에서 종속성을 다운로드 **-componentsurl**합니다. |
 
 ## <a name="operating-system-support"></a>운영 체제 지원

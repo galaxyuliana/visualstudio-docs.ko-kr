@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f20e706dcc94e823446ea0e185881f034fcd7dd8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ab3478f701cade458ffdb97caf4541a88f52230e
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62898752"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745754"
 ---
 # <a name="ltpackagegt-element-bootstrapper"></a>&lt;패키지&gt; 요소 (부트스트래퍼)
 `Package` 요소는 패키지 파일 내에서 최상위 XML 요소입니다.
@@ -147,10 +147,10 @@ ms.locfileid: "62898752"
 |--------------------| - |
 | `Culture` | 필수 요소. 사용할 언어를 결정 하는이 패키지에 대 한 문화권을 정의 합니다. 이 특성은 키로는 `Strings` 요소를 설치 하는 동안 제품 이름 및 오류 메시지에 대 한 문화권 관련 문자열을 나열 합니다. |
 | `Name` | 필수 요소. 와 같은 도구 내에서 개발자에 게 표시 되는 패키지의 이름을 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]입니다. 이 특성은 키로는 `Strings` 있어야 하는 요소를를 `String` 요소를 `Name` 및 `Culture` 속성과 일치 하도록 설정 합니다 `Name` 및 `Culture` 의 속성 `Package`. |
-| `LicenseAgreement` | 선택 사항입니다. 최종 사용자 사용권 계약 (EULA)을 포함 하는 배포 패키지에 파일의 이름을 지정 합니다.  이 파일에 일반 텍스트 수 있습니다 (*.txt*) 또는 서식 있는 텍스트입니다. (*.rtf*) |
+| `LicenseAgreement` | 선택 사항입니다. 최종 사용자 사용권 계약 (EULA)을 포함 하는 배포 패키지에 파일의 이름을 지정 합니다.  이 파일에 일반 텍스트 수 있습니다 ( *.txt*) 또는 서식 있는 텍스트입니다. ( *.rtf*) |
 
 ## <a name="example"></a>예제
- 다음 코드 예제에는 재배포에 대 한 완전 한 패키지 파일을 보여 줍니다는 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]합니다.
+ 다음 코드 예제에는.NET Framework 2.0 재배포에 대 한 전체 패키지 파일을 보여 줍니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>

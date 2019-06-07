@@ -11,16 +11,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2f32228de6486c7e2093175bcd57d698a881ab7f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8c333e78de17a3af5b4f7f0be46c19cf3120231d
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62949554"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746904"
 ---
 # <a name="how-to-use-the-argument-designer"></a>방법: 인수 디자이너 사용
 
-이전 버전의.NET Framework에 비해, 인수 디자이너 쉽게 데이터를 활동 내부 및 외부로 흐름을 허용 합니다. 클릭 하 여 디자이너에 액세스할 합니다 **인수** 디자인 캔버스의 왼쪽 아래 모서리에 있는 단추입니다. 디자이너를 정렬할 수 있습니다 각 열 머리글을 제외 하 고 있고 테이블 형식에서으로 표시 되는 인수의 목록을 포함 합니다 **기본값** 열입니다. 각 인수에는 이름, in/out/in-out/속성 방향, 형식 및 기본 식 값(있는 경우)이 포함됩니다. 이름 및 기본 식 값은 편집할 수 있는 텍스트 필드이며, 형식과 방향은 드롭다운입니다. 자세한 내용은 [변수 및 인수 (.NET)](/dotnet/framework/windows-workflow-foundation/variables-and-arguments)합니다.
+인수 디자이너를 사용 하면 데이터를 활동 내부 및 외부로 흐름 하기가 쉬워졌습니다. 클릭 하 여 디자이너에 액세스 합니다 **인수** 디자인 캔버스의 왼쪽 아래 모서리에 있는 단추입니다. 디자이너를 정렬할 수 있습니다 각 열 머리글을 제외 하 고 있고 테이블 형식에서으로 표시 되는 인수의 목록을 포함 합니다 **기본값** 열입니다. 각 인수에는 이름, in/out/in-out/속성 방향, 형식 및 기본 식 값(있는 경우)이 포함됩니다. 이름 및 기본 식 값은 편집할 수 있는 텍스트 필드이며, 형식과 방향은 드롭다운입니다. 자세한 내용은 [변수 및 인수 (.NET)](/dotnet/framework/windows-workflow-foundation/variables-and-arguments)합니다.
 
 ## <a name="to-create-a-new-argument"></a>새 인수를 만들려면
 

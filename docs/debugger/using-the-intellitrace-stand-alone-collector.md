@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5ff893f5603d3156d4ed6fe09848682ab5d04b06
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: cf83992e92c90600f63516919774fe09f06434ff
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63407625"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746115"
 ---
 # <a name="using-the-intellitrace-stand-alone-collector-c-visual-basic"></a>IntelliTrace 독립 실행형 수집기를 사용 하 여 (C#, Visual Basic)
 
@@ -111,7 +111,7 @@ ms.locfileid: "63407625"
         `expand  /f:* IntelliTraceCollection.cab .`
 
        > [!NOTE]
-       > 마침표(**.**)는 지역화된 수집 계획을 포함하는 하위 폴더를 보존합니다.
+       > 마침표( **.** )는 지역화된 수집 계획을 포함하는 하위 폴더를 보존합니다.
 
 ## <a name="ConfigurePermissionsRunningCollector"></a> 수집기 디렉터리에 대한 사용 권한 설정
 
@@ -377,9 +377,7 @@ ms.locfileid: "63407625"
 
 ## <a name="WhereElse"></a> IntelliTrace 데이터를 가져올 수 있는 다른 위치
 
-- 디버깅 세션 Visual Studio Enterprise에서 intellitrace를 참조 하세요 [IntelliTrace 기능](../debugger/intellitrace-features.md)합니다.
-
-- Microsoft Test Manager에서 테스트 세션을 참조 하세요. [방법: 어려운 문제 디버그에 도움이 되는 IntelliTrace 데이터 수집](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md)합니다.
+Intellitrace에서 디버깅 세션 Visual Studio Enterprise에서 IntelliTrace 데이터 얻을 수 있습니다. 참조 [IntelliTrace 기능](../debugger/intellitrace-features.md)합니다.
 
 ## <a name="where-can-i-get-more-information"></a>추가 정보는 어디서 확인할 수 있나요?
  [저장된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)

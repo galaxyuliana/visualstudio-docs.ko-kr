@@ -18,15 +18,15 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 649ba0583a70d0d53d8b12f26573daf3c52cf5e9
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: a5e79969c3b4be22a3c9bb01f06297f54b0734ee
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66331198"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746002"
 ---
 # <a name="supporting-symbol-browsing-tools"></a>기호 검색 도구 지원
-**개체 브라우저**, **클래스 뷰**를 **호출 브라우저** 하 고 **기호 찾기 결과** 도구는 Visual Studio의 기능을 검색 하는 기호를 제공 합니다. 이러한 도구는 기호의 계층적 트리 보기를 표시 하 고 트리에서 기호 사이의 관계를 보여 줍니다. 네임 스페이스, 개체, 클래스, 클래스 멤버 및 다양 한 구성 요소에 포함 된 다른 언어 요소에 기호를 나타낼 수 있습니다. 구성 요소에는 Visual Studio 프로젝트의 경우 외부 포함 [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] 구성 요소 및 형식 (.tlb) 라이브러리. 자세한 내용은 [코드 구조 보기](../../ide/viewing-the-structure-of-code.md)를 참조하세요.
+**개체 브라우저**, **클래스 뷰**를 **호출 브라우저** 하 고 **기호 찾기 결과** 도구는 Visual Studio의 기능을 검색 하는 기호를 제공 합니다. 이러한 도구는 기호의 계층적 트리 보기를 표시 하 고 트리에서 기호 사이의 관계를 보여 줍니다. 네임 스페이스, 개체, 클래스, 클래스 멤버 및 다양 한 구성 요소에 포함 된 다른 언어 요소에 기호를 나타낼 수 있습니다. 구성 요소는 Visual Studio 프로젝트,.NET Framework 구성 요소를 외부 및 형식 (.tlb) 라이브러리를 포함 합니다. 자세한 내용은 [코드 구조 보기](../../ide/viewing-the-structure-of-code.md)를 참조하세요.
 
 ## <a name="symbol-browsing-libraries"></a>기호 검색 라이브러리
  언어 구현자로 구성 요소에서 기호를 추적 하 고 인터페이스의 집합을 통해 Visual Studio 개체 관리자에 게는 기호 목록을 제공 하는 라이브러리를 만들어 Visual Studio 기호 검색 기능을 확장할 수 있습니다. 라이브러리에서 설명 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleLibrary2> 인터페이스입니다. Visual Studio 개체 관리자 요청에 응답할 새 데이터에 대 한 기호 검색 도구에서 라이브러리에서 데이터 가져오기 및 구성 합니다. 이후에 채웁니다 또는 요청된 된 데이터를 사용 하 여 도구를 업데이트 합니다. Visual Studio 개체 관리자에 대 한 참조를 가져오는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2>를 전달 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.SVsObjectManager> ID 서비스는 `GetService` 메서드.

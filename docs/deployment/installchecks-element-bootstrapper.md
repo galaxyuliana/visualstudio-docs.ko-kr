@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e45a2d0527e1d245a0d034310939bd1601db8adc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 79bbb413c31c77e59ec39b706d4937421096168f
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62927909"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747527"
 ---
 # <a name="ltinstallchecksgt-element-bootstrapper"></a>&lt;InstallChecks&gt; 요소 (부트스트래퍼)
 `InstallChecks` 요소를 지 원하는 다양 한 응용 프로그램에 대 한 적절 한 필수 구성 요소가 모두 설치 되었는지 확인 하려면 로컬 컴퓨터에 대해 테스트를 시작 합니다.
@@ -144,7 +144,7 @@ ms.locfileid: "62927909"
  요소 아래에 있는 동안 `InstallChecks` 해당 실행 되지, 실행할 테스트를 정의 합니다. 테스트를 실행 하려면 만들어야 `Command` 아래에 있는 요소는 `Commands` 요소입니다.
 
 ## <a name="example"></a>예제
- 다음 코드 예제는 `InstallChecks` 되는 요소에 대 한 제품 파일에는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다.
+ 다음 코드 예제는 `InstallChecks` 되는 요소는.NET Framework에 대 한 제품 파일에서 사용 됩니다.
 
 ```xml
 <InstallChecks>

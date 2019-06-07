@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: b4453030f01e99dcb82c344f003e217e7b1c55b6
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: 2ff96d5ca9d292d9e2952b9a2e5e1f628b54d43b
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66333706"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746342"
 ---
 # <a name="metadataaddressretval"></a>METADATA_ADDRESS_RETVAL
 이 구조는 메서드 또는 함수에서 반환 값을 나타냅니다.
@@ -50,7 +50,7 @@ public struct METADATA_ADDRESS_RETVAL {
  메서드의 반환 값이에 대 한 ID입니다.
 
  `dwCorType`\
- 반환 값의 기본 형식입니다. 값을 `CorElementType` 열거형에 정의 된는 [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK corhdr.h 파일입니다.
+ 반환 값의 기본 형식입니다. 값을 `CorElementType` .NET Framework SDK corhdr.h 파일에 정의 된 열거형입니다.
 
  `dwSigSize`\
  반환 값 서명의 크기 (에 저장 된 `rgSig`).

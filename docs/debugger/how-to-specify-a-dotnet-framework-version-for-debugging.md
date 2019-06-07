@@ -17,19 +17,19 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: d2ce13fc55c94514bb9da24e43a5c54671becde5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bfe17100fcdcb0d475a7467233caa51ba7895225
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62906493"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747481"
 ---
 # <a name="how-to-specify-a-net-framework-version-for-debugging-c-visual-basic-f"></a>방법: 디버깅을 위한.NET Framework 버전 지정 (C#, Visual Basic의 경우 F#)
 
-Visual Studio 디버거에서 디버깅 이전 버전의 Microsoft [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 현재 버전 뿐 아니라 합니다. Visual Studio에서 애플리케이션을 시작하는 경우 디버거는 디버깅하려는 애플리케이션에 대한 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 버전을 항상 올바르게 식별할 수 있습니다. 그러나 응용 프로그램이 이미 있으면 실행 하 여 디버깅을 시작할를 사용 하 여 **연결할**, 디버거 항상 못할의 이전 버전을 식별 하는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다. 이러한 문제가 발생하면 다음과 같은 오류 메시지가 표시됩니다.
+Visual Studio 디버거는 현재 버전 및 이전 버전의 Microsoft.NET Framework 디버깅을 지원 합니다. Visual Studio에서 응용 프로그램을 시작 하는 경우 디버거는 디버깅 하는 응용 프로그램에 대 한.NET Framework의 올바른 버전이 항상 식별할 수 있습니다. 그러나 응용 프로그램이 이미 있으면 실행 하 여 디버깅을 시작할를 사용 하 여 **연결할**, 디버거 않을.NET Framework의 이전 버전을 식별할 수 없습니다. 이러한 문제가 발생하면 다음과 같은 오류 메시지가 표시됩니다.
 
 ``` cmd
-The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version your application is going to use.
+The debugger has made an incorrect assumption about the .NET Framework version your application is going to use.
 ```
 
 이 오류가 표시 되는 드문 경우에 사용할 버전을 디버거에 알리는 하는 레지스트리 키를 설정할 수 있습니다.
@@ -62,7 +62,7 @@ The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](.
 
 9. **레지스트리 편집기**를 닫습니다.
 
-     디버깅을 시작할 때 여전히 오류 메시지가 표시되면 레지스트리에 버전 번호를 올바르게 입력했는지 확인합니다. 현재 사용하고 있는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 버전이 Visual Studio에서 지원되는지 여부도 확인합니다. 현재 디버거는 .NET Framework 버전 및 이전 버전과 호환되지만 이후 버전과는 호환되지 않을 수 있습니다.
+     디버깅을 시작할 때 여전히 오류 메시지가 표시되면 레지스트리에 버전 번호를 올바르게 입력했는지 확인합니다. 또한 Visual Studio에서 지 원하는.NET Framework의 버전을 사용 하 고 있는지 확인 합니다. 현재 디버거는 .NET Framework 버전 및 이전 버전과 호환되지만 이후 버전과는 호환되지 않을 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 - [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)

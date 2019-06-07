@@ -10,12 +10,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: dc17f59858637048c12929411a0f413ed625ad10
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: e243ccfc92c5e17dd25e6d77dede439daac08761
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66331629"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747722"
 ---
 # <a name="supply-undo-support-to-designers"></a>디자이너에 실행 취소 지원 제공
 
@@ -29,7 +29,7 @@ Visual Studio에서 구현 하는 대부분의 디자이너 "취소" 환경에�
 
 - 구현 하 여 제공 지 속성 및 CodeDOM을 지원 합니다 <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> 및 <xref:System.ComponentModel.Design.IComponentChangeService> 클래스입니다.
 
-디자이너를 사용 하 여 작성 하는 방법은 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]를 참조 하세요 [디자인 타임 지원 확장](/previous-versions/37899azc(v=vs.140))합니다.
+.NET Framework를 사용 하 여 디자이너를 작성에 대 한 자세한 내용은 참조 하세요. [디자인 타임 지원 확장](/previous-versions/37899azc(v=vs.140))합니다.
 
 [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] 에서 기본 실행 취소 인프라를 제공 합니다.
 
@@ -50,7 +50,7 @@ Visual Studio에서 만든 모든 디자이너는 자동 및 전체 실행 취�
 ## <a name="when-to-use-explicit-designer-undo-support"></a>명시적 디자이너 실행 취소 기능을 사용 하는 경우
  디자이너 뷰 어댑터를 제공한 것 이외의 라고 그래픽 사용자 인터페이스를 사용 하는 경우 자체 실행 취소 관리를 제공 해야 <xref:System.Windows.Forms.Control>합니다.
 
- 이 예가 있습니다 수 제품을 만드는 그래픽 디자인 웹 기반 인터페이스를 사용 하 여 대신 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]-그래픽 인터페이스를 기반으로 합니다.
+ 예로는.NET Framework 기반 그래픽 인터페이스 대신 그래픽 디자인 웹 기반 인터페이스를 사용 하 여 제품을 만들 수 있습니다.
 
  이러한 경우 하나 해야 Visual Studio를 사용 하 여이 뷰 어댑터 등록 <xref:Microsoft.VisualStudio.Shell.Design.ProvideViewAdapterAttribute>, 명시적 실행 취소 관리를 제공 합니다.
 
@@ -59,7 +59,7 @@ Visual Studio에서 만든 모든 디자이너는 자동 및 전체 실행 취�
 ## <a name="undo-support-features-of-the-designer"></a>디자이너 지원 기능을 실행 취소
  환경 SDK 작업 취소 되지를 사용 하 여 디자이너에서 사용할 수 있는 지원을 제공 하는 데 필요한 인터페이스의 기본 구현을 제공 <xref:System.Windows.Forms.Control> 해당 사용자 인터페이스 또는 표준 CodeDOM 및 지 속성 모델에 대 한 클래스를 기반으로 합니다.
 
- <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> 클래스에서 파생 되는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] <xref:System.ComponentModel.Design.UndoEngine> 클래스의 구현을 사용 하는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoManager> 실행 취소 작업을 관리 하는 클래스입니다.
+ 합니다 <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> .NET Framework에서 클래스 파생 <xref:System.ComponentModel.Design.UndoEngine> 클래스의 구현을 사용 하는 <xref:Microsoft.VisualStudio.OLE.Interop.IOleUndoManager> 실행 취소 작업을 관리 하는 클래스입니다.
 
  Visual Studio 디자이너 실행 취소 하는 다음 기능을 제공합니다.
 

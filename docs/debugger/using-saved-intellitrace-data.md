@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 932ae7279b0bcb216d120f9ef6fb5c019e5094f5
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: de8e6cfa6ec99f42879043b873736102fd291176
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63408630"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746148"
 ---
 # <a name="using-saved-intellitrace-data-c-visual-basic-c"></a>저장 된 IntelliTrace 데이터를 사용 하 여 (C#, Visual Basic의 경우 C++)
 
@@ -37,7 +37,6 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
     |**소스**|**참조**|
     |----------------|-------------|
     |Visual Studio Enterprise(Professional 또는 Community Edition 아님)의 IntelliTrace 세션|[IntelliTrace 기능](../debugger/intellitrace-features.md)|
-    |Microsoft Test Manager의 테스트 세션. 이는 Team Foundation Server 작업 항목에 .iTrace 파일을 연결합니다.|[수동 테스트에서 추가 진단 데이터 수집](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
     |배포에서 실행 중인 ASP.NET 웹앱 및 SharePoint 애플리케이션에 대해 Microsoft Monitoring Agent 단독으로 또는 System Center 2012 R2 Operations Manager와 함께 사용|-   [배포 후 문제 진단](../debugger/diagnose-problems-after-deployment.md)<br />-   [System Center 2012 R2 Operations Manager의 새로운 기능](/previous-versions/system-center/system-center-2012-R2/dn249700(v=sc.12))|
 
 ## <a name="GetStarted"></a> 원하는 작업을 선택하세요.
@@ -67,7 +66,7 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
 > 디버깅하는 동안 IntelliTrace 파일을 닫은 경우 쉽게 다시 열 수 있습니다. **디버그** 메뉴로 가서 **IntelliTrace**와 **로그 요약 표시**를 차례로 선택합니다. **IntelliTrace** 창에서 **로그 요약 표시** 를 선택할 수도 있습니다. 이 명령은 IntelliTrace를 사용하여 디버깅할 때만 사용할 수 있습니다.
 
 ## <a name="Understand"></a> IntelliTrace 로그 이해
- .iTrace 파일에 있는 다음 섹션 중 일부는 Test Manager 또는 SharePoint 애플리케이션 등의 특정 소스에서 데이터를 수집한 경우에만 나타납니다.
+ .ITrace 파일의 다음 섹션 중 일부에 SharePoint 응용 프로그램에서 예를 들어 특정 원본에서 데이터를 수집 하는 경우에 나타납니다.
 
 |**섹션**|**포함**|**컬렉션 소스**|
 |-----------------|------------------|---------------------------|
@@ -76,7 +75,6 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
 |[분석](#Analysis)|SharePoint 2010 및 SharePoint 2013 애플리케이션만 해당합니다. 디버거 이벤트, ULS 이벤트, 처리되지 않은 예외 및 Microsoft Monitoring Agent가 기록한 기타 데이터 등 IntelliTrace 및 SharePoint 이벤트를 진단합니다.|Microsoft Monitoring Agent를 독립 실행형 수집기 중 하나 또는 System Center 2012 R2 Operations Manager를 사용 하 여|
 |[시스템 정보](#SystemInfo)|호스트 시스템의 설정 및 사양|모든 소스|
 |[스레드 목록](#ThreadsList)|수집하는 동안 실행되는 스레드|모든 소스|
-|[테스트 데이터](#TestData)|테스트 세션의 테스트 단계 및 해당 결과|테스트 관리자|
 |[모듈](#Modules)|대상 프로세스가 로드된 순서대로 로드된 모듈|모든 소스|
 |[웹 요청](#Modules)|프로덕션 IIS에 대 한 웹 요청 데이터를 웹 응용 프로그램 및 SharePoint 2010 및 SharePoint 2013|Microsoft Monitoring Agent를 독립 실행형 수집기|
 
@@ -84,7 +82,7 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
 
 - 데이터를 정렬하려면 열 머리글을 선택합니다.
 
-- 데이터를 필터링하려면 검색 상자를 사용합니다. 일반 텍스트 검색은 시간 열을 제외하고 모든 열에서 가능합니다. 열당 하나의 필터를 사용하여 특정 열에 대한 검색을 필터링할 수도 있습니다. 공백 없이 열 이름, 콜론(**:**) 및 검색 값을 입력합니다. 여기에 세미콜론(**;**)을 사용하여 다른 열 및 검색 값을 추가합니다.
+- 데이터를 필터링하려면 검색 상자를 사용합니다. 일반 텍스트 검색은 시간 열을 제외하고 모든 열에서 가능합니다. 열당 하나의 필터를 사용하여 특정 열에 대한 검색을 필터링할 수도 있습니다. 공백 없이 열 이름, 콜론( **:** ) 및 검색 값을 입력합니다. 여기에 세미콜론( **;** )을 사용하여 다른 열 및 검색 값을 추가합니다.
 
      예를 들어 **설명** 열에서 "느림"이라는 단어가 있는 성능 이벤트를 찾으려면 다음을 입력합니다.
 
@@ -143,9 +141,9 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
     |**열**|**표시**|
     |----------------|-------------------|
     |**형식**|예외의 .NET 형식|
-    |그룹화된 예외에 대한**최신 메시지** 또는 그룹화되지 않은 예외에 대한 **메시지** |예외에서 제공된 메시지|
-    |그룹화된 예외에 대한**개수** |예외가 throw된 횟수|
-    |그룹화되지 않은 예외에 대한**스레드 ID** |예외를 throw한 스레드의 ID|
+    |그룹화된 예외에 대한**최신 메시지** 또는 그룹화되지 않은 예외에 대한 **메시지**|예외에서 제공된 메시지|
+    |그룹화된 예외에 대한**개수**|예외가 throw된 횟수|
+    |그룹화되지 않은 예외에 대한**스레드 ID**|예외를 throw한 스레드의 ID|
     |**최신 이벤트 시간** 또는 **이벤트 시간**|예외가 throw되었을 때 기록된 타임스탬프|
     |**호출 스택**|예외에 대한 호출 스택<br /><br /> 호출 스택을 보려면 목록에서 예외를 선택합니다. 호출 스택은 예외 목록 아래에 나타납니다.|
 
@@ -227,9 +225,6 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
 |**이름**|스레드 이름. 명명되지 않은 스레드는 “\<이름 없음>”으로 나타납니다.|
 |**시작 시간**|스레드를 만든 시간|
 |**종료 시간**|스레드를 완료한 시간|
-
-### <a name="TestData"></a> 테스트 데이터
- 앱을 테스트하는 동안 테스트 관리자가 기록한 IntelliTrace 데이터를 검사합니다.
 
 ##### <a name="to-start-debugging-from-a-specific-test-step"></a>특정 테스트 단계에서 디버깅을 시작하려면
 

@@ -22,12 +22,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a13e6ce35b798a79d3c8a283aa941b801ff03141
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: bb2ec5229132265feb1095c9ee921d73a1568dd2
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263484"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745599"
 ---
 # <a name="security-versioning-and-manifest-issues-in-clickonce-deployments"></a>ClickOnce 배포의 보안, 버전 관리 및 매니페스트 문제
 
@@ -59,7 +59,7 @@ ms.locfileid: "66263484"
 
 ## <a name="specify-individual-net-framework-assemblies-in-the-manifest"></a>매니페스트에서 개별.NET Framework 어셈블리를 지정 합니다.
 
-응용 프로그램에서 수동으로 편집한 경우 로드에 실패 한 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 이전 버전의를 참조 하는 배포는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 어셈블리입니다. 예를 들어, System.Net 어셈블리의 버전에 대 한 참조를 추가한 경우에 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 매니페스트에 지정 된 버전을 하기 전에 다음 오류가 발생 합니다. 일반적으로 개인에 대 한 참조를 지정 하지 말아야 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 어셈블리의 버전으로는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 응용 프로그램이 실행 되는 것에 대 한 응용 프로그램 매니페스트에서 종속성으로 지정 됩니다.
+응용 프로그램에서 수동으로 편집한 경우 로드에 실패 한 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 이전 버전의.NET Framework 어셈블리를 참조 하는 배포 합니다. 예를 들어, System.Net 어셈블리 매니페스트에 지정 된 버전 보다 이전.NET Framework의 버전에 대 한 참조를 추가한 경우 다음 오류가 발생 합니다. 일반적으로 하지 않아야 개별.NET Framework 어셈블리에 대 한 참조를 지정 하는 응용 프로그램 매니페스트에서 종속성으로 지정 된 응용 프로그램이 실행 되는.NET Framework의 버전으로 합니다.
 
 ## <a name="manifest-parsing-issues"></a>매니페스트 구문 해석 문제
 

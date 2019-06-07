@@ -15,12 +15,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d44c9a4a5c59907c527c47523c6c758adaf7ee51
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7dd2945ec12ac398f2887d20d3d0cb6156f4ed3c
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62825496"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66745215"
 ---
 # <a name="performance-warnings"></a>성능 경고
 성능 경고는 고성능 라이브러리 및 응용 프로그램을 지원합니다.
@@ -38,7 +38,7 @@ ms.locfileid: "62825496"
 | [CA1810: 참조 형식 정적 필드를 인라인으로 초기화](../code-quality/ca1810-initialize-reference-type-static-fields-inline.md) | 형식이 명시적인 정적 생성자를 선언하면 JIT(Just-in-Time) 컴파일러는 형식의 각 정적 메서드와 인스턴스 생성자에 검사를 추가하여 정적 생성자를 이전에 호출했는지 확인합니다. 정적 생성자 검사로 인해 성능이 저하될 수 있습니다. |
 | [CA1811: 호출 되지 않는 전용 코드를 방지 합니다.](../code-quality/ca1811-avoid-uncalled-private-code.md) | Private 또는 internal (어셈블리 수준) 멤버는 어셈블리의 호출자가 없는, 공용 언어 런타임에 의해 호출 되지 않습니다 및 대리자에 의해 호출 되지 않습니다. |
 | [CA1812: 인스턴스화되지 않은 내부 클래스를 방지 합니다.](../code-quality/ca1812-avoid-uninstantiated-internal-classes.md) | 어셈블리 수준 형식의 인스턴스가 어셈블리에서 코드에 의해 만들어지지 않습니다. |
-| [CA1813: 봉인 되지 않은 특성](../code-quality/ca1813-avoid-unsealed-attributes.md) | .NET Framework 클래스 라이브러리는 사용자 지정 특성을 검색 하는 메서드를 제공 합니다. 기본적으로 이러한 메서드는 특성 상속 계층을 검색합니다. 특성을 봉인하면 상속 계층을 검색하지 않으므로 성능이 향상될 수 있습니다. |
+| [CA1813: 봉인 되지 않은 특성](../code-quality/ca1813-avoid-unsealed-attributes.md) | .NET은 사용자 지정 특성을 검색 하는 메서드를 제공 합니다. 기본적으로 이러한 메서드는 특성 상속 계층을 검색합니다. 특성을 봉인하면 상속 계층을 검색하지 않으므로 성능이 향상될 수 있습니다. |
 | [CA1814: 다차원 보다 가변 배열을 사용합니다](../code-quality/ca1814-prefer-jagged-arrays-over-multidimensional.md) | 가변 배열의 요소에는 배열이 사용됩니다. 요소를 구성 하는 배열의 일부 데이터 집합에는 발생할 수 있는 다양 한 일 수 있습니다. |
 | [CA1815: 값 형식에서 Equals 또는 같음 연산자 재정의](../code-quality/ca1815-override-equals-and-operator-equals-on-value-types.md)를 참조하세요. | 값 형식의 경우 Equals의 상속된 구현에서 Reflection 라이브러리를 사용하며 모든 필드의 내용을 비교합니다. Reflection에는 많은 계산이 요구되며 모든 필드의 일치 여부를 비교하는 것이 불필요할 수 있습니다. 사용자가 인스턴스를 비교 또는 정렬하거나 인스턴스를 해시 테이블 키로 사용할 것으로 예측되는 경우에는 값 형식에서 Equals를 구현해야 합니다. |
 | [CA1816: GC를 호출 합니다. SuppressFinalize 올바르게](../code-quality/ca1816-call-gc-suppressfinalize-correctly.md) | Dispose 구현인 메서드가 GC를 호출 하지 않습니다. Dispose 구현이 아닌 메서드나 SuppressFinalize, GC를 호출 합니다. GC SuppressFinalize, 또는 메서드를 호출합니다. SuppressFinalize이 이외의 값을 전달 하 고 (Me in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). |

@@ -10,15 +10,15 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1a223d23cb792f13f1df9f869a540ffa61f50f9b
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: a8a93b4fd12cd9a0bd2e5a5f3c70486e370545a9
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66340640"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747641"
 ---
 # <a name="manage-undo-and-redo-by-using-the-legacy-api"></a>실행 취소를 관리 하 고 기존 API를 사용 하 여 다시 실행
-편집기는 코드를 수정 하는 경우 최근 변경 내용이 되돌릴 수 있도록 하는 실행 취소 작업을 지원 해야 합니다. 대부분의 편집기에서 구현 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 하며 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 통합된 개발 환경 (IDE)에서 자동으로 제공 하는 실행 취소 기능을 가질 수 있습니다.
+편집기는 코드를 수정 하는 경우 최근 변경 내용이 되돌릴 수 있도록 하는 실행 취소 작업을 지원 해야 합니다. 구현 하는 대부분의 편집기 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] .NET Framework 통합된 개발 환경 (IDE)에서 자동으로 제공 하는 실행 취소 지원 있고 사용할 수 있습니다.
 
 ## <a name="in-this-section"></a>단원 내용
 - [방법: 실행 취소 관리 구현](../extensibility/how-to-implement-undo-management.md) 단일 또는 여러 뷰가 포함 된 편집기에 대 한 실행 취소 기능을 제공 합니다.

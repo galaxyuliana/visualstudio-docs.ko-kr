@@ -14,21 +14,21 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 1423cbcfcae53948f7b9c9cd52eb90f57251bc24
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9ef0daf5fd28bd829edcdce412839b03ed8347bf
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62851060"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745435"
 ---
 # <a name="error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-net-framework-4-or-greater"></a>오류: x64 프로세스용 혼합 모드 디버깅은 Microsoft .NET Framework 4 이상을 사용할 때만 지원됩니다.
-64비트 프로세스의 혼합 네이티브 및 관리 코드를 디버깅하려면 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 버전 4가 있어야 합니다. 4 이전 버전의 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]에서는 64비트 프로세스의 혼합 모드 디버깅이 지원되지 않습니다.
+64 비트 프로세스의 혼합된 네이티브 및 관리 코드를 디버깅 하려면.NET Framework 버전 4 있어야 합니다. 4 이전의.NET Framework 버전을 사용 하 여 64 비트 프로세스의 혼합 모드 디버깅이 지원 되지 않습니다.
 
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면
 
 - 다음 단계 중 하나를 수행합니다.
 
-  - [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]를 버전 4로 업그레이드합니다.
+  - .NET Framework 4 버전으로 업그레이드 합니다.
 
   - 디버깅을 위해 32비트 버전의 응용 프로그램을 빌드합니다.
 

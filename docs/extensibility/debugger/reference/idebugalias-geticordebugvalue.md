@@ -15,12 +15,12 @@ ms.workload:
 dev_langs:
 - CPP
 - CSharp
-ms.openlocfilehash: 50fb7800c4446e7d13334957ee9f5f6534f254bf
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: f8ef27f9af5626b716339281c010c62c2515fb8b
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66338219"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746838"
 ---
 # <a name="idebugaliasgeticordebugvalue"></a>IDebugAlias::GetICorDebugValue
 이 별칭을 사용 하 여 연결 된 값을 나타내는 관리 코드 인터페이스를 검색 합니다.
@@ -47,7 +47,7 @@ int GetICorDebugValue(
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.
 
 ## <a name="remarks"></a>설명
- 이 메서드는 관리 되는 값에만 적용 됩니다 (합니다 `ICorDebugValue` 은 인터페이스에서 사용할 수 있는 [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] 에 정의 된는 [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] cordebug.idl 파일에서 SDK).
+ 이 메서드는 관리 되는 값에만 적용 됩니다 (의 `ICorDebugValue` 인터페이스는.NET Framework에서 제공 되며 cordebug.idl 파일에서.NET Framework SDK에 정의 된).
 
 ## <a name="see-also"></a>참고자료
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

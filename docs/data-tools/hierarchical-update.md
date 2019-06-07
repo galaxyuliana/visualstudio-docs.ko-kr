@@ -21,18 +21,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 303c19e8cb02b7c9db78d922f0591cb7ab5f3ed3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a15daaf5ac98bc2efc4ce83bb2370b94e9f59123
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62566805"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745467"
 ---
 # <a name="hierarchical-update"></a>계층적 업데이트
 
 *계층적 업데이트* 무결성 규칙을 유지 하면서 데이터베이스에 다시 (둘 이상의 관련된 테이블을 사용 하 여 데이터 집합)에서 업데이트 된 데이터를 저장 하는 프로세스를 가리킵니다. *참조 무결성* 삽입, 업데이트 및 삭제 관련된 레코드의 동작을 제어 하는 데이터베이스에서 제약 조건에 의해 제공 되는 일관성 규칙을 가리킵니다. 예를 들어 참조 무결성 적용 해당 고객에 대 한 주문을 만들 수 있도록 허용 하기 전에 고객 레코드를 생성 하는 것입니다.  데이터 집합의 관계에 대 한 자세한 내용은 참조 하세요. [데이터 집합의 관계](../data-tools/relationships-in-datasets.md)합니다.
 
-계층적 업데이트 기능을 사용 하는 `TableAdapterManager` 관리 하는 `TableAdapter`형식화 된 데이터 집합의 합니다. `TableAdapterManager` 되지 않도록 구성 요소는 Visual Studio에서 생성 된 클래스의 일부는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다. 테이블을 끌면 합니다 **데이터 원본** 폼 이나 페이지에서 TableAdapterManager 형식의 변수를 추가 하는 Windows Form 또는 WPF 페이지에서 Visual Studio 창 및 구성 요소 트레이에 디자이너에 표시 합니다. 에 대 한 자세한 내용은 합니다 `TableAdapterManager` 클래스의 TableAdapterManager 참조 섹션을 참조 하십시오 [Tableadapter](../data-tools/create-and-configure-tableadapters.md)합니다.
+계층적 업데이트 기능을 사용 하는 `TableAdapterManager` 관리 하는 `TableAdapter`형식화 된 데이터 집합의 합니다. `TableAdapterManager` 구성 요소는 Visual Studio에서 생성 된 클래스를.NET 형식이 아닙니다. 테이블을 끌면 합니다 **데이터 원본** 폼 이나 페이지에서 TableAdapterManager 형식의 변수를 추가 하는 Windows Form 또는 WPF 페이지에서 Visual Studio 창 및 구성 요소 트레이에 디자이너에 표시 합니다. 에 대 한 자세한 내용은 합니다 `TableAdapterManager` 클래스의 TableAdapterManager 참조 섹션을 참조 하십시오 [Tableadapter](../data-tools/create-and-configure-tableadapters.md)합니다.
 
 기본적으로 데이터 집합 취급 관련된 테이블 "관계에만 해당" 즉, foreign key 제약 조건을 강제 적용 하지 않습니다. 사용 하 여 디자인 타임에 해당 설정을 수정할 수 있습니다 합니다 **데이터 집합 디자이너**합니다. 표시 하기 위해 두 테이블 간의 관계 선을 선택 합니다 **관계** 대화 상자. 여기에서 수행한 변경 내용을 결정 하는 방법을 `TableAdapterManager` 때 동작 변경 내용이 관련된 테이블의 데이터베이스에 다시 보내는 것입니다.
 
@@ -114,7 +114,7 @@ ms.locfileid: "62566805"
 
 기본적으로 `TableAdapterManager` 클래스 관련된 테이블이 포함 된 데이터 집합을 만들 때 생성 됩니다. 클래스 생성을 방지 하려면 값을 변경 합니다 `Hierarchical Update` false 데이터 집합의 속성입니다. Windows Form 또는 WPF 페이지의 디자인 화면으로 관계가 있는 테이블을 끌어 놓으면 Visual Studio 클래스의 멤버 변수를 선언 합니다. 데이터 바인딩을 사용 하지 않는 경우 수동으로 변수를 선언 해야 합니다.
 
-`TableAdapterManager` 클래스가 아닌 부분을 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]입니다. 따라서 설명서에서를 찾을 수 없습니다. 데이터 집합 만들기 프로세스의 일부로 디자인 타임에 생성 됩니다.
+`TableAdapterManager` 클래스는.NET 형식이 아닙니다. 따라서 설명서에서를 찾을 수 없습니다. 데이터 집합 만들기 프로세스의 일부로 디자인 타임에 생성 됩니다.
 
 다음은 자주 사용 되는 메서드 및 속성을 `TableAdapterManager` 클래스:
 

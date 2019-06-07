@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8222c6526d54ffb7721c2f2799458fe5c8277cd7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 3d4339295c47ee6bc8915eecfb581d9a0e8a4bed
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63406643"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747676"
 ---
 # <a name="trusted-application-deployment-overview"></a>신뢰할 수 있는 애플리케이션 배포 개요
 이 항목에서는 신뢰할 수 있는 애플리케이션 배포 기술을 사용하여, 관리자 권한이 있는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 배포하는 방법에 대한 개요를 제공합니다.
@@ -80,7 +80,7 @@ ms.locfileid: "63406643"
 - *CertMgr.exe* - Internet Explorer의 구성 요소이므로 Windows 98 및 이후 모든 버전에 있습니다. 자세한 내용은 [Certmgr.exe (인증서 관리자 도구)](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool)합니다.
 
 ### <a name="create-a-clickonce-application"></a>ClickOnce 애플리케이션 만들기
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램은 응용 프로그램을 설명하고 설치 매개 변수를 제공하는 매니페스트 파일과 결합된 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 클라이언트 응용 프로그램입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에서 **게시** 명령을 사용하여 프로그램을 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]응용 프로그램으로 전환할 수 있습니다. 또는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에 포함된 도구를 사용하여 [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]배포에 필요한 모든 파일을 생성할 수 있습니다. 자세한 단계 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 참조 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
+ [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램은 응용 프로그램을 설명 하 고 설치 매개 변수를 제공 하는 매니페스트 파일과 결합 된.NET Framework 클라이언트 응용 프로그램입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에서 **게시** 명령을 사용하여 프로그램을 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]응용 프로그램으로 전환할 수 있습니다. 또는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 에 포함된 도구를 사용하여 [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]배포에 필요한 모든 파일을 생성할 수 있습니다. 자세한 단계 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포 참조 [연습: 수동으로 ClickOnce 애플리케이션 배포](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)
 
  신뢰할 수 있는 애플리케이션 배포는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]에 관련되고 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션에서만 사용할 수 있습니다.
 

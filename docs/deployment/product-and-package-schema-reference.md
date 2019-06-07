@@ -25,15 +25,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 489415eba929a73c25b8aea7262c3e930a5d90cd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1570aa3d4ea72dc1d133ce3096e1726fa1ffb782
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62898135"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745621"
 ---
 # <a name="product-and-package-schema-reference"></a>제품 및 패키지 스키마 참조
-A *제품 파일* 에 필요한 외부 종속성의 모든 설명 하는 XML 매니페스트는는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램입니다. 외부 종속성의 예로 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 및 Microsoft Data Access Components (MDAC). 패키지 파일을 제품 파일과 유사 하지만 지역화 된 어셈블리, 사용권 계약 및 설명서 등의 종속성을의 문화권 종속 구성 요소를 설치 하는 데 사용 됩니다.
+A *제품 파일* 에 필요한 외부 종속성의 모든 설명 하는 XML 매니페스트는는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램입니다. 외부 종속성의 예로.NET Framework 및 Microsoft Data Access Components (MDAC)를 들 수 있습니다. 패키지 파일을 제품 파일과 유사 하지만 지역화 된 어셈블리, 사용권 계약 및 설명서 등의 종속성을의 문화권 종속 구성 요소를 설치 하는 데 사용 됩니다.
 
  제품 및 패키지 파일 구성 중 최상위 `Product` 또는 `Package` 요소에는 다음 요소가 포함 된 각 합니다.
 
@@ -53,7 +53,7 @@ A *제품 파일* 에 필요한 외부 종속성의 모든 설명 하는 XML 매
  `InstallChecks` 테스트는 setup.exe 특정된 패키지의 존재 여부에 대해 수행 해야 합니다. `PackageFiles` 설치 프로세스를 설치 해야 할 수를 지정 된 테스트를 실패 하는 패키지의 모든를 나열 합니다. 명령에서 각 명령은 항목에서 설명 하는 테스트 중 하나를 실행 `InstallChecks`를 지정 하 고 `PackageFile` 실행할 테스트 실패 합니다. 사용할 수는 `Strings` 이진 단일 설치를 사용 하 여 다양 한 언어 응용 프로그램을 설치할 수 있도록 제품 이름 및 오류 메시지를 지역화 하는 요소입니다.
 
 ## <a name="example"></a>예제
- 다음 코드 예제에는 설치에 대 한 완전 한 제품 파일을 보여 줍니다는 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]합니다.
+ 다음 코드 예제에는.NET Framework 설치에 대 한 완전 한 제품 파일을 보여 줍니다.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>

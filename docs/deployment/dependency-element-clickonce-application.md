@@ -26,12 +26,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7c9172749dc00acf0fd43725f6754373a0ade16e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 41e6e5bf2152fffb06acfb8b5e1f3283da75a19a
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62900360"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745959"
 ---
 # <a name="ltdependencygt-element-clickonce-application"></a>&lt;종속성&gt; 요소 (ClickOnce 응용 프로그램)
 응용 프로그램에 필요한 플랫폼 또는 어셈블리 종속성을 식별 합니다.
@@ -126,7 +126,7 @@ ms.locfileid: "62900360"
 |-----------------------| - |
 | `dependencyType` | 필수 요소. 종속성 유형을 지정합니다. 유효한 값은 `preprequisite` 및 `install`입니다. `install` 어셈블리의 일부로 설치 되는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램입니다. A `prerequisite` 어셈블리는 앞의 전역 어셈블리 캐시 (GAC)에 있어야 합니다 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램을 설치할 수 있습니다. |
 | `allowDelayedBinding` | 필수 요소. 어셈블리를 런타임에 프로그래밍 방식으로 로드할 수 있는지 여부를 지정 합니다. |
-| `group` | 선택 사항입니다. 경우는 `dependencyType` 특성이로 설정 된 `install`, 필요할 때 유일한 설치 프로그램을 어셈블리의 명명 된 그룹을 지정 합니다. 자세한 내용은 [연습: 디자이너를 사용하여 ClickOnce 배포 API에서 요청 시 어셈블리 다운로드](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md)를 참조하세요.<br /><br /> 경우로 `framework` 하며 `dependencyType` 특성이로 설정 된 `prerequisite`,.NET Framework의 일부로 어셈블리를 지정 합니다. 전역 어셈블리 캐시 (GAC)에 설치 하는 경우이 어셈블리에 대 한 검사 되지 않습니다는 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 이상. |
+| `group` | 선택 사항입니다. 경우는 `dependencyType` 특성이로 설정 된 `install`, 필요할 때 유일한 설치 프로그램을 어셈블리의 명명 된 그룹을 지정 합니다. 자세한 내용은 [연습: 디자이너를 사용하여 ClickOnce 배포 API에서 요청 시 어셈블리 다운로드](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md)를 참조하세요.<br /><br /> 경우로 `framework` 하며 `dependencyType` 특성이로 설정 된 `prerequisite`,.NET Framework의 일부로 어셈블리를 지정 합니다. .NET Framework 4 이상 버전에서 설치 하는 경우에이 어셈블리에 대 한 전역 어셈블리 캐시 (GAC) 확인 하지 않습니다. |
 | `codeBase` | 때 필요 합니다 `dependencyType` 특성이로 설정 된 `install`합니다. 종속 어셈블리 경로입니다. 매니페스트의 코드의 상대 경로 또는 절대 경로, 기본 수 있습니다. 이 경로 유효한 어셈블리 매니페스트에 대 한 순서에 유효한 URI 여야 합니다. |
 | `size` | 때 필요 합니다 `dependencyType` 특성이로 설정 된 `install`합니다. 크기 (바이트)에서 종속 어셈블리입니다. |
 
