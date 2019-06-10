@@ -7,8 +7,10 @@
     - name: 빠른 시작
       expanded: true
       items:
-        - name: Visual Studio의 컨테이너 도구
+        - name: 컨테이너의 ASP.NET Core 앱
           href: container-tools.md
+        - name: 컨테이너의 React.js 단일 페이지 앱
+          href: container-tools-react.md
     - name: 자습서
       expanded: true
       items:
