@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 77c0a76ae326621ed00a523d8cf484b9aecb53c4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 6c4c55461960e48a7ecce74dd9f88e371853e705
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445194"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820986"
 ---
 # <a name="how-to-define-a-domain-specific-language"></a>도메인별 언어 정의 방법
 도메인 특정 언어 (DSL)를 정의 하려면 템플릿에서 Visual Studio 솔루션을 만듭니다. 이 솔루션의 중요한 요소는 DslDefinition.dsl에 저장되는 DSL 정의 다이어그램입니다. DSL 정의는 DSL의 클래스와 모양을 정의합니다. 이러한 요소를 수정하고 필요한 내용을 추가한 후에 프로그램 코드를 추가하여 DSL을 보다 자세하게 사용자 지정할 수 있습니다.
@@ -99,7 +99,7 @@ DSL을 정의하려면 다음 구성 요소를 설치해야 합니다.
 
  만든 솔루션을 실행 하는 경우는 **최소 언어** 템플릿을 실험적 Visual Studio에는 다음 예제와 유사 합니다.
 
- ![](../modeling/media/dsl_min.png)
+ ![Visual Studio에서 도메인 특정 언어 샘플 트리에서](../modeling/media/dsl_min.png)
 
  도구를 사용해 보고 요소를 만들어 서로 연결합니다.
 

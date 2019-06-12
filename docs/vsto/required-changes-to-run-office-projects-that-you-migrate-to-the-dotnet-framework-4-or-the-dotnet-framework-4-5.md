@@ -1,5 +1,5 @@
 ---
-title: .NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Office 프로젝트를 실행 하는 필요한 변경
+title: Office 프로젝트에 필요한 변경 내용이.NET Framework 4, 4.5로 마이그레이션
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: a83207633d60348d664e3c9337b48288bb6c1baf
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 82ae3f8a43b65e6ff617192dc38149691d229455
+ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63447044"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66836068"
 ---
 # <a name="required-changes-to-run-office-projects-that-you-migrate-to-the-net-framework-4-or-the-net-framework-45"></a>.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Office 프로젝트를 실행 하는 필요한 변경
   Office 프로젝트의 대상 프레임 워크를 변경 된 경우는 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 또는 나중에.NET Framework의 이전 버전에서 수행 해야 솔루션을 개발 컴퓨터에 최종 사용자 컴퓨터에서 실행할 수 있도록 다음 작업을 합니다.

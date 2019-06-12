@@ -8,12 +8,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8a2e67692daed4d00b841b7472e7d13ede0ca500
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 61bb5391f52bcfc587664259821d02ff2786acd3
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63420422"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820683"
 ---
 # <a name="step-8-write-code-for-the-show-a-picture-button-event-handler"></a>8단계: 그림 표시 단추 이벤트 처리기를 위한 코드 작성
 
@@ -87,7 +87,7 @@ IDE에는 코드 작성에 유용한 IntelliSense라는 강력한 도구가 있�
         >
         >  `If OpenFileDialog1.ShowDialog() = DialogResult.OK Then`
 
-    9. 이제 코드 한 줄을 추가합니다. 입력하거나 복사하여 붙여넣을 수 있지만 IntelliSense를 사용하여 추가해 보십시오. IntelliSense에 익숙할수록 코드를 더 빠르게 작성할 수 있습니다. 최종 `showButton_Click()` 메서드는 다음과 같습니다. Visual Basic 버전의 코드를 보려면 **VB** 탭을 선택합니다.
+    9. 이제 코드 한 줄을 추가합니다. 입력하거나 복사하여 붙여넣을 수 있지만 IntelliSense를 사용하여 추가해 보십시오. IntelliSense에 익숙할수록 코드를 더 빠르게 작성할 수 있습니다. 최종 `showButton_Click()` 메서드는 다음과 같습니다.
 
          [!code-csharp[VbExpressTutorial1Step8#1](../ide/codesnippet/CSharp/step-8-write-code-for-the-show-a-picture-button-event-handler_1.cs)]
          [!code-vb[VbExpressTutorial1Step8#1](../ide/codesnippet/VisualBasic/step-8-write-code-for-the-show-a-picture-button-event-handler_1.vb)]

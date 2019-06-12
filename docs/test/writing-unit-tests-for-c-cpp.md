@@ -8,12 +8,12 @@ manager: markl
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: 308478bc47d62731494616a30ce320b3662de735
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: f27e2585d082f61021fbc736b394612095f56684
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65461590"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715254"
 ---
 # <a name="write-unit-tests-for-cc-in-visual-studio"></a>Visual Studio에서 C/C++에 대한 단위 테스트 작성
 
@@ -24,7 +24,7 @@ ms.locfileid: "65461590"
 
 Visual Studio에는 다음 C++ 테스트 기능이 포함되어 있으며 추가 다운로드가 필요하지 않습니다.
 
-- C++에 대한 Microsoft 단위 테스트 프레임워크 
+- C++에 대한 Microsoft 단위 테스트 프레임워크
 - Google Test
 - Boost.Test
 - CTest
@@ -41,7 +41,7 @@ C++ 단위 테스트 프로젝트는 [CodeLens](../ide/find-code-changes-and-oth
 
 - **Boost.Test**는 **C++를 통한 데스크톱 개발** 워크로드의 기본 구성 요소로 포함되어 있습니다. **테스트 탐색기**와 통합되지만 현재는 프로젝트 템플릿을 갖지 않으므로 수동으로 구성해야 합니다. 자세한 내용은 [방법: Visual Studio에서 Boost.Test 사용](how-to-use-boost-test-for-cpp.md)을 참조하세요.
 
-- **CTest** 지원은 **C++를 통한 데스크톱 개발** 워크로드의 일부인 [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-visual-cpp) 구성 요소에 포함되어 있습니다. 그러나 CTest는 아직 **테스트 탐색기**에 완전히 통합되지는 않았습니다. 자세한 내용은 [방법: Visual Studio에서 CTest 사용](how-to-use-ctest-for-cpp.md)을 참조하세요.
+- **CTest** 지원은 **C++를 통한 데스크톱 개발** 워크로드의 일부인 [CMake Tools for Visual Studio](/cpp/build/cmake-tools-for-visual-cpp) 구성 요소에 포함되어 있습니다. 그러나 CTest는 아직 **테스트 탐색기**에 완전히 통합되지는 않았습니다. 자세한 내용은 [방법: Visual Studio에서 CTest 사용](how-to-use-ctest-for-cpp.md)을 참조하세요.
 
 **Visual Studio 2015 및 이전 버전**
 
@@ -122,7 +122,7 @@ TEST_METHOD(TestClassInit)
    > [!NOTE]
    > **테스트 탐색기**와의 CTest 통합은 아직 제공되지 않습니다. CMake 주 메뉴에서 CTest 테스트를 실행합니다.
 
-1. 창에 일부 테스트가 표시되지 않는 경우 **솔루션 탐색기**에서 노드를 마우스 오른쪽 단추로 클릭하고 **빌드** 또는 **다시 빌드**를 선택하여 테스트 프로젝트를 빌드합니다. 
+1. 창에 일부 테스트가 표시되지 않는 경우 **솔루션 탐색기**에서 노드를 마우스 오른쪽 단추로 클릭하고 **빌드** 또는 **다시 빌드**를 선택하여 테스트 프로젝트를 빌드합니다.
 
 1. **테스트 탐색기**에서 **모두 실행**을 선택하거나 실행하려는 특정 테스트를 선택합니다. 테스트를 마우스 오른쪽 단추로 클릭하면 중단점을 사용하는 디버그 모드에서 실행 등, 다른 옵션이 표시됩니다. 모든 테스트를 실행한 후에는 창에 어떤 테스트에 통과했고 어떤 테스트에 실패했는지 표시됩니다.
 

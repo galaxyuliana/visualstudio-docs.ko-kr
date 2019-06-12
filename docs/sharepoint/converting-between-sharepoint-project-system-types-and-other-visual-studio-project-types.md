@@ -1,5 +1,5 @@
 ---
-title: SharePoint 프로젝트 시스템 형식과 기타 Visual Studio 프로젝트 형식 간의 변환 | Microsoft Docs
+title: 변환 합니다. 다른 형식에서 SharePoint 프로젝트 시스템 형식
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 553d6a4dfb60079aa16487f276d6f392926bb089
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 40ea60a8df5bc0bcd033c60a83d742ed3249cc53
+ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62952024"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66835993"
 ---
 # <a name="convert-between-sharepoint-project-system-types-and-other-visual-studio-project-types"></a>SharePoint 프로젝트 시스템 형식과 기타 Visual Studio 프로젝트 형식 간의 변환
   일부 경우에는 개체 SharePoint 프로젝트 시스템에 있을 수 있습니다 및 Visual Studio 자동화 개체 모델 또는 통합 개체 모델에서 해당 개체의 기능을 사용 하려는 또는 그 반대의 경우도 마찬가지입니다. 이러한 경우에 사용할 수는 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.Convert%2A> 다른 개체 모델에 개체를 변환 하 여 SharePoint 프로젝트 서비스의 메서드.

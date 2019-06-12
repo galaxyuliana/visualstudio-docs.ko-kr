@@ -1,5 +1,5 @@
 ---
-title: '연습: 서버 탐색기 확장의 SharePoint 클라이언트 개체 모델 호출 | Microsoft Docs'
+title: '서버 탐색기: SharePoint 연결 노드 확장'
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 4881604c4fe2ab85f4c32361eddb5f5bb228b3cd
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: f9413b9cb4210959d53eba1753a01d950e980536
+ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430452"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66835951"
 ---
 # <a name="walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension"></a>연습: 서버 탐색기 확장의 SharePoint 클라이언트 개체 모델 호출
   이 연습에 대 한 확장에서 SharePoint 클라이언트 개체 모델을 호출 하는 방법에 설명 합니다 **SharePoint 연결** 노드에서 **서버 탐색기**합니다. SharePoint 클라이언트 개체 모델을 사용 하는 방법에 대 한 자세한 내용은 참조 하세요. [SharePoint 개체 모델 호출](../sharepoint/calling-into-the-sharepoint-object-models.md)합니다.
@@ -240,7 +240,7 @@ ms.locfileid: "63430452"
 
     2. 에 **SharePoint 연결 추가** 대화 상자에 연결 하 고 선택 하려는 SharePoint 사이트에 대 한 URL을 입력 합니다 **확인** 단추.
 
-         개발 컴퓨터에 SharePoint 사이트를 지정 하려면 입력 **http://localhost**합니다.
+         개발 컴퓨터에 SharePoint 사이트를 지정 하려면 입력 **http://localhost** 합니다.
 
 3. (표시 하는 사이트의 URL) 사이트 연결 노드를 확장 하 고를 자식 사이트 노드를 확장 (예를 들어 **팀 사이트**).
 

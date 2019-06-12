@@ -7,12 +7,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 188b1f8e96dca3ba76a9334f04156a1e30ededa9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fef5f63d8c3fd843ed6f92a313102a9c9879003f
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62582607"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715365"
 ---
 # <a name="configure-a-c-project-for-intellisense"></a>IntelliSense에 대한 C++ 프로젝트 구성
 
@@ -20,7 +20,7 @@ IntelliSense가 제대로 작동하도록 C++ 프로젝트를 수동으로 구�
 
 ## <a name="single-file-intellisense"></a>단일 파일 IntelliSense
 
-프로젝트에 포함되지 않은 파일을 여는 경우 Visual Studio에서 일부 IntelliSense 지원을 제공하지만, 기본적으로 오류 물결선은 표시되지 않습니다. **탐색 모음**에 ‘기타 파일’이 표시되면 잘못된 코드 아래에 오류 물결선이 표시되지 않는 이유 또는 전처리기 매크로가 정의되지 않은 이유를 설명하는 것일 수 있습니다.
+프로젝트에 포함되지 않은 파일을 여는 경우 Visual Studio에서 일부 IntelliSense 지원을 제공하지만, 기본적으로 오류 물결선은 표시되지 않습니다. **탐색 모음**에 ‘기타 파일’이 표시되면 잘못된 코드 아래에 오류 물결선이 표시되지 않는 이유 또는 전처리기 매크로가 정의되지 않은 이유를 설명하는 것일 수 있습니다. 
 
 ## <a name="check-the-error-list"></a>오류 목록 확인
 
@@ -45,8 +45,6 @@ Visual Studio IDE 외부에서 빌드를 실행하고, 빌드에 성공하지만
 NMake 프로젝트 템플릿을 기반으로 하는 메이크파일 프로젝트의 경우 왼쪽 창에서 **NMake**를 선택한 다음, **IntelliSense** 범주 아래의 **포함 검색 경로**를 선택합니다.
 
 ![메이크파일 프로젝트 포함 경로](media/vcpp-intellisense-makefile-include-paths.png)
-
-자세한 내용은 [방법: 메이크파일 프로젝트에 IntelliSense 사용](/cpp/ide/how-to-enable-intellisense-for-makefile-projects)을 참조하세요.
 
 ### <a name="open-folder-projects"></a>폴더 열기 프로젝트
 

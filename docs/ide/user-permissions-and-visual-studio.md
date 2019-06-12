@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 229b1606a8a7de18da7354852e3e5adb9123f5b5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1d012c0902aa82eb057f9d69c0b85b13262e847a
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62821645"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66747629"
 ---
 # <a name="user-permissions-and-visual-studio"></a>사용자 권한 및 Visual Studio
 
@@ -33,7 +33,7 @@ Visual Studio IDE에서 일반 사용자로 거의 모든 작업을 수행할 �
 |설치|Visual Studio를 설치합니다.|[Visual Studio 설치](../install/install-visual-studio.md)|
 ||로컬 도움말 콘텐츠를 설치, 업데이트 또는 제거합니다.|[로컬 도움말 콘텐츠 설치 및 관리](../help-viewer/install-manage-local-content.md)|
 |도구 상자|**도구 상자**에 클래식 COM 컨트롤을 추가합니다.|[도구 상자](../ide/reference/toolbox.md)|
-|빌드|구성 요소를 등록하는 빌드 후 이벤트를 사용합니다.|[사용자 지정 빌드 단계 및 빌드 이벤트 이해](/cpp/ide/understanding-custom-build-steps-and-build-events)|
+|빌드|구성 요소를 등록하는 빌드 후 이벤트를 사용합니다.|[사용자 지정 빌드 단계 및 빌드 이벤트 이해](/cpp/build/understanding-custom-build-steps-and-build-events)|
 ||C++ 프로젝트를 빌드할 때 등록 단계를 포함합니다.||
 |디버깅|높은 권한으로 실행되는 애플리케이션 디버깅합니다.|[디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)|
 ||ASP.NET 웹 사이트와 같이 다른 사용자 계정으로 실행되는 애플리케이션을 디버깅합니다.|[ASP.NET 및 AJAX 애플리케이션 디버그](../debugger/how-to-enable-debugging-for-aspnet-applications.md)|

@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9279257f238adf92ad560d2f2e1aa7f769905305
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a3d5b1150c67eeb5d47741ed9331dcdc11a82582
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62537400"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714950"
 ---
 # <a name="manage-project-and-solution-properties"></a>프로젝트 및 솔루션 속성 관리
 
@@ -48,7 +48,7 @@ C++ 및 JavaScript 프로젝트에는 프로젝트 속성을 관리하기 위한
 
 ![Visual C&#43;&#43; 프로젝트 속성](../ide/media/vs2015_projprops_cpp.png)
 
-C++ 프로젝트 속성에 대한 자세한 내용은 [프로젝트 속성 작업 (C++)](/cpp/ide/working-with-project-properties)을 참조하세요. JavaScript 속성에 대한 자세한 내용은 [속성 페이지, JavaScript](../ide/reference/property-pages-javascript.md)를 참조하세요.
+C++ 프로젝트 속성에 대한 자세한 내용은 [프로젝트 속성 작업 (C++)](/cpp/build/working-with-project-properties)을 참조하세요. JavaScript 속성에 대한 자세한 내용은 [속성 페이지, JavaScript](../ide/reference/property-pages-javascript.md)를 참조하세요.
 
 ## <a name="solution-properties"></a>솔루션 속성
 

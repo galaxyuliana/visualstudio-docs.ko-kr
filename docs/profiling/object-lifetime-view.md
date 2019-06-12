@@ -16,17 +16,17 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b0819a4d9e1438b300daa68db4208bfe5908d800
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6127ae8e76ff7233ff7ad4f7b336325555e57b28
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62794351"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747201"
 ---
 # <a name="object-lifetime-view"></a>개체 수명 뷰
 개체 수명 뷰는 **성능 세션** 속성 페이지에서 **.NET 개체 수명 데이터도 수집**이 선택된 경우 사용 가능합니다.
 
- [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]의 가비지 수집기는 애플리케이션의 메모리 할당 및 해제를 관리합니다. 가비지 수집기의 성능을 최적화하기 위해 관리되는 힙은 0세대, 1세대 및 2세대의 3개 세대로 나뉩니다. 런타임의 가비지 수집기는 새 개체를 0세대에 저장합니다. 수집이 완료된 후에 남아 있는 개체는 승격되어 1세대 및 2세대에 저장됩니다.
+ .NET Framework의 가비지 수집기는 애플리케이션의 메모리 할당 및 해제를 관리합니다. 가비지 수집기의 성능을 최적화하기 위해 관리되는 힙은 0세대, 1세대 및 2세대의 3개 세대로 나뉩니다. 런타임의 가비지 수집기는 새 개체를 0세대에 저장합니다. 수집이 완료된 후에 남아 있는 개체는 승격되어 1세대 및 2세대에 저장됩니다.
 
  가비지 수집기는 전체 개체 세대의 할당을 취소하여 메모리를 회수합니다. 프로파일링된 애플리케이션이 만든 개체의 경우 개체 수명 뷰에는 개체의 수/크기와 해당 개체가 회수된 세대가 표시됩니다.
 

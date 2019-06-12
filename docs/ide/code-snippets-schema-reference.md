@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 034fd1f31b24dce2d8ecc3d805b78c35c8498d6c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 94598cd14b25fa598cdfde4e3033bb2877bcbe40
+ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62974984"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66836110"
 ---
 # <a name="code-snippets-schema-reference"></a>코드 조각 스키마 참조
 
@@ -632,7 +632,11 @@ Visual Studio에서 코드 조각을 삽입하는 방법을 지정합니다.
 | - |-----------------|
 |[Object 요소](../ide/code-snippets-schema-reference.md#object-element)|편집할 수 있는 코드 조각의 개체 필드를 정의합니다.|
 
- 텍스트 값은 필수입니다. 이 텍스트는 개체의 형식을 지정합니다.
+텍스트 값은 필수입니다. 이 텍스트는 개체의 형식을 지정합니다. 예:
+
+```xml
+<Type>System.Data.SqlClient.SqlConnection</Type>
+```
 
 ## <a name="url-element"></a>Url 요소
 

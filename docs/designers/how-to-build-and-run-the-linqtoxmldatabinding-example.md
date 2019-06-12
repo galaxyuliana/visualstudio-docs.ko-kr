@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 846b71b768d5b1909f29c8135616714d0124193c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d53f8d08222eb35660f7a4454164d6b821a976d9
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62897561"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714839"
 ---
 # <a name="how-to-build-and-run-the-linqtoxmldatabinding-example"></a>방법: LinqToXmlDataBinding 예제 빌드 및 실행
 
@@ -22,7 +22,9 @@ Visual Studio에 대한 자세한 내용은 [Visual Studio IDE 개요](../get-st
 
 ## <a name="create-the-project"></a>프로젝트를 만듭니다.
 
-1. Visual Studio를 열고 이름이 **LinqToXmlDataBinding**인 C# **WPF 앱**을 만듭니다. 프로젝트는 .NET Framework 3.5 이상을 대상으로 지정해야 합니다.
+1. Visual Studio를 열고 이름이 **LinqToXmlDataBinding**인 C# **WPF 앱**을 만듭니다.
+
+   프로젝트는 .NET Framework 3.5 이상을 대상으로 지정해야 합니다.
 
 1. 이미 존재하지 않는 경우 다음 .NET 어셈블리에 대한 프로젝트 참조를 추가합니다.
 

@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: d42087b023718cd31528a2e5d60e2a43e34097c4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 908f79b40b17eba5c0e3f518e6d7f2f3ae58e9c7
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62792220"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745018"
 ---
 # <a name="advanced-build-settings-dialog-box-c"></a>고급 빌드 설정 대화 상자(C#)
 
@@ -91,7 +91,7 @@ mscorlib.dll을 프로그램으로 가져와 전체 <xref:System> 네임스페�
 
 **라이브러리 기준 주소**
 
-DLL을 로드할 기본 설정 기준 주소를 지정합니다. DLL에 대한 기본 기준 주소는 [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] 공용 언어 런타임에 의해 설정됩니다. 자세한 내용은 [/baseaddress(C# 컴파일러 옵션)](/dotnet/csharp/language-reference/compiler-options/baseaddress-compiler-option)를 참조하세요.
+DLL을 로드할 기본 설정 기준 주소를 지정합니다. DLL에 대한 기본 기준 주소는 .NET Framework 공용 언어 런타임에 의해 설정됩니다. 자세한 내용은 [/baseaddress(C# 컴파일러 옵션)](/dotnet/csharp/language-reference/compiler-options/baseaddress-compiler-option)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

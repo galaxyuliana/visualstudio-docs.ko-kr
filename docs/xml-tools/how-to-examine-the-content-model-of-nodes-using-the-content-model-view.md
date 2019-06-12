@@ -1,5 +1,5 @@
 ---
-title: XML 스키마 디자이너에서 콘텐츠 모델 뷰를 사용 하 여 노드의 콘텐츠 모델 검사
+title: XML 스키마 디자이너에서 콘텐츠 모델 뷰를 사용 하 여 노드를 검사 합니다.
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c42ddac8-b0e3-48d6-9832-112a19d6c104
@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dfefc7d6aaa40d628cc0ee9d582fddf65adb411e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 63e337162dc8499bf9ac2acb5606fbf75292574f
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63001902"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820456"
 ---
 # <a name="how-to-examine-the-content-model-of-nodes-using-the-content-model-view"></a>방법: 콘텐츠 모델 뷰를 사용 하 여 노드의 콘텐츠 모델 검사
 
@@ -41,4 +41,4 @@ ms.locfileid: "63001902"
 
 8. 클릭 합니다 **설명서 표시** 설명서를 전환 하려면 XSD 도구 모음 단추입니다. 또한 디자인 화면을 마우스 오른쪽 단추로 클릭하여 설명서를 표시하거나 숨길 수 있습니다.
 
-9. Rick 클릭 합니다 `purchaseOrder` 노드를 선택 **샘플 XML 생성** 에 XML 인스턴스 문서를 참조 하세요.
+9. 마우스 오른쪽 단추로 클릭 합니다 `purchaseOrder` 노드를 선택 **샘플 XML 생성** 에 XML 인스턴스 문서를 참조 하세요.

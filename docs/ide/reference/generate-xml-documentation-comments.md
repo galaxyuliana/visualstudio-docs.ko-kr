@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 085e2fe029daf246f6883e6856ddff6a9bacccdc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b258b456aa614c851be138c017b3378cc13984cc
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62790107"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715383"
 ---
 # <a name="how-to-insert-xml-comments-for-documentation-generation"></a>방법: 문서 생성에 대한 XML 주석 삽입
 
@@ -24,7 +24,7 @@ Visual Studio는 표준 XML 문서 주석 구조를 자동으로 생성하여 �
 Visual Studio 및 기타 IDE가 IntelliSense를 사용하여 형식 및 멤버에 대한 빠른 정보를 표시할 수 있도록 컴파일러에서 생성된 XML 파일은 .NET 어셈블리와 함께 배포될 수 있습니다. 또한 [DocFX](https://dotnet.github.io/docfx/) 및 [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) 같은 도구를 통해 XML 파일을 실행하여 API 참조 웹 사이트를 생성할 수 있습니다.
 
 > [!NOTE]
-> XML 문서 주석을 자동으로 삽입하는 **주석 삽입** 명령은 [C#](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) 및 [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)에서 사용할 수 있습니다. 그러나 수동으로 [C++ 파일에 XML 문서 주석을 삽입](/cpp/ide/xml-documentation-visual-cpp)할 수 있으며 컴파일 타임에도 XML 문서 파일을 생성할 수 있습니다.
+> XML 문서 주석을 자동으로 삽입하는 **주석 삽입** 명령은 [C#](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) 및 [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)에서 사용할 수 있습니다. 그러나 수동으로 [C++ 파일에 XML 문서 주석을 삽입](/cpp/build/reference/xml-documentation-visual-cpp)할 수 있으며 컴파일 타임에도 XML 문서 파일을 생성할 수 있습니다.
 
 ## <a name="to-insert-xml-comments-for-a-code-element"></a>코드 요소에 대한 XML 주석을 삽입하려면
 
@@ -57,5 +57,5 @@ Visual Studio 및 기타 IDE가 IntelliSense를 사용하여 형식 및 멤버�
 - [XML 주석과 함께 코드 문서화(C# 가이드)](/dotnet/csharp/codedoc)
 - [방법: XML 문서 만들기(Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
 - [C++ 주석](/cpp/cpp/comments-cpp)
-- [XML 문서(C++)](/cpp/ide/xml-documentation-visual-cpp)
+- [XML 문서(C++)](/cpp/build/reference/xml-documentation-visual-cpp)
 - [코드 생성](../code-generation-in-visual-studio.md)
