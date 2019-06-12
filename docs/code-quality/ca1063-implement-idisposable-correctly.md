@@ -16,12 +16,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: f1b2c5b447d796ddd2098a6500b6094478fcd8b9
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: 932805f938e9d96cd944230fcc8aa82a4710da31
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65842003"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820627"
 ---
 # <a name="ca1063-implement-idisposable-correctly"></a>CA1063: IDisposable을 올바르게 구현하십시오.
 
@@ -52,7 +52,7 @@ ms.locfileid: "65842003"
 
 이러한 패턴 중 하나를 위반 CA1063 경고를 트리거합니다.
 
-모든 봉인 되지 않은 형식 선언 및 구현에 <xref:System.IDisposable> 인터페이스를 제공 해야 자체 `protected virtual void Dispose(bool)` 메서드. `Dispose()` 호출 해야 합니다 `Dipose(true)`, 종료자를 호출 해야 하 고 `Dispose(false)`입니다. 선언 하 고 구현 하는 봉인 되지 않은 형식을 만드는 경우 합니다 <xref:System.IDisposable> 정의 해야 인터페이스 `Dispose(bool)` 호출 합니다. 자세한 내용은 [관리 되지 않는 리소스 (.NET 가이드)를 정리](/dotnet/standard/garbage-collection/unmanaged) 하 고 [Dispose 패턴](/dotnet/standard/design-guidelines/dispose-pattern)합니다.
+모든 봉인 되지 않은 형식 선언 및 구현에 <xref:System.IDisposable> 인터페이스를 제공 해야 자체 `protected virtual void Dispose(bool)` 메서드. `Dispose()` 호출 해야 합니다 `Dispose(true)`, 종료자를 호출 해야 하 고 `Dispose(false)`입니다. 선언 하 고 구현 하는 봉인 되지 않은 형식을 만드는 경우 합니다 <xref:System.IDisposable> 정의 해야 인터페이스 `Dispose(bool)` 호출 합니다. 자세한 내용은 [관리 되지 않는 리소스 (.NET 가이드)를 정리](/dotnet/standard/garbage-collection/unmanaged) 하 고 [Dispose 패턴](/dotnet/standard/design-guidelines/dispose-pattern)합니다.
 
 기본적으로이 규칙만 살펴봅니다 형식 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
 

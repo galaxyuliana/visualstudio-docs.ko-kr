@@ -1,5 +1,5 @@
 ---
-title: '방법: SharePoint 솔루션에 대 한 사용자 지정 기능 및 패키지 유효성 검사 규칙 만들기 | Microsoft Docs'
+title: 'SharePoint 솔루션: 사용자 지정 기능을 만들고, 유효성 검사 규칙을 패키지'
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -13,15 +13,15 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 061a86ee301378bc8b456d370eddd19d2f91bbb6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a10118a0c83f9e17e32efd293a9a824e38a0942a
+ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62966746"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66835931"
 ---
 # <a name="how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions"></a>방법: SharePoint 솔루션에 대 한 유효성 검사 규칙 사용자 지정 기능 및 패키지 만들기
-  Visual Studio에서 생성 하는 솔루션 패키지를 확인 하기 위한 사용자 지정 유효성 검사 규칙을 만들 수 있습니다. 선택 하 여 전체 기능 또는 패키지의 전체 유효성 검사를 수행할 수 있습니다 **유효성 검사** 패키지 또는 기능에서 상황에 맞는 메뉴에서를 **PackagingExplorer**합니다. 부분 유효성 검사 기능을 패키지는 유효한 상태에서 실행될지를 판단 하는 프로젝트에 새 SharePonit 프로젝트 항목 또는 기능을 추가할 때 수행 됩니다.
+  Visual Studio에서 생성 하는 솔루션 패키지를 확인 하기 위한 사용자 지정 유효성 검사 규칙을 만들 수 있습니다. 선택 하 여 전체 기능 또는 패키지의 전체 유효성 검사를 수행할 수 있습니다 **유효성 검사** 패키지 또는 기능에서 상황에 맞는 메뉴에서를 **PackagingExplorer**합니다. 부분 유효성 검사 기능을 패키지는 유효한 상태에서 실행될지를 판단 하는 프로젝트에 새 SharePoint 프로젝트 항목 또는 기능을 추가할 때 수행 됩니다.
 
 ### <a name="to-create-a-custom-package-validation-rule"></a>사용자 지정 패키지 유효성 검사 규칙을 만들려면
 

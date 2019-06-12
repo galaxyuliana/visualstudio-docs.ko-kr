@@ -1,5 +1,5 @@
 ---
-title: Microsoft Office Word 키보드, Microsoft Office 키보드 설정, 옵션 대화 상자
+title: Office Word 키보드, 키보드 설정, 옵션 대화 상자
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6506fec976822ea4a4e675c9961395c952a7a35f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5180aa2f4c5022cedcba2c5377d2ff2ac14ffb28
+ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62970307"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66835988"
 ---
 # <a name="microsoft-office-word-keyboard-microsoft-office-keyboard-settings-options-dialog-box"></a>Microsoft Office Word 키보드, Microsoft Office 키보드 설정, 옵션 대화 상자
   Microsoft Office Word 및 Visual Studio 둘 다 바로 가기 키를 처리합니다. Visual Studio에서 Word에 다른 명령에 대 한 동일한 바로 가기 키 조합을 나타낼 수 있습니다. Word Visual Studio에서 문서 수준 프로젝트에서 열려 있는 경우 한 번에 하나의 응용 프로그램 바로 가기 키 명령을 받습니다. 기본적으로 Visual Studio는 모든 바로 가기 키 명령을 수신 하지만 단어를 선택 하 여 문서에 포커스가 있을 때 사용자에 게 받도록 할 수 있습니다 **동적 키보드 구성표**합니다.

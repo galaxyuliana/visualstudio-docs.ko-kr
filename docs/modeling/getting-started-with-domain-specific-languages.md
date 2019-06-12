@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 915a6c6d06380aa67c2c79ce52598668a9b33f18
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4242fabe943dd27624e44a9900981343ec180fcd
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442371"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820912"
 ---
 # <a name="get-started-with-domain-specific-languages"></a>도메인 특정 언어 시작
 
@@ -21,7 +21,7 @@ ms.locfileid: "63442371"
 > [!NOTE]
 > Visual Studio의 특정 기능을 설치할 때 텍스트 템플릿 변환 SDK 및 Visual Studio 모델링 SDK에 자동으로 설치 됩니다. 자세한 내용은 참조 하세요. [이 블로그 게시물](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/)합니다.
 
-Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL 도구 랩**,이 사이트에서 찾을 수 있습니다. [Visualizaton 및 모델링 SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
+Dsl을 처음 접하는 경우 진행 하는 것이 좋습니다 합니다 **DSL 도구 랩**,이 사이트에서 찾을 수 있습니다. [시각화 및 모델링 SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
 
 ## <a name="what-can-you-do-with-a-domain-specific-language"></a>도메인 특정 언어를 사용 하 여 수행할 수 있습니까?
 
@@ -137,11 +137,11 @@ DSL을 정의하려면 다음 구성 요소를 설치해야 합니다.
 
 실험적 Visual Studio에는 다음 예제와 유사 합니다.
 
-![](../modeling/media/dsl_min.png)
+![Visual Studio에서 도메인 특정 언어 샘플 트리에서](../modeling/media/dsl_min.png)
 
 ### <a name="the-content-of-a-model"></a>모델의 콘텐츠
 
-DSL의 인스턴스인 파일의 내용을 호출 되는 *모델*합니다. 모델에 포함 된 *모델*<em>요소</em> 하 고 *링크* 요소 사이입니다. DSL 정의의 모델 요소 유형을 지정 하 고 링크 된 모델에 있을 수 있습니다. 예를 들어 최소 언어 템플릿에서 만든 DSL의 모델 요소 형식 및가 한 가지 유형의 링크
+DSL의 인스턴스인 파일의 내용을 호출 되는 *모델*합니다. 모델에 포함 된 *모델* <em>요소</em> 하 고 *링크* 요소 사이입니다. DSL 정의의 모델 요소 유형을 지정 하 고 링크 된 모델에 있을 수 있습니다. 예를 들어 최소 언어 템플릿에서 만든 DSL의 모델 요소 형식 및가 한 가지 유형의 링크
 
 DSL 정의 다이어그램에 모델을 표시 하는 방법을 지정할 수 있습니다. 다양 한 모양과 연결선의 스타일에서에서 선택할 수 있습니다. 다른 셰이프 안에 일부 셰이프에 나타나는지를 지정할 수 있습니다.
 
@@ -180,7 +180,7 @@ DSL을 읽고 인스턴스인 DSL의 모델을 업데이트할 수 있는 API를
 > [!NOTE]
 > DSL 정의 변경한 경우 샘플 텍스트 템플릿 코드가 작동 하지 않습니다,이 업데이트 하지 않으면.
 
-자세한 내용은 참조 하세요. [도메인별 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md) 하 고 [도메인별 도메인별 언어 사용자 지정 하려면 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)합니다.
+자세한 내용은 [도메인별 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md) 하 고 [도메인 특정 언어에 맞게 코드를 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
 ## <a name="customizing-the-dsl"></a>DSL 사용자 지정
 
@@ -392,7 +392,7 @@ DSL 정의 저장할 각 변경 후 클릭 **모든 템플릿 변환** 에서 **
 
  DSL을 설치할 컴퓨터에 Visual Studio의 실험적 인스턴스를 사용할 필요가 없도록 동일한 절차를 사용할 수 있습니다.
 
- 자세한 내용은 [도메인 특정 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)를 참조하세요.
+ 자세한 내용은 [도메인 특정 언어 솔루션 배포](msi-and-vsix-deployment-of-a-dsl.md)를 참조하세요.
 
 ## <a name="Reset"></a> 오래 된 실험적 Dsl 제거
  더 이상 원하는 실험적 Dsl을 만든 경우 Visual Studio 실험적 인스턴스 다시 설정 하 여 컴퓨터에서 제거 수 없습니다.

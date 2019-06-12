@@ -7,16 +7,16 @@ manager: jillfra
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: fddb32ce75bf587ee78ca172fd4de2c31237a331
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: a97aa7dfcc1cc46d64813ea7714629cb8557055d
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65225947"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66714893"
 ---
 # <a name="how-to-use-ctest-for-c-in-visual-studio-2017-and-later"></a>Visual Studio 2017 이상에서 C++용 CTest를 사용하는 방법 | Microsoft Docs
 
-CMake(CTest 포함)는 **C++를 통한 데스크톱 개발** 워크로드의 구성 요소로 기본적으로 Visual Studio IDE에 통합되어 있습니다. 머신에 설치해야 하는 경우 Visual Studio 설치 관리자 프로그램을 열고 **C++를 사용한 데스크톱 개발** 단추를 클릭한 다음, **수정**을 클릭합니다. 워크로드 구성 요소 목록에서 [Visual C++용 CMake 도구](/cpp/ide/cmake-tools-for-visual-cpp)를 확인합니다.
+CMake(CTest 포함)는 **C++를 통한 데스크톱 개발** 워크로드의 구성 요소로 기본적으로 Visual Studio IDE에 통합되어 있습니다. 머신에 설치해야 하는 경우 Visual Studio 설치 관리자 프로그램을 열고 **C++를 사용한 데스크톱 개발** 단추를 클릭한 다음, **수정**을 클릭합니다. 워크로드 구성 요소 목록에서 [Visual C++용 CMake 도구](/cpp/build/cmake-tools-for-visual-cpp)를 확인합니다.
 
 ## <a name="to-write-tests"></a>테스트를 작성하려면
 

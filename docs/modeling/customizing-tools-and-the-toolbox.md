@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 37bba294dde27fad19122ee281057607f6abc6c8
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: da472f443f52a6478ac5e1e34fd4d4a5beb0721b
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445794"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820825"
 ---
 # <a name="customizing-tools-and-the-toolbox"></a>도구 및 도구 상자 사용자 지정
 
@@ -196,7 +196,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 
  **링크 연결 지시문 DSL 세부 정보 창에서**
 
- ![](../modeling/media/connectionbuilder_4b.png)
+ ![링크 연결 지시문 DSL 세부 정보 창에서](../modeling/media/connectionbuilder_4b.png)
 
  그런 다음 ConnectionBuilder 클래스에서 메서드를 입력해야 합니다.
 

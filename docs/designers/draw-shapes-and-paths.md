@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2e0efd4b4f9fb301f5bcba4a12857647a8d911f1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 222826121b270da93bc4bdd867b21fc62730cb07
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62899338"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820437"
 ---
 # <a name="draw-shapes-and-paths"></a>도형 및 패스 그리기
 
@@ -93,8 +93,8 @@ XAML 디자이너에서 *도형*은 일반적인 도형이 맞습니다. (예: �
 |||||
 |-|-|-|-|
 |![결합하기 전의 두 도형](../designers/media/b1_1.png)|결합하기 전의 두 도형|![Intersect](../designers/media/b1_4.png)|Intersect|
-|![겹침 제외](../designers/media/b1_2.png)|통합|![](../designers/media/b1_5.png)|겹침 제외|
-|![빼기](../designers/media/b1_3.png)|나누기|![](../designers/media/b1_6.png)|빼기|
+|![통합](../designers/media/b1_2.png)|통합|![겹침 제외](../designers/media/b1_5.png)|겹침 제외|
+|![나누기](../designers/media/b1_3.png)|나누기|![빼기](../designers/media/b1_6.png)|빼기|
 
  **짧은 비디오 시청:** ![설치된 기능 구성](../designers/media/bldadminconsoleinitialconfigicon.png) [경로 작업: 경로 결합](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=195)
 

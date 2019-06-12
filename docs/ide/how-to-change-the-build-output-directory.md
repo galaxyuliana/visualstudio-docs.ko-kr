@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b0fda2363ec63572f29c6687cc10ee9a7ee06c76
-ms.sourcegitcommit: 283f2dbce044a18e9f6ac6398f6fc78e074ec1ed
+ms.openlocfilehash: f9dce876b477dfb802b9cf64214af2ca1cec6a4e
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65805044"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715361"
 ---
 # <a name="how-to-change-the-build-output-directory"></a>방법: 빌드 출력 디렉터리 변경
 
@@ -52,5 +52,5 @@ ms.locfileid: "65805044"
 ## <a name="see-also"></a>참고 항목
 
 - [빌드 페이지, 프로젝트 디자이너(C#)](../ide/reference/build-page-project-designer-csharp.md)
-- [일반 속성 페이지(프로젝트)](/cpp/ide/general-property-page-project)
+- [일반 속성 페이지(프로젝트)](/cpp/build/reference/general-property-page-project)
 - [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md)

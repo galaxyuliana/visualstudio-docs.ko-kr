@@ -14,20 +14,20 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 9d4fcce4664483cd1d981f6a0b1233a6302c553b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ff2fbc41a3e5a9388a3cae7776a22c8671703d1f
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62568536"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820404"
 ---
 # <a name="connect-to-data-in-an-access-database-windows-forms"></a>Access 데이터베이스의 데이터에 연결(Windows Forms)
 
-Access 데이터베이스에 연결할 수 있습니다 (중 하나는 *.mdf* 파일 또는 *.accdb* 파일) Visual Studio를 사용 하 여 합니다. 연결을 정의한 후 **데이터 원본** 창에 데이터가 나타납니다. 그 창에서 테이블 또는 뷰를 폼으로 끌 수 있습니다.
+Access 데이터베이스에 연결할 수 있습니다 (중 하나는 *.mdb* 파일 또는 *.accdb* 파일) Visual Studio를 사용 하 여 합니다. 연결을 정의한 후 **데이터 원본** 창에 데이터가 나타납니다. 그 창에서 테이블 또는 뷰를 폼으로 끌 수 있습니다.
 
 ## <a name="prerequisites"></a>전제 조건
 
-이런 절차를 사용하려면 Windows Forms 애플리케이션 프로젝트와 Access 데이터베이스(*.accdb* 파일) 또는 Access 2000-2003 데이터베이스(*.mdb* 파일)가 필요합니다. 파일 형식에 해당하는 절차를 따릅니다.
+이런 절차를 사용하려면 Windows Forms 애플리케이션 프로젝트와 Access 데이터베이스( *.accdb* 파일) 또는 Access 2000-2003 데이터베이스( *.mdb* 파일)가 필요합니다. 파일 형식에 해당하는 절차를 따릅니다.
 
 ## <a name="create-a-dataset-for-an-accdb-file"></a>.Accdb 파일에 대 한 데이터 집합 만들기
 

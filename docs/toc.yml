@@ -583,11 +583,13 @@
           href: vsto/office-and-sharepoint-development-in-visual-studio.md
         - name: XML 및 XSLT 파일 작업
           href: xml-tools/xml-tools-in-visual-studio.md
-        - name: 국가별 앱 개발
-          displayName: Globalization localization world-ready
-          href: ide/globalizing-and-localizing-applications.md
-        - name: 양방향 언어
-          href: ide/creating-applications-in-bi-directional-languages.md
+        - name: 포괄 앱 개발
+          items:
+            - name: 액세스 가능한 앱 디자인
+              href: ide/reference/resources-for-designing-accessible-applications.md
+            - name: 국가별 앱 디자인
+              displayName: Globalization localization world-ready
+              href: ide/globalizing-and-localizing-applications.md
         - name: 추가 자습서
           items:
             - name: 'C# 또는 Visual Basic을 사용하여 WPF 앱 만들기'
@@ -799,8 +801,6 @@
           href: ide/reference/accessibility-tips-and-tricks.md
         - name: Microsoft의 내게 필요한 옵션 제품 및 서비스
           href: ide/reference/accessibility-products-and-services-from-microsoft.md
-        - name: 액세스 가능한 앱 설계를 위한 리소스
-          href: ide/reference/resources-for-designing-accessible-applications.md
 - name: 참조
   items:
     - name: 일반 사용자 인터페이스 요소
@@ -1170,6 +1170,8 @@
           href: ide/user-permissions-and-visual-studio.md
         - name: WIP(Windows Information Protection)
           href: ide/exempt-visual-studio-from-wip.md
+    - name: 양방향 언어 입력
+      href: ide/use-bidirectional-languages.md
     - name: Microsoft 도움말 뷰어
       items:
         - name: 개요

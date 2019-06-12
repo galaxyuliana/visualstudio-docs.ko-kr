@@ -15,12 +15,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 12a854c4e43385177730ceddf045b76e2e61d342
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 90f218165c0543c1881857191efd202717c6e372
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65686897"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820892"
 ---
 # <a name="ca1063-implement-idisposable-correctly"></a>CA1063: IDisposable을 올바르게 구현하십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ ms.locfileid: "65686897"
 
   이러한 패턴 중 하나를 위반 하면이 경고가 트리거됩니다.
 
-  봉인 되지 않은 모든 루트 IDisposable 형식 자체 보호 된 가상 void dispose (bool) 메서드를 제공 해야 합니다. Dispose () 호출 Dipose(true) 및 Finalize dispose (false)를 호출 해야 합니다. 봉인 되지 않은 루트 IDisposable 형식을 만들려는 경우 dispose (bool)을 정의 하 고 호출 해야 합니다. 자세한 내용은 [관리 되지 않는 리소스 정리](https://msdn.microsoft.com/library/a17b0066-71c2-4ba4-9822-8e19332fc213) 에 [Framework 디자인 지침](https://msdn.microsoft.com/library/5fbcaf4f-ea2a-4d20-b0d6-e61dee202b4b) .NET Framework 설명서의 섹션입니다.
+  봉인 되지 않은 모든 루트 IDisposable 형식 자체 보호 된 가상 void dispose (bool) 메서드를 제공 해야 합니다. Dispose () 호출 Dispose(true) 및 Finalize dispose (false)를 호출 해야 합니다. 봉인 되지 않은 루트 IDisposable 형식을 만들려는 경우 dispose (bool)을 정의 하 고 호출 해야 합니다. 자세한 내용은 [관리 되지 않는 리소스 정리](https://msdn.microsoft.com/library/a17b0066-71c2-4ba4-9822-8e19332fc213) 에 [Framework 디자인 지침](https://msdn.microsoft.com/library/5fbcaf4f-ea2a-4d20-b0d6-e61dee202b4b) .NET Framework 설명서의 섹션입니다.
 
 ## <a name="rule-description"></a>규칙 설명
  모든 IDisposable 형식은 Dispose 패턴을 올바르게 구현해야 합니다.

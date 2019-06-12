@@ -8,12 +8,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: ebe4922c79e546ad4ee5ae50179424bff9746a15
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: bb224d1c84f9216ed303c919118af4997be2405c
+ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66342409"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66835903"
 ---
 # <a name="get-started-with-roslyn-analyzers"></a>Roslyn 분석기 시작
 
@@ -21,22 +21,19 @@ Visual Studio에서 프로젝트 기반 라이브 코드 분석기를 사용 하
 
 ## <a name="get-started"></a>시작
 
-[Roslyn 라이브 코드 분석기 소개와 연습은](https://msdn.microsoft.com/magazine/dn879356.aspx)
+[Roslyn 분석기 개요](../code-quality/roslyn-analyzers-overview.md)
+
+[자습서: 첫 번째 분석기 및 코드 수정 사항을 작성 합니다.](/dotnet/csharp/roslyn-sdk/tutorials/how-to-write-csharp-analyzer-code-fix)
 
 [코드 수정 연습을 추가 합니다. 분석기 문제에 대 한 사용자 수정 사항 제공](https://msdn.microsoft.com/magazine/dn904670.aspx)
-
-[소개와 연습은 실제 분석기의 이야기](https://channel9.msdn.com/events/Build/2015/3-725)
 
 [실제 Roslyn 분석기](../extensibility/roslyn-analyzers-and-code-aware-library-for-immutablearrays.md) 로 볼 수 있는 한 [통신](https://channel9.msdn.com/events/Build/2015/3-725)
 
 [세 가지 유형의 분석기를 그룹화 하는 GitHub에서 몇 가지 예제](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 
-[소개과 몇 가지 분석기 둘러보기](https://channel9.msdn.com/Events/dotnetConf/2015/NET-Compiler-Platform-Roslyn-Analyzers-and-the-Rise-of-Code-Aware-Libraries)
 
 ## <a name="see-also"></a>참고자료
 
-- [Roslyn 분석기 개요](../code-quality/roslyn-analyzers-overview.md)
-- [자습서: 첫 번째 분석기 및 코드 수정 사항을 작성 합니다.](/dotnet/csharp/roslyn-sdk/tutorials/how-to-write-csharp-analyzer-code-fix)
 - [.NET 컴파일러 플랫폼 패키지 버전 참조](roslyn-version-support.md)
 - [GitHub OSS 사이트에서 더 많은 문서](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)
 - [Roslyn 분석기를 사용 하 여 구현 하는 FxCop 규칙](http://roslynanalyzersstatus.azurewebsites.net/)
