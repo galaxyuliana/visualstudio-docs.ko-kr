@@ -113,15 +113,15 @@
               href: ../ide/step-1-create-a-windows-forms-application-project.md
             - name: '2단계: 프로그램 실행'
               href: ../ide/step-2-run-your-program.md
-            - name: '3단계: 폼 속성 설정'
+            - name: '3단계: 양식 속성 설정'
               href: ../ide/step-3-set-your-form-properties.md
-            - name: '4단계: TableLayoutPanel 컨트롤을 사용하여 폼 레이아웃'
+            - name: '4단계: TableLayoutPanel 컨트롤을 사용하여 양식 레이아웃'
               href: ../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
-            - name: '5단계: 폼에 컨트롤 추가'
+            - name: '5단계: 양식에 컨트롤 추가'
               href: ../ide/step-5-add-controls-to-your-form.md
             - name: '6단계: 단추 컨트롤 이름 지정'
               href: ../ide/step-6-name-your-button-controls.md
-            - name: '7단계: 폼에 대화 상자 구성 요소 추가'
+            - name: '7단계: 양식에 대화 상자 구성 요소 추가'
               href: ../ide/step-7-add-dialog-components-to-your-form.md
             - name: '8단계: 그림 표시 단추 이벤트 처리기를 위한 코드 작성'
               href: ../ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
@@ -136,7 +136,7 @@
             - name: 개요
               displayName: Tutorial 2 Timed math quiz
               href: ../ide/tutorial-2-create-a-timed-math-quiz.md
-            - name: '1단계: 프로젝트 만들기 및 폼에 레이블 추가'
+            - name: '1단계: 프로젝트 만들기 및 양식에 레이블 추가'
               href: ../ide/step-1-create-a-project-and-add-labels-to-your-form.md
             - name: '2단계: 난수 더하기 문제 만들기'
               href: ../ide/step-2-create-a-random-addition-problem.md
@@ -157,7 +157,7 @@
             - name: 개요
               displayName: Tutorial 3 Matching game
               href: ../ide/tutorial-3-create-a-matching-game.md
-            - name: '1단계: 프로젝트 만들기 및 폼에 테이블 추가'
+            - name: '1단계: 프로젝트 만들기 및 양식에 테이블 추가'
               href: ../ide/step-1-create-a-project-and-add-a-table-to-your-form.md
             - name: '2단계: 임의의 개체 및 아이콘 목록 추가'
               href: ../ide/step-2-add-a-random-object-and-a-list-of-icons.md
