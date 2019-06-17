@@ -417,23 +417,6 @@
                       href: ide/reference/wrap-align-indent-parameters.md
                 - name: '연습: 사용법에서 코드 생성'
                   href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
-            - name: 팁과 요령
-              items:
-                - name: 생산성 팁
-                  href: ide/productivity-tips-for-visual-studio.md
-                - name: 바로 가기 키
-                  items:
-                    - name: 바로 가기 키
-                      href: ide/tips-and-tricks-for-visual-studio.md
-                    - name: 바로 가기 키 식별 및 사용자 지정
-                      href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
-                    - name: 자주 사용되는 명령의 바로 가기 키
-                      href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
-                    - name: 모든 바로 가기 키
-                      href: ide/default-keyboard-shortcuts-in-visual-studio.md
-                - name: 'C# 개발자를 위한 팁'
-                  displayName: ReSharper
-                  href: ide/csharp-developer-productivity.md
             - name: IntelliSense
               items:
                 - name: IntelliSense 사용
@@ -677,6 +660,20 @@
       href: extensibility/visual-studio-sdk.md
     - name: 분석 및 모델 아키텍처...
       href: modeling/analyze-and-model-your-architecture.md
+    - name: 팁과 요령
+      items:
+        - name: 생산성 기능
+          href: ide/productivity-features.md
+        - name: 생산성 바로 가기
+          href: ide/productivity-shortcuts.md
+        - name: 'C# 개발자를 위한 팁'
+          displayName: ReSharper
+          href: ide/csharp-developer-productivity.md
+        - name: 바로 가기 키 사용자 지정
+          href: ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md
+        - name: 단독으로 키보드 사용
+          displayName: accessibility
+          href: ide/reference/how-to-use-the-keyboard-exclusively.md
     - name: 개인 설정
       items:
         - name: IDE 사용자 지정
@@ -685,6 +682,7 @@
         - name: '빠른 시작: 테마 및 텍스트 색 개인 설정'
           href: ide/quickstart-personalize-the-ide.md
         - name: 환경 설정
+          displayName: profiles
           href: ide/environment-settings.md
         - name: 동기화된 설정
           href: ide/synchronized-settings-in-visual-studio.md
@@ -704,7 +702,7 @@
           displayName: 'marketplace, gallery, vsix'
         - name: 외부 도구 관리
           href: ide/managing-external-tools.md
-    - name: 성능
+    - name: Visual Studio의 성능
       items:
         - name: 성능 최적화
           href: ide/optimize-visual-studio-performance.md
@@ -720,14 +718,95 @@
           href: ide/reference/accessibility-features-of-visual-studio.md
         - name: IDE 접근성 옵션 설정
           href: ide/reference/how-to-set-ide-accessibility-options.md
-        - name: 단독으로 키보드 사용
-          href: ide/reference/how-to-use-the-keyboard-exclusively.md
         - name: 접근성 팁과 요령
           href: ide/reference/accessibility-tips-and-tricks.md
         - name: Microsoft의 내게 필요한 옵션 제품 및 서비스
           href: ide/reference/accessibility-products-and-services-from-microsoft.md
 - name: 참조
   items:
+    - name: 바로 가기 키
+      items:
+        - name: 인기 있는 명령
+          displayName: keyboard shortcuts
+          href: ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md
+        - name: 모든 명령
+          displayName: keyboard commands
+          href: ide/default-keyboard-shortcuts-in-visual-studio.md
+    - name: Visual Studio 명령
+      items:
+        - name: 참조
+          displayName: Visual Studio commands
+          href: ide/reference/visual-studio-commands.md
+        - name: 명령 별칭
+          href: ide/reference/visual-studio-command-aliases.md
+        - name: 기존 항목 추가 명령
+          href: ide/reference/add-existing-item-command.md
+        - name: 기존 프로젝트 추가 명령
+          href: ide/reference/add-existing-project-command.md
+        - name: 새 항목 추가 명령
+          href: ide/reference/add-new-item-command.md
+        - name: 별칭 명령
+          href: ide/reference/alias-command.md
+        - name: 문 실행 명령
+          href: ide/reference/evaluate-statement-command.md
+        - name: 찾기 명령
+          href: ide/reference/find-command.md
+        - name: 파일에서 찾기 명령
+          href: ide/reference/find-in-files-command.md
+        - name: 이동 명령
+          href: ide/reference/go-to-command.md
+        - name: 설정 가져오기 및 내보내기 명령
+          href: ide/reference/import-and-export-settings-command.md
+        - name: 호출 스택 목록 표시 명령
+          href: ide/reference/list-call-stack-command.md
+        - name: 디스어셈블리 목록 표시 명령
+          href: ide/reference/list-disassembly-command.md
+        - name: 메모리 목록 표시 명령
+          href: ide/reference/list-memory-command.md
+        - name: 모듈 목록 표시 명령
+          href: ide/reference/list-modules-command.md
+        - name: 레지스터 목록 표시 명령
+          href: ide/reference/list-registers-command.md
+        - name: 소스 목록 표시 명령
+          href: ide/reference/list-source-command.md
+        - name: 스레드 목록 표시 명령
+          href: ide/reference/list-threads-command.md
+        - name: 명령 창 출력 로그 명령
+          href: ide/reference/log-command-window-output-command.md
+        - name: 새 파일 명령
+          href: ide/reference/new-file-command.md
+        - name: 파일 열기 명령
+          href: ide/reference/open-file-command.md
+        - name: 프로젝트 열기 명령
+          href: ide/reference/open-project-command.md
+        - name: 인쇄 명령
+          href: ide/reference/print-command.md
+        - name: 간략한 조사식 명령
+          href: ide/reference/quick-watch-command.md
+        - name: 바꾸기 명령
+          href: ide/reference/replace-command.md
+        - name: 파일에서 바꾸기 명령
+          href: ide/reference/replace-in-files-command.md
+        - name: 현재 프로세스 설정
+          href: ide/reference/set-current-process.md
+        - name: 현재 스택 프레임 설정 명령
+          href: ide/reference/set-current-stack-frame-command.md
+        - name: 현재 스레드 설정 명령
+          href: ide/reference/set-current-thread-command.md
+        - name: 기수 설정 명령
+          href: ide/reference/set-radix-command.md
+        - name: 셸 명령
+          href: ide/reference/shell-command.md
+        - name: ShowWebBrowser 명령
+          href: ide/reference/showwebbrowser-command.md
+        - name: 시작 명령
+          href: ide/reference/start-command.md
+        - name: 기호 경로 명령
+          href: ide/reference/symbol-path-command.md
+        - name: 중단점 설정/해제 명령
+          href: ide/reference/toggle-breakpoint-command.md
+        - name: 조사식 명령
+          href: ide/reference/watch-command.md
     - name: 일반 사용자 인터페이스 요소
       displayName: Windows and dialogs
       items:
@@ -1012,81 +1091,6 @@
           href: ide/reference/upgrade-devenv-exe.md
         - name: '-UseEnv(devenv.exe)'
           href: ide/reference/useenv-devenv-exe.md
-    - name: Visual Studio 명령
-      items:
-        - name: 참조
-          displayName: Visual Studio commands
-          href: ide/reference/visual-studio-commands.md
-        - name: Visual Studio Command Aliases
-          href: ide/reference/visual-studio-command-aliases.md
-        - name: 기존 항목 추가 명령
-          href: ide/reference/add-existing-item-command.md
-        - name: 기존 프로젝트 추가 명령
-          href: ide/reference/add-existing-project-command.md
-        - name: 새 항목 추가 명령
-          href: ide/reference/add-new-item-command.md
-        - name: 별칭 명령
-          href: ide/reference/alias-command.md
-        - name: 문 실행 명령
-          href: ide/reference/evaluate-statement-command.md
-        - name: 찾기 명령
-          href: ide/reference/find-command.md
-        - name: 파일에서 찾기 명령
-          href: ide/reference/find-in-files-command.md
-        - name: 이동 명령
-          href: ide/reference/go-to-command.md
-        - name: 설정 가져오기 및 내보내기 명령
-          href: ide/reference/import-and-export-settings-command.md
-        - name: 호출 스택 목록 표시 명령
-          href: ide/reference/list-call-stack-command.md
-        - name: 디스어셈블리 목록 표시 명령
-          href: ide/reference/list-disassembly-command.md
-        - name: 메모리 목록 표시 명령
-          href: ide/reference/list-memory-command.md
-        - name: 모듈 목록 표시 명령
-          href: ide/reference/list-modules-command.md
-        - name: 레지스터 목록 표시 명령
-          href: ide/reference/list-registers-command.md
-        - name: 소스 목록 표시 명령
-          href: ide/reference/list-source-command.md
-        - name: 스레드 목록 표시 명령
-          href: ide/reference/list-threads-command.md
-        - name: 명령 창 출력 로그 명령
-          href: ide/reference/log-command-window-output-command.md
-        - name: 새 파일 명령
-          href: ide/reference/new-file-command.md
-        - name: 파일 열기 명령
-          href: ide/reference/open-file-command.md
-        - name: 프로젝트 열기 명령
-          href: ide/reference/open-project-command.md
-        - name: 인쇄 명령
-          href: ide/reference/print-command.md
-        - name: 간략한 조사식 명령
-          href: ide/reference/quick-watch-command.md
-        - name: 바꾸기 명령
-          href: ide/reference/replace-command.md
-        - name: 파일에서 바꾸기 명령
-          href: ide/reference/replace-in-files-command.md
-        - name: 현재 프로세스 설정
-          href: ide/reference/set-current-process.md
-        - name: 현재 스택 프레임 설정 명령
-          href: ide/reference/set-current-stack-frame-command.md
-        - name: 현재 스레드 설정 명령
-          href: ide/reference/set-current-thread-command.md
-        - name: 기수 설정 명령
-          href: ide/reference/set-radix-command.md
-        - name: 셸 명령
-          href: ide/reference/shell-command.md
-        - name: 웹 브라우저 표시 명령
-          href: ide/reference/showwebbrowser-command.md
-        - name: 시작 명령
-          href: ide/reference/start-command.md
-        - name: 기호 경로 명령
-          href: ide/reference/symbol-path-command.md
-        - name: 중단점 설정/해제 명령
-          href: ide/reference/toggle-breakpoint-command.md
-        - name: 조사식 명령
-          href: ide/reference/watch-command.md
     - name: 보안
       items:
         - name: 보안 애플리케이션 개발
