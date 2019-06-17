@@ -252,7 +252,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 > [!NOTE]
 > 이 절차를 시작할 때 응용 프로그램이 실행되고 있지 않아야 합니다.
 
-1.  **디버그** 메뉴에서 **디버그 Installed App Package**를 선택합니다.
+1. **디버그** 메뉴에서 **디버그 Installed App Package**를 선택합니다.
 
 2. 목록에서 다음 옵션 중 하나를 선택합니다.
 
@@ -314,7 +314,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
     **선택** 을 선택한 후 다음 중 하나를 수행합니다.
 
-   -  **디버깅할 코드 형식을 자동으로 결정**을 선택합니다.
+   - **디버깅할 코드 형식을 자동으로 결정**을 선택합니다.
 
    - **다음 코드 형식 디버깅** 을 선택한 다음 목록에서 하나 이상의 형식을 선택합니다.
 

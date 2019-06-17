@@ -23,7 +23,7 @@ ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 261c0c0bd8b48634c8d24d56ee4df7ea3bbcf135
 ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2019
 ms.locfileid: "60072853"
@@ -31,7 +31,7 @@ ms.locfileid: "60072853"
 # <a name="autos-and-locals-windows"></a>자동 및 지역 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
- **자동** 창(디버깅하는 동안 **Ctrl+Alt+V, A**또는 **디버그/Windows/자동**) 및 **지역** 창(디버깅하는 동안 **Ctrl+Alt+V, L**또는 **디버그/Windows/지역**)은 디버깅하는 동안 변수 값을 확인하려는 경우에 매우 유용합니다. **지역** 창에는 로컬 범위에 정의되는 변수가 표시되며, 일반적으로 현재 실행되고 있는 함수 또는 메서드입니다. **자동** 창에는 현재 줄(디버거가 중지되어 있는 위치)에 사용된 변수가 표시됩니다. 정확히 표시되는 변수는 언어에 따라 달라집니다. 자동 창에 변수가 표시를 참조 하세요. 아래.  
+**자동** 창(디버깅하는 동안 **Ctrl+Alt+V, A**또는 **디버그/Windows/자동**) 및 **지역** 창(디버깅하는 동안 **Ctrl+Alt+V, L**또는 **디버그/Windows/지역**)은 디버깅하는 동안 변수 값을 확인하려는 경우에 매우 유용합니다. **지역** 창에는 로컬 범위에 정의되는 변수가 표시되며, 일반적으로 현재 실행되고 있는 함수 또는 메서드입니다. **자동** 창에는 현재 줄(디버거가 중지되어 있는 위치)에 사용된 변수가 표시됩니다. 정확히 표시되는 변수는 언어에 따라 달라집니다. 자동 창에 변수가 표시를 참조 하세요. 아래.  
   
  기본 디버깅에 대한 자세한 내용은 [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md)을 참조하세요.  
   
@@ -41,7 +41,7 @@ ms.locfileid: "60072853"
  ![Locals&#45;FileStream](../debugger/media/locals-filestream.png "Locals-FileStream")  
   
 ## <a name="what-variables-appear-in-the-autos-window"></a>자동 창에 나타나는 변수  
- **자동** 창은 C#, Visual Basic 및 C++ 코드에서 사용할 수 있습니다.  **자동** 창은 JavaScript 또는 F#을 지원하지 않습니다.  
+ **자동** 창은 C#, Visual Basic 및 C++ 코드에서 사용할 수 있습니다. **자동** 창은 JavaScript 또는 F#을 지원하지 않습니다.  
   
  C# 및 Visual Basic의 **자동** 창에는 현재 줄이나 이전 줄에 사용된 모든 변수가 표시됩니다. 예를 들어 다음은 네 개의 변수를 선언하고 설정하는 경우입니다.  
   

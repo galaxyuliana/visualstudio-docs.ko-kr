@@ -1,5 +1,5 @@
 ---
-title: 디버거 창 | Microsoft Docs
+title: 디버거 창을 사용 하 여 데이터를 검사 합니다. | Microsoft Docs
 ms.custom: seodec18
 ms.date: 04/25/2018
 ms.topic: conceptual
@@ -9,14 +9,14 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: de19d073a3002c777c0458a99381ee943d297944
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e14f1864452edd00237164e14af74330e3c209f7
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62852508"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67033011"
 ---
-# <a name="learn-about-debugger-windows-in-visual-studio"></a>Visual Studio에서 디버거 Windows에 알아봅니다
+# <a name="inspect-data-using-debugger-windows-in-visual-studio"></a>Visual Studio에서 디버거 창을 사용 하 여 데이터를 검사 합니다.
 
 프로그램을 디버그하는 동안 대부분의 디버거 창을 열 수 있습니다. 디버거 창의 목록을 보려면 중단점을 설정하고 디버깅을 시작합니다. 중단점을 적중하고 실행이 중지되면 **디버그 > Windows**를 클릭합니다.
 

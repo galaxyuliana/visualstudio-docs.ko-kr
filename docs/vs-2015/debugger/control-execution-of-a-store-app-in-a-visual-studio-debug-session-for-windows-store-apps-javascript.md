@@ -69,7 +69,7 @@ ms.locfileid: "63437754"
 
 2. **default.js 소스 파일을 엽니다.** 솔루션 탐색기에서 **js** 노드를 열고 `default.js`이라고 합니다.
 
-3. **페이지 내용을 샘플 코드로 바꿉니다.**  `default.js` 파일에서 시작됩니다. 이 링크를 수행 합니다. [디버거 탐색 샘플 코드 (JavaScript)](../debugger/debugger-navigation-sample-code-javascript.md), 한 다음 클립보드에 JavaScript 섹션에 나열 된 코드를 복사 합니다. (선택 **다시** 브라우저 또는 도움말 뷰어가 빠른 시작 페이지로 돌아갑니다.) Visual Studio 편집기에서 코드를 현재 비어 있는 `default.js`에 붙여 넣습니다. **Ctrl+S** 를 선택하여 파일을 저장합니다.
+3. **페이지 내용을 샘플 코드로 바꿉니다.** `default.js` 파일에서 시작됩니다. 이 링크를 수행 합니다. [디버거 탐색 샘플 코드 (JavaScript)](../debugger/debugger-navigation-sample-code-javascript.md), 한 다음 클립보드에 JavaScript 섹션에 나열 된 코드를 복사 합니다. (선택 **다시** 브라우저 또는 도움말 뷰어가 빠른 시작 페이지로 돌아갑니다.) Visual Studio 편집기에서 코드를 현재 비어 있는 `default.js`에 붙여 넣습니다. **Ctrl+S** 를 선택하여 파일을 저장합니다.
 
    이제 이 항목의 예제도 함께 수행할 수 있습니다.
 
@@ -145,13 +145,13 @@ ms.locfileid: "63437754"
 
 3. **코드 줄을 프로시저 단위로 실행합니다.** 에 **디버그** 메뉴 선택 **단계씩** (키보드: F10)입니다. 디버거는 문을 한 단계씩 코드 실행하는 것과 동일한 방식으로 `var callTrack = "module function"` 문을 실행합니다.
 
-4. **example2 및 example2_a를 한 단계씩 코드 실행합니다.**  **F11** 키를 선택하여 `example2` 함수를 호출하는 다음 줄로 이동합니다. `example2` 줄에 도달할 때까지 `var x = example2_a();`문을 계속 한 단계씩 코드 실행합니다. 다시 이 줄을 한 단계씩 코드 실행하여 `example2_a`의 진입점으로 이동합니다. `example2_a` 로 돌아갈 때까지 `example2`의 각 문을 계속 한 단계씩 코드 실행합니다.
+4. **example2 및 example2_a를 한 단계씩 코드 실행합니다.** **F11** 키를 선택하여 `example2` 함수를 호출하는 다음 줄로 이동합니다. `example2` 줄에 도달할 때까지 `var x = example2_a();`문을 계속 한 단계씩 코드 실행합니다. 다시 이 줄을 한 단계씩 코드 실행하여 `example2_a`의 진입점으로 이동합니다. `example2_a` 로 돌아갈 때까지 `example2`의 각 문을 계속 한 단계씩 코드 실행합니다.
 
      ![함수를 건너뛰기](../debugger/media/dbg-jsnav-example2-a.png "DBG_JSNAV_example2_a")
 
-5. **함수를 프로시저 단위로 실행합니다.**  `example2`의 다음 줄 `var y = example2_a();` 는 기본적으로 이전 줄과 동일합니다. 이 줄을 안전하게 프로시저 단위로 실행합니다. **F10** 키를 선택하여 `example2` 의 다시 계속에서 `example2_a`의 이 두 번째 호출로 이동합니다. `callTrack` 문자열은 `example2_a` 함수가 두 번 실행되었음을 나타냅니다.
+5. **함수를 프로시저 단위로 실행합니다.** `example2`의 다음 줄 `var y = example2_a();` 는 기본적으로 이전 줄과 동일합니다. 이 줄을 안전하게 프로시저 단위로 실행합니다. **F10** 키를 선택하여 `example2` 의 다시 계속에서 `example2_a`의 이 두 번째 호출로 이동합니다. `callTrack` 문자열은 `example2_a` 함수가 두 번 실행되었음을 나타냅니다.
 
-6. **함수의 프로시저에서 나갑니다.**  **F11** 키를 선택하여 `example2_b` 함수를 호출하는 다음 줄로 이동합니다. `example2_b` 는 `example2_a`와 크게 다르지 않습니다. 함수의 선택 **프로시저 나가기** 에 **디버그** 메뉴 (키보드: **Shift+F11**). `callTrack` 변수는 `example2_b` 가 실행되었으며, `example2` 가 다시 시작되는 지점으로 디버거가 돌아갔음을 나타냅니다.
+6. **함수의 프로시저에서 나갑니다.** **F11** 키를 선택하여 `example2_b` 함수를 호출하는 다음 줄로 이동합니다. `example2_b` 는 `example2_a`와 크게 다르지 않습니다. 함수의 선택 **프로시저 나가기** 에 **디버그** 메뉴 (키보드: **Shift+F11**). `callTrack` 변수는 `example2_b` 가 실행되었으며, `example2` 가 다시 시작되는 지점으로 디버거가 돌아갔음을 나타냅니다.
 
 7. **디버깅을 중지합니다.** 에 **디버깅할** 메뉴 선택 **디버깅 중지** (키보드: **Shift+F5**). 이렇게 하면 디버그 세션이 종료됩니다.
 

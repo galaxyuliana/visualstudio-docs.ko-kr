@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 83156630aee0727502894b286f8c6823e25a5fe9
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: eef0507ccb7036748f5c9d36c9de521a17860a39
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63399274"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032717"
 ---
 # <a name="idiasymbolgetmachinetype"></a>IDiaSymbol::get_machineType
 대상 CPU의 형식을 검색 합니다.
@@ -33,7 +33,7 @@ HRESULT get_machineType ( 
 #### <a name="parameters"></a>매개 변수
  `pRetVal`
 
-[out] 값을 반환 합니다 [CV_CPU_TYPE_e 열거형](../../debugger/debug-interface-access/cv-cpu-type-e.md) 대상 CPU 종류를 지정 하는 열거형입니다.
+[out] 값을 반환 합니다 [IMAGE_FILE_MACHINE_ 상수](/windows/desktop/SysInfo/image-file-machine-constants) 대상 CPU 종류를 지정 하는 합니다.
 
 ## <a name="return-value"></a>반환 값
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.
@@ -42,5 +42,5 @@ HRESULT get_machineType ( 
 > 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
 ## <a name="see-also"></a>참고 항목
-- [CV_CPU_TYPE_e 열거형](../../debugger/debug-interface-access/cv-cpu-type-e.md)
+- [IMAGE_FILE_MACHINE_ 상수](/windows/desktop/SysInfo/image-file-machine-constants) 
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
