@@ -14,12 +14,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8b4c763ff31c6c62a177c77f8886f1de305a5170
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: db966d2c0ac048bd650500ed6ab191e6bc867e36
+ms.sourcegitcommit: 9753c7544cec852ca5efd0834e0956d9e53a5734
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62853045"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67043312"
 ---
 # <a name="learn-productivity-tips-and-tricks-for-the-debugger-in-visual-studio"></a>For the Debugger in Visual Studio 생산성 팁과 트릭 배우기
 
@@ -169,5 +169,6 @@ UWP 앱에서 사용 하 여 수행 된 네트워크 작업을 분석할 수 있
 - [Visual Studio에서 디버깅을 위해 더 적은 알려진된 해킹을 7](https://devblogs.microsoft.com/visualstudio/7-lesser-known-hacks-for-debugging-in-visual-studio/)
 - [Visual Studio에서 7 숨겨진된 보석](https://devblogs.microsoft.com/visualstudio/7-hidden-gems-in-visual-studio-2017/)
 
-## <a name="see-also"></a>참고 항목
-[바로 가기 키](../ide/tips-and-tricks-for-visual-studio.md)
+## <a name="see-also"></a>참고자료
+
+[바로 가기 키](../ide/productivity-shortcuts.md)

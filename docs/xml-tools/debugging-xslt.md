@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - multiple
-ms.openlocfilehash: 23e108e476bfa9cb3ce699a16c77eb3520ed4785
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 67ea95e3c52daed03acfe451f353edc039e1fecb
+ms.sourcegitcommit: 9753c7544cec852ca5efd0834e0956d9e53a5734
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62838482"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67043541"
 ---
 # <a name="debugging-xslt"></a>XSLT 디버깅
 
@@ -25,7 +25,7 @@ Visual Studio에서 XSLT 코드를 디버깅할 수 있습니다. XSLT에 중단
 디버깅을 시작하면 XSLT 디버거에서 입력 문서와 XSLT 출력을 창에 표시합니다.
 
 > [!NOTE]
-> XSLT 디버거만 Visual Studio의 Enterprise edition에서 제공 됩니다.
+> XSLT 디버거만 Visual studio Professional 및 Enterprise edition에서 제공 됩니다.
 
 ## <a name="debug-from-the-xml-editor"></a>XML 편집기에서 디버그
 

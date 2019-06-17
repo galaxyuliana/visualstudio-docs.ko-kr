@@ -16,7 +16,7 @@ ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 73b4350a2e7f277a11f4d6650d8089df0f87fe4d
 ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/22/2019
 ms.locfileid: "60116396"
@@ -58,7 +58,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 
      ![로컬 컴퓨터에서 실행할](../debugger/media/vsrun-f5-local.png "VSRUN_F5_Local")
 
-3.  **빌드** 메뉴에서 **배포**를 선택합니다.
+3. **빌드** 메뉴에서 **배포**를 선택합니다.
 
 ## <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 장치 지정 방법
  **필수 구성 요소**

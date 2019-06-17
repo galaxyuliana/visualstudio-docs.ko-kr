@@ -205,7 +205,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
 17. DOM 탐색기에서 업데이트된 DIV 요소가 표시되고, 예상된 IMG 요소를 찾기 위해 하위 트리로 이동할 수 있습니다.  
   
-18.  **디버그** > **Stop 디버그ging** 를 선택하거나 Shift+F5를 눌러 디버깅을 중지한 다음 소스 코드를 수정합니다.  
+18. **디버그** > **Stop 디버그ging** 를 선택하거나 Shift+F5를 눌러 디버깅을 중지한 다음 소스 코드를 수정합니다.  
   
      수정된 샘플 코드가 포함된 전체 default.html 페이지는 [HTML, CSS 및 JavaScript 샘플 코드 디버깅](../debugger/debug-html-css-and-javascript-sample-code.md)을 참조하세요.  
   
@@ -220,7 +220,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
 2. **디버그** 도구 모음의 **디버깅 시작** 단추 옆에 있는 드롭다운 목록에서 **로컬 컴퓨터** 또는 **에뮬레이터 8.1 WVGA 4인치 512MB** 를 선택합니다.  
   
-3.  **디버그** > **Start 디버그ging**을 선택하거나 F5를 선택합니다.  
+3. **디버그** > **Start 디버그ging**을 선택하거나 F5를 선택합니다.  
   
      실행이 `updateImages()` 함수에 도달하면 응용 프로그램이 중단 모드로 들어가며, 현재 프로그램 실행 줄은 노란색으로 강조 표시됩니다.  
   
@@ -264,7 +264,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
  ![JavaScript 콘솔 창에서 선택한 대상](../debugger/media/js-console-target.png "JS_Console_Target")  
   
- 또한 `cd` 명령을 사용하여 실행 컨텍스트를 전환할 수도 있지만, 다른 실행 컨텍스트의 이름을 알아야 하고 사용하는 참조가 범위 내에 있어야 합니다.  **대상** 목록에서 다른 실행 컨텍스트에 액세스하기가 더 쉽습니다.  
+ 또한 `cd` 명령을 사용하여 실행 컨텍스트를 전환할 수도 있지만, 다른 실행 컨텍스트의 이름을 알아야 하고 사용하는 참조가 범위 내에 있어야 합니다. **대상** 목록에서 다른 실행 컨텍스트에 액세스하기가 더 쉽습니다.  
   
 ## <a name="BrowserSupport"></a> 브라우저 및 플랫폼 지원  
  JavaScript 콘솔 창은 다음 플랫폼에서 지원됩니다.  
@@ -273,7 +273,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
   
 - [!INCLUDE[win81](../includes/win81-md.md)]에서 실행 중인 Internet Explorer 11  
   
--  [!INCLUDE[win8](../includes/win8-md.md)]  
+- [!INCLUDE[win8](../includes/win8-md.md)]  
   
 ## <a name="see-also"></a>참고 항목  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

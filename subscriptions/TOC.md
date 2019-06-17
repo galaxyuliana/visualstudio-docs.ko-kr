@@ -14,9 +14,7 @@
 ### [제품 키 받기 및 관리](product-keys.md)
 ### [GitHub Enterprise가 포함된 Visual Studio](access-github.md)
 ### [구독자 혜택](subscriber-benefits.md)
-### Visual Studio Dev Essentials
-#### [Visual Studio Dev Essentials 가입](join-dev-essentials.md)
-#### [Visual Studio Dev Essentials 옵트아웃](leave-vsde.md)
+### [Visual Studio Dev Essentials](join-dev-essentials.md)
 ## 구독자 혜택 사용
 ### 도구
 #### [Visual Studio IDE](vs-ide-benefit.md)
@@ -33,7 +31,6 @@
 #### [Windows 개발자 계정](vs-windows-dev.md)
 #### [Office 365 구독](vs-office365.md)
 #### [Power BI Pro](vs-pbi.md)
-#### [TFS를 위한 최신 요구 사항](vs-modernreq.md)
 #### [Azure Pay-As-You-Go](vs-azure-payg.md)
 ### [전문적인 개발](professional-development.md)
 #### [LinkedIn 학습](vs-linkedin-learning.md)
