@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 84874328c2f7a20a79370ff210eb51d966ec4648
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2e918521a404914c2acc9a8fd6283815b1ee324e
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62791658"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744934"
 ---
 # <a name="application-page-project-designer-visual-basic"></a>Application Page, Project Designer (Visual Basic)
 
@@ -57,14 +57,14 @@ ms.locfileid: "62791658"
 
 ### <a name="target-framework-all-configurations"></a>대상 프레임워크(모든 구성)
 
-애플리케이션의 대상 .NET Framework 버전을 지정합니다. 이 옵션은 컴퓨터에 설치된 .NET Framework 버전에 따라 다른 값을 가질 수 있습니다.
+애플리케이션의 대상 .NET 버전을 지정합니다. 이 옵션은 컴퓨터에 설치된 .NET 버전에 따라 다른 값을 가질 수 있습니다.
 
-기본값은 프로젝트를 만들 때 지정한 대상 프레임워크와 일치합니다.
+.NET Framework 프로젝트의 경우 기본값은 프로젝트를 만들 때 지정한 대상 프레임워크와 일치합니다.
 
 > [!NOTE]
 > 대화 상자를 처음 열면 [필수 조건 대화 상자](../../ide/reference/prerequisites-dialog-box.md)에 나열된 필수 조건 패키지가 자동으로 설정됩니다. 이후에 프로젝트의 대상 프레임워크를 변경하는 경우 새 대상 프레임워크에 맞도록 필수 조건을 수동으로 지정해야 합니다.
 
-자세한 내용은 [방법: 대상 .NET Framework 버전 지정](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) 및 [Visual Studio 멀티 타기팅 개요](../../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.
+자세한 내용은 [방법: .NET Framework의 버전 대상 지정](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) 및 [Visual Studio 멀티 타기팅 개요](../../ide/visual-studio-multi-targeting-overview.md)
 
 ### <a name="application-type"></a>애플리케이션 유형
 

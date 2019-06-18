@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1331f416d95b56d466b6e2fe268ed7db071d66da
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fb101dc1f272ae56ceb0058afb2806aec4154936
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62945464"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747679"
 ---
 # <a name="toolbox"></a>도구 상자
 
@@ -33,7 +33,7 @@ ms.locfileid: "62945464"
 > [!NOTE]
 > 일부 프로젝트 유형의 경우 **도구 상자**에 항목이 표시되지 않을 수 있습니다.
 
-프로젝트의 대상 .NET Framework 버전도 도구 상자에 표시되는 컨트롤 집합에 영향을 줍니다. 프로젝트 속성 페이지에서 .NET Framework의 다른 버전을 대상으로 지정하도록 프로젝트를 구성할 수 있습니다. **솔루션 탐색기**에서 프로젝트 노드를 선택한 다음, 메뉴 모음에서 **프로젝트** > **프로젝트 이름 속성**을 선택합니다. **애플리케이션** 탭에서 **대상 프레임워크** 드롭다운을 사용합니다.
+프로젝트가 대상으로 하는 .NET 버전도 도구 상자에 표시되는 컨트롤 집합에 영향을 줍니다. 필요한 경우 프로젝트의 속성 페이지에서 대상 프레임워크 버전을 변경할 수 있습니다. **솔루션 탐색기**에서 프로젝트 노드를 선택한 다음, 메뉴 모음에서 **프로젝트** > **프로젝트 이름 속성**을 선택합니다. **애플리케이션** 탭에서 **대상 프레임워크** 드롭다운을 사용합니다.
 
 ## <a name="manage-the-toolbox-window-and-its-controls"></a>도구 상자 창 및 해당 컨트롤 관리
 

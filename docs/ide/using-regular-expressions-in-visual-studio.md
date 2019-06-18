@@ -16,16 +16,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d62f999f485acaba168a50d404f2b5cbb272ef14
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5fc2e1afa95c56dda79296a24f027fb93d62c585
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62821080"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747735"
 ---
 # <a name="use-regular-expressions-in-visual-studio"></a>Visual Studio에서 정규식 사용
 
-Visual Studio에서는 [.NET Framework 정규식](/dotnet/standard/base-types/regular-expressions)을 사용하여 텍스트를 찾고 바꿉니다.
+Visual Studio에서는 [.NET 정규식](/dotnet/standard/base-types/regular-expressions)을 사용하여 텍스트를 찾고 바꿉니다.
 
 ## <a name="replacement-patterns"></a>대체 패턴
 

@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b83a3851c74d97992fa75e9ce533ca707e2115c9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 925f36f2ed82f65afcc0eef9622cab1a8c9542b5
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62969147"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746482"
 ---
 # <a name="prerequisites-dialog-box"></a>필수 조건 대화 상자
 
@@ -42,7 +42,7 @@ ms.locfileid: "62969147"
 
 |요소|설명|
 |-------------|-----------------|
-|**.NET Framework 3.5 SP1**|이 패키지는 다음 항목을 설치합니다.<br /><br /> -   .NET Framework 버전 2.0, 3.0 및 3.5.<br />-   32비트(x86) 및 64비트(x64) 운영 체제에서 모든 .NET Framework 버전에 대한 지원.<br />-   패키지와 함께 설치된 각 .NET Framework 버전에 대한 언어 팩.<br />-   .NET Framework 2.0 및 3.0용 서비스 팩.<br /><br /> .NET Framework 3.0은 Windows Vista에 포함되고 .NET Framework 3.5는 Visual Studio에 포함됩니다. .NET Framework 3.5는 32비트 운영 체제용으로 컴파일되고 대상 프레임워크가 **.NET Framework 3.5**로 설정된 모든 Visual Basic 및 C# 프로젝트와 64비트 운영 체제용으로 컴파일된 Visual Basic 및 C# 프로젝트에 필요합니다. IA64는 지원되지 않습니다. Visual Basic 및 C# 프로젝트는 기본적으로 모든 CPU 아키텍처에 대해 컴파일됩니다. 자세한 내용은 [Visual Studio 멀티 타기팅 개요](../../ide/visual-studio-multi-targeting-overview.md) 및 [64비트 앱의 필수 구성 요소 배포](../../deployment/deploying-prerequisites-for-64-bit-applications.md)를 참조하세요.|
+|**.NET Framework 3.5 SP1**|이 패키지는 다음 항목을 설치합니다.<br /><br /> -   .NET Framework 버전 2.0, 3.0 및 3.5.<br />-   32비트(x86) 및 64비트(x64) 운영 체제에서 모든 .NET Framework 버전에 대한 지원.<br />-   패키지와 함께 설치된 각 .NET Framework 버전에 대한 언어 팩.<br />-   .NET Framework 2.0 및 3.0용 서비스 팩.<br /><br /> .NET Framework 3.0은 Windows Vista에 포함되고 .NET Framework 3.5는 Visual Studio에 포함됩니다. .NET Framework 3.5는 32비트 운영 체제용으로 컴파일되고 대상 프레임워크가 **.NET Framework 3.5**로 설정된 모든 Visual Basic 및 C# 프로젝트와 64비트 운영 체제용으로 컴파일된 Visual Basic 및 C# 프로젝트에 필요합니다. IA64는 지원되지 않습니다. Visual Basic 및 C# 프로젝트는 기본적으로 모든 CPU 아키텍처에 대해 컴파일됩니다. 자세한 내용은 [Framework 대상 지정 개요](../../ide/visual-studio-multi-targeting-overview.md) 및 [64비트 앱의 필수 구성 요소 배포](../../deployment/deploying-prerequisites-for-64-bit-applications.md)를 참조하세요.|
 |**Microsoft .NET Framework 4.x**|이 패키지는 x86 및 x64 플랫폼 모두에 .NET Framework 4.x를 설치합니다.|
 |**SQL Server 2014용 Microsoft System CLR Types(x64 및 x86)**|이 패키지는 x64 또는 x86의 SQL Server 2014용 Microsoft System CLR Types를 설치합니다.|
 |**SQL Server 2008 R2 Express**|이 패키지는 소규모 웹, 서버 또는 데스크톱 애플리케이션에 적합한 데이터베이스이며 Microsoft SQL Server 2008 R2의 무료 버전인 Microsoft SQL Server 2008 R2 Express를 설치합니다. 이 응용 프로그램은 개발 및 프로덕션 용도로 무료로 사용할 수 있습니다.|
@@ -57,4 +57,4 @@ ms.locfileid: "62969147"
 - [프로젝트 디자이너, 게시 페이지](../../ide/reference/publish-page-project-designer.md)
 - [애플리케이션 배포 필수 조건](../../deployment/application-deployment-prerequisites.md)
 - [64비트 애플리케이션의 필수 조건 배포](../../deployment/deploying-prerequisites-for-64-bit-applications.md)
-- [Visual Studio 멀티 타기팅 개요](../../ide/visual-studio-multi-targeting-overview.md)
+- [Framework 대상 지정 개요](../../ide/visual-studio-multi-targeting-overview.md)

@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 23888809dd4dfd05058ed71ba8a82e8e532d7e61
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: eb3ef6eff6da9040fc7e438d8f3271c60897a5ec
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62963198"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820304"
 ---
 # <a name="customize-build-and-debug-tasks-for-open-folder-development"></a>“폴더 열기” 개발에 대한 빌드 및 디버그 작업 사용자 지정
 
@@ -313,7 +313,7 @@ Visual Studio는 *.vscode*라는 디렉터리에 있는 *settings.json* 파일�
 ## <a name="see-also"></a>참고 항목
 
 - [프로젝트 또는 솔루션 없이 코드 개발](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
-- [C++의 폴더 열기 프로젝트](/cpp/ide/non-msbuild-projects)
-- [C++의 CMake 프로젝트](/cpp/ide/cmake-tools-for-visual-cpp)
-- [NMAKE 참조](/cpp/build/nmake-reference)
+- [C++의 폴더 열기 프로젝트](/cpp/build/open-folder-projects-cpp)
+- [C++의 CMake 프로젝트](/cpp/build/cmake-projects-in-visual-studio)
+- [NMAKE 참조](/cpp/build/reference/nmake-reference)
 - [코드 편집기의 기능](../ide/writing-code-in-the-code-and-text-editor.md)

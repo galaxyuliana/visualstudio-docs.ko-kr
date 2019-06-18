@@ -6,20 +6,21 @@ ms.author: crdun
 ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
-ms.openlocfilehash: 428c5ceb878d2ec0f4185ad70772672733fda517
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2093d6d0f6d123bf6d904b225c17714a98c5ee9a
+ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62971453"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66835891"
 ---
 # <a name="uninstalling-visual-studio-for-mac"></a>Mac용 Visual Studio 제거
 
-Mac용 Visual Studio와 같은 독립형 앱을 포함하여 플랫폼 간 애플리케이션 개발을 지원하는 여러 가지 Xamarin 제품이 있습니다.
-
-이 가이드를 통해 관련 섹션으로 이동하여 각 제품을 개별적으로 제거하거나 [스크립트 제거](#uninstall-script) 섹션에 제공된 스크립트를 사용하여 모든 제품을 제거할 수 있습니다.
+이 가이드를 통해 관련 섹션으로 이동하여 Mac용 Visual Studio의 각 구성 요소를 개별적으로 제거하거나 [스크립트 제거](#uninstall-script) 섹션에 제공된 스크립트를 사용하여 모든 제품을 제거할 수 있습니다.
 
 이전에 Xamarin Studio를 머신에 설치한 경우 다음 단계에 더하여 [Xamarin의 제거](/xamarin/cross-platform/get-started/installation/uninstalling-xamarin#uninstall-xamarin-studio-on-mac) 가이드의 안내에 따라야 할 수도 있습니다.
+
+> [!NOTE]
+> 이 정보는 사용자의 컴퓨터에서 Mac용 Visual Studio 2019 또는 2017만 제거합니다. Visual Studio Code를 제거하려면 자세한 내용은 [이 문제](https://github.com/Microsoft/vscode/issues/52151)를 참조하세요.
 
 ## <a name="uninstall-script"></a>스크립트 제거
 

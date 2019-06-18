@@ -18,15 +18,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7d9ebe23cab26d6a90e16623917b61d261ed12f5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 488ae44a89c203b70e6c8e635d99eb699349156e
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62974646"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747317"
 ---
 # <a name="registerassembly-task"></a>RegisterAssembly 작업
-지정된 어셈블리 내의 메타데이터를 읽고 필요한 엔트리를 레지스트리에 추가할 수 있습니다. 이렇게 하면 COM 클라이언트에서 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 클래스를 투명하게 만들 수 있습니다. 이 작업의 동작은 [Regasm.exe(어셈블리 등록 도구)](/dotnet/framework/tools/regasm-exe-assembly-registration-tool)의 동작과 비슷하지만 같지는 않습니다.
+지정된 어셈블리 내의 메타데이터를 읽고 필요한 엔트리를 레지스트리에 추가할 수 있습니다. 이렇게 하면 COM 클라이언트에서 .NET Framework 클래스를 투명하게 만들 수 있습니다. 이 작업의 동작은 [Regasm.exe(어셈블리 등록 도구)](/dotnet/framework/tools/regasm-exe-assembly-registration-tool)의 동작과 비슷하지만 같지는 않습니다.
 
 ## <a name="parameters"></a>매개 변수
  다음 표에서는 `RegisterAssembly` 작업의 매개 변수에 대해 설명합니다.

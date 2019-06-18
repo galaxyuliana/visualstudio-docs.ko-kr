@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f09afb11708afb310a3dcd52490f5b2bcda9d79b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6bdc9148b406d9d3806e5eb64f223dccb4b7c0b7
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62790930"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744974"
 ---
 # <a name="choose-toolbox-items-wpf-components"></a>도구 상자 항목 선택, WPF 구성 요소
 
@@ -31,7 +31,7 @@ ms.locfileid: "62790930"
 - 구성 요소 옆의 확인란이 선택 취소되면 해당 아이콘이 **도구 상자**에서 제거됩니다.
 
     > [!NOTE]
-    > 구성 요소의 아이콘이 **도구 상자**에 표시되는지 여부에 관계없이 컴퓨터에 설치된 .NET Framework 구성 요소를 계속 사용할 수 있습니다.
+    > 구성 요소의 아이콘이 **도구 상자**에 표시되는지 여부에 관계없이 컴퓨터에 설치된 .NET 구성 요소를 계속 사용할 수 있습니다.
 
 **WPF 구성 요소** 탭에는 다음 정보가 포함됩니다.
 
@@ -41,15 +41,15 @@ ms.locfileid: "62790930"
 
 **네임스페이스**
 
-구성 요소 구조를 정의하는 [.NET Framework 클래스 API](/dotnet/api/?view=netframework-4.7) 네임스페이스의 계층 구조를 표시합니다. 컴퓨터에 설치된 각 .NET Framework 네임스페이스 내에서 사용 가능한 구성 요소를 나열하려면 이 열을 기준으로 정렬합니다.
+구성 요소 구조를 정의하는 [.NET API](/dotnet/api/?view=netframework-4.7) 네임스페이스의 계층 구조를 표시합니다. 컴퓨터에 설치된 각 .NET 네임스페이스 내에서 사용 가능한 구성 요소를 나열하려면 이 열을 기준으로 정렬합니다.
 
 **어셈블리 이름**
 
-각 구성 요소의 네임스페이스가 포함된 .NET Framework 어셈블리의 이름을 표시합니다. 컴퓨터에 설치된 각 .NET Framework 어셈블리에 포함된 네임스페이스를 나열하려면 이 열을 기준으로 정렬합니다.
+각 구성 요소의 네임스페이스가 포함된 .NET 어셈블리의 이름을 표시합니다. 컴퓨터에 설치된 각 .NET 어셈블리에 포함된 네임스페이스를 나열하려면 이 열을 기준으로 정렬합니다.
 
 **디렉터리**
 
-.NET Framework 어셈블리의 위치를 표시합니다. 모든 어셈블리의 기본 위치는 전역 어셈블리 캐시(GAC)입니다. 전역 어셈블리 캐시에 대한 자세한 내용은 [어셈블리 및 전역 어셈블리 캐시 사용](/dotnet/framework/app-domains/working-with-assemblies-and-the-gac)을 참조하세요.
+.NET 어셈블리의 위치를 표시합니다. 모든 어셈블리의 기본 위치는 전역 어셈블리 캐시(GAC)입니다. 전역 어셈블리 캐시에 대한 자세한 내용은 [어셈블리 및 전역 어셈블리 캐시 사용](/dotnet/framework/app-domains/working-with-assemblies-and-the-gac)을 참조하세요.
 
 ## <a name="uielement-list"></a>UI 요소 목록
 

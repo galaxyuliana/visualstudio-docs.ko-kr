@@ -17,18 +17,18 @@ ms.assetid: 0ee89c58-c900-48fc-a6a2-65ace00e8bab
 author: Joe-Sewell-PreEmptive
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 5bf42ec3c706282adf2752d21c0c121f89c2ed5f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 87d093a540e3c6fae6a80761a5b945c572bd890d
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62557257"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744777"
 ---
 # <a name="capabilities-of-dotfuscator"></a>Dotfuscator의 기능
 
 이 페이지에서는 [업그레이드][upgrades]를 통해 사용 가능한 고급 옵션에 대한 몇 가지 참조와 함께 Dotfuscator Community의 기능을 중점적으로 설명합니다.
 
-Dotfuscator Community는 .NET 애플리케이션용 ‘빌드 후’ 시스템입니다.
+Dotfuscator Community는 .NET 애플리케이션용 ‘빌드 후’ 시스템입니다. 
 Dotfuscator Community를 통해 Visual Studio 사용자는 [어셈블리를 난독 처리][obfuscation]하고 [활성 방어 대책][checks]을 애플리케이션에 삽입할 수 있습니다. Dotfuscator가 없다면 모두 원래 소스 코드에 액세스해야 하는 작업입니다.
 Dotfuscator는 계층화된 보호 전략을 생성하는 다양한 방법으로 애플리케이션을 보호합니다.
 
@@ -37,7 +37,7 @@ Dotfuscator Community는 [UWP(유니버설 Windows 플랫폼)][uwp] 및 [Xamarin
 ## <a name="intellectual-property-protection"></a>지적 재산권 보호
 
 애플리케이션의 디자인, 동작 및 구현은 IP(지적 재산권)의 형식입니다.
-그러나 .NET Framework용으로 만들어진 애플리케이션은 기본적으로 공개됩니다. [고급 메타데이터 및 중간 코드를 포함하므로 ][assemblies] .NET 어셈블리를 아주 쉽게 리버스 엔지니어링할 수 있습니다.
+그러나 .NET용으로 만들어진 애플리케이션은 기본적으로 공개됩니다. [고급 메타데이터 및 중간 코드를 포함하므로 ][assemblies] .NET 어셈블리를 쉽게 리버스 엔지니어링할 수 있습니다.
 
 Dotfuscator Community에는 기본 [.NET 난독 처리][obfuscation]가 [이름 바꾸기][renaming] 형식으로 포함됩니다.
 Dotfuscator를 통해 코드를 난독 처리하면 중요한 명명 정보가 더 이상 공개되지 않으므로 리버스 엔지이어링을 통해 소스 코드에 무단 액세스할 위험이 감소합니다.
@@ -50,7 +50,7 @@ Dotfuscator는 이 시도를 방지하기 위해 [디버그 방지 동작][debug
 ## <a name="application-integrity-protection"></a>애플리케이션 무결성 보호
 
 소스 코드 보호뿐 아니라 애플리케이션이 설계된 대로 사용되도록 하는 것도 중요합니다.
-공격자는 라이선싱 정책을 우회하거나(소프트웨어 불법 복제), 애플리케이션에서 처리되는 중요한 데이터를 훔치거나 조작하거나, 애플리케이션의 동작을 변경하기 위해 애플리케이션을 하이재킹하려고 시도할 수 있습니다.
+공격자는 라이선싱 정책을 우회하거나(즉, 소프트웨어 불법 복제), 애플리케이션에서 처리되는 중요한 데이터를 훔치거나 조작하거나, 애플리케이션의 동작을 변경하기 위해 애플리케이션을 하이재킹하려고 시도할 수 있습니다.
 
 Dotfuscator Community는 [조작 방지][tamper], [디버그 방지][debug] 및 [루팅 방지 디바이스][root] 대책을 포함하여 [애플리케이션 유효성 검사 코드][checks]를 어셈블리에 삽입할 수 있습니다.
 잘못된 애플리케이션 상태가 검색되면 유효성 검사 코드가 [애플리케이션 코드를 호출하여 상황을 적절한 방식으로 해결][check-app]할 수 있습니다.

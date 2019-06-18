@@ -9,30 +9,26 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 8634f1852d10a1935b3ee55b6e80ad9503923fe9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fe0215b3474e72316d848c89f2284ab4e39f213b
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62550216"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746301"
 ---
 # <a name="input-generation-using-dynamic-symbolic-execution"></a>동적 기호 실행을 사용하여 입력 생성
 
-IntelliTest는 프로그램에서 분기 조건을 분석하여 [매개 변수가 있는 단위 테스트](test-generation.md#parameterized-unit-testing)에 대한 입력을 생성합니다.
-테스트 입력은 입력이 프로그램의 새 분기 동작을 트리거할 수 있는지에 따라 선택됩니다.
-분석은 증분 프로세스입니다. 이 기능은 조건자 **q: I -> {true, false}** 를 정식 테스트 입력 매개 변수 **I**에 대해 구체화합니다. **q**는 IntelliTest가 이미 관찰한 동작 집합을 나타냅니다.
-처음에는 아무것도 관찰되지 않았으므로 **q := false**입니다.
+IntelliTest는 프로그램에서 분기 조건을 분석하여 [매개 변수가 있는 단위 테스트](test-generation.md#parameterized-unit-testing)에 대한 입력을 생성합니다. 테스트 입력은 입력이 프로그램의 새 분기 동작을 트리거할 수 있는지에 따라 선택됩니다. 분석은 증분 프로세스입니다. 정식 테스트 입력 매개 변수 `I`에 대한 조건자 `q: I -> {true, false}`를 구체화합니다. `q`는 IntelliTest가 이미 관찰한 동작의 집합을 나타냅니다. 처음에는 아무것도 관찰되지 않았으므로 `q := false`입니다.
 
 루프 단계는 다음과 같습니다.
 
-1. IntelliTest는 [제약 조건 해결기](#constraint-solver)를 사용하여 **q(i)=false**가 되도록 입력 **i**를 결정합니다.
-   생성 시 입력 **i**는 이전에 표시되지 않은 실행 경로를 사용합니다. 처음에는 실행 경로가 검색되지 않았으므로 이것은 **i**가 입력일 수 있음을 의미합니다.
+1. IntelliTest는 [제약 조건 해결기](#constraint-solver)를 사용하여 `q(i)=false`가 되도록 입력 `i`를 결정합니다. 생성 시 입력 `i`는 이전에 표시되지 않은 실행 경로를 사용합니다. 처음에는 실행 경로가 검색되지 않았으므로 이것은 `i`가 입력일 수 있음을 의미합니다.
 
-1. IntelliTest는 선택된 입력 **i**를 사용하여 테스트를 실행하고 테스트 및 테스트 중인 프로그램의 실행을 모니터링합니다.
+1. IntelliTest는 선택된 입력 `i`를 사용하여 테스트를 실행하고 테스트 및 테스트 중인 프로그램의 실행을 모니터링합니다.
 
-1. 실행하는 동안 프로그램은 프로그램의 모든 조건부 분기에 의해 결정된 특정 경로를 사용합니다. 실행을 결정하는 일련의 모든 조건을 *경로 조건*이라고 하며, 정식 입력 매개 변수에 대한 조건자 **p: I -> {true, false}** 로 기록됩니다. IntelliTest는 이 조건자의 표현을 계산합니다.
+1. 실행하는 동안 프로그램은 프로그램의 모든 조건부 분기에 의해 결정된 특정 경로를 사용합니다. 실행을 결정하는 모든 조건 집합을 *경로 조건*이라고 하며, 정식 입력 매개 변수에 대한 조건자 `p: I -> {true, false}`로 기록됩니다. IntelliTest는 이 조건자의 표현을 계산합니다.
 
-1. IntelliTest는 **q := (q or p)** 를 설정합니다. 즉, **p**에 의해 표현된 경로를 확인했다는 사실을 기록합니다.
+1. IntelliTest는 `q := (q or p)`를 설정합니다. 즉, `p`에 의해 표현된 경로를 확인했다는 사실을 기록합니다.
 
 1. 1단계로 이동합니다.
 
@@ -47,14 +43,12 @@ IntelliTest는 명시된 가정을 위반하는 입력을 필터링합니다.
 
 즉시 입력([매개 변수가 있는 단위 테스트](test-generation.md#parameterized-unit-testing)에 대한 인수) 외에 테스트는 [PexChoose](static-helper-classes.md#pexchoose) 정적 클래스에서 추가적인 입력 값을 가져올 수 있습니다. 선택 항목에 따라 [매개 변수가 있는 모의 개체](#parameterized-mocks)의 동작이 결정됩니다.
 
-<a name="constraint-solver"></a>
 ## <a name="constraint-solver"></a>제약 조건 해결기
 
 IntelliTest는 제약 조건 해결기를 사용하여 테스트 및 테스트 중인 프로그램의 관련 입력 값을 결정합니다.
 
 IntelliTest는 [Z3](https://github.com/Z3Prover/z3/wiki) 제약 조건 해결기를 사용합니다.
 
-<a name="dynamic-code-coverage"></a>
 ## <a name="dynamic-code-coverage"></a>동적 코드 검사
 
 런타임 모니터링의 파생 작업으로 IntelliTest는 동적 코드 검사 데이터를 수집합니다.
@@ -63,12 +57,10 @@ IntelliTest는 실행된 코드만 인식하므로 이를 *동적*이라고 합�
 예를 들어 IntelliTest가 동적 검사를 5/10 기본 블록으로 보고할 경우 이것은 10개 중 5개 블록이 검사되었음을 의미합니다. 여기서 지금까지 분석을 통해 도달한 모든 메서드의 총 블록 수는 테스트 중인 어셈블리에 있는 모든 메서드와는 달리 10개입니다.
 분석이 진행되면서 도달 가능한 메서드가 더 많이 검색되면 분자(이 예제에서는 5) 및 분모(10)가 증가할 수 있습니다.
 
-<a name="integers-and-floats"></a>
 ## <a name="integers-and-floats"></a>정수 및 부동
 
 IntelliTest의 [제약 조건 해결기](#constraint-solver)는 테스트 및 테스트 중인 프로그램에 대한 서로 다른 실행 경로를 트리거하기 위해 **byte**, **int**, **float** 등과 같은 기본 형식의 테스트 입력 값을 결정합니다.
 
-<a name="objects"></a>
 ## <a name="objects"></a>개체
 
 IntelliTest에서 [기존 .NET 클래스의 인스턴스를 만들](#existing-classes)거나 IntelliTest를 사용하여 특정 인터페이스를 구현하고 사용법에 따라 다양한 방식으로 동작하는 [모의 개체를 자동으로 만들](#parameterized-mocks) 수 있습니다.
@@ -85,10 +77,9 @@ IntelliTest는 테스트 및 테스트 중인 프로그램 실행 시 실행된 
 
 형식이 표시 가능하지 않거나 필드가 [표시 가능](#visibility)하지 않으면 IntelliTest는 최대 코드 검사를 수행하기 위해 개체를 만들고 흥미로운 상태로 전환하기 위한 지원이 필요합니다. IntelliTest는 리플렉션을 사용하여 자의적인 방식으로 인스턴스를 만들고 초기화할 수 있지만 정상적인 프로그램 실행 중에는 절대 가능하지 않은 상태로 개체가 전환될 수 있으므로 일반적으로 바람직하지 않은 방법입니다. 대신에 IntelliTest는 사용자의 힌트에 의존합니다.
 
-<a name="visibility"></a>
 ## <a name="visibility"></a>표시 유형
 
-.NET Framework에는 정교한 표시 유형 모델이 있습니다. 형식, 메서드, 필드 및 기타 멤버는 **private**, **public**, **internal** 등이 될 수 있습니다.
+.NET에는 정교한 표시 유형 모델이 있습니다. 형식, 메서드, 필드 및 기타 멤버는 **private**, **public**, **internal** 등이 될 수 있습니다.
 
 IntelliTest는 테스트를 생성할 때 생성된 테스트의 컨텍스트 내에서 .NET 표시 유형 규칙을 준수하는 작업(예: 생성자, 메서드 호출 및 필드 설정)만 수행하려고 합니다.
 
@@ -105,7 +96,6 @@ IntelliTest는 테스트를 생성할 때 생성된 테스트의 컨텍스트 �
 * **public 멤버 표시 유형**
   * IntelliTest는 [PexClass](attribute-glossary.md#pexclass)의 컨텍스트에서 표시 가능한 모든 내보낸 멤버를 사용할 수 있다고 가정합니다.
 
-<a name="parameterized-mocks"></a>
 ## <a name="parameterized-mocks"></a>매개 변수가 있는 모의 개체
 
 인터페이스 형식의 매개 변수가 있는 메서드는 어떻게 테스트하나요? 또는 봉인되지 않은 클래스의 경우는 어떤가요? IntelliTest는 이 메서드가 호출될 때 나중에 사용되는 구현을 인식하지 못합니다. 또한 테스트 시간에 사용할 수 있는 실제 구현이 없을 수도 있습니다.
@@ -123,12 +113,10 @@ IntelliTest는 테스트를 생성할 때 생성된 테스트의 컨텍스트 �
 
 [PexChoose](static-helper-classes.md#pexchoose)를 사용하여 매개 변수가 있는 모의 개체의 값을 얻습니다.
 
-<a name="structs"></a>
 ## <a name="structs"></a>구조체
 
 IntelliTest의 **struct** 값 지각 기능은 [개체](#objects)를 처리하는 방법과 비슷합니다.
 
-<a name="arrays-and-strings"></a>
 ## <a name="arrays-and-strings"></a>배열 및 문자열
 
 IntelliTest는 테스트 및 테스트 중인 프로그램 실행 시 실행된 명령을 모니터링합니다. 특히 프로그램이 문자열 또는 배열의 길이와 다차원 배열의 하한 및 최소 길이를 사용하는 경우를 관찰합니다.
@@ -141,11 +129,10 @@ IntelliTest는 흥미로운 프로그램 동작을 트리거하는 데 필요한
 
 [PexChoose](static-helper-classes.md#pexchoose) 정적 클래스는 테스트에 대한 추가 입력을 가져오고 [매개 변수가 있는 모의 개체](#parameterized-mocks)를 구현하는 데 사용될 수 있습니다.
 
-<a name="further-reading"></a>
-## <a name="further-reading"></a>추가 정보
-
-* [How does it work?](https://devblogs.microsoft.com/devops/smart-unit-tests-a-mental-model/)(작동 방식)
-
 ## <a name="got-feedback"></a>피드백이 있으신가요?
 
 아이디어와 기능 요청을 [개발자 커뮤니티](https://developercommunity.visualstudio.com/content/idea/post.html?space=8)에 게시하세요.
+
+## <a name="further-reading"></a>추가 정보
+
+* [How does it work?](https://devblogs.microsoft.com/devops/smart-unit-tests-a-mental-model/)(작동 방식)

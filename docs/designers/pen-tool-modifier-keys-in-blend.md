@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b43aa4dcb754b2df67b58b09ab3a9920c552acdf
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3f2aa8515dbe444ea3968714400b751d661b2a81
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62844918"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820451"
 ---
 # <a name="pen-tool-modifier-keys-in-blend"></a>Blend의 펜 도구 보조 키
 다음 표에는 **펜** 도구 ![펜 도구](../designers/media/d514358f-185a-412f-a55d-36633b25dc8a.png)를 사용하여 패스를 만드는 동안 패스를 수정하는 데 사용할 수 있는 바로 가기가 나와 있습니다. **펜** 도구를 사용하여 기존 패스에서 점을 추가 또는 제거하거나 두 개의 기존 패스를 연결할 수 있습니다.
@@ -27,8 +27,8 @@ ms.locfileid: "62844918"
 |탄젠트 끝점을 새 점 주변에서 15도씩 늘려가며 이동|클릭하여 새 점을 만든 다음, 마우스 단추에서 손을 떼기 전에 **Shift**+**Alt** 키를 누른 채로 끕니다.|![탄젠트 끝점을 새 점 주변에서 15도씩 늘려가며 이동](../designers/media/317e5475-b70c-489f-9477-110a98639ade.png)<br /><br /> 펜 조정 포인터|
 |끝점의 탄젠트 길이를 0으로 줄이기|끝점을 클릭합니다.|![끝점의 탄젠트 길이를 0으로 줄이기](../designers/media/317e5475-b70c-489f-9477-110a98639ade.png)<br /><br /> 펜 조정 포인터|
 |기존 패스에 새 점 추가|새 점을 만들 위치의 패스를 클릭합니다.|![기존 패스에 새 점 추가](../designers/media/b004ad5a-33a4-46ae-81c0-20be0d819332.png)<br /><br /> 펜 삽입 포인터|
-|패스에서 점 제거|기존 점 위를 마우스로 가리키고 클릭합니다.|![](../designers/media/08a64b78-f3df-4730-8169-c56b5631b071.png)<br /><br /> 펜 삭제 포인터|
-|날카로운 모퉁이가 있는 패스 닫기|시작점을 클릭합니다.|![패스에서 점 제거](../designers/media/a12fd3b4-a553-4762-b01c-c35efa594362.png)<br /><br /> 펜 닫기 포인터|
+|패스에서 점 제거|기존 점 위를 마우스로 가리키고 클릭합니다.|![경로에서 점 제거](../designers/media/08a64b78-f3df-4730-8169-c56b5631b071.png)<br /><br /> 펜 삭제 포인터|
+|날카로운 모퉁이가 있는 패스 닫기|시작점을 클릭합니다.|![날카로운 모퉁이가 있는 패스 닫기](../designers/media/a12fd3b4-a553-4762-b01c-c35efa594362.png)<br /><br /> 펜 닫기 포인터|
 |모퉁이에서 부드러운 곡선이 있는 패스 닫기|시작점을 클릭하고 마우스 단추를 손에서 떼기 전에 탄젠트 핸들을 끌어서 수정합니다.|![모퉁이에서 부드러운 곡선이 있는 패스 닫기](../designers/media/a12fd3b4-a553-4762-b01c-c35efa594362.png)<br /><br /> 펜 닫기 포인터|
 |두 개의 패스를 연결할 때 날카로운 모퉁이 만들기|두 개의 경로를 선택하고 **펜** 도구를 클릭하고 패스 중 하나의 끝점을 클릭한 후 다른 패스의 끝점을 클릭합니다.|![두 개의 패스를 연결할 때 날카로운 모퉁이 만들기](../designers/media/bd12dfa4-112e-4f37-9765-3479e6b69894.png)<br /><br /> 펜 연결 포인터|
 |두 개의 패스를 연결할 때 부드러운 모퉁이 만들기|두 개의 경로를 선택하고 **펜** 도구를 클릭하고 패스 중 하나의 끝점을 클릭한 후 다른 패스의 끝점을 끕니다.|![두 개의 패스를 연결할 때 부드러운 모퉁이 만들기](../designers/media/bd12dfa4-112e-4f37-9765-3479e6b69894.png)<br /><br /> 펜 연결 포인터|

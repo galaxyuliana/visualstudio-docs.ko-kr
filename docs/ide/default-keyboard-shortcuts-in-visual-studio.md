@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 55e035ab0c3702c571b69b555d99adbf7cb0b7e9
-ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
+ms.openlocfilehash: 13463f38b963ff29ed6fc57fba3eac7865da70ba
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66501180"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820932"
 ---
 # <a name="default-keyboard-shortcuts-in-visual-studio"></a>Visual Studio의 기본 바로 가기 키
 
@@ -59,6 +59,7 @@ ms.locfileid: "66501180"
 
 |명령|바로 가기 키|
 |--------------| - |
+|빌드.선택 영역 빌드|**Ctrl+B**(Visual Studio 2019)|
 |빌드.솔루션빌드|**Ctrl+Shift+B**|
 |빌드.취소|**Ctrl+Break**|
 |빌드.컴파일|**Ctrl+F7**|
@@ -77,7 +78,6 @@ ms.locfileid: "66501180"
 |디버그.코드변경내용적용|**Alt+F10**|
 |디버그.자동|**Ctrl+Alt+V, A**|
 |디버그.모두중단|**Ctrl+Alt+Break**|
-|디버그.함수에서중단|**Ctrl+B**|
 |디버그.중단점|**Ctrl+Alt+B**|
 |디버그.호출스택|**Ctrl+Alt+C**|
 |디버그.모든중단점삭제|**Ctrl+Shift+F9**|
@@ -86,6 +86,7 @@ ms.locfileid: "66501180"
 |Debug.DOMExplorer|**Ctrl+Alt+V, D**|
 |디버그.중단점설정|**Ctrl+F9**|
 |디버그.예외|**Ctrl+Alt+E**|
+|Debug.FunctionBreakpoint|**Ctrl+K, B**(Visual Studio 2019)<br />**Ctrl**+**B**(Visual Studio 2017)|
 |Debug.GoToPreviousCallorIntelliTraceEvent|**Ctrl+Shift+F11**|
 |Debug.Graphics.StartDiagnostics|**Alt+F5**|
 |디버그.직접실행|**Ctrl+Alt+I**|
@@ -109,7 +110,7 @@ ms.locfileid: "66501180"
 |Debug.ParallelWatch3|**Ctrl+Shift+D, 3**|
 |Debug.ParallelWatch4|**Ctrl+Shift+D, 4**|
 |디버그.프로세스|**Ctrl+Alt+Z**|
-|디버그.간략한조사식|**Shift+F9**<br /><br /> 또는<br /><br /> **Ctrl+Alt+Q**|
+|디버그.간략한조사식|**Shift+F9** 또는 **Ctrl+Alt+Q**|
 |디버그.Windows응용프로그램새로고침|**Ctrl+Shift+R**|
 |디버그.레지스터|**Ctrl+Alt+G**|
 |디버그.다시시작|**Ctrl+Shift+F5**|

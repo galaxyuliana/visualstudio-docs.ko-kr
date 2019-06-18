@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 955968137e1f8d2ba1322f5ccf9be2eac6196580
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b606cbc3857ac1b30713e2c78b9c85045bcb42ff
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62845824"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820392"
 ---
 # <a name="direct-selection-tool-modifier-keys-in-blend"></a>Blend의 직접 선택 도구 보조 키
 다음 표에는 **직접 선택** 도구 ![직접 선택 도구](../designers/media/6dd6571f-c116-451d-8dd2-1f88b8406362.png)를 사용하여 기존 경로의 모양을 수정하는 데 사용할 수 있는 바로 가기가 나와 있습니다. 기존 패스에서 점을 추가 또는 제거하거나 두 개의 기존 패스를 조인하려면 **펜** 도구를 사용합니다.
@@ -24,7 +24,7 @@ ms.locfileid: "62845824"
 |패스의 점을 이동합니다.|패스의 점을 끕니다.|![패스의 점을 이동합니다.](../designers/media/cfcc5f41-a666-4524-a958-50b9051130ca.png)<br /><br /> 점 이동 포인터|
 |패스의 두 점 간 세그먼트에 대해 탄젠트 핸들 표시|패스의 세그먼트를 클릭합니다.|![패스의 두 점 간 세그먼트에 대해 탄젠트 핸들 표시](../designers/media/2ace930f-98fa-410b-92cf-7a4b88503ee7.png)<br /><br /> 세그먼트 이동 포인터|
 |패스의 두 점 간 세그먼트를 이동합니다.|패스의 세그먼트를 끕니다.|![패스의 두 점 간 세그먼트를 이동합니다.](../designers/media/2ace930f-98fa-410b-92cf-7a4b88503ee7.png)<br /><br /> 세그먼트 이동 포인터|
-|패스의 점에 대해 탄젠트 각도 변경|패스의 점 또는 세그먼트를 클릭하여 탄젠트 핸들을 표시한 후 탄젠트 끝점 중 하나를 끕니다.|![](../designers/media/beb1a907-1e50-450c-aab3-4d7026f5e426.png)<br /><br /> 탄젠트 이동 포인터|
+|패스의 점에 대해 탄젠트 각도 변경|패스의 점 또는 세그먼트를 클릭하여 탄젠트 핸들을 표시한 후 탄젠트 끝점 중 하나를 끕니다.|![경로의 점에 대한 탄젠트 각도 변경](../designers/media/beb1a907-1e50-450c-aab3-4d7026f5e426.png)<br /><br /> 탄젠트 이동 포인터|
 |점을 날카로운 모서리로 만들거나 탄젠트를 0으로 줄이기|마우스로 점 위를 가리킨 다음, **Alt**를 누른 채 점을 클릭합니다.|![점을 날카로운 모서리로 만들거나 탄젠트를 0으로 줄이기](../designers/media/21197b10-aba4-4a9d-8145-647d0ba8e518.png)<br /><br /> 점 변환 포인터|
 |날카로운 모퉁이를 부드럽게(또는 이미 부드러운 경우 클릭한 점을 통과할 때 곡선의 각도 변경)|마우스로 점 위를 가리킨 다음, **Alt**를 누른 채 점을 끕니다.|![날카로운 모서리를 부드럽게 만들기](../designers/media/21197b10-aba4-4a9d-8145-647d0ba8e518.png)<br /><br /> 점 변환 포인터|
 |곡선 세그먼트를 직선으로 변경|마우스로 패스의 세그먼트 위를 가리킨 다음, **Alt**를 누른 채 세그먼트를 클릭합니다.|![곡선 세그먼트를 직선으로 변경](../designers/media/975a855a-8536-441f-97ed-2f1496e416bf.png)<br /><br /> 세그먼트 변환 포인터|

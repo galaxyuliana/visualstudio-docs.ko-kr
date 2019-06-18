@@ -9,12 +9,12 @@ ms.assetid: b87fb196-9973-4512-a924-088788def4ea
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1c884fd11c4c633164ed3283ca8d2830729e9250
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6bd73c643cdc01be07d56857f65d3fb34c6346e0
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62950161"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747577"
 ---
 # <a name="how-to-create-load-test-performance-reports-using-microsoft-excel"></a>방법: Microsoft Excel을 사용하여 부하 테스트 성능 보고서 만들기
 
@@ -144,7 +144,7 @@ ms.locfileid: "62950161"
    > [!TIP]
    > 보다 유용한 보고서를 만들기 위해 부하 테스트 및 웹 성능 테스트에서 다양한 보고서를 생성할 수 있도록 몇 가지 속성을 사용할 수 있습니다. 페이지 요청에는 보고서에 표시되는 두 가지 속성이 있습니다. 목표 및 보고 이름. 페이지 응답 시간이 목표에 대해 보고되고 보고 이름은 보고서에서 URL 대신 사용됩니다. 부하 테스트 실행 설정의 카운터 집합 관리에서 컴퓨터 태그 속성이 보고서 컴퓨터 이름에 포함됩니다. 이는 보고서에서 특정 컴퓨터의 역할을 설명하는 데 매우 유용합니다.
 
-## <a name="net-framework-security"></a>.NET Framework 보안
+## <a name="net-security"></a>.NET 보안
 
 부하 테스트 결과 및 보고서에는 컴퓨터 또는 네트워크에 대한 공격을 생성하는 데 사용될 수 있는 중요한 정보가 포함되어 있습니다. 또한 부하 테스트 결과 및 보고서에는 컴퓨터 이름과 연결 문자열이 포함되어 있습니다. 따라서 부하 테스트 보고서를 다른 사용자와 공유하는 경우 이 점을 유의해야 합니다.
 

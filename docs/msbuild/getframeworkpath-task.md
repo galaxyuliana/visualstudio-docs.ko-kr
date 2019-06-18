@@ -18,15 +18,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b836a0fef26f34e83f7238ebe4f6c64731b84257
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0d7bf2432e37278c924d1604e735feec7b848b01
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62977671"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747550"
 ---
 # <a name="getframeworkpath-task"></a>GetFrameworkPath 작업
-[!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 어셈블리에 대한 경로를 검색합니다.
+.NET Framework 어셈블리에 대한 경로를 검색합니다.
 
 ## <a name="task-parameters"></a>작업 매개 변수
 다음 표에서는 `GetFrameworkPath` 작업의 매개 변수에 대해 설명합니다.
@@ -41,12 +41,12 @@ ms.locfileid: "62977671"
 |`Path`|선택적 `String` 출력 매개 변수입니다.<br /><br /> 사용 가능한 경우 최신 프레임워크 어셈블리에 대한 경로를 포함합니다. 그렇지 않으면 `null`를 반환합니다.|
 
 ## <a name="remarks"></a>주의
-여러 버전의 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]를 설치한 경우 이 작업은 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]를 실행하도록 설계한 버전을 반환합니다.
+여러 버전의 .NET Framework를 설치한 경우 이 작업은 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]를 실행하도록 설계한 버전을 반환합니다.
 
 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
 
 ## <a name="example"></a>예제
-다음 예제에서는 `GetFrameworkPath` 작업을 사용하여 `FrameworkPath` 속성에서 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]에 대한 경로를 저장합니다.
+다음 예제에서는 `GetFrameworkPath` 작업을 사용하여 `FrameworkPath` 속성에서 .NET Framework에 대한 경로를 저장합니다.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">

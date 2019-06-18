@@ -11,22 +11,22 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: d9c62e430d19bbd2c03afbb4db76fca56563cb3c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f0179be3aa5ca55eef0854cc68a7e1287ac284f1
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62996313"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746420"
 ---
 # <a name="how-to-specify-the-net-framework-runtime"></a>방법: .NET Framework 런타임 지정
 
-[!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] 릴리스에서는 다양한 버전의 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 런타임을 사용하여 빌드된 모듈로 애플리케이션을 구성할 수 있습니다. 기본적으로 Visual Studio 프로파일링 도구는 애플리케이션이 로드한 첫 번째 런타임을 프로파일링합니다. 프로파일러를 사용하여 애플리케이션을 시작할 때, 그리고 프로파일러를 이미 실행 중인 애플리케이션에 연결할 때 프로파일링할 런타임을 지정할 수 있습니다.
+.NET Framework 4 릴리스에서는 다양한 버전의 .NET Framework 런타임을 사용하여 빌드된 모듈로 애플리케이션을 구성할 수 있습니다. 기본적으로 Visual Studio 프로파일링 도구는 애플리케이션이 로드한 첫 번째 런타임을 프로파일링합니다. 프로파일러를 사용하여 애플리케이션을 시작할 때, 그리고 프로파일러를 이미 실행 중인 애플리케이션에 연결할 때 프로파일링할 런타임을 지정할 수 있습니다.
 
 ## <a name="to-specify-the-net-framework-run-time-to-profile-when-starting-an-application-with-the-profiler"></a>프로파일러를 사용하여 애플리케이션을 시작할 때 프로파일링할 .NET Framework 런타임을 지정하려면
 
 1. **성능 탐색기**에서 성능 세션을 마우스 오른쪽 단추로 클릭한 다음 **속성**, **고급**을 차례로 클릭합니다.
 
-     **대상 CLR 버전** 목록 상자에는 **자동** 및 컴퓨터에 설치된 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 런타임 버전이 표시됩니다.
+     **대상 CLR 버전** 목록 상자에는 **자동** 및 컴퓨터에 설치된 .NET Framework 런타임 버전이 표시됩니다.
 
 2. 다음 단계 중 하나를 수행합니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "62996313"
 
 2. **프로세스에 프로파일러 연결** 대화 상자에서 프로파일링할 프로세스를 클릭합니다.
 
-     **대상 CLR 버전** 목록 상자에는 **자동** 및 컴퓨터에 설치된 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 런타임 버전이 표시됩니다.
+     **대상 CLR 버전** 목록 상자에는 **자동** 및 컴퓨터에 설치된 .NET Framework 런타임 버전이 표시됩니다.
 
 3. 다음 단계 중 하나를 수행합니다.
 

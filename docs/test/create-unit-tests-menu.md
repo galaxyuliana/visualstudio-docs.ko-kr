@@ -9,19 +9,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e7eb72f104560991f1bb191e62641041879df071
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: aba0edbabdac6eb0e0c391371b51151a5be1ecba
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965479"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745794"
 ---
 # <a name="create-unit-test-method-stubs-with-the-create-unit-tests-command"></a>단위 테스트 만들기 명령을 사용하여 단위 테스트 메서드 스텁 만들기
 
 **단위 테스트 만들기** 명령을 사용하면 단위 테스트 메서드 스텁이 생성됩니다. 이 기능을 사용하여 테스트 프로젝트, 테스트 클래스 및 클래스 내 테스트 메서드 스텁을 쉽게 구성할 수 있습니다.
 
 > [!NOTE]
-> **단위 테스트 만들기** 메뉴 명령은 .NET Framework(하지만.NET Core 아님)를 대상으로 하는 관리 코드에서만 사용할 수 있습니다.
+> **단위 테스트 만들기** 메뉴 명령은 .NET Framework(하지만 .NET Core 아님)를 대상으로 하는 관리 코드에서만 사용할 수 있습니다.
 
 **단위 테스트 만들기** 메뉴 명령은 확장 가능하며 MSTest, MSTest V2, NUnit 및 xUnit에 대한 테스트를 생성하는 데 사용할 수 있습니다.
 

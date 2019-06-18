@@ -7,16 +7,16 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 5030498702808dc9d41a5daa12520893c3de2627
-ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
+ms.openlocfilehash: f7d4da645c464e51bd331bca64066209b52132fe
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "65531996"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746566"
 ---
 # <a name="configure-unit-tests-by-using-a-runsettings-file"></a>*.runsettings* 파일을 사용하여 단위 테스트 구성
 
-*.runsettings* 파일을 사용하여 Visual Studio의 단위 테스트를 구성할 수 있습니다. 예를 들어, 테스트가 실행되는 .NET Framework 버전, 테스트 결과 디렉터리 또는 테스트 실행 중에 수집되는 데이터를 변경할 수 있습니다.
+*.runsettings* 파일을 사용하여 Visual Studio의 단위 테스트를 구성할 수 있습니다. 예를 들어, 테스트가 실행되는 .NET 버전, 테스트 결과 디렉터리 또는 테스트 실행 중에 수집되는 데이터를 변경할 수 있습니다.
 
 실행 설정 파일은 선택 사항입니다. 특별한 구성이 필요하지 않으면 *.runsettings* 파일이 필요하지 않습니다. *.runsettings* 파일은 [코드 검사 분석](../test/customizing-code-coverage-analysis.md)을 사용자 지정할 때 가장 자주 사용됩니다.
 

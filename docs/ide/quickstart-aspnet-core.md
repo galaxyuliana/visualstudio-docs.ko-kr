@@ -2,7 +2,7 @@
 title: C#에서 ASP.NET Core 웹앱 만들기
 description: C# 및 ASP.NET Core를 사용하여 단계별로 Visual Studio에서 간단한 Hello World 웹앱을 만드는 방법을 알아봅니다.
 ms.custom: mvc,seodec18
-ms.date: 03/23/2019
+ms.date: 06/06/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: quickstart
@@ -14,12 +14,12 @@ dev_langs:
 ms.workload:
 - aspnet
 - dotnetcore
-ms.openlocfilehash: ea01ff2671212c8dfeb023d145cfd224a5feb2f8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0e701fd45230295222ffc6e17c05052e01b47189
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62954755"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745043"
 ---
 # <a name="quickstart-use-visual-studio-to-create-your-first-aspnet-core-web-app"></a>빠른 시작: Visual Studio를 사용하여 첫 번째 ASP.NET Core 웹앱 만들기
 
@@ -75,7 +75,7 @@ ms.locfileid: "62954755"
    ![새 ASP.NET Core 웹 애플리케이션 대화 상자](../ide/media/aspnet-core-2dot1.png)
 
    > [!NOTE]
-   > **ASP.NET Core 2.1** 이상을 볼 수 없는 경우 Visual Studio의 최신 릴리스를 실행하고 있는지 확인합니다. 설치를 업데이트하는 방법에 대한 자세한 내용은 [Visual Studio를 최신 릴리스로 업데이트](../install/update-visual-studio.md) 페이지를 참조하세요.
+   > **ASP.NET Core 2.1**이 보이지 않을 경우 Visual Studio의 최신 릴리스를 실행하고 있는지 확인합니다. 설치를 업데이트하는 방법에 대한 자세한 내용은 [Visual Studio를 최신 릴리스로 업데이트](../install/update-visual-studio.md) 페이지를 참조하세요.
 
 곧 Visual Studio에서 프로젝트 파일이 열립니다.
 
@@ -110,7 +110,7 @@ ms.locfileid: "62954755"
 
    !['새 프로젝트 구성' 창에서 프로젝트의 이름을 'HelloWorld'로 지정합니다.](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
 
-1. **새 ASP.NET Core 웹 애플리케이션 만들기** 창의 위쪽 드롭다운 메뉴에 **ASP.NET Core 2.1** 이상이 표시되는지 확인합니다. 그런 다음, 예제 Razor Pages가 포함된 **웹 애플리케이션**을 선택합니다. 다음으로, **만들기**를 선택합니다.
+1. **새 ASP.NET Core 웹 애플리케이션 만들기** 창의 위쪽 드롭다운 메뉴에 **ASP.NET Core 2.1**이 표시되는지 확인합니다. 그런 다음, 예제 Razor Pages가 포함된 **웹 애플리케이션**을 선택합니다. 다음으로, **만들기**를 선택합니다.
 
    !['새 ASP.NET Core 웹 애플리케이션 만들기' 창](../get-started/csharp/media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
 
@@ -132,7 +132,7 @@ ms.locfileid: "62954755"
 
    ![Visual Studio 편집기의 추가 정보 영역에 대한 HTML 코드](../ide/media/csharp-aspnet-about-cshtml-page.png)
 
-1. “추가 정보” 텍스트를 “**Hello World!**”로 변경합니다.
+1. “추가 정보” 텍스트를 “**Hello World!** ”로 변경합니다.
 
    ![Visual Studio 편집기에서 추가 정보 영역의 기본 HTML 코드를 변경합니다.](../ide/media/csharp-aspnet-about-cshtml-page-hello-world.png)
 
@@ -144,7 +144,7 @@ ms.locfileid: "62954755"
 
    ![Visual Studio 편집기의 애플리케이션 설명 영역에 대한 C# 코드](../ide/media/csharp-aspnet-about-cshtml-cs-code.png)
 
-1. “애플리케이션 설명” 메시지 텍스트를 “**내 메시지란?**”으로 변경합니다.
+1. “애플리케이션 설명” 메시지 텍스트를 “**내 메시지란?** ”으로 변경합니다.
 
    ![Visual Studio 편집기에서 애플리케이션 설명 영역의 기본 메시지 텍스트 변경](../ide/media/csharp-aspnet-about-cshtml-cs-message.png)
 

@@ -9,14 +9,14 @@ ms.assetid: 1118c604-4b1b-4b21-a04e-45995b676fa8
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3287bef750f25f3eb0b816488779d42d4505d8b9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b8548fb33e5a4b9156701e12231324e3f59c88f2
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62950057"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747239"
 ---
-# <a name="how-to-create-a-visual-studio-add-in-for-the-web-performance-test-results-viewer"></a>방법: 웹 성능 테스트 결과 뷰어에 대한 Visual Studio 추가 기능 만들기
+# <a name="how-to-create-an-add-in-for-the-web-performance-test-results-viewer"></a>방법: 웹 성능 테스트 결과 뷰어에 대한 추가 기능 만들기
 
 다음 네임스페이스를 사용하여 **웹 성능 테스트 결과 뷰어**의 UI를 확장할 수 있습니다.
 
@@ -256,9 +256,9 @@ ms.locfileid: "62950057"
 
 1. **솔루션 탐색기**에서 WebPerfTestResultsViewerControl 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 
-2. **애플리케이션** 탭을 선택한 다음, **대상 프레임워크** 드롭다운 목록을 선택하고, **.NET Framework 4**를 선택하고, **속성**을 닫습니다.
+2. **애플리케이션** 탭을 선택한 다음, **대상 프레임워크** 드롭다운 목록을 선택하고, **.NET Framework 4**(또는 이상)를 선택합니다. **속성** 창을 닫습니다.
 
-     이 단계는 **웹 성능 테스트 결과 뷰어**를 확장하는 데 필요한 DLL 참조를 지원하는 데 필요합니다.
+   이 단계는 **웹 성능 테스트 결과 뷰어**를 확장하는 데 필요한 DLL 참조를 지원하는 데 필요합니다.
 
 3. **솔루션 탐색기**에서 WebPerfTestResultsViewerControl 프로젝트의 **참조** 노드를 마우스 오른쪽 단추로 클릭하고 **참조 추가**를 선택합니다.
 
@@ -300,15 +300,11 @@ ms.locfileid: "62950057"
             }
     ```
 
-## <a name="build-the-webperftestresultsvieweraddin-solution"></a>WebPerfTestResultsViewerAddin 솔루션 빌드
-
-### <a name="to-build-the-solution"></a>솔루션을 빌드하려면
+## <a name="build-the-solution"></a>솔루션 빌드
 
 - **빌드** 메뉴에서 **솔루션 빌드**를 선택합니다.
 
 ## <a name="register-the-webperftestresultsvieweraddin-add-in"></a>WebPerfTestResultsViewerAddin 추가 기능 등록
-
-### <a name="to-register-the-add-in-using-the-add-in-manager"></a>추가 기능 관리자를 사용하여 추가 기능을 등록하려면
 
 1. **도구** 메뉴에서 **추가 기능 관리자**를 선택합니다.
 
@@ -318,15 +314,13 @@ ms.locfileid: "62950057"
 
 4. **확인**을 선택합니다.
 
-## <a name="run-the-web-performance-test-using-the-build-the-webperftestresultsvieweraddin-add-in"></a>WebPerfTestResultsViewerAddin 빌드 추가 기능을 사용하여 웹 성능 테스트 실행
-
-### <a name="to-run-the-new-vs-add-in-for-the-web-test-results-viewer"></a>웹 테스트 결과 뷰어에 대해 새 VS 추가 기능을 실행하려면
+## <a name="run-the-web-performance-test-using-the-web-test-results-viewer"></a>웹 테스트 결과 뷰어를 사용하여 웹 성능 테스트 실행
 
 1. 웹 성능 테스트를 실행하면 **웹 성능 테스트 결과 뷰어**에 WebPerfTestResultsViewerAddin 추가 기능에 해당하는 새 탭이 샘플이라는 제목으로 표시됩니다.
 
 2. 이 탭을 선택하여 DataGridView에 표시된 속성을 확인합니다.
 
-## <a name="net-framework-security"></a>.NET Framework 보안
+## <a name="net-security"></a>.NET 보안
 
 악의적인 추가 기능이 자동으로 활성화되지 않도록 방지하고 보안을 강화하기 위해 Visual Studio에서는 **추가 기능/매크로 보안**이라는 설정을 **도구 옵션** 페이지에 제공합니다.
 

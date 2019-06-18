@@ -19,12 +19,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d93071aa62c4d2305b0104ec17e8242bacefa6d1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 38cde5c1500168dcb36021c530799d1d8d1effb9
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62994997"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745315"
 ---
 # <a name="profile-on-hpc-high-performance-computing-clusters"></a>HPC(고성능 컴퓨팅) 클러스터에서 프로파일링
 
@@ -36,9 +36,9 @@ HPC 컴퓨팅 노드에서 프로파일링하려면 다음을 수행해야 합�
 
 - Visual Studio와 같은 컴퓨터에 Microsoft HPC 팩 2008을 설치합니다. 컴퓨터는 HPC 클러스터의 일부분이 아니어도 됩니다. HPC 팩은 [Microsoft 다운로드 센터](http://go.microsoft.com/fwlink/?LinkID=177414)에서 설치할 수 있습니다.
 
-- [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] 및 독립 실행형 버전의 프로파일링 도구를 HPC 컴퓨팅 노드에 설치합니다. [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 및 독립 실행형 프로파일러의 설치 프로그램은 모두 Visual Studio 설치 미디어에 포함되어 있습니다. **참고**[!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]를 설치한 후 프로파일링 도구를 설치하기 전에 컴퓨팅을 다시 시작해야 합니다.
+- NET Framework 4 및 독립 실행형 버전의 프로파일링 도구를 HPC 컴퓨팅 노드에 설치합니다. .NET Framework 및 독립 실행형 프로파일러의 설치 프로그램은 모두 Visual Studio 설치 미디어에 포함되어 있습니다. **참고** .NET Framework를 설치한 후 프로파일링 도구를 설치하기 전에 컴퓨팅을 다시 시작해야 합니다.
 
-  활성 HPC 컴퓨팅 노드에 [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] 및 독립 실행형 프로파일링 도구를 설치하고 클러스터 컴퓨터에 대한 프로파일링을 활성화하려면 다음 단계를 수행합니다.
+  활성 HPC 컴퓨팅 노드에 .NET Framework 4 및 독립 실행형 프로파일링 도구를 설치하고 클러스터 컴퓨터에 대한 프로파일링을 활성화하려면 다음 단계를 수행합니다.
 
 1. HPC 팩과 함께 설치된 명령 프롬프트 창을 엽니다.
 
@@ -53,7 +53,7 @@ HPC 컴퓨팅 노드에서 프로파일링하려면 다음을 수행해야 합�
 | | |
 |------------------| - |
 | *%HeadNode%* | 클러스터의 헤드 노드 이름입니다. |
-| *%FxPath%* | [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] 설치 관리자의 경로입니다. Visual Studio 설치 미디어의 경로는 다음과 같습니다. WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe |
+| *%FxPath%* | .NET Framework 4 설치 관리자에 대한 경로입니다. Visual Studio 설치 미디어의 경로는 다음과 같습니다. WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe |
 | *%ProfilerPath%* | 프로파일링 도구 설치 관리자의 독립 실행형 버전 경로입니다. Visual Studio 설치 미디어의 경로는 다음과 같습니다. Standalone Profiler\x64\vs_profiler.exe |
 
 ## <a name="profile-on-an-hpc-compute-node"></a>HPC 컴퓨팅 노드에서 프로파일링
@@ -139,7 +139,7 @@ HPC 성능 마법사를 사용하여 HPC 클러스터 및 대상 정보를 지�
 |---------------------------------------| - |
 | **프로젝트 이름** | 현재 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] 프로젝트 또는 솔루션의 이름입니다. |
 | **프로파일러가 중지되면 정리** | true로 설정하면 실행 디렉터리에 배포된 이진 파일이 제거됩니다. 사용자 프로그램에서 만든 파일과 디렉터리는 이 단계에서 제거되지 않습니다. 실행 디렉터리와 배포 디렉터리를 IDE에서 만든 경우 IDE는 해당 디렉터리 제거를 시도하지만, IDE를 통해 배포되지 않은 파일이 포함되어 있는 경우에는 제거를 시도하지 않습니다. |
-| **배포할 추가 파일** | 컴퓨팅 노드에서 배포할 추가 파일의 세미콜론으로 구분된 목록을 지정합니다. 줄임표 단추(**...**)를 클릭하면 대화 상자를 통해 여러 파일을 선택할 수 있습니다. |
+| **배포할 추가 파일** | 컴퓨팅 노드에서 배포할 추가 파일의 세미콜론으로 구분된 목록을 지정합니다. 줄임표 단추( **...** )를 클릭하면 대화 상자를 통해 여러 파일을 선택할 수 있습니다. |
 | **Mpiexec 명령** | MPI 애플리케이션을 시작 하는 애플리케이션을 지정합니다. 기본값은 **mpiexec.exe**입니다. |
 | **Mpiexec 인수** | Mpiexec.exe 명령에 전달할 인수를 지정합니다. |
 | **클러스터에서 요청된 노드** | 애플리케이션을 실행할 클러스터의 노드 수를 지정합니다. |

@@ -21,12 +21,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d04e5703c96b710208cc1ecc79a169a458463497
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 57cbff868cfdedb45b1973908ddb250ad09ea19e
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62535586"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747046"
 ---
 # <a name="manage-references-in-a-project"></a>프로젝트에서 참조 관리
 
@@ -38,7 +38,7 @@ ms.locfileid: "62535586"
 
 다음 형식의 구성 요소 및 서비스에 대한 참조를 추가할 수 있습니다.
 
-- .NET Framework 클래스 라이브러리 또는 어셈블리
+- .NET 클래스 라이브러리 또는 어셈블리
 
 - UWP 앱
 
@@ -101,11 +101,11 @@ GAC에 등록되어 있는 사용자 지정 구성 요소에 대한 참조가 �
 
 어셈블리 또는 구성 요소를 전역 어셈블리 캐시 내에 있거나 프레임워크 구성 요소인 경우 기본적으로 <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> 속성은 **False** 입니다. 그렇지 않으면 이 속성의 값은 **True**로 설정됩니다. 프로젝트 간 참조는 항상 **True**로 설정됩니다.
 
-## <a name="reference-a-project-or-assembly-that-targets-a-different-version-of-the-net-framework"></a>다른 버전의 .NET Framework를 대상으로 하는 프로젝트 또는 어셈블리 참조
+## <a name="reference-a-project-or-assembly-that-targets-a-different-version-of-net"></a>다른 버전의 .NET을 대상으로 하는 프로젝트 또는 어셈블리 참조
 
-다른 .NET Framework 버전을 대상으로 하는 프로젝트나 어셈블리를 참조하는 애플리케이션을 만들 수 있습니다. 예를 들어 .NET Framework 4.5를 대상으로 하는 어셈블리를 참조하고 .NET Framework 4.6을 대상으로 하는 애플리케이션을 만들 수 있습니다. 이전 버전의 .NET Framework를 대상으로 하는 프로젝트를 만드는 경우 해당 프로젝트에서 새 버전을 대상으로 하는 프로젝트나 어셈블리에 대한 참조를 설정할 수 없습니다.
+다른 버전의 .NET을 대상으로 하는 프로젝트나 어셈블리를 참조하는 애플리케이션을 만들 수 있습니다. 예를 들어 .NET Framework 4.5를 대상으로 하는 어셈블리를 참조하고 .NET Framework 4.6을 대상으로 하는 애플리케이션을 만들 수 있습니다. 이전 버전의 .NET를 대상으로 하는 프로젝트를 만드는 경우 해당 프로젝트에서 새 버전을 대상으로 하는 프로젝트나 어셈블리에 대한 참조를 설정할 수 없습니다.
 
-자세한 내용은 [멀티 타기팅 개요](../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.
+자세한 내용은 [Framework 타기팅 개요](../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.
 
 ## <a name="project-to-project-references"></a>프로젝트 간 참조
 
