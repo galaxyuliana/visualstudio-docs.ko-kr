@@ -25,16 +25,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9e2ec8e3e51036749030036eee6ff1d268a44f69
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 685915d963e506d86c81a6bc4f7fc62998a0f7d9
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263076"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747706"
 ---
 # <a name="view-the-structure-of-code-using-different-tool-windows"></a>다른 도구 창을 사용하여 코드 구조 보기
 
-**클래스 뷰**, **호출 계층 구조**, **개체 브라우저** 및 **코드 정의**(C++에만 해당)를 포함하여 다양한 도구 창을 사용하여 Visual Studio에서 클래스 및 해당 멤버를 검사할 수 있습니다. 이러한 도구 창에서는 Visual Studio 프로젝트의 코드, .NET Framework 구성 요소, COM 구성 요소, DLL(동적 연결 라이브러리) 및 TLB(형식 라이브러리)를 검사할 수 있습니다.
+**클래스 뷰**, **호출 계층 구조**, **개체 브라우저** 및 **코드 정의**(C++에만 해당)를 포함하여 다양한 도구 창을 사용하여 Visual Studio에서 클래스 및 해당 멤버를 검사할 수 있습니다. 이러한 도구 창에서는 Visual Studio 프로젝트의 코드, .NET 구성 요소, COM 구성 요소, DLL(동적 연결 라이브러리) 및 TLB(형식 라이브러리)를 검사할 수 있습니다.
 
 또한 **솔루션 탐색기**를 사용하면 여러 도구 창 간에 전환하지 않고도 프로젝트의 형식 및 멤버를 찾아보고 기호를 검색하고 메서드의 호출 계층 구조를 확인하고 기호 참조를 찾는 등의 작업을 수행할 수 있습니다.
 

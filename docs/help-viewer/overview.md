@@ -19,16 +19,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ca207f06640d5ef2df02d966b733d3065c80fce6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c79b685382eff3e6ca5a37fa9fb087136595dc76
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62975684"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746951"
 ---
 # <a name="microsoft-help-viewer"></a>Microsoft 도움말 뷰어
 
-Microsoft 도움말 뷰어를 사용하여 로컬 컴퓨터에서 다양한 제품 및 기술에 대한 콘텐츠를 설치하고 볼 수 있습니다. 이러한 제품에는 Visual Studio, .NET Framework, 언어 참조, SQL Server 및 Windows 개발이 포함됩니다. 도움말 뷰어를 통해 다음을 수행할 수 있습니다.
+Microsoft 도움말 뷰어를 사용하여 로컬 컴퓨터에서 다양한 제품 및 기술에 대한 콘텐츠를 설치하고 볼 수 있습니다. 이러한 제품에는 Visual Studio, .NET, 언어 참조, SQL Server 및 Windows 개발이 포함됩니다. 도움말 뷰어를 통해 다음을 수행할 수 있습니다.
 
 - 책이라고도 하는 콘텐츠의 집합을 다운로드합니다. 이 기능은 "오프 라인"으로 작업하고 계속 설명서에 액세스를 할 수 있는 경우 유용할 수 있습니다.
 

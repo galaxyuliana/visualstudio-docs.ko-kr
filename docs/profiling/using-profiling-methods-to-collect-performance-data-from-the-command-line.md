@@ -8,15 +8,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3c0472fb572aab8559d8cbb571c044f9ef25f8ed
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 5b5f2c1d350f487b6490d0c2b4ce4fe0b83bb38f
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263819"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746774"
 ---
 # <a name="use-profiling-methods-to-collect-performance-data-from-the-command-line"></a>명령줄에서 프로파일링 방법을 사용하여 성능 데이터 수집
-프로파일링하는 애플리케이션의 유형, 사용하려는 프로파일링 방법, 그리고 대상 애플리케이션이 네이티브 코드로 작성되었는지 아니면 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 코드로 작성되었는지에 따라 선택하는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구 및 옵션이 달라집니다.
+프로파일링하는 애플리케이션의 유형, 사용하려는 프로파일링 방법, 그리고 대상 애플리케이션이 네이티브 코드로 작성되었는지 아니면 .NET Framework 코드로 작성되었는지에 따라 선택하는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로파일링 도구 명령줄 도구 및 옵션이 달라집니다.
 
  이 항목에서 명령줄 절차 항목은 사용자가 선택하는 프로파일링 방법에 따라 구성되어 있습니다.
 
@@ -50,9 +50,9 @@ ms.locfileid: "66263819"
 - [기본 서비스](../profiling/how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md)
 
 ## <a name="use-net-memory-methods-to-collect-memory-allocation-and-object-lifetime-data"></a>.NET 메모리 방법을 사용하여 메모리 할당 및 개체 수명 데이터 수집
- 프로파일링 도구의 .NET 메모리 방법을 사용하면 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]의 개체 수명에 대한 정보 및 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 메모리 할당 데이터를 수집할 수 있습니다.
+ 프로파일링 도구의 .NET 메모리 방법을 사용하면 .NET Framework의 개체 수명에 대한 정보 및 .NET 메모리 할당 데이터를 수집할 수 있습니다.
 
- 프로파일러를 사용하여 대상 애플리케이션을 시작할 수 있고, 애플리케이션의 실행 중인 인스턴스에 프로파일러를 연결할 수 있으며, 애플리케이션의 계측된 버전을 만들어 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 메모리 데이터와 함께 상세한 타이밍 정보를 수집할 수 있습니다.
+ 프로파일러를 사용하여 대상 애플리케이션을 시작할 수 있고, 애플리케이션의 실행 중인 인스턴스에 프로파일러를 연결할 수 있으며, 애플리케이션의 계측된 버전을 만들어 .NET Framework 메모리 데이터와 함께 상세한 타이밍 정보를 수집할 수 있습니다.
 
 |작업|대상 애플리케이션 유형|
 |----------|-----------------------------|

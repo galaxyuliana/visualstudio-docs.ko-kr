@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2ef02735ab10d6223e9098a4fa03312507d961cb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 400686710e09c19a806493232d471a1c946a630d
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62843930"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715074"
 ---
 # <a name="wpf-data-binding-with-linq-to-xml-overview"></a>LINQ to XML로 WPF 데이터 바인딩 개요
 
@@ -21,7 +21,7 @@ ms.locfileid: "62843930"
 
 ## <a name="xaml-and-linq-to-xml"></a>XAML 및 LINQ to XML
 
-XAML(eXtensible Application Markup Language)은 .NET Framework 3.0 기술을 지원하기 위해 Microsoft에서 만드는 XML 언어입니다. XAML은 사용자 인터페이스 요소와 이벤트 및 데이터 바인딩과 같은 관련 기능을 나타내기 위해 WPF에서 사용됩니다. Windows Workflow Foundation에서 XAML은 프로그램 제어(*워크플로*)와 같은 프로그램 구조를 나타내는 데 사용됩니다. XAML을 통해 프로그램의 더욱 개별화된 동작을 정의하는 기술의 선언적 측면을 관련 절차형 코드에서 분리할 수 있습니다.
+XAML(Extensible Application Markup Language)은 .NET 기술을 지원하기 위해 Microsoft에서 만드는 XML 언어입니다. XAML은 사용자 인터페이스 요소와 이벤트 및 데이터 바인딩과 같은 관련 기능을 나타내기 위해 WPF에서 사용됩니다. Windows Workflow Foundation에서 XAML은 프로그램 제어(*워크플로*)와 같은 프로그램 구조를 나타내는 데 사용됩니다. XAML을 통해 프로그램의 더욱 개별화된 동작을 정의하는 기술의 선언적 측면을 관련 절차형 코드에서 분리할 수 있습니다.
 
 XAML과 LINQ to XML은 다음 두 가지 주요 방식으로 상호 작용할 수 있습니다.
 

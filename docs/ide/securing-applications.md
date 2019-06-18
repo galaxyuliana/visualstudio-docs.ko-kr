@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6398a28394c8918d574a3b3eca4cf54b21f3d7bd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2c5b0f4c748cd923ca02cb16ba374747c20d12d7
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62979538"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747664"
 ---
 # <a name="secure-applications"></a>보안 애플리케이션
 
@@ -40,7 +40,7 @@ ms.locfileid: "62979538"
 
 ## <a name="see-also"></a>참고 항목
 
-- [.NET Framework의 보안](/dotnet/standard/security/index)
+- [.NET의 보안](/dotnet/standard/security/index)
 - [Azure 보안](/azure/security/)
 - [Windows 10 Mobile 보안 가이드](/windows/security/threat-protection/windows-10-mobile-security-guide)
 - [Apache Cordova 플랫폼 보안 기능](/visualstudio/cross-platform/tools-for-cordova/security/best-practices?view=toolsforcordova-2017)

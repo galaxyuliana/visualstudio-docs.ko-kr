@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 45a88ccb599ce709cae5e58b4fd2678b34706362
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f8866b4a2518c8c4d58f26b625e45a0188498021
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62969118"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746522"
 ---
 # <a name="output-window"></a>출력 창
 
@@ -65,9 +65,9 @@ ms.locfileid: "62969118"
 
 [명령 창](../../ide/reference/command-window.md)에서 호출된 특정 IDE 기능 및 명령은 해당 출력을 **출력** 창으로 전달합니다. [외부 도구 관리](../../ide/managing-external-tools.md)에서 **출력 창 사용** 옵션을 선택하면 일반적으로 명령 창에 표시되는 *.bat* 및 *.com* 파일과 같은 외부 도구의 출력이 **출력** 창으로 라우팅됩니다. 다른 종류의 메시지는 대부분 **출력** 창에도 표시될 수 있습니다. 예를 들어 저장 프로시저의 Transact-SQL 구문이 대상 데이터베이스에 대해 확인되면 결과는 **출력** 창에 표시됩니다.
 
-런타임에 진단 메시지를 **출력** 창에 쓰도록 자체 애플리케이션을 프로그래밍할 수도 있습니다. 이렇게 하려면 .NET Framework 클래스 라이브러리의 <xref:System.Diagnostics> 네임스페이스에서 <xref:System.Diagnostics.Debug> 클래스 또는 <xref:System.Diagnostics.Trace> 클래스의 멤버를 사용합니다. <xref:System.Diagnostics.Debug> 클래스의 멤버는 솔루션 또는 프로젝트의 디버그 구성을 빌드할 때 출력을 표시하고, <xref:System.Diagnostics.Trace> 클래스의 멤버는 디버그 또는 릴리스 구성을 빌드할 때 출력을 표시합니다. 자세한 내용은 [출력 창에 표시되는 진단 메시지](../../debugger/diagnostic-messages-in-the-output-window.md)를 참조하세요.
+런타임에 진단 메시지를 **출력** 창에 쓰도록 자체 애플리케이션을 프로그래밍할 수도 있습니다. 이렇게 하려면 .NET API의 <xref:System.Diagnostics> 네임스페이스에서 <xref:System.Diagnostics.Debug> 클래스 또는 <xref:System.Diagnostics.Trace> 클래스의 멤버를 사용합니다. <xref:System.Diagnostics.Debug> 클래스의 멤버는 솔루션 또는 프로젝트의 디버그 구성을 빌드할 때 출력을 표시하고, <xref:System.Diagnostics.Trace> 클래스의 멤버는 디버그 또는 릴리스 구성을 빌드할 때 출력을 표시합니다. 자세한 내용은 [출력 창에 표시되는 진단 메시지](../../debugger/diagnostic-messages-in-the-output-window.md)를 참조하세요.
 
-C++에서 경고 및 오류가 **출력** 창에서 표시되고 계산되는 사용자 지정 빌드 단계 및 빌드 이벤트를 만들 수 있습니다. 출력 줄에서 **F1** 키를 눌러 해당 도움말 항목을 표시할 수 있습니다. 자세한 내용은 [사용자 지정 빌드 단계의 출력 형식 지정](/cpp/ide/formatting-the-output-of-a-custom-build-step-or-build-event)을 참조하세요.
+C++에서 경고 및 오류가 **출력** 창에서 표시되고 계산되는 사용자 지정 빌드 단계 및 빌드 이벤트를 만들 수 있습니다. 출력 줄에서 **F1** 키를 눌러 해당 도움말 항목을 표시할 수 있습니다. 자세한 내용은 [사용자 지정 빌드 단계의 출력 형식 지정](/cpp/build/reference/formatting-the-output-of-a-custom-build-step-or-build-event)을 참조하세요.
 
 ## <a name="scroll-behavior"></a>스크롤 동작
 

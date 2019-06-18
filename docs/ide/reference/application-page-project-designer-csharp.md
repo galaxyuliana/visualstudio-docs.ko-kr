@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 18527e9b45726dbd76f1e76f5d63976278800f6f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 91f811a169f9cffc9cf175b68a875c2999d3745d
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62791073"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744985"
 ---
 # <a name="application-page-project-designer-c"></a>프로젝트 디자이너, 애플리케이션 페이지(C#)
 
@@ -50,14 +50,18 @@ ms.locfileid: "62791073"
 
 **대상 프레임워크**
 
-애플리케이션의 대상 .NET Framework 버전을 지정합니다. 이 옵션은 컴퓨터에 설치된 .NET Framework 버전에 따라 다른 값을 가질 수 있습니다.
+애플리케이션의 대상 .NET 버전을 지정합니다. 이 옵션은 컴퓨터에 설치된 .NET 버전에 따라 다른 값을 가질 수 있습니다.
 
-기본적으로 이 값은 프로젝트를 만들 때 선택한 대상 프레임워크와 동일합니다.
+.NET Framework 프로젝트의 경우 기본값은 프로젝트를 만들 때 지정한 대상 프레임워크와 일치합니다.
+
+.NET Core를 대상으로 하는 프로젝트의 경우 사용 가능한 버전은 다음과 같이 나타날 수 있습니다.
+
+![.NET Core 프로젝트에 대한 프레임워크 버전 대상 지정](../media/application-target-framework.png)
 
 > [!NOTE]
 > 대화 상자를 처음 열면 [필수 조건 대화 상자](../../ide/reference/prerequisites-dialog-box.md)에 나열된 필수 조건 패키지가 자동으로 설정됩니다. 이후에 프로젝트의 대상 프레임워크를 변경하는 경우 새 대상 프레임워크에 맞도록 필수 구성 요소를 수동으로 선택해야 합니다.
 
-자세한 내용은 [방법: 대상 .NET Framework 버전 지정](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) 및 [Visual Studio 멀티 타기팅 개요](../../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.
+자세한 내용은 [방법: .NET Framework의 버전 대상 지정](../../ide/how-to-target-a-version-of-the-dotnet-framework.md) 및 [Visual Studio 멀티 타기팅 개요](../../ide/visual-studio-multi-targeting-overview.md)
 
 **출력 형식**
 
@@ -115,4 +119,4 @@ Windows Vista에서 UAC(사용자 계정 컨트롤)로 애플리케이션을 실
 
 프로젝트에 대한 리소스 파일을 제공하는 경우 이 라디오 단추를 선택합니다. 이 옵션을 선택하면 **아이콘** 및 **매니페스트** 옵션이 사용되지 않습니다.
 
-경로 이름을 입력하거나 찾아보기 단추(**...**)를 사용하여 Win32 리소스 파일을 프로젝트에 추가합니다.
+경로 이름을 입력하거나 찾아보기 단추( **...** )를 사용하여 Win32 리소스 파일을 프로젝트에 추가합니다.

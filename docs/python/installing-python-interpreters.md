@@ -1,7 +1,7 @@
 ---
 title: Python 인터프리터 선택 및 설치
 description: 설치 관리자를 찾을 위치에 대한 간단한 지침이 포함된 Visual Studio에서 지원되는 Python 인터프리터의 전체 목록입니다.
-ms.date: 03/13/2019
+ms.date: 06/05/2019
 ms.topic: conceptual
 author: JoshuaPartlow
 ms.author: joshuapa
@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 8e7648496e85b35d4f97fc9c85dc0bce6d17000e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e3cfe5e54e4893ffa0bed6e3be1bf142fdda60be
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62957417"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747156"
 ---
 # <a name="install-python-interpreters"></a>Python 인터프리터 설치
 
@@ -26,6 +26,11 @@ ms.locfileid: "62957417"
 ::: moniker-end
 
 Visual Studio 설치 관리자 외부에서 아래 표에 나열된 인터프리터를 수동으로 설치할 수도 있습니다. 예를 들어 Visual Studio를 설치하기 전에 Anaconda 3을 설치한 경우 Visual Studio 설치 관리자를 통해 다시 설치할 필요가 없습니다. 예를 들어 Visual Studio 설치 관리자에 아직 표시되지 않는 사용 가능한 인터프리터의 최신 버전이 있는 경우에도 인터프리터를 수동으로 설치할 수 있습니다.
+
+::: moniker range=">=vs-2019"
+> [!Note]
+> Visual Studio는 [Python Software Foundation](https://devguide.python.org/#status-of-python-branches)에서 지정한 대로 모든 공식 지원되는 Python 버전을 지원합니다. 특히 2.7, 3.5, 3.6 및 3.7 버전입니다.
+::: moniker-end
 
 **Visual Studio 2015 이하**의 경우 인터프리터 중 하나를 수동으로 설치해야 합니다.
 

@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a27799eb9c22ec633d5c8d8604fe58d6924cd623
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2651a5fc2c32de5018e8fa07f42c5067d469758c
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62847479"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820557"
 ---
 # <a name="blend-for-visual-studio-overview"></a>Blend for Visual Studio 개요
 
@@ -60,7 +60,7 @@ Blend for Visual Studio에서 **도구** 패널을 사용하여 애플리케이�
 
 |||
 |-|-|
-|![](../designers/media/b1_1.png)|**검색 상자** **검색** 상자에 입력하여 자산 목록을 필터링합니다.|
+|![자산 검색 상자](../designers/media/b1_1.png)|**검색 상자** **검색** 상자에 입력하여 자산 목록을 필터링합니다.|
 |![표 모드 및 목록 모드](../designers/media/b1_2.png)|**표 모드 및 목록 모드** 자산의 **표 모드** 보기와 **목록 모드** 보기 간에 전환합니다.|
 |![자산 범주](../designers/media/b1_3.png)|**자산 범주** 해당 범주의 자산 목록을 보려면 범주 또는 하위 범주를 클릭합니다.|
 |![스타일](../designers/media/b1_4.png)|**스타일** 리소스 사전에 포함된 모든 스타일을 표시합니다.|
@@ -115,7 +115,7 @@ Blend for Visual Studio에서 **도구** 패널을 사용하여 애플리케이�
 |![RGB 색 공간](../designers/media/b1_12.png)|**RGB 색 공간** **R**, **G** 또는 **B**(빨강, 초록, 파랑) 숫자 편집기에 대한 값을 조정하여 색을 수정합니다.|
 |![알파 채널](../designers/media/b1_13.png)|**알파 채널** **A** 옆의 숫자 편집기를 사용하여 알파 값을 수정합니다.|
 |![색을 리소스로 변환](../designers/media/d839d12c-07a1-4127-a830-4a8e7069f4fe.png)|**색을 리소스로 변환** 선택한 색을 색 리소스로 변환합니다. 색 리소스는 색 리소스 탭을 클릭하면 사용할 수 있습니다.|
-|![](../designers/media/b1_15.png)|**16진수 값** 표시된 색의 16진수 값을 표시합니다.|
+|![색 16진수 값](../designers/media/b1_15.png)|**16진수 값** 표시된 색의 16진수 값을 표시합니다.|
 |![설명선 16](../designers/media/b5_label_16.png)|**그라데이션 슬라이더** 그라데이션 브러시를 선택한 경우에만 나타납니다.|
 |![고급 속성 표시](../designers/media/d50027a1-6824-4ad8-8b4e-558b0756dcf8.png)|**고급 속성 표시** 자주 사용되지 않는 속성의 범주를 표시합니다.|
 

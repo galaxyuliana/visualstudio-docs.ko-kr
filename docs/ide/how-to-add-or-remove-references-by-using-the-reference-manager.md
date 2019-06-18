@@ -21,12 +21,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1b26c700e90189882f850d4bda1d47fb6f54c025
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 885dee2ca04060042e804ff964636d16e6a725ee
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62548135"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745808"
 ---
 # <a name="how-to-add-or-remove-references-by-using-the-reference-manager"></a>방법: 참조 관리자를 사용하여 참조 추가 또는 제거
 
@@ -56,11 +56,11 @@ ms.locfileid: "62548135"
 
 ## <a name="assemblies-tab"></a>어셈블리 탭
 
-**어셈블리** 탭은 참조에 사용할 수 있는 .NET Framework 어셈블리를 모두 나열합니다. **어셈블리** 탭에는 GAC(전역 어셈블리 캐시)의 어셈블리는 표시되지 않습니다. GAC의 어셈블리는 런타임 환경의 일부이기 때문입니다. GAC에 등록된 어셈블리에 대한 참조가 포함된 애플리케이션을 배포하거나 복사하는 경우, 이 어셈블리는 **로컬 복사** 설정과 관계없이 애플리케이션과 함께 배포되거나 복사되지 않습니다. 자세한 내용은 [프로젝트의 참조 관리](../ide/managing-references-in-a-project.md)를 참조하세요.
+**어셈블리** 탭은 참조에 사용할 수 있는 .NET 어셈블리를 모두 나열합니다. **어셈블리** 탭에는 GAC(전역 어셈블리 캐시)의 어셈블리는 표시되지 않습니다. GAC의 어셈블리는 런타임 환경의 일부이기 때문입니다. GAC에 등록된 어셈블리에 대한 참조가 포함된 애플리케이션을 배포하거나 복사하는 경우, 이 어셈블리는 **로컬 복사** 설정과 관계없이 애플리케이션과 함께 배포되거나 복사되지 않습니다. 자세한 내용은 [프로젝트의 참조 관리](../ide/managing-references-in-a-project.md)를 참조하세요.
 
 EnvDTE 네임스페이스(<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref:EnvDTE90a> 또는 <xref:EnvDTE100>)에 대한 참조를 수동으로 추가할 때는 **속성** 창에서 참조의 **Interop 형식 포함** 속성을 **False**로 설정합니다. 이 속성을 **True**로 설정하면 포함할 수 없는 특정 EnvDTE 속성으로 인해 빌드 문제가 발생할 수 있습니다.
 
-모든 데스크톱 프로젝트에는 **mscorlib**에 대한 암시적 참조가 포함되어 있습니다. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 프로젝트에는 <xref:Microsoft.VisualBasic>에 대한 암시적 참조가 포함되어 있습니다. System.Core가 참조 목록에서 제거되더라도 모든 프로젝트에 **System.Core**에 대한 암시적 참조가 포함되어 있습니다.
+모든 데스크톱 프로젝트에는 **mscorlib**에 대한 암시적 참조가 포함되어 있습니다. Visual Basic 프로젝트에는 <xref:Microsoft.VisualBasic>에 대한 암시적 참조가 포함되어 있습니다. System.Core가 참조 목록에서 제거되더라도 모든 프로젝트에 **System.Core**에 대한 암시적 참조가 포함되어 있습니다.
 
 프로젝트 형식이 어셈블리를 지원하지 않으면 **참조 관리자** 대화 상자에 이 탭이 나타나지 않습니다.
 
@@ -68,7 +68,9 @@ EnvDTE 네임스페이스(<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref
 
 1. **프레임워크** 탭에는 대상 프레임워크를 구성하는 모든 어셈블리가 나열됩니다.
 
-    Windows 8.x Store 앱용 프로젝트에는 프로젝트 생성 시 기본적으로 대상 [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)]의 모든 어셈블리에 대한 참조가 포함됩니다. 관리 프로젝트에서 **솔루션 탐색기**의 **참조** 폴더 아래에 있는 읽기 전용 노드는 전체 프레임워크에 대한 참조를 나타냅니다. 따라서 **프레임워크** 탭은 프레임워크의 어떠한 어셈블리도 열거하지 않고 대신 다음과 같은 메시지를 표시합니다. "모든 프레임워크 어셈블리가 이미 참조되었습니다. 개체 브라우저를 사용하여 프레임워크에서 참조를 탐색하세요.” 데스크톱 프로젝트의 경우, **프레임워크** 탭은 대상 프레임워크의 어셈블리를 열거하고 사용자는 애플리케이션에 필요한 참조를 추가해야 합니다.
+   .NET Core 또는 유니버셜 Windows 플랫폼을 대상으로 하지 않는 프로젝트의 경우 **프레임워크** 탭은 대상 프레임워크에서 어셈블리를 열거합니다. 사용자는 애플리케이션에서 필요한 모든 참조를 추가해야 합니다.
+
+   범용 Windows 프로젝트에는 기본적으로 대상 프레임워크의 모든 어셈블리에 대한 참조가 포함됩니다. 관리 프로젝트에서 **솔루션 탐색기**의 **참조** 폴더 아래에 있는 읽기 전용 노드는 전체 프레임워크에 대한 참조를 나타냅니다. 따라서 **프레임워크** 탭은 프레임워크의 어떠한 어셈블리도 열거하지 않고 대신 다음과 같은 메시지를 표시합니다. "모든 프레임워크 어셈블리가 이미 참조되었습니다. 개체 브라우저를 사용하여 Framework에서 참조를 탐색하십시오."
 
 2. **확장**은 구성 요소 및 컨트롤의 외부 공급업체가 개발하고 대상 프레임워크를 확장한 모든 어셈블리가 나열됩니다. 사용자 애플리케이션의 목적에 따라 이러한 어셈블리가 필요할 수 있습니다.
 
@@ -86,20 +88,18 @@ EnvDTE 네임스페이스(<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref
 
    예를 들어, 프로젝트가 32비트 컴퓨터에서 .NET Framework 4를 대상으로 지정하는 경우, **확장**은 *\Microsoft\.NETFramework\v4.0\AssemblyFoldersEx*, *\Microsoft\.NETFramework\v3.5\AssemblyFoldersEx*, *\Microsoft\.NETFramework\v3.0\AssemblyFoldersEx* 및 *\Microsoft\.NETFramework\v2.0\AssemblyFoldersEx*에서 등록된 어셈블리를 열거합니다.
 
-프로젝트의 .NET Framework 버전에 따라 목록의 일부 구성 요소는 표시되지 않을 수 있습니다. 이 비동기화는 다음과 같은 경우에 발생할 수 있습니다.
+프로젝트의 프레임워크 버전에 따라 목록의 일부 구성 요소는 표시되지 않을 수 있습니다. 이 비동기화는 다음과 같은 경우에 발생할 수 있습니다.
 
-- 최신 버전의 .NET Framework를 사용하는 구성 요소는 이전 버전의 .NET Framework를 대상으로 하는 프로젝트와 호환되지 않습니다.
+- 최신 프레임워크 버전을 사용하는 구성 요소는 이전 버전을 대상으로 하는 프로젝트와 호환되지 않습니다.
 
-    프로젝트의 대상 .NET Framework 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 한 버전의 .NET Framework를 대상으로 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)을 참조하세요.
+   프로젝트의 대상 프레임워크 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 프레임워크 버전 대상 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)을 참조하세요.
 
-- [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)]를 사용하는 구성 요소는 [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)]을 대상으로 하는 프로젝트와 호환되지 않습니다.
-
-    새 애플리케이션을 만들면 기본적으로 일부 프로젝트가 [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)]을 대상으로 합니다.
+- .NET Framework 4를 사용하는 구성 요소는 .NET Framework 4.5를 대상으로 하는 프로젝트와 호환되지 않습니다.
 
 동일한 솔루션에 있는 다른 프로젝트의 출력에 대한 파일 참조를 추가하면 컴파일 오류가 발생할 수 있으므로 이 방법은 사용하지 않는 것이 좋습니다. 대신 **참조 추가** 대화 상자의 **프로젝트** 탭을 사용하여 프로젝트 간 참조를 만듭니다. 이렇게 하면 프로젝트에서 만드는 클래스 라이브러리를 보다 효율적으로 관리할 수 있으므로 개발 팀이 작업하기가 간편해집니다. 자세한 내용은 [끊어진 참조 문제 해결](../ide/troubleshooting-broken-references.md)을 참조하세요.
 
 > [!NOTE]
-> Visual Studio 2015 이상에서는 한 프로젝트의 대상 .NET Framework 버전이 버전 4.5 이상이고 다른 프로젝트의 대상 버전이 버전 2, 3, 3.5 또는 4.0인 경우 프로젝트 참조 대신 파일 참조가 만들어집니다.
+> Visual Studio 2015 이상에서는 한 프로젝트의 대상 프레임워크 버전이 .NET Framework 4.5 이상이고 다른 프로젝트의 대상 버전이 .NET Framework 2, 3, 3.5 또는 4.0인 경우 프로젝트 참조 대신 파일 참조가 만들어집니다.
 
 ### <a name="to-display-an-assembly-in-the-add-reference-dialog-box"></a>참조 추가 대화 상자에서 어셈블리를 표시하려면
 
@@ -125,7 +125,7 @@ EnvDTE 네임스페이스(<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref
 
    - `[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
 
-   *\<VersionMinimum\>* 은 적용되는 최하위 .NET Framework 버전입니다. *\<VersionMinimum\>* 이 v3.0인 경우 *AssemblyFoldersEx*에 지정된 폴더는 .NET Framework 3.0 이상을 대상으로 하는 프로젝트에 적용됩니다.
+   *\<VersionMinimum\>* 은 적용되는 최하위 프레임워크 버전입니다. *\<VersionMinimum\>* 이 v3.0인 경우 *AssemblyFoldersEx*에 지정된 폴더는 .NET Framework 3.0 이상을 대상으로 하는 프로젝트에 적용됩니다.
 
    *\<AssemblyLocation\>* 은 **참조 추가** 대화 상자에 표시하려는 어셈블리의 디렉터리(예: *C:\MyAssemblies*)입니다.
 
@@ -137,13 +137,10 @@ EnvDTE 네임스페이스(<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref
 
 **프로젝트** 탭은 **솔루션** 하위 탭에 현재 솔루션 내 모든 호환 가능한 프로젝트를 나열합니다.
 
-프로젝트는 다른 버전의 .NET Framework를 대상으로 하는 다른 프로젝트를 참조할 수 있습니다. 예를 들어, [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)]를 대상으로 하지만 .NET Framework 2용으로 빌드된 어셈블리를 참조하는 프로젝트를 만들 수 있습니다. 그러나 .NET Framework 2 프로젝트는 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 프로젝트를 참조할 수 없습니다. 자세한 내용은 [멀티 타기팅 개요](../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.
+프로젝트는 다른 버전의 프레임워크를 대상으로 하는 다른 프로젝트를 참조할 수 있습니다. 예를 들어, .NET Framework 4를 대상으로 하지만 .NET Framework 2용으로 빌드된 어셈블리를 참조하는 프로젝트를 만들 수 있습니다. 그러나 .NET Framework 2 프로젝트는 .NET Framework 4 프로젝트를 참조할 수 없습니다. 자세한 내용은 [Framework 대상 지정 개요](../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.
 
-[!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)]를 대상으로 하는 프로젝트는 [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)]을 대상으로 하는 프로젝트와 호환되지 않습니다.
-
-한 프로젝트가 .NET Framework 4를 대상으로 하고 또 다른 프로젝트가 이전 버전을 대상으로 하는 경우 프로젝트 참조 대신 파일 참조가 만들어집니다.
-
-[!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)]을 대상으로 하는 프로젝트는 .NET Framework를 대상으로 하는 프로젝트에 프로젝트 참조를 추가할 수 없으며 그 반대의 경우도 마찬가지입니다.
+> [!NOTE]
+> .NET Framework 4를 대상으로 하는 프로젝트가 .NET Framework 4 클라이언트 프로필을 대상으로 하는 프로젝트와 호환되지 않습니다.
 
 ## <a name="universal-windows-tab"></a>유니버설 Windows 탭
 
@@ -177,7 +174,7 @@ SDK는 Visual Studio에서 단일 구성 요소로 처리하는 파일의 컬렉
 
 **찾아보기** 단추를 사용하여 파일 시스템의 구성 요소를 찾아볼 수 있습니다.
 
-프로젝트는 다른 버전의 .NET Framework를 대상으로 하는 구성 요소를 참조할 수 있습니다. 예를 들어, .NET Framework 4를 대상으로 하는 구성 요소를 참조하는 .NET Framework 4.7을 대상으로 하는 애플리케이션을 만들 수 있습니다. 자세한 내용은 [멀티 타기팅 개요](../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.
+프로젝트는 다른 버전의 프레임워크를 대상으로 하는 구성 요소를 참조할 수 있습니다. 예를 들어 .NET Framework 4.7을 대상으로 하는 애플리케이션을 만들 수 있지만, .NET Framework 4를 대상으로 하는 구성 요소를 참조합니다. 자세한 내용은 [Framework 대상 지정 개요](../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.
 
 동일한 솔루션에 있는 다른 프로젝트의 출력에 대한 파일 참조를 추가하면 컴파일 오류가 발생할 수 있으므로 이 방법은 사용하지 않는 것이 좋습니다. 대신 **참조 관리자** 대화 상자의 **솔루션** 탭을 사용하여 프로젝트 간 참조를 만듭니다. 이렇게 하면 프로젝트에서 만드는 클래스 라이브러리를 보다 효율적으로 관리할 수 있으므로 개발 팀이 작업하기가 간편해집니다. 자세한 내용은 [끊어진 참조 문제 해결](../ide/troubleshooting-broken-references.md)을 참조하세요.
 

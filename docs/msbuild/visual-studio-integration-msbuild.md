@@ -20,19 +20,19 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8d396d56aea8be3724078223261a3b6eb8835692
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 1a160d28a3953196a53673b64ae7d9ef9974a731
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445372"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747441"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Visual Studio 통합(MSBuild)
 Visual Studio는 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 를 호스팅하여 관리되는 프로젝트를 로드하고 빌드합니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 에서 프로젝트를 관리하므로 프로젝트가 다른 도구에서 작성되어 사용자 지정된 빌드 프로세스를 가지더라도 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 형식의 프로젝트는 대부분 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 사용될 수 있습니다.
 
  이 문서에서는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]의 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 호스팅 중 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 로드하고 빌드할 프로젝트와 *.targets* 파일을 사용자 지정할 때 고려해야 하는 부분을 설명합니다. 이를 통해 IntelliSense 및 디버깅 작업과 같은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 기능이 사용자 지정 프로젝트에서 작동하는지 확인할 수 있습니다.
 
- C++ 프로젝트에 대한 자세한 내용은 [프로젝트 파일](/cpp/ide/project-files)을 참조하세요.
+ C++ 프로젝트에 대한 자세한 내용은 [프로젝트 파일](/cpp/build/reference/project-files)을 참조하세요.
 
 ## <a name="project-file-name-extensions"></a>프로젝트 파일 이름 확장명
  *MSBuild.exe*에서는 *.\*proj* 패턴과 일치하는 모든 프로젝트 파일 이름 확장명을 인식합니다. 하지만 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에서는 프로젝트를 로드할 언어별 프로젝트 시스템을 결정하는 이러한 프로젝트 파일 확장명의 일부만 인식합니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 에는 언어 중립적인 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 기반 프로젝트 시스템이 없습니다.
@@ -165,7 +165,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 
   - `OriginalItemSpec`: 참조의 원본 항목 사양이 포함되어 있습니다.
 
-  - `ResolvedFrom`: [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 디렉터리에서 확인된 경우 "{TargetFrameworkDirectory}"로 설정됩니다.
+  - `ResolvedFrom`: .NET Framework 디렉터리에서 확인된 경우 "{TargetFrameworkDirectory}"로 설정됩니다.
 
 - COM 참조:
 

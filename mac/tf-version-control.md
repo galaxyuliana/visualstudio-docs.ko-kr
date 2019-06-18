@@ -3,16 +3,16 @@ title: TFVC(Team Foundation 버전 제어)
 description: TFVC(Team Foundation 버전 제어)를 사용하여 Mac용 Visual Studio에서 Team Foundation Server/Azure DevOps에 연결.
 author: conceptdev
 ms.author: crdun
-ms.date: 04/04/2019
+ms.date: 04/28/2019
 ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
-ms.openlocfilehash: 20c739057bcbded922df62ce00e1b0c7e07d9f75
-ms.sourcegitcommit: aeb1a1135dd789551e15aa5124099a5fe3f0f32b
+ms.openlocfilehash: c21658b6381405c05e5b0fedbb72e33f8ed72a83
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66500990"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745547"
 ---
 # <a name="connecting-to-team-foundation-version-control"></a>Team Foundation 버전 제어에 연결
 
@@ -44,8 +44,6 @@ Mac용 Visual Studio에서는 Git 리포지토리에 대한 전체 지원을 제
 macOS 터미널을 능숙하게 사용할 수 있는 경우 TEE-CLC(Team Explorer Everywhere 명령줄 클라이언트)에서는 TFVC에서 소스에 연결하는 지원 방법을 제공합니다.
 
 아래 단계에 따라 TFVC에 대한 연결을 설정하고 변경 내용을 커밋할 수 있습니다.
-
-이 섹션의 기반이 되는 [TEE-CLC 관련 원본 지침](https://gist.github.com/chris-pilcher/a3f14eb081d7ab983e5c)을 제공한 커뮤니티의 개발자 Chris Pilcher에게 특별히 감사합니다.
 
 ### <a name="setting-up-the-tee-clc"></a>TEE-CLC 설정
 
@@ -82,7 +80,7 @@ tf workspace -new MyWorkspace -collection:https://dev.azure.com/MyOrganization
 
 `TF_AUTO_SAVE_CREDENTIALS` 환경 설정이 자격 증명을 저장하는 데 사용되므로 자격 증명을 입력하라는 메시지가 여러 번 표시되지 않습니다. 사용자 이름을 입력하라는 메시지가 표시되면 이전 섹션에서 만든 개인용 액세스 토큰을 사용하고 빈 암호를 사용합니다.
 
-이제 로컬 폴더에 대한 소스 파일 매핑을 만들려면 `tf workfold` 명령을 사용합니다. 다음 예제에서는 “MyRepository” TFVC 프로젝트에서 “WebApp.Services” 폴더를 매핑하고 로컬 ~/Projects/ 폴더(현재 사용자의 홈 폴더에 있는 “Projects” 폴더)로 복사되도록 설정합니다.
+로컬 폴더에 대한 소스 파일 매핑을 만들려면 `tf workfold` 명령을 사용합니다. 다음 예제에서는 “MyRepository” TFVC 프로젝트에서 “WebApp.Services” 폴더를 매핑하고 로컬 ~/Projects/ 폴더(현재 사용자의 홈 폴더에 있는 “Projects” 폴더)로 복사되도록 설정합니다.
 
 ```bash
 tf workfold -map $/MyRepository/WebApp.Services -workspace:MyWorkspace ~/Projects/

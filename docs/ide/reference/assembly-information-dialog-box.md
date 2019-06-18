@@ -12,15 +12,15 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8b79d1b0a4b59246c9497c0594047c6457c1b685
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1c5420839d97fb62797d0f739ce62da4d14b340b
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62791490"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66744891"
 ---
 # <a name="assembly-information-dialog-box"></a>어셈블리 정보 대화 상자
-**어셈블리 정보** 대화 상자는 프로젝트에서 자동으로 만들어진 AssemblyInfo 파일에 저장된 [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] 전역 어셈블리 특성의 값을 지정하는 데 사용됩니다. **솔루션 탐색기**에서 파일은 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]의 **내 프로젝트** 노드에 있고(파일을 보려면 **모든 파일 표시** 클릭). [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]의 **속성** 아래에 있습니다. 어셈블리 특성에 대한 자세한 내용은 [특성(C# 및 Visual Basic)](https://msdn.microsoft.com/Library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)을 참조하세요.
+**어셈블리 정보** 대화 상자는 프로젝트에서 자동으로 만들어진 AssemblyInfo 파일에 저장된 .NET Framework 글로벌 어셈블리 특성의 값을 지정하는 데 사용됩니다. **솔루션 탐색기**에서 파일은 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]의 **내 프로젝트** 노드에 있고(파일을 보려면 **모든 파일 표시** 클릭). [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]의 **속성** 아래에 있습니다. 어셈블리 특성에 대한 자세한 내용은 [특성(C# 및 Visual Basic)](https://msdn.microsoft.com/Library/ae334cee-d96c-4243-a5e3-06dd7fcaf205)을 참조하세요.
 
  이 대화 상자에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드를 선택한 다음 **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너**가 나타나면 **애플리케이션** 탭을 클릭합니다. **애플리케이션** 페이지에서 **어셈블리 정보** 단추를 클릭합니다.
 

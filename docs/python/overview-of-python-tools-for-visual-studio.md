@@ -2,7 +2,7 @@
 title: Windows의 Visual Studio에서 Python 지원
 titleSuffix: ''
 description: Windows에서 최상의 Python IDE(PTVS(Visual Studio용 Python 도구)로도 알려짐)로 만드는 Visual Studio의 Python 기능에 대한 요약입니다.
-ms.date: 03/12/2019
+ms.date: 06/05/2019
 ms.topic: overview
 author: JoshuaPartlow
 ms.author: joshuapa
@@ -11,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: 8bcc0be91892494a81dd42f141da9c77329767cb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f218db0d10e6a7e959b3a5fdc2f38ceff2299c9b
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62785238"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747561"
 ---
 # <a name="work-with-python-in-visual-studio-on-windows"></a>Windows의 Visual Studio에서 Python 작업
 
@@ -37,6 +37,11 @@ Python은 현재 Mac용 Visual Studio에서 지원되지 않지만 Visual Studio
 - 빠른 시작을 하나 이상 수행하여 프로젝트를 만듭니다. 확실하지 않은 경우 [빠른 시작: 폴더에서 Python 코드 열기 및 실행](quickstart-05-python-visual-studio-open-folder.md) 또는 [Flask를 사용하여 웹앱 만들기](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json)로 시작합니다.
 ::: moniker-end
 - 전체 종단 간 환경을 위한 [Visual Studio에서 Python 작업](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) 자습서를 수행합니다.
+
+::: moniker range=">=vs-2019"
+> [!Note]
+> Visual Studio는 [Python Software Foundation](https://devguide.python.org/#status-of-python-branches)에서 지정한 대로 모든 공식 지원되는 Python 버전을 지원합니다. 특히 2.7, 3.5, 3.6 및 3.7 버전입니다.
+::: moniker-end
 
 ## <a name="support-for-multiple-interpreters"></a>다중 인터프리터 지원.
 
@@ -92,7 +97,7 @@ Visual Studio에 알려진 모든 Python 환경의 경우 별도 명령 프롬�
 > Visual Studio 2019는 Visual Studio 프로젝트 및 솔루션 파일을 만들지 않고도 Python 코드가 포함된 폴더를 열어 해당 코드를 실행하도록 지원합니다. 자세한 내용은 [빠른 시작: 폴더에서 Python 코드 열기 및 실행](quickstart-05-python-visual-studio-open-folder.md)을 참조하세요. 하지만 이 섹션에서 설명한 대로 프로젝트 파일 사용을 통해 얻을 수 있는 이점이 있습니다.
 ::: moniker-end
 
-Visual Studio에서는 시간이 지남에 따라 커지는 프로젝트의 복잡성을 관리할 수 있습니다. ‘Visual Studio 프로젝트’는 폴더 구조보다 훨씬 더 복잡합니다. 프로젝트에는 다른 파일이 어떻게 사용되는지 그리고 서로 어떤 관계인지에 대한 이해가 포함됩니다. Visual Studio를 사용하면 앱 코드, 태스트 코드, 웹 페이지, JavaScript, 빌드 스크립트 등을 구분한 다음, 파일에 적합한 기능을 사용하도록 설정할 수 있습니다. 또한 Visual Studio 솔루션에서는 Python 프로젝트 및 C++ 확장 프로젝트 같은 다수의 관련 프로젝트를 관리할 수 있습니다.
+Visual Studio에서는 시간이 지남에 따라 커지는 프로젝트의 복잡성을 관리할 수 있습니다. ‘Visual Studio 프로젝트’는 폴더 구조보다 훨씬 더 복잡합니다. 프로젝트에는 다른 파일이 어떻게 사용되는지 그리고 서로 어떤 관계인지에 대한 이해가 포함됩니다.  Visual Studio를 사용하면 앱 코드, 태스트 코드, 웹 페이지, JavaScript, 빌드 스크립트 등을 구분한 다음, 파일에 적합한 기능을 사용하도록 설정할 수 있습니다. 또한 Visual Studio 솔루션에서는 Python 프로젝트 및 C++ 확장 프로젝트 같은 다수의 관련 프로젝트를 관리할 수 있습니다.
 
 ![Python 및 C++ 프로젝트가 포함된 Visual Studio 솔루션](media/projects-solution-explorer-two-projects.png)
 
@@ -150,9 +155,9 @@ Visual Studio **테스트 탐색기**에서 테스트를 검색, 실행 및 관�
 
 ## <a name="azure-sdk-for-python"></a>Python용 Azure SDK
 
-Python 워크로드는 Windows, Mac OS X, Linux 앱에서 Azure 서비스를 간편하게 사용할 수 있도록 해주는 Python용 Azure SDK도 포함합니다.
+Python용 Azure 라이브러리는 Windows, Mac OS X 및 Linux 앱에서 Azure 서비스 사용을 간소화합니다. 라이브러리를 사용하여 Azure 리소스를 만들고 관리할 뿐만 아니라, Azure 서비스에 연결할 수 있습니다. 
 
-자세한 내용은 [Python용 Azure SDK](/python/azure/?view=azure-python)를 참조하세요.
+자세한 내용은 [Python용 Azure SDK](/python/azure/?view=azure-python) 및 [Python용 Azure 라이브러리](/python/azure/python-sdk-azure-overview?view=azure-python)를 참조하세요.
 
 ## <a name="questions-and-answers"></a>질문과 대답
 

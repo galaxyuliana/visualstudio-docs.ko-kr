@@ -13,16 +13,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 24f5e486d49dca8290c9063625132f673bf79c3c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 17f040b9bb64c2192bc6b376f5d0397ee5438071
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62944952"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747747"
 ---
 # <a name="toolbox-components-tab"></a>도구 상자, 구성 요소 탭
 
-Windows Forms용 Visual Basic 및 C# 디자이너에 추가할 수 있는 구성 요소를 표시합니다. <xref:System.Messaging.MessageQueue> 및 <xref:System.Diagnostics.EventLog> 구성 요소와 같이 Visual Studio에 함께 제공되는 .NET Framework 구성 요소 이외에 사용자 지정 또는 타사 구성 요소를 이 탭에 추가할 수 있습니다.
+Windows Forms용 Visual Basic 및 C# 디자이너에 추가할 수 있는 구성 요소를 표시합니다. <xref:System.Messaging.MessageQueue> 및 <xref:System.Diagnostics.EventLog> 구성 요소와 같이 Visual Studio에 함께 제공되는 .NET 구성 요소 이외에 사용자 지정 또는 타사 구성 요소를 이 탭에 추가할 수 있습니다.
 
 이 탭을 표시하려면 Windows Forms 디자이너를 엽니다. **보기** > **도구 상자**를 선택합니다. **도구 상자**에서 **구성 요소** 탭을 선택합니다.
 

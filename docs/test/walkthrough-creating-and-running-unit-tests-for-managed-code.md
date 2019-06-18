@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 author: gewarren
-ms.openlocfilehash: 7c588966a957cf6d3127e03c67ad1a1d605fabce
-ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.openlocfilehash: b04a8eabd5b7bdbc5053a30a95609b86b6e61674
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66401727"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820931"
 ---
 # <a name="walkthrough-create-and-run-unit-tests-for-managed-code"></a>연습: 관리 코드에 대한 단위 테스트 만들기 및 실행
 
@@ -179,19 +179,23 @@ ms.locfileid: "66401727"
 
 ## <a name="create-the-test-class"></a>테스트 클래스 만들기
 
-`BankAccount` 클래스를 확인하기 위한 테스트 클래스를 만듭니다. 프로젝트 템플릿에서 생성된 *UnitTest1.cs* 파일을 사용할 수 있지만 파일 및 클래스에 설명이 포함된 이름을 제공할 수 있습니다. **솔루션 탐색기**에서 파일 이름을 바꾸면 한 번에 수행할 수 있습니다.
+`BankAccount` 클래스를 확인하기 위한 테스트 클래스를 만듭니다. 프로젝트 템플릿에서 생성된 *UnitTest1.cs* 파일을 사용할 수 있지만 파일 및 클래스에 설명이 포함된 이름을 제공할 수 있습니다.
 
 ### <a name="rename-a-file-and-class"></a>파일 및 클래스 이름 바꾸기
 
 1. 파일의 이름을 바꾸려면 **솔루션 탐색기**에서 BankTests 프로젝트의 *UnitTest1.cs* 파일을 선택합니다. 오른쪽 클릭 메뉴에서 **이름 바꾸기**를 선택한 다음, 파일 이름을 *BankAccountTests.cs*로 바꿉니다.
 
-   ::: moniker range="vs-2017"
+::: moniker range="vs-2017"
 
-   팝업으로 나타나는 대화 상자에서 **아니요**를 선택합니다.
+2. 클래스 이름을 변경하려면 팝업되어 코드 요소에 대한 참조 이름도 변경할지 묻는 대화 상자에서 **예**를 선택합니다.
 
-   ::: moniker-end
+::: moniker-end
 
-2. 클래스의 이름을 바꾸려면 코드 편집기에서 커서를 `UnitTest1`에 두고 **F2**를 누릅니다(또는 마우스 오른쪽 단추로 클릭하고 **이름 바꾸기**를 선택). **BankAccountTests**를 입력한 다음, **Enter**를 누릅니다.
+::: moniker range=">=vs-2019"
+
+2. 클래스의 이름을 바꾸려면 코드 편집기에서 커서를 `UnitTest1`에 두고 **이름 바꾸기**를 선택합니다. **BankAccountTests**를 입력한 다음, **Enter**를 누릅니다.
+
+::: moniker-end
 
 *BankAccountTests.cs* 파일에는 이제 다음 코드가 들어 있습니다.
 
@@ -336,7 +340,6 @@ m_balance -= amount;
 
 ```csharp
 [TestMethod]
-[ExpectedException(typeof(ArgumentOutOfRangeException))]
 public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
 {
     // Arrange
@@ -344,14 +347,12 @@ public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
     double debitAmount = -100.00;
     BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
 
-    // Act
-    account.Debit(debitAmount);
-
-    // Assert is handled by the ExpectedException attribute on the test method.
+    // Act and assert
+    Assert.ThrowsException<System.ArgumentOutOfRangeException>(() => account.Debit(debitAmount));
 }
 ```
 
-<xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute> 특성을 사용하여 올바른 예외가 throw되었음을 어설션합니다. <xref:System.ArgumentOutOfRangeException> 을 throw되는 경우가 아니면 이 특성으로 인해 테스트에 실패합니다. 차변 금액이 0보다 작을 때, 보다 일반적인 <xref:System.ApplicationException>을 throw하기 위해 테스트 중인 메서드를 일시적으로 수정하면 테스트가 올바르게 작동합니다&mdash;즉, 실패합니다.
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A> 메서드를 사용하여 올바른 예외가 throw되었음을 어설션합니다. <xref:System.ArgumentOutOfRangeException>을 throw되는 경우가 아니면 이 메서드로 인해 테스트에 실패합니다. 차변 금액이 0보다 작을 때, 보다 일반적인 <xref:System.ApplicationException>을 throw하기 위해 테스트 중인 메서드를 일시적으로 수정하면 테스트가 올바르게 작동합니다&mdash;즉, 실패합니다.
 
 인출한 금액이 잔고보다 많을 경우를 테스트하려면 다음 단계를 수행합니다.
 
@@ -361,7 +362,7 @@ public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange()
 
 3. `debitAmount` 를 잔액보다 큰 값으로 설정합니다.
 
-두 테스트 메서드를 실행하면 테스트가 올바르게 작동하는지 알 수 있습니다.
+두 개의 테스트를 실행하고 통과하는지 확인합니다.
 
 ### <a name="continue-the-analysis"></a>분석 계속 수행
 
@@ -387,20 +388,20 @@ public const string DebitAmountLessThanZeroMessage = "Debit amount is less than 
 그런 다음, `Debit` 메서드에서 두 조건문을 수정합니다.
 
 ```csharp
-    if (amount > m_balance)
-    {
-        throw new ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
-    }
+if (amount > m_balance)
+{
+    throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
+}
 
-    if (amount < 0)
-    {
-        throw new ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
-    }
+if (amount < 0)
+{
+    throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
+}
 ```
 
 ### <a name="refactor-the-test-methods"></a>테스트 메서드 리팩터링
 
-`ExpectedException` 테스트 메서드 특성을 제거하고 대신, throw된 예외를 catch하며 관련 메시지를 확인합니다. <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> 메서드는 두 문자열을 비교하는 기능을 제공합니다.
+<xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A?displayProperty=nameWithType>에 대한 호출을 제거하여 테스트 메서드를 리팩터링합니다. `try/catch` 블록에서 `Debit()`에 대한 호출을 래핑하고 예상되는 특정 예외를 catch한 다음, 연결된 메시지를 확인합니다. <xref:Microsoft.VisualStudio.TestTools.UnitTesting.StringAssert.Contains%2A?displayProperty=fullName> 메서드는 두 문자열을 비교하는 기능을 제공합니다.
 
 이제 `Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange`는 다음과 같습니다.
 
@@ -418,7 +419,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
     {
         account.Debit(debitAmount);
     }
-    catch (ArgumentOutOfRangeException e)
+    catch (System.ArgumentOutOfRangeException e)
     {
         // Assert
         StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);
@@ -448,7 +449,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
     {
         account.Debit(debitAmount);
     }
-    catch (ArgumentOutOfRangeException e)
+    catch (System.ArgumentOutOfRangeException e)
     {
         // Assert
         StringAssert.Contains(e.Message, BankAccount.DebitAmountExceedsBalanceMessage);

@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f6f6bd03a47500c127360afd2d2a6ae6b62ee2e5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 74694528f6380896d47b9665d9e617098ef28620
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62793554"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746862"
 ---
 # <a name="create-solutions-and-projects"></a>솔루션 및 프로젝트 만들기
 
@@ -61,7 +61,7 @@ Visual Studio에서 앱을 개발하는 데 솔루션과 프로젝트는 필요�
 
 ## <a name="create-a-net-project-that-targets-a-specific-version-of-the-net-framework"></a>.NET Framework의 특정 버전을 대상으로 하는 .NET 프로젝트 만들기
 
-프로젝트를 만들 경우 프로젝트에서 사용하려는 특정 버전의 .NET Framework를 지정할 수 있습니다.
+.NET Framework 프로젝트를 만들 경우 프로젝트에서 사용하려는 특정 버전의 .NET Framework를 지정할 수 있습니다. (.NET Core 프로젝트를 만드는 경우에는 Framework 버전을 지정하지 않습니다.)
 
 ::: moniker range="vs-2017"
 

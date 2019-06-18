@@ -13,12 +13,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9250382284fffbc3f1761f8143903327fa845832
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: b7da41b1b82299bd32d1af805ea6226690e79115
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436868"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747388"
 ---
 # <a name="msbuild-toolset-toolsversion"></a>MSBuild 도구 집합(ToolsVersion)
 
@@ -48,7 +48,7 @@ MSBuild는 애플리케이션을 빌드하기 위한 작업, 대상 및 도구�
 
 ## <a name="how-the-toolsversion-attribute-works"></a>ToolsVersion 특성의 작동 방식
 
- Visual Studio에서 프로젝트를 만들거나 기존 프로젝트를 업그레이드할 때 `ToolsVersion`이라는 특성이 자동으로 프로젝트 파일에 포함되고 해당 값은 Visual Studio 버전에 포함된 MSBuild의 버전에 해당합니다. 자세한 내용은 [특정 대상 .NET Framework 버전 지정](../ide/visual-studio-multi-targeting-overview.md)을 참조하세요.
+ Visual Studio에서 프로젝트를 만들거나 기존 프로젝트를 업그레이드할 때 `ToolsVersion`이라는 특성이 자동으로 프로젝트 파일에 포함되고 해당 값은 Visual Studio 버전에 포함된 MSBuild의 버전에 해당합니다. 자세한 내용은 [Framework 대상 지정 개요](../ide/visual-studio-multi-targeting-overview.md)를 참조하세요.
 
  `ToolsVersion` 값이 프로젝트 파일에 정의되면 MSBuild는 해당 값을 사용하여 프로젝트에 사용 가능한 도구 집합 속성의 값을 확인합니다. 도구 집합 속성 하나는 `$(MSBuildToolsPath)`이며, 이 속성은 .NET Framework 도구의 경로를 지정합니다. 이 도구 집합 속성(또는 `$(MSBuildBinPath)`)만 필수입니다.
 
@@ -110,7 +110,7 @@ MSBuild는 다음과 같이 도구 집합에 액세스하는 두 가지 방법�
 
 ### <a name="sub-toolsets"></a>하위 도구 집합
 
- 15.0 이전 버전의 MSBuild의 경우 MSBuild는 레지스트리 키를 사용하여 기본 도구의 경로를 지정합니다. 키에 하위 키가 포함된 경우 MSBuild는 하위 키를 사용하여 추가 도구가 포함되어 있는 하위 도구 집합의 경로를 지정합니다. 이 경우 도구 집합은 두 키 모두에 정의되어 있는 속성 정의를 결합하여 정의됩니다.
+ 15\.0 이전 버전의 MSBuild의 경우 MSBuild는 레지스트리 키를 사용하여 기본 도구의 경로를 지정합니다. 키에 하위 키가 포함된 경우 MSBuild는 하위 키를 사용하여 추가 도구가 포함되어 있는 하위 도구 집합의 경로를 지정합니다. 이 경우 도구 집합은 두 키 모두에 정의되어 있는 속성 정의를 결합하여 정의됩니다.
 
 > [!NOTE]
 > 도구 집합 속성 이름이 충돌하는 경우 하위 키 경로에 대해 정의된 값이 루트 키 경로에 대해 정의된 값을 재정의합니다.

@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 252e9d17ba272dd61af87427ad91f42d2fcd13ee
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2a558ce97e642c38b5c54c1a2e3d01cce2e2e280
+ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62897895"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66715463"
 ---
 # <a name="design-xaml-in-visual-studio"></a>Visual Studio에서 XAML 디자인
 
@@ -52,7 +52,7 @@ Visual Studio와 Blend for Visual Studio 간에 전환할 수 있으며, 둘 다
 
 - **팀 탐색기:** 팀 탐색기를 통해 GIT 또는 TFS 리포지토리로 프로젝트를 관리하면 팀 공동 작업에 도움이 됩니다. [팀 탐색기에서 작업](/azure/devops/user-guide/work-team-explorer)을 참조하세요.
 
-- **NuGet:** Visual Studio 및 Blend for Visual Studio 둘 다에서 NuGet 패키지를 관리할 수 있습니다. NuGet은 솔루션에서 패키지 설치 및 제거를 간소화하는 .NET Framework 패키지 관리자입니다.
+- **NuGet:** Visual Studio 및 Blend for Visual Studio 둘 다에서 NuGet 패키지를 관리할 수 있습니다. NuGet은 솔루션에서 패키지 설치 및 제거를 간소화하는 .NET 패키지 관리자입니다.
 
 ## <a name="advanced-capabilities-in-blend-for-visual-studio"></a>Blend for Visual Studio의 고급 기능
 

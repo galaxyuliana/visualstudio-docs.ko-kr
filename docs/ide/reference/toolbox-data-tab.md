@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2a83999345cd36f1677eca91b243e1ab3455c8a3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e9bee601f488c377c19eff8af060d854a7e7152e
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62946793"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747691"
 ---
 # <a name="toolbox-data-tab"></a>도구 상자, 데이터 탭
 
@@ -28,7 +28,7 @@ ms.locfileid: "62946793"
 
 ## <a name="ui-element-list"></a>UI 요소 목록
 
-구성 요소에 대한 .NET Framework 참조 페이지로 직접 이동하려면 **도구 상자**의 항목 또는 디자이너 트레이의 구성 요소 항목에서 **F1** 키를 누릅니다.
+구성 요소에 대한 .NET 참조 페이지로 직접 이동하려면 **도구 상자**의 항목 또는 디자이너 트레이의 구성 요소 항목에서 **F1** 키를 누릅니다.
 
 |name|설명|
 |----------|-----------------|

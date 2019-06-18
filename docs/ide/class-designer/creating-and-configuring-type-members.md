@@ -29,12 +29,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 39932fe8d4afa31c66d6daa4af33d963b5612eb2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fcfab3a14e8dfab6bdfb62b32839ebcbd69d21af
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62975538"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746935"
 ---
 # <a name="create-and-configure-type-members-in-class-designer"></a>클래스 디자이너에서 형식 멤버 만들기 및 구성
 
@@ -308,7 +308,7 @@ ms.locfileid: "62975538"
 
 코드 파일에 구문 오류가 들어 있으면 해당 파일에서 코드를 표시하는 모양은 구문 오류를 수정할 때까지 일시적으로 읽기 전용이 됩니다. 이 상태의 모양은 빨간색 텍스트와 빨간색 아이콘을 표시합니다. 이 아이콘에 커서를 가져가면 소스 코드에 구문 분석 오류가 있다는 도구 설명이 표시됩니다.
 
-다른 프로젝트 노드나 참조 어셈블리 노드 아래에 있는 참조된 형식(예: .NET Framework 형식)은 클래스 디자이너의 디자인 화면에서 읽기 전용으로 표시됩니다. 사용자가 연 프로젝트에 있는 로컬 형식은 읽기/쓰기가 가능하고 클래스 디자이너의 디자인 화면에 있는 해당 모양은 읽기/쓰기로 표시됩니다.
+다른 프로젝트 노드나 참조 어셈블리 노드 아래에 있는 참조된 형식(예: .NET 형식)은 클래스 디자이너의 디자인 화면에서 읽기 전용으로 표시됩니다. 사용자가 연 프로젝트에 있는 로컬 형식은 읽기/쓰기가 가능하고 클래스 디자이너의 디자인 화면에 있는 해당 모양은 읽기/쓰기로 표시됩니다.
 
 인덱서는 코드 및 **클래스 세부 내용** 창에서 읽기/쓰기가 가능하지만 인덱서 이름은 읽기 전용입니다.
 

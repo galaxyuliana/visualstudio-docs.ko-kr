@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 277463ad717331980988f87cb070815e644a71ab
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6f18b01a6db0068b44ad9c25037e544efa8df35a
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63003651"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66746594"
 ---
 # <a name="generatebootstrapper-task"></a>GenerateBootstrapper 작업
 애플리케이션과 해당 필수 조건을 검색, 다운로드, 설치할 수 있는 자동화된 방법을 제공합니다. 이 작업은 애플리케이션을 구성하는 모든 구성 요소에 대한 개별 설치 관리자를 통합하는 단일 설치 관리자로 사용됩니다.
@@ -152,7 +152,7 @@ ms.locfileid: "63003651"
 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension 기본 클래스](../msbuild/taskextension-base-class.md)를 참조하세요.
 
 ## <a name="example"></a>예제
-다음 예제에서는 `GenerateBootstrapper` 작업을 사용하여 [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)]가 필수 조건으로 설치되어야 하는 애플리케이션을 설치합니다.
+다음 예제에서는 `GenerateBootstrapper` 작업을 사용하여 .NET Framework 2.0이 필수 조건으로 설치되어야 하는 애플리케이션을 설치합니다.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">

@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 56b6890733d00fb650ea611e759c8f8d6a9b2bc5
-ms.sourcegitcommit: 0ef51e3517436a85cfb85bf492722d566ce602c4
+ms.openlocfilehash: 586d28c1e04c7f1e85a077b559586098093812bb
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "65934528"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66745896"
 ---
 # <a name="common-msbuild-project-properties"></a>일반적인 MSBuild 프로젝트 속성
 다음 표에서는 Visual Studio 프로젝트 파일에 정의되거나 MSBuild가 제공하는 *.targets* 파일에 포함된 자주 사용하는 속성을 보여 줍니다.
@@ -118,7 +118,7 @@ ms.locfileid: "65934528"
 | Satellite_Win32Resource | 위성 어셈블리에 Win32 리소스( *.res* 파일)를 삽입합니다. |
 | SubsystemVersion | 생성된 실행 파일이 사용할 수 있는 하위 시스템의 최소 버전을 지정합니다. 이 속성은 `/subsystemversion` 컴파일러 스위치와 동일합니다. 이 속성의 기본값에 대한 자세한 내용은 [/subsystemversion(Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/subsystemversion) 또는 [/subsystemversion(C# 컴파일러 옵션)](/dotnet/csharp/language-reference/compiler-options/subsystemversion-compiler-option)을 참조하세요. |
 | TargetCompactFramework | 빌드하고 있는 애플리케이션을 실행하는 데 필요한 .NET Compact Framework의 버전입니다. 이를 지정하면 다른 경우에는 참조할 수 없는 특정 프레임워크 어셈블리를 참조할 수 있습니다. |
-| TargetFrameworkVersion | 빌드하고 있는 애플리케이션을 실행하는 데 필요한 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]의 버전입니다. 이를 지정하면 다른 경우에는 참조할 수 없는 특정 프레임워크 어셈블리를 참조할 수 있습니다. |
+| TargetFrameworkVersion | 빌드하고 있는 애플리케이션을 실행하는 데 필요한 .NET Framework의 버전입니다. 이를 지정하면 다른 경우에는 참조할 수 없는 특정 프레임워크 어셈블리를 참조할 수 있습니다. |
 | TreatWarningsAsErrors | `true`이면 모든 경고가 오류로 처리되도록 하는 부울 매개 변수입니다. 이 매개 변수는 `/nowarn` 컴파일러 스위치와 동일합니다. |
 | UseHostCompilerIfAvailable | `true`이면 빌드 작업에서 가능한 경우 in-process 컴파일러 개체를 사용하도록 하는 부울 매개 변수입니다. 이 매개 변수는 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서만 사용됩니다. |
 | Utf8Output | `true`이면 UTF-8 인코딩을 사용하여 컴파일러 출력을 기록하는 부울 매개 변수입니다. 이 매개 변수는 `/utf8Output` 컴파일러 스위치와 동일합니다. |

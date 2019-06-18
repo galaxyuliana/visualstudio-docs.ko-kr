@@ -5,12 +5,12 @@ title: Visual Studio 제품 | Microsoft Docs
 description: Visual Studio 제품군을 살펴보십시오.
 ms.topic: landing-page
 searchScope: []
-ms.openlocfilehash: 77d03ae304886be2e6c588ccea1c6e8be97efb15
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d103e0a92aebe077549f6be9f7da8666b5c6e4cd
+ms.sourcegitcommit: d4920babfc3d24a3fe1d4bf446ed3fe73b344467
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62777452"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67160100"
 ---
 <!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
@@ -30,7 +30,7 @@ ms.locfileid: "62777452"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-ide-2019.svg" src="./images/vs-ide-2019.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-ide-2019.svg" src="./images/vs-ide-2019.svg" alt="Visual Studio 2019 logo" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -49,11 +49,11 @@ ms.locfileid: "62777452"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mac-2019.svg" src="./images/vs-mac-2019.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-mac-2019.svg" src="./images/vs-mac-2019.svg" alt="Visual Studio for Mac" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Visual Studio for Mac</h3>
+                                                    <h3>Mac용 Visual Studio</h3>
                                                     <p>.NET을 사용하여 iOS, Android, 데스크톱 및 웹용 앱 및 게임을 개발합니다.</p>
                                                 </div>
                                             </div>
@@ -68,7 +68,7 @@ ms.locfileid: "62777452"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="Visual Studio Code" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -87,7 +87,7 @@ ms.locfileid: "62777452"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="Visual Studio App Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -106,7 +106,7 @@ ms.locfileid: "62777452"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-subscription-temp.svg" src="./images/vs-subscription-temp.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-subscription-temp.svg" src="./images/vs-subscription-temp.svg" alt="Visual Studio Subscriptions" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -125,7 +125,7 @@ ms.locfileid: "62777452"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="Azure DevOps Services - formerly Visual Studio Team Services (VSTS)" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -144,7 +144,7 @@ ms.locfileid: "62777452"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="Azure DevOps Server - formerly Team Foundation Server (TFS)" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

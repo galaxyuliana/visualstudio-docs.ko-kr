@@ -3,19 +3,19 @@ title: 프로젝트에 NuGet 패키지 포함하기
 description: 이 문서에서는 Xamarin 프로젝트에 NuGet 패키지를 포함하는 방법을 다룹니다. 여기에서는 IDE 통합 기능을 소개할 뿐 아니라 패키지를 찾아 다운로드하는 방법도 살펴봅니다.
 author: conceptdev
 ms.author: crdun
-ms.date: 04/14/2017
+ms.date: 04/24/2019
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: video
-ms.openlocfilehash: 9f96354d9e460cebd81f52712f74dc6226f8706d
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 7ac4a10160a1273dd7766e880dfcf7f06bf64668
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65692330"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820616"
 ---
 # <a name="include-a-nuget-package-in-your-project"></a>프로젝트에 NuGet 패키지 포함
 
-NuGet은 가장 인기 있는 .NET 개발용 패키지 관리자이며 Mac용 Visual Studio와 Windows용 Visual Studio에 내장되어 있습니다. 두 IDE 중 하나를 사용하여 패키지를 검색하고 Xamarin.iOS 및 Xamarin.Android 프로젝트에 추가할 수 있습니다.
+NuGet은 가장 인기 있는 .NET 개발용 패키지 관리자이며 Mac용 Visual Studio와 Windows용 Visual Studio에 내장되어 있습니다. 두 IDE 중 하나를 사용하여 패키지를 검색하고 Xamarin, .NET Core 및 ASP.NET 프로젝트에 추가할 수 있습니다.
 
 이 문서에서는 프로젝트에 NuGet 패키지를 포함하는 방법을 설명하고 이 프로세스를 원활하게 하는 도구 체인을 보여줍니다.
 
@@ -31,7 +31,7 @@ NuGet 패키지 기능을 보여주기 위해 먼저 새로운 애플리케이�
 
 ## <a name="adding-a-package"></a>패키지 추가하기
 
-Mac용 Visual Studio에서 프로젝트를 연 상태로 **Solution Pad**의 **패키지** 폴더를 마우스 오른쪽 단추로 클릭하고 **패키지 추가**를 선택합니다.
+Mac용 Visual Studio에서 프로젝트를 연 상태로 **Solution Pad**의 **패키지** 폴더를 마우스 오른쪽 단추로 클릭하고 **NuGet 패키지 추가**를 선택합니다.
 
 ![새 NuGet 패키지 컨텍스트 작업 추가하기](media/nuget-walkthrough-PackagesMenu.png)
 
@@ -43,9 +43,9 @@ Mac용 Visual Studio에서 프로젝트를 연 상태로 **Solution Pad**의 **�
 
 ![NuGet 패키지 목록](media/nuget-walkthrough-AddPackages1.png)
 
-오른쪽 위 모서리의 검색 상자를 사용하여 특정 패키지(예:  `azure`)를 검색합니다. 사용하려는 패키지를 찾아서 선택하고  **패키지 추가**  단추를 클릭하여 설치를 시작합니다.
+오른쪽 위 모서리의 검색 상자를 사용하여 특정 패키지(예:  `azure mobile`)를 검색합니다. 사용하려는 패키지를 찾아서 선택하고  **패키지 추가**  단추를 클릭하여 설치를 시작합니다.
 
-[Azure NuGet 패키지 추가하기](media/nuget-walkthrough-AddPackages2.png)
+![Azure NuGet 패키지 추가](media/nuget-walkthrough-AddPackages2.png)
 
 패키지가 다운로드된 후 프로젝트에 추가됩니다. 솔루션은 다음과 같이 변경됩니다.
 
@@ -77,9 +77,9 @@ using Newtonsoft.Json;
 
 ![패키지 메뉴](media/nuget-walkthrough-PackagesMenu.png)
 
-* **패키지 추가** - 프로젝트에 패키지를 더 추가하기 위한 창을 엽니다.
-* **업데이트** - 각 패키지에 대해 소스 서버를 확인하고 모든 최신 버전을 다운로드합니다.
-* **복원** - 기존 패키지를 최신 버전으로 업데이트하지 않고 모든 누락된 패키지를 다운로드합니다.
+*   **NuGet 패키지 추가** - 프로젝트에 패키지를 더 추가하기 위한 창을 엽니다.
+*   **업데이트** - 각 패키지에 대해 소스 서버를 확인하고 모든 최신 버전을 다운로드합니다.
+*   **복원** - 기존 패키지를 최신 버전으로 업데이트하지 않고 모든 누락된 패키지를 다운로드합니다.
 
 업데이트 및 복원 옵션은 솔루션 수준에서도 사용 가능하며, 솔루션 내의 모든 프로젝트에 영향을 줍니다.
 

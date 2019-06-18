@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: dc3a49c586b7a8f5a67d6c1a3a77d00772698389
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f71e17eae1e728ab755d048daee2c0d156425964
+ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62793405"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66747594"
 ---
 # <a name="develop-with-visual-f-in-visual-studio"></a>Visual F#을 사용하여 Visual Studio에서 개발
 
@@ -48,7 +48,7 @@ Visual Studio의 F#에서 다양한 프로젝트 및 항목 템플릿을 사용�
 |다중 대상 지정|예||
 |아이콘 및 매니페스트|아니요|컴파일러 명령줄 옵션을 통해 사용할 수 있습니다.|
 |ASP.NET 클라이언트 서비스|아니요||
-|ClickOnce|아니요|해당하는 경우에 다른 .NET Framework 언어에서 클라이언트 프로젝트를 사용합니다.|
+|ClickOnce|아니요|해당하는 경우에 다른 .NET 언어에서 클라이언트 프로젝트를 사용합니다.|
 |강력한 이름 지정|아니요|컴파일러 명령줄 옵션을 통해 사용할 수 있습니다.|
 |어셈블리 게시 및 버전 관리|아니요||
 |코드 분석|아니요|코드 분석 도구를 수동으로 또는 빌드 후 명령의 일부로 실행할 수 있습니다.|
@@ -60,7 +60,7 @@ Visual Studio의 F#에서 다양한 프로젝트 및 항목 템플릿을 사용�
 
 |프로젝트 디자이너 페이지|관련 링크|설명|
 | - |-------------|-----------|
-|애플리케이션|[애플리케이션 페이지, 프로젝트 디자이너](reference/application-page-project-designer-csharp.md)|라이브러리 또는 실행 파일을 만드는지 여부, 애플리케이션이 대상으로 지정하는 .NET Framework의 버전 및 애플리케이션이 사용하는 리소스 파일이 저장되는 위치에 대한 정보와 같은 애플리케이션 수준 설정 및 속성을 지정할 수 있습니다.|
+|애플리케이션|[애플리케이션 페이지, 프로젝트 디자이너](reference/application-page-project-designer-csharp.md)|라이브러리 또는 실행 파일을 만드는지 여부, 애플리케이션이 대상으로 지정하는 .NET의 버전 및 애플리케이션이 사용하는 리소스 파일이 저장되는 위치에 대한 정보와 같은 애플리케이션 수준 설정 및 속성을 지정할 수 있습니다.|
 |빌드|[프로젝트 디자이너, 빌드 페이지](reference/build-page-project-designer-csharp.md)|코드가 컴파일되는 방식을 제어할 수 있습니다.|
 |빌드 이벤트|[빌드 이벤트 페이지, 프로젝트 디자이너](reference/build-events-page-project-designer-csharp.md)|컴파일 전후에 실행할 명령을 지정할 수 있습니다.|
 |디버그|[프로젝트 디자이너, 디버그 페이지](reference/debug-page-project-designer.md)|디버깅하는 동안 애플리케이션 실행 방식을 제어할 수 있습니다. 사용할 명령 및 애플리케이션의 시작 디렉터리, 네이티브 코드 및 SQL과 같이 활성화하려는 특수한 디버깅 모드가 포함됩니다.|
@@ -89,7 +89,7 @@ Visual Studio 코드 및 텍스트 편집기의 다음 기능은 F#에서 지원
 |들여쓰기 변경|선택한 줄을 들여쓰거나 내어씁니다.|예|
 |스마트 들여쓰기|F# 범위 지정 규칙에 따라 커서를 자동으로 들여쓰고 들여쓰기를 취소합니다.|예|
 |[텍스트 찾기 및 바꾸기](finding-and-replacing-text.md)|파일, 프로젝트 또는 솔루션에서 검색하고 잠재적으로 텍스트를 변경할 수 있습니다.|예|
-|.NET Framework API에 대한 정의로 이동|.NET Framework API에 커서를 놓으면 .NET Framework 메타데이터에서 생성된 코드를 보여 줍니다.|아니요|
+|.NET API에 대한 정의로 이동|.NET API에 커서를 놓으면 .NET 메타데이터에서 생성된 코드를 보여 줍니다.|아니요|
 |사용자 정의 API에 대한 정의로 이동|지정한 프로그램 엔터티에 커서를 놓으면 엔터티가 정의된 위치의 코드에서 해당 위치로 커서를 이동합니다.|예|
 |줄 이동|줄 번호에 따라 파일에서 특정 줄로 이동할 수 있습니다.|예|
 |파일의 위쪽에 있는 탐색 모음|함수 이름과 같은 코드에 있는 위치로 점프할 수 있습니다.|예|

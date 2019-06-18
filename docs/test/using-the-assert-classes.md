@@ -11,12 +11,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: d9d02ee375a5b9e6069a94cd7b534b871792088a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d145734dc89faafcedbca6730f0a90da174376c4
+ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62962014"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66820316"
 ---
 # <a name="use-assert-classes-for-unit-testing"></a>단위 테스트를 위한 Assert 클래스 사용
 
@@ -45,7 +45,7 @@ ms.locfileid: "62962014"
 
 새 Assert 예외 클래스를 작성하는 경우 해당 클래스가 기본 클래스 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException>에서 속성을 상속하도록 하면 예외를 어설션 실패로 보다 쉽게 식별할 수 있으며, 테스트 또는 프로덕션 코드에서 예기치 않은 예외가 throw되지 않습니다.
 
-애플리케이션 코드의 메서드가 throw할 것으로 예상했던 예외가 실제로 해당 메서드에서 throw됨을 테스트 메서드가 확인하도록 하려는 경우 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute> 특성으로 테스트 메서드를 데코레이팅합니다.
+애플리케이션 코드의 메서드가 throw할 것으로 예상했던 예외가 실제로 해당 메서드에서 throw되었는지 확인하려면 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A?displayProperty=nameWithType> 메서드를 사용하세요.
 
 ## <a name="see-also"></a>참고 항목
 
