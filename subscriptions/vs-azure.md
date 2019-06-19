@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Azure 혜택을 활성화하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: c47012e0a06c4e4b44833b0f6727d3c7a79fd13c
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: e48430ecfb2632c9ed2cd80341055a75c9d86461
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65685916"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032210"
 ---
 # <a name="use-microsoft-azure-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 Microsoft Azure 사용
 
@@ -30,7 +30,6 @@ Visual Studio 구독자는 추가 비용 없이 Microsoft Azure를 사용할 수
 |              Visual Studio Professional 월간              |        사용할 수 없음        |                                                             |
 |                    Visual Studio Test Pro                    |     50 USD 월간 크레딧      |                             예                             |
 |                        MSDN 플랫폼                        |     100 USD 월간 크레딧     |                             예                             |
-|                 Visual Studio Dev Essentials                 | 무료 서비스 + 200 USD 크레딧 | 무료 서비스는 영구적으로 제공됩니다.  200 USD 크레딧은 한 번만 제공됩니다. |
 |               Visual Studio Enterprise - NFR\*               |     150 USD 월간 크레딧     |                             예                             |
 |                Visual Studio Enterprise - FTE                |     150 USD 월간 크레딧     |                             예                             |
 |     Visual Studio Enterprise - Microsoft 파트너 네트워크     |     150 USD 월간 크레딧     |                             예                             |

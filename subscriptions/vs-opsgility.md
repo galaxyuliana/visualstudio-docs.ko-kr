@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 Skill Me Up - Powered by Opsgility 교육 혜택에 대해 알아봅니다.
 searchscope: VS Subscriptions
-ms.openlocfilehash: 110ae0871e907a33dce20b059188919f645b4401
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c986eac1c98d2ba7b511cc01f03a823ced496d63
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62947006"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032812"
 ---
 # <a name="the-skill-me-up---powered-by-opsgility-training-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Skill Me Up - Powered by Opsgility 교육 혜택
 
@@ -39,8 +39,8 @@ ms.locfileid: "62947006"
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 3개월                                                            |아니요.  새 구독자만 사용할 수 있음         |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 3개월                                             |  아니요.  새 구독자만 사용할 수 있음         |
 | MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 3개월                                              | 아니요.  새 구독자만 사용할 수 있음         |
-| Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 | 해당 없음  |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
+||
 
 *제외:  MPN(Microsoft 파트너 네트워크), MVP(Most Valuable Professional), RD(Regional Director), Microsoft Certified Trainer, BizSpark, Imagine, NFR, FTE*
 

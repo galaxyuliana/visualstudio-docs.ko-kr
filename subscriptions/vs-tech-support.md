@@ -7,19 +7,19 @@ ms.date: 2/13/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 기술 지원 혜택을 활성화하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: e9b0d4c829f2ff6605885a26eec0a3ebd34282dd
-ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.openlocfilehash: 238fd0b4c79e5fb99c629d82386676ec175a2a17
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66402025"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032797"
 ---
 # <a name="activate-and-use-the-technical-support-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 기술 지원 혜택 활성화 및 사용
 
 Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://support.microsoft.com/lifecycle/search)의 기본 지원 단계에 여전히 있는 제품에 대해 **비-프로덕션 환경**의 중단 수정 문제 해결을 위한 것입니다. Visual Studio Enterprise 표준 및 연간 클라우드 구독은 네 개의 인시던트를 받고, Visual Studio Professional 표준 및 연간 클라우드 구독은 혜택 활성화 후 최대 1년 간 두 개의 인시던트를 받습니다. 혜택 활성화는 구독이 최신 상태인 동안 발생해야 합니다.
 
 > [!NOTE]
-> Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 https://visualstudio.microsoft.com/vs/pricing/으로 이동하여 Visual Studio 구독을 구입하기 위한 다양한 옵션을 살펴보세요.
+> Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 https://visualstudio.microsoft.com/vs/pricing/ 으로 이동하여 Visual Studio 구독을 구입하기 위한 다양한 옵션을 살펴보세요.
 
 > [!NOTE]
 > 지정된 수준의 일부 구독은 지원 인시던트를 받을 수 없습니다. FTE, NFR, MPN, MCT 및 기타 프로그램을 통해 취득한 구독은 지원 인시던트를 받을 수 없습니다. 구독에 기술 지원 인시던트를 받을 자격이 없는 경우 기술 지원 타일이 사용 가능한 혜택에 나타나지 않습니다.
@@ -104,7 +104,7 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
 
 Azure와 관련된 문제에 대해 Visual Studio 구독 기술 지원 혜택을 사용하려면 Azure 구독에 계약 ID 및 액세스 ID를 연결해야 합니다.
 
-1. [https://portal.azure.com](https://portal.azure.com)을 방문해 로그인
+1. [https://portal.azure.com](https://portal.azure.com )을 방문해 로그인
 2. 왼쪽 탐색에서 **도움말 + 지원**을 클릭합니다.
 3. “지원”에서 **새 지원 요청**을 클릭합니다.
 
@@ -116,8 +116,8 @@ Azure와 관련된 문제에 대해 Visual Studio 구독 기술 지원 혜택을
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품, 선택한 NFR<sup>2</sup>                                        | 인시던트 2개                                                          |예         |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 인시던트 2개                                             |  예         |
 | MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 인시던트 2개                                               | 예         |
-| Visual Studio Dev Essentials | 해당 없음 | 사용할 수 없음 |해당 없음|
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure                                       | 사용할 수 없음                                                           |해당 없음|
+||
 
 <sup>1</sup> *포함: Imagine Premium, BizSpark. 제외: NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, Imagine Standard, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services.*
 

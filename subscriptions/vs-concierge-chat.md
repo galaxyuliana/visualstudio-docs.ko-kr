@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Concierge Chat 혜택을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: fd190dbd22f25dd14e18d11f73ee17327fc8c27d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 51fb2242c87ba3d091f62bc2271aea60b56f1283
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62947864"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032199"
 ---
 # <a name="concierge-chat"></a>Concierge Chat
 
@@ -44,8 +44,8 @@ Concierge Chat 서비스를 통해 도움을 받는 것은 정말 간단합니�
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 사용 가능                                                            |  예          |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용 가능                                             |  예          |
 | MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용 가능                                              |  예          |
-| Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | 해당 없음 |
-| Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |N/A |
+| Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
+
 
 <sup>1</sup> 포함:*NFR(전매 금지), VSIP(Visual Studio 업계 파트너), Microsoft Certified Trainer, BizSpark,  제외:* FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), Imagine
 

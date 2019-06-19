@@ -7,12 +7,12 @@ ms.date: 04/03/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Visual Studio IDE를 다운로드하고 설치하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: af721e567e451c50533d0e476ec01acfa4022a53
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 5e836eac14cbf50abe79230444a4c8ee8c01643d
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63420805"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032864"
 ---
 # <a name="using-the-visual-studio-2019-benefit"></a>Visual Studio 2019 혜택 사용
 
@@ -68,8 +68,8 @@ IDE를 다운로드하려면
 | Visual Studio Enterprise(표준, 월간 클라우드)   | VL, Azure, 일반 정품, 선택한 NFR<sup>1</sup> | 사용 가능       |  예          |
 | Visual Studio Professional(표준, 월간 클라우드) | VL, Azure, 일반 정품                                       | 사용 가능                                                            |  예          |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용 가능                                             |  예         |
-| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              |  해당 없음          |
-| Visual Studio Dev Essentials | 해당 없음  | Visual Studio 커뮤니티 |예 |
+| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              |  N/A          |
+
 
 <sup>1</sup> 포함: *NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, Imagine, MVP(Most Valuable Professional), RD(Regional Director),  제외: MCT 소프트웨어 및 서비스.*
 

@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 DataCamp Training 구독에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 5d6f9d2a642a13b350e539383a1abb74835bf9d3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8e29f5d13c9869995aad0b7a6793304b677d54ba
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62948134"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032169"
 ---
 # <a name="the-datacamp-training-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 DataCamp Training 혜택
 
@@ -48,7 +48,7 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
    > [!div class="mx-imgBorder"]
    > ![DataCamp 데이터 과학 역량](_img/vs-datacamp/vs-datacamp-datascience.png)
 
-6. 선택한 경로와 옵션에 따라 경력 트랙 선택이 표시됩니다.   원하는 트랙에 대해 **등록**을 클릭합니다.
+6. 선택한 경로와 옵션에 따라 경력 트랙 선택이 표시됩니다.  원하는 트랙에 대해 **등록**을 클릭합니다.
    > [!div class="mx-imgBorder"]
    > ![DataCamp 경력 트랙](_img/vs-datacamp/vs-datacamp-all-tracks.png)
 
@@ -70,11 +70,10 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 3개월                                                            |  아니요.  새 구독자만 사용할 수 있음           |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 3개월                                             |  아니요.  새 구독자만 사용할 수 있음           |
 | MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 3개월                                              |  아니요.  새 구독자만 사용할 수 있음           |
-| Visual Studio Dev Essentials | 해당 없음  | 2개월 | 아니요. 새 구독자만 사용할 수 있음 |
 | Visual Studio Enterprise(Standard)  | NFR<sup>1</sup> |사용할 수 없음  | 해당 없음 |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
 
-<sup>1</sup> 포함:‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
+<sup>1</sup> 포함:  ‘NFR(전매금지), FTE, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), VSIP(Visual Studio Industry Partner), Microsoft Certified Trainer, BizSpark, Imagine’
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
