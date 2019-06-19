@@ -7,16 +7,16 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 일부 Visual Studio 구독에 포함된 Office 365 혜택을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 41f30d01dab1adf98d50789c4ebd418a7f002fb8
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 33e70c6208505df175161b248a60e0527f7b2a6b
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263121"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032832"
 ---
 # <a name="office-365-proplus-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Office 365 ProPlus
 
-최상의 작업을 만들 수 있습니다. 항상 업데이트되는 앱을 사용하여 어디서든 작업할 수 있습니다. Office 365 ProPlus는 Word, Excel, PowerPoint, OneNote, Outlook, Publisher 및 Access(PC에서만 사용 가능한 Publisher 및 Access)와 같은 프리미엄 앱과 함께 제공되는 구독입니다. PC, Mac, iPad, iPhone, Android 태블릿 및 Android 휴대폰을 포함한 여러 디바이스에 앱을 설치할 수 있습니다. Office 365에는 1TB의 OneDrive 스토리지, 매월 60분의 Skype 무료 통화, Microsoft 채팅 및 전화 지원과 같은 서비스도 포함됩니다. 구독을 사용할 경우 최신 버전의 앱을 다운로드할 수 있으며, 업데이트가 제공되면 자동으로 받을 수 있습니다.
+최상의 작업을 만들 수 있습니다. 항상 업데이트되는 앱을 사용하여 어디서든 작업할 수 있습니다. Office 365 ProPlus는 Word, Excel, PowerPoint, OneNote, Outlook, Publisher 및 Access(PC에서만 사용 가능한 Publisher 및 Access)와 같은 프리미엄 앱과 함께 제공되는 구독입니다. PC, Mac, iPad, iPhone, Android 태블릿 및 Android 휴대폰을 포함한 여러 디바이스에 앱을 설치할 수 있습니다. 구독을 사용할 경우 최신 버전의 앱을 다운로드할 수 있으며, 업데이트가 제공되면 자동으로 받을 수 있습니다.
 
 ## <a name="getting-started-with-office-365-proplus"></a>Office 365 ProPlus 시작
 
@@ -57,10 +57,10 @@ Office용 애플리케이션을 개발하려는 경우 [Office 개발자 구독]
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 사용할 수 없음                                                            |  해당 없음          |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 사용할 수 없음                                             |  해당 없음          |
 | MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 사용할 수 없음                                              |  해당 없음          |
-| Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | 해당 없음 |
-| Visual Studio Dev Essentials | 해당 없음  | 사용할 수 없음 |N/A |
+| Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) | Azure | 사용할 수 없음 | N/A |
+|  |
 
-<sup>1</sup> 포함: *NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크 
+<sup>1</sup> 포함: *NFR(전매금지), VSIP(Visual Studio Industry Partner), MPN(Microsoft 파트너 네트워크), FTE, MCT Software & Services Developer, BizSpark, MVP(Most Valuable Professional), RD(Regional Director), MCT Software & Services, Imagine, Microsoft 파트너 네트워크*
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.

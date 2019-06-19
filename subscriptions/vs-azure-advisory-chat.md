@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Azure Advisory Chat 이점을 활용하는 방법에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 03e55b29cea867d438ef0536a2db7ee9c4f47e36
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c5d547062fa820ff868fe12f8cb899d9d1e508b8
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62809108"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67033183"
 ---
 # <a name="azure-advisory-chat"></a>Azure Advisory Chat
 
@@ -42,9 +42,9 @@ Azure Advisory Chat을 사용하는 것은 간단합니다.
 | Visual Studio Professional(표준, 월간 클라우드) Visual Studio Enterprise(월간 클라우드, NFR<sup>1</sup>) |        모두        | 사용할 수 없음 |     아니요     |
 |                                          Visual Studio Test Professional(표준)                                          |        모두        | 사용할 수 없음 |     아니요     |
 |                                                  MSDN 플랫폼(표준)                                                   |        모두        | 사용할 수 없음 |     아니요     |
-|                                                 Visual Studio Dev Essentials                                                 |        해당 없음        | 사용할 수 없음 |     아니요     |
 
-<sup>1</sup> 포함:‘NFR(전매금지), MVP(Most Valuable Professional), RD(Regional Director), VSIP(Visual Studio Industry Partner), BizSpark, Imagine, MCT’
+
+<sup>1</sup> 포함:  ‘NFR(전매금지), MVP(Most Valuable Professional), RD(Regional Director), VSIP(Visual Studio Industry Partner), BizSpark, Imagine, MCT’
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.

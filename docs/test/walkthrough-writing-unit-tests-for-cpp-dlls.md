@@ -1,18 +1,18 @@
 ---
 title: '방법: C++ DLL의 단위 테스트 작성'
-ms.date: 05/01/2019
+ms.date: 06/13/2019
 ms.topic: conceptual
 ms.author: mblome
 manager: markl
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: 427b481da6feca902fda0e3058974034c72fe6f4
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 38d792ad9264c007dab296b65aa330dfa142769e
+ms.sourcegitcommit: ab06cde69d862440b4277bcd9bf02e7b50593a1b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226283"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67132158"
 ---
 # <a name="how-to-write-unit-tests-for-c-dlls"></a>방법: C++ DLL의 단위 테스트 작성
 
@@ -38,7 +38,7 @@ ms.locfileid: "65226283"
 
 1. **파일** 메뉴에서 **새로 만들기** > **프로젝트**를 차례로 선택합니다.
 
-     **Visual Studio 2017 및 이전 버전**: **설치됨** > **템플릿** > **Visual C++** > **테스트**를 차례로 확장합니다.
+     **Visual Studio 2017 및 이전 버전**: **설치됨** > **템플릿** > **Visual C++**  > **테스트**를 차례로 확장합니다.
      **Visual Studio 2019**: **언어**를 C++로 설정하고 검색 상자에 "test"를 입력합니다.
 
      **기본 단위 테스트 프로젝트** 템플릿을 선택하거나, 원하는 설치된 프레임워크를 선택합니다. Google Test나 Boost.Test 같은 다른 템플릿을 선택해도 기본 원칙은 같고 세부 정보가 일부 달라집니다.
@@ -152,13 +152,9 @@ ms.locfileid: "65226283"
 
 1. DLL 프로젝트를 테스트 프로젝트의 프로젝트 참조에 추가합니다.
 
-   1. 테스트 프로젝트의 속성을 열고 **공용 속성** > **프레임워크 및 참조**를 선택합니다.
+   1. **솔루션 탐색기**에서 테스트 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **추가** > **참조**를 선택합니다.
 
-        ![C++ 프로젝트 속성 | 프레임워크 및 참조](../test/media/utecpp08.png)
-
-   2. **새 참조 추가**를 선택합니다.
-
-        **참조 추가** 대화 상자에서 DLL 프로젝트를 선택하고 **추가**를 선택합니다.
+   2. **참조 추가** 대화 상자에서 DLL 프로젝트를 선택하고 **추가**를 선택합니다.
 
         ![C++ 프로젝트 속성 | 새 참조 추가](../test/media/utecpp09.png)
 

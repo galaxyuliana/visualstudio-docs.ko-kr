@@ -7,12 +7,12 @@ ms.date: 09/19/2018
 ms.topic: conceptual
 description: Azure DevOps를 Visual Studio 구독자로 사용할 수 있는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: dbd08914123455fe0fc9db6dd6927dfe9e49b22e
-ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
+ms.openlocfilehash: 99f2ca88f5cc5c543f546ff71a8f414f44adf177
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66177726"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032224"
 ---
 # <a name="azure-devops-benefits-for-visual-studio-subscribers"></a>Visual Studio 구독자용 Azure DevOps 혜택
 
@@ -30,6 +30,7 @@ Visual Studio 구독을 활성화하는 데 사용한 것과 동일한 ID 또는
 | Visual Studio Professional(표준, 월간 클라우드) | VL, Azure, 일반 정품,                                        | Azure Boards & Repos(기본), Azure Artifacts<sup>2</sup>                                                            |  예          |
 | Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | Azure Boards & Repos(기본), Azure Test Plans                                              |  예          |
 | MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | Azure Boards & Repos(기본), Azure Test Plans                                              |  예          |
+||
 
 <sup>1</sup> 포함: *NFR(전매금지), MVP(Most Valuable Professional), RD(Regional Director), VSIP(Visual Studio Industry Partner), Microsoft 파트너 네트워크(Enterprise), BizSpark, MCT Software & Services Developer, 제외: MCT Software & Services, Imagine.*
 

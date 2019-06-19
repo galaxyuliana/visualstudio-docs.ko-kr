@@ -7,12 +7,12 @@ ms.date: 01/25/2019
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 Pluralsight 교육 구독에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 0b4211fbba6a5f1602906a281869b40068f3d6f1
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: cc96d9c088a270342be792a2e7514e172a72ea45
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65225517"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032772"
 ---
 # <a name="pluralsight-training-benefits-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Pluralsight 교육 혜택
 
@@ -72,11 +72,11 @@ ms.locfileid: "65225517"
 |         Visual Studio Professional(표준)          | VL, Azure, 일반 정품 |   3개월    | 예<sup>2</sup> |
 |              Visual Studio Test Professional(표준)              |    VL, 일반 정품     |   3개월    | 아니요 |
 |                      MSDN 플랫폼(표준)                       |    VL, 일반 정품     |   3개월    | 아니요 |
-|                     Visual Studio Dev Essentials                     |        해당 없음         |   1개월    |       아니요       |
 | Visual Studio Enterprise, Visual Studio Professional(월간 클라우드) |       Azure       | 사용할 수 없음 |       해당 없음       |
 |             Visual Studio Enterprise(NFR<sup>1</sup>)              |      프로그램      | 사용할 수 없음 |       해당 없음       |
+||
 
-<sup>1</sup> 포함:NFR(전매금지), VSIP(Visual Studio Industry Partner), BizSpark, MCT Software & Services Developer, MCT Software & Services, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), FTE, Imagine
+<sup>1</sup> 포함:  NFR(전매금지), VSIP(Visual Studio Industry Partner), BizSpark, MCT Software & Services Developer, MCT Software & Services, MVP(Most Valuable Professional), RD(Regional Director), MPN(Microsoft 파트너 네트워크), FTE, Imagine
 
 <sup>2</sup>  *선택된 Visual Studio 구독의 Pluralsight 혜택은 구독이 갱신되면 갱신됩니다. 예를 들어 매년 갱신되는 연간 구독이 있는 경우 매년 갱신할 때마다 혜택이 제공됩니다. 다년간 구독이 있는 경우 구독 기간 중에 한 번 Pluralsight 혜택이 제공됩니다.  다년간 구독을 갱신하면 갱신 후 혜택이 다시 제공됩니다.*
 

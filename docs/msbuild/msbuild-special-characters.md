@@ -1,6 +1,6 @@
 ---
 title: MSBuild 특수 문자 | Microsoft Docs
-ms.date: 11/04/2016
+ms.date: 06/12/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - escape characters
@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a7af1f137624c0af1fce02fde524d7fb4178cbad
-ms.sourcegitcommit: db30651dc0ce4d0b274479b23a6bd102a5559098
+ms.openlocfilehash: cf312c1b73dbed58cc261c77a74555d00b0b04ba
+ms.sourcegitcommit: fd5a5b057df3d733f5224c305096907989811f85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "65084051"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67195068"
 ---
 # <a name="msbuild-special-characters"></a>MSBuild 특수 문자
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]는 특정 컨텍스트에서 특별한 용도로 사용할 일부 문자를 예약합니다. 예약된 컨텍스트에서 문자 그대로 사용하려는 경우 이러한 문자를 이스케이프 처리해야 합니다. 예를 들어 별표는 항목 정의의 `Include` 및 `Exclude` 특성 및 `CreateItem`에 대한 호출에서만 특별한 의미를 가집니다. 별표를 해당 컨텍스트 중 하나에서 별표로 표시하려면 이스케이프 처리해야 합니다. 모든 다른 컨텍스트에서 별표를 표시하려는 곳에 입력합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "65084051"
 |%|%25|메타데이터 참조|
 |$|%24|속성 참조|
 |@|%40|항목 목록 참조|
-|&#96;|%27|조건 및 기타 식|
+|'|%27|조건 및 기타 식|
 |;|%3B|목록 구분 기호|
 |?|%3F|`Include` 및 `Exclude` 특성의 파일 이름에 대한 와일드 카드 문자|
 |*|%2A|`Include` 및 `Exclude` 특성의 파일 이름에서 사용할 와일드 카드 문자|
