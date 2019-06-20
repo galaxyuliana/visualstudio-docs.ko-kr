@@ -38,7 +38,7 @@
   items:
     - name: 디버거로 코드 탐색
       href: navigating-through-code-with-the-debugger.md
-    - name: 중단점 사용
+    - name: 일시 중지 코드
       items:
         - name: 중단점 사용
           href: using-breakpoints.md
@@ -46,17 +46,17 @@
           href: troubleshooting-breakpoints.md
     - name: 데이터 검사
       items:
-        - name: 데이터 검사
+        - name: 디버거 창에서 데이터 검사
           href: debugger-windows.md
         - name: 변수 검사
           href: autos-and-locals-windows.md
-        - name: 변수에 조사식 설정
+        - name: 변수 보기
           items:
             - name: 변수에 조사식 설정
               href: watch-and-quickwatch-windows.md
             - name: 디버거의 식
               items:
-                - name: 디버거의 식
+                - name: 디버거 식 사용
                   href: expressions-in-the-debugger.md
                 - name: C++의 형식 지정자
                   href: format-specifiers-in-cpp.md
@@ -70,13 +70,13 @@
           href: view-data-values-in-data-tips-in-the-code-editor.md
         - name: 시각화 도우미에서 문자열 값 보기
           href: view-strings-visualizer.md
-        - name: 디스어셈블리 코드 보기
+        - name: 디스어셈블리 코드
           items:
             - name: 디스어셈블리 코드 보기
               href: how-to-use-the-disassembly-window.md
             - name: 메모리에서 페이지 위로 또는 아래로
               href: how-to-page-up-or-down-in-memory.md
-        - name: 레지스터 값 보기
+        - name: 레지스터 값
           items:
             - name: 레지스터 값 보기
               href: how-to-use-the-registers-window.md
@@ -90,7 +90,7 @@
           href: memory-windows.md
         - name: 디버그하는 동안 XAML 속성 검사
           href: inspect-xaml-properties-while-debugging.md
-    - name: 호출 스택 보기
+    - name: 호출 스택
       items:
         - name: 호출 스택 보기
           href: how-to-use-the-call-stack-window.md
@@ -98,7 +98,7 @@
           href: map-methods-on-the-call-stack-while-debugging-in-visual-studio.md
         - name: 호출 스택 창의 혼합 코드 및 누락된 정보
           href: mixed-code-and-missing-information-in-the-call-stack-window.md
-    - name: 코드를 편집하며 디버그 계속하기
+    - name: 코드 일시 중지 및 계속
       items:
         - name: 코드를 편집하며 디버그 계속하기
           href: edit-and-continue.md
@@ -108,13 +108,13 @@
           href: how-to-stop-code-changes.md
         - name: Edit and Continue (Visual C++)
           items:
-            - name: Edit and Continue (Visual C++)
+            - name: Visual C++의 편집하며 계속하기
               href: edit-and-continue-visual-cpp.md
             - name: 지원되는 코드 변경(C++)
               href: supported-code-changes-cpp.md
         - name: '편집하며 계속하기(Visual C#)'
           items:
-            - name: '편집하며 계속하기(Visual C#)'
+            - name: 'C#의 편집하며 계속하기'
               href: edit-and-continue-visual-csharp.md
             - name: '편집하며 계속하기 사용(C#)'
               href: how-to-use-edit-and-continue-csharp.md
@@ -122,7 +122,7 @@
               href: supported-code-changes-csharp.md
         - name: 편집하며 계속하기(Visual Basic)
           items:
-            - name: 편집하며 계속하기(Visual Basic)
+            - name: Visual Basic의 편집하며 계속하기
               href: edit-and-continue-visual-basic.md
             - name: 편집하며 계속하기를 사용하여 중단 모드에서 편집 적용
               href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
@@ -132,7 +132,7 @@
           href: edit-and-continue-not-supported-for-f-hash.md
     - name: 디버거 데이터 보기
       items:
-        - name: 모듈 보기
+        - name: 모듈
           items:
             - name: 모듈 보기
               href: how-to-use-the-modules-window.md
@@ -140,7 +140,7 @@
               href: how-to-find-which-dll-your-program-crashed-in.md
         - name: 스크립트 문서 보기
           href: how-to-view-script-documents.md
-    - name: 디버거 팁과 요령
+    - name: 팁과 요령
       items:
         - name: 디버거 팁과 요령
           href: debugger-tips-and-tricks.md
@@ -148,7 +148,7 @@
           href: attach-to-running-processes-with-the-visual-studio-debugger.md
         - name: 디자인 타임 시 디버그
           href: walkthrough-debugging-at-design-time.md
-        - name: Just-In-Time 디버거를 사용하여 디버그
+        - name: Just-In-Time 디버거
           items:
             - name: Just-In-Time 디버거를 사용하여 디버그
               href: debug-using-the-just-in-time-debugger.md
@@ -156,7 +156,7 @@
               href: just-in-time-debugging-in-visual-studio.md
     - name: 디버깅 구성
       items:
-        - name: 디버거를 사용한 예외 관리
+        - name: 예외
           items:
             - name: 디버거를 사용한 예외 관리
               href: managing-exceptions-with-the-debugger.md
@@ -164,7 +164,7 @@
               href: continuing-execution-after-an-exception.md
             - name: 예외 발생 후 시스템 코드 검사
               href: how-to-examine-system-code-after-an-exception.md
-            - name: 네이티브 런타임 검사 사용
+            - name: 네이티브 런타임 검사
               items:
                 - name: 네이티브 런타임 검사 사용
                   href: how-to-use-native-run-time-checks.md
@@ -178,19 +178,19 @@
           href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
         - name: 사용자 코드 디버그
           href: just-my-code.md
-        - name: 디버거 설정 및 준비
+        - name: '디버거, 설정'
           items:
             - name: 디버거 설정 및 준비
               href: debugger-settings-and-preparation.md
             - name: 디버거 프로젝트 설정
               items:
-                - name: 디버거 프로젝트 설정
+                - name: 프로젝트 설정
                   href: debugger-project-settings.md
                 - name: 디버거 설정 지정
                   href: how-to-specify-debugger-settings.md
                 - name: 디버그 및 릴리스 구성 설정
                   href: how-to-set-debug-and-release-configurations.md
-                - name: C++ 디버그 구성에 대한 프로젝트 설정
+                - name: 프로젝트 설정(C++)
                   items:
                     - name: C++ 디버그 구성에 대한 프로젝트 설정
                       href: project-settings-for-a-cpp-debug-configuration.md
@@ -202,7 +202,7 @@
                   href: project-settings-for-csharp-debug-configurations.md
                 - name: Visual Basic 디버그 구성을 위한 프로젝트 설정
                   href: project-settings-for-a-visual-basic-debug-configuration.md
-            - name: DLL 프로젝트 디버그
+            - name: DLL 프로젝트
               items:
                 - name: DLL 프로젝트 디버그
                   href: debugging-dll-projects.md
@@ -218,17 +218,17 @@
               href: debugging-and-the-hosting-process.md
             - name: 디버깅을 위한 .NET Framework 버전 지정
               href: how-to-specify-a-dotnet-framework-version-for-debugging.md
-        - name: 데이터의 사용자 지정 뷰 만들기
+        - name: 사용자 지정 보기
           items:
             - name: 데이터의 사용자 지정 뷰 만들기
               href: viewing-data-in-the-debugger.md
-            - name: C++ 개체의 사용자 지정 뷰 만들기
+            - name: 사용자 지정 뷰(C++)
               items:
                 - name: C++ 개체의 사용자 지정 뷰 만들기
                   href: create-custom-views-of-native-objects.md
                 - name: Visual C++ 사용자 지정 시각화 도우미 호환성
                   href: visual-cpp-custom-visualizer-compatibility.md
-            - name: 관리 개체의 사용자 지정 뷰 만들기
+            - name: 사용자 지정 뷰(관리형)
               items:
                 - name: 관리 개체의 사용자 지정 뷰 만들기
                   href: create-custom-views-of-dot-managed-objects.md
@@ -236,7 +236,7 @@
                   href: using-the-debuggerdisplay-attribute.md
                 - name: 디버거에 표시할 유형 지시
                   href: using-debuggertypeproxy-attribute.md
-            - name: 데이터의 사용자 지정 시각화 도우미 만들기
+            - name: 사용자 지정 시각화 도우미
               items:
                 - name: 데이터의 사용자 지정 시각화 도우미 만들기
                   href: create-custom-visualizers-of-data.md
@@ -276,7 +276,7 @@
           href: configure-the-windows-firewall-for-remote-debugging.md
         - name: Windows Server에서 다운로드 차단 해제
           href: remote-debugging-unblock-file-download.md
-        - name: 원격 디버깅 오류 및 문제 해결
+        - name: 원격 디버깅 오류 참조
           items:
             - name: 원격 디버깅 오류 및 문제 해결
               href: remote-debugging-errors-and-troubleshooting.md
@@ -324,7 +324,7 @@
               href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
             - name: 원격 컴퓨터는 원격 연결 대화 상자에 표시되지 않습니다.
               href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
-    - name: 다중 스레드 애플리케이션 디버그
+    - name: 다중 스레드 앱 디버깅
       items:
         - name: 다중 스레드 애플리케이션 디버그
           href: debug-multithreaded-applications-in-visual-studio.md
@@ -332,7 +332,7 @@
           href: get-started-debugging-multithreaded-apps.md
         - name: 스레드 및 프로세스 디버그 도구
           items:
-            - name: 스레드 및 프로세스 디버그 도구
+            - name: 스레드 및 프로세스 디버그
               href: debug-threads-and-processes.md
             - name: 병렬 스택 창 사용
               href: using-the-parallel-stacks-window.md
@@ -364,7 +364,7 @@
           href: how-to-set-a-thread-name-in-managed-code.md
     - name: IntelliTrace
       items:
-        - name: IntelliTrace
+        - name: IntelliTrace 개요
           href: intellitrace.md
         - name: IntelliTrace로 스냅숏 보기
           href: view-snapshots-with-intellitrace.md
@@ -376,7 +376,7 @@
           href: historical-debugging.md
         - name: 기록 디버깅을 사용하여 앱 검사
           href: historical-debugging-inspect-app.md
-        - name: 배포 후 문제 진단
+        - name: 배포 후
           items:
             - name: 배포 후 문제 진단
               href: diagnose-problems-after-deployment.md
@@ -388,7 +388,7 @@
           href: using-saved-intellitrace-data.md
         - name: IntelliTrace 확장성을 위한 API 참조
           href: api-reference-for-intellitrace-extensibility.md
-    - name: Azure 서비스 디버그
+    - name: Azure 서비스
       items:
         - name: Azure 서비스 디버그
           href: debug-azure-apps.md
@@ -404,17 +404,17 @@
           href: debug-live-azure-apps-troubleshooting.md
         - name: 시간 이동 디버깅 라이브 Azure 가상 머신 앱
           href: debug-live-azure-virtual-machines-time-travel-debugging.md
-    - name: 특정 애플리케이션 형식 디버그
+    - name: 애플리케이션 종류
       items:
         - name: 특정 애플리케이션 형식 디버그
           href: debugging-applications.md
         - name: 64비트 애플리케이션 디버그
           href: debug-64-bit-applications.md
-        - name: UWP 앱 디버그
+        - name: UWP 앱
           items:
             - name: UWP 앱 디버그
               href: debugging-windows-store-and-windows-universal-apps.md
-            - name: UWP 앱에 대한 디버깅 세션 시작
+            - name: 디버깅 세션 시작(UWP)
               items:
                 - name: UWP 앱에 대한 디버깅 세션 시작
                   href: start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md
@@ -428,7 +428,7 @@
               href: debug-installed-app-package.md
             - name: Blend에서 XAML 디버그
               href: debug-xaml-in-blend.md
-            - name: HTML 및 CSS 디버그
+            - name: HTML 및 CSS
               items:
                 - name: HTML 및 CSS 디버그
                   href: quickstart-debug-html-and-css.md
@@ -444,11 +444,11 @@
               href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
             - name: Microsoft Store 앱용 콘텐츠 프리페치
               href: prefetch-content-for-windows-store-apps.md
-        - name: 관리 코드 디버그
+        - name: 관리 코드
           items:
             - name: 관리 코드 디버그
               href: debugging-managed-code.md
-            - name: '디버깅 준비 중: C#, F# 및 Visual Basic 프로젝트 형식'
+            - name: 디버깅 준비
               items:
                 - name: '디버깅 준비 중: C#, F# 및 Visual Basic 프로젝트 형식'
                   href: debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md
@@ -478,7 +478,7 @@
               href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
             - name: .NET Framework 소스 디버그
               href: how-to-debug-dotnet-framework-source.md
-            - name: WPF 디버그
+            - name: WPF
               items:
                 - name: WPF 디버그
                   href: debugging-wpf.md
@@ -488,7 +488,7 @@
                   href: how-to-display-wpf-trace-information.md
             - name: 'F# 디버그'
               href: debugging-f-hash.md
-        - name: 네이티브 코드 디버그
+        - name: 네이티브 코드
           items:
             - name: 네이티브 코드 디버그
               href: debugging-native-code.md
@@ -504,7 +504,7 @@
               href: how-to-debug-inline-assembly-code.md
             - name: MFC 디버깅 기술
               href: mfc-debugging-techniques.md
-            - name: CRT 디버깅 기술
+            - name: CRT 디버깅
               items:
                 - name: CRT 디버깅 기술
                   href: crt-debugging-techniques.md
@@ -516,7 +516,7 @@
                   href: debug-versions-of-heap-allocation-functions.md
                 - name: CRT 디버그 힙 정보
                   href: crt-debug-heap-details.md
-                - name: 디버그 후크 함수 작성
+                - name: 후크 함수
                   items:
                     - name: 디버그 후크 함수 작성
                       href: debug-hook-function-writing.md
@@ -524,7 +524,7 @@
                       href: client-block-hook-functions.md
                     - name: 할당 후크 함수
                       items:
-                        - name: 할당 후크 함수
+                        - name: 할당 후크 함수 디버그
                           href: allocation-hook-functions.md
                         - name: 할당 후크 및 C 런타임 메모리 할당
                           href: allocation-hooks-and-c-run-time-memory-allocations.md
@@ -556,17 +556,17 @@
                   href: how-can-i-debug-windows-api-functions-q.md
                 - name: 중지된 경우 MFC를 호출한 함수로 돌아가기
                   href: how-to-get-back-to-the-function-that-called-mfc-if-halted.md
-            - name: COM 및 ActiveX 디버깅
+            - name: COM 및 ActiveX
               items:
                 - name: COM 및 ActiveX 디버깅
                   href: com-and-activex-debugging.md
-                - name: COM 서버 및 컨테이너 디버깅
+                - name: COM 서버 및 컨테이너
                   items:
                     - name: COM 서버 및 컨테이너 디버깅
                       href: com-server-and-container-debugging.md
                     - name: RPC 디버깅을 사용하여 COM 클라이언트 및 서버 디버그
                       href: how-to-debug-com-clients-and-servers-using-rpc-debugging.md
-                - name: ActiveX 컨트롤 디버그
+                - name: ActiveX 컨트롤
                   items:
                     - name: ActiveX 컨트롤 디버그
                       href: how-to-debug-an-activex-control.md
@@ -580,7 +580,7 @@
           href: debugging-gpu-code.md
         - name: 그래픽 진단
           href: graphics/toc.yml
-        - name: ASP.NET 애플리케이션 디버그
+        - name: ASP.NET
           items:
             - name: ASP.NET 애플리케이션 디버그
               href: how-to-enable-debugging-for-aspnet-applications.md
@@ -596,11 +596,11 @@
               href: walkthrough-debugging-a-web-form.md
             - name: ASP.NET 예외 디버그
               href: how-to-debug-aspnet-exceptions.md
-            - name: '웹 애플리케이션 디버그: 오류 및 문제 해결'
+            - name: '웹앱: 오류 및 문제 해결'
               items:
                 - name: '웹 애플리케이션 디버그: 오류 및 문제 해결'
                   href: debugging-web-applications-errors-and-troubleshooting.md
-                - name: '웹 애플리케이션 디버그: 문제 해결'
+                - name: '웹앱: 문제 해결'
                   items:
                     - name: '웹 애플리케이션 디버그: 문제 해결'
                       href: debugging-web-applications-troubleshooting.md
@@ -618,7 +618,7 @@
                   href: error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md
                 - name: 웹 서비스를 디버깅하는 동안 시간이 초과됨
                   href: error-timeout-while-debugging-web-services.md
-                - name: 웹 서버에서 디버깅을 시작할 수 없음
+                - name: 디버깅을 시작할 수 없음
                   items:
                     - name: 웹 서버에서 디버깅을 시작할 수 없음
                       href: error-unable-to-start-debugging-on-the-web-server.md
@@ -626,7 +626,7 @@
                       href: error-the-web-server-could-not-find-the-requested-resource.md
                     - name: 웹 서버가 제대로 구성되어 있지 않습니다.
                       href: error-the-web-server-is-not-configured-correctly.md
-        - name: 웹 애플리케이션 디버그
+        - name: 웹앱
           items:
             - name: 웹 애플리케이션 디버그
               href: debugging-web-applications.md
@@ -634,19 +634,19 @@
               href: javascript-console-commands.md
             - name: 바로 가기 키(HTML 및 JavaScript)
               href: keyboard-shortcuts-html-and-javascript.md
-            - name: 클라이언트 쪽 스크립트 디버깅
+            - name: 클라이언트 쪽 스크립트
               items:
                 - name: 클라이언트 쪽 스크립트 디버깅
                   href: client-side-script-debugging.md
                 - name: 스크립트 디버깅의 제한 사항
                   href: limitations-on-script-debugging.md
-                - name: 스크립트에 연결
+                - name: 연결(스크립트)
                   items:
                     - name: 스크립트에 연결
                       href: how-to-attach-to-script.md
                     - name: '경고: 스크립트 디버깅 사용 안 함'
                       href: warning-script-debugging-disabled.md
-        - name: WCF 서비스 디버그
+        - name: WCF 서비스
           items:
             - name: WCF 서비스 디버그
               href: debugging-wcf-services.md
@@ -656,7 +656,7 @@
               href: how-to-step-into-wcf-services.md
             - name: 자체 호스팅 WCF 서비스 디버그
               href: how-to-debug-a-self-hosted-wcf-service.md
-    - name: 덤프 파일 사용
+    - name: 덤프 파일
       items:
         - name: 덤프 파일 사용
           href: using-dump-files.md
@@ -668,13 +668,13 @@
   items:
     - name: 사용자 인터페이스 참조 디버깅
       items:
-        - name: 사용자 인터페이스 참조 디버깅
+        - name: 디버깅용 사용자 인터페이스 참조
           href: debugging-user-interface-reference.md
         - name: 중단점 선택 대화 상자
           href: choose-breakpoints-dialog-box.md
         - name: 원격 디버깅을 위한 방화벽 구성 대화 상자
           href: configure-firewall-for-remote-debugging-dialog-box.md
-        - name: '디버깅, 옵션 대화 상자'
+        - name: '디버깅, 옵션'
           items:
             - name: '디버깅, 옵션 대화 상자'
               href: debugging-options-dialog-box.md
@@ -700,7 +700,7 @@
           href: symbol-load-information-dialog-box.md
         - name: 중단점이 적중될 때 대화 상자
           href: when-breakpoint-is-hit-dialog-box.md
-        - name: 디버깅 오류 및 경고 대화 상자
+        - name: 디버깅 오류 및 경고
           items:
             - name: 디버깅 오류 및 경고 대화 상자
               href: debugging-errors-and-warning-dialog-boxes.md
@@ -756,11 +756,11 @@
               href: mixed-mode-debugging-is-only-supported-when-using-microsoft-dotnet-framework-2-0-or-3-0.md
     - name: 디버그 인터페이스 액세스 SDK
       href: debug-interface-access/debug-interface-access-sdk.md
-    - name: Spy++ 도움말
+    - name: Spy++
       items:
         - name: Spy++ 도움말
           href: spy-increment-help.md
-        - name: Spy++ 사용
+        - name: Spy++ 가이드
           items:
             - name: Spy++ 사용
               href: using-spy-increment.md
@@ -778,11 +778,11 @@
               href: how-to-change-fonts.md
             - name: Spy++ 트리 확장 및 축소
               href: how-to-expand-and-collapse-spy-increment-trees.md
-        - name: Spy++ 뷰
+        - name: Spy++에서 보기
           items:
             - name: Spy++ 뷰
               href: spy-increment-views.md
-            - name: 창 뷰
+            - name: Windows
               items:
                 - name: 창 뷰
                   href: windows-view.md
@@ -792,7 +792,7 @@
                   href: how-to-search-for-a-window-in-windows-view.md
                 - name: 창 속성 표시
                   href: how-to-display-window-properties.md
-            - name: 메시지 뷰
+            - name: 메시지
               items:
                 - name: 메시지 뷰
                   href: messages-view.md
@@ -808,7 +808,7 @@
                   href: message-codes.md
                 - name: 메시지 속성 표시
                   href: how-to-display-message-properties.md
-            - name: 프로세스 뷰
+            - name: 프로세스
               items:
                 - name: 프로세스 뷰
                   href: processes-view.md
@@ -816,7 +816,7 @@
                   href: how-to-search-for-a-process-in-processes-view.md
                 - name: 프로세스 속성 표시
                   href: how-to-display-process-properties.md
-            - name: 스레드 뷰
+            - name: 스레드
               items:
                 - name: 스레드 뷰
                   href: threads-view.md
@@ -826,11 +826,11 @@
                   href: how-to-display-thread-properties.md
         - name: Spy++ 참조
           items:
-            - name: Spy++ 참조
+            - name: Spy++ 참조 개요
               href: spy-increment-reference.md
             - name: 메뉴 명령
               items:
-                - name: 메뉴 명령
+                - name: 메뉴 명령 개요
                   href: menu-commands.md
                 - name: Spy 메뉴 명령
                   href: spy-menu-commands.md
@@ -850,7 +850,7 @@
               href: font-dialog-box-microsoft-spy-increment-help.md
             - name: Spy++ 뷰의 검색 도구
               items:
-                - name: Spy++ 뷰의 검색 도구
+                - name: Spy++ 뷰의 검색 도구 개요
                   href: search-tools-for-spy-increment-views.md
                 - name: 창 찾기 대화 상자
                   href: find-window-dialog-box.md
@@ -862,7 +862,7 @@
                   href: process-search-dialog-box.md
                 - name: 스레드 검색 대화 상자
                   href: thread-search-dialog-box.md
-            - name: 창 속성 대화 상자
+            - name: 창 속성
               items:
                 - name: 창 속성 대화 상자
                   href: window-properties-dialog-box.md
@@ -876,7 +876,7 @@
                   href: class-tab-window-properties-dialog-box.md
                 - name: '프로세스 탭, 창 속성 대화 상자'
                   href: process-tab-window-properties-dialog-box.md
-            - name: 메시지 옵션 대화 상자
+            - name: 메시지 옵션
               items:
                 - name: 메시지 옵션 대화 상자
                   href: message-options-dialog-box.md
@@ -888,7 +888,7 @@
                   href: output-tab-message-options-dialog-box.md
             - name: 메시지 속성 대화 상자
               href: message-properties-dialog-box.md
-            - name: 프로세스 속성 대화 상자
+            - name: 프로세스 속성
               items:
                 - name: 프로세스 속성 대화 상자
                   href: process-properties-dialog-box.md
@@ -900,7 +900,7 @@
                   href: page-file-tab-process-properties-dialog-box.md
                 - name: '공간 탭, 프로세스 속성 대화 상자'
                   href: space-tab-process-properties-dialog-box.md
-            - name: 스레드 속성 대화 상자
+            - name: 스레드 속성
               items:
                 - name: 스레드 속성 대화 상자
                   href: thread-properties-dialog-box.md
@@ -908,7 +908,7 @@
                   href: general-tab-thread-properties-dialog-box.md
             - name: 기타 대화 상자
               items:
-                - name: 기타 대화 상자
+                - name: 추가 대화 상자
                   href: other-dialog-boxes.md
                 - name: Microsoft Spy++ 정보
                   href: about-microsoft-spy-increment.md
