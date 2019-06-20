@@ -8,12 +8,12 @@ Ms.date: 06/25/2018
 Ms.topic: landing-page
 Description: Visual Studio 구독에 오신 것을 환영합니다.
 Searchscope: VS Subscription
-ms.openlocfilehash: 939922aa418ee94d3018ac5f5743c31181e5e875
-ms.sourcegitcommit: 92a04c57ac0a49f304fa2ea5043436f30068c3cd
+ms.openlocfilehash: 1515b7da3cadb8397f38554498fb4880db2d3b03
+ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "65976107"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67259473"
 ---
 # <a name="visual-studio-subscriptions"></a>Visual Studio 구독
 
@@ -194,7 +194,6 @@ Microsoft에서는 사용자가 구독을 훨씬 더 유용하게 사용할 수 
                             <li><a href="/visualstudio/subscriptions/vs-linkedin-learning">LinkedIn Premium</a>(비즈니스, 기술 및 크리에이티브)</li>
                             <li><a href="/visualstudio/subscriptions/vs-pluralsight">Pluralsight</a>(클라우드, 디자인, 모바일 및 데이터)</li>
                             <li><a href="/visualstudio/subscriptions/vs-datacamp">Data Camp</a>(데이터 과학 및 AI)</li>
-                            <li><a href="/visualstudio/subscriptions/vs-xamarin">Xamarin University</a>(모바일 개발)</li>
                             <li><a href="/visualstudio/subscriptions/vs-opsgility">Opsgility 교육</a>(클라우드 중심)</li>
                             <li><a href="/visualstudio/subscriptions/vs-tech-support">Microsoft 전문가 기술 지원 인시던트</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-azure-advisory-chat">Azure Advisory Chat</a></li>
