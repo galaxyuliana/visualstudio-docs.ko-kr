@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 43b76ad81a2c075a11ff55dcbd7fbc5e8a4b3fe7
-ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
+ms.openlocfilehash: 315b24d384a1e3576af6590923c0e546785918ae
+ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66431846"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67255987"
 ---
 # <a name="frequently-asked-questions-for-snapshot-debugging-in-visual-studio"></a>Visual Studio의 스냅숏 디버깅에 대해 자주 묻는 질문
 
@@ -169,7 +169,7 @@ App service:
     - SNAPSHOTDEBUGGER_EXTENSION_VERSION
 
     > [!WARNING]
-    > 응용 프로그램 설정에 변경 내용을 앱을 다시 시작을 시작 합니다. 응용 프로그램 설정에 대 한 세부 정보를 찾을 수 있습니다 [여기](https://docs.microsoft.com/azure/app-service/web-sites-configure#app-settings)합니다. 
+    > 응용 프로그램 설정에 변경 내용을 앱을 다시 시작을 시작 합니다. 응용 프로그램 설정에 대 한 자세한 내용은 참조 하세요. [Azure portal에서 App Service 앱을 구성](/azure/app-service/web-sites-configure)합니다.
 
 AKS에 대 한:
 1. 해당 하는 섹션을 제거 하려면 Dockerfile을 업데이트 합니다 [Docker 이미지에 Visual Studio 스냅숏 디버거](https://github.com/Microsoft/vssnapshotdebugger-docker)합니다.
