@@ -5,23 +5,23 @@ ms.topic: conceptual
 helpviewer_keywords:
 - code analysis [Visual Studio]
 - managed code, analyzing
-author: gewarren
-ms.author: gewarren
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 93bd0fd71fbe8eae90750aa2e7597ee40bba17a2
-ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
+ms.openlocfilehash: 3a2ce9b719f77377abf5b2bebd81b03a2606258b
+ms.sourcegitcommit: fd5a5b057df3d733f5224c305096907989811f85
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66715261"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67195300"
 ---
-# <a name="walkthrough-analyzing-managed-code-for-code-defects"></a>연습: 코드 오류에 대 한 관리 되는 코드 분석
+# <a name="walkthrough-use-static-code-analysis-to-find-code-defects"></a>연습: 코드 오류를 찾으려면 사용 하 여 정적 코드 분석
 
 이 연습에서는 코드 분석 도구를 사용 하 여 코드 오류에 대 한 관리 되는 프로젝트를 분석할 수 있습니다.
 
-이 연습에서는.NET 디자인 지침을 사용 하 여 규칙에 대 한.NET 관리 코드 어셈블리를 분석 하려면 코드 분석을 사용 하는 과정을 안내 합니다.
+이 연습에서는 정적 코드 분석을 사용 하 여.NET 디자인 지침을 사용 하 여 규칙에 대 한.NET 관리 코드 어셈블리를 분석 하는 과정을 안내 합니다.
 
 ## <a name="create-a-class-library"></a>클래스 라이브러리 만들기
 
