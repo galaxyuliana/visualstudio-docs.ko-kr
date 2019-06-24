@@ -1,5 +1,5 @@
 ---
-title: '방법: 프로그래밍 방식으로 범위의 시작 및 끝 문자 검색'
+title: 시작 및 끝 범위에서 문자를 프로그래밍 방식으로
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 041693d5d81fb13e812b260171ec95a2bd183a6a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8e0f04d5f70c99ea3404a95b04a7ea668a37e0f2
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62955669"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328942"
 ---
 # <a name="how-to-programmatically-retrieve-start-and-end-characters-in-ranges"></a>방법: 프로그래밍 방식으로 범위의 시작 및 끝 문자 검색
   이 예제는 범위의 시작 및 끝 위치의 문자 위치를 가져오는 방법을 보여 줍니다.

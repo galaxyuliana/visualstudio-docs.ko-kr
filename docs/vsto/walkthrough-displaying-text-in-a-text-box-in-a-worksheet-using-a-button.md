@@ -1,5 +1,5 @@
 ---
-title: '연습: 단추를 사용 하 여 워크시트에 텍스트 상자에 텍스트를 표시 합니다.'
+title: 단추를 사용 하 여 워크시트에 텍스트 상자에 텍스트를 표시 합니다.
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0f74eaa8618ce497a760754d084f390a4d1b8c1d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b30eea0152b75cdd0869ececac674ee5aeee7933
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436100"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328715"
 ---
 # <a name="walkthrough-display-text-in-a-text-box-in-a-worksheet-using-a-button"></a>연습: 단추를 사용 하 여 워크시트에 텍스트 상자에 텍스트를 표시 합니다.
   이 연습에서는 Visual Studio에서 Office 개발 도구를 사용 하 여 Excel 프로젝트를 만드는 방법과 Microsoft Office Excel 워크시트에서 단추 및 텍스트 상자를 사용 하는 기본 사항을 보여 줍니다. 결과 전체 샘플을 보려면 Excel 컨트롤 샘플을 참조 하세요 [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)합니다.

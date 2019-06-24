@@ -1,5 +1,5 @@
 ---
-title: '방법: 프로그래밍 방식으로 연락처에서 전자 메일 주소 검색'
+title: 프로그래밍 방식으로 연락처에서 전자 메일 주소를 찾으려면
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 178549a815fd9a17377986a5b19e02db12ec76d1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 26e32314db68ae064edac5537222447625cb051d
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62962299"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328976"
 ---
 # <a name="how-to-programmatically-search-for-an-email-address-in-contacts"></a>방법: 프로그래밍 방식으로 연락처에서 전자 메일 주소 검색
   이 예제에서는 메일 주소에 도메인 이름 **example.com** 이 있는 연락처에 대한 연락처 폴더를 검색합니다.

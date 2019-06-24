@@ -1,5 +1,5 @@
 ---
-title: '연습: VSTO 추가 기능에서 런타임에 문서에 컨트롤 추가'
+title: VSTO 추가 기능에서 런타임에 문서에 컨트롤 추가
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f226f65e493ced3a33dcfe7514633992cce158d0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b6ac01f32a14589837d0cb7707cb3d2f8946bd0a
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62982414"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328396"
 ---
 # <a name="walkthrough-add-controls-to-a-document-at-runtime-in-a-vsto-add-in"></a>연습: VSTO 추가 기능에서 런타임에 문서에 컨트롤 추가
   VSTO 추가 기능을 사용 하 여 열려 있는 Microsoft Office Word 문서에 컨트롤을 추가할 수 있습니다. 이 연습에서는 리본 메뉴를 사용 하 여 추가할 사용자를 사용 하도록 설정 하는 방법에 설명 된 <xref:Microsoft.Office.Tools.Word.Controls.Button> 또는 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 문서.

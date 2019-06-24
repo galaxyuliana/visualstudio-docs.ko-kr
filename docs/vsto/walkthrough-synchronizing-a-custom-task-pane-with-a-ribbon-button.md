@@ -1,5 +1,5 @@
 ---
-title: '연습: 사용자 지정 작업창과 리본 단추 동기화'
+title: 리본 단추를 사용 하 여 사용자 지정 작업창을 동기화
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -23,12 +23,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: fb74c56536a749629def4654f90206808e3b87e3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: ad910f94c6b6a4345f6973e84e02c85d4fe1f0e4
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443973"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328331"
 ---
 # <a name="walkthrough-synchronize-a-custom-task-pane-with-a-ribbon-button"></a>연습: 사용자 지정 작업창과 리본 단추 동기화
   이 연습에는 사용자 숨기 거 나 리본의 토글 단추를 클릭 하 여 표시할 수 있는 사용자 지정 작업창을 만드는 방법을 보여 줍니다. Microsoft Office 애플리케이션에서는 사용자가 사용자 지정 작업창을 표시하거나 숨기는 기본 방법을 제공하지 않으므로 사용자가 클릭하여 사용자 지정 작업창을 표시하거나 숨길 수 있도록 단추와 같은 UI(사용자 인터페이스) 요소를 항상 만들어야 합니다.
