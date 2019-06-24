@@ -1,5 +1,5 @@
 ---
-title: .NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Excel 및 Word 프로젝트 업데이트
+title: .NET Framework 4로 업데이트 Excel 또는 Word 프로젝트를 마이그레이션 / 4.5
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -12,12 +12,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: fd80f4a72151fdebb3f0445024963a65db981e63
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: afbfcf5cf9c3bbb02d4034251c7a3836056e314c
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436470"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67329024"
 ---
 # <a name="update-excel-and-word-projects-that-you-migrate-to-the-net-framework-4-or-the-net-framework-45"></a>.NET Framework 4 또는.NET Framework 4.5로 마이그레이션하는 Excel 및 Word 프로젝트 업데이트
   다음 기능 중 하나를 사용하는 Excel 또는 Word 프로젝트가 있는 경우 대상 프레임워크가 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상으로 변경되면 코드를 수정해야 합니다.

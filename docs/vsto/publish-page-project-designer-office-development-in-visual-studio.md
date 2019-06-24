@@ -1,5 +1,5 @@
 ---
-title: 게시 페이지, 프로젝트 디자이너 (Visual Studio에서 Office 개발)
+title: 게시 페이지, 프로젝트 디자이너 (Office 개발)
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:
@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 84a62fc796243172c9130c8113c4e6d289ed3092
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 86d575b254209b547504ea6d746d03853990bfb4
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63447020"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328994"
 ---
 # <a name="publish-page-project-designer-office-development-in-visual-studio"></a>게시 페이지, 프로젝트 디자이너 (Visual Studio에서 Office 개발)
   **프로젝트 디자이너** 의 **게시** 페이지를 통해 배포를 위한 속성을 구성합니다.

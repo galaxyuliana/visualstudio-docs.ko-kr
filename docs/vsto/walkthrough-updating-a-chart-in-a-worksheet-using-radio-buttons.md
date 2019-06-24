@@ -1,5 +1,5 @@
 ---
-title: '연습: 워크시트에서 라디오 단추를 사용하여 차트 업데이트'
+title: 라디오 단추를 사용 하 여 워크시트에 차트를 업데이트 합니다.
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6a827e688e260adcb93e81b55520c747dd99ed0d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 86e289ad8a316f7026d6fda46bb3e424164437fb
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63421742"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67329011"
 ---
 # <a name="walkthrough-updating-a-chart-in-a-worksheet-using-radio-buttons"></a>연습: 워크시트에서 라디오 단추를 사용하여 차트 업데이트
   이 연습에서는 Microsoft Office Excel 워크시트에서 라디오 단추를 사용 하 여 옵션을 신속 하 게 전환 하는 방법을 사용자에 게 제공의 기본 사항을 보여 줍니다. 이 경우 옵션은 차트의 스타일을 변경 합니다.

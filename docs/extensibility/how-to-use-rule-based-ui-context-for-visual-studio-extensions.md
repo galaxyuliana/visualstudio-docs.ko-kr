@@ -7,12 +7,12 @@ author: madskristensen
 ms.author: madsk
 ms.workload:
 - vssdk
-ms.openlocfilehash: d9136268bf1bfb7ccebf79de035fb19f40223002
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: c3075ca5092dd1b8a69aa4b34c0e507505cf7123
+ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66324704"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "67309685"
 ---
 # <a name="how-to-use-rule-based-ui-context-for-visual-studio-extensions"></a>방법: Visual Studio 확장에 대 한 규칙 기반 UI 컨텍스트 사용
 
@@ -140,6 +140,10 @@ Visual Studio에서는 특정 하는 경우 Vspackage 로드가 잘 알려진 <x
 |ActiveProjectCapability:\<Expression>|용어 활성 프로젝트 기능에 제공 된 식과 일치 하는 경우 그렇습니다. 식을 VB와 같이 수 &#124; CSharp.|
 |SolutionHasProjectCapability:\<Expression>|위의 유사 하지만 용어 솔루션에는 로드 된 프로젝트 식에 일치 하는 때도 마찬가지입니다.|
 |SolutionHasProjectFlavor:\<projectTypeGuid>|용어 (집계) 지원 되는 프로젝트에 솔루션과 해당된 프로젝트 형식 GUID 일치 하는 버전 때마다 true가 됩니다.|
+|ProjectAddedItem:\<pattern>| 기간은 파일 "pattern"와 일치 하는 열려 있는 soluion에서 프로젝트에 추가 되 면 true입니다.|
+|ActiveProjectOutputType:\<outputType>|용어는 출력할 때 true 활성 프로젝트와 정확히 일치에 대 한 입력 합니다.  outputType 정수 수 또는 <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROJOUTPUTTYPE> 형식입니다.|
+|ActiveProjectBuildProperty:\<buildProperty>=\<regex>|용어 활성 프로젝트 속성이 지정 된 빌드 및 제공 하는 regex 필터에 속성 값과 일치 하는 경우 그렇습니다. 가리킵니다 [MSBuild 프로젝트 파일의 데이터 유지](internals/persisting-data-in-the-msbuild-project-file.md) 대 한 자세한 내용은 빌드 속성에 대 한 합니다.|
+|SolutionHasProjectBuildProperty:\<buildProperty>=\<regex>|용어는 솔루션에 지정 된 빌드 속성을 사용 하 여 로드 된 프로젝트 및 제공 하는 regex 필터에 속성 값과 일치 하는 경우 그렇습니다.|
 
 ## <a name="compatibility-with-cross-version-extension"></a>버전 간 확장을 사용 하 여 호환성
 

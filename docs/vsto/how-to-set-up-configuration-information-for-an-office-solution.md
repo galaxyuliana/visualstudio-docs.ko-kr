@@ -1,5 +1,5 @@
 ---
-title: '방법: Office 솔루션에 대 한 구성 정보 설정'
+title: Office 솔루션에 대 한 구성 정보 설정
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 159708bfad49e6a4a303363c6a0e9dd83b23d8e7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c477068b3aee3325acae0887e11da908d6c33a85
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62961262"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328895"
 ---
 # <a name="how-to-set-up-configuration-information-for-an-office-solution"></a>방법: Office 솔루션에 대 한 구성 정보 설정
   Office 솔루션에 관련 된 설정을 구성 하려면 구성 파일을 사용할 수 있습니다. 어셈블리 바인딩 정책, 원격 개체, 디버그 및 추적 설정이 같은 설정을 지정할 수 있습니다.

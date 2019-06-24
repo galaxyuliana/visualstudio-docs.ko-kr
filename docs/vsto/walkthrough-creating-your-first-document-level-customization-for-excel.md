@@ -1,5 +1,5 @@
 ---
-title: '연습: Excel 용 첫 문서 수준 사용자 지정 만들기'
+title: Excel 용 첫 문서 수준 사용자 지정 만들기
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9cc23e140f0bfa2654cef1c3faeb805620a683b0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b3f9763fd670495de9ae4ef8b35a282d644ffe4d
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63438521"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328383"
 ---
 # <a name="walkthrough-create-your-first-document-level-customization-for-excel"></a>연습: Excel 용 첫 문서 수준 사용자 지정 만들기
   이 소개용 연습에서는 Microsoft Office Excel에 대한 문서 수준 사용자 지정을 만드는 방법을 보여 줍니다. 이러한 종류의 솔루션에서 만드는 기능은 특정 통합 문서가 열려 있는 경우에만 사용할 수 있습니다. 통합 문서가 열려 있을 때 새 리본 탭 표시와 같은 응용 프로그램 수준 변경은 문서 수준 사용자 지정을 사용하여 수행할 수 없습니다.
@@ -73,13 +73,13 @@ ms.locfileid: "63438521"
 
    - *FirstWorkbookCustomization*.xlsx-프로젝트에 Excel 통합 문서를 나타냅니다. 모든 워크시트 및 차트를 포함합니다.
 
-   - Sheet1 (*.vb* Visual Basic에 대 한 파일 또는 *.cs* Visual C# 파일)-통합 문서의 첫 번째 워크시트에 대 한 디자인 화면 및 코드를 제공 하는 워크시트입니다. 자세한 내용은 [워크시트 호스트 항목](../vsto/worksheet-host-item.md)합니다.
+   - Sheet1 ( *.vb* Visual Basic에 대 한 파일 또는 *.cs* Visual C# 파일)-통합 문서의 첫 번째 워크시트에 대 한 디자인 화면 및 코드를 제공 하는 워크시트입니다. 자세한 내용은 [워크시트 호스트 항목](../vsto/worksheet-host-item.md)합니다.
 
-   - Sheet2 (*.vb* Visual Basic에 대 한 파일 또는 *.cs* Visual C# 파일)-통합 문서의 두 번째 워크시트에 대 한 디자인 화면 및 코드를 제공 하는 워크시트입니다.
+   - Sheet2 ( *.vb* Visual Basic에 대 한 파일 또는 *.cs* Visual C# 파일)-통합 문서의 두 번째 워크시트에 대 한 디자인 화면 및 코드를 제공 하는 워크시트입니다.
 
-   - Sheet3 (*.vb* Visual Basic에 대 한 파일 또는 *.cs* Visual C# 파일)-통합 문서의 세 번째 워크시트에 대 한 디자인 화면 및 코드를 제공 하는 워크시트입니다.
+   - Sheet3 ( *.vb* Visual Basic에 대 한 파일 또는 *.cs* Visual C# 파일)-통합 문서의 세 번째 워크시트에 대 한 디자인 화면 및 코드를 제공 하는 워크시트입니다.
 
-   - ThisWorkbook (*.vb* Visual Basic에 대 한 파일 또는 *.cs* Visual C# 파일)-디자인 화면 및 통합 문서 수준 사용자 지정 코드를 포함 합니다. 자세한 내용은 [통합 문서 호스트 항목](../vsto/workbook-host-item.md)합니다.
+   - ThisWorkbook ( *.vb* Visual Basic에 대 한 파일 또는 *.cs* Visual C# 파일)-디자인 화면 및 통합 문서 수준 사용자 지정 코드를 포함 합니다. 자세한 내용은 [통합 문서 호스트 항목](../vsto/workbook-host-item.md)합니다.
 
      Sheet1 코드 파일이 디자이너에서 자동으로 열립니다.
 

@@ -1,5 +1,5 @@
 ---
-title: '방법: ListObject 컨트롤에는 새 행을 추가할 때 데이터 유효성 검사'
+title: ListObject 컨트롤에 새 행을 추가할 때 데이터 유효성 검사
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7c729896083c7d32a48ba39906d8e9a0ebde4b59
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 8cf302388b71174767d41cc8b1a7594f4223db2a
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63420949"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328870"
 ---
 # <a name="how-to-validate-data-when-a-new-row-is-added-to-a-listobject-control"></a>방법: ListObject 컨트롤에는 새 행을 추가할 때 데이터 유효성 검사
   사용자는 데이터에 바인딩된 <xref:Microsoft.Office.Tools.Excel.ListObject> 컨트롤에 새 행을 추가할 수 있습니다. 데이터 원본에 대한 변경 내용을 커밋하기 전에 사용자 데이터의 유효성을 확인할 수 있습니다.

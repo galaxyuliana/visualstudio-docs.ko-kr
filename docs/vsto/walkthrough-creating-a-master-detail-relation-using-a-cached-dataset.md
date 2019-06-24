@@ -1,5 +1,5 @@
 ---
-title: '연습: 캐시 된 데이터 집합을 사용 하 여 마스터-세부 관계를 만들려면'
+title: 캐시 된 데이터 집합을 사용 하 여 마스터-세부 관계 만들기
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3380b9c5302ed6e8a1bf6965f5fb1f259e3a6682
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 0acf84dd983a8c10f2af526ae0bb904eaa90a360
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63438546"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328362"
 ---
 # <a name="walkthrough-create-a-master-detail-relation-using-a-cached-dataset"></a>연습: 캐시 된 데이터 집합을 사용 하 여 마스터-세부 관계를 만들려면
   이 연습에서는 워크시트에서 마스터/세부 관계를 만들고 솔루션을 오프 라인으로 사용할 수 있도록 데이터를 캐시 하는 방법을 보여 줍니다.
