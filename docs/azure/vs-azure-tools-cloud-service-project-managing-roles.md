@@ -4,9 +4,7 @@ description: Visual Studio에서 Azure Cloud Services의 역할을 추가 및 �
 author: ghogen
 manager: jillfra
 assetId: 5ec9ae2e-8579-4e5d-999e-8ae05b629bd1
-ms.prod: visual-studio-dev14
-ms.technology: vs-azure
-ms.custom: vs-azure
+ms.custom: seodec18
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
@@ -30,7 +28,7 @@ Azure 클라우드 서비스를 만든 후 새 역할을 추가하거나 기존 
 
 1. **역할** 노드를 마우스 오른쪽 단추로 클릭하여 상황에 맞는 메뉴를 표시합니다. 상황에 맞는 메뉴에서 **추가**를 선택한 다음 현재 솔루션에서 기존 웹 역할 또는 작업자 역할을 선택하거나 웹 또는 작업자 역할 프로젝트를 만들 수 있습니다. 또한 ASP.NET 웹 애플리케이션 프로젝트와 같은 적절한 프로젝트를 선택하고 역할 프로젝트에 연결할 수 있습니다.
 
-    ![Azure 클라우드 서비스 프로젝트에 역할을 추가하는 메뉴 옵션](./media/vs-azure-tools-cloud-service-project-managing-roles/add-role.png)
+   ![Azure 클라우드 서비스 프로젝트에 역할을 추가하는 메뉴 옵션](./media/vs-azure-tools-cloud-service-project-managing-roles/add-role.png)
 
 ## <a name="removing-a-role-from-an-azure-cloud-service"></a>Azure 클라우드 서비스에서 역할 제거
 다음 단계에서는 Visual Studio에서 Azure 클라우드 서비스 프로젝트에 웹 또는 작업자 역할을 제거하는 과정을 안내합니다.
@@ -43,7 +41,7 @@ Azure 클라우드 서비스를 만든 후 새 역할을 추가하거나 기존 
 
 1. 제거할 노드를 마우스 오른쪽 단추로 클릭하고 상황에 맞는 메뉴에서 **제거**를 선택합니다.
 
-    ![Azure 클라우드 서비스에 역할을 추가하는 메뉴 옵션](./media/vs-azure-tools-cloud-service-project-managing-roles/remove-role.png)
+   ![Azure 클라우드 서비스에 역할을 추가하는 메뉴 옵션](./media/vs-azure-tools-cloud-service-project-managing-roles/remove-role.png)
 
 ## <a name="readding-a-role-to-an-azure-cloud-service-project"></a>Azure 클라우드 서비스 프로젝트에 역할 다시 추가
 클라우드 서비스 프로젝트에서 역할을 제거하지만 나중에 프로젝트에 역할을 추가하려면 기본 엔드포인트 및 진단 정보 등의 역할 선언과 기본 특성이 추가됩니다. `ServiceDefinition.csdef` 파일 또는 `ServiceConfiguration.cscfg` 파일에 추가되는 리소스 또는 참조는 없습니다. 이 정보를 추가하려면 이러한 파일에 수동으로 다시 추가해야 합니다.
