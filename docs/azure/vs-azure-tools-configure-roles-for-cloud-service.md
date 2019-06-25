@@ -4,9 +4,7 @@ description: Visual Studio를 사용하여 Azure 클라우드 서비스에 대�
 author: ghogen
 manager: jillfra
 assetId: d397ef87-64e5-401a-aad5-7f83f1022e16
-ms.prod: visual-studio-dev14
-ms.technology: vs-azure
-ms.custom: vs-azure
+ms.custom: seodec18
 ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
@@ -50,8 +48,6 @@ Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비
 
     > [!IMPORTANT]
     > 특정 서비스 구성을 선택하면 일부 속성은 모든 구성에 대해서만 설정 가능하므로 비활성화됩니다. 이러한 속성을 편집하려면 **모든 구성**을 선택해야 합니다.
-    >
-    >
 
     ![Azure 클라우드 서비스에 대한 서비스 구성 목록](./media/vs-azure-tools-configure-roles-for-cloud-service/cloud-service-service-configuration-property.png)
 
