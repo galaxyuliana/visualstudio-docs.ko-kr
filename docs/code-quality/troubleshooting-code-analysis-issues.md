@@ -1,0 +1,36 @@
+---
+title: 코드 분석 문제 해결
+ms.date: 11/04/2016
+ms.topic: troubleshooting
+ms.assetid: 61c7e44d-2780-4df5-9bcb-49e40c1152fc
+author: gewarren
+ms.author: gewarren
+manager: jillfra
+ms.workload:
+- multiple
+ms.openlocfilehash: 936428b82e721a1df6003a4bb0eecefe5b696b4c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "62825353"
+---
+# <a name="troubleshooting-code-analysis-issues"></a>코드 분석 문제 해결
+이 항목에는 다음 Visual Studio 코드 분석 문제에 대한 문제 해결 정보가 포함되어 있습니다.
+
+- [Visual Studio 2010 규칙 집합의 변경 내용이 이전 Visual Studio 버전에 반영되지 않음](#ChildRuleSetChangesInPreviousVersions)
+
+## <a name="ChildRuleSetChangesInPreviousVersions"></a> Visual Studio 2010 규칙 집합의 변경 내용이 이전 Visual Studio 버전에 반영되지 않음
+ 자식 규칙 집합이 포함된 [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)]에서 규칙 집합을 만드는 경우, 자식 규칙 집합의 변경 내용이 이전 버전의 Visual Studio를 사용하는 컴퓨터에서 실행되는 코드 분석에 적용되지 않을 수 있습니다. 이 문제를 해결하려면 자식 규칙 집합을 포함하는 규칙 집합인 부모 규칙 집합을 다시 작성해야 합니다.
+
+1. [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)]에서 부모 규칙 집합을 엽니다.
+
+2. 규칙 추가 또는 제거와 같은 변경을 수행한 후 규칙 집합을 저장합니다.
+
+3. 규칙 집합을 다시 열고, 변경을 취소한 후 다시 저장합니다.
+
+## <a name="see-also"></a>참고 항목
+
+- [애플리케이션 품질 분석](../code-quality/code-analysis-for-managed-code-overview.md)
+- [관리 코드 품질 분석](../code-quality/code-analysis-for-managed-code-overview.md)
+- [규칙 집합을 사용하여 코드 분석 규칙 그룹화](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
