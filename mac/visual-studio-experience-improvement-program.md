@@ -30,7 +30,7 @@ VSCEIP는 기본적으로 켜져 있습니다. 아래 지침에 따라 끄거나
 
     ![참여 기본 설정을 반영하도록 라디오 단추 선택](media/visual-studio-experience-improvement-program-image1.png)
 
-[!INCLUDE [GDPR-related guidance](../../docs/misc/includes/gdpr-hybrid-note.md)]
+[!INCLUDE [GDPR-related guidance](../docs/misc/includes/gdpr-hybrid-note.md)]
 
 ## <a name="see-also"></a>참고 항목
 
