@@ -4,8 +4,6 @@ description: 애플리케이션을 Visual Studio에서 Azure로 게시하거나 
 author: ghogen
 manager: jillfra
 assetId: 61570907-42a1-40e8-bcd6-952b21a55786
-ms.prod: visual-studio-dev14
-ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
@@ -40,6 +38,6 @@ Azure에 애플리케이션을 게시하거나 기존 클라우드 서비스를 
 ## <a name="next-steps"></a>다음 단계
 
 - [웹앱의 일반적인 개요](https://docs.microsoft.com/azure/app-service/)
-- [Azure App Service에 앱 배포](https://docs.microsoft.com/azure/app-service/app-service-deploy-local-git) 
+- [Azure App Service에 앱 배포](https://docs.microsoft.com/azure/app-service/app-service-deploy-local-git)
 - [Visual Studio를 사용하여 WebJob 배포](https://docs.microsoft.com/azure/app-service/websites-dotnet-deploy-webjobs)
 - [클라우드 서비스 만들기 및 배포](https://docs.microsoft.com/azure/cloud-services/cloud-services-how-to-create-deploy-portal)
