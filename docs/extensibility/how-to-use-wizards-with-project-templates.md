@@ -14,12 +14,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 366244285892820039a5a0f7950a709d170b4527
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: 3831cbc484fde7c61dbe1baf5ecd9ab07556a7f5
+ms.sourcegitcommit: 34807a6b6105ae7839adde8ff994c85182ad3aff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66352037"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67342423"
 ---
 # <a name="how-to-use-wizards-with-project-templates"></a>방법: 프로젝트 템플릿에 마법사 사용
 
@@ -68,7 +68,7 @@ Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와
 
 3. VSIX 프로젝트에 자산으로 어셈블리를 추가 합니다. 엽니다는 *source.extension.vsixmanifest* 파일을 선택 합니다 **자산** 탭 합니다. 에 **새 자산 추가** 창에 대 한 **유형** 선택 **Microsoft.VisualStudio.Assembly**에 대 한 **원본** 선택 **는 현재 솔루션의 프로젝트**, 및 **프로젝트** 선택 **MyProjectWizard**합니다.
 
-4. VSIX 프로젝트에 다음 참조를 추가 합니다. (에 **솔루션 탐색기**, VSIX 프로젝트 노드를 선택 **참조가**를 마우스 오른쪽 단추로 **참조 추가**.) 에 **참조 추가** 대화의를 **프레임 워크** 탭, 찾기는 **System.Windows Forms** 어셈블리 선택 합니다. 이제 선택 된 **확장** 탭 합니다. 찾을 합니다 **EnvDTE** 어셈블리를 선택 합니다. 찾을 수도 합니다 **Microsoft.VisualStudio.TemplateWizardInterface** 어셈블리를 선택 합니다. **확인**을 클릭합니다.
+4. VSIX 프로젝트에 다음 참조를 추가 합니다. (에 **솔루션 탐색기**, VSIX 프로젝트 노드를 선택 **참조가**를 마우스 오른쪽 단추로 **참조 추가**.) 에 **참조 추가** 대화의를 **프레임 워크** 탭, 찾기는 **System.Windows Forms** 어셈블리 선택 합니다. 또한 찾기 및 선택 합니다 **시스템** 하 고 **System.Drawing** 어셈블리입니다. 이제 선택 된 **확장** 탭 합니다. 찾을 합니다 **EnvDTE** 어셈블리를 선택 합니다. 찾을 수도 합니다 **Microsoft.VisualStudio.TemplateWizardInterface** 어셈블리를 선택 합니다. **확인**을 클릭합니다.
 
 5. 마법사 구현에 대 한 클래스를 VSIX 프로젝트를 추가 합니다. (에서 **솔루션 탐색기**, VSIX 프로젝트 노드를 마우스 오른쪽 단추로 **추가**, 한 다음 **새 항목**, 한 다음 **클래스**.) 클래스의 이름을 **WizardImplementation**합니다.
 
@@ -157,7 +157,7 @@ Visual Studio SDK에 포함 되어 있는 프로젝트 템플릿 프로젝트와
 
    - <xref:System.Object> Visual Studio에서 마법사에 전달 된 매개 변수 집합을 포함 하는 배열입니다.
 
-     사용자 입력된 폼에서 매개 변수 값을 추가 하는이 예제는 <xref:System.Collections.Generic.Dictionary%602> 매개 변수입니다. 모든 인스턴스는 `$custommessage$` 프로젝트의 매개 변수를 사용자가 입력 한 텍스트를 사용 하 여 바뀝니다. 프로젝트에 다음 어셈블리를 추가 합니다. **시스템** 하 고 **System.Drawing**합니다.
+     사용자 입력된 폼에서 매개 변수 값을 추가 하는이 예제는 <xref:System.Collections.Generic.Dictionary%602> 매개 변수입니다. 모든 인스턴스는 `$custommessage$` 프로젝트의 매개 변수를 사용자가 입력 한 텍스트를 사용 하 여 바뀝니다.
 
 7. 이제 만들 합니다 **된 userinputform은**합니다. 에 *WizardImplementation.cs* 파일, 종료 된 후 다음 코드를 추가 합니다 `WizardImplementation` 클래스.
 
