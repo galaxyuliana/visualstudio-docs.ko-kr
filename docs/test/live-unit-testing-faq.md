@@ -9,12 +9,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 1e5f88acccd9ccbcd880b8403edb0eb40f97ad2e
-ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
+ms.openlocfilehash: 1ed80454f6a87047de9e338d26c749d3c27a98ea
+ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66714486"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67258125"
 ---
 # <a name="live-unit-testing-frequently-asked-questions"></a>Live Unit Testing 질문과 대답
 
@@ -197,15 +197,6 @@ public class Class1
 솔루션의 빌드 프로세스가 솔루션 자체의 일부인 소스 코드를 생성하고 빌드 대상 파일에 적절한 입력 및 출력이 지정되지 않은 경우 편집하지 않더라도 솔루션을 빌드할 수 있습니다. 대상에는 입력 및 출력의 목록이 지정되었으므로 MSBuild는 적절한 최신 검사를 수행하고 새 빌드가 필요한지 여부를 확인할 수 있습니다.
 
 Live Unit Testing은 원본 파일이 변경되었음을 감지할 때마다 빌드하기 시작합니다. 솔루션의 빌드가 원본 파일을 생성하기 때문에 Live Unit Testing은 빌드 무한 루프로 진행됩니다. 그러나 (이전 빌드에서 새로 생성된 원본 파일을 감지한 후에) Live Unit Testing에서 두 번째 빌드를 시작하는 시기를 대상의 입력 및 출력이 확인하면 입력 및 출력 검사는 모든 항목이 최신 상태라고 표시하기 때문에 빌드 루프를 중단시킵니다.  
-
-## <a name="lightweight-solution-load"></a>경량 솔루션 로드
-
-**Live Unit Testing은 경량 솔루션 로드 기능과 어떻게 호환되나요?**
-
-Live Unit Testing은 현재 경량 솔루션 로드 기능에서 제대로 작동하지 않습니다. 하나 이상의 테스트 프로젝트를 로드한 후에만 작동합니다. 그 전에는 Live Unit Testing이 로드 중인 테스트 어댑터(MSTest, xUnit 또는 NUnit)를 참조하는 하나 이상의 테스트 프로젝트에 종속되어 있으므로 작동하지 않습니다.
-
-> [!NOTE]
-> Visual Studio 2017 버전 15.5 이상에서는 경량 솔루션 로드를 더 이상 사용할 수 없습니다. Visual Studio 2017 버전 15.5 이상에서는 경량 솔루션 로드 없이도 관리 코드가 포함된 대규모 솔루션이 이전보다 훨씬 빠르게 로드됩니다.
 
 ## <a name="new-process-coverage"></a>새 프로세스 검사
 
