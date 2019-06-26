@@ -9,12 +9,12 @@ ms.author: seiyer
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 23ed63846eb11fd8eba95219aecaae3210e161fd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 840c8af686783a365608c1fe01661569e345add1
+ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62980141"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "67309805"
 ---
 # <a name="overview-report-a-problem"></a>개요: 문제 보고
 
@@ -80,7 +80,7 @@ ms.locfileid: "62980141"
 
 - - -
 
-![종결 - 개발자 커뮤니티의 문제 보고에 대해 버그 아님 상태](../ide/media/ProblemStates/ClosedNotaBug.jpg)
+![종결 - 개발자 커뮤니티의 문제 보고에 대해 버그 아님 상태](../ide/media/ProblemStates/ClosedNotABug.jpg)
 
 **종결- 버그 아님**은 보고된 기능이 현재 설계에 의한 것이라고 확인했음을 나타냅니다.
 
