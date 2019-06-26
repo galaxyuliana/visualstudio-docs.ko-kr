@@ -10,12 +10,12 @@ ms.date: 05/21/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
-ms.openlocfilehash: b124e04d1543e461bb8967e73e49651d0f351b07
-ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
+ms.openlocfilehash: 25b0d4fbd10a37fae2b5e64a19c1ea7725a89439
+ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "66037110"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "67309674"
 ---
 ## <a name="visual-studio-core-editor-included-with-visual-studio-community-2019"></a>Visual Studio 핵심 편집기(Visual Studio 커뮤니티 2019에 포함)
 
@@ -350,7 +350,7 @@ Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 타기팅 팩
 Microsoft.VisualStudio.Component.VC.140 | MSVC v140 - VS 2015 C++ 빌드 도구(v14.00) | 16.0.28625.61 | Optional
 Microsoft.VisualStudio.Component.VC.ATLMFC | v142 빌드 도구용 C++ MFC(x86 및 x64) | 16.0.28625.61 | Optional
 Microsoft.VisualStudio.Component.VC.CLI.Support | v142 빌드 도구용 C++/CLI 지원(14.21) | 16.1.28829.92 | Optional
-Microsoft.VisualStudio.Component.VC.Llvm.Clang | Windows için clang derleyicisi | 16.1.28916.169 | Optional
+Microsoft.VisualStudio.Component.VC.Llvm.Clang | Windows용 Clang 컴파일러 | 16.1.28916.169 | Optional
 Microsoft.VisualStudio.Component.VC.Modules.x86.x64 | v142 빌드 도구용 C++ 모듈(x64/x86 – 실험적) | 16.0.28625.61 | Optional
 Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 – VS 2017 C++ x64/x86 빌드 도구(v14.16) | 16.1.28829.92 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.16299 | Windows 10 SDK(10.0.16299.0) | 16.0.28517.75 | Optional

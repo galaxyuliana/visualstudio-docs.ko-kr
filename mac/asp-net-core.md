@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 04/02/2019
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
-ms.openlocfilehash: 257d60d87a743d5c5e1099ee443c7bdb38055cca
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 53fd740d8a32954de566ab7d383004e4f503ca2c
+ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62985723"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67258905"
 ---
 # <a name="getting-started-with-aspnet-core"></a>ASP.NET Core 시작
 
@@ -236,7 +236,7 @@ Mac OS 10.12(Sierra) 이상에 .NET Core를 수동으로 설치해야 하는 경
 
 이 가이드에서는 ASP.NET Core를 소개했습니다. ASP.NET Core란 무엇이고 언제 사용해야 하는지를 설명하고, Mac용 Visual Studio에서 사용하는 방법에 대한 정보를 제공했습니다.
 이후 단계에 대한 자세한 내용은 다음 가이드를 참조하세요.
-- [ASP.NET Core](/aspnet/core/?view=aspnetcore-2.1#build-web-ui-and-web-apis-using-aspnet-core-mvc) 문서
+- [ASP.NET Core](/aspnet/core/?view=aspnetcore-2.1#build-web-apis-and-web-ui-using-aspnet-core-mvc) 문서
 - [네이티브 모바일 애플리케이션용 백 엔드 서비스 만들기](/aspnet/core/mobile/native-mobile-backend) - Xamarin.Forms 앱용 ASP.NET Core를 사용하여 REST 서비스를 빌드하는 방법을 보여 줍니다.
 - [ASP.NET Core 실습 교육](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started)
 

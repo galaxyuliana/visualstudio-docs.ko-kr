@@ -7,11 +7,11 @@ ms.author: ghogen
 ms.topic: include
 ms.date: 03/05/2019
 ms.openlocfilehash: d01cba0f947752e9f1e277d6f23e74efa39d47fd
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65839415"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67253651"
 ---
 1. Visual Studio 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
 1. **ASP.NET Core 웹 애플리케이션**을 선택하고 **다음**을 선택합니다.
