@@ -18,22 +18,22 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9ebef342338430404f9506779c2b1e5312462178
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: eecf482d5ae90894e66e790423b514cc349701f8
+ms.sourcegitcommit: 9d3529e40438ca45dcb0b31742c4cd5a89daa61e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62900550"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67399027"
 ---
 # <a name="clickonce-and-authenticode"></a>ClickOnce 및 Authenticode
 *Authenticode* 는 업계 표준 암호화를 사용하여 응용 프로그램 게시자의 신뢰성을 확인하는 디지털 인증서로 응용 프로그램 코드에 서명하는 Microsoft 기술입니다. 애플리케이션 배포에 Authenticode를 사용하여 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 는 트로이 목마의 위험을 줄입니다. 트로이 목마는 악의적인 제3자가 신뢰할 수 있는 기존의 소스에서 온 적법한 프로그램처럼 속여 표시하는 바이러스 또는 기타 유해 프로그램입니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 배포에 디지털 인증서로 서명하는 것은 어셈블리와 파일이 손상되지 않았음을 확인하기 위한 선택적인 단계입니다.
 
- 다음 섹션에서는 Authenticode에 사용되는 서로 다른 유형의 디지털 인증서, CA(인증 기관)를 사용하여 인증서를 검증하는 방법, 인증서에서 타임스탬프의 역할, 인증서에 사용할 수 있는 저장소의 메서드에 대해 설명합니다.
+ 다음 섹션에서는 Authenticode에 사용되는 서로 다른 유형의 디지털 인증서, CA(인증 기관)를 사용하여 인증서를 검증하는 방법, 인증서에서 타임스탬프의 역할, 인증서에 사용할 수 있는 스토리지의 메서드에 대해 설명합니다.
 
 ## <a name="authenticode-and-code-signing"></a>Authenticode 및 코드 서명
  *디지털 인증서* 란 인증서가 발급된 게시자 및 인증서를 발급한 기관에 대해 설명하는 메타데이터와 함께 공개/개인 암호화 키 쌍을 포함하는 파일입니다.
 
- 다양한 유형의 Authenticode 인증서가 있습니다. 각 인증서는 서로 다른 서명 유형에 맞게 구성되어 있습니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램의 경우 코드 서명을 위한 유효한 Authenticode 인증서가 반드시 필요합니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램에 다른 유형의 인증서(예: 디지털 전자 메일 인증서)로 서명하려고 시도하면 작동하지 않습니다. 자세한 내용은 [코드 서명 소개](http://go.microsoft.com/fwlink/?LinkId=179452)를 참조하세요.
+ 다양한 유형의 Authenticode 인증서가 있습니다. 각 인증서는 서로 다른 서명 유형에 맞게 구성되어 있습니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램의 경우 코드 서명을 위한 유효한 Authenticode 인증서가 반드시 필요합니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램에 다른 유형의 인증서(예: 디지털 전자 메일 인증서)로 서명하려고 시도하면 작동하지 않습니다. 자세한 내용은 [코드 서명 소개](https://docs.microsoft.com/windows/desktop/seccrypto/cryptography-tools)를 참조하세요.
 
  세 가지 방법 중 하나로 코드 서명을 위한 인증서를 가져올 수 있습니다.
 
