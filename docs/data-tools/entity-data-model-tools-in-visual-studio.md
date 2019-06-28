@@ -8,18 +8,21 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: d6f14dbe79e9ba0f2a8642c61a0682b25aa703f0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: eace6e7f3d970de5aa0ab0e74530d3182af0e177
+ms.sourcegitcommit: 16d8ffc624adb716753412a22d586eae68a29ba2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62567195"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67412292"
 ---
 # <a name="entity-framework-tools-in-visual-studio"></a>Visual Studio에서 entity Framework 도구
 
 Entity Framework는.NET 개발자가 도메인별 개체를 사용 하 여 관계형 데이터로 작업할 수 있도록 하는 개체-관계형 매핑 기술 합니다. 개발자들이 보통 작성해야 하는 데이터 액세스 코드가 대부분 필요하지 않게 됩니다. Entity Framework는 모델링 기술을 새로운.NET 응용 프로그램에 대 한 권장 되는 개체-관계형 매핑을 (ORM).
 
-Entity Framework 도구는 EF (Entity Framework) 응용 프로그램을 빌드할 수 있도록 설계 되었습니다. Entity Framework에 대 한 전체 설명서는 다음 있습니다. [EF Core 및 EF 6](/ef/)합니다.
+Entity Framework 도구는 EF (Entity Framework) 응용 프로그램을 빌드할 수 있도록 설계 되었습니다. Entity Framework에 대 한 전체 설명서는 다음 있습니다. [개요-EF 6](/ef/ef6/)합니다.
+
+  > [!NOTE]
+  > 이 페이지에 설명 된 Entity Framework 도구는 생성 하는 데 사용 됩니다 *.edmx* 파일을 EF Core에서 지원 되지 않습니다. 기존 데이터베이스에서 EF Core 모델을 생성, 참조 [리버스 엔지니어링-EF Core](/ef/core/managing-schemas/scaffolding)합니다. EF 6 및 EF Core 간의 차이점에 대 한 자세한 내용은 참조 하세요. [비교 EF 6 및 EF Core](/ef/efcore-and-ef6/)합니다.
 
 Entity Framework Tools를 사용 하 여 만들 수 있습니다는 *개념적 모델* 기존 데이터베이스 다음 그래픽으로 시각화 하 고 개념적 모델을 편집 합니다. 또는 먼저 개념적 모델을 그래픽으로 만든 후 모델을 지원하는 데이터베이스를 생성할 수 있습니다. 이 두 경우 모두 기본 데이터베이스가 변경될 때 모델을 자동으로 업데이트하고 응용 프로그램에 대한 개체 계층 코드를 자동으로 생성할 수 있습니다. 데이터베이스 생성 및 개체 계층 코드 생성 작업은 사용자 지정할 수 있습니다.
 
