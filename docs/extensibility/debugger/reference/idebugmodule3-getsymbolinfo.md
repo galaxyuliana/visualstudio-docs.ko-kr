@@ -84,9 +84,9 @@ void ShowSymbolSearchResults(IDebugModule3 *pIDebugModule3)
 }
 ```
 
-**c:\symbols\user32.pdb... 파일을 찾을 수 없습니다. ** 
- **c:\winnt\symbols\user32.pdb... 버전이 일치 하지 않습니다. ** 
- ** \\\symbols\symbols\user32.dll\0a8sd0ad8ad\user32.pdb... 기호를 로드 합니다.**
+**c:\symbols\user32.pdb... 파일을 찾을 수 없습니다.** 
+**c:\winnt\symbols\user32.pdb... 버전이 일치 하지 않습니다.** 
+ **\\\symbols\symbols\user32.dll\0a8sd0ad8ad\user32.pdb... 기호를 로드 합니다.**
 
 ## <a name="see-also"></a>참고자료
 
