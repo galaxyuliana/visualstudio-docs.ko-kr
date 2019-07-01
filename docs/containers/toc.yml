@@ -30,5 +30,15 @@
           href: view-and-diagnose-containers.md
         - name: 컨테이너 도구 구성
           href: container-tools-configure.md
+        - name: 단위 테스트 실행
+          href: container-unit-testing.md
+    - name: 개념
+      items:
+        - name: 컨테이너화된 앱 빌드
+          href: container-build.md
     - name: 문제 해결
       href: troubleshooting-docker-errors.md
+    - name: 참조
+      items:
+        - name: 컨테이너 프로젝트에 대한 MSBuild 속성
+          href: container-msbuild-properties.md
