@@ -377,14 +377,20 @@
                       href: ide/reference/convert-foreach-linq.md
                     - name: LINQ 쿼리를 foreach 문으로 변환
                       href: ide/reference/convert-linq-to-foreach.md
+                    - name: switch 문을 switch 식으로 변환
+                      href: ide/reference/convert-switch-statement-to-switch-expression.md
                     - name: 필드 캡슐화
                       href: ide/reference/encapsulate-field.md
                     - name: 인터페이스 추출
                       href: ide/reference/extract-interface.md
                     - name: 메서드 추출
                       href: ide/reference/extract-method.md
+                    - name: 매개 변수 생성
+                      href: ide/reference/generate-parameter.md
                     - name: 인라인 임시 변수
                       href: ide/reference/inline-temporary-variable.md
+                    - name: 가져오지 않은 형식에 대한 Intellisense 완성
+                      href: ide/reference/intellisense-completion-unimported-types.md
                     - name: 조건식 및 논리 연산 반전
                       href: ide/reference/invert-conditional-logical.md
                     - name: if 문 반전
@@ -393,6 +399,8 @@
                       href: ide/reference/move-declaration-near-reference.md
                     - name: 형식을 일치하는 파일로 이동
                       href: ide/reference/move-type-to-matching-file.md
+                    - name: 형식을 네임스페이스로 이동
+                      href: ide/reference/move-type-to-namespace.md
                     - name: 멤버 끌어오기
                       href: ide/reference/pull-members-up.md
                     - name: IntelliSense를 통한 Regex 완료
@@ -401,6 +409,8 @@
                       href: ide/reference/remove-unreachable-code.md
                     - name: 이름 바꾸기
                       href: ide/reference/rename.md
+                    - name: using 정렬
+                      href: ide/reference/sort-usings.md
                     - name: 분할 또는 병합 if 문
                       href: ide/reference/split-or-merge-if-statement.md
                     - name: 동기화 네임스페이스 및 폴더 이름
@@ -470,10 +480,16 @@
                 - name: 코드 스타일에 EditorConfig 파일 사용
                   displayName: Configure code style analyzers
                   href: ide/create-portable-custom-editor-options.md
-                - name: .NET 언어 및 서식 지정 규칙
-                  href: ide/editorconfig-code-style-settings-reference.md
-                - name: .NET 명명 규칙
-                  href: ide/editorconfig-naming-conventions.md
+                - name: .NET 코딩 규칙
+                  items:
+                    - name: 개요
+                      href: ide/editorconfig-code-style-settings-reference.md
+                    - name: 언어 규칙
+                      href: ide/editorconfig-language-conventions.md
+                    - name: 서식 지정 규칙
+                      href: ide/editorconfig-formatting-conventions.md
+                    - name: 명명 규칙
+                      href: ide/editorconfig-naming-conventions.md
             - name: 스크롤 막대 사용자 지정
               href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
             - name: 코드에 책갈피 설정

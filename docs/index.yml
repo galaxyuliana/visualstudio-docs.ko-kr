@@ -8,12 +8,6 @@ metadata:
   description: Visual Studio를 사용하여 선택한 언어로 플랫폼 또는 디바이스에 대한 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.
   ms.topic: hub-page
   monikerRange: '>=vs-2017'
-  ms.openlocfilehash: bac03cb71b4c925ecb7f5fd8f1ed69466f4bd114
-  ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
-  ms.translationtype: HT
-  ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/07/2019
-  ms.locfileid: "66462865"
 highlightedContent:
   items:
   - title: 설정 및 설치
@@ -161,21 +155,54 @@ additionalContent:
   - title: 작업
     items:
     - title: 웹 및 클라우드
-      summary: "[웹 개발](/aspnet/) </br>\n[Azure 개발 및 관리](azure/index.yml) </br>\n[Python](python/index.yml) </br>\n[Node.js](javascript/index.yml) </br>\n[데이터 스토리지 및 처리](data-tools/index.md) </br>\n[데이터 과학](python/data-science-and-analytical-applications-workload.md) </br>\n[Office/Sharepoint 개발](https://developer.microsoft.com/office/docs) \n"
+      links:
+      - text: 웹 개발
+        url: /aspnet/
+      - text: Azure 개발 및 관리
+        url: azure/index.yml
+      - text: Python
+        url: python/index.yml
+      - text: Node.js
+        url: javascript/index.yml
+      - text: 데이터 스토리지 및 처리
+        url: data-tools/index.md
+      - text: 데이터 과학
+        url: python/data-science-and-analytical-applications-workload.md
+      - text: Office/SharePoint 개발
+        url: https://developer.microsoft.com/office/docs
     - title: Windows
-      summary: >
-        [.NET 데스크톱 개발](/dotnet/framework/develop-client-apps) </br>
-
-        [유니버설 Windows 플랫폼 개발](cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md) </br>
-
-        [C++를 사용한 Windows 개발](/cpp/windows/desktop-applications-visual-cpp)
+      links:
+      - text: .NET 데스크톱 개발
+        url: /dotnet/framework/develop-client-apps
+      - text: 유니버설 Windows 플랫폼 개발
+        url: cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md
+      - text: C++를 사용한 Windows 개발
+        url: /cpp/windows/desktop-applications-visual-cpp
     - title: 모바일 및 게임
-      summary: "[.NET을 사용한 모바일 개발(Xamarin)](/xamarin/) </br>\n[Unity를 사용한 게임 개발](cross-platform/visual-studio-tools-for-unity.md) </br>\n[JavaScript 사용한 모바일 개발](/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017)(Visual Studio 2017 및 2015만 해당) </br>\n[C++를 사용한 모바일 개발](/visualstudio/cross-platform/) </br>\n[C++를 사용한 게임 개발](/windows/uwp/gaming/e2e) \n"
+      links:
+      - text: .NET을 사용한 모바일 개발(Xamarin)
+        url: /xamarin/
+      - text: Unity를 사용한 게임 개발
+        url: cross-platform/visual-studio-tools-for-unity.md
+      - text: JavaScript를 사용한 모바일 개발
+        url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017
+        note: (Visual Studio 2017 and 2015 only)
+      - text: C++를 사용한 모바일 개발
+        url: /visualstudio/cross-platform/
+      - text: C++를 사용한 게임 개발
+        url: /windows/uwp/gaming/e2e
     - title: 기타 도구 집합
-      summary: >
-        [Visual Studio 확장 개발](extensibility/index.md) </br>
-
-        [C++를 사용한 Linux 개발](/cpp/linux/) </br>
-
-        [.NET Core 플랫폼 간 개발](/dotnet/core/)
+      links:
+      - text: Visual Studio 확장 개발
+        url: extensibility/index.md
+      - text: C++를 사용한 Linux 개발
+        url: /cpp/linux/
+      - text: .NET Core 플랫폼 간 개발
+        url: /dotnet/core/
   footer: '[블로그](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [문제 보고](ide/talk-to-us.md)  -  [개발자 커뮤니티](https://developercommunity.visualstudio.com/spaces/8/index.html)'
+ms.openlocfilehash: 1ce6f4c489f0a3c5ccf5b62f9541cba615f10742
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328815"

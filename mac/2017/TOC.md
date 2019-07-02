@@ -5,6 +5,7 @@
 ## [방화벽 또는 프록시에서 설치 및 사용](/visualstudio/mac/install-behind-a-firewall-or-proxy-server)
 ## [미리 보기 릴리스 설치](/visualstudio/mac/install-preview)
 ## [업데이트](/visualstudio/mac/update)
+## [Mac용 Visual Studio 2019에 대한 업데이트](/visualstudio/mac/update-vsmac-8.0)
 ## [제거](/visualstudio/mac/uninstall)
 
 # [사용자 계정](/visualstudio/mac/user-accounts)

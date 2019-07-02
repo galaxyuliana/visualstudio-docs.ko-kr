@@ -8,9 +8,9 @@
       href: what-s-new-in-msbuild-15-0.md
     - name: MSBuild 개념
       items:
-        - name: MSBuild 개념
+        - name: MSBuild 개념 - 개요
           href: msbuild-concepts.md
-        - name: MSBuild 속성
+        - name: 속성
           items:
             - name: MSBuild 속성
               href: msbuild-properties.md
@@ -22,7 +22,7 @@
               href: how-to-build-the-same-source-files-with-different-options.md
             - name: 속성 함수
               href: property-functions.md
-        - name: MSBuild 항목
+        - name: 항목
           items:
             - name: MSBuild 항목
               href: msbuild-items.md
@@ -36,7 +36,7 @@
               href: item-definitions.md
             - name: 항목 함수
               href: item-functions.md
-        - name: MSBuild 대상
+        - name: 대상
           items:
             - name: MSBuild 대상
               href: msbuild-targets.md
@@ -56,7 +56,7 @@
               href: how-to-clean-a-build.md
             - name: MSBuild 프로젝트 SDK 참조
               href: how-to-use-project-sdk.md
-        - name: MSBuild 작업
+        - name: 작업
           items:
             - name: MSBuild 작업
               href: msbuild-tasks.md
@@ -66,7 +66,7 @@
               href: how-to-ignore-errors-in-tasks.md
             - name: 리소스를 사용하는 프로젝트 빌드
               href: how-to-build-a-project-that-has-resources.md
-            - name: MSBuild 인라인 작업
+            - name: 인라인 작업
               items:
                 - name: MSBuild 인라인 작업
                   href: msbuild-inline-tasks.md
@@ -76,7 +76,7 @@
               href: msbuild-roslyncodetaskfactory.md
         - name: 속성 및 항목 비교
           href: comparing-properties-and-items.md
-        - name: MSBuild 특수 문자
+        - name: 특수 문자
           items:
             - name: MSBuild 특수 문자
               href: msbuild-special-characters.md
@@ -84,11 +84,11 @@
               href: how-to-escape-special-characters-in-msbuild.md
             - name: 프로젝트 파일에서 예약된 XML 문자 사용
               href: how-to-use-reserved-xml-characters-in-project-files.md
-    - name: MSBuild 고급 개념
+    - name: 고급 개념
       items:
         - name: MSBuild 고급 개념
           href: msbuild-advanced-concepts.md
-        - name: MSBuild 일괄 처리
+        - name: 일괄 처리
           items:
             - name: MSBuild 일괄 처리
               href: msbuild-batching.md
@@ -98,7 +98,7 @@
               href: item-metadata-in-target-batching.md
         - name: MSBuild 변환
           href: msbuild-transforms.md
-        - name: Visual Studio 통합(MSBuild)
+        - name: Visual Studio 통합
           items:
             - name: Visual Studio 통합(MSBuild)
               href: visual-studio-integration-msbuild.md
@@ -108,7 +108,7 @@
               href: starting-a-build-from-within-the-ide.md
             - name: .NET Framework 확장 등록
               href: registering-extensions-of-the-dotnet-framework.md
-        - name: MSBuild를 사용하여 병렬로 여러 프로젝트 빌드
+        - name: 병렬로 여러 프로젝트 빌드
           items:
             - name: MSBuild를 사용하여 병렬로 여러 프로젝트 빌드
               href: building-multiple-projects-in-parallel-with-msbuild.md
@@ -116,11 +116,11 @@
               href: using-multiple-processors-to-build-projects.md
             - name: 대규모 프로젝트 빌드 시 메모리의 효율적인 사용
               href: using-memory-efficiently-when-you-build-large-projects.md
-        - name: MSBuild 멀티 타기팅 개요
+        - name: 다중 대상 지정
           items:
             - name: MSBuild 멀티 타기팅 개요
               href: msbuild-multitargeting-overview.md
-            - name: MSBuild 도구 집합(ToolsVersion)
+            - name: 도구 집합(ToolsVersion)
               items:
                 - name: MSBuild 도구 집합(ToolsVersion)
                   href: msbuild-toolset-toolsversion.md
@@ -142,7 +142,7 @@
               href: troubleshooting-dotnet-framework-targeting-errors.md
         - name: 파일 추적
           items:
-            - name: 파일 추적
+            - name: 파일 추적 - 개요
               href: file-tracking.md
             - name: EndTrackingContext
               href: endtrackingcontext.md
@@ -166,9 +166,9 @@
           href: customize-your-build.md
         - name: MSBuild 모범 사례
           href: msbuild-best-practices.md
-    - name: MSBuild 로그인
+    - name: 로깅
       items:
-        - name: MSBuild 로그인
+        - name: MSBuild의 로깅 - 개요
           href: logging-in-msbuild.md
         - name: MSBuild를 사용하여 빌드 로그 가져오기
           href: obtaining-build-logs-with-msbuild.md
@@ -186,11 +186,11 @@
       href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
     - name: MSBuild 참조
       items:
-        - name: MSBuild 참조
+        - name: MSBuild 참조 - 개요
           href: msbuild-reference.md
         - name: MSBuild 프로젝트 파일 스키마 참조
           items:
-            - name: MSBuild 프로젝트 파일 스키마 참조
+            - name: MSBuild 프로젝트 파일 스키마 참조 - 개요
               href: msbuild-project-file-schema-reference.md
             - name: Choose 요소(MSBuild)
               href: choose-element-msbuild.md
@@ -236,13 +236,13 @@
               href: usingtask-element-msbuild.md
             - name: When 요소(MSBuild)
               href: when-element-msbuild.md
-        - name: MSBuild 작업 참조
+        - name: 작업 참조
           items:
-            - name: MSBuild 작업 참조
+            - name: MSBuild 작업 참조 - 개요
               href: msbuild-task-reference.md
-            - name: Visaul C++ 관련 MSBuild 작업
+            - name: Visaul C++ 관련 작업
               items:
-                - name: Visaul C++ 관련 MSBuild 작업
+                - name: Visual C++ 관련 MSBuild 작업 - 개요
                   href: msbuild-tasks-specific-to-visual-cpp.md
                 - name: BscMake 작업
                   href: bscmake-task.md
@@ -438,15 +438,15 @@
           href: msbuild-well-known-item-metadata.md
         - name: MSBuild 지시 파일
           href: msbuild-response-files.md
-        - name: WPF MSBuild 참조
+        - name: WPF 참조
           items:
-            - name: WPF MSBuild 참조
+            - name: WPF MSBuild 참조 - 개요
               href: wpf-msbuild-reference.md
             - name: WPF .Targets 파일
               href: wpf-dot-targets-files.md
-            - name: WPF MSBuild 작업 참조
+            - name: WPF 작업 참조
               items:
-                - name: WPF MSBuild 작업 참조
+                - name: WPF MSBuild 작업 참조 - 개요
                   href: wpf-msbuild-task-reference.md
                 - name: FileClassifier 작업
                   href: fileclassifier-task.md
