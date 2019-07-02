@@ -1,6 +1,6 @@
 ---
 title: 구조체 및 클래스에 주석 지정
-ms.date: 11/04/2016
+ms.date: 06/28/2019
 ms.topic: conceptual
 f1_keywords:
 - _Field_size_bytes_part_
@@ -24,14 +24,15 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - multiple
-ms.openlocfilehash: fa459e3461ef5e58eb1e5b0c675c7e1b408d6f88
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 35be465064c9524eb0e1339794b6a19b7a595da1
+ms.sourcegitcommit: d2b234e0a4a875c3cba09321cdf246842670d872
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62571422"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "67493630"
 ---
 # <a name="annotating-structs-and-classes"></a>구조체 및 클래스에 주석 지정
+
 고정 처럼 작동 하는 주석을 사용 하 여 구조체와 클래스 멤버에 주석을 달 수 있습니다-함수 진입/종료 바깥쪽 구조를 매개 변수나 결과 값을 포함 하는 또는 함수 호출에서 true가 될 것으로 가정 됩니다.
 
 ## <a name="struct-and-class-annotations"></a>구조체 및 클래스 주석
@@ -75,6 +76,39 @@ ms.locfileid: "62571422"
     ```cpp
     min(pM->nSize, sizeof(MyStruct))
     ```
+
+## <a name="example"></a>예제
+
+```cpp
+#include <sal.h>
+// For FIELD_OFFSET macro
+#include <windows.h>
+
+// This _Struct_size_bytes_ is equivalent to what below _Field_size_ means.
+_Struct_size_bytes_(FIELD_OFFSET(MyBuffer, buffer) + bufferSize * sizeof(int))
+struct MyBuffer
+{
+    static int MaxBufferSize;
+    
+    _Field_z_
+    const char* name;
+    
+    int firstField;
+
+    // ... other fields
+
+    _Field_range_(1, MaxBufferSize)
+    int bufferSize;
+    _Field_size_(bufferSize)        // Prefered way - easier to read and maintain.
+    int buffer[0];
+};
+```
+
+이 예제에 대 한 참고 사항:
+
+- `_Field_z_`는 `_Null_terminated_`와 같습니다.  `_Field_z_` 이름에 대 한 필드 이름 필드는 null로 끝나는 문자열 임을 지정 합니다.
+- `_Field_range_` 에 대 한 `bufferSize` 지정 변수의 `bufferSize` 1 내에 있어야 하 고 `MaxBufferSize` (모두 포함).
+- 최종 결과 `_Struct_size_bytes_` 고 `_Field_size_` 주석은 해당 합니다. 와 비슷한 레이아웃이 있는 클래스나 구조체에 대 한 `_Field_size_` 참조 및 계산에 해당 하는 보다 적은 수 있기 때문에 보다 쉽게 읽고 유지 관리는 `_Struct_size_bytes_` 주석입니다. `_Field_size_` 변환할 바이트 크기를 필요 하지 않습니다. 바이트 크기가 옵션을 예를 들어, void 포인터 필드에 대해 `_Field_size_bytes_` 사용할 수 있습니다. 둘 다 `_Struct_size_bytes_` 고 `_Field_size_` 존재, 모두 도구에 제공 됩니다. 것은 도구 두 주석은 동의 하는 경우 수행할 작업입니다.
 
 ## <a name="see-also"></a>참고 항목
 
