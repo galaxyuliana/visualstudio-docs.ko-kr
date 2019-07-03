@@ -8,6 +8,12 @@ metadata:
   description: Visual Studio를 사용하여 선택한 언어로 플랫폼 또는 디바이스에 대한 애플리케이션, 서비스 및 도구를 개발하는 방법에 대해 알아봅니다.
   ms.topic: hub-page
   monikerRange: '>=vs-2017'
+  ms.openlocfilehash: b24bc5b3e1427a6f3675398e05a639b45c376571
+  ms.sourcegitcommit: d2b234e0a4a875c3cba09321cdf246842670d872
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 07/01/2019
+  ms.locfileid: "67493711"
 highlightedContent:
   items:
   - title: 설정 및 설치
@@ -200,9 +206,3 @@ additionalContent:
       - text: .NET Core 플랫폼 간 개발
         url: /dotnet/core/
   footer: '[블로그](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [문제 보고](ide/talk-to-us.md)  -  [개발자 커뮤니티](https://developercommunity.visualstudio.com/spaces/8/index.html)'
-ms.openlocfilehash: b24bc5b3e1427a6f3675398e05a639b45c376571
-ms.sourcegitcommit: d2b234e0a4a875c3cba09321cdf246842670d872
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "67493711"
