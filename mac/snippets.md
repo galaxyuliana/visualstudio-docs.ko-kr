@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 02/07/2019
 ms.assetid: 0FE27C0C-A861-4133-A74E-8D0505CF5342
-ms.openlocfilehash: 56f736aa1e32530b1db96ad301091151731b7d28
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b94a16fbd210bb229881d46071f24c59aea8419e
+ms.sourcegitcommit: 0cd282a7584b9bfd4df7882f8fdf3ad8a270e219
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62540103"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "67465138"
 ---
 # <a name="code-snippets"></a>코드 조각
 
@@ -85,8 +85,6 @@ ms.locfileid: "62540103"
 - `$end$` &ndash; 사용자가 코드 조각의 키워드 편집을 완료하면 커서가 `$end$` 키워드의 위치에 배치됩니다.
 
 이전 섹션의 `for` 코드 조각은 이러한 두 예약 키워드의 예제입니다.
-
-자세한 내용은 [Visual Studio code snippets reference](/visualstudio/ide/code-snippets-schema-reference#keywords)(Visual Studio 코드 조각 참조)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 
