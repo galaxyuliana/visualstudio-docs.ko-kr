@@ -1,6 +1,6 @@
 ---
 title: Target 요소(MSBuild) | Microsoft Docs
-ms.date: 03/13/2017
+ms.date: 06/13/2019
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Target
@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7e48d28f5270cd43da22d070f30706ce75a1655c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2b9910a677f5442e10c62a0623043033edd899c3
+ms.sourcegitcommit: dd3c8cbf56c7d7f82f6d8818211d45847ab3fcfc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62939302"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "67141183"
 ---
 # <a name="target-element-msbuild"></a>Target 요소(MSBuild)
 순차적으로 실행할 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]의 작업 집합을 포함합니다.
@@ -83,8 +83,10 @@ ms.locfileid: "62939302"
 | - | - |
 | [프로젝트](../msbuild/project-element-msbuild.md) | [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 프로젝트 파일의 필수 루트 요소입니다. |
 
-## <a name="remarks"></a>주의
+## <a name="remarks"></a>설명
  실행할 첫 번째 대상은 런타임에 지정됩니다. 대상은 다른 대상에 대한 종속성을 포함할 수 있습니다. 예를 들어 배포용 대상은 컴파일용 대상에 종속됩니다. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 엔진은 종속성을 `DependsOnTargets` 특성에 나타나는 순서대로 왼쪽에서 오른쪽으로 실행합니다. 자세한 내용은 [대상](../msbuild/msbuild-targets.md)을 참조하세요.
+
+ MSBuild는 가져오기 순서에 종속되며, 특정 `Name` 특성을 가진 대상의 마지막 정의가 사용됩니다.
 
  둘 이상의 대상이 종속성을 포함하고 있더라도 대상은 빌드 중에 한 번만 실행됩니다.
 
@@ -98,7 +100,7 @@ ms.locfileid: "62939302"
 
  MSBuild 4 이전 버전에서는 `Target`에 `Outputs`의 같은 항목에 대한 여러 참조가 포함되어 있는 경우 항상 중복 항목이 기록되었습니다. 중복 항목은 전혀 사용되지 않으므로 출력 수와 프로젝트 상호 종속성이 많은 대형 빌드에서는 이러한 방식으로 인해 많은 양의 메모리가 낭비됩니다. `KeepDuplicateOutputs` 특성을 `true`로 설정하면 이러한 중복 항목이 기록됩니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  다음 코드 예제는 `Csc` 작업을 실행하는 `Target` 요소를 보여 줍니다.
 
 ```xml

@@ -10,12 +10,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: e3cfe5e54e4893ffa0bed6e3be1bf142fdda60be
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: 16c8773e87784c43b4203b6837fb7c58ba5adce5
+ms.sourcegitcommit: 9753c7544cec852ca5efd0834e0956d9e53a5734
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66747156"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67043487"
 ---
 # <a name="install-python-interpreters"></a>Python 인터프리터 설치
 
@@ -29,7 +29,7 @@ Visual Studio 설치 관리자 외부에서 아래 표에 나열된 인터프리
 
 ::: moniker range=">=vs-2019"
 > [!Note]
-> Visual Studio는 [Python Software Foundation](https://devguide.python.org/#status-of-python-branches)에서 지정한 대로 모든 공식 지원되는 Python 버전을 지원합니다. 특히 2.7, 3.5, 3.6 및 3.7 버전입니다.
+> Visual Studio는 Python 버전 2.7과 버전 3.5 이상을 지원합니다. Visual Studio를 사용하여 다른 버전의 Python에서 작성된 코드도 편집할 수 있지만, 해당 버전은 공식적으로 지원되지 않으며 IntelliSense, 디버깅 등의 기능이 작동하지 않을 수 있습니다.
 ::: moniker-end
 
 **Visual Studio 2015 이하**의 경우 인터프리터 중 하나를 수동으로 설치해야 합니다.

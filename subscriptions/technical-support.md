@@ -7,12 +7,12 @@ ms.date: 08/01/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 지원 팀 혜택에 대한 자세한 정보
 searchscope: VS Subscription
-ms.openlocfilehash: 50b6245be908bffc0d2abb9db7f74ed14f878224
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 94c8ac818fbdee17c75c508f509e93b50c3871ec
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62427483"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67033094"
 ---
 # <a name="technical-support-benefits-included-with-visual-studio-subscriptions"></a>Visual Studio 구독에 포함된 지원 팀 혜택
 
@@ -29,6 +29,6 @@ ms.locfileid: "62427483"
 
 - [기술 지원](vs-tech-support.md): 전문가 지원을 사용하여 비프로덕션 환경에서 고장 수리 문제를 해결할 수 있습니다.
 
-- [우선순위 지원](vs-priority-support.md): 선정된 포럼 목록에서 질문을 할 수 있습니다. 개발자 커뮤니티가 2일 이내에 응답하지 않으면 Microsoft에서 응답합니다. (Microsoft 계정을 사용하는 경우에만 지원됨)
+- [개발자 커뮤니티 포럼](vs-priority-support.md): 전체 Developer Network 포럼에 액세스할 수 있습니다. 
 
 - [Concierge Chat](vs-concierge-chat.md): 기술 설명서와 제품 정보를 찾거나 구독 혜택 이용과 관련된 지원이 필요하면 채팅을 이용하세요.

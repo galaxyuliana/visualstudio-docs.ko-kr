@@ -17,12 +17,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 950e37fd1f1f42f534522c09a8322311c06cebd6
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: a79bcf2aade3a84e0453aec1d64e37c8a6a5c24c
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65688504"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67033030"
 ---
 # <a name="measure-application-performance-by-analyzing-cpu-usage"></a>CPU 사용량을 분석하여 애플리케이션 성능 측정
 Visual Studio 프로파일링 도구를 사용하여 애플리케이션의 성능 문제를 분석할 수 있습니다. 이 절차에서는 진단 도구의 **CPU 사용량** 탭을 사용하여 앱의 성능 데이터를 가져오는 방법을 보여 줍니다. 진단 도구는 ASP.NET을 포함한 Visual Studio의 .NET 개발 및 네이티브/C++ 개발에 사용할 수 있습니다.
@@ -148,6 +148,9 @@ CPU 사용량 아래의 함수 목록을 검사하고, 가장 많은 작업을 �
 
     ![진단 도구 실행 부하 과다 경로](../profiling/media/vs-2019/diag-tools-hot-path.png "DiagToolsHotPath")
     ::: moniker-end
+
+    > [!NOTE]
+    > 호출 트리에서 코드가 “손상됨” 또는 “탐색 불가능 스택”으로 표시되는 경우 ETW(Windows용 이벤트 추적) 이벤트가 삭제되었을 가능성이 높음을 나타냅니다. 문제를 해결하려면 동일한 추적을 다시 수집해 보세요.
 
 ## <a name="view-external-code"></a>외부 코드 보기
 

@@ -1,18 +1,18 @@
 ---
 title: Microsoft.VisualStudio.TestTools.CppUnitTestFramework API
-ms.date: 11/04/2017
+ms.date: 06/13/2019
 ms.topic: reference
 ms.author: mblome
 manager: jillfra
 ms.workload:
 - multiple
 author: mikeblome
-ms.openlocfilehash: b80b7fb8439f9e2a2a2af92e458295d153e449e5
-ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.openlocfilehash: 3634dcd7cf136aa52de3ebf6bf5bfc3d57632d2c
+ms.sourcegitcommit: ab06cde69d862440b4277bcd9bf02e7b50593a1b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66820772"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67132139"
 ---
 # <a name="microsoftvisualstudiotesttoolscppunittestframework-api-reference"></a>Microsoft.VisualStudio.TestTools.CppUnitTestFramework API 참조
 
@@ -25,7 +25,8 @@ ms.locfileid: "66820772"
 헤더 및 라이브러리 경로는 기본 테스트 프로젝트에서 자동으로 구성됩니다.
 
 ## <a name="In_this_topic"></a> 항목 내용
- [CppUnitTest.h](#cppUnitTest_h)
+
+[CppUnitTest.h](#cppUnitTest_h)
 
 - [테스트 클래스와 메서드 만들기](#create_test_classes_and_methods)
 
@@ -184,7 +185,7 @@ BEGIN_TEST_METHOD_ATTRIBUTE(testMethodName)
 END_TEST_METHOD_ATTRIBUTE()
 ```
 
- 하나 이상의 `TEST_METHOD_ATTRIBUTE` 매크로로 정의된 특성을 테스트 메서드 *testClassName*에 추가합니다.
+ 하나 이상의 `TEST_METHOD_ATTRIBUTE` 매크로로 정의된 특성을 테스트 메서드 *testMethodName*에 추가합니다.
 
  `TEST_METHOD_ATTRIBUTE` 매크로는 이름 *attributeName* 및 값 *attributeValue*를 사용하여 특성을 정의합니다.
 
@@ -215,37 +216,38 @@ END_TEST_MODULE_ATTRIBUTE()
  `TEST_MODULE_ATTRIBUTE` 매크로는 이름 *attributeName* 및 값 *attributeValue*를 사용하여 특성을 정의합니다.
 
 #### <a name="pre_defined_attributes"></a> 미리 정의된 특성
- 위에서 설명한 매크로 `TEST_METHOD_ATTRIBUTE`, `TEST_CLASS_ATTRIBUTE` 또는 `TEST_MODULE_ATTRIBUTE` 매크로를 이러한 미리 정의된 특성 매크로로 대체할 수 있습니다.
+
+ 미리 정의된 이러한 특성 매크로는 일반적인 경우에 간편하게 사용할 수 있도록 제공됩니다. 위에서 설명한 `TEST_METHOD_ATTRIBUTE` 매크로 대신 사용할 수 있습니다.
 
 ```cpp
 TEST_OWNER(ownerAlias)
 ```
 
- 이름 `Owner` 및 특성 값 *ownerAlias*를 사용하여 특성을 정의합니다.
+ 이름 `Owner` 및 특성 값 *ownerAlias*를 사용하여 `TEST_METHOD_ATTRIBUTE`를 정의합니다.
 
 ```cpp
 TEST_DESCRIPTION(description)
 ```
 
- 이름 `Description` 및 특성 값 *description*을 사용하여 특성을 정의합니다.
+ 이름 `Description` 및 특성 값 *description*을 사용하여 `TEST_METHOD_ATTRIBUTE`를 정의합니다.
 
 ```cpp
 TEST_PRIORITY(priority)
 ```
 
- 이름 `Priority` 및 특성 값 *priority*를 사용하여 특성을 정의합니다.
+ 이름 `Priority` 및 특성 값 *priority*를 사용하여 `TEST_METHOD_ATTRIBUTE`를 정의합니다.
 
 ```cpp
 TEST_WORKITEM(workitem)
 ```
 
- 이름 `WorkItem` 및 특성 값 *workItem*을 사용하여 특성을 정의합니다.
+ 이름 `WorkItem` 및 특성 값 *workItem*을 사용하여 `TEST_METHOD_ATTRIBUTE`를 정의합니다.
 
 ```cpp
 TEST_IGNORE()
 ```
 
- 이름 `Ignore` 및 특성 값 `true`를 사용하여 특성을 정의합니다.
+ 이름 `Ignore` 및 특성 값 `true`를 사용하여 `TEST_METHOD_ATTRIBUTE`를 정의합니다.
 
 ## <a name="cppUnitTestAssert_h"></a> CppUnitTestAssert.h
 

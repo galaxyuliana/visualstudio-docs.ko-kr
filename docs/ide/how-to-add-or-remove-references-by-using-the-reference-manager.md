@@ -21,12 +21,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 885dee2ca04060042e804ff964636d16e6a725ee
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: 32bc3b0a06b7bfb8c012239b256460ad832ac3a1
+ms.sourcegitcommit: d4920babfc3d24a3fe1d4bf446ed3fe73b344467
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66745808"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67160160"
 ---
 # <a name="how-to-add-or-remove-references-by-using-the-reference-manager"></a>방법: 참조 관리자를 사용하여 참조 추가 또는 제거
 
@@ -92,7 +92,7 @@ EnvDTE 네임스페이스(<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref
 
 - 최신 프레임워크 버전을 사용하는 구성 요소는 이전 버전을 대상으로 하는 프로젝트와 호환되지 않습니다.
 
-   프로젝트의 대상 프레임워크 버전을 변경하는 방법에 대한 자세한 내용은 [방법: 프레임워크 버전 대상 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)을 참조하세요.
+   프로젝트의 대상 프레임워크 버전을 변경하는 방법에 대한 자세한 내용은 [프레임워크 대상 지정 개요](visual-studio-multi-targeting-overview.md)를 참조하세요.
 
 - .NET Framework 4를 사용하는 구성 요소는 .NET Framework 4.5를 대상으로 하는 프로젝트와 호환되지 않습니다.
 

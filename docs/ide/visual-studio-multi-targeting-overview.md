@@ -11,20 +11,20 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: cb7af190ac7fc5d4d5ce547029689f6c902a6e4f
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: b652c603cd98f9c9ec9366a225971485def187b6
+ms.sourcegitcommit: d4920babfc3d24a3fe1d4bf446ed3fe73b344467
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66747635"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67160152"
 ---
 # <a name="framework-targeting-overview"></a>Framework 대상 지정 개요
 
-Visual Studio에서는 프로젝트에서 대상으로 하려는 .NET의 버전을 지정할 수 있습니다. .NET Framework 앱이 다른 컴퓨터에서 실행되려면 애플리케이션이 대상으로 하는 Framework 버전이 컴퓨터에 설치된 Framework 버전과 호환되어야 합니다.
+Visual Studio에서는 프로젝트에서 대상으로 하려는 .NET의 버전을 지정할 수 있습니다. 프레임워크 대상 지정을 통해 애플리케이션에서 지정된 프레임워크 버전에서 제공되는 기능만 사용하도록 할 수 있습니다. .NET Framework 앱이 다른 컴퓨터에서 실행되려면 애플리케이션이 대상으로 하는 Framework 버전이 컴퓨터에 설치된 Framework 버전과 호환되어야 합니다.
+
+Visual Studio 솔루션에는 여러 가지 버전의 .NET을 대상으로 하는 프로젝트가 포함될 수 있습니다.
 
 대상 프레임워크에 대한 자세한 내용은 [대상 프레임워크](/dotnet/standard/frameworks)를 참조하세요.
-
-여러 가지 버전의 .NET를 대상으로 지정하는 프로젝트가 포함된 솔루션을 만들 수도 있습니다. 프레임워크 대상 지정을 통해 애플리케이션에서 지정된 프레임워크 버전에서 제공되는 기능만 사용하도록 할 수 있습니다.
 
 > [!TIP]
 > 다른 플랫폼에 대한 애플리케이션을 대상으로 지정할 수도 있습니다. 자세한 내용은 [멀티 타기팅](../msbuild/msbuild-multitargeting-overview.md)을 참조하세요.
@@ -79,13 +79,40 @@ Visual Studio에서는 프로젝트에서 대상으로 하려는 .NET의 버전�
 
 ::: moniker-end
 
-기존 프로젝트의 경우 프로젝트 속성 대화 상자에서 대상 .NET 버전을 변경할 수 있습니다. 자세한 내용은 [방법: .NET 버전 대상 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)
+## <a name="change-the-target-framework"></a>대상 프레임워크 변경
+
+기존 Visual Basic, C# 또는 F# 프로젝트의 경우, 프로젝트 속성 대화 상자에서 대상 .NET 버전을 변경합니다. C++ 프로젝트의 대상 버전을 변경하는 방법에 대한 자세한 내용은 [대상 프레임워크 및 플랫폼 도구 집합을 수정하는 방법](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)을 참조하세요.
+
+1. **솔루션 탐색기**에서 변경하려는 프로젝트의 오른쪽 클릭 메뉴를 열고 **속성**을 선택합니다.
+
+1. **속성** 창의 왼쪽 열에서 **애플리케이션** 탭을 선택합니다.
+
+   ![프로젝트 속성 애플리케이션 탭](../ide/media/vs_slnexplorer_properties_applicationtab.png)
+
+   > [!NOTE]
+   > UWP 앱을 만든 후에는 Windows 또는 .NET의 대상 버전을 변경할 수 없습니다.
+
+1. **대상 프레임워크** 목록에서 원하는 버전을 선택합니다.
+
+1. [확인] 대화 상자가 나타나면 **예** 단추를 선택합니다.
+
+   프로젝트가 언로드됩니다. 다시 로드되면 이 프로젝트는 방금 선택한 .NET 버전을 대상으로 지정합니다.
+
+> [!NOTE]
+> 코드에 사용자가 대상으로 지정한 것과 다른 버전의 .NET에 대한 참조가 포함된 경우, 코드를 컴파일하거나 실행할 때 오류 메시지가 나타날 수 있습니다. 이러한 오류를 해결하려면 참조를 수정합니다. [.NET 대상 지정 오류 문제 해결](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)을 참조하세요.
+
+> [!TIP]
+> 대상 프레임워크에 따라 프로젝트 파일에서 다음과 같이 표시될 수 있습니다.
+>
+> - .NET Core 앱: `<TargetFramework>netcoreapp2.1</TargetFramework>`
+> - .NET Standard 앱: `<TargetFramework>netstandard2.0</TargetFramework>`
+> - .NET Framework 앱: `<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>`
 
 ## <a name="resolve-system-and-user-assembly-references"></a>시스템 및 사용자 어셈블리 참조 확인
 
 .NET 버전을 대상으로 지정하려면 먼저 적절한 어셈블리 참조를 설치해야 합니다. [.NET 다운로드](https://www.microsoft.com/net/download/windows) 페이지에서 다양한 버전의 .NET 개발자 팩을 다운로드할 수 있습니다.
 
-.NET Framework 프로젝트의 경우 **참조 추가** 대화 상자에서는 실수로 프로젝트에 추가될 수 없도록 대상 .NET Framework 버전과 관련이 없는 시스템 어셈블리를 비활성화합니다. (시스템 어셈블리는 .NET Framework 버전에 포함된 *.dll* 파일입니다.) 대상 버전 이상의 프레임워크 버전에 속한 참조는 확인되지 않고 이런 참조에 따라 결정되는 컨트롤을 추가할 수 없습니다. 해당 참조를 사용하도록 설정하려면 프로젝트의 .NET Framework 대상을 참조가 포함된 대상으로 다시 설정합니다. 자세한 내용은 [방법: 프레임워크 버전 대상 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)을 참조하세요.
+.NET Framework 프로젝트의 경우 **참조 추가** 대화 상자에서는 실수로 프로젝트에 추가될 수 없도록 대상 .NET Framework 버전과 관련이 없는 시스템 어셈블리를 비활성화합니다. (시스템 어셈블리는 .NET Framework 버전에 포함된 *.dll* 파일입니다.) 대상 버전 이상의 프레임워크 버전에 속한 참조는 확인되지 않고 이런 참조에 따라 결정되는 컨트롤을 추가할 수 없습니다. 해당 참조를 사용하도록 설정하려면 프로젝트의 .NET Framework 대상을 참조가 포함된 대상으로 다시 설정합니다.
 
 어셈블리 참조에 대한 자세한 내용은 [디자인 타임에 어셈블리 확인](../msbuild/resolving-assemblies-at-design-time.md)을 참조하세요.
 

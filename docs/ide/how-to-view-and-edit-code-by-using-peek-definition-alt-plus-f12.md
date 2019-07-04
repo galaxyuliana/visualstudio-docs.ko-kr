@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c7edb17ec3cefd87263ea367b3b012a391d77d6d
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: 79bebcdaaf2d970f019da12141275358120ac70e
+ms.sourcegitcommit: 9753c7544cec852ca5efd0834e0956d9e53a5734
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66747327"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67043409"
 ---
 # <a name="how-to-view-and-edit-code-by-using-peek-definition-altf12"></a>방법: 정의 피킹(Peeking)을 사용하여 코드 보기 및 편집(Alt+F12)
 
@@ -86,4 +86,4 @@ ms.locfileid: "66747327"
 
 - [코드 탐색](../ide/navigating-code.md)
 - [정의로 이동 및 정의 피킹(Peeking)](../ide/go-to-and-peek-definition.md)
-- [생산성 팁](../ide/productivity-tips-for-visual-studio.md)
+- [Visual Studio의 생산성 기능](../ide/productivity-features.md)

@@ -1,38 +1,40 @@
 ---
 title: .runsettings 파일을 사용하여 단위 테스트 구성
-ms.date: 02/28/2018
+ms.date: 06/14/2019
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: f7d4da645c464e51bd331bca64066209b52132fe
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: 9715edff9083a0e99fa52075426d11ea92b7b6e2
+ms.sourcegitcommit: d4920babfc3d24a3fe1d4bf446ed3fe73b344467
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66746566"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67160200"
 ---
 # <a name="configure-unit-tests-by-using-a-runsettings-file"></a>*.runsettings* 파일을 사용하여 단위 테스트 구성
 
 *.runsettings* 파일을 사용하여 Visual Studio의 단위 테스트를 구성할 수 있습니다. 예를 들어, 테스트가 실행되는 .NET 버전, 테스트 결과 디렉터리 또는 테스트 실행 중에 수집되는 데이터를 변경할 수 있습니다.
 
-실행 설정 파일은 선택 사항입니다. 특별한 구성이 필요하지 않으면 *.runsettings* 파일이 필요하지 않습니다. *.runsettings* 파일은 [코드 검사 분석](../test/customizing-code-coverage-analysis.md)을 사용자 지정할 때 가장 자주 사용됩니다.
+실행 설정 파일은 선택 사항입니다. 특별한 구성이 필요하지 않으면 *.runsettings* 파일이 필요하지 않습니다. *.runsettings* 파일은 [코드 검사 분석](../test/customizing-code-coverage-analysis.md)을 사용자 지정하는 데 자주 사용됩니다.
 
 ## <a name="specify-a-run-settings-file"></a>실행 설정 파일 지정
 
 실행 설정 파일은 Azure Test Plans 또는 TFS(Team Foundation Server)를 사용하여 [워크플로 빌드](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts) 또는 IDE의 [명령줄](vstest-console-options.md)에서 실행되는 테스트를 구성하는 데 사용할 수 있습니다.
 
-### <a name="specify-a-run-settings-file-in-the-ide"></a>IDE에서 실행 설정 파일 지정
+### <a name="ide"></a>IDE
 
-**테스트** > **테스트 설정** > **테스트 설정 파일 선택**을 차례로 선택한 다음, *.runsettings* 파일을 선택합니다. **테스트 설정** 메뉴에 파일이 나타나고 해당 파일을 선택 또는 취소할 수 있습니다. 파일이 선택된 상태에서 **코드 검사 분석**을 사용할 때마다 실행 설정 파일이 적용됩니다.
+IDE에서 실행 설정 파일을 지정하려면 **테스트** > **테스트 설정** > **테스트 설정 파일 선택**을 선택한 다음, *.runsettings* 파일을 선택합니다.
 
 ![Visual Studio에서 테스트 설정 파일 메뉴 선택](media/select-test-settings-file.png)
 
-### <a name="specify-a-run-settings-file-at-the-command-line"></a>명령줄에서 실행 설정 파일 지정
+**테스트 설정** 메뉴에 파일이 나타나고 해당 파일을 선택 또는 취소할 수 있습니다. 파일이 선택된 상태에서 **코드 검사 분석**을 사용할 때마다 실행 설정 파일이 적용됩니다.
 
-명령줄에서 테스트를 실행하려면 *vstest.console.exe*를 사용하고, **/Settings** 매개 변수를 사용하여 설정 파일을 지정합니다.
+### <a name="command-line"></a>명령줄
+
+명령줄에서 테스트를 실행하려면 *vstest.console.exe*를 사용하고, **/Settings** 매개 변수를 통해 설정 파일을 지정합니다.
 
 1. Visual Studio 개발자 명령 프롬프트를 시작합니다.
 
@@ -52,6 +54,12 @@ ms.locfileid: "66746566"
 
    ```cmd
    vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage /Settings:CodeCoverage.runsettings
+   ```
+
+   또는
+
+   ```cmd
+   vstest.console.exe --settings:test.runsettings test.dll
    ```
 
 자세한 내용은 [MSTest.exe 명령줄 옵션](vstest-console-options.md)을 참조하세요.
@@ -174,7 +182,7 @@ ms.locfileid: "66746566"
 |노드|기본|값|
 |-|-|-|
 |**ResultsDirectory**||테스트 결과가 배치될 디렉터리입니다.|
-|**TargetFrameworkVersion**|Framework40|Framework35, Framework40, Framework45<br /><br />이 설정은 테스트를 검색하고 실행하는 데 사용할 단위 테스트 프레임워크의 버전을 지정합니다. 이 버전은 단위 테스트 프로젝트의 빌드 속성에 지정하는 .NET 플랫폼의 버전과 다를 수 있습니다.|
+|**TargetFrameworkVersion**|Framework40|`FrameworkCore10`은 .NET Core 소스, `FrameworkUap10`은 UWP 기반 소스, `Framework45`는 .NET Framework 4.5 이상, `Framework40`은 .NET Framework 4.0, `Framework35`는 .NET Framework 3.5를 나타냅니다.<br /><br />이 설정은 테스트를 검색하고 실행하는 데 사용할 단위 테스트 프레임워크의 버전을 지정합니다. 이 버전은 단위 테스트 프로젝트의 빌드 속성에 지정하는 .NET 플랫폼의 버전과 다를 수 있습니다.<br /><br />*.runsettings* 파일에서 `TargetFrameworkVersion` 요소를 생략하면, 플랫폼이 빌드된 이진 파일을 기준으로 프레임워크 버전을 자동으로 결정합니다.|
 |**TargetPlatform**|x86|x86, x64|
 |**TreatTestAdapterErrorsAsWarnings**|False|false, true|
 |**TestAdaptersPaths**||TestAdapters가 있는 디렉터리에 대한 하나 이상의 경로|
@@ -263,5 +271,6 @@ TestRunParameters를 사용하려면 개인 <xref:Microsoft.VisualStudio.TestToo
 
 ## <a name="see-also"></a>참고 항목
 
+- [테스트 실행 구성](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
 - [코드 검사 분석 사용자 지정](../test/customizing-code-coverage-analysis.md)
 - [Visual Studio 테스트 작업(Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts)
