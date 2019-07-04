@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1d2c20f25b005e738769d1c8663387f0a427e5dd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c9d776c061982b60640944737b27cda927f79e59
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62841048"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67033158"
 ---
 # <a name="first-look-at-the-visual-studio-ide"></a>먼저 Visual Studio IDE 살펴보기
 
@@ -37,7 +37,7 @@ ms.locfileid: "62841048"
 
 Visual Studio를 시작한 후에 처음으로 보게 되는 것은 시작 창입니다. 시작 창은 "코드 가져오기"를 더 빨리 할 수 있도록 설계되었습니다. 코드를 닫거나 체크 아웃하거나 기존 프로젝트 또는 솔루션을 열거나, 새 프로젝트를 만들거나, 일부 코드 파일이 포함된 폴더를 열 수 있는 옵션이 있습니다.
 
-[![](media/vs-2019/start-window.png "Visual Studio 2019의 시작 창")](media/vs-2019/start-window.png)
+[![Visual Studio 2019의 시작 창](media/vs-2019/start-window.png)](media/vs-2019/start-window.png)
 
 Visual Studio를 처음 사용하는 경우 최근 프로젝트 목록이 비어 있습니다.
 

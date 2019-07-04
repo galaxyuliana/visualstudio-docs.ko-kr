@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - uwp
 author: mikeblome
-ms.openlocfilehash: 01a7b6cfb6587baf5ae80b04178cbdc36e373b86
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 723e61f60550230774eb909dfce44d5f91ae7a64
+ms.sourcegitcommit: ab06cde69d862440b4277bcd9bf02e7b50593a1b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226363"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67132189"
 ---
 # <a name="how-to-test-a-visual-c-dll"></a>Visual C++ DLL 테스트 방법
 
@@ -152,13 +152,9 @@ ms.locfileid: "65226363"
 
 1. RooterLibTests 프로젝트에 RooterLib를 추가합니다.
 
-   1. **솔루션 탐색기**에서 **RooterLibTests** 프로젝트를 선택한 다음, 바로 가기 메뉴에서 **참조**를 선택합니다.
+   1. **솔루션 탐색기**에서 **RooterLibTests** 프로젝트를 선택한 다음, 바로 가기 메뉴에서 **추가** > **참조**를 선택합니다.
 
-   2. **RooterLib 프로젝트 속성** 대화 상자에서 **공용 속성**을 확장하고 **프레임워크 및 참조**를 선택합니다.
-
-   3. **새 참조 추가** 선택
-
-   4. **참조 추가** 대화 상자에서 **솔루션**을 확장한 다음 **프로젝트**를 선택합니다. 그런 다음 **RouterLib** 항목을 선택합니다.
+   1. **참조 추가** 대화 상자에서 **프로젝트**를 선택합니다. 그런 다음 **RouterLib** 항목을 선택합니다.
 
 2. *unittest1.cpp*에 RooterLib 헤더 파일을 포함합니다.
 

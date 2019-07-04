@@ -1,5 +1,5 @@
 ---
-title: 배포 기능 둘러보기
+title: 배포 소개
 description: Visual Studio에서 앱을 배포하기 위한 옵션에 대해 알아봅니다.
 ms.custom: mvc
 ms.date: 01/29/2019
@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ae70551fdb223856774f7e2afa0d85f915f27a0c
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: aca4869126a6756c15b2eb2c2be61613b1a58e74
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66261981"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67032561"
 ---
 # <a name="first-look-at-deployment-in-visual-studio"></a>먼저 Visual Studio의 배포 살펴보기
 
@@ -48,7 +48,7 @@ ms.locfileid: "66261981"
 
 ## <a name="publish-to-azure"></a>Azure에 게시
 
-- **ASP.NET**, **ASP.NET Core**, **Python** 및 **Node.js.**: 다음 방법 중 하나를 사용하여 Azure App Service 또는 Azure App Service Linux(컨테이너 사용)에 게시합니다.
+- **ASP.NET**, **ASP.NET Core**, **Python** 및 **Node.js.** : 다음 방법 중 하나를 사용하여 Azure App Service 또는 Azure App Service Linux(컨테이너 사용)에 게시합니다.
 
   - 연속(또는 자동) 배포 앱의 경우 Azure DevOps를 [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azdevops)과 함께 사용합니다.
 
@@ -120,6 +120,16 @@ Visual Studio에서 Microsoft Store에 배포하기 위한 앱 패키지를 만�
 ## <a name="continuous-deployment"></a>연속 배포
 
 Azure Pipelines를 사용하여 앱의 연속 배포를 사용하도록 설정할 수 있습니다. 자세한 내용은 [Azure Pipelines](/azure/devops/pipelines/index?view=vsts) 및 [Azure에 배포](/azure/devops/deploy-azure/index?view=vsts)를 참조하세요.
+
+## <a name="deploy-a-sql-database"></a>SQL 데이터베이스 배포
+
+- [대상 플랫폼 변경 및 데이터베이스 프로젝트 게시(SSDT(SQL Server Data Tools))](/sql/ssdt/how-to-change-target-platform-and-publish-a-database-project)
+
+- [Analysis Services 프로젝트 배포(SSAS)](/sql/analysis-services/multidimensional-tutorial/lesson-2-5-deploying-an-analysis-services-project)
+
+- [Integration Services(SSIS) 프로젝트 및 패키지 배포](/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages)
+
+- [빌드 및 로컬 데이터베이스에 배포](/sql/ssdt/how-to-build-and-deploy-to-a-local-database)
 
 ## <a name="deployment-for-other-app-types"></a>다른 앱 형식의 배포
 

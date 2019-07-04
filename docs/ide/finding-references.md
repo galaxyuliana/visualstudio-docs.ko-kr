@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: df3eb6577c72aa421f2a22d93b3109f63548cc96
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b0d49223d61e3c72f2726b89de99ba9c092ddefe
+ms.sourcegitcommit: fd5a5b057df3d733f5224c305096907989811f85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62793505"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67195260"
 ---
 # <a name="find-references-in-your-code"></a>코드에서 참조 찾기
 
@@ -48,7 +48,7 @@ ms.locfileid: "62793505"
 **정의** 및 **프로젝트**는 기본적인 두 가지 그룹이지만 선택한 항목의 오른쪽 클릭 메뉴(상황에 맞는 메뉴)에서 **그룹화** 명령을 선택하여 다른 그룹을 추가할 수 있습니다. 더 많은 그룹을 추가하는 것은 솔루션에 파일 및 경로가 많은 경우에 유용할 수 있습니다.
 
 ## <a name="filter-by-reference-type-in-net"></a>.NET의 참조 유형별 필터링
-C# 또는 Visual Basic에서 참조 찾기 창에는 찾은 참조 유형이 나열되는 종류 열이 있습니다. 이 열은 열 머리글 위를 마우스로 가리킬 때 표시되는 필터 아이콘을 클릭하여 참조 유형별로 필터링하는 데 사용할 수 있습니다. 참조는 읽기, 쓰기, 참조 및 NameOnly로 필터링할 수 있습니다.
+C# 또는 Visual Basic에서 참조 찾기 창에는 찾은 참조 유형이 나열되는 종류 열이 있습니다. 이 열은 열 머리글 위를 마우스로 가리킬 때 표시되는 필터 아이콘을 클릭하여 참조 유형별로 필터링하는 데 사용할 수 있습니다. 참조는 읽기, 쓰기, 참조, 네임스페이스 및 형식으로 필터링할 수 있습니다.
 
 ![참조 창 종류 찾기 열 ](../ide/media/vside_findallreferencesKind.png)
 

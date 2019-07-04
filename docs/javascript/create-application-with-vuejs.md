@@ -12,12 +12,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: a5c903b0aa82f3711bdbe1fd7925829fbdc06c9a
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: a83e19f808a3f3ab7e1bf9f4fb58f5ddd7a218b7
+ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226051"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "67033133"
 ---
 # <a name="create-a-vuejs-application-using-nodejs-tools-for-visual-studio"></a>Visual Studio용 Node.js 도구를 사용하여 Vue.js 애플리케이션 만들기
 
@@ -103,7 +103,7 @@ vue cli npm 모듈을 설치하려면 명령 프롬프트를 열고 버전 3.0�
 1. `vue init webpack client-app`을 입력하고 추가 질문에 대답하라는 메시지가 나타나면 단계를 수행합니다.
 
     > [!NOTE]
-    > ‘.vue’ 파일의 경우 변환을 수행하려면 WebPack 또는 유사한 프레임워크를 로더와 함께 사용해야 합니다. TypeScript 및 Visual Studio는 *.vue* 파일을 컴파일하는 방법을 모릅니다. 묶음의 경우도 마찬가지로, TypeScript는 ES2015 모듈(즉, `import` 문과 `export` 문)을 브라우저에서 로드할 단일 최종 *.js* 파일로 변환하는 방법을 모릅니다. 이 경우도 WebPack이 가장 적합한 옵션입니다. 이 프로세스를 Visual Studio 내에서 MSBuild를 사용해 구동하려면 Visual Studio 템플릿에서 시작해야 합니다. 현재 Vue.js 개발을 위해 기본 제공되는 ASP.NET 템플릿이 없습니다.
+    >  ‘.vue’ 파일의 경우 변환을 수행하려면 WebPack 또는 유사한 프레임워크를 로더와 함께 사용해야 합니다. TypeScript 및 Visual Studio는 *.vue* 파일을 컴파일하는 방법을 모릅니다. 묶음의 경우도 마찬가지로, TypeScript는 ES2015 모듈(즉, `import` 문과 `export` 문)을 브라우저에서 로드할 단일 최종 *.js* 파일로 변환하는 방법을 모릅니다. 이 경우도 WebPack이 가장 적합한 옵션입니다. 이 프로세스를 Visual Studio 내에서 MSBuild를 사용해 구동하려면 Visual Studio 템플릿에서 시작해야 합니다. 현재 Vue.js 개발을 위해 기본 제공되는 ASP.NET 템플릿이 없습니다.
 
 #### <a name="modify-the-webpack-configuration-to-output-the-built-files-to-wwwroot"></a>webpack 구성을 수정하여 wwwroot로 빌드된 파일 출력
 
@@ -169,7 +169,15 @@ vue cli npm 모듈을 설치하려면 명령 프롬프트를 열고 버전 3.0�
 
 #### <a name="build-with-vue-cli-30"></a>vue-cli 3.0을 사용하여 빌드
 
-vue-cli 3.0을 사용한 알 수 없는 문제는 빌드 프로세스를 자동화할 수 없도록 합니다. wwwroot 폴더를 새로 고치려고 할 때마다 클라이언트 앱 폴더에서 `npm run build` 명령을 실행해야 합니다.
+vue-cli 3.0의 알 수 없는 문제로 인해 빌드 프로세스를 자동화하지 못할 수 있습니다. wwwroot 폴더를 새로 고치려고 할 때마다 클라이언트 앱 폴더에서 `npm run build` 명령을 실행해야 합니다.
+
+또는 ASP.NET 프로젝트 속성을 사용하여 빌드 전 이벤트로 vue-cli 3.0 프로젝트를 빌드할 수 있습니다. 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택한 다음, **빌드** 탭의 **빌드 전 이벤트 명령줄** 텍스트 상자에 다음 명령을 포함합니다.
+
+``` cmd
+cd ./client-app
+npm run build
+cd ../
+```
 
 ## <a name="limitations"></a>제한 사항
 

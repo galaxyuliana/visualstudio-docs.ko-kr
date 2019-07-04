@@ -11,18 +11,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: ba1529840a38a23929b9926cc4bed5cc22a058cb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: befbb09d347043ae304702618506d193344e23ba
+ms.sourcegitcommit: fd5a5b057df3d733f5224c305096907989811f85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62825475"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67195241"
 ---
 # <a name="overview-of-net-compiler-platform-analyzers"></a>.NET Compiler Platform 분석기 개요
 
-.NET Compiler Platform(“Roslyn”) 분석기는 스타일, 품질 및 유지 관리, 디자인 및 기타 문제 해결을 위해 코드를 분석합니다. Visual Studio에는 입력한 C# 또는 Visual Basic 코드를 분석하는 기본 제공 분석기 세트가 포함되어 있습니다. [텍스트 편집기 옵션](../ide/code-styles-and-quick-actions.md) 페이지 또는 [.editorconfig 파일](../ide/editorconfig-code-style-settings-reference.md)에서 이러한 기본 제공 분석기에 대한 기본 설정을 구성합니다. 추가로 분석기를 Visual Studio 확장이나 NuGet 패키지로 설치할 수 있습니다.
+.NET Compiler Platform(“Roslyn”) 분석기는 스타일, 품질 및 유지 관리, 디자인 및 기타 문제 해결을 위해 코드를 분석합니다. Visual Studio에는 입력한 C# 또는 Visual Basic 코드를 분석하는 기본 제공 분석기 세트가 포함되어 있습니다. [텍스트 편집기 옵션](../ide/code-styles-and-code-cleanup.md) 페이지 또는 [.editorconfig 파일](../ide/editorconfig-code-style-settings-reference.md)에서 이러한 기본 제공 분석기에 대한 기본 설정을 구성합니다. 추가로 분석기를 Visual Studio 확장이나 NuGet 패키지로 설치할 수 있습니다.
 
-분석기에서 규칙 위반이 발생하면 코드 편집기(위반 코드 아래에 ‘물결선’으로 표시됨) 및 **오류 목록** 창에서 규칙 위반이 보고됩니다.
+분석기에서 규칙 위반을 발견하면 코드 편집기(위반 코드 아래에 ‘물결선’이 표시됨) 및 **오류 목록** 창에 규칙 위반이 보고됩니다. 
 
 여러 분석기 규칙 또는 *진단*에는 문제를 해결하는 데 적용할 수 있는 하나 이상의 연결된 *코드 수정*이 있습니다. Visual Studio에 기본 제공되는 분석기 진단에는 각각 관련된 코드 수정이 있습니다. 코드 수정은 다른 형식의 [빠른 작업](../ide/quick-actions.md)과 함께 전구 아이콘 메뉴에 표시됩니다. 이러한 코드 수정에 대한 정보는 [일반적인 빠른 작업](../ide/common-quick-actions.md)을 참조하세요.
 
@@ -32,7 +32,7 @@ ms.locfileid: "62825475"
 
 .NET Compiler Platform("Roslyn") 분석기는 관리 코드에 대한 [정적 코드 분석](../code-quality/code-analysis-for-managed-code-overview.md)을 대체합니다. 다양한 정적 코드 분석 규칙은 이미 Roslyn 분석기 진단으로 다시 작성되었습니다.
 
-정적 코드 분석 규칙 위반과 같은 Roslyn 분석기 위반은 **오류 목록**에 표시됩니다. 또한 Roslyn 분석기 위반은 문제를 일으키는 코드 아래에 *물결선*으로 코드 편집기에 나타납니다. 물결선의 색은 규칙의 [심각도 설정](../code-quality/use-roslyn-analyzers.md#rule-severity)에 따라 달라집니다. 다음 스크린샷은 3개의 위반&mdash;빨간색 하나, 녹색 하나 및 회색 하나로 표시됩니다.
+정적 코드 분석 규칙 위반과 같은 Roslyn 분석기 위반은 **오류 목록**에 표시됩니다. Roslyn 분석기 위반은 코드 편집기에도 표시되며, 위반 코드 아래에 ‘물결선’이 나타납니다.  물결선의 색은 규칙의 [심각도 설정](../code-quality/use-roslyn-analyzers.md#rule-severity)에 따라 달라집니다. 다음 스크린샷은 3개의 위반&mdash;빨간색 하나, 녹색 하나 및 회색 하나로 표시됩니다.
 
 ![코드 편집기의 물결선](media/diagnostics-severity-colors.png)
 
@@ -79,6 +79,14 @@ Visual Studio 확장으로 분석기를 설치하는 경우 모든 Visual Studio
 ### <a name="rule-severity"></a>규칙 심각도
 
 Visual Studio 확장으로 설치된 분석기에서 규칙의 심각도를 설정할 수 없습니다. [규칙 심각도](../code-quality/use-roslyn-analyzers.md#rule-severity)를 구성하려면 분석기를 NuGet 패키지로 설치합니다.
+
+### <a name="categories"></a>범주
+
+다음은 코드를 분석하는 데 도움이 되는 다양한 분석기 유형입니다. 
+
+- Microsoft 권장 분석기: [FxCop 분석기](../code-quality/fxcop-analyzers.yml)
+- Visual Studio IDE 분석기: [EditorConfig](../ide/code-styles-and-code-cleanup.md)
+- 타사 분석기: [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
 
 ## <a name="next-steps"></a>다음 단계
 

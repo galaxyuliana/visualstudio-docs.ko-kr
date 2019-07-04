@@ -11,12 +11,12 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: f218db0d10e6a7e959b3a5fdc2f38ceff2299c9b
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: c137b6bd8a38ac606a547ce961c4f040e60c6d87
+ms.sourcegitcommit: 9753c7544cec852ca5efd0834e0956d9e53a5734
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66747561"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67043357"
 ---
 # <a name="work-with-python-in-visual-studio-on-windows"></a>Windows의 Visual Studio에서 Python 작업
 
@@ -40,7 +40,7 @@ Python은 현재 Mac용 Visual Studio에서 지원되지 않지만 Visual Studio
 
 ::: moniker range=">=vs-2019"
 > [!Note]
-> Visual Studio는 [Python Software Foundation](https://devguide.python.org/#status-of-python-branches)에서 지정한 대로 모든 공식 지원되는 Python 버전을 지원합니다. 특히 2.7, 3.5, 3.6 및 3.7 버전입니다.
+> Visual Studio는 Python 버전 2.7과 버전 3.5 이상을 지원합니다. Visual Studio를 사용하여 다른 버전의 Python에서 작성된 코드도 편집할 수 있지만, 해당 버전은 공식적으로 지원되지 않으며 IntelliSense, 디버깅 등의 기능이 작동하지 않을 수 있습니다.
 ::: moniker-end
 
 ## <a name="support-for-multiple-interpreters"></a>다중 인터프리터 지원.
