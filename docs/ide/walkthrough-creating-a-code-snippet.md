@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 6f58581a601da59e7ff66a3bae5ddcb7432bf8e3
-ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
+ms.openlocfilehash: 130f4a5d39c756587dcf479abe4461f64e9461cb
+ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66836097"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67259814"
 ---
 # <a name="walkthrough-create-a-code-snippet"></a>연습: 코드 조각 만들기
 
@@ -76,6 +76,9 @@ ms.locfileid: "66836097"
        <![CDATA[Dim root = Math.Sqrt(16)]]>
    </Code>
    ```
+   
+   > [!NOTE]
+   > 코드 조각의 **CDATA** 섹션에 있는 코드 줄의 들여쓰기 또는 서식은 지정할 수 없습니다. 삽입 시, 언어 서비스에서 삽입된 코드의 서식을 자동으로 지정합니다. 
 
 5. 조각을 *SquareRoot.snippet*으로 저장합니다(어디에서나 저장할 수 있음).
 

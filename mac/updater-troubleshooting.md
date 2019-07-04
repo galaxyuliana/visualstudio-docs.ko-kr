@@ -6,12 +6,12 @@ ms.author: amburns
 ms.date: 04/13/2019
 ms.technology: vs-ide-install
 ms.assetid: 31AF914A-C66B-4CD3-9429-39695E0E94AE
-ms.openlocfilehash: 2b89ea7155b27f9c5b54dae38d4e823895fad705
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 554633b2fc5d47d9cc4824ff9d8bf2febfbcd1f8
+ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62783307"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "67309633"
 ---
 # <a name="troubleshooting-updater-has-errors-retrieving-information"></a>문제 해결: Updater에서 정보 검색 중에 오류가 발생했습니다.
 
@@ -23,3 +23,4 @@ ms.locfileid: "62783307"
 - 이 오류 메시지가 계속 표시되면 **.dmg**가 여전히 머신에 있는 경우 설치 관리자를 사용하여 업데이트를 시도할 수 있으며 [visualstudio.com](https://visualstudio.microsoft.com/vs/mac/)을 통해 다운로드할 수도 있습니다.
     - 설치 관리자는 머신에 설치되어 있는 구성 요소를 업데이트합니다.
     - 설치 관리자를 다시 실행하면 이전에 설치하지 않은 누락된 구성 요소도 설치할 수 있습니다.
+- `~/Library/Caches/VisualStudio/7.0/TempDownload/index.xml`에 있는 파일을 삭제하여 캐시된 다운로드를 지울 수도 있습니다.

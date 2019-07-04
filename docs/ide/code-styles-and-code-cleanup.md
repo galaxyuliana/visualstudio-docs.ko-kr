@@ -10,12 +10,12 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General
 ms.workload:
 - multiple
-ms.openlocfilehash: 7b2ebad946d62016199212cfeaae54c32db74d4c
-ms.sourcegitcommit: 3fe6bed9ef8fb1478106645f655c7472009ae43a
+ms.openlocfilehash: c31a04d5471224ed8433bba70baa5bd1dae9125e
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "64557988"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328769"
 ---
 # <a name="code-style-preferences"></a>코드 스타일 기본 설정
 
@@ -30,8 +30,7 @@ ms.locfileid: "64557988"
 
 ::: moniker range=">=vs-2019"
 
-EditorConfig 파일을 수동으로 채우거나 C# 또는 Visual Basic 텍스트 편집기의 Visual Studio **옵션** 대화 상자에서 설정한 코드 스타일 설정에 따라 파일을 자동으로 생성할 수 있습니다. 이 옵션 페이지는 **도구** > **옵션** > **텍스트 편집기** > [**C#**  또는 **기본**] > **코드 스타일** > **일반**에서 사용할 수 있습니다.
-이 **옵션** 페이지의 설정에 따라 코딩 스타일 *.editorconfig* 파일을 자동으로 생성하려면 **설정에서 .editorconfig 파일 생성**을 클릭합니다.
+EditorConfig 파일을 수동으로 채우거나, Visual Studio **옵션** 대화 상자에서 설정한 코드 스타일 설정에 따라 파일을 자동으로 생성할 수 있습니다. 이 옵션 페이지는 **도구** > **옵션** > **텍스트 편집기** > [**C#**  또는 **기본**] > **코드 스타일** > **일반**에서 사용할 수 있습니다. 이 **옵션** 페이지의 설정에 따라 코딩 스타일 *.editorconfig* 파일을 자동으로 생성하려면 **설정에서 .editorconfig 파일 생성**을 클릭합니다.
 
 ![Visual Studio 2019의 설정에서 editorconfig 파일 생성](media/vs-2019/generate-editorconfig-file-small.png)
 
@@ -90,9 +89,13 @@ C# 코드 파일의 경우 Visual Studio 2019에는 편집기 하단에 **코드
 > [!TIP]
 > 심각도가 **없음**으로 구성된 규칙은 코드 정리에 참여하지 않지만 **빠른 작업 및 리팩터링** 메뉴를 통해 개별적으로 적용될 수 있습니다.
 
-먼저 **코드 정리 구성** 대화 상자에서 두 프로필 중 하나의 적용할 코드 스타일을 구성합니다. 이 대화 상자를 열려면 코드 정리 broom 아이콘 옆에 있는 확장 화살표를 클릭한 다음, **코드 정리 구성**을 선택합니다. 또는 **Ctrl**+**K**, **Ctrl**+**Q**를 누릅니다.
+먼저 **코드 정리 구성** 대화 상자에서 두 프로필 중 하나의 적용할 코드 스타일을 구성합니다. 이 대화 상자를 열려면 코드 정리 broom 아이콘 옆에 있는 확장 화살표를 클릭한 다음, **코드 정리 구성**을 선택합니다.
 
 ![Visual Studio 2019에서 코드 정리 구성](media/configure-code-cleanup.png)
+
+코드 정리를 구성한 후 빗자루 아이콘을 클릭하거나 **Ctrl**+**K**, **Ctrl**+**E**를 눌러 코드 정리를 실행합니다. 전체 프로젝트 또는 솔루션에서 코드 정리를 실행할 수도 있습니다. **솔루션 탐색기**에서 프로젝트 또는 솔루션 이름을 마우스 오른쪽 단추로 클릭하고 **분석 및 코드 정리**를 선택한 다음, **코드 정리 실행**을 선택합니다.
+
+![전체 프로젝트 또는 솔루션에서 코드 정리 실행](media/run-code-cleanup-project-solution.png)
 
 파일을 저장할 때마다 코드 스타일 설정을 적용하려면 [저장 시 코드 정리](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave) 확장을 사용할 수 있습니다.
 

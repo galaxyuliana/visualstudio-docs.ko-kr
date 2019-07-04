@@ -15,12 +15,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - cplusplus
-ms.openlocfilehash: 3dfdc230a4dc873cc9a068e2f641da022018aff3
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 8e62b9a99f178a45466ff8afa46753981be61424
+ms.sourcegitcommit: 34807a6b6105ae7839adde8ff994c85182ad3aff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65679393"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67342373"
 ---
 # <a name="tutorial-debug-c-and-c-in-the-same-debugging-session"></a>자습서: 동일한 디버깅 세션에서 C# 및 C++ 디버그
 
@@ -200,7 +200,7 @@ Visual Studio 2017부터 시작하는 대부분의 Visual Studio 버전에서는
    >[!NOTE]
    >기본적으로 *launchSettings.json*은 *C:\Users\username\source\repos\Mixed_Mode_Calling_App\Properties*에 있습니다. *launchSettings.json*이 존재하지 않는 경우 **솔루션 탐색기**에서 **Mixed_Mode_Calling_App** 프로젝트 및 **속성** 아이콘을 차례로 선택하거나, 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다. **디버그** 탭에서 임시로 변경하고 프로젝트를 빌드합니다. 이렇게 *launchSettings.json* 파일을 만듭니다. **디버그** 탭에서 변경한 내용을 취소합니다.
 
-1. *lauchsettings.json* 파일에서 다음 줄을 추가합니다.
+1. *launchsettings.json* 파일에서 다음 줄을 추가합니다.
 
     ```csharp
     "nativeDebugging": true

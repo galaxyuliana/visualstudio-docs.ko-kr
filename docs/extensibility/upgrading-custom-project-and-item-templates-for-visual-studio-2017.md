@@ -10,12 +10,12 @@ manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 9302ae3119bceb466e3d681036753bd8237cbeae
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: d375dfc4a53015f57546f7cbfcc8b940fa81bd0b
+ms.sourcegitcommit: 74c5360186731de07828764eb32ea1033a8c2275
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66316333"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559753"
 ---
 # <a name="upgrade-custom-project-and-item-templates-for-visual-studio-2017"></a>사용자 지정 프로젝트 및 항목 템플릿을 Visual Studio 2017에 대 한 업그레이드
 
@@ -180,9 +180,9 @@ VSIX 확장의 일부로 프로젝트 또는 항목 템플릿을 만들려는 �
 
 다음 디렉터리와 같은 일반적인 템플릿 위치에 템플릿을 배포 하는 일부 MSI 기반 확장:
 
-- **\<Visual Studio 설치 디렉터리 > \Common7\IDE\\< ProjectTemplates/Itemtemplate >**
+- **\<Visual Studio 설치 디렉터리 > \Common7\IDE\\< ProjectTemplates/Itemtemplate\>**
 
-- **\<Visual Studio 설치 디렉터리 > \Common7\IDE\Extensions\\< ExtensionName\>\\< 프로젝트/Itemtemplate >**
+- **\<Visual Studio 설치 디렉터리 > \Common7\IDE\Extensions\\< ExtensionName\>\\< 프로젝트/Itemtemplate\>**
 
 MSI 기반 배포를 수행 하는 확장 프로그램을 하는 경우 템플릿 매니페스트를 수동으로 생성 및 확장 설치에 포함 되어 있는지 확인 해야 합니다. 위에 나열 된.vstman 예제를 비교 하며 [Visual Studio 템플릿 매니페스트 스키마 참조](../extensibility/visual-studio-template-manifest-schema-reference.md)합니다.
 

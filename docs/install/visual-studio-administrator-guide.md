@@ -2,7 +2,7 @@
 title: Visual Studio 관리자 가이드
 titleSuffix: ''
 description: 엔터프라이즈 환경에 Visual Studio를 배포하는 방법을 자세히 알아봅니다.
-ms.date: 05/22/2019
+ms.date: 06/02/2019
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 61b3a2dfae667bac7c3a6a62682cdbd5b1a5feb4
-ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
+ms.openlocfilehash: 9a586a0ab0d6b7a3ab34ef581e2ba6f5348232c2
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "66037504"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328788"
 ---
 # <a name="visual-studio-administrator-guide"></a>Visual Studio 관리자 가이드
 
@@ -40,7 +40,7 @@ ms.locfileid: "66037504"
 
 * 서비스 요구 사항을 결정합니다.
 
-  회사가 어떤 기능 집합을 오래 유지해야 하지만 정기 서비스 업데이트도 받고자 하는 경우 서비스 기준선의 사용을 계획합니다. 자세한 내용은 [Visual Studio 제품 수명 주기 및 서비스](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) 페이지의 ***Enterprise 및 Professional 고객용 지원 옵션*** 섹션을 참조하세요.
+  회사가 어떤 기능 집합을 오래 유지해야 하지만 정기 서비스 업데이트도 받고자 하는 경우 서비스 기준선의 사용을 계획합니다. 자세한 내용은 [Visual Studio 제품 수명 주기 및 서비스](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) 페이지의 ***Enterprise 및 Professional 고객용 지원 옵션*** 섹션 및 [방법: 서비스 기준선에서 Visual Studio 업데이트](update-servicing-baseline.md) 페이지를 참조하세요.
 
   누적 기능 업데이트와 함께 서비스 업데이트를 적용할 계획인 경우 최신 정보를 선택할 수 있습니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "66037504"
 
 * 서비스 요구 사항을 결정합니다.
 
-  회사가 어떤 기능 집합을 오래 유지해야 하지만 정기 서비스 업데이트도 받고자 하는 경우 서비스 기준선의 사용을 계획합니다. 자세한 내용은 [Visual Studio 제품 수명 주기 및 서비스](/visualstudio/releases/2019/servicing#support-for-older-versions-of-visual-studio) 페이지의 ***Visual Studio 구 버전 지원*** 섹션을 참조하세요.
+  회사가 어떤 기능 집합을 오래 유지해야 하지만 정기 서비스 업데이트도 받고자 하는 경우 서비스 기준선의 사용을 계획합니다. 자세한 내용은 [Visual Studio 제품 수명 주기 및 서비스](/visualstudio/releases/2019/servicing#support-for-older-versions-of-visual-studio) 페이지의 ***이전 버전의 Visual Studio 지원*** 섹션 및 [방법: 서비스 기준선에서 Visual Studio 업데이트](update-servicing-baseline.md) 페이지를 참조하세요.
 
   누적 기능 업데이트와 함께 서비스 업데이트를 적용할 계획인 경우 최신 정보를 선택할 수 있습니다.
 

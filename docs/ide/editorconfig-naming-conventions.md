@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 68840957a0c152add06804eac58f3d24afa1e846
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 35b0348788cfa23dd389b0647e24b7ac0aa0b7a1
+ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66261972"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "67309817"
 ---
 # <a name="net-naming-conventions-for-editorconfig"></a>EditorConfig에 대한 .NET 명명 규칙
 
@@ -25,7 +25,7 @@ ms.locfileid: "66261972"
 
 각 명명 규칙에서는 아래에서 설명한 속성을 사용하여 적용할 기호, 명명 스타일 및 규칙에 적용할 심각도를 지정해야 합니다. 속성의 순서는 중요하지 않습니다.
 
-시작하려면 규칙 전체를 설명하기 위해 필요한 각각의 속성에서 사용할 명명 규칙에 제목을 선택합니다. 예를 들어 `public_members_must_be_capitalized`는 명명 규칙에 적합한 설명 이름입니다. 다음 섹션에서는 **<namingRuleTitle\>** 로 선택한 제목을 참조합니다.
+시작하려면 규칙 전체를 설명하기 위해 필요한 각각의 속성에서 사용할 명명 규칙에 제목을 선택합니다. 예를 들어 `public_members_must_be_capitalized`는 명명 규칙에 적합한 설명 이름입니다. 이 페이지에서는 이후 섹션에서 **<namingRuleTitle\>** 로 선택하는 제목을 참조하겠습니다.
 
 ## <a name="symbols"></a>기호
 
@@ -49,8 +49,8 @@ ms.locfileid: "66261972"
 - struct
 - interface(인터페이스)
 - enum
-- 속성
-- 메서드
+- 속성(property)
+- 메서드(method)
 - 필드(field)
 - 이벤트(event)
 - 대리자(delegate)
@@ -116,7 +116,7 @@ ms.locfileid: "66261972"
 
 ## <a name="style"></a>스타일
 
-이제 명명 규칙을 적용할 기호 그룹을 식별했으므로 명명 스타일을 설명해야 합니다. 스타일은 이름에 특정 접두사 또는 특정 접미사를 사용거나 이름의 개별 단어를 특정 기호로 분리하도록 할 수 있습니다. 대/소문자 스타일을 지정할 수도 있습니다. 이 스타일의 형식은 다음과 같습니다.
+명명 규칙을 적용할 기호 그룹을 식별했으면, 이제 명명 스타일을 설명할 수 있습니다. 스타일은 이름에 특정 접두사 또는 특정 접미사를 사용거나 이름의 개별 단어를 특정 기호로 분리하도록 할 수 있습니다. 대/소문자 스타일을 지정할 수도 있습니다. 이 스타일의 형식은 다음과 같습니다.
 
 `dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>`
 
@@ -175,7 +175,15 @@ error | 이 스타일을 따르지 않을 경우 **오류 목록**에서 컴파�
 > [!NOTE]
 > 명명 규칙 위반을 확인하기 위해 프로젝트를 빌드하지 않아도 됩니다. 코드가 편집되면 **오류 목록** 또는 제안 중 하나로 표시됩니다.
 
-## <a name="example"></a>예제
+## <a name="default-naming-styles"></a>기본 명명 스타일
+
+사용자 지정 명명 규칙을 지정하지 않으면, Visual Studio는 다음 기본 스타일을 사용합니다.
+
+- `public`, `private`, `internal`, `protected` 또는 `protected_internal` 접근성이 있는 클래스, 구조체, 열거형, 속성, 이벤트의 기본 명명 스타일은 파스칼식 대/소문자입니다.
+
+- `public`, `private`, `internal`, `protected` 또는 `protected_internal` 접근성이 있는 인터페이스의 기본 명명 스타일은 필수 접두사 **I**를 사용하는 파스칼식 대/소문자입니다.
+
+## <a name="example"></a>예
 
 다음 *.editorconfig* 파일은 공용 속성, 메서드, 필드, 이벤트 및 대리자를 대문자로 시작하도록 지정하는 명명 규칙을 포함하고 있습니다. 이 명명 규칙은 값을 구분하기 위해 쉼표를 사용하여 규칙을 적용하는 여러 종류의 기호를 지정합니다.
 
@@ -209,6 +217,8 @@ dotnet_naming_rule.public_members_must_be_capitalized.severity = warning
 
 ## <a name="see-also"></a>참고 항목
 
+- [언어 규칙](editorconfig-language-conventions.md)
+- [서식 지정 규칙](editorconfig-formatting-conventions.md)
 - [Roslyn 명명 규칙](https://github.com/dotnet/roslyn/blob/master/.editorconfig#L63)
-- [.NET 언어 및 서식 지정 규칙](../ide/editorconfig-code-style-settings-reference.md)
 - [휴대용, 사용자 지정 편집기 옵션 만들기](../ide/create-portable-custom-editor-options.md)
+- [EditorConfig에 대한 .NET 코딩 규칙 설정](editorconfig-code-style-settings-reference.md)

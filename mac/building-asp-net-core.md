@@ -5,12 +5,12 @@ author: asb3993
 ms.author: amburns
 ms.date: 05/30/2019
 ms.assetid: 771C2F8E-46BC-4280-AFE8-ED9D5C7790CE
-ms.openlocfilehash: fb70966dd24c4d22d473b552297a60ddebdce106
-ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
+ms.openlocfilehash: 4e38378c22c6920e471b72d990d61d9b4ebd3d7f
+ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66836182"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67253806"
 ---
 # <a name="building-aspnet-core-applications-in-visual-studio-for-mac"></a>Mac용 Visual Studio에서 ASP.NET Core 애플리케이션 빌드 
 
@@ -59,7 +59,7 @@ ASP.NET Core는 웹앱 및 웹 서비스, IoT 앱, 모바일 백 엔드처럼 �
 
     ![](media/netcore-image4.png)
 
-3. **HomeController** 클래스는 규칙에 따라, **/Home**으로 시작하는 모든 들어오는 요청을 처리합니다. **Index** 메서드는 디렉터리의 루트에 대한 요청을 처리합니다. 즉 http://site.com/Home) 및 다른 메서드와 같이, **http://site.com/Home/About** 에 대한 요청을 처리하는 **About()** 등, 규칙에 따라 이름이 지정된 경로에 대한 요청을 처리합니다. 물론, 모두 구성 가능합니다. 주목할 만한 한 가지 사항은 **HomeController**는 새 프로젝트에서 기본 컨트롤러이므로, 사이트 루트( **http://site.com** )에 대한 요청은 **http://site.com/Home** 또는 **http://site.com/Home/Index** 에 대한 요청과 마찬가지로 **HomeController**의 **Index()** 를 거칩니다.
+3. **HomeController** 클래스는 규칙에 따라, **/Home**으로 시작하는 모든 들어오는 요청을 처리합니다. **Index** 메서드는 디렉터리 루트(예: `http://site.com/Home`)에 대한 요청을 처리하고, 다른 메서드는 규칙에 따라 명명된 경로에 대한 요청을 처리합니다(예: **About()** 에서 `http://site.com/Home/About`에 대한 요청 처리). 물론, 모두 구성 가능합니다. 한 가지 주목할 만한 사항은 **HomeController**가 새 프로젝트의 기본 컨트롤러이므로, 사이트 루트(`http://site.com`)에 대한 요청이 `http://site.com/Home` 또는 `http://site.com/Home/Index`에 대한 요청과 마찬가지로 **HomeController**의 **Index()** 를 통해 처리된다는 것입니다.
 
     ![](media/netcore-image5.png)
 

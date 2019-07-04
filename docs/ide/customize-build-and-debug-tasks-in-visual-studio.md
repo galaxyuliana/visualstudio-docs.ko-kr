@@ -8,18 +8,17 @@ helpviewer_keywords:
 - customize codebases [Visual Studio]
 - tasks.vs.json file [Visual Studio]
 - launch.vs.json file [Visual Studio]
-- vsworkspacesettings.json file [Visual Studio]
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eb3ef6eff6da9040fc7e438d8f3271c60897a5ec
-ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.openlocfilehash: 3bfe750e8dca68876ac5d894c0ca194f82a42f21
+ms.sourcegitcommit: b593bb889f049fcbdff502c30b73178ed17dbdf0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66820304"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67291038"
 ---
 # <a name="customize-build-and-debug-tasks-for-open-folder-development"></a>“폴더 열기” 개발에 대한 빌드 및 디버그 작업 사용자 지정
 
@@ -33,7 +32,6 @@ Visual Studio는 여러 다른 언어 및 코드베이스를 실행하는 방법
 |-|-|
 |*tasks.vs.json*|사용자 지정 빌드 명령 및 컴파일러 스위치와 임의(빌드와 관련되지 않은) 작업을 지정합니다.<br>**솔루션 탐색기**의 오른쪽 클릭 메뉴 항목 **작업 구성**을 통해 액세스합니다.|
 |*launch.vs.json*|디버깅을 위한 명령줄 인수를 지정합니다.<br>**솔루션 탐색기**의 오른쪽 클릭 메뉴 항목 **디버그 및 시작 설정**을 통해 액세스합니다.|
-|*VSWorkspaceSettings.json*|작업 및 시작에 영향을 줄 수 있는 일반 설정입니다. 예를 들어 *VSWorkspaceSettings.json*에서 `envVars`를 정의하면 명령을 외부에서 실행하도록 지정된 환경 변수가 추가됩니다.<br>이 파일을 수동으로 만듭니다.|
 
 이러한 *.json* 파일은 코드베이스의 루트 폴더에 있는 *.vs*라는 숨겨진 폴더에 있습니다. **솔루션 탐색기**에서 파일이나 폴더에 대한 **작업 구성** 또는 **디버그 및 시작 설정**을 선택하면 Visual Studio에서 *tasks.vs.json* 및 *launch.vs.json* 파일이 필요에 따라 만들어집니다. 사용자는 일반적으로 이러한 *.json* 파일을 소스 제어로 체크 인하지 않으므로 파일이 숨겨져 있습니다. 그러나 소스 제어로 체크 인할 수 있도록 파일을 코드베이스의 루트로 끌어서 놓으면 파일이 표시됩니다.
 
@@ -193,7 +191,7 @@ bin:
 - 현재 디렉터리부터 루트 디렉터리까지의 모든 부모 디렉터리.
 - 루트 디렉터리의 설정 파일.
 
-이러한 집계 규칙은 *tasks.vs.json* 및 *VSWorkspaceSettings.json* 파일에 적용됩니다. 다른 파일의 설정이 집계되는 방법에 대한 자세한 내용은 이 문서에서 해당 파일에 해당하는 섹션을 참조하세요.
+이러한 집계 규칙은 *tasks.vs.json*에 적용됩니다. 다른 파일의 설정이 집계되는 방법에 대한 자세한 내용은 이 문서에서 해당 파일에 해당하는 섹션을 참조하세요.
 
 ### <a name="properties-for-tasksvsjson"></a>tasks.vs.json의 속성
 
@@ -289,10 +287,6 @@ bin:
 
 > [!NOTE]
 > *launch.vs.json*의 `configurations` 배열 속성은 두 개의 파일 위치인&mdash;코드베이스의 루트 디렉터리 및 *.vs* 디렉터리에서 읽습니다. 충돌이 있으면 *.vs\launch.vs.json*의 값에 우선 순위가 제공됩니다.
-
-## <a name="define-workspace-settings-in-vsworkspacesettingsjson"></a>VSWorkspaceSettings.json에서 작업 영역 설정 정의
-
-*VSWorkspaceSettings.json* 파일의 작업 및 시작에 영향을 줄 수 있는 일반 설정을 지정할 수 있습니다. 예를 들어 *VSWorkspaceSettings.json*에서 `envVars`를 정의하는 경우 Visual Studio에서 지정된 환경 변수를 외부적으로 실행되는 명령에 추가합니다. 이 파일을 사용하려면 수동으로 만들어야 합니다.
 
 ## <a name="additional-settings-files"></a>추가 설정 파일
 

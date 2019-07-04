@@ -3,7 +3,7 @@ title: Visual Studio 수정
 titleSuffix: ''
 description: Visual Studio를 수정하는 방법을 단계별로 알아봅니다.
 ms.custom: H1Hack27Feb2017,seodec18
-ms.date: 03/30/2018
+ms.date: 06/25/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - modify Visual Studio
@@ -18,12 +18,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: a08a14d8d07248efdcac759852a38777745e9a51
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 287ad470a94689b92cacb443c2b5f88eb30f5a70
+ms.sourcegitcommit: 01c3c9dcade5d913bde2c7efa8c931a7b04e6cd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62951584"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67365410"
 ---
 # <a name="modify-visual-studio-by-adding-or-removing-workloads-and-components"></a>워크로드와 구성 요소를 추가하거나 제거하여 Visual Studio 수정
 
@@ -47,6 +47,9 @@ Visual Studio를 쉽게 수정할 수 있어 원하는 때에 원하는 대로 �
 
 >[!IMPORTANT]
 >Visual Studio를 설치, 업데이트 또는 수정하려면 관리 권한이 있는 계정으로 로그온해야 합니다. 자세한 내용은 [사용자 권한 및 Visual Studio](../ide/user-permissions-and-visual-studio.md)를 참조하세요.
+
+>[!TIP]
+> 다음 절차에서는 인터넷 연결이 있다고 가정합니다. 이전에 만든 Visual Studio [오프라인 설치](create-an-offline-installation-of-visual-studio.md)를 수정하는 방법에 대한 자세한 내용은 [네트워크 기반 Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md) 페이지를 참조하세요.
 
 ::: moniker range="vs-2017"
 
@@ -122,4 +125,6 @@ Visual Studio 설치를 사용자 지정하기 위해 워크로드를 설치하�
 
 * [Visual Studio 업데이트](update-visual-studio.md)
 * [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
+* [서비스 기준선에서 Visual Studio 업데이트](update-servicing-baseline.md)
+* [네트워크 기반 Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md)
 * [Visual Studio 제거](uninstall-visual-studio.md)

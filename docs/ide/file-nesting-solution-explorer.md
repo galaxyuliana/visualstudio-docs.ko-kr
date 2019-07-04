@@ -8,12 +8,12 @@ helpviewer_keywords:
 author: angelosp
 ms.author: angelpe
 manager: jillfra
-ms.openlocfilehash: b40d943e2e05f380b5c8111db39c9cf13c8b3bf8
-ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
+ms.openlocfilehash: 0ec16c23a3ed16f555bb1a3af952b422f4aceb35
+ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66432264"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "67309791"
 ---
 # <a name="file-nesting-in-solution-explorer"></a>솔루션 탐색기에서 파일 중첩
 
@@ -86,19 +86,42 @@ ms.locfileid: "66432264"
 
 ### <a name="the-addedextension-provider"></a>addedExtension 공급자
 
-이 공급자는 추가 확장명 없이 파일 아래에 추가 확장명을 사용하여 파일을 중첩합니다. 추가 확장명은 전체 파일 이름 끝에만 나타날 수 있습니다. 다음 예제를 참조하세요.
+이 공급자는 추가 확장명 없이 파일 아래에 추가 확장명을 사용하여 파일을 중첩합니다. 추가 확장명은 전체 파일 이름 끝에만 나타날 수 있습니다.
+
+다음 예제를 참조하세요.
 
 ![addedExtension 예제 규칙](media/filenesting_addedextension.png) ![addedExtension 예제 효과](media/filenesting_addedextension_effect.png)
 
 * *file.html.css*는 **addedExtension** 규칙 때문에 *file.html* 아래에 중첩됩니다.
 
+> [!NOTE]
+> `addedExtension` 규칙에 대해 파일 확장명을 지정하지 않으면, 자동으로 모든 파일 확장명에 적용됩니다. 즉, 다른 파일과 동일한 이름 및 확장명과 끝에 추가 확장명이 붙은 파일은 모두 다른 파일 아래에 중첩됩니다. 이 공급자의 효과를 특정 파일 확장명만으로 제한할 수는 없습니다.
+
 ### <a name="the-pathsegment-provider"></a>pathSegment 공급자
 
-이 공급자는 추가 확장명 없이 파일 아래에 추가 확장명을 사용하여 파일을 중첩합니다. 추가 확장명은 전체 파일 이름 중간에만 나타날 수 있습니다. 다음 예제를 참조하세요.
+이 공급자는 추가 확장명 없이 파일 아래에 추가 확장명을 사용하여 파일을 중첩합니다. 추가 확장명은 전체 파일 이름 중간에만 나타날 수 있습니다.
+
+다음 예제를 참조하세요.
 
 ![pathSegment 예제 규칙](media/filenesting_pathsegment.png) ![pathSegment 예제 효과](media/filenesting_pathsegment_effect.png)
 
 * *jquery.min.js*는 **pathSegment** 규칙 때문에 *jquery.js* 아래에 중첩됩니다.
+
+> [!NOTE]
+> - `pathSegment` 규칙에 대해 특정 파일 확장명을 지정하지 않으면, 모든 파일 확장명에 적용됩니다. 즉, 다른 파일과 동일한 이름 및 확장명과 중간에 추가 확장명이 붙은 파일은 모두 다른 파일 아래에 중첩됩니다.
+> - 다음 방법으로 지정하면 `pathSegment` 규칙의 효과를 특정 파일 확장명으로 제한할 수 있습니다.
+>    ```
+>    "pathSegment": {
+>       "add": {
+>         ".*": [
+>           ".js",
+>           ".css",
+>           ".html",
+>           ".htm"
+>         ]
+>       }
+>    }
+>    ```
 
 ### <a name="the-allextensions-provider"></a>allExtensions 공급자
 
