@@ -1204,6 +1204,15 @@
         - name: 문제 상태 보고 및 FAQ
           displayName: Developer Community
           href: ide/report-a-problem.md
+        - name: 모든 호출 스택을 사용하여 Visual Studio 프로세스에 대한 미니덤프 만들기
+          displayName: Create minidumps with call stacks
+          href: ide/report-a-problem-minidumps.md
+        - name: MSBuild 문제에 대한 로그 만들기
+          displayName: Create logs for MSBuild problems
+          href: ide/msbuild-logs.md
+        - name: PerfView를 사용하여 ETL 추적 수집
+          displayName: ETL trace with PerfView
+          href: ide/report-a-problem-perfview.md
     - name: Visual Studio에 대한 기능 제안
       href: ide/suggest-a-feature.md
     - name: 개발자 커뮤니티 데이터 개인 정보
