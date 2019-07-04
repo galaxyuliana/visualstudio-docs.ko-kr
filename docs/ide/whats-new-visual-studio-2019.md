@@ -15,12 +15,12 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: e22463ad6a50270412652b2797628010e169b1ba
-ms.sourcegitcommit: 92a04c57ac0a49f304fa2ea5043436f30068c3cd
+ms.openlocfilehash: 7df082d8cf67a5c0eb4c6ecd5c017480c63a6b27
+ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "65976242"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "67328824"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Visual Studio 2019의 새로운 기능
 
@@ -33,9 +33,9 @@ Visual Studio 2019를 사용하면 모든 개발자, 앱 및 플랫폼을 위한
 
 다음은 새로운 기능에 대한 간략한 요약입니다.
 
-* **[개발](#develop)**: 향상된 성능, 인스턴트 코드 정리, 더 나은 검색 결과를 사용하여 계속 집중하고 생산성을 유지합니다.
-* **[공동 작업](#collaborate)**: Git 우선 워크플로, 실시간 편집 및 디버깅, Visual Studio에서 바로 코드 검토를 사용하여 자연스럽게 공동 작업합니다.
-* **[디버그](#debug)**: 특정 값을 강조 표시하여 탐색하고, 메모리 사용을 최적화하며, 애플리케이션 실행의 자동 스냅숏을 만듭니다.
+* **[개발](#develop)** : 향상된 성능, 인스턴트 코드 정리, 더 나은 검색 결과를 사용하여 계속 집중하고 생산성을 유지합니다.
+* **[공동 작업](#collaborate)** : Git 우선 워크플로, 실시간 편집 및 디버깅, Visual Studio에서 바로 코드 검토를 사용하여 자연스럽게 공동 작업합니다.
+* **[디버그](#debug)** : 특정 값을 강조 표시하여 탐색하고, 메모리 사용을 최적화하며, 애플리케이션 실행의 자동 스냅숏을 만듭니다.
 
 이 버전에 포함된 모든 새로운 기능의 전체 목록은 [릴리스 정보](/visualstudio/releases/2019/release-notes/)를 참조하세요.
 
@@ -90,7 +90,7 @@ IntelliCode에 대한 자세한 내용은 [IntelliCode 및 미리 보기의 일�
 
 수정 도구 컬렉션을 프로필로 저장할 수도 있습니다. 예를 들어 코딩하는 동안 자주 적용하는 작은 대상 지정 수정 도구 세트가 있고 코드 검토 전에 적용할 다른 포괄적인 수정 도구 세트가 있는 경우 이러한 여러 작업을 처리하도록 프로필을 구성할 수 있습니다.
 
-   ![Visual Studio 2019의 새 코드 정리 컨트롤 스크린샷](media/vs-2019/code-cleanup-profile-configure.png)
+   ![Visual Studio 2019의 코드 정리 구성 컨트롤 스크린샷](media/vs-2019/code-cleanup-profile-configure.png)
 
 ### <a name="per-monitor-aware-pma-rendering"></a>PMA(모니터별 인식) 렌더링
 

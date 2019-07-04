@@ -1,18 +1,18 @@
 ---
 title: Visual Studio 구독 관리
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 10/03/2017
+ms.author: lank
+manager: lank
+ms.date: 06/24/2019
 ms.topic: conceptual
 description: Visual Studio 구독을 최대한 활용하는 방법을 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 2739578bb170d32b61246bb01236e621c8b7df8b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8d03dbd24b6fd8f00248e0c0d653359f9995da0d
+ms.sourcegitcommit: 01c3c9dcade5d913bde2c7efa8c931a7b04e6cd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62833973"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67365434"
 ---
 # <a name="managing-subscriptions"></a>구독 관리
 
@@ -30,7 +30,7 @@ Visual Studio 구독을 시작합니다!  구독을 통해 소프트웨어, 월�
 
 Microsoft Store를 통해 Visual Studio 구독을 구입한 경우 결제 **확인 페이지** 또는 **확인 전자 메일**에서 정품 인증 단계를 시작할 수 있습니다.
 
-1. '확인 페이지' 또는 '확인 전자 메일'에서 **로그인하려면 여기를 클릭하십시오.** 를 클릭합니다. https://my.visualstudio.com/subscriptions/activate에 리디렉션됩니다.
+1. '확인 페이지' 또는 '확인 전자 메일'에서 **로그인하려면 여기를 클릭하십시오.** 를 클릭합니다. https://my.visualstudio.com/subscriptions/activate 에 리디렉션됩니다.
 2. 구독자 포털에 로그인하는 데 사용할 이메일 주소를 입력하고 **계속**을 클릭합니다.
 3. 이메일 주소에 따라 Microsoft 계정 로그인 페이지 또는 회사/학교의 로그인 페이지로 리디렉션될 수 있습니다.
 4. 암호를 입력하거나 로그인 요구 사항을 완료합니다.
@@ -125,6 +125,12 @@ Microsoft 볼륨 라이선스를 통해 구독을 구입했고 조직 내의 다
    > [!div class="mx-imgBorder"]
    > ![프로필 정보 편집](_img/manage-vs-subscriptions/edit-profile-resized.png)
 
+### <a name="setting-communications-preferences"></a>통신 기본 설정 지정
+월간 Visual Studio 구독 뉴스레터를 포함하여 구독 및 혜택의 정기 업데이트를 받으려는 경우 Visual Studio 프로필에서 Visual Studio 구독의 확인란을 선택하여 [기본 설정을 업데이트](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit)합니다. 언제든지 이러한 기본 설정을 변경하고 구독을 취소할 수 있습니다. 
+
+   > [!div class="mx-imgBorder"]
+   > ![기본 설정 지정](_img/manage-vs-subscriptions/change-prefs.png)
+   
 ### <a name="linking-my-subscription-to-existing-azure-devops-services-or-azure-subscriptions"></a>내 구독을 기존 Azure DevOps Services 또는 Azure 구독에 연결
 
 개인 MSA(Microsoft 계정)를 사용하여 구독에 로그인하는 경우 Azure에서 관리하는 회사 또는 학교 계정을 사용하는 Azure DevOps Services 또는 Microsoft Azure를 포함한 구독이 있으면 두 구독을 연결할 수 있습니다. 이를 "대체 계정"이라고 하며, 학교 또는 회사 계정과 연결된 기존 Azure, Azure DevOps Services 또는 IDE 리소스에 액세스하는 동안 MSA를 계속 사용하여 구독에 로그인할 수 있게 해줍니다.

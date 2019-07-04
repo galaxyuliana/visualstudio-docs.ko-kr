@@ -2,7 +2,7 @@
 title: Visual Studio 업데이트
 titleSuffix: ''
 description: 가장 최신 릴리스로 Visual Studio를 업데이트하는 방법을 단계별로 알아봅니다.
-ms.date: 03/30/2019
+ms.date: 06/19/2019
 ms.custom: seodec18
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -15,20 +15,20 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7e1fbc0bf5412888f246a1f396b146780013b6c6
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: dc87d6e7c6115a915d2bb7fc9f3d187e1a4d8e7d
+ms.sourcegitcommit: b593bb889f049fcbdff502c30b73178ed17dbdf0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263060"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67290650"
 ---
 # <a name="update-visual-studio-to-the-most-recent-release"></a>Visual Studio를 최신 릴리스 버전으로 업데이트
 
 ::: moniker range="vs-2017"
 
-항상 최신 기능, 수정 사항 및 개선 사항을 얻을 수 있도록 [최신 버전](/visualstudio/releasenotes/vs2017-relnotes/)의 Visual Studio 2017로 업데이트하는 것이 좋습니다.
+항상 최신 기능, 수정 사항 및 개선 사항을 사용할 수 있도록 Visual Studio 2017의 [최신 릴리스](/visualstudio/releasenotes/vs2017-relnotes/)로 업데이트하는 것이 좋습니다.
 
-그리고 다음 버전을 시도해 보려면 Visual Studio 2019의 [릴리스 후보](/visualstudio/releases/2019/release-notes/)도 다운로드하세요.
+최신 버전을 사용해 보려는 경우 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)를 대신 다운로드 및 설치합니다.
 
 > [!IMPORTANT]
 > Visual Studio를 설치, 업데이트 또는 수정하려면 관리 권한이 있는 계정으로 로그온해야 합니다. 자세한 내용은 [사용자 권한 및 Visual Studio](../ide/user-permissions-and-visual-studio.md)를 참조하세요.
@@ -94,7 +94,7 @@ IDE 내에서 바로 사용하기 쉽도록 설치 및 업데이트 환경이 �
    > [!NOTE]
    > Windows 10을 실행하는 컴퓨터에서는 **V** 문자 아래에 **Visual Studio 설치 관리자**로 설치 관리자가 나타나거나, **M** 문자 아래에 **Microsoft Visual Studio 설치 관리자**로 나타납니다.
 
-1. 설치 관리자의 **제품** 페이지에서 사용자가 설치한 Visual Studio의 버전을 확인합니다.
+1. 설치 관리자의 **제품** 페이지에서 이전에 설치한 Visual Studio 버전을 찾습니다.
 
 1. 업데이트를 사용할 수 있는 경우 **업데이트** 단추가 표시됩니다. (설치 관리자가 업데이트를 사용할 수 있는지 여부를 확인하는 데 몇 초 정도 걸릴 수 있습니다.)
 
@@ -104,7 +104,7 @@ IDE 내에서 바로 사용하기 쉽도록 설치 및 업데이트 환경이 �
 
 ## <a name="update-visual-studio-2017-version-155-or-earlier"></a>Visual Studio 2017 버전 15.5 또는 이전 버전 업데이트
 
-이전 버전을 사용하는 경우 Visual Studio 2017 버전 15.0 - 버전 15.5에서 업데이트를 적용하는 방법은 다음과 같습니다.
+이전 버전을 사용하는 경우 Visual Studio 2017 버전 15.0~버전 15.5에서 업데이트를 적용하는 방법은 다음과 같습니다.
 
 ### <a name="update-by-using-the-notifications-hub"></a>알림 허브를 사용하여 업데이트
 
@@ -131,8 +131,8 @@ IDE 내에서 바로 사용하기 쉽도록 설치 및 업데이트 환경이 �
 
 Visual Studio는 Visual Studio 자체나 구성 요소에 사용 가능한 업데이트가 있을 때와, Visual Studio 환경에서 특정 이벤트가 발생했을 때 이를 사용자에게 알립니다.
 
-* 알림 플래그가 노랑이면 설치할 수 있는 Visual Studio 제품 업데이트가 있다는 것입니다.
-* 알림 플래그 빨강이면 라이선스에 문제가 있습니다.
+* 알림 플래그가 노랑이면 설치할 수 있는 Visual Studio 제품 업데이트가 있습니다.
+* 알림 플래그가 빨강이면 라이선스에 문제가 있습니다.
 * 알림 플래그가 검정이면 확인이 필요한 선택적 또는 정보 메시지가 있습니다.
 
 알림 플래그를 선택하여 **알림** 허브를 열고 조치할 알림을 선택합니다. 또는 알림을 무시하거나 해제합니다.
@@ -150,7 +150,7 @@ Visual Studio는 Visual Studio 자체나 구성 요소에 사용 가능한 업�
    > [!NOTE]
    > Windows 10을 실행하는 컴퓨터에서는 **V** 문자 아래에 **Visual Studio 설치 관리자**로 설치 관리자가 나타나거나, **M** 문자 아래에 **Microsoft Visual Studio 설치 관리자**로 나타납니다.
 
-1. 설치 관리자의 **제품** 페이지에서 사용자가 설치한 Visual Studio의 버전을 확인합니다.
+1. 설치 관리자의 **제품** 페이지에서 이전에 설치한 Visual Studio 버전을 찾습니다.
 
 1. 업데이트를 사용할 수 있는 경우 **업데이트** 단추가 표시됩니다. (설치 관리자가 업데이트를 사용할 수 있는지 여부를 확인하는 데 몇 초 정도 걸릴 수 있습니다.)
 
@@ -162,7 +162,9 @@ Visual Studio는 Visual Studio 자체나 구성 요소에 사용 가능한 업�
 
 ::: moniker range="vs-2019"
 
-항상 최신 기능, 수정 사항 및 개선 사항을 얻을 수 있도록 [최신 버전](/visualstudio/releases/2019/release-notes/)의 Visual Studio 2019로 업데이트하는 것이 좋습니다.
+항상 최신 기능, 수정 사항 및 개선 사항을 사용할 수 있도록 Visual Studio 2019의 [최신 릴리스](/visualstudio/releases/2019/release-notes/)로 업데이트하는 것이 좋습니다.
+
+Visual Studio 2019를 아직 설치하지 않은 경우 [Visual Studio 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) 페이지로 이동하여 체험용으로 설치합니다.
 
 > [!IMPORTANT]
 > Visual Studio를 설치, 업데이트 또는 수정하려면 관리 권한이 있는 계정으로 로그온해야 합니다. 자세한 내용은 [사용자 권한 및 Visual Studio](../ide/user-permissions-and-visual-studio.md)를 참조하세요.
@@ -170,7 +172,7 @@ Visual Studio는 Visual Studio 자체나 구성 요소에 사용 가능한 업�
 > [!NOTE]
 > 이 토픽은 Windows의 Visual Studio에 적용됩니다. Mac용 Visual Studio는 [Mac용 Visual Studio 업데이트](/visualstudio/mac/update)를 참조하세요.
 
-Visual&nbsp;Studio&nbsp;2019&nbsp;Preview 또는 Visual&nbsp;Studio&nbsp;2019&nbsp;RC를 업데이트하는 방법은 다음과 같습니다.
+Visual&nbsp;Studio&nbsp;2019를 업데이트하는 방법은 다음과 같습니다.
 
 ## <a name="use-the-visual-studio-installer"></a>Visual Studio 설치 관리자 사용
 
@@ -182,7 +184,7 @@ Visual&nbsp;Studio&nbsp;2019&nbsp;Preview 또는 Visual&nbsp;Studio&nbsp;2019&nb
 
 1. 설치 관리자에서 설치한 Visual Studio의 버전을 찾습니다.
 
-   예를 들어 이전에 Visual&nbsp;Studio Community&nbsp;2019&nbsp;RC를 설치하고 업데이트한 경우, **업데이트 사용 가능** 메시지가 설치 관리자에 표시됩니다.
+   예를 들어 이전에 Visual&nbsp;Studio Community&nbsp;2019를 설치했으며 업데이트가 있는 경우, **업데이트 사용 가능** 메시지가 설치 관리자에 표시됩니다.
 
      ![업데이트하려는 Visual Studio 2019 버전 선택](media/vs2019-update-visual-studio-community-rc.png "업데이트하려는 Visual Studio 2019 버전 선택")
 
@@ -202,7 +204,7 @@ Visual&nbsp;Studio&nbsp;2019&nbsp;Preview 또는 Visual&nbsp;Studio&nbsp;2019&nb
 
 1. Windows **시작** 메뉴에서 **Visual Studio 2019**를 선택합니다.
 
-    ![Visual Studio 2019 RC 열기](media/vs2019-visual-studio-rc.png "Windows에서 Visual Studio 2019 열기")
+    ![Visual Studio 2019 열기](media/vs2019-visual-studio-rc.png "Windows에서 Visual Studio 2019 열기")
 
 1. **시작**에서 IDE를 여는 옵션을 선택합니다.
 
@@ -262,7 +264,9 @@ Visual&nbsp;Studio&nbsp;2019&nbsp;Preview 또는 Visual&nbsp;Studio&nbsp;2019&nb
 
 ## <a name="see-also"></a>참고 항목
 
+* [Visual Studio 버전 side-by-side 설치](install-visual-studio-versions-side-by-side.md)
 * [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
+* [서비스 기준선에서 Visual Studio 업데이트](update-servicing-baseline.md)
 * [Mac용 Visual Studio 업데이트](/visualstudio/mac/update)
 * [Visual Studio 수정](modify-visual-studio.md)
 * [Visual Studio 제거](uninstall-visual-studio.md)

@@ -1,54 +1,52 @@
 - name: 'C# 자습서'
+  href: index.yml
+- name: 개요
   items:
-    - name: 'C# 자습서'
-      href: index.yml
-    - name: 개요
+    - name: Visual Studio 정보
+      href: visual-studio-ide.md
+    - name: 코드 편집기 정보
+      href: tutorial-editor.md
+    - name: 프로젝트 및 솔루션 정보
+      href: tutorial-projects-solutions.md
+    - name: Visual Studio 추가 기능
+      href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
+- name: 앱 만들기
+  expanded: true
+  items:
+    - name: '첫 번째 C# 앱 만들기'
+      href: tutorial-console.md
+    - name: 웹앱 만들기
+      href: tutorial-aspnet-core.md
+    - name: UWP 앱 만들기
+      href: tutorial-uwp.md
+    - name: WPF 애플리케이션 만들기
+      href: tutorial-wpf.md
+    - name: 비디오 자습서 - ASP.NET Core 웹앱 만들기
       items:
-        - name: Visual Studio 정보
-          href: visual-studio-ide.md
-        - name: 코드 편집기 정보
-          href: tutorial-editor.md
-        - name: 프로젝트 및 솔루션 정보
-          href: tutorial-projects-solutions.md
-        - name: Visual Studio 추가 기능
-          href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
-    - name: 앱 만들기
-      expanded: true
-      items:
-        - name: '첫 번째 C# 앱 만들기'
-          href: tutorial-console.md
-        - name: 웹앱 만들기
-          href: tutorial-aspnet-core.md
-        - name: UWP 앱 만들기
-          href: tutorial-uwp.md
-        - name: WPF 애플리케이션 만들기
-          href: tutorial-wpf.md
-        - name: 비디오 자습서 - ASP.NET Core 웹앱 만들기
-          items:
-            - name: 1 - Visual Studio 설치
-              href: tutorial-aspnet-core-ef-step-01.md
-            - name: 2 - 첫 번째 ASP.NET Core 웹앱 만들기
-              href: tutorial-aspnet-core-ef-step-02.md
-            - name: 3 - 데이터 작업
-              href: tutorial-aspnet-core-ef-step-03.md
-            - name: 4 - 웹 API 노출
-              href: tutorial-aspnet-core-ef-step-04.md
-            - name: 5 - Azure에 ASP.NET Core 앱 배포
-              href: tutorial-aspnet-core-ef-step-05.md
-    - name: Visual Studio 학습
-      expanded: true
-      items:
-        - name: 리포지토리에서 프로젝트 열기
-          href: ../tutorial-open-project-from-repo.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
-        - name: 코드 작성 및 편집
-          href: tutorial-editor.md
-        - name: 컴파일 및 빌드
-          href: ../../ide/compiling-and-building-in-visual-studio.md
-        - name: 코드 디버그
-          href: ../csharp/tutorial-debugger.md
-        - name: 단위 테스트
-          href: ../../test/getting-started-with-unit-testing.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
-        - name: 프로젝트 배포
-          href: ../../deployment/index.md
-        - name: 데이터 액세스
-          href: ../../data-tools/create-a-sql-database-by-using-a-designer.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
+        - name: 1 - Visual Studio 설치
+          href: tutorial-aspnet-core-ef-step-01.md
+        - name: 2 - 첫 번째 ASP.NET Core 웹앱 만들기
+          href: tutorial-aspnet-core-ef-step-02.md
+        - name: 3 - 데이터 작업
+          href: tutorial-aspnet-core-ef-step-03.md
+        - name: 4 - 웹 API 노출
+          href: tutorial-aspnet-core-ef-step-04.md
+        - name: 5 - Azure에 ASP.NET Core 앱 배포
+          href: tutorial-aspnet-core-ef-step-05.md
+- name: Visual Studio 학습
+  expanded: true
+  items:
+    - name: 리포지토리에서 프로젝트 열기
+      href: ../tutorial-open-project-from-repo.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
+    - name: 코드 작성 및 편집
+      href: tutorial-editor.md
+    - name: 컴파일 및 빌드
+      href: ../../ide/compiling-and-building-in-visual-studio.md
+    - name: 코드 디버그
+      href: ../csharp/tutorial-debugger.md
+    - name: 단위 테스트
+      href: ../../test/getting-started-with-unit-testing.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json
+    - name: 프로젝트 배포
+      href: ../../deployment/index.md
+    - name: 데이터 액세스
+      href: ../../data-tools/create-a-sql-database-by-using-a-designer.md?toc=/visualstudio/get-started/csharp/toc.json&bc=/visualstudio/get-started/csharp/breadcrumb/toc.json

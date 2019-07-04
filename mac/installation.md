@@ -7,12 +7,12 @@ ms.date: 04/02/2019
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ms.custom: video
-ms.openlocfilehash: f989ccba45a034d90562b69eabf871e0e2a545b4
-ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
+ms.openlocfilehash: 1f8cfd597d2bfe8642c5b83940ceb03b7dd06e69
+ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "66037528"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "67309783"
 ---
 # <a name="install-visual-studio-2019-for-mac"></a>Mac용 Visual Studio 2019 설치
 
@@ -46,9 +46,21 @@ iOS 또는 macOS용 Xamarin 앱을 빌드하려면 다음 항목도 필요합니
 
     [![개인 정보 및 조건 링크를 클릭한 다음, 동의하면 계속 진행](media/install-privacy-sml.png)](media/install-privacy.png#lightbox)
 
-6. 사용 가능한 워크로드 목록이 표시됩니다. 사용할 워크로드를 선택합니다.
+6. 사용 가능한 워크로드 목록이 표시됩니다. 사용하려는 구성 요소를 선택합니다.
 
-    [![설치할 워크로드 기능 선택](media/install-selection-sml.png)](media/install-selection.png#lightbox)
+    [![설치할 워크로드 기능 선택](media/install-selection.png)](media/install-selection.png#lightbox)
+
+   일부 플랫폼을 설치하지 않으려는 경우 아래 가이드를 사용하면 설치할 플랫폼을 결정할 수 있습니다.
+
+   * **Xamarin을 사용하는 앱**:
+      - Xamarin.Forms - **Android** 및 **iOS** 플랫폼을 선택합니다.
+      - iOS에만 해당 - **iOS** 플랫폼을 선택합니다([**Xcode**](https://developer.apple.com/xcode/)를 설치해야 함).
+      - Android에만 해당 - **Android** 플랫폼을 선택합니다(관련 종속성도 선택해야 함).
+      - Mac에만 해당 - **macOS** 플랫폼을 선택합니다([**Xcode**](https://developer.apple.com/xcode/)를 설치해야 함).
+      - 완벽한 플랫폼 간 Xamarin 앱 - **Android**, **iOS** 및 **macOS** 플랫폼을 선택합니다.
+   * **.NET Core 애플리케이션** - **.NET Core** 플랫폼을 선택합니다.
+   * **ASP.NET Core 웹 애플리케이션** - **.NET Core** 플랫폼을 선택합니다.
+   * **플랫폼 간 Unity 게임 개발** - Mac용 Visual Studio 이외에는 추가 플랫폼을 설치하지 않아도 됩니다. Unity 확장 설치에 대한 자세한 내용은 [Unity 설치 가이드](/visualstudio/mac/setup-vsmac-tools-unity)를 참조하세요.
 
 7. 원하는 항목을 선택한 후 **설치** 단추를 누릅니다.
 8. 설치 관리자는 Mac용 Visual Studio 및 사용자가 선택한 워크로드를 다운로드하고 설치하는 동안 진행률을 표시합니다. 설치에 필요한 권한을 부여하려면 암호를 입력하라는 메시지가 표시될 수 있습니다.

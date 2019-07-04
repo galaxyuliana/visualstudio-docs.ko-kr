@@ -10,18 +10,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 0d78e7dcd7dfd203a15510037b277b8c2633805e
-ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
+ms.openlocfilehash: 4a458a50be6161e320b3ffbbe702e21f9f502c77
+ms.sourcegitcommit: 74c5360186731de07828764eb32ea1033a8c2275
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "66038649"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559676"
 ---
 # <a name="fxcop-rule-port-status"></a>Fxcop 규칙 포트 상태
 
 이전에 정적 코드 분석을 사용 하는 Visual Studio의 이전 버전의 경우 궁금할 것으로 현재 구현에서 사용할 수 있는 규칙 [FxCop 분석기](install-fxcop-analyzers.md)합니다. 이 페이지는 아직 이식 되었으며 이식 하는 규칙을 나열 되는지 이식할 예정입니다.
 
-## <a name="ported-rules"></a>가져올된 규칙
+## <a name="ported-rules"></a>포팅된 규칙
 
 합니다 [자동으로 생성 된 설명서 페이지](https://github.com/dotnet/roslyn-analyzers/blob/master/src/Microsoft.CodeAnalysis.FxCopAnalyzers/Microsoft.CodeAnalysis.FxCopAnalyzers.md) roslyn 분석기 리포지토리에 FxCop 분석기에 이식 되었으며 하는 규칙의 최신 목록입니다. 해당 페이지에는 역시 기본적으로 규칙을 사용할지에 연결 된 경우 등의 추가 정보 *코드 수정 사항을*합니다. ([코드 수정을](../ide/quick-actions.md) 원클릭 수정 Visual Studio에서 전구 아이콘 메뉴에서 사용할 수 있습니다.)
 
@@ -67,8 +67,8 @@ ms.locfileid: "66038649"
 [CA1063](ca1063-implement-idisposable-correctly.md) | IDisposable을 올바르게 구현
 [CA1064](ca1064-exceptions-should-be-public.md) | 예외는 public이어야 합니다.
 [CA1065](ca1065-do-not-raise-exceptions-in-unexpected-locations.md) | 예기치 않은 위치에서 예외를 발생시키지 마십시오.
-CA1066 | 형식 {0} IEquatable를 구현 해야<T> Equals를 재정의 하기 때문에
-CA1067 | Object.Equals(object) IEquatable를 구현 하는 경우 재정의<T>
+CA1066 | 형식 {0} IEquatable를 구현 해야\<T > Equals를 재정의 하기 때문에
+CA1067 | Object.Equals(object) IEquatable를 구현 하는 경우 재정의\<T >
 CA1068 | CancellationToken 매개 변수는 마지막 이어야 합니다.
 CA1200 | Cref 태그를 사용 하 여 접두사를 사용 하 여 방지
 [CA1303](ca1303-do-not-pass-literals-as-localized-parameters.md) | 리터럴을 지역화된 매개 변수로 전달하지 마세요.

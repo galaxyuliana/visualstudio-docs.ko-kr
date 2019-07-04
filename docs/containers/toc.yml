@@ -30,8 +30,6 @@
           href: view-and-diagnose-containers.md
         - name: 컨테이너 도구 구성
           href: container-tools-configure.md
-        - name: 단위 테스트 실행
-          href: container-unit-testing.md
     - name: 개념
       items:
         - name: 컨테이너화된 앱 빌드

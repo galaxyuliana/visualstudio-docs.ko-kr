@@ -1,7 +1,7 @@
 ---
 title: 네트워크 기반 설치 만들기
 description: 기업 내에서 Visual Studio를 배포하기 위한 네트워크 설치 지점을 만드는 방법을 알아봅니다.
-ms.date: 03/30/2019
+ms.date: 04/26/2019
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,16 +15,16 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: c727b31f353015ca6f43157c4b6afc67339526f0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c0ac63fda69290bef28604cda7524a318c01edc8
+ms.sourcegitcommit: 01c3c9dcade5d913bde2c7efa8c931a7b04e6cd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62974100"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67365341"
 ---
 # <a name="create-a-network-installation-of-visual-studio"></a>Visual Studio의 네트워크 설치 만들기
 
-일반적으로 엔터프라이즈 관리자는 클라이언트 워크스테이션에 배포할 네트워크 설치 지점을 만듭니다. Visual Studio는 초기 설치에 대한 파일과 모든 제품 업데이트를 단일 폴더에 캐시할 수 있도록 설계했습니다. _레이아웃 만들기_라고도 함), 
+일반적으로 엔터프라이즈 관리자는 클라이언트 워크스테이션에 배포할 네트워크 설치 지점을 만듭니다. Visual Studio는 초기 설치에 대한 파일과 모든 제품 업데이트를 단일 폴더에 캐시할 수 있도록 설계했습니다. _레이아웃 만들기_라고도 함),
 
 클라이언트 워크스테이션에서는 최신 제공 업데이트로 업데이트되지 않은 경우에도 설치를 관리하는 데 같은 네트워크 위치를 사용할 수 있습니다.
 
@@ -145,13 +145,13 @@ xcopy /e c:\vsoffline \\server\products\VS2019
 * 두 가지 워크로드 및 모든 권장 구성 요소를 다운로드하려면:
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended 
+    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeRecommended
     ```
 
 * 두 가지 워크로드 및 모든 권장/선택적 구성 요소를 다운로드하려면 다음을 실행합니다.
 
     ```cmd
-    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional 
+    vs_enterprise.exe --layout C:\vsoffline --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Component.GitHub.VisualStudio --includeOptional
     ```
 
 ::: moniker range="vs-2017"
@@ -225,11 +225,7 @@ vs_enterprise.exe --layout c:\VSLayout --all
 
 `--wait` 매개 변수를 사용한 경우 작업 결과에 따라 `%ERRORLEVEL%` 환경 변수는 다음 값 중 하나로 설정됩니다.
 
-  | **값** | **결과** |
-  | --------- | ---------- |
-  | 0 | 작업이 완료되었습니다. |
-  | 3010 | 작업이 완료되었지만, 사용하려면 다시 부팅해야 합니다. |
-  | 기타 | 오류 조건 발생 - 자세한 내용은 로그를 확인하세요. |
+[!INCLUDE[install-error-codes-md](includes/install-error-codes-md.md)]
 
 ## <a name="update-a-network-install-layout"></a>네트워크 설치 레이아웃 업데이트
 
@@ -241,9 +237,9 @@ vs_enterprise.exe --layout c:\VSLayout --all
 
 > [!NOTE]
 > [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2017)에서 제공되는 Visual Studio 부트스트래퍼는 실행될 때마다 사용 가능한 최신 Visual Studio 릴리스를 다운로드하여 설치합니다.
-> 
+>
 > 따라서 오늘 Visual Studio *부트스트래퍼*를 다운로드하여 지금부터 6개월 동안 실행하면 이 부트스트래퍼를 실행하는 시점의 Visual Studio 릴리스가 설치됩니다.
-> 
+>
 > 그러나 *레이아웃*을 만든 다음, 설치하면 레이아웃에 있는 특정 버전의 Visual Studio가 레이아웃에 설치됩니다. 온라인에 더 새로운 버전이 있더라도 레이아웃에 있는 Visual Studio 버전이 설치됩니다.
 
 ::: moniker-end
@@ -252,9 +248,9 @@ vs_enterprise.exe --layout c:\VSLayout --all
 
 > [!NOTE]
 > [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)에서 제공되는 Visual Studio 부트스트래퍼는 실행될 때마다 사용 가능한 최신 Visual Studio 릴리스를 다운로드하여 설치합니다.
-> 
+>
 > 따라서 오늘 Visual Studio *부트스트래퍼*를 다운로드하여 지금부터 6개월 동안 실행하면 이 부트스트래퍼를 실행하는 시점의 Visual Studio 릴리스가 설치됩니다.
-> 
+>
 > 그러나 *레이아웃*을 만든 다음, 설치하면 레이아웃에 있는 특정 버전의 Visual Studio가 레이아웃에 설치됩니다. 온라인에 더 새로운 버전이 있더라도 레이아웃에 있는 Visual Studio 버전이 설치됩니다.
 
 ::: moniker-end
@@ -267,13 +263,14 @@ vs_enterprise.exe --layout c:\VSLayout --all
 
 설치 관련 문제는 [**라이브 채팅**](https://visualstudio.microsoft.com/vs/support/#talktous)(영어만 가능) 지원 옵션도 제공합니다.
 
-사용 가능한 다른 지원 옵션도 있습니다. 목록은 [의견 보내기](../ide/talk-to-us.md) 페이지를 참조하세요.
+사용 가능한 다른 지원 옵션도 있습니다. 목록은 [피드백](../ide/feedback-options.md) 페이지를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
-* [네트워크 기반 Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md)
-* [Visual Studio 제품 수명 주기 및 서비스](/visualstudio/releases/2019/servicing/)
-* [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)
-* [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
-* [Visual Studio 작업 및 구성 요소 ID](workload-and-component-ids.md)
+- [Visual Studio 관리자 가이드](visual-studio-administrator-guide.md)
+- [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
+- [네트워크 기반 Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md)
+- [Visual Studio 제품 수명 주기 및 서비스](/visualstudio/releases/2019/servicing/)
+- [서비스 기준선에서 Visual Studio 업데이트](update-servicing-baseline.md)
+- [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)
+- [Visual Studio 작업 및 구성 요소 ID](workload-and-component-ids.md)

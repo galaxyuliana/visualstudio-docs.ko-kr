@@ -13,20 +13,24 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 13463f38b963ff29ed6fc57fba3eac7865da70ba
-ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.openlocfilehash: 32335f010db2d030d64ae1319f3cc893526a30e0
+ms.sourcegitcommit: d4920babfc3d24a3fe1d4bf446ed3fe73b344467
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66820932"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67160044"
 ---
 # <a name="default-keyboard-shortcuts-in-visual-studio"></a>Visual Studio의 기본 바로 가기 키
 
-키보드 접근성에 대한 자세한 내용은 [접근성 팁과 요령](../ide/reference/accessibility-tips-and-tricks.md) 및 [방법: 단독으로 키보드 사용](../ide/reference/how-to-use-the-keyboard-exclusively.md)을 참조하세요.
+해당 바로 가기 키를 선택하여 Visual Studio의 다양한 [명령](reference/visual-studio-commands.md)과 창에 액세스할 수 있습니다. 이 페이지에는 Visual Studio를 설치할 때 선택한 **일반** 프로필의 기본 명령 바로 가기가 나와 있습니다. 선택한 프로필과 관계없이 **옵션** 대화 상자를 열고 **환경** 노드를 확장한 다음, **키보드**를 선택하여 명령의 [바로 가기를 확인](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)할 수 있습니다. 또한 지정한 명령에 다른 바로 가기를 할당하여 바로 가기를 사용자 지정할 수도 있습니다.
 
-해당 바로 가기 키를 선택하여 Visual Studio의 다양한 명령 및 창에 액세스할 수 있습니다. 이 항목에는 Visual Studio를 설치할 때 선택한 **일반** 프로필의 기본 바로 가기 목록이 나와 있습니다. 선택한 프로필에 관계없이 **옵션** 대화 상자를 열고 **환경** 노드를 확장한 다음 **키보드**를 선택하여 명령의 바로 가기를 확인할 수 있습니다. 또한 지정한 명령에 다른 바로 가기를 할당하여 바로 가기를 사용자 지정할 수도 있습니다.
+일반적인 바로 가기 키 목록과 기타 생산성 정보는 다음을 참조하세요.
 
-일반적인 바로 가기 키 목록과 기타 생산성 정보는 [Visual Studio에서 자주 사용되는 명령의 기본 바로 가기 키](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md), [키보드 팁](../ide/tips-and-tricks-for-visual-studio.md) 및 [생산성 팁](../ide/productivity-tips-for-visual-studio.md)을 참조하세요.
+- [자주 사용되는 명령의 바로 가기 키](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
+- [키보드 팁](../ide/productivity-shortcuts.md)
+- [생산성 팁](../ide/productivity-features.md)
+
+Visual Studio의 접근성에 대한 자세한 내용은 [접근성 팁과 요령](../ide/reference/accessibility-tips-and-tricks.md) 및 [방법: 단독으로 키보드 사용](../ide/reference/how-to-use-the-keyboard-exclusively.md)을 참조하세요.
 
 |||||
 |-|-|-|-|
@@ -785,6 +789,7 @@ ms.locfileid: "66820932"
 | 편집.현재영역축소 | **Ctrl+M, Ctrl+S** |
 | 편집.태그축소 | **Ctrl+M, Ctrl+T** |
 | 편집.정의부분만보이기 | **Ctrl+M, Ctrl+O**(문자 ‘O’) |
+| Edit.ContractSelection | **Shift+Alt+-** (C++가 아닌 경우만 해당) |
 | 편집.선택영역을주석으로처리 | **Ctrl+K, Ctrl+C** |
 | 편집.단어자동완성 | **Ctrl+스페이스바**<br /><br /> 또는<br /><br /> **Alt+오른쪽 화살표** |
 | 편집.매개변수팁복사 | **Ctrl+Shift+Alt+C** |
@@ -797,6 +802,8 @@ ms.locfileid: "66820932"
 | 편집.문서시작까지선택 | **Ctrl+Shift+Home** |
 | 편집.전체개요확장 | **Ctrl+M, Ctrl+X** |
 | 편집.현재영역확장 | **Ctrl+M, Ctrl+E** |
+| Edit.ExpandSelection | **Shift+Alt+=** (C++가 아닌 경우만 해당) |
+| Edit.ExpandSelectiontoContainingBlock | **Shift+Alt+]** |
 | 편집.문서서식 | **Ctrl+K, Ctrl+D** |
 | 편집.선택영역서식 | **Ctrl+K, Ctrl+F** |
 | Edit.GotoAll | **Ctrl+T**<br /><br /> 또는<br /><br /> **Ctrl+,** |
@@ -1150,5 +1157,4 @@ ms.locfileid: "66820932"
 
 ## <a name="see-also"></a>참고 항목
 
-- [아이콘에 대한 이미지 편집기](/cpp/windows/image-editor-for-icons)
-- [IntelliSense 사용](../ide/using-intellisense.md)
+- [Visual Studio 명령](reference/visual-studio-commands.md)
