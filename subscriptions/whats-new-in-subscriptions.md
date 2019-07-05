@@ -2,64 +2,45 @@
 title: Visual Studio 구독의 새로운 기능
 description: Visual Studio 구독을 관리하는 데 사용할 수 있는 새롭고 업데이트된 기능에 대해 알아봅니다.
 ms.custom: ''
-ms.date: 06/25/2018
+ms.date: 06/27/2019
 searchscope: VS Subscription
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
-manager: jillfra
-ms.openlocfilehash: 647009d7e01cc821bdf4fa6a573e6caa73cb7794
-ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
+author: evanwindom
+ms.author: lank
+manager: lank
+ms.openlocfilehash: 6984d4aab23817707280af6bce47deee8d79adf7
+ms.sourcegitcommit: 0cd282a7584b9bfd4df7882f8fdf3ad8a270e219
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67259494"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "67465117"
 ---
 # <a name="what39s-new-in-visual-studio-subscriptions"></a>Visual Studio 구독의 새로운 기능
 
-구독 혜택 패키지를 자주 업데이트하여 사용자에게 더 유용하게 만듭니다. 분기별로 정렬된 최신 기능에 대해 알아보려면 계속 읽어 보세요.
+구독 혜택 패키지를 자주 업데이트하여 사용자에게 더 유용하게 만듭니다. 또한 가능한 최상의 환경을 제공하기 위해 구독자 및 구독 관리 포털의 기능을 향상시킬 것입니다.  분기별로 정렬된 최신 기능 및 업데이트에 대해 알아보려면 계속 읽어 보세요.
 
-## <a name="2018-q2-april-june"></a>2018 Q2(4월~6월)
+## <a name="2019-q1-january-march"></a>2019 Q1(1월~3월)
 
-2분기의 새로운 기능에 대한 간단한 요약은 다음과 같습니다.
+### <a name="maximum-usage-added-to-subscriptions-administration-portalhttpsmanagevisualstuidocom"></a>[구독 관리 포털](https://manage.visualstuido.com)에 최대 사용량 추가
+Visual Studio 구독 관리 포털의 새로운 기능을 사용하면 구매 및 할당된 구독 수를 추적하고, 지난 1년 내 및 규약 기간 동안 할당된 각 수준의 최대 구독 수를 식별할 수 있습니다. 이것은 현재 구독 사용량 및 향후 구매 계획을 이해하는 데 도움이 됩니다. 
 
-### <a name="cloud-administrators"></a>클라우드 관리자
+  > [!div class="mx-imgBorder"]
+  > ![최대 사용량 메뉴](_img/maximum-usage/maximum-usage-menu.png)
 
-클라우드 구독 관리를 쉽게 해주는 클라우드 관리자를 위한 새로운 기능이 추가되었습니다.
+구매 및 할당을 포함한 할당 실행 기록을 볼 수도 있습니다.   
 
-* [**일괄 할당**](/visualstudio/subscriptions/assign-license#bulk-assignments): 여러 구독자를 일괄적으로 추가하고 업로드합니다.
+자세한 내용은 [최대 사용량](maximum-usage.md) 문서를 확인하세요. 
 
-  ![일괄 추가 단추를 사용하여 여러 사용자 추가](media/bulk-add-multiple-subscribers.png)
+## <a name="2019-q2-april-june"></a>2019 Q2(4월~6월)
 
-* [**내보내기**](/visualstudio/subscriptions/exporting-subscriptions): 사용자 목록 및 해당 할당에 대한 세부 정보를 내보냅니다. 이와 같은 목록은 할당 및 만료 날짜를 추적하고자 할 때 유용할 수 있습니다.
+### <a name="visual-studio-with-github-enterprise-subscriptions"></a>GitHub Enterprise 구독이 포함된 visual Studio
+5월에 열린 //빌드 컨퍼런스에서 Microsoft는 기업계약 고객이 GitHub Enterprise를 포함한 Visual Studio 구독을 구매할 수 있게 되었다고 발표했습니다.  Visual Studio 구독 및 GitHub Enterprise를 보다 저렴한 단일 가격으로 쉽게 구입할 수 있는 방법입니다.  
 
-   ![내보내기 단추를 사용하여 구독자 목록을 Excel로 내보내기](media/export-subscriber-list-to-csv.png)
+GitHub Enterprise는 기업계약을 통해 구입한 Visual Studio Enterprise 및 Visual Studio Professional 구독과 함께 사용할 수 있습니다. 기업계약 갱신 시점이 아니더라도 GitHub Enterprise를 추가할 수 있는 “버전 업그레이드” 행사도 있습니다.
 
-* [**일괄 편집**](/visualstudio/subscriptions/edit-license#editing-multiple-subscribers-using-bulk-edit): 여러 구독자의 구독 정보를 일괄적으로 편집합니다.
+혜택, 옵션 및 가격에 대해 자세히 알아보려면 https://visualstudio.microsoft.com/subscriptions/visual-studio-github 를 방문하세요. 
 
-  ![일괄 편집 단추를 사용하여 여러 사용자 편집](media/bulk-edit-multiple-subscribers.png)
-
-* [**구독 추가** 환경](assign-license.md)에서 사용할 수 있는 새로운 필드를 탐색합니다.
-
-  * **알림 이메일**: 조직에서 Azure AD를 사용하지 않고 로그인 이메일 이외의 알림에 다른 이메일을 사용하려는 경우 추가할 수 있습니다.
-
-    ![새 알림 이메일 주소 추가](media/add-new-subscriber-notification-email.png)
-
-  * **통신 환경 설정**: 할당 이메일을 보내는 데 사용할 언어를 선택합니다.
-
-    ![알림 이메일을 보낼 때 사용할 언어 변경](media/change-subscriber-communication-preference.png)
-
-  * **참조 추가**: 관리하는 구독에 참조 정보를 추가합니다.
-
-    ![각 구독에 고유한 참조 정보 추가](media/add-subscriber-reference-notes.png)
-
-* [**할당 이메일 다시 보내기**](resend-assignment-email.md): 구독자 목록에 있는 모든 사용자에게 원하는 횟수만큼 알림 이메일을 다시 보냅니다.
-
-  ![원할 때마다 활성화 이메일을 모든 사용자 또는 여러 사용자에게 다시 보내기](media/resend-subscriber-activation-emails.png)
-
-* [**필터**](search-license.md): 필요에 가장 잘 맞게 구독자 데이터를 구성하고 필터링합니다.
-
-  ![사용 가능한 필드에 따라 구독자 데이터 필터링](media/filter-subscriber-data.png)
+조직이 GitHub Enterprise 구독을 포함한 Visual Studio를 이미 갖고 있는 경우에는 설명서에서 [GitHub Enterprise 구독이 포함된 Visual Studio 관리](assign-github.md)에 대해 자세히 알아보세요.  
 
 이제 됐습니다!
 

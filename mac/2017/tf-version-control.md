@@ -3,23 +3,25 @@ title: TFVC(Team Foundation 버전 제어)
 description: TFVC(Team Foundation 버전 제어)를 사용하여 Mac용 Visual Studio에서 Team Foundation Server/Azure DevOps에 연결.
 author: conceptdev
 ms.author: crdun
-ms.date: 04/28/2019
+ms.date: 06/25/2019
 ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
-ms.openlocfilehash: c21658b6381405c05e5b0fedbb72e33f8ed72a83
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: 52b40f8dbf24dd1e712bd0481e36f39cfcc1fc7d
+ms.sourcegitcommit: 9d3529e40438ca45dcb0b31742c4cd5a89daa61e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66746327"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67398994"
 ---
 # <a name="connecting-to-team-foundation-version-control"></a>Team Foundation 버전 제어에 연결
 
 > [!NOTE]
 > macOS의 가장 적합한 제어 환경의 경우 TFVC(Team Foundation 버전 제어) 대신 Git을 사용하는 것이 좋습니다. Git은 Mac용 Visual Studio에서 지원되고 TFS(Team Foundation Server)/Azure DevOps에서 호스트되는 리포지토리의 기본 옵션입니다. TFS/Azure DevOps와 함께 Git을 사용하는 방법을 자세히 알아보려면 [Git 리포지토리 설정](/visualstudio/mac/set-up-git-repository)을 참조하세요.
+>
+> 이전에 Mac용 Visual Studio의 TFVC 확장 미리 보기 릴리스를 사용했다면 Mac용 Visual Studio 2019로 업그레이드할 때는 더 이상 지원되지 않습니다.
 
-Azure Repos에서는 두 가지 버전 제어 모델을 제공합니다. 분산된 버전 제어 시스템인 [Git](/azure/devops/repos/git/?view=azure-devops) 및 중앙 집중식 제어 시스템인 TFVC([Team Foundation 버전 제어](/azure/devops/repos/tfvc/index?view=azure-devops)).
+Azure Repos에서는 다음과 같은 두 가지 버전 제어 모델을 제공합니다. 분산된 버전 제어 시스템인 [Git](/azure/devops/repos/git/?view=azure-devops) 및 중앙 집중식 제어 시스템인 TFVC([Team Foundation 버전 제어](/azure/devops/repos/tfvc/index?view=azure-devops)).
 
 Mac용 Visual Studio에서는 Git 리포지토리에 대한 전체 지원을 제공하지만 TFVC 작업을 위한 일부 해결 방법이 필요합니다. 현재 버전 제어에 TFVC를 사용하고 있는 경우 TFVC에서 호스트되는 소스 코드에 액세스하는 데 사용할 수 있는 몇 가지 솔루션은 다음과 같습니다.
 
@@ -110,6 +112,8 @@ tf checkin -comment:"Replaced 'Northwand' typos with the correct word Northwind"
 
 > [!NOTE]
 > macOS의 가장 적합한 제어 환경의 경우 TFVC(Team Foundation 버전 제어) 대신 Git을 사용하는 것이 좋습니다. Git은 Mac용 Visual Studio에서 지원되고 TFS(Team Foundation Server)/Azure DevOps에서 호스트되는 리포지토리의 기본 옵션입니다. TFS/Azure DevOps와 함께 Git을 사용하는 방법을 자세히 알아보려면 [Git 리포지토리 설정](/visualstudio/mac/set-up-git-repository)을 참조하세요.
+>
+> 이전에 Mac용 Visual Studio의 TFVC 확장 미리 보기 릴리스를 사용했다면 Mac용 Visual Studio 2019로 업그레이드할 때는 더 이상 지원되지 않습니다.
 
 Mac용 Visual Studio 확장 갤러리에는 TFVC 연결에 대한 제한된 지원을 제공하는 Team Foundation 버전 제어 확장이 있습니다. 확장은 지원되지 않으며 여러 가지 알려진 문제가 있으므로 확장을 사용할 때 환경이 달라질 수 있습니다.
 
