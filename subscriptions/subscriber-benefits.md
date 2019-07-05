@@ -2,23 +2,24 @@
 title: Visual Studio 구독 - 구독자 혜택
 author: evanwindom
 ms.author: jaunger
-manager: evelynp
-ms.date: 02/12/2018
+manager: lank
+ms.date: 06/28/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 혜택 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: c7616bc468aad5b4753fb3a05652f976bae6299b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e076ad536849a3ef0c915cd3222d80c68eaa205b
+ms.sourcegitcommit: d2b234e0a4a875c3cba09321cdf246842670d872
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62427795"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "67493741"
 ---
 # <a name="benefits-included-in-your-visual-studio-subscription"></a>Visual Studio 구독에 포함된 혜택
 
-Visual Studio 구독은 Windows, iOS, Android, Linux 등을 비롯한 기본 플랫폼 및 장치에서 유용한 애플리케이션을 만들고 배포하고 관리하는 데 필요한 가장 포괄적인 리소스 집합을 제공합니다.  특정 혜택은 보유한 구독의 유형에 따라 다릅니다.  구독자에게 최대 가치를 제공하기 위해 사용 가능한 가장 유용한 최신 기술, 교육 자료 및 파트너 혜택에 중점을 두도록 조정되므로 제공되는 혜택은 주기적으로 변경됩니다.
+Visual Studio 구독(이전 명칭은 MSDN 구독)은 Windows, iOS, Android, Linux 등을 비롯한 기본 플랫폼 및 디바이스에서 유용한 애플리케이션을 만들고 배포하고 관리하는 데 필요한 가장 포괄적인 리소스 집합을 제공합니다.  특정 혜택은 보유한 구독의 유형에 따라 다릅니다.  구독자에게 최대 가치를 제공하기 위해 사용 가능한 가장 유용한 최신 기술, 교육 자료 및 파트너 혜택에 중점을 두도록 조정되므로 제공되는 혜택은 주기적으로 변경됩니다.
 
-혜택은 다음 세 가지 범주로 그룹화됩니다.
+
+혜택은 [구독자 포털](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs:)에서 세 가지 범주로 그룹화됩니다.
 
 ## <a name="tools"></a>도구
 도구 범주에서는 [Visual Studio IDE](vs-ide-benefit.md), [Azure DevOps Services](vs-azure-devops.md) 및 [Azure](vs-azure.md)와 같은 중요한 혜택을 포함하여 다양한 혜택에 액세스할 수 있습니다.  구독 수준에 따라 Windows 및 Office 365 개발자 계정, Visual Studio App Center, 파트너(예: WhiteSource Bolt 및 ModernRequirements)의 혜택도 표시됩니다.
@@ -30,7 +31,7 @@ Visual Studio 구독은 Windows, iOS, Android, Linux 등을 비롯한 기본 플
 - .Net 개발자용 Microsoft Azure 및 Pluralsight의 기타 유용한 콘텐츠
 - DataCamp의 개발자용 데이터 과학
 - Microsoft Virtual Academy의 SQL Server용 데이터베이스 솔루션 디자인
-- LinkedIn Learning에서는 뛰어난 업무 성과에 필요한 인력, 정보 및 기술에 액세스할 수 있습니다.
+- LinkedIn Learning에서는 뛰어난 업무 성과에 필요한 인력, 인사이트 및 기술에 액세스할 수 있습니다.
 
 ## <a name="support"></a>고객 지원팀
 Visual Studio 구독자는 궁금한 점이 있거나 기술 지원이 필요한 경우 다양한 유형의 지원에 액세스할 수도 있습니다.

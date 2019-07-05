@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 장기 계약 없이 월간 또는 연간 기준으로 Visual Studio Professional 또는 Visual Studio Enterprise를 임대합니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 1b704b6180937d3a1b937b702fad4a2e564d93c6
-ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
+ms.openlocfilehash: de95cd0d1cc49006e451bf00c34757ab7daa5c0b
+ms.sourcegitcommit: 0cd282a7584b9bfd4df7882f8fdf3ad8a270e219
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66177566"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "67465136"
 ---
 # <a name="buy-visual-studio-professional-and-visual-studio-enterprise-cloud-subscriptions"></a>Visual Studio Enterprise 및 Visual Studio Professional 클라우드 구독 구입
 
@@ -28,7 +28,7 @@ ms.locfileid: "66177566"
 * 구매를 청구하려면 [Azure 구독](https://azure.microsoft.com/pricing/purchase-options/)이 필요합니다. Visual Studio Marketplace에서 첫 번째 구매 전에 또는 첫 번째 구매를 진행하면서 [등록](https://portal.azure.com)할 수 있습니다.
 
 ## <a name="who-can-buy-visual-studio-cloud-subscriptions"></a>누가 Visual Studio 클라우드 구독을 구매할 수 있나요?
-Azure 구독에 대한 [소유자 및 기여자 액세스 권한](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fvsts%2Forganizations%2Fbilling%2Fadd-backup-billing-managers%3Fview%3Dvsts%2520%2520sa&data=02%7C01%7C%7Cb9e717e8abff47b0cd7e08d618edd860%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636723807145220358&sdata=aIaamEXHhx94KCYVY%2FFibqFzNBEqKPntpql867xAMgU%3D&reserved=0)이 있는 누구나 클라우드 구독을 구매할 수 있습니다.
+Azure 구독에 대한 [소유자](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner), [서비스 관리자](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#change-the-service-administrator-for-an-azure-subscription) 또는 [공동 관리자](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#add-or-change-co-administrator) 액세스 권한이 있는 누구나 클라우드 구독을 구매할 수 있습니다.
 
 ## <a name="how-to-buy-cloud-subscriptions"></a>클라우드 구독 구입 방법
 
@@ -102,7 +102,7 @@ A: 특정 월에 구입한 연간 구독은 1년 전체에 대해 즉시 요금�
 
 #### <a name="q-what-if-i-want-to-decrease-the-number-of-subscriptions-for-my-customers"></a>Q: 고객의 구독 수를 줄일려면 어떻게 해야 하나요?
 
-A: 관리자는 https://manage.visualstudio.com을 방문하여 이 문서의 지침에 따라 구독 수를 줄이면 계속 구독의 수를 줄일 수 있습니다. 시스템은 비례 배분된 크레딧을 생성하지 *않습니다*. 환불을 받으려면 Azure 청구 팀에 문의해야 합니다.
+A: 관리자는 https://manage.visualstudio.com 을 방문하여 이 문서의 지침에 따라 구독 수를 줄이면 계속 구독의 수를 줄일 수 있습니다. 시스템은 비례 배분된 크레딧을 생성하지 *않습니다*. 환불을 받으려면 Azure 청구 팀에 문의해야 합니다.
 
 
 #### <a name="q-if-i-cancel-my-subscription-will-i-be-able-to-buy-another-annual-cloud-subscription-later"></a>Q: 구독을 취소하면 나중에 다른 연간 클라우드 구독을 구입할 수 있나요?
