@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2f0b4069bf1b74c15f9fcf7cdb7e488247b8548e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5e443cf23b8726161a4252e6cef3b77f5d3c37bb
+ms.sourcegitcommit: 3cc73e74921a9ceb622542e0e263abeebc455c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62808501"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "67624189"
 ---
 # <a name="walkthrough-use-xml-editor-features"></a>연습: XML 편집기 기능 사용
 
@@ -30,7 +30,7 @@ ms.locfileid: "62808501"
 
      편집기에서 새 파일이 열립니다. 파일에는 기본 XML 선언, `<?xml version="1.0" encoding="utf-8">`이 포함됩니다.
 
-3. 문서 속성 창에서 찾아보기 단추를 클릭 합니다. (**...** )에 **스키마** 필드입니다.
+3. 문서 속성 창에서 찾아보기 단추를 클릭 합니다. ( **...** )에 **스키마** 필드입니다.
 
      합니다 **XSD 스키마** 대화 상자가 표시 됩니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "62808501"
 
     - **직원** 루트 요소를 추가 합니다.
 
-2. 선택 **<!-** 누릅니다 주석 노드를 추가 하려면 **Enter**합니다.
+2. 선택  **&lt;!-** 누릅니다 주석 노드를 추가할 **Enter**합니다.
 
      주석 끝 태그가 삽입되고 주석 시작 태그와 주석 끝 태그 사이에 커서가 놓입니다.
 

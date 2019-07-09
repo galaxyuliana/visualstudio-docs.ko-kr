@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 6c3d9394eef00ef315d6a0c6afc35e0af5dd7854
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d1584f0d6a772a6f24578f9693832fb6b0812444
+ms.sourcegitcommit: 3cc73e74921a9ceb622542e0e263abeebc455c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62567488"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "67624506"
 ---
 # <a name="create-a-windows-forms-user-control-that-supports-simple-data-binding"></a>단순 데이터 바인딩을 지원하는 Windows Forms 사용자 정의 컨트롤 만들기
 
@@ -166,7 +166,7 @@ Windows 애플리케이션에서 폼에 데이터를 표시할 때는 **도구 �
 
 끌어서 기본 폼에 데이터 바인딩된 컨트롤을 만들 **고객** 에서 노드를 **데이터 원본** 창에서 폼으로 확인 합니다 **PhoneNumberBox** 컨트롤은 데이터를 표시 하는 데 사용 합니다 **Phone** 열입니다.
 
-     Data-bound controls with descriptive labels appear on the form, along with a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
+설명 레이블이 있는 데이터 바인딩된 컨트롤이 레코드 탐색을 위한 도구 모음인 <xref:System.Windows.Forms.BindingNavigator>와 함께 폼에 나타납니다. [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource> 및 <xref:System.Windows.Forms.BindingNavigator>가 구성 요소 트레이에 나타납니다.
 
 ## <a name="run-the-application"></a>애플리케이션 실행
 
