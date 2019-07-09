@@ -34,7 +34,6 @@
 ### [전문적인 개발](professional-development.md)
 #### [LinkedIn 학습](vs-linkedin-learning.md)
 #### [DataCamp](vs-datacamp.md)
-#### [Skill Me Up](vs-opsgility.md)
 #### [Pluralsight](vs-pluralsight.md)
 #### [MSDN Magazine 구독](vs-msdn.md)
 ### [지원 혜택](technical-support.md)
