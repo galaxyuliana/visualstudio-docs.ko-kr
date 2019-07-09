@@ -12,12 +12,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 619c06d23e3bc1abfce1473627fb483612766728
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: 62ff05de5cfd6dfa01f8e93f22f9ac09b8e61575
+ms.sourcegitcommit: 3cc73e74921a9ceb622542e0e263abeebc455c00
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66353394"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "67624476"
 ---
 # <a name="dynamically-add-menu-items"></a>동적으로 메뉴 항목 추가
 지정 하 여 런타임에 메뉴 항목을 추가할 수 있습니다는 `DynamicItemStart` 플래그는 Visual Studio 명령 테이블에 있는 자리 표시자 단추 정의에서 명령 ( *.vsct*) 파일에 다음 코드에서 표시할 메뉴 항목의 수를 정의 하 고 명령 처리 합니다. VSPackage가 로드 되 면 자리 표시자 동적 메뉴 항목으로 바뀝니다.
@@ -320,15 +320,15 @@ ms.locfileid: "66353394"
 
 이제 일치 조건자를 구현 합니다. 두 가지를 확인 해야: 먼저 여부 명령 ID가 (이기 선언 된 명령 ID 보다 크거나) 유효한 식이고 두 번째는 가능한 프로젝트가 (솔루션의 프로젝트의 수보다 작을) 여부를 지정 합니다.
 
-    ```csharp
-    private bool IsValidDynamicItem(int commandId)
-    {
-        // The match is valid if the command ID is >= the id of our root dynamic start item
-        // and the command ID minus the ID of our root dynamic start item
-        // is less than or equal to the number of projects in the solution.
-        return (commandId >= (int)DynamicMenuPackageGuids.cmdidMyCommand) && ((commandId - (int)DynamicMenuPackageGuids.cmdidMyCommand) < dte2.Solution.Projects.Count);
-    }
-    ```
+```csharp
+private bool IsValidDynamicItem(int commandId)
+{
+    // The match is valid if the command ID is >= the id of our root dynamic start item
+    // and the command ID minus the ID of our root dynamic start item
+    // is less than or equal to the number of projects in the solution.
+    return (commandId >= (int)DynamicMenuPackageGuids.cmdidMyCommand) && ((commandId - (int)DynamicMenuPackageGuids.cmdidMyCommand) < dte2.Solution.Projects.Count);
+}
+```
 
 ## <a name="set-the-vspackage-to-load-only-when-a-solution-has-multiple-projects"></a>솔루션에 여러 프로젝트가 있는 경우에 로드 하려면 VSPackage를 설정 합니다.
  때문에 합니다 **시작 프로젝트 설정** 명령 타당성을 활성 솔루션에 둘 이상의 프로젝트에 없는 경우, 이런 경우에만 자동으로 로드 하려면 VSPackage를 설정할 수 있습니다. 사용할 <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> UI 컨텍스트의 함께 <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids.SolutionHasMultipleProjects>입니다. 에 *DynamicMenuPackage.cs* DynamicMenuPackage 클래스에 다음 특성을 추가 하는 파일:
