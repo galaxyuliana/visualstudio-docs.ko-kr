@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: e5ff4290d0cffa99a9f476c543626c5aa15be87a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e08a2f8fc93f91cafe40d2dc5e9bdb8b49770b3b
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436919"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692827"
 ---
 # <a name="how-to-specify-symbol-file-locations-from-the-command-line"></a>방법: 명령줄에서 기호 파일 위치 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ ms.locfileid: "63436919"
   
 2. 다음 구문을 사용하여 **_NT_SYMBOL_PATH** 환경 변수 또는 VSPerfReport /SymbolPath 옵션을 설정합니다.  
   
-    **srv\\** * *LocalStore* **\*http://msdl.microsoft.com/downloads/symbols**  
+    **srv\*** *LocalStore* **\*http://msdl.microsoft.com/downloads/symbols**  
   
     여기서 *LocalStore*는 사용자가 만든 로컬 디렉터리의 경로입니다.  
   

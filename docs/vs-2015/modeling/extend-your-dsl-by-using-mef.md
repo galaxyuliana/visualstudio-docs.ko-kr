@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: be514104ebc3cd908cd9469c6b674a22f9dad401
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: a1b90f37dcdadc53b6f2a81b9b4e9a860dd6a529
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65696194"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692529"
 ---
 # <a name="extend-your-dsl-by-using-mef"></a>MEF를 사용하여 DSL 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -131,7 +131,7 @@ ms.locfileid: "65696194"
   
    - 이 어셈블리는 일반적으로 끝나는 이름에 ". Dsl.dll "로 설정 합니다.  
   
-   - DSL 프로젝트에 대 한 액세스를 해야 하는 경우에 디렉터리 아래에 있는 어셈블리 파일을 찾을 수 있습니다 **Dsl\bin\\\\** *  
+   - DSL 프로젝트에 대 한 액세스를 해야 하는 경우에 디렉터리 아래에 있는 어셈블리 파일을 찾을 수 있습니다 **Dsl\\bin\\\***  
   
    - DSL VSIX 파일에 액세스할 수 있으면 ".zip" VSIX 파일의 파일 이름 확장명을 변경 하 여 어셈블리를 찾을 수 있습니다. .Zip 파일을 압축 합니다.  
   
@@ -159,7 +159,7 @@ ms.locfileid: "65696194"
   
    1. **source.extension.vsixmanifest**, 클릭 **참조 추가**  
   
-   2. 대화 상자에서 클릭 **추가 페이로드** DSL의 VSIX 파일을 찾을. VSIX 파일을에서 DSL 솔루션에서 빌드는 * * DslPackage\bin\\\\* * * 합니다.  
+   2. 대화 상자에서 클릭 **추가 페이로드** DSL의 VSIX 파일을 찾을. VSIX 파일에서 DSL 솔루션에 작성 됩니다 **DslPackage\\bin\\\*** 합니다.  
   
        그러면 사용자는 DSL과 확장 동시에 설치 됩니다. 사용자가 DSL 설치 이미 확장만 설치 됩니다.  
   

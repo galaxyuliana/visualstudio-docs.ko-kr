@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: aabd45871e55fd22b9b9e35597555fd13b15d6eb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 026dc77573bbedce7882f9b3cceab049ef1066e4
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62981678"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692349"
 ---
 # <a name="walkthrough-complex-data-binding-in-a-document-level-project"></a>연습: 문서 수준 프로젝트의 복합 데이터 바인딩
   이 연습에서는 문서 수준 프로젝트에서 복잡 한 데이터 바인딩의 기본 사항을 보여 줍니다. Northwind SQL Server 데이터베이스의 필드에 Microsoft Office Excel 워크시트에서 여러 셀을 바인딩할 수 있습니다.
@@ -174,7 +174,7 @@ ms.locfileid: "62981678"
 
 1. 목록 개체 안의 셀을 선택 합니다.
 
-    별표를 사용 하 여 목록의 맨 아래에 새 행이 나타납니다 (**\\***) 새 행의 첫 번째 셀에서입니다.
+    별표를 사용 하 여 목록의 맨 아래에 새 행이 나타납니다 ( **\*** ) 새 행의 첫 번째 셀에서입니다.
 
 2. 빈 행의 다음 정보를 추가 합니다.
 

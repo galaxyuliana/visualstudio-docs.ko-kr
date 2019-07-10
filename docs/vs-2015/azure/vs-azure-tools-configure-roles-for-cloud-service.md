@@ -11,12 +11,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
 ms.author: ghogen
-ms.openlocfilehash: c14de7498cf893169295c08947d6687a2121bd6e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 810ebfcfb4cb4354c3df4c0d9892a37ca1624256
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965030"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692090"
 ---
 # <a name="configure-azure-cloud-service-roles-with-visual-studio"></a>Visual Studio를 사용하여 Azure 클라우드 서비스 역할 구성
 Azure 클라우드 서비스에는 하나 이상의 작업자 또는 웹 역할이 포함될 수 있습니다. 각 역할에 대해 해당 역할을 설정하는 방법을 정의하고 해당 역할을 실행하는 방법을 구성해야 합니다. 클라우드 서비스의 역할에 대한 자세한 내용은 [Azure Cloud Services 소개](https://channel9.msdn.com/Series/Windows-Azure-Cloud-Services-Tutorials/Introduction-to-Windows-Azure-Cloud-Services)를 참조하세요.
@@ -239,21 +239,20 @@ Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비
 
 다음 코드는 로컬 저장소에 텍스트 파일을 작성하는 방법의 예제를 보여 줍니다. &lt;LocalStorageName> 자리 표시자를 적절한 값으로 바꿉니다.
 
-    ```csharp
-    // Retrieve an object that points to the local storage resource
-    LocalResource localResource = RoleEnvironment.GetLocalResource("<LocalStorageName>");
+```csharp
+// Retrieve an object that points to the local storage resource
+LocalResource localResource = RoleEnvironment.GetLocalResource("<LocalStorageName>");
 
-    //Define the file name and path
-    string[] paths = { localResource.RootPath, "MyLocalStorageTest.txt" };
-    String filePath = Path.Combine(paths);
+//Define the file name and path
+string[] paths = { localResource.RootPath, "MyLocalStorageTest.txt" };
+String filePath = Path.Combine(paths);
 
-    using (FileStream writeStream = File.Create(filePath))
-    {
-        Byte[] textToWrite = new UTF8Encoding(true).GetBytes("Testing Web role storage");
-        writeStream.Write(textToWrite, 0, textToWrite.Length);
-    }
-
-    ```
+using (FileStream writeStream = File.Create(filePath))
+{
+    Byte[] textToWrite = new UTF8Encoding(true).GetBytes("Testing Web role storage");
+    writeStream.Write(textToWrite, 0, textToWrite.Length);
+}
+```
 
 ### <a name="find-a-file-written-to-local-storage"></a>로컬 저장소에 기록된 파일 찾기
 
