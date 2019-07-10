@@ -12,12 +12,12 @@ manager: jillfra
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: f3dbd175ef5575375c314b942fedff9f77403265
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: af3f393aea8d1ecddaf021c896839d663b7d4028
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62860398"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692109"
 ---
 # <a name="debug-live-aspnet-azure-apps-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용하여 라이브 ASP.NET Azure 앱 디버그
 
@@ -54,7 +54,7 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 1. 스냅숏 디버그할 프로젝트를 엽니다.
 
     > [!IMPORTANT]
-    > 스냅숏 디버그하려면 Azure App Service에 게시된 것과 ‘동일한 버전의 소스 코드’를 열어야 합니다.
+    > 스냅숏 디버그하려면 Azure App Service에 게시된 것과 ‘동일한 버전의 소스 코드’를 열어야 합니다. 
 ::: moniker range="<=vs-2017"
 
 2. 클라우드 탐색기(**보기 > 클라우드 탐색기**)에서 프로젝트가 배포된 Azure App Service를 마우스 오른쪽 단추로 클릭하고 **스냅숏 디버거 연결**을 선택합니다.
@@ -65,17 +65,17 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 ::: moniker range=">=vs-2019"
 2. **디버그 > 스냅숏 디버거 연결...** 을 선택합니다. 프로젝트가 배포된 Azure App Service 및 Azure Storage 계정을 선택하고 **연결**을 클릭합니다.
 
-      ![디버그 메뉴에서 스냅숏 디버거 시작](../debugger/media/snapshot-debug-menu-attach.png)
+   ![디버그 메뉴에서 스냅숏 디버거 시작](../debugger/media/snapshot-debug-menu-attach.png)
 
-      ![Azure 리소스 선택](../debugger/media/snapshot-select-azure-resource-appservices.png)
+   ![Azure 리소스 선택](../debugger/media/snapshot-select-azure-resource-appservices.png)
 
 ::: moniker-end
 
-  > [!IMPORTANT]
-  > 처음 **스냅숏 디버거 연결**을 선택하면 Azure App Service에 스냅숏 디버거 사이트 확장을 설치하라는 메시지가 표시됩니다. 이 설치를 수행하려면 Azure App Service를 다시 시작해야 합니다.
+   > [!IMPORTANT]
+   > 처음 **스냅숏 디버거 연결**을 선택하면 Azure App Service에 스냅숏 디버거 사이트 확장을 설치하라는 메시지가 표시됩니다. 이 설치를 수행하려면 Azure App Service를 다시 시작해야 합니다.
 
-  > [!NOTE]
-  > Application Insights 사이트 확장도 스냅숏 디버깅을 지원합니다. “사이트 확장이 최신 상태가 아님” 오류 메시지가 표시되면 [스냅숏 디버깅에 대한 문제 해결 팁 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)에서 업그레이드 세부 정보를 참조하세요.
+   > [!NOTE]
+   > Application Insights 사이트 확장도 스냅숏 디버깅을 지원합니다. “사이트 확장이 최신 상태가 아님” 오류 메시지가 표시되면 [스냅숏 디버깅에 대한 문제 해결 팁 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)에서 업그레이드 세부 정보를 참조하세요.
 
    Visual Studio가 이제 스냅숏 디버깅 모드입니다.
    ![스냅숏 디버깅 모드](../debugger/media/snapshot-message.png)
