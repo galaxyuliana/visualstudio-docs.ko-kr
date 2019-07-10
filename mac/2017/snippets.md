@@ -5,16 +5,16 @@ author: conceptdev
 ms.author: crdun
 ms.date: 02/07/2019
 ms.assetid: 0FE27C0C-A861-4133-A74E-8D0505CF5342
-ms.openlocfilehash: 56f736aa1e32530b1db96ad301091151731b7d28
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2def790511a69dc7b5cab8a5020f488e58b85db9
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62986937"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67693009"
 ---
 # <a name="code-snippets"></a>코드 조각
 
- _코드 템플릿_이라고도 하는 코드 조각은 미리 작성된 코드 블록을 삽입하고 편집할 수 있으므로 프로그래밍의 능률을 높이는 데 유용합니다. 코드 조각을 사용하면 공통 패턴을 빠르게 추가하거나 개발자가 구문을 잘 모르는 경우 새로운 패턴을 배우는 데도 편리합니다. C#, F#, HTML, XML, Python 및 Razor용 템플릿이 제공됩니다.
+_코드 템플릿_이라고도 하는 코드 조각은 미리 작성된 코드 블록을 삽입하고 편집하여 프로그래밍의 능률을 높이는 데 유용합니다. 코드 조각을 사용하면 공통 패턴을 빠르게 추가하거나 개발자가 구문을 잘 모르는 경우 새로운 패턴을 배우는 데도 편리합니다. C#, F#, HTML, XML, Python 및 Razor용 템플릿이 제공됩니다.
 
 이 섹션에서는 코드 조각을 만들고, 삽입하고, 사용하는 방법을 설명합니다.
 
@@ -30,7 +30,7 @@ ms.locfileid: "62986937"
 
   [![도구 상자의 코드 조각](media/source-editor-image14-sml.png)](media/source-editor-image14.png#lightbox)
 
-- **템플릿 삽입 명령** &ndash; 현재는 템플릿 삽입 기능에 설정된 기본 키 바인딩이 없습니다. 키 바인딩을 만들려면 **Visual Studio > 기본 설정 > 키 바인딩**으로 이동하고 `template`을 검색합니다. 이렇게 하면 [바인딩 편집] 필드에 원하는 키 바인딩을 추가한 다음,  **적용**을 클릭할 수 있습니다.
+- **템플릿 삽입 명령** &ndash; 현재는 템플릿 삽입 기능에 설정된 기본 키 바인딩이 없습니다. 키 바인딩을 만들려면 **Visual Studio > 기본 설정 > 키 바인딩**으로 이동하고 `template`을 검색합니다. 이렇게 하면 [바인딩 편집] 필드에 원하는 키 바인딩을 추가한 다음 **적용**을 클릭할 수 있습니다.
 
   ![템플릿 삽입 명령](media/source-editor-image15.png)
 

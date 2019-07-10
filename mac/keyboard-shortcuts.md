@@ -2,15 +2,15 @@
 title: Mac용 Visual Studio의 기본 바로 가기 키
 description: 이 문서에는 Mac용 Visual Studio의 기본 바로 가기 키가 나열되어 있습니다.
 ms.date: 03/14/2019
-author: bytesguy
-ms.author: adhartle
+author: asb3993
+ms.author: amburns
 ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
-ms.openlocfilehash: a19c63b2ce32095a3af4aa4586b8ab0d604a14dc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 09fd7ff678043e399ad37923956a61cbcf8ce80a
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62982713"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67691430"
 ---
 # <a name="default-keyboard-shortcuts-in-visual-studio-for-mac"></a>Mac용 Visual Studio의 기본 바로 가기 키
 
@@ -36,7 +36,7 @@ ms.locfileid: "62982713"
 
 |명령|바로 가기 키|
 |-|-|
-|중단점 사용 또는 사용 안 함|**⌥⌘/**, **⌘F9**|
+|중단점 사용 또는 사용 안 함|**⌥⌘/** , **⌘F9**|
 |일시 중지|**⌥⌘P**, **⌥⌘L5**|
 |모든 중단점 제거|**⇧⌘F9**|
 |커서까지 실행|**⌘F10**|
@@ -45,7 +45,7 @@ ms.locfileid: "62982713"
 |한 단계씩 코드 실행|**⇧⌘I**, **⌘F11**|
 |프로시저 나가기|**⇧⌘U**, **⇧⌘F11**|
 |프로시저 단위 실행|**⇧⌘O**, **F10**|
-|중단점 설정/해제|**⌘\\**, **F9**|
+|중단점 설정/해제|**⌘\\** , **F9**|
 |중단점 보기|**⌥⌘B**|
 
 ## <a name="designer"></a>Designer
@@ -225,8 +225,8 @@ ms.locfileid: "62982713"
 |다음 표시|**⌥⌘↓**, **F8**|
 |이전 표시|**⌥⌘↑**, **⇧F8**|
 |두 개의 편집기 열|**⌥⌘2**|
-|확대|**⌘+**, **⌘=**|
-|축소|**⌘-**, **⌘_**|
+|확대|**⌘+** , **⌘=**|
+|축소|**⌘-** , **⌘_**|
 
 ## <a name="window"></a>창
 
@@ -244,8 +244,8 @@ ms.locfileid: "62982713"
 |기타 숨기기|**⌥⌘H**|
 |Visual Studio 숨기기|**⌘H**|
 |최소화|**⌘M**|
-|다음 문서|**⌘}**, **⌘F6**|
-|이전 문서|**⌘{**, **⇧⌘F6**|
+|다음 문서|**⌘}** , **⌘F6**|
+|이전 문서|**⌘{** , **⇧⌘F6**|
 |다음 문서로 전환|**⌃⇥**|
 |다음 패드로 전환|**⌃⌥⇥**|
 |이전 문서로 전환|**⌃⇧⇥**|

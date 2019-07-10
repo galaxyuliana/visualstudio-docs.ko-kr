@@ -1,16 +1,16 @@
 ---
 title: 코드 서식
 description: 이 문서는 Mac용 Visual Studio에서 텍스트 편집기 동작을 수정하는 데 사용할 수 있는 여러 옵션을 설명합니다.
-author: conceptdev
-ms.author: crdun
+author: cobey
+ms.author: cobey
 ms.date: 05/06/2018
 ms.assetid: 81EE4460-26EB-4BB0-9297-932E1F88E4B8
-ms.openlocfilehash: 4a34076d06bfceb741b987377487a97291e8f726
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f7674a925a2fb70820c216557ef012484ffebbdf
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62983667"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67691679"
 ---
 # <a name="editor-behavior"></a>편집기 동작
 

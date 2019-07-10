@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 Azure 커뮤니티 혜택에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: afeed3f51e9a7ac00885906711c943f63896c80e
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: 5cfdb90a42b7dc3baa68da21e7856a62ba7593b8
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67032255"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586953"
 ---
 # <a name="azure-community"></a>Azure 커뮤니티
 
@@ -54,7 +54,6 @@ Azure 커뮤니티 혜택의 제공 여부는 구독 수준에 따르며 아래�
 |                              Visual Studio Test Professional(표준)                               |    VL, 일반 정품     |   1년    |    예     |
 |                                       MSDN 플랫폼(표준)                                       |    VL, 일반 정품     |   1년    |    예     |
 | Visual Studio Enterprise(월간 클라우드) Visual Studio Professional(월간 클라우드) NFR<sup>1</sup> |        모두        | 사용할 수 없음 |     아니요     |
-
 
 <sup>1</sup> 포함:  ‘NFR(전매금지), Microsoft FTE, MVP(Most Valuable Professional), RD(Regional Director), VSIP(Visual Studio Industry Partner), BizSpark, Imagine, MCT(Microsoft Certified Trainer)’
 

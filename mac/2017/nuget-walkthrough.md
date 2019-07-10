@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: video
-ms.openlocfilehash: 9f96354d9e460cebd81f52712f74dc6226f8706d
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 9e4699a1d4e2826cad205ce89ab46812cd5c4b2d
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65697602"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692794"
 ---
 # <a name="include-a-nuget-package-in-your-project"></a>프로젝트에 NuGet 패키지 포함
 
@@ -43,7 +43,7 @@ Mac용 Visual Studio에서 프로젝트를 연 상태로 **Solution Pad**의 **�
 
 ![NuGet 패키지 목록](media/nuget-walkthrough-AddPackages1.png)
 
-오른쪽 위 모서리의 검색 상자를 사용하여 특정 패키지(예:  `azure`)를 검색합니다. 사용하려는 패키지를 찾아서 선택하고  **패키지 추가**  단추를 클릭하여 설치를 시작합니다.
+오른쪽 위의 검색 상자를 사용하여 특정 패키지(예: `azure`)를 검색합니다. 사용하려는 패키지를 찾아서 선택하고 **패키지 추가** 단추를 클릭하여 설치를 시작합니다.
 
 [Azure NuGet 패키지 추가하기](media/nuget-walkthrough-AddPackages2.png)
 
@@ -57,7 +57,7 @@ Mac용 Visual Studio에서 프로젝트를 연 상태로 **Solution Pad**의 **�
 
 NuGet 패키지를 추가하고 프로젝트 참조를 업데이트하면 모든 프로젝트 참조와 같은 방식으로 API에 대해 프로그래밍할 수 있습니다.
 
-파일 상단에 필요한  `using`  모든 지시문을 추가했는지 확인합니다.
+파일 상단에 필요한 `using` 지시문을 추가했는지 확인하세요.
 
 ```csharp
 using Newtonsoft.Json;

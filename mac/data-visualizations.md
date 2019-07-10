@@ -1,17 +1,17 @@
 ---
 title: 디버깅 - 데이터 시각화
 description: 디버깅은 프로그래밍의 공통적인 필수 부분입니다. Mac용 Visual Studio에는 편리한 디버깅을 위한 전체 기능 모음이 포함되어 있습니다. 이 문서에서는 디버거에서 개체를 검사할 때 볼 수 있는 다양한 데이터 시각화를 살펴보겠습니다.
-author: conceptdev
-ms.author: crdun
+author: jmatthiesen
+ms.author: jomatthi
 ms.date: 05/06/2018
 ms.technology: vs-ide-debug
 ms.assetid: 527E6BEC-EF15-4002-ACB5-62AE1C16F6B7
-ms.openlocfilehash: 0b9ec63855eff0b69f5523b1905b79d360509e67
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 14696040160dfc33f89b7647fb73b116b41afa16
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62984317"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67691740"
 ---
 # <a name="data-visualizations"></a>데이터 시각화
 

@@ -9,12 +9,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/24/2017
 ms.author: ghogen
-ms.openlocfilehash: f4cfa0abb9a6b61bdb5c27d3dd4243250162aa37
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 22c266516a2810191f05bb3de1d7215ea65dd040
+ms.sourcegitcommit: 3cc73e74921a9ceb622542e0e263abeebc455c00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62427783"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "67624099"
 ---
 # <a name="browse-and-manage-storage-resources-by-using-server-explorer"></a>서버 탐색기를 사용하여 스토리지 리소스 찾아보기 및 관리
 
@@ -94,7 +94,7 @@ Blob 컨테이너의 폴더는 가상 폴더이기 때문에 빈 폴더를 만�
 
 공통 접두사를 지정하여 표시되는 Blob를 필터링할 수 있습니다.
 
-예를 들어 필터 텍스트 상자에 접두사 **hello**를 입력한 다음 **실행**(**!**) 단추를 선택하면 “hello”로 시작하는 Blob만 나타납니다.
+예를 들어 필터 텍스트 상자에 접두사 **hello**를 입력한 다음 **실행**( **!** ) 단추를 선택하면 “hello”로 시작하는 Blob만 나타납니다.
 
 ![필터 텍스트 상자](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC519076.png)
 
@@ -183,7 +183,7 @@ Azure Table Storage는 많은 양의 구조화된 데이터를 저장합니다. 
 
 테이블 디자이너에서 엔터티(단일 행) 또는 속성(단일 셀)에 대한 바로 가기 메뉴를 열고 **편집**을 선택합니다.
 
-    ![Add or edit a table entity](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
+![테이블 엔터티 추가 또는 편집](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
 
 단일 테이블의 엔터티는 속성 (열)과 동일한 집합을 가질 필요가 없습니다. 테이블 데이터 보기 및 편집에 대한 다음의 제한 사항에 유의하십시오.
 

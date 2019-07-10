@@ -1,17 +1,17 @@
 ---
 title: 코드 리팩터링
 description: Mac용 Visual Studio 및 빠른 작업을 사용하여 코드를 개선합니다.
-author: conceptdev
-ms.author: crdun
+author: cobey
+ms.author: cobey
 ms.date: 03/29/2019
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 ms.custom: video
-ms.openlocfilehash: 48e290fddd1c4b7c95ac5e76cb6cf5908247e6f6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5a87b87f3a14462daec1e069fe222164818d2a19
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62937926"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67691293"
 ---
 # <a name="refactoring"></a>리팩터링
 
@@ -42,7 +42,7 @@ Mac용 Visual Studio는 Microsoft의 오픈 소스 .NET 컴파일러 플랫폼�
 * 리팩터링 적용(예: 임시 변수 인라인)
 * 코드 생성(예: 지역 변수 도입)
 
-빠른 작업은 전구 ![전구 아이콘](media/quick-actions-light-bulb-icon.png) 또는 스쿠루 드라이버![스크루 드라이버 아이콘](media/quick-actions-screwdriver-icon.png) 아이콘을 사용하거나 커서가 작업을 사용할 수 있는 코드 줄에 있을 때 **옵션(⌥)**+**Enter**를 눌러 적용할 수 있습니다. 오류를 나타내는 빨간 물결 무늬가 있는 경우 오류 전구![오류 전구 아이콘](media/quick-actions-error-light-bulb-icon.png)가 표시되고 Visual Studio에는 해당 오류에 사용할 수 있는 해결 방법이 있습니다.
+빠른 작업은 전구 ![전구 아이콘](media/quick-actions-light-bulb-icon.png) 또는 스쿠루 드라이버![스크루 드라이버 아이콘](media/quick-actions-screwdriver-icon.png) 아이콘을 사용하거나 커서가 작업을 사용할 수 있는 코드 줄에 있을 때 **옵션(⌥)** +**Enter**를 눌러 적용할 수 있습니다. 오류를 나타내는 빨간 물결 무늬가 있는 경우 오류 전구![오류 전구 아이콘](media/quick-actions-error-light-bulb-icon.png)가 표시되고 Visual Studio에는 해당 오류에 사용할 수 있는 해결 방법이 있습니다.
 
 어떤 언어든지 타사에서 SDK에 포함하는 방식 등을 통해 사용자 지정 진단 및 제안을 제공할 수 있으며 Visual Studio 전구는 이러한 규칙을 기반으로 켜집니다.
 
@@ -57,7 +57,7 @@ Mac용 Visual Studio는 Microsoft의 오픈 소스 .NET 컴파일러 플랫폼�
 
 - 빠른 작업을 사용할 수 있는 코드 줄로 캐럿을 옮기면 전구 및 스크루드라이버가 편집기의 왼쪽 여백에 나타납니다.
 
-- **옵션(⌥)**+**Enter**를 눌러 사용 가능한 빠른 작업 및 리팩토링 목록을 어디에서나 볼 수 있습니다.
+- **옵션(⌥)** +**Enter**를 눌러 사용 가능한 빠른 작업 및 리팩토링 목록을 어디에서나 볼 수 있습니다.
 
 ![컨텍스트 항목 표시](media/refactoring-context-action.png)
 

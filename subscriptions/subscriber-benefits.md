@@ -7,17 +7,16 @@ ms.date: 06/28/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 혜택 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: e076ad536849a3ef0c915cd3222d80c68eaa205b
-ms.sourcegitcommit: d2b234e0a4a875c3cba09321cdf246842670d872
+ms.openlocfilehash: 27ec141156de16c4bca8862ed88f89731924d1af
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "67493741"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586984"
 ---
 # <a name="benefits-included-in-your-visual-studio-subscription"></a>Visual Studio 구독에 포함된 혜택
 
 Visual Studio 구독(이전 명칭은 MSDN 구독)은 Windows, iOS, Android, Linux 등을 비롯한 기본 플랫폼 및 디바이스에서 유용한 애플리케이션을 만들고 배포하고 관리하는 데 필요한 가장 포괄적인 리소스 집합을 제공합니다.  특정 혜택은 보유한 구독의 유형에 따라 다릅니다.  구독자에게 최대 가치를 제공하기 위해 사용 가능한 가장 유용한 최신 기술, 교육 자료 및 파트너 혜택에 중점을 두도록 조정되므로 제공되는 혜택은 주기적으로 변경됩니다.
-
 
 혜택은 [구독자 포털](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs:)에서 세 가지 범주로 그룹화됩니다.
 

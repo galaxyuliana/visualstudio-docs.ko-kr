@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 852B6A9D-AEFA-4EF4-A5DD-94A506019D20
 ms.custom: video
-ms.openlocfilehash: ba98312617aaf636ee388ec97f47c14ede75507d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2d18ef3d693c3906c1312cfecb8da605c6a27226
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62986682"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692975"
 ---
 # <a name="working-with-git"></a>Git 작업
 
@@ -59,7 +59,7 @@ Git은 모든 팀원이 동일한 문서를 동시에 작업할 수 있는 분�
 
 ## <a name="switching-branches"></a>분기 전환
 
-기본적으로 리포지토리에서 가장 먼저 생성된 분기를  **마스터**  분기라고 합니다. 마스터 분기와 다른 분기 간에 기술적인 차이점은 없지만, 마스터 분기는 개발 팀에서 '라이브' 또는 '프로덕션' 분기로 간주되는 경우가 대부분입니다.
+기본적으로 리포지토리에서 가장 먼저 생성된 분기를 **마스터** 분기라고 합니다. 마스터 분기와 다른 분기 간에 기술적인 차이점은 없지만, 마스터 분기는 개발 팀에서 '라이브' 또는 '프로덕션' 분기로 간주되는 경우가 대부분입니다.
 
 마스터 또는 기타 분기를 분기하여 독립적인 개발 라인을 만들 수 있습니다. 이렇게 하면 특정 시점을 기준으로 마스터 분기의 새 버전을 제공하여 '라이브' 분기와 독립적으로 개발할 수 있습니다. 소프트웨어 개발에서 형상을 관리할 때 이러한 방법으로 분기를 사용하는 경우가 많습니다.
 

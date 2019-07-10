@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: 장기 계약 없이 월간 또는 연간 기준으로 Visual Studio Professional 또는 Visual Studio Enterprise를 임대합니다.
 searchscope: VS Subscription
-ms.openlocfilehash: de95cd0d1cc49006e451bf00c34757ab7daa5c0b
-ms.sourcegitcommit: 0cd282a7584b9bfd4df7882f8fdf3ad8a270e219
+ms.openlocfilehash: 3dc72dbc801679e9baa4bc54b0343270d2f00a29
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "67465136"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586894"
 ---
 # <a name="buy-visual-studio-professional-and-visual-studio-enterprise-cloud-subscriptions"></a>Visual Studio Enterprise 및 Visual Studio Professional 클라우드 구독 구입
 
@@ -103,7 +103,6 @@ A: 특정 월에 구입한 연간 구독은 1년 전체에 대해 즉시 요금�
 #### <a name="q-what-if-i-want-to-decrease-the-number-of-subscriptions-for-my-customers"></a>Q: 고객의 구독 수를 줄일려면 어떻게 해야 하나요?
 
 A: 관리자는 https://manage.visualstudio.com 을 방문하여 이 문서의 지침에 따라 구독 수를 줄이면 계속 구독의 수를 줄일 수 있습니다. 시스템은 비례 배분된 크레딧을 생성하지 *않습니다*. 환불을 받으려면 Azure 청구 팀에 문의해야 합니다.
-
 
 #### <a name="q-if-i-cancel-my-subscription-will-i-be-able-to-buy-another-annual-cloud-subscription-later"></a>Q: 구독을 취소하면 나중에 다른 연간 클라우드 구독을 구입할 수 있나요?
 A:  다른 클라우드 연간 구독을 구입할 수 없지만 Visual Studio 구독을 구입할 수 있는 여러 옵션이 있습니다.  [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)에서 자세히 알아보세요.

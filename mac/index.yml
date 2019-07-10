@@ -3,8 +3,8 @@ documentType: LandingData
 title: Mac용 Visual Studio 2019 설명서
 metadata:
   description: 이 문서에서는 Mac용 Visual Studio의 기능을 소개합니다.
-  author: conceptdev
-  ms.author: crdun
+  author: asb3993
+  ms.author: amburns
   ms.date: 04/02/2019
   ms.topic: landing-page
   ms.prod: visual-studio-mac

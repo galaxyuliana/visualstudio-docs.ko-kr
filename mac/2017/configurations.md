@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
-ms.openlocfilehash: 7f130f5dec77e0a1965c68cf71e642fdb636832f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f4e62d23684695c938061c178d7af078bfccfc27
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62932974"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692457"
 ---
 # <a name="understanding-build-configurations"></a>빌드 구성 이해
 
@@ -22,7 +22,7 @@ ms.locfileid: "62932974"
 
 ## <a name="solution-configurations"></a>솔루션 구성
 
-프로젝트 구성과 마찬가지로, 솔루션 구성은 전체 프로젝트에 대한 사용자 지정 구성을 만드는 데 사용됩니다. 다음 이미지에 표시된 것처럼  **빌드 > 구성**  항목 아래의  **구성 매핑**  탭을 사용하면 각 솔루션 항목의 대상 구성을 할당할 수 있습니다.
+프로젝트 구성과 마찬가지로, 솔루션 구성은 전체 프로젝트에 대한 사용자 지정 구성을 만드는 데 사용됩니다. 다음 이미지와 같이 **빌드 > 구성** 항목 아래의 **구성 매핑** 탭을 사용하면 각 솔루션 항목의 대상 구성을 할당할 수 있습니다.
 
 ![구성 매핑 옵션](media/projects-and-solutions-image3.png)
 
@@ -36,7 +36,7 @@ Mac용 Visual Studio에서는 시작 프로젝트를 설정하는 대신 _실행
 
 ![실행 구성 드롭다운](media/projects-and-solutions-image8.png)
 
-실행 구성은 다양한 용도로 프로젝트에서 정의된 여러 구성과 이름을 가진 실행 옵션 집합입니다. 실행 구성은 프로젝트 수준에서 정의되며, 필요한 개수만큼 추가할 수는 있지만 각 실행 가능 프로젝트에 대해 기본값이 자동으로 생성됩니다. 특정 프로젝트 형식은 추가 실행 구성을 자동으로 생성합니다. 예를 들어 watchOS 프로젝트는  _한눈에 보기 및 알림 구성_을 생성할 수 있습니다.
+실행 구성은 다양한 용도로 프로젝트에서 정의된 여러 구성과 이름을 가진 실행 옵션 집합입니다. 실행 구성은 프로젝트 수준에서 정의되며, 필요한 개수만큼 추가할 수는 있지만 각 실행 가능 프로젝트에 대해 기본값이 자동으로 생성됩니다. 특정 프로젝트 형식은 추가 실행 구성을 자동으로 생성합니다. 예를 들어 watchOS 프로젝트는 _한눈에 보기 및 알림 구성_을 생성할 수 있습니다.
 
 구성을 다른 개발자와 공유(이 경우 구성이 .csproj 파일에 저장됨)하거나 로컬에 유지(이 경우 .user 파일에 저장됨)할 수 있습니다.
 
