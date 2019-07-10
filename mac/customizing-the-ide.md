@@ -1,17 +1,17 @@
 ﻿---
 title: IDE 사용자 지정
 description: Mac용 Visual Studio를 다양한 방식으로 사용자 지정하여 사용자가 효율성과 미적 요구를 모두 충족하는 환경에서 앱을 개발하도록 할 수 있습니다. 이 항목에서는 Mac용 Visual Studio를 요구에 맞게 조정할 수 있는 여러 가지 방법을 살펴봅니다.
-author: conceptdev
-ms.author: crdun
+author: alanjclark
+ms.author: alcl
 ms.date: 05/06/2018
 ms.assetid: F7C2A28C-0759-4E0D-A28E-B72D5AB73DB6
 ms.custom: video
-ms.openlocfilehash: b8386e5d27c2ddf6abd93ac93266f58869cd6c79
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ff0c7a2970a9ecfdfb9de08f487ad7dfbe768249
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62984602"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67691833"
 ---
 # <a name="customizing-the-ide"></a>IDE 사용자 지정
 
@@ -78,7 +78,7 @@ Mac용 Visual Studio 작업 영역은 문서 주요 기능 영역(일반적으�
 
 ### <a name="viewing-and-arranging-pads"></a>패드 보기 및 정렬
 
-Mac용 Visual Studio에서 새 솔루션이나 파일을 열면 Solution Pad, 문서 개요, 오류 등 여러 가지 ‘패드’가 작업 영역에 표시됩니다.
+Mac용 Visual Studio에서 새 솔루션이나 파일을 열면 Solution Pad, 문서 개요, 오류 등 여러 가지 ‘패드’가 작업 영역에 표시됩니다. 
 
 ![Solution Pad](media/customizing-the-ide-image2a.png)
 

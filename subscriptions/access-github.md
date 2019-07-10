@@ -7,12 +7,12 @@ ms.date: 04/15/2019
 ms.topic: conceptual
 description: 새로운 Visual Studio + GitHub 번들에 대해 알아보기
 searchscope: VS Subscription
-ms.openlocfilehash: 086314029561c7b0c14ac1d6ef09d7cb3a4d85ee
-ms.sourcegitcommit: bd519d1da375e374016f94a44c295d3253f61a8c
+ms.openlocfilehash: 7871496cf427d3e610693391d80693852d71c64e
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "64945222"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586562"
 ---
 # <a name="introducing-visual-studio-subscriptions-with-github-enterprise"></a>GitHub Enterprise가 포함된 Visual Studio 구독 소개  
 
@@ -33,7 +33,7 @@ Microsoft와 EA(기업계약)를 체결한 고객은 Visual Studio 표준 구독
 
 Visual Studio Enterprise, Visual Studio Professional 및 GitHub Enterprise에 대한 기존 SKU는 별도로 계속 사용할 수도 있습니다. 
 
-혜택, 옵션 및 가격에 대해 자세히 알아보려면 https://visualstudio.microsoft.com/subscriptions/visual-studio-github를 방문하세요. 
+혜택, 옵션 및 가격에 대해 자세히 알아보려면 https://visualstudio.microsoft.com/subscriptions/visual-studio-github 를 방문하세요. 
 
 ## <a name="getting-your-subscriptions"></a>구독 가져오기
 
@@ -43,7 +43,7 @@ Visual Studio + GitHub Enterprise 구독은 두 부분으로 할당됩니다.
 
 조직에서 구독을 구입하면 관리자가 할당합니다.  Visual Studio 구독 및 GitHub Enterprise 구독은 별도로 할당됩니다.  
 
-Visual Studio + GitHub 구독이 할당된 경우 Visual Studio 구독 관리자가 구독을 할당했음을 알리는 이메일을 받게 됩니다.  그 때 https://my.visualstudio.com/subscriptions에서 볼 수 있습니다.  
+Visual Studio + GitHub 구독이 할당된 경우 Visual Studio 구독 관리자가 구독을 할당했음을 알리는 이메일을 받게 됩니다.  그 때 https://my.visualstudio.com/subscriptions 에서 볼 수 있습니다.  
 
 GitHub Enterprise 구독은 별도로 할당되므로 회사가 구독을 구성한 방법에 따라 다른 관리자로부터 알림을 받을 수 있습니다.  또한 Visual Studio 구독과 GitHub Enterprise 구독 할당 간에 지연이 있을 수 있으므로, 두 가지 모두를 즉시 사용할 수 없는 경우에도 걱정하지 마세요.  GitHub 구독 할당 프로세스는 매우 복잡하며 완료하는 데 며칠이 걸릴 수 있습니다.  
 
@@ -74,14 +74,13 @@ A:  GitHub Enterprise 서버를 사용하는 경우 클라이언트 하단에 �
 
 A:  GitHub Enterprise 구독과 함께 전체 Visual Studio 구독을 받게 됩니다.  구독을 별도록 구매한 경우와 동일하게 소프트웨어 다운로드, 클라우드 서비스, 기술 지원 및 파트너 혜택 등 모든 혜택을 받을 수 있습니다.
 
-
 ## <a name="support-resources"></a>지원 리소스
--  [GitHub 도움말](https://help.github.com/en)에서 다양한 GitHub 항목에 대한 질문의 답을 찾을 수 있습니다.
--  [GitHub 커뮤니티 포럼](https://github.community/)에서 다른 GitHub 사용자의 도움을 받으세요.
--  Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
--  Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
--  GitHub Enterprise에 대한 [기술 지원](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24)을 받으세요.   
-
+- [GitHub 도움말](https://help.github.com/en)에서 다양한 GitHub 항목에 대한 질문의 답을 찾을 수 있습니다.
+- [GitHub 커뮤니티 포럼](https://github.community/)에서 다른 GitHub 사용자의 도움을 받으세요.
+- Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
+- Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+- GitHub Enterprise에 대한 [기술 지원](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24)을 받으세요.   
 
 ## <a name="next-steps"></a>다음 단계
+
 GitHub를 처음 사용하는 경우 [GitHub Learning 랩](https://lab.github.com/)을 체크 아웃하세요. 그러면 재미있고 실용적인 일련의 프로젝트를 통해 유용한 피드백을 공유할 수 있습니다.

@@ -7,12 +7,12 @@ ms.date: 02/13/2018
 ms.topic: conceptual
 description: 관리자가 과도하게 요청된 구독을 해결하는 방법에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: 6217dcd3cef9a65db3e45ba76f57167f47535671
-ms.sourcegitcommit: bd519d1da375e374016f94a44c295d3253f61a8c
+ms.openlocfilehash: 06da8c460e9660857b0f03062bde5bd983bd176d
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "64945129"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586997"
 ---
 # <a name="overallocated-subscriptions"></a>초과 할당된 구독
 
@@ -43,8 +43,8 @@ ms.locfileid: "64945129"
 >
 > 할당된 각 GitHub 구독에 대해 관리 포털에 할당된 GitHub 구독이 있는 해당 Visual Studio가 이 구독에 대한 라이선스 요구 사항을 준수하는지 확인하는 것은 고객의 책임입니다.
 
-
 [GitHub Enterprise가 포함된 Visual Studio 구독](assign-github.md) 관리에 대해 자세히 알아봅니다.
 
 ## <a name="support-resources"></a>지원 리소스
--  Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
+
+- Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.

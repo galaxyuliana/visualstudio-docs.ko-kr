@@ -1,16 +1,16 @@
 ---
 title: 소스 편집기
 description: Mac용 Visual Studio에서 소스 편집기 사용
-author: conceptdev
-ms.author: crdun
+author: cobey
+ms.author: cobey
 ms.date: 05/06/2018
 ms.assetid: A018A314-C1C4-4F36-BCB6-2D434208FCFE
-ms.openlocfilehash: b284cde511b17863861908d9967bbea7672e297b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b8414f50ed420d8fb4b29d4c8a21d3c8dc6cee72
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63000209"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67691972"
 ---
 # <a name="source-editor"></a>소스 편집기
 
@@ -50,7 +50,7 @@ Mac용 Visual Studio는 플랫폼 간 개발을 최대한 편리하고 실용적
 
 소스 코드에서 보이지 않는 문자를 표시해야 하는 경우도 있습니다. 이는 코딩 표준을 준수하고 불필요한 공간 낭비를 방지하는 수단이 됩니다. 또한 정확한 줄 들여쓰기가 품질을 좌우하는 F# 코드를 작성할 때 유용합니다.
 
-**Visual Studio > 기본 설정 > 텍스트 편집기 > 표식 및 눈금자**로 이동하여 공백을 표시하는 옵션을 설정합니다. 이 옵션을 선택하면 보이지 않는 문자를 표시할 때  다음과 같이 선택할 수 있습니다. 안 함, 선택 시 또는 항상:
+**Visual Studio > 기본 설정 > 텍스트 편집기 > 표식 및 눈금자**로 이동하여 공백을 표시하는 옵션을 설정합니다. 이 옵션을 선택하면 보이지 않는 문자를 표시할  때  다음과 같이 선택할 수 있습니다. 안 함, 선택 시 또는 항상:
 
 ![보이지 않는 문자 표시 옵션](media/source-editor-image3.png)
 

@@ -5,18 +5,18 @@ author: conceptdev
 ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
-ms.openlocfilehash: b6f355dbe10cf250ec397cb817643984b438a92e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 00814f006c265a3c16cd3d4bd6bc004754016a27
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62932365"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692420"
 ---
 # <a name="creating-new-projects-and-solutions"></a>새 프로젝트 및 솔루션 만들기
 
 ## <a name="creating-new-projects-and-solutions-from-a-template"></a>템플릿에서 새 프로젝트 및 솔루션 만들기
 
-언제든 미리 정의된 템플릿을 사용하여 솔루션을 만들 수 있습니다. 이런 방식으로 솔루션을 만들려면  **파일 > 새 솔루션**으로 이동한 다음, 필요한 플랫폼 및 필요한 템플릿을 차례로 선택합니다.
+언제든 미리 정의된 템플릿을 사용하여 솔루션을 만들 수 있습니다. 이런 방식으로 솔루션을 만들려면 **파일 > 새 솔루션**으로 이동한 다음 필요한 플랫폼, 필요한 템플릿을 차례로 선택합니다.
 
 ![새 솔루션 만들기](media/projects-and-solutions-image0.png)
 

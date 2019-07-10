@@ -1,17 +1,17 @@
 ---
 title: 프로젝트에 NuGet 패키지 포함하기
 description: 이 문서에서는 Xamarin 프로젝트에 NuGet 패키지를 포함하는 방법을 다룹니다. 여기에서는 IDE 통합 기능을 소개할 뿐 아니라 패키지를 찾아 다운로드하는 방법도 살펴봅니다.
-author: conceptdev
-ms.author: crdun
+author: jmatthiesen
+ms.author: jomatthi
 ms.date: 04/24/2019
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: video
-ms.openlocfilehash: 7ac4a10160a1273dd7766e880dfcf7f06bf64668
-ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.openlocfilehash: 356a99e3bdbc1608bdebc160c3a10878d3194a40
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66820616"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67691393"
 ---
 # <a name="include-a-nuget-package-in-your-project"></a>프로젝트에 NuGet 패키지 포함
 
@@ -77,9 +77,9 @@ using Newtonsoft.Json;
 
 ![패키지 메뉴](media/nuget-walkthrough-PackagesMenu.png)
 
-*   **NuGet 패키지 추가** - 프로젝트에 패키지를 더 추가하기 위한 창을 엽니다.
-*   **업데이트** - 각 패키지에 대해 소스 서버를 확인하고 모든 최신 버전을 다운로드합니다.
-*   **복원** - 기존 패키지를 최신 버전으로 업데이트하지 않고 모든 누락된 패키지를 다운로드합니다.
+* **NuGet 패키지 추가** - 프로젝트에 패키지를 더 추가하기 위한 창을 엽니다.
+* **업데이트** - 각 패키지에 대해 소스 서버를 확인하고 모든 최신 버전을 다운로드합니다.
+* **복원** - 기존 패키지를 최신 버전으로 업데이트하지 않고 모든 누락된 패키지를 다운로드합니다.
 
 업데이트 및 복원 옵션은 솔루션 수준에서도 사용 가능하며, 솔루션 내의 모든 프로젝트에 영향을 줍니다.
 

@@ -1,16 +1,16 @@
 ---
 title: Mac용 Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리
 description: 이 문서에서는 Mac용 Visual Studio에서 프로젝트를 빌드하는 방법을 설명합니다.
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: E4B6CB42-9FE2-43B9-93B7-BD4BD50518B1
-ms.openlocfilehash: 74a78c5cb4e9583db1eb99bb6eeb5691cb4adcfd
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6ebe7bb7310129a666422dff5c5e7b86558f96d8
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62983976"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67693156"
 ---
 # <a name="building-and-cleaning-projects-and-solutions"></a>프로젝트와 솔루션 빌드 및 정리
 

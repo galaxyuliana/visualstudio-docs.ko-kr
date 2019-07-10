@@ -6,17 +6,16 @@ ms.assetid: 79C0F1A3-0C13-4E55-A820-1138A4082B77
 author: asb3993
 ms.author: amburns
 ms.date: 10/23/2018
-ms.openlocfilehash: 6f3afd51cf4109f07107e60d61565c9126fc5ee7
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: 7e7e8c3cd5f3ffded3387deb896df18d5b2ec705
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67032793"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586879"
 ---
 # <a name="install-and-use-visual-studio-for-mac-behind-a-firewall-or-proxy-server"></a>방화벽 또는 프록시 서버 뒤에 Mac용 Visual Studio 설치 및 사용
 
 사용자 또는 사용자 조직에서 방화벽 또는 프록시 서버와 같은 보안 조치를 사용하는 경우, Mac용 Visual Studio와 Azure 서비스를 설치 및 사용할 때 최상의 경험을 얻을 수 있도록 특정 도메인을 “허용 목록”에 추가하고 특정 포트와 프로토콜을 여는 것이 좋습니다.
-
 
 - [**Mac용 Visual Studio 설치**](#install-visual-studio-for-mac): 이 표에는 Mac용 Visual Studio의 모든 기능과 워크로드에 액세스할 수 있도록 연결을 허용해야 하는 도메인이 나와 있습니다.
 

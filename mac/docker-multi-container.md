@@ -1,15 +1,15 @@
 ---
 title: 자습서 - Docker Compose를 사용하여 다중 컨테이너 앱 만들기
 description: Mac용 Visual Studio에서 둘 이상의 컨테이너를 관리하고 컨테이너 간에 통신하는 방법을 알아봅니다.
-author: bytesguy
-ms.author: adhartle
+author: asb3993
+ms.author: amburns
 ms.date: 06/17/2019
-ms.openlocfilehash: df130e86de7f35c43459a70a12c0e9cfafbbe3a4
-ms.sourcegitcommit: fd5a5b057df3d733f5224c305096907989811f85
+ms.openlocfilehash: 7570788b50a83d9a74657408d4f38fbce21bd1c3
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67196108"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67691717"
 ---
 # <a name="create-a-multi-container-app-with-docker-compose"></a>Docker Compose를 사용하여 다중 컨테이너 앱 만들기
 
@@ -82,14 +82,14 @@ services:
    ```
 
 1. *Index.cshtml* 파일에 `ViewData["Message"]`를 표시할 줄을 추가하여 파일이 다음 코드와 같이 표시되도록 합니다.
-    
+
       ```cshtml
       @page
       @model IndexModel
       @{
           ViewData["Title"] = "Home page";
       }
-    
+
       <div class="text-center">
           <h1 class="display-4">Welcome</h1>
           <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
@@ -98,7 +98,7 @@ services:
       ```
 
 1. 이제 Web API 프로젝트의 값 컨트롤러에 코드를 추가하여 *webfrontend*에서 추가한 호출에 대해 API에서 반환되는 메시지를 사용자 지정합니다.
-    
+
       ```csharp
         // GET api/values/5
         [HttpGet("{id}")]
@@ -107,6 +107,7 @@ services:
             return "webapi (with value " + id + ")";
         }
       ```
+
 1. `docker-compose` 프로젝트를 시작 프로젝트로 설정하고 **실행 > 디버깅 시작**으로 이동합니다. 모두 제대로 구성된 경우 “Hello from webfrontend and webapi (with value 1).” 메시지가 표시됩니다.
 
 ![Docker 다중 컨테이너 솔루션 실행](media/docker-multicontainer-debug.png)

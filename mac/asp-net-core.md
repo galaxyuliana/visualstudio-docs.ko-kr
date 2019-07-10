@@ -1,17 +1,17 @@
 ---
 title: ASP.NET Core 시작
 description: 이 문서에서는 설치 및 새 프로젝트 만들기를 포함하여 Mac용 Visual Studio에서 ASP.NET을 시작하는 방법을 설명합니다.
-author: conceptdev
-ms.author: crdun
+author: sayedihashimi
+ms.author: sayedha
 ms.date: 04/02/2019
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
-ms.openlocfilehash: 53fd740d8a32954de566ab7d383004e4f503ca2c
-ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
+ms.openlocfilehash: 9dcd1b65e9d8ea60f082304b4f84a7108efb99a6
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67258905"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692940"
 ---
 # <a name="getting-started-with-aspnet-core"></a>ASP.NET Core 시작
 

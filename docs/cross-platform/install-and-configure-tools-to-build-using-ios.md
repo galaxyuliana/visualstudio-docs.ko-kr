@@ -12,12 +12,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: 06449d299fdfd54bdb2526d16897e815900a9c1c
-ms.sourcegitcommit: 77b4ca625674658d5c5766e684fa0e2a07cad4da
+ms.openlocfilehash: 411ab7f097a82fa850e3850c662d378f51ffd548
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "65614444"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586815"
 ---
 # <a name="install-and-configure-tools-to-build-using-ios"></a>iOS를 사용하여 빌드할 도구 설치 및 구성
 
@@ -66,7 +66,6 @@ iOS를 사용하여 빌드하는 도구를 설치한 경우 Visual Studio 및 Ma
 
    Mac에 Node.js 버전 8.11.3을 설치합니다. Node.js 패키지를 설치하는 경우 npm 버전 5.6.0과 함께 제공되어야 합니다. 다른 버전의 Node.js 및 npm은 원격 에이전트 vcremote에 사용된 일부 모듈을 지원하지 않을 수 있으므로 vcremote 설치가 실패할 수 있습니다.
 
-
 ## <a name="Install"></a> iOS용 원격 에이전트 설치
 
 플랫폼 간 모바일 개발용 Visual C++를 설치하는 경우 Visual Studio는 Mac에서 실행되는 원격 에이전트인 [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988)와 통신하여 파일을 전송하고, iOS 앱을 빌드 및 실행하고, 디버깅 명령을 보낼 수 있습니다.
@@ -79,7 +78,7 @@ iOS를 사용하여 빌드하는 도구를 설치한 경우 Visual Studio 및 Ma
 
    `sudo npm install -g --unsafe-perm vcremote`
 
-   전역 설치(**-g**) 스위치는 사용하는 것이 좋지만 반드시 사용할 필요는 없습니다.
+   전역 설치( **-g**) 스위치는 사용하는 것이 좋지만 반드시 사용할 필요는 없습니다.
 
    설치하는 동안 vcremote가 설치되고 Mac에서 개발자 모드가 활성화됩니다. [Homebrew](https://brew.sh/) 및 vcremote-lib 및 vcremote-utils의 두 npm 패키지도 설치됩니다. 설치가 완료되면 건너뛴 선택적 종속성에 대한 경고를 무시해도 안전합니다.
 
@@ -142,7 +141,7 @@ Visual Studio에서 원격 에이전트에 연결하려면 Visual Studio 옵션�
 
 1. Visual Studio 메뉴 모음에서 **도구**, **옵션**을 차례로 선택합니다.
 
-1. **옵션** 대화 상자에서 **플랫폼 간**, **C++**, **iOS**를 확장합니다.
+1. **옵션** 대화 상자에서 **플랫폼 간**, **C++** , **iOS**를 확장합니다.
 
 1. **호스트 이름** 및 **포트** 필드에서 시작할 때 원격 에이전트에 의해 지정된 값을 입력합니다. 호스트 이름은 Mac의 DNS 이름 또는 IP 주소일 수 있습니다. 기본 포트는 3030입니다.
 
@@ -159,7 +158,7 @@ Visual Studio에서 원격 에이전트에 연결하려면 Visual Studio 옵션�
 
    연결이 성공하지 못한 경우 [Start the remote agent](#Start)의 단계에 따라 원격 에이전트가 실행되고 있는지 확인합니다. 원격 에이전트 PIN이 생성된 이후 너무 많은 시간이 경과한 경우 Mac에서 [Generate a new security PIN](#GeneratePIN) 의 단계를 따른 후 다시 시도합니다. Mac의 호스트 이름을 사용하는 경우 **호스트 이름** 필드에 대신 IP 주소를 사용하여 시도합니다.
 
-1. **원격 루트** 필드의 폴더 이름을 업데이트하여 Mac의 홈(*~*) 디렉터리에서 원격 에이전트에 사용되는 폴더를 지정합니다. 기본적으로 원격 에이전트는 /Users/`username`/vcremote를 원격 루트로 사용합니다.
+1. **원격 루트** 필드의 폴더 이름을 업데이트하여 Mac의 홈( *~* ) 디렉터리에서 원격 에이전트에 사용되는 폴더를 지정합니다. 기본적으로 원격 에이전트는 /Users/`username`/vcremote를 원격 루트로 사용합니다.
 
 1. **확인** 을 선택하여 원격 연결 설정을 저장합니다.
 
@@ -221,7 +220,7 @@ Visual Studio는 사용할 때마다 동일한 정보를 사용하여 Mac의 원
 
    `vcremote --serverDir directory_path`
 
-   여기서 *directory_path* 는 로그 파일, 빌드 및 서버 인증서를 배치할 Mac의 위치입니다. 기본적으로 이 위치는 /Users/*/Users/\<사용자 이름>/vcremote*입니다. 빌드는 이 위치에 빌드 번호를 기준으로 구성됩니다.
+   여기서 *directory_path* 는 로그 파일, 빌드 및 서버 인증서를 배치할 Mac의 위치입니다. 기본적으로 이 위치는 /Users/ */Users/\<사용자 이름>/vcremote*입니다. 빌드는 이 위치에 빌드 번호를 기준으로 구성됩니다.
 
 - 백그라운드 프로세스를 사용하여 `stdout` 및 `stderr` 을 server.log라는 파일에 캡처하려면 다음을 입력합니다.
 

@@ -8,12 +8,12 @@ helpviewer_keywords:
 author: angelosp
 ms.author: angelpe
 manager: jillfra
-ms.openlocfilehash: 0ec16c23a3ed16f555bb1a3af952b422f4aceb35
-ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
+ms.openlocfilehash: a36ca2535785f72756ad66a69c2ebe4d7d5a373b
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "67309791"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67587021"
 ---
 # <a name="file-nesting-in-solution-explorer"></a>솔루션 탐색기에서 파일 중첩
 
@@ -110,7 +110,8 @@ ms.locfileid: "67309791"
 > [!NOTE]
 > - `pathSegment` 규칙에 대해 특정 파일 확장명을 지정하지 않으면, 모든 파일 확장명에 적용됩니다. 즉, 다른 파일과 동일한 이름 및 확장명과 중간에 추가 확장명이 붙은 파일은 모두 다른 파일 아래에 중첩됩니다.
 > - 다음 방법으로 지정하면 `pathSegment` 규칙의 효과를 특정 파일 확장명으로 제한할 수 있습니다.
->    ```
+>
+>    ```json
 >    "pathSegment": {
 >       "add": {
 >         ".*": [

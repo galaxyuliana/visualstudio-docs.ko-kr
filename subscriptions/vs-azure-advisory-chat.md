@@ -7,12 +7,12 @@ ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Azure Advisory Chat 이점을 활용하는 방법에 대해 알아봅니다.
 searchscope: VS Subscription
-ms.openlocfilehash: c5d547062fa820ff868fe12f8cb899d9d1e508b8
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: 329aa109349a8f97e64cc478b7e843ca4d7b24e3
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67033183"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586973"
 ---
 # <a name="azure-advisory-chat"></a>Azure Advisory Chat
 
@@ -42,7 +42,6 @@ Azure Advisory Chat을 사용하는 것은 간단합니다.
 | Visual Studio Professional(표준, 월간 클라우드) Visual Studio Enterprise(월간 클라우드, NFR<sup>1</sup>) |        모두        | 사용할 수 없음 |     아니요     |
 |                                          Visual Studio Test Professional(표준)                                          |        모두        | 사용할 수 없음 |     아니요     |
 |                                                  MSDN 플랫폼(표준)                                                   |        모두        | 사용할 수 없음 |     아니요     |
-
 
 <sup>1</sup> 포함:  ‘NFR(전매금지), MVP(Most Valuable Professional), RD(Regional Director), VSIP(Visual Studio Industry Partner), BizSpark, Imagine, MCT’
 

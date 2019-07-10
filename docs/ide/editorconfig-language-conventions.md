@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 2dcd0af308da3f16af461dd4b61aae3e31af0236
-ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
+ms.openlocfilehash: 90c080b62be8f3aba128b26aafe9d2b6e30446f5
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67262806"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586790"
 ---
 # <a name="language-conventions"></a>언어 규칙
 
@@ -970,7 +970,7 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
    - csharp\_style\_pattern\_local\_over\_anonymous_function
 - ["Null" 검사 기본 설정](#null-checking-preferences)
    - csharp\_style\_throw_expression
-    - csharp\_style\_conditional\_delegate_call
+   - csharp\_style\_conditional\_delegate_call
 - [코드 블록 기본 설정](#code-block-preferences)
    - csharp\_prefer_braces
 
