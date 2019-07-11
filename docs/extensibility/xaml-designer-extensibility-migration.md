@@ -1,17 +1,20 @@
 ---
 title: XAML 디자이너 확장성 마이그레이션
-ms.date: 04/17/2019
+ms.date: 07/09/2019
 ms.topic: conceptual
 author: lutzroeder
 ms.author: lutzr
 manager: jillfra
+dev_langs:
+- csharp
+- vb
 monikerRange: vs-2019
-ms.openlocfilehash: f83c40a67dc36301816b2384242d790a9f776044
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 52bc8a6a0097d255891f4b6111a27bff85091bec
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63447361"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67784486"
 ---
 # <a name="xaml-designer-extensibility-migration"></a>XAML 디자이너 확장성 마이그레이션
 
@@ -44,7 +47,7 @@ Visual Studio 2019 공개 미리 보기로 16.1 버전부터 XAML 디자이너�
 
 실제 컨트롤 라이브러리에 의존 하는 확장에 대 한 노출 격리 확장성 모델을 허용 하지 않습니다 하 고 확장 컨트롤 라이브러리에서 형식을 참조할 수 없습니다 따라서 키를 누릅니다. 예를 들어 *MyLibrary.designtools.dll* 대 한 종속성이 없어야 *MyLibrary.dll*합니다.
 
-이러한 종속성 특성 테이블을 통해 형식에 대 한 메타 데이터를 등록 하는 경우 가장 많았습니다. 컨트롤 라이브러리를 참조 하는 확장 코드를 통해 직접 형식 [typeof](/dotnet/csharp/language-reference/keywords/typeof) 문자열 기반 형식 이름을 사용 하 여 새 Api에서 대체 됩니다.
+이러한 종속성 특성 테이블을 통해 형식에 대 한 메타 데이터를 등록 하는 경우 가장 많았습니다. 컨트롤 라이브러리를 참조 하는 확장 코드를 통해 직접 형식 [typeof](/dotnet/csharp/language-reference/keywords/typeof) ([GetType](/dotnet/visual-basic/language-reference/operators/gettype-operator) Visual basic에서)은 문자열 기반 형식 이름을 사용 하 여 새 Api에서 대체 됩니다.
 
 ```csharp
 using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
@@ -68,6 +71,27 @@ public class AttributeTableProvider : IProvideAttributeTable
 }
 ```
 
+```vb
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Metadata
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Features
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Model
+
+<Assembly: ProvideMetadata(GetType(AttributeTableProvider))>
+
+Public Class AttributeTableProvider
+    Implements IProvideAttributeTable
+
+    Public ReadOnly Property AttributeTable As AttributeTable Implements IProvideAttributeTable.AttributeTable
+        Get
+            Dim builder As New AttributeTableBuilder
+            builder.AddCustomAttributes("MyLibrary.MyControl", New DescriptionAttribute(Strings.MyControlDescription))
+            builder.AddCustomAttributes("MyLibrary.MyControl", New FeatureAttribute(GetType(MyControlDefaultInitializer)))
+            Return builder.CreateTable()
+        End Get
+    End Property
+End Class
+```
+
 ## <a name="feature-providers-and-model-api"></a>기능 공급자 및 모델 API
 
 기능 공급자 확장 프로그램 어셈블리에서 구현 되 고 Visual Studio 프로세스에 로드 합니다. `FeatureAttribute` 기능 공급자 형식을 사용 하 여 직접 참조는 계속 [typeof](/dotnet/csharp/language-reference/keywords/typeof)합니다.
@@ -84,6 +108,16 @@ TypeDefinition buttonType = ModelFactory.ResolveType(
 if (type != null && buttonType != type.IsSubclassOf(buttonType))
 {
 }
+```
+
+```vb
+Dim type As TypeDefinition = ModelFactory.ResolveType(
+    item.Context, New TypeIdentifier("MyLibrary.MyControl"))
+Dim buttonType As TypeDefinition = ModelFactory.ResolveType(
+    item.Context, New TypeIdentifier("System.Windows.Controls.Button"))
+If type?.IsSubclassOf(buttonType) Then
+
+End If
 ```
 
 Api 노출 격리 확장성 API 집합에서 제거 합니다.
@@ -123,7 +157,7 @@ Api 노출 격리 확장성 API 집합에서 제거 합니다.
 * `ModelService.Find(ModelItem startingItem, Predicate<Type> match)`
 * `ModelItem.ItemType`
 * `ModelProperty.AttachedOwnerType`
-* `ModelProperty.PropertyType
+* `ModelProperty.PropertyType`
 * `FeatureManager.CreateFeatureProviders(Type featureProviderType, Type type)`
 * `FeatureManager.CreateFeatureProviders(Type featureProviderType, Type type, Predicate<Type> match)`
 * `FeatureManager.InitializeFeatures(Type type)`
@@ -140,7 +174,7 @@ Api 노출 격리 확장성 API 집합에서 제거 합니다.
 * `ModelItemDictionary.Remove(object key)`
 * `ModelItemDictionary.TryGetValue(object key, out ModelItem value)`
 
-같은 기본 형식이 알려진 `int`, `string`, 또는 `Thickness` .NET Framework 인스턴스로 모델 API에 전달 될 수 있으며 대상 런타임 프로세스에서 해당 개체로 변환 됩니다. 예를 들어:
+같은 기본 형식이 알려진 `Int32`, `String`, 또는 `Thickness` .NET Framework 인스턴스로 모델 API에 전달 될 수 있으며 대상 런타임 프로세스에서 해당 개체로 변환 됩니다. 예:
 
 ```csharp
 using Microsoft.VisualStudio.DesignTools.Extensibility.Features;
@@ -154,6 +188,20 @@ public class MyControlDefaultInitializer : DefaultInitializer
     base.InitializeDefaults(item);
   }
 }
+```
+
+```vb
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Features
+Imports Microsoft.VisualStudio.DesignTools.Extensibility.Model
+
+Public Class MyControlDefaultInitializer
+    Inherits DefaultInitializer
+
+    Public Overrides Sub InitializeDefaults(item As ModelItem)
+        item.Properties!Width.SetValue(800.0)
+        MyBase.InitializeDefaults(item)
+    End Sub
+End Class
 ```
 
 ## <a name="limited-support-for-designdll-extensions"></a>제한적으로 지원 합니다. design.dll 확장
