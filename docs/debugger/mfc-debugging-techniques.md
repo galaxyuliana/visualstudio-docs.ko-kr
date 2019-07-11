@@ -25,12 +25,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: be4cd6555e358be763a8837444332affced44a94
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3f2cd5345de8dfe62e56722a8e36713c6062b3cb
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62905446"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67693040"
 ---
 # <a name="mfc-debugging-techniques"></a>MFC 디버깅 기술
 다음은 MFC 프로그램을 디버깅하는 데 유용한 디버깅 기술입니다.
@@ -97,7 +97,7 @@ TRACE( "x = %d and y = %d\n", x, y );
 TRACE( "x = %d and y = %x and z = %f\n", x, y, z );
 ```
 
-TRACE 매크로는 char* 및 wchar_t\* 매개 변수를 적절히 처리합니다. 다음 예제에서는 TRACE 매크로와 다른 형식의 문자열 매개 변수를 함께 사용하는 방법을 보여 줍니다.
+TRACE 매크로 char 모두를 적절히 처리\* wchar_t 및\* 매개 변수입니다. 다음 예제에서는 TRACE 매크로와 다른 형식의 문자열 매개 변수를 함께 사용하는 방법을 보여 줍니다.
 
 ```cpp
 TRACE( "This is a test of the TRACE macro that uses an ANSI string: %s %d\n", "The number is:", 2);
