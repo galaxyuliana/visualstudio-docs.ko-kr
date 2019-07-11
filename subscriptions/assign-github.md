@@ -7,12 +7,12 @@ ms.date: 04/23/2019
 ms.topic: conceptual
 description: Visual Studio + GitHub 번들에서 구독 관리
 searchscope: VS Subscription
-ms.openlocfilehash: a775317029db1a2be3b01411955ae197c7df6873
-ms.sourcegitcommit: bd519d1da375e374016f94a44c295d3253f61a8c
+ms.openlocfilehash: adc06dd13579697d6aa74158f980cd873ea661fe
+ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "64945242"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67586851"
 ---
 # <a name="managing-visual-studio-subscriptions-with-github-enterprise"></a>GitHub Enterprise가 포함된 Visual Studio 구독 관리
 
@@ -44,9 +44,9 @@ GitHub Enterprise 구독을 구매할 때 GitHub에 액세스하고 관리자를
 
 GitHub는 클라우드 기반 GitHub.com 또는 온-프레미스 GitHub Enterprise 서버로 사용할 수 있습니다.  두 버전을 관리하는 프로세스가 다릅니다.  GitHub는 GitHub Enterprise 구독을 관리하는 데 도움이 되는 다양한 도움말 항목과 관리자 가이드를 제공합니다.  아래 선택한 항목의 링크를 제공했습니다.  
 
-### <a name="githubspanspancom"></a>GitHub<span></span>.com 
+### <a name="githubcom"></a>GitHub.com 
 
-GitHub<span></span>.com 관리에 대한 자세한 내용은 [GitHub 도움말](https://help.github.com/en)에서 다음 항목을 체크 아웃하세요.
+GitHub.com 관리에 대한 자세한 내용은 [GitHub 도움말](https://help.github.com/en)에서 다음 항목을 체크 아웃하세요.
 - [도움말 항목의 전체 목록](https://help.github.com/en)
 - [조직의 멤버 자격 관리](https://help.github.com/en/articles/managing-membership-in-your-organization)
 > - [조직에 조인하도록 사용자 초대](https://help.github.com/en/articles/inviting-users-to-join-your-organization)
@@ -70,13 +70,14 @@ GitHub 도움말은 질문에 답하고 조직의 GitHub Enterprise 서버 구�
 > - [사용자 보안](https://help.github.com/en/enterprise/2.16/admin/user-management/user-security)
 - [GitHub Enterprise 서버 설치 및 구성](https://help.github.com/en/enterprise/2.16/admin/installation)
 
-
 ## <a name="support-resources"></a>지원 리소스
--  [GitHub 도움말](https://help.github.com/en)에서 다양한 GitHub 항목에 대한 질문의 답을 찾을 수 있습니다.
--  [GitHub 커뮤니티 포럼](https://github.community/)에서 다른 GitHub 사용자의 도움을 받으세요.
--  Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
--  Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
--  GitHub Enterprise에 대한 [기술 지원](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24)을 받으세요.   
+
+- [GitHub 도움말](https://help.github.com/en)에서 다양한 GitHub 항목에 대한 질문의 답을 찾을 수 있습니다.
+- [GitHub 커뮤니티 포럼](https://github.community/)에서 다른 GitHub 사용자의 도움을 받으세요.
+- Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
+- Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+- GitHub Enterprise에 대한 [기술 지원](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24)을 받으세요.   
 
 ## <a name="next-steps"></a>다음 단계
+
 GitHub Enterprise가 포함된 Visual Studio Subscriptions를 관리하는 방법에 대한 자세한 내용은 Visual Studio [구독 관리자 포털](https://visualstudio.microsoft.com/subscriptions-administration/)을 참조하세요.

@@ -11,16 +11,26 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: d54ac2d7f58f7b5be768e1f431a53d83f5f8fe94
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1d14a02c70c0e4496c482940237054027e152a70
+ms.sourcegitcommit: c7b9ab1bc19d74b635c19b1937e92c590dafd736
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62943519"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67552856"
 ---
 # <a name="advanced-example-for-containers"></a>컨테이너에 대한 고급 예제
 
-[컨테이너에 빌드 도구 설치](build-tools-container.md)에서 샘플 Dockerfile은 항상 최신 microsoft/windowsservercore 이미지와 최신 Visual Studio Build Tools 설치 관리자를 기반으로 하는 [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) 이미지를 사용합니다. 이 이미지를 다른 사용자가 풀할 수 있는 [Docker 레지스트리](https://azure.microsoft.com/services/container-registry)에 게시할 경우 많은 시나리오에 괜찮을 수 있습니다. 그러나 실제로 사용하는 기본 이미지, 다운로드하는 바이너리, 그리고 설치하는 도구 버전에 대해 더 구체적인 것이 일반적입니다.
+::: moniker range="vs-2017"
+
+[컨테이너에 빌드 도구 설치](build-tools-container.md)에서 샘플 Dockerfile은 항상 최신 microsoft/windowsservercore 이미지와 최신 Visual Studio Build Tools 설치 관리자를 기반으로 하는 [microsoft/dotnet-framework:4.7.2](https://hub.docker.com/r/microsoft/dotnet-framework) 이미지를 사용합니다. 이 이미지를 다른 사용자가 풀할 수 있는 [Docker 레지스트리](https://azure.microsoft.com/services/container-registry)에 게시할 경우 많은 시나리오에 괜찮을 수 있습니다. 그러나 실제로 사용하는 기본 이미지, 다운로드하는 바이너리, 그리고 설치하는 도구 버전에 대해 더 구체적인 것이 일반적입니다.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+[컨테이너에 빌드 도구 설치](build-tools-container.md)에서 샘플 Dockerfile은 항상 최신 microsoft/windowsservercore 이미지와 최신 Visual Studio Build Tools 설치 관리자를 기반으로 하는 [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) 이미지를 사용합니다. 이 이미지를 다른 사용자가 풀할 수 있는 [Docker 레지스트리](https://azure.microsoft.com/services/container-registry)에 게시할 경우 많은 시나리오에 괜찮을 수 있습니다. 그러나 실제로 사용하는 기본 이미지, 다운로드하는 바이너리, 그리고 설치하는 도구 버전에 대해 더 구체적인 것이 일반적입니다.
+
+::: moniker-end
 
 다음 예제의 Dockerfile은 microsoft/dotnet-framework 이미지의 특정 버전 태그를 사용합니다. 기본 이미지에 특정 태그를 사용하는 것이 일반적이며 이미지를 빌드 또는 다시 빌드할 때 항상 동일한 근거가 있다는 점을 기억하는 것이 쉽습니다.
 
@@ -60,8 +70,8 @@ if "%ERRORLEVEL%"=="3010" (
 # escape=`
 
 # Use a specific tagged image. Tags can be changed, though that is unlikely for most images.
-# You could also use the immutable tag @sha256:1a66e2b5f3a5b8b98ac703a8bfd4902ae60d307ed9842978df40dbc04ac86b1b
-ARG FROM_IMAGE=microsoft/dotnet-framework:4.7.1-20180410-windowsservercore-1709
+# You could also use the immutable tag @sha256:3eaa3ba18f45e6561f32d8dd927045413f1dd043d7d29fb581f5cb3c6f7d7481
+ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/sdk:4.7.2-windowsservercore-ltsc2019
 FROM ${FROM_IMAGE}
 
 # Copy our Install script.
@@ -106,8 +116,8 @@ CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
 # escape=`
 
 # Use a specific tagged image. Tags can be changed, though that is unlikely for most images.
-# You could also use the immutable tag @sha256:1a66e2b5f3a5b8b98ac703a8bfd4902ae60d307ed9842978df40dbc04ac86b1b
-ARG FROM_IMAGE=microsoft/dotnet-framework:4.7.1-20180410-windowsservercore-1709
+# You could also use the immutable tag @sha256:324e9ab7262331ebb16a4100d0fb1cfb804395a766e3bb1806c62989d1fc1326
+ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
 FROM ${FROM_IMAGE}
 
 # Copy our Install script.
@@ -193,15 +203,16 @@ Step 8/10 : RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --n
 The command 'cmd /S /C C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe ...' returned a non-zero code: 1603
 
 > docker cp 4b62b4ce3a3c:C:\vslogs.zip "%TEMP%\vslogs.zip"
+```
 
 ::: moniker-end
 
-After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine, or submit an issue on the [Developer Community](https://developercommunity.visualstudio.com) website.
+마지막 줄의 실행이 끝나면 머신에서 "%TEMP%\vslogs.zip"을 열거나 [개발자 커뮤니티](https://developercommunity.visualstudio.com) 웹 사이트에서 문제를 제출합니다.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-## See also
+## <a name="see-also"></a>참고 항목
 
-* [Install Build Tools into a Container](build-tools-container.md)
-* [Known Issues for Containers](build-tools-container-issues.md)
-* [Visual Studio Build Tools workload and component IDs](workload-component-id-vs-build-tools.md)
+* [Build Tools를 컨테이너에 설치](build-tools-container.md)
+* [알려진 컨테이너 관련 문제](build-tools-container-issues.md)
+* [Visual Studio Build Tools 워크로드 및 구성 요소 ID](workload-component-id-vs-build-tools.md)

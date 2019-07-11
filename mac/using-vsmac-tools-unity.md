@@ -3,14 +3,14 @@ title: Mac용 Visual Studio Tools for Unity 사용
 description: 이 가이드에서는 Mac용 Visual Studio Tools for Unity 확장을 사용하는 방법을 설명합니다.
 author: therealjohn
 ms.author: johmil
-ms.date: 04/02/2019
+ms.date: 06/18/2019
 ms.assetid: 83FDD7A3-5D16-4B4B-9080-078E3FB5C623
-ms.openlocfilehash: 56050de063dcbc86bfa469ee9f466a8e87bba973
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: daffb7721164ae49888a894bec7cad3ac74801a4
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62966021"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692214"
 ---
 # <a name="using-visual-studio-for-mac-tools-for-unity"></a>Mac용 Visual Studio Tools for Unity 사용
 
@@ -61,7 +61,7 @@ Unity 엔진은 MonoBehaviour 스크립트에 메시지를 전송하므로 개�
 
 ## <a name="adding-new-unity-files-and-folders"></a>새 Unity 파일 및 폴더 추가
 
-언제든지 Unity 편집기에서 Unity 프로젝트에 새 파일을 추가할 수 있지만, Mac용 Visual Studio를 사용하면 Visual Studio 내에서 Unity 스크립트, 셰이더 및 폴더를 손쉽게 새로 만들 수 있습니다.
+언제든지 Unity 편집기에서 Unity 프로젝트에 새 파일을 추가할 수 있지만, Mac용 Visual Studio를 사용하면 Visual Studio 내에서 Unity 스크립트, 셰이더, 구조체, 열거형 및 폴더를 손쉽게 새로 만들 수 있습니다.
 
 ### <a name="add-a-new-c-monobehaviour-script"></a>새 C# MonoBehaviour 스크립트 추가
 
