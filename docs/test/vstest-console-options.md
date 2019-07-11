@@ -10,12 +10,12 @@ author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8bf4cea6dcd87b8cf0d2113ac3a245163ba89080
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: eef81a2075f05acf8ea6ab8b42f77797425a3abd
+ms.sourcegitcommit: 74c5360186731de07828764eb32ea1033a8c2275
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66746911"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559608"
 ---
 # <a name="vstestconsoleexe-command-line-options"></a>VSTest.Console.exe 명령줄 옵션
 
@@ -44,7 +44,7 @@ ms.locfileid: "66746911"
 |**/Framework: [*프레임워크 버전*]**|테스트 실행에 사용될 .NET 버전을 대상 지정합니다.<br />올바른 값은 Framework35, Framework40, Framework45 및 FrameworkUap10입니다.<br />대상 프레임워크가 **Framework35**로 지정된 경우 테스트가 CLR 4.0 “호환 가능 모드”에서 실행됩니다.<br />예: `/Framework:framework40`|
 |**/TestCaseFilter:[*식*]**|지정된 식과 일치하는 테스트를 실행합니다.<br /><Expression\>은 <property\>=<value\>[\|<Expression\>] 형식입니다.<br />예: `/TestCaseFilter:"Priority=1"`<br />예: `/TestCaseFilter:"TestCategory=Nightly|FullyQualifiedName=Namespace.ClassName.MethodName"`<br />**/TestCaseFilter** 명령줄 옵션은 **/Tests** 명령줄 옵션과 함께 사용할 수 없습니다. <br />식 만들기 및 사용에 대한 정보는 [TestCase 필터](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md)를 참조하세요.|
 |**/?**|사용법 정보를 표시합니다.|
-|**/Logger:[*uri/friendlyname*]**|테스트 결과에 대해 로거를 지정합니다.<br />예제: Visual Studio 테스트 결과 파일(TRX)에 결과를 기록하려면 **/Logger:trx**를 사용합니다.<br />예제: Team Foundation Server에 테스트 결과를 게시하려면 TfsPublisher를 사용합니다.<br />**/logger:TfsPublisher;**<br />**Collection=<프로젝트 url\>;**<br />**BuildName=<빌드 이름\>;**<br />**TeamProject=<프로젝트 이름\>;**<br />**[;Platform=<기본값은 “Any CPU”>]**<br />**[;Flavor=<기본값은 “Debug”>]**<br />**[;RunTitle=<제목\>]**|
+|**/Logger:[*uri/friendlyname*]**|테스트 결과에 대해 로거를 지정합니다.<br />예제: Visual Studio 테스트 결과 파일(TRX)에 결과를 기록하려면 **/Logger:trx**를 사용합니다.<br />예제: Team Foundation Server에 테스트 결과를 게시하려면 TfsPublisher를 사용합니다.<br />**/logger:TfsPublisher;**<br />**Collection=<프로젝트 url\>;**<br />**BuildName=<빌드 이름\>;**<br />**TeamProject=<프로젝트 이름\>;**<br />**[;Platform=\<기본값은 "Any CPU">]**<br />**[;Flavor=\<기본값은 "Debug">]**<br />**[;RunTitle=<제목\>]**|
 |**/ListTests:[*파일 이름*]**|지정된 테스트 컨테이너에서 검색된 테스트를 나열합니다.|
 |**/ListDiscoverers**|설치된 테스트 Discoverer를 나열합니다.|
 |**/ListExecutors**|설치된 테스트 Executor를 나열합니다.|

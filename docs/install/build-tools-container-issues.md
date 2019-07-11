@@ -12,12 +12,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 21486fb42f689fbdd5876353a0d99b8f818cf817
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9953a1c58ea6ddd13ca0555959ed621905ba710a
+ms.sourcegitcommit: c7b9ab1bc19d74b635c19b1937e92c590dafd736
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62974412"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67552880"
 ---
 # <a name="known-issues-for-containers"></a>컨테이너에 대한 알려진 문제
 
@@ -44,15 +44,16 @@ Visual Studio를 Docker 컨테이너에 설치하는 데 몇 가지 문제가 �
 
 ::: moniker range="vs-2017"
 
-* mcr.microsoft.com/windows/servercore:1809 이상에는 Visual Studio 2017 버전 15.8 또는 이전 버전(모든 제품)을 설치할 수 없습니다. 자세한 내용은 https://aka.ms/setup/containers/servercore1809를 참조하세요.
+* mcr.microsoft.com/windows/servercore:1809 이상에는 Visual Studio 2017 버전 15.8 또는 이전 버전(모든 제품)을 설치할 수 없습니다. 자세한 내용은 https://aka.ms/setup/containers/servercore1809 를 참조하세요.
 
 ::: moniker-end
 
 ## <a name="build-tools-container"></a>빌드 도구 컨테이너
 
-빌드 도구 컨테이너를 사용하는 경우 다음과 같은 알려진 문제가 발생할 수 있습니다. 문제가 해결되었는지 또는 다른 알려진 문제가 있는지 확인하려면 [https://developercommunity.visualstudio.com](https://developercommunity.visualstudio.com)에 방문하세요.
+빌드 도구 컨테이너를 사용하는 경우 다음과 같은 알려진 문제가 발생할 수 있습니다. 문제가 해결되었는지 또는 다른 알려진 문제가 있는지 확인하려면 [https://developercommunity.visualstudio.com](https://developercommunity.visualstudio.com )에 방문하세요.
 
 * IntelliTrace는 컨테이너 내의 [일부 시나리오](https://github.com/Microsoft/vstest/issues/940)에서 작동하지 않을 수 있습니다.
+* 이전 버전의 Windows용 Docker에서는 기본 컨테이너 이미지가 20GB 뿐이므로 빌드 도구에 맞지 않습니다. [이미지 크기 변경 지침](https://docs.microsoft.com/virtualization/windowscontainers/manage-containers/container-storage#image-size)에 따라 127GB 이상으로 확장하세요.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

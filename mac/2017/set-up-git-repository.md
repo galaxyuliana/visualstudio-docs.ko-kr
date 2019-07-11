@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 02/15/2018
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
-ms.openlocfilehash: ca216f3f2a65e1c17e2ab8cc1ca17f6f707afb79
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a5a6dd04cd080f57d6a6ba97b3696b0351a0a8aa
+ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62989421"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "67692990"
 ---
 # <a name="set-up-a-git-repository"></a>Git 리포지토리 설정
 
@@ -81,7 +81,7 @@ Git 리포지토리를 설정하려면 다음 단계를 수행하세요.
 
     ![버전 제어 메뉴](media/version-control-git10.png)
 
-10. 추가적인 변경 작업을 시작한 경우,  **변경 내용 푸시** 를 선택하여 변경 내용을  **원격**  리포지토리로 푸시합니다. 이렇게 하면 github.com에서 해당하는 모든 사용자가 변경 사항을 볼 수 있습니다.
+10. 추가적인 변경 작업을 시작한 경우, **변경 내용 푸시...** 를 선택하여 변경 내용을 **원격** 리포지토리로 푸시합니다. 이렇게 하면 github.com에서 해당하는 모든 사용자가 변경 사항을 볼 수 있습니다.
 
     ![원격 리포지토리에 변경 사항 푸시](media/version-control-git11.png)
 

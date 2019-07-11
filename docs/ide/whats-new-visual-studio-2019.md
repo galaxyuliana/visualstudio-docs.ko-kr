@@ -2,7 +2,7 @@
 title: Visual Studio 2019의 새로운 기능
 titleSuffix: ''
 description: Visual Studio 2019의 새로운 기능을 알아보세요.
-ms.date: 05/22/2019
+ms.date: 06/29/2019
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -15,12 +15,12 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 7df082d8cf67a5c0eb4c6ecd5c017480c63a6b27
-ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.openlocfilehash: 6b5387fa61686d85e02c200a0a50cffa9e5aa155
+ms.sourcegitcommit: c7b9ab1bc19d74b635c19b1937e92c590dafd736
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "67328824"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67552872"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Visual Studio 2019의 새로운 기능
 
@@ -41,8 +41,8 @@ Visual Studio 2019를 사용하면 모든 개발자, 앱 및 플랫폼을 위한
 
 ## <a name="develop"></a>개발
 
-새로운 기능을 사용하여 시간을 절약할 수 있습니다.
-<br><br>
+새로운 기능을 사용하여 시간을 절약하는 방법에 대해 자세히 알아보려면 다음 비디오를 보세요. <br><br>*비디오 길이: 3.00분*
+
 > [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
 
 ### <a name="improved-search"></a>향상된 검색
@@ -104,8 +104,8 @@ Visual Studio 2019 릴리스부터 Visual Studio를 PMA(모니터별 인식) 애
 
 ## <a name="collaborate"></a>공동 작업
 
-협력하여 문제를 해결합니다.
-<br><br>
+협력하여 문제를 해결하는 방법에 대한 자세한 내용을 보려면 다음 비디오를 보세요. <br><br>*비디오 길이: 4.22분*
+
 > [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
 ### <a name="cloud-first-workflow"></a>클라우드 우선 워크플로
@@ -142,8 +142,8 @@ Visual Studio 2019를 열면 새 시작 창이 표시됩니다.
 
 ## <a name="debug"></a>디버그
 
-정확한 대상을 지정하여 집중합니다.
-<br><br>
+디버그하는 동안 정확한 대상 지정으로 목표를 달성하는 방법에 대한 자세한 내용을 보려면 다음 비디오를 보세요. <br><br>*비디오 길이: 3.54분*
+
 > [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
 
 ### <a name="performance-gains"></a>성능 효과
