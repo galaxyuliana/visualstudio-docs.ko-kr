@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1d8f5251f61b8c513c58f5165fbaecbb9d5f00f3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437288"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64814086"
 ---
 # <a name="idiasymbolgetobjectpointertype"></a>IDiaSymbol::get_objectPointerType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,6 +46,6 @@ HRESULT get_objectPointerType ( 
 ## <a name="remarks"></a>설명  
  이 속성은 사용 하 여 기호에만 적용 됩니다는 [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md) 유형의 `SymTagFunctionType`합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [SymTagEnum 열거형](../../debugger/debug-interface-access/symtagenum.md)

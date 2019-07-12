@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 6b6cf1e800c785f73ebb11e09f11b617fe42aa32
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: eccab4b899f3af22d54952d4eb9e8f990932afa4
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62981086"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825212"
 ---
 # <a name="walkthrough-simple-data-binding-in-vsto-add-in-project"></a>연습: VSTO 추가 기능 프로젝트의 단순 데이터 바인딩
 
@@ -47,9 +47,9 @@ VSTO 추가 기능 프로젝트에서 호스트 컨트롤 및 Windows Forms 컨�
 
 - `AdventureWorksLT` 샘플 데이터베이스가 연결된 SQL Server 2005 또는 SQL Server 2005 Express의 실행 중인 인스턴스 액세스 권한 다운로드할 수 있습니다 합니다 `AdventureWorksLT` 에서 데이터베이스를 [CodePlex 웹 사이트](http://go.microsoft.com/fwlink/?LinkId=115611)합니다. 데이터베이스 연결에 대한 자세한 내용은 다음 항목을 참조하세요.
 
-    - SQL Server Management Studio 또는 SQL Server Management Studio Express를 사용 하 여 데이터베이스를 연결 하려면 참조 [방법: 데이터베이스 (SQL Server Management Studio) 연결](/sql/relational-databases/databases/attach-a-database)합니다.
+  - SQL Server Management Studio 또는 SQL Server Management Studio Express를 사용 하 여 데이터베이스를 연결 하려면 참조 [방법: 데이터베이스 (SQL Server Management Studio) 연결](/sql/relational-databases/databases/attach-a-database)합니다.
 
-    - 명령줄을 사용 하 여 데이터베이스를 연결, 참조 [방법: SQL Server Express에 데이터베이스 파일을 첨부할](/previous-versions/sql/)합니다.
+  - 명령줄을 사용 하 여 데이터베이스를 연결, 참조 [방법: SQL Server Express에 데이터베이스 파일을 첨부할](/previous-versions/sql/)합니다.
 
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기
 

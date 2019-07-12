@@ -11,12 +11,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4c5713adc98a0b6ed3f57e604e2e1874b3d95f0a
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: ed6e544378089222cb69c491b0cd473544e05220
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65678857"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825661"
 ---
 # <a name="synchronized-settings-in-visual-studio"></a>Visual Studio의 동기화된 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,17 +30,17 @@ ms.locfileid: "65678857"
 
 - **도구 &#124; 옵션** 페이지의 다음 설정:
 
-    - **환경**, **일반** 옵션 페이지의 **테마** 및 메뉴 모음 대/소문자 설정
+  - **환경**, **일반** 옵션 페이지의 **테마** 및 메뉴 모음 대/소문자 설정
 
-    - **환경**, **글꼴 및 색** 옵션 페이지의 모든 설정
+  - **환경**, **글꼴 및 색** 옵션 페이지의 모든 설정
 
-    - **환경**, **키보드** 옵션 페이지의 모든 바로 가기 키
+  - **환경**, **키보드** 옵션 페이지의 모든 바로 가기 키
 
-    - **환경, 탭 및 창** 옵션 페이지의 모든 설정
+  - **환경, 탭 및 창** 옵션 페이지의 모든 설정
 
-    - **환경**, **시작** 옵션 페이지의 모든 설정
+  - **환경**, **시작** 옵션 페이지의 모든 설정
 
-    - **텍스트 편집기** 옵션 페이지의 모든 설정
+  - **텍스트 편집기** 옵션 페이지의 모든 설정
 
 - XAML 디자이너의 옵션 페이지의 모든 설정
 

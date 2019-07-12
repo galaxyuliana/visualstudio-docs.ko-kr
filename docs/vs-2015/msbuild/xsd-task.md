@@ -21,12 +21,12 @@ caps.latest.revision: 16
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 44f25085edcc8b492946d54c7853f8ec32deb0c2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0c9dcc0d09887cacca7e6cdaa2e4f2b719c6451c
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114966"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826240"
 ---
 # <a name="xsd-task"></a>XSD 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,19 +40,19 @@ ms.locfileid: "60114966"
   
      선택적 **문자열** 매개 변수입니다.  
   
-     명령줄에 지정된 것처럼 옵션 목록입니다. 예를 들면 "*/option1 /option2 /option#*"과 같습니다. 이 매개 변수를 사용하여 다른 **XSD** 작업 매개 변수로 표현되지 않는 옵션을 지정합니다.  
+     명령줄에 지정된 것처럼 옵션 목록입니다. 예를 들면 " */option1 /option2 /option#* "과 같습니다. 이 매개 변수를 사용하여 다른 **XSD** 작업 매개 변수로 표현되지 않는 옵션을 지정합니다.  
   
 - **GenerateFromSchema**  
   
-     선택적 **문자열** 매개 변수입니다.  
-  
-     지정한 스키마에서 생성되는 유형을 지정합니다.  
-  
-     각각 XSD 옵션에 해당하는 다음 값 중 하나를 지정합니다.  
-  
-    - **클래스** - **/classes**  
-  
-    - **데이터 세트** - **/dataset**  
+  선택적 **문자열** 매개 변수입니다.  
+
+  지정한 스키마에서 생성되는 유형을 지정합니다.  
+
+  각각 XSD 옵션에 해당하는 다음 값 중 하나를 지정합니다.  
+
+  - **클래스** -  **/classes**  
+
+  - **데이터 세트** -  **/dataset**  
   
 - **언어**  
   

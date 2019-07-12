@@ -11,12 +11,12 @@ caps.latest.revision: 35
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 85fb100e09dd61e836404ecf98f8f7292ff2ee86
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 4108e478e9e77a5ed5699b39dfae44884a6befd3
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60065184"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826171"
 ---
 # <a name="property-functions"></a>속성 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,13 +29,13 @@ ms.locfileid: "60065184"
   
 - [속성 함수 구문](#BKMK_Syntax)  
   
-    - [문자열 속성 함수](#BKMK_String)  
-  
-    - [정적 속성 함수](#BKMK_Static)  
-  
-    - [정적 속성에 대한 인스턴스 메서드 호출](#BKMK_InstanceMethods)  
-  
-    - [MSBuild 속성 함수](#BKMK_PropertyFunctions)  
+  - [문자열 속성 함수](#BKMK_String)  
+
+  - [정적 속성 함수](#BKMK_Static)  
+
+  - [정적 속성에 대한 인스턴스 메서드 호출](#BKMK_InstanceMethods)  
+
+  - [MSBuild 속성 함수](#BKMK_PropertyFunctions)  
   
 - [중첩 속성 함수](#BKMK_Nested)  
   
