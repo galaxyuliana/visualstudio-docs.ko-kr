@@ -23,12 +23,12 @@ caps.latest.revision: 55
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7ebb3108ce7a1ee43d1355494a82cc4aee37dbc7
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: a38d9b354de528797d0044f7b631bd2287c34fb4
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445663"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823558"
 ---
 # <a name="uml-sequence-diagrams-guidelines"></a>UML 시퀀스 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -205,7 +205,7 @@ Visual Studio에서 그릴 수 있습니다는 *시퀀스 다이어그램* 상�
   
 - 표시된 일반적인 시퀀스 대신 수행할 수 있는 대안 또는 예외를 기록합니다. 예를 들어 "고객이 이 시퀀스의 나머지를 건너뛰도록 선택할 수 있습니다."  
   
-    - 이러한 종류의 메모를 대체하는 보다 공식적인 방법으로 조각을 사용하는 것이 좋습니다. 참조 [조각 사용 하 여 제어 구조 설명](#Fragments)  
+  - 이러한 종류의 메모를 대체하는 보다 공식적인 방법으로 조각을 사용하는 것이 좋습니다. 참조 [조각 사용 하 여 제어 구조 설명](#Fragments)  
   
 ## <a name="deciding-the-scope-of-the-diagram"></a>다이어그램의 범위 결정  
  다이어그램에 표시하려는 사항을 명확히 하는 것이 중요합니다.  
@@ -372,13 +372,13 @@ Visual Studio에서 그릴 수 있습니다는 *시퀀스 다이어그램* 상�
   
 - 이동한 다음 클릭 하려는 메시지를 마우스 오른쪽 단추로 클릭 **다이어그램으로 이동**합니다.  
   
-     Visual Studio:  
-  
-    - 선택한 메시지 및 보조 메시지를 상호 작용 사용으로 바꿉니다.  
-  
-    - 바뀐 메시지를 새 시퀀스 다이어그램으로 이동합니다.  
-  
-    - 상호 작용 사용과 새 시퀀스 다이어그램 간에 링크를 만듭니다.  
+  Visual Studio:  
+
+  - 선택한 메시지 및 보조 메시지를 상호 작용 사용으로 바꿉니다.  
+
+  - 바뀐 메시지를 새 시퀀스 다이어그램으로 이동합니다.  
+
+  - 상호 작용 사용과 새 시퀀스 다이어그램 간에 링크를 만듭니다.  
   
 #### <a name="to-navigate-to-the-sequence-referenced-by-an-interaction-use"></a>상호 작용 사용에서 참조하는 시퀀스로 이동하려면  
   

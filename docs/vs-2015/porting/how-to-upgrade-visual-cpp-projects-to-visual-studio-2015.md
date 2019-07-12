@@ -12,12 +12,12 @@ caps.latest.revision: 26
 author: mikeblome
 ms.author: mblome
 manager: jillfra
-ms.openlocfilehash: 022966ae483b958da6032769e219f4ab6750f330
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: c998433ca96c46f6a24b75aec5d3a2a95912b786
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65696424"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823287"
 ---
 # <a name="how-to-upgrade-visual-c-projects-to-visual-studio-2015"></a>방법: Visual C++ 프로젝트를 Visual Studio 2015로 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,12 +36,12 @@ Visual Studio 2017에 대한 최신 설명서는 [Visual C++ 포팅 및 업그�
 
 - [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)],  [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)]또는 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)] 에서 프로젝트(.vcxproj)를 만든 경우 두 가지 옵션이 있습니다.
 
-    - 업데이트를 건너뛸 수 있습니다. [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)]는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1, [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 또는 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]의 Visual C++ 도구에 대한 액세스 권한이 있을 경우 프로젝트를 변경하지 않고 로드합니다. [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)]가 있는 동일한 컴퓨터에서 프로젝트를 만드는 데 사용한 버전의 Visual Studio를 설치하여 이 액세스 권한을 제공할 수 있습니다. 자세한 내용은 [Installing Visual Studio Versions Side-by-Side](../install/install-visual-studio-versions-side-by-side.md)를 참조하세요.
+  - 업데이트를 건너뛸 수 있습니다. [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)]는 [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1, [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 또는 [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)]의 Visual C++ 도구에 대한 액세스 권한이 있을 경우 프로젝트를 변경하지 않고 로드합니다. [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)]가 있는 동일한 컴퓨터에서 프로젝트를 만드는 데 사용한 버전의 Visual Studio를 설치하여 이 액세스 권한을 제공할 수 있습니다. 자세한 내용은 [Installing Visual Studio Versions Side-by-Side](../install/install-visual-studio-versions-side-by-side.md)를 참조하세요.
 
-    - 이 항목의 뒷부분에서 설명하는 사항을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 변경하도록 허용하여 프로젝트를 업데이트할 수 있습니다. 솔루션에 Visual C++ 프로젝트가 두 개 이상 있을 경우 이를 모두 업데이트해야 합니다.
+  - 이 항목의 뒷부분에서 설명하는 사항을 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에서 변경하도록 허용하여 프로젝트를 업데이트할 수 있습니다. 솔루션에 Visual C++ 프로젝트가 두 개 이상 있을 경우 이를 모두 업데이트해야 합니다.
 
-        > [!NOTE]
-        > 프롬프트 메시지가 처음 나타날 때 업데이트를 거부할 경우 **프로젝트** 메뉴에서 **VC++ 프로젝트 업데이트** 를 선택하여 나중에 프로젝트를 업데이트할 수 있습니다. 명령이 나타나지 않으면 업데이트할 필요가 없습니다.
+    > [!NOTE]
+    > 프롬프트 메시지가 처음 나타날 때 업데이트를 거부할 경우 **프로젝트** 메뉴에서 **VC++ 프로젝트 업데이트** 를 선택하여 나중에 프로젝트를 업데이트할 수 있습니다. 명령이 나타나지 않으면 업데이트할 필요가 없습니다.
 
 ## <a name="upgrading-a-visual-c-project"></a>Visual C++ 프로젝트 업그레이드
  [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)] 에서 프로젝트를 자동으로 업데이트하도록 허용할 경우 다음과 같이 변경됩니다.

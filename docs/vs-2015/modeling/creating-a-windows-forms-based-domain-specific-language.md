@@ -9,12 +9,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b733af14e5b5124928c315ae4a87098513714214
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: b93518a6ca5fa6464bf8f2e72f11cfa90b4dd4dd
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433344"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825588"
 ---
 # <a name="creating-a-windows-forms-based-domain-specific-language"></a>Windows Forms 기반 도메인별 언어 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,9 +62,9 @@ DSL 인스턴스를 모델 탐색기 및 Windows 폼 UI를 표시 합니다.
 
 - `UI` 프로젝트는 DSL에 바인딩된 폼 컨트롤의 작업 예제를 포함 합니다. 그러나 DSL 정의 변경한 경우 작동 하지 않습니다. `UI` 프로젝트 포함 되어 있습니다.  
 
-    - 라는 Windows Forms 클래스 `ModelViewControl`합니다.  
+  - 라는 Windows Forms 클래스 `ModelViewControl`합니다.  
 
-    - 라는 파일로 `DataBinding.cs` 의 추가 부분 정의 포함 하는 `ModelViewControl`합니다. 해당 콘텐츠를 볼 **솔루션 탐색기**, 파일에 대 한 바로 가기 메뉴를 열고 선택 **코드 보기**합니다.  
+  - 라는 파일로 `DataBinding.cs` 의 추가 부분 정의 포함 하는 `ModelViewControl`합니다. 해당 콘텐츠를 볼 **솔루션 탐색기**, 파일에 대 한 바로 가기 메뉴를 열고 선택 **코드 보기**합니다.  
 
 ### <a name="about-the-ui-project"></a>UI 프로젝트에 대 한  
  고유한 DSL을 정의 하려면 DSL 정의 파일을 업데이트 하는 경우에 컨트롤을 업데이트 해야 합니다는 `UI` DSL을 표시 하는 프로젝트입니다. 달리 합니다 `Dsl` 하 고 `DslPackage` 프로젝트에 샘플 `UI` 프로젝트에서 생성 되지 않습니다 `DslDefinitionl.dsl`합니다. 이 연습에서는 다루지 않습니다 하지만 원한다 면 코드를 생성 하려면.tt 파일을 추가할 수 있습니다.  

@@ -20,12 +20,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: fa0472ae7ad7200ead372057f1dd778c077f764e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 573196ebc0a0719cf736f1299eebae4eb6dcdb73
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62566217"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821923"
 ---
 # <a name="read-xml-data-into-a-dataset"></a>XML 데이터를 데이터 세트에 읽어오기
 
@@ -119,9 +119,9 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
 
 - 두 <xref:System.Windows.Forms.Button> 컨트롤.
 
-    - 단추 하나는 데이터 집합에 XML 파일을 읽고에 표시 된 <xref:System.Windows.Forms.DataGridView> 컨트롤입니다.
+  - 단추 하나는 데이터 집합에 XML 파일을 읽고에 표시 된 <xref:System.Windows.Forms.DataGridView> 컨트롤입니다.
 
-    - 두 번째 단추를 통해 데이터 집합에서 스키마를 추출를 <xref:System.IO.StringWriter> 에 표시 된 <xref:System.Windows.Forms.TextBox> 컨트롤입니다.
+  - 두 번째 단추를 통해 데이터 집합에서 스키마를 추출를 <xref:System.IO.StringWriter> 에 표시 된 <xref:System.Windows.Forms.TextBox> 컨트롤입니다.
 
 ### <a name="to-add-controls-to-the-form"></a>컨트롤을 폼에 추가하려면
 
@@ -192,7 +192,7 @@ ADO.NET에는 XML 데이터로 작업 하기 위한 간단한 방법을 제공 �
      [!code-csharp[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_2.cs)]
      [!code-vb[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_2.vb)]
 
-## <a name="test-the-form"></a>형식 테스트
+## <a name="test-the-form"></a>폼 테스트
 
 이제 예상 대로 작동 되도록 폼을 테스트할 수 있습니다.
 

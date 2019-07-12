@@ -12,12 +12,12 @@ caps.latest.revision: 26
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 48e37262c376d2c92e741152a0b3a5866e2718ad
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 75c1e08125e67dc5a76d2e62d22f010abd22f418
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65685661"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823427"
 ---
 # <a name="best-practices-for-using-code-snippets"></a>코드 조각을 사용하는 방법에 대한 유용한 정보
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,11 +60,11 @@ ms.locfileid: "65685661"
   
 - 메모장 또는 Visual Studio의 XML 편집기에서 모든 다운로드된 조각 파일을 열고 설치하기 전에 주의해서 검토합니다. 다음 문제가 있는지 검색합니다.  
   
-    - 조각 코드를 실행하면 시스템이 손상될 수 있습니다. 실행하기 전에 소스 코드를 주의해서 읽으세요.  
-  
-    - 조각 파일의 도움말 URL 블록에 악의적인 스크립트 파일을 실행하거나 공격적인 웹 사이트를 표시하는 URL이 포함되어 있을 수 있습니다.  
-  
-    - 시스템의 임의 위치에서 로드되고 프로젝트에 자동으로 추가된 참조가 조각에 포함되어 있을 수 있습니다. 이러한 참조가 조각을 다운로드한 위치에서 컴퓨터에 다운로드되었을 수 있습니다. 나중에 이 조각이 참조에서 악성 코드를 실행하는 메서드를 호출할 수 있습니다. 이러한 공격을 방지하려면 조각 파일의 Imports 및 References 블록을 검토합니다.  
+  - 조각 코드를 실행하면 시스템이 손상될 수 있습니다. 실행하기 전에 소스 코드를 주의해서 읽으세요.  
+
+  - 조각 파일의 도움말 URL 블록에 악의적인 스크립트 파일을 실행하거나 공격적인 웹 사이트를 표시하는 URL이 포함되어 있을 수 있습니다.  
+
+  - 시스템의 임의 위치에서 로드되고 프로젝트에 자동으로 추가된 참조가 조각에 포함되어 있을 수 있습니다. 이러한 참조가 조각을 다운로드한 위치에서 컴퓨터에 다운로드되었을 수 있습니다. 나중에 이 조각이 참조에서 악성 코드를 실행하는 메서드를 호출할 수 있습니다. 이러한 공격을 방지하려면 조각 파일의 Imports 및 References 블록을 검토합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [Visual Basic IntelliSense 코드 조각](https://msdn.microsoft.com/library/ffdde4c9-8141-4906-b09b-15181357a643)   

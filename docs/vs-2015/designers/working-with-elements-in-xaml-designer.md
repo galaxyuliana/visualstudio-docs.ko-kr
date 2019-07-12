@@ -9,12 +9,12 @@ caps.latest.revision: 15
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7596706fea9447e831d12084c8d390120a9163c7
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 1ecb5981a8111f3fca013d3b5f115155ac7baf89
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65690024"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824855"
 ---
 # <a name="working-with-elements-in-xaml-designer"></a>Working with elements in XAML Designer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,11 +30,11 @@ ms.locfileid: "65690024"
   
 - XAML 디자이너에서 다음 중 하나를 수행합니다.  
   
-    - **도구 상자**에서 요소를 두 번 클릭하거나 도구 상자에서 요소를 선택하고 Enter 키를 누릅니다.  
-  
-    - 요소를 **도구 상자**에서 아트보드로 끌어 놓습니다.  
-  
-    - **도구 상자**에서 그리기 도구(예: [타원](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) 또는 [사각형](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)) 중 하나를 선택한 다음 활성 패널에서 요소를 그립니다.  
+  - **도구 상자**에서 요소를 두 번 클릭하거나 도구 상자에서 요소를 선택하고 Enter 키를 누릅니다.  
+
+  - 요소를 **도구 상자**에서 아트보드로 끌어 놓습니다.  
+
+  - **도구 상자**에서 그리기 도구(예: [타원](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) 또는 [사각형](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)) 중 하나를 선택한 다음 활성 패널에서 요소를 그립니다.  
   
 ## <a name="changing-the-layering-order-of-elements"></a>요소의 쌓기 순서 변경  
  XAML 디자이너의 아트보드에 두 요소가 있는 경우 한 요소가 쌓기 순서 대로 다른 요소 앞에 표시됩니다. [문서 개요] 창의 요소 목록 아래쪽에는 맨 앞의 요소가 있습니다(요소에 대해 **ZIndex** 속성이 설정된 경우 제외). 페이지, 폼 또는 레이아웃 컨테이너에 요소를 삽입할 때 요소가 활성 컨테이너 요소의 다른 요소 앞에 자동으로 배치됩니다. 요소의 순서를 변경하려면 **Order** 명령을 사용하거나 [문서 개요] 창의 개체 트리에서 요소를 끌면 됩니다.  

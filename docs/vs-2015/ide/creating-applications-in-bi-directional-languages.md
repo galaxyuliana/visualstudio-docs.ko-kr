@@ -13,12 +13,12 @@ caps.latest.revision: 11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 05300d33ae10cd899a40bf95596ea4eb19dea49d
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 622af2c5f15187f6e04b53b4f0ba433c91f85a07
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65701188"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826184"
 ---
 # <a name="creating-applications-in-bi-directional-languages"></a>양방향 언어용 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,11 +50,11 @@ Visual Studio를 사용하여 아랍어 및 히브리어와 같이 오른쪽에�
   
 - **오른쪽에서 왼쪽 읽기 순서** 기본적으로 Visual Studio에서 사용하는 텍스트 입력 컨트롤에는 왼쪽에서 오른쪽 읽기 순서가 사용됩니다. 대부분의 경우 표준 Windows 제스처를 사용하여 읽기 순서를 전환할 수 있습니다. 예를 들어 Ctrl+오른쪽 Shift를 눌러 속성 값에 대한 오른쪽에서 왼쪽 읽기 순서를 지원하도록 [속성] 창을 전환할 수 있습니다.  
   
-     그러나 Visual Studio에서는 오른쪽에서 왼쪽 읽기 순서가 지원되지 않습니다. 다음과 같은 예외가 있습니다.  
-  
-    - Visual Studio 대화 상자의 확인란, 드롭다운 목록 및 기타 컨트롤에는 항상 왼쪽에서 오른쪽 읽기 순서가 사용됩니다.  
-  
-    - 코드 편집기(및 텍스트 편집기)는 오른쪽에서 왼쪽 읽기 순서를 지원하지 않습니다. 양방향 언어로 텍스트를 입력할 수 있지만 읽기 순서는 항상 왼쪽에서 오른쪽입니다.  
+  그러나 Visual Studio에서는 오른쪽에서 왼쪽 읽기 순서가 지원되지 않습니다. 다음과 같은 예외가 있습니다.  
+
+  - Visual Studio 대화 상자의 확인란, 드롭다운 목록 및 기타 컨트롤에는 항상 왼쪽에서 오른쪽 읽기 순서가 사용됩니다.  
+
+  - 코드 편집기(및 텍스트 편집기)는 오른쪽에서 왼쪽 읽기 순서를 지원하지 않습니다. 양방향 언어로 텍스트를 입력할 수 있지만 읽기 순서는 항상 왼쪽에서 오른쪽입니다.  
   
 ## <a name="naming-things-using-arabic-or-hebrew-text"></a>아랍어 또는 히브리어 텍스트를 사용하여 이름 지정  
  아랍어 또는 히브리어 텍스트를 사용하여 폴더, 변수 또는 기타 개체에 이름을 할당할 수 있습니다. 아랍어를 사용할 경우 Kashida 및 분음 부호를 비롯한 아랍어 문자를 사용할 수 있습니다.  

@@ -9,12 +9,12 @@ caps.latest.revision: 13
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 98b08fc8ebf2fca207d41b644032d7abbcd97a24
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: d73f24287c4acc38440767d84ae72e862a5e5c75
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65681736"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823915"
 ---
 # <a name="how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps"></a>방법: Direct2D 또는 Javascript 앱과 함께 사용하기 위해 질감 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,11 +27,11 @@ ms.locfileid: "65681736"
   
 - Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 생성하도록 이미지 콘텐츠 파이프라인 구성.  
   
-    - 블록 압축 .dds 파일을 생성합니다.  
-  
-    - 미리 곱한 알파를 생성합니다.  
-  
-    - MIP 맵 생성을 사용하지 않도록 설정합니다.  
+  - 블록 압축 .dds 파일을 생성합니다.  
+
+  - 미리 곱한 알파를 생성합니다.  
+
+  - MIP 맵 생성을 사용하지 않도록 설정합니다.  
   
 ## <a name="rendering-conventions-in-direct2d"></a>Direct2D의 렌더링 규칙  
  Direct2D의 컨텍스트에서 사용되는 질감은 이러한 Direct2D 내부 렌더링 규칙을 따릅니다.  
@@ -40,11 +40,11 @@ ms.locfileid: "65681736"
   
 - 다음 블록 압축 형식 중 하나를 사용하여 질감을 .dds 형식으로 제공해야 합니다.  
   
-    - BC1_UNORM 압축  
-  
-    - BC2_UNORM 압축  
-  
-    - BC3_UNORM 압축  
+  - BC1_UNORM 압축  
+
+  - BC2_UNORM 압축  
+
+  - BC3_UNORM 압축  
   
 - MIP 맵은 지원되지 않습니다.  
   

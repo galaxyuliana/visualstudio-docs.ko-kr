@@ -12,12 +12,12 @@ caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 4c02e9dc3b1f355cc2c0f580ce88893ce7f34b46
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 365382566f7de28a611f1c8e0b063f68ca55f696
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433157"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825924"
 ---
 # <a name="define-a-gesture-handler-on-a-modeling-diagram"></a>모델링 다이어그램의 제스처 처리기 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -282,34 +282,34 @@ Visual Studio에서 사용자가 항목을 두 번 클릭하거나 UML 다이어
   
 - `ShapeElement target`. 사용자가 항목을 끌어온 모양 또는 다이어그램.  
   
-     `ShapeElement`는 UML 모델링 도구의 기반이 되는 구현의 클래스입니다. UML 모델 및 다이어그램이 불일치 상태로 전환되는 위험을 줄이려면 이 클래스의 메서드를 직접 사용하지 않는 것이 좋습니다. 대신 요소를 래핑하는 `IShape`, 다음에 설명 된 메서드를 사용 하 여 [다이어그램에 UML 모델 표시](../modeling/display-a-uml-model-on-diagrams.md)합니다.  
-  
-    - `IShape`를 가져오려면  
-  
-        ```  
-        IShape targetIShape = target.CreateIShape(target);  
-        ```  
-  
-    - 끌기 또는 두 번 클릭 작업으로 대상으로 지정된 모델 요소를 가져오려면  
-  
-        ```  
-        IElement target = targetIShape.Element;  
-        ```  
-  
-         이를 더 구체적인 형식의 요소로 캐스팅할 수 있습니다.  
-  
-    - UML 모델이 포함된 UML 모델 저장소를 가져오려면  
-  
-        ```  
-        IModelStore modelStore =   
-          targetIShape.Element.GetModelStore();   
-        ```  
-  
-    - 호스트 및 서비스 공급자에 대한 액세스 권한을 얻으려면  
-  
-        ```  
-        target.Store.GetService(typeof(EnvDTE.DTE)) as EnvDTE.DTE  
-        ```  
+    `ShapeElement`는 UML 모델링 도구의 기반이 되는 구현의 클래스입니다. UML 모델 및 다이어그램이 불일치 상태로 전환되는 위험을 줄이려면 이 클래스의 메서드를 직접 사용하지 않는 것이 좋습니다. 대신 요소를 래핑하는 `IShape`, 다음에 설명 된 메서드를 사용 하 여 [다이어그램에 UML 모델 표시](../modeling/display-a-uml-model-on-diagrams.md)합니다.  
+
+  - `IShape`를 가져오려면  
+
+      ```  
+      IShape targetIShape = target.CreateIShape(target);  
+      ```  
+
+  - 끌기 또는 두 번 클릭 작업으로 대상으로 지정된 모델 요소를 가져오려면  
+
+      ```  
+      IElement target = targetIShape.Element;  
+      ```  
+
+        You can cast this to a more specific type of element.  
+
+  - UML 모델이 포함된 UML 모델 저장소를 가져오려면  
+
+      ```  
+      IModelStore modelStore =   
+        targetIShape.Element.GetModelStore();   
+      ```  
+
+  - 호스트 및 서비스 공급자에 대한 액세스 권한을 얻으려면  
+
+      ```  
+      target.Store.GetService(typeof(EnvDTE.DTE)) as EnvDTE.DTE  
+      ```  
   
 - `DiagramDragEventArgs eventArgs`. 이 매개 변수는 끌기 작업의 소스 개체에 대한 serialize된 형식을 전달합니다.  
   

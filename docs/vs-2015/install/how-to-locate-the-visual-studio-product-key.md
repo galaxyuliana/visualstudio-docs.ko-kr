@@ -12,12 +12,12 @@ caps.latest.revision: 24
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.openlocfilehash: 2223ab7dfbf37a0be1c9600065ddaad8ea4dfd19
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 0210f66bcfeaad8143ac4eee78b7b086c36eb164
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60098730"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823211"
 ---
 # <a name="how-to-locate-the-visual-studio-product-key"></a>How to: Locate the Visual Studio Product Key
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,11 +28,11 @@ ms.locfileid: "60098730"
 
 - 다음 위치 중 한 곳에서 제품 키를 찾습니다.
 
-    - 설치 미디어(해당하는 경우)
+  - 설치 미디어(해당하는 경우)
 
-    - [My.VisualStudio.com](https://my.visualstudio.com/productkeys) 웹 사이트
+  - [My.VisualStudio.com](https://my.visualstudio.com/productkeys) 웹 사이트
 
-    - 소프트웨어를 구입한 공급업체에서 제공한 설명서 또는 기타 통신
+  - 소프트웨어를 구입한 공급업체에서 제공한 설명서 또는 기타 통신
 
 ## <a name="see-also"></a>참고 항목
  [방법: Visual Studio Trial Edition에서 업그레이드](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md) [Visual Studio 설치](../install/install-visual-studio-2015.md) [Visual Studio 및 MSDN 라이선스 백서](http://go.microsoft.com/fwlink/?LinkId=191417)
