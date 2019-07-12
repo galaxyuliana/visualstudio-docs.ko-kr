@@ -8,12 +8,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 77e6dca01f728ae4a5a3f0a5f12f50ab581948c6
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: 00668fdebdbc8fc6a26c30a8762aa6f03d6e2769
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66335393"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824560"
 ---
 # <a name="evaluation-tools-for-visual-studio"></a>Visual Studio 용 평가 도구
 ## <a name="craftsmanship-checklist-for-visual-studio"></a>Visual Studio 용 장인 검사 목록
@@ -49,11 +49,11 @@ ms.locfileid: "66335393"
 
 - 단추, 명령 및 UI를 사용자 입력 캡처를 시작 하는 명령 링크 줄임표에 종료 확인 **[...]** .
 
-     예를 들면 다음과 같습니다.
+  예를 들면 다음과 같습니다.
 
-    - **[고급...]**  대화 상자에서 단추입니다.
+  - **[고급...]**  대화 상자에서 단추입니다.
 
-    - 도구 메뉴 명령 옵션 (**도구 > 옵션**) 명령의 의도 자체 대화 상자를 시작 하기 때문에 줄임표 (...)를 가져올 해야 합니다.
+  - 도구 메뉴 명령 옵션 (**도구 > 옵션**) 명령의 의도 자체 대화 상자를 시작 하기 때문에 줄임표 (...)를 가져올 해야 합니다.
 
 - UI 없는 약어를 업계 표준 용어를 제외 하 고 있는지 확인 합니다. 예를 들어 HTML 아니고 TCP/IP OOM (메모리 부족) 및 PII (개인 식별이 가능한 정보) 해야 하지만, 철자를 해야 합니다.
 
@@ -145,9 +145,9 @@ ms.locfileid: "66335393"
 
 - 필드 같이 식별 해야 하는 필수 필드가 있을 경우 다음을 확인 합니다.
 
-    - 백그라운드로 설정 된 `Environment.ControlEditRequiredBackground` 전경으로 설정 됩니다 `Environment.ControlEditRequiredHintText`
+  - 백그라운드로 설정 된 `Environment.ControlEditRequiredBackground` 전경으로 설정 됩니다 `Environment.ControlEditRequiredHintText`
 
-    - 으로 표시 되는 컨트롤 내에서 힌트 텍스트 임을 **"\<필요한 >"**
+  - 으로 표시 되는 컨트롤 내에서 힌트 텍스트 임을 **"\<필요한 >"**
 
 #### <a name="button-controls"></a>단추 컨트롤
 
@@ -169,11 +169,11 @@ ms.locfileid: "66335393"
 
 - 사용 된 VS 색 되는지 확인 합니다.
 
-    - `Environment.ControlLinkText`
+  - `Environment.ControlLinkText`
 
-    - `Environment.ControlLinkTextHover`
+  - `Environment.ControlLinkTextHover`
 
-    - `Environment.ControlLinkTextPressed`
+  - `Environment.ControlLinkTextPressed`
 
 - 하이퍼링크는 단락에 포함 된 경우가 아니면 밑줄 없이 파란색 나타나는지 확인 합니다.
 

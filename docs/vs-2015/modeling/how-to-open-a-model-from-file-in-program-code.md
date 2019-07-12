@@ -9,12 +9,12 @@ caps.latest.revision: 10
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c87b197219cec112a9235f4af6fb1a51ae793a88
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c788a9ae126530484efc5f693505fc34c2793768
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441022"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824229"
 ---
 # <a name="how-to-open-a-model-from-file-in-program-code"></a>방법: 프로그램 코드로 파일에서 모델 열기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,12 +37,12 @@ ms.locfileid: "63441022"
 > [!NOTE]
 > 선택한 경우에이 작업을 수행 해야 **.NET Framework 4** 프로젝트 만들기 대화 상자에서. 대상 프레임 워크 안 **.NET Framework 4 Client Profile**합니다.  
   
-## <a name="references"></a>참조  
+## <a name="references"></a>참조 항목  
  이러한 참조를 추가 해야 하 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 응용 프로그램 프로젝트:  
   
 - `Microsoft.VisualStudio.Modeling.Sdk.11.0`  
   
-    - 아래에서 표시 되지 않으면를 **.NET** 탭에서 **참조 추가** 대화 상자에서 클릭 합니다 **찾아보기** 탭을 이동할 `%Program Files%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Common\Assemblies\`합니다.  
+  - 아래에서 표시 되지 않으면를 **.NET** 탭에서 **참조 추가** 대화 상자에서 클릭 합니다 **찾아보기** 탭을 이동할 `%Program Files%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Common\Assemblies\`합니다.  
   
 - DSL 어셈블리를 DSL 프로젝트 bin 폴더에서 찾이 됩니다. 폼의 해당 이름은 일반적으로: *YourCompany*.*YourProject*`.Dsl.dll`.  
   

@@ -14,12 +14,12 @@ caps.latest.revision: 45
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 631c6daf808e08b9c7da9147116464a4140b076f
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 77de4fea82e05f539c89a75178d93f985e5a0fb3
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65683543"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823850"
 ---
 # <a name="run-windows-store-apps-in-the-simulator"></a>시뮬레이터에서 Windows 스토어 앱 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,30 +55,30 @@ Windows 스토어 앱에 대한 Visual Studio 시뮬레이터는 Windows 스토�
  상호 작용 모드를 두 손가락의 축소 및 확대 제스처로 설정합니다.  
   
 - ![시뮬레이터 두 손가락 대상](../debugger/media/simulator-twofinger.png "SIMULATOR_TwoFinger")  
-  
-    - 이중 대상 아이콘은 디바이스 화면에서 두 손가락의 위치를 나타냅니다.  
-  
-    - 마우스를 이동하여 아이콘을 디바이스 화면의 개체 위에 배치합니다.  
-  
-    - 축소 또는 확대하기 전에 마우스 휠을 앞쪽이나 뒤쪽으로 돌려 두 손가락의 시뮬레이션된 거리를 변경합니다.  
-  
+
+  - 이중 대상 아이콘은 디바이스 화면에서 두 손가락의 위치를 나타냅니다.  
+
+  - 마우스를 이동하여 아이콘을 디바이스 화면의 개체 위에 배치합니다.  
+
+  - 축소 또는 확대하기 전에 마우스 휠을 앞쪽이나 뒤쪽으로 돌려 두 손가락의 시뮬레이션된 거리를 변경합니다.  
+
 - ![손가락 모으기, 확대 및 회전 대상을](../debugger/media/simulator-twofingerengaged.png "SIMULATOR_TwoFingerEngaged")  
-  
-    - 왼쪽 단추를 누르고 휠을 뒤쪽(사용자 쪽)으로 돌려 확대(축소)합니다.  
-  
-    - 왼쪽 단추를 누르고 마우스 휠을 앞쪽(사용자 반대쪽)으로 돌려 축소(확대)합니다.  
+
+  - 왼쪽 단추를 누르고 휠을 뒤쪽(사용자 쪽)으로 돌려 확대(축소)합니다.  
+
+  - 왼쪽 단추를 누르고 마우스 휠을 앞쪽(사용자 반대쪽)으로 돌려 축소(확대)합니다.  
   
 ## <a name="object-rotation"></a>개체 방향  
  **터치 에뮬레이션 회전** 단추는 조작 모드를 두 손가락을 사용한 회전 제스처로 설정합니다.  
   
 - 마우스를 이동하여 아이콘을 디바이스 화면의 개체 위에 배치합니다.  
   
-    - 개체를 회전하기 전에 마우스 휠을 앞쪽이나 뒤쪽으로 돌려 두 손가락의 시뮬레이션된 방향을 변경합니다.  
-  
+  - 개체를 회전하기 전에 마우스 휠을 앞쪽이나 뒤쪽으로 돌려 두 손가락의 시뮬레이션된 방향을 변경합니다.  
+
 - 왼쪽 단추를 누르고 휠을 뒤쪽(사용자 쪽)으로 돌려 개체를 시계 반대 방향으로 회전합니다. 마우스 휠을 돌리면 두 개의 대상 아이콘 중 하나가 나머지 아이콘 주위로 회전하여 상대적인 회전 크기를 나타냅니다.  
-  
-    - 왼쪽 단추를 누르고 마우스 휠을 앞쪽(사용자 반대쪽)으로 돌려 개체를 시계 방향으로 회전합니다.  
-  
+
+  - 왼쪽 단추를 누르고 마우스 휠을 앞쪽(사용자 반대쪽)으로 돌려 개체를 시계 방향으로 회전합니다.  
+
 ## <a name="BKMK_Enable_or_disable_Always_on_top_mode"></a> 항상 위 모드 사용 또는 사용 안 함  
  시뮬레이터 창이 항상 다른 창의 위쪽에 오도록 설정할 수 있습니다. **맨 위 창 설정/해제** 단추는 시뮬레이터 창의 **항상 위** 모드를 사용하거나 사용하지 않도록 설정합니다.  
   

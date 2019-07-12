@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 7b1a583a9afd2a43d48399d5e2787369ab9bef95
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63400618"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64858114"
 ---
 # <a name="idiasymbolgetlength"></a>IDiaSymbol::get_length
 이 기호를 나타내는 개체에 사용 중인 메모리의 바이트 또는 비트 수를 검색 합니다.
@@ -59,6 +59,6 @@ pSymbol->get_length( &length );
 |헤더:|dia2.h|
 |버전:|DIA SDK v7.0|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md)

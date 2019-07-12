@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: aa310539b3a36d78137f336b8fea8f40a5d459ca
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 10affe50b3410fa013205313f4087aaabb7c4769
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430410"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825796"
 ---
 # <a name="walkthrough-create-a-sharepoint-project-extension"></a>연습: SharePoint 프로젝트 확장명 만들기
   이 연습에는 SharePoint 프로젝트 확장을 만드는 방법을 보여 줍니다. 프로젝트를 추가, 삭제 또는 이름이 같은 프로젝트 수준 이벤트에 응답 하는 프로젝트 확장명을 사용할 수 있습니다. 사용자 지정 속성을 추가 하거나 속성 값이 변경 될 때 응답할 수도 있습니다. 프로젝트 항목 확장 달리 프로젝트 확장명을 특정 SharePoint 프로젝트 형식과 사용 하 여 연결할 수 없습니다. 확장 로드에서 모든 종류의 SharePoint 프로젝트를 열면 프로젝트 확장을 만들면 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다.
@@ -30,22 +30,22 @@ ms.locfileid: "63430410"
 
 - 만들기는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 프로젝트에 다음을 수행 하는 확장 합니다.
 
-    - 속성 창에 사용자 지정 프로젝트 속성을 추가합니다. SharePoint 프로젝트에 속성이 적용 됩니다.
+  - 속성 창에 사용자 지정 프로젝트 속성을 추가합니다. SharePoint 프로젝트에 속성이 적용 됩니다.
 
-    - 프로젝트에 매핑된 폴더를 추가할 SharePoint 프로젝트 개체 모델을 사용 합니다.
+  - 프로젝트에 매핑된 폴더를 추가할 SharePoint 프로젝트 개체 모델을 사용 합니다.
 
-    - 사용 하 여 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 자동화 개체 모델 (DTE) 프로젝트의 매핑된 폴더를 삭제 하려면.
+  - 사용 하 여 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 자동화 개체 모델 (DTE) 프로젝트의 매핑된 폴더를 삭제 하려면.
 
 - 빌드를 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 프로젝트 속성의 확장 프로그램 어셈블리를 배포 하려면 VSIX (Extension) 패키지 있습니다.
 
 - 디버깅 및 프로젝트 속성을 테스트 합니다.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
  이 연습을 완료 하려면 개발 컴퓨터의 다음 구성 요소가 필요 합니다.
 
 - 지원 되는 버전 [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)], SharePoint 및 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]합니다.
 
-- [!INCLUDE[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)] 이 연습에서는 합니다 **VSIX 프로젝트** 에서 템플릿을 [!INCLUDE[TLA2#tla_sdk](../sharepoint/includes/tla2sharptla-sdk-md.md)] 프로젝트 속성 확장 프로그램을 배포 하려면 VSIX 패키지를 만듭니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구 확장](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)합니다.
+- [!INCLUDE[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)]입니다. 이 연습에서는 합니다 **VSIX 프로젝트** 에서 템플릿을 [!INCLUDE[TLA2#tla_sdk](../sharepoint/includes/tla2sharptla-sdk-md.md)] 프로젝트 속성 확장 프로그램을 배포 하려면 VSIX 패키지를 만듭니다. 자세한 내용은 [Visual Studio에서 SharePoint 도구 확장](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)합니다.
 
 ## <a name="create-the-projects"></a>프로젝트 만들기
  이 연습을 완료 하려면 두 개의 프로젝트를 만들어야 합니다.

@@ -9,12 +9,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 589f5eddb2b1e2a8fd61eea2a205f12d2d9c0742
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: 0cc62384f2a413362f53ed0626031501e163d6a4
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66321365"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823816"
 ---
 # <a name="changes-in-visual-studio-2017-extensibility"></a>Visual Studio 2017 확장성의 변경 내용
 
@@ -63,35 +63,35 @@ Visual Studio 프로세스 내에서 실행 되는 코드는 Visual Studio Setti
 
 * GAC에만 설치 된 어셈블리:
 
-   이러한 어셈블리는 이제 설치 <em>[INSTALLDIR] \Common7\IDE\*, * [INSTALLDIR] \Common7\IDE\PublicAssemblies</em> 하거나 *[INSTALLDIR] \Common7\IDE\PrivateAssemblies*합니다. 이러한 폴더를 사용 하면 Visual Studio 프로세스의 검색 경로에 속합니다.
+  이러한 어셈블리는 이제 설치 <em>[INSTALLDIR] \Common7\IDE\*, * [INSTALLDIR] \Common7\IDE\PublicAssemblies</em> 하거나 *[INSTALLDIR] \Common7\IDE\PrivateAssemblies*합니다. 이러한 폴더를 사용 하면 Visual Studio 프로세스의 검색 경로에 속합니다.
 
 * 비 검색 경로 GAC에 설치 된 어셈블리:
 
-   * GAC의 복사본은 설치 프로그램에서 제거 되었습니다.
-   * A *.pkgdef* 파일 어셈블리에 대 한 코드 베이스 엔트리를 지정 하려면 추가 되었습니다.
+  * GAC의 복사본은 설치 프로그램에서 제거 되었습니다.
+  * A *.pkgdef* 파일 어셈블리에 대 한 코드 베이스 엔트리를 지정 하려면 추가 되었습니다.
 
-      예를 들어:
+    예:
 
-      ```xml
-      [$RootKey$\RuntimeConfiguration\dependentAssembly\codeBase\{UniqueGUID}]
-      "name"="AssemblyName" "codeBase"="$PackageFolder$\AssemblyName.dll"
-      "publicKeyToken"="Public Key Token"
-      "culture"="neutral"
-      "version"=15.0.0.0
-      ```
+    ```
+    [$RootKey$\RuntimeConfiguration\dependentAssembly\codeBase\{UniqueGUID}]
+    "name"="AssemblyName" "codeBase"="$PackageFolder$\AssemblyName.dll"
+    "publicKeyToken"="Public Key Token"
+    "culture"="neutral"
+    "version"=15.0.0.0
+    ```
 
-      Visual Studio pkgdef 하위 시스템은 런타임 시 Visual Studio 프로세스의 런타임 구성 파일에 이러한 항목을 병합 (아래 *[VSAPPDATA]\devenv.exe.config*)으로 [ `<codeBase>` ](/dotnet/framework/configure-apps/file-schema/runtime/codebase-element) 요소입니다. 이것이 경로 검색을 통해 검색을 방지 하기 때문에 Visual Studio 프로세스에 어셈블리를 찾을 수 있도록 권장 되는 방법입니다.
+    Visual Studio pkgdef 하위 시스템은 런타임 시 Visual Studio 프로세스의 런타임 구성 파일에 이러한 항목을 병합 (아래 *[VSAPPDATA]\devenv.exe.config*)으로 [ `<codeBase>` ](/dotnet/framework/configure-apps/file-schema/runtime/codebase-element) 요소입니다. 이것이 경로 검색을 통해 검색을 방지 하기 때문에 Visual Studio 프로세스에 어셈블리를 찾을 수 있도록 권장 되는 방법입니다.
 
 ### <a name="reacting-to-this-breaking-change"></a>이 주요 변경에 대응
 
 * 경우 확장은 Visual Studio 프로세스 내에서 실행 됩니다.
 
-   * 코드는 Visual Studio 핵심 어셈블리를 찾을 수 됩니다.
-   * 사용 하는 것이 좋습니다는 *.pkgdef* 필요한 경우 어셈블리에 대 한 경로 지정 하는 파일입니다.
+  * 코드는 Visual Studio 핵심 어셈블리를 찾을 수 됩니다.
+  * 사용 하는 것이 좋습니다는 *.pkgdef* 필요한 경우 어셈블리에 대 한 경로 지정 하는 파일입니다.
 
 * 확장은 Visual Studio 프로세스 외부에서 실행 되 하는 경우:
 
-   아래에서 Visual Studio 핵심 어셈블리에 대 한 확인 하는 것이 좋습니다 <em>[INSTALLDIR] \Common7\IDE\*, * [INSTALLDIR] \Common7\IDE\PublicAssemblies</em> 또는 *[INSTALLDIR] \Common7\IDE\PrivateAssemblies*구성 파일 또는 어셈블리 확인자를 사용 하 여 합니다.
+  아래에서 Visual Studio 핵심 어셈블리에 대 한 확인 하는 것이 좋습니다 <em>[INSTALLDIR] \Common7\IDE\*, * [INSTALLDIR] \Common7\IDE\PublicAssemblies</em> 또는 *[INSTALLDIR] \Common7\IDE\PrivateAssemblies*구성 파일 또는 어셈블리 확인자를 사용 하 여 합니다.
 
 ## <a name="change-reduce-registry-impact"></a>변경 내용: 레지스트리 영향 줄이기
 

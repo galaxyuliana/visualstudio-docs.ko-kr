@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 7132fae3623e1ad10fb35d2b903935cdbffee12d
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: d4b5ad6ca824e6c7091c6c508b51c2d51501b2fd
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65676716"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821524"
 ---
 # <a name="use-roslyn-analyzers"></a>Roslyn 분석기를 사용 합니다.
 
@@ -62,12 +62,12 @@ A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.m
 
 분석기 규칙의 심각도 구성할 수 있습니다 또는 *진단을*이면 있습니다 [분석기 설치](../code-quality/install-roslyn-analyzers.md) NuGet 패키지로 합니다. 다음 표에서 진단에 대 한 심각도 옵션을 보여 줍니다.
 
-|심각도|빌드 시 동작|편집기 동작|
+|Severity|빌드 시 동작|편집기 동작|
 |-|-|-|
 |Error|위반으로 표시 *오류* 에 **오류 목록** 명령줄에서 빌드 출력 및 빌드 실패를 발생 합니다.|코드를 잘못 된 물결 및 스크롤 막대의 작은 빨간색 상자에 표시 된 빨간색 밑줄이 그어져 합니다.|
 |경고|위반으로 표시 *경고* 에 **오류 목록** 명령줄에서 빌드 출력을 하며 빌드 실패를 발생 하지 않습니다.|녹색 물결 및 스크롤 막대의 작은 녹색 상자에 표시 된 밑줄이 그어져 코드를 위반 합니다.|
-|Info|위반으로 표시 *메시지* 에 **오류 목록**, 및 명령줄 빌드 출력에 전혀 그렇지 않습니다.|물결 및 스크롤 막대의 작은 회색 상자에 표시 된 회색으로 밑줄이 그어져 코드를 위반 합니다.|
-|Hidden|비-사용자에 게 표시 합니다.|비-사용자에 게 표시 합니다. 하지만 진단 IDE 진단 엔진에 보고 됩니다.|
+|정보|위반으로 표시 *메시지* 에 **오류 목록**, 및 명령줄 빌드 출력에 전혀 그렇지 않습니다.|물결 및 스크롤 막대의 작은 회색 상자에 표시 된 회색으로 밑줄이 그어져 코드를 위반 합니다.|
+|숨김|비-사용자에 게 표시 합니다.|비-사용자에 게 표시 합니다. 하지만 진단 IDE 진단 엔진에 보고 됩니다.|
 |없음|완전히 표시 되지 않습니다.|완전히 표시 되지 않습니다.|
 
 또한 "다시 설정할 수 있습니다" 규칙의 심각도를 설정 하 여 **기본**입니다. 각 진단의에서 볼 수 있는 기본 심각도 합니다 **속성** 창입니다.
@@ -110,40 +110,40 @@ A [규칙 집합](../code-quality/using-rule-sets-to-group-code-analysis-rules.m
 
 - **분석** 메뉴
 
-   선택 **분석** > **코드 분석 실행 및 활성 문제를 표시 하지 않으려면** 모든 현재 위반 하지 않으려면 메뉴 모음에서. 이 때때로 "기준 설정" 이라고 합니다.
+  선택 **분석** > **코드 분석 실행 및 활성 문제를 표시 하지 않으려면** 모든 현재 위반 하지 않으려면 메뉴 모음에서. 이 때때로 "기준 설정" 이라고 합니다.
 
 - **솔루션 탐색기**
 
-   위반 하지 않으려면 **솔루션 탐색기**, 규칙의 심각도 **None**합니다.
+  위반 하지 않으려면 **솔루션 탐색기**, 규칙의 심각도 **None**합니다.
 
 - **규칙 집합 편집기**
 
-   규칙 집합 편집기에서 위반을 표시 하지 않으려면 해당 이름 옆에 있는 확인란의 선택을 취소 하거나 설정 **동작** 하 **None**합니다.
+  규칙 집합 편집기에서 위반을 표시 하지 않으려면 해당 이름 옆에 있는 확인란의 선택을 취소 하거나 설정 **동작** 하 **None**합니다.
 
 - **코드 편집기**
 
-   코드 편집기에서 위반을 표시 하지 않으려면 위반 및 키를 눌러 코드 줄에 커서를 놓고 **Ctrl**+**합니다.** 열려는 합니다 **빠른 작업** 메뉴. 선택 **CAXXXX 표시 안 함** > **억제 파일/소스의**합니다.
+  코드 편집기에서 위반을 표시 하지 않으려면 위반 및 키를 눌러 코드 줄에 커서를 놓고 **Ctrl**+**합니다.** 열려는 합니다 **빠른 작업** 메뉴. 선택 **CAXXXX 표시 안 함** > **억제 파일/소스의**합니다.
 
-   ![빠른 작업 메뉴에서 진단 표시 안 함](media/suppress-diagnostic-from-editor.png)
+  ![빠른 작업 메뉴에서 진단 표시 안 함](media/suppress-diagnostic-from-editor.png)
 
 - **오류 목록**
 
-   하나 이상의 진단 표시 하지 않을 수 있습니다 합니다 **오류 목록** 을 선택 하 여 요소를 표시 하지 않으려면 하 고 마우스 오른쪽 단추로 클릭 한 다음 **표시 안 함** > **에서 Source/In 비 표시 오류 파일**합니다.
+  하나 이상의 진단 표시 하지 않을 수 있습니다 합니다 **오류 목록** 을 선택 하 여 요소를 표시 하지 않으려면 하 고 마우스 오른쪽 단추로 클릭 한 다음 **표시 안 함** > **에서 Source/In 비 표시 오류 파일**합니다.
 
-   - 무시 하는 경우 **소스**서 **변경 내용 미리 보기** 대화 상자가 열리고의 미리 보기를 표시 합니다 C# [#pragma 경고](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) 또는 Visual Basic [#Disable 경고](/dotnet/visual-basic/language-reference/directives/directives) 소스 코드에 추가 되는 지시문입니다.
+  - 무시 하는 경우 **소스**서 **변경 내용 미리 보기** 대화 상자가 열리고의 미리 보기를 표시 합니다 C# [#pragma 경고](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) 또는 Visual Basic [#Disable 경고](/dotnet/visual-basic/language-reference/directives/directives) 소스 코드에 추가 되는 지시문입니다.
 
-      ![코드 파일에서 #pragma 경고를 추가 하는 미리 보기](media/pragma-warning-preview.png)
+    ![코드 파일에서 #pragma 경고를 추가 하는 미리 보기](media/pragma-warning-preview.png)
 
-   - 선택 하는 경우 **억제 파일에**의 **변경 내용 미리 보기** 대화 상자가 열리고의 미리 보기를 표시 합니다 <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> 전역 비 표시 오류 파일에 추가 되는 특성입니다.
+  - 선택 하는 경우 **억제 파일에**의 **변경 내용 미리 보기** 대화 상자가 열리고의 미리 보기를 표시 합니다 <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> 전역 비 표시 오류 파일에 추가 되는 특성입니다.
 
-      ![SuppressMessage 특성 억제 파일에 추가 하는 미리 보기](media/preview-changes-in-suppression-file.png)
+    ![SuppressMessage 특성 억제 파일에 추가 하는 미리 보기](media/preview-changes-in-suppression-file.png)
 
-   에 **변경 내용 미리 보기** 대화 상자에서 **적용**합니다.
+  에 **변경 내용 미리 보기** 대화 상자에서 **적용**합니다.
 
-   > [!NOTE]
-   > 표시 되지 않는 경우는 **표시 안 함** 메뉴 옵션에서 **솔루션 탐색기**, 위반 빌드 및 없습니다 실시간 분석에서 가져온 것입니다. 합니다 **오류 목록** 진단 또는 둘 다에서 위반 라이브 코드 분석 및 작성 하는 규칙을 표시 합니다. 빌드 진단 일 수 있으므로 유효 하지 않은 예를 들어, 위반을 수정 하기 위해 코드를 편집 했습니다 해도 다시 작성 하지 않은 경우 억제할 수 없습니다에서 이러한 진단 합니다 **오류 목록**합니다. 실시간 분석 또는 IntelliSense에서 현재 소스를 사용 하 여 항상 최신임 진단과에서 표시 하지 않을 수 있습니다 합니다 **오류 목록**합니다. 제외할 *빌드* 전환 하 고 선택 항목에서 진단을 합니다 **오류 목록** 에서 소스 필터 **빌드 + IntelliSense** 에 **Intellisense만**. 진단 표시 안 함 및 이전에 설명 된 대로 진행 하려면를 선택 합니다.
-   >
-   > ![Visual Studio의 오류 목록 원본 필터](media/error-list-filter.png)
+  > [!NOTE]
+  > 표시 되지 않는 경우는 **표시 안 함** 메뉴 옵션에서 **솔루션 탐색기**, 위반 빌드 및 없습니다 실시간 분석에서 가져온 것입니다. 합니다 **오류 목록** 진단 또는 둘 다에서 위반 라이브 코드 분석 및 작성 하는 규칙을 표시 합니다. 빌드 진단 일 수 있으므로 유효 하지 않은 예를 들어, 위반을 수정 하기 위해 코드를 편집 했습니다 해도 다시 작성 하지 않은 경우 억제할 수 없습니다에서 이러한 진단 합니다 **오류 목록**합니다. 실시간 분석 또는 IntelliSense에서 현재 소스를 사용 하 여 항상 최신임 진단과에서 표시 하지 않을 수 있습니다 합니다 **오류 목록**합니다. 제외할 *빌드* 전환 하 고 선택 항목에서 진단을 합니다 **오류 목록** 에서 소스 필터 **빌드 + IntelliSense** 에 **Intellisense만**. 진단 표시 안 함 및 이전에 설명 된 대로 진행 하려면를 선택 합니다.
+  >
+  > ![Visual Studio의 오류 목록 원본 필터](media/error-list-filter.png)
 
 ## <a name="command-line-usage"></a>명령줄 사용법
 

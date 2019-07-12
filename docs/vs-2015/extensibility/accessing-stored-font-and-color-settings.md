@@ -12,20 +12,20 @@ ms.assetid: beba7174-e787-45c2-b6ff-a60f67ad4998
 caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 0debf1a5996d39a6cb52cdc843afabf0b4107c59
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: fbb2f118d903eae2124e705f14c7aa7b51bf9c4d
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63403254"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821840"
 ---
-# <a name="accessing-stored-font-and-color-settings"></a>저장 된 글꼴 및 색 설정에 액세스
+# <a name="accessing-stored-font-and-color-settings"></a>저장된 글꼴 및 색 설정에 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 통합된 개발 환경 (IDE) 글꼴에 대 한 수정 된 설정을 저장 하 고 레지스트리에 색입니다. 사용할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 이러한 설정에 액세스 하는 인터페이스입니다.  
   
 ## <a name="to-initiate-state-persistence-of-fonts-and-colors"></a>글꼴 및 색의 상태 지 속성을 시작 하려면  
- 글꼴 및 색 정보는 다음 레지스트리 위치에는 범주별으로 저장 됩니다. [HKCU\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio 버전 >* \FontAndColors\\  *\<CategoryGUID >*] 여기서  *\<CategoryGUID >* 범주 GUID입니다.  
+ 글꼴 및 색 정보는 다음 레지스트리 위치에는 범주별으로 저장 됩니다. [HKCU\SOFTWARE\Microsoft \Visual Studio\\ *\<Visual Studio 버전 >* \FontAndColors\\  *\<CategoryGUID >* ] 여기서  *\<CategoryGUID >* 범주 GUID입니다.  
   
  따라서에 지 속성을 시작 하려면 VSPackage 수행 해야 합니다.  
   
@@ -35,16 +35,16 @@ ms.locfileid: "63403254"
   
 - 사용 하 여는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.OpenCategory%2A> 메서드 인수로 범주의 GUID 및 모드 플래그를 사용 하 여 지속할 범주를 열려고 합니다.  
   
-     지정 된 모드를는 `fFlags` 인수를 값에서 생성 되는 <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> 열거형입니다. 이 모드를 제어합니다.  
-  
-    - 통해 액세스할 수 있는 설정의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
-  
-    - 모든 설정 또는 경우에 사용자를 수정 하는 이며이 통해 검색할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
-  
-    - 사용자 설정 변경 내용을 전파 방식입니다.  
-  
-    - 사용 되는 색 값의 형식입니다.  
-  
+  지정 된 모드를는 `fFlags` 인수를 값에서 생성 되는 <xref:Microsoft.VisualStudio.Shell.Interop.__FCSTORAGEFLAGS> 열거형입니다. 이 모드를 제어합니다.  
+
+  - 통해 액세스할 수 있는 설정의 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
+
+  - 모든 설정 또는 경우에 사용자를 수정 하는 이며이 통해 검색할 수는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> 인터페이스입니다.  
+
+  - 사용자 설정 변경 내용을 전파 방식입니다.  
+
+  - 사용 되는 색 값의 형식입니다.  
+
 ## <a name="to-use-state-persistence-of-fonts-and-colors"></a>글꼴 및 색의 상태 지 속성을 사용 하려면  
  유지 글꼴 및 색에 포함 됩니다.  
   

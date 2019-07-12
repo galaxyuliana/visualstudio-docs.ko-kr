@@ -24,12 +24,12 @@ caps.latest.revision: 48
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 835843d2328d9d17ac899fc12c97251b7e6b4659
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: da41524fcb231ea399dbbd2a2904afd935e5c4f8
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65685330"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824250"
 ---
 # <a name="how-to-use-the-threads-window"></a>방법: 스레드 창 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,11 +72,11 @@ ms.locfileid: "65685330"
   
 - 다음 단계 중 하나를 수행합니다.  
   
-    - 스레드를 두 번 클릭합니다.  
-  
-    - 스레드를 마우스 오른쪽 단추로 클릭 하 고 클릭 **스레드로 전환**합니다.  
-  
-         노란색 화살표가 새 활성 스레드 옆에 나타납니다. 화살표의 회색 윤곽선은 실행이 중단되고 디버거가 실행된 스레드를 나타냅니다.  
+  - 스레드를 두 번 클릭합니다.  
+
+  - 스레드를 마우스 오른쪽 단추로 클릭 하 고 클릭 **스레드로 전환**합니다.  
+
+    노란색 화살표가 새 활성 스레드 옆에 나타납니다. 화살표의 회색 윤곽선은 실행이 중단되고 디버거가 실행된 스레드를 나타냅니다.  
   
 ## <a name="grouping-and-sorting-threads"></a>스레드 그룹화 및 정렬  
  스레드를 그룹화하면 테이블에 각 그룹의 제목이 나타납니다. 제목에는 "작업자 스레드" 또는 "플래그가 해제된 스레드" 등의 그룹 설명과 트리 컨트롤이 포함됩니다. 각 그룹의 멤버 스레드가 그룹 제목 아래에 나타납니다. 그룹에 대한 멤버 스레드를 숨기려면 트리 컨트롤을 사용하여 그룹을 축소합니다.  
@@ -116,11 +116,11 @@ ms.locfileid: "65685330"
   
 - **스레드** 창의 맨 위에 있는 도구 모음에서 **검색** 상자로 이동하고 다음을 수행합니다.  
   
-    - 검색 문자열을 입력하고 Enter 키를 누릅니다.  
-  
-         \- 또는 -  
-  
-    - 옆에 드롭다운 목록을 클릭 합니다 **검색** 상자 하 고 이전 검색에서 검색 문자열을 선택 합니다.  
+  - 검색 문자열을 입력하고 Enter 키를 누릅니다.  
+
+    \- 또는 -  
+
+  - 옆에 드롭다운 목록을 클릭 합니다 **검색** 상자 하 고 이전 검색에서 검색 문자열을 선택 합니다.  
   
 - (선택 사항) 검색에 전체 호출 스택을 포함하려면 **호출 스택 검색**을 선택합니다.  
   
@@ -160,6 +160,6 @@ ms.locfileid: "65685330"
   
 - 맨 위에 있는 도구 모음에서의 **스레드** 창에서 클릭 **호출 스택 확장명** 또는 **호출 스택 축소**합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [연습: 다중 스레드 애플리케이션 디버그](../debugger/walkthrough-debugging-a-multithreaded-application.md)

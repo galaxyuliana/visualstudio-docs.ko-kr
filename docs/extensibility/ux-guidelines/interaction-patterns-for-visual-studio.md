@@ -8,12 +8,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 306c729c8c908d6d065155fcbfc9cf64adb4f4a1
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: bfa0a25eac1c14c1d07096840b88a1ec63593f56
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66335307"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824310"
 ---
 # <a name="interaction-patterns-for-visual-studio"></a>Visual Studio의 상호 작용 패턴
 ## <a name="overview"></a>개요
@@ -23,7 +23,7 @@ ms.locfileid: "66335307"
 
 ### <a name="visual-studio-client-pattern-types"></a>Visual Studio 클라이언트 패턴 유형
 
-|패턴 유형|설명|예제|
+|패턴 유형|Description|예|
 |------------------|-----------------|--------------|
 |**응용 프로그램 수준 패턴**|개략적인 패턴 또는 확인 하 고, 응용 프로그램 컨텍스트를 표시 하 고, 복합 및 컨트롤 패턴 내에 포함 된 응용 프로그램에 공통적으로 적용|-도구 창<br />-문서 창|
 |**복합 패턴**|응용 프로그램 패턴에 걸쳐 존재할 수 있는 일반적인 패턴 또는 고유한 구성에서 여러 컨트롤 이루어져 인식할 수 있는 패턴|뷰 전환<br />목록 작성기<br />-데이터를 표시합니다.<br />-알림<br />유효성 검사<br />모델 선택|
@@ -38,15 +38,15 @@ ms.locfileid: "66335307"
 
 - [Visual Studio의 애플리케이션 패턴](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)
 
-    - [창의 상호 작용](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_WindowInteractions)
+  - [창의 상호 작용](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_WindowInteractions)
 
-    - [도구 창](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_ToolWindows)
+  - [도구 창](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_ToolWindows)
 
-    - [편집기 도움말 표기법](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_DocumentEditorConventions)
+  - [편집기 도움말 표기법](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_DocumentEditorConventions)
 
-    - [대화 상자](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Dialogs)
+  - [대화 상자](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Dialogs)
 
-    - [프로젝트](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Projects)
+  - [프로젝트](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Projects)
 
 ## <a name="common-control-patterns"></a>일반적인 컨트롤 패턴
  컨트롤 패턴은 주로 개별 컨트롤에 대 한 것으로 예상 됩니다 동작입니다. 일관성의 가장 중요 한 영역입니다.
@@ -55,11 +55,11 @@ ms.locfileid: "66335307"
 
 - [Visual Studio의 일반 컨트롤 패턴](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md)
 
-    - [공용 컨트롤](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_CommonControls)
+  - [공용 컨트롤](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_CommonControls)
 
-    - [텍스트 컨트롤](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TextControls)
+  - [텍스트 컨트롤](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TextControls)
 
-    - [단추, 하이퍼링크](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ButtonsAndHyperlinks)
+  - [단추, 하이퍼링크](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_ButtonsAndHyperlinks)
 
 ## <a name="composite-patterns"></a>복합 패턴
  사용자가 작업을 수행 해야 하는 방법의 여러 가지가 있습니다. 가능 하면 기능을 모두 상호 작용 및 시각적 디자인에 대 한 이러한 패턴을 사용 하도록 설계 되어야 합니다.
@@ -68,10 +68,10 @@ ms.locfileid: "66335307"
 
 - [Visual Studio의 복합 패턴](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md)
 
-    - [개체에 UI 및 보기](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_OnObjectUI)
+  - [개체에 UI 및 보기](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_OnObjectUI)
 
-    - [모델 선택](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_SelectionModels)
+  - [모델 선택](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_SelectionModels)
 
-    - [지 속성 및 설정 저장 중](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_PersistenceAndSavingSettings)
+  - [지 속성 및 설정 저장 중](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_PersistenceAndSavingSettings)
 
-    - [터치식 입력](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_TouchInput)
+  - [터치식 입력](../../extensibility/ux-guidelines/composite-patterns-for-visual-studio.md#BKMK_TouchInput)

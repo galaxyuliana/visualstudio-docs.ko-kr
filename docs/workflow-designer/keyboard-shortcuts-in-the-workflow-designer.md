@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2143b67297ba2e4bd2751054b789274595505cb3
-ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
+ms.openlocfilehash: b2026c61d05425f0f0d48a9fb722c62f760fcba2
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66431889"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825518"
 ---
 # <a name="keyboard-shortcuts-in-the-workflow-designer"></a>워크플로 디자이너의 바로 가기 키
 
@@ -79,11 +79,11 @@ Visual Studio 내에서 전역 바로 가기와 디버깅 바로 가기가 워�
 
 - 다음 명령에 대한 바로 가기 키를 다시 매핑할 수 없습니다. 식을 편집할 때 이러한 명령에 액세스하기 위해서는 기본 바로 가기 키만 사용할 수 있습니다.
 
-   - 잘라내기
-   - 복사
-   - 붙여넣기
-   - 모두 선택
-   - 실행 취소
-   - 다시 실행
+  - 잘라내기
+  - 복사
+  - 붙여넣기
+  - 모두 선택
+  - 실행 취소
+  - Redo
 
 - Visual Studio에서 워크플로 디자이너 내에서 식 편집 명령에 대 한 바로 가기 키를 다시 매핑할, 워크플로 디자이너 범위에서 바로 가기를 편집 합니다. 텍스트 편집기 범위에서 변경한 내용을 자동으로 워크플로 디자이너에 적용 되지 않습니다. 따라서 양쪽 모두에서 바로 가기를 다시 매핑하려면 범위마다 한 번씩 변경을 두 번 적용해야 합니다.

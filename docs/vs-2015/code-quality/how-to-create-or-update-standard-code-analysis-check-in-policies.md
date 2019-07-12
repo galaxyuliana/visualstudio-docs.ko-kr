@@ -13,12 +13,12 @@ caps.latest.revision: 31
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 9b1ad310385d5c8c8cecaee408d049a172d53e1e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 47e7c2b6e02aab3b6b1df0c54ba91668bbb2673c
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436853"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825807"
 ---
 # <a name="how-to-create-or-update-standard-code-analysis-check-in-policies"></a>방법: 표준 코드 분석 체크 인 정책 만들기 또는 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ ms.locfileid: "63436853"
   
 - 선택 하거나 다음 옵션을 선택 취소 합니다.  
   
-    |옵션|설명|  
+    |옵션|Description|  
     |------------|-----------------|  
     |**체크 인 현재 솔루션의 일부인 파일만 포함 하도록 적용 합니다.**|코드 분석 솔루션 및 프로젝트 구성 파일에 지정 된 파일 에서만 실행할 수 있습니다. 이 정책은 솔루션의 일부인 모든 코드를 분석 하는 것을 보장 합니다.|  
     |**C 적용 /C++ 코드 분석 (/analyze)**|모든 C 또는 C++ 프로젝트를 빌드하는 /analyze 컴파일러 옵션 검사 하기 전에 코드 분석을 실행 하려면.|  
@@ -64,13 +64,13 @@ ms.locfileid: "63436853"
   
 - **이 규칙 집합 실행** 목록에서 다음 방법 중 하나를 사용 합니다.  
   
-    - Microsoft 표준 규칙 집합을 선택 합니다.  
-  
-    - 사용자 지정 규칙 집합을 선택 하려면 클릭  **\<...에 소스 제어에서 규칙 집합 선택 >** , 소스 제어 브라우저에서 규칙 집합의 버전 제어 경로 입력 합니다. 버전 제어 경로 구문은 다음과 같습니다.  
-  
-    - **$/** `TeamProjectName` **/** `VersionControlPath`  
-  
-    - 설정 만들기 및 사용자 지정 체크 인 정책 규칙을 구현 하는 방법에 대 한 자세한 내용은 [관리 코드에 대 한 사용자 지정 구현 체크 인 정책을](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md)합니다.  
+  - Microsoft 표준 규칙 집합을 선택 합니다.  
+
+  - 사용자 지정 규칙 집합을 선택 하려면 클릭  **\<...에 소스 제어에서 규칙 집합 선택 >** , 소스 제어 브라우저에서 규칙 집합의 버전 제어 경로 입력 합니다. 버전 제어 경로 구문은 다음과 같습니다.  
+
+  - **$/** `TeamProjectName` **/** `VersionControlPath`  
+
+  - 설정 만들기 및 사용자 지정 체크 인 정책 규칙을 구현 하는 방법에 대 한 자세한 내용은 [관리 코드에 대 한 사용자 지정 구현 체크 인 정책을](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md)합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [코드 분석 체크 인 정책 만들기 및 사용](../code-quality/creating-and-using-code-analysis-check-in-policies.md)

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 5c6419153777b5af071b59b6b7888c4f18f228b1
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63402171"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64830578"
 ---
 # <a name="idiasymbolgetclassparent"></a>IDiaSymbol::get_classParent
 기호의 클래스 부모에 대 한 참조를 검색합니다.
@@ -43,7 +43,7 @@ HRESULT get_classParent ( 
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v7.0|
@@ -51,6 +51,6 @@ HRESULT get_classParent ( 
 ## <a name="remarks"></a>설명
  클래스의 부모가 될 수 있는 기호 형식에 설명 되어 있습니다 [기호 종류의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [기호 형식의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

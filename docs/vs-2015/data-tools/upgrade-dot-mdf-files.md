@@ -22,12 +22,12 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
-ms.openlocfilehash: d4d2218337153418ef201ee7896eeb095c4778fb
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 169bf374b5c7ee34f75743e363d56c3737000cbc
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63424916"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823451"
 ---
 # <a name="upgrade-mdf-files"></a>.mdf 파일 업그레이드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,9 +104,9 @@ ms.locfileid: "63424916"
   
 - Visual Studio에서 업그레이드 하지 않고도 프로젝트를 엽니다.  
   
-    - 프로젝트를 실행 하려면 F5 키를 선택 합니다.  
-  
-    - 데이터베이스를 편집 하려면에서.mdf 파일을 엽니다 **솔루션 탐색기**에서 노드를 확장 하 고 **서버 탐색기** 데이터베이스와 함께 작동 하도록 합니다.  
+  - 프로젝트를 실행 하려면 F5 키를 선택 합니다.  
+
+  - 데이터베이스를 편집 하려면에서.mdf 파일을 엽니다 **솔루션 탐색기**에서 노드를 확장 하 고 **서버 탐색기** 데이터베이스와 함께 작동 하도록 합니다.  
   
 ### <a name="to-make-sql-server-express-the-default-database-engine"></a>수 있도록 SQL Server Express 기본 데이터베이스 엔진  
   

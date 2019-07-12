@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d297b883c4d5217a0175c739bf460872d464503f
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: fd251ff10700df0ca01599b4247266d4375a4250
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66746667"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821314"
 ---
 # <a name="intellitrace-for-visual-studio-enterprise-c-visual-basic-c"></a>Visual Studio Enterprise에 대 한 IntelliTrace (C#, Visual Basic의 경우 C++)
 
@@ -74,19 +74,19 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
 - 응용 프로그램의 데이터 파일이 손상되었지만 이 이벤트가 어디에서 발생했는지 모릅니다.
 
-     이 경우 IntelliTrace를 사용하지 않는다면 코드 전체를 검사하여 가능한 모든 파일 액세스를 찾고, 해당 액세스 지점에 중단점을 설정한 다음, 응용 프로그램을 다시 실행하여 문제가 발생하는 지점을 찾아야 합니다. IntelliTrace를 사용하면 수집된 모든 파일 액세스 이벤트와 각 이벤트가 발생했을 때 응용 프로그램에 대한 특정 세부 사항을 볼 수 있습니다.
+  이 경우 IntelliTrace를 사용하지 않는다면 코드 전체를 검사하여 가능한 모든 파일 액세스를 찾고, 해당 액세스 지점에 중단점을 설정한 다음, 응용 프로그램을 다시 실행하여 문제가 발생하는 지점을 찾아야 합니다. IntelliTrace를 사용하면 수집된 모든 파일 액세스 이벤트와 각 이벤트가 발생했을 때 응용 프로그램에 대한 특정 세부 사항을 볼 수 있습니다.
 
 - 예외가 발생합니다.
 
-     IntelliTrace가 없으면 예외에 대한 메시지가 표시되지만 예외를 일으킨 이벤트에 대한 많은 정보를 갖지 못하게 됩니다. 호출 스택을 검사하여 예외를 초래한 호출 체인을 확인할 수 있지만 이러한 호출 중 발생한 이벤트 시퀀스는 확인할 수 없습니다. IntelliTrace를 사용하면 예외가 발생하기 전에 발생한 이벤트를 검사할 수 있습니다.
+  IntelliTrace가 없으면 예외에 대한 메시지가 표시되지만 예외를 일으킨 이벤트에 대한 많은 정보를 갖지 못하게 됩니다. 호출 스택을 검사하여 예외를 초래한 호출 체인을 확인할 수 있지만 이러한 호출 중 발생한 이벤트 시퀀스는 확인할 수 없습니다. IntelliTrace를 사용하면 예외가 발생하기 전에 발생한 이벤트를 검사할 수 있습니다.
 
 - 배포된 응용 프로그램에서 버그 또는 충돌이 발생합니다.
 
-     Microsoft Azure 기반 응용 프로그램의 경우 응용 프로그램을 게시하기 전에 IntelliTrace 데이터 수집을 구성할 수 있습니다. 응용 프로그램을 실행하는 동안 IntelliTrace는 데이터를 .iTrace 파일에 저장합니다. 참조 [IntelliTrace 및 Visual Studio를 사용 하 여 게시 된 클라우드 서비스 디버깅](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md)합니다.
+  Microsoft Azure 기반 응용 프로그램의 경우 응용 프로그램을 게시하기 전에 IntelliTrace 데이터 수집을 구성할 수 있습니다. 응용 프로그램을 실행하는 동안 IntelliTrace는 데이터를 .iTrace 파일에 저장합니다. 참조 [IntelliTrace 및 Visual Studio를 사용 하 여 게시 된 클라우드 서비스 디버깅](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md)합니다.
 
-     IIS 7.0, 7.5 및 8.0에서 호스팅된 ASP.NET 웹 앱과 SharePoint 2010 또는 SharePoint 2013 응용 프로그램에 대해 Microsoft Monitoring Agent 단독으로 또는 System Center 2012와 함께 사용하여 IntelliTrace 데이터를 .iTrace 파일에 저장합니다.
+  IIS 7.0, 7.5 및 8.0에서 호스팅된 ASP.NET 웹 앱과 SharePoint 2010 또는 SharePoint 2013 응용 프로그램에 대해 Microsoft Monitoring Agent 단독으로 또는 System Center 2012와 함께 사용하여 IntelliTrace 데이터를 .iTrace 파일에 저장합니다.
 
-     배포에서 응용 프로그램의 문제를 진단할 때 유용합니다. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md)입니다.
+  배포에서 응용 프로그램의 문제를 진단할 때 유용합니다. 참조 [IntelliTrace 독립 실행형 수집기를 사용 하 여](../debugger/using-the-intellitrace-stand-alone-collector.md)입니다.
 
 ## <a name="WhatData"></a> IntelliTrace에서 수집하는 데이터는 무엇인가요?
 
@@ -96,9 +96,9 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
 - **디버거 이벤트**
 
-     IntelliTrace는 Visual Studio 디버거에서 발생하는 이벤트는 항상 기록합니다. 예를 들어, 응용 프로그램 시작은 디버거 이벤트입니다. 다른 디버거 이벤트로는 응용 프로그램의 실행을 중단시키는 중지 이벤트가 있습니다. 예를 들어, 프로그램이 중단점이나 추적점에 도달하거나, **단계** 명령을 실행합니다.
+  IntelliTrace는 Visual Studio 디버거에서 발생하는 이벤트는 항상 기록합니다. 예를 들어, 응용 프로그램 시작은 디버거 이벤트입니다. 다른 디버거 이벤트로는 응용 프로그램의 실행을 중단시키는 중지 이벤트가 있습니다. 예를 들어, 프로그램이 중단점이나 추적점에 도달하거나, **단계** 명령을 실행합니다.
 
-     기본적으로 성능을 위해 IntelliTrace 기록 하지 않습니다는 디버거 이벤트에 대 한 가능한 모든 값입니다. 대신, 다음 값을 기록합니다.
+  기본적으로 성능을 위해 IntelliTrace 기록 하지 않습니다는 디버거 이벤트에 대 한 가능한 모든 값입니다. 대신, 다음 값을 기록합니다.
 
   - **지역** 창의 값. 이러한 값을 보려면 **지역** 창을 열어 둡니다.
 
@@ -110,29 +110,29 @@ IntelliTrace는 재현하기 어렵거나 배포할 때 발생하는 오류를 �
 
 - **예외**
 
-     IntelliTrace에서는 이러한 종류의 예외에 대한 예외 형식과 메시지를 기록합니다.
+  IntelliTrace에서는 이러한 종류의 예외에 대한 예외 형식과 메시지를 기록합니다.
 
-    - 예외가 throw되고 catch된 경우의 처리된 예외
+  - 예외가 throw되고 catch된 경우의 처리된 예외
 
-    - 처리되지 않은 예외
+  - 처리되지 않은 예외
 
 - **.NET Framework 이벤트**
 
-   기본적으로 IntelliTrace는 가장 일반적인 .NET Framework 이벤트를 기록합니다. 예를 들어, 한 <xref:System.Windows.Forms.CheckBox.CheckedChanged?displayProperty=nameWithType> 확인란 상태와 텍스트 이벤트를 IntelliTrace 수집 합니다.
+  기본적으로 IntelliTrace는 가장 일반적인 .NET Framework 이벤트를 기록합니다. 예를 들어, 한 <xref:System.Windows.Forms.CheckBox.CheckedChanged?displayProperty=nameWithType> 확인란 상태와 텍스트 이벤트를 IntelliTrace 수집 합니다.
 
 - **SharePoint 2010 및 SharePoint 2013 애플리케이션 이벤트**
 
-     Visual Studio 외부에서 실행되는 SharePoint 2010 및 2013 응용 프로그램에 대해 사용자 프로필 이벤트 및 ULS(Unified Logging System) 이벤트의 하위 집합을 기록할 수 있습니다. 이러한 이벤트를 .iTrace 파일에 저장할 수 있습니다. Visual Studio Enterprise 2015 또는 이후 버전에서는 이전 버전의 Visual Studio Ultimate 필요 하거나 [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) 에서 실행 중인 **추적** 모드입니다.
+  Visual Studio 외부에서 실행되는 SharePoint 2010 및 2013 응용 프로그램에 대해 사용자 프로필 이벤트 및 ULS(Unified Logging System) 이벤트의 하위 집합을 기록할 수 있습니다. 이러한 이벤트를 .iTrace 파일에 저장할 수 있습니다. Visual Studio Enterprise 2015 또는 이후 버전에서는 이전 버전의 Visual Studio Ultimate 필요 하거나 [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) 에서 실행 중인 **추적** 모드입니다.
 
-     .iTrace 파일을 열면 SharePoint 상관 관계 ID를 입력하여 일치하는 웹 요청을 찾고 기록된 이벤트를 보고 특정 이벤트에서 디버깅을 시작합니다. 파일에 처리되지 않은 예외가 있는 경우 상관 관계 ID를 선택하여 예외 디버깅을 시작할 수 있습니다.
+  .iTrace 파일을 열면 SharePoint 상관 관계 ID를 입력하여 일치하는 웹 요청을 찾고 기록된 이벤트를 보고 특정 이벤트에서 디버깅을 시작합니다. 파일에 처리되지 않은 예외가 있는 경우 상관 관계 ID를 선택하여 예외 디버깅을 시작할 수 있습니다.
 
-     참조
+  참조
 
-    - [IntelliTrace 독립 실행형 수집기 사용](../debugger/using-the-intellitrace-stand-alone-collector.md)
+  - [IntelliTrace 독립 실행형 수집기 사용](../debugger/using-the-intellitrace-stand-alone-collector.md)
 
-    - [저장된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)
+  - [저장된 IntelliTrace 데이터 사용](../debugger/using-saved-intellitrace-data.md)
 
-    - [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)
+  - [연습: IntelliTrace를 사용 하 여 SharePoint 응용 프로그램 디버깅](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md)
 
 **스냅숏 캡처**
 

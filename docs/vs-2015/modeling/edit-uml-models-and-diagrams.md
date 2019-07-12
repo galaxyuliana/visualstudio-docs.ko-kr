@@ -21,12 +21,12 @@ caps.latest.revision: 86
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 0dafd91a832fd4098fb19a26750310135723216f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 446e6eb6231ff4d744f22bd3d1ba4fa6dcca6525
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442973"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823181"
 ---
 # <a name="edit-uml-models-and-diagrams"></a>UML 모델 및 다이어그램 편집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -164,7 +164,7 @@ ms.locfileid: "63442973"
   
      \- 또는 -  
   
-- 에 **아키텍처 디자이너** 도구 모음에서 더하기 기호를 클릭 (**+**) 또는 빼기 기호 (**-**), 하거나 확대/축소 수준을 선택 합니다.  
+- 에 **아키텍처 디자이너** 도구 모음에서 더하기 기호를 클릭 ( **+** ) 또는 빼기 기호 ( **-** ), 하거나 확대/축소 수준을 선택 합니다.  
   
 ## <a name="Searching"></a> 다이어그램에서 검색  
  빠른 찾기 함수는 다이어그램에서 항목을 찾습니다. 설정 해야 합니다 **찾는 위치:** 하 **현재 문서**합니다.  
@@ -294,9 +294,9 @@ ms.locfileid: "63442973"
   
 - 요소를 오른쪽 단추로 클릭 하거나에 **UML 모델 탐색기** 또는 다이어그램을 클릭 한 다음 **모델에서 삭제**합니다.  
   
-    - 요소가 표시되는 모든 다이어그램에서 삭제됩니다.  
-  
-    - 이 요소에서 종료되는 모든 관계도 모델에서 삭제됩니다.  
+  - 요소가 표시되는 모든 다이어그램에서 삭제됩니다.  
+
+  - 이 요소에서 종료되는 모든 관계도 모델에서 삭제됩니다.  
   
 #### <a name="to-delete-a-relationship-from-the-model"></a>모델에서 관계를 삭제하려면  
   
@@ -338,7 +338,7 @@ ms.locfileid: "63442973"
 |[스테레오 타입으로 색 지정](http://code.msdn.microsoft.com/UML-Color-Classes-by-07de2b70)|스테레오타입에 따라 클래스에 색을 지정합니다. 사용자 고유의 스테레오타입에 대해 작동하도록 코드를 쉽게 확장할 수 있습니다.|  
 |[도메인 모델링](http://code.msdn.microsoft.com/UML-Domain-Modeling-6df6f7f4)|비즈니스 모델에 대한 편리한 기본값입니다. 연결은 기본적으로 화살표 없이 표시되며, 클래스에 작업이 표시되지 않습니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [UML 모델링 프로젝트 및 다이어그램 만들기](../modeling/create-uml-modeling-projects-and-diagrams.md)   
  [아키텍처 분석 및 모델링](../modeling/analyze-and-model-your-architecture.md)   
  [앱용 모델 만들기](../modeling/create-models-for-your-app.md)

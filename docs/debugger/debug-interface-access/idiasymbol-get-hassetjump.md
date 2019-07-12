@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: d560cbff64a5134fa58ade4d562cb9fb073af48f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63401529"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64785882"
 ---
 # <a name="idiasymbolgethassetjump"></a>IDiaSymbol::get_hasSetJump
 함수를 사용 하는 포함 되는지 여부를 지정 하는 플래그를 검색 합니다 [setjmp](/cpp/c-runtime-library/reference/setjmp) 명령 (와 연결를 [longjmp](/cpp/c-runtime-library/reference/longjmp) 명령을 이러한 지역은 C 스타일에 대 한 메서드의 예외 처리).
@@ -43,7 +43,7 @@ HRESULT get_hasSetJump(
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|

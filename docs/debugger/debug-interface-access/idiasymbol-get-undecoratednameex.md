@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f2a952c074e62e7fe999826882e382a552789f3a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63400557"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64783872"
 ---
 # <a name="idiasymbolgetundecoratednameex"></a>IDiaSymbol::get_undecoratedNameEx
 검색에 대 한 데코 레이트 되지 않은 이름의 전체 또는 일부를 C++ 데코 레이트 된 이름 (링크).
@@ -52,7 +52,7 @@ HRESULT get_undecoratedNameEx( 
 > [!NOTE]
 > 플래그 이름은 선언 코드를 추가 하거나 원시 값을 사용 해야 하므로 DIA SDK, 정의 되지 않습니다.
 
-|플래그|값|설명|
+|Flag|값|Description|
 |----------|-----------|-----------------|
 |UNDNAME_COMPLETE|0x0000|전체 undecoration 사용 하도록 설정 합니다.|
 |UNDNAME_NO_LEADING_UNDERSCORES|0x0001|Microsoft 확장 키워드 앞에 밑줄을 제거 합니다.|
@@ -75,5 +75,5 @@ HRESULT get_undecoratedNameEx( 
 |UNDNAME_NO_IDENT_CHAR_CHECK|0x10000|유효한 식별자 문자에 대 한 검사를 표시 하지 않습니다.|
 |UNDNAME_NO_PTR64|0x20000|Ptr64 출력에 포함 되지 않습니다.|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

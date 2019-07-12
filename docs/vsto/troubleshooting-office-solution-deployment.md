@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: bcd102d8717b455a402bceb98e7ce85a2907e3bb
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: dfebb3ce5293e7594827a17b30261403b0f3ae9a
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65694987"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821307"
 ---
 # <a name="troubleshoot-office-solution-deployment"></a>Office 솔루션 배포 문제 해결
   이 항목에는 Office 솔루션을 배포할 때 발생할 수 있는 일반적인 문제를 해결하는 방법에 대한 정보가 포함되어 있습니다.
@@ -73,9 +73,12 @@ ms.locfileid: "65694987"
 
 2. **응용 프로그램** 페이지에서 **어셈블리 정보**를 선택합니다.
 
-3. 첫 번째에서 **어셈블리 버전** 상자에 별표를 입력 합니다 (\*)를 선택한 후 합니다 **확인** 단추입니다.
+3. 수정 번호, 세 번째 필드를 설정 합니다 **어셈블리 버전**를 와일드 카드 (\*). 예를 들어, "1.0. *"입니다.  선택 합니다 **확인** 단추입니다.
 
    어셈블리 버전을 변경하면 강력한 이름으로 어셈블리에 서명할 수 있고 Fusion에서 최신 버전의 사용자 지정을 로드합니다.
+
+ [!NOTE]
+> 와일드 카드를 사용 하 여 어셈블리 버전 빌드 오류를 시도 하는 경우 Visual Studio 2017부터 발생 합니다.  즉, 와일드 카드 어셈블리 버전의 MSBuild 결정적 기능이 중단 됩니다. 어셈블리 버전에서 와일드 카드를 제거 하거나 결정성을 사용 하지 않도록 설정 하 라는 지침이 나타납니다.  결정적 기능에 대 한 자세한 내용은 참조: [일반적인 MSBuild 프로젝트 속성](../msbuild/common-msbuild-project-properties.md) 고 [빌드 사용자 지정](../msbuild/customize-your-build.md)
 
 ## <a name="installation-fails-when-the-uri-has-characters-that-arent-us-ascii"></a>URI에 US-ASCII 아닌 문자를 때 설치가 실패 함
  HTTP/HTTPS/FTP 위치에 Office 솔루션을 게시할 경우 경로에 US-ASCII가 아닌 유니코드 문자를 사용할 수 없습니다. 이러한 문자를 사용하면 설치 프로그램에서 일관되지 않은 동작이 발생할 수 있습니다. 설치 경로에 US-ASCII 문자를 사용합니다.

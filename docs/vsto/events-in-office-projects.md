@@ -32,12 +32,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 0fdea53ec99c4f95fb4bb9526b3f154bea5b662b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e822ae5f50436a2f1b0b4863b7e6cf3a7d5d0963
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441833"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826063"
 ---
 # <a name="events-in-office-projects"></a>Office 프로젝트의 이벤트
   각 Office 프로젝트 템플릿은 몇 가지 이벤트 처리기를 자동으로 생성합니다. 문서 수준 사용자 지정의 이벤트 처리기는 VSTO 추가 기능의 이벤트 처리기와 약간 다릅니다.
@@ -56,13 +56,13 @@ ms.locfileid: "63441833"
 
 - Microsoft Office Excel 프로젝트에 대한 이벤트 처리기의 이름은 다음과 같습니다.
 
-    - `Sheet1_Startup`
+  - `Sheet1_Startup`
 
-    - `Sheet2_Startup`
+  - `Sheet2_Startup`
 
-    - `Sheet3_Startup`
+  - `Sheet3_Startup`
 
-    - `ThisWorkbook_Startup`
+  - `ThisWorkbook_Startup`
 
 ### <a name="shutdown-event"></a>Shutdown 이벤트
  **Shutdown** 이벤트는 코드가 로드된 응용 프로그램 도메인이 언로드되려고 할 때 각 호스트 항목(문서 또는 워크시트)에 대해 발생합니다. 이 이벤트는 언로드될 때 클래스에서 호출되는 마지막 항목입니다.
@@ -73,13 +73,13 @@ ms.locfileid: "63441833"
 
 - Microsoft Office Excel 프로젝트에 대한 이벤트 처리기의 이름은 다음과 같습니다.
 
-    - `Sheet1_Shutdown`
+  - `Sheet1_Shutdown`
 
-    - `Sheet2_Shutdown`
+  - `Sheet2_Shutdown`
 
-    - `Sheet3_Shutdown`
+  - `Sheet3_Shutdown`
 
-    - `ThisWorkbook_Shutdown`
+  - `ThisWorkbook_Shutdown`
 
 > [!NOTE]
 > 문서의 **Shutdown** 이벤트 처리기 중에 프로그래밍 방식으로 컨트롤을 제거하지 마세요. 문서의 UI 요소는 **Shutdown** 이벤트가 발생할 때 더 이상 사용할 수 없습니다. 애플리케이션이 닫히기 전에 컨트롤을 제거하려면 **BeforeClose** , **BeforeSave**등의 다른 이벤트 처리기에 코드를 추가합니다.

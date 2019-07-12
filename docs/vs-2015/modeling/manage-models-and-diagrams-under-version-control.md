@@ -11,12 +11,12 @@ caps.latest.revision: 32
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 55142e000a22b6e45543c6fc14594a12c93f4f92
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 76e8c92707279979cec6406bd1bcd5ad44a1f315
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65680297"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825791"
 ---
 # <a name="manage-models-and-diagrams-under-version-control"></a>버전 제어에서 모델 및 다이어그램 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,9 +37,9 @@ ms.locfileid: "65680297"
   
 - 각 다이어그램은 두 파일에 저장됩니다. 예를 들어 클래스 다이어그램에는 다음이 포함됩니다.  
   
-    - **DiagramName.classdiagram** - 이 파일이 삭제되거나 손상되면 다이어그램이 손실되지만 파일이 표시한 클래스 및 연결은 계속 모델에 포함되고 UML 모델 탐색기에 표시될 수 있습니다.  
-  
-    - **DiagramName.classdiagram.layout** - 이 파일이 삭제되면 모양도 다이어그램에 계속 나타나지만 크기 및 위치가 손실됩니다. 각 레이아웃 파일은 다이어그램 파일을 보조합니다. 레이아웃 파일을 확인하려면 솔루션 탐색기에서 다이어그램 파일 옆에 있는 [+]를 클릭합니다.  
+  - **DiagramName.classdiagram** - 이 파일이 삭제되거나 손상되면 다이어그램이 손실되지만 파일이 표시한 클래스 및 연결은 계속 모델에 포함되고 UML 모델 탐색기에 표시될 수 있습니다.  
+
+  - **DiagramName.classdiagram.layout** - 이 파일이 삭제되면 모양도 다이어그램에 계속 나타나지만 크기 및 위치가 손실됩니다. 각 레이아웃 파일은 다이어그램 파일을 보조합니다. 레이아웃 파일을 확인하려면 솔루션 탐색기에서 다이어그램 파일 옆에 있는 [+]를 클릭합니다.  
   
 > [!NOTE]
 > 파일 간에 일관성을 유지해야 합니다. 예를 들어 소스 제어를 사용하여 .uml 파일에서 변경 내용을 롤백하면 동시에 .*diagram 및 .layout 파일에서 해당 변경 내용을 롤백해야 합니다. 요소에 표시를 합니다. \*.uml 파일에도 표현 되지 않는 경우 다이어그램 파일이 손실 됩니다.  
@@ -55,9 +55,9 @@ ms.locfileid: "65680297"
   
 - 작업 중인 패키지만 변경할 수 있게 하려면:  
   
-    - UML 클래스, 구성 요소 또는 사용 사례 다이어그램의 **LinkedPackage** 속성을 설정합니다.  
-  
-    - UML 모델 탐색기에서 동작 또는 상호 작용을 만들고 바로 패키지로 끌어옵니다. 이 요소는 동작 또는 시퀀스 다이어그램에서 첫 번째 노드를 만들 때 UML 모델 탐색기에 나타납니다.  
+  - UML 클래스, 구성 요소 또는 사용 사례 다이어그램의 **LinkedPackage** 속성을 설정합니다.  
+
+  - UML 모델 탐색기에서 동작 또는 상호 작용을 만들고 바로 패키지로 끌어옵니다. 이 요소는 동작 또는 시퀀스 다이어그램에서 첫 번째 노드를 만들 때 UML 모델 탐색기에 나타납니다.  
   
 - 패키지를 계속 추적할 수 있도록 패키지 파일 이름을 바꿔서 실제 패키지 이름을 반영합니다.  
   
@@ -107,6 +107,6 @@ ms.locfileid: "65680297"
   
 - 패키지 내에서만 참조되는 요소 이름 바꾸기 또는 삭제.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [아키텍처 분석 및 모델링](../modeling/analyze-and-model-your-architecture.md)   
  [모델 공유 및 다이어그램 내보내기](../modeling/share-models-and-exporting-diagrams.md)

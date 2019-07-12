@@ -15,12 +15,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5ef444d78e5a486f9e384ea02d1eb88461e3fce2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1c84cfcde4a5ffac1e1563a4d2b141bd6240b772
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430334"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821994"
 ---
 # <a name="walkthrough-extend-server-explorer-to-display-web-parts"></a>연습: 웹 파트를 표시 하려면 서버 탐색기 확장
   Visual Studio에서 사용할 수 있습니다 합니다 **SharePoint 연결** 노드의 **서버 탐색기** SharePoint 사이트에서 구성 요소를 볼 수 있습니다. 그러나 **서버 탐색기** 기본적으로 일부 구성 요소를 표시 하지 않습니다. 이 연습에서는 확장할 예정 **서버 탐색기** SharePoint 사이트를 연결 된 각 웹 파트 갤러리에 표시 되도록 합니다.
@@ -29,9 +29,9 @@ ms.locfileid: "63430334"
 
 - 확장 하는 Visual Studio 확장을 만들 **서버 탐색기** 다음과 같은 방법으로:
 
-    - 확장 추가 **웹 파트 갤러리** 에서 SharePoint 사이트 노드가 각 노드에서 **서버 탐색기**합니다. 이 새 노드 사이트의 웹 파트 갤러리에 있는 각 웹 파트를 나타내는 자식 노드를 포함 합니다.
+  - 확장 추가 **웹 파트 갤러리** 에서 SharePoint 사이트 노드가 각 노드에서 **서버 탐색기**합니다. 이 새 노드 사이트의 웹 파트 갤러리에 있는 각 웹 파트를 나타내는 자식 노드를 포함 합니다.
 
-    - 확장은 새로운 유형의 웹 파트 인스턴스를 나타내는 노드를 정의 합니다. 이 새 노드 형식은 아래의 새 자식 노드에 대 한 기반이 됩니다 **웹 파트 갤러리** 노드. 새 웹 파트 노드 형식에 정보를 표시 합니다 **속성** 나타내는 웹 파트에 대 한 창. 노드 형식에는 웹 파트와 관련 된 기타 작업을 수행 하는 것에 대 한 시작 점으로 사용할 수 있는 사용자 지정 바로 가기 메뉴 항목을 포함 됩니다.
+  - 확장은 새로운 유형의 웹 파트 인스턴스를 나타내는 노드를 정의 합니다. 이 새 노드 형식은 아래의 새 자식 노드에 대 한 기반이 됩니다 **웹 파트 갤러리** 노드. 새 웹 파트 노드 형식에 정보를 표시 합니다 **속성** 나타내는 웹 파트에 대 한 창. 노드 형식에는 웹 파트와 관련 된 기타 작업을 수행 하는 것에 대 한 시작 점으로 사용할 수 있는 사용자 지정 바로 가기 메뉴 항목을 포함 됩니다.
 
 - 확장 프로그램 어셈블리를 호출 하는 두 개의 사용자 지정 SharePoint 명령을 만듭니다. SharePoint 명령은 Api를 사용 하는 서버 개체 모델에서 SharePoint 용 확장 프로그램 어셈블리에서 호출할 수 있는 메서드입니다. 이 연습에서는 개발 컴퓨터의 로컬 SharePoint 사이트에서 웹 파트 정보를 검색 하는 명령을 만들 수 있습니다. 자세한 내용은 [SharePoint 개체 모델 호출](../sharepoint/calling-into-the-sharepoint-object-models.md)합니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "63430334"
 > [!NOTE]
 > 다른 버전의 서버 개체 모델에 해당 하는 대신 SharePoint에 대 한 클라이언트 개체 모델을 사용 하는이 연습을 참조 하세요. [연습: 서버 탐색기 확장의 SharePoint 클라이언트 개체 모델을 호출할](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)합니다.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
  이 연습을 완료 하려면 개발 컴퓨터의 다음 구성 요소가 필요 합니다.
 
 - Windows, SharePoint, Visual Studio의 버전을 지원 합니다.
@@ -338,7 +338,7 @@ ms.locfileid: "63430334"
 
     2. 에 **SharePoint 연결 추가** 대화 상자에 연결 하 고 선택 하려는 SharePoint 사이트에 대 한 URL을 입력 합니다 **확인** 단추.
 
-         개발 컴퓨터에 SharePoint 사이트를 지정 하려면 입력 **http://localhost**합니다.
+         개발 컴퓨터에 SharePoint 사이트를 지정 하려면 입력 **http://localhost** 합니다.
 
 3. (표시 하는 사이트의 URL) 사이트 연결 노드를 확장 하 고를 자식 사이트 노드를 확장 (예를 들어 **팀 사이트**).
 

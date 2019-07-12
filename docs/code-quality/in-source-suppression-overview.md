@@ -14,12 +14,12 @@ dev_langs:
 - CPP
 ms.workload:
 - multiple
-ms.openlocfilehash: 6cd61304e150da63d2d461ef364e7039789c71fc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 39fd588a51771aae79d22d2d7f0a02a648184c05
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62825825"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821577"
 ---
 # <a name="suppress-code-analysis-warnings"></a>코드 분석 경고 표시 안 함
 
@@ -67,17 +67,17 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 
 - **범위** -경고가 표시 되는 대상입니다. 대상 지정 하지 않으면, 대상 특성으로 설정 됩니다. 지원 [범위](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) 다음과 같습니다.
 
-   - `module`
+  - `module`
 
-   - `resource`
+  - `resource`
 
-   - `type`
+  - `type`
 
-   - `member`
+  - `member`
 
-   - `namespace` -이 범위에는 자체 네임 스페이스에 대해 경고를 하지 않습니다. 네임 스페이스 내의 형식에 대 한 경고를 억제 하지는 않습니다.
+  - `namespace` -이 범위에는 자체 네임 스페이스에 대해 경고를 하지 않습니다. 네임 스페이스 내의 형식에 대 한 경고를 억제 하지는 않습니다.
 
-   - `namespaceanddescendants` -(New에 대 한 Visual Studio 2019)이이 범위를 표시 하지 않습니다 네임 스페이스 및 해당 하위 모든 기호는 경고입니다. `namespaceanddescendants` 값 Roslyn 분석기에만 유효 하 고 이진, FxCop 기반 정적 분석에서 무시 됩니다.
+  - `namespaceanddescendants` -(New에 대 한 Visual Studio 2019)이이 범위를 표시 하지 않습니다 네임 스페이스 및 해당 하위 모든 기호는 경고입니다. `namespaceanddescendants` 값 Roslyn 분석기에만 유효 하 고 이진, FxCop 기반 정적 분석에서 무시 됩니다.
 
 - **대상** -경고가 표시 되는 대상을 지정 하는 데 사용 되는 식별자입니다. 정규화 된 항목 이름을 포함 해야 합니다.
 

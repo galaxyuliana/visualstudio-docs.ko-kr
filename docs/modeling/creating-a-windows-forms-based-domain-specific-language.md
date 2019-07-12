@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b82af5d19b45092f649b22503cfbdf1001433c30
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: ad4e3c3007a00245f632e4645deb1014b5c22508
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66746800"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821389"
 ---
 # <a name="create-a-windows-forms-based-domain-specific-language"></a>Windows Forms 기반 도메인별 언어 만들기
 
@@ -59,9 +59,9 @@ DSL 다이어그램을 사용 하는 대신, 도메인 특정 언어 (DSL) 모�
 
 - `UI` 프로젝트는 DSL에 바인딩된 폼 컨트롤의 작업 예제를 포함 합니다. 그러나 DSL 정의 변경한 경우 작동 하지 않습니다. `UI` 프로젝트 포함 되어 있습니다.
 
-    - 라는 Windows Forms 클래스 `ModelViewControl`합니다.
+  - 라는 Windows Forms 클래스 `ModelViewControl`합니다.
 
-    - 라는 파일로 `DataBinding.cs` 의 추가 부분 정의 포함 하는 `ModelViewControl`합니다. 해당 콘텐츠를 볼 **솔루션 탐색기**, 파일에 대 한 바로 가기 메뉴를 열고 선택 **코드 보기**합니다.
+  - 라는 파일로 `DataBinding.cs` 의 추가 부분 정의 포함 하는 `ModelViewControl`합니다. 해당 콘텐츠를 볼 **솔루션 탐색기**, 파일에 대 한 바로 가기 메뉴를 열고 선택 **코드 보기**합니다.
 
 ### <a name="about-the-ui-project"></a>UI 프로젝트에 대 한
 

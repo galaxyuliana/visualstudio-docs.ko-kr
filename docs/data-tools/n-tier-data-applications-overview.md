@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - data-storage
-ms.openlocfilehash: 35b882914deacafae46f2470c49efe1d6ace00f6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 995328205e99117f68050833853ada76f06eb4c8
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62566473"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821896"
 ---
 # <a name="n-tier-data-applications-overview"></a>N 계층 데이터 애플리케이션 개요
 *N 계층* 데이터 응용 프로그램은 여러 구분 되는 데이터 응용 프로그램 *계층*합니다. "분산된 응용 프로그램" 및 "다중 계층 응용 프로그램" 라고도 함, n 계층 응용 프로그램 클라이언트와 서버 간에 배포 된 개별 계층으로 처리를 구분 합니다. 데이터에 액세스 하는 응용 프로그램을 개발 하는 경우에 응용 프로그램을 구성 하는 다양 한 계층을 명확히 구분을 해야 합니다.
@@ -49,11 +49,11 @@ Visual Studio는 개발자가 n 계층 응용 프로그램을 만들 수 있도�
 
 - 데이터 액세스 구성 요소와 같은 논리:
 
-    - [Tableadapter](create-and-configure-tableadapters.md) 하 고 [Dataadapter 및 Datareader](/dotnet/framework/data/adonet/dataadapters-and-datareaders)합니다.
+  - [Tableadapter](create-and-configure-tableadapters.md) 하 고 [Dataadapter 및 Datareader](/dotnet/framework/data/adonet/dataadapters-and-datareaders)합니다.
 
-    - 같은 개체의 데이터를 표현 [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index) 엔터티 클래스입니다.
+  - 같은 개체의 데이터를 표현 [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index) 엔터티 클래스입니다.
 
-    - 일반적인 응용 프로그램 서비스, 인증, 권한 부여 및 개인 설정 등.
+  - 일반적인 응용 프로그램 서비스, 인증, 권한 부여 및 개인 설정 등.
 
 다음 그림에서는 Visual Studio에서 사용할 수 있는 및 수 적합 한 위치 n 계층 응용 프로그램의 중간 계층에 있는 기술과 기능을 보여 줍니다.
 

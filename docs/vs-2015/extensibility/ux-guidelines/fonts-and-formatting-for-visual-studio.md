@@ -8,12 +8,12 @@ ms.assetid: c3c3df69-83b4-4fd0-b5b1-e18c33f39376
 caps.latest.revision: 6
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: bdaaacd84cdc23b56fd76d7f4e66184868ad533c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: ede8844b34473e1c900bd6af040cac99ceee1514
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075820"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824061"
 ---
 # <a name="fonts-and-formatting-for-visual-studio"></a>글꼴 및 Visual Studio에 대 한 서식 지정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -70,7 +70,7 @@ internal partial class WebConfigModificationWindow : DialogWindow
 
  (대체 `Microsoft.VisualStudio.Shell.11.0` MPF dll의 현재 버전을 사용 하 여.)
 
- 대화 상자를 표시 하려면 호출 "**ShowModal()**"를 통해 클래스 **ShowDialog()** 합니다. **ShowModal()** 셸에서 올바른 모달 상태를 설정, 대화 상자에서 가운데에 맞춰지고 부모 창과 등을 확인 합니다.
+ 대화 상자를 표시 하려면 호출 "**ShowModal()** "를 통해 클래스 **ShowDialog()** 합니다. **ShowModal()** 셸에서 올바른 모달 상태를 설정, 대화 상자에서 가운데에 맞춰지고 부모 창과 등을 확인 합니다.
 
  코드는 다음과 같습니다.
 
@@ -371,7 +371,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 |머리 글자어의 모든 문자|HTML, XML, URL, IDE, RGB|
 |명사 또는 형용사 적절 한 경우 또는 동일한 가중치 단어 경우 두 번째 복합 단어에서 단어|상호 참조, 이전 Microsoft 소프트웨어의 경우 읽기/쓰기 액세스, 런타임|
 
-|소문자|예제|
+|소문자|예|
 |---------------|--------------|
 |다른 음성 또는 첫 번째 단어를 수정 하는 분사 이면 복합 단어의 두 번째 단어|방법, 사용 해제|
 |문서 제목에 첫 번째 단어 하나가 아닌 경우|a, an, the|
@@ -417,11 +417,11 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 - 이러한 목적을 위해 더 큰 머리글 (환경 글꼴 x 155% 이상)를 색칠 할 수 있습니다.:
 
-    - 눈에 띄는 서명 Visual Studio UI를 제공 합니다.
+  - 눈에 띄는 서명 Visual Studio UI를 제공 합니다.
 
-    - 특정 영역을 강조할
+  - 특정 영역을 강조할
 
-    - 표준 진한 회색/검은색 환경 텍스트 색의 릴리프를 제공 합니다.
+  - 표준 진한 회색/검은색 환경 텍스트 색의 릴리프를 제공 합니다.
 
 - 머리글 색 기존 Visual Studio 브랜드 색 주 자주색 주로 #FF68217A 활용 해야 합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: Visual C++ 확장성 프로젝트
-ms.date: 01/25/2019
+ms.date: 04/23/2019
 ms.technology: vs-ide-mobile
 ms.topic: conceptual
 dev_langs:
@@ -10,12 +10,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 94f61902090c2ada0770a41375d5cb501b92580f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.openlocfilehash: 10869ad290b0b8df614d25d792d0b3ed1e88eb17
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660741"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825562"
 ---
 # <a name="visual-studio-c-project-system-extensibility-and-toolset-integration"></a>Visual Studio C++ Project 시스템 확장성 및 도구 통합
 
@@ -55,11 +55,24 @@ ms.locfileid: "59660741"
 
 이러한 속성 값에서 폴더 이름을 지정 합니다 `$(VCTargetsPath)` 루트 폴더:
 
-`$(VCTargetsPath)`\\ &nbsp;&nbsp;&nbsp;&nbsp;*응용 프로그램 종류* \\ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `$(ApplicationType)` \\ &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(ApplicationTypeRevision)`\\ &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *플랫폼* \\ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(Platform)` \\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *PlatformToolsets* \\ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(PlatformToolset)` &nbsp;&nbsp;&nbsp;&nbsp;플랫폼\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Windows 데스크톱 프로젝트의 경우 `$(ApplicationType)` 가 비어있을 때 사용됨) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(Platform)`\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PlatformToolsets*\\ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(PlatformToolset)`
+> `$(VCTargetsPath)`\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;*응용 프로그램 유형*\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(ApplicationType)`\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(ApplicationTypeRevision)`\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*플랫폼*\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(Platform)`\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PlatformToolsets*\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(PlatformToolset)` \
+&nbsp;&nbsp;&nbsp;&nbsp;*플랫폼*\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(Platform)`\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PlatformToolsets*\\ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(PlatformToolset)`
+
+합니다 `$(VCTargetsPath)` \\ *플랫폼* \\ 폴더는 때 `$(ApplicationType)` 는 빈 Windows 데스크톱 프로젝트에 대 한 합니다.
 
 ### <a name="add-a-new-platform-toolset"></a>새 플랫폼 도구 집합을 추가 합니다.
 
-예를 들어, "MyToolset" 기존 Win32 플랫폼을 위한 새 도구 집합을 추가 하려면 만듭니다는 *MyToolset* 아래에 폴더 `$(VCTargetsPath)`  *\\플랫폼\\Win32\\ PlatformToolsets\\*를 만들고 *Toolset.props* 하 고 *Toolset.targets* 파일입니다.
+예를 들어, "MyToolset" 기존 Win32 플랫폼을 위한 새 도구 집합을 추가 하려면 만듭니다는 *MyToolset* 아래에 폴더 `$(VCTargetsPath)`  *\\플랫폼\\Win32\\ PlatformToolsets\\* 를 만들고 *Toolset.props* 하 고 *Toolset.targets* 파일입니다.
 
 아래에 있는 각 폴더 이름의 *PlatformToolsets* 나타나는 **프로젝트 속성** 으로 사용할 수 있는 대화 상자 **플랫폼 도구 집합** 지정 된 플랫폼의 경우 다음과 같이:
 
@@ -69,7 +82,7 @@ ms.locfileid: "59660741"
 
 ### <a name="add-a-new-platform"></a>새 플랫폼 추가
 
-예를 들어, "MyPlatform"가, 새 플랫폼을 추가 하려면 만듭니다는 *MyPlatform* 아래에 폴더 `$(VCTargetsPath)`  *\\플랫폼\\*를 만들어  *Platform.default.props*, *Platform.props*, 및 *Platform.targets* 파일입니다. 만들 수도 `$(VCTargetsPath)`  *\\플랫폼\\*<strong><em>MyPlatform</em></strong>*\\PlatformToolsets\\*  폴더에 하나 이상의 도구 집합을 만듭니다.
+예를 들어, "MyPlatform"가, 새 플랫폼을 추가 하려면 만듭니다는 *MyPlatform* 아래에 폴더 `$(VCTargetsPath)`  *\\플랫폼\\* 를 만들어  *Platform.default.props*, *Platform.props*, 및 *Platform.targets* 파일입니다. 만들 수도 `$(VCTargetsPath)`  *\\플랫폼\\* <strong><em>MyPlatform</em></strong> *\\PlatformToolsets\\*  폴더에 하나 이상의 도구 집합을 만듭니다.
 
 아래에 있는 모든 폴더 이름을 *플랫폼* 각각에 대 한 폴더 `$(ApplicationType)` 및 `$(ApplicationTypeRevision)` 사용할 수 있는 IDE에 표시 **플랫폼** 프로젝트에 대 한 선택입니다.
 
@@ -85,29 +98,50 @@ ms.locfileid: "59660741"
 
 Microsoft는 가져오기 트리의 간소화 된 C++ props 및 targets 파일 다음과 같습니다.
 
-`$(VCTargetsPath)`\\*Microsoft.Cpp.Default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(MSBuildExtensionsPath)` \\ `$(MSBuildToolsVersion)` \\ *Microsoft.Common.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *ImportBefore*\\*기본값* \\ \*. *props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *응용 프로그램 유형* \\ `$(ApplicationType)` \\ *Default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *응용 프로그램 유형을* \\ `$(ApplicationType)` \\ `$(ApplicationTypeRevision)` \\ *Default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *응용 프로그램 종류*\\`$(ApplicationType)`\\`$(ApplicationTypeRevision)`\\*플랫폼* \\ `$(Platform)` \\ *Platform.default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *ImportAfter*\\*기본값*\\\*. *속성*
+> `$(VCTargetsPath)`\\*Microsoft.Cpp.Default.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(MSBuildExtensionsPath)`\\`$(MSBuildToolsVersion)`\\*Microsoft.Common.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*ImportBefore*\\*기본값*\\\*. *속성* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*응용 프로그램 종류*\\`$(ApplicationType)`\\*Default.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*응용 프로그램 종류*\\`$(ApplicationType)`\\`$(ApplicationTypeRevision)`\\*Default.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*응용 프로그램 종류*\\`$(ApplicationType)`\\`$(ApplicationTypeRevision)`\\*플랫폼* \\ `$(Platform)` \\  *Platform.default.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*ImportAfter*\\*기본값*\\\*. *속성*
 
 Windows 데스크톱 프로젝트를 정의 하지는 않습니다 `$(ApplicationType)`이므로 가져오기
 
-`$(VCTargetsPath)`\\*Microsoft.Cpp.Default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(MSBuildExtensionsPath)` \\ `$(MSBuildToolsVersion)` \\ *Microsoft.Common.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *ImportBefore*\\*기본값* \\ \*. *props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *플랫폼* \\ `$(Platform)` \\ *Platform.default.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *ImportAfter* \\  *기본*\\\*. *속성*
+> `$(VCTargetsPath)`\\*Microsoft.Cpp.Default.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(MSBuildExtensionsPath)`\\`$(MSBuildToolsVersion)`\\*Microsoft.Common.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*ImportBefore*\\*기본값*\\\*. *속성* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*Platforms*\\`$(Platform)`\\*Platform.default.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*ImportAfter*\\*기본값*\\\*. *속성*
 
 사용 하 여는 `$(_PlatformFolder)` 보유 하는 속성을 `$(Platform)` 플랫폼 폴더 위치입니다. 이 속성은
 
-`$(VCTargetsPath)`\\*플랫폼*\\`$(Platform)`
+> `$(VCTargetsPath)`\\*플랫폼*\\`$(Platform)`
 
 Windows 데스크톱 앱 및
 
-`$(VCTargetsPath)`\\*응용 프로그램 종류*\\`$(ApplicationType)`\\`$(ApplicationTypeRevision)`\\*플랫폼*\\`$(Platform)`
+> `$(VCTargetsPath)`\\*응용 프로그램 종류*\\`$(ApplicationType)`\\`$(ApplicationTypeRevision)`\\*플랫폼*\\`$(Platform)`
 
 그 외 모든 합니다.
 
 Props 파일은이 순서 대로 가져옵니다.
 
-`$(VCTargetsPath)`\\*Microsoft.Cpp.props* &nbsp; &nbsp; &nbsp; &nbsp; `$(_PlatformFolder)` \\ *Platform.props* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *Microsoft.Cpp.Platform.props* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `$(_PlatformFolder)` \\ *ImportBefore* \\\*. *props* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `$(_PlatformFolder)` \\ *PlatformToolsets*\\`$(PlatformToolset)`\\*Toolset.props* &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\ *</c152>ImportAfter<spanclass="notranslate">*\\\*. *속성</span>*
+> `$(VCTargetsPath)`\\*Microsoft.Cpp.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*Platform.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*Microsoft.Cpp.Platform.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportBefore*\\\*. *속성* \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*PlatformToolsets*\\`$(PlatformToolset)`\\*Toolset.props* \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportAfter*\\\*. *속성*
 
 대상 파일은이 순서 대로 가져옵니다.
 
-`$(VCTargetsPath)`\\*Microsoft.Cpp.targets* &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *Microsoft.Cpp.Current.targets* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `$(_PlatformFolder)` \\ *Platform.targets* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `$(VCTargetsPath)` \\ *Microsoft.Cpp.Platform.targets*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</c102><spanclass="notranslate">&nbsp;`$(_PlatformFolder)`\\*ImportBefore*\\\*. *대상을* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `$(_PlatformFolder)` \\ *PlatformToolsets* \\ `$(PlatformToolset)` \\ *Toolset.target* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `$(_PlatformFolder)` \\ *ImportAfter* \\\*. *대상</span>*
+> `$(VCTargetsPath)`\\*Microsoft.Cpp.targets* \
+&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*Microsoft.Cpp.Current.targets* \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*Platform.targets* \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*Microsoft.Cpp.Platform.targets* \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportBefore*\\\*. *대상* \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*PlatformToolsets*\\`$(PlatformToolset)`\\*Toolset.target* \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportAfter*\\\*.*targets*
 
 프로그램 도구 집합에 대 한 몇 가지 기본 속성을 정의 하는 경우에 적절 한 ImportBefore 및 ImportAfter 폴더에 파일을 추가할 수 있습니다.
 
@@ -119,13 +153,13 @@ Props 파일은이 순서 대로 가져옵니다.
 
 - `$(VCTargetsPath)`\\*Microsoft.CppCommon.targets*
 
-   이 파일 기본 빌드 프로세스의 주요 부분을 정의 하 고 가져옵니다.
+  이 파일 기본 빌드 프로세스의 주요 부분을 정의 하 고 가져옵니다.
 
-   - `$(VCTargetsPath)`\\*Microsoft.CppBuild.targets*
+  - `$(VCTargetsPath)`\\*Microsoft.CppBuild.targets*
 
-   - `$(VCTargetsPath)`\\*Microsoft.BuildSteps.targets*
+  - `$(VCTargetsPath)`\\*Microsoft.BuildSteps.targets*
 
-   - `$(MSBuildToolsPath)`\\*Microsoft.Common.Targets*
+  - `$(MSBuildToolsPath)`\\*Microsoft.Common.Targets*
 
 - `$(VCTargetsPath)`\\*Microsoft.Cpp.Common.props*
 
@@ -290,7 +324,7 @@ MSBuild는 이러한 도우미 클래스를.tlog 파일 읽기 및 쓰기를 제
 
 *읽기* .tlog 파일 (\*.read.\*합니다. tlog) 소스 파일 및 해당 종속성에 대 한 정보를 포함 합니다.
 
-캐럿 (**^**) 줄의 시작 부분에 하나 이상의 소스를 나타냅니다. 종속성이 동일한 공유 하는 원본의 세로 막대로 구분 됩니다 (**\|**).
+캐럿 ( **^** ) 줄의 시작 부분에 하나 이상의 소스를 나타냅니다. 종속성이 동일한 공유 하는 원본의 세로 막대로 구분 됩니다 ( **\|** ).
 
 종속성 파일 자체 줄에 각 원본 뒤에 나열 됩니다. 모든 파일 이름은 전체 경로입니다.
 
@@ -315,7 +349,7 @@ F:\TEST\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\CLASS1.H
 
 *작성할* .tlog (\*.write.\*합니다. tlog) 파일 원본 및 출력에 연결합니다.
 
-캐럿 (**^**) 줄의 시작 부분에 하나 이상의 소스를 나타냅니다. 여러 원본 세로 막대로 구분 됩니다 (**\|**).
+캐럿 ( **^** ) 줄의 시작 부분에 하나 이상의 소스를 나타냅니다. 여러 원본 세로 막대로 구분 됩니다 ( **\|** ).
 
 출력 파일 원본에서 빌드된 후 자체 줄에 각 원본에 나열 되어야 합니다. 모든 파일 이름은 전체 경로 여야 합니다.
 
@@ -436,7 +470,7 @@ msbuild /p:SolutionDir=*solution-directory-with-trailing-backslash*;Configuratio
 
 CPS는 컨텍스트 형식에 대해 다른 값을 지원 하지만 시각적 개체에 사용 되지 않을 C++ 프로젝트입니다.
 
-세미콜론으로 사용 하 여 규칙에 둘 이상의 컨텍스트에 표시 해야 합니다 (**;**) 다음과 같이 상황에 맞는 값을 구분 합니다.
+세미콜론으로 사용 하 여 규칙에 둘 이상의 컨텍스트에 표시 해야 합니다 ( **;** ) 다음과 같이 상황에 맞는 값을 구분 합니다.
 
 ```xml
 <PropertyPageSchema Include="$(MyFolder)\MyRule.xml">
@@ -459,7 +493,7 @@ CPS는 컨텍스트 형식에 대해 다른 값을 지원 하지만 시각적 �
 
 합니다 `PageTemplate` 특성은 규칙에 표시 되는 방식을 정의 합니다 **속성 페이지** 대화 합니다. 특성을 다음이 값 중 하나일 수 있습니다.
 
-| 특성 | 설명 |
+| 특성 | Description |
 |------------| - |
 | `generic` | 모든 속성이 범주 머리글 아래에서 한 페이지에 표시 됩니다.<br/>규칙에 대 한 표시 될 수 있습니다 `Project` 하 고 `PropertySheet` 컨텍스트를 아닌 `File`합니다.<br/><br/> 예제: `$(VCTargetsPath)`\\*1033*\\*general.xml* |
 | `tool` | 범주는 하위로 표시 됩니다.<br/>규칙이 모든 컨텍스트에 표시 될 수 있습니다: `Project`, `PropertySheet` 고 `File`입니다.<br/>프로젝트 항목이 있는 경우에 규칙은 프로젝트 속성에 표시 합니다 `ItemType` 에 정의 된 `Rule.DataSource`규칙 이름에 포함 되어 있지 않으면는 `ProjectTools` 항목 그룹입니다.<br/><br/>예제: `$(VCTargetsPath)`\\*1033*\\*clang.xml* |
@@ -522,7 +556,7 @@ Visual Studio에서 디버그 서비스 디버그 엔진에 대 한 확장성을
 
 디버그 세션에 대 한 디버그 엔진 및 기타 속성 지정을 구현 해야 합니다는 [디버그 시작 관리자](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/extensibility/IDebugLaunchProvider.md) MEF 구성 요소 추가 `debugger` 규칙입니다. 예를 들어 참조 된 `$(VCTargetsPath)` \\1033\\디버거\_로컬\_windows.xml 파일.
 
-### <a name="deploy"></a>배포:
+### <a name="deploy"></a>배포
 
 .vcxproj 프로젝트 사용에 대 한 Visual Studio 프로젝트 시스템 확장성 [배포 공급자](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/extensibility/IDeployProvider.md)합니다.
 
@@ -554,7 +588,7 @@ Visual Studio에서 디버그 서비스 디버그 엔진에 대 한 확장성을
 
 1. 속성 `_UpgradePlatformToolsetFor_<safe_toolset_name>` 현재 도구 집합에 대해 정의 된 이며 해당 값은 현재 도구 집합을 사용 하 여 같음 없습니다.
 
-   이러한 속성 이름의  *\<safe_toolset_name >* 밑줄로 대체 하는 모든 영숫자가 아닌 문자를 사용 하 여 도구 집합 이름을 나타냅니다 (**\_**).
+   이러한 속성 이름의  *\<safe_toolset_name >* 밑줄로 대체 하는 모든 영숫자가 아닌 문자를 사용 하 여 도구 집합 이름을 나타냅니다 ( **\_** ).
 
 프로젝트를 업그레이드할 수 있는 경우에 참여할 *솔루션 대상 변경*합니다. 자세한 내용은 [IVsTrackProjectRetargeting2](/dotnet/api/microsoft.visualstudio.shell.interop.ivstrackprojectretargeting2)합니다.
 

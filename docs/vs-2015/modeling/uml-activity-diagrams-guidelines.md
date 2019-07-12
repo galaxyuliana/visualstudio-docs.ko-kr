@@ -15,12 +15,12 @@ caps.latest.revision: 50
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 16bc3bf0f2cb7fa51a42986ee99976410ca7874a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 310e13e781997fd3a6431e4257918f8e61b9420d
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63439734"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823574"
 ---
 # <a name="uml-activity-diagrams-guidelines"></a>UML 동작 다이어그램: 지침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -208,15 +208,15 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
  개체 노드의 속성을 설정하여 버퍼의 항목을 저장하는 방법을 지정할 수 있습니다.  
   
 - 설정 된 **Ordering** 속성:  
-  
-    - **순서가 지정 되지 않은** 무작위 순서나 미지정 순서를 지정 합니다. (기본값)  
-  
-    - **정렬** 특정 키에 따라 순서를 지정 합니다.  
-  
-    - **Fifo** 선입의 순서를 지정 선출 합니다.  
-  
-    - **Lifo** 마지막-후입선출 순서를 지정 합니다.  
-  
+
+  - **순서가 지정 되지 않은** 무작위 순서나 미지정 순서를 지정 합니다. (기본값)  
+
+  - **정렬** 특정 키에 따라 순서를 지정 합니다.  
+
+  - **Fifo** 선입의 순서를 지정 선출 합니다.  
+
+  - **Lifo** 마지막-후입선출 순서를 지정 합니다.  
+
 - 설정 된 **상한** 버퍼에 포함 될 수 있는 개체의 최대 수를 지정 하는 속성입니다. 기본값은 *입니다. 이는 제한이 없음을 의미합니다.  
   
 ### <a name="describing-data-flow-with-input-and-output-pins"></a>입력 및 출력 핀을 사용하여 데이터 흐름 설명  
@@ -295,7 +295,7 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
   
  고객이 신용 카드를 처리하는 데 필요한 완전하고 올바른 세부 정보를 제공했습니다.  
   
- 사후 조건은 작업 발생 전후 상태 간의 관계를 표현합니다. 예를 들어:  
+ 사후 조건은 작업 발생 전후 상태 간의 관계를 표현합니다. 예:  
   
  이자율이 이전보다 2배가 되었습니다.  
   
@@ -317,7 +317,7 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
   
 - 설정할 수 있습니다 합니다 **동기** 작업이 완료 될 때까지 기다릴지 여부를 나타내는 동작의 속성입니다.  
   
-    - 설정 하는 경우 **동기** false로 있음을 나타냅니다 호출된 된 작업이 완료 되기 전에 흐름이 다음 작업으로 계속 될 수 있습니다. 작업에서 출력 핀 또는 나가는 데이터 흐름을 정의하면 안 됩니다.  
+  - 설정 하는 경우 **동기** false로 있음을 나타냅니다 호출된 된 작업이 완료 되기 전에 흐름이 다음 작업으로 계속 될 수 있습니다. 작업에서 출력 핀 또는 나가는 데이터 흐름을 정의하면 안 됩니다.  
   
 ## <a name="Concurrent"></a> 동시 흐름  
  사용할 수는 **분기 노드** 및 **조인 노드** 두 개 이상의 스레드가 동시에 실행할 수 있는 작업을 설명 합니다.  
@@ -426,7 +426,7 @@ Visual Studio에서 동작 다이어그램을 그려서 일련의 작업을 통�
   
    개체 노드 및 개별 입력/출력 핀에 대해 선택을 정의할 수도 있습니다. 이전 절차 처럼 선택 동작을 정의 하 고 다음을 설정 합니다 **선택** 속성, 개체 노드 또는 입력 / 출력 핀을 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [UML 모델 및 다이어그램 편집](../modeling/edit-uml-models-and-diagrams.md)   
  [UML 시퀀스 다이어그램: 참조](../modeling/uml-sequence-diagrams-reference.md)   
  [UML 구성 요소 다이어그램: 참조](../modeling/uml-component-diagrams-reference.md)   

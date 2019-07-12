@@ -9,12 +9,12 @@ caps.latest.revision: 16
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: fe17c72463d58cb4e1ac0a76d904416559ed224b
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 54218fd5c351b400ce9744620987f50d35e0558f
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65690544"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825390"
 ---
 # <a name="how-to-add-a-drag-and-drop-handler"></a>방법: 끌어서 놓기 처리기 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,9 +27,9 @@ ms.locfileid: "65690544"
   
 - 처음 두 섹션에서는 제스처 처리기를 정의하는 여러 방법에 대해 설명합니다.  
   
-    - [ShapeElement 메서드를 재정의 하 여 제스처 처리기 정의](#overrideShapeElement)합니다. `OnDragDrop`, `OnDoubleClick`, `OnDragOver` 및 기타 메서드를 재정의할 수 있습니다.  
-  
-    - [MEF를 사용 하 여 제스처 처리기 정의](#MEF)합니다. 타사 개발자가 DSL에 대해 고유한 처리기를 정의할 수 있도록 하려면 이 메서드를 사용합니다. 사용자는 DSL을 설치한 후 타사 확장을 설치할 수 있습니다.  
+  - [ShapeElement 메서드를 재정의 하 여 제스처 처리기 정의](#overrideShapeElement)합니다. `OnDragDrop`, `OnDoubleClick`, `OnDragOver` 및 기타 메서드를 재정의할 수 있습니다.  
+
+  - [MEF를 사용 하 여 제스처 처리기 정의](#MEF)합니다. 타사 개발자가 DSL에 대해 고유한 처리기를 정의할 수 있도록 하려면 이 메서드를 사용합니다. 사용자는 DSL을 설치한 후 타사 확장을 설치할 수 있습니다.  
   
 - [끌어 온된 항목을 디코딩하는 방법](#extracting)합니다. 임의의 창이나 바탕 화면 또는 DSL에서 요소를 끌 수 있습니다.  
   

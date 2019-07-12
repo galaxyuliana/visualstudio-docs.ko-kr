@@ -11,12 +11,12 @@ ms.workload:
 - aspnet
 - dotnetcore
 - azure
-ms.openlocfilehash: afed42cbdb03ba0fb47880ed0126bad9858f83fa
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 2fbdc27ba7a3ae69494bf8129e4c870f325fe621
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63407777"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824430"
 ---
 # <a name="remote-debug-aspnet-core-on-iis-in-azure-in-visual-studio"></a>Visual Studio에서 Azure에는 IIS에서 ASP.NET Core 원격 디버그
 
@@ -42,7 +42,7 @@ Azure의 원격 디버그 하는 권장된 방법은 시나리오에 따라 달�
 > [!WARNING]
 > 이 자습서의 단계를 완료 하는 경우 만든 Azure 리소스를 삭제 해야 합니다. 이렇게 불필요 한 요금이 발생을 방지할 수 있습니다.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 ::: moniker range=">=vs-2019"
 Visual Studio 2019은이 문서에 나와 있는 단계를 수행 해야 합니다.
@@ -90,7 +90,7 @@ Visual Studio에서 게시 하 고 IIS의 인스턴스를 완전히 프로 비�
 
     Visual Studio에서 중단점이 적중됩니다.
 
-    정말 간단하죠. 이 항목의에서 단계에서는 나머지는 Azure VM에서 원격 디버깅에 적용 됩니다.
+    이제 끝났습니다! 이 항목의에서 단계에서는 나머지는 Azure VM에서 원격 디버깅에 적용 됩니다.
 
 ## <a name="remote_debug_azure_vm"></a> Azure VM의 원격 디버그 ASP.NET Core
 
@@ -108,9 +108,9 @@ Windows 서버에 대 한 Azure VM 만들기 지정 하 고 설치 및 IIS 및 �
 
 * 앱 설정 되어 있는지를 배포 해야 하는 데 도움이 필요 하 고이 항목의 모든 단계에 따라 디버그할 수 있도록 IIS에서 올바르게 실행 했습니다.
 
-    * 시작 하기 전에에 설명 된 모든 단계를 따릅니다 [설치 및 실행된 IIS](/azure/virtual-machines/windows/quick-create-portal)합니다.
+  * 시작 하기 전에에 설명 된 모든 단계를 따릅니다 [설치 및 실행된 IIS](/azure/virtual-machines/windows/quick-create-portal)합니다.
 
-    * 네트워크 보안 그룹에 포트 80을 여는 경우 열 수도 합니다 [포트를 수정](#bkmk_openports) 원격 디버거 (4024 또는 4022)에 대 한 합니다. 이런 방식으로 나중에 열 필요가 없습니다.
+  * 네트워크 보안 그룹에 포트 80을 여는 경우 열 수도 합니다 [포트를 수정](#bkmk_openports) 원격 디버거 (4024 또는 4022)에 대 한 합니다. 이런 방식으로 나중에 열 필요가 없습니다.
 
 ### <a name="update-browser-security-settings-on-windows-server"></a>Windows Server에서 브라우저 보안 설정 업데이트
 

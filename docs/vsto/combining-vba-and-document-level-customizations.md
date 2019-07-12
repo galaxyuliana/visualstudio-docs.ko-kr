@@ -24,12 +24,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 5e1a4eeeaf6cc979fd9ee7c3ea36a900899596a4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 33481307ea6065b0421cd3ae20e54ca778ee4fd4
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63447160"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826017"
 ---
 # <a name="combine-vba-and-document-level-customizations"></a>VBA 및 문서 수준 사용자 지정 결합
   Microsoft Office Word 또는 Microsoft Office Excel의 문서 수준 사용자 지정의 일부인 문서에서 VBA(Visual Basic for Applications) 코드를 사용할 수 있습니다. 사용자 지정 어셈블리에서 문서의 VBA 코드를 호출하거나, 문서의 VBA 코드에서 사용자 지정 어셈블리의 코드를 호출할 수 있도록 프로젝트를 구성할 수 있습니다.
@@ -88,9 +88,9 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 
 - 문서에 다음 파일 이름 확장명 중 하나가 있어야 합니다.
 
-    - Word의 경우:에 대 한 *.docm* 또는 *.doc*
+  - Word의 경우:에 대 한 *.docm* 또는 *.doc*
 
-    - : Excel 용 *.xlsm*, *.xltm*하십시오 *.xls*, 또는 *.xlt*
+  - : Excel 용 *.xlsm*, *.xltm*하십시오 *.xls*, 또는 *.xlt*
 
 - 문서에 VBA 코드가 포함된 VBA 프로젝트가 이미 있어야 합니다.
 

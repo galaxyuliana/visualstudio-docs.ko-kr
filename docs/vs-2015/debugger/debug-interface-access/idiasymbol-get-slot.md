@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: b668d11c48185d8daac5d8b17ff8848e5f9c1fd6
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63433957"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64804765"
 ---
 # <a name="idiasymbolgetslot"></a>IDiaSymbol::get_slot
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,6 +43,6 @@ HRESULT get_slot ( 
 > [!NOTE]
 > 반환 값이 `S_FALSE` 속성 기호에 사용할 수 없다는 것을 의미 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md)

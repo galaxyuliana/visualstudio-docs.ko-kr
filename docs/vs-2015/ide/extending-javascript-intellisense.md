@@ -15,12 +15,12 @@ caps.latest.revision: 43
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e995d9cfd37c625c03df0b607a9dd5184bec5d08
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: eea71ffe2b449e0ee5aff893efd05e12e4ecae73
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441461"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824925"
 ---
 # <a name="extending-javascript-intellisense"></a>JavaScript IntelliSense 확장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -93,7 +93,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
 ## <a name="intellisenseObject"></a> intellisense 개체  
  다음 표에서 사용할 수 있는 함수는 `intellisense` 개체입니다. `intellisense` 개체를 디자인 타임에만 사용할 수 있습니다.  
   
-|함수|설명|  
+|함수|Description|  
 |--------------|-----------------|  
 |`addEventListener(type, handler);`|IntelliSense 이벤트에 대 한 이벤트 처리기를 추가합니다.<br /><br /> `type` 문자열 값이입니다. 유효한 값은 `statementcompletion`, `signaturehelp` 및 `statementcompletionhint`입니다.<br /><br /> `handler` 다음 형식 중 하나의 이벤트 개체를 받는 이벤트 처리기 함수:<br /><br /> -   `CompletionEvent`를 사용 합니다 `statementcompletion` 이벤트입니다.<br />-   `SignatureHelpEvent`를 사용 합니다 `signaturehelp` 이벤트입니다.<br />-   `CompletionHintEvent`를 사용 합니다 `statementcompletionhint` 이벤트입니다.<br /><br /> 이 함수를 사용 하는 예제를 보려면 [코드 예제에서는](#CodeExamples)합니다.|  
 |`annotate(obj, doc);`|다른 개체에 문서 주석을 한 개체에서 복사 하 여 개체에 대 한 설명서를 지정 합니다.<br /><br /> `obj` 설명서를 복사 하는 개체를 지정 합니다.<br /><br /> `doc` 설명서를 복사할 개체를 지정 합니다.<br /><br /> 이 함수를 사용 하는 방법을 보여 주는 예제를 보려면 [IntelliSense 주석 추가](#Annotations)합니다.|  
@@ -147,9 +147,9 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 - `paramComments`. 함수에서 각 매개 변수에 대해 주석을 나타내는 배열을 반환 합니다. 배열의 멤버는 다음과 같습니다.  
   
-    - `name`. 매개 변수 이름을 나타내는 문자열을 반환 합니다.  
-  
-    - `comment`. 매개 변수 설명이 포함 된 문자열을 반환 합니다.  
+  - `name`. 매개 변수 이름을 나타내는 문자열을 반환 합니다.  
+
+  - `comment`. 매개 변수 설명이 포함 된 문자열을 반환 합니다.  
   
 ### <a name="FunctionHelp"></a> functionHelp 속성  
  함수에 대 한 도움말을 반환합니다. 이 속성은 사용할 수는 `signaturehelp` 이벤트 개체입니다.  
@@ -162,47 +162,47 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 - `signatures`. 읽기/쓰기입니다. 함수 시그니처 배열을 가져오거나 설정 합니다. 배열의 각 요소는 `signature` 개체입니다. 일부 `signature` 속성을 같은 `locid`를 공용으로 해당 [XML 문서 주석](../ide/xml-documentation-comments-javascript.md) 특성입니다.  
   
-     멤버는 `signature` 개체 포함:  
-  
-    - `description`. 읽기/쓰기입니다. 함수를 설명 하는 문자열을 반환 합니다.  
-  
+  멤버는 `signature` 개체 포함:  
+
+  - `description`. 읽기/쓰기입니다. 함수를 설명 하는 문자열을 반환 합니다.  
+
+  - `locid`. 읽기/쓰기입니다. 함수에 대 한 지역화 정보를 포함 하는 문자열 식별자를 반환 합니다.  
+
+  - `helpKeyword`. 읽기/쓰기입니다. 도움말 키워드를 포함 하는 문자열을 반환 합니다.  
+
+  - `externalFile`. 읽기/쓰기입니다. 멤버 ID를 포함 하는 파일을 나타내는 문자열을 반환 합니다.  
+
+  - `externalid`. 읽기/쓰기입니다. 함수 멤버 ID를 나타내는 문자열을 반환 합니다.  
+
+  - `params`. 읽기/쓰기입니다. 함수의 매개 변수 배열을 가져오거나 설정 합니다. 매개 변수 배열의 각 요소는 `parameter` 의 다음 특성에 해당 하는 속성이 있는 개체를 [ \<매개 변수 >](../ide/param-javascript.md) 요소:  
+
+    - `name`. 읽기/쓰기입니다. 매개 변수 이름을 나타내는 문자열을 반환 합니다.  
+
+    - `type`. 읽기/쓰기입니다. 매개 변수 형식을 나타내는 문자열을 반환 합니다.  
+
+    - `elementType`. 읽기/쓰기입니다. 형식이 `Array`, 배열에 있는 요소의 형식을 나타내는 문자열을 반환 합니다.  
+
+    - `description`. 읽기/쓰기입니다. 매개 변수를 설명 하는 문자열을 반환 합니다.  
+
     - `locid`. 읽기/쓰기입니다. 함수에 대 한 지역화 정보를 포함 하는 문자열 식별자를 반환 합니다.  
-  
+
+    - `optional`. 읽기/쓰기입니다. 매개 변수가 선택 사항 인지 여부를 나타내는 문자열을 반환 합니다. `true` 매개 변수가 선택 사항입니다; 임을 나타냅니다. `false` 임을 나타냅니다.  
+
+  - `returnValue`. 읽기/쓰기입니다. 다음 특성에 해당 하는 속성을 사용 하 여 반환 값 개체를 가져오거나 합니다 [ \<반환 >](../ide/returns-javascript.md) 요소:  
+
+    - `type`. 읽기/쓰기입니다. 반환 형식을 나타내는 문자열을 반환 합니다.  
+
+    - `elementType`. 읽기/쓰기입니다. 형식이 `Array`, 배열에 있는 요소의 형식을 나타내는 문자열을 반환 합니다.  
+
+    - `description`. 읽기/쓰기입니다. 반환 값을 설명 하는 문자열을 반환 합니다.  
+
+    - `locid`. 읽기/쓰기입니다. 함수에 대 한 지역화 정보를 포함 하는 문자열 식별자를 반환 합니다.  
+
     - `helpKeyword`. 읽기/쓰기입니다. 도움말 키워드를 포함 하는 문자열을 반환 합니다.  
-  
+
     - `externalFile`. 읽기/쓰기입니다. 멤버 ID를 포함 하는 파일을 나타내는 문자열을 반환 합니다.  
-  
+
     - `externalid`. 읽기/쓰기입니다. 함수 멤버 ID를 나타내는 문자열을 반환 합니다.  
-  
-    - `params`. 읽기/쓰기입니다. 함수의 매개 변수 배열을 가져오거나 설정 합니다. 매개 변수 배열의 각 요소는 `parameter` 의 다음 특성에 해당 하는 속성이 있는 개체를 [ \<매개 변수 >](../ide/param-javascript.md) 요소:  
-  
-        - `name`. 읽기/쓰기입니다. 매개 변수 이름을 나타내는 문자열을 반환 합니다.  
-  
-        - `type`. 읽기/쓰기입니다. 매개 변수 형식을 나타내는 문자열을 반환 합니다.  
-  
-        - `elementType`. 읽기/쓰기입니다. 형식이 `Array`, 배열에 있는 요소의 형식을 나타내는 문자열을 반환 합니다.  
-  
-        - `description`. 읽기/쓰기입니다. 매개 변수를 설명 하는 문자열을 반환 합니다.  
-  
-        - `locid`. 읽기/쓰기입니다. 함수에 대 한 지역화 정보를 포함 하는 문자열 식별자를 반환 합니다.  
-  
-        - `optional`. 읽기/쓰기입니다. 매개 변수가 선택 사항 인지 여부를 나타내는 문자열을 반환 합니다. `true` 매개 변수가 선택 사항입니다; 임을 나타냅니다. `false` 임을 나타냅니다.  
-  
-    - `returnValue`. 읽기/쓰기입니다. 다음 특성에 해당 하는 속성을 사용 하 여 반환 값 개체를 가져오거나 합니다 [ \<반환 >](../ide/returns-javascript.md) 요소:  
-  
-        - `type`. 읽기/쓰기입니다. 반환 형식을 나타내는 문자열을 반환 합니다.  
-  
-        - `elementType`. 읽기/쓰기입니다. 형식이 `Array`, 배열에 있는 요소의 형식을 나타내는 문자열을 반환 합니다.  
-  
-        - `description`. 읽기/쓰기입니다. 반환 값을 설명 하는 문자열을 반환 합니다.  
-  
-        - `locid`. 읽기/쓰기입니다. 함수에 대 한 지역화 정보를 포함 하는 문자열 식별자를 반환 합니다.  
-  
-        - `helpKeyword`. 읽기/쓰기입니다. 도움말 키워드를 포함 하는 문자열을 반환 합니다.  
-  
-        - `externalFile`. 읽기/쓰기입니다. 멤버 ID를 포함 하는 파일을 나타내는 문자열을 반환 합니다.  
-  
-        - `externalid`. 읽기/쓰기입니다. 함수 멤버 ID를 나타내는 문자열을 반환 합니다.  
   
 ### <a name="ParentObject"></a> parentObject 속성  
  멤버 함수의 부모 개체를 반환합니다. 예를 들어 `document.getElementByID`, `parentObject` 반환을 `document` 개체입니다. 이 속성은 사용할 수는 `signaturehelp` 이벤트 개체입니다.  

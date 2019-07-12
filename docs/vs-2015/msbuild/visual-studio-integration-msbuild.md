@@ -19,12 +19,12 @@ caps.latest.revision: 26
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 6a1dbe6d96dd9e35b1bfac4a84fb1006c2b99c69
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: c90019aa24047524005ba70aa4f1aec75f89c71d
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65683845"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825419"
 ---
 # <a name="visual-studio-integration-msbuild"></a>Visual Studio 통합(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -160,13 +160,13 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
   
 - 어셈블리 참조:  
   
-     프로젝트 시스템에서 잘 알려진 이름이 `ResolveAssemblyReferences`인 대상을 호출합니다. 이 대상은 항목 형식 이름이 `ReferencePath`인 항목을 출력해야 합니다. 이러한 항목에는 각각 참조에 대한 전체 경로를 포함하는 항목 사양(항목의 `Include` 특성 값)이 있어야 합니다. 항목에는 다음과 같은 새 메타데이터 외에 전달된 입력 항목의 모든 메타데이터가 있어야 합니다.  
-  
-    - `CopyLocal`: 어셈블리를 출력 폴더로 복사할지 여부를 true 또는 false로 설정하여 나타냅니다.  
-  
-    - `OriginalItemSpec`: 참조의 원본 항목 사양이 포함되어 있습니다.  
-  
-    - `ResolvedFrom`: [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 디렉터리에서 확인된 경우 "{TargetFrameworkDirectory}"로 설정됩니다.  
+  프로젝트 시스템에서 잘 알려진 이름이 `ResolveAssemblyReferences`인 대상을 호출합니다. 이 대상은 항목 형식 이름이 `ReferencePath`인 항목을 출력해야 합니다. 이러한 항목에는 각각 참조에 대한 전체 경로를 포함하는 항목 사양(항목의 `Include` 특성 값)이 있어야 합니다. 항목에는 다음과 같은 새 메타데이터 외에 전달된 입력 항목의 모든 메타데이터가 있어야 합니다.  
+
+  - `CopyLocal`: 어셈블리를 출력 폴더로 복사할지 여부를 true 또는 false로 설정하여 나타냅니다.  
+
+  - `OriginalItemSpec`: 참조의 원본 항목 사양이 포함되어 있습니다.  
+
+  - `ResolvedFrom`: [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 디렉터리에서 확인된 경우 "{TargetFrameworkDirectory}"로 설정됩니다.  
   
 - COM 참조:  
   

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: db6c2e47d9f316f758b854e5ce40dfc19acb592b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63400004"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64830555"
 ---
 # <a name="idiasymbolgetisaggregated"></a>IDiaSymbol::get_isAggregated
 데이터 기호는 집계 또는 기호의; 컬렉션의 일부 인지 여부를 지정 하는 플래그를 검색 합니다. 컴파일러에서 집계 된 기호를 별도 엔터티로 처리 되지만 실제로 더 큰 단일 기호 부분입니다.
@@ -46,7 +46,7 @@ HRESULT get_isAggregated(
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|

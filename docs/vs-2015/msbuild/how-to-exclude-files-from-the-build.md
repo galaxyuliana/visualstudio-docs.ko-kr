@@ -13,12 +13,12 @@ caps.latest.revision: 19
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 0cd59df3b6056040445ac8de79e064a939aff145
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: d7aac21e1ee4d77453808090fc37a3fccaf77e1d
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63440056"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821610"
 ---
 # <a name="how-to-exclude-files-from-the-build"></a>방법: 빌드에서 파일 제외
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "63440056"
 프로젝트 파일에서 와일드카드를 사용하여 모든 파일을 하나의 디렉터리 또는 중첩된 디렉터리 집합에 빌드의 입력으로 포함할 수 있습니다. 그러나 해당 디렉터리 또는 중첩된 디렉터리 집합 중 하나의 디렉터리에 빌드의 입력으로 포함하지 않으려는 하나의 파일이 있을 수 있습니다. 입력 목록에서 해당 파일 또는 디렉터리를 명시적으로 제외할 수 있습니다. 특정 조건에서만 포함하려는 파일이 프로젝트에 있을 수도 있습니다. 파일을 빌드에 포함할 조건을 명시적으로 선언할 수 있습니다.  
   
 ## <a name="excluding-a-file-or-directory-from-the-inputs-for-a-build"></a>빌드의 입력에서 파일 또는 디렉터리 제외  
- 항목 목록은 빌드에 사용할 입력 파일입니다. 포함할 항목은 `Include` 특성을 사용하여 그룹으로 또는 개별적으로 선언됩니다. 예를 들어:  
+ 항목 목록은 빌드에 사용할 입력 파일입니다. 포함할 항목은 `Include` 특성을 사용하여 그룹으로 또는 개별적으로 선언됩니다. 예:  
   
 ```  
 <CSFile Include="Form1.cs"/>  
@@ -45,7 +45,7 @@ ms.locfileid: "63440056"
     <CSFile Include="*.cs" Exclude="Form2.cs"/>  
     ```  
   
-     - 또는  
+     \- 또는 -  
   
     ```  
     <VBFile Include="*.vb" Exclude="Form2.vb"/>  
@@ -59,7 +59,7 @@ ms.locfileid: "63440056"
     <CSFile Include="*.cs" Exclude="Form2.cs;Form3.cs"/>  
     ```  
   
-     - 또는  
+     \- 또는 -  
   
     ```  
     <VBFile Include="*.vb" Exclude="Form2.vb;Form3.vb"/>  
@@ -125,6 +125,6 @@ ms.locfileid: "63440056"
 </Project>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [항목](../msbuild/msbuild-items.md)   
  [MSBuild](msbuild.md) [방법: 빌드할 파일 선택](../msbuild/how-to-select-the-files-to-build.md)

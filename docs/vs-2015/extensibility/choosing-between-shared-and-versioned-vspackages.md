@@ -12,12 +12,12 @@ ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
 caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c46e42a00e21e6896a0571e788801d24d3978db1
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 289e506d3cd404bba9a3a63d97179b89a948d381
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65685337"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821971"
 ---
 # <a name="choosing-between-shared-and-versioned-vspackages"></a>공유 및 버전 관리 VSPackage 중에서 선택
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,9 +33,9 @@ ms.locfileid: "65685337"
   
 - VSPackage를 여러 버전의 호환 되도록 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 따라서 이렇게 두 가지 방법으로 사용할 수 있습니다.  
   
-    - 제한의 가장 오래 된 버전의 기능만 사용 하 여 VSPackage [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 지원 합니다.  
-  
-    - VSPackage의 버전에 맞게 프로그램 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실행 됩니다. 그런 다음 새 서비스에 대 한 쿼리가 실패 하는 경우 VSPackage 제공할 수 있습니다의 이전 버전에서 지원 되는 다른 서비스 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
+  - 제한의 가장 오래 된 버전의 기능만 사용 하 여 VSPackage [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 지원 합니다.  
+
+  - VSPackage의 버전에 맞게 프로그램 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 실행 됩니다. 그런 다음 새 서비스에 대 한 쿼리가 실패 하는 경우 VSPackage 제공할 수 있습니다의 이전 버전에서 지원 되는 다른 서비스 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다.  
   
 - 적절 하 게 VSPackage를 등록 합니다. 자세한 내용은 [VSPackage 등록](../extensibility/internals/vspackage-registration.md) 하 고 [관리 되는 VSPackage 등록](https://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)합니다.  
   
@@ -63,6 +63,6 @@ ms.locfileid: "65685337"
   
   VSPackage 이진 파일에 대 한 이진 호환성에 대 한 계획 하는 것 외에도 또한 사항과 고려해 야 솔루션 프로젝트 파일 형식입니다. VSPackage는 새 프로젝트 형식을 만듭니다, 하는 경우 버전을 하나만 또는 여러 버전의 실행할 수 있는지 여부를 결정 해야 합니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. 자세한 내용은 [사용자 지정 프로젝트 업그레이드](../misc/upgrading-custom-projects.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Windows Installer를 사용 하 여 Vspackage 설치](../extensibility/internals/installing-vspackages-with-windows-installer.md)   
  [구성 요소 관리](../extensibility/internals/component-management.md)

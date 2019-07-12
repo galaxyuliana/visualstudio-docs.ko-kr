@@ -10,12 +10,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c307f54deff676ce1add8c745e9d92f1bb3fd657
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: fbd0a9a1886bc1f8743ac8919bcc9cb39559dd19
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66342204"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824935"
 ---
 # <a name="command-implementation"></a>명령 구현
 명령에서 VSPackage를 구현 하려면 다음 작업을 수행 해야 합니다.
@@ -67,23 +67,23 @@ if ( null != mcs )
 
 - GUID와 명령에서 인식 하는 두 메서드를 구현할 경우 메서드는 모든 명령의 명령 플래그 필드를 설정 해야 (에 `prgCmds` 매개 변수) 다음을 사용 하 여 <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> 플래그:
 
-    - `OLECMDF_SUPPORTED`: 명령이 지원 됩니다.
+  - `OLECMDF_SUPPORTED`: 명령이 지원 됩니다.
 
-    - `OLECMDF_INVISIBLE`: 명령을 표시 되어야 합니다.
+  - `OLECMDF_INVISIBLE`: 명령을 표시 되어야 합니다.
 
-    - `OLECMDF_LATCHED`: 명령에 설정/해제 하 고 확인 한 후에 나타납니다.
+  - `OLECMDF_LATCHED`: 명령에 설정/해제 하 고 확인 한 후에 나타납니다.
 
-    - `OLECMDF_ENABLED`: 명령이 활성화 됩니다.
+  - `OLECMDF_ENABLED`: 명령이 활성화 됩니다.
 
-    - `OLECMDF_DEFHIDEONCTXTMENU`: 바로 가기 메뉴에 표시 되는 경우 명령을 숨겨야 합니다.
+  - `OLECMDF_DEFHIDEONCTXTMENU`: 바로 가기 메뉴에 표시 되는 경우 명령을 숨겨야 합니다.
 
-    - `OLECMDF_NINCHED`: 명령 메뉴 컨트롤러가 고을 사용 하지 않는 하지만 해당 드롭다운 메뉴 목록을 비어 있지 않고 계속 사용할 수 있습니다. (이 플래그는 거의 사용 합니다.)
+  - `OLECMDF_NINCHED`: 명령 메뉴 컨트롤러가 고을 사용 하지 않는 하지만 해당 드롭다운 메뉴 목록을 비어 있지 않고 계속 사용할 수 있습니다. (이 플래그는 거의 사용 합니다.)
 
 - 명령에 정의 된 경우는 *.vsct* 파일을 `TextChanges` 플래그, 다음 매개 변수 설정:
 
-    - 설정 합니다 `rgwz` 의 요소는 `pCmdText` 명령의 새 텍스트로 매개 변수입니다.
+  - 설정 합니다 `rgwz` 의 요소는 `pCmdText` 명령의 새 텍스트로 매개 변수입니다.
 
-    - 설정 합니다 `cwActual` 의 요소를 `pCmdText` 매개 변수를 명령 문자열의 크기입니다.
+  - 설정 합니다 `cwActual` 의 요소를 `pCmdText` 매개 변수를 명령 문자열의 크기입니다.
 
 또한 해야 현재 컨텍스트에 automation 함수 명령을 자동화 기능을 처리 하기 위한 것 하지 않는 한 합니다.
 

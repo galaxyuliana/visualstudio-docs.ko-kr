@@ -9,12 +9,12 @@ manager: jillfra
 ms.workload:
 - vssdk
 monikerRange: vs-2017
-ms.openlocfilehash: 802c55844be14192ea5bd5de1870e27e2063ccad
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: f5edad198727ea33d3bf293fa0ee1baf3afb5b3b
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66319317"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823896"
 ---
 # <a name="how-to-migrate-extensibility-projects-to-visual-studio-2017"></a>방법: Visual Studio 2017로 확장성 프로젝트 마이그레이션
 
@@ -62,8 +62,8 @@ Visual Studio의 설치를 사용자의 확장을 실행 하는 데 필요한 �
 * 확장 매니페스트 파일 편집 (일반적으로 호출 *source.extension.vsixmanifest*).
 * 확인 `InstallationTarget` 15.0을 포함 합니다.
 * 아래 예에서 같이 필요한 설치 필수 구성 요소를 추가 합니다.
-   * 설치 필수 구성 요소에 대 한 구성 요소 Id를 지정 하는 것이 좋습니다.
-   * 이 문서의 끝에 있는 섹션을 참조 하세요 [구성 요소 Id를 식별 하는 방법은](#find-component-ids)합니다.
+  * 설치 필수 구성 요소에 대 한 구성 요소 Id를 지정 하는 것이 좋습니다.
+  * 이 문서의 끝에 있는 섹션을 참조 하세요 [구성 요소 Id를 식별 하는 방법은](#find-component-ids)합니다.
 
 예제:
 
@@ -120,12 +120,12 @@ Visual Studio의 실험적 인스턴스에서 확장 프로그램을 디버그 �
 
 * VSIX 프로젝트를 빌드하십시오.
 * 생성 된 VSIX를 압축을 풉니다.
-   * 기본적으로 VSIX 파일 안에 상주 *bin/Debug* 또는 *bin/Release* 으로 *[YourCustomExtension].vsix*합니다.
-   * 이름 바꾸기 *.vsix* 하 *.zip* 내용을 쉽게 볼 수 있습니다.
+  * 기본적으로 VSIX 파일 안에 상주 *bin/Debug* 또는 *bin/Release* 으로 *[YourCustomExtension].vsix*합니다.
+  * 이름 바꾸기 *.vsix* 하 *.zip* 내용을 쉽게 볼 수 있습니다.
 * 세 개의 파일이 있는지 확인 합니다.
-   * *extension.vsixmanifest*
-   * *manifest.json*
-   * *catalog.json*
+  * *extension.vsixmanifest*
+  * *manifest.json*
+  * *catalog.json*
 
 ## <a name="check-when-all-required-prerequisites-are-installed"></a>모든 필수 설치 되 면 확인
 
@@ -141,11 +141,11 @@ VSIX 설치 필요한 모든 필수 구성 요소를 사용 하 여 컴퓨터에
 ![Visual Studio 2017에서 VSIX 설치 관리자](media/vsixinstaller-vs-2017.png)
 
 * 선택 사항: 이전 버전의 Visual Studio에서 확인 합니다.
-   * 이전 버전과 호환성을 증명합니다.
-   * Visual Studio 2012, Visual Studio 2013, Visual Studio 2015에 대해 작동 합니다.
+  * 이전 버전과 호환성을 증명합니다.
+  * Visual Studio 2012, Visual Studio 2013, Visual Studio 2015에 대해 작동 합니다.
 * 선택 사항: 다양 한 버전을 제공 하는 VSIX 설치 관리자 버전 검사를 확인 합니다.
-   * (설치) 하는 경우 이전 버전을의 Visual Studio에 포함 되어 있습니다.
-   * Visual Studio 2017에 포함 됩니다.
+  * (설치) 하는 경우 이전 버전을의 Visual Studio에 포함 되어 있습니다.
+  * Visual Studio 2017에 포함 됩니다.
 
 Visual Studio 최근에 열린 경우 다음과 같은 대화 상자가 표시 될 수 있습니다.
 

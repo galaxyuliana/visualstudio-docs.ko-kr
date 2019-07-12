@@ -20,12 +20,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 610ee5e18054b6da35a3098b851d1585c70b6bc3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d5cb4bf5788e1d30933a807e2e97e064118fc076
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62583778"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823403"
 ---
 # <a name="limitations-of-windows-forms-controls-on-office-documents"></a>Office 문서의 Windows Forms 컨트롤의 제한 사항
 
@@ -41,24 +41,24 @@ ms.locfileid: "62583778"
 
 - Excel 컨트롤의 지원 되지 않는 속성:
 
-    - <xref:System.Windows.Forms.Control.Anchor>
-    - <xref:System.Windows.Forms.Control.Dock>
-    - <xref:System.Windows.Forms.Control.Location>
-    - <xref:System.Windows.Forms.Control.TabIndex>
-    - <xref:System.Windows.Forms.Control.TabStop>
-    - <xref:System.Windows.Forms.Control.TopLevelControl>
+  - <xref:System.Windows.Forms.Control.Anchor>
+  - <xref:System.Windows.Forms.Control.Dock>
+  - <xref:System.Windows.Forms.Control.Location>
+  - <xref:System.Windows.Forms.Control.TabIndex>
+  - <xref:System.Windows.Forms.Control.TabStop>
+  - <xref:System.Windows.Forms.Control.TopLevelControl>
 
 - 지원 되지 않는 메서드 및 Word 컨트롤의 속성:
 
-    - <xref:System.Windows.Forms.Control.Hide%2A>
-    - <xref:System.Windows.Forms.Control.Show%2A>
-    - <xref:System.Windows.Forms.Control.Anchor>
-    - <xref:System.Windows.Forms.Control.Dock>
-    - <xref:System.Windows.Forms.Control.Location>
-    - <xref:System.Windows.Forms.Control.TabIndex>
-    - <xref:System.Windows.Forms.Control.TabStop>
-    - <xref:System.Windows.Forms.Control.TopLevelControl>
-    - <xref:System.Windows.Forms.Control.Visible>
+  - <xref:System.Windows.Forms.Control.Hide%2A>
+  - <xref:System.Windows.Forms.Control.Show%2A>
+  - <xref:System.Windows.Forms.Control.Anchor>
+  - <xref:System.Windows.Forms.Control.Dock>
+  - <xref:System.Windows.Forms.Control.Location>
+  - <xref:System.Windows.Forms.Control.TabIndex>
+  - <xref:System.Windows.Forms.Control.TabStop>
+  - <xref:System.Windows.Forms.Control.TopLevelControl>
+  - <xref:System.Windows.Forms.Control.Visible>
 
 또한 설정할 수 없습니다는 <xref:System.Windows.Forms.Control.Left> 또는 <xref:System.Windows.Forms.Control.Top> Word 문서에서 텍스트 줄 수 있는 Windows Forms 컨트롤의 속성입니다. Windows Forms 컨트롤은 다음 경우에는 텍스트에 맞춰 추가 됩니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "62583778"
 
 Windows Forms 컨트롤 일반적으로 동일 하 게 동작에서 Office 문서에 Windows Form에 수행 하지만 몇 가지 차이점이 분명히 존재 합니다. 다음 표에서 Office 문서의 Windows Forms 컨트롤에 대 한 존재 하는 차이점을 설명 합니다.
 
-|기능|차이점|
+|기능|차이|
 |-------------------|----------------|
 |컨트롤 탭 순서|Excel 워크시트 또는 Word 문서에 배치 하는 컨트롤을 통해 탭 수 없습니다.|
 |컨트롤 그룹화|사용할 수 없습니다는 <xref:System.Windows.Forms.GroupBox> Office 문서에 있는 다른 컨트롤을 포함 하는 컨트롤입니다. 문서에 직접 여러 라디오 단추를 추가 하면 라디오 단추 상호 배타적인있지 않습니다. 라디오 단추를 함께 사용할 수 없습니다; 확인 코드를 작성할 수 있습니다. 그러나, 사용자 정의 컨트롤 라디오 단추를 추가 하 고 다음 문서에 사용자 정의 컨트롤을 추가 하는 가장 좋은 방법이입니다. 자세한 내용은 Word 컨트롤 샘플 또는 Excel 컨트롤 샘플을 참조 하세요. [Office 개발 샘플 및 연습](../vsto/office-development-samples-and-walkthroughs.md)합니다.|

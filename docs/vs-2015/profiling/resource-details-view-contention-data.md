@@ -13,12 +13,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: aac43a88a62182a33ea3b340c5520e921d681cd7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 922edcd45dd42c8da5a9ec4dc8d3e8f450ceea09
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089577"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823608"
 ---
 # <a name="resource-details-view---contention-data"></a>리소스 정보 뷰 - 경합 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,10 +39,10 @@ ms.locfileid: "60089577"
   
 - 다음 단계 중 하나를 수행합니다.  
   
-    - **축소**를 클릭하여 이전 확대/축소 수준으로 돌아갑니다.  
-  
-    - **확대/축소 다시 설정**을 클릭하여 뷰의 전체 시간 표시 막대를 표시합니다.  
-  
+  - **축소**를 클릭하여 이전 확대/축소 수준으로 돌아갑니다.  
+
+  - **확대/축소 다시 설정**을 클릭하여 뷰의 전체 시간 표시 막대를 표시합니다.  
+
 #### <a name="to-view-the-call-stack-of-an-event"></a>이벤트의 호출 스택을 보려면  
   
 - 시간 표시 막대 그래프에서 이벤트 막대를 클릭합니다.  

@@ -8,12 +8,12 @@ ms.author: madsk
 manager: justinclareburt
 ms.workload:
 - willbrown
-ms.openlocfilehash: 4680adaf23abd01e72901c9a470633addbf0d924
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: 392a0157522f5baa8e8736d52c940b31c0a44cde
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66324892"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826037"
 ---
 # <a name="how-to-make-extensions-compatible-with-visual-studio-2017-and-visual-studio-2015"></a>방법: 확장을 Visual Studio 2017 및 Visual Studio 2015와 호환 되도록
 
@@ -31,7 +31,7 @@ ms.locfileid: "66324892"
     * 설치 대상
     * 전제 조건
 3. CSProj를 업데이트 합니다.
-    * 업데이트 `<MinimumVisualStudioVersion>`합니다.
+    * `<MinimumVisualStudioVersion>`를 업데이트합니다.
     * 추가 된 `<VsixType>` 속성입니다.
     * 디버깅 속성 추가 `($DevEnvDir)` 3 회입니다.
     * 빌드 도구 및 대상을 가져오기에 대 한 조건을 추가 합니다.
@@ -57,8 +57,8 @@ ms.locfileid: "66324892"
 * 에 대 한 참조를 기록해 *project.json*합니다.
 * **솔루션 탐색기**를 삭제 합니다 *project.json* 프로젝트의 파일. 이 삭제 합니다 *project.json* 파일과 프로젝트에서 제거 합니다.
 * NuGet 참조를 프로젝트에 다시 추가 합니다.
-    * 마우스 오른쪽 단추로 클릭 합니다 **솔루션** 선택한 **솔루션용 NuGet 패키지 관리**합니다.
-    * Visual Studio에서 자동으로 만듭니다는 *packages.config* 파일입니다.
+  * 마우스 오른쪽 단추로 클릭 합니다 **솔루션** 선택한 **솔루션용 NuGet 패키지 관리**합니다.
+  * Visual Studio에서 자동으로 만듭니다는 *packages.config* 파일입니다.
 
 > [!NOTE]
 > 마우스 오른쪽 단추로 클릭 하 여 추가 해야 할 수 프로젝트가 EnvDTE 패키지에 포함 하는 경우 **참조** 선택 **참조 추가** 적절 한 참조를 추가 합니다. NuGet 패키지를 사용 하 여 프로젝트를 빌드하는 동안 오류를 만들 수 있습니다.
@@ -165,7 +165,7 @@ Visual Studio는 VSIX 빌드에 대 한 대상 버전을 지시 해야 합니다
 
 * 추가 조건부 명령문을 추가 합니다 `<import>` Microsoft.VSSDK.BuildTools 참조 하는 태그입니다. 삽입 `'$(VisualStudioVersion)' != '14.0' And` 조건문 맨 앞에 있습니다. 이러한 문은 머리글과 바닥글을 csproj 파일에 표시 됩니다.
 
-예를 들어:
+예:
 
 ```xml
 <Import Project="packages\Microsoft.VSSDK.BuildTools.15.0.26201…" Condition="'$(VisualStudioVersion)' != '14.0' And Exists(…" />
@@ -189,7 +189,7 @@ Visual Studio는 VSIX 빌드에 대 한 대상 버전을 지시 해야 합니다
 
 * 추가 조건부 명령문을 추가 합니다 `<Error>` 는 Microsoft.VisualStudio.Sdk.BuildTasks.14.0 있는 태그입니다. 삽입 `'$(VisualStudioVersion)' == '14.0' And` 조건문 맨 앞에 있습니다. 이러한 문은 csproj 파일의 바닥글에 표시 됩니다.
 
-예를 들어:
+예:
 
 ```xml
 <Error Condition="'$(VisualStudioVersion)' == '14.0' And Exists('packages\Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0…" />
