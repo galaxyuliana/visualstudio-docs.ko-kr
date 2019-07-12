@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 2b56203f2d0bfb2e7c20720b595cdde6b92aa987
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430624"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64834382"
 ---
 # <a name="idiasymbolgetcustomcallingconvention"></a>IDiaSymbol::get_customCallingConvention
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,10 +45,10 @@ HRESULT get_customCallingConvention(
   
 ## <a name="requirements"></a>요구 사항  
   
-|요구 사항|설명|  
+|요구 사항|Description|  
 |-----------------|-----------------|  
 |헤더:|dia2.h|  
 |버전:|DIA SDK v8.0|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

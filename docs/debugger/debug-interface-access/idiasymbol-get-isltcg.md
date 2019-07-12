@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4f5fe47d8575c47756cce8fd1580ced5f3036766
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63399963"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64785723"
 ---
 # <a name="idiasymbolgetisltcg"></a>IDiaSymbol::get_isLTCG
 지정 하는 플래그를 검색 하는지 여부를 [Compiland](../../debugger/debug-interface-access/compiland.md) 링커 스위치를 사용 하 여 연결 되었습니다 [/LTCG (링크 타임 코드 생성)](/cpp/build/reference/ltcg-link-time-code-generation), 전체 프로그램 최적화 하는 데는 도움이 합니다. 이 스위치는 관리 되는 코드에만 적용 됩니다.
@@ -43,7 +43,7 @@ HRESULT get_iSLTCG(
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|

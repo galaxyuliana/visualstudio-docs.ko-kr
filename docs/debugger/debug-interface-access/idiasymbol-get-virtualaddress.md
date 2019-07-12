@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 3aa09e0e40250d1e7d40ec0f85adca617852919f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63401282"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64786519"
 ---
 # <a name="idiasymbolgetvirtualaddress"></a>IDiaSymbol::get_virtualAddress
 가상 주소 (VA) 위치를 검색 합니다. 사용 시기를 [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md) 로 설정 된 `LocIsStatic`합니다.
@@ -41,6 +41,6 @@ HRESULT get_virtualAddress ( 
 > [!NOTE]
 > 반환 값이 `S_FALSE` 속성 기호를 사용할 수 없는 것을 의미 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md)

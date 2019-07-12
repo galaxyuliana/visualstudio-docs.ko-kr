@@ -8,12 +8,12 @@ ms.assetid: e8747d07-6c90-46cc-b425-55b589f7e9e4
 caps.latest.revision: 3
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: c2fa6b0ddf0e7596f5345a3c36290fa931d3bb4a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: ea4f2b49838340fcee41bc9c41ef94558e44825e
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60079014"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823618"
 ---
 # <a name="ui-text-and-help-for-visual-studio"></a>UI 텍스트 및 Visual Studio에 대 한 도움말
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -157,7 +157,7 @@ ms.locfileid: "60079014"
 
 ### <a name="common-terminology"></a>일반적인 용어
 
-|용어|설명|주석|
+|용어|설명|설명|
 |----------|-----------------|-------------|
 |로그인/로그 아웃|동사를 나타내는 웹 속성에 대 한 인증에 대 한 웹과 같은 뜻으로 사용 합니다. 클라이언트 내에서 사용이 한 번 최상위 개념으로 IDE 사용자 연결에서 로밍 하는 라이선스 등 더 높은 수준의 기능을 다른 모든 연결과 함께 사용할 수 없는 제공 하는 최상위 id를 나타내는 내부 및 외부로 서명 합니다.|IDE 사용자 로그인을 나타내는 / 동사를 로그 아웃 해야 하는 유일한 기능은 최상위 IDE를 나타냅니다.|
 |연결/연결 끊기|위치 기능 온라인 서비스에 단일 연결을 유지 하는 위치에서 사용 합니다.|서버 탐색기를 사용할 수 있는 한 번에 하나의 활성 Azure 연결에는 연결/연결 끊기의 예시입니다.|
@@ -193,11 +193,11 @@ ms.locfileid: "60079014"
 
 - 몇 가지 질문이 오류 메시지를 생성 하는 경우:
 
-    - 사용자만이 오류를 사용 하 여 문제를 해결 하는 방법에 대해 알 수 있습니까?
+  - 사용자만이 오류를 사용 하 여 문제를 해결 하는 방법에 대해 알 수 있습니까?
 
-    - 사용자는이 오류와 같은 어휘를 사용 하나요?
+  - 사용자는이 오류와 같은 어휘를 사용 하나요?
 
-    - 이 오류 모호 하거나 여러 상황에서 공유? 그렇다면 어떻게 수행 하면 사용자에 대 한 가이드 필요한 솔루션?
+  - 이 오류 모호 하거나 여러 상황에서 공유? 그렇다면 어떻게 수행 하면 사용자에 대 한 가이드 필요한 솔루션?
 
 #### <a name="build-errors"></a>빌드 오류
  Visual Studio 소프트웨어 개발 도구 이므로 해당 구성 요소 중 상당수에 컴파일, 변환 또는 인코딩 개발자의 작업이 이진 형식으로 변환 하는 단계입니다. 이러한 변환은 컴파일러는 잘못 작성 된 파일을 처리할 수 없는 경우 또는 컴파일러 옵션이 올바르게 설정 되지 않은 경우 오류가 발생할 수 있습니다.
@@ -422,5 +422,5 @@ public class HelpForm : Form
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
  [글꼴 및 Visual Studio에 대 한 서식 지정](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md) [Layout for Visual Studio](../../extensibility/ux-guidelines/layout-for-visual-studio.md) [Visual Studio의 알림 및 진행률](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md)

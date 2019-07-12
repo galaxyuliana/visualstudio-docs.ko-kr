@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f5a760389f589dc14e8a768991323c0419dac527
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63401492"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64808718"
 ---
 # <a name="idiasymbolgethassecuritychecks"></a>IDiaSymbol::get_hasSecurityChecks
 함수나 compiland 버퍼 오버런 보안 검사를 사용 하 여 컴파일된 여부를 지정 하는 플래그를 검색 합니다 (예를 들어 합니다 [/GS (버퍼 보안 검사)](/cpp/build/reference/gs-buffer-security-check) 컴파일러 스위치).
@@ -48,6 +48,6 @@ HRESULT get_hasSecurityChecks(
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [/GS(버퍼 보안 검사)](/cpp/build/reference/gs-buffer-security-check)

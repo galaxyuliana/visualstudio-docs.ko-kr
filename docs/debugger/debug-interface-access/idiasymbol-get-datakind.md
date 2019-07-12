@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: cf4a0324046383557c9c32afae2e6f05a41124ba
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63401981"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64790390"
 ---
 # <a name="idiasymbolgetdatakind"></a>IDiaSymbol::get_dataKind
 데이터 기호 변수 분류를 검색합니다.
@@ -48,6 +48,6 @@ HRESULT get_dataKind ( 
 |헤더:|dia2.h|
 |버전:|DIA SDK v7.0|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [DataKind 열거형](../../debugger/debug-interface-access/datakind.md)

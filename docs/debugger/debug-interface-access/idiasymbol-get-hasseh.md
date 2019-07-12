@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 41987007dd5121dff8cce1eb91ea9e1c4d93578c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63401445"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64816352"
 ---
 # <a name="idiasymbolgethasseh"></a>IDiaSymbol::get_hasSEH
 함수 하나 포함 되는지 여부를 지정 하는 플래그를 검색 [구조적 예외 처리 (C /C++)](/cpp/cpp/structured-exception-handling-c-cpp) (예를 들어 __try /\__except 블록).
@@ -43,7 +43,7 @@ HRESULT get_hasSEH(
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|

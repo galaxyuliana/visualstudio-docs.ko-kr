@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f3305efc101603d66511e1e2c5ef356ead22b59f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63401416"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64801315"
 ---
 # <a name="idiasymbolgethfafloat"></a>IDiaSymbol::get_hfaFloat
 사용자 정의 형식 (UDT) 부동 소수점 부동 소수점 형식의 집계 유형이 같은 (HFA) 데이터에 포함 되는지 여부를 지정 하는 플래그를 검색 합니다.

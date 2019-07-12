@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.assetid: 5233d3ff-6e89-4401-b449-51b4686becca
 caps.latest.revision: 33
 manager: jillfra
-ms.openlocfilehash: 10b57508c498607533a9a9b1fbbcf3b15b6f7a4f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 0b29728cffc962b5d09a5adc45f8cac2093b020a
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63422736"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825682"
 ---
 # <a name="making-custom-projects-version-aware"></a>사용자 지정 프로젝트의 버전 인식 설정
 사용자 지정 프로젝트 시스템에서 해당 형식의 프로젝트가 여러 버전의 Visual Studio에서 로드되도록 할 수 있습니다. 또한 이전 버전의 Visual Studio에서 해당 형식의 프로젝트를 로드할 수 없도록 방지할 수도 있습니다. 프로젝트를 복구, 변환 또는 사용 중단해야 하는 경우 자신을 이후 버전으로 식별하도록 해당 프로젝트를 설정할 수 있습니다.  
@@ -142,12 +142,12 @@ IVsProjectUpgradeViaFactory::UpgradeProject_CheckOnly(
   
 - LogMessage 함수에는 다음 ErrorLevel이 있습니다.  
   
-    - 0 - 추적하려는 모든 정보  
-  
-    - 1 - 경고  
-  
-    - 2 - 오류  
-  
-    - 3 - 보고서 포맷터 프로젝트가 업그레이드되면 "Converted"라는 단어(지역화되지 않음)가 한 번 기록됩니다.  
+  - 0 - 추적하려는 모든 정보  
+
+  - 1 - 경고  
+
+  - 2 - 오류  
+
+  - 3 - 보고서 포맷터 프로젝트가 업그레이드되면 "Converted"라는 단어(지역화되지 않음)가 한 번 기록됩니다.  
   
 - 프로젝트에 복구 또는 업그레이드가 필요하지 않은 경우 Visual Studio는 UpgradeProject_CheckOnly 또는 UpgradeProjectFlavor_CheckOnly 메서드 실행 중 프로젝트 시스템에서 경고 또는 오류를 기록한 경우에만 로그 파일을 생성합니다.

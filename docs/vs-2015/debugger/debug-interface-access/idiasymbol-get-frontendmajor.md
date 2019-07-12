@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 851950202d8b0f88371794f86396a39b28cb857c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443805"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64819285"
 ---
 # <a name="idiasymbolgetfrontendmajor"></a>IDiaSymbol::get_frontEndMajor
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ HRESULT get_frontEndMajor ( 
   
 ## <a name="requirements"></a>요구 사항  
   
-|요구 사항|설명|  
+|요구 사항|Description|  
 |-----------------|-----------------|  
 |헤더:|dia2.h|  
 |버전:|DIA SDK v7.0|  

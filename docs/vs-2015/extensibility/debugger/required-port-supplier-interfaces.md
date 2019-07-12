@@ -11,12 +11,12 @@ ms.assetid: 0c2cdd40-9f6f-425e-b305-858f7734161e
 caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 82e70ea9a4ba30b6b1d312188a91d9c0c8aa2904
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: a065389a6b9b67b8bce82394569ce65afb0f8d55
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116643"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821429"
 ---
 # <a name="required-port-supplier-interfaces"></a>필요한 포트 공급자 인터페이스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,37 +50,37 @@ ms.locfileid: "60116643"
   
 - [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md)  
   
-     실제 프로세스를 설명합니다. 적어도 다음 메서드를 구현 해야 합니다.  
-  
-    - [EnumPrograms](../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)  
-  
-    - [GetName](../../extensibility/debugger/reference/idebugprocess2-getname.md)  
-  
-    - [GetServer](../../extensibility/debugger/reference/idebugprocess2-getserver.md)  
-  
-    - [GetPhysicalProcessId](../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)  
-  
-    - [GetProcessId](../../extensibility/debugger/reference/idebugprocess2-getprocessid.md)  
-  
-    - [GetAttachedSessionName](../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)  
-  
+  실제 프로세스를 설명합니다. 적어도 다음 메서드를 구현 해야 합니다.  
+
+  - [EnumPrograms](../../extensibility/debugger/reference/idebugprocess2-enumprograms.md)  
+
+  - [GetName](../../extensibility/debugger/reference/idebugprocess2-getname.md)  
+
+  - [GetServer](../../extensibility/debugger/reference/idebugprocess2-getserver.md)  
+
+  - [GetPhysicalProcessId](../../extensibility/debugger/reference/idebugprocess2-getphysicalprocessid.md)  
+
+  - [GetProcessId](../../extensibility/debugger/reference/idebugprocess2-getprocessid.md)  
+
+  - [GetAttachedSessionName](../../extensibility/debugger/reference/idebugprocess2-getattachedsessionname.md)  
+
 - [IDebugProcessEx2](../../extensibility/debugger/reference/idebugprocessex2.md)  
   
-     SDM 연결 및 자체 프로세스에서 분리 하는 방법을 제공 합니다.  
+    SDM 연결 및 자체 프로세스에서 분리 하는 방법을 제공 합니다.  
   
 - [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md)  
   
-     논리 프로그램을 설명합니다. 적어도 다음 메서드를 구현 해야 합니다.  
-  
-    - [GetName](../../extensibility/debugger/reference/idebugprogram2-getname.md)  
-  
-    - [GetProcess](../../extensibility/debugger/reference/idebugprogram2-getprocess.md)  
-  
-    - [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)  
+  논리 프로그램을 설명합니다. 적어도 다음 메서드를 구현 해야 합니다.  
+
+  - [GetName](../../extensibility/debugger/reference/idebugprogram2-getname.md)  
+
+  - [GetProcess](../../extensibility/debugger/reference/idebugprogram2-getprocess.md)  
+
+  - [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)  
   
 - [IDebugProgramEx2](../../extensibility/debugger/reference/idebugprogramex2.md)  
   
      SDM이이 프로그램에 연결 하는 방법을 제공 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [포트 공급자 구현](../../extensibility/debugger/implementing-a-port-supplier.md)

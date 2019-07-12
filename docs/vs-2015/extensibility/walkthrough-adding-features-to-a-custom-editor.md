@@ -10,12 +10,12 @@ ms.assetid: bfe083b6-3e35-4b9c-ad4f-b30b9ff412a5
 caps.latest.revision: 39
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 71ecff799f0da84ca47456467e190edcf95b0a15
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1d14fb36298518409df34302f9346e186f0b0263
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442293"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825160"
 ---
 # <a name="walkthrough-adding-features-to-a-custom-editor"></a>연습: 사용자 지정 편집기에 기능 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -150,10 +150,10 @@ ms.locfileid: "63442293"
   
 - 두 위치는 사용자 지정 편집기 자동화 개체를 노출할 수 있습니다.  
   
-    - `Document.Object`  
+  - `Document.Object`  
+
+  - `Window.Object`  
   
-    - `Window.Object`  
-  
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [자동화 모델에 영향을 주는](../extensibility/internals/contributing-to-the-automation-model.md)   
  [방법: 편집기의 컨텍스트 제공](../extensibility/how-to-provide-context-for-editors.md)

@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 70036cd8add5c9c72262f29ba92fa6c7eaf8977d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63401516"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64817140"
 ---
 # <a name="idiasymbolgethaslongjump"></a>IDiaSymbol::get_hasLongJump
 함수를 사용 하는 포함 되는지 여부를 지정 하는 플래그를 검색 합니다 [longjmp](/cpp/c-runtime-library/reference/longjmp) 명령 (와 연결을 [setjmp](/cpp/c-runtime-library/reference/setjmp) 명령을 이러한 지역은 예외 처리의 C 스타일 메서드).
@@ -43,12 +43,12 @@ HRESULT get_hasLongJump
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [IDiaSymbol::get_hasSetJump](../../debugger/debug-interface-access/idiasymbol-get-hassetjump.md)
 - [longjmp](/cpp/c-runtime-library/reference/longjmp)

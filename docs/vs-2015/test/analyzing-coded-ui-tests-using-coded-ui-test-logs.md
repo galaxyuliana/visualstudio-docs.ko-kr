@@ -8,12 +8,12 @@ ms.assetid: 7e795873-1d4b-4a13-a52a-a411d87fb759
 caps.latest.revision: 15
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7040b4dd07eebb4332634d5d8ffc1d9bc8d8c06b
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 90e8e85882225fbecb4947de234081ccfc26fbbb
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65686486"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824211"
 ---
 # <a name="analyzing-coded-ui-tests-using-coded-ui-test-logs"></a>코딩된 UI 테스트 로그를 사용하여 코딩된 UI 테스트 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,35 +34,35 @@ ms.locfileid: "65686486"
   
 - 테스트 프로젝트에 App.config 파일이 없는 .NET Framework 버전 4를 대상으로 지정하는 경우  
   
-    - **QTAgent32_40.exe.config** 파일을 엽니다.  
-  
-         기본적으로 이 파일은 **\<drive>:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE**에 있습니다.  
-  
-         EqtTraceLevel의 값을 원하는 로그 수준으로 수정합니다.  
-  
-         파일을 저장합니다.  
-  
+  - **QTAgent32_40.exe.config** 파일을 엽니다.  
+
+    기본적으로 이 파일은 **\<drive>:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE**에 있습니다.  
+
+    EqtTraceLevel의 값을 원하는 로그 수준으로 수정합니다.  
+
+    파일을 저장합니다.  
+
 - 테스트 프로젝트에 App.config 파일이 없는 .NET Framework 버전 4.5를 대상으로 지정하는 경우  
   
-    - **QTAgent32.exe.config** 파일을 엽니다.  
-  
-         기본적으로 이 파일은 **\<drive>:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE**에 있습니다.  
-  
-         EqtTraceLevel의 값을 원하는 로그 수준으로 수정합니다.  
-  
-         파일을 저장합니다.  
+  - **QTAgent32.exe.config** 파일을 엽니다.  
+
+    기본적으로 이 파일은 **\<drive>:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE**에 있습니다.  
+
+    EqtTraceLevel의 값을 원하는 로그 수준으로 수정합니다.  
+
+    파일을 저장합니다.  
   
 - 테스트 프로젝트에 App.config 파일이 있는 경우  
   
-    - 프로젝트에서 App.config 파일을 엽니다.  
-  
-         구성 노드 아래에 다음 코드를 추가합니다.  
-  
-         `<system.diagnostics>     <switches>       <add name="EqtTraceLevel" value="4" />     </switches>  </system.diagnostics>`  
+  - 프로젝트에서 App.config 파일을 엽니다.  
+
+    구성 노드 아래에 다음 코드를 추가합니다.  
+
+    `<system.diagnostics>     <switches>       <add name="EqtTraceLevel" value="4" />     </switches>  </system.diagnostics>`  
   
 - 테스트 코드 자체에서 로깅을 사용하는 경우  
   
-    - <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.LoggerOverrideState%2A> = HtmlLoggerState.AllActionSnapshot;  
+  - <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.LoggerOverrideState%2A> = HtmlLoggerState.AllActionSnapshot;  
   
 ### <a name="step-2-run-your-coded-ui-test-and-view-the-log"></a>2단계: 코딩된 UI 테스트 실행 및 로그 보기  
  현재 위치에서 **QTAgent32.exe.config** 파일을 적절하게 수정한 코딩된 UI 테스트를 실행하는 경우 테스트 탐색기 결과에 출력 링크가 표시됩니다. 로그 파일은 테스트에 실패한 경우뿐만 아니라 추적 수준이 “verbose”로 설정되었을 때 성공한 테스트의 경우에도 생성됩니다.  
@@ -107,6 +107,6 @@ ms.locfileid: "65686486"
   
  그러나 이러한 설정은 둘 다 Visual Studio 2012 이후부터 사용되지 않습니다. EqtTraceLevel이 HtmlLogger를 사용하기 위해 수정해야 하는 유일한 설정입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)   
  [방법: Microsoft Visual Studio에서 테스트 실행](https://msdn.microsoft.com/library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)

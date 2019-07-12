@@ -14,10 +14,10 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3f61105f098c833e1eb36249cae16836a05bd049
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
+ms.lasthandoff: 07/12/2019
 ms.locfileid: "65703804"
 ---
 # <a name="idiasymbolgethaslongjump"></a>IDiaSymbol::get_hasLongJump
@@ -50,7 +50,7 @@ HRESULT get_hasLongJump
 |헤더:|dia2.h|  
 |버전:|DIA SDK v8.0|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaSymbol::get_hasSetJump](../../debugger/debug-interface-access/idiasymbol-get-hassetjump.md)   
  [longjmp](https://msdn.microsoft.com/library/0e13670a-5130-45c1-ad69-6862505b7a2f)   

@@ -12,12 +12,12 @@ caps.latest.revision: 30
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 57114789ce9f0505423e8463f90117619bfc717b
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: f5ecf6f09efb64e521740b74151fc160112fe7a3
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65687051"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826050"
 ---
 # <a name="code-generation-in-a-build-process"></a>빌드 프로세스의 코드 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,23 +35,23 @@ ms.locfileid: "65687051"
 
 - $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
 
-    - Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
 
-    - Microsoft.TextTemplating.Build.Tasks.dll
+  - Microsoft.TextTemplating.Build.Tasks.dll
 
-    - Microsoft.TextTemplating.targets
+  - Microsoft.TextTemplating.targets
 
 - $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
 
-    - Microsoft.VisualStudio.TextTemplating.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.*.0.dll
 
-    - Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll(여러 파일)
+  - Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll(여러 파일)
 
-    - Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
 
 - $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
 
-    - Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
+  - Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
 
 ## <a name="to-edit-the-project-file"></a>프로젝트 파일을 편집하려면
 

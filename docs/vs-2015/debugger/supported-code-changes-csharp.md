@@ -16,12 +16,12 @@ caps.latest.revision: 30
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: cc1c6183eece2799d99907cd5f5ec9489a268542
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 6fc02c11a4ebceea431fc06a1bd1cfdb1063097d
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117657"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823532"
 ---
 # <a name="supported-code-changes-c"></a>지원되는 코드 변경(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,17 +57,17 @@ ms.locfileid: "60117657"
   
 - 특정한 경우 LINQ 코드 디버깅. 자세한 내용은 [LINQ 디버깅](../debugger/debugging-linq.md)을 참조하세요.  
   
-    - 이전에 캡처하지 않은 변수 캡처  
-  
-    - 쿼리 식의 형식 변경 (예: select a = > 새로 만들기 선택 {A =을};)  
-  
-    - 활성 문을 포함하는 `where` 제거  
-  
-    - 활성 문을 포함하는 `let` 제거  
-  
-    - 활성 문을 포함하는 `join` 제거  
-  
-    - 활성 문을 포함하는 `orderby` 제거  
+  - 이전에 캡처하지 않은 변수 캡처  
+
+  - 쿼리 식의 형식 변경 (예: select a = > 새로 만들기 선택 {A =을};)  
+
+  - 활성 문을 포함하는 `where` 제거  
+
+  - 활성 문을 포함하는 `let` 제거  
+
+  - 활성 문을 포함하는 `join` 제거  
+
+  - 활성 문을 포함하는 `orderby` 제거  
   
 - 혼합 모드(네이티브/관리) 디버깅  
   
@@ -85,6 +85,6 @@ ms.locfileid: "60117657"
   
 - 빌드 오류가 발생하여 새 버전을 빌드하는 데 실패한 후 이전 버전의 코드 디버깅  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [편집하며 계속하기(Visual C#)](../debugger/edit-and-continue-visual-csharp.md)   
  [방법: 편집하며 계속하기 사용(C#)](../debugger/how-to-use-edit-and-continue-csharp.md)

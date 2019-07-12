@@ -13,10 +13,10 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: b6698159828c6092f0bb00b9ccc132415df82d7b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 07/12/2019
 ms.locfileid: "62840706"
 ---
 # <a name="idiasymbol"></a>IDiaSymbol
@@ -34,7 +34,7 @@ IDiaSymbol : IUnknown
 > [!NOTE]
 > 기호는 형식 기호에 따라 다음이 방법 중 일부에 대 한 의미 있는 데이터를 반환 합니다. 메서드가 반환 하는 경우 `S_OK`, 해당 메서드는 의미 있는 데이터를 반환 합니다.
 
-|메서드|설명|
+|메서드|Description|
 |------------|-----------------|
 |[IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)|기호의 모든 자식을 검색합니다.|
 |[IDiaSymbol::findChildrenEx](../../debugger/debug-interface-access/idiasymbol-findchildrenex.md)|기호의 자식을 검색합니다. 이 메서드는 확장 된 버전의 [idiasymbol:: Findchildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)합니다.|
@@ -342,7 +342,7 @@ void DumpLocalVars( DWORD rva, IDiaSession *pSession )
 
 DLL: msdia80.dll
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [인터페이스(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

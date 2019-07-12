@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: e45306a831c8767b93e3c1baad0171fcfb60ba6b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63400495"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64790140"
 ---
 # <a name="idiasymbolgetisnaked"></a>IDiaSymbol::get_isNaked
 함수에 있는지 여부를 지정 하는 플래그를 검색 합니다 [naked](/cpp/cpp/naked-cpp) 특성 (즉, 함수에 프롤로그 또는 에필로그 코드 컴파일러에 의해 추가).
@@ -43,11 +43,11 @@ HRESULT get_isNaked(
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [Naked 함수 호출](/cpp/cpp/naked-function-calls)

@@ -11,12 +11,12 @@ caps.latest.revision: 21
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: be66bf02294c12d39bcfd28793bb036696296476
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: c9e5de52fbe15049f4acb3dacf236bfe9f4ecc92
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63417775"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823272"
 ---
 # <a name="model-your-app39s-architecture"></a>앱 모델&#39;s 아키텍처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -244,9 +244,9 @@ ms.locfileid: "63417775"
   
 - 주요 파트 및 해당 관계의 모델. 둘 간에 연결 및 종속성이 있는 클래스 또는 구성 요소와 인터페이스가 있을 수 있습니다. 요소는 일반적으로 다음 두 가지 범주로 나뉩니다.  
   
-    - 개발자가 패턴이 사용되는 코드의 모든 부분에 복제해야 하는 요소. 템플릿 형식을 사용하여 이러한 요소를 설명할 수 있습니다. 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 참조](../modeling/uml-use-case-diagrams-reference.md)를 참조하세요.  
-  
-    - 개발자가 사용해야 하는 프레임워크 클래스를 설명하는 요소  
+  - 개발자가 패턴이 사용되는 코드의 모든 부분에 복제해야 하는 요소. 템플릿 형식을 사용하여 이러한 요소를 설명할 수 있습니다. 자세한 내용은 참조 하세요. [UML 사용 사례 다이어그램: 참조](../modeling/uml-use-case-diagrams-reference.md)를 참조하세요.  
+
+  - 개발자가 사용해야 하는 프레임워크 클래스를 설명하는 요소  
   
 - 시퀀스 또는 동작 다이어그램을 사용하는 파트 간의 상호 작용 모델  
   

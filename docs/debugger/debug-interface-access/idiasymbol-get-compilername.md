@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 076b2fbcd4a1f65de56e52ffbf8b565ca122ffe1
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63402113"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64813965"
 ---
 # <a name="idiasymbolgetcompilername"></a>IDiaSymbol::get_compilerName
 생성 하는 데 사용 하는 컴파일러의 이름을 반환 합니다 [Compiland](../../debugger/debug-interface-access/compiland.md)합니다.
@@ -43,7 +43,7 @@ HRESULT get_compilerName (
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|

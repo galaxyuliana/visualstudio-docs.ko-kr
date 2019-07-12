@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fddd8efd11d2a3d61f0cff33cb832ebd8a0c5d2a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 4f65bd7a904f30f132f654b6dd718532d9d0e66e
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63406933"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821585"
 ---
 # <a name="view-threads-in-the-visual-studio-debugger-by-using-the-threads-window-c-visual-basic-c"></a>스레드 창을 사용 하 여 Visual Studio 디버거에서 스레드 보기 (C#, Visual Basic의 경우 C++)
 에 **스레드** 창을 검토 하 고 수 디버그 중인 응용 프로그램에서 스레드를 사용 하 여 작동 합니다. 사용 하는 방법에 대 한 단계별 지침에 대 한 합니다 **스레드** 창 참조 [연습: 스레드 창을 사용 하 여 디버그](../debugger/how-to-use-the-threads-window.md)합니다.
@@ -101,9 +101,9 @@ ms.locfileid: "63406933"
 
 - 다음 단계 중 하나를 수행 합니다.
 
-    - 스레드를 두 번 클릭합니다.
+  - 스레드를 두 번 클릭합니다.
 
-    - 스레드를 마우스 오른쪽 단추로 클릭 **스위치를 스레드**합니다.
+  - 스레드를 마우스 오른쪽 단추로 클릭 **스위치를 스레드**합니다.
 
 ## <a name="group-and-sort-threads"></a>그룹 및 정렬 스레드
  스레드를 그룹화하면 테이블에 각 그룹의 제목이 나타납니다. 제목에는 **작업자 스레드** 또는 **플래그가 해제된 스레드** 등의 그룹 설명과 트리 컨트롤이 포함됩니다. 각 그룹의 멤버 스레드가 그룹 제목 아래에 나타납니다. 그룹에 대 한 멤버 스레드를 숨기려는 경우 트리 컨트롤을 사용 하 여 그룹을 축소 합니다.

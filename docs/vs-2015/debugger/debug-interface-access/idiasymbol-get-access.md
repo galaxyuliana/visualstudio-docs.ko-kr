@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 806e9fd06611e2cb30829b294222870b9252c35b
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430249"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64808104"
 ---
 # <a name="idiasymbolgetaccess"></a>IDiaSymbol::get_access
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,11 +45,11 @@ HRESULT get_access ( 
   
 ## <a name="requirements"></a>요구 사항  
   
-|요구 사항|설명|  
+|요구 사항|Description|  
 |-----------------|-----------------|  
 |헤더:|dia2.h|  
 |버전:|DIA SDK v7.0|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [CV_access_e 열거형](../../debugger/debug-interface-access/cv-access-e.md)

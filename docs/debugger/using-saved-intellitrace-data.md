@@ -15,12 +15,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: de8e6cfa6ec99f42879043b873736102fd291176
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: b9217031866a53e229cb03838b1be835019b62ba
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66746148"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825610"
 ---
 # <a name="using-saved-intellitrace-data-c-visual-basic-c"></a>저장 된 IntelliTrace 데이터를 사용 하 여 (C#, Visual Basic의 경우 C++)
 
@@ -56,11 +56,11 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
 
 - .iTrace 파일이 Team Foundation Server 작업 항목에 연결되어 있는 경우 작업 항목에서 다음 단계를 수행하세요.
 
-    - **모든 링크**에서 .iTrace 파일을 찾습니다. 파일을 엽니다.
+  - **모든 링크**에서 .iTrace 파일을 찾습니다. 파일을 엽니다.
 
-         \- 또는 -
+    \- 또는 -
 
-    - **재현 단계**에서 **IntelliTrace** 링크를 선택합니다.
+  - **재현 단계**에서 **IntelliTrace** 링크를 선택합니다.
 
 > [!TIP]
 > 디버깅하는 동안 IntelliTrace 파일을 닫은 경우 쉽게 다시 열 수 있습니다. **디버그** 메뉴로 가서 **IntelliTrace**와 **로그 요약 표시**를 차례로 선택합니다. **IntelliTrace** 창에서 **로그 요약 표시** 를 선택할 수도 있습니다. 이 명령은 IntelliTrace를 사용하여 디버깅할 때만 사용할 수 있습니다.

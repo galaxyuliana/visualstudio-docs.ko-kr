@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 6ac1547228be6312126bb48602e3a77fed0b3c25
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63399926"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64811196"
 ---
 # <a name="idiasymbolgetishotpatchable"></a>IDiaSymbol::get_isHotpatchable
 모듈을 사용 하 여 컴파일된 여부를 나타내는 플래그를 검색 합니다 [/hotpatch (핫 패치 가능 이미지 만들기)](/cpp/build/reference/hotpatch-create-hotpatchable-image) 컴파일러 스위치입니다.
@@ -46,7 +46,7 @@ HRESULT get_isHotpatchable(
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|

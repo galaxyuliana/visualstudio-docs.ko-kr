@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 90351c3319f8354685ae0d907379b8446f76cb7f
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445108"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64824129"
 ---
 # <a name="idiasymbolgetpacked"></a>IDiaSymbol::get_packed
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -46,5 +46,5 @@ HRESULT get_packed ( 
 ## <a name="remarks"></a>설명  
  UDT의 모든 멤버는 메모리 경계에 맞게 중간 패딩 없이 최대한 가깝게 배치 하는 수단을 압축 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

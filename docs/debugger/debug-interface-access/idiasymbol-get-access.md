@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: fcf510cd9c74e22e0d028552b26c85b1f3d59bd4
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63402524"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64813908"
 ---
 # <a name="idiasymbolgetaccess"></a>IDiaSymbol::get_access
 클래스 멤버의 액세스 한정자를 검색합니다.
@@ -43,7 +43,7 @@ HRESULT get_access ( 
 
 ## <a name="requirements"></a>요구 사항
 
-|요구 사항|설명|
+|요구 사항|Description|
 |-----------------|-----------------|
 |헤더:|dia2.h|
 |버전:|DIA SDK v7.0|

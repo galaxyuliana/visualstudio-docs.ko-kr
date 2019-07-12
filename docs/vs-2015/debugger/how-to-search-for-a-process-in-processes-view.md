@@ -13,11 +13,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: e39168e36e9540ec8c5e23a9030d996b81c4097c
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431724"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64799504"
 ---
 # <a name="how-to-search-for-a-process-in-processes-view"></a>방법: 프로세스 뷰에서 프로세스 검색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

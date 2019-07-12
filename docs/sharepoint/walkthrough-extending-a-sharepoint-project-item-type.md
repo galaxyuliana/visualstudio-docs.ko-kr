@@ -14,12 +14,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f4922b791ea3ad7ab58c231342e11b5c175d4895
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 795cc62ca88f7ede87e978d910d397e0ce6e2ad7
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430353"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825980"
 ---
 # <a name="walkthrough-extend-a-sharepoint-project-item-type"></a>연습: SharePoint 프로젝트 항목 형식 확장
   사용할 수는 **비즈니스 데이터 연결 모델** SharePoint에서 비즈니스 데이터 연결 (BDC) 서비스에 대 한 모델을 만드는 프로젝트 항목입니다. 기본적으로이 프로젝트 항목을 사용 하 여 모델을 만들 때 모델의 데이터 표시 되지 않습니다 사용자. 사용자가 데이터를 볼 수 있도록 SharePoint에 외부 목록도 만들어야 합니다.
@@ -28,9 +28,9 @@ ms.locfileid: "63430353"
 
 - Visual Studio 확장을 만드는 두 가지 주요 작업을 수행 합니다.
 
-    - BDC 모델의 데이터를 표시 하는 외부 목록을 생성 합니다. 확장 SharePoint 프로젝트 시스템에 대 한 개체 모델을 사용 하 여 생성 하는 *Elements.xml* 목록 정의 하는 파일입니다. 또한 BDC 모델을 함께 배포 될 수 있도록 프로젝트에 파일을 추가 합니다.
+  - BDC 모델의 데이터를 표시 하는 외부 목록을 생성 합니다. 확장 SharePoint 프로젝트 시스템에 대 한 개체 모델을 사용 하 여 생성 하는 *Elements.xml* 목록 정의 하는 파일입니다. 또한 BDC 모델을 함께 배포 될 수 있도록 프로젝트에 파일을 추가 합니다.
 
-    - 바로 가기 메뉴 항목을 추가 합니다 **비즈니스 데이터 연결 모델** 프로젝트의 프로젝트 항목 **솔루션 탐색기**합니다. 개발자는 BDC 모델에 대 한 외부 목록을 생성 하려면이 메뉴 항목 클릭 수 있습니다.
+  - 바로 가기 메뉴 항목을 추가 합니다 **비즈니스 데이터 연결 모델** 프로젝트의 프로젝트 항목 **솔루션 탐색기**합니다. 개발자는 BDC 모델에 대 한 외부 목록을 생성 하려면이 메뉴 항목 클릭 수 있습니다.
 
 - 확장 프로그램 어셈블리를 배포 하는 Visual Studio 확장 (VSIX) 패키지를 빌드합니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "63430353"
 
 - Microsoft Windows, SharePoint, Visual Studio의 버전을 지원 합니다.
 
-- [!include[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)] 이 연습에서는 합니다 **VSIX 프로젝트** 템플릿 프로젝트 항목을 배포 하려면 VSIX 패키지를 만들려면 sdk에서. 자세한 내용은 [Visual Studio에서 SharePoint 도구 확장](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)합니다.
+- [!include[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)]입니다. 이 연습에서는 합니다 **VSIX 프로젝트** 템플릿 프로젝트 항목을 배포 하려면 VSIX 패키지를 만들려면 sdk에서. 자세한 내용은 [Visual Studio에서 SharePoint 도구 확장](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)합니다.
 
   다음 개념을 이해에 도움이 필요 하지는 않지만, 연습을 완료 하는:
 

@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 7488bb8b54751c7780cb9751309d227e5d5cb758
-ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.openlocfilehash: 4b209fad02cdcb3da230143a2c13ff4eaa648d76
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66401088"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825629"
 ---
 # <a name="walkthrough-create-a-custom-deployment-step-for-sharepoint-projects"></a>연습: SharePoint 프로젝트용 사용자 지정 배포 단계 만들기
   SharePoint 프로젝트를 배포할 때 Visual Studio는 특정 순서로 일련의 배포 단계를 실행 합니다. Visual Studio는 많은 기본 제공 배포 단계를 포함 하지만 만들 수도 있습니다 고유한.
@@ -29,9 +29,9 @@ ms.locfileid: "66401088"
 
 - Visual Studio 확장을 만드는 두 가지 주요 작업을 수행 합니다.
 
-    - SharePoint 솔루션을 업그레이드 하는 사용자 지정 배포 단계를 정의 하는 확장 합니다.
+  - SharePoint 솔루션을 업그레이드 하는 사용자 지정 배포 단계를 정의 하는 확장 합니다.
 
-    - 확장 집합이 지정된 된 프로젝트에 대 한 실행 되는 배포 단계는 새 배포 구성에 정의 하는 프로젝트 확장을 만듭니다. 새 배포 구성에 사용자 지정 배포 단계 및 몇 가지 기본 제공 배포 단계가 포함 됩니다.
+  - 확장 집합이 지정된 된 프로젝트에 대 한 실행 되는 배포 단계는 새 배포 구성에 정의 하는 프로젝트 확장을 만듭니다. 새 배포 구성에 사용자 지정 배포 단계 및 몇 가지 기본 제공 배포 단계가 포함 됩니다.
 
 - 확장 프로그램 어셈블리를 호출 하는 두 개의 사용자 지정 SharePoint 명령을 만듭니다. SharePoint 명령은 Api를 사용 하는 서버 개체 모델에서 SharePoint 용 확장 프로그램 어셈블리에서 호출할 수 있는 메서드입니다. 자세한 내용은 [SharePoint 개체 모델 호출](../sharepoint/calling-into-the-sharepoint-object-models.md)합니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "66401088"
 
 - 새 배포 단계를 테스트 합니다.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
  이 연습을 완료 하려면 개발 컴퓨터의 다음 구성 요소가 필요 합니다.
 
 - Windows, SharePoint 및 Visual Studio의 버전을 지원 합니다.
@@ -288,7 +288,7 @@ ms.locfileid: "66401088"
 
 12. 목록 디자이너에서에 **열** 탭을 선택 합니다 **기존 또는 새 열 이름을 입력** 행을 추가한 다음에 다음 열을 **열 표시 이름** 목록:
 
-    1. 이름
+    1. First Name
 
     2. 회사
 

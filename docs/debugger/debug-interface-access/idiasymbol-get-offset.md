@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 0016ca267b3eaf2535896aab1ee58a470a192c9a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63399448"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64786714"
 ---
 # <a name="idiasymbolgetoffset"></a>IDiaSymbol::get_offset
 기호 위치 오프셋을 검색합니다. 사용 시기를 [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md) 됩니다 `LocIsRegRel` 또는 `LocIsBitField`.
@@ -51,6 +51,6 @@ HRESULT get_offset ( 
 |헤더:|dia2.h|
 |버전:|DIA SDK v7.0|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md)

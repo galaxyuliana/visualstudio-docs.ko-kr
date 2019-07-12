@@ -14,12 +14,12 @@ caps.latest.revision: 23
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 3bce742d4ce0374cb7270b964354d65a03e917d0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 8bf76967363f4c0d97d93c895fbeb6209c8503f0
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045605"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821676"
 ---
 # <a name="how-to-build-the-same-source-files-with-different-options"></a>방법: 동일한 소스 파일을 다른 옵션을 사용하여 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "60045605"
     msbuild file.proj /property:Flavor=Debug  
     ```  
   
-     - 또는  
+     \- 또는 -  
   
     ```  
     Msbuild file.proj /p:Flavor=Debug  
@@ -75,7 +75,7 @@ ms.locfileid: "60045605"
   msbuild file.proj /p:Flavor=Debug;Platform=x86  
   ```  
   
-   - 또는-  
+   \- 또는-  
   
   ```  
   msbuild file.proj /p:Flavor=Debug /p:Platform=x86  
@@ -185,7 +185,7 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
 -->  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
 [MSBuild](msbuild.md)  
  [MSBuild 개념](../msbuild/msbuild-concepts.md)   
  [MSBuild 참조](../msbuild/msbuild-reference.md)   

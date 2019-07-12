@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: edbd1d8ae66e58611ab538cf0bfe695cb22b3412
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63400880"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64793039"
 ---
 # <a name="idiasymbolgetvirtualbasetabletype"></a>IDiaSymbol::get_virtualBaseTableType
 가상 기본 테이블 포인터의 형식을 검색합니다.
@@ -32,7 +32,7 @@ HRESULT get_virtualBaseTableType(
 
 #### <a name="parameters"></a>매개 변수
 
-|매개 변수|설명|
+|매개 변수|Description|
 |---------------|-----------------|
 |`pRetVal`|[out] 반환 된 [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) 기본 테이블의 형식을 지정 하는 개체입니다.|
 
@@ -54,5 +54,5 @@ HRESULT get_virtualBaseTableType(
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

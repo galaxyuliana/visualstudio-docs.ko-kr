@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: f807ca27598580beb011376e115025ab0c3168fe
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63401464"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64808377"
 ---
 # <a name="idiasymbolgethfadouble"></a>IDiaSymbol::get_hfaDouble
 사용자 정의 형식 (UDT) 부동 소수점 double 형식의 집계 유형이 같은 (HFA) 데이터에 포함 되는지 여부를 지정 하는 플래그를 검색 합니다.

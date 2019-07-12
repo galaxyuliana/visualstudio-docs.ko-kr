@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b2c3aad870112b580078f2dbb849f9ee1a771ed0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e3795bbe8a200b868687cdb8da053bc078b7f14c
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63001915"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825760"
 ---
 # <a name="how-to-generate-an-xml-snippet-from-an-xml-schema"></a>방법: XML 스키마에서 XML 조각 생성
 
@@ -25,11 +25,11 @@ XML 편집기는 XML 스키마 정의 언어 (XSD) 스키마에서 XML 조각을
 
 - 편집기에서 현재 요소는 특성 없이 비어 있어야 합니다. 예를 들어, 다음은 모두 유효합니다.
 
-    - `<Account`
+  - `<Account`
 
-    - `<Account>`
+  - `<Account>`
 
-    - `<Account></Account>`
+  - `<Account></Account>`
 
 - 요소 이름의 바로 오른쪽에 커서가 있어야 합니다.
 
@@ -56,7 +56,7 @@ XML 편집기는 XML 스키마 정의 언어 (XSD) 스키마에서 XML 조각을
 
      편집기에서 새 파일이 열립니다. 파일에는 기본 XML 선언, `<?xml version="1.0" encoding="utf-8">`이 포함됩니다.
 
-3. 문서 속성 창에서 찾아보기 단추를 클릭 합니다. (**...** )에 **스키마** 필드입니다.
+3. 문서 속성 창에서 찾아보기 단추를 클릭 합니다. ( **...** )에 **스키마** 필드입니다.
 
      합니다 **XSD 스키마** 대화 상자가 표시 됩니다.
 

@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fe8a05e193ffe621d28147389752ab56031cf499
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b15e0d305140e6e04464091df59432a2cd261796
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62993486"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821935"
 ---
 # <a name="how-to-add-a-drag-and-drop-handler"></a>방법: 끌어서 놓기 처리기 추가
 
@@ -126,13 +126,13 @@ MEF(Managed Extensibility Framework)를 사용하면 최소한의 구성으로 �
 
 - <xref:System.Windows.Forms.IDataObject>  `Data` -이 속성은 보통 둘 이상의 형식으로 원본 개체의 serialize 된 버전을 제공 합니다. 이 속성의 가장 유용한 기능은 다음과 같습니다.
 
-    - diagrameventargs.data.getdataformats ()-끌어 온된 개체를 디코딩할 수 있는 형식을 나열 합니다. 예를 들어 사용자가 바탕 화면에서 파일을 끄는 경우 사용 가능한 형식에는 파일 이름("`FileNameW`")이 포함됩니다.
+  - diagrameventargs.data.getdataformats ()-끌어 온된 개체를 디코딩할 수 있는 형식을 나열 합니다. 예를 들어 사용자가 바탕 화면에서 파일을 끄는 경우 사용 가능한 형식에는 파일 이름("`FileNameW`")이 포함됩니다.
 
-    - `diagramEventArgs.Data.GetData(format)` -지정 된 형식으로 끌어 온된 개체를 디코딩합니다. 적절한 형식으로 개체를 캐스팅합니다. 예를 들어:
+  - `diagramEventArgs.Data.GetData(format)` -지정 된 형식으로 끌어 온된 개체를 디코딩합니다. 적절한 형식으로 개체를 캐스팅합니다. 예를 들어:
 
-         `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
+    `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
 
-         소스의 모델 버스 참조와 같은 개체를 고유한 사용자 지정 형식으로 전송할 수도 있습니다. 자세한 내용은 [끌어서 놓기에서 모델 버스 참조 보내기 방법](#to-send-an-object-from-a-source-dsl)합니다.
+    소스의 모델 버스 참조와 같은 개체를 고유한 사용자 지정 형식으로 전송할 수도 있습니다. 자세한 내용은 [끌어서 놓기에서 모델 버스 참조 보내기 방법](#to-send-an-object-from-a-source-dsl)합니다.
 
 - <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> `Prototype` -사용자가 DSL 또는 UML 모델에서 항목을 끌어 하도록 하려는 경우이 속성을 사용 합니다. 요소 그룹 프로토타입은 하나 이상의 개체, 링크 및 해당 속성 값을 포함하며 붙여넣기 작업과 도구 상자에서 요소를 추가할 때도 사용됩니다. 프로토타입에서는 개체와 해당 형식을 GUID로 식별합니다. 예를 들어 다음 코드를 사용하면 UML 다이어그램 또는 UML 모델 탐색기에서 클래스 요소를 끌어 놓을 수 있습니다.
 
@@ -574,6 +574,6 @@ namespace Company.CompartmentDrag  // EDIT.
 ## <a name="see-also"></a>참고자료
 
 - [복사 동작 사용자 지정](../modeling/customizing-copy-behavior.md)
-- [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)
+- [도메인별 언어 솔루션 배포](msi-and-vsix-deployment-of-a-dsl.md)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

@@ -10,12 +10,12 @@ ms.assetid: ca2f4e43-322c-4431-8680-52da846940bc
 caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 6b3208230b438eb52c68ef5709cbb0d6628b60ee
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 95c9f7c530d50a7eb89ebe33fad3862f036972d1
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430173"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825622"
 ---
 # <a name="web-project-essentials"></a>웹 프로젝트 필수 항목
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,11 +30,11 @@ ms.locfileid: "63430173"
   
 - 특정 웹 페이지를 사용 하 여 연관 된 도우미 클래스와 같은 추가 소스 코드 파일, 웹 사이트 /App_Code 폴더에 있습니다.  
   
-    - 웹 사이트 프로젝트 (WSP) 스마트 각 웹 페이지에 대 한 하나의 실행 파일을 생성합니다. 추가 파일 /App_Code 폴더의 모든 소스 코드 파일에서 생성 됩니다.  
+  - 웹 사이트 프로젝트 (WSP) 스마트 각 웹 페이지에 대 한 하나의 실행 파일을 생성합니다. 추가 파일 /App_Code 폴더의 모든 소스 코드 파일에서 생성 됩니다.  
+
+  - 웹 응용 프로그램 프로젝트 (WAP) /App_Code 폴더의 모든 소스 파일 뿐만 아니라 모든 스마트 웹 페이지에 대 한 코드를 결합 하는 단일 실행 파일을 생성 합니다.  
   
-    - 웹 응용 프로그램 프로젝트 (WAP) /App_Code 폴더의 모든 소스 파일 뿐만 아니라 모든 스마트 웹 페이지에 대 한 코드를 결합 하는 단일 실행 파일을 생성 합니다.  
-  
-- 웹 프로젝트의 솔루션 파일은 웹 사이트 자체에서 별도로 있습니다. 기본적으로 솔루션 파일은 \Documents and 설정을\\*YourAccount*\My Documents\\*\<Visual Studio # # # >* \Projects\\ *YourWebSite*합니다.  
+- 웹 프로젝트의 솔루션 파일은 웹 사이트 자체에서 별도로 있습니다. 기본적으로 솔루션 파일은 \Documents and 설정을\\*YourAccount*\My Documents\\ *\<Visual Studio # # # >* \Projects\\ *YourWebSite*합니다.  
   
     > [!NOTE]
     > 웹 사이트를 사용 하 여 솔루션 파일을 유지 하려는 경우만 해당 위치로 이동를 닫았다가 다시 합니다.  
@@ -55,9 +55,9 @@ ms.locfileid: "63430173"
   
 - 스마트 웹 페이지는 서버 쪽 프로그래밍 언어를 사용 하 여 HTML을 결합합니다. 서버 쪽 언어에 포함 된 언어를 라고 합니다. 웹 프로젝트 시스템이 포함 된 언어를 지원 하기 위해 구현 해야 합니다는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> 인터페이스 제품군입니다.  
   
-    - 편집기에서 포함 된 언어를 지원 하려면 HTML 언어 서비스는 포함 된 언어 서비스에 포함 된 언어 코드를 표시 지연 해야 합니다.  
-  
-    - 항상 오류 표식 (빨간색 물결 모양)를 코드 편집기의 기본 버퍼에 만들어야 합니다.  
+  - 편집기에서 포함 된 언어를 지원 하려면 HTML 언어 서비스는 포함 된 언어 서비스에 포함 된 언어 코드를 표시 지연 해야 합니다.  
+
+  - 항상 오류 표식 (빨간색 물결 모양)를 코드 편집기의 기본 버퍼에 만들어야 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [웹 프로젝트](../../extensibility/internals/web-projects.md)

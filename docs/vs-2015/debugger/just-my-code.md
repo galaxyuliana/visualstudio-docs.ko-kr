@@ -14,12 +14,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 560ab40811bc53c97e7097e510144d62aeddfbb2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: efcabf9c7dc201f95515cd24bf3a14727f7149fe
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63421821"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823949"
 ---
 # <a name="just-my-code"></a>내 코드만
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -222,9 +222,9 @@ ms.locfileid: "63421821"
   
 - `debugger` 키워드가  
   
-    - **LibraryCode** 코드 디버거가 항상 중단 합니다.  
-  
-    - **UnrelatedCode** 코드에서 디버거가 중지 되지 않습니다.  
+  - **LibraryCode** 코드 디버거가 항상 중단 합니다.  
+
+  - **UnrelatedCode** 코드에서 디버거가 중지 되지 않습니다.  
   
 ### <a name="BKMK_JS_Exception_behavior"></a> 예외 동작  
  처리되지 않는 예외가  
@@ -285,7 +285,7 @@ ms.locfileid: "63421821"
 |||  
 |-|-|  
 |**Eval**|호스트에서 제공하는 `eval` 함수에 문자열을 전달하여 실행되는 스크립트입니다. 기본적으로 Eval 스크립트는 **MyCode**로 분류됩니다.|  
-|**Function**|`Function` 생성자에 문자열을 전달하여 실행되는 스크립트입니다. 기본적으로 Function 스크립트는 **LibraryCode**로 분류됩니다.|  
+|**함수**|`Function` 생성자에 문자열을 전달하여 실행되는 스크립트입니다. 기본적으로 Function 스크립트는 **LibraryCode**로 분류됩니다.|  
 |**ScriptBlock**|`setTimeout`, `setImmediate` 또는 `setInterval` 함수에 문자열을 전달하여 실행되는 스크립트입니다. 기본적으로 ScriptBlock 스크립트는 **UnrelatedCode**로 분류됩니다.|  
   
  다음 키워드 중 하나로 값을 변경할 수 있습니다.  

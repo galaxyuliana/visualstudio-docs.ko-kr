@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: ee91134997dad5f5361de6b07af1a99dfc420f5e
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63401237"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64794582"
 ---
 # <a name="idiasymbolgetissplitted"></a>IDiaSymbol::get_isSplitted
 데이터 기호는 집계 또는 다른 기호; 컬렉션으로 분할 되었습니다 여부를 지정 하는 플래그를 검색 합니다. 컴파일러는 더 큰 기호의 파트는 실제로 별도 엔터티로 기호를 처리 합니다.
@@ -51,6 +51,6 @@ HRESULT get_isSplitted(
 |헤더:|dia2.h|
 |버전:|DIA SDK v8.0|
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [IDiaSymbol::get_isAggregated](../../debugger/debug-interface-access/idiasymbol-get-isaggregated.md)

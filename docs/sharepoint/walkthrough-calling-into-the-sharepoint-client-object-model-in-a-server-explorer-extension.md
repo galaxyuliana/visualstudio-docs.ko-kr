@@ -13,12 +13,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: f9413b9cb4210959d53eba1753a01d950e980536
-ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
+ms.openlocfilehash: bf3d39a8a06a59ed337c0d847bb92875f0f68558
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66835951"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824159"
 ---
 # <a name="walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension"></a>연습: 서버 탐색기 확장의 SharePoint 클라이언트 개체 모델 호출
   이 연습에 대 한 확장에서 SharePoint 클라이언트 개체 모델을 호출 하는 방법에 설명 합니다 **SharePoint 연결** 노드에서 **서버 탐색기**합니다. SharePoint 클라이언트 개체 모델을 사용 하는 방법에 대 한 자세한 내용은 참조 하세요. [SharePoint 개체 모델 호출](../sharepoint/calling-into-the-sharepoint-object-models.md)합니다.
@@ -27,9 +27,9 @@ ms.locfileid: "66835951"
 
 - 만들기는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 을 확장 하는 확장 합니다 **SharePoint 연결** 노드의 **서버 탐색기** 다음과 같은 방법으로:
 
-    - 확장 추가 **웹 파트 갤러리** 에서 SharePoint 사이트 노드가 각 노드에서 **서버 탐색기**합니다. 이 새 노드 사이트의 웹 파트 갤러리에 있는 각 웹 파트를 나타내는 자식 노드를 포함 합니다.
+  - 확장 추가 **웹 파트 갤러리** 에서 SharePoint 사이트 노드가 각 노드에서 **서버 탐색기**합니다. 이 새 노드 사이트의 웹 파트 갤러리에 있는 각 웹 파트를 나타내는 자식 노드를 포함 합니다.
 
-    - 확장은 새로운 유형의 웹 파트 인스턴스를 나타내는 노드를 정의 합니다. 이 새 노드 형식은 아래의 새 자식 노드에 대 한 기반이 됩니다 **웹 파트 갤러리** 노드. 새 웹 파트 노드 형식에 정보를 표시 합니다 **속성** 노드에서 나타내는 웹 파트에 대 한 창.
+  - 확장은 새로운 유형의 웹 파트 인스턴스를 나타내는 노드를 정의 합니다. 이 새 노드 형식은 아래의 새 자식 노드에 대 한 기반이 됩니다 **웹 파트 갤러리** 노드. 새 웹 파트 노드 형식에 정보를 표시 합니다 **속성** 노드에서 나타내는 웹 파트에 대 한 창.
 
 - 확장을 배포 하는 Visual Studio 확장 (VSIX) 패키지를 빌드합니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "66835951"
 > [!NOTE]
 > 이 연습에서 만든 확장에서 만든 확장과 비슷합니다 [연습: 웹 파트를 표시 하려면 서버 탐색기 확장](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)합니다. 이 연습에서는 SharePoint 서버 개체 모델을 사용 하지만이 연습에서는 클라이언트 개체 모델을 사용 하 여 동일한 작업을 수행 합니다.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
  이 연습을 완료 하려면 개발 컴퓨터의 다음 구성 요소가 필요 합니다.
 
 - Windows, SharePoint 및 Visual Studio의 버전을 지원 합니다.

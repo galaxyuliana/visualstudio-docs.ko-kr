@@ -9,12 +9,12 @@ caps.latest.revision: 4
 author: steved0x
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7b3b47264190afcc75431a55ad6b8b4512f26ea0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d931325bd9e323fdf8fa31848a5c2671b5382543
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62858184"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825227"
 ---
 # <a name="unsupported-debugging-scenarios-in-the-workflow-designer"></a>Workflow Designer에서 지원되지 않는 디버깅 시나리오
 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]의 워크플로 디자이너에는 새로운 여러 기능이 추가되었지만 여전히 지원되지 않는 몇 가지 디버깅 시나리오가 있습니다. 이 문서에서는 워크플로 디자이너에서 지원되지 않는 디버깅 시나리오에 대해 자세히 설명합니다.  
@@ -41,16 +41,16 @@ ms.locfileid: "62858184"
   
 - 중단점 창 또는 바로 가기 메뉴에서는 워크플로 디버깅에 다음과 같은 열 또는 옵션을 사용할 수 없습니다.  
   
-    - 조건  
-  
-    - 적중 횟수  
-  
-    - 적중될 때  
-  
-    - 함수  
-  
-    - 데이터  
-  
-    - 프로세스  
-  
-    - 디스어셈블리로 이동
+  - 조건  
+
+  - 적중 횟수  
+
+  - 적중될 때  
+
+  - 함수  
+
+  - 보기  
+
+  - 프로세스  
+
+  - 디스어셈블리로 이동

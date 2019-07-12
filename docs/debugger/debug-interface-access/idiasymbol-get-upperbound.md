@@ -13,11 +13,11 @@ manager: jillfra
 ms.workload:
 - multiple
 ms.openlocfilehash: 4a25db69ac60fcc045637b797a4be3c45a4147cf
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63400603"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "64816490"
 ---
 # <a name="idiasymbolgetupperbound"></a>IDiaSymbol::get_upperBound
 FORTRAN 배열 차원의 상한을 나타내는 기호를 검색 합니다.

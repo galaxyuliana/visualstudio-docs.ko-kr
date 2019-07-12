@@ -11,12 +11,12 @@ caps.latest.revision: 38
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 76f66d11a824a756b262460ebd4e7af78e88f766
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.openlocfilehash: 19f22fc56881287cfb501143aaa4397f9a035d78
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60038175"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821643"
 ---
 # <a name="msbuild-items"></a>MSBuild 항목
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,23 +39,23 @@ MSBuild 항목은 빌드 시스템에 대한 입력이며, 일반적으로 파�
   
 - [항목 메타데이터](#BKMK_ItemMetadata)  
   
-    - [프로젝트 파일에서 항목 메타데이터 참조](#BKMK_ReferencingItemMetadata)  
-  
-    - [잘 알려진 항목 메타데이터](#BKMK_WellKnownItemMetadata)  
-  
-    - [메타데이터를 사용하여 항목 종류 변환](#BKMK_Transforming)  
+  - [프로젝트 파일에서 항목 메타데이터 참조](#BKMK_ReferencingItemMetadata)  
+
+  - [잘 알려진 항목 메타데이터](#BKMK_WellKnownItemMetadata)  
+
+  - [메타데이터를 사용하여 항목 종류 변환](#BKMK_Transforming)  
   
 - [항목 정의](#BKMK_ItemDefinitions)  
   
 - [대상의 ItemGroup에 있는 항목에 대한 특성](#BKMK_AttributesWithinTargets)  
   
-    - [특성 제거](#BKMK_RemoveAttribute)  
-  
-    - [KeepMetadata 특성](#BKMK_KeepMetadata)  
-  
-    - [RemoveMetadata 특성](#BKMK_RemoveMetadata)  
-  
-    - [KeepDuplicates 특성](#BKMK_KeepDuplicates)  
+  - [특성 제거](#BKMK_RemoveAttribute)  
+
+  - [KeepMetadata 특성](#BKMK_KeepMetadata)  
+
+  - [RemoveMetadata 특성](#BKMK_RemoveMetadata)  
+
+  - [KeepDuplicates 특성](#BKMK_KeepDuplicates)  
   
 ## <a name="BKMK_Creating1"></a> 프로젝트 파일에 항목 만들기  
  프로젝트 파일에서 [ItemGroup](../msbuild/itemgroup-element-msbuild.md) 요소의 자식 요소로 항목을 선언합니다. 자식 요소의 이름은 항목의 종류입니다. 요소의 `Include` 특성은 해당 항목 종류에 포함할 항목(파일)을 지정합니다. 예를 들어 다음 XML은 두 개의 파일을 포함하는 `Compile`이라는 항목 종류를 만듭니다.  

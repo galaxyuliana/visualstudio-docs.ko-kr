@@ -11,12 +11,12 @@ ms.assetid: 0da81b98-f5e3-40d3-ba9a-94551378d0b4
 caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
-ms.openlocfilehash: 9a8c6d236f9f11f53e79e4239868815c7bbe9137
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: e6b00aa746b613d9eff90b9c91c029b100775cf2
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63436927"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821724"
 ---
 # <a name="vsix-extension-schema-20-reference"></a>VSIX 확장 스키마 2.0 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,14 +46,14 @@ VSIX 배포 매니페스트 파일에는 VSIX 패키지의 내용을 설명합�
  이 섹션은 패키지, 해당 id 및 정보를 보급 하는 방법에 대 한 메타 데이터입니다. `<Metadata>` 다음 요소가 포함 됩니다.  
   
 - `<Identity>` -이 패키지에 대 한 식별 정보를 정의 하 고 다음 특성을 포함 합니다.  
-  
-    - `Id` -이 특성은 작성자가 선택한 패키지에 대 한 고유 ID 여야 합니다. 이름을은 CLR 형식 지정은 동일한 방식으로 정규화 되어야 합니다. Company.Product.Feature.Name 합니다. `Id` 특성 100 자로 제한 됩니다.  
-  
-    - `Version` -이 패키지 및 해당 내용을의 버전을 정의 합니다. 이 특성에는 CLR 어셈블리 버전 관리 형식은 다음과 같습니다. Major.Minor.Build.Revision (1.2.40308.00)입니다. 더 높은 버전 번호를 사용 하 여 패키지를 패키지에 업데이트를 간주 됩니다 및 설치 된 기존 버전을 통해 설치할 수 있습니다.  
-  
-    - `Language` -이 특성은 패키지에 대 한 기본 언어 및이 매니페스트에 텍스트 데이터에 해당 합니다. 이 특성 리소스 어셈블리에 대 한 예를 들어 CLR 로캘 코드 규칙을 따릅니다: en-우리, en, fr 합니다. 지정할 수 있습니다 `neutral` 를 모든 버전의 Visual Studio에서 실행 되는 중립 언어 확장을 선언 합니다. 기본값은 `neutral`입니다.  
-  
-    - `Publisher` -이 특성 회사 또는 개별 이름을이 패키지의 게시자를 식별 합니다. `Publisher` 특성 100 자로 제한 됩니다.  
+
+  - `Id` -이 특성은 작성자가 선택한 패키지에 대 한 고유 ID 여야 합니다. 이름을은 CLR 형식 지정은 동일한 방식으로 정규화 되어야 합니다. Company.Product.Feature.Name 합니다. `Id` 특성 100 자로 제한 됩니다.  
+
+  - `Version` -이 패키지 및 해당 내용을의 버전을 정의 합니다. 이 특성에는 CLR 어셈블리 버전 관리 형식은 다음과 같습니다. Major.Minor.Build.Revision (1.2.40308.00)입니다. 더 높은 버전 번호를 사용 하 여 패키지를 패키지에 업데이트를 간주 됩니다 및 설치 된 기존 버전을 통해 설치할 수 있습니다.  
+
+  - `Language` -이 특성은 패키지에 대 한 기본 언어 및이 매니페스트에 텍스트 데이터에 해당 합니다. 이 특성 리소스 어셈블리에 대 한 예를 들어 CLR 로캘 코드 규칙을 따릅니다: en-우리, en, fr 합니다. 지정할 수 있습니다 `neutral` 를 모든 버전의 Visual Studio에서 실행 되는 중립 언어 확장을 선언 합니다. 기본값은 `neutral`입니다.  
+
+  - `Publisher` -이 특성 회사 또는 개별 이름을이 패키지의 게시자를 식별 합니다. `Publisher` 특성 100 자로 제한 됩니다.  
   
 - `<DisplayName>` -이 요소는 확장 관리자 UI에 표시 되는 친숙 한 패키지 이름을 지정 합니다. `DisplayName` 콘텐츠는 100 자로 제한 됩니다.  
   
@@ -81,10 +81,10 @@ VSIX 배포 매니페스트 파일에는 VSIX 패키지의 내용을 설명합�
 - `Experimental` -이 특성을 모든 사용자에 대해 현재 설치 된 확장 있지만 동일한 컴퓨터에 업데이트 된 버전을 개발 하는 경우 true로 설정 합니다. 예를 들어 모든 사용자를 위해 MyExtension 1.0 설치 했지만 MyExtension 2.0 동일한 컴퓨터에서 디버그, 실험적을 설정 하려는 경우 = "true"입니다. 이 특성이 이상 Visual Studio 2015 업데이트 1에서 사용할 수 있습니다.  
   
 - `Scope` -이 특성 값은 "Global" 또는 "ProductExtension"를 사용할 수 있습니다.  
-  
-    - "전역" 설치는 특정 SKU에 범위가 지정 되지 않습니다 지정 합니다. 예를 들어이 값은 확장명 SDK를 설치할 때 사용 됩니다.  
-  
-    - "ProductExtension" 개별 Visual Studio Sku로 범위가 지정 된 기존 VSIX 확장 (버전 1.0)가 설치 되어 있는지를 지정 합니다. 기본값입니다.  
+
+  - "전역" 설치는 특정 SKU에 범위가 지정 되지 않습니다 지정 합니다. 예를 들어이 값은 확장명 SDK를 설치할 때 사용 됩니다.  
+
+  - "ProductExtension" 개별 Visual Studio Sku로 범위가 지정 된 기존 VSIX 확장 (버전 1.0)가 설치 되어 있는지를 지정 합니다. 기본값입니다.  
   
 - `AllUsers` -이 선택적 특성은 모든 사용자에 대해이 패키지를 설치할지 여부를 지정 합니다. 기본적으로이 특성은 false, 사용자별 패키지 임을 지정 합니다. (이 값을 true로 설정한 경우 설치 하는 사용자 권한을 상승 해야 결과 VSIX를 설치 하려면 관리자 권한 수준입니다.  
   
@@ -96,67 +96,67 @@ VSIX 배포 매니페스트 파일에는 VSIX 패키지의 내용을 설명합�
   
 - `<InstallationTarget>` –이 요소는 VSIX 설치 관리자 패키지를 설치 하는 있는 위치를 제어 합니다. 경우 값은 `Scope` 특성은 "ProductExtension" 패키지 매니페스트 파일을 확장 하려면 해당 가용성을 알리는 내용의 일부로 설치 된 SKU를 대상으로 해야 합니다. 합니다 `<InstallationTarget>` 요소는 다음과 같은 경우 특성은 `Scope` 특성이 명시적 또는 기본값 "ProductExtension":  
   
-    - `Id` -이 특성은 패키지를 식별합니다.  특성 네임 스페이스 규칙을 따릅니다. Company.Product.Feature.Name 합니다. `Id` 특성 영숫자 문자만 포함 될 수 있으며 100 자로 제한 됩니다. 예상 값:  
-  
-        - Microsoft.VisualStudio.IntegratedShell  
-  
-        - Microsoft.VisualStudio.Pro  
-  
-        - Microsoft.VisualStudio.Premium  
-  
-        - Microsoft.VisualStudio.Ultimate  
-  
-        - Microsoft.VisualStudio.VWDExpress  
-  
-        - Microsoft.VisualStudio.VPDExpress  
-  
-        - Microsoft.VisualStudio.VSWinExpress  
-  
-        - Microsoft.VisualStudio.VSLS  
-  
-        - My.Shell.App  
-  
-    - `Version` -이 특성이이 SKU의 최소 및 최대 지원 되는 버전을 사용 하 여 버전 범위를 지정합니다. 패키지 있습니다 지원 되는 Sku의 버전을 자세히 설명 합니다. 버전 범위 표기법은 [10.0 – 11.0], 위치  
-  
-        - [-최소 버전을 포함 합니다.  
-  
-        - ] – 최대 버전을 포함 합니다.  
-  
-        - (-단독 최소 버전입니다.  
-  
-        - )-최대 버전을 제외 합니다.  
-  
-        - 단일 버전 #-지정된 된 버전입니다.  
-  
-        > [!IMPORTANT]
-        > VSIX 스키마의 버전 2.0은 Visual Studio 2012에서 도입 되었습니다. 이 스키마를 사용 하도록 Visual Studio 2012 있어야 합니다. 사용자나 나중에 컴퓨터에 설치 및 해당 제품의 일부인 VSIXInstaller.exe 사용. 이전 버전의 Visual Studio는 Visual Studio 2012 또는 이후 VSIXInstaller 있지만 나중 버전의 설치 관리자를 사용해 서만 대상으로 지정할 수 있습니다.  
-  
-    - `AnyAttribute*` – `<InstallationTarget>` 요소 이름-값 쌍 사전으로 런타임에 노출 될 수 있는 특성의 개방형 집합을 허용 합니다.  
-  
+  - `Id` -이 특성은 패키지를 식별합니다.  특성 네임 스페이스 규칙을 따릅니다. Company.Product.Feature.Name 합니다. `Id` 특성 영숫자 문자만 포함 될 수 있으며 100 자로 제한 됩니다. 예상 값:  
+
+    - Microsoft.VisualStudio.IntegratedShell  
+
+    - Microsoft.VisualStudio.Pro  
+
+    - Microsoft.VisualStudio.Premium  
+
+    - Microsoft.VisualStudio.Ultimate  
+
+    - Microsoft.VisualStudio.VWDExpress  
+
+    - Microsoft.VisualStudio.VPDExpress  
+
+    - Microsoft.VisualStudio.VSWinExpress  
+
+    - Microsoft.VisualStudio.VSLS  
+
+    - My.Shell.App  
+
+  - `Version` -이 특성이이 SKU의 최소 및 최대 지원 되는 버전을 사용 하 여 버전 범위를 지정합니다. 패키지 있습니다 지원 되는 Sku의 버전을 자세히 설명 합니다. 버전 범위 표기법은 [10.0 – 11.0], 위치  
+
+    - [-최소 버전을 포함 합니다.  
+
+    - ] – 최대 버전을 포함 합니다.  
+
+    - (-단독 최소 버전입니다.  
+
+    - )-최대 버전을 제외 합니다.  
+
+    - 단일 버전 #-지정된 된 버전입니다.  
+
+    > [!IMPORTANT]
+    > VSIX 스키마의 버전 2.0은 Visual Studio 2012에서 도입 되었습니다. 이 스키마를 사용 하도록 Visual Studio 2012 있어야 합니다. 사용자나 나중에 컴퓨터에 설치 및 해당 제품의 일부인 VSIXInstaller.exe 사용. 이전 버전의 Visual Studio는 Visual Studio 2012 또는 이후 VSIXInstaller 있지만 나중 버전의 설치 관리자를 사용해 서만 대상으로 지정할 수 있습니다.  
+
+  - `AnyAttribute*` – `<InstallationTarget>` 요소 이름-값 쌍 사전으로 런타임에 노출 될 수 있는 특성의 개방형 집합을 허용 합니다.  
+
 ### <a name="dependencies-element"></a>종속성 요소  
  이 요소에는이 패키지를 선언 하는 종속성 목록을 포함 합니다. 모든 종속성을 지정 하는 패키지만 (로 식별 되 해당 `Id`) 해야 하기 전에 설치 된.  
   
 - `<Dependency>` 요소 –이 자식 요소에 다음 특성:  
   
-    - `Id` -이 특성에는 종속 패키지에 대 한 고유 ID 여야 합니다. Id 값이 일치 해야 합니다는 `<Metadata><Identity>Id` 이 패키지에 종속 된 패키지의 특성입니다. `Id` 특성 네임 스페이스 규칙을 따릅니다. Company.Product.Feature.Name 합니다. 특성에는 영숫자 문자만 포함할 수 있습니다 및 100 자로 제한 됩니다.  
-  
-    - `Version` -이 특성이이 SKU의 최소 및 최대 지원 되는 버전을 사용 하 여 버전 범위를 지정합니다. 패키지 있습니다 지원 되는 Sku의 버전을 자세히 설명 합니다. 버전 범위 표기법은 [12.0, 13.0], 위치:  
-  
-        - [-최소 버전을 포함 합니다.  
-  
-        - ] – 최대 버전을 포함 합니다.  
-  
-        - (-단독 최소 버전입니다.  
-  
-        - )-최대 버전을 제외 합니다.  
-  
-        - 단일 버전 #-지정된 된 버전입니다.  
-  
-    - `DisplayName` -이 특성에는 대화 상자와 오류 메시지와 같은 UI 요소에 사용 되는 종속 패키지의 표시 이름입니다. MSI에서 종속 패키지를 설치 하지 않으면 특성 선택 사항입니다.  
-  
-    - `Location` -이 선택적 특성 중첩된 VSIX 패키지에이 VSIX 내의 상대 경로 또는 종속성에 대 한 다운로드 위치에 대 한 URL을 지정합니다. 이 특성은 사용자가 필수 구성 요소 패키지를 찾을 수 있도록 하는 데 사용 됩니다.  
-  
-    - `AnyAttribute*` – `Dependency` 요소 이름-값 쌍 사전으로 런타임에 노출 될 특성의 개방형 집합을 허용 합니다.  
+  - `Id` -이 특성에는 종속 패키지에 대 한 고유 ID 여야 합니다. Id 값이 일치 해야 합니다는 `<Metadata><Identity>Id` 이 패키지에 종속 된 패키지의 특성입니다. `Id` 특성 네임 스페이스 규칙을 따릅니다. Company.Product.Feature.Name 합니다. 특성에는 영숫자 문자만 포함할 수 있습니다 및 100 자로 제한 됩니다.  
+
+  - `Version` -이 특성이이 SKU의 최소 및 최대 지원 되는 버전을 사용 하 여 버전 범위를 지정합니다. 패키지 있습니다 지원 되는 Sku의 버전을 자세히 설명 합니다. 버전 범위 표기법은 [12.0, 13.0], 위치:  
+
+    - [-최소 버전을 포함 합니다.  
+
+    - ] – 최대 버전을 포함 합니다.  
+
+    - (-단독 최소 버전입니다.  
+
+    - )-최대 버전을 제외 합니다.  
+
+    - 단일 버전 #-지정된 된 버전입니다.  
+
+  - `DisplayName` -이 특성에는 대화 상자와 오류 메시지와 같은 UI 요소에 사용 되는 종속 패키지의 표시 이름입니다. MSI에서 종속 패키지를 설치 하지 않으면 특성 선택 사항입니다.  
+
+  - `Location` -이 선택적 특성 중첩된 VSIX 패키지에이 VSIX 내의 상대 경로 또는 종속성에 대 한 다운로드 위치에 대 한 URL을 지정합니다. 이 특성은 사용자가 필수 구성 요소 패키지를 찾을 수 있도록 하는 데 사용 됩니다.  
+
+  - `AnyAttribute*` – `Dependency` 요소 이름-값 쌍 사전으로 런타임에 노출 될 특성의 개방형 집합을 허용 합니다.  
   
 ### <a name="assets-element"></a>자산 요소  
  이 요소 목록을 포함 `<Asset>` 이 패키지에서 각 확장 또는 콘텐츠 요소에 대 한 태그를 표시 합니다.  

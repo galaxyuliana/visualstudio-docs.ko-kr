@@ -12,12 +12,12 @@ caps.latest.revision: 42
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 5bb3632e1ed7bf07e236322700ba8553b53a75cb
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: cb2b23dcc01d90bc4365c7d5673e6232229b8d3e
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63426609"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826000"
 ---
 # <a name="in-source-suppression-overview"></a>ISS 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
   
 ```  
   
- 여기서  
+ 각 항목이 나타내는 의미는 다음과 같습니다.  
   
 - **규칙 범주** -규칙이 정의 된 범주입니다. 코드 분석 규칙 범주에 대 한 자세한 내용은 참조 하세요. [관리 코드 경고에 대 한 코드 분석](../code-quality/code-analysis-for-managed-code-warnings.md)합니다.  
   
@@ -64,15 +64,15 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
   
 - **범위** -경고가 표시 되는 대상입니다. 대상 지정 하지 않으면, 대상 특성으로 설정 됩니다. 지원 되는 범위는 다음과 같습니다.  
   
-    - Module  
-  
-    - 네임스페이스  
-  
-    - 리소스  
-  
-    - 형식  
-  
-    - 멤버  
+  - Module  
+
+  - 네임스페이스  
+
+  - 리소스  
+
+  - 형식  
+
+  - 멤버  
   
 - **대상** -경고가 표시 되는 대상을 지정 하는 데 사용 되는 식별자입니다. 항목 정규화 된 이름을 포함 해야 합니다.  
   

@@ -53,12 +53,12 @@ caps.latest.revision: 53
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: df415b9ad56e8e9b740da57709d039737f1bd24a
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: e53a31a274a356d5686c3225ed2635e6c61231c2
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65697911"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824707"
 ---
 # <a name="dataset-tools-in-visual-studio"></a>Visual Studio의 데이터 세트 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,13 +81,13 @@ ms.locfileid: "65697911"
 
 - 사용 된 **TableAdapter 구성 마법사** 쿼리 또는 데이터 집합을 채우는 저장된 프로시저를 지정할 수 및 데이터베이스 작업 (업데이트, 삭제 및 등)을 구현 합니다. 자세한 내용은 다음 항목을 참조하세요.
 
-    - [TableAdapter를 사용하여 데이터 집합 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)
+  - [TableAdapter를 사용하여 데이터 집합 채우기](../data-tools/fill-datasets-by-using-tableadapters.md)
 
-    - [데이터 집합의 데이터 편집](../data-tools/edit-data-in-datasets.md)
+  - [데이터 집합의 데이터 편집](../data-tools/edit-data-in-datasets.md)
 
-    - [데이터 집합의 데이터 유효성 검사](../data-tools/validate-data-in-datasets.md)
+  - [데이터 집합의 데이터 유효성 검사](../data-tools/validate-data-in-datasets.md)
 
-    - [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)
+  - [데이터를 다시 데이터베이스에 저장](../data-tools/save-data-back-to-the-database.md)
 
 - 쿼리 및 데이터 집합의 데이터를 검색 합니다. 자세한 내용은 [데이터 집합 쿼리](../data-tools/query-datasets.md)합니다. [!INCLUDE[linq_dataset](../includes/linq-dataset-md.md)] 사용 하도록 설정 [LINQ (Language-Integrated Query)](https://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d) 데이터에 대 한 <xref:System.Data.DataSet> 개체입니다. 자세한 내용은 [LINQ to DataSet](https://msdn.microsoft.com/library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17)을 참조하세요.
 
