@@ -21,12 +21,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 69ad1208f9c3e36ff4f73b633efc9de180a09457
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e13d6d323264136c6cab4c753ba53d40acd5a628
+ms.sourcegitcommit: da4079f5b6ec884baf3108cbd0519d20cb64c70b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62852099"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "67852219"
 ---
 # <a name="debugging-errors-and-warning-dialog-boxes"></a>디버깅 오류 및 경고 대화 상자
 다음은 응용 프로그램을 디버깅할 때 발생할 수 있는 오류 및 경고 대화 상자입니다.
@@ -37,6 +37,8 @@ ms.locfileid: "62852099"
  [값을 변경할 수 없음 대화 상자](../debugger/cannot-change-value-dialog-box.md)
 
  [디버거가 현재 위치에 대한 소스 코드나 디스어셈블리를 표시할 수 없습니다.](../debugger/debugger-cannot-display-source-code-or-disassembly.md)
+ 
+ [메모리에서 실행 되는 서비스 디버거](../debugger/error-debugger-services-no-memory.md)
 
  [디버깅 세션에 사용할 실행 파일 대화 상자](../debugger/executable-for-debugging-session-dialog-box.md)
 

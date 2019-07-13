@@ -1,6 +1,6 @@
 ---
 title: 함수 매개 변수 및 반환 값에 주석 지정
-ms.date: 11/04/2016
+ms.date: 07/11/2019
 ms.topic: conceptual
 f1_keywords:
 - _Outptr_opt_result_bytebuffer_to_
@@ -119,18 +119,21 @@ f1_keywords:
 - _Outref_result_bytebuffer_
 - _Result_nullonfailure_
 - _Ret_null_
+- _Scanf_format_string_
+- _Scanf_s_format_string_
+- _Printf_format_string_
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 author: mikeblome
 ms.author: mblome
 manager: wpickett
 ms.workload:
 - multiple
-ms.openlocfilehash: ace5afbf1c587a2c54c4221469cb7be0d6487c9a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 1a33a29261a8a776ec570026fbc3ab575f712929
+ms.sourcegitcommit: da4079f5b6ec884baf3108cbd0519d20cb64c70b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63388551"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "67852177"
 ---
 # <a name="annotating-function-parameters-and-return-values"></a>함수 매개 변수 및 반환 값에 주석 지정
 이 문서에서는 간단한 함수 매개 변수에 대 한 주석의 일반적인 용도 설명 합니다.-스칼라 및 구조체와 클래스에 대 한 포인터-버퍼의 대부분의 종류입니다.  이 문서는 또한 주석에 대 한 일반적인 사용 패턴을 보여줍니다. 함수에 관련 된 추가 주석을 참조 하세요. [함수 동작에 주석 지정](../code-quality/annotating-function-behavior.md)
@@ -216,7 +219,7 @@ ms.locfileid: "63388551"
 
      `_Out_writes_to_(_Old_(s), _Old_(s))    _Out_writes_bytes_to_(_Old_(s), _Old_(s))`
 
-     최대 버퍼에 있는 모든 요소 즉, `s` 사전 상태에서 유효한 후 상태입니다.  예를 들어:
+     최대 버퍼에 있는 모든 요소 즉, `s` 사전 상태에서 유효한 후 상태입니다.  예:
 
      `void *memcpy(_Out_writes_bytes_all_(s) char *p1,    _In_reads_bytes_(s) char *p2,    _In_ int s); void * wordcpy(_Out_writes_all_(s) DWORD *p1,     _In_reads_(s) DWORD *p2,    _In_ int s);`
 
@@ -244,7 +247,7 @@ ms.locfileid: "63388551"
 
      `_Out_writes_to_(_Old_(s), _Old_(s))    _Out_writes_bytes_to_(_Old_(s), _Old_(s))`
 
-     최대 버퍼에 있는 모든 요소 즉, `s` 사전 상태에서 유효한 후 상태입니다.  예를 들어:
+     최대 버퍼에 있는 모든 요소 즉, `s` 사전 상태에서 유효한 후 상태입니다.  예:
 
      `void *memcpy(_Out_writes_bytes_all_(s) char *p1,    _In_reads_bytes_(s) char *p2,    _In_ int s); void * wordcpy(_Out_writes_all_(s) DWORD *p1,     _In_reads_(s) DWORD *p2,    _In_ int s);`
 
@@ -285,6 +288,7 @@ ms.locfileid: "63388551"
      null로 끝나는 배열에 대 한 포인터 식이 `p`  -  `_Curr_` (즉, `p` 빼기 `_Curr_`) 표준 적절 한 언어에서 정의 됩니다.  요소를 이전 `p` 사전 상태에서 유효 하지 않아도 되 고 사후 상태에서 유효 해야 합니다.
 
 ## <a name="optional-pointer-parameters"></a>선택적 포인터 매개 변수
+
  포인터 매개 변수 주석이 포함 된 경우 `_opt_`를 나타냅니다. 매개 변수는 null 일 수 있습니다. 그렇지 않으면 주석이 수행 포함 되지 않은 버전과 동일 `_opt_`합니다. 목록은 다음과 같습니다는 `_opt_` 포인터 매개 변수 주석에 변형:
 
 ||||
@@ -384,6 +388,7 @@ ms.locfileid: "63388551"
    함수가 실패 하면 함수가 성공 하면 유효한 버퍼 또는 null로 반환 된 포인터가 가리킵니다. 이 주석은 참조 매개 변수입니다.
 
 ## <a name="output-reference-parameters"></a>참조 매개 변수 출력
+
  참조 매개 변수의 일반적인 용도 출력 매개 변수입니다.  간단한 출력 참조 매개 변수-예를 들어 `int&`-`_Out_` 올바른 의미 체계를 제공 합니다.  그러나 출력 값에 대 한 포인터는-예를 들어 `int *&`-해당 포인터 주석을 같은 `_Outptr_ int **` 올바른 의미 체계를 제공 하지 않습니다.  포인터 형식에 대 한 출력 참조 매개 변수의 의미 체계를 간결 하 게 express 복합 이러한 주석을 사용 합니다.
 
  **주석 및 설명**
@@ -445,13 +450,62 @@ ms.locfileid: "63388551"
      결과 사후 상태에서 유효 해야 하지만 사후 상태에서 null 일 수 있습니다. 유효한 버퍼를 가리키는 `s` 바이트 유효한 요소입니다.
 
 ## <a name="return-values"></a>반환 값
+
  함수의 반환 값 비슷합니다는 `_Out_` de-reference, 서로 다른 수준의 비슷하나 매개 변수 및 결과에 대 한 포인터의 개념을 고려해 야 할 필요가 없습니다.  다음 주석을 반환 값은 주석이 추가 된 개체-스칼라, 구조체에 대 한 포인터 또는 버퍼에 대 한 포인터입니다. 이러한 주석은 해당 동일한 의미 체계를 가집니다 `_Out_` 주석입니다.
 
 |||
 |-|-|
 |`_Ret_z_`<br /><br /> `_Ret_writes_(s)`<br /><br /> `_Ret_writes_bytes_(s)`<br /><br /> `_Ret_writes_z_(s)`<br /><br /> `_Ret_writes_to_(s,c)`<br /><br /> `_Ret_writes_maybenull_(s)`<br /><br /> `_Ret_writes_to_maybenull_(s)`<br /><br /> `_Ret_writes_maybenull_z_(s)`|`_Ret_maybenull_`<br /><br /> `_Ret_maybenull_z_`<br /><br /> `_Ret_null_`<br /><br /> `_Ret_notnull_`<br /><br /> `_Ret_writes_bytes_to_`<br /><br /> `_Ret_writes_bytes_maybenull_`<br /><br /> `_Ret_writes_bytes_to_maybenull_`|
 
+## <a name="format-string-parameters"></a>형식 문자열 매개 변수
+
+- `_Printf_format_string_` 매개 변수 사용에 대 한 형식 문자열 임을 나타냅니다는 `printf` 식입니다.
+
+     **예제**
+
+    ```cpp
+    int MyPrintF(_Printf_format_string_ const wchar_t* format, ...)
+    {
+           va_list args;
+           va_start(args, format);
+           int ret = vwprintf(format, args);
+           va_end(args);
+           return ret;
+    }
+    ```
+
+- `_Scanf_format_string_` 매개 변수 사용에 대 한 형식 문자열 임을 나타냅니다는 `scanf` 식입니다.
+
+     **예제**
+
+    ```cpp
+    int MyScanF(_Scanf_format_string_ const wchar_t* format, ...)
+    {
+           va_list args;
+           va_start(args, format);
+           int ret = vwscanf(format, args);
+           va_end(args);
+           return ret;
+    }
+    ```
+
+- `_Scanf_s_format_string_` 매개 변수 사용에 대 한 형식 문자열 임을 나타냅니다는 `scanf_s` 식입니다.
+
+     **예제**
+
+    ```cpp
+    int MyScanF_s(_Scanf_s_format_string_ const wchar_t* format, ...)
+    {
+           va_list args; 
+           va_start(args, format);
+           int ret = vwscanf_s(format, args);
+           va_end(args); 
+           return ret;
+    }
+    ```
+
 ## <a name="other-common-annotations"></a>기타 일반 주석
+
  **주석 및 설명**
 
 - `_In_range_(low, hi)`
@@ -481,7 +535,7 @@ ms.locfileid: "63388551"
 
 - `_Struct_size_bytes_(size)`
 
-     구조체 또는 클래스 선언에 적용 됩니다.  지정 된 바이트 수를 사용 하 여 해당 형식의 유효한 개체를 선언된 된 형식 보다 클 수 있습니다 나타냅니다 `size`합니다.  예를 들어:
+     구조체 또는 클래스 선언에 적용 됩니다.  지정 된 바이트 수를 사용 하 여 해당 형식의 유효한 개체를 선언된 된 형식 보다 클 수 있습니다 나타냅니다 `size`합니다.  예:
 
      `typedef _Struct_size_bytes_(nSize) struct MyStruct {    size_t nSize;    ... };`
 
@@ -489,7 +543,8 @@ ms.locfileid: "63388551"
 
      `min(pM->nSize, sizeof(MyStruct))`
 
-## <a name="related-resources"></a>관련 참고 자료
+## <a name="related-resources"></a>관련 리소스
+
  [코드 분석 팀 블로그](http://go.microsoft.com/fwlink/?LinkId=251197)
 
 ## <a name="see-also"></a>참고 항목
