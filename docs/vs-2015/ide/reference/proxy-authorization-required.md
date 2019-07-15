@@ -9,12 +9,12 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 520c31f671aee05663a5471aca05cfe06313b168
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: f2de40c520bca0ea04f50ec782fec2dda531172e
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65847028"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67822064"
 ---
 # <a name="proxy-authorization-required"></a>프록시 권한 필요
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,21 +27,21 @@ ms.locfileid: "65847028"
 
 - 위의 단계를 수행해도 문제가 해결되지 않으면 프록시 서버에서 http://go.microsoft.com 주소가 아닌 *.visualStudio.com 주소에 대한 자격 증명을 입력하라는 메시지를 표시하기 때문일 수 있습니다. 이러한 서버에 대 한 Visual Studio에서 모든 로그인 시나리오의 차단을 해제를 허용 목록에 다음 Url을 추가 해야 합니다.
 
-    - *.windows.net
+  - *.windows.net
 
-    - *.microsoftonline.com
+  - *.microsoftonline.com
 
-    - *.visualstudio.com
+  - *.visualstudio.com
 
-    - *.microsoft.com
+  - *.microsoft.com
 
-    - *.live.com
+  - *.live.com
 
 - 제거할 수 있습니다 합니다 http://go.microsoft.com 프록시 인증 대화 상자가 모두에 대 한 표시 되도록 허용 목록에서 주소를 http://go.microsoft.com 주소 및 Visual Studio를 다시 시작할 때 서버 끝점입니다.
 
 - 프록시를 사용 하 여 기본 자격 증명을 사용 하려는 경우 다음을 수행 합니다.
 
-   1.  **%ProgramFiles%\Microsoft Visual Studio 14.0\Common7\IDE** (또는 **%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Common7\IDE**)에서 devenv.exe.config(devenv.exe 구성 파일)를 찾습니다.
+   1. **%ProgramFiles%\Microsoft Visual Studio 14.0\Common7\IDE** (또는 **%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\Common7\IDE**)에서 devenv.exe.config(devenv.exe 구성 파일)를 찾습니다.
 
    2. 구성 파일에서 `<system.net>` 블록을 찾아 다음 코드를 추가합니다.
 

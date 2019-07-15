@@ -9,14 +9,14 @@ caps.latest.revision: 9
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: c3f1533df24af802ae0c9950d4765ea0a0bf04da
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: ac6e9a890c8009e493341b4bcda87f1e3e162d90
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65693545"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824557"
 ---
-# <a name="walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service"></a>연습: Azure 모바일 서비스에 연결 된 WPF 데스크톱 응용 프로그램 만들기
+# <a name="walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service"></a>연습: Azure 모바일 서비스에 연결된 WPF 데스크톱 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스를 통해 데이터를 저장 및 제공하는 최신 데스크톱 애플리케이션을 신속하게 만들 수 있습니다.  
@@ -28,9 +28,9 @@ WPF(Windows Presentation Foundation)를 사용하여 Azure 모바일 서비스�
   
 - 활성 Microsoft Azure 계정.  
   
-    - [여기](https://azure.microsoft.com/pricing/free-trial/)서 무료 평가판 계정을 등록할 수 있습니다.  
-  
-    - [MSDN 구독자 혜택](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F)을 활성화할 수 있습니다. MSDN을 구독하면 매달 유료 Azure 서비스에 사용할 수 있는 크레딧이 제공됩니다.  
+  - [여기](https://azure.microsoft.com/pricing/free-trial/)서 무료 평가판 계정을 등록할 수 있습니다.  
+
+  - [MSDN 구독자 혜택](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A261C142F)을 활성화할 수 있습니다. MSDN을 구독하면 매달 유료 Azure 서비스에 사용할 수 있는 크레딧이 제공됩니다.  
   
 ## <a name="create-a-project-and-add-references"></a>프로젝트 만들기 및 참조 추가  
  첫 번째 단계는 WPF 프로젝트를 만들고 Azure 모바일 서비스에 연결할 수 있는 NuGet 패키지를 추가하는 것입니다.  
