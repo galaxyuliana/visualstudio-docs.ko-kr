@@ -12,11 +12,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 39b2377dd1599d58eac4ca967ca540d8ce0e6847
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184364"
 ---
 # <a name="command-flag-element"></a>Command Flag 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "58985509"
   
 ### <a name="child-elements"></a>자식 요소  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |AllowParams|사용자의 명령 매개 변수를 입력할 수를 나타냅니다 합니다 **명령** 명령의 정식 이름을 입력할 때 창입니다.<br /><br /> 에 대해 유효 합니다. `Button`|  
 |AlwaysCreate|메뉴 단추 없거나 그룹에 해당 하는 경우에 만들어집니다.<br /><br /> 에 대해 유효 합니다. `Menu`|  
@@ -72,7 +72,7 @@ ms.locfileid: "58985509"
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Buttons 요소](../extensibility/buttons-element.md)|에 대 한 그룹을 제공 [Button 요소](../extensibility/button-element.md) 요소입니다.|  
 |[Menus 요소](../extensibility/menus-element.md)|VSPackage를 구현 하는 모든 메뉴를 정의 합니다.|  

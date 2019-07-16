@@ -12,11 +12,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 43fd417c4d54c0ab57133cf6dbff2c770c1ffc45
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184330"
 ---
 # <a name="commandplacement-element"></a>CommandPlacement 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,13 +41,13 @@ CommandPlacement 요소에는 단추, 그룹 및 메뉴 둘 이상의 그룹 또
 |특성|설명|  
 |---------------|-----------------|  
 |guid|필수 요소. 에 정의 된 대로 명령 집합의 guid를 [Symbols 요소](../extensibility/symbols-element.md)합니다.|  
-|ID|필수 요소. 메뉴, 그룹 또는 명령에 정의 된 대로 배치할의 id를 `Symbols Element`입니다.|  
+|id|필수 요소. 메뉴, 그룹 또는 명령에 정의 된 대로 배치할의 id를 `Symbols Element`입니다.|  
 |priority|필수 요소. 부모 요소에서 항목의 표시 위치를 결정합니다.|  
 |조건|선택 사항입니다. 참조 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|  
   
 ### <a name="child-elements"></a>자식 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |부모|필수 요소. 메뉴 또는 항목을 배치할 수를 호스팅하는 그룹입니다.|  
   
@@ -68,6 +68,6 @@ CommandPlacement 요소에는 단추, 그룹 및 메뉴 둘 이상의 그룹 또
 </CommandPlacements>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [CommandPlacements 요소](../extensibility/commandplacements-element.md)   
  [Visual Studio 명령 테이블(.Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

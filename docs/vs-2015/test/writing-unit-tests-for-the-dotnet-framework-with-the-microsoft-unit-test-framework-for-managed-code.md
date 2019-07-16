@@ -9,17 +9,17 @@ caps.latest.revision: 7
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 945b6f7b4f7b1e6418f45e5130ef08edaabf8b53
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54798202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68185676"
 ---
 # <a name="writing-unit-tests-for-the-net-framework-with-the-microsoft-unit-test-framework-for-managed-code"></a>관리 코드용 Microsoft 단위 테스트 프레임워크를 사용하여 .NET Framework용 단위 테스트 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 단원 내용  
- [연습: 관리 코드에 대한 단위 테스트 만들기 및 실행](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)  
+ [연습: 관리 코드의 단위 테스트 만들기 및 실행](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).  
   
  [빠른 시작: 테스트 탐색기를 사용한 테스트 기반 개발](../test/quick-start-test-driven-development-with-test-explorer.md)  
   
@@ -31,6 +31,6 @@ ms.locfileid: "54798202"
   
  [제네릭 메서드의 단위 테스트](../test/unit-tests-for-generic-methods.md)  
   
- [방법: 이전 버전의.NET 대상](../test/how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md)  
+ [방법: 이전 버전의 .NET을 대상으로 사용](../test/how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md)  
   
  [단위 테스트를 만들기 위한 샘플 프로젝트](../test/sample-project-for-creating-unit-tests.md)

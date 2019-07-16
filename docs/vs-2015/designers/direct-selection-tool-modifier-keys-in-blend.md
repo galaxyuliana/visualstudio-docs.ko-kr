@@ -10,18 +10,18 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: f4c9c027487fcefd29b486d6c58fa45f9e347f60
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54776290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195236"
 ---
 # <a name="direct-selection-tool-modifier-keys-in-blend"></a>Blend의 직접 선택 도구 보조 키
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 다음 표에는 **직접 선택** 도구 ![](../designers/media/6dd6571f-c116-451d-8dd2-1f88b8406362.png "6dd6571f-c116-451d-8dd2-1f88b8406362")를 사용하여 기존 패스의 모양을 수정하는 데 사용할 수 있는 바로 가기가 나와 있습니다. 기존 패스에서 점을 추가 또는 제거하거나 두 개의 기존 패스를 조인하려면 **펜** 도구를 사용합니다.  
   
-|수행할 작업|방법|포인터|  
+|수행할 작업|단계|포인터|  
 |-----------------------|-------------|-------------|  
 |패스의 점에 대해 탄젠트 핸들 표시|패스의 점을 클릭합니다.|![](../designers/media/cfcc5f41-a666-4524-a958-50b9051130ca.png "cfcc5f41-a666-4524-a958-50b9051130ca")<br /><br /> 점 이동 포인터|  
 |패스의 점을 이동합니다.|패스의 점을 끕니다.|![](../designers/media/cfcc5f41-a666-4524-a958-50b9051130ca.png "cfcc5f41-a666-4524-a958-50b9051130ca")<br /><br /> 점 이동 포인터|  
@@ -34,7 +34,7 @@ ms.locfileid: "54776290"
 |세그먼트를 가져와 곡선으로 구부려 포인터 위치 관통|마우스로 패스의 세그먼트 위를 가리킨 다음, Alt 키를 누른 채 세그먼트를 끕니다.|![](../designers/media/975a855a-8536-441f-97ed-2f1496e416bf.png "975a855a-8536-441f-97ed-2f1496e416bf")<br /><br /> 세그먼트 변환 포인터|  
 |탄젠트의 한쪽 끝을 다른 쪽과 별개로 조정|점 또는 세그먼트를 직접 선택한 다음, Alt 키를 누른 채 탄젠트 끝점을 끕니다.|![](../designers/media/923951da-4081-4f8b-bebc-0f1f64d87504.png "923951da-4081-4f8b-bebc-0f1f64d87504")<br /><br /> 탄젠트 변환 포인터|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [바로 가기 키 및 보조 키](../designers/keyboard-shortcuts-and-modifier-keys-in-blend.md)   
  [아트보드 보조 키](../designers/artboard-modifier-keys-in-blend.md)   
  [펜 도구 보조 키](../designers/pen-tool-modifier-keys-in-blend.md)   

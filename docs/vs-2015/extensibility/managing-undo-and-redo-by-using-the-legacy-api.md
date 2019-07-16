@@ -11,13 +11,13 @@ caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 7c2133c75b32e56c1a054740bd829bd04cac97cc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194365"
 ---
-# <a name="managing-undo-and-redo-by-using-the-legacy-api"></a>관리 실행 취소 및 레거시 API를 사용 하 여 다시 실행
+# <a name="managing-undo-and-redo-by-using-the-legacy-api"></a>레거시 API를 사용하여 실행 취소 및 다시 실행 관리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 편집기는 코드를 수정 하는 경우 최근 변경 내용이 되돌릴 수 있도록 하는 실행 취소 작업을 지원 해야 합니다. 대부분의 편집기에서 구현 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 하며 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 통합된 개발 환경 (IDE)에서 자동으로 제공 하는 실행 취소 기능을 가질 수 있습니다.  
@@ -26,10 +26,10 @@ ms.locfileid: "58985608"
  [방법: 실행 취소 관리 구현](../extensibility/how-to-implement-undo-management.md)  
  단일 또는 여러 뷰를 사용 하 여 편집기에 대 한 실행 취소 기능을 제공합니다.  
   
- [방법: 실행 취소 스택을 지웁니다.](../extensibility/how-to-clear-the-undo-stack.md)  
+ [방법: 실행 취소 스택 지우기](../extensibility/how-to-clear-the-undo-stack.md)  
  실행 취소 스택에 선택을 취소 하는 방법에 설명 합니다.  
   
- [방법: 연결 된 실행 취소 관리 사용](../extensibility/how-to-use-linked-undo-management.md)  
+ [방법: 연결된 실행 취소 관리 사용](../extensibility/how-to-use-linked-undo-management.md)  
  편집기에 연결 된 실행 취소 관리를 통합 합니다.  
   
 ## <a name="reference"></a>참조  
