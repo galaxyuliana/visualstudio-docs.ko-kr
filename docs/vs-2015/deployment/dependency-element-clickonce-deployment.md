@@ -27,11 +27,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: f191b11dfce5b3877d0a31e260e092000a556a5a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68187778"
 ---
 # <a name="ltdependencygt-element-clickonce-deployment"></a>&lt;종속성&gt; 요소 (ClickOnce 배포)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -81,11 +81,11 @@ ms.locfileid: "58982380"
 ## <a name="dependentassembly"></a>dependentAssembly  
  필수 요소. 이 요소에 포함 된 `assemblyIdentity` 요소입니다. 다음 표에서 특성을 보여 줍니다.는 `dependentAssembly` 지원 합니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`preRequisite`|선택 사항입니다. 이 어셈블리는 GAC에 이미 지정 합니다. 유효한 값은 `true` 및 `false`입니다. 경우 `true`, 지정된 된 어셈블리를 GAC에 없는 경우, 응용 프로그램을 실행 하지 못함.|  
 |`visible`|선택 사항입니다. 해당 종속성을 포함 하 여 최상위 응용 프로그램 id를 식별 합니다. 내부적으로 사용 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 저장소 및 정품 인증을 관리 합니다.|  
-|`dependencyType`|필수 요소. 이 종속성 및 응용 프로그램 간의 관계입니다. 올바른 값은 다음과 같습니다.<br /><br /> -   `install`. 구성 요소에는 현재 응용 프로그램에서 별도 설치를 나타냅니다.<br />-   `preRequisite`. 현재 응용 프로그램 구성 요소에 필요 합니다.|  
+|`dependencyType`|필수 요소. 이 종속성 및 응용 프로그램 간의 관계입니다. 유효한 값은<br /><br /> -   `install`. 구성 요소에는 현재 응용 프로그램에서 별도 설치를 나타냅니다.<br />-   `preRequisite`. 현재 응용 프로그램 구성 요소에 필요 합니다.|  
 |`codebase`|선택 사항입니다. 응용 프로그램 매니페스트의 전체 경로입니다.|  
 |`size`|선택 사항입니다. 크기 (바이트)를 사용 하는 응용 프로그램 매니페스트를입니다.|  
   
@@ -112,14 +112,14 @@ ms.locfileid: "58982380"
 ## <a name="dsigtransform"></a>dsig:Transform  
  합니다 `dsig:Transform` 의 필수 자식 요소인는 `dsig:Transforms` 요소입니다. 다음 표에서 특성을 `dsig:Transform` 요소입니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`Algorithm`|이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 는 `urn:schemas-microsoft-com:HashTransforms.Identity`합니다.|  
   
 ## <a name="dsigdigestmethod"></a>dsig:DigestMethod  
  합니다 `dsig:DigestMethod` 의 필수 자식 요소인는 `hash` 요소입니다. 다음 표에서 특성을 `dsig:DigestMethod` 요소입니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`Algorithm`|이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 는 `http://www.w3.org/2000/09/xmldsig#sha1`합니다.|  
   
@@ -183,6 +183,6 @@ ms.locfileid: "58982380"
 </dependency>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)   
  [\<dependency> 요소](../deployment/dependency-element-clickonce-application.md)

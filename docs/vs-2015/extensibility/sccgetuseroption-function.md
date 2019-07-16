@@ -13,11 +13,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: bd00a2b669b806b09a6ae221b2ba2e03f8d45ceb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200079"
 ---
 # <a name="sccgetuseroption-function"></a>SccGetUserOption 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ SCCRTN SccGetUserOption(
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|옵션은 성공적으로 검색 되었습니다.|  
 |SCC_E_OPNOTSUPPORTED|옵션이 지원 되지 않습니다.|  
@@ -56,7 +56,7 @@ SCCRTN SccGetUserOption(
 ## <a name="remarks"></a>설명  
  다음 옵션은이 명령에 의해 지원 됩니다.  
   
-|사용자 옵션|설명|  
+|사용자 옵션|Description|  
 |-----------------|-----------------|  
 |`SCC_USEROPT_CHECKOUT_LOCALVER`|사용자가 파일의 로컬 버전 체크 아웃 하려고 하는지 여부를 결정 합니다. `lpVal` 할당 된 `SCC_USEROPT_COLV_YES` (사용자가 로컬 파일을 체크 아웃) 또는 `SCC_USEROPT_COLV_NO`합니다.|  
   

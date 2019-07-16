@@ -8,12 +8,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c96e3798c79fcca03052dc597270312f374f1b33
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: 33becb67adb0453adef111ca2c8fb0d2b2e6edfc
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66312306"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67890966"
 ---
 # <a name="common-control-patterns-for-visual-studio"></a>Visual Studio의 일반 컨트롤 패턴
 ## <a name="BKMK_CommonControls"></a> 공용 컨트롤
@@ -243,7 +243,7 @@ ms.locfileid: "66312306"
 
 - 취소가 강조 상황에서는 보조 명령 있는 많은 명령
 
-#### <a name="examples"></a>예제
+#### <a name="examples"></a>예
 ![다음 상태 메시지 정보 표시줄에 사용 된 연결 명령을](../../extensibility/ux-guidelines/media/070703-01_commandlinkinfobar.png "070703 01_CommandLinkInfobar")<br />다음 상태 메시지 정보 표시줄에 사용 된 명령 링크
 
 ![CodeLens 팝업에 사용 된 링크](../../extensibility/ux-guidelines/media/070703-02_linksincodelens.png "070703 02_LinksInCodeLens")<br />CodeLens 팝업에 사용된 링크
@@ -296,11 +296,12 @@ Visual Studio에서 대부분의 단추 유틸리티 대화 상자에 나타나�
 #### <a name="graphical-buttons"></a>단추 그래픽
 일부 단추를 항상 그래픽 이미지를 사용 하 여 공간을 절약 하 고 지역화 문제를 방지 하기 위해 텍스트를 포함 하지 않습니다. 이러한 필드 선택기 및 다른 정렬 가능한 목록에서 자주 사용 됩니다.
 
-> **참고:** 사용자 (액세스 키가) 이러한 단추를 탭, 따라서 적절 한 순서로 배치 해야 합니다. 지도 `name` 화면 판독기 단추 동작을 올바르게 해석할 수 있도록 소요 되는 작업에 단추의 속성입니다.
+> [!NOTE]
+> 사용자 (액세스 키가) 이러한 단추를 탭, 따라서 적절 한 순서로 배치 해야 합니다. 지도 `name` 화면 판독기 단추 동작을 올바르게 해석할 수 있도록 소요 되는 작업에 단추의 속성입니다.
 
 | 함수 | 단추 |
 | --- | --- |
-| Add | ![그래픽 "추가" 단추](../../extensibility/ux-guidelines/media/070703-08_buttonadd.png "070703 08_ButtonAdd") |
+| 추가 | ![그래픽 "추가" 단추](../../extensibility/ux-guidelines/media/070703-08_buttonadd.png "070703 08_ButtonAdd") |
 | 제거 | ![그래픽 "제거" 단추](../../extensibility/ux-guidelines/media/070703-09_buttonremove.png "070703 09_ButtonRemove") |
 | 모든 추가 | ![그래픽 "모두 추가" 단추](../../extensibility/ux-guidelines/media/070703-10_buttonaddall.png "070703 10_ButtonAddAll") |
 | 모두 제거 | ![그래픽 "모두 제거" 단추](../../extensibility/ux-guidelines/media/070703-11_buttonremoveall.png "070703 11_ButtonRemoveAll") |

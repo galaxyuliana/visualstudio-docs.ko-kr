@@ -10,13 +10,13 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 056e5d1fad258d063e30cfd97e85529ff3a0c9bd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160170"
 ---
-# <a name="install-sql-server-sample-databases"></a>SQL Server 예제 데이터베이스 설치
+# <a name="install-sql-server-sample-databases"></a>SQL Server 샘플 데이터베이스 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 예제 데이터베이스는 SQL 및 LINQ 쿼리, 데이터 바인딩, Entity Framework 모델링 및 등을 사용 하 여 실험에 대 한 유용 합니다.  각 데이터베이스 제품 예제 데이터베이스 자체에 있습니다. Northwind 및 AdventureWorks는 두 가지 인기 있는 SQL Server 샘플 데이터베이스입니다.  

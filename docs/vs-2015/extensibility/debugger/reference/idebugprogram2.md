@@ -13,11 +13,11 @@ caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 372c119b6a841d7d4b349e85548914f7641b53d1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148642"
 ---
 # <a name="idebugprogram2"></a>IDebugProgram2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ IDebugProgram2 : IUnknown
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugProgram2`합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[EnumThreads](../../../extensibility/debugger/reference/idebugprogram2-enumthreads.md)|이 프로그램에서 실행 되는 스레드를 열거 합니다.|  
 |[GetName](../../../extensibility/debugger/reference/idebugprogram2-getname.md)|프로그램의 이름을 가져옵니다.|  
@@ -50,7 +50,7 @@ IDebugProgram2 : IUnknown
 |[Detach](../../../extensibility/debugger/reference/idebugprogram2-detach.md)|이 프로그램에서 디버거를 분리합니다.|  
 |[GetProgramId](../../../extensibility/debugger/reference/idebugprogram2-getprogramid.md)|이 프로그램에 대 한 전역적으로 고유 식별자를 가져옵니다.|  
 |[GetDebugProperty](../../../extensibility/debugger/reference/idebugprogram2-getdebugproperty.md)|가져옵니다 속성을 프로그래밍합니다.|  
-|[Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md)|중지 된 상태에서이 프로그램 실행을 계속 합니다. 모든 이전 실행 상태가 지워집니다.|  
+|[실행](../../../extensibility/debugger/reference/idebugprogram2-execute.md)|중지 된 상태에서이 프로그램 실행을 계속 합니다. 모든 이전 실행 상태가 지워집니다.|  
 |[Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md)|중지 된 상태에서이 프로그램 실행을 계속 합니다. 모든 이전 실행 상태로 유지 됩니다.|  
 |[Step](../../../extensibility/debugger/reference/idebugprogram2-step.md)|단계를 수행합니다.|  
 |[CauseBreak](../../../extensibility/debugger/reference/idebugprogram2-causebreak.md)|이 프로그램은 다음 실행을 중지 하는 요청 시간 코드의 스레드 실행 중입니다.|  
@@ -73,12 +73,12 @@ IDebugProgram2 : IUnknown
 ## <a name="remarks"></a>설명  
  프로그램은 하나 이상의 응용 프로그램의 프로세스 이루어집니다 하는 동안 특정 런타임 아키텍처에서 실행 되는 스레드 컨테이너입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)   
  [GetProgram](../../../extensibility/debugger/reference/idebugthread2-getprogram.md)   
  [다음](../../../extensibility/debugger/reference/ienumdebugprograms2-next.md)   
  [이벤트](../../../extensibility/debugger/reference/idebugportevents2-event.md)   
- [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)   
+ [연결](../../../extensibility/debugger/reference/idebugengine2-attach.md)   
  [DestroyProgram](../../../extensibility/debugger/reference/idebugengine2-destroyprogram.md)   
  [이벤트](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)   
  [Attach_V7](../../../extensibility/debugger/reference/idebugprogramnode2-attach-v7.md)

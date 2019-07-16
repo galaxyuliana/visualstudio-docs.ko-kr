@@ -22,11 +22,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 4f2f963ad2fbdad9453f6c6b853bc720034f613c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197071"
 ---
 # <a name="error-debugging-isn39t-possible-because-a-kernel-debugger-is-enabled-on-the-system"></a>오류: 디버깅 되었습니다&#39;t 수 있으므로 시스템에 커널 디버거가 사용 가능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,15 +49,15 @@ Debugging isn't possible because a kernel debugger is enabled on the system
   
 - CLR 버전 4.0 또는 4.5를 사용하도록 응용 프로그램을 업그레이드합니다.  
   
-     또는  
+     —또는—  
   
 - [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 커널 디버깅을 비활성화하고 디버깅합니다.  
   
-     또는  
+     —또는—  
   
 - [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 대신 커널 디버거를 사용하여 디버깅합니다.  
   
-     또는  
+     —또는—  
   
 - 커널 디버거에서 사용자 모드 예외를 비활성화합니다.  
   

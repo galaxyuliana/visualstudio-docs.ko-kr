@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 03b92c8ea9b764df517b02dc0dc256b5837a6c10
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68187108"
 ---
 # <a name="writing-code-to-customise-a-domain-specific-language"></a>도메인별 언어를 사용자 지정하는 코드 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,5 +75,5 @@ ms.locfileid: "58981654"
   
 - **Serialization**합니다. 저장소 파일에 포함 하는 개체를 serialize 하는 표준 방법을 제공 합니다. 직렬화 및 역직렬화에 대 한 규칙을 사용자 지정할 수 있습니다. 자세한 내용은 [사용자 지정 파일 저장소 및 XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [도메인별 언어 사용자 지정 및 확장](../modeling/customizing-and-extending-a-domain-specific-language.md)

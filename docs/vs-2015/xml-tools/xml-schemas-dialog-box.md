@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 82247c2510d64f712cc4b703154ea16a4bb7e7e1
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59647448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68150664"
 ---
 # <a name="xml-schemas-dialog-box"></a>XML 스키마 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "59647448"
   **제거**  
   현재 선택된 스키마를 스키마 집합에서 제거합니다. 그러면 스키마가 메모리 내 스키마 캐시에서 제거되지만 파일 시스템에서는 제거되지 않습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [XML 편집기 구성 요소](../xml-tools/xml-editor-components.md)   
  [방법: 사용 하 여 XML 스키마 선택](../xml-tools/how-to-select-the-xml-schemas-to-use.md)   
  [스키마 캐시](../xml-tools/schema-cache.md)

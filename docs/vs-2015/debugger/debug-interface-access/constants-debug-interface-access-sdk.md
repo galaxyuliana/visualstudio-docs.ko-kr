@@ -15,11 +15,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 931e1ab46793a5ff7e0434949330eaf4dbc820e8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68164431"
 ---
 # <a name="constants-debug-interface-access-sdk"></a>상수(디버그 인터페이스 액세스 SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "58984828"
 DIA SDK를 통해 프로그램 디버그 데이터베이스 (PDB) 파일의 다양 한 섹션을 확인 하려면 이러한 문자열 상수를 사용할 수 있습니다.  
   
 ## <a name="constants"></a>상수  
- 다음 C/c + + 매크로로 선언 됩니다.  
+ 다음은 C로 선언 된 /C++ 매크로입니다.  
   
 |매크로|값|  
 |-----------|-----------|  

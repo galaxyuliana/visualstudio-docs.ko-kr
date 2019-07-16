@@ -19,11 +19,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 5ea088eadc09d45d576dd3c9cd33e5d9e2d79fc8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160634"
 ---
 # <a name="limitations-on-script-debugging"></a>스크립트 디버깅의 제한 사항
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "60048556"
   
 - 중단점은 `<script>` 블록 내에서 설정되어야 합니다. 인라인 스크립트 또는 `<% %>` 블록에 있는 중단점은 매핑할 수 없습니다.  
   
-- 페이지의 브라우저 URL에는 페이지 이름이 포함되어야 합니다. 예를 들어, http://microsoft.com/default.apsx을 입력합니다. 중단점 매핑은 같은 주소에서 리디렉션을 인식할 수 없는 http://microsoft.com 기본 페이지에 있습니다.  
+- 페이지의 브라우저 URL에는 페이지 이름이 포함되어야 합니다. http://microsoft.com/default.apsx )을 입력합니다. 중단점 매핑은 같은 주소에서 리디렉션을 인식할 수 없는 http://microsoft.com 기본 페이지에 있습니다.  
   
 - 중단점은 ASPX 컨트롤(ascx) 파일, 마스터 페이지 또는 해당 페이지에 포함된 다른 파일에서가 아니라 브라우저 URL에 지정된 페이지에서 설정되어야 합니다. 포함된 페이지에서 설정된 중단점은 매핑할 수 없습니다.  
   

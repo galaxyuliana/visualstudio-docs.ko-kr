@@ -10,11 +10,11 @@ author: erickson-doug
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: d8a3ccfa22ba248ba094b99f25ea1478ec378f4d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68144886"
 ---
 # <a name="troubleshooting-code-metrics-issues"></a>코드 메트릭 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,5 +30,5 @@ ms.locfileid: "60094621"
   
 - 함수는 switch 문(VB에서 Select Case)을 포함합니다. [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)]과 이전 버전 간의 컴파일러 차이점은 제어 이동 사례가 포함된 일부 switch 문에 대해 서로 다른 MSIL 코드를 생성할 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [관리 코드의 복잡성 및 유지 관리 용이성 측정](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)

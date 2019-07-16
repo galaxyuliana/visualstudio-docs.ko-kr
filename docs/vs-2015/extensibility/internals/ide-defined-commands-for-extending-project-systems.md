@@ -12,11 +12,11 @@ caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 3b5de061449844b87d60d7a700b1e1c22e1e1282
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195031"
 ---
 # <a name="ide-defined-commands-for-extending-project-systems"></a>프로젝트 시스템 확장을 위한 IDE 정의 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "58985206"
 ## <a name="command-menus"></a>명령 메뉴  
  다음 표에서 유용한 위치 프로젝트 extender를 호출 하는 고급 명령을 추가 하는 명령 메뉴를 보여 줍니다.  
   
-|명령 메뉴|설명|  
+|명령 메뉴|Description|  
 |------------------|-----------------|  
 |IDM_VS_MENU_PROJECT|합니다 **프로젝트** 최상위 메뉴.|  
 |IDM_VS_TOOL_PROJWIN|합니다 **솔루션 탐색기** 도구 모음입니다.|  
@@ -36,7 +36,7 @@ ms.locfileid: "58985206"
 ## <a name="shortcut-menus"></a>바로 가기 메뉴  
  다음 표에서 단일 노드가 선택 되었을 때 적용 되는 바로 가기 메뉴를 보여 줍니다.는 **솔루션 탐색기**, 때나의 여러 형식이 같은 멤버를 선택 합니다 **솔루션 탐색기**, 하는 경우 선택한 모든 노드는 동일한 형식입니다.  
   
-|바로 가기 메뉴|설명|  
+|바로 가기 메뉴|Description|  
 |-------------------|-----------------|  
 |<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_PROJNODE>|프로젝트 노드를 선택한 경우에 적용 됩니다.|  
 |<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_ITEMNODE>|파일을 선택 하는 경우 적용 됩니다.|  
@@ -58,7 +58,7 @@ ms.locfileid: "58985206"
 ## <a name="command-groups"></a>명령 그룹  
  다음 표에서 프로젝트를 확장 하 고를 통해 액세스할 수 있는 경우 사용할 수 있는 명령 그룹을 보여 줍니다.는 <xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_PROJNODE> 바로 가기 메뉴.  
   
-|명령 그룹|설명|  
+|명령 그룹|Description|  
 |-------------------|-----------------|  
 |IDG_VS_CTXT_PROJECT_BUILD|빌드, 다시 작성 및 배포 프로젝트에 대 한 명령입니다.|  
 |IDG_VS_CTXT_COMPILELINK|컴파일 및 연결 프로젝트에 대 한 명령입니다.|  

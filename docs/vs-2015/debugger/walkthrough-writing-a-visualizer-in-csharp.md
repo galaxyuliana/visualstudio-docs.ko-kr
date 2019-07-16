@@ -17,12 +17,12 @@ caps.latest.revision: 36
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 190ada55d5f46d159c6765e9af83d672b654313d
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 6b95ac29f3084bf8899249039ffbaa7da8c2294f
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65688162"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67890473"
 ---
 # <a name="walkthrough-writing-a-visualizer-in-c"></a>연습: C에서 시각화 도우미 작성\#
 
@@ -196,7 +196,8 @@ ms.locfileid: "65688162"
 
 2. Program.cs에서 TestConsole.cs 같은 더 의미 있는 이름을 편집 합니다.
 
-    **참고** [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 새 파일 이름과 일치 하도록 TestConsole.cs의 클래스 선언이 자동으로 변경 합니다.
+    > [!NOTE]
+    > [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 새 파일 이름과 일치 하도록 TestConsole.cs의 클래스 선언이 자동으로 변경 합니다.
 
 3. TestConsole.cs, 다음 코드를 추가 합니다 `using` 문:
 

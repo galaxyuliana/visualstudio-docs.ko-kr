@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: cb0cc75abced1d94fbedccf46b8953df78db7d28
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68150682"
 ---
 # <a name="start-view"></a>시작 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "59651255"
 ## <a name="schema-set-details"></a>스키마 집합 정보  
  합니다 **스키마 집합 정보** 전역 스키마 노드 형식을 나열 하 고 스키마에 있는 각 형식의 인스턴스 수를 표시 하는 창입니다. 사용할 수는 **추가** 작업 영역에 새 노드를 추가할 노드 형식 옆에 있는 링크입니다.  
   
-## <a name="toolbar"></a>ToolBar  
+## <a name="toolbar"></a>도구 모음  
  시작 뷰 간을 탐색할 수 있습니다 합니다 [콘텐츠 모델 뷰](../xml-tools/content-model-view.md) 하며 [그래프 뷰](../xml-tools/graph-view.md) XML 스키마 디자이너 도구 모음에서 합니다.  
   
  ![XML 스키마 디자이너 도구 모음](../xml-tools/media/xsdstartviewtoolbar.gif "XSDStartViewToolbar")  
@@ -44,7 +44,7 @@ ms.locfileid: "59651255"
 |**콘텐츠 모델 뷰 표시**|콘텐츠 모델 뷰로 전환합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **CTRL + 2**합니다.|  
 |**그래프 뷰 표시**|그래프 뷰로 전환합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **CTRL + 3**합니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [XML 스키마 탐색기](../xml-tools/xml-schema-explorer.md)   
  [그래프 뷰](../xml-tools/graph-view.md)   
  [콘텐츠 모델 뷰](../xml-tools/content-model-view.md)   

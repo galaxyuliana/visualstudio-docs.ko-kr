@@ -12,11 +12,11 @@ caps.latest.revision: 35
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 692f2a9f34edd41839179f7229e079ec8e791800
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68185829"
 ---
 # <a name="registration-and-selection-source-control-vspackage"></a>등록 및 선택(소스 제어 VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "58984735"
 |--------------|-------------|  
 |`HKEY_LOCAL_MACHINE\   SOFTWARE\     Microsoft\       VisualStudio\         X.Y\           SourceControlProviders\`|(기본값) = rg_sz: {ID_SccProvider}|  
 |`HKEY_LOCAL_MACHINE\   SOFTWARE\     Microsoft\       VisualStudio\         X.Y\           SourceControlProviders\             {ID_SccProvider}\`|(기본값) = rg_sz:\<패키지의 이름 ><br /><br /> Service = rg_sz:{SID_SccPkgService}|  
-|`HKEY_LOCAL_MACHINE\   SOFTWARE\     Microsoft\       VisualStudio\         X.Y\           SourceControlProviders\             {ID_SccProvider}\               Name\`|(기본값) = rg_sz: #\<지역화 된 이름에 대 한 리소스 ID ><br /><br /> Package = rg_sz:{ID_Package}|  
+|`HKEY_LOCAL_MACHINE\   SOFTWARE\     Microsoft\       VisualStudio\         X.Y\           SourceControlProviders\             {ID_SccProvider}\               Name\`|(기본값) = rg_sz: #\<지역화 된 이름에 대 한 리소스 ID ><br /><br /> 패키지 rg_sz =: {ID_Package}|  
 |`HKEY_LOCAL_MACHINE\   SOFTWARE\     Microsoft\       VisualStudio\         X.Y\           SolutionPersistence\             <PackageName>\`<br /><br /> (유의 키 이름을 `SourceCodeControl`에서 이미 사용 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 에 대 한 선택 항목으로 사용할 수 없는 \<PackageName >.)|(기본값) = rg_sz: {ID_Package}|  
   
 ## <a name="selecting-a-source-control-package"></a>소스 제어 패키지를 선택합니다.  
@@ -81,7 +81,7 @@ ms.locfileid: "58984735"
   
   이전 버전과 달리 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)], IDE 다시 시작을 소스 제어 Vspackage를 전환 하려면 유일한 방법은 더 이상. 자동으로 VSPackage 선택이 됩니다. 패키지를 전환 하려면 Windows 사용자 권한 (관리자 또는 Power User 없습니다) 해야 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence>   
  [기능](../../extensibility/internals/source-control-vspackage-features.md)   
  [소스 제어 플러그 인 만들기](../../extensibility/internals/creating-a-source-control-plug-in.md)   

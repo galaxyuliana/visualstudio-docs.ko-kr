@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 260d726ef9f6478292fe80c7fd90ffc4a807265d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158917"
 ---
 # <a name="navigating-and-updating-a-model-in-program-code"></a>프로그램 코드에서 모델 탐색 및 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -120,7 +120,7 @@ ms.locfileid: "60110806"
   
  `foreach (ParentsHaveChildren link in ParentsHaveChildren.GetLinks(henry, edward)) { ... }`  
   
- 링크에 액세스 하기 위한 다른 메서드가 있습니다. 예를 들어:  
+ 링크에 액세스 하기 위한 다른 메서드가 있습니다. 예:  
   
  `foreach (ParentsHaveChildren link in     ParentsHaveChildren.GetLinksToChildren(henry)) { ... }`  
   
@@ -299,7 +299,7 @@ using (Transaction t =
   
  역할에 복합성 0..1 또는 1.. 1 인 경우 설정할 수 있습니다 `null`, 또는 다른 값:  
   
- `edward.FamilyTreeModel = null;` // or:  
+ `edward.FamilyTreeModel = null;` 또는:  
   
  `edward.FamilyTreeModel = anotherFamilyTree;`  
   
@@ -362,7 +362,7 @@ using (Transaction t = targetDiagram.Store.
 |---------------------|----------------|  
 |도메인 클래스|<xref:Microsoft.VisualStudio.Modeling.ModelElement>|  
 |도메인 관계|<xref:Microsoft.VisualStudio.Modeling.ElementLink>|  
-|모양|<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>|  
+|셰이프|<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>|  
 |연결선|<xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>|  
 |다이어그램|<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>|  
   

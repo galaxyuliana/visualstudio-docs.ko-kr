@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 74b3fa73c3a67c721b9311a964e26fa9ab48c16e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60098969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68176489"
 ---
 # <a name="how-to-export-a-shader"></a>방법: 셰이더 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,6 +51,6 @@ ms.locfileid: "60098969"
   
 4. **파일 이름** 콤보 상자에서 내보낸 셰이더의 이름을 지정하고 **저장** 단추를 선택합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [방법: 기본 색 셰이더 만들기](../designers/how-to-create-a-basic-color-shader.md)   
  [셰이더 디자이너](../designers/shader-designer.md)

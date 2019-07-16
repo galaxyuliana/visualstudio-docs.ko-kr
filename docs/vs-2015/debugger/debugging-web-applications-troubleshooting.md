@@ -19,11 +19,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: ac45b72b97a759e79a984f62421997125c5f1a0b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984516"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68152857"
 ---
 # <a name="debugging-web-applications-troubleshooting"></a>웹 애플리케이션 디버그: 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

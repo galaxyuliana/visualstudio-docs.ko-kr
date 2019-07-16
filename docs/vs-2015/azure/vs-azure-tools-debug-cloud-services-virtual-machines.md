@@ -11,12 +11,12 @@ ms.date: 11/11/2016
 ms.author: mikejo
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
-ms.openlocfilehash: cf4fb43148a4746d821b415391c0b69bdd7028e9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ec67549131b4c200da2b6b317e91d1ca67cdfbb0
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62964470"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67891007"
 ---
 # <a name="debugging-an-azure-cloud-service-or-virtual-machine-in-visual-studio"></a>Visual Studio에서 Azure 클라우드 서비스 또는 가상 머신 디버깅
 
@@ -26,7 +26,7 @@ Visual Studio는 Azure 클라우드 서비스와 가상 머신 디버깅에 여�
 
 Azure 컴퓨팅 에뮬레이터를 사용하여 로컬 컴퓨터에서 클라우드 서비스 디버그하면 시간과 돈을 절약할 수 있습니다. 배포하기 전에 로컬로 서비스를 디버깅하면, 컴퓨팅 시간이 소요되지 않고 안정성과 성능을 향상할 수 있습니다. 그러나, Azure 자체에서 클라우드 서비스를 실행하는 경우, 일부 오류가 발생할 수 있습니다. 서비스를 게시하거나 역할 인스턴스에 디버거를 연결할 때 원격 디버깅을 사용하면 이 오류들을 디버그할 수 있습니다.
 
-에뮬레이터가 로컬 환경에서 Azure 컴퓨팅 서비스를 시뮬레이트 및 실행하여 클라우드 서비스를 배포하기 전에 테스트 및 디버그할 수 있습니다. 에뮬레이터는 역할 인스턴스의 수명 주기를 처리하고 로컬 저장소 같은 시뮬레이트된 리소스에 대한 액세스를 제공합니다. Visual Studio에서 서비스를 디버그하거나 실행할 때, 에뮬레이터가 백그라운드 애플리케이션으로 자동으로 시작된 다음, 서비스가 에뮬레이터에 배포됩니다. 로컬 환경에서 서비스가 실행되는 것을 보기 위해 에뮬레이터를 사용할 수 있습니다.  에뮬레이터의 정식 버전 또는 Express 버전을 사용할 수 있습니다. (Azure 2.3부터 에뮬레이터의 Express 버전은 기본값입니다.) [로컬로 클라우드 서비스를 실행 및 디버그할 때 에뮬레이터 익스프레스 사용](vs-azure-tools-emulator-express-debug-run.md)을 참조하세요.
+에뮬레이터가 로컬 환경에서 Azure 컴퓨팅 서비스를 시뮬레이트 및 실행하여 클라우드 서비스를 배포하기 전에 테스트 및 디버그할 수 있습니다. 에뮬레이터는 역할 인스턴스의 수명 주기를 처리하고 로컬 저장소 같은 시뮬레이트된 리소스에 대한 액세스를 제공합니다. Visual Studio에서 서비스를 디버그하거나 실행할 때, 에뮬레이터가 백그라운드 애플리케이션으로 자동으로 시작된 다음, 서비스가 에뮬레이터에 배포됩니다. 로컬 환경에서 서비스가 실행되는 것을 보기 위해 에뮬레이터를 사용할 수 있습니다. 에뮬레이터의 정식 버전 또는 Express 버전을 사용할 수 있습니다. (Azure 2.3부터 에뮬레이터의 Express 버전은 기본값입니다.) [로컬로 클라우드 서비스를 실행 및 디버그할 때 에뮬레이터 익스프레스 사용](vs-azure-tools-emulator-express-debug-run.md)을 참조하세요.
 
 ### <a name="to-debug-your-cloud-service-on-your-local-computer"></a>로컬 컴퓨터에서 클라우드 서비스를 디버그 하려면
 
@@ -40,7 +40,8 @@ Azure 컴퓨팅 에뮬레이터를 사용하여 로컬 컴퓨터에서 클라우
 
 3. **디버그** 메뉴의 명령을 선택하고 코드의 중단점을 설정하여 애플리케이션의 단계를 진행합니다. 디버거에서 애플리케이션을 통해 단계를 진행하면 애플리케이션의 현재 상태로 창이 업데이트됩니다. 디버깅을 중지하면 애플리케이션 배포가 삭제됩니다. 애플리케이션이 웹 역할을 포함하고 웹 브라우저를 시작하도록 시작 동작 속성을 설정하면, Visual Studio는 브라우저에서 웹 애플리케이션을 시작합니다. 서비스 구성에서 역할의 인스턴스 수를 변경한 경우, 클라우드 서비스를 중지하고 역할의 이러한 새 인스턴스를 디버깅할 수 있도록 디버깅을 다시 시작해야 합니다.
 
-    **참고:** 서비스 실행이나 디버깅을 중지해도 로컬 컴퓨팅 에뮬레이터 및 스토리지 에뮬레이터는 중지되지 않습니다. 알림 영역에서 이 에뮬레이터들을 명시적으로 중지해야 합니다.
+    > [!NOTE]
+    > 서비스 실행이나 디버깅을 중지해도 로컬 컴퓨팅 에뮬레이터 및 스토리지 에뮬레이터는 중지되지 않습니다. 알림 영역에서 이 에뮬레이터들을 명시적으로 중지해야 합니다.
 
 ## <a name="debug-a-cloud-service-in-azure"></a>Azure에서 클라우드 서비스 디버그
 
@@ -146,7 +147,8 @@ Visual Studio ASP.NET 프로젝트는 앱 테스트를 위해 사용할 수 있�
 
     ![ASP.NET 웹 프로젝트 만들기 대화 상자](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746723.png)
 
-    **참고:** Azure 계정에 로그인하지 않은 경우, 로그인하라는 메시지가 표시됩니다.
+    > [!NOTE]
+    > Azure 계정에 로그인하지 않은 경우, 로그인하라는 메시지가 표시됩니다.
 
 3. 가상 머신에 대한 다양한 설정을 선택하고 **확인**을 선택합니다. 자세한 내용은 [Virtual Machines](http://go.microsoft.com/fwlink/?LinkId=623033)를 참조하세요.
 

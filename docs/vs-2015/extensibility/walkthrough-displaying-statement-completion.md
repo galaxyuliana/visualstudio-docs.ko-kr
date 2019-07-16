@@ -11,11 +11,11 @@ caps.latest.revision: 37
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: db4e63beb1e3d4ff53e547492ae9eae7ee8001e8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68202007"
 ---
 # <a name="walkthrough-displaying-statement-completion"></a>연습: 명령문 완성 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60045020"
   
  이 연습에는 하드 코드 된 일련의 식별자 문 완성을 구현 하는 방법을 보여 줍니다. 전체 구현에서 언어 서비스 및 언어 설명서는 해당 콘텐츠를 제공 하는 일을 담당 합니다.  
   
-## <a name="prerequisites"></a>전제 조건  
+## <a name="prerequisites"></a>필수 구성 요소  
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  
   
 ## <a name="creating-a-mef-project"></a>MEF 프로젝트 만들기  
@@ -203,5 +203,5 @@ ms.locfileid: "60045020"
   
 4. 입력할 때 먼저 "a"와 "d" 다음 "addition" 및 "조정"를 포함 하는 목록을 표시 합니다. 또한 선택 되어 있는지 확인 합니다. 다른 "d"를 입력 하면만 "추가"가 이제 선택 목록에 포함 해야 합니다. 스페이스바, 탭 또는 Enter 키를 눌러 "addition" 커밋 또는 Esc 키 또는 다른 키를 입력 하 여 목록 해제 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [연습: 파일 이름 확장명에 콘텐츠 형식 연결](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

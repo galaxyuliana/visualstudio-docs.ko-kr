@@ -10,13 +10,13 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: ed644c1dda4ac3674ef60d0027c37532fc6d0f92
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158617"
 ---
-# <a name="walkthrough-using-xslt-hierarchy"></a>연습: XSLT 계층 구조를 사용 하 여
+# <a name="walkthrough-using-xslt-hierarchy"></a>연습: XSLT 계층 구조 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 XSLT 계층 구조 도구를 사용하면 많은 XML 개발 작업을 간단하게 수행할 수 있습니다. XSLT 스타일시트에서는 `includes` 및 `imports` 명령을 사용하는 경우가 자주 있습니다. 컴파일은 주 스타일시트에서 시작하지만 XSLT 스타일시트를 컴파일했을 때 오류가 발생하는 경우 이러한 오류는 주 스타일시트와 다른 소스에서 발생된 것일 수 있습니다. 오류를 해결하거나 스타일시트를 편집하려면 포함되거나 가져온 스타일시트에 액세스할 수 있어야 합니다. 디버거에서 스타일시트를 단계별로 실행하면 포함되거나 가져온 스타일시트가 열릴 수 있으며 하나 이상의 포함된 스타일시트의 일부 지점에 중단점을 추가할 수 있습니다.  
@@ -114,5 +114,5 @@ XSLT 계층 구조 도구를 사용하면 많은 XML 개발 작업을 간단하�
   
 6. `<xsl:include href="xslincludefile.xsl" />` 명령에서 디버거가 중지되면 한 단계씩 코드 실행 단추를 누릅니다. 참조된 스타일시트에서 디버깅을 계속할 수 있습니다. 계층 구조가 표시되며 디자이너에서 올바른 경로를 표시합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [연습: XSLT 프로파일러](../xml-tools/walkthrough-xslt-profiler.md)

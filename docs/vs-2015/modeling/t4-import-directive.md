@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 00033640ec7810f97785b38437795906500a7866
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985907"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163667"
 ---
 # <a name="t4-import-directive"></a>T4 Import 지시문
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,5 +52,5 @@ The file contains: <#=  fileContent #>
   
 - DSL의 네임스페이스  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [T4 Assembly 지시문](../modeling/t4-assembly-directive.md)

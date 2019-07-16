@@ -11,11 +11,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 7db4296a8fa4146a52d167bce3d8b051aa3ca073
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68204664"
 ---
 # <a name="drop-down-bar"></a>드롭다운 표시줄
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,6 +49,6 @@ ms.locfileid: "60055979"
 ## <a name="attaching-a-drop-down-bar-to-a-code-window"></a>드롭다운 표시줄 코드 창에 연결  
  드롭다운 표시줄에 연결 하려면 코드 창 만들어질 때 언어 서비스는 드롭다운 목록에 연결 해야 경우 막대는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments%2A> 메서드가 호출 됩니다. 호출 하는 경우는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager.GetDropdownBar%2A> 메서드는 드롭다운 막대로 존재 다음 호출 되어 있지 않습니다 나타냅니다 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager.AddDropdownBar%2A>합니다. 액세스는 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsDropdownBarManager> 인터페이스를 호출 <xref:System.Runtime.InteropServices.Marshal.QueryInterface%2A> 에서 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow> 포인터를 반환에 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> 구현 된 연결입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [레거시 API를 사용 하 여 사용자 지정 코드 Windows](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)   
  [레거시 언어 서비스의 탐색 모음 지원](../extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service.md)

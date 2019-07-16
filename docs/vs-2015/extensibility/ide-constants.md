@@ -17,11 +17,11 @@ caps.latest.revision: 24
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 18256996d829d34117caa11f4e581d8e54d738b1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68204036"
 ---
 # <a name="ide-constants"></a>IDE 상수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "58984592"
   
 ## <a name="logical-and-physical-views"></a>논리적 및 물리적 보기  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |[LOGVIEWID_Code_guid](/dotnet/api/microsoft.visualstudio.vsconstants.logviewid.code_guid?view=visualstudiosdk-2015)|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` 이 값을 전달 해야 하는 처리기를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> 메서드를 합니다 **연결** 가능한 코드 보기에이 경우에서 대화 상자.|  
 |[LOGVIEWID_Debugging_guid](/dotnet/api/microsoft.visualstudio.vsconstants.logviewid.debugging_guid?view=visualstudiosdk-2015)|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` 이 값을 전달 하는 처리기를 <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> 메서드를 합니다 **연결** 대화 상자,이 경우 가능한 채워집니다 <xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID.Debugging_guid> 디버깅으로 동일한 보기에 매핑되는 뷰 <xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID.Code_guid>합니다.|  
@@ -41,7 +41,7 @@ ms.locfileid: "58984592"
   
 ## <a name="editor-factory-flags"></a>편집기 팩터리 플래그  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |[CEF.CloneFile](/dotnet/api/microsoft.visualstudio.vsconstants.cef?view=visualstudiosdk-2015)|사용 되지 않는 플래그 비트의 첫 번째 매개 변수로 결합 된 <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> 메서드.|  
 |[CEF.CloneFile](/dotnet/api/microsoft.visualstudio.vsconstants.cef?view=visualstudiosdk-2015)|첫 번째 매개 변수로 비트 결합을 <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A>, 메서드를 나타냅니다 편집기 팩터리 필요한 수정 프로그램을 수행 해야 합니다.|  
@@ -50,7 +50,7 @@ ms.locfileid: "58984592"
   
 ## <a name="visual-studio-errors"></a>Visual Studio 오류  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |<xref:Microsoft.VisualStudio.VSConstants.VS_E_BUSY>|비동기 동작 인터페이스에서 반환 된 상수 때 해당 개체에서 이미 사용 중|  
 |<xref:Microsoft.VisualStudio.VSConstants.VS_E_INCOMPATIBLEDOCDATA>|"호환 되지 않는 문서 데이터"에 대 한 Visual Studio에 관련 된 HRESULT 오류입니다.|  
@@ -66,7 +66,7 @@ ms.locfileid: "58984592"
   
 ## <a name="visual-studio-constants"></a>Visual Studio 상수  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |<xref:Microsoft.VisualStudio.VSConstants.VS_S_PROJECTFORWARDED>|Visual Studio와 관련 된 HRESULT 오류가 나타냅니다 "프로젝트를 전달 합니다."|  
 |<xref:Microsoft.VisualStudio.VSConstants.VS_S_TBXMARKER>|"도구 상자 표식입니다."에 대 한 Visual Studio에 관련 된 상수|  
@@ -117,5 +117,5 @@ ms.locfileid: "58984592"
 |<xref:Microsoft.VisualStudio.VSConstants.CPPM_QUERYCANSELECT>|WM_USER + 1286|  
 |<xref:Microsoft.VisualStudio.VSConstants.CPPM_SETMULTISELECT>|WM_USER + 1289|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [프로젝트 시스템 확장을 위한 IDE 정의 명령](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)

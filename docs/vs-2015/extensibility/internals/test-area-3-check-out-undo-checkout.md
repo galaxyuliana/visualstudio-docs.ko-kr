@@ -14,11 +14,11 @@ caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: ab4389c936b71ba8ccbb21b22d0a5e533282026d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60067445"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155996"
 ---
 # <a name="test-area-3-check-outundo-checkout"></a>테스트 영역 3: 체크 아웃/체크 아웃 취소
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -135,5 +135,5 @@ ms.locfileid: "60067445"
 |프로젝트에 파일을 추가한 후 프로젝트를 체크 아웃 취소|1.  새 프로젝트를 만들고 소스 제어에 추가 합니다.<br />2.  프로젝트를 확인 합니다.<br />3.  프로젝트에 파일을 추가 합니다.<br />4.  프로젝트의 체크 아웃을 취소 합니다.|추가 된 파일은 솔루션 탐색기에서 프로젝트에서 제거 됩니다.<br /><br /> 프로젝트 체크 아웃 하지 않았습니다.|  
 |프로젝트에서 파일을 삭제 한 후 프로젝트를 체크 아웃 취소|1.  새 프로젝트를 만들고 소스 제어에 추가 합니다.<br />2.  프로젝트를 확인 합니다.<br />3.  프로젝트에서 파일을 삭제 합니다.<br />4.  프로젝트의 체크 아웃을 취소 합니다.|삭제 된 파일이 솔루션 탐색기의 프로젝트 아래에 나타납니다.<br /><br /> 프로젝트 체크 아웃 하지 않았습니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [소스 제어 플러그 인에 대한 테스트 가이드](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

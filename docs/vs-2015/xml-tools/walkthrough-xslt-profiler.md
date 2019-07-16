@@ -10,18 +10,18 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: db9937a09c8260bd595b6c0311501920bf960aaf
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158599"
 ---
 # <a name="walkthrough-xslt-profiler"></a>연습: XSLT 프로파일러
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 XSLT 프로파일러는 XSLT 코드의 성능 관련 문제를 측정 및 평가하고, 대상으로 지정하는 데 도움이 되는 자세한 XSLT 성능 보고서를 만듭니다. XSLT 프로파일러에는 XSL 및 XSLT 스타일시트 최적화에 유용한 힌트도 포함되어 있습니다. 최대 성능이 필요한 XSLT 응용 프로그램의 경우 이 도구가 반드시 필요합니다.  
   
-## <a name="prerequisites"></a>전제 조건  
+## <a name="prerequisites"></a>필수 구성 요소  
  다음 연습에 나와 있는 절차를 수행하려면 Visual Studio 2010 및 .NET Framework 버전 4.0이 설치되어 있어야 합니다. XSLT 프로파일러는 프로파일링 도구가 설치되어 있는 Microsoft Visual Studio Team System에서만 사용할 수 있습니다.  
   
 ### <a name="create-the-performance-report"></a>성능 보고서 만들기  

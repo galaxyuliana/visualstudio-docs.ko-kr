@@ -6,11 +6,11 @@ ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
 caps.latest.revision: 9
 ms.author: gregvanl
 ms.openlocfilehash: f59838913ed3f9bc6679336393f6db9181291e3d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60091670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68204032"
 ---
 # <a name="how-to-use-asyncpackage-to-load-vspackages-in-the-background"></a>방법: AsyncPackage를 사용하여 백그라운드에서 VSPackage 로드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "60091670"
   
 4. 재정의 해야 비동기 초기화 작업을 수행 하는 경우 <xref:Microsoft.VisualStudio.Shell.AsyncPackage.InitializeAsync%2A>합니다. 제거 된 **initialize ()** VSIX 템플릿에서 제공 하는 메서드. (합니다 **initialize ()** 메서드에서 **AsyncPackage** 봉인 되어). 중 하나를 사용할 수는 <xref:Microsoft.VisualStudio.Shell.AsyncPackage.AddService%2A> 비동기 서비스 패키지를 추가 하는 방법입니다.  
   
-    참고: 호출 **기본입니다. InitializeAsync()**, 소스 코드를 변경할 수 있습니다.  
+    참고: 호출 **기본입니다. InitializeAsync()** , 소스 코드를 변경할 수 있습니다.  
   
    ```csharp  
    await base.InitializeAsync(cancellationToken, progress);  

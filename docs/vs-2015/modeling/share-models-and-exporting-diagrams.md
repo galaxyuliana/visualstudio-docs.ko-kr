@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 4d2fd2af8a68ee72ec26b52a4c26a829d94376ef
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199849"
 ---
 # <a name="share-models-and-exporting-diagrams"></a>모델 공유 및 다이어그램 내보내기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,6 +60,6 @@ Visual Studio에서 여러 가지 방법으로 모델 및 다이어그램을 동
 |[아키텍처 분석 및 모델링](../modeling/analyze-and-model-your-architecture.md)|모델 및 다이어그램의 개요입니다.|  
 |[프로필 및 스테레오타입을 사용하여 모델 사용자 지정](../modeling/customize-your-model-with-profiles-and-stereotypes.md)|모델에서 UML 프로필을 사용한 후 다른 사용자에게 모델을 보내는 경우 동일한 프로필이 설치되어 있어야 합니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [앱 용 모델 만들기](../modeling/create-models-for-your-app.md)   
  [개발 프로세스에서 모델 사용](../modeling/use-models-in-your-development-process.md)
