@@ -12,11 +12,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: a85be2978abe35e91096b55fba5ec5281be25fbe
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68185320"
 ---
 # <a name="type-visualizer-and-custom-viewer"></a>형식 시각화 도우미 및 사용자 지정 뷰어
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "58984565"
 ## <a name="support-for-custom-viewers-in-an-expression-evaluator"></a>사용자 지정 뷰어에 식 계산기에 대 한 지원  
  EE 자체는 EE 보기 데이터 형식에 대 한 코드를 제공 하는 사용자 지정 뷰어를 기능도 사용할 수 있습니다. 사용자 지정 뷰어를 구현 합니다 [IDebugCustomViewer](../../extensibility/debugger/reference/idebugcustomviewer.md) 인터페이스의 모든 형식으로 데이터를 보여 주는 모든 업무를 처리 하는 필요한; 뷰어에 표시를 완전히 제어할와 데이터를 수정할 수 있습니다. EE 제품 제공 되는 경우는 EE에서 제공 하는 모든 사용자 지정 뷰어가 제공 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버거 구성 요소](../../extensibility/debugger/debugger-components.md)   
  [식 계산기](../../extensibility/debugger/expression-evaluator.md)   
  [디버그 엔진](../../extensibility/debugger/debug-engine.md)   

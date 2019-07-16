@@ -12,11 +12,11 @@ author: corob-msft
 ms.author: corob
 manager: jillfra
 ms.openlocfilehash: e554c7b97c2feac031510cfdd0894d29b4ba85eb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60115642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68151051"
 ---
 # <a name="create-an-android-native-activity-app"></a>Android Native Activity 앱 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "60115642"
   
 1. Visual Studio를 엽니다. 메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
   
-2. **새 프로젝트** 대화 상자의 **템플릿**에서 **Visual C++**, **플랫폼 간**을 차례로 선택한 후 **Native-Activity 응용 프로그램(Android)** 템플릿을 선택합니다.  
+2. **새 프로젝트** 대화 상자의 **템플릿**에서 **Visual C++** , **플랫폼 간**을 차례로 선택한 후 **Native-Activity 응용 프로그램(Android)** 템플릿을 선택합니다.  
   
 3. 앱의 이름을 `MyAndroidApp`과 같이 지정한 후 **확인**을 선택합니다.  
   
@@ -62,7 +62,7 @@ ms.locfileid: "60115642"
   
      ![솔루션 플랫폼 드롭다운 x86 선택](../cross-platform/media/cppmdd-rc-na-solution-x86.png "CPPMDD_RC_NA_Solution_x86")  
   
-      **x86** 목록이 표시되지 않는 경우 **x86** 드롭다운 목록에서 **솔루션 플랫폼** 을 선택한 후 플랫폼을 선택합니다.  
+     **x86** 목록이 표시되지 않는 경우 **x86** 드롭다운 목록에서 **솔루션 플랫폼** 을 선택한 후 플랫폼을 선택합니다.  
   
 2. 메뉴 모음에서 **빌드**, **솔루션 빌드**를 선택합니다.  
   

@@ -13,11 +13,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 2373a26da1f6c3b327bea3a6f2402beb7d8bce45
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68196145"
 ---
 # <a name="ienumdebugaddresses"></a>IEnumDebugAddresses
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -39,11 +39,11 @@ IEnumDebugAdresses : IUnknown
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  이 인터페이스는 다음 메서드를 구현 합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[다음](../../../extensibility/debugger/reference/ienumdebugaddresses-next.md)|다음 집합을 검색 [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) 열거형 개체입니다.|  
 |[Skip](../../../extensibility/debugger/reference/ienumdebugaddresses-skip.md)|지정된 된 개수의 항목을 건너뜁니다.|  
-|[Reset](../../../extensibility/debugger/reference/ienumdebugaddresses-reset.md)|첫 번째 항목을 열거를 다시 설정합니다.|  
+|[다시 설정](../../../extensibility/debugger/reference/ienumdebugaddresses-reset.md)|첫 번째 항목을 열거를 다시 설정합니다.|  
 |[Clone](../../../extensibility/debugger/reference/ienumdebugaddresses-clone.md)|현재 열거형의 복사본을 검색 합니다.|  
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugaddresses-getcount.md)|열거형 항목을 검색합니다.|  
   

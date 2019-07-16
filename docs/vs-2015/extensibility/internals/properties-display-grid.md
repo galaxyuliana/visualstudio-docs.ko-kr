@@ -11,11 +11,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 5fd5e17d764336cda450c726023b209f89f194a1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68180389"
 ---
 # <a name="properties-display-grid"></a>속성 표시 그리드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -51,5 +51,5 @@ ms.locfileid: "58980728"
   
 - 줄임표 (...) 단추를 클릭 하면 속성 값 (예: 색상 또는 글꼴 목록) 선택할 수 있는 사용자의 목록을 표시 합니다. <xref:Microsoft.VisualStudio.Shell.Interop.IProvidePropertyBuilder> 이러한 값을 제공 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [속성 확장](../../extensibility/internals/extending-properties.md)

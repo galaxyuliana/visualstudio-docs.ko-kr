@@ -15,11 +15,11 @@ author: mikeblome
 ms.author: mblome
 manager: jillfra
 ms.openlocfilehash: ba14fdbc23968fcaf10355f73517ab6cd54f8797
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68142181"
 ---
 # <a name="specifying-when-and-where-an-annotation-applies"></a>주석 적용 시기 및 위치 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "58972463"
 ## <a name="structural-annotations"></a>구조적 주석  
  주석 적용 시기 및 위치를 제어 하려면 다음과 같은 구조적 주석을 사용 합니다.  
   
-|주석|설명|  
+|Annotation|Description|  
 |----------------|-----------------|  
 |`_At_(expr, anno-list)`|`expr` lvalue를 생성 하는 식이입니다. 에 대 한 주석 `anno-list` 로 명명 된 개체에 적용 됩니다 `expr`합니다. 각 주석에 `anno-list`, `expr` 사전 조건에서 주석이 해석 되 고 사후 조건에서 사후 조건 경우에는 주석이 해석 되는 경우 사전 조건으로 해석 됩니다.|  
 |`_At_buffer_(expr, iter, elem-count, anno-list)`|`expr` lvalue를 생성 하는 식이입니다. 에 대 한 주석 `anno-list` 로 명명 된 개체에 적용 됩니다 `expr`합니다. 각 주석에 `anno-list`, `expr` 전제 조건에서 주석이 해석 되 고 사후 조건에서 사후 조건 경우에는 주석이 해석 되는 경우 사전 조건으로 해석 됩니다.<br /><br /> `iter` 주석에 범위가 지정 된 변수의 이름입니다 (포함 `anno-list`). `iter` 암시적 형식이 `long`합니다. 바깥쪽 범위에서 동일 하 게 명명 된 변수는 평가에서 숨겨집니다.<br /><br /> `elem-count` 정수로 확인 되는 식이입니다.|  
@@ -37,7 +37,7 @@ ms.locfileid: "58972463"
 |`_When_(expr, anno-list)`|`expr` 변환할 수 있는 식 `bool`합니다. 0이 아닌 경우 (`true`)를 지정 된 주석을 `anno-list` 적용 가능한 것으로 간주 됩니다.<br /><br /> 기본적으로의 각 주석이 `anno-list`, `expr` 주석이 전제 조건으로 이며 경우 출력 값을 사용 하 여 주석을 사후 조건 하는 경우 입력된 값을 사용 하 여 해석 됩니다. 기본값을 재정의 하려면 사용할 수 있습니다는 `_Old_` 입력된 값을 사용 해야 함을 나타내려면 사후 조건을 평가할 때 내장 함수입니다. **참고:**  다른 주석 사용의 결과로 사용할 수 있습니다 `_When_` 변경할 수 있는 값-예를 들어 `*pLength`-때문에 관련 된 계산된 된 결과 `expr` 사전 조건에서 계산된 결과를 사후 조건에서에서 달라질 수 있습니다.|  
   
 ## <a name="see-also"></a>참고 항목  
- [C/c + + 코드 오류를 줄이기 위한 SAL 주석 사용](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
+ [SAL 주석은 C를 줄이기 위해 사용 하 여 /C++ 오류 코드](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [SAL 이해](../code-quality/understanding-sal.md)   
  [함수 매개 변수 및 반환 값에 주석 지정](../code-quality/annotating-function-parameters-and-return-values.md)   
  [함수 동작에 주석 지정](../code-quality/annotating-function-behavior.md)   

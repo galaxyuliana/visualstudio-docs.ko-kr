@@ -11,11 +11,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: dca7768f31219328648d457d188086e0185e2ffc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044377"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200958"
 ---
 # <a name="web-site-support-templates"></a>웹 사이트 지원 템플릿
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -186,5 +186,5 @@ ms.locfileid: "60044377"
   
      있는 경우 새 마스터 페이지 및 해당 종속 파일의 내용을 결정 하는 템플릿 파일입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [웹 사이트 지원](../../extensibility/internals/web-site-support.md)

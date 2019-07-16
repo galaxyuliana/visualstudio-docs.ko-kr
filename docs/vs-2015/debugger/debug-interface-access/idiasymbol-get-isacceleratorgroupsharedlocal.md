@@ -12,16 +12,16 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c2e975f75d25e64925c2566c1c311d942e9c3766
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982568"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "68180983"
 ---
 # <a name="idiasymbolgetisacceleratorgroupsharedlocal"></a>IDiaSymbol::get_isAcceleratorGroupSharedLocal
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-기호가 c + + AMP 액셀러레이터에 대해 컴파일된 코드의 그룹 공유 지역 변수에 해당 하는지 여부를 나타내는 플래그를 검색 합니다.  
+기호에 대해 컴파일된 코드의 그룹 공유 지역 변수에 해당 하는지 여부를 나타내는 플래그를 검색 한 C++ AMP 액셀러레이터입니다.  
   
 ## <a name="syntax"></a>구문  
   
@@ -32,7 +32,7 @@ HRESULT get_isAcceleratorGroupSharedLocal(
   
 #### <a name="parameters"></a>매개 변수  
  `pFlag`  
- [out] 에 대 한 포인터를 `BOOL` 기호 그룹 공유 지역 변수에 c + + AMP 액셀러레이터에 대해 컴파일된 코드에 해당 하는지 여부를 나타내는입니다. 하는 경우 `TRUE`서 `get_baseDataSlot` 및 `get_baseDataOffset` 메서드는 변수에 대 한 저장소 위치 정보를 가져오는 데 사용할 수 있습니다.  
+ [out] 에 대 한 포인터를 `BOOL` 기호에 대해 컴파일된 코드의 그룹 공유 지역 변수에 해당 하는지 여부를 나타내는 C++ AMP 액셀러레이터입니다. 하는 경우 `TRUE`서 `get_baseDataSlot` 및 `get_baseDataOffset` 메서드는 변수에 대 한 저장소 위치 정보를 가져오는 데 사용할 수 있습니다.  
   
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`이 고, 그렇지 않으면 반환 `S_FALSE` 또는 오류 코드입니다.  

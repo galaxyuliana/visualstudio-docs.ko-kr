@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 5e2fbba9006c1621b8f98084d4ffd4c637be1127
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68147142"
 ---
 # <a name="xml-snippets"></a>XML 조각
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,5 +52,5 @@ XML 편집기 기능 이라는 기능을 제공 *XML 조각*, XML 파일을 보�
   
  자세한 내용은 [방법: XML 조각 만들기](../xml-tools/how-to-create-xml-snippets.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [XML 편집기](../xml-tools/xml-editor.md)

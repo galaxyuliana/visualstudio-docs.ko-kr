@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: cf370b4ca0e0a4d14c482c6ece46b79d2d224d34
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60049739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68181920"
 ---
 # <a name="define-and-install-a-modeling-extension"></a>모델링 확장 정의 및 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -74,9 +74,9 @@ Visual Studio에서 모델링 다이어그램에 대한 확장을 정의할 수 
   
         |||  
         |-|-|  
-        |**Type** =|**Microsoft.VisualStudio.MefComponent**|  
+        |**형식** =|**Microsoft.VisualStudio.MefComponent**|  
         |**Source** =|**현재 솔루션의 프로젝트**|  
-        |**Project** =|*클래스 라이브러리 프로젝트*|  
+        |**프로젝트** =|*클래스 라이브러리 프로젝트*|  
         |**이 폴더에 포함** =|*(empty)*|  
   
          다른 구성 요소 형식의 경우 다음 섹션의 링크를 참조하세요.  

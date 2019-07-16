@@ -15,11 +15,11 @@ author: mikeblome
 ms.author: mblome
 manager: jillfra
 ms.openlocfilehash: dcd862b6ff9c94b8de3fc8b5a56164549fefe8ca
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60099509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68142013"
 ---
 # <a name="walkthrough-analyzing-cc-code-for-defects"></a>연습: 오류에 대한 C/C++ 코드 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "60099509"
   
 - 코드 오류 분석을 개선 하기 위해 소스 코드에 주석을 추가 합니다.  
   
-## <a name="prerequisites"></a>전제 조건  
+## <a name="prerequisites"></a>필수 구성 요소  
   
 - [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] 또는 [!INCLUDE[vsUltLong](../includes/vsultlong-md.md)]  
   
@@ -132,7 +132,7 @@ ms.locfileid: "60099509"
   
 6. 에 **오류 목록**, 다음 경고를 두 번 클릭 합니다.  
   
-     warning C6011: NULL 포인터 'newNode'를 역참조 합니다.  
+     경고 C6011: NULL 포인터 'newNode'를 역참조 합니다.  
   
      이 경고는 반환 값을 확인 하려면 호출자가 오류를 나타냅니다. 이 경우 호출에서 **AllocateNode** NULL 값을 반환할 수 있습니다 (AllocateNode에 대 한 함수 선언에 대 한 annotations.h 헤더 파일 참조).  
   
@@ -174,7 +174,7 @@ ms.locfileid: "60099509"
   
 3. 에 **오류 목록**, 다음 경고를 두 번 클릭 합니다.  
   
-     warning C6011: 'Node' NULL 포인터를 역참조 합니다.  
+     경고 C6011: 'Node' NULL 포인터를 역참조 합니다.  
   
      이 경고는 함수에 전달 하는 노드는 null 일 수를 나타냅니다와 경고를 발생 하는 줄 번호를 나타냅니다.  
   

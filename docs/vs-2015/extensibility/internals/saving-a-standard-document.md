@@ -13,11 +13,11 @@ caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 5040070287db6486fa62c9010fe023be31b04cbe
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68198081"
 ---
 # <a name="saving-a-standard-document"></a>표준 문서 저장
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -59,6 +59,6 @@ ms.locfileid: "60052482"
   
 2. 호출 된 <xref:Microsoft.VisualStudio.Shell.Interop.IVsExternalFilesManager2.TransferDocument%2A> (`pszMkDocumentNew`, `punkWindowFrame`) 문서를 새 계층으로 전송 하는 방법입니다. 다른 이름으로 저장 명령을 수행 하는 계층 구조는이 메서드를 호출 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
  [프로젝트 항목 열기 및 저장](../../extensibility/internals/opening-and-saving-project-items.md)

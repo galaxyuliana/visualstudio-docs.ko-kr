@@ -11,11 +11,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 5aff88047d6b1f79544af927751d7a053eeda218
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68152827"
 ---
 # <a name="event-descriptions"></a>이벤트 설명
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "58970945"
   
 ## <a name="events-and-the-reasons-for-their-use"></a>이벤트 및 용도 대 한 이유  
   
-|이벤트(event)|설명|  
+|이벤트|설명|  
 |-----------|-----------------|  
 |문서 이벤트를 활성화 합니다.|디버그 엔진 (DE)가 IDE를 열거나 전경으로 문서를 가져올 때 발생 합니다.|  
 |바인딩된 중단점이 나 중단점 오류 이벤트|전송 중단점이 바인딩된 또는 때 중단점을 바인딩할 수 없으면 오류가 반환 됩니다.|  
@@ -46,5 +46,5 @@ ms.locfileid: "58970945"
 |스레드 이름 변경 이벤트|사용자 스레드 이름을 변경할 때 보냅니다.|  
 |프로그램 이름 변경 이벤트|사용자가 프로그램의 이름을 변경할 때 보냅니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [이벤트 보내기](../../extensibility/debugger/sending-events.md)

@@ -8,11 +8,11 @@ author: corob-msft
 ms.author: corob
 manager: jillfra
 ms.openlocfilehash: 4faa2ecae7f53d29e6aad92723ca6d12e50e2812
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59652048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68150944"
 ---
 # <a name="import-an-xcode-project"></a>XCode 프로젝트 가져오기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "59652048"
   
     ![XCode에서 가져오기 전역 속성 창](../cross-platform/media/cppmdd-u2-importxcode-global.jpg "CPPMDD_U2_ImportXCode_Global")  
   
-    이러한 전역 경로는 Visual studio의 **옵션** 대화 상자에서도 설정할 수 있습니다. 이 대화 상자를 찾으려면 **도구** 메뉴에서 **옵션**을 선택합니다. **옵션** 대화 상자에서 **플랫폼 간**, **C++**, **iOS**, **전역 속성**을 확장합니다.  
+    이러한 전역 경로는 Visual studio의 **옵션** 대화 상자에서도 설정할 수 있습니다. 이 대화 상자를 찾으려면 **도구** 메뉴에서 **옵션**을 선택합니다. **옵션** 대화 상자에서 **플랫폼 간**, **C++** , **iOS**, **전역 속성**을 확장합니다.  
   
     **다음** 을 선택하여 계속 진행합니다.  
   

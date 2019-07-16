@@ -12,11 +12,11 @@ caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: fc67123e082258932ab5df6613941f869d6049a6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68196783"
 ---
 # <a name="determining-command-status-by-using-interop-assemblies"></a>Interop 어셈블리를 사용하여 명령 상태 결정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,6 +35,6 @@ VSPackage 해야 기록해 상태의 명령 처리할 수 있습니다. VSPackag
 ## <a name="status-notification-failure"></a>상태 알림 오류  
  명령 상태 변경의 환경에 알리기 위해 VSPackage의 오류는 일관성이 없는 상태에서 UI를 배치할 수 있습니다. 메뉴 또는 상황에 맞는 메뉴 명령을 중 하나에 배치할 수 도구 모음을 사용자가 해야 합니다. 따라서 UI를 업데이트 하 여 메뉴 또는 상황에 맞는 메뉴가 열리면 충분 하지 않습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [구현](../../extensibility/internals/command-implementation.md)

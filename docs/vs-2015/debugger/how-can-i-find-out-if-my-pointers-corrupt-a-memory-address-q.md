@@ -1,5 +1,5 @@
 ---
-title: 포인터가 메모리 주소를 손상시키는지 어떻게 알 수 있습니까? | Microsoft 문서
+title: 포인터가 메모리 주소를 손상시키는지 어떻게 알 수 있습니까? | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -23,11 +23,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 80947590215258521c3de5042bd981de7582fbda
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60102616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68205480"
 ---
 # <a name="how-can-i-find-out-if-my-pointers-corrupt-a-memory-address"></a>포인터가 메모리 주소를 손상시키는지 어떻게 알 수 있습니까?
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

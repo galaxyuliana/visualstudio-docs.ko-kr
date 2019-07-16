@@ -15,11 +15,11 @@ caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c40c695a912e97269263ba14747b72382847324d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68162035"
 ---
 # <a name="how-to-register-a-library-with-the-object-manager"></a>방법: 개체 관리자에 라이브러리 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -166,7 +166,7 @@ ms.locfileid: "60042465"
   
     ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [레거시 언어 서비스 확장성](../../extensibility/internals/legacy-language-service-extensibility.md)   
  [기호 검색 도구를 지원합니다.](../../extensibility/internals/supporting-symbol-browsing-tools.md)   
- [방법: 개체 관리자에 라이브러리에서 제공 하는 기호 목록을 표시 합니다.](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)
+ [방법: 라이브러리에서 제공하는 기호 목록을 개체 관리자에 노출](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

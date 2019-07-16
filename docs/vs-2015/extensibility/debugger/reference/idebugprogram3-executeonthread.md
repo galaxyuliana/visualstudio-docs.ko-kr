@@ -11,11 +11,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: cfc64f8ae928b4bb0057a16b8a74c6ddbff588c0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148627"
 ---
 # <a name="idebugprogram3executeonthread"></a>IDebugProgram3::ExecuteOnThread
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,6 +53,6 @@ int ExecuteOnThread(
   
   스레드 전달할 `ExecuteOnThread` 취소 단계를 결정 하는 경우에 유용 합니다. 를 실행 스레드의 실행을 알 수 없는 경우 모든 단계를 취소 합니다. 스레드의 지식을 바탕으로 활성 스레드에서 단계를 취소 해야 합니다.  
   
-## <a name="see-also"></a>참고 항목  
- [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md)   
+## <a name="see-also"></a>관련 항목  
+ [실행](../../../extensibility/debugger/reference/idebugprogram2-execute.md)   
  [IDebugProgram3](../../../extensibility/debugger/reference/idebugprogram3.md)

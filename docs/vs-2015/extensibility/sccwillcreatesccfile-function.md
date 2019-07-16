@@ -13,11 +13,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: cb0df475098a0fb0675327cece6dd9c643a0c4d7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68147954"
 ---
 # <a name="sccwillcreatesccfile-function"></a>SccWillCreateSccFile 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,6 +60,6 @@ SCCRTN SccWillCreateSccFile(
 ## <a name="remarks"></a>설명  
  이 함수는 소스 제어 플러그 인을 MSSCCPRJ 지원을 제공 하는 경우를 결정 하는 파일의 목록을 사용 하 여 호출 됩니다. 각 (대 한 자세한 내용은 MSSCCPRJ 지정 된 파일에 대 한 SCC 파일. SCC 파일 참조 [MSSCCPRJ 합니다. SCC 파일](../extensibility/mssccprj-scc-file.md)). 원본 제어 플러그 인 MSSCCPRJ 만드는 기능이 있는지 선언할 수 있습니다. SCC 파일 선언 하 여 `SCC_CAP_SCCFILE` 초기화 중입니다. 플러그 인 반환 `TRUE` 또는 `FALSE` 파일당는 `pbSccFiles` 를 나타내는 지정 된 파일의 MSSCCPRJ 있는 배열입니다. 소스 코드 제어를 지원 합니다. 플러그 인 경우 함수에서 성공 코드를 반환, 반환 배열에 값이 적용 됩니다. 오류가 발생 하면 배열 무시 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [MSSCCPRJ.SCC 파일](../extensibility/mssccprj-scc-file.md)

@@ -20,11 +20,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: e28ebd46a03983e60ebdd3fc22dd55d85249f710
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54774875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188849"
 ---
 # <a name="code-snippets"></a>코드 조각
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ finally
   
 ```  
   
- 코드 창의 상황에 맞는 메뉴에서 **조각 삽입**을 클릭하여 이 조각을 삽입하고 **Visual C#**, 형식 `tryf`를 차례로 입력하고 TAB를 누르거나, `tryf`를 입력하고 TAB+TAB을 누릅니다.  
+ 코드 창의 상황에 맞는 메뉴에서 **조각 삽입**을 클릭하여 이 조각을 삽입하고 **Visual C#** , 형식 `tryf`를 차례로 입력하고 TAB를 누르거나, `tryf`를 입력하고 TAB+TAB을 누릅니다.  
   
  코드 감싸기 조각의 예: C++에서 바로 가기 `if`는 삽입 조각 또는 코드 감싸기 조각으로 사용할 수 있습니다. 코드 줄(예: `return FALSE;`)을 선택하고 **코드 감싸기**, **if**를 차례로 클릭하면 해당 줄 주위에서 조각이 확장됩니다.  
   

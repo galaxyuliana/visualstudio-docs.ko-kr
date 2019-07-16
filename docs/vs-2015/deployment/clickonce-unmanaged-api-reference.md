@@ -20,11 +20,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 714d7b18995bf1ad51b07e02227e440879f73c9e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192314"
 ---
 # <a name="clickonce-unmanaged-api-reference"></a>ClickOnce 관리되지 않는 API 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -73,11 +73,11 @@ ms.locfileid: "58984799"
   
 ### <a name="parameters"></a>매개 변수  
   
-|매개 변수|설명|형식|  
+|매개 변수|Description|형식|  
 |---------------|-----------------|----------|  
 |`deploymentUrl`|배포 매니페스트의 URL이 포함 된 NULL로 끝나는 문자열에 대 한 포인터입니다.|LPCWSTR|  
-|`data`|나중에 사용하기 위해 예약되어 있습니다. Null이어야 합니다.|LPVOID|  
-|`flags`|나중에 사용하기 위해 예약되어 있습니다. 0이어야 합니다.|DWORD|  
+|`data`|나중에 사용하도록 예약되어 있습니다. Null이어야 합니다.|LPVOID|  
+|`flags`|나중에 사용하도록 예약되어 있습니다. 0이어야 합니다.|DWORD|  
   
 ### <a name="return-value"></a>반환 값  
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 실패를 나타내는 HRESULT를 반환 합니다. 관리 되는 예외를 발생 하는 경우 0x80020009 (DISP_E_EXCEPTION)를 반환 합니다.  

@@ -9,13 +9,13 @@ caps.latest.revision: 11
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 052ef261270b2cd6e66d71bbbb0c9cc3d12696eb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54796043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194896"
 ---
-# <a name="sample-excel-extension-element-classes"></a>샘플 Excel 확장: 요소 클래스
+# <a name="sample-excel-extension-element-classes"></a>샘플 Excel 확장: Element 클래스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 확장에서는 <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>에서 파생되며 [!INCLUDE[ofprexcel](../includes/ofprexcel-md.md)]의 워크시트 컨트롤 및 셀 컨트롤을 나타내는 클래스를 사용합니다.  
@@ -49,7 +49,7 @@ ms.locfileid: "54796043"
   
  `Utilities` 클래스에는 UI에 대한 여러 정보를 반환하는 도우미 메서드가 있습니다. **USER32.DLL**, **OLEACC.DLL** 등의 외부 시스템 DLL을 직접 호출하여 UI에서 창 핸들을 가져오는 메서드도 있습니다<strong>.</strong>  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:System.Runtime.InteropServices.ComVisibleAttribute>   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.IQueryElement>   
  [Microsoft Excel을 지원하도록 코딩된 UI 테스트 및 작업 기록 확장](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)

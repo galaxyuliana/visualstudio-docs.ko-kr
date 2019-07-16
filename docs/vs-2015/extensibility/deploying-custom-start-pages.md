@@ -12,11 +12,11 @@ caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1cdd172c2960024da8b12735764161d36498c4e2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68162098"
 ---
 # <a name="deploying-custom-start-pages"></a>사용자 지정 시작 페이지 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -90,6 +90,6 @@ VSIX 배포를 사용 하 여 또는 대상 컴퓨터의 올바른 위치에 파
   
 3. 에 **시작 페이지 사용자 지정** 목록에서 합니다 **시작** 옵션 페이지에서 새 시작 페이지를 선택 합니다. 자세한 내용은 [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)을 참조하세요.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [시작 페이지 사용자 지정](../ide/customizing-the-start-page-for-visual-studio.md)   
  [시작 페이지에 사용자 컨트롤 추가](../extensibility/adding-user-control-to-the-start-page.md)

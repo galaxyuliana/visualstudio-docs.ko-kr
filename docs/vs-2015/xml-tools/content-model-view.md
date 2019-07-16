@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: f85169ebb6460ac42031aec7c75ff2e29154a9ed
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60109130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68164518"
 ---
 # <a name="content-model-view"></a>콘텐츠 모델 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "60109130"
 ## <a name="context-menus"></a>상황에 맞는 메뉴  
  디자인 화면 또는 작업 영역 패널에 있는 항목을 마우스 오른쪽 단추로 클릭하면 상황에 맞는 메뉴가 나타납니다. 다음 표에서는 콘텐츠 모델 뷰 디자인 화면에 사용할 수 있는 옵션에 대해 설명합니다.  
   
-|옵션|설명|  
+|옵션|Description|  
 |------------|-----------------|  
 |**XML 스키마 탐색기에 표시**|스키마 탐색기에 포커스를 두고 스키마 집합 노드를 강조 표시합니다.|  
 |**그래프 뷰로 표시**|그래프 뷰로 전환합니다.|  
@@ -55,7 +55,7 @@ ms.locfileid: "60109130"
   
  다음 표에서는 작업 영역 패널에 사용할 수 있는 옵션에 대해 설명합니다.  
   
-|옵션|설명|  
+|옵션|Description|  
 |------------|-----------------|  
 |**XML 스키마 탐색기에 표시**|스키마 탐색기에 포커스를 두고 스키마 집합 노드를 강조 표시합니다.|  
 |**그래프 뷰로 표시**|그래프 뷰로 전환합니다.|  
@@ -99,7 +99,7 @@ ms.locfileid: "60109130"
   
 - 단일 또는 여러 노드 삭제  
   
-## <a name="zoom"></a>확대/축소  
+## <a name="zoom"></a>Zoom  
  콘텐츠 모델 뷰의 오른쪽 아래 모퉁이에서 확대/축소를 사용할 수 있습니다.  
   
  확대/축소는 다음 방법으로 제어할 수 있습니다.  
@@ -115,5 +115,5 @@ ms.locfileid: "60109130"
   
  XML 편집기에서 스키마 집합을 변경하면 해당 변경 내용이 콘텐츠 모델 뷰에서 동기화됩니다. 자세한 내용은 [XML 편집기와 통합](../xml-tools/integration-with-xml-editor.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [XML 스키마 디자이너 작업 영역](../xml-tools/xml-schema-designer-workspace.md)

@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 9c31e1d17137fd0e801bb506c280a83285c311b4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60093022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68181568"
 ---
 # <a name="how-to--with-text-templates"></a>텍스트 템플릿 사용 방법
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -87,7 +87,7 @@ ms.locfileid: "60093022"
      자세한 내용은 [앱에 대 한 모델을 만들](../modeling/create-models-for-your-app.md) 하 고 [UML 모델에서 파일을 생성](../modeling/generate-files-from-a-uml-model.md)합니다.  
   
 ### <a name="get-data-from-includevsprvsincludesvsprvs-mdmd"></a>데이터 가져오기 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]  
- 제공 하는 서비스를 사용 하 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 집합으로는 `hostSpecific` 특성과 부하는 `EnvDTE` 어셈블리. 예를 들어:  
+ 제공 하는 서비스를 사용 하 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 집합으로는 `hostSpecific` 특성과 부하는 `EnvDTE` 어셈블리. 예:  
   
 ```csharp  
 <#@ template hostspecific="true" language="C#" #>  

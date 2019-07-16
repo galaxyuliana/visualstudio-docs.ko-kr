@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 37462b5f274ca6e6c2a4a2feb4083ea94ea2f066
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163981"
 ---
 # <a name="idebugeventcallback2event"></a>IDebugEventCallback2::Event
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -80,7 +80,7 @@ int Event( 
   
  모든 디버그 이벤트는 이벤트 자체 비동기 인지 여부에 관계 없이 비동기적으로 게시 됩니다. DE이이 메서드를 호출 하는 경우 반환 값을 나타내지 않습니다 이벤트가 처리 된 여부를 이벤트를 받은 있는지 여부를 합니다. 사실 대부분의 상황에서 이벤트 처리 되지 않았습니다이 메서드가 반환 될 때입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)   
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)   

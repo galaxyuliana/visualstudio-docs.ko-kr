@@ -17,11 +17,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 5a889250e641e004bdb0d89f6965c43c3d6b8e2a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60041400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155247"
 ---
 # <a name="extract-method-refactoring-c"></a>메서드 추출 리팩터링(C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -124,5 +124,5 @@ class Program
   
  이 문제를 해결 하려면 클래스의 무명 메서드 필드에 사용 되는 지역 변수를 확인 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [리팩터링(C#)](../csharp-ide/refactoring-csharp.md)

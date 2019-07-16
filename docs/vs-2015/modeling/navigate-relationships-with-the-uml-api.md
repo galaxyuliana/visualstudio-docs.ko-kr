@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: cb2a02ba27f06ef027001c2de07308c153b21c2b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158974"
 ---
 # <a name="navigate-relationships-with-the-uml-api"></a>UML API를 사용하여 관계 탐색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -154,7 +154,7 @@ IEnumerable<IUseCase>GetIncludingCases(this IUseCase usecase);
 ## <a name="enumerating-relationships"></a>관계 열거  
  여러 값을 반환 하는 UML 모델의 모든 속성은 Ienumerable<> 인터페이스를 준수 합니다. 즉, 사용할 수 있는 [Linq 쿼리 식](http://go.microsoft.com/fwlink/?LinkId=168834) 과에 정의 된 확장 메서드는 **System.Linq** 네임 스페이스입니다.  
   
- 예를 들어:  
+ 예:  
   
 ```  
 from shape in     Context.CurrentDiagram.GetSelectedShapes<IClassifier>()  

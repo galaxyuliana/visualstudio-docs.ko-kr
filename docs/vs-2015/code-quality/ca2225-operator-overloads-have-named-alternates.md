@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: aa90a1e97b563ef549cb3f628fcf9130a364c50a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201611"
 ---
 # <a name="ca2225-operator-overloads-have-named-alternates"></a>CA2225: 연산자 오버로드에는 명명된 대체 항목이 있습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,11 +42,11 @@ ms.locfileid: "58984141"
 
 |C#|Visual Basic|C++|대체 이름|
 |---------|------------------|-----------|--------------------|
-|+ (이진)|+|+ (이진)|Add|
-|+=|+=|+=|Add|
+|+ (이진)|+|+ (이진)|추가|
+|+=|+=|+=|추가|
 |&|And|&|BitwiseAnd|
 |&=|=|&=|BitwiseAnd|
-|&#124;|Or|&#124;|BitwiseOr|
+|&#124;|또는|&#124;|BitwiseOr|
 |&#124;=|또는 =|&#124;=|BitwiseOr|
 |--|N/A|--|감소|
 |/|/|/|나누기|
@@ -56,28 +56,28 @@ ms.locfileid: "58984141"
 |^=|Xor=|^=|Xor|
 |>|>|>|비교|
 |>=|>=|>=|비교|
-|++|N/A|++|증가|
+|++|해당 사항 없음|++|증가|
 |<>|!=|같음|
 |<<|<<|<<|LeftShift|
 |<<=|<<=|<<=|LeftShift|
 |<|<|<|비교|
 |<=|<=|\<=|비교|
-|&&|N/A|&&|LogicalAnd|
-|&#124;&#124;|N/A|&#124;&#124;|LogicalOr|
-|!|N/A|!|LogicalNot|
+|&&|해당 사항 없음|&&|LogicalAnd|
+|&#124;&#124;|해당 사항 없음|&#124;&#124;|LogicalOr|
+|!|해당 사항 없음|!|LogicalNot|
 |%|Mod|%|나머지 또는 mod|
-|%=|N/A|%=|Mod|
+|%=|해당 사항 없음|%=|Mod|
 |* (이진)|*|*|곱하기|
-|*=|N/A|*=|곱하기|
+|*=|해당 사항 없음|*=|곱하기|
 |~|not|~|OnesComplement|
 |>>|>>|>>|RightShift|
-=|N/A|>>=|RightShift|
+=|해당 사항 없음|>>=|RightShift|
 |-(이진)|-(이진)|-(이진)|빼기|
-|-=|N/A|-=|빼기|
-|true|IsTrue|N/A|IsTrue (속성)|
-|-(단항)|N/A|-|negate|
-|+ (단항)|N/A|+|더하기|
-|False|IsFalse|False|IsTrue (속성)|
+|-=|해당 사항 없음|-=|빼기|
+|true|IsTrue|해당 사항 없음|IsTrue (속성)|
+|-(단항)|해당 사항 없음|-|negate|
+|+ (단항)|해당 사항 없음|+|더하기|
+|false|IsFalse|거짓|IsTrue (속성)|
 
  해당 사항 없음 = = 선택한 언어로 오버 로드할 수 없습니다.
 

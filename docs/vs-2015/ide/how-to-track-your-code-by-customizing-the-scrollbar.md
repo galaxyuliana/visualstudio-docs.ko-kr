@@ -10,13 +10,13 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: da6745b3980b6ef5b0200c91d4abf245daadfa71
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68186250"
 ---
-# <a name="how-to-track-your-code-by-customizing-the-scrollbar"></a>방법: 스크롤 막대를 사용자 지정 하 여 코드 추적
+# <a name="how-to-track-your-code-by-customizing-the-scrollbar"></a>방법: 스크롤 막대를 사용자 지정하여 코드 추적
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 긴 코드 파일을 사용하는 경우 모든 내용을 기억하기 어려울 수 있습니다. 코드에서 수행되는 작업을 간략하게 볼 수 있도록 코드 창의 스크롤 막대를 사용자 지정할 수 있습니다.  

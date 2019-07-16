@@ -13,11 +13,11 @@ caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 6114a31701e5abc4714f315b4e4f1ecf022c401c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163819"
 ---
 # <a name="idebugeventcallback2"></a>IDebugEventCallback2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ IDebugEventCallback2 : IUnknown
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugEventCallback2`합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)|SDM 이벤트 디버깅에 대 한 알림을 보냅니다.|  
   
@@ -58,5 +58,5 @@ IDebugEventCallback2 : IUnknown
 ## <a name="see-also"></a>참고 항목  
  [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)   
  [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)   
- [Attach](../../../extensibility/debugger/reference/idebugprogram2-attach.md)   
+ [연결](../../../extensibility/debugger/reference/idebugprogram2-attach.md)   
  [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)

@@ -24,11 +24,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3552ff1ffb5d6b3e3789aebd3a8903bf82a66b16
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60088316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68205409"
 ---
 # <a name="how-to-debug-com-servers"></a>방법: COM 서버 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ COM 서버 응용 프로그램을 디버깅할 경우 쉽게 해결할 수 없�
   
 3. 컨테이너 응용 프로그램을 시작합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [COM 및 ActiveX 디버깅](../debugger/com-and-activex-debugging.md)   
  [방법: RPC 디버깅을 사용하여 COM 클라이언트 및 서버 디버그](../debugger/how-to-debug-com-clients-and-servers-using-rpc-debugging.md)   
  [COM 서버 및 컨테이너 디버깅](../debugger/com-server-and-container-debugging.md)   

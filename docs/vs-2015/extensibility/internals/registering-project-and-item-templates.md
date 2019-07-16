@@ -15,11 +15,11 @@ caps.latest.revision: 28
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: a06e7a292d960e675ad4b0de97499557542fef1c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68185832"
 ---
 # <a name="registering-project-and-item-templates"></a>프로젝트 템플릿 및 항목 템플릿 등록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "58981749"
 |----------|----------|-----------------|  
 |@|REG_SZ|이러한 종류의 프로젝트의 기본 이름입니다.|  
 |DisplayName|REG_SZ|패키지에서 등록 하는 위성 DLL에서에서 검색할 이름의 리소스 ID입니다.|  
-|Package|REG_SZ|패키지에서 등록 된 패키지의 클래스 ID입니다.|  
+|패키지|REG_SZ|패키지에서 등록 된 패키지의 클래스 ID입니다.|  
 |ProjectTemplatesDir|REG_SZ|프로젝트 템플릿 파일의 기본 경로입니다. 프로젝트 템플릿 파일에서 표시 되는 **새 프로젝트** 템플릿.|  
   
 ### <a name="registering-item-templates"></a>등록 항목 템플릿  
@@ -57,7 +57,7 @@ ms.locfileid: "58981749"
 "SortPriority"=dword:00000064  
 ```  
   
-|이름|형식|설명|  
+|이름|형식|Description|  
 |----------|----------|-----------------|  
 |@|REG_SZ|항목 추가 템플릿에 대 한 리소스 ID입니다.|  
 |TemplatesDir|REG_SZ|에 대 한 대화 상자에서 표시 된 프로젝트 항목의 경로 **새 항목 추가** 마법사.|  
@@ -84,7 +84,7 @@ ms.locfileid: "58981749"
 "SortPriority"=dword:00000064  
 ```  
   
-|이름|형식|설명|  
+|이름|형식|Description|  
 |----------|----------|-----------------|  
 |CommonFindFilesFilter|REG_DWORD|공통 필터 중 하나에서 필터를 사용 하면 합니다 **파일에서 찾기** 대화 상자. 공통 필터는 필터 일반적으로 표시 되지 전에 필터 목록에 나열 됩니다.|  
 |CommonOpenFilesFilter|REG_DWORD|공통 필터 중 하나에서 필터를 사용 하면 합니다 **열려 있는 파일** 대화 상자. 공통 필터는 필터 일반적으로 표시 되지 전에 필터 목록에 나열 됩니다.|  
@@ -118,7 +118,7 @@ ms.locfileid: "58981749"
   
  \WizardFiles  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [프로젝트 및 프로젝트 항목 템플릿 추가](../../extensibility/internals/adding-project-and-project-item-templates.md)   
  [마법사](../../extensibility/internals/wizards.md)   
  [응용 프로그램 지역화](../../ide/localizing-applications.md)   

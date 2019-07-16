@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 83fbe8b372d021e0cec4faccfd0b22fcaa8af30d
-ms.sourcegitcommit: d3a485d47c6ba01b0fc9878cbbb7fe88755b29af
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "59002432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157097"
 ---
 # <a name="analyzing-application-quality-by-using-code-analysis-tools"></a>코드 분석 도구를 사용하여 응용 프로그램 품질 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "59002432"
  코드 분석 도구는 드라이버 소스 코드를 체계적으로 분석하여 안정성과 드라이버의 신뢰성을 향상시킬 수 있습니다.  
   
  [코드 분석 도구를 사용 하 여 드라이버 품질 분석](/windows-hardware/drivers/devtest/tools-for-verifying-drivers)  
- 드라이버용 코드 분석 검색 하는 컴파일 시간 정적 확인 도구 코딩 오류 C 및 c + + 프로그램의 기본 이며 (주로) 커널 모드 드라이버 코드에서 오류를 감지 하도록 설계 된 특수 한 모듈을 포함 합니다. SDV(정적 드라이버 확인 프로그램)는 Windows 커널 모드 드라이버의 소스 코드를 체계적으로 분석하는 정적 검증 도구입니다. SDV는 드라이버가 Windows 운영 체제 커널과 제대로 상호 작용하는지 여부를 결정합니다.  
+ 드라이버용 코드 분석은 C에서 기본 코딩 오류를 감지 하는 컴파일 시간 정적 확인 도구 및 C++ 프로그램 및 (주로) 커널 모드 드라이버 코드에서 오류를 감지 하도록 설계 된 특수 한 모듈을 포함 합니다. SDV(정적 드라이버 확인 프로그램)는 Windows 커널 모드 드라이버의 소스 코드를 체계적으로 분석하는 정적 검증 도구입니다. SDV는 드라이버가 Windows 운영 체제 커널과 제대로 상호 작용하는지 여부를 결정합니다.  
   
  [드라이버 경고에 대한 코드 분석](http://go.microsoft.com/fwlink/?LinkId=225920)  
  드라이버에 대한 코드 분석이 드라이버 코드에서 가능한 오류를 검색할 때 보고하는 경고에 대해 설명합니다.  

@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 8d4dc21c2c6329730d678fa574f11d86bed8cdc4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159619"
 ---
 # <a name="controlling-the-visibility-of-an-icon-or-decorator"></a>아이콘 또는 데코레이터의 가시성 제어
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,9 +62,9 @@ A *데코레이터* 아이콘 또는 셰이프를 도메인 특정 언어 (DSL)�
   
 1. 도메인 클래스에는 계산된 도메인 속성을 추가 합니다. 에 **속성** 창에서 다음 값을 설정 합니다.  
   
-     **IsBrowsable =**`False`**-사용자 속성을 숨깁니다.**  
+     **IsBrowsable =** `False` **-사용자 속성을 숨깁니다.**  
   
-     **종류 =**`Calculated`**-즉, 해당 값을 계산 하는 코드를 제공 합니다**  
+     **종류 =** `Calculated` **-즉, 해당 값을 계산 하는 코드를 제공 합니다**  
   
      **이름을** 예를 들어 **DecoratorControl**  
   
@@ -107,7 +107,7 @@ A *데코레이터* 아이콘 또는 셰이프를 도메인 특정 언어 (DSL)�
   
 8. 다시 작성 하 고 솔루션을 실행 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [모양 및 연결선 정의](../modeling/defining-shapes-and-connectors.md)   
  [다이어그램에 배경 이미지 설정](../modeling/setting-a-background-image-on-a-diagram.md)   
  [탐색 및 프로그램 코드에서 모델 업데이트](../modeling/navigating-and-updating-a-model-in-program-code.md)   

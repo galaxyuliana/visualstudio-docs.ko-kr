@@ -12,12 +12,12 @@ caps.latest.revision: 36
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 365382566f7de28a611f1c8e0b063f68ca55f696
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 3da0988316f54b75cb8076b1f242280a71d9a624
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67825924"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67890480"
 ---
 # <a name="define-a-gesture-handler-on-a-modeling-diagram"></a>모델링 다이어그램의 제스처 처리기 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -296,7 +296,7 @@ Visual Studio에서 사용자가 항목을 두 번 클릭하거나 UML 다이어
       IElement target = targetIShape.Element;  
       ```  
 
-        You can cast this to a more specific type of element.  
+      이를 더 구체적인 형식의 요소로 캐스팅할 수 있습니다.  
 
   - UML 모델이 포함된 UML 모델 저장소를 가져오려면  
 
@@ -519,7 +519,7 @@ public class CreateLifelinesFromComponentParts : IGestureExtension
   
  코드를 `GetModelElementsFromDragEvent()` 에 설명 되어 [가져올 모델 IDataObject에서에서 UML 요소](../modeling/get-uml-model-elements-from-idataobject.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [모델링 확장 정의 및 설치](../modeling/define-and-install-a-modeling-extension.md)   
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)   
  [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   

@@ -18,19 +18,20 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c394e909ec7ff51a7c6baf0bac85df3d2fce7b78
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a050724733ad87d0c583639fe3b0acfd2d6299f7
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62928484"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67890575"
 ---
 # <a name="how-to-specify-the-clickonce-offline-or-online-install-mode"></a>방법: ClickOnce 오프라인 또는 온라인 설치 모드 지정
 합니다 `Install Mode` 에 대 한는 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램 여부를 결정은 응용 프로그램 사용 가능한 오프 라인 또는 온라인입니다. 선택 하는 경우 **응용 프로그램은 온라인**, 사용자에 액세스할 수 있어야 합니다 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 위치 (웹 페이지 또는 파일 공유) 응용 프로그램을 실행 하기 위해 게시 합니다. 선택 하는 경우 **응용 프로그램을 오프 라인으로**, 항목을 추가 하는 응용 프로그램을 **시작** 메뉴 및 **프로그램 추가 / 제거** 대화 상자, 사용자는 연결 되지 않은 경우 응용 프로그램을 실행할 수 있습니다.
 
- `Install Mode` 에서 설정할 수 있습니다 합니다 **게시** 페이지를 **프로젝트 디자이너**합니다.
+`Install Mode` 에서 설정할 수 있습니다 합니다 **게시** 페이지를 **프로젝트 디자이너**합니다.
 
- **참고** 는 `Install Mode` 게시 마법사를 사용 하 여 설정할 수도 있습니다. 자세한 내용은 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.
+> [!NOTE]
+> `Install Mode` 게시 마법사를 사용 하 여 설정할 수도 있습니다. 자세한 내용은 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.
 
 ### <a name="to-make-a-clickonce-application-available-online-only"></a>ClickOnce 응용 프로그램을 사용할 수 있도록 온라인만
 

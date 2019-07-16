@@ -31,17 +31,17 @@ XML 편집기는 솔루션에 있는 스키마를 찾을 수도 있습니다에 
 | *msdata.xsd* | <xref:System.Data.DataSet> 클래스 "urn:schemas-microsoft-com:xml-msdata"에 의해 추가된 XSD 주석의 스키마입니다. |
 | *msxsl.xsd* | Microsoft XSLT 스크립트 블록 확장명 urn:schemas-microsoft-com:xslt에 대한 스키마입니다. |
 | *SnippetFormat.xsd* | 코드 조각 XML 파일에 대한 스키마입니다. 예제를 보려면 *%VSInstallDir%\VC#\Expansions*합니다. |
-| *Soap1.1.xsd* | Simple Object Access Protocol (SOAP) 1.1에 대 한 스키마 http://schemas.xmlsoap.org/soap/envelope/합니다. |
+| *Soap1.1.xsd* | Simple Object Access Protocol (SOAP) 1.1에 대 한 스키마 http://schemas.xmlsoap.org/soap/envelope/ 합니다. |
 | *Soap1.2.xsd* | SOAP(Simple Object Access Protocol) 1.2에 대한 스키마입니다. |
 | *SiteMapSchema.xsd* | ASP.NET 사이트 맵 XML 파일에 대 한 스키마 "<http://schemas.microsoft.com/AspNet/SiteMap-File-1.0>"입니다. |
-| *wsdl.xsd* | 웹 서비스 기술 언어에 대 한 스키마 http://schemas.xmlsoap.org/wsdl/합니다. |
-| *xenc.xsd* | XML 암호화에 대 한 스키마 http://www.w3.org/2000/09/xmldsig#합니다. |
-| *xhtml.xsd* | XHTML에 대 한 스키마 http://www.w3.org/1999/xhtml합니다. |
-| *xlink.xsd* | XLink1.0에 대 한 스키마 http://www.w3.org/1999/xlink합니다. |
-| *xml.xsd* | Xml: space 및 xml: lang 특성을 설명 하는 스키마 http://www.w3.org/XML/1998/namespace합니다. |
-| *xmlsig.xsd* | XML 디지털 서명 위한 스키마 http://www.w3.org/2000/09/xmldsig#합니다. |
-| *xsdschema.xsd* | XSD 자체를 설명 하는 스키마 http://www.w3.org/2001/XMLSchema합니다. |
-| *xslt.xsd* | XML에 대 한 스키마 변환 http://www.w3.org/1999/XSL/Transform합니다. |
+| *wsdl.xsd* | 웹 서비스 기술 언어에 대 한 스키마 http://schemas.xmlsoap.org/wsdl/ 합니다. |
+| *xenc.xsd* | XML 암호화에 대 한 스키마 http://www.w3.org/2000/09/xmldsig# 합니다. |
+| *xhtml.xsd* | XHTML에 대 한 스키마 http://www.w3.org/1999/xhtml 합니다. |
+| *xlink.xsd* | XLink1.0에 대 한 스키마 http://www.w3.org/1999/xlink 합니다. |
+| *xml.xsd* | Xml: space 및 xml: lang 특성을 설명 하는 스키마 http://www.w3.org/XML/1998/namespace 합니다. |
+| *xmlsig.xsd* | XML 디지털 서명 위한 스키마 http://www.w3.org/2000/09/xmldsig# 합니다. |
+| *xsdschema.xsd* | XSD 자체를 설명 하는 스키마 http://www.w3.org/2001/XMLSchema 합니다. |
+| *xslt.xsd* | XML에 대 한 스키마 변환 http://www.w3.org/1999/XSL/Transform 합니다. |
 
 ## <a name="update-schemas-in-the-cache"></a>캐시에서 스키마를 업데이트 합니다.
 
@@ -76,7 +76,7 @@ XML 편집기 패키지가 로드될 때 편집기에서 스키마 캐시 디렉
 
 - CommonApplicationData
 
-- 인 DWORD 값의 레지스트리에서 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\
+- LCID
 
 카탈로그 문서에 다른 카탈로그를 가리키는 `Catalog` 요소를 포함할 수 있습니다. `Catalog` 요소를 사용하여 팀이나 회사에서 공유하는 중앙 카탈로그 또는 비즈니스 파트너와 공유하는 온라인 카탈로그를 가리킬 수 있습니다. `href` 특성은 파일 경로이거나 다른 카탈로그에 대한 http URL입니다. 다음은 `Catalog` 요소의 예제입니다.
 

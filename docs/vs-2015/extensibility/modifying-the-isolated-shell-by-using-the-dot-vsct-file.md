@@ -11,11 +11,11 @@ caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 8c106a04e809e772ac3b8a77192fb2f101161e9c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194225"
 ---
 # <a name="modifying-the-isolated-shell-by-using-the-vsct-file"></a>사용 하 여 격리 셸 수정 합니다. Vsct 파일
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ Visual Studio 격리 셸 프로젝트에 대 한 UI 프로젝트는 응용 프�
 ## <a name="referenced-files"></a>참조 된 파일  
  응용 프로그램에 대 한 기본.vsct 파일에는 다음 파일을 참조 합니다. 이러한 파일은 Visual Studio SDK 설치 디렉터리의 \VisualStudioIntegration\Common\Inc\ 하위 디렉터리에 있습니다.  
   
-|파일|설명|  
+|파일|Description|  
 |----------|-----------------|  
 |wbids.h|웹 검색 패키지에 대 한 UI id입니다.|  
 |AppIDCmdUsed.vsct|기본 Visual Studio UI 요소에 대 한 명령 테이블입니다.|  

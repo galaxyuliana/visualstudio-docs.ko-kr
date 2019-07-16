@@ -13,11 +13,11 @@ caps.latest.revision: 29
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c7154395be43f6a0b07e9f2557d94fa594ef5ba4
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59647203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68150791"
 ---
 # <a name="shipping-visual-studio-extensions"></a>Visual Studio 확장 전달
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,14 +51,14 @@ ms.locfileid: "59647203"
 
 ## <a name="related-topics"></a>관련 항목
 
-|제목|설명|
+|제목|Description|
 |-----------|-----------------|
 |[VSIX 프로젝트 템플릿 시작](../extensibility/getting-started-with-the-vsix-project-template.md)|VSIX 프로젝트 템플릿을 사용 하 여 사용자 지정 프로젝트 템플릿을 설치 하는 방법에 설명 합니다.|
 |[VSIX 패키지 분석](../extensibility/anatomy-of-a-vsix-package.md)|VSIX 패키지의 구성 요소를 설명합니다.|
 |[VSIX 프로젝트 템플릿](../extensibility/vsix-project-template.md)|패키지 및 확장을 게시 하는 방법에 대 한 단계별 지침을 제공 합니다.|
 |[VSIX 패키지 지역화](../extensibility/localizing-vsix-packages.md)|Extension.vsixlangpack 파일을 사용 하 여 설치 프로세스에 대 한 지역화 된 텍스트를 제공 하는 방법에 설명 합니다.|
 |[방법: 확장 업데이트](../extensibility/how-to-update-a-visual-studio-extension.md)|시스템에서 확장을 업데이트 하는 방법 및 기존 Visual Studio 확장에 업데이트를 배포 하는 방법을 설명 합니다.|
-|[방법: VSIX 패키지에 종속성을 추가 합니다.](../extensibility/how-to-add-a-dependency-to-a-vsix-package.md)|VSIX 배포 패키지에 대 한 참조를 추가 하는 방법에 설명 합니다.|
+|[방법: VSIX 패키지에 종속성 추가](../extensibility/how-to-add-a-dependency-to-a-vsix-package.md)|VSIX 배포 패키지에 대 한 참조를 추가 하는 방법에 설명 합니다.|
 |[Windows Installer 배포에 대한 확장 준비](../extensibility/preparing-extensions-for-windows-installer-deployment.md)|Windows Installer를 사용 하 여 확장 프로그램을 배포 하는 방법에 설명 합니다.|
 |[VSIX 패키지 서명](../extensibility/signing-vsix-packages.md)|VSIX 패키지에 서명 하는 방법에 설명 합니다.|
 |[전용 갤러리](../extensibility/private-galleries.md)|확장에 대 한 전용 갤러리를 만드는 방법에 설명 합니다.|

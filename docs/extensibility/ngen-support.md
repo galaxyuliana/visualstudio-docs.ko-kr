@@ -8,12 +8,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 02fe3ec6787eec0846f709ac65555260a3c03165
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: 24f1b0a26875bbbf8dfc4ac7db1049f7309d9aa2
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66343986"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67891113"
 ---
 # <a name="ngen-support-in-vsix-v3"></a>VSIX v3의 Ngen 지원
 
@@ -37,7 +37,7 @@ ms.locfileid: "66343986"
 
 1. **Ngen** (부울)-Visual Studio 설치 관리자를 true 인 경우 "ngen" 어셈블리를 됩니다.
 2. **Ngen 응용 프로그램** Ngen는 응용 프로그램을 사용 하는 기회를 제공 (string)- *app.config* 어셈블리 종속성을 해결 하기 위해 파일입니다. 이 값에 설정할 응용 프로그램입니다 *app.config* (기준으로 Visual Studio 설치 디렉터리)를 사용 하려고 합니다.
-3. **Ngen 아키텍처** (enum)-아키텍처를 기본적으로 어셈블리를 컴파일합니다. 옵션은:를 합니다. NotSpecified b입니다. X86 c. X64 d입니다. 모두
+3. **Ngen 아키텍처** (enum)-아키텍처를 기본적으로 어셈블리를 컴파일합니다. 옵션은:를 합니다. NotSpecified b입니다. X86 c입니다. X64 d입니다. 모두
 4. **Ngen 우선 순위** (1과 3 사이의 정수)-The Ngen 우선 순위 수준에 설명 되어 있습니다 [Ngen.exe 우선 순위 수준을](/dotnet/framework/tools/ngen-exe-native-image-generator#priority-levels)합니다.
 
 살펴보겠습니다 합니다 **속성** 작업에서 창:
@@ -55,9 +55,10 @@ ms.locfileid: "66343986"
     <NgenArchitecture>X86</NgenArchitecture>
     <NgenPriority>2</NgenPriority>
 </ProjectReference>
- ```
+```
 
- >**참고:** 원하는 경우.csproj 파일을 직접 편집할 수 있습니다.
+> [!NOTE]
+> 원하는 경우.csproj 파일을 직접 편집할 수 있습니다.
 
 ## <a name="extra-information"></a>추가 정보
 

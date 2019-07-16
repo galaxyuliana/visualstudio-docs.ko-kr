@@ -15,20 +15,20 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 54f83f00ed2e99d1541e15092cb3ee0ce9e08952
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68164168"
 ---
 # <a name="getting-started-debug-interface-access-sdk"></a>시작(디버그 인터페이스 액세스 SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-디버그 인터페이스 액세스 (DIA) SDK 지침 설명서와 DIA API를 사용 하는 방법을 보여 주는 샘플을 제공 합니다. .Pdb 및.dbg 파일을 열고 기호, 값, 특성, 주소 및 기타 디버깅 정보에 대 한 해당 콘텐츠를 검색 하는 사용자 지정 응용 프로그램을 개발할 DIA SDK의 인터페이스 및 메서드를 사용 합니다. 이 SDK는 또한 c + + 응용 프로그램의 문장 부호를 사용 하 여 연결 속성에 대 한 참조 테이블을 제공 합니다.  
+디버그 인터페이스 액세스 (DIA) SDK 지침 설명서와 DIA API를 사용 하는 방법을 보여 주는 샘플을 제공 합니다. .Pdb 및.dbg 파일을 열고 기호, 값, 특성, 주소 및 기타 디버깅 정보에 대 한 해당 콘텐츠를 검색 하는 사용자 지정 응용 프로그램을 개발할 DIA SDK의 인터페이스 및 메서드를 사용 합니다. 기호를 사용 하 여 연결 속성에 대 한이 SDK 참조 테이블에도 C++ 응용 프로그램입니다.  
   
  가장 DIA SDK를 사용 하려면 다음을 사용 하 여 알아두어야 하 합니다.  
   
-- C + + 프로그래밍 언어  
+- C++프로그래밍 언어  
   
 - COM 프로그래밍  
   

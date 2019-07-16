@@ -7,11 +7,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: e1607ec4863c7e2b21cd69dd57ca4203e3cf4dbf
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68147940"
 ---
 # <a name="vsix-color-compiler"></a>VSIX 색 컴파일러
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -82,7 +82,7 @@ Visual Studio 확장명 색 컴파일러 도구는 기존 Visual Studio 테마�
 |이름|[필수] 범주 이름|  
 |GUID|[필수] (일치 해야 GUID 서식 지정) 하는 범주 GUID|  
   
- **색**  
+ **Color**  
   
  \<색 > 요소는 구성 요소 또는 UI의 상태에 대 한 색을 정의 합니다. 색에 대 한 기본 명명 스키마는 [UI 유형] [State]. 중복 그대로 단어 "색"을 사용 하지 마세요. 요소 형식 및 경우를 "상태" 색을 적용할 색을 명확 하 게 나타내야 합니다. 색 비어 있어야 하며 하나 또는 둘 다 포함 해야 합니다는 \<백그라운드 > 및 \<전경 > 요소입니다. 색 요소는 다음과 같이 정의 됩니다.  
   
@@ -153,7 +153,7 @@ Visual Studio 확장명 색 컴파일러 도구는 기존 Visual Studio 테마�
   
 - VsixColorCompiler D:\xml\colors.xml /noLogo  
   
-## <a name="notes"></a>노트  
+## <a name="notes"></a>참고  
   
 - 이 도구를 최신 버전의 VC + + 런타임 설치 해야 합니다.  
   

@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 1f564200d0bdac56e975c2f2ab27439652247605
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68183897"
 ---
 # <a name="using-escape-sequences-in-text-templates"></a>텍스트 템플릿에서 이스케이프 시퀀스 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,5 +39,5 @@ ms.locfileid: "60055342"
   
 - 경우 이스케이프 (\\)에서 제어 문자 또는 (C#에 해당)의 따옴표를 이스케이프 위치 이외의 순서와 관계 없이 다른 곳에 표시 되는 문자의 문자는 직접 출력 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [방법: 이스케이프 시퀀스를 사용하여 템플릿에서 템플릿 생성](../modeling/how-to-generate-templates-from-templates-by-using-escape-sequences.md)

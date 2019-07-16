@@ -13,11 +13,11 @@ caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f951e7ef29fbba7225997276b31bd9f32731efc8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199979"
 ---
 # <a name="sccqueryinfo-function"></a>SccQueryInfo 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ SCCRTN SccQueryInfo(
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|쿼리 성공 했습니다.|  
 |SCC_E_ACCESSFAILURE|네트워크 또는 경합 문제로 인해 발생 한 소스 제어 시스템에 액세스 문제가 있었습니다. 재시도 사용 하는 것이 좋습니다.|  
@@ -73,6 +73,6 @@ SCCRTN SccQueryInfo(
   
 - 경우 파일을 체크 아웃 된 현재 사용자가 작업 디렉터리를 이외의 디렉터리로 `SCC_STATUS_OUTBYUSER` 설정 되어 있지만 `SCC_STATUS_CHECKEDOUT` 아닙니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [파일 상태 코드](../extensibility/file-status-code-enumerator.md)

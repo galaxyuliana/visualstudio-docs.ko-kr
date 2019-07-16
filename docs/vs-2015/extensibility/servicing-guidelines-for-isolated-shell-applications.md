@@ -12,13 +12,13 @@ caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 093690c293ff6857eedc50d5eccc793d7d5bb114
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60097403"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159276"
 ---
-# <a name="servicing-guidelines-for-isolated-shell-applications"></a>격리 셸 응용 프로그램에 대 한 지침 제공
+# <a name="servicing-guidelines-for-isolated-shell-applications"></a>격리 셸 애플리케이션에 대한 지침 제공
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio 격리 셸 응용 프로그램을 배포 하는 경우에 설치 된 후 응용 프로그램에 대 한 소프트웨어 업데이트를 제공할 수 해야 합니다. 이 위해 Microsoft Installer (MSI) 파일을 사용 하 여 응용 프로그램을 설치 해야 합니다. 이 종류의 설치에는 웹에서 재배포할 수 하기 위해 Microsoft에서 제공 하는 소프트웨어 업데이트 다운로드 및 사용자 지정의 개입 없이 고객에 게 사용 수 있습니다.  

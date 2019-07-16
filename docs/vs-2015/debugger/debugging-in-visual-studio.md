@@ -19,11 +19,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 78c80bc015ffbf39949b5295d85396dc84154208
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68189581"
 ---
 # <a name="debugging-in-visual-studio"></a>Visual Studio의 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,5 +49,5 @@ Visual Studio 디버거를 사용하여 프로그램의 런타임 동작을 관�
 
 - [디버그 인터페이스 액세스 SDK](../debugger/debug-interface-access/debug-interface-access-sdk.md) Microsoft 디버그 인터페이스 액세스 소프트웨어 개발 키트 (DIA SDK)에 대해 설명 합니다. DIA SDK는 Microsoft 사후 컴파일러 도구에서 생성한 프로그램 데이터베이스(.pdb) 파일에 저장된 디버그 정보에 액세스할 수 있도록 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
  [프로 파일링 도구](../profiling/profiling-tools.md) [Visual Studio IDE](../ide/visual-studio-ide.md)

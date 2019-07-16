@@ -27,11 +27,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 2fe0d270593ef526405b0be4cde8bc5da10af413
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982450"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188963"
 ---
 # <a name="product-and-package-schema-reference"></a>제품 및 패키지 스키마 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -160,6 +160,6 @@ A *제품 파일* 에 필요한 외부 종속성의 모든 설명 하는 XML 매
 </Product>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)   
  [ndptecclick](../deployment/clickonce-application-manifest.md)

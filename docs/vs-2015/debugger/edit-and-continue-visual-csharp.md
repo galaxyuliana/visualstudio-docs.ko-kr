@@ -20,11 +20,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 027e713ccb966528d0468050df30e4265b574198
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68151424"
 ---
 # <a name="edit-and-continue-visual-c"></a>편집하며 계속하기(Visual C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

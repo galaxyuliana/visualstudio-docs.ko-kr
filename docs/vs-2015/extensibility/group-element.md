@@ -12,11 +12,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 35c332682b609f6620f96cc8eb8499cca921d399
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68204273"
 ---
 # <a name="group-element"></a>Group 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,20 +39,20 @@ VSPackage 명령 그룹을 정의합니다.
 |특성|설명|  
 |---------------|-----------------|  
 |guid|필수 요소. GUID/i D 명령 식별자의 GUID입니다.|  
-|ID|필수 요소. GUID/i D 명령 식별자의 ID입니다.|  
+|id|필수 요소. GUID/i D 명령 식별자의 ID입니다.|  
 |priority|선택 사항입니다. 우선 순위를 지정 하는 숫자 값입니다.|  
 |조건|선택 사항입니다. 참조 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|  
   
 ### <a name="child-elements"></a>자식 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |부모|선택 사항입니다. 단추의 부모 요소입니다.|  
-|주석|선택적 설명입니다.|  
+|Annotation|선택적 설명입니다.|  
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Groups 요소](../extensibility/groups-element.md)|VSPackage의 명령 그룹을 정의 하는 항목을 포함 합니다.|  
   

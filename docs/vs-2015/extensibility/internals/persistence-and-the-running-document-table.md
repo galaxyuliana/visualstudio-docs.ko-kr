@@ -14,11 +14,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 2c422ad1735312c82c8dc027c4adf73c1b033685
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68196090"
 ---
 # <a name="persistence-and-the-running-document-table"></a>지속성 및 실행 중인 문서 테이블
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

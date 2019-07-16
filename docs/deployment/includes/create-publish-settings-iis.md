@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 69f4f4c2b55670d510652b44a203b9f0eafcc53a
-ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
-ms.translationtype: MT
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67256655"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "68143535"
 ---
 
 1. UI에서 업데이트된 구성 옵션을 표시하려면 IIS 관리 콘솔을 닫았다가 다시 엽니다.

@@ -19,11 +19,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 9153da163fb30b05e13d9c25f8589d632d64326e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68198137"
 ---
 # <a name="output-window-debugging-options-dialog-box"></a>옵션 대화 상자, 디버깅, 출력 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,6 +38,6 @@ ms.locfileid: "58971782"
   
  자세한 내용은 [방법: WPF 추적 정보 표시](../debugger/how-to-display-wpf-trace-information.md)를 참조하세요.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버깅, 옵션 대화 상자](../debugger/debugging-options-dialog-box.md)   
  [출력 창](../ide/reference/output-window.md)

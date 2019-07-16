@@ -19,11 +19,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3139cb337428dfc0c14e5bae47e682ce169bc81d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159135"
 ---
 # <a name="how-to-specify-the-location-where-end-users-will-install-from"></a>방법: 최종 사용자의 설치 원본 위치 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "60108505"
   
 2. **게시** 탭을 클릭합니다.  
   
-3. 설치 URL 필드에는 형식을 사용 하 여 정규화 된 URL을 사용 하 여 설치 위치를 입력 http://www.microsoft.com/ApplicationName, 형식을 사용 하는 UNC 경로 또는 \\\Server\ApplicationName 합니다.  
+3. 설치 URL 필드에는 형식을 사용 하 여 정규화 된 URL을 사용 하 여 설치 위치를 입력 http://www.microsoft.com/ApplicationName , 형식을 사용 하는 UNC 경로 또는 \\ \Server\ApplicationName 합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: Visual Studio에서 파일을 복사 하는 위치 지정](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)   
