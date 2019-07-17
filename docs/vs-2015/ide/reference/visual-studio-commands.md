@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 10ce4bd59567d7d055dd107dd05358d994d22c36
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160874"
 ---
 # <a name="visual-studio-commands"></a>Visual Studio 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ Visual Studio에서는 **명령** 창, **직접 실행** 창 또는 **찾기/명
 
  다음 명령은 인수 및/또는 스위치를 사용합니다.
 
-|명령 이름|설명|
+|명령 이름|Description|
 |------------------|-----------------|
 |[기존 항목 추가](../../ide/reference/add-existing-item-command.md)|현재 솔루션에 기존 파일을 추가하고 엽니다.|
 |[기존 프로젝트 추가](../../ide/reference/add-existing-project-command.md)|현재 솔루션에 기존 프로젝트를 추가합니다.|

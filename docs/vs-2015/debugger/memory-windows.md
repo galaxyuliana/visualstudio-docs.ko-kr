@@ -28,11 +28,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: e60f9b3c9acf1377139fee27486bb10251d8804a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158460"
 ---
 # <a name="memory-windows"></a>메모리 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -121,5 +121,5 @@ ms.locfileid: "60059594"
   
      이제 사용 하는 경우 실행 명령을 같은 **단계**, 표시 되는 메모리 주소를 포인터 변경 될 때 자동으로 변경 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버거에서 데이터 보기](../debugger/viewing-data-in-the-debugger.md)

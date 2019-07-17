@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 97bc8383f990f6c0c35a402f2ab36b2595d82a9e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68147681"
 ---
 # <a name="ienumdebugthreads2"></a>IEnumDebugThreads2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -39,11 +39,11 @@ IEnumDebugThreads2 : IUnknown
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IEnumDebugThreads2`합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[다음](../../../extensibility/debugger/reference/ienumdebugthreads2-next.md)|열거형 시퀀스에서 스레드의 지정된 된 수를 검색 합니다.|  
 |[Skip](../../../extensibility/debugger/reference/ienumdebugthreads2-skip.md)|열거형 시퀀스에서 스레드의 지정 된 수를 건너뜁니다.|  
-|[Reset](../../../extensibility/debugger/reference/ienumdebugthreads2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|  
+|[다시 설정](../../../extensibility/debugger/reference/ienumdebugthreads2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|  
 |[Clone](../../../extensibility/debugger/reference/ienumdebugthreads2-clone.md)|현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.|  
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugthreads2-getcount.md)|열거자에서 스레드 수를 가져옵니다.|  
   
@@ -61,6 +61,6 @@ IEnumDebugThreads2 : IUnknown
  [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)   
  [EnumThreads](../../../extensibility/debugger/reference/idebugprocess2-enumthreads.md)   
  [EnumThreads](../../../extensibility/debugger/reference/idebugprogram2-enumthreads.md)   
- [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md)   
+ [단계](../../../extensibility/debugger/reference/idebugprocess3-step.md)   
  [계속](../../../extensibility/debugger/reference/idebugprocess3-continue.md)   
- [Execute](../../../extensibility/debugger/reference/idebugprocess3-execute.md)
+ [실행](../../../extensibility/debugger/reference/idebugprocess3-execute.md)

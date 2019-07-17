@@ -13,11 +13,11 @@ caps.latest.revision: 6
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: cec5f45465d8fa9dcd96e557736ad52179ce296a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160943"
 ---
 # <a name="ienumdebugobjectsgetcount"></a>IEnumDebugObjects::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,5 +48,5 @@ int GetCount(
 ## <a name="remarks"></a>설명  
  이 메서드는 다음, 복제, Skip 및 재설정 구현 해야를 지정 하는 일반적인 COM 열거형 인터페이스의 일부가 아닙니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md)

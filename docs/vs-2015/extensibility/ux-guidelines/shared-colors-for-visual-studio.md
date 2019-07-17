@@ -9,11 +9,11 @@ caps.latest.revision: 6
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 87520a7e17d194d7f5cc28665a6f23466bface65
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60086431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68154699"
 ---
 # <a name="shared-colors-for-visual-studio"></a>Visual Studio에 대 한 공유 색
 
@@ -64,7 +64,7 @@ ms.locfileid: "60086431"
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -208,7 +208,7 @@ ms.locfileid: "60086431"
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -250,7 +250,7 @@ ms.locfileid: "60086431"
 
   `Environment.DropShadowBackground`
 
-  ![Menu checked](../../extensibility/ux-guidelines/media/0303-011-menuchecked.png "0303-011_MenuChecked")
+  ![메뉴 확인 됨](../../extensibility/ux-guidelines/media/0303-011-menuchecked.png "0303 011_MenuChecked")
 
   **선택한 상태**
 
@@ -426,7 +426,7 @@ ms.locfileid: "60086431"
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -436,7 +436,7 @@ ms.locfileid: "60086431"
 
   ![명령 아이콘 기본값](../../extensibility/ux-guidelines/media/0303-023-commandicondefault.png "0303 023_CommandIconDefault")
 
-  **기본**
+  **Default**
 
   배경
 
@@ -448,7 +448,7 @@ ms.locfileid: "60086431"
 
   테두리
 
-  N/A
+  해당 사항 없음
 
   ![명령 아이콘 기본값 선택 됨](../../extensibility/ux-guidelines/media/0303-024-commandicondefaultselected.png "0303 024_CommandIconDefaultSelected")
 
@@ -556,14 +556,14 @@ ms.locfileid: "60086431"
 
   테두리
 
-  N/A
+  해당 사항 없음
 
 #### <a name="BKMK_CommandComboBox"></a> 콤보 상자
 
 > [!IMPORTANT]
 > 콤보 상자는 드롭다운과 유사하지만 편집 가능한 텍스트 영역을 포함합니다. 드롭다운에 편집 가능한 텍스트 영역이 포함되어 있지 않으면 [Drop-down](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_CommandDropDown)아래의 색 토큰을 사용합니다.
 
-![Combo box redline](../../extensibility/ux-guidelines/media/0303-029-comboboxredline.png "0303-029_ComboBoxRedline")
+![콤보 상자 검토](../../extensibility/ux-guidelines/media/0303-029-comboboxredline.png "0303 029_ComboBoxRedline")
 
 사용
 - 사용자 지정 콤보 상자를 빌드하는 경우
@@ -575,7 +575,7 @@ ms.locfileid: "60086431"
 
 - 스타일이 적용된 콤보 상자에 액세스할 수 있는 경우
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -820,7 +820,7 @@ ms.locfileid: "60086431"
 
 - 콤보 상자 또는 분할 단추
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -1030,7 +1030,7 @@ ms.locfileid: "60086431"
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -1056,11 +1056,11 @@ ms.locfileid: "60086431"
 
   테두리
 
-  N/A
+  해당 사항 없음
 
   구분 기호
 
-  N/A
+  해당 사항 없음
 
   **가리키기**
 
@@ -1128,7 +1128,7 @@ ms.locfileid: "60086431"
 
   구분 기호
 
-  N/A
+  해당 사항 없음
 
   **Disabled**
 
@@ -1144,7 +1144,7 @@ ms.locfileid: "60086431"
 
   배경
 
-  N/A
+  해당 사항 없음
 
   전경(텍스트)
 
@@ -1156,11 +1156,11 @@ ms.locfileid: "60086431"
 
   테두리
 
-  N/A
+  해당 사항 없음
 
   구분 기호
 
-  N/A
+  해당 사항 없음
 
 #### <a name="more-options-and-overflow-buttons"></a>'기타 옵션' 및 '오버플로' 단추
  "기타 옵션" 단추는 관련된 명령 모음 단추를 추가하거나 제거하여 명령 모음 그룹을 사용자 지정할 수 있는 경우에 사용됩니다. "오버플로" 단추는 가로 공간이 부족하여 명령 모음이 잘리고, 클릭하면 표시되지 않는 명령 모음 단추를 포함하는 메뉴가 표시될 때 나타납니다. 이러한 두 단추의 색은 동일한 토큰 이름 집합에 의해 제어됩니다.
@@ -1173,7 +1173,7 @@ ms.locfileid: "60086431"
  사용 안 함
 '기타 옵션' 또는 '오버플로' 단추와 유사한 기능이 없는 단추
 
- **기본**
+ **Default**
 
  구성 요소
 
@@ -1271,7 +1271,7 @@ ms.locfileid: "60086431"
  사용 안 함
 셸에 테마 업데이트가 있는 경우 자동으로 변경하지 않으려는 모든 UI
 
- **기본**
+ **Default**
 
  구성 요소
 
@@ -1503,7 +1503,7 @@ ms.locfileid: "60086431"
  `Environment.FileTabInactiveDocumentBorderBackground`
 
 #### <a name="background-tab"></a>백그라운드 탭
- **기본**
+ **Default**
 
  ![백그라운드 탭](../../extensibility/ux-guidelines/media/0303-076-backgroundtab.png "0303 076_BackgroundTab")
 
@@ -1617,7 +1617,7 @@ ms.locfileid: "60086431"
 
   `Environment.FileTabProvisionalSelectedInactiveBorder`
 
-  **백그라운드 미리 보기 탭: Default**
+  **백그라운드 미리 보기 탭: 기본**
 
   구성 요소
 
@@ -1683,7 +1683,7 @@ ms.locfileid: "60086431"
 
 - 명령 모음 오버플로 단추
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -1898,7 +1898,7 @@ ms.locfileid: "60086431"
 
  테두리
 
- N/A
+ 해당 사항 없음
 
  끌기 핸들
 
@@ -1916,7 +1916,7 @@ ms.locfileid: "60086431"
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -1930,7 +1930,7 @@ ms.locfileid: "60086431"
 
   배경
 
-  N/A
+  해당 사항 없음
 
   전경(문자 모양)
 
@@ -1938,7 +1938,7 @@ ms.locfileid: "60086431"
 
   테두리
 
-  N/A
+  해당 사항 없음
 
   ![제목 포커스가 없는 단추 표시줄](../../extensibility/ux-guidelines/media/0303-097-titlebarbuttonunfocused.png "0303 097_TitleBarButtonUnfocused")
 
@@ -1946,7 +1946,7 @@ ms.locfileid: "60086431"
 
   배경
 
-  N/A
+  해당 사항 없음
 
   전경(문자 모양)
 
@@ -1954,7 +1954,7 @@ ms.locfileid: "60086431"
 
   테두리
 
-  N/A
+  해당 사항 없음
 
   **가리키기**
 
@@ -2053,7 +2053,7 @@ ms.locfileid: "60086431"
 
  토큰 이름: Category.color
 
- ![Tool window tab focused](../../extensibility/ux-guidelines/media/0303-103-toolwindowtabfocused.png "0303-103_ToolWindowTabFocused")
+ ![도구 창 탭 초점을 맞춘](../../extensibility/ux-guidelines/media/0303-103-toolwindowtabfocused.png "0303 103_ToolWindowTabFocused")
 
  **선택한 포커스가 있는 도구 창 탭**
 
@@ -2164,7 +2164,7 @@ ms.locfileid: "60086431"
  사용 안 함
 셸에 테마 업데이트가 있는 경우 자동으로 변경하지 않으려는 모든 UI
 
- **기본**
+ **Default**
 
  구성 요소
 
@@ -2232,7 +2232,7 @@ ms.locfileid: "60086431"
 
 - "사용 안 함"은 검색 기능이 현재 컨텍스트에 대해 꺼져 있음을 나타냅니다.
 
-  ![Search box redline](../../extensibility/ux-guidelines/media/0303-110-searchboxredline.png "0303-110_SearchBoxRedline")
+  ![검색 상자 검토](../../extensibility/ux-guidelines/media/0303-110-searchboxredline.png "0303 110_SearchBoxRedline")
 
   사용
   사용자 지정 검색 상자를 디자인하는 경우
@@ -2292,7 +2292,7 @@ ms.locfileid: "60086431"
 
   테두리
 
-  N/A
+  해당 사항 없음
 
   ![검색 저장&#45;포커스가 있는 단추 아래로](../../extensibility/ux-guidelines/media/0303-113-searchdropdownbuttonfocused.png "0303 113_SearchDropdownButtonFocused")
 
@@ -2380,7 +2380,7 @@ ms.locfileid: "60086431"
 
   테두리
 
-  N/A
+  해당 사항 없음
 
   ![검색 저장&#45;단추에 포커스가 없는 아래로](../../extensibility/ux-guidelines/media/0303-116-searchdropdownbuttonunfocused.png "0303 116_SearchDropdownButtonUnfocused")
 
@@ -2560,7 +2560,7 @@ ms.locfileid: "60086431"
 
   `Environment.DropShadowBackground`
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -2717,7 +2717,7 @@ ms.locfileid: "60086431"
  사용 안 함
 하이퍼링크가 아닌 모든 항목
 
- **기본**
+ **Default**
 
  구성 요소
 
@@ -2816,7 +2816,7 @@ Visual Studio 스크롤 막대와 일치시키려는 UI를 만드는 경우
 
  사용 안 함 항목에 대 한 스크롤 막대 UI와 항상 일치 하지 않을 합니다.
 
- **기본**
+ **Default**
 
  구성 요소
 
@@ -2826,7 +2826,7 @@ Visual Studio 스크롤 막대와 일치시키려는 UI를 만드는 경우
 
  ![스크롤 막대](../../extensibility/ux-guidelines/media/0303-141-scrollbar.png "0303 141_Scrollbar")
 
- **Scrollbar**
+ **스크롤 막대**
 
  스크롤 막대
 
@@ -2860,7 +2860,7 @@ Visual Studio 스크롤 막대와 일치시키려는 UI를 만드는 경우
 
  ![스크롤 막대 가리키기](../../extensibility/ux-guidelines/media/0303-143-scrollbarhover.png "0303 143_ScrollbarHover")
 
- **Scrollbar**
+ **스크롤 막대**
 
  스크롤 막대
 
@@ -2894,7 +2894,7 @@ Visual Studio 스크롤 막대와 일치시키려는 UI를 만드는 경우
 
  ![스크롤 막대 누름](../../extensibility/ux-guidelines/media/0303-145-scrollbarpressed.png "0303 145_ScrollbarPressed")
 
- **Scrollbar**
+ **스크롤 막대**
 
  스크롤 막대
 
@@ -2932,7 +2932,7 @@ Visual Studio 스크롤 막대와 일치시키려는 UI를 만드는 경우
 
 - 지정된 배경/전경 조합 이외의 모든 조합
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -3115,7 +3115,7 @@ Visual Studio 테마(밝게, 어둡게, 파랑 또는 시스템 고대비 테마
  사용 안 함
 Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는 단추
 
- **기본**
+ **Default**
 
  구성 요소
 
@@ -3206,7 +3206,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
  `CommonControls.ButtonBorderFocused`
 
 ### <a name="check-box-controls"></a>확인란 컨트롤
- ![Check box redline](../../extensibility/ux-guidelines/media/0303-161-checkboxredline.png "0303-161_CheckboxRedline")
+ ![확인란 검토](../../extensibility/ux-guidelines/media/0303-161-checkboxredline.png "0303 161_CheckboxRedline")
 
  사용
 문서 저장소 내에 포함된 확인란 컨트롤
@@ -3214,7 +3214,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
  사용 안 함
 확인란 컨트롤이 아닌 모든 UI
 
- **기본**
+ **Default**
 
  구성 요소
 
@@ -3222,7 +3222,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 
  토큰 이름: Category.color
 
- ![Check box](../../extensibility/ux-guidelines/media/0303-162-checkbox.png "0303-162_Checkbox")
+ ![확인란](../../extensibility/ux-guidelines/media/0303-162-checkbox.png "0303 162_Checkbox")
 
  배경
 
@@ -3356,7 +3356,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 
 - 명령 모음의 [Drop-down](../../misc/shared-colors.md#BKMK_CommandDropDown) 또는 [Combo box](../../misc/shared-colors.md#BKMK_CommandComboBox) 에 대해
 
-  **기본**
+  **Default**
 
   구성 요소
 
@@ -3536,7 +3536,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 
   ![삭제&#45;아래로&#47;콤보 상자 텍스트 입력](../../extensibility/ux-guidelines/media/0303-173-dropdowncomboboxtextinput.png "0303 173_DropDownComboBoxTextInput")
 
-  하이라이트
+  Highlight
 
   `CommonControls.ComboBoxTextInputSelection`
 
@@ -3592,13 +3592,13 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 #### <a name="column-headers"></a>열 머리글
  열 머리글은 배경, 테두리, 제목 텍스트 및 그리드가 해당 열을 기준으로 정렬된 경우 일반적으로 사용되는 선택적 문자 모양으로 구성됩니다.
 
- 상태
+ State
 
  요소
 
  토큰 이름: Category.color
 
- 기본
+ 기본값
 
  배경
 
@@ -3655,13 +3655,13 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 #### <a name="list-view-items"></a>목록 뷰 항목
  목록 뷰 항목은 배경과 콘텐츠로 구성됩니다. 콘텐츠는 텍스트, 아이콘 또는 둘 다일 수 있습니다.
 
- 상태
+ State
 
  요소
 
  토큰 이름: Category.color
 
- 기본
+ 기본값
 
  배경
 
@@ -3719,7 +3719,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 
 - 매니페스트 디자이너처럼 구조화되지 않은 모든 UI
 
-  상태
+  State
 
   구성 요소
 
@@ -3784,7 +3784,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
  사용 안 함
 다른 모든 유형의 UI
 
-### <a name="tag"></a>태그
+### <a name="tag"></a>Tag
  구성 요소
 
  요소
@@ -3793,7 +3793,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 
  ![Tag](../../extensibility/ux-guidelines/media/0303-177-tag.png "0303-177_Tag")
 
- **기본**
+ **Default**
 
  배경
 
@@ -3840,7 +3840,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
  `Tag.SelectedBackgroundText`
 
 ### <a name="glyph-close-icon"></a>문자 모양(닫기 아이콘)
- **기본**
+ **Default**
 
  구성 요소
 
@@ -3854,7 +3854,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 
  배경
 
- N/A
+ 해당 사항 없음
 
  전경(문자 모양)
 
@@ -3922,7 +3922,7 @@ Visual Studio 테마에 속하지 않는 사용자 지정 배경에 표시되는
 
  배경
 
- N/A
+ 해당 사항 없음
 
  전경(문자 모양)
 
@@ -4079,7 +4079,7 @@ Visual Studio 환경의 배경과 일치시키려는 위치
  사용 안 함
 도구 상자 UI와 유사하지 않은 모든 항목 또는 셸 도구 상자 색이 변경되면 UI에서 문제가 발생하는지 여부가 확실하지 않은 경우
 
- **기본**
+ **Default**
 
  구성 요소
 
@@ -4087,11 +4087,11 @@ Visual Studio 환경의 배경과 일치시키려는 위치
 
  토큰 이름: Category.color
 
- ![Toolbox parent node](../../extensibility/ux-guidelines/media/0303-190-toolboxparentnode.png "0303-190_ToolboxParentNode")
+ ![도구 상자 부모 노드](../../extensibility/ux-guidelines/media/0303-190-toolboxparentnode.png "0303 190_ToolboxParentNode")
 
  **부모 노드**
 
- ![Toolbox child node](../../extensibility/ux-guidelines/media/0303-191-toolboxchildnode.png "0303-191_ToolboxChildNode")
+ ![도구 상자 자식 노드](../../extensibility/ux-guidelines/media/0303-191-toolboxchildnode.png "0303 191_ToolboxChildNode")
 
  **자식 노드**
 
@@ -4153,11 +4153,11 @@ Visual Studio 환경의 배경과 일치시키려는 위치
 
  토큰 이름: Category.color
 
- ![Toolbox parent node focused](../../extensibility/ux-guidelines/media/0303-193-toolboxparentnodefocused.png "0303-193_ToolboxParentNodeFocused")
+ ![도구 상자 부모 노드 초점을 맞춘](../../extensibility/ux-guidelines/media/0303-193-toolboxparentnodefocused.png "0303 193_ToolboxParentNodeFocused")
 
  **포커스가 있는 부모 노드**
 
- ![Toolbox child node focused](../../extensibility/ux-guidelines/media/0303-194-toolboxchildnodefocused.png "0303-194_ToolboxChildNodeFocused")
+ ![도구 상자 자식 노드 초점을 맞춘](../../extensibility/ux-guidelines/media/0303-194-toolboxchildnodefocused.png "0303 194_ToolboxChildNodeFocused")
 
  **포커스가 있는 자식 노드**
 
@@ -4185,11 +4185,11 @@ Visual Studio 환경의 배경과 일치시키려는 위치
 
  [Tree view](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_TreeView) 범주
 
- ![Toolbox parent node unfocused](../../extensibility/ux-guidelines/media/0303-195-toolboxparentnodeunfocused.png "0303-195_ToolboxParentNodeUnfocused")
+ ![포커스가 없는 도구 상자 부모 노드](../../extensibility/ux-guidelines/media/0303-195-toolboxparentnodeunfocused.png "0303 195_ToolboxParentNodeUnfocused")
 
  **포커스가 없는 부모 노드**
 
- ![Toolbox child node unfocused](../../extensibility/ux-guidelines/media/0303-196-toolboxchildnodeunfocused.png "0303-196_ToolboxChildNodeUnfocused")
+ ![포커스가 없는 도구 상자 자식 노드](../../extensibility/ux-guidelines/media/0303-196-toolboxchildnodeunfocused.png "0303 196_ToolboxChildNodeUnfocused")
 
  **포커스가 없는 자식 노드**
 
