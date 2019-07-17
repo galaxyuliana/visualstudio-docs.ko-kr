@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 053647d48324f056148375bae9268b997ba8721f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68145699"
 ---
 # <a name="vsgdbg-class"></a>VsgDbg 클래스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ class VsgDbg;
   
 ### <a name="public-methods"></a>Public 메서드  
   
-|이름|설명|  
+|이름|Description|  
 |----------|-----------------|  
 |[AddMessage](../debugger/addmessage.md)|그래픽 진단 HUD(Head-Up Display)에 사용자 지정 메시지를 추가합니다.|  
 |[BeginCapture](../debugger/begincapture.md)|로 끝나는 캡처 간격 시작 `EndCapture`합니다.|  

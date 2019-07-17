@@ -9,11 +9,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 257c5944ee1939849c4163fef518abf513183998
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68177026"
 ---
 # <a name="colors-and-styling-for-visual-studio"></a>색 및 Visual Studio에 대 한 스타일 지정
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -160,7 +160,7 @@ Dim myColor As Color = ColorTranslator.FromWin32((Integer)win32Color)
 #### <a name="helper-classes-and-methods-for-managed-code"></a>관리 코드에 대 한 메서드와 도우미 클래스
  관리 코드에 대해 셸의 관리 패키지 프레임 워크 라이브러리 (Microsoft.VisualStudio.Shell.12.0.dll) 몇 가지 테마가 지정 된 색의 사용을 촉진 하는 도우미 클래스를 포함 합니다.
 
- 도우미 메서드를 **Microsoft.VisualStudio.Shell.VsColors** MPF 클래스 포함 **GetThemedGDIColor()** 하 고 **GetThemedWPFColor()**. 이러한 도우미 메서드는 System.Drawing.Color 또는 System.Windows.Media.Color, WinForms 또는 WPF UI에서 사용할 테마 항목의 색 값을 반환 합니다.
+ 도우미 메서드를 **Microsoft.VisualStudio.Shell.VsColors** MPF 클래스 포함 **GetThemedGDIColor()** 하 고 **GetThemedWPFColor()** . 이러한 도우미 메서드는 System.Drawing.Color 또는 System.Windows.Media.Color, WinForms 또는 WPF UI에서 사용할 테마 항목의 색 값을 반환 합니다.
 
 ```
 IVsUIShell5 shell5;
@@ -311,7 +311,7 @@ protected override void Dispose(bool disposing)
 |ControlLightLight|-선택한 포커스가 있는 provisional 테두리|
 |ControlText|-콤보 상자 및 드롭다운 목록 문자 모양<br />도구 창 선택 하지 않은 탭 텍스트|
 |GrayText|-테두리, 드롭다운 문자 모양, 텍스트 및 메뉴 항목 텍스트 콤보 상자 및 드롭다운 목록을 사용 안 함<br />-비활성화 된 메뉴 텍스트<br />검색 컨트롤 '검색 옵션' 헤더 텍스트<br />검색 컨트롤 섹션 구분 기호|
-|하이라이트|-All 놓고 배경, 테두리, 콤보 상자 드롭다운을 제외 하 고 누른 단추 배경 및 문서도 오버플로 단추 테두리<br />-선택한 항목 배경|
+|Highlight|-All 놓고 배경, 테두리, 콤보 상자 드롭다운을 제외 하 고 누른 단추 배경 및 문서도 오버플로 단추 테두리<br />-선택한 항목 배경|
 |HighlightText|-모든 가리키기 및 누름된 foregrounds (텍스트 및 문자 모양)<br />-포커스가 있는 도구 창과 문서 탭 창 컨트롤 전경<br />-포커스가 있는 도구 창 제목 표시줄 테두리<br />--임시 탭 포커스가 있는, 선택한 전경<br />Hover에 키를 눌러 문서 잘 오버플로 단추 테두리<br />-선택한 아이콘 테두리|
 |HotTrack|-Scrollbar의 thumb 배경 및 테두리 누를<br />-누를 스크롤 막대 화살표 문자 모양|
 |InactiveCaption|-비활성 IDE 및 rafted 창 단추 문자 모양 가리키기<br />IDE 및 rafted windows에 대 한 제목 표시줄 배경<br />-컨트롤 배경에 검색 사용 안 함된|
@@ -348,10 +348,10 @@ protected override void Dispose(bool disposing)
 
  두 값을 사용 하 여 레지스트리를 채웁니다.
 
-|이름|형식|데이터|설명|
+|이름|형식|보기|설명|
 |----------|----------|----------|-----------------|
 |범주|REG_SZ|GUID|범주를 식별 하는 GUID 생성|
-|Package|REG_SZ|GUID|범주를 지 원하는 VSPackage 서비스의 GUID|
+|패키지|REG_SZ|GUID|범주를 지 원하는 VSPackage 서비스의 GUID|
 
  레지스트리에 지정 된 서비스의 구현을 제공 해야 합니다 [IVsFontAndColorDefaults](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolordefaults.aspx) 해당 범주에 대 한 합니다.
 
@@ -360,10 +360,10 @@ protected override void Dispose(bool disposing)
 
  두 값을 사용 하 여 레지스트리를 채웁니다.
 
-|이름|형식|데이터|설명|
+|이름|형식|보기|설명|
 |----------|----------|----------|-----------------|
 |범주|REG_SZ|GUID|범주를 식별 하는 GUID 생성|
-|Package|REG_SZ|GUID|범주를 지 원하는 VSPackage 서비스의 GUID|
+|패키지|REG_SZ|GUID|범주를 지 원하는 VSPackage 서비스의 GUID|
 
  레지스트리에 지정 된 서비스의 구현을 제공 해야 합니다 **T:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup** 해당 그룹에 대 한 합니다.
 
@@ -406,7 +406,7 @@ protected override void Dispose(bool disposing)
 
 - **IDE에서 생성 된 이벤트를 처리할** 를 구현 하 여 합니다 [IVsFontAndColorEvents](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorevents.aspx) 인터페이스입니다. IDE 글꼴 및 색 페이지의 사용자 수정 다음 적절 한 메서드를 호출 합니다. 예를 들어 호출을 [OnFontChanged](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorevents.onfontchanged.aspx) 새 글꼴을 선택 하는 경우 메서드.
 
-  **또는**
+  **OR**
 
 - **변경 내용에 대 한 IDE를 폴링할**합니다. 시스템이 구현 통해 수행할 수 있습니다 [IVsFontAndColorStorage](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.aspx) 인터페이스입니다. 하지만 주로 지원용 지 속성을 [GetItem](https://msdn.microsoft.com/library/microsoft.visualstudio.shell.interop.ivsfontandcolorstorage.getitem.aspx) 메서드 표시 항목에 대 한 글꼴 및 색 정보를 가져올 수 있습니다. 글꼴 및 색 설정에 대 한 자세한 내용은 MSDN 문서를 참조 하세요 [에 액세스 하는 저장 된 글꼴 및 색 설정](https://msdn.microsoft.com/library/bb166382.aspx)합니다.
 

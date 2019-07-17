@@ -13,11 +13,11 @@ caps.latest.revision: 20
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 423df66e8bd6bc1257a32236aa4ffbb28b80d655
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68152748"
 ---
 # <a name="expression-evaluator"></a>식 계산기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,5 +42,5 @@ ms.locfileid: "58981044"
 ## <a name="implementation-notes"></a>구현 참고 사항  
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 공용 언어 런타임 (CLR) 인터페이스를 사용 하 여 식 계산기를 사용 하 여 이야기 하고자 하는 디버그 엔진입니다. 결과적으로, 식 계산기를 함께 작동 하는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] 디버그 엔진에서 CLR를 지원 해야 합니다 (모든 CLR 디버깅 인터페이스의 전체 목록은 일부인 debugref.doc에서 찾을 수 있습니다의 [!INCLUDE[winsdklong](../../includes/winsdklong-md.md)]).  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버거 구성 요소](../../extensibility/debugger/debugger-components.md)

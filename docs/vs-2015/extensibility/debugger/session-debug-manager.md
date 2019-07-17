@@ -16,11 +16,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 9fd7c7555c19f850a15161f6fba00b1184621a9e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157832"
 ---
 # <a name="session-debug-manager"></a>세션 디버그 관리자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "58985153"
   
  현재 프로세스, 스레드 또는 스택 프레임은 SDM 추적 하지 않습니다. 프로세스, 프로그램 및 스레드 정보는 특정 디버깅 이벤트와 함께에서 SDM로 전송 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버그 엔진](../../extensibility/debugger/debug-engine.md)   
  [디버거 구성 요소](../../extensibility/debugger/debugger-components.md)   
  [디버거 컨텍스트](../../extensibility/debugger/debugger-contexts.md)

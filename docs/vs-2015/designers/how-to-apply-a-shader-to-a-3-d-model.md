@@ -10,13 +10,13 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: a55c1e71242e59c04066c09efa2375c4bafc485b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68156336"
 ---
-# <a name="how-to-apply-a-shader-to-a-3-d-model"></a>방법: 3 차원 모델에 셰이더 적용
+# <a name="how-to-apply-a-shader-to-a-3-d-model"></a>방법: 3D 모델에 셰이더 적용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 문서에서는 모델 편집기를 사용하여 DGSL(Directed Graph Shader Language) 셰이더를 3D 모델에 적용하는 방법을 보여 줍니다.  
@@ -40,7 +40,7 @@ ms.locfileid: "60094779"
   
    ![기본 색 효과를 보여 주는 3D 장면](../designers/media/digit-3d-model-effect.png "Digit-3D-Model-Effect")  
   
-   모델에 셰이더를 적용한 후 모델을 선택하고 **속성** 창에 있는 **효과** 속성 그룹의 **(고급)** 속성에서 말줄임표(**...**) 단추를 선택하여 셰이더 디자이너에서 모델을 열 수 있습니다.  
+   모델에 셰이더를 적용한 후 모델을 선택하고 **속성** 창에 있는 **효과** 속성 그룹의 **(고급)** 속성에서 말줄임표( **...** ) 단추를 선택하여 셰이더 디자이너에서 모델을 열 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 기본 3d 모델 만들기](../designers/how-to-create-a-basic-3-d-model.md)   

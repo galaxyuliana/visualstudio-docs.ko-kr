@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: beeed84db240ecf57ca18dd9aef08622f14b06fc
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59659681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68161348"
 ---
 # <a name="special-characters-to-escape"></a>이스케이프할 특수 문자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "59659681"
   
  이스케이프할 수 있는 특수 문자의 전체 목록은 다음과 같습니다.  
   
-|문자|설명|  
+|문자|Description|  
 |---------------|-----------------|  
 |%|메타데이터를 참조하는 데 사용되는 퍼센트 기호입니다.|  
 |$|속성을 참조하는 데 사용되는 달러 기호입니다.|  

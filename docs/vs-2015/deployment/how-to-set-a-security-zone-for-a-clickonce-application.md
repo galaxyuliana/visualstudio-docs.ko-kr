@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 9af4507d7ccd604f82aae675bf87d36c0b039b26
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68171424"
 ---
 # <a name="how-to-set-a-security-zone-for-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 보안 영역 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ClickOnce 애플리케이션에 대한 코드 액세스 보안 권한을 설정�
   
 5. **설치할 응용 프로그램을 가져올 영역** 드롭다운 목록에서 보안 영역을 선택합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [방법: ClickOnce 응용 프로그램에 대 한 사용자 지정 권한 설정](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)   
  [ClickOnce 응용 프로그램 보안](../deployment/securing-clickonce-applications.md)   
  [ClickOnce 응용 프로그램의 코드 액세스 보안](../deployment/code-access-security-for-clickonce-applications.md)   

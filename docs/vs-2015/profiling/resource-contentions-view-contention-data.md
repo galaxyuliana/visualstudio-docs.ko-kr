@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c6a7d4d1e80323b4d260ac558661c222f72ec3c1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68149274"
 ---
 # <a name="resource-contentions-view---contention-data"></a>리소스 경합 뷰 - 경합 데이터
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "60108713"
 |**차단된 포괄 시간 비율(%)**|-   리소스의 경우 프로파일링 데이터의 모든 차단된 시간 중 이 리소스의 차단된 시간 백분율입니다.<br />-   함수의 경우 프로파일링 실행의 모든 차단된 시간 중 이러한 함수 인스턴스의 차단된 포괄 시간 백분율입니다.|  
 |**포괄 경합**|-   리소스의 경우 리소스 액세스가 차단되어 스레드가 대기해야 했던 총 횟수입니다.<br />-   함수의 경우 프로파일링 실행의 모든 경합 이벤트 중 부모 리소스에 대한 이 함수 인스턴스의 포괄 경합 이벤트 백분율입니다.|  
 |**포괄 경합 비율(%)**|-   리소스의 경우 프로파일링 실행의 모든 경합 이벤트 중 이 리소스 액세스에 대한 경합 이벤트의 백분율입니다.<br />-   함수의 경우 함수가 함수 본문의 코드를 실행할 때 이러한 함수 인스턴스의 부모 리소스 액세스가 차단되었던 횟수입니다. 해당 함수가 호출한 함수의 차단 이벤트는 포함되지 않습니다.|  
-|**수준**|호출 트리에서 이 함수의 수준입니다. [VSPerfReport](../profiling/vsperfreport.md) 명령줄 보고서에서만 사용됩니다.|  
+|**Level**|호출 트리에서 이 함수의 수준입니다. [VSPerfReport](../profiling/vsperfreport.md) 명령줄 보고서에만 해당합니다.|  
 |**함수 줄 번호**|소스 파일에서 이 함수가 시작되는 줄 번호입니다.|  
 |**모듈 이름**|함수가 포함된 모듈의 이름입니다.|  
 |**모듈 경로**|함수가 포함된 모듈의 경로입니다.|  

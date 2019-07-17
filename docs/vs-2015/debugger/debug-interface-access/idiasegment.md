@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: fe9586797c334afb60f60311963dc2df72fdad5a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68151730"
 ---
 # <a name="idiasegment"></a>IDiaSegment
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDiaSegment : IUnknown
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDiaSegment`합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[IDiaSegment::get_frame](../../debugger/debug-interface-access/idiasegment-get-frame.md)|세그먼트 수를 검색합니다.|  
 |[IDiaSegment::get_offset](../../debugger/debug-interface-access/idiasegment-get-offset.md)|섹션 시작 되는 세그먼트의 오프셋을 검색 합니다.|  

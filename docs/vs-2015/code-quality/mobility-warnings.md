@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: e67be4e501cb2d0dd9d584250fcea91af13fe657
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201248"
 ---
 # <a name="mobility-warnings"></a>이동성 경고
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "58983183"
   
 ## <a name="in-this-section"></a>섹션 내용  
   
-|규칙|설명|  
+|규칙|Description|  
 |----------|-----------------|  
 |[CA1600: 유휴 프로세스 우선 순위를 사용 하지 마세요](../code-quality/ca1600-do-not-use-idle-process-priority.md)|프로세스 우선 순위를 유휴 상태로 설정하지 마십시오. System.Diagnostics.ProcessPriorityClass.Idle인 프로세스는 어떠한 이유로든 유휴 상태가 될 경우 CPU를 차지하므로 블록이 대기 모드가 됩니다.|  
 |[CA1601: 전원 상태 변경을 방해 하는 타이머를 사용 하지 마십시오](../code-quality/ca1601-do-not-use-timers-that-prevent-power-state-changes.md)|정기적인 작업의 실행 빈도가 높아지면 CPU 사용률도 높아져 디스플레이 및 하드 디스크를 끄는 절전 유휴 타이머에 방해가 됩니다.|

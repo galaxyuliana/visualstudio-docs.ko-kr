@@ -17,11 +17,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 466b04d87c9493c2c73677a0b96245211157e896
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68164288"
 ---
 # <a name="enumerations-and-structures"></a>열거형 및 구조체
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -84,5 +84,5 @@ ms.locfileid: "58985129"
  [상수(디버그 인터페이스 액세스 SDK)](../../debugger/debug-interface-access/constants-debug-interface-access-sdk.md)  
  DIA SDK에서 사용할 수 있는 상수를 지정 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [참조](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)

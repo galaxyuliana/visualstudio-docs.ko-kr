@@ -12,11 +12,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 75d96098e8444aac9a4fc6f895099435b54f640b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68180321"
 ---
 # <a name="keybinding-element"></a>KeyBinding 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,28 +36,28 @@ KeyBinding 요소는 명령에 대 한 바로 가기 키를 지정합니다.
   
 ### <a name="attributes"></a>특성  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |guid|필수 요소.|  
-|ID|필수 요소.|  
+|id|필수 요소.|  
 |편집기|필수 요소. 편집기 GUID는이 바로 가기 키를 활성화 될 편집 컨텍스트를 나타냅니다. 전역 바인딩 범위 값은 "guidVSStd97"입니다.|  
 |key1|필수 요소. 유효한 값에는 모든 입력할 수, 영숫자와 두 자리 16 진수 값 0 x 및 VK_constants 앞에 포함 됩니다.|  
 |mod1|선택 사항입니다. 조합을 CTRL, ALT 및 SHIFT 공백으로 구분 합니다.|  
 |key2|선택 사항입니다. 유효한 값에는 모든 입력할 수, 영숫자와 두 자리 16 진수 값 0 x 및 VK_constants 앞에 포함 됩니다.|  
 |mod2|선택 사항입니다. 조합을 CTRL, ALT 및 SHIFT 공백으로 구분 합니다.|  
-|에뮬레이터|선택 사항입니다.|  
+|emulator|선택 사항입니다.|  
 |조건|선택 사항입니다. 참조 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|  
   
 ### <a name="child-elements"></a>자식 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |부모||  
-|주석||  
+|Annotation||  
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[KeyBindings 요소](../extensibility/keybindings-element.md)|KeyBinding 요소 그룹 및 다른 KeyBindings 그룹화 합니다.|  
   
@@ -72,6 +72,6 @@ KeyBinding 요소는 명령에 대 한 바로 가기 키를 지정합니다.
 </KeyBindings>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [KeyBindings 요소](../extensibility/keybindings-element.md)   
  [Visual Studio 명령 테이블(.Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

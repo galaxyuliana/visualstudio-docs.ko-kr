@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 9a1fd9dda0e61da4353df7f3fc222df988d022c1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68152073"
 ---
 # <a name="idialinenumbergetlength"></a>IDiaLineNumber::get_length
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,5 +43,5 @@ HRESULT get_length ( 
 ## <a name="remarks"></a>설명  
  블록의 길이가 소스 코드 줄에 의해 표시 된 대로 합니다 [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) 개체입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

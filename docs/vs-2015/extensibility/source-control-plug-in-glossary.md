@@ -12,11 +12,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f5120a5c6678cac32ef65e08ef7dc34649364cf9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160601"
 ---
 # <a name="source-control-plug-in-glossary"></a>소스 제어 플러그 인 용어집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "58982645"
  클라이언트  
  소스 코드 제어 시스템을 사용 하는 프로그램입니다. 이 문서에서는 Visual Studio IDE는 것입니다.  
   
- 주석  
+ 설명  
  소스 제어 작업을 수행할 때 사용자 수정 버전을 연결할 수 있는 변경 내용을 설명 하는 메시지입니다.  
   
  충돌  
@@ -54,7 +54,7 @@ ms.locfileid: "58982645"
  병합  
  프로세스 중 두 개 이상의 소스 코드 파일 결합 되어 이전 파일에서 모든 기능을 통합 하는 새 파일입니다. 이 개념은 여기서 두 개 이상의 개발자가 작업 파일에 동시에 버전 제어에서 중요 합니다.  
   
- 프로젝트  
+ Project  
  소스 제어 폴더는 프로젝트 라고도 합니다. Visual Studio에서 프로젝트 또는 솔루션을 사용 하 여 관계가 없습니다.  
   
  플러그 인  

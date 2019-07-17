@@ -18,13 +18,13 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 4c785c419ead31ad90e2b20ae7f48af778598bb6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60042768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68176564"
 ---
-# <a name="how-to-specify-a-net-framework-version-for-debugging"></a>방법: 디버깅을 위한.NET Framework 버전 지정
+# <a name="how-to-specify-a-net-framework-version-for-debugging"></a>방법: 디버깅을 위한 .NET Framework 버전 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 디버거는 현재 버전을 비롯하여 이전 버전의 Microsoft [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 디버깅을 지원합니다. Visual Studio에서 애플리케이션을 시작하는 경우 디버거는 디버깅하려는 애플리케이션에 대한 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전을 항상 올바르게 식별할 수 있습니다. 응용 프로그램이 이미 실행 되 고 사용 하는 경우 **연결할**, 디버거 항상 못할의 이전 버전을 식별 하는 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]합니다. 이러한 문제가 발생하면 다음과 같은 오류 메시지가 표시됩니다.  

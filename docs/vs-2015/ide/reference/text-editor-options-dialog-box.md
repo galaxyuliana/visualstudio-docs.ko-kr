@@ -22,11 +22,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 82c314870acfa3cbb836a7570d62a6f0c5ac8884
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163232"
 ---
 # <a name="text-editor-options-dialog-box"></a>텍스트 편집기 옵션 대화 상자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

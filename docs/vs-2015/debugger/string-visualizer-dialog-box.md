@@ -25,17 +25,17 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 244c5e22fadaa17cb107dc2e733870fafe14477e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68164094"
 ---
 # <a name="string-visualizer-dialog-box"></a>문자열 시각화 도우미 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 대화 상자는 Visual Studio 디버거에 포함된 표준 시각화 도우미 중 하나입니다. 문자열 시각화 도우미에서는 일반 텍스트 이외에 HTML 및 XML 문자열을 확인할 수 있으므로 결과를 의미 있는 형식으로 볼 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버거 보안](../debugger/debugger-security.md)   
  [Create Custom Visualizers of Data](../debugger/create-custom-visualizers-of-data.md)(데이터의 사용자 지정 시각화 도우미 만들기)

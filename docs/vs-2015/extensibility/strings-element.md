@@ -12,11 +12,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 0eae2fd7490269d713beb9950163071dd3ba32f5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160559"
 ---
 # <a name="strings-element"></a>Strings 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ Strings 요소 있어야 적어도 **ButtonText** 자식 요소입니다. 다른
   
 ### <a name="child-elements"></a>자식 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |ButtonText|이 필드 및 명령 정의에서 5 다음 텍스트 필드를 통해 다양 한 메뉴에 나타나는 텍스트를 지정할 수 있습니다. 기본적으로 `ButtonText` 메뉴 컨트롤러에 필드가 나타납니다. `ButtonText` 다른 텍스트 필드는 비어 있는 경우 또한 필드의 기본값이 됩니다. `ButtonText` 기타 텍스트 필드에 지정 된 경우에 필드를 비워 둘 수 없습니다.|  
 |ToolTipText|`ToolTipText` 필드를 메뉴 항목에 대 한 도구 설명에 표시 되는 텍스트를 지정 합니다.<br /><br /> 경우는 `ToolTipText` 필드가 비어는 `ButtonText` 필드를 사용 합니다.|  
@@ -56,7 +56,7 @@ Strings 요소 있어야 적어도 **ButtonText** 자식 요소입니다. 다른
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Button 요소](../extensibility/button-element.md)|사용자가 상호 작용할 수 있는 요소를 정의 합니다.|  
 |[Menu 요소](../extensibility/menu-element.md)|단일 메뉴 항목을 정의합니다.|  

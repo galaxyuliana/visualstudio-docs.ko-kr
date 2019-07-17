@@ -20,11 +20,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: d11969ecfbe9a7e3fd02ad289b0de95512b0b8f4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68177505"
 ---
 # <a name="debugging-web-applications"></a>웹 응용 프로그램 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ ms.locfileid: "58972169"
  [배포된 웹 애플리케이션 디버그](../debugger/debugging-deployed-web-applications.md)  
  이미 배포된 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 응용 프로그램의 디버깅 방법을 설명합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md) (웹 응용 프로그램 및 스크립트 디버그)  
  [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Basics](../debugger/debugger-basics.md) (디버거 기본 사항)  

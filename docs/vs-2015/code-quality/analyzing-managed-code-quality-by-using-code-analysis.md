@@ -13,16 +13,16 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 5d8740b79b026ade7f3da19aa4a89cacd94df17d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982011"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157129"
 ---
 # <a name="analyzing-managed-code-quality-by-using-code-analysis"></a>코드 분석을 사용하여 관리 코드 품질 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio에서 코드 분석 도구를 사용하면 비보안 데이터 액세스, 사용 위반 및 디자인 문제와 같은 코드에서 잠재적인 문제를 검색할 수 있습니다. 코드 분석은.NET Framework, 네이티브 (C 및 c + +) 및 데이터베이스 응용 프로그램에서 작동합니다. 관리 코드에 대 한 코드 분석 규칙 구성 *규칙 집합* 코딩과 특정 대상으로 하는 합니다.  
+Visual Studio에서 코드 분석 도구를 사용하면 비보안 데이터 액세스, 사용 위반 및 디자인 문제와 같은 코드에서 잠재적인 문제를 검색할 수 있습니다. .NET Framework, 네이티브 분석 작동 코드 (C 및 C++), 및 응용 프로그램 데이터베이스입니다. 관리 코드에 대 한 코드 분석 규칙 구성 *규칙 집합* 코딩과 특정 대상으로 하는 합니다.  
   
 ## <a name="common-tasks"></a>일반 작업  
   

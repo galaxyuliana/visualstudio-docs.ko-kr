@@ -17,11 +17,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 36065120dc636f0004f0e00d8b17a0059a680723
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68161380"
 ---
 # <a name="warning-script-debugging-disabled"></a>경고: 스크립트 디버깅 사용 안 함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,5 +46,5 @@ Internet Explorer에서는 현재 스크립트 디버깅을 사용하지 않습�
   
      그러면 새 설정이 적용됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [방법: 스크립트에 연결](../debugger/how-to-attach-to-script.md)

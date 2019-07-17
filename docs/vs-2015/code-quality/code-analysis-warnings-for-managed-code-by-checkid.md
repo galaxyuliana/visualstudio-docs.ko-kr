@@ -260,11 +260,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 91dcea4d9d16a6e846a66e4a5590dedfdc62b90f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201474"
 ---
 # <a name="code-analysis-warnings-for-managed-code-by-checkid"></a>관리되는 코드에 대한 CheckId별 코드 분석 경고
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -440,7 +440,7 @@ ms.locfileid: "58982859"
 |CA2118|[CA2118: SuppressUnmanagedCodeSecurityAttribute 사용을 검토 합니다.](../code-quality/ca2118-review-suppressunmanagedcodesecurityattribute-usage.md)|SuppressUnmanagedCodeSecurityAttribute는 COM interop 또는 운영 체제 호출을 사용하는 비관리 코드를 실행하는 멤버에 대해 기본 보안 시스템 동작을 변경합니다. 이 특성은 기본적으로 성능 향상을 위해 사용되지만 성능이 향상되는 대신 중대한 보안 위험이 발생합니다.|  
 |CA2119|[CA2119: Private 인터페이스를 만족 하는 메서드를 봉인](../code-quality/ca2119-seal-methods-that-satisfy-private-interfaces.md)|상속할 수 있는 public 형식에서는 internal([!INCLUDE[vbprvb](../includes/vbprvb-md.md)]의 경우 Friend) 인터페이스의 재정의 가능한 메서드 구현을 제공합니다. 이 규칙 위반 문제를 해결하려면 어셈블리 외부에서 메서드가 재정의되지 않도록 합니다.|  
 |CA2120|[CA2120: 보안 serialization 생성자](../code-quality/ca2120-secure-serialization-constructors.md)|이 형식에는 System.Runtime.Serialization.SerializationInfo 개체와 System.Runtime.Serialization.StreamingContext 개체(serialization 생성자 서명)를 사용하는 생성자가 있습니다. 이 생성자는 보안 검사를 통해 보안되지 않지만 형식에 있는 하나 이상의 정규 생성자가 보안됩니다.|  
-|CA2121|[CA2121: 정적 생성자는 private 이어야 합니다.](../code-quality/ca2121-static-constructors-should-be-private.md)|시스템에서는 형식의 첫 번째 인스턴스가 만들어지거나 static 멤버가 참조되기 전에 static 생성자를 호출합니다. static 생성자가 private이 아니면 시스템 이외의 코드에서 이를 호출할 수 있습니다. 이렇게 되면 생성자에서 수행하는 작업에 따라 예기치 않은 동작이 발생할 수 있습니다.|  
+|CA2121|[CA2121: 정적 생성자는 private이어야 합니다.](../code-quality/ca2121-static-constructors-should-be-private.md)|시스템에서는 형식의 첫 번째 인스턴스가 만들어지거나 static 멤버가 참조되기 전에 static 생성자를 호출합니다. static 생성자가 private이 아니면 시스템 이외의 코드에서 이를 호출할 수 있습니다. 이렇게 되면 생성자에서 수행하는 작업에 따라 예기치 않은 동작이 발생할 수 있습니다.|  
 |CA2122|[CA2122: 링크 요청이 있는 메서드를 간접적으로 노출 하지 마십시오](../code-quality/ca2122-do-not-indirectly-expose-methods-with-link-demands.md)|public 또는 protected 멤버에 링크 요청이 있으며 해당 멤버가 보안 검사를 수행하지 않는 멤버에 의해 호출됩니다. 링크 요청은 직접 실행 호출자의 권한만 검사합니다.|  
 |CA2123|[CA2123: 재정의 링크 요청 기본 동일 해야 합니다.](../code-quality/ca2123-override-link-demands-should-be-identical-to-base.md)|이 규칙에서는 메서드를 다른 형식의 인터페이스이거나 가상 메서드인 기본 메서드에 일치시킨 다음 각각에 대해 링크 요청을 비교합니다. 이 규칙이 위반되면 악의적인 호출자가 보안되지 않은 메서드를 호출함으로써 링크 요청을 우회할 수 있습니다.|  
 |CA2124|[CA2124: 취약 한 finally 절 외부 try에](../code-quality/ca2124-wrap-vulnerable-finally-clauses-in-outer-try.md)|public 또는 protected 메서드에 try/finally 블록이 들어 있습니다. finally 블록이 보안 상태를 다시 설정하는 것으로 나타나며 finally 블록에 포함되어 있지 않습니다.|  

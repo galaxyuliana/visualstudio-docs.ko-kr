@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 394c9adf6794ae6e6c547a46e1fe469e0c642ba8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68176684"
 ---
 # <a name="how-to-create-multi-project-templates"></a>방법: 다중 프로젝트 템플릿 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -12,11 +12,11 @@ caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f54dc683aa4287145a27e22d49397241b395f69f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60093308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163687"
 ---
 # <a name="validating-breakpoints-in-a-legacy-language-service"></a>레거시 언어 서비스의 중단점 유효성 검사
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 67c0a3e297f3eebfbf44724e64c4989d9bb979fb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68164351"
 ---
 # <a name="diaaddressmapentry"></a>DiaAddressMapEntry
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ struct DiaAddressMapEntry { 
   
 ## <a name="elements"></a>요소  
  `rva`  
- 1. 이미지의 상대 가상 주소 (RVA)  
+ 1\. 이미지의 상대 가상 주소 (RVA)  
   
  `rvaTo`  
  상대 가상 주소 `rva` 이미지 2.에 매핑된  

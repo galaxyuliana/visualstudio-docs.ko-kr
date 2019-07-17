@@ -10,18 +10,18 @@ author: conceptdev
 ms.author: crdun
 manager: jillfra
 ms.openlocfilehash: 469478f05546a32bb890f759d3d00cb447b54d2b
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68145890"
 ---
 # <a name="programming-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 프로그래밍
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 섹션에서는 Visual Studio Tools for Unity API 사용에 대한 예제를 찾을 수 있습니다.  
   
-## <a name="examples"></a>예제  
+## <a name="examples"></a>예  
  Visual Studio Tools for Unity API를 사용하는 방법을 보여주는 몇 가지 예는 다음과 같습니다.  
   
 ### <a name="customize-project-files-created-by-vstu"></a>VSTU에서 만든 프로젝트 파일 사용자 지정  

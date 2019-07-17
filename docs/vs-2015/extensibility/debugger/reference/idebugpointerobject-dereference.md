@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 40a0e66e5f3cb3a50618a3c8dd4fd5926c34c624
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201003"
 ---
 # <a name="idebugpointerobjectdereference"></a>IDebugPointerObject::Dereference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,5 +53,5 @@ int Dereference(
 ## <a name="remarks"></a>설명  
  기본 형식 또는 클래스 또는 구조체와 같은 보다 복잡 한 형식을 가리키는 개체가 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugPointerObject](../../../extensibility/debugger/reference/idebugpointerobject.md)

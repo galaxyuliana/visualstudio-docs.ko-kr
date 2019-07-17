@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: af191c929b88f1bda76896061359b7315517beb5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68182881"
 ---
 # <a name="extend-layer-diagrams"></a>Extend layer diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -60,7 +60,7 @@ ms.locfileid: "60066080"
   
  [레이어 다이어그램의 확장 문제 해결](../modeling/troubleshoot-extensions-for-layer-diagrams.md)  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [모델링 확장 정의 및 설치](../modeling/define-and-install-a-modeling-extension.md)   
  [레이어 다이어그램: 참조](../modeling/layer-diagrams-reference.md)   
  [레이어 다이어그램: 지침](../modeling/layer-diagrams-guidelines.md)   

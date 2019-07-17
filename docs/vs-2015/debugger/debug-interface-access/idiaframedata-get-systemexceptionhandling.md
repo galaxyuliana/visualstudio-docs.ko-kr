@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: ba6bddf905834f711cfcd5ab9606420e9fbfa6b2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68161441"
 ---
 # <a name="idiaframedatagetsystemexceptionhandling"></a>IDiaFrameData::get_systemExceptionHandling
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ HRESULT get_systemExceptionHandling ( 
 ## <a name="remarks"></a>설명  
  시스템 예외 처리는 일반적으로 구조적된 예외 처리 이라고 합니다.  
   
- C + + 예외 처리에 적용 되는 경우를 확인 하려면 호출을 [idiaframedata:: Get_cplusplusexceptionhandling](../../debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling.md) 메서드.  
+ 확인 하려면 C++ 호출, 예외 처리가 적용 되는 [idiaframedata:: Get_cplusplusexceptionhandling](../../debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling.md) 메서드.  
   
 ## <a name="see-also"></a>참고 항목  
  [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)   
