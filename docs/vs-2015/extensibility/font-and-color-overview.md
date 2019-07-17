@@ -12,11 +12,11 @@ caps.latest.revision: 23
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 0a20cfa2372b1e55652ffcebe6d173cff86140a6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68204353"
 ---
 # <a name="font-and-color-overview"></a>글꼴 및 색 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -79,6 +79,6 @@ ms.locfileid: "58970996"
   
   구문 참조 색 지정에 대 한 자세한 내용은 [레거시 언어 서비스의 구문 색 지정](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [편집기에서 레거시 인터페이스](../extensibility/legacy-interfaces-in-the-editor.md)   
  [레거시 언어 서비스의 구문 색 지정](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)

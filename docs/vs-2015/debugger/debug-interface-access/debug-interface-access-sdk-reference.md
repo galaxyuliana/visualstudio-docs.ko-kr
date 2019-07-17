@@ -16,11 +16,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: dbc7503e5df9ad3482cbf1595ff6b4eec018d5d2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197643"
 ---
 # <a name="debug-interface-access-sdk-reference"></a>디버그 인터페이스 액세스 SDK 참조
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -41,5 +41,5 @@ ms.locfileid: "58982308"
  [기호 및 기호 태그](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)  
  기호 이란 무엇 이며 형식으로 확인 하는 방법을 설명 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버그 인터페이스 액세스 SDK](../../debugger/debug-interface-access/debug-interface-access-sdk.md)

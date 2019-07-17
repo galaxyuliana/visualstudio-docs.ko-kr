@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 8385839ce7029ef0676225fd443582ba750b618b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200389"
 ---
 # <a name="ca1308-normalize-strings-to-uppercase"></a>CA1308: 대문자로 문자열을 정규화하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,5 +44,5 @@ ms.locfileid: "58984611"
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
  결과 (예: UI에 표시 하는 경우)를 기반으로 보안을 결정 하지 않는 경우 경고 메시지를 표시 하지 않으려면 안전 합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
  [전역화 경고](../code-quality/globalization-warnings.md)

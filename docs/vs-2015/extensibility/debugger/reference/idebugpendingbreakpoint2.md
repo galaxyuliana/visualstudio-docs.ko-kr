@@ -13,11 +13,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1238fcbce22db3f3bc3e32019aac886c79d0c114
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201033"
 ---
 # <a name="idebugpendingbreakpoint2"></a>IDebugPendingBreakpoint2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -51,12 +51,12 @@ IDebugPendingBreakpoint2 : IUnknown
 |[SetPassCount](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-setpasscount.md)|설정 하거나 중단점 보류 중인와 연결 된 통과 수를 변경 합니다.|  
 |[EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md)|이 보류 중인 중단점에서 바인딩된 모든 중단점을 열거 합니다.|  
 |[EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md)|이 보류 중인 중단점에서 발생 하는 모든 오류 중단점을 열거 합니다.|  
-|[삭제](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-delete.md)|이 보류 중인 중단점 및에서 바인딩된 모든 중단점을 삭제 합니다.|  
+|[Delete](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-delete.md)|이 보류 중인 중단점 및에서 바인딩된 모든 중단점을 삭제 합니다.|  
   
 ## <a name="remarks"></a>설명  
  `IDebugPendingBreakpoint2` 하나 또는 여러 프로그램에 적용할 수 있는 코드에 중단점을 바인딩할 때 필요한 모든 필요한 정보의 공급자로 생각할 수 있습니다.  
   
- 보류 중인 중단점 둘 이상의 바인딩된 중단점을 생성할 될 수 있습니다. 예를 들어, c + + 스타일 템플릿 중단점은 템플릿의 고유한 각 인스턴스에 대 한 바인딩된 중단점을 발생할 수 있습니다.  
+ 보류 중인 중단점 둘 이상의 바인딩된 중단점을 생성할 될 수 있습니다. 예를 들어, 중단점을 C++-스타일 템플릿을 해당 템플릿에 고유한 각 인스턴스에 대 한 바인딩된 중단점 발생할 수 있습니다.  
   
 ## <a name="requirements"></a>요구 사항  
  헤더: msdbg.h  

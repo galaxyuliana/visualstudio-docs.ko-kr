@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: fb59a99057895859ebb38027f66e33dd5161486d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201260"
 ---
 # <a name="maintainability-warnings"></a>유지 관리 경고
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "58985333"
   
 ## <a name="in-this-section"></a>섹션 내용  
   
-|규칙|설명|  
+|규칙|Description|  
 |----------|-----------------|  
 |[CA1500: 변수 이름은 필드 이름과 일치 하지는](../code-quality/ca1500-variable-names-should-not-match-field-names.md)|인스턴스 메서드는 매개 변수 또는 이름이 오류는 선언 형식의 인스턴스 필드와 지역 변수를 선언 합니다.|  
 |[CA1501: 과도 한 상속을 방지](../code-quality/ca1501-avoid-excessive-inheritance.md)|형식이 상속 계층 구조에서 네 단계보다 아래에 있습니다. 여러 번 중첩된 형식 계층 구조는 추적하고, 이해하고, 유지 관리하기가 어렵습니다.|  

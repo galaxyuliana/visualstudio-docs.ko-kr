@@ -12,11 +12,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 097d666a839f67e657610b34641ed29da91797be
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68193998"
 ---
 # <a name="private-galleries"></a>Private Galleries
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,9 +44,9 @@ ms.locfileid: "60085859"
   
 5. 에 **URL** 필드는 Atom 피드 또는 전용 갤러리를 호스트 하는 SharePoint 사이트의 URL을 입력 합니다.  
   
-    1. 호스트는 Atom 피드 개인 갤러리에 연결 하는 경우 URL이 유사: http://www.mywebsite/mygallery/atom.xml합니다.  이 URL은 파일 또는 네트워크 경로 참조할 수 있습니다.  
+    1. 호스트는 Atom 피드 개인 갤러리에 연결 하는 경우 URL이 유사: http://www.mywebsite/mygallery/atom.xml 합니다.  이 URL은 파일 또는 네트워크 경로 참조할 수 있습니다.  
   
-    2. URL이 유사 호스트 SharePoint 사이트인 경우: http://mysharepoint/sites/mygallery/forms/AllItems.aspx합니다.  
+    2. URL이 유사 호스트 SharePoint 사이트인 경우: http://mysharepoint/sites/mygallery/forms/AllItems.aspx 합니다.  
   
 ### <a name="managing-private-galleries"></a>전용 갤러리 관리  
  관리자로 가능 전용 갤러리 사용 가능한 여러 컴퓨터에 동시에 각 컴퓨터에서 시스템 레지스트리를 수정 하 여 합니다. 이렇게 하려면 새 레지스트리 키와 값을 설명 하는.pkgdef 파일을 만듭니다.  이 파일의 형식은 다음과 같습니다.  
@@ -91,6 +91,6 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
   
 3. 선택한 후 오른쪽 창에서 확장을 선택 합니다 **업데이트** 단추입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Visual Studio 확장명 찾기 및 사용](../ide/finding-and-using-visual-studio-extensions.md)   
  [Visual Studio 확장 전달](../extensibility/shipping-visual-studio-extensions.md)

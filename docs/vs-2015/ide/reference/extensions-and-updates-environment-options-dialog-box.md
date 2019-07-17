@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 16b8d2214d9f81115d183eb1b4e6765dcd33d37e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199346"
 ---
 # <a name="extensions-and-updates-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 확장 및 업데이트
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,5 +35,5 @@ ms.locfileid: "59655104"
 ### <a name="additional-extension-galleries"></a>추가 확장 갤러리  
  고유 확장 갤러리에 대한 지원을 활성화하는 엔터프라이즈 기능입니다. 자세한 내용은 [Private Galleries](../../extensibility/private-galleries.md)를 참조하세요.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)

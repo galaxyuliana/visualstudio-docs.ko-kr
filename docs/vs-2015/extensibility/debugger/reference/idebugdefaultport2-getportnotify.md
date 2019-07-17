@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c0f5b1faf000ef982e38736b3cd3ea89a1dc2dc0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68196277"
 ---
 # <a name="idebugdefaultport2getportnotify"></a>IDebugDefaultPort2::GetPortNotify
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,6 +48,6 @@ int GetPortNotify(
 ## <a name="remarks"></a>설명  
  일반적으로 `QueryInterface` 구현 하는 개체에서 메서드를 호출 합니다 [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) 얻기 위해 인터페이스는 [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) 인터페이스입니다. 그러나 다른 개체에서 원하는 인터페이스를 구현 하는 경우가 있습니다. 이 메서드는 이러한 상황을 숨깁니다를 반환 합니다 `IDebugPortNotify2` 가장 적합 한 개체의 인터페이스입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md)   
  [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md)
