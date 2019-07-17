@@ -15,11 +15,11 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: a3fe0233f08f33535be4b02cc06c29d919d75169
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68180257"
 ---
 # <a name="use-command-line-parameters-to-install-visual-studio"></a>명령줄 매개 변수를 사용하여 Visual Studio 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ Visual Studio에서 최신 설명서를 참조 하세요 [명령줄 매개 변�
 
 Visual Studio 명령줄 매개 변수는 대/소문자를 구분하지 않습니다.
 
-|매개 변수|설명|
+|매개 변수|Description|
 |---------------|-----------------|
 |**/?**<br /><br /> **/help**<br /><br /> **/h**|명령줄 매개 변수를 표시합니다.|
 |**/AddRemoveFeatures**|설치된 제품에서 추가하거나 제거할 기능을 지정합니다.|

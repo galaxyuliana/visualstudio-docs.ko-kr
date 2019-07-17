@@ -1,5 +1,5 @@
 ---
-title: IA64 프로세스에 대해서는 혼합 모드 디버깅을 수행할 수 없습니다. | Microsoft 문서
+title: IA64 프로세스에 대해서는 혼합 모드 디버깅을 수행할 수 없습니다. | Microsoft Docs
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -17,11 +17,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c3cf7308b3302c682f32a2db9837f86cd0173260
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203292"
 ---
 # <a name="mixed-mode-debugging-for-ia64-processes-is-unsupported"></a>IA64 프로세스에 대해서는 혼합 모드 디버깅을 수행할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,5 +52,5 @@ Visual Studio에서는 IA64 프로세스에서 관리 코드와 네이티브 코
   
 2. 속성 페이지에서 **플랫폼**을 클릭하고 플랫폼 목록에서 Win32를 선택합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [64비트 응용 프로그램 디버그](../debugger/debug-64-bit-applications.md)

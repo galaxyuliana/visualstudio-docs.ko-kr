@@ -11,11 +11,11 @@ caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: bd11e57c8e2ec03da1dcfa9ff76b3b3ec2ded5e9
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "59001995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68149312"
 ---
 # <a name="idebugwindowscomputerport2"></a>IDebugWindowsComputerPort2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugWindowsComputerPort2 : IUnknown
 ## <a name="methods"></a>메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugWindowsComputerPort2`합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[GetComputerInfo](../../../extensibility/debugger/reference/idebugwindowscomputerport2-getcomputerinfo.md)|컴퓨터에 대 한 정보를 검색 디버거의 실행 합니다.|  
   

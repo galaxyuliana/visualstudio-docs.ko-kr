@@ -10,11 +10,11 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: b17693523c75dc434fdda258c07a9b17ecfda1b0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54763091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68180245"
 ---
 # <a name="visual-studio-lifecycle-policy-exceptions"></a>Visual Studio 수명 주기 정책 예외
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,4 +49,4 @@ Visual Studio에는 여러 Microsoft 플랫폼에 대한 개발을 가능하게 
 |[Windows 7](http://support.microsoft.com/lifecycle/?c2=14019)|Windows 7 SDK|  
 |[Windows 8](http://support.microsoft.com/lifecycle/?c2=16796)|Windows 8 SDK|  
 |[Windows 8.1](http://support.microsoft.com/lifecycle/search/default.aspx?sort=PN&alpha=windows%208.1&Filter=FilterNO)|Windows 8.1 SDK<br /><br /> JavaScript용 Windows 라이브러리(WinJS)|  
-|[Microsoft Azure](http://support.microsoft.com/gp/azure-cloud-lifecycle-faq)<br /><br /> <br />참고 항목 [온라인 수명 주기 정책](http://support.microsoft.com/gp/OSSLpolicy)|Microsoft Azure 모바일 서비스 SDK<br /><br /> Microsoft Azure 모바일 서비스 도구|
+|[Microsoft Azure](http://support.microsoft.com/gp/azure-cloud-lifecycle-faq)<br /><br /> <br />> 참고 항목: [온라인 수명 주기 정책](http://support.microsoft.com/gp/OSSLpolicy)|Microsoft Azure 모바일 서비스 SDK<br /><br /> Microsoft Azure 모바일 서비스 도구|

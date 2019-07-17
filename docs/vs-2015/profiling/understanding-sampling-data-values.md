@@ -13,11 +13,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 91a4a50ecc745c0b56167d6a5dbb1932af7ed2bf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54752654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68145413"
 ---
 # <a name="understanding-sampling-data-values"></a>샘플링 데이터 값 이해
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +52,6 @@ ms.locfileid: "54752654"
 ## <a name="exclusive-percent"></a>제외(백분율)  
  프로파일링 실행 내 전용 샘플 중 함수 또는 데이터 범위의 전용 샘플 총 수의 백분율입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [방법: 수집 방법 선택](../profiling/how-to-choose-collection-methods.md)   
  [성능 도구 데이터 분석](../profiling/analyzing-performance-tools-data.md)

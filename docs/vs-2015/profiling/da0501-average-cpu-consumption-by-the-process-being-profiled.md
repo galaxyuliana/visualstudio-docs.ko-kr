@@ -1,5 +1,5 @@
 ---
-title: 'DA0501: 프로파일링되고 있는 프로세스의 평균 CPU 사용입니다. | Microsoft 문서'
+title: 'DA0501: 프로파일링되고 있는 프로세스의 평균 CPU 사용입니다. | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1462ac73e599b870f015a02998c069f7613be0ae
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54771956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155770"
 ---
 # <a name="da0501-average-cpu-consumption-by-the-process-being-profiled"></a>DA0501: 프로파일링되고 있는 프로세스의 평균 CPU 사용입니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

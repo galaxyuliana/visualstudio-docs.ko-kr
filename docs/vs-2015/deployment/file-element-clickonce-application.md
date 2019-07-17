@@ -24,11 +24,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 88fce548d5adbd6d4dc930db767fd3e52690490b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148773"
 ---
 # <a name="ltfilegt-element-clickonce-application"></a>&lt;파일&gt; 요소 (ClickOnce 응용 프로그램)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -152,7 +152,7 @@ ms.locfileid: "58984811"
 ## <a name="windowclass"></a>windowClass  
  `windowClass` 의 선택적 자식 요소입니다 합니다 `file` 요소 이지만 경우에 필요할 수 있습니다는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 등록-COM을 사용 하 여 배포 하려는 COM 구성 요소를 포함 하는 응용 프로그램 요소에 적용 되는 버전을 포함 해야 하는 COM 구성 요소에 의해 정의 되는 창 클래스를 가리킵니다. 요소는 다음 특성을 포함 합니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`versioned`|선택 사항입니다. 창 클래스를 포함 하는 어셈블리의 버전을 포함 여부는 내부 창 클래스 등록에 사용 되는 이름을 제어 합니다. 이 특성의 값이 될 수 있습니다 `yes` 또는 `no`합니다. 기본값은 `yes`입니다. 값 `no` side-by-side-구성 요소 및 해당 하는 비--side-by-side 구성 요소를 동일한 창 클래스 정의 되어 있고 동일한 창 클래스 동일 하 게 취급 하려는 경우에 사용 해야 합니다. 창 클래스 등록에 대한 일반적인 규칙이 적용됩니다. 창 클래스에 적용되는 버전이 없기 때문에 창 클래스를 등록하는 첫 번째 구성 요소만 해당 클래스를 등록할 수 있습니다.|  
   
@@ -169,14 +169,14 @@ ms.locfileid: "58984811"
 ## <a name="dsigtransform"></a>dsig:Transform  
  합니다 `dsig:Transform` 의 필수 자식 요소인는 `dsig:Transforms` 요소입니다. `dsig:Transform` 요소에는 다음 특성이 있습니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`Algorithm`|이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 는 `urn:schemas-microsoft-com:HashTransforms.Identity`합니다.|  
   
 ## <a name="dsigdigestmethod"></a>dsig:DigestMethod  
  합니다 `dsig:DigestMethod` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestMethod` 요소에는 다음 특성이 있습니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`Algorithm`|이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 는 `http://www.w3.org/2000/09/xmldsig#sha1`합니다.|  
   
@@ -201,5 +201,5 @@ ms.locfileid: "58984811"
 </file>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [ndptecclick](../deployment/clickonce-application-manifest.md)

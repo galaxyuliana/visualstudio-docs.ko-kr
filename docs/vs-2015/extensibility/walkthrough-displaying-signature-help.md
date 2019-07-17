@@ -11,11 +11,11 @@ caps.latest.revision: 29
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 280b5b517089ad9e5b38cb00dc9b14c68253d1e6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68202041"
 ---
 # <a name="walkthrough-displaying-signature-help"></a>연습: 서명 도움말 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60108167"
   
  이 연습에는 하드 코드 된 일련의 식별자에 대 한 시그니처 도움말을 구현 하는 방법을 보여 줍니다. 전체 구현에서 언어는 해당 콘텐츠를 제공 하는 일을 담당 합니다.  
   
-## <a name="prerequisites"></a>전제 조건  
+## <a name="prerequisites"></a>필수 구성 요소  
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  
   
 ## <a name="creating-a-mef-project"></a>MEF 프로젝트 만들기  

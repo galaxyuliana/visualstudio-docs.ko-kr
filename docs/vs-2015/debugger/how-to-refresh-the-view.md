@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1d0170d11ffaba831fdd68caa7249d0002526414
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60089616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157844"
 ---
 # <a name="how-to-refresh-the-view"></a>방법: 보기 새로 고침
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

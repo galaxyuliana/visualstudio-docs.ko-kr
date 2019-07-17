@@ -21,11 +21,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: df9bc7cdb185edd27d7572c1436db442514d38e4
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58983478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68202559"
 ---
 # <a name="debug-threads-and-processes"></a>스레드 및 프로세스 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ ms.locfileid: "58983478"
 |**병렬 조사식** 창|- 플래그 열: 특히 주의할 스레드를 표시할 수 있습니다.<br />- 프레임 열: 화살표가 선택된 프레임을 나타냅니다.<br />- 머신, 프로세스, 타일, 작업 및 스레드를 표시할 수 있는 구성 가능한 열입니다.|- 스레드 플래그 설정 또는 해제<br />- 플래그가 지정된 스레드만 표시<br />- 프레임 전환<br />- 열 정렬<br />- 스레드 그룹화<br />- 스레드 중지 또는 재개<br />- 병렬 조사식 창에서 데이터 내보내기|  
 |**GPU 스레드** 창|- 플래그 열: 특히 주의할 스레드를 표시할 수 있습니다.<br />-활성 스레드 열에 있는 노란색 화살표는 활성 스레드를 나타냅니다. 화살표는 실행이 중단되고 디버거가 실행된 스레드를 나타냅니다.<br />- **스레드 수** 열: 스레드 수를 동일한 위치에 표시합니다.<br />- **줄** 열: 각 스레드 그룹이 위치한 코드 줄을 표시합니다.<br />- **주소** 열: 각 스레드 그룹이 위치한 명령 주소를 표시합니다.<br />- **위치** 열: 주소 코드에서의 위치입니다.<br />- **상태** 열: 스레드가 활성화되어 있는지 아니면 차단되어 있는지를 표시합니다.<br />- **타일** 열: 행의 스레드에 대한 타일 인덱스를 표시합니다.|-다른 활성 스레드로 변경 합니다.<br />- 특정 타일 및 스레드 표시<br />- 열 표시 또는 숨기기<br />- 열 기준 정렬<br />- 스레드 그룹화<br />- 스레드 중지 또는 재개<br />- 스레드 플래그 설정 또는 해제<br />- 플래그가 지정된 스레드만 표시|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [실행 중인 프로세스에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [다중 스레드 애플리케이션 디버그](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [GPU 코드 디버그](../debugger/debugging-gpu-code.md)

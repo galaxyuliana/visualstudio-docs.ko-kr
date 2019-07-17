@@ -21,11 +21,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 132d1c3fbf23433ea89e7dba39bc226bc253b015
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68205645"
 ---
 # <a name="project-element-msbuild"></a>Project 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ ms.locfileid: "59650826"
 |요소|설명|  
 |-------------|-----------------|  
 |[Choose](../msbuild/choose-element-msbuild.md)|선택적 요소입니다.<br /><br /> 자식 요소를 평가하여 평가할 `ItemGroup` 요소 및/또는 `PropertyGroup` 요소의 집합 하나를 선택합니다.|  
-|[Import](../msbuild/import-element-msbuild.md)|선택적 요소입니다.<br /><br /> 프로젝트 파일이 다른 프로젝트 파일을 가져올 수 있도록 설정합니다. 프로젝트에는 `Import` 요소가 없을 수도 있고 하나 이상 있을 수 있습니다.|  
+|[가져오기](../msbuild/import-element-msbuild.md)|선택적 요소입니다.<br /><br /> 프로젝트 파일이 다른 프로젝트 파일을 가져올 수 있도록 설정합니다. 프로젝트에는 `Import` 요소가 없을 수도 있고 하나 이상 있을 수 있습니다.|  
 |[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|선택적 요소입니다.<br /><br /> 개별 항목에 대한 grouping 요소입니다. [Item](../msbuild/item-element-msbuild.md) 요소를 사용하여 항목을 지정합니다. 프로젝트에는 `ItemGroup` 요소가 없을 수도 있고 하나 이상 있을 수 있습니다.|  
 |[ProjectExtensions](../msbuild/projectextensions-element-msbuild.md)|선택적 요소입니다.<br /><br /> [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일에서 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 이외의 정보를 유지하는 방법을 제공합니다. 프로젝트에는 `ProjectExtensions` 요소가 없을 수도 있고 하나 있을 수 있습니다.|  
 |[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|선택적 요소입니다.<br /><br /> 개별 속성에 대한 grouping 요소입니다. [Property](../msbuild/property-element-msbuild.md) 요소를 사용하여 속성을 지정합니다. 프로젝트에는 `PropertyGroup` 요소가 없을 수도 있고 하나 이상 있을 수 있습니다.|  
@@ -78,7 +78,7 @@ ms.locfileid: "59650826"
 ### <a name="parent-elements"></a>부모 요소  
  없음  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [방법: 먼저 빌드할 대상 지정](../msbuild/how-to-specify-which-target-to-build-first.md)   
  [명령줄 참조](../msbuild/msbuild-command-line-reference.md)   
  [프로젝트 파일 스키마 참조](../msbuild/msbuild-project-file-schema-reference.md)   

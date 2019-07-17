@@ -11,11 +11,11 @@ caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c84ea078f9b7c1268b765111cc400f6e51b783f1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68196992"
 ---
 # <a name="contributing-to-the-automation-model"></a>Contributing to the Automation Model
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ Visual Studio 환경 사용자 지정에 대 한 일련의 자동화 인터페�
  [코드에 대한 자동화 제공](../../extensibility/internals/providing-automation-for-code.md)  
  코드에 대 한 자동화 모델을 만드는 필요 하지 않음을 설명 합니다. 그러나 코드 모델에 대 한 통찰력 있는 정보를 제공 하는이 항목의 링크가 제공 됩니다.  
   
- [방법: Windows에 대 한 자동화 제공](../../extensibility/internals/how-to-provide-automation-for-windows.md)  
+ [방법: Windows에 대한 자동화 제공](../../extensibility/internals/how-to-provide-automation-for-windows.md)  
  창에서 자동화 개체를 사용할 수 있도록 하 고 환경에서 바로 사용할 수 있는 자동화 개체를 이미 제공 하지 않습니다 때마다 자동화를 제공 하는 것이 좋습니다는 있는지 설명 합니다. 도구 창과 문서 창에 대 한 자동화를 설명합니다.  
   
  [자동화 모델 사용](../../extensibility/internals/using-the-automation-model.md)  

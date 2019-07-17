@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 7d7d47746aed2e663eb1fa25e3bb9ca2c6bed2c9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68178333"
 ---
 # <a name="how-to-specify-which-target-to-build-first"></a>방법: 먼저 빌드할 대상 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "60076421"
   
 #### <a name="to-specify-one-initial-target"></a>하나의 초기 대상을 지정합니다.  
   
-- `Project` 요소의 `InitialTargets` 특성에서 기본 대상을 지정합니다. 예를 들어:  
+- `Project` 요소의 `InitialTargets` 특성에서 기본 대상을 지정합니다. 예:  
   
    `<Project InitialTargets="Clean">`  
   
@@ -47,7 +47,7 @@ ms.locfileid: "60076421"
   
 #### <a name="to-specify-one-default-target"></a>하나의 기본 대상을 지정하려면  
   
-- `Project` 요소의 `DefaultTargets` 특성에서 기본 대상을 지정합니다. 예를 들어:  
+- `Project` 요소의 `DefaultTargets` 특성에서 기본 대상을 지정합니다. 예:  
   
    `<Project DefaultTargets="Compile">`  
   

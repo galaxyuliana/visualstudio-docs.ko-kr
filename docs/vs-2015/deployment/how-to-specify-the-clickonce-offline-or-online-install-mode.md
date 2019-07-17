@@ -20,11 +20,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: d4111ca5aee4a405a4a797dbfee14a3d4b50435f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68149746"
 ---
 # <a name="how-to-specify-the-clickonce-offline-or-online-install-mode"></a>방법: ClickOnce 오프라인 또는 온라인 설치 모드 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "60054253"
   
      설치에 응용 프로그램 항목을 추가 합니다 **시작** 메뉴와 **프로그램 추가 / 제거** 제어판에서.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   
  [방법: 게시 마법사를 사용 하 여 ClickOnce 응용 프로그램 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
  [ClickOnce 배포 전략 선택](../deployment/choosing-a-clickonce-deployment-strategy.md)

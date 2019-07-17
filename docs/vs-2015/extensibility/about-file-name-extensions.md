@@ -12,11 +12,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 866a30279ca2c79f4a490a040f76bc3a86c6a6e1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971422"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148028"
 ---
 # <a name="about-file-name-extensions"></a>파일 확장명 정보
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,6 +37,6 @@ HKEY_CLASSES_ROOT\
   
  특정 경우에는 파일 확장명과 연결 된 ProgID는 변경 되어야 합니다. 예를 들어,.htm 파일 확장명에 대 한 ProgID (progid htmlfile =).htm 및.html 파일을 사용 하 여 널리 알려진 및에서 사용 되는 연결 이며 여러 운영 체제에서 위치에에서 하드 코드 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Side-by-side-배포에 대 한 파일 이름 확장명 등록](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)   
  [파일 이름 확장명에 대한 파일 처리기 지정](../extensibility/specifying-file-handlers-for-file-name-extensions.md)

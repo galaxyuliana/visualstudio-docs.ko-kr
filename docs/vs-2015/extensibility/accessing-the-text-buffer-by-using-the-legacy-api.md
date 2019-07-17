@@ -11,13 +11,13 @@ caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f2cfbd84bc4f9298358a2a2d1ba87f76d6e5303c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972244"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184990"
 ---
-# <a name="accessing-the-text-buffer-by-using-the-legacy-api"></a>레거시 API를 사용 하 여 텍스트 버퍼에 액세스
+# <a name="accessing-the-text-buffer-by-using-the-legacy-api"></a>레거시 API를 사용하여 텍스트 버퍼에 액세스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 텍스트는 텍스트 스트림 및 파일 유지 관리 하는 일을 담당 합니다. 버퍼 수를 읽거나 쓰려면 다른 형식이 있지만 버퍼를 사용 하 여 모든 일반 통신 유니코드를 사용 하 여 수행 됩니다. 레거시 Api에서 텍스트 버퍼 1 개 또는 2 차원 좌표 시스템을 하 여 버퍼의 문자 위치를 식별 합니다.  
@@ -39,5 +39,5 @@ ms.locfileid: "58972244"
  [텍스트 관리자를 사용하여 글로벌 설정 모니터링](../extensibility/using-the-text-manager-to-monitor-global-settings.md)  
  전역 설정을 모니터링 하는 텍스트 관리자를 사용 하는 방법에 설명...  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [핵심 편집기 내부](../extensibility/inside-the-core-editor.md)

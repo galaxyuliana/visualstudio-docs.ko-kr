@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: decb17be7caa4ea0a300ddb4378ac0ad11520109
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60098807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68145867"
 ---
 # <a name="create-a-simple-data-application-with-wpf-and-entity-framework-6"></a>WPF 및 Entity Framework 6을 사용하여 간단한 데이터 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -703,5 +703,5 @@ ms.locfileid: "60098807"
   
 3. **F5**키를 누릅니다. 데이터를 표시 하 고 탐색 단추는 예상 대로 작동 해야 합니다. "커밋" 데이터를 입력 한 후 모델에 새 고객 또는 주문과 추가 하려면 클릭 합니다.  "취소"를 저장 하지 않고 새 고객 또는 새 주문을 폼에서 다시 클릭 합니다. 편집 기존 고객과 텍스트 상자에 직접 주문 하 고 해당 변경 내용을 모델에 자동으로 작성 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [.NET 용 visual Studio data tools](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework 설명서](https://msdn.microsoft.com/data/ee712907.aspx)

@@ -25,11 +25,11 @@ author: mikeblome
 ms.author: mblome
 manager: jillfra
 ms.openlocfilehash: df2e75bb3dd01d051d8fed29748e499f8f620128
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157071"
 ---
 # <a name="annotating-structs-and-classes"></a>구조체 및 클래스에 주석 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "60075391"
   
      요소 (바이트)으로 지정 된 읽기 및 쓰기 가능한 크기 지정 된 필드 `size`합니다.  
   
-     구조체 또는 클래스 선언에 적용 됩니다.  가 지정한 바이트 수를 사용 하 여 해당 형식의 유효한 개체를 선언된 된 형식 보다 클 수 있습니다 나타냅니다 `size`합니다.  예를 들어:  
+     구조체 또는 클래스 선언에 적용 됩니다.  가 지정한 바이트 수를 사용 하 여 해당 형식의 유효한 개체를 선언된 된 형식 보다 클 수 있습니다 나타냅니다 `size`합니다.  예:  
   
     ```cpp  
   

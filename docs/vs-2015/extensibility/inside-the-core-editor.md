@@ -11,13 +11,13 @@ caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: cf9bc42aec3aac5acc996487f99c7e1f29ca252c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60083363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203946"
 ---
-# <a name="inside-the-core-editor"></a>핵심 편집기 내에서
+# <a name="inside-the-core-editor"></a>핵심 편집기 내부
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 핵심 편집기가 텍스트 정보를 쿼리하고 수정할 수 있는 여러 구성 요소 집합입니다. 핵심 편집기 기존 API를 사용 하 여 사용자 지정 하면, 편집기 어댑터를 통해 라우팅되는 이러한 사용자 지정을 사용 하 여 계속 수 있습니다. 하지만 좋습니다, 새 편집기 API로 사용자 지정을 적용 하는.  
@@ -46,7 +46,7 @@ ms.locfileid: "60083363"
  [레거시 API의 텍스트 버퍼 이벤트](../extensibility/text-buffer-events-in-the-legacy-api.md)  
  텍스트 버퍼 이벤트 알림에 사용 되는 인터페이스의 목록을 제공 합니다.  
   
- [방법: 레거시 API 사용 하 여 텍스트 버퍼 이벤트에 등록](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)  
+ [방법: 레거시 API를 사용하여 텍스트 버퍼 이벤트에 등록](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)  
  텍스트 버퍼 이벤트를 알리기 위해 하는 방법을 설명 합니다.  
   
  [텍스트 관리자를 사용하여 글로벌 설정 모니터링](../extensibility/using-the-text-manager-to-monitor-global-settings.md)  
@@ -65,7 +65,7 @@ ms.locfileid: "60083363"
  컨트롤 코드 장식 하도록 언어 서비스의 인스턴스화를 설명합니다.  
   
 ## <a name="related-sections"></a>관련 단원  
- [연습: 핵심 편집기 만들기 및 등록 하는 편집기 파일 형식](../extensibility/walkthrough-creating-a-core-editor-and-registering-an-editor-file-type.md)  
+ [연습: 코어 편집기 만들기 및 편집기 파일 형식 등록](../extensibility/walkthrough-creating-a-core-editor-and-registering-an-editor-file-type.md)  
  관리 코드에서 핵심 편집기를 시작 하는 방법에 대 한 단계별 지침을 제공 합니다.  
   
  [드롭다운 표시줄](../extensibility/drop-down-bar.md)  
@@ -74,7 +74,7 @@ ms.locfileid: "60083363"
  [레거시 API에서 텍스트 표식 사용](../extensibility/using-text-markers-with-the-legacy-api.md)  
  텍스트 마커 및 코어 편집기에서 사용 되는 방법의 개념을 설명 하 고 액세스 하 고 텍스트 마커를 관리 하는 데 사용 되는 인터페이스를 나열 합니다.  
   
- [방법: 표준 텍스트 마커를 추가 합니다.](../extensibility/how-to-add-standard-text-markers.md)  
+ [방법: 표준 텍스트 표식 추가](../extensibility/how-to-add-standard-text-markers.md)  
  텍스트 마커를 만드는 방법 및 바로 가기 메뉴를 사용자 지정 명령을 추가 하는 방법에 대 한 단계별 지침을 제공 합니다.  
   
  [방법: 사용자 지정 텍스트 표식 만들기](../extensibility/how-to-create-custom-text-markers.md)  

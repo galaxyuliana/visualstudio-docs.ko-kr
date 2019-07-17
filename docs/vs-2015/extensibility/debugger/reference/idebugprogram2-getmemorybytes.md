@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 6f4c160799a48e7c548425ed18809bbf9cb381ff
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148680"
 ---
 # <a name="idebugprogram2getmemorybytes"></a>IDebugProgram2::GetMemoryBytes
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,6 +48,6 @@ int GetMemoryBytes( 
 ## <a name="remarks"></a>설명  
  에 표시 된 대로 메모리 바이트는 [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) 개체가 메모리에 프로그램이 실행 될 때 할당 된 메모리가 아닌 프로그램의 이미지에 대 한 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)   
  [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md)

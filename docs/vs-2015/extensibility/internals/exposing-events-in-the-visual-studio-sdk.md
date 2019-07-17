@@ -12,11 +12,11 @@ caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 7056497c505bbb355287416e468e411b4e5a2a62
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68196703"
 ---
 # <a name="exposing-events-in-the-visual-studio-sdk"></a>Visual Studio SDK의 이벤트 노출
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -54,9 +54,9 @@ ms.locfileid: "58972113"
   
  "AutomationProjectItemsEvents 개체를 반환 AutomationProjectItemEvents"=""  
   
-|이름|형식|범위|설명|  
+|이름|형식|범위|Description|  
 |----------|----------|-----------|-----------------|  
-|기본 (@)|REG_SZ|사용 되지 않는|사용되지 않습니다. 설명서에 대 한 데이터 필드를 사용할 수 있습니다.|  
+|기본 (@)|REG_SZ|사용 안 함|사용되지 않습니다. 설명서에 대 한 데이터 필드를 사용할 수 있습니다.|  
 |AutomationProjectsEvents|REG_SZ|이벤트 개체의 이름입니다.|키 이름에만 관련이 있습니다. 설명서에 대 한 데이터 필드를 사용할 수 있습니다.<br /><br /> 이 예제에서는 기본 프로젝트 샘플에서 제공 됩니다.|  
 |AutomationProjectItemEvents|REG_SZ|이벤트 개체의 이름|키 이름에만 관련이 있습니다. 설명서에 대 한 데이터 필드를 사용할 수 있습니다.<br /><br /> 이 예제에서는 기본 프로젝트 샘플에서 제공 됩니다.|  
   
@@ -111,6 +111,6 @@ STDMETHODIMP CVsPackage::GetAutomationObject(
   
  이벤트 개체는 같은 중앙 위치에서 검색 된 `DTE.Events` 개체입니다. 이러한 방식으로 모든 이벤트 개체 있도록 그룹화 되어 함께 최종 사용자는 특정 이벤트를 찾으려면 전체 개체 모델을 탐색할 필요가 없습니다. 이 수 있습니다 시스템 전체 이벤트에 대 한 사용자 고유의 코드를 구현 하도록 요구 하는 대신 특정 VSPackage 개체를 제공 합니다. 그러나 최종 사용자에 대 한 사용자를 찾아야에 대 한 이벤트에 `ProjectItem` 인터페이스 명확 하지 않기 즉시 해당 이벤트 개체가 검색 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>   
  [VSSDK 샘플](../../misc/vssdk-samples.md)

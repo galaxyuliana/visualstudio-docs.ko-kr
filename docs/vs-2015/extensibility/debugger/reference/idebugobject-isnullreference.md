@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: cd116b236eb57e2fab638cfaa8412167a6d1180f
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188897"
 ---
 # <a name="idebugobjectisnullreference"></a>IDebugObject::IsNullReference
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,5 +48,5 @@ int IsNullReference(
 ## <a name="remarks"></a>설명  
  Null 참조에 할당 되지 않았습니다 하는 개체 또는 빈 개체를 의미 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

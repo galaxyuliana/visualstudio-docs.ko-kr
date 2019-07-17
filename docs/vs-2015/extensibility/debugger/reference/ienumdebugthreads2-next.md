@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 8553ae1c75bd8b5716182485f0b0dc8d77da14f2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68147726"
 ---
 # <a name="ienumdebugthreads2next"></a>IEnumDebugThreads2::Next
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -55,6 +55,6 @@ int Next(
 ## <a name="return-value"></a>반환 값  
  성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 요소의 요청 된 수보다 적은; 반환 될 수 있으면이 고, 그렇지 오류 코드를 반환 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md)   
  [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md)

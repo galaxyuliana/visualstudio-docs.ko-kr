@@ -13,11 +13,11 @@ caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f23290ebfadd1b6e3d34f808d5ea0ccccbb3c319
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200159"
 ---
 # <a name="scccheckout-function"></a>SccCheckout 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ SCCRTN SccCheckout (
  lpComment  
  [in] 각 체크 아웃 되 고 선택한 파일에 적용할 주석 처리 합니다.  
   
- fOptions  
+ 옵션이  
  [in] 명령 플래그 (참조 [비트는 특정 명령에 사용](../extensibility/bitflags-used-by-specific-commands.md)).  
   
  pvOptions  
@@ -63,7 +63,7 @@ SCCRTN SccCheckout (
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|체크 아웃 했습니다.|  
 |SCC_E_FILENOTCONTROLLED|선택한 파일이 소스 코드 제어 없습니다.|  

@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 54e2e44650179cafb4fd4cc9169ac27810bbdf91
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54804821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68183340"
 ---
 # <a name="customizing-the-editor"></a>편집기 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "54804821"
 ## <a name="in-this-section"></a>섹션 내용  
  다음 항목에서는 텍스트 및 코드 편집기의 모양 및 동작을 조정하는 방법을 설명합니다.  
   
- [방법: 편집기에서 텍스트의 대/소문자 변경](../ide/how-to-change-text-case-in-the-editor.md)  
+ [방법: 편집기에서 텍스트 대/소문자 변경](../ide/how-to-change-text-case-in-the-editor.md)  
  코드에서 텍스트의 대/소문자를 변경하는 방법을 설명합니다.  
   
  [방법: 편집기 창 관리](../ide/how-to-manage-editor-windows.md)  

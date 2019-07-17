@@ -20,13 +20,13 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: cd3cbbcd740c0f124b8ab4379204a9d425cd541c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60039546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68205397"
 ---
-# <a name="how-to-debug-web-applications"></a>방법: 웹 응용 프로그램 디버그
+# <a name="how-to-debug-web-applications"></a>방법: 웹 애플리케이션 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 응용 프로그램을 개발 하기 위한 기본 기술 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]합니다. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 디버거에서는 로컬 컴퓨터 또는 원격 서버에서 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 응용 프로그램을 디버깅하는 강력한 도구를 제공합니다. 이 항목에서는 디버그 하는 방법을 설명를 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 프로젝트 개발 중입니다. 디버깅 하는 방법에 대 한 자세한를 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 웹 프로덕션 서버에 이미 배포 된 응용 프로그램을 참조 하십시오 [배포 된 웹 응용 프로그램 디버깅](../debugger/debugging-deployed-web-applications.md)합니다.  

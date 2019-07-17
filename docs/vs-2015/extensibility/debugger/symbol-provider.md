@@ -12,11 +12,11 @@ caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 6af1af9d2e178241fa8a5957e18c1a5333fa4b09
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68178896"
 ---
 # <a name="symbol-provider"></a>기호 공급자
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,5 +30,5 @@ ms.locfileid: "58985617"
   
  에 SP, 사용자 지정 디버그 엔진에만 수행 하는 경우에 디버그 엔진의 요구에 따라 하다 면 SP를 구현할 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버거 구성 요소](../../extensibility/debugger/debugger-components.md)

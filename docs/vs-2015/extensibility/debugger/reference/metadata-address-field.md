@@ -13,11 +13,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 8c3f3697473a20a2f62f4209a0bdbae89c30b8e8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68181158"
 ---
 # <a name="metadataaddressfield"></a>METADATA_ADDRESS_FIELD
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ public struct METADATA_ADDRESS_FIELD {
  tokField  
  ID 필드 토큰입니다.  
   
- [C + +] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.  
+ [C++] `_mdToken` 되는 `typedef` 32 비트 `int`합니다.  
   
 ## <a name="remarks"></a>설명  
  이 구조체의 공용 구조체의 일부인를 [DEBUG_ADDRESS_UNION](../../../extensibility/debugger/reference/debug-address-union.md) 경우 구조체를 `dwKind` 필드를 `DEBUG_ADDRESS_UNION` 구조로 설정 되어 `ADDRESS_KIND_FIELD` (의 값을 [ADDRESS_KIND](../../../extensibility/debugger/reference/address-kind.md) 열거형)입니다.  

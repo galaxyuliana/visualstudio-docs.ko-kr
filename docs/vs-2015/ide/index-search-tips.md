@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 1072d38adac020a1b9976d17f98ddf8882d7cb22
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68178812"
 ---
 # <a name="index-search-tips"></a>색인 검색 팁
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60044215"
 ## <a name="index-search-tips"></a>색인 검색 팁  
  인덱스 사용은 간단한 프로세스이지만 키워드를 가장 잘 입력하는 방법을 이해하면 인덱스 검색을 더 생산적으로 만들 수 있습니다.  
   
-### <a name="general-guidelines"></a>일반 지침  
+### <a name="general-guidelines"></a>일반적인 지침  
   
 - 인덱스 항목을 스크롤합니다. 일부 항목은 동일한 방법으로 인덱싱되지 않으며, 가장 도움이 되는 항목은 목록에서 예상보다 높거나 낮은 곳에 있을 수 있습니다.  
   

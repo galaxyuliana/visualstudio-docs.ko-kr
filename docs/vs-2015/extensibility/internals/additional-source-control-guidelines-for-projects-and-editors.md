@@ -11,11 +11,11 @@ caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 376b297e94cc8e5f429254bdc981aea994b27130
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203840"
 ---
 # <a name="additional-source-control-guidelines-for-projects-and-editors"></a>프로젝트 및 편집기에 대한 추가 소스 제어 지침
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58971405"
 ## <a name="guidelines"></a>지침  
  프로젝트 또는 편집기 소스 제어를 지원 하려면 다음을 수행 해야 합니다.  
   
-|영역|프로젝트|편집기|설명|  
+|영역|Project|편집기|세부 정보|  
 |----------|-------------|------------|-------------|  
 |파일의 개인 복사본|X||환경 개인 파일 복사본을 지원합니다. 즉, 프로젝트에 참여 하는 각 사용자에 해당 프로젝트에서 파일을 자신의 고유한 개인 복사본이 있습니다.|  
 |ANSI/유니코드 지 속성|X|X|지 속성 코드를 작성 하는 경우 대부분의 원본 제어 프로그램에서 유니코드를 현재 지원 하지 않으므로 ANSI 형식으로 파일을 유지 합니다.|  
@@ -35,5 +35,5 @@ ms.locfileid: "58971405"
 |예측 가능한 순서로 개체 및 속성 유지|X|X|병합을 용이 하 게 사전순으로 같은 예측 가능한 순서로 파일을 유지 합니다.|  
 |다시 로드|X|X|디스크에서 파일이 변경 되 면 편집기 다시 로드 수 있어야 합니다. 소스 제어에 참가 하는 경우 환경은 데이터를 다시 로드를 호출 하 여 프로그램 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.ReloadDocData%2A> 구현 합니다. 가장 어려운 다시 로드 경우 체크 아웃 IVsQueryEditQuerySave를 호출 하는 동안 발생 한 경우::<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> 및 정보 처리 됩니다. 그러나 다시 로드 코드는이 상황에서 실행 되도록 있어야 합니다.<br /><br /> 환경에는 프로젝트 파일이 자동으로 다시 로드합니다. 그러나 프로젝트를 구현 해야 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2> 계층을 다시 로드를 지원 하기 위해 중첩 프로젝트 파일에 중첩 된 경우.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [소스 제어 지원](../../extensibility/internals/supporting-source-control.md)

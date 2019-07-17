@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 6fdf426058390aef2a0c8abf2590123572bbc3b1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194602"
 ---
 # <a name="idebugobject2geticordebugvalue"></a>IDebugObject2::GetICorDebugValue
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,5 +48,5 @@ int GetICorDebugValue(
 ## <a name="remarks"></a>설명  
  `ICorDebugValue` 개체 값을 나타내는 공용 언어 런타임 인터페이스입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

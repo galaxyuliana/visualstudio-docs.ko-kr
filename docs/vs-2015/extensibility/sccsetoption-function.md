@@ -13,11 +13,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 7f2660ca99d8704f5dd8e7b9aa66c9c8fc5bdbb6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68143743"
 ---
 # <a name="sccsetoption-function"></a>SccSetOption 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +58,7 @@ SCCRTN SccSetOption(
   
  옵션 및 해당 값의 요약:  
   
-|`nOption`|`dwValue`|설명|  
+|`nOption`|`dwValue`|Description|  
 |---------------|---------------|-----------------|  
 |`SCC_OPT_EVENTQUEUE`|`SCC_OPT_EQ_DISABLE`<br /><br /> `SCC_OPT_EQ_ENABLE`|이벤트 큐 백그라운드 하는 설정 하거나 해제 합니다.|  
 |`SCC_OPT_USERDATA`|임의 값|에 전달할 사용자 값을 지정 합니다 [OPTNAMECHANGEPFN](../extensibility/optnamechangepfn.md) 콜백 함수입니다.|  

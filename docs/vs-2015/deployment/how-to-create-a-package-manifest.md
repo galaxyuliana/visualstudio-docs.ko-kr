@@ -20,11 +20,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c711c50ab484cc88b1d6aff5c8e3018cead69953
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68153831"
 ---
 # <a name="how-to-create-a-package-manifest"></a>방법: 패키지 매니페스트 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -101,5 +101,5 @@ installing this package.</String>
 </Package>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)

@@ -13,11 +13,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 2f631e8639c1004fa2cb005da3b6c8bcb27f1a9b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203403"
 ---
 # <a name="how-to-specify-the-net-framework-runtime"></a>방법: .NET Framework 런타임 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

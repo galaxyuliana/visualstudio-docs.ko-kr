@@ -9,11 +9,11 @@ caps.latest.revision: 5
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 681df08c02813e209738e629495190ad889caf31
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60095804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68202134"
 ---
 # <a name="menus-and-commands-for-visual-studio"></a>Visual Studio의 메뉴 및 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -83,7 +83,7 @@ ms.locfileid: "60095804"
 
 - 보기
 
-- 도구
+- Tools
 
 - 창
 
@@ -91,7 +91,7 @@ ms.locfileid: "60095804"
 
 ##### <a name="project-specific-menus"></a>프로젝트 관련 메뉴가
 
-- 프로젝트
+- Project
 
 - 빌드
 
@@ -101,7 +101,7 @@ ms.locfileid: "60095804"
 
 - 팀
 
-- 데이터
+- 보기
 
 - 테스트
 
@@ -113,7 +113,7 @@ ms.locfileid: "60095804"
 
 - 형식
 
-- 표
+- Table
 
 ##### <a name="when-designing-main-menus-adhere-to-these-rules"></a>기본 메뉴를 디자인할 때 다음이 규칙을 따라야 합니다.
 

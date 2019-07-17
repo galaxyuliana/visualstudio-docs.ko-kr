@@ -14,11 +14,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c499dc44e52fd7f23a6801e8836ffc1915c125f0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68146383"
 ---
 # <a name="idebugmemorycontext2getname"></a>IDebugMemoryContext2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,5 +49,5 @@ int GetName(
 ## <a name="remarks"></a>설명  
  메모리 컨텍스트의 이름은 일반적으로 사용 되지 않습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

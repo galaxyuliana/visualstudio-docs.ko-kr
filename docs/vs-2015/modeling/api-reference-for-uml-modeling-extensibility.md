@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 12eadb9844df5da78b11367708fed715f1c13672
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159679"
 ---
 # <a name="api-reference-for-uml-modeling-extensibility"></a>UML 모델링 확장성을 위한 API 참조
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "58983019"
   
 ## <a name="assemblies"></a>어셈블리  
   
-|Assembly|수행할 수 있는 기능|  
+|어셈블리|수행할 수 있는 기능|  
 |--------------|--------------------------------|  
 |Microsoft.VisualStudio.Uml.Interfaces.dll|-읽기 및 IUseCase, IAssociation 등과 같은 모델 요소를 변경 합니다.<br />-요소 간의 관계를 탐색 합니다.<br /><br /> 네임스페이스 및 형식은 UML 사양에 정의된 것과 일치합니다.|  
 |Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll|-모델 요소의 새 인스턴스 만들기<br />-액세스 하 고 모양 및 다이어그램을 수정 합니다.|  

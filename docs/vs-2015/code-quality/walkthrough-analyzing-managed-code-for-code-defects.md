@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 26d8412318efd2292fd0f5a0f0ef52fe36c7d06c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201142"
 ---
 # <a name="walkthrough-analyzing-managed-code-for-code-defects"></a>연습: 코드 오류에 대한 관리 코드 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "60116292"
   
 - 분석 하 고 코드 오류 경고를 수정 합니다.  
   
-## <a name="prerequisites"></a>전제 조건  
+## <a name="prerequisites"></a>필수 구성 요소  
   
 - [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)].  
   

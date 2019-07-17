@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 98ee448c7e8bd2429f575aeb022a2a12e943bc1b
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68144910"
 ---
 # <a name="how-to-print-class-diagrams-class-designer"></a>방법: 클래스 다이어그램 인쇄(클래스 디자이너)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
