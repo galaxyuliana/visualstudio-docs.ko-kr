@@ -12,16 +12,16 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 54f945dcb9f043c48014921680c95669eee33673
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971322"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "68149848"
 ---
 # <a name="idiasymbolfindsymbolsforacceleratorpointertag"></a>IDiaSymbol::findSymbolsForAcceleratorPointerTag
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-C + + AMP 스텁 함수에서 가속기 포인터 태그의 수를 반환합니다.  
+Accelerator 포인터 태그의 수를 반환 합니다는 C++ AMP 스텁 함수입니다.  
   
 ## <a name="syntax"></a>구문  
   

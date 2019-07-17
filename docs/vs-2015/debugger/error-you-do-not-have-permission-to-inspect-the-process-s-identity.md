@@ -15,11 +15,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: d66eacb1b7f5205ea430d7154f67d05bdd047a74
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080750"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157514"
 ---
 # <a name="error-you-do-not-have-permission-to-inspect-the-process39s-identity"></a>오류: 프로세스를 검사할 수 있는 권한이 없습니다&#39;s identity
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,5 +66,5 @@ ms.locfileid: "60080750"
   
 5. **확인**을 클릭합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [원격 디버깅 오류 및 문제 해결](../debugger/remote-debugging-errors-and-troubleshooting.md)

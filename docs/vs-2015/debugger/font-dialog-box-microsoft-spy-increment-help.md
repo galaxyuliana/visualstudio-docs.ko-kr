@@ -12,18 +12,18 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 41028caa5ef792941f82251cac1d6e5203464240
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159588"
 ---
 # <a name="font-dialog-box-microsoft-spy-help"></a>글꼴 대화 상자(Microsoft Spy++ 도움말)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 대화 상자를 사용 하 여 문자에 사용 된 글꼴을 구성 하는 [Spy + + 뷰](../debugger/spy-increment-views.md) 창입니다. 이 대화 상자를 표시 하려면 확장 합니다 **뷰** 메뉴 선택 **글꼴**합니다.  
   
- 다음 설정은 사용할 수 있습니다.  
+ 다음 설정을 사용할 수 있습니다.  
   
  **글꼴**  
  포커스가 있는 Spy + + 보기 창에 대 한 문자 글꼴입니다.  

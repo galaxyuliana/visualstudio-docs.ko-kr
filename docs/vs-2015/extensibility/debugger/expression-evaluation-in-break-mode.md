@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 362e50e20519c358564d13ba169f706fe384ca5c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68152753"
 ---
 # <a name="expression-evaluation-in-break-mode"></a>중단 모드에서 식 계산
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60116227"
   
 3. ParseText S_OK를 반환 하지 않으면 오류 이유로 반환 됩니다.  
   
-     -otherwise-  
+     -그렇지 않은 경우-  
   
      ParseText에서 S_OK를 반환 하는 경우 SDM 호출할 수 있습니다 하나 [IDebugExpression2::EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) 또는 [IDebugExpression2::EvaluateAsync](../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) 구문 분석 된 식에서 최종 값을 가져오려고 합니다.  
   

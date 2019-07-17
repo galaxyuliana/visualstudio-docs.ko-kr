@@ -24,11 +24,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 54466cc3561c194199bbad2b35cd00433da2b0f3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68149423"
 ---
 # <a name="walkthrough-debugging-at-design-time"></a>연습: 디자인 타임에 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

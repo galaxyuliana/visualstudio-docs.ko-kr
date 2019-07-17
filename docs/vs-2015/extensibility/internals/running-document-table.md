@@ -15,11 +15,11 @@ caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 7ea32df892efa47c91d8292bdc9065080318a059
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60044608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155552"
 ---
 # <a name="running-document-table"></a>문서 테이블 실행
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ IDE에는 실행 중인 문서 테이블 (RDT) 라는 내부 구조에 현재 �
 ## <a name="elements-of-the-running-document-table"></a>실행 중인 문서 테이블의 요소  
  다음 항목을 포함 하는 문서 테이블 실행 합니다.  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |문서 모니커|문서 데이터 개체를 고유 하 게 식별 하는 문자열입니다. 이 절대 파일 경로 (예를 들어 C:\MyProject\MyFile) 파일을 관리 하는 프로젝트 시스템에 대 한 것입니다. 이 문자열 이외의 데이터베이스에 저장된 프로시저와 같은 파일 시스템 저장소에 저장 하는 프로젝트에도 사용 됩니다. 이 경우 프로젝트 시스템에서 인식 하 고 문서를 저장 하는 방법을 결정할 수 있는 구문 분석할 수 있는 고유 문자열로 고안 수 있습니다.|  
 |계층 소유자|에 표시 된 대로 문서를 소유 하는 계층 개체는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 인터페이스입니다.|  
@@ -58,6 +58,6 @@ IDE에는 실행 중인 문서 테이블 (RDT) 라는 내부 구조에 현재 �
   
 - 계층 이나 항목 ID를 사용 하 여 전체 문서 경로에 프로젝트 시스템을 요청 하 고 다음 항목에서에서 조회를 RDT입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [RDT_ReadLock Usage](../../extensibility/internals/rdt-readlock-usage.md)   
  [지속성 및 실행 중인 문서 테이블](../../extensibility/internals/persistence-and-the-running-document-table.md)

@@ -7,11 +7,11 @@ caps.latest.revision: 5
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 5dd39ecfb25b4b21f7a9064da7621bcc77aab791
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192647"
 ---
 # <a name="manifest-to-code"></a>Manifest to Code
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "60076708"
 |/imageIdClass|imageIdClass 및 도구에서 만든 연결 된 파일의 이름입니다. 에 대 한는 C++ 언어 옵션에 파일이 생성 되는.h만 합니다.<br /><br /> 기본값: \<매니페스트 경로 > \MyImageIds 합니다. \<Ext l a n g >|Optional|  
 |/monikerClass|monikerClass 및 도구에서 만든 연결 된 파일의 이름입니다. 에 대 한는 C++ 언어 옵션에 파일이 생성 되는.h만 합니다. VSCT 언어에 대해 무시 됩니다.<br /><br /> 기본값: \<매니페스트 경로 > \MyMonikers 합니다. \<Ext l a n g >|Optional|  
 |/classAccess|파일의 액세스 한정자는 imageIdClass 및는 monikerClass입니다. 액세스 한정자는 해당된 언어에 사용할 수 있는지 확인 합니다. VSCT 언어 옵션에 대해 무시 됩니다.<br /><br /> 기본값: Public|Optional|  
-|/namespace|코드 래퍼에 정의 된 네임 스페이스입니다. VSCT 언어 옵션에 대해 무시 됩니다. Either ‘.’ 또는 ': '가 선택한 언어 옵션에 관계 없이 올바른 네임 스페이스 기호입니다.<br /><br /> 기본값: MyImages|Optional|  
+|/namespace|코드 래퍼에 정의 된 네임 스페이스입니다. VSCT 언어 옵션에 대해 무시 됩니다. 하거나 '.' 또는 ': '가 선택한 언어 옵션에 관계 없이 올바른 네임 스페이스 기호입니다.<br /><br /> 기본값: MyImages|Optional|  
 |/noLogo|인쇄에서 제품 및 저작권 정보를 중지이 플래그를 설정 합니다.|Optional|  
 |/?|도움말 정보를 인쇄 합니다.|Optional|  
 |/help|도움말 정보를 인쇄 합니다.|Optional|  
@@ -46,7 +46,7 @@ ms.locfileid: "60076708"
   
 - ManifestToCode /manifest:D:\MyManifest.imagemanifest                /language:VSCT                /imageIdClass:MyImageIds  
   
-## <a name="notes"></a>노트  
+## <a name="notes"></a>참고  
   
 - 매니페스트 리소스 도구에서 생성 된 이미지 매니페스트를 사용 하 여이 도구를 사용 하는 것이 좋습니다.  
   

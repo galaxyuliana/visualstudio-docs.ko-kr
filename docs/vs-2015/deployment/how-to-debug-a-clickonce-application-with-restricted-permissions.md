@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: d60f88c4d1532a03922f12f21bb9b455ef5d84d8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60105554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68153794"
 ---
 # <a name="how-to-debug-a-clickonce-application-with-restricted-permissions"></a>방법: 제한된 권한으로 ClickOnce 애플리케이션 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

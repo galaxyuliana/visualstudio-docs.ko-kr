@@ -11,11 +11,11 @@ caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: b8ca68aec180c51a170fd6ecce58237a5b306705
-ms.sourcegitcommit: cea6187005f8a0cdf44e866a1534a4cf5356208c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "59002312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194386"
 ---
 # <a name="managing-side-by-side-file-associations"></a>병렬 파일 연결 관리
 
@@ -53,7 +53,7 @@ VSPackage 파일 연결을 제공 하는 경우는 side-by-side-설치를 처리
 
   **Visual Studio의 최신 버전을 결정 하는 CustomAction 테이블 행**
 
-  |작업|형식|소스|대상|
+  |작업|형식|Source|대상|
   |------------|----------|------------|------------|
   |CA_SetDevenvLatest_2002|51|DEVENV_EXE_LATEST|[DEVENV_EXE_2002]|
   |CA_SetDevenvLatest_2003|51|DEVENV_EXE_LATEST|[DEVENV_EXE_2003]|

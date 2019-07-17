@@ -12,11 +12,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 3ffe786b5bc5f6d0bb0233fbb431988e0145611d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155926"
 ---
 # <a name="test-area-6-delete"></a>테스트 영역 6: 삭제
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "60094874"
   
 - 폴더  
   
-- 프로젝트  
+- Project  
   
   프로젝트 형식에 따라 수 있을 **제거할** (디스크의 파일을 리프) 프로젝트 또는 **삭제** 프로젝트 (디스크의 파일을 제거 합니다.). 프로젝트 또는 항목에서 두 동작 모두 제거 **솔루션 탐색기**합니다.  
   
@@ -54,5 +54,5 @@ ms.locfileid: "60094874"
 |파일 시스템 웹 프로젝트를 삭제 합니다.|1.  파일 시스템 웹 프로젝트 (사용 하 여 UNC 경로 지정 하려면 찾아보기 단추를) 만듭니다.<br />2.  소스 제어에 솔루션을 추가 합니다.<br />3.  솔루션에서 전체 프로젝트를 제거 합니다.<br />4.  로컬 웹 프로젝트에 대해 1 ~ 3 단계를 반복 합니다. (코드를 통해 서로 다른 경로 실행 하지만 동일한 외부 인터페이스 및 동작).|일반적인 예상된 동작입니다.|  
 |파일 시스템 웹 프로젝트에서 파일을 삭제 합니다.|1.  파일 시스템 웹 프로젝트를 만듭니다.<br />2.  소스 제어에 솔루션을 추가 합니다.<br />3.  프로젝트에서 파일을 삭제 합니다.<br />4.  로컬 웹 프로젝트에 대해 1 ~ 3 단계를 반복 합니다. (코드를 통해 서로 다른 경로 실행 하지만 동일한 외부 인터페이스 및 동작).|일반적인 예상된 동작입니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [소스 제어 플러그 인에 대한 테스트 가이드](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

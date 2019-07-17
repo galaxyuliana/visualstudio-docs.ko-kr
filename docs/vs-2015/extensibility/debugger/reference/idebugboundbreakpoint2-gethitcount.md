@@ -14,11 +14,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: e373c19e3213e1e39ca610839478cad613ad4454
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68156241"
 ---
 # <a name="idebugboundbreakpoint2gethitcount"></a>IDebugBoundBreakpoint2::GetHitCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -49,6 +49,6 @@ int GetHitCount( 
 ## <a name="remarks"></a>설명  
  적중된 횟수가 세션의 현재 실행 하는 동안이 중단점이 발생 한 횟수입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)   
  [BP_STATE](../../../extensibility/debugger/reference/bp-state.md)

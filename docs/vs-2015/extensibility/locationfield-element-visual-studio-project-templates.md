@@ -13,11 +13,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: b28fe0e696b23724758bd877b6031287290f879e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068784"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194465"
 ---
 # <a name="locationfield-element-visual-studio-project-templates"></a>LocationField 요소(Visual Studio 프로젝트 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60068784"
   
  \<VSTemplate>  
  \<TemplateData>  
- \<LocationField>  
+ \<LocationField >  
   
 ## <a name="syntax"></a>구문  
   

@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: c30b0a190d2a2abfed56004e167f6ee5ef5ecf97
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195391"
 ---
 # <a name="draw-shapes-and-paths"></a>도형 및 패스 그리기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -23,7 +23,7 @@ XAML 디자이너에서 *도형* 은 일반적인 도형이 맞습니다. (예: 
   
  도형 및 패스는 벡터 그래픽을 사용하여 고해상도 디스플레이에 맞게 조정됩니다. 벡터 그래픽에 대해 자세히 알아보려면 [What are Vector Graphics](https://www.youtube.com/watch?v=MoCSwF0n-io) (벡터 그래픽이란) 또는 [vector graphics](http://www.webopedia.com/TERM/V/vector_graphics.html)(벡터 그래픽)를 참조하세요.  
   
- **항목 내용:**  
+ **항목 내용**  
   
 - [도형 그리기](#Shape)  
   

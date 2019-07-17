@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 96bf6bd5277e6683bf793de17e608802c6c01034
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155043"
 ---
 # <a name="ienumdebugports2skip"></a>IEnumDebugPorts2::Skip
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,5 +48,5 @@ int Skip(
 ## <a name="remarks"></a>설명  
  하는 경우 `celt` 수보다 큰 값 끝에 설정 되어 나머지 요소를 열거 및 `S_FALSE` 반환 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)

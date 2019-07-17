@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: a96a5765c98bf8e7d1c600fbd47478a88fa7175d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68154037"
 ---
 # <a name="spy-toolbar"></a>Spy++ 도구 모음
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -27,7 +27,7 @@ ms.locfileid: "58985833"
   
 ## <a name="uielement-list"></a>UI 요소 목록  
   
-|단추|효과|  
+|단추|영향|  
 |------------|------------|  
 |![Spy&#43; &#43; Windows 단추](../debugger/media/icon-spy-windows.gif "Icon_Spy + + (_w)")|시스템에서 windows 및 컨트롤의 트리 뷰를 표시합니다. 자세한 내용은 [Windows 보기](../debugger/windows-view.md)합니다.|  
 |![Spy&#43; &#43; 단추를 처리](../debugger/media/icon-spy-processes.gif "Icon_Spy + + _Processes")|시스템에서 프로세스의 트리 뷰를 표시합니다. 자세한 내용은 [프로세스 뷰](../debugger/processes-view.md)합니다.|  
