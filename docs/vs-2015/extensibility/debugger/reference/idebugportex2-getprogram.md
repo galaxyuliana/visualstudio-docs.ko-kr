@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: b396a5bf106d60c6a0773399069aa57c57072d60
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58986510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188472"
 ---
 # <a name="idebugportex2getprogram"></a>IDebugPortEx2::GetProgram
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ int GetProgram( 
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)   
  [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)   
  [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)

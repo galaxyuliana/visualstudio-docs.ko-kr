@@ -8,12 +8,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: f8e69801797ed40c206f828499efb234a97791cb
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: dd8a133623cdaa266591b7b23cba7fdc57ca284b
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66312669"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67890583"
 ---
 # <a name="walkthrough-create-a-view-adornment-commands-and-settings-column-guides"></a>연습: 보기 장식, 명령 및 설정 (열 안내선) 만들기
 명령 및 효과 보기를 사용 하 여 Visual Studio 텍스트/코드 편집기를 확장할 수 있습니다. 이 문서는 인기 있는 확장 기능을 열 가이드를 사용 하 여 시작 하는 방법을 보여 줍니다. 열 안내선은 특정 열 너비에 코드를 관리할 수 있도록 텍스트 편집기의 보기에 그려지는 시각적으로 밝은 선입니다. 특히, 서식이 지정 된 코드 샘플 문서, 블로그 게시물에서에서 포함 또는 버그 보고서에 대해 중요할 수 있습니다.
@@ -28,7 +28,8 @@ ms.locfileid: "66312669"
 
   이 Visual Studio 갤러리를 사용 하 여 열 안내선 기능의 버전을 사용해 볼 수 있습니다[확장](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines)합니다.
 
-  **참고**: 이 연습에서는 Visual Studio 확장 템플릿에 의해 생성 된 소수의 파일에 상당한을 코드를 붙여넣습니다. 그러나 곧이 연습에서는 참조 하는 다른 확장 프로그램 예제를 사용 하 여 GitHub에서 완성 된 솔루션. 완성 된 코드는 generictemplate 아이콘을 사용 하는 대신 실제 명령 아이콘에는 약간 다릅니다.
+  > [!NOTE]
+  > 이 연습에서는 Visual Studio 확장 템플릿에 의해 생성 된 소수의 파일에 상당한을 코드를 붙여넣습니다. 그러나 곧이 연습에서는 참조 하는 다른 확장 프로그램 예제를 사용 하 여 GitHub에서 완성 된 솔루션. 완성 된 코드는 generictemplate 아이콘을 사용 하는 대신 실제 명령 아이콘에는 약간 다릅니다.
 
 ## <a name="get-started"></a>시작
 Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 되어 있습니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.
@@ -40,7 +41,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 - 사용자 명령에 있는 경우 필요한 VSIP 패키지가 이지만 명령을 구현 개체를 초기화 하는 상용구 코드 뿐입니다.
 - `ColumnGuideCommands` 명령과에 선언 된 명령에 대 한 명령 처리기를 후크 사용자를 실행 하는 개체를 *.vsct* 파일입니다.
 
-  **VSIX**. 사용 하 여 **파일 &#124; 새로 만들기...**  프로젝트를 만드는 명령입니다. 선택 된 **확장성** 노드 아래의 **C#** 왼쪽된 탐색 창에서 선택한 **VSIX 프로젝트** 오른쪽 창에서. 이름을 입력 **ColumnGuides** 선택한 **확인** 프로젝트를 만듭니다.
+  **VSIX**합니다. 사용 하 여 **파일 &#124; 새로 만들기...**  프로젝트를 만드는 명령입니다. 선택 된 **확장성** 노드 아래의 **C#** 왼쪽된 탐색 창에서 선택한 **VSIX 프로젝트** 오른쪽 창에서. 이름을 입력 **ColumnGuides** 선택한 **확인** 프로젝트를 만듭니다.
 
   **Adornment 볼**합니다. 솔루션 탐색기에서 프로젝트 노드의 오른쪽 포인터 단추를 누릅니다. 선택 된 **추가 &#124; 새 항목...**  새 뷰 adornment 항목을 추가 하는 명령입니다. 선택할 **확장성 &#124; 편집기** 왼쪽된 탐색 창에서 선택한 **편집기 뷰포트 Adornment** 오른쪽 창에서. 이름을 입력 **ColumnGuideAdornment** 항목으로 이름을 지정 하 고 선택 **추가** 추가 합니다.
 

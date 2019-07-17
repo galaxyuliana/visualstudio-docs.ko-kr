@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: a18f546cf43ddff7f445ac0aa04a337487de0538
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192142"
 ---
 # <a name="idebugexpressioncontext2"></a>IDebugExpressionContext2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ IDebugExpressionContext2 : IUnknown
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugExpressionContext2`합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[GetName](../../../extensibility/debugger/reference/idebugexpressioncontext2-getname.md)|평가 컨텍스트에의 이름을 검색합니다.|  
 |[ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md)|평가 대 한 텍스트 기반 식을 구문 분석합니다.|  

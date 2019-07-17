@@ -13,11 +13,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 3ae5ecd7568a10936479f72f92e9914132f2dcdf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68190860"
 ---
 # <a name="sccuncheckout-function"></a>SccUncheckout 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ SCCRTN SccUncheckout (
  lpFileNames  
  [in] 체크 아웃을 취소 하려는 파일의 정규화 된 로컬 경로 이름 배열입니다.  
   
- fOptions  
+ 옵션이  
  [in] 명령 플래그 (사용 되지 않음)입니다.  
   
  pvOptions  
@@ -59,7 +59,7 @@ SCCRTN SccUncheckout (
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|체크 아웃을 취소 했습니다.|  
 |SCC_E_FILENOTCONTROLLED|선택한 파일이 소스 코드 제어 없습니다.|  

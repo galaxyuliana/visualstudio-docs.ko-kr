@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 2203e99974e5f232e8c90badef7c28921b971cdb
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68191208"
 ---
 # <a name="ca1504-review-misleading-field-names"></a>CA1504: 잘못된 필드 이름을 검토하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

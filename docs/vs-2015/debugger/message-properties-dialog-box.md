@@ -13,18 +13,18 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 672bc439a91f0b49c1d198ea666789a6fdcab07e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68198164"
 ---
 # <a name="message-properties-dialog-box"></a>메시지 속성 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 대화 상자를 사용 하 여 특정 메시지에 대해 자세히 알아봅니다. 이 대화 상자를 표시 하려면 포커스를 이동 하는 [메시지 보기](../debugger/messages-view.md) 창입니다. 선택한 메시지 노드 트리에서 선택 **속성** 에서 합니다 **보기** 메뉴.  
   
- 합니다 **일반** 탭만 탭이 표시 됩니다. 다음 설정은 사용할 수 있습니다.  
+ 합니다 **일반** 탭만 탭이 표시 됩니다. 다음 설정을 사용할 수 있습니다.  
   
  **창 핸들**  
  이 창에 고유 ID입니다. 창 핸들 번호 다시 사용 됩니다. 해당 창의 기간에만 창을 식별합니다. 이 창의 속성을 보려면이 값을 클릭 합니다.  

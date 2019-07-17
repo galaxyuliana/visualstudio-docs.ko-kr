@@ -18,11 +18,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 63d9dd0844cb3e7422f8d78a0ee2e3cb4e0b1fab
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68196065"
 ---
 # <a name="installing-database-systems-tools-and-samples"></a>데이터베이스 시스템, 도구 및 샘플 설치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ Visual Studio 자체는 내부적으로 사용 하 여 항목을 제외한 모�
   
  SQL 개발에 대 한 Visual Studio에 설치 된 SQL Server Data Tools 했는지를 확인 합니다. 클릭 합니다 **보기** 메뉴. SQL Server 개체 탐색기가 보이지 않으면 제어판으로 이동 하 고 Visual Studio를 변경 합니다. 설치 관리자에서 선택 **Microsoft SQL Server Data Tools**합니다.  
   
- Azure Storage Api를 사용 하는 경우 설치 하 여 Azure storage 에뮬레이터 로컬 컴퓨터에서 개발 하는 동안 프로덕션에 배포할 준비가 될 때까지 요금이 부과 되지 않도록 하기 위해. 자세한 내용은 [개발 및 테스트에 대 한 Azure Storage 에뮬레이터를 사용 하 여](https://azure.microsoft.com/documentation/articles/storage-use-emulator/)입니다.  
+ Azure Storage Api를 사용 하는 경우 설치 하 여 Azure storage 에뮬레이터 로컬 컴퓨터에서 개발 하는 동안 프로덕션에 배포할 준비가 될 때까지 요금이 부과 되지 않도록 하기 위해. 자세한 내용은 [개발 및 테스트에 Azure Storage 에뮬레이터 사용](https://azure.microsoft.com/documentation/articles/storage-use-emulator/)을 참조하세요.  
   
  다음은 Visual Studio 프로젝트에서 사용할 수 있는 더 인기가 많은 데이터베이스 시스템의 일부를 포함 합니다. 이 목록은 전체 목록이 아닙니다. Visual Studio 도구를 사용 하 여 긴밀 한 통합을 사용 하도록 설정 하는 ADO.NET 데이터 공급자를 제공 하는 타사 공급 업체의 목록을 참조 하세요 [ADO.NET 데이터 공급자](https://msdn.microsoft.com/library/dd363565.aspx)합니다.  
   

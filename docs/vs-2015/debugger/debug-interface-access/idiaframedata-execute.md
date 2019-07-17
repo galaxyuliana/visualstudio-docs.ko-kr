@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 4042cf58ee34b5f49df601b94e1110f03e0b6f5b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197557"
 ---
 # <a name="idiaframedataexecute"></a>IDiaFrameData::execute
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ HRESULT execute ( 
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 다음 표에서이 메서드에 대 한 가능한 반환 값을 보여 줍니다.  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |E_DIA_INPROLOG|프롤로그 코드에서 스택 프레임을 실행할 수 없습니다.|  
 |E_DIA_SYNTAX|프레임 프로그램에서 발생 한 오류를 구문 분석 합니다.|  

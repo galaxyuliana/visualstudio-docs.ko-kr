@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 120696fe335245775c6ea7188efc059ae9e71342
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 466df3030793603319cf73085910a164fd222e29
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263695"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67890604"
 ---
 # <a name="how-to-modify-a-standard-menu-command-in-a-domain-specific-language"></a>방법: 도메인 특정 언어에서 표준 메뉴 명령 수정
 
@@ -65,7 +65,8 @@ DSL에서 자동으로 정의되는 일부 표준 명령의 동작을 수정할 
     { internal partial class Language1CommandSet { ...
     ```
 
-     **참고** 클래스 파일 템플릿을 사용 하는 새 파일을 만드는 경우 네임 스페이스 및 클래스 이름을 모두 수정 해야 합니다.
+    > [!NOTE]
+    > 클래스 파일 템플릿을 사용 하는 새 파일을 만드는 경우 네임 스페이스 및 클래스 이름을 모두 수정 해야 합니다.
 
 ## <a name="override-the-command-methods"></a>명령 메서드 재정의
 

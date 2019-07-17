@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 4bec5507d15374e6e88afd4567d4b0fec9ca6cb7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68198596"
 ---
 # <a name="idiadatasourceopensession"></a>IDiaDataSource::openSession
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ HRESULT openSession ( 
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 다음 표에서이 메서드에 대 한 가능한 반환 값을 보여 줍니다.  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |E_UNEXPECTED|합니다 [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md) 개체 기호는 소스를 사용 하 여 이전에 초기화 되지 않았습니다.|  
 |E_INVALIDARG|잘못된 `ppSession` 매개 변수입니다.|  

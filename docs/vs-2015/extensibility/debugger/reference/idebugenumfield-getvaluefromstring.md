@@ -13,11 +13,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f553b7f019dd89af771e057a46a11b1affed1308
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188948"
 ---
 # <a name="idebugenumfieldgetvaluefromstring"></a>IDebugEnumField::GetValueFromString
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ int GetValueFromString(
   
 #### <a name="parameters"></a>매개 변수  
  `pszValue`  
- [in] 값을 검색할 원본에 대 한 이름을 지정 하는 문자열입니다. C + +에 대 한 사실은, 와이드 문자 문자열입니다.  
+ [in] 값을 검색할 원본에 대 한 이름을 지정 하는 문자열입니다. 에 대 한는 C++, 와이드 문자 문자열입니다.  
   
  `pValue`  
  [out] 연결된 된 숫자 값을 반환합니다.  

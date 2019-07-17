@@ -12,11 +12,11 @@ caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: fc1fb57c7ec43421b211b29cfd6ab97b24a1864c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184739"
 ---
 # <a name="bitmap-element"></a>Bitmap 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "58982268"
   
 ### <a name="attributes"></a>특성  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |guid|필수 요소. GUID/i D 명령 식별자의 GUID입니다.<br /><br /> 비트맵에 대 한 guid 특성 모든 VSPackage 또는 다른 명령 그룹을 사용 하 여 연결 되지 않습니다.  비트맵 정의에 고유 해야 하 고 다른 목적을 위해 쓰일 수 없습니다.|  
 |resID|GUID/i D 명령 식별자의 ID입니다. ResID 또는 href 특성이 필요합니다.<br /><br /> ResID 특성은 명령 테이블을 병합 하는 동안 로드 되는 비트맵 스트립을 결정 하는 정수 리소스 ID입니다.  명령 테이블 로드 되는 경우 리소스 ID 기준으로 지정 된 비트맵은 동일한 모듈의 리소스에서 로드 됩니다.|  
@@ -47,7 +47,7 @@ ms.locfileid: "58982268"
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Bitmaps 요소](../extensibility/bitmaps-element.md)|비트맵 요소를 그룹화합니다.|  
   

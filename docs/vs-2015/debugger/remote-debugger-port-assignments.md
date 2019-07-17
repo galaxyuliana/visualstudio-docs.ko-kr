@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c1e70ec3ba50e5be1ed532bb4a88cbdd500af09c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195169"
 ---
 # <a name="remote-debugger-port-assignments"></a>원격 디버거 포트 할당
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ Visual Studio 원격 디버거는 애플리케이션 또는 백그라운드 서�
   
  원격 디버거 창에서 **도구 / 옵션**을 클릭하고 TCP/IP 포트 번호를 설정합니다.  
   
- 명령줄에서 **/port** 스위치를 사용하여 원격 디버거를 시작합니다(**msvsmon /port \<포트 번호>**).  
+ 명령줄에서 **/port** 스위치를 사용하여 원격 디버거를 시작합니다(**msvsmon /port \<포트 번호>** ).  
   
  원격 디버깅 도움말에서 모든 원격 디버거 명령줄 스위치를 찾을 수 있습니다(원격 디버거 창에서 **F1** 키를 누르거나 **도움말 / 사용법** 클릭).  
   

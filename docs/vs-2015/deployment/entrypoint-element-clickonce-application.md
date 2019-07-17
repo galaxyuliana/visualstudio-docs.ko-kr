@@ -20,11 +20,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 9ce9fcbddf54dff0ee8574d0c2a5a3df4d8b5c7e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68193502"
 ---
 # <a name="ltentrypointgt-element-clickonce-application"></a>&lt;entryPoint&gt; 요소 (ClickOnce 응용 프로그램)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "58984806"
   
  `entryPoint` 요소에는 다음 특성이 있습니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`name`|선택 사항입니다. 이 값은.NET Framework에서 사용 되지 않습니다.|  
   

@@ -8,12 +8,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 1241edd105c948f1094948229a91851b7c38bbed
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 8634ab15a10b59fc21de390e0633d6d91793616d
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67824325"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67891035"
 ---
 # <a name="fonts-and-formatting-for-visual-studio"></a>글꼴 및 Visual Studio에 대 한 서식 지정
 ## <a name="BKMK_TheEnvironmentFont"></a> 환경 글꼴
@@ -90,7 +90,8 @@ window.ShowModal()
 ### <a name="BKMK_Formatting"></a> (확장/굵게 표시) 참조를 서식 지정
  일부 대화 상자에는 특정 텍스트를 굵게 또는 이외의 환경 글꼴 크기를 필요 합니다. 글꼴은 환경 글꼴이 보다 큰로 코딩 된 이전에 "`environment font +2`" 또는 유사한 합니다. 제공 된 코드 조각을 사용 하 여 높은 DPI 모니터 지원 되며 표시 텍스트에 올바른 크기 및 무게 (예: Light 또는 Semilight) 항상 표시 되는지 확인 합니다.
 
-> **참고: 서식 지정을 적용 하기 전에 확인 지침에 따르는 [텍스트 스타일](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle)합니다.**
+> [!NOTE]
+> 서식 지정을 적용 하기 전에 확인 지침에 따르는 [텍스트 스타일](../../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md#BKMK_TextStyle). * *
 
  환경 글꼴의 크기를 조정 하는 TextBlock 또는 Label 표시의 스타일을 설정 합니다. 이러한 코드 조각의 올바르게 사용 되는 각는 적절 한 크기 및 무게 변형을 포함 하 여 올바른 글꼴을 생성 합니다.
 
@@ -415,7 +416,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 |||
 |-|-|
-|**사용법:** 드물게 발생 합니다. 고유한 브랜드 UI만 해당 합니다.<br /><br /> **Do:**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-간단한 항상 사용<br /><br /> **안 함:**<br /><br /> -사용 하 여 UI에 대 한 서명 시작 페이지와 같은 UI 이외의<br />-굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 34 pt Segoe UI Light<br /><br /> **예를 보여 줍니다.**<br /><br /> *현재 사용 되지 않습니다. Visual Studio 2017 시작 페이지에서 사용할 수 있습니다.*|
+|**사용법:** 드물게 발생 합니다. 고유한 브랜드 UI만 해당 합니다.<br /><br /> **수행 합니다.**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-간단한 항상 사용<br /><br /> **안 함:**<br /><br /> -사용 하 여 UI에 대 한 서명 시작 페이지와 같은 UI 이외의<br />-굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 34 pt Segoe UI Light<br /><br /> **예를 보여 줍니다.**<br /><br /> *현재 사용 되지 않습니다. Visual Studio 2017 시작 페이지에서 사용할 수 있습니다.*|
 
 #### <a name="310-environment-font--light"></a>310% 환경 글꼴 + Light
 
@@ -423,7 +424,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 |||
 |-|-|
-|**사용법:**<br /><br /> -더 큰 서명 대화 상자 제목<br />-기본 보고서 제목<br /><br /> **Do:**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-간단한 항상 사용<br /><br /> **안 함:**<br /><br /> -사용 하 여 UI에 대 한 서명 시작 페이지와 같은 UI 이외의<br />-굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 28 pt Segoe UI Light<br /><br /> **예를 보여 줍니다.**<br /><br /> ![310% 환경 글꼴의 예 &#43; Light 제목의](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202 a_EF310")|
+|**사용법:**<br /><br /> -더 큰 서명 대화 상자 제목<br />-기본 보고서 제목<br /><br /> **수행 합니다.**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-간단한 항상 사용<br /><br /> **안 함:**<br /><br /> -사용 하 여 UI에 대 한 서명 시작 페이지와 같은 UI 이외의<br />-굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 28 pt Segoe UI Light<br /><br /> **예를 보여 줍니다.**<br /><br /> ![310% 환경 글꼴의 예 &#43; Light 제목의](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202 a_EF310")|
 
 ::: moniker-end
 
@@ -431,7 +432,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 |||
 |-|-|
-|**사용법:**<br /><br /> -더 큰 서명 대화 상자 제목<br />-기본 보고서 제목<br /><br /> **Do:**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-간단한 항상 사용<br /><br /> **안 함:**<br /><br /> -사용 하 여 UI에 대 한 서명 UI 이외의<br />-굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 28 pt Segoe UI Light<br /><br /> **예를 보여 줍니다.**<br /><br /> ![310% 환경 글꼴의 예 &#43; Light 제목의](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202 a_EF310")|
+|**사용법:**<br /><br /> -더 큰 서명 대화 상자 제목<br />-기본 보고서 제목<br /><br /> **수행 합니다.**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-간단한 항상 사용<br /><br /> **안 함:**<br /><br /> -사용 하 여 UI에 대 한 서명 UI 이외의<br />-굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 28 pt Segoe UI Light<br /><br /> **예를 보여 줍니다.**<br /><br /> ![310% 환경 글꼴의 예 &#43; Light 제목의](../../extensibility/ux-guidelines/media/0202-a_ef310.png "0202 a_EF310")|
 
 ::: moniker-end
 
@@ -439,37 +440,37 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 |||
 |-|-|
-|**사용법:**<br /><br /> -부제목<br />-대화 상자에서 소규모 및 중간 규모 제목<br /><br /> **Do:**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-항상 Semilight 가중치를 사용 하 여<br /><br /> **안 함:**<br /><br /> -굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 18pt Segoe UI Semillight<br /><br /> **예를 보여 줍니다.**<br /><br /> ![200% 환경 글꼴의 예 &#43; Semilight](../../extensibility/ux-guidelines/media/0202-b_ef200.png "0202 b_EF200")|
+|**사용법:**<br /><br /> -부제목<br />-대화 상자에서 소규모 및 중간 규모 제목<br /><br /> **수행 합니다.**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />-항상 Semilight 가중치를 사용 하 여<br /><br /> **안 함:**<br /><br /> -굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 18pt Segoe UI Semillight<br /><br /> **예를 보여 줍니다.**<br /><br /> ![200% 환경 글꼴의 예 &#43; Semilight](../../extensibility/ux-guidelines/media/0202-b_ef200.png "0202 b_EF200")|
 
 #### <a name="155-environment-font"></a>155% 환경 글꼴
 
 |||
 |-|-|
-|**사용법:**<br /><br /> 문서의 섹션 제목 및 UI<br />-보고서<br /><br /> **Do:** 문장의 첫 글자를 사용 합니다.<br /><br /> **안 함:**<br /><br /> -굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-표준 Visual Studio 컨트롤에서 사용 합니다.<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 14pt Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![155% 환경 글꼴 제목의 예](../../extensibility/ux-guidelines/media/0202-c_ef155.png "0202 c_EF155")|
+|**사용법:**<br /><br /> 문서의 섹션 제목 및 UI<br />-보고서<br /><br /> **수행 합니다.** 문장의 첫 글자를 사용 합니다.<br /><br /> **안 함:**<br /><br /> -굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-표준 Visual Studio 컨트롤에서 사용 합니다.<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 14pt Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![155% 환경 글꼴 제목의 예](../../extensibility/ux-guidelines/media/0202-c_ef155.png "0202 c_EF155")|
 
 #### <a name="133-environment-font"></a>133% 환경 글꼴
 
 |||
 |-|-|
-|**사용법:**<br /><br /> 서명 대화 상자에서 더 작은 부제목<br />문서에서 더 작은 부제목 및 UI<br /><br /> **Do:** 문장의 첫 글자를 사용 합니다.<br /><br /> **안 함:**<br /><br /> -굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-표준 Visual Studio 컨트롤에서 사용 합니다.<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 12pt Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![133% 환경 글꼴 제목의 예](../../extensibility/ux-guidelines/media/0202-d_ef133.png "0202 d_EF133")|
+|**사용법:**<br /><br /> 서명 대화 상자에서 더 작은 부제목<br />문서에서 더 작은 부제목 및 UI<br /><br /> **수행 합니다.** 문장의 첫 글자를 사용 합니다.<br /><br /> **안 함:**<br /><br /> -굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-표준 Visual Studio 컨트롤에서 사용 합니다.<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 12pt Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![133% 환경 글꼴 제목의 예](../../extensibility/ux-guidelines/media/0202-d_ef133.png "0202 d_EF133")|
 
 #### <a name="122-environment-font"></a>122% 환경 글꼴
 
 |||
 |-|-|
-|**사용법:**<br /><br /> 대화 상자에서 서명 섹션 제목<br />-트리 뷰에서 상위 노드<br />-세로 탭 탐색<br /><br /> **Do:** 문장의 첫 글자를 사용 합니다.<br /><br /> **안 함:**<br /><br /> -굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-표준 Visual Studio 컨트롤에서 사용 합니다.<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 11 pt Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![122% 환경 글꼴 제목의 예](../../extensibility/ux-guidelines/media/0202-e_ef122.png "0202 e_EF122")|
+|**사용법:**<br /><br /> 대화 상자에서 서명 섹션 제목<br />-트리 뷰에서 상위 노드<br />-세로 탭 탐색<br /><br /> **수행 합니다.** 문장의 첫 글자를 사용 합니다.<br /><br /> **안 함:**<br /><br /> -굵게, 기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-표준 Visual Studio 컨트롤에서 사용 합니다.<br />-도구 창에서 사용 합니다.|**다음과 같이 나타납니다.** 11 pt Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![122% 환경 글꼴 제목의 예](../../extensibility/ux-guidelines/media/0202-e_ef122.png "0202 e_EF122")|
 
 #### <a name="environment-font--bold"></a>환경 글꼴 + 굵게
 
 |||
 |-|-|
-|**사용법:**<br /><br /> -레이블 및 서명 대화 상자에서 부제목<br />-레이블 및 보고서의 부제목<br />-레이블 및 문서의 부제목이 있는 변경과 UI<br /><br /> **Do:**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />--굵게 두께 사용 하는 중<br /><br /> **안 함:**<br /><br /> -기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-표준 Visual Studio 컨트롤에서 사용 합니다.<br />-도구 창에서 사용 합니다.|**으로 표시 됩니다:** 굵게 표시 된 9 pt Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![환경 글꼴의 예 &#43; 굵게 제목의](../../extensibility/ux-guidelines/media/0202-f_efb.png "0202 f_EFB")|
+|**사용법:**<br /><br /> -레이블 및 서명 대화 상자에서 부제목<br />-레이블 및 보고서의 부제목<br />-레이블 및 문서의 부제목이 있는 변경과 UI<br /><br /> **수행 합니다.**<br /><br /> --문장의 첫 글자를 사용 하는 중<br />--굵게 두께 사용 하는 중<br /><br /> **안 함:**<br /><br /> -기울임꼴 또는 굵게 기울임꼴<br />-본문 텍스트 사용<br />-표준 Visual Studio 컨트롤에서 사용 합니다.<br />-도구 창에서 사용 합니다.|**으로 표시 됩니다:** 굵게 표시 된 9 pt Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![환경 글꼴의 예 &#43; 굵게 제목의](../../extensibility/ux-guidelines/media/0202-f_efb.png "0202 f_EFB")|
 
 #### <a name="environment-font"></a>환경 글꼴
 
 |||
 |-|-|
-|**사용법:** 다른 모든 텍스트<br /><br /> **Do:** 문장의 첫 글자를 사용 합니다.<br /><br /> **안 함:** 기울임꼴 또는 굵게 기울임꼴|**다음과 같이 나타납니다.** 9 (태평양 표준시) Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![환경 글꼴의 예](../../extensibility/ux-guidelines/media/0202-g_ef.png "0202 g_EF")|
+|**사용법:** 다른 모든 텍스트<br /><br /> **수행 합니다.** 문장의 첫 글자를 사용 합니다.<br /><br /> **안 함:** 기울임꼴 또는 굵게 기울임꼴|**다음과 같이 나타납니다.** 9 (태평양 표준시) Segoe UI<br /><br /> **예를 보여 줍니다.**<br /><br /> ![환경 글꼴의 예](../../extensibility/ux-guidelines/media/0202-g_ef.png "0202 g_EF")|
 
 ### <a name="padding-and-spacing"></a>안쪽 여백 및 간격
  머리글에는 적절 한 강조를 제공 하도록 주위에 공간이 필요 합니다. 이 공간은 포인트 크기 및 다른 새로운 수평선 등 환경 글꼴의 텍스트 줄을 머리글 근처에 따라 달라 집니다.

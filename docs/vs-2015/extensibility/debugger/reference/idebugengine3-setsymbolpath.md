@@ -13,11 +13,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1ddb35af1d9f6541c85466a28bf9479ed4ce2fa4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195846"
 ---
 # <a name="idebugengine3setsymbolpath"></a>IDebugEngine3::SetSymbolPath
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -44,7 +44,7 @@ int SetSymbolPath(
   
 #### <a name="parameters"></a>매개 변수  
   
-|매개 변수|설명|  
+|매개 변수|Description|  
 |---------------|-----------------|  
 |`szSymbolSearchPath`|[in] 기호 검색 경로 또는 경로 포함 하는 문자열입니다. 자세한 내용은 "주의"를 참조 하십시오. null일 수 없습니다.|  
 |`szSymbolCachePath`|[in] 기호를 캐시할 수 있는 로컬 경로 포함 하는 문자열입니다. null일 수 없습니다.|  
@@ -64,6 +64,6 @@ int SetSymbolPath(
   
  합니다 [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md) 메서드 기호의 실제 로드를 수행 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md)   
  [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)

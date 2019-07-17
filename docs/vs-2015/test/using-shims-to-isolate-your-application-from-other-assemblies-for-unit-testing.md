@@ -9,11 +9,11 @@ caps.latest.revision: 14
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: ddbcac3073dec1e7f21d381d30978589f1cdd792
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60113913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68185734"
 ---
 # <a name="using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing"></a>shim을 사용하여 유닛 테스트를 위한 다른 어셈블리에서 애플리케이션 격리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

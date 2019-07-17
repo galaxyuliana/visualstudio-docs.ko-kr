@@ -15,11 +15,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 82dd990a44984d2e3cc1c84244fbe07ea519fdfc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68189027"
 ---
 # <a name="visualizer-architecture"></a>시각화 도우미 아키텍처
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -66,27 +66,27 @@ ms.locfileid: "58984527"
   
 |개체 공급자|개체 소스|  
 |---------------------|-------------------|  
-|<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A><br /><br /> 또는<br /><br /> <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetObject%2A>|<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A>|  
+|<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A><br /><br /> —또는—<br /><br /> <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetObject%2A>|<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A>|  
   
- 개체 공급자는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A> 또는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetObject%2A>를 사용할 수 있습니다. 두 가지 API 모두 개체 소스를 대상으로 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A>를 호출하게 됩니다. 에 대 한 호출 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A?displayProperty=fullName> [System.IO.Stream] 채웁니다 (<!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->), serialize 된 형태로 시각화 되 고 있는 개체를 나타내는입니다.  
+ 개체 공급자는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A> 또는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetObject%2A>를 사용할 수 있습니다. 두 가지 API 모두 개체 소스를 대상으로 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A>를 호출하게 됩니다. 에 대 한 호출 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.GetData%2A?displayProperty=fullName> [System.IO.Stream] (에서 채웁니다<!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->)을 나타내는 시각화 되 고 있는 개체의 serialize 된 형식입니다.  
   
- <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetObject%2A?displayProperty=fullName>는 데이터를 다시 개체 양식으로 deserialize합니다. 그런 다음, <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>를 사용하여 만든 UI에 이 개체 양식을 표시할 수 있습니다. <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A?displayProperty=fullName>는 사용자가 직접 deserialize해야 하는 원시 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->으로 데이터를 채웁니다. <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetObject%2A?displayProperty=fullName>는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A?displayProperty=fullName>를 호출하여 serialize된 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->을 가져온 다음, 데이터를 deserialize하는 방식으로 작동합니다. .NET을 통해 개체를 serialize할 수 없고 사용자가 직접 serialize해야 하는 경우에는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A?displayProperty=fullName>를 사용합니다. 이러한 경우 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.Serialize%2A?displayProperty=fullName> 메서드도 재정의해야 합니다.  
+ <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetObject%2A?displayProperty=fullName>는 데이터를 다시 개체 양식으로 deserialize합니다. 그런 다음, <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>를 사용하여 만든 UI에 이 개체 양식을 표시할 수 있습니다. <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A?displayProperty=fullName> 데이터는 원시로 채우기 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->를 직접 deserialize 해야 합니다. <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetObject%2A?displayProperty=fullName> 호출 하 여 작동 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A?displayProperty=fullName> serialize 된 가져오려면 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->에서 데이터를 역직렬화 합니다. .NET을 통해 개체를 serialize할 수 없고 사용자가 직접 serialize해야 하는 경우에는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A?displayProperty=fullName>를 사용합니다. 이러한 경우 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.Serialize%2A?displayProperty=fullName> 메서드도 재정의해야 합니다.  
   
  읽기 전용 시각화 도우미를 만드는 경우에는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetData%2A> 또는 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.GetObject%2A>를 사용한 단방향 통신으로도 충분합니다. 데이터 개체 편집을 지원하는 시각화 도우미를 만드는 경우에는 더 많은 단계를 거쳐야 합니다. 이러한 경우 개체 공급자에서 개체 소스로 데이터 개체를 다시 전달할 수도 있어야 합니다. 다음 표에서는 이러한 용도로 사용되는 개체 공급자 및 개체 소스 API를 보여 줍니다.  
   
 |개체 공급자|개체 소스|  
 |---------------------|-------------------|  
-|<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceData%2A><br /><br /> 또는<br /><br /> <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceObject%2A>|<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject%2A>|  
+|<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceData%2A><br /><br /> —또는—<br /><br /> <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceObject%2A>|<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject%2A>|  
   
- 이 경우에도 개체 공급자에서 두 가지 API를 사용할 수 있습니다. 데이터는 항상 개체 공급자에서 개체 소스로 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->으로 전달되지만 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceData%2A>를 사용하는 경우 사용자가 개체를 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->으로 serialize해야 합니다.  
+ 이 경우에도 개체 공급자에서 두 가지 API를 사용할 수 있습니다. 데이터는 항상 전송 개체 공급자에서 개체 소스로 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->하지만 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceData%2A> 개체를 serialize 할 필요는 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  --> 직접입니다.  
   
- <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceObject%2A>는 사용자가 제공한 개체를 받아 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->으로 serialize한 다음 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceData%2A>를 호출하여 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->을 <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject%2A>에 전달합니다.  
+ <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceObject%2A> 사용자가 제공한 개체는 직렬화에 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  -->를 호출 <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.ReplaceData%2A> 보내도록 합니다 <!-- TODO: review code entity reference <xref:assetId:///System.IO.Stream?qualifyHint=False&amp;autoUpgrade=True>  --> <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.CreateReplacementObject%2A>에 전달되는 고유한 값으로 설정된 것처럼 처리됩니다.  
   
  Replace 메서드 중 하나를 사용하면 디버기에서 시각화 대상 개체를 대체하는 새 데이터 개체가 만들어집니다. 원래 개체를 바꾸지 않고 내용을 변경하려는 경우에는 다음 표에 나와 있는 Transfer 메서드 중 하나를 사용합니다. 이들 API는 시각화 대상 개체를 바꾸지 않고 데이터를 양방향으로 동시에 전송합니다.  
   
 |개체 공급자|개체 소스|  
 |---------------------|-------------------|  
-|<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A><br /><br /> 또는<br /><br /> <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferObject%2A>|<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>|  
+|<xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferData%2A><br /><br /> —또는—<br /><br /> <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider.TransferObject%2A>|<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource.TransferData%2A>|  
   
 ## <a name="see-also"></a>참고 항목  
  [방법: 시각화 도우미 작성](../debugger/how-to-write-a-visualizer.md)   

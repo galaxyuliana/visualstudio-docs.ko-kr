@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 6078f0fd90855c432b333fd5967367460d0a364e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200020"
 ---
 # <a name="sccpopulatedirlist-function"></a>SccPopulateDirList 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,13 +53,13 @@ SCCRTN SccPopulateDirList(
  pvCallerData  
  [in] 콜백 함수에 전달할 값을 변경 되지 않습니다.  
   
- fOptions  
+ 옵션이  
  [in] 디렉터리를 처리 하는 방법을 제어 하는 값의 조합 ("PopulateDirList 플래그" 섹션을 참조 하세요 [비트는 특정 명령에 사용](../extensibility/bitflags-used-by-specific-commands.md) 가능한 값에 대 한).  
   
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|작업을 완료 했습니다.|  
 |SCC_E_UNKNOWNERROR|오류가 발생했습니다.|  
@@ -67,7 +67,7 @@ SCCRTN SccPopulateDirList(
 ## <a name="remarks"></a>설명  
  만 해당 (선택 사항) 파일 이름 및 디렉터리 실제로 소스 제어 저장소에 있는 콜백 함수에 전달 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [특정 명령에 사용 되는 비트](../extensibility/bitflags-used-by-specific-commands.md)   
  [POPDIRLISTFUNC](../extensibility/popdirlistfunc.md)   

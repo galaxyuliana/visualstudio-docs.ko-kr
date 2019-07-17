@@ -13,11 +13,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f4d3263ca020f491e0c1cf20ee49792cacfbc362
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68186681"
 ---
 # <a name="idebugaddressgetaddress"></a>IDebugAddress::GetAddress
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,5 +48,5 @@ int GetAddress(
 ## <a name="remarks"></a>설명  
  합니다 [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) 구조는 다음 적절 한 정보로 채우는이 메서드에 전달 됩니다. 이 정보를 해석 하는 방법을 반환 되는 정보 및 자체 기호 처리기의 종류에 따라 달라 집니다. 참조 [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) 대 한 자세한 내용은 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)

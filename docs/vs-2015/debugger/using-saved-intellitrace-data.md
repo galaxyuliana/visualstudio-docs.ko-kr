@@ -16,12 +16,12 @@ caps.latest.revision: 112
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: b1e22447581deee70c133dfdb4c42df6630e26ad
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: e7c8f17bb454c7dc58a355774206b760aac2bdfe
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67823458"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67891087"
 ---
 # <a name="using-saved-intellitrace-data"></a>저장된 IntelliTrace 데이터 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ IntelliTrace 로그(.iTrace) 파일에서 디버깅을 시작할 때 애플리�
   
   - **모든 링크**에서 .iTrace 파일을 찾습니다. 파일을 엽니다.  
 
-        \- or -  
+    \- 또는 -  
 
   - **재현 단계**에서 **IntelliTrace** 링크를 선택합니다.  
   

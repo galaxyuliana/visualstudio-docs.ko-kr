@@ -13,11 +13,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: bced4d6ea45cc33c3811e42428aa43c334b7b83b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68187229"
 ---
 # <a name="idebugaliasgetobject"></a>IDebugAlias::GetObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -45,6 +45,6 @@ int GetObject(
 ## <a name="return-value"></a>반환 값  
  성공 하면 S_OK를 반환 합니다. 그렇지 않으면 오류 코드를 반환합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)   
  [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md)

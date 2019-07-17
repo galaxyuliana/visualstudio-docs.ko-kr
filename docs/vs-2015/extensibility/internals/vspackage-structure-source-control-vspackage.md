@@ -12,11 +12,11 @@ caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 08bb0a296daca0de1c02b905a75fb10ce05f254e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68206004"
 ---
 # <a name="vspackage-structure-source-control-vspackage"></a>VSPackage 구조(소스 제어 VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -74,6 +74,6 @@ ms.locfileid: "58982957"
   
  소스 제어 VSPackage를 고려해 야 하는 인터페이스의 전체 목록은 참조 하세요 [관련 서비스 및 인터페이스](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디자인 요소](../../extensibility/internals/source-control-vspackage-design-elements.md)   
  [관련 서비스 및 인터페이스](../../extensibility/internals/related-services-and-interfaces-source-control-vspackage.md)

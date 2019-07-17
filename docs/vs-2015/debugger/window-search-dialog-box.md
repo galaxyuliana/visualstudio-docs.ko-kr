@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 72405ced4348228432bc7cf75d135e317a3fd833
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68185322"
 ---
 # <a name="window-search-dialog-box"></a>창 경로 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58985916"
   
  사용할 수는 **찾기 도구** 창 핸들을 입력 하거나 캡션과 클래스 창을 식별할 수 있습니다 하 창 또는 사용자를 선택 합니다.  
   
- 다음 설정은 사용할 수 있습니다.  
+ 다음 설정을 사용할 수 있습니다.  
   
  **찾기 도구**  
  끌어서 놓기 도구 창을 선택 하는 데 사용 합니다.  

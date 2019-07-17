@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: c8520084b57fdf0f831f62626593832d03c25636
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60107868"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68183916"
 ---
 # <a name="updating-shapes-and-connectors-to-reflect-the-model"></a>모양 및 연결선을 업데이트하여 모델 반영
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ```  
   
 ## <a name="set-shape-map-properties-to-control-the-visibility-of-a-decorator"></a>도형 맵에 데코레이터의 가시성을 제어 하는 속성 설정  
- DSL 정의에서 모양과 도메인 클래스 간의 매핑을 구성 하 여 프로그램 코드를 작성 하지 않고도 데코레이터의 가시성을 제어할 수 있습니다. 자세한 내용은 다음 항목을 참조하세요.  
+ DSL 정의에서 모양과 도메인 클래스 간의 매핑을 구성 하 여 프로그램 코드를 작성 하지 않고도 데코레이터의 가시성을 제어할 수 있습니다. 자세한 내용은 다음 항목을 참조하십시오.  
   
 - [방법: 데코레이터의 가시성 제어-리디렉션](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
   

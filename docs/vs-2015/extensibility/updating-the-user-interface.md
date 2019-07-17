@@ -12,11 +12,11 @@ caps.latest.revision: 42
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: db5be965119d1564f2a4bf8a15892af7142663e0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60046801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68186351"
 ---
 # <a name="updating-the-user-interface"></a>사용자 인터페이스 업데이트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,6 +52,6 @@ ms.locfileid: "60046801"
   
          통지를 가져올 수 있습니다는 <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager> 인터페이스를 호출 하 여는 `QueryInterface` 메서드는 <xref:Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager> 개체 또는에서 인터페이스를 가져오는 <xref:Microsoft.VisualStudio.Shell.Interop.SOleComponentUIManager> 서비스.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [구현](../extensibility/internals/command-implementation.md)

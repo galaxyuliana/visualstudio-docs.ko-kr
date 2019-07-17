@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ab220b8a21db60918462e4c060ce613171e3faad
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 372c30caa15ef8783aa1fead479087e7618e707b
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442358"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67890669"
 ---
 # <a name="how-to-add-a-command-to-the-shortcut-menu"></a>방법: 바로 가기 메뉴에 명령 추가
 
@@ -141,7 +141,7 @@ MEF(Managed Extension Framework)는 다이어그램 메뉴의 메뉴 명령을 �
 
 2. `ProvideMenuResource` 특성을 찾습니다.
 
-3. 특성의 `version` 매개 변수(두 번째 매개 변수)를 증분합니다. 원하는 경우 용도에 맞게 매개 변수 이름을 명시적으로 작성할 수 있습니다. 예를 들어:
+3. 특성의 `version` 매개 변수(두 번째 매개 변수)를 증분합니다. 원하는 경우 용도에 맞게 매개 변수 이름을 명시적으로 작성할 수 있습니다. 예:
 
      `[VSShell::ProvideMenuResource("1000.ctmenu", version: 2 )]`
 
@@ -161,13 +161,14 @@ DS에는 DslPackage\GeneratedCode\CommandSet.cs에서 선언된 partial 클래�
 
 2. **DslPackage**, 라는 폴더를 만듭니다 **사용자 지정 코드**합니다. 이 폴더에 라는 새 클래스 파일을 만듭니다 `CommandSet.cs`합니다.
 
-3. 새 파일에 생성된 partial 클래스와 이름 및 네임스페이스가 같은 partial 선언을 작성합니다. 예를 들어:
+3. 새 파일에 생성된 partial 클래스와 이름 및 네임스페이스가 같은 partial 선언을 작성합니다. 예:
 
      `namespace Company.Language1 /* Make sure this is correct */`
 
      `{ internal partial class Language1CommandSet { ...`
 
-     **참고** 클래스 템플릿을 사용 하는 새 파일을 만든 경우 네임 스페이스 및 클래스 이름을 모두 수정 해야 합니다.
+     > [!NOTE]
+     > 클래스 템플릿을 사용 하는 새 파일을 만든 경우 네임 스페이스 및 클래스 이름을 모두 수정 해야 합니다.
 
 명령 집합 코드는 일반적으로 다음 네임스페이스를 가져와야 합니다.
 
@@ -334,7 +335,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 **명령 메뉴에 나타나지 않습니다.**
 
-- DSL 패키지를 설치할 때까지 명령은 Visual Studio의 디버깅 인스턴스에만 표시됩니다. 자세한 내용은 [도메인 특정 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)를 참조하세요.
+- DSL 패키지를 설치할 때까지 명령은 Visual Studio의 디버깅 인스턴스에만 표시됩니다. 자세한 내용은 [도메인 특정 언어 솔루션 배포](msi-and-vsix-deployment-of-a-dsl.md)를 참조하세요.
 
 - 실험적 샘플에서 이 DSL의 파일 이름 확장명이 정확한지 확인합니다. 파일 이름 확장명을 확인하려면 Visual Studio 주 인스턴스에서 DslDefinition.dsl을 엽니다. 그런 다음 DSL 탐색기에서 편집기 노드를 마우스 오른쪽 단추로 클릭하고 속성을 클릭합니다. 속성 창에서 FileExtension 속성을 점검합니다.
 
@@ -362,7 +363,7 @@ protected override IList<MenuCommand> GetMenuCommands()
 
 - [도메인별 언어를 사용자 지정하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)
 - [방법: 표준 메뉴 명령 수정](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
-- [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)
+- [도메인별 언어 솔루션 배포](msi-and-vsix-deployment-of-a-dsl.md)
 - [샘플 코드: 회로 다이어그램](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

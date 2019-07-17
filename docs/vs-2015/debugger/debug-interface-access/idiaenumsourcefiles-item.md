@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 62dce70d3ebf05694b453d13e1f11529dd21e8ce
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68189779"
 ---
 # <a name="idiaenumsourcefilesitem"></a>IDiaEnumSourceFiles::Item
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ HRESULT Item ( 
 ```  
   
 #### <a name="parameters"></a>매개 변수  
- 인덱스입니다.  
+ 인덱스  
  [in] 인덱스를 [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md) 검색 된 개체입니다. 인덱스는 0에서 범위 `count`-1로, 여기서 `count` 반환한를 [idiaenumsourcefiles:: Get_count](../../debugger/debug-interface-access/idiaenumsourcefiles-get-count.md) 메서드.  
   
  sourceFile  

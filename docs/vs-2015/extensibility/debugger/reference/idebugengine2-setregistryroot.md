@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 39bb532301d34a3abf9988cfa909e1606c3c73e8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195952"
 ---
 # <a name="idebugengine2setregistryroot"></a>IDebugEngine2::SetRegistryRoot
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,5 +48,5 @@ int SetRegistryRoot( 
 ## <a name="remarks"></a>설명  
  이 방법을 사용 하면 [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] 는 DE 레지스트리 설정을; 얻기 위해 사용 해야 하는 대체 레지스트리 루트를 지정 하려면 예를 들어, "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp"입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

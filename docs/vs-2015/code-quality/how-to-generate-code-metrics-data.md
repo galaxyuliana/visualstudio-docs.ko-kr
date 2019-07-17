@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: aeba6a777dd060f310f9cbb8801b2405cd76f6b2
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60045631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201332"
 ---
 # <a name="how-to-generate-code-metrics-data"></a>방법: 코드 메트릭 데이터 생성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

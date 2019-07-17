@@ -11,13 +11,13 @@ caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 0920999eee7460c8bf697e245bae55a3641b8e18
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60101173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184285"
 ---
-# <a name="contained-languages"></a>포함 된 언어
+# <a name="contained-languages"></a>포함된 언어
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)] 
 
 *언어 포함* 은 다른 언어에 포함 된 언어입니다. 예를 들어, HTML [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 페이지에 포함 될 수 있습니다 [!INCLUDE[csprcs](../includes/csprcs-md.md)] 또는 [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] 스크립트입니다. 이중 언어 아키텍처는 HTML 및 스크립팅 언어에 대 한 IntelliSense, 색 지정 및 다른 편집 기능을 제공 하는.aspx 파일 편집기 필요 합니다.  

@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 9f71346c1b69729ae54ef0d33be4149e7000316c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68191131"
 ---
 # <a name="idebugclassfielddoesinterfaceexist"></a>IDebugClassField::DoesInterfaceExist
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,5 +48,5 @@ int DoesInterfaceExist(
 ## <a name="remarks"></a>설명  
  이 메서드는 적용 모든 인터페이스의 열거형을 가져옵니다 및 일치 하는 인터페이스에 대 한 목록을 검색 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

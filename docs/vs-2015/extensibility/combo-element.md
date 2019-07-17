@@ -12,11 +12,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: daa89266d653743a743f42e5f0b8e11c954adc1a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184406"
 ---
 # <a name="combo-element"></a>Combo 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,10 +38,10 @@ ms.locfileid: "58985049"
   
 ### <a name="attributes"></a>특성  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |guid|필수 요소. GUID/i D 명령 식별자의 GUID입니다.|  
-|ID|필수 요소. GUID/i D 명령 식별자의 ID입니다.|  
+|id|필수 요소. GUID/i D 명령 식별자의 ID입니다.|  
 |defaultWidth|필수 요소. 콤보 상자에 대 한 픽셀 너비를 지정 하는 정수입니다.|  
 |idCommandList|필수 요소. 콤보 상자에 표시할 항목의 목록을 검색 하려면 현재 명령 대상에 전송 되는 ID입니다. 컨트롤 같은 GUID 범위 ID 됩니다.|  
 |priority|선택 사항입니다. 우선 순위를 지정 하는 숫자 값입니다.|  
@@ -53,13 +53,13 @@ ms.locfileid: "58985049"
 |요소|설명|  
 |-------------|-----------------|  
 |부모|선택 사항입니다. 단추의 부모 요소입니다.|  
-|CommandFlag|필수 요소. 참조 [Flag 요소 명령을](../extensibility/command-flag-element.md)합니다. 단추에 대 한 유효한 CommandFlag 값은 다음과 같습니다.<br /><br /> -CaseSensitive<br /><br /> -CommandWellOnly<br /><br /> -DefaultDisabled<br /><br /> -DefaultInvisible<br /><br /> - DynamicVisibility<br /><br /> -필터 키<br /><br /> - IconAndText<br /><br /> -NoAutoComplete<br /><br /> -NoButtonCustomize<br /><br /> -NoCustomize<br /><br /> -NoKeyCustomize<br /><br /> -StretchHorizontally|  
+|CommandFlag|필수 요소. 참조 [Flag 요소 명령을](../extensibility/command-flag-element.md)합니다. 단추에 대 한 유효한 CommandFlag 값은 다음과 같습니다.<br /><br /> -CaseSensitive<br /><br /> -CommandWellOnly<br /><br /> -DefaultDisabled<br /><br /> -DefaultInvisible<br /><br /> -DynamicVisibility<br /><br /> -필터 키<br /><br /> - IconAndText<br /><br /> -NoAutoComplete<br /><br /> -NoButtonCustomize<br /><br /> -NoCustomize<br /><br /> -NoKeyCustomize<br /><br /> -StretchHorizontally|  
 |문자열|필수 요소. 참조 [요소를 문자열](../extensibility/strings-element.md)합니다. 자식 ButtonText 요소 정의 되어야 합니다.|  
-|주석|선택적 설명입니다.|  
+|Annotation|선택적 설명입니다.|  
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Commands 요소](../extensibility/commands-element.md)|VSPackage 도구 모음에서 명령의 컬렉션을 나타냅니다.|  
   
@@ -85,5 +85,5 @@ ms.locfileid: "58985049"
 </Combo>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Visual Studio 명령 테이블(.Vsct) 파일](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

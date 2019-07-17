@@ -14,11 +14,11 @@ caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 42f901fa31b3b682c7e19c98f5707adb3b4fb3f3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60093919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68193842"
 ---
 # <a name="querychangesfunc"></a>QUERYCHANGESFUNC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ typedef BOOL (*QUERYCHANGESFUNC)(
 ## <a name="return-value"></a>반환 값  
  IDE에는 적절 한 오류 코드를 반환합니다.  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|계속 처리 합니다.|  
 |SCC_I_OPERATIONCANCELED|처리를 중지 합니다.|  
@@ -100,7 +100,7 @@ struct QUERYCHANGESDATA_W
  lpLatestName  
  이 항목에 대 한 현재 파일 이름입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDE에 의해 구현 된 콜백 함수](../extensibility/callback-functions-implemented-by-the-ide.md)   
  [SccQueryChanges](../extensibility/sccquerychanges-function.md)   
  [오류 코드](../extensibility/error-codes.md)

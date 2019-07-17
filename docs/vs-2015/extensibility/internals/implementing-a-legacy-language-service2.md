@@ -11,11 +11,11 @@ caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1a5f419b3b4c55538e8aa46d5aefb3f7e21369be
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192701"
 ---
 # <a name="implementing-a-legacy-language-service"></a>레거시 언어 서비스 구현
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -212,7 +212,7 @@ namespace TestLanguagePackage
   
 ### <a name="in-the-source-class"></a>원본 클래스  
   
-|메서드|반환 된 클래스|설명|  
+|메서드|반환 된 클래스|Description|  
 |------------|--------------------|-----------------|  
 |<xref:Microsoft.VisualStudio.Package.Source.CreateCompletionSet%2A>|<xref:Microsoft.VisualStudio.Package.CompletionSet>|(이 방법을 일반적으로 재정의 되지 않은) IntelliSense 완성 목록 표시를 사용자 지정 합니다.|  
 |<xref:Microsoft.VisualStudio.Package.Source.CreateErrorTaskItem%2A>|<xref:Microsoft.VisualStudio.Package.DocumentTask>|오류 목록에서 마커를 지원 하기 위한 작업 목록입니다. 특히 지원을 사용 하 여 파일을 열고 오류를 일으킨 줄으로 이동 하는 것 보다 더 뛰어난 기능에 대 한 합니다.|  
@@ -222,7 +222,7 @@ namespace TestLanguagePackage
   
 ### <a name="in-the-authoringscope-class"></a>AuthoringScope 클래스  
   
-|메서드|반환 된 클래스|설명|  
+|메서드|반환 된 클래스|Description|  
 |------------|--------------------|-----------------|  
 |<xref:Microsoft.VisualStudio.Package.AuthoringScope.GetDeclarations%2A>|<xref:Microsoft.VisualStudio.Package.Declarations>|예: 멤버 또는 형식 선언의 목록을 제공합니다. 이 메서드를 구현 해야 하지만 null 값을 반환할 수 있습니다. 이 메서드는 유효한 개체를 반환 하는 경우 개체 인스턴스여야 버전의는 <xref:Microsoft.VisualStudio.Package.Declarations> 클래스입니다.|  
 |<xref:Microsoft.VisualStudio.Package.AuthoringScope.GetMethods%2A>|<xref:Microsoft.VisualStudio.Package.Methods>|지정 된 컨텍스트에 대해 메서드 서명의 목록이 표시 됩니다. 이 메서드를 구현 해야 하지만 null 값을 반환할 수 있습니다. 이 메서드는 유효한 개체를 반환 하는 경우 개체 인스턴스여야 버전의는 <xref:Microsoft.VisualStudio.Package.Methods> 클래스입니다.|  

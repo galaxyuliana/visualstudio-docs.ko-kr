@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 11d8e3c4ad6c17b000dbf076928c4b1b2c584973
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60076265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68187081"
 ---
 # <a name="writing-user-commands-and-actions"></a>사용자 명령 및 작업 작성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,5 +37,5 @@ ms.locfileid: "60076265"
   
 - [요소 도구 사용자 지정](../modeling/customizing-element-tools.md)  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [도메인별 언어 솔루션 배포](../modeling/deploying-domain-specific-language-solutions.md)

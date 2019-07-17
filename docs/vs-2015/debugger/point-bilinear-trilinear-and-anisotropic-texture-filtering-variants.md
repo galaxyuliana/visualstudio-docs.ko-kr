@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 5c53f3b0633ec8938de210cb518d9fae1937eb2c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68185398"
 ---
 # <a name="point-bilinear-trilinear-and-anisotropic-texture-filtering-variants"></a>Point, Bilinear, Trilinear 및 Anisotropic 텍스처 필터링 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "58970695"
   
 4. 이방성 필터링(성능이 가장 크게 저하되지만 시각적 품질은 가장 좋음)  
   
-   각 변형의 성능 비용이 상당하거나 더욱 집약적인 필터링 모드에서 커지는 경우 향상된 이미지 품질에 대비한 성능 비용을 따져볼 수 있습니다.  평가를 바탕으로 추가 성능 비용을 허용하여 시각적 품질을 향상시키거나 저하된 시각적 품질을 허용하여 더 빠른 프레임 속도를 얻거나 다른 방법에 사용할 수 있는 성능을 회수할 수 있습니다.  
+   각 변형의 성능 비용이 상당하거나 더욱 집약적인 필터링 모드에서 커지는 경우 향상된 이미지 품질에 대비한 성능 비용을 따져볼 수 있습니다. 평가를 바탕으로 추가 성능 비용을 허용하여 시각적 품질을 향상시키거나 저하된 시각적 품질을 허용하여 더 빠른 프레임 속도를 얻거나 다른 방법에 사용할 수 있는 성능을 회수할 수 있습니다.  
   
    필터링 모드에 상관없이 성능 비용이 미미하거나 일정한 경우(예: 대상으로 하는 GUP에 풍부한 셰이더 처리량과 메모리 대역폭이 있는 경우) 앱에서 최상의 이미지 품질을 얻으려면 이방성 필터링 사용을 고려하세요.  
   

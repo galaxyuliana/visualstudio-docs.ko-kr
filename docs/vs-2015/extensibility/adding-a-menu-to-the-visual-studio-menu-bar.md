@@ -12,11 +12,11 @@ caps.latest.revision: 52
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 64ab627d785e8b00b5159969a01dc1102df30359
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184934"
 ---
 # <a name="adding-a-menu-to-the-visual-studio-menu-bar"></a>Visual Studio 메뉴 모음에 메뉴 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,12 +29,12 @@ ms.locfileid: "60117579"
 
  이 연습을 완료 하면 라는 메뉴를 만들 수 있습니다 **TestMenu** 명령을 포함 하는 합니다.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.
 
 ## <a name="creating-a-vsix-project-that-has-a-custom-command-item-template"></a>사용자 지정 명령 항목 템플릿을 VSIX 프로젝트 만들기
 
-1. 라는 VSIX 프로젝트를 만듭니다 `TopLevelMenu`합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다 합니다 **새 프로젝트** 대화 상자의 **Visual C#** / **확장성**합니다.  자세한 내용은 [메뉴 명령을 사용 하 여 확장을 만드는](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.
+1. 라는 VSIX 프로젝트를 만듭니다 `TopLevelMenu`합니다. VSIX 프로젝트 템플릿을 찾을 수 있습니다 합니다 **새 프로젝트** 대화 상자의 **Visual C#**  / **확장성**합니다.  자세한 내용은 [메뉴 명령을 사용 하 여 확장을 만드는](../extensibility/creating-an-extension-with-a-menu-command.md)합니다.
 
 2. 프로젝트를 열면 라는 사용자 지정 명령 항목 템플릿을 추가 **TestCommand**합니다. 에 **솔루션 탐색기**, 프로젝트 노드를 마우스 오른쪽 단추로 **추가 / 새 항목**합니다. 에 **새 항목 추가** 대화 상자에서로 이동 **Visual C# / 확장성** 선택한 **사용자 지정 명령**입니다. 에 **이름을** 창의 맨 아래에 있는 필드에 명령 파일 이름을 **TestCommand.cs**합니다.
 

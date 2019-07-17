@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: e21585a7a56fde2fb46ea86adde92eecfd1a4565
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201689"
 ---
 # <a name="ca1815-override-equals-and-operator-equals-on-value-types"></a>CA1815: 값 형식에서 Equals 또는 같음 연산자를 재정의하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ms.locfileid: "58983871"
 
 ## <a name="example-of-a-violation"></a>위반의 예
 
-### <a name="description"></a>설명
+### <a name="description"></a>Description
  다음 예제에서는이 규칙을 위반 하는 구조체 (값 형식)를 보여 줍니다.
 
 ### <a name="code"></a>코드
@@ -54,7 +54,7 @@ ms.locfileid: "58983871"
 
 ## <a name="example-of-how-to-fix"></a>수정 하는 방법의 예
 
-### <a name="description"></a>설명
+### <a name="description"></a>Description
  다음 예제에서는 재정의 하 여 위반을 해결 <xref:System.ValueType.Equals%2A?displayProperty=fullName> 및 같음 연산자를 구현 합니다. (= =,! =) 합니다.
 
 ### <a name="code"></a>코드
