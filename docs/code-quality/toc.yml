@@ -690,6 +690,14 @@
                   href: ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md
                 - name: 'CA3147: ValidateAntiForgeryToken을 사용하여 동사 처리기를 표시하세요.'
                   href: ca3147-mark-verb-handlers-with-validateantiforgerytoken.md
+                - name: 'CA5361: 강력한 암호의 SChannel 사용을 비활성화하지 마세요.'
+                  href: ca5361.md
+                - name: 'CA5364: 사용되지 않는 보안 프로토콜을 사용하지 마세요.'
+                  href: ca5364.md
+                - name: 'CA5378: ServicePointManagerSecurityProtocols를 비활성화하지 마세요.'
+                  href: ca5378.md
+                - name: 'CA5386: SecurityProtocolType 값을 하드 코딩하지 마세요.'
+                  href: ca5386.md
             - name: 사용법 경고
               items:
                 - name: 개요

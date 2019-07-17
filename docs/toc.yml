@@ -582,12 +582,14 @@
             - name: 국가별 앱 디자인
               displayName: Globalization localization world-ready
               href: ide/globalizing-and-localizing-applications.md
-    - name: 데이터에 액세스...
+    - name: 데이터에 액세스 >>
       displayName: Data connections
       href: data-tools/accessing-data-in-visual-studio.md
-    - name: 사용자 인터페이스 디자인...
+    - name: 사용자 인터페이스 디자인 >>
       displayName: XAML designer
       href: designers/designing-user-interfaces.md
+    - name: 워크플로 디자이너를 사용하여 앱 개발 >>
+      href: workflow-designer/developing-applications-with-the-workflow-designer.md
     - name: 컴파일 및 빌드
       items:
         - name: 개요
@@ -636,9 +638,9 @@
               href: ide/how-to-configure-projects-to-target-platforms.md
             - name: 여러 플랫폼을 대상으로 한 프로젝트 구성
               href: ide/how-to-configure-projects-to-target-multiple-platforms.md
-        - name: MSBuild...
+        - name: MSBuild >>
           href: msbuild/msbuild.md
-        - name: Azure Pipelines 및 TFS...
+        - name: Azure Pipelines 및 TFS >>
           displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
           href: /azure/devops/pipelines/index?view=vsts
         - name: 빌드 이벤트 지정(Visual Basic)
@@ -649,23 +651,23 @@
           href: ide/configuring-warnings-in-visual-basic.md
         - name: '연습: 여러 컴퓨터 빌드 환경 만들기'
           href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
-    - name: 디버그...
+    - name: 디버그 >>
       href: debugger/index.md
-    - name: 테스트...
+    - name: 테스트 >>
       displayName: Unit testing
       href: test/improve-code-quality.md
-    - name: 성능 측정...
+    - name: 성능 측정 >>
       displayName: Profiling
       href: profiling/index.md
-    - name: 코드 품질 분석...
+    - name: 코드 품질 분석 >>
       displayName: Code analysis FxCop Analyzers
       href: code-quality/index.md
-    - name: 배포...
+    - name: 배포 >>
       href: deployment/index.md
-    - name: Visual Studio 확장...
+    - name: Visual Studio 확장 >>
       displayName: Visual Studio SDK
       href: extensibility/visual-studio-sdk.md
-    - name: 분석 및 모델 아키텍처...
+    - name: 아키텍처 분석 및 모델링 >>
       href: modeling/analyze-and-model-your-architecture.md
     - name: 팁과 요령
       items:
