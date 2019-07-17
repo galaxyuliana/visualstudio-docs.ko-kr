@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6ebd05843e5a80f95a6eb30809440e6e5a188d0e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: fc2f56df75cd9abadde8474057f762118c6a840a
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62822978"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826090"
 ---
 # <a name="best-practices-for-coded-ui-tests"></a>코딩된 UI 테스트에 대한 모범 사례
 
@@ -62,11 +62,11 @@ ms.locfileid: "62822978"
 
 - 컨트롤에 더 이상 유효하지 않은 어설션이 있는 경우
 
-    - 어설션이 포함된 메서드를 삭제합니다.
+  - 어설션이 포함된 메서드를 삭제합니다.
 
-    - 테스트 메서드에서 이 메서드 호출을 제거합니다.
+  - 테스트 메서드에서 이 메서드 호출을 제거합니다.
 
-    - 십자선 단추를 UI 컨트롤로 끌어와 새 어설션을 추가하고 UI 맵을 연 다음 새 어설션을 추가합니다.
+  - 십자선 단추를 UI 컨트롤로 끌어와 새 어설션을 추가하고 UI 맵을 연 다음 새 어설션을 추가합니다.
 
 코딩된 UI 테스트를 기록하는 방법에 대한 자세한 내용은 [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)를 참조하세요.
 

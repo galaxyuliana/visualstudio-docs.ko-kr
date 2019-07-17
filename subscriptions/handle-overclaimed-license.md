@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 02/13/2018
 ms.topic: conceptual
 description: 관리자가 과도하게 요청된 구독을 해결하는 방법에 대해 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 06da8c460e9660857b0f03062bde5bd983bd176d
-ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
+ms.openlocfilehash: 23a0888a670c10af4447d7a097067ffe4fe70c0f
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67586997"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67783446"
 ---
 # <a name="overallocated-subscriptions"></a>초과 할당된 구독
 

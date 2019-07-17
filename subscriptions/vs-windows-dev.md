@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Windows 개발자 계정에 대해 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: aacd9dab6353d3cfde727717c67c400f6e17514f
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: 37718671d2b0287920b3b1dbce36ab61affbf223
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67032742"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250766"
 ---
 # <a name="windows-developer-account-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Windows 개발자 계정
 

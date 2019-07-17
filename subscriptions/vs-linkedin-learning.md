@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 LinkedIn 프리미엄 구독의 일부로 포함된 LinkedIn 학습 혜택에 대해 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: eee217bf15a89d24799997c926d598288cec5277
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: 2ae1bd5442a062514525df3d1bada70eba71a81d
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67032849"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824794"
 ---
 # <a name="the-linkedin-learning-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 LinkedIn 학습 혜택
 
@@ -110,7 +109,7 @@ A:  아니요, LinkedIn 학습 혜택은 새 구독자만 사용할 수 있습�
 
 ## <a name="support-resources"></a>지원 리소스
 - LinkedIn Learning과 관련하여 도움이 필요하세요?  다음 리소스를 확인하세요.
-    - [LinkedIn Learning 사용](https://www.linkedin.com/help/learning)에 도움이 됩니다.
-    - 계정 및 프로필 만들기, 네트워크 유지 관리와 같은 [LinkedIn](https://www.linkedin.com/help/linkedin)에 대한 일반적인 질문에 도움이 됩니다.
+  - [LinkedIn Learning 사용](https://www.linkedin.com/help/learning)에 도움이 됩니다.
+  - 계정 및 프로필 만들기, 네트워크 유지 관리와 같은 [LinkedIn](https://www.linkedin.com/help/linkedin)에 대한 일반적인 질문에 도움이 됩니다.
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.

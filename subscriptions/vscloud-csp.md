@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 03/15/2018
 ms.topic: conceptual
 description: 고객에 대한 Visual Studio 클라우드 구독 구입 및 관리 방법에 대한 클라우드 솔루션 공급자에 대한 정보입니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 6f5c760ad67fb92367f971b973f3af0ed6d41785
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4db9211041aca4a49bcd3feb182cfd80423d6960
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62978512"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250662"
 ---
 # <a name="buy-and-manage-visual-studio-cloud-subscriptions-for-your-customers"></a>고객에 대한 Visual Studio 클라우드 구독 구입 및 관리
 

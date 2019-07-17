@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 10b6331c4f0f4e2590fff76d2d7bf8a33a82376f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7c4c3922f8f41f950ede7065e2e15ece07890ba6
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62797762"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825849"
 ---
 # <a name="resource-details-view---contention-data"></a>리소스 정보 뷰 - 경합 데이터
 리소스 정보 뷰에는 선택한 리소스에 대한 경합으로 인해 발생한 차단 이벤트의 시간 표시 막대 그래프가 표시됩니다. 다른 스레드가 리소스에 대한 액세스를 잠가 스레드가 실행을 일시 중단해야 했던 경우 차단 이벤트가 발생합니다.
@@ -36,9 +36,9 @@ ms.locfileid: "62797762"
 
 - 다음 단계 중 하나를 수행합니다.
 
-    - **축소**를 클릭하여 이전 확대/축소 수준으로 돌아갑니다.
+  - **축소**를 클릭하여 이전 확대/축소 수준으로 돌아갑니다.
 
-    - **확대/축소 다시 설정**을 클릭하여 뷰의 전체 시간 표시 막대를 표시합니다.
+  - **확대/축소 다시 설정**을 클릭하여 뷰의 전체 시간 표시 막대를 표시합니다.
 
 #### <a name="to-view-the-call-stack-of-an-event"></a>이벤트의 호출 스택을 보려면
 

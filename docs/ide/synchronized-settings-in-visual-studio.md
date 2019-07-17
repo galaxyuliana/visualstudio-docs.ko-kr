@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1ff663a7d2a22f152b3a0b9081623766535f9a53
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9f567e07ea085844672f04194e4a4ffc5a9318e4
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62950423"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824808"
 ---
 # <a name="synchronize-visual-studio-settings-across-multiple-computers"></a>여러 컴퓨터에서 Visual Studio 설정 동기화
 
@@ -31,19 +31,19 @@ ms.locfileid: "62950423"
 
 - **도구** > **옵션** 페이지의 다음 옵션:
 
-   - **환경** > **일반** 옵션 페이지의 테마 및 메뉴 모음 대/소문자 설정입니다.
+  - **환경** > **일반** 옵션 페이지의 테마 및 메뉴 모음 대/소문자 설정입니다.
 
-   - **환경** > **글꼴 및 색** 옵션 페이지의 모든 설정입니다.
+  - **환경** > **글꼴 및 색** 옵션 페이지의 모든 설정입니다.
 
-   - **환경** > **키보드** 옵션 페이지의 모든 바로 가기 키입니다.
+  - **환경** > **키보드** 옵션 페이지의 모든 바로 가기 키입니다.
 
-   - **환경** > **탭 및 창** 옵션 페이지의 모든 설정입니다.
+  - **환경** > **탭 및 창** 옵션 페이지의 모든 설정입니다.
 
-   - **환경** > **시작** 옵션 페이지의 모든 설정입니다.
+  - **환경** > **시작** 옵션 페이지의 모든 설정입니다.
 
-   - **텍스트 편집기** 옵션 페이지의 모든 설정입니다(예: [코드 스타일 기본 설정](code-styles-and-quick-actions.md)).
+  - **텍스트 편집기** 옵션 페이지의 모든 설정입니다(예: [코드 스타일 기본 설정](code-styles-and-code-cleanup.md)).
 
-   - **XAML 디자이너**의 옵션 페이지의 모든 설정입니다.
+  - **XAML 디자이너**의 옵션 페이지의 모든 설정입니다.
 
 ## <a name="turn-off-synchronized-settings-on-a-particular-computer"></a>특정 컴퓨터에서 동기화된 설정 끄기
 

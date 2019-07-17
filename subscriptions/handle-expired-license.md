@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 10/03/2017
 ms.topic: conceptual
 description: 관리자가 만료된 Visual Studio 구독을 처리하는 방법을 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 3008f570c32970de2764871132e3ddde3dda226c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0b47c18ffc826a755aeafbfc2621aef890afaf37
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62945807"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250397"
 ---
 # <a name="handling-expired-subscriptions"></a>만료된 구독 처리
 

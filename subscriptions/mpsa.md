@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 03/14/2018
 ms.topic: conceptual
 description: MPSA(Microsoft 제품 및 서비스 계약)에서 Visual Studio 구독
-searchscope: VS Subscription
-ms.openlocfilehash: ac051650c26dc2dbb7c6ee6d9405963536dd98c9
-ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.openlocfilehash: 30437703029128232c82d0f4cc4441f09cbd9123
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66402169"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67784405"
 ---
 # <a name="visual-studio-subscriptions-in-a-microsoft-products-and-services-agreement-mpsa"></a>MPSA(Microsoft 제품 및 서비스 계약)에서 Visual Studio 구독
 

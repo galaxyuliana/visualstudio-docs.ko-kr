@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 12/11/2017
 ms.topic: conceptual
 description: Visual Studio 구독을 MPN 파트너에 대한 최종 사용자에게 할당하는 방법입니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 8a0a0f3b6b093c023a8a0129c34d16aa75fffdaf
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: ca0865f876cfad10cbd7c6744f938fef839f7d55
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412397"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823203"
 ---
 # <a name="managing-visual-studio-subscriptions-offered-through-the-microsoft-partner-network-mpn"></a>MPN(Microsoft 파트너 네트워크)을 통해 제공된 Visual Studio 구독 관리
 
@@ -61,7 +60,7 @@ Microsoft Action Pack 구독자 및 Visual Studio 구독
 - Microsoft 파트너 네트워크 [Visual Studio 구독](https://partner.microsoft.com/membership/msdn-subscriptions)에 대한 세부 정보
 
 - Microsoft 파트너 네트워크 [소프트웨어 및 온라인 서비스 혜택에 대한 프로그램 관리자 가이드](https://assets.microsoft.com/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf)
-    - 6페이지 - Action Pack에 대한 연락처 역할 및 Visual Studio 구독 할당
+  - 6페이지 - Action Pack에 대한 연락처 역할 및 Visual Studio 구독 할당
 
 > [!NOTE]
 > Visual Studio 구독에는 기술 담당자 역할이 필요합니다.

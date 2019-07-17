@@ -6,12 +6,12 @@ ms.author: crdun
 ms.date: 04/14/2017
 ms.technology: vs-ide-sdk
 ms.assetid: D5245AB0-8404-426B-B538-F49125E672B2
-ms.openlocfilehash: 3465ef29ca732cd26c03919082052d8b26a83ba1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 26290a5e70a9f4b0f6eeb8df5727ef4f04662136
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62998215"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67890632"
 ---
 # <a name="extending-visual-studio-for-mac"></a>Mac용 Visual Studio 확장
 
@@ -28,7 +28,7 @@ Mac용 Visual Studio에서 확장 패키지를 빌드하려면 Mac용 Visual Stu
 이 모듈식 디자인의 이점은 Mac용 Visual Studio를 확장할 수 있다는 것입니다. 사용자 지정 확장 패키지로 빌드할 수 있는 많은 확장 지점이 있습니다. 현재 확장 패키지의 예로 C# 및 F# 지원, 디버거 도구, 프로젝트 템플릿 등이 있습니다.
 
 > [!NOTE]
-> **참고**: Add-in Maker 1.2 이전에 만든 Add-in Maker 프로젝트가 있는 경우 [여기](https://mhut.ch/addinmaker/1.2)에 나와 있는 단계에 따라 프로젝트를 마이그레이션해야 합니다.
+> Add-in Maker 1.2 이전에 만든 Add-in Maker 프로젝트가 있는 경우 [여기](https://mhut.ch/addinmaker/1.2)에 나와 있는 단계에 따라 프로젝트를 마이그레이션해야 합니다.
 
 <!---The [Walkthrough](~/extending-visual-studio-mac-walkthrough.md) topic explains how to build an extension package that uses a *Command* to insert the date and time into an open text document.--->
 

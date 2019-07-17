@@ -10,17 +10,17 @@ helpviewer_keywords:
 - Contents tab [Help Viewer]
 - table of contents filtering [Help Viewer]
 ms.assetid: 8b98464d-2b05-4710-ad68-5647e78c6b7b
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e75a732ddc9c56e7305e4ebbfec6a188fb6df2bb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bd55a95675505648179161ae3fb7cacea6a83104
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62951336"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825069"
 ---
 # 방법: 목차에서 항목 찾기
 
@@ -31,7 +31,7 @@ ms.locfileid: "62951336"
 
 ## 목차 필터링
 
-목차를 필터링하여 **콘텐츠** 탭에 나타나는 항목의 범위를 좁힐 수 있습니다. 제목은 지정한 어구의 어근을 포함하는 경우에만 목록에 나타납니다. 예를 들어 필터로 "문제 해결하기"를 지정하는 경우 "문제 해결" 또는 “문제 해결하기"가 포함된 제목만 나타납니다. 제목에 해당 어구가 포함되지 않은 노드는 줄임표(**...**)가 있는 단일 노드로 축소됩니다.
+목차를 필터링하여 **콘텐츠** 탭에 나타나는 항목의 범위를 좁힐 수 있습니다. 제목은 지정한 어구의 어근을 포함하는 경우에만 목록에 나타납니다. 예를 들어 필터로 "문제 해결하기"를 지정하는 경우 "문제 해결" 또는 “문제 해결하기"가 포함된 제목만 나타납니다. 제목에 해당 어구가 포함되지 않은 노드는 줄임표( **...** )가 있는 단일 노드로 축소됩니다.
 
 1. **콘텐츠** 탭을 선택합니다.
 

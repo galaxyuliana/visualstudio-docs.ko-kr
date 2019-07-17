@@ -15,12 +15,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 4ef5df077aabb02c9e9a4b46b0cfcbda76263b72
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bdf6f87fbcc412710be6653b83f8b623a6b4d865
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62974737"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826280"
 ---
 # <a name="install-certificates-required-for-visual-studio-offline-installation"></a>Visual Studio 오프라인 설치에 필요한 인증서 설치
 
@@ -135,20 +135,20 @@ Visual Studio 설치 엔진은 신뢰할 수 있는 콘텐츠만 설치합니다
 이 폴더에 있는 세 개의 .P12 파일 각각에는 중간 인증서와 루트 인증서가 포함되어 있습니다. Windows 업데이트로 최신 상태가 유지되는 시스템은 대부분 이러한 인증서가 이미 설치되어 있습니다.
 
 * **ManifestSignCertificates.p12**는 다음을 포함합니다.
-    * 중간 인증서: **Microsoft 코드 서명 PCA 2011**
-        * 필요하지 않음. 일부 시나리오(있는 경우)에서 성능을 향상합니다.
-    * 루트 인증서: **Microsoft 루트 인증 기관 2011**
-        * 최신 Windows 업데이트가 설치되지 않은 Windows 7 서비스 팩 1 시스템에 필요합니다.
+  * 중간 인증서: **Microsoft 코드 서명 PCA 2011**
+    * 필요하지 않음. 일부 시나리오(있는 경우)에서 성능을 향상합니다.
+  * 루트 인증서: **Microsoft 루트 인증 기관 2011**
+    * 최신 Windows 업데이트가 설치되지 않은 Windows 7 서비스 팩 1 시스템에 필요합니다.
 * **ManifestCounterSignCertificates.p12**는 다음을 포함합니다.
-    * 중간 인증서: **Microsoft Time-Stamp PCA 2010**
-        * 필요하지 않음. 일부 시나리오(있는 경우)에서 성능을 향상합니다.
-    * 루트 인증서: **Microsoft 루트 인증 기관 2010**
-        * 최신 Windows 업데이트가 설치되지 않은 Windows 7 서비스 팩 1 시스템에 필요합니다.
+  * 중간 인증서: **Microsoft Time-Stamp PCA 2010**
+    * 필요하지 않음. 일부 시나리오(있는 경우)에서 성능을 향상합니다.
+  * 루트 인증서: **Microsoft 루트 인증 기관 2010**
+    * 최신 Windows 업데이트가 설치되지 않은 Windows 7 서비스 팩 1 시스템에 필요합니다.
 * **Vs_installer_opc.SignCertificates.p12**는 다음을 포함합니다.
-    * 중간 인증서: **Microsoft 코드 서명 PCA**
-        * 모든 시스템에 필요합니다. Windows 업데이트의 모든 업데이트가 적용된 시스템에는 이 인증서가 없을 수 있습니다.
-    * 루트 인증서: **Microsoft 루트 인증 기관**
-        * 필수 요소. 이 인증서는 Windows 7 이상을 실행하는 시스템과 함께 제공됩니다.
+  * 중간 인증서: **Microsoft 코드 서명 PCA**
+    * 모든 시스템에 필요합니다. Windows 업데이트의 모든 업데이트가 적용된 시스템에는 이 인증서가 없을 수 있습니다.
+  * 루트 인증서: **Microsoft 루트 인증 기관**
+    * 필수 요소. 이 인증서는 Windows 7 이상을 실행하는 시스템과 함께 제공됩니다.
 
 **업데이트**: Visual Studio 2017 버전 15.8 미리 보기 2 이상의 경우, Visual Studio 설치 관리자에서는 시스템에 루트 인증서만 설치해야 합니다.
 
@@ -157,20 +157,20 @@ Visual Studio 설치 엔진은 신뢰할 수 있는 콘텐츠만 설치합니다
 ::: moniker range="vs-2019"
 
 * **ManifestSignCertificates.p12**는 다음을 포함합니다.
-    * 중간 인증서: **Microsoft 코드 서명 PCA 2011**
-        * 필요하지 않음. 일부 시나리오(있는 경우)에서 성능을 향상합니다.
-    * 루트 인증서: **Microsoft 루트 인증 기관 2011**
-        * 최신 Windows 업데이트가 설치되지 않은 Windows 7 서비스 팩 1 시스템에 필요합니다.
+  * 중간 인증서: **Microsoft 코드 서명 PCA 2011**
+    * 필요하지 않음. 일부 시나리오(있는 경우)에서 성능을 향상합니다.
+  * 루트 인증서: **Microsoft 루트 인증 기관 2011**
+    * 최신 Windows 업데이트가 설치되지 않은 Windows 7 서비스 팩 1 시스템에 필요합니다.
 * **ManifestCounterSignCertificates.p12**는 다음을 포함합니다.
-    * 중간 인증서: **Microsoft Time-Stamp PCA 2010**
-        * 필요하지 않음. 일부 시나리오(있는 경우)에서 성능을 향상합니다.
-    * 루트 인증서: **Microsoft 루트 인증 기관 2010**
-        * 최신 Windows 업데이트가 설치되지 않은 Windows 7 서비스 팩 1 시스템에 필요합니다.
+  * 중간 인증서: **Microsoft Time-Stamp PCA 2010**
+    * 필요하지 않음. 일부 시나리오(있는 경우)에서 성능을 향상합니다.
+  * 루트 인증서: **Microsoft 루트 인증 기관 2010**
+    * 최신 Windows 업데이트가 설치되지 않은 Windows 7 서비스 팩 1 시스템에 필요합니다.
 * **Vs_installer_opc.SignCertificates.p12**는 다음을 포함합니다.
-    * 중간 인증서: **Microsoft 코드 서명 PCA**
-        * 모든 시스템에 필요합니다. Windows 업데이트의 모든 업데이트가 적용된 시스템에는 이 인증서가 없을 수 있습니다.
-    * 루트 인증서: **Microsoft 루트 인증 기관**
-        * 필수 요소. 이 인증서는 Windows 7 이상을 실행하는 시스템과 함께 제공됩니다.
+  * 중간 인증서: **Microsoft 코드 서명 PCA**
+    * 모든 시스템에 필요합니다. Windows 업데이트의 모든 업데이트가 적용된 시스템에는 이 인증서가 없을 수 있습니다.
+  * 루트 인증서: **Microsoft 루트 인증 기관**
+    * 필수 요소. 이 인증서는 Windows 7 이상을 실행하는 시스템과 함께 제공됩니다.
 
 Visual Studio 설치 관리자에서는 시스템에 루트 인증서만 설치해야 합니다.
 

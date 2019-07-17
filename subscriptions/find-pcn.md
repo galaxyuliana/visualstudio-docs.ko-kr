@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 12/29/2017
 ms.topic: conceptual
 description: PCN(공용 고객 번호) 또는 권한 부여 번호를 찾는 방법 알아보기
-searchscope: VS Subscription
-ms.openlocfilehash: b24654828cb0e44d6e064c01825feaaaff4558b0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ed9604d31a52aab8fa52a48ec627fc7ae7ec3288
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62946130"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250688"
 ---
 # <a name="how-do-i-locate-my-public-customer-number-pcn-or-authorization-number"></a>“PCN(공용 고객 번호)” 또는 권한 부여 번호를 찾으려면 어떻게 할까요?
 
@@ -21,7 +20,7 @@ ms.locfileid: "62946130"
 ## <a name="to-locate-your-pcn-or-authorization-number"></a>PCN 또는 권한 부여 번호를 찾으려면 다음을 수행합니다.
 
 볼륨 라이선스 서비스 센터는 더는 PCN에 대한 액세스 권한을 제공하지 않습니다.  이를 얻으려면 Visual Studio 구독 지원에 문의하세요.
-1. [https://my.visualstudio.com](https://visualstudio.microsoft.com/subscriptions/support/#talktous) 을 방문해 보세요.
+1. [https://my.visualstudio.com](https://visualstudio.microsoft.com/subscriptions/support/#talktous ) 을 방문해 보세요.
 2. **계정, 구독 및 청구 지원** 단추를 탭합니다.
     > [!div class="mx-imgBorder"]
     > ![구독 지원 선택](_img/vlsc/vlsc-pcn.png)

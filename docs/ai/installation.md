@@ -9,12 +9,12 @@ ms.date: 11/13/2017
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 623aa21e94ff25b8190bae82ca836ed16f64bcaa
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 15888341bf3cc7a4e9f4739ed37283e11c5ce75e
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62548451"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821402"
 ---
 # <a name="installation"></a>설치
 
@@ -60,7 +60,7 @@ CUDA를 설치하려면
 
 ### <a name="cudnn"></a>cuDNN
 
-[cuDNN](https://developer.nvidia.com/cudnn)(CUDA Deep Neural Network) 라이브러리는 NVIDIA가 제공하는 심층 신경망용 GPU 가속 원시 라이브러리입니다. 최신 심층 학습 프레임워크에서는 cuDNN v6가 필요합니다. 
+[cuDNN](https://developer.nvidia.com/cudnn)(CUDA Deep Neural Network) 라이브러리는 NVIDIA가 제공하는 심층 신경망용 GPU 가속 원시 라이브러리입니다. 최신 심층 학습 프레임워크에서는 cuDNN v6가 필요합니다.
 
 cuDNN을 설치하려면:
 
@@ -88,29 +88,29 @@ Python은 심층 학습 애플리케이션의 기본 프로그래밍 언어입�
 
 - **Windows**
 
-    ```cmd
-    C:\Users\test>python -V
-    Python 3.5.4
+  ```cmd
+  C:\Users\test>python -V
+  Python 3.5.4
 
-    C:\Users\test>pip3.5 -V
-    pip 9.0.1 from c:\users\test\appdata\local\programs\python\python35\lib\site-packages (python 3.5)
+  C:\Users\test>pip3.5 -V
+  pip 9.0.1 from c:\users\test\appdata\local\programs\python\python35\lib\site-packages (python 3.5)
 
-    C:\Users\test>python -m pip install -U pip
-    ```
+  C:\Users\test>python -m pip install -U pip
+  ```
 
 - **macOS**
 
-    ```bash
-    MyMac:~ test$ python3.5 -V
-    Python 3.5.4
+  ```bash
+  MyMac:~ test$ python3.5 -V
+  Python 3.5.4
 
-    MyMac:~ test$ pip3.5 -V
-    pip 9.0.1 from /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages (python 3.5)
+  MyMac:~ test$ pip3.5 -V
+  pip 9.0.1 from /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages (python 3.5)
 
-    MyMac:~ test$ python3.5 -m pip install -U pip
-    ```
+  MyMac:~ test$ python3.5 -m pip install -U pip
+  ```
 
-### <a name="python-on-visual-studio"></a>Visual Studio의 Python 
+### <a name="python-on-visual-studio"></a>Visual Studio의 Python
 
 Python은 확장을 통해 Visual Studio에서 완전히 지원됩니다.
 자세한 내용은 [Python for Visual Studio Tools](../python/installing-python-support-in-visual-studio.md) 설치를 참조하세요.
@@ -128,7 +128,7 @@ pip3.5 install -U numpy scipy
 ```
 
 > [!NOTE]
-> 위의 명령은 기존 구형 또는 비공식(예: http://www.lfd.uci.edu/~gohlke/pythonlibs/에서 제공하는 Windows용 타사 패키지) NumPy 및 SciPy를 최신 공식 버전으로 업그레이드합니다.
+> 위의 명령은 기존 구형 또는 비공식(예: http://www.lfd.uci.edu/~gohlke/pythonlibs/ 에서 제공하는 Windows용 타사 패키지) NumPy 및 SciPy를 최신 공식 버전으로 업그레이드합니다.
 
 ### <a name="microsoft-cognitive-toolkit-cntk"></a>Microsoft CNTK(Cognitive Toolkit)
 
@@ -162,15 +162,15 @@ MXNet을 설치하려면 터미널에서 다음 명령을 실행합니다.
 
 - GPU 사용
 
-    ```bash
-    pip3.5 install mxnet-cu80==0.12.0
-    ```
+  ```bash
+  pip3.5 install mxnet-cu80==0.12.0
+  ```
 
 - GPU 사용 안 함
 
-    ```bash
-    pip3.5 install mxnet==0.12.0
-    ```
+  ```bash
+  pip3.5 install mxnet==0.12.0
+  ```
 
 ### <a name="keras"></a>Keras
 
@@ -197,39 +197,39 @@ pip3.5 install Theano==0.9.0
 [PyTorch](http://pytorch.org/)는 두 고급 기능을 제공하는 Python 패키지입니다.
 
 - 강력한 GPU 가속화를 통해 numpy처럼 텐서 계산
-- 테이프 기반 오토그래드 시스템을 바탕으로 구축된 심층 신경망 
+- 테이프 기반 오토그래드 시스템을 바탕으로 구축된 심층 신경망
 
 PyTorch를 설치하려면 터미널에서 다음 명령을 실행합니다.
 
 - **Windows**
 
-   아직 공식 휠 패키지가 없습니다. [Anaconda](https://anaconda.org/pytorch/repo?type=all) 또는 [캘리포니아 대학교](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pytorch)에서 타사 패키지를 다운로드할 수 있습니다.
+  아직 공식 휠 패키지가 없습니다. [Anaconda](https://anaconda.org/pytorch/repo?type=all) 또는 [캘리포니아 대학교](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pytorch)에서 타사 패키지를 다운로드할 수 있습니다.
 
-   - 홈 디렉터리(예: *C:\Users\test\pytorch*)에 압축을 풉니다.
-   - *C:\Users\test\pytorch\Lib\site-packages*를 %PYTHONPATH% 환경 변수에 추가합니다.
+  - 홈 디렉터리(예: *C:\Users\test\pytorch*)에 압축을 풉니다.
+  - *C:\Users\test\pytorch\Lib\site-packages*를 %PYTHONPATH% 환경 변수에 추가합니다.
 
-      ```bash
-      pip3 install http://download.pytorch.org/whl/cu80/torch-0.4.0-cp36-cp36m-win_amd64.whl
-      pip3 install torchvision
-      ```
+    ```bash
+    pip3 install http://download.pytorch.org/whl/cu80/torch-0.4.0-cp36-cp36m-win_amd64.whl
+    pip3 install torchvision
+    ```
 
 - **macOS**
 
-    ```bash
-    pip3.5 install http://download.pytorch.org/whl/torch-0.2.0.post3-cp35-cp35m-macosx_10_7_x86_64.whl
-    ```
+  ```bash
+  pip3.5 install http://download.pytorch.org/whl/torch-0.2.0.post3-cp35-cp35m-macosx_10_7_x86_64.whl
+  ```
 
-    > [!NOTE]
-    > macOS 이진은 CUDA를 지원하지 않습니다. CUDA가 필요하면 원본에서 설치합니다.
+  > [!NOTE]
+  > macOS 이진은 CUDA를 지원하지 않습니다. CUDA가 필요하면 원본에서 설치합니다.
 
 - **Linux**
 
-    ```bash
-    pip3.5 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
-    ```
+  ```bash
+  pip3.5 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
+  ```
 
-    > [!NOTE]
-    > 이 단일 패키지는 GPU 및 CPU를 모두 지원합니다.
+  > [!NOTE]
+  > 이 단일 패키지는 GPU 및 CPU를 모두 지원합니다.
 
 마지막으로, 비 Windows에 torchvision을 설치합니다.
 

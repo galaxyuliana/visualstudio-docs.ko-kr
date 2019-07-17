@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 Power BI Pro 구독에 대해 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 75c749d31e28ecdc463b0777744370680309fad7
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: d696a72cc1ab411c9bd01671d9b57e335f751261
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67031976"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824626"
 ---
 # <a name="power-bi-pro-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Power BI Pro
 
@@ -111,9 +110,9 @@ A:  아니요.  Power BI Pro 혜택은 정부 테넌트에는 추가할 수 없�
 
 ## <a name="support-resources"></a>지원 리소스
 - Power BI Pro와 관련하여 도움이 필요하세요?
-    - [온라인 설명서](/power-bi/)를 확인하세요.
-    - 가입하는 데 문제가 있나요?  [Power BI에 개인으로 가입](/power-bi/service-self-service-signup-for-power-bi)을 확인하세요.
-    - 주요 문제를 살펴보거나, 커뮤니티에서 도움을 받거나 [지원 페이지](https://powerbi.microsoft.com/support/)에서 지원 티켓을 제출하세요.
+  - [온라인 설명서](/power-bi/)를 확인하세요.
+  - 가입하는 데 문제가 있나요?  [Power BI에 개인으로 가입](/power-bi/service-self-service-signup-for-power-bi)을 확인하세요.
+  - 주요 문제를 살펴보거나, 커뮤니티에서 도움을 받거나 [지원 페이지](https://powerbi.microsoft.com/support/)에서 지원 티켓을 제출하세요.
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
 

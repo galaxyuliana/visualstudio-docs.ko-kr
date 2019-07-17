@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: a485f58e477d56625bc5ac88a014fc730057b97c
-ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
+ms.openlocfilehash: 76aac39d50dc724916bca3d863c71bacf53407d9
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66432312"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824491"
 ---
 # <a name="analyzing-coded-ui-tests-using-coded-ui-test-logs"></a>코딩된 UI 테스트 로그를 사용하여 코딩된 UI 테스트 분석
 
@@ -42,15 +42,15 @@ ms.locfileid: "66432312"
 
 - 테스트 프로젝트에 *App.config* 파일이 있는 경우:
 
-    - 프로젝트에서 *App.config* 파일을 열고 구성 노드 아래에 다음 코드를 추가합니다.
+  - 프로젝트에서 *App.config* 파일을 열고 구성 노드 아래에 다음 코드를 추가합니다.
 
-      ```xml
-      <system.diagnostics>
-        <switches>
-          <add name="EqtTraceLevel" value="4" />
-        </switches>
-      </system.diagnostics>`
-      ```
+    ```xml
+    <system.diagnostics>
+      <switches>
+        <add name="EqtTraceLevel" value="4" />
+      </switches>
+    </system.diagnostics>`
+    ```
 
 - 테스트 코드 자체에서 로깅을 사용하는 경우.
 

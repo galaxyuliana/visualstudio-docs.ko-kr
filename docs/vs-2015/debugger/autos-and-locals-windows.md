@@ -22,11 +22,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 261c0c0bd8b48634c8d24d56ee4df7ea3bbcf135
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68161706"
 ---
 # <a name="autos-and-locals-windows"></a>자동 및 지역 창
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

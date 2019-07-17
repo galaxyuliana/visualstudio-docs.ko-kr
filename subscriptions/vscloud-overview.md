@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description: 장기 계약 없이 월간 또는 연간 기준으로 Visual Studio Professional 또는 Visual Studio Enterprise를 임대합니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 3dc72dbc801679e9baa4bc54b0343270d2f00a29
-ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
+ms.openlocfilehash: 557f23a6ffa4af39dce2e9716a56ea0e99875f82
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67586894"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67891064"
 ---
 # <a name="buy-visual-studio-professional-and-visual-studio-enterprise-cloud-subscriptions"></a>Visual Studio Enterprise 및 Visual Studio Professional 클라우드 구독 구입
 
@@ -28,7 +27,7 @@ ms.locfileid: "67586894"
 * 구매를 청구하려면 [Azure 구독](https://azure.microsoft.com/pricing/purchase-options/)이 필요합니다. Visual Studio Marketplace에서 첫 번째 구매 전에 또는 첫 번째 구매를 진행하면서 [등록](https://portal.azure.com)할 수 있습니다.
 
 ## <a name="who-can-buy-visual-studio-cloud-subscriptions"></a>누가 Visual Studio 클라우드 구독을 구매할 수 있나요?
-Azure 구독에 대한 [소유자](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner), [서비스 관리자](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#change-the-service-administrator-for-an-azure-subscription) 또는 [공동 관리자](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#add-or-change-co-administrator) 액세스 권한이 있는 누구나 클라우드 구독을 구매할 수 있습니다.
+Azure 구독에 대한 [소유자](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner), [서비스 관리자](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#assign-a-user-as-an-administrator-of-a-subscription) 또는 [공동 관리자](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#assign-a-user-as-an-administrator-of-a-subscription) 액세스 권한이 있는 누구나 클라우드 구독을 구매할 수 있습니다.
 
 ## <a name="how-to-buy-cloud-subscriptions"></a>클라우드 구독 구입 방법
 

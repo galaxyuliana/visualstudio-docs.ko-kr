@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 01/02/2018
 ms.topic: conceptual
 description: 별칭 또는 대화명을 사용하는 경우 로그인에 실패할 수 있습니다.
-searchscope: VS Subscription
-ms.openlocfilehash: ac3f9df365e0b7924b615c2ae8cbb70d93d04948
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7285c1ede495a1aa2603216f2a9e9fe9f89331ea
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62946180"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67783683"
 ---
 # <a name="signing-in-to-visual-studio-subscriptions-may-fail-when-using-aliases"></a>별칭을 사용하여 Visual Studio 구독에 로그인하지 못할 수 있음
 
@@ -110,7 +109,7 @@ At the bottom of the page, select the following:
 
 구독자에게 구독이 할당된 후 구독 혜택을 활용하기 위해 [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs)을 방문하도록 요청하는 이메일이 제공됩니다.  로그인을 시도할 때 Visual Studio 구독 로그인에 실패하고 계정이 인식되지 않음을 나타내는 오류가 표시됩니다.  [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) 환경에 로그인하기 전에 구독자에게 이러한 지침을 따르도록 요청하세요.  필요한 경우 구독을 할당한 후 이 [템플릿](#notifying-your-subscribers-using-personal-accounts)을 사용하여 구독자에게 알릴 수 있습니다.
 
-1. [https://my.visualstudio.com](https://my.visualstudio.com) 으로 이동하여 **새 Microsoft 계정 만들기**를 클릭합니다.
+1. [https://my.visualstudio.com](https://my.visualstudio.com ) 으로 이동하여 **새 Microsoft 계정 만들기**를 클릭합니다.
 
 2. 필드를 완료합니다.
    - Someone@example.com 상자에 시작 전자 메일을 받은 전자 메일 주소를 입력합니다.

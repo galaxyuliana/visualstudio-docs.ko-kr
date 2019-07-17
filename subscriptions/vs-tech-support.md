@@ -6,13 +6,12 @@ manager: lank
 ms.date: 2/13/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 기술 지원 혜택을 활성화하는 방법을 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 238fd0b4c79e5fb99c629d82386676ec175a2a17
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: 5b5bb690af4223ace46ea090a482df610e298fd6
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67032797"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67785052"
 ---
 # <a name="activate-and-use-the-technical-support-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 기술 지원 혜택 활성화 및 사용
 

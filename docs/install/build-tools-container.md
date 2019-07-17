@@ -2,7 +2,7 @@
 title: Visual Studio Build Tools를 컨테이너에 설치
 titleSuffix: ''
 description: Visual Studio Build Tools를 Windows 컨테이너에 설치하여 CI/CD(연속 통합/지속적인 업데이트) 워크플로를 지원하는 방법을 알아봅니다.
-ms.date: 04/18/2018
+ms.date: 07/03/2019
 ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: d5c038e2-e70d-411e-950c-8a54917b578a
@@ -13,12 +13,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 1c7d4b2cb910a6e6ee55ecb783fe124958d251e2
-ms.sourcegitcommit: 3cc73e74921a9ceb622542e0e263abeebc455c00
+ms.openlocfilehash: 24e27c8ca2c75e2345bea4f4393fcb00bba1a0d8
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "67624110"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821716"
 ---
 # <a name="install-build-tools-into-a-container"></a>Build Tools를 컨테이너에 설치
 

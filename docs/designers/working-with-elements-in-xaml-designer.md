@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - uwp
-ms.openlocfilehash: 1c3d0e7d30778580ac09bfd4476e44280c775a2c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b8654c9a414549c4e1fee4515d359bfce4555df8
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62844044"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823820"
 ---
 # <a name="work-with-elements-in-xaml-designer"></a>XAML 디자이너의 요소 작업
 
@@ -43,15 +43,15 @@ XAML 디자이너의 아트보드에 두 요소가 있는 경우 한 요소가 �
 
 - [문서 개요] 창 또는 쌓기 순서를 변경하려는 아트보드에서 요소를 마우스 오른쪽 단추로 클릭하고, **Order**를 가리키고, 다음 중 하나를 클릭합니다.
 
-   - **맨 앞으로 가져오기** - 요소를 순서의 맨 앞으로 가져옵니다.
+  - **맨 앞으로 가져오기** - 요소를 순서의 맨 앞으로 가져옵니다.
 
-   - **앞으로 가져오기** - 요소를 순서대로 한 수준 앞으로 가져옵니다.
+  - **앞으로 가져오기** - 요소를 순서대로 한 수준 앞으로 가져옵니다.
 
-   - **뒤로 보내기** - 요소를 순서대로 한 수준 뒤로 보냅니다.
+  - **뒤로 보내기** - 요소를 순서대로 한 수준 뒤로 보냅니다.
 
-   - **맨 뒤로 보내기** - 요소를 순서의 맨 뒤로 보냅니다.
+  - **맨 뒤로 보내기** - 요소를 순서의 맨 뒤로 보냅니다.
 
-   [속성] 창의 **레이아웃** 섹션에서 **ZIndex** 속성을 변경합니다. 겹치는 요소의 경우 **ZIndex** 속성이 [문서 개요] 창에 표시되는 요소의 순서보다 우선합니다. 요소가 겹치는 경우 **Z 인덱스** 값이 더 큰 요소가 앞에 표시됩니다.
+  [속성] 창의 **레이아웃** 섹션에서 **ZIndex** 속성을 변경합니다. 겹치는 요소의 경우 **ZIndex** 속성이 [문서 개요] 창에 표시되는 요소의 순서보다 우선합니다. 요소가 겹치는 경우 **Z 인덱스** 값이 더 큰 요소가 앞에 표시됩니다.
 
 ## <a name="change-the-alignment-of-an-element"></a>요소의 맞춤 변경
 

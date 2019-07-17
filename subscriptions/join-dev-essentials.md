@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 02/13/2018
 ms.topic: conceptual
 description: Visual Studio Dev Essentials 및 등록 방법에 대해 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 4dc900de5f20c48f683c0dc27f7c9645bd38fcc0
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: 11f69c6fd9530b7dc1383988f1698b3508430f94
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67033116"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250626"
 ---
 # <a name="visual-studio-dev-essentials"></a>Visual Studio Dev Essentials
 

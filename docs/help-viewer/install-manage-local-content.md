@@ -18,17 +18,17 @@ helpviewer_keywords:
 - Help Viewer, installing local content
 - Help Viewer, downloading content
 ms.assetid: efd9df4c-2e69-4c50-992c-9678a8d8cf19
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5576d1a7f66e11056240702f81e2f55edf65f5a0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 20755447ccac7f5720bdb2df2a96cd9dbec5b730
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62824307"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824952"
 ---
 # <a name="install-and-manage-local-content"></a>로컬 콘텐츠 설치 및 관리
 
@@ -51,7 +51,7 @@ Microsoft 도움말 뷰어를 사용하여 소프트웨어 개발 요구 사항�
 
     - *.msha* 파일의 경로 또는 서비스 엔드포인트의 URL을 입력합니다.
 
-    - 찾아보기(**...**) 단추를 선택하여 *.msha* 파일로 이동합니다.
+    - 찾아보기( **...** ) 단추를 선택하여 *.msha* 파일로 이동합니다.
 
     - 목록에서 가장 최근에 사용된 항목을 선택합니다.
 

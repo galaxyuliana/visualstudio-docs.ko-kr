@@ -7,16 +7,16 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 8721d85c7fb3aba513a15fe276adbb2b17496351
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: dc94f3486a4a290dbcdff40303f58b8b42f3f9d9
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62990496"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825861"
 ---
 # <a name="troubleshoot-code-coverage"></a>코드 검사 문제 해결
 
-Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 어셈블리(*.dll* 또는 *.exe* 파일)에 대한 데이터를 수집합니다. 그러나 **코드 검사 결과** 창에 "빈 결과 작성됨: ..."과 유사한 오류가 표시될 수 있습니다. 빈 결과를 얻을 수 있는 이유는 여러 가지가 있습니다. 이 아티클을 사용하면 이러한 문제를 해결해줍니다.
+Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 어셈블리( *.dll* 또는 *.exe* 파일)에 대한 데이터를 수집합니다. 그러나 **코드 검사 결과** 창에 "빈 결과 작성됨: ..."과 유사한 오류가 표시될 수 있습니다. 빈 결과를 얻을 수 있는 이유는 여러 가지가 있습니다. 이 아티클을 사용하면 이러한 문제를 해결해줍니다.
 
 ## <a name="what-you-should-see"></a>표시 내용
 
@@ -97,11 +97,11 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
 
 - **정규식 오류**
 
-     파일의 각 문자열은 정규식입니다. 오류별로 정규식 오류를 검토하고 특히 다음 항목이 있는지 찾아봅니다.
+  파일의 각 문자열은 정규식입니다. 오류별로 정규식 오류를 검토하고 특히 다음 항목이 있는지 찾아봅니다.
 
-    - 짝이 맞지 않는 괄호 (...) 또는 이스케이프되지 않은 괄호 \\(...\\). 검색 문자열에서 괄호를 일치시키려면 이스케이프 처리해야 합니다. 예를 들어 함수를 일치시키려면 `.*MyFunction\(double\)`을 사용합니다.
+  - 짝이 맞지 않는 괄호 (...) 또는 이스케이프되지 않은 괄호 \\(...\\). 검색 문자열에서 괄호를 일치시키려면 이스케이프 처리해야 합니다. 예를 들어 함수를 일치시키려면 `.*MyFunction\(double\)`을 사용합니다.
 
-    - 식의 시작 부분의 별표 또는 더하기 문자열을 일치시키려면 점과 별표, `.*`를 사용합니다.
+  - 식의 시작 부분의 별표 또는 더하기 문자열을 일치시키려면 점과 별표, `.*`를 사용합니다.
 
 ### <a name="custom-runsettings-file-with-incorrect-exclusions"></a>제외를 잘못 지정한 사용자 지정 .runsettings 파일
 
@@ -109,7 +109,7 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
 
 설명&mdash;사용자 지정 *.runsettings* 파일로 단위 테스트를 실행하여 코드 검사 옵션을 구성할 수 있습니다. 옵션을 사용하여 실행 파일을 포함하거나 제외할 수 있습니다. 자세한 내용은 [코드 검사 분석 사용자 지정](../test/customizing-code-coverage-analysis.md)을 참조하세요.
 
-해결&mdash;*.runsettings* 파일에서 모든 `Include` 노드를 제거한 다음, 모든 `Exclude` 노드를 제거합니다. 이것으로 문제가 해결되는 경우 스테이지로 되돌립니다.
+해결&mdash; *.runsettings* 파일에서 모든 `Include` 노드를 제거한 다음, 모든 `Exclude` 노드를 제거합니다. 이것으로 문제가 해결되는 경우 스테이지로 되돌립니다.
 
 DataCollectors 노드에서 코드 검사를 지정하는지 확인합니다. [코드 검사 분석 사용자 지정](../test/customizing-code-coverage-analysis.md)의 샘플과 비교합니다.
 

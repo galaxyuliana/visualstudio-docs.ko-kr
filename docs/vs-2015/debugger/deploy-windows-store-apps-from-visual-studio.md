@@ -15,11 +15,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 73b4350a2e7f277a11f4d6650d8089df0f87fe4d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116396"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68177457"
 ---
 # <a name="deploy-windows-store-apps-from-visual-studio"></a>Visual Studio에서 Windows 스토어 앱 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -104,7 +104,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 ## <a name="BKMK_Deployment_options"></a> 배포 옵션
  시작 프로젝트의 디버그 속성 페이지에서 다음 배포 옵션을 설정할 수 있습니다.
 
- **네트워크 루프백 허용** 보안상의 이유로 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 일반적인 방식으로 설치 된 앱은에 설치 된 장치에 대 한 네트워크 호출을 수행할 수 없습니다. 기본적으로 Visual Studio를 배포하면 배포된 응용 프로그램에 대한 이 규칙의 예외가 만들어 집니다. 이 예외로 인해 사용자는 단일 컴퓨터에서 통신 프로시저를 테스트할 수 있습니다. 앱을 [!INCLUDE[win8_appstore_long](../includes/win8-appstore-long-md.md)]에 제출하기 전에 이 예외 없이 앱을 테스트해야 합니다.
+ **네트워크 루프백 허용** 보안상의 이유로 [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] 일반적인 방식으로 설치 된 앱은에 설치 된 장치에 대 한 네트워크 호출을 수행할 수 없습니다. 기본적으로 Visual Studio 배포에서는 배포된 앱에 대해 이 규칙이 면제됩니다. 이 예외로 인해 사용자는 단일 컴퓨터에서 통신 프로시저를 테스트할 수 있습니다. 앱을 [!INCLUDE[win8_appstore_long](../includes/win8-appstore-long-md.md)]에 제출하기 전에 이 예외 없이 앱을 테스트해야 합니다.
 
  앱에서 네트워크 루프백 예외를 제거하려면
 

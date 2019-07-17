@@ -15,11 +15,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: b5b8d24f01f7882e8c760918119a03a1c489c727
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68156715"
 ---
 # <a name="navigate-a-debugging-session-in-visual-studio-xaml-and-c"></a>Visual Studio에서 디버깅 세션 탐색(XAML 및 C#)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -106,7 +106,7 @@ ms.locfileid: "60059879"
 
   지역 창은 함수의 매개 변수 및 변수의 트리 뷰입니다. 개체 변수의 속성은 개체 자체의 자식 노드입니다. `this` 변수는 모든 개체 메서드에서 개체 자체를 나타내는 숨겨진 매개 변수입니다. 이 경우는 MainPage 클래스를 나타냅니다. `methodTrack` 은 MainPage 클래스의 멤버이므로 해당 값 및 데이터 형식이 `this`아래의 줄에 나열됩니다. `this` 노드를 확장하여 `methodTrack` 정보를 확인합니다.
 
-  **methodTrack 변수에 대한 조사식을 추가합니다.**  `methodWatch` 변수는 이 빠른 시작 전체에서 예제에서 호출된 메서드를 표시하는 데 사용됩니다. 변수의 값을 더 쉽게 확인하려면 조사식 창에 추가합니다. 지역 창에서 변수 이름을 마우스 오른쪽 단추로 클릭한 다음 **조사식 추가**를 선택합니다.
+  **methodTrack 변수에 대한 조사식을 추가합니다.** `methodWatch` 변수는 이 빠른 시작 전체에서 예제에서 호출된 메서드를 표시하는 데 사용됩니다. 변수의 값을 더 쉽게 확인하려면 조사식 창에 추가합니다. 지역 창에서 변수 이름을 마우스 오른쪽 단추로 클릭한 다음 **조사식 추가**를 선택합니다.
 
   ![조사식 창](../debugger/media/dbg-basics-watchwindow.png "DBG_Basics_WatchWindow")
 
@@ -140,7 +140,7 @@ ms.locfileid: "60059879"
 
  **함수를 프로시저 단위로 실행합니다.** Example2의 다음 줄 `int y = Example2_A();` 는 기본적으로 이전 줄과 동일합니다. 이 줄을 안전하게 프로시저 단위로 실행합니다. F10 키를 선택하여 Example2의 다시 계속에서 Example2_A의 이 두번째 호출로 이동합니다. F10 키를 선택하여 이 메서드를 프로시저 단위로 실행합니다. `methodTrack` 문자열은 Example2_A 메서드가 두 번 실행되었음을 나타냅니다. 또한 디버거가 바로 다음 줄로 이동하는 것을 확인할 수 있습니다. 디버거가 Example2가 다시 시작되는 지점에서 실행을 일시 중단하지 않습니다.
 
- **함수의 프로시저에서 나갑니다.** F11 키를 선택하여 Example2_B 메서드를 한 단계씩 코드 실행합니다. Example2_B는 Example2_A와 크게 다르지 않습니다. 메서드를 실행 하려면 선택 **프로시저 나가기** 에 **디버그** 메뉴 (키보드: Shift + F11)입니다.  `methodTrack` 변수는 Example2_B가 실행되었으며 디버거는 Example2가 다시 시작되는 지점으로 돌아갔음을 나타냅니다.
+ **함수의 프로시저에서 나갑니다.** F11 키를 선택하여 Example2_B 메서드를 한 단계씩 코드 실행합니다. Example2_B는 Example2_A와 크게 다르지 않습니다. 메서드를 실행 하려면 선택 **프로시저 나가기** 에 **디버그** 메뉴 (키보드: Shift + F11)입니다. `methodTrack` 변수는 Example2_B가 실행되었으며 디버거는 Example2가 다시 시작되는 지점으로 돌아갔음을 나타냅니다.
 
  **디버깅을 중지합니다.** 디버그 메뉴의 디버깅 중지를 선택 (키보드: Shift + F5)입니다. 이렇게 하면 디버그 세션이 종료됩니다.
 

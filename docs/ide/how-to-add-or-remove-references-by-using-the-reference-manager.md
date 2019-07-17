@@ -21,12 +21,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 32bc3b0a06b7bfb8c012239b256460ad832ac3a1
-ms.sourcegitcommit: d4920babfc3d24a3fe1d4bf446ed3fe73b344467
+ms.openlocfilehash: b0c20408fc7fc2bc15056c9668c90b5870ecf446
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67160160"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825484"
 ---
 # <a name="how-to-add-or-remove-references-by-using-the-reference-manager"></a>방법: 참조 관리자를 사용하여 참조 추가 또는 제거
 
@@ -105,33 +105,33 @@ EnvDTE 네임스페이스(<xref:EnvDTE>, <xref:EnvDTE80>, <xref:EnvDTE90>, <xref
 
 - 다음 위치 중 하나로 어셈블리를 이동하거나 복사합니다.
 
-   - 현재 프로젝트 디렉터리. 이 어셈블리는 **찾아보기** 탭을 통해 찾을 수 있습니다.
+  - 현재 프로젝트 디렉터리. 이 어셈블리는 **찾아보기** 탭을 통해 찾을 수 있습니다.
 
-   - 같은 솔루션에 있는 다른 프로젝트 디렉터리. 이 어셈블리는 **프로젝트** 탭을 통해 찾을 수 있습니다.
+  - 같은 솔루션에 있는 다른 프로젝트 디렉터리. 이 어셈블리는 **프로젝트** 탭을 통해 찾을 수 있습니다.
 
-    \- 또는 -
+  \- 또는 -
 
 - 표시할 어셈블리의 위치를 지정하는 레지스트리 키를 설정합니다.
 
-   32비트 운영 체제의 경우 다음 레지스트리 키 중 하나를 추가합니다.
+  32비트 운영 체제의 경우 다음 레지스트리 키 중 하나를 추가합니다.
 
-   - `[HKEY_CURRENT_USER\SOFTWARE\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
+  - `[HKEY_CURRENT_USER\SOFTWARE\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
 
-   - `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
+  - `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
 
-   64비트 운영 체제의 경우에는 32비트 레지스트리 하이브에 포함된 다음 레지스트리 키 중 하나를 추가합니다.
+  64비트 운영 체제의 경우에는 32비트 레지스트리 하이브에 포함된 다음 레지스트리 키 중 하나를 추가합니다.
 
-   - `[HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
+  - `[HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
 
-   - `[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
+  - `[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\<VersionMinimum>\AssemblyFoldersEx\MyAssemblies]@="<AssemblyLocation>"`
 
-   *\<VersionMinimum\>* 은 적용되는 최하위 프레임워크 버전입니다. *\<VersionMinimum\>* 이 v3.0인 경우 *AssemblyFoldersEx*에 지정된 폴더는 .NET Framework 3.0 이상을 대상으로 하는 프로젝트에 적용됩니다.
+  *\<VersionMinimum\>* 은 적용되는 최하위 프레임워크 버전입니다. *\<VersionMinimum\>* 이 v3.0인 경우 *AssemblyFoldersEx*에 지정된 폴더는 .NET Framework 3.0 이상을 대상으로 하는 프로젝트에 적용됩니다.
 
-   *\<AssemblyLocation\>* 은 **참조 추가** 대화 상자에 표시하려는 어셈블리의 디렉터리(예: *C:\MyAssemblies*)입니다.
+  *\<AssemblyLocation\>* 은 **참조 추가** 대화 상자에 표시하려는 어셈블리의 디렉터리(예: *C:\MyAssemblies*)입니다.
 
-   `HKEY_LOCAL_MACHINE` 노드 아래에 레지스트리 키를 만들면 모든 사용자가 **참조 추가** 대화 상자에서 지정된 위치의 어셈블리를 볼 수 있습니다. `HKEY_CURRENT_USER` 노드 아래에 레지스트리 키를 만들면 현재 사용자에 대한 설정에만 영향을 줍니다.
+  `HKEY_LOCAL_MACHINE` 노드 아래에 레지스트리 키를 만들면 모든 사용자가 **참조 추가** 대화 상자에서 지정된 위치의 어셈블리를 볼 수 있습니다. `HKEY_CURRENT_USER` 노드 아래에 레지스트리 키를 만들면 현재 사용자에 대한 설정에만 영향을 줍니다.
 
-   **참조 추가** 대화 상자를 다시 엽니다. 어셈블리가 **.NET** 탭에 나타나야 합니다. 어셈블리가 나타나지 않으면 지정된 *AssemblyLocation* 디렉터리에 어셈블리가 있는지 확인하고 Visual Studio를 다시 시작한 후 다시 시도합니다.
+  **참조 추가** 대화 상자를 다시 엽니다. 어셈블리가 **.NET** 탭에 나타나야 합니다. 어셈블리가 나타나지 않으면 지정된 *AssemblyLocation* 디렉터리에 어셈블리가 있는지 확인하고 Visual Studio를 다시 시작한 후 다시 시도합니다.
 
 ## <a name="projects-tab"></a>프로젝트 탭
 

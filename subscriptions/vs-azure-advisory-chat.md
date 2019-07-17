@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 12/19/2018
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Azure Advisory Chat 이점을 활용하는 방법에 대해 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 329aa109349a8f97e64cc478b7e843ca4d7b24e3
-ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
+ms.openlocfilehash: d3bdcdff9244a0ddab4f7be4fc030a0d4e189583
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67586973"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250834"
 ---
 # <a name="azure-advisory-chat"></a>Azure Advisory Chat
 

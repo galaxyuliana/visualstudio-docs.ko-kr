@@ -6,13 +6,12 @@ manager: lank
 ms.date: 04/03/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Visual Studio IDE를 다운로드하고 설치하는 방법을 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 1614df094c043c4b3a758409c1cff3c73b56abf6
-ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
+ms.openlocfilehash: 6b3e53604eb275b6fec867ef2470c57d47aaa510
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67586932"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824653"
 ---
 # <a name="using-the-visual-studio-2019-benefit"></a>Visual Studio 2019 혜택 사용
 
@@ -79,6 +78,6 @@ IDE를 다운로드하려면
 
 ## <a name="support-resources"></a>지원 리소스
 - Visual Studio IDE와 관련하여 도움이 필요하면 다음 리소스를 확인하세요.
-    - 기술 지원: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
-    - [문서](/visualstudio/)
+  - 기술 지원: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
+  - [문서](/visualstudio/)
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
