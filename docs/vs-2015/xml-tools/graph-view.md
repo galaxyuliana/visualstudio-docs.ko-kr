@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 3e2b51128e851252d3949e6cfde122a52a09af6e
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68198262"
 ---
 # <a name="graph-view"></a>그래프 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ ms.locfileid: "60110546"
   
  전역 요소에 대한 상황에 맞는 메뉴에는 위에서 설명한 일반 옵션 이외에도 다음 옵션이 있습니다.  
   
-|옵션|설명|  
+|옵션|Description|  
 |------------|-----------------|  
 |**형식 정의 추가**|기본 형식을 다이어그램에 추가합니다.|  
 |**모든 참조를 추가 합니다.**|요소를 참조하는 모든 노드를 추가하고 이러한 노드 간 관계를 나타내는 화살표를 그립니다.|  
@@ -77,7 +77,7 @@ ms.locfileid: "60110546"
   
  전역 그룹 및 특성 그룹에 대한 상황에 맞는 메뉴에는 위에서 설명한 일반 옵션 이외에도 다음 옵션이 있습니다.  
   
-|옵션|설명|  
+|옵션|Description|  
 |------------|-----------------|  
 |**모든 참조를 추가 합니다.**|그룹을 참조하는 모든 노드를 추가하고 이러한 노드 간 관계를 나타내는 화살표를 그립니다.|  
 |**모든 멤버를 추가 합니다.**|그룹의 모든 멤버를 추가하고 이러한 노드 간 관계를 나타내는 화살표를 그립니다.|  
@@ -96,7 +96,7 @@ ms.locfileid: "60110546"
   
  ![XML 스키마 디자이너 도구 모음](../xml-tools/media/xsdgraphviewtoolbar.gif "XSDGraphViewToolbar")  
   
-|옵션|설명|  
+|옵션|Description|  
 |------------|-----------------|  
 |**시작 뷰 표시**|전환 합니다 [보기 시작](../xml-tools/start-view.md)합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **CTRL + 1**합니다.|  
 |**콘텐츠 모델 뷰 표시**|전환 합니다 [콘텐츠 모델 뷰](../xml-tools/content-model-view.md)합니다. 이 보기는 바로 가기 키를 사용 하 여 액세스할 수 있습니다. **CTRL + 2**합니다.|  
@@ -121,7 +121,7 @@ ms.locfileid: "60110546"
   
 - 단일 또는 여러 노드 삭제  
   
-## <a name="zoom"></a>확대/축소  
+## <a name="zoom"></a>Zoom  
  그래프 뷰의 오른쪽 아래 모퉁이에서 확대/축소를 사용할 수 있습니다.  
   
  확대/축소는 다음 방법으로 제어할 수 있습니다.  

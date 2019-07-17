@@ -17,11 +17,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: d6156b729835d16d2e83cc76507ad096528994d4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68189004"
 ---
 # <a name="ltinstallchecksgt-element-bootstrapper"></a>&lt;InstallChecks&gt; 요소 (부트스트래퍼)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -167,7 +167,7 @@ ms.locfileid: "58982599"
 ## <a name="predefined-properties"></a>미리 정의 된 속성  
  다음 표에서 `BypassIf` 고 `FailIf` 요소:  
   
-|속성|노트|가능한 값|  
+|속성|참고|가능한 값|  
 |--------------|-----------|---------------------|  
 |`Version9X`|Windows 9 X 운영 체제의 버전 번호입니다.|4.10 = Windows 98|  
 |`VersionNT`|Windows NT 기반 운영 체제의 버전 번호입니다.|Major.Minor.ServicePack<br /><br /> 5.0 = Windows 2000<br /><br /> 5.1.0 = Windows XP<br /><br /> 5.1.2 = Windows XP Professional SP2<br /><br /> 5.2.0 = Windows Server 2003|  
@@ -182,6 +182,6 @@ ms.locfileid: "58982599"
     <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatform"/>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [\<명령 > 요소](../deployment/commands-element-bootstrapper.md)   
  [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)

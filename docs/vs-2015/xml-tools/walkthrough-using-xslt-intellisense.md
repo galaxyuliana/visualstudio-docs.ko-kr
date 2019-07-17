@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 45cb15a81f7f8f74ab17bf22ce52aca48a90aea9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60063103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158614"
 ---
 # <a name="walkthrough-using-xslt-intellisense"></a>연습: XSLT IntelliSense 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -162,5 +162,5 @@ ms.locfileid: "60063103"
   
      `stylesheet-prefix` 요소의 `result-prefix` 및 `xsl:namespace-alias` 특성에 접미사 목록이 표시되는 방법에 유의해야 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [XML 편집기 IntelliSense 기능](../xml-tools/xml-editor-intellisense-features.md)

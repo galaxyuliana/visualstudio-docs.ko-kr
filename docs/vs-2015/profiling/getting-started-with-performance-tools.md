@@ -13,11 +13,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: ee0cb763cdfcd049ac389b54a2348c0a733b907d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60078982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158223"
 ---
 # <a name="getting-started-with-performance-tools"></a>성능 도구 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

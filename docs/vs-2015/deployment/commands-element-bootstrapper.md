@@ -17,11 +17,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: af10c9e0b26a6ef2c8e7a98bc345b8e86017682b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68205342"
 ---
 # <a name="ltcommandsgt-element-bootstrapper"></a>&lt;명령을&gt; 요소 (부트스트래퍼)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,7 +71,7 @@ ms.locfileid: "58982871"
 ## <a name="elements-and-attributes"></a>요소 및 특성  
  `Commands` 요소는 필수입니다. 요소에는 다음 특성이 있습니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`Reboot`|선택 사항입니다. 시스템 다시 시작 종료 코드를 반환 하는 패키지를 다시 시작 해야 하는지 여부를 결정 합니다. 다음은 유효한 값을 보여 줍니다.<br /><br /> `Defer`. 다시 시작 이후 몇 시간까지 지연 됩니다.<br /><br /> `Immediate`. 즉시 다시 시작을 하면 패키지 중 하나를 다시 시작 종료 코드를 반환 합니다.<br /><br /> `None`. 하면 모든 다시 시작 요청이 무시 됩니다.<br /><br /> 기본값은 `Immediate`입니다.|  
   
@@ -206,6 +206,6 @@ ms.locfileid: "58982871"
 </Commands>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [제품 및 패키지 스키마 참조](../deployment/product-and-package-schema-reference.md)   
  [\<InstallChecks> 요소](../deployment/installchecks-element-bootstrapper.md)

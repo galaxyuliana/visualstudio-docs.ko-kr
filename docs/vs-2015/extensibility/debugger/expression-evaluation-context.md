@@ -11,11 +11,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 377609cb9f971b667872c198a53b45a6288f2c15
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68152788"
 ---
 # <a name="expression-evaluation-context"></a>식 계산 컨텍스트
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,6 +30,6 @@ ms.locfileid: "60052926"
   
      지정 된을 `BSTR` 및 [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md) 인터페이스는 디버그 엔진 (DE)를 만들 수는 [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) 식을 구문 분석 하 여 인터페이스입니다. 지정 된 `IDebugExpression2` 인터페이스는 DE 동기 또는 비동기 식 평가 통해 값을 가져올 수 있습니다. 이름 및 형식의 변수 또는 인수를 함께이 값을 표시 하기 위해 IDE에 전송 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [식 계산 인터페이스](../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
  [디버거 컨텍스트](../../extensibility/debugger/debugger-contexts.md)

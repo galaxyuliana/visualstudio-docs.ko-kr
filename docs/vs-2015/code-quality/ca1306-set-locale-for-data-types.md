@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 75e67cdd058939837441bd969ac8629a6fc65dcc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200366"
 ---
 # <a name="ca1306-set-locale-for-data-types"></a>CA1306: 데이터 형식에 맞는 로캘을 설정하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,7 +49,7 @@ ms.locfileid: "58970563"
 
  [!code-csharp[FxCop.Globalization.DataTable#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Globalization.DataTable/cs/FxCop.Globalization.DataTable.cs#1)]
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
  <xref:System.Data.DataTable?displayProperty=fullName> <xref:System.Data.DataSet?displayProperty=fullName>
  <xref:System.Globalization.CultureInfo?displayProperty=fullName>
  <xref:System.Globalization.CultureInfo.CurrentUICulture%2A?displayProperty=fullName>

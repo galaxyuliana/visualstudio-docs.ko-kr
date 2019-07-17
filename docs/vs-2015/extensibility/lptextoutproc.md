@@ -17,11 +17,11 @@ caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f14942ffd59ce2c6eacf7da2d0d1ab252d58e2cb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60100510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194455"
 ---
 # <a name="lptextoutproc"></a>LPTEXTOUTPROC
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ typedef LONG (*LPTEXTOUTPROC) (
  mesg_type  
  메시지의 형식입니다. 다음 표에서이 매개 변수에 대해 지원 되는 값을 나열합니다.  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |`SCC_MSG_INFO, SCC_MSG_WARNING, SCC_MSG_ERROR`|메시지는 정보, 경고 또는 오류 것으로 간주 됩니다.|  
 |`SCC_MSG_STATUS`|메시지 상태를 표시 하 고 상태 표시줄에 표시할 수 있습니다.|  
@@ -61,7 +61,7 @@ typedef LONG (*LPTEXTOUTPROC) (
   
 ## <a name="return-value"></a>반환 값  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_MSG_RTN_OK|표시 된 문자열 또는 작업이 성공적으로 완료 되었습니다.|  
 |SCC_MSG_RTN_CANCEL|사용자 작업을 취소 하려고 합니다.|  
@@ -117,7 +117,7 @@ typedef struct {
   
  이 구조와 함께 전송 되는 `SCC_MSG_BACKGROUND_ON_MESSAGE` 메시지입니다. 백그라운드 작업의 현재 상태를 통신 하는 것이 됩니다. 상태는 IDE에 의해 표시 되는 문자열로 표현 됩니다 하 고 `bIsError` 메시지의 심각도 나타냅니다 (`TRUE` 에서 오류 메시지입니다. `FALSE` 경고 또는 정보 메시지에 대 한). 전송 상태를 백그라운드 작업의 ID 지정 됩니다.  
   
-## <a name="code-example"></a>코드 예제  
+## <a name="code-example"></a>코드 예  
  호출 하는 간단한 예는 다음과 같습니다 `LPTEXTOUTPROC` 보낼는 `SCC_MSG_BACKGROUND_ON_MESSAGE` 호출 구조를 캐스팅 하는 방법을 보여 주는 메시지입니다.  
   
 ```cpp#  

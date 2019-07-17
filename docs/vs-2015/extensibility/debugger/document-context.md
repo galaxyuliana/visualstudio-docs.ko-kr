@@ -11,11 +11,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 3034c9ca02fca8e91eb1aa5e4d0eb5a2fe1f773f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60080035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200577"
 ---
 # <a name="document-context"></a>문서 컨텍스트
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "60080035"
   
 - 에 의해 구현 되는 [IDebugDocumentContext2](../../extensibility/debugger/reference/idebugdocumentcontext2.md) 인터페이스입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [코드 컨텍스트](../../extensibility/debugger/code-context.md)   
  [기호 공급자](../../extensibility/debugger/symbol-provider.md)   
  [기호 공급자 인터페이스](../../extensibility/debugger/reference/symbol-provider-interfaces.md)   

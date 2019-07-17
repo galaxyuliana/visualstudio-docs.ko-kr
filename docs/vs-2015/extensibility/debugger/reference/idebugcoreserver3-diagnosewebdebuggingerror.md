@@ -13,11 +13,11 @@ caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 24f142a631df25cfbff8ed795736c0cbf4e59eaf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68205274"
 ---
 # <a name="idebugcoreserver3diagnosewebdebuggingerror"></a>IDebugCoreServer3::DiagnoseWebDebuggingError
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ int DiagnoseWebDebuggingError(
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 다음은 다른 일반적인 반환 코드입니다.  
   
-|코드|설명|  
+|코드|Description|  
 |----------|-----------------|  
 |`S_WEBDBG_UNABLE_TO_DIAGNOSE`|원격 서버 디버깅을 시작 하려면 실패 한 이유를 확인할 수 없습니다.|  
 |`S_WEBDBG_DEBUG_VERB_BLOCKED`|권한 부족으로 인해 원격 서버에서 디버깅할 수 없습니다 없거나 DEBUG 동사를 사용할 수 없습니다.|  

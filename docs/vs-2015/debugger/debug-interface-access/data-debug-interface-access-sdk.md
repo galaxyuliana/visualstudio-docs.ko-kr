@@ -17,11 +17,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: a69e1cddec945cd797d91a92d28ba46221a20d10
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197655"
 ---
 # <a name="data-debug-interface-access-sdk"></a>데이터(디버그 인터페이스 액세스 SDK)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "58982500"
 ## <a name="properties"></a>속성  
  다음 표에서이 기호 형식에 대 한 잘못 된 속성을 보여 줍니다.  
   
-|속성|데이터 형식|설명|  
+|속성|데이터 형식|Description|  
 |--------------|---------------|-----------------|  
 |[IDiaSymbol::get_access](../../debugger/debug-interface-access/idiasymbol-get-access.md)|`DWORD`|값 중 하나는 필드를 [CV_access_e 열거형](../../debugger/debug-interface-access/cv-access-e.md)합니다.|  
 |[IDiaSymbol::get_addressOffset](../../debugger/debug-interface-access/idiasymbol-get-addressoffset.md)|`DWORD`|위치 오프셋된 부분 자세한 내용은 참조는 [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md)합니다.|  

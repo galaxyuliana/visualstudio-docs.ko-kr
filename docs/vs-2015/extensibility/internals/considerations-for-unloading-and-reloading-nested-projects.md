@@ -12,11 +12,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 65145530c8cd6b68b82391a09b395bb8c9a61117
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197007"
 ---
 # <a name="considerations-for-unloading-and-reloading-nested-projects"></a>중첩된 프로젝트 언로드 및 다시 로드에 대한 고려 사항
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -32,6 +32,6 @@ ms.locfileid: "58986204"
   
  부모 프로젝트 호출 하 여이 프로세스를 처리 하 `QueryInterface` 에 <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents> 해제 인터페이스는 <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution> 인터페이스입니다. `IVsFireSolutionEvents` 시키려면 IDE에 지시 하는 함수에는 `OnBeforeUnloadProject` 중첩 된 프로젝트를 언로드하고 제기 이벤트는 `OnAfterLoadProject` 동일한 프로젝트를 다시 로드 하는 이벤트입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>   
  [프로젝트 중첩](../../extensibility/internals/nesting-projects.md)

@@ -12,11 +12,11 @@ caps.latest.revision: 27
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 0c5b040a8c5d0cbe2daff07f279cfd6a78cbd2b7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60118112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157398"
 ---
 # <a name="related-services-and-interfaces-source-control-vspackage"></a>관련 서비스 및 인터페이스(소스 제어 VSPackage)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "60118112"
 |---------------|-------------|--------------------|----------------|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>|편집기는 수정 하거나 파일을 저장 하기 전에이 인터페이스를 호출 합니다. 소스 제어 VSPackage 파일을 체크 아웃 하거나 거부할 수 작업을 체크 아웃 하지 못하면 합니다.|소스 제어 VSPackage|권장|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>|이 인터페이스는 등록 및 소스 제어를 사용 하 여 프로젝트의 등록을 취소 하 고 기본 소스 컨트롤 문자 모양에 대 한 지원을 제공 하는 같은 프로젝트에 대 한 기본 소스 제어 기능을 제공 합니다.|소스 제어 VSPackage|필수|  
-|<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>|이 인터페이스에서 가져온 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 를 사용 하 여는 <xref:System.Runtime.InteropServices.Marshal.QueryInterface%2A> 함수 또는 간단히 구현 하는 개체를 캐스팅 하 여 `IVsHierarchy` 를 `IVsSccProject2`합니다. 현재 소스 제어 상태 또는 위치를 프로젝트에 게 알리는 또는 프로젝트에서 소스 제어에서 파일 가져오기에 대 한 사용 됩니다.|프로젝트|필수|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>|이 인터페이스에서 가져온 합니다 <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> 를 사용 하 여는 <xref:System.Runtime.InteropServices.Marshal.QueryInterface%2A> 함수 또는 간단히 구현 하는 개체를 캐스팅 하 여 `IVsHierarchy` 를 `IVsSccProject2`합니다. 현재 소스 제어 상태 또는 위치를 프로젝트에 게 알리는 또는 프로젝트에서 소스 제어에서 파일 가져오기에 대 한 사용 됩니다.|Project|필수|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider>|통합 모듈을 현재 활성 VSPackage를 설정 하려면이 인터페이스를 사용 합니다.|소스 제어 VSPackage|필수|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>|이 인터페이스는 구독 모델을 기반으로 합니다. 모든 VSPackage를 사용 하 여 한다는 것을 문서 이벤트를 수신 하 고 주의 사항은 이러한 셸에서 발생 된 이벤트에 신호를 보낼 수 있습니다. 구현 되 고 처리 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]를 구현 하는 이벤트를 다시 전달 하는 `IVsTrackProjectDocumentsEvents2` VSPackage에 있습니다.|원본 제어 스텁|필수|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments3>|이 인터페이스는 일괄 처리, 동기화 된 읽기/쓰기 작업 및 고급 제공 `OnQueryAddFiles` 메서드.|원본 제어 스텁|필수|  
@@ -55,7 +55,7 @@ ms.locfileid: "60118112"
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccGlyphs>|추가 문자 모양이의 노드에 대 한 원본 제어 문자 모양으로 정의 하려면이 인터페이스를 사용 하는 VSPackage **솔루션 탐색기**합니다.|소스 제어 VSPackage|Optional|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccAddWebProjectFromSourceControl>|합니다 **추가** 웹 프로젝트 대화 상자는이 인터페이스를 사용 합니다. 소스 제어 위치 및 소스 제어 리포지토리에 해당 위치에서 이전에 추가한 웹 프로젝트를 열면 검색에 대 한 메서드를 제공 합니다.|소스 제어 VSPackage|권장|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromScc>|이 인터페이스는 비동기 (백그라운드) 소스 제어에서 프로젝트 로드에 대 한 지원을 제공합니다.|소스 제어 VSPackage|Optional|  
-|<xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromSccProjectEvents>|이 인터페이스를 사용 하 여 시작한 비동기 로딩의 진행률을 확인 하는 프로젝트 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromScc>합니다.|프로젝트|Optional|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromSccProjectEvents>|이 인터페이스를 사용 하 여 시작한 비동기 로딩의 진행률을 확인 하는 프로젝트 <xref:Microsoft.VisualStudio.Shell.Interop.IVsAsynchOpenFromScc>합니다.|Project|Optional|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccToolsOptions>|이 인터페이스는 현재 소스 제어 VSPackage를 쿼리 하기 위해 IDE를 허용 합니다. IDE는 VSPackage 등록 된 활성 원본 컨트롤이 없는 경우에 의미가 있는 소스 제어 설정의 값을 쿼리 합니다. 이 인터페이스를 구현 되 고 처리 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]합니다.|원본 제어 스텁|필수|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterScciProvider>|이 인터페이스는 소스 제어 VSPackage를 등록 하는 중에 사용 됩니다.|원본 제어 스텁|필수|  
 |<xref:EnvDTE.SourceControl>|이 인터페이스는 자동화에 사용 됩니다. 따라서 모든 UI를 표시 하지 않고 실행할 수 있는 함수에만 노출 합니다.|소스 제어 VSPackage|Optional|  

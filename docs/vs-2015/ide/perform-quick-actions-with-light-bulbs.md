@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 74237b42ebafb82e82705d42174efb6f6a4d3661
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54758644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203703"
 ---
 # <a name="perform-quick-actions-with-light-bulbs"></a>전구를 사용하여 빠른 작업 수행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "54758644"
   
 2. **Ctrl +** 줄의 임의 위치를 눌러 전구를 호출하고 잠재적 해결 방법 목록으로 바로 이동합니다.  
   
-   ![마우스로 전구](../ide/media/vs2015-lightbulb-hover.png "VS2015_LightBulb_Hover")  
+   ![마우스로 가리킨 전구](../ide/media/vs2015-lightbulb-hover.png "VS2015_LightBulb_Hover")  
   
 ## <a name="to-see-potential-fixes"></a>잠재적 해결 방법을 보려면  
  아래쪽 화살표나 잠재적 해결 방법 표시 링크를 클릭하여 전구가 수행할 수 있는 빠른 작업 목록을 표시합니다.  

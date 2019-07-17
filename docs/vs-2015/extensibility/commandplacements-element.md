@@ -14,11 +14,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: dbe65cc38bd14d859507d795ce32657f53ca8b44
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184305"
 ---
 # <a name="commandplacements-element"></a>CommandPlacements 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ CommandPlacements 요소 그룹 CommandPlacement 요소 및 기타 CommandPlacem
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[CommandTable 요소](../extensibility/commandtable-element.md)|명령을 나타내는 모든 요소를 정의 합니다.|  
   

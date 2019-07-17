@@ -17,11 +17,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c3c1304a0ff93c58add65f20aa417bb547f5bb31
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200651"
 ---
 # <a name="ltproductgt-element-bootstrapper"></a>&lt;제품&gt; 요소 (부트스트래퍼)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -143,7 +143,7 @@ ProductCode
 ## <a name="elements-and-attributes"></a>요소 및 특성  
  `Product` 요소는 제품 파일에 필요 합니다. 다음 특성이 있습니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`ProductCode`|제품에 대 한 고유 식별자입니다.|  
   

@@ -17,11 +17,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: fe2930e0947bf0fa69408dc81c19d058d6cdd870
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68164270"
 ---
 # <a name="exe"></a>Exe
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "58980611"
 ## <a name="properties"></a>속성  
  다음 표에서이 기호 형식에 대 한 잘못 된 속성을 보여 줍니다.  
   
-|속성|데이터 형식|설명|  
+|속성|데이터 형식|Description|  
 |--------------|---------------|-----------------|  
 |[IDiaSymbol::get_age](../../debugger/debug-interface-access/idiasymbol-get-age.md)|`DWORD`|보존 기간이 실행 파일입니다.|  
 |[IDiaSymbol::get_guid](../../debugger/debug-interface-access/idiasymbol-get-guid.md)|`GUID`|`GUID` 이 실행 파일입니다.|  

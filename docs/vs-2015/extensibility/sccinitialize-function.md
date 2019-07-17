@@ -13,11 +13,11 @@ caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: ce52b65d028f82d75d4890b0b1298b4d13b7eafa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200040"
 ---
 # <a name="sccinitialize-function"></a>SccInitialize 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -67,7 +67,7 @@ SCCRTN SccInitialize (
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|원본 제어 초기화에 성공 했습니다.|  
 |SCC_E_INITIALIZEFAILED|시스템을 초기화할 수 없습니다.|  
@@ -85,7 +85,7 @@ SCCRTN SccInitialize (
   
  `lpSccCaps` 매개 변수는 소스 제어를 제공 플러그 인-기능을 나타내는 비트를 저장 합니다. (기능 비트의 전체 목록을 참조 하세요 [기능 플래그](../extensibility/capability-flags.md)). 예를 들어, 플러그 인 계획 기능을 설정 플러그 인 호출자가 제공한 콜백 함수에 결과 쓸 SCC_CAP_TEXTOUT 비트 경우. 버전 제어 결과 창을 만들려면 IDE 신호는이 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [원본 제어 플러그 인 API 함수](../extensibility/source-control-plug-in-api-functions.md)   
  [SccUninitialize](../extensibility/sccuninitialize-function.md)   
  [SccOpenProject](../extensibility/sccopenproject-function.md)   

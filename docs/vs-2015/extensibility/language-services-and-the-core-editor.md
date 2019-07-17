@@ -11,11 +11,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1e708ffe796bfc9342bc20c3e7f20d5cf0d05058
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68180298"
 ---
 # <a name="language-services-and-the-core-editor"></a>언어 서비스 및 핵심 편집기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ Visual Studio의 편집기는 언어 서비스를 사용 하 여 자주 연결 �
  자세한 내용은 [프로젝트에서 파일을 엽니다는 편집기 결정](../extensibility/internals/determining-which-editor-opens-a-file-in-a-project.md)합니다.  
   
 ## <a name="language-services-and-the-core-editor"></a>언어 서비스 및 핵심 편집기  
- 언어 서비스를 구현 하 여 데이터를 문서 보기에 표시 되는 방식을 제어할 수 있습니다. 언어 서비스 정보 및 Visual c + +와 같은 지정된 된 언어에 관련 된 동작을 제공 합니다. 텍스트 버퍼를 만들고 여는 문서의 파일 이름 확장명을 결정 하는 경우 텍스트 버퍼 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Editors 레지스트리 키에서이 파일 확장명과 연결 된 언어 서비스를 결정 하는 \\{YourLanguageService GUID} \Extensions 합니다. 프로시저를 다음 로드 표준 VSPackage VSPackage를 로드 하 고 언어 서비스의 인스턴스가 만들어집니다.  
+ 언어 서비스를 구현 하 여 데이터를 문서 보기에 표시 되는 방식을 제어할 수 있습니다. 정보 및 시각적 개체와 같은 지정된 된 언어에 관련 된 동작을 제공 하는 언어 서비스 C++입니다. 텍스트 버퍼를 만들고 여는 문서의 파일 이름 확장명을 결정 하는 경우 텍스트 버퍼 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Editors 레지스트리 키에서이 파일 확장명과 연결 된 언어 서비스를 결정 하는 \\{YourLanguageService GUID} \Extensions 합니다. 프로시저를 다음 로드 표준 VSPackage VSPackage를 로드 하 고 언어 서비스의 인스턴스가 만들어집니다.  
   
  기본 언어 서비스는 다음 그림에 표시 됩니다.  
   
@@ -37,7 +37,7 @@ Visual Studio의 편집기는 언어 서비스를 사용 하 여 자주 연결 �
   
  핵심 편집기에 대 한 문서 데이터 개체를 텍스트 버퍼 라고 하며이 표현 된 <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> 개체입니다. 문서 보기 개체 텍스트 뷰 라고 하며이 표현 된 <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow> 개체입니다. 이러한 두 개체는 핵심 편집기의 통합된 보기를 제공 하도록 언어 서비스를 통해 함께 작동 합니다. 텍스트 버퍼 및 문서 창에 텍스트 뷰 표시의 정보는 코드 창을 호출 됩니다. 코드 창 문서 코드 창 관리자에 의해 관리 됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   

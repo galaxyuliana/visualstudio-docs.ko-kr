@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c088b27e686d42d800a6470fbbced8192c100bfc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68153606"
 ---
 # <a name="assemblylocresolution"></a>ASSEMBLYLOCRESOLUTION
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -70,7 +70,7 @@ public enum enum_ASSEMBLYLOCRESOLUTION {
   
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md)   
  [GetManagedViewerCreationData](../../../extensibility/debugger/reference/ipropertyproxyeeside-getmanagedviewercreationdata.md)

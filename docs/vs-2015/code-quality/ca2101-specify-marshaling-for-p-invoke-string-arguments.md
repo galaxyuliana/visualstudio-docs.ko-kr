@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 11916609f2efa9c0b6e208548ba51795bd276015
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68154397"
 ---
 # <a name="ca2101-specify-marshaling-for-pinvoke-string-arguments"></a>CA2101: P/Invoke 문자열 인수에 대해 마샬링을 지정하십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: d5d52f517e40ff7f61db904b81104bf1940938d5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54798454"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68187467"
 ---
 # <a name="working-with-3-d-models"></a>3차원 모델 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "54798454"
   
 ## <a name="related-topics"></a>관련 항목  
   
-|제목|설명|  
+|제목|Description|  
 |-----------|-----------------|  
 |[모델 편집기](../designers/model-editor.md)|모델 편집기를 사용하여 3차원 모델 작업을 수행하는 방법을 설명합니다.|  
 |[모델 편집기 예제](../designers/model-editor-examples.md)|모델 편집기를 사용하여 일반적인 3차원 모델링 작업을 수행하는 방법을 보여 주는 항목에 대한 링크를 제공합니다.|

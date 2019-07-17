@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 4f2f7fc6fd512fa121cf96cb64f4ce4b961772e1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68198678"
 ---
 # <a name="idiaaddressmapputaddressmapenabled"></a>IDiaAddressMap::put_addressMapEnabled
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ HRESULT put_addressMapEnabled ( 
   
  매핑된 주소를 사용 하도록 설정의 현재 상태에 대 한 호출을 사용 하 여 검색할 수는 [idiaaddressmap:: Get_addressmapenabled](../../debugger/debug-interface-access/idiaaddressmap-get-addressmapenabled.md) 메서드.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)   
  [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)   
  [IDiaAddressMap::get_addressMapEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-addressmapenabled.md)

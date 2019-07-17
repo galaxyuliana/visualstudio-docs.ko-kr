@@ -12,11 +12,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: e8e0a17e3580b238c63a23e5943e98afbbb9268b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184559"
 ---
 # <a name="buttons-element"></a>Buttons 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,13 +37,13 @@ ms.locfileid: "58982375"
   
 ### <a name="attributes"></a>특성  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |조건|선택 사항입니다. 참조 [조건부 특성](../extensibility/vsct-xml-schema-conditional-attributes.md)합니다.|  
   
 ### <a name="child-elements"></a>자식 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Buttons 요소](../extensibility/buttons-element.md)|단추 요소를 그룹화합니다.|  
 |[Button 요소](../extensibility/button-element.md)|사용자가 상호 작용할 수 있는 명령을 정의 합니다.|  

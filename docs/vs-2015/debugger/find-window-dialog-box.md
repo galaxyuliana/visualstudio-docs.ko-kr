@@ -13,18 +13,18 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 34d6a847f96f548cdf68ed912d23f6a7ee112d54
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158476"
 ---
 # <a name="find-window-dialog-box"></a>창 찾기 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 대화 상자를 사용 하 여 창을 선택 하 고 해당 속성이 나 메시지를 표시 합니다. 이 대화 상자를 표시 하려면 선택 **창 찾기** 에서 합니다 **Spy** 메뉴.  
   
- 다음 설정은 사용할 수 있습니다.  
+ 다음 설정을 사용할 수 있습니다.  
   
  **찾기 도구**  
  끌어서 놓기 도구 창을 선택 하는 데 사용 합니다.  

@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 5d5a992751e31f21a7875091b4c8b1be9bd0bd0a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197057"
 ---
 # <a name="error-evaluating-the-function-39function39-timed-out-and-needed-to-be-aborted-in-an-unsafe-way"></a>오류: 함수를 계산 &#39;함수&#39; 시간이 초과 되어 안전 하지 않은 방식으로 중단 하는 데 필요한
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

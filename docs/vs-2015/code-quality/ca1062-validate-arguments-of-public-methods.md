@@ -17,11 +17,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 13ea687ea9ca68693af7e2aa5c22881a36207d2e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200442"
 ---
 # <a name="ca1062-validate-arguments-of-public-methods"></a>CA1062: public 메서드의 인수에 대한 유효성을 검사하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "58981618"
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
- 외부에 표시 되는 메서드는 해당 참조 인수 중 하나를 해당 인수 인지 여부를 확인 하지 않고 역참조 `null` (`Nothing` Visual Basic에서).
+ 외부에 표시 되는 메서드는 해당 참조 인수 중 하나를 해당 인수 인지 여부를 확인 하지 않고 역참조 `null` (`Nothing` Visual basic에서).
 
 ## <a name="rule-description"></a>규칙 설명
  외부에서 볼 수 있는 메서드에 전달 되는 모든 참조 인수를 검사 해야 `null`합니다. 해당 하는 경우 throw 한 <xref:System.ArgumentNullException> 인수의 경우 `null`합니다.
@@ -62,7 +62,7 @@ ms.locfileid: "58981618"
  [!code-vb[FxCop.Design.ValidateArguments#2](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Design.ValidateArguments/vb/FxCop.Design.ValidateArguments.vb#2)]
 
 ## <a name="example"></a>예제
- 개체를 참조 하는 필드 또는 속성을 채우는 복사 생성자는 CA1062 규칙을 위반할 수 있습니다. 복사 생성자에 전달 되는 복사 된 개체가 될 수 있으므로 위반이 발생 `null` (`Nothing` Visual Basic에서). 위반을 해결 하려면 정적 (Visual Basic에서는 Shared) 메서드를 사용 하 여 복사한 개체 null 인지 확인 합니다.
+ 개체를 참조 하는 필드 또는 속성을 채우는 복사 생성자는 CA1062 규칙을 위반할 수 있습니다. 복사 생성자에 전달 되는 복사 된 개체가 될 수 있으므로 위반이 발생 `null` (`Nothing` Visual basic에서). 위반을 해결 하려면 정적 (Visual Basic에서는 Shared) 메서드를 사용 하 여 복사한 개체 null 인지 확인 합니다.
 
  다음에서 `Person` 클래스 예제는 `other` 에 전달 되는 개체를 `Person` 복사 생성자 않을 `null`.
 

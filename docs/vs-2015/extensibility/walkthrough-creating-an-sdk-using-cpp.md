@@ -9,11 +9,11 @@ caps.latest.revision: 33
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1312d61b2d287a5dd8cb757b73e818a9e9cb2241
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68202063"
 ---
 # <a name="walkthrough-creating-an-sdk-using-c"></a>연습: C++를 사용하여 SDK 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60110039"
   
 - [클래스 라이브러리를 사용 하는 샘플 앱을 만들려면](../extensibility/walkthrough-creating-an-sdk-using-cpp.md#createSample)  
   
-## <a name="prerequisites"></a>전제 조건  
+## <a name="prerequisites"></a>필수 구성 요소  
  이 연습을 수행하려면 Visual Studio SDK를 설치해야 합니다. 자세한 내용은 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.  
   
 ## <a name="createClassLibrary"></a> 네이티브 및 Windows 런타임 라이브러리를 만들려면  

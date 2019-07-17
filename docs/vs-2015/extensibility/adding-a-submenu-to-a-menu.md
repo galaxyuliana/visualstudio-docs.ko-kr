@@ -14,11 +14,11 @@ caps.latest.revision: 44
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f458d46395c3a902e62ba5dd4ac7d624c326700c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60096467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184897"
 ---
 # <a name="adding-a-submenu-to-a-menu"></a>메뉴에 하위 메뉴 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "60096467"
   
  이 연습에서는 Visual Studio 메뉴 모음에서 메뉴에 하위 메뉴를 만들고 하위 메뉴에 새 명령을 배치 합니다. 이 연습에서는 새 명령을 구현합니다.  
   
-## <a name="prerequisites"></a>전제 조건  
+## <a name="prerequisites"></a>필수 구성 요소  
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  
   
 ## <a name="adding-a-submenu-to-a-menu"></a>메뉴에 하위 메뉴 추가  

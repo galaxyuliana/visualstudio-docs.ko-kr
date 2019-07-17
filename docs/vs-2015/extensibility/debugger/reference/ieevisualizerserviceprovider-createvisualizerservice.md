@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: ed8327690c42f54a33209b2f0acfa45a138ec51c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155087"
 ---
 # <a name="ieevisualizerserviceprovidercreatevisualizerservice"></a>IEEVisualizerServiceProvider::CreateVisualizerService
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ int CreateVisualizerService(
 ## <a name="remarks"></a>설명  
  합니다 `binder`, `pSymProv`, 및 `pAddress` 매개 변수를 전달 된 모든는 `IDebugParsedExpression::EvaluateSync` 메서드. `CreateVisualizerService` 에서만 호출할 수는 `IDebugParsedExpression::EvaluateSync` 일부로 형식 시각화 도우미에 대 한 식 계산기를 지원 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IEEVisualizerServiceProvider](../../../extensibility/debugger/reference/ieevisualizerserviceprovider.md)   
  [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)   
  [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)   

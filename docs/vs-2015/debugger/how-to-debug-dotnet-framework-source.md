@@ -17,11 +17,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 49b13b8406dc96e8e7ebe5e79e26c5da02e8a53a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60092112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68205438"
 ---
 # <a name="how-to-debug-net-framework-source"></a>방법: .NET Framework 소스 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,6 +72,6 @@ ms.locfileid: "60092112"
   
 2. 가리킨 **에서 기호 로드** 클릭 **Microsoft 기호 서버** 하거나 **기호 경로**합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Debugging Managed Code](../debugger/debugging-managed-code.md) (관리 코드 디버그)  
  [기호 파일(.pdb) 및 원본 파일 지정](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)

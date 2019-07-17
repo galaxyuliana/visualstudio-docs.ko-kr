@@ -9,11 +9,11 @@ caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: cb720589bc9bc31b7cf2a04b05559cb9c9d46961
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60117917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201991"
 ---
 # <a name="walkthrough-implementing-code-snippets"></a>연습: 코드 조각 구현
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "60117917"
   
    이 연습은 기반으로 [연습: 문 완성 표시](../extensibility/walkthrough-displaying-statement-completion.md)합니다.  
   
-## <a name="prerequisites"></a>전제 조건  
+## <a name="prerequisites"></a>필수 구성 요소  
  Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.  
   
 ## <a name="creating-and-registering-code-snippets"></a>만들기 및 코드 조각 등록  

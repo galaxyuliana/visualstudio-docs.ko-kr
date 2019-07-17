@@ -13,11 +13,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: ebaf697bfdfff435c12eee1002ff93f4eba7ed65
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195855"
 ---
 # <a name="idebugengine3setjustmycodestate"></a>IDebugEngine3::SetJustMyCodeState
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -58,6 +58,6 @@ int SetJustMyCodeState(
 ## <a name="remarks"></a>설명  
  JustMyCode는 사용자에 속하는 코드를 디버깅 하 고 시스템 코드와 같은 모든 중간 코드를 무시 하 여 개념이-소스 코드 시스템 코드에 사용할 수 있는 경우에 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugEngine3](../../../extensibility/debugger/reference/idebugengine3.md)   
  [JMC_CODE_SPEC](../../../extensibility/debugger/reference/jmc-code-spec.md)

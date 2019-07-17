@@ -11,11 +11,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 95ef509491e05daf575e211ae479c815994eb3d0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982808"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148338"
 ---
 # <a name="properties-window-object-list"></a>속성 창 개요 목록
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,5 +31,5 @@ ms.locfileid: "58982808"
   
  COM 개체를 구현 하지 않는 경우 <xref:Microsoft.VisualStudio.OLE.Interop.IProvideClassInfo>서 **속성** 창 왼쪽 목록의 개체 이름 대신 인터페이스 이름을 표시 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [속성 확장](../../extensibility/internals/extending-properties.md)

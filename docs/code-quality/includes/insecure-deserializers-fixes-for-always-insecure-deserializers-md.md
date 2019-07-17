@@ -4,11 +4,11 @@ ms.author: paulming
 ms.date: 05/01/2019
 ms.topic: include
 ms.openlocfilehash: bc423f10cfbae0b7a0cdaedb72f6891a0e12d228
-ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67254373"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "68147108"
 ---
 - 가능한 경우 보안 직렬 변환기를 대신 사용 하 고 **공격자가 임의의 형식을 deserialize 하는 데 지정 하지**합니다. 안전한 일부 serializer는 다음과 같습니다.
   - <xref:System.Runtime.Serialization.DataContractSerializer?displayProperty=nameWithType>

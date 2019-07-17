@@ -13,11 +13,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 11640da3bcf5ad25aced8bee6fd6d981d658a772
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160057"
 ---
 # <a name="idebugbreakpointunboundevent2getbreakpoint"></a>IDebugBreakpointUnboundEvent2::GetBreakpoint
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -75,6 +75,6 @@ STDMETHODIMP CBreakpointUnboundDebugEventBase::GetBreakpoint(
 }  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugBreakpointUnboundEvent2](../../../extensibility/debugger/reference/idebugbreakpointunboundevent2.md)   
  [IDebugBoundBreakpoint2](../../../extensibility/debugger/reference/idebugboundbreakpoint2.md)

@@ -12,11 +12,11 @@ caps.latest.revision: 32
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: dc94d11a5ed118f0133657ebf5b966623a199d64
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60064390"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197415"
 ---
 # <a name="creating-custom-editors-and-designers"></a>사용자 지정 편집기 및 디자이너 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -75,7 +75,7 @@ Visual Studio 통합된 개발 환경 (IDE)는 다양 한 유형의 편집기를
  [연습: 사용자 지정 편집기 만들기](../extensibility/walkthrough-creating-a-custom-editor.md)  
  사용자 지정 편집기를 만드는 방법을 설명 합니다.  
   
- [연습: 추가 기능을 사용자 지정 편집기에](../extensibility/walkthrough-adding-features-to-a-custom-editor.md)  
+ [연습: 사용자 지정 편집기에 기능 추가](../extensibility/walkthrough-adding-features-to-a-custom-editor.md)  
  사용자 지정 편집기 기능을 추가 하는 방법에 설명 합니다.  
   
  [디자이너 초기화 및 메타데이터 구성](../extensibility/designer-initialization-and-metadata-configuration.md)  

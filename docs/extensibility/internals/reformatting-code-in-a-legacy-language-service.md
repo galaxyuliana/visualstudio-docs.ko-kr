@@ -11,18 +11,19 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: c489fcc3c845ae6421706f7d660083f2e5422e19
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: 16130191eb6a4d8b6d7703a05aaf3271f8c739f5
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66341333"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67891129"
 ---
 # <a name="reformatting-code-in-a-legacy-language-service"></a>레거시 언어 서비스의 코드 서식 다시 지정
 
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 소스 코드 들여쓰기 및 공백 사용을 정규화 하 여 서식이 다시 지정 될 수 있습니다. 이 삽입 또는 공백이 나 탭에서 각 줄의 시작 부분을 제거, 줄 사이 새 줄 추가 공간을 탭 또는 탭을 공백으로 바꿉니다 포함할 수 있습니다.
 
->**참고:** 영향을 줄 바꿈 문자를 삭제 또는 삽입 중단점 및 책갈피 등의 마커를 줄 수 있지만 공백 또는 탭 추가 및 제거 표식에 영향을 주지 않습니다.
+> [!NOTE]
+> 영향을 줄 바꿈 문자를 삭제 또는 삽입 중단점 및 책갈피 등의 마커를 줄 수 있지만 공백 또는 탭 추가 및 제거 표식에 영향을 주지 않습니다.
 
 선택 하 여 사용자가 다시 포맷 작업을 시작할 수 있습니다 **선택 영역 서식** 또는 **문서 서식** 에서 합니다 **고급** 메뉴에서를 **편집**메뉴. 코드 조각 또는 특정 문자를 삽입할 때 다시 포맷 작업을 트리거할 수도 있습니다. 예를 들어 C#에서는 닫는 중괄호를 입력 하면 일치 하는 여는 중괄호 및 닫는 중괄호 사이의 모든 아닌 경우 적절 한 수준으로 자동으로 들여쓰기
 
@@ -182,6 +183,6 @@ namespace MyLanguagePackage
 }
 ```
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 
 - [레거시 언어 서비스 기능](legacy-language-service-features1.md)

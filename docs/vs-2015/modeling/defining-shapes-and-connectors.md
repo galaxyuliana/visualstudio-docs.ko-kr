@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 761e0e77a0fe9f6f32f08045d81f6eab815801dd
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68181892"
 ---
 # <a name="defining-shapes-and-connectors"></a>모양 및 연결선 정의
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ DSL(Domain-Specific Language)에서 다이어그램에 정보를 표시하는 �
   
   다음 모양 형식을 사용할 수 있습니다.  
   
-|모양 형식|설명|  
+|모양 형식|Description|  
 |----------------|-----------------|  
 |기하 도형|일반적으로 사용되는 사각형 또는 타원형 모양입니다. 모양 경계를 기준으로 특정 위치에 텍스트 및 아이콘 Decorator를 표시할 수 있습니다.<br /><br /> 기 하 도형 내에 모양을 중첩, 참조 [중첩 셰이프](../modeling/nesting-shapes.md)합니다.|  
 |구획 모양|UML 클래스와 같이 헤더 및 구획을 포함하는 사각형입니다. 각 구획은 텍스트 행 목록을 포함할 수 있습니다.<br /><br /> 행은 보통 모양으로 표시되는 요소 아래에 포함된 요소를 나타냅니다. 예를 들어 클래스 다이어그램 솔루션 템플릿에서 DSL을 만들 수 있습니다.|  

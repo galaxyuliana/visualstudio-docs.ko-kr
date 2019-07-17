@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 6683aac3c5a4314df6fde3d72dd9085b6608d8a3
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68202260"
 ---
 # <a name="task-element-msbuild"></a>Task 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "59669577"
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Target](../msbuild/target-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 작업의 컨테이너 요소입니다.|  
   

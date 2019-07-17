@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: f23db8a9674de621090be70067a555ef4fca2b99
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201493"
 ---
 # <a name="ca2243-attribute-string-literals-should-parse-correctly"></a>CA2243: 특성 문자열 리터럴이 올바르게 구문 분석되어야 합니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

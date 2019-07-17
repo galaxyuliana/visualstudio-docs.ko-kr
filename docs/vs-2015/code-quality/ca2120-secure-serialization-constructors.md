@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: ea70b7f9462e3195a78b915691a5069ebd6fe6aa
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "59001989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68154350"
 ---
 # <a name="ca2120-secure-serialization-constructors"></a>CA2120: serialization 생성자를 안전하게 하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,6 +54,6 @@ ms.locfileid: "59001989"
 
  [CA2237: SerializableAttribute로 ISerializable 형식 표시](../code-quality/ca2237-mark-iserializable-types-with-serializableattribute.md)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
  <xref:System.Runtime.Serialization.ISerializable?displayProperty=fullName> <xref:System.Runtime.Serialization.SerializationInfo?displayProperty=fullName>
  <xref:System.Runtime.Serialization.StreamingContext?displayProperty=fullName>

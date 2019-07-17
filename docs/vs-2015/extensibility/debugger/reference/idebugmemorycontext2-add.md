@@ -14,11 +14,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 2b1b4b236b438d5ff94120c00952d5cd3adfd590
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983526"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68164077"
 ---
 # <a name="idebugmemorycontext2add"></a>IDebugMemoryContext2::Add
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -56,5 +56,5 @@ int Add(
   
  항상이 메서드는 만들어진 주소 외부 메모리 공간이이 컨텍스트와 연결 된 경우에 새 컨텍스트를을 생성 해야 합니다. 새 컨텍스트에 없는 메모리를 할당할 수 있습니다 하거나이 유일한 예외는 `ppMemCxt` null 값인 경우 (즉, 오류).  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md)

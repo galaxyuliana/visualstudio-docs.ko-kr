@@ -15,11 +15,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: f1f6cf340d7c0ef87f34fc908e075f36eed2962c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68146119"
 ---
 # <a name="how-to-customize-report-view-columns"></a>방법: 보고서 뷰 열 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

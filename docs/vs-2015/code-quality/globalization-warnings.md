@@ -17,11 +17,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 168e4fa8e9865d83d42af5dcc59b51e66e480747
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68142315"
 ---
 # <a name="globalization-warnings"></a>전역화 경고
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "58984776"
   
 ## <a name="in-this-section"></a>섹션 내용  
   
-|규칙|설명|  
+|규칙|Description|  
 |----------|-----------------|  
 |[CA1300: MessageBoxOptions를 지정 합니다.](../code-quality/ca1300-specify-messageboxoptions.md)|오른쪽에서 왼쪽으로 읽기 순서를 사용하는 문화권에 대해 메시지 상자를 올바로 표시하려면 MessageBoxOptions 열거형의 RightAlign 및 RtlReading 멤버를 Show 메서드로 전달해야 합니다.|  
 |[CA1301: 중복 액셀러레이터를 방지 합니다.](../code-quality/ca1301-avoid-duplicate-accelerators.md)|액셀러레이터 키라고도 하는 선택키를 사용하면 Alt 키를 사용하여 키보드로 컨트롤에 액세스할 수 있습니다. 여러 컨트롤에 중복되는 선택키가 있으면 선택키의 동작이 제대로 정의되지 않은 경우입니다.|  

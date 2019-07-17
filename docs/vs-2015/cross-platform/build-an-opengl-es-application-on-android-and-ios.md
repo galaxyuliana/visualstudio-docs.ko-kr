@@ -12,11 +12,11 @@ author: corob-msft
 ms.author: corob
 manager: jillfra
 ms.openlocfilehash: b9f5db4ccd70136b711f5bd221244418cf843485
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60061660"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68151213"
 ---
 # <a name="build-an-opengl-es-application-on-android-and-ios"></a>Build an OpenGL ES Application on Android and iOS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ ms.locfileid: "60061660"
   
 1. Visual Studio를 엽니다. 메뉴 모음에서 **파일**, **새로 만들기**, **프로젝트**를 차례로 선택합니다.  
   
-2. **새 프로젝트** 대화 상자의 **템플릿**에서 **Visual C++**, **플랫폼 간**을 차례로 선택한 후 **OpenGLES 응용 프로그램(Android, iOS)** 템플릿을 선택합니다.  
+2. **새 프로젝트** 대화 상자의 **템플릿**에서 **Visual C++** , **플랫폼 간**을 차례로 선택한 후 **OpenGLES 응용 프로그램(Android, iOS)** 템플릿을 선택합니다.  
   
 3. 앱의 이름을 `MyOpenGLESApp`과 같이 지정하고 **확인**를 참조하세요.  
   

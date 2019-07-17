@@ -17,13 +17,13 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 00b39b91b0a776438199d1df3c212cb9fe40f338
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60048380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155510"
 ---
-# <a name="how-to-relocate-instrumented-binaries"></a>방법: 계측 된 이진 파일 재배치
+# <a name="how-to-relocate-instrumented-binaries"></a>방법: 계측된 이진 파일 재배치
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 계측하는 동안 애플리케이션 성능을 측정하기 위해 프로브가 이진 파일에 삽입됩니다. 계측된 이진 파일을 재배치하도록 선택하면 원본 이진 파일의 복사본이 계측되어 지정한 위치에 배치됩니다. 이 옵션은 프로파일러에서 원본 이진 파일의 이름을 바꾸지 않으려는 경우에 유용합니다. 이진 파일을 재배치하지 않으면 이진 파일의 원래 버전을 덮어씁니다.  

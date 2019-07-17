@@ -12,11 +12,11 @@ caps.latest.revision: 22
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: a4397b2710a7de4addd97bfcbdb4f8e80e2b9c70
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60060581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68204058"
 ---
 # <a name="how-to-turn-off-compatibility-warnings-for-source-control-plug-ins"></a>방법: 소스 제어 플러그 인에 대한 호환성 경고 해제
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,5 +43,5 @@ ms.locfileid: "60060581"
   
      재진입을 지원 하는 것이 좋습니다 (`SCC_CAP_REENTRANT` 기능);이 경고가 제거 됩니다. 그러나 이러한 지원이 가능 하지 않은 이러한 레지스트리 항목을 설정할 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [기능 플래그](../extensibility/capability-flags.md)

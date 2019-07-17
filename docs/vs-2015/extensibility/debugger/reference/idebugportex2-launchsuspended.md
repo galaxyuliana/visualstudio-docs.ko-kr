@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 3c5e57c003257650f5ca60d4a7c3d9becea3e776
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188449"
 ---
 # <a name="idebugportex2launchsuspended"></a>IDebugPortEx2::LaunchSuspended
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -85,7 +85,7 @@ int LaunchSuspended( 
   
  또한 디버그 엔진에서 프로그램을 시작할 수 있습니다. 세부 정보를 참조 하세요 [프로그램을 실행할](../../../extensibility/debugger/launching-a-program.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)   
  [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)   
  [ResumeProcess](../../../extensibility/debugger/reference/idebugportex2-resumeprocess.md)   

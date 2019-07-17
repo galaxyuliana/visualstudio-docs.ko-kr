@@ -14,11 +14,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 69e35d4bebf7a16a1429be674ba3533b4f082b05
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201919"
 ---
 # <a name="wizardextension-element-visual-studio-templates"></a>WizardExtension 요소(Visual Studio 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "58972042"
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[VSTemplate](../extensibility/vstemplate-element-visual-studio-templates.md)|프로젝트 템플릿, 항목 템플릿 또는 시작 키트에 대 한 모든 메타 데이터를 포함합니다.|  
   

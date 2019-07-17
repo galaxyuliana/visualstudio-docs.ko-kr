@@ -9,11 +9,11 @@ caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 3e953d9051b9bc7e95dc29e02eb580c4d93fca26
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60066951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148826"
 ---
 # <a name="walkthrough-creating-an-sdk-using-javascript"></a>연습: JavaScript를 사용하여 SDK 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60066951"
   
   JavaScript에 대 한 형식이 없습니다 클래스 라이브러리 프로젝트입니다. 이 연습에서는 샘플 arithmetic.js 파일을 VSIX 프로젝트에서 직접 만들어집니다. 실제로 것이 좋습니다는 먼저 빌드 및 테스트 JavaScript 및 CSS 파일을 Windows 스토어 앱-를 사용 하 여 예를 들어 합니다 **비어 있는 앱** 템플릿-VSIX 프로젝트에 삽입 하기 전에 합니다.  
   
-## <a name="prerequisites"></a>전제 조건  
+## <a name="prerequisites"></a>필수 구성 요소  
  이 연습을 수행하려면 Visual Studio SDK를 설치해야 합니다. 자세한 내용은 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)합니다.  
   
 ## <a name="createSimpleMathVSIX"></a> SimpleMathVSIX 확장 SDK 프로젝트를 만들려면  

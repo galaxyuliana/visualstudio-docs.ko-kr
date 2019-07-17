@@ -14,11 +14,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: d947c0f2996bcaaeff6c6dbf084151237f1fdb3d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184728"
 ---
 # <a name="assembly-element-visual-studio-template-wizard-extension"></a>Assembly 요소(Visual Studio 템플릿 마법사 확장)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ ms.locfileid: "58970988"
 ## <a name="text-value"></a>텍스트 값  
  텍스트 값은 필수입니다.  
   
- 구현 하는 어셈블리를 지정 하는이 텍스트는 `IWizard` 인터페이스입니다. 전체 어셈블리 이름으로이 어셈블리 이름을 지정 해야 합니다. 예를 들어, `MyAssembly, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11dd0a3a, Custom = null`을 입력합니다.  
+ 구현 하는 어셈블리를 지정 하는이 텍스트는 `IWizard` 인터페이스입니다. 전체 어셈블리 이름으로이 어셈블리 이름을 지정 해야 합니다. `MyAssembly, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11dd0a3a, Custom = null` )을 입력합니다.  
   
 ## <a name="remarks"></a>설명  
  `Assembly`은 `WizardExtension`의 필수 자식 요소입니다.  

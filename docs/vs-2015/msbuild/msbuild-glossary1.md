@@ -10,11 +10,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: e84a7c3c7e402edb3c39ea247ea7efffce1b60df
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54768989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68154835"
 ---
 # <a name="msbuild-glossary"></a>MSBuild 용어
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -218,6 +218,6 @@ ms.locfileid: "54768989"
 
  *메타데이터, 잘 알려짐*을 참조하세요.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
 - [MSBuild1](../msbuild/msbuild.md)

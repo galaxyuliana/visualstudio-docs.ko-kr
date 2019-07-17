@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: b70c5a982da866cbeb9e9907859ad4d270d79bd9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203302"
 ---
 # <a name="memory-tab-process-properties-dialog-box"></a>프로세스 속성 대화 상자, 메모리 탭
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58981937"
   
  다음 설정을 사용할 합니다 **메모리** 탭:  
   
-|입력|설명|  
+|입력|Description|  
 |-----------|-----------------|  
 |**가상 바이트**|프로세스에서 사용 중인 가상 주소 공간의 현재 크기 (메가바이트)입니다. 가상 주소 공간의 사용 반드시 해당 디스크 또는 주 메모리 페이지를 사용을 의미 하지 않습니다. 그러나 가상 공간은 제한 되어 있으며 너무 많은 라이브러리를 로드 하는 프로세스의 기능 제한 될 수 있습니다 사용 하 여.|  
 |**최고 가상 바이트**|한 번에 사용한 프로세스 가상 주소 공간의 바이트의 최대 수입니다.|  

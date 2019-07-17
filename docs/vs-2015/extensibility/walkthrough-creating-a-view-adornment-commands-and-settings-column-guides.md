@@ -9,11 +9,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 0cab24a373595ca1257cbdaa50c009eefa713ea7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148837"
 ---
 # <a name="walkthrough-creating-a-view-adornment-commands-and-settings-column-guides"></a>연습: 보기 장식, 명령 및 설정(열 안내선) 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "58984397"
   
   **참고**:이 연습에서는 visual studio 확장 템플릿에 의해 생성 된 소수의 파일에 많은 양의 코드를 붙여 하지만 곧이 연습에서는 참조 하는 다른 확장 프로그램 예제를 사용 하 여 GitHub에서 완성 된 솔루션입니다. 완성 된 코드는 generictemplate 아이콘을 사용 하는 대신 실제 명령 아이콘에는 약간 다릅니다.
 
-## <a name="getting-started"></a>시작
+## <a name="getting-started"></a>시작하기
 Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센터에서. Visual Studio 설치에서 선택적 기능으로 포함 됩니다. 또한 VS SDK를 나중에 설치할 수 있습니다. 자세한 내용은 [Visual Studio SDK 설치](../extensibility/installing-the-visual-studio-sdk.md)합니다.
 
 ## <a name="setting-up-the-solution"></a>솔루션 설정
@@ -44,7 +44,7 @@ Visual Studio 2015부터 수행 설치 하면 Visual Studio SDK 다운로드 센
 - 사용자 명령에 있는 경우 필요한 VSIP 패키지가 이지만 명령을 구현 개체를 초기화 하는 상용구 코드 뿐입니다.
 - `ColumnGuideCommands` .vsct 파일에 선언 된 사용자 명령을 구현 하 고 명령에 대 한 명령 처리기를 후크 하는 개체입니다.
   
-  **VSIX**. 사용 하 여 **파일 &#124; 새로 만들기...** 프로젝트를 만들려면 명령입니다. 왼쪽된 탐색 창에서 C#에서 확장 노드를 선택 하 고 선택 **VSIX 프로젝트** 오른쪽 창에서. ColumnGuides 이름을 입력 하 고 선택 **확인** 프로젝트를 만듭니다.
+  **VSIX**합니다. 사용 하 여 **파일 &#124; 새로 만들기...** 프로젝트를 만들려면 명령입니다. 왼쪽된 탐색 창에서 C#에서 확장 노드를 선택 하 고 선택 **VSIX 프로젝트** 오른쪽 창에서. ColumnGuides 이름을 입력 하 고 선택 **확인** 프로젝트를 만듭니다.
   
   **Adornment 볼**합니다. 솔루션 탐색기에서 프로젝트 노드의 오른쪽 포인터 단추를 누릅니다. 선택 된 **추가 &#124; 새 항목...** 새 보기 adornment 항목을 추가 하려면 명령입니다. 선택할 **확장성 &#124; 편집기** 왼쪽된 탐색 창에서 선택한 **편집기 뷰포트 Adornment** 오른쪽 창에서. 선택한 항목 이름으로 이름 ColumnGuideAdornment **추가** 추가 합니다.
   
@@ -1342,7 +1342,7 @@ Visual Studio 확장성 샘플 GitHub 프로젝트 되 곧 하 고 완료 된 �
 
 이 Visual Studio 갤러리를 사용 하 여 열 안내선 기능의 버전을 사용해 볼 수 있습니다[확장](https://visualstudiogallery.msdn.microsoft.com/da227a0b-0e31-4a11-8f6b-3a149cf2e459?SRC=Home)합니다.
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>관련 항목
 [편집기 안쪽](../extensibility/inside-the-editor.md)
 [편집기 및 언어 서비스 확장](../extensibility/extending-the-editor-and-language-services.md)
 [언어 서비스 및 편집기 확장 지점](../extensibility/language-service-and-editor-extension-points.md) 

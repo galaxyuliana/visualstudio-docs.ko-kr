@@ -24,11 +24,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1bf57ae0d8d2b9b499897baadc7f2c4450086bf2
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195313"
 ---
 # <a name="debugging-preparation-c-f-and-visual-basic-project-types"></a>디버깅 준비 중: C#, F# 및 Visual Basic 프로젝트 형식
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,5 +57,5 @@ ms.locfileid: "58972160"
  [관리 코드 디버그](../debugger/debugging-managed-code.md)  
  관리 코드로 작성된 응용 프로그램에 관련된 일반적인 디버깅 문제와 디버깅 방법에 대해 설명합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버거 보안](../debugger/debugger-security.md)

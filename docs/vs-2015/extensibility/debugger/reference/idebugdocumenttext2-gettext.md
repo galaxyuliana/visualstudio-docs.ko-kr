@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 066c2c025fe7b1c83fb30cb3a0e1a7b61d8c2c41
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200174"
 ---
 # <a name="idebugdocumenttext2gettext"></a>IDebugDocumentText2::GetText
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -99,6 +99,6 @@ namespace Mynamespace
 }  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugDocumentText2](../../../extensibility/debugger/reference/idebugdocumenttext2.md)   
  [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)

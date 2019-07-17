@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b42617892e377dcf750e9f5cafc914759b7d0c13
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68146535"
 ---
 # <a name="visual-studio-data-tools-for-net"></a>.NET용 Visual Studio 데이터 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ Visual Studio 및.NET Framework에는 광범위 한 API 및 도구 데이터베�
   
 5. 비즈니스 규칙, 검색 및 데이터 유효성 검사 또는 기본 데이터베이스를 노출 하는 사용자 지정 기능을 활용 하는 항목에 대 한 사용자 지정 코드를 추가 합니다.  
   
-   3 단계를 건너뛸 수 있으며 모델을 사용 하는 것이 아니라 데이터베이스에 직접 명령 실행 하는.NET 응용 프로그램을 프로그래밍할 수 있습니다. 이 경우에 관련 설명서를 찾을 수 있습니다. [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx\(v=vs.110\).aspx). 여전히 사용할 수 있는 데이터 소스 구성 마법사 및 디자이너 메모리와 해당 개체에 데이터 바인딩 UI 컨트롤에 고유한 개체를 채울 때 데이터 바인딩 코드를 생성 하려면 note 합니다.  
+   3 단계를 건너뛸 수 있으며 모델을 사용 하는 것이 아니라 데이터베이스에 직접 명령 실행 하는.NET 응용 프로그램을 프로그래밍할 수 있습니다. 이 경우에 관련 설명서를 찾을 수 있습니다. [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx\(v=vs.110\).aspx)합니다. 여전히 사용할 수 있는 데이터 소스 구성 마법사 및 디자이너 메모리와 해당 개체에 데이터 바인딩 UI 컨트롤에 고유한 개체를 채울 때 데이터 바인딩 코드를 생성 하려면 note 합니다.  
   
 ## <a name="in-this-section"></a>단원 내용  
   

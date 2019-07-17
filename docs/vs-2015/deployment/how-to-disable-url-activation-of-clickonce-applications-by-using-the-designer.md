@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 27690ab275d0c7ef2a090fa8ef2e42887ae9daeb
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60043851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68153807"
 ---
 # <a name="how-to-disable-url-activation-of-clickonce-applications-by-using-the-designer"></a>방법: 디자이너를 사용하여 ClickOnce 애플리케이션의 URL 활성화를 사용하지 않도록 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,5 +49,5 @@ ms.locfileid: "60043851"
   
 6. 응용 프로그램을 배포합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)

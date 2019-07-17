@@ -7,11 +7,11 @@ caps.latest.revision: 5
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 33d3094c599ddc8cb472bd6defa211f57e85e84f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60112834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192619"
 ---
 # <a name="manifest-from-resources"></a>Manifest from Resources
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "60112834"
 ||||  
 |-|-|-|  
 |**스위치 이름**|**참고**|**필수 또는 선택**|  
-|/resources|이미지 또는 디렉터리의 세미콜론으로 구분 된 목록입니다. 항상이 목록에는 매니페스트가 포함 될 이미지의 전체 목록을 포함 되어 있어야 합니다. 하나만 부분 목록을 지정 된 경우 제외 항목이 손실 됩니다.<br /><br /> 이미지 스트립 지정 된 리소스 파일을 사용 하는 경우 도구는 분할 별도 이미지로 각 subimage 매니페스트를 추가 하기 전에 합니다.<br /><br /> 이미지.png 파일로 이면 도구는 이미지에 대 한 올바른 특성을 채울 수 있도록 다음과 같은 이름에 서식을 지정 하는 것이 좋습니다. \<Name>.\<Width>.\<Height>.png.|필수|  
+|/resources|이미지 또는 디렉터리의 세미콜론으로 구분 된 목록입니다. 항상이 목록에는 매니페스트가 포함 될 이미지의 전체 목록을 포함 되어 있어야 합니다. 하나만 부분 목록을 지정 된 경우 제외 항목이 손실 됩니다.<br /><br /> 이미지 스트립 지정 된 리소스 파일을 사용 하는 경우 도구는 분할 별도 이미지로 각 subimage 매니페스트를 추가 하기 전에 합니다.<br /><br /> 이미지.png 파일로 이면 도구는 이미지에 대 한 올바른 특성을 채울 수 있도록 다음과 같은 이름에 서식을 지정 하는 것이 좋습니다. \<이름 >. \<너비 >. \<높이 >.png입니다.|필수|  
 |/assembly|이름 (확장명 포함 안), 관리 되는 어셈블리 또는 리소스 (간의 상대적 매니페스트의 런타임 위치)를 호스트 하는 네이티브 어셈블리의 런타임 경로입니다.|필수|  
 |/manifest|생성 된.imagemanifest 파일에 부여할 이름입니다. 이 다른 위치에 파일을 만들려면 절대 또는 상대 경로 포함할 수도 있습니다. 기본 이름은 어셈블리 이름에 일치 합니다.<br /><br /> 기본값: \<현재 디렉터리 >\\< 어셈블리\>.imagemanifest|Optional|  
 |/guidName|모든 생성 된 매니페스트에서 이미지에 대 한 GUID 기호에 부여할 이름입니다.<br /><br /> 기본값: AssetsGuid|Optional|  
@@ -49,7 +49,7 @@ ms.locfileid: "60112834"
   
 - ManifestFromResources /resources:D:\Images\Image1.png;D:\Images\Image1.xaml /assembly:My.Assembly.Name /guidName:MyImages /newGuids /newIds  
   
-## <a name="notes"></a>노트  
+## <a name="notes"></a>참고  
   
 - 이 도구는만.png 및.xaml 파일을 지원합니다. 다른 이미지 또는 파일 형식이 무시 됩니다. 리소스 구문 분석 하는 동안 발생 하는 모든 지원 되지 않는 형식에 대 한 경고가 생성 됩니다. 도구가 완료 되 면 이미지 발견 되는 경우를 지원 하지 않습니다 리소스 구문 분석 오류가 생성 됩니다  
   

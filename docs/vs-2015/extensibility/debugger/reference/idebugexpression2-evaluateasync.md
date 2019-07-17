@@ -13,11 +13,11 @@ caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 2e084152f6215878816739f46dc91fa322cf9c94
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158436"
 ---
 # <a name="idebugexpression2evaluateasync"></a>IDebugExpression2::EvaluateAsync
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ int EvaluateAsync(
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`; 그렇지 않으면 오류 코드를 반환 합니다. 일반적인 오류 코드가입니다.  
   
-|Error|설명|  
+|Error|Description|  
 |-----------|-----------------|  
 |E_EVALUATE_BUSY_WITH_EVALUATION|다른 식이 계산 되는 현재 및 동시 식 계산에 사용할 수 없습니다.|  
   
@@ -74,7 +74,7 @@ HRESULT CExpression::EvaluateAsync(EVALFLAGS dwFlags,
 }  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md)   
  [IDebugExpressionEvaluationCompleteEvent2](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2.md)   
  [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md)   

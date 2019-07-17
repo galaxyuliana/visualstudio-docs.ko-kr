@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: f4d300651731b38b9b86421d36d9de169dc6464d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59651047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188782"
 ---
 # <a name="create-jsdoc-comments-for-javascript-intellisense"></a>JavaScript IntelliSense에 대한 JSDoc 주석 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ Visual Studio의 IntelliSense는 표준 JSDoc 주석을 사용하여 스크립�
 ## <a name="jsdoc-comment-tags"></a>JSDoc 주석 태그  
  다음과 같은 표준 JSDoc 주석 태그는 IntelliSense에서 코드에 대한 정보를 표시하는 데 사용됩니다.  
 
-|  JSDoc 태그   |                       구문                        |                                                     노트                                                      |
+|  JSDoc 태그   |                       구문                        |                                                     참고                                                      |
 |--------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | @deprecated  |              @deprecated *설명*              |                                   사용되지 않는 함수 또는 메서드를 지정합니다.                                   |
 | @description |             @description *설명*              |                              함수 또는 메서드에 대한 설명을 지정합니다.                               |
@@ -35,7 +35,7 @@ Visual Studio의 IntelliSense는 표준 JSDoc 주석을 사용하여 스크립�
 |    @type     |                   @type {*type*}                    |                                상수 또는 변수의 형식을 지정합니다.                                |
 |   @typedef   |         @typedef {*type*} *customTypeName*          |                                            사용자 지정 형식을 지정합니다.                                            |
 
-### <a name="examples"></a>예제  
+### <a name="examples"></a>예  
  다음 예제에서는 사용 합니다 @description, @param, 및 @return 라는 함수에 대 한 JSDoc 태그 `getArea`합니다.  
 
 ```javascript  

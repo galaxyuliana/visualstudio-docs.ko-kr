@@ -11,13 +11,13 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: fc7ddaf7ec67a1e33248d5ce424868849200d3e6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194172"
 ---
-# <a name="new-or-changed-behavior-with-editor-adapters"></a>편집기 어댑터를 사용 하 여 새롭거나 변경 된 동작
+# <a name="new-or-changed-behavior-with-editor-adapters"></a>편집기 어댑터를 사용하는 새롭거나 변경된 동작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 편집기 어댑터의 동작에 다음과 같은 차이점을 알도록 해야 Visual Studio 핵심 편집기의 이전 버전에 대해 작성 된 코드를 업데이트 하는 새로운 API를 사용 하는 대신 편집기 어댑터 (또는 shim)를 사용 하려는 경우 이전 코어 편집기 관련 하 여입니다.  

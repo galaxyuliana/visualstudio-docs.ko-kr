@@ -13,11 +13,11 @@ caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: d8a5a91a0300f256b66970403a3431edf0fe757e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68189535"
 ---
 # <a name="scccheckin-function"></a>SccCheckin 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ SCCRTN SccCheckin (
  lpComment  
  [in] 각 체크 인 되 고 선택한 파일에 적용할 주석 처리 합니다. 이것이 `NULL` 주석에 대 한 소스 제어 플러그 인에서 메시지를 표시 하는 경우.  
   
- fOptions  
+ 옵션이  
  [in] 명령 플래그, 0 또는 `SCC_KEEP_CHECKEDOUT`합니다.  
   
  pvOptions  
@@ -63,7 +63,7 @@ SCCRTN SccCheckin (
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|파일이는 성공적으로 체크 인 되었습니다.|  
 |SCC_E_FILENOTCONTROLLED|선택한 파일이 소스 코드 제어 없습니다.|  

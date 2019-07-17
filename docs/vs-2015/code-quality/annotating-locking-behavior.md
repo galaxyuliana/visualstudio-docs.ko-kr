@@ -34,11 +34,11 @@ author: mikeblome
 ms.author: mblome
 manager: jillfra
 ms.openlocfilehash: 66c4aafb380d50ec0faafce931b8ce73e5138e6f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157120"
 ---
 # <a name="annotating-locking-behavior"></a>잠금 동작에 주석 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ ms.locfileid: "60052391"
   
  동시성 SAL 주석은 잠금 부작용, 잠금 책임, 데이터 보호, 잠금 순서 계층 구조 및 예상되는 기타 잠금 동작을 지정할 수 있도록 설계되었습니다. 암시적 규칙을 명시적으로 지정함으로써 SAL 동시성 주석은 코드에서 잠금 규칙을 사용하는 방법을 문서화할 수 있는 일관된 방법을 제공합니다. 또한 동시성 주석은 경합 상태, 교착 상태, 일치하지 않는 동기화 작업 및 다른 미묘한 동시성 오류를 찾기 위한 코드 분석 도구의 기능을 향상시킵니다.  
   
-## <a name="general-guidelines"></a>일반 지침  
+## <a name="general-guidelines"></a>일반적인 지침  
  주석을 사용하여 구현(호출 수신자)과 클라이언트(호출자) 간의 함수 정의에서 암시된 계약을 명시할 수 있으며, 분석을 더욱 개선할 수 있는 프로그램의 고정 항목과 기타 속성을 나타낼 수 있습니다.  
   
  SAL은 임계 영역, 뮤텍스, 스핀 잠금 및 기타 리소스 개체와 같은 다양한 종류의 잠금 기본 형식을 지원합니다. 많은 동시성 주석이 잠금 식을 매개 변수로 사용합니다. 규칙에 따라 잠금은 내부 잠금 개체의 경로 식으로 표시됩니다.  
@@ -67,7 +67,7 @@ ms.locfileid: "60052391"
 ## <a name="locking-annotations"></a>주석 잠금  
  다음 표에서는 잠금 주석을 보여 줍니다.  
   
-|주석|설명|  
+|Annotation|Description|  
 |----------------|-----------------|  
 |`_Acquires_exclusive_lock_(expr)`|함수에 주석을 달고 사후 상태에서 함수가 `expr`로 명명된 잠금 개체의 단독 잠금 수를 하나 증가시킴을 나타냅니다.|  
 |`_Acquires_lock_(expr)`|함수에 주석을 달고 사후 상태에서 함수가 `expr`로 명명된 잠금 개체의 잠금 수를 하나 증가시킴을 나타냅니다.|  
@@ -91,7 +91,7 @@ ms.locfileid: "60052391"
 ## <a name="sal-intrinsics-for-unexposed-locking-objects"></a>노출되지 않은 잠금 개체에 대한 SAL 내장 함수  
  특정 잠금 개체는 연결된 잠금 함수의 구현에 의해 노출되지 않습니다.  다음 표에서는 이러한 노출되지 않는 잠금 개체에서 작동하는 함수에 주석을 사용하도록 설정하는 SAL 내장 변수를 보여 줍니다.  
   
-|주석|설명|  
+|Annotation|Description|  
 |----------------|-----------------|  
 |`_Global_cancel_spin_lock_`|취소 스핀 잠금을 설명합니다.|  
 |`_Global_critical_region_`|임계 영역을 설명합니다.|  
@@ -101,7 +101,7 @@ ms.locfileid: "60052391"
 ## <a name="shared-data-access-annotations"></a>공유 데이터 액세스 주석  
  다음 표에서는 공유 데이터 액세스에 대한 주석을 보여 줍니다.  
   
-|주석|설명|  
+|Annotation|Description|  
 |----------------|-----------------|  
 |`_Guarded_by_(expr)`|변수에 주석을 추가하고 변수가 엑세스될 때마다 `expr`로 명명된 잠금 개체의 잠금 수가 1개 이상임을 나타냅니다.|  
 |`_Interlocked_`|변수에 주석을 추가하며 `_Guarded_by_(_Global_interlock_)`와 동일합니다.|  

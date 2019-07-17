@@ -18,11 +18,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 2f39bc76329ec891a6e239f7cd2ad816eea1979e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54761948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68193362"
 ---
 # <a name="understanding-build-platforms"></a>빌드 플랫폼 이해
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "54761948"
  [방법: 여러 플랫폼을 대상으로 한 프로젝트 구성](../ide/how-to-configure-projects-to-target-multiple-platforms.md)  
  여러 플랫폼을 대상으로 한 프로젝트를 구성하는 방법을 설명합니다.  
   
-## <a name="see-also"></a>참고 항목  
- [연습: 애플리케이션 빌드](../ide/walkthrough-building-an-application.md)   
+## <a name="see-also"></a>관련 항목  
+ [연습: 응용 프로그램 빌드](../ide/walkthrough-building-an-application.md)   
  [Visual Studio에서 프로젝트 및 솔루션 빌드 및 정리](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [컴파일 및 빌드](../ide/compiling-and-building-in-visual-studio.md)

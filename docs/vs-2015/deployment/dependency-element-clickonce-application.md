@@ -28,11 +28,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: e79fadcab1a4f00c084d675c3267b5886772fe2c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199875"
 ---
 # <a name="ltdependencygt-element-clickonce-application"></a>&lt;종속성&gt; 요소 (ClickOnce 응용 프로그램)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -155,14 +155,14 @@ ms.locfileid: "58972607"
 ### <a name="dsigtransform"></a>dsig:Transform  
  합니다 `dsig:Transform` 의 필수 자식 요소인는 `dsig:Transforms` 요소입니다. `dsig:Transform` 요소에는 다음 특성이 있습니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`Algorithm`|이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 는 `urn:schemas-microsoft-com:HashTransforms.Identity`합니다.|  
   
 ### <a name="dsigdigestmethod"></a>dsig:DigestMethod  
  합니다 `dsig:DigestMethod` 의 필수 자식 요소인는 `hash` 요소입니다. `dsig:DigestMethod` 요소에는 다음 특성이 있습니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`Algorithm`|이 파일에 대 한 다이제스트를 계산 하는 데 사용 된 알고리즘입니다. 사용 하는 유일한 값 현재 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 는 `http://www.w3.org/2000/09/xmldsig#sha1`합니다.|  
   
@@ -219,6 +219,6 @@ ms.locfileid: "58972607"
 </dependency>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [ClickOnce 응용 프로그램 매니페스트](../deployment/clickonce-application-manifest.md)   
  [\<dependency> 요소](../deployment/dependency-element-clickonce-deployment.md)

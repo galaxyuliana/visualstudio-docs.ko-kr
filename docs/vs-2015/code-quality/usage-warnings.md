@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 679c12eb99e3cad7486384999a2393e09dbd277f
-ms.sourcegitcommit: 23feea519c47e77b5685fec86c4bbd00d22054e3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "59002185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68142108"
 ---
 # <a name="usage-warnings"></a>사용법 경고
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "59002185"
   
 ## <a name="in-this-section"></a>섹션 내용  
   
-|규칙|설명|  
+|규칙|Description|  
 |----------|-----------------|  
 |[CA1801: 사용 되지 않는 매개 변수를 검토](../code-quality/ca1801-review-unused-parameters.md)|메서드 시그니처에 메서드 본문에서 사용되지 않는 매개 변수가 있습니다.|  
 |[CA1806: 메서드 결과 무시 하지 마십시오](../code-quality/ca1806-do-not-ignore-method-results.md)|새 개체가 만들어지지만 사용되지 않거나, 새 문자열을 만들고 반환하는 메서드가 호출되고 새 문자열이 사용되지 않거나, COM 또는 P/Invoke 메서드가 사용되지 않는 오류 코드나 HRESULT를 반환합니다.|  

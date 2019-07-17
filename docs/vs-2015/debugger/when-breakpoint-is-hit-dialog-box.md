@@ -22,11 +22,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 9a7cd140a22c435df0875c089a69476d3e1e61cf
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983897"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68149418"
 ---
 # <a name="when-breakpoint-is-hit-dialog-box"></a>중단점이 적중될 때 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,6 +42,6 @@ ms.locfileid: "58983897"
  **실행 계속**  
  이 컨트롤은 **메시지 인쇄**를 선택한 경우에만 활성화됩니다. 이 컨트롤을 선택 하면 프로그램 실행을 추적 하려면 추적점으로 중단점을 사용할 수 있습니다 위치 적중 될 때 중단 하는 대신 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [중단점 사용](../debugger/using-breakpoints.md)   
  [DebuggerDisplay 특성 사용](../debugger/using-the-debuggerdisplay-attribute.md)

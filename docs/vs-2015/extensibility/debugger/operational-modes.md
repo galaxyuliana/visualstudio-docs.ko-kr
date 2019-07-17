@@ -11,11 +11,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c4009ab6268140117c8fd1294adcc52ac347b799
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60087809"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68153716"
 ---
 # <a name="operational-modes"></a>작업 모드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "60087809"
   
  중지 이벤트를 실행 하거나 모드 단계 중단 모드에서 디버거를 전환 하는 다음 방법 중 하나를 호출 하 여 계속 됩니다.  
   
-- [Execute](../../extensibility/debugger/reference/idebugprocess3-execute.md)  
+- [실행](../../extensibility/debugger/reference/idebugprocess3-execute.md)  
   
 - [Step](../../extensibility/debugger/reference/idebugprocess3-step.md)  
   

@@ -11,11 +11,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f882eae12e700fe86ab747cc7ffbe3b5744298af
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68204844"
 ---
 # <a name="structures-and-unions"></a>구조체 및 공용 구조체
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -188,7 +188,7 @@ ms.locfileid: "58971407"
  실제 주소를 설명합니다.  
   
  [UNMANAGED_ADDRESS_THIS_RELATIVE](../../../extensibility/debugger/reference/unmanaged-address-this-relative.md)  
- 기준으로 하는 주소에 설명 합니다는 `this` 포인터 (`Me` Visual Basic에서).  
+ 기준으로 하는 주소에 설명 합니다는 `this` 포인터 (`Me` Visual basic에서).  
   
 ## <a name="requirements"></a>요구 사항  
  헤더: msdbg.h, sh.h, 또는 ee.h  

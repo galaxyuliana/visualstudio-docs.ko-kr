@@ -14,11 +14,11 @@ caps.latest.revision: 18
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 194768a3b540511996e1d99e6450a7a9b24ebc74
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184297"
 ---
 # <a name="commands-element"></a>Commands 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -44,13 +44,13 @@ VSPackage 도구 모음에서 명령의 컬렉션을 나타냅니다. 컬렉션 
   
 ### <a name="attributes"></a>특성  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |패키지|명령을 제공 하는 VSPackage를 식별 하는 GUID입니다.<br /><br /> 예를 들어 패키지 = "guidVsPackage1Pkg"입니다.|  
   
 ### <a name="child-elements"></a>자식 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Menus 요소](../extensibility/menus-element.md)|VSPackage를 구현 하는 모든 메뉴를 정의 합니다.|  
 |[Groups 요소](../extensibility/groups-element.md)|VSPackage의 명령 그룹을 정의 하는 항목을 포함 합니다.|  
@@ -60,7 +60,7 @@ VSPackage 도구 모음에서 명령의 컬렉션을 나타냅니다. 컬렉션 
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[CommandTable 요소](../extensibility/commandtable-element.md)|VSPackage는 IDE를 제공 하는 명령을 나타내는 모든 요소를 정의 합니다. 가능한 요소에는 메뉴 항목, 메뉴, 도구 모음 및 콤보 상자는입니다.|  
   

@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 2c69b165e6a9e36d190a64b9d2e9ec41fcff2183
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158420"
 ---
 # <a name="idebugexpressioncontext2getname"></a>IDebugExpressionContext2::GetName
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ int GetName( 
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  
   
 ## <a name="remarks"></a>설명  
- 이름에는이 평가 컨텍스트에의 설명입니다. 일반적으로 있는 것이 정확한 평가 컨텍스트를 참조 하는 식 계산기에서 구문 분석할 수 있습니다. 예를 들어, c + +에서 이름이 같습니다.  
+ 이름에는이 평가 컨텍스트에의 설명입니다. 일반적으로 있는 것이 정확한 평가 컨텍스트를 참조 하는 식 계산기에서 구문 분석할 수 있습니다. 예를 들어, C++ 이름 아래와 같습니다.  
   
 ```  
 "{ function-name, source-file-name, module-file-name }"  

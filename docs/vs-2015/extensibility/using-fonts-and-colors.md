@@ -15,13 +15,13 @@ caps.latest.revision: 28
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 42ebc9414e3e5bb10f2468ed7f5f4fb4900e4ec6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68177230"
 ---
-# <a name="using-fonts-and-colors"></a>글꼴 및 색을 사용 하 여
+# <a name="using-fonts-and-colors"></a>글꼴 및 색 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] 글꼴 및 색을 사용 하 여 텍스트를 표시 하는 것에 대 한 지원을 제공 합니다.  

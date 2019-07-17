@@ -13,11 +13,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 02197f660189d4caf374fc5927f349fd5fc6b8b5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201019"
 ---
 # <a name="idebugpointerfieldgetdereferencedfield"></a>IDebugPointerField::GetDereferencedField
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,6 +48,6 @@ int GetDereferencedField(
 ## <a name="remarks"></a>설명  
  예를 들어, 합니다 [IDebugPointerField](../../../extensibility/debugger/reference/idebugpointerfield.md) 개체는 정수를 가리킵니다 합니다 [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) 이 메서드에서 반환 되는 형식을 해당 정수 형식에 설명 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugPointerField](../../../extensibility/debugger/reference/idebugpointerfield.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

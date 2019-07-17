@@ -14,11 +14,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 12945998b215e9082591fad514bd9c16ab789405
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203885"
 ---
 # <a name="intellisensehostflags"></a>IntelliSenseHostFlags
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,12 +40,12 @@ enum IntellisenseHostFlags
   
 #### <a name="parameters"></a>매개 변수  
   
-|멤버|설명|  
+|멤버|Description|  
 |-------------|-----------------|  
 |`IHF_READONLYCONTEXT`|상황에 맞는 버퍼는 읽기 전용입니다.|  
 |`IHF_NOSEPARATESUBJECT`|제목 텍스트가 없습니다. 상황에 맞는 버퍼에 IntelliSense 대상 (의미 `!IHF_READONLYCONTEXT`).|  
 |`IHF_SINGLELINESUBJECT`|제목 텍스트는 다중 명령줄 수 없습니다.|  
-|`IHF_FORCECOMMITTOCONTEXT`|`CanCommitIntoReadOnlyBuffer`와 동일합니다.|  
+|`IHF_FORCECOMMITTOCONTEXT`|`CanCommitIntoReadOnlyBuffer`와 같습니다.|  
 |`IHF_OVERTYPE`|겹쳐쓰기 모드에서 주체 또는 상황에 맞는) (에서 편집 해야 합니다.|  
   
 ## <a name="requirements"></a>요구 사항  

@@ -11,11 +11,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: b4ac6fa753be7672f1e698bda231bd11217c10d4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68152728"
 ---
 # <a name="getscheduledtasksfordebugger-method"></a>GetScheduledTasksForDebugger 메서드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,5 +40,5 @@ ms.locfileid: "58970947"
 ## <a name="remarks"></a>설명  
  이 메서드는 스레드로부터 안전 하지 않습니다 및 다른 인스턴스의 동시 사용 하지 않아야 <xref:System.Threading.Tasks.TaskScheduler> 디버거가 다른 모든 스레드가 일시 중단 하는 경우에 디버거를 호출 해야 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [TaskScheduler 클래스](../../extensibility/debugger/taskscheduler-class-internal-members.md)

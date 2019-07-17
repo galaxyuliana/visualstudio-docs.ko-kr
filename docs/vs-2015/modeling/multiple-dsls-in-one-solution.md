@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: d70794dddc02605c76c1af330a49af4be917c0e3
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60050142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159008"
 ---
 # <a name="multiple-dsls-in-one-solution"></a>하나의 솔루션에 여러 DSL 포함
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "60050142"
   
 2. DSL의 VSIX 매니페스트를 결합합니다.  
   
-   1. Open _YourVsixProject_**\source.extension.manifest**.  
+   1. 오픈 _YourVsixProject_ **\source.extension.manifest**합니다.  
   
    2. 각 DSL에 대해 선택할 **콘텐츠 추가** 추가:  
   
@@ -59,9 +59,9 @@ ms.locfileid: "60050142"
   
 3. 솔루션을 빌드합니다.  
   
-   그러면 생성되는 VSIX가 두 DSL을 모두 설치합니다. F5 키를 사용 하 여 테스트 하거나 배포할 수 있습니다 _YourVsixProject_**\bin\Debug\\\*.vsix**합니다.  
+   그러면 생성되는 VSIX가 두 DSL을 모두 설치합니다. F5 키를 사용 하 여 테스트 하거나 배포할 수 있습니다 _YourVsixProject_ **\bin\Debug\\\*.vsix**합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Visual Studio Modelbus를 사용 하 여 모델 통합](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   
  [방법: 끌어서 놓기 처리기 추가](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [복사 동작 사용자 지정](../modeling/customizing-copy-behavior.md)

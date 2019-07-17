@@ -13,11 +13,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 00ef98c93f02aa8e8a1b4ea53f1998d0ab6713a9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200122"
 ---
 # <a name="sccenumchangedfiles-function"></a>SccEnumChangedFiles 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -55,9 +55,9 @@ SCCRTN SccEnumChangedFiles(
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
-|SCC_OK|작업이 완료 되었습니다.|  
+|SCC_OK|작업이 완료되었습니다.|  
 |SCC_UNSPECIFIEDERROR|일반 오류입니다.|  
   
 ## <a name="see-also"></a>참고 항목  

@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 86279ff4e1721007814163787bd9ed06edc9fb13
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68161193"
 ---
 # <a name="graphics-object-table"></a>그래픽 개체 테이블
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ Visual Studio Graphics Analysis의 그래픽 개체 테이블은 게임이나 �
 |**활성**|캡처된 프레임 중에 D3D10Device 또는 D3D11DeviceContext에서 설정된 개체의 경우 "*"가 표시됩니다.<br /><br /> 이러한 개체는 회색 텍스트로 표시되는 개체에 해당합니다. 그러나 개체 테이블을 정렬할 수 있도록 열 항목이 제공됩니다.|  
 |**Size**|개체의 크기(바이트)입니다.|  
 |**Format**|개체의 형식입니다. 예를 들어 텍스처 개체의 형식이거나 셰이더 개체의 셰이더 모델일 수 있습니다.|  
-|**너비**|텍스처 개체의 너비입니다. 다른 개체 형식에는 적용되지 않습니다.|  
+|**Width**|텍스처 개체의 너비입니다. 다른 개체 형식에는 적용되지 않습니다.|  
 |**높이**|텍스처 개체의 높이입니다. 다른 개체 형식에는 적용되지 않습니다.|  
 |**깊이**|3D 텍스처 개체의 깊이입니다. 텍스처가 3D가 아닌 경우에는 값이 0입니다. 다른 개체 형식에는 적용되지 않습니다.|  
 |**Mips**|텍스처 개체에 포함된 MIP 수준의 수입니다. 다른 개체 형식에는 적용되지 않습니다.|  

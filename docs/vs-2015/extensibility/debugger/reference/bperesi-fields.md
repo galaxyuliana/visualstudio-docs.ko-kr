@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: b1b5cba13e439c69b3502b00c6ae159b6af28178
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984319"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68153241"
 ---
 # <a name="bperesifields"></a>BPERESI_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -82,7 +82,7 @@ public enum enum_BPERESI_FIELDS { 
   
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [BP_ERROR_RESOLUTION_INFO](../../../extensibility/debugger/reference/bp-error-resolution-info.md)   
  [GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md)

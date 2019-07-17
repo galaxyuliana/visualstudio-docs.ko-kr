@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: f0758d9eb5a003b0353ceb4fee21996d90685fa5
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60111235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68161697"
 ---
 # <a name="bc-texture-compression-variant"></a>BC 텍스처 압축 변형
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ B8G8R8X8, B8G8R8A8 또는 R8G8B8A8의 변형인 픽셀 형식이 있는 질감�
 ## <a name="interpretation"></a>해석  
  BC1, BC2 및 BC3과 같은 블록 기반 압축 형식은 압축되지 않은 이미지 형식보다 메모리를 훨씬 더 적게 차지하므로 메모리 대역폭도 상당히 적게 사용합니다. 픽셀당 32비트를 사용하는 압축되지 않은 형식과 비교하여 BC1(이전의 DXT1)의 압축률은 8:1이고 BC3(이전의 DXT5)의 압축률은 4:1입니다. BC1과 BC3 간의 차이점은 BC1은 알파 채널을 지원하지 않는 반면에 BC3은 블록 압축 알파 채널을 지원한다는 점입니다. 압축률이 높음에도 불구하고 일반적인 질감에 대한 이미지 품질은 약간만 떨어집니다. 그러나 특정 종류의 질감(예: 작은 영역에서 색상 변형이 상당한 질감)에 대한 블록 압축 결과는 허용치보다 떨어질 수 있습니다.  
   
- 질감이 블록 기반 압축에 적절하고 완벽한 색 충실도가 필요 없는 경우 블록 압축 형식을 사용하여 메모리와 대역폭 사용량을 줄일 것을 고려해 보세요.   
+ 질감이 블록 기반 압축에 적절하고 완벽한 색 충실도가 필요 없는 경우 블록 압축 형식을 사용하여 메모리와 대역폭 사용량을 줄일 것을 고려해 보세요.  
   
 ## <a name="remarks"></a>설명  
  원본 질감을 만드는 `ID3DDevice::CreateTexture2D`를 호출할 때마다 블록 기반 압축 형식을 사용하여 질감을 압축합니다. 특히, 질감은 다음과 같은 경우 압축됩니다.  

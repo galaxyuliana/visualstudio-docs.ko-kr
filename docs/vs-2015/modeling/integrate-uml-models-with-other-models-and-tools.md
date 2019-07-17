@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 1a8b67e5c784e24b1af71089d33e7db60cb1f92c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68190381"
 ---
 # <a name="integrate-uml-models-with-other-models-and-tools"></a>UML 모델을 다른 모델 및 도구와 통합
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -97,7 +97,7 @@ ms.locfileid: "58985388"
   
   UML 모델의 예로 DSL에서 읽을 수, 참조 [방법: 끌어서 놓기 처리기 추가](../modeling/how-to-add-a-drag-and-drop-handler.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [모델링 다이어그램의 제스처 처리기 정의](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md)   
  [방법: 끌어서 놓기 처리기 추가](../modeling/how-to-add-a-drag-and-drop-handler.md)   

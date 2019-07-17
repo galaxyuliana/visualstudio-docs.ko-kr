@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: d38a4f8a182562c11dbb742cb26392218edfd981
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54788459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68162649"
 ---
 # <a name="constant-nodes"></a>상수 노드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "54788459"
   
 ## <a name="constant-node-reference"></a>상수 노드 참조  
   
-|노드|세부 정보|속성|  
+|노드|설명|속성|  
 |----------|-------------|----------------|  
 |**카메라 벡터**|현재 픽셀에서 세계 좌표 공간의 카메라를 확장하는 벡터입니다.<br /><br /> 이를 사용하여 세계 좌표 공간에서 반사를 계산할 수 있습니다.<br /><br /> **출력**<br /><br /> `Output`: `float3`<br /> 현재 픽셀에서 카메라까지의 벡터입니다.|없음|  
 |**색 상수**|상수 색상 값입니다.<br /><br /> **출력**<br /><br /> `Output`: `float4`<br /> 색 값입니다.|**출력**<br /> 색 값입니다.|  

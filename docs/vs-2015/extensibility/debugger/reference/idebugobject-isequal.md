@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 85252cdaf9fb076ebd4f8000115bcea576531bb1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159116"
 ---
 # <a name="idebugobjectisequal"></a>IDebugObject::IsEqual
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,5 +53,5 @@ int IsEqual(
 ## <a name="remarks"></a>설명  
  이 메서드 주소를 나타내는 값을 비교할 수는 일반적으로 `pObject` 매개 변수 및이 [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) 개체; 주소가 같지 않으면 개체는 같은 간주 될 수 있습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)

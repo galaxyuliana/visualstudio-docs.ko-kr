@@ -11,11 +11,11 @@ caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: d659d31de221d7a08ee85bee6350ade5c5a95808
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68176722"
 ---
 # <a name="taskstatefaulted-field"></a>TASK_STATE_FAULTED 필드
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,5 +37,5 @@ ms.locfileid: "58972755"
 ## <a name="remarks"></a>설명  
  경우는 [m_stateFlags](../../extensibility/debugger/m-stateflags-field.md) 이 값을 포함 하는 필드를 <xref:System.Threading.Tasks.Task.Status%2A> 속성에서 반환 <xref:System.Threading.Tasks.TaskStatus?displayProperty=fullName>합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Task 클래스](../../extensibility/debugger/task-class-internal-members.md)

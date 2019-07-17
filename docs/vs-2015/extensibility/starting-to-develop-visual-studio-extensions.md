@@ -12,13 +12,13 @@ caps.latest.revision: 30
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 6d8050ea7447a67f50f42157d57c17d3f1f8a329
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60038634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160592"
 ---
-# <a name="starting-to-develop-visual-studio-extensions"></a>Visual Studio 확장 개발 시작
+# <a name="starting-to-develop-visual-studio-extensions"></a>Visual Studio Extensions 확장 기능 개발 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 전에 Visual Studio 확장을 써 본 적, 아마도 경우 몇 가지 질문입니다. 몇 가지 가장 일반적인 위협을 여기 나열 되어 있습니다. 피드백 단추를 사용 하 여 원하는 정보를 표시 되지 않는 경우 (**이 페이지가 도움이 되었나요?** 화면의 맨 아래에서) 원하는 요청 합니다.
@@ -77,7 +77,7 @@ ms.locfileid: "60038634"
 
 - VSIX 프로젝트 템플릿: [VSIX 프로젝트 템플릿 시작](../extensibility/getting-started-with-the-vsix-project-template.md)
 
-- Visual Studio 격리 셸: [연습: 기본 격리 셸 응용 프로그램 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
+- Visual Studio 격리 셸: [연습: 기본 격리 셸 애플리케이션 만들기](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)
 
 ## <a name="how-do-i-get-my-extension-to-look-like-visual-studio"></a>Visual Studio 처럼 my 확장 가져오기
  확장에 대 한 UI를 디자인 하기 위한 유용한 팁을 얻을 [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md)합니다.

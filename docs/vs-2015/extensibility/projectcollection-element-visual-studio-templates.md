@@ -14,11 +14,11 @@ caps.latest.revision: 9
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 9457b1142c94658da489ce7401b7c22d28df903d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68193926"
 ---
 # <a name="projectcollection-element-visual-studio-templates"></a>ProjectCollection 요소(Visual Studio 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,14 +46,14 @@ ms.locfileid: "58972276"
   
 ### <a name="child-elements"></a>자식 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[ProjectTemplateLink](../extensibility/projecttemplatelink-element-visual-studio-templates.md)|선택적 요소입니다.<br /><br /> 다중 프로젝트 템플릿에 있는 프로젝트를 지정합니다.|  
 |[SolutionFolder](../extensibility/solutionfolder-element-visual-studio-templates.md)|선택적 요소입니다.<br /><br /> 다중 프로젝트 템플릿의 프로젝트를 그룹화합니다.|  
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[TemplateContent](../extensibility/templatecontent-element-visual-studio-templates.md)|필수적 요소입니다.<br /><br /> 서식 파일의 내용을 지정합니다.|  
   
@@ -85,7 +85,7 @@ ms.locfileid: "58972276"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [방법: 다중 프로젝트 템플릿 만들기](../ide/how-to-create-multi-project-templates.md)

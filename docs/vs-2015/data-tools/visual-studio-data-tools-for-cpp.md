@@ -11,11 +11,11 @@ ms.author: gewarren
 manager: jillfra
 robots: noindex,nofollow
 ms.openlocfilehash: 85978a79fc1e0110e5b13d6dc0e3198d20ac674a
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59653062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68146558"
 ---
 # <a name="visual-studio-data-tools-for-c"></a>C++용 Visual Studio 데이터 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

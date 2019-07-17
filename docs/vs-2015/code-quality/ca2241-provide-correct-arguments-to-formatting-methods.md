@@ -17,11 +17,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 0a139db3fb1ece41c1d3f18471a286c72a7a576c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68201507"
 ---
 # <a name="ca2241-provide-correct-arguments-to-formatting-methods"></a>CA2241: 서식 지정 메서드에 올바른 인수를 제공하십시오.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -13,11 +13,11 @@ caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: cc505799a0ea7571ccff41057ba9852018ddbb3e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199471"
 ---
 # <a name="ipropertyproxyprovidergetpropertyproxy"></a>IPropertyProxyProvider::GetPropertyProxy
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ int GetPropertyProxy(
 ## <a name="remarks"></a>설명  
  외부 형식 시각화 도우미를 지원 하려면이 방법을 일반적으로 호출을 전달 합니다 [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md) 메서드. 참조 [시각화 및 데이터 보기](../../../extensibility/debugger/visualizing-and-viewing-data.md) 는 IEEVisualizerService 가져온 방법에 대 한 내용은 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md)   
  [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)   
  [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)   

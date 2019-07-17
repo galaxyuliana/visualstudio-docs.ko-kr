@@ -12,11 +12,11 @@ caps.latest.revision: 49
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 2c5df1ce1721c63b5c5cfc3c5b94929da088660f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60077012"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184874"
 ---
 # <a name="adding-a-toolbar-to-a-tool-window"></a>도구 창에 도구 모음 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -115,5 +115,5 @@ ms.locfileid: "60077012"
   
 3. 도구 모음에서 메시지를 표시할 아이콘을 클릭 **TWTestCommandPackage 내 TWToolbar.TWTestCommand.MenuItemCallback()** 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [도구 모음 추가](../extensibility/adding-a-toolbar.md)

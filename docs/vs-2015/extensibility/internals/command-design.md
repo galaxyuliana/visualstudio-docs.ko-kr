@@ -12,11 +12,11 @@ caps.latest.revision: 35
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: a6e9eaf69be62b38a880b07fd8eb51cfc9c256a3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195070"
 ---
 # <a name="command-design"></a>명령 디자인
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -62,7 +62,7 @@ VSPackage에 명령을 추가할 때 표시할 경우, 사용 가능한 경우 �
   
 ## <a name="related-topics"></a>관련 항목  
   
-|제목|설명|  
+|제목|Description|  
 |-----------|-----------------|  
 |[구현](../../extensibility/internals/command-implementation.md)|VSPackage에서 명령을 구현 하는 방법에 설명 합니다.|  
 |[가용성](../../extensibility/internals/command-availability.md)|Visual Studio 컨텍스트에 사용할 수 있는 명령을 확인 하는 방법을 설명 합니다.|  

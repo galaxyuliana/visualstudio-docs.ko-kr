@@ -13,11 +13,11 @@ caps.latest.revision: 13
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 47c397746a82247a8cb1ee329d56004d013486de
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199494"
 ---
 # <a name="ipropertyproxyeesideresolveassemblyref"></a>IPropertyProxyEESide::ResolveAssemblyRef
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ int ResolveAssemblyRef(
 ## <a name="remarks"></a>설명  
  이 메서드는 사용자 지정 식 계산기에서 일반적으로 구현 되지 않았습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)   
  [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)   
  [ASSEMBLYLOCRESOLUTION](../../../extensibility/debugger/reference/assemblylocresolution.md)

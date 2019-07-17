@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: ff1ec43d6faec329db6138598d84e47db009113e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192567"
 ---
 # <a name="add-new-connections"></a>새 연결 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,5 +51,5 @@ ms.locfileid: "59665326"
   
  만들 준비가 테스트가 성공 하는 경우는 *데이터 원본*, 있으며 실제로 의미 하는 Visual Studio 용어입니다는 *데이터 모델* 기본 데이터베이스 또는 서비스를 기반으로 하는 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [.NET용 Visual Studio 데이터 도구](../data-tools/visual-studio-data-tools-for-dotnet.md)

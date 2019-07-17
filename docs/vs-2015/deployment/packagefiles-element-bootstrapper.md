@@ -17,11 +17,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 382689dada13adce1ee530e66fef6ba78452efaa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188977"
 ---
 # <a name="ltpackagefilesgt-element-bootstrapper"></a>&lt;PackageFiles&gt; 요소 (부트스트래퍼)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "58983675"
 ## <a name="elements-and-attributes"></a>요소 및 특성  
  `PackageFiles` 요소에는 다음 특성이 있습니다.  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |`CopyAllPackageFiles`|선택 사항입니다. 경우로 `false`, 설치 관리자에서 참조 하는 파일을 다운로드만 `Command` 요소입니다. 경우 설정 `true`, 모든 파일이 다운로드 됩니다.<br /><br /> 경우로 `IfNotHomesite`, 설치 관리자는 동일 하 게 처럼 `False` 경우 `ComponentsLocation` 로 설정 되어 `HomeSite`, 그렇지 않으면 동일 하 게 동작 합니다 및 처럼 `True`. 이 설정은 HomeSite 시나리오에서 고유한 동작을 실행 하는 부트스트래퍼 패키지를 허용 하도록 유용할 수 있습니다.<br /><br /> 기본값은 `true`입니다.|  
   

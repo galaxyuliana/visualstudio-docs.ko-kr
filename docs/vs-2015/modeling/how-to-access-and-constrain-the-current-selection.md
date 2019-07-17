@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: c3f6d0d481b91f7c475a37d33d43d47aff69ac8d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68181734"
 ---
 # <a name="how-to-access-and-constrain-the-current-selection"></a>방법: 현재 선택 항목 액세스 및 제약
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "60114030"
   
 1. <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet> 클래스는 현재 선택 영역에 액세스 하는 다음 멤버를 정의 합니다.  
   
-    |멤버|설명|  
+    |멤버|Description|  
     |------------|-----------------|  
     |<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.IsAnyDocumentSelectionCompartment%2A> 메서드|반환 `true` 모델 디자이너에서 선택한 요소 중 하나라도 구획 모양을;이 고, 그렇지 `false`합니다.|  
     |<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSetLibrary.IsDiagramSelected%2A> 메서드|반환 `true` 다이어그램이 모델 디자이너에서 선택 되었으면이 고, 그렇지 않은 경우 `false`합니다.|  
@@ -208,7 +208,7 @@ namespace CompanyName.ProductName.GroupingDsl
 }  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>   
  <xref:Microsoft.VisualStudio.Modeling.Shell.ModelingPackage>   
  <xref:Microsoft.VisualStudio.Modeling.Shell.DiagramDocView>   

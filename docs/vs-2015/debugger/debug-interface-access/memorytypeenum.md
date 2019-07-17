@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: ded136da4d601fd7c11a10c21aac0c90864bc0bc
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158125"
 ---
 # <a name="memorytypeenum"></a>MemoryTypeEnum
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,6 +55,6 @@ enum MemoryTypeEnum {
 ## <a name="requirements"></a>요구 사항  
  헤더: cvconst.h  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [열거형 및 구조체](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md)

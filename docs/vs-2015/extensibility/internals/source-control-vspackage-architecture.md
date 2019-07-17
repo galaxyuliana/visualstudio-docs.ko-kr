@@ -11,11 +11,11 @@ caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 3cca9e39714f87024b01ab2c925189aacbe22785
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68183400"
 ---
 # <a name="source-control-vspackage-architecture"></a>소스 제어 VSPackage 아키텍처
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,6 +49,6 @@ ms.locfileid: "58985220"
   
   소스 제어 VSPackage 기반 패키지를 작성 원본 제어 플러그 인 API 기반 작성 보다 더 많은 고급 프로그래밍 전문 필요한 플러그 인입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>   
  [시작](../../extensibility/internals/getting-started-with-source-control-vspackages.md)

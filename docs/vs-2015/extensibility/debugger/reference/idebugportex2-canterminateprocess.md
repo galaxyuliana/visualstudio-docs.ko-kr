@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: ae67aaee2eca8ff94f1c1620c5fb6797eb37dda9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188521"
 ---
 # <a name="idebugportex2canterminateprocess"></a>IDebugPortEx2::CanTerminateProcess
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -45,6 +45,6 @@ HRESULT CanTerminateProcess( 
 ## <a name="return-value"></a>반환 값  
  반환 `S_OK` 프로세스를 종료할 수 있습니다; 그렇지 않으면 반환 `S_FALSE`합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md)   
  [IDebugProcess2](../../../extensibility/debugger/reference/idebugprocess2.md)

@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 806eeba9b3dfee8dc45c90f0a6d2f99ed0772ec7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60054068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68191646"
 ---
 # <a name="running-profiling-tools-with-or-without-the-debugger"></a>디버거를 사용하거나 사용하지 않고 프로파일링 도구 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

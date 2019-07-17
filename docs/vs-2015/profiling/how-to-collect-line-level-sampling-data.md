@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 65890bf31a1257c3a41bc1fd7ed3f732c50eda14
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60068108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68185950"
 ---
 # <a name="how-to-collect-line-level-sampling-data"></a>방법: 줄 수준 샘플링 데이터 수집
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

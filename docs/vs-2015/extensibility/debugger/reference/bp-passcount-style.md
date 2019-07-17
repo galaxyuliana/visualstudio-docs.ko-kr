@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: deb4ce7c464e8518faff55957e1873ef1cd92c39
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68153364"
 ---
 # <a name="bppasscountstyle"></a>BP_PASSCOUNT_STYLE
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ public enum enum_BP_PASSCOUNT_STYLE { 
   
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [BP_PASSCOUNT](../../../extensibility/debugger/reference/bp-passcount.md)   
  [BP_REQUEST_INFO](../../../extensibility/debugger/reference/bp-request-info.md)   

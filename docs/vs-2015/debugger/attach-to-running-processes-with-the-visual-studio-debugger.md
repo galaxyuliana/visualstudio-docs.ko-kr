@@ -29,12 +29,12 @@ caps.latest.revision: 62
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 083c866b10fac257cacf954dfccbcb3875aec53a
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 15b9921514f76d788430c1eda66603e9fc446361
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65702636"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67891022"
 ---
 # <a name="attach-to-running-processes-with-the-visual-studio-debugger"></a>Visual Studio 디버거에서 실행 중인 프로세스에 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -86,7 +86,8 @@ ms.locfileid: "65702636"
 
    1. **한정자** 목록 상자에 이름을 입력합니다.
 
-      >**참고** 이후 단계에서는 원격 컴퓨터 이름을 사용 하 여 연결할 수 없습니다, 하는 경우 IP 주소를 사용 합니다. (포트 번호는 프로세스를 선택한 후 자동으로 나타날 수 있습니다. 또한이 직접 입력 합니다. 아래 그림에서 4020 경우 원격 디버거에 대 한 기본 포트)
+      > [!NOTE]
+      > 이후 단계에서는 원격 컴퓨터 이름을 사용 하 여 연결할 수 없습니다, 경우에 IP 주소를 사용 합니다. (포트 번호는 프로세스를 선택한 후 자동으로 나타날 수 있습니다. 또한이 직접 입력 합니다. 아래 그림에서 4020 경우 원격 디버거에 대 한 기본 포트)
 
    2. **한정자** 목록 상자 옆에 있는 드롭다운 화살표를 클릭하고 드롭다운 목록에서 컴퓨터 이름을 선택합니다.
 

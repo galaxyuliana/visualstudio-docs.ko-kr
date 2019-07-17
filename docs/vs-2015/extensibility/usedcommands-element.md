@@ -14,11 +14,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: ba37458e0f8abca27047574170ab8aa3cc7a44ce
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68186288"
 ---
 # <a name="usedcommands-element"></a>UsedCommands 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ UsedCommands 요소 UsedCommand 요소 및 기타 UsedCommands 그룹화를 그�
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[CommandTable 요소](../extensibility/commandtable-element.md)|통합된 개발 환경 (IDE)에 VSPackage가 제공 하는 명령 (예: 메뉴 항목, 메뉴, 도구 모음 및 콤보 상자)를 나타내는 모든 요소를 정의 합니다.|  
   

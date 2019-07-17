@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 14b4ac689109e29baa4ee06c668b208d0d5227b0
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159712"
 ---
 # <a name="graphics-diagnostics-examples"></a>그래픽 진단 예제
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ ms.locfileid: "60072775"
 - [연습: 잘못 구성된 파이프라인으로 인해 누락된 개체](../debugger/walkthrough-missing-objects-due-to-misconfigured-pipeline.md)  
   
 ## <a name="debugging-rendering-errors"></a>렌더링 오류 디버깅  
- 모양이 올바르지 않은 개체(또는 개체)는 그래픽 개발자가 경험할 수 있는 또 다른 일반적인 문제입니다. 이러한 종류의 문제는 잘못된 모양으로 인해 진단이 어려울 수 있습니다. 잘못된 모양과 그 원인은 잘못된 질감 바인딩처럼 매우 명확한 원인에서부터 셰이더 코드의 버그 또는 셰이더 간 예기치 않은 상호 작용과 같이 매우 미묘한 원인에 이르기까지 다양할 수 있습니다. 일부 문제는 여러 오류가 결합하여 발생할 수 있습니다.   
+ 모양이 올바르지 않은 개체(또는 개체)는 그래픽 개발자가 경험할 수 있는 또 다른 일반적인 문제입니다. 이러한 종류의 문제는 잘못된 모양으로 인해 진단이 어려울 수 있습니다. 잘못된 모양과 그 원인은 잘못된 질감 바인딩처럼 매우 명확한 원인에서부터 셰이더 코드의 버그 또는 셰이더 간 예기치 않은 상호 작용과 같이 매우 미묘한 원인에 이르기까지 다양할 수 있습니다. 일부 문제는 여러 오류가 결합하여 발생할 수 있습니다.  
   
  다음은 그래픽 진단을 사용하여 사소한 셰이더 버그로 인해 발생한 그다지 미묘하지 않은 렌더링 문제를 추적하는 방법을 보여줍니다.  
   

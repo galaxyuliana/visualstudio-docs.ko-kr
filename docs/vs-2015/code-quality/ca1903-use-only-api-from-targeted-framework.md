@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 146563dfa358367e7c22f8ad37564b85d64eaf1d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59647157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68189087"
 ---
 # <a name="ca1903-use-only-api-from-targeted-framework"></a>CA1903: 대상 프레임워크의 API만 사용하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -48,7 +48,7 @@ Visual Studio에서 최신 설명서를 참조 하세요. [CA1903: 대상된 프
 |.NET Framework 2.0|.NET Framework 2.0 SP1, .NET Framework 2.0 SP2|  
 |.NET Framework 3.0|.NET Framework 2.0 SP1, .NET Framework 2.0 SP2, .NET Framework 3.0 SP1, .NET Framework 3.0 SP2|  
 |.NET Framework 3.5|.NET Framework 3.5 SP1|  
-|.NET Framework 4|N/A|  
+|.NET Framework 4|해당 사항 없음|  
   
  프로젝트의 대상 프레임 워크를 변경 하려면을 참조 하세요 [특정.NET Framework 버전 대상 지정](../ide/targeting-a-specific-dotnet-framework-version.md)합니다.  
   
@@ -68,6 +68,6 @@ Visual Studio에서 최신 설명서를 참조 하세요. [CA1903: 대상된 프
   
  [!code-csharp[FxCop.Portability.UseOnlyApiFromTargetedFramework2#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Portability.UseOnlyApiFromTargetedFramework2/CS/FxCop.Portability.UseOnlyApiFromTargetedFramework2.cs#1)]  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [이식성 경고](../code-quality/portability-warnings.md)   
  [특정 대상 .NET Framework 버전 지정](../ide/targeting-a-specific-dotnet-framework-version.md)

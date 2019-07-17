@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: a9838e934421e619c85f348052fbe589288391c1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158839"
 ---
 # <a name="responding-to-and-propagating-changes"></a>변경 내용에 대한 대응 및 전파
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "60104722"
 ## <a name="in-this-section"></a>섹션 내용  
  예를 들어, 다음 순서 대로 이러한 기술을 살펴보겠습니다.  
   
-|방법|시나리오|추가 정보|  
+|방법|시나리오|자세한 내용은 다음을 참조하세요.|  
 |---------------|---------------|--------------------------|  
 |계산 도메인 속성을 정의 합니다.|도메인 속성 값은 모델의 다른 속성에서 계산 됩니다. 예를 들어, 가격이 관련 요소의 가격 합계입니다.|[계산된 스토리지 속성 및 사용자 지정 스토리지 속성](../modeling/calculated-and-custom-storage-properties.md)|  
 |사용자 지정 저장소 도메인 속성을 정의 합니다.|모델 또는 외부에서 다른 부분에 저장 하는 도메인 속성입니다. 예를 들어 모델의 트리에 식 문자열을 구문 분석할 수 있습니다.|[계산된 스토리지 속성 및 사용자 지정 스토리지 속성](../modeling/calculated-and-custom-storage-properties.md)|  
@@ -53,6 +53,6 @@ ms.locfileid: "60104722"
   
 - **규칙 및 이벤트를 이벤트 인수를 전달** 두 이벤트 규칙 전달 되는 `EventArgs` 모델 변경 방법에 대 한 정보가 포함 된 매개 변수입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [방법: 모양 또는 데코레이터 클릭 가로채기](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md)   
  [도메인별 언어를 사용자 지정하는 코드 작성](../modeling/writing-code-to-customise-a-domain-specific-language.md)

@@ -13,20 +13,20 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: b1a8e6fd583f6035fc84f0c86adcee059562235d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159949"
 ---
 # <a name="general-tab-thread-properties-dialog-box"></a>스레드 속성 대화 상자, 일반 탭
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 특정 스레드에 대 한 자세한 내용은이 대화 상자를 사용 합니다. 이 대화 상자를 표시 하려면 포커스를 이동 하는 [스레드 뷰](../debugger/threads-view.md) 창을 열거나 [메시지 뷰](../debugger/messages-view.md) 메시지를 확장 합니다. 선택한 스레드 노드 트리에서 선택 **속성** 에서 합니다 **보기** 메뉴.  
   
- **Thread Properties** 대화 상자에는 하나의 창에는 **일반** 탭. 다음 설정은 사용할 수 있습니다.  
+ **Thread Properties** 대화 상자에는 하나의 창에는 **일반** 탭. 다음 설정을 사용할 수 있습니다.  
   
-|입력|설명|  
+|입력|Description|  
 |-----------|-----------------|  
 |**모듈 이름**|모듈의 이름입니다.|  
 |**스레드 ID**|이 스레드의 고유 ID입니다. 스레드 ID 번호는 다시 사용; 참고 스레드의 수명 동안만 스레드를 식별합니다.|  

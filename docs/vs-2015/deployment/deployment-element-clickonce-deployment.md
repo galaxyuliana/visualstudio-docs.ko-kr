@@ -23,11 +23,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: a55b5519d5abb7b40aeca23fed1bc2f8ea2cc33d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194651"
 ---
 # <a name="ltdeploymentgt-element-clickonce-deployment"></a>&lt;배포&gt; 요소 (ClickOnce 배포)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -110,7 +110,7 @@ ms.locfileid: "58970706"
   
  DeploymentProvider 업데이트와 어떻게 관련 되는지에 대 한 자세한 내용은 참조 하세요. [ClickOnce 업데이트 전략 선택](../deployment/choosing-a-clickonce-update-strategy.md)합니다.  
   
-## <a name="examples"></a>예제  
+## <a name="examples"></a>예  
  다음 코드 예제는 `deployment` 요소에는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 매니페스트 합니다. 이 예제에서는 사용을 `deploymentProvider` 기본 업데이트 위치를 나타내는 요소입니다.  
   
 ```  
@@ -124,5 +124,5 @@ ms.locfileid: "58970706"
   </deployment>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [ClickOnce 배포 매니페스트](../deployment/clickonce-deployment-manifest.md)

@@ -13,11 +13,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 24a1a1942031dac71ddad7b528f0e5df161c629e
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58971794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148625"
 ---
 # <a name="idebugprogramcreateevent2"></a>IDebugProgramCreateEvent2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -46,7 +46,7 @@ IDebugProgramCreateEvent2 : IUnknown
   
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)   
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)   

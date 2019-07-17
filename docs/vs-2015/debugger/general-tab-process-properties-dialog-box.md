@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 9256ca4141e9e4ec9e5ae218f1e5a11bf2fa5362
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68182289"
 ---
 # <a name="general-tab-process-properties-dialog-box"></a>프로세스 속성 대화 상자, 일반 탭
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58984681"
   
  다음 설정을 사용할 합니다 **일반** 탭:  
   
-|입력|설명|  
+|입력|Description|  
 |-----------|-----------------|  
 |**모듈 이름**|모듈의 이름입니다.|  
 |**프로세스 ID**|이 프로세스의 고유 ID입니다. 프로세스 ID 번호는 다시 사용 되므로 해당 프로세스의 기간에만 프로세스를 식별 합니다. 프로세스 개체 유형은 프로그램이 실행 될 때 생성 됩니다. 프로세스의 모든 스레드는 동일한 주소 공간을 공유 하 고 동일한 데이터에 액세스할 수 있습니다.|  

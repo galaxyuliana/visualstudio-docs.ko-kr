@@ -12,11 +12,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 50e0a57c53587d56cacc91faa8bc40b9e221b318
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184665"
 ---
 # <a name="bitmaps-element"></a>Bitmaps 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "58972228"
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Commands 요소](../extensibility/commands-element.md)|VSPackage 도구 모음에서 명령의 컬렉션을 나타냅니다.|  
   

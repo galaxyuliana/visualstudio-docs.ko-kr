@@ -12,11 +12,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 4a1c27e42574429dbb6b2eaeb140db484bf29db5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984894"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194324"
 ---
 # <a name="maxframeworkversion-element-visual-studio-templates"></a>MaxFrameworkVersion 요소(Visual Studio 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "58984894"
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|필수적 요소입니다.<br /><br /> 템플릿을 분류 하 고에서 표시 되는 방식을 정의 합니다 **새 프로젝트** 또는 **새 항목 추가** 대화 상자.|  
   
@@ -77,6 +77,6 @@ ms.locfileid: "58984894"
   
  이 예제에서는 서식 파일을 여는 데 필요한.NET Framework의 최대 버전 표시 `MaxFrameworkVersion`은 3.5입니다. 위의 템플릿을 선택 3.0 또는 3.5에서 하는 경우에 표시 됩니다는 **대상 프레임 워크 버전** 상자에 **새 프로젝트 추가** 대화 상자.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)

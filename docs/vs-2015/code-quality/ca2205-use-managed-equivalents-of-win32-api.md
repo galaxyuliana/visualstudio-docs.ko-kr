@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: 2da7faabb05d2f6eaf2ec345f9bae19401953093
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: HT
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68142553"
 ---
 # <a name="ca2205-use-managed-equivalents-of-win32-api"></a>CA2205: Win32 API의 동일한 관리형 기능을 사용하세요.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "58971993"
  플랫폼 호출 메서드가 정의 되었고 이와 동일한 기능을 사용 하 여 메서드를 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 클래스 라이브러리입니다.
 
 ## <a name="rule-description"></a>규칙 설명
- 플랫폼 호출 메서드는 관리 되지 않는 DLL 함수를 호출 하는 데 사용 되 고 사용 하 여 정의 됩니다는 <xref:System.Runtime.InteropServices.DllImportAttribute?displayProperty=fullName> 특성 또는 `Declare` Visual Basic에서 키워드입니다. 잘못 정의 된 플랫폼 호출 메서드 이름이 잘못 지정 된 함수에 잘못 된 매개 변수 및 반환 값 데이터 형식 및 호출 규칙 및 문자 등 잘못 된 필드 사양 매핑 같은 문제로 인해 런타임 예외가 발생할 수 있습니다 이 옵션을 설정 합니다. 사용 가능한 경우 것이 일반적으로 간단 하 고 적은 오류를 정의 하 고 관리 되지 않는 메서드를 직접 호출 보다 해당 관리 되는 메서드를 호출 하기 쉽습니다. 메서드를 호출 하는 플랫폼 호출 해결 해야 하는 추가적인 보안 문제가 발생할 수도 있습니다.
+ 플랫폼 호출 메서드는 관리 되지 않는 DLL 함수를 호출 하는 데 사용 되 고 사용 하 여 정의 됩니다는 <xref:System.Runtime.InteropServices.DllImportAttribute?displayProperty=fullName> 특성 또는 `Declare` Visual basic에서 키워드입니다. 잘못 정의 된 플랫폼 호출 메서드 이름이 잘못 지정 된 함수에 잘못 된 매개 변수 및 반환 값 데이터 형식 및 호출 규칙 및 문자 등 잘못 된 필드 사양 매핑 같은 문제로 인해 런타임 예외가 발생할 수 있습니다 이 옵션을 설정 합니다. 사용 가능한 경우 것이 일반적으로 간단 하 고 적은 오류를 정의 하 고 관리 되지 않는 메서드를 직접 호출 보다 해당 관리 되는 메서드를 호출 하기 쉽습니다. 메서드를 호출 하는 플랫폼 호출 해결 해야 하는 추가적인 보안 문제가 발생할 수도 있습니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
  이 규칙 위반 문제를 해결 하려면 관리 되지 않는 함수에 대 한 호출을을 관리 되는 해당 호출으로 바꿉니다.

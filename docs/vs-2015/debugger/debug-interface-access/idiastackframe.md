@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3199498f9e31f65045f7df44c4c6b6c39be18f56
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68144737"
 ---
 # <a name="idiastackframe"></a>IDiaStackFrame
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,11 +34,11 @@ IDiaStackFrame : IUnknown
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음은이 인터페이스에서 지원 되는 방법입니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[IDiaStackFrame::get_allocatesBasePointer](../../debugger/debug-interface-access/idiastackframe-get-allocatesbasepointer.md)|이 주소 범위에서 코드에 대 한 기본 포인터 할당 되는 나타내는 플래그를 검색 합니다. 이 메서드는 사용 되지 않습니다.|  
 |[IDiaStackFrame::get_base](../../debugger/debug-interface-access/idiastackframe-get-base.md)|프레임의 주소 자료를 검색합니다.|  
-|[IDiaStackFrame::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiastackframe-get-cplusplusexceptionhandling.md)|C + + 예외 처리 적용 중임을 나타내는 플래그를 검색 합니다.|  
+|[IDiaStackFrame::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiastackframe-get-cplusplusexceptionhandling.md)|나타내는 플래그를 검색 C++ 예외 처리에 적용 됩니다.|  
 |[IDiaStackFrame::get_functionStart](../../debugger/debug-interface-access/idiastackframe-get-functionstart.md)|블록에 함수의 진입점이 포함 되어 있음을 나타내는 플래그를 검색 합니다.|  
 |[IDiaStackFrame::get_lengthLocals](../../debugger/debug-interface-access/idiastackframe-get-lengthlocals.md)|스택에 있는 지역 변수의 바이트 수를 검색 합니다.|  
 |[IDiaStackFrame::get_lengthParams](../../debugger/debug-interface-access/idiastackframe-get-lengthparams.md)|스택에 푸시된 매개 변수는 바이트 수를 검색 합니다.|  

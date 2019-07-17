@@ -11,13 +11,13 @@ caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 4471b71b612008ba7d0733c92286415cd3c3f6b3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68193878"
 ---
-# <a name="providing-a-language-service-context-by-using-the-legacy-api"></a>레거시 API를 사용 하 여 언어에 대 한 서비스 컨텍스트 제공
+# <a name="providing-a-language-service-context-by-using-the-legacy-api"></a>레거시 API를 사용하여 언어 서비스 컨텍스트 제공
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 두 가지 옵션을 사용 하 여 사용자 컨텍스트를 제공 하는 언어 서비스는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 핵심 편집기: 텍스트 표식 컨텍스트를 제공 하거나 모든 사용자 컨텍스트를 제공 합니다. 여기에 각 간의 차이점 요약 되어 있습니다.  

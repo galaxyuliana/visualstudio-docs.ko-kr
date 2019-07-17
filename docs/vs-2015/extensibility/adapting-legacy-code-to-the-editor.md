@@ -11,13 +11,13 @@ caps.latest.revision: 26
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 0bb90723a72c10dbf6cfda5edd4aa68f71f1c6b9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60098132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184912"
 ---
-# <a name="adapting-legacy-code-to-the-editor"></a>레거시 코드 편집기로 수정
+# <a name="adapting-legacy-code-to-the-editor"></a>레거시 코드를 편집기로 조정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio 편집기에 기존 코드 구성 요소에서 액세스할 수 있는 많은 기능이 있습니다. 다음 지침을 예를 들어 VSPackage로 편집기 기능을 사용 하려면-MEF 구성 요소를 조정 하는 방법을 보여 줍니다. 지침에는 서비스를 가져올 편집기의 관리 및 비관리 코드에서 어댑터를 사용 하는 방법을 보여 줍니다.  

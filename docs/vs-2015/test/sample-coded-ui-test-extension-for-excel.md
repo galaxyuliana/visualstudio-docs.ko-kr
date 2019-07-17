@@ -11,11 +11,11 @@ caps.latest.revision: 15
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: e8e3bebc82ffc2f714a6418afdb73de9092aab55
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54757234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158197"
 ---
 # <a name="sample-coded-ui-test-extension-for-excel"></a>Excel용 샘플 코딩된 UI 테스트 확장명
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ Excel 확장 아키텍처
 ### <a name="propertyprovider"></a>PropertyProvider  
  <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> 클래스에서 상속되는 이 클래스는 테스트 기록 및 재생을 위한 UI 요소의 속성을 지원하는 기본 클래스를 제공합니다. 자세한 내용은 [PropertyProvider 클래스](../test/sample-excel-extension-propertyprovider-class.md)를 참조하세요.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>   

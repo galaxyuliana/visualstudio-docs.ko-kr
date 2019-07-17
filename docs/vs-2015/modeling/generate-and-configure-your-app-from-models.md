@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: bb12d80c581b0ea0b605932083cf4f62fe764e30
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68182858"
 ---
 # <a name="generate-and-configure-your-app-from-models"></a>모델에서 앱 생성 및 구성
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -24,7 +24,7 @@ ms.locfileid: "60073490"
  모델은 코드보다 더 직접적으로 요구 사항을 나타냅니다. 모델에서 직접 응용 프로그램의 동작을 파생시키면 코드를 업데이트하는 것보다 훨씬 더 빠르고 안정적으로 변경된 요구 사항에 응답할 수 있습니다. 파생을 설정하려면 일부 초기 작업이 필요하지만 요구 사항 변경이 예상되거나 제품의 여러 변형을 계획하는 경우 이 투자는 가치가 있습니다.  
   
 ## <a name="generating-the-code-of-your-application-from-a-model"></a>모델에서 응용 프로그램 코드 생성  
- 코드를 생성하는 가장 쉬운 방법은 텍스트 템플릿을 사용하는 것입니다. 동일한 코드를 생성할 수 있습니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 모델을 유지 하는 솔루션입니다. 자세한 내용은 다음을 참조하세요.  
+ 코드를 생성하는 가장 쉬운 방법은 텍스트 템플릿을 사용하는 것입니다. 동일한 코드를 생성할 수 있습니다 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 모델을 유지 하는 솔루션입니다. 참조 항목:  
   
 - [T4 텍스트 템플릿을 사용하여 디자인 타임 코드 생성](../modeling/design-time-code-generation-by-using-t4-text-templates.md)  
   
@@ -41,7 +41,7 @@ ms.locfileid: "60073490"
   그러나 기존 응용 프로그램에서 시작하는 경우 독립적으로 변형할 수 있도록 모델에 의해 제어되는 다양한 동작을 구분하기 위해 많은 리팩터링이 필요할 수 있습니다. 프로젝트 비용을 예상할 때 응용 프로그램의 이러한 측면을 평가하는 것이 좋습니다.  
   
 ## <a name="configuring-your-application-from-a-model"></a>모델에서 응용 프로그램 구성  
- 런타임에 응용 프로그램의 동작을 변형하려는 경우 응용 프로그램이 컴파일되기 전에 소스 코드를 생성하는 코드 생성을 사용할 수 없습니다. 대신, UML 또는 DSL 모델을 읽고 해당 동작을 적절하게 변형하도록 응용 프로그램을 디자인할 수 있습니다. 자세한 내용은 다음을 참조하세요.  
+ 런타임에 응용 프로그램의 동작을 변형하려는 경우 응용 프로그램이 컴파일되기 전에 소스 코드를 생성하는 코드 생성을 사용할 수 없습니다. 대신, UML 또는 DSL 모델을 읽고 해당 동작을 적절하게 변형하도록 응용 프로그램을 디자인할 수 있습니다. 참조 항목:  
   
 - [프로그램 코드에서 UML 모델 읽기](../modeling/read-a-uml-model-in-program-code.md)  
   

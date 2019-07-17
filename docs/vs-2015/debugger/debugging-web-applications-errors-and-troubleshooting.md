@@ -28,11 +28,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c452ad86fc5c09048ae1fae56630309e661ac78c
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60114569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68141916"
 ---
 # <a name="debugging-web-applications-errors-and-troubleshooting"></a>웹 애플리케이션 디버그: 오류 및 문제 해결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,6 +57,6 @@ ms.locfileid: "60114569"
   
 - [오류: 웹 서버에서 디버깅을 시작할 수 없습니다.](../debugger/error-unable-to-start-debugging-on-the-web-server.md)  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버거 보안](../debugger/debugger-security.md)   
  [웹 애플리케이션 및 스크립트 디버그](../debugger/debugging-web-applications-and-script.md)

@@ -21,11 +21,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: bddba1170cf675b5bde7ab8deed8cce1e7eb57dd
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68196570"
 ---
 # <a name="cppclean-task"></a>CPPClean 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ Visual C++ 프로젝트가 빌드될 때 MSBuild가 만드는 임시 파일을 �
 |          **DoDelete**           |                                                            선택적 **Boolean** 매개 변수입니다.<br /><br /> `true`인 경우 임시 빌드 파일을 정리합니다.                                                             |
 | **FilePatternsToDeleteOnClean** |                                            필수 `String` 매개 변수입니다.<br /><br /> 정리할 파일의 확장명을 세미콜론으로 구분된 목록으로 지정합니다.                                             |
 |   **FilesExcludedFromClean**    |                                                    선택적 `String` 매개 변수입니다.<br /><br /> 정리하지 않을 파일을 세미콜론으로 구분된 목록으로 지정합니다.                                                    |
-|       **FoldersToClean**        | 필수 `String` 매개 변수입니다.<br /><br /> 정리할 디렉터리를 세미콜론으로 구분된 목록으로 지정합니다. 사용자가 전체 또는 상대 경로를 지정할 수 있고 경로에 와일드카드 기호(**\\**\*)가 포함될 수 있습니다. |
+|       **FoldersToClean**        | 필수 `String` 매개 변수입니다.<br /><br /> 정리할 디렉터리를 세미콜론으로 구분된 목록으로 지정합니다. 사용자가 전체 또는 상대 경로를 지정할 수 있고 경로에 와일드카드 기호( **\\** \*)가 포함될 수 있습니다. |
 
 ## <a name="remarks"></a>설명  
 

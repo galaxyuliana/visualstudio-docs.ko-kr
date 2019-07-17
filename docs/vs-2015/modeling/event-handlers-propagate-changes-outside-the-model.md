@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 24ef57b545360cccbf75039b5f64a0f53e636dd8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68181766"
 ---
 # <a name="event-handlers-propagate-changes-outside-the-model"></a>이벤트 처리기로 모델 외부의 변경 내용 전파
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -189,6 +189,6 @@ private static void AlbumTitleAdjuster(object sender,
 |TransactionCommitted||  
 |TransactionRolledBack||  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [응답 하 고 변경 내용 전파](../modeling/responding-to-and-propagating-changes.md)   
  [샘플 코드: 회로 다이어그램](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

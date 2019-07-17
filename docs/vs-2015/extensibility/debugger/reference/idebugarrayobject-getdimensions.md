@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 09902c60f87cfb92d0f0778fcbd106ade4d8dac4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197782"
 ---
 # <a name="idebugarrayobjectgetdimensions"></a>IDebugArrayObject::GetDimensions
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,5 +53,5 @@ int GetDimensions(
 ## <a name="remarks"></a>설명  
  다차원 배열의 각 차원에 대 한 다양 한 크기를 가질 수 있습니다. 예를 들어 3 차원 배열의 지정 된 `myarray[3][2][6]`, 3, 2 및 6에서이 메서드는 반환 된 `dwDimensions` 순서 대로 매개 변수입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

@@ -12,11 +12,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c8d28d225bd3a8d5c105bf54b9c63574002aed15
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160455"
 ---
 # <a name="symbols-element"></a>Symbols 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ Guid 및 기타 VSCT 요소에서 사용 되는 Id를 정의 합니다. 비관�
   
 ### <a name="attributes"></a>특성  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |없음||  
   
@@ -54,7 +54,7 @@ Guid 및 기타 VSCT 요소에서 사용 되는 Id를 정의 합니다. 비관�
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[CommandTable 요소](../extensibility/commandtable-element.md)|.Vsct 파일의 루트 요소입니다.|  
   

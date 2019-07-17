@@ -14,11 +14,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 84d0c1765a14f60363b71fcdec182d448cb4f112
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68205534"
 ---
 # <a name="solutionfolder-element-visual-studio-templates"></a>SolutionFolder 요소(Visual Studio 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -99,7 +99,7 @@ ms.locfileid: "58986102"
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)   
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [방법: 다중 프로젝트 템플릿 만들기](../ide/how-to-create-multi-project-templates.md)

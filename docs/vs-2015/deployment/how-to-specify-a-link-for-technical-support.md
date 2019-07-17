@@ -22,11 +22,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 533ad333923edf2e3f55ed5c4e85b42f422a573a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60072372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148093"
 ---
 # <a name="how-to-specify-a-link-for-technical-support"></a>방법: 기술 지원을 위한 링크 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,6 +47,6 @@ ms.locfileid: "60072372"
   
 5. 에 **지원 URL** 필드에 웹 사이트, 웹 페이지 또는 UNC 공유에는 정규화 된 경로 입력 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md)   
  [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

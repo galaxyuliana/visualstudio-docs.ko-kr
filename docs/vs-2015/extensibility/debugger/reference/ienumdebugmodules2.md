@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 9f66587f462e1bbfb60704c5c75dc2299cb9ce36
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160980"
 ---
 # <a name="ienumdebugmodules2"></a>IEnumDebugModules2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ IEnumDebugModules2 : IUnknown
 |------------|-----------------|  
 |[다음](../../../extensibility/debugger/reference/ienumdebugmodules2-next.md)|열거형 시퀀스에서 모듈의 지정된 된 수를 검색 합니다.|  
 |[Skip](../../../extensibility/debugger/reference/ienumdebugmodules2-skip.md)|열거형 시퀀스에서 모듈의 지정된 된 수를 건너뜁니다.|  
-|[Reset](../../../extensibility/debugger/reference/ienumdebugmodules2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|  
+|[다시 설정](../../../extensibility/debugger/reference/ienumdebugmodules2-reset.md)|열거형 시퀀스를 처음으로 다시 설정합니다.|  
 |[Clone](../../../extensibility/debugger/reference/ienumdebugmodules2-clone.md)|현재 열거자와 열거 상태가 같은 포함 하는 열거자를 만듭니다.|  
 |[GetCount](../../../extensibility/debugger/reference/ienumdebugmodules2-getcount.md)|모듈의 수를 가져옵니다.|  
   

@@ -18,13 +18,13 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: f63e1382d242a679ed4fac09bfb3040200fed551
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203588"
 ---
-# <a name="managed-debugging-recommended-property-settings"></a>관리 디버깅: 권장 속성 설정
+# <a name="managed-debugging-recommended-property-settings"></a>관리 디버깅: 권장되는 속성 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 일부 속성은 모든 관리되는 디버깅 시나리오에서 동일한 방식으로 설정해야 합니다.  
@@ -52,6 +52,6 @@ ms.locfileid: "58985755"
 |**DEBUG 상수 정의**|`DEBUG` 상수를 정의하려면 이 확인란을 선택합니다. 이렇게 하면 응용 프로그램에 <xref:System.Diagnostics.Debug> 클래스를 사용할 수 있습니다.|  
 |**TRACE 상수 정의**|`TRACE` 상수를 정의하려면 이 확인란을 선택합니다. 이렇게 하면 응용 프로그램에 <xref:System.Diagnostics.Trace> 클래스를 사용할 수 있습니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Debugging Managed Code](../debugger/debugging-managed-code.md) (관리 코드 디버그)  
  [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)(C#, F# 및 Visual Basic 프로젝트 형식)

@@ -12,11 +12,11 @@ caps.latest.revision: 6
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: ca5ced87596b5e40ae70e3faa06e58493da3d8ab
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203986"
 ---
 # <a name="icon-element"></a>Icon 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,20 +34,20 @@ ms.locfileid: "58985836"
   
 ### <a name="attributes"></a>특성  
   
-|특성|설명|  
+|특성|Description|  
 |---------------|-----------------|  
 |guid|필수 요소. 정의 된 비트맵의 guid입니다.|  
-|ID|필수 요소. 비트맵 스트립에 슬롯을 선택합니다.|  
+|id|필수 요소. 비트맵 스트립에 슬롯을 선택합니다.|  
   
 ### <a name="child-elements"></a>자식 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |없음|없음|  
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[Buttons 요소](../extensibility/buttons-element.md)||  
   

@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: ee1aea023124fb8277fd13cf341a63fca92c37cd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58980643"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "68149868"
 ---
 # <a name="idiasymbolfindsymbolsbyrvaforacceleratorpointertag"></a>IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,6 +48,6 @@ HRESULT findSymbolsByRVAForAcceleratorPointerTag (
 ## <a name="remarks"></a>설명  
  경우에이 메서드를 호출는 `IDiaSymbol` Accelerator 스텁 함수에 해당 하는 인터페이스입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
  [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

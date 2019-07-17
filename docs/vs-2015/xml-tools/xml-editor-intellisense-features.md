@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 9c691eea7417e882ee3b73e9f2adc538714b486a
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60094668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158564"
 ---
 # <a name="xml-editor-intellisense-features"></a>XML 편집기 IntelliSense 기능
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -118,7 +118,7 @@ XML 편집기에서는 Visual Studio에서 제공하는 다른 언어 편집기�
   
 3. 아무 것도 변경 합니다 **자동 삽입** 섹션을 클릭 **확인**합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [XML 편집기](../xml-tools/xml-editor.md)   
  [IntelliSense 사용](../ide/using-intellisense.md)   
  [연습: XSLT IntelliSense 사용](../xml-tools/walkthrough-using-xslt-intellisense.md)

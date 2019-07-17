@@ -12,11 +12,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1a595861be835ec1aaa7079b3e3fe1962d5055e9
-ms.sourcegitcommit: c496a77add807ba4a29ee6a424b44a5de89025ea
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "58981943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68154994"
 ---
 # <a name="custom-parameters"></a>사용자 지정 매개 변수
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ Param="PROJECT_TYPE = CSPROJ"
   
  자세한 내용은 참조 하세요. [마법사 (합니다. Vsz) 파일](../../extensibility/internals/wizard-dot-vsz-file.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>   
  [컨텍스트 매개 변수](../../extensibility/internals/context-parameters.md)   
  [마법사](../../extensibility/internals/wizards.md)   

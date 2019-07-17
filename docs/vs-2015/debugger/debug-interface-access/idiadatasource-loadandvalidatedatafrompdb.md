@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: f19a910af45ed70ae74c72441890ecae6c81d2a4
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970776"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68198625"
 ---
 # <a name="idiadatasourceloadandvalidatedatafrompdb"></a>IDiaDataSource::loadAndValidateDataFromPdb
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ HRESULT loadAndValidateDataFromPdb ( 
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 다음 표에서이 메서드에 대 한 가능한 반환 값을 보여 줍니다.  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |E_PDB_NOT_FOUND|파일을 열지 못했습니다. 또는 파일 형식이 잘못 되었습니다.|  
 |E_PDB_FORMAT|사용 되지 않는 형식으로 파일에 액세스 하려고 했습니다.|  
@@ -90,7 +90,7 @@ if (FAILED(hr))
   
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaDataSource](../../debugger/debug-interface-access/idiadatasource.md)   
  [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)   
  [IDiaDataSource::loadDataFromPdb](../../debugger/debug-interface-access/idiadatasource-loaddatafrompdb.md)   

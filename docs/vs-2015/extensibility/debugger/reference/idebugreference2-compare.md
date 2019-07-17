@@ -13,16 +13,16 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 41b183baa00f86c7a6e54d35b6188cd8c04946b6
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68182492"
 ---
 # <a name="idebugreference2compare"></a>IDebugReference2::Compare
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
 
-다른 하나의 참조를 비교합니다. 나중에 사용하기 위해 예약되어 있습니다.  
+다른 하나의 참조를 비교합니다. 나중에 사용하도록 예약되어 있습니다.  
   
 ## <a name="syntax"></a>구문  
   

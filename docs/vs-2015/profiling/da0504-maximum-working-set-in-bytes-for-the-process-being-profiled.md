@@ -1,5 +1,5 @@
 ---
-title: 'DA0504: 프로파일링 중인 프로세스에 대한 최대 작업 집합(바이트) | Microsoft 문서'
+title: 'DA0504: 프로파일링 중인 프로세스에 대한 최대 작업 세트(바이트) | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -14,13 +14,13 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: a990b428cfa03722ee5e02884344d96844825ee8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54787193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157168"
 ---
-# <a name="da0504-maximum-working-set-in-bytes-for-the-process-being-profiled"></a>DA0504: 프로파일링 중인 프로세스에 대한 최대 작업 집합(바이트)
+# <a name="da0504-maximum-working-set-in-bytes-for-the-process-being-profiled"></a>DA0504: 프로파일링되고 있는 프로세스의 최대 작업 세트(바이트)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 규칙 Id | DA0504 |  

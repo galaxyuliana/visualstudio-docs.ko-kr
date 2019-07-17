@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 35448f4324213739cb2dc14a95598ac9a3d4432f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60055615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68204365"
 ---
 # <a name="folder-element-visual-studio-project-templates"></a>Folder 요소(Visual Studio 프로젝트 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ ms.locfileid: "60055615"
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[프로젝트](../extensibility/project-element-visual-studio-templates.md)|선택적 자식 요소 [TemplateContent](../extensibility/templatecontent-element-visual-studio-templates.md)합니다.|  
   
@@ -90,7 +90,7 @@ ms.locfileid: "60055615"
   
      `...`  
   
-- 템플릿.zip 파일의 폴더를 포함 하지 않지만 사용 하 여 폴더를 추가 합니다 `TargetFileName` 특성을 `ProjectItem` 요소입니다. 예를 들어:  
+- 템플릿.zip 파일의 폴더를 포함 하지 않지만 사용 하 여 폴더를 추가 합니다 `TargetFileName` 특성을 `ProjectItem` 요소입니다. 예:  
   
      `...`  
   

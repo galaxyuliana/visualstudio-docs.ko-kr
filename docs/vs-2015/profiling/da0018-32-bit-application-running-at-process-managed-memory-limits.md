@@ -1,5 +1,5 @@
 ---
-title: 'DA0018: 프로세스 관리 메모리 한도로 실행 중인 32비트 애플리케이션 | Microsoft 문서'
+title: 'DA0018: 프로세스 관리 메모리 한도로 실행 중인 32비트 애플리케이션 | Microsoft Docs'
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -14,13 +14,13 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 6418a39d7e53a3edaa48b3cd003d35d95cba386e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54773289"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194953"
 ---
-# <a name="da0018-32-bit-application-running-at-process-managed-memory-limits"></a>DA0018: 프로세스 관리 메모리 한도로 실행 중인 32비트 애플리케이션
+# <a name="da0018-32-bit-application-running-at-process-managed-memory-limits"></a>DA0018: 프로세스 관리되는 메모리 한도로 실행 중인 32비트 애플리케이션
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 규칙 Id | DA0018 |  
@@ -58,7 +58,7 @@ ms.locfileid: "54773289"
   
 - 32비트 프로세스의 최대 가상 메모리 크기에 대한 아키텍처 제약 조건을 완화하는 단계 수행  
   
-  애플리케이션의 관리되는 메모리 리소스 사용을 최적화하려면 .NET 메모리 할당 프로파일링 실행에서 관리되는 메모리 할당 데이터를 수집합니다. [.NET 메모리 데이터 뷰](../profiling/dotnet-memory-data-views.md) 보고서를 검토하여 애플리케이션의 메모리 할당 패턴을 파악합니다.  
+  애플리케이션의 관리되는 메모리 리소스 사용을 최적화하려면 .NET 메모리 할당 프로파일링 실행에서 관리되는 메모리 할당 데이터를 수집합니다. [.NET 메모리 데이터 뷰](../profiling/dotnet-memory-data-views.md) 보고서를 검토하여 응용 프로그램의 메모리 할당 패턴을 파악합니다.  
   
   [개체 수명 뷰](../profiling/object-lifetime-view.md)를 사용하여 프로그램의 어떤 데이터 개체가 세대로 생존하고 세대에서 회수되는지 확인합니다.  
   

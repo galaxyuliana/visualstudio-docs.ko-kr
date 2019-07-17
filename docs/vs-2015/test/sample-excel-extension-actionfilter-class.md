@@ -9,11 +9,11 @@ caps.latest.revision: 13
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 86c1dda46ed0e62649a576a12c9f9e48561ec891
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54767846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158172"
 ---
 # <a name="sample-excel-extension-actionfilter-class"></a>샘플 Excel 확장: ActionFilter 클래스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "54767846"
 ## <a name="private-methods"></a>Private 메서드  
  `IsLeftClick` 메서드는 제공된 작업이 마우스 왼쪽 클릭을 나타내는지지를 확인합니다. `AreActionsOnSameExcelCell` 메서드는 제공된 두 작업이 Excel의 같은 셀에서 실행되는지를 확인합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>   
  <xref:Microsoft.VisualStudio.TestTools.UITest.Common.IUITestActionStack>   
  [Microsoft Excel을 지원하도록 코딩된 UI 테스트 및 작업 기록 확장](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)

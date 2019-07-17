@@ -11,11 +11,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 2f162affe2324afaa8fb1d506c3177311386bfc1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60110351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68146394"
 ---
 # <a name="calling-debugger-events"></a>디버거 이벤트 호출
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

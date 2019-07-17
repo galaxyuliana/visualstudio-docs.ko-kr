@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c91497815dd18dc138b2eadc462c43785830a033
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199521"
 ---
 # <a name="ipropertyproxyeesideinplaceupdateobject"></a>IPropertyProxyEESide::InPlaceUpdateObject
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ int InPlaceUpdateObject(
   
  합니다 [CreateReplacementObject](../../../extensibility/debugger/reference/ipropertyproxyeeside-createreplacementobject.md) 메서드 들어오는 데이터 개체를 기준으로 데이터 개체를 만들지만 속성의 원래 데이터는 영향을 주지 않습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md)   
  [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)   
  [CreateReplacementObject](../../../extensibility/debugger/reference/ipropertyproxyeeside-createreplacementobject.md)

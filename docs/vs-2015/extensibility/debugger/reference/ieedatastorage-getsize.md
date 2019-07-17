@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 0c76ae583d089b23d21664c9e312d2486a14c2aa
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192118"
 ---
 # <a name="ieedatastoragegetsize"></a>IEEDataStorage::GetSize
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,6 +48,6 @@ int GetSize(
 ## <a name="remarks"></a>설명  
  사용 된 [GetData](../../../extensibility/debugger/reference/ieedatastorage-getdata.md) 실제 데이터 바이트를 검색 하는 방법입니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IEEDataStorage](../../../extensibility/debugger/reference/ieedatastorage.md)   
  [GetData](../../../extensibility/debugger/reference/ieedatastorage-getdata.md)

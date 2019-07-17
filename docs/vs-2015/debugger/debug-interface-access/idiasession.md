@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 002e7198210e123fc2461f712bb8db442b9f25c8
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68190710"
 ---
 # <a name="idiasession"></a>IDiaSession
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDiaSession : IUnknown
 ## <a name="methods"></a>메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDiaSession`합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[IDiaSession::get_loadAddress](../../debugger/debug-interface-access/idiasession-get-loadaddress.md)|이 기호 저장소의 기호에 해당 하는 실행 파일의 로드 주소를 검색 합니다. 이 전달 된 값과 동일 합니다 `put_loadAddress` 메서드.|  
 |[IDiaSession::put_loadAddress](../../debugger/debug-interface-access/idiasession-put-loadaddress.md)|이 기호 저장소에 기호에 해당 하는 실행 파일의 로드 주소를 설정 합니다. **참고:**  가져올 때이 메서드를 호출 해야는 `IDiaSession` 개체 및 개체를 사용 하 여을 시작 하기 전에 합니다.|  

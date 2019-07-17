@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: e00f85d4b3a111f3a68b934006a32197245d4d6e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68189883"
 ---
 # <a name="idiaenumsegmentsnext"></a>IDiaEnumSegments::Next
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -48,6 +48,6 @@ HRESULT Next ( 
 ## <a name="return-value"></a>반환 값  
  성공하면 `S_OK`를 반환합니다. 반환 `S_FALSE` 자세한 세그먼트가 없을 경우. 그러지 않으면 오류 코드가 반환됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDiaEnumSegments](../../debugger/debug-interface-access/idiaenumsegments.md)   
  [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)

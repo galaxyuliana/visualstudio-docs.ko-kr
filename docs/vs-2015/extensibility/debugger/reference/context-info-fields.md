@@ -13,11 +13,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: fbfa24733644067b3f79fc7b6e8450df2130116d
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68179956"
 ---
 # <a name="contextinfofields"></a>CONTEXT_INFO_FIELDS
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -84,7 +84,7 @@ public enum enum_CONTEXT_INFO_FIELDS {
   
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
  [CONTEXT_INFO](../../../extensibility/debugger/reference/context-info.md)   
  [GetInfo](../../../extensibility/debugger/reference/idebugmemorycontext2-getinfo.md)

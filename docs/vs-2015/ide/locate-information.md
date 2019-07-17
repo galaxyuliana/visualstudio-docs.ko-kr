@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 708c1d0ed2c7fe12a4f3e905d3fd5652b25f0a8c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54758614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68178730"
 ---
 # <a name="locate-information"></a>정보 찾기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "54758614"
 |기능 또는 기술|인덱스|  
 |메서드 및 이벤트 등의 언어 요소|검색|  
   
-## <a name="in-this-section"></a>이 섹션의 내용  
+## <a name="in-this-section"></a>섹션 내용  
  [전체 텍스트 검색 팁](../ide/full-text-search-tips.md)  
   
  [방법: 목차에서 항목 찾기](../ide/how-to-find-topics-in-the-table-of-contents.md)

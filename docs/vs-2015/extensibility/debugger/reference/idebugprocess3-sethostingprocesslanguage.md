@@ -13,11 +13,11 @@ caps.latest.revision: 12
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 86dc6de573dc5dc81a758535018feffd7b0ce662
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58984535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68202853"
 ---
 # <a name="idebugprocess3sethostingprocesslanguage"></a>IDebugProcess3::SetHostingProcessLanguage
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ int SetHostingProcessLanguage(
   
 #### <a name="parameters"></a>매개 변수  
  `guidLang`  
- [in] `GUID` 는 DE 사용 해야 하는 언어입니다. 지정할 `GUID_NULL` (c + +) 또는 `Guid.Empty` (C#) 기본 언어를 사용 하는 DE 있어야 합니다.  
+ [in] `GUID` 는 DE 사용 해야 하는 언어입니다. 지정할 `GUID_NULL` (C++) 또는 `Guid.Empty` (C#)는 기본 언어를 사용 하는 DE 있어야 합니다.  
   
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다.  

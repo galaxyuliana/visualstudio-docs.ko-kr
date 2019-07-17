@@ -10,13 +10,13 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 834651f525ccb292f82d5cf0ab5a7068a1cf7f20
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60108310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197803"
 ---
-# <a name="how-to-create-a-basic-3-d-model"></a>방법: 기본 3d 모델 만들기
+# <a name="how-to-create-a-basic-3-d-model"></a>방법: 기본 3D 모델 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 이 문서에서는 모델 편집기를 사용하여 기본 3D 모델을 만드는 방법을 설명합니다.  
@@ -76,7 +76,7 @@ ms.locfileid: "60108310"
   
    다음 단계로 이 3D 모델에 셰이더를 적용할 수 있습니다. 자세한 내용은 [방법: 3 차원 모델에 셰이더 적용](../designers/how-to-apply-a-shader-to-a-3-d-model.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [방법: 3d 지형 모델](../designers/how-to-model-3-d-terrain.md)   
  [모델 편집기](../designers/model-editor.md)   
  [셰이더 디자이너](../designers/shader-designer.md)

@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: bd5a1ae4abc2e0b5c508b7b77160bbf8da3bb45e
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203220"
 ---
 # <a name="attach-reference-strings-to-uml-model-elements"></a>UML 모델 요소에 참조 문자열 연결
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "58972544"
   
  `using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;`  
   
-|메서드 호출|설명|  
+|메서드 호출|Description|  
 |-----------------|-----------------|  
 |`element.AddReference (nameString, valueString, duplicatesAllowed)`|지정된 이름 및 값 문자열을 사용하여 `IReference`를 만들고 `element`에 연결합니다. `IReference`를 반환합니다.<br /><br /> `duplicatesAllowed`가 false이고 동일한 이름을 가진 `IReference`가 이미 `element`에 연결되어 있으면 예외가 발생합니다.|  
 |`element.GetReferences(name)`|지정된 `IReference`을 가진, `element`에 연결된 `name` 개체를 모두 반환합니다.|  

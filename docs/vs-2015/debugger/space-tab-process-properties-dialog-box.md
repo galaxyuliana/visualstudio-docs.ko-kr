@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: de5df4c55feba8c9aaba0def7585029cc71426b5
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68189420"
 ---
 # <a name="space-tab-process-properties-dialog-box"></a>프로세스 속성 대화 상자, 공간 탭
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58986058"
   
  다음 설정을 사용할 합니다 **공간** 탭:  
   
-|입력|설명|  
+|입력|Description|  
 |-----------|-----------------|  
 |**다음으로 표시된 공간 표시**|이 목록 상자를 사용 하 여 (이미지, 매핑, 예약 된 또는 할당 되지 않은) 공간의 범주를 선택 합니다.|  
 |**실행 가능한 바이트**|선택한 범주에서이 프로세스를 사용 하는 주소 공간을 모두의 합계입니다. 실행 메모리는 메모리 프로그램을 실행할 수 있습니다 하지만 수 하지 읽거나 쓸입니다.|  

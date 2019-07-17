@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1fa442aa8257c744fcac53be845c749ff689cc76
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197672"
 ---
 # <a name="basetype"></a>BaseType
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "58983326"
 ## <a name="properties"></a>속성  
  다음 표에서이 기호 형식에 대 한 추가 올바른 속성을 보여 줍니다.  
   
-|속성|데이터 형식|설명|  
+|속성|데이터 형식|Description|  
 |--------------|---------------|-----------------|  
 |[IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)|`DWORD`|값 중 하나는 [BasicType 열거형](../../debugger/debug-interface-access/basictype.md)합니다.|  
 |[IDiaSymbol::get_constType](../../debugger/debug-interface-access/idiasymbol-get-consttype.md)|`BOOL`|`TRUE` 경우 기본 형식은 const로 표시 됩니다.|  
@@ -40,6 +40,6 @@ ms.locfileid: "58983326"
 |[IDiaSymbol::get_unalignedType](../../debugger/debug-interface-access/idiasymbol-get-unalignedtype.md)|`BOOL`|`TRUE` 기본 형식에는 정렬 되지 않습니다.|  
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` 경우 기본 형식 volatile로 표시 됩니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [BasicType 열거형](../../debugger/debug-interface-access/basictype.md)   
  [기호 형식의 클래스 계층 구조](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)

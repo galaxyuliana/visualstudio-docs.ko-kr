@@ -13,11 +13,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: c9227e2e05499feac628a5b90fc6e3d2a4399992
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188569"
 ---
 # <a name="idebugport2"></a>IDebugPort2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ IDebugPort2 : IUnknown
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugPort2`합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[GetPortName](../../../extensibility/debugger/reference/idebugport2-getportname.md)|포트 이름을 반환합니다.|  
 |[GetPortId](../../../extensibility/debugger/reference/idebugport2-getportid.md)|포트 식별자를 반환합니다.|  
@@ -60,7 +60,7 @@ IDebugPort2 : IUnknown
   
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Core 인터페이스](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)   
  [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

@@ -18,11 +18,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 951d5f39fbf3929d094cc18de5fe108b46753b09
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68176529"
 ---
 # <a name="how-to-step-into-wcf-services"></a>방법: WCF 서비스 한 단계씩 코드 실행
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "60056447"
   
 5. 중단점까지 실행한 후 단계별 실행을 시작합니다. 디버거에서 서비스가 자동으로 한 단계씩 실행됩니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [WCF 서비스 디버그](../debugger/debugging-wcf-services.md)   
  [WCF 디버깅의 제한 사항](../debugger/limitations-on-wcf-debugging.md)   
  [방법: 자체 호스팅 WCF 서비스 디버그](../debugger/how-to-debug-a-self-hosted-wcf-service.md)

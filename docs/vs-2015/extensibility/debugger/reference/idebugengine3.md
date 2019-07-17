@@ -13,11 +13,11 @@ caps.latest.revision: 16
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1e43da0b05062c6c7b1c4d3cfe771ff0b93f83a9
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195786"
 ---
 # <a name="idebugengine3"></a>IDebugEngine3
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ IDebugEngine3 : IDebugEngine2
 ## <a name="methods-in-vtable-order"></a>Vtable 순서의 메서드  
  상속 된 메서드 외에도 [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md), `IDebugEngine3` 인터페이스는 다음 메서드를 노출 합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[SetSymbolPath](../../../extensibility/debugger/reference/idebugengine3-setsymbolpath.md)|디버깅 기호를 검색 하는 DE는 데 사용할 경로 또는 경로 설정 합니다.|  
 |[LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md)|기호를 로드 아직 발생 하지 않은 모든 모듈에 대 한 기호를 로드 합니다.|  
@@ -54,5 +54,5 @@ IDebugEngine3 : IDebugEngine2
   
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)

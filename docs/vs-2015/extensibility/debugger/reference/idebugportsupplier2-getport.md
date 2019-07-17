@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 1c86af9f78d66abb0b7e4020c7f4ee2e7405ad68
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188283"
 ---
 # <a name="idebugportsupplier2getport"></a>IDebugPortSupplier2::GetPort
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,6 +50,6 @@ int GetPort( 
 ## <a name="return-value"></a>반환 값  
  성공 하면 반환 `S_OK`고, 그렇지 않으면 오류 코드를 반환 합니다. 반환 `E_PORTSUPPLIER_NO_PORT` 주어진된 식별자를 사용 하 여 포트가 없는 경우.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)   
  [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md)

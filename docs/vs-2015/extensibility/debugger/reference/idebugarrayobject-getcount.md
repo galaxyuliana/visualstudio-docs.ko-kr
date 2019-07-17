@@ -13,11 +13,11 @@ caps.latest.revision: 11
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 35cce37afc389501386ffec7b75b934e7933bc98
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58986194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68197800"
 ---
 # <a name="idebugarrayobjectgetcount"></a>IDebugArrayObject::GetCount
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -50,5 +50,5 @@ int GetCount(
 ## <a name="remarks"></a>설명  
  이 메서드는 배열 개체는 다차원 배열 하는 경우에 모든 배열 개체 요소의 1 차원 배열에으로 간주 합니다. 예를 들어, 배열의 지정 된 `myarray[3][2][6]`,이 메서드는 36 반환 된 `pdwElements` 매개 변수입니다. 사용 된 [GetElement](../../../extensibility/debugger/reference/idebugarrayobject-getelement.md) 메서드를 한 번에 하나씩 개별 요소를 검색 합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugArrayObject](../../../extensibility/debugger/reference/idebugarrayobject.md)

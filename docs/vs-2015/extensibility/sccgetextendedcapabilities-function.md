@@ -13,11 +13,11 @@ caps.latest.revision: 17
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f02591eac6a3f69ae5513aa9dc0abed381cd1c8a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200102"
 ---
 # <a name="sccgetextendedcapabilities-function"></a>SccGetExtendedCapabilities 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ SCCRTN SccGetExtendedCapabilities(
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|Get 기능 작업을 완료 했습니다.|  
 |SCC_E_UNKNOWNERROR<br /><br /> SCC_E_NONSPECIFICERROR|알 수 없거나 지정 되지 않은 오류가 발생 했습니다.|  

@@ -13,11 +13,11 @@ caps.latest.revision: 10
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: b9189b647baa29d72975f84172696ecb54cd7f87
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68183428"
 ---
 # <a name="source-control-integration-essentials"></a>소스 제어 통합 필수 항목
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -52,7 +52,7 @@ ms.locfileid: "58985198"
   
    자세한 내용은 [소스 제어 VSPackage를 만드는](../../extensibility/internals/creating-a-source-control-vspackage.md)합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [개요](../../extensibility/internals/source-control-integration-overview.md)   
  [소스 제어 플러그 인 만들기](../../extensibility/internals/creating-a-source-control-plug-in.md)   
  [소스 제어 VSPackage 만들기](../../extensibility/internals/creating-a-source-control-vspackage.md)

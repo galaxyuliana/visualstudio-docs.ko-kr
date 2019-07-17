@@ -12,11 +12,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: b7842bd2e0a6cebc5980781bae1fc89c1401fc08
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184393"
 ---
 # <a name="combos-element"></a>Combos 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -78,6 +78,6 @@ ms.locfileid: "58982672"
 </Combos>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Vspackage에서 사용자 인터페이스 요소를 추가 하는 방법](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [명령, 메뉴 및 도구 모음](../extensibility/internals/commands-menus-and-toolbars.md)

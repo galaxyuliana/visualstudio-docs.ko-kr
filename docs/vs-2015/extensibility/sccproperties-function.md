@@ -13,11 +13,11 @@ caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: f4e8452465873cb66883abd347406d17b469e90a
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199994"
 ---
 # <a name="sccproperties-function"></a>SccProperties 함수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ SCCRTN SccProperties (
 ## <a name="return-value"></a>반환 값  
  원본 제어 플러그 인이 함수의 구현은 다음 값 중 하나를 반환 하:  
   
-|값|설명|  
+|값|Description|  
 |-----------|-----------------|  
 |SCC_OK|속성은 성공적으로 표시 되었습니다.|  
 |SCC_I_RELOADFILE|버전 제어 시스템은 IDE이이 파일을 다시 로드 해야 하므로 파일 속성을 수정입니다.|  

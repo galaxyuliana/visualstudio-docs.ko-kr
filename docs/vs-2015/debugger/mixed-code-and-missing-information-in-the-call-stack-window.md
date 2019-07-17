@@ -28,11 +28,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3995e14379fa4bd3ebd5cc276613c288b4437d35
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68193283"
 ---
 # <a name="mixed-code-and-missing-information-in-the-call-stack-window"></a>호출 스택 창의 혼합 코드 및 누락된 정보
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,5 +45,5 @@ ms.locfileid: "58982835"
   
   두 경우 모두 아주 드문 경우입니다. 관리 코드에 대한 대부분의 네이티브 호출에서는 호출 스택이 올바르게 나타납니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [방법: 호출 스택 창 사용](../debugger/how-to-use-the-call-stack-window.md)

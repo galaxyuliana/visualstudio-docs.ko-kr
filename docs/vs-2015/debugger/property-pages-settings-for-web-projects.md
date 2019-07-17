@@ -22,11 +22,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3cb7cd3f8c3678d37feb2267f68ab5d2b3d970e0
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68150850"
 ---
 # <a name="property-pages-settings-for-web-projects"></a>웹 프로젝트에 대한 속성 페이지 설정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,5 +54,5 @@ ms.locfileid: "58982112"
 |**SQL Server 디버깅**|SQL Server 데이터베이스 개체를 디버깅할 수 있습니다.|  
 |**Silverlight 디버깅**|Silverlight 구성 요소를 디버깅할 수 있습니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [디버거 설정 및 준비](../debugger/debugger-settings-and-preparation.md)

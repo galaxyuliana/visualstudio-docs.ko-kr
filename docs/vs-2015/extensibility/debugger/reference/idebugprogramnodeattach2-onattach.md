@@ -13,11 +13,11 @@ caps.latest.revision: 4
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 845ec66215c5d999aaf3b5c9658bc0fb8e7295a7
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148541"
 ---
 # <a name="idebugprogramnodeattach2onattach"></a>IDebugProgramNodeAttach2::OnAttach
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -48,6 +48,6 @@ int OnAttach(
 ## <a name="remarks"></a>설명  
  이 메서드는 연결 프로세스 중 전에 합니다 [연결](../../../extensibility/debugger/reference/idebugengine2-attach.md) 메서드가 호출 됩니다. `OnAttach` 메서드 자체 연결 프로세스를 수행할 수 있습니다 (이 메서드가 반환 하는 경우에 `S_FALSE`) 연결 프로세스를 지연 또는 `IDebugEngine2::Attach` 메서드 (합니다 `OnAttach` 메서드가 반환 되는 `S_OK`). 하거나 이벤트에 `OnAttach` 메서드를 설정할 수는 `GUID` 하려면 디버깅 중인 프로그램의는 지정 `GUID`합니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugProgramNodeAttach2](../../../extensibility/debugger/reference/idebugprogramnodeattach2.md)   
  [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)

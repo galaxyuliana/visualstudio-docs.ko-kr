@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: wpickett
 ms.openlocfilehash: a78125645dc6369811b4b9e1d7101b7bb4cbba76
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60103825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68200486"
 ---
 # <a name="ca1059-members-should-not-expose-certain-concrete-types"></a>CA1059: 멤버는 구체적인 특정 형식을 노출하면 안 됩니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "60103825"
 
  다음 표에서 대상된 구체적인 형식 및 해당 제안 된 대체 합니다.
 
-|구체적인 형식|Replacement|
+|구체적인 형식|대체 기능|
 |-------------------|-----------------|
 |<xref:System.Xml.XPath.XPathDocument>|<xref:System.Xml.XPath.IXPathNavigable?displayProperty=fullName>.<br /><br /> 인터페이스를 사용 하 여 XML 데이터 원본의 특정 구현에서 멤버를 분리 합니다.|
 

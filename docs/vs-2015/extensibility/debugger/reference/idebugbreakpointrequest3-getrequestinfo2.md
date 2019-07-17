@@ -13,11 +13,11 @@ caps.latest.revision: 14
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: d01d1b5e3aef83d948f058dfbf5dbdbb4c7cb782
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58970405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158793"
 ---
 # <a name="idebugbreakpointrequest3getrequestinfo2"></a>IDebugBreakpointRequest3::GetRequestInfo2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -53,7 +53,7 @@ int GetRequestInfo2(
 ## <a name="remarks"></a>설명  
  이 요청에서 반환 되는 보다 자세한 정보는 [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md) 메서드.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [IDebugBreakpointRequest3](../../../extensibility/debugger/reference/idebugbreakpointrequest3.md)   
  [GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)   
  [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)   

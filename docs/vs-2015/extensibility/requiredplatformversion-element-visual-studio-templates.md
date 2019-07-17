@@ -9,11 +9,11 @@ caps.latest.revision: 7
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 2e5ba8cfef6674b5603cf03c73619f686338af3c
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58971591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159280"
 ---
 # <a name="requiredplatformversion-element-visual-studio-templates"></a>RequiredPlatformVersion 요소(Visual Studio 템플릿)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "58971591"
   
  VSTemplate  
 TemplateData  
-…..TargetPlatformName  
+... TargetPlatformName  
 RequiredPlatformVersion  
   
 ## <a name="syntax"></a>구문  
@@ -46,7 +46,7 @@ RequiredPlatformVersion
   
 ### <a name="parent-elements"></a>부모 요소  
   
-|요소|설명|  
+|요소|Description|  
 |-------------|-----------------|  
 |[TemplatePlatformName](../extensibility/templatedata-element-visual-studio-templates.md)|프로젝트 템플릿의 대상 플랫폼을 지정합니다.|  
   
@@ -72,7 +72,7 @@ RequiredPlatformVersion
 </VSTemplate>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [TargetPlatformName 요소 (Visual Studio 템플릿)](../extensibility/targetplatformname-element-visual-studio-templates.md)   
  [프로젝트 템플릿 및 항목 템플릿 만들기](../ide/creating-project-and-item-templates.md)   
  [Visual Studio 템플릿 스키마 참조](../extensibility/visual-studio-template-schema-reference.md)

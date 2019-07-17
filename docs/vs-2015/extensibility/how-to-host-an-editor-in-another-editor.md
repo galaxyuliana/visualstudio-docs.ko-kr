@@ -11,13 +11,13 @@ caps.latest.revision: 15
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 4d4b4ff425feb22b5057a8d1a76b7f73b8932d9f
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68204175"
 ---
-# <a name="how-to-host-an-editor-in-another-editor"></a>방법: 다른 편집기에서 편집기를 호스트 합니다.
+# <a name="how-to-host-an-editor-in-another-editor"></a>방법: 다른 편집기에서 편집기 호스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 Visual Studio에서 다른 자가 호스팅 창의 부모 창으로 지정 하 여 호스팅할 수 있습니다. 이렇게 하려면 매개 변수를 설정할 <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID2> 및 <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID2> 자식 창 프레임에 있습니다.  

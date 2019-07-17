@@ -9,11 +9,11 @@ caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: acb7922658a5dd7db0839051a42a119733c8b1d7
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60118060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184199"
 ---
 # <a name="creating-a-custom-start-page"></a>사용자 지정 시작 페이지 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -71,7 +71,7 @@ ms.locfileid: "60118060"
   
 1. XAML 파일에 및 지원 텍스트 파일 또는 태그 파일에 복사 합니다 **%USERPROFILE%\My Documents\Visual Studio 2015\StartPages\\**  폴더입니다.  
   
-2. 시작 페이지에서 모든 컨트롤 또는 Visual Studio가 설치 되지 않은 어셈블리의 형식을 참조 하는 경우 어셈블리를 복사한 다음에 붙여 넣습니다 _Visual Studio 설치 폴더_**\Common7\IDE\ PrivateAssemblies\\**합니다.  
+2. 시작 페이지에서 모든 컨트롤 또는 Visual Studio가 설치 되지 않은 어셈블리의 형식을 참조 하는 경우 어셈블리를 복사한 다음에 붙여 넣습니다 _Visual Studio 설치 폴더_ **\Common7\IDE\ PrivateAssemblies\\** 합니다.  
   
 3. Visual Studio 명령 프롬프트에서 입력 **devenv /rootsuffix Exp** Visual Studio의 실험적 인스턴스를 엽니다.  
   

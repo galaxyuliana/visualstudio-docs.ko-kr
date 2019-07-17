@@ -12,11 +12,11 @@ caps.latest.revision: 19
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 069c396ce4cb75c9153082fdbb352b2ba713c8a8
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60052588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68156013"
 ---
 # <a name="test-area-2-get-from-source-control"></a>테스트 영역 2: 소스 제어에서 가져오기
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]

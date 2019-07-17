@@ -13,11 +13,11 @@ caps.latest.revision: 42
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 7f58e29797e9a7760aa0f48c68868199f51b3c92
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58972035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68177435"
 ---
 # <a name="using-and-providing-services"></a>서비스 사용 및 제공
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -28,7 +28,7 @@ ms.locfileid: "58972035"
   
  Visual Studio는 다음과 같은 중요 한 서비스를 제공합니다.  
   
-|IDE 서비스|설명|  
+|IDE 서비스|Description|  
 |-----------------|-----------------|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>|IDE에 대 한 액세스는 기본 기능, Vspackage, 및 레지스트리를 사용 하 여 처리 서비스를 제공 합니다.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>|기본적인 창 및 도구 및 windows 문서를 작성 하는 기능과 같은 IDE에서 UI 관련 기능을 제공 합니다.|  
@@ -41,7 +41,7 @@ ms.locfileid: "58972035"
  [방법: 서비스 가져오기](../extensibility/how-to-get-a-service.md)  
  요청 하는 방법에 설명 (소비) 서비스입니다.  
   
- [방법: 서비스를 제공 합니다.](../extensibility/how-to-provide-a-service.md)  
+ [방법: 서비스 제공](../extensibility/how-to-provide-a-service.md)  
  서비스를 제공 하는 방법에 설명 합니다.  
   
  [방법: 비동기 Visual Studio 서비스 제공](../extensibility/how-to-provide-an-asynchronous-visual-studio-service.md)  

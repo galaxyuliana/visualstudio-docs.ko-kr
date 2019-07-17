@@ -16,11 +16,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 8f36480dc8ddaac3d9977155f2b1a7741ebe3ba1
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58983799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155597"
 ---
 # <a name="publicsymbol"></a>PublicSymbol
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "58983799"
 ## <a name="properties"></a>속성  
  다음 표에서이 기호 형식에 대 한 잘못 된 속성을 보여 줍니다.  
   
-|속성|데이터 형식|설명|  
+|속성|데이터 형식|Description|  
 |--------------|---------------|-----------------|  
 |[IDiaSymbol::get_addressOffset](../../debugger/debug-interface-access/idiasymbol-get-addressoffset.md)|`DWORD`|위치 오프셋된 부분 자세한 내용은 참조는 [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md)합니다.|  
 |[IDiaSymbol::get_addressSection](../../debugger/debug-interface-access/idiasymbol-get-addresssection.md)|`DWORD`|위치 섹션 부분 자세한 내용은 참조는 [LocationType 열거형](../../debugger/debug-interface-access/locationtype.md)합니다.|  

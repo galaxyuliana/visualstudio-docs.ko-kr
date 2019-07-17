@@ -13,11 +13,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: e9d2e8b0414746523d0f76e8266f6463d9c05574
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60098893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160293"
 ---
 # <a name="saving-symbol-information-with-performance-data-files"></a>성능 데이터 파일을 사용하여 기호 정보 저장
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
