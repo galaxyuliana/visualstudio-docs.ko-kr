@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6249a5ab4a8beef8ff8af766d4bac5a0e110ad66
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 83d444cb5e3345d79ca6e1422982c0ecd37e4287
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65676583"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825521"
 ---
 # <a name="inspect-previous-app-states-using-intellitrace-step-back-in-visual-studio-visual-studio-enterprise"></a>Visual Studio(Visual Studio Enterprise)에서 IntelliTrace 뒤로 이동을 사용하여 이전 앱 상태 검사
 
@@ -119,8 +119,8 @@ IntelliTrace 뒤로 이동은 Visual Studio Enterprise 2017 버전 15.5 이상�
 
 * 애플리케이션 프로세스의 스냅숏이 지속형 메모리 매핑된 파일을 사용하는 애플리케이션에서 만들어지는 경우 스냅숏이 있는 프로세스는 메모리 매핑된 파일에서 단독 잠금을 보유합니다(부모 프로세스가 해당 잠금을 해제한 후에도). 다른 프로세스를 여전히 읽을 수 있지만 메모리 매핑된 파일에 쓸 수 없습니다.
 
-    해결 방법:
-    * 디버깅 세션을 종료하여 모든 스냅숏을 지웁니다.
+  해결 방법:
+  * 디버깅 세션을 종료하여 모든 스냅숏을 지웁니다.
 
 * 해당 프로세스에 많은 수의 고유 메모리 영역이 있는 애플리케이션을 디버깅할 때(예: 많은 수의 DLL을 로드하는 애플리케이션) 활성화된 스냅숏이 있는 단계별 실행 성능은 영향을 받을 수 있습니다. 이 문제는 Windows의 향후 버전에서 수정될 예정입니다. 이 문제가 발생하는 경우 stepback@microsoft.com으로 문의하세요.
 

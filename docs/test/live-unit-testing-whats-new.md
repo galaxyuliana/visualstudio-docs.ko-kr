@@ -11,12 +11,12 @@ ms.author: ronpet
 ms.workload:
 - dotnet
 monikerRange: vs-2017
-ms.openlocfilehash: 96ac53900806cc37e215342573f998be995289f8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 86ed90e6a4fe211d162f12785b0f3f555802ad17
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62785886"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823761"
 ---
 # <a name="whats-new-in-live-unit-testing-for-visual-studio-2017"></a>Visual Studio 2017 Live Unit Testing의 새로운 기능
 
@@ -28,9 +28,9 @@ Visual Studio 2017 버전 15.4부터 시작하는 Live Unit Testing은 다양한
 
 - **향상된 검색 기능** Live Unit Testing이 존재하는지 알지 못하는 사용자의 경우 Visual Studio IDE는 사용자가 단위 테스트를 포함하지만 Live Unit Testing이 활성화되지 솔루션을 열 때마다 Live Unit Testing을 언급하는 금색 표시줄을 표시합니다. 금색 표시줄에 표시된 정보를 통해 사용자는 Live Unit Testing에 대해 자세히 알아보고 활성화할 수 있습니다. 또한 금색 표시줄은 Live Unit Testing 필수 구성 요소가 만족되지 않는 경우 정보를 표시합니다. 여기에는 다음이 포함됩니다.
 
-   - 테스트 어댑터가 누락되어 있습니다.
-   - 이전 버전의 테스트 어댑터가 있습니다.
-   - 솔루션에서 참조하는 NuGet 패키지 복원이 필요합니다.
+  - 테스트 어댑터가 누락되어 있습니다.
+  - 이전 버전의 테스트 어댑터가 있습니다.
+  - 솔루션에서 참조하는 NuGet 패키지 복원이 필요합니다.
 
 - **작업 센터 알림과 통합** Visual Studio IDE는 이제 사용자가 Live Unit Testing이 활성화되었을 때 발생하는 것을 쉽게 알 수 있도록 작업 센터에서 Live Unit Testing 후순위 처리 알림을 보여 줍니다. 이는 대규모 솔루션에서 Live Unit Testing을 시작하는 주요 문제를 해결합니다. 이전에 검사 아이콘이 표시될 때까지 몇 분 동안 사용자는 Live Unit Testing이 실제로 활성화되었는지 작동하고 있는지 여부를 결정할 수 없었습니다. 이제는 아닙니다!
 
@@ -60,9 +60,9 @@ Visual Studio 2017 버전 15.3부터 시작하는 Live Unit Testing은 두 가�
 
 - 이제 다음 특성을 사용하여 Live Unit Testing에서 제외하려는 대상 테스트 메서드를 소스 코드에 지정할 수 있습니다.
 
-   - xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
-   - NUnit: `[Category("SkipWhenLiveUnitTesting")]`
-   - MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
+  - xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
+  - NUnit: `[Category("SkipWhenLiveUnitTesting")]`
+  - MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
 
 ## <a name="see-also"></a>참고 항목
 

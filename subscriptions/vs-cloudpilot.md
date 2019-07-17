@@ -6,13 +6,12 @@ manager: lank
 ms.date: 12/19/2018
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에서 제공하는 CloudPilot 혜택 알아보기
-searchscope: VS Subscription
-ms.openlocfilehash: 38b857ee9ba385f3b7be12be725712f338b248f7
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: 66de81b30d8eeb315353aa0b6aa37e75c50a19d6
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67032584"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825913"
 ---
 # <a name="the-cloudpilot-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 CloudPilot 혜택
 
@@ -76,9 +75,9 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
 
 ## <a name="support-resources"></a>지원 리소스
 - CloudPilot 사용과 관련하여 도움이 필요하세요?  다음 리소스를 확인하세요.
-    - UnifyCloud 제품에 대한 질문은 [UnifyCloud에 문의](https://www.unifycloud.com/contacts/)하세요.
-    - [CloudPilot 사용자 설명서](https://www.cloudatlasinc.com/cloudpilot/doc/CloudPilot-User-Manual.pdf )
-    - [지원 요청 제출](https://support.datacamp.com/hc/requests/new)
+  - UnifyCloud 제품에 대한 질문은 [UnifyCloud에 문의](https://www.unifycloud.com/contacts/)하세요.
+  - [CloudPilot 사용자 설명서](https://www.cloudatlasinc.com/cloudpilot/doc/CloudPilot-User-Manual.pdf )
+  - [지원 요청 제출](https://support.datacamp.com/hc/requests/new)
 
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.

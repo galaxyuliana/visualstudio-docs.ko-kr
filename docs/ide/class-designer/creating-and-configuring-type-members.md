@@ -29,12 +29,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fcfab3a14e8dfab6bdfb62b32839ebcbd69d21af
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: 811565d6e4189eb04b33ce07fe04718def905922
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66746935"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250646"
 ---
 # <a name="create-and-configure-type-members-in-class-designer"></a>클래스 디자이너에서 형식 멤버 만들기 및 구성
 
@@ -122,7 +122,8 @@ ms.locfileid: "66746935"
 
 4. 해당 멤버에 대한 기타 세부 내용(예: 해당 형식)을 지정할 수도 있습니다.
 
-     **참고:** 바로 가기 키를 사용하여 멤버를 만들 수도 있습니다. 자세한 내용은 [클래스 다이어그램 및 클래스 세부 내용 창의 키보드 및 마우스 바로 가기](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md)를 참조하세요.
+    > [!NOTE]
+    > 바로 가기 키를 사용하여 멤버를 만들 수도 있습니다. 자세한 내용은 [클래스 다이어그램 및 클래스 세부 내용 창의 키보드 및 마우스 바로 가기](keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md)를 참조하세요.
 
 ## <a name="modify-type-members"></a>형식 멤버 수정
 
@@ -150,7 +151,7 @@ ms.locfileid: "66746935"
 
 - **멤버 한정자**
 
-     멤버의 표시 한정자를 `Public`(`public`), `Private`(`private`), `Friend`(`internal`) `Protected`(`protected`), `Protected``Friend`(`protected``internal`) 또는 `Default`로 변경합니다.
+     멤버의 표시 한정자를 `Public`(`public`), `Private`(`private`), `Friend`(`internal`) `Protected`(`protected`), `Protected Friend`(`protected internal`) 또는 `Default`로 변경합니다.
 
 - **\<멤버 추가>**
 

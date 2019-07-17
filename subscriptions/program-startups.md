@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 03/20/2018
 ms.topic: conceptual
 description: Microsoft for Startups 프로그램을 통해 제공된 구독에 대한 세부 사항입니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 8a3acb216b58ce9a81b8edefed61d779955c0a1d
-ms.sourcegitcommit: 25570fb5fb197318a96d45160eaf7def60d49b2b
+ms.openlocfilehash: 0105d9b8b4a9ed363e755258b8e7ca84e299fe88
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66402099"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250616"
 ---
 # <a name="visual-studio-subscriptions-offered-to-startups"></a>신생 기업에 제공된 Visual Studio 구독
 Microsoft for Startups 프로그램에 가입하는 정규화된 신생 기업은 5개의 [Visual Studio Enterprise 월별 클라우드 구독](https://visualstudio.microsoft.com/vs/pricing/)을 얻을 수 있습니다. 이들은 특별한 제한 또는 제약 없이 유료로 제공되는 것과 동일한 구독입니다. 각 구독은 사용자가 Visual Studio를 실행하고 Azure DevOps Services에서 Visual Studio Enterprise 구독자로 인식하기 전에 최종 사용자(라이선스 사용자)에게 할당되어야 합니다.

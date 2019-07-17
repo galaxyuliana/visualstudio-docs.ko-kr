@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 03/02/2018
 ms.topic: conceptual
 description: 클라우드 구독에 대한 청구 질문입니다.
-searchscope: VS Subscription
-ms.openlocfilehash: ab02b40926225860536b277b22c3f16768a56731
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 858707358062386191c526810644f110bd7ac58d
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62810533"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250732"
 ---
 # <a name="visual-studio-cloud-subscriptions-billing-faq"></a>Visual Studio 클라우드 구독 청구 FAQ
 
@@ -43,7 +42,7 @@ A: 적절한 권한이 있는지 확인하는 가장 쉬운 방법은 Visual Stu
 현재 사용자의 로그인에 연결된 Azure 구독 목록에서 Azure 구독(청구 계정)을 선택해야 합니다.
 Azure 구독 이름은 청구 계정 유형("종량제", "기업 계약" 등)을 기본값으로 하기 때문에 Azure 구독이 기업 계약의 일부인 경우 명확합니다.
 
-다른 방법은 [Azure Enterprise Portal](http://ea.azure.com)을 방문하려 하는 것입니다.  성공적으로 도달할 수 있으면 이미 엔터프라이즈 관리자 또는 계정 소유자 역할을 하고 있는 것입니다. 계정 소유자만 기업 계약에서 새 Azure 청구 계정을 설정할 수 있습니다. Azure Enterprise Portal에 액세스할 수 없는 경우 조직 내에서 문의하여 엔터프라이즈 관리자가 누구인지 알아내고 그 사람에게 Azure Enterprise Portal 내에서 계정 소유자로서 사용자를 추가하도록 요청합니다.  이 관리자를 찾을 수 없는 경우 [지원 티켓을 제출](https://aka.ms/AzureEntSupport)하여 연락처 정보를 요청할 수 있습니다.  지원 티켓에 대해 조직 이름 및 기업 계약 등록 번호가 필요합니다.
+다른 방법은 [Azure Enterprise Portal](https://ea.azure.com)을 방문하려 하는 것입니다.  성공적으로 도달할 수 있으면 이미 엔터프라이즈 관리자 또는 계정 소유자 역할을 하고 있는 것입니다. 계정 소유자만 기업 계약에서 새 Azure 청구 계정을 설정할 수 있습니다. Azure Enterprise Portal에 액세스할 수 없는 경우 조직 내에서 문의하여 엔터프라이즈 관리자가 누구인지 알아내고 그 사람에게 Azure Enterprise Portal 내에서 계정 소유자로서 사용자를 추가하도록 요청합니다.  이 관리자를 찾을 수 없는 경우 [지원 티켓을 제출](https://aka.ms/AzureEntSupport)하여 연락처 정보를 요청할 수 있습니다.  지원 티켓에 대해 조직 이름 및 기업 계약 등록 번호가 필요합니다.
 
 ### <a name="q-can-i-use-the-azure-monetary-commitment-funds-from-my-enterprise-agreement-to-buy-visual-studio-cloud-subscriptions"></a>Q: Visual Studio 클라우드 구독을 구입하려면 기업계약에서 Azure 현금 약정 금액 자금을 사용할 수 있나요?
 

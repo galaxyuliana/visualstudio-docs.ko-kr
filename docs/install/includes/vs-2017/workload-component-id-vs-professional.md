@@ -11,11 +11,11 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
 ms.openlocfilehash: 3d871f6e84dc96a1e1fd5c20a95c234f13a30ab2
-ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67259716"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "68177607"
 ---
 ## <a name="visual-studio-core-editor-included-with-visual-studio-professional-2017"></a>Visual Studio 핵심 편집기(Visual Studio Professional 2017에 포함)
 

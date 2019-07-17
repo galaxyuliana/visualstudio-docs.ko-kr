@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 10/03/2017
 ms.topic: conceptual
 description: 관리자가 구독 할당을 편집하는 방법을 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: d3dbc2e05d85ed8277d7a7c0f530dfa92da7dba6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7245facbaf966593160bc44dc15bc2fd71622347
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62946254"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67783482"
 ---
 # <a name="editing-visual-studio-subscription-assignments"></a>Visual Studio 구독 할당 편집
 

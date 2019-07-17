@@ -11,17 +11,17 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2ae010fac8978b0669021bc6645449f57da754d0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 5ac7cd1ea69bb6b96066da876ab2ce88aabb8a08
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63437869"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823498"
 ---
 # <a name="msbuild"></a>MSBuild
 [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]은 애플리케이션을 빌드하기 위한 플랫폼입니다. MSBuild라고도 하는 이 엔진은 빌드 플랫폼에서 소프트웨어를 처리하고 빌드하는 방법을 제어하는 프로젝트 파일에 대한 XML 스키마를 제공합니다. Visual Studio는 MSBuild를 사용하지만 Visual Studio에 종속되지 않습니다. 프로젝트 또는 솔루션 파일에서 *msbuild.exe*를 호출하여 Visual Studio가 설치되지 않은 환경에서 제품을 조정하고 빌드할 수 있습니다.
 
- Visual Studio는 MSBuild를 사용하여 관리되는 프로젝트를 로드하고 빌드합니다. Visual Studio의 프로젝트 파일(*.csproj*, *.vbproj*, *.vcxproj* 등)에는 IDE를 사용하여 프로젝트를 빌드할 때 실행되는 MSBuild XML 코드가 들어 있습니다. Visual Studio 프로젝트는 필요한 모든 설정을 가져오고 일반적인 개발 작업을 수행하는 프로세스를 빌드하지만 Visual Studio 내에서 또는 XML 편집기를 사용하여 확장하거나 수정할 수 있습니다.
+ Visual Studio는 MSBuild를 사용하여 관리되는 프로젝트를 로드하고 빌드합니다. Visual Studio의 프로젝트 파일( *.csproj*, *.vbproj*, *.vcxproj* 등)에는 IDE를 사용하여 프로젝트를 빌드할 때 실행되는 MSBuild XML 코드가 들어 있습니다. Visual Studio 프로젝트는 필요한 모든 설정을 가져오고 일반적인 개발 작업을 수행하는 프로세스를 빌드하지만 Visual Studio 내에서 또는 XML 편집기를 사용하여 확장하거나 수정할 수 있습니다.
 
  C++의 MSBuild에 대한 자세한 내용은 [MSBuild (Visual C++)](/cpp/build/msbuild-visual-cpp)를 참조하세요.
 
@@ -35,13 +35,13 @@ ms.locfileid: "63437869"
 
 - 빌드 시스템을 수정하려는 경우. 예를 들어 다음과 같은 작업을 사용하도록 설정할 수 있습니다.
 
-    - 컴파일러에 도달하기 전에 파일을 전처리합니다.
+  - 컴파일러에 도달하기 전에 파일을 전처리합니다.
 
-    - 빌드 출력을 다른 위치로 복사합니다.
+  - 빌드 출력을 다른 위치로 복사합니다.
 
-    - 빌드 출력에서 압축 파일을 만듭니다.
+  - 빌드 출력에서 압축 파일을 만듭니다.
 
-    - 후처리 단계를 수행합니다. 예를 들어 다른 버전으로 어셈블리에 스탬프를 지정할 수 있습니다.
+  - 후처리 단계를 수행합니다. 예를 들어 다른 버전으로 어셈블리에 스탬프를 지정할 수 있습니다.
 
 Visual Studio IDE에서 코드를 작성하지만 MSBuild를 사용하여 빌드를 실행할 수 있습니다. 또는 개발 컴퓨터의 IDE에서 코드를 빌드하지만 MSBuild 명령줄을 사용하여 여러 개발자로부터 통합된 코드를 빌드할 수 있습니다.
 

@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 04/10/2018
 ms.topic: conceptual
 description: Azure DevOps 및 Azure를 사용하기 위해 Visual Studio 구독에 대한 대체 ID를 추가하는 방법
-searchscope: vs subscription
-ms.openlocfilehash: 63a372d4a0e0e70a008f86a36aae73516bf42458
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bec00f6e49ce04781ad69a56b30637b375000b6e
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62428105"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67784710"
 ---
 # <a name="identities-for-visual-studio-subscribers"></a>Visual Studio 구독자용 ID
 
@@ -35,7 +34,7 @@ Azure에서 구독자 혜택인 [월간 Azure 크레딧](https://azure.microsoft
 
 ### <a name="add-the-alternate-account"></a>대체 계정 추가
 
-1. Microsoft 계정(https://my.visualstudio.com)을 사용하여 Visual Studio 구독자 포털에 로그인합니다.
+1. Microsoft 계정(https://my.visualstudio.com) 을 사용하여 Visual Studio 구독자 포털에 로그인합니다.
 
 2. **구독**으로 이동합니다.
 

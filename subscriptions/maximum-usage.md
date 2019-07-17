@@ -6,13 +6,12 @@ manager: lank
 ms.date: 03/24/2019
 ms.topic: conceptual
 description: 관리 포털에서 할당된 최대 구독 수를 보는 방법 알아보기
-searchscope: VS Subscription
-ms.openlocfilehash: c263c610b140d3662cb17ba9f2c3d3f1a1907ab7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0442671a6cdb24e394e6c2a47c935ae894cca354
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965433"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250741"
 ---
 # <a name="using-the-maximum-usage-feature-to-track-the-number-of-assigned-subscriptions"></a>최대 사용량 기능을 사용하여 할당된 구독 수 추적
 
@@ -51,4 +50,4 @@ Visual Studio 구독 관리 포털의 새로운 기능을 사용하면 구매 �
 A:  개요의 정보는 각 구독 수준에 대한 현재 할당 및 사용 가능한 구독을 보여줍니다.  이는 어느 시점에서 규약에 할당된 최대 구독 수와는 매우 다를 수 있습니다.  최대 사용량 기능을 사용하면 최대 할당 수준에 도달한 시기와 해당 수준을 확인할 수 있습니다.  true-up 도중 구독에 대한 요금 청구는 언제든지 할당된 최대 구독 수를 기반으로 하기 때문에 이는 중요한 차이입니다. 
 
 ## <a name="next-steps"></a>다음 단계
-구독 할당 또는 관리 포털의 다른 측면에 대해 질문이 있는 경우 https://visualstudio.microsoft.com/subscriptions/support/에 문의하여 지원을 받으세요. 
+구독 할당 또는 관리 포털의 다른 측면에 대해 질문이 있는 경우 https://visualstudio.microsoft.com/subscriptions/support/ 에 문의하여 지원을 받으세요. 

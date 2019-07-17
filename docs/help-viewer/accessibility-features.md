@@ -6,17 +6,17 @@ helpviewer_keywords:
 - accessibility features [Help Viewer]
 - Help Viewer, accessibility features
 ms.assetid: 94a3225c-d2cb-4565-8453-855d1cdc1acf
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 808b3902747198697aa6a1147bd1c04c85dd96a6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 34a5a2f07d17c2ebd607bfe102cc7e3db92d014a
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62951359"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825141"
 ---
 # <a name="accessibility-features-of-the-help-viewer"></a>도움말 뷰어의 접근성 기능
 Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽게 만들기 위해 최선을 다하고 있습니다. 이 항목에는 Microsoft 도움말 뷰어를 다양한 범위의 기능을 가진 사람들이 액세스할 수 있도록 도와주는 기능, 제품 및 서비스에 대한 정보가 포함되어 있습니다.

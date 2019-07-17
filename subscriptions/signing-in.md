@@ -6,13 +6,12 @@ manager: lank
 ms.date: 05/14/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 로그인하는 방법
-searchscope: VS Subscription
-ms.openlocfilehash: d010a908d28fd6f7be86cee27fa86f0ac24471d6
-ms.sourcegitcommit: 283f2dbce044a18e9f6ac6398f6fc78e074ec1ed
+ms.openlocfilehash: acfd04dfdbbca78d9f139a507ddb9f34ae8f9475
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65805291"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67784936"
 ---
 # <a name="signing-in-to-your-visual-studio-subscription"></a>Visual Studio 구독에 로그인
 

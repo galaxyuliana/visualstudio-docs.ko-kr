@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c878d898aa12644cc7a53ee9f12b351cd54c9d8d
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 44b6c0cfa1adf8ff1378dd8a426ab531ae90e096
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65459200"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824622"
 ---
 # <a name="how-to-export-a-texture-for-use-with-direct2d-or-javascript-apps"></a>방법: Direct2D 또는 JavaScript 앱과 함께 사용하기 위해 텍스처 내보내기
 
@@ -25,11 +25,11 @@ ms.locfileid: "65459200"
 
 - Direct2D 또는 JavaScript 앱에서 사용할 수 있는 질감을 생성하도록 이미지 콘텐츠 파이프라인 구성.
 
-    - 블록 압축 *.dds* 파일을 생성합니다.
+  - 블록 압축 *.dds* 파일을 생성합니다.
 
-    - 미리 곱한 알파를 생성합니다.
+  - 미리 곱한 알파를 생성합니다.
 
-    - MIP 맵 생성을 사용하지 않도록 설정합니다.
+  - MIP 맵 생성을 사용하지 않도록 설정합니다.
 
 ## <a name="rendering-conventions-in-direct2d"></a>Direct2D의 렌더링 규칙
 
@@ -39,11 +39,11 @@ Direct2D의 컨텍스트에서 사용되는 질감은 이러한 Direct2D 내부 
 
 - 다음 블록 압축 형식 중 하나를 사용하여 질감을 *.dds* 형식으로 제공해야 합니다.
 
-   - BC1_UNORM 압축
+  - BC1_UNORM 압축
 
-   - BC2_UNORM 압축
+  - BC2_UNORM 압축
 
-   - BC3_UNORM 압축
+  - BC3_UNORM 압축
 
 - MIP 맵은 지원되지 않습니다.
 

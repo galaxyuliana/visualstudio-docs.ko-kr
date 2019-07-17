@@ -7,12 +7,12 @@ ms.date: 05/06/2018
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
-ms.openlocfilehash: 8ceee693ee7b20e7045aa8bca4b895a0df383c80
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6f12a4071a15372da7c71836ae303e40d6858f3f
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62933517"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824421"
 ---
 # <a name="introduction-to-azure-functions"></a>Azure Functions 소개
 
@@ -65,7 +65,7 @@ Mac용 Visual Studio에서 Azure Functions 지원을 통해 로컬 개발 컴퓨
 
 1. Azure Functions에서 프로젝트를 실행하면 로컬 디버그가 시작되고 다음 이미지에서처럼 새 터미널 창이 열립니다.
 
-    ![함수 출력을 표시하는 터미널 창 ](media/azure-functions-terminal.png)
+    ![함수 출력을 표시하는 터미널 창](media/azure-functions-terminal.png)
 
     출력에서 URL을 복사합니다.
 
@@ -140,14 +140,14 @@ local.settings.json에서 추가한 모든 설정은 Azure의 함수 앱에도 �
 ## <a name="available-function-templates"></a>사용 가능한 함수 템플릿
 
 - **GitHub 트리거** - GitHub 리포지토리에서 발생하는 이벤트에 응대합니다. 자세한 내용은 [Azure functions 문서의 GitHub 부분](/azure/azure-functions/functions-create-github-webhook-triggered-function)을 참조하세요.
-    - GitHub commenter – 문제 또는 끌어오기 요청에 대한 GitHub 웹후크를 받고 주석을 추가할 때 실행되는 함수입니다.
-    - GitHub WebHook – 이 함수는 GitHub 웹후크 요청을 받을 때 실행됩니다.
+  - GitHub commenter – 문제 또는 끌어오기 요청에 대한 GitHub 웹후크를 받고 주석을 추가할 때 실행되는 함수입니다.
+  - GitHub WebHook – 이 함수는 GitHub 웹후크 요청을 받을 때 실행됩니다.
 
 - **HTTP** – HTTP 요청을 사용하여 코드 실행을 트리거합니다. 다음 HTTP 트리거에 대한 명시적 템플릿이 있습니다.
-    - HTTP 트리거
-    - Http GET CRUD
-    - Http POST CRUD
-    - 매개 변수가 있는 http 트리거
+  - HTTP 트리거
+  - Http GET CRUD
+  - Http POST CRUD
+  - 매개 변수가 있는 http 트리거
 
 - **Timer** - 미리 정의된 일정에 따라 정리 또는 기타 일괄 처리 작업을 실행합니다. 이 템플릿에는 이름과 일정 등 두 필드가 있고 6개 필드 CRON 식입니다. 자세한 내용은 [Azure functions 문서의 Timer 부분](/azure/azure-functions/functions-create-scheduled-function)을 참조하세요.
 

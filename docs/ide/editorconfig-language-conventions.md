@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 90c080b62be8f3aba128b26aafe9d2b6e30446f5
-ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
+ms.openlocfilehash: 0ddb6173095b8d4fd552e108f458a271321511c7
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67586790"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823299"
 ---
 # <a name="language-conventions"></a>언어 규칙
 
@@ -56,36 +56,36 @@ Visual Studio의 EditorConfig에 대한 언어 규칙은 다음 두 가지 범�
 이 섹션의 스타일 규칙은 C# 및 Visual Basic 모두에 적용됩니다.
 
 - ["This." 및 "Me." 한정자](#this-and-me)
-   - dotnet\_style\_qualification\_for_field
-   - dotnet\_style\_qualification\_for_property
-   - dotnet\_style\_qualification\_for_method
-   - dotnet\_style\_qualification\_for_event
+  - dotnet\_style\_qualification\_for_field
+  - dotnet\_style\_qualification\_for_property
+  - dotnet\_style\_qualification\_for_method
+  - dotnet\_style\_qualification\_for_event
 - [형식 참조를 위한 프레임워크 형식 이름 대신 언어 키워드](#language-keywords)
-   - dotnet\_style\_predefined\_type\_for\_locals\_parameters_members
-   - dotnet\_style\_predefined\_type\_for\_member_access
+  - dotnet\_style\_predefined\_type\_for\_locals\_parameters_members
+  - dotnet\_style\_predefined\_type\_for\_member_access
 - [한정자 기본 설정](#normalize-modifiers)
-   - dotnet\_style\_require\_accessibility_modifiers
-   - csharp\_preferred\_modifier_order
-   - visual\_basic\_preferred\_modifier_order
-   - dotnet\_style\_readonly\_field
+  - dotnet\_style\_require\_accessibility_modifiers
+  - csharp\_preferred\_modifier_order
+  - visual\_basic\_preferred\_modifier_order
+  - dotnet\_style\_readonly\_field
 - [괄호 기본 설정](#parentheses-preferences)
-   - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
-   - dotnet\_style\_parentheses\_in\_other\_binary\_operators
-   - dotnet\_style\_parentheses\_in\_other\_operators
-   - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
+  - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
+  - dotnet\_style\_parentheses\_in\_other\_binary\_operators
+  - dotnet\_style\_parentheses\_in\_other\_operators
+  - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
 - [식 수준 기본 설정](#expression-level-preferences)
-   - dotnet\_style\_object_initializer
-   - dotnet\_style\_collection_initializer
-   - dotnet\_style\_explicit\_tuple_names
-   - dotnet\_style\_prefer\_inferred\_tuple_names
-   - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
-   - dotnet\_style\_prefer\_auto\_properties
-   - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
-   - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
-   - dotnet\_style\_prefer\_conditional\_expression\_over\_return
+  - dotnet\_style\_object_initializer
+  - dotnet\_style\_collection_initializer
+  - dotnet\_style\_explicit\_tuple_names
+  - dotnet\_style\_prefer\_inferred\_tuple_names
+  - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
+  - dotnet\_style\_prefer\_auto\_properties
+  - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
+  - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
+  - dotnet\_style\_prefer\_conditional\_expression\_over\_return
 - ["Null" 검사 기본 설정](#null-checking-preferences)
-   - dotnet\_style\_coalesce_expression
-   - dotnet\_style\_null_propagation
+  - dotnet\_style\_coalesce_expression
+  - dotnet\_style\_null_propagation
 
 ### <a name="this-and-me"></a>"This." 그리고 "Me." 한정자
 
@@ -949,30 +949,30 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 이 섹션의 스타일 규칙은 C#에만 적용됩니다.
 
 - [암시적 및 명시적 형식](#implicit-and-explicit-types)
-   - csharp\_style\_var\_for\_built\_in_types
-   - csharp\_style\_var\_when\_type\_is_apparent
-   - csharp\_style\_var_elsewhere
+  - csharp\_style\_var\_for\_built\_in_types
+  - csharp\_style\_var\_when\_type\_is_apparent
+  - csharp\_style\_var_elsewhere
 - [식 본문 멤버](#expression-bodied-members)
-   - csharp\_style\_expression\_bodied_methods
-   - csharp\_style\_expression\_bodied_constructors
-   - csharp\_style\_expression\_bodied_operators
-   - csharp\_style\_expression\_bodied_properties
-   - csharp\_style\_expression\_bodied_indexers
-   - csharp\_style\_expression\_bodied_accessors
+  - csharp\_style\_expression\_bodied_methods
+  - csharp\_style\_expression\_bodied_constructors
+  - csharp\_style\_expression\_bodied_operators
+  - csharp\_style\_expression\_bodied_properties
+  - csharp\_style\_expression\_bodied_indexers
+  - csharp\_style\_expression\_bodied_accessors
 - [패턴 일치](#pattern-matching)
-   - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
-   - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
+  - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
+  - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
 - [인라인 변수 선언](#inlined-variable-declarations)
-   - csharp\_style\_inlined\_variable_declaration
+  - csharp\_style\_inlined\_variable_declaration
 - [식 수준 기본 설정](#expression-level-preferences)
-   - csharp\_prefer\_simple\_default_expression
-   - csharp\_style\_deconstructed\_variable_declaration
-   - csharp\_style\_pattern\_local\_over\_anonymous_function
+  - csharp\_prefer\_simple\_default_expression
+  - csharp\_style\_deconstructed\_variable_declaration
+  - csharp\_style\_pattern\_local\_over\_anonymous_function
 - ["Null" 검사 기본 설정](#null-checking-preferences)
-   - csharp\_style\_throw_expression
-   - csharp\_style\_conditional\_delegate_call
+  - csharp\_style\_throw_expression
+  - csharp\_style\_conditional\_delegate_call
 - [코드 블록 기본 설정](#code-block-preferences)
-   - csharp\_prefer_braces
+  - csharp\_prefer_braces
 
 ### <a name="implicit-and-explicit-types"></a>암시적 및 명시적 형식
 

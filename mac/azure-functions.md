@@ -7,12 +7,12 @@ ms.date: 04/02/2019
 ms.topic: article
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
-ms.openlocfilehash: d8312733c92ab2802c9594459d5e855b5600a352
-ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
+ms.openlocfilehash: ca5c3133e3f03d4e68449156b35d6643c637a11b
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "67692820"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67825558"
 ---
 # <a name="introduction-to-azure-functions"></a>Azure Functions 소개
 
@@ -138,14 +138,14 @@ local.settings.json에서 추가한 모든 설정은 Azure의 함수 앱에도 �
 ## <a name="available-function-templates"></a>사용 가능한 함수 템플릿
 
 - **GitHub 트리거** - GitHub 리포지토리에서 발생하는 이벤트에 응대합니다. 자세한 내용은 [Azure functions 문서의 GitHub 부분](/azure/azure-functions/functions-create-github-webhook-triggered-function)을 참조하세요.
-    - GitHub commenter – 문제 또는 끌어오기 요청에 대한 GitHub 웹후크를 받고 주석을 추가할 때 실행되는 함수입니다.
-    - GitHub WebHook – 이 함수는 GitHub 웹후크 요청을 받을 때 실행됩니다.
+  - GitHub commenter – 문제 또는 끌어오기 요청에 대한 GitHub 웹후크를 받고 주석을 추가할 때 실행되는 함수입니다.
+  - GitHub WebHook – 이 함수는 GitHub 웹후크 요청을 받을 때 실행됩니다.
 
 - **HTTP** – HTTP 요청을 사용하여 코드 실행을 트리거합니다. 다음 HTTP 트리거에 대한 명시적 템플릿이 있습니다.
-    - HTTP 트리거
-    - Http GET CRUD
-    - Http POST CRUD
-    - 매개 변수가 있는 http 트리거
+  - HTTP 트리거
+  - Http GET CRUD
+  - Http POST CRUD
+  - 매개 변수가 있는 http 트리거
 
 - **Timer** - 미리 정의된 일정에 따라 정리 또는 기타 일괄 처리 작업을 실행합니다. 이 템플릿에는 이름과 일정 등 두 필드가 있고 6개 필드 CRON 식입니다. 자세한 내용은 [Azure functions 문서의 Timer 부분](/azure/azure-functions/functions-create-scheduled-function)을 참조하세요.
 

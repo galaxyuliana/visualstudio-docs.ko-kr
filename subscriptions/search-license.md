@@ -6,13 +6,12 @@ manager: jillfra
 ms.date: 06/27/2018
 ms.topic: conceptual
 description: 관리자가 관리자 포털에서 개별 구독자 또는 그룹을 찾는 방법을 설명합니다.
-searchscope: VS Subscription
-ms.openlocfilehash: fe77781c67e773086f07ac39130c472f28acd71f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8daf1fd158c421a9d7a8403348986d9f73062d22
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63008180"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67784963"
 ---
 # <a name="search-and-filter-subscribers-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 구독자 검색 및 필터링
 

@@ -20,12 +20,12 @@ manager: jillfra
 monikerRange: vs-2017
 ms.workload:
 - multiple
-ms.openlocfilehash: 5d41fbe3233c3564af5cab93c8adfeaa7cc3bc24
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: d210dba035c53ba5574bb470247db8b6714a5c97
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63446288"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67826093"
 ---
 # <a name="analyze-javascript-memory-usage-in-uwp-apps"></a>UWP 앱에서 JavaScript 메모리 사용량 분석
 Visual Studio에서 제공하는 JavaScript 메모리 분석기를 사용하면 JavaScript를 사용하여 Windows용으로 작성된 UWP 앱의 메모리 사용량을 파악하고 메모리 누수를 찾을 수 있습니다. 지원되는 앱으로는 유니버설 Windows 앱을 위한 앱이 있습니다.
@@ -355,11 +355,11 @@ if (performance && performance.mark) {
 
 - 사용자가 새 페이지로 이동한 후 우연히 메모리에 남겨진 개체를 찾습니다. 이것은 메모리 문제의 일반적인 원인입니다. 예:
 
-    - [URL.CreateObjectUrl](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) 함수를 잘못 사용하면 이 문제가 발생할 수 있습니다.
+  - [URL.CreateObjectUrl](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) 함수를 잘못 사용하면 이 문제가 발생할 수 있습니다.
 
-    - 일부 개체는 사용할 `dispose` 메서드 및 권장 사항을 제공할 수 있습니다. 예를 들어 목록의 `dispose` 메서드를 호출한 다음 페이지에서 벗어날 경우 [WinJS.Binding.List](/previous-versions/windows/apps/hh700774\(v\=win.10\)) 에서 `createFiltered` 를 호출해야 합니다.
+  - 일부 개체는 사용할 `dispose` 메서드 및 권장 사항을 제공할 수 있습니다. 예를 들어 목록의 `dispose` 메서드를 호출한 다음 페이지에서 벗어날 경우 [WinJS.Binding.List](/previous-versions/windows/apps/hh700774\(v\=win.10\)) 에서 `createFiltered` 를 호출해야 합니다.
 
-    - 하나 이상의 이벤트 수신기를 제거해야 할 수 있습니다. 자세한 내용은 [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css)을 참조하세요.
+  - 하나 이상의 이벤트 수신기를 제거해야 할 수 있습니다. 자세한 내용은 [View DOM event listeners](/visualstudio/debugger/quickstart-debug-html-and-css)을 참조하세요.
 
 - JavaScript 메모리 분석기에 대한 Build 2013 컨퍼런스에서 [이 비디오](https://channel9.msdn.com/Events/Build/2013/3-316) 의 뒷부분을 시청하세요.
 
@@ -367,8 +367,8 @@ if (performance && performance.mark) {
 
 - 임시로 코드를 수정하여 문제를 격리하는 방법도 있습니다. 예를 들어, 다음을 수행합니다.
 
-    - 메모리 분석기용 명령인 `console.takeSnapshot` 및 `performance.mark`를 사용합니다. [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data)를 참조하세요.
+  - 메모리 분석기용 명령인 `console.takeSnapshot` 및 `performance.mark`를 사용합니다. [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data)를 참조하세요.
 
-         이러한 명령을 사용하면 힙 스냅숏을 직접 만드는 것으로는 격리되지 않는 문제도 격리할 수 있습니다.
+    이러한 명령을 사용하면 힙 스냅숏을 직접 만드는 것으로는 격리되지 않는 문제도 격리할 수 있습니다.
 
-    - 테스트 개체를 만들고 형식 뷰 등 JavaScript 메모리 분석기의 뷰에서 추적합니다. 예를 들어, 초대형 개체를 다른 개체에 연결하여 특정 개체나 요소가 가비지 수집되었는지 확인할 수 있습니다.
+  - 테스트 개체를 만들고 형식 뷰 등 JavaScript 메모리 분석기의 뷰에서 추적합니다. 예를 들어, 초대형 개체를 다른 개체에 연결하여 특정 개체나 요소가 가비지 수집되었는지 확인할 수 있습니다.

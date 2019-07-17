@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 03/14/2018
 ms.topic: conceptual
 description: 구독자 목록과 해당 구독 할당의 세부 정보를 내보내는 방법을 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 7e2db1c0de036441801aa56ae1956d0a10719798
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 02081a0b36b2baf769396c13a2ae69f9af5be58b
+ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62945859"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67783497"
 ---
 # <a name="exporting-subscription-information"></a>구독 정보 내보내기
 

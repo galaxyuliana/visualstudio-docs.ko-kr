@@ -6,13 +6,12 @@ manager: evelynp
 ms.date: 3/14/2018
 ms.topic: conceptual
 description: VLSC 관리자에게 제공된 온보딩 통신의 예제
-searchscope: VS Subscription
-ms.openlocfilehash: 2f2b376ca3a7de91f67d45f7a138dbefd6b65988
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8fc0ae640655b3d2911a53f7e36af7022f853db7
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62427955"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250848"
 ---
 # <a name="onboarding-email-communications-for-administrators"></a>관리자용 온보딩 이메일 통신
 

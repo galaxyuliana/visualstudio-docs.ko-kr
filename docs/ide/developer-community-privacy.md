@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c45f4b374e553115462a010c4a61cc2d4a0a3e9c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 942ae41322d6a08bc8de0c450577f2eccb45772a
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62978404"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67823364"
 ---
 # <a name="developer-community-data-privacy"></a>개발자 커뮤니티 데이터 개인 정보
 
@@ -64,24 +64,24 @@ Visual Studio에서 **문제 보고**가 시작되면 다음 유형의 데이터
 
 - 웹 디버거 로그 파일(있는 경우)
 
-   - *%TEMP%\vscode-chrome-debug.txt*
+  - *%TEMP%\vscode-chrome-debug.txt*
 
-   - *%TEMP%\vscode-node-debug2.txt*
+  - *%TEMP%\vscode-node-debug2.txt*
 
-   - *%TEMP%\vscode-edge-debug.txt*
+  - *%TEMP%\vscode-edge-debug.txt*
 
 - 스크린샷(포함하도록 선택한 경우)
 
 - 다음을 포함하는 데이터 기록(기록을 포함하도록 선택한 경우):
 
-   - 문제를 재현하기 위한 단계
+  - 문제를 재현하기 위한 단계
 
-   - ETL 추적 파일
+  - ETL 추적 파일
 
-   - 덤프 파일
+  - 덤프 파일
 
-    > [!NOTE]
-    > 보고서를 제출하기 전에 제출하지 않으려는 기록 데이터를 삭제할 수 있습니다.
+  > [!NOTE]
+  > 보고서를 제출하기 전에 제출하지 않으려는 기록 데이터를 삭제할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

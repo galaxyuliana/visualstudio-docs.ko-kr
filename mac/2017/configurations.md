@@ -5,12 +5,12 @@ author: conceptdev
 ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
-ms.openlocfilehash: f4e62d23684695c938061c178d7af078bfccfc27
-ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
+ms.openlocfilehash: 9902b62b7d62ae2490bc8c32848ffea657f0963d
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "67692457"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67824413"
 ---
 # <a name="understanding-build-configurations"></a>빌드 구성 이해
 
@@ -51,21 +51,21 @@ Android 프로젝트에 대한 실행 구성을 사용하면 프로젝트를 실
 다음 목록에는 실행 구성에 포함될 수 있는 데이터의 몇 가지 예가 나와 있습니다.
 
 * 기본 .NET 프로젝트
-    * 대체 시작 앱
-    * 시작 인수
-    * 작업 디렉터리
-    * 환경 변수
-    * Mono 런타임 옵션(Mono에서 실행하는 경우에만 사용)
+  * 대체 시작 앱
+  * 시작 인수
+  * 작업 디렉터리
+  * 환경 변수
+  * Mono 런타임 옵션(Mono에서 실행하는 경우에만 사용)
 * Android 프로젝트
-    * 진입점(작업, 서비스, 수신기)
-    * 의도 인수 및 데이터
+  * 진입점(작업, 서비스, 수신기)
+  * 의도 인수 및 데이터
 * iOS 프로젝트
-    * 모드(기본, 백그라운드 가져오기)
+  * 모드(기본, 백그라운드 가져오기)
 * iOS 확장 프로젝트
-    * 시작 앱: 기본 또는 사용자 지정
+  * 시작 앱: 기본 또는 사용자 지정
 * WatchKit 프로젝트
-    * 모드(한눈에 보기, 알림)
-    * 알림 페이로드
+  * 모드(한눈에 보기, 알림)
+  * 알림 페이로드
 
 ## <a name="see-also"></a>참고 항목
 

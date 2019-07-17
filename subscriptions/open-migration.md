@@ -6,13 +6,12 @@ manager: lank
 ms.date: 07/02/2018
 ms.topic: conceptual
 description: Visual Studio 구독 관리 포털에 Open 및 Open License 마이그레이션에 대해 알아봅니다.
-searchscope: VS Subscription
-ms.openlocfilehash: 0e3ad14f48aaa461b7c70507cd4501067eacc789
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3e8859cc3b66933133c193ecd0f095939ccf7e77
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62821733"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250599"
 ---
 # <a name="open-and-open-license-migration-to-the-new-visual-studio-subscriptions-administration-portal"></a>새 Visual Studio 구독 관리 포털에 Open 및 Open License 마이그레이션
 

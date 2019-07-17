@@ -6,17 +6,17 @@ helpviewer_keywords:
 - shortcut keys [Help Viewer]
 - Help Viewer, shortcut keys
 ms.assetid: ec14c85d-7efb-441c-a46b-bee34a227e39
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5da8de5c392862c196fa03a69806ffb877af881c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: da8a90be59199abd569c37b43a61728c00695fa9
+ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62975619"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67821969"
 ---
 # <a name="shortcut-keys-in-help-viewer"></a>도움말 뷰어의 바로 가기 키
 
@@ -59,7 +59,7 @@ ms.locfileid: "62975619"
 |항목|**Ctrl**+**Tab**|왼쪽에서 오른쪽으로 탭 간에 전환합니다.|
 |항목|**Ctrl**+**Shift**+**Tab**|오른쪽에서 왼쪽으로 탭 간에 전환합니다.|
 |항목|**Ctrl**+**W**|현재 탭을 닫습니다.|
-|항목|**Ctrl**+**_숫자_**|특정 탭으로 전환합니다. 여기서 **_숫자_** 는 1~9 중 하나이고 시퀀스의 탭을 나타냅니다.|
+|항목|**Ctrl**+ **_숫자_**|특정 탭으로 전환합니다. 여기서 **_숫자_** 는 1~9 중 하나이고 시퀀스의 탭을 나타냅니다.|
 |항목|**Ctrl**+**Alt**+**F4**|다른 콘텐츠 탭을 닫습니다.|
 |항목|**Ctrl**+**Shift**+**더하기 기호**|확대/축소를 10%씩 늘립니다.|
 |항목|**Ctrl**+**빼기 기호**|확대/축소를 10%씩 줄입니다.|
