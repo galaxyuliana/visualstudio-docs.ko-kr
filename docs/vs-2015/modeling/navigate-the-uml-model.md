@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b61492d992d37d7377e73185202bfbdd97063195
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60116669"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158994"
 ---
 # <a name="navigate-the-uml-model"></a>UML 모델 탐색
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,7 +72,7 @@ ms.locfileid: "60116669"
 ## <a name="access-to-the-model-in-extensions"></a>확장에서 모델 액세스  
  MEF 구성 요소로 정의된 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 확장에서 확장이 실행되는 컨텍스트의 정보를 가져오는 속성을 선언할 수 있습니다.  
   
-|특성 형식|다음에 대한 액세스 제공|추가 정보|  
+|특성 유형|다음에 대한 액세스 제공|자세한 정보|  
 |--------------------|----------------------------------|----------------------|  
 |Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation<br /><br /> .IDiagramContext<br /><br /> (Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll)|현재 포커스 다이어그램입니다.|[모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)|  
 |Microsoft.VisualStudio.Modeling.ExtensionEnablement<br /><br /> .ILinkedUndoContext<br /><br /> (in Microsoft.VisualStudio.Modeling.Sdk.[version].dll)|변경 내용을 트랜잭션으로 그룹화할 수 있습니다.|[트랜잭션을 사용하여 UML 모델 업데이트 연결](../modeling/link-uml-model-updates-by-using-transactions.md)|  
@@ -120,7 +120,7 @@ foreach (IShape<IInterface> in
 ```  
   
 ## <a name="accessing-another-model-or-diagrams"></a>다른 모델 또는 다이어그램 액세스  
- 다음과 같은 작업을 수행할 수 있습니다.  
+ 다음을 할 수 있습니다.  
   
 - [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 모델 버스를 사용하여 서로 다른 모델의 요소 간에 링크를 만듭니다. 자세한 내용은 [다른 모델 및 도구를 사용 하 여 통합 UML 모델](../modeling/integrate-uml-models-with-other-models-and-tools.md)합니다.  
   

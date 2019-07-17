@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3b8733ef63a60baa1b268c42c8780cdf80f2674b
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58985728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68159955"
 ---
 # <a name="general-tab-window-properties-dialog-box"></a>창 속성 대화 상자, 일반 탭
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "58985728"
   
  다음 설정을 사용할 합니다 **일반** 탭:  
   
-|입력|설명|  
+|입력|Description|  
 |-----------|-----------------|  
 |**창 캡션**|창 캡션에 텍스트 또는 텍스트 컨트롤이 면 창에 포함 합니다.|  
 |**창 핸들**|이 창에 고유 ID입니다. 창 핸들 번호 다시 사용 됩니다. 해당 창의 기간에만 창을 식별합니다.|  

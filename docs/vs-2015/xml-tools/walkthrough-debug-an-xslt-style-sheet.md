@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 5e685e77dafe00b8cadd9b273ccc61c8e5d9e1e4
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60085105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158631"
 ---
 # <a name="walkthrough-debug-an-xslt-style-sheet"></a>연습: XSLT 스타일시트 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -37,7 +37,7 @@ ms.locfileid: "60085105"
   
     XML 편집기에서 스타일시트가 열립니다.  
   
-3. 찾아보기 단추를 클릭 (**...** )에 **입력** 문서 속성 창의 필드입니다.  
+3. 찾아보기 단추를 클릭 ( **...** )에 **입력** 문서 속성 창의 필드입니다.  
   
 4. Books.xml 파일을 찾아 클릭 **열려**합니다.  
   
@@ -154,5 +154,5 @@ ms.locfileid: "60085105"
 </bookstore>  
 ```  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [XSLT 디버그](../xml-tools/debugging-xslt.md)

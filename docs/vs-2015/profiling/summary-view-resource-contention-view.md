@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 65f659b64b6a1e29e1e25ae344dd8033e631de09
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
-ms.translationtype: MTE95
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54804110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157763"
 ---
 # <a name="summary-view---resource-contention-view"></a>요약 뷰 - 리소스 경합 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ ms.locfileid: "54804110"
  요약 뷰의 시간 표시 막대 그래프에는 프로파일링이 수행된 시간 동안 프로파일링된 애플리케이션의 경합 이벤트 수가 표시됩니다. 시간 표시 막대 그래프를 사용하여 보기를 선택한 시간 범위로 필터링할 수 있습니다. 자세한 내용은 [방법: 요약 타임라인에서 보고서 보기 필터링](../profiling/how-to-filter-report-views-from-the-summary-timeline.md)을 참조하세요.  
   
 ## <a name="most-contended-resources"></a>경합이 가장 많은 리소스  
- **경합이 가장 많은 리소스**에는 가장 많은 경합 이벤트가 발생한 애플리케이션의 리소스 목록이 표시됩니다. 리소스 이름을 클릭하여 경합 뷰를 표시할 수 있습니다. 경합 뷰에서는 리소스 경합의 자세한 시간 표시 막대가 스레드별로 제공됩니다.  
+ **경합이 가장 많은 리소스**에는 가장 많은 경합 이벤트가 발생한 응용 프로그램의 리소스 목록이 표시됩니다. 리소스 이름을 클릭하여 경합 뷰를 표시할 수 있습니다. 경합 뷰에서는 리소스 경합의 자세한 시간 표시 막대가 스레드별로 제공됩니다.  
   
  **경합이 가장 많은 리소스**에는 각 리소스에 대해 다음 데이터가 포함됩니다.  
   
@@ -39,7 +39,7 @@ ms.locfileid: "54804110"
 |**경합 비율(%)**|이 리소스에 대해 경합이 발생한 프로파일링 데이터 내 모든 경합 이벤트의 백분율입니다.|  
   
 ## <a name="most-contended-thread"></a>경합이 가장 많은 스레드  
- **경합이 가장 많은 스레드**에는 경합 이벤트 수가 가장 많은 애플리케이션의 스레드 목록이 표시됩니다. 스레드 이름을 클릭하면 표시되는 경합 뷰에서는 리소스 경합의 자세한 시간 표시 막대가 스레드별로 제공됩니다.  
+ **경합이 가장 많은 스레드**에는 경합 이벤트 수가 가장 많은 응용 프로그램의 스레드 목록이 표시됩니다. 스레드 이름을 클릭하면 표시되는 경합 뷰에서는 리소스 경합의 자세한 시간 표시 막대가 스레드별로 제공됩니다.  
   
  **경합이 가장 많은 스레드**에는 각 스레드에 대해 다음 데이터가 포함됩니다.  
   

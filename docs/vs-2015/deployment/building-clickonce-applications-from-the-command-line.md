@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 2625a8d4caa7dd53e9ce86395a98622f91d686b3
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155705"
 ---
 # <a name="building-clickonce-applications-from-the-command-line"></a>명령줄에서 ClickOnce 응용 프로그램 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -68,7 +68,7 @@ ms.locfileid: "58982856"
   
 2. Windows에서 **시작** 메뉴에서 클릭 **프로그램도**, 다음 **Microsoft Visual Studio**, 다음 **Visual Studio Tools**, 다음 **Visual Studio 명령 프롬프트**합니다. 이 현재 사용자의 루트 폴더의 명령 프롬프트를 열어야 합니다.  
   
-3. 에 **Visual Studio 명령 프롬프트**, 위에서 빌드한 프로젝트의 위치를 현재 디렉터리를 변경 합니다. 예를 들어 `chdir My Documents\Visual Studio\Projects\CmdLineDemo`을 입력합니다.  
+3. 에 **Visual Studio 명령 프롬프트**, 위에서 빌드한 프로젝트의 위치를 현재 디렉터리를 변경 합니다. 예를 들어 `chdir My Documents\Visual Studio\Projects\CmdLineDemo`과 같이 입력합니다.  
   
 4. 생성 된 기존 파일을 제거 하려면 "만들고 게시 하는 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 프로젝트를" 형식 `rmdir /s publish`합니다.  
   
@@ -81,7 +81,7 @@ ms.locfileid: "58982856"
 ## <a name="publishing-properties"></a>게시 속성  
  위 절차의 응용 프로그램을 게시할 때 다음 속성을 게시 마법사가 프로젝트 파일에 삽입 됩니다. 이러한 속성에 직접 영향을 하는 방법을 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 응용 프로그램 생성 됩니다.  
   
- In CmdLineDemo.vbproj / CmdLineDemo.csproj:  
+ CmdLineDemo.vbproj에서 / CmdLineDemo.csproj:  
   
 ```  
 <AssemblyOriginatorKeyFile>WindowsApplication3.snk</AssemblyOriginatorKeyFile>  
@@ -157,10 +157,10 @@ msbuild /target:publish /property:BootstrapperEnabled=false
   
 - `IsWebBootstrapper` setup.exe 부트스트래퍼 웹을 통해 또는 디스크 기반 모드에서 작동 하는지 여부를 결정 합니다.  
   
-## <a name="installurl-supporturl-publishurl-and-updateurl"></a>InstallURL "," SupportUrl "," PublishURL, "및" UpdateURL  
+## <a name="installurl-supporturl-publishurl-and-updateurl"></a>InstallURL, SupportUrl, PublishURL, 및 UpdateURL  
  다음 표에서 ClickOnce 배포를 위한 네 가지 URL 옵션을 보여 줍니다.  
   
-|URL 옵션|설명|  
+|URL 옵션|Description|  
 |----------------|-----------------|  
 |`PublishURL`|웹 사이트에 ClickOnce 응용 프로그램을 게시 하는 경우 필요 합니다.|  
 |`InstallURL`|선택 사항입니다. 설치 사이트와 다른 경우이 URL 옵션을 설정 합니다 `PublishURL`합니다. 예를 들어, 설정할 수 있습니다는 `PublishURL` 을 설정 하 고는 FTP 경로 `InstallURL` 웹 url입니다.|  

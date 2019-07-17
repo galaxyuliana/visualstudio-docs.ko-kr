@@ -11,11 +11,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: ba1510745b4781d56655fe83fffbb18f4ca65254
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68156473"
 ---
 # <a name="idebugdocumentchecksum2"></a>IDebugDocumentChecksum2
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -34,7 +34,7 @@ IDebugDocumentChecksum2 : IUnknown
 ## <a name="methods"></a>메서드  
  다음 표에서의 메서드를 보여 줍니다. `IDebugDocumentChecksum2`합니다.  
   
-|메서드|설명|  
+|메서드|Description|  
 |------------|-----------------|  
 |[GetChecksumAndAlgorithmId](../../../extensibility/debugger/reference/idebugdocumentchecksum2-getchecksumandalgorithmid.md)|사용 하는 바이트의 최대 수를 지정 된 문서 체크섬과 알고리즘 식별자를 검색 합니다.|  
   

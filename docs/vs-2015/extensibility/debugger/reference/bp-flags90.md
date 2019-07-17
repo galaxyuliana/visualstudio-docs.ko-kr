@@ -11,11 +11,11 @@ caps.latest.revision: 8
 ms.author: gregvanl
 manager: jillfra
 ms.openlocfilehash: 9f7192eb7b2fa6d8bc886c0e601788ecba8eebcd
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58981232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68153504"
 ---
 # <a name="bpflags90"></a>BP_FLAGS90
 [!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
@@ -71,5 +71,5 @@ public enum enum_BP_FLAGS90
   
  어셈블리: Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [열거형](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)

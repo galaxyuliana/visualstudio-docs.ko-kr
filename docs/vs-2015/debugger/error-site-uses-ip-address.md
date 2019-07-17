@@ -19,11 +19,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 46eace1c566a2810c5914a49654f8393f425fdee
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60040872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68155746"
 ---
 # <a name="error-site-uses-ip-address"></a>오류: 사이트에서 IP 주소 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ ms.locfileid: "60040872"
   
 1. 디버그 메뉴에서 **프로세스에 연결**을 선택하여 자동 연결 대신 수동 연결을 사용합니다.  
   
-     또는  
+     —또는—  
   
 2. **IIS 웹 사이트 확인** 설정을 변경합니다.  
   

@@ -22,11 +22,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c2ee71c5e23b0c5784cd2fe9b57b46fe28d41d30
-ms.sourcegitcommit: 8b538eea125241e9d6d8b7297b72a66faa9a4a47
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "58982838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157464"
 ---
 # <a name="executable-for-debugging-session-dialog-box"></a>디버깅 세션에 사용할 실행 파일 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,5 +41,5 @@ ms.locfileid: "58982838"
   
  입력한 설정은 프로젝트 속성 페이지에 저장되므로 이후 디버깅 세션에서 다시 입력할 필요가 없습니다. 설정을 변경해야 하는 경우에는 속성 페이지를 열고 값을 변경할 수 있습니다. 디버깅 세션의 실행 파일 지정에 대한 자세한 내용은 [DLL 디버깅](../debugger/how-to-debug-native-dlls.md)을 참조하세요.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [Visual Studio의 디버깅](../debugger/debugging-in-visual-studio.md)

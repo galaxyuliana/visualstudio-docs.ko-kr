@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: e85fc0add84f6f6097355d1fc7a58cc954c8e538
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60111755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158863"
 ---
 # <a name="programming-with-the-uml-api"></a>Programming with the UML API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ Visual Studio의 UML API를 사용 하면 만들기, 읽기 및 UML 모델 및 �
 ## <a name="the-api-assemblies"></a>API 어셈블리  
  다음 표에서는 UML 도구에 대한 확장성을 제공하는 어셈블리 및 사용하는 것이 좋은 네임스페이스에 대해 간략하게 설명합니다.  
   
-|Assembly|네임스페이스|다음에 대한 액세스를 제공합니다.|  
+|어셈블리|네임스페이스|다음에 대한 액세스를 제공합니다.|  
 |--------------|----------------|-------------------------|  
 |Microsoft.VisualStudio.Uml.Interfaces|(모두)|UML 형식.|  
 |Microsoft.VisualStudio.ArchitectureTools.Extensibility|<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml>|[생성 방법](../modeling/create-elements-and-relationships-in-uml-models.md)|  
@@ -68,6 +68,6 @@ Visual Studio의 UML API를 사용 하면 만들기, 읽기 및 UML 모델 및 �
 |System.ComponentModel.Composition|<xref:System.ComponentModel.Composition>|[내보내기 및 MEF 구성 요소에 대 한 가져오기](../modeling/define-and-install-a-modeling-extension.md)|  
 |System.Linq|<xref:System.Linq>|[손쉬운 컬렉션, 관계를 사용 하 여 처리 하는 경우에 특히 조작](../modeling/navigate-relationships-with-the-uml-api.md)합니다.|  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>관련 항목  
  [UML 모델 및 다이어그램 확장](../modeling/extend-uml-models-and-diagrams.md)   
  [UML 모델링 확장성을 위한 API 참조](../modeling/api-reference-for-uml-modeling-extensibility.md)
