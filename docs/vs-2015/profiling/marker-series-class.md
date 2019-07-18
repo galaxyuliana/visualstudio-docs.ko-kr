@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: cb199d74ade593d0bc8318c27bc96ffbf70e4dcf
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54778872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194941"
 ---
 # <a name="markerseries-class"></a>marker_series 클래스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

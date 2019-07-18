@@ -20,11 +20,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: b5aea9c7c7868dfdd9726b86bb344456ebe707d8
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59666990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68162447"
 ---
 # <a name="itemdefinitiongroup-element-msbuild"></a>ItemDefinitionGroup 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -64,7 +64,7 @@ ms.locfileid: "59666990"
 |-------------|-----------------|  
 |[프로젝트](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일의 필수 루트 요소입니다.|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 m과 n이라는 두 메타 데이터 항목을 ItemDefinitionGroup에 정의합니다. 이 예제에서 기본 메타데이터 "m"은 Item "i"로 명시적으로 정의되지 않으므로 Item "i"에 적용됩니다. 그러나 기본 메타데이터 "n"은 Item "i"로 이미 정의되어 있으므로 Item "i"에 적용되지 않습니다.  
   
 ```  

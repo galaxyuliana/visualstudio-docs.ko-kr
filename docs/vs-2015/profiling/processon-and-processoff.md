@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 77e21a280700520b6861dd42e01a4aefa4faa704
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54756467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68180200"
 ---
 # <a name="processon-and-processoff"></a>ProcessOn 및 ProcessOff
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,7 +62,7 @@ VSPerfCmd.exe /{ProcessOff|ProcessOn}:PID [Options]
  **GlobalOff**&#124;**GlobalOn**  
  명령줄 프로파일링 세션에서 모든 프로세스에 대한 프로파일링을 중지하거나 시작합니다.  
   
- {**ThreadOff**&#124;**ThreadOn**}**:**`TID`  
+ {**ThreadOff**&#124;**ThreadOn**} **:** `TID`  
  지정된 스레드에 대한 프로파일링을 중지 또는 시작합니다(계측 방법만 해당).  
   
 ## <a name="example"></a>예  

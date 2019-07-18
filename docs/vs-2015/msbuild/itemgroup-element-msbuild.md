@@ -20,11 +20,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 20c22e0ea2ef05c108ebe564b186ede2a02f9dfe
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68162417"
 ---
 # <a name="itemgroup-element-msbuild"></a>ItemGroup 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,9 +65,9 @@ ms.locfileid: "59650504"
 |[프로젝트](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일의 필수 루트 요소입니다.|  
 |[Target](../msbuild/target-element-msbuild.md)|.NET Framework 3.5부터 `ItemGroup` 요소는 `Target` 요소 내에 표시될 수 있습니다. 자세한 내용은 [대상](../msbuild/msbuild-targets.md)을 참조하세요.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 사용자 정의 항목 컬렉션 `Res` 및 `ItemGroup` 요소 내에 선언된 `CodeFiles`를 보여 줍니다. `Res` 항목 컬렉션의 각 항목은 사용자 정의 자식 [ItemMetadata](../msbuild/itemmetadata-element-msbuild.md) 요소를 포함합니다.  
   
 ```  

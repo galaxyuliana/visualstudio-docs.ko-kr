@@ -12,11 +12,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 368b18e7524e0cff31139de67f8092f9069246bf
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54779550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68148052"
 ---
 # <a name="xml-xelement-dynamic-property"></a>Xml(XElement 동적 속성)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ elem.Xml
 ## <a name="property-valuereturn-value"></a>속성 값/반환 값  
  요소의 서식이 지정되지 않은 XML 내용을 나타내는 <xref:System.String>입니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  이 속성은 <xref:System.Xml.Linq.XNode.ToString%28System.Xml.Linq.SaveOptions%29> 매개 변수가 <xref:System.Xml.Linq.XNode?displayProperty=fullName>으로 설정된 `SaveOptions` 클래스의 <xref:System.Xml.Linq.SaveOptions> 메서드와 동일합니다.  
   
 ## <a name="see-also"></a>참고 항목  

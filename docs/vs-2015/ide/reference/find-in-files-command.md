@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 7fc580a6dc1dd8a1b0c0ad8964ade6dd6145ada2
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199272"
 ---
 # <a name="find-in-files-command"></a>파일에서 찾기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -79,7 +79,7 @@ Edit.FindinFiles findwhat [/case] [/ext:extensions]
  /word 또는 /w  
  선택 사항입니다. 전체 단어만을 검색합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 "내 Visual Studio 프로젝트" 폴더에 있는 모든 .cls 파일에서 btnCancel을 검색하고 찾기 결과 2 창에서 일치 항목 정보를 표시합니다.  
   
 ```  

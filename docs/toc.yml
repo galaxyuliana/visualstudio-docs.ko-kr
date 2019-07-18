@@ -575,6 +575,8 @@
           href: vsto/office-and-sharepoint-development-in-visual-studio.md
         - name: XML 및 XSLT 파일 작업
           href: xml-tools/xml-tools-in-visual-studio.md
+        - name: 컨테이너를 사용하여 개발
+          href: containers/index.yml
         - name: 포괄 앱 개발
           items:
             - name: 액세스 가능한 앱 디자인

@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 18b455d3da5693e5a82dbf45e52d04b18edaef5d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199097"
 ---
 # <a name="log-devenvexe"></a>/Log(devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "59664728"
 Devenv /log Path\NameOfLogFile  
 ```  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  이 스위치는 다른 모든 스위치 뒤에서 명령 줄 끝에 나타나야 합니다.  
   
  /log 스위치로 호출한 Visual Studio의 모든 인스턴스에 대해 로그가 작성됩니다. 스위치 없이 호출한 Visual Studio의 인스턴스에 대해서는 로그가 작성되지 않습니다.  

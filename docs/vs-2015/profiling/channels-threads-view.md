@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 445eaf5269ce59e6f6f8fa323020a80648567f54
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54794204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68193630"
 ---
 # <a name="channels-threads-view"></a>채널(스레드 뷰)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

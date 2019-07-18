@@ -13,11 +13,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 35184f6ef724a9f0e803a10c9bda2c6981313ed6
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68205969"
 ---
 # <a name="logging-in-a-multi-processor-environment"></a>다중 프로세서 환경에서의 로깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: bee6368931dc47b78186ec870039ab292960fa77
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163313"
 ---
 # <a name="set-radix-command"></a>기수 설정 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ Debug.SetRadix [10 | 16 | hex | dec]
  `10`, `16`, `hex` 또는 `dec`  
  선택 사항입니다. 10진수(10 또는 dec) 또는 16진수(16 또는 hex)를 나타냅니다. 인수를 생략하면 현재 기수 값이 반환됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 16진수 형식의 정수 값을 표시하도록 환경을 설정합니다.  
   
 ```  

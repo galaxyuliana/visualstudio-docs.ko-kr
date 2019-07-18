@@ -21,18 +21,18 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 508d1fe33046f6051c9c5c1b8e54036e78ae7d2f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59652373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68193348"
 ---
 # <a name="vcmessage-task"></a>VCMessage 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 빌드 중에 경고 및 오류 메시지를 로깅합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  이 작업은 Visual C++에 대한 MSBuild 구현을 도우며 사용자가 호출할 수 없습니다. 자세한 내용은 <xref:Microsoft.Build.Utilities.TaskLoggingHelper>을 참조하세요.  
   
 ## <a name="parameters"></a>매개 변수  

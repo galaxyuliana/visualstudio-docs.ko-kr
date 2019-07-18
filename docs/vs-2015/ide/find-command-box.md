@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: b8bddc27eb4a59b65796c7837ae4561e5d56a5d5
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54801227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160667"
 ---
 # <a name="findcommand-box"></a>찾기/명령 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "54801227"
  또는 명령 창을 사용하여 단일 또는 여러 명령을 입력하고 실행할 수도 있습니다. 일부 명령 또는 별칭은 직접 입력 및 실행할 수 있으며 구문에 인수가 필요한 명령도 있습니다. 인수가 있는 명령 목록은 [Visual Studio 명령](../ide/reference/visual-studio-commands.md)을 참조하세요.  
   
 ## <a name="escape-characters"></a>이스케이프 문자  
- 명령줄의 캐럿(^) 문자는 캐럿 바로 뒤의 문자가 제어 문자가 아닌 문자 그대로 해석된다는 것을 의미합니다. 이스케이프 문자는 매개 변수 또는 스위치 값에 곧은 큰따옴표("), 공백, 선행 슬래시, 캐럿 등 또는 리터럴 문자를 포함하기 위해 사용할 수 있습니다(스위치 이름 제외). 예를 들어 개체에 적용된  
+ 명령줄의 캐럿(^) 문자는 캐럿 바로 뒤의 문자가 제어 문자가 아닌 문자 그대로 해석된다는 것을 의미합니다. 이스케이프 문자는 매개 변수 또는 스위치 값에 곧은 큰따옴표("), 공백, 선행 슬래시, 캐럿 등 또는 리터럴 문자를 포함하기 위해 사용할 수 있습니다(스위치 이름 제외). 예를 들면 다음과 같습니다.  
   
 ```  
 >Edit.Find ^^t /regex  

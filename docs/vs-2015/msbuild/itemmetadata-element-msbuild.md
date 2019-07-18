@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 8e3d9f72abfd095288b50ab8de9b9bc3eae4cc51
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68162369"
 ---
 # <a name="itemmetadata-element-msbuild"></a>ItemMetadata 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,9 +62,9 @@ ms.locfileid: "59665378"
   
  이 텍스트는 항목 메타데이터 값을 텍스트 또는 XML로 지정합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 `CSFile` 항목에 `fr` 값을 가진 `Culture` 메타데이터를 추가하는 방법을 보여 줍니다.  
   
 ```  

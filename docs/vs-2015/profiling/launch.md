@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c910ef1519181f1402cbec1d31686492e30f343d
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60104306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68154761"
 ---
 # <a name="launch"></a>Launch
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ VSPerfCmd.exe /Launch:AppName [Options]
 ## <a name="sampling-options"></a>샘플링 옵션  
  다음 샘플링 간격 옵션 중 하나를 **Launch** 명령줄에 지정할 수 있습니다. 기본 샘플링 간격은 10,000,000 프로세서 클록 주기입니다.  
   
- **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[**:**`Events`]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]**GC**[:**할당**&#124;**수명**]  
+ **Timer**[ **:** `Cycles`]**PF**[ **:** `Events`]**Sys**[ **:** `Events`]**Counter**[ **:** `Name`,`Reload`,`FriendlyName`]**GC**[:**할당**&#124;**수명**]  
  샘플링 간격의 종류와 수를 지정합니다.  
   
 - **Timer** - 모든 `Cycles` 무중단 프로세서 클록 주기를 샘플링합니다. `Cycles`를 지정하지 않은 경우 10,000,000 주기가 사용됩니다.  
@@ -76,7 +76,7 @@ VSPerfCmd.exe /Launch:AppName [Options]
   
 - **GC** - .NET 메모리 데이터를 수집합니다. 기본적으로(**allocation**) 모든 메모리 할당 이벤트에서 데이터가 수집됩니다. **lifetime** 매개변수가 지정되면 데이터는 각 가비지 컬렉션 이벤트에서도 수집됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 애플리케이션을 시작하는 **Launch**의 사용을 보여 줍니다.  
   
 ```  

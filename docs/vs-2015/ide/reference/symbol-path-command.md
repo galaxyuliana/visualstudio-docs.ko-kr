@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 27c4c8ac23e2524245107d9052642350e9db09d2
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163264"
 ---
 # <a name="symbol-path-command"></a>기호 경로 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,17 +37,17 @@ Debug.SymbolPath pathname1;pathname2;... pathnameN
  `pathname`  
  선택 사항입니다. 디버거가 기호를 검색할 경로의 세미콜론으로 구분된 목록입니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  `pathname`을 지정하지 않으면 이 명령은 현재 기호 경로를 나열합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 기호 디렉터리 목록에 두 개의 경로를 추가합니다.  
   
 ```  
 Debug.SymbolPath C:\Symbol Path 1;C:\Symbol Path 2  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 현재 기호 경로의 세미콜론으로 구분된 목록을 표시합니다.  
   
 ```  

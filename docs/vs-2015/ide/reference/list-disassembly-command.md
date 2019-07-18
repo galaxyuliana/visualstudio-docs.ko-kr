@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: d361e5231d72df81fae164818bbe8341442c9f89
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59666262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199179"
 ---
 # <a name="list-disassembly-command"></a>디스어셈블리 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -55,7 +55,7 @@ Debug.ListDisassembly [/count:number] [/endaddress:expression]
  [/linenumbers:`yes`&#124;`no`]  
  선택 사항입니다. 소스 코드와 연결된 줄 번호를 볼 수 있도록 합니다. /source 스위치는 /linenumbers 스위치를 사용하는 `yes`의 값이 있어야 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```  
 >Debug.ListDisassembly  

@@ -15,11 +15,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: f8c64bb19d65540f8c72be9acb1c5f59deb3c8f9
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60075365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68156648"
 ---
 # <a name="how-to-clean-a-build"></a>방법: 빌드 정리
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "60075365"
   
      `<RemoveDir Directories="$(builtdir)" />`  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제 프로젝트는 `RemoveDir` 작업을 사용하여 디렉터리 및 모든 파일과 포함하는 디렉터리를 삭제하는 새 대상 `Clean`을 포함합니다. 또한 이 예제에서 `Compile` 대상은 빌드가 정리될 때 삭제된 출력 항목에 대한 별도 디렉터리를 만듭니다.  
   
  `Compile`은 기본 대상으로 정의되므로 다른 대상 또는 대상을 지정하지 않으면 자동으로 사용됩니다. 명령줄 스위치 **/target**을 사용하여 다른 대상을 지정합니다. 예:  

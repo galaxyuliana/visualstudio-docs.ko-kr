@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 5f4faa9038a5931dec376903f166301f27f00b37
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59656234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68154792"
 ---
 # <a name="parametergroup-element"></a>ParameterGroup 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ ms.locfileid: "59656234"
 |-------------|-----------------|  
 |[UsingTask](../msbuild/usingtask-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 작업을 등록하는 방법을 제공합니다. 프로젝트에는 `UsingTask` 요소가 없을 수도 있고 하나 이상 있을 수 있습니다.|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 `ParameterGroup` 요소를 사용하는 방법을 보여 줍니다.  
   
 ```  

@@ -11,11 +11,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: dfa68202d7f73d45b8422bb34c90954528d6af7b
-ms.sourcegitcommit: 3d37c2460584f6c61769be70ef29c1a67397cf14
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58324775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68178076"
 ---
 # <a name="getting-started-with-debugging-in-visual-studio-2015"></a>Visual Studio 2015에서 디버그 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

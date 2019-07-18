@@ -18,11 +18,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: ef216c1220cbfda37da579d3ea2dfdd32837ab75
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54833689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68195561"
 ---
 # <a name="object-lifetime-view"></a>개체 수명 뷰
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

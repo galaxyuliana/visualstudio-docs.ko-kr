@@ -14,11 +14,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 2908c8217070196de1b2d3cd4f1c5f8d8f2868a5
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59658892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68160436"
 ---
 # <a name="build-loggers"></a>빌드 로거
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll
 MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 로거에 대한 전체 코드를 보여 줍니다.  
@@ -73,7 +73,7 @@ MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed
   
 ### <a name="comments"></a>설명  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ### <a name="description"></a>설명  
  다음 예제에서는 로그를 콘솔 창에 표시하지 않고 파일에 쓰는 로거를 구현하는 방법을 보여 줍니다.  

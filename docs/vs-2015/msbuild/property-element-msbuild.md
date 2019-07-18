@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: eefe0160328f1eb6b3fe841742547efe8be50ec1
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158269"
 ---
 # <a name="property-element-msbuild"></a>Property 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,10 +63,10 @@ ms.locfileid: "59664832"
   
  이 텍스트는 속성값을 지정하며 XML을 포함할 수 있습니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  속성 이름에는 ASCII 문자만 사용할 수 있습니다. "`$(`" 및 "`)`" 사이에 속성 이름을 배치하여 프로젝트에서 속성값을 참조합니다. 예를 들어 `builddir` 속성값이 `build`이면 `$(builddir)\classes`는 "build\classes"로 해석됩니다. 속성에 대한 자세한 내용은 [MSBuild 속성](msbuild-properties1.md)을 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드는 `Version` 속성이 비어 있으면 `Optimization` 속성을 `false`로, `DefaultVersion` 속성을 `1.0`로 설정합니다.  
   
 ```  

@@ -20,11 +20,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1c679352fb8db81379ab93e800efa9f631773c36
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59666613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68149736"
 ---
 # <a name="findunderpath-task"></a>FindUnderPath 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -42,10 +42,10 @@ ms.locfileid: "59666613"
 |`Path`|필수 <xref:Microsoft.Build.Framework.ITaskItem> 매개 변수입니다.<br /><br /> 참조로 사용할 폴더 경로를 지정합니다.|  
 |`UpdateToAbsolutePaths`|선택적 `Boolean` 매개 변수입니다.<br /><br /> true인 경우 출력 항목의 경로를 절대 경로로 업데이트합니다.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스에서 직접 상속하는 <xref:Microsoft.Build.Tasks.TaskExtension> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [TaskExtension Base Class](../msbuild/taskextension-base-class.md)를 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 `FindUnderPath` 작업을 사용하여 `MyFiles` 항목에 포함된 파일에 `SearchPath` 속성에서 지정한 경로 아래에 있는 경로가 포함되어 있는지를 확인합니다. 작업이 완료되면 `FilesNotFoundInPath` 항목에 `File1.txt` 파일이 포함되고 `FilesFoundInPath` 항목에 `File2.txt` 파일이 포함됩니다.  
   
 ```  

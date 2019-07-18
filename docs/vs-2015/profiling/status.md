@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 3f64364caf914c030fef806c5ae17e90a8368fa3
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54770961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157795"
 ---
 # <a name="status"></a>상태
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -32,7 +32,7 @@ VSPerfCmd.exe /Status
 #### <a name="parameters"></a>매개 변수  
  없음  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  **Status** 옵션은 프로파일러에 대한 다음 상태 정보를 표시합니다.  
   
  **출력 파일 이름**  

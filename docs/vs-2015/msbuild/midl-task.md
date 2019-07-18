@@ -28,11 +28,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: c1404ae5fce31eb59d2bb484ce1d97956f4cfefc
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68191568"
 ---
 # <a name="midl-task"></a>MIDL 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -54,7 +54,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 midl.exe를
   
      선택적 **문자열** 매개 변수입니다.  
   
-     명령줄 옵션의 목록입니다. 예를 들어 **"**_/option1 /option2 /option#_"과 같습니다. 이 매개 변수를 사용하여 다른 MIDL 작업 매개 변수로 표현되지 않는 명령줄 옵션을 지정합니다.  
+     명령줄 옵션의 목록입니다. 예를 들어 **"** _/option1 /option2 /option#_ "과 같습니다. 이 매개 변수를 사용하여 다른 MIDL 작업 매개 변수로 표현되지 않는 명령줄 옵션을 지정합니다.  
   
      자세한 내용은 [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) 웹 사이트에서 "MIDL 명령줄 참조"를 참조하세요.  
   
@@ -144,7 +144,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 midl.exe를
   
      `true`인 경우 열거형 값이 허용되는 범위에 있는지 확인합니다.  
   
-     자세한 내용은 midl.exe에 대한 명령줄 도움말(**/?**)에서 **/error enum** 옵션을 참조하세요.  
+     자세한 내용은 midl.exe에 대한 명령줄 도움말( **/?** )에서 **/error enum** 옵션을 참조하세요.  
   
 - **ErrorCheckRefPointers**  
   
@@ -418,7 +418,7 @@ MIDL(Microsoft 인터페이스 정의 언어) 컴파일러 도구인 midl.exe를
   
      자세한 내용은 [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) 웹 사이트의 "MIDL 명령줄 참조"에서 **/W** 옵션을 참조하세요. 이 표의 **WarnAsError** 매개 변수도 참조하세요.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
   
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)

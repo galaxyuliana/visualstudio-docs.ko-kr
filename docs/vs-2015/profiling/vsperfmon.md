@@ -18,11 +18,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 4a06a6632d62f853eef33cad00ad766e0d1aab87
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54776055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68184020"
 ---
 # <a name="vsperfmon"></a>VSPerfMon
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ VSPerfMon [/U] </TRACE [/COUNTER:cfg] | /SAMPLE | /COVERAGE> /CROSSSESSION /OUTP
 |**CONCURRENCY**|리소스 경합 프로파일링에 대한 성능 모니터를 시작합니다.|  
 |**USER:** `[` *도메인* `\]` *사용자 이름*|클라이언트가 지정한 계정에서 성능 모니터에 액세스할 수 있습니다.|  
 |**CROSSSESSION**|상호 세션 프로파일링을 사용하도록 설정합니다.|  
-|**COUNTER** `:cfg`|계측(TRACE) 프로파일링 방법을 사용할 때 각 계측 지점에서 수집할 CPU 카운터를 지정합니다. 여러 Counter 옵션을 지정하면 여러 카운터 데이터를 수집할 수 있습니다.<br /><br /> 카운터(*cfg*) 데이터를 지정하려면 다음 구문을 사용합니다.<br /><br /> **CounterName** [**,Reload**[,**FriendlyName**]]<br /><br /> -   **CounterName**은 VSPerfCmd /QueryCounters 명령에서 반환하는 카운터의 이름입니다.<br />-   **Reload**는 카운터 이벤트 샘플링 간격입니다. 계측 방법에서는 *Reload*를 사용하지 마세요.<br />-   **FriendlyName**은 지정하는 경우 프로파일링 도구 보고서 열 이름의 **CounterName**을 바꿉니다.|  
+|**COUNTER** `:cfg`|계측(TRACE) 프로파일링 방법을 사용할 때 각 계측 지점에서 수집할 CPU 카운터를 지정합니다. 여러 Counter 옵션을 지정하면 여러 카운터 데이터를 수집할 수 있습니다.<br /><br /> 카운터(*cfg*) 데이터를 지정하려면 다음 구문을 사용합니다.<br /><br /> **CounterName** [ **,Reload**[,**FriendlyName**]]<br /><br /> -   **CounterName**은 VSPerfCmd /QueryCounters 명령에서 반환하는 카운터의 이름입니다.<br />-   **Reload**는 카운터 이벤트 샘플링 간격입니다. 계측 방법에서는 *Reload*를 사용하지 마세요.<br />-   **FriendlyName**은 지정하는 경우 프로파일링 도구 보고서 열 이름의 **CounterName**을 바꿉니다.|  
 |**WINCOUNTER** `:path`|표시 데이터와 함께 포함할 Windows 성능 카운터를 지정합니다. `path`는 PDH 카운터 경로 형식의 Windows 성능 카운터 문자열입니다. 예:<br /><br /> \Processor(0)\\% Processor Time<br /><br /> \System\Context Switches/sec|  
 |**AUTOMARK** `:n`|/WINCOUNTER 사용 시 자동 표시 간의 시간 간격(밀리초)을 지정합니다. 가장 가까운 500ms로 반올림됩니다.<br /><br /> 자동 표시를 사용하지 않으려면 0을 사용합니다. 값을 지정하지 않는 경우의 기본값은 500ms입니다.|  
   

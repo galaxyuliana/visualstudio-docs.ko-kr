@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 884dda624d5405ec017b544afd223be0bebc97e9
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59655870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199162"
 ---
 # <a name="list-memory-command"></a>메모리 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ Debug.ListMemory [/ANSI|Unicode] [/Count:number] [/Format:formattype]
  /Hex&#124;Signed&#124;Unsigned  
  선택 사항입니다. 서명됨, 서명하지 않음 또는 16진수로 숫자를 볼 형식을 지정합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  모든 스위치를 포함한 전체 **Debug.ListMemory** 명령을 작성하는 대신 특정 스위치를 지정된 값으로 미리 설정한 미리 정의된 별칭을 사용하여 명령을 호출할 수 있습니다. 예를 들어, 다음을 입력하는 대신  
   
 ```  
@@ -77,7 +77,7 @@ Debug.ListMemory [/ANSI|Unicode] [/Count:number] [/Format:formattype]
 |**dq**|Debug.ListMemory /Format:EightBytes|  
 |**du**|Debug.ListMemory /Unicode|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```  
 >Debug.ListMemory /Format:float /Count:30 /Unicode  

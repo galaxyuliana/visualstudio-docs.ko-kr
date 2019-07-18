@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 0ba7820bfa6df7273f170b2222d6a55e685e445e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59668134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68203690"
 ---
 # <a name="add-new-item-command"></a>새 항목 추가 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -59,7 +59,7 @@ File.AddNewItem [filename] [/t:templatename] [/e:editorname]
 /e:"Source Code (text) Editor"  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 새 솔루션 항목인 MyHTMLpg를 현재 솔루션에 추가합니다.  
   
 ```  

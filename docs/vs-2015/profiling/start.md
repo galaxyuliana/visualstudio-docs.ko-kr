@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 83dc76e3e92a05f936d94c8cd0f6a2b9b69e4cc1
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60073555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192822"
 ---
 # <a name="start"></a>시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -51,7 +51,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  **CrossSession**&#124;**CS**  
  프로세스 간 프로파일링을 활성화합니다. 옵션 이름 **CrossSession** 및 **CS**가 둘 다 지원됩니다.  
   
- **User:**[`domain\`]`username`  
+ **User:** [`domain\`]`username`  
  클라이언트가 지정한 계정에서 모니터에 액세스할 수 있습니다.  
   
  **WinCounter:** `Path` [**Automark**:`n`]  
@@ -63,10 +63,10 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  **Status**  
  **Status**는 프로파일링되는 프로세스에 적용되며 프로세스 및 스레드와 해당 현재 프로필 상태(On/Off) 목록을 표시합니다. 예를 들어 프로세스가 중지되더라도 보고서에서 **Status**에는 해당 상태가 나타나지 않습니다. 즉, **Status**는 프로세스가 프로파일링되었는지 여부를 표시합니다.  
   
- **Shutdown**[**:**`Timeout`]  
+ **Shutdown**[ **:** `Timeout`]  
  프로파일러를 해제합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 VSPerfCmd.exe **Start** 옵션을 사용하여 프로파일러를 초기화하는 방법을 보여 줍니다.  
   
 ```  

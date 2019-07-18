@@ -10,11 +10,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: ae1643b4a01c9bcab3878ec82b1808444cdc7712
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54778632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68188812"
 ---
 # <a name="command-line-arguments-for-the-help-content-manager"></a>도움말 콘텐츠 관리자에 대한 명령줄 인수
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -46,8 +46,8 @@ hlpctntmgr.exe /operation install /catalogname VisualStudio14 /locale en-us /sou
   
 |전환|필수 여부|인수|  
 |------------|---------------|---------------|  
-|/operation|적용|-   **Install**--지정된 설치 소스의 책을 로컬 콘텐츠 저장소에 추가합니다.<br />     이 스위치에는 /booklist 인수 또는 /sourceURI 인수가 필요하거나 두 인수가 모두 필요합니다. /sourceURI 인수를 지정하지 않는 경우 기본 Visual Studio URI가 설치 원본으로 사용됩니다. /booklist 인수를 지정하지 않는 경우 /sourceUri의 모든 책이 설치됩니다.<br />-   **Uninstall**--지정하는 책을 로컬 콘텐츠 저장소에서 제거합니다.<br />     이 스위치에는 /booklist 인수 또는 /sourceURI 인수가 필요합니다.  /sourceURI 인수를 지정하는 경우 모든 책이 제거되고 /booklist 인수가 무시됩니다.<br />-   **Move**--지정하는 경로로 로컬 저장소를 이동합니다. 기본 로컬 저장소 경로는 도움말 설정에 의해 %PROGRAMDATA% 아래에 설정됩니다.<br />     이 스위치에는 /locationPath 및 /catalogName 인수가 필요합니다. 유효하지 않은 경로를 지정하거나 드라이브에 콘텐츠를 저장할 충분한 여유 공간이 없는 경우 오류 메시지가 이벤트 로그에 기록됩니다.<br />-   **Refresh**--설치된 이후 변경되었거나 최근에 업데이트된 항목을 업데이트합니다.<br />     이 스위치에는 /sourceURI 인수가 필요합니다.|  
-|/catalogName|적용|콘텐츠 카탈로그의 이름을 지정합니다.|  
+|/operation|예|-   **Install**--지정된 설치 소스의 책을 로컬 콘텐츠 저장소에 추가합니다.<br />     이 스위치에는 /booklist 인수 또는 /sourceURI 인수가 필요하거나 두 인수가 모두 필요합니다. /sourceURI 인수를 지정하지 않는 경우 기본 Visual Studio URI가 설치 원본으로 사용됩니다. /booklist 인수를 지정하지 않는 경우 /sourceUri의 모든 책이 설치됩니다.<br />-   **Uninstall**--지정하는 책을 로컬 콘텐츠 저장소에서 제거합니다.<br />     이 스위치에는 /booklist 인수 또는 /sourceURI 인수가 필요합니다.  /sourceURI 인수를 지정하는 경우 모든 책이 제거되고 /booklist 인수가 무시됩니다.<br />-   **Move**--지정하는 경로로 로컬 저장소를 이동합니다. 기본 로컬 저장소 경로는 도움말 설정에 의해 %PROGRAMDATA% 아래에 설정됩니다.<br />     이 스위치에는 /locationPath 및 /catalogName 인수가 필요합니다. 유효하지 않은 경로를 지정하거나 드라이브에 콘텐츠를 저장할 충분한 여유 공간이 없는 경우 오류 메시지가 이벤트 로그에 기록됩니다.<br />-   **Refresh**--설치된 이후 변경되었거나 최근에 업데이트된 항목을 업데이트합니다.<br />     이 스위치에는 /sourceURI 인수가 필요합니다.|  
+|/catalogName|예|콘텐츠 카탈로그의 이름을 지정합니다.|  
 |/locale|아니요|도움말 뷰어의 현재 인스턴스에 대한 콘텐츠를 보고 관리하는 데 사용되는 제품 로캘을 지정합니다. 예를 들어 영어-미국의 경우 `EN-US`를 지정합니다.<br /><br /> 로캘을 지정하지 않는 경우 운영 체제의 로캘이 사용됩니다. 로캘을 확인할 수 없는 경우에는 `EN-US`가 사용됩니다.<br /><br /> 올바르지 않은 로캘을 지정하면 오류 메시지가 이벤트 로그에 기록됩니다.|  
 |/e|아니요|현재 사용자에게 관리자 자격 증명이 있는 경우 도움말 콘텐츠 관리자를 관리자 권한으로 승격합니다.|  
 |/sourceURI|아니요|콘텐츠가 설치되는 URL(서비스 API) 또는 콘텐츠 설치 파일(.msha)의 경로를 지정합니다. URL은 Visual Studio 2010 스타일 엔드포인트에서 제품 그룹(최상위 노드) 또는 제품 책(리프 수준 노드)을 가리킬 수 있습니다. URL 끝에 슬래시(/)를 포함할 필요가 없습니다. 끝에 슬래시를 포함하는 경우 적절하게 처리됩니다.<br /><br /> 찾을 수 없거나 유효하지 않거나 액세스할 수 없는 파일을 지정하는 경우나 콘텐츠를 관리하는 동안 인터넷 연결을 사용할 수 없거나 중단된 경우 오류 메시지가 이벤트 로그에 기록됩니다.|  

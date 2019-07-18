@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1b6fb90cd12dc59edc760b081e7108c52c815a72
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192252"
 ---
 # <a name="importgroup-element"></a>ImportGroup 요소
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -62,9 +62,9 @@ ms.locfileid: "59650601"
 |-------------|-----------------|  
 |[프로젝트](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 프로젝트 파일의 필수 루트 요소입니다.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 `ImportGroup` 요소를 보여 줍니다.  
   
 ```  

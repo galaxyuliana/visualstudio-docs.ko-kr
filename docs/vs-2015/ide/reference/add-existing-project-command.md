@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 4778efc4a50ceb63e72d4283644537345510e833
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68194956"
 ---
 # <a name="add-existing-project-command"></a>기존 프로젝트 추가 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -40,10 +40,10 @@ File.AddExistingProject filename
   
  파일 이름을 지정하지 않은 경우 명령을 실행하면 사용자가 프로젝트를 선택할 수 있는 파일 대화 상자가 열립니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  입력 시 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 프로젝트인 TestProject1을 현재 솔루션에 추가합니다.  
   
 ```  

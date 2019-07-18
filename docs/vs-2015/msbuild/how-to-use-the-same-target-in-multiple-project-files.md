@@ -13,11 +13,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: d388d32b288e47a7e92f5d0f727230ffa00a2621
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60056837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68178319"
 ---
 # <a name="how-to-use-the-same-target-in-multiple-project-files"></a>방법: 여러 프로젝트 파일에서 동일한 대상 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -83,7 +83,7 @@ ms.locfileid: "60056837"
   
 3. 가져온 프로젝트의 속성 및 항목의 기본 정의를 재정의해야 하는 모든 속성 및 항목을 프로젝트 파일에 정의합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 두 번째 코드 예제에서 가져오는 MyCommon.targets 파일을 보여 줍니다. .targets 파일은 가져오기 프로젝트의 속성을 평가하여 빌드를 구성합니다.  
   
 ```  
@@ -101,7 +101,7 @@ ms.locfileid: "60056837"
 </Project>  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 MyCommon.targets 파일을 가져옵니다.  
   
 ```  

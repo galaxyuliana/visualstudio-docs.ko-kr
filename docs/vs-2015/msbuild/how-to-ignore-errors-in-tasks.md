@@ -13,11 +13,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 5025cc3e9dc0e13c3ae4658d129f5d0ac94f6fd6
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60062141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68156597"
 ---
 # <a name="how-to-ignore-errors-in-tasks"></a>방법: 작업의 오류 무시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "60062141"
   
      `<Delete Files="@(Files)" ContinueOnError="WarnAndContinue"/>`  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 `Delete` 작업이 실패하더라도 `Build` 대상이 계속 실행되고 빌드가 성공한 것으로 간주됨을 보여 줍니다.  
   
 ```  

@@ -18,11 +18,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: cc3d606bb890b5f95089bfc7b1e83b2d34cd56ba
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59650765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68192611"
 ---
 # <a name="item-element-msbuild"></a>Item 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -72,14 +72,14 @@ ms.locfileid: "59650765"
 |-------------|-----------------|  
 |[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|항목의 grouping 요소입니다.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  `Item` 요소는 빌드 시스템에 대한 입력을 정의하며 사용자 정의 컬렉션 이름을 기준으로 하여 항목 컬렉션으로 그룹화됩니다. 이러한 항목 컬렉션은 빌드 프로세스의 단계를 수행하기 위해 컬렉션의 개별 항목을 사용하는 [작업](../msbuild/msbuild-tasks.md)의 매개 변수로 사용할 수 있습니다. 자세한 내용은 [항목](../msbuild/msbuild-items.md)을 참조하세요.  
   
  `@(`*myType*`)` 표기법을 사용하면 *myType* 형식의 항목 컬렉션을 세미콜론으로 구분된 문자열 목록으로 확장한 다음 매개 변수로 전달할 수 있습니다. 매개 변수가 `string` 형식인 경우 매개 변수 값은 세미콜론으로 구분된 요소 목록입니다. 매개 변수가 문자열 배열(`string[]`)이면 각 요소는 세미콜론의 위치를 기준으로 배열에 삽입됩니다. 작업 매개 변수가 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 형식이면 값은 항목 컬렉션의 내용(연결된 메타데이터 포함)입니다. 세미콜론 이외의 문자를 사용하여 각 항목을 구분하려면 `@(`*myType*`, '`*구분 기호*`')` 구문을 사용합니다.  
   
  [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 엔진은 `*`, `?` 등의 와일드카드와 `/**/*.cs` 등의 재귀 와일드카드를 평가할 수 있습니다. 자세한 내용은 [항목](../msbuild/msbuild-items.md)을 참조하세요.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 `CSFile` 형식의 두 항목을 선언하는 방법을 보여 줍니다. 두 번째로 선언된 항목은 `MyMetadata`가 `HelloWorld`로 설정된 메타데이터를 포함합니다.  
   
 ```  
