@@ -12,11 +12,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 994cde18cfe304add796bffa74d2a327e1c63f45
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54774729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199750"
 ---
 # <a name="startprofile"></a>StartProfile
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -57,7 +57,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI StartProfile(
 |PROFILE_ERROR_NOT_YET_IMPLEMENTED|프로파일링 함수 호출, 프로파일링 수준 또는 호출과 수준의 조합이 아직 구현되지 않았습니다.|  
 |PROFILE_OK|호출이 성공했습니다.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  StartProfile 및 StopProfile은 프로파일링 수준에 대한 Start/Stop 상태를 제어합니다. Start/Stop의 기본값은 1입니다. 레지스트리에서 초기 값을 변경할 수 있습니다. StartProfile에 대한 각 호출은 Start/Stop을 1로 설정합니다. StopProfile에 대한 각 호출은 0으로 설정합니다.  
   
  Start/Stop이 0보다 큰 경우 수준에 대한 Start/Stop 상태는 ON입니다. 0보다 작거나 같은 경우 Start/Stop 상태가 OFF입니다.  

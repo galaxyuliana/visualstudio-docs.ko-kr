@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 932dbc9e3971598748e462de92280ac7112f8c62
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59665118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199204"
 ---
 # <a name="list-call-stack-command"></a>호출 스택 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -76,7 +76,7 @@ Debug.ListCallStack [/Count:number] [/ShowTypes:yes|no]
  스레드:`n`  
  선택 사항입니다. 스레드 `n`에 대한 호출 스택을 표시합니다. 스레드가 지정된 경우 현재 스레드에 대한 호출 스택을 표시합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  인수 또는 스위치에 대한 변경 내용은 이 명령의 이후 호출에 적용됩니다. Debug.ListCallStackby 자체를 실행하면 전체 호출 스택이 표시됩니다. 예를 들어 인덱스를 지정하는 경우  
   
 ```  
@@ -93,7 +93,7 @@ kb 2
   
  현재 스택 프레임을 두 번째 프레임으로 설정할 수 있습니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```  
 >Debug.CallStack /Count:4 /ShowTypes:yes  

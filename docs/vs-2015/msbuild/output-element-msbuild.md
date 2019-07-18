@@ -20,11 +20,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 52b8ef11e295d60e71a59820a48bca5e477c639d
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59648810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163598"
 ---
 # <a name="output-element-msbuild"></a>Output 요소(MSBuild)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -65,7 +65,7 @@ ms.locfileid: "59648810"
 |-------------|-----------------|  
 |[Task](../msbuild/task-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] 작업의 인스턴스를 만들고 실행합니다.|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 코드 예제에서는 `Target` 요소 내에서 실행되는 `Csc` 태스크를 보여 줍니다. 태스크 매개 변수에 전달된 항목 및 속성은 이 예제의 범위 밖에서 선언됩니다. 출력 매개 변수 `OutputAssembly`의 값은 `FinalAssemblyName` 항목에 저장되고 출력 매개 변수 `BuildSucceeded`의 값은 `BuildWorked` 속성에 저장됩니다. 자세한 내용은 [작업](../msbuild/msbuild-tasks.md)을 참조하세요.  
   
 ```  

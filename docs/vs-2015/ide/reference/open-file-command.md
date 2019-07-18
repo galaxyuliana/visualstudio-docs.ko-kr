@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: e870b15355da86b8654511cab932f792323446b9
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199060"
 ---
 # <a name="open-file-command"></a>파일 열기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -49,10 +49,10 @@ File.OpenFile filename [/e:editorname]
 /e:"Source Code (text) Editor"  
 ```  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  경로를 입력하여 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 소스 코드 편집기에서 스타일 파일을 "Test1.css"를 엽니다.  
   
 ```  

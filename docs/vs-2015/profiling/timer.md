@@ -10,11 +10,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 1e5f6c6db903b3ecced2ac3ebc4aaa0a3e60910c
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54790418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68145494"
 ---
 # <a name="timer"></a>Timer
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -49,16 +49,16 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /Timer[:Cycles] [Options]
 ## <a name="invalid-options"></a>잘못된 옵션  
  다음 옵션은 **Timer**와 동일한 명령줄에서 지정할 수 없습니다.  
   
- **PF**[**:**`Events`]  
+ **PF**[ **:** `Events`]  
  샘플링 이벤트를 페이지 폴트로 설정하고 경우에 따라 샘플링 간격을 `Events`로 설정합니다. 기본 PF 간격은 10입니다.  
   
- **Sys**[**:**`Events`]  
+ **Sys**[ **:** `Events`]  
  샘플링 이벤트를 운영 체제 호출로 설정하고 필요한 경우 샘플링 간격을 `Events`로 설정합니다. 기본 시스템 간격은 10입니다.  
   
- **Counter**[**:**`Name,Reload,FriendlyName`]  
+ **Counter**[ **:** `Name,Reload,FriendlyName`]  
  `Name`으로 지정한 CPU 성능 카운터로 샘플링 이벤트를 설정하고 샘플링 이벤트를 `Reload`로 설정합니다.  
   
- **GC**[**:**{**Allocation**&#124;**Lifetime**}]  
+ **GC**[ **:** {**Allocation**&#124;**Lifetime**}]  
  .NET 메모리 데이터를 수집합니다. 기본적으로(**Allocation**) 모든 메모리 할당 이벤트에서 데이터가 수집됩니다. **Lifetime** 매개변수가 지정되면 데이터는 각 가비지 컬렉션 이벤트에서도 수집됩니다.  
   
 ## <a name="example"></a>예  

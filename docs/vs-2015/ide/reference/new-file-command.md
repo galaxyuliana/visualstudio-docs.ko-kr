@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: bb86a15e73ac2410ad763acd3b361e4a82bc44f1
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199069"
 ---
 # <a name="new-file-command"></a>새 파일 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -61,7 +61,7 @@ File.NewFile [filename] [/t:templatename] [/editor:editorname]
 /e:"Source Code (text) Editor"  
 ```  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 "test1.htm"이라는 새 웹 페이지를 만들고 소스 코드 편집기에서 엽니다.  
   
 ```  

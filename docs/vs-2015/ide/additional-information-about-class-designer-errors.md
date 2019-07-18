@@ -30,11 +30,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 66a895b48051ed8797644b36d6f6663e1e35a8e6
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54783682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68145665"
 ---
 # <a name="additional-information-about-class-designer-errors"></a>클래스 디자이너 오류에 대한 추가 정보
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

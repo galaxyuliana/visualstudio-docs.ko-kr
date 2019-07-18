@@ -24,11 +24,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: b7b22f63d5d3d6e0b1f7789561029bbfbfb4cdf4
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59667510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68143752"
 ---
 # <a name="msbuild-conditional-constructs"></a>MSBuild 조건부 구문
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -40,7 +40,7 @@ ms.locfileid: "59667510"
   
  `Choose` 요소를 `Project`, `When` 및 `Otherwise` 요소의 자식 요소로 사용할 수 있습니다. `When` 및 `Otherwise` 요소에는 `ItemGroup`, `PropertyGroup` 또는 `Choose` 자식 요소가 포함됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  다음 예제에서는 / 또는 처리 중 하나에 `Choose` 및 `When` 요소를 사용합니다. 프로젝트의 속성 및 항목은 `Configuration` 속성의 값에 따라 설정됩니다.  
   
 ```  

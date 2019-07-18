@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: e0a4a8482dc1c2c66a45902f2f3382b179b46b13
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59662844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199122"
 ---
 # <a name="list-source-command"></a>소스 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -50,9 +50,9 @@ Debug.ListSource [/Count:number] [/Current] [/File:filename]
  /ShowLineNumbers:`yes|no`  
  선택 사항입니다. 줄 번호를 표시할지 여부를 지정합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 줄 번호를 표시하여 Form1.vb 파일의 줄 4 소스 코드를 나열합니다.  
   
 ```  

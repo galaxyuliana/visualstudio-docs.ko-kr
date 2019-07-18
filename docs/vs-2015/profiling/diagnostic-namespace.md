@@ -14,11 +14,11 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: d412cfa5a9b5e7e90aeac3ac6bbb530b0ef48ad0
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157584"
 ---
 # <a name="diagnostic-namespace"></a>진단 네임스페이스
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]

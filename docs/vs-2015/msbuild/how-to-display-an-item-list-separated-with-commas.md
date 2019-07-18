@@ -13,11 +13,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 93451d6d49082621df48c734de951e6a4bc7e281
-ms.sourcegitcommit: 1fc6ee928733e61a1f42782f832ead9f7946d00c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "60059359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68156637"
 ---
 # <a name="how-to-display-an-item-list-separated-with-commas"></a>방법: 항목 목록을 쉼표로 구분하여 표시
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -45,7 +45,7 @@ ms.locfileid: "60059359"
   
      `@(TXTFile, ', ')`  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서 [Exec](../msbuild/exec-task.md) 작업은 findstr 도구를 실행하여 Phrases.txt 파일에 지정된 텍스트 문자열을 찾습니다. findstr 명령에서 리터럴 검색 문자열은 **/c:** 스위치로 나타나므로 항목 구분 기호 `/c:`는 `@(Phrase)` 항목 목록에 있는 항목 사이에 삽입됩니다.  
   
  이 예제에서 해당하는 명령줄 명령은 다음과 같습니다.  

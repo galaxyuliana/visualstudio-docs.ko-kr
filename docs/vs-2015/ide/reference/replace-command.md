@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 4ef58a39f1ff96a3c72cbb5a48940e378997cbca
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59664490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157822"
 ---
 # <a name="replace-command"></a>바꾸기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -81,7 +81,7 @@ Edit.Replace findwhat replacewith [/all] [/case]
  /word 또는 /w  
  선택 사항입니다. 전체 단어만을 검색합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 열린 모든 문서에서 `btnSend`를 `btnSubmit`으로 바꿉니다.  
   
 ```  

@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 8398f07cf6fa6bd2702b2d84ab0d29dcd614ed32
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59652309"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68157799"
 ---
 # <a name="replace-in-files-command"></a>파일에서 바꾸기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -86,7 +86,7 @@ Edit.ReplaceinFiles findwhat replacewith [/all] [/case]
  /word 또는 /w  
  선택 사항입니다. 단어 단위로 검색합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 `btnCancel`을 검색하고, "내 Visual Studio 프로젝트" 폴더에 있는 모든 .cls 파일에서 `btnReset`으로 바꾸고, **찾기 결과 2** 창에서 대체 정보를 표시합니다.  
   
 ```  

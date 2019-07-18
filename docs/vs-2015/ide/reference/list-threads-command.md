@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 90aff3fb3d3cbb596708bde1db8ff171198a5a60
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199113"
 ---
 # <a name="list-threads-command"></a>스레드 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -37,10 +37,10 @@ Debug.ListThreads [index]
  `index`  
  선택 사항입니다. 해당 인덱스별로 현재 스레드가 될 스레드를 선택합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  지정하는 경우 `index` 인수는 현재 스레드로 지정된 스레드를 표시합니다. 별표(*)는 현재 스레드 옆에 있는 목록에 표시됩니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```  
 >Debug.ListThreads   

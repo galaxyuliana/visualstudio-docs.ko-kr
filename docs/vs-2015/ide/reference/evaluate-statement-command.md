@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: f774458eb63d9e56b99a635e7b32309375a903ef
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59669239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199369"
 ---
 # <a name="evaluate-statement-command"></a>문 실행 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ Debug.EvaluateStatement text
  `text`  
  필수 요소. 평가할 문입니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  **EvaluateStatement** 명령을 입력하는 데 사용되는 창에서는 같음 기호(=)를 비교 연산자 또는 대입 연산자로 해석할지 결정합니다.  
   
  **명령** 창에서 같음 기호(=)는 비교 연산자로 해석됩니다. 따라서 예를 들면 `a` 및 `b` 변수 값이 다른 경우  
@@ -55,7 +55,7 @@ Debug.EvaluateStatement text
   
  명령은 `a` 변수에 `b` 변수의 값을 할당합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```  
 >Debug.EvaluateStatement(a+b)  

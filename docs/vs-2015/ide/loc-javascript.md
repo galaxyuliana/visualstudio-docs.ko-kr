@@ -13,11 +13,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 8029dc6282e7b5a4ff9075257bcb1b6213a4a6b4
-ms.sourcegitcommit: a83c60bb00bf95e6bea037f0e1b9696c64deda3c
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "54758527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68186108"
 ---
 # <a name="ltlocgt-javascript"></a>&lt;loc&gt; (JavaScript)
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -38,7 +38,7 @@ ms.locfileid: "54758527"
  `format`  
  선택 사항입니다. 지역화에 사용 되는 사이드카 파일의 형식입니다. 사용 하 여 `messagebundle` 열기 Ajax 메타 데이터에서 정의한 메시지 번들의 사용을 지정 합니다. `messagebundle` 권장 되는 형식이입니다. 그러나이 형식은.winmd 파일 또는 Microsoft Ajax에서 지원 되지 않습니다. 사용 하 여 `vsdoc` Ajax 및 Windows 런타임에서 사용 되는 표준.NET Framework 지역화 형식을 지정 합니다. 이 특성은 선택적 요소입니다. `vsdoc` 기본 형식이입니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  합니다 `<loc>` 요소와 동일한 섹션에 있는 파일의 위쪽에 표시 되어야 합니다는 `<reference>` 요소입니다. 사용에 대 한 규칙을 `<loc>` 요소와 동일 합니다 `<reference>` 요소입니다. 자세한 내용은의 "참조 지시문" 섹션을 참조 하세요 [JavaScript IntelliSense](../ide/javascript-intellisense.md)합니다.  
   
  Visual Studio 처리는 단일 `<loc>` 각.js 파일에 대 한 요소입니다. 여러 `<loc>` 요소가 있는 단일 `<loc>` 요소를 사용 합니다. 결정에 대 한 동작 `<loc>` 사용 하는 요소에 정의 되어 있지 않습니다.  

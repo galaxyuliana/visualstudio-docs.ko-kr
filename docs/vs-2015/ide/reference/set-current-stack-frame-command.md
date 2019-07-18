@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 87d830e492420844de72a2cd34dbea336e365dfd
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163354"
 ---
 # <a name="set-current-stack-frame-command"></a>현재 스택 프레임 설정 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,7 +36,7 @@ Debug.SetCurrentStackFrame index
  `index`  
  필수 요소. 해당 인덱스로 스택 프레임을 선택합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```  
 >Debug.SetCurrentStackFrame 1  

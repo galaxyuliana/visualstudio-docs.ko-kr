@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 010d2c395d77be590b3d8d3bc26fc83aaa63adfa
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59660608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199255"
 ---
 # <a name="go-to-command"></a>이동 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,14 +36,14 @@ Edit.GoTo [linenumber]
  `linenumber`  
  선택 사항입니다. 이동할 줄 번호를 나타내는 정수입니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  줄 번호는 1부터 시작합니다. `linenumber` 값이 1보다 작은 경우 첫 번째 줄이 표시됩니다. `linenumber` 값이 마지막 줄 번호보다 큰 경우 마지막 줄이 표시됩니다.  
   
  `linenumber` 값이 지정되지 않으면 **줄 이동** 대화 상자가 표시됩니다.  
   
  이 명령에 대한 별칭은 GoToLn입니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
   
 ```  
 >Edit.GoTo 125  

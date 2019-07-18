@@ -14,11 +14,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 94e8e87f4440644f76906a70ea09a46282b109c2
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59670357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68163373"
 ---
 # <a name="safemode-devenvexe"></a>/SafeMode(devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "59670357"
 devenv /SafeMode   
 ```  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  이 스위치는 [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]이(가) 시작될 때 모든 타사 VSPackages의 로드를 차단하므로 안정적으로 실행되도록 합니다.  
   
 ## <a name="description"></a>설명  

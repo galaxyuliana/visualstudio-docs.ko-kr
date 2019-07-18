@@ -24,11 +24,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.openlocfilehash: 9bc8b770e654442f14e693fda35d7cf6f5edbd12
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654831"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68158263"
 ---
 # <a name="rc-task"></a>RC 작업
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -41,7 +41,7 @@ Microsoft Windows 리소스 컴파일러 도구, rc.exe를 래핑합니다. **RC
 |매개 변수|설명|  
 |---------------|-----------------|  
 |**AdditionalIncludeDirectories**|선택적 **String[]** 매개 변수입니다.<br /><br /> 포함 파일을 검색할 디렉터리 목록에 디렉터리를 추가합니다.<br /><br /> 자세한 내용은 MSDN 웹 사이트의 [RC 사용(RC 명령줄)](http://go.microsoft.com/fwlink/?LinkId=155730)에서 **/I** 옵션을 참조하세요.|  
-|**AdditionalOptions**|선택적 **문자열** 매개 변수입니다.<br /><br /> 명령줄 optionsor 예제 목록은 **"**_/option1 /option2 /option#_"입니다. 이 매개 변수를 사용하여 다른 **RC** 작업 매개 변수로 표현되지 않는 명령줄 옵션을 지정합니다.<br /><br /> 자세한 내용은 MSDN 웹 사이트의 [RC 사용(RC 명령줄)](http://go.microsoft.com/fwlink/?LinkId=155730)에서 옵션을 참조하세요.|  
+|**AdditionalOptions**|선택적 **문자열** 매개 변수입니다.<br /><br /> 명령줄 optionsor 예제 목록은 **"** _/option1 /option2 /option#_ "입니다. 이 매개 변수를 사용하여 다른 **RC** 작업 매개 변수로 표현되지 않는 명령줄 옵션을 지정합니다.<br /><br /> 자세한 내용은 MSDN 웹 사이트의 [RC 사용(RC 명령줄)](http://go.microsoft.com/fwlink/?LinkId=155730)에서 옵션을 참조하세요.|  
 |**문화권**.|선택적 **문자열** 매개 변수입니다.<br /><br /> 리소스에서 사용되는 문화권을 나타내는 로캘 ID를 지정합니다.<br /><br /> 자세한 내용은 MSDN 웹 사이트의 [RC 사용(RC 명령줄)](http://go.microsoft.com/fwlink/?LinkId=155730)에서 **/l** 옵션을 참조하세요.|  
 |**IgnoreStandardIncludePath**|선택적 **Boolean** 매개 변수입니다.<br /><br /> `true`인 경우 리소스 컴파일러가 헤더 파일이나 리소스 파일을 검색할 때 INCLUDE 환경 변수를 검사하는 것을 금지합니다.<br /><br /> 자세한 내용은 MSDN 웹 사이트의 [RC 사용(RC 명령줄)](http://go.microsoft.com/fwlink/?LinkId=155730)에서 **/x** 옵션을 참조하세요.|  
 |**NullTerminateStrings**|선택적 **Boolean** 매개 변수입니다.<br /><br /> `true`인 경우 문자열 테이블의 모든 문자열을 null로 끝냅니다.<br /><br /> 자세한 내용은 MSDN 웹 사이트의 [RC 사용(RC 명령줄)](http://go.microsoft.com/fwlink/?LinkId=155730)에서 **/n** 옵션을 참조하세요.|  
@@ -53,7 +53,7 @@ Microsoft Windows 리소스 컴파일러 도구, rc.exe를 래핑합니다. **RC
 |**TrackerLogDirectory**|선택적 **문자열** 매개 변수입니다.<br /><br /> 추적기 로그 디렉터리를 지정합니다.|  
 |**UndefinePreprocessorDefinitions**|전처리기 기호의 정의를 해제합니다.<br /><br /> 자세한 내용은 MSDN 웹 사이트의 [RC 사용(RC 명령줄)](http://go.microsoft.com/fwlink/?LinkId=155730)에서 **/u** 옵션을 참조하세요. 이 표의 **PreprocessorDefinitions**도 참조하세요.|  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
   
 ## <a name="see-also"></a>참고 항목  
  [작업 참조](../msbuild/msbuild-task-reference.md)

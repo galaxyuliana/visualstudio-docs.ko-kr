@@ -15,11 +15,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: bb99d359f3858d8e7f15e013ab56719c7ed14995
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59654609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199016"
 ---
 # <a name="open-solution-command"></a>솔루션 열기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -38,10 +38,10 @@ File.OpenSolution filename
   
  `filename` 인수 구문에서 공백을 포함하는 경로에는 따옴표를 사용해야 합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  입력 시 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 Test1.sln 솔루션을 엽니다.  
   
 ```  

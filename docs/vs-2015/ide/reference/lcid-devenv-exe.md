@@ -18,11 +18,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 0b1d83cca1da917a08b8765dae66fb240ca1dc75
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59661011"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199208"
 ---
 # <a name="lcid-devenvexe"></a>/LCID (devenv.exe)
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,7 +39,7 @@ devenv {/LCID|/l} LocaleID
  `LocaleID`  
  필수 요소. 지정한 언어의 LCID(로캘 ID)입니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  IDE를 로드하고 환경에 대한 기본 자연 언어를 설정합니다. 이 변경은 세션 간에 유지되고 IDE의 **옵션** 대화 상자에 있는 **환경** 옵션의 **국가별 설정** 창에 반영됩니다.  
   
  지정된 언어를 사용자의 시스템에서 사용할 수 없는 경우 /LCID 스위치는 무시됩니다.  
@@ -58,7 +58,7 @@ devenv {/LCID|/l} LocaleID
 |한국어|1042|  
 |스페인어|3082|  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예에서는 영어 리소스 문자열을 사용하는 IDE를 로드합니다.  
   
 ```  

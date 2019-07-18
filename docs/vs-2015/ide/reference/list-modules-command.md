@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: 7d24b081c20b5874d6daa57832136023ac678c0f
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59649735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199143"
 ---
 # <a name="list-modules-command"></a>모듈 목록 표시 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -63,9 +63,9 @@ Debug.ListModules [/Address:yes|no] [/Name:yes|no] [/Order:yes|no]
  /Version:`yes|no`  
  선택 사항입니다. 모듈의 버전을 표시할지 여부를 지정합니다. 기본값은 `no`여야 합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제에서는 현재 프로세스의 모듈 이름, 주소 및 타임스탬프를 나열합니다.  
   
 ```  

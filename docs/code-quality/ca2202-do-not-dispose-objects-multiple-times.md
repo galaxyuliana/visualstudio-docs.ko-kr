@@ -1,6 +1,6 @@
 ---
 title: 'CA2202: 개체를 여러 번 삭제하지 마십시오.'
-ms.date: 11/04/2016
+ms.date: 07/16/2019
 ms.topic: reference
 f1_keywords:
 - CA2202
@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ed2edd83918a9e4bc89543d1217d51e5e87f00c1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b5fb70baa17bee484dc3c31d7c6ce9b302019403
+ms.sourcegitcommit: 2bbcba305fd0f8800fd3d9aa16f7647ee27f3a4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62796834"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68300596"
 ---
 # <a name="ca2202-do-not-dispose-objects-multiple-times"></a>CA2202: 개체를 여러 번 삭제하지 마십시오.
 
@@ -32,29 +32,29 @@ ms.locfileid: "62796834"
 
 ## <a name="cause"></a>원인
 
-메서드 구현에 대 한 여러 호출을 일으킬 수 있는 코드 경로 포함 <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> 또는 Dispose와 같은 이와 동등한 동일한 개체에서 일부 형식의 close () 메서드.
+메서드 구현에는 같은 개체에 대 한 여러 호출 <xref:System.IDisposable.Dispose%2A?displayProperty=fullName> 을 발생 시킬 수 있는 코드 경로 또는 일부 형식에 대 한 Close () 메서드와 같은 Dispose와 동일한 개체가 포함 되어 있습니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
-잘못 구현 <xref:System.IDisposable.Dispose%2A> 메서드 예외를 throw 하지 않고 여러 번 호출할 수 있습니다. 그러나이 보장 되지 않습니다 및 생성 되지 않도록 하는 <xref:System.ObjectDisposedException?displayProperty=fullName> 호출 하지 않아야 <xref:System.IDisposable.Dispose%2A> 개체에 대 한 번 이상.
+올바르게 구현 <xref:System.IDisposable.Dispose%2A> 된 메서드는 예외를 throw 하지 않고 여러 번 호출할 수 있습니다. 그러나이는 보장 되지 않으며,를 생성 하지 않도록 <xref:System.ObjectDisposedException?displayProperty=fullName> 하려면 개체에 대해 <xref:System.IDisposable.Dispose%2A> 를 두 번 이상 호출 하면 안 됩니다.
 
-## <a name="related-rules"></a>관련된 규칙
+## <a name="related-rules"></a>관련 규칙
 
-- [CA2000: 범위를 벗어나기 전에 개체를 삭제 합니다.](../code-quality/ca2000-dispose-objects-before-losing-scope.md)
+- [CA2000: 범위를 벗어나기 전에 개체를 삭제 하십시오.](../code-quality/ca2000-dispose-objects-before-losing-scope.md)
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-이 규칙 위반 문제를 해결 하려면 코드 경로 관계 없이 구현을 변경 <xref:System.IDisposable.Dispose%2A> 개체에 대 한 번만 호출 됩니다.
+이 규칙 위반 문제를 해결 하려면 코드 경로 <xref:System.IDisposable.Dispose%2A> 에 관계 없이 개체에 대해 한 번만 호출 되도록 구현을 변경 합니다.
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
 
-이 규칙에서는 경고를 표시해야 합니다. 경우에 <xref:System.IDisposable.Dispose%2A> 개체를 여러 번 안전 하 게 호출할 수 알려져 구현은 나중에 변경 될 수 있습니다.
+이 규칙에서는 경고를 표시해야 합니다. 개체의 <xref:System.IDisposable.Dispose%2A> 를 안전 하 게 호출할 수 있는 것으로 알려진 경우에도 나중에 구현이 변경 될 수 있습니다.
 
 ## <a name="example"></a>예제
 
-중첩 `using` 문 (`Using` Visual basic에서) 위반 CA2202 경고를 발생할 수 있습니다. 경우 중첩 내부 IDisposable 리소스 `using` 문 외부의 리소스를 포함 `using` 문에서 `Dispose` 중첩 된 리소스의 메서드가 포함 된 리소스를 해제 합니다. 이러한 상황이 발생 하는 경우는 `Dispose` 외부 메서드의 `using` 문을 두 번째로 해당 리소스를 삭제 하려고 합니다.
+중첩 `using` 된 문`Using` (Visual Basic)은 CA2202 경고 위반을 일으킬 수 있습니다. 중첩 된 내부 `using` 문의 IDisposable 리소스가 외부 `using` 문의 리소스를 포함 하는 경우 중첩 된 리소스의 `Dispose` 메서드는 포함 된 리소스를 해제 합니다. 이러한 상황이 발생 하면 외부 `Dispose` `using` 문의 메서드는 해당 리소스를 두 번 삭제 하려고 시도 합니다.
 
-다음 예에서 <xref:System.IO.Stream> 외부에서 만든 개체의 Dispose 메서드에서 문을 사용 하 여 내부 끝날 때 해제 됩니다 문을 사용 하는 <xref:System.IO.StreamWriter> 포함 된 개체는 `stream` 개체. 외부의 끝 `using` 문에서 `stream` 개체가 해제 되는 두 번째 시간입니다. 두 번째 릴리스 CA2202에 위반 됩니다.
+다음 예제 <xref:System.IO.Stream> 에서 외부 using 문으로 만든 개체는 개체가 포함 `stream` 된 <xref:System.IO.StreamWriter> 개체의 Dispose 메서드에 있는 using 문 끝에서 해제 됩니다. 외부 `using` 문의`stream` 끝에 개체를 두 번 해제 합니다. 두 번째 릴리스는 CA2202를 위반 하는 것입니다.
 
 ```csharp
 using (Stream stream = new FileStream("file.txt", FileMode.OpenOrCreate))
@@ -68,7 +68,7 @@ using (Stream stream = new FileStream("file.txt", FileMode.OpenOrCreate))
 
 ## <a name="example"></a>예제
 
-이 문제를 해결 하려면 사용을 `try` / `finally` 외부 대신 블록 `using` 문입니다. 에 `finally` 차단 되어 있는지 확인 합니다는 `stream` 리소스 null이 아닙니다.
+이 문제 `try` 를 해결 하려면 외부 / `using` 문 대신 블록을 `finally` 사용 합니다. 블록에서 `stream` 리소스가 null이 아닌지 확인 합니다. `finally`
 
 ```csharp
 Stream stream = null;
@@ -83,10 +83,12 @@ try
 }
 finally
 {
-    if(stream != null)
-        stream.Dispose();
+    stream?.Dispose();
 }
 ```
+
+> [!TIP]
+> 위의 구문은 null [조건부 연산자입니다.](/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-) `?.`
 
 ## <a name="see-also"></a>참고자료
 
