@@ -1,5 +1,6 @@
 ---
 title: 프로젝트 템플릿에 태그 추가 또는 편집
+description: Visual Studio에서 프로젝트 템플릿의 태그를 추가 또는 편집하는 방법에 대해 알아보세요.
 ms.date: 04/30/2019
 author: minsa110
 ms.author: somin
@@ -12,35 +13,35 @@ helpviewer_keywords:
 - updating templates [Visual Studio]
 - template tagging, updating
 - template tags, updating
-ms.openlocfilehash: 4a5113fa7f420d58892e2737ec9196422486490e
-ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
+ms.openlocfilehash: 417b171a731224302e6dd2efa55b45d84455ca4b
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "66038629"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67891147"
 ---
 # <a name="add-tags-to-project-templates"></a>프로젝트 템플릿에 태그 추가
 
-[Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) 버전 16.1 미리 보기 2부터는 언어, 플랫폼 및 프로젝트 형식 태그를 프로젝트 템플릿에 추가할 수 있습니다. 태그는 새 프로젝트 대화 상자의 두 위치에서 사용됩니다.
+[Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) 버전 16.1 미리 보기 2부터는 언어, 플랫폼 및 프로젝트 형식 태그를 프로젝트 템플릿에 추가할 수 있습니다. 
 
-- 템플릿 설명 아래에 태그 표시
+태그는 **새 프로젝트** 대화 상자의 두 위치에서 사용됩니다.
+
+- 태그는 템플릿 설명 아래에 표시됩니다.
 
    ![새 프로젝트 대화 상자에 태그를 포함한 프로젝트 템플릿](media/npd-item-with-template-tags.png)
 
-- 태그를 사용하여 템플릿 검색 및 필터링
+- 태그를 사용하여 템플릿을 검색 및 필터링할 수 있습니다.
 
    ![새 프로젝트 대화 상자에서 검색 및 필터링](media/npd-search-and-filter.png)
 
-Visual Studio에 기본 제공되는 템플릿 태그를 사용하거나 사용자 지정 템플릿 태그를 만들어 *.vstemplate* XML 파일을 업데이트하여 태그를 추가할 수 있습니다. 템플릿 태그는 Visual Studio 2019 새 프로젝트 대화 상자에만 나타납니다. 이전 버전의 Visual Studio의 템플릿 렌더링에는 영향을 주지 않습니다.
+*.vstemplate* XML 파일을 업데이트하여 태그를 추가할 수 있습니다. Visual Studio에 기본 제공되는 템플릿 태그를 사용하거나 사용자 지정 템플릿 태그를 만들 수 있습니다. 템플릿 태그는 Visual Studio 2019 **새 프로젝트** 대화 상자에만 나타납니다. 템플릿 태그는 이전 버전의 Visual Studio에서 템플릿의 렌더링 방법에 영향을 주지 않습니다.
 
 ## <a name="add-or-edit-tags"></a>태그 추가 또는 편집
 
-다음 경우 프로젝트 템플릿의 *.vstemplate* XML에서 태그를 추가 또는 편집할 수 있습니다.
+다음 중 한 가지 작업을 수행하는 경우 프로젝트 템플릿의 *.vstemplate* XML에서 태그를 추가 또는 편집할 수 있습니다.
 
 * 템플릿 내보내기 마법사를 사용하여 [새 프로젝트 템플릿 만들기](/visualstudio/ide/how-to-create-project-templates)
-
 * [기존 프로젝트 템플릿 업데이트](/visualstudio/ide/how-to-update-existing-templates)
-
 * [새 VSIX 프로젝트 템플릿 만들기](/visualstudio/extensibility/getting-started-with-the-vsix-project-template)
 
 ## <a name="syntax"></a>구문
@@ -53,7 +54,7 @@ Visual Studio에 기본 제공되는 템플릿 태그를 사용하거나 사용�
 
 ## <a name="attributes"></a>특성
 
-다음 특성은 선택 사항이며 고급 사용자 시나리오용입니다.
+고급 사용자 시나리오에서 다음 선택적 특성을 사용할 수 있습니다.
 
 |특성|설명|
 |---------------|-----------------|
@@ -78,17 +79,19 @@ Visual Studio에 기본 제공되는 템플릿 태그를 사용하거나 사용�
 
 |요소|설명|
 |-------------|-----------------|
-|[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|(필수) 템플릿을 분류하고 **새 프로젝트** 또는 **새 항목 추가** 대화 상자에서 템플릿이 표시되는 방식을 정의합니다.|
+|[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|(필수) 템플릿을 분류하고 **새 프로젝트** 대화 상자 또는 **새 항목 추가** 대화 상자에서 템플릿이 표시되는 방식을 정의합니다.|
 
 ## <a name="text-value"></a>텍스트 값
 
-`Package` 및 `ID` 특성이 사용되는 경우가 아니면 텍스트 값은 필수입니다.
+`Package` 및 `ID` 특성을 사용하는 경우가 아니면 텍스트 값은 필수입니다.
 
 텍스트는 템플릿의 이름을 제공합니다.
 
 ## <a name="built-in-tags"></a>기본 제공 태그
 
-Visual Studio는 지역화된 리소스가 추가되면 렌더링하는 기본 제공 태그 목록을 제공합니다. 다음은 기본 제공 태그 및 괄호 안에 표시되는 해당 값 목록입니다.
+Visual Studio는 기본 제공되는 태그의 목록을 제공합니다. 기본 제공 태그를 추가하면 태그는 현지화된 리소스를 렌더링합니다. 
+
+다음은 Visual Studio에서 사용할 수 있는 기본 제공 태그를 보여 줍니다. 해당 값은 괄호 안에 표시됩니다.
 
 | 언어 | 플랫폼 | 프로젝트 형식 |
 | -- | -- | -- |
@@ -108,7 +111,7 @@ Visual Studio는 지역화된 리소스가 추가되면 렌더링하는 기본 �
 | | | UWP(`uwp`) |
 | | | 웹(`web`) |
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 예제는 Visual C# 애플리케이션의 프로젝트 템플릿용 메타데이터를 보여 줍니다.
 
