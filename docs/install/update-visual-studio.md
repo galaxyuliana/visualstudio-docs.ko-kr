@@ -2,7 +2,7 @@
 title: Visual Studio 업데이트
 titleSuffix: ''
 description: 가장 최신 릴리스로 Visual Studio를 업데이트하는 방법을 단계별로 알아봅니다.
-ms.date: 06/19/2019
+ms.date: 07/11/2019
 ms.custom: seodec18
 ms.topic: conceptual
 ms.prod: visual-studio-windows
@@ -10,17 +10,19 @@ ms.technology: vs-installation
 helpviewer_keywords:
 - update [Visual Studio]
 - change [Visual Studio]
+f1_keywords:
+- VS.ToolsOptionsPages.Environment.ProductUpdates
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: dc87d6e7c6115a915d2bb7fc9f3d187e1a4d8e7d
-ms.sourcegitcommit: b593bb889f049fcbdff502c30b73178ed17dbdf0
+ms.openlocfilehash: 9ed8ce37351d8129107711e6fd079622050d6aa0
+ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67290650"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68250567"
 ---
 # <a name="update-visual-studio-to-the-most-recent-release"></a>Visual Studio를 최신 릴리스 버전으로 업데이트
 
@@ -257,6 +259,27 @@ Visual&nbsp;Studio&nbsp;2019를 업데이트하는 방법은 다음과 같습니
 1. **업데이트 다운로드 및 설치 준비** 대화 상자에서 **업데이트**를 선택합니다.
 
    Visual Studio가 업데이트되고, 닫힌 다음, 다시 열립니다.
+
+## <a name="customize-update-settings"></a>업데이트 설정 사용자 지정
+
+설치 모드를 변경하고 자동 다운로드를 선택하는 등의 방법으로 Visual Studio에서 업데이트 설정을 사용자 지정할 수 있습니다.
+
+선택할 수 있는 설치 모드는 두 가지입니다.
+
+* **다운로드하는 동안 설치**
+* **모두 다운로드한 후 설치**
+
+**업데이트 자동 다운로드** 설정을 선택하여 컴퓨터가 유휴 상태일 때 업데이트가 다운로드되도록 할 수 있습니다.
+
+방법은 다음과 같습니다.
+
+1. 메뉴 모음에서 **도구** >**옵션**을 차례로 선택합니다.
+
+2. **환경**을 확장한 다음 **제품 업데이트**를 선택합니다.
+
+    ![Visual Studio의 업데이트 설정](media/vs-2019/update-settings-options.png)
+
+3. Visual Studio 업데이트에 대한 설치 모드 및 자동 다운로드 옵션을 선택합니다.
 
 ::: moniker-end
 

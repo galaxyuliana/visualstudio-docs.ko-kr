@@ -3,17 +3,16 @@ title: Visual Studio 구독의 새로운 기능
 description: Visual Studio 구독을 관리하는 데 사용할 수 있는 새롭고 업데이트된 기능에 대해 알아봅니다.
 ms.custom: ''
 ms.date: 06/27/2019
-searchscope: VS Subscription
 ms.topic: conceptual
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.openlocfilehash: 6984d4aab23817707280af6bce47deee8d79adf7
-ms.sourcegitcommit: 0cd282a7584b9bfd4df7882f8fdf3ad8a270e219
+ms.openlocfilehash: 8dd4063e6250ccf2f54a88f08ef0c6e2b378fe8b
+ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "67465117"
+ms.lasthandoff: 07/15/2019
+ms.locfileid: "67891081"
 ---
 # <a name="what39s-new-in-visual-studio-subscriptions"></a>Visual Studio 구독의 새로운 기능
 
@@ -21,7 +20,7 @@ ms.locfileid: "67465117"
 
 ## <a name="2019-q1-january-march"></a>2019 Q1(1월~3월)
 
-### <a name="maximum-usage-added-to-subscriptions-administration-portalhttpsmanagevisualstuidocom"></a>[구독 관리 포털](https://manage.visualstuido.com)에 최대 사용량 추가
+### <a name="maximum-usage-added-to-subscriptions-administration-portalhttpsmanagevisualstudiocom"></a>[구독 관리 포털](https://manage.visualstudio.com)에 최대 사용량 추가
 Visual Studio 구독 관리 포털의 새로운 기능을 사용하면 구매 및 할당된 구독 수를 추적하고, 지난 1년 내 및 규약 기간 동안 할당된 각 수준의 최대 구독 수를 식별할 수 있습니다. 이것은 현재 구독 사용량 및 향후 구매 계획을 이해하는 데 도움이 됩니다. 
 
   > [!div class="mx-imgBorder"]
@@ -34,7 +33,7 @@ Visual Studio 구독 관리 포털의 새로운 기능을 사용하면 구매 �
 ## <a name="2019-q2-april-june"></a>2019 Q2(4월~6월)
 
 ### <a name="visual-studio-with-github-enterprise-subscriptions"></a>GitHub Enterprise 구독이 포함된 visual Studio
-5월에 열린 //빌드 컨퍼런스에서 Microsoft는 기업계약 고객이 GitHub Enterprise를 포함한 Visual Studio 구독을 구매할 수 있게 되었다고 발표했습니다.  Visual Studio 구독 및 GitHub Enterprise를 보다 저렴한 단일 가격으로 쉽게 구입할 수 있는 방법입니다.  
+5월에 열린 //빌드 컨퍼런스에서 Microsoft는 기업계약 고객이 GitHub Enterprise를 포함한 Visual Studio 구독을 구매할 수 있게 되었다고 발표했습니다.  Visual Studio 구독 및 GitHub Enterprise를 저렴한 단일 가격으로 쉽게 구입할 수 있는 방법입니다.  
 
 GitHub Enterprise는 기업계약을 통해 구입한 Visual Studio Enterprise 및 Visual Studio Professional 구독과 함께 사용할 수 있습니다. 기업계약 갱신 시점이 아니더라도 GitHub Enterprise를 추가할 수 있는 “버전 업그레이드” 행사도 있습니다.
 

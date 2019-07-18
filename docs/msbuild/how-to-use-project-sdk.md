@@ -9,12 +9,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 55fcc74069ab912a7ec0fb9a6c4996cfd0b9cc36
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 172dfae63fbfb95432a1635490ac703f7bbd9021
+ms.sourcegitcommit: da4079f5b6ec884baf3108cbd0519d20cb64c70b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62977316"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "67852234"
 ---
 # <a name="how-to-use-msbuild-project-sdks"></a>방법: MSBuild 프로젝트 SDK 사용
 
@@ -56,7 +56,15 @@ ms.locfileid: "62977316"
     </Project>
     ```
 
-    암시적 가져오기는 위에서 설명한 대로 프로젝트의 맨 위 및 맨 아래에 추가됩니다.  `Sdk` 특성의 형식은 `Name[/Version]`입니다. 여기서 Version은 선택 사항입니다.  예를 들어 `My.Custom.Sdk/1.2.3`을 지정할 수 있습니다.
+    암시적 가져오기는 위에서 설명한 대로 프로젝트의 맨 위 및 맨 아래에 추가됩니다.
+    
+    SDK의 특정 버전을 지정하려면 `Sdk` 특성에 추가하면 됩니다.
+
+    ```xml
+    <Project Sdk="My.Custom.Sdk/1.2.3">
+        ...
+    </Project>
+    ```
 
     > [!NOTE]
     > 이는 현재 Mac용 Visual Studio에서 프로젝트 SDK를 참조하는 유일한 지원 방법입니다.
