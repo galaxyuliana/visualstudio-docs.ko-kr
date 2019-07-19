@@ -7,12 +7,12 @@ layout: LandingPage
 Ms.date: 06/25/2018
 Ms.topic: landing-page
 Description: Visual Studio 구독에 오신 것을 환영합니다.
-ms.openlocfilehash: d5083141fdaaf5eede2cc181c51cd0340575bbb9
-ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
+ms.openlocfilehash: 25337098dded67d28df1cea03a47ec8c28646763
+ms.sourcegitcommit: 57866dd72fd0e15ce61128df70729b427a2d02eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67784393"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68315216"
 ---
 # <a name="visual-studio-subscriptions"></a>Visual Studio 구독
 
@@ -193,7 +193,6 @@ Microsoft에서는 사용자가 구독을 훨씬 더 유용하게 사용할 수 
                             <li><a href="/visualstudio/subscriptions/vs-linkedin-learning">LinkedIn Premium</a>(비즈니스, 기술 및 크리에이티브)</li>
                             <li><a href="/visualstudio/subscriptions/vs-pluralsight">Pluralsight</a>(클라우드, 디자인, 모바일 및 데이터)</li>
                             <li><a href="/visualstudio/subscriptions/vs-datacamp">Data Camp</a>(데이터 과학 및 AI)</li>
-                            <li><a href="/visualstudio/subscriptions/vs-opsgility">Opsgility 교육</a>(클라우드 중심)</li>
                             <li><a href="/visualstudio/subscriptions/vs-tech-support">Microsoft 전문가 기술 지원 인시던트</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-azure-advisory-chat">Azure Advisory Chat</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-azure-community">Azure 커뮤니티</a></li>
