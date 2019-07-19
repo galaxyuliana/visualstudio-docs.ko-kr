@@ -16,11 +16,11 @@ author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.openlocfilehash: e2e945eb2faa492f576a0fd0a15fc0bd0e9b208e
-ms.sourcegitcommit: 53aa5a413717a1b62ca56a5983b6a50f7f0663b3
+ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
 ms.translationtype: MTE95
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "59652425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "68199034"
 ---
 # <a name="open-project-command"></a>프로젝트 열기 명령
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -39,12 +39,12 @@ File.OpenProject filename
   
  `filename` 인수 구문에서 공백을 포함하는 경로에는 따옴표를 사용해야 합니다.  
   
-## <a name="remarks"></a>주의  
+## <a name="remarks"></a>설명  
  입력 시 자동 완성에서 올바른 경로와 파일 이름을 찾으려고 합니다.  
   
  디버깅 중에는 이 명령을 사용할 수 없습니다.  
   
-## <a name="example"></a>예제  
+## <a name="example"></a>예  
  이 예제는 Test1이라는 [!INCLUDE[vbprvb](../../includes/vbprvb-md.md)] 프로젝트를 엽니다.  
   
 ```  
