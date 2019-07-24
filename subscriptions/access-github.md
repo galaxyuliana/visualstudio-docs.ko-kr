@@ -3,15 +3,15 @@ title: Visual Studio + GitHub 번들 | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 04/15/2019
+ms.date: 07/19/2019
 ms.topic: conceptual
 description: 새로운 Visual Studio + GitHub 번들에 대해 알아보기
-ms.openlocfilehash: 6f14a484c365bcbede89c1cc4ac056a97f9ec013
-ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
+ms.openlocfilehash: 1d7b55a32c796747d50fac8dae14d6af2f847c46
+ms.sourcegitcommit: 485881e6ba872c7b28a7b17ceaede845e5bea4fe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67783436"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68377645"
 ---
 # <a name="introducing-visual-studio-subscriptions-with-github-enterprise"></a>GitHub Enterprise가 포함된 Visual Studio 구독 소개  
 
@@ -62,15 +62,12 @@ GitHub를 처음 사용하는 경우 다음과 같은 몇 가지 유용한 리�
 ## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="q--where-is-my-github-subscription"></a>Q:  내 GitHub 구독은 어디에 있나요?
-
 A:  GitHub 구독을 설정하는 프로세스는 시간이 다소 걸릴 수 있습니다.  기다리고 있다가 아무 소식도 받지 못했다면 GitHub 관리자에게 연락하는 것이 좋습니다.  관리자가 계속 작업 중이거나 GitHub 구독을 할당하지 않기로 결정했을 수도 있습니다. 
 
 ### <a name="q--how-do-i-reach-my-github-administrator"></a>Q:  내 GitHub 관리자에게 연락하는 방법은?
-
 A:  GitHub Enterprise 서버를 사용하는 경우 클라이언트 하단에 표시되는 **지원** 링크를 클릭하면 관리자와 연결할 수 있습니다.
 
 ### <a name="q-do-i-get-the-full-visual-studio-subscription-professional-or-enterprise-or-do-i-just-get-the-ide-with-this-offering"></a>Q: 전체 Visual Studio 구독(Professional 또는 Enterprise)을 제공받을 수 있나요? 아니면 이 제품으로 IDE를 가져올 수 있나요?
-
 A:  GitHub Enterprise 구독과 함께 전체 Visual Studio 구독을 받게 됩니다.  구독을 별도록 구매한 경우와 동일하게 소프트웨어 다운로드, 클라우드 서비스, 기술 지원 및 파트너 혜택 등 모든 혜택을 받을 수 있습니다.
 
 ## <a name="support-resources"></a>지원 리소스
@@ -81,5 +78,4 @@ A:  GitHub Enterprise 구독과 함께 전체 Visual Studio 구독을 받게 됩
 - GitHub Enterprise에 대한 [기술 지원](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24)을 받으세요.   
 
 ## <a name="next-steps"></a>다음 단계
-
 GitHub를 처음 사용하는 경우 [GitHub Learning 랩](https://lab.github.com/)을 체크 아웃하세요. 그러면 재미있고 실용적인 일련의 프로젝트를 통해 유용한 피드백을 공유할 수 있습니다.
