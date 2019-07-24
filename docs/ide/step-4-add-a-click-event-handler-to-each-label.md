@@ -2,18 +2,21 @@
 title: '4단계: 각 레이블에 클릭 이벤트 처리기 추가'
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs:
+- csharp
+- vb
 ms.assetid: 16bdbc7c-4129-411d-bace-f4a3e5375975
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8bdc4c106ff8d6f1740fb53e0e3552f64b069fb5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b38de06027104f6764c932ec6de4c76138e957ea
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62949095"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416630"
 ---
 # <a name="step-4-add-a-click-event-handler-to-each-label"></a>4단계: 각 레이블에 클릭 이벤트 처리기 추가
 
@@ -52,7 +55,7 @@ ms.locfileid: "62949095"
 
      이 메서드는 먼저 `clickedLabel`이 개체에서 레이블 컨트롤로 변환(캐스트)되었는지 여부를 확인합니다. 성공적으로 변환되지 않은 경우에는 `null`(C#) 또는 `Nothing`(Visual Basic) 값을 포함하고 메서드의 나머지 코드를 실행하지 않습니다. 다음으로 메서드는 레이블의 **ForeColor** 속성을 사용하여 선택된 레이블의 텍스트 색을 확인합니다. 레이블의 텍스트 색이 검정이면 아이콘이 이미 선택되었음을 의미하며 메서드는 완료됩니다. (즉, `return` 문에서 메서드 실행을 중지하도록 프로그램에 요청합니다.) 그렇지 않은 경우 아이콘이 선택되지 않은 것이므로 프로그램에서 레이블의 텍스트 색을 검정으로 변경합니다.
 
-6. 메뉴 모음에서 **파일**** > 모두 저장**을 선택하여 진행 상황을 저장한 다음, 메뉴 모음에서 **디버그** > **디버깅 시작**을 선택하여 프로그램을 실행합니다. 파란색 배경의 빈 폼이 나타납니다. 이때 폼의 아무 셀이나 선택하면 아이콘 중 하나를 볼 수 있어야 합니다. 폼에서 다른 위치를 계속 선택해 보십시오. 아이콘을 선택하면 폼에 나타납니다.
+6. 메뉴 모음에서 **파일** ** > 모두 저장**을 선택하여 진행 상황을 저장한 다음, 메뉴 모음에서 **디버그** > **디버깅 시작**을 선택하여 프로그램을 실행합니다. 파란색 배경의 빈 폼이 나타납니다. 이때 폼의 아무 셀이나 선택하면 아이콘 중 하나를 볼 수 있어야 합니다. 폼에서 다른 위치를 계속 선택해 보십시오. 아이콘을 선택하면 폼에 나타납니다.
 
 ## <a name="to-continue-or-review"></a>계속하거나 검토하려면
 

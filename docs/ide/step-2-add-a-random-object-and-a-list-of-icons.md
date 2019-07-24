@@ -2,18 +2,21 @@
 title: '2단계: 임의의 개체 및 아이콘 목록 추가'
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs:
+- csharp
+- vb
 ms.assetid: 95faea28-eddc-4cfa-95fb-3b34b5a976d7
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 23117079dd0cd593446ce8af277670a643c820b3
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 955cc700a6be93474e29acf1aaa0e0c36c271e16
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430798"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416693"
 ---
 # <a name="step-2-add-a-random-object-and-a-list-of-icons"></a>2단계: 임의의 개체 및 아이콘 목록 추가
 이 단계에서는 게임에 사용할 일치하는 기호의 집합을 만듭니다. 각 기호는 폼의 TableLayoutPanel에 있는 임의의 두 셀에 추가됩니다. 이렇게 하려면 두 개의 `new` 문을 사용하여 두 개체를 만듭니다. 첫 번째 개체는 수학 퀴즈 게임에서 사용한 것과 비슷한 <xref:System.Random> 개체입니다. 이 개체는 TableLayoutPanel의 셀을 임의로 선택하기 위해 이 코드에 사용됩니다. 두 번째 개체는 사용자에게 새로울 수도 있는데, 임의로 선택한 기호를 저장하는 데 사용되는 <xref:System.Collections.Generic.List%601> 개체입니다.

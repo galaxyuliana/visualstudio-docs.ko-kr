@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1039f46e0d2dcf3c18138e66e77e62dadb36a3f2
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 37597d1e1f4fde2b2e81e7aa7868c0aaff935337
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443606"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416859"
 ---
 # <a name="msbuild-inline-tasks"></a>MSBuild 인라인 작업
 MSBuild 작업은 일반적으로 <xref:Microsoft.Build.Framework.ITask> 인터페이스를 구현하는 클래스를 컴파일하여 생성됩니다. 자세한 내용은 [작업](../msbuild/msbuild-tasks.md)을 참조하세요.
@@ -129,7 +129,7 @@ Log.LogError("Hello, world!");
 
 ```xml
 <ParameterGroup>
-    <Text />
+  <Text />
 </ParameterGroup>
 ```
 
@@ -145,9 +145,9 @@ Log.LogError("Hello, world!");
 
 ```xml
 <ParameterGroup>
-    <Expression Required="true" />
-      <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />
-    <Tally ParameterType="System.Int32" Output="true" />
+  <Expression Required="true" />
+  <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />
+  <Tally ParameterType="System.Int32" Output="true" />
 </ParameterGroup>
 ```
 
@@ -161,7 +161,7 @@ Log.LogError("Hello, world!");
 
 `Code` 요소에 `Fragment` 또는 `Method`의 `Type` 특성이 있는 경우 모든 매개 변수에 대해 자동으로 속성이 만들어집니다. 그렇지 않으면 작업 소스 코드에서 속성을 명시적으로 선언해야 하며 이러한 속성은 해당 매개 변수 정의와 정확히 일치해야 합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
  다음 인라인 작업은 지정된 파일에서 나오는 모든 토큰을 지정된 값으로 바꿉니다.
 
 ```xml

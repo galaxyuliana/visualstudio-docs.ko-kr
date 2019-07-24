@@ -18,17 +18,17 @@ helpviewer_keywords:
 - solution build configurations, build order
 - builds [Visual Studio], preparing
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 73a15890dd35f341760561bbd730795e62b1478b
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b8676ad9dc1a3b245242687e2ea56148b83b8d56
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62975707"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416429"
 ---
 # <a name="build-and-clean-projects-and-solutions-in-visual-studio"></a>Visual Studio에서 프로젝트와 솔루션 빌드 및 정리
 
@@ -87,13 +87,13 @@ ms.locfileid: "62975707"
 
 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 프로젝트를 선택한 다음, 메뉴 모음에서 **빌드** > **프로젝트만 해당**, 다음 명령 중 하나를 차례로 선택합니다.
 
-- *ProjectName* **만 빌드**
+- *ProjectName***만 빌드**
 
-- *ProjectName* **만 다시 빌드**
+- *ProjectName***만 다시 빌드**
 
-- *ProjectName* **만 정리**
+- *ProjectName***만 정리**
 
-- *ProjectName* **만 링크**
+- *ProjectName***만 링크**
 
 이러한 명령은 프로젝트 종속성 또는 솔루션 파일을 빌드, 다시 빌드, 정리 또는 링크하지 않고 선택한 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 프로젝트에만 적용됩니다. 사용 중인 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 버전에 따라 **프로젝트만** 하위 메뉴에 추가 명령이 포함될 수 있습니다.
 

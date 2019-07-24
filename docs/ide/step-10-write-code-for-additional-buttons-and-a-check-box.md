@@ -2,18 +2,21 @@
 title: '10단계: 추가 단추 및 확인란에 대한 코드 작성'
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs:
+- csharp
+- vb
 ms.assetid: 185cf370-ab39-4ac0-b6bc-601d5b95a4a2
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a397646823d133b66e66bb2bb5d10c2ae358ae53
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 10d1dcd4cb4a4dfca76d8af3fe6690076d91c72c
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430875"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416689"
 ---
 # <a name="step-10-write-code-for-additional-buttons-and-a-check-box"></a>10단계: 추가 단추 및 확인란에 대한 코드 작성
 이제 다른 네 메서드를 완료할 준비가 되었습니다. 지금 이 코드를 복사하여 붙여넣을 수도 있지만 이 자습서의 내용을 최대한 학습하려면 이 코드를 입력하고 IntelliSense를 사용합니다.
