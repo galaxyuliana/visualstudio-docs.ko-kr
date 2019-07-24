@@ -12,12 +12,12 @@ manager: jillfra
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: af3f393aea8d1ecddaf021c896839d663b7d4028
-ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
+ms.openlocfilehash: 9bbd0aa8ea3d98077154225fb3a35aec5545ccfa
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "67692109"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415738"
 ---
 # <a name="debug-live-aspnet-azure-apps-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용하여 라이브 ASP.NET Azure 앱 디버그
 
@@ -32,16 +32,16 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 > * snappoint 설정 및 스냅숏 보기
 > * logpoint 설정
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
-* 스냅숏 디버거는 Visual Studio 2017 Enterprise 버전 15.5 이상부터 사용할 수 있습니다만 합니다 **Azure 개발 워크 로드**합니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅숏 디버거**에서 찾을 수 있습니다.)
+* 스냅숏 디버거은 **Azure 개발 워크 로드**를 사용 하 여 Visual Studio 2017 Enterprise 버전 15.5 이상 에서만 사용할 수 있습니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅숏 디버거**에서 찾을 수 있습니다.)
 
-    ::: moniker range=">=vs-2019"
-    설치 되어 있지 않은 경우 설치할 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)합니다. 이전 Visual Studio 설치에서 업데이트 하는 경우 Visual Studio 설치 관리자를 실행 하 고 스냅숏 디버거 구성 요소를 확인 합니다 **ASP.NET 및 웹 개발 워크 로드**합니다.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    아직 설치되지 않은 경우 [Visual Studio 2017 Enterprise 버전 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 이상을 설치하세요. 이전 Visual Studio 2017 설치에서 업데이트하는 경우 Visual Studio 설치 관리자를 실행하고 **ASP.NET 및 웹 개발 워크로드**에서 스냅숏 디버거 구성 요소를 선택하세요.
-    ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   아직 설치 하지 않은 경우 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)을 설치 합니다. 이전 Visual Studio 설치에서 업데이트 하는 경우 Visual Studio 설치 관리자를 실행 하 고 **ASP.NET 및 웹 개발 워크 로드**에서 스냅숏 디버거 구성 요소를 확인 합니다.
+   ::: moniker-end
+   ::: moniker range="<=vs-2017"
+   아직 설치되지 않은 경우 [Visual Studio 2017 Enterprise 버전 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 이상을 설치하세요. 이전 Visual Studio 2017 설치에서 업데이트 하는 경우 Visual Studio 설치 관리자를 실행 하 고 **ASP.NET 및 웹 개발 워크 로드**에서 스냅숏 디버거 구성 요소를 확인 합니다.
+   ::: moniker-end
 
 * 기본 이상의 Azure App Service 계획이 있어야 합니다.
 
@@ -53,8 +53,9 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
 1. 스냅숏 디버그할 프로젝트를 엽니다.
 
-    > [!IMPORTANT]
-    > 스냅숏 디버그하려면 Azure App Service에 게시된 것과 ‘동일한 버전의 소스 코드’를 열어야 합니다. 
+   > [!IMPORTANT]
+   > 스냅숏 디버그하려면 Azure App Service에 게시된 것과 ‘동일한 버전의 소스 코드’를 열어야 합니다.
+
 ::: moniker range="<=vs-2017"
 
 2. 클라우드 탐색기(**보기 > 클라우드 탐색기**)에서 프로젝트가 배포된 Azure App Service를 마우스 오른쪽 단추로 클릭하고 **스냅숏 디버거 연결**을 선택합니다.
@@ -62,8 +63,10 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
    ![스냅숏 디버거 시작](../debugger/media/snapshot-launch.png)
 
 ::: moniker-end
+
 ::: moniker range=">=vs-2019"
-2. **디버그 > 스냅숏 디버거 연결...** 을 선택합니다. 프로젝트가 배포된 Azure App Service 및 Azure Storage 계정을 선택하고 **연결**을 클릭합니다.
+
+2. **디버그 > 스냅숏 디버거 연결...** 을 선택합니다. 프로젝트가 배포된 Azure App Service 및 Azure Storage 계정을 선택하고 **연결**을 클릭합니다. 스냅숏 디버거 [Azure Kubernetes Service](debug-live-azure-kubernetes.md) 및 [AZURE Virtual Machines (VM) & Virtual Machine Scale Sets](debug-live-azure-virtual-machines.md)도 지원 합니다.
 
    ![디버그 메뉴에서 스냅숏 디버거 시작](../debugger/media/snapshot-debug-menu-attach.png)
 
@@ -74,8 +77,14 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
    > [!IMPORTANT]
    > 처음 **스냅숏 디버거 연결**을 선택하면 Azure App Service에 스냅숏 디버거 사이트 확장을 설치하라는 메시지가 표시됩니다. 이 설치를 수행하려면 Azure App Service를 다시 시작해야 합니다.
 
+   ::: moniker range="<=vs-2017"
    > [!NOTE]
-   > Application Insights 사이트 확장도 스냅숏 디버깅을 지원합니다. “사이트 확장이 최신 상태가 아님” 오류 메시지가 표시되면 [스냅숏 디버깅에 대한 문제 해결 팁 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)에서 업그레이드 세부 정보를 참조하세요.
+   > Application Insights 사이트 확장도 스냅숏 디버깅을 지원합니다. "사이트 확장 날짜가 만료 되었습니다." 라는 오류 메시지가 표시 되는 경우 자세한 정보를 업그레이드 하려면 [스냅숏 디버깅에 대 한 문제 해결 팁 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md) 를 참조 하세요.
+   ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   > [!NOTE]
+   > (Visual Studio 2019 버전 16.2 이상) 스냅숏 디버거에서 Azure 클라우드 지원을 사용 하도록 설정 했습니다. 선택한 Azure 리소스 및 Azure Storage 계정이 모두 동일한 클라우드에서 사용 되는지 확인 합니다. 기업의 [azure 규정 준수](https://azure.microsoft.com/overview/trusted-cloud/) 구성에 대해 궁금한 사항이 있으면 Azure 관리자에 게 문의 하세요.
+   ::: moniker-end
 
    Visual Studio가 이제 스냅숏 디버깅 모드입니다.
    ![스냅숏 디버깅 모드](../debugger/media/snapshot-message.png)
@@ -86,7 +95,7 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
 ## <a name="set-a-snappoint"></a>snappoint 설정
 
-1. 코드 편집기에서 snappoint를 설정하려는 코드 줄 옆의 왼쪽 제본용 여백을 클릭합니다. 실행 예정임을 알고 있는 코드인지 확인하세요.
+1. 코드 편집기에서 관심 있는 코드 줄 옆의 왼쪽 여백을 클릭 하 여 snappoint를 설정 합니다. 실행 되는 것을 알고 있는 코드 인지 확인 합니다.
 
    ![snappoint 설정](../debugger/media/snapshot-set-snappoint.png)
 
@@ -94,12 +103,13 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
    ![snappoint 켜기](../debugger/media/snapshot-start-collection.png)
 
-    > [!TIP]
-    > 스냅숏을 보는 경우 단계를 진행할 수 없으나 코드에 여러 개의 snappoint를 배치하여 다른 코드 줄에서의 실행을 추적할 수 있습니다. 코드에 여러 개의 snappoint가 있으면 스냅숏 디버거는 해당 스냅숏이 동일한 최종 사용자 세션에서 온 것인지 확인합니다. 스냅숏 디버거는 앱에 적중하는 사용자가 많은 경우에도 이 작업을 수행합니다.
+   > [!TIP]
+   > 스냅숏을 보는 경우 단계를 진행할 수 없으나 코드에 여러 개의 snappoint를 배치하여 다른 코드 줄에서의 실행을 추적할 수 있습니다. 코드에 여러 개의 snappoint가 있으면 스냅숏 디버거는 해당 스냅숏이 동일한 최종 사용자 세션에서 온 것인지 확인합니다. 스냅숏 디버거는 앱에 적중하는 사용자가 많은 경우에도 이 작업을 수행합니다.
 
 ## <a name="take-a-snapshot"></a>스냅숏 가져오기
 
-snappoint를 켜면 snappoint가 배치된 코드 줄이 실행될 때마다 스냅숏을 캡처합니다. 이러한 실행은 서버의 실제 요청으로 인해 발생할 수 있습니다. 강제로 snappoint가 적중되도록 하려면 웹 사이트의 브라우저 보기로 이동하여 snappoint가 적중되도록 하는 데 필요한 모든 작업을 수행하세요.
+Snappoint가 설정 되 면 웹 사이트의 브라우저 보기로 이동 하 여 표시 된 코드 줄을 실행 하거나 사용자가 사이트 사용 중 하나를 생성할 때까지 대기 하 여 수동으로 스냅숏을 생성할 수 있습니다.
+
 
 ## <a name="inspect-snapshot-data"></a>스냅숏 데이터 검사
 
@@ -113,7 +123,7 @@ snappoint를 켜면 snappoint가 배치된 코드 줄이 실행될 때마다 스
 
    이 보기에서 변수를 가리켜 DataTips를 보고, **로컬**, **조사식** 및 **호출 스택** 창을 사용하고, 식을 평가할 수도 있습니다.
 
-    웹 사이트 자체는 계속 라이브 상태이며 최종 사용자는 영향을 받지 않습니다. 기본적으로 snappoint당 하나의 스냅숏만 캡처됩니다. 하나의 스냅숏이 캡처되면 해당 snappoint가 꺼집니다. snappoint에서 또 하나의 스냅숏을 캡처하려면 **컬렉션 업데이트**를 클릭하여 snappoint를 다시 켤 수 있습니다.
+   웹 사이트 자체는 여전히 라이브 상태 이며 최종 사용자는 영향을 받지 않습니다. 기본적으로 snappoint당 하나의 스냅숏만 캡처됩니다. 하나의 스냅숏이 캡처되면 해당 snappoint가 꺼집니다. snappoint에서 또 하나의 스냅숏을 캡처하려면 **컬렉션 업데이트**를 클릭하여 snappoint를 다시 켤 수 있습니다.
 
 앱에 snappoint를 더 추가하고 **컬렉션 업데이트** 단추로 켤 수도 있습니다.
 
@@ -121,7 +131,7 @@ snappoint를 켜면 snappoint가 배치된 코드 줄이 실행될 때마다 스
 
 ## <a name="set-a-conditional-snappoint"></a>조건부 snappoint 설정
 
-앱의 특정 상태를 다시 만들기 어려운 경우 조건부 snappoint 사용이 도움이 될 수 있는지 고려해보세요. 조건부 snappoint를 사용하면 검사하려는 특정 값이 변수에 포함되는 경우와 같이 앱이 원하는 상태가 될 때까지 스냅숏이 생성되지 않도록 합니다. 조건은 식, 필터 또는 적중 횟수를 사용하여 설정할 수 있습니다.
+앱에서 특정 상태를 다시 만드는 것이 어려운 경우 조건부 snappoint 사용을 고려 합니다. 조건부 snappoint는 검사할 특정 값이 변수에 포함 되어 있는 경우와 같이 스냅숏을 만들 시기를 제어 하는 데 도움이 됩니다. 조건은 식, 필터 또는 적중 횟수를 사용하여 설정할 수 있습니다.
 
 #### <a name="to-create-a-conditional-snappoint"></a>조건부 snappoint를 만들려면
 
@@ -145,15 +155,15 @@ snappoint가 적중될 때 스냅숏을 생성하는 것 외에 메시지를 로
 
 1. snappoint 설정 창에서 **작업**을 선택합니다.
 
-    ![logpoint 만들기](../debugger/media/snapshot-logpoint.png)
+   ![logpoint 만들기](../debugger/media/snapshot-logpoint.png)
 
 1. **메시지** 필드에 로그할 새 로그 메시지를 입력할 수 있습니다. 로그 메시지에서 변수를 중괄호 안에 배치하여 변수를 평가할 수도 있습니다.
 
-    **출력 창으로 보내기**를 선택하는 경우 logpoint가 적중되면 진단 도구 창에 메시지가 표시됩니다.
+   **출력 창으로 보내기**를 선택하는 경우 logpoint가 적중되면 진단 도구 창에 메시지가 표시됩니다.
 
-    ![진단 도구 창의 logpoint 데이터](../debugger/media/snapshot-logpoint-output.png)
+   ![진단 도구 창의 logpoint 데이터](../debugger/media/snapshot-logpoint-output.png)
 
-    **애플리케이션 로그로 보내기**를 선택하는 경우 logpoint가 적중되면 [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs)와 같이 `System.Diagnostics.Trace`(또는 .NET Core에서는 `ILogger`)의 메시지를 볼 수 있는 모든 위치에 메시지가 표시됩니다.
+   **애플리케이션 로그로 보내기**를 선택하는 경우 logpoint가 적중되면 [App Insights](/azure/application-insights/app-insights-asp-net-trace-logs)와 같이 `System.Diagnostics.Trace`(또는 .NET Core에서는 `ILogger`)의 메시지를 볼 수 있는 모든 위치에 메시지가 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 
