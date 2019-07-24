@@ -2,18 +2,21 @@
 title: '6단계: 단추 컨트롤 이름 지정'
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs:
+- csharp
+- vb
 ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9dbee780f2153003e870dbe0dbbb15b721a009df
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 2051ac669c52480d62ee0d0a79c5a165bff502fc
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442029"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416601"
 ---
 # <a name="step-6-name-your-button-controls"></a>6단계: 단추 컨트롤 이름 지정
 폼에 <xref:System.Windows.Forms.PictureBox> 하나만 있습니다. **pictureBox1**이라는 PictureBox와 이름이 **checkBox1**인 <xref:System.Windows.Forms.CheckBox> 하나만 있습니다. 이제 CheckBox 및 PictureBox를 참조하는 코드를 작성하면 이러한 컨트롤은 하나씩만 있기 때문에 코드에서 **pictureBox1** 또는 **checkBox1** 이 무엇을 의미하는지 알 수 있습니다.
@@ -52,7 +55,7 @@ Visual C# 코드가 사용된 **Form1.cs** 탭
     > [!NOTE]
     > 이 자습서에서는 괄호 `()` 사이에 있는 모든 코드를 제거하여 자동으로 생성되는 Visual Basic 코드를 간단하게 만들었습니다. 이러한 코드는 이 동작이 발생할 때마다 제거할 수 있습니다. 프로그램은 둘 중 한 가지 방식으로 작동합니다. 이 자습서의 나머지 부분에서도 자동으로 생성되는 코드가 있으면 가능한 경우 항상 간단하게 만듭니다.
 
-5. **Windows Forms 디자이너** 탭을 다시 선택하고(Visual C#에서는 **Form1.cs [디자인]**, Visual Basic에서는 **Form1.vb [디자인]**) **그림 지우기** 단추용 코드 파일을 열어 폼 코드에 메서드를 만듭니다. 남은 두 단추에 대해 이 작업을 반복합니다. 매번 새 메서드가 폼의 코드 파일에 추가됩니다.
+5. **Windows Forms 디자이너** 탭을 다시 선택하고(Visual C#에서는 **Form1.cs [디자인]** , Visual Basic에서는 **Form1.vb [디자인]** ) **그림 지우기** 단추용 코드 파일을 열어 폼 코드에 메서드를 만듭니다. 남은 두 단추에 대해 이 작업을 반복합니다. 매번 새 메서드가 폼의 코드 파일에 추가됩니다.
 
 6. 둘 이상의 메서드를 추가하려면 IDE에서 `checkBox1_CheckedChanged()` 메서드가 추가되도록 **Windows Forms 디자이너**에서 **CheckBox** 컨트롤에 대한 코드 파일을 엽니다. 이 메서드는 사용자가 확인란을 선택하거나 선택 취소할 때마다 호출됩니다.
 

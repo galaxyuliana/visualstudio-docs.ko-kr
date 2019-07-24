@@ -21,17 +21,17 @@ helpviewer_keywords:
 - projects [Visual Studio], build configuration
 - solutions [Visual Studio], build configuration
 ms.assetid: 934c727d-3a22-429c-bd13-3552cecf2e24
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 030b581f44535c62b950b5b54c15aa36232711e2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 453e27df58e8a12baa3821def6c66fc1391401d3
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62821759"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416953"
 ---
 # <a name="understand-build-configurations"></a>빌드 구성 이해
 
@@ -72,7 +72,7 @@ ms.locfileid: "62821759"
 ## <a name="how-visual-studio-assigns-project-configurations"></a>Visual Studio가 프로젝트 구성을 할당하는 방법
  새 솔루션 구성을 정의하고 기존 구성에서 설정을 복사하지 않으면 Visual Studio가 다음 기준을 사용하여 기본 프로젝트 구성을 할당합니다. 기준은 표시된 순서대로 평가됩니다.
 
-1. 프로젝트에 새 솔루션 구성의 이름과 정확히 일치하는 구성 이름(*\<구성 이름> \<플랫폼 이름>*)이 있으면 해당 구성이 할당됩니다. 구성 이름은 대/소문자를 구분하지 않습니다.
+1. 프로젝트에 새 솔루션 구성의 이름과 정확히 일치하는 구성 이름( *\<구성 이름> \<플랫폼 이름>* )이 있으면 해당 구성이 할당됩니다. 구성 이름은 대/소문자를 구분하지 않습니다.
 
 2. 프로젝트에 구성 이름 부분이 새 솔루션 구성과 일치하는 구성 이름이 지정되어 있으면 플랫폼 부분이 일치하는지 여부와 관계없이 해당 구성이 할당됩니다.
 

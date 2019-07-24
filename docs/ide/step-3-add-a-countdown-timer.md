@@ -2,18 +2,21 @@
 title: '3단계: 카운트다운 타이머 추가'
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs:
+- csharp
+- vb
 ms.assetid: 62670a2b-efdc-45c6-9646-9b17eeb33dcb
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 7d99987a16d0e4f6ff67e92fdb900600cd7943a6
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 86e19e99bc6732ddadabdb3e308dcf8e0def41fa
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63430761"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416714"
 ---
 # <a name="step-3-add-a-countdown-timer"></a>3단계: 카운트다운 타이머 추가
 이 자습서의 3단계에서는 퀴즈를 푸는 사람이 퀴즈를 마칠 때까지 남은 시간(초)을 추적하도록 카운트다운 타이머를 추가합니다.

@@ -2,25 +2,28 @@
 title: '9단계: 코드 검토, 주석 처리 및 테스트'
 ms.date: 11/04/2016
 ms.topic: conceptual
+dev_langs:
+- csharp
+- vb
 ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 899b4ffee17849bf1165def3025506eb75d940a0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 8ad984f82d6d3bdcabf3a5a6952751cfa944a0eb
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63435430"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416621"
 ---
 # <a name="step-9-review-comment-and-test-your-code"></a>9단계: 코드 검토, 주석 처리 및 테스트
 다음으로 코드에 주석을 추가합니다. 주석은 프로그램 동작에 영향을 주지 않는 일종의 메모로서 코드를 읽는 사용자가 코드에서 수행하는 작업을 보다 쉽게 이해할 수 있도록 도와줍니다. 코드에 주석을 추가하는 것은 좋은 습관입니다. Visual C#에서는 두 개의 슬래시(//)를 사용하여 주석 줄을 표시하고, Visual Basic에서는 작은따옴표(')를 사용하여 주석 줄을 표시합니다. 주석을 추가한 후에는 프로그램을 테스트합니다. 프로젝트에서 작업하는 동안 자주 코드를 실행하고 테스트하는 것은 좋은 습관이며, 코드가 더 복잡해지기 전에 조기에 문제를 파악하고 해결할 수 있습니다. 이를 *반복적 테스트*라고 합니다.
 
  이제 아직 완성되지는 않았지만 그림을 로드할 수 있는 프로그램이 빌드되었습니다. 코드에 주석을 추가하고 테스트하려면 먼저 이러한 작업에 자주 사용될 다음과 같은 코드 개념을 알아야 합니다.
 
-- **Windows Forms 디자이너**에서 **사진 표시** 단추를 두 번 클릭하면 IDE에서 자동으로 ‘메서드’를 프로그램의 코드에 추가합니다.
+- **Windows Forms 디자이너**에서 **사진 표시** 단추를 두 번 클릭하면 IDE에서 자동으로 ‘메서드’를 프로그램의 코드에 추가합니다. 
 
 - 메서드는 코드를 구성하는 방법이며, 코드를 함께 그룹화하는 방법입니다.
 
