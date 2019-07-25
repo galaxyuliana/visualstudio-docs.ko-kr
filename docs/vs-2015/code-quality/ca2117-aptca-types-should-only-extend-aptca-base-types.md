@@ -77,8 +77,8 @@ ms.locfileid: "65687295"
 
  이 예제의 결과는 다음과 같습니다.
 
- **수상한 일 감사에서 충족 2003 년 2 월 22 일 오전 12시: 00! ** 
- **에서 테스트: sunny 목초지**
+ **수상한 일 감사에서 충족 2003 년 2 월 22 일 오전 12시: 00! **
+**에서 테스트: sunny 목초지**
 **화창한 목초지 만나고 2003 년 2 월 22 일 오전 12시: 00!**
 ## <a name="related-rules"></a>관련된 규칙
  [CA2116: APTCA 메서드는 APTCA 메서드만 호출 해야 합니다.](../code-quality/ca2116-aptca-methods-should-only-call-aptca-methods.md)
