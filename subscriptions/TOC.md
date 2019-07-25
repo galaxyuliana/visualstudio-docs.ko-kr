@@ -18,7 +18,6 @@
 #### [회사 또는 학교 계정으로 로그인](sign-in-work.md)
 #### [GitHub로 로그인](sign-in-github.md)
 #### [대체 ID](vs-alternate-identity.md)
-#### [별칭으로 로그인](aliasing.md)
 #### [로그인 문제](sign-in-issues.md)
 #### [구독자 데이터 익명화](anonymization.md)
 ### [구독 포털 개요](using-the-subscriber-portal.md)
@@ -60,6 +59,9 @@
 #### [인터넷 데모](internet-demos.md)
 ## 관리자
 ### [관리자 책임](admin-responsibilities.md)
+#### [사전 프로덕션 인벤토리](admin-inventory.md)
+#### [대규모 팀 및 외부 계약업체 관리](manage-teams.md)
+#### [사용자 할당 추적 및 주문 처리](assignments-orders.md)
 ### [볼륨 라이선스](volume-license-admins.md)
 ### 조직 온보딩
 #### [마이그레이션 후 온보딩](post-migration-onboarding.md)
@@ -78,6 +80,7 @@
 #### [초과 할당](handle-overclaimed-license.md)
 #### [최대 사용량](maximum-usage.md)
 #### [만료된 구독](handle-expired-license.md)
+#### [별칭을 사용하는 구독자](aliasing.md)
 #### [개인 전자 메일 로그인이 있는 구독자](personal-email-sign-ins.md)
 ### [GitHub Enterprise가 포함된 Visual Studio 관리](assign-github.md)
 ## 자료
