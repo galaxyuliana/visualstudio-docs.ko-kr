@@ -12,12 +12,12 @@ manager: jillfra
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: 9bbd0aa8ea3d98077154225fb3a35aec5545ccfa
-ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
+ms.openlocfilehash: fae6be8932731e5589dbc27f5084bcbc509680c1
+ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415738"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68493312"
 ---
 # <a name="debug-live-aspnet-azure-apps-using-the-snapshot-debugger"></a>스냅숏 디버거를 사용하여 라이브 ASP.NET Azure 앱 디버그
 
@@ -32,7 +32,7 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 > * snappoint 설정 및 스냅숏 보기
 > * logpoint 설정
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
 * 스냅숏 디버거은 **Azure 개발 워크 로드**를 사용 하 여 Visual Studio 2017 Enterprise 버전 15.5 이상 에서만 사용할 수 있습니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅숏 디버거**에서 찾을 수 있습니다.)
 
@@ -109,7 +109,6 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 ## <a name="take-a-snapshot"></a>스냅숏 가져오기
 
 Snappoint가 설정 되 면 웹 사이트의 브라우저 보기로 이동 하 여 표시 된 코드 줄을 실행 하거나 사용자가 사이트 사용 중 하나를 생성할 때까지 대기 하 여 수동으로 스냅숏을 생성할 수 있습니다.
-
 
 ## <a name="inspect-snapshot-data"></a>스냅숏 데이터 검사
 
