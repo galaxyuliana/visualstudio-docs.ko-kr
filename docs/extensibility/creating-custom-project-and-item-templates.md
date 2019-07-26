@@ -8,12 +8,12 @@ ms.author: madsk
 manager: jillfra
 ms.workload:
 - vssdk
-ms.openlocfilehash: 8fbe1a4decebd68b80e6cbe8728c5de84a44c641
-ms.sourcegitcommit: 485881e6ba872c7b28a7b17ceaede845e5bea4fe
+ms.openlocfilehash: dff4d3566dcfb4b40f1008eed09371e42459c3a5
+ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68377760"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68493127"
 ---
 # <a name="create-custom-project-and-item-templates"></a>사용자 지정 프로젝트 및 항목 템플릿 만들기
 
@@ -35,7 +35,6 @@ NuGet 패키지를 설치 하도록 템플릿을 구성할 수도 있습니다. 
      템플릿은 클래스 파일, 아이콘, *.vstemplate* 파일, *projecttemplate. .Vbproj* 또는 *projecttemplate .csproj*라는 편집 가능한 프로젝트 파일, 일반적으로 다른 프로젝트 형식에 의해 생성 되는 일부 파일 (예: *)을 생성 합니다. 리소스 .resx* 파일, *AssemblyInfo* 파일 및 *설정* 파일입니다. 각 코드 파일에는 해당 하는 경우 공통 매개 변수 대체가 포함 됩니다.
 
 ![프로젝트 템플릿 프로젝트 선택](media/project-template-selection.png)
-
 
 2. 프로젝트에 필요에 따라 프로젝트에서 항목을 추가 및 제거 합니다. 편집 가능한 프로젝트 파일, *AssemblyInfo* 파일 또는 *.vstemplate* 파일을 제거 하지 마십시오.
 
