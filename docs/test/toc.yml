@@ -54,9 +54,9 @@
       items:
         - name: '연습: 관리 코드에 대한 단위 테스트 만들기 및 실행'
           href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
-        - name: '빠른 시작: 테스트 탐색기를 사용한 테스트 기반 개발'
+        - name: '연습: 테스트 중심 개발'
           href: quick-start-test-driven-development-with-test-explorer.md
-        - name: 단위 테스트에서 Microsoft.VisualStudio.TestTools.UnitTesting 멤버 사용
+        - name: 단위 테스트에서 MSTest API 사용
           href: using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md
         - name: assert 클래스 사용
           href: using-the-assert-classes.md
@@ -74,11 +74,11 @@
           items:
             - name: 데이터 기반 단위 테스트 만들기
               href: how-to-create-a-data-driven-unit-test.md
-            - name: '연습: 구성 파일을 사용하여 데이터 원본 정의'
+            - name: 구성 파일을 사용하여 데이터 원본 정의
               href: walkthrough-using-a-configuration-file-to-define-a-data-source.md
         - name: 제네릭 메서드의 단위 테스트
           href: unit-tests-for-generic-methods.md
-        - name: 이전 버전의 .NET Framework를 대상으로 사용하도록 단위 테스트 구성
+        - name: 이전 버전의 .NET을 대상으로 사용하도록 단위 테스트 구성
           href: how-to-configure-unit-tests-to-target-an-earlier-version-of-the-dotnet-framework.md
     - name: C/C++ Code용 유닛 테스트
       items:
