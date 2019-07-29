@@ -9,14 +9,16 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: 9124054dec08fde94ec98ca9e3ebdfb6e48d7384
-ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
+helpviewer_keywords:
+- add missing usings
+ms.openlocfilehash: d971bcdaca4efdf587c7e441f1b0b28d21388dee
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "65531624"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416472"
 ---
-# <a name="generate-usings-in-visual-studio"></a>Visual Studio에서 usings 생성
+# <a name="add-missing-usings-in-visual-studio"></a>Visual Studio에서 누락 usings 추가
 
 이 코드 생성은 다음에 적용됩니다.
 
@@ -28,7 +30,7 @@ ms.locfileid: "65531624"
 
 **이유:** 빠른 작업은 필요한 imports를 자동으로 추가하므로, 코드에 필요한 `using` 문을 수동으로 복사할 필요가 없습니다.
 
-## <a name="generate-usings-refactoring"></a>using 리팩터링 생성
+## <a name="add-missing-usings-refactoring"></a>누락 usings 리팩터링 추가
 
 1. 필요한 `using` 문을 포함하지 않고 한 파일의 코드를 복사해 새 파일에 붙여넣습니다. 결과로 나타나는 오류는 누락된 `using` 문을 추가하는 코드 수정이 수반됩니다.
 
