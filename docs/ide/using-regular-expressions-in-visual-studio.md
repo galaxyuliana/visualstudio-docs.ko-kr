@@ -16,12 +16,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b20cf3692cf76f602eb11b0a53a1669c919f1679
-ms.sourcegitcommit: 9753c7544cec852ca5efd0834e0956d9e53a5734
+ms.openlocfilehash: c4e461fd69e048e406fbe062ff297da9baab3696
+ms.sourcegitcommit: 8562a337cc9f674c756a4a0b2c7e288ebd61b51e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67043578"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68345754"
 ---
 # <a name="use-regular-expressions-in-visual-studio"></a>Visual Studio에서 정규식 사용
 
@@ -45,7 +45,7 @@ Visual Studio에서는 [.NET 정규식](/dotnet/standard/base-types/regular-expr
 |일치 문자열을 파일 끝에 고정|$|`end$`는 파일의 끝에 나타날 때만 "end"와 일치합니다.|
 |집합에 있는 단일 문자를 찾습니다.|[abc]|`b[abc]`는 "ba", "bb", "bc"와 일치합니다.|
 |문자 범위에서 임의 문자를 찾습니다.|[a-f]|`be[n-t]`는 "between"의 "bet", "beneath"의 "ben", "beside"의 "bes"와 일치하지만 "below"와 일치하지 않습니다.|
-|괄호 안에 포함된 식을 캡처하고 명시적으로 번호를 지정합니다.|()|`([a-z])X\1`은 "aXa" 및 "bXb"와 일치하지만 "aXb"와 일치하지 않습니다. " “\1”은 첫 번째 식 그룹 “[a-z]”를 나타냅니다.|
+|괄호 안에 포함된 식을 캡처하고 명시적으로 번호를 지정합니다.|()|`([a-z])X\1`은 "aXa" 및 "bXb"와 일치하지만 "aXb"와 일치하지 않습니다. " “\1”은 첫 번째 식 그룹 “[a-z]”를 나타냅니다. 자세한 내용은 [캡처 그룹 및 바꾸기 패턴](#capture-groups-and-replacement-patterns)을 참조하십시오. |
 |일치를 무효화합니다.|(?!abc)|`real(?!ity)`는 "realty" 및 "really"의 "real"과 일치하지만 "reality"와 일치하지 않습니다. "realityreal"에서 두 번째 "real"도 찾지만 첫 번째 "real"은 찾지 않습니다.|
 |지정된 문자 집합에 없는 모든 문자를 찾습니다. 자세한 내용은 [부정 문자 그룹](/dotnet/standard/base-types/character-classes-in-regular-expressions#negative-character-group-)을 참조하세요.|[^abc]|`be[^n-t]`는 "before"의 "bef", "behind"의 "beh", "below"의 "bel"과 일치하지만 "beneath"와 일치하지 않습니다.|
 |기호 앞 또는 기호 뒤에 있는 식을 찾습니다.|&#124;|`(sponge\|mud) bath`는 "sponge bath" 및 "mud bath"와 일치합니다.|

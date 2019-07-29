@@ -1,6 +1,6 @@
 ---
 title: EditorConfig에 대한 .NET 언어 규칙
-ms.date: 06/17/2019
+ms.date: 07/17/2019
 ms.topic: reference
 dev_langs:
 - CSharp
@@ -13,23 +13,22 @@ manager: jillfra
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 0ddb6173095b8d4fd552e108f458a271321511c7
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 5305ee8db1161415f038ec6cc149c9e88edb9589
+ms.sourcegitcommit: 485881e6ba872c7b28a7b17ceaede845e5bea4fe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67823299"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68377937"
 ---
 # <a name="language-conventions"></a>언어 규칙
 
-Visual Studio의 EditorConfig에 대한 언어 규칙은 다음 두 가지 범주로 나뉩니다.
-
-- [.NET 코드 스타일 설정](#net-code-style-settings)
-
-- [C# 코드 스타일 설정](#c-code-style-settings)
+Visual Studio 내의 EditorConfig 언어 규칙은 2개 범주, 즉 Visual Basic과 C#에 적용되는 규칙과 C#에만 적용되는 규칙으로 나뉩니다. 언어 규칙은 한정자와 괄호 등 프로그래밍 언어의 다양한 측면이 사용되는 방식에 영향을 줍니다.
 
 > [!TIP]
-> 원하는 프로그래밍 언어의 코드 예제를 보려면 브라우저 창의 오른쪽 위에 있는 언어 선택을 사용하여 선택합니다.
+> - **이 문서의 내용** 링크를 사용하여 페이지의 다른 섹션으로 이동할 수 있습니다.
+> - 원하는 프로그래밍 언어의 코드 예제를 보려면 브라우저 창의 오른쪽 위에 있는 언어 선택을 사용하여 선택합니다.
+>
+>   ![코드 언어 선택 컨트롤](media/code-language-picker.png)
 
 ## <a name="rule-format"></a>규칙 형식
 
@@ -83,6 +82,7 @@ Visual Studio의 EditorConfig에 대한 언어 규칙은 다음 두 가지 범�
   - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
   - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
   - dotnet\_style\_prefer\_conditional\_expression\_over\_return
+  - dotnet\_style\_prefer\_compound\_assignment
 - ["Null" 검사 기본 설정](#null-checking-preferences)
   - dotnet\_style\_coalesce_expression
   - dotnet\_style\_null_propagation
@@ -555,6 +555,7 @@ dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 dotnet_style_prefer_auto_properties = true:silent
 dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
 dotnet_style_prefer_conditional_expression_over_return = true:suggestion
+dotnet_style_prefer_compound_assignment = true:suggestion
 ```
 
 #### <a name="dotnetstyleobjectinitializer"></a>dotnet\_style\_object_initializer
@@ -871,6 +872,34 @@ Else
 End If
 ```
 
+#### <a name="dotnetstyleprefercompoundassignment"></a>dotnet\_style\_prefer\_compound\_assignment
+
+|||
+|-|-|
+| **규칙 이름** | dotnet_style_prefer_compound_assignment |
+| **규칙 ID** | IDE0054 |
+| **해당 언어** | C# 및 Visual Basic |
+| **값** | `true` - [복합 할당](/dotnet/csharp/language-reference/operators/assignment-operator#compound-assignment) 식을 선호합니다.<br /><br />`false` - 복합 할당 식을 선호하지 않습니다. |
+| **Visual Studio 기본값** | `true:suggestion` |
+
+코드 예제:
+
+```csharp
+// dotnet_style_prefer_compound_assignment = true
+x += 1;
+
+// dotnet_style_prefer_compound_assignment = false
+x = x + 1;
+```
+
+```vb
+' dotnet_style_prefer_compound_assignment = true
+x += 1
+
+' dotnet_style_prefer_compound_assignment = false
+x = x + 1
+```
+
 ### <a name="null-checking-preferences"></a>Null 검사 기본 설정
 
 이 섹션에서 스타일 규칙은 Null 검사 기본 설정과 관련이 있습니다.
@@ -944,6 +973,57 @@ Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or
 Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 ```
 
+## <a name="net-code-quality-settings"></a>.NET 코드 품질 설정
+
+이 섹션의 품질 규칙은 C# 및 Visual Basic 코드 모두에 적용됩니다. 해당 규칙은 Visual Studio IDE(대화형 개발 환경)에 기본 제공되는 코드 분석기를 구성하는 데 사용됩니다. EditorConfig 파일을 사용한 FxCop 분석 프로그램 구성에 대해서는, [FxCop 분석기 구성](../code-quality/configure-fxcop-analyzers.md)을 참조하세요.
+
+- [매개 변수 기본 설정](#parameter-preferences)
+  - dotnet\_code\_quality\_unused\_parameters
+
+### <a name="parameter-preferences"></a>매개 변수 기본 설정
+
+이 섹션의 품질 규칙에서는 메서드 매개 변수를 고려합니다.
+
+이러한 규칙은 *.editorconfig* 파일에서 다음과 같이 표시될 수 있습니다.
+
+```ini
+# CSharp and Visual Basic code quality settings:
+[*.{cs,vb}]
+dotnet_code_quality_unused_parameters = all:suggestion
+```
+
+#### <a name="dotnetcodequalityunusedparameters"></a>dotnet\_code\_quality\_unused\_parameters
+
+|||
+|-|-|
+| **규칙 이름** | dotnet_code_quality_unused_parameters |
+| **규칙 ID** | IDE0060 |
+| **해당 언어** | C# 및 Visual Basic |
+| **값** | `all` - 사용되지 않는 매개 변수가 포함된 모든 액세스 가능성의 메서드를 플래그 지정합니다.<br /><br />`non_public` - 사용되지 않는 매개 변수가 포함된 비공용 메서드만 플래그 지정합니다. |
+| **Visual Studio 기본값** | `all:suggestion` |
+
+코드 예제:
+
+```csharp
+// dotnet_code_quality_unused_parameters = all:suggestion
+public int GetNum() { return 1; }
+
+// dotnet_code_quality_unused_parameters = non_public:suggestion
+public int GetNum(int arg1) { return 1; }
+```
+
+```vb
+' dotnet_code_quality_unused_parameters = all:suggestion
+Public Function GetNum()
+    Return 1
+End Function
+
+' dotnet_code_quality_unused_parameters = non_public:suggestion
+Public Function GetNum(arg1 As Integer)
+    Return 1
+End Function
+```
+
 ## <a name="c-code-style-settings"></a>C# 코드 스타일 설정
 
 이 섹션의 스타일 규칙은 C#에만 적용됩니다.
@@ -959,20 +1039,32 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
   - csharp\_style\_expression\_bodied_properties
   - csharp\_style\_expression\_bodied_indexers
   - csharp\_style\_expression\_bodied_accessors
+  - csharp\_style\_expression\_bodied_lambdas
+  - csharp\_style\_expression\_bodied\_local_functions
 - [패턴 일치](#pattern-matching)
   - csharp\_style\_pattern\_matching\_over\_is\_with\_cast_check
   - csharp\_style\_pattern\_matching\_over\_as\_with\_null_check
 - [인라인 변수 선언](#inlined-variable-declarations)
   - csharp\_style\_inlined\_variable_declaration
-- [식 수준 기본 설정](#expression-level-preferences)
+- [식 수준 기본 설정](#c-expression-level-preferences)
   - csharp\_prefer\_simple\_default_expression
-  - csharp\_style\_deconstructed\_variable_declaration
-  - csharp\_style\_pattern\_local\_over\_anonymous_function
-- ["Null" 검사 기본 설정](#null-checking-preferences)
+- ["Null" 검사 기본 설정](#c-null-checking-preferences)
   - csharp\_style\_throw_expression
   - csharp\_style\_conditional\_delegate_call
 - [코드 블록 기본 설정](#code-block-preferences)
   - csharp\_prefer_braces
+- [사용되지 않는 값 기본 설정](#unused-value-preferences)
+  - csharp\_style\_unused\_value\_expression\_statement_preference
+  - csharp\_style\_unused\_value\_assignment_preference
+- [인덱스 및 범위 기본 설정](#index-and-range-preferences)
+  - csharp\_style\_prefer\_index_operator
+  - csharp\_style\_prefer\_range_operator
+- [기타 기본 설정](#miscellaneous-preferences)
+  - csharp\_style\_deconstructed\_variable_declaration
+  - csharp\_style\_pattern\_local\_over\_anonymous_function
+  - csharp\_using\_directive\_placement
+  - csharp\_prefer\_static\_local_function
+  - csharp\_prefer\_simple\_using_statement
 
 ### <a name="implicit-and-explicit-types"></a>암시적 및 명시적 형식
 
@@ -1063,6 +1155,8 @@ csharp_style_expression_bodied_operators = false:silent
 csharp_style_expression_bodied_properties = true:suggestion
 csharp_style_expression_bodied_indexers = true:suggestion
 csharp_style_expression_bodied_accessors = true:suggestion
+csharp_style_expression_bodied_lambdas = true:silent
+csharp_style_expression_bodied_local_functions = false:silent
 ```
 
 #### <a name="csharpstyleexpressionbodiedmethods"></a>csharp\_style\_expression\_bodied_methods
@@ -1072,7 +1166,7 @@ csharp_style_expression_bodied_accessors = true:suggestion
 | **규칙 이름** | csharp_style_expression_bodied_methods |
 | **규칙 ID** | IDE0022 |
 | **해당 언어** | C# 6.0+  |
-| **값** | `true` - 메서드에 식 본문 멤버를 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 메서드에 식 본문 멤버를 사용합니다.<br /><br />`false` - 메서드에 블록 본문을 사용합니다. |
+| **값** | `true` - 메서드에 식 본문을 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 메서드에 식 본문을 사용합니다.<br /><br />`false` - 메서드에 블록 본문을 사용합니다. |
 | **Visual Studio 기본값** | `false:silent` |
 
 코드 예제:
@@ -1091,8 +1185,8 @@ public int GetAge() { return this.Age; }
 |-|-|
 | **규칙 이름** | csharp_style_expression_bodied_constructors |
 | **규칙 ID** | IDE0021 |
-| **해당 언어** | C# 7.0+  |
-| **값** | `true` - 생성자에 식 본문 멤버를 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 생성자에 식 본문 멤버를 사용합니다.<br /><br />`false` - 생성자에 블록 본문을 사용합니다. |
+| **해당 언어** | C# 7.0+ |
+| **값** | `true` - 생성자에 식 본문을 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 생성자에 식 본문을 사용합니다.<br /><br />`false` - 생성자에 블록 본문을 사용합니다. |
 | **Visual Studio 기본값** | `false:silent` |
 
 코드 예제:
@@ -1111,8 +1205,8 @@ public Customer(int age) { Age = age; }
 |-|-|
 | **규칙 이름** | csharp_style_expression_bodied_operators |
 | **규칙 ID** | IDE0023 및 IDE0024 |
-| **해당 언어** | C# 7.0+  |
-| **값** | `true` - 연산자에 식 본문 멤버를 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 연산자에 식 본문 멤버를 사용합니다.<br /><br />`false` - 연산자에 블록 본문을 사용합니다. |
+| **해당 언어** | C# 7.0+ |
+| **값** | `true` - 연산자에 식 본문을 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 연산자에 식 본문을 사용합니다.<br /><br />`false` - 연산자에 블록 본문을 사용합니다. |
 | **Visual Studio 기본값** | `false:silent` |
 
 코드 예제:
@@ -1133,8 +1227,8 @@ public static ComplexNumber operator + (ComplexNumber c1, ComplexNumber c2)
 |-|-|
 | **규칙 이름** | csharp_style_expression_bodied_properties |
 | **규칙 ID** | IDE0025 |
-| **해당 언어** | C# 7.0+  |
-| **값** | `true` - 속성에 식 본문 멤버를 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 속성에 식 본문 멤버를 사용합니다.<br /><br />`false` - 속성에 블록 본문을 사용합니다. |
+| **해당 언어** | C# 7.0+ |
+| **값** | `true` - 속성에 식 본문을 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 속성에 식 본문을 사용합니다.<br /><br />`false` - 속성에 블록 본문을 사용합니다. |
 | **Visual Studio 기본값** | `true:silent` |
 
 코드 예제:
@@ -1153,8 +1247,8 @@ public int Age { get { return _age; }}
 |-|-|
 | **규칙 이름** | csharp_style_expression_bodied_indexers |
 | **규칙 ID** | IDE0026 |
-| **해당 언어** | C# 7.0+  |
-| **값** | `true` - 인덱서에 식 본문 멤버를 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 인덱서에 식 본문 멤버를 사용합니다.<br /><br />`false` - 인덱서에 블록 본문을 사용합니다. |
+| **해당 언어** | C# 7.0+ |
+| **값** | `true` - 인덱서에 식 본문을 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 인덱서에 식 본문을 사용합니다.<br /><br />`false` - 인덱서에 블록 본문을 사용합니다. |
 | **Visual Studio 기본값** | `true:silent` |
 
 코드 예제:
@@ -1173,8 +1267,8 @@ public T this[int i] { get { return _values[i]; } }
 |-|-|
 | **규칙 이름** | csharp_style_expression_bodied_accessors |
 | **규칙 ID** | IDE0027 |
-| **해당 언어** | C# 7.0+  |
-| **값** | `true` - 접근자에 식 본문 멤버를 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 접근자에 식 본문 멤버를 사용합니다.<br /><br />`false` - 접근자에 블록 본문을 사용합니다. |
+| **해당 언어** | C# 7.0+ |
+| **값** | `true` - 접근자에 식 본문을 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 접근자에 식 본문을 사용합니다.<br /><br />`false` - 접근자에 블록 본문을 사용합니다. |
 | **Visual Studio 기본값** | `true:silent` |
 
 코드 예제:
@@ -1185,6 +1279,58 @@ public int Age { get => _age; set => _age = value; }
 
 // csharp_style_expression_bodied_accessors = false
 public int Age { get { return _age; } set { _age = value; } }
+```
+
+#### <a name="csharpstyleexpressionbodiedlambdas"></a>csharp\_style\_expression\_bodied_lambdas
+
+|||
+|-|-|
+| **규칙 이름** | csharp_style_expression_bodied_lambdas |
+| **규칙 ID** | IDE0053 |
+| **값** | `true` - 람다에 식 본문을 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 람다에 식 본문을 사용합니다.<br /><br />`false` - 람다에 블록 본문을 사용합니다. |
+| **Visual Studio 기본값** | `true:silent` |
+
+코드 예제:
+
+```csharp
+// csharp_style_expression_bodied_lambdas = true
+Func<int, int> square = x => x * x;
+
+// csharp_style_expression_bodied_lambdas = false
+Func<int, int> square = x => { return x * x; };
+```
+
+#### <a name="csharpstyleexpressionbodiedlocalfunctions"></a>csharp\_style\_expression\_bodied\_local_functions
+
+C# 7.0부터 C#에서는 [로컬 함수](/dotnet/csharp/programming-guide/classes-and-structs/local-functions)를 지원합니다. 로컬 함수는 다른 멤버에 중첩된 형식의 private 메서드입니다.
+
+|||
+|-|-|
+| **규칙 이름** | csharp_style_expression_bodied_local_functions |
+| **규칙 ID** | IDE0061 |
+| **해당 언어** | C# 7.0+ |
+| **값** | `true` - 로컬 함수에 식 본문을 사용합니다.<br /><br />`when_on_single_line` - 한 줄이 되는 경우 로컬 함수에 식 본문을 사용합니다.<br /><br />`false` - 로컬 함수에 블록 본문을 사용합니다. |
+| **Visual Studio 기본값** | `false:silent` |
+
+코드 예제:
+
+```csharp
+// csharp_style_expression_bodied_local_functions = true
+void M()
+{
+    Hello();
+    void Hello() => Console.WriteLine("Hello");
+}
+
+// csharp_style_expression_bodied_local_functions = false
+void M()
+{
+    Hello();
+    void Hello()
+    {
+        Console.WriteLine("Hello");
+    }
+}
 ```
 
 ### <a name="pattern-matching"></a>패턴 일치
@@ -1206,7 +1352,7 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 |-|-|
 | **규칙 이름** | csharp_style_pattern_matching_over_is_with_cast_check |
 | **규칙 ID** | IDE0020 |
-| **해당 언어** | C# 7.0+  |
+| **해당 언어** | C# 7.0+ |
 | **값** | `true` - 형식 캐스트가 포함된 `is` 식보다 패턴 일치를 선호합니다.<br /><br />`false` - 패턴 일치보다 형식 캐스트가 포함된 `is` 식을 선호합니다. |
 | **Visual Studio 기본값** | `true:suggestion` |
 
@@ -1226,7 +1372,7 @@ if (o is int) {var i = (int)o; ... }
 |-|-|
 | **규칙 이름** | csharp_style_pattern_matching_over_as_with_null_check |
 | **규칙 ID** | IDE0019 |
-| **해당 언어** | C# 7.0+  |
+| **해당 언어** | C# 7.0+ |
 | **값** | `true` - 항목이 특정 형식인지 확인하는 경우 null 검사가 포함된 `as` 식보다 패턴 일치를 선호합니다.<br /><br />`false` - 항목이 특정 형식인지 확인하는 경우 패턴 일치보다 null 검사가 포함된 `as` 식을 선호합니다. |
 | **Visual Studio 기본값** | `true:suggestion` |
 
@@ -1251,7 +1397,7 @@ if (s != null) {...}
 |-|-|
 | **규칙 이름** | csharp_style_inlined_variable_declaration |
 | **규칙 ID** | IDE0018 |
-| **해당 언어** | C# 7.0+  |
+| **해당 언어** | C# 7.0+ |
 | **값** | `true` - 가능한 경우 메서드 호출의 인수 목록에서 `out` 변수를 인라인으로 선언합니다.<br /><br />`false` - 메서드 호출 전에 `out` 변수를 선언합니다. |
 | **Visual Studio 기본값** | `true:suggestion` |
 
@@ -1274,9 +1420,9 @@ if (int.TryParse(value, out i) {...}
 csharp_style_inlined_variable_declaration = true:suggestion
 ```
 
-### <a name="expression-level-preferences"></a>식 수준 기본 설정
+### <a name="c-expression-level-preferences"></a>C# 식 수준 기본 설정
 
-이 섹션의 스타일 규칙은 [기본 식](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference), 분해된 변수 및 익명 함수에 대한 로컬 함수의 사용을 비롯한 식 수준 기본 설정과 관련이 있습니다.
+이 섹션의 스타일 규칙은 식 수준 기본 설정을 고려합니다.
 
 예제 *.editorconfig* 파일:
 
@@ -1284,8 +1430,6 @@ csharp_style_inlined_variable_declaration = true:suggestion
 # CSharp code style settings:
 [*.cs]
 csharp_prefer_simple_default_expression = true:suggestion
-csharp_style_deconstructed_variable_declaration = true:suggestion
-csharp_style_pattern_local_over_anonymous_function = true:suggestion
 ```
 
 #### <a name="csharpprefersimpledefaultexpression"></a>csharp\_prefer\_simple\_default_expression
@@ -1310,62 +1454,7 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { ... }
 ```
 
-#### <a name="csharpstyledeconstructedvariabledeclaration"></a>csharp\_style\_deconstructed\_variable_declaration
-
-|||
-|-|-|
-| **규칙 이름** | csharp_style_deconstructed_variable_declaration |
-| **규칙 ID** | IDE0042 |
-| **해당 언어** | C# 7.0+  |
-| **값** | `true` - 분해된 변수 선언을 선호합니다.<br /><br />`false` - 변수 선언에서 분해를 선호하지 않습니다. |
-| **Visual Studio 기본값** | `true:suggestion` |
-
-코드 예제:
-
-```csharp
-// csharp_style_deconstructed_variable_declaration = true
-var (name, age) = GetPersonTuple();
-Console.WriteLine($"{name} {age}");
-
-(int x, int y) = GetPointTuple();
-Console.WriteLine($"{x} {y}");
-
-// csharp_style_deconstructed_variable_declaration = false
-var person = GetPersonTuple();
-Console.WriteLine($"{person.name} {person.age}");
-
-(int x, int y) point = GetPointTuple();
-Console.WriteLine($"{point.x} {point.y}");
-```
-
-#### <a name="csharpstylepatternlocaloveranonymousfunction"></a>csharp\_style\_pattern\_local\_over\_anonymous_function
-
-|||
-|-|-|
-| **규칙 이름** | csharp_style_pattern_local_over_anonymous_function |
-| **규칙 ID** | IDE0039 |
-| **해당 언어** | C# 7.0+  |
-| **값** | `true` - 익명 함수보다 로컬 함수를 선호합니다.<br /><br />`false` - 로컬 함수보다 익명 함수를 선호합니다. |
-| **Visual Studio 기본값** | `true:suggestion` |
-
-코드 예제:
-
-```csharp
-// csharp_style_pattern_local_over_anonymous_function = true
-int fibonacci(int n)
-{
-    return n <= 1 ? 1 : fibonacci(n-1) + fibonacci(n-2);
-}
-
-// csharp_style_pattern_local_over_anonymous_function = false
-Func<int, int> fibonacci = null;
-fibonacci = (int n) =>
-{
-    return n <= 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
-};
-```
-
-### <a name="null-checking-preferences"></a>Null 검사 기본 설정
+### <a name="c-null-checking-preferences"></a>C# null 검사 기본 설정
 
 이러한 스타일 규칙은 `throw` 식 또는 `throw` 문 사용을 비롯한 `null` 검사 관련 구문 및 [람다 식](/dotnet/csharp/lambda-expressions)을 호출할 때를 null 검사를 수행하거나 조건부 병합 연산자(`?.`)를 사용할지에 대해 다룹니다.
 
@@ -1384,7 +1473,7 @@ csharp_style_conditional_delegate_call = false:suggestion
 |-|-|
 | **규칙 이름** | csharp_style_throw_expression |
 | **규칙 ID** | IDE0016 |
-| **해당 언어** | C# 7.0+  |
+| **해당 언어** | C# 7.0+ |
 | **값** | `true` - `throw` 문 대신 `throw` 식을 사용합니다.<br /><br />`false` - `throw` 식 대신 `throw` 문을 사용합니다. |
 | **Visual Studio 기본값** | `true:suggestion` |
 
@@ -1449,6 +1538,285 @@ if (test) { this.Display(); }
 
 // csharp_prefer_braces = false
 if (test) this.Display();
+```
+
+### <a name="unused-value-preferences"></a>사용되지 않는 값 기본 설정
+
+이러한 스타일 규칙은 사용되지 않는 식과 값 할당을 고려합니다.
+
+예제 *.editorconfig* 파일:
+
+```ini
+# CSharp code style settings:
+[*.cs]
+csharp_style_unused_value_expression_statement_preference = discard_variable:silent
+csharp_style_unused_value_assignment_preference = discard_variable:suggestion
+```
+
+#### <a name="csharpstyleunusedvalueexpressionstatementpreference"></a>csharp_style_unused_value_expression_statement_preference
+
+|||
+|-|-|
+| **규칙 이름** | csharp_style_unused_value_expression_statement_preference |
+| **규칙 ID** | IDE0058 |
+| **해당 언어** | C# |
+| **값** | `discard_variable` - 사용되지 않는 식을 [무시 항목](/dotnet/csharp/discards)으로 할당합니다. <br /><br />`unused_local_variable` - 사용되지 않는 식을 지역 변수로 할당합니다. |
+| **Visual Studio 기본값** | `discard_variable:silent` |
+
+코드 예제:
+
+```csharp
+// Original code:
+System.Convert.ToInt32("35");
+
+// After code fix for IDE0058:
+
+// csharp_style_unused_value_expression_statement_preference = discard_variable
+_ = System.Convert.ToInt32("35");
+
+// csharp_style_unused_value_expression_statement_preference = unused_local_variable
+var unused = Convert.ToInt32("35");
+```
+
+#### <a name="csharpstyleunusedvalueassignmentpreference"></a>csharp_style_unused_value_assignment_preference
+
+|||
+|-|-|
+| **규칙 이름** | csharp_style_unused_value_assignment_preference |
+| **규칙 ID** | IDE0059 |
+| **해당 언어** | C# |
+| **값** | `discard_variable` - 사용되지 않는 값을 할당 시 [무시 항목](/dotnet/csharp/discards)을 사용합니다.<br /><br />`unused_local_variable` - 사용되지 않는 값을 할당 시 지역 변수를 사용합니다. |
+| **Visual Studio 기본값** | `discard_variable:suggestion` |
+
+코드 예제:
+
+```csharp
+// csharp_style_unused_value_assignment_preference = discard_variable
+int GetCount(Dictionary<string, int> wordCount, string searchWord)
+{
+    _ = wordCount.TryGetValue(searchWord, out var count);
+    return count;
+}
+
+// csharp_style_unused_value_assignment_preference = unused_local_variable
+int GetCount(Dictionary<string, int> wordCount, string searchWord)
+{
+    var unused = wordCount.TryGetValue(searchWord, out var count);
+    return count;
+}
+```
+
+### <a name="index-and-range-preferences"></a>인덱스 및 범위 기본 설정
+
+이러한 스타일 규칙은 C# 8.0 이상에서 사용할 수 있는 인덱스와 범위 연산자의 사용을 고려합니다.
+
+예제 *.editorconfig* 파일:
+
+```ini
+# CSharp code style settings:
+[*.cs]
+csharp_style_prefer_index_operator = true:suggestion
+csharp_style_prefer_range_operator = true:suggestion
+```
+
+#### <a name="csharpstylepreferindexoperator"></a>csharp\_style\_prefer\_index_operator
+
+|||
+|-|-|
+| **규칙 이름** | csharp_style_prefer_index_operator |
+| **규칙 ID** | IDE0056 |
+| **해당 언어** | C# 8.0 이상 |
+| **값** | `true` - 컬렉션의 끝에서 인덱스를 계산할 때 `^` 연산자를 사용합니다.<br /><br />`false` - 컬렉션의 끝에서 인덱스를 계산할 때 `^` 연산자를 사용하지 않습니다. |
+| **Visual Studio 기본값** | `true:suggestion` |
+
+코드 예제:
+
+```csharp
+// csharp_style_prefer_index_operator = true
+string[] names = { "Archimedes", "Pythagoras", "Euclid" };
+var index = names[^1];
+
+// csharp_style_prefer_index_operator = false
+string[] names = { "Archimedes", "Pythagoras", "Euclid" };
+var index = names[names.Length - 1];
+```
+
+#### <a name="csharpstylepreferrangeoperator"></a>csharp\_style\_prefer\_range_operator
+
+|||
+|-|-|
+| **규칙 이름** | csharp_style_prefer_range_operator |
+| **규칙 ID** | IDE0057 |
+| **해당 언어** | C# 8.0 이상 |
+| **값** | `true` - 컬렉션의 "조각"을 추출할 때 범위 연산자 `..`을 사용합니다.<br /><br />`false` - 컬렉션의 "조각"을 추출할 때 범위 연산자 `..`을 사용하지 않습니다. |
+| **Visual Studio 기본값** | `true:suggestion` |
+
+코드 예제:
+
+```csharp
+// csharp_style_prefer_range_operator = true
+string sentence = "the quick brown fox";
+var sub = sentence[0..^4];
+
+// csharp_style_prefer_range_operator = false
+string sentence = "the quick brown fox";
+var sub = sentence.Substring(0, sentence.Length - 4);
+```
+
+### <a name="miscellaneous-preferences"></a>기타 기본 설정
+
+이 섹션에는 기타 스타일 규칙이 포함되어 있습니다.
+
+예제 *.editorconfig* 파일:
+
+```ini
+# CSharp code style settings:
+[*.cs]
+csharp_style_deconstructed_variable_declaration = true:suggestion
+csharp_style_pattern_local_over_anonymous_function = true:suggestion
+csharp_using_directive_placement = outside_namespace:silent
+csharp_prefer_static_local_function = true:suggestion
+csharp_prefer_simple_using_statement = true:suggestion
+```
+
+#### <a name="csharpstyledeconstructedvariabledeclaration"></a>csharp\_style\_deconstructed\_variable_declaration
+
+|||
+|-|-|
+| **규칙 이름** | csharp_style_deconstructed_variable_declaration |
+| **규칙 ID** | IDE0042 |
+| **해당 언어** | C# 7.0+ |
+| **값** | `true` - 분해된 변수 선언을 선호합니다.<br /><br />`false` - 변수 선언에서 분해를 선호하지 않습니다. |
+| **Visual Studio 기본값** | `true:suggestion` |
+
+코드 예제:
+
+```csharp
+// csharp_style_deconstructed_variable_declaration = true
+var (name, age) = GetPersonTuple();
+Console.WriteLine($"{name} {age}");
+
+(int x, int y) = GetPointTuple();
+Console.WriteLine($"{x} {y}");
+
+// csharp_style_deconstructed_variable_declaration = false
+var person = GetPersonTuple();
+Console.WriteLine($"{person.name} {person.age}");
+
+(int x, int y) point = GetPointTuple();
+Console.WriteLine($"{point.x} {point.y}");
+```
+
+#### <a name="csharpstylepatternlocaloveranonymousfunction"></a>csharp\_style\_pattern\_local\_over\_anonymous_function
+
+C# 7.0부터 C#에서는 [로컬 함수](/dotnet/csharp/programming-guide/classes-and-structs/local-functions)를 지원합니다. 로컬 함수는 다른 멤버에 중첩된 형식의 private 메서드입니다.
+
+|||
+|-|-|
+| **규칙 이름** | csharp_style_pattern_local_over_anonymous_function |
+| **규칙 ID** | IDE0039 |
+| **해당 언어** | C# 7.0+ |
+| **값** | `true` - 익명 함수보다 로컬 함수를 선호합니다.<br /><br />`false` - 로컬 함수보다 익명 함수를 선호합니다. |
+| **Visual Studio 기본값** | `true:suggestion` |
+
+코드 예제:
+
+```csharp
+// csharp_style_pattern_local_over_anonymous_function = true
+int fibonacci(int n)
+{
+    return n <= 1 ? 1 : fibonacci(n-1) + fibonacci(n-2);
+}
+
+// csharp_style_pattern_local_over_anonymous_function = false
+Func<int, int> fibonacci = null;
+fibonacci = (int n) =>
+{
+    return n <= 1 ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
+};
+```
+
+#### <a name="csharpusingdirectiveplacement"></a>csharp\_using\_directive_placement
+
+|||
+|-|-|
+| **규칙 이름** | csharp_using_directive_placement |
+| **규칙 ID** | IDE0065 |
+| **해당 언어** | C# |
+| **값** | `outside_namespace` - `using` 지시문이 네임스페이스 밖에 위치하도록 합니다.<br /><br />`inside_namespace` - `using` 지시문이 네임스페이스 안에 위치하도록 합니다. |
+| **Visual Studio 기본값** | `outside_namespace:silent` |
+
+코드 예제:
+
+```csharp
+// csharp_using_directive_placement = outside_namespace
+using System;
+
+namespace Conventions
+{
+    ...
+}
+
+// csharp_using_directive_placement = inside_namespace
+namespace Conventions
+{
+    using System;
+    ...
+}
+```
+
+#### <a name="csharppreferstaticlocalfunction"></a>csharp\_prefer\_static\_local_function
+
+|||
+|-|-|
+| **규칙 이름** | csharp_prefer_static_local_function |
+| **규칙 ID** | IDE0062 |
+| **해당 언어** | C# 8.0 이상 |
+| **값** | `true` - 로컬 함수가 `static`으로 표시되도록 합니다.<br /><br />`false` - 로컬 함수가 `static`으로 표시되도록 하지 않습니다. |
+| **Visual Studio 기본값** | `true:suggestion` |
+
+코드 예제:
+
+```csharp
+// csharp_prefer_static_local_function = true
+void M()
+{
+    Hello();
+    static void Hello()
+    {
+        Console.WriteLine("Hello");
+    }
+}
+
+// csharp_prefer_static_local_function = false
+void M()
+{
+    Hello();
+    void Hello()
+    {
+        Console.WriteLine("Hello");
+    }
+}
+```
+
+#### <a name="csharpprefersimpleusingstatement"></a>csharp\_prefer\_simple\_using_statement
+
+|||
+|-|-|
+| **규칙 이름** | csharp_prefer_simple_using_statement |
+| **규칙 ID** | IDE0063 |
+| **해당 언어** | C# 8.0 이상 |
+| **값** | `true` - *단순* `using` 문을 사용합니다.<br /><br />`false` - *단순* `using` 문을 사용하지 않습니다. |
+| **Visual Studio 기본값** | `true:suggestion` |
+
+코드 예제:
+
+```csharp
+// csharp_prefer_simple_using_statement = true
+using var a = b;
+
+// csharp_prefer_simple_using_statement = false
+using (var a = b) { }
 ```
 
 ## <a name="see-also"></a>참고 항목

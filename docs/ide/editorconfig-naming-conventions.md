@@ -10,18 +10,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 35b0348788cfa23dd389b0647e24b7ac0aa0b7a1
-ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
+ms.openlocfilehash: 048fb4474caae6b7cc81a8c62061e879e7556c58
+ms.sourcegitcommit: 8562a337cc9f674c756a4a0b2c7e288ebd61b51e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "67309817"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68345698"
 ---
 # <a name="net-naming-conventions-for-editorconfig"></a>EditorConfig에 대한 .NET 명명 규칙
 
 명명 규칙은 클래스, 속성 및 메서드와 같은 코드 요소의 이름을 지정합니다. 예를 들어 공용 멤버가 대문자로 시작해야 하고 비동기 메서드가 “Async”로 끝나야 한다고 지정할 수 있습니다. [.editorconfig 파일](../ide/create-portable-custom-editor-options.md)에서 이러한 규칙을 지정하여 적용할 수 있습니다. 명명 규칙 위반은 규칙에서 선택한 심각도에 따라 **오류 목록** 또는 이름의 제안 중 하나에서 표시될 수 있습니다. 위반을 확인하기 위해 프로젝트를 빌드하지 않아도 됩니다.
-
-명명 규칙은 EditorConfig 파일에서 가장 구체적인 규칙부터 가장 덜 구체적인 규칙으로 정렬되어야 합니다. 적용할 수 있는 첫 번째 규칙은 적용되는 유일한 규칙이 됩니다. 그러나 동일한 이름의 규칙 ‘속성’이 여러 개 있는 경우 가장 최근에 발견된 해당 이름의 속성이 우선 적용됩니다.  자세한 내용은 [파일 계층 구조 및 우선 순위](create-portable-custom-editor-options.md#file-hierarchy-and-precedence)를 참조하세요.
 
 각 명명 규칙에서는 아래에서 설명한 속성을 사용하여 적용할 기호, 명명 스타일 및 규칙에 적용할 심각도를 지정해야 합니다. 속성의 순서는 중요하지 않습니다.
 
@@ -174,6 +172,22 @@ error | 이 스타일을 따르지 않을 경우 **오류 목록**에서 컴파�
 
 > [!NOTE]
 > 명명 규칙 위반을 확인하기 위해 프로젝트를 빌드하지 않아도 됩니다. 코드가 편집되면 **오류 목록** 또는 제안 중 하나로 표시됩니다.
+
+## <a name="rule-order"></a>규칙 순서
+
+::: moniker range="vs-2017"
+
+명명 규칙은 EditorConfig 파일에서 가장 구체적인 규칙부터 가장 덜 구체적인 규칙으로 정렬되어야 합니다. 적용할 수 있는 첫 번째 규칙은 적용되는 유일한 규칙이 됩니다. 그러나 동일한 이름의 규칙 ‘속성’이 여러 개 있는 경우 가장 최근에 발견된 해당 이름의 속성이 우선 적용됩니다.  자세한 내용은 [파일 계층 구조 및 우선 순위](create-portable-custom-editor-options.md#file-hierarchy-and-precedence)를 참조하세요.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Visual Studio 2019 버전 16.2부터는 EditorConfig 파일 내의 명명 규칙 정의 정렬이 중요하지 않게 됩니다. 그 대신 Visual Studio에서 명명 규칙을 규칙 자체의 정의에 따라 자동으로 정렬합니다. [EditorConfig 언어 서비스 확장](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig)은 EditorConfig 파일을 분석하고 파일 내의 규칙 정렬이 런타임에 컴파일러가 사용할 정렬과 다를 경우 해당 사례를 보고합니다.
+
+이전 버전의 Visual Studio를 사용 중일 경우, 명명 규칙은 EditorConfig 파일에서 가장 구체적인 규칙부터 가장 덜 구체적인 규칙으로 정렬되어야 합니다. 적용할 수 있는 첫 번째 규칙은 적용되는 유일한 규칙이 됩니다. 그러나 동일한 이름의 규칙 ‘속성’이 여러 개 있는 경우 가장 최근에 발견된 해당 이름의 속성이 우선 적용됩니다.  자세한 내용은 [파일 계층 구조 및 우선 순위](create-portable-custom-editor-options.md#file-hierarchy-and-precedence)를 참조하세요.
+
+::: moniker-end
 
 ## <a name="default-naming-styles"></a>기본 명명 스타일
 

@@ -12,12 +12,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: fc45c25dcc9de1cdf1991525401e2d53bd86cdb3
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 563dcd4d91e23c019edf5a777b70453f40091d69
+ms.sourcegitcommit: 57866dd72fd0e15ce61128df70729b427a2d02eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66261996"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68315245"
 ---
 # <a name="tutorial-create-a-nodejs-and-react-app-in-visual-studio"></a>자습서: Visual Studio에서 Node.js 및 React 앱 만들기
 
@@ -72,7 +72,7 @@ webpack은 브라우저에서 실행될 수 있도록 JavaScript 파일을 번�
 
 * Node.js 런타임을 설치해야 합니다.
 
-    이 자습서는 버전 8.11.2를 사용하여 테스트했습니다.
+    이 자습서는 버전 10.16.0을 사용하여 테스트했습니다.
 
     아직 설치되지 않은 경우 [Node.js](https://nodejs.org/en/download/) 웹 사이트에서 LTS 버전을 설치합니다. 일반적으로, 설치된 Node.js 런타임은 Visual Studio에서 자동으로 검색됩니다. 설치된 런타임이 검색되지 않으면 속성 페이지에서 설치된 런타임을 참조하도록 프로젝트를 구성할 수 있습니다(프로젝트를 만든 후 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다).
 
@@ -318,7 +318,19 @@ webpack은 브라우저에서 실행될 수 있도록 JavaScript 파일을 번�
 
     ![수정한 파일 로드](../javascript/media/tutorial-nodejs-react-reload-files.png)
 
-*app.tsx*를 변경할 때마다 webpack 명령을 다시 실행해야 합니다.
+*app.tsx*를 변경할 때마다 webpack 명령을 다시 실행해야 합니다. 이 단계를 자동화 하려면 빌드 스크립트를 추가하여 JSX를 트랜스파일합니다.
+
+## <a name="add-a-build-script-to-transpile-the-jsx"></a>빌드 스크립트를 추가하여 JSX를 트랜스파일
+
+Node.js의 최신 버전에서는 빌드 스크립트가 필요합니다. (앞의 섹션에서 표시된 것처럼) 명령줄에서 JSX를 트랜스파일하기보다 Visual Studio에서 빌딩할 때 JSX를 트랜스파일할 수 있습니다.
+
+* *package.json*을 열고 `dependencies` 섹션 뒤에 다음 섹션을 추가합니다.
+
+   ```json
+   "scripts": {
+    "build": "webpack-cli app.tsx --config webpack-config.js"
+   }
+   ```
 
 ## <a name="run-the-app"></a>앱 실행
 
@@ -331,7 +343,7 @@ webpack은 브라우저에서 실행될 수 있도록 JavaScript 파일을 번�
     ![디버그 대상으로 크롬 선택](../javascript/media/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
 
-    머신에서 Chrome을 사용할 수 있지만 옵션으로 표시되지 않는 경우 디버그 대상 드롭다운 목록에서 **브라우저 선택**을 선택하고 기본 브라우저 대상으로 Chrome을 선택합니다(**기본값으로 설정** 선택).
+    머신에서 Chrome을 사용할 수 있지만 옵션으로 표시되지 않는 경우 디버그 대상 드롭다운 목록에서 **웹 브라우저(browsername)**  > **Google Chrome**을 선택하고 기본 브라우저 대상으로 Chrome을 선택합니다.
 
 1. 앱을 실행하려면 **F5**(**디버그** > **디버깅 시작**) 키 또는 녹색 화살표 단추를 누릅니다.
 
