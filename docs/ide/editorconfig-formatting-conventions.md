@@ -1,6 +1,6 @@
 ---
 title: EditorConfig에 대한 .NET 서식 지정 규칙
-ms.date: 06/17/2019
+ms.date: 07/17/2019
 ms.topic: reference
 dev_langs:
 - CSharp
@@ -13,16 +13,16 @@ manager: jillfra
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 3218e819d8f94cf760cdc75d6bfa6d29d0a29568
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: ccebfc38d5170920fe3f3c37ee77aabaf660a3b8
+ms.sourcegitcommit: 8562a337cc9f674c756a4a0b2c7e288ebd61b51e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67823348"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68345674"
 ---
 # <a name="formatting-conventions"></a>서식 지정 규칙
 
-Visual Studio의 EditorConfig에 대한 서식 지정 규칙은 다음 두 가지 범주로 나뉩니다.
+Visual Studio의 EditorConfig에 대한 서식 지정 규칙은 다음의 범주로 나뉩니다.
 
 - [.NET 서식 지정 설정](#net-formatting-settings)
 
@@ -122,20 +122,32 @@ using Octokit;
   - csharp_indent_case_contents
   - csharp_indent_switch_labels
   - csharp_indent_labels
+  - csharp_indent_block_contents
+  - csharp_indent_braces
+  - csharp_indent_case_contents_when_block
 - [간격 옵션](#spacing-options)
   - csharp_space_after_cast
   - csharp_space_after_keywords_in_control_flow_statements
-  - csharp_space_between_method_declaration_parameter_list_parentheses
-  - csharp_space_between_method_call_parameter_list_parentheses
   - csharp_space_between_parentheses
   - csharp_space_before_colon_in_inheritance_clause
   - csharp_space_after_colon_in_inheritance_clause
   - csharp_space_around_binary_operators
+  - csharp_space_between_method_declaration_parameter_list_parentheses
   - csharp_space_between_method_declaration_empty_parameter_list_parentheses
-  - csharp_space_between_method_call_name_and_opening_parenthesis
+  - csharp_space_between_method_declaration_name_and_open_parenthesis
+  - csharp_space_between_method_call_parameter_list_parentheses
   - csharp_space_between_method_call_empty_parameter_list_parentheses
+  - csharp_space_between_method_call_name_and_opening_parenthesis
   - csharp_space_after_comma
+  - csharp_space_before_comma
   - csharp_space_after_dot
+  - csharp_space_before_dot
+  - csharp_space_after_semicolon_in_for_statement
+  - csharp_space_before_semicolon_in_for_statement
+  - csharp_space_around_declaration_statements
+  - csharp_space_before_open_square_brackets
+  - csharp_space_between_empty_square_brackets
+  - csharp_space_between_square_brackets
 - [줄 바꿈 옵션](#wrap-options)
   - csharp_preserve_single_line_statements
   - csharp_preserve_single_line_blocks
@@ -371,6 +383,9 @@ var q = from a in e from b in e
 csharp_indent_case_contents = true
 csharp_indent_switch_labels = true
 csharp_indent_labels = flush_left
+csharp_indent_block_contents = true
+csharp_indent_braces = false
+csharp_indent_case_contents_when_block = true
 ```
 
 #### <a name="csharpindentcasecontents"></a>csharp\_indent\_case_contents
@@ -509,6 +524,83 @@ class C
 }
 ```
 
+#### <a name="csharpindentblockcontents"></a>csharp_indent_block_contents
+
+|||
+|-|-|
+| **규칙 이름** | csharp_indent_block_contents |
+| **해당 언어** | C# |
+| **값** | `true` - <br /><br />`false` -  |
+| **Visual Studio 기본값** | `true` |
+
+코드 예제:
+
+```csharp
+// csharp_indent_block_contents = true
+static void Hello()
+{
+    Console.WriteLine("Hello");
+}
+
+// csharp_indent_block_contents = false
+static void Hello()
+{
+Console.WriteLine("Hello");
+}
+```
+
+#### <a name="csharpindentbraces"></a>csharp_indent_braces
+
+|||
+|-|-|
+| **규칙 이름** | csharp_indent_braces |
+| **해당 언어** | C# |
+| **값** | `true` - <br /><br />`false` -  |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_indent_braces = true
+static void Hello()
+    {
+    Console.WriteLine("Hello");
+    }
+
+// csharp_indent_braces = false
+static void Hello()
+{
+    Console.WriteLine("Hello");
+}
+```
+
+#### <a name="csharpindentcasecontentswhenblock"></a>csharp_indent_case_contents_when_block
+
+|||
+|-|-|
+| **규칙 이름** | csharp_indent_case_contents_when_block |
+| **해당 언어** | C# |
+| **값** | `true` - <br /><br />`false` -  |
+| **Visual Studio 기본값** | `true` |
+
+코드 예제:
+
+```csharp
+// csharp_indent_case_contents_when_block = true
+case 0:
+    {
+        Console.WriteLine("Hello");
+        break;
+    }
+
+// csharp_indent_case_contents_when_block = false
+case 0:
+{
+    Console.WriteLine("Hello");
+    break;
+}
+```
+
 ### <a name="spacing-options"></a>간격 옵션
 
 이러한 서식 지정 규칙은 코드의 서식을 지정하기 위해 공백 문자를 사용합니다.
@@ -520,17 +612,26 @@ class C
 [*.cs]
 csharp_space_after_cast = true
 csharp_space_after_keywords_in_control_flow_statements = true
-csharp_space_between_method_declaration_parameter_list_parentheses = true
-csharp_space_between_method_call_parameter_list_parentheses = true
 csharp_space_between_parentheses = control_flow_statements, type_casts
 csharp_space_before_colon_in_inheritance_clause = true
 csharp_space_after_colon_in_inheritance_clause = true
 csharp_space_around_binary_operators = before_and_after
+csharp_space_between_method_declaration_parameter_list_parentheses = true
 csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
-csharp_space_between_method_call_name_and_opening_parenthesis = false
+csharp_space_between_method_declaration_name_and_open_parenthesis = false
+csharp_space_between_method_call_parameter_list_parentheses = true
 csharp_space_between_method_call_empty_parameter_list_parentheses = false
+csharp_space_between_method_call_name_and_opening_parenthesis = false
 csharp_space_after_comma = true
+csharp_space_before_comma = false
 csharp_space_after_dot = false
+csharp_space_before_dot = false
+csharp_space_after_semicolon_in_for_statement = true
+csharp_space_before_semicolon_in_for_statement = false
+csharp_space_around_declaration_statements = false
+csharp_space_before_open_square_brackets = false
+csharp_space_between_empty_square_brackets = false
+csharp_space_between_square_brackets = false
 ```
 
 #### <a name="csharpspaceaftercast"></a>csharp\_space\_after_cast
@@ -540,7 +641,7 @@ csharp_space_after_dot = false
 | **규칙 이름** | csharp_space_after_cast |
 | **해당 언어** | C# |
 | **도입된 버전** | Visual Studio 2017 15.3 버전 |
-| **값** | `true` - 캐스트와 값 사이에 공백이 필요합니다.<br /><br />`false` - 캐스트와 값 사이에 공백이 필요하지 ‘않습니다’.  |
+| **값** | `true` - 캐스트와 값 사이에 공백 문자를 배치합니다.<br /><br />`false` - 캐스트와 값 사이에서 공백을 제거합니다. |
 | **Visual Studio 기본값** | `false` |
 
 코드 예제:
@@ -560,7 +661,7 @@ int y = (int)x;
 | **규칙 이름** | csharp_space_after_keywords_in_control_flow_statements |
 | **해당 언어** | C# |
 | **도입된 버전** | Visual Studio 2017 15.3 버전 |
-| **값** | `true` - `for` 루프와 같은 제어 흐름 문의 키워드 뒤에 공백이 필요합니다.<br /><br />`false` - `for` 루프와 같은 제어 흐름 문의 키워드 뒤에 공백이 필요하지 _않습니다_. |
+| **값** | `true` - `for` 루프와 같은 제어 흐름 문의 키워드 뒤에 공백 문자를 배치합니다.<br /><br />`false` - `for` 루프와 같은 제어 흐름 문의 키워드 뒤에서 공백을 제거합니다. |
 | **Visual Studio 기본값** | `true` |
 
 코드 예제:
@@ -571,46 +672,6 @@ for (int i;i<x;i++) { ... }
 
 // csharp_space_after_keywords_in_control_flow_statements = false
 for(int i;i<x;i++) { ... }
-```
-
-#### <a name="csharpspacebetweenmethoddeclarationparameterlistparentheses"></a>csharp_space_between_method_declaration_parameter_list_parentheses
-
-|||
-|-|-|
-| **규칙 이름** | csharp_space_between_method_declaration_parameter_list_parentheses |
-| **해당 언어** | C# |
-| **도입된 버전** | Visual Studio 2017 15.3 버전 |
-| **값** | `true` - 여는 괄호 뒤 및 메서드 선언 매개 변수 목록의 닫는 괄호 앞에 공백 문자를 넣습니다.<br /><br />`false` - 여는 괄호 뒤 및 메서드 선언 매개 변수 목록의 닫는 괄호 앞에 공백 문자를 넣지 않습니다. |
-| **Visual Studio 기본값** | `false` |
-
-코드 예제:
-
-```csharp
-// csharp_space_between_method_declaration_parameter_list_parentheses = true
-void Bark( int x ) { ... }
-
-// csharp_space_between_method_declaration_parameter_list_parentheses = false
-void Bark(int x) { ... }
-```
-
-#### <a name="csharpspacebetweenmethodcallparameterlistparentheses"></a>csharp_space_between_method_call_parameter_list_parentheses
-
-|||
-|-|-|
-| **규칙 이름** | csharp_space_between_method_call_parameter_list_parentheses |
-| **해당 언어** | C# |
-| **도입된 버전** | Visual Studio 2017 15.3 버전 |
-| **값** | `true` - 여는 괄호 뒤 및 메서드 호출의 닫는 괄호 앞에 공백 문자를 넣습니다.<br /><br />`false` - 여는 괄호 뒤 및 메서드 호출의 닫는 괄호 앞에 공백 문자를 넣지 않습니다. |
-| **Visual Studio 기본값** | `false` |
-
-코드 예제:
-
-```csharp
-// csharp_space_between_method_call_parameter_list_parentheses = true
-MyMethod( argument );
-
-// csharp_space_between_method_call_parameter_list_parentheses = false
-MyMethod(argument);
 ```
 
 #### <a name="csharpspacebetweenparentheses"></a>csharp_space_between_parentheses
@@ -645,7 +706,7 @@ int y = ( int )x;
 | **규칙 이름** | csharp_space_before_colon_in_inheritance_clause |
 | **해당 언어** | C# |
 | **도입된 버전** | Visual Studio 2017 버전 15.7 |
-| **값** | `true` - 형식 선언에서 베이스 또는 인터페이스의 콜론 앞에 공백이 필요합니다.<br /><br />`false` - 형식 선언에서 베이스 또는 인터페이스의 콜론 앞에 공백이 필요하지 _않습니다_. |
+| **값** | `true` - 형식 선언에서 베이스 또는 인터페이스의 콜론 앞에 공백 문자를 배치합니다.<br /><br />`false` - 형식 선언에서 베이스 또는 인터페이스의 콜론 앞에서 공백을 제거합니다. |
 | **Visual Studio 기본값** | `true` |
 
 코드 예제:
@@ -681,7 +742,7 @@ class C: I
 | **규칙 이름** | csharp_space_after_colon_in_inheritance_clause |
 | **해당 언어** | C# |
 | **도입된 버전** | Visual Studio 2017 버전 15.7 |
-| **값** | `true` - 형식 선언에서 베이스 또는 인터페이스의 콜론 뒤에 공백이 필요합니다.<br /><br />`false` - 형식 선언에서 베이스 또는 인터페이스의 콜론 뒤에 공백이 필요하지 _않습니다_. |
+| **값** | `true` - 형식 선언에서 베이스 또는 인터페이스의 콜론 뒤에 공백 문자를 배치합니다.<br /><br />`false` - 형식 선언에서 베이스 또는 인터페이스의 콜론 뒤에서 공백을 제거합니다. |
 | **Visual Studio 기본값** | `true` |
 
 코드 예제:
@@ -735,6 +796,26 @@ return x*(x-y);
 return x  *  (x-y);
 ```
 
+#### <a name="csharpspacebetweenmethoddeclarationparameterlistparentheses"></a>csharp_space_between_method_declaration_parameter_list_parentheses
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_between_method_declaration_parameter_list_parentheses |
+| **해당 언어** | C# |
+| **도입된 버전** | Visual Studio 2017 15.3 버전 |
+| **값** | `true` - 여는 괄호 뒤 및 메서드 선언 매개 변수 목록의 닫는 괄호 앞에 공백 문자를 넣습니다.<br /><br />`false` - 여는 괄호 뒤 및 메서드 선언 매개 변수 목록의 닫는 괄호 앞에서 공백 문자를 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_between_method_declaration_parameter_list_parentheses = true
+void Bark( int x ) { ... }
+
+// csharp_space_between_method_declaration_parameter_list_parentheses = false
+void Bark(int x) { ... }
+```
+
 #### <a name="csharpspacebetweenmethoddeclarationemptyparameterlistparentheses"></a>csharp_space_between_method_declaration_empty_parameter_list_parentheses
 
 |||
@@ -760,6 +841,81 @@ void Goo(int x)
 }
 
 // csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+void Goo()
+{
+    Goo(1);
+}
+
+void Goo(int x)
+{
+    Goo();
+}
+```
+
+#### <a name="csharpspacebetweenmethoddeclarationnameandopenparenthesis"></a>csharp_space_between_method_declaration_name_and_open_parenthesis
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_between_method_declaration_name_and_open_parenthesis |
+| **해당 언어** | C# |
+| **값** | `true` -메서드 선언에서 메서드 이름과 여는 괄호 사이에 공백 문자를 배치합니다.<br /><br />`false` -메서드 선언에서 메서드 이름과 여는 괄호 사이에서 공백 문자를 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_between_method_declaration_name_and_open_parenthesis = true
+void M () { }
+
+// csharp_space_between_method_declaration_name_and_open_parenthesis = false
+void M() { }
+```
+
+#### <a name="csharpspacebetweenmethodcallparameterlistparentheses"></a>csharp_space_between_method_call_parameter_list_parentheses
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_between_method_call_parameter_list_parentheses |
+| **해당 언어** | C# |
+| **도입된 버전** | Visual Studio 2017 15.3 버전 |
+| **값** | `true` - 여는 괄호 뒤 및 메서드 호출의 닫는 괄호 앞에 공백 문자를 넣습니다.<br /><br />`false` - 여는 괄호 뒤 및 메서드 호출의 닫는 괄호 앞에서 공백 문자를 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_between_method_call_parameter_list_parentheses = true
+MyMethod( argument );
+
+// csharp_space_between_method_call_parameter_list_parentheses = false
+MyMethod(argument);
+```
+
+#### <a name="csharpspacebetweenmethodcallemptyparameterlistparentheses"></a>csharp_space_between_method_call_empty_parameter_list_parentheses
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_between_method_call_empty_parameter_list_parentheses |
+| **해당 언어** | C# |
+| **도입된 버전** | Visual Studio 2017 버전 15.7 |
+| **값** | `true` - 빈 인수 목록 괄호 안에 공백을 삽입합니다.<br /><br />`false` - 빈 인수 목록 괄호 안의 공백을 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_between_method_call_empty_parameter_list_parentheses = true
+void Goo()
+{
+    Goo(1);
+}
+
+void Goo(int x)
+{
+    Goo( );
+}
+
+// csharp_space_between_method_call_empty_parameter_list_parentheses = false
 void Goo()
 {
     Goo(1);
@@ -807,42 +963,6 @@ void Goo(int x)
 }
 ```
 
-#### <a name="csharpspacebetweenmethodcallemptyparameterlistparentheses"></a>csharp_space_between_method_call_empty_parameter_list_parentheses
-
-|||
-|-|-|
-| **규칙 이름** | csharp_space_between_method_call_empty_parameter_list_parentheses |
-| **해당 언어** | C# |
-| **도입된 버전** | Visual Studio 2017 버전 15.7 |
-| **값** | `true` - 빈 인수 목록 괄호 안에 공백을 삽입합니다.<br /><br />`false` - 빈 인수 목록 괄호 안의 공백을 제거합니다. |
-| **Visual Studio 기본값** | `false` |
-
-코드 예제:
-
-```csharp
-// csharp_space_between_method_call_empty_parameter_list_parentheses = true
-void Goo()
-{
-    Goo(1);
-}
-
-void Goo(int x)
-{
-    Goo( );
-}
-
-// csharp_space_between_method_call_empty_parameter_list_parentheses = false
-void Goo()
-{
-    Goo(1);
-}
-
-void Goo(int x)
-{
-    Goo();
-}
-```
-
 #### <a name="csharpspaceaftercomma"></a>csharp_space_after_comma
 
 |||
@@ -862,6 +982,25 @@ int[] x = new int[] { 1, 2, 3, 4, 5 };
 int[] x = new int[] { 1,2,3,4,5 }
 ```
 
+#### <a name="csharpspacebeforecomma"></a>csharp_space_before_comma
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_before_comma |
+| **해당 언어** | C# |
+| **값** | `true` - 쉼표 앞에 공백을 삽입합니다.<br /><br />`false` - 쉼표 앞에서 공백을 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_before_comma = true
+int[] x = new int[] { 1 , 2 , 3 , 4 , 5 };
+
+// csharp_space_before_comma = false
+int[] x = new int[] { 1, 2, 3, 4, 5 };
+```
+
 #### <a name="csharpspaceafterdot"></a>csharp_space_after_dot
 
 |||
@@ -879,6 +1018,139 @@ this. Goo();
 
 // csharp_space_after_dot = false
 this.Goo();
+```
+
+#### <a name="csharpspacebeforedot"></a>csharp_space_before_dot
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_before_dot |
+| **해당 언어** | C# |
+| **값** | `true` - 점 앞에 공백을 삽입합니다. <br /><br />`false` - 점 앞에서 공백을 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_before_dot = true
+this .Goo();
+
+// csharp_space_before_dot = false
+this.Goo();
+```
+
+#### <a name="csharpspaceaftersemicoloninforstatement"></a>csharp_space_after_semicolon_in_for_statement
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_after_semicolon_in_for_statement |
+| **해당 언어** | C# |
+| **값** | `true` - `for` 문의 각 세미콜론 뒤에 공백을 삽입합니다.<br /><br />`false` - `for` 문의 각 세미콜론 뒤에서 공백을 제거합니다. |
+| **Visual Studio 기본값** | `true` |
+
+코드 예제:
+
+```csharp
+// csharp_space_after_semicolon_in_for_statement = true
+for (int i = 0; i < x.Length; i++)
+
+// csharp_space_after_semicolon_in_for_statement = false
+for (int i = 0;i < x.Length;i++)
+```
+
+##### <a name="csharpspacebeforesemicoloninforstatement"></a>csharp_space_before_semicolon_in_for_statement
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_before_semicolon_in_for_statement |
+| **해당 언어** | C# |
+| **값** | `true` - `for` 문의 각 세미콜론 앞에 공백을 삽입합니다. <br /><br />`false` - `for` 문의 각 세미콜론 앞에서 공백을 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_before_semicolon_in_for_statement = true
+for (int i = 0 ; i < x.Length ; i++)
+
+// csharp_space_before_semicolon_in_for_statement = false
+for (int i = 0; i < x.Length; i++)
+```
+
+#### <a name="csharpspacearounddeclarationstatements"></a>csharp_space_around_declaration_statements
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_around_declaration_statements |
+| **해당 언어** | C# |
+| **값** | `ignore` - 선언문에서 추가 공백 문자를 제거하지 않습니다.<br /><br />`false` - 선언문에서 추가 공백 문자를 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_around_declaration_statements = ignore
+int    x    =    0   ;
+
+// csharp_space_around_declaration_statements = false
+int x = 0;
+```
+
+#### <a name="csharpspacebeforeopensquarebrackets"></a>csharp_space_before_open_square_brackets
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_before_open_square_brackets |
+| **해당 언어** | C# |
+| **값** | `true` - 여는 대괄호 `[` 앞에 공백을 삽입합니다. <br /><br />`false` - 여는 대괄호 `[` 앞에서 공백을 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_before_open_square_brackets = true
+int [] numbers = new int [] { 1, 2, 3, 4, 5 };
+
+// csharp_space_before_open_square_brackets = false
+int[] numbers = new int[] { 1, 2, 3, 4, 5 };
+```
+
+#### <a name="csharpspacebetweenemptysquarebrackets"></a>csharp_space_between_empty_square_brackets
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_between_empty_square_brackets |
+| **해당 언어** | C# |
+| **값** | `true` - 빈 대괄호 `[ ]` 사이에 공백을 삽입합니다. <br /><br />`false` - 빈 대괄호 `[]` 사이에서 공백을 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_between_empty_square_brackets = true
+int[ ] numbers = new int[ ] { 1, 2, 3, 4, 5 };
+
+// csharp_space_between_empty_square_brackets = false
+int[] numbers = new int[] { 1, 2, 3, 4, 5 };
+```
+
+#### <a name="csharpspacebetweensquarebrackets"></a>csharp_space_between_square_brackets
+
+|||
+|-|-|
+| **규칙 이름** | csharp_space_between_square_brackets |
+| **해당 언어** | C# |
+| **값** | `true` - 비어 있지 않은 대괄호 `[ 0 ]` 안에 공백 문자를 삽입합니다. <br /><br />`false` - 비어 있지 않은 대괄호 `[0]` 안에서 공백 문자를 제거합니다. |
+| **Visual Studio 기본값** | `false` |
+
+코드 예제:
+
+```csharp
+// csharp_space_between_square_brackets = true
+int index = numbers[ 0 ];
+
+// csharp_space_between_square_brackets = false
+int index = numbers[0];
 ```
 
 ### <a name="wrap-options"></a>줄 바꿈 옵션

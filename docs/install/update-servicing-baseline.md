@@ -1,7 +1,7 @@
 ---
 title: 서비스 기준선에서 Visual Studio 업데이트
 description: 서비스 기준선에서 Visual Studio를 업데이트하는 방법을 알아보세요.
-ms.date: 05/22/2019
+ms.date: 07/17/2019
 ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: ''
@@ -12,16 +12,19 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: bf167c46e9b7dd9317278c7ce388977c4cc9428a
-ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
+ms.openlocfilehash: ca8aaf0af2ad7374137752783b242a40e94f706c
+ms.sourcegitcommit: 2bbcba305fd0f8800fd3d9aa16f7647ee27f3a4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68250323"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68300541"
 ---
 # <a name="update-visual-studio-while-on-a-servicing-baseline"></a>서비스 기준선에서 Visual Studio 업데이트
 
-Visual Studio 2019는 [제품 수명 주기](/visualstudio/productinfo/release-rhythm#release-channel-updates) 동안 자주 업데이트가 이루어질 것입니다. 업데이트에는 새로운 기능 및 구성 요소를 추가하는 사소한 릴리스 업데이트(예: 16.0에서 16.1로 업데이트)와 중요 문제에 대해 대상을 지정하여 수정하는 서비스 업데이트(예: 16.0.4에서 16.0.5로 업데이트)가 둘 다 포함됩니다.
+제품 수명 주기 동안 Visual Studio를 자주 업데이트합니다. 업데이트에는 다음과 같은 두 가지 유형이 있습니다. 
+
+* **부 릴리스 업데이트**(예: 새 기능 및 구성 요소가 포함된 16.0~16.1)  
+* **서비스 업데이트**(예: 중요 문제로 수정 대상이 된 사항만 포함된 16.0.4~16.0.5)
 
 엔터프라이즈 관리자는 해당 클라이언트를 서비스 기준선에 유지할 수 있습니다. 서비스 기준선은 다음 서비스 기준선의 릴리스 이후 1년 동안 서비스 업데이트와 함께 지원됩니다.
 
@@ -34,7 +37,7 @@ Visual Studio 2019는 [제품 수명 주기](/visualstudio/productinfo/release-r
 > [!NOTE]
 > 최종 버전의 부트스트래퍼와 표준 부트스트래퍼를 구분해야 합니다. 표준 부트스트래퍼는 Visual Studio의 최신 릴리스를 사용하도록 구성됩니다. 표준 부트스트래퍼는 My.VisualStudio.com에서 다운로드할 때 파일 이름에 숫자가 있습니다(예: vs_enterprise__123456789-123456789.exe).
 
-설치하는 동안 엔터프라이즈 관리자는 클라이언트가 최신 릴리스로 업데이트되지 않도록 구성해야 합니다. 여러 가지 방법으로 클라이언트를 구성할 수 있습니다.
+설치하는 동안 엔터프라이즈 관리자는 클라이언트가 최신 릴리스로 업데이트되지 않도록 구성해야 합니다. 다음과 같은 여러 가지 방법으로 이 작업을 수행할 수 있습니다.
 - [레이아웃 또는 로컬 폴더에서 채널 매니페스트를 사용하도록 응답 구성 파일](update-servicing-baseline.md#install-a-servicing-baseline-on-a-network)의 `channelUri` 설정을 변경합니다.
 - [존재하지 않는 파일을 사용하도록 명령줄을 실행](update-servicing-baseline.md#install-a-servicing-baseline-via-the-internet)하여 channelUri를 수정합니다.
 - [클라이언트가 자동 업데이트되지 않도록 클라이언트 시스템에서 업데이트](update-servicing-baseline.md#use-policy-settings-to-disable-clients-from-updating)를 사용하지 않도록 정책을 설정합니다.
@@ -59,7 +62,7 @@ vs_enterprise.exe --channelUri c:\doesnotexist.chman
 
 서비스 기준선에 대한 업데이트가 있는 경우 [My.VisualStudio.com](https://my.visualstudio.com/Downloads?q=visual%20studio%202019%20version%2016.0)에서 서비스 업데이트에 대한 최종 버전 부트스트래퍼 파일을 사용할 수 있습니다.
 
-네트워크 레이아웃 설치를 통해 배포하는 관리자의 경우 [레이아웃 위치](update-a-network-installation-of-visual-studio.md)를 업데이트할 수 있습니다. 이 위치에서 설치된 클라이언트는 업데이트 알림을 받게 됩니다. 업데이트를 클라이언트에 배포해야 하는 경우에는 [이 지침](update-a-network-installation-of-visual-studio.md#how-to-deploy-an-update-to-client-machines)을 따릅니다. 업데이트에 대한 ‘response.json’을 수정하는 경우 추가 워크로드, 구성 요소 또는 언어를 추가하지 마십시오. 제품이 업데이트된 후에는 이러한 설정의 관리가 ‘수정’ 배포로 이루어져야 합니다.
+네트워크 레이아웃 설치를 통해 배포하는 관리자의 경우 [레이아웃 위치](update-a-network-installation-of-visual-studio.md)를 업데이트해야 합니다. 이 위치에서 설치된 클라이언트는 업데이트 알림을 받게 됩니다. 업데이트를 클라이언트에 배포해야 하는 경우에는 [이 지침](update-a-network-installation-of-visual-studio.md#how-to-deploy-an-update-to-client-machines)을 따릅니다. 업데이트에 대한 ‘response.json’을 수정하는 경우 추가 워크로드, 구성 요소 또는 언어를 추가하지 마십시오. 제품이 업데이트된 후에는 이러한 설정의 관리가 ‘수정’ 배포로 이루어져야 합니다.
 
 인터넷 기반 설치인 경우에는 클라이언트에 존재하지 않는 채널 매니페스트를 가리키는 `--channelUri` 매개 변수로 새로운 최종 버전 부트스트래퍼를 실행합니다. 업데이트를 자동 또는 수동 모드에서 배포하는 경우에 두 가지 명령을 사용합니다.
 

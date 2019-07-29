@@ -1,17 +1,17 @@
 ---
 title: 제품 키 사용 | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 10/03/2017
+ms.author: lank
+manager: lank
+ms.date: 07/20/2019
 ms.topic: conceptual
 description: Visual Studio 구독에서 제품 키를 얻고 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: d4874f5b0d429db7102facfe7f4747d68134fca2
-ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
+ms.openlocfilehash: 35dee0a03aa50e40b60d4207dcd6e830c9c27383
+ms.sourcegitcommit: 485881e6ba872c7b28a7b17ceaede845e5bea4fe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67785020"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68377703"
 ---
 # <a name="using-product-keys-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 제품 키 사용
 
@@ -42,13 +42,18 @@ MPN, BizSpark, MCT 소프트웨어 및 서비스 및 MCT를 통해 제공되는 
 
 자체 연구에 따르면 대부분의 구독자는 각 구독에 포함된 제품 키 수만큼 보호됩니다. 추가 키가 필요한 경우 Visual Studio 구독 [고객 서비스](https://visualstudio.microsoft.com/subscriptions/support/)를 통해 요청을 제출할 수 있으며 사례별로 승인됩니다.
 
-## <a name="locating-and-claiming-product-keys"></a>제품 키 찾기 및 요청
-제품 키를 보려면 Visual Studio 구독에 로그인해야 합니다. 개별 제품 키는 아래 표시된 것처럼 [다운로드](https://my.visualstudio.com/downloads) 페이지에서 특정 제품에 대한 파란색 **키 가져오기** 링크를 선택하여 확인할 수 있습니다.  또한 모든 키는 [제품 키](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) 페이지에서 전체적으로 사용할 수도 있습니다. 단일 제품에 대해 여러 키가 있는 경우 다운로드를 위해 [메모] 열에 해당 정보가 표시되어 사용해야 할 키를 식별하는 데 도움이 됩니다.
-> [!div class="mx-imgBorder"]
-> ![다운로드 페이지에서 키 가져오기](_img/product-keys/download-get-key.png)
+## <a name="accessing-product-keys"></a>제품 키 액세스
+제품 키를 보려면 Visual Studio 구독에 로그인해야 합니다. 개별 제품 키는 아래 표시된 것처럼 [다운로드](https://my.visualstudio.com/downloads) 페이지에서 특정 제품에 대한 파란색 **키 가져오기** 링크를 선택하여 확인할 수 있습니다.  단일 제품에 대해 여러 키가 있는 경우 다운로드를 위해 [메모] 열에 해당 정보가 표시되어 사용해야 할 키를 식별하는 데 도움이 됩니다.
 
 일부 제품은 한 번에 다운로드할 수 있도록 여러 버전이 번들로 구성되어 있습니다. 이러한 경우 입력하는 제품 키에 따라 설치되는 제품 버전이 결정됩니다.
 일부 키는 "정적" 키와 같이 자동으로 제공되며, 정품 인증이 필요하지 않으므로 필요한 만큼 여러 번 사용할 수 있습니다. 다른 키는 제품에 대한 **키 가져오기** 링크를 선택하여 요청해야 합니다.
+> [!div class="mx-imgBorder"]
+> ![다운로드 페이지에서 키 가져오기](_img/product-keys/download-get-key.png)
+
+또한 모든 키는 [제품 키](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) 페이지에서 전체적으로 사용할 수도 있습니다. 이 페이지에서는 특정 제품의 전체 사용자에게 효과적인 정적 키를 찾고 사용자만이 이용하도록 마련된 사용자 지정 키를 가져오며 키 요청 제한 상태를 확인하고 보유 중인 제품 키 모두를 찾아보실 수 있습니다. 
+
+> [!div class="mx-imgBorder"]
+> ![제품 키 페이지](_img/product-keys/product-keys-page.png)
 
 제품에 따라 다양한 키 유형을 사용할 수 있습니다.
 
@@ -70,46 +75,7 @@ MPN, BizSpark, MCT 소프트웨어 및 서비스 및 MCT를 통해 제공되는 
 
 제품에 대한 다운로드 페이지에서 키를 요청하거나 [제품 키](https://my.visualstudio.com/productkeys) 페이지에서 필요한 키를 검색할 수 있습니다.
 
-### <a name="claiming-product-keys"></a>제품 키 요청
-활성 구독이 있는 구독자만 제품을 다운로드하고 제품 키를 요청할 수 있습니다.  구독이 활성화되어 있는 동안 [제품 키](https://my.visualstudio.com/productkeys) 페이지에서 요청한 키를 내보낼 수 있습니다.
-
-제품 키를 요청하려면
-1. Visual Studio 구독에 로그인합니다.  제품을 다운로드하거나 제품 키를 요청하려면 로그인해야 합니다.
-2. [제품 키](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) 탭을 클릭합니다.
-3. 제품 키는 제품 이름별 사전순으로 나열됩니다.  원하는 제품의 이름으로 스크롤하거나 페이지 위쪽의 검색 표시줄을 사용하여 검색할 수 있습니다.
-   > [!div class="mx-imgBorder"]
-   > ![제품 키 검색](_img/product-keys/visio-product-key-cropped.png)
-
-이 예에서는 검색 표시줄을 사용하여 Visio 2010에 대한 제품 키를 찾습니다.
-여기서는 Visio 2010의 몇 가지 버전이 나열되어 있습니다.  이미 Visio Standard 2010 및 Visio Premium 2010에 대해 각각 하나의 키를 요청했으며, 둘 다에 4개의 키가 남아 있습니다.  요청한 키는 모두 일반 정품 키이며 페이지에 표시됩니다.  **메모** 열에서 요청한 키에 대한 간단한 메모를 기록할 수 있습니다.  **요청됨** 열의 날짜와 함께 이 메모를 사용하면 요청한 키를 추적할 수 있습니다.  예를 들어 키를 사용하여 제품 설치를 정품 인증할 때 메모를 만들 수 있습니다.
-
-### <a name="exporting-your-claimed-keys"></a>요청한 키 내보내기
-자동으로 "요청됨"으로 표시된 정적 및 다른 키 중에서 선택한 많은 항목과 함께 요청한 모든 키 목록을 내보낼 수 있습니다.
-
-> [!IMPORTANT]
-> 구독이 만료되면 더 이상 새 키를 요청하거나 요청한 키를 내보낼 수 없습니다.
-
-키를 내보내려면 [제품 키] 페이지의 오른쪽 끝에 있는 **모든 키 내보내기** 링크를 클릭하기만 하면 됩니다.  KeysExport.xml이라는 제목의 .xml 파일이 만들어지고, 파일을 열거나 저장할 수 있는 옵션이 표시됩니다.  .xml 파일을 처리할 수 있는 애플리케이션으로 파일을 열어야 합니다.  예를 들어 Excel에서 파일을 읽기 전용 통합 문서로 열 수 있습니다.
-
-## <a name="internet-demonstrations-via-terminal-services"></a>터미널 서비스를 통한 인터넷 데모
-Visual Studio 구독을 사용하면 최종 사용자가 터미널 서비스(Windows Server 2003 또는 Windows Server 2008) 또는 원격 데스크톱 서비스(Windows Server 2008 R2 이상)를 통해 프로그램의 인터넷 데모에 액세스할 수 있는 권한을 제공할 수 있습니다. 최대 200명의 익명 사용자가 이러한 방법으로 동시에 데모에 액세스할 수 있습니다. 데모에서 프로덕션 데이터를 사용하면 안됩니다. Visual Studio 구독자에게는 자신의 애플리케이션을 최종 사용자에게 시연할 수 있는 라이선스가 부여됩니다. TS(터미널 서비스) 또는 RDS(원격 데스크톱 서비스)를 사용한 이 인터넷 데모는 Visual Studio 구독을 통해 소프트웨어에 라이선스가 부여되었을 때 Visual Studio 구독이 없는 최종 사용자가 데모 애플리케이션과 상호 작용할 수 있는 유일한 시나리오입니다.
-
-이는 Visual Studio 구독자가 필요한 만큼 많은 수의 RDS 또는 TS 연결을 사용할 수 있는 개발/테스트 권한에 추가되는 권한입니다.
-
-### <a name="enabling-rds-access"></a>RDS 액세스 사용
-Visual Studio 구독자는 [구독자 포털](https://my.visualstudio.com?wt.mc_id=o~msft~docs)의 [제품 키](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) 탭에서 제공된 제품 키를 입력하여 RDS를 통해 Windows Server에 액세스할 수 있는 사용자 수를 늘릴 수 있습니다. 제품 키를 얻으려면 [제품 키] 페이지에 연결하고 실행 중인 Windows Server 버전까지 스크롤합니다. "Windows Server &lt; 버전 &gt; R2 원격 데스크톱 서비스 &lt; 사용자 또는 디바이스 &gt; 연결 수"를 찾고 **키 요청** 링크를 클릭합니다. 예를 들어 Windows Server 2012 R2에서 RDS를 사용하고 배포에서 사용자 CAL을 사용하는 경우 "Windows Server 2012 원격 데스크톱 서비스 사용자 연결 수(50)"를 선택합니다.
-각 유형의 5개 키는 Windows Server 2008 R2에 대해 사용할 수 있으며, 각 키는 20개의 연결을 지원합니다. Windows Server 2012 R2의 경우 각 유형에 대한 4개의 키가 제공되며 각각 50개의 연결을 지원합니다.
-
-#### <a name="to-enable-additional-connections-in-windows-server"></a>Windows Server에서 추가 연결을 사용하도록 설정하려면
-1. 서버 관리자를 엽니다.
-2. 왼쪽 탐색 창에서 [서버] 목록을 엽니다.
-3. 라이선스 서버를 마우스 오른쪽 단추로 클릭하고 "라이선스 설치"를 선택합니다.
-4. 마법사의 단계별 지침을 따릅니다.  계약 유형을 선택할 때 "라이선스 팩(일반 정품)"을 선택하고 [내] 포털에서 얻은 제품 키를 입력합니다.
-
-다음 조건이 충족되면 최종 사용자가 RDS를 통해 애플리케이션에 액세스할 수 있습니다.
-- 사용자는 익명이어야 합니다(인증되지 않은 상태).
-- 인터넷을 통한 연결이어야 합니다.
-- 애플리케이션 데모를 위해 최대 200명의 동시 사용자 연결을 사용할 수 있습니다.
-- Visual Studio 구독자는 사용자 연결을 사용하도록 설정하기 위한 제품 키를 얻어야 합니다.
-
-서버에서 RD 라이선싱을 설정하는 방법에 대한 지침이 필요하면 [Windows Server 2012에서 RD 라이선싱 구성](http://blogs.technet.com/b/askperf/archive/2013/09/20/rd-licensing-configuration-on-windows-server-2012.aspx)을 참조하세요. 의문 사항이 있으면 [Microsoft 원격 데스크톱 서비스 포럼](https://social.technet.microsoft.com/Forums/windowsserver/home?forum=winserverTS)을 방문하세요.
+## <a name="next-steps"></a>다음 단계
+키를 요청하려면 https://my.visualstudio.com/productkeys 를 방문하세요.  
+[키 찾기 및 요청](find-keys.md) 방법을 알아보세요.
+또한 제품 키를 사용하여 [인터넷 데모](internet-demos.md)를 지원하는 방법에 대해 알아보실 수도 있습니다.

@@ -1,17 +1,17 @@
 ---
 title: 구독자 포털 사용 - http://my.visualstudio.com | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 01/04/2018
+ms.author: lank
+manager: lank
+ms.date: 07/19/2019
 ms.topic: conceptual
 description: Visual Studio 구독 포털에서 사용할 수 있는 이점의 전체 범위에 대해 알아보기
-ms.openlocfilehash: eab622c843a7099b5a75ca953d55666be849b246
-ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
+ms.openlocfilehash: 8ac16b09077935fc1b45d2b04acd895107096459
+ms.sourcegitcommit: 485881e6ba872c7b28a7b17ceaede845e5bea4fe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67784775"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68377922"
 ---
 # <a name="using-the-subscriber-portal---myvisualstudiocom"></a>구독자 포털 사용 - my.visualstudio.com
 
@@ -51,3 +51,6 @@ Azure와 관련하여 궁금한 점이 있으세요?  포럼을 통해 Azure 커
 ## <a name="marketplacehttpsmarketplacevisualstudiocom"></a>[Marketplace](https://marketplace.visualstudio.com/)
 
 Visual Studio 클라우드 구독을 갱신해야 하세요?  Visual Studio 제품군에 대한 최신 확장을 다운로드하고 싶으세요?  Marketplace를 통해 사용자는 Azure DevOps, Azure DevOps Server 및 Visual Studio Code를 더욱 효과적으로 만드는 확장, 도구 및 서비스를 찾을 수 있습니다. 게시자가 되고 Marketplace에 자체 확장을 게시할 수도 있습니다.
+
+## <a name="next-steps"></a>다음 단계
+[https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs)에서 포털에 로그인하고 혜택을 확인하세요.  [Microsoft 계정](sign-in-msa.md)(MSA), [회사 또는 학교 계정](sign-in-work.md), 그리고 [GitHub 계정](sign-in-github.md)으로 포털에 로그인하는 방법에 대해 자세히 알아보실 수도 있습니다. 

@@ -11,12 +11,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 8931e16751355a7f25c9ab88dbcd554bc7cb0ea7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 97b1fc79c7b558fc4445b3d2621746e752a4ef71
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965608"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416491"
 ---
 # <a name="learn-about-projects-and-solutions-using-visual-basic"></a>Visual Basic을 사용하여 프로젝트 및 솔루션에 대해 알아보기
 
@@ -73,6 +73,8 @@ ms.locfileid: "62965608"
 
 3. **새 프로젝트 만들기** 페이지에서 검색 상자에 **빈 솔루션**을 입력하고 **빈 솔루션** 템플릿, **다음**을 차례로 선택합니다.
 
+   ![Visual Studio 2019의 빈 솔루션 템플릿](../media/vs-2019/tutorial-projects-blank-solution-template.png)
+
 4. 솔루션 이름을 **QuickSolution**으로 지정하고 **만들기**를 선택합니다.
 
    솔루션이 Visual Studio 창 오른쪽에 있는 **솔루션 탐색기**에 표시됩니다. 자주 **솔루션 탐색기**를 사용하여 프로젝트의 내용을 탐색할 수 있습니다.
@@ -83,7 +85,9 @@ ms.locfileid: "62965608"
 
 이제 첫 번째 프로젝트를 솔루션에 추가해 보겠습니다. 빈 프로젝트를 시작하고 프로젝트에 필요한 항목을 추가합니다.
 
-1. **솔루션 탐색기**의 **솔루션 'QuickSolution'** 을 마우스 오른쪽 단추로 클릭하거나 상황에 맞는 메뉴에서 **추가** > **새 프로젝트**를 선택합니다.
+::: moniker range="vs-2017"
+
+1. **솔루션 탐색기**의 **솔루션 'QuickSolution'** 을 마우스 오른쪽 단추로 클릭하고 **추가**>**새 프로젝트**를 선택합니다.
 
    **새 프로젝트 추가** 대화 상자가 열립니다.
 
@@ -93,8 +97,31 @@ ms.locfileid: "62965608"
 
    > [!NOTE]
    > 대화 상자의 왼쪽 창에서 **Visual Basic**이 표시되지 않으면 **.NET 데스크톱 개발** Visual Studio *워크로드*를 설치해야 합니다. Visual Studio에서는 워크로드 기반 설치를 사용하여 개발할 형식에 필요한 구성 요소만을 설치합니다. 새로운 워크로드를 설치하는 쉬운 방법은 **새 프로젝트 추가** 대화 상자의 왼쪽 아래에 있는 **Visual Studio 설치 관리자 열기** 링크를 선택하는 것입니다. Visual Studio 설치 관리자가 실행되면 **.NET 데스크톱 개발** 워크로드를 선택한 다음, **수정** 단추를 선택합니다.
+   >
+   > ![Visual Studio 설치 관리자 열기 링크](media/tutorial-projects-open-installer-vb.png)
 
-   ![Visual Studio 설치 관리자 열기 링크](media/tutorial-projects-open-installer-vb.png)
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+1. **솔루션 탐색기**의 **솔루션 'QuickSolution'** 을 마우스 오른쪽 단추로 클릭하고 **추가**>**새 프로젝트**를 선택합니다.
+
+   **새 프로젝트 추가**라고 표시된 대화 상자가 열립니다.
+
+1. 상단의 검색 상자에 **empty**라는 텍스트를 입력한 다음 **언어** 아래에서 **Visual Basic**을 선택합니다.
+
+1. **빈 프로젝트(.NET Framework)** 템플릿을 선택한 후에 **다음**을 선택합니다.
+
+1. 프로젝트 이름을 **QuickDate**로 지정한 다음, **만들기**를 선택합니다.
+
+   QuickDate라는 프로젝트는 **솔루션 탐색기**의 솔루션 아래에 표시됩니다. 현재 *App.config*라는 단일 파일이 포함됩니다.
+
+   > [!NOTE]
+   > **빈 프로젝트(.NET Framework)** 템플릿이 표시되지 않는 경우 **.NET 데스크톱 개발** Visual Studio *워크로드*를 설치해야 합니다. Visual Studio에서는 워크로드 기반 설치를 사용하여 개발할 형식에 필요한 구성 요소만을 설치합니다. 새 프로젝트를 만들 때 **원하는 내용을 찾을 수 없습니까?** 로 표시된 텍스트 아래에서 **추가 도구 및 기능 설치** 링크를 선택하면 새 워크로드를 간편히 설치할 수 있습니다. Visual Studio 설치 관리자가 실행되면 **.NET 데스크톱 개발** 워크로드를 선택한 다음, **수정** 단추를 선택합니다.
+   >
+   > ![Visual Studio 2019의 설치 관리자 링크](../media/vs-2019/tutorial-projects-open-installer.png)
+
+::: moniker-end
 
 ## <a name="add-an-item-to-the-project"></a>프로젝트에 새 항목 추가
 
@@ -132,13 +159,27 @@ ms.locfileid: "62965608"
 
 1. **솔루션 탐색기**의 **솔루션 'QuickSolution'** 을 마우스 오른쪽 단추로 클릭하거나 상황에 맞는 메뉴에서 **추가** > **새 프로젝트**를 선택합니다.
 
-   **새 프로젝트 추가** 대화 상자가 열립니다.
+::: moniker range="Vs-2017"
 
-1. 왼쪽 창에서 **Visual Basic**을 확장하고 **테스트** 범주를 선택합니다. 가운데 창에서 **단위 테스트 프로젝트(.NET Framework)** 프로젝트 템플릿을 선택합니다. 프로젝트 이름을 **QuickTest**로 지정한 다음, **확인** 단추를 선택합니다.
+2. 왼쪽 창에서 **Visual Basic**을 확장하고 **테스트** 범주를 선택합니다. 가운데 창에서 **단위 테스트 프로젝트(.NET Framework)** 프로젝트 템플릿을 선택합니다. 프로젝트 이름을 **QuickTest**로 지정한 다음, **확인** 단추를 선택합니다.
 
    두 번째 프로젝트가 **솔루션 탐색기**에 추가되고 *UnitTest1.vb*라는 파일이 편집기에서 열립니다.
 
    ![두 개의 프로젝트를 포함한 Visual Studio 솔루션 탐색기](media/tutorial-projects-solution-explorer-vb.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+2. **새 프로젝트 추가** 대화 상자에서 **단위 테스트**라는 텍스트를 상단의 검색 상자에 입력한 다음 **언어** 아래의 **Visual Basic**을 선택합니다.
+
+3. **단위 테스트 프로젝트(.NET Framework)** 프로젝트 템플릿을 선택한 후, **다음**을 선택합니다.
+
+4. 프로젝트 이름을 **QuickTest**로 지정한 다음, **만들기**를 선택합니다.
+
+   두 번째 프로젝트가 **솔루션 탐색기**에 추가되고 *UnitTest1.vb*라는 파일이 편집기에서 열립니다.
+
+::: moniker-end
 
 ## <a name="add-a-project-reference"></a>프로젝트 참조 추가
 
@@ -168,7 +209,7 @@ ms.locfileid: "62965608"
    End Class
    ```
 
-   일부 코드에서 빨간색 "물결선"이 표시됩니다. 테스트 프로젝트를 [friend 어셈블리](/dotnet/visual-basic/programming-guide/concepts/assemblies-gac/friend-assemblies)에서 **QuickDate** 프로젝트로 만들어서 이 오류를 수정합니다.
+   일부 코드에서 빨간색 물결선이 표시됩니다. 테스트 프로젝트를 [friend 어셈블리](/dotnet/visual-basic/programming-guide/concepts/assemblies-gac/friend-assemblies)에서 **QuickDate** 프로젝트로 만들어서 이 오류를 수정합니다.
 
 1. **QuickDate** 프로젝트로 돌아와서 아직 열지 않은 *Calendar.vb* 파일을 열고, 다음 [Import 문](/dotnet/visual-basic/language-reference/statements/imports-statement-net-namespace-and-type) 및 <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> 특성을 추가하여 테스트 프로젝트에서 오류를 해결합니다.
 

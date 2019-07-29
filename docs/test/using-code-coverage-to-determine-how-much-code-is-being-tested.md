@@ -1,6 +1,6 @@
 ---
 title: 코드 검사 테스트
-ms.date: 09/18/2018
+ms.date: 07/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a76b40e2a9848b0f80e755d15a9bd6e65fcf51da
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4a25fbffa21a7caeab1cf5910e1da95d7fba09e5
+ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62973099"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68416449"
 ---
 # <a name="use-code-coverage-to-determine-how-much-code-is-being-tested"></a>코드 검사를 사용하여 테스트할 코드 범위 결정
 
@@ -47,7 +47,7 @@ ms.locfileid: "62973099"
 > [!TIP]
 > - 컴파일러 최적화가 해제되었는지 확인
 > - 관리되지 않은(네이티브) 코드를 사용하는 경우 디버그 빌드 사용
-> - 각 어셈블리에 대해 .pdb(기호) 파일을 생성하고 있는지 확인합니다.
+> - 각 어셈블리에 대해 .pdb(기호) 파일을 생성하고 있는지 확인
 
 예상한 결과를 얻지 못한 경우 [코드 검사 문제 해결](../test/troubleshooting-code-coverage.md)을 참조하세요. 코드를 업데이트한 후 반드시 코드 검사를 다시 실행하세요. 검사 결과 및 코드 강조는 코드를 수정한 후 또는 테스트를 실행한 경우 자동으로 업데이트되지 않습니다.
 
@@ -55,9 +55,10 @@ ms.locfileid: "62973099"
 
 코드 검사는 *블록*으로 계산됩니다. 블록은 진입점 및 진출점이 정확히 하나씩인 코드입니다.  테스트 실행 중 프로그램의 제어 흐름이 블록을 통과할 경우 해당 블록은 검사된 것으로 계산됩니다. 블록이 사용된 횟수는 결과에 영향을 아무 영향을 미치지 않습니다.
 
-또한 표 머리글에서 **열 추가/제거**를 선택하여 결과를 줄 단위로 표시할 수 있습니다. 테스트 실행이 모든 코드 블록을 임의의 코드 줄에서 실행한 경우 하나의 줄로 계산됩니다. 한 줄에 실행된 일부 코드 블록과 실행되지 않은 일부 코드 블록이 포함된 경우 해당 줄은 부분적 줄로 계산됩니다.
+또한 표 머리글에서 **열 추가/제거**를 선택하여 결과를 줄 단위로 표시할 수 있습니다. 일부 사용자는 백분율이 소스 코드에 표시되는 조각 크기와 더 가깝기 때문에 줄 수를 더 선호합니다. 긴 계산 블록은 여러 줄을 차지하는 경우에도 단일 블록으로 계산됩니다.
 
-일부 사용자는 백분율이 소스 코드에 표시되는 조각 크기와 더 가깝기 때문에 줄 수를 더 선호합니다. 긴 계산 블록은 여러 줄을 차지하는 경우에도 단일 블록으로 계산됩니다.
+> [!TIP]
+> 코드 줄에는 코드 블록이 둘 이상 있을 수 있습니다. 이와 같은 경우인 데다 테스트 실행에서 줄의 코드 블록을 모두 실행할 경우에는 하나의 줄로 계산됩니다. 줄에서 코드 블록이 전체가 아닌 일부만 실행되면 이는 부분 줄로 계산됩니다.
 
 ## <a name="manage-code-coverage-results"></a>코드 검사 결과 관리
 
