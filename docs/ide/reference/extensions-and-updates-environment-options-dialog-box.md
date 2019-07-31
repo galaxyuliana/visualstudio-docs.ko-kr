@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d7c49cc7946f9fea988c57a4ba782ec93a6294fa
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9d2ddf174255a7db85e3eb61d71472748287be90
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62790852"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68605856"
 ---
 # <a name="options-dialog-box-environment--extensions"></a>옵션 대화 상자: 환경 \> 확장
 
@@ -36,7 +36,3 @@ ms.locfileid: "62790852"
 ## <a name="additional-extension-galleries"></a>추가 확장 갤러리
 
 고유 확장 갤러리에 대한 지원을 활성화하는 엔터프라이즈 기능입니다. 자세한 내용은 [Private galleries](../../extensibility/private-galleries.md)(전용 갤러리)를 참조하세요.
-
-## <a name="see-also"></a>참고 항목
-
-- [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)

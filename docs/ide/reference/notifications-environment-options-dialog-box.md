@@ -11,17 +11,13 @@ manager: jillfra
 ms.workload:
 - multiple
 monikerRange: vs-2017
-ms.openlocfilehash: 702e1dfa14874691b72ce42e21cf6057f56d8394
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6a475397969ce5ebdeff15238f548d42ceee60d6
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62989873"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68606024"
 ---
 # <a name="notifications-environment-options-dialog-box"></a>알림, 환경, 옵션 대화 상자
 
 이전에 **알림** 대화 상자를 통해 무시하도록 선택한 알림에 대해 무시를 중지하려면 이 옵션을 사용합니다. 자세한 내용은 [Visual Studio 업데이트](../../install/update-visual-studio.md)를 참조하세요.
-
-### <a name="see-also"></a>참고 항목
-
-- [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)

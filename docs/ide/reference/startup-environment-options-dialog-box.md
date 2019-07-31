@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 27f67c00173db998b32d0a012af55428b87d1eda
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e0f14d830c9b0c3d091ffc380f64c128b8b79b83
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62950922"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68605919"
 ---
 # <a name="options-dialog-box-environment--startup"></a>옵션 대화 상자: 환경 \> 시작
 
@@ -30,7 +30,3 @@ ms.locfileid: "62950922"
 이 페이지를 사용하여 Visual Studio가 시작될 때 다른 기본 동작을 설정합니다. **시작 시, 열기** 목록의 **시작 창**(새 프로젝트 또는 기존 프로젝트를 열 수 있음), **최근 솔루션** 또는 **빈 환경** 중에서 선택합니다.
 
 ::: moniker-end
-
-## <a name="see-also"></a>참고 항목
-
-- [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)

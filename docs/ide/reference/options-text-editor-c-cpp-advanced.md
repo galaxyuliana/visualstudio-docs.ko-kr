@@ -11,15 +11,15 @@ helpviewer_keywords:
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 1c6cdfc62885133d82911c7336d011804e9a322d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6c5399411998f4a03468f2dedccfd660eaf8de11
+ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62817599"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68461816"
 ---
 # <a name="options-text-editor-cc-advanced"></a>옵션, 텍스트 편집기, C/C++, 고급
 
