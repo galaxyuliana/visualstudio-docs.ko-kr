@@ -7,12 +7,12 @@ ms.topic: conceptual
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.openlocfilehash: b6922e5a2b14186afd1f3fa9294bbb24c2e7d649
-ms.sourcegitcommit: 485881e6ba872c7b28a7b17ceaede845e5bea4fe
+ms.openlocfilehash: ba6c17aa6aa1f0a89e53be6b8dba7067e1fdc902
+ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68377952"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68493391"
 ---
 # <a name="what39s-new-in-visual-studio-subscriptions"></a>Visual Studio 구독의 새로운 기능
 
@@ -42,5 +42,3 @@ GitHub Enterprise는 기업계약을 통해 구입한 Visual Studio Enterprise �
 조직이 GitHub Enterprise 구독을 포함한 Visual Studio를 이미 갖고 있는 경우에는 설명서에서 [GitHub Enterprise 구독이 포함된 Visual Studio 관리](assign-github.md)에 대해 자세히 알아보세요.  
 
 이제 됐습니다!
-
-

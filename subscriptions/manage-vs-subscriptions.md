@@ -6,12 +6,12 @@ manager: lank
 ms.date: 07/17/2019
 ms.topic: conceptual
 description: Visual Studio 구독을 최대한 활용하는 방법을 알아봅니다.
-ms.openlocfilehash: 553513bf41184389b921f392962f22f26561094f
-ms.sourcegitcommit: 485881e6ba872c7b28a7b17ceaede845e5bea4fe
+ms.openlocfilehash: dcbcbc9c11dc5c695a1ca2ed523ad982ff18f5c5
+ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68378084"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68493353"
 ---
 # <a name="managing-subscriptions"></a>구독 관리
 
@@ -73,7 +73,6 @@ Microsoft 볼륨 라이선스를 통해 구독을 구입했고 조직 내의 다
 3. **정보** 탭에서 이름, 전자 메일, 국가/지역, 프로필 사진 및 연락처 기본 설정을 변경할 수 있습니다. **기본 설정** 탭에서 기본 설정된 언어, 날짜 및 시간 패턴, 시간대 및 사용자 인터페이스 테마를 선택할 수 있습니다.
 4. 변경이 완료되면 **저장**을 클릭합니다.
 5. 브라우저의 **뒤로** 단추를 클릭하여 [혜택] 페이지로 돌아갑니다.
-
 
 ### <a name="setting-communications-preferences"></a>통신 기본 설정 지정
 월간 Visual Studio 구독 뉴스레터를 포함하여 구독 및 혜택의 정기 업데이트를 받으려는 경우 Visual Studio 프로필에서 Visual Studio 구독의 확인란을 선택하여 [기본 설정을 업데이트](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit)합니다. 언제든지 이러한 기본 설정을 변경하고 구독을 취소할 수 있습니다. 

@@ -6,12 +6,12 @@ manager: lank
 ms.date: 07/23/2019
 ms.topic: conceptual
 description: 관리자의 대규모 팀 및 외부 계약업체 구독 관리 책임에 대해 알아봅니다.
-ms.openlocfilehash: 0f304d4858658c4540e38c6fa250e08c127713ae
-ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
+ms.openlocfilehash: 91e507358084bcb878d2a9afc7aad4fe4a2b869c
+ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68420574"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68493342"
 ---
 # <a name="large-teams-and-external-contractors"></a>대규모 팀 및 외부 계약업체
 Visual Studio 구독 관리자는 Visual Studio 사용이 허가된 소프트웨어와 상호 작용하는 모든 사용자가 자신 소유의 Visual Studio 구독에 대해 적절하게 사용이 허가되어 있는지 확인해야 하는 책임이 있습니다.
@@ -39,5 +39,3 @@ Visual Studio 구독 관리자는 Visual Studio 사용이 허가된 소프트웨
 - [사전 프로덕션 환경 인벤토리](admin-inventory.md)
 - [사용자 할당 추적 및 주문 처리](assignments-orders.md)
 - [최대 사용량](maximum-usage.md)으로 구매 커밋 추적
-
-
