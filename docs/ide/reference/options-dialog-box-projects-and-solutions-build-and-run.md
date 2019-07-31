@@ -1,6 +1,7 @@
 ---
 title: 옵션 대화 상자, 프로젝트 및 솔루션, 빌드 및 실행
 ms.date: 07/14/2017
+ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Projects.Build_and_Run
@@ -9,17 +10,17 @@ helpviewer_keywords:
 - run actions
 - debugger, run options
 ms.assetid: c884976e-c0df-4c6d-8e3a-856ea2bd547c
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3d0f24dc1afa875183f03e15e46cc2331f27cbf0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 24ba5bbf34ecc12c2508c538e74909ee0a10aef4
+ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62996831"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68461387"
 ---
 # <a name="options-dialog-box-projects-and-solutions--build-and-run"></a>옵션 대화 상자: 프로젝트 및 솔루션 \> 빌드 및 실행
 
@@ -35,13 +36,13 @@ ms.locfileid: "62996831"
 
 **실행 시 프로젝트가 만료된 경우**
 
-‘C++ 프로젝트에만 적용됩니다.’
+‘C++ 프로젝트에만 적용됩니다.’ 
 
 **F5** 키 또는 **디버그** > **디버깅 시작** 명령을 사용하여 프로젝트를 실행할 때 기본 설정인 **빌드 여부 묻기**에서 프로젝트 구성이 만료된 경우 메시지가 표시됩니다. 실행될 때마다 프로젝트를 빌드하려면 **항상 빌드**를 선택합니다. 프로젝트를 실행할 때 모든 자동 빌드를 표시하지 않으려면 **빌드 안 함**을 선택합니다.
 
 **실행 시 빌드 또는 배포 오류가 발생한 경우**
 
-‘C++ 프로젝트에만 적용됩니다.’
+‘C++ 프로젝트에만 적용됩니다.’ 
 
 **F5** 키 또는 **디버그** > **디버깅 시작** 명령을 사용하여 프로젝트를 실행할 때 기본 설정인 **시작 여부 묻기**에서 빌드에 실패해도 프로젝트를 실행해야 하는 경우 메시지가 표시됩니다. 마지막으로 성공한 빌드를 자동으로 시작하려면 **이전 버전 시작** 을 선택합니다. 그러면 실행 중인 코드와 소스 코드 간에 불일치가 발생할 수 있습니다. 메시지를 표시하지 않으려면 **시작하지 않음**을 선택합니다.
 
@@ -55,7 +56,7 @@ ms.locfileid: "62996831"
 
 **MSBuild 프로젝트 빌드 로그 파일의 자세한 정도**
 
-‘C++ 프로젝트에만 적용됩니다.’
+‘C++ 프로젝트에만 적용됩니다.’ 
 
 *\\\<ProjectName>\Debug\\\<ProjectName>.log*에 있는 빌드 로그 파일에 작성되는 정보의 양을 결정합니다.
 

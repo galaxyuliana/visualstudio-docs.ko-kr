@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 02ef55b44d57cecadb690637c17c0a35e9cb0659
-ms.sourcegitcommit: 614d5b99576ea27a41957cd94062dc95cbd29c1c
+ms.openlocfilehash: bdf19530461d52523bc581835e14fcaabe0e9a76
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "65531608"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68605435"
 ---
 # <a name="how-to-manage-word-wrap-in-the-editor"></a>방법: 편집기에서 자동 줄 바꿈 관리
 
@@ -55,5 +55,4 @@ Notepad++, Sublime Text 또는 Visual Studio Code에서 자동 줄 바꿈에 익
 
 ## <a name="see-also"></a>참고 항목
 
-- [옵션 대화 상자, 텍스트 편집기](../../ide/reference/text-editor-options-dialog-box.md)
 - [코드 편집기의 기능](../../ide/writing-code-in-the-code-and-text-editor.md)

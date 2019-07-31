@@ -1,6 +1,7 @@
 ---
 title: 파일 속성, JavaScript
 ms.date: 06/21/2017
+ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
 - javascript.project.property.expandedsdknode.fileversion
@@ -20,19 +21,20 @@ f1_keywords:
 - javascript.project.property.reference.resolvedpath
 - javascript.project.property.reference.version
 ms.assetid: 085913b8-a97b-45f7-85fa-bbb0902f3ee9
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5c8bb8bc743aea29219edc8db9c0c52bf839954a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6d615a6d805fb9ff63ffd0ac402b115a0e9dc691
+ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62790650"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68461839"
 ---
 # <a name="file-properties-javascript"></a>파일 속성, JavaScript
+
 파일 속성을 사용하여 프로젝트 시스템이 파일에 대해 수행해야 하는 작업을 지정할 수 있습니다. 예를 들어 파일 속성을 설정하여 파일을 패키지에 리소스 파일로 추가해야 하는지 여부를 지정할 수 있습니다.
 
  솔루션 탐색기에서 파일을 선택하고 속성 창에서 해당 속성을 검사할 수 있습니다. JavaScript 파일에는 다음과 같은 네 가지 속성이 있습니다. **출력 디렉터리에 복사**, **패키지 작업**, **파일 이름** 및 **파일 경로**

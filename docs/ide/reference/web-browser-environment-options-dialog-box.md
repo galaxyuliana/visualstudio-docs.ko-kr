@@ -21,12 +21,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c40f2ba0f9d8c5f629f37a9e40a94d38273edfd9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ad36a2c9c741cffdb1ad3da04f81a21ce68f7ebd
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62788956"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68605631"
 ---
 # <a name="options-dialog-box-environment--web-browser"></a>옵션 대화 상자: 환경 \> 웹 브라우저
 
@@ -65,6 +65,5 @@ IDE 웹 브라우저를 열 때 표시되는 페이지를 설정합니다.
 
 ## <a name="see-also"></a>참고 항목
 
-- [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)
 - [옵션 대화 상자, 환경, 일반](../../ide/reference/general-environment-options-dialog-box.md)
 - [HTML 디자이너](https://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477)

@@ -31,12 +31,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e74358d4eb24d54c36ee099942dfbf0b5ca40210
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a09036e0c0f83d262760598dd02e6cf6e8cdd38e
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62827052"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68606064"
 ---
 # <a name="options-dialog-box-environment--documents"></a>옵션 대화 상자: 환경 \> 문서
 
@@ -85,6 +85,5 @@ ms.locfileid: "62827052"
 
 ## <a name="see-also"></a>참고 항목
 
-- [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)
 - [기타 파일](../../ide/reference/miscellaneous-files.md)
 - [텍스트 찾기 및 바꾸기](../../ide/finding-and-replacing-text.md)

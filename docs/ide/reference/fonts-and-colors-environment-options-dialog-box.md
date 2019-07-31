@@ -25,12 +25,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b1576af2511f3bd24c26a64c1667c6b466bedd1e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5b05d6651f865a300a0c065c5e0a275cb29fd309
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62790210"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68605422"
 ---
 # <a name="fonts-and-colors-environment-options-dialog-box"></a>옵션 대화 상자, 환경, 글꼴 및 색
 
@@ -253,6 +253,5 @@ Visual Studio를 처음 열 때 항목에 표시되는 색입니다. **기본값
 
 ## <a name="see-also"></a>참고 항목
 
-- [옵션 대화 상자, 환경](../../ide/reference/environment-options-dialog-box.md)
 - [옵션 대화 상자](../../ide/reference/options-dialog-box-visual-studio.md)
 - [방법: 글꼴 및 색 변경](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)

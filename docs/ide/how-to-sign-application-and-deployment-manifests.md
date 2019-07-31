@@ -1,6 +1,7 @@
 ---
 title: '방법: 애플리케이션 및 배포 매니페스트 서명'
 ms.date: 11/04/2016
+ms.technology: vs-ide-deployment
 ms.topic: conceptual
 helpviewer_keywords:
 - manifests [Visual Studio]
@@ -12,27 +13,27 @@ helpviewer_keywords:
 - key files [Visual Studio]
 - assemblies [Visual Studio], signing
 ms.assetid: 64173505-8bfb-41cf-a0de-b9075173f3a2
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 85a0dcb3b10db33605f1411615210928cde565fc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 01ccad0c1cdcde27d1d43b832ce7e4ca4da7b716
+ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62946923"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68461597"
 ---
 # <a name="how-to-sign-application-and-deployment-manifests"></a>방법: 애플리케이션 및 배포 매니페스트 서명
 
 ClickOnce 배포를 사용하여 애플리케이션을 게시하려면 애플리케이션 및 배포 매니페스트가 공개/개인 키 쌍으로 서명되고 Authenticode 기술로 서명되어야 합니다. Windows 인증서 저장소의 인증서 또는 키 파일을 사용하여 매니페스트에 서명할 수 있습니다.
 
- ClickOnce 배포에 대한 자세한 내용은 [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)를 참조하세요.
+ClickOnce 배포에 대한 자세한 내용은 [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)를 참조하세요.
 
- *.exe* 기반 애플리케이션의 경우 ClickOnce 매니페스트에 서명하는 것은 선택 사항입니다. 자세한 내용은 이 문서에서 "서명되지 않은 매니페스트 생성" 섹션을 참조하세요.
+*.exe* 기반 애플리케이션의 경우 ClickOnce 매니페스트에 서명하는 것은 선택 사항입니다. 자세한 내용은 이 문서에서 "서명되지 않은 매니페스트 생성" 섹션을 참조하세요.
 
- 키 파일을 만드는 방법은 [방법: 공개/개인 키 쌍 만들기](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair)를 참조하세요.
+키 파일을 만드는 방법은 [방법: 공개/개인 키 쌍 만들기](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair)를 참조하세요.
 
 > [!NOTE]
 > Visual Studio에서는 확장명이 *.pfx*인 PFX(개인 정보 교환) 키 파일만 지원합니다. 그러나 프로젝트 속성의 **서명** 페이지에서 **저장소에서 선택**을 클릭하여 현재 사용자의 Windows 인증서 저장소에서 다른 형식의 인증서를 선택할 수 있습니다.
@@ -60,12 +61,12 @@ ClickOnce 배포를 사용하여 애플리케이션을 게시하려면 애플리
 
      **파일 선택** 대화 상자가 나타납니다.
 
-3. **파일 선택** 대화 상자에서 사용할 키 파일(*.pfx*)의 위치로 이동하고 **열기**를 클릭합니다.
+3. **파일 선택** 대화 상자에서 사용할 키 파일( *.pfx*)의 위치로 이동하고 **열기**를 클릭합니다.
 
     > [!NOTE]
     > 이 옵션은 *.pfx* 확장명을 가진 파일만 지원합니다. 다른 형식의 키 파일 또는 인증서가 있다면 이를 Windows 인증서 저장소에 저장하고 이전 절차에서 설명된 대로 인증서를 선택합니다. 선택된 인증서의 목적에는 코드 서명이 포함되어야 합니다.
 
-     **파일을 여는 데 필요한 암호 입력** 대화 상자가 나타납니다. (*.pfx* 파일이 이미 Windows 인증서 저장소에 저장되거나 암호로 보호되지 않는 경우에는 암호 입력 프롬프트가 표시되지 않습니다.)
+     **파일을 여는 데 필요한 암호 입력** 대화 상자가 나타납니다. ( *.pfx* 파일이 이미 Windows 인증서 저장소에 저장되거나 암호로 보호되지 않는 경우에는 암호 입력 프롬프트가 표시되지 않습니다.)
 
 4. 암호를 입력하여 키 파일에 액세스하고 **Enter** 키를 누릅니다.
 
@@ -84,7 +85,7 @@ ClickOnce 배포를 사용하여 애플리케이션을 게시하려면 애플리
 > [!IMPORTANT]
 > 서명되지 않은 매니페스트를 사용하여 애플리케이션의 개발과 테스트를 간소화할 수 있습니다. 그러나 서명되지 않은 매니페스트를 사용하면 프로덕션 환경에 상당한 보안 위험이 추가됩니다. ClickOnce 애플리케이션이 인터넷 또는 악성 코드의 기타 출처와 완전히 격리된 인트라넷 내의 컴퓨터에서 실행되는 경우에만 서명되지 않은 매니페스트를 사용하는 것이 좋습니다.
 
- 기본적으로 ClickOnce는 하나 이상의 파일이 생성된 해시에서 특별히 제외되는 경우가 아니면 서명된 매니페스트를 자동으로 생성합니다. 즉, **ClickOnce 매니페스트 서명** 확인란이 선택 취소되더라도 모든 파일이 해시에 포함된 경우에는 애플리케이션을 게시하면 서명된 매니페스트가 생성됩니다.
+기본적으로 ClickOnce는 하나 이상의 파일이 생성된 해시에서 특별히 제외되는 경우가 아니면 서명된 매니페스트를 자동으로 생성합니다. 즉, **ClickOnce 매니페스트 서명** 확인란이 선택 취소되더라도 모든 파일이 해시에 포함된 경우에는 애플리케이션을 게시하면 서명된 매니페스트가 생성됩니다.
 
 ### <a name="to-generate-unsigned-manifests-and-include-all-files-in-the-generated-hash"></a>서명되지 않은 매니페스트를 생성하고 생성된 해시에 모든 파일을 포함하려면
 

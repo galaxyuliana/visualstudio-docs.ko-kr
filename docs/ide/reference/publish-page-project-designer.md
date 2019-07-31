@@ -1,25 +1,27 @@
 ---
 title: 프로젝트 디자이너, 게시 페이지
 ms.date: 11/04/2016
+ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
 - Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage
 helpviewer_keywords:
 - Project Designer, Publish page
 - Publish page in Project Designer
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 731ed637c8c728f51dd318e6c06b980e512b7d57
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: aa33f3adc4fe05bd0df5c24bcb1fa769f93682cc
+ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62968892"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68461635"
 ---
 # <a name="publish-page-project-designer"></a>프로젝트 디자이너, 게시 페이지
+
 **프로젝트 디자이너** 의 **게시** 페이지를 통해 ClickOnce 배포를 위한 속성을 구성합니다.
 
  이 **게시** 페이지에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드를 선택한 다음 **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너** 가 나타나면 **게시** 탭을 클릭합니다.
@@ -28,6 +30,7 @@ ms.locfileid: "62968892"
 > 여기에 설명된 ClickOnce 속성 중 일부는 **빌드** 메뉴에서 또는 이 페이지의 **PublishWizard** 단추를 클릭하여 사용할 수 있는 **PublishWizard**에서도 설정할 수 있습니다.
 
 ## <a name="uielement-list"></a>UI 요소 목록
+
  **게시 폴더 위치**
 
  애플리케이션이 게시되는 위치를 지정합니다. 드라이브 경로(`C:\deploy\myapplication`), 파일 공유(`\\server\myapplication`) 또는 FTP 서버(`ftp://ftp.microsoft.com/myapplication`)일 수 있습니다. 찾아보기( **...** ) 단추가 작동하려면**게시 위치**상자에 텍스트가 있어야 합니다.
