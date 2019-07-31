@@ -71,8 +71,9 @@
 #### [온보딩 비디오](https://youtu.be/plSu6fpi7UI)
 ### 관리 포털 사용
 #### [개요](using-admin-portal.md)
-#### [구독 할당](assign-license.md)
-#### [할당 전자 메일 다시 보내기](resend-assignment-email.md)
+#### 구독 할당
+##### [단일 사용자 추가](assign-license.md)
+##### [여러 사용자 추가](assign-license-bulk.md)
 #### [구독 편집](edit-license.md)
 #### [구독 삭제](delete-license.md)
 #### [구독 검색](search-license.md)
@@ -81,12 +82,12 @@
 #### [최대 사용량](maximum-usage.md)
 #### [만료된 구독](handle-expired-license.md)
 #### [별칭을 사용하는 구독자](aliasing.md)
-#### [개인 전자 메일 로그인이 있는 구독자](personal-email-sign-ins.md)
+#### [개인 전자 메일 로그인을 사용하는 구독자](personal-email-sign-ins.md)
 ### [GitHub Enterprise가 포함된 Visual Studio 관리](assign-github.md)
 ## 자료
 ### [Visual Studio 라이선스 백서](https://aka.ms/vslicensing)
 ### [구독 옵션 및 가격 비교](https://visualstudio.microsoft.com/vs/pricing)
 ### [Visual Studio IDE 기능 비교](https://visualstudio.microsoft.com/vs/compare)
 ### [Visual Studio 관리 및 구독 지원](https://visualstudio.microsoft.com/support/support-overview-vs)
-### [볼륨 라이선스 조건](https://www.microsoft.com/licensing/product-licensing/products.aspx)
+### [볼륨 라이선스 약관](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 ### [MPSA(Microsoft 제품 및 서비스 계약)](https://www.microsoft.com/licensing/mpsa/default.aspx)
