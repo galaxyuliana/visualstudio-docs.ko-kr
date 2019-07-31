@@ -6,12 +6,12 @@ manager: lank
 ms.date: 07/19/2019
 ms.topic: conceptual
 description: 제품 키를 사용하여 터미널 서비스를 통한 인터넷 데모를 지원하고 RDS 액세스를 활성화하는 방법을 알아봅니다.
-ms.openlocfilehash: 34fa32f22582ccde69cbc54c86a3442ad92a7c96
-ms.sourcegitcommit: 485881e6ba872c7b28a7b17ceaede845e5bea4fe
+ms.openlocfilehash: 19faa64b7eeaebc1b92ca965f686795b31e00e7e
+ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68377975"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68493378"
 ---
 # <a name="internet-demonstrations-via-terminal-services"></a>터미널 서비스를 통한 인터넷 데모
 Visual Studio 구독을 사용하면 최종 사용자가 터미널 서비스(Windows Server 2003 또는 Windows Server 2008) 또는 원격 데스크톱 서비스(Windows Server 2008 R2 이상)를 통해 프로그램의 인터넷 데모에 액세스할 수 있는 권한을 제공할 수 있습니다. 최대 200명의 익명 사용자가 이러한 방법으로 동시에 데모에 액세스할 수 있습니다. 데모에서 프로덕션 데이터를 사용하면 안됩니다. Visual Studio 구독자에게는 자신의 애플리케이션을 최종 사용자에게 시연할 수 있는 라이선스가 부여됩니다. TS(터미널 서비스) 또는 RDS(원격 데스크톱 서비스)를 사용한 이 인터넷 데모는 Visual Studio 구독을 통해 소프트웨어에 라이선스가 부여되었을 때 Visual Studio 구독이 없는 최종 사용자가 데모 애플리케이션과 상호 작용할 수 있는 유일한 시나리오입니다.
@@ -38,4 +38,3 @@ Visual Studio 구독자는 [구독자 포털](https://my.visualstudio.com?wt.mc_
 RDS 배포 관련 지침이 필요하신 경우 https://techcommunity.microsoft.com/t5/Ask-The-Performance-Team/bg-p/AskPerf 에서 여러 파트로 구성된 **RDS(원격 데스크톱 서비스) 2012 세션 배포** 관련 블로그 시리즈를 참조하세요. 
 
 의문 사항이 있으면 [Microsoft 원격 데스크톱 서비스 포럼](https://social.technet.microsoft.com/Forums/windowsserver/home?forum=winserverTS)을 방문하세요.
-

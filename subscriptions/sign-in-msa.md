@@ -6,12 +6,12 @@ manager: lank
 ms.date: 07/11/2019
 ms.topic: conceptual
 description: Microsoft 계정(MSA)으로 Visual Studio 구독에 로그인하는 방법
-ms.openlocfilehash: 3f90dec91530cbcb559dfb950a8e7d43faf274b2
-ms.sourcegitcommit: 57866dd72fd0e15ce61128df70729b427a2d02eb
+ms.openlocfilehash: 1d144692ad8004037a590a6702d45765cda23a03
+ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68315354"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68493077"
 ---
 # <a name="signing-in-to-your-visual-studio-subscriptions-with-your-microsoft-account-msa"></a>Microsoft 계정(MSA)으로 Visual Studio 구독에 로그인
 
@@ -29,7 +29,6 @@ Visual Studio 구독에 로그인하는 단계는 사용 중인 계정의 종류
 3. 암호를 입력합니다.
 4. **로그인**을 클릭합니다.
 5. 그러면 “혜택” 페이지가 표시됩니다.
-
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 ### <a name="q--im-unable-to-sign-in-using-my-msa"></a>Q:  내 MSA로 로그인할 수 없습니다.  
