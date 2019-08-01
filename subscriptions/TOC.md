@@ -62,9 +62,7 @@
 #### [사전 프로덕션 인벤토리](admin-inventory.md)
 #### [대규모 팀 및 외부 계약업체 관리](manage-teams.md)
 #### [사용자 할당 추적 및 주문 처리](assignments-orders.md)
-### [볼륨 라이선스](volume-license-admins.md)
 ### 조직 온보딩
-#### [마이그레이션 후 온보딩](post-migration-onboarding.md)
 #### [오픈 및 오픈 라이선스 마이그레이션](open-migration.md)
 #### [MPSA](mpsa.md)
 #### [클라우드 구독](cloud-admin.md)
