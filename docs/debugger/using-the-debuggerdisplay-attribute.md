@@ -1,5 +1,5 @@
 ---
-title: DebuggerDisplay를 사용 하 여 사용자 지정 정보를 표시 합니다. | Microsoft Docs
+title: DebuggerDisplay를 사용 하 여 사용자 지정 정보 표시 | Microsoft Docs
 ms.date: 01/09/2019
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,15 +12,15 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: af666497deb20f3c2d9125b4beb452f24cabbbd2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1f8046ba598873329e6aa9fcea344504f15b4dbc
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62929615"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68680583"
 ---
-# <a name="tell-the-debugger-what-to-show-using-the-debuggerdisplay-attribute-c-visual-basic-f-ccli"></a>DebuggerDisplay 특성을 사용 하 여 표시 하도록 디버거에 지시 (C#, Visual Basic의 경우 F#, C++/CLI)
-<xref:System.Diagnostics.DebuggerDisplayAttribute>는 개체, 속성 또는 필드가 디버거 변수 창에 표시되는 방식을 제어합니다. 이 특성은 형식, 대리자, 속성, 필드 및 어셈블리에 적용할 수 있습니다.
+# <a name="tell-the-debugger-what-to-show-using-the-debuggerdisplay-attribute-c-visual-basic-f-ccli"></a>DebuggerDisplay 특성을 사용 하 여 표시할 내용 (C#, Visual Basic, F#, C++/cli)을 디버거에 알립니다.
+<xref:System.Diagnostics.DebuggerDisplayAttribute>는 개체, 속성 또는 필드가 디버거 변수 창에 표시되는 방식을 제어합니다. 이 특성은 형식, 대리자, 속성, 필드 및 어셈블리에 적용할 수 있습니다. 기본 형식에 적용 되는 경우 특성은 하위 클래스에도 적용 됩니다.
 
 `DebuggerDisplay` 특성에는 형식 인스턴스에 대한 값 열에 표시되는 문자열인 단일 인수가 있습니다. 이 문자열에는 중괄호(`{` 및 `}`)가 포함될 수 있습니다. 중괄호 쌍 안의 텍스트는 필드, 속성 또는 메서드로 확인됩니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "62929615"
 > **변수 창에서 개체의 원시 구조체 표시** 확인란이 **도구/옵션/디버깅** 대화 상자에서 선택되어 있는 경우 `DebuggerDisplay` 특성이 무시됩니다.
 
 > [!NOTE]
-> 네이티브 코드에 대해이 특성 에서만 지원 됩니다 C++/CLI 코드입니다.
+> 네이티브 코드의 경우이 특성은 C++/cli 코드 에서만 지원 됩니다.
 
 다음 표에서는 `DebuggerDisplay` 특성의 사용 예와 예제 출력을 보여 줍니다.
 
@@ -90,7 +90,7 @@ public sealed class MyClass
 }
 ```
 
-", nq" 접미사 지시 최종 값을 표시 하는 경우 따옴표를 제거 하는 식 계산기 (nq = 따옴표 없음).
+", Nq" 접미사는 최종 값 (nq = 따옴표 없음)을 표시할 때 식 계산기에 따옴표를 제거 하도록 지시 합니다.
 
 ## <a name="example"></a>예제
 다음 코드 예제에서는 `DebuggerDisplay`와 `DebuggerBrowseable` 및 `DebuggerTypeProxy`를 함께 사용하는 방법을 보여 줍니다. **조사식** 창과 같은 디버거 변수 창에 이 코드가 표시될 때는 다음과 같은 확장이 생성됩니다.
