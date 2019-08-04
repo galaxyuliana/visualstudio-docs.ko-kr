@@ -8,12 +8,12 @@ ms.assetid: ff978cc2-5a25-46d6-921b-e51adaa65992
 caps.latest.revision: 16
 ms.author: crdun
 manager: crdun
-ms.openlocfilehash: 258b9fcb8b36be1d179d9f907ef2da16ff1c3037
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: c72d37e34afe65378a1ddebe1c5b9be560b4d173
+ms.sourcegitcommit: b56dc6fadc6c924beed36bb4c2ccc16cf6bcfa1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65696257"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68740178"
 ---
 # <a name="application-lifecycle-management-alm-with-xamarin-apps"></a>ALM(Application Lifecycle Management) 및 Xamarin 앱
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -29,7 +29,7 @@ Xamarin을 통해 C#, .NET 및 Visual Studio를 사용하여 Android, iOS 및 Wi
  아래 표에서는 Xamarin 프로젝트에서 제대로 작동하는 Visual Studio ALM 기능 및 제한 사항이 있는 Visual Studio ALM 기능을 식별합니다. 기능 자체에 대한 자세한 내용은 연결된 설명서를 참조하세요.  
   
 ## <a name="agile-tools"></a>Agile 도구  
- 참조 링크: **[작업](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)**  (Visual Studio Team Services 또는 Team Explorer Everywhere를 포함 하 여 TFS 사용)  
+ 참조 링크: **[작업](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)** (Team Explorer Everywhere을 포함 하 여 Visual Studio Team Services 또는 TFS 사용)  
   
  일반 설명: 모든 계획 및 추적 기능은 프로젝트 형식 및 코딩 언어와 독립적입니다.  
   
@@ -68,7 +68,7 @@ Xamarin을 통해 C#, .NET 및 Visual Studio를 사용하여 Android, iOS 및 Wi
 |[코드 맵을 사용하여 응용 프로그램 디버그](../modeling/use-code-maps-to-debug-your-applications.md)|예||  
   
 ## <a name="build"></a>빌드  
- 참조 링크: **[Build](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  
+ 참조 링크: **[Build](/azure/devops/pipelines/index)**  
   
 |기능|Xamarin에서 지원 여부|추가 설명|  
 |-------------|----------------------------|-------------------------|  
@@ -102,7 +102,7 @@ Xamarin을 통해 C#, .NET 및 Visual Studio를 사용하여 Android, iOS 및 Wi
 |[.NET Framework 메모리 문제 분석](../misc/analyze-dotnet-framework-memory-issues.md)|아니요|Visual Studio 도구에는 프로파일링을 위한 모노 프레임워크에 대한 후크가 없습니다.|  
   
 ## <a name="release-management"></a>릴리스 관리  
- 참조 링크: **[Release Management로 배포 자동화](https://msdn.microsoft.com/library/vs/alm/release/overview)**  
+ 참조 링크: **[Release Management를 사용 하 여 배포 자동화](https://msdn.microsoft.com/library/vs/alm/release/overview)**  
   
 |기능|Xamarin에서 지원 여부|추가 설명|  
 |-------------|----------------------------|-------------------------|  
