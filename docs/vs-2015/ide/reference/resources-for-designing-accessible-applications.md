@@ -14,12 +14,12 @@ caps.latest.revision: 19
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e32c50530a33d55f89db6f202eaffd92946c3cef
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 35e84dc3ae817ab3c5346d83fc5f37934a34e0f9
+ms.sourcegitcommit: b56dc6fadc6c924beed36bb4c2ccc16cf6bcfa1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65689572"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68740171"
 ---
 # <a name="resources-for-designing-accessible-applications"></a>내게 필요한 옵션을 제공하는 애플리케이션 설계를 위한 리소스
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
@@ -36,21 +36,21 @@ ms.locfileid: "65689572"
   
 ## <a name="windows-applications"></a>Windows 애플리케이션  
   
-- [연습: 액세스할 수 있는 Windows 기반 응용 프로그램을 만드는](https://msdn.microsoft.com/library/654c7f2f-1586-480b-9f12-9d9b8f5cc32b) 이 항목에서는 Windows에 대 한 인증 로고 취득을 위해 다섯 가지 접근성 요구 사항이 포함 하 여 샘플 Windows 응용 프로그램에서에 대 한 단계별 지침을 제공 합니다.  
+- [연습: 내게 필요한 옵션 지원 windows 기반 응용](https://msdn.microsoft.com/library/654c7f2f-1586-480b-9f12-9d9b8f5cc32b) 프로그램 만들기이 항목에서는 샘플 windows 응용 프로그램에서 windows 로고 인증을 위한 5 가지 접근성 요구 사항을 포함 하는 방법에 대 한 단계별 지침을 제공 합니다.  
   
-- **키보드 사용자 인터페이스 설계 지침** 이 기술 문서에서는 사용자가 키보드로 탐색할 수 있도록 Windows 응용 프로그램 사용자 인터페이스를 설계하는 방법을 설명합니다. 자세한 내용은 [http://msdn2.microsoft.com/library/ms971323.aspx](http://msdn2.microsoft.com/library/ms971323.aspx)를 참조하세요.  
+- [키보드 사용자 인터페이스 설계 지침](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design) 이 기술 문서에서는 사용자가 키보드로 탐색할 수 있도록 Windows 응용 프로그램 사용자 인터페이스를 설계하는 방법을 설명합니다.  
   
-- **내게 필요한 옵션이 있는 콘솔** 이 기술 문서에서는 Windows XP에서 내게 필요한 옵션 보조 도구를 사용할 수 있도록 콘솔을 노출하는 데 사용되는 API와 이벤트에 대해 설명합니다. 자세한 내용은 [http://msdn2.microsoft.com/library/ms971319.aspx](http://msdn2.microsoft.com/library/ms971319.aspx)를 참조하세요.  
+- [내게 필요한 옵션이 있는 콘솔](/previous-versions/windows/desktop/dnacc/console-accessibility) 이 기술 문서에서는 Windows XP에서 내게 필요한 옵션 보조 도구를 사용할 수 있도록 콘솔을 노출하는 데 사용되는 API와 이벤트에 대해 설명합니다. 
   
 ## <a name="web-sites"></a>웹 사이트  
   
-- [연습: 사용 하 여 이미지 컨트롤, 메뉴 컨트롤 및 AutoPostBack에 대 한 내게 필요한 옵션 지침](https://msdn.microsoft.com/library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) 이 항목에서는 몇 가지 내게 필요한 옵션 디자인 팁을 비롯 하 여 샘플 웹 페이지에 액세스할 수 있는 컨트롤을 포함 하 여 웹에 대 한 단계별 지침을 제공 합니다.  
+- [연습: 이미지 컨트롤, 메뉴 컨트롤 및 AutoPostBack](https://msdn.microsoft.com/library/ff7b5021-48b3-46bf-921f-9fe1e0e32202) 사용에 대 한 내게 필요한 옵션 지침이 항목에서는 샘플 웹 페이지에 액세스할 수 있는 컨트롤을 포함 하는 방법과 웹에 대 한 내게 필요한 옵션 디자인 팁을 제공 하는 단계별 지침을 제공 합니다.  
   
-- **내게 필요한 옵션이 있는 웹 페이지** 이 기술 문서에서는 웹 사이트 개발에서 내게 필요한 옵션을 지원하기 위해 사용되는 HTML 3.2 요소 및 기타 요소에 대해 설명합니다. 자세한 내용은 [http://msdn2.microsoft.com/library/ms971309.aspx](http://msdn2.microsoft.com/library/ms971309.aspx)를 참조하세요.  
+- [내게 필요한 옵션이 있는 웹 페이지](/previous-versions/windows/desktop/dnacc/making-web-pages-more-accessible) 이 기술 문서에서는 웹 사이트 개발에서 내게 필요한 옵션을 지원하기 위해 사용되는 HTML 3.2 요소 및 기타 요소에 대해 설명합니다. 
   
-- **DHTML을 사용하여 내게 필요한 옵션이 있는 웹 페이지 만들기** 이 기술 문서에서는 내게 필요한 옵션을 지원하는 HTML 4.0 요소와 내게 필요한 옵션의 웹 설계 팁을 설명합니다. 자세한 내용은 [http://msdn2.microsoft.com/library/ms528445.aspx](http://msdn2.microsoft.com/library/ms528445.aspx)를 참조하세요.  
+- [DHTML을 사용하여 내게 필요한 옵션이 있는 웹 페이지 만들기](/previous-versions//ms528445(v=vs.85)) 이 기술 문서에서는 내게 필요한 옵션을 지원하는 HTML 4.0 요소와 내게 필요한 옵션의 웹 설계 팁을 설명합니다. 
   
-- **시각 장애인을 위한 웹 페이지의 대체 텍스트** 이 기술 문서에서는 XML과 XSLT를 사용하여 동일한 웹 페이지를 텍스트 전용 버전 등의 여러 가지 보기로 표시할 수 있는 방법을 설명합니다. 자세한 내용은 [http://msdn2.microsoft.com/library/aa468593.aspx](http://msdn2.microsoft.com/library/aa468593.aspx)를 참조하세요.  
+- [시각 장애인을 위한 웹 페이지의 대체 텍스트](/previous-versions/windows/desktop/dnacc/text-alternatives-to-inaccessible-web-pages) 이 기술 문서에서는 XML과 XSLT를 사용하여 동일한 웹 페이지를 텍스트 전용 버전 등의 여러 가지 보기로 표시할 수 있는 방법을 설명합니다. 
   
 ### <a name="third-party-resources"></a>타사 리소스  
   

@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: conceptdev
 ms.author: crdun
 manager: jillfra
-ms.openlocfilehash: 9d3624fd8b69a51d3d9de1776bc6d2e7bc61a4c1
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 65b87c0c03e51e5b14fae7c59a8ac7f9eb8ec0e7
+ms.sourcegitcommit: b56dc6fadc6c924beed36bb4c2ccc16cf6bcfa1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65696177"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68740197"
 ---
 # <a name="application-lifecycle-management-alm-with-unity-apps"></a>ALM(Application Lifecycle Management) 및 Unity 앱
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "65696177"
  아래 표에서는 Unity로 작업할 때 어떤 Visual Studio ALM 기능이 적용되는지 확인할 수 있습니다. 기능 자체에 대한 자세한 내용은 연결된 설명서를 참조하세요.  
   
 ## <a name="agile-tools"></a>Agile 도구  
- 참조 링크: **[작업](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)**  (Visual Studio Team Services 또는 Team Explorer Everywhere를 포함 하 여 TFS 사용)  
+ 참조 링크: **[작업](https://msdn.microsoft.com/library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)** (Team Explorer Everywhere을 포함 하 여 Visual Studio Team Services 또는 TFS 사용)  
   
  일반 설명: 모든 계획 및 추적 기능은 프로젝트 형식 및 코딩 언어와 독립적입니다.  
   
@@ -73,7 +73,7 @@ ms.locfileid: "65696177"
 3. 질감 또는 오디오 파일과 같은 Unity 프로젝트의 이진 자산은 많은 스토리지 공간을 차지할 수 있습니다. Git와 같은 다양한 소스 제어 시스템은 변경 내용이 파일의 일부에만 영향을 주는 경우에도 변경될 때마다 파일의 고유 복사본을 저장합니다. 이로 인해 Git 리포지토리가 너무 커질 수 있습니다. 이 문제를 해결하기 위해 대개 Unity 개발자는 최종 자산만 리포지토리에 추가하고 OneDrive, DropBox, git-annex 등의 다른 방법으로 자산의 작업 기록을 유지합니다. 일반적으로 이러한 자산은 소스 코드 변경에 따라 버전을 관리할 필요가 없으므로 이 접근 방식은 유용합니다. 또한 개발자는 일반적으로 프로젝트 편집기의 Asset Serialization Mode를 Force Text로 설정하여 이진 형식이 아니라 텍스트에 장면 파일을 저장하므로 소스 제어에서 병합할 수 있습니다. 자세한 내용은 [편집기 설정](http://docs.unity3d.com/Manual/class-EditorManager.html)(Unity 설명서)을 참조하세요.  
   
 ## <a name="build"></a>빌드  
- 참조 링크: **[Build](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)**  
+ 참조 링크: **[Build](/azure/devops/pipelines/index)**  
   
 |기능|Unity에서 지원 여부|추가 설명|  
 |-------------|--------------------------|-------------------------|  
@@ -107,7 +107,7 @@ ms.locfileid: "65696177"
 |[.NET Framework 메모리 문제 분석](../misc/analyze-dotnet-framework-memory-issues.md)|아니요|Visual Studio 도구에는 프로파일링을 위한 모노 프레임워크(Unity에서 사용)에 대한 후크가 없습니다. [Unity 프로파일러](http://docs.unity3d.com/Manual/Profiler.html)(Unity 설명서)를 사용합니다.|  
   
 ## <a name="release-management"></a>릴리스 관리  
- 참조 링크: **[Release Management로 배포 자동화](https://msdn.microsoft.com/library/vs/alm/release/overview)**  
+ 참조 링크: **[Release Management를 사용 하 여 배포 자동화](https://msdn.microsoft.com/library/vs/alm/release/overview)**  
   
 |기능|Unity에서 지원 여부|추가 설명|  
 |-------------|--------------------------|-------------------------|  
