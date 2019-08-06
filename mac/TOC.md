@@ -104,3 +104,11 @@
 
 # [릴리스 정보](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
 # [미리 보기 릴리스 정보](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
+# 샘플
+## [추천 샘플](samples.yml)
+## [모든 ASP.NET Core 샘플](https://docs.microsoft.com/samples/browse/?products=aspnet-core)
+## [.NET Core 샘플](https://docs.microsoft.com/samples/browse/?products=dotnet-core)
+## [모든 Xamarin.Forms 샘플](https://docs.microsoft.com/xamarin/xamarin-forms/samples/)
+## [모든 Xamarin.iOS 샘플](https://docs.microsoft.com/xamarin/ios/samples/)
+## [모든 Xamarin.Android 샘플](https://docs.microsoft.com/xamarin/android/samples/)
+## [모든 Xamarin.Mac 샘플](https://docs.microsoft.com/xamarin/mac/samples/)
