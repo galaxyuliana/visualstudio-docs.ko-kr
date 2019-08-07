@@ -3,24 +3,23 @@ title: Visual Studio 구독의 CloudPilot 혜택 | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 12/19/2018
+ms.date: 07/30/2019
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에서 제공하는 CloudPilot 혜택 알아보기
-ms.openlocfilehash: 66de81b30d8eeb315353aa0b6aa37e75c50a19d6
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 6fec81e4f4345c77bdff7dd08bf2615d6fe45ad4
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67825913"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681653"
 ---
 # <a name="the-cloudpilot-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 CloudPilot 혜택
-
 간단한 몇 단계로 앱을 Microsoft Azure로 이동할 수 있습니다. 성공적으로 마이그레이션하기 위해 필요한 코드 변경 내용을 몇 분 내에 코드 줄까지 식별합니다. 컨테이너, VM, App Services, SQL Azure 및/또는 SQL MI. 그런 다음, ASR, DMA 및 DMS를 활용하는 마법사로 앱을 Azure로 마이그레이션합니다.
 
+## <a name="overview"></a>개요
 UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케이션을 Azure로 이동할 수 있도록 설계되었습니다.  수동 평가가 수행되는 짧은 시간에 CloudPilot는 Azure PaaS 및 IaaS 마이그레이션 비용을 정확하게 확인하고, 애플리케이션을 클라우드에서 실행하려면 코드를 어떻게 변경해야 하는지 코드 줄까지 자세한 권장 사항을 제공합니다. CloudPilot은 클라우드에 대한 구체적인 코드 수준 변경 내용을 제공하여 클라우드 마이그레이션 작업의 초기 평가 및 개발 계획을 지원하고, 엔터프라이즈 기술 컨트롤 및 정책에 대한 최종 테스트를 도와줍니다.
 
 ## <a name="activation-steps"></a>활성화 단계
-
 1. [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)에 로그인합니다.
 
 2. "도구" 범주에서 CloudPilot 혜택 타일을 찾아 **코드 얻기**를 클릭합니다.
@@ -48,7 +47,7 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
     > [!div class="mx-imgBorder"]
     > ![CloudPilot 제품 페이지](_img/vs-cloudpilot/vs-cloudpilot-navigate.png)
 
-0. 정말 간단하죠.  CloudPilot 포털이 보이고, CloudPilot 구독을 사용하여 애플리케이션을 Microsoft Azure로 이동할 준비가 완료됩니다.
+0. 이것으로 끝입니다.  CloudPilot 포털이 보이고, CloudPilot 구독을 사용하여 애플리케이션을 Microsoft Azure로 이동할 준비가 완료됩니다.
 
 0. 계정이 만들어지는 즉시, UnifyCloud VSS 고객 지원팀으로부터 계정이 만들어졌다는 확인 이메일을 받게 됩니다.
 
@@ -57,7 +56,7 @@ UnifyCloud의 CloudPilot은 개발자가 신속하고 간편하게 애플리케�
 
 ## <a name="eligibility"></a>자격
 
-| 구독 수준                                                 |     채널                                            | 이점                                                          | 갱신 가능?    |
+| 구독 수준                                                 |     채널                                            | 혜택                                                          | 갱신 가능?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, | 라이선스 2개, 90일, 무제한 검사       |  아니요.  새 구독자만 사용할 수 있음          |
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 라이선스 1개, 30일, 검사 일회                                                            |  아니요.  새 구독자만 사용할 수 있음           |

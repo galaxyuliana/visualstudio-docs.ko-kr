@@ -10,12 +10,12 @@ manager: jillfra
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: ce4184cd3864cad787a4e4f8afc084445fa3c828
-ms.sourcegitcommit: 01c3c9dcade5d913bde2c7efa8c931a7b04e6cd0
+ms.openlocfilehash: aee0029553391c30fb29eb1f9fa7aba01968e5ed
+ms.sourcegitcommit: b56dc6fadc6c924beed36bb4c2ccc16cf6bcfa1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67365301"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68740150"
 ---
 # <a name="quickstart-create-your-first-python-web-app-using-visual-studio"></a>빠른 시작: Visual Studio를 사용하여 첫 번째 Python 웹앱 만들기
 
@@ -33,7 +33,7 @@ Python IDE인 Visual Studio에 대한 5~10분 분량의 소개에서는 Flask �
 
 ::: moniker-end
 
-## <a name="create-the-project"></a>프로젝트를 만듭니다.
+## <a name="create-the-project"></a>프로젝트 만들기
 
 다음 단계에서는 애플리케이션에 대한 컨테이너로 제공되는 빈 프로젝트를 만듭니다.
 
@@ -165,7 +165,7 @@ Python의 웹앱은 다수의 사용 가능한 Python 라이브러리 중 하나
 
 **질문: 어디에서 Flask에 대해 자세히 알아볼 수 있나요?**
 
-**대답**: [Flask 빠른 시작](http://flask.pocoo.org/docs/0.12/quickstart/#quickstart)부터는 Flask 설명서를 참조하세요.
+**대답**: [Flask 빠른 시작](https://flask.palletsprojects.com/en/1.1.x/quickstart/#quickstart)부터는 Flask 설명서를 참조하세요.
 
 ## <a name="run-the-application"></a>애플리케이션 실행
 

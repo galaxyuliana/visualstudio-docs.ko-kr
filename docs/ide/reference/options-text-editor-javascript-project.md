@@ -1,28 +1,28 @@
 ---
 title: 옵션, 텍스트 편집기, JavaScript, 프로젝트
 ms.date: 1/15/2019
-ms.technology: vs-ide-general
+ms.technology: vs-javascript
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.JavaScript.Project.General
 - VS.ToolsOptionsPages.Text_Editor.JavaScript.Project
 - VS.ToolsOptionsPages.Text_Editor.TypeScript.Project.General
 - VS.ToolsOptionsPages.Text_Editor.TypeScript.Project
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 09ed64d6bffaa4453c3294229ee48fd0a065eb74
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 190cbdb2a8096415985d83fc525b997572d252c2
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62778175"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68605923"
 ---
 # <a name="options-text-editor-javascript-project"></a>옵션, 텍스트 편집기, JavaScript, 프로젝트
 
-**옵션** 대화 상자의 **프로젝트** 페이지를 사용하여 코드 편집기에서 JavaScript 프로젝트 옵션을 지정합니다. 이 페이지에 액세스하려면 메뉴 모음에서 **도구** > **옵션**을 선택한 다음, **텍스트 편집기** > **JavaScript** > **프로젝트**를 확장합니다.
+**옵션** 대화 상자의 **프로젝트** 페이지를 사용하여 코드 편집기에서 JavaScript 및 TypeScript 프로젝트 옵션을 지정합니다. 이 페이지에 액세스하려면 메뉴 모음에서 **도구** > **옵션**을 선택한 다음, **텍스트 편집기** > **JavaScript/TypeScript** > **프로젝트**를 확장합니다.
 
 ## <a name="project-analysis-options"></a>프로젝트 분석 옵션
 

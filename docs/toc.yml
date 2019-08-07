@@ -194,8 +194,6 @@
                   href: ide/managing-references-in-a-project.md
                 - name: 참조 관리자를 사용하여 참조 추가 또는 제거
                   href: ide/how-to-add-or-remove-references-by-using-the-reference-manager.md
-                - name: NuGet과 확장 SDK 비교를 사용하여 참조 추가
-                  href: ide/adding-references-using-nuget-versus-an-extension-sdk.md
                 - name: 가져온 네임스페이스 추가 또는 제거(Visual Basic)
                   href: ide/how-to-add-or-remove-imported-namespaces-visual-basic.md
                 - name: 끊어진 참조 문제 해결

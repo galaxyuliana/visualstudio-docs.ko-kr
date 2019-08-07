@@ -11,14 +11,15 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: d998eee1965b9b28c1b8fde26c9232770d69f751
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 41e6a21278670a477bdd30e28a6f0cc4cac04757
+ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62969230"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68461361"
 ---
 # <a name="project-properties-reference"></a>프로젝트 속성 참조
+
 프로젝트 속성을 구성 및 사용자 지정하는 방법을 자세히 알아봅니다.
 
 ## <a name="project-properties-pages"></a>프로젝트 속성 페이지

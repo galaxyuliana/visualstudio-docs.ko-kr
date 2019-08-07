@@ -3,24 +3,22 @@ title: Visual Studio 구독의 CAST Highlight 혜택 | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 12/19/2018
+ms.date: 07/30/2019
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에서 제공하는 CAST Highlight 혜택 알아보기
-ms.openlocfilehash: c990682fa107364c181403863d3dbefc5a1f3891
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 50d892c5da4d39ebd2b379a2b16b8c9ca69d061d
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67823678"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681201"
 ---
 # <a name="the-cast-highlight-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 CAST Highlight 혜택
-
 개발자는 클라우드로 마이그레이션할 때 소프트웨어에 대한 인사이트가 필요합니다. CAST Highlight를 사용하면 Visual Studio Enterprise 구독자는 애플리케이션 소스 코드를 신속하게 검사하여 Azure로 마이그레이션할 애플리케이션의 클라우드 준비 상태를 식별하고, 마이그레이션 도중 및 이후에 앱 진행률을 모니터링할 수 있습니다.
 
 Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlight 평가판 1개월 구독을 구독자당 앱 5개까지 얻을 수 있습니다.
 
 ## <a name="activation-steps"></a>활성화 단계
-
 1. [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)에 로그인합니다.
 
 2. "도구" 범주에서 CAST Highlight 혜택 타일을 찾아 **코드 얻기**를 클릭합니다.
@@ -39,9 +37,6 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
    > CAST Highlight 활성화 혜택은 조직당 10회로 제한됩니다.  조직에서 활성화 10회를 모두 사용한 경우 CAST Highlight 혜택을 활성화할 수 없으며 추가 정보가 담긴 이메일을 받게 됩니다.
 
 0. 정보를 제출한 후에는 요청을 수신했음을 확인하는 페이지가 표시됩니다.
-
-    > [!div class="mx-imgBorder"]
-    > ![CAST Highlight 감사 페이지](_img/vs-cast-highlight/vs-cast-highlight-thankyou.png)
 
 0. CAST 팀에서 요청을 평가한 후 계정 만들기를 마무리하기 연락을 드릴 것입니다.
 
@@ -78,8 +73,7 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
    > 받은 이메일에서 활성화 링크를 꼭 클릭하세요.  그렇지 않으면 CAST Highlight 구독에 액세스할 수 없습니다. 받은 편지함에 이메일이 보이지 않으면 스팸 메일 폴더를 확인하세요.
 
 ## <a name="eligibility"></a>자격
-
-| 구독 수준                                                 |     채널                                            | 이점                                                          | 갱신 가능?    |
+| 구독 수준                                                 |     채널                                            | 혜택                                                          | 갱신 가능?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, | 30일 동안 5개 앱 액세스|  아니요.  새 구독자만 사용할 수 있음          |
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 사용할 수 없음                                                             |  해당 없음          |
@@ -104,7 +98,6 @@ Visual Studio Enterprise 구독자는 모든 기능을 제공하는 CAST Highlig
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
-
 구독과 함께 제공되는 Azure 혜택을 아직 활성화하지 않은 경우 [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)를 방문하여 도구 범주의 Azure 타일을 클릭하고, Azure 구독을 설정하고, Azure 크레딧을 사용합니다.
 
 그리고 Greg의 이메일에 언급된 데모, 사용자 가이드 및 자습서 비디오를 확인하세요.

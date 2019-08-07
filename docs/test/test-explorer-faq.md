@@ -14,14 +14,25 @@ ms.workload:
 - multiple
 author: kendrahavens
 manager: jillfra
-ms.openlocfilehash: 2efecd936dea0d764058b795457e89cdc700d902
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0dda73a4bbea2813131cc0695655eed7ea3409ca
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62429515"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68661994"
 ---
 # <a name="visual-studio-test-explorer-faq"></a>Visual Studio 테스트 탐색기 FAQ
+
+::: moniker range=">=vs-2019"
+## <a name="where-is-group-by-traits-in-visual-studio-2019"></a>Visual Studio 2019에서 특성별 그룹화 위치
+이 특성 그룹화는 이동하여 열이 되었습니다. Visual Studio 2019 버전 16.2의 사용자 지정 가능한 복수의 계층 구조에 대해, 특성을 그룹으로 포함한 것이 불필요한 시각적 복잡성을 만들어냈다고 생각했습니다. 이 디자인에 대한 사용자 의견에 귀를 기울이고 있습니다. https://developercommunity.visualstudio.com/content/problem/588029/no-longer-able-to-group-by-trait-in-test-explorer.html
+
+지금은 테스트 탐색기에서 열을 마우스 오른쪽 단추로 클릭하고 열을 선택할 수 있습니다. 특성 열을 선택하면 테스트 탐색기에 표시됩니다. 이제 관심 있는 특성을 기준으로 이 열을 필터링할 수 있습니다.
+
+![특성 열 표시](media/vs-2019/trait-column.png)
+![특성 열 필터링](media/vs-2019/trait-column-filter.png)
+
+::: moniker-end
 
 ## <a name="dynamic-test-discovery"></a>동적 테스트 검색
 

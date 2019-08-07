@@ -12,12 +12,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 563dcd4d91e23c019edf5a777b70453f40091d69
-ms.sourcegitcommit: 57866dd72fd0e15ce61128df70729b427a2d02eb
+ms.openlocfilehash: 048e0409a5af77c512f0ee768d95d61259426fb9
+ms.sourcegitcommit: 9cfd3ef6c65f671a26322320818212a1ed5955fe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68315245"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68533365"
 ---
 # <a name="tutorial-create-a-nodejs-and-react-app-in-visual-studio"></a>자습서: Visual Studio에서 Node.js 및 React 앱 만들기
 
@@ -322,7 +322,7 @@ webpack은 브라우저에서 실행될 수 있도록 JavaScript 파일을 번�
 
 ## <a name="add-a-build-script-to-transpile-the-jsx"></a>빌드 스크립트를 추가하여 JSX를 트랜스파일
 
-Node.js의 최신 버전에서는 빌드 스크립트가 필요합니다. (앞의 섹션에서 표시된 것처럼) 명령줄에서 JSX를 트랜스파일하기보다 Visual Studio에서 빌딩할 때 JSX를 트랜스파일할 수 있습니다.
+Visual Studio 2019부터 빌드 스크립트가 필요합니다. 앞의 섹션에서 표시된 것처럼, 명령줄에서 JSX를 변환 컴파일하기보다 Visual Studio에서 빌드할 때 JSX를 변환 컴파일할 수 있습니다.
 
 * *package.json*을 열고 `dependencies` 섹션 뒤에 다음 섹션을 추가합니다.
 

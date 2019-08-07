@@ -830,6 +830,8 @@
   items:
     - name: 소프트웨어 개발 키트 만들기
       href: creating-a-software-development-kit.md
+    - name: SDK 및 NuGet 비교
+      href: nuget-versus-sdk-references.md
     - name: '연습: C# 또는 Visual Basic을 사용하여 SDK 만들기'
       href: walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md
     - name: '연습: C++를 사용하여 SDK 만들기'

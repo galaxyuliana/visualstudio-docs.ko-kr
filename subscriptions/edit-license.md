@@ -1,23 +1,22 @@
 ---
 title: 관리자 포털에서 구독 편집 | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 10/03/2017
+ms.author: lank
+manager: lank
+ms.date: 07/28/2019
 ms.topic: conceptual
 description: 관리자가 구독 할당을 편집하는 방법을 알아봅니다.
-ms.openlocfilehash: 7245facbaf966593160bc44dc15bc2fd71622347
-ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
+ms.openlocfilehash: e55cee74f861973e3cc29e3f19dc9b31a107f437
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67783482"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68605672"
 ---
-# <a name="editing-visual-studio-subscription-assignments"></a>Visual Studio 구독 할당 편집
-
+# <a name="edit-visual-studio-subscription-assignments"></a>Visual Studio 구독 할당 편집
 구독 관리자는 조직 내에서 개인에게 할당된 구독을 변경할 수 있습니다.  이 문서에서는 관리자가 변경할 수 있는 유형에 대해 설명하고 필요한 단계를 제공합니다.
 
-## <a name="making-changes-to-subscriber-information"></a>구독자 정보 변경
+## <a name="change-subscriber-information"></a>구독자 정보 변경
 구독자 정보를 편집하여 오류를 수정하거나 정보를 업데이트할 수 있습니다.
 
 구독자를 편집하려면 마우스로 위를 가리킬 때 구독자의 이메일 주소 옆에 나타나는 줄임표(...)를 선택합니다. 드롭다운이 표시됩니다.  **편집**을 선택하여 구독자 세부 정보를 수정합니다. 또한 그리드에서 구독자의 행을 두 번 클릭하여 편집 창을 열 수도 있습니다.
@@ -29,8 +28,7 @@ ms.locfileid: "67783482"
    > [!NOTE]
    > 구독자의 구독 수준을 변경해야 하는 경우 포털에서 해당 사용자를 삭제하고 다시 추가해야 합니다. 구독 수준은 편집할 수 없습니다.
 
-## <a name="editing-multiple-subscribers-using-bulk-edit"></a>대량 편집을 사용하여 여러 구독자 편집
-
+## <a name="edit-multiple-subscribers-using-bulk-edit"></a>대량 편집을 사용하여 여러 구독자 편집
 대량 편집 프로세스를 사용하여 여러 구독자를 한 번에 수정할 수 있습니다. 이 기능은 주로 회사 이메일 주소 변경을 수행하는 조직에서 사용되거나 조직에서 다운로드에 대한 액세스를 제한하도록 결정한 경우에 사용됩니다.
 
    > [!IMPORTANT]
@@ -49,3 +47,7 @@ ms.locfileid: "67783482"
    > ![라이선스 편집 - 대량 편집 파일 업로드](_img/edit-license/edit-license-bulk-file-upload1.png)
 
 5. 파일이 업로드되면 성공했음을 알려주는 알림이 표시됩니다. 이 시점에서 편집한 내용이 구독자 정보에 반영됩니다.
+
+## <a name="next-steps"></a>다음 단계
+- 특정 구독을 찾는 데 도움이 필요하면 [구독 검색](search-license.md)을 체크 아웃하세요.
+- 모든 구독 목록을 만들어야 하나요?  [구독 내보내기](exporting-subscriptions.md)를 체크 아웃하세요.

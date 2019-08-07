@@ -10,16 +10,110 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: e5bc02948d410d465d7ac1be798ff17ebc5daaf9
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: ff2bcce9e041ff28393020c48563fe345c4fa076
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67821509"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68661814"
 ---
 # <a name="change-log-visual-studio-tools-for-unity-mac"></a>변경 로그(Visual Studio Tools for Unity, Mac)
 
 Visual Studio Tools for Unity에 대한 변경 로그입니다.
+
+## <a name="2200"></a>2.2.0.0
+
+릴리스 날짜: 2019년 7월 25일
+
+### <a name="bug-fixes"></a>버그 수정
+
+- **평가:**
+
+  - IntPtr 형식의 검사 문제가 해결되었습니다.
+
+- **디버거:**
+
+  - catch 지점 및 함수 중단점의 처리 문제가 해결되었습니다.
+
+## <a name="2130"></a>2.1.3.0
+
+릴리스 날짜: 2019년 7월 9일
+
+### <a name="new-features"></a>새 기능
+
+- **디버거:**
+
+  - 예외의 서브 클래스를 catch하기 위한 지원이 추가되었습니다.
+
+  - MDS 프로토콜 2.51에 대한 지원이 추가되었습니다.
+
+- **통합:**
+
+  - asmdef 파일에 대한 지원이 추가되었습니다.
+
+  - 템플릿에서 파일이 추가될 때 이름 바꾸기 모드로 전환하여 Unity 편집기 동작을 모방합니다.
+
+### <a name="bug-fixes"></a>버그 수정
+
+- **통합:**
+
+  - Unity 플레이어와 통신하는 동안 형식이 잘못된 메시지 처리 문제가 해결되었습니다.
+
+- **평가:**
+
+  - 식에서 네임스페이스 처리 문제가 해결되었습니다.
+
+## <a name="2120"></a>2.1.2.0
+
+릴리스 날짜: 2019년 7월 2일
+
+### <a name="bug-fixes"></a>버그 수정
+
+- **평가:**
+
+  - 구문 분석이 불가능한 식이 포함된 오류 보고 문제가 해결되었습니다.
+
+## <a name="2110"></a>2.1.1.0
+
+릴리스 날짜: 2019년 6월 27일
+
+### <a name="new-features"></a>새 기능
+
+- **통합:**
+
+  - MonoBehaviour API가 2019.1로 업데이트되었습니다.
+
+### <a name="bug-fixes"></a>버그 수정
+
+- **통합:**
+
+  - Unity 프로젝트 탐색기 성능 문제가 해결되었습니다.
+
+  - 간단한 빌드가 사용되는 경우 출력에 대한 경고 및 오류 보고 문제가 해결되었습니다.
+
+  - 간단한 빌드 성능 문제가 해결되었습니다.
+
+## <a name="2100"></a>2.1.0.0
+
+릴리스 날짜: 2019년 6월 20일
+
+### <a name="new-features"></a>새 기능
+
+- **통합:**
+
+  - IntelliSense 오류 및 경고를 사용하기 위해 Unity 프로젝트에 대한 전체 빌드를 사용하지 않도록 설정했습니다. 실제로 Unity는 내부적으로 수행하는 작업을 나타내는 클래스 라이브러리 프로젝트를 사용하여 Visual Studio 솔루션을 만듭니다. 즉, Visual Studio에서 이루어진 빌드의 결과는 컴파일 파이프라인이 닫혀 있기 때문에 Unity에서 절대 사용하거나 선택하지 않습니다. Visual Studio에서 이루어지는 빌드는 아무런 결과 없이 리소스를 소비하기만 합니다. 도구 또는 종속된 설치 프로그램을 있어 전체 빌드가 필요한 경우에는 이 최적화를 사용하지 않도록 설정할 수 있습니다(설정/Unity 도구/프로젝트의 전체 빌드 사용 안 함).
+  
+  - UPE에 Unity 패키지에 대한 지원이 추가되었습니다. 참조 패키지(패키지 폴더에서 manifest.json 사용) 및 로컬 패키지(패키지 폴더에 포함)만 볼 수 있습니다.
+
+## <a name="2021"></a>2.0.2.1
+
+릴리스 날짜: 2019년 5월 30일
+
+### <a name="new-features"></a>새 기능
+
+- **통합:**
+
+  - Unity 실행 대상에 대한 사용자 지정 아이콘이 추가되었습니다.
 
 ## <a name="2020"></a>2.0.2.0
 
@@ -42,6 +136,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
   - 빈 프레임이 있는 어셈블리 필터링 및 프레임 검사가 수정되었습니다.
 
 ## <a name="2011"></a>2.0.1.1
+ 
  릴리스 날짜: 2019년 3월 26일
 
 ### <a name="bug-fixes"></a>버그 수정
@@ -87,6 +182,7 @@ Visual Studio Tools for Unity에 대한 변경 로그입니다.
   - 템플릿에서 네임스페이스가 제거되었습니다.
 
 ## <a name="2003"></a>2.0.0.3
+ 
  릴리스 날짜: 2019년 3월 5일
 
 ### <a name="new-features"></a>새 기능

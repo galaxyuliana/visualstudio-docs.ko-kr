@@ -22,12 +22,12 @@ caps.latest.revision: 27
 author: mikeblome
 ms.author: mblome
 manager: jillfra
-ms.openlocfilehash: fce0fb33f6c536386754b10b11e724a603f0a2a6
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 0a0e744e1eb41cf9da816f2214176b37bfe4c8bf
+ms.sourcegitcommit: b56dc6fadc6c924beed36bb4c2ccc16cf6bcfa1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65698018"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68740228"
 ---
 # <a name="code-analysis-for-cc-overview"></a>C/C++용 코드 분석 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -47,7 +47,7 @@ C/C++ 코드 분석 도구는 C/C++ 소스 코드에서 발생할 수 있는 오
  모든 소스 코드 체크 인이 특정 정책에 따라 수행되도록 하는 것이 좋습니다. 특히 해당 분석이 가장 최근의 로컬 빌드 단계로 실행되었는지 확인하는 것이 좋습니다. 코드 분석 체크 인 정책을 사용하도록 설정하는 방법에 대한 자세한 내용은 [코드 분석 체크 인 정책 만들기 및 사용](../code-quality/creating-and-using-code-analysis-check-in-policies.md)을 참조하세요.  
   
 ## <a name="team-build-integration"></a>팀 빌드 통합  
- 빌드 시스템의 통합된 기능을 사용하여 빌드 프로세스의 [!INCLUDE[esprtfs](../includes/esprtfs-md.md)] 단계로 코드 분석 도구를 실행할 수 있습니다. 자세한 내용은 [애플리케이션 빌드](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
+ 빌드 시스템의 통합된 기능을 사용하여 빌드 프로세스의 [!INCLUDE[esprtfs](../includes/esprtfs-md.md)] 단계로 코드 분석 도구를 실행할 수 있습니다. 자세한 내용은 [애플리케이션 빌드](/azure/devops/pipelines/index)를 참조하세요.  
   
 ## <a name="command-line-support"></a>명령줄 지원  
  다음 예에 나와 있는 것처럼 개발자는 개발 환경 내에 완전히 통합된 기능 외에 명령줄에서도 분석 도구를 사용할 수 있습니다.  

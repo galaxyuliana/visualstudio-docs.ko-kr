@@ -1,9 +1,10 @@
 ---
-title: 메서드 시그니처 리팩터링
+title: 메서드 시그니처 변경
+description: 메서드 매개 변수의 순서를 제거하거나 변경합니다. 메서드를 마우스 오른쪽 단추로 클릭하고 빠른 작업 및 리팩터링를 선택한 다음 시그니처 변경을 선택합니다.
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 f1_keywords:
 - vs.csharp.refactoring.remove
@@ -13,12 +14,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 89af8235f897858094058981df52d6a3fec8a7d6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 97c03c798732b5d722b2dc49f3ec7ffa490b4f06
+ms.sourcegitcommit: 3e74ec49a54e5c3da7631f4466128cdf4384af6b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62791167"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "68711257"
 ---
 # <a name="change-a-method-signature-refactoring"></a>메서드 시그니처 변경 리팩터링
 
@@ -38,7 +39,7 @@ ms.locfileid: "62791167"
 
 1. 수정할 메서드 또는 해당 사용 중 하나의 이름을 강조 표시하거나 메서드 이름 내부에 텍스트 커서를 놓습니다.
 
-   - C#: 
+   - C#:
 
        ![강조 표시된 코드 C#](media/changesignature-highlight-cs.png)
 
@@ -50,7 +51,7 @@ ms.locfileid: "62791167"
 
    - **키보드**
       - **Ctrl+R**을 누른 다음 **Ctrl+V**를 누릅니다.  바로 가기 키는 선택한 프로필에 따라 다를 수 있습니다.
-      - 줄의 임의 위치에서 **Ctrl**+**.** 를 눌러 **빠른 작업 및 리팩터링** 메뉴를 트리거하고 [미리 보기] 창 팝업에서 **시그니처 변경**을 선택합니다.
+      - 줄의 임의 위치에서 **Ctrl**+ **.** 를 눌러 **빠른 작업 및 리팩터링** 메뉴를 트리거하고 [미리 보기] 창 팝업에서 **시그니처 변경**을 선택합니다.
    - **마우스**
       - **편집 > 리팩터링 > 매개 변수 제거**를 선택합니다.
       - **편집 > 리팩터링 > 매개 변수 다시 정렬**을 선택합니다.
@@ -71,7 +72,7 @@ ms.locfileid: "62791167"
 
 4. 완료되면 **확인** 단추를 눌러 변경합니다.
 
-   - C#: 
+   - C#:
 
       ![시그니처 변경 결과 - C#](media/changesignature-result-cs.png)
 

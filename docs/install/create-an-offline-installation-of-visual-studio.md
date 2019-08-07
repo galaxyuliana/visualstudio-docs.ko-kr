@@ -1,7 +1,7 @@
 ---
 title: 오프라인 설치 만들기
 description: 불안정한 인터넷 연결 또는 낮은 대역폭이 있는 경우 Visual Studio를 오프라인으로 설치하는 방법에 알아봅니다.
-ms.date: 04/16/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -16,12 +16,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: aa728615f74d8422b1e0c7a9cdd531281bc18e32
-ms.sourcegitcommit: 01c3c9dcade5d913bde2c7efa8c931a7b04e6cd0
+ms.openlocfilehash: 616c27f16b4fca9be6f8dab3cdf70fafae52f193
+ms.sourcegitcommit: 0f5f7955076238742f2071d286ad8e896f3a6cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67365247"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68483514"
 ---
 # <a name="create-an-offline-installation-of-visual-studio"></a>Visual Studio의 오프라인 설치 만들기
 
@@ -133,8 +133,19 @@ Visual Studio를 다운로드한 컴퓨터에 단일 설치로 다운로드할 �
     vs_community.exe --layout c:\vslayout --lang en-US
     ```
 
-  > [!NOTE]
-  > 전체 Visual Studio 레이아웃에는 최소 35GB의 디스크 공간이 필요합니다. 설치하려는 구성 요소로만 레이아웃을 만드는 방법에 대한 자세한 내용은 [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)를 참조하세요.
+::: moniker range="vs-2017"
+
+   > [!NOTE]
+   > 전체 Visual Studio 레이아웃에는 최소 35GB의 디스크 공간이 필요합니다. 자세한 내용은 [시스템 요구 사항](/visualstudio/productinfo/vs2017-system-requirements-vs/) 항목을 참조하세요. 설치하려는 구성 요소로만 레이아웃을 만드는 방법에 대한 자세한 내용은 [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)를 참조하세요.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+   > [!NOTE]
+   > 전체 Visual Studio 레이아웃에는 최소 35GB의 디스크 공간이 필요합니다. 자세한 내용은 [시스템 요구 사항](/visualstudio/releases/2019/system-requirements/) 항목을 참조하세요. 설치하려는 구성 요소로만 레이아웃을 만드는 방법에 대한 자세한 내용은 [명령줄 매개 변수를 사용하여 Visual Studio 설치](use-command-line-parameters-to-install-visual-studio.md)를 참조하세요.
+
+::: moniker-end
 
 영어 이외의 언어를 설치하려면 [언어 로케일 목록](#list-of-language-locales)에서 `en-US`를 로캘로 변경합니다. 그런 다음, [사용 가능한 구성 요소 및 워크로드 목록](workload-and-component-ids.md)을 사용하여 설치 캐시를 추가로 사용자 지정합니다.
 

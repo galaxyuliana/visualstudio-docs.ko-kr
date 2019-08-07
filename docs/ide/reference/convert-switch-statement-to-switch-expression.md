@@ -9,12 +9,12 @@ dev_langs:
 - CSharp
 ms.workload:
 - dotnet
-ms.openlocfilehash: ecb7750301101a2607c17e68b5e919623a03caba
-ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.openlocfilehash: cc13cffe8352d9fb57f5bb991c3af615eddb2a14
+ms.sourcegitcommit: b56dc6fadc6c924beed36bb4c2ccc16cf6bcfa1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "67329037"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68740052"
 ---
 # <a name="convert-switch-statement-to-switch-expression"></a>switch 문을 switch 식으로 변환
 
@@ -30,7 +30,7 @@ ms.locfileid: "67329037"
 
 ## <a name="how-to"></a>방법
 
-1. `switch` 식은 새로운 C# 8.0 기능이므로 프로젝트 파일에서 [언어 버전을 미리 보기로 설정](/dotnet/csharp/language-reference/configure-language-version#set-the-language-version-in-visual-studio)합니다.
+1. `switch` 식은 새로운 C# 8.0 기능이므로 프로젝트 파일에서 [언어 버전을 미리 보기로 설정](/dotnet/csharp/language-reference/configure-language-version#edit-the-project-file)합니다.
 2. 커서를 `switch` 키워드에 놓고 **Ctrl**+ **.** 을 누릅니다. **빠른 작업 및 리팩터링** 메뉴를 트리거합니다.
 3. **switch 문을 식으로 변환**을 선택합니다.
 

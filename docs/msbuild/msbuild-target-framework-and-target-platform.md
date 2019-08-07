@@ -8,15 +8,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9760dbf4fd2eabb43e88e0b99858eba3e09c8fb5
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: 00874c8fd7ded67c380de1166d7e9753a3bd3c24
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66747395"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68662046"
 ---
 # <a name="msbuild-target-framework-and-target-platform"></a>MSBuild 대상 프레임워크 및 대상 플랫폼
 프로젝트는 특정 버전의 .NET Framework인 *대상 프레임워크* 및 특정 소프트웨어 아키텍처인 *대상 플랫폼*에서 실행되도록 빌드할 수 있습니다.  예를 들어 802x86 프로세서 제품군(“x86”)과 호환되는 32비트 플랫폼의 .NET Framework 2.0에서 실행되도록 애플리케이션을 대상으로 지정할 수 있습니다. 대상 프레임워크와 대상 플랫폼의 조합을 *대상 컨텍스트*라고 합니다.
+
+> [!IMPORTANT]
+> 이 문서에서는 이전 방법으로 대상 프레임워크를 지정하는 방법을 보여 줍니다. SDK 스타일 프로젝트는 netstandard와 같이 다른 TargetFrameworks를 사용하도록 설정합니다. 자세한 내용은 [대상 프레임워크](/dotnet/standard/frameworks)를 참조하세요.
 
 ## <a name="target-framework-and-profile"></a>대상 프레임워크 및 프로필
  대상 프레임워크는 빌드하는 프로젝트의 실행 기반인 특정 버전의 .NET Framework입니다. 대상 프레임워크의 사양은 해당 프레임워크 버전에만 해당되는 컴파일러 기능 및 어셈블리 참조를 사용할 수 있게 하므로 필수입니다.
@@ -41,9 +44,13 @@ ms.locfileid: "66747395"
 
 - .NET Framework 4.7.1
 
+- .NET Framework 4.7.2
+
+- .NET Framework 4.8
+
 .NET Framework의 버전은 목록에서 참조 가능하도록 만드는 어셈블리에 따라 서로 다릅니다. 예를 들어 프로젝트가 .NET Framework 버전 3.0 이상을 대상으로 하지 않는 경우 WPF(Windows Presentation Foundation) 애플리케이션을 빌드할 수 없습니다.
 
-대상 프레임워크는 프로젝트 파일의 `TargetFrameworkVersion` 속성에서 지정됩니다. Visual Studio IDE(통합 개발 환경)의 프로젝트 속성 페이지를 사용하여 프로젝트의 대상 프레임워크를 변경할 수 있습니다. 자세한 내용은 [방법: 한 버전의 .NET Framework를 대상으로 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)을 참조하세요. `TargetFrameworkVersion`에 사용할 수 있는 값은 `v2.0`, `v3.0`, `v3.5`, `v4.5.2`, `v4.6`, `v4.6.1`, `v4.6.2`, `v4.7` 및 `v4.7.1`입니다.
+대상 프레임워크는 프로젝트 파일의 `TargetFrameworkVersion` 속성에서 지정됩니다. Visual Studio IDE(통합 개발 환경)의 프로젝트 속성 페이지를 사용하여 프로젝트의 대상 프레임워크를 변경할 수 있습니다. 자세한 내용은 [방법: 한 버전의 .NET Framework를 대상으로 지정](../ide/how-to-target-a-version-of-the-dotnet-framework.md)을 참조하세요. `TargetFrameworkVersion`에 사용할 수 있는 값은 `v2.0`, `v3.0`, `v3.5`, `v4.5.2`, `v4.6`, `v4.6.1`, `v4.6.2`, `v4.7`, `v4.7.1`, `v4.7.2` 및 `v4.8`입니다.
 
 ```xml
 <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>

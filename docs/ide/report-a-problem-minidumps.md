@@ -14,12 +14,12 @@ dev_langs:
 ms.workload:
 - multiple
 ms.description: Collect minidumps to send to Microsoft for help with troubleshooting issues with Visual Studio
-ms.openlocfilehash: eefcbefa8b728afa677e7bd04fd538633ae117f0
-ms.sourcegitcommit: 6f7a740750b2cd17ea2275c3d046caebc9782917
+ms.openlocfilehash: 7d0580e04968a01dc8e447a9ee35f2b1c5934ccf
+ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67518179"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68461649"
 ---
 # <a name="create-minidumps-for-a-visual-studio-process-with-all-call-stacks"></a>모든 호출 스택을 사용하여 Visual Studio 프로세스에 대한 미니덤프 만들기
 
@@ -40,7 +40,6 @@ ms.locfileid: "67518179"
 ## <a name="get-the-call-stacks-from-the-minidump"></a>미니덤프에서 호출 스택 가져오기
 
 1. Visual Studio에서 덤프 파일을 엽니다.
-
 1. **도구** > **옵션** > **디버깅** > **기호**로 이동하여 **Microsoft 기호 서버**가 **기호 파일(.pdb) 위치**에서 선택되었는지 확인합니다.
 1. **명령** 창(**보기** > **다른 창** > **명령 창**) 열기
 1. ‘~*k’를 입력합니다. 모든 스레드의 호출 스택이 창에 표시됩니다.

@@ -23,12 +23,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: aca4869126a6756c15b2eb2c2be61613b1a58e74
-ms.sourcegitcommit: 91c7f1b525e0c22d938bc4080ba4ceac2483474f
+ms.openlocfilehash: f494674acdf8b272029ad02a762897b379212ae4
+ms.sourcegitcommit: 9cfd3ef6c65f671a26322320818212a1ed5955fe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "67032561"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68533360"
 ---
 # <a name="first-look-at-deployment-in-visual-studio"></a>먼저 Visual Studio의 배포 살펴보기
 
@@ -105,7 +105,11 @@ Visual Studio에서 Microsoft Store에 배포하기 위한 앱 패키지를 만�
 
 [ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md)가 제공할 수 있는 것보다 더 복잡한 데스크톱 애플리케이션의 설치가 필요한 경우 Windows Installer 패키지(MSI 또는 EXE 설치 파일) 또는 사용자 지정 부트스트래퍼를 만들 수 있습니다.
 
-- [WiX Toolset Visual Studio 2017 확장](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension)을 사용하여 MSI 기반 설치 관리자 패키지를 만들 수 있습니다. 이는 명령줄 도구 세트입니다.
+- [WiX Toolset 확장](https://marketplace.visualstudio.com/items?itemName=WixToolset.WiXToolset)을 사용하여 MSI 기반 설치 관리자 패키지를 만들 수 있습니다. 이는 명령줄 도구 세트입니다.
+
+   ::: moniker range=">=vs-2019"
+   Visual studio 2019의 경우 [WiX Toolset Visual Studio 2019 확장](https://marketplace.visualstudio.com/items?itemName=WixToolset.WixToolsetVisualStudio2019Extension)을 사용합니다.
+   ::: moniker-end
 
 - Flexera Software의 [InstallShield](https://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/requirements)를 사용하여 MSI 또는 EXE 설치 관리자 패키지를 만들 수 있습니다. InstallShield는 Visual Studio 2017 및 이후 버전에서 사용할 수 있습니다(Community Edition은 지원되지 않음). InstallShield Limited Edition은 더 이상 Visual Studio에 포함되지 않으며, Visual Studio 2017 및 이후 버전에서 지원되지 않습니다. 추후 가용성은 [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio)에 확인하세요.
 

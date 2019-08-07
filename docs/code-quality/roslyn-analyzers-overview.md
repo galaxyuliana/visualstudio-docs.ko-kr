@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: befbb09d347043ae304702618506d193344e23ba
-ms.sourcegitcommit: fd5a5b057df3d733f5224c305096907989811f85
+ms.openlocfilehash: cae7a02c774773d08c287dde7df59ff62fdbec58
+ms.sourcegitcommit: 9cfd3ef6c65f671a26322320818212a1ed5955fe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67195241"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68533351"
 ---
 # <a name="overview-of-net-compiler-platform-analyzers"></a>.NET Compiler Platform 분석기 개요
 
@@ -80,9 +80,9 @@ Visual Studio 확장으로 분석기를 설치하는 경우 모든 Visual Studio
 
 Visual Studio 확장으로 설치된 분석기에서 규칙의 심각도를 설정할 수 없습니다. [규칙 심각도](../code-quality/use-roslyn-analyzers.md#rule-severity)를 구성하려면 분석기를 NuGet 패키지로 설치합니다.
 
-### <a name="categories"></a>범주
+## <a name="categories"></a>범주
 
-다음은 코드를 분석하는 데 도움이 되는 다양한 분석기 유형입니다. 
+다음은 코드를 분석하는 데 도움이 되는 다양한 분석기 유형입니다.
 
 - Microsoft 권장 분석기: [FxCop 분석기](../code-quality/fxcop-analyzers.yml)
 - Visual Studio IDE 분석기: [EditorConfig](../ide/code-styles-and-code-cleanup.md)

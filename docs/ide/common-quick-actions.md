@@ -1,5 +1,6 @@
 ---
 title: 일반적인 빠른 작업
+description: C# 및 Visual Basic에 대해 가장 인기 있는 빠른 작업에는 키워드 또는 기호 철자 수정, 병합 충돌 해결, 필요한 가져오기 제거, 형식 생성, 로컬 변수 지정 등이 포함됩니다.
 ms.date: 03/28/2018
 ms.topic: reference
 author: gewarren
@@ -10,12 +11,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: f6f8872fa9acb2ca79010a87168c629dcbc3ac6e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3364010ad9470d4431e6407e40b6a6b1cc96476a
+ms.sourcegitcommit: 0f5f7955076238742f2071d286ad8e896f3a6cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62976507"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68483728"
 ---
 # <a name="common-quick-actions"></a>일반적인 빠른 작업
 

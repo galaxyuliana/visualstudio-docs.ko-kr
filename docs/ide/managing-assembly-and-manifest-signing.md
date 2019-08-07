@@ -1,6 +1,7 @@
 ---
 title: 어셈블리 및 매니페스트 서명 관리
 ms.date: 02/17/2017
+ms.technology: vs-ide-deployment
 ms.topic: conceptual
 helpviewer_keywords:
 - manifests [Visual Studio]
@@ -8,17 +9,17 @@ helpviewer_keywords:
 - application manifests [Visual Studio]
 - assemblies [Visual Studio], signing
 ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 17cda43c2fab2944e5027f5292b405f8a9e2e084
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3add6e3e4f38b5ba73cd5154720d7b283189526e
+ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62538243"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68461496"
 ---
 # <a name="manage-assembly-and-manifest-signing"></a>어셈블리 및 매니페스트 서명 관리
 
@@ -37,13 +38,13 @@ Visual C++ 프로젝트의 어셈블리 서명에 대한 자세한 내용은 [�
 
 .NET 어셈블리 및 애플리케이션 매니페스트에 서명할 수 있습니다.
 
-- 실행 파일(*.exe*)
+- 실행 파일( *.exe*)
 
-- 애플리케이션 매니페스트(*.exe.manifest*)
+- 애플리케이션 매니페스트( *.exe.manifest*)
 
-- 배포 매니페스트(*.application*)
+- 배포 매니페스트( *.application*)
 
-- 공유 구성 요소 어셈블리(*.dll*)
+- 공유 구성 요소 어셈블리( *.dll*)
 
 다음 자산 형식에 서명합니다.
 
