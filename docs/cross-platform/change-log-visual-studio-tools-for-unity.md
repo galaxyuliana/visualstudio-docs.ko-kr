@@ -1,7 +1,7 @@
 ---
 title: 변경 로그(Visual Studio Tools for Unity, Windows) | Microsoft Docs
 ms.custom: ''
-ms.date: 05/28/2019
+ms.date: 07/29/2019
 ms.technology: vs-unity-tools
 ms.topic: conceptual
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -10,16 +10,40 @@ ms.author: johmil
 manager: crdun
 ms.workload:
 - unity
-ms.openlocfilehash: 365476e0e87f5bb8c71041ad8afbdd7db6e6f952
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: d9b89be226ca7cafbfe66a14cd606f50678a013a
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67821345"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68661952"
 ---
 # <a name="change-log-visual-studio-tools-for-unity-windows"></a>변경 로그(Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity에 대한 변경 로그입니다.
+
+## <a name="4201"></a>4.2.0.1
+
+릴리스 날짜: 2019년 7월 24일
+
+### <a name="new-features"></a>새 기능
+
+- **통합:**
+
+  - Unity 프로젝트 탐색기에서 모든 형식의 파일을 만들 수 있는 새로운 옵션이 추가되었습니다.
+  
+  - Unity 프로젝트에 대한 빠른 빌드를 사용하는 경우 진단 캐싱을 개선합니다.
+
+### <a name="bug-fixes"></a>버그 수정
+
+- **통합:**
+
+  - 잘 알려진 편집기에서 파일 확장명을 처리하지 않은 경우에 발생하는 문제가 해결되었습니다.
+
+  - Unity 프로젝트 탐색기에서 사용자 지정 확장에 대한 지원 문제가 해결되었습니다.
+
+  - 기본 대화 상자 외부에 저장을 설정하는 문제가 해결되었습니다.
+
+  - 레거시 Microsoft.VisualStudio.MPF 종속성을 제거했습니다.
 
 ## <a name="4110"></a>4.1.1.0
 

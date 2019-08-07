@@ -2,7 +2,7 @@
 title: Visual Studio 2019의 새로운 기능
 titleSuffix: ''
 description: Visual Studio 2019의 새로운 기능을 알아보세요.
-ms.date: 06/29/2019
+ms.date: 07/23/2019
 helpviewer_keywords:
 - Visual Studio, what's new
 - what's new [Visual Studio]
@@ -15,16 +15,16 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 6b5387fa61686d85e02c200a0a50cffa9e5aa155
-ms.sourcegitcommit: c7b9ab1bc19d74b635c19b1937e92c590dafd736
+ms.openlocfilehash: dd4ae23899871644f61f3bb903fc2c4ad7880b53
+ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67552872"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68493324"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Visual Studio 2019의 새로운 기능
 
-**[16.1 릴리스](/visualstudio/releases/2019/release-notes/)용으로 업데이트됨**
+**[16.2 릴리스](/visualstudio/releases/2019/release-notes/)용으로 업데이트됨**
 
 >[!div class="button"]
 >[Visual Studio 2019 다운로드](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
@@ -102,6 +102,12 @@ Visual Studio 2019 릴리스부터 Visual Studio를 PMA(모니터별 인식) 애
 
 자세한 내용은 [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/)(Visual Studio 2019를 사용하여 다중 모니터 경험 향상) 블로그 게시물을 참조하세요.
 
+### <a name="test-explorer"></a>테스트 탐색기
+
+**16.2의 새로운 기능**: 테스트 탐색기에서 큰 테스트 집합의 더욱 효율적인 처리, 편리한 필터링, 검색하기 쉬운 명령, 탭 재생 목록 보기, 사용자가 표시되는 테스트 정보를 세부적으로 조정할 수 있는 사용자 지정 가능한 열 등을 제공하도록 업데이트했습니다.
+
+   ![테스트 탐색기에서 향상된 사용자 인터페이스를 보여 주는 스크린샷](media/vs-2019/test-explorer-ui.png)
+
 ## <a name="collaborate"></a>공동 작업
 
 협력하여 문제를 해결하는 방법에 대한 자세한 내용을 보려면 다음 비디오를 보세요. <br><br>*비디오 길이: 4.22분*
@@ -178,6 +184,12 @@ Azure VM에서 실행되는 ASP.NET(Core 및 데스크톱) 애플리케이션을
 
 자세한 내용은 [스냅숏 디버거를 사용하여 라이브 ASP.NET Azure 앱 디버그](../debugger/debug-live-azure-applications.md) 페이지와 [Introducing Time Travel Debugging for Visual Studio Enterprise 2019](https://devblogs.microsoft.com/visualstudio/introducing-time-travel-debugging-for-visual-studio-enterprise-2019/)(Visual Studio Enterprise 2019의 시간 이동 디버깅 소개) 블로그 게시물을 참조하세요.
 
+### <a name="microsoft-edge-insider-support"></a>Microsoft Edge Insider 지원
+
+**16.2의 새로운 기능**: JavaScript 애플리케이션에서 중단점을 설정하고 [Microsoft Edge Insider](https://www.microsoftedgeinsider.com/) 브라우저를 사용하여 디버그 세션을 시작합니다. 이렇게 하면 Visual Studio 내에서 애플리케이션 JavaScript를 통해 작업을 진행할 수 있게 디버깅이 활성화된 새 브라우저 창이 Visual Studio에서 실행됩니다.
+
+   ![브라우저에서 JavaScript 코드 렌더링을 보여 주는 스크린샷](media/vs-2019/edge-chromium-breakpoint.png)
+
 ## <a name="whats-next"></a>새로운 기능
 
 Visual Studio 2019는 개발 환경을 훨씬 더 좋게 만들어 줄 수 있는 새 기능으로 자주 업데이트됩니다. 최신 혁신 기능을 자세히 알아보려면 [Visual Studio 블로그](https://devblogs.microsoft.com/visualstudio/)를 확인하세요. 미리 보기에서 현재까지 릴리스된 내용에 대한 기록은 [미리 보기 릴리스 노트](/visualstudio/releases/2019/release-notes-preview/)를 살펴보세요.
@@ -194,9 +206,8 @@ Visual Studio 2019에서 진행 중인 다른 기능에 대해 더 알고 싶은
 
 ## <a name="see-also"></a>참고 항목
 
-* [Visual Studio 2019 알림](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-code-faster-work-smarter-create-the-future/)
 * [Visual Studio 2019 릴리스 정보](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 SDK의 새로운 기능](../extensibility/whats-new-visual-studio-2019-sdk.md)
-* [Visual Studio 2019 for Mac is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-is-now-available/)(현재 사용 가능한 Mac용 Visual Studio 2019)
+* [Mac용 Visual Studio 2019 릴리스 정보](/visualstudio/releasenotes/vs2019-mac-relnotes/)
 * [Microsoft 빌드 2019 회의](https://www.microsoft.com/build)
 * [Microsoft Connect(); 2018 회의](https://www.microsoft.com/connectevent)

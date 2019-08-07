@@ -42,14 +42,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2ef04af4fda717d3f2fa6a90ba6b9ffdc681d5a6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e15357220c9a9d74d4b08fdd97d4f808ff770b9a
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62817858"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68606057"
 ---
-# <a name="options-text-editor-all-languages"></a>옵션, 텍스트 편집기, 모든 언어
+# <a name="options-dialog-box-text-editor--all-languages"></a>옵션 대화 상자: 텍스트 편집기 \> 모든 언어
 
 이 대화 상자에서는 코드 편집기의 기본 동작을 변경할 수 있습니다. 이러한 설정은 HTML 디자이너의 소스 뷰와 같이 코드 편집기를 기반으로 하는 다른 편집기에도 적용됩니다. 이 대화 상자를 열려면 **도구** 메뉴에서 **옵션**을 선택합니다. **텍스트 편집기** 폴더 내에서 **모든 언어** 하위 폴더를 확장하고 **일반**을 선택합니다.
 

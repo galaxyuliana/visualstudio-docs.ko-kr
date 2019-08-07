@@ -10,18 +10,16 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-- uwp
-ms.openlocfilehash: 0c0d13603a2575a826a53bf145fd1f0218571243
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 58f83616985556d762ae05a0a97c6263e2e6d7a4
+ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62892853"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68821550"
 ---
 # <a name="walkthrough-bind-to-data-in-xaml-designer"></a>연습: XAML 디자이너에서 데이터에 바인딩
 
-XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바인딩 속성을 설정할 수 있습니다. 이 연습의 예제에서는 데이터를 컨트롤에 바인딩하는 방법을 보여줍니다. 특히 이 연습에서는 `ItemCount`라는 [DependencyProperty](/uwp/api/Windows.UI.Xaml.DependencyProperty)가 포함된 간단한 쇼핑 카트 클래스를 만든 다음, [TextBlock](/uwp/api/Windows.UI.Xaml.Controls.TextBlock) 컨트롤의 **Text** 속성에 `ItemCount` 속성을 바인딩하는 방법을 보여 줍니다.
+XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바인딩 속성을 설정할 수 있습니다. 이 연습의 예제에서는 데이터를 컨트롤에 바인딩하는 방법을 보여줍니다. 특히 이 연습에서는 `ItemCount`라는 [DependencyProperty](xref:Windows.UI.Xaml.DependencyProperty)가 포함된 간단한 쇼핑 카트 클래스를 만든 다음, [TextBlock](xref:Windows.UI.Xaml.Controls.TextBlock) 컨트롤의 **Text** 속성에 `ItemCount` 속성을 바인딩하는 방법을 보여 줍니다.
 
 ## <a name="to-create-a-class-to-use-as-a-data-source"></a>데이터 소스로 사용할 클래스를 만들려면
 
@@ -65,7 +63,7 @@ XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바
    End Class
    ```
 
-   이 코드는 [PropertyMetadata](/uwp/api/Windows.UI.Xaml.PropertyMetadata) 개체를 사용하여 기본 항목 수로 값 0을 설정합니다.
+   이 코드는 [PropertyMetadata](xref:Windows.UI.Xaml.PropertyMetadata) 개체를 사용하여 기본 항목 수로 값 0을 설정합니다.
 
 1. **파일** 메뉴에서 **빌드** > **솔루션 빌드**를 선택합니다.
 
@@ -73,7 +71,7 @@ XAML 디자이너에서 아트보드와 속성 창을 사용하여 데이터 바
 
 1. 솔루션 탐색기에서 **MainWindow.xaml**에 대한 바로 가기 메뉴를 열고 **뷰 디자이너**를 선택합니다.
 
-1. 도구 상자에서 [그리드](/uwp/api/Windows.UI.Xaml.Controls.Grid) 컨트롤을 선택하여 양식에 추가합니다.
+1. 도구 상자에서 [그리드](xref:Windows.UI.Xaml.Controls.Grid) 컨트롤을 선택하여 양식에 추가합니다.
 
 1. `Grid`를 선택하고, [속성] 창에서 **DataContext** 속성 옆에 있는 **새로 만들기** 단추를 선택합니다.
 

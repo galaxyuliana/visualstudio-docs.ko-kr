@@ -1,17 +1,17 @@
 ---
 title: MPN(Microsoft 파트너 네트워크)의 파트너에게 제공된 Visual Studio 구독 관리
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/28/2019
 ms.topic: conceptual
 description: 제공되는 구독, 적용되는 규칙 및 MPN에서 제공되는 구독의 수에 대한 세부 정보입니다.
-ms.openlocfilehash: 133b9561b6276329e17104b17f0687172b94a574
-ms.sourcegitcommit: f369ff7e84b0216f01570a486c7be80ca6d0e61a
+ms.openlocfilehash: e7cbb8e7d3fd28c9537ddcab84d5c38869c283e0
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68250665"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68605774"
 ---
 # <a name="visual-studio-subscriptions-offered-to-partners-in-the-microsoft-partner-network-mpn"></a>MPN(Microsoft 파트너 네트워크)의 파트너에게 제공된 Visual Studio 구독 관리
 역량을 구하거나 MPN에서 Action Pack을 구매하는 파트너는 Visual Studio 구독을 사용할 자격이 있습니다. 이러한 구독은 사용자별로 라이선스가 발급되며 파트너 회사에 근무하는 특정 지명 사용자에게 할당된 경우만 유효합니다.
@@ -20,13 +20,11 @@ ms.locfileid: "68250665"
 파트너가 실버 레벨 또는 골드 레벨의 역량을 획득하는 경우 많은 핵심 Visual Studio Enterprise 구독을 획득하는 것입니다. 이 핵심 혜택은 해당 파트너가 하나 이상의 골드 역량을 획득하는 경우 변경됩니다. Visual Studio Enterprise 구독은 대략 [Visual Studio Enterprise Standard 구독](https://visualstudio.microsoft.com/vs/pricing/)에 해당하지만 특정 혜택이 제거된(대부분의 혜택은 MPN를 통해 제공된 Visual Studio Enterprise 구독의 일부로서보다는 일반 MPN 혜택으로서 파트너에게 별도로 제공됩니다) 사용자 지정 제품입니다.
 
 ### <a name="core-visual-studio-benefit-for-earning-at-least-one-competency-of-any-kind"></a>모든 종류의 하나 이상의 역량 획득에 대한 핵심 Visual Studio 혜택
-
 | 실버 수준에서 획득한 역량               | 골드 수준에서 획득한 하나 이상의 역량   |
 |------------------------------------------------------------|----------------------------------------------------|
 | 5개 Visual Studio Enterprise 구독                   | 10개 Visual Studio Enterprise 구독          |
 
 ### <a name="additional-visual-studio-benefit-for-select-competencies"></a>Select 역량에 대한 Visual Studio 추가 혜택
-
 | 역량                                  | **실버** 역량에 대해 획득한 추가 구독 | **골드** 역량에 대해 획득한 추가 구독 |
 |---------------------------------------------|-----------------------------------------------------------|---------------------------------------------------------|
 | 애플리케이션 개발                     | 5개 Visual Studio Enterprise 구독                  | 25개 Visual Studio Enterprise 구독               |
@@ -38,7 +36,6 @@ ms.locfileid: "68250665"
 파트너가 획득하는 역량 수에 관계 없이 Visual Studio 구독 수는 다음과 같이 제한됩니다.
 
 ### <a name="limits-for-visual-studio-subscriptions-earned-through-competencies"></a>역량을 통해 획득한 Visual Studio 구독에 대한 제한
-
 | 실버 역량만 있는 파트너에 대한 최대 혜택                   | 하나 이상의 골드 역량 있는 파트너에 대한 최대 혜택               |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | 국가당 25개 Visual Studio Enterprise 구독 및 전세계 75개 구독          | 국가당 50개 Visual Studio Enterprise 구독 및 전세계 150개 구독         |
@@ -65,7 +62,9 @@ MPN을 통해 제공된 Visual Studio 구독을 사용하여 라이선스 사용
 제품의 잠금을 해제하기 위한 제품 키는 제공되지 않습니다. 로그인만이 Visual Studio를 실행하기 위한 유일한 옵션입니다. Visual Studio 구독자는 Visual Studio가 작업을 중지하기 전 최대 30일 동안 오프라인으로 작업할 수 있습니다. 온라인 작업 동안 Visual Studio는 자동으로 사용자의 라이선스 상태를 주기적으로 갱신하여 구독이 계속 유효하도록 보장합니다.
 
 ## <a name="resources"></a>자료
-
 - [MPN 프로그램 관리자 가이드](https://assets.microsoft.com/en-us/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) - Visual Studio 구독을 MPN 직원에게 할당하는 방법에 대한 지침을 포함 합니다.
 - [Visual Studio 구독을 MPN 직원에게 할당](manage-mpn-subscriptions.md)
 - [사용 약관 사용](http://www.microsoft.com/useterms/) - MPN를 통해 제공된 Visual Studio 구독은 (NFR)EULA 재판매용이 아닌 Visual Studio 구독을 조건으로 합니다.
+
+## <a name="next-steps"></a>다음 단계
+Microsoft 파트너 네트워크를 통해 제공된 [Visual Studio 구독](manage-mpn-subscriptions.md) 관리 방법을 알아봅니다.

@@ -8,12 +8,12 @@ ms.assetid: de10dabb-02ed-403b-9e6f-0b735524988c
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 094402a8d3951b329385a27d6524452570183244
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3755a0ebc0227a62a2a23bc15d88d4d008ab733e
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62785899"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68662067"
 ---
 # <a name="load-test-run-settings-properties"></a>부하 테스트 실행 설정 속성
 
@@ -89,9 +89,10 @@ ms.locfileid: "62785899"
 |**WebTest 연결 풀 크기**|부하 테스트 에이전트와 웹 서버 간에 만들 최대 연결 수를 지정합니다. 이 설정은 **연결 풀** 모델에만 적용됩니다.|
 
 ## <a name="change-run-setting-properties"></a>실행 설정 속성 변경
- 여러 가지 조건에서 부하 테스트를 실행할 수 있도록 속성을 다르게 설정하여 더 많은 실행 설정을 부하 테스트에 추가할 수 있습니다. 예를 들어 새 테스트 설정을 추가하면서 샘플링 주기를 다르게 지정하거나, 실행 기간을 더 길게 지정할 수 있습니다. 한 번에 한 실행 설정만 사용할 수 있으며, 사용할 실행 설정을 활성 상태로 표시하여 지정해야 합니다. 예는 [방법: 부하 테스트에 대한 활성 실행 설정 선택](../test/how-to-select-the-active-run-setting-for-a-load-test.md)을 참조하세요.
 
-### <a name="to-change-run-settings"></a>실행 설정을 변경하려면
+여러 가지 조건에서 부하 테스트를 실행할 수 있도록 속성을 다르게 설정하여 더 많은 실행 설정을 부하 테스트에 추가할 수 있습니다. 예를 들어 새 테스트 설정을 추가하면서 샘플링 주기를 다르게 지정하거나, 실행 기간을 더 길게 지정할 수 있습니다. 한 번에 한 실행 설정만 사용할 수 있으며, 사용할 실행 설정을 활성 상태로 표시하여 지정해야 합니다. 예는 [방법: 부하 테스트에 대한 활성 실행 설정 선택](../test/how-to-select-the-active-run-setting-for-a-load-test.md)을 참조하세요.
+
+실행 설정을 변경하려면
 
 1. 부하 테스트를 엽니다.
 

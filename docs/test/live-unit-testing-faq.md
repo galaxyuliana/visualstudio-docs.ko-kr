@@ -9,12 +9,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 1ed80454f6a87047de9e338d26c749d3c27a98ea
-ms.sourcegitcommit: b468d71052a1b8a697f477ab23a3644de139f1e9
+ms.openlocfilehash: 41d5248106b831accf4d71f97aeaeb72fdbc5018
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67258125"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68662017"
 ---
 # <a name="live-unit-testing-frequently-asked-questions"></a>Live Unit Testing 질문과 대답
 
@@ -139,7 +139,7 @@ Live Unit Testing은 다음 테이블에 나열된 세 가지 인기 있는 단�
 
 - Live Unit Testing은 테스트를 실행하기 위해 새 애플리케이션 도메인을 만들지 않지만 **테스트 탐색기** 창에서 실행되는 테스트는 새 애플리케이션 도메인을 만듭니다.
 
-- Live Unit Testing은 각 테스트 어셈블리에서 순차적으로 테스트를 실행하는 반면 **테스트 탐색기** 창에서 여러 테스트를 실행하고 **동시에 테스트 실행** 단추를 선택한 경우 테스트가 동시에 실행됩니다.
+- Live Unit Testing은 각 테스트 어셈블리에서 순차적으로 테스트를 실행합니다. **테스트 탐색기** 창에서 여러 테스트를 병렬로 실행하도록 선택할 수 있습니다.
 
 - Live Unit Testing에서 테스트를 검색하고 실행하려면 `TestPlatform`의 버전 2를 사용하는 반면 **테스트 탐색기** 창은 버전 1을 사용합니다. 그러나 대부분의 경우에는 차이를 알 수 없습니다.
 

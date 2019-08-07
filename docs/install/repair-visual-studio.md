@@ -2,7 +2,7 @@
 title: Visual Studio 복구
 titleSuffix: ''
 description: Visual Studio 2017의 설치를 복구하는 방법 알아보기
-ms.date: 03/30/2019
+ms.date: 07/31/2019
 ms.custom: seodec18
 ms.topic: conceptual
 author: TerryGLee
@@ -12,12 +12,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 3ba5cdf7ba627bc1d6a75368d90da5ce8a726a5e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ed6b7050d2162fc4e893db6ec4f429fbe3f8eb4f
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62973221"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681340"
 ---
 # <a name="repair-visual-studio"></a>Visual Studio 복구
 
@@ -37,7 +37,7 @@ ms.locfileid: "62973221"
 1. 설치 관리자를 열고 **자세히**를 선택한 후 **복구**를 선택합니다.
 
     ![Visual Studio 설치 관리자에서 Visual Studio 복구](media/repair-visual-studio.png "Visual Studio 설치 관리자에서 Visual Studio 복구")
-    
+
    > [!NOTE]
    > Visual Studio를 복구하면 환경이 다시 설정됩니다. 권한 상승, 사용자 설정 및 프로필 없이 설치된 사용자별 확장과 같은 로컬 사용자 지정은 제거됩니다. 테마, 색상, 키 바인딩과 같은 동기화된 설정이 복원됩니다.
    >
@@ -53,7 +53,7 @@ ms.locfileid: "62973221"
 
      예를 들어 Windows 10을 실행하는 컴퓨터에서 **시작**을 선택한 다음, **Visual Studio 설치 관리자**로 나열되는 **V** 문자로 스크롤합니다.
 
-     ![Visual Studio 설치 관리자 열기](media/vs2019-visual-studio-installer.png "Visual Studio 설치 관리자 열기")
+     ![Visual Studio 설치 관리자 열기](media/vs-2019/vs-installer-windows-start.png "Visual Studio 설치 관리자 열기")
 
      > [!NOTE]
      > 다음 위치에서 Visual Studio 설치 관리자를 찾을 수도 있습니다.

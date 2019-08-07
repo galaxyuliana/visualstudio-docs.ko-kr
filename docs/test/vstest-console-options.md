@@ -10,12 +10,12 @@ author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: eef81a2075f05acf8ea6ab8b42f77797425a3abd
-ms.sourcegitcommit: 74c5360186731de07828764eb32ea1033a8c2275
+ms.openlocfilehash: 147ec9096be430d0bc81be65fdf68f927c0f3dac
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559608"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68661938"
 ---
 # <a name="vstestconsoleexe-command-line-options"></a>VSTest.Console.exe 명령줄 옵션
 
@@ -35,7 +35,7 @@ ms.locfileid: "67559608"
 |**[*테스트 파일 이름*]**|지정한 파일에서 테스트를 실행합니다. 여러 테스트 파일 이름을 공백으로 구분합니다.<br />예제: `mytestproject.dll`, `mytestproject.dll myothertestproject.exe`|
 |**/Settings:[*파일 이름*]**|데이터 수집기 등의 추가 설정을 사용하여 테스트를 실행합니다.<br />예: `/Settings:Local.RunSettings`|
 |**/Tests:[*테스트 이름*]**|제공된 값을 포함하는 이름의 테스트를 실행합니다. 다중 값을 제공하려면 각각의 값을 쉼표로 구분합니다.<br />예: `/Tests:TestMethod1,testMethod2`<br />**/Tests** 명령줄 옵션은 **/TestCaseFilter** 명령줄 옵션과 함께 사용할 수 없습니다.|
-|**/Parallel**|테스트를 병렬로 실행하도록 지정합니다. 기본적으로 머신의 사용 가능한 모든 코어를 사용할 수 있습니다. 사용할 코어 수는 설정 파일을 사용하여 구성할 수 있습니다.|
+|**/Parallel**|테스트를 병렬로 실행하도록 지정합니다. 기본적으로 머신의 사용 가능한 모든 코어를 사용할 수 있습니다. 설정 파일에서 사용할 코어 수를 구성할 수 있습니다.|
 |**/Enablecodecoverage**|테스트 실행에서 데이터 진단 어댑터 CodeCoverage를 활성화합니다.<br />설정 파일을 사용하여 지정하지 않은 경우 기본 설정이 사용됩니다.|
 |**/InIsolation**|격리 모드에서 테스트를 실행합니다.<br />이 격리로 인해 *vstest.console.exe* 프로세스가 테스트 시 오류에서 중지될 가능성은 매우 적지만 테스트 속도가 느려질 수 있습니다.|
 |**/UseVsixExtensions**|이 옵션은 *vstest.console.exe* 프로세스에서 테스트 실행에 설치된 VSIX 확장명(있는 경우)을 사용하거나 건너뜁니다.<br />이 옵션은 사용되지 않습니다. Visual Studio의 다음 주요 릴리스부터 시작되는 이 옵션은 제거할 수 있습니다. NuGet 패키지로 사용할 수 있게 된 사용 중인 확장으로 이동합니다.<br />예: `/UseVsixExtensions:true`|

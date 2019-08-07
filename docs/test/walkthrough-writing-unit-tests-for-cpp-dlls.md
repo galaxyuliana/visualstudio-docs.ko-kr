@@ -7,12 +7,12 @@ manager: markl
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: 38d792ad9264c007dab296b65aa330dfa142769e
-ms.sourcegitcommit: ab06cde69d862440b4277bcd9bf02e7b50593a1b
+ms.openlocfilehash: 1e9e77cd3b6cd02810873127bf9173eac80d7e74
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67132158"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68661904"
 ---
 # <a name="how-to-write-unit-tests-for-c-dlls"></a>방법: C++ DLL의 단위 테스트 작성
 
@@ -88,7 +88,7 @@ ms.locfileid: "67132158"
 
 다음 단계에서는 Visual Studio 2019에서 DLL 프로젝트를 만드는 방법을 보여줍니다.
 
-1. **Windows 데스크톱 마법사**를 사용하여 C++ 프로젝트 만들기: **솔루션 탐색기**에서 솔루션 이름을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다. **언어**를 C++로 설정한 다음, 검색 상자에 "windows"를 입력합니다. 결과 목록에서 **Windows 데스크톱 마법사**를 선택합니다. 
+1. **Windows 데스크톱 마법사**를 사용하여 C++ 프로젝트 만들기: **솔루션 탐색기**에서 솔루션 이름을 마우스 오른쪽 단추로 클릭하고 **추가** > **새 프로젝트**를 선택합니다. **언어**를 C++로 설정한 다음, 검색 상자에 "windows"를 입력합니다. 결과 목록에서 **Windows 데스크톱 마법사**를 선택합니다.
 
      이 연습에서 프로젝트 이름은 `RootFinder`입니다.
 
@@ -321,10 +321,21 @@ ms.locfileid: "67132158"
 
 6. 이제 모든 테스트가 통과합니다.
 
-     ![모든 테스트 통과](../test/media/ute_ult_alltestspass.png)
+   ![모든 테스트 통과](../test/media/ute_ult_alltestspass.png)
+
+::: moniker range="vs-2017"
 
 > [!TIP]
 > 개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) 토글 단추를 사용하여 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+> [!TIP]
+> 개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 설정 메뉴에서 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.
+
+::: moniker-end
 
 ## <a name="refactor"></a> 테스트를 변경하지 않고 코드 리팩터링
 
@@ -353,7 +364,7 @@ ms.locfileid: "67132158"
 
 - **테스트 체크 인.** 각 팀 멤버가 코드를 소스 제어에 체크 인하기 전에 일부 테스트가 수행되도록 지정할 수 있습니다. 일반적으로 이러한 테스트는 빌드 확인 테스트의 전체 집합 중 일부입니다.
 
-     또한 최소한의 코드 검사 수준을 강제로 지정할 수도 있습니다.
+   또한 최소한의 코드 검사 수준을 강제로 지정할 수도 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

@@ -9,12 +9,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: ce9a1a2da7397dbc7ce4235391c962cada7d59eb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2cbde88ee12118f9f59271f897e81ec18c24eb4e
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62786522"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68662054"
 ---
 # <a name="live-unit-testing-with-visual-studio"></a>Visual Studio를 사용한 Live Unit Testing
 
@@ -145,7 +145,7 @@ Live Unit Testing이 테스트 결과를 자동으로 실행하고 업데이트�
 
 - Test Explorer 창에서 테스트를 실행 또는 디버깅하면 일반 이진 파일을 실행합니다. 반면 Live Unit Testing은 계측된 이진 파일을 실행합니다.
 - Live Unit Testing은 테스트를 실행할 새 애플리케이션 도메인을 만들지 않지만 기본 도메인에서 테스트를 실행합니다. **Test Explorer** 창에서 테스트를 실행하면 새 애플리케이션 도메인을 만들지 않습니다.
-- Live Unit Testing은 테스트 어셈블리 각각에서 순차적으로 테스트를 실행합니다. **Test Explorer** 창에서 여러 테스트를 실행하고 **동시에 테스트 실행** 단추를 선택한 경우 테스트가 동시에 실행됩니다.
+- Live Unit Testing은 테스트 어셈블리 각각에서 순차적으로 테스트를 실행합니다. **테스트탐색기** 창에서 여러 테스트를 병렬로 실행하는 옵션을 선택할 수 있습니다.
 
 ## <a name="live-unit-testing-and-large-solutions"></a>Live Unit Testing 및 대규모 솔루션
 
@@ -166,7 +166,7 @@ Live Unit Testing이 테스트 결과를 자동으로 실행하고 업데이트�
 
 **코드 편집기 창에서 개별 테스트 제외**
 
-코드 편집기 창을 사용하여 개별 테스트 메서드를 포함하거나 제외시킬 수 있습니다. 코드 편집기 창에서 테스트 메서드의 시그니처를 마우스 오른쪽 단추로 클릭하고 **라이브 테스트** > **[선택한 메서드] 포함**, **라이브 테스트** > **[선택한 메서드] 제외** 또는 **라이브 테스트** > **[선택한 메서드]를 빼고 모두 제외**를 선택합니다. 여기서 "선택한 메서드"는 코드 창에서 선택한 메서드의 이름입니다.
+코드 편집기 창을 사용하여 개별 테스트 메서드를 포함하거나 제외시킬 수 있습니다. 코드 편집기 창에서 테스트 메서드의 시그니처를 마우스 오른쪽 단추로 클릭하고 **라이브 테스트** >  **[선택한 메서드] 포함**, **라이브 테스트** >  **[선택한 메서드] 제외** 또는 **라이브 테스트** >  **[선택한 메서드]를 빼고 모두 제외**를 선택합니다. 여기서 "선택한 메서드"는 코드 창에서 선택한 메서드의 이름입니다.
 
 **프로그래밍 방식으로 테스트 제외**
 

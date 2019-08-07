@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c27950e104b6064bdaf3b8b4a8fe4a760fa4e677
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: cc3d88fd07ec5d345b3e8697ef69b193ece0fac1
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62792905"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68604902"
 ---
 # <a name="accounts-environment-options-dialog-box"></a>계정, 환경, 옵션 대화 상자
 
@@ -33,7 +33,7 @@ ms.locfileid: "62792905"
 
 ## <a name="registered-azure-clouds"></a>등록된 Azure 클라우드
 
-이 섹션에서는 Visual Studio에 로그인하는 데 사용하는 하나 이상의 계정을 통해 액세스할 수는 Azure 클라우드 인스턴스를 보여줍니다. 예를 들어 회사의 데이터 센터에서 Azure의 전용 인스턴스에 액세스할 수 있습니다. 또는 중국의 Azure 또는 미국의 Azure와 같은 Azure의 독립 또는 정부 인스턴스에 액세스할 수 있습니다. 정부. 글로벌 Azure 클라우드 인스턴스는 기본적으로 목록에 표시되며 제거할 수 없습니다.
+이 섹션에서는 Visual Studio에 로그인하는 데 사용하는 하나 이상의 계정을 통해 액세스할 수는 Azure 클라우드 인스턴스를 보여줍니다. 예를 들어 회사의 데이터 센터에서 Azure의 전용 인스턴스에 액세스할 수 있습니다. 또는 Azure China 21 Vianet 또는 Azure U.S.와 같은 Azure의 독립 또는 정부 인스턴스에 액세스할 수 있습니다. 정부. 글로벌 Azure 클라우드 인스턴스는 기본적으로 목록에 표시되며 제거할 수 없습니다.
 
 **추가** 단추를 선택하여 추가 Azure 클라우드를 등록합니다. **새 Azure 클라우드 추가** 대화 상자에 연결할 수 있거나 전용 Azure 엔드포인트에 URL을 입력할 수 있는 몇 가지 잘 알려진 Azure 클라우드 인스턴스가 나열됩니다.
 
@@ -47,4 +47,3 @@ ms.locfileid: "62792905"
 - [Visual Studio에 로그인](../signing-in-to-visual-studio.md)
 - [여러 사용자 계정으로 작업](../work-with-multiple-user-accounts.md)
 - [환경 설정](../environment-settings.md)
-- [환경 옵션 대화 상자](../../ide/reference/environment-options-dialog-box.md)

@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 62f2d98777f1fe87b67bdb28e6302f29f752f27f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2961730594abd268ae130cf2c3d2b93df5322c14
+ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62953298"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "68606087"
 ---
 # <a name="personalize-the-visual-studio-ide"></a>Visual Studio IDE 개인 설정
 
@@ -27,24 +27,24 @@ ms.locfileid: "62953298"
 
 ## <a name="general-environment-options"></a>일반 환경 옵션
 
-다수의 개인 설정 옵션이 [환경 옵션](../ide/reference/environment-options-dialog-box.md) 대화 상자를 통해 표시됩니다. 이러한 대화 상자에 액세스하는 방법은 두 가지입니다.
+다수의 개인 설정 옵션이 [환경 옵션](../ide/reference/general-environment-options-dialog-box.md) 대화 상자를 통해 표시됩니다. 이러한 대화 상자에 액세스하는 방법은 두 가지입니다.
 
 - 메뉴 모음에서 **도구** > **옵션**을 선택하고, **환경** 노드가 아직 확장되지 않은 경우 확장합니다.
 
-- **Ctrl**+**Q**를 누르고 검색 상자에 **환경**을 입력한 다음, 결과에서 **환경 --> 일반**을 선택합니다.
+- **Ctrl**+**Q**를 누르고 검색 상자에 **환경**을 입력한 다음, 결과에서 **환경 > 일반**을 선택합니다.
 
 > [!TIP]
 > 옵션 대화 상자가 표시되면 **F1** 키를 눌러 해당 페이지의 다양한 설정에 대한 도움말을 볼 수 있습니다.
 
 ## <a name="environment-color-themes"></a>환경 색 테마
 
-밝게, 어둡게 및 파란색 중에서 색 테마를 변경하려면 검색 상자에 **환경**을 입력하고 **환경 --> 일반**을 선택합니다. **옵션** 대화 상자에서 **색 테마** 옵션을 변경합니다.
+밝게, 어둡게 및 파란색 중에서 색 테마를 변경하려면 검색 상자에 **환경**을 입력하고 **환경 > 일반**을 선택합니다. **옵션** 대화 상자에서 **색 테마** 옵션을 변경합니다.
 
-편집기에서 색 지정 옵션을 변경하려면 검색 상자에 **환경**을 입력하고 **환경 --> 글꼴 및 색**을 선택합니다. [방법: 글꼴 및 색 변경](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)을 참조하세요.
+편집기에서 색 지정 옵션을 변경하려면 검색 상자에 **환경**을 입력하고 **환경 > 글꼴 및 색**을 선택합니다. [방법: 글꼴 및 색 변경](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)을 참조하세요.
 
 ### <a name="main-menu-casing"></a>주 메뉴 대/소문자 구분
 
-주 메뉴 대/소문자 구분을 **단어의 첫 글자를 대문자로**("File")와 **모두 대문자로**(예: "FILE") 사이에서 변경할 수 있습니다. 검색 상자에 **환경**을 입력하고 **환경 --> 일반**을 선택한 다음, **메뉴 모음에 ‘단어의 첫 글자를 대문자’로 스타일 적용** 옵션을 변경합니다.
+주 메뉴 대/소문자 구분을 **단어의 첫 글자를 대문자로**("File")와 **모두 대문자로**(예: "FILE") 사이에서 변경할 수 있습니다. 검색 상자에 **환경**을 입력하고 **환경 > 일반**을 선택한 다음, **메뉴 모음에 ‘단어의 첫 글자를 대문자’로 스타일 적용** 옵션을 변경합니다.
 
 ### <a name="customize-menus-and-toolbars"></a>메뉴 및 도구 모음 사용자 지정
 

@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c51042ee5a154c09245a28645cf2e432ff6e694c
-ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.openlocfilehash: c4d129d823c662a96a2186ea24989922d4af7442
+ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66820759"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68661974"
 ---
 # <a name="unit-test-basics"></a>단위 테스트 기본 사항
 
@@ -232,7 +232,17 @@ public void My_Test ()
 
 사용자는 **모두 실행** 을 선택해서 모든 테스트를 실행하거나 **실행** 을 선택해서 실행할 테스트 하위 집합을 선택할 수 있습니다. 일련의 테스트들을 실행한 다음에는 **테스트 탐색기** 창의 맨 아래에 테스트 실행의 요약이 나타납니다. 테스트를 선택하면 아래쪽 창에 해당 테스트의 세부 정보가 표시됩니다. 오른쪽 클릭 메뉴에서 **테스트 열기**를(키보드: **F12**) 선택하여 선택한 테스트에 대한 소스 코드를 표시합니다.
 
+::: moniker range="vs-2017"
+
 개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) 토글 단추를 사용하여 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+개별 테스트에 종속성이 없어 임의 순서로 실행할 수 있는 경우 도구 모음의 설정 메뉴에서 병렬 테스트 실행을 켭니다. 이렇게 하면 모든 테스트를 실행하는 데 걸리는 시간을 훨씬 줄일 수 있습니다.
+
+::: moniker-end
 
 ### <a name="run-tests-after-every-build"></a>각 빌드 후 테스트 실행
 

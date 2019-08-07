@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: ca83689628f02a8c7a2e0166b390d5b277086c1d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f04e999681899bb101dc0aeb70cc6f47094dc1d7
+ms.sourcegitcommit: 0f5f7955076238742f2071d286ad8e896f3a6cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965533"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68483802"
 ---
 # <a name="create-a-unit-test-project"></a>단위 테스트 프로젝트 만들기
 
@@ -29,15 +29,19 @@ ms.locfileid: "62965533"
 
 2. **새 프로젝트** 대화 상자에서 **설치됨** 노드를 확장하고 테스트 프로젝트에 사용하려는 언어를 선택한 후 **테스트**를 선택합니다.
 
-3. Microsoft 단위 테스트 프레임워크 중 하나를 사용하려면 프로젝트 템플릿 목록에서 **단위 테스트 프로젝트** 를 선택합니다. 그렇지 않으면 사용하려는 단위 테스트 프레임워크의 프로젝트 템플릿을 선택합니다. 프로젝트 이름을 지정한 다음, **확인**을 선택합니다.
+3. 사용하려는 테스트 프레임워크에 대한 프로젝트 템플릿(예를 들어 **MSTest 테스트 프로젝트** 또는 **NUnit 테스트 프로젝트**)를 선택합니다. 프로젝트 이름을 지정한 다음 **확인**을 선택합니다.
+
+   ![Visual Studio 2017의 테스트 프로젝트 템플릿](media/test-project-templates.png)
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-2. **새 프로젝트 만들기** 페이지에서 **단위 테스트**를 검색 상자에 입력합니다. **Unit Test Project(.NET Framework)** 프로젝트 템플릿을 선택한 후, **다음**을 클릭합니다.
+2. **새 프로젝트 만들기** 페이지에서 **단위 테스트**를 검색 상자에 입력합니다. 사용하려는 테스트 프레임워크에 대한 프로젝트 템플릿(예를 들어 **MSTest 테스트 프로젝트** 또는 **NUnit 테스트 프로젝트**)를 선택한 후 **다음**을 선택합니다.
 
-3. **새 프로젝트 구성** 페이지에서 프로젝트의 이름을 입력한 다음, **만들기**를 클릭합니다.
+   ![Visual Studio 2019의 테스트 프로젝트 템플릿](media/vs-2019/test-project-templates.png)
+
+3. **새 프로젝트 구성** 페이지에서 프로젝트의 이름을 입력한 다음, **만들기**를 선택합니다.
 
 ::: moniker-end
 

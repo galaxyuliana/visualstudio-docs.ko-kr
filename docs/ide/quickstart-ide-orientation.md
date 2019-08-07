@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5f039081309f29e0cd86b3d56ae102b4e55d82ad
-ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.openlocfilehash: 063024605f142cd2d836eb9322274e7b81cdd9f0
+ms.sourcegitcommit: 0f5f7955076238742f2071d286ad8e896f3a6cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66820970"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68483764"
 ---
 # <a name="quickstart-first-look-at-the-visual-studio-ide"></a>빠른 시작: 먼저 Visual Studio IDE 살펴보기
 
@@ -71,7 +71,7 @@ Visual Studio의 기능을 계속 탐색하기 위해 새 프로젝트를 만들
 
    ![Visual Studio 시작 페이지에서 프로젝트 템플릿 검색](media/start-page-search-templates.png)
 
-   Visual Studio에서는 신속하게 코딩을 시작하는 데 도움이 되는 다양한 종류의 프로젝트 템플릿을 제공합니다. C# **콘솔 앱(.NET Framework)** 프로젝트 템플릿을 선택합니다. (또는 Visual Basic, C++, Javascript나 기타 언어 개발자인 경우 해당 언어 중 하나로 프로젝트를 만들 수 있습니다. 표시되는 UI는 모든 프로그래밍 언어에서 비슷합니다.)
+   Visual Studio에서는 신속하게 코딩을 시작하는 데 도움이 되는 다양한 종류의 프로젝트 템플릿을 제공합니다. C# **콘솔 앱(.NET Core)** 프로젝트 템플릿을 선택합니다. (또는 Visual Basic, C++, Javascript나 기타 언어 개발자인 경우 해당 언어 중 하나로 프로젝트를 만들 수 있습니다. 표시되는 UI는 모든 프로그래밍 언어에서 비슷합니다.)
 
 1. 표시되는 **새 프로젝트** 대화 상자에서 기본 프로젝트 이름을 그대로 사용하고 **확인**을 선택합니다.
 
@@ -87,7 +87,7 @@ Visual Studio의 기능을 계속 탐색하기 위해 새 프로젝트를 만들
 
    ![Visual Studio 2019의 새 프로젝트 대화 상자](media/vs-2019/create-a-new-project.png)
 
-1. C#, Visual Basic 또는 F#를 언어로 선택한 경우 **콘솔 앱(.NET Framework)** 템플릿을 선택하고 **다음**을 선택합니다. (다른 언어를 선택한 경우에는 임의로 템플릿을 선택하면 됩니다. 표시되는 UI는 모든 프로그래밍 언어에서 비슷합니다.)
+1. C#, Visual Basic 또는 F#를 언어로 선택한 경우 **콘솔 앱(.NET Core)** 템플릿을 선택하고 **다음**을 선택합니다. (다른 언어를 선택한 경우에는 임의로 템플릿을 선택하면 됩니다. 표시되는 UI는 모든 프로그래밍 언어에서 비슷합니다.)
 
 1. **새 프로젝트 구성** 페이지에서 기본 프로젝트 이름 및 위치를 그대로 사용하고 **만들기**를 선택합니다.
 

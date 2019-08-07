@@ -1,6 +1,7 @@
 ---
 title: MSBuild의 문제 해결 및 로그 만들기
 ms.date: 06/27/2019
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
 - msbuild logs"
@@ -14,12 +15,12 @@ dev_langs:
 ms.workload:
 - multiple
 ms.description: Generate build logs for msbuild projects to collect helpful information when troubleshooting issues.
-ms.openlocfilehash: c3db56ac7ea60ce88beae6698c974ac91373ed00
-ms.sourcegitcommit: 6f7a740750b2cd17ea2275c3d046caebc9782917
+ms.openlocfilehash: 8e302814571a5f7f37cfe02b2750f57dacb54c25
+ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67518199"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68461489"
 ---
 # <a name="troubleshoot-and-create-logs-for-msbuild-problems"></a>MSBuild의 문제 해결 및 로그 만들기
 
@@ -117,10 +118,10 @@ Msbuild.binlog 파일이 MSBuild를 실행한 디렉터리에 만들어집니다
 
 1. Visual Studio 주 메뉴에서 **도구** > **옵션** > **프로젝트 및 솔루션** >**빌드 및 실행**으로 이동합니다.
 1. 두 콤보 상자 모두에서 **Msbuild 프로젝트 빌드 자세한 정도**를 **자세히**로 설정합니다. 첫 번째 컨트롤은 **출력 창**의 자세한 정도를 빌드하고 두 번째 컨트롤은 빌드 중에 각 프로젝트의 중간 디렉터리에서 만들어진 \<projectname\>.log 파일의 자세한 정도를 빌드합니다.
-1. Visual Studio 개발자 명령 프롬프트에서 실제 경로 및 구성 값을 대체하는 이러한 명령 중 하나를 입력합니다.
+2. Visual Studio 개발자 명령 프롬프트에서 실제 경로 및 구성 값을 대체하는 이러한 명령 중 하나를 입력합니다.
 
     ```cmd
-    Msbuild /p:Configuration="MyConfiguration";Platform="x86" /fl MySolution.sln 
+    Msbuild /p:Configuration="MyConfiguration";Platform="x86" /fl MySolution.sln
     ```
 
     또는

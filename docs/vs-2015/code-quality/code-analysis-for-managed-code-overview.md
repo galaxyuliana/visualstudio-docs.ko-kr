@@ -14,12 +14,12 @@ caps.latest.revision: 37
 author: gewarren
 ms.author: gewarren
 manager: wpickett
-ms.openlocfilehash: 5076ea34b1bcbd66239722bc8fb1a3edc4763162
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: b4c22076a5f08b1b8f25722e5c3a5fef27b81b9e
+ms.sourcegitcommit: b56dc6fadc6c924beed36bb4c2ccc16cf6bcfa1c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65680615"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68739980"
 ---
 # <a name="code-analysis-for-managed-code-overview"></a>관리 코드에 대한 코드 분석 개요
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -63,7 +63,7 @@ ms.locfileid: "65680615"
   체크 인 정책을 지정하여 위 사항을 확인할 수 있습니다. 자세한 내용은 [팀 프로젝트 체크 인 정책을 사용하여 코드 품질 향상](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md)을 참조하세요.  
   
 ## <a name="team-build-integration"></a>팀 빌드 통합  
- 빌드 시스템의 통합된 기능을 사용하여 빌드 프로세스의 일부로 분석 도구를 실행할 수 있습니다. 자세한 내용은 [애플리케이션 빌드](https://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)를 참조하세요.  
+ 빌드 시스템의 통합된 기능을 사용하여 빌드 프로세스의 일부로 분석 도구를 실행할 수 있습니다. 자세한 내용은 [애플리케이션 빌드](/azure/devops/pipelines/index)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목  
  [규칙 집합을 사용하여 코드 분석 규칙 그룹화](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)   

@@ -1,18 +1,18 @@
 ---
 title: Work with multiple user accounts
-ms.date: 12/10/2018
+ms.date: 07/23/2019
 ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 371cdc85648b8b058267540b305162adf371c4f6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6a49f7fe74977495c3e2a99e7311d4349ccd67bd
+ms.sourcegitcommit: 0f5f7955076238742f2071d286ad8e896f3a6cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62581905"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68483546"
 ---
 # <a name="work-with-multiple-user-accounts"></a>Work with multiple user accounts
 
@@ -55,7 +55,19 @@ Microsoft 계정 또는 조직 계정으로 Visual Studio에 로그인합니다.
 
 AAD(Azure Active Directory)는 ASP.NET MVC 웹앱에서의 최종 사용자 Single Sign-In 또는 웹 API 서비스에서의 AD 인증을 지원합니다. 도메인 인증은 개별 사용자 계정 인증과 다릅니다. Active Directory 도메인에 액세스할 수 있는 사용자는 기존 AAD 계정을 사용하여 웹 애플리케이션에 연결할 수 있습니다. Office 365 앱은 도메인 인증도 사용할 수 있습니다.
 
-이 작업을 보려면 새 **ASP.NET 웹 애플리케이션** 프로젝트를 만듭니다. **새 ASP.NET 프로젝트** 대화 상자에서 **인증 변경**을 선택합니다. 인증 마법사가 나타나고 애플리케이션에서 사용할 인증 종류를 선택할 수 있습니다.
+::: moniker range="vs-2017"
+
+이 작업을 보려면 새 **ASP.NET Core 웹 애플리케이션** 프로젝트를 만듭니다. **새 ASP.NET Core 웹 애플리케이션** 대화 상자에서 **웹 애플리케이션** 템플릿을 선택한 다음 **인증 변경**을 선택합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+이 작업을 보려면 새 **ASP.NET Core 웹 애플리케이션** 프로젝트를 만듭니다. **새 ASP.NET Core 웹 애플리케이션 만들기** 페이지에서 **웹 애플리케이션** 템플릿을 선택한 다음 **인증**에서 **변경**을 선택합니다.
+
+::: moniker-end
+
+**인증 변경** 대화 상자가 나타나면 애플리케이션에서 사용할 인증 종류를 선택할 수 있습니다.
 
 ![ASP.NET에 대한 인증 대화 상자 변경](../ide/media/vs2015_change_authentication.png)
 

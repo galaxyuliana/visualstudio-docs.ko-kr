@@ -1,5 +1,6 @@
 ---
 title: 형식을 일치하는 파일 리팩터링으로 이동
+description: 같은 이름을 가진 별도의 파일로 형식을 이동합니다. 형식을 마우스 오른쪽 단추로 클릭하고 빠른 작업 및 리팩터링를 선택한 다음 <TypeName>.cs로 형식 이동을 선택합니다.
 ms.date: 01/26/2018
 ms.topic: reference
 author: gewarren
@@ -10,12 +11,12 @@ dev_langs:
 - VB
 ms.workload:
 - dotnet
-ms.openlocfilehash: 31e3b12f6a19ea64e43f7a5e00e3c795cc7358e0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3021e08d3cfb601a67f51e53c97d2eba60c397a5
+ms.sourcegitcommit: 0f5f7955076238742f2071d286ad8e896f3a6cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62540757"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68483649"
 ---
 # <a name="move-a-type-to-a-matching-file-refactoring"></a>형식을 일치하는 파일 리팩터링으로 이동
 
@@ -45,14 +46,14 @@ ms.locfileid: "62540757"
 
 2. 다음 작업 중 하나를 수행합니다.
 
-   - 줄의 임의 위치에서 **Ctrl**+**.** 를 눌러
+   - 줄의 임의 위치에서 **Ctrl**+ **.** 를 눌러
    - 형식 이름을 마우스 오른쪽 단추로 클릭하고 **빠른 작업 및 리팩터링**을 선택합니다.
 
 1. 메뉴에서 **형식을 *TypeName*.cs로 이동**을 선택합니다. 여기서 *TypeName*은 선택한 형식의 이름입니다.
 
    형식과 동일한 이름을 가진 프로젝트의 새 파일로 형식이 이동됩니다.
 
-   - C#: 
+   - C#:
 
       ![인라인 결과 - C#](media/movetype-result-cs.png)
 
