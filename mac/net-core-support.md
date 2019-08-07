@@ -5,25 +5,25 @@ author: sayedihashimi
 ms.author: sayedha
 ms.date: 06/13/2019
 ms.assetid: 8B8CEBE8-00DA-4AD1-8193-77F58B57F244
-ms.openlocfilehash: 05c41988282cb5f6ae643b1abdb05c0b4b0e5c9b
-ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
+ms.openlocfilehash: 325489f243e6942cf02df406937f4d19cd21ed0d
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68461873"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681749"
 ---
 # <a name="net-core-support"></a>.NET Core 지원
 
 다음 표에서는 Mac용 Visual Studio의 안정적 버전 및 미리 보기 버전에서 지원하는 .NET Core의 버전을 보여 줍니다.
 
-.NET Core SDK 버전 |Mac용 Visual Studio 8.1(안정적) | Mac용 Visual Studio 8.2(안정적) | Mac용 Visual Studio 8.3(미리 보기) |
+| .NET Core SDK 버전 |Mac용 Visual Studio 8.1(안정적) | Mac용 Visual Studio 8.2(안정적) | Mac용 Visual Studio 8.3(미리 보기) |
 |---------|---------|---------|---------|
 |v2.1.0-v2.1.5xx | | | |
 |v2.1.600 + |✔︎|✔︎|✔︎|
 |v2.2.1-v2.2.1xx | | | |
 |v2.2.200 + |✔︎|✔︎|✔︎|
 |v3.0 Preview 3 이전 | | | |
-|v3.0 Preview 3, 4, 5 |✔︎|✔︎|✔︎︎|︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎︎
+|v3.0 Preview 3, 4, 5 |✔︎|✔︎|✔︎|
 |v3.0 미리 보기 6+ | |✔︎|✔︎|
 
 > [!IMPORTANT]
