@@ -2,7 +2,9 @@
   href: designing-user-interfaces.md
 - name: XAML
   items:
-    - name: Visual Studio에서 XAML 디자인
+    - name: XAML 개요
+      href: xaml-overview.md
+    - name: Visual Studio 및 Blend에서 XAML 디자인
       href: designing-xaml-in-visual-studio.md
     - name: XAML 디자이너
       items:
@@ -15,45 +17,34 @@
           href: organize-objects-into-layout-containers-in-xaml-designer.md
         - name: 리소스 만들기 및 적용
           href: how-to-create-and-apply-a-resource.md
-        - name: '연습: XAML 디자이너에서 데이터에 바인딩'
+        - name: '연습: 데이터에 바인딩'
           href: walkthrough-binding-to-data-in-xaml-designer.md
-        - name: XAML 디자이너에 대한 바로 가기 키
-          href: keyboard-shortcuts-for-xaml-designer.md
         - name: 프로젝트 코드 디버그 또는 비활성화
           href: debugging-or-disabling-project-code-in-xaml-designer.md
-        - name: XAML 오류 및 경고
-          href: xaml-errors-warnings.md
-    - name: Blend for Visual Studio
-      items:
-        - name: 개요
-          displayName: Blend for Visual Studio
+        - name: Blend for Visual Studio
           href: creating-a-ui-by-using-blend-for-visual-studio.md
-        - name: 컨트롤을 삽입하고 해당 동작을 수정
-          href: insert-controls-and-modify-their-behavior-in-xaml-designer.md
-        - name: '이미지, 비디오 및 오디오 클립 삽입'
-          href: insert-images-videos-and-audio-clips-in-xaml-designer.md
-        - name: 도형 및 패스 그리기
+        - name: 도형 및 패스 그리기(Blend)
           href: draw-shapes-and-paths.md
-        - name: Blend에서 개체 스타일 수정
+        - name: 개체 스타일 수정(Blend)
           href: modify-the-style-of-objects-in-blend.md
-        - name: 개체에 애니메이션 적용
+        - name: 개체에 애니메이션 적용(Blend)
           href: animate-objects-in-xaml-designer.md
-        - name: 데이터 표시
+        - name: 데이터 표시(Blend)
           href: display-data-in-blend.md
-        - name: 바로 가기 키 및 보조 키
+        - name: 참조
           items:
-            - name: 개요
-              href: keyboard-shortcuts-and-modifier-keys-in-blend.md
-            - name: 바로 가기 키
+            - name: XAML 오류 및 경고
+              href: xaml-errors-warnings.md
+            - name: XAML 디자이너에 대한 바로 가기 키
+              href: keyboard-shortcuts-for-xaml-designer.md
+            - name: Blend의 바로 가기 키
               href: keyboard-shortcuts-in-blend.md
-            - name: 아트보드 보조 키
+            - name: 아트보드 보조 키(Blend)
               href: artboard-modifier-keys-in-blend.md
-            - name: 펜 도구 한정자 키
+            - name: 펜 도구 보조 키(Blend)
               href: pen-tool-modifier-keys-in-blend.md
-            - name: 직접 선택 도구 보조 키
+            - name: 직접 선택 도구 보조 키(Blend)
               href: direct-selection-tool-modifier-keys-in-blend.md
-        - name: 접근성 제품 및 서비스(Blend)
-          href: accessibility-products-and-services-blend.md
 - name: WPF(Windows Presentation Foundation)
   items:
     - name: 시작
