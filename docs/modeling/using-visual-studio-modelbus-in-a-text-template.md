@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9324c33e383029fa6f98a9b890309cc0a11eb95d
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: d3ea71b2a0226036a923395bbc2dfa3d6b4fc58c
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226263"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870482"
 ---
 # <a name="using-visual-studio-modelbus-in-a-text-template"></a>텍스트 템플릿에서 Visual Studio ModelBus 사용
 
@@ -20,16 +20,16 @@ ms.locfileid: "65226263"
 
 - 참조의 대상이 되는 DSL 텍스트 템플릿에서 액세스에 대해 구성 된 ModelBus 어댑터가 있어야 합니다. 또한 다른 코드에서 DSL을 액세스 하는 경우 다시 구성 된 어댑터는 표준 ModelBus 어댑터 외에도 필요 합니다.
 
-     어댑터 관리자에서 상속 해야 합니다 <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager> 특성이 있어야 하 고 `[HostSpecific(HostName)]`입니다.
+     어댑터 관리자는 [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140)) 에서 상속 해야 하며 특성 `[HostSpecific(HostName)]`을 포함 해야 합니다.
 
-- 서식 파일에서 상속 해야 <xref:Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTransformation>합니다.
+- 템플릿은 [Modelbusenabledtexttransformation](/previous-versions/ee844263(v=vs.140))함께 상속 해야 합니다.
 
 > [!NOTE]
 > ModelBus 참조를 포함 하지 않는 DSL 모델 읽기 하려는 경우에 DSL 프로젝트에서 생성 된 지시문 프로세서를 사용할 수 있습니다. 자세한 내용은 [텍스트 템플릿에서 모델에 액세스](../modeling/accessing-models-from-text-templates.md)합니다.
 
 텍스트 템플릿에 대 한 자세한 내용은 참조 하세요. [T4 텍스트 템플릿을 사용 하 여 디자인 타임 코드 생성](../modeling/design-time-code-generation-by-using-t4-text-templates.md)합니다.
 
-## <a name="create-a-model-bus-adapter-for-access-from-text-templates"></a>텍스트 템플릿에서 액세스를 위한 모델 버스 어댑터를 만들기
+## <a name="create-a-model-bus-adapter-for-access-from-text-templates"></a>텍스트 템플릿에서 액세스 하기 위한 모델 버스 어댑터 만들기
 
 텍스트 템플릿에서 ModelBus 참조를 해결 하려면 대상 DSL에 호환 되는 어댑터가 있어야 합니다. 텍스트 템플릿에서 Visual Studio 문서 편집기에서 별도 AppDomain에서 실행 및 따라서 어댑터 DTE를 통해 액세스 하는 대신 모델을 로드 합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "65226263"
 
     4. 각 `*.tt` 파일을 새 프로젝트의 네임 스페이스를 변경 합니다.
 
-    5. 새 프로젝트를 마우스 오른쪽 단추로 클릭 **솔루션 탐색기** 을 클릭 한 다음 **속성**합니다. 속성 편집기에서 생성된 된 어셈블리 및 기본 네임 스페이스의 이름을 변경 합니다.
+    5. **솔루션 탐색기** 에서 새 프로젝트를 마우스 오른쪽 단추로 클릭 한 다음 **속성**을 클릭 합니다. 속성 편집기에서 생성된 된 어셈블리 및 기본 네임 스페이스의 이름을 변경 합니다.
 
     6. DslPackage 프로젝트에서 두 어댑터 모두에 대 한 참조가 포함 되도록 새 어댑터 프로젝트에 대 한 참조를 추가 합니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "65226263"
 
 4. AdapterManager.tt:
 
-    - 상속 되도록 AdapterManagerBase의 선언을 변경 <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>합니다.
+    - [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140))에서 상속 하도록 AdapterManagerBase의 선언을 변경 합니다.
 
          `public partial class <#= dslName =>AdapterManagerBase :`
 
@@ -94,11 +94,11 @@ ms.locfileid: "65226263"
 
 5. **모든 템플릿 변환** 는 솔루션을 다시 빌드합니다. 빌드 오류가 발생 해야 합니다.
 
-## <a name="write-a-text-template-that-can-resolve-modelbus-references"></a>ModelBus 참조를 확인할 수 있는 텍스트 템플릿을 작성합니다
+## <a name="write-a-text-template-that-can-resolve-modelbus-references"></a>ModelBus 참조를 확인할 수 있는 텍스트 템플릿 작성
 
 일반적으로 읽고 "원본" DSL에서에서 파일을 생성 하는 템플릿으로 시작할 수도 있습니다. 에 설명 된 방식으로 원본 모델 파일을 읽을 소스 DSL 프로젝트에서 생성 된 지시문을 사용 하 여이 템플릿을 [텍스트 템플릿에서 모델에 액세스](../modeling/accessing-models-from-text-templates.md)합니다. 그러나 소스 DSL "대상" DSL ModelBus 참조를 포함합니다. 따라서 참조를 확인 및 대상 DSL에 액세스 하는 템플릿 코드를 사용 하도록 설정 하려고 합니다. 따라서 다음이 단계를 수행 하 여 템플릿을 조정 해야 합니다.
 
-- 템플릿의 기본 클래스를 변경할 <xref:Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTransformation>합니다.
+- 템플릿의 기본 클래스를 [Modelbusenabledtexttransformation](/previous-versions/ee844263(v=vs.140))으로 변경 합니다.
 
 - 포함 `hostspecific="true"` template 지시문에 있습니다.
 
@@ -179,7 +179,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
 2. DSL 정의 다이어그램에서 위쪽에 없는 다이어그램의 빈 부분을 마우스 오른쪽 단추로 클릭 하 고 클릭 **Modelbus**합니다.
 
-   찾을 수 없으면 **Modelbus**, 다운로드 및 VMSDK ModelBus 확장을 설치 합니다.
+   **Modelbus 사용**이 표시 되지 않으면 VMSDK Modelbus 확장을 다운로드 하 여 설치 합니다.
 
 3. 에 **Modelbus** 대화 상자에서 **이 Dsl을 ModelBus**를 클릭 하 고 **확인**합니다.
 
@@ -187,13 +187,13 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
 이제 DSL 텍스트 템플릿에서 ModelBus 통해 액세스할 수 있습니다. 명령, 이벤트 처리기 또는 모델 파일 편집기의 AppDomain에서 작동 하는 모든 규칙의 코드에 대 한 참조를 해결할 수 있습니다. 그러나 텍스트 템플릿을 별도 AppDomain에서 실행 하 고 편집 하는 경우 모델에 액세스할 수 없습니다. 텍스트 템플릿에서이 DSL ModelBus 참조에 액세스 하려는 경우에 별도 ModelBusAdapter를 해야 합니다.
 
-### <a name="create-a-modelbus-adapter-that-is-configured-for-text-templates"></a>텍스트 템플릿에 대 한 구성 된 ModelBus 어댑터 만들기
+### <a name="create-a-modelbus-adapter-that-is-configured-for-text-templates"></a>텍스트 템플릿에 대해 구성 된 ModelBus 어댑터 만들기
 
-1. 파일 탐색기에서 복사 하 고 포함 된 폴더에 붙여 넣습니다 *ModelBusAdapter.csproj*합니다.
+1. 파일 탐색기에서 *Modelbusadapter .csproj*를 포함 하는 폴더를 복사 하 여 붙여넣습니다.
 
-    폴더의 이름을 **T4ModelBusAdapter**합니다.
+    폴더 이름을 **T4ModelBusAdapter**로 합니다.
 
-    프로젝트 파일의 이름을 바꿀 *T4ModelBusAdapter.csproj*합니다.
+    프로젝트 파일 *T4ModelBusAdapter*를 이름으로 바꿉니다.
 
 2. 솔루션 탐색기에서 T4ModelBusAdapter MBProvider 솔루션에 추가 합니다. 솔루션 노드를 마우스 오른쪽 **추가**를 클릭 하 고 **기존 프로젝트**합니다.
 
@@ -209,11 +209,11 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
     `<MefComponent>|T4ModelBusAdapter|</MefComponent>`
 
-7. 에 `T4ModelBusAdapter` 프로젝트에 대 한 참조를 추가 합니다. **Microsoft.VisualStudio.TextTemplating.Modeling.11.0**
+7. `T4ModelBusAdapter` 프로젝트에서에 대 한 참조를 추가 합니다. **Microsoft.VisualStudio.TextTemplating.Modeling.11.0**
 
 8. Open T4ModelBusAdapter\AdapterManager.tt:
 
-   1. AdapterManagerBase의 기본 클래스를 <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>로 변경합니다. 이제 파일의이 부분 다음과 같습니다.
+   1. AdapterManagerBase의 기본 클래스를 [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140))로 변경 합니다. 이제 파일의이 부분 다음과 같습니다.
 
        ```
        namespace <#= CodeGenerationUtilities.GetPackageNamespace(this.Dsl) #>.T4ModelBusAdapters
@@ -357,7 +357,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
 1. 실행 중인 경우 Visual Studio의 실험적 인스턴스를 닫습니다.
 
-2. 이라는 파일을 추가 *MBConsumer\Dsl\Custom.cs* 내용을 다음으로 설정 합니다.
+2. *MBConsumer\Dsl\Custom.cs* 라는 파일을 추가 하 고 해당 콘텐츠를 다음으로 설정 합니다.
 
     ```csharp
     namespace Company.MB2Consume
@@ -388,7 +388,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
     }
     ```
 
-3. 키를 눌러 **Ctrl**+**F5**합니다.
+3. **Ctrl**+**F5**를 누릅니다.
 
 4. Visual Studio의 실험적 인스턴스를 열고 `Debugging\Sample.consume`합니다.
 

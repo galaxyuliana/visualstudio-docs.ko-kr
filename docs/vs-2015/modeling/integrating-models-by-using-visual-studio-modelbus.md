@@ -9,17 +9,17 @@ caps.latest.revision: 28
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e9f0a185ce4f78a81d1ed806e38b102296093f48
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 84374596d706c23e835bf344d318d57c297aec60
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63441015"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68871806"
 ---
 # <a name="integrating-models-by-using-visual-studio-modelbus"></a>Visual Studio Modelbus를 사용하여 모델 통합
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus는 모델에 다른 도구에서 그리고 모델 간에 링크를 만드는 메서드를 제공 합니다. 예를 들어, 도메인 특정 언어 (DSL) 모델과 UML 모델을 연결할 수 있습니다. 통합 DSL 집합을 만들 수 있습니다.
+[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]ModelBus는 모델과 다른 도구에서 모델로 링크를 만드는 방법을 제공 합니다. 예를 들어, 도메인 특정 언어 (DSL) 모델과 UML 모델을 연결할 수 있습니다. 통합 DSL 집합을 만들 수 있습니다.
 
  ModelBus에서는 모델 또는 모델 내의 특정 요소에 대한 고유 참조를 만들 수 있습니다. 이 참조는 다른 모델의 요소 등 모델 외부에 저장할 수 있습니다. 나중에 도구에서 요소에 액세스해야 하면 ModelBus 인프라에서 적절한 모델을 로드하고 요소를 반환합니다. 원하는 경우 사용자에게 모델을 표시할 수 있습니다. 이전 위치에서 파일에 액세스할 수 없으면 ModelBus에서 사용자에게 파일을 찾으라는 메시지를 표시합니다. 사용자가 파일을 찾으면 해당 파일에 대한 모든 참조가 수정됩니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "63441015"
 
 5. 텍스트 템플릿에서 DSL에 액세스하려면 새 프로젝트에서 AdapterManager.tt를 수정해야 합니다. 명령 및 이벤트 처리기와 같은 기타 코드에서 DSL에 액세스하려면 이 단계를 생략합니다. 자세한 내용은 [텍스트 템플릿에서 Visual Studio ModelBus를 사용 하 여](../modeling/using-visual-studio-modelbus-in-a-text-template.md)입니다.
 
-   1. AdapterManagerBase의 기본 클래스를 <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>로 변경합니다.
+   1. AdapterManagerBase의 기본 클래스를 [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140))로 변경 합니다.
 
    2. 파일 끝부분의 AdapterManager 클래스 앞에 다음 추가 특성을 삽입합니다.
 
@@ -127,7 +127,7 @@ ms.locfileid: "63441015"
 
 4. 모델의 요소를 참조하려는 경우 Company.FamilyTree.Person과 같이 사용자가 선택할 수 있는 형식의 목록을 추가할 수 있습니다.
 
-5. 클릭 **확인**를 클릭 하 고 **모든 템플릿 변환** 솔루션 탐색기 도구 모음에서입니다.
+5. **확인**을 클릭 한 다음 솔루션 탐색기 도구 모음에서 **모든 템플릿 변환** 을 클릭 합니다.
 
     > [!WARNING]
     > 올바른 모델이나 엔터티를 선택하지 않은 경우 확인 단추가 사용 가능한 것처럼 표시될 수 있지만 클릭해도 아무런 변화가 없습니다.
@@ -509,5 +509,5 @@ private const string INVALID_REF_FORMAT =
 
 - **DslPackage\source.extention.tt**, `|ModelBusAdapter|` MEF 구성 요소로 추가 됩니다.
 
-## <a name="see-also"></a>참고 항목
- [방법: 프로그램 코드로 파일에서 모델을 엽니다](../modeling/how-to-open-a-model-from-file-in-program-code.md) [다른 모델 및 도구를 사용 하 여 통합 UML 모델](../modeling/integrate-uml-models-with-other-models-and-tools.md) [방법: 끌어서 놓기 처리기 추가](../modeling/how-to-add-a-drag-and-drop-handler.md) [텍스트 템플릿에서 Visual Studio ModelBus 사용](../modeling/using-visual-studio-modelbus-in-a-text-template.md)
+## <a name="see-also"></a>관련 항목
+ [방법: 프로그램 코드](../modeling/how-to-open-a-model-from-file-in-program-code.md) 에서 파일 로부터 모델 열기 [UML 모델을 다른 모델 및 도구](../modeling/integrate-uml-models-with-other-models-and-tools.md) [와 통합 하는 방법: [텍스트 템플릿에서 Visual Studio ModelBus를 사용 하 여](../modeling/using-visual-studio-modelbus-in-a-text-template.md) 끌어서](../modeling/how-to-add-a-drag-and-drop-handler.md) 놓기 처리기 추가

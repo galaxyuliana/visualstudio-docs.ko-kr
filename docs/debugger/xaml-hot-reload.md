@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 2728f26319b3d395381d60f136fba7d0c20da977
-ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
+ms.openlocfilehash: 0acacac883153990861385c96eeb3379c464f97f
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68822147"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870996"
 ---
 # <a name="write-and-debug-running-xaml-code-with-xaml-hot-reload-in-visual-studio"></a>Visual Studio에서 XAML 핫 다시 로드를 사용 하 여 실행 중인 XAML 코드 작성 및 디버그
 
@@ -53,7 +53,7 @@ XAML 핫 다시 로드는 다음과 같은 시나리오에서 특히 유용 합�
 XAML 핫 다시 로드를 사용 하는 동안 다음 오류가 발생할 수 있습니다.
 
 |오류 메시지|Description|
-|-|-|-|
+|-|-|
 |이벤트 실패 확인|오류는 응용 프로그램이 실행 되는 동안 지원 되지 않는 컨트롤 중 하나에 이벤트를 연결 하려고 시도 하 고 있음을 나타냅니다.|
 |XAML 편집하며 계속하기에서 업데이트할 요소를 찾지 못했습니다.|앱에서 핫 다시 로드를 업데이트할 수 없는 XAML을 편집 하는 경우 오류가 발생 합니다.</br> 이러한 오류는 실행 중인 응용 프로그램을 사용 하 여 XAML이 사용 된 뷰로 이동 하 여 해결할 수 있습니다.</br> 경우에 따라이 오류는 디버깅 세션을 다시 시작할 때까지 특정 변경 내용을 적용할 수 없음을 의미 합니다. |
 |디버깅 세션 동안에는 이러한 변경을 할 수 없습니다.|오류는 XAML 핫 다시 로드에서 시도 중인 변경을 지원 하지 않음을 나타냅니다. 디버깅 세션을 중지 하 고, 변경 하 고 나 서, 디버깅 세션을 다시 시작 합니다.|

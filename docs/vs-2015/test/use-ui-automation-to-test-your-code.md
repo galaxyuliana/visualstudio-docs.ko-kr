@@ -17,12 +17,12 @@ ms.assetid: ad9e3eaa-ab86-436e-95b8-dc20eb1f8b2a
 caps.latest.revision: 87
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 9e2cc2f08032d9281e3c86990201315fb8bf3937
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 54a050fc6d9d585be2613a27ca177dc77af61121
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67825538"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68871629"
 ---
 # <a name="use-ui-automation-to-test-your-code"></a>UI 자동화를 사용하여 코드 테스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -168,7 +168,7 @@ UI(사용자 인터페이스)를 통해 애플리케이션을 실행하는 자�
 - ![필수 구성 요소](../test/media/prereq.png "Prereq") [TestCleanup] 특성으로 식별되고 각 테스트 메서드 종료 시 코드를 실행하는 테스트 정리 메서드를 추가할 수 있습니다. 예를 들어 애플리케이션을 닫는 메서드는 TestCleanup 메서드에서 호출될 수 있습니다.
 
 ### <a name="VerifyingCodeUsingCUITGenerateAssertions"></a> UI 컨트롤 속성의 유효성 검사
- **코딩된 UI 테스트 빌더**를 사용해 테스트의 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>에 UI(사용자 인터페이스) 컨트롤을 추가하거나 UI 컨트롤에 어설션을 사용하는 확인 메서드에 대한 코드를 생성할 수 있습니다.
+ **코딩 된 Ui 테스트 빌더** 를 사용 하 여 테스트에 대 한 [UIMap](/previous-versions/dd580454(v=vs.140)) 에 ui (사용자 인터페이스) 컨트롤을 추가 하거나 ui 컨트롤에 대 한 어설션을 사용 하는 유효성 검사 메서드의 코드를 생성할 수 있습니다.
 
  UI 컨트롤을 위한 어설션을 생성하려면 코딩된 UI 테스트 빌더에서 **어설션 추가** 도구를 선택하여 올바른지 확인하려는 테스트 중인 애플리케이션의 컨트롤로 끌어 옵니다. 컨트롤 주위에 상자가 생기면 마우스를 놓습니다. `UIMap.Designer.cs` 파일에 컨트롤 클래스 코드가 즉시 생성됩니다.
 
@@ -220,8 +220,8 @@ UI(사용자 인터페이스)를 통해 애플리케이션을 실행하는 자�
   }
   ```
 
-  *코딩된 UI 테스트 빌더에서 어설션 추가 도구를 선택하려고 하면 선택하려는 컨트롤이 포커스를 잃고 사라집니다. 컨트롤을 선택 하려면 어떻게 해야 합니까? * 
-   **키보드를 사용 하 여 숨겨진된 컨트롤 선택**
+  *코딩된 UI 테스트 빌더에서 어설션 추가 도구를 선택하려고 하면 선택하려는 컨트롤이 포커스를 잃고 사라집니다. 컨트롤을 선택 어떻게 할까요?? 키보드를 **사용 하 여 숨겨진 컨트롤 선택** * 
+  
 
   경우에 따라 [컨트롤을 추가하고 해당 컨트롤의 속성에 대한 유효성 검사를 수행](#VerifyingCodeUsingCUITGenerateAssertions)할 때 키보드를 사용해야 할 수 있습니다. 예를 들어 상황에 맞는 메뉴 컨트롤을 사용하는 코딩된 UI 테스트를 기록하려는 경우 코딩된 UI 테스트 빌더에서 어설션 추가 메뉴를 선택하려고 하면 컨트롤의 메뉴 항목 목록이 포커스를 잃고 사라질 수 있습니다. 이러한 현상은 아래 그림에서도 확인할 수 있습니다. 여기서 어설션 추가 도구로 Internet Explorer의 상황에 맞는 메뉴를 선택하려고 하면 이 메뉴가 포커스를 잃고 사라집니다.
 
@@ -291,7 +291,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ## <a name="VerifyingCodeCUITModify"></a> 코딩된 UI 테스트 사용자 지정
  코딩된 UI 테스트를 만든 후 Visual Studio에서 다음 도구 중 하나를 사용해 편집할 수 있습니다.
 
-- **코딩 된 UI 테스트 빌더:** 코딩 된 UI 테스트 빌더를 사용 하 여 추가 컨트롤 및 유효성 검사 테스트에 추가 합니다. 이 항목의 [컨트롤 추가 및 해당 컨트롤 속성에 대한 유효성 검사](#VerifyingCodeUsingCUITGenerateAssertions) 섹션을 참조하세요.
+- **코딩 된 UI 테스트 빌더:** 코딩 된 UI 테스트 빌더를 사용 하 여 테스트에 컨트롤 및 유효성 검사를 추가 합니다. 이 항목의 [컨트롤 추가 및 해당 컨트롤 속성에 대한 유효성 검사](#VerifyingCodeUsingCUITGenerateAssertions) 섹션을 참조하세요.
 
 - **코딩된 UI 테스트 편집기:** 코딩된 UI 테스트 편집기에서는 코딩된 UI 테스트를 쉽게 수정할 수 있습니다. 코딩된 UI 테스트 편집기를 사용하면 테스트 메서드를 찾아서 보고 편집할 수 있습니다. 또한 UI 작업을 편집하고 UI 컨트롤 맵에서 관련 컨트롤을 편집할 수도 있습니다. 자세한 내용은 [코딩된 UI 테스트 편집기를 사용하여 코딩된 UI 테스트 편집](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)을 참조하세요.
 
@@ -449,7 +449,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
 - [Microsoft Test Manager에서 자동화된 테스트 실행](https://msdn.microsoft.com/0632f265-63fe-4859-a413-9bb934c66835)
 
-- [방법: 구성 및 응용 프로그램을 빌드한 후 예약 된 테스트 실행](https://msdn.microsoft.com/32acfeb1-b1aa-4afb-8cfe-cc209e6183fd)
+- [방법: 응용 프로그램을 빌드한 후 예약 된 테스트 구성 및 실행](https://msdn.microsoft.com/32acfeb1-b1aa-4afb-8cfe-cc209e6183fd)
 
 - [빌드 프로세스에서 테스트 실행](https://msdn.microsoft.com/library/d05743a1-c5cf-447e-bed9-bed3cb595e38)
 
@@ -465,14 +465,14 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
 - [Microsoft Excel을 지원하도록 코딩된 UI 테스트 및 작업 기록 확장](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
 
-  코딩된 UI 테스트는 일반적으로 수동 테스트를 자동화하는 데 사용됩니다. 추가 지침을 참조 하세요. [Testing for Continuous Delivery with Visual Studio 2012 – 5 장: 시스템 테스트 자동화](http://go.microsoft.com/fwlink/?LinkID=255196)합니다. 수동 테스트에 대한 자세한 내용은 [&#91;사용되지 않음#93; Microsoft Test Manager를 사용하여 수동 테스트 사례 만들기](https://msdn.microsoft.com/library/9989e184-c8e4-444b-998d-a1a5ec94461e)를 참조하세요. 자동화된 시스템 테스트에 대한 자세한 내용은 [Microsoft Test Manager를 사용하여 자동화된 테스트 만들기](https://msdn.microsoft.com/7b5075ee-ddfe-411d-b1d4-94283550a5d0)를 참조하세요.
+  코딩된 UI 테스트는 일반적으로 수동 테스트를 자동화하는 데 사용됩니다. 추가 지침은 [Visual Studio 2012을 사용 하 여 연속 배달 테스트 – 5 장: 시스템 테스트](http://go.microsoft.com/fwlink/?LinkID=255196)자동화. 수동 테스트에 대한 자세한 내용은 [&#91;사용되지 않음#93; Microsoft Test Manager를 사용하여 수동 테스트 사례 만들기](https://msdn.microsoft.com/library/9989e184-c8e4-444b-998d-a1a5ec94461e)를 참조하세요. 자동화된 시스템 테스트에 대한 자세한 내용은 [Microsoft Test Manager를 사용하여 자동화된 테스트 만들기](https://msdn.microsoft.com/7b5075ee-ddfe-411d-b1d4-94283550a5d0)를 참조하세요.
 
 ## <a name="external-resources"></a>외부 리소스
 
 ### <a name="guidance"></a>지침
-- [Visual Studio 2012 – Chapter 2를 사용한 연속 배달 테스트: 단위 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)
+- [Visual Studio 2012을 사용한 연속 배달 테스트-2 장: 유닛 테스트: 내부 테스트](http://go.microsoft.com/fwlink/?LinkID=255188)
 
-- [Visual Studio 2012 – Chapter 5를 사용한 연속 배달 테스트: 시스템 테스트 자동화](http://go.microsoft.com/fwlink/?LinkID=255196)
+- [Visual Studio 2012을 사용한 연속 배달 테스트 – 5 장: 시스템 테스트 자동화](http://go.microsoft.com/fwlink/?LinkID=255196)
 
 ### <a name="faq"></a>FAQ
 - [코딩된 UI 테스트 FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)
@@ -482,9 +482,9 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ### <a name="forum"></a>포럼
 - [Visual Studio UI 자동화 테스트(CodedUI 포함)](http://go.microsoft.com/fwlink/?LinkID=224497)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참고자료
 
-- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
+- [UIMap](/previous-versions/dd580454(v=vs.140))
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
 - [코드 품질 향상](https://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)
 - [연습: 코딩된 UI 테스트 만들기, 편집 및 유지 관리](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
