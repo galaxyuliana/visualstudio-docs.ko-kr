@@ -7,14 +7,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 68482f9dcb88bd87c65f749c821f4afe92089a51
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c0c1afe7737e17d0f44f8cd1e59b0aa844dfe8fe
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62810674"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870534"
 ---
-# <a name="integrating-models-by-using-visual-studio-modelbus"></a>Visual Studio Modelbus를 사용하여 모델 통합
+# <a name="integrate-models-by-using-visual-studio-modelbus"></a>Visual Studio를 사용 하 여 모델 통합 Modelbus
 
 Visual Studio ModelBus는 모델에 다른 도구에서 그리고 모델 간에 링크를 만드는 메서드를 제공 합니다. 예를 들어, 도메인 특정 언어 (DSL) 모델과 UML 모델을 연결할 수 있습니다. 통합 DSL 집합을 만들 수 있습니다.
 
@@ -46,7 +46,7 @@ ModelBus에서는 모델 또는 모델 내의 특정 요소에 대한 고유 참
 
 5. 텍스트 템플릿에서 DSL에 액세스하려면 새 프로젝트에서 AdapterManager.tt를 수정해야 합니다. 명령 및 이벤트 처리기와 같은 기타 코드에서 DSL에 액세스하려면 이 단계를 생략합니다. 자세한 내용은 [텍스트 템플릿에서 Visual Studio ModelBus를 사용 하 여](../modeling/using-visual-studio-modelbus-in-a-text-template.md)입니다.
 
-   1. AdapterManagerBase의 기본 클래스를 <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>로 변경합니다.
+   1. AdapterManagerBase의 기본 클래스를 [VsTextTemplatingModelingAdapterManager](/previous-versions/ee844317(v=vs.140))로 변경 합니다.
 
    2. 파일 끝부분의 AdapterManager 클래스 앞에 다음 추가 특성을 삽입합니다.
 

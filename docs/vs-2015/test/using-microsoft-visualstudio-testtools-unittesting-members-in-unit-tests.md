@@ -8,12 +8,12 @@ ms.assetid: 0fa335fd-e442-448f-913f-25a19df90a93
 caps.latest.revision: 8
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8bbf75bfe218945453d25440c868a95675168631
-ms.sourcegitcommit: 08fc78516f1107b83f46e2401888df4868bb1e40
+ms.openlocfilehash: 93a62b6fe5493b78a3c18c1adb87761cdb894670
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "65705895"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68871553"
 ---
 # <a name="using-microsoftvisualstudiotesttoolsunittesting-members-in-unit-tests"></a>단위 테스트에서 Microsoft.VisualStudio.TestTools.UnitTesting 멤버 사용
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "65705895"
 > `[TestClassAttribute()]`
 
 ### <a name="elements-used-for-data-driven-testing"></a>데이터 기반 테스트를 위해 사용되는 요소
- 다음 요소를 사용하여 데이터 기반 단위 테스트를 설정합니다. 자세한 내용은 참조 하세요. [방법: 데이터 기반 단위 테스트 만들기](../test/how-to-create-a-data-driven-unit-test.md) 고 [연습: 구성 파일을 사용 하 여 데이터 원본을 정의 하려면](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)합니다.
+ 다음 요소를 사용하여 데이터 기반 단위 테스트를 설정합니다. 자세한 내용은 [방법: 데이터 기반 단위 테스트](../test/how-to-create-a-data-driven-unit-test.md) 및 [연습을 만듭니다. 구성 파일을 사용 하 여 데이터 원본](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)정의
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod>
 
@@ -106,7 +106,7 @@ ms.locfileid: "65705895"
 
 ## <a name="test-configuration-classes"></a>테스트 구성 클래스
 
-- <xref:Microsoft.TeamFoundation.TestManagement.Client.ObjectTypes>
+- [ObjectTypes](/previous-versions/visualstudio/visual-studio-2013/dd987428(v=vs.120))
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection>
 

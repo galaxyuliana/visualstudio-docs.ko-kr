@@ -13,21 +13,21 @@ ms.workload:
 dev_langs:
 - CSharp
 - VB
-ms.openlocfilehash: 71b72b677e9735edb3254290055815885e543fa9
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b9d2447d07d9faabb5fc7eabddafc328756056ca
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62961991"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870654"
 ---
 # <a name="walkthrough-create-a-custom-text-template-host"></a>연습: 사용자 지정 텍스트 템플릿 호스트 만들기
 
-A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니다 *텍스트 템플릿 변환 엔진* 실행 합니다. 호스트는 파일 시스템과 엔진의 상호 작용을 관리합니다. 엔진 또는 *지시문 프로세서* 해야 하는 파일 또는 어셈블리 호스트에서 리소스를 요청할 수 있습니다. 그러면 호스트는 디렉터리와 전역 어셈블리 캐시를 검색하여 요청된 리소스를 찾을 수 있습니다. 자세한 내용은 [은 텍스트 템플릿 변형 프로세스](../modeling/the-text-template-transformation-process.md)합니다.
+*텍스트 템플릿 호스트* 는 *텍스트 템플릿 변환 엔진* 을 실행할 수 있는 환경을 제공 합니다. 호스트는 파일 시스템과 엔진의 상호 작용을 관리합니다. 파일이 나 어셈블리가 필요한 엔진 또는 *지시문 프로세서* 는 호스트에서 리소스를 요청할 수 있습니다. 그러면 호스트는 디렉터리와 전역 어셈블리 캐시를 검색하여 요청된 리소스를 찾을 수 있습니다. 자세한 내용은 [텍스트 템플릿 변환 프로세스](../modeling/the-text-template-transformation-process.md)를 참조 하세요.
 
-사용 하려는 경우 사용자 지정 호스트를 작성할 수 있습니다 합니다 *텍스트 템플릿 변환* Visual Studio 외부 또는 사용자 지정 도구에 통합 하려는 경우 기능입니다. 사용자 지정 호스트를 만들려면 <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>에서 상속되는 클래스를 만들어야 합니다. 개별 메서드에 대한 문서를 보려면 <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>를 참조하십시오.
+Visual Studio 외부에서 *텍스트 템플릿 변환* 기능을 사용 하거나 해당 기능을 사용자 지정 도구에 통합 하려는 경우 사용자 지정 호스트를 작성할 수 있습니다. 사용자 지정 호스트를 만들려면 [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))에서 상속 되는 클래스를 만들어야 합니다. 개별 메서드에 대 한 설명서는 [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))를 참조 하세요.
 
 > [!WARNING]
-> Visual Studio extension 또는 패키지를 작성 하는 경우에 고유한 호스트를 만드는 대신 텍스트 템플릿 서비스를 사용 하는 것이 좋습니다. 자세한 내용은 [VS 확장에서 텍스트 변환 호출](../modeling/invoking-text-transformation-in-a-vs-extension.md)합니다.
+> Visual Studio 확장 또는 패키지를 작성 하는 경우 고유 호스트를 만드는 대신 텍스트 템플릿 서비스를 사용 하는 것이 좋습니다. 자세한 내용은 [VS 확장에서 텍스트 변환 호출](../modeling/invoking-text-transformation-in-a-vs-extension.md)을 참조 하세요.
 
 이 연습에서는 다음 작업을 수행합니다.
 
@@ -35,7 +35,7 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
 
 - 사용자 지정 호스트 테스트
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 이 연습을 완료하려면 다음이 필요합니다.
 
@@ -53,7 +53,7 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
 
    - **Microsoft.VisualStudio.TextTemplating.\*.0**
 
-   - **Microsoft.visualstudio.texttemplating.interfaces.10.0 이상 버전**
+   - **VisualStudio-10.0 및 이후 버전**
 
 3. Program.cs 또는 Module1.vb 파일의 코드를 다음 코드로 바꿉니다.
 
@@ -714,7 +714,7 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
    End Namespace
    ```
 
-4. 에 대 한 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 열만 합니다 **프로젝트** 메뉴 **CustomHost 속성**합니다. 에 **시작 개체** 목록에서 클릭 **CustomHost.Program**합니다.
+4. 의 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 경우에만 **프로젝트** 메뉴를 열고 **customhost 속성**을 클릭 합니다. **시작 개체** 목록에서 **Customhost. Program**을 클릭 합니다.
 
 5. **파일** 메뉴에서 **모두 저장**을 클릭합니다.
 
@@ -726,7 +726,7 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
 
 ### <a name="to-create-a-text-template-to-test-the-custom-host"></a>텍스트 템플릿을 만들어 사용자 지정 호스트를 테스트하려면
 
-1. 텍스트 파일을 만들고 이름을 `TestTemplate.tt`입니다.
+1. 텍스트 파일을 만들고 이름을 `TestTemplate.tt`로 합니다.
 
      메모장 등의 모든 텍스트 편집기를 사용하여 파일을 만들 수 있습니다.
 
@@ -786,7 +786,7 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
      `<YOUR PATH>CustomHost\bin\Debug\CustomHost.exe`
 
     > [!NOTE]
-    > CustomHost.exe 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기** 다음 명령 프롬프트 창에 파일을 끕니다.
+    > 주소를 입력 하는 대신 **Windows 탐색기** 에서 customhost .exe로 이동 하 여 파일을 명령 프롬프트 창으로 끌어 놓을 수 있습니다.
 
 3. 공백을 입력합니다.
 
@@ -797,7 +797,7 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
      `C:\<YOUR PATH>TestTemplate.tt`
 
     > [!NOTE]
-    > TestTemplate.tt 파일로 찾아보면 주소를 입력 하는 대신에 **Windows 탐색기** 다음 명령 프롬프트 창에 파일을 끕니다.
+    > 주소를 입력 하는 대신 **Windows 탐색기** 에서 TestTemplate.tt 파일을 찾아 명령 프롬프트 창으로 끌 수 있습니다.
 
      사용자 지정 호스트 응용 프로그램이 실행되어 텍스트 템플릿 변형 프로세스를 완료합니다.
 
@@ -819,8 +819,8 @@ A *텍스트 템플릿 호스트* 수 있도록 하는 환경을 제공 합니�
 
 ## <a name="next-steps"></a>다음 단계
 
-이 연습에서는 기본 변형 기능을 지원하는 텍스트 템플릿 변형 호스트를 만들었습니다. 사용자 지정 또는 생성된 지시문 프로세서를 호출하는 텍스트 템플릿을 지원하도록 호스트를 확장할 수 있습니다. 자세한 내용은 [연습: 생성된 된 지시문 프로세서에 호스트 연결](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md)합니다.
+이 연습에서는 기본 변형 기능을 지원하는 텍스트 템플릿 변형 호스트를 만들었습니다. 사용자 지정 또는 생성된 지시문 프로세서를 호출하는 텍스트 템플릿을 지원하도록 호스트를 확장할 수 있습니다. 자세한 내용은 [연습: 생성 된 지시문 프로세서](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md)에 호스트 연결
 
 ## <a name="see-also"></a>참고자료
 
-- <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>
+- [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110))
