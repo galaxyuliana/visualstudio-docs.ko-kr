@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 12007beaffab1e046ae7f359bf2988c02278fd91
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f9c0f078c21de023b1f5cfacde0cf122c179adb2
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62541456"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919907"
 ---
 # <a name="ca2243-attribute-string-literals-should-parse-correctly"></a>CA2243: 특성 문자열 리터럴이 올바르게 구문 분석되어야 합니다.
 
@@ -31,33 +31,33 @@ ms.locfileid: "62541456"
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
- 특성의 문자열 리터럴 매개 변수가 URL, GUID 또는 버전에 대 한 올바르게 구문 분석 하지 않습니다.
+특성의 문자열 리터럴 매개 변수는 URL, GUID 또는 버전에 대해 올바르게 구문 분석 되지 않습니다.
 
 ## <a name="rule-description"></a>규칙 설명
- 특성에서 파생 되므로 <xref:System.Attribute?displayProperty=fullName>, 특성은 컴파일 타임에 사용 되 고 상수 값만 해당 생성자에 전달 될 수 있습니다. Url, Guid 및 버전 나타내야 하는 특성 매개 변수를 형식화할 수 없습니다. <xref:System.Uri?displayProperty=fullName>, <xref:System.Guid?displayProperty=fullName>, 및 <xref:System.Version?displayProperty=fullName>이므로 이러한 형식을 상수로 나타낼 수 없습니다. 대신 문자열로 표현 되어야 합니다.
+특성은에서 <xref:System.Attribute?displayProperty=fullName>파생 되 고 특성은 컴파일 시간에 사용 되므로 상수 값만 생성자에 전달할 수 있습니다. Url, guid 및 버전을 나타내야 하는 특성 매개 변수는, <xref:System.Uri?displayProperty=fullName> <xref:System.Guid?displayProperty=fullName>및 <xref:System.Version?displayProperty=fullName>로 입력할 수 없습니다. 이러한 형식은 상수로 표현할 수 없기 때문입니다. 대신 문자열로 표시 되어야 합니다.
 
- 있기 때문에 매개 변수는 문자열로 형식이 지정, 컴파일 시간에는 잘못 된 형식의 매개 변수를 전달할 수 있습니다.
+매개 변수가 문자열로 형식화 되기 때문에 컴파일 시간에 잘못 된 형식의 매개 변수가 전달 될 수 있습니다.
 
- 이 규칙 uniform resource identifier (URI), 전역적으로 고유 식별자 (GUID), 또는 버전을 나타내는 매개 변수를 찾으려면 명명 추론을 사용 하 고 전달된 된 값이 올바른지 확인 합니다.
+이 규칙은 명명 추론을 사용 하 여 URI (uniform resource identifier), GUID (Globally Unique Identifier) 또는 버전을 나타내는 매개 변수를 찾고 전달 된 값이 올바른지 확인 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
- 올바른 형식의 URL, GUID 또는 버전 매개 변수 문자열을 변경 합니다.
+매개 변수 문자열을 올바른 형식의 URL, GUID 또는 버전으로 변경 합니다.
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
- 매개 변수는 URL, GUID 또는 버전을 나타내지 않는 경우이 규칙에서 경고를 표시 하지 않아도 안전 합니다.
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
+매개 변수가 URL, GUID 또는 버전을 나타내지 않는 경우이 규칙에서 경고를 표시 하지 않는 것이 안전 합니다.
 
 ## <a name="example"></a>예제
- 다음 예제에서는이 규칙을 위반 하는 AssemblyFileVersionAttribute에 대 한 코드를 보여 줍니다.
+다음 예제에서는이 규칙을 위반 하는 AssemblyFileVersionAttribute의 코드를 보여 줍니다.
 
- [!code-csharp[FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1](../code-quality/codesnippet/CSharp/ca2243-attribute-string-literals-should-parse-correctly_1.cs)]
+[!code-csharp[FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1](../code-quality/codesnippet/CSharp/ca2243-attribute-string-literals-should-parse-correctly_1.cs)]
 
- 규칙은 다음 매개 변수로 트리거됩니다.
+규칙은 다음 매개 변수에 의해 트리거됩니다.
 
-- 'Version' 포함 된 System.Version를 구문 분석할 수 없는 매개 변수입니다.
+- ' Version '이 포함 된 매개 변수는 System.object로 구문 분석할 수 없습니다.
 
-- System.Guid를 구문 분석할 수 없습니다 및 'guid'를 포함 하는 매개 변수입니다.
+- ' Guid '를 포함 하 고 system.string으로 구문 분석할 수 없는 매개 변수입니다.
 
-- System.Uri로 구문 분석할 수 없습니다 및 'uri', 'urn' 또는 'url'를 포함 하는 매개 변수입니다.
+- ' Uri ', ' urn ' 또는 ' u r l '을 포함 하는 매개 변수를 System.uri로 구문 분석할 수 없습니다.
 
 ## <a name="see-also"></a>참고자료
 

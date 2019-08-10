@@ -8,19 +8,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: f659a7aa9d078ed5ee2f8685be006aaaa2450fa0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ce48ece2801096b2b657df41bcaa0a744e67bd45
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62560053"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919563"
 ---
 # <a name="basic-correctness-rules-rule-set-for-managed-code"></a>관리 코드에 대한 기본 수정 규칙 규칙 집합
-기본 수정 규칙 규칙 집합을 논리 오류 및 일반적인 실수 프레임 워크 Api의 사용량에서에 중점을 둡니다. 기본 수정 규칙 최소 권장 규칙 규칙 집합에 있는 규칙을 포함 합니다. 자세한 내용은 [관리 되는 코드에 대 한 관리 권장 규칙 규칙 집합](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) 의 최소 권장 규칙 보고서는 경고의 목록을 확장 하려면이 규칙 집합을 포함 해야 합니다.
+기본 수정 규칙 규칙 집합은 프레임 워크 Api를 사용 하는 경우 논리 오류 및 일반적인 실수에 초점을 맞춘 것입니다. 기본 정확성 규칙에는 권장 되는 최소 규칙 규칙 집합의 규칙이 포함 됩니다. 자세한 내용은 관리 되는 [권장 규칙 규칙 집합 관리 코드에 대 한](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) 규칙 집합을 포함 해야 합니다 .이 규칙 집합은 최소 권장 규칙에서 보고 하는 경고 목록에서 확장
 
- 다음 표에서 Microsoft 기본 수정 규칙 규칙 집합의 모든 규칙을 설명 합니다.
+다음 표에서는 Microsoft 기본 수정 규칙 규칙 집합의 모든 규칙에 대해 설명 합니다.
 
-|규칙|설명|
+|규칙|Description|
 |----------|-----------------|
 |[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|삭제 가능한 필드가 있는 형식은 삭제 가능해야 합니다.|
 |[CA1009](../code-quality/ca1009-declare-event-handlers-correctly.md)|이벤트 처리기를 제대로 선언하십시오.|

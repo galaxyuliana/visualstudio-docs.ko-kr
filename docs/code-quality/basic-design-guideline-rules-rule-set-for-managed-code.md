@@ -8,21 +8,21 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 7c2a9570eeae6d9545bb91f7f1ed0c57df3a9c92
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 92b0d6b96adf75acc0b695466dca342f8dca59fa
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62571370"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919536"
 ---
 # <a name="basic-design-guideline-rules-rule-set-for-managed-code"></a>관리 코드에 대한 기본 디자인 지침 규칙 규칙 집합
-Microsoft 기본 디자인 지침 규칙 규칙 집합 코드를 더 쉽게 이해 하 고 사용 하는 데 집중할 수를 사용할 수 있습니다. 프로젝트에 라이브러리 코드가 있거나 유지 관리 하기 쉬운 코드에 대 한 모범 사례를 적용 하려는 경우이 규칙 집합을 포함 해야 합니다.
+Microsoft 기본 디자인 지침 규칙 규칙 집합을 사용 하 여 코드를 더 쉽게 이해 하 고 사용할 수 있도록 집중할 수 있습니다. 프로젝트에 라이브러리 코드가 포함 되어 있거나 유지 관리가 쉬운 코드에 대 한 모범 사례를 적용 하려는 경우이 규칙 집합을 포함 해야 합니다.
 
- 기본 디자인 지침 규칙 Microsoft 최소 권장 규칙 규칙 집합에 있는 모든 규칙을 포함 합니다. 최소 규칙의 목록을 참조 하세요 [관리 되는 코드에 대 한 관리 권장 규칙 규칙 집합](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md)합니다.
+기본 디자인 지침 규칙은 Microsoft Minimum Recommeded Rules 규칙 집합의 모든 규칙을 포함 합니다. 최소 규칙 목록은 관리 되는 [권장 규칙 규칙 집합 관리 코드](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md)를 참조 하세요.
 
- 다음 표에 모든 Microsoft 기본 디자인 지침 규칙 규칙 집합에 있는 규칙이 있습니다.
+다음 표에서는 Microsoft 기본 디자인 지침 규칙 규칙 집합의 모든 규칙에 대해 설명 합니다.
 
-|규칙|설명|
+|규칙|Description|
 |----------|-----------------|
 |[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|삭제 가능한 필드가 있는 형식은 삭제 가능해야 합니다.|
 |[CA1009](../code-quality/ca1009-declare-event-handlers-correctly.md)|이벤트 처리기를 제대로 선언하십시오.|

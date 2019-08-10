@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f3da7f0da3901511e0f14e48b3ff0500928e3774
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: e88f22f25ff0620a88685dee93fd5658c302db74
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62806630"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68920238"
 ---
 # <a name="ca2221-finalizers-should-be-protected"></a>CA2221: 종료자는 protected여야 합니다.
 
@@ -31,19 +31,19 @@ ms.locfileid: "62806630"
 |변경 수준|주요 변경 아님|
 
 ## <a name="cause"></a>원인
- 공용 형식 패밀리 (보호) 액세스를 지정 하지 않는 종료자를 구현 합니다.
+Public 형식은 패밀리 (protected) 액세스를 지정 하지 않는 종료자를 구현 합니다.
 
 ## <a name="rule-description"></a>규칙 설명
- 종료자에서는 패밀리 액세스 한정자를 사용해야 합니다. 이 규칙으로 적용 되는 C#, Visual Basic 및 Visual C++ 컴파일러.
+종료자에서는 패밀리 액세스 한정자를 사용해야 합니다. 이 규칙은 C#, Visual Basic 및 Visual C++ 컴파일러에 의해 적용 됩니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
- 이 규칙 위반 문제를 해결 하려면 제품군 액세스할 수 있도록 종료자를 변경 합니다.
+이 규칙 위반 문제를 해결 하려면 종료자를 패밀리 액세스 가능 하도록 변경 합니다.
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
- 이 규칙에서는 경고를 표시해야 합니다.
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
+이 규칙에서는 경고를 표시해야 합니다.
 
 ## <a name="example"></a>예제
- 모든 고급.NET 언어로;이 규칙을 위반 될 수 없습니다. Microsoft Intermediate Language를 작성 하는 경우 위반 될 수 있습니다.
+이 규칙은 상위 수준 .NET 언어에서 위반할 수 없습니다. Microsoft 중간 언어를 작성 하는 경우 위반할 수 있습니다.
 
 ```
 // =============== CLASS MEMBERS DECLARATION ===================
