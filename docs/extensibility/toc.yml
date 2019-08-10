@@ -488,8 +488,6 @@
       href: how-to-diagnose-ui-delays-caused-by-extensions.md
     - name: VSPackage 문제 해결
       href: troubleshooting-vspackages.md
-- name: 셸(통합 또는 격리)
-  href: 'https://vspartner.com/pages/vsshells'
 - name: Visual Studio 확장 배송
   items:
     - name: Visual Studio 확장 배송
