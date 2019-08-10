@@ -25,12 +25,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 89c762fb9777af8ac5e24875e879d2f24d0249e0
-ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
+ms.openlocfilehash: 766c93bb45380098af984db256d36d1e0948e56f
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 08/09/2019
-ms.locfileid: "68872128"
+ms.locfileid: "68926712"
 ---
 # <a name="custom-task-panes"></a>사용자 지정 작업창
   작업창은 일반적으로 Microsoft Office 응용 프로그램에서 창의 한쪽에 도킹된 사용자 인터페이스 패널입니다. 사용자 지정 작업창을 사용하면 사용자 고유의 작업창을 만들고 사용자에게 솔루션 기능에 액세스하기 위한 친숙한 인터페이스를 제공할 수 있습니다. 예를 들어 인터페이스에는 문서를 수정하거나 데이터 소스의 데이터를 표시하는 코드를 실행하는 컨트롤이 포함될 수 있습니다.
@@ -124,7 +124,7 @@ ms.locfileid: "68872128"
 
  VSTO 추가 기능이 계속 실행되는 동안 작업창에서 사용하는 리소스를 정리하려면 <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> 또는 <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.RemoveAt%2A> 메서드를 사용합니다. 이러한 메서드는 `CustomTaskPanes` 컬렉션에서 지정된 <xref:Microsoft.Office.Tools.CustomTaskPane> 개체를 제거하고 개체의 <xref:Microsoft.Office.Tools.CustomTaskPane.Dispose%2A> 메서드를 호출합니다.
 
- VSTO 추가 기능이 언로드되면 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]에서 사용자 지정 작업창이 사용하는 리소스를 자동으로 정리합니다. 프로젝트의 `ThisAddIn_Shutdown` 이벤트 처리기 <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> 에서 <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.RemoveAt%2A> 또는 메서드를 호출 하지 마십시오. `ThisAddIn_Shutdown`이 호출되기 전에 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]에서 <xref:Microsoft.Office.Tools.CustomTaskPane> 개체가 사용하는 리소스를 정리하기 때문에 이러한 메서드에서 <xref:System.ObjectDisposedException>이 발생합니다. 에 대 한 `ThisAddIn_Shutdown`자세한 내용은 [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md) 를 참조 하세요.
+ VSTO 추가 기능이 언로드되면 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]에서 사용자 지정 작업창이 사용하는 리소스를 자동으로 정리합니다. 프로젝트의 `ThisAddIn_Shutdown` 이벤트 처리기 <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Remove%2A> 에서 <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.RemoveAt%2A> 또는 메서드를 호출 하지 마십시오. `ThisAddIn_Shutdown`이 호출되기 전에 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]에서 <xref:Microsoft.Office.Tools.CustomTaskPane> 개체가 사용하는 리소스를 정리하기 때문에 이러한 메서드에서 <xref:System.ObjectDisposedException>이 발생합니다. 에 대 한 `ThisAddIn_Shutdown`자세한 내용은 [Office 프로젝트의 이벤트](../vsto/events-in-office-projects.md)를 참조 하세요.
 
 ## <a name="Managing"></a>여러 응용 프로그램 창에서 사용자 지정 작업창 관리
  응용 프로그램에서 여러 창을 사용하여 문서 및 기타 항목을 표시하는 사용자 지정 작업창을 만드는 경우 사용자가 예상하는 시기에 작업창이 표시되도록 추가 단계를 수행해야 합니다.

@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: b00accdbdb08e4267bbca2b7e5fab8002f539f1d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2c528266c54bbb2f3f0d9420461d700a46b09bd5
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62546481"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68922275"
 ---
 # <a name="ca1309-use-ordinal-stringcomparison"></a>CA1309: 서수 StringComparison을 사용하세요.
 
@@ -28,22 +28,22 @@ ms.locfileid: "62546481"
 |TypeName|UseOrdinalStringComparison|
 |CheckId|CA1309|
 |범주|Microsoft.Globalization|
-|변경 수준|주요 변경 아님|
+|변경 수준|최신이 아님|
 
 ## <a name="cause"></a>원인
 
-비언어 문자열 비교 작업을 설정 하지 않습니다 합니다 <xref:System.StringComparison> 매개 변수를 **서** 하거나 **OrdinalIgnoreCase**합니다.
+비 언어적 인 문자열 비교 작업은 <xref:System.StringComparison> 매개 변수를 **서 수** 또는 **stringcomparison.ordinalignorecase**로 설정 하지 않습니다.
 
 ## <a name="rule-description"></a>규칙 설명
- 가장 중요 한 점은 많은 문자열 작업에는 <xref:System.String.Compare%2A?displayProperty=fullName> 및 <xref:System.String.Equals%2A?displayProperty=fullName> 메서드를 받아들이는 오버 로드를 이제 제공를 <xref:System.StringComparison?displayProperty=fullName> 열거형 값을 매개 변수로 합니다.
+이제 및 <xref:System.String.Compare%2A?displayProperty=fullName> <xref:System.String.Equals%2A?displayProperty=fullName> 메서드는 대부분의 문자열 작업에서 열거형 값을 <xref:System.StringComparison?displayProperty=fullName> 매개 변수로 허용 하는 오버 로드를 제공 합니다.
 
- 중 하나를 지정 하는 경우 **StringComparison.Ordinal** 하거나 **StringComparison.OrdinalIgnoreCase**, 비 언어적 문자열 비교 됩니다. 즉, 자연 언어와 관련 된 기능 비교 작업을 결정할 때 무시 됩니다. 자연 언어 기능 무시 하 고 간단한 바이트 비교 및 대/소문자 구분 또는 문화권에 따라 매개 변수화 된 동일 테이블에 없는 결정 기반 의미 합니다. 명시적으로 매개 변수를 설정 하 여 결과적으로 **StringComparison.Ordinal** 또는 **StringComparison.OrdinalIgnoreCase**, 코드 종종 속도 향상, 정확성, 늘어나고 됩니다 더 안정적입니다.
+**StringComparison** 또는 **StringComparison**중 하나를 지정 하는 경우 문자열 비교는 비 언어적입니다. 즉, 자연어와 관련 된 기능은 비교 결정을 내릴 때 무시 됩니다. 자연어 기능을 무시 하는 것은 문화권에 의해 매개 변수화 된 대/소문자 구분 또는 동등 테이블이 아닌 단순 바이트 비교를 기반으로 결정을 내리는 것입니다. 결과적으로 매개 변수를 **StringComparison** 또는 **StringComparison**로 명시적으로 설정 하 여 코드에서 속도가 향상 되 고, 정확성을 높이고, 안정성이 향상 됩니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
- 이 규칙 위반 문제를 해결 하려면 받아들이는 오버 로드에 문자열 비교 메서드를 변경 합니다 <xref:System.StringComparison?displayProperty=fullName> 열거형을 매개 변수로 지정 **서** 또는 **OrdinalIgnoreCase**합니다. 예를 들어, `String.Compare(str1, str2)`를 `String.Compare(str1, str2, StringComparison.Ordinal)`로 변경합니다.
+이 규칙 위반 문제를 해결 하려면 문자열 비교 메서드를 <xref:System.StringComparison?displayProperty=fullName> 열거형을 매개 변수로 허용 하는 오버 로드로 변경 하 고 **서 수** 또는 **stringcomparison.ordinalignorecase**를 지정 합니다. 예를 들어, `String.Compare(str1, str2)`를 `String.Compare(str1, str2, StringComparison.Ordinal)`로 변경합니다.
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
- 라이브러리 또는 응용 프로그램 제한 된 로컬 사용자를 위한 것 때나 현재 문화권의 의미를 사용 해야 하는 경우이 규칙에서 경고를 표시 하지 않아도 안전 합니다.
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
+라이브러리나 응용 프로그램이 제한 된 로컬 대상 사용자를 위한 것 이거나 현재 문화권의 의미 체계를 사용 해야 하는 경우이 규칙에서 경고를 표시 하지 않는 것이 안전 합니다.
 
 ## <a name="see-also"></a>참고자료
 

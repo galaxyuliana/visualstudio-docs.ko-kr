@@ -8,19 +8,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 19dec66e4f281af37a0ef66a114b9c26b48ce163
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 62d11a73d8e8e4510269f73cfb83d946b6ff864b
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62816636"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68923992"
 ---
 # <a name="extended-correctness-rules-rule-set-for-managed-code"></a>관리 코드에 대한 확장 수정 규칙 규칙 집합
-코드 분석에서 보고 하는 논리 및 프레임 워크 사용 오류를 최대화 하는 Microsoft 확장 수정 규칙 규칙 집합입니다. COM 상호 운용성 및 모바일 응용 프로그램 같은 특정 시나리오에 주안점을 둡니다. 프로젝트 또는 프로젝트의 추가 문제 찾기 이러한 시나리오 중 하나가 적용 되는 경우이 규칙 집합을 포함 하는 것이 좋습니다.
+Microsoft 확장 수정 규칙 규칙 집합은 코드 분석을 통해 보고 되는 논리 및 프레임 워크 사용 오류를 최대화 합니다. COM 상호 운용성 및 모바일 응용 프로그램과 같은 특정 시나리오에 대 한 추가 강조가 있습니다. 이러한 시나리오 중 하나가 프로젝트에 적용 되거나 프로젝트에서 추가 문제를 발견 하는 경우이 규칙 집합을 포함 하는 것을 고려해 야 합니다.
 
- Microsoft 확장 수정 규칙 규칙 집합 Microsoft 기본 수정 규칙 규칙에 설정 된 규칙을 포함 합니다. 기본 수정 규칙 Microsoft 최소 권장 규칙 규칙에 설정 된 규칙을 포함 합니다. 자세한 내용은 참조 [관리 되는 코드에 대 한 기본 수정 규칙 규칙 집합](../code-quality/basic-correctness-rules-rule-set-for-managed-code.md) 고 [관리 코드에 대 한 관리 권장 규칙 규칙 집합](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md)
+Microsoft 확장 수정 규칙 규칙 집합에는 Microsoft 기본 수정 규칙 규칙 집합에 있는 규칙이 포함 됩니다. 기본 정확성 규칙에는 Microsoft 최소 권장 규칙 규칙 집합에 있는 규칙이 포함 됩니다. 자세한 내용은 관리 코드에 대 한 [기본 수정 규칙 규칙 집합](../code-quality/basic-correctness-rules-rule-set-for-managed-code.md) 및 관리 [코드에 대 한 관리 권장 규칙](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) 규칙 집합을 참조 하세요.
 
- 다음 표에 모든 Microsoft 확장 수정 규칙 규칙 집합에 있는 규칙이 있습니다.
+다음 표에서는 Microsoft 확장 수정 규칙 규칙 집합의 모든 규칙에 대해 설명 합니다.
 
 |규칙|설명|
 |----------|-----------------|

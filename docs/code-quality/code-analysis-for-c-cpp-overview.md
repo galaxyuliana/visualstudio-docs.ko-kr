@@ -21,12 +21,12 @@ ms.author: mblome
 manager: wpickett
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 5c4221783768f1e579ecad74fdfaf6e74214edfd
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: f7b0e29f6a9a502054b59fc7313c3eff0565f938
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226137"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919895"
 ---
 # <a name="code-analysis-for-cc-overview"></a>C/C++용 코드 분석 개요
 
@@ -48,17 +48,17 @@ C:\>cl /analyze Sample.cpp
 
 **Visual Studio 2017 15.7 이상의 버전**이 필요하며 CMake를 포함한 모든 빌드 시스템에서 명령줄 도구를 실행할 수 있습니다.
 
-## <a name="pragma-support"></a>#pragma 지원
+## <a name="pragma-support"></a>지원 #pragma
 
 `#pragma` 지시문을 사용해 경고를 오류로 간주하거나 경고의 활성화 및 비활성화, 코드 라인별 경고 표시를 생략할 수 있습니다. 자세한 내용은 [Pragma 지시문 및 __Pragma 키워드](https://docs.microsoft.com/cpp/preprocessor/pragma-directives-and-the-pragma-keyword)를 참조하세요.
 
 ## <a name="annotation-support"></a>주석 지원
 
-주석을 통해 코드 분석의 정확성을 개선 할 수 있습니다. 주석을 이용해 함수 매개변수나 반환 형식의 사전, 사후 조건에 대한 추가 정보를 제공할 수 있습니다. 자세한 내용은 [Reduce C SAL 주석을 사용 하 여 /C++ 코드 결함](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
+주석을 통해 코드 분석의 정확성을 개선 할 수 있습니다. 주석을 이용해 함수 매개변수나 반환 형식의 사전, 사후 조건에 대한 추가 정보를 제공할 수 있습니다. 자세한 내용은 [SAL 주석을 사용 하 여 C/C++ 코드 오류 줄이기](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)를 참조 하세요.
 
 ## <a name="run-analysis-tool-as-part-of-check-in-policy"></a>체크 인 정책의 일부로 분석 도구 실행
 
-모든 소스 코드 체크인이 특정 정책을 충족하도록 요구할 수 있습니다. 특히, 최신 로컬 빌드 과정에서 분석이 실행되도록 할 수 있습니다. 코드 분석 체크인 정책을 사용하도록 설정하는 방법에 대한 자세한 내용은 [코드 분석 체크인 정책 만들고 사용하기](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)를 참조하세요.
+모든 소스 코드 체크인이 특정 정책을 충족하도록 요구할 수 있습니다. 특히, 최신 로컬 빌드 과정에서 분석이 실행되도록 할 수 있습니다. 코드 분석 체크 인 정책을 사용 하는 방법에 대 한 자세한 내용은 [코드 분석 체크 인 정책 만들기 및 사용](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)을 참조 하세요.
 
 ## <a name="team-build-integration"></a>팀 빌드 통합
 

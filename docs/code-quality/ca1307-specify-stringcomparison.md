@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a3aabd73a3c234be61cecdf68fbc92fc7e52883e
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ce2da2c1ff5b2f74d8b4d6341050c1895b68955a
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62797331"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68922289"
 ---
 # <a name="ca1307-specify-stringcomparison"></a>CA1307: StringComparison 지정하세요.
 
@@ -28,21 +28,21 @@ ms.locfileid: "62797331"
 |TypeName|SpecifyStringComparison|
 |CheckId|CA1307|
 |범주|Microsoft.Globalization|
-|변경 수준|주요 변경 아님|
+|변경 수준|최신이 아님|
 
 ## <a name="cause"></a>원인
- 문자열 비교 작업을 설정 하지 않는 메서드 오버 로드를 사용 하는 <xref:System.StringComparison> 매개 변수입니다.
+문자열 비교 작업에서 매개 변수를 <xref:System.StringComparison> 설정 하지 않는 메서드 오버 로드를 사용 합니다.
 
 ## <a name="rule-description"></a>규칙 설명
- 대부분의 문자열 작업에 가장 중요 한는 <xref:System.String.Compare%2A> 및 <xref:System.String.Equals%2A> 받아들이는 오버 로드를 제공 하는 메서드를 <xref:System.StringComparison> 열거형 값을 매개 변수로 합니다.
+대부분의 문자열 작업, 및 <xref:System.String.Compare%2A> <xref:System.String.Equals%2A> 메서드는 열거형 값을 <xref:System.StringComparison> 매개 변수로 허용 하는 오버 로드를 제공 합니다.
 
- 때마다는 오버 로드가 있으면 해당 사용을 <xref:System.StringComparison> 매개 변수를이 매개 변수를 사용 하지 않는 오버 로드 하는 대신 사용 해야 합니다. 이 매개 변수를 명시적으로 설정 하 여 코드 경우가 보다 명확 해지고 더 쉬워진 유지 관리 합니다.
+<xref:System.StringComparison> 매개 변수를 사용 하는 오버 로드가 있으면이 매개 변수를 사용 하지 않는 오버 로드 대신이 오버 로드를 사용 해야 합니다. 이 매개 변수를 명시적으로 설정 하 여 코드를 더 명확 하 고 유지 관리 하는 경우가 많습니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
- 이 규칙 위반 문제를 해결 하는 오버 로드를 문자열 비교 메서드를 변경 합니다 <xref:System.StringComparison> 열거형을 매개 변수로 합니다. 예를 들어: 변경 `String.Compare(str1, str2)` 에 `String.Compare(str1, str2, StringComparison.Ordinal)`입니다.
+이 규칙 위반 문제를 해결 하려면 <xref:System.StringComparison> 열거형을 매개 변수로 허용 하는 오버 로드에 대 한 문자열 비교 메서드를 변경 합니다. 예:을로 `String.Compare(str1, str2)` `String.Compare(str1, str2, StringComparison.Ordinal)`변경 합니다.
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
- 라이브러리 또는 응용 프로그램은 제한 된 로컬 사용자 이며 따라서 지역화 되지 않을 때이 규칙에서 경고를 표시 하지 않으려면 안전 합니다.
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
+라이브러리나 응용 프로그램이 제한 된 로컬 사용자를 대상으로 하는 경우에는이 규칙에서 경고를 표시 하지 않는 것이 안전 합니다.
 
 ## <a name="see-also"></a>참고자료
 

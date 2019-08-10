@@ -20,18 +20,18 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 762fc8a28b8c5b3f8729ecd728d12ed5cdbbafc6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 852070c74a7e7171525a5feaa6cc7617fe83c00d
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62846375"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925360"
 ---
-# <a name="intellitrace-features-c-visual-basic-c"></a>IntelliTrace 기능 (C#, Visual Basic의 경우 C++)
+# <a name="intellitrace-features-c-visual-basic-c"></a>IntelliTrace 기능 (C#, Visual Basic, C++)
 
 IntelliTrace를 사용하여 응용 프로그램의 이벤트 및 메서드 호출을 기록하고 실행 중 다양한 지점에서 상태(호출 스택 및 지역 변수 값)를 검사할 수 있습니다. 평소와 같이 디버깅을 시작하면 됩니다. IntelliTrace가 기본적으로 설정되어 있으므로 **이벤트** 탭 아래의 새로운 **진단 도구** 창에서 IntelliTrace가 기록하는 정보를 확인할 수 있습니다. 이벤트를 선택하고 **기록 디버깅 활성화**를 클릭하면 호출 스택 및 이 이벤트에 대해 기록된 로컬 변수를 볼 수 있습니다.
 
-단계별 설명을 참조 하세요. [연습: IntelliTrace를 사용 하 여](../debugger/walkthrough-using-intellitrace.md)입니다.
+단계별 설명을 보려면 [연습: IntelliTrace](../debugger/walkthrough-using-intellitrace.md)사용.
 
 IntelliTrace는 Visual Studio Enterprise Edition에서 사용할 수 있으며 Visual Studio Professional 또는 Community Edition에서는 사용할 수 없습니다.
 
@@ -40,23 +40,23 @@ IntelliTrace가 설정되어 있는지 확인하려면 **도구 > 옵션 > Intel
 > [!NOTE]
 > **IntelliTrace** 옵션 페이지에 있는 모든 설정의 범위는 개별 프로젝트나 솔루션이 아니라 Visual Studio 전체입니다. 이 설정에서 변경된 내용은 Visual Studio의 모든 인스턴스, 모든 디버깅 세션 및 모든 프로젝트나 솔루션에 적용됩니다.
 
-## <a name="ChooseEvents"></a> IntelliTrace에서 기록 하는 이벤트를 선택 (C#, Visual Basic)
+## <a name="ChooseEvents"></a>IntelliTrace에서 기록 하는 이벤트 (C#, Visual Basic)를 선택 합니다.
 
 특정 IntelliTrace 이벤트에 대한 기록을 설정하거나 해제할 수 있습니다.
 
-디버그 중이면 디버깅을 중지합니다. 로 이동 **도구 > 옵션 > IntelliTrace > IntelliTrace 이벤트**합니다. IntelliTrace에서 기록하도록 지정할 이벤트를 선택합니다.
+디버그 중이면 디버깅을 중지합니다. Intellitrace **> Intellitrace 이벤트 > 도구 > 옵션**으로 이동 합니다. IntelliTrace에서 기록하도록 지정할 이벤트를 선택합니다.
 
-## <a name="Snapshots"></a> 스냅숏을 수집 (C#, Visual Basic의 경우 C++)
+## <a name="Snapshots"></a>스냅숏 수집 (C#, Visual Basic, C++)
 
-기본적으로 활성화 되어 있지 않으면이 있지만 IntelliTrace 수 모든 중단점 및 디버거 단계 이벤트에서 응용 프로그램의 스냅숏을 캡처하고 기록 디버깅 세션에서 이러한 스냅숏을 볼 수 있습니다. 스냅숏으로 전체 응용 프로그램 상태 보기를 제공 합니다. 스냅숏의 캡처를 사용 하도록 설정 하려면로 이동 **도구 > 옵션 > IntelliTrace > 일반**, 선택한 **IntelliTrace 스냅숏을 (관리 / 네이티브)** 합니다. 자세한 내용은 [IntelliTrace를 사용하여 이전 앱 상태 검사](../debugger/view-historical-application-state.md) 참조
+이는 기본적으로 사용 하도록 설정 되어 있지 않지만 IntelliTrace는 모든 중단점 및 디버거 단계 이벤트에서 응용 프로그램의 스냅숏을 캡처할 수 있으며 기록 디버깅 세션에서 이러한 스냅숏을 볼 수 있습니다. 스냅숏은 전체 응용 프로그램 상태를 보여 줍니다. 스냅숏 캡처를 사용 하도록 설정 하려면 **도구 > 옵션 > intellitrace > 일반**으로 이동 하 고 **intellitrace 스냅숏 (관리 및 네이티브)** 을 선택 합니다. 자세한 내용은 [IntelliTrace를 사용하여 이전 앱 상태 검사](../debugger/view-historical-application-state.md)를 참조하세요.
 
-Visual Studio Enterprise 2017 버전 15.5 이상에서 사용할 수 있는 스냅숏이 하며 해당 Windows 10 1 주년 업데이트 이상.  .NET Core 및 ASP.NET Core 앱을 Visual Studio Enterprise 2017 버전 15.7이 필요 합니다. Windows, Visual Studio Enterprise 2017 버전 15.9 대상으로 하는 네이티브 앱에 대 한 미리 보기 2가 필요 합니다.
+스냅숏은 Visual Studio Enterprise 2017 버전 15.5 이상에서 사용할 수 있으며 Windows 10 기념일 업데이트 이상이 필요 합니다.  .NET Core 및 ASP.NET Core apps의 경우 Visual Studio Enterprise 2017 버전 15.7이 필요 합니다. Windows를 대상으로 하는 네이티브 앱의 경우 Visual Studio Enterprise 2017 버전 15.9 Preview 2가 필요 합니다.
 
-## <a name="GoingFurther"></a> IntelliTrace 이벤트를 수집 및 호출 정보 (C#, Visual Basic)
+## <a name="GoingFurther"></a>IntelliTrace 이벤트 및 호출 정보 (C#, Visual Basic) 수집
 
-이 기능은 기본적으로 사용하도록 설정되어 있지 않지만, IntelliTrace는 이벤트를 통해 메서드 호출을 기록할 수 있습니다. 호출으로 이동 하는 메서드의 컬렉션을 사용 하도록 설정 하려면 **도구 > 옵션 > IntelliTrace > 일반**, 선택한 **IntelliTrace 이벤트 및 호출 정보 (관리 전용)** 합니다.
+이 기능은 기본적으로 사용하도록 설정되어 있지 않지만, IntelliTrace는 이벤트를 통해 메서드 호출을 기록할 수 있습니다. 메서드 호출의 컬렉션을 사용 하도록 설정 하려면 **도구 > 옵션 > intellitrace > 일반**으로 이동 하 고 **intellitrace 이벤트 및 호출 정보 (관리 전용)** 를 선택 합니다.
 
-호출 정보를 현재.NET Core 및 ASP.NET Core 앱에서 사용할 수 없는 경우
+호출 정보는 현재 .NET Core 및 ASP.NET Core 앱에 사용할 수 없습니다.
 
 이렇게 하면 호출 스택 이력을 참조하고 코드에서 호출을 통해 앞뒤로 이동할 수 있습니다. IntelliTrace는 메서드 이름, 메서드 시작/종료 지점, 특정 매개 변수 값, 반환 값 등의 데이터를 기록합니다.
 
@@ -92,7 +92,7 @@ Visual Studio Enterprise 2017 버전 15.5 이상에서 사용할 수 있는 스�
 
 모듈의 수를 최소로 유지합니다. 그러면 수집할 데이터의 양이 적기 때문에 성능이 높아집니다. 또한 검토할 데이터가 적기 때문에 UI의 노이즈가 줄어듭니다.
 
-## <a name="SaveSession"></a> IntelliTrace 데이터를 파일로 저장 (C#, Visual Basic의 경우 C++)
+## <a name="SaveSession"></a>IntelliTrace 데이터를 파일에 저장C#합니다 (, C++Visual Basic,).
 
 디버그하는 동안 애플리케이션이 중단 상태일 때 **디버그 > IntelliTrace > IntelliTrace 세션 저장**으로 이동하여 IntelliTrace에서 수집된 데이터를 저장할 수 있습니다. 응용 프로그램이 계속 실행 중이거나 디버깅을 중지한 경우에는 해당 메뉴 항목이 비활성화되어 IntelliTrace에서 수집된 데이터를 저장할 수 없게 됩니다.
 
@@ -107,19 +107,19 @@ IntelliTrace 데이터를 파일에 저장하면 IntelliTrace가 수집한 프�
 
 [Visual Studio Enterprise 2015의 IntelliTrace](https://devblogs.microsoft.com/devops/intellitrace-in-visual-studio-ultimate-2015/)
 
-[라이브 디버깅 연습 (텍스트 편집기) Visual Studio 2015의 IntelliTrace를 사용 하 여](https://devblogs.microsoft.com/devops/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-text-editor/)
+[Visual Studio 2015에서 IntelliTrace를 사용 하 여 라이브 디버깅 연습 (텍스트 편집기)](https://devblogs.microsoft.com/devops/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-text-editor/)
 
-[라이브 디버깅 연습 (소셜 클럽) Visual Studio 2015의 IntelliTrace를 사용 하 여](https://devblogs.microsoft.com/devops/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-social-club/)
+[Visual Studio 2015 (소셜 클럽)에서 IntelliTrace를 사용 하 여 라이브 디버깅 연습](https://devblogs.microsoft.com/devops/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-social-club/)
 
-[연결 지원 이제 Visual Studio Enterprise 2015의 IntelliTrace!](https://devblogs.microsoft.com/devops/intellitrace-in-visual-studio-enterprise-2015-now-supports-attach/)
+[Visual Studio Enterprise 2015의 IntelliTrace는 이제 attach를 지원 합니다.](https://devblogs.microsoft.com/devops/intellitrace-in-visual-studio-enterprise-2015-now-supports-attach/)
 
-[IntelliTrace 독립 실행형 수집기를 사용 하 여 windows 서비스에서 데이터를 수집 합니다.](https://devblogs.microsoft.com/devops/collect-data-from-a-windows-service-using-the-intellitrace-standalone-collector/)
+[IntelliTrace 독립 실행형 수집기를 사용 하 여 windows 서비스에서 데이터 수집](https://devblogs.microsoft.com/devops/collect-data-from-a-windows-service-using-the-intellitrace-standalone-collector/)
 
-[IntelliTrace 컬렉션 계획 편집](https://devblogs.microsoft.com/devops/editing-the-intellitrace-collection-plan)
+[IntelliTrace 수집 계획 편집](https://devblogs.microsoft.com/devops/editing-the-intellitrace-collection-plan)
 
-[사용자 지정 TraceSource 및 IntelliTrace를 사용한 디버깅](https://devblogs.microsoft.com/devops/custom-tracesource-and-debugging-using-intellitrace/)
+[IntelliTrace를 사용 하 여 사용자 지정 TraceSource 및 디버깅](https://devblogs.microsoft.com/devops/custom-tracesource-and-debugging-using-intellitrace/)
 
-[Active Directory 계정으로 IntelliTrace 독립 실행형 수집기 및 응용 프로그램 풀이 실행](https://devblogs.microsoft.com/devops/intellitrace-standalone-collector-and-application-pools-running-under-active-directory-accounts/)
+[Active Directory 계정에서 실행 되는 IntelliTrace 독립 실행형 수집기 및 응용 프로그램 풀](https://devblogs.microsoft.com/devops/intellitrace-standalone-collector-and-application-pools-running-under-active-directory-accounts/)
 
 ## <a name="forums"></a>포럼
 
@@ -127,6 +127,6 @@ IntelliTrace 데이터를 파일에 저장하면 IntelliTrace가 수집한 프�
 
 ## <a name="videos"></a>비디오
 
-[IntelliTrace 경험](https://channel9.msdn.com/Series/Visual-Studio-2015-Enterprise-Videos/IntelliTrace-Experience)
+[IntelliTrace 환경](https://channel9.msdn.com/Series/Visual-Studio-2015-Enterprise-Videos/IntelliTrace-Experience)
 
 [Microsoft Visual Studio Ultimate 2015의 IntelliTrace를 사용하여 기록 디버그](https://channel9.msdn.com/events/Ignite/2015/BRK3716)
