@@ -1,20 +1,19 @@
 ---
 title: 기술 지원 혜택
 author: evanwindom
-ms.author: jaunger
+ms.author: lank
 manager: lank
-ms.date: 2/13/2019
+ms.date: 07/29/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 기술 지원 혜택을 활성화하는 방법을 알아봅니다.
-ms.openlocfilehash: 5b5bb690af4223ace46ea090a482df610e298fd6
-ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
+ms.openlocfilehash: 705ec75afc2ba870b5e596f63e27fae92fbedf58
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67785052"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681588"
 ---
 # <a name="activate-and-use-the-technical-support-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 기술 지원 혜택 활성화 및 사용
-
 Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://support.microsoft.com/lifecycle/search)의 기본 지원 단계에 여전히 있는 제품에 대해 **비-프로덕션 환경**의 중단 수정 문제 해결을 위한 것입니다. Visual Studio Enterprise 표준 및 연간 클라우드 구독은 네 개의 인시던트를 받고, Visual Studio Professional 표준 및 연간 클라우드 구독은 혜택 활성화 후 최대 1년 간 두 개의 인시던트를 받습니다. 혜택 활성화는 구독이 최신 상태인 동안 발생해야 합니다.
 
 > [!NOTE]
@@ -26,7 +25,6 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
 **혜택을 사용하여 지원 요청을 제출하려면 먼저 활성화해야 합니다.  다음 섹션의 단계에 따라 활성화를 완료합니다.**
 
 ## <a name="how-to-activate-the-benefit"></a>혜택을 활성화하는 방법
-
 1. https://my.visualstudio.com/Benefits 로 이동하여 지원 섹션까지 아래로 스크롤하고, 기술 지원 타일에서 **채팅하여 활성화**를 클릭합니다.
     > [!div class="mx-imgBorder"]
     > ![기술 지원 혜택 타일](_img/vs-tech-support/vs-tech-support-tile.png)
@@ -34,7 +32,7 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
 
 3. 프로세스를 완료하려면 담당자에게 다음을 제공해야 합니다.
    - 사용자의 국가
-   - Company name
+   - 회사 이름
    - 사용자 전체 이름
    - 구독에 로그인하는 데 사용하는 전자 메일 주소
    - 사용자 전화 번호
@@ -43,17 +41,15 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
    > [!div class="mx-imgBorder"]
    > ![기술 지원 혜택 구독 ID 찾기](_img/vs-tech-support/vs-tech-support-subID-cropped.png)
 
-4. 프로세스가 완료된 후 지원 인시던트를 만들 때 사용하는 **계약 ID** 및 **액세스 ID**가 포함된 이메일을 받게 됩니다.
+4. 프로세스가 완료된 후 지원 인시던트를 만들 때 사용하는 **계약 ID** 및 **액세스 ID**가 포함된 이메일을 받게 됩니다.  또한 새 액세스 ID 및 계약 ID를 사용하여 지원 인시던트를 제출하는 지침을 제공합니다. 
 
 > [!NOTE]
 > 지원 계정을 영어가 아닌 다른 언어로 활성화하려면 [이 목록](https://support.microsoft.com/help/14084/activate-support-contract)에서 국가를 선택합니다.
 
 ## <a name="how-to-submit-an-incident-using-your-benefit"></a>혜택을 사용하여 인시던트를 제출하는 방법
-
 **계약 ID**와 **액세스 ID**가 설정되었으면 이를 사용하여 기술 지원 인스턴트 [온라인](http://support.microsoft.com/oas/)(로그인 필요)이나 [Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview)을 통해 또는 국가의 기술 지원 번호로 전화를 걸어 제출할 수 있습니다. 온라인으로 인시던트를 제출하는 경우 Microsoft 지원 전문가를 다시 호출할 수 있는 옵션이 있습니다.
 
 ### <a name="already-have-your-contract-id-and-access-id-associated-with-the-account-used-to-sign-in-to-submit-a-tech-support-incident-online"></a>기술 지원 인시던트를 제출하기 위해 로그인하는 데 사용된 계정과 연결된 계약 ID 및 액세스 ID를 이미 가지고 있나요?
-
 온라인으로 인시던트를 제출할 때 먼저 로그인하라는 메시지가 나타납니다. 알고 있는 계정으로 로그인하면 계약 ID와 액세스 ID가 연결됩니다. 계정에 연결된 기존 지원 플랜 혜택은 지원 워크플로의 3단계에 나타납니다. 해당 계획을 선택하고 사례를 제출하려면 계속하기만 하면 됩니다. 계획에 표시된 한도 또는 계획의 만료일 중 먼저 도래하는 날짜까지 인시던트를 제출할 수 있습니다. 나머지 인시던트가 "0"으로 표시되거나 계획이 만료되면 더 이상 활성화되지 않습니다.
 
    > [!div class="mx-imgBorder"]
@@ -62,8 +58,7 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
 ### <a name="using-your-contract-id-and-access-id-when-submitting-an-incident-initial-use"></a>인시던트 제출 시 계약 ID 및 액세스 ID 사용(초기 사용)
 
 #### <a name="submitting-an-incident-online"></a>온라인으로 인시던트 제출
-
-온라인으로 인시던트를 제출할 때 먼저 로그인하라는 메시지가 나타납니다. 드롭다운 목록을 사용하여 도움이 필요한 제품을 선택합니다. 예를 들어 Visual Studio Enterprise 2017에 대한 인시던트를 제출하려면 **개발자 도구** 제품군을 선택한 다음, 제품으로 **Visual Studio 2017**을 선택한 후, **Visual Studio Enterprise 2017**을 버전으로 선택합니다.
+온라인으로 인시던트를 제출할 때 먼저 로그인하라는 메시지가 나타납니다. 드롭다운 목록을 사용하여 도움이 필요한 제품을 선택합니다. 예를 들어 Visual Studio Enterprise 2019에 대한 인시던트를 제출하려면 **개발자 도구** 제품군을 선택한 다음, 제품으로 **Visual Studio 2019**를 선택한 후, **Visual Studio Enterprise 2019**를 버전으로 선택합니다.
 
 1. 지원이 필요한 제품을 선택한 후 **다음**을 클릭합니다.
 
@@ -96,11 +91,9 @@ Visual Studio 구독의 기술 지원 혜택은 [지원 수명 주기](https://s
 6. 나머지 단계(심각도, 연락처 정보, 검토)를 완료합니다.   인시던트를 제출하면 인시던트가 성공적으로 제출되었고 그 사례에 대한 파일을 업로드할 수 있다는 확인 메시지가 나타납니다. 지원 전문가가 해당 인시던트에 할당되고, 선택한 연락 방법을 사용하여 문제를 해결하기 위해 사용자에게 연락합니다.
 
 #### <a name="submit-an-incident-by-phone"></a>전화로 인시던트 제출
-
 전화로 지원 인시던트를 생성하려면 해당 국가의 [고객 서비스](https://support.microsoft.com/help/13948/global-customer-service-phone-numbers) 전화 번호를 찾으세요. 전화할 때 사용 가능한 계약 ID 및 액세스 ID가 있는지 확인하세요.
 
 #### <a name="submit-an-incident-within-the-azure-portal"></a>Azure Portal 내에서 인시던트 제출
-
 Azure와 관련된 문제에 대해 Visual Studio 구독 기술 지원 혜택을 사용하려면 Azure 구독에 계약 ID 및 액세스 ID를 연결해야 합니다.
 
 1. [https://portal.azure.com](https://portal.azure.com )을 방문해 로그인
@@ -109,7 +102,7 @@ Azure와 관련된 문제에 대해 Visual Studio 구독 기술 지원 혜택을
 
 ## <a name="eligibility"></a>자격
 
-| 구독 수준                                                 |     채널                                            | 이점                                                          | 갱신 가능?    |
+| 구독 수준                                                 |     채널                                            | 혜택                                                          | 갱신 가능?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, 선택한 NFR<sup>1</sup> | 인시던트 4개       |  예|
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품, 선택한 NFR<sup>2</sup>                                        | 인시던트 2개                                                          |예         |

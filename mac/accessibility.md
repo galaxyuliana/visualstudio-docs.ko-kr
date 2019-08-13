@@ -1,18 +1,18 @@
 ---
-title: 액세스 가능성
+title: 접근성
 description: 이 문서에서는 Mac용 Visual Studio의 액세스 가능성 기능과 사용하도록 설정하는 방법을 소개합니다.
 author: conceptdev
 ms.author: crdun
 ms.date: 04/17/2019
 ms.assetid: 2C4AAC2E-3B4A-4496-8BE0-1F5A7F81D1CA
-ms.openlocfilehash: 0ee6ffc7bd1567a86bc361f55e00c52ccecddd61
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 13b8d40a6ab31d7178e95a3896afa1c85c804f6c
+ms.sourcegitcommit: a124076dfd6b4e5aecda4d01984fee7b0c034745
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67824443"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "68787638"
 ---
-# <a name="accessibility"></a>액세스 가능성
+# <a name="accessibility"></a>접근성
 
 Mac용 Visual Studio에는 다음 내게 필요한 옵션 기능이 포함되어 있어서 다른 능력을 가진 사용자도 더욱 쉽게 액세스할 수 있습니다.
 
@@ -57,7 +57,7 @@ Mac용 Visual Studio의 macOS 보조 기술 지원은 기본적으로 꺼집니�
 
 VoiceOver를 사용하거나 사용하지 않도록 설정하려면 **&#8984;+F5**를 누릅니다.
 
-VoiceOver 명령은 이 가이드에서 **VO+*키***로 나타납니다. 여기서 **VO**는 **VoiceOver 유틸리티** 애플리케이션에 설정된 한정자를 나타냅니다. 기본 한정자는 **Ctrl+Alt**입니다. 예를 들어 VoiceOver 한정자에 따라 **VO+M**은 **Ctrl+Alt+M**을 의미합니다. 간단하게 커서 키를 **왼쪽** 및 **오른쪽** 등으로 나타내기도 합니다.
+VoiceOver 명령은 이 가이드에서 **VO+_키_** 로 나타납니다. 여기서 **VO**는 **VoiceOver 유틸리티** 애플리케이션에 설정된 한정자를 나타냅니다. 기본 한정자는 **Ctrl+Alt**입니다. 예를 들어 VoiceOver 한정자에 따라 **VO+M**은 **Ctrl+Alt+M**을 의미합니다. 간단하게 커서 키를 **왼쪽** 및 **오른쪽** 등으로 나타내기도 합니다.
 
 Mac용 Visual Studio 사용자 인터페이스를 탐색하려면 다음 키 조합을 사용합니다.
 

@@ -3,7 +3,7 @@ title: Visual Studio 수정
 titleSuffix: ''
 description: Visual Studio를 수정하는 방법을 단계별로 알아봅니다.
 ms.custom: H1Hack27Feb2017,seodec18
-ms.date: 06/25/2019
+ms.date: 07/31/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - modify Visual Studio
@@ -18,12 +18,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 287ad470a94689b92cacb443c2b5f88eb30f5a70
-ms.sourcegitcommit: 01c3c9dcade5d913bde2c7efa8c931a7b04e6cd0
+ms.openlocfilehash: ad5b8a0c261ed967710480b0abd3a2b9d34f01ce
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67365410"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681381"
 ---
 # <a name="modify-visual-studio-by-adding-or-removing-workloads-and-components"></a>워크로드와 구성 요소를 추가하거나 제거하여 Visual Studio 수정
 
@@ -86,7 +86,7 @@ Visual Studio를 쉽게 수정할 수 있어 원하는 때에 원하는 대로 �
 
      예를 들어 Windows 10을 실행하는 컴퓨터에서 **시작**을 선택한 다음, **Visual Studio 설치 관리자**로 나열되는 **V** 문자로 스크롤합니다.
 
-     ![Visual Studio 설치 관리자 열기](media/vs2019-visual-studio-installer.png "Visual Studio 설치 관리자 열기")
+     ![Windows에서 Visual Studio 설치 관리자 열기](media/vs-2019/vs-installer-windows-start.png "Visual Studio 설치 관리자 열기")
 
      > [!NOTE]
      > 다음 위치에서 Visual Studio 설치 관리자를 찾을 수도 있습니다.
@@ -97,7 +97,7 @@ Visual Studio를 쉽게 수정할 수 있어 원하는 때에 원하는 대로 �
 
 1. 설치 관리자에서 설치한 Visual Studio의 버전을 찾은 다음, **수정**을 선택합니다.
 
-     ![Visual Studio 업데이트 또는 수정](media/vs-2019/vs-installer-modify.png "Visual Studio 2017 업데이트 또는 수정")
+     ![Visual Studio 업데이트 또는 수정](media/vs-2019/vs-installer-modify.png "Visual Studio 2019 업데이트 또는 수정")
 
 1. **워크로드** 탭에서 설치하거나 제거할 워크로드를 선택하거나 선택 취소합니다.
 

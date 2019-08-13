@@ -13,12 +13,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 3d6e3479fe27c5d88b58f096ab5405d75c6c98e3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1541f3608aef33cbd286a8c96257eb191712e245
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62960578"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681289"
 ---
 # <a name="develop-javascript-and-typescript-code-in-visual-studio-without-solutions-or-projects"></a>솔루션이나 프로젝트 없이 Visual Studio에서 JavaScript 및 TypeScript 코드 개발
 
@@ -77,6 +77,7 @@ Test Runner는 사용할 테스트 프레임워크를 결정할 수 있도록 �
 * Mocha([mochajs.org](http://mochajs.org/))
 * Jasmine([Jasmine.github.io](https://jasmine.github.io/))
 * Tape([github.com/substack/tape](https://github.com/substack/tape))
+* Jest([jestjs.io](https://jestjs.io/))
 
 테스트 탐색기를 연 후(**테스트** > **Windows** > **테스트 탐색기** 선택), Visual Studio가 검색하고 테스트가 표시됩니다.
 

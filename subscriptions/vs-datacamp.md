@@ -1,26 +1,22 @@
 ---
-title: 선택한 Visual Studio 구독의 DataCamp 혜택을 통해 데이터 과학 역량을 증대합니다. | Microsoft 문서
+title: 선택한 Visual Studio 구독의 DataCamp 혜택을 통해 데이터 과학 역량을 증대합니다. | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/30/2019
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 DataCamp Training 구독에 대해 알아봅니다.
-ms.openlocfilehash: 5f5b327bb5b1c328fe746fdbafc1a7550eefacd6
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 64176f5a58641bf51434c99eee914a8ac176da56
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67825340"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681647"
 ---
 # <a name="the-datacamp-training-benefit-in-visual-studio-subscriptions"></a>Visual Studio 구독의 DataCamp Training 혜택
-
 적격 Visual Studio 구독에는 DataCamp 구독이 포함됩니다.  DataCamp를 사용하면 브라우저에서 편안하게 필요한 데이터 과학 기술을 학습할 수 있습니다. 학습 시기와 대상을 선택하게 됩니다. 소프트웨어 설치나 특수 하드웨어 요구 사항이 필요하지 않으므로 전에 없이 쉽게 데이터 과학을 학습할 수 있습니다.
 
-DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
-
 ## <a name="activation-steps"></a>활성화 단계
-
 1. [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)에 로그인합니다.
 
 2. “전문 개발" 범주에서 DataCamp 혜택 타일을 찾고 **활성화**를 클릭합니다.
@@ -28,13 +24,11 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
    > ![DataCamp 혜택 타일](_img/vs-datacamp/vs-datacamp-tile-2.png)
 
 3. DataCamp 페이지에서 새 계정을 만들 수 있습니다.  이메일 주소와 암호를 입력하거나, Facebook, LinkedIn, Google 등의 기존 계정을 사용하여 로그인할 수 있습니다.  로그인 정보를 제공한 후 **시작**을 클릭합니다.
-   > [!div class="mx-imgBorder"]
-   > ![DataCamp 새 계정 만들기](_img/vs-datacamp/vs-datacamp-create-account.png)
-   >
+
    > [!NOTE]
    > 계정을 만들기 시작하면 다음과 같은 오류 메시지가 나타날 수 있습니다. "죄송합니다!  프로모션 코드가 잘못되었거나 만료되었습니다."  이것은 프로모션 코드가 만들어질 때 몇 분 후에 만료되기 때문에 발생합니다.  이런 메시지가 표시되면 [혜택](https://my.visualstudio.com/benefits) 페이지로 돌아가서 DataCamp 혜택 타일에서 **활성화** 링크를 클릭하면 됩니다.
 
-4. 계정을 만든 후에는 학습 경로를 선택할 수 있습니다.  다음 옵션을 사용할 수 있습니다.
+4. 계정을 만든 후에는 학습 경로를 선택할 수 있습니다.  옵션은 다음과 같습니다.
     - 데이터 과학을 위한 R 학습
     - 데이터 과학을 위한 Python 학습 시작
     - 데이터 과학 역량 개발
@@ -62,8 +56,7 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
 > ![DataCamp 학습 계속](_img/vs-datacamp/vs-datacamp-continue-training.png)
 
 ## <a name="eligibility"></a>자격
-
-| 구독 수준                                                 |     채널                                            | 이점                                                          | 갱신 가능?    |
+| 구독 수준                                                 |     채널                                            | 혜택                                                          | 갱신 가능?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, | 3개월       |  아니요.  새 구독자만 사용할 수 있음          |
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 3개월                                                            |  아니요.  새 구독자만 사용할 수 있음           |
@@ -86,3 +79,9 @@ DataCamp 혜택 기간은 Visual Studio 구독에 따라 다릅니다.
   - [지원 요청 제출](https://support.datacamp.com/hc/requests/new)
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+
+## <a name="next-steps"></a>다음 단계
+구독에서 더 전문적인 개발 기회를 확인하세요.
+- [Pluralsight](vs-pluralsight.md)
+- [LinkedIn Learning](vs-linkedin-learning.md)
+- [MSDN Magazine](vs-msdn.md)

@@ -16,12 +16,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 04f85cf678052427ca5395c8b33c4786c2316de0
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: bacc58184d0ea78a5e54d7cc7b0b93df107b3300
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63443624"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681405"
 ---
 # <a name="msbuild-targets-files"></a>MSBuild .Targets 파일
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]에는 일반 시나리오에 대한 항목, 속성, 대상 및 작업이 들어 있는 여러 *.targets* 파일이 포함됩니다. 이러한 파일은 대부분의 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 프로젝트 파일로 자동 가져오기되므로 쉽게 유지 관리하고 읽을 수 있습니다.
@@ -38,11 +38,11 @@ ms.locfileid: "63443624"
 | *.targets* 파일 | 설명 |
 |---------------------------------| - |
 | *Microsoft.Common.targets* | [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 및 [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] 프로젝트에 대한 표준 빌드 프로세스의 단계를 정의합니다.<br /><br /> *Microsoft.CSharp.targets* 및 *Microsoft.VisualBasic.targets* 파일을 통해 가져옵니다. 이러한 파일에는 `<Import Project="Microsoft.Common.targets" />` 문이 포함됩니다. |
-| *Microsoft.CSharp.targets* | Visual C# 프로젝트에 대한 표준 빌드 프로세스의 단계를 정의합니다.<br /><br /> Visual C# 프로젝트 파일(*.csproj*)을 통해 가져옵니다. 이러한 파일에는 `<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />` 문이 포함됩니다. |
-| *Microsoft.VisualBasic.targets* | Visual Basic 프로젝트에 대한 표준 빌드 프로세스의 단계를 정의합니다.<br /><br /> Visual Basic 프로젝트 파일(*.vbproj*)을 통해 가져옵니다. 이러한 파일에는 `<Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />` 문이 포함됩니다. |
+| *Microsoft.CSharp.targets* | Visual C# 프로젝트에 대한 표준 빌드 프로세스의 단계를 정의합니다.<br /><br /> Visual C# 프로젝트 파일( *.csproj*)을 통해 가져옵니다. 이러한 파일에는 `<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />` 문이 포함됩니다. |
+| *Microsoft.VisualBasic.targets* | Visual Basic 프로젝트에 대한 표준 빌드 프로세스의 단계를 정의합니다.<br /><br /> Visual Basic 프로젝트 파일( *.vbproj*)을 통해 가져옵니다. 이러한 파일에는 `<Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />` 문이 포함됩니다. |
 
 ## <a name="directorybuildtargets"></a>Directory.Build.targets
-*Directory.Build.targets*는 디렉터리 아래에 프로젝트에 대한 사용자 지정을 제공하는 사용자 정의 파일입니다. **ImportDirectoryBuildTargets** 속성을 **false**로 설정한 경우가 아니면 *Microsoft.Common.targets*에서 이 파일을 자동으로 가져옵니다.
+*Directory.Build.targets*는 디렉터리 아래에 프로젝트에 대한 사용자 지정을 제공하는 사용자 정의 파일입니다. **ImportDirectoryBuildTargets** 속성을 **false**로 설정한 경우가 아니면 *Microsoft.Common.targets*에서 이 파일을 자동으로 가져옵니다. 자세한 내용은 [빌드 사용자 지정](customize-your-build.md)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 - [Import 요소(MSBuild)](../msbuild/import-element-msbuild.md)

@@ -1,6 +1,6 @@
 ---
 title: ResolveComReference 작업 | Microsoft Docs
-ms.date: 11/04/2016
+ms.date: 07/25/2019
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#ResolveComReference
@@ -18,17 +18,19 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 123aa52b5062d8ac083f054074df2c65ba77f80d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: ecefab48babc2938a4995ec8232e0aa7a06dae3c
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431292"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681106"
 ---
 # <a name="resolvecomreference-task"></a>ResolveComReference 작업
+
 하나 이상의 형식 라이브러리 이름 또는 *.tlb* 파일 목록을 가져온 후 해당 형식 라이브러리를 디스크의 위치로 확인합니다.
 
 ## <a name="parameters"></a>매개 변수
+
  다음 표에서는 `ResolveCOMReference` 작업의 매개 변수에 대해 설명합니다.
 
 |매개 변수|설명|
@@ -52,6 +54,7 @@ ms.locfileid: "63431292"
 |`WrapperOutputDirectory`|선택적 `String` 매개 변수입니다.<br /><br /> 생성된 interop 어셈블리를 배치할 디스크의 위치입니다. 이 항목 메타데이터를 지정하지 않으면 작업은 프로젝트 파일이 있는 디렉터리의 절대 경로를 사용합니다.|
 
 ## <a name="typelibnames-item-metadata"></a>TypeLibNames 항목 메타데이터
+
  다음 표에서는 `TypeLibNames` 매개 변수에 전달된 항목에 사용 가능한 항목 메타데이터를 설명합니다.
 
 |메타데이터|설명|
@@ -59,22 +62,29 @@ ms.locfileid: "63431292"
 |`GUID`|필수 항목 메타데이터입니다.<br /><br /> 형식 라이브러리의 GUID입니다. 이 항목 메타데이터를 지정하지 않으면 작업이 실패합니다.|
 |`VersionMajor`|필수 항목 메타데이터입니다.<br /><br /> 형식 라이브러리의 주 버전입니다. 이 항목 메타데이터를 지정하지 않으면 작업이 실패합니다.|
 |`VersionMinor`|필수 항목 메타데이터입니다.<br /><br /> 형식 라이브러리의 부 버전입니다. 이 항목 메타데이터를 지정하지 않으면 작업이 실패합니다.|
+|`EmbedInteropTypes`|선택적 `Boolean` 메타데이터입니다.<br /><br />  `true`인 경우 interop DLL을 생성하지 않고 이 참조의 interop 형식을 어셈블리에 직접 포함합니다.|
 |`LocaleIdentifier`|선택적 항목 메타데이터입니다.<br /><br /> 형식 라이브러리의 로캘 식별자(또는 LCID)입니다. 이 항목 메타데이터는 사용자, 지역 또는 애플리케이션에서 선호되는 인간 언어를 나타내는 32비트 값으로 지정됩니다. 이 항목 메타데이터를 지정하지 않으면 작업에서 기본 로캘 식별자 “0”이 사용됩니다.|
 |`WrapperTool`|선택적 항목 메타데이터입니다.<br /><br /> 이 형식 라이브러리의 어셈블리 래퍼를 생성하는 데 사용되는 래퍼 도구를 지정합니다. 이 항목 메타데이터를 지정하지 않으면 작업에서 기본 래퍼 도구 “tlbimp”가 사용됩니다. 사용 가능한 typelib(대/소문자 구분)는 다음과 같습니다.<br /><br /> -   `Primary`: COM 구성 요소에 대한 이미 생성된 주 interop 어셈블리를 사용하려면 이 래퍼 도구를 사용합니다. 이 래퍼 도구를 사용할 경우 래퍼 출력 디렉터리를 지정하지 마세요. 지정하면 작업이 실패합니다.<br />-   `TLBImp`: COM 구성 요소에 대한 interop 어셈블리를 생성하려면 이 래퍼 도구를 사용합니다.<br />-   `AXImp`: ActiveX 컨트롤에 대한 interop 어셈블리를 생성하려면 이 래퍼 도구를 사용합니다.|
 
 ## <a name="typelibfiles-item-metadata"></a>TypeLibFiles 항목 메타데이터
+
  다음 표에서는 `TypeLibFiles` 매개 변수에 전달된 항목에 사용 가능한 항목 메타데이터를 설명합니다.
 
 |메타데이터|설명|
 |--------------|-----------------|
+|`EmbedInteropTypes`|선택적 `Boolean` 매개 변수입니다.<br /><br />  `true`인 경우 interop DLL을 생성하지 않고 이 참조의 interop 형식을 어셈블리에 직접 포함합니다.|
 |`WrapperTool`|선택적 항목 메타데이터입니다.<br /><br /> 이 형식 라이브러리의 어셈블리 래퍼를 생성하는 데 사용되는 래퍼 도구를 지정합니다. 이 항목 메타데이터를 지정하지 않으면 작업에서 기본 래퍼 도구 “tlbimp”가 사용됩니다. 사용 가능한 typelib(대/소문자 구분)는 다음과 같습니다.<br /><br /> -   `Primary`: COM 구성 요소에 대한 이미 생성된 주 interop 어셈블리를 사용하려면 이 래퍼 도구를 사용합니다. 이 래퍼 도구를 사용할 경우 래퍼 출력 디렉터리를 지정하지 마세요. 지정하면 작업이 실패합니다.<br />-   `TLBImp`: COM 구성 요소에 대한 interop 어셈블리를 생성하려면 이 래퍼 도구를 사용합니다.<br />-   `AXImp`: ActiveX 컨트롤에 대한 interop 어셈블리를 생성하려면 이 래퍼 도구를 사용합니다.|
 
 > [!NOTE]
 > 형식 라이브러리를 고유하게 식별하기 위해 더 많은 정보를 제공할수록 작업이 디스크에서 올바른 파일로 확인될 가능성이 커집니다.
 
-## <a name="remarks"></a>주의
- 이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [Task 기본 클래스](../msbuild/task-base-class.md)를 참조하세요.
+## <a name="remarks"></a>설명
+
+이 작업은 위에 나와 있는 매개 변수 외에 <xref:Microsoft.Build.Utilities.Task> 클래스의 매개 변수도 상속합니다. 이러한 추가 매개 변수 및 해당 설명이 포함된 목록은 [Task 기본 클래스](../msbuild/task-base-class.md)를 참조하세요.
+
+이 작업을 수행하기 위해 COM DLL을 컴퓨터에 등록할 필요가 없습니다.
 
 ## <a name="see-also"></a>참고 항목
+
 - [작업](../msbuild/msbuild-tasks.md)
 - [작업 참조](../msbuild/msbuild-task-reference.md)

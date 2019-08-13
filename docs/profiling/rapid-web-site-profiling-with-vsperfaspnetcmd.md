@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 759a1cbf711b4264478c1e7fc44a65b86328ce32
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 5f86ae2e14067a645bb39a1c8fdc0421f415a9e6
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63431978"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681128"
 ---
 # <a name="rapid-web-site-profiling-with-vsperfaspnetcmd"></a>VSPerfASPNETCmd를 사용한 빠른 웹 사이트 프로파일링
 
@@ -41,6 +41,8 @@ ms.locfileid: "63431978"
 
  **vsperfaspnetcmd**  *websiteUrl*
 
+ 로컬 서버에 호스트된 *websiteUrl*의 예로는 *http://localhost/MySite/default.aspx* 를 들 수 있습니다. 외부 사이트의 예로는 *http://www.contoso.com* 이 있습니다. 자세한 내용은 [Visual Studio에서 프로젝트를 열지 않고 웹 사이트를 프로파일링하는 방법](how-to-collect-performance-data-for-a-web-site.md#to-profile-a-web-site-without-opening-a-project-in-visual-studio)에서 예제 URL을 참조하세요.
+
 ## <a name="to-collect-detailed-timing-data-by-using-the-instrumentation-method"></a>계측 방법을 사용하여 자세한 타이밍 데이터를 수집하려면
 
 동적으로 컴파일된 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 웹 애플리케이션에서 자세한 타이밍 데이터를 수집하려면 다음 명령줄을 사용합니다.
@@ -61,14 +63,14 @@ ms.locfileid: "63431978"
 
  **/Trace** 옵션을 사용하여 .NET 메모리 데이터와 함께 자세한 타이밍 정보를 포함할 수도 있습니다.
 
- **vsperfaspnetcmd /memory**[**:lifetime**] **/trace**`websiteUrl`
+ **vsperfaspnetcmd /memory**[ **:lifetime**] **/trace**`websiteUrl`
 
 ## <a name="to-collect-tier-interaction-data"></a>계층 상호 작용 데이터를 수집하려면
 
 > [!WARNING]
 > TIP(계층 상호 작용 프로파일링) 데이터는 Visual Studio의 모든 버전을 사용하여 수집할 수 있습니다. 그러나 계층 상호 작용 프로파일링 데이터는 Visual Studio Enterprise에서만 볼 수 있습니다.
 >
-> Windows 8 또는 Windows Server 2012에서 TIP 데이터를 수집하려면 계측(**/trace**) 옵션을 사용해야 합니다.
+> Windows 8 또는 Windows Server 2012에서 TIP 데이터를 수집하려면 계측( **/trace**) 옵션을 사용해야 합니다.
 
 샘플링 데이터와 함께 계층 상호 작용 데이터를 수집하려면 다음 명령을 사용합니다.
 
@@ -80,7 +82,7 @@ ms.locfileid: "63431978"
 
 .NET 메모리 데이터와 함께 계층 상호 작용 데이터를 수집하려면 다음 명령을 사용합니다.
 
-**vsperfaspnetcmd /memory**[**:lifetime**] **/tip**_websiteUrl_
+**vsperfaspnetcmd /memory**[ **:lifetime**] **/tip**_websiteUrl_
 
 ## <a name="use-the-nowait-option"></a>/NoWait 옵션 사용
 
@@ -88,7 +90,7 @@ ms.locfileid: "63431978"
 
 프로파일링을 시작하려면 다음 명령을 사용합니다.
 
-**vsperfaspnetcmd** [*/Options*] **/nowait**_websiteUrl_
+**vsperfaspnetcmd** [ */Options*] **/nowait**_websiteUrl_
 
 프로파일링을 종료하려면 다음 명령을 사용합니다.
 

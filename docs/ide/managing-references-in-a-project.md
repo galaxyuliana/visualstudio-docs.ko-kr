@@ -1,6 +1,6 @@
 ---
 title: 프로젝트에서 참조 관리
-ms.date: 04/11/2018
+ms.date: 08/02/2019
 ms.topic: conceptual
 f1_keywords:
 - vs.ProjectPropertiesReferencePaths
@@ -21,12 +21,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 57cbff868cfdedb45b1973908ddb250ad09ea19e
-ms.sourcegitcommit: 12f2851c8c9bd36a6ab00bf90a020c620b364076
+ms.openlocfilehash: 77b52e66d0278d7e9f8446fe728cca285c8418fa
+ms.sourcegitcommit: a124076dfd6b4e5aecda4d01984fee7b0c034745
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66747046"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "68787627"
 ---
 # <a name="manage-references-in-a-project"></a>프로젝트에서 참조 관리
 
@@ -45,6 +45,8 @@ ms.locfileid: "66747046"
 - COM 구성 요소
 
 - 동일 솔루션에 있는 다른 어셈블리 또는 프로젝트의 클래스 라이브러리
+
+- 공유 프로젝트
 
 - XML Web services
 
@@ -109,16 +111,20 @@ GAC에 등록되어 있는 사용자 지정 구성 요소에 대한 참조가 �
 
 ## <a name="project-to-project-references"></a>프로젝트 간 참조
 
-프로젝트 간 참조는 어셈블리가 포함된 프로젝트에 대한 참조로, **프로젝트** 탭을 사용하여 만들 수 있습니다. 프로젝트에 경로가 지정되면 Visual Studio에서 어셈블리를 찾을 수 있습니다.
+프로젝트 간 참조는 어셈블리가 포함된 프로젝트에 대한 참조로, 참조 관리자 대화 상자의 **프로젝트** 탭에서 프로젝트 참조를 만듭니다. 프로젝트에 경로가 지정되면 Visual Studio에서 어셈블리를 찾을 수 있습니다.
 
 어셈블리를 생성하는 프로젝트를 사용하는 경우에는 프로젝트를 참조하고 파일 참조(아래 참조)를 사용하지 말아야 합니다. 프로젝트 간 참조의 이점은 빌드 시스템에서 프로젝트 간의 종속성을 만들 수 있다는 점입니다. 참조하는 프로젝트가 마지막으로 빌드된 이후 변경된 경우 종속 프로젝트가 빌드됩니다. 파일 참조는 빌드 종속성을 만들지 않습니다. 따라서 종속 프로젝트를 빌드하지 않고 참조되는 프로젝트를 빌드할 수 있으며 해당 참조가 더 이상 사용되지 않습니다. (즉, 프로젝트가 이전에 빌드된 프로젝트 버전을 참조할 수 있습니다.) 그러면 *bin* 디렉터리에 여러 버전의 단일 DLL이 필요하게 되는데 이것은 불가능합니다. 이러한 충돌이 발생하면 "경고: '프로젝트' 프로젝트의 '파일' 종속성을 실행 디렉터리에 복사할 수 없습니다. 그러면 '파일' 참조를 덮어쓰기 때문입니다."와 같은 메시지가 표시됩니다. 자세한 내용은 [끊어진 참조 문제 해결](../ide/troubleshooting-broken-references.md) 및 [방법: 프로젝트 종속성 만들기 및 제거](../ide/how-to-create-and-remove-project-dependencies.md)를 참조하세요.
 
 > [!NOTE]
 > 한 프로젝트의 대상 .NET Framework 버전이 버전 4.5이고 다른 프로젝트의 대상 버전이 버전 2, 3, 3.5 또는 4.0인 경우 프로젝트 간 참조 대신 파일 참조가 만들어집니다.
 
+## <a name="shared-project-references"></a>공유 프로젝트 참조
+
+대부분의 다른 프로젝트 형식과 달리 *공유 프로젝트*에는 이진 출력이 없습니다. 대신 코드는 코드를 참조하는 각 프로젝트로 컴파일됩니다. [공유 프로젝트](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows)를 사용하면 다양한 애플리케이션 프로젝트에서 참조되는 공통 코드를 작성할 수 있습니다. 코드는 각 참조하는 프로젝트의 일부로 컴파일되며 플랫폼 특정 기능을 공유 코드 베이스에 통합하는 데 도움이 되는 컴파일러 지시문을 포함할 수 있습니다. 참조 관리자 대화 상자의 **공유 프로젝트** 탭에서 공유 프로젝트에 대한 참조를 추가합니다.
+
 ## <a name="file-references"></a>파일 참조
 
-파일 참조는 Visual Studio 프로젝트의 컨텍스트 외부에서 어셈블리에 대한 직접 참조로서, **참조 관리자**의 **찾아보기** 탭을 사용하여 만들 수 있습니다. 어셈블리나 구성 요소는 있지만 이를 출력으로 작성하는 프로젝트가 없는 경우 파일 참조를 사용하세요.
+파일 참조는 Visual Studio 프로젝트의 컨텍스트 외부에서 어셈블리에 대한 직접 참조로서, 참조 관리자 대화 상자의 **찾아보기** 탭을 사용하여 만들 수 있습니다. 어셈블리나 구성 요소는 있지만 이를 출력으로 작성하는 프로젝트가 없는 경우 파일 참조를 사용하세요.
 
 ## <a name="see-also"></a>참고 항목
 

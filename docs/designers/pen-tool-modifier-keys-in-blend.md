@@ -1,5 +1,6 @@
 ---
-title: Blend의 펜 도구 보조 키
+title: 펜 도구 한정자 키
+titleSuffix: Blend for Visual Studio
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c3ab14c6-a320-46db-a6b3-7fd1ca261587
@@ -8,14 +9,15 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3f2aa8515dbe444ea3968714400b751d661b2a81
-ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.openlocfilehash: 7e68e06a371f039c7d08b56b89305b1fe932a54a
+ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66820451"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68822120"
 ---
-# <a name="pen-tool-modifier-keys-in-blend"></a>Blend의 펜 도구 보조 키
+# <a name="pen-tool-modifier-keys-in-blend-for-visual-studio"></a>Blend for Visual Studio의 펜 도구 보조 키
+
 다음 표에는 **펜** 도구 ![펜 도구](../designers/media/d514358f-185a-412f-a55d-36633b25dc8a.png)를 사용하여 패스를 만드는 동안 패스를 수정하는 데 사용할 수 있는 바로 가기가 나와 있습니다. **펜** 도구를 사용하여 기존 패스에서 점을 추가 또는 제거하거나 두 개의 기존 패스를 연결할 수 있습니다.
 
 |수행할 작업|방법|포인터|
@@ -36,7 +38,6 @@ ms.locfileid: "66820451"
 
 ## <a name="see-also"></a>참고 항목
 
-- [바로 가기 키 및 보조 키](../designers/keyboard-shortcuts-and-modifier-keys-in-blend.md)
 - [아트보드 보조 키](../designers/artboard-modifier-keys-in-blend.md)
 - [직접 선택 도구 보조 키](../designers/direct-selection-tool-modifier-keys-in-blend.md)
 - [도형 및 패스 그리기](../designers/draw-shapes-and-paths.md)

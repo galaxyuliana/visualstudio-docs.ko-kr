@@ -10,22 +10,22 @@ ms.custom: seodec18
 ms.workload:
 - python
 - data-science
-ms.openlocfilehash: bc813868f3284ad81849e3a03d864de65d9f54ed
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 7ceecffec577528484cd67fd13d3e04f368fb916
+ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62896898"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68822396"
 ---
 # <a name="work-with-the-python-interactive-window"></a>Python 대화형 창 작업
 
-Visual Studio는 각 Python 환경에 대화형 읽기-평가-인쇄 루프(REPL) 창을 제공하여 명령줄에서 *python.exe*와 관련한 REPL을 개선합니다. **대화형** 창(**보기** > **다른 창** > **&lt;환경&gt; 대화형** 창 메뉴 명령으로 열 수 있음)을 사용하면 임의의 Python 코드를 입력하고 즉각적인 결과를 확인할 수 있습니다. 이러한 방식의 코딩은 API 및 라이브러리와 관련된 내용을 배우고 실험하는 데 도움이 되고, 프로젝트에 포함할 작업 코드를 대화형으로 개발하는 데에도 유용합니다.
+Visual Studio는 각 Python 환경에 대화형 읽기-평가-인쇄 루프(REPL) 창을 제공하여 명령줄에서 *python.exe*와 관련한 REPL을 개선합니다. **대화형** 창(**보기** > **다른 창** >  **&lt;환경&gt; 대화형** 창 메뉴 명령으로 열 수 있음)을 사용하면 임의의 Python 코드를 입력하고 즉각적인 결과를 확인할 수 있습니다. 이러한 방식의 코딩은 API 및 라이브러리와 관련된 내용을 배우고 실험하는 데 도움이 되고, 프로젝트에 포함할 작업 코드를 대화형으로 개발하는 데에도 유용합니다.
 
 ![Python 대화형 창](media/interactive-window.png)
 
 Visual Studio에는 선택 가능한 다양한 Python REPL 모드가 있습니다.
 
-| REPL | 설명 | 편집 | 디버깅 | 이미지 |
+| REPL | 설명 | 편집 | 디버그 | 이미지 |
 | --- | --- | --- | --- | --- |
 | 표준 | 기본 REPL, Python에 직접 명령 | 표준 편집(여러 줄 등). | 예, `$attach`를 통해 | 아니요 |
 | 디버그 | 기본 REPL, 디버깅된 Python 프로세스에 명령 | 표준 편집 | 디버깅만 | 아니요 |
@@ -40,7 +40,7 @@ Visual Studio에는 선택 가능한 다양한 Python REPL 모드가 있습니�
 
 특정 환경에서 **대화형** 창을 여는 방법에는 여러 가지가 있습니다.
 
-첫째, Python 환경 창(**보기** > **다른 창** > **Python 환경** 또는 **Ctrl**+**K** > **Ctrl**+**`**)으로 전환하고 선택한 환경에서 **대화형 창 열기** 명령 또는 단추를 선택합니다.
+첫째, Python 환경 창(**보기** > **다른 창** > **Python 환경** 또는 **Ctrl**+**K** > **Ctrl**+ **`** )으로 전환하고 선택한 환경에서 **대화형 창 열기** 명령 또는 단추를 선택합니다.
 
 ![Python 환경 창의 대화형 창 링크](media/interactive-window-opening.png)
 
@@ -111,7 +111,11 @@ Visual Studio에는 선택 가능한 다양한 Python REPL 모드가 있습니�
 
 <!-- After 15.3 is released, you can also press **Undo** after pasting to restore prompts. Press **Undo** a second time to remove the pasted code entirely. -->
 
-코드 파일을 잠깐 보관함으로 사용하는 경우 작은 코드 블록을 한 번에 모두 전송하려는 경우가 많습니다. 코드를 그룹화하려면 `#%%`로 시작하는 주석을 셀의 시작 부분에 추가하여 코드를 *코드 셀*로 표시합니다. 주석을 추가하면 이전 코드 셀은 종료됩니다. 코드 셀을 축소 및 확장할 수 있으며, 코드 셀 내부에서 **Ctrl**+**Enter**를 사용하면 전체 셀이 **대화형** 창으로 전송되고 다음 셀로 이동합니다.
+## <a name="work-with-code-cells"></a>코드 셀 작업
+
+코드 셀은 데이터를 분석하는 데 사용될 수 있으며 다양한 텍스트 편집기에서 지원됩니다.
+
+예를 들어 코드 파일을 잠깐 보관함으로 사용하는 경우 작은 코드 블록을 한 번에 모두 전송하려는 경우가 많습니다. 코드를 그룹화하려면 `#%%`로 시작하는 주석을 셀의 시작 부분에 추가하여 코드를 *코드 셀*로 표시합니다. 주석을 추가하면 이전 코드 셀은 종료됩니다. 코드 셀을 축소 및 확장할 수 있으며, 코드 셀 내부에서 **Ctrl**+**Enter**를 사용하면 전체 셀이 **대화형** 창으로 전송되고 다음 셀로 이동합니다.
 
 또한 Visual Studio는 `# In[1]:`과 같은 주석으로 시작하는 코드 셀도 검색합니다. 이 형식은 Jupyter Notebook을 Python 파일로 내보낼 때 사용되는 형식입니다. 이 검색을 통해 Python 파일로 다운로드하고 Visual Studio에서 연 다음, **Ctrl**+**Enter**로 각 셀을 실행하면 [Azure Notebook](https://notebooks.azure.com/)에서 노트북을 쉽게 실행할 수 있습니다.
 

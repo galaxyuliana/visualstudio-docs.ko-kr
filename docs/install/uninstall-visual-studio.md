@@ -2,7 +2,7 @@
 title: Visual Studio 제거
 titleSuffix: ''
 description: Visual Studio를 제거하는 방법을 단계별로 알아봅니다.
-ms.date: 03/30/2019
+ms.date: 07/31/2019
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -16,12 +16,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 759a1e2c5ba1c3ecff983e1d2ca3903471b7f5fe
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9e9212bc5dda2ea69f685077eb2cbe86470d4064
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62951382"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681361"
 ---
 # <a name="uninstall-visual-studio"></a>Visual Studio 제거
 
@@ -34,7 +34,7 @@ ms.locfileid: "62951382"
 
 1. 컴퓨터에서 Visual Studio 설치 관리자를 찾습니다.
 
-     예를 들어 Windows 10 1주년 업데이트 이상을 실행하는 컴퓨터에서 **시작**을 선택하고 **V** 문자로 스크롤하면 **Visual Studio 설치 관리자**로 나열됩니다.
+     예를 들어 Windows 10의 1주년 업데이트 이상을 실행하는 컴퓨터에서 **시작**을 선택하고 **V** 문자로 스크롤하면 **Visual Studio 설치 관리자**로 나열됩니다.
 
      ![Visual Studio 설치 관리자](media/vs2017-locate-the-visual-studio-installer.PNG "Microsoft Visual Studio 설치 관리자 찾기")
 
@@ -67,7 +67,7 @@ ms.locfileid: "62951382"
 
      예를 들어 Windows 10을 실행하는 컴퓨터에서 **시작**을 선택한 다음, **Visual Studio 설치 관리자**로 나열되는 **V** 문자로 스크롤합니다.
 
-     ![Visual Studio 설치 관리자 열기](media/vs2019-visual-studio-installer.png "Visual Studio 설치 관리자 열기")
+     ![Visual Studio 설치 관리자 열기](media/vs-2019/vs-installer-windows-start.png "Visual Studio 설치 관리자 열기")
 
      > [!NOTE]
      > 다음 위치에서 Visual Studio 설치 관리자를 찾을 수도 있습니다.
@@ -88,7 +88,7 @@ ms.locfileid: "62951382"
 
 ## <a name="uninstall-visual-studio-installer"></a>Visual Studio 설치 관리자 제거
 
-Visual Studio 2019와 Visual Studio 설치 관리자를 머신에서 모두 제거하려면 [앱 및 기능]에서 제거합니다.
+Visual Studio 2019와 Visual Studio 설치 관리자를 컴퓨터에서 제거하려면 [앱 및 기능]에서 제거합니다.
 
 1. Windows 10의 경우 "여기에 입력하여 검색" 상자에 **앱 및 기능**을 입력합니다.
 1. **Visual Studio 2019**를 찾습니다.

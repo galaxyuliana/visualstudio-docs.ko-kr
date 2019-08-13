@@ -1,5 +1,6 @@
 ---
-title: Blend의 바로 가기 키
+title: 바로 가기 키
+titleSuffix: Blend for Visual Studio
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 3a1b6830-30c2-4a36-bd14-6961f5edf9cb
@@ -8,14 +9,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: c38eaaa42ae0869ae26f0a048f69a94684b240c3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c7dc340b25f5a900c9456f56587e39dede6e0ad2
+ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62844327"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68821744"
 ---
-# <a name="keyboard-shortcuts-in-blend"></a>Blend의 바로 가기 키
+# <a name="keyboard-shortcuts-in-blend-for-visual-studio"></a>Blend for Visual Studio의 바로 가기 키
 
 ## <a name="project-shortcuts"></a>프로젝트 바로 가기
 
@@ -32,7 +33,7 @@ ms.locfileid: "62844327"
 
 ## <a name="document-shortcuts"></a>문서 바로 가기
 
-|수행할 작업|방법|
+|원하는 작업|방법|
 |----------------|-------------|
 |열린 문서 간 전환|**Ctrl**+**Tab**|
 |활성 문서 저장|**Ctrl**+**S**|
@@ -51,7 +52,7 @@ ms.locfileid: "62844327"
 
 ## <a name="object-shortcuts"></a>개체 바로 가기
 
-|수행할 작업|방법|
+|원하는 작업|방법|
 |----------------|-------------|
 |새 항목 만들기|**Ctrl**+**N**|
 |개체 복제|**Alt** 키를 누른 채로 개체 끌기|
@@ -72,10 +73,10 @@ ms.locfileid: "62844327"
 |높이 자동 조정|**Ctrl**+**Shift**+**6**|
 |개체를 레이아웃 패널로 그룹화|**Ctrl**+**G**|
 |개체 그룹 해제|**Ctrl**+**Shift**+**G**|
-|선택한 개체를 맨 앞으로 가져오기|**Ctrl**+**Shift**+**]**|
-|앞으로 가져오기|**Ctrl**+**]**|
-|선택한 개체를 뒤로 보내기|**Ctrl**+**Shift**+**[**|
-|뒤로 보내기|**Ctrl**+**[**|
+|선택한 개체를 맨 앞으로 가져오기|**Ctrl**+**Shift**+ **]**|
+|앞으로 가져오기|**Ctrl**+ **]**|
+|선택한 개체를 뒤로 보내기|**Ctrl**+**Shift**+ **[**|
+|뒤로 보내기|**Ctrl**+ **[**|
 |선택한 개체에서 사용자 컨트롤 만들기(WPF)|**F8**|
 |개체의 비율 제한|**Shift** 키를 누른 채로 개체 끌기|
 |개체를 15도씩 회전|**Shift** 키를 누른 채로 개체 회전|
@@ -92,11 +93,11 @@ ms.locfileid: "62844327"
 
 ## <a name="view-shortcuts"></a>보기 바로 가기
 
-|수행할 작업|방법|
+|원하는 작업|방법|
 |----------------|-------------|
 |**디자인**, **코드** 및 **분할** 보기 간 전환|**F11**|
-|아트보드 확대|**Ctrl**+**등호**(**=**)|
-|아트보드 축소|**Ctrl**+**빼기 기호**(**-**)|
+|아트보드 확대|**Ctrl**+**등호**( **=** )|
+|아트보드 축소|**Ctrl**+**빼기 기호**( **-** )|
 |아트보드 확대/축소|마우스 휠 돌리기|
 |아트보드를 왼쪽/오른쪽으로 이동|**Shift** 키를 누른 채로 마우스 휠 돌리기|
 |아트보드를 위/아래로 이동|**Ctrl** 키를 누른 채로 마우스 휠 돌리기|
@@ -108,7 +109,7 @@ ms.locfileid: "62844327"
 
 ## <a name="workspace-shortcuts"></a>작업 영역 바로 가기
 
-|수행할 작업|방법|
+|원하는 작업|방법|
 |----------------|-------------|
 |**애니메이션** 작업 영역과 **디자인** 작업 영역 간 전환|**Ctrl**+**F11**|
 |**자산** 패널 표시/숨기기|**Ctrl**+**Period**|

@@ -3,15 +3,15 @@ title: Visual Studio 구독 내 소프트웨어 다운로드 관련 제품 가�
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/11/2019
+ms.date: 07/29/2019
 ms.topic: conceptual
 description: Visual Studio 구독을 위한 소프트웨어 다운로드 내의 제품 가용성 알아보기
-ms.openlocfilehash: 8377168808f3d143d3845cddf06e361f113f1642
-ms.sourcegitcommit: 57866dd72fd0e15ce61128df70729b427a2d02eb
+ms.openlocfilehash: 2b6e53ab959d91b269c4235a1438af36eae24e11
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68315394"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681687"
 ---
 # <a name="product-availability-for-software-downloads-in-visual-studio-subscriptions"></a>Visual Studio 구독 내 소프트웨어 다운로드 관련 제품 가용성
 구독자 혜택의 일환으로 다양한 소프트웨어 다운로드에 액세스할 수 있습니다.
@@ -38,4 +38,5 @@ ms.locfileid: "68315394"
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
-일부 소프트웨어 다운로드에는 이를 설치 및 정품 인증할 제품 키가 필요할 수 있습니다.  제품 키 가져오기 및 관리 방법에 대한 자세한 내용은 제품 키 문서를 참조하세요. 
+- 일부 소프트웨어 다운로드에는 이를 설치 및 정품 인증할 제품 키가 필요할 수 있습니다.  제품 키 가져오기 및 관리 방법에 대한 자세한 내용은 [제품 키](product-keys.md) 문서를 참조하세요. 
+- [소프트웨어 다운로드](download-software.md) 방법을 알아보세요.

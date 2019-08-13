@@ -1,17 +1,17 @@
 ---
 title: Visual Studio 구독의 Pluralsight 혜택 | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 01/25/2019
+ms.author: lank
+manager: lank
+ms.date: 08/02/2019
 ms.topic: conceptual
 description: 선택한 Visual Studio 구독에 포함된 Pluralsight 교육 구독에 대해 알아봅니다.
-ms.openlocfilehash: bc80d8d799a0cca92bfa78cb1e96424f227fe9ef
-ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
+ms.openlocfilehash: 897790684420c35d173f1d8144f735815ca4034f
+ms.sourcegitcommit: a124076dfd6b4e5aecda4d01984fee7b0c034745
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67784877"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "68787651"
 ---
 # <a name="pluralsight-training-benefits-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Pluralsight 교육 혜택
 
@@ -32,40 +32,31 @@ ms.locfileid: "67784877"
    > **"참고:   Visual Studio 구독을 통해 이전에 다른 Pluralsight 제안을 활성화한 경우 새 Pluralsight 계정을 만드는 데 이 코드를 사용할 수 없습니다."**
 
 2. 쿠폰 코드가 성공적으로 검색되었다는 알림을 받게 됩니다.  **활성화**를 클릭합니다.
-   > [!div class="mx-imgBorder"]
-   > ![Pluralsight 혜택 활성화](_img/vs-pluralsight/vs-pluralsight-activate.png)
 
 3. Visual Studio 구독에 포함된 혜택의 Pluralsight 페이지로 리디렉션됩니다.
    - 양식에 요청받은 연락처 정보를 제공합니다.
    - 확인란을 클릭하여 사용 약관 및 개인정보처리방침에 동의합니다.
    - **혜택 활성화에 동의함**을 클릭합니다.
-     > [!div class="mx-imgBorder"]
-     > ![Pluralsight 혜택 활성화](_img/vs-pluralsight/vs-pluralsight-create-account-no-code.png)  
-     > [!div class="mx-imgBorder"]
-     > ![Pluralsight 혜택 조건](_img/vs-pluralsight/vs-pluralsight-terms.png)
+   > [!div class="mx-imgBorder"]
+   > ![Pluralsight에서 혜택 활성화](_img/vs-pluralsight/vs-pluralsight-create-account.png)
 
 5. 계정을 설정하는 데 시간이 걸릴 수 있습니다.  완료되면 페이지에 확인이 표시되고 로그인 정보가 포함된 전자 메일을 받게 됩니다.  계정을 생성할 때 지정한 별칭으로 전자 메일이 발송됩니다.  메시지를 찾은 데 문제가 있는 경우 정크 또는 스팸 메일 폴더를 확인해야 합니다.
-   > [!div class="mx-imgBorder"]
-   > ![Pluralsight 혜택 확인](_img/vs-pluralsight/vs-pluralsight-confirmation-vse.png)
-   >
+
    > [!NOTE]
    > 해당 계정으로 새 제품을 사용할 자격이 없는 경우, 자격이 없기 때문에 계정 생성에 문제가 발생했음을 설명하는 전자 메일을 받게 됩니다.  전자 메일에는 Pluralsight의 지원 팀에 문의하는 데 도움이 되는 정보도 포함되어 있습니다. Pluralsight의 지원 팀은 계정에 대한 문의 사항에 답변해 드립니다.
+   
 
 6. 계정이 생성되면 사용자 이름이 들어 있고 암호 생성을 요청하는 전자 메일을 받게 됩니다.  암호를 입력하고 다시 입력하여 확인한 다음 **Log in to Pluralsight**(Pluralsight에 로그인)를 클릭합니다.
    > [!div class="mx-imgBorder"]
    > ![Pluralsight 혜택 환영 이메일](_img/vs-pluralsight/vs-pluralsight-welcome-email.png)
 
 7. 환영 전자 메일에 제공된 사용자 이름을 입력하고 방금 만든 암호를 입력한 다음 **로그인**을 클릭합니다.
-   > [!div class="mx-imgBorder"]
-   > ![Pluralsight 혜택 로그인](_img/vs-pluralsight/vs-pluralsight-login.png)
 
-8. 정말 간단하죠.  이제 수천 개의 Pluralsight 과정으로 학습을 시작할 준비가 되었습니다.
-   > [!div class="mx-imgBorder"]
-   > ![Pluralsight 혜택 홈](_img/vs-pluralsight/vs-pluralsight-home.png)
+8. 이것으로 끝입니다.  이제 수천 개의 Pluralsight 과정으로 학습을 시작할 준비가 되었습니다.
 
 ## <a name="eligibility"></a>자격
 
-|                          구독 수준                          |     채널      |    이점    |   갱신 가능?   |
+|                          구독 수준                          |     채널      |    혜택    |   갱신 가능?   |
 |----------------------------------------------------------------------|-------------------|---------------|----------------|
 |          Visual Studio Enterprise(Standard)           | VL, Azure, 일반 정품 |   6개월    | 예<sup>2</sup> |
 |         Visual Studio Professional(표준)          | VL, Azure, 일반 정품 |   3개월    | 예<sup>2</sup> |
