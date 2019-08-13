@@ -1,27 +1,45 @@
 ---
 title: Microsoft Azure 혜택 | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/29/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Azure 혜택을 활성화하는 방법을 알아봅니다.
-ms.openlocfilehash: 542f460e6c228564e05affd9467f6deaaf2b0506
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 923573b1079ddbfaa77837e57df1baa618db6e21
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67823741"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681663"
 ---
 # <a name="use-microsoft-azure-in-visual-studio-subscriptions"></a>Visual Studio 구독에서 Microsoft Azure 사용
-
-## <a name="overview"></a>개요
-
 Visual Studio 구독자는 추가 비용 없이 Microsoft Azure를 사용할 수 있습니다.  [월간 Azure 크레딧](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/)을 사용하면 Azure는 개발/테스트를 위한 개인용 샌드박스가 됩니다.  가상 머신, 클라우드 서비스 및 기타 Azure 리소스를 프로비전할 수 있습니다.  크레딧 금액은 구독 수준에 따라 다릅니다.
 
-## <a name="eligibility"></a>자격
+## <a name="activation-steps"></a>활성화 단계
+1. [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)에 로그인합니다.
 
-|                 구독 수준/프로그램                 |           이점           |                         갱신 가능?                          |
+2. 혜택 페이지의 도구 섹션에서 Azure 타일을 찾고 혜택 타일 아래쪽에 있는 **활성화** 링크를 클릭합니다.
+   > [!div class="mx-imgBorder"]
+   > ![Azure 타일](_img/vs-azure/vs-azure-tile.png)
+
+3. 기존 Azure 구독이 없는 경우 필수 정보를 입력하여 Azure 구독을 만들라는 메시지가 표시되면 확인란을 클릭하여 사용 약관에 동의하고, **가입**을 클릭합니다.
+   > [!div class="mx-imgBorder"]
+   > ![Azure 가입](_img/vs-azure/vs-azure-sign-up-cropped.png) 기존 구독이 있는 경우 이 확인란을 클릭하여 계약에 동의하고 **가입**을 클릭합니다.
+
+4. 계정이 준비되면 Azure 지원 계획(별도 판매)을 선택하거나 Azure 구독을 시작할 수 있는 옵션이 제공됩니다.
+   > [!div class="mx-imgBorder"]
+   > ![Azure 준비](_img/vs-azure/vs-azure-getting-ready-cropped.png)
+
+5. Azure 대시보드 빠른 시작 센터가 로드됩니다.  
+   > [!div class="mx-imgBorder"]
+   > ![Azure 대시보드](_img/vs-azure/vs-azure-dashboard-quickstart.png) 
+
+6. 나중에 쉽게 액세스할 수 있도록 [Azure Portal](https://portal.azure.com)에 책갈피를 지정합니다.
+
+
+## <a name="eligibility"></a>자격
+|                 구독 수준/프로그램                 |           혜택           |                         갱신 가능?                          |
 |--------------------------------------------------------------|-----------------------------|-------------------------------------------------------------|
 |              Visual Studio Enterprise Standard               |     150 USD 월간 크레딧     |                             예                             ||
 |               Visual Studio Enterprise 월간               |        사용할 수 없음        |                                                             |
@@ -46,30 +64,7 @@ Visual Studio 구독자는 추가 비용 없이 Microsoft Azure를 사용할 수
 
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
 
-## <a name="activation-steps"></a>활성화 단계
-
-1. [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)에 로그인합니다.
-
-2. 혜택 페이지의 도구 섹션에서 Azure 타일을 찾고 혜택 타일 아래쪽에 있는 **활성화** 링크를 클릭합니다.
-   > [!div class="mx-imgBorder"]
-   > ![Azure 타일](_img/vs-azure/vs-azure-tile.png)
-
-3. 필수 정보를 입력하여 Azure 구독을 만들고, 확인란을 클릭하여 사용 약관에 동의하고, **등록**을 클릭합니다.
-   > [!div class="mx-imgBorder"]
-   > ![Azure 등록](_img/vs-azure/vs-azure-sign-up-cropped.png)
-
-4. 계정이 준비되면 Azure 지원 계획(별도 판매)을 선택하거나 Azure 구독을 시작할 수 있는 옵션이 제공됩니다.
-   > [!div class="mx-imgBorder"]
-   > ![Azure 준비](_img/vs-azure/vs-azure-getting-ready-cropped.png)
-
-5. Azure 대시보드가 로드되고, 처음 사용할 때 둘러보기 옵션이 제공됩니다.  둘러보기는 다양한 작업을 수행하고 관련 정보를 찾을 수 있는 방법을 알려주는 일련의 화면 팁으로 구성되어 있습니다.  둘러보기를 완료하거나 닫으면 Azure 대시보드가 표시됩니다.
-
-6. 나중에 쉽게 액세스할 수 있도록 [Azure Portal](https://portal.azure.com)에 책갈피를 지정합니다.
-   > [!div class="mx-imgBorder"]
-   > ![Azure 대시보드](_img/vs-azure/vs-azure-dashboard-cropped.png)
-
-## <a name="faq"></a>FAQ
-
+## <a name="frequently-asked-questions"></a>질문과 대답
 ### <a name="q-how-do-i-submit-a-technical-support-incident-from-within-the-azure-portal"></a>Q: Azure Portal 내에서 기술 지원 인시던트를 제출하려면 어떻게 하나요?
 A:  Azure Portal에서 지원 인시던트를 제출하는 작업은 세 단계로 실행되는 프로세스입니다.
 1. 기술 지원 혜택을 활성화하고 계약 ID 액세스 ID를 확보합니다.
@@ -79,7 +74,6 @@ A:  Azure Portal에서 지원 인시던트를 제출하는 작업은 세 단계�
 자세한 내용은 [기술 지원](vs-tech-support.md) 설명서를 참조하세요.
 
 ### <a name="q-ive-received-a-message-stating-that-my-access-to-azure-will-end-soon--what-can-i-do-to-continue-using-azure"></a>Q: Azure에 대한 내 액세스가 곧 종료된다는 메시지를 받았습니다.  Azure를 계속 사용하려면 어떻게 해야 합니까?
-
 A:  이 이메일은 Visual Studio 구독에 연결된 Azure 혜택을 사용하고 있으며 해당 구독이 만료 또는 제거되면 수신됩니다.  Azure를 계속 사용하기 위한 다음과 같은 몇 가지 옵션이 있습니다.
 
 **권장 조치:**
@@ -105,9 +99,14 @@ Microsoft 계정에서 **다른** 구독 수준의 다른 활성 Visual Studio �
 이 이메일이 잘못되었다고 생각된다면 [Azure 고객 지원팀](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade)으로 문의하세요.
 
 ## <a name="support-resources"></a>지원 리소스
-
 - Azure와 관련하여 도움이 필요하세요?  다음 리소스를 확인하세요.
   - 기술 지원: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
   - [Azure 설명서](/azure/)
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+
+## <a name="next-steps"></a>다음 단계
+Microsoft 도구 및 서비스에 대한 자세한 내용은 다음 설명서를 참조하세요.
+- [Azure](/azure/)
+- [Azure DevOps](/azure/devops/)
+- [Visual Studio IDE](/visualstudio/)
