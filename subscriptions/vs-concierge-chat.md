@@ -1,21 +1,20 @@
 ---
-title: Visual Studio 구독의 Concierge Chat 혜택 | Microsoft Docs
+title: Visual Studio Subscription의 Concierge Chat 혜택 | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/29/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Concierge Chat 혜택을 알아봅니다.
-ms.openlocfilehash: 043ced3654c8bf43feebcc584fb46bb033d96e78
-ms.sourcegitcommit: 208395bc122f8d3dae3f5e5960c42981cc368310
+ms.openlocfilehash: 543fee937437141aa38d53707cb6e5bf84031e94
+ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "67784620"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "68681180"
 ---
-# <a name="concierge-chat"></a>Concierge Chat
-
-Concierge Chat 서비스는 Visual Studio 구독 혜택 사용에 도움이 될 뿐 아니라 제품 정보 및 기술 문서를 찾는 데 도움이 됩니다.
+# <a name="concierge-chat-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Concierge Chat
+Concierge Chat 서비스는 Visual Studio 구독 혜택 사용에 도움이 될 뿐 아니라 제품 정보 및 기술 문서를 찾는 데도 도움이 됩니다.
 
 이 서비스는 연중무휴로 사용 가능하며 현재 영어로만 제공됩니다(계정, 청구 및 구독 이외의 질문용).
 
@@ -27,7 +26,7 @@ Concierge Chat 서비스를 통해 도움을 받는 것은 정말 간단합니�
     > [!div class="mx-imgBorder"]
     > ![Concierge Chat 타일](_img/vs-concierge-chat/vs-concierge-chat-tile.png)
 
-3. **Continue(계속)** 를 클릭합니다.
+3. **계속**을 클릭합니다.
 
 4. 채팅 창이 열리고 큐에서 현재 위치를 보여주는 카운터가 표시됩니다.
 
@@ -36,8 +35,7 @@ Concierge Chat 서비스를 통해 도움을 받는 것은 정말 간단합니�
     > ![Concierge Chat 세션](_img/vs-concierge-chat/vs-concierge-chat-session.png)
 
 ## <a name="eligibility"></a>자격
-
-| 구독 수준                                                 |     채널                                            | 이점                                                          | 갱신 가능?    |
+| 구독 수준                                                 |     채널                                            | 혜택                                                          | 갱신 가능?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, 선택한 NFR<sup>1</sup> | 사용 가능       |  예          |
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 사용 가능                                                            |  예          |
@@ -53,10 +51,15 @@ Concierge Chat 서비스를 통해 도움을 받는 것은 정말 간단합니�
 어떤 구독을 사용하고 있는지 확실하지 않나요?  자신의 이메일 주소에 할당된 모든 구독을 보려면 [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)에 연결합니다. 일부 구독이 표시되지 않으면 하나 이상이 다른 전자 메일 주소에 할당되어 있을 수 있습니다.  해당 구독을 보려면 해당 전자 메일 주소로 로그인해야 합니다.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
-
 ### <a name="q--is-the-chat-service-available-in-multiple-languages"></a>Q:  채팅 서비스를 여러 언어로 사용할 수 있나요?
    A: 계정, 청구 및 구독 문제에 대한 지원은 여러 언어로 제공됩니다.  제품 정보 및 기술 문서 찾기에 대한 지원은 영어로 제공됩니다.
 
 ## <a name="support-resources"></a>지원 리소스
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+
+## <a name="next-steps"></a>다음 단계
+Microsoft 도구 및 서비스에 대한 자세한 내용은 다음 설명서를 참조하세요.
+- [Azure](/azure/)
+- [Azure DevOps](/azure/devops/)
+- [Visual Studio IDE](/visualstudio/)

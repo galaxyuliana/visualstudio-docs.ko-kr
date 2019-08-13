@@ -1,5 +1,6 @@
 ---
-title: Blend에서 개체 스타일 수정
+title: 개체 스타일 수정
+titleSuffix: Blend for Visual Studio
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: gewarren
@@ -7,14 +8,14 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 727bf173336a25f380cc938c3252530f86f22ab8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 53a2071e17898fc77aba8a5d51dda77ea2927187
+ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62845306"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68821966"
 ---
-# <a name="modify-the-style-of-objects-in-blend"></a>Blend에서 개체 스타일 수정
+# <a name="modify-the-style-of-objects-in-blend-for-visual-studio"></a>Blend for Visual Studio에서 개체 스타일 수정
 
 개체를 사용자 지정하는 가장 쉬운 방법은 **속성** 창에서 속성을 설정하는 방법입니다.
 
@@ -46,9 +47,9 @@ ms.locfileid: "62845306"
 
 컨트롤의 모양 및 동작을 한 번 디자인하고 해당 디자인을 다른 컨트롤에 적용하여 컨트롤의 모양과 동작을 개별적으로 유지 관리하지 않아도 됩니다.
 
-**스타일을 사용해야 하나요?**: 기본 속성(예: 단추 색)을 설정하려면 *스타일*을 사용합니다. 스타일을 컨트롤에 적용한 후에도 컨트롤을 수정할 수 있습니다.
+**스타일을 사용해야 하나요?** : 기본 속성(예: 단추 색)을 설정하려면 *스타일*을 사용합니다. 스타일을 컨트롤에 적용한 후에도 컨트롤을 수정할 수 있습니다.
 
-**템플릿을 사용해야 하나요?**: 컨트롤의 구조를 변경하려는 경우 *템플릿*을 사용합니다. 그래픽이나 로고를 단추로 변환한다고 가정해 보면 템플릿을 컨트롤에 적용한 후에는 컨트롤을 수정할 수 없습니다.
+**템플릿을 사용해야 하나요?** : 컨트롤의 구조를 변경하려는 경우 *템플릿*을 사용합니다. 그래픽이나 로고를 단추로 변환한다고 가정해 보면 템플릿을 컨트롤에 적용한 후에는 컨트롤을 수정할 수 없습니다.
 
 ### <a name="create-a-template-or-style"></a>템플릿 또는 스타일 만들기
 
@@ -84,11 +85,11 @@ ms.locfileid: "62845306"
 
 ### <a name="restore-the-default-style-or-template-of-a-control"></a>컨트롤의 기본 스타일이나 템플릿 복원
 
-컨트롤을 선택하고 [속성](../designers/creating-a-ui-by-using-blend-for-visual-studio.md#properties-window) 창에서 **스타일**이나 **템플릿** 속성을 찾습니다. **고급 옵션**을 선택한 다음, 바로 가기 메뉴에서 **다시 설정**을 클릭합니다.
+컨트롤을 선택하고 **속성**** 창에서 **스타일**이나 **템플릿** 속성을 찾습니다. **고급 옵션**을 선택한 다음, 바로 가기 메뉴에서 **다시 설정**을 클릭합니다.
 
-## <a name="visual-states-change-the-appearance-of-a-control-based-on-its-state"></a>시각적 상태: 해당 상태에 따라 컨트롤의 모양을 변경합니다.
+## <a name="visual-states"></a>시각적 상태
 
-컨트롤에는 사용자 상호 작용에 따라 여러 시각적 모양이 포함될 수 있습니다. 예를 들어 사용자가 클릭하거나 애니메이션 실행 시 단추가 녹색으로 바뀌도록 설정할 수 있습니다. 전환을 사용하여 시각적 상태 간의 시간을 줄이거나 늘릴 수 있습니다.
+시각적 상태를 사용하여 해당 상태에 따라 컨트롤의 모양을 변경할 수 있습니다. 컨트롤에는 사용자 상호 작용에 따라 여러 시각적 모양이 포함될 수 있습니다. 예를 들어 사용자가 클릭하거나 애니메이션 실행 시 단추가 녹색으로 바뀌도록 설정할 수 있습니다. 전환을 사용하여 시각적 상태 간의 시간을 줄이거나 늘릴 수 있습니다.
 
 ![마우스를 위에 놓았을 때 상태](../designers/media/a95c671a-5639-40b9-83db-1e6b214330d5.png)
 

@@ -6,20 +6,18 @@ ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-- uwp
-ms.openlocfilehash: 1937ab28af9b4c5c09bb12e2938a2aaa907fe8e6
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: d0401d810f5f97b0306290faff2cfeb1785ba14f
+ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62893586"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68821940"
 ---
 # <a name="organize-objects-into-layout-containers-in-xaml-designer"></a>XAML 디자이너에서 개체를 레이아웃 컨테이너로 구성
 
 이 문서에서는 XAML 디자이너에 대한 레이아웃 패널과 컨트롤을 설명합니다.
 
-페이지에 개체를 표시할 위치를 가정해 보겠습니다. 개체로는 이미지, 단추, 비디오 등을 들 수 있습니다. 개체를 행 및 열로 표시하거나 가로나 세로로 한 줄로 표시하거나 고정된 위치에 표시할 수 있습니다.
+페이지에 개체를 표시할 위치를 가정해 보겠습니다. &mdash;개체로는 이미지, 단추, 비디오 등을 들 수 있습니다. 개체를 행 및 열로 표시하거나 가로나 세로로 한 줄로 표시하거나 고정된 위치에 표시할 수 있습니다.
 
 페이지에 어떻게 표시할지 결정했으면 레이아웃 패널을 선택합니다. 개체를 추가할 대상이 필요하기 때문에 모든 페이지 작업은 여기에서 시작됩니다. 기본적으로 **Grid**가 설정되지만 변경할 수 있습니다.
 
@@ -41,11 +39,11 @@ ms.locfileid: "62893586"
 
 개체를 동일하게 또는 균일하게 모눈 영역에 정렬합니다. 이 패널은 이미지의 목록을 정렬할 때 매우 유용 합니다.
 
-![UniformGrid 레이아웃 패널](../designers/media/928b9284-a7e8-4678-875a-656b80b78076.png)
-
 (WPF 프로젝트에만 사용 가능)
 
-### <a name="canvas"></a>Canvas
+![UniformGrid 레이아웃 패널](../designers/media/928b9284-a7e8-4678-875a-656b80b78076.png)
+
+### <a name="canvas"></a>캔버스
 
 원하는 방식으로 개체를 정렬합니다. 사용자가 앱을 실행할 때 이러한 요소는 화면에서 고정 위치에 표시됩니다.
 

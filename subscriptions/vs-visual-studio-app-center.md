@@ -1,17 +1,17 @@
 ---
 title: Visual Studio 구독의 Visual Studio App Center 혜택 | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/31/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Visual Studio App Center 혜택에 대해 알아봅니다.
-ms.openlocfilehash: 1f57f6518c82c0eb60cbea9636c9973d2c9fd624
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 1feb4660e52335f838c1e7c80428575aaf7a04cc
+ms.sourcegitcommit: a124076dfd6b4e5aecda4d01984fee7b0c034745
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67826211"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "68787814"
 ---
 # <a name="visual-studio-app-center-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Visual Studio App Center
 
@@ -39,15 +39,15 @@ Visual Studio App Center를 시작하는 것은 간단합니다.
 
 ## <a name="eligibility"></a>자격
 
-| 구독 수준                                                 |     채널                                            | 이점                                                          | 갱신 가능?    |
+| 구독 수준                                                 |     채널                                            | 혜택                                                          | 갱신 가능?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise(표준, 월간 클라우드)   | VL, Azure, 일반 정품, NFR<sup>1</sup> | Included       |  예          |
-| Visual Studio Professional(표준, 월간 클라우드) | VL, Azure, 일반 정품                                       | Included                                                            |예 |
-| Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | Included                                                            |예 |
-| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | Included                                                            |예 |
+| Visual Studio Enterprise(표준, 월간 클라우드)   | VL, Azure, 일반 정품, NFR<sup>1</sup> | 포함       |  예          |
+| Visual Studio Professional(표준, 월간 클라우드) | VL, Azure, 일반 정품                                       | 포함                                                            |예 |
+| Visual Studio Test Professional(표준)                         | VL, 일반 정품                                              | 포함                                                            |예 |
+| MSDN 플랫폼(표준)                                          | VL, 일반 정품                                              | 포함                                                            |예 |
 ||
 
-<sup>1</sup> 포함: *NFR(전매금지), FTE, VSIP(Visual Studio Industry Partner), Imagine, MPN(Microsoft 파트너 네트워크), MCT Software & Services, MCT Software & Services Developer, BizSpark, MVP(Most Valuable Professional), RD(Regional Director)*
+<sup>1</sup> 포함: *NFR(전매금지), FTE, VSIP(Visual Studio Industry Partner), Imagine, MPN(Microsoft 파트너 네트워크), MCT Software & Services, MCT Software & Services Developer, BizSpark, MVP(Most Valuable Professional), RD(Regional Director) 
 
 > [!NOTE]
 > Microsoft는 더 이상 Visual Studio Professional 연간 구독 및 클라우드 구독에 Visual Studio Enterprise 연간 구독을 제공하지 않습니다. 기존 고객 환경 및 해당 구독의 갱신, 증가, 감소 또는 취소 기능은 변경되지 않습니다. 새 고객은 [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/)으로 이동하여 Visual Studio를 구입하기 위한 다양한 옵션을 살펴보세요.
@@ -70,3 +70,6 @@ A:  App Center에는 일부 이전 브라우저에서 제공하지 않을 수 �
   - 전체 [App Center 설명서](/appcenter/)를 확인하세요.
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+
+## <a name="next-steps"></a>다음 단계
+Azure는 개발/테스트용 개인 샌드박스입니다.  가상 머신, 클라우드 서비스 및 기타 Azure 리소스를 프로비전할 수 있습니다. [Azure 혜택](vs-azure.md)을 아직 활성화하지 않은 경우 활성화합니다. 

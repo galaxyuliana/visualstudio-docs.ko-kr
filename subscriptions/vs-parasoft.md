@@ -1,17 +1,17 @@
 ---
 title: Parasoft Virtualize/SOAtest Professional Desktop 혜택 | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: lank
+manager: lank
+ms.date: 07/31/2019
 ms.topic: conceptual
 description: Visual Studio 구독에 포함된 Parasoft Virtualize/SOA Test Professional 구독을 활성화하는 방법을 알아봅니다.
-ms.openlocfilehash: bd867a47b4b42c3327d60ccab05735f0554409ad
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 64aa689780dc30a5a6fcadf3e31ec24d3289056a
+ms.sourcegitcommit: a124076dfd6b4e5aecda4d01984fee7b0c034745
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67824637"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "68787734"
 ---
 # <a name="parasoft-virtualizesoatest-professional-desktop-in-visual-studio-subscriptions"></a>Visual Studio 구독의 Parasoft Virtualize/SOAtest Professional Desktop
 
@@ -27,7 +27,10 @@ ms.locfileid: "67824637"
 
 3. 계정을 만들 수 있는 Parasoft 웹 사이트로 리디렉션됩니다.  연락처 정보를 제공하고 **제출**을 클릭하기만 하면 됩니다.
    > [!div class="mx-imgBorder"]
-   > ![Parasoft 혜택 계정 만들기](_img/vs-parasoft/vs-parasoft-account-cropped.png)
+   > ![Parasoft 혜택 계정 만들기](_img/vs-parasoft/vs-parasoft-new-account.png)
+
+   > [!Note]
+   > 페이지의 표에는 전체 연도의 가격과 Visual Studio 할인 혜택이 나와 있습니다. 이 가격은 6개월 구독 사용 후에 적용됩니다.  
 
 4. 계정이 만들어지면 다운로드 지침이 포함된 전자 메일이 보내졌다는 알림 메시지가 표시됩니다.  (받은 편지함에 전자 메일이 표시되지 않는 경우 스팸 또는 정크 메일 폴더를 확인하세요.)
 
@@ -56,20 +59,18 @@ ms.locfileid: "67824637"
 14. 설치된 애플리케이션에 대한 바로 가기에 원하는 위치를 지정하고 **다음**을 클릭합니다.
 
 15. HTTPS 사이트의 특정 기능 테스트에는 SOAtest 웹 루트 인증 기관 인증서가 필요합니다.  루트 CA 인증서 설치 여부를 선택하고 **다음**을 클릭합니다.
-    > [!div class="mx-imgBorder"]
-    > ![Parasoft 혜택 루트 CA 인증서](_img/vs-parasoft/vs-parasoft-install-root-ca.png)
+    > [!NOTE]
+    > 인증서를 설치하는 것이 좋습니다.
 
 16. 설치 중에 바탕 화면 및 빠른 실행 아이콘을 만들지 여부를 선택하고 **다음**을 클릭합니다.
 
 17. 선택한 옵션을 확인하고 **설치**를 클릭하여 소프트웨어 설치를 시작합니다.
-    > [!div class="mx-imgBorder"]
-    > ![Parasoft 혜택 설치 준비 완료](_img/vs-parasoft/vs-parasoft-ready-to-install.png)
 
 18. 설치가 완료되면 **마침**을 클릭합니다. 이제 Parasoft Virtualize/SOAtest Professional Desktop 혜택을 사용할 준비가 되었습니다!
 
 ## <a name="eligibility"></a>자격
 
-| 구독 수준                                                 |     채널                                            | 이점                                                          | 갱신 가능?    |
+| 구독 수준                                                 |     채널                                            | 혜택                                                          | 갱신 가능?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise(Standard)   | VL, Azure, 일반 정품, 선택한 NFR<sup>1</sup> | 6개월       |  예       |
 | Visual Studio Professional(표준) | VL, Azure, 일반 정품                                       | 사용할 수 없음                                                           |해당 없음         |
@@ -89,3 +90,6 @@ ms.locfileid: "67824637"
   - Parasoft Resource Center:  https://www.parasoft.com/resources/
 - Visual Studio 구독에 대한 판매, 구독, 계정 및 요금 청구에 대한 지원을 받으려면 Visual Studio [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/)에 문의하세요.
 - Visual Studio IDE, Azure DevOps Services 또는 기타 Visual Studio 제품이나 서비스와 관련하여 궁금한 점이 있나요?  [Visual Studio 지원](https://visualstudio.microsoft.com/support/)을 참조하세요.
+
+## <a name="next-steps"></a>다음 단계
+[Azure 크레딧](vs-azure.md)을 활성화하여 고유한 개발 샌드박스를 활용하세요. 

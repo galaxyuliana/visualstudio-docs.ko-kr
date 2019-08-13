@@ -11,18 +11,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f9eee42d9e3a48f77153e5bd94f72a975ab27843
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 21de3480ff3ac2d6733aacff6bcf714f910e7022
+ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66263402"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68821888"
 ---
 # <a name="how-to-create-and-apply-a-resource"></a>방법: 리소스 만들기 및 적용
 
-XAML 디자이너의 요소에 대한 스타일 및 템플릿은 리소스라는 다시 사용 가능한 엔터티에 저장됩니다. 스타일을 사용하면 요소 속성을 설정하고 여러 요소에 걸쳐 일관된 모양을 위해 이러한 설정을 통해 다시 사용할 수 있습니다. [ControlTemplate](/uwp/api/Windows.UI.Xaml.Controls.ControlTemplate)은 컨트롤의 모양을 정의하며 리소스로 적용될 수도 있습니다. 자세한 내용은 [빠른 시작: 컨트롤 스타일 지정](http://go.microsoft.com/fwlink/?LinkID=248239) 및 [빠른 시작: 컨트롤 템플릿](http://go.microsoft.com/fwlink/?LinkID=247982)을 참조하세요.
+XAML 디자이너의 요소에 대한 스타일 및 템플릿은 리소스라는 다시 사용 가능한 엔터티에 저장됩니다. 스타일을 사용하면 요소 속성을 설정하고 여러 요소에 걸쳐 일관된 모양을 위해 이러한 설정을 통해 다시 사용할 수 있습니다. [ControlTemplate](xref:Windows.UI.Xaml.Controls.ControlTemplate)은 컨트롤의 모양을 정의하며 리소스로 적용될 수도 있습니다. 자세한 내용은 [XAML 스타일](/windows/uwp/design/controls-and-patterns/xaml-styles) 및 [컨트롤 템플릿](/windows/uwp/design/controls-and-patterns/control-templates)을 참조하세요.
 
-기존 속성인 [스타일](/uwp/api/Windows.UI.Xaml.Style) 또는 `ControlTemplate`으로 새 리소스를 만들 때마다 **리소스 만들기** 대화 상자를 사용하여 애플리케이션 수준, 문서 수준 또는 요소 수준에서 리소스를 정의할 수 있습니다. 이러한 수준에 따라 리소스를 사용할 수 있는 위치가 결정됩니다. 예를 들어 요소 수준에서 리소스를 정의하는 경우 리소스 만든 요소에만 적용할 수 있습니다. 또한 다른 프로젝트에서 다시 사용할 수 있는 별도 파일인 [리소스 사전](/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references)에 리소스를 저장할 수 있습니다.
+기존 속성인 [스타일](xref:Windows.UI.Xaml.Style) 또는 [ControlTemplate](xref:Windows.UI.Xaml.Controls.ControlTemplate)으로 새 리소스를 만들 때마다 **리소스 만들기** 대화 상자를 사용하여 애플리케이션 수준, 문서 수준 또는 요소 수준에서 리소스를 정의할 수 있습니다. 이러한 수준에 따라 리소스를 사용할 수 있는 위치가 결정됩니다. 예를 들어 요소 수준에서 리소스를 정의하는 경우 리소스 만든 요소에만 적용할 수 있습니다. 또한 다른 프로젝트에서 다시 사용할 수 있는 별도 파일인 [리소스 사전](/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references)에 리소스를 저장할 수 있습니다.
 
 ## <a name="create-a-new-resource"></a>새 리소스 만들기
 
@@ -52,7 +52,7 @@ XAML 디자이너의 요소에 대한 스타일 및 템플릿은 리소스라는
 
 1. 문서 개요 창에서 리소스를 적용하려는 요소를 선택합니다.
 
-2. 다음 작업 중 하나를 수행합니다.
+2. 다음 중 하나를 수행합니다.
 
    - 속성에 리소스를 적용합니다. **속성** 창에서 속성 값 옆에 있는 속성 표식을 선택하고, **로컬 리소스** 또는 **시스템 리소스**를 선택한 다음, 표시되는 목록에서 사용 가능한 리소스를 선택합니다.
 
@@ -63,7 +63,7 @@ XAML 디자이너의 요소에 대한 스타일 및 템플릿은 리소스라는
      > [!NOTE]
      > **템플릿 편집**은 컨트롤 템플릿을 적용합니다. **추가 템플릿 편집**은 다른 템플릿 형식을 적용합니다.
 
-     호환되는 모든 위치에 리소스를 적용할 수 있습니다. 예를 들어 <xref:Windows.UI.Xaml.Controls.TextBox> 컨트롤의 **Foreground** 속성에 브러시 리소스를 적용할 수 있습니다.
+     호환되는 모든 위치에 리소스를 적용할 수 있습니다. 예를 들어 [TextBox](xref:Windows.UI.Xaml.Controls.TextBox) 컨트롤의 **Foreground** 속성에 브러시 리소스를 적용할 수 있습니다.
 
 ## <a name="edit-a-resource"></a>리소스 편집
 

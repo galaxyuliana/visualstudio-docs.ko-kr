@@ -6,14 +6,12 @@ ms.assetid: a29690bf-f212-4ac6-a77a-adc53d14102e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.workload:
-- uwp
-ms.openlocfilehash: b8654c9a414549c4e1fee4515d359bfce4555df8
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: f80496cb54e8e7f4c99a819ddd3c07fbed5438ca
+ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67823820"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68821519"
 ---
 # <a name="work-with-elements-in-xaml-designer"></a>XAML 디자이너의 요소 작업
 
@@ -21,7 +19,7 @@ ms.locfileid: "67823820"
 
 ## <a name="add-an-element-to-a-layout"></a>레이아웃에 요소 추가
 
-*레이아웃*은 UI에서 요소의 크기를 조정하고 배치하는 프로세스입니다. 시각적 요소를 배치하려면 [패널](/uwp/api/Windows.UI.Xaml.Controls.Panel) 레이아웃에 가져다 놓아야 합니다. `Panel`에는 [FrameworkElement](/uwp/api/Windows.UI.Xaml.FrameworkElement) 형식의 컬렉션인 자식 속성이 있습니다. [Canvas](/uwp/api/Windows.UI.Xaml.Controls.Canvas), [StackPanel](/uwp/api/Windows.UI.Xaml.Controls.StackPanel) 및 [Grid](/uwp/api/Windows.UI.Xaml.Controls.Grid)와 같은 다양한 `Panel` 자식 요소를 사용하여 레이아웃 컨테이너 역할을 하고, 페이지에서 요소를 배치 및 정렬할 수 있습니다.
+*레이아웃*은 UI에서 요소의 크기를 조정하고 배치하는 프로세스입니다. 시각적 요소를 배치하려면 [패널](xref:Windows.UI.Xaml.Controls.Panel) 레이아웃에 가져다 놓아야 합니다. `Panel`에는 [FrameworkElement](xref:Windows.UI.Xaml.FrameworkElement) 형식의 컬렉션인 자식 속성이 있습니다. [Canvas](xref:Windows.UI.Xaml.Controls.Canvas), [StackPanel](xref:Windows.UI.Xaml.Controls.StackPanel) 및 [Grid](xref:Windows.UI.Xaml.Controls.Grid)와 같은 다양한 `Panel` 자식 요소를 사용하여 레이아웃 컨테이너 역할을 하고, 페이지에서 요소를 배치 및 정렬할 수 있습니다.
 
 기본적으로는 `Grid` 패널은 페이지 또는 폼 내에서 최상위 레이아웃 컨테이너로 사용됩니다. 최상위 페이지 레이아웃 내에서 레이아웃 패널, 컨트롤 또는 다른 요소를 추가할 수 있습니다.
 
@@ -31,7 +29,7 @@ XAML 디자이너의 레이아웃에 요소를 추가하려면 다음 중 하나
 
 - 요소를 **도구 상자**에서 아트보드로 끌어 놓습니다.
 
-- **도구 상자**에서 그리기 도구(예: [타원](/uwp/api/Windows.UI.Xaml.Shapes.Ellipse) 또는 [사각형](/uwp/api/Windows.UI.Xaml.Shapes.Rectangle)) 중 하나를 선택한 다음 활성 패널에서 요소를 그립니다.
+- **도구 상자**에서 그리기 도구(예: [타원](xref:Windows.UI.Xaml.Shapes.Ellipse) 또는 [사각형](xref:Windows.UI.Xaml.Shapes.Rectangle)) 중 하나를 선택한 다음 활성 패널에서 요소를 그립니다.
 
 ## <a name="change-the-layering-order-of-elements"></a>요소의 쌓기 순서 변경
 
@@ -51,7 +49,7 @@ XAML 디자이너의 아트보드에 두 요소가 있는 경우 한 요소가 �
 
   - **맨 뒤로 보내기** - 요소를 순서의 맨 뒤로 보냅니다.
 
-  [속성] 창의 **레이아웃** 섹션에서 **ZIndex** 속성을 변경합니다. 겹치는 요소의 경우 **ZIndex** 속성이 [문서 개요] 창에 표시되는 요소의 순서보다 우선합니다. 요소가 겹치는 경우 **Z 인덱스** 값이 더 큰 요소가 앞에 표시됩니다.
+- [속성] 창의 **레이아웃** 섹션에서 **ZIndex** 속성을 변경합니다. 겹치는 요소의 경우 **ZIndex** 속성이 [문서 개요] 창에 표시되는 요소의 순서보다 우선합니다. 요소가 겹치는 경우 **Z 인덱스** 값이 더 큰 요소가 앞에 표시됩니다.
 
 ## <a name="change-the-alignment-of-an-element"></a>요소의 맞춤 변경
 
@@ -88,7 +86,7 @@ XAML 디자이너에서 여백은 아트보드의 요소 주위에 있는 빈 �
 여백 표시기를 열고 반대쪽 여백이 설정되어 있지 않으면 반대쪽 여백이 아트 보드의 요소 위치에 따라 올바른 값으로 설정됩니다. **Left** 및 **Right** 여백과 같은 반대쪽 여백에는 항상 하나 이상의 속성이 설정됩니다.
 
 > [!IMPORTANT]
-> <xref:Windows.UI.Xaml.Controls.Canvas>와 같은 레이아웃 컨테이너 안에 배치된 요소에는 여백 표시기가 없습니다. <xref:Windows.UI.Xaml.Controls.StackPanel> 안에 배치된 요소에는 `StackPanel`의 방향에 따라 왼쪽 및 오른쪽 여백이나 위쪽 및 아래쪽 여백에 대한 여백 표시기가 있습니다.
+> [Canvas](xref:Windows.UI.Xaml.Controls.Canvas)와 같은 레이아웃 컨테이너 안에 배치된 요소에는 여백 표시기가 없습니다. [StackPanel](xref:Windows.UI.Xaml.Controls.StackPanel) 안에 배치된 요소에는 `StackPanel`의 방향에 따라 왼쪽 및 오른쪽 여백이나 위쪽 및 아래쪽 여백에 대한 여백 표시기가 있습니다.
 
 ## <a name="group-and-ungroup-elements"></a>요소 그룹화 및 그룹 해제
 
@@ -101,7 +99,7 @@ XAML 디자이너에서 둘 이상의 요소를 그룹화하면 새로운 레이
 2. 선택한 요소를 마우스 오른쪽 단추로 클릭하고, **그룹으로 묶기**를 가리킨 다음, 그룹을 배치할 레이아웃 컨테이너의 형식을 클릭합니다.
 
     > [!TIP]
-    > <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border> 또는 <xref:Windows.UI.Xaml.Controls.ScrollViewer>를 선택하여 요소를 그룹화하는 경우 새로운 <xref:Windows.UI.Xaml.Controls.Grid> 패널 내에서 <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border> 또는 <xref:Windows.UI.Xaml.Controls.ScrollViewer> 요소 내에 요소가 배치됩니다. 이러한 레이아웃 컨테이너 중 하나에서 요소의 그룹을 해제하면 <xref:Windows.UI.Xaml.Controls.Viewbox>, <xref:Windows.UI.Xaml.Controls.Border> 또는 <xref:Windows.UI.Xaml.Controls.ScrollViewer>만 삭제되고 <xref:Windows.UI.Xaml.Controls.Grid> 패널은 그대로 유지됩니다. `Grid` 패널을 삭제하려면 요소의 그룹을 다시 해제합니다.
+    > [Viewbox](xref:Windows.UI.Xaml.Controls.Viewbox), [Border](xref:Windows.UI.Xaml.Controls.Border) 또는 [ScrollViewer](xref:Windows.UI.Xaml.Controls.ScrollViewer)를 선택하여 요소를 그룹화하는 경우 요소는 [Viewbox](xref:Windows.UI.Xaml.Controls.Viewbox), [Border](xref:Windows.UI.Xaml.Controls.Border) 또는 [ScrollViewer](xref:Windows.UI.Xaml.Controls.ScrollViewer) 내의 새 [Grid](xref:Windows.UI.Xaml.Controls.Grid) 패널에 배치됩니다. 이러한 레이아웃 컨테이너 중 하나에서 요소의 그룹을 해제하면 [Viewbox](xref:Windows.UI.Xaml.Controls.Viewbox), [Border](xref:Windows.UI.Xaml.Controls.Border) 또는 [ScrollViewer](xref:Windows.UI.Xaml.Controls.ScrollViewer)만 삭제되고 [Grid](xref:Windows.UI.Xaml.Controls.Grid) 패널은 그대로 유지됩니다. `Grid` 패널을 삭제하려면 요소의 그룹을 다시 해제합니다.
 
 요소를 그룹 해제하고 레이아웃을 삭제하려면 그룹 해제하려는 그룹을 마우스 오른쪽 단추로 클릭하고 **그룹 해제**를 클릭합니다. [문서 개요] 창에서 선택한 항목을 마우스 오른쪽 단추로 클릭하고 **그룹으로 묶기** 또는 **그룹 해제**를 클릭하여 요소를 그룹화하거나 그룹 해제할 수도 있습니다.
 

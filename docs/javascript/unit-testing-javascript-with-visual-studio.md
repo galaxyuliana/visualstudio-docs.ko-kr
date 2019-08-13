@@ -11,12 +11,12 @@ dev_langs:
 - JavaScript
 ms.workload:
 - nodejs
-ms.openlocfilehash: 7ad0105cffc99894134dc58af7c71c9f95bceace
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b1ef763295db7673896189ce000ed59d5da5becf
+ms.sourcegitcommit: a124076dfd6b4e5aecda4d01984fee7b0c034745
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62840578"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "68787984"
 ---
 # <a name="unit-testing-javascript-and-typescript-in-visual-studio"></a>Visual Studio의 유닛 테스트 JavaScript 및 TypeScript
 
@@ -26,6 +26,7 @@ Visual Studio용 Node.js 도구를 사용하면 명령 프롬프트로 전환하
 * Mocha([mochajs.org](http://mochajs.org/))
 * Jasmine([Jasmine.github.io](https://jasmine.github.io/))
 * Tape([github.com/substack/tape](https://github.com/substack/tape))
+* Jest([jestjs.io](https://jestjs.io/))
 * Export Runner(이 프레임워크는 Visual Studio용 Node.js 도구로 한정됨)
 
 > [!WARNING]
@@ -164,5 +165,11 @@ JavaScript를 사용하여 검색 및 실행 논리를 구현하여 추가 테�
 
 다음으로, 지정한 테스트 루트 폴더에 테스트를 추가하면 테스트 탐색기 창에서 실행할 수 있습니다. 처음에 표시되지 않는 경우 프로젝트를 다시 빌드해야 할 수 있습니다.
 
-> [!NOTE]
-> 이 기능은 현재 .NET Standard 및 .NET Core 프로젝트에서 작동하지 않습니다.
+### <a name="unit-test-net-core-and-net-standard"></a>.NET Core 및 .NET Standard 단위 테스트
+위의 속성 외에도 NuGet 패키지 [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/)를 설치하고 속성을 설정해야 합니다.
+
+```xml
+<PropertyGroup>
+    <GenerateProgramFile>false</GenerateProgramFile>
+</PropertyGroup>
+```
