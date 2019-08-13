@@ -17,7 +17,7 @@ ms.locfileid: "68610523"
 구독 관리 포털을 사용하면 한 번에 한 명 또는 여러 그룹에 사용자를 추가할 수 있습니다.  개별 사용자를 추가하려면 [단일 사용자 추가](assign-license.md)를 참조하세요.
 
 ## <a name="use-bulk-add-to-assign-subscriptions"></a>대량 추가를 사용하여 구독 할당
-1. https://manage.visualstudio.com 에서 Visual Studio 구독 관리 포털에 로그인합니다.
+1. [https://manage.visualstudio.com](https://manage.visualstudio.com )에서 Visual Studio 구독 관리 포털에 로그인합니다.
 2. 여러 구독자를 한 번에 추가하려면 **구독자 관리** 탭으로 이동합니다. 맨 위에 있는 리본에서 **대량 추가**를 클릭합니다.
    > [!div class="mx-imgBorder"]
    > ![여러 구독자 추가](media/add-multiple-subscribers.png)

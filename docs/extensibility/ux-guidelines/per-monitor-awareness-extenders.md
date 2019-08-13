@@ -1,74 +1,80 @@
 ---
-title: Visual Studio extender에 대 한 모니터별 인식을 지원
+title: Visual Studio extender에 대 한 모니터 당 인식 지원
 titleSuffix: ''
-description: 당 모니터-인식 Visual Studio 2019에서 사용할 수 있는 새 extender 지원에 알아봅니다.
+description: Visual Studio 2019에서 제공 되는 모니터 당 인식에 대 한 새로운 extender 지원에 대해 알아봅니다.
 ms.date: 04/10/2019
 helpviewer_keywords:
 - Visual Studio, PMA, per-monitor-awareness, extenders, Windows Forms
 - Per-Monitor Awareness support for extenders
-ms.assetid: ''
 author: rub8n
 ms.author: rurios
 manager: anthc
-ms.prod: visual-studio-windows
 monikerRange: vs-2019
-ms.technology: vs-ide-general
-ms.topic: reference
-ms.workload:
-- multiple
-ms.openlocfilehash: 44938c5753491521702867398a514f770cf831fb
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.topic: conceptual
+dev_langs:
+- CSharp
+- CPP
+ms.openlocfilehash: 2686248a087650f6170b72c8ef9b3a77e2ba275c
+ms.sourcegitcommit: 6f3cf7a1bfc81a61f9a603461a1c34fd2221f100
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62793649"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "68957346"
 ---
-# <a name="per-monitor-awareness-support-for-visual-studio-extenders"></a>Visual Studio extender에 대 한 모니터별 인식을 지원
-Visual Studio 2019 이전 버전의 DPI 인식 컨텍스트를 인식 모니터별 DPI 인식 (PMA) 보다는 시스템으로 설정 했습니다. 성능이 저하 된 시각적 개체에서 생성 한 인식 시스템에서에서 실행 중인 Visual Studio를 렌더링 해야 했던 다른 배율 인수 또는 원격을 사용 하 여 모니터 디스플레이 구성을 사용 하 여 컴퓨터에 예를 들어 (다른 때마다 (예: 흐리게 글꼴 또는 아이콘) 환경 Windows 확장)입니다.
+# <a name="per-monitor-awareness-support-for-visual-studio-extenders"></a>Visual Studio extender에 대 한 모니터 당 인식 지원
 
-환경을 지 원하는 단일 시스템 정의 된 구성 하지 않고 Visual Studio에서 호스팅되는 디스플레이의 구성에 따라 렌더링을 허용 하는 경우 Visual Studio 2019 DPI 인식 컨텍스트 PMA,으로 설정 됩니다. 궁극적으로 PMA 모드를 지 원하는 노출 영역에 대 한 생생한 항상 UI를 변환 합니다.
+Visual Studio 2019 이전 버전에서는 모니터 당 DPI 인식 (PMA)이 아니라 DPI 인식 컨텍스트가 시스템 인식으로 설정 되었습니다. 시스템 인식에서를 실행 하면 Visual Studio에서 다양 한 크기 조정 요소를 사용 하는 모니터에서 렌더링 하거나 다양 한 표시 구성이 있는 컴퓨터 (예: 다른 컴퓨터)에 원격으로 렌더링 해야 할 때마다 Windows 크기 조정).
 
-참조를 [Windows에서 높은 DPI 데스크톱 응용 프로그램 개발](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) 설명서 전체 시나리오에 대 한 자세한 내용은이 문서에서 설명 합니다.
+Visual Studio 2019의 DPI 인식 컨텍스트는 환경에서 지원할 때 PMA로 설정 되며, 단일 시스템 정의 구성이 아니라 호스팅된 디스플레이의 구성에 따라 Visual Studio를 렌더링할 수 있습니다. 궁극적으로 PMA 모드를 지 원하는 노출 영역에 대해 항상 선명한 UI로 변환 합니다.
+
+이 문서에서 다루는 용어 및 전체 시나리오에 대 한 자세한 내용은 [Windows에서 DPI 데스크톱 응용 프로그램 개발](/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) 설명서를 참조 하세요.
 
 ## <a name="quickstart"></a>빠른 시작
-- Visual Studio PMA 모드에서 실행 중인지 확인 (참조 **PMA 사용**)
 
-- 여러 일반적인 시나리오에 확장 작동을 올바르게 확인할 (참조 **PMA 문제에 대 한 확장을 테스트**)
+- Visual Studio가 PMA 모드에서 실행 되 고 있는지 확인 합니다 ( **Pma 사용**참조).
 
-- 문제를 찾을 경우 진단 하 고 해당 문제를 해결 하려면이 문서에 설명 된 전략/권장을 사용할 수 있습니다. 새 추가 해야 [Microsoft.VisualStudio.DpiAwareness](https://www.nuget.org/packages/Microsoft.VisualStudio.DpiAwareness/) NuGet 패키지를 프로젝트에 필요한 Api에 액세스 합니다.
+- 일반적인 시나리오 집합에서 확장이 제대로 작동 하는지 확인 합니다 ( **PMA 문제에 대 한 확장 테스트**참조).
 
-## <a name="enabling-pma"></a>PMA를 사용 하도록 설정
-PMA Visual studio에서를 사용 하려면 다음 요구 사항을 충족 해야 합니다.
-1) Windows 10 2018 년 4 월 업데이트 (v1803 RS4) 이상
-2) .NET framework 4.8 RTM 이상
-3) 사용 하 여 visual Studio 2019 합니다 ["다른 픽셀 밀도 사용 하 여 화면에 대 한 최적화 렌더링"](https://docs.microsoft.com/visualstudio/ide/reference/general-environment-options-dialog-box?view=vs-2019) 옵션이 사용 하도록 설정
+- 문제가 발견 되 면이 문서에 설명 된 전략/권장 사항을 사용 하 여 문제를 진단 하 고 해결할 수 있습니다. 또한 필요한 Api에 액세스 하려면 프로젝트에 새 [VisualStudio](https://www.nuget.org/packages/Microsoft.VisualStudio.DpiAwareness/) NuGet 패키지를 추가 해야 합니다.
 
-이러한 요구 사항이 충족 되 면 Visual Studio 프로세스 전체에서 PMA 모드를 자동으로 사용 됩니다.
+## <a name="enable-pma"></a>PMA 사용
+
+Visual Studio에서 PMA를 사용 하도록 설정 하려면 다음 요구 사항을 충족 해야 합니다.
+
+- Windows 10 4 월 2018 업데이트 (v1803, RS4) 이상
+- .NET Framework 4.8 RTM 이상
+- Visual Studio 2019 ( [픽셀 밀도가 다른 화면에 대 한 렌더링 최적화)](../../ide/reference/general-environment-options-dialog-box.md) 옵션 사용
+
+이러한 요구 사항이 충족 되 면 Visual Studio는 프로세스 전체에서 PMA 모드를 자동으로 사용 하도록 설정 합니다.
 
 > [!NOTE]
-> VS (예: 속성 브라우저)에서 Windows Forms 콘텐츠는 Visual Studio 2019 업데이트 # 1을 해야 하는 경우에 PMA를 지원 합니다.
+> Visual Studio (예: 속성 브라우저)의 Windows Forms 콘텐츠는 Visual Studio 2019 버전 16.1 이상이 있는 경우에만 PMA를 지원 합니다.
 
-## <a name="testing-your-extensions-for-pma-issues"></a>PMA 문제에 대 한 확장을 테스트
+## <a name="test-your-extensions-for-pma-issues"></a>PMA 문제에 대 한 확장 테스트
 
-Visual Studio WPF, Windows Forms, Win32, 및 HTML/JS UI 프레임 워크를 공식적으로 지원합니다. Visual Studio PMA 모드로 설정 됩니다, 각 UI 스택을 다르게 동작 합니다. 따라서 UI 프레임 워크에 관계 없이 모든 UI는 PMA 모드와 호환 되도록 테스트 통과 수행 되는 것이 좋습니다.
+Visual Studio는 WPF, Windows Forms, Win32 및 HTML/JS UI 프레임 워크를 공식적으로 지원 합니다. Visual Studio를 PMA 모드로 전환 하면 각 UI 스택이 다르게 동작 합니다. 따라서 UI 프레임 워크에 관계 없이 모든 UI가 PMA 모드를 준수 하는지 확인 하기 위해 테스트 통과를 수행 하는 것이 좋습니다.
 
 다음과 같은 일반적인 시나리오를 확인 하는 것이 좋습니다.
 
-1. 응용 프로그램은 실행 * 하는 동안 단일 모니터 환경의 배율 인수를 변경 합니다.
-    - 이 시나리오를 통해 UI 동적 Windows DPI 변경에 응답 하는지 테스트 합니다.
+- 응용 프로그램이 실행 되는 동안 단일 모니터 환경의 크기 조정 인수 변경
 
-2. 여기서 주 복제본에는 연결 된 모니터를 설정 하 고 응용 프로그램이 실행 되는 동안 연결 된 모니터의 랩톱 보다 다른 배율 인수 노트북 도킹/도킹 합니다.
-    - 이 시나리오를 통해 동적 표시 처리 뿐만 아니라 DPI가 변경 되 고 추가 또는 제거 UI를 표시할 응답 하는지 테스트 합니다.
+  이 시나리오는 UI가 동적 Windows DPI 변경에 응답 하는지 테스트 하는 데 도움이 됩니다.
 
-3. 다른 배율 인수를 사용 하 여 여러 모니터를 필요 하 고 응용 프로그램 간에 이동 합니다.
-    - 이 시나리오를 통해 UI 디스플레이 DPI 변경에 응답 하는지 테스트 합니다.
+- 연결 된 모니터가 주 복제본으로 설정 되 고 연결 된 모니터가 응용 프로그램이 실행 되는 동안 노트북과 다른 배율 인수를 가진 노트북을 도킹/도킹 해제 합니다.
+
+  이 시나리오는 UI가 디스플레이 DPI 변경에 응답 하 고, 동적으로 추가 또는 제거 되는 디스플레이를 처리 하는 것을 테스트 하는 데 도움이 됩니다.
+
+- 여러 가지 크기 조정 요소를 포함 하는 여러 모니터가 있고 그 사이에 응용 프로그램을 이동 하는 경우
+
+  이 시나리오는 UI가 디스플레이 DPI 변경에 응답 하는지 테스트 하는 데 도움이 됩니다.
     
-4. 로컬 및 원격 컴퓨터에 기본 모니터에 대 한 다른 배율 인수 하는 경우 컴퓨터에 원격입니다.
-    - 이 시나리오를 통해 UI 동적 Windows DPI 변경에 응답 하는지 테스트 합니다.
+- 로컬 및 원격 컴퓨터가 기본 모니터에 대해 서로 다른 크기 조정 요소를 사용할 때 컴퓨터에 원격으로 로그인 합니다.
 
-UI 데 문제가 있을 수 있는지 여부에 대 한 적절 한 예비 테스트는 코드를 활용 하는 여부는 *Microsoft.VisualStudio.Utilities.Dpi.DpiHelper*, *Microsoft.VisualStudio.PlatformUI.DpiHelper*, 또는 *VsUI::CDpiHelper* 클래스입니다. 이러한 이전 DpiHelper 클래스에만 시스템 DPI를 인식 지원 프로세스가 PMA 되 면 제대로 작동 하지 않을 항상 있습니다.
+  이 시나리오는 UI가 동적 Windows DPI 변경에 응답 하는지 테스트 하는 데 도움이 됩니다.
 
-이러한 DpiHelpers의 일반적인 사용은 같이 표시 됩니다.
+UI가 문제를 발생 시킬 수 있는지에 대 한 적절 한 예비 테스트는 코드에서 *VisualStudio*를 활용 하는지, *VisualStudio*를 활용 하는지, 아니면 *Vsui:: cdpihelper* 클래스를 활용 하는지 여부입니다. 이러한 이전 DpiHelper 클래스는 시스템 DPI 인식만 지원 하며, 프로세스가 PMA 인 경우에는 항상 올바르게 작동 하지 않습니다.
+
+이러한 DpiHelpers 일반적인 사용법은 다음과 같습니다.
 
 ```cs
 Point screenTopRight = logicalBounds.TopRight.LogicalToDeviceUnits();
@@ -83,81 +89,86 @@ POINT screenIntTopRight = new POINT
 IntPtr monitor = MonitorFromPoint(screenIntTopRight, MONITOR_DEFAULTTONEARST);
 ```
 
-이전 예제에서는 창의 논리적 범위를 나타내는 사각형 MonitorFromPoint 다시 정확한 모니터 포인터를 반환 하기 위해 장치 좌표를 필요로 하는 기본 메서드에 전달할 수 있도록 장치 단위 변환 됩니다.
+이전 예제에서 창의 논리적 경계를 나타내는 사각형은 장치 단위로 변환 되어 정확한 모니터 포인터를 다시 반환 하기 위해 장치 좌표가 필요한 기본 메서드 MonitorFromPoint에 전달 될 수 있습니다.
 
 ### <a name="classes-of-issues"></a>문제의 클래스
-Visual Studio 용 PMA 모드가 설정 된 경우 UI 몇 가지 일반적인 방법으로 문제를 복제할 수입니다. 대부분 경우 항상 그렇지는 않지만 이러한 문제의 발생할 수 있습니다 Visual Studio의 지원 되는 UI 프레임 워크 중 하나. 또한 이러한 문제도 발생할 수 있습니다 UI 부분 시나리오를 확장 하는 혼합 모드 DPI에서 호스트 되는 경우 (Windows를 참조 하세요 [설명서](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) 자세한). 
+Visual Studio에 대해 PMA 모드를 사용 하도록 설정 하면 UI에서 여러 가지 일반적인 방법으로 문제를 복제할 수 있습니다. 대부분의 경우 이러한 문제는 Visual Studio의 지원 되는 UI 프레임 워크에서 발생할 수 있습니다. 또한 이러한 문제는 UI 부분이 혼합 모드 DPI 배율 시나리오에서 호스트 되는 경우에도 발생할 수 있습니다. 자세한 내용은 Windows [설명서](/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows) 를 참조 하십시오. 
 
 #### <a name="win32-window-creation"></a>Win32 창 만들기
-일반적인 패턴은 좌표가 (0, 0)에서 창을 만들기 위해 windows CreateWindow() 또는 CreateWindowEx()를 만들 때 (위쪽/왼쪽 모퉁이 기본 디스플레이의)를 최종 위치로 이동 합니다. 그러나 이렇게 DPI를 트리거할 수 있는 창을 하면 메시지 또는 다른 UI 메시지 또는 이벤트로 다시 트리거할 수 있습니다 및 결과적으로 원치 않는 동작이 나 렌더링 하는 경우 변경 합니다.
+CreateWindow () 또는 CreateWindowEx ()를 사용 하 여 창을 만들 때 일반적인 패턴은 좌표 (0, 0) (기본 표시의 위쪽/왼쪽 모퉁이)에서 창을 만든 다음 최종 위치로 이동 하는 것입니다. 그러나 이렇게 하면 창이 DPI 변경 메시지나 이벤트를 다시 트리거할 다른 UI 메시지나 이벤트를 발생 시킬 수 있으며 결국 원치 않는 동작이 나 렌더링 될 수 있습니다.
 
 #### <a name="wpf-element-placement"></a>WPF 요소 배치
-이전 Microsoft.VisualStudio.Utilities.Dpi.DpiHelper를 사용 하 여 WPF 요소를 이동할 때 왼쪽 위 좌표 요소는 기본이 아닌 DPI 때마다 올바르게 계산 되지 않을 수 있습니다.
+이전 VisualStudio를 사용 하 여 WPF 요소를 이동할 때 요소가 기본이 아닌 DPI에 있을 때마다 왼쪽 위 좌표를 올바르게 계산 하지 못할 수 있습니다.
 
-#### <a name="serialization-of-ui-element-sizes-or-positions"></a>UI 요소 크기 또는 위치의 serialization
-에 저장 된 것 보다는 서로 다른 DPI 컨텍스트에서 UI 크기 또는 위치 (장치 단위로 저장 됨) 하는 경우 복원 되 면 수 배치 하 고 올바르게 크기 조정 합니다. 장치 단위는 내재 된 DPI 관계 때문에 발생 합니다.
+#### <a name="serialization-of-ui-element-sizes-or-positions"></a>UI 요소 크기 또는 위치 Serialization
+UI 크기나 위치 (장치 단위로 저장 된 경우)가에 저장 된 것과 다른 DPI 컨텍스트에서 복원 되는 경우에는 위치 지정 되 고 크기가 잘못 지정 됩니다. 이는 장치 단위에 내재 된 DPI 관계가 있기 때문에 발생 합니다.
 
 #### <a name="incorrect-scaling"></a>잘못 된 크기 조정
-기본 DPI에서 만드는 UI 요소는 있지만 다른 dpi 디스플레이에 이동 하는 경우 크기를 변경 하지는 즉, 해당 콘텐츠 결국 너무 크거나 너무 작아서 올바르게 확장 됩니다.
+기본 DPI에 생성 된 UI 요소는 올바르게 크기를 조정 하지만, DPI가 다른 디스플레이로 이동 하는 경우에는 크기를 조정 하지 않고 해당 콘텐츠가 너무 크거나 작습니다.
 
 #### <a name="incorrect-bounding"></a>잘못 된 경계
-하지만 마찬가지로, 크기 조정 문제에 UI 요소는 계산 올바르게 해당 기본 DPI 컨텍스트를 해당 범위를 보조로 이동 하면 새 범위를 올바르게 계산 되지 않습니다는. 따라서 콘텐츠 창이 끝납니다 너무 작거나 너무 큰 되 고 빈 공간 또는 클리핑은 호스팅 UI에 비해.
+크기 조정 문제와 마찬가지로 UI 요소는 주 DPI 컨텍스트에서 해당 범위를 올바르게 계산 하지만 주 DPI로 이동 하는 경우 새 범위를 올바르게 계산 하지 않습니다. 이와 같이 콘텐츠 창이 너무 작거나 너무 커서 호스팅 UI에 비해 빈 공간이 나 클리핑이 발생 합니다.
 
-#### <a name="drag--drop"></a>끌어서 놓기
-때마다 끌어서 놓기, 혼합 모드 DPI 시나리오 (예: 다른 UI 요소 서로 다른 DPI 인식 모드의 렌더링) 내에서 좌표 수 수 빈번 하 게, 잘못 된 등록 최종 드롭 위치 끝에서 발생 합니다.
+#### <a name="drag--drop"></a>끌어 놓기 &
+혼합 모드 DPI 시나리오 (예: 다른 DPI 인식 모드에서 다양 한 UI 요소 렌더링)가 있을 때마다 끌어서 놓기 좌표는 miscalculated 될 수 있으며 결과적으로 최종 놓기 위치가 잘못 되었습니다.
 
-#### <a name="out-of-process-ui"></a>Out-of-process-UI
-일부 UI out-of-process-만들어지고 이전 렌더링 문제가 발생할 수 있습니다 만드는 외부 프로세스가 Visual Studio 보다 다른 DPI 인식 모드인 경우.
+#### <a name="out-of-process-ui"></a>Out-of-process UI
+일부 UI는 out-of-process로 생성 되 고, 만들기 외부 프로세스가 Visual Studio와 다른 DPI 인식 모드에 있으면 이전 렌더링 문제가 발생할 수 있습니다.
 
-#### <a name="windows-forms-controls-images-or-layouts-rendered-incorrectly"></a>Windows Forms 컨트롤, 이미지 또는 레이아웃 잘못 렌더링
-Windows Forms 콘텐츠의 일부만 PMA 모드를 지원 합니다. 결과적으로, 잘못 된 레이아웃 문제가 렌더링 또는 확장을 볼 수 있습니다. 가능한 솔루션을 명시적으로 콘텐츠를 렌더링 Windows Forms에서 "시스템 인식" DpiAwarenessContext이 예제의 경우 (가리킵니다 [특정 DpiAwarenessContext에 컨트롤을 강제로](#forcing-a-control-into-a-specific-dpiawarenesscontext)).
+#### <a name="windows-forms-controls-images-or-layouts-rendered-incorrectly"></a>잘못 렌더링 된 Windows Forms 컨트롤, 이미지 또는 레이아웃
+모든 Windows Forms 콘텐츠가 PMA 모드를 지원 하지는 않습니다. 따라서 잘못 된 레이아웃이 나 크기 조정으로 렌더링 문제가 발생할 수 있습니다. 이 경우 가능한 해결 방법은 "시스템 인식" DpiAwarenessContext Windows Forms 콘텐츠를 명시적으로 렌더링 하는 것입니다 ( [컨트롤을 특정 DpiAwarenessContext로 강제 적용](#force-a-control-into-a-specific-dpiawarenesscontext)참조).
 
-#### <a name="windows-forms-controls-or-windows-not-displaying"></a>Windows Forms 컨트롤 또는 windows 표시 되지 않음
-이 문제에 대 한 주요 원인 중 하나는 컨트롤 또는 다른 DpiAwarenessContext 사용 하 여 창에 하나의 DpiAwarenessContext 사용 하 여 창의 부모 재지정 하려는 개발자에 게입니다.
+#### <a name="windows-forms-controls-or-windows-not-displaying"></a>Windows Forms 컨트롤 또는 창 표시 안 함
+이 문제에 대 한 주요 원인 중 하나는 한 DpiAwarenessContext 있는 컨트롤이 나 창의 부모를 다른 DpiAwarenessContext가 있는 창으로 재지정 하는 것입니다.
 
-다음 그림에는 현재 표시 **기본** 창을 부모로 지정에서 Windows 운영 체제 제한 사항:
+다음 이미지는 windows를 부모로 하는 현재 **기본** windows 운영 체제 제한을 보여 줍니다.
 
-![올바른 부모/자식 관리 동작의 스크린샷](../../extensibility/ux-guidelines/media/PMA-parenting-behavior.PNG)
+![올바른 부모로 동작의 스크린샷](media/PMA-parenting-behavior.PNG)
 
 > [!Note]
-> 스레드 호스트 동작을 설정 하 여이 동작을 변경할 수 있습니다 (가리킵니다 [DpiHostinBehaviour](https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior)).
+> 스레드 호스팅 동작 ( [Dpi_Hosting_Behavior 열거형](/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior)참조)을 설정 하 여이 동작을 변경할 수 있습니다.
 
-결과적으로, 지원 되지 않는 모드 간의 부모-자식 관계를 설정 하는 경우, 실패 및 예상 대로 컨트롤이 나 창 렌더링 되지 않을 수 있습니다.
+따라서 지원 되지 않는 모드 간에 부모-자식 관계를 설정 하는 경우 실패 하 고 컨트롤이 나 창이 예상 대로 렌더링 되지 않을 수 있습니다.
 
-### <a name="diagnosing-issues"></a>문제 진단
-가지 PMA 관련 문제를 식별 하는 경우를 고려해 야 할 여러 요인이 있습니다. 
+### <a name="diagnose-issues"></a>문제 진단
 
-1. UI 또는 논리 예상 API 또는 장치 값입니다.
-    - WPF UI와 Api를 일반적으로 사용 하 여 논리 값 (항상 그렇지는 않지만)
-    - Win32 UI와 Api를 일반적으로 장치 값 사용
+PMA 관련 문제를 식별 하는 경우 고려해 야 할 여러 요인이 있습니다. 
 
-2. 값에서 생성 되는 위치
-    - 값을 다른 UI 또는 API에서 받은 전달 장치 또는 논리 값입니다.
-    - 여러 소스에서 값을 수신 하는 경우 모두 사용 하 여/예상 않는 동일한 형식의 값 또는 변환 필요가 혼합 및 일치 수 있습니까?
+- UI 또는 API가 논리적 또는 장치 값을 필요로 하나요?
+    - WPF UI 및 Api는 일반적으로 논리적 값을 사용 하지만 항상 그렇지는 않습니다.
+    - Win32 UI 및 Api는 일반적으로 장치 값을 사용 합니다.
 
-3. 사용 중인 UI 상수 및에 어떤 형식?
+- 값은 어디에 있나요?
+    - 다른 UI 또는 API에서 값을 받는 경우는 장치 또는 논리 값을 전달 하는 것입니다.
+    - 여러 소스에서 값을 받는 경우에는 모두 동일한 유형의 값을 사용/요구 하거나 변환을 혼합 하 고 일치 시켜야 하나요?
 
-4. 스레드는 값에 대 한 올바른 DPI 컨텍스트에서 발생?
-    - 그러나 혼합 DPI를 호스팅할 수 있도록 변경 내용을 적절 한 상황에서 일반적으로 코드 경로 입력 해야, 주 메시지 루프 또는 이벤트 흐름 외부에서 수행 하는 작업 잘못 된 DPI 컨텍스트에서 실행 될 수 있습니다.
+- UI 상수를 사용 하 고 있는 것은 무엇 인가요?
 
-5. 값은 DPI 컨텍스트 경계를 넘나들 수행?
-    - 끌어서 놓기 좌표 DPI 컨텍스트를 넘을 수 있는 일반적인 현상입니다. 창 오른쪽 작업을 수행 하려고 시도 하지만 경우에 따라 호스트 UI의 일치 하는 컨텍스트 경계 되도록 변환 작업을 수행 해야 할 수 있습니다.
+- 수신 하는 값에 대 한 올바른 DPI 컨텍스트의 스레드 입니까?
+
+  혼합 DPI 호스팅을 사용 하도록 변경 하는 경우 일반적으로 올바른 컨텍스트에 코드 경로를 넣어야 하지만 주 메시지 루프 외부에서 수행 된 작업이 나 이벤트 흐름이 잘못 된 DPI 컨텍스트에서 실행 될 수 있습니다.
+
+- DPI 컨텍스트 경계를 교차 하는 값이 있나요?
+
+  끌어서 & drop은 좌표가 DPI 컨텍스트를 교차 시킬 수 있는 일반적인 상황입니다. 창에서 올바른 작업을 시도 하지만 경우에 따라 호스트 UI에서 변환 작업을 수행 하 여 일치 하는 컨텍스트 경계를 확인 해야 할 수도 있습니다.
 
 ### <a name="pma-nuget-package"></a>PMA NuGet 패키지
-새 DpiAwarness 라이브러리에서 찾을 수 있습니다 합니다 [Microsoft.VisualStudio.DpiAwareness](https://www.nuget.org/packages/Microsoft.VisualStudio.DpiAwareness/) NuGet 패키지.
+새 DpiAwarness 라이브러리는 [VisualStudio](https://www.nuget.org/packages/Microsoft.VisualStudio.DpiAwareness/) NuGet 패키지에서 찾을 수 있습니다.
 
-### <a name="recommended-tools"></a>권장된 도구
-다음 도구는 Visual Studio에서 지 원하는 다른 UI 스택의 일부 PMA 관련 문제를 디버그 하는 데 도움이 됩니다.
+### <a name="recommended-tools"></a>권장 도구
+다음 도구를 통해 Visual Studio에서 지 원하는 여러 가지 UI 스택에서 PMA 관련 문제를 디버그할 수 있습니다.
 
 #### <a name="snoop"></a>스 눕
-Snoop는 XAML 디버깅 도구에 기본 제공 Visual Studio XAML 도구 없는 몇 가지 추가 기능입니다. 또한 Snoop 적극적으로 보기 및 해당 WPF UI를 조정 하는 일을 할 수 있는 Visual Studio 디버그 필요가 없습니다. 논리적 배치 좌표나 크기 범위 유효성 검사에 대 한 Snoop PMA 문제를 진단 하는 데 유용할 수 있습니다 하는 두 가지 주요 방법 이며 유효성 검사에 대 한 UI의 오른쪽 DPI입니다.
+스 눕는 기본 제공 Visual Studio XAML 도구에 없는 몇 가지 추가 기능을 포함 하는 XAML 디버깅 도구입니다. 또한 스 눕는 WPF UI를 보고 수정할 수 있도록 Visual Studio를 적극적으로 디버그할 필요가 없습니다. 스 눕 두 가지 주요 방법은 논리적 배치 좌표 또는 크기 범위를 확인 하 고 UI의 유효성을 검사 하는 데 적합 한 DPI를 확인 하는 데 유용할 수 있습니다.
  
 #### <a name="visual-studio-xaml-tools"></a>Visual Studio XAML 도구
-Snoop와 같은 Visual Studio에서 XAML 도구 도움이 PMA 문제를 진단 합니다. 가능성이 높은 원인 발견 되 면 중단점을 설정할 수 있으며 라이브 시각적 트리 창 뿐만 아니라 디버그 windows를 사용 하 여 UI 범위 및 현재 DPI를 검사할 수 있습니다.
+스 눕와 마찬가지로 Visual Studio의 XAML 도구를 통해 PMA 문제를 진단할 수 있습니다. 오류가 발견 되 면 중단점을 설정 하 고 라이브 시각적 트리 창 뿐만 아니라 디버그 창을 사용 하 여 UI 범위 및 현재 DPI를 검사할 수 있습니다.
 
 ## <a name="strategies-for-fixing-pma-issues"></a>PMA 문제를 해결 하기 위한 전략
-### <a name="replacing-dpihelper-calls"></a>대체 DpiHelper 호출
-대부분의 경우에서 PMA 모드에서 UI 문제를 해결 좁혀진 이전에 관리 코드에 대 한 호출을 바꾸는 *Microsoft.VisualStudio.Utilities.Dpi.DpiHelper* 고 *Microsoft.VisualStudio.PlatformUI.DpiHelper*클래스에 새 호출 *Microsoft.VisualStudio.Utilities.DpiAwareness* 도우미 클래스입니다. 
+
+### <a name="replace-dpihelper-calls"></a>DpiHelper 호출 바꾸기
+
+대부분의 경우 PMA 모드에서 UI 문제를 수정 하면 관리 코드의 호출을 구축으로 대체 하 여 새 *에 대 한 호출을 통해 관리 코드의 호출을 이전 VisualStudio. VisualStudio* 도우미 클래스입니다. 
 
 ```cs
 // Remove this kind of use:
@@ -167,7 +178,7 @@ Point deviceTopLeft = new Point(window.Left, window.Top).LogicalToDeviceUnits();
 Point deviceTopLeft = window.LogicalToDevicePoint(new Point(window.Left, window.Top));
 ```
 
-네이티브 코드에 대 한 것을 수반 이전에 대 한 대체 호출 *VsUI::CDpiHelper* 새 호출을 사용 하 여 클래스 *VsUI::CDpiAwareness* 클래스입니다. 
+네이티브 코드의 경우 이전 Vsui:: CDpiHelper 클래스에 대 한 호출을 새 *Vsui:: Cdpihelper* class에 대 한 호출로 바꾸는 것이 적절 합니다. 
 
 ```cpp
 // Remove this kind of use:
@@ -181,28 +192,26 @@ VsUI::CDpiAwareness::LogicalToDeviceUnitsX(m_hwnd, &cx);
 VsUI::CDpiAwareness::LogicalToDeviceUnitsY(m_hwnd, &cy);
 ```
 
-새로운 DpiAwareness 및 CDpiAwareness 클래스 제공 동일한 단위 변환 도우미 DpiHelper 클래스에는 있지만 추가 입력된 매개 변수가 필요 합니다: 변환 작업에 대 한 참조로 사용할 UI 요소입니다. 이미지 크기 조정 도우미는 새 DpiAwareness/CDpiAwareness 도우미에서 존재 하지 않도록 주의 해야 필요한 경우는 [ImageService](https://docs.microsoft.com/visualstudio/extensibility/image-service-and-catalog?view=vs-2019) 를 대신 사용 해야 합니다.
+새 DpiAwareness 및 CDpiAwareness 클래스는 Dpiawareness 클래스와 동일한 단위 변환 도우미를 제공 하지만 추가 입력 매개 변수 (변환 작업에 대 한 참조로 사용할 UI 요소)를 요구 합니다. 새 DpiAwareness/CDpiAwareness 도우미에는 이미지 크기 조정 도우미가 없으며 필요한 경우 [ImageService](../image-service-and-catalog.md) 를 대신 사용 해야 합니다.
 
-관리 되는 DpiAwareness 클래스는 네이티브 CDpiAwareness 클래스 제품 HWND 및 HMONITOR 도우미를 하는 동안 WPF 시각적 개체, Windows Forms 컨트롤 및 Win32 Hwnd HMONITORs (둘 다 IntPtrs의 형태로)에 대 한 도우미를 제공합니다.
+관리 되는 DpiAwareness class는 WPF 시각적 개체, Windows Forms 컨트롤 및 Win32 Hwnd 및 HMONITORs (둘 다 IntPtrs 형식)에 대 한 도우미를 제공 하지만, 네이티브 CDpiAwareness 클래스는 HWND 및 HMONITORS 도우미를 제공 합니다.
 
-### <a name="windows-forms-dialogs-windows-or-controls-displayed-in-the-wrong-dpiawarenesscontext"></a>Windows Forms 대화 상자, windows 또는 잘못 된 DpiAwarenessContext 표시 컨트롤
-다른 DpiAwarenessContexts (때문에 Windows 기본 동작)를 사용 하 여 windows의 성공적인 부모 지정 후에 여전히 나타날 크기 조정 문제 windows와 다른 DpiAwarenessContexts 규모로 다르게 합니다. 결과적으로, 사용자 맞춤/흐리게 표시 텍스트를 볼 수도 이미지 UI에 문제가 있습니다.
+### <a name="windows-forms-dialogs-windows-or-controls-displayed-in-the-wrong-dpiawarenesscontext"></a>잘못 된 DpiAwarenessContext에 표시 되는 대화 상자, 창 또는 컨트롤 Windows Forms
+Windows 기본 동작 때문에 다른 DpiAwarenessContexts를 사용 하 여 windows를 성공적으로 부모로 한 후에도 사용자는 다른 DpiAwarenessContexts 크기 조정을 사용 하는 windows로 크기 조정 문제를 계속 볼 수 있습니다. 따라서 사용자는 UI에서 맞춤/흐린 텍스트 또는 이미지 문제를 볼 수 있습니다.
 
-솔루션 응용 프로그램에서 모든 windows 및 컨트롤에 대 한 올바른 DpiAwarenessContext 범위를 설정 하는 것입니다.
+이 솔루션은 응용 프로그램의 모든 창 및 컨트롤에 대해 올바른 DpiAwarenessContext 범위를 설정 하는 것입니다.
 
-### <a name="top-level-mixed-mode-tlmm-dialogs"></a>최상위 혼합된 모드 (TLMM) 대화 상자
-모달 대화 상자와 같은 최상위 창을 만들면, 스레드 창 (및 해당 핸들) 하기 전에 올바른 상태에 만들어지고 있는지 반드시 합니다. 스레드가 네이티브에서 CDpiScope 도우미를 사용 하는 시스템 인식 하 여 모드로 전환할 수 있습니다 또는 DpiAwareness.EnterDpiScope 도우미를 관리 합니다. (TLMM 일반적으로 사용할 비 WPF 대화 상자/windows에서.)
+### <a name="top-level-mixed-mode-tlmm-dialogs"></a>TLMM (최상위 혼합 모드) 대화 상자
+모달 대화 상자와 같은 최상위 창을 만들 때 스레드가 창과 핸들을 생성 하기 전에 스레드가 올바른 상태에 있는지 확인 하는 것이 중요 합니다. 네이티브에서 Cdpis38helper를 사용 하 여 스레드를 시스템 인식으로 설정 하거나, 관리 되는에서 Cdpis38helper를 사용 하 여 스레드를 시스템 인식으로 전환할 수 있습니다. (일반적으로 TLMM은 비 WPF 대화 상자/창에서 사용 해야 합니다.)
 
-### <a name="child-level-mixed-mode-clmm"></a>자식 수준 혼합된 모드 (CLMM)
-기본적으로 자식 창을 현재 스레드 DPI 인식 컨텍스트 없이 부모를 생성 하는 경우 또는 부모와 함께 만들 때 부모의 DPI 인식 컨텍스트를 받습니다. 자식 보다 부모 다른 DPI 인식 컨텍스트와 만들려면 원하는 DPI 인식 컨텍스트로 스레드를 배치할 수 있습니다. 다음 자식 부모 없이 만든 고 부모 창에 수동으로 부모를 재지정할 수 있습니다.
+### <a name="child-level-mixed-mode-clmm"></a>자식 수준 혼합 모드 (CLMM)
+기본적으로 자식 창은 부모를 사용 하지 않고 만든 경우 현재 스레드 DPI 인식 컨텍스트를 수신 하거나 부모를 사용 하 여 만들 때 부모의 DPI 인식 컨텍스트를 수신 합니다. 부모와 다른 DPI 인식 컨텍스트를 사용 하 여 자식을 만들려면 원하는 DPI 인식 컨텍스트에 스레드를 추가할 수 있습니다. 그런 다음 부모를 사용 하지 않고 자식을 만들고 부모 창으로 수동으로 재지정 수 있습니다.
 
 #### <a name="clmm-issues"></a>CLMM 문제
-대부분의 기본 메시징 루프 또는 이벤트 체인의 일부로 발생 하는 UI 계산 작업은 적절 한 DPI 인식 상황에서 이미 실행 되어야 합니다. 그러나 경우 좌표 또는 크기 조정 계산 작업을 마쳤으면 이러한 기본 워크플로 외부 (예: 유휴 시간 작업을 하는 동안 또는 UI 스레드에서 다음 DPI 인식 컨텍스트에 올바르지 않을 UI misplacement을 선행 공백 또는 잘못 문제 크기 조정 합니다. Ui 스레드를 올바른 상태로 배치 작업 일반적으로 문제를 해결을 합니다.
+주 메시징 루프 또는 이벤트 체인의 일부로 발생 하는 대부분의 UI 계산 작업은 올바른 DPI 인식 컨텍스트에서 이미 실행 되 고 있어야 합니다. 그러나 이러한 주 워크플로 외부에서 좌표 또는 크기 조정 계산이 수행 된 경우 (예: 유휴 시간 작업 중 또는 UI 스레드 외부에서) 현재 DPI 인식 컨텍스트가 잘못 되어 UI 잘못 배치 또는 잘못 된 크기 조정 문제를 발생 시킬 수 있습니다. UI 작업에 대 한 올바른 상태에 스레드를 배치 하면 일반적으로 문제가 해결 됩니다.
  
-#### <a name="opting-out-of-clmm"></a>CLMM 옵트아웃
-비 WPF 도구 창을 완벽 하 게 지원 PMA 마이그레이션 중인 경우 CLMM 옵트아웃 해야 합니다. 이렇게 하려면 새 인터페이스를 구현 해야 합니다. IVsDpiAware 합니다.
-
-C#: 
+#### <a name="opt-out-of-clmm"></a>CLMM 옵트아웃 (Opt out)
+PMA를 완전히 지원 하기 위해 비 WPF 도구 창이 마이그레이션되는 경우에는 CLMM를 옵트아웃 해야 합니다. 이렇게 하려면 새 인터페이스를 구현 해야 합니다. IVsDpiAware.
 
 ```cs
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
@@ -212,8 +221,6 @@ public interface IVsDpiAeware
     uint Mode {get;}
 }
 ```
- 
-C++:
 
 ```cpp
 IVsDpiAware : public IUnknown
@@ -223,9 +230,9 @@ IVsDpiAware : public IUnknown
 };
 ```
 
-파생 되는 동일한 클래스에는이 인터페이스를 구현 하는 것이 좋습니다 관리 되는 언어에 대 한 *Microsoft.VisualStudio.Shell.ToolWindowPane*합니다. 에 대 한 C++를 구현 하는 동일한 클래스에는이 인터페이스를 구현 하는 것이 좋습니다 *IVsWindowPane* vsshell.h에서.
+관리 되는 언어의 경우이 인터페이스를 구현 하는 가장 좋은 방법은 VisualStudio에서 파생 되는 동일한 클래스에 있는 것입니다. *ToolWindowPane*. 의 C++경우이 인터페이스를 구현 하는 가장 좋은 방법은 vsshell. h에서 *IVsWindowPane* 을 구현 하는 동일한 클래스에 있는 것입니다.
 
-인터페이스에서 모드 속성에 의해 반환 되는 __VSDPIMODE (및 관리에서 uint로 캐스팅):
+인터페이스의 Mode 속성에서 반환 되는 값은 __VSDPIMODE (관리 되는의 uint로 캐스트)입니다.
 
 ```cs
 enum __VSDPIMODE
@@ -236,17 +243,16 @@ enum __VSDPIMODE
 }
 ```
 
-- 도구 창을 96DPI 처리 해야 하는 경우를 인식 하지 못하는 의미 Windows 모든 다른 Dpi에 대 한 크기 조정을 처리 합니다. 약간 흐리게 표시 되는 내용에 발생 합니다.
-- 도구 창을 주에 대 한 DPI를 처리 해야 하는 시스템 의미 DPI를 표시 합니다. 일치 하는 DPI 사용 하 여 모든 디스플레이 관하여 알게 보이지만 DPI 다릅니다 또는 세션 중에 변경 하는 경우 Windows에서 크기 조정을 처리 하는 하 고 약간 흐리게 표시 됩니다.
-- PerMonitor 모든 디스플레이에 모든 Dpi를 처리 해야 하는 도구 창 및 DPI가 변경 될 때마다 의미 합니다.
+- 인식 하지 못하는 것은 도구 창이 96 DPI를 처리 해야 함을 의미 하며, Windows는 다른 모든 DPIs 크기 조정을 처리 합니다. 콘텐츠가 약간 희미 합니다.
+- 시스템은 도구 창이 기본 디스플레이 DPI의 DPI를 처리 해야 함을 의미 합니다. DPI가 일치 하는 디스플레이는 선명 하 게 표시 되지만 DPI가 다르거나 세션 중에 변경 되는 경우 Windows는 크기 조정을 처리 하 고 약간 흐리게 표시 됩니다.
+- PerMonitor는 모든 DPI가 변경 될 때마다 도구 창에서 모든 DPIs를 처리 해야 함을 의미 합니다.
 
 > [!NOTE]
-> Visual Studio는 PerMonitor 열거형 값을 DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 Windows 값으로 변환 하므로 PerMonitorV2 인식을 지원 합니다.
+> Visual Studio는 PerMonitorV2 인식만 지원 하므로 PerMonitor 열거형 값은 DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2의 Windows 값으로 변환 됩니다.
 
-#### <a name="forcing-a-control-into-a-specific-dpiawarenesscontext"></a>특정 DpiAwarenessContext에 컨트롤을 강제 적용
-PMA 모드를 지원 하도록 업데이트 되지 않은 기존 UI PMA 모드로 Visual Studio가 실행 하는 동안 작업을 사소한 변경 해야 할 수 있습니다. 이러한 하나의 수정 오른쪽 DpiAwarenessContext에서 UI를 만들 수 있도록 해야 합니다. UI를 특정 DpiAwarenessContext에 강제 적용 하려면 다음 코드를 사용 하 여 DPI 범위를 입력할 수 있습니다.
+#### <a name="force-a-control-into-a-specific-dpiawarenesscontext"></a>특정 DpiAwarenessContext 컨트롤을 강제로 적용 합니다.
 
-C#: 
+PMA 모드를 지원 하도록 업데이트 되지 않은 레거시 UI에는 Visual Studio가 PMA 모드에서 실행 되는 동안 약간의 작업을 수행 해야 할 수 있습니다. 이러한 수정 사항 중 하나는 올바른 DpiAwarenessContext에서 UI를 만들고 있는지 확인 하는 것입니다. UI를 특정 DpiAwarenessContext 적용 하려면 다음 코드를 사용 하 여 DPI 범위를 입력할 수 있습니다.
 
 ```cs
 using (DpiAwareness.EnterDpiScope(DpiAwarenessContext.SystemAware))
@@ -255,8 +261,6 @@ using (DpiAwareness.EnterDpiScope(DpiAwarenessContext.SystemAware))
     form.ShowDialog();
 }
 ```
-
-C++:
 
 ```cpp
 void MyClass::ShowDialog()
@@ -267,13 +271,14 @@ void MyClass::ShowDialog()
 ```
 
 > [!NOTE]
-> 비 WPF UI 및 최상위 WPF 대화 상자 에서만 작동 합니다 DpiAwarenessContext 강제 적용 합니다. WPF UI를 만드는 콘텐츠는 WPF UI 트리에 삽입 되는 즉시 도구 창 또는 디자이너 내에 호스팅되어야 하 되 면 현재 프로세스 DpiAwarenessContext 변환 합니다.
+> DpiAwarenessContext는 비 WPF UI 및 최상위 WPF 대화 상자 에서만 작동 합니다. 도구 창 또는 디자이너 내에서 호스팅될 WPF UI를 만들 때 콘텐츠가 WPF UI 트리에 삽입 되는 즉시 현재 프로세스 DpiAwarenessContext 변환 됩니다.
 
 ## <a name="known-issues"></a>알려진 문제
+
 ### <a name="windows-forms"></a>Windows Forms
 
-을 최적화 하기 위해 새로운 혼합 모드 시나리오에 대 한 Windows Forms 만드는 방법을 변경 컨트롤 및 windows 때마다 해당 부모 명시적으로 설정 되지 않았습니다. 이전에 명시적 부모 없이 컨트롤을 내부 "파킹 창을 사용" 임시 부모 컨트롤 또는 생성 되는 창으로 합니다. 
+새 혼합 모드 시나리오에 맞게 최적화 하기 위해 해당 부모를 명시적으로 설정 하지 않을 때마다 컨트롤과 창을 만드는 방법을 변경 Windows Forms. 이전에는 명시적 부모가 없는 컨트롤은 생성 되는 컨트롤이 나 창에 대 한 임시 부모로 내부 "파킹 창"을 사용 했습니다. 
 
-.NET 4.8 하기 전에 단일 "파킹 창"에서 현재 스레드 DPI 인식 컨텍스트 창의 생성 시 해당 DpiAwarenessContext 속하는 있었습니다. 컨트롤의 핸들이 생성 되 고 응용 프로그램 개발자가 최종/예상 부모 레코드가 경우 부모가 아닌된 컨트롤 파킹 창으로 동일한 DpiAwarenessContext를 상속 합니다. 그러면 타이밍 기반 오류 "파킹 창" 최종 부모 창 보다 더 높은 DpiAwarenessContext 경우.
+.NET 4.8 이전에는 창의 만든 시간에 현재 스레드 DPI 인식 컨텍스트에서 DpiAwarenessContext를 가져오는 단일 "파킹 창"이 있었습니다. Unparented 컨트롤은 컨트롤의 핸들이 생성 될 때 파킹 창과 동일한 DpiAwarenessContext를 상속 하며 응용 프로그램 개발자가 최종/예상 부모에 재지정 합니다. 이렇게 하면 "파킹 기간"이 최종 부모 창 보다 더 높은 DpiAwarenessContext 때 타이밍 기반 오류가 발생 합니다.
 
-.NET 4.8을 기준으로 "파킹"에 대 한 창을 발생 되는 모든 DpiAwarenessContext 이제 됩니다. 다른 주요 차이점은 컨트롤에 사용 되는 DpiAwarenessContext 만들어지면 컨트롤의 핸들을 만들 때가 아니라 캐시 되는 합니다. 즉, 전체 최종 동작을 동일 하지만 일관성 문제가 타이밍 기반 문제일 수를 설정할 수 있습니다. 또한 응용 프로그램 개발자 자세한 결정적 동작 UI 코드를 작성 하 고 올바르게 범위를 지정 합니다.
+.NET 4.8 현재 발생 한 모든 DpiAwarenessContext에 대해 "파킹 창"이 있습니다. 그 밖의 주요 차이점은 컨트롤을 만들 때 컨트롤에 사용 되는 DpiAwarenessContext는 핸들이 생성 될 때가 아니라 캐시 된다는 것입니다. 즉, 전반적인 end 동작은 동일 하지만, 타이밍 기반 문제에 사용 되는 항목을 일관 된 문제로 전환할 수 있습니다. 또한 응용 프로그램 개발자가 UI 코드를 작성 하 고 올바르게 범위를 지정 하는 더 결정적 동작을 제공 합니다.
