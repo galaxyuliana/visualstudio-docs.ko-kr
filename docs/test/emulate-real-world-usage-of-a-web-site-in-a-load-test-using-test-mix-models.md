@@ -9,12 +9,12 @@ ms.assetid: b7fae849-0538-40d1-ab35-2bb3a0fe4393
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 1c946fa81c46af38daac469e0de7a00abafb3394
-ms.sourcegitcommit: 50f0c3f2763a05de8482b3579026d9c76c0e226c
+ms.openlocfilehash: 167dc55e5df18033a9bf16e8aa66e37db9fc6fea
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "65461579"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918348"
 ---
 # <a name="test-mix-models-overview"></a>테스트 조합 모델 개요
 
@@ -52,7 +52,7 @@ ms.locfileid: "65461579"
 이 설정을 사용할 경우 다음에 시작할 테스트는 할당된 백분율을 기반으로 합니다. 이때 각 테스트를 현재 실행하고 있는 가상 사용자의 수는 고려하지 않습니다.
 
 ### <a name="PercentageBasedonVirtualUsers"></a> 가상 사용자 기반 백분율
- 이 테스트 조합 모델은 특정 테스트를 실행할 가상 사용자의 백분율을 결정합니다. 이 테스트 조합 모델을 사용할 경우 다음에 시작할 테스트는 할당된 백분율뿐만 아니라 특정 테스트를 현재 실행하고 있는 가상 사용자의 백분율도 기반으로 합니다. 부하 테스트의 모든 지점에서 특정 테스트를 실행하고 있는 사용자 수는 할당된 몫과 가능한 한 가깝게 일치합니다.
+이 테스트 조합 모델은 특정 테스트를 실행할 가상 사용자의 백분율을 결정합니다. 이 테스트 조합 모델을 사용할 경우 다음에 시작할 테스트는 할당된 백분율뿐만 아니라 특정 테스트를 현재 실행하고 있는 가상 사용자의 백분율도 기반으로 합니다. 부하 테스트의 모든 지점에서 특정 테스트를 실행하고 있는 사용자 수는 할당된 몫과 가능한 한 가깝게 일치합니다.
 
 ### <a name="PacingTestMix"></a> 테스트 조합 속도 지정
 
@@ -69,7 +69,7 @@ ms.locfileid: "65461579"
 **테스트 반복 간 인지 시간** 설정은 테스트 조합 속도를 지정하여 사용할 때는 적용되지 않습니다.
 
 #### <a name="apply-distribution-to-pacing-delay"></a>속도 지연에 분포 적용
- 부하 테스트 시나리오의 **속도 지연에 분포 적용** 속성 값은 true 또는 false로 설정할 수 있습니다.
+부하 테스트 시나리오의 **속도 지연에 분포 적용** 속성 값은 true 또는 false로 설정할 수 있습니다.
 
 - **True**: 이 시나리오에서는 **테스트 조합 편집** 대화 상자에서 **시간 및 사용자별 테스트** 열의 값으로 지정된 일반적인 통계 분포 지연을 적용합니다. 자세한 내용은 [텍스트 조합 모델을 편집하여 가상 사용자가 테스트를 실행할 확률 지정](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md)을 참조하세요.
 
@@ -82,13 +82,13 @@ ms.locfileid: "65461579"
   자세한 내용은 [방법: 사용자 속도 테스트 조합 모델을 사용할 때 속도 지연에 분포 적용](../test/how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model.md)을 참조하세요.
 
 ### <a name="SequentialOrder"></a> 정렬된 순서
- 순차적 테스트 순서를 기준으로 하는 선택 옵션을 사용하면 각 가상 사용자가 테스트의 정의 순서에 따라 시나리오의 모든 테스트를 실행하도록 할 수 있습니다.
+순차적 테스트 순서를 기준으로 하는 선택 옵션을 사용하면 각 가상 사용자가 테스트의 정의 순서에 따라 시나리오의 모든 테스트를 실행하도록 할 수 있습니다.
 
 ## <a name="test-iterations-property"></a>테스트 반복 속성
- 실행 설정 속성에서는 테스트 반복 속성의 값을 지정할 수 있습니다. 이 값은 부하 테스트에서 실행할 테스트 반복 횟수입니다. 지정된 횟수만큼 테스트 반복을 시작한 후에는 부하 프로필의 설정에 관계없이 테스트 반복이 더 이상 시작되지 않습니다. 지정된 횟수의 테스트 반복을 완료하고 나면 부하 테스트가 종료됩니다. 자세한 내용은 [방법: 실행 설정에서 테스트 반복 횟수 지정](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md)을 참조하세요.
+실행 설정 속성에서는 테스트 반복 속성의 값을 지정할 수 있습니다. 이 값은 부하 테스트에서 실행할 테스트 반복 횟수입니다. 지정된 횟수만큼 테스트 반복을 시작한 후에는 부하 프로필의 설정에 관계없이 테스트 반복이 더 이상 시작되지 않습니다. 지정된 횟수의 테스트 반복을 완료하고 나면 부하 테스트가 종료됩니다. 자세한 내용은 [방법: 실행 설정에서 테스트 반복 횟수 지정](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md)을 참조하세요.
 
 ## <a name="initialize-and-terminate-tests"></a>초기화 및 종료 테스트
- 각 가상 사용자의 부하 테스트 세션이 시작하거나 끝날 때 테스트가 실행되도록 선택할 수 있습니다. 자세한 내용은 [텍스트 조합 모델을 편집하여 가상 사용자가 테스트를 실행할 확률 지정](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md)을 참조하세요.
+각 가상 사용자의 부하 테스트 세션이 시작하거나 끝날 때 테스트가 실행되도록 선택할 수 있습니다. 자세한 내용은 [텍스트 조합 모델을 편집하여 가상 사용자가 테스트를 실행할 확률 지정](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md)을 참조하세요.
 
 - **초기화 테스트**. 이 테스트는 테스트 조합에 포함된 테스트가 실행되기 전에 각 가상 사용자에 의해 실행됩니다.
 

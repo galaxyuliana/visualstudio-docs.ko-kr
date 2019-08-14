@@ -11,12 +11,12 @@ ms.assetid: 63f4bd42-3cfb-4eee-af68-e8334976539e
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 54f9c7b982f1774c79d7cd1e7c0affa29dfbb65d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: a03096e92f2a5da98da2d1850f505c65eb5b6e27
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62823432"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918616"
 ---
 # <a name="analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer"></a>부하 테스트 분석기의 세부 정보 뷰에서 부하 테스트 가상 사용자 동작 분석
 
@@ -31,19 +31,19 @@ ms.locfileid: "62823432"
 > [!NOTE]
 > **가상 사용자 동작 정보 차트**를 사용할 부하 테스트를 실행하려면 먼저 부하 성능 테스트 편집기를 사용하여 **타이밍 정보 스토리지** 속성이 **AllIndividualDetails** 옵션으로 설정되어 있는지 확인해야 합니다.
 
- **정보 범례 패널**
+**정보 범례 패널**
 
- ![정보 범례 패널](../test/media/ltest_detailslegend.png)
+![정보 범례 패널](../test/media/ltest_detailslegend.png)
 
- 정보 범례 패널은 **가상 사용자 동작 차트**에 표시됩니다. 정보 범례 패널을 사용하면 다양한 여러 조건을 기준으로 테스트, 페이지 및 트랜잭션을 필터링할 수 있습니다. 예를 들어 특정 테스트를 뷰에서 제거하거나, 모든 성공한 테스트를 제거하거나, 특정 오류로 실패한 테스트를 제거할 수 있습니다. 또한 로그가 없는 모든 테스트를 제거할 수 있습니다.
+정보 범례 패널은 **가상 사용자 동작 차트**에 표시됩니다. 정보 범례 패널을 사용하면 다양한 여러 조건을 기준으로 테스트, 페이지 및 트랜잭션을 필터링할 수 있습니다. 예를 들어 특정 테스트를 뷰에서 제거하거나, 모든 성공한 테스트를 제거하거나, 특정 오류로 실패한 테스트를 제거할 수 있습니다. 또한 로그가 없는 모든 테스트를 제거할 수 있습니다.
 
- 실패한 테스트를 강조 표시할 수 있습니다. 이 경우 실패한 테스트는 모두 빨간색으로 표시됩니다. 또한 테스트 로그가 있는 테스트를 강조 표시할 수 있습니다. 로그가 있는 테스트는 녹색으로 표시됩니다.
+실패한 테스트를 강조 표시할 수 있습니다. 이 경우 실패한 테스트는 모두 빨간색으로 표시됩니다. 또한 테스트 로그가 있는 테스트를 강조 표시할 수 있습니다. 로그가 있는 테스트는 녹색으로 표시됩니다.
 
- **필터 결과 패널**
+**필터 결과 패널**
 
- ![필터 결과 패널](../test/media/ltest_filterresults.png)
+![필터 결과 패널](../test/media/ltest_filterresults.png)
 
- 필터 결과 패널은 **가상 사용자 동작 차트**에 표시됩니다. 필터 결과 패널에서는 다음과 같이 항목을 필터링할 수 있습니다.
+필터 결과 패널은 **가상 사용자 동작 차트**에 표시됩니다. 필터 결과 패널에서는 다음과 같이 항목을 필터링할 수 있습니다.
 
 - **로그 포함 결과만 표시** 테스트 로그가 연결되어 있는 테스트 결과만 표시합니다.
 

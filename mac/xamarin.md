@@ -1,16 +1,16 @@
 ---
-title: Mac용 Visual Studio의 Xamarin
+title: Xamarin
 description: 'Mac용 Visual Studio의 Xamarin을 사용하면 iOS, Mac, Android, tvOS 및 watchOS를 대상으로 하는 플랫폼 간 애플리케이션을 만들 수 있습니다. '
 author: therealjohn
 ms.author: johmil
 ms.date: 06/18/2019
 ms.assetid: 339F6051-5F90-48DC-8237-EBBC8A03A32B
-ms.openlocfilehash: e6cc642125f3b1466dd38d9ba3778c4f287cec63
-ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
+ms.openlocfilehash: 4eec080655c0f47823810dfd689fe49a6f7e43eb
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "67692094"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68872346"
 ---
 # <a name="xamarin-mobile-app-development"></a>Xamarin 모바일 앱 개발
 
@@ -55,6 +55,6 @@ Xamarin Inspector는 사용자 도구가 포함된 대화형 C# 콘솔을 제공
 
 ![Xamarin Inspector](media/intro-inspector.png)
 
-Xamarin Inspector는 다양한 프로그래밍 플랫폼(Android, iOS, Mac 및 Windows)을 대상으로 하고 IDE의 디버깅 워크플로에 통합할 수 있는 고급 C# 콘솔을 제공하는 독립 실행형 애플리케이션으로 구성됩니다. 
+Xamarin Inspector는 다양한 프로그래밍 플랫폼(Android, iOS, Mac 및 Windows)을 대상으로 하고 IDE의 디버깅 워크플로에 통합할 수 있는 고급 C# 콘솔을 제공하는 독립 실행형 애플리케이션으로 구성됩니다.
 
 자세한 내용은 [Xamarin Inspector](/xamarin/tools/inspector/) 가이드를 참조하세요.

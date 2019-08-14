@@ -1,5 +1,5 @@
 ---
-title: Mac용 Visual Studio에서 여러 시작 프로젝트 설정
+title: 여러 시작 프로젝트 설정
 description: 이 문서에서는 실행 또는 디버그를 시작할 여러 프로젝트를 설정하는 방법을 설명합니다.
 author: sayedihashimi
 ms.author: sayedha
@@ -7,12 +7,12 @@ ms.date: 02/21/2019
 ms.topic: conceptual
 ms.prod: visual-studio-mac
 ms.assetid: fd354fff-ce6b-4505-a815-84a2311e39ba
-ms.openlocfilehash: c692cf8907fcd232b7ba442cea351664bc8dd407
-ms.sourcegitcommit: 9753c7544cec852ca5efd0834e0956d9e53a5734
+ms.openlocfilehash: 55519960a6b84968ced43183833167a365e91b35
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67043604"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68872319"
 ---
 # <a name="set-multiple-startup-projects"></a>여러 시작 프로젝트 설정
 

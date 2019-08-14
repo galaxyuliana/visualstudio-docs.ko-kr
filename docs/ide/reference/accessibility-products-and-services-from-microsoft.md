@@ -19,12 +19,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 81245640c8c73b77dc563c28f1d3d20168203029
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ec9b86958f2e3b3e768b321db17e707dced1d78b
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62793086"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926266"
 ---
 # <a name="accessibility-products-and-services-from-microsoft"></a>Microsoft의 내게 필요한 옵션 제품 및 서비스
 
@@ -46,19 +46,19 @@ Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽�
 
 ## <a name="windows"></a> Windows의 접근성 기능
 
- Windows 운영 체제에는 키보드 입력 또는 마우스를 사용하는 데 어려움이 있거나 시력 또는 청각 장애가 있는 사용자에게 유용한 여러 접근성 기능이 기본 제공됩니다. 해당 기능은 설치 중에 설치됩니다. 이러한 기능에 대한 자세한 내용은 Windows 도움말 및 [Microsoft 접근성](http://go.microsoft.com/fwlink/?LinkId=8431) 웹 사이트를 참조하세요.
+Windows 운영 체제에는 키보드 입력 또는 마우스를 사용하는 데 어려움이 있거나 시력 또는 청각 장애가 있는 사용자에게 유용한 여러 접근성 기능이 기본 제공됩니다. 해당 기능은 설치 중에 설치됩니다. 이러한 기능에 대한 자세한 내용은 Windows 도움말 및 [Microsoft 접근성](http://go.microsoft.com/fwlink/?LinkId=8431) 웹 사이트를 참조하세요.
 
 ### <a name="free-step-by-step-tutorials"></a>무료 단계별 자습서
 
- Microsoft는 컴퓨터에서 접근성 옵션 및 설정을 조정하기 위한 자세한 절차를 설명하는 일련의 단계별 자습서를 제공합니다. 이 정보는 마우스, 키보드 또는 둘 다를 사용하는 방법을 배울 수 있도록 단계별-형식으로 제공됩니다.
+Microsoft는 컴퓨터에서 접근성 옵션 및 설정을 조정하기 위한 자세한 절차를 설명하는 일련의 단계별 자습서를 제공합니다. 이 정보는 마우스, 키보드 또는 둘 다를 사용하는 방법을 배울 수 있도록 단계별-형식으로 제공됩니다.
 
- Microsoft 제품의 단계별 자습서를 보려면 [Microsoft 접근성](http://go.microsoft.com/fwlink/?LinkId=8431) 웹 사이트를 참조하세요.
+Microsoft 제품의 단계별 자습서를 보려면 [Microsoft 접근성](http://go.microsoft.com/fwlink/?LinkId=8431) 웹 사이트를 참조하세요.
 
 ### <a name="assistive-technology-products-for-windows"></a>Windows용 보조 기술 제품
 
- 장애가 있는 사용자가 컴퓨터를 사용하기 쉽도록 다양한 보조 기술 제품이 제공됩니다. Windows에서 실행되는 보조 기술 제품의 카탈로그는 [Microsoft 접근성](http://go.microsoft.com/fwlink/?LinkId=8431) 웹 사이트에서 검색할 수 있습니다.
+장애가 있는 사용자가 컴퓨터를 사용하기 쉽도록 다양한 보조 기술 제품이 제공됩니다. Windows에서 실행되는 보조 기술 제품의 카탈로그는 [Microsoft 접근성](http://go.microsoft.com/fwlink/?LinkId=8431) 웹 사이트에서 검색할 수 있습니다.
 
- 보조 기술을 사용하는 경우 소프트웨어 또는 하드웨어를 업그레이드하기 전에 보조 기술 공급업체에 문의하여 가능한 호환성 문제를 확인해야 합니다.
+보조 기술을 사용하는 경우 소프트웨어 또는 하드웨어를 업그레이드하기 전에 보조 기술 공급업체에 문의하여 가능한 호환성 문제를 확인해야 합니다.
 
 ## <a name="altfortmats"></a> 대체 형식의 설명서
 

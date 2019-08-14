@@ -19,12 +19,12 @@ ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 99f5f8e389e3dfe91252149fb4c3d3c1e59f38b0
-ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
+ms.openlocfilehash: e6fdf3fa790a29f94a5bf3b40bc0d2ada703bc5b
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415611"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925769"
 ---
 # <a name="how-to-create-and-edit-configurations"></a>방법: 구성 만들기 및 편집
 
@@ -44,7 +44,7 @@ ms.locfileid: "68415611"
 
 **구성 관리자** 대화 상자에서 **활성 솔루션 구성** 드롭다운 목록을 사용하여 솔루션 수준 빌드 구성을 선택하거나, 기존 구성을 수정하거나, 새 구성을 만들 수 있습니다. **활성 솔루션 플랫폼** 드롭다운 목록을 사용하여 구성의 대상으로 지정할 플랫폼을 선택하거나, 기존 플랫폼을 수정하거나, 새 플랫폼을 추가할 수 있습니다. **프로젝트 컨텍스트** 창에는 솔루션에 포함된 프로젝트가 나열됩니다. 각 프로젝트에 대해 프로젝트별 구성과 플랫폼을 선택하거나, 기존 구성과 플랫폼을 수정하거나, 새 구성 또는 플랫폼을 추가할 수 있습니다. 솔루션 수준 구성을 사용하여 솔루션을 빌드하거나 배포할 때 각 프로젝트를 포함할지 여부를 나타내는 확인란을 선택할 수도 있습니다.
 
- 원하는 구성을 설정한 후 해당 구성에 해당하는 프로젝트 속성을 설정할 수 있습니다.
+원하는 구성을 설정한 후 해당 구성에 해당하는 프로젝트 속성을 설정할 수 있습니다.
 
 ### <a name="set-properties-based-on-configurations"></a>구성에 따라 속성 설정
 

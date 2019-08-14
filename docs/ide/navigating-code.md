@@ -18,12 +18,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 792b3ccf09faf9983afcd72de9acc0f23540683d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1263b7a0ae65731eb618ffc925ff0f6310be0f4d
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62570156"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919510"
 ---
 # <a name="navigate-code"></a>코드 탐색
 
@@ -31,7 +31,7 @@ Visual Studio는 편집기에서 코드를 탐색하는 다양한 방법을 제�
 
 ## <a name="navigate-backward-and-navigate-forward-commands"></a>뒤로 탐색 및 앞으로 탐색 명령
 
-도구 모음에서 **뒤로 탐색**(**Ctrl**+**-**) 및 **앞으로 탐색**(**Ctrl**+**Shift**+**-**) 버튼을 사용하여 삽입 지점을 이전 위치로 이동하거나 이전 위치에서 최근 위치로 돌아갈 수 있습니다. 이들 단추는 삽입 지점의 마지막 20개 위치를 유지합니다. 이러한 명령은 **보기** 메뉴 아래의 **뒤로 탐색** 및 **앞으로 탐색**에서 사용할 수 있습니다.
+도구 모음에서 **뒤로 탐색**(**Ctrl**+ **-** ) 및 **앞으로 탐색**(**Ctrl**+**Shift**+ **-** ) 버튼을 사용하여 삽입 지점을 이전 위치로 이동하거나 이전 위치에서 최근 위치로 돌아갈 수 있습니다. 이들 단추는 삽입 지점의 마지막 20개 위치를 유지합니다. 이러한 명령은 **보기** 메뉴 아래의 **뒤로 탐색** 및 **앞으로 탐색**에서 사용할 수 있습니다.
 
 ![앞으로 및 뒤로 탐색 단추](../ide/media/vs2017_nav_buttons.png)
 
@@ -39,7 +39,7 @@ Visual Studio는 편집기에서 코드를 탐색하는 다양한 방법을 제�
 
 **탐색 모음**(코드 창의 맨 위에 있는 드롭다운 상자)을 사용하여 코드베이스에서 코드를 탐색할 수 있습니다. 바로 이동하려면 형식 또는 멤버를 선택합니다. 탐색 모음은 Visual Basic, C# 또는 C++ 코드베이스에서 코드를 편집할 때 나타납니다. 부분 클래스에서 현재 코드 파일 외부에 정의된 멤버는 사용 중지될 수 있습니다(회색으로 표시됨).
 
- ![코드 탐색 모음](../ide/media/vside_navigation_bar.png)
+![코드 탐색 모음](../ide/media/vside_navigation_bar.png)
 
 다음과 같이 드롭다운 상자에서 탐색할 수 있습니다.
 
@@ -78,7 +78,7 @@ Visual Studio는 편집기에서 코드를 탐색하는 다양한 방법을 제�
 
 - **줄 이동**(**Ctrl**+**G**): 현재 문서에서 지정된 줄 번호로 이동합니다.
 
-- **전체로 이동**(**Ctrl**+**T** 또는 **Ctrl**+**,**): 지정된 줄, 형식, 파일, 멤버 또는 기호로 이동합니다.
+- **전체로 이동**(**Ctrl**+**T** 또는 **Ctrl**+ **,** ): 지정된 줄, 형식, 파일, 멤버 또는 기호로 이동합니다.
 
 - **파일로 이동**(**Ctrl**+**1**, **Ctrl**+**F**): 솔루션에 지정된 파일로 이동합니다.
 

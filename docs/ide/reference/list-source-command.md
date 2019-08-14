@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8dcecdaa206964e6c8a5aebcadc958fe2c1ee1e5
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f162590fafaa263e9cc4233744e5f2ba39c8ce6f
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62946858"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926180"
 ---
 # <a name="list-source-command"></a>소스 목록 표시 명령
 소스 코드의 지정된 줄을 표시합니다.
@@ -32,28 +32,28 @@ Debug.ListSource [/Count:number] [/Current] [/File:filename]
 ```
 
 ## <a name="switches"></a>스위치
- /Count:`number`
+/Count:`number`
 
- 선택 사항입니다. 표시할 줄 수를 지정합니다.
+선택 사항입니다. 표시할 줄 수를 지정합니다.
 
- /Current
+/Current
 
- 선택 사항입니다. 현재 줄을 표시합니다.
+선택 사항입니다. 현재 줄을 표시합니다.
 
- /File:`filename`
+/File:`filename`
 
- 선택 사항입니다. 표시할 파일의 경로입니다. 파일 이름이 지정되지 않은 경우 이 명령은 현재 문의 줄에 대한 소스 코드를 표시합니다.
+선택 사항입니다. 표시할 파일의 경로입니다. 파일 이름이 지정되지 않은 경우 이 명령은 현재 문의 줄에 대한 소스 코드를 표시합니다.
 
- /Line:`number`
+/Line:`number`
 
- 선택 사항입니다. 특정 줄 번호를 표시합니다.
+선택 사항입니다. 특정 줄 번호를 표시합니다.
 
- /ShowLineNumbers:`yes|no`
+/ShowLineNumbers:`yes|no`
 
- 선택 사항입니다. 줄 번호를 표시할지 여부를 지정합니다.
+선택 사항입니다. 줄 번호를 표시할지 여부를 지정합니다.
 
-## <a name="example"></a>예제
- 이 예제에서는 줄 번호를 표시하여 Form1.vb 파일의 줄 4 소스 코드를 나열합니다.
+## <a name="example"></a>예
+이 예제에서는 줄 번호를 표시하여 Form1.vb 파일의 줄 4 소스 코드를 나열합니다.
 
 ```
 Debug.ListSource /File:"C:\Visual Studio Projects\Form1.vb" /Line:4 /ShowLineNumbers:yes

@@ -7,12 +7,12 @@ ms.author: mblome
 manager: markl
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 605ad454d00387d9a9094a518b4afed279fcc190
-ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
+ms.openlocfilehash: b8d52114e742d5a8176166744a4edc2975f674a3
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68461583"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925852"
 ---
 # <a name="configure-a-c-project-for-intellisense"></a>IntelliSense에 대한 C++ 프로젝트 구성
 
@@ -38,7 +38,7 @@ Visual Studio IDE 외부에서 빌드를 실행하고, 빌드에 성공하지만
 
 ![VC++ 포함 디렉터리](media/vcpp-intellisense-include-paths.png)
 
- **VC_IncludePath**와 같은 빌드 매크로의 현재 값을 보려면 포함 디렉터리 줄을 선택하고 오른쪽에 있는 드롭다운을 클릭합니다. **\<편집>** 을 선택하고 **매크로** 단추를 클릭합니다.
+**VC_IncludePath**와 같은 빌드 매크로의 현재 값을 보려면 포함 디렉터리 줄을 선택하고 오른쪽에 있는 드롭다운을 클릭합니다. **\<편집>** 을 선택하고 **매크로** 단추를 클릭합니다.
 
 ### <a name="makefile-projects"></a>메이크파일 프로젝트
 
@@ -79,18 +79,18 @@ IntelliSense 컴파일러가 포함 경로 및 전처리기 매크로를 포함�
 출력 창에는 이제 IntelliSense 컴파일러에 전달되는 명령줄이 표시됩니다. 다음은 샘플 출력입니다.
 
 ```output
- [IntelliSense] Configuration Name: Debug|Win32
- [IntelliSense] Toolset IntelliSense Identifier:
- [IntelliSense] command line options:
- /c
- /I.
- /IC:\Repo\Includes
- /DWIN32
- /DDEBUG
- /D_DEBUG
- /Zc:wchar_t-
- /Zc:forScope
- /Yustdafx.h
+[IntelliSense] Configuration Name: Debug|Win32
+[IntelliSense] Toolset IntelliSense Identifier:
+[IntelliSense] command line options:
+/c
+/I.
+/IC:\Repo\Includes
+/DWIN32
+/DDEBUG
+/D_DEBUG
+/Zc:wchar_t-
+/Zc:forScope
+/Yustdafx.h
 ```
 
 이 정보는 IntelliSense에서 부정확한 정보를 제공하는 이유를 이해하는 데 도움이 될 수 있습니다. 예를 들어 프로젝트의 포함 디렉터리에 **$(MyVariable)\Include**가 들어 있고 진단 로그에 **/I\Include**가 포함 경로로 표시되는 경우 **$(MyVariable)** 이 평가되지 않았으며 최종 포함 경로에서 제거되었음을 의미합니다.
@@ -110,10 +110,10 @@ IntelliSense 빌드에서는 이진 파일을 생성하지 않지만 여전히 �
 오류 메시지에서 디자인 타임 추적을 사용하도록 지시할 수 있습니다.
 
 ```output
- error: Designtime build failed for project 'E:\src\MyProject\MyProject.vcxproj',
- configuration 'Debug|x64'. IntelliSense might be unavailable.
- Set environment variable TRACEDESIGNTIME=true and restart
- Visual Studio to investigate.
+error: Designtime build failed for project 'E:\src\MyProject\MyProject.vcxproj',
+configuration 'Debug|x64'. IntelliSense might be unavailable.
+Set environment variable TRACEDESIGNTIME=true and restart
+Visual Studio to investigate.
 ```
 
 환경 변수 TRACEDESIGNTIME을 true로 설정하고 Visual Studio를 다시 시작하면 빌드 실패 진단에 도움이 되는 로그 파일이 %TEMP% 디렉터리에 표시됩니다.

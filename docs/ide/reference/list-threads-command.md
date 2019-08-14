@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 44c66eab323f42ba3aa5392fed657e3afd3a6e5c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2b3ad3b30329d574145ce7de839a3e6c164df2d5
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62946832"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919089"
 ---
 # <a name="list-threads-command"></a>스레드 목록 표시 명령
 현재 프로그램의 스레드 목록을 표시합니다.
@@ -31,14 +31,14 @@ Debug.ListThreads [index]
 ```
 
 ## <a name="arguments"></a>인수
- `index`
+`index`
 
- 선택 사항입니다. 해당 인덱스별로 현재 스레드가 될 스레드를 선택합니다.
+선택 사항입니다. 해당 인덱스별로 현재 스레드가 될 스레드를 선택합니다.
 
-## <a name="remarks"></a>주의
- 지정하는 경우 `index` 인수는 현재 스레드로 지정된 스레드를 표시합니다. 별표(*)는 현재 스레드 옆에 있는 목록에 표시됩니다.
+## <a name="remarks"></a>설명
+지정하는 경우 `index` 인수는 현재 스레드로 지정된 스레드를 표시합니다. 별표(*)는 현재 스레드 옆에 있는 목록에 표시됩니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ```
 >Debug.ListThreads

@@ -15,12 +15,12 @@ ms.assetid: 4a919cd8-541c-40ee-be3b-352fabc56140
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 31bf74aba289e98e76fdd5b9a35d486d207bcc05
-ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
+ms.openlocfilehash: 8a0c9ca6f195640e3c356e9288300255570b196c
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66432024"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926462"
 ---
 # <a name="analyze-load-test-results-in-the-graphs-view-of-the-load-test-analyzer"></a>부하 테스트 분석기의 그래프 뷰에서 부하 테스트 결과 분석
 
@@ -47,20 +47,20 @@ ms.locfileid: "66432024"
 |컨트롤러 및 에이전트|부하 테스트가 실행된 컴퓨터에 대한 정보입니다. 여기에는 메모리 사용량, 프로세서, 실제 디스크, 프로세스에 대한 데이터가 포함됩니다.<br /><br /> 기본적으로는 Available Mbytes 및 Processor Time 카운터만 수집됩니다.|
 |트랜잭션 응답 시간|부하 테스트 동안 발생한 트랜잭션의 평균 응답 시간입니다.|
 
- 테스트를 실행한 이후와 런타임 모두에서 그래프에 서로 다른 카운터를 표시할 수 있습니다.
+테스트를 실행한 이후와 런타임 모두에서 그래프에 서로 다른 카운터를 표시할 수 있습니다.
 
 > [!NOTE]
 > 자동으로 생성된 응답 시간 그래프에는 응답 시간 성능 카운터만 추가할 수 있습니다.
 
- 카운터 정보는 그래프와 그래프 아래의 범례 모두에 표시됩니다. 그래프의 한 섹션을 확대할 수도 있습니다. 자세한 내용은 [방법: 그래프의 영역으로 확대](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md)를 참조하세요.
+카운터 정보는 그래프와 그래프 아래의 범례 모두에 표시됩니다. 그래프의 한 섹션을 확대할 수도 있습니다. 자세한 내용은 [방법: 그래프의 영역으로 확대](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md)를 참조하세요.
 
 ## <a name="counters-displayed-in-graphs"></a>그래프에 표시되는 카운터
 
- 그래프에는 *카운터*가 표시됩니다. 카운터는 초당 테스트 횟수 또는 평균 테스트 시간과 같이 부하 테스트 동안 수집된 데이터를 나타냅니다. 카운터에 대한 자세한 내용은 [부하 테스트에서 컴퓨터에 대한 카운터 집합 및 임계값 규칙 지정](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)을 참조하세요.
+그래프에는 *카운터*가 표시됩니다. 카운터는 초당 테스트 횟수 또는 평균 테스트 시간과 같이 부하 테스트 동안 수집된 데이터를 나타냅니다. 카운터에 대한 자세한 내용은 [부하 테스트에서 컴퓨터에 대한 카운터 집합 및 임계값 규칙 지정](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)을 참조하세요.
 
- 그래프에 표시되는 카운터의 범례에는 부하 테스트 실행에 대한 몇 개의 유용한 데이터 열이 표시됩니다. 그래프에서 데이터 표시를 해제하려면 범례의 행에 있는 확인란의 선택을 취소합니다.
+그래프에 표시되는 카운터의 범례에는 부하 테스트 실행에 대한 몇 개의 유용한 데이터 열이 표시됩니다. 그래프에서 데이터 표시를 해제하려면 범례의 행에 있는 확인란의 선택을 취소합니다.
 
- 범례에는 다음과 같은 열이 있습니다.
+범례에는 다음과 같은 열이 있습니다.
 
 |카운터|카운터의 이름입니다.|
 |-|-|
@@ -87,11 +87,11 @@ ms.locfileid: "66432024"
 
 ## <a name="related-tasks"></a>관련 작업
 
- [테이블 뷰에서 부하 테스트 결과 및 오류 분석](../test/analyze-load-test-results-and-errors-in-the-tables-view.md)
+[테이블 뷰에서 부하 테스트 결과 및 오류 분석](../test/analyze-load-test-results-and-errors-in-the-tables-view.md)
 
- [방법: 분석을 위한 부하 테스트 결과 액세스](../test/how-to-access-load-test-results-for-analysis.md)
+[방법: 분석을 위한 부하 테스트 결과 액세스](../test/how-to-access-load-test-results-for-analysis.md)
 
- [부하 테스트 결과 분석](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
+[부하 테스트 결과 분석](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
 
 ## <a name="see-also"></a>참고 항목
 

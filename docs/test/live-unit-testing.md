@@ -9,12 +9,12 @@ author: rpetrusha
 ms.author: ronpet
 ms.workload:
 - dotnet
-ms.openlocfilehash: 2cbde88ee12118f9f59271f897e81ec18c24eb4e
-ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
+ms.openlocfilehash: bfe1affaad05d2c20a27fb0e315fc1d3b263f22b
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68662054"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68923746"
 ---
 # <a name="live-unit-testing-with-visual-studio"></a>Visual Studio를 사용한 Live Unit Testing
 
@@ -151,7 +151,7 @@ Live Unit Testing이 테스트 결과를 자동으로 실행하고 업데이트�
 
 솔루션에 10개 이상의 프로젝트가 있고 Live Unit Testing을 시작할 때 지속형 데이터가 없는 경우 또는 최상위 Visual Studio 메뉴에서 **테스트** > **Live Unit Testing** > **정리 다시 설정** 옵션을 선택하는 경우 Visual Studio에는 다음과 같은 대화 상자가 표시되어 대규모 프로젝트의 많은 테스트를 동적으로 실행 시 상당한 성능 저하가 발생할 수 있음을 경고합니다. **확인**을 선택하면 Live Unit Testing에서 솔루션의 모든 테스트를 실행합니다. **취소**를 선택하면 실행할 테스트를 선택할 수 있습니다. 이 작업을 수행하는 방법은 다음 [테스트 프로젝트 및 테스트 메서드 포함 및 제외](#include-and-exclude-test-projects-and-test-methods) 섹션을 참조하세요.
 
- ![대규모 프로젝트에 대한 Live Unit Testing 대화 상자](media/lut-large-project.png)
+![대규모 프로젝트에 대한 Live Unit Testing 대화 상자](media/lut-large-project.png)
 
 ## <a name="include-and-exclude-test-projects-and-test-methods"></a>테스트 프로젝트 및 테스트 메서드 포함 및 제외
 

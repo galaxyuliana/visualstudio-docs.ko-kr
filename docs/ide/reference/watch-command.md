@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a6965378151bb44db1024ac4e9a49de618f410dc
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 0ac779dc902a331a45b600113a11db5364293f74
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62789002"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925945"
 ---
 # <a name="watch-command"></a>조사식 명령
 **조사식** 창의 지정된 인스턴스를 만들고 엽니다. **조사식** 창을 사용하여 변수, 식 및 레지스터의 값을 계산하고, 이러한 값을 편집하고, 결과를 저장할 수 있습니다.
@@ -30,14 +30,15 @@ Debug.Watch[index]
 ```
 
 ## <a name="arguments"></a>인수
- `index`
 
- 필수 요소. 조사식 창의 인스턴스 번호입니다.
+`index`\
+필수 요소. 조사식 창의 인스턴스 번호입니다.
 
-## <a name="remarks"></a>주의
- `index`는 정수여야 합니다. 유효한 값은 1, 2, 3 또는 4입니다.
+## <a name="remarks"></a>설명
 
-## <a name="example"></a>예제
+`index`는 정수여야 합니다. 유효한 값은 1, 2, 3 또는 4입니다.
+
+## <a name="example"></a>예
 
 ```cmd
 >Debug.Watch1

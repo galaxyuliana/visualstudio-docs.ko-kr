@@ -12,19 +12,19 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 330f52e1dd72f56c61e2fd77f5150edf4ac30731
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f7f599b4448fe39bf8c0d82d030f5f1173f28699
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62791977"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919324"
 ---
 # <a name="advanced-settings-for-services-dialog-box"></a>서비스의 고급 설정 대화 상자
 클라이언트 애플리케이션 서비스를 통해 Windows Forms 및 WPF(Windows Presentation Foundation) 애플리케이션에서 [!INCLUDE[ajax_current_short](../../ide/reference/includes/ajax_current_short_md.md)] 로그인, 역할 및 프로필 서비스에 간편하게 액세스할 수 있습니다. **프로젝트 디자이너**에서 **서비스** 페이지를 사용하여 클라이언트 애플리케이션 서비스를 구성할 수 있습니다. **서비스** 페이지에 대한 자세한 내용은 [프로젝트 디자이너, 서비스 페이지](../../ide/reference/services-page-project-designer.md)를 참조하세요.
 
- **프로젝트 디자이너**에서 **서비스** 페이지의 **서비스의 고급 설정** 대화 상자를 사용하여 클라이언트 애플리케이션 서비스에 대한 고급 설정을 구성합니다. 이러한 설정을 사용하여 일부 기본 애플리케이션 서비스 동작을 재정의하면 덜 일반적인 시나리오를 구현할 수 있습니다. 자세한 내용은 [클라이언트 애플리케이션 서비스](/dotnet/framework/common-client-technologies/client-application-services)를 참조하세요.
+**프로젝트 디자이너**에서 **서비스** 페이지의 **서비스의 고급 설정** 대화 상자를 사용하여 클라이언트 애플리케이션 서비스에 대한 고급 설정을 구성합니다. 이러한 설정을 사용하여 일부 기본 애플리케이션 서비스 동작을 재정의하면 덜 일반적인 시나리오를 구현할 수 있습니다. 자세한 내용은 [클라이언트 애플리케이션 서비스](/dotnet/framework/common-client-technologies/client-application-services)를 참조하세요.
 
- **서비스의 고급 설정** 대화 상자에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드를 선택하고 **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너**가 나타나면 **서비스** 탭을 클릭하고 **고급** 단추를 클릭합니다. 클라이언트 애플리케이션 서비스를 사용하도록 설정할 때까지 이 단추를 사용할 수 없습니다.
+**서비스의 고급 설정** 대화 상자에 액세스하려면 **솔루션 탐색기**에서 프로젝트 노드를 선택하고 **프로젝트** 메뉴에서 **속성**을 클릭합니다. **프로젝트 디자이너**가 나타나면 **서비스** 탭을 클릭하고 **고급** 단추를 클릭합니다. 클라이언트 애플리케이션 서비스를 사용하도록 설정할 때까지 이 단추를 사용할 수 없습니다.
 
 ## <a name="task-list"></a>작업 목록
 
@@ -38,7 +38,7 @@ ms.locfileid: "62791977"
 
  **역할 서비스 캐시 제한 시간** 클라이언트 역할 공급자가 역할 서비스에 액세스하는 대신 캐시된 역할 값을 사용할 기간을 지정합니다. 이 시간 간격은 역할 업데이트 빈도가 높으면 작은 값으로 설정하고 빈도가 낮으면 큰 값으로 설정합니다. 기본값은 1일입니다.
 
- <xref:System.Web.Security.RolePrincipal.IsInRole%2A> 메서드를 호출하면 역할 공급자가 캐시된 역할 값 또는 역할 서비스에 액세스합니다. 프로그래밍 방식으로 캐시를 지우고 이 메서드가 원격 서비스에 액세스하도록 강제 지정하려면 <xref:System.Web.ClientServices.Providers.ClientRoleProvider.ResetCache%2A> 메서드를 호출합니다.
+<xref:System.Web.Security.RolePrincipal.IsInRole%2A> 메서드를 호출하면 역할 공급자가 캐시된 역할 값 또는 역할 서비스에 액세스합니다. 프로그래밍 방식으로 캐시를 지우고 이 메서드가 원격 서비스에 액세스하도록 강제 지정하려면 <xref:System.Web.ClientServices.Providers.ClientRoleProvider.ResetCache%2A> 메서드를 호출합니다.
 
  **사용자 지정 연결 문자열 사용** 클라이언트 서비스 공급자가 로컬 캐시에 대해 사용자 지정 데이터 저장소를 사용할지 여부를 지정합니다. 기본적으로 서비스 공급자는 캐시에 대해 로컬 파일 시스템을 사용합니다. 이 옵션을 선택하면 입력란이 기본 연결 문자열로 자동으로 채워집니다. 기본 연결 문자열을 유지하여 SQL Server Compact Edition 데이터베이스를 자동으로 생성 및 사용하거나, 기존 SQL Server 데이터베이스에 대한 연결 문자열을 지정할 수 있습니다. 자세한 내용은 [방법: 클라이언트 애플리케이션 서비스 구성](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services) 기본적으로 이 옵션은 선택 취소되어 있습니다.
 

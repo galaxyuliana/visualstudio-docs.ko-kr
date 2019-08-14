@@ -12,12 +12,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5c80c768e153ae9469fe43785480bbe6bb1edeaa
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c3ed24dce0779b9bc7ea9cfd7bedcaa5ca181c68
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62777465"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926315"
 ---
 # <a name="blocking-time-profile-report"></a>차단 시간 프로필 보고서
 프로필 보고서에서는 "I/O" 또는 "동기화" 등의 각 차단 범주와 관련된 호출 스택에 대한 집계 차단 시간 데이터를 제공합니다. 선점 보고서에는 선점 인스턴스 수와 함께 현재 프로세스를 선점한 프로세스가 나열됩니다. 차단 프로필 보고서를 빌드하기 위해 이 도구는 차단 API 호출을 수집하고 이를 호출 스택 트리에 누적합니다. 이 보고서에 표시되는 데이터는 현재 시간 범위, 숨겨진 스레드 및 적용할 수 있는 다음 두 개의 필터에 따라 달라집니다.

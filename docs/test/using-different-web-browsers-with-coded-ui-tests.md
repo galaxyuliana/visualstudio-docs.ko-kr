@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 2e397d587032bb6a8c125d38c10000e6a496c2d2
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 1b7cad6d52dc3fabc182881b99163cf15e1a260c
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62973021"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926575"
 ---
 # <a name="use-different-web-browsers-with-coded-ui-tests"></a>코딩된 UI 테스트에 다른 웹 브라우저 사용
 
@@ -43,11 +43,11 @@ ms.locfileid: "62973021"
 > [!NOTE]
 > Google Chrome 또는 Mozilla Firefox 브라우저로는 코딩된 UI 테스트를 기록할 수 없습니다.
 
- **Internet Explorer로 재생:** 브라우저를 명시적으로 지정하지 않은 경우 기본적으로 Internet Explorer에서 테스트가 실행됩니다. 테스트 코드에서 **BrowserWindow.CurrentBrowser** 속성을 설정하여 사용할 브라우저를 명시적으로 설정할 수 있습니다. Internet Explorer의 경우 이 속성을 **IE** 또는 **Internet Explorer**로 설정해야 합니다.
+**Internet Explorer로 재생:** 브라우저를 명시적으로 지정하지 않은 경우 기본적으로 Internet Explorer에서 테스트가 실행됩니다. 테스트 코드에서 **BrowserWindow.CurrentBrowser** 속성을 설정하여 사용할 브라우저를 명시적으로 설정할 수 있습니다. Internet Explorer의 경우 이 속성을 **IE** 또는 **Internet Explorer**로 설정해야 합니다.
 
- **Internet Explorer 이외의 웹 브라우저:** Internet Explorer 이외의 브라우저에서 재생하려면 테스트 코드에서 BrowserWindow.CurrentBrowser 속성을 **Firefox** 또는 **Chrome**으로 설정합니다.
+**Internet Explorer 이외의 웹 브라우저:** Internet Explorer 이외의 브라우저에서 재생하려면 테스트 코드에서 BrowserWindow.CurrentBrowser 속성을 **Firefox** 또는 **Chrome**으로 설정합니다.
 
- IE가 아닌 웹 브라우저에서 테스트를 재생하려면 **코딩된 UI 다중 브라우저용 Selenium 구성 요소**를 설치해야 합니다.
+IE가 아닌 웹 브라우저에서 테스트를 재생하려면 **코딩된 UI 다중 브라우저용 Selenium 구성 요소**를 설치해야 합니다.
 
 ### <a name="install-selenium-components"></a>Selenium 구성 요소 설치
 
@@ -120,15 +120,15 @@ ms.locfileid: "62973021"
 
 ## <a name="video-resources"></a>비디오 리소스
 
- [IE에서 기록하고 어디에서나 재생](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!183&authkey=!ANqaLtCZbtJrImU)
+[IE에서 기록하고 어디에서나 재생](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!183&authkey=!ANqaLtCZbtJrImU)
 
- [코딩된 UI 테스트 빌더를 사용하여 브라우저 간 테스트 작성](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!184&authkey=!AKG8CSow_qmeTq8)
+[코딩된 UI 테스트 빌더를 사용하여 브라우저 간 테스트 작성](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!184&authkey=!AKG8CSow_qmeTq8)
 
- [UI 맵 없이 일반 수작업 코딩으로 다중 브라우저 테스트 작성](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!186&authkey=!AJaEvxJnsefyAT4)
+[UI 맵 없이 일반 수작업 코딩으로 다중 브라우저 테스트 작성](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!186&authkey=!AJaEvxJnsefyAT4)
 
- [여러 브라우저에서 다중 브라우저 테스트 순차 실행](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!187&authkey=!ADI8eCQkxHnpOR8)
+[여러 브라우저에서 다중 브라우저 테스트 순차 실행](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!187&authkey=!ADI8eCQkxHnpOR8)
 
- [다중 브라우저 테스트 오류 문제 해결](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)
+[다중 브라우저 테스트 오류 문제 해결](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)
 
 ## <a name="see-also"></a>참고 항목
 

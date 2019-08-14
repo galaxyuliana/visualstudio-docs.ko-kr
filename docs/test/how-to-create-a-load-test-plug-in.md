@@ -12,19 +12,19 @@ ms.assetid: 27806972-1b15-4388-833d-6d0632816f1f
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 71686e160fd808b2df3d399b50206bed2a6869e3
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2f8bd3aeab7606e33818bce1324ded83fc333eb9
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62979268"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918119"
 ---
 # <a name="how-to-create-a-load-test-plug-in"></a>방법: 부하 테스트 플러그 인 만들기
 
 부하 테스트 플러그 인을 만들어 부하 테스트가 실행되는 동안 코드를 여러 시점에서 실행할 수 있습니다. 플러그 인을 만들어 부하 테스트의 기본 제공 기능을 확장하거나 수정합니다. 예를 들어 부하 테스트 플러그 인을 코딩하여 부하 테스트가 실행되는 동안 부하 테스트 패턴을 설정하거나 수정할 수 있습니다. 그러기 위해서는 <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin> 인터페이스를 상속하는 클래스를 만들어야 합니다. 이 클래스는 이 인터페이스의 <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin.Initialize*> 메서드를 구현해야 합니다. 자세한 내용은 <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin>을 참조하세요.
 
 > [!TIP]
-> 웹 성능 테스트 플러그 인도 만들 수 있습니다. 자세한 내용은 [방법: 웹 성능 테스트 플러그 인 만들기](../test/how-to-create-a-web-performance-test-plug-in.md)
+> 웹 성능 테스트 플러그 인도 만들 수 있습니다. 자세한 내용은 [방법: 웹 성능 테스트 플러그 인 만들기](../test/how-to-create-a-web-performance-test-plug-in.md)를 참조하세요.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
@@ -89,7 +89,7 @@ ms.locfileid: "62979268"
     > 1. 웹 성능 및 부하 테스트 프로젝트에서는 참조에 경고가 표시됩니다. 참조를 제거했다가 플러그 인 DLL에 다시 추가합니다.
     > 2. 테스트 또는 적절한 위치에서 플러그 인을 제거했다가 다시 추가합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 코드에서는 LoadTestFinished 이벤트가 발생한 후 사용자 지정 코드를 실행하는 부하 테스트 플러그 인을 보여 줍니다. 이 코드가 원격 컴퓨터의 테스트 에이전트에서 실행되는 경우 테스트 에이전트에 localhost SMTP 서비스가 없으면 메시지 상자가 열려 있으므로 부하 테스트가 "진행 중" 상태로 유지됩니다.
 
