@@ -14,12 +14,12 @@ dev_langs:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: a6f1c524b879d5d5476491a8979d86449f3d43c0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 49691b2031d1d935871a73833924e9dc4aa46dcd
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63002494"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918402"
 ---
 # <a name="generate-and-run-a-coded-web-performance-test"></a>코딩된 웹 성능 테스트 생성 및 실행
 
@@ -85,16 +85,16 @@ ms.locfileid: "63002494"
 ## <a name="qa"></a>Q&A
 
 ### <a name="q-can-i-run-more-than-one-test-at-a-time"></a>Q: 두 개 이상의 테스트를 동시에 실행할 수 있습니까?
- **A:** 예. **솔루션 탐색기**에서 오른쪽 클릭(상황에 맞는) 메뉴를 사용합니다.
+**A:** 예. **솔루션 탐색기**에서 오른쪽 클릭(상황에 맞는) 메뉴를 사용합니다.
 
 ### <a name="q-should-i-add-a-data-source-before-or-after-i-generate-a-coded-test"></a>Q: 코딩된 테스트를 생성하기 전이나 후에 데이터 소스를 추가해야 합니까?
- **A:** 코드는 자동으로 생성되므로 코딩된 테스트를 생성하기 전에 [데이터 원본](../test/add-a-data-source-to-a-web-performance-test.md)으로 쉽게 추가할 수 있습니다.
+**A:** 코드는 자동으로 생성되므로 코딩된 테스트를 생성하기 전에 [데이터 원본](../test/add-a-data-source-to-a-web-performance-test.md)으로 쉽게 추가할 수 있습니다.
 
- 데이터 소스로 코딩된 테스트를 실행하면 다음과 같은 오류 메시지가 표시될 수 있습니다.
+데이터 소스로 코딩된 테스트를 실행하면 다음과 같은 오류 메시지가 표시될 수 있습니다.
 
- **테스트를 실행할 수 없음 \<테스트 이름> 에이전트에서 \<컴퓨터 이름>: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.**
+**테스트를 실행할 수 없음 \<테스트 이름> 에이전트에서 \<컴퓨터 이름>: 개체 참조가 개체의 인스턴스로 설정되지 않았습니다.**
 
- 이 오류는 해당하는 DataBindingAttribute 없이 테스트 클래스에 DataSourceAttribute를 정의한 경우에 발생할 수 있습니다. 이 오류를 해결하려면 적절한 DataBindingAttribute를 추가하고, 이를 삭제하거나 코드에서 주석 처리합니다.
+이 오류는 해당하는 DataBindingAttribute 없이 테스트 클래스에 DataSourceAttribute를 정의한 경우에 발생할 수 있습니다. 이 오류를 해결하려면 적절한 DataBindingAttribute를 추가하고, 이를 삭제하거나 코드에서 주석 처리합니다.
 
 ### <a name="q-should-i-add-validation-and-extraction-rules-before-or-after-i-generate-a-coded-test"></a>Q: 코딩된 테스트를 생성하기 전이나 후에 유효성 검사 및 추출 규칙을 추가해야 합니까?
- **A:** 코딩된 테스트를 생성하기 전에 유효성 검사 규칙과 추출 규칙을 추가하기 쉽지만 유효성 검사에는 [코딩된 UI 테스트](../test/use-ui-automation-to-test-your-code.md)를 사용하는 것이 좋습니다.
+**A:** 코딩된 테스트를 생성하기 전에 유효성 검사 규칙과 추출 규칙을 추가하기 쉽지만 유효성 검사에는 [코딩된 UI 테스트](../test/use-ui-automation-to-test-your-code.md)를 사용하는 것이 좋습니다.

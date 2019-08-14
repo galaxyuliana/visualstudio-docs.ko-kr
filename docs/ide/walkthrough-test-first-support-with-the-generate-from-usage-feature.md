@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 186713daa3d4c913926779f79ffc61ff488578d5
-ms.sourcegitcommit: 117ece52507e86c957a5fd4f28d48a0057e1f581
+ms.openlocfilehash: 039c022cc5a8883e5687630f5243d8652ff036e7
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "66262846"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925841"
 ---
 # <a name="walkthrough-test-first-development-with-the-generate-from-usage-feature"></a>연습: 관례에서 생성 기능을 통한 테스트 우선 개발
 
@@ -26,9 +26,9 @@ ms.locfileid: "66262846"
 
  *테스트 우선 개발* 은 먼저 제품 사양에 따라 단위 테스트를 작성한 다음 테스트에 성공하는 데 필요한 소스 코드를 작성하는 소프트웨어 디자인 방식입니다. Visual Studio는 정의하기 전에 테스트 사례에서 처음 참조할 때 소스 코드에서 새 형식과 멤버를 생성하여 테스트 우선 개발을 지원합니다.
 
- Visual Studio는 워크플로를 중단을 최소화하면서 새 형식과 멤버를 생성합니다. 코드에서 현재 위치를 벗어나지 않고 형식, 메서드, 속성, 필드 또는 생성자에 대한 스텁을 만들 수 있습니다. 형식 생성 옵션을 지정할 수 있는 대화 상자를 여는 경우 대화 상자를 닫으면 포커스가 즉시 현재 열린 파일로 돌아갑니다.
+Visual Studio는 워크플로를 중단을 최소화하면서 새 형식과 멤버를 생성합니다. 코드에서 현재 위치를 벗어나지 않고 형식, 메서드, 속성, 필드 또는 생성자에 대한 스텁을 만들 수 있습니다. 형식 생성 옵션을 지정할 수 있는 대화 상자를 여는 경우 대화 상자를 닫으면 포커스가 즉시 현재 열린 파일로 돌아갑니다.
 
- Visual Studio와 통합된 테스트 프레임워크와 함께 **관례에서 생성** 기능을 사용할 수 있습니다. 이 항목에서는 Microsoft 단위 테스트 프레임워크를 보여 줍니다.
+Visual Studio와 통합된 테스트 프레임워크와 함께 **관례에서 생성** 기능을 사용할 수 있습니다. 이 항목에서는 Microsoft 단위 테스트 프레임워크를 보여 줍니다.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 

@@ -13,18 +13,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 420a65fb8b91495c5fbba228e190b5589019c99f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 72492b984e7f47b87ea326fe8ebcce414ee978ec
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62576976"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926051"
 ---
 # <a name="toolbox-html-tab"></a>도구 상자, HTML 탭
 
 도구 상자의 **HTML** 탭에서는 웹 페이지와 Web Forms에서 유용한 구성 요소를 제공합니다. 이 탭을 보려면 먼저 HTML 디자이너에서 편집할 문서를 엽니다. **보기** 메뉴에서 **도구 상자**를 클릭하고 도구 상자의 **HTML** 탭을 클릭합니다.
 
- **HTML** 탭에서 도구 인스턴스를 만들려면 도구를 두 번 클릭하여 현재 삽입 지점에 있는 문서에 추가하거나 도구를 선택하고 편집 화면의 원하는 위치로 끌어다 놓습니다.
+**HTML** 탭에서 도구 인스턴스를 만들려면 도구를 두 번 클릭하여 현재 삽입 지점에 있는 문서에 추가하거나 도구를 선택하고 편집 화면의 원하는 위치로 끌어다 놓습니다.
 
 ## <a name="ui-elements"></a>UI 요소
 

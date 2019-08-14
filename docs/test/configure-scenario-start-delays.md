@@ -8,12 +8,12 @@ ms.assetid: 2f634fba-8dfa-4c7a-a8b9-be867b78d16a
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e053ee01d60d1ce3dcae10e044bb642e11f90dd7
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 83e3086aa8181156a9d35a906a9d3a7e60575cd2
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62963795"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918451"
 ---
 # <a name="configure-scenario-start-delays-in-load-tests"></a>부하 테스트에서 시나리오 시작 시간 지연 구성
 
@@ -32,9 +32,9 @@ ms.locfileid: "62963795"
 > [!NOTE]
 > 부하 테스트 시나리오 속성과 해당 설명의 전체 목록을 보려면 [부하 테스트 시나리오 속성](../test/load-test-scenario-properties.md)을 참조하세요.
 
- **지연 시작 시간** 속성을 사용해야 하는 예로는 다른 시나리오가 사용하는 항목을 만들기 시작하는 시나리오가 필요한 경우를 들 수 있습니다. 항목을 사용하는 시나리오를 지연하여 항목을 만드는 시나리오에 일부 데이터를 만들 시간을 부여할 수 있습니다.
+**지연 시작 시간** 속성을 사용해야 하는 예로는 다른 시나리오가 사용하는 항목을 만들기 시작하는 시나리오가 필요한 경우를 들 수 있습니다. 항목을 사용하는 시나리오를 지연하여 항목을 만드는 시나리오에 일부 데이터를 만들 시간을 부여할 수 있습니다.
 
- 또 다른 예로는 특정 시각에만 실행될 시나리오가 있는 경우를 들 수 있습니다. 시나리오 시작을 지연하여 특정 시간에 시작되도록 만들 수 있습니다.
+또 다른 예로는 특정 시각에만 실행될 시나리오가 있는 경우를 들 수 있습니다. 시나리오 시작을 지연하여 특정 시간에 시작되도록 만들 수 있습니다.
 
 > [!NOTE]
 > 실행 설정 속성의 전체 목록과 해당 설명을 보려면 [부하 테스트 시나리오 속성](../test/load-test-scenario-properties.md)을 참조하세요.
@@ -62,7 +62,7 @@ ms.locfileid: "62963795"
 
 **준비 시간 동안 사용 안 함** 속성은 **속성** 창을 사용하여 설정할 수 있습니다. 부하 테스트 시나리오 속성은 부하 테스트 편집기에서 편집하여 설정할 수 있습니다.
 
- **준비 시간 동안 사용 안 함** 속성은 **지연 시작 시간** 속성에 지정한 준비 기간 동안 시나리오를 실행해야 하는지 여부를 나타내는 데 사용됩니다. 자세한 내용은 이전 절차인 [시나리오의 지연 시작 시간 지정](#specify-the-delay-start-time-of-a-scenario)을 검토하세요.
+**준비 시간 동안 사용 안 함** 속성은 **지연 시작 시간** 속성에 지정한 준비 기간 동안 시나리오를 실행해야 하는지 여부를 나타내는 데 사용됩니다. 자세한 내용은 이전 절차인 [시나리오의 지연 시작 시간 지정](#specify-the-delay-start-time-of-a-scenario)을 검토하세요.
 
 > [!NOTE]
 > 실행 설정 속성의 전체 목록과 해당 설명을 보려면 [부하 테스트 시나리오 속성](../test/load-test-scenario-properties.md)을 참조하세요.

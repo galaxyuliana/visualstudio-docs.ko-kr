@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: dc94f3486a4a290dbcdff40303f58b8b42f3f9d9
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 7aef839027639770e60292210aaddf998c97fce0
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67825861"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926550"
 ---
 # <a name="troubleshoot-code-coverage"></a>코드 검사 문제 해결
 
@@ -29,7 +29,7 @@ Visual Studio의 코드 검사 분석 도구는 네이티브 및 관리되는 �
 ## <a name="possible-reasons-for-seeing-no-results-or-old-results"></a>결과가 없거나 오래된 결과가 표시되는 이유
 
 ### <a name="do-you-have-the-right-edition-of-visual-studio"></a>Visual Studio가 올바른 버전입니까?
- Visual Studio Enterprise가 필요합니다.
+Visual Studio Enterprise가 필요합니다.
 
 ### <a name="no-tests-were-executed"></a>테스트를 실행하지 않은 경우
 

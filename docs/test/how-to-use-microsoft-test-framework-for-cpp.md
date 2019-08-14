@@ -7,12 +7,12 @@ manager: markl
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: bcd75724e5124c280d5c3e54bfe870041c432790
-ms.sourcegitcommit: ab06cde69d862440b4277bcd9bf02e7b50593a1b
+ms.openlocfilehash: fd5780479da10da43c270bbf4ffc5a215cb86ad6
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67132123"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926685"
 ---
 # <a name="use-the-microsoft-unit-testing-framework-for-c-in-visual-studio"></a>Visual Studio에서 Microsoft Unit Testing Framework for C++ 사용
 
@@ -69,7 +69,7 @@ DLL에서 내보내지 않은 함수 테스트 등, 일부 경우에는 테스�
 #define TEST_MY_TRAIT(traitValue) TEST_METHOD_ATTRIBUTE(L"MyTrait", traitValue)
 ```
 
- 단위 테스트에서 정의된 특성(trait)을 사용하려면 다음과 같습니다.
+단위 테스트에서 정의된 특성(trait)을 사용하려면 다음과 같습니다.
 
 ```cpp
 BEGIN_TEST_METHOD_ATTRIBUTE(Method1)

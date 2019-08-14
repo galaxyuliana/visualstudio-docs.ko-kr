@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 94598cd14b25fa598cdfde4e3033bb2877bcbe40
-ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
+ms.openlocfilehash: e35641371ebac33c7a89426290927b6045bc4e3e
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66836110"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68924070"
 ---
 # <a name="code-snippets-schema-reference"></a>코드 조각 스키마 참조
 
@@ -40,7 +40,7 @@ IntelliSense 코드 조각은 Visual Studio에서 애플리케이션에 삽입�
 | - |-----------------|
 |[Reference 요소](../ide/code-snippets-schema-reference.md#reference-element)|코드 조각에서 필요로 하는 어셈블리 참조에 대한 정보가 포함되어 있습니다.|
 
- 텍스트 값은 필수입니다. 이 텍스트는 코드 조각이 참조하는 어셈블리를 지정합니다.
+텍스트 값은 필수입니다. 이 텍스트는 코드 조각이 참조하는 어셈블리를 지정합니다.
 
 ## <a name="author-element"></a>Author 요소
 
@@ -56,7 +56,7 @@ IntelliSense 코드 조각은 Visual Studio에서 애플리케이션에 삽입�
 | - |-----------------|
 |[Header 요소](../ide/code-snippets-schema-reference.md#header-element)|코드 조각에 대한 일반 정보가 포함되어 있습니다.|
 
- 텍스트 값은 필수입니다. 이 텍스트는 코드 조각의 작성자를 지정합니다.
+텍스트 값은 필수입니다. 이 텍스트는 코드 조각의 작성자를 지정합니다.
 
 ## <a name="code-element"></a>Code 요소
 
@@ -212,7 +212,7 @@ IntelliSense 코드 조각의 리터럴 또는 개체에 대한 기본값을 지
 |[Literal 요소](../ide/code-snippets-schema-reference.md#literal-element)|편집할 수 있는 코드 조각의 리터럴 필드를 정의합니다.|
 |[Object 요소](../ide/code-snippets-schema-reference.md#object-element)|편집할 수 있는 코드 조각의 개체 필드를 정의합니다.|
 
- 텍스트 값은 필수입니다. 이 텍스트는 편집할 수 있는 코드 조각의 필드를 채우는 리터럴 또는 개체의 기본값을 지정합니다.
+텍스트 값은 필수입니다. 이 텍스트는 편집할 수 있는 코드 조각의 필드를 채우는 리터럴 또는 개체의 기본값을 지정합니다.
 
 ## <a name="description-element"></a>Description 요소
 
@@ -228,7 +228,7 @@ IntelliSense 코드 조각의 콘텐츠에 대한 설명 정보를 지정합니�
 | - |-----------------|
 |[Header 요소](../ide/code-snippets-schema-reference.md#header-element)|코드 조각에 대한 일반 정보가 포함되어 있습니다.|
 
- 텍스트 값은 필수입니다. 이 텍스트는 코드 조각을 설명합니다.
+텍스트 값은 필수입니다. 이 텍스트는 코드 조각을 설명합니다.
 
 ## <a name="function-element"></a>Function 요소
 
@@ -248,7 +248,7 @@ Visual Studio에서 리터럴 또는 개체가 포커스를 받을 때 실행할
 |[Literal 요소](../ide/code-snippets-schema-reference.md#literal-element)|편집할 수 있는 코드 조각의 리터럴 필드를 정의합니다.|
 |[Object 요소](../ide/code-snippets-schema-reference.md#object-element)|편집할 수 있는 코드 조각의 개체 필드를 정의합니다.|
 
- 텍스트 값은 필수입니다. 이 텍스트는 Visual Studio에서 리터럴 또는 개체 필드가 포커스를 받을 때 실행할 함수를 지정합니다.
+텍스트 값은 필수입니다. 이 텍스트는 Visual Studio에서 리터럴 또는 개체 필드가 포커스를 받을 때 실행할 함수를 지정합니다.
 
 ## <a name="header-element"></a>Header 요소
 
@@ -518,7 +518,7 @@ IntelliSense 코드 조각에서 사용되는 가져온 네임스페이스를 �
 | - |-----------------|
 |[Header 요소](../ide/code-snippets-schema-reference.md#header-element)|코드 조각에 대한 일반 정보가 포함되어 있습니다.|
 
- 텍스트 값은 선택적입니다. 이 텍스트는 코드 조각을 삽입하기 위한 바로 가기로 사용됩니다.
+텍스트 값은 선택적입니다. 이 텍스트는 코드 조각을 삽입하기 위한 바로 가기로 사용됩니다.
 
 ## <a name="snippet-element"></a>Snippet 요소
 
@@ -599,7 +599,7 @@ Visual Studio에서 코드 조각을 삽입하는 방법을 지정합니다.
 | - |-----------------|
 |[Header 요소](../ide/code-snippets-schema-reference.md#header-element)|코드 조각에 대한 일반 정보를 지정합니다.|
 
- 텍스트 값은 필수입니다. 이 텍스트는 코드 조각의 제목을 지정합니다.
+텍스트 값은 필수입니다. 이 텍스트는 코드 조각의 제목을 지정합니다.
 
 ## <a name="tooltip-element"></a>ToolTip 요소
 
@@ -616,7 +616,7 @@ Visual Studio에서 코드 조각을 삽입하는 방법을 지정합니다.
 |[Literal 요소](../ide/code-snippets-schema-reference.md#literal-element)|편집할 수 있는 코드 조각의 리터럴 필드를 정의합니다.|
 |[Object 요소](../ide/code-snippets-schema-reference.md#object-element)|편집할 수 있는 코드 조각의 개체 필드를 정의합니다.|
 
- 텍스트 값은 필수입니다. 이 텍스트는 코드 조각에 있는 개체나 리터럴과 관련된 도구 설명을 지정합니다.
+텍스트 값은 필수입니다. 이 텍스트는 코드 조각에 있는 개체나 리터럴과 관련된 도구 설명을 지정합니다.
 
 ## <a name="type-element"></a>Type 요소
 

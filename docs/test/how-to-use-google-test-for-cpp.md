@@ -8,12 +8,12 @@ manager: markl
 ms.workload:
 - cplusplus
 author: mikeblome
-ms.openlocfilehash: 8e918878048eec7dae04b6d9269f664b9e99c567
-ms.sourcegitcommit: 6196d0b7fdcb08ba6d28a8151ad36b8d1139f2cc
+ms.openlocfilehash: 73f62e8b74864af0292a9cc3ab1eb325d679d2ea
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "65226319"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926757"
 ---
 # <a name="how-to-use-google-test-for-c-in-visual-studio"></a>Visual Studio에서 Google Test for C++를 사용하는 방법
 
@@ -49,13 +49,13 @@ Visual Studio 2017 이상에서는 Google Test가 **C++를 통한 데스크톱 �
 
 나타나는 **테스트 프로젝트 구성** 대화 상자에서 테스트할 프로젝트를 선택할 수 있습니다. 프로젝트를 선택하면 Visual Studio가 선택한 프로젝트에 대한 참조를 추가합니다. 프로젝트를 선택하지 않으면 테스트할 프로젝트에 참조를 수동으로 추가해야 합니다. Google Test 바이너리에 대한 정적 및 동적 링크를 선택할 때는 다른 C++ 프로그램과 동일한 사항을 고려합니다. 자세한 내용은 [Visual C++의 DLL](/cpp/build/dlls-in-visual-cpp)을 참조하세요.
 
- ![Google Test 프로젝트 구성](media/cpp-gtest-config.png)
+![Google Test 프로젝트 구성](media/cpp-gtest-config.png)
 
 ## <a name="set-additional-options"></a>추가 옵션 설정
 
 주 메뉴에서 **도구** > **옵션** > **Google Test용 테스트 어댑터**를 선택하여 추가 옵션을 설정합니다. 이러한 설정에 대한 자세한 내용은 Google Test 설명서를 참조하세요.
 
- ![Google Test 프로젝트 설정](media/cpp-gtest-settings.png)
+![Google Test 프로젝트 설정](media/cpp-gtest-settings.png)
 
 ## <a name="add-include-directives"></a>include 지시문 추가
 

@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1be8af11dd9b03b8c63d34b60e6af3c3c8147b48
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f5f4bb3c6d429fb40d97e748798610e4e46262eb
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62894187"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68924505"
 ---
 # <a name="how-to-create-a-basic-3d-model"></a>방법: 기본 3D 모델 만들기
 
@@ -30,13 +30,13 @@ ms.locfileid: "62894187"
 - **삼각 측량** 명령 사용
 
 ## <a name="create-a-basic-3d-model"></a>기본 3D 모델 만들기
- 모델 편집기를 사용하여 게임 또는 앱에 사용할 3D 모델 및 장면을 만들고 수정할 수 있습니다. 다음 단계에서는 모델 편집기를 사용하여 집의 단순 3D 모델을 만드는 방법을 보여줍니다. 단순 모델은 계속 생성 중인 최종 아트 자산의 대체물로, 충돌 탐지를 위한 메시로, 표현하는 개체가 너무 멀어 자세한 렌더링을 사용할 수 없을 때 덜 자세한 모델로 사용할 수 있습니다.
+모델 편집기를 사용하여 게임 또는 앱에 사용할 3D 모델 및 장면을 만들고 수정할 수 있습니다. 다음 단계에서는 모델 편집기를 사용하여 집의 단순 3D 모델을 만드는 방법을 보여줍니다. 단순 모델은 계속 생성 중인 최종 아트 자산의 대체물로, 충돌 탐지를 위한 메시로, 표현하는 개체가 너무 멀어 자세한 렌더링을 사용할 수 없을 때 덜 자세한 모델로 사용할 수 있습니다.
 
- 작업을 완료하면 모델이 다음과 같이 나타납니다.
+작업을 완료하면 모델이 다음과 같이 나타납니다.
 
- ![완료된 간이형 집 모델](../designers/media/gfx_model_demo_house_final.png)
+![완료된 간이형 집 모델](../designers/media/gfx_model_demo_house_final.png)
 
- 시작하기 전에 **속성** 창과 **도구 상자**가 표시되는지 확인합니다.
+시작하기 전에 **속성** 창과 **도구 상자**가 표시되는지 확인합니다.
 
 ### <a name="to-create-a-simplified-3d-model-of-a-house"></a>집의 단순 3D 모델을 만들려면
 

@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: ae861814a7219bfca1d6a074316910d459fc9999
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: c7087f08743e58426663734295339d9ca6550a0d
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62973178"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926580"
 ---
 # <a name="using-html5-controls-in-coded-ui-tests"></a>코딩된 UI 테스트에서 HTML5 컨트롤 사용
 
@@ -20,7 +20,7 @@ ms.locfileid: "62973178"
 
 [!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
- **요구 사항**
+**요구 사항**
 
 - Visual Studio Enterprise
 
@@ -47,17 +47,17 @@ ms.locfileid: "62973178"
 
 어설션을 추가할 수 있는 속성 목록은 [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioElement)를 참조하세요.
 
- **검색 속성:** `HtmlAudio`에 대한 검색 속성은 `Id`, `Name` 및 `Title`입니다.
+**검색 속성:** `HtmlAudio`에 대한 검색 속성은 `Id`, `Name` 및 `Title`입니다.
 
- **필터 속성:** `HtmlAudio`에 대한 검색 속성은 `Src`, `Class`, `ControlDefinition` 및 `TagInstance`입니다.
+**필터 속성:** `HtmlAudio`에 대한 검색 속성은 `Src`, `Class`, `ControlDefinition` 및 `TagInstance`입니다.
 
 > [!NOTE]
 > 검색 및 일시 중지에 대한 시간은 중요할 수 있습니다. 재생하는 동안 코딩된 UI 테스트는 `(TimeSpan)`에 지정된 시간까지 기다린 후 오디오를 일시 중지합니다. 특수한 경우 일시 중지 명령을 누르기 전에 지정된 시간이 경과하면 예외가 throw됩니다.
 
 ## <a name="video-control"></a>비디오 컨트롤
- **비디오 컨트롤:** HTML5 비디오 컨트롤에 대한 작업은 올바르게 기록되고 재생됩니다.
+**비디오 컨트롤:** HTML5 비디오 컨트롤에 대한 작업은 올바르게 기록되고 재생됩니다.
 
- ![HTML5 비디오 컨트롤](../test/media/codedui_html5_video.png)
+![HTML5 비디오 컨트롤](../test/media/codedui_html5_video.png)
 
 |작업|기록 중|생성된 코드|
 |-|---------------|-|
@@ -70,17 +70,17 @@ ms.locfileid: "62973178"
 
 어설션을 추가할 수 있는 속성 목록은 [HTMLVideoElement](https://developer.mozilla.org/docs/Web/HTML/Element/video)를 참조하세요.
 
- **검색 속성:** `HtmlVideo`에 대한 검색 속성은 `Id`, `Name` 및 `Title`입니다.
+**검색 속성:** `HtmlVideo`에 대한 검색 속성은 `Id`, `Name` 및 `Title`입니다.
 
- **필터 속성:** `HtmlVideo`에 대한 검색 속성은 `Src`, `Poster`, `Class`, `ControlDefinition` 및 `TagInstance`입니다.
+**필터 속성:** `HtmlVideo`에 대한 검색 속성은 `Src`, `Poster`, `Class`, `ControlDefinition` 및 `TagInstance`입니다.
 
 > [!NOTE]
 > -30s 또는 +30s 레이블을 사용하여 비디오를 되감거나 빨리 감으면 적절한 시간까지 검색하도록 집계됩니다.
 
 ## <a name="progressbar"></a>ProgressBar
- **ProgressBar 컨트롤:** ProgressBar는 상호 작용할 수 없는 컨트롤입니다. 이 컨트롤의 `Value` 및 `Max` 속성에 어설션을 추가할 수 있습니다. 자세한 내용은 [HTMLProgressElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress)를 참조하세요.
+**ProgressBar 컨트롤:** ProgressBar는 상호 작용할 수 없는 컨트롤입니다. 이 컨트롤의 `Value` 및 `Max` 속성에 어설션을 추가할 수 있습니다. 자세한 내용은 [HTMLProgressElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress)를 참조하세요.
 
- ![HTML5 ProgressBar 컨트롤](../test/media/codedui_html5_progressbar.png)
+![HTML5 ProgressBar 컨트롤](../test/media/codedui_html5_progressbar.png)
 
 ## <a name="see-also"></a>참고 항목
 

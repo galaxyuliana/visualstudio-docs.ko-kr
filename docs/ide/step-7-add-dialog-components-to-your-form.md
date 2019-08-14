@@ -8,23 +8,23 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a1b4ef99f6b8e4dbe9d334fea0e8f5c34d5c6ffa
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: bf6769535082e49d891c7065cc18eb05967dc192
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63442061"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925866"
 ---
 # <a name="step-7-add-dialog-components-to-your-form"></a>7단계: 양식에 대화 상자 구성 요소 추가
 이 단계에서, 그림 파일을 열고 배경색을 선택할 수 있도록 프로그램을 설정하려면 <xref:System.Windows.Forms.OpenFileDialog> 구성 요소 및 <xref:System.Windows.Forms.ColorDialog> 구성 요소를 폼에 추가합니다.
 
- 구성 요소는 몇 가지 점에서 컨트롤과 비슷합니다. **도구 상자**를 사용하여 구성 요소를 폼에 추가하고 **속성** 창을 사용하여 구성 요소의 속성을 설정합니다. 그러나 컨트롤과 달리 구성 요소를 폼에 추가할 때는 실제로 폼에 표시되는 항목이 추가되지 않습니다. 대신 코드를 사용하여 트리거할 수 있는 특정 동작이 제공됩니다. 예를 들어 **파일 열기** 대화 상자를 여는 것은 바로 구성 요소입니다.
+구성 요소는 몇 가지 점에서 컨트롤과 비슷합니다. **도구 상자**를 사용하여 구성 요소를 폼에 추가하고 **속성** 창을 사용하여 구성 요소의 속성을 설정합니다. 그러나 컨트롤과 달리 구성 요소를 폼에 추가할 때는 실제로 폼에 표시되는 항목이 추가되지 않습니다. 대신 코드를 사용하여 트리거할 수 있는 특정 동작이 제공됩니다. 예를 들어 **파일 열기** 대화 상자를 여는 것은 바로 구성 요소입니다.
 
- ![비디오 링크](../data-tools/media/playvideo.gif) 이 항목의 비디오 버전은 [자습서 1: Visual Basic에서 사진 뷰어 만들기 - 비디오3](http://go.microsoft.com/fwlink/?LinkId=205213) 또는 [자습서 1: C#에서 사진 뷰어 만들기 - 자습서 3](http://go.microsoft.com/fwlink/?LinkId=205202)을 참조하세요. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.
+![비디오 링크](../data-tools/media/playvideo.gif) 이 항목의 비디오 버전은 [자습서 1: Visual Basic에서 사진 뷰어 만들기 - 비디오3](http://go.microsoft.com/fwlink/?LinkId=205213) 또는 [자습서 1: C#에서 사진 뷰어 만들기 - 자습서 3](http://go.microsoft.com/fwlink/?LinkId=205202)을 참조하세요. 이러한 비디오에서는 이전 버전의 Visual Studio를 사용하므로 일부 메뉴 명령과 기타 사용자 인터페이스 요소가 약간 다를 수 있습니다. 그러나 개념 및 절차는 Visual Studio의 현재 버전에서 비슷하게 작동합니다.
 
 ## <a name="to-add-dialog-components-to-your-form"></a>폼에 대화 상자 구성 요소를 추가하려면
 
-1. **Windows Forms 디자이너**(**Form1.cs[디자인]** 또는 **Form1.vb[디자인]**)를 선택하고 **도구 상자**에서 **대화 상자** 그룹을 엽니다.
+1. **Windows Forms 디자이너**(**Form1.cs[디자인]** 또는 **Form1.vb[디자인]** )를 선택하고 **도구 상자**에서 **대화 상자** 그룹을 엽니다.
 
     > [!NOTE]
     > **도구 상자**의 **대화 상자** 그룹에는 파일을 열거나 닫고, 폴더를 찾아보고, 글꼴과 색을 선택하는 데 사용할 수 있는 많은 유용한 대화 상자를 여는 구성 요소가 있습니다. 이 프로젝트에서 다음과 같은 두 개의 대화 상자 구성 요소를 사용합니다. OpenFileDialog 및 ColorDialog

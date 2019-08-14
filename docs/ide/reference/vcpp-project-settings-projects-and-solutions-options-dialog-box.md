@@ -18,12 +18,12 @@ ms.author: corob
 manager: markl
 ms.workload:
 - cplusplus
-ms.openlocfilehash: 9410806cbb2fa7fc5579fc7c63cee8a6bed56f79
-ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
+ms.openlocfilehash: c7acd0d8f9c6d15f9f20c42f59c3bd5562884ac3
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68461556"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918892"
 ---
 # <a name="vc-project-settings-projects-and-solutions-options-dialog-box"></a>옵션 대화 상자, 프로젝트 및 솔루션, VC++ 프로젝트 설정
 
@@ -49,11 +49,11 @@ ms.locfileid: "68461556"
 
  **예**
 
- 빌드 로그 파일에 환경 변수를 나열합니다. 이 옵션은 C++ 프로젝트를 빌드하는 동안 모든 환경 변수를 빌드 로그 파일에 반향하도록 지정합니다.
+빌드 로그 파일에 환경 변수를 나열합니다. 이 옵션은 C++ 프로젝트를 빌드하는 동안 모든 환경 변수를 빌드 로그 파일에 반향하도록 지정합니다.
 
  **No**
 
- 빌드 로그 파일에서 환경 변수를 제외합니다.
+빌드 로그 파일에서 환경 변수를 제외합니다.
 
 ## <a name="build-timing"></a>빌드 타이밍
 
@@ -63,7 +63,7 @@ ms.locfileid: "68461556"
 
  **No**
 
- 빌드 타이밍을 해제합니다.
+빌드 타이밍을 해제합니다.
 
 ## <a name="maximum-concurrent-c-compilations"></a>최대 동시 C++ 컴파일
 

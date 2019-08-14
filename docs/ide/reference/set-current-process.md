@@ -11,12 +11,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 24f4c08147f72168f5207418a51d7a9cfa8a2b51
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: f8d4c23934ddb6a838344eb6252f6002a5ecf10d
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62934564"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926096"
 ---
 # <a name="set-current-process"></a>현재 프로세스 설정
 디버거에서 지정한 프로세스를 활성 프로세스로 설정합니다.
@@ -28,14 +28,14 @@ Debug.SetCurrentProcess index
 ```
 
 ## <a name="arguments"></a>인수
- `index`
+`index`
 
- 필수 요소. 프로세스의 인덱스입니다.
+필수 요소. 프로세스의 인덱스입니다.
 
-## <a name="remarks"></a>주의
- 디버그하는 동안 여러 프로세스에 연결할 수 있지만 한 번에 프로세스 하나만 디버거에서 활성화됩니다. `SetCurrentProcess` 명령을 사용하여 활성 프로세스를 설정할 수 있습니다.
+## <a name="remarks"></a>설명
+디버그하는 동안 여러 프로세스에 연결할 수 있지만 한 번에 프로세스 하나만 디버거에서 활성화됩니다. `SetCurrentProcess` 명령을 사용하여 활성 프로세스를 설정할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ```cmd
 >Debug.SetCurrentProcess 1

@@ -8,12 +8,12 @@ ms.assetid: de10dabb-02ed-403b-9e6f-0b735524988c
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 3755a0ebc0227a62a2a23bc15d88d4d008ab733e
-ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
+ms.openlocfilehash: 4d50303596cec88bd5463b2ad1df713991c8932c
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68662067"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68923669"
 ---
 # <a name="load-test-run-settings-properties"></a>부하 테스트 실행 설정 속성
 
@@ -45,7 +45,7 @@ ms.locfileid: "68662067"
 |**완료된 테스트에 대한 로그 빈도 저장**|테스트 로그가 기록되는 빈도를 지정합니다. 테스트 횟수가 이 숫자에 이를 때마다 테스트 로그에 테스트가 기록됩니다. 예를 들어 10을 값으로 입력하면 10번째, 20번째, 30번째 테스트 등이 테스트 로그에 기록됩니다. 값을 0으로 설정하면 테스트 로그가 저장되지 않도록 지정됩니다.|
 |**테스트 실패 시 로그 저장**|부하 테스트에서 테스트가 실패하는 경우 테스트 로그를 저장할지 여부를 결정하는 부울 값입니다. 기본값은 `True`입니다.<br /><br /> 자세한 내용은 [방법: 테스트 실패를 테스트 로그에 저장할지 여부 지정](../test/how-to-specify-if-test-failures-are-saved-to-test-logs.md)|
 
- 자세한 내용은 [부하 테스트 로깅 설정 수정](../test/modify-load-test-logging-settings.md)을 참조하세요.
+자세한 내용은 [부하 테스트 로깅 설정 수정](../test/modify-load-test-logging-settings.md)을 참조하세요.
 
 ## <a name="results-properties"></a>결과 속성
 
@@ -70,7 +70,7 @@ ms.locfileid: "68662067"
 |**테스트 반복**|부하 테스트를 완료할 때까지 실행되는 개별 테스트의 총 수를 지정합니다. 이 속성은 "테스트 반복 사용" 속성이 `True`인 경우에만 적용됩니다.|
 |**테스트 반복 사용**|테스트 반복 사용이 `True`이면 부하 테스트는 부하 테스트 내에서 완료된 개별 테스트 수가 "테스트 반복" 속성에 따라 지정된 수에 도달할 때까지 실행됩니다. 이 경우 시간 기반 설정(준비 시간, 실행 지속 시간 및 휴지 기간)은 무시됩니다. "테스트 반복 사용"이 `False`인 경우에는 모든 시간 설정이 적용되며 "테스트 반복"은 무시됩니다.|
 
- 자세한 내용은 [방법: 실행 설정에서 테스트 반복 횟수 지정](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md)을 참조하세요.
+자세한 내용은 [방법: 실행 설정에서 테스트 반복 횟수 지정](../test/how-to-specify-the-number-of-test-iterations-in-a-load-test.md)을 참조하세요.
 
 ## <a name="timing-properties"></a>타이밍 속성
 

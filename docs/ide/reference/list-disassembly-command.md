@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 71a1be7841cb25cebafe951419006bb8b635093c
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 6dc4bddefe0240a8e53babeec1fdce4f83ce5ef1
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62970163"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926218"
 ---
 # <a name="list-disassembly-command"></a>디스어셈블리 목록 표시 명령
 디버그 프로세스를 시작하고 오류 처리 방식을 지정할 수 있습니다.
@@ -32,33 +32,33 @@ Debug.ListDisassembly [/count:number] [/endaddress:expression]
 ```
 
 ## <a name="switches"></a>스위치
- 각 스위치는 전체 양식 및 약식을 사용하여 호출될 수 있습니다.
+각 스위치는 전체 양식 및 약식을 사용하여 호출될 수 있습니다.
 
- /count: `number` [또는] /c: `number` [또는] /length: `number` [또는] /l: `number`
+/count: `number` [또는] /c: `number` [또는] /length: `number` [또는] /l: `number`
 
- 선택 사항입니다. 표시할 지침의 수입니다. 기본값은 8입니다.
+선택 사항입니다. 표시할 지침의 수입니다. 기본값은 8입니다.
 
- /endaddress: `expression` [또는] /e: `expression`
+/endaddress: `expression` [또는] /e: `expression`
 
- 선택 사항입니다. 디스어셈블리를 중지할 주소입니다.
+선택 사항입니다. 디스어셈블리를 중지할 주소입니다.
 
- /codebytes:`yes`&#124;`no` [또는] /bytes:`yes`&#124;`no` [또는] /b:`yes`&#124;`no`
+/codebytes:`yes`&#124;`no` [또는] /bytes:`yes`&#124;`no` [또는] /b:`yes`&#124;`no`
 
- 선택 사항입니다. 코드 바이트를 표시할지를 나타냅니다. 기본값은 `no`여야 합니다.
+선택 사항입니다. 코드 바이트를 표시할지를 나타냅니다. 기본값은 `no`여야 합니다.
 
- /source:`yes`&#124;`no` [또는] /s:`yes`&#124;`no`
+/source:`yes`&#124;`no` [또는] /s:`yes`&#124;`no`
 
- 선택 사항입니다. 소스 코드를 표시할지를 나타냅니다. 기본값은 `no`여야 합니다.
+선택 사항입니다. 소스 코드를 표시할지를 나타냅니다. 기본값은 `no`여야 합니다.
 
- /symbolnames:`yes`&#124;`no` [또는] /names:`yes`&#124;`no` [또는] /n:`yes`&#124;`no`
+/symbolnames:`yes`&#124;`no` [또는] /names:`yes`&#124;`no` [또는] /n:`yes`&#124;`no`
 
- 선택 사항입니다. 기호 이름을 표시할지를 나타냅니다. 기본값은 `yes`여야 합니다.
+선택 사항입니다. 기호 이름을 표시할지를 나타냅니다. 기본값은 `yes`여야 합니다.
 
  [/linenumbers:`yes`&#124;`no`]
 
- 선택 사항입니다. 소스 코드와 연결된 줄 번호를 볼 수 있도록 합니다. /source 스위치는 /linenumbers 스위치를 사용하는 `yes`의 값이 있어야 합니다.
+선택 사항입니다. 소스 코드와 연결된 줄 번호를 볼 수 있도록 합니다. /source 스위치는 /linenumbers 스위치를 사용하는 `yes`의 값이 있어야 합니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ```cmd
 >Debug.ListDisassembly

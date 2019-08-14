@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 82dd3f226931dfeca2fa0dfad38daa24684fb8da
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 9bdc1c97d35b79fec40bbaf8994176cfbb27b8e8
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62789833"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919227"
 ---
 # <a name="go-to-command"></a>이동 명령
 지정된 줄로 커서를 이동합니다.
@@ -30,18 +30,17 @@ Edit.GoTo [linenumber]
 ```
 
 ## <a name="arguments"></a>인수
- `linenumber`
+`linenumber`\
+선택 사항입니다. 이동할 줄 번호를 나타내는 정수입니다.
 
- 선택 사항입니다. 이동할 줄 번호를 나타내는 정수입니다.
+## <a name="remarks"></a>설명
+줄 번호는 1부터 시작합니다. `linenumber` 값이 1보다 작은 경우 첫 번째 줄이 표시됩니다. `linenumber` 값이 마지막 줄 번호보다 큰 경우 마지막 줄이 표시됩니다.
 
-## <a name="remarks"></a>주의
- 줄 번호는 1부터 시작합니다. `linenumber` 값이 1보다 작은 경우 첫 번째 줄이 표시됩니다. `linenumber` 값이 마지막 줄 번호보다 큰 경우 마지막 줄이 표시됩니다.
+`linenumber` 값이 지정되지 않으면 **줄 이동** 대화 상자가 표시됩니다.
 
- `linenumber` 값이 지정되지 않으면 **줄 이동** 대화 상자가 표시됩니다.
+이 명령에 대한 별칭은 GoToLn입니다.
 
- 이 명령에 대한 별칭은 GoToLn입니다.
-
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 ```cmd
 >Edit.GoTo 125

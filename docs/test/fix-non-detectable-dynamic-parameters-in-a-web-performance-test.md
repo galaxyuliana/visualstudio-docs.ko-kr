@@ -10,12 +10,12 @@ ms.assetid: 92dff25c-36ee-4135-acdd-315c4962fa11
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: b02be3e0ed5cb59e57e4aec28b3d7979d77f7652
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: bf305125fceb4c07bb0565fa227e7e88bb90e3a3
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63004077"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918484"
 ---
 # <a name="fix-non-detectable-dynamic-parameters-in-a-web-performance-test"></a>웹 성능 테스트에서 검색할 수 없는 동적 매개 변수 수정
 
@@ -251,7 +251,7 @@ ms.locfileid: "63004077"
 
 ### <a name="q-can-i-re-run-dynamic-parameter-detection-if-my-web-app-gets-modified"></a>Q: 내 웹앱이 수정되었다면 동적 매개 변수 검색을 다시 실행할 수 있습니까?
 
- **A:** 예, 다음 절차를 수행합니다.
+**A:** 예, 다음 절차를 수행합니다.
 
 1. 도구 모음에서 **동적 매개 변수를 웹 테스트 매개 변수로 수준 올리기** 단추를 선택합니다.
 
@@ -265,4 +265,4 @@ ms.locfileid: "63004077"
 
 ### <a name="q-do-i-need-to-configure-visual-studio-to-detect-dynamic-parameters"></a>Q: 동적 매개 변수를 검색하려면 Visual Studio를 구성해야 하나요?
 
- **A:** 기본 Visual Studio 구성에서는 웹 성능 테스트를 기록할 때 동적 매개 변수를 검색합니다. 하지만 Visual Studio 옵션에서 동적 매개 변수를 검색하지 않도록 구성했거나 테스트 중인 웹 애플리케이션이 추가 동적 매개 변수로 수정된 경우 웹 성능 테스트 편집기에서 동적 매개 변수 검색을 실행할 수 있습니다.
+**A:** 기본 Visual Studio 구성에서는 웹 성능 테스트를 기록할 때 동적 매개 변수를 검색합니다. 하지만 Visual Studio 옵션에서 동적 매개 변수를 검색하지 않도록 구성했거나 테스트 중인 웹 애플리케이션이 추가 동적 매개 변수로 수정된 경우 웹 성능 테스트 편집기에서 동적 매개 변수 검색을 실행할 수 있습니다.

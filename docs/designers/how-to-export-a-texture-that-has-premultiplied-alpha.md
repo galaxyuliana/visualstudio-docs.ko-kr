@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 64c336db07eab794a6595cb2de9026c1269a33c4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 16448a53064844f1c75db8b7eaa58c2cf909a968
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62893386"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68924252"
 ---
 # <a name="how-to-export-a-texture-that-has-premultiplied-alpha"></a>방법: 미리 증가된 알파를 사용하는 질감 내보내기
 
@@ -26,7 +26,7 @@ ms.locfileid: "62893386"
 - 미리 곱한 알파를 생성하도록 이미지 콘텐츠 파이프라인 구성.
 
 ## <a name="premultiplied-alpha"></a>미리 곱한 알파
- 미리 곱한 알파는 반투명도(미리 곱한 알파가 통과 허용하는 기본 색의 양)에서 텍셀의 색 기여도(미리 곱한 알파가 장면에 추가하는 색)를 분리하는 방식으로 실제 재질과 광원의 사실적인 상호 작용을 더 잘 표현하기 때문에 기존 미리 곱하지 않은 알파에 비해 다양한 장점을 제공합니다. 미리 곱한 알파 사용의 몇 가지 장점은 다음과 같습니다.
+미리 곱한 알파는 반투명도(미리 곱한 알파가 통과 허용하는 기본 색의 양)에서 텍셀의 색 기여도(미리 곱한 알파가 장면에 추가하는 색)를 분리하는 방식으로 실제 재질과 광원의 사실적인 상호 작용을 더 잘 표현하기 때문에 기존 미리 곱하지 않은 알파에 비해 다양한 장점을 제공합니다. 미리 곱한 알파 사용의 몇 가지 장점은 다음과 같습니다.
 
 - 미리 곱한 알파와 혼합하는 것은 결합형 작업입니다. 질감이 혼합되는 순서에 관계없이 여러 불투명 질감을 혼합한 결과는 동일합니다.
 

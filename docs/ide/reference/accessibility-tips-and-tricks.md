@@ -11,12 +11,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ea4d559921fc7cf387116d013906891c74a4ed8c
-ms.sourcegitcommit: 90c3187d804ad7544367829d07ed4b47d3f8a72d
+ms.openlocfilehash: 5828fb114a4df559c46dd6ae7f64887ab48e7429
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68822361"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919530"
 ---
 # <a name="accessibility-tips-and-tricks-for-visual-studio"></a>Visual Studio의 내게 필요한 옵션 팁과 요령
 
@@ -29,7 +29,7 @@ Visual Studio에는 화면 판독기 및 기타 보조 기술과 호환되는 �
 
 ## <a name="save-your-ide-settings"></a>IDE 설정 저장
 
- 창 레이아웃, 키보드 매핑 구성표 및 기타 기본 설정을 저장하여 IDE 환경을 사용자 지정할 수 있습니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
+창 레이아웃, 키보드 매핑 구성표 및 기타 기본 설정을 저장하여 IDE 환경을 사용자 지정할 수 있습니다. 자세한 내용은 [Visual Studio IDE 개인 설정](../../ide/personalizing-the-visual-studio-ide.md)을 참조하세요.
 
 ## <a name="modify-your-ide-for-high-contrast-viewing"></a>고대비 보기를 위한 IDE 수정
 
@@ -64,7 +64,7 @@ Visual Studio IDE에는 대부분의 도구 창에 있는 것과 같은 도구 �
 |상황에 맞는 메뉴|상황에 맞는(마우스 오른쪽 단추 클릭) 메뉴를 엽니다. <br> <br> **참고:** 표준 Windows 바로 가기 키|**Shift**+**F10**|
 |메뉴|액셀러레이터 키를 사용하여 메뉴 항목에 빠르게 액세스합니다. **Alt** 키를 선택한 다음, 메뉴에서 밑줄이 표시된 문자를 선택하여 명령을 활성화합니다. 예를 들어 Visual Studio에서 [프로젝트 열기] 대화 상자를 보려면 **Alt**+**F**+**O**+**P**를 선택합니다.  <br><br> **참고:** 표준 Windows 바로 가기 키|**Alt** +  **[문자]**|
 |검색 상자|Visual Studio의 검색 기능을 사용합니다.|**Ctrl**+**Q**|
-|도구 상자 창|도구 상자 탭 간에 이동합니다.|**Ctrl**+**위쪽 화살표**<br /><br /> and<br /><br /> **Ctrl**+**아래쪽 화살표**|
+|도구 상자 창|도구 상자 탭 간에 이동합니다.|**Ctrl**+**위쪽 화살표**<br /><br /> 를 갖는<br /><br /> **Ctrl**+**아래쪽 화살표**|
 |도구 상자 창|폼 또는 디자이너에 도구 상자의 컨트롤을 추가합니다.|**Enter**|
 |옵션 대화 상자: 환경 > 키보드|**바로 가기 키 누르기** 옵션에 입력된 키 조합을 삭제합니다.|**백스페이스**|
 |알림 도구 창|두 바로 가기 키 조합을 차례로 사용하여 알림 도구 창을 엽니다. 그런 다음 화살표 키로 알림을 선택하여 확인합니다.| **Ctrl**+ **&#92;** , **Ctrl**+**N**|
