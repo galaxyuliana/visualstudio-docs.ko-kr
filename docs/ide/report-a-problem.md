@@ -9,12 +9,12 @@ ms.author: seiyer
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 840c8af686783a365608c1fe01661569e345add1
-ms.sourcegitcommit: 16bcaca215de75479695738d3c2d703c78c3500e
+ms.openlocfilehash: 519c7f233866bf71bb342d4f740b3e0a90a4ba72
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "67309805"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925991"
 ---
 # <a name="overview-report-a-problem"></a>개요: 문제 보고
 
@@ -110,7 +110,7 @@ ms.locfileid: "67309805"
 
 검색을 통해 보고하려는 문제가 아직 보고되지 않았는지 확인하는 것이 좋습니다. 문제와 일치하는 기존 항목을 찾으면 해당 문제 티켓에 따라 투표합니다.
 
- 문제를 팀이 재현하는 데 도움이 되는 모든 정보를 제공합니다.  이 정보에는 필요한 재현 단계, 코드 조각, 스크린샷, 재현 기록, 로그 파일 및 기타 아티팩트가 포함됩니다.  다음은 [Visual Studio에서 문제를 보고하는 방법](./how-to-report-a-problem-with-visual-studio.md)입니다.
+문제를 팀이 재현하는 데 도움이 되는 모든 정보를 제공합니다.  이 정보에는 필요한 재현 단계, 코드 조각, 스크린샷, 재현 기록, 로그 파일 및 기타 아티팩트가 포함됩니다.  다음은 [Visual Studio에서 문제를 보고하는 방법](./how-to-report-a-problem-with-visual-studio.md)입니다.
 
 ### <a name="how-is-my-feedback-prioritized"></a>어떻게 내 피드백 우선순위가 지정되나요?
 
