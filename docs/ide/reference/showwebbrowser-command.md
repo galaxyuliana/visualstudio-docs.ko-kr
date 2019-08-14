@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 0f6d8249503ed775d584c913d685ae35473134be
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 14e2d6f2c753c56d1628d20e921b7dff2aa83471
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62950650"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926015"
 ---
 # <a name="showwebbrowser-command"></a>웹 브라우저 표시 명령
 
@@ -31,24 +31,24 @@ View.ShowWebBrowser URL [/new][/ext]
 ```
 
 ## <a name="arguments"></a>인수
- `URL`
+`URL`
 
- 필수 요소. 웹 사이트의 URL(Uniform Resource Locator)입니다.
+필수 요소. 웹 사이트의 URL(Uniform Resource Locator)입니다.
 
 ## <a name="switches"></a>스위치
- /new
+/new
 
- 선택 사항입니다. 웹 브라우저의 새 인스턴스에 페이지가 표시되도록 지정합니다.
+선택 사항입니다. 웹 브라우저의 새 인스턴스에 페이지가 표시되도록 지정합니다.
 
- /ext
+/ext
 
- 선택 사항입니다. IDE 외부의 기본 웹 브라우저에 페이지가 표시되도록 지정합니다.
+선택 사항입니다. IDE 외부의 기본 웹 브라우저에 페이지가 표시되도록 지정합니다.
 
-## <a name="remarks"></a>주의
- **ShowWebBrowser** 명령의 별칭은 **navigate** 또는 **nav**입니다.
+## <a name="remarks"></a>설명
+**ShowWebBrowser** 명령의 별칭은 **navigate** 또는 **nav**입니다.
 
-## <a name="example"></a>예제
- 다음 예제에서는 IDE 외부의 웹 브라우저에서 Microsoft Docs 홈페이지를 표시합니다. 웹 브라우저의 인스턴스가 이미 열린 경우 이 인스턴스가 사용되고, 그렇지 않으면 새 인스턴스가 시작됩니다.
+## <a name="example"></a>예
+다음 예제에서는 IDE 외부의 웹 브라우저에서 Microsoft Docs 홈페이지를 표시합니다. 웹 브라우저의 인스턴스가 이미 열린 경우 이 인스턴스가 사용되고, 그렇지 않으면 새 인스턴스가 시작됩니다.
 
 ```cmd
 >View.ShowWebBrowser https://docs.microsoft.com /ext
