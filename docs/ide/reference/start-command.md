@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1f7488353cd4c64b0afca27060c364a1f9ddc6f8
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 8f455306a87c82c5cd4fe55ccacdbba070b4467c
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62950431"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926021"
 ---
 # <a name="start-command"></a>시작 명령
 시작 프로젝트 디버깅을 시작합니다.
@@ -30,15 +30,15 @@ Debug.Start [address]
 ```
 
 ## <a name="arguments"></a>인수
- `address`
+`address`
 
- 선택 사항입니다. 소스 코드의 중단점처럼 프로그램에서 실행을 일시 중단하는 주소입니다. 이 인수는 디버그 모드에서만 유효합니다.
+선택 사항입니다. 소스 코드의 중단점처럼 프로그램에서 실행을 일시 중단하는 주소입니다. 이 인수는 디버그 모드에서만 유효합니다.
 
-## <a name="remarks"></a>주의
- **시작** 명령을 실행하면 지정된 주소로 RunToCursor 작업을 수행합니다.
+## <a name="remarks"></a>설명
+**시작** 명령을 실행하면 지정된 주소로 RunToCursor 작업을 수행합니다.
 
-## <a name="example"></a>예제
- 이 예제에서는 디버거를 시작하고 발생하는 모든 예외를 무시합니다.
+## <a name="example"></a>예
+이 예제에서는 디버거를 시작하고 발생하는 모든 예외를 무시합니다.
 
 ```cmd
 >Debug.Start
