@@ -93,6 +93,10 @@
                   href: l2dbform-xaml-cs-source-code.md
 - name: Windows Forms
   items:
+    - name: Windows Forms 디자이너 개요
+      href: windows-forms-designer-overview.md
+    - name: Windows Forms 디자이너 시작
+      href: walkthrough-windows-forms-designer.md
     - name: '자습서 1: 사진 뷰어 만들기(C#)'
       items:
         - name: 개요
