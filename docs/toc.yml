@@ -996,6 +996,12 @@
                       href: ide/reference/options-text-editor-xml-formatting.md
                     - name: 기타
                       href: ide/reference/options-text-editor-xml-miscellaneous.md
+            - name: Windows Forms 디자이너
+              items:
+                - name: 일반
+                  href: ide/reference/options-windows-forms-designer.md
+                - name: 데이터 UI 사용자 지정
+                  href: ide/reference/options-windows-forms-designer-data-ui-customization.md
             - name: XAML 디자이너
               href: ide/reference/xaml-designer.md
         - name: 출력 창
