@@ -14,28 +14,29 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 76315f6cde5bc54385e217a8f234389a7f45e621
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 764723d0749cd82739d8e67ee71104f41a0f9065
+ms.sourcegitcommit: 5b34052a1c7d86179d7898ed532babb2d9dad4a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62955926"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490592"
 ---
 # <a name="how-to-programmatically-print-worksheets"></a>방법: 프로그래밍 방식으로 워크시트 인쇄
-  통합 문서의 모든 워크시트를 인쇄할 수 있습니다.
 
- [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
+통합 문서의 모든 워크시트를 인쇄할 수 있습니다.
+
+[!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
 
 ## <a name="print-a-worksheet-in-a-document-level-customization"></a>문서 수준 사용자 지정에서 워크시트 인쇄
 
 ### <a name="to-print-a-worksheet"></a>워크시트를 인쇄하려면
 
-1. `Sheet1`의 <xref:Microsoft.Office.Tools.Excel.Worksheet.PrintOut%2A> 메서드를 호출하고, 두 복사본을 요청하고, 인쇄 전에 문서를 미리 봅니다.
+1. `Sheet1`의 `PrintOut` 메서드를 호출하고, 두 복사본을 요청하고, 인쇄 전에 문서를 미리 봅니다.
 
     [!code-csharp[Trin_VstcoreExcelAutomation#22](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#22)]
     [!code-vb[Trin_VstcoreExcelAutomation#22](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#22)]
 
-   합니다 <xref:Microsoft.Office.Tools.Excel.Worksheet.PrintPreview%2A> 메서드를 사용 하면에서 지정된 된 개체를 표시 하는 **인쇄 미리 보기** 창. 다음 코드에서는 `Sheet1`이라는 <xref:Microsoft.Office.Tools.Excel.Worksheet> 호스트 항목이 있다고 가정합니다.
+   메서드를 사용 하면 **인쇄 미리 보기** 창에 지정 된 개체를 표시할 수 있습니다. <xref:Microsoft.Office.Tools.Excel.Worksheet.PrintPreview%2A> 다음 코드에서는 `Sheet1`이라는 <xref:Microsoft.Office.Tools.Excel.Worksheet> 호스트 항목이 있다고 가정합니다.
 
 ### <a name="to-preview-a-page-before-printing"></a>인쇄 전에 페이지를 미리 보려면
 
@@ -53,7 +54,7 @@ ms.locfileid: "62955926"
     [!code-csharp[Trin_VstcoreExcelAutomationAddIn#14](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#14)]
     [!code-vb[Trin_VstcoreExcelAutomationAddIn#14](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#14)]
 
-   합니다 <xref:Microsoft.Office.Interop.Excel._Worksheet.PrintPreview%2A> 메서드를 사용 하면에서 지정된 된 개체를 표시 하는 **인쇄 미리 보기** 창.
+   메서드를 사용 하면 **인쇄 미리 보기** 창에 지정 된 개체를 표시할 수 있습니다. <xref:Microsoft.Office.Interop.Excel._Worksheet.PrintPreview%2A>
 
 ### <a name="to-preview-a-page-before-printing"></a>인쇄 전에 페이지를 미리 보려면
 
@@ -63,6 +64,7 @@ ms.locfileid: "62955926"
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#15](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#15)]
 
 ## <a name="see-also"></a>참고자료
+
 - [워크시트 작업](../vsto/working-with-worksheets.md)
 - [방법: 프로그래밍 방식으로 워크시트에서 맞춤법 검사](../vsto/how-to-programmatically-check-spelling-in-worksheets.md)
 - [워크시트 호스트 항목](../vsto/worksheet-host-item.md)
