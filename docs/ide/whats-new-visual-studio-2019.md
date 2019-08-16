@@ -15,12 +15,12 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: dd4ae23899871644f61f3bb903fc2c4ad7880b53
-ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
+ms.openlocfilehash: 1f4a055f62fe76c701858f82b4778f7a3b19fa0a
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "68493324"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918778"
 ---
 # <a name="whats-new-in-visual-studio-2019"></a>Visual Studio 2019의 새로운 기능
 
@@ -65,7 +65,7 @@ C#에서 코드 구성을 더 쉽게 만드는 매우 유용한 새로운 리팩
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/)는 AI(인공 지능)를 사용하여 소프트웨어 개발 작업을 개선합니다. IntelliCode는 각각 100개 이상의 별이 달린 GitHub의 오픈 소스 프로젝트 2,000개를 학습하여 권장 사항을 생성합니다.
 
- ![Visual Studio 2019의 IntelliCode 애니메이션](media/vs-2019/IntelliCode.gif)
+![Visual Studio 2019의 IntelliCode 애니메이션](media/vs-2019/IntelliCode.gif)
 
 Visual Studio IntelliCode로 생산성을 높이는 몇 가지 방법이 있습니다.
 

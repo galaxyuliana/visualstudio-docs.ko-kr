@@ -13,12 +13,12 @@ ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 590e7917cdc37242b6fc73699aa8ce6b3e8ba24f
-ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
+ms.openlocfilehash: 0cb77021818fd77205a598f54a4a64a1929348f2
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68461475"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919353"
 ---
 # <a name="advanced-compiler-settings-dialog-box-visual-basic"></a>고급 컴파일러 설정 대화 상자(Visual Basic)
 
@@ -38,7 +38,7 @@ ms.locfileid: "68461475"
 
 ## <a name="optimizations"></a>최적화
 
- 다음 옵션은 경우에 따라 프로그램 파일을 축소하고, 프로그램을 신속하게 실행하고, 빌드 프로세스를 가속화할 수 있도록 최적화를 지정합니다.
+다음 옵션은 경우에 따라 프로그램 파일을 축소하고, 프로그램을 신속하게 실행하고, 빌드 프로세스를 가속화할 수 있도록 최적화를 지정합니다.
 
 **정수 오버플로 검사 해제**
 
@@ -52,11 +52,11 @@ ms.locfileid: "68461475"
 
  **DLL 기준 주소**
 
- 이 텍스트 상자는 16진수 형식인 기본 DLL 기준 주소를 표시합니다. 클래스 라이브러리 및 컨트롤 라이브러리 프로젝트에서 이 텍스트 상자를 사용하여 DLL을 만들 때 사용되는 기본 주소를 지정할 수 있습니다.
+이 텍스트 상자는 16진수 형식인 기본 DLL 기준 주소를 표시합니다. 클래스 라이브러리 및 컨트롤 라이브러리 프로젝트에서 이 텍스트 상자를 사용하여 DLL을 만들 때 사용되는 기본 주소를 지정할 수 있습니다.
 
  **디버그 정보 생성**
 
- 목록에서 **없음**, **전체** 또는 **PDB 전용**을 선택합니다. **없음**은 디버깅 정보가 생성되지 않도록 지정합니다. **전체**는 전체 디버깅 정보가 생성되도록 지정하고, **PDB 전용**은 PDB 디버깅 정보가 생성되도록 지정합니다. 이 옵션의 기본값은 **전체**입니다.
+목록에서 **없음**, **전체** 또는 **PDB 전용**을 선택합니다. **없음**은 디버깅 정보가 생성되지 않도록 지정합니다. **전체**는 전체 디버깅 정보가 생성되도록 지정하고, **PDB 전용**은 PDB 디버깅 정보가 생성되도록 지정합니다. 이 옵션의 기본값은 **전체**입니다.
 
 ## <a name="compilation-constants"></a>컴파일 상수
 
@@ -64,15 +64,15 @@ ms.locfileid: "68461475"
 
  **DEBUG 상수 정의**
 
- 기본적으로 이 확인란을 선택하면 DEBUG 상수가 설정되도록 지정합니다.
+기본적으로 이 확인란을 선택하면 DEBUG 상수가 설정되도록 지정합니다.
 
  **TRACE 상수 정의**
 
- 기본적으로 이 확인란을 선택하면 TRACE 상수가 설정되도록 지정합니다.
+기본적으로 이 확인란을 선택하면 TRACE 상수가 설정되도록 지정합니다.
 
  **사용자 지정 상수**
 
- 이 텍스트 상자에 애플리케이션의 사용자 지정 상수를 입력합니다. 다음 양식을 사용하여 항목을 쉼표로 구분해야 합니다. **Name1="Value1",Name2="Value2",Name3="Value3"** .
+이 텍스트 상자에 애플리케이션의 사용자 지정 상수를 입력합니다. 다음 양식을 사용하여 항목을 쉼표로 구분해야 합니다. **Name1="Value1",Name2="Value2",Name3="Value3"** .
 
 ## <a name="other-settings"></a>기타 설정
 

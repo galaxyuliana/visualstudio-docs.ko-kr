@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 554fe9c8d8f30c13f667566a76349e237f5ddb0f
-ms.sourcegitcommit: ba5e072c9fedeff625a1332f22dcf3644d019f51
+ms.openlocfilehash: d9d60db348be719c4fa45243d22ca6b617b72407
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66432297"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918457"
 ---
 # <a name="code-generation-compilation-and-naming-conventions-in-microsoft-fakes"></a>Microsoft Fakes의 코드 생성, 컴파일 및 명명 규칙
 
@@ -110,9 +110,9 @@ Fakes 코드 생성기는 생성된 Fakes 어셈블리에 표시되는 형식에
 [assembly: InternalsVisibleTo("FileSystem.Tests")]
 ```
 
- **강력한 이름이 지정된 어셈블리의 내부 형식**
+**강력한 이름이 지정된 어셈블리의 내부 형식**
 
- shim된 어셈블리에 강력한 이름을 지정하고 어셈블리의 내부 형식에 액세스하려는 경우:
+shim된 어셈블리에 강력한 이름을 지정하고 어셈블리의 내부 형식에 액세스하려는 경우:
 
 - 테스트 어셈블리와 Fakes 어셈블리에 모두 강력한 이름을 지정해야 합니다.
 
@@ -179,11 +179,11 @@ Fakes 어셈블리를 컴파일하면 빌드 시간이 현저하게 길어질 �
 
 팀 빌드 환경에서는 모든 빌드 출력이 단일 디렉터리에 병합됩니다. 여러 프로젝트가 Fakes를 사용하는 경우 서로 다른 버전의 Fakes 어셈블리가 서로를 재정의할 수 있습니다. 예를 들어 .NET Framework 2.0의 TestProject1 fakes *mscorlib.dll*과 .NET Framework 4의 TestProject2 fakes *mscorlib.dll* 모두 *mscorlib.Fakes.dll* Fakes 어셈블리를 생성할 수 있습니다.
 
- 이 문제를 방지하려면 Fakes가 *.fakes* 파일을 추가할 때 프로젝트 이외 참조에 대해 버전 정규화된 Fakes 어셈블리 이름을 자동으로 만들어야 합니다. 버전 정규화된 Fakes 어셈블리 이름은 Fakes 어셈블리 이름을 만들 때 버전 번호를 포함합니다.
+이 문제를 방지하려면 Fakes가 *.fakes* 파일을 추가할 때 프로젝트 이외 참조에 대해 버전 정규화된 Fakes 어셈블리 이름을 자동으로 만들어야 합니다. 버전 정규화된 Fakes 어셈블리 이름은 Fakes 어셈블리 이름을 만들 때 버전 번호를 포함합니다.
 
- 어셈블리에 MyAssembly 및 버전 1.2.3.4를 지정하는 경우 Fakes 어셈블리 이름은 MyAssembly.1.2.3.4.Fakes입니다.
+어셈블리에 MyAssembly 및 버전 1.2.3.4를 지정하는 경우 Fakes 어셈블리 이름은 MyAssembly.1.2.3.4.Fakes입니다.
 
- 이 버전은 *.fakes*에서 어셈블리 요소의 버전 특성을 편집하여 변경하거나 제거할 수 있습니다.
+이 버전은 *.fakes*에서 어셈블리 요소의 버전 특성을 편집하여 변경하거나 제거할 수 있습니다.
 
 ```xml
 attribute of the Assembly element in the .fakes:
@@ -197,7 +197,7 @@ attribute of the Assembly element in the .fakes:
 
 ### <a name="shim-type-and-stub-type-naming-conventions"></a>shim 형식 및 스텁 형식 명명 규칙
 
- **네임스페이스**
+**네임스페이스**
 
 - 네임스페이스에 .Fakes 접미사를 추가합니다.
 
@@ -233,7 +233,7 @@ attribute of the Assembly element in the .fakes:
 
   getter 또는 setter 속성과 같은 **특수 메서드 이름**은 다음 표에 설명된 대로 처리됩니다.
 
-|메서드 특성...|예제|추가되는 메서드 이름|
+|메서드 특성...|예|추가되는 메서드 이름|
 |-|-|-|
 |**생성자**|`.ctor`|`Constructor`|
 |정적 **생성자**|`.cctor`|`StaticConstructor`|
