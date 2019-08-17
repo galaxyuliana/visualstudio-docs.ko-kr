@@ -17,12 +17,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: dfa50fc6007c2313191b430e9ed5445e7fd72a88
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: c6512f02d13c2eeb441f5b374c4785deffe22a22
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65841561"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69547058"
 ---
 # <a name="ca1802-use-literals-where-appropriate"></a>CA1802: 가능하면 리터럴을 사용하세요.
 
@@ -31,43 +31,43 @@ ms.locfileid: "65841561"
 |TypeName|UseLiteralsWhereAppropriate|
 |CheckId|CA1802|
 |범주|Microsoft.Performance|
-|변경 수준|주요 변경 아님|
+|변경 수준|최신이 아님|
 
 ## <a name="cause"></a>원인
 
-필드가 선언 되었습니다 `static` 하 고 `readonly` (`Shared` 및 `ReadOnly` Visual basic에서), 컴파일 시간에 계산할 수 있는 값으로 초기화 됩니다.
+필드는 및 `readonly` ( `static` `Shared` Visual Basic )로선언되고컴파일타임에계산할수값으로초기화됩니다.`ReadOnly`
 
-기본적으로이 규칙만 살펴봅니다 외부적으로 표시 되는 필드, 이것이 [구성할 수 있는](#configurability)합니다.
+기본적으로이 규칙은 외부에서 볼 수 있는 필드만 볼 수 있지만이는 [구성 가능](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
-값을 `static readonly` 필드 선언 형식에 대 한 정적 생성자를 호출할 때 런타임 시 계산 됩니다. 경우는 `static readonly` 필드 선언 되 고 정적 생성자 선언 되지 않았습니다 명시적으로 컴파일러에서 필드를 초기화 하는 정적 생성자는 초기화 됩니다.
+선언 형식에 대 `static readonly` 한 정적 생성자가 호출 될 때 필드의 값은 런타임에 계산 됩니다. `static readonly` 필드가 선언 될 때 초기화 되 고 정적 생성자가 명시적으로 선언 되지 않은 경우 컴파일러는 정적 생성자를 내보내 필드를 초기화 합니다.
 
-값을 `const` 필드는 컴파일 시 계산 하며에 비하면 런타임 성능을 향상 시키는 메타 데이터에 저장을 `static readonly` 필드입니다.
+`const` 필드의 값은 컴파일 시간에 계산 되 고 메타 데이터에 저장 되므로 `static readonly` 필드와 비교할 때 런타임 성능이 향상 됩니다.
 
-컴파일 시간에 대상된 필드에 할당 된 값을 계산할 이기 때문에 선언을 변경 하 여를 `const` 필드 값을 런타임 대신 컴파일 시간에 계산 되도록 합니다.
+대상 필드에 할당 된 값은 컴파일 시간에 계산할 수 때문에 런타임이 아닌 컴파일 시간에 값 `const` 이 계산 되도록 선언을 필드로 변경 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-이 규칙 위반 문제를 해결 하려면 대체 합니다 `static` 하 고 `readonly` 한정자와 함께 `const` 한정자입니다.
+이 규칙 위반 문제를 해결 하려면 `static` 및 `readonly` 한정자를 `const` 한정자로 바꿉니다.
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
 
-성능이 중요 하지 않은 경우이 규칙에서 경고를 표시 하거나 규칙을 사용 하지 않도록 안전 합니다.
+성능이 중요 하지 않은 경우이 규칙에서 경고를 표시 하지 않거나 규칙을 사용 하지 않도록 설정 하는 것이 안전 합니다.
 
-## <a name="configurability"></a>용이성
+## <a name="configurability"></a>구성이
 
-이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+레거시 분석이 아닌 [FxCop 분석기](install-fxcop-analyzers.md) 에서이 규칙을 실행 하는 경우 해당 액세스 가능성에 따라이 규칙을 실행할 코드 베이스 부분을 구성할 수 있습니다. 예를 들어 public이 아닌 API 화면에 대해서만 규칙을 실행 하도록 지정 하려면 프로젝트의 editorconfig 파일에 다음 키-값 쌍을 추가 합니다.
 
 ```ini
 dotnet_code_quality.ca1802.api_surface = private, internal
 ```
 
-이 범주 (성능)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
+이 규칙에 대해서만이 옵션을 구성 하거나 모든 규칙에 대해이 옵션을 구성 하거나이 범주 (성능)의 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [FxCop 분석기 구성](configure-fxcop-analyzers.md)을 참조 하세요.
 
 ## <a name="example"></a>예제
 
-다음 예제에서는 형식 `UseReadOnly`, 규칙을 위반 하는 형식이 있는 `UseConstant`, 규칙을 충족 하는 합니다.
+다음 예제에서는 규칙을 위반 하 `UseReadOnly`는, 및 규칙을 충족 하는 `UseConstant`형식을 보여 줍니다.
 
 [!code-vb[FxCop.Performance.UseLiterals#1](../code-quality/codesnippet/VisualBasic/ca1802-use-literals-where-appropriate_1.vb)]
 [!code-csharp[FxCop.Performance.UseLiterals#1](../code-quality/codesnippet/CSharp/ca1802-use-literals-where-appropriate_1.cs)]

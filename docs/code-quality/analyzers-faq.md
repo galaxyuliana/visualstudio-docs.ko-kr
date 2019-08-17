@@ -1,5 +1,5 @@
 ---
-title: EditorConfig 분석기 비교
+title: EditorConfig와 분석기 비교
 ms.date: 03/11/2019
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,53 +9,53 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bec9296f15c48cf3b327c78cd0ce7d57adafa002
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: HT
+ms.openlocfilehash: 53bd2139d5b81ed743cdfd92fe76cb575dcc6487
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62571474"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69547897"
 ---
-# <a name="analyzers-faq"></a>분석기 FAQ
+# <a name="code-analysis-faq"></a>코드 분석 FAQ
 
-이 페이지에서는 Visual Studio에서 Roslyn 분석기에 대 한 일부 자주 묻는 질문에 대답 합니다.
+이 페이지에는 Visual Studio의 .NET Compiler Platform 기반 코드 분석에 대 한 몇 가지 질문과 대답을 포함 합니다.
 
-## <a name="roslyn-analyzers-versus-editorconfig"></a>Roslyn 분석기.editorconfig 비교
+## <a name="code-analysis-versus-editorconfig"></a>코드 분석 및 EditorConfig
 
-**Q**: Roslyn 분석기 또는.editorconfig 코드 스타일에 대 한 사용 해야 합니까?
+**Q**: 코드 스타일을 확인 하는 데 코드 분석 또는 EditorConfig를 사용 해야 하나요?
 
-**A**: Roslyn 분석기 및.editorconfig 파일에 직접에서 직접 작동합니다. 코드 스타일을 정의 하는 경우 [.editorconfig 파일에](../ide/editorconfig-code-style-settings-reference.md) 또는 합니다 [텍스트 편집기 옵션](../ide/code-styles-and-quick-actions.md) 페이지를 구성 하는 실제로 Visual Studio에 기본 제공 되는 Roslyn 분석기입니다. EditorConfig 파일 같은 몇 가지 타사 분석기 패키지를 구성 하려면 사용할 수도 있습니다 [FxCop 분석기](configure-fxcop-analyzers.md)합니다.
+**A**: 코드 분석 및 editorconfig 파일은 직접 작동 합니다. [Editorconfig 파일](../ide/editorconfig-code-style-settings-reference.md) 또는 [텍스트 편집기 옵션](../ide/code-styles-and-code-cleanup.md) 페이지에서 코드 스타일을 정의 하는 경우 실제로는 Visual Studio에 기본 제공 되는 코드 분석기를 구성 하는 것입니다. EditorConfig 파일은 [FxCop 분석기](configure-fxcop-analyzers.md)와 같은 일부 타사 분석기 패키지를 구성 하는 데에도 사용할 수 있습니다.
 
-## <a name="editorconfig-versus-rule-sets"></a>EditorConfig 규칙 집합 비교
+## <a name="editorconfig-versus-rule-sets"></a>EditorConfig와 규칙 집합 비교
 
-**Q**: 규칙 집합 또는.editorconfig 파일을 사용 하 여 내 분석기를 구성 해야 합니까?
+**Q**: 규칙 집합이 나 editorconfig 파일을 사용 하 여 내 분석기를 구성 해야 하나요?
 
-**A**: 규칙 집합.editorconfig 파일와 분석기를 구성 하는 상호 배타적인 방법입니다. 공존할 수 있습니다. [규칙 집합](analyzer-rule-sets.md) 사용 하면 사용 하도록 설정 및 규칙을 사용 하지 않도록 설정 하 고 심각도 설정 합니다. EditorConfig 파일에는 규칙을 구성 하는 다른 방법을 제공 합니다. FxCop 분석기에 대 한.editorconfig 파일 수 [분석 하는 코드의 유형을 정의](fxcop-analyzer-options.md)합니다. Visual Studio에 기본 제공 되는 분석기에 대 한.editorconfig 파일 수 [기본 코드 스타일을 정의](../ide/editorconfig-code-style-settings-reference.md) 코드 베이스에 대 한 합니다.
+**A**: 규칙 집합 및 editorconfig 파일은 분석기를 구성 하는 상호 배타적인 방법입니다. 공존할 수 있습니다. 규칙 [집합](analyzer-rule-sets.md) 을 사용 하 여 규칙을 사용 하거나 사용 하지 않도록 설정 하 고 심각도를 설정할 수 있습니다. EditorConfig 파일은 규칙을 구성 하는 다른 방법을 제공 합니다. FxCop 분석기의 경우 editorconfig 파일을 사용 하 여 [분석할 코드 형식을 정의할](fxcop-analyzer-options.md)수 있습니다. Visual Studio에 기본 제공 되는 분석기의 경우 editorconfig 파일을 사용 하 여 코드 베이스에 대해 [기본 설정 된 코드 스타일을 정의할](../ide/editorconfig-code-style-settings-reference.md) 수 있습니다.
 
-일부 타사 분석기로 표시 된 텍스트 파일을 사용 하 여 구성 된 규칙 집합과.editorconfig 파일을 실행 하는 것 외에도 [추가 파일](../ide/build-actions.md#build-action-values) 에 C# 및 VB 컴파일러입니다.
+규칙 집합 및 editorconfig 파일 외에도 일부 타사 분석기는 C# 및 VB 컴파일러에 대 한 [추가 파일로](../ide/build-actions.md#build-action-values) 표시 된 텍스트 파일을 사용 하 여 구성 됩니다.
 
 > [!NOTE]
-> 규칙 집합 수 있지만 정적 코드 분석 규칙 구성에 EditorConfig 파일을 사용할 수 없습니다.
+> EditorConfig 파일은 레거시 분석을 구성 하는 데 사용할 수 없지만 규칙 집합은 사용할 수 있습니다.
 
-## <a name="analyzers-in-ci-builds"></a>CI 빌드의 분석기
+## <a name="code-analysis-in-ci-builds"></a>CI 빌드에서 코드 분석
 
-**Q**: CI (지속적인 통합) 빌드에 분석기가 작동 하나요?
+**Q**: CI (연속 통합) 빌드에서 .NET Compiler Platform 기반 코드 분석이 작동 하나요?
 
-**A**: 예. 이러한 규칙은 NuGet 패키지에서 설치 되는 분석기에 대 한 [빌드 시간에 적용](roslyn-analyzers-overview.md#build-errors)CI 빌드 중 등입니다. 둘 다에서 CI 빌드 관련 규칙 구성에 사용 되는 분석기 [규칙 집합](analyzer-rule-sets.md) 하 고 [.editorconfig 파일](configure-fxcop-analyzers.md)합니다. 현재 Visual Studio에 기본 제공 되는 코드 분석기를 NuGet 패키지로 사용할 수 없는 및 이러한 규칙에서 CI 빌드를 시행 되지 않아.
+**A**: 예. NuGet 패키지에서 설치 된 분석기의 경우 이러한 규칙은 CI 빌드 중을 포함 하 여 [빌드 시에 적용](roslyn-analyzers-overview.md#build-errors)됩니다. CI 빌드에서 사용 되는 분석기는 [규칙 집합과](analyzer-rule-sets.md) [. editorconfig 파일](configure-fxcop-analyzers.md)의 규칙 구성을 모두 고려 합니다. 현재 Visual Studio에 기본 제공 되는 코드 분석기는 NuGet 패키지로 사용할 수 없으므로 이러한 규칙은 CI 빌드에서 시행 되지 않습니다.
 
-## <a name="ide-analyzers-versus-stylecop"></a>StyleCop 및 IDE 분석기
+## <a name="ide-analyzers-versus-stylecop"></a>IDE 분석기와 StyleCop 비교
 
-**Q**: Visual Studio IDE 코드 분석기 및 StyleCop 분석기 간의 차이 무엇입니까?
+**Q**: Visual Studio IDE 코드 분석기와 StyleCop 분석기 간의 차이점은 무엇 인가요?
 
-**A**: Visual Studio IDE에서 코드 스타일 및 품질 문제를 모두 검색 하는 기본 제공 분석기를 포함 합니다. 이러한 규칙 도움이 도입 하 고 코드의 용이해 지 며 새로운 언어 기능을 사용 합니다. IDE 분석기는 지속적으로 업데이트 하는 각 Visual Studio 릴리스를 사용 하 여 합니다.
+**A**: Visual Studio IDE에는 코드 스타일 및 품질 문제를 모두 검색 하는 기본 제공 분석기가 포함 되어 있습니다. 이러한 규칙은 도입 된 새로운 언어 기능을 사용 하 고 코드의 유지 관리 효율성을 향상 시키는 데 도움이 됩니다. IDE 분석기는 Visual Studio 릴리스 마다 지속적으로 업데이트 됩니다.
 
-[StyleCop 분석기](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) 는 코드에서 스타일 일관성 확인 하는 제 3 자 분석기는 NuGet 패키지로 설치 합니다. 일반적으로 StyleCop 규칙 다른 하나의 스타일을 권장 하지 않고 코드에 대 한 개인 기본 설정을 기본 설정할 수 있습니다.
+[StyleCop 분석기](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) 는 코드에서 스타일 일관성을 검사 하는 NuGet 패키지로 설치 된 타사 분석기입니다. 일반적으로 StyleCop 규칙을 사용 하 여 코드 베이스에 대 한 특정 스타일을 권장 하지 않고 개인 기본 설정을 지정할 수 있습니다.
 
-## <a name="analyzers-versus-static-code-analysis"></a>정적 코드 분석 및 분석기
+## <a name="code-analyzers-versus-legacy-analysis"></a>코드 분석기와 레거시 분석 비교
 
-**Q**: 분석기 및 정적 코드 분석의 차이 무엇입니까?
+**Q**: 레거시 분석과 .NET Compiler Platform 기반 코드 분석의 차이점은 무엇 인가요?
 
-**A**: 정적 코드 분석 빌드가 완료 된 후 이진 파일을 분석 하는 반면 실시간에서 및 컴파일하는 동안 소스 코드를 분석 하는 분석기입니다. 자세한 내용은 [정적 코드 분석 및 Roslyn 분석기](roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis) 하 고 [FxCop 분석기 FAQ](fxcop-analyzers-faq.md)합니다.
+**A**: .NET Compiler Platform 기반 코드 분석은 컴파일 중에 소스 코드를 실시간으로 분석 하는 반면 레거시 분석은 빌드가 완료 된 후 이진 파일을 분석 합니다. 자세한 내용은 [.NET Compiler Platform 기반 분석 및 레거시 분석](roslyn-analyzers-overview.md#net-compiler-platform-based-analysis-versus-legacy-analysis) 및 [FxCop 분석기 FAQ](fxcop-analyzers-faq.md)를 참조 하세요.
 
 ## <a name="see-also"></a>참고자료
 

@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f9a3d2ef30018c7fe57f1e7d728ba1dd152f56f5
-ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
+ms.openlocfilehash: ad0659241e75c862b3d82c64a7e8b2ad3ccada21
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66714285"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69547671"
 ---
 # <a name="ca1030-use-events-where-appropriate"></a>CA1030: 적절한 경우 이벤트를 사용하세요.
 
@@ -28,39 +28,39 @@ ms.locfileid: "66714285"
 |TypeName|UseEventsWhereAppropriate|
 |CheckId|CA1030|
 |범주|Microsoft.Design|
-|변경 수준|주요 변경 아님|
+|변경 수준|최신이 아님|
 
 ## <a name="cause"></a>원인
 
-메서드 이름이 다음 중 하나를 사용 하 여 시작합니다.
+메서드 이름은 다음 중 하나로 시작 됩니다.
 
 - AddOn
 - RemoveOn
-- 실행
-- raise
+- 시키고
+- 올리려면
 
-기본적으로이 규칙만 살펴봅니다 메서드 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
+기본적으로이 규칙은 외부에서 볼 수 있는 메서드만 볼 수 있지만이는 [구성 가능](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
-이 규칙에서는 보통 이벤트에 사용되는 이름을 갖는 메서드를 찾아냅니다. 이벤트는 관찰자 또는 게시-구독 디자인 패턴에 따라 사용 하면 하나의 개체에서 상태 변경을 다른 개체에 전달 해야 합니다. 명확 하 게 정의 된 상태 변경에 대 한 응답에는 메서드가 호출 되는 경우 이벤트 처리기에서 메서드를 호출 해야 합니다. 메서드를 호출하는 개체는 메서드를 직접 호출하는 대신 이벤트를 발생시켜야 합니다.
+이 규칙에서는 보통 이벤트에 사용되는 이름을 갖는 메서드를 찾아냅니다. 이벤트는 관찰자 또는 게시-구독 디자인 패턴을 따릅니다. 한 개체의 상태 변경 내용을 다른 개체와 통신 해야 하는 경우에 사용 됩니다. 명확 하 게 정의 된 상태 변경에 대 한 응답으로 메서드를 호출 하는 경우에는 이벤트 처리기에서 메서드를 호출 해야 합니다. 메서드를 호출하는 개체는 메서드를 직접 호출하는 대신 이벤트를 발생시켜야 합니다.
 
-이벤트의 몇 가지 일반적인 예는 사용자 인터페이스 응용 프로그램 단추 클릭과 같은 사용자 작업을 실행할 코드의 세그먼트를 발생 하는 위치에 있습니다. .NET 이벤트 모델을 사용자 인터페이스에 제한 되지 않습니다. 사용 해야 원하는 위치에 하나 이상의 개체 상태가 변경 통신 해야 합니다.
+사용자 인터페이스 응용 프로그램에서 단추를 클릭 하 여 코드 세그먼트를 실행 하는 것과 같은 사용자 작업을 수행 하는 몇 가지 일반적인 이벤트 예제가 있습니다. .NET 이벤트 모델은 사용자 인터페이스로 제한 되지 않습니다. 하나 이상의 개체에 상태 변경 내용을 전달 해야 하는 모든 곳에서 사용 해야 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-개체의 상태가 변경 될 때 메서드가 호출 되는 경우에.NET 이벤트 모델을 사용 하도록 디자인을 변경 하는 것이 좋습니다.
+개체의 상태가 변경 될 때 메서드가 호출 되 면 .NET 이벤트 모델을 사용 하도록 디자인을 변경 하는 것이 좋습니다.
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
 
-.NET 이벤트 모델을 사용 하 여 메서드가 작동 하지 않는 경우이 규칙에서 경고를 표시 합니다.
+메서드가 .NET 이벤트 모델에서 작동 하지 않는 경우이 규칙에서 경고를 표시 하지 않습니다.
 
-## <a name="configurability"></a>용이성
+## <a name="configurability"></a>구성이
 
-이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+레거시 분석이 아닌 [FxCop 분석기](install-fxcop-analyzers.md) 에서이 규칙을 실행 하는 경우 해당 액세스 가능성에 따라이 규칙을 실행할 코드 베이스 부분을 구성할 수 있습니다. 예를 들어 public이 아닌 API 화면에 대해서만 규칙을 실행 하도록 지정 하려면 프로젝트의 editorconfig 파일에 다음 키-값 쌍을 추가 합니다.
 
 ```ini
 dotnet_code_quality.ca1030.api_surface = private, internal
 ```
 
-이 범주 (디자인)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
+이 규칙에 대해서만이 옵션을 구성 하거나, 모든 규칙에 대해 또는이 범주의 모든 규칙에 대해이 옵션을 구성할 수 있습니다 (디자인). 자세한 내용은 [FxCop 분석기 구성](configure-fxcop-analyzers.md)을 참조 하세요.

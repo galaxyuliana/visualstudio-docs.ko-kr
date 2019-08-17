@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: bbe62c830b7cd3454adbde8b1d3081af11ef1a6b
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: b0d5afd33ffb73c47b0f373f70c56166dbfced6d
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65841645"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69547132"
 ---
 # <a name="ca1725-parameter-names-should-match-base-declaration"></a>CA1725: 매개 변수 이름은 기본 선언과 일치해야 합니다.
 
@@ -32,9 +32,9 @@ ms.locfileid: "65841645"
 
 ## <a name="cause"></a>원인
 
-메서드의 기본 선언의 매개 변수 이름 또는 메서드는 인터페이스 선언에서 매개 변수의 이름을 메서드 재정의에서 매개 변수의 이름을 일치 하지 않습니다.
+메서드 재정의의 매개 변수 이름이 메서드의 기본 선언에 있는 매개 변수 이름 또는 메서드의 인터페이스 선언에 있는 매개 변수의 이름과 일치 하지 않습니다.
 
-기본적으로이 규칙만 살펴봅니다 메서드 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
+기본적으로이 규칙은 외부에서 볼 수 있는 메서드만 볼 수 있지만이는 [구성 가능](#configurability)합니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
@@ -42,18 +42,18 @@ ms.locfileid: "65841645"
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-이 규칙 위반 문제를 해결 하려면 기본 선언과 일치 하도록 매개 변수를 이름을 바꿉니다. 수정 프로그램은 COM 볼 수 있는 메서드에 대 한 주요 변경 합니다.
+이 규칙 위반 문제를 해결 하려면 매개 변수의 이름을 기본 선언과 일치 하도록 바꿉니다. 해결 방법은 COM 노출 메서드의 주요 변경 사항입니다.
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
 
-이전에 제공 된 라이브러리에 COM 노출 메서드를 제외 하 고이 규칙에서 경고를 표시 하지 마십시오.
+이전에 제공 된 라이브러리의 COM 노출 메서드를 제외 하 고이 규칙에서 경고를 표시 하지 마십시오.
 
-## <a name="configurability"></a>용이성
+## <a name="configurability"></a>구성이
 
-이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+레거시 분석이 아닌 [FxCop 분석기](install-fxcop-analyzers.md) 에서이 규칙을 실행 하는 경우 해당 액세스 가능성에 따라이 규칙을 실행할 코드 베이스 부분을 구성할 수 있습니다. 예를 들어 public이 아닌 API 화면에 대해서만 규칙을 실행 하도록 지정 하려면 프로젝트의 editorconfig 파일에 다음 키-값 쌍을 추가 합니다.
 
 ```ini
 dotnet_code_quality.ca1725.api_surface = private, internal
 ```
 
-이 범주 (이름 지정)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
+이 규칙에 대해서만이 옵션을 구성 하거나, 모든 규칙에 대해 또는이 범주의 모든 규칙에 대해이 옵션을 구성할 수 있습니다 (명명). 자세한 내용은 [FxCop 분석기 구성](configure-fxcop-analyzers.md)을 참조 하세요.

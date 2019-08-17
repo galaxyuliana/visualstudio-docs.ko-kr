@@ -14,12 +14,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a62120babe98ead6d78b568bc630f46a386edf02
-ms.sourcegitcommit: 2ee11676af4f3fc5729934d52541e9871fb43ee9
+ms.openlocfilehash: 70a418b211cd4340dba9c15f0bf52e3cdfdf8e8f
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "65842658"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69547906"
 ---
 # <a name="ca1010-collections-should-implement-generic-interface"></a>CA1010: 컬렉션은 제네릭 인터페이스를 구현해야 합니다.
 
@@ -28,17 +28,17 @@ ms.locfileid: "65842658"
 |TypeName|CollectionsShouldImplementGenericInterface|
 |CheckId|CA1010|
 |범주|Microsoft.Design|
-|변경 수준|주요 변경 아님|
+|변경 수준|최신이 아님|
 
 ## <a name="cause"></a>원인
 
-형식이 구현 하는 <xref:System.Collections.IEnumerable?displayProperty=fullName> 인터페이스를 구현 하지 않습니다 하지만 <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName> 인터페이스를 포함 하는 어셈블리 대상.NET. 이 규칙을 구현 하는 형식을 무시 <xref:System.Collections.IDictionary?displayProperty=fullName>합니다.
+형식은 <xref:System.Collections.IEnumerable?displayProperty=fullName> 인터페이스를 구현 하지만 <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName> 인터페이스를 구현 하지 않으며 포함 하는 어셈블리가 .net을 대상으로 합니다. 이 규칙은를 구현 <xref:System.Collections.IDictionary?displayProperty=fullName>하는 형식을 무시 합니다.
 
-기본적으로이 규칙만 살펴봅니다 형식 외부에서 볼 수 있지만 이것이 [구성할 수 있는](#configurability)합니다.
+기본적으로이 규칙은 외부에서 볼 수 있는 형식만 볼 수 있지만이를 [구성할](#configurability)수 있습니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
-컬렉션의 유용성을 높이려면 제네릭 컬렉션 인터페이스 중 하나를 구현합니다. 그런 다음 다음과 같은 제네릭 컬렉션 형식을 채울 컬렉션을 사용할 수 있습니다.
+컬렉션의 유용성을 높이려면 제네릭 컬렉션 인터페이스 중 하나를 구현합니다. 그런 다음 컬렉션을 사용 하 여 다음과 같은 제네릭 컬렉션 형식을 채울 수 있습니다.
 
 - <xref:System.Collections.Generic.List%601?displayProperty=fullName>
 - <xref:System.Collections.Generic.Queue%601?displayProperty=fullName>
@@ -46,60 +46,60 @@ ms.locfileid: "65842658"
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-이 규칙 위반 문제를 해결 하려면 다음과 같은 제네릭 컬렉션 인터페이스 중 하나를 구현 합니다.
+이 규칙 위반 문제를 해결 하려면 다음 제네릭 컬렉션 인터페이스 중 하나를 구현 합니다.
 
 - <xref:System.Collections.Generic.IEnumerable%601?displayProperty=fullName>
 - <xref:System.Collections.Generic.ICollection%601?displayProperty=fullName>
 - <xref:System.Collections.Generic.IList%601?displayProperty=fullName>
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
 
-이 규칙;에서 경고를 표시 하지 않아도 안전 합니다. 그러나 컬렉션의 사용 보다 제한 됩니다.
+이 규칙에서는 경고를 표시 하지 않아도 됩니다. 그러나 컬렉션을 사용 하는 것이 더 제한적입니다.
 
-## <a name="configurability"></a>용이성
+## <a name="configurability"></a>구성이
 
-이 규칙을 실행 하는 경우 [FxCop 분석기](install-fxcop-analyzers.md) (통해서가 아닌 정적 코드 분석), 부분을 구성할 수 있습니다 프로그램에서이 규칙을 실행 하는 코드 베이스를 해당 액세스 가능성을 기준으로 합니다. 예를 들어 규칙 public이 아닌 API 화면에 대해서만 실행 되도록 지정, 프로젝트에서.editorconfig 파일에 다음 키-값 쌍 추가:
+레거시 분석이 아닌 [FxCop 분석기](install-fxcop-analyzers.md) 에서이 규칙을 실행 하는 경우 해당 액세스 가능성에 따라이 규칙을 실행할 코드 베이스 부분을 구성할 수 있습니다. 예를 들어 public이 아닌 API 화면에 대해서만 규칙을 실행 하도록 지정 하려면 프로젝트의 editorconfig 파일에 다음 키-값 쌍을 추가 합니다.
 
 ```ini
 dotnet_code_quality.ca1010.api_surface = private, internal
 ```
 
-이 범주 (디자인)에이 규칙에 대 한 모든 규칙에 대 한, 모든 규칙에 대해이 옵션을 구성할 수 있습니다. 자세한 내용은 [구성 FxCop 분석기](configure-fxcop-analyzers.md)합니다.
+이 규칙에 대해서만이 옵션을 구성 하거나, 모든 규칙에 대해 또는이 범주의 모든 규칙에 대해이 옵션을 구성할 수 있습니다 (디자인). 자세한 내용은 [FxCop 분석기 구성](configure-fxcop-analyzers.md)을 참조 하세요.
 
-## <a name="example-violation"></a>예제 위반
+## <a name="example-violation"></a>위반 예
 
-다음 예제에서는 비 제네릭에서 파생 된 클래스 (참조 형식)를 보여 줍니다. `CollectionBase` 이 규칙을 위반 하는 클래스입니다.
+다음 예제에서는이 규칙을 위반 하는 제네릭이 `CollectionBase` 아닌 클래스에서 파생 되는 클래스 (참조 형식)를 보여 줍니다.
 
 [!code-csharp[FxCop.Design.CollectionsGenericViolation#1](../code-quality/codesnippet/CSharp/ca1010-collections-should-implement-generic-interface_1.cs)]
 
 이 규칙 위반 문제를 해결 하려면 다음 중 하나를 수행 합니다.
 
 - 제네릭 인터페이스를 구현 합니다.
-- 이미 등 모두를 제네릭 및 제네릭이 아닌 인터페이스를 구현 하는 형식으로 기본 클래스를 변경 합니다 `Collection<T>` 클래스입니다.
+- 기본 클래스를 `Collection<T>` 클래스와 같은 제네릭 및 비 제네릭 인터페이스를 이미 구현 하는 형식으로 변경 합니다.
 
-## <a name="fix-by-base-class-change"></a>기본 클래스를 변경 하 여 해결
+## <a name="fix-by-base-class-change"></a>기본 클래스 변경에의 한 수정
 
-다음 예제에서 제네릭이 아닌 컬렉션의 기본 클래스를 변경 하 여 위반을 수정 `CollectionBase` 제네릭 클래스 `Collection<T>` (`Collection(Of T)` Visual Basic에서) 클래스입니다.
+다음 예제에서는 컬렉션의 기본 클래스를 제네릭이 `CollectionBase` 아닌 클래스에서 제네릭 `Collection<T>` (`Collection(Of T)` Visual Basic) 클래스로 변경 하 여 위반을 수정 합니다.
 
 [!code-csharp[FxCop.Design.CollectionsGenericBase#1](../code-quality/codesnippet/CSharp/ca1010-collections-should-implement-generic-interface_2.cs)]
 
-이미 발표 된 클래스의 기본 클래스를 변경 하면 기존 소비자에 게 주요 변경 내용으로 간주 됩니다.
+이미 릴리스된 클래스의 기본 클래스를 변경 하는 것은 기존 소비자의 주요 변경 내용으로 간주 됩니다.
 
 ## <a name="fix-by-interface-implementation"></a>인터페이스 구현에 의해 수정
 
-다음 예제에서는 이러한 제네릭 인터페이스를 구현 하 여 위반을 수정: `IEnumerable<T>`, `ICollection<T>`, 및 `IList<T>` (`IEnumerable(Of T)`를 `ICollection(Of T)`, 및 `IList(Of T)` Visual basic에서).
+다음 `IEnumerable<T>`예제에서는,, `ICollection<T>` `IList<T>` `IEnumerable(Of T)` 및(`ICollection(Of T)`Visual Basic) 의제네릭인터페이스를구현하여위반을수정합니다.`IList(Of T)`
 
 [!code-csharp[FxCop.Design.CollectionsGenericInterface#1](../code-quality/codesnippet/CSharp/ca1010-collections-should-implement-generic-interface_3.cs)]
 
-## <a name="related-rules"></a>관련된 규칙
+## <a name="related-rules"></a>관련 규칙
 
-- [CA1005: 제네릭 형식에 매개 변수를 방지 합니다.](../code-quality/ca1005-avoid-excessive-parameters-on-generic-types.md)
-- [CA1000: 제네릭 형식에 정적 멤버를 선언 하지 마십시오](../code-quality/ca1000-do-not-declare-static-members-on-generic-types.md)
-- [CA1002: 제네릭 목록을 노출 하지 마십시오](../code-quality/ca1002-do-not-expose-generic-lists.md)
+- [CA1005: 제네릭 형식에 대 한 과도 한 매개 변수 방지](../code-quality/ca1005-avoid-excessive-parameters-on-generic-types.md)
+- [CA1000: 정적 멤버를 제네릭 형식으로 선언 하지 마십시오.](../code-quality/ca1000-do-not-declare-static-members-on-generic-types.md)
+- [CA1002: 제네릭 목록을 노출 하지 않습니다.](../code-quality/ca1002-do-not-expose-generic-lists.md)
 - [CA1006: 멤버 시그니처에 제네릭 형식을 중첩 하지 마십시오.](../code-quality/ca1006-do-not-nest-generic-types-in-member-signatures.md)
-- [CA1004: 제네릭 메서드 형식 매개 변수를 제공 해야 합니다.](../code-quality/ca1004-generic-methods-should-provide-type-parameter.md)
-- [CA1003: 제네릭 이벤트 처리기 인스턴스를 사용 합니다.](../code-quality/ca1003-use-generic-event-handler-instances.md)
-- [CA1007: 적합 한 제네릭을 사용합니다](../code-quality/ca1007-use-generics-where-appropriate.md)
+- [CA1004: 제네릭 메서드는 형식 매개 변수를 제공 해야 합니다.](../code-quality/ca1004-generic-methods-should-provide-type-parameter.md)
+- [CA1003: 제네릭 이벤트 처리기 인스턴스 사용](../code-quality/ca1003-use-generic-event-handler-instances.md)
+- [CA1007: 적절 한 경우 제네릭을 사용 합니다.](../code-quality/ca1007-use-generics-where-appropriate.md)
 
 ## <a name="see-also"></a>참고자료
 
