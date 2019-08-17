@@ -9,23 +9,23 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 0152ae9f76ea1318f717c41a70d3d46351c9021a
-ms.sourcegitcommit: 2bbcba305fd0f8800fd3d9aa16f7647ee27f3a4b
+ms.openlocfilehash: 09d5fb41648a2cd2dbd844bfb0fa426fa704042f
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68300618"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551151"
 ---
 # <a name="configure-fxcop-analyzers"></a>FxCop 분석기 구성
 
-[FxCop 분석기](install-fxcop-analyzers.md) 는 정적 코드 분석에서 Roslyn 분석기로 변환 된 가장 중요 한 "FxCop" 규칙으로 구성 됩니다. 다음 두 가지 방법으로 FxCop 코드 분석기를 구성할 수 있습니다.
+[FxCop 분석기](install-fxcop-analyzers.md) 는 레거시 분석에서 가장 중요 한 "FxCop" 규칙으로 구성 되며 .NET Compiler Platform 기반 코드 분석기로 변환 됩니다. 다음 두 가지 방법으로 FxCop 코드 분석기를 구성할 수 있습니다.
 
 - 규칙 [집합](#fxcop-analyzer-rule-sets)을 사용 하 여 규칙을 사용 하거나 사용 하지 않도록 설정 하 고 개별 규칙 위반의 심각도를 설정할 수 있습니다.
 
 - [FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet 패키지의 버전 2.6.3에서 [editorconfig 파일](#editorconfig-file)을 통해 시작 합니다. [구성 가능한 옵션](fxcop-analyzer-options.md) 을 사용 하면 분석할 코드 베이스의 부분을 구체화할 수 있습니다.
 
 > [!TIP]
-> FxCop 정적 코드 분석과 FxCop 분석기 간의 차이점에 대 한 자세한 내용은 [fxcop 분석기 FAQ](fxcop-analyzers-faq.md)를 참조 하십시오.
+> 레거시 분석과 FxCop 분석기 간의 차이점에 대 한 자세한 내용은 [fxcop 분석기 FAQ](fxcop-analyzers-faq.md)를 참조 하십시오.
 
 ## <a name="fxcop-analyzer-rule-sets"></a>FxCop 분석기 규칙 집합
 
@@ -42,7 +42,7 @@ FxCop analyzer NuGet 패키지에는 다음 규칙 범주에 대 한 미리 정�
 - 보안
 - 사용법
 
-자세한 내용은 [Roslyn 분석기에 대 한 규칙 집합](analyzer-rule-sets.md)을 참조 하세요.
+자세한 내용은 [코드 분석기에 대 한 규칙 집합](analyzer-rule-sets.md)을 참조 하세요.
 
 ## <a name="editorconfig-file"></a>EditorConfig 파일
 
@@ -90,7 +90,7 @@ FxCop analyzer NuGet 패키지에는 다음 규칙 범주에 대 한 미리 정�
 4. 프로젝트를 다시 로드 합니다.
 
 > [!NOTE]
-> Editorconfig 파일을 사용 하 여 레거시 FxCop 규칙 (정적 코드 분석 FxCop)을 구성할 수 없습니다.
+> Editorconfig 파일을 사용 하 여 레거시 FxCop 규칙을 구성할 수 없습니다.
 
 ## <a name="option-scopes"></a>옵션 범위
 

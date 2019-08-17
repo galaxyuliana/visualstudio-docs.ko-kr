@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 0415617c5e4106b72cc713f4296b48e94427e6e5
-ms.sourcegitcommit: cd21b38eefdea2cdefb53e68e7a30b868e78dd6b
+ms.openlocfilehash: 4dec35fb978b3c751e07cb6d0612ff5da27c74e5
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "66037261"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551119"
 ---
 # <a name="frequently-asked-questions-about-fxcop-and-fxcop-analyzers"></a>FxCop 및 FxCop 분석기에 대한 질문과 대답
 
@@ -31,7 +31,7 @@ FxCop 분석기는 .NET Compiler Platform("Roslyn")을 기반으로 합니다. �
 
 ## <a name="does-the-run-code-analysis-command-run-fxcop-analyzers"></a>코드 분석 실행 명령은 FxCop 분석기를 실행하나요?
 
-아니요. **분석** > **코드 분석 실행**을 선택하면 정적 코드 분석 또는 레거시 FxCop를 실행합니다. **코드 분석 실행**은 Roslyn 기반 FxCop 분석기를 포함하여 Roslyn 기반 분석기에 적용되지 않습니다.
+아니요. **분석** > **실행 코드 분석**을 선택 하면 레거시 분석이 실행 됩니다. **코드 분석 실행**은 Roslyn 기반 FxCop 분석기를 포함하여 Roslyn 기반 분석기에 적용되지 않습니다.
 
 ## <a name="does-the-runcodeanalysis-msbuild-project-property-run-analyzers"></a>RunCodeAnalysis msbuild 프로젝트 속성은 분석기를 실행하나요?
 
@@ -43,15 +43,15 @@ FxCop 분석기를 실행하려면 먼저 [NuGet 패키지를 설치합니다](i
 
 ## <a name="i-get-warning-ca0507-even-after-ive-installed-the-fxcop-analyzers-nuget-package"></a>FxCop 분석기 NuGet 패키지를 설치한 후에도 경고 CA0507이 표시됨
 
-FxCop 분석기를 설치했지만 경고 CA0507 **""코드 분석 실행"이 더 이상 사용되지 않고 대신 FxCop 분석기가 빌드 중 실행됩니다."** 가 계속 표시되는 경우에는 프로젝트 파일에서 **RunCodeAnalysis** msbuild 속성을 **false**로 설정해야 할 수 있습니다. 이렇게 설정하지 않으면 각 빌드 후에 정적 코드 분석이 실행됩니다.
+FxCop 분석기를 설치했지만 경고 CA0507 **""코드 분석 실행"이 더 이상 사용되지 않고 대신 FxCop 분석기가 빌드 중 실행됩니다."** 가 계속 표시되는 경우에는 프로젝트 파일에서 **RunCodeAnalysis** msbuild 속성을 **false**로 설정해야 할 수 있습니다. 그렇지 않으면 각 빌드 후에 레거시 분석이 실행 됩니다.
 
 ```xml
 <RunCodeAnalysis>false</RunCodeAnalysis>
 ```
 
-## <a name="which-rules-have-been-ported-to-fxcop-analyzers"></a>규칙은 FxCop 분석기에 이식 되었으며?
+## <a name="which-rules-have-been-ported-to-fxcop-analyzers"></a>FxCop 분석기로 이식 된 규칙은 무엇 인가요?
 
-에 대 한 정적 코드 분석 규칙에 이식 되었으며 자세한 [FxCop 분석기](install-fxcop-analyzers.md)를 참조 하십시오 [Fxcop 규칙 포트 상태](fxcop-rule-port-status.md)합니다.
+[Fxcop 분석기](install-fxcop-analyzers.md)로 이식 된 레거시 분석 규칙에 대 한 자세한 내용은 [fxcop 규칙 포트 상태](fxcop-rule-port-status.md)를 참조 하세요.
 
 ## <a name="see-also"></a>참고자료
 

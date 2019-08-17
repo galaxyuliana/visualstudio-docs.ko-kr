@@ -1,6 +1,6 @@
 ---
 title: PowerPoint 솔루션
-ms.date: 02/02/2017
+ms.date: 08/14/2019
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -17,12 +17,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 9d2c85a4af986c62d3e3f3c3a3f4333baa2975ee
-ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
+ms.openlocfilehash: 70968682a8221b88859fd561c9f678aced2911b9
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68926424"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551477"
 ---
 # <a name="powerpoint-solutions"></a>PowerPoint 솔루션
   Visual Studio에서는 Microsoft Office PowerPoint용 VSTO 추가 기능을 만드는 데 사용할 수 있는 프로젝트 템플릿을 제공합니다. VSTO 추가 기능을 사용하여 PowerPoint를 자동화하거나, PowerPoint 기능을 확장하거나, PowerPoint UI(사용자 인터페이스)를 사용자 지정할 수 있습니다.
@@ -31,8 +31,7 @@ ms.locfileid: "68926424"
 
  [!INCLUDE[appliesto_pptallapp](../vsto/includes/appliesto-pptallapp-md.md)]
 
-> [!NOTE]
-> [여러 플랫폼](https://dev.office.com/add-in-availability)에서 Office 환경을 확장 하는 솔루션을 개발 하는 데 관심이 있나요? 새 [Office 추가 기능 모델](https://dev.office.com/docs/add-ins/overview/office-add-ins)을 확인 하세요. Office 추가 기능은 VSTO 추가 기능과 솔루션에 비해 약간의 공간을 차지 하며, HTML5, JavaScript, CSS3, XML 등 거의 모든 웹 프로그래밍 기술을 사용 하 여 빌드할 수 있습니다.
+[!include[Add-ins note](includes/addinsnote.md)]
 
  ![비디오에 연결](../vsto/media/playvideo.gif "비디오에 연결") 관련 비디오 데모를 보려면 어떻게 할까요?를 [참조 하세요. Microsoft PowerPoint 용 추가 기능을 만듭니다. ](http://go.microsoft.com/fwlink/?LinkId=132767).
 

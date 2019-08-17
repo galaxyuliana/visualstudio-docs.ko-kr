@@ -13,23 +13,23 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: f3c8fbde60e247ca9ec5fe82c9a16f28aded2abc
-ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
+ms.openlocfilehash: a1b09b77eb051d32a3aabb929e9058786215cfb4
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66715055"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551057"
 ---
-# <a name="how-to-configure-static-code-analysis-for-managed-code"></a>방법: 관리 코드에 대 한 정적 코드 분석 구성
+# <a name="how-to-configure-legacy-analysis-for-managed-code"></a>방법: 관리 코드에 대 한 레거시 분석 구성
 
-Visual Studio에서 코드 분석의 목록에서 선택할 수 있습니다 [규칙 집합](../code-quality/rule-set-reference.md) 관리 코드 프로젝트에 적용 합니다. 기본적으로 **Microsoft 최소 권장 규칙** 규칙 집합 선택 되어 있지만 원하는 경우 설정 하는 다른 규칙을 적용할 수 있습니다. 솔루션의 프로젝트에 하나 이상의 규칙 집합을 적용할 수 있습니다.
+Visual Studio에서 코드 분석 [규칙 집합](../code-quality/rule-set-reference.md) 목록 중에서 선택 하 여 관리 코드 프로젝트에 적용할 수 있습니다. 기본적으로 **Microsoft 최소 권장 규칙** 규칙 집합 선택 되어 있지만 원하는 경우 설정 하는 다른 규칙을 적용할 수 있습니다. 솔루션의 프로젝트에 하나 이상의 규칙 집합을 적용할 수 있습니다.
 
-ASP.NET 웹 응용 프로그램에 대해 설정 하는 규칙을 구성 하는 방법에 대 한 정보를 참조 하세요. [방법: ASP.NET 웹 응용 프로그램에 대 한 코드 분석 구성](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md)합니다.
+ASP.NET 웹 응용 프로그램 [에 대 한 규칙 집합을 구성 하는 방법에 대 한 자세한 내용은 방법: ASP.NET 웹 응용 프로그램](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md)에 대 한 코드 분석을 구성 합니다.
 
 > [!NOTE]
-> 이 문서에 적용 됩니다 정적 코드 분석 되지 않습니다 [Roslyn 분석기](use-roslyn-analyzers.md), 빌드 후 코드 분석을 실행 하지는 합니다.
+> 이 문서는 빌드 후 코드 분석을 실행 하지 않는 [.NET Compiler Platform 기반 코드 분석기](use-roslyn-analyzers.md)가 아닌 레거시 분석에 적용 됩니다.
 
-## <a name="configure-a-rule-set-for-a-net-framework-project"></a>.NET Framework 프로젝트에 대 한 설정 규칙 구성
+## <a name="configure-a-rule-set-for-a-net-framework-project"></a>.NET Framework 프로젝트에 대 한 규칙 집합 구성
 
 1. 엽니다는 **코드 분석** 프로젝트의 속성 페이지의 탭 합니다. 다음 방법 중 하나에서이 수행할 수 있습니다.
 

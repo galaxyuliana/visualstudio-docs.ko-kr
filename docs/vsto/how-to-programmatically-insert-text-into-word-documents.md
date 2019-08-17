@@ -1,6 +1,6 @@
 ---
 title: '방법: 프로그래밍 방식으로 Word 문서에 텍스트 삽입'
-ms.date: 02/02/2017
+ms.date: 08/14/2019
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -16,12 +16,12 @@ ms.author: johnhart
 manager: jillfra
 ms.workload:
 - office
-ms.openlocfilehash: 3e04f3b4420cc8f3b56eee304ae199cf87fa4a3a
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 8ff5e0314e9834bd3d0f048bc82780d7e4af073d
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63412578"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551808"
 ---
 # <a name="how-to-programmatically-insert-text-into-word-documents"></a>방법: 프로그래밍 방식으로 Word 문서에 텍스트 삽입
   Microsoft Office Word 문서에 텍스트를 삽입하는 기본 방법에는 다음 세 가지가 있습니다.
@@ -33,9 +33,11 @@ ms.locfileid: "63412578"
 - <xref:Microsoft.Office.Interop.Word.Selection.TypeText%2A> 개체의 <xref:Microsoft.Office.Interop.Word.Selection> 메서드를 사용하여 커서 또는 선택 영역에 텍스트를 삽입합니다.
 
 > [!NOTE]
-> 콘텐츠 컨트롤 및 책갈피에 텍스트를 삽입할 수도 있습니다. 자세한 내용은 [콘텐츠 컨트롤](../vsto/content-controls.md) 하 고 [Bookmark 컨트롤](../vsto/bookmark-control.md)합니다.
+> 콘텐츠 컨트롤 및 책갈피에 텍스트를 삽입할 수도 있습니다. 자세한 내용은 [콘텐츠 컨트롤](../vsto/content-controls.md) 및 [책갈피 컨트롤](../vsto/bookmark-control.md)을 참조 하세요.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
+
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## <a name="insert-text-in-a-range"></a>범위에 텍스트 삽입
  <xref:Microsoft.Office.Interop.Word.Range.Text%2A> 개체의 <xref:Microsoft.Office.Interop.Word.Range> 속성을 사용하여 문서에 텍스트를 삽입합니다.
@@ -118,7 +120,7 @@ ms.locfileid: "63412578"
     [!code-vb[Trin_VstcoreWordAutomation#61](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#61)]
     [!code-csharp[Trin_VstcoreWordAutomation#61](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#61)]
 
-   사용할 수도 있습니다는 <xref:Microsoft.Office.Interop.Word.Selection.TypeBackspace%2A> 메서드를 <xref:Microsoft.Office.Interop.Word.Selection> 의 기능을 모방 하는 개체를 **백스페이스** 키보드의 키. 그러나 텍스트 삽입 및 조작의 경우 <xref:Microsoft.Office.Interop.Word.Range> 개체가 더 많은 제어를 제공합니다.
+   키보드의 **백스페이스** 키 기능 <xref:Microsoft.Office.Interop.Word.Selection.TypeBackspace%2A> 을 모방 하 <xref:Microsoft.Office.Interop.Word.Selection> 는 개체의 메서드를 사용할 수도 있습니다. 그러나 텍스트 삽입 및 조작의 경우 <xref:Microsoft.Office.Interop.Word.Range> 개체가 더 많은 제어를 제공합니다.
 
    다음 예제에서는 전체 코드를 보여 줍니다. 이 예제를 사용하려면 프로젝트의 `ThisDocument` 또는 `ThisAddIn` 클래스에서 코드를 실행합니다.
 
@@ -126,6 +128,6 @@ ms.locfileid: "63412578"
    [!code-csharp[Trin_VstcoreWordAutomation#56](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#56)]
 
 ## <a name="see-also"></a>참고자료
-- [방법: 문서에서 프로그래밍 방식으로 텍스트 서식 지정](../vsto/how-to-programmatically-format-text-in-documents.md)
-- [방법: 프로그래밍 방식으로 정의 하 고 문서에서 범위를 선택 합니다.](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)
+- [방법: 프로그래밍 방식으로 문서의 텍스트 서식 지정](../vsto/how-to-programmatically-format-text-in-documents.md)
+- [방법: 프로그래밍 방식으로 문서에서 범위 정의 및 선택](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)
 - [방법: 프로그래밍 방식으로 문서의 범위 확장](../vsto/how-to-programmatically-extend-ranges-in-documents.md)

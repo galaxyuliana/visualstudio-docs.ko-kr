@@ -10,16 +10,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 2e635f2cbbeda67c4fbed760eb7e57dfcf140d15
-ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
+ms.openlocfilehash: d6d891001bbb46e01049c2c8d71bb25372bb8c29
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "68604872"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551065"
 ---
 # <a name="fxcop-rule-port-status"></a>Fxcop 규칙 포트 상태
 
-이전 버전의 Visual Studio에서 정적 코드 분석을 이전에 사용한 경우 현재 구현에서 [FxCop 분석기](install-fxcop-analyzers.md)로 사용할 수 있는 규칙을 궁금할 수 있습니다. 이 페이지에는 이식 되지 않은 규칙 및 이식 되지 않은 규칙과 포트를 이식할 계획이 있는지 여부가 나열 됩니다.
+이전에 Visual Studio에서 정적 코드 분석을 사용한 경우 현재 구현에서 [FxCop 분석기](install-fxcop-analyzers.md)로 사용할 수 있는 규칙을 궁금할 수 있습니다. 이 페이지에는 이식 되지 않은 규칙 및 이식 되지 않은 규칙과 포트를 이식할 계획이 있는지 여부가 나열 됩니다.
 
 ## <a name="ported-rules"></a>포팅된 규칙
 
@@ -208,7 +208,7 @@ CA9999 | 분석기 버전이 일치 하지 않습니다.
 
 ### <a name="rules-that-may-be-ported"></a>이식할 수 있는 규칙
 
-다음 FxCop 정적 코드 분석 규칙은 분석기로 아직 구현 되지 않았지만 여전히 일 수 있습니다. 이는 차단 기술 이유가 나 규칙의 우선 순위가 낮은 것일 수 있습니다. 각 규칙의 포팅 상태에 대 한 자세한 내용을 보려면 **추적 문제** 열의 링크를 클릭 하십시오.
+다음 FxCop 레거시 분석 규칙은 분석기로 아직 구현 되지 않았지만 여전히 일 수 있습니다. 이는 차단 기술 이유가 나 규칙의 우선 순위가 낮은 것일 수 있습니다. 각 규칙의 포팅 상태에 대 한 자세한 내용을 보려면 **추적 문제** 열의 링크를 클릭 하십시오.
 
 규칙 ID | 추적 문제
 --- | ---
@@ -271,7 +271,7 @@ CA9999 | 분석기 버전이 일치 하지 않습니다.
 
 ### <a name="deprecated-rules"></a>사용 되지 않는 규칙
 
-다음 FxCop 정적 코드 분석 규칙은 더 이상 사용 되지 않으며 분석기로 구현 되지 않습니다. 자세한 내용은 [roslyn-분석기 GitHub 문제 페이지](https://github.com/dotnet/roslyn-analyzers/issues?utf8=%E2%9C%93&q=is:issue+label:FxCop-Port)에서 규칙 ID (예: **CA1009**)로 검색할 수 있습니다.
+다음 FxCop 레거시 분석 규칙은 더 이상 사용 되지 않으며 분석기로 구현 되지 않습니다. 자세한 내용은 [roslyn-분석기 GitHub 문제 페이지](https://github.com/dotnet/roslyn-analyzers/issues?utf8=%E2%9C%93&q=is:issue+label:FxCop-Port)에서 규칙 ID (예: **CA1009**)로 검색할 수 있습니다.
 
 - [CA1009](ca1009-declare-event-handlers-correctly.md)
 - [CA1020](ca1020-avoid-namespaces-with-few-types.md)
