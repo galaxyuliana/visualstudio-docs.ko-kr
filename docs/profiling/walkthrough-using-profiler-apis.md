@@ -11,12 +11,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 5b1b6817b31272bf01c92e77ff5b04dfff35f6ad
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 203952f712fb3b28b93d570f99e6d36f56b5f2b5
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63428122"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870284"
 ---
 # <a name="walkthrough-using-profiler-apis"></a>연습: 프로파일러 API 사용
 
@@ -37,7 +37,7 @@ ms.locfileid: "63428122"
  네이티브 코드의 경우 Visual Studio 프로파일러 API는 *VSPerf.dll*에 있습니다. 헤더 파일, *VSPerf.h* 및 가져오기 라이브러리, *VSPerf.lib*는 *Microsoft Visual Studio\2017\Team Tools\Performance Tools\PerfSDK* 디렉터리에 있습니다.  64비트 앱의 경우 폴더는 *Microsoft Visual Studio\2017\Team Tools\Performance Tools\x64\PerfSDK*입니다.
  ::: moniker-end
 
- 관리되는 코드의 경우 프로파일러 API는 *Microsoft.VisualStudio.Profiler.dll*에 있습니다. 이 DLL은 *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* 디렉터리에 있습니다. 64비트 앱의 경우 폴더는 *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*입니다. 자세한 내용은 <xref:Microsoft.VisualStudio.Profiler>을 참조하세요.
+ 관리되는 코드의 경우 프로파일러 API는 *Microsoft.VisualStudio.Profiler.dll*에 있습니다. 이 DLL은 *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools* 디렉터리에 있습니다. 64비트 앱의 경우 폴더는 *Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64*입니다. 자세한 내용은 [Profiler](/previous-versions/ms242704(v=vs.140))를 참조하세요.
 
 ## <a name="prerequisites"></a>전제 조건
  이 연습에서는 사용자가 선택한 개발 환경이 디버깅 및 샘플링을 지원하도록 구성되었다고 가정합니다. 다음 항목에서는 이러한 필수 구성 요소의 개요를 제공합니다.
@@ -170,7 +170,7 @@ DataCollection.CurrentId);
 
 ## <a name="see-also"></a>참고 항목
 
-- <xref:Microsoft.VisualStudio.Profiler>
+- [Profiler](/previous-versions/ms242704(v=vs.140))
 - [Visual Studio 프로파일러 API 참조(네이티브)](../profiling/visual-studio-profiler-api-reference-native.md)
 - [시작](../profiling/getting-started-with-performance-tools.md)
 - [명령줄에서 프로파일링](../profiling/using-the-profiling-tools-from-the-command-line.md)

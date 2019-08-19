@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: ae7cbddb3ea7d7f94b23d723f6641a95dd28ed40
-ms.sourcegitcommit: 51dad3e11d7580567673e0d426ab3b0a17584319
+ms.openlocfilehash: a9fcf54abf6227fe020d98d2fdc9aed6de021983
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66820348"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68869833"
 ---
 # <a name="use-the-mstest-framework-in-unit-tests"></a>단위 테스트에서 MSTest 프레임워크 사용
 
@@ -113,7 +113,7 @@ ClassInitialize 및 ClassCleanup은 클래스를 로드한 직후와 클래스�
 
 ## <a name="test-configuration-classes"></a>테스트 구성 클래스
 
-- <xref:Microsoft.TeamFoundation.TestManagement.Client.ObjectTypes>
+- [ObjectTypes](/previous-versions/visualstudio/visual-studio-2013/dd987428(v=vs.120))
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection>
 

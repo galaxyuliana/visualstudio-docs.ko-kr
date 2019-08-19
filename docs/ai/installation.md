@@ -9,12 +9,12 @@ ms.date: 11/13/2017
 ms.topic: conceptual
 ms.workload:
 - multiple
-ms.openlocfilehash: 15888341bf3cc7a4e9f4739ed37283e11c5ce75e
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: a81c1869bf7587aa30dbc02f0e9aec4c97776e5f
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67821402"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918039"
 ---
 # <a name="installation"></a>설치
 
@@ -37,14 +37,14 @@ Visual Studio Tools for AI는 64비트 운영 체제에 설치할 수 있습니�
 
 ## <a name="prepare-your-local-machine"></a>로컬 머신 준비
 
-로컬 컴퓨터에서 심층 학습 모델을 교육하기 전에 해당하는 필수 구성 요소가 설치되어 있는지 확인합니다. 여기에는 NVIDIA GPU용 최신 드라이버 및 라이브러리가 있는지 확인하는 작업도 포함됩니다(해당하는 경우). Python 및 Python 라이브러리(예: NumPy, SciPy 등)와, 프로젝트에서 사용하려는 적합한 심층 학습 프레임워크(예: Microsoft CNTK(Cognitive Toolkit), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch, Chainer 등)를 설치했는지도 확인해야 합니다.
+로컬 컴퓨터에서 심층 학습 모델을 교육하기 전에 해당하는 필수 구성 요소가 설치되어 있는지 확인합니다. 여기에는 NVIDIA GPU용 최신 드라이버 및 라이브러리가 있는지 확인하는 작업도 포함됩니다(해당하는 경우). Python 및 Python 라이브러리(예: NumPy, SciPy 등)와, 프로젝트에서 사용하려는 적합한 심층 학습 프레임워크(예: Microsoft CNTK(Cognitive Toolkit), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch, Chainer 등)를 설치했는지도 확인합니다.
 
 > [!NOTE]
 > 다음 하위 섹션의 소프트웨어 소개는 해당 홈 페이지에서 발췌한 것입니다.
 
 ### <a name="nvidia-gpu-driver"></a>NVIDIA GPU 드라이버
 
-심층 학습 프레임워크는 NVIDIA GPU를 활용하여 컴퓨터가 신속 정확하게 학습하고 진정한 인공 지능을 향해 확장해 나갈 수 있게 합니다. 컴퓨터에 NVIDIA GPU 카드가 있는 경우 [여기](http://www.nvidia.com/Download/index.aspx)를 방문하거나 OS 업데이트를 통해 최신 드라이버를 설치합니다.
+심층 학습 프레임워크는 NVIDIA GPU를 활용하여 컴퓨터가 신속 정확하게 학습하고 진정한 인공 지능을 향해 확장해 나갈 수 있게 합니다. 컴퓨터에 NVIDIA GPU 카드가 있으면 [NVIDIA 드라이버 다운로드](http://www.nvidia.com/Download/index.aspx)를 참조하거나 운영 체제 업데이트를 시도하여 최신 드라이버를 설치합니다.
 
 ### <a name="cuda"></a>CUDA
 
@@ -52,7 +52,7 @@ Visual Studio Tools for AI는 64비트 운영 체제에 설치할 수 있습니�
 
 CUDA를 설치하려면
 
-- 이 [사이트](https://developer.nvidia.com/cuda-80-ga2-download-archive)를 방문하여 CUDA 다운로드 및 설치합니다.
+- 이 [사이트](https://developer.nvidia.com/cuda-80-ga2-download-archive)를 방문하여 CUDA를 다운로드하고 설치합니다.
 - CUDA 런타임 라이브러리를 설치한 다음 CUDA 이진 경로를 %PATH% 또는 $Path 환경 변수에 추가합니다.
 - Windows에서 기본적으로 이 경로는 "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin"입니다.
 
@@ -239,7 +239,7 @@ pip3.5 install torchvision
 
 ### <a name="chainer"></a>Chainer
 
-[Chainer](https://chainer.org/)는 유연성을 목표로 하는 Python 기반 심층 학습 프레임워크입니다. **실행을 통한 정의 방식**(즉 동적 계산 그래프)와 객체 지향 고급 API 모두를 바탕으로 자동 차별화 API를 제공하여 신경망을 빌드 및 교육합니다.
+[Chainer](https://chainer.org/)는 유연성을 목표로 하는 Python 기반 심층 학습 프레임워크입니다. 여기서는 신경망을 빌드하고 학습하는 데 사용되는 개체 지향 고급 API 뿐만 아니라 실행별 정의 방법(동적 계산 그래프라고도 함)을 기준으로 하는 자동 차별화 API를 제공합니다.
 
 CUDA 지원을 사용하려면 [CuPy](https://github.com/cupy/cupy)를 설치합니다.
 

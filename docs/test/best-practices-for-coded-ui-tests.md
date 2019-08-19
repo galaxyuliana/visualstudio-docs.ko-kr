@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: fc2f56df75cd9abadde8474057f762118c6a840a
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 896531325b3630b97a5cc076955fae6201defac6
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67826090"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870197"
 ---
 # <a name="best-practices-for-coded-ui-tests"></a>코딩된 UI 테스트에 대한 모범 사례
 
@@ -42,11 +42,11 @@ ms.locfileid: "67826090"
 
 - UI(사용자 인터페이스)가 변경되면 테스트 메서드 또는 어설션 메서드를 다시 기록하거나 기존 테스트 메서드의 영향을 받는 섹션을 다시 기록합니다.
 
-- 테스트 대상 애플리케이션의 각 모듈에 대해 별도 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> 파일을 만듭니다. 자세한 내용은 [여러 UI 맵이 포함된 대형 애플리케이션 테스트](../test/testing-a-large-application-with-multiple-ui-maps.md)를 참조하세요.
+- 테스트 대상 애플리케이션의 각 모듈에 대해 별도 [UIMap](/previous-versions/dd580454(v=vs.140)) 파일을 만듭니다. 자세한 내용은 [여러 UI 맵이 포함된 대형 애플리케이션 테스트](../test/testing-a-large-application-with-multiple-ui-maps.md)를 참조하세요.
 
 - 테스트 대상 애플리케이션에서 UI 컨트롤을 만들 때 의미 있는 이름을 사용합니다. 의미 있는 이름을 사용하면 자동으로 생성된 컨트롤 이름에 더 큰 명확성과 유용성이 제공됩니다.
 
-- API로 코딩하여 어설션을 만드는 경우 *UIMap.cs* 파일에 있는 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> 클래스 부분에 각 어설션에 대한 메서드를 만듭니다. 어설션을 실행하려면 테스트 메서드에서 이 메서드를 호출합니다.
+- API로 코딩하여 어설션을 만드는 경우 *UIMap.cs* 파일에 있는 [UIMap](/previous-versions/dd580454(v=vs.140)) 클래스 부분에 각 어설션에 대한 메서드를 만듭니다. 어설션을 실행하려면 테스트 메서드에서 이 메서드를 호출합니다.
 
 - API로 직접 코딩하는 경우 *UIMap.Designer.cs* 파일에 생성된 클래스의 속성 및 메서드를 코드에서 가능한 한 많이 사용합니다. 이러한 클래스는 작업을 더 쉽고 안정적으로 만들며 생산성 향상에 도움이 됩니다.
 
@@ -87,7 +87,7 @@ Playback.PlaybackSettings.WaitForReadyLevel = WaitForReadyLevel.UIThreadOnly;
 
 ## <a name="see-also"></a>참고 항목
 
-- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
+- [UIMap](/previous-versions/dd580454(v=vs.140))
 - <xref:Microsoft.VisualStudio.TestTools.UITesting>
 - [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)
 - [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md)

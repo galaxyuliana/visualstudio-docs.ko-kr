@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 11ebe64bf1e3034230a9697fef0c072fc89ef282
-ms.sourcegitcommit: 3e74ec49a54e5c3da7631f4466128cdf4384af6b
+ms.openlocfilehash: 7a3839a28ce0c37c5ccf43ca1f8ddba1ecd52365
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "68711399"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68918178"
 ---
 # <a name="run-unit-tests-with-test-explorer"></a>테스트 탐색기를 사용하여 단위 테스트 실행
 
@@ -57,7 +57,7 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 ### <a name="run-tests"></a>테스트 실행
 
 ::: moniker range="vs-2017"
-솔루션의 모든 테스트, 그룹의 모든 테스트 또는 선택한 테스트 집합을 실행할 수 있습니다. 다음 중 하나를 수행합니다.
+솔루션의 모든 테스트, 그룹의 모든 테스트 또는 선택한 테스트 집합을 실행할 수 있습니다. 다음 작업 중 하나를 수행합니다.
 
 - 솔루션의 모든 테스트를 실행하려면 **모두 실행**을 선택합니다.
 
@@ -70,7 +70,7 @@ Visual Studio에는 관리 코드 및 네이티브 코드에 대한 Microsoft �
 테스트가 실행되면 **테스트 탐색기** 창 위쪽의 **통과/실패 표시줄**에 애니메이션 효과가 적용됩니다. 테스트 실행이 끝날 때 **통과/실패 표시줄**은 모든 테스트가 통과했으면 녹색이 되고 실패한 테스트가 있으면 빨간색이 됩니다.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-솔루션의 모든 테스트, 그룹의 모든 테스트 또는 선택한 테스트 집합을 실행할 수 있습니다. 다음 중 하나를 수행합니다.
+솔루션의 모든 테스트, 그룹의 모든 테스트 또는 선택한 테스트 집합을 실행할 수 있습니다. 다음 작업 중 하나를 수행합니다.
 
 - 솔루션의 모든 테스트를 실행하려면 **모두 실행** 아이콘을 선택합니다.
 
@@ -151,25 +151,25 @@ Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하�
 ### <a name="test-explorer-groups"></a>테스트 탐색기 그룹
 
 ::: moniker range="vs-2017"
-|그룹|설명|
+|그룹화|설명|
 |-|-----------------|
-|**Duration**|실행 시간별 그룹 테스트: **빠른**, **중간** 및 **느림**.|
+|**기간**|실행 시간별 그룹 테스트: **빠른**, **중간** 및 **느림**.|
 |**결과**|실행 결과별 그룹 테스트: **실패한 테스트**, **건너뛴 테스트**, **테스트에 통과함**.|
 |**특성**|정의한 범주/값 쌍을 기준으로 테스트를 그룹화합니다. 특성(trait) 범주 및 값을 지정하는 구문은 단위 테스트 프레임워크에 의해 정의됩니다.|
 |**프로젝트**|프로젝트 이름을 기준으로 테스트를 그룹화합니다.|
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-|그룹|설명|
+|그룹화|설명|
 |-|-----------------|
-|**Duration**|실행 시간별 그룹 테스트: **빠른**, **중간** 및 **느림**.|
-|**State**|실행 결과별 그룹 테스트: **실패한 테스트**, **건너뛴 테스트**, **통과된 테스트**, **실행 안 함**|
+|**기간**|실행 시간별 그룹 테스트: **빠른**, **중간** 및 **느림**.|
+|**상태**|실행 결과별 그룹 테스트: **실패한 테스트**, **건너뛴 테스트**, **통과된 테스트**, **실행 안 함**|
 |**대상 프레임워크** | 프로젝트의 대상 프레임워크별로 테스트를 그룹화합니다. |
 |**네임스페이스**|포함된 네임스페이스별로 테스트를 그룹화합니다.|
 |**프로젝트**|포함된 프로젝트별로 테스트를 그룹화합니다.|
 |**클래스**|포함된 클래스별로 테스트를 그룹화합니다.|
 ::: moniker-end
 
-### <a name="group-by-traits"></a>특성(trait)별 그룹화
+### <a name="traits"></a>특성
 
 특성(trait)은 일반적으로 범주 이름/값 쌍이지만 단일 범주일 수도 있습니다. 특성(trait)은 단위 테스트 프레임워크에서 테스트 메서드로 식별하는 메서드에 할당할 수 있습니다. 단위 테스트 프레임워크는 특성(trait) 범주를 정의할 수 있습니다. 특성(trait) 범주에 고유한 범주 이름/값 쌍을 정의하는 값을 추가할 수 있습니다. 특성(trait) 범주 및 값을 지정하는 구문은 단위 테스트 프레임워크에 의해 정의됩니다.
 
@@ -187,7 +187,7 @@ Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하�
 
 **Microsoft 단위 테스트 프레임워크의 C++ 관련 특성(trait)**
 
- [Microsoft Unit Testing Framework for C++ 사용 방법](how-to-use-microsoft-test-framework-for-cpp.md)을 참조하세요.
+[Microsoft Unit Testing Framework for C++ 사용 방법](how-to-use-microsoft-test-framework-for-cpp.md)을 참조하세요.
 
 ## <a name="create-custom-playlists"></a>사용자 지정 재생 목록 만들기
 
@@ -215,7 +215,7 @@ Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하�
 
 ![재생 목록이 별도의 테스트 탐색기 탭에서 열립니다.](../test/media/vs-2019/test-explorer-playlist-tab-16-2.png)
 
-**재생 목록에 테스트를 추가하려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 마우스 오른쪽 단추를 클릭하고 **재생 목록에 추가** > **새 재생 목록**을 선택합니다. 
+**재생 목록에 테스트를 추가하려면**테스트 탐색기에서 하나 이상의 테스트를 선택합니다. 마우스 오른쪽 단추를 클릭하고 **재생 목록에 추가** > **새 재생 목록**을 선택합니다.
 
 **재생 목록을 열려면** Visual Studio 도구 모음에서 재생 목록 아이콘을 선택하고 메뉴에서 이전에 저장된 재생 목록 파일을 선택합니다.
 ::: moniker-end
@@ -229,7 +229,7 @@ Visual Studio 편집기에서 테스트 메서드의 소스 코드를 표시하�
 
 ### <a name="filter-sort-and-rearrange-test-columns"></a>테스트 열 필터링, 정렬, 다시 정렬
 
-열을 필터링, 정렬 및 다시 정렬할 수 있습니다. 
+열을 필터링, 정렬 및 다시 정렬할 수 있습니다.
 * 특정 특성을 필터링하려면 특성 열의 맨 위에 있는 필터 아이콘을 클릭합니다.
 
   ![열 필터](../test/media/vs-2019/test-explorer-filter-column-16-2.png)
@@ -302,7 +302,7 @@ FilterName:"Criteria" -FilterName:"SubsetCriteria"
 
 ### <a name="analyze-unit-test-code-coverage"></a>단위 테스트 코드 검사 분석
 
-Visual Studio 코드 검사 도구를 사용하여 실제로 단위 테스트를 통해 테스트되는 제품 코드의 양을 결정할 수 있습니다. 솔루션의 선택된 테스트 또는 모든 테스트에 대해 코드 검사를 실행할 수 있습니다.
+Visual Studio Enterprise Edition에 제공되는 Visual Studio 코드 검사 도구를 사용하여 실제로 단위 테스트를 통해 테스트되는 제품 코드의 양을 결정할 수 있습니다. 솔루션의 선택된 테스트 또는 모든 테스트에 대해 코드 검사를 실행할 수 있습니다.
 
 솔루션에서 테스트 메서드에 대한 코드 검사를 실행하려면
 
@@ -331,6 +331,8 @@ Visual Studio 코드 검사 도구를 사용하여 실제로 단위 테스트를
 |-|------------------------|
 |TestExplorer.DebugAllTestsInContext|**Ctrl**+**R**, **Ctrl**+**T**|
 |TestExplorer.RunAllTestsInContext|**Ctrl**+**R**, **T**|
+|TestExplorer.RunAllTests|**Ctrl**+**R**, **A**|
+|TestExplorer.RepeatLastRun|**Ctrl**+**R**, **L**|
 
 > [!NOTE]
 > 테스트는 추상 클래스에서 인스턴트화되지 않고 정의되기 때문에 추상 클래스에서 테스트를 실행할 수 없습니다. 추상 클래스에서 테스트를 실행하려면 추상 클래스에서 파생되는 클래스를 만듭니다.

@@ -1,18 +1,18 @@
 ---
-title: Mac용 Visual Studio에서 ASP.NET Core 애플리케이션 빌드
+title: ASP.NET Core 애플리케이션 빌드
 description: 이 문서에서는 설치 및 새 프로젝트 만들기를 포함하여 Mac용 Visual Studio에서 ASP.NET을 시작하는 방법을 설명합니다.
 author: sayedihashimi
 ms.author: sayedha
 ms.date: 05/30/2019
 ms.assetid: 771C2F8E-46BC-4280-AFE8-ED9D5C7790CE
-ms.openlocfilehash: f0a2e8433877b3eb61228a886280707f3b4a37fe
-ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
+ms.openlocfilehash: 345111144e0e209d91d34e53fefcd7d1207d9a8a
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "67693136"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68872898"
 ---
-# <a name="building-aspnet-core-applications-in-visual-studio-for-mac"></a>Mac용 Visual Studio에서 ASP.NET Core 애플리케이션 빌드 
+# <a name="building-aspnet-core-applications-in-visual-studio-for-mac"></a>Mac용 Visual Studio에서 ASP.NET Core 애플리케이션 빌드
 
 ASP.NET Core는 웹앱 및 웹 서비스, IoT 앱, 모바일 백 엔드처럼 최신 클라우드 기반의 인터넷으로 연결된 애플리케이션을 빌드하기 위한 오픈 소스의 플랫폼 간 프레임워크입니다. ASP.NET Core 앱은 [.NET Core](https://www.microsoft.com/net/core/platform) 또는 .NET Framework 런타임에서 실행할 수 있습니다. 클라우드에 배포되거나 온-프레미스 실행되는 앱에 최적화된 개발 프레임워크를 제공하도록 설계되었습니다. 이 앱에는 최소 오버헤드의 모듈식 구성 요소로 구성되어 있어 솔루션을 구축하는 동안 유연성을 유지합니다. Windows, Mac 및 Linux에서 ASP.NET Core 앱을 플랫폼 간에 개발하여 실행할 수 있습니다. ASP.NET Core는 [GitHub](https://github.com/aspnet/home)에서 오픈 소스로 제공됩니다.
 

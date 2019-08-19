@@ -18,12 +18,12 @@ ms.topic: conceptual
 ms.workload:
 - multiple
 monikerRange: vs-2017
-ms.openlocfilehash: eabfb7ffd365ab377bc80997138a4f3368db488d
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4fd3bde36b81dde254f3447d46bd05ffc41c6cde
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62583492"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925912"
 ---
 # <a name="whats-new-in-visual-studio-2017"></a>Visual Studio 2017의 새로운 기능
 
@@ -36,14 +36,14 @@ Visual Studio의 이전 버전에서 업그레이드하려고 하십니까? Visu
 
 이전 버전 Visual Studio 2015부터 적용해 온 변경을 높은 수준에서 요약한 사항입니다.
 
-* **[재정의된 기본 사항](#redefined-fundamentals)**. 새로운 설치 환경을 통해 더 빠르게 설치하고, 필요할 때 원하는 항목을 설치할 수 있습니다.
-* **[성능 및 생산성](#performance-and-productivity)**. 새로운 최신 모바일, 클라우드 및 데스크톱 개발 기능에 집중했습니다. 또한 Visual Studio는 더 빨리 시작하고, 더 빨리 응답하며, 이전보다 적은 메모리를 사용합니다.
-* **[Azure로 클라우드 앱 개발](#cloud-app-development-with-azure)**. 기본 제공 Azure 도구 모음을 통해 Microsoft Azure 기반의 클라우드 중심 앱을 쉽게 만들 수 있습니다. Visual Studio를 사용하면 Azure에서 직접 앱과 서비스를 쉽게 구성, 빌드, 디버그, 패키징 및 배포할 수 있습니다.
-* **[Windows 앱 개발](#windows-app-development)**. Visual Studio 2017의 UWP 템플릿을 사용하여 모든 Windows 10 디바이스 &ndash; PC, 태블릿, 전화, Xbox, HoloLens, Surface Hub 등에 대한 단일 프로젝트를 만듭니다.
-* **[모바일 앱 개발](#mobile-app-development)**. 하나의 핵심 코드베이스와 기술 집합으로 다중 플랫폼 모바일 요구 사항을 통합하는 Xamarin에서 혁신적인 결과를 빠르게 얻습니다.
-* **[플랫폼 간 개발](#cross-platform-development)**. 모든 대상 플랫폼에 소프트웨어를 원활하게 제공할 수 있습니다. Redgate 데이터 도구를 통해 DevOps 프로세스를 SQL Server로 확장하고 Visual Studio에서 데이터베이스 배포를 안전하게 자동화할 수 있습니다. 또는 .NET Core를 사용하여 Windows, Linux 및 macOS 운영 체제에서 수정되지 않고 실행되는 앱 및 라이브러리를 작성할 수 있습니다.
-* **[게임 개발](#games-development)**. VSTU(Visual Studio Tools for Unity)를 사용하면 Visual Studio를 통해 게임 및 편집기 스크립트를 C#으로 작성한 다음 강력한 디버거를 사용하여 오류를 찾고 수정할 수 있습니다.
-* **[AI 개발](#ai-development)**. Visual Studio Tools for AI를 통해 Visual Studio의 생산성 기능을 사용하여 AI 혁신을 가속화할 수 있습니다. Azure Machine Learning과 원활하게 통합되는 딥 러닝/AI 솔루션을 빌드, 테스트 및 배포하여 강력한 실험 기능을 제공할 수 있습니다.
+* **[재정의된 기본 사항](#redefined-fundamentals)** . 새로운 설치 환경을 통해 더 빠르게 설치하고, 필요할 때 원하는 항목을 설치할 수 있습니다.
+* **[성능 및 생산성](#performance-and-productivity)** . 새로운 최신 모바일, 클라우드 및 데스크톱 개발 기능에 집중했습니다. 또한 Visual Studio는 더 빨리 시작하고, 더 빨리 응답하며, 이전보다 적은 메모리를 사용합니다.
+* **[Azure로 클라우드 앱 개발](#cloud-app-development-with-azure)** . 기본 제공 Azure 도구 모음을 통해 Microsoft Azure 기반의 클라우드 중심 앱을 쉽게 만들 수 있습니다. Visual Studio를 사용하면 Azure에서 직접 앱과 서비스를 쉽게 구성, 빌드, 디버그, 패키징 및 배포할 수 있습니다.
+* **[Windows 앱 개발](#windows-app-development)** . Visual Studio 2017의 UWP 템플릿을 사용하여 모든 Windows 10 디바이스 &ndash; PC, 태블릿, 전화, Xbox, HoloLens, Surface Hub 등에 대한 단일 프로젝트를 만듭니다.
+* **[모바일 앱 개발](#mobile-app-development)** . 하나의 핵심 코드베이스와 기술 집합으로 다중 플랫폼 모바일 요구 사항을 통합하는 Xamarin에서 혁신적인 결과를 빠르게 얻습니다.
+* **[플랫폼 간 개발](#cross-platform-development)** . 모든 대상 플랫폼에 소프트웨어를 원활하게 제공할 수 있습니다. Redgate 데이터 도구를 통해 DevOps 프로세스를 SQL Server로 확장하고 Visual Studio에서 데이터베이스 배포를 안전하게 자동화할 수 있습니다. 또는 .NET Core를 사용하여 Windows, Linux 및 macOS 운영 체제에서 수정되지 않고 실행되는 앱 및 라이브러리를 작성할 수 있습니다.
+* **[게임 개발](#games-development)** . VSTU(Visual Studio Tools for Unity)를 사용하면 Visual Studio를 통해 게임 및 편집기 스크립트를 C#으로 작성한 다음 강력한 디버거를 사용하여 오류를 찾고 수정할 수 있습니다.
+* **[AI 개발](#ai-development)** . Visual Studio Tools for AI를 통해 Visual Studio의 생산성 기능을 사용하여 AI 혁신을 가속화할 수 있습니다. Azure Machine Learning과 원활하게 통합되는 딥 러닝/AI 솔루션을 빌드, 테스트 및 배포하여 강력한 실험 기능을 제공할 수 있습니다.
 
 > [!NOTE]
 > Visual Studio 2017의 새로운 기능에 대한 전체 목록은 [현재 릴리스 정보](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)를 참조하세요. 향후 제공할 기능을 살펴보려면 [미리 보기 릴리스 정보](/visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default&contextView=vs-2017)를 참조하세요.
@@ -60,7 +60,7 @@ Visual Studio를 사용하면 필요할 때 필요한 기능만 쉽고 빠르게
 
 필요한 작업을 선택하고, 필요할 때 변경합니다.
 
- ![Visual Studio 2017 설정 대화 상자](../install/media/install-visual-studio-enterprise.png)
+![Visual Studio 2017 설정 대화 상자](../install/media/install-visual-studio-enterprise.png)
 
 또한 설치를 상세 조정하는 옵션도 있습니다.
 
@@ -108,11 +108,11 @@ Visual Studio의 확장 목록을 보려면 **도구** > **확장 및 업데이�
 
 로밍 중인 확장 관리자를 사용하는 경우 3개의 아이콘 형식이 목록에 표시됩니다.
 
-* ![로밍 아이콘](media/vs2017ide-roamedicon.png) **_로밍_**: 이 로밍 목록에 포함되어 있지만, 머신에 설치되지 않은 확장입니다.
+* ![로밍 아이콘](media/vs2017ide-roamedicon.png) **_로밍_** : 이 로밍 목록에 포함되어 있지만, 머신에 설치되지 않은 확장입니다.
   **다운로드** 단추를 사용하여 이러한 확장을 설치할 수 있습니다.
-* ![로밍 및 설치 아이콘](media/vs2017ide-roamedinstalledicon.png) **_로밍 및 설치_**: 로밍 목록에 포함되어 있고 개발 환경에 설치된 모든 확장입니다.
+* ![로밍 및 설치 아이콘](media/vs2017ide-roamedinstalledicon.png) **_로밍 및 설치_** : 로밍 목록에 포함되어 있고 개발 환경에 설치된 모든 확장입니다.
   로밍하지 않도록 결정하는 경우 **로밍 중지** 단추를 사용하여 이러한 확장을 제거할 수 있습니다.
-* ![설치 아이콘](media/vs2017ide-installedicon.png) **_설치됨_**: 이 환경에 설치되어 있지만 로밍 목록에 포함되지 않은 모든 확장입니다.
+* ![설치 아이콘](media/vs2017ide-installedicon.png) **_설치됨_** : 이 환경에 설치되어 있지만 로밍 목록에 포함되지 않은 모든 확장입니다.
   **로밍 시작** 단추를 사용하여 로밍 목록에 확장을 추가할 수 있습니다.
 
 로그인되어 있는 동안 다운로드한 모든 확장은 목록에 **로밍 및 설치**로 추가됩니다. 그런 다음, 확장이 로밍 목록에 포함되고, 모든 컴퓨터에서 액세스할 수 있습니다.
@@ -178,7 +178,7 @@ A에서 B로 이동하는 데 도움이 되는 탐색 환경을 새로 고쳐 �
 
 * **구현으로 이동** (**Ctrl**+**F12**)&ndash; 모든 베이스 형식 또는 멤버에서 다양한 구현으로 이동합니다.
 
-* **전체로 이동**(**Ctrl**+**T** 또는 **Ctrl**+**,**) &ndash;모든 파일/형식/멤버/기호 선언으로 직접 이동합니다. 결과 목록을 필터링하거나 쿼리 구문을 사용할 수 있습니다(예: 파일의 경우 “f searchTerm”, 형식의 경우 “t searchTerm”).
+* **전체로 이동**(**Ctrl**+**T** 또는 **Ctrl**+ **,** ) &ndash;모든 파일/형식/멤버/기호 선언으로 직접 이동합니다. 결과 목록을 필터링하거나 쿼리 구문을 사용할 수 있습니다(예: 파일의 경우 “f searchTerm”, 형식의 경우 “t searchTerm”).
 
   ![전체로 이동 기능 향상](media/vs2017ide-navigation-go-to.png)
 
@@ -262,7 +262,7 @@ Visual Studio에서 C++ 핵심 지침을 배포하고, C++11 및 C++ 기능에 �
 
 UWP(Universal Windows Platform)는 Windows 10용 앱 플랫폼입니다. API 집합 하나, 앱 패키지 하나 및 스토어 하나만으로 UWP용 앱을 개발하여 모든 Windows 10 디바이스 &ndash; PC, 태블릿, 전화, Xbox, HoloLens, Surface Hub 등에 연결할 수 있습니다. UWP는 다양한 화면 크기와 터치, 마우스와 키보드, 게임 컨트롤러 또는 펜을 비롯한 다양한 인터랙션 모델을 지원합니다. UWP 앱의 핵심은 작업 환경이 사용자의 모든 디바이스에서 이동이 가능하여 현재 진행 중인 작업에 가장 편리하거나 생산적인 디바이스를 사용하기를 바란다는 점입니다.
 
- ![UWP](../cross-platform/media/uwp_coreextensions.png)
+![UWP](../cross-platform/media/uwp_coreextensions.png)
 
 &mdash;C#, Visual Basic, C++ 또는 JavaScript&mdash; 중에서 원하는 개발 언어를 선택하여 Windows 10 디바이스용 유니버설 Windows 플랫폼 앱을 만듭니다. Visual Studio 2017은 모든 디바이스에 대해 단일 프로젝트를 만들 수 있도록 각 언어에 UWP 앱 템플릿을 제공합니다. 작업을 마치면 Visual Studio 내에서 앱 패키지를 생성하고 Microsoft Store에 제출하여 Windows 10 디바이스를 사용하는 고객에게 앱을 제공할 수 있습니다.
 
@@ -377,11 +377,11 @@ Visual Studio 2017에서 진행 중인 다른 기능에 대해 더 알고 싶은
 
 피드백을 보낼 때는 Visual Studio 팀에 피드백을 보내는 이유도 함께 알려 주세요. Microsoft는 고객 여러분의 피드백을 소중하게 생각하며, Microsoft에서 추진하는 업무에 큰 역할을 합니다.
 
-Visual Studio를 개선하는 방법을 제안하거나 제품 지원 옵션에 대해 자세히 알아보려면 [의견 보내기](talk-to-us.md) 페이지를 참조하세요.
+Visual Studio를 개선하는 방법을 제안하거나 제품 지원 옵션에 대해 자세히 알아보려면 [의견 보내기](feedback-options.md) 페이지를 참조하세요.
 
 ### <a name="report-a-problem"></a>문제 보고
 
- 발생한 문제의 전반적인 영향을 메시지만으로 전달할 수 없는 경우도 있습니다. 시스템 중단, 충돌 또는 기타 성능 문제가 발생하는 경우 **문제 보고** 도구를 사용하여 쉽게 재현 단계 및 지원 파일(예: 스크린샷, 추적 및 힙 덤프 파일)을 공유할 수 있습니다. 이 도구를 사용하는 방법에 대한 자세한 내용은 [문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md) 페이지를 참조하세요.
+발생한 문제의 전반적인 영향을 메시지만으로 전달할 수 없는 경우도 있습니다. 시스템 중단, 충돌 또는 기타 성능 문제가 발생하는 경우 **문제 보고** 도구를 사용하여 쉽게 재현 단계 및 지원 파일(예: 스크린샷, 추적 및 힙 덤프 파일)을 공유할 수 있습니다. 이 도구를 사용하는 방법에 대한 자세한 내용은 [문제를 보고하는 방법](how-to-report-a-problem-with-visual-studio.md) 페이지를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

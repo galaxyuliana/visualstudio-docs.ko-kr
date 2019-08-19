@@ -17,12 +17,12 @@ ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4a2c95a460f7e3003db5cdec67e5bf142295719a
-ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
+ms.openlocfilehash: dbe00e53942827c96831889339f82d2f5e4dff7a
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68416934"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925824"
 ---
 # <a name="understand-build-platforms"></a>빌드 플랫폼 이해
 
@@ -30,9 +30,11 @@ ms.locfileid: "68416934"
 
 ## <a name="in-this-section"></a>단원 내용
 
- [방법: 플랫폼을 대상으로 한 프로젝트 구성](../ide/how-to-configure-projects-to-target-platforms.md) 특정 플랫폼을 대상으로 한 프로젝트를 구성하는 방법을 설명합니다.
+[방법: 플랫폼을 대상으로 한 프로젝트 구성](../ide/how-to-configure-projects-to-target-platforms.md)\
+특정 플랫폼을 대상으로 한 프로젝트를 구성하는 방법을 설명합니다.
 
- [방법: 여러 플랫폼을 대상으로 한 프로젝트 구성](../ide/how-to-configure-projects-to-target-multiple-platforms.md) 여러 플랫폼을 대상으로 한 프로젝트를 구성하는 방법을 설명합니다.
+[방법: 여러 플랫폼을 대상으로 한 프로젝트 구성](../ide/how-to-configure-projects-to-target-multiple-platforms.md)\
+여러 플랫폼을 대상으로 한 프로젝트를 구성하는 방법을 설명합니다.
 
 ## <a name="see-also"></a>참고 항목
 

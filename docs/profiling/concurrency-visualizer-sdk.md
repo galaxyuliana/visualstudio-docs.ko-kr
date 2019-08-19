@@ -10,12 +10,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e2ade3e1b5a2317d16d668079275506509aeef7a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 33b8f0215e09dd43c265c7eb8ba08613132fabbc
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63001113"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870304"
 ---
 # <a name="concurrency-visualizer-sdk"></a>동시성 시각화 도우미 SDK
 동시성 시각화 도우미에서 추가 정보를 표시하도록 동시성 시각화 도우미 SDK를 사용하여 소스 코드를 계측할 수 있습니다. 코드의 단계 및 이벤트와 추가 데이터를 연결할 수 있습니다. 이러한 추가 시각화를 *표식*이라고 합니다.  소개 연습에 대해서는 [Introducing the Concurrency Visualizer SDK](http://go.microsoft.com/fwlink/?LinkId=235405)(동시성 시각화 도우미 SDK 소개)를 참조하세요.
@@ -27,7 +27,7 @@ ms.locfileid: "63001113"
  동시성 시각화 도우미에서 표식을 생성하는 데 사용할 수 있는 기본 공급자를 표시합니다. 공급자는 이미 동시성 시각화 도우미에 등록되어 있으며 표식을 UI에 표시하기 위해 다른 작업을 수행할 필요가 없습니다.
 
 ### <a name="c-and-visual-basic"></a>C# 및 Visual Basic
- C#, Visual Basic 및 기타 관리 코드에서 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers>를 호출하여 기본 공급자를 사용하세요. 그러면 표식을 생성하기 위한 네 가지 함수인 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.WriteFlag%2A>, <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.EnterSpan%2A>, <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.WriteMessage%2A> 및 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.WriteAlert%2A>가 표시됩니다. 속성에 대한 기본값을 사용하려는지 여부에 따라 이러한 함수에 대한 오버로드가 여러 개 있습니다.  가장 간단한 오버로드는 이벤트에 대한 설명을 지정하는 문자열 매개 변수만 사용합니다. 설명은 동시성 시각화 보고서에 표시됩니다.
+ C#, Visual Basic 및 기타 관리 코드에서 [Markers](/previous-versions/hh694099(v=vs.140)) 클래스의 메서드를 호출하여 기본 공급자를 사용하세요. 그러면 표식을 생성하는 네 가지 메서드 [WriteFlag](/previous-versions/hh694185%28v%3dvs.140%29), [EnterSpan](/previous-versions/hh694205(v=vs.140)), [WriteMessage](/previous-versions/hh694161(v=vs.140)) 및 [WriteAlert](/previous-versions/hh694180(v=vs.140))가 표시됩니다. 속성에 대한 기본값을 사용하려는지 여부에 따라 이러한 함수에 대한 오버로드가 여러 개 있습니다.  가장 간단한 오버로드는 이벤트에 대한 설명을 지정하는 문자열 매개 변수만 사용합니다. 설명은 동시성 시각화 보고서에 표시됩니다.
 
 ##### <a name="to-add-sdk-support-to-a-c-or-visual-basic-project"></a>C# 또는 Visual Basic 프로젝트에 SDK 지원을 추가하려면
 
@@ -76,7 +76,7 @@ ms.locfileid: "63001113"
 
 #### <a name="to-use-a-new-marker-provider-in-a-c-or-visual-basic-project"></a>C# 또는 Visual Basic 프로젝트에서 새 표식 공급자를 사용하려면
 
-1. <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> 개체를 만듭니다.  생성자는 GUID를 사용합니다.
+1. [MarkerWriter](/previous-versions/hh694138(v=vs.140)) 개체를 만듭니다.  생성자는 GUID를 사용합니다.
 
 2. 공급자를 등록하려면 동시성 시각화 도우미 [고급 설정](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) 대화 상자를 엽니다.  **표식** 탭을 선택한 다음 **새 공급자 추가** 단추를 선택합니다. [고급 설정](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) 대화 상자에서 공급자 및 공급자에 대한 설명을 만드는 데 사용된 GUID를 입력합니다.
 
@@ -88,7 +88,7 @@ ms.locfileid: "63001113"
 
 #### <a name="to-use-a-marker-series-in-a-c-or-visual-basic-project"></a>C# 또는 Visual Basic 프로젝트에서 표식 계열을 사용하려면
 
-1. 새 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries>를 사용하려면 먼저 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerWriter> 개체를 사용하여 이를 만든 다음 새 계열에서 직접 표식 이벤트를 생성합니다.
+1. 새 [MarkerSeries](/previous-versions/hh694127(v=vs.140))를 사용하려면 먼저 [MarkerWriter](/previous-versions/hh694138(v=vs.140)) 개체를 사용하여 이를 만든 다음, 새 계열에서 직접 표식 이벤트를 생성합니다.
 
     ```csharp
     MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries("Series 1");
@@ -125,5 +125,5 @@ ms.locfileid: "63001113"
 |-----------|-----------------|
 |[C++ 라이브러리 참조](../profiling/cpp-library-reference.md)|C++용 동시성 시각화 도우미 API를 설명합니다.|
 |[C 라이브러리 참조](../profiling/c-library-reference.md)|C용 동시성 시각화 도우미 API를 설명합니다.|
-|<xref:Microsoft.ConcurrencyVisualizer.Instrumentation>|관리 코드용 동시성 시각화 도우미 API를 설명합니다.|
+|[계측](/previous-versions/hh694104(v=vs.140))|관리 코드용 동시성 시각화 도우미 API를 설명합니다.|
 |[동시성 시각화 도우미](../profiling/concurrency-visualizer.md)|동시성 방법을 사용하여 생성되고 스레드 실행 데이터를 포함하는 프로파일링 데이터 파일의 뷰 및 보고서에 대한 정보를 참조합니다.|
