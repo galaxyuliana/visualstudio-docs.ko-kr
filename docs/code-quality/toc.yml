@@ -1,10 +1,10 @@
 - name: 코드 분석 설명서
   href: index.md
-- name: 관리 코드에 대한 코드 분석
+- name: 관리 코드 분석
   items:
     - name: 개요
       href: code-analysis-for-managed-code-overview.md
-    - name: Roslyn 분석기(소스 분석)
+    - name: 코드 분석
       items:
         - name: 개요
           displayName: 'roslyn analyzers, source analysis'
@@ -17,32 +17,32 @@
           href: how-to-enable-and-disable-full-solution-analysis-for-managed-code.md
         - name: FAQ
           href: analyzers-faq.md
-    - name: 이진 분석기(정적 코드 분석)
+    - name: 레거시 분석
       items:
         - name: 개요
           displayName: 'static code analysis, binary analysis'
           href: static-code-analysis-for-managed-code-overview.md
-        - name: 정적 코드 분석 연습
+        - name: 레거시 분석 연습
           href: walkthrough-analyzing-managed-code-for-code-defects.md
         - name: 마이그레이션
           href: fxcop-analyzers.yml
-        - name: 수동으로 코드 분석 실행
+        - name: 수동으로 레거시 분석 실행
           href: how-to-run-code-analysis-manually-for-managed-code.md
         - name: 구성
           items:
-            - name: 이진 분석기의 코드 분석 구성
+            - name: 레거시 분석 구성
               href: how-to-configure-code-analysis-for-a-managed-code-project.md
-            - name: 자동 코드 분석 사용
+            - name: 자동 레거시 코드 분석 사용
               href: how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md
-            - name: 코드 분석 사전 사용자 지정
+            - name: 레거시 코드 분석 사전 사용자 지정
               href: how-to-customize-the-code-analysis-dictionary.md
         - name: 표시 안 함
           items:
-            - name: 생성된 코드에 대한 정적 코드 분석 경고 표시 안 함
+            - name: 생성된 코드에 대한 레거시 분석 경고 표시 안 함
               href: how-to-suppress-code-analysis-warnings-for-generated-code.md
-        - name: 코드 분석 애플리케이션 오류
+        - name: 레거시 분석 애플리케이션 오류
           items:
-            - name: 코드 분석 정책 오류
+            - name: 레거시 분석 정책 오류
               href: code-analysis-policy-errors.md
             - name: 개요
               href: code-analysis-application-errors.md
@@ -104,7 +104,7 @@
           items:
             - name: 체크 인 정책을 만들거나 업데이트하는 방법
               href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
-            - name: 코드 분석 체크 인 정책 구현
+            - name: 레거시 분석 체크 인 정책 구현
               href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
             - name: 유지 관리 가능한 코드 적용
               href: how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md
@@ -127,7 +127,7 @@
               href: fxcop-analyzer-options.md
         - name: FAQ
           href: fxcop-analyzers-faq.md
-    - name: 정적 분석에서 FxCop 분석기로 마이그레이션
+    - name: 레거시 분석에서 FxCop 분석기로 마이그레이션
       items:
         - name: 개요
           href: fxcop-analyzers.yml
@@ -698,6 +698,10 @@
                   href: ca5378.md
                 - name: 'CA5386: SecurityProtocolType 값을 하드 코딩하지 마세요.'
                   href: ca5386.md
+                - name: 'CA5397: 사용되지 않는 SslProtocols 값을 사용하지 마세요.'
+                  href: ca5397.md
+                - name: 'CA5398: SslProtocols 값을 하드 코딩하지 마세요.'
+                  href: ca5398.md
             - name: 사용법 경고
               items:
                 - name: 개요
@@ -791,7 +795,7 @@
                   href: ca2243-attribute-string-literals-should-parse-correctly.md
             - name: 자동 기능 일시 중단
               href: automatic-feature-suspension.md
-- name: C/C++용 코드 분석
+- name: C/C++ 코드 분석
   items:
     - name: 개요
       displayName: C++ code analysis
