@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 6a49f7fe74977495c3e2a99e7311d4349ccd67bd
-ms.sourcegitcommit: 0f5f7955076238742f2071d286ad8e896f3a6cad
+ms.openlocfilehash: a68b22b5a4fedb7d3548ac3aceda7c4dc109bebe
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "68483546"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870864"
 ---
 # <a name="work-with-multiple-user-accounts"></a>Work with multiple user accounts
 
@@ -33,7 +33,7 @@ Microsoft 계정 또는 조직 계정으로 Visual Studio에 로그인합니다.
 
 ### <a name="access-your-azure-account-in-server-explorer"></a>서버 탐색기에서 Azure 계정 액세스
 
-**Ctrl**+**Alt**+**S**를 눌러 **서버 탐색기**를 엽니다. **Azure** 아이콘을 확장하고 Visual Studio에 로그인할 때 사용한 계정과 연결된 Azure 계정에서 사용할 수 있는 리소스가 포함되어 있습니다. 다음 이미지와 비슷하게 나타납니다.
+서버 탐색기를 열려면 **보기** > **서버 탐색기**를 선택합니다(또는 "일반" [환경 설정](../ide/environment-settings.md)을 사용하는 경우 **Ctrl**+**Alt**+**S**를 누름). **Azure** 아이콘을 확장하고 Visual Studio에 로그인할 때 사용한 계정과 연결된 Azure 계정에서 사용할 수 있는 리소스가 포함되어 있습니다. 다음 이미지와 비슷하게 나타납니다.
 
 ![Azure 노드가 확장된 서버 탐색기](../ide/media/work-with-multiple-user-accounts/server-explorer.png)
 

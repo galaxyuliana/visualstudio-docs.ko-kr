@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a01f08d430e9812283c3f5179e08d20f98a687a4
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 30c67bb85a7cf72090ea37680daa12933c44b0cb
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63003280"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870160"
 ---
 # <a name="get-started-with-unit-testing"></a>유닛 테스트 시작
 
@@ -165,6 +165,8 @@ Boost, Google, NUnit 등의 타사 테스트 프레임워크를 사용하여 Vis
    ![솔루션 탐색기의 NUnit NuGet 종속성](media/vs-2019/nunit-nuget-dependencies.png)
 
 4. 테스트할 코드가 포함된 프로젝트에 테스트 프로젝트의 참조를 추가합니다.
+
+   **솔루션 탐색기**에서 프로젝트를 마우스 오른쪽 단추로 클릭한 다음, **추가** > **참조**를 선택합니다. **참조** 또는 **종속성** 노드의 오른쪽 클릭 메뉴에서 참조를 추가할 수도 있습니다.
 
 5. 테스트 메서드에 코드를 추가합니다.
 

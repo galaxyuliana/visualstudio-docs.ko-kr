@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3dfaa1fb344f11817cc67a074580c726f3d23036
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 4eb49e4e84f61e817e3df8bbbdd20c6922d180ee
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62429189"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68926736"
 ---
 # <a name="test-a-large-application-with-multiple-ui-maps"></a>여러 UI 맵이 포함된 대형 애플리케이션 테스트
 
@@ -27,7 +27,7 @@ ms.locfileid: "62429189"
 
 - Visual Studio Enterprise
 
-새로 코딩된 UI 테스트를 만들면 Visual Studio 테스트 프레임워크에서는 기본적으로 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> 클래스에 테스트 코드를 생성합니다. 코딩된 UI 테스트를 기록하는 방법에 대한 자세한 내용은 [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md) 및 [코딩된 UI 테스트 분석](../test/anatomy-of-a-coded-ui-test.md)을 참조하세요.
+새로 코딩된 UI 테스트를 만들면 Visual Studio 테스트 프레임워크에서는 기본적으로 [UIMap](/previous-versions/dd580454(v=vs.140)) 클래스에 테스트 코드를 생성합니다. 코딩된 UI 테스트를 기록하는 방법에 대한 자세한 내용은 [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md) 및 [코딩된 UI 테스트 분석](../test/anatomy-of-a-coded-ui-test.md)을 참조하세요.
 
 UI 맵에 대해 생성된 코드에는 테스트가 상호 작용하는 각 개체에 대한 클래스가 들어 있습니다. 특히 각각 생성된 메서드의 경우 메서드 매개 변수의 도우미 클래스가 특별히 해당 메서드를 위해 생성됩니다. 애플리케이션에 개체, 페이지, 폼 및 컨트롤이 매우 많으면 UI 맵이 매우 커질 수 있습니다. 또한 테스트 작업을 하는 사람이 여러 명인 경우 하나의 큰 UI 맵 파일로 애플리케이션을 통제하기 힘들어집니다.
 
@@ -40,7 +40,7 @@ UI 맵 파일을 여러 개 사용하면 다음과 같은 이점을 얻을 수 �
 - UI의 다른 부분에 대한 테스트에 미치는 영향을 최소화하면서 애플리케이션 UI에 대한 추가 기능을 증분식으로 확장할 수 있습니다.
 
 ## <a name="do-you-need-multiple-ui-maps"></a>여러 UI 맵이 필요하나요?
- 각각 다음과 같은 유형의 상황에서 UI 맵을 여러 개 만드세요.
+각각 다음과 같은 유형의 상황에서 UI 맵을 여러 개 만드세요.
 
 - 여러 복합 UI 컨트롤의 복잡한 집합이 함께 논리 연산을 수행(예: 웹 사이트의 등록 페이지 또는 쇼핑 카트의 구매 페이지)
 
@@ -79,7 +79,7 @@ UI 맵 파일을 여러 개 사용하면 다음과 같은 이점을 얻을 수 �
 
    이러한 영향을 최소화하려면 `CopyFrom()` 메서드를 사용하여 해당 UI 맵의 새 최상위 창이 주 최상위 창과 동일한지 확인할 수 있습니다.
 
-## <a name="example"></a>예제
+## <a name="example"></a>예
 
 다음 예제는 다양한 UI 맵에서 생성된 클래스로 표현되는 각 구성 요소 및 해당 자식 컨트롤에 액세스할 수 있는 유틸리티 클래스의 일부입니다.
 
@@ -141,7 +141,7 @@ namespace ContosoProject
 
 ## <a name="see-also"></a>참고 항목
 
-- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
+- [UIMap](/previous-versions/dd580454(v=vs.140))
 - <xref:Microsoft.VisualStudio.TestTools.UITesting.BrowserWindow.CopyFrom%2A>
 - [UI 자동화를 사용하여 코드 테스트](../test/use-ui-automation-to-test-your-code.md)
 - [코딩된 UI 테스트 만들기](../test/use-ui-automation-to-test-your-code.md)

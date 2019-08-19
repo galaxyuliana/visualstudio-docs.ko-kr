@@ -8,12 +8,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3db7155a991b1badbdb4ef8dadb8ccfa63817c80
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2d97ea90963f70d3a06c669f08473bab27fa08bd
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62996225"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870340"
 ---
 # <a name="how-to-use-the-concurrency-visualizer-markers-sdk"></a>방법: 동시성 시각화 도우미 표식 SDK 사용
 이 항목에서는 동시성 시각화 SDK를 사용하여 범위를 만들고 플래그, 메시지 및 경고를 쓰는 방법을 보여 줍니다.
@@ -24,17 +24,14 @@ ms.locfileid: "62996225"
 
 2. SDK에 대한 `include` 문과 `using` 문을 추가합니다.
 
-    ```C++
-
+    ```cpp
     #include <cvmarkersobj.h>
     using namespace Concurrency::diagnostic;
-
     ```
 
 3. 기본 표식 시리즈에서 세 개의 범위를 만들고 플래그, 메시지 및 경고를 하나씩 각 범위에 씁니다. 플래그, 메시지 및 경고를 쓰는 메서드는 [marker_series](../profiling/marker-series-class.md) 클래스의 멤버입니다. [span](../profiling/span-class.md) 클래스의 생성자에는 `marker_series` 개체가 필요하므로 각 범위가 특정 표식 시리즈와 연결됩니다. `span`은 삭제될 때 종료됩니다.
 
-    ```C++
-
+    ```cpp
     marker_series series;
     span *flagSpan = new span(series, 1, _T("flag span"));
     series.write_flag(_T("Here is the flag."));
@@ -47,7 +44,6 @@ ms.locfileid: "62996225"
     span *alertSpan = new span(series, 3, _T("alert span"));
     series.write_flag(_T("Here is the alert."));
     delete alertSpan;
-
     ```
 
 4. 메뉴 모음에서 **분석**, **동시성 시각화 도우미**, **현재 프로젝트에서 시작**을 선택하여 앱을 실행하고 동시성 시각화를 표시합니다. 다음 그림은 동시성 시각화에 있는 범위 3개 및 표식 3개를 보여 줍니다.
@@ -56,8 +52,7 @@ ms.locfileid: "62996225"
 
 5. 표식 시리즈의 문자열 이름을 사용하는 `marker_series`이 생성자를 호출하여 사용자 지정 표식 시리즈를 추가로 만드는 코드를 추가합니다.
 
-    ```C++
-
+    ```cpp
     marker_series flagSeries(_T("flag series"));
     span *flagSeriesSpan = new span(flagSeries, 1, _T("flag span"));
     flagSeries.write_flag(1, _T("flag"));
@@ -71,7 +66,6 @@ ms.locfileid: "62996225"
     // Sleep to even out the display in the Concurrency Visualizer.
     Sleep(50);
     delete messageSeriesSpan;
-
     ```
 
 6. 현재 프로젝트를 시작하여 동시성 시각화를 표시합니다. 스레드 뷰의 자체 레인에 두 개의 표식 시리즈가 나타납니다. 다음 그림은 두 개의 새 범위를 보여 줍니다.
@@ -84,19 +78,17 @@ ms.locfileid: "62996225"
 
 2. SDK에 대한 `using` 또는 `Imports` 문을 추가합니다.
 
-    ```VB
+    ```vb
     Imports Microsoft.ConcurrencyVisualizer.Instrumentation
-
     ```
 
     ```csharp
     using Microsoft.ConcurrencyVisualizer.Instrumentation;
     ```
 
-3. 기본 표식 시리즈에서 세 개의 범위를 만들고 플래그, 메시지 및 경고를 하나씩 각 범위에 씁니다. 정적 `EnterSpan` 메서드를 호출하여 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Span> 개체를 만듭니다. 기본 시리즈에 쓰려면 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> 클래스의 static 쓰기 메서드를 사용합니다.
+3. 기본 표식 시리즈에서 세 개의 범위를 만들고 플래그, 메시지 및 경고를 하나씩 각 범위에 씁니다. 정적 `EnterSpan` 메서드를 호출하여 [Span](/previous-versions/hh694189(v=vs.140)) 개체를 만듭니다. 기본 시리즈에 쓰려면 [Markers](/previous-versions/hh694099(v=vs.140)) 클래스의 static 쓰기 메서드를 사용합니다.
 
-    ```VB
-
+    ```vb
     Dim flagSpan As Span = Markers.EnterSpan("flag span")
     Markers.WriteFlag("Here is the flag.")
     flagSpan.Leave()
@@ -112,11 +104,9 @@ ms.locfileid: "62996225"
     System.Threading.Thread.Sleep(1)
     Markers.WriteAlert("Here is an alert")
     alertSpan.Leave()
-
     ```
 
     ```csharp
-
     Span flagSpan = Markers.EnterSpan("flag span");
     Markers.WriteFlag("Here is the flag.");
     flagSpan.Leave();
@@ -138,7 +128,7 @@ ms.locfileid: "62996225"
 
      ![표식 및 경고가 있는 동시성 시각화](../profiling/media/cvmarkersmanaged.png "CvMarkersManaged")
 
-5. static <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.CreateMarkerSeries%2A> 메서드를 사용하여 고객 표식 시리즈를 만드는 코드를 추가합니다. <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries> 클래스에는 범위를 만들고 플래그, 메시지 및 경고를 쓸 수 있는 메서드가 포함됩니다.
+5. static [CreateMarkerSeries](/previous-versions/hh694171(v=vs.140)) 메서드를 사용하여 고객 표식 시리즈를 만드는 코드를 추가합니다. [MarkerSeries](/previous-versions/hh694127(v=vs.140)) 클래스에는 범위를 만들고 플래그, 메시지 및 경고를 쓸 수 있는 메서드가 포함됩니다.
 
     ```VB
 

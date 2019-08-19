@@ -12,12 +12,12 @@ ms.author: corob
 manager: jillfra
 ms.workload:
 - xplat-cplusplus
-ms.openlocfilehash: aa8ffe308f8a1181ed18af52ba7537c46007de94
-ms.sourcegitcommit: 40d612240dc5bea418cd27fdacdf85ea177e2df3
+ms.openlocfilehash: b235576f21b63a7be4170f36abf58bed9fab9df3
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66317645"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68923882"
 ---
 # <a name="build-an-opengl-es-application-on-android-and-ios"></a>Android 및 iOS에서 OpenGL ES 애플리케이션 빌드
 
@@ -158,7 +158,7 @@ IOS 디바이스에 iOS 앱을 배포하려면 Mac의 Xcode에서 자동 서명�
 1. Mac에 첨부된 디바이스에서 앱을 실행하려면 도구 모음에서 iOS 장치를 선택합니다. 앱이 시작되지 않으면 배포된 애플리케이션을 디바이스에서 실행할 수 있는 권한이 있는지 확인합니다. 이 권한은 디바이스에서 **설정** > **일반** > **디바이스 관리**로 이동하여 설정할 수 있습니다. 개발자 앱 계정을 선택하고 계정을 신뢰하도록 설정한 후 앱을 확인합니다. Visual Studio에서 앱을 다시 실행해 봅니다.
 
    ![iOS 디바이스의 iOS 앱](../cross-platform/media/cppmdd-opengles-iosdevice.png "CPPMDD_OpenGLES_iOSDevice")
-   
+
    앱이 시작되면 중단점을 설정하고 Visual Studio 디버거를 사용하여 지역을 검사하고, 호출 스택을 확인하고, 값을 조사할 수 있습니다.
 
    ![iOS 앱의 중단점에서 디버거](../cross-platform/media/cppmdd_opengles_iosdebug.png "CPPMDD_OpenGLES_iOSDebug")

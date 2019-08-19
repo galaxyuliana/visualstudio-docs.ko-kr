@@ -2,7 +2,7 @@
 title: C#에서 WPF를 사용하는 Hello World 앱
 description: WPF(Windows Presentation Foundation) UI 프레임워크를 사용하는 C#을 통해 Visual Basic으로 간단한 Windows 데스크톱 .NET 앱을 만듭니다.
 ms.custom: seodec18, get-started
-ms.date: 03/28/2019
+ms.date: 08/09/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 886a17b4b702802faa06f28ab1df485b56de9636
-ms.sourcegitcommit: 9753c7544cec852ca5efd0834e0956d9e53a5734
+ms.openlocfilehash: 8803bf6992608a496d560b68b71545d764803760
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67043543"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68924371"
 ---
 # <a name="tutorial-create-a-simple-application-with-c"></a>자습서: C\#으로 간단한 애플리케이션 만들기
 
@@ -42,7 +42,7 @@ Visual Studio를 처음 열면 로그인하라는 메시지가 표시됩니다. 
 
 Visual Studio를 시작하면 도구 창, 메뉴 및 도구 모음, 주 창 공간이 표시됩니다. **빠른 실행**, 메뉴 모음 및 상단의 표준 도구 모음이 포함된 도구 창은 애플리케이션 창 왼쪽과 오른쪽에 도킹되어 있습니다. 애플리케이션 창의 가운데에 **시작 페이지**가 있습니다. 솔루션이나 프로젝트를 로드하는 경우 편집기 및 디자이너가 **시작 페이지** 가 있는 공간에 나타납니다. 애플리케이션을 개발할 때 이 중앙 영역에서 대부분의 시간을 보냅니다.
 
-![일반 설정이 적용된 Visual Studio 2017 IDE](../media/exploreide-idewithgeneralsettings.png)
+![일반 설정이 적용된 Visual Studio 2017 IDE](../media/exploreide-idewithgeneralsettings.png "일반 설정이 적용된 Visual Studio 2017 IDE 스크린샷")
 
 ::: moniker-end
 
@@ -60,20 +60,11 @@ Visual Studio에서 애플리케이션을 만들 때 먼저 프로젝트와 솔�
 
 1. 새 프로젝트를 만듭니다. 메뉴 모음에서 **파일** > **새로 만들기** > **프로젝트**를 선택합니다.
 
-     ![메뉴 모음에서 파일, 새로 만들기, 프로젝트를 선택합니다.](../media/exploreide-filenewproject.png)
+     ![메뉴 모음에서 파일, 새로 만들기, 프로젝트 선택](../media/exploreide-filenewproject.png "파일, 새로 만들기, 프로젝트를 선택하는 메뉴 모음 스크린샷")
 
 1. **새 프로젝트** 대화 상자에서 **설치** > **Visual C#**  > **Windows 데스크톱** 범주를 선택한 다음, **WPF 앱(.NET Framework)** 템플릿을 선택합니다. 프로젝트의 이름을 **HelloWPFApp**로 지정하고 **확인**을 선택합니다.
 
-     ![Visual Studio 새 프로젝트 대화 상자의 WPF 앱 템플릿](media/exploreide-newprojectcsharp.png)
-
-HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기** 에 다양한 파일이 표시됩니다. **WPF Designer**는 분할 뷰에 디자인 뷰와 *MainWindow.xaml*의 XAML 뷰를 표시합니다. 분할자를 밀어 뷰를 더 많이 표시하거나 더 적게 표시할 수 있습니다. 시각적 뷰만 표시하거나 XAML 뷰만 표시하도록 선택할 수 있습니다. 다음 항목이 **솔루션 탐색기**에 나타납니다.
-
-![HelloWPFApp 파일이 로드된 솔루션 탐색기](../media/exploreide-hellowpfappfiles.png)
-
-> [!NOTE]
-> XAML(eXtensible Application Markup Language)에 대한 자세한 내용은 [WPF에 대한 XAML 개요](/dotnet/framework/wpf/advanced/xaml-overview-wpf) 페이지를 참조하세요.
-
-프로젝트를 만든 후 사용자 지정할 수 있습니다. **보기** 메뉴에 있는 **속성** 창을 사용하여 프로젝트 항목, 컨트롤 및 애플리케이션의 기타 항목에 대한 옵션을 표시하고 변경할 수 있습니다.
+     ![Visual Studio 새 프로젝트 대화 상자의 WPF 앱 템플릿](media/exploreide-newprojectcsharp.png "Visual Studio 새 프로젝트 대화 상자의 WPF 앱 템플릿 스크린샷")
 
 ::: moniker-end
 
@@ -83,38 +74,42 @@ HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기*
 
 1. 시작 창에서 **새 프로젝트 만들기**를 선택합니다.
 
-   !['새 프로젝트 만들기' 창 보기](../../get-started/media/vs-2019/start-window-create-new-project.png)
+   !['새 프로젝트 만들기' 창 보기](../../get-started/media/vs-2019/start-window-create-new-project.png "'새 프로젝트 만들기' 창 보기 스크린샷")
 
-2. **새 프로젝트 만들기** 화면에서 “WPF”를 검색하고 **WPF 앱(.NET Framework)** , **다음**을 차례로 선택합니다.
+1. **새 프로젝트 만들기** 화면에서 “WPF”를 검색하고 **WPF 앱(.NET Framework)** , **다음**을 차례로 선택합니다.
 
-   !['새 프로젝트 만들기' 대화 상자의 WPF 앱 템플릿](media/vs-2019/exploreide-newprojectcsharp-vs2019.png)
+   !['새 프로젝트 만들기' 대화 상자의 WPF 앱 템플릿](media/vs-2019/exploreide-newprojectcsharp-vs2019.png "'새 프로젝트 만들기' 대화 상자의 WPF 앱 템플릿 스크린샷")
 
-3. 다음 화면에서 프로젝트의 이름을 **HelloWPFApp**로 지정하고 **만들기**를 선택합니다.
+1. 다음 화면에서 프로젝트의 이름을 **HelloWPFApp**로 지정하고 **만들기**를 선택합니다.
 
-   !['새 프로젝트 구성' 창에서 프로젝트의 이름을 'HelloWPFApp'으로 지정합니다.](./media/vs-2019/exploreide-nameproject.png)
+   !['HelloWPFApp'로 프로젝트 이름 지정](./media/vs-2019/exploreide-nameproject.png "프로젝트 이름을 지정하는 창 스크린샷")
 
-HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기** 에 다양한 파일이 표시됩니다. **WPF Designer**는 분할 뷰에 디자인 뷰와 *MainWindow.xaml*의 XAML 뷰를 표시합니다. 분할자를 밀어 뷰를 더 많이 표시하거나 더 적게 표시할 수 있습니다. 시각적 뷰만 표시하거나 XAML 뷰만 표시하도록 선택할 수 있습니다. 다음 항목이 **솔루션 탐색기**에 나타납니다.
+::: moniker-end
 
-![HelloWPFApp 파일이 로드된 솔루션 탐색기](../media/vs-2019/exploreide-hellowpfappfiles.png)
+HelloWPFApp 프로젝트 및 솔루션이 만들어지고 **솔루션 탐색기** 에 다양한 파일이 표시됩니다. **WPF Designer**는 분할 뷰에 디자인 뷰와 *MainWindow.xaml*의 XAML 뷰를 표시합니다. 분할자를 밀어 뷰를 더 많이 표시하거나 더 적게 표시할 수 있습니다. 시각적 뷰만 표시하거나 XAML 뷰만 표시하도록 선택할 수 있습니다.
+
+![IDE의 WPF 프로젝트 및 솔루션](media/exploreide-wpfproject-cs.png "IDE의 WPF 프로젝트 및 솔루션 스크린샷")
 
 > [!NOTE]
 > XAML(eXtensible Application Markup Language)에 대한 자세한 내용은 [WPF에 대한 XAML 개요](/dotnet/framework/wpf/advanced/xaml-overview-wpf) 페이지를 참조하세요.
 
-프로젝트를 만든 후 사용자 지정할 수 있습니다. 이렇게 하려면 **보기** 메뉴에서 **속성 창**을 선택합니다. 그런 다음, 프로젝트 항목, 컨트롤 및 애플리케이션의 기타 항목에 대한 옵션을 표시하고 변경할 수 있습니다.
+프로젝트를 만든 후 사용자 지정할 수 있습니다. 이렇게 하려면 **보기** 메뉴에서 **속성 창**을 선택하거나 **F4** 키를 누릅니다. 그런 다음, 프로젝트 항목, 컨트롤 및 애플리케이션의 기타 항목에 대한 옵션을 표시하고 변경할 수 있습니다.
 
-::: moniker-end
+   ![속성 창](../media/exploreide-hellowpfappfiles.png "WPF 파일 앱 이름을 표시하는 속성 창 스크린샷")   
 
 ### <a name="change-the-name-of-mainwindowxaml"></a>MainWindow.xaml의 이름 변경
 
 MainWindow에 보다 구체적인 이름을 지정하겠습니다.
 
-1. **솔루션 탐색기**에서 *MainWindow.xaml*을 선택합니다. **속성** 창이 표시되어야 하지만 표시되지 않는 경우 **보기** 메뉴 및 **속성 창** 항목을 선택합니다.
+1. **솔루션 탐색기**에서 *MainWindow.xaml*을 선택합니다. **속성** 창이 표시되어야 하지만 표시되지 않는 경우 **보기** 메뉴 및 **속성 창** 항목을 선택합니다. (또는 **F4** 키를 누릅니다.)
 
 1. **파일 이름** 속성을 `Greetings.xaml`로 변경합니다.
 
-     ![파일 이름이 강조 표시된 속성 창](../media/exploreide-filenameinpropertieswindow.png)
+     ![파일 이름이 강조 표시된 속성 창](../media/exploreide-filenameinpropertieswindow.png "파일 이름이 강조 표시된 속성 창 스크린샷")
 
      이제 **솔루션 탐색기**에 파일 이름이 *Greetings.xaml*로, 중첩된 코드 파일이 *Greetings.xaml.cs*로 표시됩니다. 이 코드 파일은 *.xaml* 파일과 서로 밀접하게 관련되어 있음을 나타내기 위해 이 파일 노드 아래에 중첩됩니다.
+
+     ![Greetings 파일 이름을 표시하는 속성 창 및 솔루션 탐색기 창](../media/exploreide-greetingsfilename.png "Greetings 파일 이름을 표시하는 속성 창 및 솔루션 탐색기 창 스크린샷")     
 
 ## <a name="design-the-user-interface-ui"></a>사용자 인터페이스(UI) 디자인
 
@@ -124,31 +119,37 @@ MainWindow에 보다 구체적인 이름을 지정하겠습니다.
 
 1. **Ctrl**+**Q**를 입력하여 검색 상자를 활성화하고 **도구 상자**를 입력합니다. 결과 목록에서 **보기 > 도구 상자**를 선택합니다.
 
-2. **도구 상자**에서 **공용 WPF 컨트롤** 노드를 확장하여 TextBlock 컨트롤을 봅니다.
+1. **도구 상자**에서 **공용 WPF 컨트롤** 노드를 확장하여 TextBlock 컨트롤을 봅니다.
 
-     ![TextBlock 컨트롤이 강조 표시된 도구 상자](../media/exploreide-textblocktoolbox.png)
+     ![TextBlock 컨트롤이 강조 표시된 도구 상자](../media/exploreide-textblocktoolbox.png "TextBlock 컨트롤이 강조 표시된 도구 상자 스크린샷")
 
-3. **TextBlock** 항목을 선택한 후 디자인 화면의 창으로 끌어와서 디자인 화면에 TextBlock 컨트롤을 추가합니다. 컨트롤을 창 상단의 가운데에 배치합니다.
+1. **TextBlock** 항목을 선택한 후 디자인 화면의 창으로 끌어와서 디자인 화면에 TextBlock 컨트롤을 추가합니다. 컨트롤을 창 상단의 가운데에 배치합니다.
 
-해당 창은 다음 그림과 유사합니다.
+    해당 창은 다음 그림과 유사합니다.
 
-![Greetings 양식의 TextBlock 컨트롤](../media/exploreide-greetingswithtextblockonly.png)
+    ![Greetings 양식의 TextBlock 컨트롤](../media/exploreide-greetingswithtextblockonly.png "Greetings 양식의 TextBlock 컨트롤 스크린샷")
 
-XAML 태그는 다음 예제와 유사합니다.
+   XAML 태그는 다음 예제와 유사합니다.
 
-```xaml
-<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>
-```
+    ```xaml
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+    </Grid>
+    ```
 
 ### <a name="customize-the-text-in-the-text-block"></a>텍스트 블록의 텍스트 사용자 지정
 
-1. XAML 뷰에서 TextBlock의 태그를 찾아 Text 특성을 다음과 같이 변경합니다.
+1. XAML 뷰에서 **TextBlock**의 태그를 찾아 **Text** 특성을 `TextBox`에서 `Select a message option and then choose the Display button.`으로 변경합니다.
+
+   XAML 태그는 다음 예제와 유사합니다.
 
    ```xaml
-   Text="Select a message option and then choose the Display button."
+   <Grid>
+       <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+   </Grid>
    ```
 
-2. 필요한 경우 TextBlock의 가운데를 다시 맞추고 Ctrl+S를 누르거나 **파일** 메뉴 항목을 사용하여 변경 내용을 저장합니다.
+1. 원할 경우 TextBlock의 가운데를 다시 맞추고 **Ctrl+S**를 누르거나 **파일** 메뉴 항목을 사용하여 변경 내용을 저장합니다.
 
 다음에는 [RadioButton](/dotnet/framework/wpf/controls/radiobutton) 컨트롤 두 개를 폼에 추가합니다.
 
@@ -156,37 +157,55 @@ XAML 태그는 다음 예제와 유사합니다.
 
 1. **도구 상자**에서 **RadioButton** 컨트롤을 찾습니다.
 
-     ![RadioButton 컨트롤이 선택된 도구 상자 창](../media/exploreide-radiobuttontoolbox.png)
+     ![RadioButton 컨트롤이 선택된 도구 상자 창](../media/exploreide-radiobuttontoolbox.png "RadioButton 컨트롤이 선택된 도구 상자 창 스크린샷")
 
-2. **RadioButton** 항목을 선택한 후 디자인 화면의 창으로 끌어와서 디자인 화면에 두 개의 RadioButton 컨트롤을 추가합니다. 단추가 TextBlock 컨트롤 아래에 함께 표시되도록 단추를 이동합니다(선택하고 화살표 키를 사용하여).
+1. **RadioButton** 항목을 선택한 후 디자인 화면의 창으로 끌어와서 디자인 화면에 두 개의 RadioButton 컨트롤을 추가합니다. 단추가 TextBlock 컨트롤 아래에 함께 표시되도록 단추를 이동합니다(선택하고 화살표 키를 사용하여).
 
-     창이 다음과 같이 나타납니다.
+   창이 다음과 같이 나타납니다.
 
-     ![TextBlock과 두 개의 라디오 단추가 있는 Greetings 양식](../media/exploreide-greetingswithradiobuttons.png)
+   ![TextBlock과 두 개의 라디오 단추가 있는 Greetings 양식](../media/exploreide-greetingswithradiobuttons.png "TextBlock과 두 개의 라디오 단추가 있는 Greetings 양식 스크린샷")
 
-3. 왼쪽 RadioButton 컨트롤의 **속성** 창에서 **속성** 창 맨 위에 있는 속성인 **Name** 속성을 `HelloButton`로 변경합니다.
+1. 왼쪽 RadioButton 컨트롤의 **속성** 창에서 **속성** 창 맨 위에 있는 속성인 **Name** 속성을 `HelloButton`로 변경합니다.
 
-     ![RadioButton 속성 창](../media/exploreide-buttonproperties.png)
+    ![RadioButton 속성 창](../media/exploreide-buttonproperties.png "RadioButton 속성 창 스크린샷")
 
-4. 오른쪽 RadioButton 컨트롤의 **속성** 창에서 **Name** 속성을 `GoodbyeButton`으로 변경한 다음, 변경 사항을 저장합니다.
+1. 오른쪽 RadioButton 컨트롤의 **속성** 창에서 **Name** 속성을 `GoodbyeButton`으로 변경한 다음, 변경 사항을 저장합니다.
 
-이제 각 RadioButton 컨트롤에 대한 표시 텍스트를 추가할 수 있습니다. 다음 절차는 RadioButton 컨트롤에 대한 **Content** 속성을 업데이트합니다.
+다음으로, 각 RadioButton 컨트롤에 대한 표시 텍스트를 추가합니다. 다음 절차는 RadioButton 컨트롤에 대한 **Content** 속성을 업데이트합니다.
 
 ### <a name="add-display-text-for-each-radio-button"></a>각 라디오 단추에 표시할 텍스트 추가
 
 1. 디자인 화면에서 마우스 오른쪽 단추로 HelloButton을 눌러 HelloButton의 바로 가기 메뉴를 열고 **텍스트 편집**을 선택한 후 `Hello`를 입력합니다.
 
-2. 마우스 오른쪽 단추로 GoodbyeButton을 눌러 GoodbyeButton의 바로 가기 메뉴를 열고 **텍스트 편집**을 선택한 후 `Goodbye`를 입력합니다.
+1. 마우스 오른쪽 단추로 GoodbyeButton을 눌러 GoodbyeButton의 바로 가기 메뉴를 열고 **텍스트 편집**을 선택한 후 `Goodbye`를 입력합니다.
+
+   이제 XAML 태그가 다음 예제와 유사하게 표시됩니다.
+
+   ```xaml
+   <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
+   </Grid>
+   ```
 
 ### <a name="set-a-radio-button-to-be-checked-by-default"></a>라디오 단추가 기본적으로 선택되도록 설정
 
 이 단계에서는 두 개의 라디오 단추 중 하나가 항상 선택되도록 기본적으로 HelloButton이 선택되도록 설정합니다.
 
-XAML 뷰에서 HelloButton에 대한 표시를 찾고 **IsChecked** 특성을 추가합니다.
+1. XAML 뷰에서 HelloButton의 태그를 찾습니다.
 
-```xaml
-IsChecked="True"
-```
+1. **IsChecked** 특성을 추가하고 **True**로 설정합니다. 구체적으로 `IsChecked="True"`를 추가합니다.
+
+   이제 XAML 태그가 다음 예제와 유사하게 표시됩니다.
+
+   ```xaml
+   <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" IsChecked="True" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
+   </Grid>
+   ```
 
 추가할 마지막 UI 요소는 [Button](/dotnet/framework/wpf/controls/button) 컨트롤입니다.
 
@@ -194,13 +213,22 @@ IsChecked="True"
 
 1. **도구 상자**에서 **Button** 컨트롤을 찾은 다음 디자인 뷰의 폼으로 끌어와 RadioButton 컨트롤 아래의 디자인 화면에 추가합니다.
 
-2. XAML 뷰에서 Button 컨트롤의 **Content** 값을 `Content="Button"` 에서 `Content="Display"`로 변경한 다음 변경 내용을 저장합니다.
-
-     태그는 다음 예제와 유사합니다. `<Button Content="Display" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="215,204,0,0"/>`
+1. XAML 뷰에서 Button 컨트롤의 **Content** 값을 `Content="Button"` 에서 `Content="Display"`로 변경한 다음 변경 내용을 저장합니다.
 
      해당 창은 다음 그림과 유사합니다.
 
-     ![컨트롤 레이블이 있는 Greetings 양식](media/exploreide-greetingswithcontrollabels-cs.png)
+     ![컨트롤 레이블이 있는 Greetings 양식](media/exploreide-greetingswithcontrollabels-cs.png "컨트롤 레이블이 있는 Greetings 양식 스크린샷")
+
+   이제 XAML 태그가 다음 예제와 유사하게 표시됩니다.
+
+   ```xaml
+   <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" IsChecked="True" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
+        <Button Content="Display" HorizontalAlignment="Left" Margin="377,270,0,0" VerticalAlignment="Top" Width="75"/>
+   </Grid>
+   ```
 
 ### <a name="add-code-to-the-display-button"></a>표시 단추에 코드 추가
 
@@ -217,7 +245,7 @@ IsChecked="True"
     }
     ```
 
-2. 다음 코드를 입력합니다.
+1. 다음 코드를 입력합니다.
 
     ```csharp
     if (HelloButton.IsChecked == true)
@@ -230,7 +258,7 @@ IsChecked="True"
     }
     ```
 
-3. 애플리케이션을 저장합니다.
+1. 애플리케이션을 저장합니다.
 
 ## <a name="debug-and-test-the-application"></a>애플리케이션 디버깅 및 테스트
 
@@ -246,9 +274,9 @@ IsChecked="True"
 
    **중단 모드** 창이 나타나고 **출력** 창이 IOException이 발생했음을 나타냅니다. 'mainwindow.xaml' 리소스를 찾을 수 없습니다.
 
-   ![IOException 메시지 스크린샷](../media/exploreide-ioexception.png)
+   ![IOException 메시지](../media/exploreide-ioexception.png "IOException 메시지 스크린샷")
 
-2. **디버그** > **디버깅 중지**를 선택하여 디버거를 중지합니다.
+1. **디버그** > **디버깅 중지**를 선택하여 디버거를 중지합니다.
 
 이 자습서를 시작할 때 *MainWindow.xaml*의 이름을 *Greetings.xaml*로 바꾸었지만 코드가 여전히 애플리케이션의 시작 URI로 *MainWindow.xaml*을 나타내고 있으므로 프로젝트를 시작할 수 없습니다.
 
@@ -256,7 +284,7 @@ IsChecked="True"
 
 1. **솔루션 탐색기**에서 *App.xaml* 파일을 엽니다.
 
-2. `StartupUri="MainWindow.xaml"`을 `StartupUri="Greetings.xaml"`로 변경한 다음 변경 내용을 저장합니다.
+1. `StartupUri="MainWindow.xaml"`을 `StartupUri="Greetings.xaml"`로 변경한 다음 변경 내용을 저장합니다.
 
 **F5** 키를 눌러 디버거를 다시 시작합니다. 애플리케이션의 **Greetings** 창이 표시됩니다. 이제 애플리케이션 창을 닫아 디버깅을 중지합니다.
 
@@ -268,35 +296,35 @@ IsChecked="True"
 
 1. *Greetings.xaml.cs*를 열고 다음 줄을 선택합니다. `MessageBox.Show("Hello.")`
 
-2. 메뉴에서 **디버그**를 선택한 다음 **중단점 설정/해제**를 선택하여 중단점을 추가합니다.
+1. 메뉴에서 **디버그**를 선택한 다음 **중단점 설정/해제**를 선택하여 중단점을 추가합니다.
 
      편집기 창의 맨 왼쪽 여백 코드 줄 옆에 빨간색 원이 나타납니다.
 
-3. `MessageBox.Show("Goodbye.")`줄을 선택합니다.
+1. `MessageBox.Show("Goodbye.")`줄을 선택합니다.
 
-4. **F9** 키를 눌러 중단점을 추가한 다음 **F5** 키를 눌러 디버깅을 시작합니다.
+1. **F9** 키를 눌러 중단점을 추가한 다음 **F5** 키를 눌러 디버깅을 시작합니다.
 
-5. **Greetings** 창에서 **Hello** 라디오 단추를 선택한 다음 **표시** 단추를 선택합니다.
+1. **Greetings** 창에서 **Hello** 라디오 단추를 선택한 다음 **표시** 단추를 선택합니다.
 
     `MessageBox.Show("Hello.")` 줄이 노란색으로 강조 표시됩니다. IDE 하단에 있는 자동, 로컬 및 조사식 창은 모두 왼쪽에 도킹되고 호출 스택, 중단점, 예외 설정, 명령, 직접 실행 및 출력 창은 모두 오른쪽에 도킹됩니다.
 
-    ![디버거의 중단점 스크린샷](media/exploreide-debugbreakpoint.png)
+    ![디버거의 중단점](media/exploreide-debugbreakpoint.png "디버거의 중단점 스크린샷")
 
-6. 메뉴 모음에서 **디버그** > **프로시저 나가기**를 선택합니다.
+1. 메뉴 모음에서 **디버그** > **프로시저 나가기**를 선택합니다.
 
      애플리케이션은 실행을 다시 시작하고 “Hello”라는 단어가 포함된 메시지 상자가 나타납니다.
 
-7. 메시지 상자에서 **확인** 단추를 선택하여 닫습니다.
+1. 메시지 상자에서 **확인** 단추를 선택하여 닫습니다.
 
-8. **Greetings** 창에서 **Goodbye** 라디오 단추를 선택한 다음 **표시** 단추를 선택합니다.
+1. **Greetings** 창에서 **Goodbye** 라디오 단추를 선택한 다음 **표시** 단추를 선택합니다.
 
      `MessageBox.Show("Goodbye.")` 줄이 노란색으로 강조 표시됩니다.
 
-9. **F5** 키를 선택하여 계속 디버깅합니다. 메시지 상자가 나타나면 메시지 상자에서 **확인** 단추를 선택하여 닫습니다.
+1. **F5** 키를 선택하여 계속 디버깅합니다. 메시지 상자가 나타나면 메시지 상자에서 **확인** 단추를 선택하여 닫습니다.
 
-10. 애플리케이션 창을 닫아 디버깅을 중지합니다.
+1. 애플리케이션 창을 닫아 디버깅을 중지합니다.
 
-11. 메뉴 모음에서 **디버그** > **모든 중단점 해제**를 선택합니다.
+1. 메뉴 모음에서 **디버그** > **모든 중단점 해제**를 선택합니다.
 
 ### <a name="build-a-release-version-of-the-application"></a>애플리케이션 릴리스 버전 빌드
 
@@ -304,11 +332,18 @@ IsChecked="True"
 
 1. 기본 메뉴에서 **빌드** > **솔루션 정리**를 선택하여 이전 빌드 과정에서 만들어진 중간 파일과 출력 파일을 삭제합니다. 꼭 필요한 작업은 아니지만 이 과정을 통해 디버그 빌드 출력이 정리됩니다.
 
-2. 도구 모음에서 드롭다운 컨트롤(현재 “디버그”로 표시)을 사용하여 HelloWPFApp의 빌드 구성을 **디버그**에서 **릴리스**로 변경합니다.
+1. 도구 모음에서 드롭다운 컨트롤(현재 “디버그”로 표시)을 사용하여 HelloWPFApp의 빌드 구성을 **디버그**에서 **릴리스**로 변경합니다.
 
-3. **빌드** > **솔루션 빌드**를 선택하여 솔루션을 빌드합니다.
+1. **빌드** > **솔루션 빌드**를 선택하여 솔루션을 빌드합니다.
 
 축하합니다. 이 자습서를 마쳤습니다. 솔루션 및 프로젝트 디렉터리( *...\HelloWPFApp\HelloWPFApp\bin\Release*)에서 빌드한 *.exe*를 찾을 수 있습니다.
+
+## <a name="next-steps"></a>다음 단계
+
+축하합니다. 이 자습서를 마쳤습니다. 자세히 알아보려면 다음 자습서를 계속 진행하세요.
+
+> [!div class="nextstepaction"]
+> [추가 WPF 자습서 계속 진행](/dotnet/framework/wpf/getting-started/wpf-walkthroughs/)
 
 ## <a name="see-also"></a>참고 항목
 

@@ -1,6 +1,6 @@
 ---
 title: EditorConfig 파일에 대한 .NET 명명 규칙
-ms.date: 11/20/2017
+ms.date: 08/07/2019
 ms.topic: reference
 helpviewer_keywords:
 - naming conventions [EditorConfig]
@@ -10,12 +10,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 048fb4474caae6b7cc81a8c62061e879e7556c58
-ms.sourcegitcommit: 8562a337cc9f674c756a4a0b2c7e288ebd61b51e
+ms.openlocfilehash: ab118197c29ef950907839e8c04d6e49a9843f1a
+ms.sourcegitcommit: 6f3cf7a1bfc81a61f9a603461a1c34fd2221f100
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68345698"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "68957423"
 ---
 # <a name="net-naming-conventions-for-editorconfig"></a>EditorConfig에 대한 .NET 명명 규칙
 
@@ -165,7 +165,8 @@ ms.locfileid: "68345698"
 
 심각도 | 효과
 ------------ | -------------
-none or silent | 이 스타일을 따르지 않을 경우 사용자에게 아무 것도 표시되지 않지만 자동 생성 코드는 이 스타일을 따릅니다.
+없음 | 규칙은 전혀 표시되지 않습니다.
+리팩터링 또는 자동 | 이 스타일을 따르지 않을 경우 사용자에게 아무 것도 표시되지 않지만 자동 생성 코드는 이 스타일을 따릅니다.
 suggestion | 이 스타일을 따르지 않을 경우 처음 두 문자에 점선이 밑줄로 표시되어 사용자에게 제안으로 표시됩니다. 컴파일 시간에 영향을 주지 않습니다.
 warning | 이 스타일을 따르지 않을 경우 **오류 목록**에서 컴파일러 경고가 표시됩니다.
 error | 이 스타일을 따르지 않을 경우 **오류 목록**에서 컴파일러 오류가 표시됩니다.

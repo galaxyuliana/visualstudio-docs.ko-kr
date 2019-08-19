@@ -9,12 +9,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/11/2017
 ms.author: ghogen
-ms.openlocfilehash: 353b98ae0ab186a4ff665566a8f3b7600db66274
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: b91e2df31ae0e188d0d1e0e3076ab410bf8c2296
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62569035"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68919828"
 ---
 # <a name="how-to-manage-service-configurations-and-profiles"></a>서비스 구성 및 프로필을 관리하는 방법
 ## <a name="overview"></a>개요
@@ -96,4 +96,4 @@ ms.locfileid: "62569035"
 5. (선택 사항) **게시** 를 선택하고 새 설정을 사용하여 클라우드 서비스를 게시합니다. 이번에 클라우드 서비스를 게시하지 않고 게시 마법사를 닫으려는 경우, Visual Studio는 프로필에 변경 내용을 저장할 것인지를 묻습니다.
 
 ## <a name="next-steps"></a>다음 단계
-Visual Studio에서 Azure 프로젝트의 다른 부분 구성에 대해 알아보려면 [Azure 프로젝트 구성](http://go.microsoft.com/fwlink/p/?LinkID=623075)
+Visual Studio에서 Azure 프로젝트의 다른 부분 구성에 대해 알아보려면 [Azure 프로젝트 구성](http://go.microsoft.com/fwlink/p/?LinkID=623075)을 참조하세요.

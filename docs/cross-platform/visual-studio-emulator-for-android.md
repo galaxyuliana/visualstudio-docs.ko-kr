@@ -10,16 +10,16 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3bf5a994d173a11a8515e166c3b0bc3044bdc587
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
+ms.openlocfilehash: 1f51489b888a0b85b53856e413eb4704d24161b6
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63402892"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68925732"
 ---
 # <a name="visual-studio-emulator-for-android"></a>Android용 Visual Studio 에뮬레이터
 
-Android용 Visual Studio 에뮬레이터는 Android 장치를 에뮬레이트하는 데스크톱 애플리케이션입니다. 물리적 디바이스를 사용하지 않고도 Android 앱을 디버그하고 테스트할 수 있는 가상화된 환경을 제공합니다. 또한 애플리케이션 프로토타입을 위한 격리된 환경을 제공합니다.
+Android용 Visual Studio 에뮬레이터는 Android 디바이스를 에뮬레이트하는 데스크톱 응용 프로그램입니다. 물리적 디바이스를 사용하지 않고도 Android 앱을 디버그하고 테스트할 수 있는 가상화된 환경을 제공합니다. 또한 애플리케이션 프로토타입을 위한 격리된 환경을 제공합니다.
 
 > [!IMPORTANT]
 > 대부분의 시나리오에서 Android용 Visual Studio 에뮬레이터 대신 Google Android 에뮬레이터를 사용하는 것이 좋습니다.

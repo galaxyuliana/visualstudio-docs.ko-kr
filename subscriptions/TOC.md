@@ -1,7 +1,7 @@
 # [Visual Studio 구독](index.md)
 ## [새로운 기능](whats-new-in-subscriptions.md)
 ## 알림 신청
-### 구독 구매
+### 구독 구입
 #### [소매](https://visualstudio.microsoft.com/vs/pricing)
 #### 클라우드 
 ##### [개요](vscloud-overview.md)

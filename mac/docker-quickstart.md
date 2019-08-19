@@ -1,15 +1,15 @@
 ---
-title: Mac용 Visual Studio에서 Docker 시작
+title: Docker 시작
 description: Mac용 Visual Studio에서 프로젝트에 Docker를 추가하는 방법을 알아봅니다.
 author: asb3993
 ms.author: amburns
 ms.date: 06/17/2019
-ms.openlocfilehash: b539de8159c1f53543b195f90610017bf2cee873
-ms.sourcegitcommit: 7fbfb2a1d43ce72545096c635df2b04496b0be71
+ms.openlocfilehash: b456b3d285c167f97570c39d9eb6fd1abfc27e45
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "67691690"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68872150"
 ---
 # <a name="get-started-with-docker-in-visual-studio-for-mac"></a>Mac용 Visual Studio에서 Docker 시작
 
@@ -73,7 +73,7 @@ ENTRYPOINT ["dotnet", "DockerDemo.dll"]
 
 > [!TIP]
 > Docker 데스크톱을 설치한 후 첫 번째 실행에서 디버그할 때 다음 오류가 나타날 수 있습니다. `Cannot start service dockerdemo: Mounts denied`
-> 
+>
 > Docker Desktop의 파일 공유 탭에 `/usr/local/share/dotnet/sdk/NuGetFallbackFolder`를 추가합니다.
 >
 > ![파일 공유에 NuGetFallbackFolder 폴더 추가](media/docker-quickstart-5.png)

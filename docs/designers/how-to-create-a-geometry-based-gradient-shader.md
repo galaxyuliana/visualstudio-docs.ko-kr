@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: cfb6a629b5ff0ddddeead8f9f53d43580aba084a
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5e138f253a734608140533de8019d2e5fb7577a7
+ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62897826"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68924352"
 ---
 # <a name="how-to-create-a-geometry-based-gradient-shader"></a>방법: 기하 도형 기반 그라데이션 셰이더 만들기
 
@@ -48,15 +48,15 @@ ms.locfileid: "62897826"
 > [!NOTE]
 > 이 그림에서 주황색은 셰이더의 효과를 더 잘 보여 주기 위해 지정되었지만, 미리 보기 도형은 세계 좌표 위치에서 위치가 없으므로 셰이더 디자이너에서 셰이더를 완전히 미리 볼 수 없습니다. 전체 효과를 보여 주려면 실제 장면에서 셰이더를 미리 봐야 합니다.
 
- ![셰이더 그래프 및 효과 미리 보기](../designers/media/digit-gradient-effect-graph.png)
+![셰이더 그래프 및 효과 미리 보기](../designers/media/digit-gradient-effect-graph.png)
 
- 일부 셰이더의 경우 특정 도형을 사용하면 미리 보기가 더 잘 표시될 수 있습니다. 셰이더 디자이너에서 셰이더를 미리 보는 방법에 대한 자세한 내용은 [셰이더 디자이너](../designers/shader-designer.md)의 **셰이더 미리 보기**를 참조하세요.
+일부 셰이더의 경우 특정 도형을 사용하면 미리 보기가 더 잘 표시될 수 있습니다. 셰이더 디자이너에서 셰이더를 미리 보는 방법에 대한 자세한 내용은 [셰이더 디자이너](../designers/shader-designer.md)의 **셰이더 미리 보기**를 참조하세요.
 
- 다음 그림은 [방법: 3D 지형 모델 만들기](../designers/how-to-model-3-d-terrain.md)에서 설명하는 3D 모델에 적용되는 이 문서에서 설명된 셰이더를 보여줍니다. 세계 좌표 위치에서 점의 높이와 함께 색의 농도가 증가합니다.
+다음 그림은 [방법: 3D 지형 모델 만들기](../designers/how-to-model-3-d-terrain.md)에서 설명하는 3D 모델에 적용되는 이 문서에서 설명된 셰이더를 보여줍니다. 세계 좌표 위치에서 점의 높이와 함께 색의 농도가 증가합니다.
 
- ![3D 지형 모델에 적용된 그라데이션 효과](../designers/media/digit-gradient-effect-result.png)
+![3D 지형 모델에 적용된 그라데이션 효과](../designers/media/digit-gradient-effect-result.png)
 
- 3D 모델에 셰이더를 적용하는 방법에 대한 자세한 내용은 [방법: 3D 모델에 셰이더 적용](../designers/how-to-apply-a-shader-to-a-3-d-model.md)을 참조하세요.
+3D 모델에 셰이더를 적용하는 방법에 대한 자세한 내용은 [방법: 3D 모델에 셰이더 적용](../designers/how-to-apply-a-shader-to-a-3-d-model.md)을 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

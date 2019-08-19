@@ -1,5 +1,5 @@
 ---
-title: Mac용 Visual Studio에서 Unity로 게임 빌드 시작하기
+title: Unity로 게임 빌드 시작하기
 description: Unity 및 Mac용 Visual Studio 시작하기
 author: asb3993
 ms.author: amburns
@@ -7,14 +7,14 @@ ms.date: 05/20/2019
 ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: D07FA43B-9D18-4DFA-8343-CD538FAD84DB
-ms.openlocfilehash: 8f14d21468336dba220a76ad8978f136d50f96f1
-ms.sourcegitcommit: cc5fd59e5dc99181601b7db8b28d7f8a83a36bab
+ms.openlocfilehash: dd69156b1397ba6232d9143f54b0de1ef4506ecc
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66836162"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68873456"
 ---
-# <a name="getting-started-building-games-with-unity-in-visual-studio-for-mac"></a>Mac용 Visual Studio에서 Unity로 게임 빌드 시작하기 
+# <a name="getting-started-building-games-with-unity-in-visual-studio-for-mac"></a>Mac용 Visual Studio에서 Unity로 게임 빌드 시작하기
 
 Unity는 C#에서 게임 개발을 지원하는 게임 엔진입니다. 이 연습에서는 Unity 환경은 물론, Visual Studio Tools for Unity 확장과 Visual Studio for Mac을 사용하여 Unity 게임 개발 및 디버깅을 시작하는 방법을 보여줍니다.
 
@@ -156,7 +156,7 @@ Visual Studio for Mac Tools for Unity는 Mac용 Visual Studio와 함께 설치�
         public float Speed = 50;
         private Transform _playerTransform;
         private Transform _myTransform;
-        
+
         void Start()
         {
             var player = GameObject.FindGameObjectWithTag("Player");
