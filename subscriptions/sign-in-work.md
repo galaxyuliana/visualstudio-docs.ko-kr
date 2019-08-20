@@ -64,7 +64,7 @@ Visual Studio 구독에 로그인하는 단계는 사용 중인 계정의 종류
 A:  로그인 문제는 구독과 연결된 계정과 다른 계정으로 로그인을 시도할 때 가장 흔히 발생합니다.  여러 이메일 주소를 사용하는 경우 잘못된 주소로 로그인을 시도하게 될 수 있습니다.  다른 주소로 로그인해 보세요.  이 작업이 실패하면 [구독 지원](https://visualstudio.microsoft.com/subscriptions/support/) 팀에 연락하여 도움을 받으실 수 있습니다.  
 
 ### <a name="q--i-cant-see-my-subscription-where-is-it"></a>Q:  내 구독을 볼 수 없습니다. 어디에 있나요?
-A:  여러 사용자의 구독이 둘 이상입니다.  https://my.visualstudio.com 에서 구독 포털로 로그인할 수는 있는데 구독이 보이지 않을 경우 가장 일반적인 원인은 다음과 같습니다.
+A:  여러 사용자의 구독이 둘 이상입니다.  [https://my.visualstudio.com](https://my.visualstudio.com )에서 구독 포털로 로그인할 수는 있는데 구독이 보이지 않을 경우 가장 일반적인 원인은 다음과 같습니다.
 1. 다른 Microsoft 계정으로 로그인했습니다.  사용자는 Professional이나 Enterprise 구독 등의 다양한 구독과 Visual Studio Dev Essentials 멤버 자격 보유가 가능하며, 이는 다른 이메일 주소와 연결됩니다. 다른 구독을 보려면 로그아웃하고 다른 MSA로 다시 로그인합니다.
 2. 동일한 이메일 주소와 연결된 구독이 여러 개 있습니다.  이메일 주소와 연결된 구독을 모두 보려면 https://my.visualstudio.com/subscriptions 에서 사용하려는 구독을 선택합니다. 
 
