@@ -8,21 +8,22 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 28199eb9fa09e2096939ffa8e678eb9812a61b1f
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: ffba6b69e1f67b369f3d99c1b54a88448df8a41b
+ms.sourcegitcommit: b83fefa8177c5554cbe2c59c4d102cbc534f7cc6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62816402"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69584987"
 ---
 # <a name="globalization-rules-rule-set-for-managed-code"></a>관리 코드에 대한 전역화 규칙 규칙 집합
-Microsoft 전역화 규칙 규칙 집합 다른 언어, 로캘 및 문화권에서 올바르게 표시 응용 프로그램에서 데이터를 방해할 수 있는 문제에 초점을 사용할 수 있습니다. 응용 프로그램 전역화, 지역화 된 경우이 규칙 집합 또는 둘 다 포함 해야 합니다.
 
-|규칙|설명|
+Microsoft 전역화 규칙 규칙 집합을 사용 하 여 응용 프로그램의 데이터가 다른 언어, 로캘 및 문화권에서 올바르게 나타나지 않도록 하는 문제에 초점을 맞출 수 있습니다. 응용 프로그램이 지역화, 세계화 또는 둘 다 인 경우이 규칙 집합을 포함 해야 합니다.
+
+|규칙|Description|
 |----------|-----------------|
 |[CA1300](../code-quality/ca1300-specify-messageboxoptions.md)|MessageBoxOptions를 지정하세요.|
 |[CA1301](../code-quality/ca1301-avoid-duplicate-accelerators.md)|중복 액셀러레이터 키를 사용하지 마십시오.|
-|[CA1302](../code-quality/ca1302-do-not-hardcode-locale-specific-strings.md)|로캘별 문자열을 하드코드하지 마세요.|
+|[CA1302](../code-quality/ca1302-do-not-hardcode-locale-specific-strings.md)|로캘별 문자열을 하드 코딩 하지 마십시오.|
 |[CA1303](../code-quality/ca1303-do-not-pass-literals-as-localized-parameters.md)|리터럴을 지역화된 매개 변수로 전달하지 마세요.|
 |[CA1304](../code-quality/ca1304-specify-cultureinfo.md)|CultureInfo를 지정하세요.|
 |[CA1305](../code-quality/ca1305-specify-iformatprovider.md)|IFormatProvider를 지정하세요.|

@@ -8,17 +8,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 92b0d6b96adf75acc0b695466dca342f8dca59fa
-ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
+ms.openlocfilehash: d51796f7575e3dd5766655661927dfd520935c02
+ms.sourcegitcommit: b83fefa8177c5554cbe2c59c4d102cbc534f7cc6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68919536"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69585091"
 ---
 # <a name="basic-design-guideline-rules-rule-set-for-managed-code"></a>관리 코드에 대한 기본 디자인 지침 규칙 규칙 집합
+
 Microsoft 기본 디자인 지침 규칙 규칙 집합을 사용 하 여 코드를 더 쉽게 이해 하 고 사용할 수 있도록 집중할 수 있습니다. 프로젝트에 라이브러리 코드가 포함 되어 있거나 유지 관리가 쉬운 코드에 대 한 모범 사례를 적용 하려는 경우이 규칙 집합을 포함 해야 합니다.
 
-기본 디자인 지침 규칙은 Microsoft Minimum Recommeded Rules 규칙 집합의 모든 규칙을 포함 합니다. 최소 규칙 목록은 관리 되는 [권장 규칙 규칙 집합 관리 코드](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md)를 참조 하세요.
+기본 디자인 지침 규칙은 [관리 되는 권장 규칙](managed-recommended-rules-rule-set-for-managed-code.md) 규칙 집합의 모든 규칙을 포함 합니다.
 
 다음 표에서는 Microsoft 기본 디자인 지침 규칙 규칙 집합의 모든 규칙에 대해 설명 합니다.
 

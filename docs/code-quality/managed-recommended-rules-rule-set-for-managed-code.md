@@ -8,17 +8,20 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: c07471290756acc74289a552fcafde746c020e71
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 2060c9c2db3dd3d60efb07b1e23c445a47d54b5d
+ms.sourcegitcommit: b83fefa8177c5554cbe2c59c4d102cbc534f7cc6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62823545"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69585067"
 ---
 # <a name="managed-recommended-rules-rule-set-for-managed-code"></a>관리 코드에 대한 관리 권장 규칙 규칙 집합
-Microsoft 관리 권장 규칙이라는 규칙 집합을 사용하여 잠재적 보안 허점, 응용 프로그램 충돌 및 기타 중요한 논리 및 디자인 오류와 같은 관리 코드의 가장 중요한 문제에 초점을 맞출 수 있습니다. 프로젝트에 대해 만든 모든 사용자 지정 규칙 집합에이 규칙 집합을 포함 해야 합니다.
 
-|규칙|설명|
+Microsoft 관리 권장 규칙 규칙 집합을 사용 하 여 잠재적 보안 허점, 응용 프로그램 충돌 및 기타 중요 한 논리 및 디자인 오류를 비롯 하 여 관리 코드의 가장 중요 한 문제에 초점을 맞출 수 있습니다. 이 규칙 집합은 [관리 되는 최소 규칙](managed-minimum-rules-rule-set-for-managed-code.md) 규칙 집합의 모든 규칙을 포함 합니다.
+
+프로젝트에 대해 만드는 모든 사용자 지정 규칙 집합에이 규칙 집합을 포함 합니다.
+
+|규칙|Description|
 |----------|-----------------|
 |[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|삭제 가능한 필드가 있는 형식은 삭제 가능해야 합니다.|
 |[CA1009](../code-quality/ca1009-declare-event-handlers-correctly.md)|이벤트 처리기를 제대로 선언하십시오.|

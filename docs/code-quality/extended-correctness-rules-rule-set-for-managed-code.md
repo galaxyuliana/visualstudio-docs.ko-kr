@@ -8,21 +8,22 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 62d11a73d8e8e4510269f73cfb83d946b6ff864b
-ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
+ms.openlocfilehash: 9ec1bdaf421e3976872a3460dc22fecd24b4386b
+ms.sourcegitcommit: b83fefa8177c5554cbe2c59c4d102cbc534f7cc6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68923992"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69585115"
 ---
 # <a name="extended-correctness-rules-rule-set-for-managed-code"></a>관리 코드에 대한 확장 수정 규칙 규칙 집합
+
 Microsoft 확장 수정 규칙 규칙 집합은 코드 분석을 통해 보고 되는 논리 및 프레임 워크 사용 오류를 최대화 합니다. COM 상호 운용성 및 모바일 응용 프로그램과 같은 특정 시나리오에 대 한 추가 강조가 있습니다. 이러한 시나리오 중 하나가 프로젝트에 적용 되거나 프로젝트에서 추가 문제를 발견 하는 경우이 규칙 집합을 포함 하는 것을 고려해 야 합니다.
 
-Microsoft 확장 수정 규칙 규칙 집합에는 Microsoft 기본 수정 규칙 규칙 집합에 있는 규칙이 포함 됩니다. 기본 정확성 규칙에는 Microsoft 최소 권장 규칙 규칙 집합에 있는 규칙이 포함 됩니다. 자세한 내용은 관리 코드에 대 한 [기본 수정 규칙 규칙 집합](../code-quality/basic-correctness-rules-rule-set-for-managed-code.md) 및 관리 [코드에 대 한 관리 권장 규칙](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) 규칙 집합을 참조 하세요.
+Microsoft 확장 수정 규칙 규칙 집합에는 [관리 권장 규칙](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) 규칙 집합에 있는 규칙을 포함 하는 [기본 수정 규칙](../code-quality/basic-correctness-rules-rule-set-for-managed-code.md) 규칙 집합에 있는 규칙이 포함 됩니다.
 
 다음 표에서는 Microsoft 확장 수정 규칙 규칙 집합의 모든 규칙에 대해 설명 합니다.
 
-|규칙|설명|
+|규칙|Description|
 |----------|-----------------|
 |[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|삭제 가능한 필드가 있는 형식은 삭제 가능해야 합니다.|
 |[CA1009](../code-quality/ca1009-declare-event-handlers-correctly.md)|이벤트 처리기를 제대로 선언하십시오.|
