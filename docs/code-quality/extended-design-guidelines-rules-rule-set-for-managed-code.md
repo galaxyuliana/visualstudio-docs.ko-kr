@@ -8,22 +8,22 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: cf5b486e8298b6438b774481a839c0f6433cdbed
-ms.sourcegitcommit: 92a04c57ac0a49f304fa2ea5043436f30068c3cd
+ms.openlocfilehash: b2270caa0cf7db230fa030cb620d51f1677d9dec
+ms.sourcegitcommit: b83fefa8177c5554cbe2c59c4d102cbc534f7cc6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "65975900"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69585072"
 ---
 # <a name="extended-design-guidelines-rules-rule-set-for-managed-code"></a>관리 코드에 대한 확장 디자인 지침 규칙 규칙 집합
 
-Microsoft 확장 디자인 지침 규칙 규칙 집합을 보고 되는 유용성 및 유지 관리 문제를 최대화 하기 위해 기본 디자인 지침 규칙을 확장 합니다. 명명 지침에 주안점을 둡니다. 프로젝트에 라이브러리 코드가 있거나 유지 관리 하기 쉬운 코드를 작성 하는 데 가장 높은 표준을 적용 하려는 경우이 규칙 집합을 포함 하는 것이 좋습니다.
+Microsoft 확장 디자인 지침 규칙 규칙 집합은 기본 디자인 지침 규칙을 확장 하 여 보고 되는 유용성 및 유지 관리 문제를 최대화 합니다. 이름 지정 지침에 대 한 추가 강조를 추가 합니다. 프로젝트에 라이브러리 코드가 포함 되어 있거나 유지 관리가 쉬운 코드를 작성 하는 데 가장 높은 표준을 적용 하려는 경우이 규칙 집합을 포함 하는 것이 좋습니다.
 
-확장 디자인 지침 규칙 모든 Microsoft 기본 디자인 지침 규칙을 포함합니다. 기본 디자인 지침 규칙 Microsoft 최소 권장 규칙 모두를 포함 합니다. 자세한 내용은 [관리 되는 코드에 대 한 기본 디자인 지침 규칙 규칙 집합](../code-quality/basic-design-guideline-rules-rule-set-for-managed-code.md) 고 [관리 코드에 대 한 관리 권장 규칙 규칙 집합](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md)
+확장 된 디자인 지침 규칙에는 [기본 디자인 지침](../code-quality/basic-design-guideline-rules-rule-set-for-managed-code.md) 규칙 규칙 집합의 모든 규칙이 포함 됩니다. 여기에는 [관리 권장 규칙](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) 규칙 집합의 규칙이 포함 됩니다.
 
-다음 표에서 Microsoft 확장 디자인 지침 규칙 규칙 집합의 모든 규칙을 설명 합니다.
+다음 표에서는 Microsoft 확장 디자인 지침 규칙 규칙 집합의 모든 규칙에 대해 설명 합니다.
 
-|규칙|설명|
+|규칙|Description|
 |----------|-----------------|
 |[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|삭제 가능한 필드가 있는 형식은 삭제 가능해야 합니다.|
 |[CA1009](../code-quality/ca1009-declare-event-handlers-correctly.md)|이벤트 처리기를 제대로 선언하십시오.|

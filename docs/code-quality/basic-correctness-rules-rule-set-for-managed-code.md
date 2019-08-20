@@ -8,15 +8,16 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: ce48ece2801096b2b657df41bcaa0a744e67bd45
-ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
+ms.openlocfilehash: a76d1c5d2268c0119fc6822167537b500371cdb5
+ms.sourcegitcommit: b83fefa8177c5554cbe2c59c4d102cbc534f7cc6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68919563"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69585003"
 ---
 # <a name="basic-correctness-rules-rule-set-for-managed-code"></a>관리 코드에 대한 기본 수정 규칙 규칙 집합
-기본 수정 규칙 규칙 집합은 프레임 워크 Api를 사용 하는 경우 논리 오류 및 일반적인 실수에 초점을 맞춘 것입니다. 기본 정확성 규칙에는 권장 되는 최소 규칙 규칙 집합의 규칙이 포함 됩니다. 자세한 내용은 관리 되는 [권장 규칙 규칙 집합 관리 코드에 대 한](../code-quality/managed-recommended-rules-rule-set-for-managed-code.md) 규칙 집합을 포함 해야 합니다 .이 규칙 집합은 최소 권장 규칙에서 보고 하는 경고 목록에서 확장
+
+기본 수정 규칙 규칙 집합은 프레임 워크 Api를 사용 하는 경우 논리 오류 및 일반적인 실수에 초점을 맞춘 것입니다. 기본 정확성 규칙에는 [관리 권장 규칙](managed-recommended-rules-rule-set-for-managed-code.md) 규칙 집합의 규칙이 포함 됩니다.
 
 다음 표에서는 Microsoft 기본 수정 규칙 규칙 집합의 모든 규칙에 대해 설명 합니다.
 

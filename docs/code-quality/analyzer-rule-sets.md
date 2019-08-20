@@ -10,18 +10,18 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 3c0be66559802188503c3b8f8c1c2cf2955dbd8a
-ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
+ms.openlocfilehash: 68410fd43f182873c27e3d5fed742bed7ba8a4ed
+ms.sourcegitcommit: b83fefa8177c5554cbe2c59c4d102cbc534f7cc6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69547949"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69585141"
 ---
 # <a name="rule-sets-for-analyzer-packages"></a>분석기 패키지에 대한 규칙 집합
 
 미리 정의 된 규칙 집합은 일부 NuGet 분석기 패키지에 포함 됩니다. 예를 들어 [FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer 패키지 (버전 2.6.2 critical부터 시작)에 포함 된 규칙 집합은 보안, 이름 지정, 성능 등의 범주에 따라 규칙을 사용 하거나 사용 하지 않도록 설정 합니다. 규칙 집합을 사용 하면 특정 규칙 범주와 관련 된 규칙 위반만 쉽게 확인할 수 있습니다.
 
-레거시 "FxCop" 분석에서 .NET Compiler Platform 기반 코드 분석으로 마이그레이션하는 경우 이러한 규칙 집합을 사용 하 여 이전에 사용한 것과 동일한 규칙 구성을 계속 사용할 수 있습니다.
+레거시 "FxCop" 분석에서 .NET Compiler Platform 기반 코드 분석으로 마이그레이션하는 경우 이러한 규칙 집합을 사용 하 여 [이전에 사용한](rule-set-reference.md)것과 비슷한 규칙 구성을 계속 사용할 수 있습니다.
 
 ## <a name="use-analyzer-package-rule-sets"></a>분석기 패키지 규칙 집합 사용
 
@@ -58,7 +58,7 @@ ms.locfileid: "69547949"
 
 또한 패키지의 각 규칙 범주에 대 한 두 가지 규칙 집합 (예: 성능 또는 보안)이 있습니다. 한 규칙 집합은 범주에 대 한 모든 규칙을 사용 하도록 설정 하 고, 하나의 규칙 집합은 범주의 각 규칙에 대 한 기본 심각도 및 사용 설정을 적용 합니다.
 
-[FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer 패키지에는 레거시 분석에 사용할 수 있는 규칙 집합과 일치 하는 다음 범주에 대 한 규칙 집합이 포함 되어 있습니다.
+[FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer 패키지에는 다음 범주에 대 한 규칙 집합이 포함 되어 있습니다.
 
 - 디자인
 - 문서
