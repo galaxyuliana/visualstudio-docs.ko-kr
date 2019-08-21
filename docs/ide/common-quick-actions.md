@@ -11,12 +11,12 @@ dev_langs:
 - VB
 ms.workload:
 - multiple
-ms.openlocfilehash: 3364010ad9470d4431e6407e40b6a6b1cc96476a
-ms.sourcegitcommit: 0f5f7955076238742f2071d286ad8e896f3a6cad
+ms.openlocfilehash: 2ceedf18b936c0b1e8553ceb3bb1fdbc75035dfa
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "68483728"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551449"
 ---
 # <a name="common-quick-actions"></a>일반적인 빠른 작업
 
@@ -159,7 +159,7 @@ public MyMethod()
 
 ### <a name="remove-type-from-default-value-expression"></a>기본값 식에서 형식 제거
 
-이 빠른 작업은 기본 값 식에서 값 형식을 제거하고 컴파일러가 식의 형식을 유추할 수 있는 경우 [ 리터럴](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference)을 사용합니다.
+이 빠른 작업은 기본 값 식에서 값 형식을 제거하고 컴파일러가 식의 형식을 유추할 수 있는 경우 [ 리터럴](/dotnet/csharp/language-reference/operators/default#default-literal)을 사용합니다.
 
 ```csharp
 // Before

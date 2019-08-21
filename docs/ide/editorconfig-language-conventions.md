@@ -13,12 +13,12 @@ manager: jillfra
 ms.workload:
 - dotnet
 - dotnetcore
-ms.openlocfilehash: 7b88824e6be7dbb216aa14ca9a22fd692474ec2f
-ms.sourcegitcommit: a124076dfd6b4e5aecda4d01984fee7b0c034745
+ms.openlocfilehash: 2231d3637b4a016d1da783d65d4237b9f5d6bab2
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "68787415"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551422"
 ---
 # <a name="language-conventions"></a>언어 규칙
 
@@ -42,7 +42,7 @@ Visual Studio 내의 EditorConfig 언어 규칙은 2개 범주, 즉 Visual Basic
 
 언어 규칙 심각도는 해당 스타일을 적용할 수준을 지정합니다. 다음 표에서는 가능한 심각도 값 및 해당 효과를 나열합니다.
 
-심각도 | 결과
+심각도 | 효과
 :------- | ------
 `none` | 이 규칙을 위반하는 경우 사용자에게 아무 것도 표시되지 않습니다. 그러나 코드 생성 기능은 이 스타일의 코드를 생성합니다. `none` 심각도의 규칙은 **빠른 작업 및 리팩터링** 메뉴에 나타나지 않습니다. 대부분의 경우 “사용하지 않도록 설정” 또는 “무시”되는 것으로 간주됩니다.
 `silent`(Visual Studio 2017 버전 15.8 이상에서는 `refactoring`도 가능) | 이 규칙을 위반하는 경우 사용자에게 아무 것도 표시되지 않습니다. 그러나 코드 생성 기능은 이 스타일의 코드를 생성합니다. `silent` 심각도의 규칙은 **빠른 작업 및 리팩터링** 메뉴뿐만 아니라 정리에도 참여합니다.
@@ -1435,7 +1435,7 @@ csharp_prefer_simple_default_expression = true:suggestion
 
 #### <a name="csharp_prefer_simple_default_expression"></a>csharp\_prefer\_simple\_default_expression
 
-이 스타일 규칙을 사용 하 여 관련는 [ `default` 기본값 식에 대 한 리터럴](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) 때 컴파일러는 식의 형식을 유추할 수 있습니다.
+이 스타일 규칙을 사용 하 여 관련는 [ `default` 기본값 식에 대 한 리터럴](/dotnet/csharp/language-reference/operators/default#default-literal) 때 컴파일러는 식의 형식을 유추할 수 있습니다.
 
 |||
 |-|-|
