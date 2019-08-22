@@ -1,9 +1,9 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: 소스 분석 (FxCop 분석기)를 이진 FxCop (분석)에서 마이그레이션
+title: FxCop (이진 분석)에서 원본 분석 (FxCop 분석기)으로 마이그레이션
 metadata:
   title: FxCop 마이그레이션 설명서
-  description: 레거시 이진 FxCop (분석)에서 분석 (FxCop 분석기)를 경우 원본으로 이동 하는 방법은 코드를 분석 합니다.
+  description: 코드를 분석할 때 FxCop (레거시 이진 분석)에서 소스 분석 (FxCop 분석기)으로 이동 하는 방법에 대해 알아봅니다.
   ms.date: 07/11/2019
   ms.prod: visual-studio-dev16
   ms.technology: vs-ide-code-analysis
@@ -14,10 +14,10 @@ metadata:
   author: gewarren
   manager: jillfra
 abstract:
-  description: 처음에 대 한 코드를 분석 하는 방법 또는 소스 분석 (FxCop 분석기)를 사용 하 여 관리 되는 코드를 분석 하는의 새로운 방식으로 이진 FxCop (분석)에서 마이그레이션하는 방법에 알아봅니다.
+  description: '처음으로 코드를 분석 하거나, FxCop (이진 분석)에서 소스 분석 (FxCop 분석기)을 사용 하 여 관리 코드를 분석 하는 새로운 방법으로 마이그레이션하는 방법에 대해 알아봅니다.'
   aside:
     image:
-      alt: 일반적인 관리 작업 로고
+      alt: 일반 관리 작업 로고
       height: 133
       width: 48
       src: 'https://docs.microsoft.com/media/illustrations/bcs-partner-advanced-management-settings-8.svg'
@@ -25,8 +25,8 @@ abstract:
 sections:
   - title: 질문과 대답
     items:
-      - html: 에 대 한 답변을 받을 <a href="fxcop-analyzers-faq.md">질문과 대답</a> 이진 FxCop 분석 및 FxCop 분석기를 사용 하 여 소스 분석 간의 차이점에 대 한 합니다.
-  - title: 코드 분석을 처음 접하는 경우...
+      - html: FxCop 분석기를 사용 <a href="fxcop-analyzers-faq.md"></a> 하는 이진 fxcop 분석 및 소스 분석 간의 차이점에 대 한 몇 가지 질문과 대답을 확인 하세요.
+  - title: 코드 분석을 처음 접하는 경우 ...
     items:
       - type: list
         style: cards
@@ -34,54 +34,54 @@ sections:
         columns: 2
         items:
           - href: roslyn-analyzers-overview.md
-            html: <p>분석기는 무엇입니까에 대해 알아봅니다.</p>
+            html: <p>분석기에 대해 알아봅니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_learn-about.svg'
             title: 분석기 개요
           - href: install-roslyn-analyzers.md
-            html: <p>NuGet 패키지 또는 Visual Studio 확장으로 분석기를 설치 하는 방법에 알아봅니다.</p>
+            html: <p>분석기를 NuGet 패키지 또는 Visual Studio 확장으로 설치 하는 방법에 대해 알아봅니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_setup.svg'
-            title: 분석기를 설치 합니다.
+            title: 분석기 설치
           - href: use-roslyn-analyzers.md
-            html: '<p>분석기 사용에 대 한 위반을 억제 하는 방법을 알아봅니다 C# 또는 Visual Basic 코드입니다.</p>'
+            html: '<p>분석기를 사용 하 고 또는 Visual Basic 코드에 C# 위반을 억제 하는 방법을 알아봅니다.</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_config-tools.svg'
-            title: 규칙 심각도 설정 하 고 오류 표시 안 함
+            title: 규칙 심각도 설정 및 오류 표시 안 함
           - href: 'use-roslyn-analyzers.md#command-line-usage'
-            html: <p>명령줄에서 분석기를 사용 하는 방법에 알아봅니다.</p>
+            html: <p>명령줄에서 분석기를 사용 하는 방법을 알아봅니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_cligeneric.svg'
-            title: 명령줄 사용법
-  - title: 현재 이진 FxCop (분석)를 사용 하는 경우...
+            title: 명령줄 사용
+  - title: 현재 FxCop (이진 분석)를 사용 하는 경우 ...
     items:
       - type: list
         style: cards
         className: cardsM
         columns: 2
         items:
-          - href: 'roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis'
-            html: <p>이진 FxCop (분석) 및 소스 분석 (FxCop 분석기) 간의 차이점에 알아봅니다.</p>
+          - href: 'roslyn-analyzers-overview.md#net-compiler-platform-based-analysis-versus-legacy-analysis'
+            html: <p>FxCop (이진 분석) 및 소스 분석 (FxCop 분석기) 간의 차이점에 대해 알아봅니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_learn-about.svg'
-            title: 어떻게 다릅니까?
+            title: 다른 것은 무엇 인가요?
           - href: install-fxcop-analyzers.md
-            html: <p>FxCop 분석기 패키지를 설치 하는 방법에 알아봅니다.</p>
+            html: <p>FxCop analyzer 패키지를 설치 하는 방법에 대해 알아봅니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_setup.svg'
             title: FxCop 분석기 설치
           - href: fxcop-rule-port-status.md
-            html: <p>소스 분석 (FxCop 분석기)에 이식 되었으며는 이진 FxCop (분석) 규칙을 나열 합니다.</p>
+            html: <p>소스 분석 (FxCop 분석기)으로 이식 된 FxCop (이진 분석) 규칙을 나열 합니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_upgrade.svg'
-            title: 이식 및 unported 규칙
+            title: 이식 및 이식 되지 않은 규칙
           - href: 'use-roslyn-analyzers.md#command-line-usage'
-            html: <p>일반적으로 명령줄에서 코드 분석을 실행 하는 경우 명령줄에서 분석기를 사용 하는 방법에 알아봅니다.</p>
+            html: <p>명령줄에서 일반적으로 코드 분석을 실행 하는 경우 명령줄에서 분석기를 사용 하는 방법을 알아봅니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_cligeneric.svg'
-            title: 명령줄 사용법
+            title: 명령줄 사용
           - href: analyzer-rule-sets.md
-            html: <p>분석기 패키지 규칙 집합에 알아봅니다.</p>
+            html: <p>분석기 패키지 규칙 집합에 대해 알아봅니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_code-samples.svg'
             title: 규칙 집합
@@ -93,12 +93,12 @@ sections:
         columns: 2
         items:
           - href: code-analysis-for-c-cpp-overview.md
-            html: <p>네이티브 코드 분석을 실행 하는 방법을 알아봅니다 C++ 코드입니다. 분석의 관리 되는 C++ 코드는 사용 되지 않습니다.</p>
+            html: <p>네이티브 C++ 코드에 대해 코드 분석을 실행 하는 방법을 알아봅니다. 관리 C++ 코드에 대 한 분석은 더 이상 사용 되지 않습니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/logos/logo_Cplusplus.svg'
             title: C++ 코드 분석
           - href: code-metrics-values.md
-            html: <p>코드 메트릭을 가져오는 방법을 알아봅니다. 코드 메트릭에 대 한 사용자 환경을 그대로 유지 됩니다.</p>
+            html: <p>코드 메트릭을 얻는 방법에 대해 알아봅니다. 코드 메트릭에 대 한 사용자 환경은 변경 되지 않고 그대로 유지 됩니다.</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_data-collection.svg'
             title: 코드 메트릭
