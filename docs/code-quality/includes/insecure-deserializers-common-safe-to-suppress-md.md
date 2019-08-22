@@ -3,13 +3,13 @@ author: dotpaul
 ms.author: paulming
 ms.date: 04/17/2019
 ms.topic: include
-ms.openlocfilehash: 1f70a755de0f1cdda97ca04e2e6a3930c489fd68
-ms.sourcegitcommit: 748d9cd7328a30f8c80ce42198a94a4b5e869f26
+ms.openlocfilehash: 349a4ac8e246cdcc4ef880d38fbea321a2f86a9d
+ms.sourcegitcommit: 673b9364fc9a96b027662dcb4cf5d61cab60ef11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2019
-ms.locfileid: "68147101"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "69891068"
 ---
-하는 경우이 규칙에서 경고를 표시 하지 않아도 안전 합니다.
-- 입력이 신뢰할 수 있는 알 수 있습니다. 응용 프로그램의 신뢰 경계 및 데이터 흐름 시간이 지남에 따라 변경 될 수 있다는 것이 좋습니다.
-- 위의 주의 사항 중 하나를 수행 했습니다.
+다음 경우에는이 규칙에서 경고를 표시 하지 않는 것이 안전 합니다.
+- 입력이 신뢰 되는 것을 알고 있습니다. 응용 프로그램의 트러스트 경계 및 데이터 흐름이 시간이 지남에 따라 변경 될 수 있다는 것을 고려 합니다.
+- [위반을 해결 하는 방법](#how-to-fix-violations)에 대 한 예방 조치 중 하나를 수행 했습니다.
