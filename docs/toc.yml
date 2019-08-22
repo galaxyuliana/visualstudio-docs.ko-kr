@@ -414,6 +414,8 @@
                       href: ide/reference/use-block-body-lambda.md
                     - name: '사용되지 않은 값 할당, 변수 및 매개 변수'
                       href: ide/reference/unused-values-parameters.md
+                    - name: 호출 체인 래핑 및 정렬
+                      href: ide/reference/wrap-and-align-call-chains.md
                     - name: '래핑, 들여쓰기 및 매개 변수 정렬'
                       href: ide/reference/wrap-align-indent-parameters.md
                 - name: '연습: 사용법에서 코드 생성'
