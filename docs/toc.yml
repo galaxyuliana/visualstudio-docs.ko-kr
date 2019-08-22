@@ -350,8 +350,6 @@
                     - name: 개요
                       displayName: refactoring
                       href: ide/refactoring-in-visual-studio.md
-                    - name: 모든 매개 변수에 대한 null 검사 추가
-                      href: ide/reference/add-null-checks-for-all-parameters.md
                     - name: 메서드 시그니처 변경
                       href: ide/reference/change-method-signature.md
                     - name: 무명 형식을 클래스로 변환

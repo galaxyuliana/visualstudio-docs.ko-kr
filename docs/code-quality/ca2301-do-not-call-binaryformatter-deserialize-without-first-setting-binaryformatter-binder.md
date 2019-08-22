@@ -13,12 +13,12 @@ ms.workload:
 f1_keywords:
 - CA2301
 - DoNotCallBinaryFormatterDeserializeWithoutFirstSettingBinaryFormatterBinder
-ms.openlocfilehash: d9ac57ae00631088dacd9a23c502ba7693d5a903
-ms.sourcegitcommit: db30651dc0ce4d0b274479b23a6bd102a5559098
+ms.openlocfilehash: 0291aa4d8130cfdc9b919e0c8430e56ef0f95296
+ms.sourcegitcommit: 673b9364fc9a96b027662dcb4cf5d61cab60ef11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "65083909"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "69891188"
 ---
 # <a name="ca2301-do-not-call-binaryformatterdeserialize-without-first-setting-binaryformatterbinder"></a>CA2301: 먼저 BinaryFormatter.Binder를 설정하지 않고 BinaryFormatter.Deserialize를 호출하지 마세요.
 
@@ -31,31 +31,31 @@ ms.locfileid: "65083909"
 
 ## <a name="cause"></a>원인
 
-A <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> deserialization 메서드를 호출 하거나 하지 않고 참조 된 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 속성 집합입니다.
+<xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 속성 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> 을 설정 하지 않고 deserialization 메서드를 호출 했거나 참조 했습니다.
 
 ## <a name="rule-description"></a>규칙 설명
 
 [!INCLUDE[insecure-deserializers-description](includes/insecure-deserializers-description-md.md)]
 
-이 규칙을 찾습니다 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> 메서드 호출 또는 참조 deserialization 때 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> 없는 해당 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 설정 합니다. 사용 하 여 모든 deserialization을 허용 하지 않도록 하려는 경우 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> 에 관계 없이 합니다 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 속성을이 규칙을 사용 하지 않도록 설정 및 [CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md), 규칙을 사용 하도록 설정 하 고 [CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)합니다.
+이 규칙은 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter?displayProperty=nameWithType> <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> 에<xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 집합이 없는 경우 deserialization 메서드 호출 또는 참조를 찾습니다. <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 속성에 관계 없이를 사용 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> 하 여 deserialization을 허용 하지 않으려면이 규칙 및 [CA2302](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)를 사용 하지 않도록 설정 하 고 규칙 [CA2300](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)을 사용 하도록 설정 합니다.
 
 ## <a name="how-to-fix-violations"></a>위반 문제를 해결하는 방법
 
-- 가능한 경우 보안 직렬 변환기를 대신 사용 하 고 **공격자가 임의의 형식을 deserialize 하는 데 지정 하지**합니다. 안전한 일부 serializer는 다음과 같습니다.
+- 가능 하면 보안 serializer를 대신 사용 하 고 **공격자가 deserialize 할 임의의 형식을 지정할 수 없도록**합니다. 몇 가지 안전한 serializer는 다음과 같습니다.
   - <xref:System.Runtime.Serialization.DataContractSerializer?displayProperty=nameWithType>
   - <xref:System.Runtime.Serialization.Json.DataContractJsonSerializer?displayProperty=nameWithType>
-  - <xref:System.Web.Script.Serialization.JavaScriptSerializer?displayProperty=nameWithType> -사용해 서는 안 <xref:System.Web.Script.Serialization.SimpleTypeResolver?displayProperty=nameWithType>합니다. 형식 확인자를 사용 해야 하는 경우 예상 되는 목록에 deserialize 된 형식을 제한 합니다.
+  - <xref:System.Web.Script.Serialization.JavaScriptSerializer?displayProperty=nameWithType>-사용 <xref:System.Web.Script.Serialization.SimpleTypeResolver?displayProperty=nameWithType>하지 마세요. 형식 확인자를 사용 해야 하는 경우 deserialize 된 형식을 예상 목록으로 제한 합니다.
   - <xref:System.Xml.Serialization.XmlSerializer?displayProperty=nameWithType>
-  - Newtonsoft Json.NET-TypeNameHandling.None를 사용 합니다. TypeNameHandling에 대 한 다른 값을 사용 해야 하는 경우 사용자 지정 ISerializationBinder 사용 하 여 예상된 목록에 deserialize 된 형식을 제한 합니다.
+  - Newtonsoft.json Json.NET-TypeNameHandling를 사용 합니다. TypeNameHandling에 다른 값을 사용 해야 하는 경우 사용자 지정 ISerializationBinder를 사용 하 여 deserialize 된 형식을 예상 목록으로 제한 합니다.
   - 프로토콜 버퍼
-- Serialize 된 데이터 변조 증명을 확인 합니다. Serialization 한 후 serialize 된 데이터를 암호화 하 여 로그인 합니다. Deserialization을 수행 하기 전에 암호화 서명을 확인 합니다. 노출 되는 암호화 키 및 키 회전에 대 한 디자인을 보호 합니다.
-- Deserialize 된 형식을 제한 합니다. 사용자 지정 구현 <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>합니다. 로 역직렬화 하기 전에 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter>로 설정 합니다 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 사용자의 인스턴스에 대 한 속성 <xref:System.Runtime.Serialization.SerializationBinder>합니다. 재정의 된 <xref:System.Runtime.Serialization.SerializationBinder.BindToType%2A> 메서드, 형식, 기대 없는 경우 예외를 throw 합니다.
+- Serialize 된 데이터를 변조 방지로 설정 합니다. Serialization 후 직렬화 된 데이터를 암호화 하 여 서명 합니다. Deserialization 전에 암호화 서명 유효성을 검사 합니다. 암호화 키가 공개 되지 않도록 보호 하 고 키 회전을 설계 합니다.
+- Deserialize 된 형식을 제한 합니다. 사용자 지정 <xref:System.Runtime.Serialization.SerializationBinder?displayProperty=nameWithType>를 구현 합니다. 로 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter>deserialize 하기 전에 <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder> 속성을 사용자 지정 <xref:System.Runtime.Serialization.SerializationBinder>의 인스턴스로 설정 합니다. 재정의 <xref:System.Runtime.Serialization.SerializationBinder.BindToType%2A> 된 메서드에서 형식이 예기치 않은 경우 예외를 throw 하 여 deserialization을 중지 합니다.
 
-## <a name="when-to-suppress-warnings"></a>경고를 표시 하는 경우
+## <a name="when-to-suppress-warnings"></a>경고를 표시 하지 않는 경우
 
 [!INCLUDE[insecure-deserializers-common-safe-to-suppress](includes/insecure-deserializers-common-safe-to-suppress-md.md)]
 
-## <a name="pseudo-code-examples"></a>의사 (pseudo) 코드 예제
+## <a name="pseudo-code-examples"></a>의사 코드 예제
 
 ### <a name="violation"></a>위반
 
@@ -121,7 +121,7 @@ Public Class ExampleClass
 End Class
 ```
 
-### <a name="solution"></a>솔루션
+### <a name="solution"></a>해결 방법
 
 ```csharp
 using System;
@@ -226,8 +226,8 @@ Public Class ExampleClass
 End Class
 ```
 
-## <a name="related-rules"></a>관련된 규칙
+## <a name="related-rules"></a>관련 규칙
 
-[CA2300: 안전 하지 않은 deserializer BinaryFormatter를 사용 하지 마세요](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)
+[CA2300: 안전 하지 않은 역직렬 변환기 BinaryFormatter를 사용 하지 마십시오.](ca2300-do-not-use-insecure-deserializer-binaryformatter.md)
 
-[CA2302: BinaryFormatter.Binder BinaryFormatter.Deserialize를 호출 하기 전에 설정 되어 있는지 확인](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)
+[CA2302: BinaryFormatter를 설정 해야 합니다. BinaryFormatter를 호출 하기 전에 바인더를 설정 하십시오. Deserialize](ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md)
