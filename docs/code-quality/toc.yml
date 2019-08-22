@@ -162,31 +162,31 @@
           items:
             - name: 개요
               href: rule-set-reference.md
-            - name: 모든 규칙 규칙 집합
+            - name: 모든 규칙
               href: all-rules-rule-set.md
-            - name: 관리 코드에 대한 기본 수정 규칙 규칙 집합
+            - name: 기본 정확성 규칙
               href: basic-correctness-rules-rule-set-for-managed-code.md
-            - name: 관리 코드에 대한 기본 디자인 지침 규칙 규칙 집합
+            - name: 기본 디자인 지침 규칙
               href: basic-design-guideline-rules-rule-set-for-managed-code.md
-            - name: 관리 코드에 대한 확장 수정 규칙 규칙 집합
+            - name: 확장 정확성 규칙
               href: extended-correctness-rules-rule-set-for-managed-code.md
-            - name: 관리 코드에 대한 확장 디자인 지침 규칙 규칙 집합
+            - name: 확장 디자인 지침 규칙
               href: extended-design-guidelines-rules-rule-set-for-managed-code.md
-            - name: 관리 코드에 대한 전역화 규칙 규칙 집합
+            - name: 전역화 규칙
               href: globalization-rules-rule-set-for-managed-code.md
-            - name: 관리 코드에 대한 관리 최소 규칙 규칙 집합
+            - name: 관리 최소 규칙
               href: managed-minimum-rules-rule-set-for-managed-code.md
-            - name: 관리 코드에 대한 관리 권장 규칙 규칙 집합
+            - name: 관리 권장 규칙
               href: managed-recommended-rules-rule-set-for-managed-code.md
-            - name: 혼합 최소 규칙 규칙 집합
+            - name: 혼합 최소 규칙
               href: mixed-minimum-rules-rule-set.md
-            - name: 혼합 권장 규칙 규칙 집합
+            - name: 혼합 권장 규칙
               href: mixed-recommended-rules-rule-set.md
-            - name: 네이티브 최소 규칙 규칙 집합
+            - name: 네이티브 최소 규칙
               href: native-minimum-rules-rule-set.md
-            - name: 네이티브 권장 규칙 규칙 집합
+            - name: 네이티브 권장 규칙
               href: native-recommended-rules-rule-set.md
-            - name: 관리 코드에 대한 보안 규칙 규칙 집합
+            - name: 보안 규칙
               href: security-rules-rule-set-for-managed-code.md
         - name: 경고 표시 안 함
           href: in-source-suppression-overview.md
