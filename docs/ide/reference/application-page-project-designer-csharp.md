@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - dotnet
-ms.openlocfilehash: 897c3a82f5add84ad343c100b93fd8a4d2663610
-ms.sourcegitcommit: d4920babfc3d24a3fe1d4bf446ed3fe73b344467
+ms.openlocfilehash: 04a130528edbe8ab3aae0a24d69315b934b19d54
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67160057"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551436"
 ---
 # <a name="application-page-project-designer-c"></a>프로젝트 디자이너, 애플리케이션 페이지(C#)
 
@@ -105,6 +105,8 @@ ms.locfileid: "67160057"
 
 프로그래밍 방식으로 이 속성에 액세스하려면 <xref:VSLangProj.ProjectProperties.ApplicationIcon%2A>을 참조하세요.
 
+아이콘을 만드는 방법에 대한 자세한 내용은 [아이콘을 위한 이미지 편집기](/cpp/windows/image-editor-for-icons)를 참조하세요.
+
 **Manifest**
 
 Windows Vista에서 UAC(사용자 계정 컨트롤)로 애플리케이션을 실행하는 경우 매니페스트 생성 옵션을 선택합니다. 이 옵션은 다음 값을 가질 수 있습니다.
@@ -120,3 +122,5 @@ Windows Vista에서 UAC(사용자 계정 컨트롤)로 애플리케이션을 실
 프로젝트에 대한 리소스 파일을 제공하는 경우 이 라디오 단추를 선택합니다. 이 옵션을 선택하면 **아이콘** 및 **매니페스트** 옵션이 사용되지 않습니다.
 
 경로 이름을 입력하거나 찾아보기 단추( **...** )를 사용하여 Win32 리소스 파일을 프로젝트에 추가합니다.
+
+자세한 내용은 [.NET 앱의 리소스 파일 만들기](/dotnet/framework/resources/creating-resource-files-for-desktop-apps)를 참조하세요.

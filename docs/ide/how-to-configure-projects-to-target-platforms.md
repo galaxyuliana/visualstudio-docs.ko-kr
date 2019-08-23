@@ -1,6 +1,6 @@
 ---
 title: '방법: 플랫폼을 대상으로 한 프로젝트 구성'
-ms.date: 11/04/2016
+ms.date: 08/16/2019
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -18,12 +18,12 @@ ms.author: ghogen
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: faef9f55a88385953a121574f761193cc8c11ea9
-ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
+ms.openlocfilehash: 5d31d3a4f2e42981df646f9c38e13ee9b5f21122
+ms.sourcegitcommit: 9e5e8b6e9a3b6614723e71cc23bb434fe4218c9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68416826"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69634918"
 ---
 # <a name="how-to-configure-projects-to-target-platforms"></a>방법: 플랫폼을 대상으로 한 프로젝트 구성
 
@@ -64,9 +64,60 @@ Visual Studio를 사용하면 64비트 플랫폼을 비롯하여 다양한 플�
 
 - [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] 프로젝트의 경우 [/clr(공용 언어 런타임 컴파일)](/cpp/build/reference/clr-common-language-runtime-compilation)을 참조하세요.
 
+## <a name="manually-editing-the-project-file"></a>수동으로 프로젝트 파일 편집
+
+일부 사용자 지정 구성에 대한 프로젝트 파일을 수동으로 편집해야 하는 경우가 있습니다. 예를 들어 다음 예제와 같이 두 가지 플랫폼에 대해 서로 다른 참조와 같이 IDE에서 조건을 지정할 수 없는 경우를 들 수 있습니다.
+
+### <a name="example-referencing-x86-and-x64-assemblies-and-dlls"></a>예제: x86 및 x64 어셈블리 및 DLL 참조
+
+x86 및 x64 버전이 모두 포함된 .NET 어셈블리 또는 DLL이 있을 수 있습니다. 이러한 참조를 사용하도록 프로젝트를 설정하려면 먼저 참조를 추가한 다음 프로젝트 파일을 열고 편집하여 구성 및 대상 플랫폼을 모두 참조하는 조건을 포함하는 `ItemGroup`을 추가합니다.  예를 들어 참조하는 이진이 ClassLibrary1이고 디버그 및 릴리스 구성에 대한 경로와 x86 및 x64 버전이 서로 다른 경우를 가정합니다.  그러면 다음과 같이 모든 설정 조합이 포함된 네 개의 `ItemGroup` 요소를 사용합니다.
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\x64\Debug\netstandard2.0\ClassLibrary1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\x64\Release\netstandard2.0\ClassLibrary1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\x86\Debug\netstandard2.0\ClassLibrary1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86'">
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\ClassLibrary1\ClassLibrary1\bin\x86\Release\netstandard2.0\ClassLibrary1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
+```
+
+::: moniker range="vs-2017"
+> [!NOTE]
+> Visual Studio 2017에서 프로젝트 파일을 편집하려면 먼저 프로젝트를 언로드해야 합니다. 프로젝트를 언로드하려면 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **프로젝트 언로드**를 선택합니다. 편집을 완료한 후 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **프로젝트 다시 로드**를 선택하여 변경 내용을 저장하고 프로젝트를 다시 로드합니다.
+::: moniker-end
+
+프로젝트 파일에 대한 자세한 내용은 [MSBuild 프로젝트 파일 스키마 참조](/visualstudio/msbuild/msbuild-project-file-schema-reference)를 참조하세요.
+
 ## <a name="see-also"></a>참고 항목
 
 - [빌드 플랫폼 이해](../ide/understanding-build-platforms.md)
 - [/platform(C# 컴파일러 옵션)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)
 - [64비트 애플리케이션](/dotnet/framework/64-bit-apps)
 - [Visual Studio IDE 64비트 지원](../ide/visual-studio-ide-64-bit-support.md)
+- [프로젝트 파일 이해](/aspnet/web-forms/overview/deployment/web-deployment-in-the-enterprise/understanding-the-project-file)

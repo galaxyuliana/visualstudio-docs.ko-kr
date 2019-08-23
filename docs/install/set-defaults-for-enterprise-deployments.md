@@ -18,12 +18,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: be29a8eff4e36df04721e8f946b9b2b0ebae3145
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3f1ddb1f1d39255c14e03d114891145c8f2dece5
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62945016"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551184"
 ---
 # <a name="set-defaults-for-enterprise-deployments-of-visual-studio"></a>Visual Studio의 엔터프라이즈 배포에 대한 기본값 설정
 
@@ -55,6 +55,7 @@ Visual Studio의 배포에 영향을 주는 레지스트리 정책을 설정할 
 | `CachePath` | `REG_SZ` 또는 `REG_EXPAND_SZ` | %ProgramData%\Microsoft\VisualStudio\Packages | 패키지가 매니페스트되고 필요한 경우 페이로드가 저장되는 디렉터리입니다. 자세한 내용은 [패키지 캐시를 사용하지 않도록 설정 또는 이동](disable-or-move-the-package-cache.md) 페이지를 참조하세요. |
 | `KeepDownloadedPayloads` | `REG_DWORD` | 1 | 설치된 후에도 패키지 페이로드를 유지합니다. 언제든지 값을 변경할 수 있습니다. 정책을 사용하지 않도록 설정하면 복구하거나 수정하는 인스턴스에 대한 캐시된 패키지 페이로드가 모두 제거됩니다. 자세한 내용은 [패키지 캐시를 사용하지 않도록 설정 또는 이동](disable-or-move-the-package-cache.md) 페이지를 참조하세요. |
 | `SharedInstallationPath` | `REG_SZ` 또는 `REG_EXPAND_SZ` | %ProgramFiles(x86)%\Microsoft Visual Studio\Shared | 여러 버전의 Visual Studio 인스턴스에 걸쳐 공유되는 일부 패키지가 설치되는 디렉터리입니다. 언제든지 값을 변경할 수 있지만 이후 설치에만 영향을 줍니다. 이전 위치에 이미 설치된 모든 제품은 이동되지 않거나 제대로 작동하지 않을 수 있습니다. |
+| `BackgroundDownloadDisabled` |`REG_DWORD` | 1 | 설치된 모든 Visual Studio 제품에 대한 업데이트를 자동으로 다운로드하지 않습니다. 언제든지 값을 변경할 수 있습니다. |
 
 > [!IMPORTANT]
 > 설치 후 `CachePath` 레지스트리 정책을 변경할 경우 기존 패키지 캐시를 새 위치로 이동하고 `SYSTEM` 및 `Administrators`에 모든 권한을 부여하고 `Everyone`에 읽기 권한을 부여하여 해당 캐시가 보호되도록 해야 합니다.

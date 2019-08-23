@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 8749cd7757796a1b716b1ac9db086d3155f94694
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 5bd7fa0bcff67573e61d40a2172e17620910a421
+ms.sourcegitcommit: 5b34052a1c7d86179d7898ed532babb2d9dad4a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62965555"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490623"
 ---
 # <a name="customize-code-coverage-analysis"></a>코드 검사 분석 사용자 지정
 
@@ -30,18 +30,38 @@ ms.locfileid: "62965555"
 
 1. 실행 설정 파일을 솔루션에 추가합니다. **솔루션 탐색기**의 솔루션 바로 가기 메뉴에서 **추가** > **새 항목**, **XML File**을 차례로 선택합니다. 파일을 *CodeCoverage.runsettings*와 같은 이름으로 저장합니다.
 
-1. 이 문서의 끝 부분에 있는 예제 파일에서 콘텐츠를 추가한 다음, 다음 섹션에 설명된 대로 각자의 요구 사항에 맞게 사용자 지정합니다.
+2. 이 문서의 끝 부분에 있는 예제 파일에서 콘텐츠를 추가한 다음, 다음 섹션에 설명된 대로 각자의 요구 사항에 맞게 사용자 지정합니다.
 
-1. 실행 설정 파일을 선택하려면 **테스트** 메뉴에서 **테스트 설정** > **테스트 설정 파일 선택**을 선택합니다. 명령줄 또는 빌드 워크플로에서 테스트를 실행하기 위한 실행 설정 파일을 지정하려면 [ *.runsettings* 파일을 사용하여 단위 데스트 구성](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file)을 참조하세요.
+::: moniker range="vs-2017"
+
+3. 실행 설정 파일을 선택하려면 **테스트** 메뉴에서 **테스트 설정** > **테스트 설정 파일 선택**을 선택합니다. 명령줄 또는 빌드 워크플로에서 테스트를 실행하기 위한 실행 설정 파일을 지정하려면 [ *.runsettings* 파일을 사용하여 단위 데스트 구성](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file)을 참조하세요.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+3. 실행 설정 파일을 선택하려면 **테스트 탐색기**의 **설정** 단추에서 화살표를 선택하고 **설정 파일 선택**을 선택합니다. 명령줄 또는 빌드 워크플로에서 테스트를 실행하기 위한 실행 설정 파일을 지정하려면 [ *.runsettings* 파일을 사용하여 단위 데스트 구성](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file)을 참조하세요.
+
+::: moniker-end
 
    **코드 검사 분석**을 선택하면 실행 설정 파일에서 구성 정보를 읽습니다.
 
    > [!TIP]
    > 테스트를 실행하거나 코드를 업데이트하면 이전 코드 검사 결과 및 코드 강조가 자동으로 숨겨지지 않습니다.
 
+::: moniker range="vs-2017"
+
 사용자 지정 설정을 해제했다 다시 사용하도록 설정하려면 **테스트** > **테스트 설정** 메뉴에서 파일을 선택 취소 또는 선택합니다.
 
 ![사용자 지정 설정 파일로 설정 메뉴 테스트](../test/media/codecoverage-settingsfile.png)
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+사용자 지정 설정을 해제했다 다시 사용하도록 설정하려면 **테스트 탐색기**의 **설정** 메뉴에서 파일을 선택 취소 또는 선택합니다.
+
+::: moniker-end
 
 ### <a name="specify-symbol-search-paths"></a>기호 검색 경로 지정
 
@@ -89,7 +109,7 @@ ms.locfileid: "62965555"
 
 Include 및 exclude 노드는 정규식을 사용합니다. 자세한 내용은 [Visual Studio에서 정규식 사용](../ide/using-regular-expressions-in-visual-studio.md)을 참조하세요. 정규식은 와일드카드와 다릅니다. 특히 다음과 같습니다.
 
-- **.\\** * 는 모든 문자의 문자열과 일치합니다.
+- **.\*** 은(는) 모든 문자의 문자열과 일치합니다.
 
 - **\\.** 점 “.”과 일치합니다.
 

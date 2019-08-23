@@ -5,12 +5,12 @@ author: sayedihashimi
 ms.author: sayedha
 ms.date: 06/13/2019
 ms.assetid: 8B8CEBE8-00DA-4AD1-8193-77F58B57F244
-ms.openlocfilehash: 325489f243e6942cf02df406937f4d19cd21ed0d
-ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
+ms.openlocfilehash: 2788529a72b556bcf97001ff1c75c9056e4e87f5
+ms.sourcegitcommit: 9e5e8b6e9a3b6614723e71cc23bb434fe4218c9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "68681749"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69634799"
 ---
 # <a name="net-core-support"></a>.NET Core 지원
 
@@ -24,7 +24,8 @@ ms.locfileid: "68681749"
 |v2.2.200 + |✔︎|✔︎|✔︎|
 |v3.0 Preview 3 이전 | | | |
 |v3.0 Preview 3, 4, 5 |✔︎|✔︎|✔︎|
-|v3.0 미리 보기 6+ | |✔︎|✔︎|
+|v3.0 미리 보기 6, 7 | |✔︎|✔︎|
+|v3.0 미리 보기 8+ | | |✔︎|
 
 > [!IMPORTANT]
 > 이전에 Mac용 Visual Studio 8.0과 함께 .NET Core v2.2.1xx를 사용했다면 위 표에 따라 지원되는 .NET Core 버전으로 수동으로 업데이트해야 합니다. [2.1.700](https://dotnet.microsoft.com/download/dotnet-core/2.1) 또는 [2.2.300](https://dotnet.microsoft.com/download/dotnet-core/2.2)을 사용하는 것이 좋습니다.

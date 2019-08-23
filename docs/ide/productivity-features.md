@@ -7,12 +7,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: f351ffefae818beb1f51eaa41fbeea1eab81de16
-ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
+ms.openlocfilehash: e4f238046e671371a1fe83a3f5b9552b3956be8f
+ms.sourcegitcommit: 5b34052a1c7d86179d7898ed532babb2d9dad4a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68919468"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490664"
 ---
 # <a name="productivity-tips-for-visual-studio"></a>Visual Studio 생산성 팁
 
@@ -142,6 +142,7 @@ ms.locfileid: "68919468"
 
 ## <a name="see-also"></a>참고 항목
 
+- [Visual Studio 팁과 요령 블로그 게시물](https://devblogs.microsoft.com/visualstudio/visual-studio-tips-and-tricks/)
 - [자주 사용되는 명령의 기본 바로 가기 키](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
 - [방법: 메뉴 및 도구 모음 사용자 지정](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 - [연습: 간단한 애플리케이션 만들기](../get-started/csharp/tutorial-wpf.md)

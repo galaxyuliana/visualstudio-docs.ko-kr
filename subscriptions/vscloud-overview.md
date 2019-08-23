@@ -6,12 +6,12 @@ manager: lank
 ms.date: 07/28/2019
 ms.topic: conceptual
 description: 장기 계약 없이 월간 또는 연간 기준으로 Visual Studio Professional 또는 Visual Studio Enterprise를 임대합니다.
-ms.openlocfilehash: 5844ac1e22346e8001f0a682848b36fdb6b3f8a5
-ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
+ms.openlocfilehash: dea2c32c5737cb5f2798b3d0ebdbd3398e1bc20b
+ms.sourcegitcommit: 5b34052a1c7d86179d7898ed532babb2d9dad4a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "68606104"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490687"
 ---
 # <a name="buy-visual-studio-professional-and-visual-studio-enterprise-cloud-subscriptions"></a>Visual Studio Enterprise 및 Visual Studio Professional 클라우드 구독 구입
 [Visual Studio Marketplace](https://marketplace.visualstudio.com)에서 Visual Studio Professional 및 Visual Studio Enterprise [구독](https://visualstudio.microsoft.com/subscriptions/)을 구입할 수 있습니다. 이를 **“클라우드 구독”** 이라고 합니다.
@@ -89,7 +89,7 @@ A:  이 변경은 기존 구독자에게 영향을 주지 않습니다.
 A:  아니요.  구독 상태가 그대로 유지되며 현재와 마찬가지로 관리할 수 있습니다.
 
 #### <a name="q-what-if-i-want-to-increase-the-number-of-subscriptions-for-my-customers"></a>Q: 고객의 구독 수를 늘리려면 어떻게 해야 하나요?
-A: 언제든지 추가 연간 구독을 구매할 수 있습니다.  구입한 연간 구독은 1년 전체에 대해 즉시 요금이 청구되며 해당 1년 동안 유효합니다. 
+A: 특정 월에 구매한 연간 구독은 1년 치 요금이 즉시 청구되며 1년간 유효합니다. 따라서 구매 당월의 라이선스 수만 수정할 수 있습니다(라이선스는 1년간 유효하고 1년 치 요금이 청구됨). 구매 당월이 지나면 구독 수를 늘릴 수 없습니다.
 
 #### <a name="q-what-if-i-want-to-decrease-the-number-of-subscriptions-for-my-customers"></a>Q: 고객의 구독 수를 줄일려면 어떻게 해야 하나요?
 A: 관리자는 https://manage.visualstudio.com 을 방문하여 이 문서의 지침에 따라 구독 수를 줄이면 계속 구독의 수를 줄일 수 있습니다. 시스템은 비례 배분된 크레딧을 생성하지 *않습니다*. 환불을 받으려면 Azure 청구 팀에 문의해야 합니다.
