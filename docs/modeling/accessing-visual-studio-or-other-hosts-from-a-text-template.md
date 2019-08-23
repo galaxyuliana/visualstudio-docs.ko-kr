@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: a75dc86a45c78f6b57d5a326c8c342eca70b26e0
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 26845b3878a89ea52a3f77f9a0a8d23363877edd
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62960465"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870683"
 ---
 # <a name="access-visual-studio-or-other-hosts-from-a-text-template"></a>텍스트 템플릿에서 Visual Studio 또는 다른 호스트에 액세스
 
@@ -24,7 +24,7 @@ ms.locfileid: "62960465"
 
 ## <a name="obtain-access-to-the-host"></a>호스트에 액세스
 
-호스트에 액세스 하려면 설정 `hostspecific="true"` 에 `template` 지시문입니다. 사용할 수 있습니다 `this.Host`, 형식이 있는 <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>합니다. <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost> 형식이 파일 이름을 확인 하 여 오류를 기록 하는, 예를 들어 사용할 수 있는 멤버입니다.
+호스트에 액세스 하려면 설정 `hostspecific="true"` 에 `template` 지시문입니다. 이제 [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)) 형식의 `this.Host`를 사용할 수 있습니다. [ITextTemplatingEngineHost](/previous-versions/visualstudio/visual-studio-2012/bb126505(v=vs.110)) 형식에는 파일 이름을 확인 하 고 오류를 기록 하는 데 사용할 수 있는 멤버가 있습니다 (예:).
 
 ### <a name="resolve-file-names"></a>파일 이름을 확인합니다
 

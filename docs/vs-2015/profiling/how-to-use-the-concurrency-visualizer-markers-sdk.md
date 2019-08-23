@@ -9,12 +9,12 @@ caps.latest.revision: 14
 author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
-ms.openlocfilehash: 00957e742f5731d43881df4f0ff9e18bfd7cf773
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 3df1139f34c17055703b1ffcbbe2711d5750b9a8
+ms.sourcegitcommit: 2da366ba9ad124366f6502927ecc720985fc2f9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62555571"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68870043"
 ---
 # <a name="how-to-use-the-concurrency-visualizer-markers-sdk"></a>방법: 동시성 시각화 도우미 표식 SDK 사용
 
@@ -90,7 +90,7 @@ ms.locfileid: "62555571"
     using Microsoft.ConcurrencyVisualizer.Instrumentation;
     ```
 
-3. 기본 표식 시리즈에서 세 개의 범위를 만들고 플래그, 메시지 및 경고를 하나씩 각 범위에 씁니다. 만든를 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Span> 정적 [EnterSpan] (호출 하 여 개체<!-- TODO: review code entity reference <xref:assetId:///EnterSpan?qualifyHint=False&amp;autoUpgrade=True>  -->) 메서드. 기본 시리즈에 쓰려면 <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers> 클래스의 static 쓰기 메서드를 사용합니다.
+3. 기본 표식 시리즈에서 세 개의 범위를 만들고 플래그, 메시지 및 경고를 하나씩 각 범위에 씁니다. 정적`EnterSpan` 메서드를 호출 하 여 [Span](/previous-versions/hh694189(v=vs.140)) 개체를 만듭니다. 기본 계열에 쓰려면 [marker](/previous-versions/hh694099(v=vs.140)) 클래스의 정적 write 메서드를 사용 합니다.
 
     ```vb
     Dim flagSpan As Span = Markers.EnterSpan("flag span")
@@ -132,7 +132,7 @@ ms.locfileid: "62555571"
 
      ![표식 및 경고가 있는 동시성 시각화](../profiling/media/cvmarkersmanaged.png "CvMarkersManaged")
 
-5. static <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.Markers.CreateMarkerSeries%2A> 메서드를 사용하여 고객 표식 시리즈를 만드는 코드를 추가합니다. <xref:Microsoft.ConcurrencyVisualizer.Instrumentation.MarkerSeries> 클래스에는 범위를 만들고 플래그, 메시지 및 경고를 쓸 수 있는 메서드가 포함됩니다.
+5. 정적 [CreateMarkerSeries](/previous-versions/hh694171(v=vs.140)) 메서드를 사용 하 여 고객 표식 시리즈를 만드는 코드를 추가 합니다. [Markerseries](/previous-versions/hh694127(v=vs.140)) 클래스는 범위를 만들고 플래그, 메시지 및 경고를 쓰는 메서드를 포함 합니다.
 
     ```vb
     Dim flagSeries As MarkerSeries = Markers.DefaultWriter.CreateMarkerSeries("flag series")
