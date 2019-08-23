@@ -7,12 +7,12 @@ manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: c291eb614a69d88116c6af228304e19a6295bba2
-ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
+ms.openlocfilehash: d9f47c54a530f58ea562fd942c1ef795bad37331
+ms.sourcegitcommit: 5b34052a1c7d86179d7898ed532babb2d9dad4a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68662037"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490638"
 ---
 # <a name="configure-unit-tests-by-using-a-runsettings-file"></a>*.runsettings* 파일을 사용하여 단위 테스트 구성
 
@@ -26,11 +26,25 @@ ms.locfileid: "68662037"
 
 ### <a name="ide"></a>IDE
 
+::: moniker range="vs-2017"
+
 IDE에서 실행 설정 파일을 지정하려면 **테스트** > **테스트 설정** > **테스트 설정 파일 선택**을 선택한 다음, *.runsettings* 파일을 선택합니다.
 
-![Visual Studio에서 테스트 설정 파일 메뉴 선택](media/select-test-settings-file.png)
+![Visual Studio 2017에서 테스트 설정 파일 메뉴 선택](media/select-test-settings-file.png)
 
-**테스트 설정** 메뉴에 파일이 나타나고 해당 파일을 선택 또는 취소할 수 있습니다. 파일이 선택된 상태에서 **코드 검사 분석**을 사용할 때마다 실행 설정 파일이 적용됩니다.
+테스트 설정 메뉴에 파일이 나타나고 해당 파일을 선택 또는 선택 취소할 수 있습니다. 파일이 선택된 상태에서 **코드 검사 분석**을 사용할 때마다 실행 설정 파일이 적용됩니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+IDE에서 실행 설정 파일을 지정하려면 **테스트 탐색기**의 **설정** 단추에서 화살표를 선택하고 **설정 파일 선택**을 선택합니다. *.runsettings* 파일을 찾아 선택합니다.
+
+![Visual Studio 2019에서 테스트 설정 파일 메뉴 선택](media/vs-2019/select-test-settings-file.png)
+
+이 파일은 테스트 탐색기의 설정 메뉴에 표시되며 선택하거나 선택 취소할 수 있습니다. 파일이 선택된 상태에서 **코드 검사 분석**을 사용할 때마다 실행 설정 파일이 적용됩니다.
+
+::: moniker-end
 
 ### <a name="command-line"></a>명령줄
 
@@ -73,9 +87,19 @@ IDE에서 실행 설정 파일을 지정하려면 **테스트** > **테스트 �
    > [!TIP]
    > 확장명으로 *.runsettings*를 사용하면 파일 이름은 아무런 상관이 없습니다.
 
-1. 다음에 나오는 예제에서 파일 내용을 XML 양식으로 바꾸고 필요에 따라 사용자 지정합니다.
+2. 다음에 나오는 예제에서 파일 내용을 XML 양식으로 바꾸고 필요에 따라 사용자 지정합니다.
 
-1. **테스트** 메뉴에서 **테스트 설정** > **테스트 설정 파일 선택**을 차례로 선택합니다. 만든 *.runsettings* 파일을 찾은 다음, **확인**을 선택합니다.
+::: moniker range="vs-2017"
+
+3. **테스트** 메뉴에서 **테스트 설정** > **테스트 설정 파일 선택**을 차례로 선택합니다. 만든 *.runsettings* 파일을 찾은 다음, **확인**을 선택합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+3. 실행 설정 파일을 선택하려면 **테스트 탐색기**의 **설정** 단추에서 화살표를 선택하고 **설정 파일 선택**을 선택합니다. 만든 *.runsettings* 파일을 찾은 다음, **확인**을 선택합니다.
+
+::: moniker-end
 
    > [!TIP]
    > 솔루션에서 *.runsettings* 파일을 둘 이상 만들고, 필요에 따라 활성 테스트 설정 파일로 하나를 선택할 수 있습니다.
@@ -94,7 +118,7 @@ IDE에서 실행 설정 파일을 지정하려면 **테스트** > **테스트 �
     <ResultsDirectory>.\TestResults</ResultsDirectory>
 
     <!-- x86 or x64 -->
-    <!-- You can also change it from the top-level menu Test > Test Settings > Processor Architecture for AnyCPU Projects -->
+    <!-- You can also change it from the test settings menu; choose "Processor Architecture for AnyCPU Projects" -->
     <TargetPlatform>x86</TargetPlatform>
 
     <!-- Framework35 | [Framework40] | Framework45 -->
@@ -260,7 +284,7 @@ TestRunParameters를 사용하려면 개인 <xref:Microsoft.VisualStudio.TestToo
 |-|-|-|
 |**ForcedLegacyMode**|False|Visual Studio 2012에서 MSTest 어댑터는 더욱 빠르고 확장성 가능하도록 최적화되었습니다. 테스트가 실행되는 순서와 같은 일부 동작은 이전 버전 Visual Studio처럼 정확하지 않을 수 있습니다. 이전 테스트 어댑터를 사용하려면 이 값을 **true**로 설정합니다.<br /><br />예를 들어, 단위 테스트에 대해 *app.config* 파일을 지정한 경우 이 설정을 사용할 수 있습니다.<br /><br />새 어댑터를 사용할 수 있도록 테스트를 리팩터링하는 것이 좋습니다.|
 |**IgnoreTestImpact**|False|테스트 영향 기능은 MSTest 또는 Microsoft Test Manager에서 실행할 때 최근 변경 내용의 영향을 받는 테스트의 우선 순위를 지정합니다. 이 설정에서는 이 기능이 비활성화됩니다. 자세한 내용은 [이전 빌드 이후 실행해야 할 테스트](https://msdn.microsoft.com/library/dd286589)를 참조하세요.|
-|**SettingsFile**||여기에서 MSTest 어댑터와 함께 사용할 테스트 설정 파일을 지정할 수 있습니다. **테스트** > **테스트 설정** > **테스트 설정 파일 선택**을 선택하여 테스트 설정 파일을 지정할 수도 있습니다.<br /><br />이 값을 지정하면 **ForcedlegacyMode** 도 **true**로 설정해야 합니다.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
+|**SettingsFile**||여기에서 MSTest 어댑터와 함께 사용할 테스트 설정 파일을 지정할 수 있습니다. [설정 메뉴에서](#ide) 테스트 설정 파일을 지정할 수도 있습니다.<br /><br />이 값을 지정하면 **ForcedlegacyMode** 도 **true**로 설정해야 합니다.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
 |**KeepExecutorAliveAfterLegacyRun**|False|테스트 실행이 완료되면 MSTest가 종료됩니다. 테스트의 일부로 시작된 프로세스도 종료됩니다. 테스트 실행기를 활성 상태로 유지하려면 값을 **true**로 설정합니다. 예를 들어, 이 설정을 사용하여 브라우저가 코딩된 UI 테스트 사이에서 계속 실행되도록 할 수 있습니다.|
 |**DeploymentEnabled**|true|값을 **false**로 설정할 경우 테스트 메서드에서 지정한 배포 항목이 배포 디렉터리로 복사되지 않습니다.|
 |**CaptureTraceOutput**|true|<xref:System.Diagnostics.Trace.WriteLine%2A?displayProperty=nameWithType>을 사용하여 테스트 메서드에서 디버그 추적으로 쓸 수 있습니다.|

@@ -7,12 +7,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: e54a0957cb6b63c95c1cd914f7fc3eb72e581ac3
-ms.sourcegitcommit: 6b0503ed8d25454d6e39a8e606910b3fa58cf1d2
+ms.openlocfilehash: 64045221ad9200223264632d4bdbd33ff82d631f
+ms.sourcegitcommit: b83fefa8177c5554cbe2c59c4d102cbc534f7cc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68981649"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69585352"
 ---
 # <a name="walkthrough-get-started-with-windows-forms-designer"></a>연습: Windows Forms 디자이너 시작
 
@@ -309,8 +309,10 @@ DemoCalculator 컨트롤은 다른 복합 컨트롤이나 폼에서 사용할 �
 
 ## <a name="next-steps"></a>다음 단계
 
-이 문서에서는 간단한 계산기의 사용자 인터페이스를 구성하는 방법을 살펴보았습니다. 계속하려면 계산기 논리를 구현하여 해당 기능을 확장할 수 있습니다. 또는 [Windows Forms를 사용하여 사진 뷰어를 만드는](../ide/tutorial-1-create-a-picture-viewer.md) 다른 자습서를 계속 진행합니다.
+이 문서에서는 간단한 계산기의 사용자 인터페이스를 구성하는 방법을 살펴보았습니다. 계속하려면 계산기 논리를 구현하여 해당 기능을 확장한 다음, [ClickOnce를 사용하여 앱을 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)할 수 있습니다. 또는 [Windows Forms를 사용하여 사진 뷰어를 만드는](../ide/tutorial-1-create-a-picture-viewer.md) 다른 자습서를 계속 진행합니다.
 
 ## <a name="see-also"></a>참고 항목
 
+- [Windows Forms 컨트롤](/dotnet/framework/winforms/controls/)
 - [Windows Forms 컨트롤의 접근성](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form)
+- [ClickOnce를 사용하여 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

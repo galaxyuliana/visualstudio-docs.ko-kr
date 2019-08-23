@@ -1,6 +1,6 @@
 ---
 title: 테스트 탐색기 FAQ
-ms.date: 11/07/2018
+ms.date: 08/14/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - Test Explorer
@@ -14,16 +14,16 @@ ms.workload:
 - multiple
 author: kendrahavens
 manager: jillfra
-ms.openlocfilehash: 0dda73a4bbea2813131cc0695655eed7ea3409ca
-ms.sourcegitcommit: 044bb54cb4552c8f4651feb11d62e52726117e75
+ms.openlocfilehash: a37cdea4206dafe657dc8cf8adbbcf98ce18afc9
+ms.sourcegitcommit: 209ed0fcbb8daa1685e8d6b9a97f3857a4ce1152
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68661994"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69551867"
 ---
 # <a name="visual-studio-test-explorer-faq"></a>Visual Studio 테스트 탐색기 FAQ
-
 ::: moniker range=">=vs-2019"
+
 ## <a name="where-is-group-by-traits-in-visual-studio-2019"></a>Visual Studio 2019에서 특성별 그룹화 위치
 이 특성 그룹화는 이동하여 열이 되었습니다. Visual Studio 2019 버전 16.2의 사용자 지정 가능한 복수의 계층 구조에 대해, 특성을 그룹으로 포함한 것이 불필요한 시각적 복잡성을 만들어냈다고 생각했습니다. 이 디자인에 대한 사용자 의견에 귀를 기울이고 있습니다. https://developercommunity.visualstudio.com/content/problem/588029/no-longer-able-to-group-by-trait-in-test-explorer.html
 
@@ -31,25 +31,29 @@ ms.locfileid: "68661994"
 
 ![특성 열 표시](media/vs-2019/trait-column.png)
 ![특성 열 필터링](media/vs-2019/trait-column-filter.png)
-
 ::: moniker-end
 
 ## <a name="dynamic-test-discovery"></a>동적 테스트 검색
 
 **테스트 탐색기가 동적으로 정의된 내 테스트를 검색하지 않습니다. (예: 이론, 사용자 지정 어댑터, 사용자 지정 특성, #ifdefs 등) 이러한 테스트를 검색하려면 어떻게 할까요?**
 
+::: moniker range=">=vs-2019"
+어셈블리 기반 검색을 실행하는 프로젝트를 빌드합니다.
+::: moniker-end
+::: moniker range="vs-2017"
 프로젝트를 빌드하고 **도구** > **옵션** > **테스트**에서 어셈블리 기반 검색이 켜져 있는지 확인합니다.
-
+::: moniker-end
 [실시간 테스트 검색](https://go.microsoft.com/fwlink/?linkid=862824)은 소스 기반 테스트 검색입니다. 이론, 사용자 지정 어댑터, 사용자 지정 특성, `#ifdef` 명령문 등을 사용하는 테스트는 런타임에 정의되기 때문에 검색할 수 없습니다. 해당 테스트를 정확하게 검색하려면 빌드가 필요합니다. Visual Studio 2017 버전 15.6 이상에서 어셈블리 기반 검색(기존 Discoverer)은 빌드 후에만 실행됩니다. 이 설정은 편집 중에 실시간 테스트 검색이 할 수 있는 만큼 많은 테스트를 검색한 후, 어셈블리 기반 검색을 사용하면 동적으로 정의된 테스트가 빌드 후에 표시되게 할 수 있음을 의미합니다. 실시간 테스트 검색은 응답성을 개선하면서도 여전히 빌드 후에 완전하고 정확한 결과를 얻을 수 있습니다.
 
 ## <a name="test-explorer--plus-symbol"></a>테스트 탐색기 ‘+’(더하기) 기호
 
 **테스트 탐색기의 맨 윗줄에 표시되는 ‘+’(더하기) 기호는 무엇인가요?**
 
-‘+’(더하기) 기호는 어셈블리 기반 검색이 켜져 있는 한, 빌드 후에 추가 테스트가 검색될 수 있음을 나타냅니다. 이 기호는 동적으로 정의된 테스트가 프로젝트에서 검색되는 경우 표시됩니다.
+‘+’(더하기) 기호는 어셈블리 기반 검색이 실행되는 경우 빌드 후에 추가 테스트가 검색될 수 있음을 나타냅니다. 이 기호는 동적으로 정의된 테스트가 프로젝트에서 검색되는 경우 표시됩니다.
 
 ![더하기 기호 요약 줄](media/testex-plussymbol.png)
 
+::: moniker range="vs-2017"
 ## <a name="assembly-based-discovery"></a>어셈블리 기반 검색
 
 **어셈블리 기반 검색이 프로젝트에서 더 이상 작동하지 않습니다. 다시 켜려면 어떻게 할까요?**
@@ -57,12 +61,13 @@ ms.locfileid: "68661994"
 **도구** > **옵션** > **테스트**로 이동하여 **빌드 후 빌드된 어셈블리에서 테스트를 추가로 검색** 상자를 선택합니다.
 
 ![어셈블리 기반 옵션](media/testex-toolsoptions.png)
+::: moniker-end
 
 ## <a name="real-time-test-discovery"></a>실시간 테스트 검색
 
 **이제 프로젝트를 빌드할 필요 없이 입력하는 동안 테스트 탐색기에 테스트가 나타납니다. 변경된 내용은 무엇인가요?**
 
-이 기능을 [실시간 테스트 검색](https://go.microsoft.com/fwlink/?linkid=862824)이라고 합니다. 이 기능은 프로젝트를 빌드하지 않아도 Roslyn 분석기를 사용하여 실시간으로 테스트를 검색하고 테스트 탐색기를 채웁니다. 이론 또는 사용자 지정 특성과 같은 동적으로 정의된 테스트의 테스트 검색 동작에 대한 자세한 내용은 FAQ #1을 참조하세요.
+이 기능을 [실시간 테스트 검색](https://go.microsoft.com/fwlink/?linkid=862824)이라고 합니다. 이 기능은 프로젝트를 빌드하지 않아도 Roslyn 분석기를 사용하여 실시간으로 테스트를 검색하고 테스트 탐색기를 채웁니다. 이론 또는 사용자 지정 특성과 같은 동적으로 정의된 테스트의 테스트 검색 동작에 대한 자세한 내용은 [동적 테스트 검색](#dynamic-test-discovery)을 참조하세요.
 
 ## <a name="real-time-test-discovery-compatibility"></a>실시간 테스트 검색 호환성
 
@@ -92,7 +97,7 @@ UWP 테스트는 앱이 배포될 때 서로 다른 런타임을 대상으로 �
 
 ## <a name="test-explorer-hierarchy-view"></a>테스트 탐색기 계층 구조 보기
 
-**계층 구조 보기에서 프로젝트, 네임스페이스, 클래스 그룹 옆에 통과, 실패, 건너뜀 및 실행 안 됨 아이콘이 있습니다. 이러한 아이콘은 무엇을 의미하나요?**
+**계층 구조 보기에서 부모 노드 그룹 옆에는 통과, 실패, 건너뜀 및 실행 안 됨 아이콘이 있습니다. 이러한 아이콘은 무엇을 의미하나요?**
 
 프로젝트, 네임스페이스, 클래스 그룹 옆의 아이콘은 해당 그룹 내의 테스트 상태를 보여줍니다. 다음 표를 참조하고
 
@@ -110,6 +115,7 @@ UWP 테스트는 앱이 배포될 때 서로 다른 런타임을 대상으로 �
 
 Visual Studio 2019에서는 이전에 공개로 표시되었지만 공식적으로 문서화되지 않은 일부 테스트 창 API는 제거됩니다. 확장 유지 관리자에게 조기 경고를 주기 위해 Visual Studio 2017에서는 "사용 중단"으로 표시되었습니다. 우리가 아는 한, 이러한 API를 발견한 확장은 거의 없었고 Visual Studio에 의존적이었습니다. 여기에는 `IGroupByProvider`, `IGroupByProvider<T>`, `KeyComparer`, `ISearchFilter`, `ISearchFilterToken`, `ISearchToken` 및 `SearchFilterTokenType`이 포함됩니다. 이 변경이 확장에 영향을 주는 경우 [개발자 커뮤니티](https://developercommunity.visualstudio.com)에 버그를 제출하여 알려주세요.
 
+::: moniker range="vs-2017"
 ## <a name="test-adapter-nuget-reference"></a>테스트 어댑터 NuGet 참조
 
 **Visual Studio 2017 버전 15.8에서 테스트가 검색되지만 실행되지 않습니다.**
@@ -124,6 +130,7 @@ Visual Studio 2019에서는 이전에 공개로 표시되었지만 공식적으�
 > NUnit 2 테스트 어댑터를 사용하고 있으며 NUnit 3 테스트 어댑터로 마이그레이션할 수 없는 경우 **도구** > **옵션**  >  **테스트**를 통해 Visual Studio 버전 15.8에서 이 새로운 검색 동작을 해제할 수 있습니다.
 
 ![도구 옵션의 테스트 탐색기 어댑터 동작](media/testex-adapterbehavior.png)
+::: moniker-end
 
 ## <a name="uwp-testcontainer-was-not-found"></a>UWP TestContainer를 찾지 못했습니다.
 

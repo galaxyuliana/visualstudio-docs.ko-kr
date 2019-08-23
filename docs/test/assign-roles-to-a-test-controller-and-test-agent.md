@@ -12,16 +12,16 @@ ms.assetid: 57ed43ae-4e67-4139-8aec-3e9fceb0a745
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: eb62e668d7077e1be96ff7a282628b76b426898f
-ms.sourcegitcommit: 13ab9a5ab039b070b9cd9251d0b83dd216477203
+ms.openlocfilehash: dc7936041746872fdf30ce3159506d93c378376d
+ms.sourcegitcommit: 5b34052a1c7d86179d7898ed532babb2d9dad4a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66177801"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490595"
 ---
 # <a name="assign-roles-to-a-test-controller-and-test-agent"></a>역할을 테스트 컨트롤러와 테스트 에이전트에 할당
 
-이 연습에서는 Visual Studio를 사용하는 여러 컴퓨터 사이에 테스트 컨트롤러와 테스트 에이전트를 사용하여 테스트를 분산하는 테스트 설정을 만들고 구성하는 방법에 대해 설명합니다. 또한 이 연습에서는 테스트 설정에 진단 데이터 어댑터를 추가하는 방법도 보여 줍니다.
+이 문서에서는 Visual Studio를 사용하는 여러 머신에서 테스트 컨트롤러와 테스트 에이전트를 사용하여 테스트를 배포하는 테스트 설정을 만들고 구성하는 방법에 대해 설명합니다. 또한 테스트 설정에 진단 데이터 어댑터를 추가하는 방법도 보여 줍니다.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
@@ -48,9 +48,6 @@ ms.locfileid: "66177801"
      **테스트 설정** 대화 상자가 표시됩니다. **일반** 페이지가 선택되어 있습니다.
 
      이제 테스트 설정 값을 편집하고 저장할 수 있습니다.
-
-    > [!NOTE]
-    > 사용자가 만든 각 테스트 설정은 **테스트** 메뉴의 **활성 테스트 설정 선택** 및 **테스트 설정 편집** 옵션에 대한 선택 항목으로 표시됩니다.
 
 5. **이름** 아래에서 테스트 설정의 이름을 입력합니다.
 
@@ -98,7 +95,17 @@ ms.locfileid: "66177801"
 
 7. **닫기**를 선택합니다.
 
-8. 테스트 메뉴에서 **활성 테스트 설정 선택**을 선택하고 **TestSettingDistributedTestWalkthrough.testsettings**를 선택합니다.
+::: moniker range="vs-2017"
+
+8. 테스트 메뉴에서 **테스트 설정 파일 선택**을 선택하고 *TestSettingDistributedTestWalkthrough.testsettings*를 선택합니다.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+8. **테스트 탐색기**의 **설정** 단추에서 화살표를 선택하고 **설정 파일 선택**을 선택합니다. *TestSettingDistributedTestWalkthrough.testsettings* 파일을 찾아 선택합니다.
+
+::: moniker-end
 
 9. 일반적인 방법으로 테스트를 실행합니다.
 

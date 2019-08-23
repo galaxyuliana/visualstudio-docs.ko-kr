@@ -7,12 +7,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 8280a60f1d265336d427079bdef6612b42ed4330
-ms.sourcegitcommit: 6b0503ed8d25454d6e39a8e606910b3fa58cf1d2
+ms.openlocfilehash: 0df8b7ec5955f472d716af2850d2ab0b776c6552
+ms.sourcegitcommit: b83fefa8177c5554cbe2c59c4d102cbc534f7cc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68981639"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69585338"
 ---
 # <a name="windows-forms-designer-overview"></a>Windows Forms 디자이너 개요
 
@@ -39,7 +39,7 @@ Visual Studio의 Windows Forms 디자이너는 Windows Forms 기반 애플리케
 
 - [Windows Forms 개요](/dotnet/framework/winforms/windows-forms-overview)
 - [Windows Forms 컨트롤](/dotnet/framework/winforms/controls/)
-- [Windows Forms 컨트롤의 접근성](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form)
 - [Windows Forms에 사용자 입력](/dotnet/framework/winforms/user-input-in-windows-forms)
 - [Windows Forms 데이터 바인딩](/dotnet/framework/winforms/windows-forms-data-binding)
 - [Windows Forms 앱 개선](/dotnet/framework/winforms/advanced/)
+- <xref:System.Windows.Forms?displayProperty=fullName> API 참조

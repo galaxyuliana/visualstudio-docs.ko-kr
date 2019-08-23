@@ -658,6 +658,16 @@
                   href: ca2321.md
                 - name: 'CA2322: JavaScriptSerializer가 deserialize하기 전에 SimpleTypeResolver로 초기화되지 않는지 확인하세요.'
                   href: ca2322.md
+                - name: 'CA2326: None 이외의 TypeNameHandling 값을 사용하지 마세요.'
+                  href: ca2326.md
+                - name: 'CA2327: 안전하지 않은 JsonSerializerSettings를 사용하지 마세요.'
+                  href: ca2327.md
+                - name: 'CA2328: JsonSerializerSettings가 안전한지 확인하세요.'
+                  href: ca2328.md
+                - name: 'CA2329: 안전하지 않은 구성을 사용하여 JsonSerializer로 deserialize하지 마세요.'
+                  href: ca2329.md
+                - name: 'CA2330: deserialize할 때 JsonSerializer에 보안 구성이 있는지 확인하세요.'
+                  href: ca2330.md
                 - name: 'CA3001: 코드에서 SQL 주입 취약점에 대해 검토합니다.'
                   href: ca3001-review-code-for-sql-injection-vulnerabilities.md
                 - name: 'CA3002: 코드에서 XSS 취약점에 대해 검토합니다.'
