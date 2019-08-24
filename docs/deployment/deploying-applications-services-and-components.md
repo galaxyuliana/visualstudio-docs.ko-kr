@@ -44,7 +44,7 @@ ms.locfileid: "68533360"
 
     ![게시 선택](../deployment/media/quickstart-publish.png)
 
-- **Windows 데스크톱** ClickOnce 배포를 사용하여 Windows 데스크톱 애플리케이션을 게시할 수 있습니다. 이렇게 하면 사용자가 클릭 한 번으로 응용 프로그램을 설치할 수 있습니다. 자세한 내용은 [ClickOnce를 사용하여 데스크톱 앱 배포](how-to-publish-a-clickonce-application-using-the-publish-wizard.md)(C# 및 Visual Basic)를 참조하세요. C++/CLR의 경우 [ClickOnce를 사용하여 네이티브 앱 배포](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) 또는 C/C++의 경우 [설치 프로젝트를 사용하여 네이티브 앱 배포](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project)를 참조하세요.
+- **Windows 데스크톱** ClickOnce 배포를 사용하여 Windows 데스크톱 애플리케이션을 게시할 수 있습니다. 이렇게 하면 사용자가 클릭 한 번으로 애플리케이션을 설치할 수 있습니다. 자세한 내용은 [ClickOnce를 사용하여 데스크톱 앱 배포](how-to-publish-a-clickonce-application-using-the-publish-wizard.md)(C# 및 Visual Basic)를 참조하세요. C++/CLR의 경우 [ClickOnce를 사용하여 네이티브 앱 배포](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) 또는 C/C++의 경우 [설치 프로젝트를 사용하여 네이티브 앱 배포](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project)를 참조하세요.
 
 ## <a name="publish-to-azure"></a>Azure에 게시
 
@@ -83,7 +83,7 @@ ms.locfileid: "68533360"
 
     ASP.NET 애플리케이션 및 서비스는 여러 가지 다른 방법으로 배포할 수 있습니다. 자세한 내용은 [ASP.NET 웹 애플리케이션 및 서비스 배포](http://www.asp.net/aspnet/overview/deployment)를 참조하세요.
 
-- **Windows 데스크톱** ClickOnce 배포를 사용하여 웹 서버 또는 네트워크 파일 공유에 Windows 데스크톱 애플리케이션을 게시할 수 있습니다. 이렇게 하면 사용자가 클릭 한 번으로 응용 프로그램을 설치할 수 있습니다. 자세한 내용은 [ClickOnce를 사용하여 데스크톱 앱 배포](how-to-publish-a-clickonce-application-using-the-publish-wizard.md)(C# 및 Visual Basic)를 참조하세요. C++/CLR의 경우 [ClickOnce를 사용하여 네이티브 앱 배포](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) 또는 C/C++의 경우 [설치 프로젝트를 사용하여 네이티브 앱 배포](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project)를 참조하세요.
+- **Windows 데스크톱** ClickOnce 배포를 사용하여 웹 서버 또는 네트워크 파일 공유에 Windows 데스크톱 애플리케이션을 게시할 수 있습니다. 이렇게 하면 사용자가 클릭 한 번으로 애플리케이션을 설치할 수 있습니다. 자세한 내용은 [ClickOnce를 사용하여 데스크톱 앱 배포](how-to-publish-a-clickonce-application-using-the-publish-wizard.md)(C# 및 Visual Basic)를 참조하세요. C++/CLR의 경우 [ClickOnce를 사용하여 네이티브 앱 배포](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) 또는 C/C++의 경우 [설치 프로젝트를 사용하여 네이티브 앱 배포](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project)를 참조하세요.
 
 ## <a name="publish-to-microsoft-store"></a>Microsoft Store에 게시
 

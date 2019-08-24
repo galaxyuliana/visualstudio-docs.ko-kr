@@ -44,7 +44,7 @@ ms.locfileid: "68155247"
   
 ### <a name="to-use-extract-method"></a>추출 메서드를 사용 하려면  
   
-1. `ExtractMethod`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
+1. `ExtractMethod`이라는 콘솔 애플리케이션을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
   
     ```csharp  
     class A  

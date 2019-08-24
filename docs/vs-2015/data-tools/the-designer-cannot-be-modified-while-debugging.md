@@ -19,13 +19,13 @@ ms.locfileid: "65700435"
 # <a name="the-designer-cannot-be-modified-while-debugging"></a>디버깅하는 동안에는 디자이너를 수정할 수 없습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 메시지는 응용 프로그램이 디버그 모드로 실행 중일 때 O/R 디자이너에서 항목을 수정하려는 경우 나타납니다. 응용 프로그램이 디버그 모드로 실행 중인 경우 O/R 디자이너는 읽기 전용입니다.  
+이 메시지는 애플리케이션이 디버그 모드로 실행 중일 때 O/R 디자이너에서 항목을 수정하려는 경우 나타납니다. 애플리케이션이 디버그 모드로 실행 중인 경우 O/R 디자이너는 읽기 전용입니다.  
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
 - 클릭 **디버깅 중지** 에 **디버그** 메뉴.  
   
-     응용 프로그램의 디버깅이 중지되고 O/R 디자이너에서 항목을 수정할 수 있습니다.  
+     애플리케이션의 디버깅이 중지되고 O/R 디자이너에서 항목을 수정할 수 있습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

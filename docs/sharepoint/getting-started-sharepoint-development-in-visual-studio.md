@@ -26,7 +26,7 @@ ms.locfileid: "62557179"
 
  SharePoint 2013 및 SharePoint 추가 기능에 대한 자세한 내용은 [SharePoint 2013](https://products.office.com/previous-versions/microsoft-sharepoint-2013) 및 [SharePoint 추가 기능 빌드](/sharepoint/dev/sp-add-ins/sharepoint-add-ins)를 참조하세요.
 
- SharePoint는 웹 기반 공동 작업 플랫폼을 제공합니다. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 에서는 목록 정의, 워크플로, 비즈니스 데이터 연결 모델 및 사이트 정의를 비롯하여 SharePoint 사이트 및 콘텐츠를 만들기 위한 다양한 프로젝트 템플릿을 제공합니다. 또한 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]에서 SharePoint 프로젝트 및 도구의 확장을 만들 수 있습니다.
+ SharePoint는 웹 기반 협업 플랫폼을 제공합니다. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 에서는 목록 정의, 워크플로, 비즈니스 데이터 연결 모델 및 사이트 정의를 비롯하여 SharePoint 사이트 및 콘텐츠를 만들기 위한 다양한 프로젝트 템플릿을 제공합니다. 또한 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]에서 SharePoint 프로젝트 및 도구의 확장을 만들 수 있습니다.
 
 ## <a name="in-this-section"></a>단원 내용
 

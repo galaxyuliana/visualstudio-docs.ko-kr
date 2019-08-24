@@ -21,7 +21,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "63439187"
 ---
 # <a name="debugging-legacy-workflows"></a>레거시 워크플로 디버깅
-[!INCLUDE[wfd1](../includes/wfd1-md.md)]의 레거시 [!INCLUDE[vs_current_long](../includes/vs-current-long-md.md)]를 사용하여 .NET Framework 3.0 또는 3.5를 대상으로 하는 [!INCLUDE[wf](../includes/wf-md.md)] 응용 프로그램을 빌드하는 경우 다른 프로그램의 경우와 같이 중단점을 설정하고, 프로세스에 연결하고, 스레드 및 호출 스택을 검사하는 방법으로 워크플로를 디버깅할 수 있습니다. 뿐만 아니라 원격으로 디버깅할 수도 있습니다.  
+[!INCLUDE[wfd1](../includes/wfd1-md.md)]의 레거시 [!INCLUDE[vs_current_long](../includes/vs-current-long-md.md)]를 사용하여 .NET Framework 3.0 또는 3.5를 대상으로 하는 [!INCLUDE[wf](../includes/wf-md.md)] 애플리케이션을 빌드하는 경우 다른 프로그램의 경우와 같이 중단점을 설정하고, 프로세스에 연결하고, 스레드 및 호출 스택을 검사하는 방법으로 워크플로를 디버깅할 수 있습니다. 뿐만 아니라 원격으로 디버깅할 수도 있습니다.  
   
 > [!NOTE]
 > 컴퓨터에 여러 버전의 Visual Studio를 설치하고 제거한 경우 다음과 같은 두 가지 문제 중 하나로 WF3 디버깅이 실패할 수 있습니다.  

@@ -24,14 +24,14 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62956158"
 ---
 # <a name="customize-a-ribbon-for-outlook"></a>Outlook의 리본을 사용자 지정
-  Microsoft Office Outlook에서 리본을 사용자 지정할 경우 응용 프로그램에서 사용자 지정 리본이 나타나는 위치를 고려해야 합니다. Outlook에서 리본은 사용자가 메일 메시지 만들기 등의 특정 작업을 수행할 때 열리는 창과 기본 응용 프로그램 UI(사용자 인터페이스)에 표시됩니다. 이러한 응용 프로그램 창의 이름을 검사기라고 합니다.
+  Microsoft Office Outlook에서 리본을 사용자 지정할 경우 애플리케이션에서 사용자 지정 리본이 나타나는 위치를 고려해야 합니다. Outlook에서 리본은 사용자가 메일 메시지 만들기 등의 특정 작업을 수행할 때 열리는 창과 기본 애플리케이션 UI(사용자 인터페이스)에 표시됩니다. 이러한 애플리케이션 창의 이름을 검사기라고 합니다.
 
  ![비디오 링크](../vsto/media/playvideo.gif "비디오 링크") 관련된 비디오 데모를 참조 하세요. [어떻게 할까요? Outlook에서 리본을 사용자 지정 리본 디자이너 사용 ](http://go.microsoft.com/fwlink/?LinkID=130312).
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## <a name="add-a-custom-ribbon-to-the-main-application-ui"></a>기본 응용 프로그램 UI 사용자 지정 리본 추가
- Outlook의 기본 응용 프로그램 UI를 탐색기라고 합니다. 사용 중인 경우는 **리본 (비주얼 디자이너)** 를 클릭 하 여 탐색기에 리본 메뉴를 추가할 수는 항목을 **RibbonType** 에서 리본 메뉴의 속성을 **속성** 창 다음을 선택 하 고 **Microsoft.Outlook.Explorer**합니다.
+ Outlook의 기본 애플리케이션 UI를 탐색기라고 합니다. 사용 중인 경우는 **리본 (비주얼 디자이너)** 를 클릭 하 여 탐색기에 리본 메뉴를 추가할 수는 항목을 **RibbonType** 에서 리본 메뉴의 속성을 **속성** 창 다음을 선택 하 고 **Microsoft.Outlook.Explorer**합니다.
 
 ## <a name="assign-a-ribbon-to-an-inspector"></a>검사기에 리본 할당
  검사기에 대한 메시지 클래스에 해당하는 리본 형식을 지정하여 사용자 지정하려는 검사기를 식별합니다.

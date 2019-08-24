@@ -61,7 +61,7 @@ ms.locfileid: "62420029"
 
 1. Program.cs 파일을 엽니다. 솔루션 탐색기에서 이 파일을 표시하지 않으려면 프로젝트를 선택하고 **프로젝트** 메뉴에서 **모든 파일 표시**를 클릭합니다.
 
-2. 다음 코드를 사용하여 해당하는 위성 어셈블리를 다운로드하고 응용 프로그램을 시작합니다.
+2. 다음 코드를 사용하여 해당하는 위성 어셈블리를 다운로드하고 애플리케이션을 시작합니다.
 
      [!code-csharp[ClickOnce.SatelliteAssemblies#1](../snippets/csharp/VS_Snippets_Winforms/ClickOnce.SatelliteAssemblies/CS/Program.cs#1)]
 
@@ -81,7 +81,7 @@ ms.locfileid: "62420029"
 
 ## <a name="next-steps"></a>다음 단계
 
-프로덕션 환경에서는 기본적으로 클라이언트 컴퓨터에 올바른 값이 설정되어 있으므로 <xref:System.Threading.Thread.CurrentUICulture%2A>를 특정 값으로 설정하는 줄을 코드 예제에서 제거해야 할 수 있습니다. 예를 들어 애플리케이션이 일본어 클라이언트 컴퓨터에서 실행될 경우 <xref:System.Threading.Thread.CurrentUICulture%2A> 는 기본적으로 `ja-JP` 입니다. 응용 프로그램을 배포하기 전에 이 값을 프로그래밍 방식으로 설정하면 위성 어셈블리를 쉽게 테스트할 수 있습니다.
+프로덕션 환경에서는 기본적으로 클라이언트 컴퓨터에 올바른 값이 설정되어 있으므로 <xref:System.Threading.Thread.CurrentUICulture%2A>를 특정 값으로 설정하는 줄을 코드 예제에서 제거해야 할 수 있습니다. 예를 들어 애플리케이션이 일본어 클라이언트 컴퓨터에서 실행될 경우 <xref:System.Threading.Thread.CurrentUICulture%2A> 는 기본적으로 `ja-JP` 입니다. 애플리케이션을 배포하기 전에 이 값을 프로그래밍 방식으로 설정하면 위성 어셈블리를 쉽게 테스트할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 

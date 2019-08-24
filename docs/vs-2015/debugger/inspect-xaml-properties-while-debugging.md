@@ -24,20 +24,20 @@ ms.locfileid: "62423861"
 # <a name="inspect-xaml-properties-while-debugging"></a>디버그하는 동안 XAML 속성 검사
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-**라이브 시각적 트리** 및 **라이브 속성 탐색기**를 사용하여 실행 중인 XAML 코드를 실시간으로 볼 수 있습니다. 이러한 도구는 실행 중인 XAML 응용 프로그램의 UI 요소에 대한 트리 뷰를 제공하고 선택한 UI 요소의 런타임 속성을 보여 줍니다.  
+**라이브 시각적 트리** 및 **라이브 속성 탐색기**를 사용하여 실행 중인 XAML 코드를 실시간으로 볼 수 있습니다. 이러한 도구는 실행 중인 XAML 애플리케이션의 UI 요소에 대한 트리 뷰를 제공하고 선택한 UI 요소의 런타임 속성을 보여 줍니다.  
   
  다음 구성에서 이러한 도구를 사용할 수 있습니다.  
   
 |앱 유형|운영 체제 및 도구|  
 |-----------------|--------------------------------|  
-|Windows Presentation Foundation(4.0 이상) 응용 프로그램|Windows 7 이상|  
+|Windows Presentation Foundation(4.0 이상) 애플리케이션|Windows 7 이상|  
 |Windows 스토어 및 Windows Phone 8.1 앱|Windows 10 이상에서 사용 하 여는 [Windows 10 SDK](https://dev.windows.com/downloads/windows-10-sdk)|  
 |유니버설 Windows 앱|Windows 10 이상에서 사용 하 여는 [Windows 10 SDK](https://dev.windows.com/downloads/windows-10-sdk)|  
   
 ## <a name="looking-at-elements-in-the-live-visual-tree"></a>라이브 시각적 트리의 요소 보기  
- 목록 보기 및 단추가 있는 매우 간단한 WPF 응용 프로그램을 시작하겠습니다. 단추를 클릭할 때마다 다른 항목이 목록에 추가됩니다. 짝수 번호 항목은 회색으로 표시되고 홀수 번호 항목은 노란색으로 표시됩니다.  
+ 목록 보기 및 단추가 있는 매우 간단한 WPF 애플리케이션을 시작하겠습니다. 단추를 클릭할 때마다 다른 항목이 목록에 추가됩니다. 짝수 번호 항목은 회색으로 표시되고 홀수 번호 항목은 노란색으로 표시됩니다.  
   
- 새 C# WPF 응용 프로그램을 만듭니다(파일 / 새로 만들기 / 프로젝트를 선택한 다음 C#을 선택하고 WPF 응용 프로그램 찾기). **TestXAML**로 이름을 지정합니다.  
+ 새 C# WPF 애플리케이션을 만듭니다(파일 / 새로 만들기 / 프로젝트를 선택한 다음 C#을 선택하고 WPF 애플리케이션 찾기). **TestXAML**로 이름을 지정합니다.  
   
  다음과 같이 MainWindow.xaml을 변경합니다.  
   
@@ -86,7 +86,7 @@ private void button_Click(object sender, RoutedEventArgs e)
   
  ![라이브 시각적 트리의 Listboxitem](../debugger/media/livevisualtree-listboxitems.png "LiveVisualTree Listboxitem")  
   
- 응용 프로그램 창으로 다시 이동하고 더 많은 항목을 추가합니다. 더 많은 목록 상자 항목이 **라이브 시각적 트리**에 나타나야 합니다.  
+ 애플리케이션 창으로 다시 이동하고 더 많은 항목을 추가합니다. 더 많은 목록 상자 항목이 **라이브 시각적 트리**에 나타나야 합니다.  
   
  이제 목록 상자 항목 중 하나의 속성을 살펴보겠습니다. **라이브 시각적 트리**의 첫 번째 목록 상자 항목을 선택하고 도구 모음에서 **속성 표시** 아이콘을 클릭합니다. **라이브 속성 탐색기**가 표시됩니다. 합니다 **콘텐츠** 필드는 "Item1", 및 **배경** 필드가 **#ffffffe0** (연한 노랑)입니다. **라이브 시각적 트리**로 돌아가서 두 번째 목록 상자 항목을 선택합니다. **라이브 속성 탐색기** 것으로 표시 됩니다는 **콘텐츠** 필드는 "Item2", 및 **백그라운드** 필드가 **#ffd3d3d3** (밝은 회색 ).  
   
@@ -98,15 +98,15 @@ private void button_Click(object sender, RoutedEventArgs e)
   
  ![Displaylayout의 Livepropertyviewer](../debugger/media/livevisualtreelivepropertyviewer-displaylayout.png "LiveVisualTreeLivePropertyViewer DisplayLayout")  
   
- **선택 미리 보기**. 라이브 시각적 트리 도구 모음의 왼쪽에서 세 번째 단추를 선택하면 이 모드를 사용할 수 있습니다. 이 모드에서는 응용 프로그램의 소스 코드에 액세스할 수 있는 경우 요소가 선언된 XAML을 보여 줍니다. **선택 사용** 및 **선택 미리 보기**를 선택한 다음, 테스트 애플리케이션에서 단추를 선택합니다. Visual Studio에서 MainWindow.xaml 파일이 열리고 커서가 단추가 정의된 줄에 위치합니다.  
+ **선택 미리 보기**. 라이브 시각적 트리 도구 모음의 왼쪽에서 세 번째 단추를 선택하면 이 모드를 사용할 수 있습니다. 이 모드에서는 애플리케이션의 소스 코드에 액세스할 수 있는 경우 요소가 선언된 XAML을 보여 줍니다. **선택 사용** 및 **선택 미리 보기**를 선택한 다음, 테스트 애플리케이션에서 단추를 선택합니다. Visual Studio에서 MainWindow.xaml 파일이 열리고 커서가 단추가 정의된 줄에 위치합니다.  
   
-## <a name="using-xaml-tools-with-running-applications"></a>응용 프로그램이 실행 중인 상태에서 XAML 도구를 사용  
- 소스 코드가 없는 경우 이러한 XAML 도구를 사용할 수 있습니다. 실행 중인 XAML 애플리케이션에 연결하면 해당 애플리케이션의 UI 요소에서도 **라이브 시각적 트리**를 사용할 수 있습니다. 다음은 이전에 사용한 동일한 WPF 테스트 응용 프로그램을 사용하는 예제입니다.  
+## <a name="using-xaml-tools-with-running-applications"></a>애플리케이션이 실행 중인 상태에서 XAML 도구를 사용  
+ 소스 코드가 없는 경우 이러한 XAML 도구를 사용할 수 있습니다. 실행 중인 XAML 애플리케이션에 연결하면 해당 애플리케이션의 UI 요소에서도 **라이브 시각적 트리**를 사용할 수 있습니다. 다음은 이전에 사용한 동일한 WPF 테스트 애플리케이션을 사용하는 예제입니다.  
   
 1. 릴리스 구성에서 **TestXaml** 애플리케이션을 시작합니다. **디버그** 구성으로 실행 중인 프로세스에는 연결할 수 없습니다.  
   
 2. Visual Studio의 두 번째 인스턴스를 열고 **디버그 / 프로세스에 연결**합니다. 사용 가능한 프로세스 목록에서 **TestXaml.exe**를 찾고 **연결**을 클릭합니다.  
   
-3. 응용 프로그램이 실행되기 시작합니다.  
+3. 애플리케이션이 실행되기 시작합니다.  
   
 4. Visual Studio의 두 번째 인스턴스의 경우에서 엽니다는 **라이브 시각적 트리** (**디버그 / Windows / 라이브 시각적 트리**). **TestXaml** UI 요소가 표시되어야 하고 애플리케이션을 직접 디버그하는 동안 했던 것처럼 해당 요소를 조작할 수 있어야 합니다.

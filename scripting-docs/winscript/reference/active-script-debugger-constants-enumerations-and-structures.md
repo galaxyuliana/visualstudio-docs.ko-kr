@@ -29,13 +29,13 @@ ms.locfileid: "62997332"
   
 |상수|설명|  
 |---------------|-----------------|  
-|[APPBREAKFLAGS 상수](../../winscript/reference/appbreakflags-enumeration.md)|현재 응용 프로그램 및 스레드에 대한 디버그 상태를 나타냅니다.|  
+|[APPBREAKFLAGS 상수](../../winscript/reference/appbreakflags-enumeration.md)|현재 애플리케이션 및 스레드에 대한 디버그 상태를 나타냅니다.|  
 |[DEBUG_TEXT 상수](../../winscript/reference/debug-text-constants.md)|옵션 플래그를 사용 하는 동안 [IDebugExpressionContext::ParseLanguageText](../../winscript/reference/idebugexpressioncontext-parselanguagetext.md)합니다.|  
 |[TEXT_DOC_ATTR 상수](../../winscript/reference/text-doc-attr-constants.md)|문서의 특성을 설명합니다.|  
   
 |열거형|설명|  
 |------------------|-----------------|  
-|[APPBREAKFLAGS 상수](../../winscript/reference/appbreakflags-enumeration.md)|현재 응용 프로그램 및 스레드에 대한 디버그 상태를 나타냅니다.|  
+|[APPBREAKFLAGS 상수](../../winscript/reference/appbreakflags-enumeration.md)|현재 애플리케이션 및 스레드에 대한 디버그 상태를 나타냅니다.|  
 |[APPLICATION_NODE_EVENT_FILTER 열거형](../../winscript/reference/application-node-event-filter-enumeration.md)|필터를 사용하여 제외할 노드를 나타냅니다.|  
 |[BREAKPOINT_STATE 열거형](../../winscript/reference/breakpoint-state-enumeration.md)|중단점의 상태를 나타냅니다.|  
 |[BREAKREASON 열거형](../../winscript/reference/breakreason-enumeration.md)|중단된 원인을 나타냅니다.|  

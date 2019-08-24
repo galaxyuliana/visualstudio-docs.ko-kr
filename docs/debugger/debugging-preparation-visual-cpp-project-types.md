@@ -55,16 +55,16 @@ ms.locfileid: "68925497"
 
 |속성 이름|설정|
 |-------------------|-------------|
-|**디버깅 정보 생성**|디버깅에 필요한 디버깅 기호와 파일을 만들려면 이 옵션을 항상 **예(/DEBUG)** 로 설정해야 합니다. 응용 프로그램을 제품화할 때는 이 옵션을 해제할 수 있습니다.|
+|**디버깅 정보 생성**|디버깅에 필요한 디버깅 기호와 파일을 만들려면 이 옵션을 항상 **예(/DEBUG)** 로 설정해야 합니다. 애플리케이션을 제품화할 때는 이 옵션을 해제할 수 있습니다.|
 
  [항목 내용](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
 ## <a name="BKMK_Win32_Projects"></a> Win32 프로젝트
- Win32 응용 프로그램은 C 또는 C++로 작성된 일반 Windows 프로그램입니다. 이러한 형식의 응용 프로그램은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 쉽게 디버깅할 수 있습니다.
+ Win32 애플리케이션은 C 또는 C++로 작성된 일반 Windows 프로그램입니다. 이러한 형식의 애플리케이션은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 쉽게 디버깅할 수 있습니다.
 
- Win32 응용 프로그램에는 MFC 응용 프로그램과 ATL 프로젝트가 포함됩니다. Win32 응용 프로그램은 Windows API를 사용하며 MFC나 ATL을 사용할 수도 있지만 CLR(공용 언어 런타임)는 사용하지 않습니다. 그러나 CLR을 사용하는 관리 코드를 호출할 수는 있습니다.
+ Win32 애플리케이션에는 MFC 애플리케이션과 ATL 프로젝트가 포함됩니다. Win32 응용 프로그램은 Windows API를 사용하며 MFC나 ATL을 사용할 수도 있지만 CLR(공용 언어 런타임)는 사용하지 않습니다. 그러나 CLR을 사용하는 관리 코드를 호출할 수는 있습니다.
 
- 다음은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 내에서 Win32 프로젝트를 디버깅하는 방법을 보여 주는 절차입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 외부에서 응용 프로그램을 시작하고 여기에 연결하는 방법으로 Win32 응용 프로그램을 디버깅할 수도 있습니다. 자세한 내용은 [실행 중인 프로세스에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)을 참조 하세요.
+ 다음은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 내에서 Win32 프로젝트를 디버깅하는 방법을 보여 주는 절차입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 외부에서 애플리케이션을 시작하고 여기에 연결하는 방법으로 Win32 애플리케이션을 디버깅할 수도 있습니다. 자세한 내용은 [실행 중인 프로세스에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)을 참조 하세요.
 
 ### <a name="BKMK_To_debug_a_C_or_C___Win32_application"></a> C 또는 C++ Win32 애플리케이션을 디버그하려면
 
@@ -99,13 +99,13 @@ ms.locfileid: "68925497"
 ## <a name="BKMK_Windows_Forms_Applications___NET_"></a> Windows Forms 애플리케이션(.NET)
  **Windows Forms 애플리케이션(.NET)** 템플릿은 [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Windows Forms 애플리케이션을 만드는 데 사용됩니다. 자세한 내용은 [방법: Windows 애플리케이션 프로젝트 만들기](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100))를 참조하세요.
 
- [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 이 형식의 응용 프로그램을 디버깅하는 방법은 관리되는 Windows Forms 응용 프로그램의 경우와 비슷합니다.
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서 이 형식의 애플리케이션을 디버깅하는 방법은 관리되는 Windows Forms 애플리케이션의 경우와 비슷합니다.
 
  프로젝트 템플릿을 사용하여 Windows Forms 프로젝트를 만들면 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]에서는 디버그 및 릴리스 구성에 필요한 설정을 자동으로 만듭니다. 필요한 경우 **\<프로젝트 이름> 속성 페이지** 대화 상자에서 이러한 설정을 변경할 수 있습니다. 자세한 내용은 [디버그 및 릴리스 구성](../debugger/how-to-set-debug-and-release-configurations.md)을 참조하세요.
 
  자세한 내용은 [ C++ 디버그 구성에 대 한 프로젝트 설정](../debugger/project-settings-for-a-cpp-debug-configuration.md)을 참조 하세요.
 
- [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 외부에서 응용 프로그램을 시작한 후에 응용 프로그램에 연결하는 방법으로 Windows Forms 응용 프로그램을 디버깅할 수도 있습니다. 자세한 내용은 [실행 중인 프로그램 또는 여러 프로그램에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)을 참조하세요.
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 외부에서 애플리케이션을 시작한 후에 애플리케이션에 연결하는 방법으로 Windows Forms 애플리케이션을 디버깅할 수도 있습니다. 자세한 내용은 [실행 중인 프로그램 또는 여러 프로그램에 연결](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)을 참조하세요.
 
  [항목 내용](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 

@@ -22,7 +22,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "68157097"
 ---
-# <a name="analyzing-application-quality-by-using-code-analysis-tools"></a>코드 분석 도구를 사용하여 응용 프로그램 품질 분석
+# <a name="analyzing-application-quality-by-using-code-analysis-tools"></a>코드 분석 도구를 사용하여 애플리케이션 품질 분석
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 섹션 내용  

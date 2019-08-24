@@ -19,7 +19,7 @@ ms.locfileid: "65697748"
 # <a name="how-to-add-validation-to-entity-classes"></a>방법: 엔터티 클래스에 유효성 검사 추가
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-엔터티 클래스의 *유효성 검사*는 데이터 개체에 입력된 값이 개체의 스키마 제약 조건과 애플리케이션에 대해 설정된 규칙을 따르는지 확인하는 과정입니다. 업데이트를 내부 데이터베이스에 보내기 전에 데이터의 유효성을 검사하면 오류를 줄일 수 있습니다. 또한 응용 프로그램과 데이터베이스 간에 발생할 수 있는 잠재적 라운드트립 횟수를 줄일 수 있습니다.  
+엔터티 클래스의 *유효성 검사*는 데이터 개체에 입력된 값이 개체의 스키마 제약 조건과 애플리케이션에 대해 설정된 규칙을 따르는지 확인하는 과정입니다. 업데이트를 내부 데이터베이스에 보내기 전에 데이터의 유효성을 검사하면 오류를 줄일 수 있습니다. 또한 애플리케이션과 데이터베이스 간에 발생할 수 있는 잠재적 라운드트립 횟수를 줄일 수 있습니다.  
   
  합니다 [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md) 삽입, 업데이트 하는 동안 실행 되며 전체 엔터티 중 및 개별 열 뒤 삭제 하는 디자이너에서 생성 된 코드를 확장할 수 있도록 하는 부분 메서드를 제공 합니다. 변경 내용입니다.  
   
@@ -27,13 +27,13 @@ ms.locfileid: "65697748"
 > 이 항목에서는 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]를 사용하여 엔터티 클래스에 유효성 검사를 추가하는 기본 단계를 설명합니다. 특정 엔터티 클래스를 참조 하지 않고이 일반 단계를 수행 하기 어려울 수 있으므로, 실제 데이터를 사용 하는 연습이 제공 되었습니다.  
   
 ## <a name="adding-validation-for-changes-to-the-value-in-a-specific-column"></a>변경 내용에 대한 유효성 검사를 특정 열의 값에 추가  
- 이 절차는 열의 값이 변경될 때 데이터의 유효성을 검사하는 방법을 보여 줍니다. 유효성 검사는 사용자 인터페이스 대신 클래스 정의 내에서 수행되기 때문에 값에 대한 유효성 검사가 실패하면 예외가 throw됩니다. 응용 프로그램에서 열 값을 변경하려고 하는 코드에 대한 오류 처리를 구현하세요.  
+ 이 절차는 열의 값이 변경될 때 데이터의 유효성을 검사하는 방법을 보여 줍니다. 유효성 검사는 사용자 인터페이스 대신 클래스 정의 내에서 수행되기 때문에 값에 대한 유효성 검사가 실패하면 예외가 throw됩니다. 애플리케이션에서 열 값을 변경하려고 하는 코드에 대한 오류 처리를 구현하세요.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
 #### <a name="to-validate-data-during-a-columns-value-change"></a>열의 값을 변경하는 동안 데이터의 유효성을 검사하려면  
   
-1. 새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다. (**솔루션 탐색기**에서 **.dbml** 파일을 두 번 클릭합니다.)  
+1. 새 LINQ to SQL 클래스 파일을 만들거나 열 ( **.dbml** 파일)에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다. (**솔루션 탐색기**에서 **.dbml** 파일을 두 번 클릭합니다.)  
   
 2. O/R 디자이너에서 유효성 검사를 추가 하 고 클릭 한 다음 원하는 클래스를 마우스 오른쪽 단추로 **코드 보기**합니다.  
   
@@ -49,7 +49,7 @@ ms.locfileid: "65697748"
   
    3. `On` *COLUMNNAME* `Changing` 메서드가 partial 클래스에 추가 됩니다.  
   
-   4. 다음 코드를 추가하여 입력된 값을 먼저 확인한 다음 열에 입력된 값이 응용 프로그램에서 허용되는지 확인합니다. 다음 `value` 인수는 제안된 값을 포함하고 있으므로 이를 유효한 값으로 확인하는 논리를 추가합니다.  
+   4. 다음 코드를 추가하여 입력된 값을 먼저 확인한 다음 열에 입력된 값이 애플리케이션에서 허용되는지 확인합니다. 다음 `value` 인수는 제안된 값을 포함하고 있으므로 이를 유효한 값으로 확인하는 논리를 추가합니다.  
   
       ```vb  
       If value.HasValue Then  
@@ -82,7 +82,7 @@ ms.locfileid: "65697748"
   
 #### <a name="to-validate-data-during-an-update-to-an-entity-class"></a>엔터티 클래스에 대한 업데이트 동안 데이터의 유효성을 검사하려면  
   
-1. 새 LINQ to SQL 클래스 파일을 만들거나 열 (**.dbml** 파일)에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다. (**솔루션 탐색기**에서 **.dbml** 파일을 두 번 클릭합니다.)  
+1. 새 LINQ to SQL 클래스 파일을 만들거나 열 ( **.dbml** 파일)에 [!INCLUDE[vs_ordesigner_short](../includes/vs-ordesigner-short-md.md)]합니다. (**솔루션 탐색기**에서 **.dbml** 파일을 두 번 클릭합니다.)  
   
 2. O/R 디자이너에서 빈 영역을 마우스 오른쪽 단추로 클릭 하 고 클릭 **코드 보기**합니다.  
   

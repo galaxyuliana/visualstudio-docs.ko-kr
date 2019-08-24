@@ -28,17 +28,17 @@ ms.locfileid: "65703170"
   
  이 연습에서는 다음과 같은 작업을 수행합니다.  
   
-- [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 호스팅하는 웹 응용 프로그램을 만듭니다.  
+- [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 호스팅하는 웹 애플리케이션을 만듭니다.  
   
 - Northwind 데이터베이스의 Customers 테이블을 나타내는 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)]을 만듭니다.  
   
 - [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 만듭니다.  
   
-- 클라이언트 응용 프로그램을 만들고 [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]에 대한 참조를 추가합니다.  
+- 클라이언트 애플리케이션을 만들고 [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]에 대한 참조를 추가합니다.  
   
 - 서비스에 대한 데이터 바인딩을 활성화하고 사용자 인터페이스를 생성합니다.  
   
-- 필요한 경우 응용 프로그램에 필터링 기능을 추가합니다.  
+- 필요한 경우 애플리케이션에 필터링 기능을 추가합니다.  
   
 ## <a name="prerequisites"></a>전제 조건  
  이 연습을 완료하려면 다음 구성 요소가 필요합니다.  
@@ -133,14 +133,14 @@ ms.locfileid: "65703170"
   
 8. 브라우저 창을 닫습니다.  
   
-   다음 단계에서는 서비스를 소비할 Windows Forms 클라이언트 응용 프로그램을 만듭니다.  
+   다음 단계에서는 서비스를 소비할 Windows Forms 클라이언트 애플리케이션을 만듭니다.  
   
 ## <a name="creating-the-client-application"></a>클라이언트 애플리케이션 만들기  
- 클라이언트 응용 프로그램을 만들려면 두 번째 프로젝트를 추가하고, 프로젝트에 서비스 참조를 추가하고, 데이터 소스를 구성하고, 서비스의 데이터를 표시할 사용자 인터페이스를 만듭니다.  
+ 클라이언트 애플리케이션을 만들려면 두 번째 프로젝트를 추가하고, 프로젝트에 서비스 참조를 추가하고, 데이터 소스를 구성하고, 서비스의 데이터를 표시할 사용자 인터페이스를 만듭니다.  
   
  첫 번째 단계에서는 Windows Forms 프로젝트를 솔루션에 추가한 다음 이를 시작 프로젝트로 설정합니다.  
   
-#### <a name="to-create-the-client-application"></a>클라이언트 응용 프로그램을 만들려면  
+#### <a name="to-create-the-client-application"></a>클라이언트 애플리케이션을 만들려면  
   
 1. 메뉴 모음에서 파일을 선택 **추가**하십시오 **새 프로젝트**합니다.  
   
@@ -227,12 +227,12 @@ ms.locfileid: "65703170"
   
 9. 메뉴 모음에서 선택 **디버그**를 **디버깅 시작** 응용 프로그램을 실행 합니다. 고객 정보가 표시됩니다.  
   
-   이제 NorthwindCustomers 서비스의 고객 목록을 표시하는 응용 프로그램이 만들어졌습니다. 이 서비스를 통해 추가 데이터를 노출하려면 Northwind 데이터베이스의 다른 테이블을 포함하도록 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)]을 수정하면 됩니다.  
+   이제 NorthwindCustomers 서비스의 고객 목록을 표시하는 애플리케이션이 만들어졌습니다. 이 서비스를 통해 추가 데이터를 노출하려면 Northwind 데이터베이스의 다른 테이블을 포함하도록 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)]을 수정하면 됩니다.  
   
    선택 사항인 다음 단계에서는 서비스에서 반환하는 데이터를 필터링하는 방법에 대해 설명합니다.  
   
 ## <a name="adding-filtering-capabilities"></a>필터링 기능 추가  
- 이 단계에서는 고객의 구/군/시/를 기준으로 데이터를 필터링하도록 응용 프로그램을 사용자 지정합니다.  
+ 이 단계에서는 고객의 구/군/시/를 기준으로 데이터를 필터링하도록 애플리케이션을 사용자 지정합니다.  
   
 #### <a name="to-add-filtering-by-city"></a>구/군/시 기준 필터링을 추가하려면  
   

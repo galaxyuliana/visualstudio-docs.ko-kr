@@ -26,9 +26,9 @@ ms.locfileid: "67328887"
 # <a name="how-to-target-office-applications-through-primary-interop-assemblies"></a>방법: 주 interop 어셈블리를 통해 대상 Office 응용 프로그램
   새 Office 프로젝트를 만들 때 Visual Studio는 프로젝트를 빌드하는 데 필요한 Microsoft Office PIA(주 interop 어셈블리)에 대한 참조를 자동으로 추가합니다. 다음과 같은 시나리오에서는 다른 PIA에 대한 참조를 추가해야 합니다.
 
-- 프로젝트에서 다른 Microsoft Office 응용 프로그램의 기능을 사용하려고 합니다. 예를 들어 Microsoft Office Word용 프로젝트에서 Microsoft Office Excel의 기능을 사용할 수 있습니다.
+- 프로젝트에서 다른 Microsoft Office 애플리케이션의 기능을 사용하려고 합니다. 예를 들어 Microsoft Office Word용 프로젝트에서 Microsoft Office Excel의 기능을 사용할 수 있습니다.
 
-- Microsoft Office Access와 같이 Visual Studio에 전용 프로젝트가 없는 Microsoft Office 응용 프로그램을 자동화하려고 합니다.
+- Microsoft Office Access와 같이 Visual Studio에 전용 프로젝트가 없는 Microsoft Office 애플리케이션을 자동화하려고 합니다.
 
   [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 

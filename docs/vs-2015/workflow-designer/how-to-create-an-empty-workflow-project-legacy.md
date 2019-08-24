@@ -34,7 +34,7 @@ ms.locfileid: "63428084"
 3. 중 하나를 선택 합니다 **.NET Framework 3.0** 옵션 또는 **.NET Framework 3.5** 목록 맨 위에 있는 드롭다운에서 옵션을 **새 프로젝트** 레거시 디자이너에 액세스 하려면 창입니다.  
   
     > [!NOTE]
-    > 기본 옵션 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 됩니다 **.NET Framework 4**합니다. 이 옵션은 [!INCLUDE[wf](../includes/wf-md.md)]을 대상으로 하는 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 응용 프로그램을 만드는 데 사용합니다.  
+    > 기본 옵션 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 됩니다 **.NET Framework 4**합니다. 이 옵션은 [!INCLUDE[wf](../includes/wf-md.md)]을 대상으로 하는 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 애플리케이션을 만드는 데 사용합니다.  
   
 4. 에 **프로젝트 형식** 창, Visual C# 또는 Visual Basic (아래 **다른 언어**)를 선택한 후 **워크플로**합니다.  
   

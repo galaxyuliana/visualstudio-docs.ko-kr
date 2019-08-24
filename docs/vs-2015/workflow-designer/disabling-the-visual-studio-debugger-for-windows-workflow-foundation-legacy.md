@@ -21,7 +21,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62823391"
 ---
 # <a name="disabling-the-visual-studio-debugger-for-windows-workflow-foundation-legacy"></a>Visual Studio Debugger for Windows Workflow Foundation을 사용하지 않도록 설정(레거시)
-이 항목에서는 레거시 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 [!INCLUDE[wf](../includes/wf-md.md)] 응용 프로그램을 빌드할 때 구성 파일을 사용하여 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 디버거를 비활성화하는 방법에 대해 설명합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.
+이 항목에서는 레거시 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서 [!INCLUDE[wf](../includes/wf-md.md)] 애플리케이션을 빌드할 때 구성 파일을 사용하여 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 디버거를 비활성화하는 방법에 대해 설명합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.
 
  기본적으로는 호스트 프로세스에 [!INCLUDE[vs_current_long](../includes/vs-current-long-md.md)]용 [!INCLUDE[wf](../includes/wf-md.md)] 디버거를 사용할 수 있습니다. 워크플로 디버깅을 사용 하지 않으려면 명시적으로 해제 해야 하는 "DisableWorkflowDebugging" 항목을 추가 하 여  **\<스위치 >** 요소에는  **\<system.diagnostics >** 호스트 구성 파일의 섹션입니다.
 

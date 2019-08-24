@@ -50,9 +50,9 @@ Windows Forms 프로젝트의 데이터에 액세스하는 것과 동일한 방�
 
 컨트롤 외에도 다음과 같은 데이터 관련 개체가 프로젝트에 자동으로 추가됩니다.
 
-- 데이터베이스에서 연결된 데이터 테이블을 캡슐화하는 형식화된 데이터 집합. 자세한 내용은 [Visual Studio에서 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)합니다.
+- 데이터베이스에서 연결된 데이터 테이블을 캡슐화하는 형식화된 데이터 세트. 자세한 내용은 [Visual Studio에서 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)합니다.
 
-- 컨트롤을 형식화된 데이터 집합에 연결하는 <xref:System.Windows.Forms.BindingSource>. 자세한 내용은 [BindingSource 구성 요소 개요](/dotnet/framework/winforms/controls/bindingsource-component-overview)합니다.
+- 컨트롤을 형식화된 데이터 세트에 연결하는 <xref:System.Windows.Forms.BindingSource>. 자세한 내용은 [BindingSource 구성 요소 개요](/dotnet/framework/winforms/controls/bindingsource-component-overview)합니다.
 
 - 데이터베이스에 형식화 된 데이터 집합을 연결 하는 TableAdapter. 자세한 내용은 [만들기 및 Tableadapter 구성](../data-tools/create-and-configure-tableadapters.md)합니다.
 

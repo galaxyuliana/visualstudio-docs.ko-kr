@@ -41,7 +41,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
 #### <a name="to-view-event-listeners"></a>이벤트 수신기를 보려면
 
-1. Visual Studio에서 Windows Phone 피벗 응용 프로그램 프로젝트 템플릿을 사용하는 JavaScript 앱을 만듭니다.
+1. Visual Studio에서 Windows Phone 피벗 애플리케이션 프로젝트 템플릿을 사용하는 JavaScript 앱을 만듭니다.
 
 2. Visual Studio에서 열기 템플릿으로 선택 **에뮬레이터 8.1 WVGA 4 인치 512MB** 디버거의 디버그 도구 모음의 드롭다운 목록에서:
 
@@ -55,7 +55,7 @@ Windows 및 Windows Phone 적용 됩니다] (.. /Image/windows_and_phone_content
 
 6. DOM 탐색기의 오른쪽 상단에 있는 `Find`를 선택합니다.
 
-7.  `ListView`를 입력한 후 Enter 키를 누릅니다.
+7. `ListView`를 입력한 후 Enter 키를 누릅니다.
 
 8. 필요한 경우 선택 합니다 **다음** 단추를를 `DIV` 나타내는 요소는 `ListView` 컨트롤 (이 요소에는 `data-win-control` 값 `WinJS.UI.ListView`).
 

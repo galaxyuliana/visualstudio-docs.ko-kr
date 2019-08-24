@@ -288,9 +288,9 @@
           href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
         - name: 원격 컴퓨터는 원격 연결 대화 상자에 표시되지 않습니다.
           href: error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md
-- name: 다중 스레드 응용 프로그램 디버깅
+- name: 다중 스레드 애플리케이션 디버깅
   items:
-    - name: 다중 스레드 응용 프로그램 디버깅
+    - name: 다중 스레드 애플리케이션 디버깅
       href: debug-multithreaded-applications-in-visual-studio.md
     - name: 스레드 및 프로세스 디버깅
       href: debug-threads-and-processes.md
@@ -342,9 +342,9 @@
       href: using-saved-intellitrace-data.md
     - name: IntelliTrace 확장성을 위한 API 참조
       href: api-reference-for-intellitrace-extensibility.md
-- name: 응용 프로그램 디버깅
+- name: 애플리케이션 디버깅
   items:
-    - name: 응용 프로그램 디버깅
+    - name: 애플리케이션 디버깅
       href: debugging-applications.md
     - name: Windows 스토어 및 Windows 유니버설 앱 디버그
       items:
@@ -440,7 +440,7 @@
           href: walkthrough-debugging-a-windows-form.md
         - name: OnStart 메서드 디버그
           href: how-to-debug-the-onstart-method.md
-        - name: 혼합 모드 응용 프로그램 디버깅
+        - name: 혼합 모드 애플리케이션 디버깅
           href: debugging-mixed-mode-applications.md
         - name: JIT 최적화 및 디버깅
           href: jit-optimization-and-debugging.md
@@ -540,7 +540,7 @@
                   items:
                     - name: COM 서버 디버그
                       href: how-to-debug-com-servers.md
-                    - name: SDI 서버 응용 프로그램
+                    - name: SDI 서버 애플리케이션
                       href: sdi-server-applications.md
                 - name: RPC 디버깅을 사용하여 COM 클라이언트 및 서버 디버그
                   href: how-to-debug-com-clients-and-servers-using-rpc-debugging.md
@@ -662,9 +662,9 @@
               href: vsg-default-run-filename.md
             - name: VSG_NODEFAULT_INSTANCE
               href: vsg-nodefault-instance.md
-    - name: 웹 응용 프로그램 및 스크립트 디버깅
+    - name: 웹 애플리케이션 및 스크립트 디버깅
       items:
-        - name: 웹 응용 프로그램 및 스크립트 디버깅
+        - name: 웹 애플리케이션 및 스크립트 디버깅
           href: debugging-web-applications-and-script.md
         - name: ASP.NET 및 AJAX 애플리케이션 디버그
           items:
@@ -682,19 +682,19 @@
                       href: how-to-enable-debugging-for-aspnet-applications.md
                     - name: 사용자 계정으로 작업자 프로세스 실행
                       href: how-to-run-the-worker-process-under-a-user-account.md
-                - name: 웹 응용 프로그램 원격 디버깅의 필수 구성 요소
+                - name: 웹 애플리케이션 원격 디버깅의 필수 구성 요소
                   items:
-                    - name: 웹 응용 프로그램 원격 디버깅의 필수 구성 요소
+                    - name: 웹 애플리케이션 원격 디버깅의 필수 구성 요소
                       href: prerequistes-for-remote-debugging-web-applications.md
                     - name: ASP.NET 프로세스의 이름 찾기
                       href: how-to-find-the-name-of-the-aspnet-process.md
-            - name: 웹 응용 프로그램 디버깅
+            - name: 웹 애플리케이션 디버깅
               items:
-                - name: 웹 응용 프로그램 디버깅
+                - name: 웹 애플리케이션 디버깅
                   href: debugging-web-applications.md
                 - name: 웹 애플리케이션 디버그
                   href: how-to-debug-web-applications.md
-                - name: 배포된 웹 응용 프로그램 디버깅
+                - name: 배포된 웹 애플리케이션 디버깅
                   href: debugging-deployed-web-applications.md
                 - name: 클라이언트 쪽 스크립트 디버깅
                   items:

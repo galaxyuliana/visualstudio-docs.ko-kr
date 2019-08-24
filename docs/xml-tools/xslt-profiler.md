@@ -17,7 +17,7 @@ ms.locfileid: "62988036"
 ---
 # <a name="the-xslt-profiler"></a>XSLT Profiler
 
-XSLT 프로파일러는 XSLT 코드의 성능 관련 문제를 측정 및 평가하고, 대상으로 지정하는 데 도움이 되는 자세한 XSLT 성능 보고서를 만듭니다. XSLT 프로파일러에는 XSL 및 XSLT 스타일시트 최적화에 유용한 힌트도 포함되어 있습니다. 최대 성능이 필요한 XSLT 응용 프로그램의 경우 이 도구가 반드시 필요합니다.
+XSLT 프로파일러는 XSLT 코드의 성능 관련 문제를 측정 및 평가하고, 대상으로 지정하는 데 도움이 되는 자세한 XSLT 성능 보고서를 만듭니다. XSLT 프로파일러에는 XSL 및 XSLT 스타일시트 최적화에 유용한 힌트도 포함되어 있습니다. 최대 성능이 필요한 XSLT 애플리케이션의 경우 이 도구가 반드시 필요합니다.
 
 XSLT Profiler Visual Studio의 일부 이며에서 사용할 수는 **XML** 메뉴.
 

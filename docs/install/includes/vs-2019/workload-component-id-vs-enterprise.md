@@ -95,7 +95,7 @@ Microsoft.VisualStudio.Component.Azure.ResourceManager.Tools | Azure Resource Ma
 Microsoft.VisualStudio.Component.Azure.ServiceFabric.Tools | Service Fabric 도구 | 16.0.28517.75 | 권장
 Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services 핵심 도구 | 16.0.28625.61 | 권장
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services 빌드 도구 | 16.0.28625.61 | 권장
-Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅숏 디버거 | 16.2.29003.222 | 권장
+Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅샷 디버거 | 16.2.29003.222 | 권장
 Microsoft.VisualStudio.Component.Debugger.TimeTravel | 시간 이동 디버거 | 16.0.28714.129 | 권장
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET 프로파일링 도구 | 16.0.28625.61 | 권장
 Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 16.1.28829.92 | 권장
@@ -495,7 +495,7 @@ Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러�
 Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 컴퓨팅 에뮬레이터 | 16.1.28810.153 | 권장
 Microsoft.VisualStudio.Component.Azure.Storage.Emulator | Azure Storage 계정 | 16.0.28517.75 | 권장
 Microsoft.VisualStudio.Component.CloudExplorer | 클라우드 탐색기 | 16.0.28625.61 | 권장
-Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅숏 디버거 | 16.2.29003.222 | 권장
+Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅샷 디버거 | 16.2.29003.222 | 권장
 Microsoft.VisualStudio.Component.Debugger.TimeTravel | 시간 이동 디버거 | 16.0.28714.129 | 권장
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET 프로파일링 도구 | 16.0.28625.61 | 권장
 Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 16.1.28829.92 | 권장
@@ -598,7 +598,7 @@ Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러�
 Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 컴퓨팅 에뮬레이터 | 16.1.28810.153 | 권장
 Microsoft.VisualStudio.Component.Azure.Storage.Emulator | Azure Storage 계정 | 16.0.28517.75 | 권장
 Microsoft.VisualStudio.Component.CloudExplorer | 클라우드 탐색기 | 16.0.28625.61 | 권장
-Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅숏 디버거 | 16.2.29003.222 | 권장
+Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅샷 디버거 | 16.2.29003.222 | 권장
 Microsoft.VisualStudio.Component.Debugger.TimeTravel | 시간 이동 디버거 | 16.0.28714.129 | 권장
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET 프로파일링 도구 | 16.0.28625.61 | 권장
 Microsoft.VisualStudio.Component.EntityFramework | Entity Framework 6 도구 | 16.0.28315.86 | 권장

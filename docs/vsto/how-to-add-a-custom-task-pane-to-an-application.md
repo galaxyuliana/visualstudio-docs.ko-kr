@@ -21,7 +21,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "63427916"
 ---
 # <a name="how-to-add-a-custom-task-pane-to-an-application"></a>방법: 응용 프로그램에 사용자 지정 작업창 추가
-  VSTO 추가 기능을 사용하여 위에 나열된 응용 프로그램에 사용자 지정 작업창을 추가할 수 있습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
+  VSTO 추가 기능을 사용하여 위에 나열된 애플리케이션에 사용자 지정 작업창을 추가할 수 있습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
@@ -30,9 +30,9 @@ ms.locfileid: "63427916"
 
 ## <a name="add-a-custom-task-pane-to-an-application"></a>응용 프로그램에 사용자 지정 작업창 추가
 
-### <a name="to-add-a-custom-task-pane-to-an-application"></a>응용 프로그램에 사용자 지정 작업창을 추가하려면
+### <a name="to-add-a-custom-task-pane-to-an-application"></a>애플리케이션에 사용자 지정 작업창을 추가하려면
 
-1. 위에 나열된 응용 프로그램 중 하나에 대한 VSTO 추가 기능 프로젝트를 열거나 만듭니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
+1. 위에 나열된 애플리케이션 중 하나에 대한 VSTO 추가 기능 프로젝트를 열거나 만듭니다. 자세한 내용은 [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다.
 
 2. **프로젝트** 메뉴에서 **사용자 정의 컨트롤 추가**를 클릭합니다.
 
@@ -55,7 +55,7 @@ ms.locfileid: "63427916"
      [!code-csharp[Trin_TaskPaneBasic#2](../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs#2)]
 
     > [!NOTE]
-    > 이 코드는 응용 프로그램의 활성 창과 사용자 지정 작업창을 연결합니다. 일부 응용 프로그램의 경우 작업창이 응용 프로그램의 다른 문서나 항목과 함께 표시되도록 이 코드를 수정하는 것이 좋습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
+    > 이 코드는 애플리케이션의 활성 창과 사용자 지정 작업창을 연결합니다. 일부 애플리케이션의 경우 작업창이 애플리케이션의 다른 문서나 항목과 함께 표시되도록 이 코드를 수정하는 것이 좋습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
 
 ## <a name="see-also"></a>참고자료
 - [Office UI 사용자 지정](../vsto/office-ui-customization.md)

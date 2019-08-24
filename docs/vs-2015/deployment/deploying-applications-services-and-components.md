@@ -32,7 +32,7 @@ ms.locfileid: "66260691"
 # <a name="deploying-applications-services-and-components"></a>애플리케이션, 서비스 및 구성 요소 배포
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-다른 컴퓨터, 장치, 서버 또는 클라우드에 설치할 수 있도록 응용 프로그램, 서비스 또는 구성 요소를 배포할 수 있습니다. Visual Studio에서 필요한 배포 유형에 적합한 방법을 선택할 수 있습니다.  
+다른 컴퓨터, 디바이스, 서버 또는 클라우드에 설치할 수 있도록 애플리케이션, 서비스 또는 구성 요소를 배포할 수 있습니다. Visual Studio에서 필요한 배포 유형에 적합한 방법을 선택할 수 있습니다.  
   
  다음 표에서는 다양한 배포 시나리오에 대한 설명과 해당 시나리오를 성공적으로 완료하는 방법에 대한 자세한 내용을 볼 수 있는 링크를 보여줍니다.  
   
@@ -49,7 +49,7 @@ ms.locfileid: "66260691"
 |**Office 용 앱을 게시 합니다.** Office 스토어 또는 내부 조직에 대 한 앱 카탈로그에 Office 용 앱을 게시할 수 있습니다.|[Office 용 앱 게시](https://msdn.microsoft.com/library/office/fp123515.aspx)|  
 |**WCF 서비스를 배포 합니다.** 웹 서버에 배포한 WCF RIA 서비스를 다른 애플리케이션에서 사용할 수 있습니다.|[WCF RIA Services 솔루션 배포](https://msdn.microsoft.com/library/ff426912\(v=vs.91\).aspx)|  
 |**OData 서비스를 배포 합니다.** 다른 응용 프로그램이 웹 서버에 배포 하는 OData 서비스를 사용할 수 있습니다.|[OData 서비스 배포](https://msdn.microsoft.com/library/hh973447.aspx)|  
-|**데스크톱 응용 프로그램을 배포 합니다.** ClickOnce 배포를 사용 하 여 웹 서버 또는 네트워크 파일 공유에 데스크톱 응용 프로그램을 게시할 수 있습니다. 이렇게 하면 사용자가 클릭 한 번으로 응용 프로그램을 설치할 수 있습니다.|[ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)|  
+|**데스크톱 응용 프로그램을 배포 합니다.** ClickOnce 배포를 사용 하 여 웹 서버 또는 네트워크 파일 공유에 데스크톱 응용 프로그램을 게시할 수 있습니다. 이렇게 하면 사용자가 클릭 한 번으로 애플리케이션을 설치할 수 있습니다.|[ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)|  
 |**설치 프로그램을 만듭니다.** 무료 InstallShield Limited Edition을 사용 하 여 설치 프로그램을 만들 수 있습니다.|[InstallShield Limited Edition](../deployment/installshield-limited-edition.md)|  
 |**기존 설치 프로그램을 유지 합니다.** Visual Studio 설치 관리자 프로젝트 확장을 설치 하 여 Visual Studio의 이전 버전에서 만든 설치 프로그램을 사용 하 여 계속 합니다.|[Visual Studio 설치 관리자 프로젝트 확장](http://blogs.msdn.com/b/visualstudio/archive/2014/04/17/visual-studio-installer-projects-extension.aspx)<br /><br /> 설치 관리자 프로젝트에 대 한 설명서는 여기 제공 됩니다. [Visual Studio 설치 관리자 배포](https://msdn.microsoft.com/library/2kt85ked\(v=vs.100\).aspx)|  
 |**시각적 개체를 배포 C++ 응용 프로그램:** 시각적 개체를 배포할 수 있습니다 C++ 중앙 배포, 로컬 배포 또는 정적 연결을 사용 하 여 응용 프로그램을 사용 하 여 런타임입니다.|[네이티브 데스크톱 응용 프로그램 배포(Visual C++)](/cpp/windows/deploying-native-desktop-applications-visual-cpp)|  

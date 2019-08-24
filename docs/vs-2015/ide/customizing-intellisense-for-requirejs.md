@@ -33,7 +33,7 @@ Visual Studio 2013 업데이트 4부터는 널리 사용되는 RequireJS JavaScr
  현재 JavaScript 파일에서 require.js 파일을 참조할 때는 RequireJS 지원이 자동으로 설정됩니다. 자세한 내용은 [JavaScript IntelliSense](../ide/javascript-intellisense.md)의 IntelliSense 컨텍스트 확인 섹션을 참조하세요. ASP.NET 프로젝트에서는 보통 _references.js 파일 내에서 /// \<reference/> 지시문을 사용하여 require.js를 참조합니다.  
   
 ### <a name="configure-the-data-main-attribute-in-an-aspnet-project"></a>ASP.NET 프로젝트에서 data-main 특성 구성  
- 앱이 실행 할 때 작동하는 방식을 정확하게 시뮬레이트하려면 JavaScript 편집기에서 require.js를 설정할 때 처음으로 로드할 파일을 알고 있어야 합니다. 일반적으로는 아래에 나와 있는 것처럼 require.js를 참조하는 스크립트 요소에 대해 `data-main` 특성을 사용하여 응용 프로그램 HTML 파일에서 이 파일을 구성합니다.  
+ 앱이 실행 할 때 작동하는 방식을 정확하게 시뮬레이트하려면 JavaScript 편집기에서 require.js를 설정할 때 처음으로 로드할 파일을 알고 있어야 합니다. 일반적으로는 아래에 나와 있는 것처럼 require.js를 참조하는 스크립트 요소에 대해 `data-main` 특성을 사용하여 애플리케이션 HTML 파일에서 이 파일을 구성합니다.  
   
 ```html  
 <script src="js/require.js" data-main="js/app.js"></script>  
@@ -45,7 +45,7 @@ Visual Studio 2013 업데이트 4부터는 널리 사용되는 RequireJS JavaScr
 /// <reference path="js/require.js" data-main="js/app.js" />  
 ```  
   
-### <a name="configure-the-application-start-page-in-an-aspnet-project"></a>ASP.NET 프로젝트에서 응용 프로그램 시작 페이지 구성  
+### <a name="configure-the-application-start-page-in-an-aspnet-project"></a>ASP.NET 프로젝트에서 애플리케이션 시작 페이지 구성  
  앱을 실행할 때 requirejs는 상대 파일 경로 (예를 들어, "... \\"경로)가 require.js 라이브러리를 로드 하는 HTML 파일을 기준으로 합니다. Visual Studio 편집기에서 ASP.NET 프로젝트용 코드를 작성할 때는 이 시작 페이지를 알 수 없으므로 상대 파일 경로 사용 시 사용할 시작 페이지를 편집기에서 지정해야 합니다. 이렇게 하려면 /// \<reference/> 지시문에 `start-page` 특성을 추가합니다.  
   
 ```javascript  
@@ -57,7 +57,7 @@ Visual Studio 2013 업데이트 4부터는 널리 사용되는 RequireJS JavaScr
 ## <a name="customize-requirejs-in-jsproj-projects"></a>JSProj 프로젝트에서 RequireJS 사용자 지정  
  .jsproj 확장명으로 끝나는 프로젝트 파일인 JSProj 프로젝트는 Apache Cordova용 앱, HTML 기반 Windows 스토어 앱 또는 LightSwitch HTML 앱을 빌드할 때 사용됩니다. ASP.NET 프로젝트와는 달리 이러한 프로젝트는 프로젝트에 있는 HTML 파일에서 .js 파일에 대한 참조를 읽습니다. 따라서 JSProj 프로젝트에서 JavaScript를 편집할 때 현재 편집 중인 JavaScript 파일이 require.js를 참조하는 다른 HTML 파일에서도 참조되는 경우에는 RequireJS 지원이 설정된 것으로 표시됩니다.  
   
- ASP.NET 프로젝트에 대해 수행해야 하는 사용자 지정 단계를 JSProj 프로젝트 파일에서는 수행하지 않아도 됩니다. 즉, require.js를 참조하는 스크립트 태그의 `data-main` 특성에 사용되는 스크립트 파일은 자동으로 로드되어 require.js를 구성합니다. require.js를 참조하는 HTML 파일도 응용 프로그램의 시작 페이지로 사용됩니다.  
+ ASP.NET 프로젝트에 대해 수행해야 하는 사용자 지정 단계를 JSProj 프로젝트 파일에서는 수행하지 않아도 됩니다. 즉, require.js를 참조하는 스크립트 태그의 `data-main` 특성에 사용되는 스크립트 파일은 자동으로 로드되어 require.js를 구성합니다. require.js를 참조하는 HTML 파일도 애플리케이션의 시작 페이지로 사용됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)

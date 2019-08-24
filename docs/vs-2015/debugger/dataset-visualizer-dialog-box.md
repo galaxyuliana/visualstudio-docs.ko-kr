@@ -41,7 +41,7 @@ ms.locfileid: "65697849"
   
 ## <a name="uielement-list"></a>UI 요소 목록  
  표  
- 데이터 집합 내에서 시각화할 테이블을 선택하려면 이 드롭다운 목록 상자를 사용합니다.  
+ 데이터 세트 내에서 시각화할 테이블을 선택하려면 이 드롭다운 목록 상자를 사용합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [디버거 보안](../debugger/debugger-security.md)   

@@ -46,7 +46,7 @@ Visual Studio에서 여러 가지 방법으로 모델 및 다이어그램을 동
 |제목|설명|
 |-|-|
 |[모델링 솔루션 구성](../modeling/structure-your-modeling-solution.md)|대규모 또는 중간 규모 프로젝트에서 모델을 공유합니다.|
-|[다이어그램을 이미지로 내보내기](../modeling/export-diagrams-as-images.md)|다이어그램의 일부를 PowerPoint 또는 Word와 같은 응용 프로그램으로 복사하거나 다이어그램을 XPS 파일로 인쇄할 수 있습니다.|
+|[다이어그램을 이미지로 내보내기](../modeling/export-diagrams-as-images.md)|다이어그램의 일부를 PowerPoint 또는 Word와 같은 애플리케이션으로 복사하거나 다이어그램을 XPS 파일로 인쇄할 수 있습니다.|
 |[아키텍처 분석 및 모델링](../modeling/analyze-and-model-your-architecture.md)|모델 및 다이어그램의 개요입니다.|
 
 ## <a name="see-also"></a>참고 항목

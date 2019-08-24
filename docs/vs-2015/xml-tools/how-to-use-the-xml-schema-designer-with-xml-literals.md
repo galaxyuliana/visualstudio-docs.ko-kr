@@ -21,7 +21,7 @@ ms.locfileid: "68190327"
 
 이 항목에서는 Visual Basic 프로젝트에서 XML 리터럴과 연결된 스키마를 보는 방법에 대해 설명합니다.  
   
-### <a name="to-create-a-new-visual-basic-console-application-project"></a>새 Visual Basic 콘솔 응용 프로그램 프로젝트를 만들려면  
+### <a name="to-create-a-new-visual-basic-console-application-project"></a>새 Visual Basic 콘솔 애플리케이션 프로젝트를 만들려면  
   
 1. Visual Studio 2010을 시작합니다.  
   

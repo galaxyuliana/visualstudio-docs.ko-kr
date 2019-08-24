@@ -260,7 +260,7 @@ Windows Communication Foundation (WCF) 서비스에서 대부분의 메서드는
 | | [방법: WCF 데이터 서비스 참조 추가, 업데이트 또는 제거](../data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference.md) |
 | [서비스 참조 문제 해결](../data-tools/troubleshooting-service-references.md) | 서비스 참조 및 방지 하는 방법을 사용 하 여 발생할 수 있는 몇 가지 일반적인 오류를 표시 합니다. |
 | [WCF 서비스 디버그](../debugger/debugging-wcf-services.md) | 일반적인 디버깅 문제와 WCF 서비스를 디버깅할 때 발생할 수 있는 기술에 설명 합니다. |
-| [연습: N 계층 데이터 애플리케이션 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md) | 형식화된 데이터 집합을 만들고 TableAdapter 및 데이터 집합 코드를 여러 프로젝트로 분리하는 단계별 지침을 제공합니다. |
+| [연습: N 계층 데이터 애플리케이션 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md) | 형식화된 데이터 세트을 만들고 TableAdapter 및 데이터 세트 코드를 여러 프로젝트로 분리하는 단계별 지침을 제공합니다. |
 | [서비스 참조 구성 대화 상자](../data-tools/configure-service-reference-dialog-box.md) | 사용자 인터페이스 요소에 설명 합니다 **서비스 참조 구성** 대화 상자. |
 
 ## <a name="reference"></a>참조

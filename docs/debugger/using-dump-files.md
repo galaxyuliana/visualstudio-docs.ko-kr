@@ -43,7 +43,7 @@ Visual Studio 디버거는 관리 코드 또는 네이티브 코드에 대한 �
 
 - 64 비트 컴퓨터에서 덤프를 디버깅 하려면 Visual Studio 64 비트 컴퓨터에서 실행 되어야 합니다.
 
-- Visual Studio에서는 ARM 장치에서 네이티브 응용 프로그램의 덤프 파일을 디버깅할 수 있습니다. 네이티브 디버거에서 하지만 ARM 장치에서 관리 되는 응용 프로그램의 덤프를 디버그할 수도 있습니다.
+- Visual Studio에서는 ARM 디바이스에서 네이티브 애플리케이션의 덤프 파일을 디버깅할 수 있습니다. 네이티브 디버거에서 하지만 ARM 장치에서 관리 되는 응용 프로그램의 덤프를 디버그할 수도 있습니다.
 
 - 디버그 [커널 모드](/windows-hardware/drivers/debugger/kernel-mode-dump-files) 덤프 파일 또는 사용 하 여를 [SOS.dll](/dotnet/framework/tools/sos-dll-sos-debugging-extension) 에서 Windows 용 디버깅 도구를 다운로드 디버깅 Visual Studio에서 확장을 [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk)합니다.
 
@@ -95,7 +95,7 @@ Visual Studio에서 프로세스를 디버깅 하는 동안 디버거가 예외 
 사용 하 여 디버깅 기능에 덤프 파일에 전체 Visual Studio 필요 합니다.
 
 - 합니다 *.exe* 덤프를 생성 된 파일과 덤프 프로세스는 다른 바이너리 (Dll 등).
-- *.exe* 및 기타 이진 파일에 대한 기호(*.pdb*) 파일
+- *.exe* 및 기타 이진 파일에 대한 기호( *.pdb*) 파일
 - *.exe* 하 고 *.pdb* 파일 버전 및에서 파일의 빌드와 정확히 일치 하는 덤프 생성 합니다.
 - 관련 모듈에 대 한 원본 파일입니다. 소스 파일을 찾을 수 없는 경우 모듈의 디스어셈블리를 사용할 수 있습니다.
 

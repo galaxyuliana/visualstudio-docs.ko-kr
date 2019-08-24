@@ -156,7 +156,7 @@ Squares of numbers:
 
 ### <a name="inheritance-in-a-run-time-preprocessed-text-template"></a>전처리된 런타임 텍스트 템플릿의 상속
 
-런타임 텍스트 템플릿 간에 상속을 사용하여 여러 파생 변형이 있는 기본 템플릿을 만들 수 있습니다. 런타임 템플릿은 **사용자 지정 도구** 속성이 **Texttemplatingfilepreprocessor**로 설정 된 템플릿입니다. 런타임 템플릿에서는 응용 프로그램에서 호출하여 템플릿에 정의된 텍스트를 만들 수 있는 코드를 생성합니다. 자세한 내용은 [T4 텍스트 템플릿을 사용 하 여 런타임 텍스트 생성](../modeling/run-time-text-generation-with-t4-text-templates.md)을 참조 하세요.
+런타임 텍스트 템플릿 간에 상속을 사용하여 여러 파생 변형이 있는 기본 템플릿을 만들 수 있습니다. 런타임 템플릿은 **사용자 지정 도구** 속성이 **Texttemplatingfilepreprocessor**로 설정 된 템플릿입니다. 런타임 템플릿에서는 애플리케이션에서 호출하여 템플릿에 정의된 텍스트를 만들 수 있는 코드를 생성합니다. 자세한 내용은 [T4 텍스트 템플릿을 사용 하 여 런타임 텍스트 생성](../modeling/run-time-text-generation-with-t4-text-templates.md)을 참조 하세요.
 
 `inherits` 특성을 지정하지 않으면 기본 클래스 및 파생 클래스가 텍스트 템플릿에서 생성됩니다. `inherits` 특성을 지정하면 파생 클래스만 생성됩니다. 기본 클래스를 직접 작성할 수 있지만 기본 클래스에서 파생 클래스에 사용되는 메서드를 제공해야 합니다.
 
@@ -206,7 +206,7 @@ protected override void SpecificFragment2()
 #>
 ```
 
-DerivedTemplate1을 호출할 응용 프로그램 코드:
+DerivedTemplate1을 호출할 애플리케이션 코드:
 
 ```csharp
 Console.WriteLine(new DerivedTemplate().TransformText());

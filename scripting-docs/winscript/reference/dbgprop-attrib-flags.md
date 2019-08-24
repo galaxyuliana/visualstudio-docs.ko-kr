@@ -26,7 +26,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "62955278"
 ---
-# <a name="dbgpropattribflags"></a>DBGPROP_ATTRIB_FLAGS
+# <a name="dbgprop_attrib_flags"></a>DBGPROP_ATTRIB_FLAGS
 `IDebugProperty`의 여러 특성에 대해 설명합니다. `DebugPropertyInfo` 구조체의 멤버입니다.  
   
 ## <a name="syntax"></a>구문  
@@ -80,16 +80,16 @@ DBGPROP_ATTRIB_NO_ATTRIB  =0x00000000,
  최종 액세스 권한이 있는 개체를 나타냅니다.  
   
  DBGPROP_ATTRIB_STORAGE_GLOBAL  
- 전역 저장소를 나타냅니다.  
+ 전역 스토리지를 나타냅니다.  
   
  DBGPROP_ATTRIB_STORAGE_STATIC  
- 정적 저장소를 나타냅니다.  
+ 정적 스토리지를 나타냅니다.  
   
  DBGPROP_ATTRIB_STORAGE_FIELD  
  속성인 개체를 나타냅니다.  
   
  DBGPROP_ATTRIB_STORAGE_VIRTUAL  
- 가상 저장소를 나타냅니다.  
+ 가상 스토리지를 나타냅니다.  
   
  DBGPROP_ATTRIB_TYPE_IS_CONSTANT  
  개체 형식이 상수임을 나타냅니다.  
@@ -98,7 +98,7 @@ DBGPROP_ATTRIB_NO_ATTRIB  =0x00000000,
  이 슬롯이 스레드와 동기화되어 있음을 나타냅니다.  
   
  DBGPROP_ATTRIB_TYPE_IS_VOLATILE  
- 이 슬롯이 영구 저장소에 대해 일시적임을 나타냅니다.  
+ 이 슬롯이 영구 스토리지에 대해 일시적임을 나타냅니다.  
   
  DBGPROP_ATTRIB_HAS_EXTENDED_ATTRIBS  
  이 슬롯에 이러한 미리 정의된 비트 이상의 추가 특성이 있음을 나타냅니다.  

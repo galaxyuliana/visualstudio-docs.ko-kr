@@ -28,7 +28,7 @@ ms.locfileid: "65685370"
  `Icon` 속성은 **프로젝트 디자이너**의 **응용 프로그램** 창에서 액세스할 수 있습니다. 이 속성에는 리소스나 콘텐츠 파일로 프로젝트에 추가된 아이콘 목록이 포함되어 있습니다.  
   
 > [!NOTE]
-> 애플리케이션에 대한 아이콘 속성을 설정한 후에는 애플리케이션에서 각 **창** 또는 **폼**의 `Icon` 속성도 설정할 수 있습니다. WPF(Windows Presentation Foundation) 독립 실행형 응용 프로그램의 창 아이콘에 대한 자세한 내용은 <xref:System.Windows.Window.Icon%2A>속성을 참조하세요.  
+> 애플리케이션에 대한 아이콘 속성을 설정한 후에는 애플리케이션에서 각 **창** 또는 **폼**의 `Icon` 속성도 설정할 수 있습니다. WPF(Windows Presentation Foundation) 독립 실행형 애플리케이션의 창 아이콘에 대한 자세한 내용은 <xref:System.Windows.Window.Icon%2A>속성을 참조하세요.  
   
 ### <a name="to-specify-an-application-icon"></a>애플리케이션 아이콘을 지정하려면  
   

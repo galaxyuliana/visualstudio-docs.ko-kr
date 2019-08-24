@@ -35,7 +35,7 @@ Visual Studio의 UML API를 사용 하 여 UML 모델 및 다이어그램을 만
 |[트랜잭션을 사용하여 UML 모델 업데이트 연결](../modeling/link-uml-model-updates-by-using-transactions.md)|ILinkedUndoContext|일련의 변경을 하나의 트랜잭션으로 연결할 수 있습니다.|
 |[모델링 다이어그램의 메뉴 명령 정의](../modeling/define-a-menu-command-on-a-modeling-diagram.md)|IMenuCommand<br /><br /> IGestureExtension<br /><br /> ICommandExtension|두 번 클릭하여 호출되는 명령을 정의하고 다이어그램으로 끌어서 다이어그램 기능을 확장할 수 있습니다.|
 |[UML 모델에 대한 유효성 검사 제약 조건 정의](../modeling/define-validation-constraints-for-uml-models.md)|ValidationContext|모델이 지정된 제약 조건을 준수하는지 확인하도록 도와주는 유효성 검사 규칙을 정의할 수 있습니다.|
-|[IDataObject에서 UML 모델 요소 가져오기](../modeling/get-uml-model-elements-from-idataobject.md)|IElement, IShape|UML 모델 탐색기 또는 UML 다이어그램에서 다른 다이어그램 또는 응용 프로그램으로 요소를 끌어 놓으면 요소가 IDataObject로 serialize됩니다.|
+|[IDataObject에서 UML 모델 요소 가져오기](../modeling/get-uml-model-elements-from-idataobject.md)|IElement, IShape|UML 모델 탐색기 또는 UML 다이어그램에서 다른 다이어그램 또는 애플리케이션으로 요소를 끌어 놓으면 요소가 IDataObject로 serialize됩니다.|
 |[UML API를 사용하여 UML 시퀀스 다이어그램 편집](../modeling/edit-uml-sequence-diagrams-by-using-the-uml-api.md)|IInteraction, ILifeline, IMessage|상호 작용 다이어그램을 만들고 업데이트하는 작업은 다른 다이어그램 형식으로 작업하는 것과 약간 다릅니다.|
 |[레이어 다이어그램 확장](../modeling/extend-layer-diagrams.md)|ILayer, ILayerDiagram|레이어 다이어그램을 만들고 편집하는 코드를 작성하고 이 코드를 기준으로 프로그램 코드의 유효성을 검사할 수 있습니다.|
 

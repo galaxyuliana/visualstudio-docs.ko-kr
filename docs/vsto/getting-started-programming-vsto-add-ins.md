@@ -23,20 +23,20 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62788782"
 ---
 # <a name="get-started-programming-vsto-add-ins"></a>VSTO 추가 기능 프로그래밍 시작
-  VSTO 추가 기능을 사용하여 Microsoft Office 응용 프로그램을 자동화하고 응용 프로그램의 기능을 확장할 수 있으며 응용 프로그램의 UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. Visual Studio를 사용 하 여 만들 수 있는 다른 유형의 Office 솔루션에 VSTO 추가 기능을 비교 하는 방법에 대 한 정보를 참조 하세요 [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.
+  VSTO 추가 기능을 사용하여 Microsoft Office 애플리케이션을 자동화하고 애플리케이션의 기능을 확장할 수 있으며 애플리케이션의 UI(사용자 인터페이스)를 사용자 지정할 수 있습니다. Visual Studio를 사용 하 여 만들 수 있는 다른 유형의 Office 솔루션에 VSTO 추가 기능을 비교 하는 방법에 대 한 정보를 참조 하세요 [Office 솔루션 개발 개요 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)합니다.
 
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]
 
 ## <a name="create-vsto-add-in-projects"></a>VSTO 추가 기능 프로젝트 만들기
- VSTO 추가 기능 프로젝트 템플릿 중 하나를 사용 하 여 VSTO 추가 기능 프로젝트 만들기를 **새 프로젝트** 대화 상자. 이러한 템플릿에는 필요한 어셈블리 참조 및 프로젝트 파일이 포함되어 있습니다. Visual Studio에서는 대부분의 Office 응용 프로그램용 VSTO 추가 기능 프로젝트 템플릿을 제공합니다.
+ VSTO 추가 기능 프로젝트 템플릿 중 하나를 사용 하 여 VSTO 추가 기능 프로젝트 만들기를 **새 프로젝트** 대화 상자. 이러한 템플릿에는 필요한 어셈블리 참조 및 프로젝트 파일이 포함되어 있습니다. Visual Studio에서는 대부분의 Office 애플리케이션용 VSTO 추가 기능 프로젝트 템플릿을 제공합니다.
 
  VSTO 추가 기능 프로젝트를 만드는 방법에 대 한 자세한 내용은 참조 하세요. [방법: Visual Studio에서 Office 프로젝트 만들기](../vsto/how-to-create-office-projects-in-visual-studio.md)합니다. 프로젝트 템플릿에 대 한 자세한 내용은 참조 하세요. [Office 프로젝트 템플릿 개요](../vsto/office-project-templates-overview.md)합니다.
 
 ## <a name="develop-vsto-add-in-projects"></a>VSTO 추가 기능 프로젝트를 개발 합니다.
- Visual Studio 자동으로 만드는 VSTO 추가 기능 프로젝트를 만들면 사용자는 *ThisAddIn.vb* (에서 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) 또는 *ThisAddIn.cs* (C#) 코드 파일. 이 파일에 포함 된 `ThisAddIn` VSTO 추가 기능에 대 한 기초를 제공 하는 클래스입니다. 이 클래스의 멤버를 사용하여 VSTO 추가 기능이 로드되거나 언로드될 때 코드를 실행하고, 호스트 응용 프로그램의 개체 모델에 액세스하고, 응용 프로그램의 기능을 확장할 수 있습니다. 자세한 내용은 [프로그램 VSTO Add-ins](../vsto/programming-vsto-add-ins.md)합니다.
+ Visual Studio 자동으로 만드는 VSTO 추가 기능 프로젝트를 만들면 사용자는 *ThisAddIn.vb* (에서 [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) 또는 *ThisAddIn.cs* (C#) 코드 파일. 이 파일에 포함 된 `ThisAddIn` VSTO 추가 기능에 대 한 기초를 제공 하는 클래스입니다. 이 클래스의 멤버를 사용하여 VSTO 추가 기능이 로드되거나 언로드될 때 코드를 실행하고, 호스트 애플리케이션의 개체 모델에 액세스하고, 애플리케이션의 기능을 확장할 수 있습니다. 자세한 내용은 [프로그램 VSTO Add-ins](../vsto/programming-vsto-add-ins.md)합니다.
 
 ## <a name="automate-applications-by-using-the-object-models"></a>개체 모델을 사용 하 여 응용 프로그램을 자동화 합니다.
- Microsoft Office 응용 프로그램의 개체 모델은 VSTO 추가 기능에서 프로그래밍의 대상이 될 수 있는 많은 형식을 노출합니다. 이러한 형식을 사용하여 응용 프로그램을 자동화할 수 있습니다. 예를 들어 프로그래밍 방식으로 Outlook에서 메일 메시지를 만들고 보내거나, 문서를 열고 Word에서 콘텐츠를 추가할 수 있습니다. 코드에서 호스트 응용 프로그램의 개체 모델에 액세스 하는 방법에 대 한 자세한 내용은 참조 하세요. [프로그램 VSTO Add-ins](../vsto/programming-vsto-add-ins.md)합니다.
+ Microsoft Office 애플리케이션의 개체 모델은 VSTO 추가 기능에서 프로그래밍의 대상이 될 수 있는 많은 형식을 노출합니다. 이러한 형식을 사용하여 애플리케이션을 자동화할 수 있습니다. 예를 들어 프로그래밍 방식으로 Outlook에서 메일 메시지를 만들고 보내거나, 문서를 열고 Word에서 콘텐츠를 추가할 수 있습니다. 코드에서 호스트 응용 프로그램의 개체 모델에 액세스 하는 방법에 대 한 자세한 내용은 참조 하세요. [프로그램 VSTO Add-ins](../vsto/programming-vsto-add-ins.md)합니다.
 
  특정 Microsoft Office 애플리케이션의 개체 모델에 대한 자세한 내용은 다음 항목을 참조하세요.
 
@@ -59,13 +59,13 @@ ms.locfileid: "62788782"
 
 - Excel과 Word의 경우 문서에 관리되는 컨트롤을 추가할 수 있습니다. 자세한 내용은 [확장 Word 문서 및 Excel 통합 런타임에 VSTO 추가 기능에서](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)합니다.
 
-- 응용 프로그램이 지원하는 경우 리본을 사용자 지정할 수 있습니다. 자세한 내용은 [리본 개요](../vsto/ribbon-overview.md)합니다.
+- 애플리케이션이 지원하는 경우 리본을 사용자 지정할 수 있습니다. 자세한 내용은 [리본 개요](../vsto/ribbon-overview.md)합니다.
 
-- 응용 프로그램이 지원하는 경우 사용자 지정 작업창을 만들 수 있습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
+- 애플리케이션이 지원하는 경우 사용자 지정 작업창을 만들 수 있습니다. 자세한 내용은 [사용자 지정 작업창](../vsto/custom-task-panes.md)합니다.
 
 - Outlook의 경우 사용자 지정 양식 영역을 만들 수 있습니다. 자세한 내용은 [만들 Outlook 양식 영역](../vsto/creating-outlook-form-regions.md)합니다.
 
-- 모든 Microsoft Office 응용 프로그램의 경우 VSTO 추가 기능에서 Windows Forms를 표시할 수 있습니다.
+- 모든 Microsoft Office 애플리케이션의 경우 VSTO 추가 기능에서 Windows Forms를 표시할 수 있습니다.
 
   UI의 Microsoft Office 응용 프로그램을 사용자 지정 하는 방법에 대 한 자세한 내용은 참조 하세요. [Office UI 사용자 지정](../vsto/office-ui-customization.md)합니다.
 

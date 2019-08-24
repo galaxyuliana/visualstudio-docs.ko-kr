@@ -33,17 +33,17 @@ ms.locfileid: "68205409"
 # <a name="how-to-debug-com-servers"></a>방법: COM 서버 디버그
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-COM 서버 응용 프로그램을 디버깅할 경우 쉽게 해결할 수 없는 몇 가지 문제가 발생합니다.  
+COM 서버 애플리케이션을 디버깅할 경우 쉽게 해결할 수 없는 몇 가지 문제가 발생합니다.  
   
- 컨테이너 응용 프로그램에 대한 디버깅 정보가 없거나 필요하지 않은 경우에는 다음 3단계 절차를 통해 서버 응용 프로그램 디버깅을 시작할 수 있습니다.  
+ 컨테이너 애플리케이션에 대한 디버깅 정보가 없거나 필요하지 않은 경우에는 다음 3단계 절차를 통해 서버 애플리케이션 디버깅을 시작할 수 있습니다.  
   
-### <a name="to-debug-a-server-application-without-container-information"></a>컨테이너 정보 없이 서버 응용 프로그램을 디버깅하려면  
+### <a name="to-debug-a-server-application-without-container-information"></a>컨테이너 정보 없이 서버 애플리케이션을 디버깅하려면  
   
-1. 일반적인 응용 프로그램처럼 서버 디버깅을 시작합니다.  
+1. 일반적인 애플리케이션처럼 서버 디버깅을 시작합니다.  
   
 2. 원하는 대로 중단점을 설정합니다.  
   
-3. 컨테이너 응용 프로그램을 시작합니다.  
+3. 컨테이너 애플리케이션을 시작합니다.  
   
 ## <a name="see-also"></a>관련 항목  
  [COM 및 ActiveX 디버깅](../debugger/com-and-activex-debugging.md)   

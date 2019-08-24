@@ -24,7 +24,7 @@ ms.locfileid: "65615643"
 # <a name="walkthrough-creating-a-simple-wcf-service-in-windows-forms"></a>연습: Windows Forms에서 간단한 WCF 서비스 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 간단한 [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] 서비스를 만들고 테스트한 다음 Windows Forms 응용 프로그램에서 액세스하는 방법을 보여 줍니다.
+이 연습에서는 간단한 [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] 서비스를 만들고 테스트한 다음 Windows Forms 애플리케이션에서 액세스하는 방법을 보여 줍니다.
 
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]
 
@@ -39,7 +39,7 @@ ms.locfileid: "65615643"
      ![WCF 서비스 라이브러리 프로젝트](../data-tools/media/wcf1.PNG "wcf1")
 
     > [!NOTE]
-    > 이렇게 하면 테스트 및 액세스할 수 있는 작업 서비스가 만들어집니다. 다음 두 단계는 다른 데이터 형식을 사용하도록 기본 메서드를 수정하는 방법을 보여 줍니다. 실제 응용 프로그램에서는 서비스에 사용자 고유의 함수를 추가할 수도 있습니다.
+    > 이렇게 하면 테스트 및 액세스할 수 있는 작업 서비스가 만들어집니다. 다음 두 단계는 다른 데이터 형식을 사용하도록 기본 메서드를 수정하는 방법을 보여 줍니다. 실제 애플리케이션에서는 서비스에 사용자 고유의 함수를 추가할 수도 있습니다.
 
 3. ![IService1 파일](../data-tools/media/wcf2.png "wcf2")
 
@@ -107,7 +107,7 @@ ms.locfileid: "65615643"
 
 5. **확인**을 클릭하여 서비스 참조를 추가합니다.
 
-#### <a name="to-build-a-client-application"></a>클라이언트 응용 프로그램을 빌드하려면
+#### <a name="to-build-a-client-application"></a>클라이언트 애플리케이션을 빌드하려면
 
 1. Windows Forms 디자이너를 아직 열지 않은 경우 **솔루션 탐색기**에서 **Form1.vb** 또는 **Form1.cs**을 두 번 클릭하여 엽니다.
 

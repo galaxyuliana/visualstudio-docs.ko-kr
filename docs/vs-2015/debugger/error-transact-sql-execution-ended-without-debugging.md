@@ -33,13 +33,13 @@ ms.locfileid: "65681069"
   
  다음 두 가지 계정과 관련이 있습니다.  
   
-- 응용 프로그램 계정은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]가 실행되는 사용자 계정입니다.  
+- 애플리케이션 계정은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]가 실행되는 사용자 계정입니다.  
   
 - 연결 계정은 SQL Server에 연결하는 데 사용되는 ID입니다. 연결에서 SQL 인증을 사용하는 경우에는 이 ID가 Visual Studio가 실행되는 ID와 달라도 무방합니다.  
   
-  SQL 디버깅을 수행하려면 응용 프로그램 계정이 연결 계정과 일치하거나 sysadmin이어야 합니다.  
+  SQL 디버깅을 수행하려면 애플리케이션 계정이 연결 계정과 일치하거나 sysadmin이어야 합니다.  
   
-  sa 같은 SQL 로그인을 사용하는 경우 응용 프로그램 계정은 SQL Server에서 sysadmin으로 설정되어 있어야 합니다. 기본적으로 SQL Server가 실행되고 있는 컴퓨터의 관리자는 SQL Server sysadmin입니다.  
+  sa 같은 SQL 로그인을 사용하는 경우 애플리케이션 계정은 SQL Server에서 sysadmin으로 설정되어 있어야 합니다. 기본적으로 SQL Server가 실행되고 있는 컴퓨터의 관리자는 SQL Server sysadmin입니다.  
   
   이 오류를 해결하려면 다음 작업을 수행해야 합니다.  
   

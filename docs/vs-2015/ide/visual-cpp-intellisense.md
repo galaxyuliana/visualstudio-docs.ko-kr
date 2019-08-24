@@ -62,7 +62,7 @@ Visual Studio 2015에서 IntelliSense는 프로젝트의 파일과 단일 코드
 ## <a name="cross-platform-intellisense"></a>플랫폼 간 IntelliSense  
  공유 코드 프로젝트에서 표시선과 같은 일부 IntelliSense 기능은 Android 컨텍스트에서 작업하는 경우에도 사용할 수 있습니다. 비활성 프로젝트에서 오류가 발생하는 일부 코드를 작성하는 경우에도 IntelliSense에서 표시선을 표시하지만 현재 컨텍스트의 오류 표시선과 다른 색으로 표시됩니다.  
   
- 다음은 Android 및 iOS를 위해 빌드하도록 구성된 OpenGLES 응용 프로그램입니다. 다음 그림은 편집 중인 공유 코드를 보여 줍니다. 첫 번째 이미지에서는 Android가 활성 프로젝트입니다.  
+ 다음은 Android 및 iOS를 위해 빌드하도록 구성된 OpenGLES 애플리케이션입니다. 다음 그림은 편집 중인 공유 코드를 보여 줍니다. 첫 번째 이미지에서는 Android가 활성 프로젝트입니다.  
   
  ![Android 프로젝트는 활성 프로젝트입니다.](../ide/media/intellisensecppcrossplatform.png "IntelliSenseCppCrossPlatform")  
   
@@ -80,7 +80,7 @@ Visual Studio 2015에서 IntelliSense는 프로젝트의 파일과 단일 코드
   
   다음 사항을 참고하십시오.  
   
-- *_ANDROID\\*\_가 iOS 프로젝트에 대해 정의되지 않았으므로 6줄 #ifdef 분기가 회색으로 표시되어 비활성 지역을 나타냅니다.  
+- *_ANDROID\\* \_가 iOS 프로젝트에 대해 정의되지 않았으므로 6줄 #ifdef 분기가 회색으로 표시되어 비활성 지역을 나타냅니다.  
   
 - 11줄의 인사말 변수는 HELLO 식별자로 초기화되어 이제 빨간색 물결 기호가 표시되었습니다. 이는 HELLO 식별자가 현재 활성 iOS 프로젝트에 정의되어 있지 않기 때문입니다.  
   

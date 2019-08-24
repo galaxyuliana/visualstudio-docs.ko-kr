@@ -32,7 +32,7 @@ CPython 기반 인터프리터를 사용하는 경우 Python 애플리케이션�
 ![프로파일링 성능 보고서](media/profiling-results.png)
 
 > [!Note]
-> 현재 Visual Studio는 이 수준의 전체 응용 프로그램 프로파일링만 지원하지만 향후 기능에 대한 여러분의 피드백을 보내 주시기 바랍니다. 이 페이지 아래쪽에 있는 **제품 피드백** 단추를 사용하세요.
+> 현재 Visual Studio는 이 수준의 전체 애플리케이션 프로파일링만 지원하지만 향후 기능에 대한 여러분의 피드백을 보내 주시기 바랍니다. 이 페이지 아래쪽에 있는 **제품 피드백** 단추를 사용하세요.
 
 ## <a name="profiling-for-ironpython"></a>IronPython에 대한 프로파일링
 

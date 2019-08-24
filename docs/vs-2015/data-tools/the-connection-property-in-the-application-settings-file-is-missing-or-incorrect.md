@@ -16,16 +16,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/15/2019
 ms.locfileid: "65697681"
 ---
-# <a name="the-connection-property-in-the-application-settings-file-is-missing-or-incorrect"></a>응용 프로그램 설정 파일에서 연결 속성이 없거나 잘못되었습니다.
+# <a name="the-connection-property-in-the-application-settings-file-is-missing-or-incorrect"></a>애플리케이션 설정 파일에서 연결 속성이 없거나 잘못되었습니다.
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-응용 프로그램 설정 파일의 연결 속성이 없거나 잘못되었습니다. .dbml 파일의 연결 문자열이 대신 사용되었습니다.  
+애플리케이션 설정 파일의 연결 속성이 없거나 잘못되었습니다. .dbml 파일의 연결 문자열이 대신 사용되었습니다.  
   
- .dbml 파일에는 찾을 수 없는 응용 프로그램 설정 파일의 연결 문자열에 대한 참조가 포함되어 있습니다. 이 메시지는 정보 제공을 위한 것이며 **확인**을 클릭할 때 연결 문자열 설정이 만들어집니다.  
+ .dbml 파일에는 찾을 수 없는 애플리케이션 설정 파일의 연결 문자열에 대한 참조가 포함되어 있습니다. 이 메시지는 정보 제공을 위한 것이며 **확인**을 클릭할 때 연결 문자열 설정이 만들어집니다.  
   
 ### <a name="to-respond-to-this-message"></a>이 메시지에 응답하려면  
   
-- **확인**을 클릭합니다. .dbml 파일에 포함된 연결 정보는 응용 프로그램 설정에 추가됩니다.  
+- **확인**을 클릭합니다. .dbml 파일에 포함된 연결 정보는 애플리케이션 설정에 추가됩니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [LINQ to SQL 도구 Visual Studio에서](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   

@@ -34,8 +34,8 @@ Visual Studio 2019를 사용하면 모든 개발자, 앱 및 플랫폼을 위한
 다음은 새로운 기능에 대한 간략한 요약입니다.
 
 * **[개발](#develop)** : 향상된 성능, 인스턴트 코드 정리, 더 나은 검색 결과를 사용하여 계속 집중하고 생산성을 유지합니다.
-* **[공동 작업](#collaborate)** : Git 우선 워크플로, 실시간 편집 및 디버깅, Visual Studio에서 바로 코드 검토를 사용하여 자연스럽게 공동 작업합니다.
-* **[디버그](#debug)** : 특정 값을 강조 표시하여 탐색하고, 메모리 사용을 최적화하며, 애플리케이션 실행의 자동 스냅숏을 만듭니다.
+* **[공동 작업](#collaborate)** : Git 우선 워크플로, 실시간 편집 및 디버깅, Visual Studio에서 바로 코드 검토를 사용하여 자연스럽게 협업합니다.
+* **[디버그](#debug)** : 특정 값을 강조 표시하여 탐색하고, 메모리 사용을 최적화하며, 애플리케이션 실행의 자동 스냅샷을 만듭니다.
 
 이 버전에 포함된 모든 새로운 기능의 전체 목록은 [릴리스 정보](/visualstudio/releases/2019/release-notes/)를 참조하세요.
 
@@ -130,11 +130,11 @@ Visual Studio 2019를 열면 새 시작 창이 표시됩니다.
 
 ### <a name="live-share"></a>Live Share
 
-[Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/)는 Visual Studio 내에서 바로 코드베이스와 컨텍스트를 팀원과 공유하고 즉각적인 양방향 공동 작업을 수행할 수 있는 개발자 서비스입니다. 실시간 공유를 사용하면 귀하가 공유한 프로젝트를 팀원이 원활하고 안전하게 읽고, 탐색하고, 편집하고, 디버깅할 수 있습니다.
+[Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/)는 Visual Studio 내에서 바로 코드베이스와 컨텍스트를 팀원과 공유하고 즉각적인 양방향 협업을 수행할 수 있는 개발자 서비스입니다. 실시간 공유를 사용하면 귀하가 공유한 프로젝트를 팀원이 원활하고 안전하게 읽고, 탐색하고, 편집하고, 디버깅할 수 있습니다.
 
 그리고 Visual Studio 2019를 사용하면 이 서비스가 기본적으로 설치됩니다.
 
-![Visual Studio 2019의 Live Share 공동 작업 기능을 보여 주는 애니메이션](media/vs-2019/live-share.gif)
+![Visual Studio 2019의 Live Share 협업 기능을 보여 주는 애니메이션](media/vs-2019/live-share.gif)
 
 자세한 내용은 [Visual Studio Live Share for real-time code reviews and interactive education](https://devblogs.microsoft.com/visualstudio/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/)(실시간 코드 검토 및 대화형 교육을 위한 Visual Studio Live Share) 블로그 게시물 및 [Live Share now included with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/live-share-now-included-with-visual-studio-2019/)(이제 Live Share가 Visual Studio 2019에 포함됨) 블로그 게시물을 참조하세요.
 
@@ -174,15 +174,15 @@ Visual Studio 2019를 열면 새 시작 창이 표시됩니다.
 
 자세한 내용은 [Visual Studio 2019의 향상된 기능: 조사식, 자동 및 지역 Windows의 개체와 속성 검색](https://devblogs.microsoft.com/visualstudio/enhanced-in-visual-studio-2019-search-for-objects-and-properties-in-the-watch-autos-and-locals-windows/) 블로그 게시물을 참조하세요.
 
-### <a name="snapshot-debugger"></a>스냅숏 디버거
+### <a name="snapshot-debugger"></a>스냅샷 디버거
 
-클라우드의 앱 실행 스냅숏을 가져와 진행 상황을 정확하게 확인합니다. 이 기능은 Visual Studio Enterprise에서만 사용할 수 있습니다.
+클라우드의 앱 실행 스냅샷을 가져와 진행 상황을 정확하게 확인합니다. 이 기능은 Visual Studio Enterprise에서만 사용할 수 있습니다.
 
-   ![Visual Studio 2019 Enterprise의 스냅숏 디버거를 보여 주는 애니메이션](media/vs-2019/snapshot-debugger.gif)
+   ![Visual Studio 2019 Enterprise의 스냅샷 디버거를 보여 주는 애니메이션](media/vs-2019/snapshot-debugger.gif)
 
 Azure VM에서 실행되는 ASP.NET(Core 및 데스크톱) 애플리케이션을 대상으로 지정하는 지원이 추가되었습니다. 또한 Azure Kubernetes Service에서 실행되는 애플리케이션에 대한 지원이 추가되었습니다. 스냅샷 디버거를 사용하면 프로덕션 환경에서 발생하는 문제를 해결하는 데 걸리는 시간을 상당히 줄일 수 있습니다.
 
-자세한 내용은 [스냅숏 디버거를 사용하여 라이브 ASP.NET Azure 앱 디버그](../debugger/debug-live-azure-applications.md) 페이지와 [Introducing Time Travel Debugging for Visual Studio Enterprise 2019](https://devblogs.microsoft.com/visualstudio/introducing-time-travel-debugging-for-visual-studio-enterprise-2019/)(Visual Studio Enterprise 2019의 시간 이동 디버깅 소개) 블로그 게시물을 참조하세요.
+자세한 내용은 [스냅샷 디버거를 사용하여 라이브 ASP.NET Azure 앱 디버그](../debugger/debug-live-azure-applications.md) 페이지와 [Introducing Time Travel Debugging for Visual Studio Enterprise 2019](https://devblogs.microsoft.com/visualstudio/introducing-time-travel-debugging-for-visual-studio-enterprise-2019/)(Visual Studio Enterprise 2019의 시간 이동 디버깅 소개) 블로그 게시물을 참조하세요.
 
 ### <a name="microsoft-edge-insider-support"></a>Microsoft Edge Insider 지원
 

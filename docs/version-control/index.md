@@ -21,7 +21,7 @@ ms.locfileid: "67160018"
 ---
 # <a name="version-control-in-visual-studio"></a>Visual Studio의 버전 제어
 
-버전 제어 시스템을 사용하면 시간에 따른 코드 변경 내용을 추적하는 데 도움이 됩니다. 변경하면 버전 제어 시스템이 파일의 스냅숏을 작성합니다. 버전 제어 시스템에서는 이 스냅숏을 영구 저장하므로 필요할 때 불러올 수 있습니다. Visual Studio는 [Git](/azure/devops/repos/git/index?view=vsts) 및 [TFVC(Team Foundation 버전 제어)](/azure/devops/repos/tfvc/index?view=vsts)를 제공합니다. 두 시스템 중에서 결정하려면 [프로젝트에 대해 올바른 버전 제어 선택](/azure/devops/repos/tfvc/comparison-git-tfvc?toc=/visualstudio/version-control/toc.json&bc=/azure/devops/repos/git/breadcrumb/vc/toc.json)을 참조하세요.
+버전 제어 시스템을 사용하면 시간에 따른 코드 변경 내용을 추적하는 데 도움이 됩니다. 변경하면 버전 제어 시스템이 파일의 스냅샷을 작성합니다. 버전 제어 시스템에서는 이 스냅샷을 영구 저장하므로 필요할 때 불러올 수 있습니다. Visual Studio는 [Git](/azure/devops/repos/git/index?view=vsts) 및 [TFVC(Team Foundation 버전 제어)](/azure/devops/repos/tfvc/index?view=vsts)를 제공합니다. 두 시스템 중에서 결정하려면 [프로젝트에 대해 올바른 버전 제어 선택](/azure/devops/repos/tfvc/comparison-git-tfvc?toc=/visualstudio/version-control/toc.json&bc=/azure/devops/repos/git/breadcrumb/vc/toc.json)을 참조하세요.
 
 ## <a name="git"></a>Git
 

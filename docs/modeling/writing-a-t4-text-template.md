@@ -238,7 +238,7 @@ private void WriteSquareLine(int i)
 
  **탐색 가능한 모델로 파일을 로드**합니다. 즉, 텍스트 템플릿 코드가 탐색할 수 있는 모델로 데이터를 읽는 보다 효율적인 방식을 사용할 수 있습니다. 예를 들어 XML 파일을 로드한 다음 XPath 식을 사용하여 탐색할 수 있습니다. 사용할 수도 있습니다 [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765) XML 데이터를 읽을 수 있는 클래스 집합을 만들려고 합니다.
 
- **다이어그램 또는 폼에서 모델 파일을 편집 합니다.** [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] 모델을 다이어그램 또는 Windows form으로 편집할 수 있는 도구를 제공 합니다. 그러면 생성된 응용 프로그램의 사용자와 모델에 대해 보다 쉽게 논의할 수 있습니다. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]에서는 모델 구조를 반영하는 강력한 형식의 클래스 집합도 만듭니다. 자세한 내용은 [도메인별 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md)합니다.
+ **다이어그램 또는 폼에서 모델 파일을 편집 합니다.** [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] 모델을 다이어그램 또는 Windows form으로 편집할 수 있는 도구를 제공 합니다. 그러면 생성된 애플리케이션의 사용자와 모델에 대해 보다 쉽게 논의할 수 있습니다. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]에서는 모델 구조를 반영하는 강력한 형식의 클래스 집합도 만듭니다. 자세한 내용은 [도메인별 언어에서 코드 생성](../modeling/generating-code-from-a-domain-specific-language.md)합니다.
 
 ### <a name="relative-file-paths-in-design-time-templates"></a>디자인 타임 템플릿의 상대 파일 경로
  에 [디자인 타임 텍스트 템플릿](../modeling/design-time-code-generation-by-using-t4-text-templates.md)사용 하 여 텍스트 템플릿에 상대적인 위치에 파일을 참조 하려는 경우, `this.Host.ResolvePath()`합니다. 또한 `hostspecific="true"` 지시문에서 `template`도 설정해야 합니다.

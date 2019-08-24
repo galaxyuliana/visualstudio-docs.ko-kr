@@ -34,13 +34,13 @@ Debugging isn't possible because a kernel debugger is enabled on the system
 
 - 디버그 모드에서 시작된 [!INCLUDE[win7](../debugger/includes/win7_md.md)] 또는 [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)] 시스템에서 디버깅하는 경우
 
-- 응용 프로그램에서 CLR 버전 CLR 2.0, 3.0 또는 3.5를 사용하는 경우
+- 애플리케이션에서 CLR 버전 CLR 2.0, 3.0 또는 3.5를 사용하는 경우
 
 ## <a name="solution"></a>솔루션
 
 #### <a name="to-fix-this-problem"></a>이 문제를 해결하려면
 
-- CLR 버전 4.0 또는 4.5를 사용하도록 응용 프로그램을 업그레이드합니다.
+- CLR 버전 4.0 또는 4.5를 사용하도록 애플리케이션을 업그레이드합니다.
 
    또는
 

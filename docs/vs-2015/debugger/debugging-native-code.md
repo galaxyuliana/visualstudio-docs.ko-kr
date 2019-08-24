@@ -32,7 +32,7 @@ ms.locfileid: "68196415"
 # <a name="debugging-native-code"></a>네이티브 코드 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 단원에서는 네이티브 응용 프로그램의 몇 가지 일반적인 디버깅 문제와 기술에 대해 설명합니다. 이 단원에서 설명하는 기술은 높은 수준의 기술입니다. Visual Studio 디버거를 사용 하는 방법은 참조 하세요 [디버거 로드맵](../debugger/debugger-basics.md)합니다.  
+이 단원에서는 네이티브 애플리케이션의 몇 가지 일반적인 디버깅 문제와 기술에 대해 설명합니다. 이 단원에서 설명하는 기술은 높은 수준의 기술입니다. Visual Studio 디버거를 사용 하는 방법은 참조 하세요 [디버거 로드맵](../debugger/debugger-basics.md)합니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [방법: 최적화된 코드 디버그](../debugger/how-to-debug-optimized-code.md)  
@@ -57,7 +57,7 @@ ms.locfileid: "68196415"
  Visual C++ 프로그램의 디버깅에 대한 질문과 대답을 제공합니다.  
   
  [COM 및 ActiveX 디버깅](../debugger/com-and-activex-debugging.md)  
- COM 및 ActiveX 디버깅에 사용할 수 있는 도구와 COM 및 ActiveX 응용 프로그램 디버깅에 대한 정보를 제공합니다.  
+ COM 및 ActiveX 디버깅에 사용할 수 있는 도구와 COM 및 ActiveX 애플리케이션 디버깅에 대한 정보를 제공합니다.  
   
  [방법: 네이티브 DLL 디버그](../debugger/how-to-debug-native-dlls.md)  
  네이티브 코드에서 DLL 디버깅 설정 방법에 대해 설명합니다.  

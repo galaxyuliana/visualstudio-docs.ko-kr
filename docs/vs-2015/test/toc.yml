@@ -138,7 +138,7 @@
                   href: sample-excel-extension-actionfilter-class.md
         - name: Visual Studio 2010에서 코딩된 UI 테스트 업그레이드
           href: upgrading-coded-ui-tests-from-visual-studio-2010.md
-    - name: 응용 프로그램 품질 분석
+    - name: 애플리케이션 품질 분석
       href: ../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md
     - name: 품질 도구 문제 해결
       items:

@@ -46,7 +46,7 @@ ms.locfileid: "65703822"
   
 ### <a name="create-a-parameterized-query-while-designing-a-data-bound-form"></a>데이터 바인딩된 폼을 디자인 하는 동안 매개 변수가 있는 쿼리 만들기  
   
-1. 데이터 집합에 이미 바인딩되어 있는 폼의 컨트롤을 선택합니다. 자세한 내용은 [Visual Studio에서 데이터 바인딩 Windows Forms 컨트롤](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)합니다.  
+1. 데이터 세트에 이미 바인딩되어 있는 폼의 컨트롤을 선택합니다. 자세한 내용은 [Visual Studio에서 데이터 바인딩 Windows Forms 컨트롤](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)합니다.  
   
 2. 에 **데이터** 메뉴에서**쿼리 추가**합니다.  
   
@@ -93,7 +93,7 @@ TableAdapter에 대 한 쿼리 인 경우 다음 코드를 사용 하 여 운송
   
 1. 에 **데이터 집합 디자이너**, null 매개 변수 값을 허용 해야 하는 TableAdapter 쿼리를 선택 합니다.  
   
-2. 에 **속성** 창에서 **매개 변수**합니다. 줄임표를 누릅니다 (**...** ) 버튼을 클릭 하 여 **매개 변수 컬렉션 편집기**합니다.  
+2. 에 **속성** 창에서 **매개 변수**합니다. 줄임표를 누릅니다 ( **...** ) 버튼을 클릭 하 여 **매개 변수 컬렉션 편집기**합니다.  
   
 3. Null 값을 허용 하는 매개 변수를 선택 하 고 설정 합니다 **AllowDbNull** 속성을 `true`입니다.  
   

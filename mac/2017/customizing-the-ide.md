@@ -72,13 +72,13 @@ Mac용 Visual Studio에서 표시되는 언어를 변경하려면 다음 이미�
 
 ## <a name="workspace-layout"></a>작업 영역 레이아웃
 
-Mac용 Visual Studio 작업 영역은 문서 주요 기능 영역(일반적으로 편집기나 디자이너 화면, 옵션 파일)을 중심으로 응용 프로그램 파일 액세스 및 관리, 테스트, 디버그에 유용한 정보가 포함된 '패드'들이 부수적으로 배치되어 있습니다.
+Mac용 Visual Studio 작업 영역은 문서 주요 기능 영역(일반적으로 편집기나 디자이너 화면, 옵션 파일)을 중심으로 애플리케이션 파일 액세스 및 관리, 테스트, 디버그에 유용한 정보가 포함된 '패드'들이 부수적으로 배치되어 있습니다. 
 
  ![작업 영역 레이아웃](media/customizing-the-ide-image1a.png)
 
 ### <a name="viewing-and-arranging-pads"></a>패드 보기 및 정렬
 
-Mac용 Visual Studio에서 새 솔루션이나 파일을 열면 Solution Pad, 문서 개요, 오류 등 여러 가지 ‘패드’가 작업 영역에 표시됩니다.
+Mac용 Visual Studio에서 새 솔루션이나 파일을 열면 Solution Pad, 문서 개요, 오류 등 여러 가지 ‘패드’가 작업 영역에 표시됩니다. 
 
 ![Solution Pad](media/customizing-the-ide-image2a.png)
 

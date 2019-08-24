@@ -24,7 +24,7 @@ ms.locfileid: "62548234"
 2. 원격 머신 또는 Batch AI 컴퓨팅 컨텍스트를 확장합니다.
 3. **스토리지**를 마우스 오른쪽 단추로 클릭한 다음, **찾아보기**를 클릭합니다.
 
-    ![storage](media/manage-storage/browse-storage.png)
+    ![스토리지](media/manage-storage/browse-storage.png)
 
 ## <a name="to-access-job-specific-data-on-the-remote-machine-or-file-share"></a>원격 머신 또는 파일 공유에서 작업 관련 데이터에 액세스하려면
 
@@ -32,4 +32,4 @@ ms.locfileid: "62548234"
 2. 작업을 선택합니다.
 3. 이러한 중요 로그 파일에 빠르게 액세스하기 위해 **작업 폴더**를 클릭하거나 **StdOut/Stderr**을 클릭합니다.
 
-    ![storage](media/manage-storage/job-workingfolder.png)
+    ![스토리지](media/manage-storage/job-workingfolder.png)

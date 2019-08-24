@@ -71,7 +71,7 @@ Visual Studio 만듭니다는 *.dbml* 파일을 솔루션에 추가 합니다. �
 
 ## <a name="separate-the-generated-datacontext-and-entity-class-code-into-different-namespaces"></a>생성 된 DataContext와 엔터티 클래스 코드를 다른 네임 스페이스로 분리
 
-**O/R 디자이너** 제공 합니다 **상황에 맞는 Namespace** 및 **엔터티 Namespace** 속성에는 <xref:System.Data.Linq.DataContext>합니다. 이들 속성은 <xref:System.Data.Linq.DataContext> 및 엔터티 클래스 코드가 어떤 네임스페이스로 생성되는지를 결정합니다. 기본적으로 이들 속성은 비어 있으며 <xref:System.Data.Linq.DataContext> 및 엔터티 클래스는 응용 프로그램의 네임스페이스로 생성됩니다. 코드를 애플리케이션의 네임스페이스가 아닌 다른 네임스페이스로 생성하려면 **컨텍스트 네임스페이스** 및/또는 **엔터티 네임스페이스** 속성에 값을 입력합니다.
+**O/R 디자이너** 제공 합니다 **상황에 맞는 Namespace** 및 **엔터티 Namespace** 속성에는 <xref:System.Data.Linq.DataContext>합니다. 이들 속성은 <xref:System.Data.Linq.DataContext> 및 엔터티 클래스 코드가 어떤 네임스페이스로 생성되는지를 결정합니다. 기본적으로 이들 속성은 비어 있으며 <xref:System.Data.Linq.DataContext> 및 엔터티 클래스는 애플리케이션의 네임스페이스로 생성됩니다. 코드를 애플리케이션의 네임스페이스가 아닌 다른 네임스페이스로 생성하려면 **컨텍스트 네임스페이스** 및/또는 **엔터티 네임스페이스** 속성에 값을 입력합니다.
 
 ## <a name="reference-content"></a>참조 콘텐츠
 

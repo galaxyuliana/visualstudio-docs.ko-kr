@@ -1,6 +1,6 @@
-- name: Workflow Designer로 응용 프로그램 개발
+- name: Workflow Designer로 애플리케이션 개발
   items:
-    - name: Workflow Designer로 응용 프로그램 개발
+    - name: Workflow Designer로 애플리케이션 개발
       href: developing-applications-with-the-workflow-designer.md
     - name: 워크플로 디자이너 사용
       items:
@@ -208,9 +208,9 @@
           href: keyboard-shortcuts-in-the-workflow-designer.md
         - name: 오류 메시지
           href: error-messages-in-workflow-designer.md
-    - name: .NET 3.0 또는 .NET 3.5 Framework를 대상으로 하는 워크플로 응용 프로그램 개발
+    - name: .NET 3.0 또는 .NET 3.5 Framework를 대상으로 하는 워크플로 애플리케이션 개발
       items:
-        - name: .NET 3.0 또는 .NET 3.5 Framework를 대상으로 하는 워크플로 응용 프로그램 개발
+        - name: .NET 3.0 또는 .NET 3.5 Framework를 대상으로 하는 워크플로 애플리케이션 개발
           href: developing-workflow-applications-targeting-the-dotnet-3-0-or-dotnet-3-5-framework.md
         - name: 레거시 워크플로 디버깅
           items:

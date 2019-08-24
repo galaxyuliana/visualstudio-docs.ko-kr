@@ -22,7 +22,7 @@ ms.lasthandoff: 06/06/2019
 ms.locfileid: "66746035"
 ---
 # <a name="ltcompatibleframeworksgt-element-clickonce-deployment"></a>&lt;compatibleFrameworks&gt; 요소 (ClickOnce 배포)
-이 응용 프로그램이 설치 및 실행할 수 있는 .NET Framework의 버전을 식별합니다.
+이 애플리케이션이 설치 및 실행할 수 있는 .NET Framework의 버전을 식별합니다.
 
 > [!NOTE]
 > [*MageUI.exe* ](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client) 지원 하지 않습니다는 `compatibleFrameworks` 요소는 응용 프로그램 매니페스트를 저장할 때 사용 하 여 인증서로 서명 된 이미 [ *MageUI.exe*](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)합니다. 대신, [*Mage.exe*](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)를 사용해야 합니다.

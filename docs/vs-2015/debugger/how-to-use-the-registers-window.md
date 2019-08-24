@@ -55,7 +55,7 @@ ms.locfileid: "65697460"
      디버거는 실행 중이거나 중단 모드에 있어야 합니다.  
   
     > [!NOTE]
-    > 스크립트나 SQL 응용 프로그램의 경우에는 레지스터 정보를 사용할 수 없습니다.  
+    > 스크립트나 SQL 애플리케이션의 경우에는 레지스터 정보를 사용할 수 없습니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [디버깅 기본 사항: 레지스터 창](../debugger/debugging-basics-registers-window.md)   

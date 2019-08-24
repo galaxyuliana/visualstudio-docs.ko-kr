@@ -24,7 +24,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "68152838"
 ---
-# <a name="how-clickonce-performs-application-updates"></a>ClickOnce에서 응용 프로그램 업데이트가 수행되는 방식
+# <a name="how-clickonce-performs-application-updates"></a>ClickOnce에서 애플리케이션 업데이트가 수행되는 방식
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 ClickOnce 응용 프로그램의 배포 매니페스트에 지정 된 파일 버전 정보를 사용 하 여 응용 프로그램의 파일을 업데이트할 것인지를 결정 합니다. ClickOnce 라는 기술을 사용 하 여 업데이트가 시작 된 후 *파일을 패치* 응용 프로그램 파일의 중복 다운로드를 방지 합니다.  

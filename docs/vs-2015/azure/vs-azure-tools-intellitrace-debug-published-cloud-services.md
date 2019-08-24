@@ -50,7 +50,7 @@ Azure 애플리케이션에 IntelliTrace를 사용하려면 Visual Studio Azure 
    
     ![IntelliTrace 설정](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC519063.png)
 
-IntelliTrace 로그는 IntelliTrace 설정에 지정된 최대 크기(기본 크기는 250MB)의 순환 로그 파일입니다. IntelliTrace 로그는 가상 머신의 파일 시스템에서 파일에 수집됩니다. 로그를 요청하는 경우 스냅숏이 해당 시점에 수행되며 로컬 컴퓨터에 다운로드됩니다.
+IntelliTrace 로그는 IntelliTrace 설정에 지정된 최대 크기(기본 크기는 250MB)의 순환 로그 파일입니다. IntelliTrace 로그는 가상 머신의 파일 시스템에서 파일에 수집됩니다. 로그를 요청하는 경우 스냅샷이 해당 시점에 수행되며 로컬 컴퓨터에 다운로드됩니다.
 
 Azure 클라우드 서비스를 Azure에 게시한 후 다음 그림에 표시된 것처럼 **서버 탐색기**의 Azure 노드에서 IntelliTrace가 활성화되었는지를 확인할 수 있습니다.
 
@@ -65,7 +65,7 @@ Visual Studio를 사용하여 다음 단계를 통해 역할 인스턴스에 대
 
     ![IntelliTrace 로그 보기 메뉴 옵션](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/view-intellitrace-logs.png)
 
-1. IntelliTrace 로그는 로컬 컴퓨터의 디렉터리에 있는 파일에 다운로드됩니다. IntelliTrace 로그를 요청할 때마다 새 스냅숏이 생성됩니다. 로그가 다운로드되는 경우 Visual Studio는 **Azure 활동 로그** 창에서 작업의 진행률을 표시합니다. 다음 그림에 표시된 것과 같이 작업에 대한 품목을 확장하여 자세한 사항을 볼 수 있습니다.
+1. IntelliTrace 로그는 로컬 컴퓨터의 디렉터리에 있는 파일에 다운로드됩니다. IntelliTrace 로그를 요청할 때마다 새 스냅샷이 생성됩니다. 로그가 다운로드되는 경우 Visual Studio는 **Azure 활동 로그** 창에서 작업의 진행률을 표시합니다. 다음 그림에 표시된 것과 같이 작업에 대한 품목을 확장하여 자세한 사항을 볼 수 있습니다.
 
 ![VST_IntelliTraceDownloadProgress](./media/vs-azure-tools-intellitrace-debug-published-cloud-services/IC745551.png)
 

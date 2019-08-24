@@ -24,7 +24,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "68155705"
 ---
-# <a name="building-clickonce-applications-from-the-command-line"></a>명령줄에서 ClickOnce 응용 프로그램 빌드
+# <a name="building-clickonce-applications-from-the-command-line"></a>명령줄에서 ClickOnce 애플리케이션 빌드
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)], 통합된 개발 환경 (IDE)에서 만들어진 경우에 명령줄에서 프로젝트를 빌드할 수 있습니다. 사용 하 여 만든 프로젝트를 다시 작성할 수는 사실 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] 만 있는 다른 컴퓨터에는 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 설치 합니다. 이 자동화 된 프로세스를 사용 하 여 빌드를 재현할 수 있습니다, 그리고 예를 들어, 중앙 빌드에서 랩 또는 사용 하 여 고급 스크립팅 기술 자체는 프로젝트 빌드 범위를 벗어납니다.  

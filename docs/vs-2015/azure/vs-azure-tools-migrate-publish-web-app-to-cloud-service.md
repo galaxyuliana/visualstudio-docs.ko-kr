@@ -79,10 +79,10 @@ Azure의 호스팅 서비스와 확장 기능을 활용하기 위해 웹 애플�
 
 | 웹 애플리케이션 유형 | Azure에서 실행 |
 | --- | --- |
-| ASP.NET 웹 응용 프로그램<br/>(MVC 2, MVC 3, MVC 4 포함) | **Azure 활동 로그**의 **배포** 탭에서 URL을 선택합니다. |
+| ASP.NET 웹 애플리케이션<br/>(MVC 2, MVC 3, MVC 4 포함) | **Azure 활동 로그**의 **배포** 탭에서 URL을 선택합니다. |
 | ASP.NET 빈 웹 애플리케이션 | 애플리케이션에 기본 `.aspx` 페이지가 있는 경우 **Azure 활동 로그**의 **배포** 탭에서 URL을 선택합니다. 다른 페이지로 이동하려면 브라우저에서 `<deployment_url>/<page_name>.aspx` 양식의 URL을 입력합니다. |
-| Silverlight 응용 프로그램<br/>Silverlight 비즈니스 애플리케이션<br/>Silverlight 탐색 애플리케이션 | `<deployment_url>/<page_name>.aspx` URL 양식을 사용하여 애플리케이션의 특정 페이지로 이동합니다. |
-| WCF Service Application<br/>WCF Workflow 서비스 응용 프로그램 | `.svc` 파일을 WCF 서비스 프로젝트의 시작 페이지로 설정합니다. 그런 다음 `<deployment_url>/<service_file>.svc`로 이동합니다. |
+| Silverlight 애플리케이션<br/>Silverlight 비즈니스 애플리케이션<br/>Silverlight 탐색 애플리케이션 | `<deployment_url>/<page_name>.aspx` URL 양식을 사용하여 애플리케이션의 특정 페이지로 이동합니다. |
+| WCF Service Application<br/>WCF Workflow 서비스 애플리케이션 | `.svc` 파일을 WCF 서비스 프로젝트의 시작 페이지로 설정합니다. 그런 다음 `<deployment_url>/<service_file>.svc`로 이동합니다. |
 | ASP.NET 동적 엔터티<br/>SQL에 대한 ASP.NET Dynamic Data Linq | 다음 섹션의 설명에 따라 연결 문자열을 업데이트합니다. 그런 다음 `<deployment_url>/<page_name>.aspx`로 이동합니다. Linq to SQL의 경우 Azure SQL 데이터베이스를 사용해야 합니다. |
 
 ## <a name="update-a-connection-string-for-aspnet-dynamic-entities"></a>ASP.NET 동적 엔터티의 연결 문자열 업데이트
@@ -119,8 +119,8 @@ Azure의 호스팅 서비스와 확장 기능을 활용하기 위해 웹 애플�
 | Silverlight | Silverlight 비즈니스 애플리케이션 |
 | Silverlight | Silverlight 탐색 애플리케이션 |
 | WCF | WCF Service Application |
-| WCF | WCF Workflow 서비스 응용 프로그램 |
-| 워크플로 | WCF Workflow 서비스 응용 프로그램 |
+| WCF | WCF Workflow 서비스 애플리케이션 |
+| 워크플로 | WCF Workflow 서비스 애플리케이션 |
 
 ## <a name="next-steps"></a>다음 단계
 

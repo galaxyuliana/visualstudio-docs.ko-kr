@@ -42,7 +42,7 @@ Visual Studio에서 XSLT 코드를 디버깅할 수 있습니다. XSLT에 중단
 > [!NOTE]
 > <xref:System.Xml.Xsl.XslTransform> 클래스에서 XSLT를 한 단계씩 실행하는 것이 지원되지 않습니다. <xref:System.Xml.Xsl.XslCompiledTransform> 클래스는 디버깅하는 동안 XSLT를 한 단계씩 실행하도록 지원하는 유일한 XSLT 프로세서입니다.
 
-### <a name="to-start-debugging-an-xslt-application"></a>XSLT 응용 프로그램 디버깅을 시작하려면
+### <a name="to-start-debugging-an-xslt-application"></a>XSLT 애플리케이션 디버깅을 시작하려면
 
 1. <xref:System.Xml.Xsl.XslCompiledTransform> 개체를 인스턴스화할 때 코드에서 `enableDebug` 매개 변수를 `true`로 설정합니다. 그러면 XSLT 프로세서에서 코드를 컴파일할 때 디버그 정보가 생성됩니다.
 
@@ -50,7 +50,7 @@ Visual Studio에서 XSLT 코드를 디버깅할 수 있습니다. XSLT에 중단
 
    새 문서 창에 XSLT 스타일 시트를 로드 하 고 XSLT 디버거를 시작 합니다.
 
-   또는 스타일시트에 중단점을 추가하고 응용 프로그램을 실행할 수 있습니다.
+   또는 스타일시트에 중단점을 추가하고 애플리케이션을 실행할 수 있습니다.
 
 ### <a name="example"></a>예제
 

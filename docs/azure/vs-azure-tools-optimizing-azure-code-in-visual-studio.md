@@ -267,7 +267,7 @@ AP3001
 [Azure 코드 분석 의견](http://go.microsoft.com/fwlink/?LinkId=403771)에서 아이디어와 의견을 공유해 주세요.
 
 ### <a name="reason"></a>이유
-클록 동기화는 데이터 센터 간 약간의 시간 차이를 발생시킵니다. 예를 들어 DateTime.Now 또는 유사한 메서드를 사용하여 저장소 SAS 정책의 시작 시간을 현재 시간으로 설정하면 SAS 정책이 즉시 적용된다고 생각하는 것이 일반적입니다. 하지만 데이터 센터 사이에는 약간의 시간 차이가 있으며 시작 시간보다 약간 빠르거나 느린 데이터 센터가 있을 수 있기 때문에 문제가 발생할 수 있습니다. 그 결과, 정책 수명을 너무 짧게 설정할 경우 SAS 정책이 빠르게 또는 즉시 만료될 수 있습니다.
+클록 동기화는 데이터 센터 간 약간의 시간 차이를 발생시킵니다. 예를 들어 DateTime.Now 또는 유사한 메서드를 사용하여 스토리지 SAS 정책의 시작 시간을 현재 시간으로 설정하면 SAS 정책이 즉시 적용된다고 생각하는 것이 일반적입니다. 하지만 데이터 센터 사이에는 약간의 시간 차이가 있으며 시작 시간보다 약간 빠르거나 느린 데이터 센터가 있을 수 있기 때문에 문제가 발생할 수 있습니다. 그 결과, 정책 수명을 너무 짧게 설정할 경우 SAS 정책이 빠르게 또는 즉시 만료될 수 있습니다.
 
 Azure Storage에서 공유 액세스 서명을 사용하는 방법에 대한 지침은 [테이블 SAS(공유 액세스 서명), 큐 SAS, Blob SAS 업데이트 소개 - Microsoft Azure Storage 팀 블로그 - 사이트 홈 - MSDN 블로그](http://blogs.msdn.com/b/windowsazurestorage/archive/2012/06/12/introducing-table-sas-shared-access-signature-queue-sas-and-update-to-blob-sas.aspx)를 참조하세요.
 
@@ -407,7 +407,7 @@ Microsoft.WindowsAzure.Diagnostics 프로그래밍 API를 사용하는 등의 �
 [Azure 코드 분석 의견](http://go.microsoft.com/fwlink/?LinkId=403771)에서 아이디어와 의견을 공유해 주세요.
 
 ### <a name="reason"></a>이유
-Azure SDK 2.5(Azure Diagnostics 1.3 사용) 전에는 저장소의 구성 Blob에 추가하거나 명령적 코드, 선언적 구성 또는 기본 구성을 사용하는 등의 다양한 방법을 사용하여 Azure Diagnostics(WAD)을 구성할 수 있었습니다. 하지만 애플리케이션 프로젝트에 XML 구성 파일(SDK 2.5 이상에서 diagnostics.wadcfg 또는 diagnostics.wadcfgx)을 사용하여 진단을 구성하는 것이 더 좋은 방법입니다. 이 방식에서는 diagnostics.wadcfg 파일로 구성을 완전히 정의하며 언제든지 업데이트 및 재배포할 수 있습니다. diagnostics.wadcfg 구성 파일을 사용하면서 [DiagnosticMonitor](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.diagnosticmonitor.aspx) 또는 [RoleInstanceDiagnosticManager](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.management.roleinstancediagnosticmanager.aspx) 클래스를 사용하여 프로그래밍 방법으로 구성을 설정할 경우 혼란스러울 수 있습니다. 자세한 내용은 [Azure Diagnostics 구성 초기화 또는 변경](https://msdn.microsoft.com/library/azure/hh411537.aspx)을 참조하세요.
+Azure SDK 2.5(Azure Diagnostics 1.3 사용) 전에는 스토리지의 구성 Blob에 추가하거나 명령적 코드, 선언적 구성 또는 기본 구성을 사용하는 등의 다양한 방법을 사용하여 Azure Diagnostics(WAD)을 구성할 수 있었습니다. 하지만 애플리케이션 프로젝트에 XML 구성 파일(SDK 2.5 이상에서 diagnostics.wadcfg 또는 diagnostics.wadcfgx)을 사용하여 진단을 구성하는 것이 더 좋은 방법입니다. 이 방식에서는 diagnostics.wadcfg 파일로 구성을 완전히 정의하며 언제든지 업데이트 및 재배포할 수 있습니다. diagnostics.wadcfg 구성 파일을 사용하면서 [DiagnosticMonitor](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.diagnosticmonitor.aspx) 또는 [RoleInstanceDiagnosticManager](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.management.roleinstancediagnosticmanager.aspx) 클래스를 사용하여 프로그래밍 방법으로 구성을 설정할 경우 혼란스러울 수 있습니다. 자세한 내용은 [Azure Diagnostics 구성 초기화 또는 변경](https://msdn.microsoft.com/library/azure/hh411537.aspx)을 참조하세요.
 
 WAD 1.3(Azure SDK 2.5에 기본 제공)부터 코드를 사용하여 진단을 구성할 수 없습니다. 그 결과 진단 확장을 적용 또는 업데이트할 경우에만 구성을 제공할 수 있습니다.
 

@@ -45,13 +45,13 @@ ms.locfileid: "62970643"
 
   이전 버전의 Visual Studio 부하 테스트에서 프로젝트를 업그레이드할 경우 다음 절차를 수행하여 전체 정보 수집을 사용하도록 설정합니다.
 
-## <a name="to-configure-the-timing-details-storage-property-in-a-load-test"></a>부하 테스트에서 타이밍 정보 저장소 속성을 구성하려면
+## <a name="to-configure-the-timing-details-storage-property-in-a-load-test"></a>부하 테스트에서 타이밍 정보 스토리지 속성을 구성하려면
 
 1. 부하 테스트 편집기에서 부하 테스트를 엽니다.
 
 2. 부하 테스트에서 **실행 설정** 노드를 확장합니다.
 
-3. 구성할 실행 설정(예: **Run Settings1[Active]**)을 선택합니다.
+3. 구성할 실행 설정(예: **Run Settings1[Active]** )을 선택합니다.
 
 4. **속성** 창을 엽니다. **보기** 메뉴에서 **속성 창**을 선택합니다.
 

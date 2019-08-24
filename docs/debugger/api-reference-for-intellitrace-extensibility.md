@@ -19,7 +19,7 @@ ms.locfileid: "62564296"
 ---
 # <a name="api-reference-for-intellitrace-extensibility"></a>IntelliTrace 확장성을 위한 API 참조
 
-이 단원의 정보는 IntelliTrace 확장성 API를 사용하여 응용 프로그램에서 .itrace 파일을 읽고 디코딩하는 데 도움을 줍니다.
+이 단원의 정보는 IntelliTrace 확장성 API를 사용하여 애플리케이션에서 .itrace 파일을 읽고 디코딩하는 데 도움을 줍니다.
 
 ## <a name="in-this-section"></a>단원 내용
 

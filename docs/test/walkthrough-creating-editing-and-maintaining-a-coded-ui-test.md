@@ -36,7 +36,7 @@ ms.locfileid: "62976312"
 
 6. **Checkbox** 컨트롤을 선택합니다. **속성** 창에서 **Name** 속성을 \<이름 없음>에서 checkBox1로 변경하고 **IsEnabled** 속성의 선택을 취소합니다.
 
-     ![간단한 WPF 응용 프로그램](../test/media/codedui_wpfapp.png)
+     ![간단한 WPF 애플리케이션](../test/media/codedui_wpfapp.png)
 
 7. 단추 컨트롤을 두 번 클릭하여 Click 이벤트 처리기를 추가합니다.
 

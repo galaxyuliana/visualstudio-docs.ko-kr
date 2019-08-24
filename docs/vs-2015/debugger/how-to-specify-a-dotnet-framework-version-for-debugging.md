@@ -29,7 +29,7 @@ ms.locfileid: "68176564"
 
 [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 디버거는 현재 버전을 비롯하여 이전 버전의 Microsoft [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 디버깅을 지원합니다. Visual Studio에서 애플리케이션을 시작하는 경우 디버거는 디버깅하려는 애플리케이션에 대한 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전을 항상 올바르게 식별할 수 있습니다. 응용 프로그램이 이미 실행 되 고 사용 하는 경우 **연결할**, 디버거 항상 못할의 이전 버전을 식별 하는 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]합니다. 이러한 문제가 발생하면 다음과 같은 오류 메시지가 표시됩니다.  
   
- 디버거가 응용 프로그램에서 사용하는 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전을 잘못 예상했는지 확인합니다.  
+ 디버거가 애플리케이션에서 사용하는 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 버전을 잘못 예상했는지 확인합니다.  
   
  드물기는 하지만 이러한 문제가 발생하면 레지스트리 키를 설정하여 디버거에 사용하려는 버전을 지정할 수 있습니다.  
   

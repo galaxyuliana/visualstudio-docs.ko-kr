@@ -102,7 +102,7 @@ ms.locfileid: "62939250"
 ## <a name="access-objects-from-other-solutions"></a>다른 솔루션에서 개체에 액세스
  VSTO 추가 기능에서 노출된 개체를 호출하려면 클라이언트 솔루션에서 다음을 수행합니다.
 
-1. 노출된 VSTO 추가 기능을 나타내는 <xref:Microsoft.Office.Core.COMAddIn> 개체를 가져옵니다. 클라이언트는 호스트 Office 응용 프로그램의 개체 모델에서 `Application.COMAddIns` 속성을 활용하여 사용 가능한 모든 VSTO 추가 기능에 액세스할 수 있습니다.
+1. 노출된 VSTO 추가 기능을 나타내는 <xref:Microsoft.Office.Core.COMAddIn> 개체를 가져옵니다. 클라이언트는 호스트 Office 애플리케이션의 개체 모델에서 `Application.COMAddIns` 속성을 활용하여 사용 가능한 모든 VSTO 추가 기능에 액세스할 수 있습니다.
 
 2. COMAddIn.Object 속성에 액세스 합니다 <xref:Microsoft.Office.Core.COMAddIn> 개체입니다. 이 속성은 VSTO 추가 기능에서 노출된 개체를 반환합니다.
 

@@ -76,7 +76,7 @@ ms.locfileid: "66745467"
 
 ## <a name="modify-the-generated-save-code-to-perform-the-hierarchical-update"></a>생성 된 저장 계층적 업데이트를 수행 하는 코드 수정
 
-`TableAdapterManager.UpdateAll` 메서드를 호출한 다음 관련 테이블이 포함된 데이터 집합의 이름을 전달하여 데이터 집합의 관련 데이터 테이블에서 데이터베이스로 변경 내용을 저장합니다. 예를 들어 NorthwindDataset에 포함된 모든 테이블의 업데이트를 백 엔드 데이터베이스로 보내려면 `TableAdapterManager.UpdateAll(NorthwindDataset)` 메서드를 실행합니다.
+`TableAdapterManager.UpdateAll` 메서드를 호출한 다음 관련 테이블이 포함된 데이터 세트의 이름을 전달하여 데이터 세트의 관련 데이터 테이블에서 데이터베이스로 변경 내용을 저장합니다. 예를 들어 NorthwindDataset에 포함된 모든 테이블의 업데이트를 백 엔드 데이터베이스로 보내려면 `TableAdapterManager.UpdateAll(NorthwindDataset)` 메서드를 실행합니다.
 
 **데이터 원본** 창에서 항목을 놓으면 코드가 `Form_Load` 이벤트에 자동으로 추가되어 각 테이블을 채웁니다(`TableAdapter.Fill` 메서드). 또한 데이터 세트의 데이터를 데이터베이스에 다시 저장할 수 있도록 <xref:System.Windows.Forms.BindingNavigator>의 **저장** 단추 클릭 이벤트에도 코드가 추가됩니다(`TableAdapterManager.UpdateAll` 메서드).
 
@@ -94,12 +94,12 @@ ms.locfileid: "66745467"
      [!code-vb[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/VisualBasic/hierarchical-update_1.vb)]
      [!code-csharp[VSProDataOrcasHierarchicalUpdate#1](../data-tools/codesnippet/CSharp/hierarchical-update_1.cs)]
 
-이처럼 데이터를 데이터베이스에 저장하기 전에 관련 자식 테이블에 대해 변경 내용을 커밋해야 할 뿐 아니라 새 자식 레코드를 데이터 집합에 추가하기 전에 새로 만든 부모 레코드도 커밋해야 할 수 있습니다. 즉, 새 부모 레코드를 추가 할 수 있습니다 (`Customer`) foreign key 제약 조건을 새 자식 레코드를 사용 하도록 설정 하기 전에 데이터 집합에 (`Orders`) 데이터 집합을 추가할 수 있습니다. 자식 `BindingSource.AddingNew` 이벤트를 사용하면 이 작업을 수행할 수 있습니다.
+이처럼 데이터를 데이터베이스에 저장하기 전에 관련 자식 테이블에 대해 변경 내용을 커밋해야 할 뿐 아니라 새 자식 레코드를 데이터 세트에 추가하기 전에 새로 만든 부모 레코드도 커밋해야 할 수 있습니다. 즉, 새 부모 레코드를 추가 할 수 있습니다 (`Customer`) foreign key 제약 조건을 새 자식 레코드를 사용 하도록 설정 하기 전에 데이터 집합에 (`Orders`) 데이터 집합을 추가할 수 있습니다. 자식 `BindingSource.AddingNew` 이벤트를 사용하면 이 작업을 수행할 수 있습니다.
 
 > [!NOTE]
 > 새 부모 레코드를 적용 해야 하는지 여부를 데이터 원본에 바인딩하는 데 사용 되는 컨트롤의 유형에 따라 달라 집니다. 이 연습에서는 개별 컨트롤을 사용 하 여 부모 테이블에 바인딩합니다. 이 새 부모 레코드를 커밋하는 추가 코드가 필요 합니다. 같은 부모 레코드 대신 복잡 한 바인딩 컨트롤에서 표시 된 경우는 <xref:System.Windows.Forms.DataGridView>이 추가 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 부모 레코드가 필요 하지 않을 것에 대 한 호출 합니다. 컨트롤의 기본 데이터 바인딩 기능이 새 레코드 커밋을 처리하기 때문입니다.
 
-### <a name="to-add-code-to-commit-parent-records-in-the-dataset-before-adding-new-child-records"></a>새 자식 레코드를 추가하기 전에 데이터 집합에서 부모 레코드를 커밋하는 코드를 추가하려면
+### <a name="to-add-code-to-commit-parent-records-in-the-dataset-before-adding-new-child-records"></a>새 자식 레코드를 추가하기 전에 데이터 세트에서 부모 레코드를 커밋하는 코드를 추가하려면
 
 1. `OrdersBindingSource.AddingNew` 이벤트에 대한 이벤트 처리기를 만듭니다.
 

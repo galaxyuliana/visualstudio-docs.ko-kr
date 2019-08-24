@@ -46,7 +46,7 @@ ms.locfileid: "67693040"
 
 - [메모리 진단 사용](#BKMK_Enabling_memory_diagnostics)
 
-- [메모리 스냅숏 만들기](#BKMK_Taking_memory_snapshots)
+- [메모리 스냅샷 만들기](#BKMK_Taking_memory_snapshots)
 
 - [메모리 통계 보기](#BKMK_Viewing_memory_statistics)
 
@@ -154,11 +154,11 @@ MFC 프레임워크의 디버그 버전은 자동으로 `DEBUG_NEW` 를 사용�
 
   [항목 내용](#BKMK_In_this_topic)
 
-### <a name="BKMK_Taking_memory_snapshots"></a> 메모리 스냅숏 만들기
+### <a name="BKMK_Taking_memory_snapshots"></a> 메모리 스냅샷 만들기
 
-1. [CMemoryState](/previous-versions/visualstudio/visual-studio-2010/2ads32e2(v=vs.100)) 개체를 만들고 [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint) 멤버 함수를 호출합니다. 그러면 첫 번째 메모리 스냅숏이 만들어집니다.
+1. [CMemoryState](/previous-versions/visualstudio/visual-studio-2010/2ads32e2(v=vs.100)) 개체를 만들고 [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint) 멤버 함수를 호출합니다. 그러면 첫 번째 메모리 스냅샷이 만들어집니다.
 
-2. 프로그램이 메모리 할당 작업과 할당 취소 작업을 수행하면 다른 `CMemoryState` 개체를 만들고 해당 개체에 대해 `Checkpoint` 를 호출합니다. 그러면 메모리 사용에 대한 두 번째 스냅숏이 만들어집니다.
+2. 프로그램이 메모리 할당 작업과 할당 취소 작업을 수행하면 다른 `CMemoryState` 개체를 만들고 해당 개체에 대해 `Checkpoint` 를 호출합니다. 그러면 메모리 사용에 대한 두 번째 스냅샷이 만들어집니다.
 
 3. 세 번째 `CMemoryState` 개체를 만들고 이전의 두 [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure#difference) 개체를 인수로 제공하여 `CMemoryState` 멤버 함수를 호출합니다. 두 메모리 상태가 서로 다르면 `Difference` 함수가 0이 아닌 값을 반환합니다. 이것은 할당이 취소되지 않은 메모리 블록이 있음을 나타냅니다.
 
@@ -192,7 +192,7 @@ MFC 프레임워크의 디버그 버전은 자동으로 `DEBUG_NEW` 를 사용�
     [항목 내용](#BKMK_In_this_topic)
 
 ### <a name="BKMK_Viewing_memory_statistics"></a> 메모리 통계 보기
-[CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure#difference) 함수는 두 메모리 상태 개체를 살펴 상태의 시작과 끝 사이의 힙에서 할당 취소되지 않은 모든 개체를 검색합니다. 메모리 스냅숏을 만들고 `CMemoryState::Difference`를 사용하여 스냅숏을 비교한 후 [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure#dumpstatistics) 를 호출하여 할당이 취소되지 않은 개체에 대한 정보를 가져올 수 있습니다.
+[CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure#difference) 함수는 두 메모리 상태 개체를 살펴 상태의 시작과 끝 사이의 힙에서 할당 취소되지 않은 모든 개체를 검색합니다. 메모리 스냅샷을 만들고 `CMemoryState::Difference`를 사용하여 스냅샷을 비교한 후 [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure#dumpstatistics) 를 호출하여 할당이 취소되지 않은 개체에 대한 정보를 가져올 수 있습니다.
 
 다음 예제를 참조하세요.
 

@@ -30,7 +30,7 @@ Entity Framework는.NET 개발자가 도메인별 개체를 사용 하 여 관�
 
  [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] 도구를 작성할 수 있도록 설계 된 [!INCLUDE[adonet_ef](../includes/adonet-ef-md.md)] 응용 프로그램입니다. 에 대 한 전체 설명서 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] 도구: [Entity Framework](https://msdn.microsoft.com/data/jj590134).
 
- 사용 하 여 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] 만들면 도구를 *개념적 모델* 기존 데이터베이스 다음 그래픽으로 시각화 하 고 개념적 모델을 편집 합니다. 또는 먼저 개념적 모델을 그래픽으로 만든 후 모델을 지원하는 데이터베이스를 생성할 수 있습니다. 이 두 경우 모두 기본 데이터베이스가 변경될 때 모델을 자동으로 업데이트하고 응용 프로그램에 대한 개체 계층 코드를 자동으로 생성할 수 있습니다. 데이터베이스 생성 및 개체 계층 코드 생성 작업은 사용자 지정할 수 있습니다.
+ 사용 하 여 [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)] 만들면 도구를 *개념적 모델* 기존 데이터베이스 다음 그래픽으로 시각화 하 고 개념적 모델을 편집 합니다. 또는 먼저 개념적 모델을 그래픽으로 만든 후 모델을 지원하는 데이터베이스를 생성할 수 있습니다. 이 두 경우 모두 기본 데이터베이스가 변경될 때 모델을 자동으로 업데이트하고 애플리케이션에 대한 개체 계층 코드를 자동으로 생성할 수 있습니다. 데이터베이스 생성 및 개체 계층 코드 생성 작업은 사용자 지정할 수 있습니다.
 
  다음은 Visual Studio 2015에서 엔터티 데이터 모델 도구를 구성 하는 특정 도구입니다.
 

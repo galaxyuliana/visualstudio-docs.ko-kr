@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "63433261"
 ---
-# <a name="customizing-file-storage-and-xml-serialization"></a>파일 저장소 및 XML Serialization 사용자 지정
+# <a name="customizing-file-storage-and-xml-serialization"></a>파일 스토리지 및 XML Serialization 사용자 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 사용자 인스턴스를 저장 하는 경우 또는 *모델*, 도메인 특정 언어 (DSL)의 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], XML 파일로 만들어지거나 업데이트 됨. 파일은 저장소에 모델을 다시 다시 로드 될 수 있습니다.  
@@ -127,7 +127,7 @@ ms.locfileid: "63433261"
   
 1. 했는지 **모니커 키가** 는 `false` 클래스와 기준 클래스의 모든 도메인 속성에 대 한 합니다.  
   
-    1. DSL 탐색기에서 확장 **Xml Serialization Behavior\Class 데이터\\**_\<도메인 클래스 >_**\Element 데이터**입니다.  
+    1. DSL 탐색기에서 확장 **Xml Serialization Behavior\Class 데이터\\** _\<도메인 클래스 >_ **\Element 데이터**입니다.  
   
     2. 확인 **모니커 키가** 는 `false` 모든 도메인 속성에 대 한 합니다.  
   
@@ -141,7 +141,7 @@ ms.locfileid: "63433261"
   
 - 설정할 **모니커 키가** 기존 도메인 클래스의 도메인 속성에 대 한 합니다. 속성의 형식 이어야 합니다 `string`합니다.  
   
-    1. DSL 탐색기에서 확장 **Xml Serialization Behavior\Class 데이터\\**_\<도메인 클래스 >_**\Element 데이터**를 선택한 후는 도메인 속성입니다.  
+    1. DSL 탐색기에서 확장 **Xml Serialization Behavior\Class 데이터\\** _\<도메인 클래스 >_ **\Element 데이터**를 선택한 후는 도메인 속성입니다.  
   
     2. 속성 창에서 설정할 **모니커 키가** 에 `true`입니다.  
   

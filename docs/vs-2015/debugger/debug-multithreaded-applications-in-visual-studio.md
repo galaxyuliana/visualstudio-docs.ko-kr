@@ -1,5 +1,5 @@
 ---
-title: 다중 스레드 응용 프로그램 디버깅
+title: 다중 스레드 애플리케이션 디버깅
 ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-debug
@@ -29,7 +29,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/15/2019
 ms.locfileid: "65691276"
 ---
-# <a name="debug-multithreaded-applications-in-visual-studio"></a>Visual Studio에서 다중 스레드 응용 프로그램 디버깅
+# <a name="debug-multithreaded-applications-in-visual-studio"></a>Visual Studio에서 다중 스레드 애플리케이션 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 스레드는 운영 체제에서 프로세서 시간을 할당받는 명령 시퀀스입니다. 운영 체제에서 실행되는 모든 프로세스는 최소한 하나의 스레드로 구성됩니다. 프로세스에 스레드가 둘 이상인 경우를 다중 스레드라고 합니다.
@@ -40,9 +40,9 @@ ms.locfileid: "65691276"
 
  Visual Studio에서 제공 된 **스레드** 창, GPU 스레드 창, 병렬 조사식 창 및 다중 스레드 디버깅을 쉽게 만들어 주는 기타 기능입니다. 스레딩 기능을 배우는 가장 좋은 방법은 연습을 수행하는 것입니다. [연습: 다중 스레드 응용 프로그램 디버깅](../debugger/walkthrough-debugging-a-multithreaded-application.md) 고 [연습: 디버깅을 C++ AMP 응용 프로그램](https://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)합니다.
 
- Visual Studio에서 제공하는 강력한 중단점 및 추적점은 다중 스레드 응용 프로그램을 디버깅할 때 매우 유용할 수 있습니다. 중단점 필터를 사용하면 개별 스레드에 중단점을 배치할 수 있습니다. 참조 [중단점 사용](../debugger/using-breakpoints.md)
+ Visual Studio에서 제공하는 강력한 중단점 및 추적점은 다중 스레드 애플리케이션을 디버깅할 때 매우 유용할 수 있습니다. 중단점 필터를 사용하면 개별 스레드에 중단점을 배치할 수 있습니다. 참조 [중단점 사용](../debugger/using-breakpoints.md)
 
- 사용자 인터페이스가 있는 다중 스레드 응용 프로그램은 특히 디버깅하기 어려울 수 있습니다. 이러한 경우 응용 프로그램을 다른 컴퓨터에서 실행하면서 원격 디버깅을 사용하는 것이 좋습니다. 정보를 참조 하세요 [원격 디버깅](../debugger/remote-debugging.md)합니다.
+ 사용자 인터페이스가 있는 다중 스레드 애플리케이션은 특히 디버깅하기 어려울 수 있습니다. 이러한 경우 애플리케이션을 다른 컴퓨터에서 실행하면서 원격 디버깅을 사용하는 것이 좋습니다. 정보를 참조 하세요 [원격 디버깅](../debugger/remote-debugging.md)합니다.
 
 ## <a name="in-this-section"></a>섹션 내용
  [스레드 및 프로세스 디버깅](../debugger/debug-threads-and-processes.md) 스레드 및 프로세스 디버깅의 기본 사항을 설명 합니다.

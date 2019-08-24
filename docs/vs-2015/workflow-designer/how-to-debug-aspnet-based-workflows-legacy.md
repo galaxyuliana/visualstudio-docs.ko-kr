@@ -22,7 +22,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "68144661"
 ---
 # <a name="how-to-debug-aspnet-based-workflows-legacy"></a>방법: ASP.NET 기반 워크플로 디버깅(레거시)
-이 항목에서는 레거시 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]에서 [!INCLUDE[wf](../includes/wf-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] 기반의 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 응용 프로그램을 디버깅하는 방법에 대해 설명합니다.  
+이 항목에서는 레거시 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]에서 [!INCLUDE[wf](../includes/wf-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] 기반의 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 애플리케이션을 디버깅하는 방법에 대해 설명합니다.  
   
  ASP.NET에서 시작된 레거시 워크플로나 웹 서비스로 게시된 레거시 워크플로를 워크플로가 호스트되는 프로세스에 연결하여 디버깅할 수 있습니다.  
   

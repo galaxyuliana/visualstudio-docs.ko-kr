@@ -37,7 +37,7 @@ TTD 녹음/녹화를 캡처할 응용 프로그램이 중단 되지 됩니다. �
 
 ## <a name="prerequisites"></a>전제 조건
 
-* Visual Studio 2019 Enterprise에 대 한 사용 가능한 이상만 시간 여행 디버깅에 대 한 Azure VM (Virtual Machines)의 **Azure 개발 워크 로드**합니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅숏 디버거**에서 찾을 수 있습니다.)
+* Visual Studio 2019 Enterprise에 대 한 사용 가능한 이상만 시간 여행 디버깅에 대 한 Azure VM (Virtual Machines)의 **Azure 개발 워크 로드**합니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅샷 디버거**에서 찾을 수 있습니다.)
 
     설치 되어 있지 않은 경우 설치할 [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/vs/)합니다.
 
@@ -56,14 +56,14 @@ TTD 녹음/녹화를 캡처할 응용 프로그램이 중단 되지 됩니다. �
       ![Azure 리소스 선택](../debugger/media/time-travel-debugging-select-azure-resource-vm.png)
 
     > [!IMPORTANT]
-    > 처음 VM의 **스냅숏 디버거 연결**을 선택하면 IIS가 자동으로 다시 시작됩니다.
+    > 처음 VM의 **스냅샷 디버거 연결**을 선택하면 IIS가 자동으로 다시 시작됩니다.
 
-    에 대 한 메타 데이터를 **모듈** 처음 활성화 되어 있지 않습니다. 웹 앱으로 이동 하며 **수집 시작** 단추가 다음 활성화 됩니다. Visual Studio가 이제 스냅숏 디버깅 모드입니다.
+    에 대 한 메타 데이터를 **모듈** 처음 활성화 되어 있지 않습니다. 웹 앱으로 이동 하며 **수집 시작** 단추가 다음 활성화 됩니다. Visual Studio가 이제 스냅샷 디버깅 모드입니다.
 
-   ![스냅숏 디버깅 모드](../debugger/media/snapshot-message.png)
+   ![스냅샷 디버깅 모드](../debugger/media/snapshot-message.png)
 
     > [!NOTE]
-    > Application Insights 사이트 확장도 스냅숏 디버깅을 지원합니다. “사이트 확장이 최신 상태가 아님” 오류 메시지가 표시되면 [스냅숏 디버깅에 대한 문제 해결 팁 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)에서 업그레이드 세부 정보를 참조하세요.
+    > Application Insights 사이트 확장도 스냅샷 디버깅을 지원합니다. “사이트 확장이 최신 상태가 아님” 오류 메시지가 표시되면 [스냅숏 디버깅에 대한 문제 해결 팁 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)에서 업그레이드 세부 정보를 참조하세요.
 
    합니다 **모듈** 창에 표시 되는 Azure VM에 대 한 모든 모듈 로드 되는 경우 (선택 **디버그 > Windows > 모듈** 이 창을 열려면).
 
@@ -83,13 +83,13 @@ TTD 녹음/녹화를 캡처할 응용 프로그램이 중단 되지 됩니다. �
 
    ![snappoint 켜기](../debugger/media/snapshot-start-collection.png)
 
-## <a name="take-a-snapshot"></a>스냅숏 가져오기
+## <a name="take-a-snapshot"></a>스냅샷 가져오기
 
 Snappoint를 켤 때의 snappoint를 배치할 코드 줄이 실행 될 때마다 스냅숏을 캡처합니다. 이 실행은 서버의 실제 요청에 의해 발생할 수 있습니다. 강제로 snappoint가 적중되도록 하려면 웹 사이트의 브라우저 보기로 이동하여 snappoint가 적중되도록 하는 데 필요한 모든 작업을 수행하세요.
 
 ## <a name="start-debugging-a-time-travel-recording"></a>한 번 디버깅을 시작 기록 이동
 
-1. snappoint가 적중되면 진단 도구 창에 스냅숏이 표시됩니다. 이 창을 열려면 **디버그 > Windows > 진단 도구 표시**를 선택합니다.
+1. snappoint가 적중되면 진단 도구 창에 스냅샷이 표시됩니다. 이 창을 열려면 **디버그 > Windows > 진단 도구 표시**를 선택합니다.
 
    ![snappoint 열기](../debugger/media/snapshot-diagsession-window.png)
 
@@ -101,11 +101,11 @@ Snappoint를 켤 때의 snappoint를 배치할 코드 줄이 실행 될 때마�
 
    사용할 수도 있습니다는 **지역**를 **조사식**, 및 **호출 스택** windows 식을 평가 합니다.
 
-   ![스냅숏 데이터 검사](../debugger/media/time-travel-debugging-start-debugging.png)
+   ![스냅샷 데이터 검사](../debugger/media/time-travel-debugging-start-debugging.png)
 
-    라이브 상태인 웹 사이트 자체 이며 모든 후속 TTD 활동에서 최종 사용자에 게 영향 되지 않습니다. 기본적으로 snappoint당 하나의 스냅숏만 캡처됩니다. 하나의 스냅숏이 캡처되면 해당 snappoint가 꺼집니다. snappoint에서 또 하나의 스냅숏을 캡처하려면 **컬렉션 업데이트**를 클릭하여 snappoint를 다시 켤 수 있습니다.
+    라이브 상태인 웹 사이트 자체 이며 모든 후속 TTD 활동에서 최종 사용자에 게 영향 되지 않습니다. 기본적으로 snappoint당 하나의 스냅샷만 캡처됩니다. 하나의 스냅샷이 캡처되면 해당 snappoint가 꺼집니다. snappoint에서 또 하나의 스냅샷을 캡처하려면 **컬렉션 업데이트**를 클릭하여 snappoint를 다시 켤 수 있습니다.
 
-**도움이 필요하세요?** [문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)와 [스냅숏 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md) 페이지를 참조하세요.
+**도움이 필요하세요?** [문제 해결 및 알려진 문제](../debugger/debug-live-azure-apps-troubleshooting.md)와 [스냅샷 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md) 페이지를 참조하세요.
 
 ## <a name="set-a-conditional-snappoint"></a>조건부 snappoint 설정
 
@@ -116,4 +116,4 @@ Snappoint를 켤 때의 snappoint를 배치할 코드 줄이 실행 될 때마�
 이 자습서에서는 Azure Virtual Machines에 대 한 기록 된 시간 이동 수집 하는 방법을 알아보았습니다. 스냅숏 디버거에 대 한 자세한 정보를 읽을 수도 있습니다.
 
 > [!div class="nextstepaction"]
-> [스냅숏 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md)
+> [스냅샷 디버깅 FAQ](../debugger/debug-live-azure-apps-faq.md)

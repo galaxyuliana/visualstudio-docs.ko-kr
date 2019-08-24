@@ -14,7 +14,7 @@ ms.lasthandoff: 07/31/2019
 ms.locfileid: "68681150"
 ---
 # <a name="azure-devtest-pay-as-you-go-subscriptions"></a>Azure 개발/테스트 종량제 구독
-클라우드에서 팀과 공동으로 작업해 보세요.  여러 개발 및 테스트 종량제(PAYG, Pay-As-You-Go) 구독을 만들면 다른 구독자와 공동 작업을 가능하게 하는 한편 팀과 환경 간의 격리를 제공합니다.  Azure에서 구독 소프트웨어의 개발/테스트 및 클라우드 사용권에 대한 시간당 요금이 독점적으로 할인됩니다.
+클라우드에서 팀과 공동으로 작업해 보세요.  여러 개발 및 테스트 종량제(PAYG, Pay-As-You-Go) 구독을 만들면 다른 구독자와 협업을 가능하게 하는 한편 팀과 환경 간의 격리를 제공합니다.  Azure에서 구독 소프트웨어의 개발/테스트 및 클라우드 사용권에 대한 시간당 요금이 독점적으로 할인됩니다.
 
 ## <a name="set-up-a-subscription"></a>구독 설정
 1. Azure 종량제 구독 혜택을 사용하려면 [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)에 로그인하고 혜택 타일의 아래쪽에 있는 **활성화** 링크를 클릭합니다.

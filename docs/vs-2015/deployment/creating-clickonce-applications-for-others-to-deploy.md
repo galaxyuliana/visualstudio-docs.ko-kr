@@ -32,7 +32,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/15/2019
 ms.locfileid: "65675596"
 ---
-# <a name="creating-clickonce-applications-for-others-to-deploy"></a>다른 사용자가 배포할 수 있는 ClickOnce 응용 프로그램 만들기
+# <a name="creating-clickonce-applications-for-others-to-deploy"></a>다른 사용자가 배포할 수 있는 ClickOnce 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 ClickOnce 배포를 만든 모든 개발자가 응용 프로그램 자체를 배포 하려고 합니다. 이들 중 다 수만 ClickOnce를 사용 하 여 해당 응용 프로그램을 패키지 및 같은 규모가 큰 기업 고객에 게 파일을 전달 합니다. 고객이 네트워크에서 응용 프로그램을 호스트 하는 일을 담당 합니다. 이 항목에서는.NET framework 버전 3.5 이전 버전에서 이러한 배포의 문제 중 일부를 설명합니다. .NET Framework 3.5의 새로운 "트러스트에 대 한 매니페스트를 사용" 기능을 사용 하 여 제공 하는 새 솔루션에 설명 합니다. 마지막으로, 이전 버전의.NET Framework를 여전히 사용 하는 고객에 대 한 ClickOnce 배포를 만들기 위한 권장 되는 전략을 사용 하 여 완료 합니다.  

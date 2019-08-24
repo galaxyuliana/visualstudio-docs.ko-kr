@@ -20,12 +20,12 @@ ms.locfileid: "62979317"
 ---
 # <a name="how-to-collect-intellitrace-data-to-help-debug-difficult-issues"></a>방법: 어려운 문제 디버그에 도움이 되는 IntelliTrace 데이터 수집
 
-Visual Studio에서 특정 진단 추적 정보를 수집하도록 IntelliTrace용 진단 데이터 어댑터를 구성할 수 있습니다. 테스트에서 이 어댑터를 사용하여 응용 프로그램에 대한 중요한 진단 이벤트를 수집할 수 있습니다. 개발자는 나중에 이 데이터를 사용하여 코드를 추적하여 버그의 원인을 찾을 수 있습니다. IntelliTrace의 진단 데이터 어댑터는 수동 테스트나 자동화된 테스트에 사용할 수 있습니다.
+Visual Studio에서 특정 진단 추적 정보를 수집하도록 IntelliTrace용 진단 데이터 어댑터를 구성할 수 있습니다. 테스트에서 이 어댑터를 사용하여 애플리케이션에 대한 중요한 진단 이벤트를 수집할 수 있습니다. 개발자는 나중에 이 데이터를 사용하여 코드를 추적하여 버그의 원인을 찾을 수 있습니다. IntelliTrace의 진단 데이터 어댑터는 수동 테스트나 자동화된 테스트에 사용할 수 있습니다.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
 > [!NOTE]
-> IntelliTrace는 관리 코드를 사용하여 작성된 응용 프로그램에 대해서만 작동합니다. 브라우저를 클라이언트로 사용하는 웹 애플리케이션을 테스트할 때는 추적할 수 있는 관리 코드가 없으므로 테스트 설정에서 클라이언트에 대해 IntelliTrace를 사용하지 않도록 설정해야 합니다. 이 경우 웹 서버에서 원격으로 환경을 설정하고 IntelliTrace 데이터를 수집할 수 있습니다.
+> IntelliTrace는 관리 코드를 사용하여 작성된 애플리케이션에 대해서만 작동합니다. 브라우저를 클라이언트로 사용하는 웹 애플리케이션을 테스트할 때는 추적할 수 있는 관리 코드가 없으므로 테스트 설정에서 클라이언트에 대해 IntelliTrace를 사용하지 않도록 설정해야 합니다. 이 경우 웹 서버에서 원격으로 환경을 설정하고 IntelliTrace 데이터를 수집할 수 있습니다.
 
 IntelliTrace 데이터는 확장명이 *.iTrace*인 파일에 저장됩니다. 테스트를 실행했을 때 테스트 단계가 실패하는 경우 버그를 만들 수 있습니다. 진단 정보를 포함하는 IntelliTrace 파일이 이 버그에 자동으로 연결됩니다.
 

@@ -18,7 +18,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "62963874"
 ---
-# <a name="adding-azure-storage-by-using-visual-studio-connected-services"></a>Visual Studio 연결 서비스를 사용하여 Azure 저장소 추가
+# <a name="adding-azure-storage-by-using-visual-studio-connected-services"></a>Visual Studio 연결 서비스를 사용하여 Azure Storage 추가
 Visual Studio를 사용하면 **연결된 서비스 추가** 대화 상자에서 Azure Storage에 다음을 연결할 수 있습니다.
 
 - C# 클라우드 서비스
@@ -44,11 +44,11 @@ Visual Studio를 사용하면 **연결된 서비스 추가** 대화 상자에서
 
 1. **Azure Storage** 대화 상자에서, 기존 스토리지 계정을 선택한 다음 **추가**를 선택합니다.
 
-    저장소 계정을 만들어야 하는 경우 다음 단계로 이동합니다. 그렇지 않은 경우, 6단계로 건너뜁니다.
+    스토리지 계정을 만들어야 하는 경우 다음 단계로 이동합니다. 그렇지 않은 경우, 6단계로 건너뜁니다.
 
-    ![프로젝트에 기존 저장소 계정 추가](./media/vs-azure-tools-connected-services-storage/select-azure-storage-account.png)
+    ![프로젝트에 기존 스토리지 계정 추가](./media/vs-azure-tools-connected-services-storage/select-azure-storage-account.png)
 
-1. 저장소 계정을 만들려면
+1. 스토리지 계정을 만들려면
 
    1. 대화 상자 아래쪽에 있는 **새 Storage 계정 만들기**를 선택합니다.
 
@@ -56,9 +56,9 @@ Visual Studio를 사용하면 **연결된 서비스 추가** 대화 상자에서
 
        ![새 Azure Storage 계정](./media/vs-azure-tools-connected-services-storage/create-storage-account.png)
 
-   1. **Azure Storage** 대화 상자가 표시되면 새 스토리지 계정이 목록에 나타납니다. 목록에서 새 저장소 계정을 선택하고 **추가**를 선택합니다.
+   1. **Azure Storage** 대화 상자가 표시되면 새 스토리지 계정이 목록에 나타납니다. 목록에서 새 스토리지 계정을 선택하고 **추가**를 선택합니다.
 
-1. 연결된 저장소 서비스가 프로젝트의 **서비스 참조** 노드 아래에 나타납니다.
+1. 연결된 스토리지 서비스가 프로젝트의 **서비스 참조** 노드 아래에 나타납니다.
 
 ## <a name="how-your-project-is-modified"></a>프로젝트를 수정하는 방법
 대화 상자를 완료하면 Visual Studio는 참조를 추가하고 특정 구성 파일을 수정합니다. 특정 변경 내용은 프로젝트 형식에 따라 달라집니다.

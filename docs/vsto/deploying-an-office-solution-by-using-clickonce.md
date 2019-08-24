@@ -21,7 +21,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "63441851"
 ---
 # <a name="deploy-an-office-solution-by-using-clickonce"></a>ClickOnce를 사용 하 여 Office 솔루션 배포
-  ClickOnce를 사용하면 Office 솔루션을 더 적은 단계로 배포할 수 있습니다. 업데이트를 게시하는 경우 솔루션에서 자동으로 이를 감지하여 설치합니다. 그러나 ClickOnce에서는 컴퓨터의 각 사용자에 대해 별도로 솔루션을 설치하도록 합니다. Windows Installer를 사용 하 여 고려해 야 하므로 (*.msi*) 둘 이상의 사용자를 동일한 컴퓨터에 솔루션을 실행 합니다.
+  ClickOnce를 사용하면 Office 솔루션을 더 적은 단계로 배포할 수 있습니다. 업데이트를 게시하는 경우 솔루션에서 자동으로 이를 감지하여 설치합니다. 그러나 ClickOnce에서는 컴퓨터의 각 사용자에 대해 별도로 솔루션을 설치하도록 합니다. Windows Installer를 사용 하 여 고려해 야 하므로 ( *.msi*) 둘 이상의 사용자를 동일한 컴퓨터에 솔루션을 실행 합니다.
 
 ## <a name="in-this-topic"></a>항목 내용
 
@@ -66,7 +66,7 @@ ms.locfileid: "63441851"
 
    - 네트워크의 폴더에 범용 명명 규칙 (UNC) 경로 (예를 들어  *\\\ServerName\FolderName*).
 
-   - 상대 경로 (예를 들어 *PublishFolder\\*, 프로젝트가 기본적으로 게시 되는 폴더인).
+   - 상대 경로 (예를 들어 *PublishFolder\\* , 프로젝트가 기본적으로 게시 되는 폴더인).
 
 5. 에 **설치 폴더 URL** 상자 최종 사용자가 솔루션을 찾을 위치의 정규화 된 경로 입력 합니다.
 
@@ -118,7 +118,7 @@ ms.locfileid: "63441851"
 
       합니다 **응용 프로그램 파일** 게시 하는 각 버전에 대 한 하위 폴더 포함 합니다. 각 버전별 하위 폴더에는 다음 파일이 들어 있습니다.
 
-    - 응용 프로그램 매니페스트
+    - 애플리케이션 매니페스트
 
     - 배포 매니페스트
 
@@ -139,7 +139,7 @@ ms.locfileid: "63441851"
  문서 수준 사용자 지정을 배포 하는 사용자의 컴퓨터에서 폴더에 문서를 저장 하거나 SharePoint 사이트에서 문서를 사용할 수 있도록 하려는 경우 Office 문서 위치 신뢰 한다고 확인 합니다. 참조 [문서에 신뢰 부여](../vsto/granting-trust-to-documents.md)합니다.
 
 ## <a name="Helping"></a> 솔루션을 설치할 수 있도록
- 사용자가 솔루션을 설치할 수 배포 매니페스트를 열어 설치 프로그램을 실행 하 여 또는 문서 수준 사용자 지정 하는 동안 문서를 직접 열어 합니다. 가장 좋은 방법은 사용자가 설치 프로그램을 사용하여 솔루션을 설치하는 것입니다. 나머지 두 방식의 없는 필수 구성 요소 소프트웨어가 설치 되어 있는지 확인 합니다. 사용자가 설치 위치에서 문서를 열려는 경우, Office 응용 프로그램의 보안 센터에서 신뢰할 수 있는 위치 목록에 이 문서를 추가해야 합니다.
+ 사용자가 솔루션을 설치할 수 배포 매니페스트를 열어 설치 프로그램을 실행 하 여 또는 문서 수준 사용자 지정 하는 동안 문서를 직접 열어 합니다. 가장 좋은 방법은 사용자가 설치 프로그램을 사용하여 솔루션을 설치하는 것입니다. 나머지 두 방식의 없는 필수 구성 요소 소프트웨어가 설치 되어 있는지 확인 합니다. 사용자가 설치 위치에서 문서를 열려는 경우, Office 애플리케이션의 보안 센터에서 신뢰할 수 있는 위치 목록에 이 문서를 추가해야 합니다.
 
 ### <a name="opening-the-document-of-a-document-level-customization"></a>문서 수준 사용자 지정의 문서 열기
  사용자는 문서 수준 사용자 지정의 문서를 설치 위치에서 바로 열거나 문서를 자신의 로컬 컴퓨터로 복사한 다음 이 복사본을 열 수 있습니다.
@@ -251,7 +251,7 @@ ms.locfileid: "63441851"
 
 13. 게시 된 **ExcelWorkbook** 프로젝트입니다.
 
-### <a name="modify-the-application-manifest"></a>응용 프로그램 매니페스트 수정
+### <a name="modify-the-application-manifest"></a>애플리케이션 매니페스트 수정
 
 1. 솔루션 디렉터리를 엽니다 **c:\publish**를 사용 하 여 **파일 탐색기**합니다.
 
@@ -278,13 +278,13 @@ ms.locfileid: "63441851"
     </vstav3:postActions>
     ```
 
-### <a name="re-sign-the-application-and-deployment-manifests"></a>응용 프로그램 및 배포 매니페스트 다시 서명
+### <a name="re-sign-the-application-and-deployment-manifests"></a>애플리케이션 및 배포 매니페스트 다시 서명
 
 1. 에 **%USERPROFILE%\Documents\Visual Studio 2013\Projects\ExcelWorkbook\ExcelWorkbook** 폴더를 복사 합니다 **ExcelWorkbook_TemporaryKey.pfx** 인증서 파일을 다음에 붙여 넣습니다 합니다  *PublishFolder* **files\excelworkbook**\__MostRecentPublishedVersion_ 폴더입니다.
 
 2. Visual Studio 명령 프롬프트를 열고 디렉터리를 변경 합니다 **c:\publish\Application Files\ExcelWorkbook**\__MostRecentPublishedVersion_ 폴더 (예를 들어 **c:\publish\Application Files\ExcelWorkbook_1_0_0_4**).
 
-3. 다음 명령을 실행하여 수정된 응용 프로그램 매니페스트에 서명합니다.
+3. 다음 명령을 실행하여 수정된 애플리케이션 매니페스트에 서명합니다.
 
     ```cmd
     mage -sign ExcelWorkbook.dll.manifest -certfile ExcelWorkbook_TemporaryKey.pfx
@@ -327,7 +327,7 @@ ms.locfileid: "63441851"
 
         3. 선택 된 **(권장 하지 않음) 네트워크 상의 신뢰할 수 있는 위치 허용** 확인란을 선택한 후는 **새 위치 추가** 단추입니다.
 
-        4. 에 **경로** 상자에 업로드 한 문서가 포함 된 SharePoint 문서 라이브러리의 URL을 입력 합니다 (예를 들어 *http://SharePointServerName/TeamName/ProjectName/DocumentLibraryName*).
+        4. 에 **경로** 상자에 업로드 한 문서가 포함 된 SharePoint 문서 라이브러리의 URL을 입력 합니다 (예를 들어 *http://SharePointServerName/TeamName/ProjectName/DocumentLibraryName* ).
 
              와 같은 기본 웹 페이지의 이름을 추가 하지 마세요 *default.aspx* 하거나 *AllItems.aspx*합니다.
 
@@ -348,8 +348,8 @@ ms.locfileid: "63441851"
 
 | 매개 변수 | 정의 |
 |------------------| - |
-| /Install 또는 /I | 솔루션을 설치합니다. 이 옵션 뒤에는 배포 매니페스트의 경로가 와야 합니다. 로컬 컴퓨터, UNC(Universal Naming Convention) 파일 공유에 대한 경로를 지정할 수 있습니다. 로컬 경로 지정할 수 있습니다 (*C:\FolderName\PublishFolder*), 상대 경로 (*게시\\*), 또는 정규화 된 위치 (*\\\ServerName\ FolderName* 또는 http://<em>ServerName/FolderName</em>). |
-| /Uninstall 또는 /U | 솔루션을 제거합니다. 이 옵션 뒤에는 배포 매니페스트의 경로가 와야 합니다. 경로를 로컬 컴퓨터의 UNC 파일 공유로 지정할 수 있습니다. 로컬 경로 지정할 수 있습니다 (*c:\FolderName\PublishFolder*), 상대 경로 (*게시\\*), 또는 정규화 된 위치 (*\\\ServerName\ FolderName* 또는 http://<em>ServerName/FolderName</em>). |
+| /Install 또는 /I | 솔루션을 설치합니다. 이 옵션 뒤에는 배포 매니페스트의 경로가 와야 합니다. 로컬 컴퓨터, UNC(Universal Naming Convention) 파일 공유에 대한 경로를 지정할 수 있습니다. 로컬 경로 지정할 수 있습니다 (*C:\FolderName\PublishFolder*), 상대 경로 (*게시\\* ), 또는 정규화 된 위치 ( *\\\ServerName\ FolderName* 또는 http://<em>ServerName/FolderName</em>). |
+| /Uninstall 또는 /U | 솔루션을 제거합니다. 이 옵션 뒤에는 배포 매니페스트의 경로가 와야 합니다. 경로를 로컬 컴퓨터의 UNC 파일 공유로 지정할 수 있습니다. 로컬 경로 지정할 수 있습니다 (*c:\FolderName\PublishFolder*), 상대 경로 (*게시\\* ), 또는 정규화 된 위치 ( *\\\ServerName\ FolderName* 또는 http://<em>ServerName/FolderName</em>). |
 | /Silent 또는 /S | 입력에 대한 메시지나 그 밖의 메시지를 사용자에게 표시하지 않고 설치 또는 제거합니다. 신뢰 프롬프트가 필요한 경우 사용자 지정 설치 되거나 업데이트 되지 않습니다. |
 | /Help 또는 /? | 도움말 정보를 표시합니다. |
 
@@ -408,7 +408,7 @@ ms.locfileid: "63441851"
 
    문서 수준 사용자 지정 사용자 문서를 열고 해당 _AssemblyLocation 속성을 업데이트 합니다. 다음 단계에서는 사용자가 이 작업을 수행하는 방법을 설명합니다.
 
-#### <a name="to-update-the-assemblylocation-property-in-a-document"></a>문서에서 _AssemblyLocation 속성을 업데이트하려면
+#### <a name="to-update-the-_assemblylocation-property-in-a-document"></a>문서에서 _AssemblyLocation 속성을 업데이트하려면
 
 1. 에 **파일** 탭에서 **정보**, 다음 그림에 나와 있는 합니다.
 
@@ -451,7 +451,7 @@ ms.locfileid: "63441851"
 
      ![게시 폴더 구조](../vsto/media/publishfolderstructure.png "게시 폴더 구조")
 
-     다음에 사용자가 응용 프로그램 또는 사용자 지정 문서를 열면 배포 매니페스트 변경 사항이 검색됩니다. 이전 버전의 Office 솔루션은 ClickOnce 캐시에서 실행됩니다.
+     다음에 사용자가 애플리케이션 또는 사용자 지정 문서를 열면 배포 매니페스트 변경 사항이 검색됩니다. 이전 버전의 Office 솔루션은 ClickOnce 캐시에서 실행됩니다.
 
 > [!NOTE]
 > 로컬 데이터는 이전 버전의 솔루션 하나에 대해서만 저장됩니다. 두 버전을 롤백하는 경우 로컬 데이터는 보존 되지 않습니다. 로컬 데이터에 대 한 자세한 내용은 참조 하세요. [ClickOnce 응용 프로그램의 로컬 및 원격 데이터 액세스](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)합니다.

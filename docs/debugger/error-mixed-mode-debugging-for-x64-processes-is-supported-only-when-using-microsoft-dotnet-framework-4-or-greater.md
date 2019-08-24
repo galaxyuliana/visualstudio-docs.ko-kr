@@ -30,7 +30,7 @@ ms.locfileid: "66745435"
 
   - .NET Framework 4 버전으로 업그레이드 합니다.
 
-  - 디버깅을 위해 32비트 버전의 응용 프로그램을 빌드합니다.
+  - 디버깅을 위해 32비트 버전의 애플리케이션을 빌드합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [Remote Debugging](../debugger/remote-debugging.md)

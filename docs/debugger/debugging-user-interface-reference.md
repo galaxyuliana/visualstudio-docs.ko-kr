@@ -26,7 +26,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62852186"
 ---
 # <a name="debugging-user-interface-reference"></a>사용자 인터페이스 참조 디버깅
-응용 프로그램을 디버깅할 때 나타날 수 있는 대화 상자는 다음과 같습니다.
+애플리케이션을 디버깅할 때 나타날 수 있는 대화 상자는 다음과 같습니다.
 
  Visual Studio 확장성 모델을 사용하면 많은 디버거 기능을 자동화할 수 있습니다. 자세한 내용은 Visual Studio Debugging SDK를 참조하십시오.
 

@@ -135,7 +135,7 @@ ms.locfileid: "63443493"
 ## <a name="debug-feature-event-receivers"></a>기능 이벤트 수신기를 디버그 합니다.
  기본적으로 실행 하는 경우를 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 응용 프로그램을 SharePoint 서버를 해당 기능은 자동으로 활성화. 그러나 되므로 문제가 발생 기능 이벤트 수신자를 디버깅할 때에서 기능을 활성화 하는 경우 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], 디버거에서 다른 프로세스에서 실행 됩니다. 즉, 중단점 등의 몇 가지 디버깅 기능을 제대로 작동 하지 않습니다.
 
- 자동으로 SharePoint에서 기능 활성화를 사용 하지 않도록 설정 하 고 기능 이벤트 수신자의 적절 한 디버깅을 허용 하려면 프로젝트의 값을 설정 **활성 배포 구성을** 속성을 **활성화없음** 디버깅 하기 전에 합니다. 그런 다음 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]에서 SharePoint 응용 프로그램의 디버깅을 시작한 후 SharePoint에서 수동으로 기능을 활성화합니다. 기능을 활성화 하려면 엽니다는 **사이트 작업** SharePoint에서 메뉴 **사이트 설정**를 선택 합니다 **사이트 기능 관리** 링크를 선택한 후의 **활성화** 계속 정상적으로 디버깅 하려면 기능 옆의 단추입니다.
+ 자동으로 SharePoint에서 기능 활성화를 사용 하지 않도록 설정 하 고 기능 이벤트 수신자의 적절 한 디버깅을 허용 하려면 프로젝트의 값을 설정 **활성 배포 구성을** 속성을 **활성화없음** 디버깅 하기 전에 합니다. 그런 다음 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]에서 SharePoint 애플리케이션의 디버깅을 시작한 후 SharePoint에서 수동으로 기능을 활성화합니다. 기능을 활성화 하려면 엽니다는 **사이트 작업** SharePoint에서 메뉴 **사이트 설정**를 선택 합니다 **사이트 기능 관리** 링크를 선택한 후의 **활성화** 계속 정상적으로 디버깅 하려면 기능 옆의 단추입니다.
 
 ## <a name="enable-enhanced-debugging-information"></a>향상 된 디버깅 정보를 사용 하도록 설정
  간의 복잡 한 상호 작용으로 인해 합니다 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 프로세스 (devenv.exe)는 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint 호스트 프로세스 (*vssphost4.exe*), SharePoint 및 WCF 계층에서 발생 하는 오류를 진단 하는 동안 빌드, 배포 및 등을 어려울 수 있습니다. 이러한 오류를 해결할 수 있도록, 향상 된 디버깅 정보를 사용할 수 있습니다. 이렇게 하려면 Windows 레지스트리에서 다음 레지스트리 키로 이동 합니다.

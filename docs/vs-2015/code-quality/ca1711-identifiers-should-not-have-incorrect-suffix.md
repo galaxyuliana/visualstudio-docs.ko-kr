@@ -69,7 +69,7 @@ ms.locfileid: "65676481"
  형식 이름에서 접미사를 제거 합니다.
 
 ## <a name="when-to-suppress-warnings"></a>경고를 표시하지 않는 경우
- 접미사가 응용 프로그램 도메인에서 명확한 의미를 갖지 않는 한 이 규칙의 경고를 숨기지 마십시오.
+ 접미사가 애플리케이션 도메인에서 명확한 의미를 갖지 않는 한 이 규칙의 경고를 숨기지 마십시오.
 
 ## <a name="related-rules"></a>관련된 규칙
  [CA1710: 식별자에는 올바른 접미사를 사용 해야 합니다.](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)

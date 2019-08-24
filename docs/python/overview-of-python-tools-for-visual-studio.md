@@ -36,7 +36,7 @@ Python은 현재 Mac용 Visual Studio에서 지원되지 않지만 Visual Studio
 ::: moniker range=">=vs-2019"
 - 빠른 시작을 하나 이상 수행하여 프로젝트를 만듭니다. 확실하지 않은 경우 [빠른 시작: 폴더에서 Python 코드 열기 및 실행](quickstart-05-python-visual-studio-open-folder.md) 또는 [Flask를 사용하여 웹앱 만들기](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json)로 시작합니다.
 ::: moniker-end
-- 전체 종단 간 환경을 위한 [Visual Studio에서 Python 작업](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) 자습서를 수행합니다.
+- 전체 엔드투엔드 환경을 위한 [Visual Studio에서 Python 작업](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) 자습서를 수행합니다.
 
 ::: moniker range=">=vs-2019"
 > [!Note]

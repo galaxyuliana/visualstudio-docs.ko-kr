@@ -1,6 +1,6 @@
 ---
-title: 서버 탐색기로 저장소 리소스 찾아보기 및 관리 | Microsoft Docs
-description: 서버 탐색기로 저장소 리소스 찾아보기 및 관리
+title: 서버 탐색기로 스토리지 리소스 찾아보기 및 관리 | Microsoft Docs
+description: 서버 탐색기로 스토리지 리소스 찾아보기 및 관리
 author: ghogen
 manager: jillfra
 assetId: 658dc064-4a4e-414b-ae5a-a977a34c930d
@@ -16,29 +16,29 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 07/08/2019
 ms.locfileid: "67624099"
 ---
-# <a name="browse-and-manage-storage-resources-by-using-server-explorer"></a>서버 탐색기를 사용하여 스토리지 리소스 찾아보기 및 관리
+# <a name="browse-and-manage-storage-resources-by-using-server-explorer"></a>서버 탐색기로 스토리지 리소스 찾아보기 및 관리
 
 [!INCLUDE [storage-try-azure-tools](./includes/storage-try-azure-tools.md)]
 
 ## <a name="overview"></a>개요
 
-Microsoft Visual Studio용 Azure 도구를 설치한 경우 Azure 저장소 계정에서 Blob, 큐 및 테이블 데이터를 볼 수 있습니다. 서버 탐색기의 Azure **스토리지** 노드는 로컬 스토리지 에뮬레이터 계정 및 다른 Azure Storage 계정에 있는 데이터를 보여 줍니다.
+Microsoft Visual Studio용 Azure 도구를 설치한 경우 Azure 스토리지 계정에서 Blob, 큐 및 테이블 데이터를 볼 수 있습니다. 서버 탐색기의 Azure **스토리지** 노드는 로컬 스토리지 에뮬레이터 계정 및 다른 Azure Storage 계정에 있는 데이터를 보여 줍니다.
 
-Visual Studio에서 서버 탐색기를 보려면 메뉴 모음에서 **보기** > **서버 탐색기**를 선택합니다. **저장소** 노드는 연결된 각 Azure 구독 또는 인증서 아래에 존재하는 모든 저장소 계정을 보여줍니다. 저장소 계정이 나타나지 않으면 [이 문서 뒷부분](#add-storage-accounts-by-using-server-explorer)의 지침을 따라 추가할 수 있습니다.
+Visual Studio에서 서버 탐색기를 보려면 메뉴 모음에서 **보기** > **서버 탐색기**를 선택합니다. **스토리지** 노드는 연결된 각 Azure 구독 또는 인증서 아래에 존재하는 모든 스토리지 계정을 보여줍니다. 스토리지 계정이 나타나지 않으면 [이 문서 뒷부분](#add-storage-accounts-by-using-server-explorer)의 지침을 따라 추가할 수 있습니다.
 
 Azure SDK 2.7부터 클라우드 탐색기를 사용해 Azure 리소스를 확인 및 관리할 수 있습니다. 자세한 내용은 [클라우드 탐색기를 사용하여 Azure 리소스 관리](vs-azure-tools-resources-managing-with-cloud-explorer.md)를 참조하세요.
 
-## <a name="view-and-manage-storage-resources-in-visual-studio"></a>Visual Studio에서 저장소 리소스를 확인 및 관리합니다.
+## <a name="view-and-manage-storage-resources-in-visual-studio"></a>Visual Studio에서 스토리지 리소스를 확인 및 관리합니다.
 
-서버 탐색기는 저장소 에뮬레이터 계정에 있는 Blob, 큐, 테이블 목록을 자동으로 보여줍니다. 저장소 에뮬레이터 계정은 **저장소** 노드의 서버 탐색기에 **개발** 노드로 나열됩니다.
+서버 탐색기는 스토리지 에뮬레이터 계정에 있는 Blob, 큐, 테이블 목록을 자동으로 보여줍니다. 스토리지 에뮬레이터 계정은 **스토리지** 노드의 서버 탐색기에 **개발** 노드로 나열됩니다.
 
-저장소 에뮬레이터 계정의 리소스를 보려면 **개발** 노드를 확장하세요. **개발** 노드를 확장했을 때 저장소 에뮬레이터가 시작하지 않으면 자동으로 시작될 것입니다. 이 프로세스는 몇 초 정도 걸릴 수 있습니다. 저장소 에뮬레이터가 시작하는 동안 Visual Studio의 다른 영역에서 작업을 계속할 수 있습니다.
+스토리지 에뮬레이터 계정의 리소스를 보려면 **개발** 노드를 확장하세요. **개발** 노드를 확장했을 때 스토리지 에뮬레이터가 시작하지 않으면 자동으로 시작될 것입니다. 이 프로세스는 몇 초 정도 걸릴 수 있습니다. 스토리지 에뮬레이터가 시작하는 동안 Visual Studio의 다른 영역에서 작업을 계속할 수 있습니다.
 
-저장소 계정의 리소스를 보려면 서버 탐색기에서 저장소 계정의 노드를 확장하세요. 그러면 **Blob**, **큐** 및 **테이블** 노드가 표시됩니다.
+스토리지 계정의 리소스를 보려면 서버 탐색기에서 스토리지 계정의 노드를 확장하세요. 그러면 **Blob**, **큐** 및 **테이블** 노드가 표시됩니다.
 
 ## <a name="work-with-blob-resources"></a>Blob 리소스로 작업
 
-**Blob** 노드는 선택된 저장소 계정의 컨테이너 목록을 표시합니다. Blob 컨테이너는 Blob 파일을 포함하고 있으며 이러한 Blob을 폴더와 하위 폴더로 구성할 수 있습니다. 자세한 내용은 [.NET에서 Blob Storage를 사용하는 방법](/azure/storage/blobs/storage-dotnet-how-to-use-blobs)(영문)을 참조하세요.
+**Blob** 노드는 선택된 스토리지 계정의 컨테이너 목록을 표시합니다. Blob 컨테이너는 Blob 파일을 포함하고 있으며 이러한 Blob을 폴더와 하위 폴더로 구성할 수 있습니다. 자세한 내용은 [.NET에서 Blob Storage를 사용하는 방법](/azure/storage/blobs/storage-dotnet-how-to-use-blobs)(영문)을 참조하세요.
 
 ### <a name="to-create-a-blob-container"></a>Blob 컨테이너를 생성하려면
 
@@ -144,7 +144,7 @@ Blob을 선택한 다음 **Blob 열기** 단추를 선택합니다.
 
 큐를 사용하는 클라우드 서비스를 개발할 때 Visual Studio를 사용하여 큐를 생성하여 코드를 개발 및 테스트하는 동안 대화형으로 작업하는 것이 좋습니다.
 
-서버 탐색기에서는 저장소 계정의 큐 보기, 큐 생성 및 삭제, 큐를 열어 메시지 보기, 큐에 메시지 추가하기가 가능합니다. 큐를 확인하기 위해 열 때 개별 메시지를 볼 수 있으며 왼쪽 위 모서리의 단추를 사용하여 큐에서 다음의 작업을 수행할 수 있습니다.
+서버 탐색기에서는 스토리지 계정의 큐 보기, 큐 생성 및 삭제, 큐를 열어 메시지 보기, 큐에 메시지 추가하기가 가능합니다. 큐를 확인하기 위해 열 때 개별 메시지를 볼 수 있으며 왼쪽 위 모서리의 단추를 사용하여 큐에서 다음의 작업을 수행할 수 있습니다.
 
 * 큐 보기를 새로 고칩니다.
 * 큐에 메시지 추가.
@@ -155,10 +155,10 @@ Blob을 선택한 다음 **Blob 열기** 단추를 선택합니다.
 
 ![큐 보기](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC651470.png)
 
-스토리지 서비스 큐에 대한 자세한 내용은 [.NET을 사용하여 Azure Queue Storage 시작](http://go.microsoft.com/fwlink/?LinkID=264702)을 참조하세요. 저장소 서비스 큐의 웹 서비스에 대한 자세한 내용은 [큐 서비스 개념](http://go.microsoft.com/fwlink/?LinkId=264788)을 참조하세요. Visual Studio를 사용하여 Storage 서비스 큐에 메시지를 보내는 방법에 대한 자세한 내용은 [Storage 서비스 큐에 메시지 보내기](https://docs.microsoft.com/azure/visual-studio/vs-storage-cloud-services-getting-started-queues)를 참조하세요.
+스토리지 서비스 큐에 대한 자세한 내용은 [.NET을 사용하여 Azure Queue Storage 시작](http://go.microsoft.com/fwlink/?LinkID=264702)을 참조하세요. 스토리지 서비스 큐의 웹 서비스에 대한 자세한 내용은 [큐 서비스 개념](http://go.microsoft.com/fwlink/?LinkId=264788)을 참조하세요. Visual Studio를 사용하여 Storage 서비스 큐에 메시지를 보내는 방법에 대한 자세한 내용은 [Storage 서비스 큐에 메시지 보내기](https://docs.microsoft.com/azure/visual-studio/vs-storage-cloud-services-getting-started-queues)를 참조하세요.
 
 > [!NOTE]
-> 저장소 서비스 큐는 Azure Service Bus 큐와 구별됩니다. Service Bus 큐에 대한 자세한 내용은 [Service Bus 큐, 항목 및 구독](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-queues-topics-subscriptions)을 참조하세요.
+> 스토리지 서비스 큐는 Azure Service Bus 큐와 구별됩니다. Service Bus 큐에 대한 자세한 내용은 [Service Bus 큐, 항목 및 구독](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-queues-topics-subscriptions)을 참조하세요.
 
 ## <a name="work-with-table-resources"></a>테이블 리소스로 작업
 
@@ -166,13 +166,13 @@ Azure Table Storage는 많은 양의 구조화된 데이터를 저장합니다. 
 
 ### <a name="to-create-a-table"></a>테이블을 만들려면
 
-1. 클라우드 탐색기에서 저장소 계정의 **테이블** 노드를 선택한 다음 **테이블 만들기**를 선택합니다.
+1. 클라우드 탐색기에서 스토리지 계정의 **테이블** 노드를 선택한 다음 **테이블 만들기**를 선택합니다.
 1. **테이블 만들기** 대화 상자에서 테이블의 이름을 입력합니다.
 
 ### <a name="to-view-table-data"></a>테이블 데이터를 보려면
 
-1. 클라우드 탐색기에서 **Azure** 노드를 연 다음 **저장소** 노드를 엽니다.
-1. 관심 있는 저장소 계정 노드를 연 다음 **테이블** 노드를 열어 저장소 계정에 대한 테이블 목록을 확인합니다.
+1. 클라우드 탐색기에서 **Azure** 노드를 연 다음 **스토리지** 노드를 엽니다.
+1. 관심 있는 스토리지 계정 노드를 연 다음 **테이블** 노드를 열어 스토리지 계정에 대한 테이블 목록을 확인합니다.
 1. 테이블의 바로 가기 메뉴를 연 다음 **테이블 보기**를 선택합니다.
 
     ![솔루션 탐색기에 있는 Azure 테이블](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC744165.png)
@@ -223,73 +223,73 @@ Azure Table Storage는 많은 양의 구조화된 데이터를 저장합니다. 
 
 ![필터 문자열](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC655337.png)
 
-## <a name="refresh-storage-data"></a>저장소 데이터 새로 고침
+## <a name="refresh-storage-data"></a>스토리지 데이터 새로 고침
 
-서버 탐색기에서 연결하거나 저장소 계정에서 데이터를 가져올 때 작업을 완료하기까지 최대 1분이 소요될 수 있습니다. 서버 탐색기를 연결할 수 없는 경우 작업 시간이 초과될 수 있습니다. 데이터를 검색하는 동안에 Visual Studio의 다른 부분에서 작업을 계속할 수 있습니다. 시간이 너무 오래 걸려서 작업을 취소하려면 서버 탐색기 도구 모음에서 **새로 고침 중지** 단추를 선택합니다.
+서버 탐색기에서 연결하거나 스토리지 계정에서 데이터를 가져올 때 작업을 완료하기까지 최대 1분이 소요될 수 있습니다. 서버 탐색기를 연결할 수 없는 경우 작업 시간이 초과될 수 있습니다. 데이터를 검색하는 동안에 Visual Studio의 다른 부분에서 작업을 계속할 수 있습니다. 시간이 너무 오래 걸려서 작업을 취소하려면 서버 탐색기 도구 모음에서 **새로 고침 중지** 단추를 선택합니다.
 
 ### <a name="to-refresh-blob-container-data"></a>Blob 컨테이너 데이터를 새로 고치려면
 
-* **저장소** 아래의 **Blob** 노드를 선택하고 서버 탐색기 도구 모음에서 **새로 고침** 단추를 선택합니다.
+* **스토리지** 아래의 **Blob** 노드를 선택하고 서버 탐색기 도구 모음에서 **새로 고침** 단추를 선택합니다.
 * 표시된 Blob 목록을 새로 고치려면 **실행** 단추를 선택합니다.
 
 ### <a name="to-refresh-table-data"></a>테이블 데이터를 새로 고치려면
 
-* **저장소** 아래의 **테이블** 노드를 선택하고 서버 탐색기 도구 모음에서 **새로 고침** 단추를 선택합니다.
+* **스토리지** 아래의 **테이블** 노드를 선택하고 서버 탐색기 도구 모음에서 **새로 고침** 단추를 선택합니다.
 * 테이블 디자이너에 표시된 엔터티 목록을 새로 고치려면 테이블 디자이너에서 **실행** 단추를 선택합니다.
 
 ### <a name="to-refresh-queue-data"></a>큐 데이터를 새로 고치려면
 
-**저장소** 아래의 **큐** 노드를 선택하고 서버 탐색기 도구 모음에서 **새로 고침** 단추를 선택합니다.
+**스토리지** 아래의 **큐** 노드를 선택하고 서버 탐색기 도구 모음에서 **새로 고침** 단추를 선택합니다.
 
-### <a name="to-refresh-all-items-in-a-storage-account"></a>저장소 계정의 모든 항목을 새로 고치려면
+### <a name="to-refresh-all-items-in-a-storage-account"></a>스토리지 계정의 모든 항목을 새로 고치려면
 
 계정 이름을 선택하고 서버 탐색기 도구 모음에서 **새로 고침** 단추를 선택합니다.
 
-## <a name="add-storage-accounts-by-using-server-explorer"></a>서버 탐색기를 사용하여 저장소 계정 추가
+## <a name="add-storage-accounts-by-using-server-explorer"></a>서버 탐색기를 사용하여 스토리지 계정 추가
 
-서버 탐색기를 사용하여 저장소 계정을 추가하는 방법은 두 가지가 있습니다. Azure 구독에서 저장소 계정을 만들거나 기존 저장소 계정을 연결할 수 있습니다.
+서버 탐색기를 사용하여 스토리지 계정을 추가하는 방법은 두 가지가 있습니다. Azure 구독에서 스토리지 계정을 만들거나 기존 스토리지 계정을 연결할 수 있습니다.
 
-### <a name="to-create-a-storage-account-by-using-server-explorer"></a>서버 탐색기를 사용하여 저장소 계정을 만들려면 다음을 수행합니다.
+### <a name="to-create-a-storage-account-by-using-server-explorer"></a>서버 탐색기를 사용하여 스토리지 계정을 만들려면 다음을 수행합니다.
 
-1. 서버 탐색기에서 **저장소** 노드에 대한 바로 가기 메뉴를 연 다음 **저장소 계정 만들기**를 선택합니다.
+1. 서버 탐색기에서 **스토리지** 노드에 대한 바로 가기 메뉴를 연 다음 **스토리지 계정 만들기**를 선택합니다.
 
-1. **저장소 계정 만들기** 대화 상자에서 다음 정보를 선택하거나 입력합니다.
+1. **스토리지 계정 만들기** 대화 상자에서 다음 정보를 선택하거나 입력합니다.
 
-   * 저장소 계정을 추가할 Azure 구독입니다.
-   * 새 저장소 계정에 대해 사용하려는 이름입니다.
+   * 스토리지 계정을 추가할 Azure 구독입니다.
+   * 새 스토리지 계정에 대해 사용하려는 이름입니다.
    * 지역 또는 선호도 그룹 (예: 미국 서부 또는 동아시아)입니다.
-   * 저장소 계정에 대해 사용하려는 복제의 유형입니다(예: 지역 중복).
+   * 스토리지 계정에 대해 사용하려는 복제의 유형입니다(예: 지역 중복).
 
-   ![Azure 저장소 계정 만들기](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC744166.png)
+   ![Azure Storage 계정 만들기](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC744166.png)
 
 1. **만들기**를 선택합니다.
 
 솔루션 탐색기의 **스토리지** 목록에 새 Storage 계정이 나타납니다.
 
-### <a name="to-attach-an-existing-storage-account-by-using-server-explorer"></a>서버 탐색기를 사용하여 기존 저장소 계정을 연결하려면
+### <a name="to-attach-an-existing-storage-account-by-using-server-explorer"></a>서버 탐색기를 사용하여 기존 스토리지 계정을 연결하려면
 
-1. 서버 탐색기에서 Azure **저장소** 노드에 대한 바로 가기 메뉴를 연 다음 **외부 저장소 연결**을 선택합니다.
+1. 서버 탐색기에서 Azure **스토리지** 노드에 대한 바로 가기 메뉴를 연 다음 **외부 스토리지 연결**을 선택합니다.
 
-    ![기존 저장소 계정 추가](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766039.png)
-1. **저장소 계정 만들기** 대화 상자에서 다음 정보를 선택하거나 입력합니다.
+    ![기존 스토리지 계정 추가](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766039.png)
+1. **스토리지 계정 만들기** 대화 상자에서 다음 정보를 선택하거나 입력합니다.
 
-   * 연결하려는 기존 저장소 계정의 이름입니다.
-   * 선택한 저장소 계정에 대한 키입니다. 저장소 계정을 선택할 때 일반적으로 이 값이 제공됩니다. Visual Studio가 저장소 계정 키를 기억하기를 원하는 경우 **계정 키 기억하기** 확인란을 선택합니다.
-   * 저장소 계정에 연결하기 위해 사용하는 프로토콜입니다 - 예: HTTP, HTTPS, 또는 사용자 지정 엔드포인트. 사용자 지정 엔드포인트에 대한 자세한 내용은 [연결 문자열을 구성하는 방법](https://msdn.microsoft.com/library/azure/ee758697.aspx)을 참조하세요.
+   * 연결하려는 기존 스토리지 계정의 이름입니다.
+   * 선택한 스토리지 계정에 대한 키입니다. 스토리지 계정을 선택할 때 일반적으로 이 값이 제공됩니다. Visual Studio가 스토리지 계정 키를 기억하기를 원하는 경우 **계정 키 기억하기** 확인란을 선택합니다.
+   * 스토리지 계정에 연결하기 위해 사용하는 프로토콜입니다 - 예: HTTP, HTTPS, 또는 사용자 지정 엔드포인트. 사용자 지정 엔드포인트에 대한 자세한 내용은 [연결 문자열을 구성하는 방법](https://msdn.microsoft.com/library/azure/ee758697.aspx)을 참조하세요.
 
 ### <a name="to-view-the-secondary-endpoints"></a>보조 엔드포인트를 확인하려면
 
-**읽기 액세스 지역 중복** 복제 옵션을 사용하여 저장소 계정을 만든 경우 계정 이름의 바로 가기 메뉴를 열고 **속성**을 선택하면 보조 엔드포인트를 볼 수 있습니다.
+**읽기 액세스 지역 중복** 복제 옵션을 사용하여 스토리지 계정을 만든 경우 계정 이름의 바로 가기 메뉴를 열고 **속성**을 선택하면 보조 엔드포인트를 볼 수 있습니다.
 
-![저장소 보조 엔드포인트](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766040.png)
+![스토리지 보조 엔드포인트](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766040.png)
 
-### <a name="to-remove-a-storage-account-from-server-explorer"></a>서버 탐색기에서 저장소 계정을 제거하려면
+### <a name="to-remove-a-storage-account-from-server-explorer"></a>서버 탐색기에서 스토리지 계정을 제거하려면
 
 서버 탐색기에서 계정 이름에 대한 바로 가기 메뉴를 연 다음 **삭제**를 선택합니다.
 
-저장소 계정을 삭제하면 해당 계정에 저장된 키 정보도 제거됩니다.
+스토리지 계정을 삭제하면 해당 계정에 저장된 키 정보도 제거됩니다.
 
-서버 탐색기에서 저장소 계정을 삭제하면 저장소 계정이나 그 안에 포함된 데이터에는 영향을 주지 않습니다. 단순히 서버 탐색기의 참조를 제거합니다. 저장소 계정을 영구적으로 삭제하려면 [Azure Portal](https://portal.azure.com/)을 사용하세요.
+서버 탐색기에서 스토리지 계정을 삭제하면 스토리지 계정이나 그 안에 포함된 데이터에는 영향을 주지 않습니다. 단순히 서버 탐색기의 참조를 제거합니다. 스토리지 계정을 영구적으로 삭제하려면 [Azure Portal](https://portal.azure.com/)을 사용하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

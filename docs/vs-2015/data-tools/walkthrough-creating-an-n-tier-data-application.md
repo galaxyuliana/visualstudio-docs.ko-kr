@@ -27,11 +27,11 @@ ms.locfileid: "65675622"
 # <a name="walkthrough-creating-an-n-tier-data-application"></a>연습: N 계층 데이터 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 되어 데이터에 액세스 하는 응용 프로그램 또는 *계층*합니다. 응용 프로그램 구성 요소를 개별 계층으로 분리하면 응용 프로그램의 확장성과 유지 관리 가능성이 높아집니다. 이는 전체 솔루션을 다시 설계하지 않고도 단일 계층에 적용할 수 있는 새로운 기술을 보다 쉽게 도입할 수 있기 때문입니다. N 계층 아키텍처에는 표시 계층, 중간 계층 및 데이터 계층이 포함됩니다. 중간 계층에는 대개 데이터 액세스 계층, 비즈니스 논리 계층 및 인증, 유효성 검사 등의 공유 구성 요소가 포함됩니다. 데이터 계층에는 관계형 데이터베이스가 포함됩니다. 표시 계층에 액세스하는 최종 사용자로부터 격리된 상태를 유지하기 위해 N 계층 응용 프로그램에서는 보통 중요한 정보가 중간 계층의 데이터 액세스 계층에 저장됩니다. 자세한 내용은 [N 계층 데이터 응용 프로그램 개요](../data-tools/n-tier-data-applications-overview.md)합니다.  
+N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 되어 데이터에 액세스 하는 응용 프로그램 또는 *계층*합니다. 애플리케이션 구성 요소를 개별 계층으로 분리하면 애플리케이션의 확장성과 유지 관리 가능성이 높아집니다. 이는 전체 솔루션을 다시 설계하지 않고도 단일 계층에 적용할 수 있는 새로운 기술을 보다 쉽게 도입할 수 있기 때문입니다. N 계층 아키텍처에는 표시 계층, 중간 계층 및 데이터 계층이 포함됩니다. 중간 계층에는 대개 데이터 액세스 계층, 비즈니스 논리 계층 및 인증, 유효성 검사 등의 공유 구성 요소가 포함됩니다. 데이터 계층에는 관계형 데이터베이스가 포함됩니다. 표시 계층에 액세스하는 최종 사용자로부터 격리된 상태를 유지하기 위해 N 계층 애플리케이션에서는 보통 중요한 정보가 중간 계층의 데이터 액세스 계층에 저장됩니다. 자세한 내용은 [N 계층 데이터 응용 프로그램 개요](../data-tools/n-tier-data-applications-overview.md)합니다.  
   
- N 계층 응용 프로그램의 여러 계층을 분리하는 방법 중 하나는 응용 프로그램에 포함할 각 계층에 대해 개별 프로젝트를 만드는 것입니다. 형식화된 데이터 집합에는 생성된 데이터 집합 및 `DataSet Project` 코드를 포함해야 하는 프로젝트를 결정하는 `TableAdapter` 속성이 포함됩니다.  
+ N 계층 애플리케이션의 여러 계층을 분리하는 방법 중 하나는 애플리케이션에 포함할 각 계층에 대해 개별 프로젝트를 만드는 것입니다. 형식화된 데이터 세트에는 생성된 데이터 세트 및 `DataSet Project` 코드를 포함해야 하는 프로젝트를 결정하는 `TableAdapter` 속성이 포함됩니다.  
   
- 이 연습에서는 **데이터 세트 디자이너**를 사용하여 데이터 세트 및 `TableAdapter` 코드를 개별 클래스 라이브러리 프로젝트로 분리하는 방법을 보여줍니다. 만들려는 데이터 집합 및 TableAdapter 코드를 분리 한 후에 [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md) 데이터 액세스 계층을 호출 하는 서비스입니다. 마지막으로 Windows Forms 응용 프로그램을 표시 계층으로 만듭니다. 이 계층은 데이터 서비스에서 데이터에 액세스합니다.  
+ 이 연습에서는 **데이터 세트 디자이너**를 사용하여 데이터 세트 및 `TableAdapter` 코드를 개별 클래스 라이브러리 프로젝트로 분리하는 방법을 보여줍니다. 만들려는 데이터 집합 및 TableAdapter 코드를 분리 한 후에 [Windows Communication Foundation 서비스 및 Visual Studio의 WCF Data Services](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md) 데이터 액세스 계층을 호출 하는 서비스입니다. 마지막으로 Windows Forms 애플리케이션을 표시 계층으로 만듭니다. 이 계층은 데이터 서비스에서 데이터에 액세스합니다.  
   
  이 연습에서는 다음 단계를 수행합니다.  
   
@@ -47,7 +47,7 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
   
 - 데이터 액세스 계층에서 데이터를 검색하기 위한 함수를 서비스에서 만듭니다.  
   
-- 표시 계층으로 사용할 Windows Forms 응용 프로그램을 만듭니다.  
+- 표시 계층으로 사용할 Windows Forms 애플리케이션을 만듭니다.  
   
 - 데이터 소스에 바인딩되는 Windows Forms 컨트롤을 만듭니다.  
   
@@ -60,8 +60,8 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
   
 - Northwind 샘플 데이터베이스에 대한 액세스.
   
-## <a name="creating-the-n-tier-solution-and-class-library-to-hold-the-dataset-dataentitytier"></a>N 계층 솔루션 및 데이터 집합을 저장할 클래스 라이브러리(DataEntityTier) 만들기  
- 이 연습의 첫 단계에서는 솔루션과 클래스 라이브러리 프로젝트 두 개를 만듭니다. 첫 번째 클래스 라이브러리에는 데이터 집합, 즉 응용 프로그램 데이터를 저장할 DataTables 및 생성되는 형식화된 DataSet 클래스가 포함됩니다. 이 프로젝트는 응용 프로그램의 데이터 엔터티 계층으로 사용되며 대개 중간 계층에 배치됩니다. 데이터 집합 디자이너 초기 데이터 집합을 만들고 자동으로 코드를 두 클래스 라이브러리로 분리 됩니다.  
+## <a name="creating-the-n-tier-solution-and-class-library-to-hold-the-dataset-dataentitytier"></a>N 계층 솔루션 및 데이터 세트을 저장할 클래스 라이브러리(DataEntityTier) 만들기  
+ 이 연습의 첫 단계에서는 솔루션과 클래스 라이브러리 프로젝트 두 개를 만듭니다. 첫 번째 클래스 라이브러리에는 데이터 세트, 즉 애플리케이션 데이터를 저장할 DataTables 및 생성되는 형식화된 DataSet 클래스가 포함됩니다. 이 프로젝트는 애플리케이션의 데이터 엔터티 계층으로 사용되며 대개 중간 계층에 배치됩니다. 데이터 집합 디자이너 초기 데이터 집합을 만들고 자동으로 코드를 두 클래스 라이브러리로 분리 됩니다.  
   
 > [!NOTE]
 > **확인**을 클릭하기 전에 프로젝트와 솔루션의 이름을 올바르게 지정해야 합니다. 그러면 이 연습을 보다 쉽게 완료할 수 있습니다.  
@@ -98,13 +98,13 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
   
      DataAccessTier 프로젝트가 만들어져 NTierWalkthrough 솔루션에 추가됩니다.  
   
-## <a name="creating-the-dataset"></a>데이터 집합 만들기  
- 다음 단계에서는 형식화된 데이터 집합을 만듭니다. 단일 프로젝트에서 DataTables 클래스를 비롯한 데이터 집합 클래스와 `TableAdapter` 클래스를 모두 사용하여 형식화된 데이터 집합을 만듭니다. 모든 클래스는 단일 파일로 생성됩니다. 데이터 집합과 `TableAdapter`를 각기 다른 프로젝트로 분리할 때는 데이터 집합 클래스가 다른 프로젝트로 이동되며 `TableAdapter` 클래스는 원래 프로젝트에 남습니다. 그러므로 최종적으로 `TableAdapter`를 포함할 프로젝트(DataAccessTier 프로젝트)에 데이터 집합을 만듭니다. 사용 하 여 데이터 집합을 만들려는 합니다 **데이터 소스 구성 마법사**합니다.  
+## <a name="creating-the-dataset"></a>데이터 세트 만들기  
+ 다음 단계에서는 형식화된 데이터 세트을 만듭니다. 단일 프로젝트에서 DataTables 클래스를 비롯한 데이터 세트 클래스와 `TableAdapter` 클래스를 모두 사용하여 형식화된 데이터 세트을 만듭니다. 모든 클래스는 단일 파일로 생성됩니다. 데이터 집합과 `TableAdapter`를 각기 다른 프로젝트로 분리할 때는 데이터 집합 클래스가 다른 프로젝트로 이동되며 `TableAdapter` 클래스는 원래 프로젝트에 남습니다. 그러므로 최종적으로 `TableAdapter`를 포함할 프로젝트(DataAccessTier 프로젝트)에 데이터 세트을 만듭니다. 사용 하 여 데이터 집합을 만들려는 합니다 **데이터 소스 구성 마법사**합니다.  
   
 > [!NOTE]
 > 연결을 만들려면 Northwind 샘플 데이터베이스에 액세스해야 합니다.
   
-#### <a name="to-create-the-dataset"></a>데이터 집합을 만들려면  
+#### <a name="to-create-the-dataset"></a>데이터 세트을 만들려면  
   
 1. DataAccessTier를 클릭 **솔루션 탐색기**합니다.  
   
@@ -135,10 +135,10 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
   
      NorthwindDataSet이 DataAccessTier 프로젝트에 추가되고 **데이터 원본** 창에 표시됩니다.  
   
-## <a name="separating-the-tableadapters-from-the-dataset"></a>데이터 집합에서 TableAdapters 분리  
- 데이터 집합을 만든 후에는 생성된 데이터 집합 클래스를 TableAdapters에서 분리합니다. 이렇게 하려면 **데이터 세트 프로젝트** 속성을 분리된 데이터 세트 클래스를 저장할 프로젝트의 이름으로 설정합니다.  
+## <a name="separating-the-tableadapters-from-the-dataset"></a>데이터 세트에서 TableAdapters 분리  
+ 데이터 세트을 만든 후에는 생성된 데이터 세트 클래스를 TableAdapters에서 분리합니다. 이렇게 하려면 **데이터 세트 프로젝트** 속성을 분리된 데이터 세트 클래스를 저장할 프로젝트의 이름으로 설정합니다.  
   
-#### <a name="to-separate-the-tableadapters-from-the-dataset"></a>데이터 집합에서 TableAdapters를 분리하려면  
+#### <a name="to-separate-the-tableadapters-from-the-dataset"></a>데이터 세트에서 TableAdapters를 분리하려면  
   
 1. **솔루션 탐색기**에서 **NorthwindDataSet.xsd**를 두 번 클릭하여 **데이터 세트 디자이너**에서 데이터 세트를 엽니다.  
   
@@ -150,15 +150,15 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
   
 5. **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.  
   
-   데이터 집합 및 TableAdapters가 두 클래스 라이브러리 프로젝트로 분리됩니다. 원래 전체 데이터 집합(DataAccessTier)이 포함되었던 프로젝트에 이제는 TableAdapters만이 포함됩니다. 에 지정 된 프로젝트를 **데이터 집합 프로젝트** 형식화 된 데이터 집합을 포함 하는 속성 (DataEntityTier): 집합인 NorthwindDataSet.Dataset.Designer.vb 또는 NorthwindDataSet.Dataset.Designer.cs입니다.  
+   데이터 세트 및 TableAdapters가 두 클래스 라이브러리 프로젝트로 분리됩니다. 원래 전체 데이터 세트(DataAccessTier)이 포함되었던 프로젝트에 이제는 TableAdapters만이 포함됩니다. 에 지정 된 프로젝트를 **데이터 집합 프로젝트** 형식화 된 데이터 집합을 포함 하는 속성 (DataEntityTier): 집합인 NorthwindDataSet.Dataset.Designer.vb 또는 NorthwindDataSet.Dataset.Designer.cs입니다.  
   
 > [!NOTE]
-> **데이터 세트 프로젝트** 속성을 설정하여 데이터 세트와 TableAdapters를 분리할 때는 프로젝트의 기존 부분 데이터 세트 클래스가 자동으로 이동되지 않습니다. 따라서 데이터 집합 프로젝트로 기존 데이터 집합 부분 클래스를 수동으로 이동해야 합니다.  
+> **데이터 세트 프로젝트** 속성을 설정하여 데이터 세트와 TableAdapters를 분리할 때는 프로젝트의 기존 부분 데이터 세트 클래스가 자동으로 이동되지 않습니다. 따라서 데이터 세트 프로젝트로 기존 데이터 세트 부분 클래스를 수동으로 이동해야 합니다.  
   
-## <a name="creating-a-new-service-application"></a>새 서비스 응용 프로그램 만들기  
- 이 연습에서는 WCF 서비스를 사용하여 데이터 액세스 계층에 액세스하는 방법을 설명하므로 새 WCF 서비스 응용 프로그램을 만듭니다.  
+## <a name="creating-a-new-service-application"></a>새 서비스 애플리케이션 만들기  
+ 이 연습에서는 WCF 서비스를 사용하여 데이터 액세스 계층에 액세스하는 방법을 설명하므로 새 WCF 서비스 애플리케이션을 만듭니다.  
   
-#### <a name="to-create-a-new-wcf-service-application"></a>새 WCF 서비스 응용 프로그램을 만들려면  
+#### <a name="to-create-a-new-wcf-service-application"></a>새 WCF 서비스 애플리케이션을 만들려면  
   
 1. **파일** 메뉴에서 NTierWalkthrough 솔루션에 새 프로젝트를 추가 합니다.  
   
@@ -204,7 +204,7 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
 7. **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.  
   
 ## <a name="adding-a-reference-to-the-data-entity-and-data-access-tiers-to-the-data-service"></a>데이터 엔터티 및 데이터 액세스 계층에 대한 참조를 데이터 서비스에 추가  
- 데이터 서비스에는 데이터 집합 및 TableAdapters의 정보가 필요하므로 DataEntityTier 및 DataAccessTier 프로젝트에 대한 참조를 추가합니다.  
+ 데이터 서비스에는 데이터 세트 및 TableAdapters의 정보가 필요하므로 DataEntityTier 및 DataAccessTier 프로젝트에 대한 참조를 추가합니다.  
   
 #### <a name="to-add-references-to-the-data-service"></a>데이터 서비스에 참조를 추가하려면  
   
@@ -283,7 +283,7 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
 5. **빌드** 메뉴에서 **솔루션 빌드**를 클릭합니다.  
   
 ## <a name="creating-a-presentation-tier-to-display-data-from-the-data-service"></a>데이터 서비스의 데이터를 표시할 표시 계층 만들기  
- 이제 데이터 액세스 계층으로 호출할 메서드가 포함된 데이터 서비스가 솔루션에 포함되어 있으므로 데이터 서비스로 호출하여 사용자에게 데이터를 표시할 또 다른 프로젝트를 만듭니다. 이 연습에서는 N 계층 응용 프로그램의 표시 계층인 Windows Forms 응용 프로그램을 만듭니다.  
+ 이제 데이터 액세스 계층으로 호출할 메서드가 포함된 데이터 서비스가 솔루션에 포함되어 있으므로 데이터 서비스로 호출하여 사용자에게 데이터를 표시할 또 다른 프로젝트를 만듭니다. 이 연습에서는 N 계층 애플리케이션의 표시 계층인 Windows Forms 애플리케이션을 만듭니다.  
   
 #### <a name="to-create-the-presentation-tier-project"></a>표시 계층 프로젝트를 만들려면  
   
@@ -296,14 +296,14 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
 4. PresentationTier 프로젝트가 만들어져 NTierWalkthrough 솔루션에 추가됩니다.  
   
 ## <a name="setting-the-presentationtier-project-as-the-startup-project"></a>PresentationTier 프로젝트를 시작 프로젝트로 설정  
- 표시 계층은 데이터를 표시하고 데이터와 상호 작용하는 데 사용되는 실제 클라이언트 응용 프로그램이므로 PresentationTier 프로젝트를 시작 프로젝트로 설정해야 합니다.  
+ 표시 계층은 데이터를 표시하고 데이터와 상호 작용하는 데 사용되는 실제 클라이언트 애플리케이션이므로 PresentationTier 프로젝트를 시작 프로젝트로 설정해야 합니다.  
   
 #### <a name="to-set-the-new-presentation-tier-project-as-the-startup-project"></a>새 표시 계층 프로젝트를 시작 프로젝트로 설정하려면  
   
 - **솔루션 탐색기**에서 **PresentationTier**를 마우스 오른쪽 단추로 클릭하고 **시작 프로젝트로 설정**을 클릭합니다.  
   
 ## <a name="adding-references-to-the-presentation-tier"></a>표시 계층에 대한 참조 추가  
- 클라이언트 응용 프로그램 PresentationTier가 서비스의 메서드에 액세스하려면 데이터 서비스에 대한 서비스 참조가 필요합니다. WCF 서비스를 통한 형식 공유를 사용하도록 설정하려면 데이터 집합에 대한 참조도 필요합니다. 데이터 서비스를 통해 형식 공유를 사용하도록 설정할 때까지는 부분 데이터 집합 클래스에 추가한 코드를 표시 계층에서 사용할 수 없습니다. 일반적으로는 유효성 검사 등의 코드를 데이터 테이블의 행 및 열 변경 이벤트에 추가하므로 클라이언트에서 이 코드에 액세스할 가능성이 높습니다.  
+ 클라이언트 애플리케이션 PresentationTier가 서비스의 메서드에 액세스하려면 데이터 서비스에 대한 서비스 참조가 필요합니다. WCF 서비스를 통한 형식 공유를 사용하도록 설정하려면 데이터 세트에 대한 참조도 필요합니다. 데이터 서비스를 통해 형식 공유를 사용하도록 설정할 때까지는 부분 데이터 세트 클래스에 추가한 코드를 표시 계층에서 사용할 수 없습니다. 일반적으로는 유효성 검사 등의 코드를 데이터 테이블의 행 및 열 변경 이벤트에 추가하므로 클라이언트에서 이 코드에 액세스할 가능성이 높습니다.  
   
 #### <a name="to-add-a-reference-to-the-presentation-tier"></a>표시 계층에 대한 참조를 추가하려면  
   
@@ -379,9 +379,9 @@ N-계층 * 데이터 응용 프로그램은 여러 논리 계층으로 분리 �
 2. Customers 및 Orders 테이블의 데이터가 데이터 서비스에서 검색되어 폼에 표시됩니다.  
   
 ## <a name="next-steps"></a>다음 단계  
- 응용 프로그램 요구 사항에 따라 Windows 기반 응용 프로그램에서 관련 데이터를 저장한 후 몇 단계를 더 수행해야 할 수도 있습니다. 예를 들어 이 응용 프로그램을 다음과 같이 개선할 수 있습니다.  
+ 애플리케이션 요구 사항에 따라 Windows 기반 애플리케이션에서 관련 데이터를 저장한 후 몇 단계를 더 수행해야 할 수도 있습니다. 예를 들어 이 애플리케이션을 다음과 같이 개선할 수 있습니다.  
   
-- 데이터 집합에 유효성 검사 기능을 추가합니다. 내용은 [연습: N 계층 데이터 응용 프로그램에 유효성 검사 추가](https://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265)합니다.  
+- 데이터 세트에 유효성 검사 기능을 추가합니다. 내용은 [연습: N 계층 데이터 응용 프로그램에 유효성 검사 추가](https://msdn.microsoft.com/library/b35d072c-31f0-49ba-a225-69177592c265)합니다.  
   
 - 데이터를 데이터베이스로 다시 업데이트하기 위한 추가 메서드를 서비스에 추가합니다.  
   

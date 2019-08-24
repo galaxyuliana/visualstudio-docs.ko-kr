@@ -16,7 +16,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "63406961"
 ---
 # <a name="how-to-include-prerequisites-with-a-clickonce-application"></a>방법: ClickOnce 애플리케이션의 필수 구성 요소 포함
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램에 필요한 구성 요소 소프트웨어를 배포하기 전에 먼저 이러한 필수 구성 요소용 설치 관리자 패키지를 개발 컴퓨터로 다운로드해야 합니다. 애플리케이션을 게시하고 **내 애플리케이션과 동일한 위치에서 필수 구성 요소 다운로드**를 선택할 경우, 설치 관리자 패키지가 **패키지** 폴더에 있지 않으면 오류가 발생합니다.
+[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션에 필요한 구성 요소 소프트웨어를 배포하기 전에 먼저 이러한 필수 구성 요소용 설치 관리자 패키지를 개발 컴퓨터로 다운로드해야 합니다. 애플리케이션을 게시하고 **내 애플리케이션과 동일한 위치에서 필수 구성 요소 다운로드**를 선택할 경우, 설치 관리자 패키지가 **패키지** 폴더에 있지 않으면 오류가 발생합니다.
 
 > [!NOTE]
 > .NET Framework 용 설치 관리자 패키지를 추가 하려면 참조 [개발자를 위한.NET Framework 배포 가이드](/dotnet/framework/deployment/deployment-guide-for-developers)합니다.
@@ -47,7 +47,7 @@ ms.locfileid: "63406961"
 
     예를 들어 Windows Installer 4.5 필수 구성 요소의 경우 파일을 *\Packages\WindowsInstaller4_5* 폴더에 복사합니다.
 
-    이제 응용 프로그램으로 설치 관리자 패키지를 배포할 수 있습니다.
+    이제 애플리케이션으로 설치 관리자 패키지를 배포할 수 있습니다.
 
 ## <a name="see-also"></a>참고자료
 - [방법: ClickOnce 응용 프로그램을 사용 하 여 필수 조건 설치](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)

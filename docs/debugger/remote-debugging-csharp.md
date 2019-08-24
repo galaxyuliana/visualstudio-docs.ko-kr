@@ -55,7 +55,7 @@ ms.locfileid: "63408530"
 > 추가 사용자에 대 한 사용 권한을 추가 하는 인증 모드를 변경 하거나 원격 디버거의 포트 번호에 필요한 경우 참조 [원격 디버거 구성](../debugger/remote-debugging.md#configure_msvsmon)합니다.
 
 ## <a name="remote_csharp"></a> 프로젝트 원격 디버그
-디버거는 원격 컴퓨터에 Visual C# 또는 Visual Basic 데스크톱 응용 프로그램을 배포할 수 없지만 다음과 같이 원격으로 계속 디버그할 수 있습니다. 다음 절차 라는 컴퓨터에서 디버깅 하 려 한다고 가정 **MJO DL**아래 그림에 나와 있는 것 처럼 합니다.
+디버거는 원격 컴퓨터에 Visual C# 또는 Visual Basic 데스크톱 애플리케이션을 배포할 수 없지만 다음과 같이 원격으로 계속 디버그할 수 있습니다. 다음 절차 라는 컴퓨터에서 디버깅 하 려 한다고 가정 **MJO DL**아래 그림에 나와 있는 것 처럼 합니다.
 
 1. **MyWpf**라는 WPF 프로젝트를 만듭니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "63408530"
 
 8. 프로젝트를 빌드합니다.
 
-9. Visual Studio 컴퓨터의 **Debug** 폴더와 동일한 경로인 폴더를 원격 컴퓨터에 만듭니다(**\<source path>\MyWPF\MyWPF\bin\Debug**).
+9. Visual Studio 컴퓨터의 **Debug** 폴더와 동일한 경로인 폴더를 원격 컴퓨터에 만듭니다( **\<source path>\MyWPF\MyWPF\bin\Debug**).
 
 10. Visual Studio 컴퓨터에서 방금 빌드한 실행 파일을 원격 컴퓨터에서 새로 만든 폴더에 복사합니다.
 

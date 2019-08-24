@@ -27,9 +27,9 @@ ms.locfileid: "65683088"
 # <a name="walkthrough-debugging-a-multithreaded-application"></a>연습: 다중 스레드 응용 프로그램 디버깅
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 향상 된 제공 **스레드** 창 및 기타 사용자 인터페이스가 디버그 다중 스레드 응용 프로그램을 쉽게 수행할 수 있도록 향상 되었습니다. 이 연습은 몇 분 정도 소요되지만 연습을 완료하면 다중 스레드 응용 프로그램 디버깅을 위한 새로운 인터페이스 기능에 익숙해질 수 있습니다.  
+[!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] 향상 된 제공 **스레드** 창 및 기타 사용자 인터페이스가 디버그 다중 스레드 응용 프로그램을 쉽게 수행할 수 있도록 향상 되었습니다. 이 연습은 몇 분 정도 소요되지만 연습을 완료하면 다중 스레드 애플리케이션 디버깅을 위한 새로운 인터페이스 기능에 익숙해질 수 있습니다.  
   
- 이 연습을 시작하려면 다중 스레드 응용 프로그램 프로젝트가 필요합니다. 여기에 나열된 단계에 따라 프로젝트를 만드십시오.  
+ 이 연습을 시작하려면 다중 스레드 애플리케이션 프로젝트가 필요합니다. 여기에 나열된 단계에 따라 프로젝트를 만드십시오.  
   
 #### <a name="to-create-the-walkthrough-project"></a>연습 프로젝트를 만들려면  
   
@@ -78,9 +78,9 @@ Console.WriteLine();
   
 2. **디버그** 메뉴에서 **디버깅 시작**을 클릭합니다.  
   
-     디버깅을 시작하면 콘솔 응용 프로그램이 실행되다가 중단점에서 중지됩니다.  
+     디버깅을 시작하면 콘솔 애플리케이션이 실행되다가 중단점에서 중지됩니다.  
   
-3. 이때 콘솔 응용 프로그램 창에 포커스가 있으면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창을 클릭하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]로 포커스를 되돌립니다.  
+3. 이때 콘솔 애플리케이션 창에 포커스가 있으면 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 창을 클릭하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]로 포커스를 되돌립니다.  
   
 4. 소스 창에서 다음 코드가 있는 줄을 찾습니다.  
   

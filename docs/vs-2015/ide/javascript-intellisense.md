@@ -77,9 +77,9 @@ IntelliSense를 사용하면 코드를 작성하는 동안 적절한 정보가 �
 
 - XML Web services에 대한 참조
 
-- 웹 응용 프로그램이 AJAX 사용 ASP.NET 응용 프로그램인 경우 <xref:System.Web.UI.ScriptManager> 및 <xref:System.Web.UI.ScriptManagerProxy> 컨트롤입니다.
+- 웹 애플리케이션이 AJAX 사용 ASP.NET 애플리케이션인 경우 <xref:System.Web.UI.ScriptManager> 및 <xref:System.Web.UI.ScriptManagerProxy> 컨트롤입니다.
 
-- AJAX 사용 ASP.NET 웹 응용 프로그램에서 작업하는 경우 [!INCLUDE[atlaslib_current_ext](../includes/atlaslib-current-ext-md.md)]
+- AJAX 사용 ASP.NET 웹 애플리케이션에서 작업하는 경우 [!INCLUDE[atlaslib_current_ext](../includes/atlaslib-current-ext-md.md)]
 
     > [!NOTE]
     > HTML 요소의 이벤트 처리기 특성에 있는 스크립트나 `href` 특성에 정의되어 있는 스크립트에서는 IntelliSense가 지원되지 않습니다.
@@ -157,7 +157,7 @@ IntelliSense를 사용하면 코드를 작성하는 동안 적절한 정보가 �
 </asp:ScriptManager>
 ```
 
- IntelliSense는 ASP.NET AJAX 웹 응용 프로그램에서 어셈블리의 리소스로 포함된 스크립트 파일도 지원합니다. 포함된 스크립트 리소스에 대한 자세한 내용은 [연습: JavaScript 파일을 어셈블리에 리소스로 포함](https://msdn.microsoft.com/library/d8cb78cd-95a9-4dc6-92df-391866817e89)을 참조하세요.
+ IntelliSense는 ASP.NET AJAX 웹 애플리케이션에서 어셈블리의 리소스로 포함된 스크립트 파일도 지원합니다. 포함된 스크립트 리소스에 대한 자세한 내용은 [연습: JavaScript 파일을 어셈블리에 리소스로 포함](https://msdn.microsoft.com/library/d8cb78cd-95a9-4dc6-92df-391866817e89)을 참조하세요.
 
 #### <a name="ReferenceDirectives"></a> 참조 지시문
  `reference` 지시문을 사용하면 [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)]에서 현재 편집하고 있는 스크립트와 다른 스크립트 사이에 관계를 설정할 수 있습니다. `reference` 지시문을 사용하면 현재 스크립트 파일의 스크립팅 컨텍스트에 스크립트 파일을 포함시킬 수 있습니다. 그러면 코드를 작성할 때 외부에서 정의된 함수, 형식 및 필드를 참조할 수 있습니다.
@@ -189,7 +189,7 @@ IntelliSense를 사용하면 코드를 작성하는 동안 적절한 정보가 �
  `/// <reference path="~/Services/MyService.asmx" />`
 
 > [!NOTE]
-> WAP(웹 응용 프로그램 프로젝트)의 웹 서비스 파일(.asmx)에 포함된 스크립트에서는 JavaScript IntelliSense가 지원되지 않습니다.
+> WAP(웹 애플리케이션 프로젝트)의 웹 서비스 파일(.asmx)에 포함된 스크립트에서는 JavaScript IntelliSense가 지원되지 않습니다.
 
  다음 예제에서는 페이지 기반 스크립트를 참조하는 방법을 보여 줍니다.
 
@@ -213,7 +213,7 @@ IntelliSense를 사용하면 코드를 작성하는 동안 적절한 정보가 �
 
 - 페이지 참조가 지정되면 다른 형식의 참조 지시문은 사용할 수 없습니다.
 
-- 파일 이름에는 상대 경로를 사용합니다. 물결표 연산자(`~`)를 사용하여 응용 프로그램 루트에 상대적인 경로를 만들 수 있습니다.
+- 파일 이름에는 상대 경로를 사용합니다. 물결표 연산자(`~`)를 사용하여 애플리케이션 루트에 상대적인 경로를 만들 수 있습니다.
 
 - 절대 경로는 무시됩니다.
 

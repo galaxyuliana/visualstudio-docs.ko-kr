@@ -34,7 +34,7 @@ ms.locfileid: "62949597"
     > 도구 상자는 주어진 이름의 활동을 하나만 표시할 수 있습니다. 다른 어셈블리의 두 활동의 클래스 이름이 같은 경우 하나만 표시됩니다.
 
     > [!NOTE]
-    > 응용 프로그램 도메인은 편집기 인스턴스 간에 공유되며 정적 변수를 사용하는 경우에도 편집기 인스턴스 간에 공유됩니다. 원하는 동작이 아닌 경우 인스턴스를 추적하는 데 서비스를 사용해야 합니다. 참조 [ModelItem 편집 컨텍스트를 사용 하 여](/dotnet/framework/windows-workflow-foundation/using-the-modelitem-editing-context) 디자이너 내에서 서비스를 사용 하는 정보에 대 한 합니다.
+    > 애플리케이션 도메인은 편집기 인스턴스 간에 공유되며 정적 변수를 사용하는 경우에도 편집기 인스턴스 간에 공유됩니다. 원하는 동작이 아닌 경우 인스턴스를 추적하는 데 서비스를 사용해야 합니다. 참조 [ModelItem 편집 컨텍스트를 사용 하 여](/dotnet/framework/windows-workflow-foundation/using-the-modelitem-editing-context) 디자이너 내에서 서비스를 사용 하는 정보에 대 한 합니다.
 
 ## <a name="to-add-an-activity-from-within-a-different-project"></a>다른 프로젝트에서 활동을 추가하려면
 

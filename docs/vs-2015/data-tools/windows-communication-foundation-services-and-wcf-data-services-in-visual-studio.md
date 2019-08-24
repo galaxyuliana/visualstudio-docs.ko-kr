@@ -102,7 +102,7 @@ Visual Studio는 Windows Communication Foundation (WCF)를 사용 하 여 작업
  WCF 서비스 호스트에 대 한 자세한 내용은 참조 하세요 [WCF 서비스 호스트 (WcfSvcHost.exe)](https://msdn.microsoft.com/library/8643a63d-a357-4c39-bd6c-cdfdf71e370e)합니다.
 
 #### <a name="wcf-test-client"></a>WCF 테스트 클라이언트
- WCF 테스트 클라이언트 도구 테스트 매개 변수 입력, 제출 하는 WCF 서비스에 입력 수 있으며 서비스를 다시 보내는 응답을 봅니다. WCF 서비스 호스트를 사용 하 여 결합 하는 경우 환경 테스트 서비스를 편리 하 게 제공 합니다. 이 도구는 c: 드라이브에 설치 된 Visual Studio 2015 용는 \Common7\IDE 폴더에서 찾을 수 있습니다. **C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\\**.
+ WCF 테스트 클라이언트 도구 테스트 매개 변수 입력, 제출 하는 WCF 서비스에 입력 수 있으며 서비스를 다시 보내는 응답을 봅니다. WCF 서비스 호스트를 사용 하 여 결합 하는 경우 환경 테스트 서비스를 편리 하 게 제공 합니다. 이 도구는 c: 드라이브에 설치 된 Visual Studio 2015 용는 \Common7\IDE 폴더에서 찾을 수 있습니다. **C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\\** .
 
  WCF 서비스 프로젝트를 디버그 하려면 f5 키를 누르면 WCF 테스트 클라이언트 열리고 구성 파일에 정의 된 서비스 끝점의 목록을 표시 합니다. 매개 변수를 테스트 하 고 및 서비스를 시작 하 고, 지속적으로 테스트 하 고 서비스의 유효성을 검사 하는이 프로세스를 반복 수 합니다.
 
@@ -242,7 +242,7 @@ Visual Studio는 Windows Communication Foundation (WCF)를 사용 하 여 작업
 |[서비스 참조 문제 해결](../data-tools/troubleshooting-service-references.md)|서비스 참조 및 방지 하는 방법을 사용 하 여 발생할 수 있는 몇 가지 일반적인 오류를 표시 합니다.|
 |[WCF 서비스 디버그](../debugger/debugging-wcf-services.md)|일반적인 디버깅 문제와 WCF 서비스를 디버깅할 때 발생할 수 있는 기술에 설명 합니다.|
 |[Windows Communication Foundation 인증 서비스 개요](https://msdn.microsoft.com/library/6e121a28-89e8-4974-88a8-70aaa6a7d52b)|WCF를 사용 하 여 웹 사이트에 대 한 역할 서비스를 제공 하는 방법에 설명 합니다.|
-|[연습: N 계층 데이터 애플리케이션 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md)|형식화된 데이터 집합을 만들고 TableAdapter 및 데이터 집합 코드를 여러 프로젝트로 분리하는 단계별 지침을 제공합니다.|
+|[연습: N 계층 데이터 애플리케이션 만들기](../data-tools/walkthrough-creating-an-n-tier-data-application.md)|형식화된 데이터 세트을 만들고 TableAdapter 및 데이터 세트 코드를 여러 프로젝트로 분리하는 단계별 지침을 제공합니다.|
 |[서비스 참조 구성 대화 상자](../data-tools/configure-service-reference-dialog-box.md)|사용자 인터페이스 요소에 설명 합니다 **서비스 참조 구성** 대화 상자.|
 
 ## <a name="reference"></a>참조

@@ -162,7 +162,7 @@ ms.locfileid: "67890473"
 
    이제 시각화 도우미 DLL을 호출하기 위한 실행 파일 프로젝트를 만들어야 합니다. 간단히 하기 위해 콘솔 응용 프로그램 프로젝트를 사용 합니다.
 
-#### <a name="to-add-a-console-application-project-to-the-solution"></a>솔루션에 콘솔 응용 프로그램 프로젝트를 추가하려면
+#### <a name="to-add-a-console-application-project-to-the-solution"></a>솔루션에 콘솔 애플리케이션 프로젝트를 추가하려면
 
 1. 에 **파일** 메뉴에서 선택 **추가** 을 클릭 한 다음 **새 프로젝트**합니다.
 

@@ -38,7 +38,7 @@ Visual Studio를 사용 하 여 Access 데이터베이스 (.mdf 파일 또는.ac
 ## <a name="creating-the-dataset-for-an-accdb-file"></a>.accdb 파일에 대한 데이터 세트 만들기  
  다음 절차를 사용 하 여 Access 2013, Office 365, Access 2010 또는 Access 2007을 통해 만든 데이터베이스에 연결할 수 있습니다.  
   
-#### <a name="to-create-the-dataset"></a>데이터 집합을 만들려면  
+#### <a name="to-create-the-dataset"></a>데이터 세트을 만들려면  
   
 1. 데이터를 연결하려는 Windows Forms 애플리케이션을 엽니다.  
   
@@ -85,7 +85,7 @@ Visual Studio를 사용 하 여 Access 데이터베이스 (.mdf 파일 또는.ac
 ## <a name="creating-the-dataset-for-an-mdb-file"></a>.Mdb 파일에 대 한 데이터 집합 만들기  
  데이터 세트는 **데이터 원본 구성 마법사**를 실행하여 만듭니다.  
   
-#### <a name="to-create-the-dataset"></a>데이터 집합을 만들려면  
+#### <a name="to-create-the-dataset"></a>데이터 세트을 만들려면  
   
 1. 데이터를 연결하려는 Windows Forms 애플리케이션을 엽니다.  
   
@@ -118,7 +118,7 @@ Visual Studio를 사용 하 여 Access 데이터베이스 (.mdf 파일 또는.ac
      데이터 세트가 프로젝트에 추가되고 테이블과 뷰가 **데이터 원본** 창에 나타납니다.  
   
 ## <a name="security"></a>보안  
- 중요한 정보(예: 암호)를 저장하면 응용 프로그램 보안 문제가 발생할 수 있습니다. 데이터베이스 액세스를 제어할 경우에는 통합 보안이라고도 하는 Windows 인증을 사용하는 방법이 더 안전합니다. 자세한 내용은 [연결 정보 보호](https://msdn.microsoft.com/library/1471f580-bcd4-4046-bdaf-d2541ecda2f4)를 참조하세요.  
+ 중요한 정보(예: 암호)를 저장하면 애플리케이션 보안 문제가 발생할 수 있습니다. 데이터베이스 액세스를 제어할 경우에는 통합 보안이라고도 하는 Windows 인증을 사용하는 방법이 더 안전합니다. 자세한 내용은 [연결 정보 보호](https://msdn.microsoft.com/library/1471f580-bcd4-4046-bdaf-d2541ecda2f4)를 참조하세요.  
   
 ## <a name="next-steps"></a>다음 단계  
  방금 만든 데이터 집합에서 제공 됩니다. 합니다 **데이터 원본** 창입니다. 다음 작업 중 어떤 작업이든 수행할 수 있습니다.  

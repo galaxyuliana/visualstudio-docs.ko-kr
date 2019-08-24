@@ -48,7 +48,7 @@ ms.locfileid: "63438601"
 - Microsoft Excel
 
 ## <a name="create-an-excel-workbook-project"></a>Excel 통합 문서 프로젝트 만들기
- 리본 디자이너를 사용하는 단계는 모든 Office 응용 프로그램에서 거의 동일합니다. 이 예제에서는 Excel 통합 문서를 사용합니다.
+ 리본 디자이너를 사용하는 단계는 모든 Office 애플리케이션에서 거의 동일합니다. 이 예제에서는 Excel 통합 문서를 사용합니다.
 
 ### <a name="to-create-an-excel-workbook-project"></a>Excel 통합 문서 프로젝트를 만들려면
 

@@ -94,7 +94,7 @@ Xamarin용 Visual Studio Tools를 사용하면 동일한 솔루션 및 공유 �
 
  이러한 API는 크로스 플랫폼이기 때문에 작성하는 코드를 세 플랫폼 간에 대부분 공유할 수 있습니다. 따라서 개발 및 유지 관리 비용이 줄어듭니다. 또한 처음부터 다시 시작할 필요가 없습니다. 다양한 유형의 웹 애플리케이션을 만든 경우 어떤 방식으로든 수정하거나 다시 디자인할 필요 없이 해당 파일을 Cordova 앱과 공유할 수 있습니다.
 
- ![Javascript로 작성된 다중 장치 하이브리드 앱](../cross-platform/media/multidevicehybridapps.png "Javascript로 작성된 다중 장치 하이브리드 앱")
+ ![Javascript로 작성된 다중 디바이스 하이브리드 앱](../cross-platform/media/multidevicehybridapps.png "Javascript로 작성된 다중 디바이스 하이브리드 앱")
 
  시작하려면 Visual Studio를 설치하고 설정하는 동안 **JavaScript를 사용한 모바일 개발** 기능을 선택합니다. Cordova 도구는 다중 플랫폼 앱을 빌드하는 데 필요한 모든 타사 소프트웨어를 자동으로 설치합니다.
 

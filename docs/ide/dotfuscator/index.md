@@ -42,7 +42,7 @@ Dotfuscator는 원래 애플리케이션 동작은 유지하면서 .NET 어셈�
 
 **애플리케이션의 무결성을 보호**하는 것도 중요합니다.
 리버스 엔지니어링 외에도 악의적인 사용자가 애플리케이션을 불법 복제하거나, 런타임에 애플리케이션의 동작을 변경하거나, 데이터를 조작하려고 할 수 있습니다.
-Dotfuscator는 변조, 제3자 디버깅 및 루팅된 장치를 비롯한 [무단 사용을 감지 및 반응][checks]하는 기능을 애플리케이션에 삽입합니다.
+Dotfuscator는 변조, 제3자 디버깅 및 루팅된 디바이스를 비롯한 [무단 사용을 감지 및 반응][checks]하는 기능을 애플리케이션에 삽입합니다.
 
 Dotfuscator를 보안 소프트웨어 개발 수명 주기에 적용하는 방법에 대한 자세한 내용은 PreEmptive Solutions의 [SDL 응용 프로그램 보호 페이지][sdl-protection]를 참조하세요.
 
@@ -55,10 +55,10 @@ Dotfuscator Community는 개발자, 설계자 및 테스터를 위한 광범위�
 Dotfuscator Community에 포함된 [.NET Obfuscation][obfuscation] 및 기타 [애플리케이션 보호][app-protection] 기능의 예는 다음과 같습니다.
 
 * 식별자 *[이름 바꾸기][renaming]*  - 컴파일된 어셈블리의 리버스 엔지니어링을 더 어렵게 만듭니다.
-* [변조 방지][tamper]: 변조된 애플리케이션의 실행을 감지하고 변조된 세션을 종료하거나 이러한 세션에 응답합니다.
-* [디버그 방지][debug]: 실행 중인 애플리케이션에 대한 디버거 연결을 감지하고 디버그된 세션을 종료하거나 이러한 세션에 응답합니다.
-* [루팅 방지 장치][root]: 루팅된 Android 장치에서 애플리케이션이 실행되고 있는지 감지하고 이러한 장치의 세션을 종료하거나 세션에 응답합니다.
-* [애플리케이션 만료 동작][shelflife]: “수명 종료” 날짜를 인코드하고 만료된 애플리케이션 세션을 종료합니다.
+* [변조 방지][tamper]: 변조된 애플리케이션의 실행을 감지하고 변조된 세션을 종료하거나 이러한 세션에 응답합니다. 
+* [디버그 방지][debug]: 실행 중인 애플리케이션에 대한 디버거 연결을 감지하고 디버그된 세션을 종료하거나 이러한 세션에 응답합니다. 
+* [루팅 방지 디바이스][root]: 루팅된 Android 디바이스에서 애플리케이션이 실행되고 있는지 감지하고 이러한 디바이스의 세션을 종료하거나 세션에 응답합니다. 
+* [애플리케이션 만료 동작][shelflife]: “수명 종료” 날짜를 인코드하고 만료된 애플리케이션 세션을 종료합니다. 
 
 이러한 기능과 이러한 기능이 애플리케이션 보호 전략에 맞게 조정되는 방법에 대한 자세한 내용은 [기능 페이지][capabilities]를 참조하세요.
 
@@ -72,8 +72,8 @@ Dotfuscator를 강화하는 방법에 대한 자세한 내용은 [업그레이�
 
 Visual Studio에서 Dotfuscator Community 사용을 시작하려면 **검색 상자**(Ctrl+Q)에 `dotfuscator`를 입력합니다.
 
-* Dotfuscator Community가 이미 설치되어 있는 경우, **검색 상자**의 ‘메뉴’ 제목 아래에 Dotfuscator Community를 시작하는 옵션이 표시됩니다. 자세한 내용은 [전체 Dotfuscator Community 사용자 가이드의 시작하기 페이지][get-started]를 참조하세요.
-* Dotfuscator Community가 아직 설치되지 않은 경우, **검색 상자**의 ‘개별 구성 요소’ 제목 아래에 **PreEmptive Protection - Dotfuscator 설치**가 표시됩니다. 자세한 내용은 [설치 페이지][install]를 참조하세요.
+* Dotfuscator Community가 이미 설치되어 있는 경우, **검색 상자**의 ‘메뉴’ 제목 아래에 Dotfuscator Community를 시작하는 옵션이 표시됩니다.  자세한 내용은 [전체 Dotfuscator Community 사용자 가이드의 시작하기 페이지][get-started]를 참조하세요.
+* Dotfuscator Community가 아직 설치되지 않은 경우, **검색 상자**의 ‘개별 구성 요소’ 제목 아래에 **PreEmptive Protection - Dotfuscator 설치**가 표시됩니다.  자세한 내용은 [설치 페이지][install]를 참조하세요.
 
 ::: moniker-end
 
@@ -81,8 +81,8 @@ Visual Studio에서 Dotfuscator Community 사용을 시작하려면 **검색 상
 
 Visual Studio에서 Dotfuscator Community 사용을 시작하려면 **빠른 실행**(Ctrl+Q) 검색 창에 `dotfuscator`를 입력합니다.
 
-* Dotfuscator Community가 이미 설치되어 있으면 **빠른 실행**에 Dotfuscator Community 사용자 인터페이스를 시작하는 ‘메뉴’ 옵션이 표시됩니다. 자세한 내용은 [전체 Dotfuscator Community 사용자 가이드의 시작하기 페이지][get-started]를 참조하세요.
-* Dotfuscator Community가 아직 설치되어 있지 않은 경우 **빠른 실행**에 관련 ‘설치’ 옵션이 표시됩니다. 자세한 내용은 [설치 페이지][install]를 참조하세요.
+* Dotfuscator Community가 이미 설치되어 있으면 **빠른 실행**에 Dotfuscator Community 사용자 인터페이스를 시작하는 ‘메뉴’ 옵션이 표시됩니다.  자세한 내용은 [전체 Dotfuscator Community 사용자 가이드의 시작하기 페이지][get-started]를 참조하세요.
+* Dotfuscator Community가 아직 설치되어 있지 않은 경우 **빠른 실행**에 관련 ‘설치’ 옵션이 표시됩니다.  자세한 내용은 [설치 페이지][install]를 참조하세요.
 
 ::: moniker-end
 

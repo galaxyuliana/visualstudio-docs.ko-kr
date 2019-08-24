@@ -1,5 +1,5 @@
 ---
-title: 파일 저장소 및 XML Serialization 사용자 지정
+title: 파일 스토리지 및 XML Serialization 사용자 지정
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

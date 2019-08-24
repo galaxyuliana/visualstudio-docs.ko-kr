@@ -100,7 +100,7 @@ Microsoft.VisualStudio.Component.Azure.ResourceManager.Tools | Azure Resource Ma
 Microsoft.VisualStudio.Component.Azure.ServiceFabric.Tools | Service Fabric 도구 | 15.8.27825.0 | 권장
 Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services 핵심 도구 | 15.9.28107.0 | 권장
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services 빌드 도구 | 15.7.27617.1 | 권장
-Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅숏 디버거 | 15.8.28010.0 | 권장
+Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅샷 디버거 | 15.8.28010.0 | 권장
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET 프로파일링 도구 | 15.8.27729.1 | 권장
 Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 15.8.27729.1 | 권장
 Microsoft.VisualStudio.Component.WebDeploy | 웹 배포 | 15.8.27729.1 | 권장
@@ -566,7 +566,7 @@ Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러�
 Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 컴퓨팅 에뮬레이터 | 15.9.28307.421 | 권장
 Microsoft.VisualStudio.Component.Azure.Storage.Emulator | Azure Storage 계정 | 15.9.28125.51 | 권장
 Microsoft.VisualStudio.Component.CloudExplorer | 클라우드 탐색기 | 15.9.28230.55 | 권장
-Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅숏 디버거 | 15.8.28010.0 | 권장
+Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅샷 디버거 | 15.8.28010.0 | 권장
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET 프로파일링 도구 | 15.8.27729.1 | 권장
 Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 15.8.27729.1 | 권장
 Microsoft.VisualStudio.Component.LiveUnitTesting | Live Unit Testing | 15.0.26720.2 | 권장
@@ -693,7 +693,7 @@ Microsoft.VisualStudio.Component.Azure.ClientLibs | .NET용 Azure 라이브러�
 Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 컴퓨팅 에뮬레이터 | 15.9.28307.421 | 권장
 Microsoft.VisualStudio.Component.Azure.Storage.Emulator | Azure Storage 계정 | 15.9.28125.51 | 권장
 Microsoft.VisualStudio.Component.CloudExplorer | 클라우드 탐색기 | 15.9.28230.55 | 권장
-Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅숏 디버거 | 15.8.28010.0 | 권장
+Microsoft.VisualStudio.Component.Debugger.Snapshot | 스냅샷 디버거 | 15.8.28010.0 | 권장
 Microsoft.VisualStudio.Component.DiagnosticTools | .NET 프로파일링 도구 | 15.8.27729.1 | 권장
 Microsoft.VisualStudio.Component.EntityFramework | Entity Framework 6 도구 | 15.6.27406.0 | 권장
 Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 15.8.27729.1 | 권장

@@ -89,7 +89,7 @@ public void OnGet()
 <h2>It's @Model.Time right now on the server!</h2>
 ```
 
-응용 프로그램을 다시 실행합니다. 이제 페이지에는 현재 시간이 표시되지만 항상 자정이란 것을 알아야 합니다. 올바르지 않습니다.
+애플리케이션을 다시 실행합니다. 이제 페이지에는 현재 시간이 표시되지만 항상 자정이란 것을 알아야 합니다. 올바르지 않습니다.
 
 ![브라우저의 Visual Studio 2019 ASP.NET Core 프로젝트](media/vs-2019/vs2019-app-in-browser.png)
 

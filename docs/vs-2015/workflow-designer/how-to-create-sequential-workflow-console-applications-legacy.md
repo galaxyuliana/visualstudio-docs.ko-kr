@@ -21,9 +21,9 @@ ms.lasthandoff: 05/15/2019
 ms.locfileid: "65696354"
 ---
 # <a name="how-to-create-sequential-workflow-console-applications-legacy"></a>방법: 순차 워크플로 콘솔 애플리케이션 만들기(레거시)
-[!INCLUDE[wfd1](../includes/wfd1-md.md)]에서 제공하는 레거시 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용하여 순차 워크플로 콘솔 응용 프로그램 프로젝트를 만들려면 다음 단계를 따릅니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
+[!INCLUDE[wfd1](../includes/wfd1-md.md)]에서 제공하는 레거시 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용하여 순차 워크플로 콘솔 애플리케이션 프로젝트를 만들려면 다음 단계를 따릅니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
   
-### <a name="to-create-a-sequential-workflow-console-application"></a>순차 워크플로 콘솔 응용 프로그램을 만들려면  
+### <a name="to-create-a-sequential-workflow-console-application"></a>순차 워크플로 콘솔 애플리케이션을 만들려면  
   
 1. Visual Studio를 시작합니다.  
   
@@ -34,7 +34,7 @@ ms.locfileid: "65696354"
 3. 중 하나를 선택 합니다 **.NET Framework 3.0** 옵션 또는 **.NET Framework 3.5** 목록 맨 위에 있는 드롭다운에서 옵션을 **새 프로젝트** 레거시 디자이너에 액세스 하려면 창입니다.  
   
     > [!NOTE]
-    > 기본 옵션 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 됩니다 **.NET Framework 4**합니다. 이 옵션은 [!INCLUDE[wf](../includes/wf-md.md)]을 대상으로 하는 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 응용 프로그램을 만드는 데 사용합니다.  
+    > 기본 옵션 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 됩니다 **.NET Framework 4**합니다. 이 옵션은 [!INCLUDE[wf](../includes/wf-md.md)]을 대상으로 하는 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 애플리케이션을 만드는 데 사용합니다.  
   
 4. 에 **프로젝트 형식** 창, 선택 Visual C# 프로젝트나 Visual Basic 프로젝트 (아래 **다른 언어**)를 선택한 후 **워크플로**합니다.  
   

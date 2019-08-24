@@ -29,7 +29,7 @@ ms.locfileid: "68925360"
 ---
 # <a name="intellitrace-features-c-visual-basic-c"></a>IntelliTrace 기능 (C#, Visual Basic, C++)
 
-IntelliTrace를 사용하여 응용 프로그램의 이벤트 및 메서드 호출을 기록하고 실행 중 다양한 지점에서 상태(호출 스택 및 지역 변수 값)를 검사할 수 있습니다. 평소와 같이 디버깅을 시작하면 됩니다. IntelliTrace가 기본적으로 설정되어 있으므로 **이벤트** 탭 아래의 새로운 **진단 도구** 창에서 IntelliTrace가 기록하는 정보를 확인할 수 있습니다. 이벤트를 선택하고 **기록 디버깅 활성화**를 클릭하면 호출 스택 및 이 이벤트에 대해 기록된 로컬 변수를 볼 수 있습니다.
+IntelliTrace를 사용하여 애플리케이션의 이벤트 및 메서드 호출을 기록하고 실행 중 다양한 지점에서 상태(호출 스택 및 지역 변수 값)를 검사할 수 있습니다. 평소와 같이 디버깅을 시작하면 됩니다. IntelliTrace가 기본적으로 설정되어 있으므로 **이벤트** 탭 아래의 새로운 **진단 도구** 창에서 IntelliTrace가 기록하는 정보를 확인할 수 있습니다. 이벤트를 선택하고 **기록 디버깅 활성화**를 클릭하면 호출 스택 및 이 이벤트에 대해 기록된 로컬 변수를 볼 수 있습니다.
 
 단계별 설명을 보려면 [연습: IntelliTrace](../debugger/walkthrough-using-intellitrace.md)사용.
 
@@ -61,7 +61,7 @@ IntelliTrace가 설정되어 있는지 확인하려면 **도구 > 옵션 > Intel
 이렇게 하면 호출 스택 이력을 참조하고 코드에서 호출을 통해 앞뒤로 이동할 수 있습니다. IntelliTrace는 메서드 이름, 메서드 시작/종료 지점, 특정 매개 변수 값, 반환 값 등의 데이터를 기록합니다.
 
 > [!TIP]
-> 이 옵션은 상당한 오버헤드를 추가하기 때문에 기본적으로 사용하도록 설정되어 있지 않습니다. IntelliTrace는 응용 프로그램에서 발생하는 모든 메서드 호출을 가로채야 할 뿐만 아니라 이를 화면에 표시하거나 디스크에 보관하기 위해서는 훨씬 더 큰 데이터 집합을 처리해야 합니다.
+> 이 옵션은 상당한 오버헤드를 추가하기 때문에 기본적으로 사용하도록 설정되어 있지 않습니다. IntelliTrace는 애플리케이션에서 발생하는 모든 메서드 호출을 가로채야 할 뿐만 아니라 이를 화면에 표시하거나 디스크에 보관하기 위해서는 훨씬 더 큰 데이터 세트을 처리해야 합니다.
 >
 > IntelliTrace가 기록하는 이벤트의 목록을 제한하고 수집하는 모듈 수를 최소한으로 유지하면 성능 오버헤드를 줄일 수 있습니다. 자세한 내용은 [IntelliTrace에서 기록하는 호출 정보의 양 제어](../debugger/intellitrace-features.md#ControlCallData)를 참조하세요.
 
@@ -94,7 +94,7 @@ IntelliTrace가 설정되어 있는지 확인하려면 **도구 > 옵션 > Intel
 
 ## <a name="SaveSession"></a>IntelliTrace 데이터를 파일에 저장C#합니다 (, C++Visual Basic,).
 
-디버그하는 동안 애플리케이션이 중단 상태일 때 **디버그 > IntelliTrace > IntelliTrace 세션 저장**으로 이동하여 IntelliTrace에서 수집된 데이터를 저장할 수 있습니다. 응용 프로그램이 계속 실행 중이거나 디버깅을 중지한 경우에는 해당 메뉴 항목이 비활성화되어 IntelliTrace에서 수집된 데이터를 저장할 수 없게 됩니다.
+디버그하는 동안 애플리케이션이 중단 상태일 때 **디버그 > IntelliTrace > IntelliTrace 세션 저장**으로 이동하여 IntelliTrace에서 수집된 데이터를 저장할 수 있습니다. 애플리케이션이 계속 실행 중이거나 디버깅을 중지한 경우에는 해당 메뉴 항목이 비활성화되어 IntelliTrace에서 수집된 데이터를 저장할 수 없게 됩니다.
 
 **도구 > 옵션 > IntelliTrace > 고급**으로 이동하고 **이 디렉터리에 IntelliTrace 기록 저장**을 선택하여 자동으로 파일에 저장하도록 IntelliTrace를 구성할 수 있습니다. 생성된 파일에 대해 집합 크기를 구성할 수도 있습니다. 그러면 공간이 부족할 때 IntelliTrace가 오래된 데이터를 덮어씁니다. Visual Studio는 자동으로 저장되고 Visual Studio 호스팅 프로세스(vshost.exe)가 켜져 있는 경우 각 IntelliTrace 세션에 대해 두 개의 파일을 만듭니다.
 

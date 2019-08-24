@@ -87,7 +87,7 @@ Mac용 Visual Studio를 설치하면 앱 코드 작성을 시작할 수 있습�
 ### <a name="ios"></a>iOS
 
 1. [Hello, iOS](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)
-2. [디바이스 프로비저닝](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning)(디바이스에서 응용 프로그램을 실행하려면).
+2. [디바이스 프로비저닝](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning)(디바이스에서 애플리케이션을 실행하려면).
 
 ### <a name="android"></a>Android
 

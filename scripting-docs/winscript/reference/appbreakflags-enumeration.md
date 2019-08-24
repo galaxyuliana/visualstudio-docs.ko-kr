@@ -25,7 +25,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "63009773"
 ---
 # <a name="appbreakflags-enumeration"></a>APPBREAKFLAGS 열거형
-현재 응용 프로그램 및 스레드에 대한 디버그 상태를 나타냅니다.  
+현재 애플리케이션 및 스레드에 대한 디버그 상태를 나타냅니다.  
   
 ## <a name="syntax"></a>구문  
   

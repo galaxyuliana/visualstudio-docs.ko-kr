@@ -236,7 +236,7 @@ Monitoring Agent는 `id`메서드에서 반환되는 `Employee.Id`, `Employee.Na
 
 1. 웹 서버에서 관리자 권한으로 Windows PowerShell 명령 프롬프트 창을 엽니다.
 
-2. [Checkpoint-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313684) 명령을 실행하여 IntelliTrace 로그의 스냅숏을 저장합니다.
+2. [Checkpoint-WebApplicationMonitoring](http://go.microsoft.com/fwlink/?LinkID=313684) 명령을 실행하여 IntelliTrace 로그의 스냅샷을 저장합니다.
 
     **Checkpoint-WebApplicationMonitoring** *"\<IISWebsiteName>\\<IISWebAppName\>"*
 

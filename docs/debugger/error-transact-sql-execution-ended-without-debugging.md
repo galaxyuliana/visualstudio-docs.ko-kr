@@ -30,7 +30,7 @@ ms.locfileid: "62850166"
 
 다음 두 가지 계정과 관련이 있습니다.
 
-- 응용 프로그램 계정은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]가 실행되는 사용자 계정입니다.
+- 애플리케이션 계정은 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]가 실행되는 사용자 계정입니다.
 
 - 연결 계정은 SQL Server에 연결하는 데 사용되는 ID입니다. 이 계정은 연결 SQL 인증을 사용 하는 것 처럼 Visual Studio가 실행 되는 id와 동일 하 게 반드시 합니다.
 

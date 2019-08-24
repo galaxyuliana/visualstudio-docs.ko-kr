@@ -28,7 +28,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62851903"
 ---
 # <a name="debugging-native-code"></a>네이티브 코드 디버깅
-이 단원에서는 네이티브 응용 프로그램의 몇 가지 일반적인 디버깅 문제와 기술에 대해 설명합니다. 이 단원에서 설명하는 기술은 높은 수준의 기술입니다. Visual Studio 디버거를 사용 하는 방법은 참조 하세요 [디버거 소개](../debugger/debugger-feature-tour.md)).
+이 단원에서는 네이티브 애플리케이션의 몇 가지 일반적인 디버깅 문제와 기술에 대해 설명합니다. 이 단원에서 설명하는 기술은 높은 수준의 기술입니다. Visual Studio 디버거를 사용 하는 방법은 참조 하세요 [디버거 소개](../debugger/debugger-feature-tour.md)).
 
 ## <a name="in-this-section"></a>섹션 내용
  [방법: 최적화 된 코드를 디버그](../debugger/how-to-debug-optimized-code.md) 프로그램을 디버그 및 릴리스 구성에 대 한 기본 최적화 설정의 최적화 되지 않은 버전을 디버깅 해야 하는 이유 특히, 최적화 된 코드를 디버깅 하는 것에 대 한 팁을 제공 하 고 찾기만 하는 버그에 대 한 팁 (디버그 빌드 구성 최적화 설정) 하는 최적화 된 코드에 표시 합니다.

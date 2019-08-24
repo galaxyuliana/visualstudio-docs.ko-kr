@@ -112,7 +112,7 @@ ms.locfileid: "63437732"
         `expand  /f:* IntelliTraceCollection.cab .`
 
        > [!NOTE]
-       > 마침표(**.**)는 지역화된 수집 계획을 포함하는 하위 폴더를 보존합니다.
+       > 마침표( **.** )는 지역화된 수집 계획을 포함하는 하위 폴더를 보존합니다.
 
 ## <a name="ConfigurePermissionsRunningCollector"></a> 수집기 디렉터리에 대한 사용 권한 설정
 
@@ -235,7 +235,7 @@ ms.locfileid: "63437732"
 
 2. 문제를 재현합니다.
 
-3. .iTrace 파일의 스냅숏을 만들려면 다음 구문을 사용합니다.
+3. .iTrace 파일의 스냅샷을 만들려면 다음 구문을 사용합니다.
 
      `Checkpoint-IntelliTraceCollection` `"` *\<ApplicationPool>* `"`
 

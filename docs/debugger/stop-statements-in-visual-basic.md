@@ -31,9 +31,9 @@ ms.locfileid: "62929744"
 
  Stop 문을 설정하거나 제거하려면 소스 코드를 편집해야 합니다. 중단점을 설정하거나 제거하는 것처럼 디버거 명령을 사용하여 Stop 문을 설정하거나 제거할 수는 없습니다.
 
- End 문과 달리, Stop 문은 변수를 다시 설정하거나 사용자를 디자인 모드로 되돌리지 않습니다. 디버그 메뉴에서 계속을 선택하면 계속 응용 프로그램을 실행할 수 있습니다.
+ End 문과 달리, Stop 문은 변수를 다시 설정하거나 사용자를 디자인 모드로 되돌리지 않습니다. 디버그 메뉴에서 계속을 선택하면 계속 애플리케이션을 실행할 수 있습니다.
 
- 디버거 외부에서 Visual Basic 응용 프로그램을 실행할 경우, Just-in-Time 디버깅이 활성화되면 Stop 문이 디버거를 실행합니다. Just-in-Time 디버깅이 활성화되지 않으면, Stop 문이 실행을 종료하는 End 문처럼 동작합니다. QueryUnload 이벤트나 Unload 이벤트가 발생하지 않으므로, Visual Basic 응용 프로그램의 릴리스 버전에서 모든 Stop 문을 제거해야 합니다. 자세한 내용은 [Just-In-Time 디버깅](../debugger/just-in-time-debugging-in-visual-studio.md)을 참조하세요.
+ 디버거 외부에서 Visual Basic 애플리케이션을 실행할 경우, Just-in-Time 디버깅이 활성화되면 Stop 문이 디버거를 실행합니다. Just-in-Time 디버깅이 활성화되지 않으면, Stop 문이 실행을 종료하는 End 문처럼 동작합니다. QueryUnload 이벤트나 Unload 이벤트가 발생하지 않으므로, Visual Basic 애플리케이션의 릴리스 버전에서 모든 Stop 문을 제거해야 합니다. 자세한 내용은 [Just-In-Time 디버깅](../debugger/just-in-time-debugging-in-visual-studio.md)을 참조하세요.
 
  다음과 같은 조건부 컴파일을 사용하면 이 경우에 Stop 문을 제거하지 않아도 됩니다.
 

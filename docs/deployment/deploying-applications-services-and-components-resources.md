@@ -22,7 +22,7 @@ ms.locfileid: "66263310"
 ---
 # <a name="overview-of-deployment-in-visual-studio"></a>Visual Studio에서 배포 개요
 
-다른 컴퓨터, 장치, 서버 또는 클라우드에 설치할 수 있도록 응용 프로그램, 서비스 또는 구성 요소를 배포할 수 있습니다. Visual Studio에서 필요한 배포 유형에 적합한 방법을 선택할 수 있습니다.
+다른 컴퓨터, 디바이스, 서버 또는 클라우드에 설치할 수 있도록 애플리케이션, 서비스 또는 구성 요소를 배포할 수 있습니다. Visual Studio에서 필요한 배포 유형에 적합한 방법을 선택할 수 있습니다.
 
 많은 일반적인 앱 형식의 경우 Visual Studio의 솔루션 탐색기에서 애플리케이션을 바로 배포할 수 있습니다. 이 기능의 둘러보기는 [배포 소개](../deployment/deploying-applications-services-and-components.md)를 참조하세요.
 

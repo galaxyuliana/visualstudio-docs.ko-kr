@@ -25,7 +25,7 @@ ms.locfileid: "65702977"
   
 - 데이터베이스 테이블을 만들고 그 안에 데이터를 추가합니다.  
   
-- Windows Forms 응용 프로그램을 만듭니다.  
+- Windows Forms 애플리케이션을 만듭니다.  
   
 - [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 파일을 프로젝트에 추가합니다.  
   
@@ -89,7 +89,7 @@ ms.locfileid: "65702977"
 ## <a name="create-a-new-project"></a>새 프로젝트 만들기  
  테이블을 만든 후에는 상속 구성을 보여 주기 위한 새 프로젝트를 만듭니다.  
   
-#### <a name="to-create-the-new-windows-application"></a>새 Windows 응용 프로그램을 만들려면  
+#### <a name="to-create-the-new-windows-application"></a>새 Windows 애플리케이션을 만들려면  
   
 1. **파일** 메뉴에서 새 프로젝트를 만듭니다.  
   
@@ -175,8 +175,8 @@ ms.locfileid: "65702977"
     }  
     ```  
   
-## <a name="test-the-application"></a>응용 프로그램을 테스트합니다.  
- 응용 프로그램을 실행하고 목록 상자에 표시된 레코드가 모두 직원(Type 열의 값이 2인 레코드)인지 확인합니다.  
+## <a name="test-the-application"></a>애플리케이션을 테스트합니다.  
+ 애플리케이션을 실행하고 목록 상자에 표시된 레코드가 모두 직원(Type 열의 값이 2인 레코드)인지 확인합니다.  
   
 #### <a name="to-test-the-application"></a>애플리케이션을 테스트하려면  
   
