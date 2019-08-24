@@ -71,12 +71,12 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] API를 사용하여 사용자 인터페이스에서 모델 및 다이어그램을 열 수도 있습니다. 자세한 내용은 [Visual Studio API를 사용 하 여 UML 모델 열기](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md)합니다.  
   
 ## <a name="Standalone"></a> 독립 실행형 응용 프로그램  
- 이전 섹션의 예제는 Visual Studio 확장에서 작동합니다. 독립 실행형 응용 프로그램에서 모델을 읽을 수 있지만 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트에 일부 참조를 추가해야 합니다.  
+ 이전 섹션의 예제는 Visual Studio 확장에서 작동합니다. 독립 실행형 애플리케이션에서 모델을 읽을 수 있지만 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 프로젝트에 일부 참조를 추가해야 합니다.  
   
 > [!NOTE]
-> 독립 실행형 응용 프로그램에서 모델을 읽는 방법의 세부 정보는 이후 버전의 제품에서 변경될 수 있습니다. 현재 버전에서 액세스할 수 있는 일부 기능을 이후 버전에서는 사용하지 못할 수도 있습니다.  
+> 독립 실행형 애플리케이션에서 모델을 읽는 방법의 세부 정보는 이후 버전의 제품에서 변경될 수 있습니다. 현재 버전에서 액세스할 수 있는 일부 기능을 이후 버전에서는 사용하지 못할 수도 있습니다.  
   
-#### <a name="to-add-references-to-read-a-model-in-a-stand-alone-application"></a>독립 실행형 응용 프로그램에서 모델을 읽기 위해 참조를 추가하려면  
+#### <a name="to-add-references-to-read-a-model-in-a-stand-alone-application"></a>독립 실행형 애플리케이션에서 모델을 읽기 위해 참조를 추가하려면  
   
 1. 솔루션 탐색기에서 응용 프로그램을 작성 하는 지정 하 고 클릭 한 다음 프로젝트를 마우스 오른쪽 단추로 **속성**합니다. 속성 편집기에서에 **응용 프로그램** 탭에서 **대상 프레임 워크** .NET Framework의 필수 버전으로 합니다.  
   
@@ -92,7 +92,7 @@ foreach (string diagramFile in projectReader. DiagramFileNames)
   
    - Microsoft.VisualStudio.TeamArchitect.ModelStore.Dsl.dll  
   
-     응용 프로그램에서 다이어그램을 읽으려는 경우 다음 참조가 필요할 수도 있습니다.  
+     애플리케이션에서 다이어그램을 읽으려는 경우 다음 참조가 필요할 수도 있습니다.  
   
    - Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.Dsl.dll  
   

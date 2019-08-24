@@ -27,7 +27,7 @@ ms.locfileid: "65226167"
 # <a name="how-to-specify-where-visual-studio-copies-the-files"></a>방법: Visual Studio의 파일 복사 위치 지정
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-ClickOnce를 사용하여 응용 프로그램을 게시하는 경우 `Publish Location` 속성에서 응용 프로그램 파일 및 매니페스트가 배치되는 위치를 지정합니다. 이 위치는 파일 경로나 FTP 서버에 대한 경로가 될 수 있습니다.
+ClickOnce를 사용하여 애플리케이션을 게시하는 경우 `Publish Location` 속성에서 애플리케이션 파일 및 매니페스트가 배치되는 위치를 지정합니다. 이 위치는 파일 경로나 FTP 서버에 대한 경로가 될 수 있습니다.
 
  `Publish Location` 속성은 **프로젝트 디자이너**의 **게시** 페이지나 게시 마법사를 사용하여 지정할 수 있습니다. 자세한 내용은 [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)를 참조하세요.
 
@@ -46,7 +46,7 @@ ClickOnce를 사용하여 응용 프로그램을 게시하는 경우 `Publish Lo
 
    - FTP 서버에 게시 하려면 형식 ftp를 사용 하 여 경로 입력 합니다.\//ftp.microsoft.com/ApplicationName 합니다.
 
-     찾아보기(**...**) 단추가 작동하려면 **게시 위치** 상자에 텍스트가 있어야 합니다.
+     찾아보기( **...** ) 단추가 작동하려면 **게시 위치** 상자에 텍스트가 있어야 합니다.
 
 ## <a name="see-also"></a>참고 항목
  [ClickOnce 응용 프로그램 게시](../deployment/publishing-clickonce-applications.md) [방법: 게시 마법사를 사용하여 ClickOnce 애플리케이션 게시](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

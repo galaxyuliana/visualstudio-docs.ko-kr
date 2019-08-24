@@ -152,7 +152,7 @@ UI 작업에 대한 속성을 수정하려면 **UI 작업** 창에서 속성을 
 
 ![UI 컨트롤 찾기](../test/media/codeduilocatecontrol.png)
 
-![테스트 중인 응용 프로그램에서 찾은 컨트롤](../test/media/codeduilocatecontrol2.png)
+![테스트 중인 애플리케이션에서 찾은 컨트롤](../test/media/codeduilocatecontrol2.png)
 
 **UI 컨트롤 맵** 창에서 테스트와 관련하여 애플리케이션에 배치할 컨트롤을 선택합니다. 다음으로, 해당 컨트롤에 대한 바로 가기 메뉴를 연 다음 **UI 컨트롤 찾기**를 선택합니다. 테스트 중인 애플리케이션에서 해당 컨트롤에 파란색 테두리가 지정됩니다.
 

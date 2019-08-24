@@ -38,7 +38,7 @@ ms.locfileid: "62851849"
 
  [Windows Forms 응용 프로그램](../debugger/debugging-preparation-windows-forms-applications.md) Windows 응용 프로그램 프로젝트에 설명 하 고, 디버깅 하 고, 기본 디버그 구성으로 변경 하 고, 외부 응용 프로그램을 시작 하는 것에 대 한 지침을 제공 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 를 연결 합니다.
 
- [콘솔 프로젝트](../debugger/debugging-preparation-console-projects.md) 디버깅에 대 한 추가 고려 사항을 제공 C# 또는 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 콘솔 응용 프로그램입니다. 이러한 정보로는 명령줄 인수 지정, 명령 프롬프트에서 응용 프로그램 시작, 출력 창에 쓰기, 콘솔 창 문제 해결 등이 있습니다.
+ [콘솔 프로젝트](../debugger/debugging-preparation-console-projects.md) 디버깅에 대 한 추가 고려 사항을 제공 C# 또는 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 콘솔 응용 프로그램입니다. 이러한 정보로는 명령줄 인수 지정, 명령 프롬프트에서 애플리케이션 시작, 출력 창에 쓰기, 콘솔 창 문제 해결 등이 있습니다.
 
  [Windows Services](../debugger/debugging-preparation-windows-services.md) Windows 서비스를 설명 하 고 Windows 서비스 응용 프로그램 디버깅에 대 한 링크를 제공 합니다.
 

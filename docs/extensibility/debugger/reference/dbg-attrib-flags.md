@@ -22,7 +22,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66346291"
 ---
-# <a name="dbgattribflags"></a>DBG_ATTRIB_FLAGS
+# <a name="dbg_attrib_flags"></a>DBG_ATTRIB_FLAGS
 에 대 한 다양 한 특성에 설명 합니다는 [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) 요소나 [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) 인터페이스입니다. 멤버는 [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) 구조입니다.
 
 ## <a name="syntax"></a>구문
@@ -239,10 +239,10 @@ public const int DBG_ATTRIB_MULTI_CUSTOM_VIEWERS = 0x0001000000000000
  저장소 형식이 지정 되지 않은 임을 나타냅니다.
 
  `DBG_ATTRIB_STORAGE_GLOBAL`\
- 전역 저장소를 나타냅니다.
+ 전역 스토리지를 나타냅니다.
 
  `DBG_ATTRIB_STORAGE_STATIC`\
- 정적 저장소를 나타냅니다.
+ 정적 스토리지를 나타냅니다.
 
  `DBG_ATTRIB_STORAGE_REGISTER`\
  레지스터에 저장소를 나타냅니다.

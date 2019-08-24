@@ -20,16 +20,16 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "62852246"
 ---
-# <a name="debugging-applications"></a>응용 프로그램 디버깅
-다음 섹션에서는 특정 유형의 응용 프로그램에 대한 디버그를 설명합니다. 다른 응용 프로그램 종류와 다른 언어는 다른 설정과 기술을 필요로 하며, 디버그해야 하는 다양한 문제를 발생시킵니다.
+# <a name="debugging-applications"></a>애플리케이션 디버깅
+다음 섹션에서는 특정 유형의 애플리케이션에 대한 디버그를 설명합니다. 다른 애플리케이션 종류와 다른 언어는 다른 설정과 기술을 필요로 하며, 디버그해야 하는 다양한 문제를 발생시킵니다.
 
-## <a name="debugging-for-different-types-of-applications"></a>다양한 유형의 응용 프로그램에 대한 디버그
+## <a name="debugging-for-different-types-of-applications"></a>다양한 유형의 애플리케이션에 대한 디버그
 
 |||
 |-|-|
 |[UWP 앱 디버그](../debugger/debugging-windows-store-and-windows-universal-apps.md)|UWP 앱을 디버그 하는 방법에 설명 합니다.|
 |[관리 코드 디버그](../debugger/debugging-managed-code.md)|관리 코드(Visual C#, Visual Basic 및 F3)를 디버그하는 방법을 설명합니다.|
-|[네이티브 코드 디버그](../debugger/debugging-native-code.md)|다른 종류의 기본 C++ 응용 프로그램을 디버그하는 방법을 설명합니다.|
+|[네이티브 코드 디버그](../debugger/debugging-native-code.md)|다른 종류의 기본 C++ 애플리케이션을 디버그하는 방법을 설명합니다.|
 |[GPU 코드 디버그](../debugger/debugging-gpu-code.md)|GPU(그래픽 처리 장치)에서 실행되는 C++ 코드를 디버그하는 방법을 설명합니다.|
 |[그래픽 진단(DirectX 그래픽 디버그)](/visualstudio/debugger/graphics/visual-studio-graphics-diagnostics)|DirectX 그래픽을 디버그하는 방법을 설명합니다.|
 |[ASP.NET 애플리케이션 디버그](../debugger/how-to-enable-debugging-for-aspnet-applications.md)|ASP.NET 응용 프로그램을 디버그 하는 방법에 설명 합니다.|

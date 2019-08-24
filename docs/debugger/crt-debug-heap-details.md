@@ -101,7 +101,7 @@ ms.locfileid: "62563773"
 ## <a name="BKMK_Find_buffer_overruns_with_debug_heap"></a> 디버그 힙을 사용하여 버퍼 오버런 찾기
 끝 (필요 없게 된 후 할당을 해제할 수 장애)는 할당 된 버퍼 및 메모리 누수를 덮어쓰고는 프로그래머에 게 발생 하는 가장 일반적이 고 다루기 힘든 문제 중 두 가지 없습니다. 디버그 힙을 사용하여 이러한 메모리 할당 문제를 효과적으로 해결할 수 있습니다.
 
-힙 함수의 디버그 버전은 릴리스 빌드에서 사용하는 표준 또는 기본 버전을 호출합니다. 메모리 블록을 요청하면 디버그 힙 관리자는 요청한 것 보다 약간 더 큰 메모리 블록을 기본 힙에서 할당하고 블록의 해당 부분에 대한 포인터를 반환합니다. 예를 들어 응용 프로그램에 `malloc( 10 )` 호출이 있을 경우, 릴리스 빌드에서 [malloc](/cpp/c-runtime-library/reference/malloc) 이 10 바이트의 할당을 요청 하는 기본 힙 할당 루틴을 호출 합니다. 그러나 디버그 빌드에서 `malloc` 호출 [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg), 10 바이트 할당에 더하여 약 36 바이트의 추가 메모리가 요청 기본 힙 할당 루틴을 호출 하는 합니다. 디버그 힙의 모든 결과 메모리 블록은 할당된 순서에 따라 하나의 연결 리스트로 연결됩니다.
+힙 함수의 디버그 버전은 릴리스 빌드에서 사용하는 표준 또는 기본 버전을 호출합니다. 메모리 블록을 요청하면 디버그 힙 관리자는 요청한 것 보다 약간 더 큰 메모리 블록을 기본 힙에서 할당하고 블록의 해당 부분에 대한 포인터를 반환합니다. 예를 들어 애플리케이션에 `malloc( 10 )` 호출이 있을 경우, 릴리스 빌드에서 [malloc](/cpp/c-runtime-library/reference/malloc) 이 10 바이트의 할당을 요청 하는 기본 힙 할당 루틴을 호출 합니다. 그러나 디버그 빌드에서 `malloc` 호출 [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg), 10 바이트 할당에 더하여 약 36 바이트의 추가 메모리가 요청 기본 힙 할당 루틴을 호출 하는 합니다. 디버그 힙의 모든 결과 메모리 블록은 할당된 순서에 따라 하나의 연결 리스트로 연결됩니다.
 
 디버그 힙 루틴이 할당한 추가 메모리는 할당된 영역의 덮어 쓰기를 찾기 위해 부기 정보, 디버그 메모리 블록을 연결하는 포인터, 데이터 양쪽에 있는 작은 버퍼 등에 사용됩니다.
 
@@ -141,7 +141,7 @@ NoMansLand (0xfd) 양쪽 응용 프로그램에서 사용 하는 메모리의 "N
 ![맨 위로 이동](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)
 
 ## <a name="BKMK_Types_of_blocks_on_the_debug_heap"></a> 디버그 힙의 블록 형식
-디버그 힙의 모든 메모리 블록은 다섯 가지 할당 형식 중 하나에 지정됩니다. 누수 탐지와 상태 보고 등의 목적에 따라 이러한 형식을 다르게 추적하고 보고합니다. [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg)와 같은 디버그 힙 할당 함수 중 하나를 직접 호출하여 블록을 할당하면 블록의 형식을 지정할 수 있습니다. 디버그 힙에 있는 메모리 블록 형식(**_CrtMemBlockHeader** 구조체의 **nBlockUse** 멤버에 설정) 다섯 가지는 다음과 같습니다.
+디버그 힙의 모든 메모리 블록은 다섯 가지 할당 형식 중 하나에 지정됩니다. 누수 탐지와 상태 보고 등의 목적에 따라 이러한 형식을 다르게 추적하고 보고합니다. [_malloc_dbg](/cpp/c-runtime-library/reference/malloc-dbg)와 같은 디버그 힙 할당 함수 중 하나를 직접 호출하여 블록을 할당하면 블록의 형식을 지정할 수 있습니다. 디버그 힙에 있는 메모리 블록 형식( **_CrtMemBlockHeader** 구조체의 **nBlockUse** 멤버에 설정) 다섯 가지는 다음과 같습니다.
 
 **_NORMAL_BLOCK** 에 대 한 호출 [malloc](/cpp/c-runtime-library/reference/malloc) 하거나 [calloc](/cpp/c-runtime-library/reference/calloc) 하면 표준 블록이 만들어집니다. 표준 블록만 사용하고 클라이언트 블록은 사용하지 않으려면 모든 힙 할당 호출을 디버그 빌드의 해당 디버그 부분에 매핑시키는 [_CRTDBG_MAP_ALLOC](/cpp/c-runtime-library/crtdbg-map-alloc)을 정의해야 합니다. 그러면 각 할당 호출에 대한 파일 이름과 줄 번호 정보가 해당 블록 헤더에 저장됩니다.
 
@@ -184,7 +184,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
 |**_CRTDBG_DELAY_FREE_MEM_DF**|끄기|부족한 메모리 조건을 시뮬레이션하는 것과 관련해서 메모리가 실제로 해제되는 것을 방지합니다. 이 비트를 설정하면, 해제된 블록이 디버그 힙의 연결 리스트에 보관되지만 **_FREE_BLOCK**으로 표시되고 특별한 바이트 값으로 채워 집니다.|
 |**_CRTDBG_CHECK_ALWAYS_DF**|끄기|모든 할당 및 할당 취소에서 **_CrtCheckMemory**가 호출되게 합니다. 실행 속도는 지연되지만 오류를 신속하게 찾아 냅니다.|
 |**_CRTDBG_CHECK_CRT_DF**|끄기|**_CRT_BLOCK** 형식으로 표시된 블록이 누수 탐지 및 상태 차이 작업에 포함되게 합니다. 비트를 해제하면 위와 같은 작업을 하는 동안 런타임 라이브러리가 내부적으로 사용하는 메모리를 무시합니다.|
-|**_CRTDBG_LEAK_CHECK_DF**|끄기|**_CrtDumpMemoryLeaks**를 호출하여 프로그램을 종료할 때 누수 검사를 수행합니다. 응용 프로그램이 할당한 모든 메모리를 해제하는 데 실패하면 오류 보고서가 생성됩니다.|
+|**_CRTDBG_LEAK_CHECK_DF**|끄기|**_CrtDumpMemoryLeaks**를 호출하여 프로그램을 종료할 때 누수 검사를 수행합니다. 애플리케이션이 할당한 모든 메모리를 해제하는 데 실패하면 오류 보고서가 생성됩니다.|
 
 ![맨 위로 이동](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)
 
@@ -193,7 +193,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
 
 **디버그 힙을 사용하려면**
 
-- C 런타임 라이브러리의 디버그 버전을 사용하여 응용 프로그램의 디버그 빌드를 연결합니다.
+- C 런타임 라이브러리의 디버그 버전을 사용하여 애플리케이션의 디버그 빌드를 연결합니다.
 
   **_crtDbgFlag 비트 필드를 하나 이상 변경하고 플래그에 새로운 상태를 만들려면**
 
@@ -264,7 +264,7 @@ int main( )   {
 ## <a name="BKMK_Heap_State_Reporting_Functions"></a> 힙 상태 보고 함수
  **_CrtMemState**
 
- 지정한 순간에 힙 상태의 요약 스냅숏을 캡처하려면 CRTDBG.H에 정의된 _CrtMemState 구조체를 사용하십시오.
+ 지정한 순간에 힙 상태의 요약 스냅샷을 캡처하려면 CRTDBG.H에 정의된 _CrtMemState 구조체를 사용하십시오.
 
 ```cpp
 typedef struct _CrtMemState
@@ -290,16 +290,16 @@ typedef struct _CrtMemState
 
 |함수|설명|
 |--------------|-----------------|
-|[_CrtMemCheckpoint](/cpp/c-runtime-library/reference/crtmemcheckpoint)|힙의 스냅숏을 애플리케이션에서 제공하는 **_CrtMemState** 구조체에 저장합니다.|
+|[_CrtMemCheckpoint](/cpp/c-runtime-library/reference/crtmemcheckpoint)|힙의 스냅샷을 애플리케이션에서 제공하는 **_CrtMemState** 구조체에 저장합니다.|
 |[_CrtMemDifference](/cpp/c-runtime-library/reference/crtmemdifference)|두 메모리 상태 구조체를 비교하고 세 번째 상태 구조체에 그 차이를 저장하며, 두 상태가 다른 경우 TRUE를 반환합니다.|
-|[_CrtMemDumpStatistics](/cpp/c-runtime-library/reference/crtmemdumpstatistics)|지정한 **_CrtMemState** 구조체를 덤프합니다. 구조체에는 지정한 순간의 디버그 힙 상태 스냅숏이나 두 스냅숏의 차이점이 포함될 수 있습니다.|
-|[_CrtMemDumpAllObjectsSince](/cpp/c-runtime-library/reference/crtmemdumpallobjectssince)|지정한 스냅숏이 힙의 스냅숏이거나 실행을 시작할 때 만들어진 스냅숏이기 때문에 할당된 모든 개체 정보를 덤프합니다. **_CrtSetDumpClient**를 사용하여 **_CLIENT_BLOCK** 블록을 설치한 경우, 이 블록을 덤프할 때마다 애플리케이션의 후크 함수를 호출합니다.|
+|[_CrtMemDumpStatistics](/cpp/c-runtime-library/reference/crtmemdumpstatistics)|지정한 **_CrtMemState** 구조체를 덤프합니다. 구조체에는 지정한 순간의 디버그 힙 상태 스냅샷이나 두 스냅샷의 차이점이 포함될 수 있습니다.|
+|[_CrtMemDumpAllObjectsSince](/cpp/c-runtime-library/reference/crtmemdumpallobjectssince)|지정한 스냅샷이 힙의 스냅샷이거나 실행을 시작할 때 만들어진 스냅샷이기 때문에 할당된 모든 개체 정보를 덤프합니다. **_CrtSetDumpClient**를 사용하여 **_CLIENT_BLOCK** 블록을 설치한 경우, 이 블록을 덤프할 때마다 애플리케이션의 후크 함수를 호출합니다.|
 |[_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks)|프로그램 실행을 시작한 이후로 메모리 누수가 발생했는지 확인하고, 메모리 누수를 탐지한 경우 할당된 개체를 모두 덤프합니다. **_CrtSetDumpClient**를 사용하여 **_CLIENT_BLOCK** 블록을 설치한 경우, **_CrtDumpMemoryLeaks**가 이 블록을 덤프할 때마다 애플리케이션의 후크 함수를 호출합니다.|
 
 ![맨 위로 이동](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [목차](#BKMK_Contents)
 
 ## <a name="BKMK_Track_Heap_Allocation_Requests"></a> 힙 할당 요청 추적
-어설션 매크로나 보고서 매크로를 실행하는 소스 파일 이름과 줄 번호를 식별하는 것은 문제의 원인을 찾는 데 유용하지만 힙 할당 함수에서는 다릅니다. 응용 프로그램 논리 트리에서는 적절한 지점에 매크로를 삽입할 수 있지만, 할당은 서로 다른 시간에 여러 위치에서 호출되는 특별한 루틴에 숨겨지는 경우도 있습니다. 대개의 경우 코드의 어느 줄이 잘못된 할당을 만들었는지가 아니라 잘못된 할당이 어느 것이고 원인이 무엇인지가 문제입니다.
+어설션 매크로나 보고서 매크로를 실행하는 소스 파일 이름과 줄 번호를 식별하는 것은 문제의 원인을 찾는 데 유용하지만 힙 할당 함수에서는 다릅니다. 애플리케이션 논리 트리에서는 적절한 지점에 매크로를 삽입할 수 있지만, 할당은 서로 다른 시간에 여러 위치에서 호출되는 특별한 루틴에 숨겨지는 경우도 있습니다. 대개의 경우 코드의 어느 줄이 잘못된 할당을 만들었는지가 아니라 잘못된 할당이 어느 것이고 원인이 무엇인지가 문제입니다.
 
 **고유한 할당 요청 번호 및 _crtBreakAlloc**
 
@@ -311,7 +311,7 @@ typedef struct _CrtMemState
 
 다소 복잡한 방법이지만 [heap allocation functions](../debugger/debug-versions-of-heap-allocation-functions.md)의 **_dbg** 버전과 비교하여 할당 루틴의 디버그 버전을 만드는 방법도 있습니다. 그런 다음 내부 힙 할당 루틴에 소스 파일과 줄 번호 인수를 전달하면 잘못된 할당이 발생한 위치를 즉시 알 수 있습니다.
 
-예를 들어, 응용 프로그램에 다음과 같이 주로 사용되는 루틴이 있다고 가정합니다.
+예를 들어, 애플리케이션에 다음과 같이 주로 사용되는 루틴이 있다고 가정합니다.
 
 ```cpp
 int addNewRecord(struct RecStruct * prevRecord,

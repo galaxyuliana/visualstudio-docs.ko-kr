@@ -25,7 +25,7 @@ ms.locfileid: "62851882"
 ---
 # <a name="debugging-managed-code"></a>관리 코드 디버깅
 
-이 단원에서는 Visual Basic, C# 및 C++ 등 공용 언어 런타임을 대상으로 하는 언어로 작성된 관리되는 응용 프로그램의 일반적인 디버깅 문제와 기술에 대해 설명합니다. 이 단원에서 설명하는 기술은 높은 수준의 기술입니다. [디버거 소개](../debugger/debugger-feature-tour.md)
+이 단원에서는 Visual Basic, C# 및 C++ 등 공용 언어 런타임을 대상으로 하는 언어로 작성된 관리되는 애플리케이션의 일반적인 디버깅 문제와 기술에 대해 설명합니다. 이 단원에서 설명하는 기술은 높은 수준의 기술입니다. [디버거 소개](../debugger/debugger-feature-tour.md)
 
 ## <a name="in-this-section"></a>섹션 내용
 
@@ -39,13 +39,13 @@ ms.locfileid: "62851882"
 중단점을 설정하는 대신 사용할 수 있는 `Stop` 문에 대해 설명합니다. `Stop` 문과 `End` 문을 비교하고 `Stop` 문과 `Assert` 문을 비교하여 살펴볼 뿐만 아니라 예제 코드도 제공합니다.
 
 [연습: Windows Form 디버깅](../debugger/walkthrough-debugging-a-windows-form.md)\
-Windows Form 만들기 및 Windows Form 디버깅을 위한 단계별 지침을 제공합니다. 관리되는 Windows 응용 프로그램의 표준 구성 요소인 Windows Form은 가장 일반적인 형태의 관리되는 응용 프로그램 중 하나입니다. 이 연습에서는 Visual C#과 Visual Basic을 사용하지만 C++로 Windows Form을 만드는 방법도 대체로 비슷합니다.
+Windows Form 만들기 및 Windows Form 디버깅을 위한 단계별 지침을 제공합니다. 관리되는 Windows 애플리케이션의 표준 구성 요소인 Windows Form은 가장 일반적인 형태의 관리되는 애플리케이션 중 하나입니다. 이 연습에서는 Visual C#과 Visual Basic을 사용하지만 C++로 Windows Form을 만드는 방법도 대체로 비슷합니다.
 
 [OnStart 메서드 디버깅](../debugger/how-to-debug-the-onstart-method.md)\
 관리되는 Windows 서비스의 `OnStart` 메서드를 디버깅할 수 있는 코드 예제를 제공합니다. Windows 서비스의 `OnStart` 메서드를 디버깅하려면 몇 줄의 코드를 추가하여 서비스를 시뮬레이션해야 합니다.
 
 [혼합 모드 디버깅](../debugger/debugging-mixed-mode-applications.md)\
-혼합 모드 응용 프로그램을 디버깅하는 방법에 대해 설명합니다. 혼합 모드 응용 프로그램은 네이티브 코드와 관리 코드가 결합된 응용 프로그램입니다.
+혼합 모드 애플리케이션을 디버깅하는 방법에 대해 설명합니다. 혼합 모드 애플리케이션은 네이티브 코드와 관리 코드가 결합된 애플리케이션입니다.
 
 [오류: 시스템에 커널 디버거가 사용 중 이므로 수 없는 디버깅](../debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md)\
 디버그 모드로 시작된 [!INCLUDE[win7](../debugger/includes/win7_md.md)], [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)], [!INCLUDE[winxp](../code-quality/includes/winxp_md.md)], [!INCLUDE[Win2kFamily](../code-quality/includes/win2kfamily_md.md)] 또는 Windows NT 시스템에서 관리 코드를 디버깅할 때 발생하는 오류 메시지에 대해 설명합니다.
@@ -65,19 +65,19 @@ LINQ 쿼리에 대한 디버깅 기술에 대해 설명합니다.
 IntelliTrace로 응용 프로그램의 실행 내역을 기록하여 보다 빠르고 쉽게 버그를 찾습니다. 기록된 이벤트 및 호출에서 앞뒤로 이동하며 주요 시점의 응용 프로그램 상태를 확인합니다. 여러 중단점을 설정하거나 자주 응용 프로그램을 다시 시작하지 않고 코드를 디버깅합니다. Visual Studio Enterprise에 필요합니다.
 
 [애플리케이션 추적 및 조율](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)\
-실행 중인 응용 프로그램의 실행을 모니터링하는 방법인 추적과 코드의 전략적 위치에 추적 문을 배치하는 방법인 조율에 대해 설명합니다. 이 항목에서는 계측 및 추적, 추적 스위치, 추적 수신기, 응용 프로그램의 코드 추적, 응용 프로그램 코드에 추적 문 추가, <xref:System.Diagnostics.Debug> 및 <xref:System.Diagnostics.Trace>를 사용하는 조건부 컴파일 등을 소개하는 정보로 연결되는 링크도 제공합니다.
+실행 중인 애플리케이션의 실행을 모니터링하는 방법인 추적과 코드의 전략적 위치에 추적 문을 배치하는 방법인 조율에 대해 설명합니다. 이 항목에서는 계측 및 추적, 추적 스위치, 추적 수신기, 애플리케이션의 코드 추적, 애플리케이션 코드에 추적 문 추가, <xref:System.Diagnostics.Debug> 및 <xref:System.Diagnostics.Trace>를 사용하는 조건부 컴파일 등을 소개하는 정보로 연결되는 링크도 제공합니다.
 
 [/ASSEMBLYDEBUG](/cpp/build/reference/assemblydebug-add-debuggableattribute)\
 C++로 작성된 코드에 <xref:System.Diagnostics.DebuggableAttribute>를 추가하는 링커 옵션에 대해 설명합니다. 이 특성은 C++를 사용한 연결 등의 디버깅 기능을 사용하는 데 필요합니다.
 
 [Windows 서비스 애플리케이션 디버깅](/dotnet/framework/windows-services/how-to-debug-windows-service-applications)\
-설정, 프로세스에 연결, 서비스의 `OnStart` 메서드 코드 및 Main 메서드 코드 디버깅, 중단점 설정 그리고 서비스 제어 관리자를 사용한 서비스 시작, 중지, 일시 중지 및 계속 등을 포함하여 Windows 서비스 응용 프로그램을 디버깅할 때 고려해야 할 사항에 대해 설명합니다.
+설정, 프로세스에 연결, 서비스의 `OnStart` 메서드 코드 및 Main 메서드 코드 디버깅, 중단점 설정 그리고 서비스 제어 관리자를 사용한 서비스 시작, 중지, 일시 중지 및 계속 등을 포함하여 Windows 서비스 애플리케이션을 디버깅할 때 고려해야 할 사항에 대해 설명합니다.
 
 [디버깅 및 프로파일링](/dotnet/framework/debug-trace-profile/index)\
-.NET Framework 응용 프로그램의 디버깅과 구성 요구 사항에 대해 설명합니다.
+.NET Framework 애플리케이션의 디버깅과 구성 요구 사항에 대해 설명합니다.
 
 [스크립트 및 웹 애플리케이션 디버깅](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)\
-스크립트 및 웹 응용 프로그램을 디버깅할 때 발생할 수 있는 일반적인 디버깅 문제와 기술에 대해 설명합니다.
+스크립트 및 웹 애플리케이션을 디버깅할 때 발생할 수 있는 일반적인 디버깅 문제와 기술에 대해 설명합니다.
 
 ## <a name="see-also"></a>참고자료
 

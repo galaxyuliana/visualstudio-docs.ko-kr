@@ -12,7 +12,7 @@
           href: visualize-code.md
         - name: 솔루션 전체의 종속성 매핑
           href: map-dependencies-across-your-solutions.md
-        - name: 코드 맵을 사용하여 응용 프로그램 디버그
+        - name: 코드 맵을 사용하여 애플리케이션 디버그
           href: use-code-maps-to-debug-your-applications.md
         - name: 디버깅하는 동안 호출 스택의 맵 메서드
           href: map-methods-on-the-call-stack-while-debugging-in-visual-studio.md
@@ -342,7 +342,7 @@
           items:
             - name: 변경 내용에 대한 대응 및 전파
               href: responding-to-and-propagating-changes.md
-            - name: 계산된 저장소 속성 및 사용자 지정 저장소 속성
+            - name: 계산된 스토리지 속성 및 사용자 지정 스토리지 속성
               href: calculated-and-custom-storage-properties.md
             - name: 도메인 속성 값 변경 처리기
               href: domain-property-value-change-handlers.md
@@ -368,7 +368,7 @@
               href: walkthrough-connecting-a-host-to-a-generated-directive-processor.md
             - name: DslTextTransform 명령
               href: the-dsltexttransform-command.md
-        - name: 파일 저장소 및 XML Serialization 사용자 지정
+        - name: 파일 스토리지 및 XML Serialization 사용자 지정
           href: customizing-file-storage-and-xml-serialization.md
         - name: 도메인별 언어 솔루션 배포
           items:

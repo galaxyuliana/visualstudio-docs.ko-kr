@@ -31,7 +31,7 @@ ms.locfileid: "68191554"
 |[변환](../msbuild/msbuild-transforms.md)|변환을 사용하여 종속성 분석을 사용하도록 설정하는 방법에 대해 설명합니다.|  
 |[Visual Studio 통합](../msbuild/visual-studio-integration-msbuild.md)|Visual Studio IDE에서 코드를 컴파일할 때 MSBuild 프로젝트 파일을 사용하는 방법에 대해 설명합니다.|  
 |[병렬로 여러 프로젝트 빌드](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)|다중 프로세서 또는 멀티코어 프로세서를 사용하는 컴퓨터에서 여러 프로젝트를 더 빠르게 빌드하는 방법에 대해 설명합니다.|  
-|[멀티 타기팅](../msbuild/msbuild-multitargeting-overview.md)|.NET Framework의 여러 버전 중 하나에서 실행되도록 응용 프로그램을 컴파일하는 방법에 대해 설명합니다.|  
+|[멀티 타기팅](../msbuild/msbuild-multitargeting-overview.md)|.NET Framework의 여러 버전 중 하나에서 실행되도록 애플리케이션을 컴파일하는 방법에 대해 설명합니다.|  
 |[모범 사례](../msbuild/msbuild-best-practices.md)|MSBuild 스크립트 작성에 대한 모범 사례를 권장합니다.|  
   
 ## <a name="see-also"></a>참고 항목  

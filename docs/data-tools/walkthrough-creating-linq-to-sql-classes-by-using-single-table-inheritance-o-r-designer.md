@@ -25,7 +25,7 @@ ms.locfileid: "68925396"
 
 - 데이터베이스 테이블을 만들고 그 안에 데이터를 추가합니다.
 
-- Windows Forms 응용 프로그램을 만듭니다.
+- Windows Forms 애플리케이션을 만듭니다.
 
 - [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] 파일을 프로젝트에 추가합니다.
 

@@ -62,7 +62,7 @@ ms.locfileid: "65684733"
   
 ## <a name="next-steps"></a>다음 단계  
   
-#### <a name="to-add-functionality-to-your-application"></a>응용 프로그램에 기능을 추가하려면  
+#### <a name="to-add-functionality-to-your-application"></a>애플리케이션에 기능을 추가하려면  
   
 - 항목을 선택 합니다 **데이터 원본** 창 바인딩된 컨트롤을 만드는 폼으로 끌어 옵니다. 자세한 내용은 [Visual Studio에서 데이터에 컨트롤 바인딩](../data-tools/bind-controls-to-data-in-visual-studio.md)합니다.  
   

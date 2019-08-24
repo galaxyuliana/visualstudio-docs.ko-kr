@@ -26,7 +26,7 @@ ms.locfileid: "68176518"
 # <a name="how-to-switch-to-another-thread-while-debugging"></a>방법: 디버깅 중 다른 스레드로 전환
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-다중 스레드 응용 프로그램을 디버깅하는 경우 작업 중인 스레드에서 다른 스레드로 컨텍스트를 전환하는 여러 가지 방법 중 하나를 사용할 수 있습니다.  
+다중 스레드 애플리케이션을 디버깅하는 경우 작업 중인 스레드에서 다른 스레드로 컨텍스트를 전환하는 여러 가지 방법 중 하나를 사용할 수 있습니다.  
   
 ### <a name="to-switch-to-any-thread-that-appears-in-the-threads-window"></a>스레드 창에 나타나는 스레드로 전환하려면  
   

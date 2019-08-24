@@ -23,7 +23,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62834013"
 ---
 # <a name="walkthrough-profile-a-sharepoint-application"></a>연습: SharePoint 응용 프로그램을 프로 파일링
-  이 연습에서는 Visual Studio에서 프로파일링 도구를 사용하여 SharePoint 응용 프로그램의 성능을 최적화하는 방법을 보여 줍니다. 예제 응용 프로그램은 기능 이벤트 수신기의 성능을 저하시키는 유휴 루프가 포함된 SharePoint 기능 이벤트 수신기입니다. Visual Studio 프로파일러를 사용 하면 찾을 라고도 프로젝트의 가장 비용이 많이 드는 (성능이 가장 낮은) 부분을 제거 하는 *실행 부하 과다 경로*합니다.
+  이 연습에서는 Visual Studio에서 프로파일링 도구를 사용하여 SharePoint 애플리케이션의 성능을 최적화하는 방법을 보여 줍니다. 예제 애플리케이션은 기능 이벤트 수신기의 성능을 저하시키는 유휴 루프가 포함된 SharePoint 기능 이벤트 수신기입니다. Visual Studio 프로파일러를 사용 하면 찾을 라고도 프로젝트의 가장 비용이 많이 드는 (성능이 가장 낮은) 부분을 제거 하는 *실행 부하 과다 경로*합니다.
 
  이 연습에서는 다음 작업을 수행합니다.
 
@@ -191,7 +191,7 @@ ms.locfileid: "62834013"
 ## <a name="configure-and-deploy-the-sharepoint-application"></a>구성 및 SharePoint 응용 프로그램 배포
  SharePoint 프로젝트가 준비되었으므로 이 프로젝트를 구성하고 SharePoint 서버에 배포합니다.
 
-### <a name="to-configure-and-deploy-the-sharepoint-application"></a>SharePoint 응용 프로그램을 구성하고 배포하려면
+### <a name="to-configure-and-deploy-the-sharepoint-application"></a>SharePoint 애플리케이션을 구성하고 배포하려면
 
 1. 에 **분석** 메뉴 선택 **성능 마법사 시작**합니다.
 
@@ -205,7 +205,7 @@ ms.locfileid: "62834013"
 
 4. 세 번째 페이지에서 **성능 마법사**의 선택을 취소 합니다 **계층 상호작용 프로 파일링을 사용 하도록 설정** 확인란을 선택한 후는 **다음** 단추입니다.
 
-     TIP(계층 상호 작용 프로파일링) 기능은 데이터베이스를 쿼리하는 응용 프로그램의 성능을 측정하고 웹 페이지가 요청된 횟수를 표시하는 데 유용합니다. 해당 데이터가 이 예제에 필요하지 않기 때문에 이 기능을 사용하도록 설정하지 않을 것입니다.
+     TIP(계층 상호 작용 프로파일링) 기능은 데이터베이스를 쿼리하는 애플리케이션의 성능을 측정하고 웹 페이지가 요청된 횟수를 표시하는 데 유용합니다. 해당 데이터가 이 예제에 필요하지 않기 때문에 이 기능을 사용하도록 설정하지 않을 것입니다.
 
 5. 네 번째 페이지에서 **성능 마법사**를 유지 합니다 **마법사를 완료 한 후 프로 파일링을 시작** 확인란을 선택 하 고 선택한를 **완료** 단추.
 
@@ -214,7 +214,7 @@ ms.locfileid: "62834013"
 ## <a name="run-the-sharepoint-application"></a>SharePoint 응용 프로그램 실행
  SharePoint에서 기능을 활성화하여 `FeatureActivation` 이벤트 코드가 실행되도록 합니다.
 
-### <a name="to-run-the-sharepoint-application"></a>SharePoint 응용 프로그램을 실행하려면
+### <a name="to-run-the-sharepoint-application"></a>SharePoint 애플리케이션을 실행하려면
 
 1. SharePoint에서 엽니다는 **사이트 작업** 메뉴를 선택한 후 **사이트 설정**합니다.
 
@@ -233,13 +233,13 @@ ms.locfileid: "62834013"
      SharePoint를 닫은 후 프로파일러 및 샘플 프로 파일링 보고서가 표시 됩니다 만들고에.vsp 파일로 저장 합니다 **ProfileTest** 프로젝트의 폴더입니다.
 
 ## <a name="view-and-interpret-the-profile-results"></a>확인 하 고 프로필 결과 해석 합니다.
- SharePoint 응용 프로그램을 실행하고 프로파일링했으므로 테스트 결과를 확인합니다.
+ SharePoint 애플리케이션을 실행하고 프로파일링했으므로 테스트 결과를 확인합니다.
 
 ### <a name="to-view-and-interpret-the-profile-results"></a>결과 확인 하 고 프로필을 해석 하려면
 
 1. 에 **작업이 가장 많은 개별 함수** 섹션 샘플 프로 파일링 보고서의 있음을 `TimeCounter` 목록의 위쪽에 합니다.
 
-     이 위치는 `TimeCounter`가 샘플이 가장 많은 함수 중 하나이므로 응용 프로그램에서 가장 큰 성능 병목 지점 중 하나임을 나타냅니다. 그러나 이 상황은 예시 목적으로 그렇게 의도적으로 설계되었기 때문에 놀라운 것은 아닙니다.
+     이 위치는 `TimeCounter`가 샘플이 가장 많은 함수 중 하나이므로 애플리케이션에서 가장 큰 성능 병목 지점 중 하나임을 나타냅니다. 그러나 이 상황은 예시 목적으로 그렇게 의도적으로 설계되었기 때문에 놀라운 것은 아닙니다.
 
 2. 에 **작업이 가장 많은 개별 함수** 섹션을 선택 합니다 `ProcessRequest` 비용 분포를 표시 하려면 링크를 `ProcessRequest` 함수.
 
@@ -254,9 +254,9 @@ ms.locfileid: "62834013"
      보고서를 언제 든 지 다시 보려면에서.vsp 파일을 엽니다는 **성능 탐색기** 창입니다.
 
 ## <a name="fix-the-code-and-reprofile-the-application"></a>코드를 수정 하 고 응용 프로그램을 다시 프로 파일링
- SharePoint 응용 프로그램의 핫 스폿 함수가 식별되었으므로 해당 함수를 수정합니다.
+ SharePoint 애플리케이션의 핫 스폿 함수가 식별되었으므로 해당 함수를 수정합니다.
 
-### <a name="to-fix-the-code-and-reprofile-the-application"></a>코드를 수정하고 응용 프로그램을 다시 프로파일링하려면
+### <a name="to-fix-the-code-and-reprofile-the-application"></a>코드를 수정하고 애플리케이션을 다시 프로파일링하려면
 
 1. 기능 이벤트 수신기 코드의 `TimeCounter`에서 `FeatureActivated` 메서드 호출을 주석으로 처리하여 호출되지 않도록 합니다.
 

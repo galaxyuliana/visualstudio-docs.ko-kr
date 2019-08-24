@@ -204,5 +204,5 @@
               href: how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
     - name: Visual Studio 이미지 라이브러리
       href: the-visual-studio-image-library.md
-- name: Workflow Designer로 응용 프로그램 개발
+- name: Workflow Designer로 애플리케이션 개발
   href: ../workflow-designer/developing-applications-with-the-workflow-designer.md

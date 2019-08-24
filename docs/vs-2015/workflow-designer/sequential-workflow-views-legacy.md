@@ -22,7 +22,7 @@ ms.locfileid: "62938550"
 # <a name="sequential-workflow-views-legacy"></a>순차 워크플로 뷰(레거시)
 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서는 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 또는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)]를 대상으로 하는 데 사용할 수 있는 레거시 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 제공합니다.  
   
- [!INCLUDE[wfd2](../includes/wfd2-md.md)]에서는 친숙한 [!INCLUDE[wf](../includes/wf-md.md)] 사용자 인터페이스를 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 응용 프로그램을 시각적으로 만들 수 있습니다. [!INCLUDE[wf](../includes/wf-md.md)] 응용 프로그램은 활동이라고 하는 워크플로 프로세스 단계로 구성됩니다. 워크플로 만들려면에서 해당 활동 디자이너를 끌어서 디자인 화면에서 활동을 작성 **도구 상자** 디자인 화면으로 합니다.  
+ [!INCLUDE[wfd2](../includes/wfd2-md.md)]에서는 친숙한 [!INCLUDE[wf](../includes/wf-md.md)] 사용자 인터페이스를 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 애플리케이션을 시각적으로 만들 수 있습니다. [!INCLUDE[wf](../includes/wf-md.md)] 애플리케이션은 활동이라고 하는 워크플로 프로세스 단계로 구성됩니다. 워크플로 만들려면에서 해당 활동 디자이너를 끌어서 디자인 화면에서 활동을 작성 **도구 상자** 디자인 화면으로 합니다.  
   
  순차 워크플로 만들 때를 [SequentialWorkflowActivity](http://go.microsoft.com/fwlink?LinkID=65040), 워크플로의 세 가지 보기를 사용할 수 있습니다. 이러한 뷰에 액세스할 수 합니다 **워크플로** 메뉴 디자인 화면에서 상황에 맞는 메뉴에서.  
   

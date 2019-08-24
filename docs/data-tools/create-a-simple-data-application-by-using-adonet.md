@@ -29,7 +29,7 @@ ms.locfileid: "68925699"
 
 ## <a name="prerequisites"></a>전제 조건
 
-응용 프로그램을 만들려면 다음이 필요 합니다.
+애플리케이션을 만들려면 다음이 필요 합니다.
 
 - Visual Studio.
 
@@ -120,7 +120,7 @@ ms.locfileid: "68925699"
 |단추|Name = btnFinishUpdates|
 
 ## <a name="store-the-connection-string"></a>연결 문자열 저장
-응용 프로그램이 데이터베이스에 대한 연결을 열려면 응용 프로그램에는 연결 문자열에 액세스할 수 있어야 합니다. 각 폼에 문자열을 수동으로 입력 하지 않도록 하려면 프로젝트의 app.config 파일에 문자열을 저장 하 고, 응용 프로그램의 모든 폼에서 메서드가 호출 될 때 문자열을 반환 하는 메서드를 만듭니다.
+애플리케이션이 데이터베이스에 대한 연결을 열려면 애플리케이션에는 연결 문자열에 액세스할 수 있어야 합니다. 각 폼에 문자열을 수동으로 입력 하지 않도록 하려면 프로젝트의 app.config 파일에 문자열을 저장 하 고, 응용 프로그램의 모든 폼에서 메서드가 호출 될 때 문자열을 반환 하는 메서드를 만듭니다.
 
 **서버 탐색기** 에서 **판매** 데이터 연결을 마우스 오른쪽 단추로 클릭 하 고 **속성**을 선택 하 여 연결 문자열을 찾을 수 있습니다. **ConnectionString** 속성을 찾은 다음 **ctrl**+**A**, **ctrl**+**C** 를 사용 하 여 문자열을 선택 하 고 클립보드에 복사 합니다.
 
@@ -144,7 +144,7 @@ ms.locfileid: "68925699"
 
 ### <a name="navigation-form"></a>Navigation 폼
 
-응용 프로그램을 실행하면 Navigation 폼이 열립니다. **계정 추가** 단추는 NewCustomer 양식을 엽니다. **주문 이행 또는 취소** 단추를 누르면 FillOrCancel 양식이 열립니다. **끝내기** 단추를 클릭하면 애플리케이션이 닫힙니다.
+애플리케이션을 실행하면 Navigation 폼이 열립니다. **계정 추가** 단추는 NewCustomer 양식을 엽니다. **주문 이행 또는 취소** 단추를 누르면 FillOrCancel 양식이 열립니다. **끝내기** 단추를 클릭하면 애플리케이션이 닫힙니다.
 
 #### <a name="make-the-navigation-form-the-startup-form"></a>Navigation 폼을 시작 폼으로 만들기
 
@@ -229,7 +229,7 @@ FillOrCancel 폼 논리를 완료 하려면 다음 단계를 수행 합니다.
      [!code-csharp[FillOrCancel#2](../data-tools/codesnippet/CSharp/SimpleDataApp/FillOrCancel.cs#2)]
      [!code-vb[FillOrCancel#2](../data-tools/codesnippet/VisualBasic/SimpleDataApp/FillOrCancel.vb#2)]
 
-## <a name="test-your-application"></a>응용 프로그램 테스트
+## <a name="test-your-application"></a>애플리케이션 테스트
 
 각 Click 이벤트 처리기를 코딩하고 코딩을 마친 후에 **F5** 키를 선택하여 애플리케이션을 빌드하고 테스트합니다.
 

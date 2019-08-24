@@ -54,7 +54,7 @@ C 런타임 라이브러리를 사용하는 프로그램을 디버깅할 경우 
   
 ## <a name="related-sections"></a>관련 단원  
  [네이티브 코드 디버그](../debugger/debugging-native-code.md)  
- C 및 C++ 응용 프로그램의 몇 가지 일반적인 디버깅 문제와 기술에 대해 설명합니다.  
+ C 및 C++ 애플리케이션의 몇 가지 일반적인 디버깅 문제와 기술에 대해 설명합니다.  
   
  [디버거 보안](../debugger/debugger-security.md)  
  보다 안전한 디버깅을 위한 지침을 제공합니다.

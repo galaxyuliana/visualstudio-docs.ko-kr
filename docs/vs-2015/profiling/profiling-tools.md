@@ -36,12 +36,12 @@ ms.locfileid: "65686209"
 ## <a name="memory-usage"></a>메모리 사용량  
  ![DiagMemorySmall](../profiling/media/diagmemorysmall.png "DiagMemorySmall")  
   
- **메모리 사용량** 도구를 사용하면 디버깅 중에 메모리 누수 및 비효율적인 메모리를 찾습니다. 이 도구를 통해 관리되는 메모리 및 기본 메모리 힙의 스냅숏을 만들 수 있습니다. 이 도구는 데스크톱 앱, Windows 유니버설 앱, ASP.NET 앱에서 사용할 수 있습니다. **메모리 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/Windows/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다. 자세한 내용은 [메모리 사용량](../profiling/memory-usage.md) 및 [디버깅하지 않는 경우의 메모리 사용량](https://msdn.microsoft.com/library/8883bc5f-df86-4f84-aa2b-a21150f499b0)을 참조하세요.  
+ **메모리 사용량** 도구를 사용하면 디버깅 중에 메모리 누수 및 비효율적인 메모리를 찾습니다. 이 도구를 통해 관리되는 메모리 및 기본 메모리 힙의 스냅샷을 만들 수 있습니다. 이 도구는 데스크톱 앱, Windows 유니버설 앱, ASP.NET 앱에서 사용할 수 있습니다. **메모리 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/Windows/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...** ) 실행할 수 있습니다. 자세한 내용은 [메모리 사용량](../profiling/memory-usage.md) 및 [디버깅하지 않는 경우의 메모리 사용량](https://msdn.microsoft.com/library/8883bc5f-df86-4f84-aa2b-a21150f499b0)을 참조하세요.  
   
 ## <a name="cpu-usage"></a>CPU 사용량  
  ![DiagCPUSmall](../profiling/media/diagcpusmall.png "DiagCPUSmall")  
   
- **CPU 사용량** 도구는 CPU에서 C++, C#/VB 및 JavaScript 코드 실행에 시간을 소모하는 상황을 보여 줍니다.  이 도구는 데스크톱 및 Windows 유니버설 앱은 물론 Azure 앱 서비스 앱에서 사용할 수 있습니다. **CPU 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/Windows/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다. 다른 방법에 대한 자세한 내용을 보려면 [CPU 사용량](../profiling/cpu-usage.md) 을(를) 참조하세요.  
+ **CPU 사용량** 도구는 CPU에서 C++, C#/VB 및 JavaScript 코드 실행에 시간을 소모하는 상황을 보여 줍니다.  이 도구는 데스크톱 및 Windows 유니버설 앱은 물론 Azure 앱 서비스 앱에서 사용할 수 있습니다. **CPU 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/Windows/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...** ) 실행할 수 있습니다. 다른 방법에 대한 자세한 내용을 보려면 [CPU 사용량](../profiling/cpu-usage.md) 을(를) 참조하세요.  
   
 ## <a name="performance-explorer"></a>성능 탐색기  
  ![PerfTools](../profiling/media/perftools.png "PerfTools")  
@@ -51,12 +51,12 @@ ms.locfileid: "65686209"
 ## <a name="gpu-usage"></a>GPU 사용량  
  ![DiagGPUUsage](../profiling/media/diaggpuusage.png "DiagGPUUsage")  
   
- Direct3D 앱의 고급 하드웨어 사용률을 보다 잘 파악하려면 [GPU 사용량](../debugger/gpu-usage.md) 도구를 사용합니다. 이 도구는 데스크톱 및 Windows 유니버설 앱에서 사용할 수 있지만 ASP.NET 앱에서는 사용할 수 없습니다. **GPU 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다.  
+ Direct3D 앱의 고급 하드웨어 사용률을 보다 잘 파악하려면 [GPU 사용량](../debugger/gpu-usage.md) 도구를 사용합니다. 이 도구는 데스크톱 및 Windows 유니버설 앱에서 사용할 수 있지만 ASP.NET 앱에서는 사용할 수 없습니다. **GPU 사용량** 도구는 디버깅하는 동안 **진단 도구** 창에서 실행하거나(**디버그/진단 도구 표시**) 디버거 외부에서(**디버그/성능 프로파일러...** ) 실행할 수 있습니다.  
   
 ## <a name="application-timeline"></a>애플리케이션 타임라인  
  ![DiagAppTimeline](../profiling/media/diagapptimeline.png "DiagAppTimeline")  
   
- [Application Timeline](../profiling/application-timeline.md) 도구를 사용하면 리소스 소비에 대해 자세한 뷰를 제공하기 때문에 XAML 애플리케이션의 성능을 개선하는 데 도움이 됩니다. **애플리케이션 타임라인** 은 데스크톱 및 Windows 유니버설 앱에서 사용할 수 있지만 ASP.NET 앱에서는 사용할 수 없습니다. **애플리케이션 타임라인** 도구는 **진단 도구** 창에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다.  
+ [Application Timeline](../profiling/application-timeline.md) 도구를 사용하면 리소스 소비에 대해 자세한 뷰를 제공하기 때문에 XAML 애플리케이션의 성능을 개선하는 데 도움이 됩니다. **애플리케이션 타임라인** 은 데스크톱 및 Windows 유니버설 앱에서 사용할 수 있지만 ASP.NET 앱에서는 사용할 수 없습니다. **애플리케이션 타임라인** 도구는 **진단 도구** 창에서(**디버그/성능 프로파일러...** ) 실행할 수 있습니다.  
   
 ## <a name="perftips"></a>PerfTips  
  ![DiagPerfTips](../profiling/media/diagperftips.png "DiagPerfTips")  
@@ -66,12 +66,12 @@ ms.locfileid: "65686209"
 ## <a name="javascript-memory"></a>JavaScript 메모리  
  ![DiagJSMemory](../profiling/media/diagjsmemory.png "DiagJSMemory")  
   
- [JavaScript 메모리](../profiling/javascript-memory.md) 도구를 사용하면 앱에 포함된 각 함수의 진입 및 종료에서 타이밍 정보를 수집하여 코드의 성능 관련 문제를 측정, 평가 및 대상으로 지정할 수 있습니다. 이 도구는 Windows 유니버설 HTML 앱에서 사용할 수 있습니다. **JavaScript 함수 타이밍** 도구는 **진단 도구** 창에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다.  
+ [JavaScript 메모리](../profiling/javascript-memory.md) 도구를 사용하면 앱에 포함된 각 함수의 진입 및 종료에서 타이밍 정보를 수집하여 코드의 성능 관련 문제를 측정, 평가 및 대상으로 지정할 수 있습니다. 이 도구는 Windows 유니버설 HTML 앱에서 사용할 수 있습니다. **JavaScript 함수 타이밍** 도구는 **진단 도구** 창에서(**디버그/성능 프로파일러...** ) 실행할 수 있습니다.  
   
 ## <a name="html-ui-responsiveness"></a>HTML UI 응답성  
  ![DiagHTMLResp](../profiling/media/diaghtmlresp.png "DiagHTMLResp")  
   
- [HTML UI 응답성](../profiling/html-ui-responsiveness.md) 도구는 앱에서 응답성 부족, 느린 로딩 시간, 예상보다 빈도가 낮은 시각적 업데이트를 비롯한 성능 문제를 격리하도록 도와줍니다. 이 도구는 Windows 유니버설 HTML 앱에서 사용할 수 있습니다. **HTML UI 응답성** 도구는 **진단 도구** 창에서(**디버그/성능 프로파일러...**) 실행할 수 있습니다.  
+ [HTML UI 응답성](../profiling/html-ui-responsiveness.md) 도구는 앱에서 응답성 부족, 느린 로딩 시간, 예상보다 빈도가 낮은 시각적 업데이트를 비롯한 성능 문제를 격리하도록 도와줍니다. 이 도구는 Windows 유니버설 HTML 앱에서 사용할 수 있습니다. **HTML UI 응답성** 도구는 **진단 도구** 창에서(**디버그/성능 프로파일러...** ) 실행할 수 있습니다.  
   
 ## <a name="intellitrace"></a>IntelliTrace  
  ![DiagIntelliTrace](../profiling/media/diagintellitrace.png "DiagIntelliTrace")  

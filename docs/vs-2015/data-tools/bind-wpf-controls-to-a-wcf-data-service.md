@@ -28,7 +28,7 @@ ms.locfileid: "65704912"
 # <a name="bind-wpf-controls-to-a-wcf-data-service"></a>WCF 데이터 서비스에 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 데이터 바인딩된 컨트롤을 포함하는 WPF 응용 프로그램을 만듭니다. 이러한 컨트롤은 [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]에서 캡슐화된 고객 레코드에 바인딩됩니다. 또한 고객이 레코드를 보고 업데이트하는 데 사용할 수 있는 단추도 추가합니다.  
+이 연습에서는 데이터 바인딩된 컨트롤을 포함하는 WPF 애플리케이션을 만듭니다. 이러한 컨트롤은 [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]에서 캡슐화된 고객 레코드에 바인딩됩니다. 또한 고객이 레코드를 보고 업데이트하는 데 사용할 수 있는 단추도 추가합니다.  
   
  이 연습에서는 다음 작업을 수행합니다.  
   
@@ -83,7 +83,7 @@ ms.locfileid: "65704912"
 6. **솔루션 탐색기**에서 **Default.aspx**를 오른쪽 마우스 단추로 클릭하고 **삭제**를 선택합니다. 이 연습에서는 해당 파일이 필요하지 않습니다.  
   
 ## <a name="create-an-entity-data-model-for-the-service"></a>서비스에 대 한 엔터티 데이터 모델 만들기  
- [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 사용하여 응용 프로그램에 데이터를 표시하려면 서비스에 대해 데이터 모델을 정의해야 합니다. [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] 두 가지 유형의 데이터 모델을 지원 합니다. 엔터티 데이터 모델 및 구현 하는 공용 언어 런타임 (CLR) 개체를 사용 하 여 정의 된 사용자 지정 데이터 모델을 <xref:System.Linq.IQueryable%601> 인터페이스입니다. 이 연습에서는 데이터 모델에 대해 엔터티 데이터 모델을 만듭니다.  
+ [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]를 사용하여 애플리케이션에 데이터를 표시하려면 서비스에 대해 데이터 모델을 정의해야 합니다. [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)] 두 가지 유형의 데이터 모델을 지원 합니다. 엔터티 데이터 모델 및 구현 하는 공용 언어 런타임 (CLR) 개체를 사용 하 여 정의 된 사용자 지정 데이터 모델을 <xref:System.Linq.IQueryable%601> 인터페이스입니다. 이 연습에서는 데이터 모델에 대해 엔터티 데이터 모델을 만듭니다.  
   
 #### <a name="to-create-an-entity-data-model"></a>엔터티 데이터 모델을 만들려면  
   
@@ -137,9 +137,9 @@ ms.locfileid: "65704912"
 2. 프로젝트를 빌드하고 오류가 없이 빌드되는지 확인합니다.  
   
 ## <a name="create-the-wpf-client-application"></a>WPF 클라이언트 응용 프로그램 만들기  
- [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]에서 데이터를 표시하려면 서비스를 기반으로 하는 데이터 소스를 사용하여 새 WPF 응용 프로그램을 만듭니다. 이 연습 뒷부분에서 응용 프로그램에 데이터 바인딩된 컨트롤을 추가합니다.  
+ [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)]에서 데이터를 표시하려면 서비스를 기반으로 하는 데이터 소스를 사용하여 새 WPF 애플리케이션을 만듭니다. 이 연습 뒷부분에서 애플리케이션에 데이터 바인딩된 컨트롤을 추가합니다.  
   
-#### <a name="to-create-the-wpf-client-application"></a>WPF 클라이언트 응용 프로그램을 만들려면  
+#### <a name="to-create-the-wpf-client-application"></a>WPF 클라이언트 애플리케이션을 만들려면  
   
 1. **솔루션 탐색기**에서 솔루션 노드를 마우스 오른쪽 단추로 클릭하고, **추가**를 클릭하고, **새 프로젝트**를 선택합니다.  
   
@@ -287,7 +287,7 @@ ms.locfileid: "65704912"
      [!code-vb[Data_WPFWCF#5](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfwcf/vb/adventureworkssaleseditor/mainwindow.xaml.vb#5)]  
   
 ## <a name="testing-the-application"></a>애플리케이션 테스트  
- 응용 프로그램을 빌드하고 실행하여 고객 레코드를 보고 업데이트할 수 있는지 확인합니다.  
+ 애플리케이션을 빌드하고 실행하여 고객 레코드를 보고 업데이트할 수 있는지 확인합니다.  
   
 #### <a name="to-test-the-application"></a>애플리케이션을 테스트하려면  
   
@@ -301,7 +301,7 @@ ms.locfileid: "65704912"
   
 4. 컨텍스트 메뉴의 **디버그**에서 **새 인스턴스 시작**을 클릭합니다.  
   
-     응용 프로그램이 실행됩니다. 다음 사항을 확인합니다.  
+     애플리케이션이 실행됩니다. 다음 사항을 확인합니다.  
   
     - 판매 주문 ID가 **71774**인 첫 번째 판매 레코드의 서로 다른 데이터 필드가 텍스트 상자에 표시됩니다.  
   
@@ -309,9 +309,9 @@ ms.locfileid: "65704912"
   
 5. 판매 레코드 중 하나의 **주석** 상자에 텍스트를 입력한 다음, **변경내용 저장**을 클릭합니다.  
   
-6. 응용 프로그램을 닫았다가 Visual Studio에서 다시 시작합니다.  
+6. 애플리케이션을 닫았다가 Visual Studio에서 다시 시작합니다.  
   
-7. 변경한 판매 레코드로 이동하여 응용 프로그램을 닫았다가 다시 열어도 변경 내용이 그대로 유지되는지 확인합니다.  
+7. 변경한 판매 레코드로 이동하여 애플리케이션을 닫았다가 다시 열어도 변경 내용이 그대로 유지되는지 확인합니다.  
   
 8. 애플리케이션을 닫습니다.  
   

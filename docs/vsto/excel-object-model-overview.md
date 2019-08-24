@@ -41,7 +41,7 @@ ms.locfileid: "69551589"
 
 [!include[Add-ins note](includes/addinsnote.md)]
 
-  개체 모델은 사용자 인터페이스와 매우 유사합니다. <xref:Microsoft.Office.Interop.Excel.Application> 개체는 전체 응용 프로그램을 나타내고, 각 <xref:Microsoft.Office.Interop.Excel.Workbook> 개체에는 `Worksheet` 개체의 컬렉션이 포함됩니다. 여기에서 셀을 나타내는 주요 추상화는 <xref:Microsoft.Office.Interop.Excel.Range> 개체이며, 이 개체를 통해 개별 셀 또는 셀 그룹에서 작업할 수 있습니다.
+  개체 모델은 사용자 인터페이스와 매우 유사합니다. <xref:Microsoft.Office.Interop.Excel.Application> 개체는 전체 애플리케이션을 나타내고, 각 <xref:Microsoft.Office.Interop.Excel.Workbook> 개체에는 `Worksheet` 개체의 컬렉션이 포함됩니다. 여기에서 셀을 나타내는 주요 추상화는 <xref:Microsoft.Office.Interop.Excel.Range> 개체이며, 이 개체를 통해 개별 셀 또는 셀 그룹에서 작업할 수 있습니다.
 
   Excel 개체 모델 외에도 Visual Studio의 Office 프로젝트는 Excel 개체 모델의 일부 개체를 확장 하는 *호스트 항목* 및 *호스트 컨트롤* 을 제공 합니다. 호스트 항목 및 호스트 컨트롤은 확장되는 Excel 개체처럼 동작하지만 데이터 바인딩 기능과 같은 추가 기능 및 추가 이벤트도 제공합니다. 자세한 내용은 [확장 개체를 사용 하 여 Excel 자동화](../vsto/automating-excel-by-using-extended-objects.md) 및 호스트 [항목 및 호스트 컨트롤 개요](../vsto/host-items-and-host-controls-overview.md)를 참조 하세요.
 
@@ -50,7 +50,7 @@ ms.locfileid: "69551589"
   ![비디오에 연결](../vsto/media/playvideo.gif "비디오에 연결") 관련 비디오 데모를 보려면 어떻게 할까요?를 [참조 하세요. Excel 2007 추가 기능에서 이벤트 처리기를 사용 하 시겠습니까? ](http://go.microsoft.com/fwlink/?LinkID=130291) 및[어떻게 할까요?: 셰이프를 사용 하 여 Excel에서 거품형 차트 만들기 ](http://go.microsoft.com/fwlink/?LinkID=130313).
 
 ## <a name="access-objects-in-an-excel-project"></a>Excel 프로젝트의 개체 액세스
- Excel 용 VSTO 추가 기능 프로젝트를 새로 만들면 Visual Studio에서 자동으로 *ThisAddIn* 또는 *ThisAddIn.cs* 코드 파일을 만듭니다. `Me.Application` 또는 `this.Application`을 사용하여 응용 프로그램 개체에 액세스할 수 있습니다.
+ Excel 용 VSTO 추가 기능 프로젝트를 새로 만들면 Visual Studio에서 자동으로 *ThisAddIn* 또는 *ThisAddIn.cs* 코드 파일을 만듭니다. `Me.Application` 또는 `this.Application`을 사용하여 애플리케이션 개체에 액세스할 수 있습니다.
 
  Excel에 대한 새 문서 수준 프로젝트를 만들면 새 Excel 통합 문서 또는 Excel 서식 파일 프로젝트를 만들 수 있습니다. Visual Studio는 통합 문서 및 서식 파일 프로젝트에 대한 새 Excel 프로젝트에서 다음과 같은 코드 파일을 자동으로 만듭니다.
 
@@ -79,13 +79,13 @@ ms.locfileid: "69551589"
   Excel에서 수행되는 대부분의 작업은 이 네 가지 개체와 해당 멤버를 중심으로 합니다.
 
 ### <a name="application-object"></a>Application 개체
- Excel <xref:Microsoft.Office.Interop.Excel.Application> 개체는 Excel 응용 프로그램 자체를 나타냅니다. <xref:Microsoft.Office.Interop.Excel.Application> 개체는 실행 중인 응용 프로그램, 해당 인스턴스에 적용된 옵션 및 인스턴스 내에서 열려 있는 현재 사용자 개체에 대한 많은 정보를 표시합니다.
+ Excel <xref:Microsoft.Office.Interop.Excel.Application> 개체는 Excel 애플리케이션 자체를 나타냅니다. <xref:Microsoft.Office.Interop.Excel.Application> 개체는 실행 중인 애플리케이션, 해당 인스턴스에 적용된 옵션 및 인스턴스 내에서 열려 있는 현재 사용자 개체에 대한 많은 정보를 표시합니다.
 
 > [!NOTE]
 > Excel에서 <xref:Microsoft.Office.Interop.Excel.ApplicationClass.EnableEvents%2A> 개체의 <xref:Microsoft.Office.Interop.Excel.Application> 속성을 **false**라는 Word 또는 Excel 개체 모델에 고유하게 존재하는 개체를 확장합니다. 이 속성을 false로 설정하면 Excel에서 호스트 컨트롤의 이벤트를 비롯한 모든 이벤트를 발생시킬 수 없습니다.
 
 ### <a name="workbook-object"></a>통합 문서 개체
- <xref:Microsoft.Office.Interop.Excel.Workbook> 개체는 Excel 응용 프로그램 내에서 단일 통합 문서를 나타냅니다.
+ <xref:Microsoft.Office.Interop.Excel.Workbook> 개체는 Excel 애플리케이션 내에서 단일 통합 문서를 나타냅니다.
 
  Visual Studio의 Office 개발 도구는 <xref:Microsoft.Office.Interop.Excel.Workbook> 형식을 제공하여 <xref:Microsoft.Office.Tools.Excel.Workbook> 개체를 확장합니다. 이 형식은 <xref:Microsoft.Office.Interop.Excel.Workbook> 개체의 모든 기능에 액세스할 수 있습니다. 자세한 내용은 [통합 문서 호스트 항목](../vsto/workbook-host-item.md)을 참조 하세요.
 
@@ -97,7 +97,7 @@ ms.locfileid: "69551589"
  Visual Studio의 Office 개발 도구는 <xref:Microsoft.Office.Interop.Excel.Worksheet> 형식을 제공하여 <xref:Microsoft.Office.Tools.Excel.Worksheet> 개체를 확장합니다. 이 형식은 <xref:Microsoft.Office.Interop.Excel.Worksheet> 개체의 모든 기능뿐만 아니라 관리되는 컨트롤을 호스트하고 새 이벤트를 처리하는 기능과 같은 새 기능에 액세스할 수 있습니다. 자세한 내용은 [워크시트 호스트 항목](../vsto/worksheet-host-item.md)을 참조 하세요.
 
 ### <a name="range-object"></a>Range 개체
- <xref:Microsoft.Office.Interop.Excel.Range> 개체는 Excel 응용 프로그램 내에서 가장 많이 사용되는 개체입니다. Excel 내에서 영역을 조작하려면 먼저 <xref:Microsoft.Office.Interop.Excel.Range> 개체로 표현하고 해당 범위의 메서드 및 속성을 사용해야 합니다. <xref:Microsoft.Office.Interop.Excel.Range> 개체는 셀, 행, 열, 하나 이상의 셀 블록을 포함하는 셀 선택 영역(인접하거나 인접하지 않을 수 있음) 또는 여러 시트에 있는 셀 그룹을 나타냅니다.
+ <xref:Microsoft.Office.Interop.Excel.Range> 개체는 Excel 애플리케이션 내에서 가장 많이 사용되는 개체입니다. Excel 내에서 영역을 조작하려면 먼저 <xref:Microsoft.Office.Interop.Excel.Range> 개체로 표현하고 해당 범위의 메서드 및 속성을 사용해야 합니다. <xref:Microsoft.Office.Interop.Excel.Range> 개체는 셀, 행, 열, 하나 이상의 셀 블록을 포함하는 셀 선택 영역(인접하거나 인접하지 않을 수 있음) 또는 여러 시트에 있는 셀 그룹을 나타냅니다.
 
  Visual Studio는 <xref:Microsoft.Office.Tools.Excel.NamedRange> 및 <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 형식을 제공하여 <xref:Microsoft.Office.Interop.Excel.Range> 개체를 확장합니다. 이러한 형식은 <xref:Microsoft.Office.Interop.Excel.Range> 개체와 동일한 기능을 사용할 뿐만 아니라 데이터 바인딩 기능과 같은 새로운 기능 및 새로운 이벤트로 제공합니다. 자세한 내용은 [NamedRange control](../vsto/namedrange-control.md) 및 [XmlMappedRange control](../vsto/xmlmappedrange-control.md)을 참조 하세요.
 

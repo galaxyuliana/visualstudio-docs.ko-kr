@@ -33,7 +33,7 @@ ms.locfileid: "62811783"
 
 * **SAMI 1.0 이해** Microsoft SAMI(Synchronized Accessible Media Interchange) 기술을 사용하면 개발자가 PC 멀티미디어용 오디오 콘텐츠에 캡션을 추가할 수 있습니다. 자세한 내용은 [SAMI 1.0 이해](/previous-versions/windows/desktop/dnacc/understanding-sami-1.0)를 참조하세요.
 
-## <a name="windows-applications"></a>Windows 응용 프로그램
+## <a name="windows-applications"></a>Windows 애플리케이션
 
 * **[연습: 내게 필요한 옵션이 지원되는 Windows 기반 애플리케이션 만들기](/dotnet/framework/winforms/advanced/walkthrough-creating-an-accessible-windows-based-application)** 이 문서에서는 샘플 Windows 애플리케이션에서 "Certified for Windows" 로고를 취득하기 위해 5가지 내게 필요한 옵션 요구 사항을 포함한 단계별 지침을 설명합니다.
 

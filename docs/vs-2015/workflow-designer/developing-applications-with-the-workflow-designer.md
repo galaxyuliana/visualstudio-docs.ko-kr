@@ -24,8 +24,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 05/15/2019
 ms.locfileid: "65704781"
 ---
-# <a name="developing-applications-with-the-workflow-designer"></a>Workflow Designer로 응용 프로그램 개발
-[!INCLUDE[wfd1](../includes/wfd1-md.md)]는 [!INCLUDE[wf](../includes/wf-md.md)] 개발 환경에 호스트되는 [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)]에서 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 응용 프로그램을 디버깅하고 그래픽을 생성하는 비주얼 디자이너 겸 디버거입니다. 여기서 템플릿 및 활동 디자이너를 사용하여 복합 워크플로 응용 프로그램, 활동 라이브러리 또는 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 서비스를 생성할 수 있습니다. [!INCLUDE[crabout](../includes/crabout-md.md)] 워크플로 참조 합니다 [Windows Workflow Foundation &#91;.NET Framework 4&#93;](https://msdn.microsoft.com/library/9a23ea6b-d600-483e-89cd-8889cfec5f66)합니다.  
+# <a name="developing-applications-with-the-workflow-designer"></a>Workflow Designer로 애플리케이션 개발
+[!INCLUDE[wfd1](../includes/wfd1-md.md)]는 [!INCLUDE[wf](../includes/wf-md.md)] 개발 환경에 호스트되는 [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)]에서 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 애플리케이션을 디버깅하고 그래픽을 생성하는 비주얼 디자이너 겸 디버거입니다. 여기서 템플릿 및 활동 디자이너를 사용하여 복합 워크플로 애플리케이션, 활동 라이브러리 또는 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 서비스를 생성할 수 있습니다. [!INCLUDE[crabout](../includes/crabout-md.md)] 워크플로 참조 합니다 [Windows Workflow Foundation &#91;.NET Framework 4&#93;](https://msdn.microsoft.com/library/9a23ea6b-d600-483e-89cd-8889cfec5f66)합니다.  
   
  새 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 버전에서 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 이전 버전과 달라진 몇 가지 디자인 기능은 다음과 같습니다.  
   

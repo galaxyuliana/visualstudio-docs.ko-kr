@@ -50,7 +50,7 @@ Visual Studio는 다중 스레드 응용된 프로그램 디버깅에 사용할 
 
 Visual Studio에서 제공 하는 강력한 중단점 및 추적점 다중 스레드 응용 프로그램을 디버깅할 때 유용할 수 있습니다. 중단점 조건 및 필터를 사용 하 여 개별 스레드에 중단점을 설정 합니다. 추적점 교착 상태와 같은 문제를 연구를 중단 하지 않고 프로그램의 실행을 추적 사용 하도록 설정 합니다. 자세한 내용은 [중단점 작업 및 추적점](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints)합니다.
 
-사용자 인터페이스가 있는 다중 스레드 응용 프로그램은 특히 디버깅하기 어려울 수 있습니다. 두 번째 컴퓨터에 응용 프로그램을 실행 하 고 원격 디버깅 사용을 고려할 수 있습니다. 자세한 내용은 [원격 디버깅](../debugger/remote-debugging.md)합니다.
+사용자 인터페이스가 있는 다중 스레드 애플리케이션은 특히 디버깅하기 어려울 수 있습니다. 두 번째 컴퓨터에 응용 프로그램을 실행 하 고 원격 디버깅 사용을 고려할 수 있습니다. 자세한 내용은 [원격 디버깅](../debugger/remote-debugging.md)합니다.
 
 ## <a name="articles-about-debugging-multithreaded-apps"></a>다중 스레드 응용된 프로그램을 디버깅 하는 방법에 대 한 문서
 
@@ -84,7 +84,7 @@ Visual Studio에서 제공 하는 강력한 중단점 및 추적점 다중 스�
 
  [방법: 고성능 클러스터에서 디버그](../debugger/how-to-debug-on-a-high-performance-cluster.md)
 
-고성능 클러스터에서 실행되는 응용 프로그램을 디버깅하는 방법을 보여 줍니다.
+고성능 클러스터에서 실행되는 애플리케이션을 디버깅하는 방법을 보여 줍니다.
 
  [네이티브 코드의 스레드 디버깅 팁](../debugger/tips-for-debugging-threads-in-native-code.md)
 

@@ -38,7 +38,7 @@ OLEVIEW에는 컴퓨터에 설치된 ActiveX 및 OLE 개체와 이 개체가 지
 
 MFC 샘플
 
-MFC ActiveX 샘플 OCLIENT 및 SUPERPAD도 응용 프로그램을 테스트하는 데 사용할 수 있습니다. 이 샘플의 소스 코드가 모두 포함되어 있습니다.
+MFC ActiveX 샘플 OCLIENT 및 SUPERPAD도 애플리케이션을 테스트하는 데 사용할 수 있습니다. 이 샘플의 소스 코드가 모두 포함되어 있습니다.
 
 ### <a name="see-also"></a>참고자료
 

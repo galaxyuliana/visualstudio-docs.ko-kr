@@ -55,7 +55,7 @@ ms.locfileid: "65686033"
   
 #### <a name="to-rename-an-identifier"></a>식별자의 이름을 바꾸려면  
   
-1. `RenameIdentifier`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
+1. `RenameIdentifier`이라는 콘솔 애플리케이션을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
   
     ```csharp  
     class ProtoClassA  
@@ -92,7 +92,7 @@ ms.locfileid: "65686033"
   
 #### <a name="to-rename-an-identifier-using-smart-tags"></a>스마트 태그를 사용 하 여 식별자 이름을 바꾸려면  
   
-1. `RenameIdentifier`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
+1. `RenameIdentifier`이라는 콘솔 애플리케이션을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
   
     ```csharp  
     class ProtoClassA  

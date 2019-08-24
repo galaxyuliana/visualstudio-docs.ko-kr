@@ -19,7 +19,7 @@ ms.locfileid: "65697015"
 # <a name="how-to-start-debugging-xslt"></a>방법: XSLT 디버깅 시작
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-XSLT 디버거를 사용하여 XSLT 스타일시트 또는 XSLT 응용 프로그램을 디버깅할 수 있습니다. 디버깅할 때 코드를 한 단계씩 실행, 프로시저 단위로 실행 또는 코드를 종료하여 한 번에 한 줄씩 코드를 실행할 수 있습니다. XSLT 디버거와 다른 Visual Studio 디버거에서 코드를 단계별로 실행하는 기능을 사용하는 명령은 같습니다. 디버깅을 시작하면 XSLT 디버거에서 입력 문서와 XSLT 출력을 창에 표시합니다.  
+XSLT 디버거를 사용하여 XSLT 스타일시트 또는 XSLT 애플리케이션을 디버깅할 수 있습니다. 디버깅할 때 코드를 한 단계씩 실행, 프로시저 단위로 실행 또는 코드를 종료하여 한 번에 한 줄씩 코드를 실행할 수 있습니다. XSLT 디버거와 다른 Visual Studio 디버거에서 코드를 단계별로 실행하는 기능을 사용하는 명령은 같습니다. 디버깅을 시작하면 XSLT 디버거에서 입력 문서와 XSLT 출력을 창에 표시합니다.  
   
 ## <a name="xml-editor"></a>XML 편집기  
  XML 편집기에서 디버거를 시작할 수 있습니다. 그러면 스타일시트를 디자인하면서 디버깅할 수 있습니다.  
@@ -37,12 +37,12 @@ XSLT 디버거를 사용하여 XSLT 스타일시트 또는 XSLT 응용 프로그
 2. 선택 **XSL 디버깅** 에서 합니다 **XML** 메뉴.  
   
 ## <a name="xslt-from-other-languages"></a>다른 언어의 XSLT  
- 응용 프로그램을 디버깅하는 동안 XSLT를 한 단계씩 실행할 수도 있습니다. <xref:System.Xml.Xsl.XslCompiledTransform.Transform%2A?displayProperty=fullName> 호출에서 F11 키를 누르면 디버거에서 XSLT 코드를 한 단계씩 실행할 수 있습니다.  
+ 애플리케이션을 디버깅하는 동안 XSLT를 한 단계씩 실행할 수도 있습니다. <xref:System.Xml.Xsl.XslCompiledTransform.Transform%2A?displayProperty=fullName> 호출에서 F11 키를 누르면 디버거에서 XSLT 코드를 한 단계씩 실행할 수 있습니다.  
   
 > [!NOTE]
 > <xref:System.Xml.Xsl.XslTransform> 클래스에서 XSLT를 한 단계씩 실행하는 것이 지원되지 않습니다. <xref:System.Xml.Xsl.XslCompiledTransform> 클래스는 디버깅하는 동안 XSLT를 한 단계씩 실행하도록 지원하는 유일한 XSLT 프로세서입니다.  
   
-#### <a name="to-start-debugging-an-xslt-application"></a>XSLT 응용 프로그램 디버깅을 시작하려면  
+#### <a name="to-start-debugging-an-xslt-application"></a>XSLT 애플리케이션 디버깅을 시작하려면  
   
 1. <xref:System.Xml.Xsl.XslCompiledTransform> 개체를 인스턴스화할 때 코드에서 `enableDebug` 매개 변수를 `true`로 설정합니다.  
   
@@ -52,7 +52,7 @@ XSLT 디버거를 사용하여 XSLT 스타일시트 또는 XSLT 응용 프로그
   
      XSLT 스타일시트가 새 문서 창에 로드되고 XSLT 디버거가 시작됩니다.  
   
-     또는 스타일시트에 중단점을 추가하고 응용 프로그램을 실행할 수 있습니다.  
+     또는 스타일시트에 중단점을 추가하고 애플리케이션을 실행할 수 있습니다.  
   
 ### <a name="example"></a>예제  
  다음은 C# XSLT 프로그램의 예로, XSLT 디버깅을 활성화하는 방법을 보여 줍니다.  

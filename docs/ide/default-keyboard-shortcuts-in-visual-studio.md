@@ -478,7 +478,7 @@ Visual Studio의 접근성에 대한 자세한 내용은 [접근성 팁과 요�
 |OtherContextMenus.UITestEditorContextMenu.Movecode|**Ctrl+Alt+C**|
 |OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod|**Ctrl+Shift+T**|
 
-## <a name="dataset-editor"></a>데이터 집합 편집기
+## <a name="dataset-editor"></a>데이터 세트 편집기
 
 |명령|바로 가기 키|
 |--------------| - |

@@ -19,7 +19,7 @@ ms.locfileid: "62430451"
 ---
 # <a name="visual-studio-tools-for-ai"></a>Visual Studio Tools for AI
 
-Visual Studio Tools for AI는 딥 러닝/AI 솔루션을 빌드, 테스트 및 배포하기 위한 확장 기능입니다. 데이터 준비 및 모델 교육 작업을 다른 컴퓨팅 대상에 투명하게 제출하는 것을 포함하지만 이에 국한되지 않는 강력한 실험 기능을 위해 Azure Machine Learning과 원활하게 통합됩니다. 또한 사용자 지정 메트릭 및 실행 기록 추적을 지원하므로 데이터 과학 재현 가능성과 감사가 가능합니다. 엔터프라이즈 지원 공동 작업을 통해 다른 사람들과 프로젝트를 안전하게 수행할 수 있습니다.
+Visual Studio Tools for AI는 딥 러닝/AI 솔루션을 빌드, 테스트 및 배포하기 위한 확장 기능입니다. 데이터 준비 및 모델 교육 작업을 다른 컴퓨팅 대상에 투명하게 제출하는 것을 포함하지만 이에 국한되지 않는 강력한 실험 기능을 위해 Azure Machine Learning과 원활하게 통합됩니다. 또한 사용자 지정 메트릭 및 실행 기록 추적을 지원하므로 데이터 과학 재현 가능성과 감사가 가능합니다. 엔터프라이즈 지원 협업을 통해 다른 사람들과 프로젝트를 안전하게 수행할 수 있습니다.
 
 [CNTK(Microsoft Cognitive Toolkit)](http://www.microsoft.com/en-us/cognitive-toolkit), [Google TensorFlow](https://www.tensorflow.org) 또는 기타 딥 러닝 프레임워크를 사용하여 딥 러닝을 시작합니다.
 

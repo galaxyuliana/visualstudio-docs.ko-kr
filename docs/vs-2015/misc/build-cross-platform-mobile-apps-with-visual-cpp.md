@@ -17,7 +17,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62946819"
 ---
 # <a name="build-cross-platform-mobile-apps-with-visual-c"></a>시각적 개체를 사용 하 여 플랫폼 간 모바일 앱 빌드C++
-플랫폼 간 모바일 개발용 Visual C++를 사용하여 Android, iOS 및 Windows 장치용 플랫폼 간 코드를 빌드할 수 있습니다. 이는 Visual Studio 2015에서 사용할 수 있는 선택적 기능으로, Visual C++를 사용하여 iOS, Android 및 Windows용 플랫폼 간 코드를 개발할 수 있게 해줍니다.  
+플랫폼 간 모바일 개발용 Visual C++를 사용하여 Android, iOS 및 Windows 디바이스용 플랫폼 간 코드를 빌드할 수 있습니다. 이는 Visual Studio 2015에서 사용할 수 있는 선택적 기능으로, Visual C++를 사용하여 iOS, Android 및 Windows용 플랫폼 간 코드를 개발할 수 있게 해줍니다.  
   
  설치 지침 및 코드 예제를 참조 하세요 [시각적 C++ 플랫폼 간 모바일 개발용](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md)합니다.  
   

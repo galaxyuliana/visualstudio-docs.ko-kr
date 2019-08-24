@@ -44,7 +44,7 @@ ms.locfileid: "65696890"
  로컬 시스템, 연결된 디바이스, Visual Studio 시뮬레이터 또는 에뮬레이터, 또는 원격 디바이스에서 앱 응답성을 프로파일링할 수 있습니다. 참조 [디버깅 하지 않고 프로 파일링 도구 실행](https://msdn.microsoft.com/library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01)합니다.  
   
 > [!TIP]
-> 가능한 경우 디바이스에서 앱을 직접 실행합니다. 시뮬레이터에서 또는 원격 데스크톱 연결을 통해 관찰한 응용 프로그램 성능은 디바이스의 실제 성능과 다를 수 있습니다. 반면에 Visual Studio 원격 도구를 사용하여 데이터를 수집하면 성능 데이터에 영향을 주지 않습니다.  
+> 가능한 경우 디바이스에서 앱을 직접 실행합니다. 시뮬레이터에서 또는 원격 데스크톱 연결을 통해 관찰한 애플리케이션 성능은 디바이스의 실제 성능과 다를 수 있습니다. 반면에 Visual Studio 원격 도구를 사용하여 데이터를 수집하면 성능 데이터에 영향을 주지 않습니다.  
   
  기본 단계는 다음과 같습니다.  
   
@@ -73,7 +73,7 @@ ms.locfileid: "65696890"
 2. 응답성이 떨어지는 분명한 원인이 있는지 알아보려면 **UI 스레드 사용률** 또는 **시각적 처리량(FPS)** 그래프의 정보를 사용하여 **타임라인 세부 정보** 뷰에서 세부 정보를 살펴봅니다.  
   
 ### <a name="BKMK_Report_scenarios_categories_and_events"></a> 시나리오, 범주 및 이벤트 보고  
-  **응용 프로그램 타임라인** 도구는 XAML 성능과 관련된 시나리오, 범주 및 이벤트에 대한 타이밍 데이터를 표시합니다.  
+ **응용 프로그램 타임라인** 도구는 XAML 성능과 관련된 시나리오, 범주 및 이벤트에 대한 타이밍 데이터를 표시합니다.  
   
 ### <a name="BKMK_Diagnostic_session_timeline"></a> 진단 세션 타임라인  
  ![성능 및 진단 타임라인](../profiling/media/diaghub-timelinewithusermarks.png "DIAGHUB_TimelineWithUserMarks")  
@@ -85,7 +85,7 @@ ms.locfileid: "65696890"
 ### <a name="BKMK_UI_thread_utilization_graph"></a> UI 스레드 사용률 그래프  
  ![CPU 사용률 그래프](../profiling/media/timeline-cpuutilization.png "TIMELINE_CpuUtilization")  
   
-  **UI 스레드 사용률(%)** 그래프는 컬렉션 범위 도중에 대한 범주에서 소요된 시간의 상대 크기를 표시하는 막대형 차트입니다.  
+ **UI 스레드 사용률(%)** 그래프는 컬렉션 범위 도중에 대한 범주에서 소요된 시간의 상대 크기를 표시하는 막대형 차트입니다.  
   
 ### <a name="BKMK_Visual_throughput_FPS_graph"></a> 시각적 처리량(FPS) 그래프  
  ![시각적 처리량 그래프](../profiling/media/timeline-visualthroughput.png "TIMELINE_VisualThroughput")  

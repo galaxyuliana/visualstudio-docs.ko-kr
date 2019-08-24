@@ -86,7 +86,7 @@ ms.locfileid: "63446959"
 ### <a name="update-the-code"></a>코드 업데이트
  새 리본 코드 파일에 추가 됩니다 **솔루션 탐색기**. 이 파일에는 리본 XML 클래스가 포함되어 있습니다. 단추 클릭과 같은 사용자 동작을 처리하려면 이 클래스의 `Ribbon Callbacks` 영역에 콜백 메서드를 만들어야 합니다. 이벤트 처리기의 코드를 이러한 콜백 메서드로 이동하고 리본 확장성(RibbonX) 프로그래밍 모델을 사용하도록 코드를 수정합니다. 자세한 내용은 [Ribbon XML](../vsto/ribbon-xml.md)을 참조하세요.
 
- 또한 `CreateRibbonExtensibilityObject` 메서드를 재정의하고 Office 응용 프로그램에 리본 XML 클래스를 반환하는 코드를 `ThisAddIn`, `ThisWorkbook` 또는 `ThisDocument` 클래스에 추가해야 합니다.
+ 또한 `CreateRibbonExtensibilityObject` 메서드를 재정의하고 Office 애플리케이션에 리본 XML 클래스를 반환하는 코드를 `ThisAddIn`, `ThisWorkbook` 또는 `ThisDocument` 클래스에 추가해야 합니다.
 
  자세한 내용은 [Ribbon XML](../vsto/ribbon-xml.md)을 참조하세요.
 

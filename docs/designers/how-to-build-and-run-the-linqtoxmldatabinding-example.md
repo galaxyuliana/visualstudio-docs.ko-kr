@@ -36,7 +36,7 @@ Visual Studio에 대한 자세한 내용은 [Visual Studio IDE 개요](../get-st
 
     - System.Xml.Linq
 
-1. **Ctnrl**+**Shift**+**B**를 눌러 솔루션을 빌드한 다음, **F5**를 눌러 솔루션을 실행합니다. 프로젝트가 오류 없이 컴파일되고 일반 WPF 응용 프로그램으로 실행됩니다.
+1. **Ctnrl**+**Shift**+**B**를 눌러 솔루션을 빌드한 다음, **F5**를 눌러 솔루션을 실행합니다. 프로젝트가 오류 없이 컴파일되고 일반 WPF 애플리케이션으로 실행됩니다.
 
 ## <a name="add-code-to-the-project"></a>프로젝트에 코드 추가
 

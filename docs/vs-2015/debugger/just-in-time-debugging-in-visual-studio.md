@@ -96,7 +96,7 @@ Visual Studio Just-에-시간을 표시 하는 경우 수행 해야 하는 작�
 
 #### <a name="to-enable-just-in-time-debugging-of-a-windows-form"></a>Windows Form에 Just-In-Time 디버깅을 사용하려면
 
-1. 기본적으로 Windows Forms 응용 프로그램에는 복구할 수 있는 경우 프로그램을 계속 실행할 수 있도록 하는 최상위 예외 처리기가 있습니다. 예를 들어, Windows Forms 응용 프로그램에서 처리 되지 않은 예외를 throw 하는 경우 다음과 같은 대화 상자가 나타납니다.
+1. 기본적으로 Windows Forms 애플리케이션에는 복구할 수 있는 경우 프로그램을 계속 실행할 수 있도록 하는 최상위 예외 처리기가 있습니다. 예를 들어, Windows Forms 응용 프로그램에서 처리 되지 않은 예외를 throw 하는 경우 다음과 같은 대화 상자가 나타납니다.
 
      ![WindowsFormsUnhandledException](../debugger/media/windowsformsunhandledexception.png "WindowsFormsUnhandledException")
 
@@ -110,7 +110,7 @@ Visual Studio Just-에-시간을 표시 하는 경우 수행 해야 하는 작�
     </configuration>
     ```
 
-3. C++ Windows Forms 응용 프로그램의 경우 .config 파일이나 코드에서 `DebuggableAttribute`도 설정해야 합니다. [/Zi](https://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)만 사용하고 [/Og](https://msdn.microsoft.com/library/d10630cc-b9cf-4e97-bde3-8d7ee79e9435)는 사용하지 않은 상태에서 컴파일하면 컴파일러에서 이 특성을 자동으로 설정합니다. 그러나 최적화되지 않은 릴리스 빌드를 디버깅하려면 이 특성을 직접 설정해야 합니다. 응용 프로그램의 AssemblyInfo.cpp 파일에 다음 줄을 추가하여 이 특성을 설정할 수 있습니다.
+3. C++ Windows Forms 애플리케이션의 경우 .config 파일이나 코드에서 `DebuggableAttribute`도 설정해야 합니다. [/Zi](https://msdn.microsoft.com/library/ce9fa7e1-0c9b-47e3-98ea-26d1a16257c8)만 사용하고 [/Og](https://msdn.microsoft.com/library/d10630cc-b9cf-4e97-bde3-8d7ee79e9435)는 사용하지 않은 상태에서 컴파일하면 컴파일러에서 이 특성을 자동으로 설정합니다. 그러나 최적화되지 않은 릴리스 빌드를 디버깅하려면 이 특성을 직접 설정해야 합니다. 애플리케이션의 AssemblyInfo.cpp 파일에 다음 줄을 추가하여 이 특성을 설정할 수 있습니다.
 
     ```
     [assembly:System::Diagnostics::DebuggableAttribute(true, true)];
@@ -118,7 +118,7 @@ Visual Studio Just-에-시간을 표시 하는 경우 수행 해야 하는 작�
 
      자세한 내용은 <xref:System.Diagnostics.DebuggableAttribute>을 참조하세요.
 
-## <a name="a-namebkmkusingjituse-just-in-time-debugging"></a><a name="BKMK_Using_JIT">Just-in-time 디버깅 사용
+## <a name="a-namebkmk_using_jituse-just-in-time-debugging"></a><a name="BKMK_Using_JIT">Just-in-time 디버깅 사용
  이 섹션에서는 실행 예외를 throw 하는 경우 어떻게 되는지 보여 줍니다.
 
  Visual Studio를 설치 하려면 다음이 단계를 수행 해야 합니다. Visual Studio가 없는 경우 무료 다운로드할 수 있습니다 [Visual Studio 2015 Community Edition](https://visualstudio.microsoft.com/vs/older-downloads/)합니다.
@@ -157,7 +157,7 @@ static void Main(string[] args)
  클릭 하지 마세요 **취소**! 두 개의 단추를 몇 초 후 표시 **디버그** 하 고 **프로그램을 닫아**합니다. 클릭 **디버그**합니다.
 
 > [!CAUTION]
-> 응용 프로그램에 신뢰할 수 없는 코드가 보안 경고 대화 상자가 나타납니다. 이 대화 상자에서 디버깅을 계속할지 여부를 결정할 수 있습니다. 디버깅을 계속하기 전에 코드를 신뢰할 수 있는지 확인해야 합니다. 직접 작성한 코드인지, 코드 작성자를 신뢰할 수 있는지, 응용 프로그램이 원격 컴퓨터에서 실행 중인 경우 프로세스 이름을 알 수 있는지 등을 확인합니다. 응용 프로그램이 로컬로 실행 중이라고 해서 반드시 신뢰할 수 있는 것은 아닙니다. 컴퓨터에서 악의적인 코드가 실행 될 가능성을 고려 합니다. 코드를 하려는 경우 디버그를 신뢰할 수, 클릭 **디버그**합니다. 그렇지 않은 경우 클릭 **디버깅 하지 마십시오**합니다.
+> 응용 프로그램에 신뢰할 수 없는 코드가 보안 경고 대화 상자가 나타납니다. 이 대화 상자에서 디버깅을 계속할지 여부를 결정할 수 있습니다. 디버깅을 계속하기 전에 코드를 신뢰할 수 있는지 확인해야 합니다. 직접 작성한 코드인지, 코드 작성자를 신뢰할 수 있는지, 애플리케이션이 원격 컴퓨터에서 실행 중인 경우 프로세스 이름을 알 수 있는지 등을 확인합니다. 애플리케이션이 로컬로 실행 중이라고 해서 반드시 신뢰할 수 있는 것은 아닙니다. 컴퓨터에서 악의적인 코드가 실행 될 가능성을 고려 합니다. 코드를 하려는 경우 디버그를 신뢰할 수, 클릭 **디버그**합니다. 그렇지 않은 경우 클릭 **디버깅 하지 마십시오**합니다.
 
  합니다 **Visual Studio Just-In-Time Debugger** 창이 나타납니다.
 

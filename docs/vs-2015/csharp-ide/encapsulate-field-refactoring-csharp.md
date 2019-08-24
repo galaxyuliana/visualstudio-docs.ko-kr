@@ -36,7 +36,7 @@ ms.locfileid: "65681382"
   
 ### <a name="to-create-a-property-from-a-field"></a>필드에서 속성을 만들려면  
   
-1. `EncapsulateFieldExample`이라는 콘솔 응용 프로그램을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
+1. `EncapsulateFieldExample`이라는 콘솔 애플리케이션을 만들고 `Program`을 다음 예제 코드로 바꿉니다.  
   
     ```csharp  
     class Square  

@@ -68,6 +68,6 @@ TableAdapter를 정의 하는 코드는 데이터 집합의 TableAdapter에 변�
 ## <a name="see-also"></a>참고자료
 
 - [N 계층 데이터 애플리케이션 개요](../data-tools/n-tier-data-applications-overview.md)
-- [n 계층 응용 프로그램에서 데이터 집합에 코드 추가](../data-tools/add-code-to-datasets-in-n-tier-applications.md)
+- [n 계층 애플리케이션에서 데이터 세트에 코드 추가](../data-tools/add-code-to-datasets-in-n-tier-applications.md)
 - [TableAdapter 만들기 및 구성](create-and-configure-tableadapters.md)
 - [계층적 업데이트 개요](hierarchical-update.md)

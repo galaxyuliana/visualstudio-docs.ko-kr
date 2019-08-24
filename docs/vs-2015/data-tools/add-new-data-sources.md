@@ -54,7 +54,7 @@ Visual Studio의.NET data tools의 컨텍스트에서 용어 *데이터 원본* 
   
 ## <a name="data-source-for-a-database-or-a-database-file"></a>데이터베이스 또는 데이터베이스 파일에 대 한 데이터 원본  
   
-### <a name="dataset"></a>데이터 집합  
+### <a name="dataset"></a>데이터 세트  
  데이터 원본으로 데이터 집합을 만들려면 다음을 실행 합니다 **데이터 소스 구성 마법사** (**프로젝트** > **새 데이터 추가** 원본) 선택 하 고는  **데이터베이스** 데이터 소스 형식입니다. 지시에 따라 새 또는 기존 데이터베이스 연결 또는 데이터베이스 파일을 지정 합니다.  
   
 ### <a name="entity-classes"></a>엔터티 클래스  

@@ -23,7 +23,7 @@ ms.locfileid: "67825518"
 
 ## <a name="navigating-the-workflow-designer-using-the-keyboard"></a>키보드를 사용하여 워크플로 디자이너 탐색
 
-Visual Studio 내에서 전역 바로 가기와 디버깅 바로 가기가 워크플로 디자이너에 적용 됩니다. 또한 다양 한 워크플로 디자이너 관련 바로 가기 키를 만들었습니다. Visual Studio에서 모든 바로 가기 키를 다시 매핑할 수 있습니다. 하지만 다시 호스트된 응용 프로그램에는 이러한 바로 가기 키가 하드 코딩되어 있습니다.
+Visual Studio 내에서 전역 바로 가기와 디버깅 바로 가기가 워크플로 디자이너에 적용 됩니다. 또한 다양 한 워크플로 디자이너 관련 바로 가기 키를 만들었습니다. Visual Studio에서 모든 바로 가기 키를 다시 매핑할 수 있습니다. 하지만 다시 호스트된 애플리케이션에는 이러한 바로 가기 키가 하드 코딩되어 있습니다.
 
 ### <a name="workflow-designer-keyboard-shortcuts"></a>Workflow Designer 바로 가기 키
 

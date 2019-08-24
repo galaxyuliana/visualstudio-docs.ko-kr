@@ -45,9 +45,9 @@ Visual Studio 배포 기능을 작성 하 고 대상 장치에서 Visual Studio�
 
      ![로컬 컴퓨터에서 실행할](../debugger/media/vsrun_f5_local.png "VSRUN_F5_Local")
 
-3.  **빌드** 메뉴에서 **배포**를 선택합니다.
+3. **빌드** 메뉴에서 **배포**를 선택합니다.
 
-## <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 장치 지정 방법
+## <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 디바이스 지정 방법
 
 **필수 조건**
 

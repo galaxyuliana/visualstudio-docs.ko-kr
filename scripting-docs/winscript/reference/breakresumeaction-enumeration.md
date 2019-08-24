@@ -45,7 +45,7 @@ typedef enum tagBREAKRESUME_ACTION {
   
 |멤버|설명|  
 |------------|-----------------|  
-|BREAKRESUMEACTION_ABORT|응용 프로그램을 중단합니다.|  
+|BREAKRESUMEACTION_ABORT|애플리케이션을 중단합니다.|  
 |BREAKRESUMEACTION_CONTINUE|실행을 계속합니다.|  
 |BREAKRESUMEACTION_STEP_INTO|프로시저를 한 단계씩 실행합니다.|  
 |BREAKRESUMEACTION_STEP_OVER|절차를 건너뜁니다.|  

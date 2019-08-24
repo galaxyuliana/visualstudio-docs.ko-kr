@@ -90,13 +90,13 @@
                   href: save-a-dataset-as-xml.md
             - name: 데이터 세트 쿼리
               href: query-datasets.md
-            - name: n 계층 애플리케이션에서 데이터 집합 작업
+            - name: n 계층 애플리케이션에서 데이터 세트 작업
               items:
-                - name: n 계층 애플리케이션에서 데이터 집합 작업
+                - name: n 계층 애플리케이션에서 데이터 세트 작업
                   href: work-with-datasets-in-n-tier-applications.md
                 - name: n 계층 데이터 세트에 유효성 검사 추가
                   href: add-validation-to-an-n-tier-dataset.md
-                - name: n 계층 애플리케이션에서 데이터 집합에 코드 추가
+                - name: n 계층 애플리케이션에서 데이터 세트에 코드 추가
                   href: add-code-to-datasets-in-n-tier-applications.md
                 - name: n 계층 애플리케이션에서 TableAdapter에 코드 추가
                   href: add-code-to-tableadapters-in-n-tier-applications.md
@@ -148,7 +148,7 @@
                   href: the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md
                 - name: 속성 <property name\>을 삭제할 수 없음
                   href: the-property-property-name-cannot-be-deleted.md
-                - name: 응용 프로그램 설정 파일에서 연결 속성이 없거나 잘못되었습니다.
+                - name: 애플리케이션 설정 파일에서 연결 속성이 없거나 잘못되었습니다.
                   href: the-connection-property-in-the-application-settings-file-is-missing-or-incorrect.md
                 - name: 지원되지 않는 데이터베이스 공급자에서 데이터베이스 공급자를 선택했습니다.
                   href: you-have-selected-a-database-object-from-an-unsupported-database-provider.md
@@ -250,7 +250,7 @@
               href: creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md
             - name: N 계층 데이터 애플리케이션 만들기
               href: walkthrough-creating-an-n-tier-data-application.md
-            - name: N 계층 데이터 응용 프로그램 개요
+            - name: N 계층 데이터 애플리케이션 개요
               href: n-tier-data-applications-overview.md
         - name: 데이터 액세스 오류 문제 해결을 위한 추가 리소스
           href: additional-resources-for-troubleshooting-data-access-errors.md

@@ -115,7 +115,7 @@ ms.locfileid: "62990543"
 
 2. *QTController.exe.config* 파일을 엽니다. 이 파일은 *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*에 위치합니다.
 
-3. 응용 프로그램 설정에 `BindTo` 속성 항목을 추가합니다. 컨트롤러를 바인딩할 네트워크 어댑터의 IP 주소를 지정합니다. 코드는 다음과 비슷합니다.
+3. 애플리케이션 설정에 `BindTo` 속성 항목을 추가합니다. 컨트롤러를 바인딩할 네트워크 어댑터의 IP 주소를 지정합니다. 코드는 다음과 비슷합니다.
 
     ```xml
     <appSettings>

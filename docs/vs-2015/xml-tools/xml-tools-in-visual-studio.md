@@ -43,9 +43,9 @@ ms.locfileid: "65695327"
 # <a name="xml-tools-in-visual-studio"></a>Visual Studio의 XML 도구
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Extensible Markup Language (XML) *은 데이터를 설명 하는 형식을 제공 하는 마크업 언어입니다. 이 언어를 사용하면 콘텐츠를 보다 정확하게 선언하고 여러 플랫폼 간에 보다 의미 있는 검색 결과를 얻을 수 있습니다. 또한 XML을 사용하는 경우 표시를 데이터 자체와 구분할 수 있습니다. 예를 들어 HTML에서는 태그를 사용하여 데이터를 굵게, 기울임꼴 등으로 표시하도록 브라우저에 명령하지만 XML에서는 태그를 사용하여 구/군/시 이름, 기온, 기압 등의 데이터만을 설명합니다. XML에서는 XSL(Extensible Stylesheet Language) 및 CSS(CSS 스타일시트)와 같은 스타일시트를 사용하여 브라우저에 데이터를 표시합니다. XML에서는 데이터가 표시 및 프로세스와 구분되므로 여러 스타일시트 및 응용 프로그램을 적용하여 데이터를 원하는 방식으로 표시 및 처리할 수 있습니다.
+Extensible Markup Language (XML) *은 데이터를 설명 하는 형식을 제공 하는 마크업 언어입니다. 이 언어를 사용하면 콘텐츠를 보다 정확하게 선언하고 여러 플랫폼 간에 보다 의미 있는 검색 결과를 얻을 수 있습니다. 또한 XML을 사용하는 경우 표시를 데이터 자체와 구분할 수 있습니다. 예를 들어 HTML에서는 태그를 사용하여 데이터를 굵게, 기울임꼴 등으로 표시하도록 브라우저에 명령하지만 XML에서는 태그를 사용하여 구/군/시 이름, 기온, 기압 등의 데이터만을 설명합니다. XML에서는 XSL(Extensible Stylesheet Language) 및 CSS(CSS 스타일시트)와 같은 스타일시트를 사용하여 브라우저에 데이터를 표시합니다. XML에서는 데이터가 표시 및 프로세스와 구분되므로 여러 스타일시트 및 애플리케이션을 적용하여 데이터를 원하는 방식으로 표시 및 처리할 수 있습니다.
 
- XML은 웹을 통해 제공하도록 최적화된 SGML의 하위 집합으로, W3C(World Wide Web Consortium)에 의해 정의되었습니다. 이러한 표준화로 인해 구조적 데이터가 응용 프로그램이나 공급업체와 상관없이 일정하게 유지됩니다.
+ XML은 웹을 통해 제공하도록 최적화된 SGML의 하위 집합으로, W3C(World Wide Web Consortium)에 의해 정의되었습니다. 이러한 표준화로 인해 구조적 데이터가 애플리케이션이나 공급업체와 상관없이 일정하게 유지됩니다.
 
  XML은 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 및 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]에서 제공되는 여러 기능의 핵심적 요소입니다. 다음 항목에서는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 및 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]에서 제공되는 XML 관련 기능 및 도구의 이름을 소개합니다.
 

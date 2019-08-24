@@ -31,7 +31,7 @@ ms.locfileid: "65699683"
   
 - 레지스트리 키 설정. 이 방법에서는 지시문 프로세서에 대한 레지스트리 항목을 추가합니다.  
   
-  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 또는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 텍스트 템플릿을 변형하려는 경우에만 이러한 방법 중 하나를 사용해야 합니다. 응용 프로그램에서 사용자 지정 호스트를 사용하는 경우 사용자 지정 호스트는 각 지시문의 지시문 프로세서를 찾는 작업을 담당합니다.  
+  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 또는 [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)]에서 텍스트 템플릿을 변형하려는 경우에만 이러한 방법 중 하나를 사용해야 합니다. 애플리케이션에서 사용자 지정 호스트를 사용하는 경우 사용자 지정 호스트는 각 지시문의 지시문 프로세서를 찾는 작업을 담당합니다.  
   
 ## <a name="deploying-a-directive-processor-in-a-vsix"></a>VSIX로 지시문 프로세서 배포  
  사용자 지정 지시문 프로세서를 추가할 수 있습니다는 [Visual Studio 확장 (VSIX)](https://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832)합니다.  

@@ -147,7 +147,7 @@ Visual Studio 프로젝트에는 여러 앱과 함께 Django 프로젝트가 포
 
 ### <a name="question-why-do-i-want-to-create-a-virtual-environment"></a>질문: 가상 환경을 만들려는 이유는 무엇인가요?
 
-대답: 가상 환경은 앱의 정확한 종속성을 격리하는 좋은 방법입니다. 이러한 격리는 전역 Python 환경 내에서 충돌을 방지하고 테스트 및 공동 작업을 지원합니다. 시간에 따라 앱을 개발하면서 여러 유용한 Python 패키지가 동일하게 표시됩니다. 프로젝트별 가상 환경에 패키지를 유지하면 소스 제어에 포함되어 있는, 해당 환경을 설명하는 프로젝트의 *requirements.txt* 파일을 쉽게 업데이트할 수 있습니다. 빌드 서버, 배포 서버 및 기타 개발 컴퓨터를 포함하여 다른 컴퓨터에 프로젝트를 복사하는 경우 *requirements.txt*만 사용하여 환경을 다시 만들기가 수월합니다. 따라서 환경이 소스 제어에 있을 필요가 없습니다. 자세한 내용은 [가상 환경 사용](selecting-a-python-environment-for-a-project.md#use-virtual-environments)을 참조하세요.
+대답: 가상 환경은 앱의 정확한 종속성을 격리하는 좋은 방법입니다. 이러한 격리는 전역 Python 환경 내에서 충돌을 방지하고 테스트 및 협업을 지원합니다. 시간에 따라 앱을 개발하면서 여러 유용한 Python 패키지가 동일하게 표시됩니다. 프로젝트별 가상 환경에 패키지를 유지하면 소스 제어에 포함되어 있는, 해당 환경을 설명하는 프로젝트의 *requirements.txt* 파일을 쉽게 업데이트할 수 있습니다. 빌드 서버, 배포 서버 및 기타 개발 컴퓨터를 포함하여 다른 컴퓨터에 프로젝트를 복사하는 경우 *requirements.txt*만 사용하여 환경을 다시 만들기가 수월합니다. 따라서 환경이 소스 제어에 있을 필요가 없습니다. 자세한 내용은 [가상 환경 사용](selecting-a-python-environment-for-a-project.md#use-virtual-environments)을 참조하세요.
 
 ### <a name="question-how-do-i-remove-a-virtual-environment-thats-already-committed-to-source-control"></a>질문: 소스 제어에 이미 커밋된 가상 환경을 제거하려면 어떻게 해야 하나요?
 

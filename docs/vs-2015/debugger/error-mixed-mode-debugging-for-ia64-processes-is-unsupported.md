@@ -30,7 +30,7 @@ ms.locfileid: "65697436"
   
 ### <a name="to-correct-this-error"></a>이 오류를 해결하려면  
   
-- 디버깅을 위해 32비트 버전의 응용 프로그램을 빌드합니다.  
+- 디버깅을 위해 32비트 버전의 애플리케이션을 빌드합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [디바이스에서 원격 도구 설정](https://msdn.microsoft.com/library/90f45630-0d26-4698-8c1f-63f85a12db9c)

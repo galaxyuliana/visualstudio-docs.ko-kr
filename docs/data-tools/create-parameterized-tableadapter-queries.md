@@ -36,7 +36,7 @@ ms.locfileid: "68925647"
 
 ## <a name="create-a-parameterized-tableadapter-query"></a>매개 변수가 있는 TableAdapter 쿼리 만들기
 
-### <a name="to-create-a-parameterized-query-in-the-dataset-designer"></a>데이터 집합 디자이너에서 매개 변수가 있는 쿼리를 만들려면
+### <a name="to-create-a-parameterized-query-in-the-dataset-designer"></a>데이터 세트 디자이너에서 매개 변수가 있는 쿼리를 만들려면
 
 - 원하는 매개 변수가 포함된 WHERE 절을 SQL 문에 추가하여 새 TableAdapter를 만듭니다. 자세한 내용은 [Tableadapter 만들기 및 구성](../data-tools/create-and-configure-tableadapters.md)을 참조 하세요.
 
@@ -46,7 +46,7 @@ ms.locfileid: "68925647"
 
 ### <a name="to-create-a-parameterized-query-while-designing-a-data-bound-form"></a>데이터 바인딩된 폼을 디자인하면서 매개 변수가 있는 쿼리를 만들려면
 
-1. 데이터 집합에 이미 바인딩되어 있는 폼의 컨트롤을 선택합니다. 자세한 내용은 [Windows Forms 컨트롤을 Visual Studio의 데이터에 바인딩](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)을 참조 하세요.
+1. 데이터 세트에 이미 바인딩되어 있는 폼의 컨트롤을 선택합니다. 자세한 내용은 [Windows Forms 컨트롤을 Visual Studio의 데이터에 바인딩](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)을 참조 하세요.
 
 2. **데이터** 메뉴에서 **쿼리 추가**를 선택 합니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "68925647"
 
 5. **쿼리 텍스트** 상자에 매개 변수를 사용 하는 쿼리를 입력 합니다.
 
-6.           **확인**을 선택합니다.
+6. **확인**을 선택합니다.
 
      매개 변수를 입력하기 위한 컨트롤과 **로드** 단추가 <xref:System.Windows.Forms.ToolStrip> 컨트롤의 폼에 추가됩니다.
 

@@ -31,7 +31,7 @@ ms.locfileid: "65691460"
 
 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]웹 사이트 템플릿은 Web Form 응용 프로그램을 만듭니다. 이 템플릿을 사용하여 웹 사이트를 만드는 경우 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 디버깅을 위한 기본 설정을 만듭니다. 에 **프로젝트 속성** 대화 상자에서 웹 페이지를 시작 페이지로 사용할지을 지정할 수 있습니다. 디버깅을 시작 하는 경우는 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]이러한 기본 설정 사용 하 여 웹 사이트 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Internet Explorer를 시작 하 고 디버거를 연결 합니다 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 작업자 프로세스 (aspnet_wp.exe 또는 w3wp.exe)). 자세한 내용은 [System Requirements](../debugger/aspnet-debugging-system-requirements.md)항목을 참조하세요.  
   
-### <a name="to-create-a-web-forms-application"></a>Web Forms 응용 프로그램을 만들려면  
+### <a name="to-create-a-web-forms-application"></a>Web Forms 애플리케이션을 만들려면  
   
 1. 에 **파일** 메뉴 선택 **새 웹 사이트**합니다.  
   

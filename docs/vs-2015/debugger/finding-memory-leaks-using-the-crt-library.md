@@ -214,7 +214,7 @@ _CrtSetBreakAlloc(18);
 ```  
   
 ## <a name="comparing-memory-states"></a>메모리 상태 비교  
- 주요 지점에서 애플리케이션의 메모리 상태 스냅숏을 보고 메모리 누수를 찾을 수도 있습니다. 특정 지점의 메모리 상태 스냅숏을 만들려면 **_CrtMemState** 구조체를 만들어 `_CrtMemCheckpoint` 함수에 전달합니다. 이 함수는 다음과 같이 구조체를 현재 메모리 상태의 스냅숏으로 채웁니다.  
+ 주요 지점에서 애플리케이션의 메모리 상태 스냅샷을 보고 메모리 누수를 찾을 수도 있습니다. 특정 지점의 메모리 상태 스냅샷을 만들려면 **_CrtMemState** 구조체를 만들어 `_CrtMemCheckpoint` 함수에 전달합니다. 이 함수는 다음과 같이 구조체를 현재 메모리 상태의 스냅샷으로 채웁니다.  
   
 ```  
 _CrtMemState s1;  
@@ -222,7 +222,7 @@ _CrtMemCheckpoint( &s1 );
   
 ```  
   
- `_CrtMemCheckpoint` 는 다음과 같이 구조체를 현재 메모리 상태의 스냅숏으로 채웁니다.  
+ `_CrtMemCheckpoint` 는 다음과 같이 구조체를 현재 메모리 상태의 스냅샷으로 채웁니다.  
   
  **_CrtMemState** 구조체의 내용을 출력하려면 다음과 같이 `_ CrtMemDumpStatistics` 함수에 구조체를 전달합니다.  
   
@@ -244,7 +244,7 @@ Total allocations: 3764 bytes.
   
 ```  
   
- 코드의 한 섹션에서 메모리 누수가 발생했는지 확인하려면 해당 섹션 앞뒤에서 메모리 상태 스냅숏을 만든 다음 `_ CrtMemDifference` 를 사용하여 두 상태를 비교합니다.  
+ 코드의 한 섹션에서 메모리 누수가 발생했는지 확인하려면 해당 섹션 앞뒤에서 메모리 상태 스냅샷을 만든 다음 `_ CrtMemDifference` 를 사용하여 두 상태를 비교합니다.  
   
 ```  
 _CrtMemCheckpoint( &s1 );  

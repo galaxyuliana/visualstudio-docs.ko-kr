@@ -34,7 +34,7 @@ VSPerfCmd.exe /Launch:AppName /Console
  **콘솔**은 **Launch** 옵션도 포함하는 명령줄에서만 지정할 수 있습니다.  
   
  **Launch:** `AppName`  
- 프로파일러 및 `AppName`에서 지정한 응용 프로그램을 시작합니다.  
+ 프로파일러 및 `AppName`에서 지정한 애플리케이션을 시작합니다.  
   
 ## <a name="see-also"></a>참고 항목  
  [VSPerfCmd](../profiling/vsperfcmd.md)   

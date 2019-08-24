@@ -17,11 +17,11 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "63444605"
 ---
 # <a name="how-to-create-a-workflow-console-application"></a>방법: 워크플로 콘솔 애플리케이션 만들기
-[!INCLUDE[wf](../includes/wf-md.md)]에서는 시스템 또는 사용자 프로세스를 실행하는 워크플로를 만들 수 있습니다. [!INCLUDE[wfd1](../includes/wfd1-md.md)]에는 이러한 워크플로를 만들 수 있는 디자인 화면이 있습니다. [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 내에서 워크플로를 만드는 데 사용되거나 디자이너를 다시 호스트하는 다른 응용 프로그램에 통합될 수 있습니다.  
+[!INCLUDE[wf](../includes/wf-md.md)]에서는 시스템 또는 사용자 프로세스를 실행하는 워크플로를 만들 수 있습니다. [!INCLUDE[wfd1](../includes/wfd1-md.md)]에는 이러한 워크플로를 만들 수 있는 디자인 화면이 있습니다. [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 내에서 워크플로를 만드는 데 사용되거나 디자이너를 다시 호스트하는 다른 애플리케이션에 통합될 수 있습니다.  
   
- 이 항목에서는 [!INCLUDE[wfd2](../includes/wfd2-md.md)]의 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용하여 콘솔 응용 프로그램에 워크플로를 만드는 방법에 대해 설명합니다.  
+ 이 항목에서는 [!INCLUDE[wfd2](../includes/wfd2-md.md)]의 [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 사용하여 콘솔 애플리케이션에 워크플로를 만드는 방법에 대해 설명합니다.  
   
-### <a name="to-create-a-workflow-console-application"></a>워크플로 콘솔 응용 프로그램을 만들려면  
+### <a name="to-create-a-workflow-console-application"></a>워크플로 콘솔 애플리케이션을 만들려면  
   
 1. [!INCLUDE[vs2010](../includes/vs2010-md.md)]를 시작합니다.  
   
@@ -42,7 +42,7 @@ ms.locfileid: "63444605"
     > [!NOTE]
     > 기존 솔루션에 워크플로 콘솔 응용 프로그램을 추가 하려는 경우에 솔루션을 엽니다 [!INCLUDE[vs2010](../includes/vs2010-md.md)]에서 솔루션을 마우스 오른쪽 단추로 클릭 **솔루션 탐색기**를 선택 하 고 **추가**, 한 다음  **새 프로젝트...** 열려는 합니다 **새 프로젝트** 대화 상자. 그런 다음 이 절차의 윗부분에 설명된 대로 진행합니다.  
   
-8. 프로젝트 템플릿이 XAML로 워크플로 정의를 만들고 소스 코드 안에 콘솔 응용 프로그램 정의를 만듭니다. [!INCLUDE[wfd2](../includes/wfd2-md.md)]가 열리고 만들어진 워크플로의 캔버스가 표시됩니다.  
+8. 프로젝트 템플릿이 XAML로 워크플로 정의를 만들고 소스 코드 안에 콘솔 애플리케이션 정의를 만듭니다. [!INCLUDE[wfd2](../includes/wfd2-md.md)]가 열리고 만들어진 워크플로의 캔버스가 표시됩니다.  
   
 9. 활동이 나 다른 워크플로 항목을 끌어 워크플로 구성 하는 **도구 상자** 워크플로의 디자인 화면입니다.  
   

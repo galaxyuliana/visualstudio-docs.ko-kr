@@ -41,7 +41,7 @@ ms.locfileid: "63419454"
 
 4. 설정 합니다 **OfficeId** 속성을 합니다 *컨트롤 ID* 사용자 지정 하려는 기본 제공 탭.
 
-     컨트롤 ID는 Microsoft Office 응용 프로그램에 기본 제공된 탭, 그룹 및 컨트롤을 고유하게 식별하는 이름입니다.
+     컨트롤 ID는 Microsoft Office 애플리케이션에 기본 제공된 탭, 그룹 및 컨트롤을 고유하게 식별하는 이름입니다.
 
      컨트롤 Id의 목록을 참조 하세요. [Office 2010 도움말 파일: Office fluent 사용자 인터페이스 제어 식별자](http://go.microsoft.com/fwlink/?LinkID=181052)합니다.
 

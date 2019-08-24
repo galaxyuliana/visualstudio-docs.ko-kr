@@ -71,7 +71,7 @@ ms.locfileid: "63438584"
 
 4. **솔루션 탐색기**를 마우스 오른쪽 단추로 클릭 **ThisAddin.cs** 또는 **ThisAddin.vb**를 클릭 하 고 **코드 보기**합니다.
 
-5. **ThisAddin** 클래스에 다음 코드를 추가합니다. 이 코드는 `CreateRibbonExtensibilityObject` 메서드를 재정의하고 Office 응용 프로그램에 리본 XML 클래스를 반환합니다.
+5. **ThisAddin** 클래스에 다음 코드를 추가합니다. 이 코드는 `CreateRibbonExtensibilityObject` 메서드를 재정의하고 Office 애플리케이션에 리본 XML 클래스를 반환합니다.
 
      [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
      [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb#1)]

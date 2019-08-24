@@ -34,7 +34,7 @@ Visual Studio 디버거를 Windows 스토어 앱 디버깅에 대 한 전체 지
   
 |||  
 |-|-|  
-|[Visual Studio에서 앱 실행](../debugger/run-store-apps-from-visual-studio.md)|로컬 컴퓨터, 앱 시뮬레이터 또는 에뮬레이터나 원격 장치에서 스토어 앱을 실행합니다.|  
+|[Visual Studio에서 앱 실행](../debugger/run-store-apps-from-visual-studio.md)|로컬 컴퓨터, 앱 시뮬레이터 또는 에뮬레이터나 원격 디바이스에서 스토어 앱을 실행합니다.|  
 |[Visual Studio에서 앱 디버그](../debugger/debug-store-apps-in-visual-studio.md)|Visual Studio 디버거를 사용하여 스토어 앱의 버그를 찾아 수정합니다.|  
 |[Windows 스토어 앱용 콘텐츠 프리페치](../debugger/prefetch-content-for-windows-store-apps.md)|Windows 스토어 앱에 대한 ContentPrefetcher 클래스의 효과를 분석합니다.|  
   

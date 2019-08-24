@@ -27,7 +27,7 @@ ms.locfileid: "65696148"
   
 #### <a name="to-create-the-starting-project"></a>시작 프로젝트를 만들려면  
   
-1. Visual Studio를 시작하고 LinqToXmlDataBinding이라는 C# WPF 응용 프로그램을 만듭니다. 프로젝트에서는 .NET Framework 3.5 이상을 사용해야 합니다.  
+1. Visual Studio를 시작하고 LinqToXmlDataBinding이라는 C# WPF 애플리케이션을 만듭니다. 프로젝트에서는 .NET Framework 3.5 이상을 사용해야 합니다.  
   
 2. 이미 존재하지 않는 경우 다음 .NET 어셈블리에 대한 프로젝트 참조를 추가합니다.  
   
@@ -39,7 +39,7 @@ ms.locfileid: "65696148"
   
     - System.Xml.Linq  
   
-3. **Ctnrl+Shift+B**를 눌러 솔루션을 빌드한 다음 **F5** 키를 눌러 솔루션을 실행합니다. 프로젝트가 오류 없이 컴파일되고 일반 WPF 응용 프로그램으로 실행됩니다.  
+3. **Ctnrl+Shift+B**를 눌러 솔루션을 빌드한 다음 **F5** 키를 눌러 솔루션을 실행합니다. 프로젝트가 오류 없이 컴파일되고 일반 WPF 애플리케이션으로 실행됩니다.  
   
 #### <a name="to-add-custom-code-to-the-project"></a>사용자 지정 코드를 프로젝트에 추가하려면  
   

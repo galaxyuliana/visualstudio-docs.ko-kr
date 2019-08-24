@@ -28,11 +28,11 @@ ms.locfileid: "65673997"
 # <a name="bind-wpf-controls-to-a-dataset"></a>데이터 세트로 WPF 컨트롤 바인딩
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-이 연습에서는 데이터 바인딩된 컨트롤을 포함하는 WPF 응용 프로그램을 만듭니다. 이러한 컨트롤은 데이터 집합에서 캡슐화된 제품 레코드에 바인딩됩니다. 또한 제품을 찾아보고 제품 레코드 변경 내용을 저장할 수 있는 단추도 추가합니다.  
+이 연습에서는 데이터 바인딩된 컨트롤을 포함하는 WPF 애플리케이션을 만듭니다. 이러한 컨트롤은 데이터 세트에서 캡슐화된 제품 레코드에 바인딩됩니다. 또한 제품을 찾아보고 제품 레코드 변경 내용을 저장할 수 있는 단추도 추가합니다.  
   
  이 연습에서는 다음 작업을 수행합니다.  
   
-- AdventureWorksLT 샘플 데이터베이스의 데이터에서 생성되는 데이터 집합 및 WPF 응용 프로그램을 만듭니다.  
+- AdventureWorksLT 샘플 데이터베이스의 데이터에서 생성되는 데이터 세트 및 WPF 애플리케이션을 만듭니다.  
   
 - **데이터 원본** 창에서 WPF 디자이너의 창으로 데이터 테이블을 끌어 데이터 바인딩된 컨트롤 집합을 만듭니다.  
   
@@ -51,7 +51,7 @@ ms.locfileid: "65673997"
   
   또한 다음 개념에 대한 지식은 연습을 완료하는 데 반드시 필요하지는 않지만 사전에 파악해 두면 유용할 수 있습니다.  
   
-- 데이터 집합 및 TableAdapter. 자세한 내용은 [Visual Studio에서 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)합니다.  
+- 데이터 세트 및 TableAdapter. 자세한 내용은 [Visual Studio에서 데이터 집합 도구](../data-tools/dataset-tools-in-visual-studio.md)합니다.  
   
 - WPF 디자이너 사용법. 자세한 내용은 [WPF 및 Silverlight 디자이너 개요](https://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)합니다.  
   
@@ -75,9 +75,9 @@ ms.locfileid: "65673997"
      Visual Studio 만듭니다는 `AdventureWorksProductsEditor` 프로젝트입니다.  
   
 ## <a name="create-a-dataset-for-the-application"></a>응용 프로그램에 대 한 데이터 집합 만들기  
- 데이터 바인딩된 컨트롤을 만들려면 먼저 애플리케이션의 데이터 모델을 정의하고 **데이터 원본** 창에 추가해야 합니다. 이 연습에서는 데이터 모델로 사용할 데이터 집합을 만듭니다.  
+ 데이터 바인딩된 컨트롤을 만들려면 먼저 애플리케이션의 데이터 모델을 정의하고 **데이터 원본** 창에 추가해야 합니다. 이 연습에서는 데이터 모델로 사용할 데이터 세트을 만듭니다.  
   
-#### <a name="to-create-a-dataset"></a>데이터 집합을 만들려면  
+#### <a name="to-create-a-dataset"></a>데이터 세트을 만들려면  
   
 1. **데이터** 메뉴에서 **데이터 소스 표시**를 클릭합니다.  
   
@@ -103,18 +103,18 @@ ms.locfileid: "65673997"
   
 8. **마침**을 클릭합니다.  
   
-     Visual Studio 프로젝트에 새 AdventureWorksLTDataSet.xsd 파일을 추가 하 고 해당 추가 **AdventureWorksLTDataSet** 항목을 합니다 **데이터 원본** 창입니다. AdventureWorksLTDataSet.xsd 파일은 `AdventureWorksLTDataSet`라는 형식화된 데이터 집합과 `ProductTableAdapter`라는 TableAdapter를 정의합니다. 이 연습 뒷부분에서 `ProductTableAdapter`를 사용하여 데이터 집합에 데이터를 채우고 변경 내용을 데이터베이스에 다시 저장합니다.  
+     Visual Studio 프로젝트에 새 AdventureWorksLTDataSet.xsd 파일을 추가 하 고 해당 추가 **AdventureWorksLTDataSet** 항목을 합니다 **데이터 원본** 창입니다. AdventureWorksLTDataSet.xsd 파일은 `AdventureWorksLTDataSet`라는 형식화된 데이터 집합과 `ProductTableAdapter`라는 TableAdapter를 정의합니다. 이 연습 뒷부분에서 `ProductTableAdapter`를 사용하여 데이터 세트에 데이터를 채우고 변경 내용을 데이터베이스에 다시 저장합니다.  
   
 9. 프로젝트를 빌드합니다.  
   
 ## <a name="edit-the-default-fill-method-of-the-tableadapter"></a>TableAdapter의 기본 fill 메서드 편집  
- 데이터 집합을 데이터로 채우려면 `Fill`의 `ProductTableAdapter` 메서드를 사용합니다. 기본적으로 `Fill` 메서드는 Product 테이블의 모든 데이터 행을 `ProductDataTable`의 `AdventureWorksLTDataSet`에 채웁니다. 이 메서드가 행 하위 집합만 반환하도록 수정할 수 있습니다. 이 연습에서는 사진이 있는 제품의 행만 반환하도록 `Fill` 메서드를 수정합니다.  
+ 데이터 세트을 데이터로 채우려면 `Fill`의 `ProductTableAdapter` 메서드를 사용합니다. 기본적으로 `Fill` 메서드는 Product 테이블의 모든 데이터 행을 `ProductDataTable`의 `AdventureWorksLTDataSet`에 채웁니다. 이 메서드가 행 하위 집합만 반환하도록 수정할 수 있습니다. 이 연습에서는 사진이 있는 제품의 행만 반환하도록 `Fill` 메서드를 수정합니다.  
   
 #### <a name="to-load-product-rows-that-have-photos"></a>사진이 있는 제품 행을 로드하려면  
   
 1. **솔루션 탐색기**, AdventureWorksLTDataSet.xsd 파일을 두 번 클릭 합니다.  
   
-     데이터 집합 디자이너가 열립니다.  
+     데이터 세트 디자이너가 열립니다.  
   
 2. 디자이너에서 마우스 오른쪽 단추로 클릭 합니다 **Fill,GetData()** 쿼리하고 선택 **구성**합니다.  
   
@@ -175,7 +175,7 @@ ms.locfileid: "65673997"
 4. **ThumbNailPhoto** 노드 옆의 드롭다운 메뉴를 클릭하고 **이미지**를 선택합니다.  
   
     > [!NOTE]
-    > 기본적으로 **데이터 원본** 창에서 사진을 나타내는 항목의 기본 컨트롤은 **없음**으로 설정되어 있습니다. 사진은 데이터베이스에서 바이트 배열로 저장되는데 바이트 배열은 단순한 바이트의 배열에서 대형 응용 프로그램의 실행 파일에 이르기까지 모든 항목을 포함할 수 있기 때문입니다.  
+    > 기본적으로 **데이터 원본** 창에서 사진을 나타내는 항목의 기본 컨트롤은 **없음**으로 설정되어 있습니다. 사진은 데이터베이스에서 바이트 배열로 저장되는데 바이트 배열은 단순한 바이트의 배열에서 대형 애플리케이션의 실행 파일에 이르기까지 모든 항목을 포함할 수 있기 때문입니다.  
   
 5. **데이터 원본** 창에서 단추가 포함된 행 아래의 그리드 행으로 **Product** 노드를 끌어 옵니다.  
   
@@ -226,7 +226,7 @@ ms.locfileid: "65673997"
      [!code-vb[Data_WPFDATASET#4](../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb#4)]  
   
     > [!NOTE]
-    > 이 예에서는 `Save`의 `TableAdapter` 메서드를 사용하여 변경 내용을 저장합니다. 이 연습에서는 데이터 테이블을 하나만 변경하므로 이러한 방식이 적절합니다. 여러 데이터 테이블의 변경 내용을 저장해야 하는 경우에는 데이터 집합과 함께 생성되는 `UpdateAll`의 `TableAdapterManager` 메서드를 사용할 수 있습니다. 자세한 내용은 [TableAdapterManager 개요](https://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)합니다.  
+    > 이 예에서는 `Save`의 `TableAdapter` 메서드를 사용하여 변경 내용을 저장합니다. 이 연습에서는 데이터 테이블을 하나만 변경하므로 이러한 방식이 적절합니다. 여러 데이터 테이블의 변경 내용을 저장해야 하는 경우에는 데이터 세트과 함께 생성되는 `UpdateAll`의 `TableAdapterManager` 메서드를 사용할 수 있습니다. 자세한 내용은 [TableAdapterManager 개요](https://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)합니다.  
   
 ## <a name="test-the-application"></a>애플리케이션 테스트  
  애플리케이션을 빌드 및 실행합니다. 제품 레코드를 보고 업데이트할 수 있는지 확인합니다.  
@@ -235,7 +235,7 @@ ms.locfileid: "65673997"
   
 1. **F5**키를 누릅니다.  
   
-     응용 프로그램이 빌드되고 실행됩니다. 다음 사항을 확인합니다.  
+     애플리케이션이 빌드되고 실행됩니다. 다음 사항을 확인합니다.  
   
     - 텍스트 상자에 사진이 포함된 첫 번째 제품 레코드의 데이터가 표시됩니다. 이 제품의 ID는 713이고 이름은 **Long-Sleeve Logo Jersey, S**입니다.  
   

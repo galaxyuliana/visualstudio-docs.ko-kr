@@ -26,7 +26,7 @@ Azure 클라우드 서비스에는 하나 이상의 작업자 또는 웹 역할�
 - **ServiceDefinition.csdef** - 서비스 정의 파일은 필요한 역할, 엔드포인트 및 가상 머신 크기를 포함하여 클라우드 서비스의 런타임 설정을 정의합니다. 역할이 실행 중일 때 `ServiceDefinition.csdef`에 저장된 데이터는 변경할 수 없습니다.
 - **ServiceConfiguration.cscfg** - 서비스 구성 파일은 실행되는 역할의 인스턴스 수와 역할에 대해 정의된 설정 값을 구성합니다. 역할이 실행 중인 동안 `ServiceConfiguration.cscfg`에 저장된 데이터는 변경할 수 있습니다.
 
-역할 실행 방법을 제어하는 설정에 대해 다른 값을 저장하기 위해 여러 서비스 구성을 정의할 수 있습니다. 각 배포 환경에 대해 서로 다른 서비스 구성을 사용할 수 있습니다. 예를 들어 저장소 계정 연결 문자열을 설정하여 로컬 서비스 구성에서 로컬 Azure 저장소 에뮬레이터를 사용하고, 다른 서비스 구성을 만들어 클라우드에서 Azure 저장소를 사용할 수 있습니다.
+역할 실행 방법을 제어하는 설정에 대해 다른 값을 저장하기 위해 여러 서비스 구성을 정의할 수 있습니다. 각 배포 환경에 대해 서로 다른 서비스 구성을 사용할 수 있습니다. 예를 들어 스토리지 계정 연결 문자열을 설정하여 로컬 서비스 구성에서 로컬 Azure Storage 에뮬레이터를 사용하고, 다른 서비스 구성을 만들어 클라우드에서 Azure Storage를 사용할 수 있습니다.
 
 Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비스 구성을 자동으로 만들어 Azure 프로젝트에 추가합니다.
 
@@ -78,11 +78,11 @@ Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비
 
 1. Visual Studio의 도구 모음에서 **저장**을 선택합니다.
 
-## <a name="manage-connection-strings-for-storage-accounts"></a>저장소 계정에 대한 연결 문자열 관리
-서비스 구성에 대한 연결 문자열을 추가, 제거 또는 수정할 수 있습니다. 예를 들어, `UseDevelopmentStorage=true`값이 있는 로컬 서비스 구성에 대해 로컬 연결 문자열이 필요할 수 있습니다. 또한 Azure에서 저장소 계정을 사용하는 클라우드 서비스 구성을 구성하려고 할 수도 있습니다.
+## <a name="manage-connection-strings-for-storage-accounts"></a>스토리지 계정에 대한 연결 문자열 관리
+서비스 구성에 대한 연결 문자열을 추가, 제거 또는 수정할 수 있습니다. 예를 들어, `UseDevelopmentStorage=true`값이 있는 로컬 서비스 구성에 대해 로컬 연결 문자열이 필요할 수 있습니다. 또한 Azure에서 스토리지 계정을 사용하는 클라우드 서비스 구성을 구성하려고 할 수도 있습니다.
 
 > [!WARNING]
-> 저장소 계정 연결 문자열에 대해 Azure 저장소 계정 키 정보를 입력하면 이 정보가 서비스 구성 파일에 로컬로 저장됩니다. 그러나 현재는 이 정보가 암호화된 텍스트로 저장되지 않습니다.
+> 스토리지 계정 연결 문자열에 대해 Azure Storage 계정 키 정보를 입력하면 이 정보가 서비스 구성 파일에 로컬로 저장됩니다. 그러나 현재는 이 정보가 암호화된 텍스트로 저장되지 않습니다.
 >
 >
 
@@ -112,13 +112,13 @@ Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비
 
     - **이름** - 연결 문자열에 사용할 이름을 입력합니다.
     - **형식** - 드롭다운 목록에서 **연결 문자열**을 선택합니다.
-    - **값** - **값** 셀에 연결 문자열을 직접 입력하거나 **저장소 연결 문자열 만들기** 대화 상자에서 줄임표(...)를 선택하여 작업할 수 있습니다.
+    - **값** - **값** 셀에 연결 문자열을 직접 입력하거나 **스토리지 연결 문자열 만들기** 대화 상자에서 줄임표(...)를 선택하여 작업할 수 있습니다.
 
-1. **저장소 연결 문자열 만들기** 대화 상자에서 **다음을 사용하여 연결** 옵션을 선택합니다. 그런 다음 선택한 옵션에 대한 지침을 따릅니다.
+1. **스토리지 연결 문자열 만들기** 대화 상자에서 **다음을 사용하여 연결** 옵션을 선택합니다. 그런 다음 선택한 옵션에 대한 지침을 따릅니다.
 
-    - **Microsoft Azure 저장소 에뮬레이터** - 이 옵션을 선택하면 Azure에만 적용되므로 대화 상자의 나머지 설정이 비활성화됩니다. **확인**을 선택합니다.
-    - **구독** - 이 옵션을 선택하면 드롭다운 목록을 사용하여 Microsoft 계정을 선택하고 로그인하거나 Microsoft 계정을 추가합니다. Azure 구독 및 저장소 계정을 선택합니다. **확인**을 선택합니다.
-    - **수동으로 입력한 자격 증명** - 저장소 계정 이름과 기본 또는 보조 키를 입력합니다. **연결** 옵션을 선택합니다(대부분의 시나리오에 대해 HTTPS 권장). **확인**을 선택합니다.
+    - **Microsoft Azure Storage 에뮬레이터** - 이 옵션을 선택하면 Azure에만 적용되므로 대화 상자의 나머지 설정이 비활성화됩니다. **확인**을 선택합니다.
+    - **구독** - 이 옵션을 선택하면 드롭다운 목록을 사용하여 Microsoft 계정을 선택하고 로그인하거나 Microsoft 계정을 추가합니다. Azure 구독 및 스토리지 계정을 선택합니다. **확인**을 선택합니다.
+    - **수동으로 입력한 자격 증명** - 스토리지 계정 이름과 기본 또는 보조 키를 입력합니다. **연결** 옵션을 선택합니다(대부분의 시나리오에 대해 HTTPS 권장). **확인**을 선택합니다.
 
 1. 연결 문자열을 삭제하려면 연결 문자열을 선택한 다음 **설정 제거**를 선택합니다.
 
@@ -198,8 +198,8 @@ Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비
     var settingValue = RoleEnvironment.GetConfigurationSettingValue("<SettingName>");
     ```
 
-## <a name="manage-local-storage-for-each-role-instance"></a>각 역할 인스턴스에 대한 로컬 저장소 관리
-각 역할 인스턴스에 대한 로컬 파일 시스템 저장소를 추가할 수 있습니다. 해당 저장소에 저장된 데이터는 데이터가 저장된 역할의 다른 인스턴스 또는 다른 역할에서 액세스할 수 없습니다.
+## <a name="manage-local-storage-for-each-role-instance"></a>각 역할 인스턴스에 대한 로컬 스토리지 관리
+각 역할 인스턴스에 대한 로컬 파일 시스템 스토리지를 추가할 수 있습니다. 해당 스토리지에 저장된 데이터는 데이터가 저장된 역할의 다른 인스턴스 또는 다른 역할에서 액세스할 수 없습니다.
 
 1. Visual Studio에서 Azure 클라우드 서비스 프로젝트를 만들거나 엽니다.
 
@@ -207,37 +207,37 @@ Visual Studio에서 Azure 클라우드 서비스를 만들 때 두 개의 서비
 
     ![솔루션 탐색기 - Azure 역할의 상황에 맞는 메뉴](./media/vs-azure-tools-configure-roles-for-cloud-service/solution-explorer-azure-role-context-menu.png)
 
-1. **로컬 저장소** 탭을 선택합니다.
+1. **로컬 스토리지** 탭을 선택합니다.
 
-    ![로컬 저장소 탭](./media/vs-azure-tools-configure-roles-for-cloud-service/role-local-storage-tab.png)
+    ![로컬 스토리지 탭](./media/vs-azure-tools-configure-roles-for-cloud-service/role-local-storage-tab.png)
 
-1. **서비스 구성** 목록에서 모든 서비스 구성에 로컬 저장소 설정이 적용되므로 **모든 구성**이 선택되어 있는지 확인합니다. 다른 값을 지정하면 페이지의 모든 입력 필드가 비활성화됩니다.
+1. **서비스 구성** 목록에서 모든 서비스 구성에 로컬 스토리지 설정이 적용되므로 **모든 구성**이 선택되어 있는지 확인합니다. 다른 값을 지정하면 페이지의 모든 입력 필드가 비활성화됩니다.
 
     ![서비스 구성 목록](./media/vs-azure-tools-configure-roles-for-cloud-service/role-local-storage-tab-service-configuration.png)
 
-1. 로컬 저장소 항목을 추가하려면 **로컬 저장소 추가**를 선택합니다.
+1. 로컬 스토리지 항목을 추가하려면 **로컬 스토리지 추가**를 선택합니다.
 
-    ![로컬 저장소 추가](./media/vs-azure-tools-configure-roles-for-cloud-service/role-local-storage-tab-add-local-storage.png)
+    ![로컬 스토리지 추가](./media/vs-azure-tools-configure-roles-for-cloud-service/role-local-storage-tab-add-local-storage.png)
 
-1. 새 로컬 저장소 항목이 목록에 추가되면 목록의 행을 필요한 정보로 업데이트합니다.
+1. 새 로컬 스토리지 항목이 목록에 추가되면 목록의 행을 필요한 정보로 업데이트합니다.
 
-    ![새 로컬 저장소 항목](./media/vs-azure-tools-configure-roles-for-cloud-service/role-local-storage-tab-new-local-storage.png)
+    ![새 로컬 스토리지 항목](./media/vs-azure-tools-configure-roles-for-cloud-service/role-local-storage-tab-new-local-storage.png)
 
-    - **이름** - 새 로컬 저장소에 사용할 이름을 입력합니다.
-    - **크기(MB)** - 새 로컬 저장소에 필요한 크기(MB)를 입력합니다.
-    - **역할 재생에서 정리** - 이 옵션을 선택하면 역할에 대한 가상 머신을 재활용할 때 새 로컬 저장소의 데이터를 제거합니다.
+    - **이름** - 새 로컬 스토리지에 사용할 이름을 입력합니다.
+    - **크기(MB)** - 새 로컬 스토리지에 필요한 크기(MB)를 입력합니다.
+    - **역할 재생에서 정리** - 이 옵션을 선택하면 역할에 대한 가상 머신을 재활용할 때 새 로컬 스토리지의 데이터를 제거합니다.
 
-1. 로컬 저장소 항목을 삭제하려면 해당 항목을 선택한 다음 **로컬 저장소 제거**를 선택합니다.
+1. 로컬 스토리지 항목을 삭제하려면 해당 항목을 선택한 다음 **로컬 스토리지 제거**를 선택합니다.
 
 1. Visual Studio의 도구 모음에서 **저장**을 선택합니다.
 
-## <a name="programmatically-accessing-local-storage"></a>프로그래밍 방식으로 로컬 저장소 액세스
+## <a name="programmatically-accessing-local-storage"></a>프로그래밍 방식으로 로컬 스토리지 액세스
 
-이 섹션에서는 `MyLocalStorageTest.txt` 테스트 텍스트 파일을 작성하여 C#을 통해 로컬 저장소에 프로그래밍 방식으로 액세스하는 방법을 보여 줍니다.
+이 섹션에서는 `MyLocalStorageTest.txt` 테스트 텍스트 파일을 작성하여 C#을 통해 로컬 스토리지에 프로그래밍 방식으로 액세스하는 방법을 보여 줍니다.
 
-### <a name="write-a-text-file-to-local-storage"></a>로컬 저장소에 텍스트 파일 작성
+### <a name="write-a-text-file-to-local-storage"></a>로컬 스토리지에 텍스트 파일 작성
 
-다음 코드는 로컬 저장소에 텍스트 파일을 작성하는 방법의 예제를 보여 줍니다. &lt;LocalStorageName> 자리 표시자를 적절한 값으로 바꿉니다.
+다음 코드는 로컬 스토리지에 텍스트 파일을 작성하는 방법의 예제를 보여 줍니다. &lt;LocalStorageName> 자리 표시자를 적절한 값으로 바꿉니다.
 
 ```csharp
 // Retrieve an object that points to the local storage resource
@@ -254,7 +254,7 @@ using (FileStream writeStream = File.Create(filePath))
 }
 ```
 
-### <a name="find-a-file-written-to-local-storage"></a>로컬 저장소에 기록된 파일 찾기
+### <a name="find-a-file-written-to-local-storage"></a>로컬 스토리지에 기록된 파일 찾기
 
 이전 섹션의 코드로 만든 파일을 보려면 다음 단계를 수행합니다.
 

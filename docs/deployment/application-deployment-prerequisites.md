@@ -30,7 +30,7 @@ ms.locfileid: "66746055"
 
 응용 프로그램을 설치 하 고 성공적으로 실행 하도록 먼저 응용 프로그램을 대상 컴퓨터에 종속 되어 있는 모든 구성 요소를 설치 합니다. 사용 하 여 생성 하는 예를 들어, 대부분의 응용 프로그램입니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] .NET Framework에 대 한 종속성입니다. 이 경우 응용 프로그램을 설치 하기 전에 올바른 버전의 공용 언어 런타임 대상 컴퓨터에 있는 이어야 합니다.
 
- 이러한 필수 구성이 요소를 선택할 수 있습니다 합니다 **필수 조건 대화 상자** 설치의 일부로.NET Framework 및 모든 다른 재배포 가능 패키지를 설치 합니다. 이러한 방식을 *부트스트래핑*이라고 합니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Windows 실행 프로그램을 생성 *Setup.exe*, 라고도 *부트스트래퍼*합니다. 부트스트래퍼는 응용 프로그램을 실행하기 전에 이러한 필수 구성 요소를 설치합니다. 이러한 필수 구성이 요소를 선택 하는 방법에 대 한 자세한 내용은 참조 하세요. [필수 조건 대화 상자](../ide/reference/prerequisites-dialog-box.md)합니다.
+ 이러한 필수 구성이 요소를 선택할 수 있습니다 합니다 **필수 조건 대화 상자** 설치의 일부로.NET Framework 및 모든 다른 재배포 가능 패키지를 설치 합니다. 이러한 방식을 *부트스트래핑*이라고 합니다. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Windows 실행 프로그램을 생성 *Setup.exe*, 라고도 *부트스트래퍼*합니다. 부트스트래퍼는 애플리케이션을 실행하기 전에 이러한 필수 구성 요소를 설치합니다. 이러한 필수 구성이 요소를 선택 하는 방법에 대 한 자세한 내용은 참조 하세요. [필수 조건 대화 상자](../ide/reference/prerequisites-dialog-box.md)합니다.
 
  각 필수 구성 요소는 부트스트래퍼 패키지입니다. 부트스트래퍼 패키지는 필수 구성 요소를 설치 하는 방법을 설명 하는 매니페스트 파일을 포함 하는 파일과 디렉터리의 그룹입니다. 애플리케이션 필수 구성 요소가 **필수 구성 요소 대화 상자**에 나와 있지 않으면 사용자 지정 부트스트래퍼 패키지를 만들어 Visual Studio에 추가할 수 있습니다. 그런 다음, **필수 구성 요소 대화 상자**에서 해당 필수 구성 요소를 선택할 수 있습니다. 자세한 내용은 [부트스트래퍼 패키지 만들기](../deployment/creating-bootstrapper-packages.md)합니다.
 
@@ -39,9 +39,9 @@ ms.locfileid: "66746055"
 ## <a name="bootstrapping-and-clickonce-deployment"></a>부트스트래핑 및 ClickOnce 배포
  클라이언트 컴퓨터에 응용 프로그램을 설치 하기 전에 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 클라이언트 응용 프로그램 매니페스트에 지정 된 요구 사항이 있는지 검사 합니다. 여기에 다음 요구 사항을 포함 됩니다.
 
-- 필요한 최소 버전의 공용 언어 런타임. 응용 프로그램 매니페스트에서 어셈블리 종속성으로 지정합니다.
+- 필요한 최소 버전의 공용 언어 런타임. 애플리케이션 매니페스트에서 어셈블리 종속성으로 지정합니다.
 
-- 응용 프로그램에 필요한 Windows 운영 체제의 최소 버전. `<osVersionInfo>` 요소를 사용하여 응용 프로그램 매니페스트에서 지정합니다. (참조 [ \<종속성 > 요소](../deployment/dependency-element-clickonce-application.md).)
+- 애플리케이션에 필요한 Windows 운영 체제의 최소 버전. `<osVersionInfo>` 요소를 사용하여 애플리케이션 매니페스트에서 지정합니다. (참조 [ \<종속성 > 요소](../deployment/dependency-element-clickonce-application.md).)
 
 - 어셈블리 매니페스트에서 어셈블리 종속성 선언을 통해 지정 된 대로 전역 어셈블리 캐시 (GAC)에 미리 설치 해야 하는 모든 어셈블리의 최소 버전입니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "66746055"
 > [!NOTE]
 > [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 및 *MageUI.exe*와 같은 도구를 통해 생성된 매니페스트의 값을 변경하려면 텍스트 편집기에서 애플리케이션 매니페스트를 편집한 다음, 애플리케이션 및 배포 매니페스트를 모두 다시 서명해야 합니다. 자세한 내용은 [방법: 애플리케이션 및 배포 매니페스트 다시 서명](../deployment/how-to-re-sign-application-and-deployment-manifests.md)을 참조하세요.
 
- Visual Studio 및 ClickOnce를 사용하여 응용 프로그램을 배포하는 경우 기본적으로 선택되는 부트스트래퍼 패키지는 솔루션의 .NET Framework 버전에 따라 달라집니다. 그러나 대상 .NET Framework 버전을 변경하는 경우에는 **필수 구성 요소 대화 상자**에서 옵션을 수동으로 업데이트해야 합니다.
+ Visual Studio 및 ClickOnce를 사용하여 애플리케이션을 배포하는 경우 기본적으로 선택되는 부트스트래퍼 패키지는 솔루션의 .NET Framework 버전에 따라 달라집니다. 그러나 대상 .NET Framework 버전을 변경하는 경우에는 **필수 구성 요소 대화 상자**에서 옵션을 수동으로 업데이트해야 합니다.
 
 |대상 .NET Framework|선택되는 부트스트래퍼 패키지|
 |---------------------------|------------------------------------|

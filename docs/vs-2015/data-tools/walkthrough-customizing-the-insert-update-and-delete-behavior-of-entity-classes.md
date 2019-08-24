@@ -30,7 +30,7 @@ ms.locfileid: "65700224"
   
  이 연습에서는 다음 작업을 수행하는 방법을 배웁니다.  
   
-- 새 Windows Forms 응용 프로그램을 만들고 여기에 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 파일을 추가합니다.  
+- 새 Windows Forms 애플리케이션을 만들고 여기에 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 파일을 추가합니다.  
   
 - Northwind Customers 테이블에 매핑되는 엔터티 클래스를 만듭니다.  
   
@@ -51,12 +51,12 @@ ms.locfileid: "65700224"
   
 - 합니다 **InsertCustomer**를 **UpdateCustomer**, 및 **DeleteCustomer** Northwind 데이터베이스에 대해 저장 프로시저입니다.
   
-## <a name="creating-an-application-and-adding-linq-to-sql-classes"></a>응용 프로그램 만들기 및 LINQ to SQL 클래스 추가  
- [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 클래스로 작업하고 데이터를 Windows Form에 표시하므로 새 Windows Forms 응용 프로그램을 만들고 LINQ to SQL 클래스 파일을 추가합니다.  
+## <a name="creating-an-application-and-adding-linq-to-sql-classes"></a>애플리케이션 만들기 및 LINQ to SQL 클래스 추가  
+ [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 클래스로 작업하고 데이터를 Windows Form에 표시하므로 새 Windows Forms 애플리케이션을 만들고 LINQ to SQL 클래스 파일을 추가합니다.  
   
  [!INCLUDE[note_settings_general](../includes/note-settings-general-md.md)]  
   
-#### <a name="to-create-a-new-windows-application-project-that-contains-linq-to-sql-classes"></a>LINQ to SQL 클래스를 포함하는 새 Windows 응용 프로그램을 만들려면  
+#### <a name="to-create-a-new-windows-application-project-that-contains-linq-to-sql-classes"></a>LINQ to SQL 클래스를 포함하는 새 Windows 애플리케이션을 만들려면  
   
 1. **파일** 메뉴에서 새 프로젝트를 만듭니다.  
   
@@ -251,7 +251,7 @@ ms.locfileid: "65700224"
     > 응용 프로그램에서 값에 따라 SQL Server Express Edition을 사용 하는 경우는 **출력 디렉터리로 복사** 데이터베이스 파일의 속성을 10 단계에서 f5 키를 눌러 변경 내용을 표시 되지 않을 수 있습니다.
   
 ## <a name="next-steps"></a>다음 단계  
- 응용 프로그램 요구 사항에 따라 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 엔터티 클래스를 만든 후 몇 단계를 더 수행할 수도 있습니다. 이 응용 프로그램에서 개선할 수 있는 몇 가지 사항은 다음과 같습니다.  
+ 애플리케이션 요구 사항에 따라 [!INCLUDE[vbtecdlinq](../includes/vbtecdlinq-md.md)] 엔터티 클래스를 만든 후 몇 단계를 더 수행할 수도 있습니다. 이 애플리케이션에서 개선할 수 있는 몇 가지 사항은 다음과 같습니다.  
   
 - 업데이트 동안 동시성 검사를 구현합니다. 내용은 [낙관적 동시성: 개요](https://msdn.microsoft.com/library/c2e38512-d0c8-4807-b30a-cb7e30338694)합니다.  
   

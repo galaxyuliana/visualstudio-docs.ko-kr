@@ -28,7 +28,7 @@ ms.locfileid: "68205438"
 
 최신 버전의 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 에 대 한 새로운 기능을 제공 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 디버깅 합니다. 디버그 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 소스 코드에 대 한 기호 디버깅에 대 한 액세스 있어야 합니다. 한 단계씩 실행할 수 있도록 해야 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 원본입니다.  
   
- 설정할 수 있습니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 단계별 실행 및 기호를 다운로드 합니다 **옵션** 대화 상자. 기호 다운로드를 설정할 때 기호를 즉시 다운로드할 수도 있고 나중에 다운로드하도록 옵션만 설정해 놓을 수도 있습니다. 기호를 즉시 다운로드하지 않으면 기호는 다음 번에 응용 프로그램 디버깅을 시작할 때 다운로드됩니다. 수동으로 다운로드 하 여 수행할 수도 있습니다는 **모듈** 창 또는 **호출 스택** 창입니다.  
+ 설정할 수 있습니다 [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] 단계별 실행 및 기호를 다운로드 합니다 **옵션** 대화 상자. 기호 다운로드를 설정할 때 기호를 즉시 다운로드할 수도 있고 나중에 다운로드하도록 옵션만 설정해 놓을 수도 있습니다. 기호를 즉시 다운로드하지 않으면 기호는 다음 번에 애플리케이션 디버깅을 시작할 때 다운로드됩니다. 수동으로 다운로드 하 여 수행할 수도 있습니다는 **모듈** 창 또는 **호출 스택** 창입니다.  
   
 ### <a name="to-enable-net-framework-source-debugging"></a>.NET Framework 소스 디버깅을 사용하려면  
   

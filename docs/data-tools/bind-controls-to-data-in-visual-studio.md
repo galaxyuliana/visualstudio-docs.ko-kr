@@ -22,7 +22,7 @@ ms.locfileid: "62824836"
 ---
 # <a name="bind-controls-to-data-in-visual-studio"></a>Visual Studio에서 데이터에 컨트롤 바인딩
 
-데이터를 컨트롤에 바인딩하여 응용 프로그램 사용자에게 데이터를 표시할 수 있습니다. 항목을 끌어 데이터 바인딩된 컨트롤 이러한를 만들 수 있습니다 합니다 **데이터 원본** 창 디자인 화면 또는 Visual Studio에서 화면에서 컨트롤입니다.
+데이터를 컨트롤에 바인딩하여 애플리케이션 사용자에게 데이터를 표시할 수 있습니다. 항목을 끌어 데이터 바인딩된 컨트롤 이러한를 만들 수 있습니다 합니다 **데이터 원본** 창 디자인 화면 또는 Visual Studio에서 화면에서 컨트롤입니다.
 
 이 항목에서는 데이터 바인딩된 컨트롤을 만드는 데 사용할 수 있는 데이터 소스에 대해 설명합니다. 또한 데이터 바인딩과 관련된 일반적인 작업에 대해서도 설명합니다. 데이터 바인딩된 컨트롤을 만드는 방법에 대 한 자세한 내용은 참조 하세요. [Visual Studio에서 데이터 바인딩 Windows Forms 컨트롤](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md) 하 고 [Visual Studio에서 데이터를 바인딩할 WPF 컨트롤](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)합니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "62824836"
 
 | 데이터 원본 | **Windows Forms 디자이너**에서의 끌어서 놓기 지원 | **WPF 디자이너**에서의 끌어서 놓기 지원 | **Silverlight 디자이너**에서의 끌어서 놓기 지원 |
 | - | - | - | - |
-| 데이터 집합 | 예 | 예 | 아니요 |
+| 데이터 세트 | 예 | 예 | 아니요 |
 | 엔터티 데이터 모델 | 예<sup>1</sup> | 예 | 예 |
 | LINQ to SQL 클래스 | No<sup>2</sup> | No<sup>2</sup> | No<sup>2</sup> |
 | [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF 서비스, 웹 서비스 등의 서비스 | 예 | 예 | 예 |

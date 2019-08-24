@@ -17,7 +17,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62420212"
 ---
 # <a name="messaging-activity-designers"></a>메시징 활동 디자이너
-메시징 활동 디자이너는 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 응용 프로그램에서 [!INCLUDE[wf](../includes/wf-md.md)] 메시지를 보내고 받는 메시징 활동을 만들고 구성하는 데 사용됩니다. [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)]에는 다섯 가지 메시징 활동이 도입되었으며, [!INCLUDE[wfd1](../includes/wfd1-md.md)]에는 두 가지 새로운 템플릿 디자이너가 있어 워크플로 내의 메시징을 관리할 수 있습니다. 이 단원의 항목 및 아래 표의 항목에서는 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 활동 및 템플릿 디자이너의 사용 방법에 대한 지침을 제공합니다.  
+메시징 활동 디자이너는 [!INCLUDE[indigo1](../includes/indigo1-md.md)] 애플리케이션에서 [!INCLUDE[wf](../includes/wf-md.md)] 메시지를 보내고 받는 메시징 활동을 만들고 구성하는 데 사용됩니다. [!INCLUDE[netfx40_long](../includes/netfx40-long-md.md)]에는 다섯 가지 메시징 활동이 도입되었으며, [!INCLUDE[wfd1](../includes/wfd1-md.md)]에는 두 가지 새로운 템플릿 디자이너가 있어 워크플로 내의 메시징을 관리할 수 있습니다. 이 단원의 항목 및 아래 표의 항목에서는 [!INCLUDE[wfd2](../includes/wfd2-md.md)] 활동 및 템플릿 디자이너의 사용 방법에 대한 지침을 제공합니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
   

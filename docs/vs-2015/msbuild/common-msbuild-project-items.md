@@ -134,7 +134,7 @@ ms.locfileid: "68160409"
 |CopyToOutputDirectory|선택적 문자열입니다. 출력 디렉터리에 파일을 복사할지 여부를 결정합니다. 값:<br /><br /> 1.  Never<br />2.  항상<br />3.  PreserveNewest|  
   
 ### <a name="baseapplicationmanifest"></a>BaseApplicationManifest  
- 빌드에 대한 기본 응용 프로그램 매니페스트를 나타내며 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 보안 정보를 포함합니다.  
+ 빌드에 대한 기본 애플리케이션 매니페스트를 나타내며 [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포 보안 정보를 포함합니다.  
   
 ### <a name="codeanalysisimport"></a>CodeAnalysisImport  
  가져올 FxCop 프로젝트를 나타냅니다.  

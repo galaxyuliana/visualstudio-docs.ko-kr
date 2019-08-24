@@ -24,7 +24,7 @@ ms.locfileid: "65705176"
 # <a name="create-a-simple-data-application-by-using-adonet"></a>ADO.NET을 사용하여 간단한 데이터 애플리케이션 만들기
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-데이터베이스의 데이터를 조작하는 응용 프로그램을 만들면 연결 문자열 정의, 데이터 삽입 및 저장 프로시저 실행과 같은 기본 작업을 수행합니다. 이 항목에 따라 Visual C# 또는 Visual Basic 및 ADO.NET을 사용 하 여 간단한 Windows Forms "데이터 폼" 응용 프로그램 내에서 데이터베이스와 상호 작용 하는 방법을 확인할 수 있습니다.  모든.NET 데이터 기술-LINQ to SQL과 Entity Framework 데이터 집합을 포함 하 여, 궁극적으로이 문서에 나와 있는 것과 매우 유사한 단계를 수행 합니다.  
+데이터베이스의 데이터를 조작하는 애플리케이션을 만들면 연결 문자열 정의, 데이터 삽입 및 저장 프로시저 실행과 같은 기본 작업을 수행합니다. 이 항목에 따라 Visual C# 또는 Visual Basic 및 ADO.NET을 사용 하 여 간단한 Windows Forms "데이터 폼" 응용 프로그램 내에서 데이터베이스와 상호 작용 하는 방법을 확인할 수 있습니다.  모든.NET 데이터 기술-LINQ to SQL과 Entity Framework 데이터 집합을 포함 하 여, 궁극적으로이 문서에 나와 있는 것과 매우 유사한 단계를 수행 합니다.  
   
  이 문서는 데이터베이스에서 데이터를 매우 빠르게 방식으로 참여 하는 간단한 방법을 보여 줍니다. 응용 프로그램을 trivial이 아닌 방법으로 데이터를 수정 하 고 데이터베이스를 업데이트 하는 경우에 Entity Framework를 사용 하 여 및 데이터 바인딩 기본 데이터의 변경 내용에 사용자 인터페이스 컨트롤을 자동으로 동기화를 사용 해야 합니다.  
   
@@ -46,7 +46,7 @@ ms.locfileid: "65705176"
 - [응용 프로그램 테스트](../data-tools/create-a-simple-data-application-by-using-adonet.md#BKMK_testyourapplication)  
   
 ## <a name="prerequisites"></a>전제 조건  
- 응용 프로그램을 만들려면 다음이 필요 합니다.  
+ 애플리케이션을 만들려면 다음이 필요 합니다.  
   
 - Visual Studio Community Edition.  
   
@@ -56,10 +56,10 @@ ms.locfileid: "65705176"
   
 - 데이터베이스에 대해 설정한 연결 문자열입니다. 열어이 값을 찾을 수 있습니다 **SQL Server 개체 탐색기**데이터베이스에 대 한 바로 가기 메뉴를 열고, 선택 **속성**, 고 다음으로 스크롤 하는 **ConnectionString** 속성입니다.  
   
-  이 항목에서는 사용자가 Visual Studio IDE의 기본 기능에 익숙하고 Windows Forms 응용 프로그램 작성, 프로젝트에 폼 추가, 폼에 단추 및 기타 컨트롤 배치, 이러한 컨트롤의 속성 설정 및 간단한 이벤트 코드 작성을 수행할 수 있다고 가정합니다. 이러한 작업에 익숙하지 경우 완료 하는 것이 좋습니다 합니다 [Getting Started with Visual C# 및 Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) 이 항목에서는 시작 하기 전에 합니다.  
+  이 항목에서는 사용자가 Visual Studio IDE의 기본 기능에 익숙하고 Windows Forms 애플리케이션 작성, 프로젝트에 폼 추가, 폼에 단추 및 기타 컨트롤 배치, 이러한 컨트롤의 속성 설정 및 간단한 이벤트 코드 작성을 수행할 수 있다고 가정합니다. 이러한 작업에 익숙하지 경우 완료 하는 것이 좋습니다 합니다 [Getting Started with Visual C# 및 Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) 이 항목에서는 시작 하기 전에 합니다.  
   
 ## <a name="BKMK_setupthesampledatabase"></a> 샘플 데이터베이스 설정  
- 이 연습의 샘플 데이터베이스는 고객 및 주문 테이블로 구성되어 있습니다. 테이블에는 처음에 데이터가 없지만 사용자가 만드는 응용 프로그램을 실행할 때 데이터가 추가됩니다. 데이터베이스에는 5개의 간단한 저장 프로시저도 있습니다. [스크립트를 사용 하 여 SQL database 만들기](../data-tools/create-a-sql-database-by-using-a-script.md) 테이블, 기본 및 외래 키, 제약 조건 및 저장된 프로시저를 만드는 TRANSACT-SQL 스크립트가 들어 있습니다.  
+ 이 연습의 샘플 데이터베이스는 고객 및 주문 테이블로 구성되어 있습니다. 테이블에는 처음에 데이터가 없지만 사용자가 만드는 애플리케이션을 실행할 때 데이터가 추가됩니다. 데이터베이스에는 5개의 간단한 저장 프로시저도 있습니다. [스크립트를 사용 하 여 SQL database 만들기](../data-tools/create-a-sql-database-by-using-a-script.md) 테이블, 기본 및 외래 키, 제약 조건 및 저장된 프로시저를 만드는 TRANSACT-SQL 스크립트가 들어 있습니다.  
   
 ## <a name="BKMK_createtheformsandaddcontrols"></a> 폼 만들기 및 컨트롤 추가  
   
@@ -120,7 +120,7 @@ ms.locfileid: "65705176"
 |단추|Name = btnFinishUpdates|  
   
 ## <a name="BKMK_storetheconnectionstring"></a> 연결 문자열 저장  
- 응용 프로그램이 데이터베이스에 대한 연결을 열려면 응용 프로그램에는 연결 문자열에 액세스할 수 있어야 합니다. 각 폼에 문자열을 수동으로 입력를 방지 하려면 프로젝트에서 app.config 파일에 문자열을 저장 하 고 응용 프로그램의 폼에서 메서드를 호출할 때 문자열을 반환 하는 메서드를 만듭니다.  
+ 애플리케이션이 데이터베이스에 대한 연결을 열려면 애플리케이션에는 연결 문자열에 액세스할 수 있어야 합니다. 각 폼에 문자열을 수동으로 입력를 방지 하려면 프로젝트에서 app.config 파일에 문자열을 저장 하 고 응용 프로그램의 폼에서 메서드를 호출할 때 문자열을 반환 하는 메서드를 만듭니다.  
   
  연결 문자열을 찾을 수 있습니다 **SQL Server 개체 탐색기** 데이터베이스를 마우스 오른쪽 단추로 클릭를 선택 하 여 **속성**를 찾아 ConnectionString 속성입니다. Ctrl + A를 사용 하 여 문자열을 선택 합니다.  
   
@@ -223,7 +223,7 @@ ms.locfileid: "65705176"
  이 섹션에서는 각 폼에서 수행되는 작업에 대한 간단한 개요를 포함하며, 폼을 만드는 코드를 보여 줍니다. 번호가 매겨진 주석은 해당 코드 섹션을 식별합니다.  
   
 ### <a name="navigation-form"></a>Navigation 폼  
- 응용 프로그램을 실행하면 Navigation 폼이 열립니다. **계정 추가** 단추는 NewCustomer 양식을 엽니다. **주문 이행 또는 취소** 단추를 누르면 FillOrCancel 양식이 열립니다. **끝내기** 단추를 클릭하면 애플리케이션이 닫힙니다.  
+ 애플리케이션을 실행하면 Navigation 폼이 열립니다. **계정 추가** 단추는 NewCustomer 양식을 엽니다. **주문 이행 또는 취소** 단추를 누르면 FillOrCancel 양식이 열립니다. **끝내기** 단추를 클릭하면 애플리케이션이 닫힙니다.  
   
 #### <a name="make-the-navigation-form-the-startup-form"></a>Navigation 폼을 시작 폼으로 만들기  
  사용 하는 C#의 경우 **솔루션 탐색기**Program.cs를 열고 변경 하는 `Application.Run` 이 줄: `Application.Run(new Navigation());`  

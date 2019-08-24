@@ -41,7 +41,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /Timer[:Cycles] [Options]
  **Timer**는 다음 옵션 중 하나가 포함된 명령줄에서만 지정할 수 있습니다.  
   
  **Launch:** `AppName`  
- 프로파일러 및 `AppName`에서 지정한 응용 프로그램을 시작합니다.  
+ 프로파일러 및 `AppName`에서 지정한 애플리케이션을 시작합니다.  
   
  **Attach:** `PID`  
  프로세스 ID(`PID`)로 지정한 프로세스에 프로파일러를 연결합니다.  

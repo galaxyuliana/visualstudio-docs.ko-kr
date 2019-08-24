@@ -30,7 +30,7 @@ ms.locfileid: "68926677"
  Word 또는 Excel에 대한 문서 수준 사용자 지정에만 작업 창을 만들 수 있습니다. VSTO 추가 기능에서는 작업 창을 만들 수 없습니다. 자세한 내용은 [Office 응용 프로그램 및 프로젝트 형식에 따라 사용 가능한 기능](../vsto/features-available-by-office-application-and-project-type.md)을 참조 하세요.
 
 > [!NOTE]
-> 작업 창은 사용자 지정 작업창과 다릅니다. 사용자 지정 작업창은 특정 문서가 아니라 응용 프로그램과 연결됩니다. VSTO 추가 기능에서 일부 Microsoft Office 응용 프로그램에 대한 사용자 지정 작업창을 만들 수 있습니다. 자세한 내용은 [사용자 지정 작업 창](../vsto/custom-task-panes.md)을 참조 하세요.
+> 작업 창은 사용자 지정 작업창과 다릅니다. 사용자 지정 작업창은 특정 문서가 아니라 애플리케이션과 연결됩니다. VSTO 추가 기능에서 일부 Microsoft Office 애플리케이션에 대한 사용자 지정 작업창을 만들 수 있습니다. 자세한 내용은 [사용자 지정 작업 창](../vsto/custom-task-panes.md)을 참조 하세요.
 
  ![비디오에 연결](../vsto/media/playvideo.gif "비디오에 연결") 관련 비디오 데모를 보려면 어떻게 할까요?를 [참조 하세요. Excel 작업 창 내에서 WPF 컨트롤을 사용 하 시겠습니까? ](http://go.microsoft.com/fwlink/?LinkId=132763).
 
@@ -93,12 +93,12 @@ ms.locfileid: "68926677"
 ## <a name="program-actions-pane-events"></a>프로그램 작업 창 이벤트
  작업 창에 여러 개의 사용자 정의 컨트롤을 추가한 다음 사용자 정의 컨트롤을 표시하거나 숨겨 문서의 이벤트에 응답하는 코드를 작성할 수 있습니다. 문서에 XML 스키마 요소를 매핑하는 경우 삽입 지점이 XML 요소 중 하나의 내부에 있을 때마다 작업 창에 특정 사용자 정의 컨트롤을 표시할 수 있습니다. 자세한 내용은 [방법: Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md) 내 Word 문서에 스키마 매핑 및 [방법: Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)내에서 워크시트에 스키마를 매핑합니다.
 
- 호스트 컨트롤, 응용 프로그램 또는 문서 이벤트를 포함하여 개체의 이벤트에 응답하는 코드를 작성할 수도 있습니다. 자세한 내용은 [연습: NamedRange 컨트롤](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)의 이벤트에 대 한 프로그램입니다.
+ 호스트 컨트롤, 애플리케이션 또는 문서 이벤트를 포함하여 개체의 이벤트에 응답하는 코드를 작성할 수도 있습니다. 자세한 내용은 [연습: NamedRange 컨트롤](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)의 이벤트에 대 한 프로그램입니다.
 
 ## <a name="bind-data-to-controls-on-the-actions-pane"></a>작업 창의 컨트롤에 데이터 바인딩
  작업 창의 컨트롤은 Windows Forms의 컨트롤과 동일한 데이터 바인딩 기능을 가지고 있습니다. 데이터 집합, 형식화된 데이터 집합 및 XML과 같은 데이터 소스에 컨트롤을 바인딩할 수 있습니다. 자세한 내용은 [데이터 바인딩 및 Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms)을 참조 하세요.
 
- 작업 창의 컨트롤과 문서의 컨트롤을 동일한 데이터 집합에 바인딩할 수 있습니다. 예를 들어 작업 창의 컨트롤과 워크시트의 컨트롤 간에 마스터/세부 관계를 만들 수 있습니다. 자세한 내용은 [연습: Excel 작업 창의](../vsto/walkthrough-binding-data-to-controls-on-an-excel-actions-pane.md)컨트롤에 데이터를 바인딩합니다.
+ 작업 창의 컨트롤과 문서의 컨트롤을 동일한 데이터 세트에 바인딩할 수 있습니다. 예를 들어 작업 창의 컨트롤과 워크시트의 컨트롤 간에 마스터/세부 관계를 만들 수 있습니다. 자세한 내용은 [연습: Excel 작업 창의](../vsto/walkthrough-binding-data-to-controls-on-an-excel-actions-pane.md)컨트롤에 데이터를 바인딩합니다.
 
 ## <a name="validate-data-in-actions-pane-controls"></a>작업 창 컨트롤의 데이터 유효성 검사
  작업 창에 있는 컨트롤의 <xref:System.Windows.Forms.Control.Validating> 이벤트 처리기에 메시지 상자를 표시하는 경우 포커스가 두 번째로 컨트롤에서 메시지 상자로 이동할 때 이벤트가 발생할 수도 있습니다. 이 문제를 방지하려면 <xref:System.Windows.Forms.ErrorProvider> 컨트롤을 사용하여 유효성 검사 오류 메시지를 표시합니다.

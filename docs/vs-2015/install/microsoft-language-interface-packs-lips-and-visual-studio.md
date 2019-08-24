@@ -20,7 +20,7 @@ ms.author: tglee
 manager: jillfra
 ms.openlocfilehash: 503f97d1530f8d22184f42a2452046782a997c18
 ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: MTE95
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "63433006"
@@ -57,7 +57,7 @@ Windows LIP(언어 인터페이스 팩)를 사용하면 Windows 언어 버전을
 
 - ISAPI 웹 디버그 도구
 
-- HTML 도움말 콘텐츠가 있는 MFC 응용 프로그램 프로젝트
+- HTML 도움말 콘텐츠가 있는 MFC 애플리케이션 프로젝트
 
 - Visual SourceSafe SCCI UI는 호환되지 않는 코드 페이지가 있는 경우 영어로 대체됩니다.
 

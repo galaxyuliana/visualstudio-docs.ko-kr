@@ -42,7 +42,7 @@ Visual Studio에서 클래스 및 구성 요소와 같은 표준 UML 모델 요�
 |-----------|-----------------|  
 |[UML 모델 요소에 스테레오타입 추가](../modeling/add-stereotypes-to-uml-model-elements.md)|패키지에 모델 요소 배치, 프로필에 패키지 연결 및 요소에 스테레오타입 적용.|  
 |[UML 모델의 표준 스테레오타입](../modeling/standard-stereotypes-for-uml-models.md)|UML 표준 프로필 L2 및 L3은 Visual Studio와 함께 설치되고 모든 모델은 기본적으로 이러한 프로필에 연결됩니다. 이러한 프로필은 모델을 주석으로 처리하는 데 사용할 수 있는 스테레오타입을 제공합니다.<br /><br /> 예를 들어 «specification» 스테레오타입을 클래스에 적용하여 외부에 표시되는 동작만 정의하려는 의도를 나타낼 수 있습니다.|  
-|[프로필을 정의하여 UML 확장](../modeling/define-a-profile-to-extend-uml.md)|고유한 응용 프로그램 영역에 맞게 조정된 고유한 스테레오타입 및 도구를 정의할 수 있습니다.<br /><br /> 예를 들어 뱅킹 소프트웨어를 개발하는 경우 클래스에 적용될 수 있는 «Account» 스테레오타입을 정의할 수 있습니다. 그다음에 클래스 다이어그램을 사용하여 다양한 계정 형식 및 해당 관계를 설명할 수 있습니다.|  
+|[프로필을 정의하여 UML 확장](../modeling/define-a-profile-to-extend-uml.md)|고유한 애플리케이션 영역에 맞게 조정된 고유한 스테레오타입 및 도구를 정의할 수 있습니다.<br /><br /> 예를 들어 뱅킹 소프트웨어를 개발하는 경우 클래스에 적용될 수 있는 «Account» 스테레오타입을 정의할 수 있습니다. 그다음에 클래스 다이어그램을 사용하여 다양한 계정 형식 및 해당 관계를 설명할 수 있습니다.|  
 |[UML 프로필 설치](../modeling/install-a-uml-profile.md)|누군가 UML 프로필을 제공하면 컴퓨터에 이 프로필을 설치할 수 있습니다.|  
 |[사용자 지정 모델링 도구 상자 항목 정의](../modeling/define-a-custom-modeling-toolbox-item.md)|사용자 지정 도구 상자 항목을 사용하면 새 요소에서 스테레오타입을 반복해서 설정할 필요가 없습니다.|  
 |[스테레오 타입으로 UML 클래스에 색](http://code.msdn.microsoft.com/UML-Color-Classes-by-07de2b70)|이 샘플 코드에서는 UML 다이어그램을 확장합니다. 요소의 스테레오타입에 따라 UML 모양의 색을 자동으로 설정합니다.|

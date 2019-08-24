@@ -65,7 +65,7 @@ ms.locfileid: "63008396"
    추가 변경에 사용자 지정 배포 단계를 추가할 수 있습니다 합니다 **F5** 동작 합니다. 자세한 내용은 [연습: SharePoint 프로젝트용 사용자 지정 배포 단계 만들기](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md)합니다.
 
 ## <a name="delay-displaying-sharepoint-page-when-deploy-visual-web-part"></a>SharePoint 페이지 표시 지연 비주얼 웹 파트를 배포 하는 경우
- 비주얼 웹 파트를 [!INCLUDE[wiprlhext](../sharepoint/includes/wiprlhext-md.md)], [!INCLUDE[win7](../sharepoint/includes/win7-md.md)] 또는 [!INCLUDE[winsvr08](../sharepoint/includes/winsvr08-md.md)]의 Bin 폴더에 배포할 경우 SharePoint 페이지가 나타나는 데 오래 소요됩니다. Bin 디렉터리와 같은 최상위 [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] 디렉터리에서 파일을 변경하는 경우 전체 웹 응용 프로그램이 다시 컴파일됩니다. 이로 인해 SharePoint 페이지가 렌더링되는 데 최대 25초가 지연될 수 있습니다.
+ 비주얼 웹 파트를 [!INCLUDE[wiprlhext](../sharepoint/includes/wiprlhext-md.md)], [!INCLUDE[win7](../sharepoint/includes/win7-md.md)] 또는 [!INCLUDE[winsvr08](../sharepoint/includes/winsvr08-md.md)]의 Bin 폴더에 배포할 경우 SharePoint 페이지가 나타나는 데 오래 소요됩니다. Bin 디렉터리와 같은 최상위 [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] 디렉터리에서 파일을 변경하는 경우 전체 웹 애플리케이션이 다시 컴파일됩니다. 이로 인해 SharePoint 페이지가 렌더링되는 데 최대 25초가 지연될 수 있습니다.
 
 ### <a name="error-message"></a>오류 메시지
  없음
@@ -91,7 +91,7 @@ ms.locfileid: "63008396"
  이 문제를 해결하려면 SharePoint 프로젝트 항목의 이름에서 모든 괄호를 제거합니다.
 
 ## <a name="error-appears-when-deploying-a-visual-web-part-to-a-site-on-a-different-web-application"></a>다른 웹 응용 프로그램에서 사이트에 비주얼 웹 파트를 배포 하면 오류가 나타남
- 현재 배포되어 있는 웹 응용 프로그램이 아닌 다른 웹 응용 프로그램의 사이트에 비주얼 웹 파트를 처음으로 배포(비주얼 웹 파트의 SiteUrl 속성을 변경하여 배포함)하면 오류가 발생합니다.
+ 현재 배포되어 있는 웹 애플리케이션이 아닌 다른 웹 애플리케이션의 사이트에 비주얼 웹 파트를 처음으로 배포(비주얼 웹 파트의 SiteUrl 속성을 변경하여 배포함)하면 오류가 발생합니다.
 
 ### <a name="error-message"></a>오류 메시지
  배포 단계 ' 솔루션 추가 '에서 오류가 발생 했습니다. 이 팜에 ID [#]를 사용 하 여 기능을 이미 설치 되었습니다. 강제 특성을 사용하여 기능을 명시적으로 다시 설치합니다.

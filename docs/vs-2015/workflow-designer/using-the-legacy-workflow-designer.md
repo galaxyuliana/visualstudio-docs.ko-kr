@@ -23,7 +23,7 @@ ms.locfileid: "62855823"
   
  선택 하 여 액세스할 수는 **.NET Framework 3.0** 옵션 또는 **.NET Framework 3.5** 목록 맨 위에 있는 드롭다운에서 옵션을 **새 프로젝트** 창. 기본 옵션 [!INCLUDE[vs2010](../includes/vs2010-md.md)] 됩니다 **.NET Framework 4** 만드는 데 사용 되는 [!INCLUDE[wf](../includes/wf-md.md)] 대상으로 하는 응용 프로그램을 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]입니다.  
   
- [!INCLUDE[wfd2](../includes/wfd2-md.md)]에서는 친숙한 [!INCLUDE[wf](../includes/wf-md.md)] 사용자 인터페이스를 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 응용 프로그램을 시각적으로 만들 수 있습니다. [!INCLUDE[wf](../includes/wf-md.md)] 응용 프로그램은 활동이라고 하는 워크플로 프로세스 단계로 구성됩니다. 워크플로 만들려면에서 해당 활동 디자이너를 끌어서 디자인 화면에서 활동을 작성 **도구 상자** 디자인 화면으로 합니다.  
+ [!INCLUDE[wfd2](../includes/wfd2-md.md)]에서는 친숙한 [!INCLUDE[wf](../includes/wf-md.md)] 사용자 인터페이스를 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 애플리케이션을 시각적으로 만들 수 있습니다. [!INCLUDE[wf](../includes/wf-md.md)] 애플리케이션은 활동이라고 하는 워크플로 프로세스 단계로 구성됩니다. 워크플로 만들려면에서 해당 활동 디자이너를 끌어서 디자인 화면에서 활동을 작성 **도구 상자** 디자인 화면으로 합니다.  
   
  다음 표에서는 Windows Workflow Foundation용 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]의 주요 기능을 보여 줍니다.  
   

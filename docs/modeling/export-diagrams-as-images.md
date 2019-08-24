@@ -30,7 +30,7 @@ Visual Studio에서의 모델링 다이어그램 읽기 전용 형식 이해 관
 
 2. 선택 항목을 마우스 오른쪽 단추로 누른 **복사**합니다.
 
-3. 선택 항목을 원하는 응용 프로그램에 붙여넣습니다.
+3. 선택 항목을 원하는 애플리케이션에 붙여넣습니다.
 
 ## <a name="save-a-modeling-diagram-as-an-xml-paper-specification-xps-file"></a>모델링 다이어그램을 XML Paper Specification (.xps) 파일로 저장
 

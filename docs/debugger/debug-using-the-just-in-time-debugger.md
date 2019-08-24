@@ -124,7 +124,7 @@ Just In Time 표준 Windows 폼 오류를 처리 하는 대신 디버깅을 사�
 
    빌드 구성에 대한 자세한 내용은 [빌드 구성 이해](../ide/understanding-build-configurations.md)를 참조하세요.
 
-1. 기본 제공된 앱을 엽니다 *ThrowsNullException.exe* 에서 프로그램 C# 프로젝트 폴더 (*...\ThrowsNullException\ThrowsNullException\bin\Debug* 하거나 *...\ThrowsNullException\ ThrowsNullException\bin\Release*).
+1. 기본 제공된 앱을 엽니다 *ThrowsNullException.exe* 에서 프로그램 C# 프로젝트 폴더 ( *...\ThrowsNullException\ThrowsNullException\bin\Debug* 하거나 *...\ThrowsNullException\ ThrowsNullException\bin\Release*).
 
    다음 명령 창에 표시 됩니다.
 
@@ -145,7 +145,7 @@ Just In Time 표준 Windows 폼 오류를 처리 하는 대신 디버깅을 사�
 이 시점에서 디버깅을 시작할 수 있습니다. 실제 앱을 디버깅할 경우 코드는 예외를 throw 하는 이유를 확인 해야 합니다.
 
 > [!CAUTION]
-> 신뢰할 수 없는 코드를 포함 하는 앱을 디버깅을 계속할지 여부를 결정할 수 있도록 보안 경고 대화 상자가 나타납니다. 디버깅을 계속 하기 전에 코드를 신뢰할 수 있는지 여부를 결정 합니다. 직접 작성한 코드인지, 응용 프로그램이 원격 컴퓨터에서 실행 중인 경우 프로세스 이름을 알 수 있는지 등을 확인합니다. 앱을 로컬로 실행 중인 경우 컴퓨터에서 실행 되는 악성 코드가 될 가능성을 고려 합니다. 코드는 신뢰할 수 있는 하려는 경우 선택 **확인**합니다. 그렇지 않으면 **취소**를 선택합니다.
+> 신뢰할 수 없는 코드를 포함 하는 앱을 디버깅을 계속할지 여부를 결정할 수 있도록 보안 경고 대화 상자가 나타납니다. 디버깅을 계속 하기 전에 코드를 신뢰할 수 있는지 여부를 결정 합니다. 직접 작성한 코드인지, 애플리케이션이 원격 컴퓨터에서 실행 중인 경우 프로세스 이름을 알 수 있는지 등을 확인합니다. 앱을 로컬로 실행 중인 경우 컴퓨터에서 실행 되는 악성 코드가 될 가능성을 고려 합니다. 코드는 신뢰할 수 있는 하려는 경우 선택 **확인**합니다. 그렇지 않으면 **취소**를 선택합니다.
 
 ## <a name="jit_errors"></a> Just In Time 해결 디버깅
 

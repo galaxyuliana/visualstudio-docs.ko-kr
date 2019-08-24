@@ -36,7 +36,7 @@ ms.locfileid: "63427759"
   에 대 한 자세한 내용은 <xref:Microsoft.Office.Tools.Excel.Chart> 컨트롤을 참조 하세요 [차트 컨트롤](../vsto/chart-control.md)합니다.
 
 ## <a name="designtime"></a> 디자인 타임에 Chart 컨트롤 추가
- 응용 프로그램 내에서 차트를 추가하는 것과 동일한 방식으로 <xref:Microsoft.Office.Tools.Excel.Chart> 컨트롤을 워크시트에 추가할 수 있습니다.
+ 애플리케이션 내에서 차트를 추가하는 것과 동일한 방식으로 <xref:Microsoft.Office.Tools.Excel.Chart> 컨트롤을 워크시트에 추가할 수 있습니다.
 
 > [!NOTE]
 > 합니다 <xref:Microsoft.Office.Tools.Excel.Chart> 컨트롤에서 지원 하지 않는 합니다 **도구 상자** 또는 **데이터 원본** 창.

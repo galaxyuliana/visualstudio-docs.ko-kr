@@ -60,7 +60,7 @@ Windows에만 적용] (.. /Image/windows_only_content.png "windows_only_content"
 
 3. **빌드** 메뉴에서 **배포**를 선택합니다.
 
-## <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 장치 지정 방법
+## <a name="BKMK_How_to_specify_a_remote_device"></a> 원격 디바이스 지정 방법
  **필수 구성 요소**
 
  원격 디바이스에 앱을 배포하려면

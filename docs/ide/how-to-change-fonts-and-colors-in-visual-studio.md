@@ -44,7 +44,7 @@ Visual Studio의 IDE 프레임과 도구 창의 색을 여러 가지 방식으�
 **왼쪽 Alt**+**왼쪽 Shift**+**PrtScn** 키를 선택합니다.
 
 > [!WARNING]
-> 이 옵션은 모든 응용 프로그램 및 현재 컴퓨터의 UI를 고대비로 설정합니다.
+> 이 옵션은 모든 애플리케이션 및 현재 컴퓨터의 UI를 고대비로 설정합니다.
 
 ## <a name="change-ide-fonts"></a>IDE 글꼴 변경
 

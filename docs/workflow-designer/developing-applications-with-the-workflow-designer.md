@@ -1,5 +1,5 @@
 ---
-title: Workflow Designer로 응용 프로그램 개발
+title: Workflow Designer로 애플리케이션 개발
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

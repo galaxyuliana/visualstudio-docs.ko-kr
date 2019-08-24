@@ -25,8 +25,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "62851803"
 ---
-# <a name="debugging-web-applications"></a>웹 응용 프로그램 디버깅
-이 단원에서는 다양한 형식의 웹 응용 프로그램을 디버깅하는 방법에 대해 설명합니다.
+# <a name="debugging-web-applications"></a>웹 애플리케이션 디버깅
+이 단원에서는 다양한 형식의 웹 애플리케이션을 디버깅하는 방법에 대해 설명합니다.
 
 ## <a name="in-this-section"></a>섹션 내용
  [클라이언트 쪽 스크립트 디버깅](../debugger/client-side-script-debugging.md) 테스트 스크립트 및 클라이언트 쪽 스크립트에 설명 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 페이지입니다.

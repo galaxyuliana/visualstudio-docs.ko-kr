@@ -230,7 +230,7 @@
               href: the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md
             - name: <property name> 속성을 삭제할 수 없습니다.
               href: the-property-property-name-cannot-be-deleted.md
-            - name: 응용 프로그램 설정 파일에서 연결 속성이 없거나 잘못되었습니다.
+            - name: 애플리케이션 설정 파일에서 연결 속성이 없거나 잘못되었습니다.
               href: the-connection-property-in-the-application-settings-file-is-missing-or-incorrect.md
             - name: <association name> 연결을 만들 수 없습니다. 속성 형식이 일치하지 않습니다.
               href: cannot-create-an-association-association-name-property-types-do-not-match.md

@@ -50,7 +50,7 @@ ms.locfileid: "65696907"
   
 - [메모리 진단 사용](#BKMK_Enabling_memory_diagnostics)  
   
-- [메모리 스냅숏 만들기](#BKMK_Taking_memory_snapshots)  
+- [메모리 스냅샷 만들기](#BKMK_Taking_memory_snapshots)  
   
 - [메모리 통계 보기](#BKMK_Viewing_memory_statistics)  
   
@@ -160,11 +160,11 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
   [항목 내용](#BKMK_In_this_topic)  
   
-### <a name="BKMK_Taking_memory_snapshots"></a> 메모리 스냅숏 만들기  
+### <a name="BKMK_Taking_memory_snapshots"></a> 메모리 스냅샷 만들기  
   
-1. [CMemoryState](https://msdn.microsoft.com/8fade6e9-c6fb-4b2a-8565-184a912d26d2) 개체를 만들고 [CMemoryState::Checkpoint](https://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a) 멤버 함수를 호출합니다. 그러면 첫 번째 메모리 스냅숏이 만들어집니다.  
+1. [CMemoryState](https://msdn.microsoft.com/8fade6e9-c6fb-4b2a-8565-184a912d26d2) 개체를 만들고 [CMemoryState::Checkpoint](https://msdn.microsoft.com/library/b2d80fea-3d21-457e-816d-b035909bf21a) 멤버 함수를 호출합니다. 그러면 첫 번째 메모리 스냅샷이 만들어집니다.  
   
-2. 프로그램이 메모리 할당 작업과 할당 취소 작업을 수행하면 다른 `CMemoryState` 개체를 만들고 해당 개체에 대해 `Checkpoint` 를 호출합니다. 그러면 메모리 사용에 대한 두 번째 스냅숏이 만들어집니다.  
+2. 프로그램이 메모리 할당 작업과 할당 취소 작업을 수행하면 다른 `CMemoryState` 개체를 만들고 해당 개체에 대해 `Checkpoint` 를 호출합니다. 그러면 메모리 사용에 대한 두 번째 스냅샷이 만들어집니다.  
   
 3. 세 번째 `CMemoryState` 개체를 만들고 이전의 두 [CMemoryState::Difference](https://msdn.microsoft.com/library/aba69e2f-71dd-4255-99b5-3da2e56a0c9c) 개체를 인수로 제공하여 `CMemoryState` 멤버 함수를 호출합니다. 두 메모리 상태가 서로 다르면 `Difference` 함수가 0이 아닌 값을 반환합니다. 이것은 할당이 취소되지 않은 메모리 블록이 있음을 나타냅니다.  
   
@@ -198,7 +198,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
    [항목 내용](#BKMK_In_this_topic)  
   
 ### <a name="BKMK_Viewing_memory_statistics"></a> 메모리 통계 보기  
- [CMemoryState::Difference](https://msdn.microsoft.com/library/aba69e2f-71dd-4255-99b5-3da2e56a0c9c) 함수는 두 메모리 상태 개체를 살펴 상태의 시작과 끝 사이의 힙에서 할당 취소되지 않은 모든 개체를 검색합니다. 메모리 스냅숏을 만들고 `CMemoryState::Difference`를 사용하여 스냅숏을 비교한 후 [CMemoryState::DumpStatistics](https://msdn.microsoft.com/library/90d5f281-b92f-4725-a996-23ab94cf4b5d) 를 호출하여 할당이 취소되지 않은 개체에 대한 정보를 가져올 수 있습니다.  
+ [CMemoryState::Difference](https://msdn.microsoft.com/library/aba69e2f-71dd-4255-99b5-3da2e56a0c9c) 함수는 두 메모리 상태 개체를 살펴 상태의 시작과 끝 사이의 힙에서 할당 취소되지 않은 모든 개체를 검색합니다. 메모리 스냅샷을 만들고 `CMemoryState::Difference`를 사용하여 스냅샷을 비교한 후 [CMemoryState::DumpStatistics](https://msdn.microsoft.com/library/90d5f281-b92f-4725-a996-23ab94cf4b5d) 를 호출하여 할당이 취소되지 않은 개체에 대한 정보를 가져올 수 있습니다.  
   
  다음 예제를 참조하세요.  
   

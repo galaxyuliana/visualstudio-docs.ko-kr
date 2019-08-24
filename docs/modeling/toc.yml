@@ -16,7 +16,7 @@
       href: code-maps-for-cpp.md
     - name: 코드 맵 성능
       href: code-maps-performance.md
-    - name: 코드 맵을 사용하여 응용 프로그램 디버그
+    - name: 코드 맵을 사용하여 애플리케이션 디버그
       href: use-code-maps-to-debug-your-applications.md
     - name: Visual Studio에서 디버깅하는 동안 호출 스택의 맵 메서드
       href: map-methods-on-the-call-stack-while-debugging-in-visual-studio.md
@@ -202,7 +202,7 @@
         - name: 개요 및 참조
           displayName: Respond to and Propagate Changes
           href: responding-to-and-propagating-changes.md
-        - name: 계산된 저장소 속성 및 사용자 지정 저장소 속성
+        - name: 계산된 스토리지 속성 및 사용자 지정 스토리지 속성
           href: calculated-and-custom-storage-properties.md
         - name: 도메인 속성 값 변경 처리기
           href: domain-property-value-change-handlers.md

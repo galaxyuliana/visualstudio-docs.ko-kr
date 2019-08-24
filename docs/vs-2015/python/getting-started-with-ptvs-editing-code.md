@@ -23,7 +23,7 @@ PTVS는 Python에 대한 생산적인 Visual Studio 편집기 환경을 제공�
   
  짧은 [youtube 동영상](https://www.youtube.com/watch?v=uZGZNEyyeKs&index=3&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff)을 통해 이러한 지침을 확인할 수 있습니다.  
   
- 비어 있는 기본 Python 응용 프로그램 프로젝트 템플릿으로 시작합니다.  
+ 비어 있는 기본 Python 애플리케이션 프로젝트 템플릿으로 시작합니다.  
   
  편집기에서 `from … import` 줄 입력을 시작합니다.  팝업 완성 목록에 가져올 수 있는 모듈의 전체 목록이 표시됩니다.  이 목록은 Python 버전 및 설치한 라이브러리에 따라 달라집니다.  한 예로 수식 라이브러리를 사용합니다.  입력 시 완성 목록이 입력된 문자를 포함하는 항목으로 필터링됩니다.  `sin` 식별자를 가져와서 문을 완성합니다.  
   

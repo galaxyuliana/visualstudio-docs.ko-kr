@@ -32,7 +32,7 @@ ms.locfileid: "65691190"
 # <a name="debugging-errors-and-warning-dialog-boxes"></a>디버깅 오류 및 경고 대화 상자
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-다음은 응용 프로그램을 디버깅할 때 발생할 수 있는 오류 및 경고 대화 상자입니다.  
+다음은 애플리케이션을 디버깅할 때 발생할 수 있는 오류 및 경고 대화 상자입니다.  
   
 ## <a name="in-this-section"></a>섹션 내용  
  [어설션 오류 대화 상자](../debugger/assertion-failed-dialog-box.md)  

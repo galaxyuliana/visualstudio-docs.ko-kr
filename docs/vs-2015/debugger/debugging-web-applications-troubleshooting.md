@@ -39,4 +39,4 @@ ms.locfileid: "68152857"
  오류 및 문제 해결에 대해 설명합니다.  
   
  [웹 애플리케이션 및 스크립트 디버그](../debugger/debugging-web-applications-and-script.md)  
- [!INCLUDE[vstecasp](../includes/vstecasp-md.md)], XML Web services 및 ATL 서버 프로젝트 등의 웹 응용 프로그램 디버깅에 대해 간략히 설명합니다.
+ [!INCLUDE[vstecasp](../includes/vstecasp-md.md)], XML Web services 및 ATL 서버 프로젝트 등의 웹 애플리케이션 디버깅에 대해 간략히 설명합니다.

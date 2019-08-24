@@ -316,9 +316,9 @@ Windows PowerShell 명령 프롬프트에서 사용할 수 있는 함수에 대�
 | Add-AzureSQLDatabases |Visual Studio에서 생성하는 JSON 구성 파일의 값으로 Azure SQL Database를 만듭니다. |
 | Add-AzureVM |Azure 가상 머신을 만들고 배포된 VM의 URL을 반환합니다. 함수가 필수 구성 요소를 설정한 다음 **New-AzureVM** 함수(Azure 모듈)를 호출하여 새 가상 머신을 만듭니다. |
 | Add-AzureVMEndpoints |가상 머신에 새 입력 엔드포인트를 추가하고 새 엔드포인트로 가상 머신을 반환합니다. |
-| Add-AzureVMStorage |현재 구독에 새 Azure 저장소 계정을 만듭니다. 계정 이름은 "devtest"로 시작하고 그 다음에 고유한 영숫자 문자열이 포함됩니다. 함수에서 새 저장소 계정의 이름을 반환합니다. 새 저장소 계정에 대해 위치 또는 선호도 그룹을 지정합니다. |
+| Add-AzureVMStorage |현재 구독에 새 Azure Storage 계정을 만듭니다. 계정 이름은 "devtest"로 시작하고 그 다음에 고유한 영숫자 문자열이 포함됩니다. 함수에서 새 스토리지 계정의 이름을 반환합니다. 새 스토리지 계정에 대해 위치 또는 선호도 그룹을 지정합니다. |
 | Add-AzureWebsite |지정된 이름 및 위치로 웹 사이트를 만듭니다. 이 함수는 Azure 모듈에서 **New-AzureWebsite** 함수라고 합니다. 구독에 이미 지정된 이름의 웹 사이트가 없을 경우 이 함수는 웹 사이트를 만들고 웹 사이트 개체를 반환합니다. 그렇지 않으면 `$null`를 반환합니다. |
-| Backup-구독 |현재 Azure 구독을 스크립트 범위의 `$Script:originalSubscription` 변수에 저장합니다. 이 함수는 현재 Azure 구독(`Get-AzureSubscription -Current`에서 가져옴) 및 해당 저장소 계정, 이 스크립트로 변경된 구독(`$UserSpecifiedSubscription` 변수에 저장) 및 해당 저장소 계정을 스크립트 범위에 저장합니다. 이러한 값을 저장하면 원래 현재 상태가 변경된 경우 `Restore-Subscription` 등의 함수를 사용하여 현재 구독 및 저장소 계정을 현재 상태로 복원할 수 있습니다. |
+| Backup-구독 |현재 Azure 구독을 스크립트 범위의 `$Script:originalSubscription` 변수에 저장합니다. 이 함수는 현재 Azure 구독(`Get-AzureSubscription -Current`에서 가져옴) 및 해당 스토리지 계정, 이 스크립트로 변경된 구독(`$UserSpecifiedSubscription` 변수에 저장) 및 해당 스토리지 계정을 스크립트 범위에 저장합니다. 이러한 값을 저장하면 원래 현재 상태가 변경된 경우 `Restore-Subscription` 등의 함수를 사용하여 현재 구독 및 스토리지 계정을 현재 상태로 복원할 수 있습니다. |
 | Find-AzureVM |지정된 Azure 가상 머신을 가져옵니다. |
 | Format-DevTestMessageWithTime |메시지 앞에 날짜와 시간을 추가합니다. 이 함수는 오류 및 자세한 정보 표시 스트림에 작성되는 메시지를 위해 설계되었습니다. |
 | Get-AzureSQLDatabaseConnectionString |연결 문자열을 조립하여 Azure SQL 데이터베이스에 연결합니다. |
@@ -344,7 +344,7 @@ Windows PowerShell 명령 프롬프트에서 사용할 수 있는 함수에 대�
 | New-AzureWebApplicationEnvironment |웹 사이트, 가상 머신과 같은 Azure 리소스를 만듭니다. |
 | New-WebDeployPackage |이 함수는 구현되지 않았습니다. 이 함수에 명령을 추가하여 프로젝트를 빌드할 수 있습니다. |
 | Publish-AzureWebApplication |Azure에 웹 애플리케이션을 게시합니다. |
-| Publish-WebApplication |Visual Studio 웹 프로젝트를 위한 Web Apps, 가상 머신, SQL 데이터베이스, 저장소 계정을 만들고 배포합니다. |
+| Publish-WebApplication |Visual Studio 웹 프로젝트를 위한 Web Apps, 가상 머신, SQL 데이터베이스, 스토리지 계정을 만들고 배포합니다. |
 | Test-WebApplication |이 함수는 구현되지 않았습니다. 이 함수에 명령을 추가하여 애플리케이션을 테스트할 수 있습니다. |
 
 ## <a name="next-steps"></a>다음 단계

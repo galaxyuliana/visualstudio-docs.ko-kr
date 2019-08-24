@@ -23,7 +23,7 @@ Visual Studio Enterprise 버전(Professional 또는 Community 버전 아님)에�
 
 ## <a name="navigate-your-code-with-historical-debugging"></a>기록 디버깅을 사용 하 여 코드 탐색
 
-버그가 있는 간단한 프로그램부터 살펴보겠습니다. C# 콘솔 응용 프로그램에서 다음 코드를 추가합니다.
+버그가 있는 간단한 프로그램부터 살펴보겠습니다. C# 콘솔 애플리케이션에서 다음 코드를 추가합니다.
 
 ```csharp
 static void Main(string[] args)

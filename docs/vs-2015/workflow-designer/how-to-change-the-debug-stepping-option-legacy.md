@@ -23,7 +23,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62954455"
 ---
 # <a name="how-to-change-the-debug-stepping-option-legacy"></a>방법: 단계별 디버깅 옵션 변경(레거시)
-이 항목에서는 [!INCLUDE[wf](../includes/wf-md.md)]에서 동시 동작이 있는 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 응용 프로그램의 단계별 디버깅 옵션을 변경하는 방법에 대해 설명합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
+이 항목에서는 [!INCLUDE[wf](../includes/wf-md.md)]에서 동시 동작이 있는 [!INCLUDE[wfd1](../includes/wfd1-md.md)] 애플리케이션의 단계별 디버깅 옵션을 변경하는 방법에 대해 설명합니다. 레거시 [!INCLUDE[wfd2](../includes/wfd2-md.md)]는 [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] 또는 [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)]를 대상으로 해야 하는 경우에 사용합니다.  
   
  동시에 실행 예는 레거시 활동을 디버깅할 때 **ParallelActivity** 하거나 **ConditionedActivityGroup**, 코드를 단계별로 실행 하려면 두 옵션 중 하나를 사용할 수 있습니다.  
   

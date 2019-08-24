@@ -186,7 +186,7 @@ Visual Studio의 몇 가지 디버깅 기능은 다음과 같습니다.
 - ‘클릭한 줄까지 실행’을 사용하면 코드 줄 옆을 가리키고, 나타나는 녹색 ‘재생’ 아이콘을 누르고, 해당 줄에 도달할 때까지 프로그램을 실행할 수 있습니다. 
 - **예외 도우미**는 어떤 변수가 `NullReferenceException`에서 `null`인지와 같은 가장 중요한 정보를 대화 상자의 최상위 수준에 배치합니다.
 - [뒤로 이동 디버깅](../debugger/view-historical-application-state.md)을 사용하면 이전 중단점 또는 단계로 돌아가서 과거의 애플리케이션 상태를 볼 수 있습니다.
-- [스냅숏 디버깅](/azure/application-insights/app-insights-snapshot-debugger)을 사용하면 예외가 throw되는 때에 라이브 웹 애플리케이션의 상태를 확인할 수 있습니다(Azure에 있어야 함).
+- [스냅샷 디버깅](/azure/application-insights/app-insights-snapshot-debugger)을 사용하면 예외가 throw되는 때에 라이브 웹 애플리케이션의 상태를 확인할 수 있습니다(Azure에 있어야 함).
 
 ::: moniker-end
 
@@ -195,7 +195,7 @@ Visual Studio의 몇 가지 디버깅 기능은 다음과 같습니다.
 - ‘클릭한 줄까지 실행’을 사용하면 코드 줄 옆을 가리키고, 나타나는 녹색 ‘재생’ 아이콘을 누르고, 해당 줄에 도달할 때까지 프로그램을 실행할 수 있습니다. 
 - **예외 도우미**는 어떤 변수가 `NullReferenceException`에서 `null`인지와 같은 가장 중요한 정보를 대화 상자의 최상위 수준에 배치합니다.
 - [뒤로 이동 디버깅](../debugger/view-historical-application-state.md)을 사용하면 이전 중단점 또는 단계로 돌아가서 과거의 애플리케이션 상태를 볼 수 있습니다.
-- [스냅숏 디버깅](/azure/application-insights/app-insights-snapshot-debugger)을 사용하면 예외가 throw되는 때에 라이브 웹 애플리케이션의 상태를 확인할 수 있습니다(Azure에 있어야 함).
+- [스냅샷 디버깅](/azure/application-insights/app-insights-snapshot-debugger)을 사용하면 예외가 throw되는 때에 라이브 웹 애플리케이션의 상태를 확인할 수 있습니다(Azure에 있어야 함).
 
 ::: moniker-end
 

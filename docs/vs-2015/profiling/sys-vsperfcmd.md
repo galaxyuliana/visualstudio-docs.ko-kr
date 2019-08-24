@@ -41,7 +41,7 @@ VSPerfCmd.exe {/Launch:AppName|Attach:PID} /Sys[:Events] [Options]
  **Sys**에 다음 옵션 중 하나가 필요합니다.  
   
  **Launch:** `AppName`  
- 프로파일러 및 `AppName`에서 지정한 응용 프로그램을 시작합니다.  
+ 프로파일러 및 `AppName`에서 지정한 애플리케이션을 시작합니다.  
   
  **Attach:** `PID`  
  `PID`으로 지정한 프로세스에 프로파일러를 연결합니다.  

@@ -51,7 +51,7 @@ ms.locfileid: "63438736"
  Office 개발자 도구를 설치 하는 방법에 대 한 자세한 내용은 참조 하세요. [방법: Office 솔루션을 개발 하도록 컴퓨터를 구성](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)합니다.
 
 ### <a name="install-the-runtime-with-office"></a>Office 런타임 설치
- Office를 설치할 때 .NET Framework 3.5용 Office 확장은 .NET Framework 3.5가 이미 컴퓨터에 있는 경우 설치됩니다. Office 다음에 .NET Framework 3.5를 설치하는 경우 Office 응용 프로그램에서 .NET Framework 3.5를 대상으로 하는 솔루션을 처음으로 로드하려고 할 때 런타임은 .NET Framework 3.5용 Office 확장을 자동으로 설치합니다.
+ Office를 설치할 때 .NET Framework 3.5용 Office 확장은 .NET Framework 3.5가 이미 컴퓨터에 있는 경우 설치됩니다. Office 다음에 .NET Framework 3.5를 설치하는 경우 Office 애플리케이션에서 .NET Framework 3.5를 대상으로 하는 솔루션을 처음으로 로드하려고 할 때 런타임은 .NET Framework 3.5용 Office 확장을 자동으로 설치합니다.
 
  Office를 설치할 때 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상이 이미 있는 경우에도 [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] 이상용 Office 확장은 Office와 함께 설치되지 않습니다.
 

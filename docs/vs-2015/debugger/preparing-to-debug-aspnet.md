@@ -30,16 +30,16 @@ ms.locfileid: "65696117"
   
 ## <a name="in-this-section"></a>섹션 내용  
  [시스템 요구 사항](../debugger/aspnet-debugging-system-requirements.md)  
- [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]를 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 또는 WCF 웹 응용 프로그램을 디버깅하는 데 필요한 운영 체제 요구 사항에 대해 설명합니다.  
+ [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]를 사용하여 [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] 또는 WCF 웹 애플리케이션을 디버깅하는 데 필요한 운영 체제 요구 사항에 대해 설명합니다.  
   
  [WCF 디버깅의 제한 사항](../debugger/limitations-on-wcf-debugging.md)  
- [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 사용하여 WCF 웹 응용 프로그램을 디버깅하는 방법에 적용되는 제한 사항에 대해 설명합니다.  
+ [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]를 사용하여 WCF 웹 애플리케이션을 디버깅하는 방법에 적용되는 제한 사항에 대해 설명합니다.  
   
  [방법: ASP.NET 애플리케이션에 디버깅 사용](../debugger/how-to-enable-debugging-for-aspnet-applications.md)  
- [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 응용 프로그램의 디버그 모드 설정에 대해 설명합니다. 이 정보에는 Web.config 파일에 대한 설명 및 편집 방법, 샘플 코드, 계층적 구성 파일의 동작 등이 포함됩니다.  
+ [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 애플리케이션의 디버그 모드 설정에 대해 설명합니다. 이 정보에는 Web.config 파일에 대한 설명 및 편집 방법, 샘플 코드, 계층적 구성 파일의 동작 등이 포함됩니다.  
   
  [웹 애플리케이션 원격 디버깅의 필수 조건](../debugger/prerequistes-for-remote-debugging-web-applications.md)  
- 원격 서버에서 웹 응용 프로그램을 디버깅할 때 필수 조건을 열거합니다.  
+ 원격 서버에서 웹 애플리케이션을 디버깅할 때 필수 조건을 열거합니다.  
   
  [방법: Windows Server 2003에서 IIS를 구성 합니다.](https://msdn.microsoft.com/23d557c5-ffcb-4fb2-be7c-5901d5f72ea1)  
  [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]에서 [!INCLUDE[WinXPSvr](../includes/winxpsvr-md.md)]을 디버깅하기 위한 디버깅 시스템 요구 사항을 충족하는 데 필요한 특수 구성 단계에 대해 설명합니다.  

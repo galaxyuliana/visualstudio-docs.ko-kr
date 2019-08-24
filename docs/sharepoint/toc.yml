@@ -46,7 +46,7 @@
           items:
             - name: SharePoint에 대한 페이지 만들기
               href: creating-pages-for-sharepoint.md
-            - name: SharePoint를 위한 응용 프로그램 페이지 만들기
+            - name: SharePoint를 위한 애플리케이션 페이지 만들기
               href: creating-application-pages-for-sharepoint.md
             - name: 애플리케이션 페이지 만들기
               href: how-to-create-an-application-page.md
@@ -66,9 +66,9 @@
               href: walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md
             - name: '연습: SharePoint용 OData를 표시하는 Silverlight 웹 파트 만들기'
               href: walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md
-        - name: 웹 파트 또는 응용 프로그램 페이지를 위해 재사용 가능한 컨트롤 만들기
+        - name: 웹 파트 또는 애플리케이션 페이지를 위해 재사용 가능한 컨트롤 만들기
           items:
-            - name: 웹 파트 또는 응용 프로그램 페이지를 위해 재사용 가능한 컨트롤 만들기
+            - name: 웹 파트 또는 애플리케이션 페이지를 위해 재사용 가능한 컨트롤 만들기
               href: creating-reusable-controls-for-web-parts-or-application-pages.md
             - name: SharePoint 애플리케이션 페이지 또는 웹 파트를 위한 사용자 컨트롤 만들기
               href: how-to-create-a-user-control-for-a-sharepoint-application-page-or-web-part.md
@@ -194,9 +194,9 @@
               href: verifying-and-debugging-sharepoint-code.md
             - name: '연습: IntelliTrace를 사용하여 SharePoint 애플리케이션 디버깅'
               href: walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md
-        - name: SharePoint 응용 프로그램 성능 프로파일링
+        - name: SharePoint 애플리케이션 성능 프로파일링
           items:
-            - name: SharePoint 응용 프로그램 성능 프로파일링
+            - name: SharePoint 애플리케이션 성능 프로파일링
               href: profiling-the-performance-of-sharepoint-applications.md
             - name: '연습: SharePoint 애플리케이션 프로파일링'
               href: walkthrough-profiling-a-sharepoint-application.md

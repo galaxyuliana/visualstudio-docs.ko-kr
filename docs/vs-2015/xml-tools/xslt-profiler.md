@@ -19,7 +19,7 @@ ms.locfileid: "63438832"
 # <a name="xslt-profiler"></a>XSLT 프로파일러
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-XSLT 프로파일러는 XSLT 문서를 개발하고 디버깅하는 데 도움이 되는 성능 분석 프로파일러 도구입니다. 개발자는 XSLT 프로파일러를 사용하여 자세한 XSLT 성능 보고서를 만들어 XSLT 코드의 성능 관련 문제를 측정 및 평가할 수 있습니다. XSLT 프로파일러에는 최대 성능을 요구하는 XSLT 기반 응용 프로그램에 필수적인 XSL 및 XSLT 스타일시트 최적화에 대한 유용한 힌트가 포함되어 있습니다.  
+XSLT 프로파일러는 XSLT 문서를 개발하고 디버깅하는 데 도움이 되는 성능 분석 프로파일러 도구입니다. 개발자는 XSLT 프로파일러를 사용하여 자세한 XSLT 성능 보고서를 만들어 XSLT 코드의 성능 관련 문제를 측정 및 평가할 수 있습니다. XSLT 프로파일러에는 최대 성능을 요구하는 XSLT 기반 애플리케이션에 필수적인 XSL 및 XSLT 스타일시트 최적화에 대한 유용한 힌트가 포함되어 있습니다.  
   
  XSLT Profiler는 Visual Studio 2010의 일부 이며 Visual Studio에서 사용할 수 있습니다 **XML** 메뉴.  
   

@@ -27,13 +27,13 @@ Visual Studio에서의 모델링 다이어그램 읽기 전용 형식 이해 관
   
  이 기능을 지원하는 Visual Studio 버전을 확인하려면 [아키텍처 및 모델링 도구에 대한 버전 지원](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)을 참조하세요.  
   
-### <a name="to-copy-a-diagram-or-part-of-a-diagram-to-another-application"></a>다이어그램 또는 다이어그램의 일부를 다른 응용 프로그램에 복사하려면  
+### <a name="to-copy-a-diagram-or-part-of-a-diagram-to-another-application"></a>다이어그램 또는 다이어그램의 일부를 다른 애플리케이션에 복사하려면  
   
 1. 다이어그램에서 일부 또는 모든 모양을 선택합니다.  
   
 2. 선택 항목을 마우스 오른쪽 단추로 누른 **복사**합니다.  
   
-3. 선택 항목을 원하는 응용 프로그램에 붙여넣습니다.  
+3. 선택 항목을 원하는 애플리케이션에 붙여넣습니다.  
   
 ### <a name="to-export-an-image-as-part-of-an-automated-process"></a>자동화된 프로세스의 일부로 이미지를 내보내려면  
   

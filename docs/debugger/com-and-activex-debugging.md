@@ -29,7 +29,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "62563909"
 ---
 # <a name="com-and-activex-debugging"></a>COM 및 ActiveX 디버깅
-이 단원에서는 COM 응용 프로그램과 ActiveX 컨트롤의 디버깅에 대한 팁을 제공합니다.
+이 단원에서는 COM 애플리케이션과 ActiveX 컨트롤의 디버깅에 대한 팁을 제공합니다.
 
 ## <a name="in-this-section"></a>섹션 내용
  [COM 서버 및 컨테이너 디버깅](../debugger/com-server-and-container-debugging.md) COM 응용 프로그램을 디버깅할 때 특별 한 고려 사항에 언급 합니다. 여기에는 같은 솔루션 내에서 두 프로젝트를 사용하는 COM 서버 및 컨테이너 디버깅, 프로세스 간 호출 추적, 콜백 함수에 중단점 설정, 컨테이너와 서버 사이의 단계적 실행 등과 같은 내용이 제공됩니다.

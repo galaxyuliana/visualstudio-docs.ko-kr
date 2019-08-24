@@ -72,7 +72,7 @@ ms.locfileid: "67043435"
 
 ### <a name="to-work-around-this-error"></a>이 오류를 해결하려면
 
-- 원격 디버깅 모니터를 서비스가 아닌 응용 프로그램으로 실행합니다.
+- 원격 디버깅 모니터를 서비스가 아닌 애플리케이션으로 실행합니다.
 
 ## <a name="see-also"></a>참고 항목
 - [원격 디버깅 오류 및 문제 해결](../debugger/remote-debugging-errors-and-troubleshooting.md)

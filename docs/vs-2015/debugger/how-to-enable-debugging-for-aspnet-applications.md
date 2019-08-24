@@ -48,9 +48,9 @@ ms.locfileid: "65703672"
     > [!NOTE]  
     > 그러나 웹 브라우저를 사용하여 원격으로 파일에 액세스할 수 없습니다. 보안상의 이유로 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]는 브라우저에서 Web.config 파일에 직접 액세스할 수 없도록 Microsoft IIS를 구성합니다. 브라우저를 사용하여 구성 파일에 액세스하려고 하면 HTTP 액세스 오류 403(사용할 수 없음)이 표시됩니다.  
   
-2. Web.config는 XML 파일이므로 태그로 표시된 중첩된 섹션을 포함합니다.  `configuration/system.web/compilation` 요소를 찾습니다. 컴파일 요소가 없는 경우 생성합니다.  
+2. Web.config는 XML 파일이므로 태그로 표시된 중첩된 섹션을 포함합니다. `configuration/system.web/compilation` 요소를 찾습니다. 컴파일 요소가 없는 경우 생성합니다.  
   
-3.  `compilation` 요소에 `debug` 특성이 없으면 요소에 특성을 추가합니다.  
+3. `compilation` 요소에 `debug` 특성이 없으면 요소에 특성을 추가합니다.  
   
 4. `debug` 특성 값이 `true`로 설정되었는지 확인합니다.  
   
@@ -81,7 +81,7 @@ web.config 파일은 다음 예제와 같습니다. 구성 요소와 system.web 
 ## <a name="robust-programming"></a>강력한 프로그래밍  
 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]가 Web.config 파일의 변경 내용을 자동으로 검색하고 새 구성 설정을 적용합니다. 변경 내용을 적용하기 위해 컴퓨터를 다시 시작하거나 IIS 서버를 다시 시작할 필요가 없습니다.  
   
-웹 사이트에는 여러 개의 가상 디렉터리 및 하위 디렉터리가 포함될 수 있으며 각 디렉터리에 Web.config 파일이 있을 수도 있습니다. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 응용 프로그램은 URL 경로의 상위 수준에 있는 Web.config 파일에서 설정을 상속합니다. 계층적 구성 파일을 사용하면 계층 구조의 모든 하위 애플리케이션 등 여러 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 애플리케이션에 대한 설정을 동시에 변경할 수 있습니다. 그러나 `debug` 가 계층 구조의 하위 파일에서 설정된 경우 상위 값을 재정의합니다.  
+웹 사이트에는 여러 개의 가상 디렉터리 및 하위 디렉터리가 포함될 수 있으며 각 디렉터리에 Web.config 파일이 있을 수도 있습니다. [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 애플리케이션은 URL 경로의 상위 수준에 있는 Web.config 파일에서 설정을 상속합니다. 계층적 구성 파일을 사용하면 계층 구조의 모든 하위 애플리케이션 등 여러 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] 애플리케이션에 대한 설정을 동시에 변경할 수 있습니다. 그러나 `debug` 가 계층 구조의 하위 파일에서 설정된 경우 상위 값을 재정의합니다.  
   
 예를 들어 www.microsoft.com/aaa/Web.config에서 `debug="true"` 를 지정하면 aaa 폴더 또는 aaa의 모든 하위 폴더에 있는 모든 애플리케이션이 해당 설정을 상속합니다. 따라서 프로그램 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] www.microsoft.com/aaa/bbb에서 응용 프로그램은로 모든 해당 설정을 상속 합니다 [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] www.microsoft.com/aaa/ccc, www.microsoft.com/aaa/ddd, 및 등의 응용 프로그램입니다. 단, 해당 애플리케이션 중 하나가 고유한 하위 Web.config 파일을 통해 설정을 재정의하는 경우는 예외입니다.  
   
