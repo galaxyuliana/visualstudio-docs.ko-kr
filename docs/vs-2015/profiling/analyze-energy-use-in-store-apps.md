@@ -30,7 +30,7 @@ Visual Studio **에너지 소비** 프로파일러를 사용하면 자체 배터
  에너지 소비 프로파일러는 세션을 프로파일링하는 중 디바이스의 디스플레이, CPU, 네트워크 연결 활동을 캡처합니다. 그런 다음 그러한 활동에 사용된 전력과 세션 프로파일링의 총 에너지량의 추정치를 생성합니다.  
   
 > [!NOTE]
-> 에너지 프로파일러는 표준 참조 디바이스 하드웨어를 사용하여 응용 프로그램을 실행하는 저전력 태블릿 디바이스의 대표적 전력 및 에너지 사용을 추정합니다. 가장 정확한 추정치를 제공하려면 저전력 태블릿 디바이스에서 프로파일 데이터를 수집하는 것이 좋습니다.  
+> 에너지 프로파일러는 표준 참조 디바이스 하드웨어를 사용하여 애플리케이션을 실행하는 저전력 태블릿 디바이스의 대표적 전력 및 에너지 사용을 추정합니다. 가장 정확한 추정치를 제공하려면 저전력 태블릿 디바이스에서 프로파일 데이터를 수집하는 것이 좋습니다.  
 >   
 > 이 모델은 다양한 저전력 디바이스에 대해 상당히 정확한 추정치를 제공하지만 프로파일링하는 디바이스의 실제 값은 달라질 가능성이 높습니다. 이러한 값을 사용하여 다른 리소스 사용에 비해 많은 에너지를 사용하고 있어서 최적화해야 할 디스플레이, CPU, 네트워크 활동을 찾습니다.  
   
@@ -150,6 +150,6 @@ if (performance && performance.mark) {
   
 - Windows 개발자 센터에 나와 있는 **C#/VB/C++ 및 XAML** 및 [JavaScript 및 HTML](https://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) 의 [연결 상태 및 원가 관리](https://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) 섹션에서는 앱이 네트워크 트래픽 비용을 최소화하는 데 사용할 수 있는 네트워크 연결 정보를 제공하는 Windows API에 대해 설명합니다.  
   
-     Windows 스토어 앱에 대한 Visual Studio 시뮬레이터를 사용하여 네트워크 정보 API의 데이터 연결 속성을 시뮬레이트할 수 있습니다.  [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하십시오.  
+     Windows 스토어 앱에 대한 Visual Studio 시뮬레이터를 사용하여 네트워크 정보 API의 데이터 연결 속성을 시뮬레이트할 수 있습니다. [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)을 참조하십시오.  
   
 - **JavaScript 함수 타이밍** 및 **CPU 사용** 도구를 사용하면 비효율적 함수 때문에 발생하는 CPU 로드를 줄일 수 있습니다. [CPU 사용 분석](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md)을 참조하세요.
