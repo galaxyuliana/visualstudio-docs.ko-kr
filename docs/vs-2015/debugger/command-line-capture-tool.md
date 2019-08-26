@@ -216,8 +216,8 @@ DXCap.exe –p
 DXCap.exe –p regression_test_12.vsglog -rawmode  
 ```  
   
-### <a name="play-back-using-warp-or-a-hardware-device"></a>WARP 또는 하드웨어 장치를 사용하여 재생  
- 하드웨어 장치에서 캡처된 그래픽 로그 파일 재생 시 WARP를 사용하거나 WARP에서 캡처된 로그 재생 시 하드웨어 장치를 사용하도록 강제 지정할 수 있습니다. 사용 하 여 `-warp` WARP를 사용 하 여 다시 재생 합니다.  
+### <a name="play-back-using-warp-or-a-hardware-device"></a>WARP 또는 하드웨어 디바이스를 사용하여 재생  
+ 하드웨어 디바이스에서 캡처된 그래픽 로그 파일 재생 시 WARP를 사용하거나 WARP에서 캡처된 로그 재생 시 하드웨어 디바이스를 사용하도록 강제 지정할 수 있습니다. 사용 하 여 `-warp` WARP를 사용 하 여 다시 재생 합니다.  
   
 ```ms-dos  
 DXCap.exe –p regression_test_12.vsglog -warp  
