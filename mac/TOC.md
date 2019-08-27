@@ -31,6 +31,7 @@
 # 소스 편집기
 ## [편집기 기능](source-editor.md)
 ## [리팩터링](refactoring.md)
+## [IntelliSense](intellisense.md)
 ## [설명](comments.md)
 ## [편집기 동작](editor-behavior.md)
 ## [작업 설명](task-comments.md)
