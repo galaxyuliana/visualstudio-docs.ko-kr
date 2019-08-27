@@ -22,6 +22,7 @@
 #### [구독자 데이터 익명화](anonymization.md)
 ### [구독 포털 개요](using-the-subscriber-portal.md)
 ### [구독 관리](manage-vs-subscriptions.md)
+### [구독 관리자에게 문의](contact-my-admin.md)
 ### 이점
 #### 도구
 ##### [Azure 크레딧](vs-azure.md)
@@ -58,17 +59,22 @@
 #### [키 찾기 및 클레임](find-keys.md)
 #### [인터넷 데모](internet-demos.md)
 ## 관리자
-### [관리자 책임](admin-responsibilities.md)
+### 관리자 책임
+#### [관리자 책임](admin-responsibilities.md)
 #### [사전 프로덕션 인벤토리](admin-inventory.md)
 #### [대규모 팀 및 외부 계약업체 관리](manage-teams.md)
 #### [사용자 할당 추적 및 주문 처리](assignments-orders.md)
-### 조직 온보딩
-#### [오픈 및 오픈 라이선스 마이그레이션](open-migration.md)
+### 관리 포털 액세스
+#### [볼륨 라이선스](volume-license.md)
 #### [MPSA](mpsa.md)
 #### [클라우드 구독](cloud-admin.md)
-#### [온보딩 비디오](https://youtu.be/plSu6fpi7UI)
+#### [고객을 위해 관리하는 파트너](open-migration.md)
+#### [비디오 자습서: 관리 포털 액세스](https://youtu.be/plSu6fpi7UI)
 ### 관리 포털 사용
+#### [슈퍼 관리자 및 관리자](admin-roles.md)
+#### [계약 기본 설정 지정](admin-prefs.md)
 #### [개요](using-admin-portal.md)
+#### [비디오 자습서: 관리 포털 사용](https://www.youtube.com/watch?v=XG-E-IDjA-w&list=PLReL099Y5nReJhZ6o8CQFPSBgzGCHX99_&index=3&t=0s)
 #### 구독 할당
 ##### [단일 사용자 추가](assign-license.md)
 ##### [여러 사용자 추가](assign-license-bulk.md)
@@ -81,7 +87,7 @@
 #### [만료된 구독](handle-expired-license.md)
 #### [별칭을 사용하는 구독자](aliasing.md)
 #### [개인 전자 메일 로그인을 사용하는 구독자](personal-email-sign-ins.md)
-### [GitHub Enterprise가 포함된 Visual Studio 관리](assign-github.md)
+#### [GitHub Enterprise가 포함된 Visual Studio 관리](assign-github.md)
 ## 자료
 ### [Visual Studio 라이선스 백서](https://aka.ms/vslicensing)
 ### [구독 옵션 및 가격 비교](https://visualstudio.microsoft.com/vs/pricing)
