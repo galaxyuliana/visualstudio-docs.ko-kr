@@ -31,7 +31,7 @@ ms.locfileid: "67399027"
  다음 섹션에서는 Authenticode에 사용되는 서로 다른 유형의 디지털 인증서, CA(인증 기관)를 사용하여 인증서를 검증하는 방법, 인증서에서 타임스탬프의 역할, 인증서에 사용할 수 있는 스토리지의 메서드에 대해 설명합니다.
 
 ## <a name="authenticode-and-code-signing"></a>Authenticode 및 코드 서명
- *디지털 인증서* 란 인증서가 발급된 게시자 및 인증서를 발급한 기관에 대해 설명하는 메타데이터와 함께 공개/개인 암호화 키 쌍을 포함하는 파일입니다.
+ *디지털 인증서* 란 인증서가 발급된 게시자 및 인증서를 발급한 기관에 대해 설명하는 메타데이터와 함께 퍼블릭/퍼블릭 암호화 키 쌍을 포함하는 파일입니다.
 
  다양한 유형의 Authenticode 인증서가 있습니다. 각 인증서는 서로 다른 서명 유형에 맞게 구성되어 있습니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램의 경우 코드 서명을 위한 유효한 Authenticode 인증서가 반드시 필요합니다. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 응용 프로그램에 다른 유형의 인증서(예: 디지털 전자 메일 인증서)로 서명하려고 시도하면 작동하지 않습니다. 자세한 내용은 [코드 서명 소개](https://docs.microsoft.com/windows/desktop/seccrypto/cryptography-tools)를 참조하세요.
 
@@ -44,7 +44,7 @@ ms.locfileid: "67399027"
 - New-selfsignedcertificate PowerShell cmdlet을 사용 하거나 사용 하 여 사용자 고유의 인증서를 생성 *MakeCert.exe*에 포함 되어 있는 [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]입니다.
 
 ### <a name="how-using-certificate-authorities-helps-users"></a>인증 기관 사용이 사용자에게 도움이 되는 방법
- New-selfsignedcertificate를 사용 하 여 생성 된 인증서 또는 *MakeCert.exe* 유틸리티 라고는 *자체 인증서* 또는 *테스트 인증서*합니다. 이런이 종류의 인증서 동일 하 게 훨씬 작동 방식으로 *.snk* 파일은.NET Framework에서 작동 합니다. 공개/개인 암호화 키 쌍으로만 구성되어 있으며 게시자에 대한 확인 가능한 정보가 포함되어 있지 않습니다. 신뢰 수준이 높은 인트라넷에서 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 배포하는 경우 자체 서명 인증서를 사용할 수 있습니다. 그러나 이러한 응용 프로그램을 클라이언트 컴퓨터에서 실행하면 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]는 이를 알 수 없는 게시자에서 온 것으로 식별합니다. 기본적으로 자체 인증서로 서명되고 인터넷을 통해 배포된 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션은 신뢰할 수 있는 애플리케이션 배포를 사용할 수 없습니다.
+ New-selfsignedcertificate를 사용 하 여 생성 된 인증서 또는 *MakeCert.exe* 유틸리티 라고는 *자체 인증서* 또는 *테스트 인증서*합니다. 이런이 종류의 인증서 동일 하 게 훨씬 작동 방식으로 *.snk* 파일은.NET Framework에서 작동 합니다. 퍼블릭/퍼블릭 암호화 키 쌍으로만 구성되어 있으며 게시자에 대한 확인 가능한 정보가 포함되어 있지 않습니다. 신뢰 수준이 높은 인트라넷에서 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션을 배포하는 경우 자체 서명 인증서를 사용할 수 있습니다. 그러나 이러한 응용 프로그램을 클라이언트 컴퓨터에서 실행하면 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]는 이를 알 수 없는 게시자에서 온 것으로 식별합니다. 기본적으로 자체 인증서로 서명되고 인터넷을 통해 배포된 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] 애플리케이션은 신뢰할 수 있는 애플리케이션 배포를 사용할 수 없습니다.
 
  반면, 인증서 공급업체와 같은 CA 또는 기업 내 부서로부터 인증서를 받아 사용하면 사용자에게 더 나은 보안을 제공할 수 있습니다. 이러한 인증서는 서명된 소프트웨어의 게시자를 식별하는 것은 물론 서명한 CA를 통해 해당 ID의 유효성을 확인합니다. CA가 루트 인증 기관이 아닌 경우 Authenticode는 루트 인증 기관에 다시 "연결"하여, 해당 CA가 인증서를 발급할 권한이 있는 곳인지를 확인합니다. 보안을 강화하려면 가능한 경우에는 언제든 CA에서 발급한 인증서를 사용해야 합니다.
 

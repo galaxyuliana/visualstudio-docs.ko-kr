@@ -32,7 +32,7 @@ ms.locfileid: "65674983"
  Visual Studio에서 지역화된 리소스가 저장 및 액세스되는 방식을 설명합니다.  
   
  [보안 및 지역화된 위성 어셈블리](../ide/security-and-localized-satellite-assemblies.md)  
- 공개-개인 키 쌍으로 위성 어셈블리에 서명하는 방법을 설명합니다.  
+ 퍼블릭-프라이빗 키 쌍으로 위성 어셈블리에 서명하는 방법을 설명합니다.  
   
  [주 어셈블리 및 지역화된 위성 어셈블리의 버전 번호](../ide/version-numbers-for-main-and-localized-satellite-assemblies.md)  
  어떤 위성 어셈블리가 애플리케이션의 주 어셈블리에 적용되는지 결정하는 <xref:System.Resources.SatelliteContractVersionAttribute> 클래스를 소개합니다.  

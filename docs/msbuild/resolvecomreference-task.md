@@ -39,8 +39,8 @@ ms.locfileid: "68681106"
 |`EnvironmentVariables`|선택적 `String[]` 매개 변수입니다.<br /><br /> 등호로 구분된 환경 변수 쌍의 배열입니다. 이러한 변수는 생성된 *tlbimp.exe* 및 *aximp.exe*에 전달되면서 일반 환경 블록에 추가되거나 일부 일반 환경 블록을 재정의합니다.|
 |`ExecuteAsTool`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`이면 해당 대상 프레임워크 out-of-proc에서 *tlbimp.exe* 및 *aximp.exe*를 실행하여 필요한 래퍼 어셈블리를 생성합니다. 이 매개 변수는 멀티 타기팅을 허용합니다.|
 |`IncludeVersionInInteropName`|선택적 `Boolean` 매개 변수입니다.<br /><br /> `true`인 경우 typelib 버전이 래퍼 이름이 포함됩니다. 기본값은 `false`입니다.|
-|`KeyContainer`|선택적 `String` 매개 변수입니다.<br /><br /> 공개/개인 키 쌍을 보관할 컨테이너를 지정합니다.|
-|`KeyFile`|선택적 `String` 매개 변수입니다.<br /><br /> 공개/개인 키 쌍을 포함할 항목을 지정합니다.|
+|`KeyContainer`|선택적 `String` 매개 변수입니다.<br /><br /> 퍼블릭/프라이빗 키 쌍을 보관할 컨테이너를 지정합니다.|
+|`KeyFile`|선택적 `String` 매개 변수입니다.<br /><br /> 퍼블릭/프라이빗 키 쌍을 포함할 항목을 지정합니다.|
 |`NoClassMembers`|선택적 `Boolean` 매개 변수입니다.|
 |`ResolvedAssemblyReferences`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 확인된 어셈블리 참조를 지정합니다.|
 |`ResolvedFiles`|선택적 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 출력 매개 변수입니다.<br /><br /> 디스크에서 이 작업에 대한 입력으로 제공된 형식 라이브러리의 물리적 위치에 해당하는 정규화된 파일을 지정합니다.|
