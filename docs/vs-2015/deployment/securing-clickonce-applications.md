@@ -53,7 +53,7 @@ ms.locfileid: "65686017"
  코드 액세스 보안 및 ClickOnce에 대한 자세한 내용은 [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)을(를) 참조하세요.  
   
 ## <a name="code-signing-certificates"></a>코드 서명 인증서  
- [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 사용하여 응용 프로그램을 게시하려면 공개/전용 키 쌍을 사용하여 응용 프로그램과 해당 응용 프로그램의 배포 매니페스트에 서명합니다. 매니페스트에 서명하는 도구는 **프로젝트 디자이너** 의 **서명**페이지에서 사용할 수 있습니다. 자세한 내용은 [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md)을 참조하십시오. 또는 게시 마법사를 사용하여 게시 프로세스 동안 키 파일로 매니페스트를 서명할 수 있습니다.  
+ [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] 배포를 사용하여 애플리케이션을 게시하려면 퍼블릭/전용 키 쌍을 사용하여 애플리케이션과 해당 애플리케이션의 배포 매니페스트에 서명합니다. 매니페스트에 서명하는 도구는 **프로젝트 디자이너** 의 **서명**페이지에서 사용할 수 있습니다. 자세한 내용은 [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md)을 참조하십시오. 또는 게시 마법사를 사용하여 게시 프로세스 동안 키 파일로 매니페스트를 서명할 수 있습니다.  
   
  매니페스트에 서명한 후에는 설치 시 Authenticode 서명 기반의 게시자 정보가 권한 대화 상자에 표시되어 애플리케이션의 출처를 신뢰할 수 있음을 보여 줍니다.  
   

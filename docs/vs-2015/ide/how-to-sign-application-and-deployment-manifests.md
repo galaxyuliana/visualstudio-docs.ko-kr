@@ -28,13 +28,13 @@ ms.locfileid: "65685434"
 # <a name="how-to-sign-application-and-deployment-manifests"></a>방법: 로그인 응용 프로그램 및 배포 매니페스트
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-ClickOnce 배포를 사용하여 애플리케이션을 게시하려면 애플리케이션 및 배포 매니페스트가 공개/개인 키 쌍으로 서명되고 Authenticode 기술로 서명되어야 합니다. Windows 인증서 저장소의 인증서 또는 키 파일을 사용하여 매니페스트에 서명할 수 있습니다.  
+ClickOnce 배포를 사용하여 애플리케이션을 게시하려면 애플리케이션 및 배포 매니페스트가 퍼블릭/프라이빗 키 쌍으로 서명되고 Authenticode 기술로 서명되어야 합니다. Windows 인증서 저장소의 인증서 또는 키 파일을 사용하여 매니페스트에 서명할 수 있습니다.  
   
  ClickOnce 배포에 대한 자세한 내용은 [ClickOnce 보안 및 배포](../deployment/clickonce-security-and-deployment.md)를 참조하세요.  
   
  .exe 기반 애플리케이션의 경우 ClickOnce 매니페스트에 서명하는 것은 선택 사항입니다. 자세한 내용은 이 문서에서 "서명되지 않은 매니페스트 생성" 섹션을 참조하세요.  
   
- 키 파일을 만드는 방법은 [방법: 공개/개인 키 쌍 만들기](https://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114)를 참조하세요.  
+ 키 파일을 만드는 방법은 [방법: 퍼블릭/프라이빗 키 쌍 만들기](https://msdn.microsoft.com/library/05026813-f3bd-4d7c-9e0b-fc588eb3d114)를 참조하세요.  
   
 > [!NOTE]
 > [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]에서는 .pfx 확장명을 가진 PFX(개인 정보 교환) 키 파일만 지원합니다. 그러나 프로젝트 속성의 **서명** 페이지에서 **저장소에서 선택**을 클릭하여 현재 사용자의 Windows 인증서 저장소에서 다른 형식의 인증서를 선택할 수 있습니다.  

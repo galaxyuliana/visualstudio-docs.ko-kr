@@ -26,7 +26,7 @@ ms.locfileid: "62810191"
 
 ## <a name="install-an-ssl-certificate"></a>SSL 인증서 설치
 
-RTVS를 사용하려면 원격 서버와의 모든 통신이 HTTP를 통해 수행되어야 하며 이를 위해 서버에 SSL 인증서가 있어야 합니다. 신뢰할 수 있는 인증 기관에서 서명한 인증서(권장) 또는 자체 서명된 인증서를 사용할 수 있습니다. (자체 서명된 인증서를 사용할 경우 RTVS에서 연결 시 경고를 실행합니다.) 한 인증서를 준비하면 인증서를 컴퓨터에 설치하고 개인 키에 대한 액세스를 허용해야 합니다.
+RTVS를 사용하려면 원격 서버와의 모든 통신이 HTTP를 통해 수행되어야 하며 이를 위해 서버에 SSL 인증서가 있어야 합니다. 신뢰할 수 있는 인증 기관에서 서명한 인증서(권장) 또는 자체 서명된 인증서를 사용할 수 있습니다. (자체 서명된 인증서를 사용할 경우 RTVS에서 연결 시 경고를 실행합니다.) 한 인증서를 준비하면 인증서를 컴퓨터에 설치하고 프라이빗 키에 대한 액세스를 허용해야 합니다.
 
 ### <a name="obtain-a-trusted-certificate"></a>신뢰할 수 있는 인증서 가져오기
 
@@ -71,16 +71,16 @@ SSL 인증서를 Windows에서 수동으로 설치해야 합니다. 다음 지�
 
 ![인증서 가져오기 명령](media/workspaces-remote-certificate-import.png)
 
-### <a name="grant-permissions-to-read-the-ssl-certificates-private-key"></a>SSL 인증서의 개인 키를 읽을 권한 부여
+### <a name="grant-permissions-to-read-the-ssl-certificates-private-key"></a>SSL 인증서의 프라이빗 키를 읽을 권한 부여
 
-인증서를 가져온 후 다음 지침에 설명된 대로 `NETWORK SERVICE` 계정에 개인 키를 읽을 수 있는 권한을 부여합니다. `NETWORK_SERVICE`는 서버 컴퓨터에 들어오는 SSL 연결을 종료하는 서비스인 R Services Broker를 실행하는 데 사용되는 계정입니다.
+인증서를 가져온 후 다음 지침에 설명된 대로 `NETWORK SERVICE` 계정에 프라이빗 키를 읽을 수 있는 권한을 부여합니다. `NETWORK_SERVICE`는 서버 컴퓨터에 들어오는 SSL 연결을 종료하는 서비스인 R Services Broker를 실행하는 데 사용되는 계정입니다.
 
 1. 관리자 명령 프롬프트에서 *certlm.msc*(인증서 관리자)를 실행합니다.
-1. **개인** > **인증서**를 확장하고, 인증서를 마우스 오른쪽 단추로 클릭하고, **모든 작업** > **개인 키 관리**를 선택합니다.
-1. 인증서를 마우스 오른쪽 단추로 클릭하고 **모든 작업**에서 **개인 키 관리** 명령을 선택합니다.
+1. **개인** > **인증서**를 확장하고, 인증서를 마우스 오른쪽 단추로 클릭하고, **모든 작업** > **프라이빗 키 관리**를 선택합니다.
+1. 인증서를 마우스 오른쪽 단추로 클릭하고 **모든 작업**에서 **프라이빗 키 관리** 명령을 선택합니다.
 1. 대화 상자가 나타나면 **추가**를 선택하고 계정 이름으로 `NETWORK SERVICE`를 입력합니다.
 
-    ![개인 키 관리 대화 상자에서 NETWORK_SERVICE 추가](media/workspaces-remote-manage-private-key-dialog.png)
+    ![프라이빗 키 관리 대화 상자에서 NETWORK_SERVICE 추가](media/workspaces-remote-manage-private-key-dialog.png)
 
 1. **확인**을 두 번 선택하여 대화 상자를 닫고 변경 내용을 커밋합니다.
 
@@ -217,7 +217,7 @@ R 코드를 실행하려면 다음과 같이 원격 컴퓨터에 R 인터프리�
 
 가능한 두 가지 이유는 다음과 같습니다.
 
-- `NETWORK SERVICE` 계정에는 SSL 인증서의 개인 키에 대한 액세스 권한이 없을 수 있습니다. 이전 지침에 따라 `NETWORK SERVICE`에 개인 키에 대한 액세스 권한을 부여합니다.
+- `NETWORK SERVICE` 계정에는 SSL 인증서의 프라이빗 키에 대한 액세스 권한이 없을 수 있습니다. 이전 지침에 따라 `NETWORK SERVICE`에 프라이빗 키에 대한 액세스 권한을 부여합니다.
 - `seclogon` 서비스가 실행 중인지 확인합니다. *services.msc*를 사용하여 `seclogon`이 자동으로 시작되도록 구성합니다.
 
 **질문: R 서버에 연결하는 동안 R 대화형 창에 “404 찾을 수 없음”이 표시되는 이유는 무엇인가요?**
