@@ -6,12 +6,12 @@ description: Visual Studio 제품군을 살펴보십시오.
 ms.topic: landing-page
 ms.date: 07/02/2019
 searchScope: []
-ms.openlocfilehash: 41dd59cf67be1a476707a7ed3a18a263132fbfca
-ms.sourcegitcommit: 32144a09ed46e7223ef7dcab647a9f73afa2dd55
+ms.openlocfilehash: 82cff703b1ef538267c0d1b34d82111576cf66da
+ms.sourcegitcommit: 8a699df154464387f327691dce507d7c3d0e2aab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67586782"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "70060429"
 ---
 <!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
@@ -82,7 +82,7 @@ ms.locfileid: "67586782"
                                 </a>
                             </li>
                             <li>
-                                <a href="/appcenter/" title="Visual Studio 앱 센터">
+                                <a href="/appcenter/" title="Visual Studio App Center">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -101,7 +101,7 @@ ms.locfileid: "67586782"
                                 </a>
                             </li>
                             <li>
-                                <a href="/visualstudio/subscriptions/" title="Visual Studio Subscription">
+                                <a href="/visualstudio/subscriptions/" title="Visual Studio 구독">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -119,49 +119,10 @@ ms.locfileid: "67586782"
                                     </div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="/azure/devops/" title="Azure DevOps Services">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="Azure DevOps Services - formerly Visual Studio Team Services (VSTS)" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Azure DevOps Services</h3>
-                                                    <p>Agile 프로젝트 도구 및 보고서를 사용하여 팀 생산성을 높일 수 있습니다. 최신 CI/CD 도구를 사용하여 소스 제어에서 프로젝트를 빌드, 테스트 및 배포합니다.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/tfs/" title="Azure DevOps Server">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="Azure DevOps Server - formerly Team Foundation Server (TFS)" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Azure DevOps Server</h3>
-                                                    <p>온-프레미스 배포를 설치, 업그레이드, 관리합니다.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
                         </ul>
                     </li>
                 </ul>
             </li>
         </ul>
-        <p>Visual Studio Team Services는 Azure DevOps Services로 대체되고, TFS(Team Foundation Server)는 Azure DevOps Server로 이름이 바뀌었습니다. <a href="/azure/devops/user-guide/what-happened-vsts?view=vsts">What happened to Visual Studio Team Services?</a>(Visual Studio Team Services의 변경 내용) 및 <a href="/tfs/server/tfs-is-now-azure-devops-server">Team Foundation Server is now Azure DevOps Server</a>(Team Foundation Server에서 Azure DevOps Server로 변경)를 참조하세요.</p>
     </div>
 </div>
