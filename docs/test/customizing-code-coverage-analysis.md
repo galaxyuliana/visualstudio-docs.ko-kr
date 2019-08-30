@@ -1,18 +1,18 @@
 ---
 title: 코드 검사 분석 사용자 지정
-ms.date: 11/04/2016
+ms.date: 08/21/2019
 ms.topic: conceptual
 ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
 author: gewarren
-ms.openlocfilehash: 5bd7fa0bcff67573e61d40a2172e17620910a421
-ms.sourcegitcommit: 5b34052a1c7d86179d7898ed532babb2d9dad4a3
+ms.openlocfilehash: e78487628a7604245d59f44220b91be73249e7fb
+ms.sourcegitcommit: f42b5318c5c93e2b5ecff44f408fab8bcdfb193d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490623"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "69976767"
 ---
 # <a name="customize-code-coverage-analysis"></a>코드 검사 분석 사용자 지정
 
@@ -34,13 +34,13 @@ ms.locfileid: "69490623"
 
 ::: moniker range="vs-2017"
 
-3. 실행 설정 파일을 선택하려면 **테스트** 메뉴에서 **테스트 설정** > **테스트 설정 파일 선택**을 선택합니다. 명령줄 또는 빌드 워크플로에서 테스트를 실행하기 위한 실행 설정 파일을 지정하려면 [ *.runsettings* 파일을 사용하여 단위 데스트 구성](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file)을 참조하세요.
+3. 실행 설정 파일을 선택하려면 **테스트** 메뉴에서 **테스트 설정** > **테스트 설정 파일 선택**을 선택합니다. 명령줄에서 테스트를 실행하기 위한 실행 설정 파일을 지정하려면 [단위 테스트 구성](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line)을 참조하세요.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-3. 실행 설정 파일을 선택하려면 **테스트 탐색기**의 **설정** 단추에서 화살표를 선택하고 **설정 파일 선택**을 선택합니다. 명령줄 또는 빌드 워크플로에서 테스트를 실행하기 위한 실행 설정 파일을 지정하려면 [ *.runsettings* 파일을 사용하여 단위 데스트 구성](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file)을 참조하세요.
+3. 실행 설정 파일을 선택하려면 **테스트 탐색기**의 **설정** 단추에서 화살표를 선택하고 **설정 파일 선택**을 선택합니다. 명령줄에서 테스트를 실행하기 위한 실행 설정 파일을 지정하려면 [단위 테스트 구성](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line)을 참조하세요.
 
 ::: moniker-end
 
@@ -53,7 +53,7 @@ ms.locfileid: "69490623"
 
 사용자 지정 설정을 해제했다 다시 사용하도록 설정하려면 **테스트** > **테스트 설정** 메뉴에서 파일을 선택 취소 또는 선택합니다.
 
-![사용자 지정 설정 파일로 설정 메뉴 테스트](../test/media/codecoverage-settingsfile.png)
+![Visual Studio 2017에서 사용자 지정 설정 파일이 있는 테스트 설정 메뉴](../test/media/codecoverage-settingsfile.png)
 
 ::: moniker-end
 
@@ -65,7 +65,7 @@ ms.locfileid: "69490623"
 
 ### <a name="specify-symbol-search-paths"></a>기호 검색 경로 지정
 
-코드 검사에는 어셈블리에 대한 기호 파일( *.pdb* 파일)이 필요합니다. 솔루션에서 빌드한 어셈블리의 경우 기호 파일은 대개 이진 파일과 함께 있으며 코드 검사는 자동으로 실행됩니다. 하지만 코드 검사 분석에 참조된 어셈블리를 포함하려는 경우가 있습니다. 이런 경우에 *.pdb* 파일이 이진 파일과 가깝지 않을 수 있지만 *.runsettings* 파일에서 기호 검색 경로를 지정할 수 있습니다.
+코드 검사에는 어셈블리에 대한 기호 파일( *.pdb* 파일)이 필요합니다. 솔루션에서 빌드한 어셈블리의 경우 기호 파일은 대개 이진 파일과 함께 있으며 코드 검사는 자동으로 실행됩니다. 코드 검사 분석에 참조된 어셈블리를 포함하려는 경우가 있습니다. 이런 경우에 *.pdb* 파일이 이진 파일과 가깝지 않을 수 있지만 *.runsettings* 파일에서 기호 검색 경로를 지정할 수 있습니다.
 
 ```xml
 <SymbolSearchPaths>
@@ -101,13 +101,11 @@ ms.locfileid: "69490623"
 </ModulePaths>
 ```
 
-**Include**가 비어 있을 경우, 코드 검사 처리에는 로드된 모든 어셈블리 및 *.pdb* 파일이 검색되는 모든 어셈블리가 포함됩니다. 코드 검사에는 **Exclude** 목록의 절과 일치하는 항목이 포함되지 않습니다.
-
-**Include**는 **Exclude** 전에 처리됩니다.
+**Include**가 비어 있을 경우 코드 검사 처리에는 로드된 모든 어셈블리 및 *.pdb* 파일이 검색되는 모든 어셈블리가 포함됩니다. 코드 검사에는 **Exclude** 목록의 절과 일치하는 항목이 포함되지 않습니다. **Include**는 **Exclude** 전에 처리됩니다.
 
 ### <a name="regular-expressions"></a>정규식
 
-Include 및 exclude 노드는 정규식을 사용합니다. 자세한 내용은 [Visual Studio에서 정규식 사용](../ide/using-regular-expressions-in-visual-studio.md)을 참조하세요. 정규식은 와일드카드와 다릅니다. 특히 다음과 같습니다.
+Include 및 Exclude 노드는 와일드카드와 동일하지 않은 정규식을 사용합니다. 자세한 내용은 [Visual Studio에서 정규식 사용](../ide/using-regular-expressions-in-visual-studio.md)을 참조하세요. 일부 사례:
 
 - **.\*** 은(는) 모든 문자의 문자열과 일치합니다.
 
@@ -153,7 +151,10 @@ Include 및 exclude 노드는 정규식을 사용합니다. 자세한 내용은 
 
 - **소스** – 요소를 소스 파일이 정의된 경로 이름으로 일치시킵니다.
 
-- **특성** – 특정 특성이 연결된 요소에 일치시킵니다. 특성의 전체 이름을 지정하고 이름 끝의 "특성"을 포함합니다.
+- **특성** – 특정 특성이 연결된 요소에 일치시킵니다. 특성의 전체 이름을 지정합니다(예: `<Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>`).
+
+  > [!TIP]
+  > <xref:System.Runtime.CompilerServices.CompilerGeneratedAttribute> 특성을 제외하면 `async`, `await`, `yield return` 및 자동 구현 속성과 같은 언어 기능을 사용하는 코드가 코드 검사 분석에서 제외됩니다. 실제로 생성된 코드를 제외하려면 <xref:System.CodeDom.Compiler.GeneratedCodeAttribute> 특성만 제외합니다.
 
 - **함수** – 절차, 함수 또는 메서드를 정규화된 이름으로 일치시킵니다. 함수 이름을 일치시키려면 정규식은 네임스페이스, 클래스 이름, 메서드 이름, 매개 변수 목록을 포함한 함수의 정규화된 이름과 일치해야 합니다. 예:
 
@@ -243,9 +244,8 @@ Included items must then not match any entries in the exclude list to remain inc
                 <!-- Don't forget "Attribute" at the end of the name -->
                 <Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>
                 <Attribute>^System\.Diagnostics\.DebuggerNonUserCodeAttribute$</Attribute>
-                <Attribute>^System\.Runtime\.CompilerServices.CompilerGeneratedAttribute$</Attribute>
-                <Attribute>^System\.CodeDom\.Compiler.GeneratedCodeAttribute$</Attribute>
-                <Attribute>^System\.Diagnostics\.CodeAnalysis.ExcludeFromCodeCoverageAttribute$</Attribute>
+                <Attribute>^System\.CodeDom\.Compiler\.GeneratedCodeAttribute$</Attribute>
+                <Attribute>^System\.Diagnostics\.CodeAnalysis\.ExcludeFromCodeCoverageAttribute$</Attribute>
               </Exclude>
             </Attributes>
 

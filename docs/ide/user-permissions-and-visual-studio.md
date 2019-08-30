@@ -12,12 +12,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 1d012c0902aa82eb057f9d69c0b85b13262e847a
-ms.sourcegitcommit: 5483e399f14fb01f528b3b194474778fd6f59fa6
+ms.openlocfilehash: 97ecddfa317eb522a8ce29a53482df5581912dad
+ms.sourcegitcommit: 673b9364fc9a96b027662dcb4cf5d61cab60ef11
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66747629"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "69891240"
 ---
 # <a name="user-permissions-and-visual-studio"></a>사용자 권한 및 Visual Studio
 
@@ -40,7 +40,8 @@ Visual Studio IDE에서 일반 사용자로 거의 모든 작업을 수행할 �
 ||XBAP(XAML 브라우저 애플리케이션) 영역에서 디버깅합니다.|[WPF 호스트(PresentationHost.exe)](/dotnet/framework/wpf/app-development/wpf-host-presentationhost-exe)|
 ||에뮬레이터를 사용하여 Microsoft Azure용 클라우드 서비스 프로젝트를 디버깅합니다.|[Visual Studio에서 클라우드 서비스 디버깅](/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
 ||원격 디버깅을 위한 방화벽을 구성합니다.|[원격 디버깅](../debugger/remote-debugging.md)|
-|성능 도구|애플리케이션 프로파일링|[초보자를 위한 성능 프로파일링 지침](../profiling/beginners-guide-to-performance-profiling.md)|
+|성능 도구|관리자 권한으로 실행하는 애플리케이션에 연결합니다.|[초보자를 위한 성능 프로파일링 지침](../profiling/beginners-guide-to-performance-profiling.md)|
+||GPU 프로파일러를 사용합니다.|[GPU 프로파일링](../profiling/gpu-usage.md)|
 |배포|로컬 컴퓨터에서 IIS(인터넷 정보 서비스)에 웹 애플리케이션을 배포합니다.|[Visual Studio를 사용하여 ASP.NET 웹앱 배포](/aspnet/web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/)|
 
 ## <a name="run-visual-studio-as-an-administrator"></a>관리자 권한으로 Visual Studio 실행

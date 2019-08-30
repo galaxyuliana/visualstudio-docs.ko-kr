@@ -18,12 +18,12 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 01ccad0c1cdcde27d1d43b832ce7e4ca4da7b716
-ms.sourcegitcommit: 85d66dc9fea3fa49018263064876b15aeb6f9584
+ms.openlocfilehash: 5c3456ab48822873fb51ad8614ff9a6dd5f07598
+ms.sourcegitcommit: f42b5318c5c93e2b5ecff44f408fab8bcdfb193d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68461597"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "69976707"
 ---
 # <a name="how-to-sign-application-and-deployment-manifests"></a>방법: 애플리케이션 및 배포 매니페스트 서명
 
@@ -47,7 +47,7 @@ ClickOnce 배포에 대한 자세한 내용은 [ClickOnce 보안 및 배포](../
      **인증서 선택** 대화 상자가 나타나고 Windows 인증서 저장소의 콘텐츠가 표시됩니다.
 
     > [!TIP]
-    > **인증서 속성을 보려면 여기를 클릭하십시오.** 를 클릭하면 **인증서 세부 정보** 대화 상자가 나타납니다. 이 대화 상자에는 인증서에 대한 세부 정보 및 추가 옵션이 포함됩니다. **인증서**를 클릭하여 추가 도움말 정보를 볼 수 있습니다.
+    > **인증서 속성을 보려면 여기를 클릭하십시오.** 를 클릭하면 **인증서 세부 정보** 대화 상자가 나타납니다. 이 대화 상자에는 인증서에 대한 세부 정보 및 추가 옵션이 포함됩니다. **인증서**를 클릭하여 추가 도움말 정보를 확인합니다.
 
 3. 매니페스트에 서명하는 데 사용할 인증서를 선택합니다.
 
@@ -68,7 +68,10 @@ ClickOnce 배포에 대한 자세한 내용은 [ClickOnce 보안 및 배포](../
 
      **파일을 여는 데 필요한 암호 입력** 대화 상자가 나타납니다. ( *.pfx* 파일이 이미 Windows 인증서 저장소에 저장되거나 암호로 보호되지 않는 경우에는 암호 입력 프롬프트가 표시되지 않습니다.)
 
-4. 암호를 입력하여 키 파일에 액세스하고 **Enter** 키를 누릅니다.
+4. 암호를 입력하여 키 파일에 액세스한 후 **Enter** 키를 선택합니다.
+
+> [!NOTE]
+> *.pfx* 파일에는 인증서 연결 정보가 포함될 수 없습니다. 포함되는 경우 다음 가져오기 오류가 발생합니다. **암호 해독용 인증서 및 프라이빗 키를 찾을 수 없습니다**.
 
 ## <a name="sign-using-a-test-certificate"></a>테스트 인증서를 사용하여 서명
 

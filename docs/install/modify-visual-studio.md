@@ -3,7 +3,7 @@ title: Visual Studio 수정
 titleSuffix: ''
 description: Visual Studio를 수정하는 방법을 단계별로 알아봅니다.
 ms.custom: H1Hack27Feb2017,seodec18
-ms.date: 07/31/2019
+ms.date: 08/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - modify Visual Studio
@@ -18,12 +18,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: ad5b8a0c261ed967710480b0abd3a2b9d34f01ce
-ms.sourcegitcommit: 5694c5236fa32ba7f5bc1236a853f725ec7557e9
+ms.openlocfilehash: a97db7e6b81eb9e807902d1b9bd0ea8ee6efa55e
+ms.sourcegitcommit: 0bd63f3bc429ae059b9df6e45c6b8dcae6152940
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "68681381"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70026483"
 ---
 # <a name="modify-visual-studio-by-adding-or-removing-workloads-and-components"></a>워크로드와 구성 요소를 추가하거나 제거하여 Visual Studio 수정
 
@@ -41,15 +41,17 @@ Visual Studio를 쉽게 수정할 수 있어 원하는 때에 원하는 대로 �
 
 방법은 다음과 같습니다.
 
-## <a name="modify-workloads"></a>작업 수정
-
- 작업에는 사용 중인 프로그래밍 언어 또는 플랫폼에 필요한 기능이 포함되어 있습니다. 작업을 사용하여 원하는 시기에 원하는 작업을 지원하도록 Visual Studio를 수정할 수 있습니다.
-
 >[!IMPORTANT]
 >Visual Studio를 설치, 업데이트 또는 수정하려면 관리 권한이 있는 계정으로 로그온해야 합니다. 자세한 내용은 [사용자 권한 및 Visual Studio](../ide/user-permissions-and-visual-studio.md)를 참조하세요.
 
->[!TIP]
-> 다음 절차에서는 인터넷 연결이 있다고 가정합니다. 이전에 만든 Visual Studio [오프라인 설치](create-an-offline-installation-of-visual-studio.md)를 수정하는 방법에 대한 자세한 내용은 [네트워크 기반 Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md) 페이지를 참조하세요.
+## <a name="modify-workloads"></a>작업 수정
+
+ [워크로드](https://visualstudio.microsoft.com/vs/visual-studio-workloads/)에는 사용 중인 프로그래밍 언어 또는 플랫폼에 필요한 기능이 포함됩니다. 작업을 사용하여 원하는 시기에 원하는 작업을 지원하도록 Visual Studio를 수정할 수 있습니다.
+
+>[!NOTE]
+> 다음 절차에서는 인터넷 연결이 있다고 가정합니다.
+>
+> 이전에 만든 Visual Studio [오프라인 설치](create-an-offline-installation-of-visual-studio.md)를 수정하는 방법에 대한 자세한 내용은 [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md) 페이지와 [네트워크 기반 Visual Studio 배포에 대한 업데이트 제어](controlling-updates-to-visual-studio-deployments.md) 페이지를 참조하세요.
 
 ::: moniker range="vs-2017"
 
@@ -59,7 +61,7 @@ Visual Studio를 쉽게 수정할 수 있어 원하는 때에 원하는 대로 �
 
      ![Visual Studio 설치 관리자](media/vs2017-locate-the-visual-studio-installer.PNG "Microsoft Visual Studio 설치 관리자 찾기")
 
-     >[!NOTE]
+     >[!TIP]
      >일부 컴퓨터에서는 Visual Studio 설치 관리자가 **Microsoft Visual Studio 설치 관리자**로 문자 **“M”** 아래에 나열될 수 있습니다.<br/><br/> 또는 다음 위치에서 Visual Studio 설치 관리자를 찾을 수 있습니다.`C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
 
 1. 설치 관리자를 클릭하거나 탭한 다음, **수정**을 선택합니다.
@@ -117,12 +119,14 @@ Visual Studio를 쉽게 수정할 수 있어 원하는 때에 원하는 대로 �
 
 ## <a name="modify-individual-components"></a>개별 구성 요소 수정
 
-Visual Studio 설치를 사용자 지정하기 위해 워크로드를 설치하지 않으려면 Visual Studio 설치 관리자에서 **개별 구성 요소** 탭을 선택하고 원하는 항목을 선택한 다음, 표시되는 메시지를 따릅니다.
+Visual Studio 설치를 사용자 지정하기 위해 [워크로드](https://visualstudio.microsoft.com/vs/visual-studio-workloads/)를 설치하지 않으려면 Visual Studio 설치 관리자에서 **개별 구성 요소** 탭을 선택하고 원하는 항목을 선택한 다음, 표시되는 메시지를 따릅니다.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## <a name="see-also"></a>참고 항목
 
+* [Visual Studio 워크로드에 대한 자세한 정보](https://visualstudio.microsoft.com/vs/visual-studio-workloads/)
+* [Visual Studio 워크로드 및 구성 요소 ID 목록](workload-and-component-ids.md)
 * [Visual Studio 업데이트](update-visual-studio.md)
 * [Visual Studio의 네트워크 기반 설치 업데이트](update-a-network-installation-of-visual-studio.md)
 * [서비스 기준선에서 Visual Studio 업데이트](update-servicing-baseline.md)

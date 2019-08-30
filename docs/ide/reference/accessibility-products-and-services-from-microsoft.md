@@ -1,8 +1,10 @@
 ---
 title: Microsoft의 내게 필요한 옵션 제품 및 서비스
 description: 장애가 있는 사용자를 포함하여 모든 사용자가 운영 체제, 프로그램 및 애플리케이션에 더욱 쉽게 액세스할 수 있도록 하는 Microsoft의 제품 및 서비스에 대해 자세히 알아봅니다.
-ms.date: 08/22/2017
+ms.date: 08/23/2019
 ms.topic: conceptual
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
 helpviewer_keywords:
 - TTY/TDD services
 - documentation, recorded documentation
@@ -19,30 +21,19 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: ec9b86958f2e3b3e768b321db17e707dced1d78b
-ms.sourcegitcommit: 5216c15e9f24d1d5db9ebe204ee0e7ad08705347
+ms.openlocfilehash: 87416903b469293d292bfa4414d425c31d0c9154
+ms.sourcegitcommit: 8a699df154464387f327691dce507d7c3d0e2aab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68926266"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "70060395"
 ---
 # <a name="accessibility-products-and-services-from-microsoft"></a>Microsoft의 내게 필요한 옵션 제품 및 서비스
 
-> [!TIP]
-> Visual Studio의 내게 필요한 옵션 최신 업데이트에 대한 자세한 내용은 [Visual Studio 2017 버전 15.3의 내게 필요한 옵션 개선](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) 블로그 게시물을 참조하세요.
+Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽게 만들기 위해 최선을 다하고 있습니다. 이 페이지에서는 장애가 있는 사용자가 Microsoft Windows를 보다 쉽게 사용할 수 있도록 하는 기능, 제품 및 서비스에 대한 정보를 제공합니다.
 
-Microsoft는 제품과 서비스를 모든 사용자가 사용하기 더욱 쉽게 만들기 위해 최선을 다하고 있습니다. 다음 항목에서는 장애가 있는 사용자가 Microsoft Windows를 보다 쉽게 사용할 수 있도록 하는 기능, 제품 및 서비스에 대한 정보를 제공합니다.
-
-- [Windows의 접근성 기능](../../ide/reference/accessibility-products-and-services-from-microsoft.md#windows)
-
-- [대체 형식의 설명서](../../ide/reference/accessibility-products-and-services-from-microsoft.md#altfortmats)
-
-- [청각 장애가 있는 사용자를 위한 고객 서비스](../../ide/reference/accessibility-products-and-services-from-microsoft.md#hearing)
-
-- [추가 정보](../../ide/reference/accessibility-products-and-services-from-microsoft.md#moreinfo)
-
-> [!NOTE]
-> 이 섹션의 정보는 미국에서 Microsoft 제품 사용 허가를 받은 사용자에게만 적용될 수 있습니다. 미국 이외의 지역에서 이 제품을 구입한 경우 소프트웨어 패키지와 함께 제공된 Microsoft 자회사 정보 카드를 사용하거나 [Microsoft 접근성](http://go.microsoft.com/fwlink/?LinkId=8431) 웹 사이트를 방문하여 Microsoft 지원 서비스 전화 번호와 주소 목록을 볼 수 있습니다. 자회사에 연락하여 이 섹션에서 설명하는 제품 및 서비스 유형이 해당 지역에서 제공되는지 확인할 수 있습니다. 내게 필요한 옵션에 대한 정보는 일본어, 프랑스어 등 다른 언어로도 제공됩니다.
+> [!IMPORTANT]
+> 이 페이지의 정보는 미국에서 Microsoft 제품의 사용을 허가하는 사용자에게만 적용될 수 있습니다. 미국 이외의 지역에서 이 제품을 구입한 경우 [Microsoft 접근성](http://go.microsoft.com/fwlink/?LinkId=8431) 웹 사이트를 방문하여 Microsoft 지원 서비스 전화 번호와 주소 목록을 볼 수 있습니다. 자회사에 연락하여 이 페이지에서 설명하는 제품 및 서비스 유형이 해당 지역에서 제공되는지 확인할 수 있습니다. 접근성에 대한 정보는 다른 언어로도 제공됩니다.
 
 ## <a name="windows"></a> Windows의 접근성 기능
 
@@ -66,9 +57,8 @@ Microsoft 제품의 단계별 자습서를 보려면 [Microsoft 접근성](http:
 
 또한 Learning Ally에서 Microsoft 설명서를 추가로 얻을 수 있습니다. Learning Ally에서는 배포 서비스에 등록된 정식 사용자에게 이러한 설명서를 배포합니다. Microsoft 제품 설명서 및 Microsoft Press 책자의 사용 가능 여부에 대한 자세한 내용은 다음 연락처로 문의하세요.
 
-|Learning Ally|
-| - |
-|20 Roszel Road<br /><br /> Princeton, NJ 08540<br /><br /> Learning Ally 웹 사이트: [http://www.learningally.org](http://www.learningally.org/).|
+> Learning Ally<br />
+> 20 Roszel Road<br /> Princeton, NJ 08540<br /><br /> Learning Ally 웹 사이트: [http://www.learningally.org](http://www.learningally.org/)
 
 웹 주소는 변경될 수 있으므로 여기에 나와 있는 웹 사이트에 연결되지 않을 수도 있습니다.
 
@@ -86,7 +76,15 @@ Microsoft 지원 서비스에는 서비스 이용 시점의 가격, 약관 및 �
 
 컴퓨터의 접근성 기술이 장애가 있는 사용자에게 어떤 도움을 주는지에 대한 자세한 내용은 [Microsoft 접근성](http://go.microsoft.com/fwlink/?LinkId=8431) 웹 사이트를 참조하세요.
 
+::: moniker range="vs-2017"
+
+> [!TIP]
+> Visual Studio의 내게 필요한 옵션 최신 업데이트에 대한 자세한 내용은 [Visual Studio 2017 버전 15.3의 내게 필요한 옵션 개선](https://devblogs.microsoft.com/visualstudio/accessibility-improvements-in-visual-studio-2017-version-15-3/) 블로그 게시물을 참조하세요.
+
+::: moniker-end
+
 ## <a name="see-also"></a>참고 항목
 
 * [액세스 가능한 애플리케이션 설계를 위한 리소스](../../ide/reference/resources-for-designing-accessible-applications.md)
 * [Visual Studio의 접근성 기능](../../ide/reference/accessibility-features-of-visual-studio.md)
+* [Mac용 Visual Studio 접근성](/visualstudio/mac/accessibility)

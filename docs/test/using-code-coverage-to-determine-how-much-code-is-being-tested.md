@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 4a25fbffa21a7caeab1cf5910e1da95d7fba09e5
-ms.sourcegitcommit: 59e5758036223ee866f3de5e3c0ab2b6dbae97b6
+ms.openlocfilehash: f6aa9cb62bc0ae956a85acd75d1a9615a2283133
+ms.sourcegitcommit: f42b5318c5c93e2b5ecff44f408fab8bcdfb193d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68416449"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "69976776"
 ---
 # <a name="use-code-coverage-to-determine-how-much-code-is-being-tested"></a>코드 검사를 사용하여 테스트할 코드 범위 결정
 
@@ -36,7 +36,12 @@ ms.locfileid: "68416449"
 
 ## <a name="to-analyze-code-coverage-on-unit-tests-in-test-explorer"></a>테스트 탐색기의 단위 테스트에서 코드 검사를 분석하려면
 
+::: moniker range="vs-2017"
 1. **테스트** 메뉴에서 **코드 검사 분석**을 선택합니다.
+::: moniker-end
+::: moniker range=">=vs-2019"
+1. **테스트 탐색기**의 **실행** 메뉴에서 **코드 검사 분석**을 선택합니다.
+::: moniker-end
 
 2. 실행된 줄을 확인하려면 ![코드 검사 강조 표시 아이콘](../test/media/codecoverage-showcoloringicon.png)**코드 검사 강조 표시**를 선택합니다.
 
