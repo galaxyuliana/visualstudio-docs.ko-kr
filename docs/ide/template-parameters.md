@@ -10,12 +10,12 @@ helpviewer_keywords:
 author: gewarren
 ms.author: gewarren
 manager: jillfra
-ms.openlocfilehash: 7442eebcd566470616382367fbdaad5cce774155
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+ms.openlocfilehash: 90035e99c13484bd1b49e59350489ed1090b5f4e
+ms.sourcegitcommit: 673b9364fc9a96b027662dcb4cf5d61cab60ef11
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62950334"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "69891264"
 ---
 # <a name="template-parameters"></a>템플릿 매개 변수
 
@@ -57,7 +57,8 @@ ms.locfileid: "62950334"
 |projectname|프로젝트를 만들 때 사용자가 제공한 이름입니다.|
 |registeredorganization|HKLM\Software\Microsoft\Windows NT\CurrentVersion\RegisteredOrganization의 레지스트리 키 값입니다.|
 |rootnamespace|현재 프로젝트의 루트 네임스페이스입니다. 이 매개 변수는 항목 템플릿에만 적용됩니다.|
-|safeitemname|`itemname`과 동일하지만 안전하지 않은 문자 및 공백은 모두 제거합니다.|
+|safeitemname|`itemname`과 동일하지만, 모든 안전하지 않은 문자와 공백이 밑줄 문자로 대체됩니다.|
+|safeitemrootname|`safeitemname`와 동일합니다.|
 |safeprojectname|프로젝트를 만들 때 사용자가 제공했지만 안전하지 않은 문자 및 공백을 모두 제거한 이름입니다.|
 |시간|DD/MM/YYYY 00:00:00 형식인 현재 시간입니다.|
 |SpecificSolutionName|솔루션의 기본 이름. "솔루션 디렉터리 만들기"를 선택한 경우 `SpecificSolutionName`에는 솔루션 이름이 있습니다. "솔루션 디렉터리 만들기"를 선택하지 않은 경우 `SpecificSolutionName`은 비어 있습니다.|

@@ -9,12 +9,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: e439ab3ca22fdb26992164c3927269a0f58a1f3b
-ms.sourcegitcommit: 5b34052a1c7d86179d7898ed532babb2d9dad4a3
+ms.openlocfilehash: 5060b2a3b532de26d78eca4ce16661768748bbd7
+ms.sourcegitcommit: 673b9364fc9a96b027662dcb4cf5d61cab60ef11
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490710"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "69891350"
 ---
 # <a name="unit-test-basics"></a>단위 테스트 기본 사항
 
@@ -209,7 +209,7 @@ Microsoft 유닛 테스트 프레임워크에 대한 자세한 내용은 다음 
 
 ## <a name="set-timeouts-for-unit-tests"></a>단위 테스트에 대한 시간 제한 설정
 
-개별 테스트 메서드에 대해 제한 시간을 설정하려면
+MSTest 프레임워크를 사용하는 경우 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute>를 사용하여 개별 테스트 메서드에서 시간 제한을 설정할 수 있습니다.
 
 ```csharp
 [TestMethod]

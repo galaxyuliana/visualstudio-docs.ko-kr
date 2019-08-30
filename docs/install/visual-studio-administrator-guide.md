@@ -17,12 +17,12 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-ms.openlocfilehash: 9a586a0ab0d6b7a3ab34ef581e2ba6f5348232c2
-ms.sourcegitcommit: 7eb2fb21805d92f085126f3a820ac274f2216b4e
+ms.openlocfilehash: 89f34d027ec238b1e34724924ffb163267d56dc0
+ms.sourcegitcommit: 0bd63f3bc429ae059b9df6e45c6b8dcae6152940
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "67328788"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70026479"
 ---
 # <a name="visual-studio-administrator-guide"></a>Visual Studio 관리자 가이드
 
@@ -95,7 +95,7 @@ ms.locfileid: "67328788"
 
 * (선택 사항) 사용자가 소프트웨어를 별도로 활성화할 필요가 없도록 설치 스크립트의 일부로 [볼륨 라이선스 제품 키를 적용](automatically-apply-product-keys-when-deploying-visual-studio.md?view=vs-2019)합니다.
 
-* (선택 사항) 네트워크 레이아웃을 업데이트하여 [제품 업데이트가 최종 사용자에게 전달되는 시점 및 위치을 제어](controlling-updates-to-visual-studio-deployments.md?view=vs-2019)합니다.
+* (선택 사항) 네트워크 레이아웃을 업데이트하여 [제품 업데이트가 최종 사용자에게 전달되는 시점 및 위치를 제어](controlling-updates-to-visual-studio-deployments.md?view=vs-2019)합니다.
 
 * (선택 사항) 다른 버전 또는 인스턴스와 공유되는 일부 패키지를 설치하는 위치, [패키지를 캐시하는 위치](set-defaults-for-enterprise-deployments.md?view=vs-2019) 또는 [패키지를 캐시하는지 여부](disable-or-move-the-package-cache.md?view=vs-2019) 등 Visual Studio의 배포에 영향을 미치는 레지스트리 정책을 설정합니다.
 
@@ -134,7 +134,7 @@ ms.locfileid: "67328788"
 
 * (선택 사항) 사용자가 소프트웨어를 별도로 활성화할 필요가 없도록 설치 스크립트의 일부로 [볼륨 라이선스 제품 키를 적용](automatically-apply-product-keys-when-deploying-visual-studio.md?view=vs-2017)합니다.
 
-* (선택 사항) 네트워크 레이아웃을 업데이트하여 [제품 업데이트가 최종 사용자에게 전달되는 시점 및 위치을 제어](controlling-updates-to-visual-studio-deployments.md?view=vs-2017)합니다.
+* (선택 사항) 네트워크 레이아웃을 업데이트하여 [제품 업데이트가 최종 사용자에게 전달되는 시점 및 위치를 제어](controlling-updates-to-visual-studio-deployments.md?view=vs-2017)합니다.
 
 * (선택 사항) 다른 버전 또는 인스턴스와 공유되는 일부 패키지를 설치하는 위치, [패키지를 캐시하는 위치](set-defaults-for-enterprise-deployments.md?view=vs-2019) 또는 [패키지를 캐시하는지 여부](disable-or-move-the-package-cache.md?view=vs-2017) 등 Visual Studio의 배포에 영향을 미치는 레지스트리 정책을 설정합니다.
 

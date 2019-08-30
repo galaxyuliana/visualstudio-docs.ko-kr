@@ -13,12 +13,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 37d31f76a448933bb3809cd609ebd355c8e0a04b
-ms.sourcegitcommit: ce1ab8a25c66a83e60eab80ed8e1596fe66dd85c
+ms.openlocfilehash: 31d829a668a2c9690333315c30904623187fe51d
+ms.sourcegitcommit: f42b5318c5c93e2b5ecff44f408fab8bcdfb193d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "68605956"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "69976753"
 ---
 # <a name="options-dialog-box-projects-and-solutions--general"></a>옵션 대화 상자: 프로젝트 및 솔루션 \> 일반
 
@@ -70,11 +70,31 @@ ms.locfileid: "68605956"
 
 ## <a name="reopen-documents-on-solution-load"></a>솔루션 로드 시 문서 다시 열기
 
-**Visual Studio 2017 버전 15.8에 도입됨**
-
 이 옵션을 선택하면 이 솔루션이 닫힐 때 열려 있던 문서가 솔루션이 열릴 때 자동으로 열립니다.
 
 특정 유형의 파일 또는 디자이너를 다시 열면 솔루션 로드가 지연될 수 있습니다. 솔루션의 이전 컨텍스트를 복원하지 않으려면 이 옵션을 선택 취소하여 [솔루션 로드 성능을 개선](../../ide/visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore)합니다.
+
+::: moniker range=">=vs-2019"
+
+## <a name="restore-solution-explorer-project-hierarchy-state-on-solution-load"></a>솔루션 로드 시 솔루션 탐색기 프로젝트 계층 구조 상태 복원
+
+이 옵션을 선택하면 솔루션이 마지막으로 열렸을 때 노드가 확장 또는 축소되었는지 여부에 따라 솔루션 탐색기에서 노드 상태를 복원합니다. 대규모 솔루션의 솔루션 로드 시간을 줄이려면 이 옵션을 선택 취소합니다.
+
+> [!TIP]
+> 이 옵션을 사용하지 않도록 설정하면 **솔루션 탐색기** 도구 모음에서 **활성 문서와 동기화**를 선택하여 솔루션 탐색기에서 활성 문서로 쉽게 이동할 수 있습니다.
+>
+> ![솔루션 탐색기에서 활성 문서와 동기화](media/sync-active-document.png)
+
+## <a name="open-sdk-style-project-files-with-double-click-or-the-enter-key"></a>두 번 클릭 또는 Enter 키를 사용하여 SDK 스타일 프로젝트 파일 열기
+
+이 옵션을 선택하고 솔루션 탐색기에서 SDK 스타일 프로젝트 노드를 두 번 클릭하거나 해당 노드를 선택한 후 **Enter** 키를 누르면 프로젝트 파일(예: \*.csproj 파일)이 편집기에서 XML로 열립니다. 이 옵션을 선택 취소하면 솔루션 탐색기에서 SDK 스타일 프로젝트 노드를 두 번 클릭하거나 해당 노드를 선택한 후 **Enter** 키를 누르면 해당 노드만 확장 또는 축소됩니다.
+
+이 옵션을 선택하지 않고 SDK 스타일 프로젝트 파일을 편집하려면 솔루션 탐색기에서 프로젝트 노드를 마우스 오른쪽 단추로 클릭하고 **프로젝트 파일 편집**을 선택합니다. 다른 프로젝트 형식의 경우 Visual Studio에서 프로젝트를 편집하기 전에 먼저 프로젝트를 언로드해야 합니다.
+
+> [!TIP]
+> ‘SDK 스타일 프로젝트’ 또는 [프로젝트 SDK](../../msbuild/how-to-use-project-sdk.md)에는 MSBuild 15.0에 도입된 더욱 간소화된 최신 프로젝트 파일 형식이 있습니다.  SDK 스타일 프로젝트에는 `Project` 요소에 대한 `Sdk` 특성(예: `<Project Sdk="Microsoft.NET.Sdk">`)이 포함됩니다. Visual Studio 템플릿 중 하나에서 새 .NET Core 프로젝트를 만들면 Visual Studio에서 SDK 스타일 프로젝트가 생성됩니다. 예를 들어 다음과 같습니다.
+
+::: moniker-end
 
 ## <a name="see-also"></a>참고 항목
 

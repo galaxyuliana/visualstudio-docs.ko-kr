@@ -8,12 +8,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 9f567e07ea085844672f04194e4a4ffc5a9318e4
-ms.sourcegitcommit: 75807551ea14c5a37aa07dd93a170b02fc67bc8c
+ms.openlocfilehash: 6f670449be9b416d1c54bc83379bae4a6733d932
+ms.sourcegitcommit: f42b5318c5c93e2b5ecff44f408fab8bcdfb193d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67824808"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "69976722"
 ---
 # <a name="synchronize-visual-studio-settings-across-multiple-computers"></a>여러 컴퓨터에서 Visual Studio 설정 동기화
 
@@ -71,7 +71,7 @@ Visual Studio의 동기화된 설정이 기본적으로 켜져 있습니다. **�
 
 1. Visual Studio 2017 버전 15.3 이상으로 업그레이드합니다.
 
-2. **설정 가져오기\내보내기** 마법사를 사용하여 모든 기존 설정을 *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* 폴더 외부의 위치로 내보냅니다.
+2. **설정 가져오기 및 내보내기** 마법사를 사용하여 모든 기존 설정을 *%localappdata%\Microsoft\VisualStudio\15.0_xxxxxxxx* 폴더 외부의 위치로 내보냅니다.
 
 3. **VS 2017용 개발자 명령 프롬프트**를 열고 `devenv /resetuserdata`를 실행합니다.
 
@@ -84,6 +84,10 @@ Visual Studio의 동기화된 설정이 기본적으로 켜져 있습니다. **�
 도구 창 레이아웃 같은 특정 설정은 Visual Studio의 side-by-side 설치 간에 공유되지 않습니다. *%userprofile%\Documents\Visual Studio 2019\Settings*에서 *CurrentSettings.vssettings* 파일은 *%localappdata%\ Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*와 비슷한 설치 관련 폴더에 있습니다.
 
 ::: moniker-end
+
+## <a name="reset-synchronized-settings"></a>동기화된 설정 다시 설정
+
+모든 설정을 기본값으로 다시 설정하려면 Visual Studio에 로그인한 후 **도구** > **설정 가져오기 및 내보내기**를 선택하여 **설정 가져오기 및 내보내기 마법사**를 엽니다. **모두 다시 설정**을 선택한 후 마법사의 나머지 단계를 따릅니다.
 
 ## <a name="see-also"></a>참고 항목
 
