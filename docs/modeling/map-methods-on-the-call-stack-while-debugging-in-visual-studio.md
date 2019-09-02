@@ -28,12 +28,12 @@ ms.author: gewarren
 manager: jillfra
 ms.workload:
 - multiple
-ms.openlocfilehash: 8641a677ae36ad5a3c1f0f4344fc5c12b8798d7d
-ms.sourcegitcommit: 47eeeeadd84c879636e9d48747b615de69384356
-ms.translationtype: HT
+ms.openlocfilehash: 061204de382e95349e141e3321aa033fcf9ccdbc
+ms.sourcegitcommit: 44e9b1d9230fcbbd081ee81be9d4be8a485d8502
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63445147"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70180079"
 ---
 # <a name="map-methods-on-the-call-stack-while-debugging-in-visual-studio"></a>Visual Studio에서 디버깅하는 동안 호출 스택의 맵 메서드
 
@@ -51,7 +51,7 @@ ms.locfileid: "63445147"
 
 ::: moniker range="vs-2019"
 
-- [Visual Studio Enterprise](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)
+- [Visual Studio Enterprise](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 
@@ -59,7 +59,7 @@ ms.locfileid: "63445147"
 
   참조
 
-- [비디오: 코드 맵 디버거 통합 (채널 9)를 사용 하 여 시각적으로 디버그](http://go.microsoft.com/fwlink/?LinkId=293418)
+- [비디오: 코드 맵 디버거 통합으로 시각적으로 디버그 (Channel 9)](http://go.microsoft.com/fwlink/?LinkId=293418)
 
 - [호출 스택 매핑](#MapStack)
 
@@ -79,7 +79,7 @@ ms.locfileid: "63445147"
 
 1. 디버깅을 시작합니다. (키보드: **F5**)
 
-2. 중단 모드를 시작 하는 앱 또는 함수에 단계 후에 선택할 **코드 맵**합니다. (키보드: **Ctrl** + **Shift** + **`**)
+2. 중단 모드를 시작 하는 앱 또는 함수에 단계 후에 선택할 **코드 맵**합니다. (키보드: **Ctrl** + **Shift** +  **`** )
 
      ![호출 스택 매핑을 시작할 코드 맵 선택](../debugger/media/debuggermap_choosecodemap.png)
 
@@ -105,7 +105,7 @@ ms.locfileid: "63445147"
 
  이제 맵-새로운 다음? C# 또는 Visual Basic을 사용 하 여 작업할 경우 등, 필드, 속성 및 추적 코드에서 발생 하는 다른 메서드를 추가 합니다.
 
- 메서드를 두 번 클릭하여 코드 정의를 보거나 메서드에 대한 바로 가기 메뉴를 사용합니다. (키보드: 맵 및 키를 눌러 메서드를 선택 **F12**)
+ 메서드를 두 번 클릭하여 코드 정의를 보거나 메서드에 대한 바로 가기 메뉴를 사용합니다. (키보드: 맵에서 메서드를 선택 하 고 **F12**키를 누릅니다.)
 
  ![코드 맵의 메서드에 대한 코드 정의로 이동](../debugger/media/debuggermap_gotocodedefinition.png)
 
@@ -156,7 +156,7 @@ ms.locfileid: "63445147"
 
    맵을 변경 코드에 전혀 영향을 주지 않습니다. 맵에서 이름 바꾸기, 이동 또는 제거 기능을 자유롭게 사용할 수 있습니다.
 
-- **이 메시지는 무엇을 의미 합니다. "다이어그램이 코드의 이전 버전에서 기반 수 있습니다"?**
+- **이 메시지의 의미는 다음과 같습니다. "다이어그램은 이전 버전의 코드를 기반으로 할 수 있습니다."**
 
    지도를 마지막으로 업데이트한 후 코드가 변경되었을 수 있습니다. 예를 들어 맵에 대한 호출이 더 이상 코드에 없는 경우가 있습니다. 메시지를 닫은 다음 맵을 다시 업데이트하기 전에 솔루션 다시 빌드를 시도합니다.
 
@@ -178,7 +178,7 @@ ms.locfileid: "63445147"
 
 - **맵에 새 호출 스택이 자동으로 추가 중지 하는 방법**
 
-   선택할 ![단추 &#45; 자동으로 코드 맵에 표시 호출 스택](../debugger/media/debuggermap_automaticupdateicon.gif) 맵 도구 모음의 합니다. 현재 호출 스택을 맵에 수동으로 추가 하려면 다음을 누릅니다 **Ctrl** + **Shift** + **`** 합니다.
+   선택할 ![단추 &#45; 자동으로 코드 맵에 표시 호출 스택](../debugger/media/debuggermap_automaticupdateicon.gif) 맵 도구 모음의 합니다. 현재 호출 스택을 맵에 수동으로 추가 하려면 다음을 누릅니다 **Ctrl** + **Shift** +  **`** 합니다.
 
    맵을 디버깅할 때 기존 호출 스택을 맵에서 강조 표시를 계속 됩니다.
 
