@@ -12,16 +12,16 @@ manager: jillfra
 ms.workload:
 - aspnet
 - azure
-ms.openlocfilehash: fae6be8932731e5589dbc27f5084bcbc509680c1
-ms.sourcegitcommit: 9fc8b144d4ed1c46aba87c0b7e1d24454e0eea9d
+ms.openlocfilehash: 6944c930ba6357fffeebba417a32cd167bd4debd
+ms.sourcegitcommit: 44e9b1d9230fcbbd081ee81be9d4be8a485d8502
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "68493312"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70179828"
 ---
 # <a name="debug-live-aspnet-azure-apps-using-the-snapshot-debugger"></a>스냅샷 디버거를 사용하여 라이브 ASP.NET Azure 앱 디버그
 
-스냅샷 디버거는 관심이 있는 코드가 실행될 때 프로덕션 상태 앱의 스냅샷을 생성합니다. 디버거가 스냅샷을 생성하도록 명령하려면 코드에서 snappoint와 logpoint를 설정합니다. 디버거를 통해 프로덕션 애플리케이션의 트래픽에 영향을 미치지 않으면서 정확히 무엇이 잘못되었는지를 볼 수 있습니다. 스냅샷 디버거를 사용하면 프로덕션 환경에서 발생하는 문제를 해결하는 데 걸리는 시간을 상당히 줄일 수 있습니다.
+스냅샷 디버거는 관심이 있는 코드가 실행될 때 프로덕션 상태 앱의 스냅샷을 생성합니다. 디버거가 스냅숏을 생성하도록 명령하려면 코드에서 snappoint와 logpoint를 설정합니다. 디버거를 통해 프로덕션 애플리케이션의 트래픽에 영향을 미치지 않으면서 정확히 무엇이 잘못되었는지를 볼 수 있습니다. 스냅샷 디버거를 사용하면 프로덕션 환경에서 발생하는 문제를 해결하는 데 걸리는 시간을 상당히 줄일 수 있습니다.
 
 snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snappoint는 적중될 때 애플리케이션을 중지시키지 않습니다. 일반적으로 snappoint에서 스냅샷을 캡처하는 데는 10~20밀리초가 걸립니다.
 
@@ -32,12 +32,12 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 > * snappoint 설정 및 스냅샷 보기
 > * logpoint 설정
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 * 스냅숏 디버거은 **Azure 개발 워크 로드**를 사용 하 여 Visual Studio 2017 Enterprise 버전 15.5 이상 에서만 사용할 수 있습니다. (**개별 구성 요소** 탭의 **디버깅 및 테스트** > **스냅샷 디버거**에서 찾을 수 있습니다.)
 
    ::: moniker range=">=vs-2019"
-   아직 설치 하지 않은 경우 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019)을 설치 합니다. 이전 Visual Studio 설치에서 업데이트 하는 경우 Visual Studio 설치 관리자를 실행 하 고 **ASP.NET 및 웹 개발 워크 로드**에서 스냅숏 디버거 구성 요소를 확인 합니다.
+   아직 설치 하지 않은 경우 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads)을 설치 합니다. 이전 Visual Studio 설치에서 업데이트 하는 경우 Visual Studio 설치 관리자를 실행 하 고 **ASP.NET 및 웹 개발 워크 로드**에서 스냅숏 디버거 구성 요소를 확인 합니다.
    ::: moniker-end
    ::: moniker range="<=vs-2017"
    아직 설치되지 않은 경우 [Visual Studio 2017 Enterprise 버전 15.5](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) 이상을 설치하세요. 이전 Visual Studio 2017 설치에서 업데이트 하는 경우 Visual Studio 설치 관리자를 실행 하 고 **ASP.NET 및 웹 개발 워크 로드**에서 스냅숏 디버거 구성 요소를 확인 합니다.
@@ -45,7 +45,7 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
 * 기본 이상의 Azure App Service 계획이 있어야 합니다.
 
-* 스냅샷 컬렉션은 Azure App Service에서 실행되는 다음 웹앱에서 사용할 수 있습니다.
+* 스냅숏 컬렉션은 Azure App Service에서 실행되는 다음 웹앱에서 사용할 수 있습니다.
   * .NET Framework 4.6.1 이상에서 실행되는 ASP.NET 애플리케이션
   * Windows의 .NET Core 2.0 이상에서 실행되는 ASP.NET Core 애플리케이션
 
@@ -58,7 +58,7 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
 ::: moniker range="<=vs-2017"
 
-2. 클라우드 탐색기(**보기 > 클라우드 탐색기**)에서 프로젝트가 배포된 Azure App Service를 마우스 오른쪽 단추로 클릭하고 **스냅숏 디버거 연결**을 선택합니다.
+2. 클라우드 탐색기(**보기 &gt; 클라우드 탐색기**)에서 프로젝트가 배포된 Azure App Service를 마우스 오른쪽 단추로 클릭하고 **스냅샷 디버거 연결**을 선택합니다.
 
    ![스냅샷 디버거 시작](../debugger/media/snapshot-launch.png)
 
@@ -66,7 +66,7 @@ snappoint 및 logpoint는 중단점과 유사하지만, 중단점과 달리 snap
 
 ::: moniker range=">=vs-2019"
 
-2. **디버그 > 스냅숏 디버거 연결...** 을 선택합니다. 프로젝트가 배포된 Azure App Service 및 Azure Storage 계정을 선택하고 **연결**을 클릭합니다. 스냅숏 디버거 [Azure Kubernetes Service](debug-live-azure-kubernetes.md) 및 [AZURE Virtual Machines (VM) & Virtual Machine Scale Sets](debug-live-azure-virtual-machines.md)도 지원 합니다.
+2. **디버그 &gt; 스냅샷 디버거 연결...** 을 선택합니다. 프로젝트가 배포된 Azure App Service 및 Azure Storage 계정을 선택하고 **연결**을 클릭합니다. 스냅숏 디버거 [Azure Kubernetes Service](debug-live-azure-kubernetes.md) 및 [AZURE Virtual Machines (VM) & Virtual Machine Scale Sets](debug-live-azure-virtual-machines.md)도 지원 합니다.
 
    ![디버그 메뉴에서 스냅샷 디버거 시작](../debugger/media/snapshot-debug-menu-attach.png)
 
